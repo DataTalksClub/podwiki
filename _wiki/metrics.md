@@ -14,9 +14,9 @@ related:
 
 Metrics quantify success, failure, risk, or system behavior. In the
 DataTalks.Club archive, teams don't treat metrics as dashboard numbers only.
-They use metrics to decide what an experiment means, how a model compares with
-a baseline, whether a data product has impact, and when a production system
-needs attention.
+They use metrics to decide what an experiment means and how a model compares
+with a baseline. Metrics also show whether a data product has impact and when a
+production system needs attention.
 
 Use this page for metric design across product analytics, experimentation,
 ML evaluation, and data product management. Use
@@ -25,7 +25,7 @@ variance affects experiment duration.
 
 ## Contents
 
-This page uses these sections:
+Use these sections:
 
 - [Recurring Archive Themes](#recurring-archive-themes)
 - [Episode Evidence](#episode-evidence)
@@ -47,7 +47,7 @@ click-through rate, and weekly or yearly seasonality can bias short tests.
 Experiments need one primary decision metric and guardrails. The archive warns
 against choosing five primary metrics for a first test because the conclusion
 becomes unclear. Guardrail metrics still watch for harm, including churn,
-latency, cost, crashes, and revenue cannibalization.
+latency, crashes, and revenue cannibalization.
 
 Causal and predictive metrics answer different questions. Causal inference
 episodes compare policies on the same business metric, but also ask whether the
@@ -63,18 +63,18 @@ activation, conversion, and KPI grain before metrics can be trusted.
 These episodes give the strongest evidence:
 
 - [Product Analytics and A/B Testing](https://datatalks.club/podcast.html),
-  14:27-18:06: uses a subscription model experiment to ground revenue metric
+  14:27-18:06, uses a subscription model experiment to ground revenue metric
   design. Source:
   `../datatalksclub.github.io/_podcast/ab-testing-and-product-experimentation.md`.
 - [Product Analytics and A/B Testing](https://datatalks.club/podcast.html),
-  30:05-37:44: recommends one decision metric, explains noisy versus stable
+  30:05-37:44, recommends one decision metric, explains noisy versus stable
   metrics, and discusses weekly and larger business cycles.
 - [Product Analytics and A/B Testing](https://datatalks.club/podcast.html),
-  40:23-57:10: connects metric distributions to test choice and p-values. It
+  40:23-57:10, connects metric distributions to test choice and p-values. It
   also compares frequentist intervals, Bayesian intervals, and stakeholder
   communication.
 - [Causal Inference for Real-World ML](https://datatalks.club/podcast.html),
-  32:40-37:37: distinguishes policy metrics from causal-model validation and
+  32:40-37:37, distinguishes policy metrics from causal-model validation and
   emphasizes comparing causal and baseline policies with the same business
   metric. Source:
   `../datatalksclub.github.io/_podcast/causal-inference-for-machine-learning.md`.

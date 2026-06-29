@@ -14,9 +14,9 @@ related:
 
 Teams do applied research when they aim research at a practical product,
 workflow, or business decision. In the podcast archive, applied researchers
-produce datasets, models, benchmarks, experiments, prototypes, and product
-insights. The work is still scientific, but it's anchored to a use case, market,
-domain, or production path.
+produce datasets and models. They also produce benchmarks, experiments,
+prototypes, and product insights. The work is still scientific, but it's
+anchored to a use case and domain. Production constraints guide it too.
 
 Use this page when evidence connects research to practical ML systems. Use
 [Academic Researcher to Data Science]({{ '/wiki/academic-researcher-to-data-science/' | relative_url }})
@@ -38,11 +38,11 @@ describes the first model as a hypothesis about how a system works. The
 researcher then uses data, experiments, model behavior, and explainability to
 refine that hypothesis. Production feedback can confirm or reject it.
 
-Teams should make research artifacts reusable. The archive treats novel
+Research teams should make artifacts reusable. The archive treats novel
 datasets, benchmarks, model prototypes, and experimental results as
 intellectual property that downstream data scientists and ML engineers can
-reuse. Applied research is
-valuable when it improves the next product decision or production build.
+reuse. This work is valuable when it improves the next product decision or
+production build.
 
 The research-to-production gap is organizational as much as technical. Mihail
 Eric argues for embedded teams, role fluidity, code reviews for researchers,
@@ -51,35 +51,34 @@ researchers throw notebooks over the wall and engineers receive unclear
 assumptions.
 
 Real-world deployment changes the research question. Computer-vision and
-autonomous-driving episodes move from model quality to latency, sensor cost, and
-labeling. They also bring in simulation, staged rollouts, privacy, safety
-checks, edge cases, and system coordination.
+autonomous-driving episodes move from model quality to latency and sensor cost.
+They also bring in labeling, simulation, staged rollouts, and privacy. Safety
+checks, edge cases, and system coordination become part of the work too.
 
 ## Episode Evidence
 
 These episodes give the strongest applied-research evidence.
 
-- [Monetize Machine Learning](https://datatalks.club/podcast.html),
-  20:15-29:18. Vin Vashishta separates applied researchers from science
+- [Monetize Machine Learning](https://datatalks.club/podcast.html)
+  (20:15-29:18) separates applied researchers from science
   researchers and frames applied research as business-aligned artifact creation.
-- [Monetize Machine Learning](https://datatalks.club/podcast.html),
-  36:10-43:28. The episode defines research as hypothesis design,
-  experimentation, and explainability. It also covers model deconstruction and
-  iterative evidence gathering.
-- [From Research to Production](https://datatalks.club/podcast.html),
-  8:34-20:25. Mihail Eric covers research infrastructure, prototyping,
-  benchmarks, and experimental tooling. The same section covers deployment
-  stacks.
-- [From Research to Production](https://datatalks.club/podcast.html),
-  23:32-51:28. The same episode covers reproducibility, engineering rigor,
+- [Monetize Machine Learning](https://datatalks.club/podcast.html)
+  (36:10-43:28) defines research as hypothesis design,
+  experimentation, and explainability while also covering model deconstruction
+  and iterative evidence gathering.
+- [From Research to Production](https://datatalks.club/podcast.html)
+  (8:34-20:25) covers research infrastructure, prototyping, and benchmarks while
+  Mihail also discusses experimental tooling and deployment stacks.
+- [From Research to Production](https://datatalks.club/podcast.html)
+  (23:32-51:28) covers reproducibility, engineering rigor,
   embedded teams, and code reviews. Later sections cover end-to-end systems,
   paper reading, and model reproduction.
-- [Applying Computer Vision Research to Production AI](https://datatalks.club/podcast.html),
-  29:45-36:12. Aishwarya Jadhav describes simulation, closed-track testing, and
-  on-road testing. The section also covers anonymized sensor data, labeling
+- [Applying Computer Vision Research to Production AI](https://datatalks.club/podcast.html)
+  (29:45-36:12) describes simulation, closed-track testing, and
+  on-road testing. Aishwarya also covers anonymized sensor data, labeling
   strategy, safety checks, and staged deployments.
-- [Applying Computer Vision Research to Production AI](https://datatalks.club/podcast.html),
-  51:28-55:25. The episode discusses sensitive-case evaluation, broader scenario
+- [Applying Computer Vision Research to Production AI](https://datatalks.club/podcast.html)
+  (51:28-55:25) discusses sensitive-case evaluation, broader scenario
   tests, gradual rollout, and multimodal LLM constraints.
 
 ## Related Pages

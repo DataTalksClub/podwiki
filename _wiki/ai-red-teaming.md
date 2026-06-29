@@ -34,36 +34,38 @@ Use these sections to move through the page.
 Red teaming should test the real product boundary, not only the base model.
 Maria Sukhareva's chatbot-security episode describes a large bot-safety
 challenge where participants tried to make a restricted chatbot reveal hidden
-data. A deployed assistant includes prompts, retrieval context, output filters,
-APIs, user behavior, and business consequences.
+data. A deployed assistant includes prompts and retrieval context. It also
+includes output filters, APIs, user behavior, and business consequences.
 
-Prompt instructions aren't enough. Attackers can overload prompts, use unusual
-encodings, craft API requests, or route around a weak filter. The archive's
-defense approach layers query analysis, retrieval constraints, output checks,
-non-LLM classifiers, failure logs, and human review for high-stakes workflows.
+Prompt instructions aren't enough because attackers can overload prompts, use
+unusual encodings, craft API requests, or route around a weak filter. The
+archive's defense approach layers query analysis, retrieval constraints, and
+output checks. It also uses non-LLM classifiers, failure logs, and human review
+for high-stakes workflows.
 
 Red teaming also clarifies product risk. The chatbot episode ties failures to
-legal exposure and financial mistakes. It also covers reputational damage,
-hallucinated advice, and poor adoption. That makes red-team findings useful for
+legal exposure, financial mistakes, and reputational damage. It also covers
+hallucinated advice and poor adoption. That makes red-team findings useful for
 product managers and governance reviewers, not only security engineers.
 
 ## Episode Evidence
 
 These episodes give the strongest red-teaming evidence.
 
-- [Hardening Generative AI Chatbots](https://datatalks.club/podcast.html),
-  9:28-17:16. Maria describes a 1,500-person chatbot hacking exercise and
-  hidden knowledge-base extraction. The same section covers prompt overloading,
-  output filters, query analysis, layered defenses, and simpler classifiers.
-- [Hardening Generative AI Chatbots](https://datatalks.club/podcast.html),
-  18:01-25:34. The same episode connects hallucinations and unsafe answers to
+- [Hardening Generative AI Chatbots](https://datatalks.club/podcast.html)
+  (9:28-17:16) describes a 1,500-person chatbot hacking exercise and
+  hidden knowledge-base extraction. Maria also covers prompt overloading,
+  output filters, and query analysis. She then covers layered defenses and
+  simpler classifiers.
+- [Hardening Generative AI Chatbots](https://datatalks.club/podcast.html)
+  (18:01-25:34) connects hallucinations and unsafe answers to
   trust, adoption, business risk, and human review.
 - [Future of AI Agents](https://datatalks.club/podcast.html). The agent
   discussion names red teaming as stress testing in adverse scenarios, such as
   whether users can game a chatbot. Use this as a bridge to agent-specific
   safety when expanding the page.
-- [Responsible and Explainable AI](https://datatalks.club/podcast.html),
-  8:20-10:30 and 27:38-34:03. Supreet Kaur contrasts post-hoc explanation with
+- [Responsible and Explainable AI](https://datatalks.club/podcast.html)
+  (8:20-10:30 and 27:38-34:03) contrasts post-hoc explanation with
   responsible design and shows why review should happen before an incident.
 
 ## Related Pages

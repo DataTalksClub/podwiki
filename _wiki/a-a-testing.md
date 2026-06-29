@@ -23,7 +23,7 @@ real product changes.
 
 ## Contents
 
-This page uses these sections:
+Use these sections:
 
 - [Recurring Archive Themes](#recurring-archive-themes)
 - [Episode Evidence](#episode-evidence)
@@ -32,14 +32,14 @@ This page uses these sections:
 
 ## Recurring Archive Themes
 
-A/A tests reveal assignment problems. Jakob Graff gives the simple warning sign:
-if a planned 50/50 split becomes 60/40, the traffic splitter or triggering logic
+A/A tests reveal assignment problems. Jakob Graff's warning is simple: when a
+planned 50/50 split becomes 60/40, the traffic splitter or triggering logic
 needs investigation before any A/B conclusion is credible.
 
 A/A tests also reveal metric and tracking problems. If both groups see the same
 experience but conversion rates diverge beyond plausible noise, the team should
-look for instrumentation bugs, biased defaults, missing assignment events, or
-analysis mistakes.
+look for instrumentation bugs and biased defaults. Missing assignment events or
+analysis mistakes may also explain the gap.
 
 The practice applies to third-party tools too. The archive notes that external
 experimentation platforms can still produce untrusted splits, so teams should
@@ -54,15 +54,15 @@ treatment exists.
 These episodes give the strongest evidence:
 
 - [Product Analytics and A/B Testing](https://datatalks.club/podcast.html),
-  24:44-27:52: explains traffic splitters, assignment tracking, offline users
-  defaulting into one group, and monitoring around experimentation
-  infrastructure. Source:
+  24:44-27:52, explains traffic splitters and assignment tracking. It also
+  covers offline users defaulting into one group and monitoring around
+  experimentation infrastructure. Source:
   `../datatalksclub.github.io/_podcast/ab-testing-and-product-experimentation.md`.
 - [Product Analytics and A/B Testing](https://datatalks.club/podcast.html),
-  27:52-32:39: defines A/A testing as showing the same experience to both
+  27:52-32:39, defines A/A testing as showing the same experience to both
   groups, then checking split balance and metric comparability.
 - [Product Analytics and A/B Testing](https://datatalks.club/podcast.html),
-  47:44-50:12: uses A/A test logic to explain p-value intuition to product
+  47:44-50:12, uses A/A test logic to explain p-value intuition to product
   stakeholders without leading with formal hypothesis-test language.
 
 ## Related Pages

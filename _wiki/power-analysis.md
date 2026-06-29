@@ -24,7 +24,7 @@ randomized experiment workflow.
 
 ## Contents
 
-This page uses these sections:
+Use these sections:
 
 - [Recurring Archive Themes](#recurring-archive-themes)
 - [Episode Evidence](#episode-evidence)
@@ -34,8 +34,8 @@ This page uses these sections:
 ## Recurring Archive Themes
 
 Power analysis should happen before launch. Jakob Graff frames it as the answer
-to stakeholder pressure: if the team estimates duration upfront, the analyst can
-explain why reading results after one day is unsafe.
+to stakeholder pressure. When the team estimates duration upfront, the analyst
+can explain why reading results after one day is unsafe.
 
 Metric behavior drives sample size. A stable conversion metric may need less
 traffic than a noisy revenue metric with many zeros and a few extreme values.
@@ -57,20 +57,20 @@ unrealistic.
 These episodes give the strongest evidence:
 
 - [Product Analytics and A/B Testing](https://datatalks.club/podcast.html),
-  33:23-37:44: explains noisy metrics, stable metrics, and weekly seasonality.
+  33:23-37:44, explains noisy metrics, stable metrics, and weekly seasonality.
   It also covers retention examples and business cycles that affect experiment
   planning. Source:
   `../datatalksclub.github.io/_podcast/ab-testing-and-product-experimentation.md`.
 - [Product Analytics and A/B Testing](https://datatalks.club/podcast.html),
-  37:44-40:23: defines power analysis as using expected improvement, metric
+  37:44-40:23, defines power analysis as using expected improvement, metric
   statistics, and test assumptions. Teams use those inputs to estimate required
   observations and test duration.
 - [Product Analytics and A/B Testing](https://datatalks.club/podcast.html),
-  40:23-45:09: connects power and test choice to error types, confidence
-  levels, p-values, and revenue distributions. The same section discusses fat
-  tails and nonparametric tests.
+  40:23-45:09, connects power and test choice to error types and confidence
+  levels. Jakob also discusses p-values, revenue distributions, fat tails, and
+  nonparametric tests.
 - [Product Analytics and A/B Testing](https://datatalks.club/podcast.html),
-  59:08-1:02:52: explains why A/B/C/D tests take longer because traffic is split
+  59:08-1:02:52, explains why A/B/C/D tests take longer because traffic is split
   across more groups and multiple comparisons increase false-positive risk.
 
 ## Related Pages

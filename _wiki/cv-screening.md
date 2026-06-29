@@ -15,11 +15,11 @@ related:
 
 CV screening is the first hiring filter after sourcing or application. In the
 podcast archive, recruiters and hiring managers use it to decide whether a
-candidate should enter the interview process.
+candidate should enter the interview steps.
 
-Screeners compare the CV or LinkedIn profile with the job description, role
-level, required skills, education signals, project evidence, and practical
-responsibilities. For the whole candidate journey, read
+Screeners compare the CV or LinkedIn profile with the job description and role
+level. They also check required skills, education signals, project evidence, and
+practical responsibilities. For the whole candidate journey, read
 [Job Search]({{ '/wiki/job-search/' | relative_url }}). For employer-side
 funnel design, read [Hiring]({{ '/wiki/hiring/' | relative_url }}).
 
@@ -34,37 +34,36 @@ Use these links to move through the page.
 
 ## Recurring Archive Themes
 
-**Responsibilities beat tool lists.** Recruiters repeatedly say that a tool list
-isn't enough. A strong data CV shows what the candidate personally did, which
-responsibilities they owned, which tools they used in context, and what result
-or decision came from the work. Team accomplishments are useful only when the
-candidate's role is clear.
+Responsibilities beat tool lists. Recruiters repeatedly say that a tool list
+isn't enough. A strong data CV shows what the candidate personally did. It also
+shows owned responsibilities, tools used in context, and the result of the work.
+Team accomplishments are useful only when the candidate's role is clear.
 
-**Screening is a matching problem.** Screeners compare the CV with the job
+Screening is a matching problem. Screeners compare the CV with the job
 description and hiring-manager notes. Keywords matter because they help
 recruiters and sourcers find candidates, but the archive warns against buzzword
-stuffing. Keywords need surrounding evidence: project descriptions,
-responsibilities, level, domain, and outcomes.
+stuffing. Keywords need surrounding evidence. Project descriptions,
+responsibilities, level, domain, and outcomes make keywords credible.
 
-**Make the first scan low friction.** CV layout, dates, hierarchy, and clarity
-matter because recruiters handle many profiles. Experienced candidates usually
-put experience before education. Recent graduates may lead with education or
-projects. Month and year dates reduce ambiguity.
+Make the first scan low friction. CV layout, dates, hierarchy, and clarity
+matter because recruiters handle many profiles. Candidates with experience
+usually put work history before education. Recent graduates may lead with
+education or projects. Month and year dates reduce ambiguity.
 
-**Reduce irrelevant personal signals.** Several guests advise removing photos,
-date of birth, marital status, address, and other personal details unless a
-local process explicitly requires them. These details don't show job value and
-can introduce bias.
+Reduce irrelevant personal signals. Several guests advise removing photos and
+date of birth. They also advise removing marital status, address, and other
+personal details unless a local hiring rule requires them. These details don't
+show job value and can introduce bias.
 
-**Prepare for explanation in recruiter screens.** The first recruiter call often
-checks motivation, responsibilities, gaps, communication, salary expectations,
-availability, and process fit. Senior data scientists may be asked to explain
-complex work in nontechnical language. Deep technical evaluation usually comes
-later.
+Prepare for explanation in recruiter screens. The first recruiter call often
+checks motivation, responsibilities, gaps, and communication. It may also cover
+salary expectations, availability, and fit with the hiring steps. Senior data
+scientists may be asked to explain complex work in nontechnical language. Deep
+technical evaluation usually comes later.
 
-**Do not over-index on ATS myths.** Oleg Zhero says applicant tracking systems
-parse CVs, but he had rarely seen automatic rejection based only on CV format.
-The practical advice still holds: use a readable format because both software
+Don't over-index on ATS myths. Oleg Zhero says applicant tracking systems parse
+CVs, but he had rarely seen automatic rejection based only on CV format. The
+practical advice still holds: use a readable format because both software
 parsing and human scanning benefit from clear structure.
 
 ## Episode Evidence
@@ -72,28 +71,30 @@ parsing and human scanning benefit from clear structure.
 These episodes give the strongest evidence on CV and resume screening.
 
 - [Hiring Data Scientists and Analysts](https://datatalks.club/podcast.html):
-  At 21:32-28:41, Alicja Notowska describes sourcing filters, keywords,
-  education, responsibilities, and the risk of empty LinkedIn profiles.
+  At 21:32-28:41, Alicja Notowska describes sourcing filters and keywords. She
+  also covers education, responsibilities, and the risk of empty LinkedIn
+  profiles.
 - [Hiring Data Scientists and Analysts](https://datatalks.club/podcast.html):
   At 28:41-35:49, she recommends clear responsibilities, relevant experience,
-  dates with month and year, fewer buzzwords, no photo where possible, and less
-  personal data.
+  and dates with month and year. She also recommends fewer buzzwords, no photo
+  where possible, and less personal data.
 - [Hiring Data Scientists and Analysts](https://datatalks.club/podcast.html):
-  At 36:08-40:33, recruiter screens focus on responsibilities, gaps,
-  motivation, behavioral examples, communication, availability, salary
-  expectations, and active processes.
+  At 36:08-40:33, recruiter screens focus on responsibilities and gaps. They
+  also cover motivation, behavioral examples, communication, availability,
+  salary expectations, and active searches.
 - [Data Science Interview Guide](https://datatalks.club/podcast.html): At
   18:28-25:51, Oleg Zhero frames the CV as a landing page for getting an
-  interview: match role needs, highlight personal contribution, remove noise,
-  and ask recruiters about expectations.
+  interview. Candidates should match role needs, highlight personal
+  contribution, remove noise, and ask recruiters about expectations.
 - [Data Science Interview Guide](https://datatalks.club/podcast.html): At
-  44:38-45:46, he advises removing age, photo, address, marital status, and
-  other personal details. At 46:17-48:24, he suggests project evidence for
-  candidates without industry experience.
+  44:38-45:46, he advises removing age, photo, address, and marital status. At
+  46:17-48:24, he suggests project evidence for candidates without industry
+  experience.
 - [Land Data Scientist Roles](https://datatalks.club/podcast.html): At
-  14:07-27:19, Luke Whipps covers CV design, industry alignment, project
-  evidence, tech-stack context, business impact, and career progression. At
-  56:47-58:51, he discusses CV length and title alignment without lying.
+  14:07-27:19, Luke Whipps covers CV design and industry alignment. He also
+  covers project evidence, tech-stack context, business impact, and career
+  progression. At 56:47-58:51, he discusses CV length and title alignment
+  without lying.
 
 ## Related Pages
 

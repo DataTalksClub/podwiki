@@ -26,7 +26,7 @@ metric choice.
 
 ## Contents
 
-This page uses these sections:
+Use these sections:
 
 - [Recurring Archive Themes](#recurring-archive-themes)
 - [Episode Evidence](#episode-evidence)
@@ -36,9 +36,9 @@ This page uses these sections:
 ## Recurring Archive Themes
 
 Randomization is the core mechanism. Jakob Graff compares A/B tests to clinical
-trials. A team splits a stable unit such as a user, session, account, or
-device. One group sees the change, another stays on the control, and analysts
-compare outcomes over time.
+trials, where a team splits a stable unit such as a user or session. One group
+sees the change, another stays on the control, and analysts compare outcomes
+over time.
 
 A/B tests protect teams from noisy before-and-after comparisons. Marketing
 campaigns, seasonality, user differences, and ordinary metric variance can all
@@ -46,13 +46,13 @@ move a dashboard. Random assignment helps isolate the treatment effect when the
 experiment is designed and instrumented correctly.
 
 The first test should be simple. The archive recommends two groups, one primary
-metric, a product surface that is easy to instrument, and tracking that records
+metric, a product surface that's easy to instrument, and tracking that records
 assignment. Complex multi-arm tests, unclear triggering, and fancy metrics make
 it harder to learn whether the testing workflow works.
 
 A/B testing is also a production-ML tool. The production-ML episode describes
 shadow mode and A/B tests as ways to compare a new model with a baseline before
-full rollout, with analysts helping diagnose uplift by segment and business
+full rollout. Analysts then help diagnose uplift by segment and business
 metric.
 
 ## Episode Evidence
@@ -60,20 +60,20 @@ metric.
 These episodes give the strongest evidence:
 
 - [Product Analytics and A/B Testing](https://datatalks.club/podcast.html),
-  8:13-13:25: defines A/B testing through randomized treatment and control
+  8:13-13:25, defines A/B testing through randomized treatment and control
   groups, then explains why randomization controls external noise. Source:
   `../datatalksclub.github.io/_podcast/ab-testing-and-product-experimentation.md`.
 - [Product Analytics and A/B Testing](https://datatalks.club/podcast.html),
-  14:27-18:06: uses a subscription-versus-points revenue example to show why the
+  14:27-18:06, uses a subscription-versus-points revenue example to show why the
   selected metric determines the rollout decision.
 - [Product Analytics and A/B Testing](https://datatalks.club/podcast.html),
-  24:44-32:39: covers third-party versus in-house tools, traffic splitters,
-  assignment tracking, and A/A tests. It also covers simple first-test design.
+  24:44-32:39, covers third-party versus in-house tools and traffic splitters.
+  It also covers assignment tracking, A/A tests, and simple first-test design.
 - [Product Analytics and A/B Testing](https://datatalks.club/podcast.html),
-  59:08-1:02:52: explains why A/B/C/D tests take longer and increase multiple
+  59:08-1:02:52, explains why A/B/C/D tests take longer and increase multiple
   comparison risk.
 - [From Analytics to Production ML](https://datatalks.club/podcast.html),
-  31:19-32:47: connects A/B tests to live model evaluation. Analysts use uplift
+  31:19-32:47, connects A/B tests to live model evaluation. Analysts use uplift
   analysis and business-metric knowledge to explain results.
 
 ## Related Pages

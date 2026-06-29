@@ -12,11 +12,11 @@ related:
 
 ## Definition and Scope
 
-Governance turns intentions into accountable decisions. It names owners,
-policies, reviews, approvals, access workflows, release controls, documentation,
-and escalation paths. In the archive, governance spans data platforms, ML
-platforms, responsible AI, regulated finance, privacy, and internal product
-management.
+Governance turns intentions into accountable decisions by naming owners,
+policies, reviews, and approvals. It also defines access workflows, release
+controls, documentation, and escalation paths. In the archive, governance spans
+data platforms, ML platforms, and responsible AI. It also reaches regulated
+finance, privacy, and internal product management.
 
 Use this page for the cross-domain bridge. Use
 [Data Governance]({{ '/wiki/data-governance/' | relative_url }}) for data
@@ -35,54 +35,55 @@ Use these sections to move through the page.
 
 ## Recurring Archive Themes
 
-Governance should start from risk and purpose. The cloud and access-governance
-episodes ask why governance matters. The driver may be trust, regulation,
-exfiltration risk, sensitive data, analytics reuse, or faster self-service.
-Heavy process without a clear risk creates friction. Missing process creates
-privilege creep and untrusted systems.
+Governance should start from risk and purpose. Cloud-governance episodes ask
+why governance matters because the driver may be trust, regulation,
+exfiltration risk, or sensitive data. Analytics reuse and faster self-service
+are also valid drivers. Heavy process without a clear risk creates friction, but
+missing process creates privilege creep and untrusted systems.
 
 Access governance is a workflow. Bart Vandekerckhove's episode treats access
 requests, approvals, reviews, and revocation as the practical machinery of
-governance. It also covers time-bound grants, temporary debugging access, role
-inheritance, alerts, and access-as-code.
+governance. It also covers time-bound grants, temporary debugging access, and
+role inheritance. Alerts and access-as-code round out the operating model.
 
-AI governance is cross-functional. Supreet Kaur's responsible-AI episode brings
-product managers, subject matter experts, compliance, and data practitioners
-into feature necessity and PII decisions. Senior leadership also participates in
-accuracy-versus-interpretability and human-oversight decisions.
+AI governance is cross-functional because Supreet Kaur's responsible-AI episode
+brings product managers, subject matter experts, compliance, and data
+practitioners into feature necessity and PII decisions. Senior leadership also
+participates in accuracy-versus-interpretability and human-oversight decisions.
 
 Release governance depends on domain. Finance episodes describe slow change,
-legacy systems, release approvals, trust-building, and risk management. ML
-platform episodes add model registries, metadata, lineage, and logging. They
-also add GDPR considerations and standard deployment practices.
+legacy systems, release approvals, and trust-building. They also cover risk
+management. ML platform episodes add model registries, metadata, lineage, and
+logging. They also add GDPR considerations and standard deployment practices.
 
 ## Episode Evidence
 
 These episodes give the strongest governance evidence.
 
-- [Data Governance and Data Access Management](https://datatalks.club/podcast.html),
-  5:20-14:47. Bart defines governance as building trust in data and contrasts legacy
+- [Data Governance and Data Access Management](https://datatalks.club/podcast.html)
+  (5:20-14:47) defines governance as building trust in data and contrasts legacy
   top-down governance with catalogs, lineage, ownership, and data mesh.
-- [Data Governance and Data Access Management](https://datatalks.club/podcast.html),
-  25:05-53:50. The episode covers early access controls, requests, approvals,
-  reviews, and revocation. Later sections cover privacy and security
-  stakeholders, masking, role explosion, active metadata, and access-as-code.
-- [Responsible and Explainable AI](https://datatalks.club/podcast.html),
-  17:20-34:03. Supreet covers feature necessity, product input, compliance
-  input, and cross-functional review. The same section covers profitability
+- [Data Governance and Data Access Management](https://datatalks.club/podcast.html)
+  (25:05-53:50) covers early access controls and access requests as well as
+  approvals, reviews, and revocation. Later sections cover privacy and security
+  stakeholders, masking, and role explosion. Bart also covers active metadata
+  and access-as-code.
+- [Responsible and Explainable AI](https://datatalks.club/podcast.html)
+  (17:20-34:03) covers feature necessity, product input, compliance
+  input, and cross-functional review. Supreet also covers profitability
   versus responsibility and accuracy versus interpretability.
-- [Building Production ML Platforms](https://datatalks.club/podcast.html),
-  39:54-47:08. Simon covers fintech security, compliance, metadata, and
+- [Building Production ML Platforms](https://datatalks.club/podcast.html)
+  (39:54-47:08) covers fintech security, compliance, metadata, and
   lineage. He also covers reproducibility, artifact logging, and GDPR
   implications of dataset storage.
-- [MLOps in Finance](https://datatalks.club/podcast.html), 18:52-27:51:
-  the episode shows how regulated finance shapes deployment, CI/CD, release
+- [MLOps in Finance](https://datatalks.club/podcast.html) (18:52-27:51)
+  shows how regulated finance shapes deployment, CI/CD, release
   management, and approvals. It also covers platform reuse and minimum viable
   MLOps.
-- [ML Product Management for Platforms](https://datatalks.club/podcast.html),
-  31:28-37:48. Geo connects release governance to rollout timing, compliance,
-  stakeholder communication, and adoption strategy. The same section covers
-  platform product ownership.
+- [ML Product Management for Platforms](https://datatalks.club/podcast.html)
+  (31:28-37:48) connects release governance to rollout timing, compliance,
+  stakeholder communication, and adoption strategy. Geo also covers platform
+  product ownership.
 
 ## Related Pages
 

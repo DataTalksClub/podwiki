@@ -13,9 +13,10 @@ related:
 ## Definition and Scope
 
 Experimentation is deliberate testing before a team commits to a larger
-rollout. In the archive, teams experiment with product changes, models,
-policies, workflows, randomized A/B tests, A/A platform checks, shadow testing,
-proofs of concept, design sprints, and data-driven product discovery.
+rollout. In the archive, teams experiment with product changes, models, and
+policies. They use randomized A/B tests, A/A platform checks, shadow testing,
+proofs of concept, and design sprints. Data-driven product discovery is part of
+the same archive thread.
 
 Use this page for the broader practice. Use
 [A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }}) for randomized
@@ -26,7 +27,7 @@ for the full hub.
 
 ## Contents
 
-This page uses these sections:
+Use these sections:
 
 - [Recurring Archive Themes](#recurring-archive-themes)
 - [Episode Evidence](#episode-evidence)
@@ -50,31 +51,30 @@ traffic validation with shadow mode or A/B tests. Analysts help translate model
 results into business impact and segment-level explanations.
 
 Product-design experiments often aren't statistical tests. Liesbeth Dingemans
-describes Double Diamond discovery, parallel proofs of concept, scoping
-documents, surveys, and prototypes. Quick measurable changes can collect
-evidence before a team spends months on the wrong ML solution.
+describes Double Diamond discovery, parallel proofs of concept, and scoping
+documents. Teams can also use surveys, prototypes, and quick measurable changes
+before spending months on the wrong ML solution.
 
 ## Episode Evidence
 
 These episodes give the strongest evidence:
 
 - [Product Analytics and A/B Testing](https://datatalks.club/podcast.html),
-  18:06-23:54: frames experiments as de-risking and organizational learning.
+  18:06-23:54, frames experiments as de-risking and organizational learning.
   Source:
   `../datatalksclub.github.io/_podcast/ab-testing-and-product-experimentation.md`.
 - [Product Analytics and A/B Testing](https://datatalks.club/podcast.html),
-  30:05-37:44: recommends simple first tests, one decision metric, metric
+  30:05-37:44, recommends simple first tests, one decision metric, metric
   stability checks, and planned duration.
 - [From Analytics to Production ML](https://datatalks.club/podcast.html),
-  28:42-32:47: contrasts analytics iteration with ML experimentation and
-  discusses shadow mode and A/B tests. It also covers uplift and segment
-  analysis. Source:
+  28:42-32:47, contrasts analytics iteration with ML experimentation. It
+  discusses shadow mode, A/B tests, uplift, and segment analysis. Source:
   `../datatalksclub.github.io/_podcast/production-ml-mlops-and-data-team-building.md`.
-- [AI Product Design](https://datatalks.club/podcast.html), 12:12-17:25:
+- [AI Product Design](https://datatalks.club/podcast.html), 12:12-17:25,
   explains Double Diamond problem framing and parallel proofs of concept.
   Source:
   `../datatalksclub.github.io/_podcast/ai-ml-product-design-and-experimentation.md`.
-- [AI Product Design](https://datatalks.club/podcast.html), 54:11-55:54:
+- [AI Product Design](https://datatalks.club/podcast.html), 54:11-55:54,
   treats surveys, button tests, and lightweight data collection as evidence for
   prioritization when teams pitch new product ideas.
 
