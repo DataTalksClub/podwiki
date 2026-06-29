@@ -7,7 +7,7 @@
     "persons": 438,
     "topics": 145,
     "nodes": 1019,
-    "links": 6390
+    "links": 6554
   },
   "nodes": [
     {
@@ -8651,7 +8651,7 @@
       "title": "LLMs",
       "url": "/wiki/llms/",
       "count": 1,
-      "search": "LLMs How the podcast archive treats large language models as production components for generation, retrieval, agents, and language workflows."
+      "search": "LLMs How DataTalks.Club guests discuss large language models as language, retrieval, agent, evaluation, production, and security components."
     },
     {
       "id": "wiki:machine-learning",
@@ -8732,7 +8732,7 @@
       "title": "Metrics",
       "url": "/wiki/metrics/",
       "count": 1,
-      "search": "Metrics How the podcast archive treats metrics as decision definitions for products, experiments, ML systems, data products, and AI evaluation."
+      "search": "Metrics How DataTalks.Club podcast guests define metrics for product decisions, ML systems, monitoring, experiments, and business impact."
     },
     {
       "id": "wiki:ml-platforms",
@@ -8858,7 +8858,7 @@
       "title": "NLP",
       "url": "/wiki/nlp/",
       "count": 1,
-      "search": "NLP How the podcast archive connects classical NLP, language data, search, LLMs, and production language systems."
+      "search": "NLP How DataTalks.Club guests discuss natural language processing across language data, annotation, LLMs, speech, search, and production systems."
     },
     {
       "id": "wiki:notebook-to-production-ai-systems",
@@ -9056,7 +9056,7 @@
       "title": "Retrieval-Augmented Generation",
       "url": "/wiki/retrieval-augmented-generation/",
       "count": 1,
-      "search": "Retrieval Augmented Generation How the podcast archive explains RAG as retrieval, context design, generation, citation, and evaluation."
+      "search": "Retrieval Augmented Generation How DataTalks.Club podcast guests describe RAG as retrieval quality, context design, generation, citation, evaluation, and production tradeoffs."
     },
     {
       "id": "wiki:reverse-etl",
@@ -9227,7 +9227,7 @@
       "title": "Tracking Plans",
       "url": "/wiki/tracking-plans/",
       "count": 1,
-      "search": "Tracking Plans How the podcast archive frames tracking plans as the contract between product, growth, analytics, and engineering for event instrumentation."
+      "search": "Tracking Plans How the podcast archive frames tracking plans as shared event instrumentation rules for product, growth, analytics, and engineering teams."
     },
     {
       "id": "wiki:vector-database-vs-search-engine",
@@ -40901,15 +40901,111 @@
     },
     {
       "source": "wiki:generative-ai",
-      "target": "wiki:agent-engineering",
+      "target": "article:llm-tools",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:generative-ai",
+      "target": "person:bartoszmikulski",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:generative-ai",
+      "target": "person:hugobowneanderson",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:generative-ai",
+      "target": "person:mariasukhareva",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:generative-ai",
+      "target": "person:meryemarik",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:generative-ai",
+      "target": "person:micheallanham",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:generative-ai",
+      "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
+      "kind": "wiki-link",
+      "weight": 10
+    },
+    {
+      "source": "wiki:generative-ai",
+      "target": "podcast:from-game-ai-to-modern-ai-agents",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:generative-ai",
+      "target": "podcast:generative-ai-chatbots-in-production-security",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:generative-ai",
+      "target": "podcast:practical-llm-engineering-and-rag",
+      "kind": "wiki-link",
+      "weight": 10
+    },
+    {
+      "source": "wiki:generative-ai",
+      "target": "podcast:production-ready-ai-engineering",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:generative-ai",
+      "target": "wiki:agent-engineering",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:generative-ai",
       "target": "wiki:agent-engineering",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:generative-ai",
+      "target": "wiki:ai-agents",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:generative-ai",
+      "target": "wiki:ai-red-teaming",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:generative-ai",
+      "target": "wiki:data-engineering",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:generative-ai",
+      "target": "wiki:embeddings",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:generative-ai",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:generative-ai",
@@ -40927,7 +41023,7 @@
       "source": "wiki:generative-ai",
       "target": "wiki:llms",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:generative-ai",
@@ -40939,13 +41035,25 @@
       "source": "wiki:generative-ai",
       "target": "wiki:nlp",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:generative-ai",
       "target": "wiki:nlp",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:generative-ai",
+      "target": "wiki:prompt-engineering",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:generative-ai",
+      "target": "wiki:rag-vs-fine-tuning",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:generative-ai",
@@ -40962,6 +41070,12 @@
     {
       "source": "wiki:generative-ai",
       "target": "wiki:retrieval-augmented-generation",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:generative-ai",
+      "target": "wiki:security",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -42407,19 +42521,145 @@
     },
     {
       "source": "wiki:llms",
+      "target": "article:llm-system-design-interview",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:llms",
+      "target": "article:llm-tools",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:llms",
+      "target": "person:hugobowneanderson",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:llms",
+      "target": "person:ivanbilan",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:llms",
+      "target": "person:lavanyagupta",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:llms",
+      "target": "person:mariasukhareva",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:llms",
+      "target": "person:meryemarik",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:llms",
+      "target": "person:ranjithakulkarni",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:llms",
+      "target": "podcast:applied-llm-research-and-career-growth-in-practice",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:llms",
+      "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:llms",
+      "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:llms",
+      "target": "podcast:generative-ai-chatbots-in-production-security",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:llms",
+      "target": "podcast:nlp-team-hiring-and-production-mlops",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:llms",
+      "target": "podcast:practical-llm-engineering-and-rag",
+      "kind": "wiki-link",
+      "weight": 10
+    },
+    {
+      "source": "wiki:llms",
       "target": "wiki:agent-engineering",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:llms",
-      "target": "wiki:generative-ai",
+      "target": "wiki:agent-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:llms",
+      "target": "wiki:ai-agents",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:llms",
+      "target": "wiki:ai-engineering",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:llms",
+      "target": "wiki:ai-infrastructure",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:llms",
+      "target": "wiki:ai-red-teaming",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:llms",
       "target": "wiki:generative-ai",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:llms",
+      "target": "wiki:generative-ai",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:llms",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:llms",
+      "target": "wiki:llm-evaluation-workflows",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -42437,7 +42677,7 @@
     },
     {
       "source": "wiki:llms",
-      "target": "wiki:mlops-and-dataops",
+      "target": "wiki:mlops",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -42445,11 +42685,53 @@
       "source": "wiki:llms",
       "target": "wiki:nlp",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:llms",
       "target": "wiki:nlp",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:llms",
+      "target": "wiki:privacy-engineering-for-ml",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:llms",
+      "target": "wiki:production",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:llms",
+      "target": "wiki:production-search-evaluation",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:llms",
+      "target": "wiki:prompt-engineering",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:llms",
+      "target": "wiki:rag",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:llms",
+      "target": "wiki:rag-vs-fine-tuning",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:llms",
+      "target": "wiki:rag-vs-fine-tuning",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -42468,6 +42750,24 @@
     {
       "source": "wiki:llms",
       "target": "wiki:search-rag-and-knowledge-systems",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:llms",
+      "target": "wiki:security",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:llms",
+      "target": "wiki:software-engineering",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:llms",
+      "target": "wiki:vector-databases",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -43211,15 +43511,99 @@
     },
     {
       "source": "wiki:metrics",
+      "target": "person:adamsroka",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:metrics",
+      "target": "person:aleksandermolak",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:metrics",
+      "target": "person:arsenykravchenko",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:metrics",
+      "target": "person:benwilson",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:metrics",
+      "target": "person:jakobgraff",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:metrics",
+      "target": "person:linaweichbrodt",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:metrics",
+      "target": "person:rishabhbhargava",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:metrics",
+      "target": "podcast:ab-testing-and-product-experimentation",
+      "kind": "wiki-link",
+      "weight": 16
+    },
+    {
+      "source": "wiki:metrics",
+      "target": "podcast:building-scalable-and-reliable-machine-learning-systems",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:metrics",
+      "target": "podcast:causal-inference-for-machine-learning",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:metrics",
+      "target": "podcast:human-centered-mlops-and-model-monitoring",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:metrics",
+      "target": "podcast:machine-learning-engineering-production-best-practices",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:metrics",
+      "target": "podcast:ml-engineering-kpis-and-metrics-strategy",
+      "kind": "wiki-link",
+      "weight": 10
+    },
+    {
+      "source": "wiki:metrics",
+      "target": "podcast:production-ml-mlops-and-data-team-building",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:metrics",
       "target": "wiki:a-a-testing",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:metrics",
       "target": "wiki:a-b-testing",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:metrics",
@@ -43229,9 +43613,21 @@
     },
     {
       "source": "wiki:metrics",
-      "target": "wiki:data-product-management",
+      "target": "wiki:causal-inference",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:metrics",
+      "target": "wiki:data-led-growth",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:metrics",
+      "target": "wiki:data-product-management",
+      "kind": "wiki-link",
+      "weight": 6
     },
     {
       "source": "wiki:metrics",
@@ -43241,9 +43637,15 @@
     },
     {
       "source": "wiki:metrics",
+      "target": "wiki:data-products",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:metrics",
       "target": "wiki:evaluation",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:metrics",
@@ -43253,13 +43655,49 @@
     },
     {
       "source": "wiki:metrics",
-      "target": "wiki:machine-learning-system-design",
+      "target": "wiki:event-tracking",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
+    },
+    {
+      "source": "wiki:metrics",
+      "target": "wiki:experimentation",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:metrics",
+      "target": "wiki:experimentation-and-causal-inference",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:metrics",
       "target": "wiki:machine-learning-system-design",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:metrics",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:metrics",
+      "target": "wiki:mlops",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:metrics",
+      "target": "wiki:model-monitoring",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:metrics",
+      "target": "wiki:model-monitoring",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -43273,13 +43711,25 @@
       "source": "wiki:metrics",
       "target": "wiki:product-analytics",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:metrics",
       "target": "wiki:product-analytics",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:metrics",
+      "target": "wiki:production",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:metrics",
+      "target": "wiki:tracking-plans",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:ml-platforms",
@@ -44597,9 +45047,129 @@
     },
     {
       "source": "wiki:nlp",
-      "target": "wiki:embeddings",
+      "target": "person:christiannswart",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:nlp",
+      "target": "person:hugobowneanderson",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:nlp",
+      "target": "person:ivanbilan",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:nlp",
+      "target": "person:johanneshotter",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:nlp",
+      "target": "person:katarzynaforemniak",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:nlp",
+      "target": "person:lavanyagupta",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:nlp",
+      "target": "person:mariasukhareva",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:nlp",
+      "target": "person:mervenoyan",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:nlp",
+      "target": "person:meryemarik",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:nlp",
+      "target": "person:verenaweber",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:nlp",
+      "target": "podcast:applied-llm-research-and-career-growth-in-practice",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:nlp",
+      "target": "podcast:building-open-source-nlp-tool",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:nlp",
+      "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:nlp",
+      "target": "podcast:generative-ai-chatbots-in-production-security",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:nlp",
+      "target": "podcast:hugging-face-contributions-and-nlp-portfolio",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:nlp",
+      "target": "podcast:human-centered-ai-automatic-speech-recognition",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:nlp",
+      "target": "podcast:nlp-dataset-creation-annotation-tools-workflows",
+      "kind": "wiki-link",
+      "weight": 10
+    },
+    {
+      "source": "wiki:nlp",
+      "target": "podcast:nlp-team-hiring-and-production-mlops",
+      "kind": "wiki-link",
+      "weight": 12
+    },
+    {
+      "source": "wiki:nlp",
+      "target": "podcast:practical-generative-ai-consulting-from-expertise-to-impact",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:nlp",
+      "target": "podcast:practical-llm-engineering-and-rag",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:nlp",
+      "target": "wiki:embeddings",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:nlp",
@@ -44609,13 +45179,19 @@
     },
     {
       "source": "wiki:nlp",
-      "target": "wiki:generative-ai",
+      "target": "wiki:freelance",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:nlp",
-      "target": "wiki:generative-ai",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:nlp",
+      "target": "wiki:llm-evaluation-workflows",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -44623,13 +45199,19 @@
       "source": "wiki:nlp",
       "target": "wiki:llm-production-patterns",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
+    },
+    {
+      "source": "wiki:nlp",
+      "target": "wiki:llm-production-patterns",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:nlp",
       "target": "wiki:llms",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:nlp",
@@ -44639,37 +45221,49 @@
     },
     {
       "source": "wiki:nlp",
-      "target": "wiki:mlops-and-dataops",
+      "target": "wiki:machine-learning-engineer-role",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:nlp",
-      "target": "wiki:mlops-and-dataops",
-      "kind": "wiki-related",
-      "weight": 3
+      "target": "wiki:mlops",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:nlp",
-      "target": "wiki:open-source-and-developer-relations",
+      "target": "wiki:open-source",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:nlp",
+      "target": "wiki:production",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:nlp",
-      "target": "wiki:search",
+      "target": "wiki:rag",
       "kind": "wiki-link",
       "weight": 2
-    },
-    {
-      "source": "wiki:nlp",
-      "target": "wiki:search",
-      "kind": "wiki-related",
-      "weight": 3
     },
     {
       "source": "wiki:nlp",
       "target": "wiki:search-rag-and-knowledge-systems",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:nlp",
+      "target": "wiki:search-rag-and-knowledge-systems",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:nlp",
+      "target": "wiki:software-engineering",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -46313,19 +46907,133 @@
     },
     {
       "source": "wiki:retrieval-augmented-generation",
+      "target": "article:llm-system-design-interview",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:retrieval-augmented-generation",
+      "target": "person:anahitapakiman",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:retrieval-augmented-generation",
+      "target": "person:atitaarora",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:retrieval-augmented-generation",
+      "target": "person:hugobowneanderson",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:retrieval-augmented-generation",
+      "target": "person:lavanyagupta",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:retrieval-augmented-generation",
+      "target": "person:meryemarik",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:retrieval-augmented-generation",
+      "target": "person:ranjithakulkarni",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:retrieval-augmented-generation",
+      "target": "podcast:applied-llm-research-and-career-growth-in-practice",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:retrieval-augmented-generation",
+      "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:retrieval-augmented-generation",
+      "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:retrieval-augmented-generation",
+      "target": "podcast:knowledge-graphs-and-llms-for-automotive-rnd",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:retrieval-augmented-generation",
+      "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
+      "kind": "wiki-link",
+      "weight": 10
+    },
+    {
+      "source": "wiki:retrieval-augmented-generation",
+      "target": "podcast:practical-llm-engineering-and-rag",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:retrieval-augmented-generation",
+      "target": "podcast:production-ml-search-vector-search-embeddings-hybrid-search",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:retrieval-augmented-generation",
       "target": "wiki:agent-engineering",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:retrieval-augmented-generation",
-      "target": "wiki:embeddings",
+      "target": "wiki:ai-agents",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:retrieval-augmented-generation",
       "target": "wiki:embeddings",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:retrieval-augmented-generation",
+      "target": "wiki:embeddings",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:retrieval-augmented-generation",
+      "target": "wiki:graph-rag-vs-vector-rag",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:retrieval-augmented-generation",
+      "target": "wiki:information-retrieval",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:retrieval-augmented-generation",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:retrieval-augmented-generation",
+      "target": "wiki:llm-evaluation-workflows",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -46343,51 +47051,105 @@
     },
     {
       "source": "wiki:retrieval-augmented-generation",
-      "target": "wiki:search",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:retrieval-augmented-generation",
-      "target": "wiki:search",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:retrieval-augmented-generation",
-      "target": "wiki:search-rag-and-knowledge-systems",
+      "target": "wiki:rag-vs-fine-tuning",
       "kind": "wiki-link",
       "weight": 4
     },
     {
       "source": "wiki:retrieval-augmented-generation",
+      "target": "wiki:responsible-ai-and-governance",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:retrieval-augmented-generation",
+      "target": "wiki:search",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:retrieval-augmented-generation",
+      "target": "wiki:search",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:retrieval-augmented-generation",
+      "target": "wiki:search-rag-and-knowledge-systems",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:retrieval-augmented-generation",
       "target": "wiki:search-rag-and-knowledge-systems",
       "kind": "wiki-related",
       "weight": 3
     },
     {
       "source": "wiki:retrieval-augmented-generation",
-      "target": "wiki:vector-databases",
+      "target": "wiki:security",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:retrieval-augmented-generation",
       "target": "wiki:vector-databases",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:retrieval-augmented-generation",
+      "target": "wiki:vector-databases",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:reverse-etl",
+      "target": "person:arpitchoudhury",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:reverse-etl",
+      "target": "person:caitlinmoorman",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:reverse-etl",
+      "target": "person:nataliekwong",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:reverse-etl",
+      "target": "podcast:data-engineering-tools-modern-data-stack",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:reverse-etl",
+      "target": "podcast:data-led-growth-event-tracking-and-reverse-etl",
+      "kind": "wiki-link",
+      "weight": 18
+    },
+    {
+      "source": "wiki:reverse-etl",
+      "target": "podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:reverse-etl",
       "target": "wiki:analytics-engineering",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:reverse-etl",
       "target": "wiki:customer-data-platforms",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:reverse-etl",
@@ -46399,7 +47161,7 @@
       "source": "wiki:reverse-etl",
       "target": "wiki:data-activation",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:reverse-etl",
@@ -46409,9 +47171,15 @@
     },
     {
       "source": "wiki:reverse-etl",
+      "target": "wiki:data-governance",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:reverse-etl",
       "target": "wiki:data-led-growth",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:reverse-etl",
@@ -46421,9 +47189,33 @@
     },
     {
       "source": "wiki:reverse-etl",
-      "target": "wiki:modern-data-stack",
+      "target": "wiki:data-observability",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:reverse-etl",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:reverse-etl",
+      "target": "wiki:elt",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:reverse-etl",
+      "target": "wiki:event-tracking",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:reverse-etl",
+      "target": "wiki:modern-data-stack",
+      "kind": "wiki-link",
+      "weight": 6
     },
     {
       "source": "wiki:reverse-etl",
@@ -46435,13 +47227,19 @@
       "source": "wiki:reverse-etl",
       "target": "wiki:product-analytics",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:reverse-etl",
       "target": "wiki:product-analytics",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:reverse-etl",
+      "target": "wiki:tracking-plans",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:salary-negotiation",
@@ -46781,51 +47579,135 @@
     },
     {
       "source": "wiki:security",
-      "target": "wiki:ai-red-teaming",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:security",
-      "target": "wiki:ai-red-teaming",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:security",
-      "target": "wiki:data-governance",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:security",
-      "target": "wiki:data-governance",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:security",
-      "target": "wiki:llm-production-patterns",
+      "target": "person:bartvandekerckhove",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:security",
+      "target": "person:katharinejarmul",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:security",
+      "target": "person:mariasukhareva",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:security",
+      "target": "person:nemanjaradojkovic",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:security",
+      "target": "person:tamaraatanasoska",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:security",
+      "target": "podcast:data-governance-data-access-management",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:security",
+      "target": "podcast:data-privacy-engineering-gdpr-machine-learning",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:security",
+      "target": "podcast:fairness-in-ai-ml-engineering",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:security",
+      "target": "podcast:generative-ai-chatbots-in-production-security",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:security",
+      "target": "podcast:mlops-and-ml-engineering-in-finance",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:security",
+      "target": "wiki:ai-red-teaming",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:security",
+      "target": "wiki:ai-red-teaming",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:security",
+      "target": "wiki:data-governance",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:security",
+      "target": "wiki:data-governance",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:security",
+      "target": "wiki:data-mesh",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:security",
+      "target": "wiki:governance",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:security",
+      "target": "wiki:llm-production-patterns",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:security",
       "target": "wiki:llm-production-patterns",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:security",
+      "target": "wiki:machine-learning",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:security",
       "target": "wiki:mlops",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
+    },
+    {
+      "source": "wiki:security",
+      "target": "wiki:privacy-engineering-for-ml",
+      "kind": "wiki-link",
+      "weight": 6
     },
     {
       "source": "wiki:security",
       "target": "wiki:production",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:security",
@@ -46837,13 +47719,25 @@
       "source": "wiki:security",
       "target": "wiki:responsible-ai-and-governance",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:security",
       "target": "wiki:responsible-ai-and-governance",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:security",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:security",
+      "target": "wiki:software-engineering",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:self-service-data-platforms",
@@ -47399,9 +48293,75 @@
     },
     {
       "source": "wiki:tracking-plans",
-      "target": "wiki:data-governance",
+      "target": "person:arpitchoudhury",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:tracking-plans",
+      "target": "person:jakobgraff",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tracking-plans",
+      "target": "person:mehdiouazza",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tracking-plans",
+      "target": "person:nataliekwong",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tracking-plans",
+      "target": "podcast:ab-testing-and-product-experimentation",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tracking-plans",
+      "target": "podcast:data-engineering-tools-modern-data-stack",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:tracking-plans",
+      "target": "podcast:data-led-growth-event-tracking-and-reverse-etl",
+      "kind": "wiki-link",
+      "weight": 14
+    },
+    {
+      "source": "wiki:tracking-plans",
+      "target": "podcast:scaling-data-engineering-teams-self-service-platforms",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tracking-plans",
+      "target": "wiki:a-b-testing",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tracking-plans",
+      "target": "wiki:customer-data-platforms",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:tracking-plans",
+      "target": "wiki:data-activation",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:tracking-plans",
+      "target": "wiki:data-governance",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:tracking-plans",
@@ -47413,7 +48373,7 @@
       "source": "wiki:tracking-plans",
       "target": "wiki:data-led-growth",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:tracking-plans",
@@ -47423,21 +48383,33 @@
     },
     {
       "source": "wiki:tracking-plans",
+      "target": "wiki:data-observability",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:tracking-plans",
       "target": "wiki:data-quality-and-observability",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:tracking-plans",
       "target": "wiki:data-quality-and-observability",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:tracking-plans",
+      "target": "wiki:dataops",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:tracking-plans",
       "target": "wiki:event-tracking",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:tracking-plans",
@@ -47447,15 +48419,27 @@
     },
     {
       "source": "wiki:tracking-plans",
-      "target": "wiki:product-analytics",
+      "target": "wiki:modern-data-stack",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:tracking-plans",
       "target": "wiki:product-analytics",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:tracking-plans",
+      "target": "wiki:product-analytics",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:tracking-plans",
+      "target": "wiki:reverse-etl",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:tracking-plans",
