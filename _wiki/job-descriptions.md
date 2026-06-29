@@ -13,83 +13,202 @@ related:
 
 ## Definition and Scope
 
-Job descriptions tell candidates what a hiring team needs and what the work
-will look like. In the DataTalks.Club archive, they matter because data titles
-are unstable. "Data scientist" may hide analytics, ML engineering, or research.
-It may also hide data engineering or first-data-hire work.
+Job descriptions are the shared role spec between a hiring team and a candidate.
+They describe the problem and the role. They also name the level, required
+evidence, and hiring process.
+In data work, they also help disambiguate
+unstable titles such as [Data Scientist]({{ '/wiki/data-scientist-role/' | relative_url }}),
+[Data Engineer]({{ '/wiki/data-engineer-role/' | relative_url }}), and
+[Data Analyst]({{ '/wiki/data-analyst-role/' | relative_url }}).
 
-A good job description names the problem, team, and responsibilities. It also
-names the level, must-have skills, and interview steps. Candidates then have
-enough context to decide whether to apply.
+The DataTalks.Club hiring archive treats job descriptions as more than
+recruiting copy. They're a diagnostic for team maturity. In
+[Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }}),
+[Alicja Notowska]({{ '/people/alicjanotowska/' | relative_url }}) describes the
+job spec as something recruiters build with hiring managers around 7:09. She
+then explains how market reality changes requirements around 13:57 and 17:18.
 
-Teams need to know how to write job descriptions, and candidates need to know
-how to read them. Employer-side hiring work belongs in
-[Hiring]({{ '/wiki/hiring/' | relative_url }}). Candidate tactics belong in
-[Job Search]({{ '/wiki/job-search/' | relative_url }}).
+In
+[Data Science Jobs]({{ '/podcasts/data-science-job-red-flags-and-mismatched-roles/' | relative_url }}),
+[Tereza Iofciu]({{ '/people/terezaiofciu/' | relative_url }}) gives the candidate
+side. When the title and responsibilities disagree, the description reveals that
+the company may not know which data problem it's hiring for.
 
+## Common Definition
 
-## Recurring Archive Themes
+A useful data job description names the team and business problem. It states
+the level, responsibilities, must-have skills, and interview process. It should
+also separate essentials from preferences. Alicja's recruiting episode makes
+that separation operational. Recruiters and hiring managers decide what the role
+needs, then check whether the market can supply those requirements.
 
-Recruiter and candidate-side episodes both criticize long tool lists with little
-explanation of the work. Data professionals want to know which problem they'll
-solve, why the company needs the role, which team they join, and what success
-looks like. Perks can't compensate for missing role clarity.
+The candidate-facing definition is similar. In
+[Land Data Scientist Roles]({{ '/podcasts/get-data-scientist-job/' | relative_url }}),
+[Luke Whipps]({{ '/people/lukewhipps/' | relative_url }}) advises candidates to
+research the company problem around 37:54. He then maps the CV, portfolio, and
+outreach to that problem. In
+[Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }}),
+[Oleg Novikov]({{ '/people/olegnovikov/' | relative_url }}) tells candidates to
+use the job description around 15:29 and 17:13. The posting helps them infer
+whether the company wants product data science, machine learning engineering,
+analytics, or another role structure.
 
-Hiring managers and recruiters use job descriptions to negotiate market reality.
-Every extra must-have narrows the candidate pool. The archive recommends
-checking which skills are essential, which can be learned, and whether the
-company is asking one person to cover multiple roles.
+A job description is therefore both a hiring artifact and a reading artifact.
+Hiring teams use it to define the work. Candidates use it to decide whether the
+work matches their skills and whether the company understands the role.
 
-Candidates should compare the title with the responsibilities. A data scientist
-posting full of ETL, Airflow, Scala, and platform work may be closer to data
-engineering. A data analyst posting may include product analytics, BI, or even
-data science work. The description should resolve that ambiguity.
+## Guest Differences
 
-Treat omissions as red flags. Warning signs include no team context, vague
-objectives, and copy-pasted technology lists. Rockstar or ninja language is
-another warning sign. So are early heavy take-home tasks, unclear level, and no
-salary transparency. Candidates should also be wary when the description sounds
-like the company doesn't know what it needs.
+Alicja focuses on the recruiter and hiring-manager workflow. She emphasizes
+role alignment and sourcing in
+[Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }}).
+She also covers inclusive language, screening, and salary conversations.
+That makes the job description a tool for running the
+[Hiring]({{ '/wiki/hiring/' | relative_url }}) process.
 
-Good candidates read job descriptions before applying. They then map their CV,
-portfolio, outreach, and interview preparation to the actual problems in the
-role. This isn't keyword stuffing. It makes relevant evidence visible.
+Tereza is more skeptical in
+[Data Science Jobs]({{ '/podcasts/data-science-job-red-flags-and-mismatched-roles/' | relative_url }}),
+where she frames vague descriptions as warning signs for candidates. Around
+20:06 and 23:01, she reads titles and team context as evidence. Around 30:20,
+responsibilities and tool lists also show whether the company has a coherent
+[Data Team]({{ '/wiki/data-teams/' | relative_url }}).
 
-## Episode Evidence
+Luke and Oleg mostly discuss job descriptions from the applicant side. Luke uses
+them for targeted applications, especially around 37:54 and 44:26 in
+[Land Data Scientist Roles]({{ '/podcasts/get-data-scientist-job/' | relative_url }}).
+Oleg uses them for interview prediction and CV positioning in
+[Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }}).
+[Nicolas Rassam]({{ '/people/nicolasrassam/' | relative_url }}) adds a
+[Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}) version in
+[Hiring Data Engineers in Europe]({{ '/podcasts/hiring-for-data-engineering-jobs-in-europe/' | relative_url }}).
+Around 18:47, 22:55, and 31:16, he treats titles as noisy.
 
-These episodes give the strongest evidence on job descriptions.
+For data engineering roles, Nicolas looks for SQL and Python. He also looks for
+problems, outcomes, projects, and level-appropriate responsibility.
 
-- [Hiring Data Scientists and Analysts](https://datatalks.club/podcast.html):
-  At 7:09-18:03, Alicja Notowska describes recruiter and hiring-manager
-  collaboration on needs and market reality. She also covers required skills,
-  interview design, and job specs. At 18:28-20:04, she says job descriptions
-  should focus on problems over perks.
-- [Hiring Data Scientists and Analysts](https://datatalks.club/podcast.html):
-  At 20:04-21:29, inclusive language tools help teams check which audience a
-  description may attract and which words may discourage candidates.
-- [Data Science Jobs](https://datatalks.club/podcast.html): At 13:53-17:12,
-  Tereza Iofciu describes the mismatch between company expectations and
-  candidate reality when companies copy job descriptions without knowing what
-  they need.
-- [Data Science Jobs](https://datatalks.club/podcast.html): At 20:06-30:20,
-  the episode gives a role-clarity checklist. It covers team, area, and
-  objectives. It also covers responsibilities, requirements, diversity signals,
-  salary transparency, and questions to ask.
-- [Land Data Scientist Roles](https://datatalks.club/podcast.html): At
-  37:54-44:15, Luke Whipps tells candidates to read descriptions, research
-  company problems, and connect their experience to those problems in outreach
-  and CVs.
-- [Data Science Interview Guide](https://datatalks.club/podcast.html): At
-  15:29-17:13 and 18:28-25:51, Oleg Zhero advises candidates to study the job
-  description to predict interview expectations and pass recruiter CV screening.
+## Role Requirements
+
+Role requirements should describe the work before the tool stack. Alicja says
+job descriptions should focus on problems over perks around 18:28 in
+[Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }}).
+That means a data scientist description should clarify whether the person will
+run experiments, build models, support product decisions, or deploy ML systems.
+
+A data analyst description should clarify whether the work is BI reporting,
+product analytics, stakeholder analysis, or analytics engineering. A data
+engineering description should name the operating surface. The work may involve
+pipelines, platform infrastructure, data models, or governance controls.
+
+Requirements should also match level. Nicolas discusses junior-to-senior data
+engineering expectations around 22:55 in
+[Hiring Data Engineers in Europe]({{ '/podcasts/hiring-for-data-engineering-jobs-in-europe/' | relative_url }}).
+Junior descriptions should leave room for training and mentorship. Senior
+descriptions can expect system ownership, architecture judgment, and cross-team
+communication.
+
+When one posting asks for junior compensation and senior scope, the mismatch
+belongs on both [Job Search]({{ '/wiki/job-search/' | relative_url }}) and
+[CV Screening]({{ '/wiki/cv-screening/' | relative_url }}). It will distort both
+applications and evaluation.
+
+## Hiring Signals
+
+A strong description helps candidates show the right evidence. Alicja describes
+screening experience and education around 21:32 and 27:10 in
+[Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }}).
+She then discusses responsibilities and CV clarity around 28:41 and 32:40.
+Those signals work only when the description explains what evidence matters.
+
+If the role needs experimentation, the description should name experiment design,
+metrics, and product decision work. If the role needs data engineering, it
+should name the pipeline work and the expected ownership. SQL, Python, cloud
+fundamentals, and data quality can then appear as evidence instead of a loose
+keyword list.
+
+Luke's candidate advice points in the same direction. Around 16:15, 19:50, and
+25:04 in [Land Data Scientist Roles]({{ '/podcasts/get-data-scientist-job/' | relative_url }}),
+he looks for industry fit and use-case alignment. He also looks for concrete
+projects and business impact.
+
+A job description that names the work helps candidates choose the right
+evidence. They may show a dashboard, a modeling case study, or a pipeline. For
+production roles, they may show a service or another
+[portfolio artifact]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }}).
+
+Oleg adds that candidates should treat the CV like a landing page around 18:28
+in [Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }}).
+That advice depends on the job description. A good posting gives the candidate
+enough signal to put relevant achievements first and remove unrelated details.
+
+## Job-Posting Pitfalls
+
+A misleading title can hide a different role. Tereza's
+[Data Science Jobs]({{ '/podcasts/data-science-job-red-flags-and-mismatched-roles/' | relative_url }})
+episode calls this out around 20:06 and 23:01. A "data scientist" posting full
+of ETL, Airflow, and data platform work may be
+[Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}). A "data
+analyst" posting that owns instrumentation, dbt models, and semantic layers may
+be closer to [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }}).
+
+Long technology lists are another warning sign. Tereza discusses overloaded tech
+lists and vague responsibilities around 30:20 and 33:33. Tools matter, but the
+description should explain why they matter.
+
+Airflow often means batch pipelines, while dbt often means analytics
+engineering. A vector database may mean search or RAG. Without that context, the
+tool list becomes keyword noise.
+
+Alicja discusses inclusive job-description wording around 20:04 in
+[Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }}).
+Tereza flags words such as "rockstar" and "ninja" around 31:03 in
+[Data Science Jobs]({{ '/podcasts/data-science-job-red-flags-and-mismatched-roles/' | relative_url }}).
+The issue isn't style alone because such wording can signal unclear
+expectations, hero culture, or a narrow view of who belongs in the role.
+
+Missing salary context and unclear interview steps also weaken a description.
+Tereza discusses salary transparency around 37:08. Alicja covers salary bands
+and negotiation around 40:33 in
+[Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }}).
+When a posting hides level and compensation, candidates have to discover basics
+during recruiter calls. The same problem appears when the posting hides process
+or team context.
+
+## Portfolio Evidence
+
+Portfolio evidence should answer the job description, not display unrelated
+work. Luke tells candidates to connect projects to concrete use cases around
+19:50 and business impact around 25:04 in
+[Land Data Scientist Roles]({{ '/podcasts/get-data-scientist-job/' | relative_url }}).
+Oleg recommends cold-start projects and synthetic data for candidates without
+direct industry experience around 45:46 in
+[Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }}).
+He also suggests blogging as a way to make that work visible.
+
+Nicolas gives the data-engineering version around 54:25 and 55:53 in
+[Hiring Data Engineers in Europe]({{ '/podcasts/hiring-for-data-engineering-jobs-in-europe/' | relative_url }}).
+Shareable projects and GitHub work can show pipeline thinking, privacy
+awareness, and clear storytelling.
+
+Portfolio work should prove the role requirement. For
+[Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }}),
+use ingestion and orchestration as evidence. Add tests, data quality, and a
+runbook.
+
+For [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}),
+use model framing, evaluation, and deployment. Add monitoring and tradeoff
+explanation.
+
+For [Analytics Engineering Portfolio Projects]({{ '/wiki/analytics-engineering-portfolio-projects/' | relative_url }}),
+use clean models and metrics definitions. Add stakeholder-facing documentation
+and decision support.
 
 ## Related Pages
 
-Use these pages for adjacent hiring and candidate context.
-
-- [Hiring]({{ '/wiki/hiring/' | relative_url }})
-- [Job Search]({{ '/wiki/job-search/' | relative_url }})
-- [Data Science Careers]({{ '/wiki/data-science-careers/' | relative_url }})
-- [Data Analyst Careers]({{ '/wiki/data-analyst-careers/' | relative_url }})
-- [CV Screening]({{ '/wiki/cv-screening/' | relative_url }})
-- [Data Teams]({{ '/wiki/data-teams/' | relative_url }})
+Use [Hiring]({{ '/wiki/hiring/' | relative_url }}) for the employer-side process,
+[Job Search]({{ '/wiki/job-search/' | relative_url }}) for candidate strategy,
+and [CV Screening]({{ '/wiki/cv-screening/' | relative_url }}) for how recruiters
+read applications. Role-specific context lives in
+[Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }}),
+[Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }}),
+[Data Analyst Role]({{ '/wiki/data-analyst-role/' | relative_url }}), and
+[Data Teams]({{ '/wiki/data-teams/' | relative_url }}).

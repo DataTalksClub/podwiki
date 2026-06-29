@@ -13,7 +13,7 @@ DEFAULT_FOLDERS = ("_wiki", "_articles")
 GENERIC_PODCAST_URL = "https://datatalks.club/podcast.html"
 FORBIDDEN_HEADING_RE = re.compile(
     r"^## (Contents|Search Intent|Archive Evidence|Episode Evidence|Guest Descriptions|"
-    r"Recurring Archive Themes|Maintenance Notes|Agent Maintenance Notes|Guest Experts)\b",
+    r"Recurring Archive Themes|Maintenance Notes|Agent Maintenance Notes|Guest Experts|Bottom Line)\b",
     re.MULTILINE,
 )
 LOCAL_LINK_RE = re.compile(r"'/([^']+)/' \| relative_url")
