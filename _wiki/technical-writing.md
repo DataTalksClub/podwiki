@@ -54,10 +54,9 @@ logic before the author spends too much time polishing.
 
 Shipping cadence matters, but editing has a limit.
 
-Eugene starts by selecting an idea and writing an outline. He then drafts,
-edits, and distributes the piece. The useful lesson isn't that every person
-must write weekly. A repeatable cadence prevents endless polishing and turns
-writing into regular practice.
+Eugene selects an idea, writes an outline, revises, and shares with readers.
+The useful lesson isn't that every person must write weekly. A repeatable
+cadence prevents endless polishing and turns writing into regular practice.
 
 Technical writing overlaps with DevRel and documentation.
 

@@ -12,17 +12,19 @@ related:
 
 ## Definition and Scope
 
-Applied research is research aimed at a practical product, workflow, or business
-decision. In the podcast archive, applied researchers produce artifacts such as
-datasets, models, benchmarks, experiments, prototypes, and product insights. The
-work is still scientific, but it is anchored to a use case, market, domain, or
-production path.
+Teams do applied research when they aim research at a practical product,
+workflow, or business decision. In the podcast archive, applied researchers
+produce datasets, models, benchmarks, experiments, prototypes, and product
+insights. The work is still scientific, but it's anchored to a use case, market,
+domain, or production path.
 
 Use this page when evidence connects research to practical ML systems. Use
 [Academic Researcher to Data Science]({{ '/wiki/academic-researcher-to-data-science/' | relative_url }})
 for career-transition material.
 
 ## Contents
+
+Use these sections to move through the page.
 
 - [Recurring Archive Themes](#recurring-archive-themes)
 - [Episode Evidence](#episode-evidence)
@@ -31,14 +33,15 @@ for career-transition material.
 
 ## Recurring Archive Themes
 
-Applied research starts with hypotheses, not only models. Vin Vashishta
+Teams start applied research with hypotheses, not only models. Vin Vashishta
 describes the first model as a hypothesis about how a system works. The
-researcher then uses data, experiments, model behavior, explainability, and
-production feedback to confirm, reject, or refine that hypothesis.
+researcher then uses data, experiments, model behavior, and explainability to
+refine that hypothesis. Production feedback can confirm or reject it.
 
-Research artifacts should become reusable. The archive treats novel datasets,
-benchmarks, model prototypes, and experimental results as intellectual property
-that downstream data scientists and ML engineers can reuse. Applied research is
+Teams should make research artifacts reusable. The archive treats novel
+datasets, benchmarks, model prototypes, and experimental results as
+intellectual property that downstream data scientists and ML engineers can
+reuse. Applied research is
 valuable when it improves the next product decision or production build.
 
 The research-to-production gap is organizational as much as technical. Mihail
@@ -48,35 +51,40 @@ researchers throw notebooks over the wall and engineers receive unclear
 assumptions.
 
 Real-world deployment changes the research question. Computer-vision and
-autonomous-driving episodes move from model quality to latency, sensor cost,
-labeling, simulation, staged rollouts, privacy, safety checks, edge cases, and
-system coordination.
+autonomous-driving episodes move from model quality to latency, sensor cost, and
+labeling. They also bring in simulation, staged rollouts, privacy, safety
+checks, edge cases, and system coordination.
 
 ## Episode Evidence
 
+These episodes give the strongest applied-research evidence.
+
 - [Monetize Machine Learning](https://datatalks.club/podcast.html),
-  20:15-29:18: Vin Vashishta separates applied researchers from science
+  20:15-29:18. Vin Vashishta separates applied researchers from science
   researchers and frames applied research as business-aligned artifact creation.
 - [Monetize Machine Learning](https://datatalks.club/podcast.html),
-  36:10-43:28: the episode defines research as hypothesis design,
-  experimentation, explainability, model deconstruction, and iterative evidence
-  gathering.
+  36:10-43:28. The episode defines research as hypothesis design,
+  experimentation, and explainability. It also covers model deconstruction and
+  iterative evidence gathering.
 - [From Research to Production](https://datatalks.club/podcast.html),
-  8:34-20:25: Mihail Eric covers research infrastructure, prototyping,
-  benchmarks, experimental tooling, and deployment stacks.
+  8:34-20:25. Mihail Eric covers research infrastructure, prototyping,
+  benchmarks, and experimental tooling. The same section covers deployment
+  stacks.
 - [From Research to Production](https://datatalks.club/podcast.html),
-  23:32-51:28: the same episode covers reproducibility, engineering rigor,
-  embedded teams, code reviews, end-to-end systems, paper reading, and model
-  reproduction.
+  23:32-51:28. The same episode covers reproducibility, engineering rigor,
+  embedded teams, and code reviews. Later sections cover end-to-end systems,
+  paper reading, and model reproduction.
 - [Applying Computer Vision Research to Production AI](https://datatalks.club/podcast.html),
-  29:45-36:12: Aishwarya Jadhav describes simulation, closed-track testing,
-  on-road testing, anonymized sensor data, labeling strategy, safety checks, and
-  staged deployments.
+  29:45-36:12. Aishwarya Jadhav describes simulation, closed-track testing, and
+  on-road testing. The section also covers anonymized sensor data, labeling
+  strategy, safety checks, and staged deployments.
 - [Applying Computer Vision Research to Production AI](https://datatalks.club/podcast.html),
-  51:28-55:25: the episode discusses sensitive-case evaluation, broader
-  scenario tests, gradual rollout, and multimodal LLM constraints.
+  51:28-55:25. The episode discusses sensitive-case evaluation, broader scenario
+  tests, gradual rollout, and multimodal LLM constraints.
 
 ## Related Pages
+
+Use these pages for adjacent ML, production, and career material.
 
 - [Machine Learning]({{ '/wiki/machine-learning/' | relative_url }})
 - [Production]({{ '/wiki/production/' | relative_url }})
@@ -94,6 +102,7 @@ Best source files for future expansion:
 - `../datatalksclub.github.io/_podcast/from-computer-vision-research-to-autonomous-driving-ai.md`
 - `../datatalksclub.github.io/_podcast/s24e01-competitions-beyond-kaggle-leaderboard.md`
 
-Add future evidence when an episode explains a research artifact, hypothesis,
-benchmark, prototype, validation stage, or production handoff. Keep pure career
-advice on transition pages unless it changes how research work is done.
+Add future evidence when an episode explains a research artifact, hypothesis, or
+benchmark. Also add episodes that explain a prototype, validation stage, or
+production handoff. Keep pure career advice on transition pages unless it
+changes how research work is done.

@@ -39,10 +39,11 @@ The archive uses registries as lifecycle glue:
   Stiebellehner places model registries after experiment tracking and before
   serving decisions such as batch inference or online serving.
 - Registries usually come with tracking and metadata tooling. The platform
-  episode mentions MLflow, Weights & Biases, SageMaker, and cloud tools, which
+  episode mentions MLflow, Weights & Biases and SageMaker because cloud tools
   may bundle tracking with registry features.
 - A registry alone doesn't make a run reproducible. Teams also need the code
-  version, input data reference, job image, parameters, outputs, and lineage.
+  version and input data reference, while job images, parameters, outputs and
+  lineage matter too.
 - Governance and retention matter. If teams store datasets or metadata with
   model runs, privacy and deletion rules can turn a simple registry into a
   compliance concern.

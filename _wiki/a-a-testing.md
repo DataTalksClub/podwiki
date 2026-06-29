@@ -12,16 +12,18 @@ related:
 ## Definition and Scope
 
 A/A testing splits traffic into groups that receive the same experience. The
-purpose is not to test a product change. It is to check whether randomization,
+purpose isn't to test a product change. It's to check whether randomization,
 assignment logging, tracking, and analysis behave as expected before a team
 trusts A/B results.
 
-In the archive, A/A testing is a platform trust practice. It sits between
-instrumentation and experimentation: if the system cannot produce balanced
-groups and comparable metrics when nothing changed, it should not be used to
-judge real product changes.
+In the archive, A/A testing is a platform trust practice between
+instrumentation and experimentation. If the system can't produce balanced groups
+and comparable metrics when nothing changed, teams shouldn't use it to judge
+real product changes.
 
 ## Contents
+
+This page uses these sections:
 
 - [Recurring Archive Themes](#recurring-archive-themes)
 - [Episode Evidence](#episode-evidence)
@@ -43,15 +45,17 @@ The practice applies to third-party tools too. The archive notes that external
 experimentation platforms can still produce untrusted splits, so teams should
 validate them instead of assuming the dashboard is correct.
 
-A/A intuition helps explain p-values. Later in the same episode, Jakob explains
-statistical significance by asking how likely it would be to see the observed
-uplift in an A/A test, where no treatment exists.
+A/A intuition helps explain p-values. Later in the same episode, Jakob asks how
+likely it would be to see the observed uplift in an A/A test, where no
+treatment exists.
 
 ## Episode Evidence
 
+These episodes give the strongest evidence:
+
 - [Product Analytics and A/B Testing](https://datatalks.club/podcast.html),
   24:44-27:52: explains traffic splitters, assignment tracking, offline users
-  defaulting into one group, and the monitoring needed around experimentation
+  defaulting into one group, and monitoring around experimentation
   infrastructure. Source:
   `../datatalksclub.github.io/_podcast/ab-testing-and-product-experimentation.md`.
 - [Product Analytics and A/B Testing](https://datatalks.club/podcast.html),
@@ -63,6 +67,8 @@ uplift in an A/A test, where no treatment exists.
 
 ## Related Pages
 
+Useful adjacent pages:
+
 - [A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }})
 - [Experimentation]({{ '/wiki/experimentation/' | relative_url }})
 - [Metrics]({{ '/wiki/metrics/' | relative_url }})
@@ -71,6 +77,8 @@ uplift in an A/A test, where no treatment exists.
 - [Tracking Plans]({{ '/wiki/tracking-plans/' | relative_url }})
 
 ## Maintenance Notes
+
+Future maintainers should preserve these source paths and boundaries:
 
 - Keep A/A testing framed as experiment-system validation, not a substitute for
   A/B testing.

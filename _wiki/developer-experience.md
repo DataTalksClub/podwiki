@@ -11,15 +11,13 @@ related:
 
 ## Definition and Scope
 
-Developer experience is how quickly and confidently engineers, data scientists,
-and ML practitioners can use a tool or platform to do real work. In the
-DataTalks.Club archive, developer experience appears in ML platform adoption,
-DevRel, documentation, demos, and self-service compute. It also appears in thin
-abstractions and feedback from users back to product and engineering teams.
+Developer experience is how quickly engineers and data scientists can use a tool
+or platform for real work. In the DataTalks.Club archive, developer experience
+appears in ML platform adoption and DevRel. Documentation, demos and
+self-service compute matter too. Thin abstractions and user feedback also fit.
 
-Use this page when the evidence is about usability, adoption friction,
-documentation, tutorials, and onboarding. It also fits dogfooding, feedback, and
-workflow fit. Use [Developer Relations]({{ '/wiki/developer-relations/' | relative_url }})
+Use this page when the evidence is about usability and adoption friction. It
+also fits documentation, tutorials, onboarding and dogfooding. Use [Developer Relations]({{ '/wiki/developer-relations/' | relative_url }})
 or [Open Source and Developer Relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }})
 when the emphasis is public community and content strategy.
 
@@ -59,9 +57,9 @@ The archive treats developer experience as an adoption requirement:
 These episodes connect DX to platform adoption and DevRel:
 
 - [MLOps at Scale](https://datatalks.club/podcast.html): At 27:56-37:32,
-  Raphaël discusses iteration, feedback, developer experience, pain point
-  collection, and quick wins. He also discusses before-and-after evidence and
-  how heavy-handed standards can lose buy-in. Reuse the
+  Raphaël discusses iteration, feedback and developer experience. He also covers
+  pain point collection, quick wins and before-and-after evidence. The episode
+  shows how heavy-handed standards can lose buy-in. Reuse the
   [summary]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}).
 - [Building Production ML Platforms](https://datatalks.club/podcast.html):
   At 10:47-13:25, Simon centers platform design on the data science workflow.
@@ -69,8 +67,8 @@ These episodes connect DX to platform adoption and DevRel:
   teams want better developer experience. At 49:19-51:15, he warns against
   abstractions before teams know their users. Reuse the [summary]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
 - [DevRel Role for Machine Learning](https://datatalks.club/podcast.html):
-  At 18:07-25:17, Hugo defines DevRel through education, documentation, a
-  wisdom layer, and discoverable examples. He also covers collaboration with
+  At 18:07-25:17, Hugo defines DevRel through education, documentation and a
+  wisdom layer. He also covers discoverable examples and collaboration with
   engineers and feedback. At 43:14, he explains that tutorials should start
   from audience and goals. Reuse the [summary]({{ '/podcasts/devrel-open-source-machine-learning/' | relative_url }}).
 - [Post-ChatGPT AI Infrastructure](https://datatalks.club/podcast.html):
@@ -78,9 +76,9 @@ These episodes connect DX to platform adoption and DevRel:
   developer tools meant gathering feedback and passing it to engineering. Those
   tools also improved the experience of technical users.
 - [Open Source ML Contributions](https://datatalks.club/podcast.html): Adds the
-  open-source side of DX, covering reproducible issues, docs fixes, tests, CI,
-  packaging, and contribution paths that lower the barrier to useful
-  participation. Reuse the [summary]({{ '/podcasts/open-source-ml-contributions/' | relative_url }}).
+  open-source side of DX by covering reproducible issues, docs fixes and tests.
+  It also covers CI, packaging and contribution paths that lower the barrier to
+  useful participation. Reuse the [summary]({{ '/podcasts/open-source-ml-contributions/' | relative_url }}).
 
 ## Related Pages
 

@@ -13,9 +13,9 @@ related:
 
 Model monitoring is the practice of watching a deployed model and its
 surrounding data system after release. In the archive, teams monitor input
-quality, feature distributions, prediction distributions, latency, and errors.
-They also watch drift, feedback, business outcomes, alerting, and root cause
-signals.
+quality and feature distributions, plus prediction distributions, latency and
+errors. They also watch drift, feedback, business outcomes and root cause
+signals. Alerting ties those signals to response.
 
 Use this page when the evidence is model-specific. Use
 [Data Observability]({{ '/wiki/data-observability/' | relative_url }}) when
@@ -75,8 +75,8 @@ These episodes give the strongest monitoring evidence:
   [summary]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}).
 - [Data Quality and Observability](https://datatalks.club/podcast.html): Data
   observability episodes supply upstream failure modes that matter for model
-  monitoring. They include freshness, schema, volume, lineage, alerting, and
-  recovery. See [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).
+  monitoring. They include freshness, schema and volume, plus lineage, alerting
+  and recovery. See [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).
 
 ## Related Pages
 

@@ -12,10 +12,10 @@ related:
 ## Definition and Scope
 
 An ML platform is the shared product surface that helps teams build and train
-models. It also helps them deploy, monitor, and govern models without
-rebuilding the same plumbing each time. In the podcast archive, platform teams
-provide tracking, registries, compute access, and orchestration. They also
-provide deployment paths, prediction logging, monitoring, and support practices.
+models. It also helps them deploy and govern models while avoiding repeated
+plumbing. In the podcast archive, platform teams provide tracking, registries
+and compute access. They also provide orchestration, deployment paths and
+prediction logging. Monitoring and support practices fit here too.
 
 Use this page for the platform layer. Use [MLOps]({{ '/wiki/mlops/' | relative_url }})
 for the operating discipline and [Machine Learning Infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }})
@@ -38,12 +38,12 @@ The archive treats ML platforms as internal products, not tool collections:
   useful when multiple teams train, serve, or deploy models in different ways
   without a good reason. Raphaël Hoogvliets makes the same point through pain
   point collection and quick wins.
-- Build or buy selectively. Guests rarely recommend building an end-to-end
-  platform from scratch. They more often describe buying managed tools, adding
-  glue code, and wrapping the result in team-specific conventions.
-- Experiment tracking and registries are early wins because they preserve run history,
-  parameters, artifacts, and model handoffs before teams invest in heavier
-  serving or governance layers.
+- Build or buy selectively because guests rarely recommend building an
+  end-to-end platform from scratch. They more often describe buying managed
+  tools and wrapping them in team-specific conventions.
+- Experiment tracking and registries are early wins because they preserve run
+  history and model handoffs before teams invest in heavier serving or
+  governance layers.
 - Self-service is a developer-experience problem. Good platforms hide routine
   compute, deployment, and dependency work while still giving data scientists
   enough flexibility to experiment.
@@ -55,17 +55,17 @@ The archive treats ML platforms as internal products, not tool collections:
 These episodes give the strongest platform evidence:
 
 - [Building Production ML Platforms](https://datatalks.club/podcast.html):
-  At 4:42-17:14, Simon defines MLOps through people, process, and technology.
+  At 4:42-17:14, Simon defines MLOps through people, process and technology.
   He frames a platform as a way to reduce cognitive load for product teams. At
-  29:41-34:01, he covers tracking, registries, serving, and orchestration.
-  At 38:40-49:19, he discusses governance, metadata, lineage, and thin
-  abstractions. He also explains when to delay heavy platform work.
+  29:41-34:01, he covers tracking, registries, serving and orchestration.
+  At 38:40-49:19, he discusses governance, metadata, lineage and thin
+  abstractions, and explains when to delay heavy platform work.
   Reuse the [summary]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
 - [MLOps at Scale](https://datatalks.club/podcast.html): At 23:01-33:13,
   Raphaël describes a centralized enabling MLOps team that supports product
-  teams with infrastructure, tools, practices, and feedback. At 39:06-56:50,
-  he covers CI, repository structure, testing, and reproducibility. He also
-  covers registries, serving, monitoring, and dependency management. Reuse the
+  teams with infrastructure and feedback. At 39:06-56:50, he covers CI,
+  repository structure, testing and reproducibility. He also covers registries,
+  serving, monitoring and dependency management. Reuse the
   [summary]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}).
 - [DevRel Role for Machine Learning](https://datatalks.club/podcast.html):
   Hugo Bowne-Anderson describes Metaflow as a human-centric tool for full-stack

@@ -14,18 +14,19 @@ related:
 ## Definition and Scope
 
 Data science careers cover how people enter, evaluate, and grow in data
-scientist roles. In the podcast archive, this is not only a learning-path
-question. Guests treat data science careers as role-fit problems: candidates
-need to know which kind of data scientist role they want, show evidence that
-matches that role, and avoid titles that hide analytics, engineering, research,
-or first-data-hire work.
+scientist roles. In the podcast archive, guests treat career progress as a
+role-fit problem. Candidates need to know which kind of data scientist role they
+want, show evidence that matches that role, and avoid titles that hide adjacent
+work.
 
-This page bridges career-transition, job-search, CV, interview, and salary
-pages. Use [Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }})
-for role responsibilities and [Data Scientist Interview Roadmap]({{ '/wiki/data-scientist-interview-roadmap/' | relative_url }})
-for staged interview preparation.
+Data scientist job titles can point to product analytics, ML engineering,
+research, experimentation, dashboarding, or first-data-hire work. For role
+responsibilities, read [Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }}).
+For interview sequence, read [Data Scientist Interview Roadmap]({{ '/wiki/data-scientist-interview-roadmap/' | relative_url }}).
 
 ## Contents
+
+Use these links to move through the page.
 
 - [Recurring Archive Themes](#recurring-archive-themes)
 - [Episode Evidence](#episode-evidence)
@@ -34,55 +35,66 @@ for staged interview preparation.
 
 ## Recurring Archive Themes
 
-### Start with the actual work, not the title
-
-The archive repeatedly warns that "data scientist" can mean product analytics,
-machine learning engineering, research, dashboarding, experimentation, or a
-generalist first-data role. Strong candidates read the job description for
-responsibilities, team context, data maturity, interview style, and success
+**Start with the actual work, not the title.** The archive repeatedly warns that
+"data scientist" can mean many jobs. Strong candidates read the job description
+for responsibilities, team context, data maturity, interview style, and success
 criteria before they decide whether the role fits.
 
-### Make evidence easy to screen
+**Make evidence easy to screen.** Recruiter episodes converge on the same
+advice. A CV should show what the candidate personally did, which problem they
+worked on, which tools mattered, and what changed because of the work. Tool
+lists without context are weak. Course names are also weak without a project
+story, metric, or business connection.
 
-Recruiter episodes converge on the same advice: a CV should show what the
-candidate personally did, which problem they worked on, which tools mattered,
-and what changed because of the work. Tool lists without context are weak. So
-are course names with no project story, metric, or business connection.
+**Match portfolio projects to the role.** Portfolio projects help most when
+they resemble the target company or target role. Luke Whipps focuses on use-case
+and industry alignment. Oleg Zhero frames projects as proof that the candidate
+has practiced the data science lifecycle: problem definition, modeling,
+evaluation, communication, and next steps.
 
-### Portfolios work when they are role-matched
+**Translate career-changer proof.** Career changers can reuse domain knowledge,
+software skills, research depth, product context, or stakeholder experience.
+They still need practical data science evidence. The archive favors
+internships, internal data projects, open-source work, documented side projects,
+Kaggle practice, and company-specific projects over generic interest claims.
 
-Portfolio projects help most when they resemble the target company or target
-role. Luke Whipps emphasizes use-case and industry alignment. Oleg Zhero frames
-projects as proof that the candidate has gone through the data science process:
-problem definition, modeling, evaluation, communication, and next steps.
-
-### Career changers need translated proof
-
-Career changers can reuse prior domain knowledge, software skills, research
-depth, product context, or stakeholder experience. They still need practical
-data science evidence. The archive favors internships, internal data projects,
-open-source work, documented side projects, Kaggle practice, and company-specific
-projects over generic claims of interest.
-
-### Salary and offer work starts before the offer
-
-Data science career advice treats compensation as part of job search strategy.
-Candidates should research market ranges, understand level and band structure,
-compare total offer components, and avoid anchoring on current salary when the
-company is evaluating the new role's value.
+**Prepare salary and offer evidence early.** Data science career advice treats
+compensation as part of job search strategy. Candidates should research market
+ranges, understand levels and bands, compare offer components, and avoid
+anchoring on current salary.
 
 ## Episode Evidence
 
-| Episode | Evidence |
-| --- | --- |
-| [Land Data Scientist Roles](https://datatalks.club/podcast.html) | At 19:50-27:19, Luke Whipps connects CV strength to concrete projects, tech-stack evidence, business impact, and career progression. At 37:54-44:15, he recommends tailoring applications to company problems instead of sending broad applications. |
-| [Data Science Interview Guide](https://datatalks.club/podcast.html) | At 18:28-25:51, Oleg Zhero treats the CV as a screening surface: match the job description, remove noise, and highlight personal contribution. At 46:17-48:24, he recommends cold-start projects and blog posts for candidates without industry experience. |
-| [Hiring Data Scientists and Analysts](https://datatalks.club/podcast.html) | At 21:32-35:49, Alicja Notowska explains how recruiters screen experience, education, responsibilities, and buzzword-heavy CVs. At 47:36-50:53, she discusses practical experience and networking for career changers. |
-| [Project Manager to Data Scientist](https://datatalks.club/podcast.html) | At 32:43-43:16, Ksenia Mikhailova describes moving through data analysis, BI tools, Python, Kaggle, production-readiness, and domain specialization. |
-| [Data Science Jobs](https://datatalks.club/podcast.html) | At 13:53-20:06 and 20:06-30:20, Tereza Iofciu shows how mismatched company expectations, vague titles, take-home burden, team maturity, and unclear responsibilities affect career decisions. |
-| [Master ML and Data Science Interviews](https://datatalks.club/podcast.html) | Adds process evidence for recruiter screens, structured interview preparation, technical rounds, STAR stories, and expectation alignment. |
+These episodes give the strongest career-specific evidence.
+
+- [Land Data Scientist Roles](https://datatalks.club/podcast.html): At
+  19:50-27:19, Luke Whipps connects CV strength to concrete projects,
+  tech-stack evidence, business impact, and career progression. At 37:54-44:15,
+  he recommends tailoring applications to company problems instead of sending
+  broad applications.
+- [Data Science Interview Guide](https://datatalks.club/podcast.html): At
+  18:28-25:51, Oleg Zhero treats the CV as a screening surface: match the job
+  description, remove noise, and highlight personal contribution. At
+  46:17-48:24, he recommends cold-start projects and blog posts for candidates
+  without industry experience.
+- [Hiring Data Scientists and Analysts](https://datatalks.club/podcast.html):
+  At 21:32-35:49, Alicja Notowska explains how recruiters screen experience,
+  education, responsibilities, and buzzword-heavy CVs. At 47:36-50:53, she
+  discusses practical experience and networking for career changers.
+- [Project Manager to Data Scientist](https://datatalks.club/podcast.html): At
+  32:43-43:16, Ksenia Mikhailova describes moving through data analysis, BI
+  tools, Python, Kaggle, production-readiness, and domain specialization.
+- [Data Science Jobs](https://datatalks.club/podcast.html): At 13:53-20:06 and
+  20:06-30:20, Tereza Iofciu shows how mismatched company expectations, vague
+  titles, take-home burden, team maturity, and unclear responsibilities affect
+  career decisions.
+- [Master ML and Data Science Interviews](https://datatalks.club/podcast.html):
+  Adds evidence for recruiter screens, structured interview preparation,
+  technical rounds, STAR stories, and expectation alignment.
 
 ## Related Pages
+
+Use these pages for adjacent career and interview context.
 
 - [Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }})
 - [Data Scientist Interview Roadmap]({{ '/wiki/data-scientist-interview-roadmap/' | relative_url }})
@@ -93,6 +105,8 @@ company is evaluating the new role's value.
 - [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
 
 ## Maintenance Notes
+
+Use these notes when updating the page.
 
 - Keep this page career-oriented. Put role responsibilities on
   [Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }}) and

@@ -14,8 +14,8 @@ related:
 Platform engineering is the work of building shared internal systems. These
 systems help product, data and ML teams ship reliably without each team
 inventing its own infrastructure. In the podcast archive, ML platform engineers
-work across cloud infrastructure, MLOps, software engineering, and data science
-workflows. They also borrow from internal product management.
+work across cloud infrastructure and MLOps. They also borrow software
+engineering, data science workflow knowledge and internal product management.
 
 Use this page when the evidence is about platform team design, standards, and
 support models. It also fits internal customers and adoption. Use [ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }})
@@ -38,7 +38,8 @@ The archive presents platform engineering as enablement:
 - Platform teams reduce cognitive load. Simon Stiebellehner says platform work
   should streamline how teams develop and serve ML products. Raphaël
   Hoogvliets describes a centralized team that helps embedded product teams with
-  reusable tools, design documents, deployment, maintenance, and monitoring.
+  reusable tools and design documents. It also covers deployment, maintenance
+  and monitoring.
 - The team needs a hybrid skill mix. Guests name cloud infrastructure,
   Kubernetes, Terraform, and software engineering. They also name data science
   workflow knowledge, SRE, data engineering, and translation skills.
@@ -64,9 +65,10 @@ These episodes show platform engineering as internal enablement:
   real use cases.
   Reuse the [summary]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
 - [MLOps at Scale](https://datatalks.club/podcast.html): At 23:01-37:32,
-  Raphaël describes a centralized enabling team, embedded product-team support,
-  adoption through feedback, and developer experience. At 45:10-48:41, he names
-  skills across data science, SRE, DevOps, and platform engineering. Reuse the
+  Raphaël describes a centralized enabling team and embedded product-team
+  support. He also covers adoption through feedback and developer experience. At
+  45:10-48:41, he names skills across data science, SRE, DevOps and platform
+  engineering. Reuse the
   [summary]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}).
 - [DevRel Role for Machine Learning](https://datatalks.club/podcast.html):
   Hugo connects platform work to education, documentation, demos, and developer

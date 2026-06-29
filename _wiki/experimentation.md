@@ -12,12 +12,12 @@ related:
 
 ## Definition and Scope
 
-Experimentation is the deliberate testing of a product, model, policy, or
-workflow change before committing to a larger rollout. In the archive, the term
-covers randomized A/B tests, A/A platform checks, model shadow testing,
-proof-of-concept comparisons, design sprints, and data-driven product discovery.
+Experimentation is deliberate testing before a team commits to a larger
+rollout. In the archive, teams experiment with product changes, models,
+policies, workflows, randomized A/B tests, A/A platform checks, shadow testing,
+proofs of concept, design sprints, and data-driven product discovery.
 
-This page covers the broader practice. Use
+Use this page for the broader practice. Use
 [A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }}) for randomized
 experiment mechanics, [Causal Inference]({{ '/wiki/causal-inference/' | relative_url }})
 for intervention reasoning beyond randomized tests, and
@@ -25,6 +25,8 @@ for intervention reasoning beyond randomized tests, and
 for the full hub.
 
 ## Contents
+
+This page uses these sections:
 
 - [Recurring Archive Themes](#recurring-archive-themes)
 - [Episode Evidence](#episode-evidence)
@@ -38,8 +40,8 @@ subscription pricing, game features, and release diagnosis to show why teams
 test instead of relying only on expert intuition.
 
 Experiments also build organizational learning. Small, lower-risk surfaces can
-teach product teams what transfers to larger products. The useful result is not
-only a launch decision; it is reusable knowledge about users, implementation
+teach product teams what transfers to larger products. Teams don't only get a
+launch decision. They also get reusable knowledge about users, implementation
 choices, and metrics.
 
 ML work is experimental before and after deployment. Rishabh Bhargava describes
@@ -47,12 +49,14 @@ pre-deployment model experiments over features and hyperparameters, then live
 traffic validation with shadow mode or A/B tests. Analysts help translate model
 results into business impact and segment-level explanations.
 
-Product-design experiments are often not statistical tests. Liesbeth Dingemans
+Product-design experiments often aren't statistical tests. Liesbeth Dingemans
 describes Double Diamond discovery, parallel proofs of concept, scoping
-documents, surveys, prototypes, and quick measurable changes as ways to collect
+documents, surveys, and prototypes. Quick measurable changes can collect
 evidence before a team spends months on the wrong ML solution.
 
 ## Episode Evidence
+
+These episodes give the strongest evidence:
 
 - [Product Analytics and A/B Testing](https://datatalks.club/podcast.html),
   18:06-23:54: frames experiments as de-risking and organizational learning.
@@ -63,7 +67,8 @@ evidence before a team spends months on the wrong ML solution.
   stability checks, and planned duration.
 - [From Analytics to Production ML](https://datatalks.club/podcast.html),
   28:42-32:47: contrasts analytics iteration with ML experimentation and
-  discusses shadow mode, A/B tests, uplift, and segment analysis. Source:
+  discusses shadow mode and A/B tests. It also covers uplift and segment
+  analysis. Source:
   `../datatalksclub.github.io/_podcast/production-ml-mlops-and-data-team-building.md`.
 - [AI Product Design](https://datatalks.club/podcast.html), 12:12-17:25:
   explains Double Diamond problem framing and parallel proofs of concept.
@@ -75,6 +80,8 @@ evidence before a team spends months on the wrong ML solution.
 
 ## Related Pages
 
+Useful adjacent pages:
+
 - [A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }})
 - [A/A Testing]({{ '/wiki/a-a-testing/' | relative_url }})
 - [Power Analysis]({{ '/wiki/power-analysis/' | relative_url }})
@@ -84,6 +91,8 @@ evidence before a team spends months on the wrong ML solution.
 - [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
 
 ## Maintenance Notes
+
+Future maintainers should preserve these source paths and boundaries:
 
 - Keep this page broader than A/B testing. Include product discovery,
   prototype, and ML validation evidence when episodes support it.

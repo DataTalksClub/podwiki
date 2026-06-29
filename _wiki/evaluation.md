@@ -12,11 +12,11 @@ related:
 
 ## Definition and Scope
 
-Evaluation is the practice of deciding whether a model, product change, data
-product, or AI workflow is good enough for the decision it supports. In the
-DataTalks.Club podcast archive, evaluation includes offline model metrics,
-business metrics, A/B tests, A/A tests, power analysis, causal model checks,
-human review, and production monitoring.
+Evaluation is the practice of deciding whether a system is good enough for the
+decision it supports. In the DataTalks.Club podcast archive, teams evaluate
+models, product changes, data products, and AI workflows with offline metrics,
+business metrics, experiments, causal checks, human review, and production
+monitoring.
 
 Use this page as the bridge between model evaluation and decision validation.
 Use [Metrics]({{ '/wiki/metrics/' | relative_url }}) for metric design,
@@ -26,6 +26,8 @@ when the question is whether an intervention caused the outcome.
 
 ## Contents
 
+This page uses these sections:
+
 - [Recurring Archive Themes](#recurring-archive-themes)
 - [Episode Evidence](#episode-evidence)
 - [Related Pages](#related-pages)
@@ -33,26 +35,29 @@ when the question is whether an intervention caused the outcome.
 
 ## Recurring Archive Themes
 
-Evaluation starts with the decision, not the metric. The archive repeatedly
-warns that a technically impressive model can still fail if the team has not
-defined the user, outcome, baseline, guardrails, and deployment path.
+Evaluation starts with the decision, not the metric. Guests repeatedly warn that
+a technically impressive model can still fail when the team hasn't defined the
+user, outcome, baseline, guardrails, and deployment path.
 
 Offline evaluation is necessary but incomplete. Production ML discussions
 describe shadow mode and A/B tests as bridges from offline model performance to
-live product impact. Analysts often help explain whether uplift is real, where
-it appears by segment, and why a model that looked good offline did not move a
-business metric.
+live product impact. Analysts often explain whether uplift is real and where it
+appears by segment. They also help diagnose why a model that looked good offline
+didn't move a business metric.
 
 Causal evaluation has its own checks. Aleksander Molak separates policy
-evaluation from ordinary regression metrics: teams compare policies with the
-same business metric, but they also need refutation tests, causal bias checks,
-and assumptions about confounding before trusting causal claims.
+evaluation from ordinary regression metrics. Teams compare policies with the
+same business metric. They also need refutation tests, causal bias checks, and
+confounding assumptions before trusting causal claims.
 
-LLM and RAG episodes extend the same pattern. Guests discuss evaluation sets,
-human-in-the-loop review, traces, retrieval relevance, answer faithfulness, and
-failure analysis as the work that turns demos into engineering systems.
+LLM and RAG episodes extend the same evaluation habit. Guests discuss
+evaluation sets, human-in-the-loop review, traces, retrieval relevance, answer
+faithfulness, and failure analysis. That work turns demos into engineering
+systems.
 
 ## Episode Evidence
+
+These episodes give the strongest evidence:
 
 - [Product Analytics and A/B Testing](https://datatalks.club/podcast.html),
   8:13-18:06: frames randomized tests as a way to evaluate whether a change
@@ -70,11 +75,13 @@ failure analysis as the work that turns demos into engineering systems.
   uses shadow mode, A/B tests, segment analysis, and analyst knowledge of
   business metrics.
 - [Modern Search Systems](https://datatalks.club/podcast.html), 48:09-50:52:
-  adds RAG and search evaluation through multi-level metrics, offline tests,
-  and human review. See the local summary:
+  adds RAG and search evaluation through multi-level metrics and offline tests.
+  It also includes human review. See the local summary:
   [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}).
 
 ## Related Pages
+
+Useful adjacent pages:
 
 - [Metrics]({{ '/wiki/metrics/' | relative_url }})
 - [A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }})
@@ -86,6 +93,8 @@ failure analysis as the work that turns demos into engineering systems.
 - [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
 
 ## Maintenance Notes
+
+Future maintainers should preserve these source paths and boundaries:
 
 - Preserve the distinction between offline model scoring, online product
   experiments, causal validation, and production monitoring.
