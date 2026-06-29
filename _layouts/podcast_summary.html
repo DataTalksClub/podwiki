@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<article class="knowledge-page podcast-summary">
+  <p class="eyebrow">Podcast Summary</p>
+  <h1>{{ page.title }}</h1>
+  <div class="summary-meta">
+    {% if page.season %}<span>S{{ page.season }}E{{ page.episode }}</span>{% endif %}
+    {% if page.summary_status %}<span>{{ page.summary_status }}</span>{% endif %}
+  </div>
+  {% if page.topics %}
+    <div class="meta">
+      {% for topic in page.topics %}
+        <a href="/wiki/{{ topic | slugify }}/">{{ topic }}</a>
+      {% endfor %}
+    </div>
+  {% endif %}
+  {{ content }}
+  {% if page.source_url %}
+    <p><a class="button" href="{{ page.source_url }}">Open original podcast page</a></p>
+  {% endif %}
+</article>

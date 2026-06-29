@@ -1,0 +1,29 @@
+---
+layout: person
+title: "Eugene Yan"
+source_person: "../datatalksclub.github.io/_people/eugeneyan.md"
+person_id: eugeneyan
+summary: "Applied ML practitioner and writer connecting production ML, technical writing, communication, and community learning."
+expertise: ["machine learning", "software engineering", "communication", "career transition", "community building"]
+podcast_episodes: ["technical-writing-for-data-scientists", "datatalksclub-building-scaling-data-community"]
+---
+
+## Background
+
+Eugene Yan works at the intersection of machine learning and product, with source bio experience at Amazon, Lazada, and uCare.ai. He writes and speaks about data science, ML in production, and career growth.
+
+## Podcast Contributions
+
+- [Master Technical Writing](https://datatalks.club/podcast.html) contributes a concrete writing workflow for data practitioners who want to clarify their work and build professional leverage.
+- [DataTalks.Club Behind the Scenes](https://datatalks.club/podcast.html) includes Eugene in the community-building evidence around scaling learning communities and maintaining durable technical education.
+
+## Concepts Connected
+
+- [communication](/wiki/communication/) and [career transition](/wiki/career-transition/) for writing as a career tool.
+- [machine learning](/wiki/machine-learning/) and [software engineering](/wiki/software-engineering/) for the production systems context.
+- [community building](/wiki/community-building/) for public learning and technical education.
+
+## Source Links
+
+- Person source: `../datatalksclub.github.io/_people/eugeneyan.md`
+- Podcast sources: `../datatalksclub.github.io/_podcast/technical-writing-for-data-scientists.md`, `../datatalksclub.github.io/_podcast/datatalksclub-building-scaling-data-community.md`

@@ -1,0 +1,1 @@
+zerosearch>=0.1.0

@@ -1,0 +1,3249 @@
+{
+  "generated_at": "manual-collection-build",
+  "counts": {
+    "wikis": 5,
+    "articles": 11,
+    "podcasts": 12,
+    "persons": 26,
+    "topics": 116,
+    "nodes": 170,
+    "links": 276
+  },
+  "nodes": [
+    {
+      "id": "article:data-scientist-interview",
+      "type": "article",
+      "label": "Data Scientist Interview Prep: What to Practice Before the First Call",
+      "title": "Data Scientist Interview Prep: What to Practice Before the First Call",
+      "url": "/articles/data-scientist-interview/",
+      "count": 1,
+      "search": "Data Scientist Interview Prep: What to Practice Before the First Call A practical guide to data scientist interview preparation, covering recruiter screens, CVs, take-home projects, SQL, ML fundamentals, case studies, and behavioral stories. data scientist interview",
+      "keyword": "data scientist interview"
+    },
+    {
+      "id": "article:dataops-vs-data-engineering",
+      "type": "article",
+      "label": "DataOps vs Data Engineering: What Changes in Practice?",
+      "title": "DataOps vs Data Engineering: What Changes in Practice?",
+      "url": "/articles/dataops-vs-data-engineering/",
+      "count": 1,
+      "search": "DataOps vs Data Engineering: What Changes in Practice? A practical guide to DataOps, how it differs from data engineering, and why teams use it to make pipelines safer and easier to change. data ops",
+      "keyword": "data ops"
+    },
+    {
+      "id": "article:software-engineer-to-machine-learning",
+      "type": "article",
+      "label": "From Software Engineer to Machine Learning: What Actually Transfers",
+      "title": "From Software Engineer to Machine Learning: What Actually Transfers",
+      "url": "/articles/software-engineer-to-machine-learning/",
+      "count": 1,
+      "search": "From Software Engineer to Machine Learning: What Actually Transfers A career-transition article for software engineers moving into ML, grounded in podcast episodes about production systems, MLOps, interviews, and applied ML. software engineering machine learning",
+      "keyword": "software engineering machine learning"
+    },
+    {
+      "id": "article:how-to-build-data-pipelines",
+      "type": "article",
+      "label": "How to Build Data Pipelines That People Can Trust",
+      "title": "How to Build Data Pipelines That People Can Trust",
+      "url": "/articles/how-to-build-data-pipelines/",
+      "count": 1,
+      "search": "How to Build Data Pipelines That People Can Trust A podcast-backed overview of data pipeline design: ingestion, transformation, orchestration, contracts, testing, monitoring, and last-mile adoption. build data pipelines",
+      "keyword": "build data pipelines"
+    },
+    {
+      "id": "article:interpretable-machine-learning",
+      "type": "article",
+      "label": "Interpretable Machine Learning: How to Build Models People Can Trust",
+      "title": "Interpretable Machine Learning: How to Build Models People Can Trust",
+      "url": "/articles/interpretable-machine-learning/",
+      "count": 1,
+      "search": "Interpretable Machine Learning: How to Build Models People Can Trust A practical guide to interpretable machine learning, explainable AI, SHAP, conformal prediction, fairness checks, governance, and actionability. interpretable machine learning",
+      "keyword": "interpretable machine learning"
+    },
+    {
+      "id": "article:llm-tools",
+      "type": "article",
+      "label": "LLM Tools: How to Choose the Right Stack for Real Products",
+      "title": "LLM Tools: How to Choose the Right Stack for Real Products",
+      "url": "/articles/llm-tools/",
+      "count": 1,
+      "search": "LLM Tools: How to Choose the Right Stack for Real Products A practical guide to choosing LLM tools for production workflows, including model APIs, open-source models, RAG, evaluation, agents, observability, and cost trade-offs. llm tools",
+      "keyword": "llm tools"
+    },
+    {
+      "id": "article:machine-learning-for-startups",
+      "type": "article",
+      "label": "Machine Learning for Startups: Build Useful AI Without Overbuilding",
+      "title": "Machine Learning for Startups: Build Useful AI Without Overbuilding",
+      "url": "/articles/machine-learning-for-startups/",
+      "count": 1,
+      "search": "Machine Learning for Startups: Build Useful AI Without Overbuilding A startup-focused guide to applying machine learning pragmatically, covering problem selection, MVPs, data strategy, lean MLOps, hiring, monitoring, and product-market fit. machine learning for startups",
+      "keyword": "machine learning for startups"
+    },
+    {
+      "id": "article:machine-learning-system-design",
+      "type": "article",
+      "label": "Machine Learning System Design: A Practical Production Checklist",
+      "title": "Machine Learning System Design: A Practical Production Checklist",
+      "url": "/articles/machine-learning-system-design/",
+      "count": 1,
+      "search": "Machine Learning System Design: A Practical Production Checklist A podcast-backed guide to machine learning system design: problem framing, data, baselines, evaluation, serving, monitoring, fallbacks, and interview preparation. machine learning system design",
+      "keyword": "machine learning system design"
+    },
+    {
+      "id": "article:data-product-manager-role",
+      "type": "article",
+      "label": "What Does a Data Product Manager Do?",
+      "title": "What Does a Data Product Manager Do?",
+      "url": "/articles/data-product-manager-role/",
+      "count": 1,
+      "search": "What Does a Data Product Manager Do? A practical explanation of the data product manager role, based on podcast discussions about discovery, metrics, roadmaps, ownership, and data product adoption. data product management",
+      "keyword": "data product management"
+    },
+    {
+      "id": "article:analytics-engineer",
+      "type": "article",
+      "label": "What Is an Analytics Engineer? Skills, Tools, and Career Path",
+      "title": "What Is an Analytics Engineer? Skills, Tools, and Career Path",
+      "url": "/articles/analytics-engineer/",
+      "count": 1,
+      "search": "What Is an Analytics Engineer? Skills, Tools, and Career Path A practical explanation of the analytics engineer role, including SQL, dbt, data modeling, testing, BI, stakeholder work, and career transition paths. analytics engineer",
+      "keyword": "analytics engineer"
+    },
+    {
+      "id": "article:what-is-mlops",
+      "type": "article",
+      "label": "What Is MLOps? A Practical Guide from Production ML Conversations",
+      "title": "What Is MLOps? A Practical Guide from Production ML Conversations",
+      "url": "/articles/what-is-mlops/",
+      "count": 1,
+      "search": "What Is MLOps? A Practical Guide from Production ML Conversations A practical explanation of MLOps based on DataTalks.Club podcast discussions about production ML, monitoring, CI/CD, governance, and team ownership. mlops",
+      "keyword": "mlops"
+    },
+    {
+      "id": "person:adrianbrudaru",
+      "type": "person",
+      "label": "Adrian Brudaru",
+      "title": "Adrian Brudaru",
+      "url": "/people/adrianbrudaru/",
+      "count": 1,
+      "search": "Adrian Brudaru Data engineering consultant and founder voice covering modern data platforms, freelance strategy, open-source products, and bottom-up adoption. "
+    },
+    {
+      "id": "person:alexeygrigorev",
+      "type": "person",
+      "label": "Alexey Grigorev",
+      "title": "Alexey Grigorev",
+      "url": "/people/alexeygrigorev/",
+      "count": 1,
+      "search": "Alexey Grigorev Founder of DataTalks.Club and recurring contributor on data teams, MLOps, community building, and open education. "
+    },
+    {
+      "id": "person:andreaskretz",
+      "type": "person",
+      "label": "Andreas Kretz",
+      "title": "Andreas Kretz",
+      "url": "/people/andreaskretz/",
+      "count": 1,
+      "search": "Andreas Kretz Data engineer and platform educator contributing practical patterns for production ML pipelines, AWS, Kafka, and modern data science platforms. "
+    },
+    {
+      "id": "person:andreycheptsov",
+      "type": "person",
+      "label": "Andrey Cheptsov",
+      "title": "Andrey Cheptsov",
+      "url": "/people/andreycheptsov/",
+      "count": 1,
+      "search": "Andrey Cheptsov Founder of dstack contributing open-source AI infrastructure guidance for orchestration, hybrid cloud, on-prem economics, and distributed training. "
+    },
+    {
+      "id": "person:atitaarora",
+      "type": "person",
+      "label": "Atita Arora",
+      "title": "Atita Arora",
+      "url": "/people/atitaarora/",
+      "count": 1,
+      "search": "Atita Arora Information retrieval practitioner connecting vector databases, semantic search, LLMs, embeddings, and open-source search evaluation. "
+    },
+    {
+      "id": "person:barrmoses",
+      "type": "person",
+      "label": "Barr Moses",
+      "title": "Barr Moses",
+      "url": "/people/barrmoses/",
+      "count": 1,
+      "search": "Barr Moses Monte Carlo co-founder contributing the archive's data observability and data reliability reference for freshness, lineage, schema changes, and downtime prevention. "
+    },
+    {
+      "id": "person:bartoszmikulski",
+      "type": "person",
+      "label": "Bartosz Mikulski",
+      "title": "Bartosz Mikulski",
+      "url": "/people/bartoszmikulski/",
+      "count": 1,
+      "search": "Bartosz Mikulski AI and data engineer specializing in moving AI projects from demos to production through testing, pipelines, prompt optimization, and caching. "
+    },
+    {
+      "id": "person:benwilson",
+      "type": "person",
+      "label": "Ben Wilson",
+      "title": "Ben Wilson",
+      "url": "/people/benwilson/",
+      "count": 1,
+      "search": "Ben Wilson Databricks solutions architect and ML engineering author focused on maintainable production ML systems. "
+    },
+    {
+      "id": "person:christophmolnar",
+      "type": "person",
+      "label": "Christoph Molnar",
+      "title": "Christoph Molnar",
+      "url": "/people/christophmolnar/",
+      "count": 1,
+      "search": "Christoph Molnar Statistician and machine learning practitioner focused on interpretability, model trust, SHAP, and conformal prediction. "
+    },
+    {
+      "id": "person:demetriosbrinkmann",
+      "type": "person",
+      "label": "Demetrios Brinkmann",
+      "title": "Demetrios Brinkmann",
+      "url": "/people/demetriosbrinkmann/",
+      "count": 1,
+      "search": "Demetrios Brinkmann MLOps Community organizer contributing practical lessons on launching, growing, and sustaining technical communities and meetups. "
+    },
+    {
+      "id": "person:elenasamuylova",
+      "type": "person",
+      "label": "Elena Samuylova",
+      "title": "Elena Samuylova",
+      "url": "/people/elenasamuylova/",
+      "count": 1,
+      "search": "Elena Samuylova Evidently AI co-founder connecting MLOps, model monitoring, open-source tooling, and ML startup building. "
+    },
+    {
+      "id": "person:elleobrien",
+      "type": "person",
+      "label": "Elle O'Brien",
+      "title": "Elle O'Brien",
+      "url": "/people/elleobrien/",
+      "count": 1,
+      "search": "Elle O'Brien Data scientist, educator, and open-source practitioner connecting developer relations, reproducible ML tooling, and community education. "
+    },
+    {
+      "id": "person:eugeneyan",
+      "type": "person",
+      "label": "Eugene Yan",
+      "title": "Eugene Yan",
+      "url": "/people/eugeneyan/",
+      "count": 1,
+      "search": "Eugene Yan Applied ML practitioner and writer connecting production ML, technical writing, communication, and community learning. "
+    },
+    {
+      "id": "person:hugobowneanderson",
+      "type": "person",
+      "label": "Hugo Bowne-Anderson",
+      "title": "Hugo Bowne-Anderson",
+      "url": "/people/hugobowneanderson/",
+      "count": 1,
+      "search": "Hugo Bowne-Anderson Developer relations leader and educator connecting ML infrastructure, open-source ecosystems, practical LLM engineering, and RAG workflows. "
+    },
+    {
+      "id": "person:ivanbilan",
+      "type": "person",
+      "label": "Ivan Bilan",
+      "title": "Ivan Bilan",
+      "url": "/people/ivanbilan/",
+      "count": 1,
+      "search": "Ivan Bilan Engineering manager linking NLP team leadership, hiring, production pipelines, MLOps, and LLM tradeoffs. "
+    },
+    {
+      "id": "person:larsalbertsson",
+      "type": "person",
+      "label": "Lars Albertsson",
+      "title": "Lars Albertsson",
+      "url": "/people/larsalbertsson/",
+      "count": 1,
+      "search": "Lars Albertsson Data engineering founder and speaker contributing DataOps patterns for scalable platforms, immutable pipelines, and self-service data work. "
+    },
+    {
+      "id": "person:lavanyagupta",
+      "type": "person",
+      "label": "Lavanya Gupta",
+      "title": "Lavanya Gupta",
+      "url": "/people/lavanyagupta/",
+      "count": 1,
+      "search": "Lavanya Gupta Applied AI/ML researcher connecting long-context LLM evaluation, industry publishing, prototyping, and career growth. "
+    },
+    {
+      "id": "person:lukewhipps",
+      "type": "person",
+      "label": "Luke Whipps",
+      "title": "Luke Whipps",
+      "url": "/people/lukewhipps/",
+      "count": 1,
+      "search": "Luke Whipps AI recruiter and podcast host contributing practical guidance on data science job search, resumes, portfolios, interviews, and hiring signals. "
+    },
+    {
+      "id": "person:mariasukhareva",
+      "type": "person",
+      "label": "Maria Sukhareva",
+      "title": "Maria Sukhareva",
+      "url": "/people/mariasukhareva/",
+      "count": 1,
+      "search": "Maria Sukhareva AI expert focused on production generative AI, chatbot hardening, prompt-injection defense, and enterprise security. "
+    },
+    {
+      "id": "person:meryemarik",
+      "type": "person",
+      "label": "Meryem Arik",
+      "title": "Meryem Arik",
+      "url": "/people/meryemarik/",
+      "count": 1,
+      "search": "Meryem Arik LLM startup founder focused on deployable language models, fine-tuning, retrieval, open-source models, and production tradeoffs. "
+    },
+    {
+      "id": "person:nemanjaradojkovic",
+      "type": "person",
+      "label": "Nemanja Radojkovic",
+      "title": "Nemanja Radojkovic",
+      "url": "/people/nemanjaradojkovic/",
+      "count": 1,
+      "search": "Nemanja Radojkovic MLOps engineer and teacher connecting regulated finance deployments, startup-scale MLOps, data engineering, and career transition. "
+    },
+    {
+      "id": "person:ranjithakulkarni",
+      "type": "person",
+      "label": "Ranjitha Kulkarni",
+      "title": "Ranjitha Kulkarni",
+      "url": "/people/ranjithakulkarni/",
+      "count": 1,
+      "search": "Ranjitha Kulkarni Staff ML engineer focused on agentic AI, assistant evaluation, retrieval, and pragmatic LLM product engineering. "
+    },
+    {
+      "id": "person:tatianagabruseva",
+      "type": "person",
+      "label": "Tatiana Gabruseva",
+      "title": "Tatiana Gabruseva",
+      "url": "/people/tatianagabruseva/",
+      "count": 1,
+      "search": "Tatiana Gabruseva Computer vision and deep learning engineer connecting Kaggle practice, academia-to-industry transition, and staff-level AI career growth. "
+    },
+    {
+      "id": "person:terezaiofciu",
+      "type": "person",
+      "label": "Tereza Iofciu",
+      "title": "Tereza Iofciu",
+      "url": "/people/terezaiofciu/",
+      "count": 1,
+      "search": "Tereza Iofciu Data leader and coach covering career red flags, team roles, stakeholder communication, and the transition into management. "
+    },
+    {
+      "id": "person:vincentwarmerdam",
+      "type": "person",
+      "label": "Vincent Warmerdam",
+      "title": "Vincent Warmerdam",
+      "url": "/people/vincentwarmerdam/",
+      "count": 1,
+      "search": "Vincent Warmerdam Research advocate and open-source ML educator known for practical tooling, scikit-learn contribution guidance, and explainable demos. "
+    },
+    {
+      "id": "person:zhamakdehghani",
+      "type": "person",
+      "label": "Zhamak Dehghani",
+      "title": "Zhamak Dehghani",
+      "url": "/people/zhamakdehghani/",
+      "count": 1,
+      "search": "Zhamak Dehghani Founder of data mesh contributing decentralized data architecture, data products, contracts, and federated governance. "
+    },
+    {
+      "id": "podcast:building-production-ml-platform-and-mlops-team",
+      "type": "podcast",
+      "label": "Building Production ML Platforms: Infrastructure, Workflows, Teams & Governance That Scale",
+      "title": "Building Production ML Platforms: Infrastructure, Workflows, Teams & Governance That Scale",
+      "url": "/podcasts/building-production-ml-platform-and-mlops-team/",
+      "count": 1,
+      "search": "Building Production ML Platforms: Infrastructure, Workflows, Teams & Governance That Scale  ",
+      "source_url": "https://datatalks.club/podcast.html",
+      "season": "14",
+      "episode": "8"
+    },
+    {
+      "id": "podcast:open-source-ml-contributions",
+      "type": "podcast",
+      "label": "Contribute to Open Source ML: scikit-learn Pipelines, PRs, Docs & Rasa Conversational AI",
+      "title": "Contribute to Open Source ML: scikit-learn Pipelines, PRs, Docs & Rasa Conversational AI",
+      "url": "/podcasts/open-source-ml-contributions/",
+      "count": 1,
+      "search": "Contribute to Open Source ML: scikit-learn Pipelines, PRs, Docs & Rasa Conversational AI  ",
+      "source_url": "https://datatalks.club/podcast.html",
+      "season": "2",
+      "episode": "3"
+    },
+    {
+      "id": "podcast:devrel-open-source-machine-learning",
+      "type": "podcast",
+      "label": "DevRel Role for Machine Learning: ML Ecosystems, Open-Source Governance & Developer Experience with Metaflow",
+      "title": "DevRel Role for Machine Learning: ML Ecosystems, Open-Source Governance & Developer Experience with Metaflow",
+      "url": "/podcasts/devrel-open-source-machine-learning/",
+      "count": 1,
+      "search": "DevRel Role for Machine Learning: ML Ecosystems, Open-Source Governance & Developer Experience with Metaflow  ",
+      "source_url": "https://datatalks.club/podcast.html",
+      "season": "14",
+      "episode": "6"
+    },
+    {
+      "id": "podcast:data-engineering-tools-modern-data-stack",
+      "type": "podcast",
+      "label": "ETL vs ELT & Data Lake vs Warehouse: Airbyte, dbt, CDC for Modern Data Engineering",
+      "title": "ETL vs ELT & Data Lake vs Warehouse: Airbyte, dbt, CDC for Modern Data Engineering",
+      "url": "/podcasts/data-engineering-tools-modern-data-stack/",
+      "count": 1,
+      "search": "ETL vs ELT & Data Lake vs Warehouse: Airbyte, dbt, CDC for Modern Data Engineering  ",
+      "source_url": "https://datatalks.club/podcast.html",
+      "season": "5",
+      "episode": "2"
+    },
+    {
+      "id": "podcast:from-game-ai-to-modern-ai-agents",
+      "type": "podcast",
+      "label": "From Game AI to LLM Agents: 20-Year Evolution of Multi-Agent Systems, Evolutionary Algorithms & Modern AI Tooling",
+      "title": "From Game AI to LLM Agents: 20-Year Evolution of Multi-Agent Systems, Evolutionary Algorithms & Modern AI Tooling",
+      "url": "/podcasts/from-game-ai-to-modern-ai-agents/",
+      "count": 1,
+      "search": "From Game AI to LLM Agents: 20-Year Evolution of Multi-Agent Systems, Evolutionary Algorithms & Modern AI Tooling  ",
+      "source_url": "https://datatalks.club/podcast.html",
+      "season": "21",
+      "episode": "7"
+    },
+    {
+      "id": "podcast:hiring-data-scientists-and-analysts",
+      "type": "podcast",
+      "label": "Hiring Data Scientists & Analysts: Talent Pipelines, Job Specs, CV Screening & Salary Tips",
+      "title": "Hiring Data Scientists & Analysts: Talent Pipelines, Job Specs, CV Screening & Salary Tips",
+      "url": "/podcasts/hiring-data-scientists-and-analysts/",
+      "count": 1,
+      "search": "Hiring Data Scientists & Analysts: Talent Pipelines, Job Specs, CV Screening & Salary Tips  ",
+      "source_url": "https://datatalks.club/podcast.html",
+      "season": "7",
+      "episode": "2"
+    },
+    {
+      "id": "podcast:data-led-growth-event-tracking-and-reverse-etl",
+      "type": "podcast",
+      "label": "How to Build a Data-Led Growth Stack: Event Tracking, Tracking Plans & Reverse ETL",
+      "title": "How to Build a Data-Led Growth Stack: Event Tracking, Tracking Plans & Reverse ETL",
+      "url": "/podcasts/data-led-growth-event-tracking-and-reverse-etl/",
+      "count": 1,
+      "search": "How to Build a Data-Led Growth Stack: Event Tracking, Tracking Plans & Reverse ETL  ",
+      "source_url": "https://datatalks.club/podcast.html",
+      "season": "3",
+      "episode": "8"
+    },
+    {
+      "id": "podcast:mlops-at-scale-reproducibility-adoption",
+      "type": "podcast",
+      "label": "MLOps at Scale: CI/CD, Reproducibility, Model Monitoring & Adoption Strategies",
+      "title": "MLOps at Scale: CI/CD, Reproducibility, Model Monitoring & Adoption Strategies",
+      "url": "/podcasts/mlops-at-scale-reproducibility-adoption/",
+      "count": 1,
+      "search": "MLOps at Scale: CI/CD, Reproducibility, Model Monitoring & Adoption Strategies  ",
+      "source_url": "https://datatalks.club/podcast.html",
+      "season": "19",
+      "episode": "4"
+    },
+    {
+      "id": "podcast:trends-in-modern-data-engineering",
+      "type": "podcast",
+      "label": "Modern Data Engineering: Iceberg, Delta Lake & AI-Powered Pipelines",
+      "title": "Modern Data Engineering: Iceberg, Delta Lake & AI-Powered Pipelines",
+      "url": "/podcasts/trends-in-modern-data-engineering/",
+      "count": 1,
+      "search": "Modern Data Engineering: Iceberg, Delta Lake & AI-Powered Pipelines  ",
+      "source_url": "https://datatalks.club/podcast.html",
+      "season": "20",
+      "episode": "3"
+    },
+    {
+      "id": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
+      "type": "podcast",
+      "label": "Modern Search Systems: Vector Databases, LLMs and Semantic Retrieval",
+      "title": "Modern Search Systems: Vector Databases, LLMs and Semantic Retrieval",
+      "url": "/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/",
+      "count": 1,
+      "search": "Modern Search Systems: Vector Databases, LLMs and Semantic Retrieval  ",
+      "source_url": "https://datatalks.club/podcast.html",
+      "season": "17",
+      "episode": "2"
+    },
+    {
+      "id": "podcast:ab-testing-and-product-experimentation",
+      "type": "podcast",
+      "label": "Product Analytics & A/B Testing: Causality, Metrics, Power Analysis, A/A Tests",
+      "title": "Product Analytics & A/B Testing: Causality, Metrics, Power Analysis, A/A Tests",
+      "url": "/podcasts/ab-testing-and-product-experimentation/",
+      "count": 1,
+      "search": "Product Analytics & A/B Testing: Causality, Metrics, Power Analysis, A/A Tests  ",
+      "source_url": "https://datatalks.club/podcast.html",
+      "season": "7",
+      "episode": "6"
+    },
+    {
+      "id": "podcast:production-ready-ai-engineering",
+      "type": "podcast",
+      "label": "Production AI Engineering: Data Pipelines, Prompt Optimization and Caching",
+      "title": "Production AI Engineering: Data Pipelines, Prompt Optimization and Caching",
+      "url": "/podcasts/production-ready-ai-engineering/",
+      "count": 1,
+      "search": "Production AI Engineering: Data Pipelines, Prompt Optimization and Caching  ",
+      "source_url": "https://datatalks.club/podcast.html",
+      "season": "20",
+      "episode": "5"
+    },
+    {
+      "id": "topic:a-a-testing",
+      "type": "topic",
+      "label": "A/A testing",
+      "title": "A/A testing",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "A/A testing"
+    },
+    {
+      "id": "topic:a-b-testing",
+      "type": "topic",
+      "label": "A/B testing",
+      "title": "A/B testing",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "A/B testing"
+    },
+    {
+      "id": "topic:agent-engineering",
+      "type": "topic",
+      "label": "agent engineering",
+      "title": "agent engineering",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "agent engineering"
+    },
+    {
+      "id": "topic:ai",
+      "type": "topic",
+      "label": "AI",
+      "title": "AI",
+      "url": "/wiki/",
+      "count": 3,
+      "search": "AI"
+    },
+    {
+      "id": "topic:ai-agents",
+      "type": "topic",
+      "label": "AI agents",
+      "title": "AI agents",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "AI agents"
+    },
+    {
+      "id": "topic:ai-engineering",
+      "type": "topic",
+      "label": "AI engineering",
+      "title": "AI engineering",
+      "url": "/wiki/",
+      "count": 2,
+      "search": "AI engineering"
+    },
+    {
+      "id": "topic:ai-infrastructure",
+      "type": "topic",
+      "label": "AI infrastructure",
+      "title": "AI infrastructure",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "AI infrastructure"
+    },
+    {
+      "id": "topic:ai-red-teaming",
+      "type": "topic",
+      "label": "AI red teaming",
+      "title": "AI red teaming",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "AI red teaming"
+    },
+    {
+      "id": "topic:ai-tooling",
+      "type": "topic",
+      "label": "AI tooling",
+      "title": "AI tooling",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "AI tooling"
+    },
+    {
+      "id": "topic:analytics-engineering",
+      "type": "topic",
+      "label": "Analytics Engineering",
+      "title": "Analytics Engineering",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "Analytics Engineering"
+    },
+    {
+      "id": "topic:apache-iceberg",
+      "type": "topic",
+      "label": "Apache Iceberg",
+      "title": "Apache Iceberg",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "Apache Iceberg"
+    },
+    {
+      "id": "topic:applied-research",
+      "type": "topic",
+      "label": "applied research",
+      "title": "applied research",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "applied research"
+    },
+    {
+      "id": "topic:caching",
+      "type": "topic",
+      "label": "caching",
+      "title": "caching",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "caching"
+    },
+    {
+      "id": "topic:career-development",
+      "type": "topic",
+      "label": "career development",
+      "title": "career development",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "career development"
+    },
+    {
+      "id": "topic:career-growth",
+      "type": "topic",
+      "label": "career growth",
+      "title": "career growth",
+      "url": "/wiki/",
+      "count": 6,
+      "search": "career growth"
+    },
+    {
+      "id": "topic:career-transition",
+      "type": "topic",
+      "label": "career transition",
+      "title": "career transition",
+      "url": "/wiki/",
+      "count": 5,
+      "search": "career transition"
+    },
+    {
+      "id": "topic:causal-inference",
+      "type": "topic",
+      "label": "causal inference",
+      "title": "causal inference",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "causal inference"
+    },
+    {
+      "id": "topic:cdc",
+      "type": "topic",
+      "label": "CDC",
+      "title": "CDC",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "CDC"
+    },
+    {
+      "id": "topic:ci-cd",
+      "type": "topic",
+      "label": "CI/CD",
+      "title": "CI/CD",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "CI/CD"
+    },
+    {
+      "id": "topic:communication",
+      "type": "topic",
+      "label": "communication",
+      "title": "communication",
+      "url": "/wiki/",
+      "count": 2,
+      "search": "communication"
+    },
+    {
+      "id": "topic:community",
+      "type": "topic",
+      "label": "community",
+      "title": "community",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "community"
+    },
+    {
+      "id": "topic:community-building",
+      "type": "topic",
+      "label": "community building",
+      "title": "community building",
+      "url": "/wiki/",
+      "count": 3,
+      "search": "community building"
+    },
+    {
+      "id": "topic:computer-vision",
+      "type": "topic",
+      "label": "computer vision",
+      "title": "computer vision",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "computer vision"
+    },
+    {
+      "id": "topic:contributing",
+      "type": "topic",
+      "label": "contributing",
+      "title": "contributing",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "contributing"
+    },
+    {
+      "id": "topic:customer-data-platforms",
+      "type": "topic",
+      "label": "customer data platforms",
+      "title": "customer data platforms",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "customer data platforms"
+    },
+    {
+      "id": "topic:cv-screening",
+      "type": "topic",
+      "label": "CV screening",
+      "title": "CV screening",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "CV screening"
+    },
+    {
+      "id": "topic:data-activation",
+      "type": "topic",
+      "label": "data activation",
+      "title": "data activation",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "data activation"
+    },
+    {
+      "id": "topic:data-analyst-careers",
+      "type": "topic",
+      "label": "data analyst careers",
+      "title": "data analyst careers",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "data analyst careers"
+    },
+    {
+      "id": "topic:data-engineering",
+      "type": "topic",
+      "label": "data engineering",
+      "title": "data engineering",
+      "url": "/wiki/",
+      "count": 10,
+      "search": "data engineering"
+    },
+    {
+      "id": "topic:data-governance",
+      "type": "topic",
+      "label": "data governance",
+      "title": "data governance",
+      "url": "/wiki/",
+      "count": 4,
+      "search": "data governance"
+    },
+    {
+      "id": "topic:data-lake",
+      "type": "topic",
+      "label": "data lake",
+      "title": "data lake",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "data lake"
+    },
+    {
+      "id": "topic:data-mesh",
+      "type": "topic",
+      "label": "data mesh",
+      "title": "data mesh",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "data mesh"
+    },
+    {
+      "id": "topic:data-observability",
+      "type": "topic",
+      "label": "data observability",
+      "title": "data observability",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "data observability"
+    },
+    {
+      "id": "topic:data-pipelines",
+      "type": "topic",
+      "label": "data pipelines",
+      "title": "data pipelines",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "data pipelines"
+    },
+    {
+      "id": "topic:data-products",
+      "type": "topic",
+      "label": "data products",
+      "title": "data products",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "data products"
+    },
+    {
+      "id": "topic:data-quality",
+      "type": "topic",
+      "label": "data quality",
+      "title": "data quality",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "data quality"
+    },
+    {
+      "id": "topic:data-reliability",
+      "type": "topic",
+      "label": "data reliability",
+      "title": "data reliability",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "data reliability"
+    },
+    {
+      "id": "topic:data-science",
+      "type": "topic",
+      "label": "Data Science",
+      "title": "Data Science",
+      "url": "/wiki/",
+      "count": 6,
+      "search": "Data Science"
+    },
+    {
+      "id": "topic:data-science-careers",
+      "type": "topic",
+      "label": "data science careers",
+      "title": "data science careers",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "data science careers"
+    },
+    {
+      "id": "topic:data-strategy",
+      "type": "topic",
+      "label": "data strategy",
+      "title": "data strategy",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "data strategy"
+    },
+    {
+      "id": "topic:data-warehouse",
+      "type": "topic",
+      "label": "data warehouse",
+      "title": "data warehouse",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "data warehouse"
+    },
+    {
+      "id": "topic:data-led-growth",
+      "type": "topic",
+      "label": "data-led growth",
+      "title": "data-led growth",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "data-led growth"
+    },
+    {
+      "id": "topic:dataops",
+      "type": "topic",
+      "label": "DataOps",
+      "title": "DataOps",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "DataOps"
+    },
+    {
+      "id": "topic:dbt",
+      "type": "topic",
+      "label": "dbt",
+      "title": "dbt",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "dbt"
+    },
+    {
+      "id": "topic:deep-learning",
+      "type": "topic",
+      "label": "deep learning",
+      "title": "deep learning",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "deep learning"
+    },
+    {
+      "id": "topic:delta-lake",
+      "type": "topic",
+      "label": "Delta Lake",
+      "title": "Delta Lake",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "Delta Lake"
+    },
+    {
+      "id": "topic:developer-experience",
+      "type": "topic",
+      "label": "developer experience",
+      "title": "developer experience",
+      "url": "/wiki/",
+      "count": 3,
+      "search": "developer experience"
+    },
+    {
+      "id": "topic:developer-relations",
+      "type": "topic",
+      "label": "developer relations",
+      "title": "developer relations",
+      "url": "/wiki/",
+      "count": 4,
+      "search": "developer relations"
+    },
+    {
+      "id": "topic:documentation",
+      "type": "topic",
+      "label": "documentation",
+      "title": "documentation",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "documentation"
+    },
+    {
+      "id": "topic:duckdb",
+      "type": "topic",
+      "label": "DuckDB",
+      "title": "DuckDB",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "DuckDB"
+    },
+    {
+      "id": "topic:elt",
+      "type": "topic",
+      "label": "ELT",
+      "title": "ELT",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "ELT"
+    },
+    {
+      "id": "topic:embeddings",
+      "type": "topic",
+      "label": "embeddings",
+      "title": "embeddings",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "embeddings"
+    },
+    {
+      "id": "topic:entrepreneurship",
+      "type": "topic",
+      "label": "entrepreneurship",
+      "title": "entrepreneurship",
+      "url": "/wiki/",
+      "count": 2,
+      "search": "entrepreneurship"
+    },
+    {
+      "id": "topic:etl",
+      "type": "topic",
+      "label": "ETL",
+      "title": "ETL",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "ETL"
+    },
+    {
+      "id": "topic:evaluation",
+      "type": "topic",
+      "label": "evaluation",
+      "title": "evaluation",
+      "url": "/wiki/",
+      "count": 2,
+      "search": "evaluation"
+    },
+    {
+      "id": "topic:event-tracking",
+      "type": "topic",
+      "label": "event tracking",
+      "title": "event tracking",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "event tracking"
+    },
+    {
+      "id": "topic:evolutionary-algorithms",
+      "type": "topic",
+      "label": "evolutionary algorithms",
+      "title": "evolutionary algorithms",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "evolutionary algorithms"
+    },
+    {
+      "id": "topic:experiment-tracking",
+      "type": "topic",
+      "label": "experiment tracking",
+      "title": "experiment tracking",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "experiment tracking"
+    },
+    {
+      "id": "topic:experimentation",
+      "type": "topic",
+      "label": "experimentation",
+      "title": "experimentation",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "experimentation"
+    },
+    {
+      "id": "topic:founder",
+      "type": "topic",
+      "label": "founder",
+      "title": "founder",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "founder"
+    },
+    {
+      "id": "topic:freelance",
+      "type": "topic",
+      "label": "freelance",
+      "title": "freelance",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "freelance"
+    },
+    {
+      "id": "topic:governance",
+      "type": "topic",
+      "label": "governance",
+      "title": "governance",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "governance"
+    },
+    {
+      "id": "topic:hiring",
+      "type": "topic",
+      "label": "hiring",
+      "title": "hiring",
+      "url": "/wiki/",
+      "count": 3,
+      "search": "hiring"
+    },
+    {
+      "id": "topic:information-retrieval",
+      "type": "topic",
+      "label": "information retrieval",
+      "title": "information retrieval",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "information retrieval"
+    },
+    {
+      "id": "topic:interpretability",
+      "type": "topic",
+      "label": "Interpretability",
+      "title": "Interpretability",
+      "url": "/wiki/",
+      "count": 2,
+      "search": "Interpretability"
+    },
+    {
+      "id": "topic:job-descriptions",
+      "type": "topic",
+      "label": "job descriptions",
+      "title": "job descriptions",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "job descriptions"
+    },
+    {
+      "id": "topic:job-search",
+      "type": "topic",
+      "label": "Job Search",
+      "title": "Job Search",
+      "url": "/wiki/",
+      "count": 2,
+      "search": "Job Search"
+    },
+    {
+      "id": "topic:leadership",
+      "type": "topic",
+      "label": "leadership",
+      "title": "leadership",
+      "url": "/wiki/",
+      "count": 2,
+      "search": "leadership"
+    },
+    {
+      "id": "topic:llms",
+      "type": "topic",
+      "label": "LLMs",
+      "title": "LLMs",
+      "url": "/wiki/",
+      "count": 14,
+      "search": "LLMs"
+    },
+    {
+      "id": "topic:machine-learning",
+      "type": "topic",
+      "label": "Machine Learning",
+      "title": "Machine Learning",
+      "url": "/wiki/",
+      "count": 14,
+      "search": "Machine Learning"
+    },
+    {
+      "id": "topic:machine-learning-infrastructure",
+      "type": "topic",
+      "label": "machine learning infrastructure",
+      "title": "machine learning infrastructure",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "machine learning infrastructure"
+    },
+    {
+      "id": "topic:machine-learning-system-design",
+      "type": "topic",
+      "label": "Machine Learning System Design",
+      "title": "Machine Learning System Design",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "Machine Learning System Design"
+    },
+    {
+      "id": "topic:machine-learning-tools",
+      "type": "topic",
+      "label": "machine learning tools",
+      "title": "machine learning tools",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "machine learning tools"
+    },
+    {
+      "id": "topic:meetups",
+      "type": "topic",
+      "label": "meetups",
+      "title": "meetups",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "meetups"
+    },
+    {
+      "id": "topic:metaflow",
+      "type": "topic",
+      "label": "Metaflow",
+      "title": "Metaflow",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "Metaflow"
+    },
+    {
+      "id": "topic:metrics",
+      "type": "topic",
+      "label": "metrics",
+      "title": "metrics",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "metrics"
+    },
+    {
+      "id": "topic:ml-platforms",
+      "type": "topic",
+      "label": "ML platforms",
+      "title": "ML platforms",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "ML platforms"
+    },
+    {
+      "id": "topic:mlops",
+      "type": "topic",
+      "label": "MLOps",
+      "title": "MLOps",
+      "url": "/wiki/",
+      "count": 20,
+      "search": "MLOps"
+    },
+    {
+      "id": "topic:model-monitoring",
+      "type": "topic",
+      "label": "model monitoring",
+      "title": "model monitoring",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "model monitoring"
+    },
+    {
+      "id": "topic:model-registry",
+      "type": "topic",
+      "label": "model registry",
+      "title": "model registry",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "model registry"
+    },
+    {
+      "id": "topic:modern-data-stack",
+      "type": "topic",
+      "label": "modern data stack",
+      "title": "modern data stack",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "modern data stack"
+    },
+    {
+      "id": "topic:multi-agent-systems",
+      "type": "topic",
+      "label": "multi-agent systems",
+      "title": "multi-agent systems",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "multi-agent systems"
+    },
+    {
+      "id": "topic:nlp",
+      "type": "topic",
+      "label": "NLP",
+      "title": "NLP",
+      "url": "/wiki/",
+      "count": 4,
+      "search": "NLP"
+    },
+    {
+      "id": "topic:open-source",
+      "type": "topic",
+      "label": "open source",
+      "title": "open source",
+      "url": "/wiki/",
+      "count": 9,
+      "search": "open source"
+    },
+    {
+      "id": "topic:orchestration",
+      "type": "topic",
+      "label": "orchestration",
+      "title": "orchestration",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "orchestration"
+    },
+    {
+      "id": "topic:platform-adoption",
+      "type": "topic",
+      "label": "platform adoption",
+      "title": "platform adoption",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "platform adoption"
+    },
+    {
+      "id": "topic:platform-engineering",
+      "type": "topic",
+      "label": "platform engineering",
+      "title": "platform engineering",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "platform engineering"
+    },
+    {
+      "id": "topic:power-analysis",
+      "type": "topic",
+      "label": "power analysis",
+      "title": "power analysis",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "power analysis"
+    },
+    {
+      "id": "topic:practices",
+      "type": "topic",
+      "label": "practices",
+      "title": "practices",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "practices"
+    },
+    {
+      "id": "topic:product-analytics",
+      "type": "topic",
+      "label": "product analytics",
+      "title": "product analytics",
+      "url": "/wiki/",
+      "count": 2,
+      "search": "product analytics"
+    },
+    {
+      "id": "topic:production",
+      "type": "topic",
+      "label": "production",
+      "title": "production",
+      "url": "/wiki/",
+      "count": 7,
+      "search": "production"
+    },
+    {
+      "id": "topic:prompt-engineering",
+      "type": "topic",
+      "label": "prompt engineering",
+      "title": "prompt engineering",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "prompt engineering"
+    },
+    {
+      "id": "topic:rag",
+      "type": "topic",
+      "label": "RAG",
+      "title": "RAG",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "RAG"
+    },
+    {
+      "id": "topic:reinforcement-learning",
+      "type": "topic",
+      "label": "reinforcement learning",
+      "title": "reinforcement learning",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "reinforcement learning"
+    },
+    {
+      "id": "topic:reproducibility",
+      "type": "topic",
+      "label": "reproducibility",
+      "title": "reproducibility",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "reproducibility"
+    },
+    {
+      "id": "topic:responsible-ai",
+      "type": "topic",
+      "label": "Responsible AI",
+      "title": "Responsible AI",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "Responsible AI"
+    },
+    {
+      "id": "topic:responsible-ai-and-governance",
+      "type": "topic",
+      "label": "Responsible AI and Governance",
+      "title": "Responsible AI and Governance",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "Responsible AI and Governance"
+    },
+    {
+      "id": "topic:retrieval-augmented-generation",
+      "type": "topic",
+      "label": "retrieval-augmented generation",
+      "title": "retrieval-augmented generation",
+      "url": "/wiki/",
+      "count": 2,
+      "search": "retrieval-augmented generation"
+    },
+    {
+      "id": "topic:reverse-etl",
+      "type": "topic",
+      "label": "reverse ETL",
+      "title": "reverse ETL",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "reverse ETL"
+    },
+    {
+      "id": "topic:salary-negotiation",
+      "type": "topic",
+      "label": "salary negotiation",
+      "title": "salary negotiation",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "salary negotiation"
+    },
+    {
+      "id": "topic:scikit-learn",
+      "type": "topic",
+      "label": "scikit-learn",
+      "title": "scikit-learn",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "scikit-learn"
+    },
+    {
+      "id": "topic:search",
+      "type": "topic",
+      "label": "search",
+      "title": "search",
+      "url": "/wiki/",
+      "count": 2,
+      "search": "search"
+    },
+    {
+      "id": "topic:security",
+      "type": "topic",
+      "label": "security",
+      "title": "security",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "security"
+    },
+    {
+      "id": "topic:software-engineering",
+      "type": "topic",
+      "label": "software engineering",
+      "title": "software engineering",
+      "url": "/wiki/",
+      "count": 2,
+      "search": "software engineering"
+    },
+    {
+      "id": "topic:startup",
+      "type": "topic",
+      "label": "startup",
+      "title": "startup",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "startup"
+    },
+    {
+      "id": "topic:startups",
+      "type": "topic",
+      "label": "Startups",
+      "title": "Startups",
+      "url": "/wiki/",
+      "count": 2,
+      "search": "Startups"
+    },
+    {
+      "id": "topic:streaming",
+      "type": "topic",
+      "label": "streaming",
+      "title": "streaming",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "streaming"
+    },
+    {
+      "id": "topic:system-design",
+      "type": "topic",
+      "label": "System Design",
+      "title": "System Design",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "System Design"
+    },
+    {
+      "id": "topic:teaching",
+      "type": "topic",
+      "label": "teaching",
+      "title": "teaching",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "teaching"
+    },
+    {
+      "id": "topic:team-building",
+      "type": "topic",
+      "label": "team building",
+      "title": "team building",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "team building"
+    },
+    {
+      "id": "topic:technical-communities",
+      "type": "topic",
+      "label": "technical communities",
+      "title": "technical communities",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "technical communities"
+    },
+    {
+      "id": "topic:technical-writing",
+      "type": "topic",
+      "label": "technical writing",
+      "title": "technical writing",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "technical writing"
+    },
+    {
+      "id": "topic:testing",
+      "type": "topic",
+      "label": "testing",
+      "title": "testing",
+      "url": "/wiki/",
+      "count": 2,
+      "search": "testing"
+    },
+    {
+      "id": "topic:tools",
+      "type": "topic",
+      "label": "Tools",
+      "title": "Tools",
+      "url": "/wiki/",
+      "count": 9,
+      "search": "Tools"
+    },
+    {
+      "id": "topic:tracking-plans",
+      "type": "topic",
+      "label": "tracking plans",
+      "title": "tracking plans",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "tracking plans"
+    },
+    {
+      "id": "topic:vector-databases",
+      "type": "topic",
+      "label": "vector databases",
+      "title": "vector databases",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "vector databases"
+    },
+    {
+      "id": "wiki:career-transitions-in-data",
+      "type": "wiki",
+      "label": "Career Transitions in Data",
+      "title": "Career Transitions in Data",
+      "url": "/wiki/career-transitions-in-data/",
+      "count": 1,
+      "search": "Career Transitions in Data Patterns from the podcast archive about moving into data, ML, AI engineering, analytics engineering, freelancing, and leadership. "
+    },
+    {
+      "id": "wiki:data-engineering-platforms",
+      "type": "wiki",
+      "label": "Data Engineering Platforms",
+      "title": "Data Engineering Platforms",
+      "url": "/wiki/data-engineering-platforms/",
+      "count": 1,
+      "search": "Data Engineering Platforms A reference page for the platform patterns discussed across DataTalks.Club: pipelines, self-service, data contracts, lakehouses, Data Mesh, and cost-aware engineering. "
+    },
+    {
+      "id": "wiki:data-product-management",
+      "type": "wiki",
+      "label": "Data Product Management",
+      "title": "Data Product Management",
+      "url": "/wiki/data-product-management/",
+      "count": 1,
+      "search": "Data Product Management How data products are framed across the podcast archive: customer discovery, metrics, roadmaps, experimentation, and product ownership. "
+    },
+    {
+      "id": "wiki:llm-production-patterns",
+      "type": "wiki",
+      "label": "LLM Production Patterns",
+      "title": "LLM Production Patterns",
+      "url": "/wiki/llm-production-patterns/",
+      "count": 1,
+      "search": "LLM Production Patterns How the podcast archive frames RAG, agents, fine-tuning, evaluation, context engineering, and the AI engineer role. "
+    },
+    {
+      "id": "wiki:mlops-and-dataops",
+      "type": "wiki",
+      "label": "MLOps and DataOps",
+      "title": "MLOps and DataOps",
+      "url": "/wiki/mlops-and-dataops/",
+      "count": 1,
+      "search": "MLOps and DataOps How DataTalks.Club guests describe the operating practices needed to move data and ML systems from experiments into reliable production. "
+    }
+  ],
+  "links": [
+    {
+      "source": "article:analytics-engineer",
+      "target": "topic:analytics-engineering",
+      "kind": "article-topic",
+      "weight": 1
+    },
+    {
+      "source": "article:analytics-engineer",
+      "target": "wiki:career-transitions-in-data",
+      "kind": "article-wiki",
+      "weight": 3
+    },
+    {
+      "source": "article:analytics-engineer",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "article-wiki",
+      "weight": 3
+    },
+    {
+      "source": "article:data-product-manager-role",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "article-wiki",
+      "weight": 3
+    },
+    {
+      "source": "article:data-product-manager-role",
+      "target": "wiki:data-product-management",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-scientist-interview",
+      "target": "topic:data-science",
+      "kind": "article-topic",
+      "weight": 1
+    },
+    {
+      "source": "article:data-scientist-interview",
+      "target": "topic:job-search",
+      "kind": "article-topic",
+      "weight": 1
+    },
+    {
+      "source": "article:data-scientist-interview",
+      "target": "wiki:career-transitions-in-data",
+      "kind": "article-wiki",
+      "weight": 3
+    },
+    {
+      "source": "article:dataops-vs-data-engineering",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:dataops-vs-data-engineering",
+      "target": "wiki:mlops-and-dataops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:how-to-build-data-pipelines",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:how-to-build-data-pipelines",
+      "target": "wiki:mlops-and-dataops",
+      "kind": "article-wiki",
+      "weight": 3
+    },
+    {
+      "source": "article:interpretable-machine-learning",
+      "target": "topic:interpretability",
+      "kind": "article-topic",
+      "weight": 1
+    },
+    {
+      "source": "article:interpretable-machine-learning",
+      "target": "topic:machine-learning",
+      "kind": "article-topic",
+      "weight": 1
+    },
+    {
+      "source": "article:interpretable-machine-learning",
+      "target": "topic:responsible-ai",
+      "kind": "article-topic",
+      "weight": 1
+    },
+    {
+      "source": "article:llm-tools",
+      "target": "topic:llms",
+      "kind": "article-topic",
+      "weight": 1
+    },
+    {
+      "source": "article:llm-tools",
+      "target": "topic:tools",
+      "kind": "article-topic",
+      "weight": 1
+    },
+    {
+      "source": "article:llm-tools",
+      "target": "wiki:mlops-and-dataops",
+      "kind": "article-wiki",
+      "weight": 3
+    },
+    {
+      "source": "article:machine-learning-for-startups",
+      "target": "topic:machine-learning",
+      "kind": "article-topic",
+      "weight": 1
+    },
+    {
+      "source": "article:machine-learning-for-startups",
+      "target": "topic:startups",
+      "kind": "article-topic",
+      "weight": 1
+    },
+    {
+      "source": "article:machine-learning-for-startups",
+      "target": "wiki:mlops-and-dataops",
+      "kind": "article-wiki",
+      "weight": 3
+    },
+    {
+      "source": "article:machine-learning-system-design",
+      "target": "topic:machine-learning",
+      "kind": "article-topic",
+      "weight": 1
+    },
+    {
+      "source": "article:machine-learning-system-design",
+      "target": "topic:system-design",
+      "kind": "article-topic",
+      "weight": 1
+    },
+    {
+      "source": "article:machine-learning-system-design",
+      "target": "wiki:mlops-and-dataops",
+      "kind": "article-wiki",
+      "weight": 3
+    },
+    {
+      "source": "article:software-engineer-to-machine-learning",
+      "target": "wiki:career-transitions-in-data",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:software-engineer-to-machine-learning",
+      "target": "wiki:mlops-and-dataops",
+      "kind": "article-wiki",
+      "weight": 3
+    },
+    {
+      "source": "article:what-is-mlops",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:what-is-mlops",
+      "target": "wiki:mlops-and-dataops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "person:adrianbrudaru",
+      "target": "podcast:trends-in-modern-data-engineering",
+      "kind": "person-podcast",
+      "weight": 3
+    },
+    {
+      "source": "person:adrianbrudaru",
+      "target": "topic:career-growth",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:adrianbrudaru",
+      "target": "topic:data-engineering",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:adrianbrudaru",
+      "target": "topic:data-governance",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:adrianbrudaru",
+      "target": "topic:entrepreneurship",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:adrianbrudaru",
+      "target": "topic:freelance",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:adrianbrudaru",
+      "target": "topic:open-source",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:alexeygrigorev",
+      "target": "topic:community-building",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:alexeygrigorev",
+      "target": "topic:data-engineering",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:alexeygrigorev",
+      "target": "topic:llms",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:alexeygrigorev",
+      "target": "topic:machine-learning",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:alexeygrigorev",
+      "target": "topic:mlops",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:alexeygrigorev",
+      "target": "topic:teaching",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:andreaskretz",
+      "target": "topic:data-engineering",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:andreaskretz",
+      "target": "topic:machine-learning",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:andreaskretz",
+      "target": "topic:production",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:andreaskretz",
+      "target": "topic:tools",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:andreycheptsov",
+      "target": "topic:ai-infrastructure",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:andreycheptsov",
+      "target": "topic:llms",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:andreycheptsov",
+      "target": "topic:mlops",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:andreycheptsov",
+      "target": "topic:open-source",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:andreycheptsov",
+      "target": "topic:tools",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:atitaarora",
+      "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
+      "kind": "person-podcast",
+      "weight": 3
+    },
+    {
+      "source": "person:atitaarora",
+      "target": "topic:data-engineering",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:atitaarora",
+      "target": "topic:llms",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:atitaarora",
+      "target": "topic:machine-learning",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:atitaarora",
+      "target": "topic:mlops",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:atitaarora",
+      "target": "topic:nlp",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:atitaarora",
+      "target": "topic:search",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:barrmoses",
+      "target": "topic:data-observability",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:barrmoses",
+      "target": "topic:data-quality",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:barrmoses",
+      "target": "topic:data-reliability",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:barrmoses",
+      "target": "topic:mlops",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:bartoszmikulski",
+      "target": "podcast:production-ready-ai-engineering",
+      "kind": "person-podcast",
+      "weight": 3
+    },
+    {
+      "source": "person:bartoszmikulski",
+      "target": "topic:ai",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:bartoszmikulski",
+      "target": "topic:data-engineering",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:bartoszmikulski",
+      "target": "topic:llms",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:bartoszmikulski",
+      "target": "topic:mlops",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:bartoszmikulski",
+      "target": "topic:tools",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:benwilson",
+      "target": "topic:career-growth",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:benwilson",
+      "target": "topic:machine-learning",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:benwilson",
+      "target": "topic:mlops",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:benwilson",
+      "target": "topic:production",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:benwilson",
+      "target": "topic:software-engineering",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:christophmolnar",
+      "target": "topic:data-science",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:christophmolnar",
+      "target": "topic:interpretability",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:christophmolnar",
+      "target": "topic:machine-learning",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:christophmolnar",
+      "target": "topic:practices",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:christophmolnar",
+      "target": "topic:tools",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:demetriosbrinkmann",
+      "target": "topic:community-building",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:demetriosbrinkmann",
+      "target": "topic:meetups",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:demetriosbrinkmann",
+      "target": "topic:mlops",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:demetriosbrinkmann",
+      "target": "topic:technical-communities",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:elenasamuylova",
+      "target": "topic:entrepreneurship",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:elenasamuylova",
+      "target": "topic:founder",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:elenasamuylova",
+      "target": "topic:machine-learning",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:elenasamuylova",
+      "target": "topic:mlops",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:elenasamuylova",
+      "target": "topic:open-source",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:elenasamuylova",
+      "target": "topic:startup",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:elleobrien",
+      "target": "topic:data-science",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:elleobrien",
+      "target": "topic:developer-relations",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:elleobrien",
+      "target": "topic:machine-learning",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:elleobrien",
+      "target": "topic:open-source",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:eugeneyan",
+      "target": "topic:career-transition",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:eugeneyan",
+      "target": "topic:communication",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:eugeneyan",
+      "target": "topic:community-building",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:eugeneyan",
+      "target": "topic:machine-learning",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:eugeneyan",
+      "target": "topic:software-engineering",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:hugobowneanderson",
+      "target": "podcast:devrel-open-source-machine-learning",
+      "kind": "person-podcast",
+      "weight": 3
+    },
+    {
+      "source": "person:hugobowneanderson",
+      "target": "topic:developer-relations",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:hugobowneanderson",
+      "target": "topic:llms",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:hugobowneanderson",
+      "target": "topic:machine-learning",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:hugobowneanderson",
+      "target": "topic:mlops",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:hugobowneanderson",
+      "target": "topic:open-source",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:hugobowneanderson",
+      "target": "topic:tools",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:ivanbilan",
+      "target": "topic:career-growth",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:ivanbilan",
+      "target": "topic:leadership",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:ivanbilan",
+      "target": "topic:llms",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:ivanbilan",
+      "target": "topic:mlops",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:ivanbilan",
+      "target": "topic:nlp",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:ivanbilan",
+      "target": "topic:production",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:larsalbertsson",
+      "target": "topic:data-engineering",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:larsalbertsson",
+      "target": "topic:data-strategy",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:larsalbertsson",
+      "target": "topic:dataops",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:larsalbertsson",
+      "target": "topic:mlops",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:larsalbertsson",
+      "target": "topic:production",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:lavanyagupta",
+      "target": "topic:applied-research",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:lavanyagupta",
+      "target": "topic:career-growth",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:lavanyagupta",
+      "target": "topic:llms",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:lavanyagupta",
+      "target": "topic:mlops",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:lavanyagupta",
+      "target": "topic:nlp",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:lukewhipps",
+      "target": "topic:career-growth",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:lukewhipps",
+      "target": "topic:data-science",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:lukewhipps",
+      "target": "topic:hiring",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:lukewhipps",
+      "target": "topic:job-search",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:mariasukhareva",
+      "target": "topic:ai",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:mariasukhareva",
+      "target": "topic:ai-red-teaming",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:mariasukhareva",
+      "target": "topic:llms",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:mariasukhareva",
+      "target": "topic:mlops",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:mariasukhareva",
+      "target": "topic:nlp",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:mariasukhareva",
+      "target": "topic:production",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:mariasukhareva",
+      "target": "topic:security",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:meryemarik",
+      "target": "topic:llms",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:meryemarik",
+      "target": "topic:mlops",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:meryemarik",
+      "target": "topic:open-source",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:meryemarik",
+      "target": "topic:production",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:meryemarik",
+      "target": "topic:retrieval-augmented-generation",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:nemanjaradojkovic",
+      "target": "topic:career-transition",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:nemanjaradojkovic",
+      "target": "topic:data-engineering",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:nemanjaradojkovic",
+      "target": "topic:mlops",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:nemanjaradojkovic",
+      "target": "topic:production",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:nemanjaradojkovic",
+      "target": "topic:startups",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:nemanjaradojkovic",
+      "target": "topic:tools",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:ranjithakulkarni",
+      "target": "topic:agent-engineering",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:ranjithakulkarni",
+      "target": "topic:ai",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:ranjithakulkarni",
+      "target": "topic:llms",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:ranjithakulkarni",
+      "target": "topic:mlops",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:ranjithakulkarni",
+      "target": "topic:retrieval-augmented-generation",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:ranjithakulkarni",
+      "target": "topic:tools",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:tatianagabruseva",
+      "target": "topic:career-growth",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:tatianagabruseva",
+      "target": "topic:career-transition",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:tatianagabruseva",
+      "target": "topic:computer-vision",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:tatianagabruseva",
+      "target": "topic:deep-learning",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:tatianagabruseva",
+      "target": "topic:machine-learning",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:tatianagabruseva",
+      "target": "topic:mlops",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:terezaiofciu",
+      "target": "topic:career-transition",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:terezaiofciu",
+      "target": "topic:communication",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:terezaiofciu",
+      "target": "topic:data-science",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:terezaiofciu",
+      "target": "topic:hiring",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:terezaiofciu",
+      "target": "topic:leadership",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:terezaiofciu",
+      "target": "topic:team-building",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:vincentwarmerdam",
+      "target": "podcast:open-source-ml-contributions",
+      "kind": "person-podcast",
+      "weight": 3
+    },
+    {
+      "source": "person:vincentwarmerdam",
+      "target": "topic:data-science",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:vincentwarmerdam",
+      "target": "topic:developer-relations",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:vincentwarmerdam",
+      "target": "topic:machine-learning",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:vincentwarmerdam",
+      "target": "topic:open-source",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:vincentwarmerdam",
+      "target": "topic:tools",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:zhamakdehghani",
+      "target": "topic:data-engineering",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:zhamakdehghani",
+      "target": "topic:data-governance",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:zhamakdehghani",
+      "target": "topic:data-mesh",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "person:zhamakdehghani",
+      "target": "topic:data-products",
+      "kind": "person-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:ab-testing-and-product-experimentation",
+      "target": "topic:a-a-testing",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:ab-testing-and-product-experimentation",
+      "target": "topic:a-b-testing",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:ab-testing-and-product-experimentation",
+      "target": "topic:causal-inference",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:ab-testing-and-product-experimentation",
+      "target": "topic:experimentation",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:ab-testing-and-product-experimentation",
+      "target": "topic:metrics",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:ab-testing-and-product-experimentation",
+      "target": "topic:power-analysis",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:ab-testing-and-product-experimentation",
+      "target": "topic:product-analytics",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:building-production-ml-platform-and-mlops-team",
+      "target": "topic:developer-experience",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:building-production-ml-platform-and-mlops-team",
+      "target": "topic:experiment-tracking",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:building-production-ml-platform-and-mlops-team",
+      "target": "topic:governance",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:building-production-ml-platform-and-mlops-team",
+      "target": "topic:ml-platforms",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:building-production-ml-platform-and-mlops-team",
+      "target": "topic:mlops",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:building-production-ml-platform-and-mlops-team",
+      "target": "topic:model-registry",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:building-production-ml-platform-and-mlops-team",
+      "target": "topic:platform-engineering",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:data-engineering-tools-modern-data-stack",
+      "target": "topic:cdc",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:data-engineering-tools-modern-data-stack",
+      "target": "topic:data-engineering",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:data-engineering-tools-modern-data-stack",
+      "target": "topic:data-lake",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:data-engineering-tools-modern-data-stack",
+      "target": "topic:data-warehouse",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:data-engineering-tools-modern-data-stack",
+      "target": "topic:dbt",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:data-engineering-tools-modern-data-stack",
+      "target": "topic:elt",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:data-engineering-tools-modern-data-stack",
+      "target": "topic:etl",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:data-engineering-tools-modern-data-stack",
+      "target": "topic:modern-data-stack",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:data-led-growth-event-tracking-and-reverse-etl",
+      "target": "topic:customer-data-platforms",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:data-led-growth-event-tracking-and-reverse-etl",
+      "target": "topic:data-activation",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:data-led-growth-event-tracking-and-reverse-etl",
+      "target": "topic:data-led-growth",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:data-led-growth-event-tracking-and-reverse-etl",
+      "target": "topic:event-tracking",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:data-led-growth-event-tracking-and-reverse-etl",
+      "target": "topic:product-analytics",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:data-led-growth-event-tracking-and-reverse-etl",
+      "target": "topic:reverse-etl",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:data-led-growth-event-tracking-and-reverse-etl",
+      "target": "topic:tracking-plans",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:devrel-open-source-machine-learning",
+      "target": "person:hugobowneanderson",
+      "kind": "podcast-person",
+      "weight": 3
+    },
+    {
+      "source": "podcast:devrel-open-source-machine-learning",
+      "target": "topic:community",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:devrel-open-source-machine-learning",
+      "target": "topic:developer-experience",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:devrel-open-source-machine-learning",
+      "target": "topic:developer-relations",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:devrel-open-source-machine-learning",
+      "target": "topic:machine-learning-infrastructure",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:devrel-open-source-machine-learning",
+      "target": "topic:metaflow",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:devrel-open-source-machine-learning",
+      "target": "topic:open-source",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:devrel-open-source-machine-learning",
+      "target": "topic:technical-writing",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:from-game-ai-to-modern-ai-agents",
+      "target": "topic:ai-agents",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:from-game-ai-to-modern-ai-agents",
+      "target": "topic:ai-tooling",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:from-game-ai-to-modern-ai-agents",
+      "target": "topic:evaluation",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:from-game-ai-to-modern-ai-agents",
+      "target": "topic:evolutionary-algorithms",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:from-game-ai-to-modern-ai-agents",
+      "target": "topic:llms",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:from-game-ai-to-modern-ai-agents",
+      "target": "topic:multi-agent-systems",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:from-game-ai-to-modern-ai-agents",
+      "target": "topic:reinforcement-learning",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:hiring-data-scientists-and-analysts",
+      "target": "topic:career-transition",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:hiring-data-scientists-and-analysts",
+      "target": "topic:cv-screening",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:hiring-data-scientists-and-analysts",
+      "target": "topic:data-analyst-careers",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:hiring-data-scientists-and-analysts",
+      "target": "topic:data-science-careers",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:hiring-data-scientists-and-analysts",
+      "target": "topic:hiring",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:hiring-data-scientists-and-analysts",
+      "target": "topic:job-descriptions",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:hiring-data-scientists-and-analysts",
+      "target": "topic:salary-negotiation",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:mlops-at-scale-reproducibility-adoption",
+      "target": "topic:ci-cd",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:mlops-at-scale-reproducibility-adoption",
+      "target": "topic:data-governance",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:mlops-at-scale-reproducibility-adoption",
+      "target": "topic:developer-experience",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:mlops-at-scale-reproducibility-adoption",
+      "target": "topic:mlops",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:mlops-at-scale-reproducibility-adoption",
+      "target": "topic:model-monitoring",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:mlops-at-scale-reproducibility-adoption",
+      "target": "topic:platform-adoption",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:mlops-at-scale-reproducibility-adoption",
+      "target": "topic:reproducibility",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
+      "target": "person:atitaarora",
+      "kind": "podcast-person",
+      "weight": 3
+    },
+    {
+      "source": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
+      "target": "topic:embeddings",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
+      "target": "topic:evaluation",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
+      "target": "topic:information-retrieval",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
+      "target": "topic:llms",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
+      "target": "topic:rag",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
+      "target": "topic:search",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
+      "target": "topic:vector-databases",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:open-source-ml-contributions",
+      "target": "person:vincentwarmerdam",
+      "kind": "podcast-person",
+      "weight": 3
+    },
+    {
+      "source": "podcast:open-source-ml-contributions",
+      "target": "topic:career-development",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:open-source-ml-contributions",
+      "target": "topic:contributing",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:open-source-ml-contributions",
+      "target": "topic:documentation",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:open-source-ml-contributions",
+      "target": "topic:machine-learning-tools",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:open-source-ml-contributions",
+      "target": "topic:open-source",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:open-source-ml-contributions",
+      "target": "topic:scikit-learn",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:open-source-ml-contributions",
+      "target": "topic:testing",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:production-ready-ai-engineering",
+      "target": "person:bartoszmikulski",
+      "kind": "podcast-person",
+      "weight": 3
+    },
+    {
+      "source": "podcast:production-ready-ai-engineering",
+      "target": "topic:ai-engineering",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:production-ready-ai-engineering",
+      "target": "topic:caching",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:production-ready-ai-engineering",
+      "target": "topic:data-pipelines",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:production-ready-ai-engineering",
+      "target": "topic:llms",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:production-ready-ai-engineering",
+      "target": "topic:mlops",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:production-ready-ai-engineering",
+      "target": "topic:prompt-engineering",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:production-ready-ai-engineering",
+      "target": "topic:testing",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:trends-in-modern-data-engineering",
+      "target": "person:adrianbrudaru",
+      "kind": "podcast-person",
+      "weight": 3
+    },
+    {
+      "source": "podcast:trends-in-modern-data-engineering",
+      "target": "topic:ai-engineering",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:trends-in-modern-data-engineering",
+      "target": "topic:apache-iceberg",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:trends-in-modern-data-engineering",
+      "target": "topic:data-engineering",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:trends-in-modern-data-engineering",
+      "target": "topic:data-governance",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:trends-in-modern-data-engineering",
+      "target": "topic:delta-lake",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:trends-in-modern-data-engineering",
+      "target": "topic:duckdb",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:trends-in-modern-data-engineering",
+      "target": "topic:orchestration",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:trends-in-modern-data-engineering",
+      "target": "topic:streaming",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "wiki-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
+      "target": "wiki:data-product-management",
+      "kind": "wiki-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
+      "target": "wiki:mlops-and-dataops",
+      "kind": "wiki-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-engineering-platforms",
+      "target": "wiki:career-transitions-in-data",
+      "kind": "wiki-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-engineering-platforms",
+      "target": "wiki:data-product-management",
+      "kind": "wiki-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-engineering-platforms",
+      "target": "wiki:mlops-and-dataops",
+      "kind": "wiki-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-product-management",
+      "target": "wiki:career-transitions-in-data",
+      "kind": "wiki-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-product-management",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "wiki-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:data-product-management",
+      "target": "wiki:mlops-and-dataops",
+      "kind": "wiki-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "topic:responsible-ai-and-governance",
+      "kind": "wiki-topic",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "wiki-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "wiki:mlops-and-dataops",
+      "kind": "wiki-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:mlops-and-dataops",
+      "target": "topic:machine-learning-system-design",
+      "kind": "wiki-topic",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops-and-dataops",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "wiki-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:mlops-and-dataops",
+      "target": "wiki:data-product-management",
+      "kind": "wiki-wiki",
+      "weight": 5
+    },
+    {
+      "source": "wiki:mlops-and-dataops",
+      "target": "wiki:llm-production-patterns",
+      "kind": "wiki-wiki",
+      "weight": 5
+    }
+  ]
+}

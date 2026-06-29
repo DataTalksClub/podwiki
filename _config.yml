@@ -1,0 +1,66 @@
+url: ""
+name: DataTalks.Club Podcast Wiki
+title: DataTalks.Club Podcast Wiki
+description: Topic hubs, articles, people pages, and exploration search for the DataTalks.Club podcast archive.
+permalink: pretty
+search_api_url: ""
+
+exclude:
+  - .bin/
+  - .git/
+  - .github/
+  - .rustkyll-manifest.json
+  - artifacts/
+  - AGENTS.md
+  - Makefile
+  - README.md
+  - scripts/
+  - sources/
+  - _episodes/
+  - _topics/
+  - _guests/
+  - _people/README.md
+  - _podcast_summaries/README.md
+  - template.yaml
+  - search_lambda/
+  - lambda_package/
+  - .aws-sam/
+  - pyproject.toml
+  - requirements.txt
+  - wiki/
+
+collections:
+  podcast_summaries:
+    output: true
+    permalink: /podcasts/:title/
+  people:
+    output: true
+    permalink: /people/:title/
+  wiki:
+    output: true
+    permalink: /wiki/:title/
+  articles:
+    output: true
+    permalink: /articles/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "podcast_summaries"
+    values:
+      layout: "podcast_summary"
+  - scope:
+      path: ""
+      type: "people"
+    values:
+      layout: "person"
+  - scope:
+      path: ""
+      type: "wiki"
+    values:
+      layout: "wiki"
+  - scope:
+      path: ""
+      type: "articles"
+    values:
+      layout: "article"

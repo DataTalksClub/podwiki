@@ -1,0 +1,28 @@
+---
+layout: person
+title: "Andrey Cheptsov"
+source_person: "../datatalksclub.github.io/_people/andreycheptsov.md"
+person_id: andreycheptsov
+summary: "Founder of dstack contributing open-source AI infrastructure guidance for orchestration, hybrid cloud, on-prem economics, and distributed training."
+expertise: ["AI infrastructure", "MLOps", "LLMs", "open-source", "tools"]
+podcast_episodes: ["ai-infrastructure-hybrid-cloud-on-prem-distributed-training"]
+---
+
+## Background
+
+Andrey Cheptsov is founder and CEO of dstack, an open-source alternative to Kubernetes and Slurm for AI infrastructure orchestration. His source bio also notes more than a decade at JetBrains building developer tools.
+
+## Podcast Contributions
+
+- [Post-ChatGPT AI Infrastructure](https://datatalks.club/podcast.html) covers open-source orchestration, hybrid cloud, on-prem economics, distributed training, cost control, and infrastructure ownership.
+
+## Concepts Connected
+
+- [AI infrastructure](/wiki/ai-infrastructure/) and [MLOps](/wiki/mlops/) for compute orchestration and model operations.
+- [LLMs](/wiki/llms/) for the workload pressure driving infrastructure decisions.
+- [open-source](/wiki/open-source/) and [tools](/wiki/tools/) for platform choices and developer workflow.
+
+## Source Links
+
+- Person source: `../datatalksclub.github.io/_people/andreycheptsov.md`
+- Podcast source: `../datatalksclub.github.io/_podcast/ai-infrastructure-hybrid-cloud-on-prem-distributed-training.md`

@@ -1,0 +1,29 @@
+---
+layout: person
+title: "Nemanja Radojkovic"
+source_person: "../datatalksclub.github.io/_people/nemanjaradojkovic.md"
+person_id: nemanjaradojkovic
+summary: "MLOps engineer and teacher connecting regulated finance deployments, startup-scale MLOps, data engineering, and career transition."
+expertise: ["MLOps", "data engineering", "production", "career transition", "tools", "startups"]
+podcast_episodes: ["mlops-and-ml-engineering-in-finance", "lean-mlops-for-startups"]
+---
+
+## Background
+
+Nemanja Radojkovic's source bio describes a path from electrical engineering into data science and MLOps, with consulting, teaching, and course-contribution experience.
+
+## Podcast Contributions
+
+- [MLOps in Finance](https://datatalks.club/podcast.html) contributes regulated deployment, CI/CD, monitoring, and model governance lessons.
+- [Lean MLOps for Startups](https://datatalks.club/podcast.html) contrasts that with a lighter SaaS-first startup stack, MVP constraints, and vendor lock-in tradeoffs.
+
+## Concepts Connected
+
+- [MLOps](/wiki/mlops/) and [production](/wiki/production/) for operationalizing ML under different organizational constraints.
+- [data engineering](/wiki/data-engineering/) and [tools](/wiki/tools/) for infrastructure choices.
+- [career transition](/wiki/career-transition/) and [startups](/wiki/startups/) for role evolution and lean implementation.
+
+## Source Links
+
+- Person source: `../datatalksclub.github.io/_people/nemanjaradojkovic.md`
+- Podcast sources: `../datatalksclub.github.io/_podcast/mlops-and-ml-engineering-in-finance.md`, `../datatalksclub.github.io/_podcast/lean-mlops-for-startups.md`

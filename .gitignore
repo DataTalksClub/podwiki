@@ -1,0 +1,10 @@
+_site/
+.bin/
+.rustkyll-manifest.json
+__pycache__/
+*.pyc
+.venv/
+artifacts/
+lambda_package/
+.aws-sam/
+.tmp/

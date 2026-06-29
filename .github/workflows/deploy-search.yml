@@ -1,0 +1,49 @@
+name: Deploy podcast wiki search Lambda
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: podwiki
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.14'
+
+      - uses: aws-actions/setup-sam@v2
+
+      - uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.AWS_DEPLOY_ROLE_ARN }}
+          aws-region: ${{ secrets.AWS_REGION }}
+
+      - name: Build exploration search index
+        working-directory: podwiki
+        run: |
+          python scripts/build_search_index.py
+          python scripts/prepare_lambda_package.py
+
+      - name: Build SAM app
+        working-directory: podwiki
+        run: sam build
+
+      - name: Deploy
+        working-directory: podwiki
+        run: |
+          sam deploy \
+            --stack-name podwiki-search \
+            --resolve-s3 \
+            --capabilities CAPABILITY_IAM \
+            --no-confirm-changeset \
+            --no-fail-on-empty-changeset \
+            --parameter-overrides CorsOrigin="${{ vars.CORS_ORIGIN || '*' }}"
