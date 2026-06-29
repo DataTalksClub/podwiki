@@ -34,26 +34,27 @@ Use these links to move through the page.
 
 ## Recurring Archive Themes
 
-Responsibilities beat tool lists. Recruiters repeatedly say that a tool list
-isn't enough. A strong data CV shows what the candidate personally did. It also
-shows owned responsibilities, tools used in context, and the result of the work.
-Team accomplishments are useful only when the candidate's role is clear.
+Responsibilities beat tool lists because recruiters repeatedly say that a tool
+list isn't enough. A strong data CV shows what the candidate personally did. It
+also shows owned responsibilities, tools used in context, and the result of the
+work. Team accomplishments are useful only when the candidate's role is clear.
 
-Screening is a matching problem. Screeners compare the CV with the job
+Screening is a matching problem, so screeners compare the CV with the job
 description and hiring-manager notes. Keywords matter because they help
 recruiters and sourcers find candidates, but the archive warns against buzzword
-stuffing. Keywords need surrounding evidence. Project descriptions,
-responsibilities, level, domain, and outcomes make keywords credible.
+stuffing. Keywords need surrounding evidence. Project descriptions and
+responsibilities make keywords credible. Level, domain, and outcomes add more
+context.
 
 Make the first scan low friction. CV layout, dates, hierarchy, and clarity
 matter because recruiters handle many profiles. Candidates with experience
 usually put work history before education. Recent graduates may lead with
 education or projects. Month and year dates reduce ambiguity.
 
-Reduce irrelevant personal signals. Several guests advise removing photos and
-date of birth. They also advise removing marital status, address, and other
-personal details unless a local hiring rule requires them. These details don't
-show job value and can introduce bias.
+Several guests advise removing photos and date of birth. They also advise
+removing marital status, address, and other personal details unless a local
+hiring rule requires them. These details don't show job value and can introduce
+bias.
 
 Prepare for explanation in recruiter screens. The first recruiter call often
 checks motivation, responsibilities, gaps, and communication. It may also cover
@@ -80,12 +81,13 @@ These episodes give the strongest evidence on CV and resume screening.
   where possible, and less personal data.
 - [Hiring Data Scientists and Analysts](https://datatalks.club/podcast.html):
   At 36:08-40:33, recruiter screens focus on responsibilities and gaps. They
-  also cover motivation, behavioral examples, communication, availability,
-  salary expectations, and active searches.
+  also cover motivation, behavioral examples, and communication. Availability,
+  salary expectations, and active searches also come up.
 - [Data Science Interview Guide](https://datatalks.club/podcast.html): At
   18:28-25:51, Oleg Zhero frames the CV as a landing page for getting an
   interview. Candidates should match role needs, highlight personal
-  contribution, remove noise, and ask recruiters about expectations.
+  contribution and remove noise. They should also ask recruiters about
+  expectations.
 - [Data Science Interview Guide](https://datatalks.club/podcast.html): At
   44:38-45:46, he advises removing age, photo, address, and marital status. At
   46:17-48:24, he suggests project evidence for candidates without industry

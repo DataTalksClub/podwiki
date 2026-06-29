@@ -45,8 +45,8 @@ for high-stakes workflows.
 
 Red teaming also clarifies product risk. The chatbot episode ties failures to
 legal exposure, financial mistakes, and reputational damage. It also covers
-hallucinated advice and poor adoption. That makes red-team findings useful for
-product managers and governance reviewers, not only security engineers.
+hallucinated advice and poor adoption. Product managers, governance reviewers,
+and security engineers can all use red-team findings.
 
 ## Episode Evidence
 

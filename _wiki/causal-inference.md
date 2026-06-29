@@ -19,8 +19,8 @@ prediction because the decision changes the world that produces the data.
 
 In the DataTalks.Club archive, guests discuss causal inference through A/B
 testing, counterfactuals, and uplift modeling. Conditional average treatment
-effects, unconfoundedness, causal feature selection, refutation tests, and
-baseline policy comparison also appear.
+effects and unconfoundedness also appear, along with causal feature selection,
+refutation tests, and baseline policy comparison.
 
 ## Contents
 

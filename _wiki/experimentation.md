@@ -13,10 +13,10 @@ related:
 ## Definition and Scope
 
 Experimentation is deliberate testing before a team commits to a larger
-rollout. In the archive, teams experiment with product changes, models, and
-policies. They use randomized A/B tests, A/A platform checks, shadow testing,
-proofs of concept, and design sprints. Data-driven product discovery is part of
-the same archive thread.
+rollout. In the archive, teams experiment with product changes and models.
+They also test policies with randomized A/B tests and A/A platform checks.
+Shadow testing, proofs of concept, and design sprints are part of the same
+archive thread.
 
 Use this page for the broader practice. Use
 [A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }}) for randomized
@@ -61,14 +61,14 @@ These episodes give the strongest evidence:
 
 - [Product Analytics and A/B Testing](https://datatalks.club/podcast.html),
   18:06-23:54, frames experiments as de-risking and organizational learning.
-  Source:
+  Source file:
   `../datatalksclub.github.io/_podcast/ab-testing-and-product-experimentation.md`.
 - [Product Analytics and A/B Testing](https://datatalks.club/podcast.html),
-  30:05-37:44, recommends simple first tests, one decision metric, metric
-  stability checks, and planned duration.
+  30:05-37:44, recommends simple first tests and one decision metric. It also
+  covers metric stability checks and planned duration.
 - [From Analytics to Production ML](https://datatalks.club/podcast.html),
   28:42-32:47, contrasts analytics iteration with ML experimentation. It
-  discusses shadow mode, A/B tests, uplift, and segment analysis. Source:
+  discusses shadow mode and A/B tests, plus uplift and segment analysis. Source:
   `../datatalksclub.github.io/_podcast/production-ml-mlops-and-data-team-building.md`.
 - [AI Product Design](https://datatalks.club/podcast.html), 12:12-17:25,
   explains Double Diamond problem framing and parallel proofs of concept.

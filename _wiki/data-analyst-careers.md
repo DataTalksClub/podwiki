@@ -34,10 +34,10 @@ Use these links to move through the page.
 
 ## Recurring Archive Themes
 
-Analyst work is decision work. The archive doesn't frame analysts as dashboard
-producers only. Analysts help product managers and leaders decide whether a
-problem deserves work. They also show which users are affected, whether an
-experiment moved the right metric, and where a number can be trusted.
+Analysts do decision work, not only dashboard production. They help product
+managers and leaders decide whether a problem deserves work. They also show
+which users are affected, whether an experiment moved the right metric, and
+where a number can be trusted.
 
 SQL and business context are the core signals. Analyst career evidence often
 starts with SQL, BI tools, metrics, and domain knowledge. Python, R, and light
@@ -51,14 +51,15 @@ path makes prior domain knowledge visible and can produce better proof than a
 standalone course certificate.
 
 Titles vary across companies. "Data analyst", "product analyst", and "business
-analyst" can describe overlapping work. "Analytics engineer" can overlap too.
+analyst" can describe overlapping work, and "analytics engineer" can overlap
+too.
 Recruiting advice for analysts is similar to data scientist recruiting, but
 screening keywords and responsibilities differ. Candidates should read the job
 description for tasks, team context, and expected depth.
 
-Analyst growth can branch. The archive shows several growth directions. Senior
-product analyst, analytics engineer, data scientist, data product work,
-experimentation, and data engineering-adjacent roles all appear. The useful
+Analyst growth can branch into several directions. Senior product analyst,
+analytics engineer, and data scientist all appear. Data product work,
+experimentation, and data engineering-adjacent roles also appear. The useful
 career question isn't which title sounds more advanced, but which work the
 person wants to own.
 
@@ -109,12 +110,11 @@ Use these notes when updating the page.
 
 - Keep role mechanics on [Data Analyst Role]({{ '/wiki/data-analyst-role/' | relative_url }}).
   Keep this page focused on career evidence, entry paths, and screening signals.
-- High-value source files:
-  `../datatalksclub.github.io/_podcast/data-team-roles.md`,
-  `../datatalksclub.github.io/_podcast/production-ml-mlops-and-data-team-building.md`,
-  `../datatalksclub.github.io/_podcast/project-manager-to-data-scientist.md`,
-  `../datatalksclub.github.io/_podcast/hiring-data-scientists-and-analysts.md`,
-  and `../datatalksclub.github.io/_podcast/data-led-growth-event-tracking-and-reverse-etl.md`.
+- Source: `../datatalksclub.github.io/_podcast/data-team-roles.md`.
+- Source: `../datatalksclub.github.io/_podcast/production-ml-mlops-and-data-team-building.md`.
+- Source: `../datatalksclub.github.io/_podcast/project-manager-to-data-scientist.md`.
+- Source: `../datatalksclub.github.io/_podcast/hiring-data-scientists-and-analysts.md`.
+- Source: `../datatalksclub.github.io/_podcast/data-led-growth-event-tracking-and-reverse-etl.md`.
 - Future updates should add more direct analyst job-search evidence. Product
   analytics, marketing analytics, and analytics-engineering transition episodes
   are likely sources.

@@ -40,23 +40,24 @@ Start with the actual work, not the title. The archive repeatedly warns that
 for responsibilities and team context. They also check data maturity, interview
 style, and success criteria before they decide whether the role fits.
 
-Make evidence easy to screen. Recruiter episodes converge on the same advice. A
-CV should show what the candidate personally did. It should also show the
-problem, the relevant tools, and what changed because of the work. Tool lists
-without context are weak. Course names are also weak without a project story,
-metric, or business connection.
+Recruiter episodes converge on the same screening advice. A CV should show what
+the candidate personally did and which problem they worked on. It should also
+show the relevant tools and what changed because of the work.
 
-Match portfolio projects to the role. Portfolio projects help most when they
-resemble the target company or target role. Luke Whipps focuses on use-case and
-industry alignment. Oleg Zhero frames projects as proof that the candidate has
-practiced the data science lifecycle. That means problem definition, modeling,
-evaluation, communication, and next steps.
+Tool lists without context are weak. Course names are also weak without a
+project story, metric, or business connection.
 
-Translate career-changer proof. Career changers can reuse domain knowledge and
-software skills. Research depth, product context, and stakeholder experience can
-also help. They still need practical data science evidence. The archive favors
-internships, internal data projects, open-source work, documented side projects,
-Kaggle practice, and company-specific projects.
+Portfolio projects help most when they resemble the target company or target
+role. Luke Whipps focuses on use-case and industry alignment. Oleg Zhero frames
+projects as proof that the candidate has practiced the data science lifecycle.
+That means problem definition, modeling, evaluation, communication, and next
+steps.
+
+Career changers can reuse domain knowledge and software skills. Research depth,
+product context, and stakeholder experience can also help. They still need
+practical data science evidence. The archive favors internships and internal
+data projects. It also values open-source work, documented side projects, Kaggle
+practice, and company-specific projects.
 
 Prepare salary and offer evidence early. Data science career advice treats
 compensation as part of job search strategy. Candidates should research market
@@ -112,13 +113,12 @@ Use these notes when updating the page.
 - Keep this page career-oriented. Put role responsibilities on
   [Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }}) and
   interview sequencing on [Data Scientist Interview Roadmap]({{ '/wiki/data-scientist-interview-roadmap/' | relative_url }}).
-- High-value source files:
-  `../datatalksclub.github.io/_podcast/get-data-scientist-job.md`,
-  `../datatalksclub.github.io/_podcast/data-science-interview-and-cv-guide.md`,
-  `../datatalksclub.github.io/_podcast/hiring-data-scientists-and-analysts.md`,
-  `../datatalksclub.github.io/_podcast/project-manager-to-data-scientist.md`,
-  `../datatalksclub.github.io/_podcast/machine-learning-data-science-interview-prep.md`,
-  and `../datatalksclub.github.io/_podcast/data-science-job-red-flags-and-mismatched-roles.md`.
+- Source: `../datatalksclub.github.io/_podcast/get-data-scientist-job.md`.
+- Source: `../datatalksclub.github.io/_podcast/data-science-interview-and-cv-guide.md`.
+- Source: `../datatalksclub.github.io/_podcast/hiring-data-scientists-and-analysts.md`.
+- Source: `../datatalksclub.github.io/_podcast/project-manager-to-data-scientist.md`.
+- Source: `../datatalksclub.github.io/_podcast/machine-learning-data-science-interview-prep.md`.
+- Source: `../datatalksclub.github.io/_podcast/data-science-job-red-flags-and-mismatched-roles.md`.
 - Future updates should add stronger evidence for senior data scientist growth
-  and research-to-product transitions. AI-engineering pivots from data science
-  also need more source-backed examples.
+  and research-to-product transitions. Add AI-engineering pivots from data
+  science when more source-backed examples exist.

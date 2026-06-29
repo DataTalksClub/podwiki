@@ -46,8 +46,8 @@ click-through rate, and weekly or yearly seasonality can bias short tests.
 
 Experiments need one primary decision metric and guardrails. The archive warns
 against choosing five primary metrics for a first test because the conclusion
-becomes unclear. Guardrail metrics still watch for harm, including churn,
-latency, crashes, and revenue cannibalization.
+becomes unclear. Guardrail metrics still watch for harm, including churn and
+latency. Crashes and revenue cannibalization can matter too.
 
 Causal and predictive metrics answer different questions. Causal inference
 episodes compare policies on the same business metric, but also ask whether the

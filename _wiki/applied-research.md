@@ -38,22 +38,21 @@ describes the first model as a hypothesis about how a system works. The
 researcher then uses data, experiments, model behavior, and explainability to
 refine that hypothesis. Production feedback can confirm or reject it.
 
-Research teams should make artifacts reusable. The archive treats novel
-datasets, benchmarks, model prototypes, and experimental results as
-intellectual property that downstream data scientists and ML engineers can
-reuse. This work is valuable when it improves the next product decision or
-production build.
+Research teams should make artifacts reusable. Guests treat novel datasets,
+benchmarks, model prototypes, and experimental results as intellectual property
+that downstream data scientists and ML engineers can reuse. Reusable research is
+valuable when it improves the next product decision or production build.
 
 The research-to-production gap is organizational as much as technical. Mihail
-Eric argues for embedded teams, role fluidity, code reviews for researchers,
-and engineers reading papers and reproducing models. The handoff fails when
-researchers throw notebooks over the wall and engineers receive unclear
-assumptions.
+Eric argues for embedded teams, role fluidity, researcher code reviews, and
+engineers who read papers or reproduce models. Researchers and engineers
+struggle when a team throws notebooks over the wall with unclear assumptions.
 
-Real-world deployment changes the research question. Computer-vision and
-autonomous-driving episodes move from model quality to latency and sensor cost.
-They also bring in labeling, simulation, staged rollouts, and privacy. Safety
-checks, edge cases, and system coordination become part of the work too.
+When teams deploy research in the real world, the research question changes.
+Computer-vision and autonomous-driving episodes move from model quality to
+latency and sensor cost. They also bring in labeling, simulation, staged
+rollouts, and privacy. Safety checks, edge cases, and system coordination
+become part of the work too.
 
 ## Episode Evidence
 

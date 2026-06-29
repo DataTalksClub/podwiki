@@ -32,9 +32,9 @@ Use these sections:
 
 ## Recurring Archive Themes
 
-A/A tests reveal assignment problems. Jakob Graff's warning is simple: when a
-planned 50/50 split becomes 60/40, the traffic splitter or triggering logic
-needs investigation before any A/B conclusion is credible.
+A/A tests reveal assignment problems. Jakob Graff warns that a planned 50/50
+split becoming 60/40 means the traffic splitter or triggering logic needs
+investigation before any A/B conclusion is credible.
 
 A/A tests also reveal metric and tracking problems. If both groups see the same
 experience but conversion rates diverge beyond plausible noise, the team should

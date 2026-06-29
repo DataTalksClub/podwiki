@@ -49,8 +49,8 @@ privilege creep: access granted for one task remains after the task is done.
 
 Privacy and security overlap without being identical because the privacy episode
 covers re-identification and profiling. It also covers consent, retention,
-differential privacy, and federated learning. Those practices reduce harm even
-when ordinary infrastructure security is working.
+differential privacy, and federated learning. Teams use those practices to
+reduce harm even when ordinary infrastructure security is working.
 
 ML artifacts can create security risk. The fairness episode includes secure
 model persistence and pickle deserialization risk. That belongs here because

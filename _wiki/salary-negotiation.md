@@ -49,21 +49,19 @@ researched range rather than one rigid number. It's reasonable to say that
 expectations may change after more market research, more interview information,
 or competing offers.
 
-Ground numbers in research. Glassdoor, public salary data, and recruiter
-feedback help candidates avoid random numbers. Peer conversations and offer
-comparisons help too. Recruiters may ask what a number is based on when it sits
-far outside the expected range.
+Glassdoor, public salary data, and recruiter feedback help candidates avoid
+random numbers. Peer conversations and offer comparisons help too. Recruiters
+may ask what a number is based on when it sits far outside the expected range.
 
-Use alternatives as negotiation power. Competing offers create the strongest
-negotiation position. Without another offer, candidates can still compare
-against staying in the current role. They can also ask for a sign-on bonus,
-clarify lost bonus or promotion value, or decline when the move doesn't make
-sense.
+Competing offers create the strongest negotiation position. Without another
+offer, candidates can still compare against staying in the current role. They
+can also ask for a sign-on bonus, clarify lost bonus or promotion value, or
+decline when the move doesn't make sense.
 
-Look for transparency. Luke Whipps argues that recruiters should share the
-company name, salary, job spec, and other decision information early enough for
-candidates to avoid wasted calls. Tereza Iofciu treats missing salary
-transparency in descriptions as a signal candidates should investigate.
+Luke Whipps argues that recruiters should share the company name, salary, job
+spec, and other decision information early enough for candidates to avoid wasted
+calls. Tereza Iofciu treats missing salary transparency in descriptions as a
+signal candidates should investigate.
 
 ## Episode Evidence
 
@@ -84,8 +82,8 @@ These episodes give the strongest evidence on salary conversations.
   offers when possible and asking about sign-on bonuses.
 - [Data Science Interview Guide](https://datatalks.club/podcast.html): At
   50:17-52:30, he advises candidates not to reveal low current salary and to
-  frame the discussion around skills, company value, and the alternative of
-  staying or declining.
+  frame the discussion around skills and company value. Candidates can also
+  compare the offer with staying or declining.
 - [Land Data Scientist Roles](https://datatalks.club/podcast.html): At
   52:22-54:12, Luke Whipps says asking about salary early isn't a red flag when
   candidates need to avoid wasted time. At 1:03:56-1:06:01, he discusses low and

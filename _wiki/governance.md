@@ -13,10 +13,10 @@ related:
 ## Definition and Scope
 
 Governance turns intentions into accountable decisions by naming owners,
-policies, reviews, and approvals. It also defines access workflows, release
-controls, documentation, and escalation paths. In the archive, governance spans
-data platforms, ML platforms, and responsible AI. It also reaches regulated
-finance, privacy, and internal product management.
+policies, reviews, and approvals. Teams also use governance to define access
+workflows, release controls, documentation, and escalation paths. In the
+archive, governance spans data platforms, ML platforms, and responsible AI. It
+also reaches regulated finance, privacy, and internal product management.
 
 Use this page for the cross-domain bridge. Use
 [Data Governance]({{ '/wiki/data-governance/' | relative_url }}) for data
@@ -38,8 +38,8 @@ Use these sections to move through the page.
 Governance should start from risk and purpose. Cloud-governance episodes ask
 why governance matters because the driver may be trust, regulation,
 exfiltration risk, or sensitive data. Analytics reuse and faster self-service
-are also valid drivers. Heavy process without a clear risk creates friction, but
-missing process creates privilege creep and untrusted systems.
+are also valid drivers. Teams create friction when process has no clear risk,
+but missing process creates privilege creep and untrusted systems.
 
 Access governance is a workflow. Bart Vandekerckhove's episode treats access
 requests, approvals, reviews, and revocation as the practical machinery of

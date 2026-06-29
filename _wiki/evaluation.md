@@ -45,10 +45,9 @@ live product impact. Analysts often explain whether uplift is real and where it
 appears by segment. They also help diagnose why a model that looked good offline
 didn't move a business metric.
 
-Causal evaluation has its own checks. Aleksander Molak separates policy
+Causal evaluation has its own checks because Aleksander Molak separates policy
 evaluation from ordinary regression metrics. Teams compare policies with the
-same business metric, and they also need refutation tests before trusting
-causal claims. Bias checks and confounding assumptions matter too.
+same business metric and use refutation tests before trusting causal claims.
 
 LLM and RAG episodes extend the same evaluation habit. Guests discuss
 evaluation sets, human-in-the-loop review, traces, and retrieval relevance.

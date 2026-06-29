@@ -22,8 +22,8 @@ A good job description names the problem, team, and responsibilities. It also
 names the level, must-have skills, and interview steps. Candidates then have
 enough context to decide whether to apply.
 
-Teams need to know how to write job descriptions. Candidates need to know how to
-read them. Employer-side hiring work belongs in
+Teams need to know how to write job descriptions, and candidates need to know
+how to read them. Employer-side hiring work belongs in
 [Hiring]({{ '/wiki/hiring/' | relative_url }}). Candidate tactics belong in
 [Job Search]({{ '/wiki/job-search/' | relative_url }}).
 
@@ -38,23 +38,20 @@ Use these links to move through the page.
 
 ## Recurring Archive Themes
 
-Start from the problem. Recruiter and candidate-side episodes both criticize
-long tool lists with little explanation of the work. Data professionals want to
-know which problem they'll solve, why the company needs the role, which team
-they join, and what success looks like. Perks can't compensate for missing role
-clarity.
+Recruiter and candidate-side episodes both criticize long tool lists with little
+explanation of the work. Data professionals want to know which problem they'll
+solve, why the company needs the role, which team they join, and what success
+looks like. Perks can't compensate for missing role clarity.
 
-Separate must-haves from nice-to-haves. Hiring managers and recruiters use job
-descriptions to negotiate market reality. Every extra must-have narrows the
-candidate pool. The archive recommends checking which skills are essential,
-which can be learned, and whether the company is asking one person to cover
-multiple roles.
+Hiring managers and recruiters use job descriptions to negotiate market reality.
+Every extra must-have narrows the candidate pool. The archive recommends
+checking which skills are essential, which can be learned, and whether the
+company is asking one person to cover multiple roles.
 
-Translate titles into responsibilities. Candidates should compare the title with
-the responsibilities. A data scientist posting full of ETL, Airflow, Scala, and
-platform work may be closer to data engineering. A data analyst posting may
-include product analytics, BI, or even data science work. The description should
-resolve that ambiguity.
+Candidates should compare the title with the responsibilities. A data scientist
+posting full of ETL, Airflow, Scala, and platform work may be closer to data
+engineering. A data analyst posting may include product analytics, BI, or even
+data science work. The description should resolve that ambiguity.
 
 Treat omissions as red flags. Warning signs include no team context, vague
 objectives, and copy-pasted technology lists. Rockstar or ninja language is
@@ -62,10 +59,9 @@ another warning sign. So are early heavy take-home tasks, unclear level, and no
 salary transparency. Candidates should also be wary when the description sounds
 like the company doesn't know what it needs.
 
-Use descriptions to tailor evidence. Good candidates read job descriptions
-before applying. They then map their CV, portfolio, outreach, and interview
-preparation to the actual problems in the role. This isn't keyword stuffing.
-It makes relevant evidence visible.
+Good candidates read job descriptions before applying. They then map their CV,
+portfolio, outreach, and interview preparation to the actual problems in the
+role. This isn't keyword stuffing. It makes relevant evidence visible.
 
 ## Episode Evidence
 
@@ -84,9 +80,9 @@ These episodes give the strongest evidence on job descriptions.
   candidate reality when companies copy job descriptions without knowing what
   they need.
 - [Data Science Jobs](https://datatalks.club/podcast.html): At 20:06-30:20,
-  the episode gives a role-clarity checklist. It covers team, area, objectives,
-  responsibilities, requirements, diversity signals, salary transparency, and
-  questions to ask.
+  the episode gives a role-clarity checklist. It covers team, area, and
+  objectives. It also covers responsibilities, requirements, diversity signals,
+  salary transparency, and questions to ask.
 - [Land Data Scientist Roles](https://datatalks.club/podcast.html): At
   37:54-44:15, Luke Whipps tells candidates to read descriptions, research
   company problems, and connect their experience to those problems in outreach

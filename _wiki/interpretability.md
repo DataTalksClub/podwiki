@@ -39,9 +39,9 @@ charts. A feature-importance view can reveal target leakage or a data issue that
 ordinary validation metrics hide.
 
 Uncertainty is part of interpretability. Conformal prediction appears in the
-archive as a way to express calibrated prediction sets or intervals. That helps
-teams decide when a model is confident enough for automation and when a human
-should review the case.
+archive as a way to express calibrated prediction sets or intervals. Teams use
+that uncertainty signal to decide when a model is confident enough for
+automation and when a human should review the case.
 
 Explainability overlaps with responsible AI but isn't the same. Supreet Kaur
 frames explainability as one toolset inside a broader responsible-AI mindset.
