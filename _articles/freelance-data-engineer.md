@@ -1,303 +1,287 @@
 ---
 layout: article
-title: "Freelance Data Engineer: Services, Proof, Client Risk, and Career Path"
+title: "Freelance Data Engineer: Services, Proof, Pricing, and Client Fit"
 keyword: "freelance data engineer"
-summary: "A podcast-backed guide to what a freelance data engineer does, how to position services, how clients should evaluate proof, and how engineers can move into freelance work."
+summary: "A podcast-backed guide to freelance data engineering: services clients buy, positioning, proof, pricing, discovery, and boundaries with consulting."
+search_intent: "People searching for freelance data engineer usually want to know what services a freelance data engineer provides, how to become one, how to price or scope the work, and how clients can evaluate proof before hiring."
 related_wiki:
   - Data Engineering
   - Data Engineer Role
   - Data Engineering Portfolio Projects
   - Open Source Portfolio Evidence
-  - Career Transitions in Data
-  - Entrepreneurship
+  - Freelance
+  - Business Skills for Data Professionals
 ---
 
-A freelance data engineer is an independent engineer who helps companies move,
-model, test, and operate data without hiring a full-time employee first.
+A freelance data engineer helps companies build and operate data systems
+without joining as a full-time employee. The work overlaps with
+[data engineering]({{ '/wiki/data-engineering/' | relative_url }}), but the
+engagement is different.
 
-The work can look like normal data engineering:
+A freelancer is usually hired for a bounded problem. The client may need a
+pipeline fixed or a first warehouse built. Other clients need an API
+integration, a data-quality audit, or a bridge before hiring internally.
 
-- ingestion and warehouses
-- orchestration and quality checks
-- documentation and platform decisions
+The clearest DataTalks.Club source is
+[Freelance Data Engineering Playbook]({{ '/podcasts/freelance-data-engineering-pricing-and-clients/' | relative_url }}).
+In that episode, [Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }})
+describes freelance data engineering as a business with reputation risk and
+occupancy risk. He also covers client acquisition, scope control, and repeat
+work. Around 11:36, he describes early projects that included legacy cleanup and
+[Airflow]({{ '/articles/apache-airflow/' | relative_url }}) implementation.
+Around 31:43, he explains why unclear client requests need short spikes and
+written scope documents before larger implementation work.
 
-The freelance version adds consulting pressure. The engineer must diagnose
-ambiguity, reduce client risk, define scope, and leave the team with something
-it can operate.
+That makes a freelance data engineer more than temporary capacity. The client
+is paying for technical delivery plus judgment about the real data constraint.
 
-The DataTalks.Club podcast archive gives one especially useful thread through
-Adrian Brudaru's freelance data engineering episodes. Adrian describes a path
-from startup data work into freelancing, then into product building. His examples
-show why a freelance data engineer isn't only a tool implementer. Freelancers
-work best when they sell a clear service, prove ownership, manage client
-expectations, and turn repeated client problems into reusable assets.
+## Services Clients Buy
 
-For the broader role foundation, see
-[Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}),
-[Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }}), and
-[Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }}).
-For the adjacent service-query page, see
-[Data Engineering Freelance]({{ '/articles/data-engineering-freelance/' | relative_url }}).
+Freelance data engineering services are easiest to sell when the buyer can see
+the before-and-after state. "Improve our data platform" is vague. "Stabilize
+one revenue pipeline and leave tests plus a backfill runbook" is concrete.
 
+Common services include:
 
-## Article Outline
-
-Use the page in this order:
-
-- [Freelance Data Engineer Responsibilities](#freelance-data-engineer-responsibilities)
-- [Services Clients Actually Buy](#services-clients-actually-buy)
-- [Positioning: Expert, Operator, or Builder](#positioning-expert-operator-or-builder)
-- [Proof That Reduces Client Risk](#proof-that-reduces-client-risk)
-- [Pricing and Working Model](#pricing-and-working-model)
-- [Path Into Freelance Data Engineering](#path-into-freelance-data-engineering)
-- [Hiring Fit](#hiring-fit)
-- [Podcast-Backed Evidence](#podcast-backed-evidence)
-
-## Freelance Data Engineer Responsibilities
-
-A freelance data engineer usually works on a bounded data problem with business
-risk attached. The client may have a broken ingestion job, a warehouse that no
-one trusts, or a dashboard layer with unclear definitions. A product team may
-also need data before an internal hire exists.
-
-A good engagement leaves more than code behind:
-
-- a working pipeline, model, audit, or migration
-- tests and checks that catch common failures
-- documentation for owners and consumers
-- a recovery path for late data, schema changes, or bad loads
-- a clear handoff to employees, analysts, or another vendor
-
-In [Freelance Data Engineering Playbook](https://datatalks.club/podcast.html),
-Adrian Brudaru describes his first freelance project as legacy cleanup plus
-Airflow implementation. In a later project, Adrian first built a warehouse. He
-then helped the client define what to track, hire the first data people, train
-embedded analysts, and hand over ownership.
-
-Freelance data engineering often bridges a technical gap and an organizational
-gap. The warehouse might take two weeks, while agreeing on the meaning of a
-customer or metric can take much longer.
-
-## Services Clients Actually Buy
-
-Start with services that have a clear before-and-after state. Clients buy relief
-from a specific constraint, not a vague promise to "do data engineering."
-
-- Pipeline repair: stabilize a flaky job, fix incremental loading, add retries,
-  and document backfills.
-- API or SaaS ingestion: move data from APIs, files, product databases, or
-  SaaS tools into a warehouse or lakehouse.
-- Warehouse setup: create raw, staged, modeled, and serving layers for analysts
-  or product teams.
+- Pipeline repair: fix late jobs, broken dependencies, duplicate loads,
+  incremental-loading mistakes, and fragile backfills.
+- API and SaaS ingestion: pull data from external systems into a warehouse or
+  lakehouse while handling authentication and pagination. Also account for rate
+  limits, schema drift, and bad records.
+- Warehouse setup: create raw, staged, modeled, and serving layers that
+  analysts, product teams, or finance users can trust.
 - dbt-style modeling: define table grain, metric logic, tests, docs, and
-  reusable analytical models.
-- Data quality audit: trace one important data flow and review freshness,
-  schema drift, ownership, and failure impact.
+  reusable models for [analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }}).
+- Data-quality audit: trace one important flow. Review data health, ownership,
+  and downstream impact.
 - Orchestration cleanup: replace manual jobs with scheduled runs, dependency
-  management, alerts, and runbooks.
-- Build-and-hire support: create the first useful stack, then help the company
-  hire or train the internal owner.
-- Modernization assessment: decide whether the client needs Spark, Kafka, a
-  lakehouse, a new orchestrator, or a simpler batch system.
+  handling, alerts, and runbooks.
+- Build-and-hire support: create the first usable data stack, then help the
+  company hire or train the internal owner.
+- Modernization assessment: decide whether the client needs Spark, Kafka,
+  lakehouse formats, a new orchestrator, or a simpler batch system.
 
-The archive repeatedly warns against selling tool lists before requirements are
-clear. In [Modern Data Engineering](https://datatalks.club/podcast.html),
-Adrian recommends SQL and Python for beginners. He also recommends requirements
-gathering and portfolio building. Tool choice should follow the end user.
-Freelancers need that discipline because clients pay for outcomes and risk
-reduction, not for a stack diagram.
+In
+[From Data Freelancer to Startup]({{ '/podcasts/from-data-freelancer-to-startup-open-source-products/' | relative_url }}),
+Adrian adds an important repeated-work signal. Around 13:42, he connects
+consulting work to stakeholder alignment and warehouse setup. Around 17:51 and
+19:38, he discusses repeated pain around JSON ingestion and relational
+transformation.
 
-## Positioning: Expert, Operator, or Builder
+For a freelancer, repeated pain can become a reusable asset. The asset might be
+a template or checklist. It might also be a connector, workshop, or product.
 
-A freelance data engineer can sell several kinds of work.
+## Positioning and Service Boundaries
 
-As an expert, you diagnose a narrow problem. Examples include a data quality
-audit, warehouse design review, orchestration review, or migration plan.
+A freelance data engineer can position around execution, diagnosis, or a
+repeatable service.
 
-As an operator, you keep a system moving through a part-time retainer. This can
-cover pipeline maintenance, incident response, release support, or small feature
-requests.
+Execution positioning says: "I build this pipeline or warehouse layer." It fits
+clients who already know the problem and need implementation capacity.
 
-As a builder, you deliver a project. This might be an ingestion pipeline, a
-modeled analytics layer, a dashboard-ready mart, or a first warehouse for a
-startup.
+Diagnosis positioning says: "I find the constraint and define the next project."
+It fits clients with vague symptoms. Dashboards may be wrong, analysts may not
+trust the warehouse, costs may be rising, or a migration may have stalled.
 
-Adrian's archive thread adds a fourth position: bridge builder. In his later
-startup episode, he says part of his freelance work was "build and hire." He
-built the data warehouse and helped the company create the team that would own
-it. This position reduces the client's dependency on the freelancer over time.
+Repeatable-service positioning says: "I solve this specific class of problem
+often." Examples include API ingestion for B2B SaaS companies, Airflow recovery
+work, dbt model cleanup, or data-quality audits for revenue reporting.
 
-Positioning should be explicit:
+The distinction matters because freelance work and
+[data engineering consulting]({{ '/articles/data-engineering-consulting/' | relative_url }})
+overlap, but they aren't identical. A freelancer may sell implementation time.
+A consultant may sell diagnosis, sequencing, stakeholder alignment, and
+decision support. In practice one person can do both, but the proposal should
+say which mode the client is buying.
 
-- "I fix unreliable Airflow and warehouse pipelines."
-- "I build the first startup warehouse and hand it to your first data hire."
-- "I audit one revenue-critical data flow and give you a prioritized fix plan."
-- "I build API ingestion templates your team can reuse."
-- "I help Python-heavy teams move from ad hoc JSON loading to maintainable relational data models."
-
-In [From Data Freelancer to Startup](https://datatalks.club/podcast.html),
-Adrian describes repeated client pain around JSON ingestion and typing. He also
-covers relational modeling and maintenance. Those repeated freelance problems
-became product insight.
+[Orell Garten]({{ '/people/orellgarten/' | relative_url }}) gives a useful
+guardrail in
+[From Academic Research to Lean Data Consulting]({{ '/podcasts/from-academic-research-to-data-engineering-freelancing/' | relative_url }}).
+Around 9:42, he frames the shift as problem-first work rather than
+technology-first work. Around 39:00 and 43:27, he describes minimal viable data
+work and weekly feedback as ways to avoid overengineering. Use the same rule in
+freelance data engineering. Do the smallest useful data work that proves the
+path before committing the client to a larger platform.
 
 ## Proof That Reduces Client Risk
 
-Clients hire freelancers under uncertainty. They need evidence that the person
-can work independently, communicate early, and leave the system better than they
-found it.
+Clients hire freelance data engineers under uncertainty. They may not know where
+the problem lives because it could sit in ingestion, modeling, or orchestration.
+It could also sit in source ownership or business definition. Strong proof shows
+that the freelancer can enter that messy situation, communicate clearly, and
+leave the system easier to operate.
 
-Use proof that shows ownership, not only exposure.
+Good proof includes:
 
-- Production-like project: show ingestion, storage, transformations,
-  orchestration, tests, docs, and a consumer.
-- Reliability story: explain how you handled late data, schema drift,
-  duplicates, backfills, alerts, or bad source records.
-- Case study: write the problem, scope, constraints, design, tradeoffs,
-  verification, and handoff.
-- Reusable asset: publish a connector template, dbt package, data quality
-  checklist, runbook, starter repo, or workshop.
-- Open-source contribution: link an issue, pull request, example, docs change,
-  test, or maintainer discussion.
+- an end-to-end pipeline with ingestion, storage, transformations,
+  orchestration, tests, docs, and a named consumer
+- a reliability story about late data, schema drift, duplicates, backfills,
+  alerting, or recovery
+- a case study with the problem, scope, constraints, design, tradeoffs,
+  verification, result, and handoff
+- a reusable asset such as a connector template, dbt package, runbook, data
+  quality checklist, or starter repo
+- an open-source contribution that shows issue reproduction, review, tests,
+  documentation, and maintainability
 
-Jeff Katz's data engineering job-prep episode supports this proof standard. In
-[Data Engineering Job Prep and Interview Guide](https://datatalks.club/podcast.html),
-he says data engineering projects should show real Python and SQL depth. He also
-asks for cleaner code, small functions, descriptive names, and tests. At the
-portfolio level, he recommends personal projects and open-source work because
-professional projects force reliable code and Docker. They can also force
-CI/CD, Python, and SQL.
+[Jeff Katz]({{ '/people/jeffkatz/' | relative_url }}) gives a hiring-side proof
+standard in
+[Data Engineering Job Prep & Interview Guide]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }}).
+Around 1:20, he names Python and SQL as core signals. He then adds Docker,
+Airflow, and warehouses. Around 2:22, he emphasizes small functions, classes,
+and tests.
 
-For freelance positioning, that advice becomes a buyer-risk filter. A copied
-course project doesn't prove client readiness, but a small and well-documented
-pipeline with tests can. Add a known failure mode and a clear runbook.
+Around 2:46, Jeff recommends personal projects and open-source contributions.
+For a freelance data engineer, those signals aren't just resume items. They
+show the buyer that the freelancer can ship maintainable work without creating a
+hidden dependency.
 
 Use
+[Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
+for project structure and
 [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
-when you need a public proof checklist.
+for public proof.
+
+## Discovery Before Implementation
+
+Freelance data engineering should start with discovery when the client can't
+explain the problem clearly.
+
+A useful discovery spike answers:
+
+- Which business process depends on this data?
+- Who consumes the output?
+- What breaks when the data is wrong, late, duplicated, or incomplete?
+- Which source systems, credentials, owners, and agreements are involved?
+- What freshness, correctness, cost, or latency target matters?
+- What has already failed?
+- Which part can be fixed quickly?
+- Which part needs a larger migration, team decision, or internal owner?
+
+Adrian's freelance playbook episode ties discovery to scope control. Around
+31:43, he talks about spikes and scope-of-work documents, then around 55:30 he
+connects freelance success to proactivity and ownership of outcomes. A spike
+shouldn't be a long unpaid sales call because it should produce a diagnosis,
+risks, recommended next steps, and a decision about implementation.
+
+The same discovery practice appears in
+[Build a Data Consulting Business]({{ '/podcasts/data-consulting-business-pricing-and-client-acquisition/' | relative_url }}).
+[Aleksander Kruszelnicki]({{ '/people/aleksanderkruszelnicki/' | relative_url }})
+discusses customer validation and user interviews around 9:08 and 12:53, then
+connects consulting work to hands-on accountability around 25:45. For freelance
+data engineers, that means discovery should talk to users of the data, not only
+the person who owns the tool budget.
 
 ## Pricing and Working Model
 
-Clarify scope before you write code. If the client can't explain the problem,
-sell discovery before implementation.
+Adrian and Dimitri don't give one universal freelance data engineer rate. Compare
+how they reason about pricing instead.
 
-A good discovery spike answers:
+Adrian explains income through occupancy around 7:06 in the freelance playbook
+episode. A freelancer doesn't bill every working hour of the year. Pricing has
+to cover unsold time, administration, holidays, and sales work. It also has to
+cover sick time, insurance, tax, and project gaps.
 
-- what data flow matters
-- who consumes the output
-- what freshness, quality, or cost target matters
-- which source systems and owners are involved
-- what can be fixed quickly
-- what needs a larger project or internal owner
+Around 18:12, Adrian discusses hourly pricing and market ranges. Around 23:19,
+he compares recruitment agencies with direct client work. Agencies can be a
+bridge to early projects, but they take margin and may affect the rate.
 
-In the freelance playbook episode, Adrian discusses spikes and written scope.
-He also discusses expectation management and occupancy. A freelancer doesn't
-bill every working hour of the year. Rate planning has to include unsold time,
-admin work, and sales effort. It also has to include holidays and project gaps.
+[Dimitri Visnadi]({{ '/people/dimitrivisnadi/' | relative_url }}) adds the
+broader data freelancer view in
+[Becoming a Data Freelancer]({{ '/podcasts/becoming-data-freelancer/' | relative_url }}).
+Around 25:24, he discusses rate benchmarking through platforms and recruiters.
+Around 37:10 and 38:50, he compares agreement formats with direct client work,
+project pricing, and subcontracting. Around 43:41 and 46:25, he covers client
+vetting and payment delays. Those points matter for data engineering because a
+technical project can still fail commercially if payment, scope, or authority is
+unclear.
 
-Hourly work can be reasonable when the problem is uncertain. Project pricing can
-make sense when the scope is stable and the freelancer has reusable assets.
-Retainers can work for maintenance, monitoring, and small improvements after a
-project launch.
+Dimitri's later episode,
+[Building a Sustainable Data Freelancing Career]({{ '/podcasts/data-freelancing-career-strategy-market-demand-and-client-acquisition/' | relative_url }}),
+adds market validation. Around 10:50, he distinguishes expertise from
+problem-solving in freelance work. Around 23:51 and 25:08, he discusses
+market-driven specialization and rate signals. Around 56:47, he compares
+hourly work, project packages, and the move between them.
 
-Client acquisition also changes the working model. Adrian treats staffing
-agencies as a reasonable starting bridge when you don't yet have direct client
-relationships. He also notes that agencies take margin and may not optimize the
-freelancer's rate. Direct clients usually require stronger trust, referrals,
-and sales discipline.
+Use a pricing model that matches uncertainty:
 
-For a client, the practical question isn't "what's the cheapest rate?" It's
-"which working model gives us the least delivery risk for this problem?"
+- Hourly work fits ambiguous repair, investigation, and early client work.
+- Fixed-scope projects fit repeatable services with known risks and clear
+  acceptance criteria.
+- Discovery spikes fit vague problems where neither side knows the real scope.
+- Retainers fit maintenance, monitoring, incident response, and small
+  improvements after launch.
+
+Project pricing isn't automatically better than hourly pricing. It works only
+when the freelancer can control enough scope and risk.
+
+## Client Fit
+
+A freelance data engineer is a good fit when the client has a bounded data
+problem and enough internal context to make decisions.
+
+Good-fit situations include:
+
+- a business-critical pipeline that breaks or arrives late
+- a first warehouse before a permanent data hire exists
+- a source integration that product, finance, or operations depends on
+- a data-quality audit before a larger platform change
+- a migration plan where the team needs sequencing and tradeoffs
+- a short implementation project with a clear handoff owner
+
+Poor-fit situations include:
+
+- no one at the client can define the user of the data
+- the company wants a freelancer to replace long-term ownership
+- the project needs daily product decisions but no internal owner exists
+- the buyer wants a tool migration before naming the business constraint
+- the expected scope is larger than one independent person can responsibly own
+
+Adrian's build-and-hire thread is useful here. In
+[From Data Freelancer to Startup]({{ '/podcasts/from-data-freelancer-to-startup-open-source-products/' | relative_url }}),
+the recurring problem wasn't only warehouse setup. It also involved alignment,
+handoff, and eventually choosing product work over agency growth. A strong
+freelance data engineer should reduce dependency over time, not become the only
+person who understands the data system.
 
 ## Path Into Freelance Data Engineering
 
-Use this path if you want to become a freelance data engineer.
+The practical path starts with the
+[data engineer role]({{ '/wiki/data-engineer-role/' | relative_url }}) and then
+adds commercial discipline.
 
-1. Build the core role skill. Start with SQL, Python, data modeling, Git,
-   Docker, orchestration, warehouse basics, and one cloud or local analytical
-   stack.
-2. Finish one production-like portfolio pipeline with tests, docs, a runbook,
-   and a real consumer.
-3. Add one external proof point. Use an open-source contribution, nonprofit
-   data project, or short paid project. An internship, internal project, or
-   public demo can work too.
-4. Choose one initial service that maps to visible pain. Pipeline repair, API
-   ingestion, warehouse modeling, and data quality audits are easier to sell
-   than vague platform transformation.
-5. Write one-page case studies for the problems you can solve. Each case study
-   should explain risk and design plus tests, results, and handoff.
-6. Create a discovery spike offer for vague client problems.
-7. Start with former colleagues, communities, and referrals. Use agencies before
-   relying on cold freelance marketplaces.
-8. Track billable time, non-billable time, sales work, and occupancy so pricing
-   reflects the business, not only the hourly task.
+1. Get strong at SQL, Python, Git, Docker, data modeling, orchestration, and
+   one warehouse or lakehouse stack.
+2. Build one production-like pipeline with tests, docs, backfills, alerts, and
+   a real consumer.
+3. Add one external proof point: open source, nonprofit work, a short paid
+   project, an internal project, or a public demo.
+4. Choose one initial service with visible pain, such as pipeline repair, API
+   ingestion, warehouse modeling, data-quality audits, or Airflow cleanup.
+5. Write one-page case studies that explain risk, design, tests, result, and
+   handoff.
+6. Create a short discovery-spike offer for vague client problems.
+7. Start with former colleagues, referrals, communities, other freelancers, and
+   agencies before relying on cold marketplaces.
+8. Track billable time, non-billable time, sales effort, project gaps, and
+   occupancy so pricing reflects the business.
 
-The archive's career advice is conservative here. Adrian's story starts with
-several years of startup and data work before freelancing. He says freelancing
-requires reliability, independent delivery, proactivity, and honest fit checks.
-That doesn't mean every freelancer must be senior in every tool. It means the
-freelancer must know what they can own and what they shouldn't sell yet.
-
-## Hiring Fit
-
-A freelance data engineer is a good fit when the problem is bounded, urgent, or
-too specialized for the current team.
-
-Hire one when:
-
-- a pipeline or warehouse blocks reporting, analytics, ML, or operations
-- the team needs a first data stack before hiring permanently
-- internal engineers can own the system later but need an expert start
-- a source migration, API integration, or data quality project needs focused
-  delivery
-- you need an audit before committing to a vendor or platform migration
-
-Don't hire a freelancer as a substitute for ownership. If the work is a core
-long-term platform with daily product decisions, you still need an internal
-owner. A strong freelancer can help you build the system and hire or train that
-owner.
-
-Adrian's build-and-hire example is useful because the client got a warehouse,
-alignment work, analysts, and a handoff path.
-
-## Podcast-Backed Evidence
-
-Start with these DataTalks.Club podcast episodes.
-
-- [Freelance Data Engineering Playbook](https://datatalks.club/podcast.html):
-  Adrian Brudaru covers the freelancer's risk model at 7:06. He discusses early
-  project work around legacy cleanup and Airflow at 4:50 and 11:36. Use 13:44
-  for reliability and proactivity, 18:12 for hourly pricing, and 23:19 for
-  agencies versus direct clients. Use 31:43 for scoping and spikes, 46:17 for
-  reusable portfolio assets, and 55:30 for client expectations.
-- [From Data Freelancer to Startup](https://datatalks.club/podcast.html):
-  Adrian describes build-and-hire work at 5:20 and client focus on outcome and
-  cost at 7:18. Use 8:46 for subcontracting and agency tradeoffs. Use 13:42 for
-  repeated warehouse and stakeholder-alignment pain. Use 16:16 for Python-user
-  data tooling and 19:38 for JSON-to-relational pipeline work.
-- [Modern Data Engineering](https://datatalks.club/podcast.html):
-  Adrian updates the role context with specialization in governance, data
-  quality, and streaming at 11:03. At 41:06, he recommends SQL and Python. He
-  also recommends requirements gathering and portfolio building. At
-  43:28-44:42, he ties tool choice to the end user and warns against vendor-led
-  stack choices.
-- [Data Engineering Job Prep and Interview Guide](https://datatalks.club/podcast.html):
-  Jeff Katz names Python, SQL, and Docker as core data engineering signals. He
-  also names Airflow and warehouses. At 1:49-2:46, he connects portfolio
-  credibility to Python and SQL depth. He also emphasizes clean code, tests, and
-  open-source contribution.
-- [DataOps for Data Engineering](https://datatalks.club/podcast.html):
-  Christopher Bergh's DataOps episode supports the reliability side of
-  freelance services. It covers CI/CD and realistic test data. It also covers
-  observability, deployment confidence, and recovery practices.
+This path is conservative because freelance work punishes vague claims. Adrian,
+Dimitri, and Orell all describe freelance success as more than technical skill.
+You need market feedback, scope control, client communication, and enough proof
+to earn trust around an unclear data problem.
 
 ## Related Pages
 
-Use these pages for deeper role and proof context:
+Continue with these pages:
 
-- [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }})
-- [Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }})
+- [Data Engineering Freelance]({{ '/articles/data-engineering-freelance/' | relative_url }})
+  for a broader career path.
+- [Data Engineer Consulting]({{ '/articles/data-engineer-consulting/' | relative_url }})
+  for buyer-side consulting scope.
+- [Data Engineering Consulting]({{ '/articles/data-engineering-consulting/' | relative_url }})
+  for service design.
 - [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
-- [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
-- [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
+  for skill order.
 - [Career Transitions in Data]({{ '/wiki/career-transitions-in-data/' | relative_url }})
-- [Entrepreneurship]({{ '/wiki/entrepreneurship/' | relative_url }})
+  for moving into the role from another background.

@@ -1,334 +1,280 @@
 ---
 layout: article
-title: "MLOps Courses: How to Compare Curriculum, Projects, and Production Depth"
+title: "MLOps Courses: How to Choose Training That Builds Production Skill"
 keyword: "mlops courses"
-summary: "A podcast-backed guide to comparing MLOps courses by curriculum scope, hands-on projects, deployment practice, monitoring, evaluation, and production judgment."
+summary: "A podcast-grounded guide to comparing MLOps courses by production scope, hands-on projects, monitoring practice, platform judgment, and portfolio evidence."
+search_intent: >-
+  People searching for MLOps courses are comparing free, paid, cohort,
+  self-paced, vendor, and platform-focused options. They need a way to tell
+  whether a course teaches production ML work or only introduces MLOps tools.
 related_wiki:
   - MLOps
   - MLOps Roadmap
+  - MLOps Tools
+  - MLOps Engineer
   - ML Platforms
-  - Model Registry
   - Model Monitoring
   - Reproducibility
   - Production
-  - Machine Learning System Design
 ---
 
-People comparing MLOps courses usually don't need another definition of MLOps.
-They need to know which curriculum will help them operate a model after the
-notebook work ends. A useful course should make you train and package a model.
-It should also make you deploy, monitor, and explain the lifecycle with enough
-evidence that another engineer can review it.
+MLOps courses are useful when they teach the work that happens after a model
+looks promising in a notebook. That work includes reproducible training and
+model handoff. It also includes deployment, monitoring, and ownership.
+[Maria Vechtomova]({{ '/people/mariavechtomova/' | relative_url }})
+frames MLOps around enablement and reproducibility in
+[Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }}).
+She also covers Git and CI/CD, plus registries, deployment paths, and
+monitoring.
 
-The DataTalks.Club podcast archive shows a practical selection standard: choose
-courses that teach production judgment, not only tool names. The best course
-forces you to connect reproducibility, deployment, and registry handoff. It
-should also connect monitoring, evaluation, and team adoption in one working
-project. Use
-[MLOps]({{ '/wiki/mlops/' | relative_url }}) for the operating discipline,
-[MLOps Roadmap]({{ '/wiki/mlops-roadmap/' | relative_url }}) for the build
-sequence, and
-[MLOps Course]({{ '/articles/mlops-course/' | relative_url }}) for a
-single-course checklist.
+[Simon Stiebellehner]({{ '/people/simonstiebellehner/' | relative_url }})
+defines MLOps as people, processes, and technology in
+[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}),
+which rules out courses that only demo tools.
 
+Use this article to compare several MLOps courses before choosing one. For a
+single-course checklist, use
+[MLOps Course]({{ '/articles/mlops-course/' | relative_url }}). For the
+archive-backed reference page, start with
+[MLOps]({{ '/wiki/mlops/' | relative_url }}), then use
+[MLOps Roadmap]({{ '/wiki/mlops-roadmap/' | relative_url }}) for build order and
+[MLOps Tools]({{ '/articles/mlops-tools/' | relative_url }}) for stack
+selection.
 
-## Comparison Criteria
+## Compare the Outcome
 
-Start with curriculum scope, then look at proof of practice. A long syllabus
-can hide shallow work. A smaller course can be strong when it makes you operate
-one model end to end.
+Don't start with "which MLOps course has the longest tool list?" Ask which
+course leaves you with a model system another person can rerun and operate
+after deployment. That standard comes from
+[MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}).
 
-Use these criteria:
+In that episode, [Raphaël Hoogvliets]({{ '/people/raphaelhoogvliets/' | relative_url }})
+connects CI and repository structure. He also connects parameterization with
+testing. He then links reproducibility with experiment capture and registries,
+plus serving, monitoring, and dependency management.
 
-- Reproducibility: Strong courses make you track code version, environment,
-  data reference, parameters, metrics, and model artifacts. Weak courses leave
-  you with notebooks and a saved model file but no run history.
-- Deployment: Strong courses make you ship batch inference, an API, or a managed
-  endpoint with validation, logging, and rollback notes, while weak courses stop
-  after local `predict()` calls.
-- Registry and handoff: Strong courses make you record model version, owner,
-  approval state, evaluation result, artifact location, and deployment target.
-  Weak courses name registries but never use one for release decisions.
-- Monitoring: Strong courses make you watch input quality, prediction
-  behavior, service health, and at least one outcome or proxy metric, while weak
-  courses treat deployment as the final step.
-- Evaluation: Strong courses make you compare offline metrics with production
-  signals and write retraining criteria, while weak courses report one
-  validation score and move on.
-- Platform judgment: Strong courses teach you when shared templates, CI/CD, and
-  orchestration reduce repeated team pain. They also explain where registries
-  and managed tools fit instead of presenting platforms as a shopping list.
-- Portfolio value: Strong courses leave you with setup notes, architecture, and
-  tests, deployment notes, monitoring output, and operating decisions. Weak
-  courses leave the certificate as the only visible result.
+Compare courses by the evidence they require:
 
-Ask which course makes you prove you can run the lifecycle, not which course
-mentions the most tools.
+- Reproducibility: the course should record code versions and dependencies. It
+  should also record parameters and data references, then save metrics, model
+  artifacts, and environment details. That matches the traceability themes in
+  [MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }})
+  and [Reproducibility]({{ '/wiki/reproducibility/' | relative_url }}).
+- Deployment: the course should make you ship batch inference, online serving,
+  or a managed endpoint with validation, logging, and rollback notes. Simon
+  discusses batch versus online deployment patterns in
+  [Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
+- Model handoff: the course should include a model registry or registry-like
+  convention that captures model version and owner. It should also capture
+  artifact location, evaluation result, approval state, and deployment target.
+  See
+  [Model Registry]({{ '/wiki/model-registry/' | relative_url }}) and Simon's
+  registry discussion in
+  [Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
+- Monitoring: the course should watch service health, inputs, predictions,
+  drift signals, and available outcomes or proxies. [Danny Leybzon]({{ '/people/dannyleybzon/' | relative_url }})
+  connects model monitoring to ETL, data pipelines, and upstream root causes in
+  [MLOps Architect Guide]({{ '/podcasts/mlops-model-monitoring-data-observability/' | relative_url }}).
+- Operating judgment: the course should ask who investigates alerts, approves
+  rollback, and decides whether to retrain. That ownership lens is central to
+  [Production]({{ '/wiki/production/' | relative_url }}) and to the people,
+  process, and technology framing in
+  [Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
 
-## Core Curriculum
+## Check the Curriculum
 
-Strong MLOps courses should cover the lifecycle in the same order that a model
-usually becomes operational.
+A strong MLOps curriculum starts with one modest model and adds operational
+layers in the order teams usually need them. [MLOps Roadmap]({{ '/wiki/mlops-roadmap/' | relative_url }})
+starts with tracked training and packaged inference. It then adds deployment,
+registry handoff, and monitoring. Retraining decisions and shared platform
+patterns come later.
 
-1. Software foundations: Git, tests, dependency management, Docker,
-   configuration, code review, and repository structure.
+Look for these course modules:
+
+1. Software foundations: Git, tests, packaging, and dependency management.
+   Docker, configuration, and repository structure matter too. Maria emphasizes
+   Git and CI/CD, plus registries and standardized repositories in
+   [Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }}),
+   and [Software Engineering]({{ '/wiki/software-engineering/' | relative_url }})
+   gives the broader archive context.
 2. Reproducible training: data references, parameters, metrics, artifacts,
-   environment details, and experiment tracking.
-3. Inference packaging: batch scoring, online APIs, managed serving, input
-   validation, error handling, and prediction logging.
-4. Release paths: CI/CD, container builds, deployment checks, environment
-   promotion, rollback, and approval points.
-5. Model handoff: registries, artifact stores, model versions, owners, lifecycle
-   stages, evaluation results, and deployment targets.
-6. Monitoring: data quality, drift signals, service health, latency, errors,
-   prediction distributions, feedback, and business or proxy outcomes.
-7. Operating decisions: runbooks, alert routing, retraining criteria,
-   deprecation plans, governance, and incident notes.
+   environment details, and experiment tracking. Raphaël covers data
+   versioning, traceability, and experiment capture in
+   [MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}),
+   and [Experiment Tracking]({{ '/wiki/experiment-tracking/' | relative_url }})
+   explains why run history matters.
+3. Inference packaging: batch jobs, APIs, managed serving, input validation,
+   error handling, and prediction logging. Simon covers batch inference and
+   online serving in
+   [Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
+   He also discusses orchestration, API design, and unified prediction schemas.
+4. Release paths: CI/CD and container builds. Deployment checks, environment
+   promotion, rollback, and approvals belong here too. Maria places CI/CD and
+   deployment paths in the essential stack in
+   [Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }}).
+5. Monitoring and response: include service health and input quality. Add
+   prediction distributions and drift alongside feedback, alerts, and incident
+   notes. Danny's monitoring discussion in
+   [MLOps Architect Guide]({{ '/podcasts/mlops-model-monitoring-data-observability/' | relative_url }})
+   and [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }})
+   both treat the data system around the model as part of the operating
+   surface.
 
-In [MLOps at Scale](https://datatalks.club/podcast.html), Raphaël Hoogvliets
-frames MLOps as an enabling function that supports product teams. The episode
-connects CI and repository structure with parameterization, testing, and
-reproducibility. It also connects tracking and registries with serving,
-monitoring, and dependency management. A course that teaches those pieces gives
-you a stronger base than a course that jumps straight into advanced
-infrastructure.
+If a syllabus jumps straight to Kubernetes or Terraform, compare it against
+[MLOps Tools]({{ '/articles/mlops-tools/' | relative_url }}) and
+[ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }}). Those pages frame
+cloud ML platforms as answers to workflow problems, not as the goal of the
+course.
 
-## Hands-On Projects
+## Check the Final Project
 
-The final project is where course comparison becomes easy. A serious MLOps
-course should make you build one model system that someone else can run.
+Course marketing can be vague, but the capstone is concrete. A good MLOps
+course should leave you with one project. It should prove that you can connect
+training, deployment, monitoring, and operations. Maria recommends hands-on
+projects and pairing around 54:05 in
+[Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }}).
+Simon points learners toward practical projects and MLOps training around 57:32
+in
+[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
 
-By the end, your project should include:
+The project should include:
 
-- versioned training code and documented data references
+- versioned training code and a documented data reference
 - captured parameters, metrics, dependencies, environment details, and model
   artifacts
 - a batch inference job, API, or managed endpoint
-- tests for code, schemas, and at least one data assumption
-- a registry or simple release table with model version, owner, evaluation
+- tests for code, input schemas, and at least one data assumption
+- a registry entry or release table with model version, owner, evaluation
   result, approval state, and deployment target
 - logs for model version, inputs, predictions, errors, latency, and request or
   run IDs
-- monitoring output for data quality, prediction distribution, service health,
-  and one business or proxy signal
-- a README that explains setup, architecture, ownership, failure modes,
-  rollback, and retraining criteria
+- monitoring output for service health, data quality, prediction behavior, and
+  one business or proxy signal
+- setup notes, architecture notes, ownership, failure modes, rollback rules,
+  and retraining criteria
 
-This project doesn't need a giant stack, but it needs a complete operating
-story.
-The [MLOps Roadmap]({{ '/wiki/mlops-roadmap/' | relative_url }}) recommends
-building from tracked training to batch inference, online serving, monitoring,
-and then a small platform layer. Courses that follow this order help you learn
-why each tool exists before you add the next one.
+This project connects directly to
+[Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
+and [MLOps Engineer]({{ '/wiki/mlops-engineer/' | relative_url }}). A repository
+with operating evidence is easier to discuss than a certificate or module list.
 
-## Deployment and Monitoring
+## Match the Format to the Gap
 
-Avoid courses that treat deployment as the finish line. MLOps work starts to
-matter after the model has users, scheduled jobs, downstream systems, or
-business decisions depending on it.
+Free and paid MLOps courses can both work when they require the same production
+evidence. Cohort, self-paced, vendor, and platform-specific courses can work
+too. The format changes the support model, not the standard. For course
+portfolio and community-learning context, see
+[Inside Scaling DataTalks.Club]({{ '/podcasts/datatalksclub-scaling-and-free-courses/' | relative_url }}).
 
-Good courses make you answer production prompts:
+Use the course type to solve a specific learning problem:
 
-- Define the input schema inference expects.
-- Decide what happens when an input field is missing, late, or out of range.
-- Log the model version that produced each prediction.
-- Choose latency, error, and throughput signals for service health.
-- Choose the prediction distribution shifts that should trigger investigation.
-- Name the delayed label, business metric, or proxy signal that shows whether
-  the model still helps.
-- Name who investigates alerts, approves rollback, and decides to retrain.
+- Choose a free self-paced course when you can keep your own schedule and use
+  community support, as in the DataTalks.Club course model described in
+  [Inside Scaling DataTalks.Club]({{ '/podcasts/datatalksclub-scaling-and-free-courses/' | relative_url }}).
+- Choose a cohort course when deadlines, discussion, code review, or project
+  review will make you finish the operating artifact, then connect it to
+  [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}).
+- Choose a vendor or cloud course when the target job names that stack, but
+  check that the course still teaches lifecycle decisions, registry handoff,
+  monitoring, and rollback through
+  [MLOps Tools]({{ '/articles/mlops-tools/' | relative_url }}) and
+  [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }}).
+- Choose a platform engineering course when your target role owns shared paths
+  for multiple teams, using Simon's platform triggers in
+  [Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }})
+  and [Platform Engineering]({{ '/wiki/platform-engineering/' | relative_url }}).
+- Choose a lighter startup-oriented path when the course teaches minimal,
+  maintainable operations instead of an enterprise platform. [Nemanja Radojkovic]({{ '/people/nemanjaradojkovic/' | relative_url }})
+  discusses shoestring MLOps, SaaS-first choices, minimal stacks, and vendor
+  lock-in tradeoffs in
+  [Lean MLOps for Startups]({{ '/podcasts/lean-mlops-for-startups/' | relative_url }}).
 
-In [MLOps Architect Guide](https://datatalks.club/podcast.html), Danny Leybzon
-connects model monitoring to upstream ETL, data pipelines, and observability.
-That matters for course selection because a model can fail even when the
-serving code still runs. A course should teach you to monitor the system around
-the model, not only the model object.
+## Adapt It to Your Background
 
-Use [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }}) and
-[Production]({{ '/wiki/production/' | relative_url }}) when you want the
-reliability side of the topic.
+Learners don't need the same starting modules, but they need the same
+operational finish. Maria's learning advice combines ML fundamentals with
+software engineering in
+[Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }}),
+and adds system design and data engineering. Use your background to decide
+which gap the course must close.
 
-## Evaluation Depth
+If you come from data science, prioritize software engineering and tests. Then
+add packaging, deployment, and production monitoring. Use
+[Software Engineering]({{ '/wiki/software-engineering/' | relative_url }}),
+[Production]({{ '/wiki/production/' | relative_url }}), and Danny's production
+monitoring discussion in
+[MLOps Architect Guide]({{ '/podcasts/mlops-model-monitoring-data-observability/' | relative_url }}).
 
-MLOps courses often cover offline evaluation, but many don't connect it to
-operation. Look for courses that make you compare training metrics, validation
-metrics, production behavior, and delayed outcomes.
-
-For a classification model, that might mean tracking precision and recall
-during training, along with threshold choices. After release, you may monitor
-score distributions and decision rates. You may also track label delay and
-downstream cost. For a batch forecasting model, you may compare backtest
-performance with data freshness. You may also track missing values, forecast
-error by segment, and business review cadence.
-
-The exact metric depends on the project, so the course should make you reason
-explicitly:
-
-- which metric you optimized offline
-- which signal you can see after deployment
-- which failure mode the signal catches
-- which signal is missing or delayed
-- how you decide whether to retrain, roll back, or investigate data quality
-
-Use
+If you come from software engineering or DevOps, prioritize model artifacts,
+offline evaluation, and data-dependent failure modes. Use
 [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
-for a broader design frame around metrics, serving choices, fallbacks, and
-ownership.
+and [Evaluation]({{ '/wiki/evaluation/' | relative_url }}) to connect model
+behavior with engineering choices such as retraining.
 
-## Tool Coverage
+If you come from data engineering, prioritize orchestration and lineage. Add
+feature freshness and data quality next. Danny ties model failures to ETL in
+[MLOps Architect Guide]({{ '/podcasts/mlops-model-monitoring-data-observability/' | relative_url }}).
+He also includes upstream pipelines, while [Data Observability]({{ '/wiki/data-observability/' | relative_url }})
+and [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
+cover the supporting data-side practices.
 
-Most MLOps courses list tools, but you should treat the list as secondary.
-Tools matter when they solve a workflow problem that the course makes visible.
+If you're comparing MLOps courses for finance or healthcare, check governance
+and release approvals. Auditability and monitoring matter too. Simon covers
+fintech and security in
+[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}),
+along with compliance and metadata. [Governance]({{ '/wiki/governance/' | relative_url }})
+gives the broader reference page for lineage and constraints.
 
-Look for this sequence:
+## Watch for Red Flags
 
-- Git, dependency management, tests, and Docker before heavier platform tools.
-- Experiment tracking when you need to recover parameters, metrics, and
-  artifacts across runs.
-- Model registries when several people need a reliable handoff from training to
-  deployment.
-- Orchestration when training, feature generation, batch inference, or
-  retraining steps depend on each other.
-- Kubernetes, Terraform, and cloud infrastructure when the target role owns
-  deployment and platform operations.
-- Monitoring and data observability when the model has users or downstream
-  impact.
-- Feature stores, governance layers, and larger platforms when repeated
-  projects create the need.
+Avoid courses that make MLOps look like tool memorization. Maria explicitly
+warns about tool landscape overload in
+[Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }}).
+She emphasizes fundamentals, then stitching tools together end to end.
 
-In [Pragmatic and Standardized MLOps](https://datatalks.club/podcast.html),
-Maria Vechtomova emphasizes existing engineering primitives. She names Git,
-CI/CD, registries, and deployment paths. She also names standardized
-repositories and monitoring.
-Use that as a course-selection filter. A strong course teaches you to stitch
-standard pieces together before it asks you to memorize a large vendor stack.
+Be cautious when a course:
 
-For tool selection, use
-[MLOps Tools]({{ '/articles/mlops-tools/' | relative_url }}),
-[Model Registry]({{ '/wiki/model-registry/' | relative_url }}), and
-[ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }}).
+- teaches MLflow, Airflow, Kubernetes, or a cloud platform without a complete
+  model lifecycle, so compare the syllabus with
+  [MLOps Roadmap]({{ '/wiki/mlops-roadmap/' | relative_url }}).
+- deploys a model but stops before monitoring, alert routing, rollback, and
+  retraining criteria, using
+  [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }}) as the
+  check.
+- skips Git, tests, dependency management, repository structure, and CI/CD,
+  despite Maria's engineering-primitives emphasis in
+  [Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }}).
+- has no registry, artifact-versioning, approval, or handoff story, even though
+  Simon and Raphaël both treat registries as part of the production path in
+  [Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }})
+  and [MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}).
+- offers copied notebooks or hosted demos without a project another person can
+  run, review, and discuss through
+  [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}).
 
-## Matching Course Types
+## A Practical Shortlist
 
-Different course formats can work.
+When you narrow several MLOps courses to a shortlist, score each one against
+the same production evidence:
 
-Match the format to the gap you need to close:
+1. It teaches the lifecycle in the order used by
+   [MLOps Roadmap]({{ '/wiki/mlops-roadmap/' | relative_url }}).
+2. It requires a final project with tracked training, packaged inference,
+   registry handoff, deployment, monitoring, and operating notes.
+3. It treats tools as implementation choices, matching the tool-agnostic advice
+   from Maria in
+   [Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }}).
+4. It includes monitoring across service health, data quality, prediction
+   behavior, and upstream pipeline causes, matching Danny's scope in
+   [MLOps Architect Guide]({{ '/podcasts/mlops-model-monitoring-data-observability/' | relative_url }}).
+5. It teaches platform thinking only after the learner can operate one model,
+   matching Simon's business-first platform warning in
+   [Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }})
+   and Raphaël's adoption-first platform framing in
+   [MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}).
 
-- Free self-paced course: Use this when you already build projects and need
-  structure, then add monitoring, documentation, and deployment work yourself.
-- Paid cohort: Use this when you need deadlines, review, and peer pressure. The
-  cohort should review working systems, not only attendance and quizzes.
-- Vendor course: Use this when your target role names that platform. Watch for
-  vendor workflows that hide the underlying lifecycle decisions.
-- Cloud or Kubernetes course: Use this when you need infrastructure depth for
-  MLOps or platform roles and add practice with model artifacts, evaluation,
-  drift, and retraining if the course underteaches them.
-- University-style course: Use this when you want theory, evaluation, and system
-  design depth, then add a deployable project if the class doesn't require one.
-- Project-only path: Use this when you learn best by building, then add external
-  review or a checklist so you don't skip weak areas.
-
-Starting point matters too:
-
-- Data scientists should prioritize software engineering, deployment, and
-  monitoring.
-- Software and DevOps engineers should prioritize model artifacts,
-  data-dependent failure modes, offline metrics, drift, and retraining
-  decisions.
-- Data engineers should connect orchestration and data quality to feature
-  freshness, lineage, prediction logs, and model monitoring.
-
-## Platform Thinking
-
-Some courses sell MLOps as a platform problem from the first lesson. The
-podcast archive gives a more careful rule: build platform pieces after teams
-repeat the same work and feel the same pain.
-
-In [Building Production ML Platforms](https://datatalks.club/podcast.html),
-Simon Stiebellehner defines MLOps through people, process, and technology. He
-connects early wins like experiment tracking and model registries to deployment
-paths and orchestration. He also ties platform work to metadata, lineage, and
-governance. Developer experience matters in that story too, but he warns
-against heavy platform investment before model value exists.
-
-That means a course should teach platform thinking without making every learner
-build a full internal platform. You should learn what shared templates, CI/CD,
-and registries solve. You should also learn where deployment paths, logging
-schemas, and self-service compute fit, and when a single project can stay
-simple.
-
-## Red Flags
-
-Be cautious when an MLOps course:
-
-- treats a certificate as the main proof of skill
-- includes many tools but no end-to-end project
-- never asks you to rerun training from saved code and data references
-- deploys a model without validation, logging, rollback, or ownership notes
-- ends before monitoring, evaluation after release, or retraining criteria
-- ignores data quality and upstream pipeline failures
-- teaches Kubernetes or cloud services without explaining the model lifecycle
-- copies a vendor path without making you explain tradeoffs
-- has a capstone that another person can't run or look at
-
-None of these flaws automatically makes a course useless. They tell you where
-you need to add your own work before the course becomes credible MLOps
-practice.
-
-## A Practical Selection Path
-
-Use these steps when comparing MLOps courses.
-
-1. Read the syllabus and mark where it covers reproducibility, deployment,
-   registry handoff, monitoring, evaluation, and platform judgment.
-2. Look at the final project requirements. If there's no deployable project,
-   plan your own before you enroll.
-3. Check whether the course teaches monitoring and retraining decisions, not
-   only model serving.
-4. Check whether tool lessons start from a lifecycle problem.
-5. Prefer courses that require documentation, tests, logs, and operating notes.
-6. Choose the course that best fills your current gap, then use one project to
-   connect all missing pieces.
-
-The strongest outcome isn't a long list of completed modules. It's a small
-model system with enough operational evidence to discuss in an interview. You
-can also bring it to a team or use it as the base for a larger platform
+Choose the course that fills your current gap and leaves you with proof of
+production work. Then use
+[MLOps Certification]({{ '/articles/mlops-certification/' | relative_url }})
+only if you need to decide whether a credential adds anything beyond the
 project.
-
-## Podcast Evidence
-
-These DataTalks.Club episodes are useful when judging MLOps courses:
-
-- [MLOps at Scale](https://datatalks.club/podcast.html): Covers MLOps adoption,
-  CI/CD, repository structure, and testing, along with reproducibility and
-  tracking. Use it for registries, serving, monitoring, and dependency
-  management too.
-- [Building Production ML Platforms](https://datatalks.club/podcast.html):
-  Frames MLOps through people, process, and technology. The episode connects
-  tracking with registries and deployment with orchestration before extending
-  into metadata, lineage, governance, and developer experience.
-- [Pragmatic and Standardized MLOps](https://datatalks.club/podcast.html):
-  Emphasizes standard engineering primitives, reusable repositories, and
-  registries. It also covers deployment paths, monitoring, and hands-on tool
-  stitching.
-- [MLOps Architect Guide](https://datatalks.club/podcast.html): Connects model
-  monitoring to ETL, data pipelines, and observability. It also covers
-  production-first thinking, build-versus-buy decisions, and communication
-  skills.
-- [Lean MLOps for Startups](https://datatalks.club/podcast.html): Shows why
-  small teams should favor minimal operational discipline before heavy platform
-  work.
-
-## Related Pages
-
-Use these pages for deeper follow-up:
-
-- [MLOps]({{ '/wiki/mlops/' | relative_url }})
-- [MLOps Roadmap]({{ '/wiki/mlops-roadmap/' | relative_url }})
-- [MLOps Tools]({{ '/articles/mlops-tools/' | relative_url }})
-- [MLOps Course]({{ '/articles/mlops-course/' | relative_url }})
-- [MLOps Certification]({{ '/articles/mlops-certification/' | relative_url }})
-- [ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }})
-- [Model Registry]({{ '/wiki/model-registry/' | relative_url }})
-- [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }})
-- [Production]({{ '/wiki/production/' | relative_url }})
