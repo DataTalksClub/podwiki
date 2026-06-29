@@ -3,6 +3,12 @@ layout: article
 title: "Data Engineering Certification: When It Helps and What Employers Still Need"
 keyword: "data engineering certification"
 summary: "A podcast-backed guide to deciding whether a data engineering certification is useful, how to evaluate certificate programs, and what project and interview evidence employers still need."
+search_intent: |
+  People searching for "data engineering certification" usually want to know
+  whether a certificate can help them get a data engineering job. They may be
+  comparing cloud certificates, bootcamp certificates, free course certificates,
+  paid credentials, and portfolio-first learning paths. They need a practical
+  way to judge whether a program produces evidence employers can trust.
 related_wiki:
   - Data Engineering
   - Data Engineer Role
@@ -12,347 +18,299 @@ related_wiki:
   - Open Source Portfolio Evidence
 ---
 
-A data engineering certification can help you organize study and learn cloud or
-pipeline vocabulary. It can also give recruiters one more signal that you're
-serious, but it isn't enough. Employers still need evidence that you can write
-SQL and Python, build a pipeline, explain data quality problems, and handle a
-technical interview.
+A data engineering certification can help you organize study and learn platform
+vocabulary. It can also show recruiters that you're working toward the
+[data engineer role]({{ '/wiki/data-engineer-role/' | relative_url }}). It
+doesn't prove job readiness. Employers still need to see whether you can write
+SQL and Python. They also need to see whether you can build a pipeline, debug
+data quality problems, and explain the tradeoffs in your project.
 
-The DataTalks.Club podcast archive is consistent on this point. Certificates
-can support a job search, but the stronger signal is working skill. Use a
-certificate as structure for building evidence, not as a replacement for the
-evidence.
-
-Use [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
-for the learning path and
-[Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
-for project criteria.
-
-
-## Short Answer
-
-A data engineering certification helps most when you already have, or are
-actively building, these signals:
-
-- SQL depth: joins, CTEs, window functions, table grain, modeling, and
-  validation queries
-- Python depth: extraction, APIs, files, validation, loading, configuration,
-  tests, and maintainable functions
-- pipeline evidence: ingestion, raw storage, transformations, orchestration,
-  data quality checks, and documentation
-- operating judgment: retries, backfills, schema changes, failures, runbooks,
-  logs, and alerting
-- interview readiness: SQL screens, Python exercises, take-home projects, and
-  project walkthroughs
-
-Choose the certificate program when it creates those outputs. If it mainly
-prepares you to pass a multiple-choice exam, treat it as supporting study
-rather than job-ready proof.
+The DataTalks.Club podcast archive treats certificates as supporting evidence.
+Use a certificate as a study plan that leads to a reviewable project. Don't use
+it as a substitute for the project. For the broader learning sequence, use the
+[Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
+and
+[Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }}).
 
 ## Employer Evidence
 
-In
-[Data Engineering Job Prep and Interview Guide](https://datatalks.club/podcast.html),
-Jeff Katz answers a direct certification question. Around 21:56, someone asks
-whether pipeline-monitoring experience plus Python and data engineering
-certificates can support a switch into a data engineering role.
+[Jeff Katz]({{ '/people/jeffkatz/' | relative_url }}) gives the clearest
+hiring standard in
+[Data Engineering Job Prep and Interview Guide]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }}).
+At 21:56, he answers a direct question about using pipeline-monitoring
+experience plus Python and data engineering certificates to move into a data
+engineering job. By 22:36, he has moved the discussion back to whether the
+candidate can use Python, SQL, and GitHub. He also asks whether the candidate
+has enough ETL knowledge to help a team organize and clean data.
 
-Jeff redirects the question to skills. Around 22:36, he asks whether the
-candidate has Python, SQL, and enough experience to contribute to an ETL
-project. He also asks whether the candidate can read a codebase and use GitHub.
-The hiring question is whether the candidate can start helping a team organize
-and clean data.
+That answer gives you a resume filter.
 
-That standard gives you a useful resume filter.
+A certification line helps only when the next lines show the work behind it:
 
-A certification line is more credible when the next lines show what you built:
+- You built an ingestion pipeline from an API, file drop, database export, or
+  event stream.
+- You wrote SQL models with clear table grain, joins, window functions, and
+  validation queries.
+- You wrote Python for extraction, loading, configuration, logging, error
+  handling, and tests.
+- You scheduled the workflow with dependencies, retries, reruns, and backfill
+  notes.
+- You documented setup, ownership, known failures, and the downstream consumer.
 
-- "Built a scheduled ingestion pipeline from an API into a warehouse" is
-  stronger than "completed a data engineering certificate".
-- "Added freshness, row-count, uniqueness, and schema checks" is stronger than
-  "learned data quality".
-- "Documented backfill steps and failure modes" is stronger than "studied
-  orchestration".
-- "Explained OLTP versus OLAP and solved SQL window-function problems" is
-  stronger than "finished database module".
+Jeff makes the same point earlier in the episode. Around 1:49, he warns that
+many portfolio projects name the expected tools while showing too little
+Python and SQL. Around 2:22, he asks for smaller functions and descriptive
+names. He also asks for classes where they help and for tests. A certificate
+that leaves you with a badge but no code review doesn't answer those hiring
+questions.
 
-The certificate can open the conversation, but your projects need to prove the
-claim.
+## Useful Cases
 
-## Helpful Uses
+A data engineering certificate helps most when it gives you structure and
+forces you to produce evidence. If you're self-teaching, deadlines and a
+syllabus can keep you from collecting unfinished tutorials. If you're changing
+careers, a certificate can help you learn role vocabulary. That vocabulary
+includes ingestion and warehouses. It also includes orchestration, data
+quality, and cloud platforms.
 
-A data engineering certification is most useful in five situations.
+Jeff discusses cloud certification in the same job-prep episode around
+37:49-39:20. He separates credential hunting from learning fundamentals. A
+cloud certificate may help with recruiter filters. Certificate-prep books can
+also help you learn platform features. Study the platform features, then test
+the ideas in a project.
 
-First, it can provide structure. If you're self-teaching, a certificate program
-can give you deadlines, a syllabus, and a reason to finish. Structure matters
-when the alternative is collecting half-finished tutorials.
+Use a certificate when it helps you close a concrete gap:
 
-Second, it can fill a narrow knowledge gap. In the same job-prep episode, around
-37:49, Jeff is asked whether a cloud data engineer certification helps with a
-first data engineering job. His answer is that the skill set matters more than
-the certificate, though a credential may help with some recruiter filters. Around
-39:10, he also notes that certificate-prep books can be well written for
-learning platform features. The episode adds that certificate prep can help
-when you study fundamentals instead of only grinding the exam format.
+- You need a structured path through SQL, Python, cloud basics, and
+  orchestration.
+- You need deadlines and feedback from peers, mentors, or instructors.
+- You want a project requirement that pushes you beyond notebooks.
+- You target jobs that mention a specific cloud, warehouse, or orchestration
+  platform.
+- You can turn the coursework into a public portfolio project.
 
-Third, it can give a career changer language for the role.
+The certificate becomes weak when it hides missing fundamentals. If the
+program mostly teaches exam tricks, platform trivia, or copied templates, it
+won't help much in a technical screen.
 
-The [Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }}) page
-shows that data engineering covers several kinds of work:
+## Start With The Role, Not The Badge
 
-- ingestion and storage
-- transformation and orchestration
-- monitoring and documentation
-- collaboration with downstream teams
+Choose a certification by asking whether it teaches the work behind
+[data engineering]({{ '/wiki/data-engineering/' | relative_url }}).
 
-A good program helps you connect those words to work.
+A useful program should connect several parts of the job:
 
-Fourth, it can make a learning path visible to recruiters. It isn't the
-strongest signal, but it can help a profile read as intentional when paired
-with projects and role-specific wording.
+- ingestion, storage, and transformation
+- orchestration and data quality checks
+- documentation, ownership, and downstream handoff
 
-Fifth, it can create accountability. DataTalks.Club's own
-[Data Engineering Zoomcamp](https://datatalks.club/blog/data-engineering-zoomcamp.html)
-uses a certificate only during live cohorts. The supported example is
-project-based. Learners complete an end-to-end capstone pipeline, submit on
-time, and review peers' projects. That's the right structure to look for
-because the certificate points back to a finished project.
-
-## Weak Signals
-
-A certification is weak when it hides missing fundamentals.
-
-Jeff Katz gives the clearest warning in
-[Data Engineering Job Prep and Interview Guide](https://datatalks.club/podcast.html).
-Around 1:20, he frames the core job-prep skills as backend engineering plus
-cloud and pipeline work. Around 1:49, he criticizes projects that list many
-tools while showing too little Python and SQL. Around 2:22, he asks for cleaner
-code with small functions, descriptive names, and tests.
-
-That critique applies directly to certification portfolios. A project can name
-Airflow, Docker, Spark, and Kafka and still be weak. It needs to show real SQL,
-real Python, tests, and a working data path.
-
-Be especially careful if a certificate program:
-
-- spends little time on SQL and Python
-- uses only notebooks or templates
-- has no end-to-end project
-- has no code review, peer review, or feedback
-- teaches tools without failure modes
-- gives no practice with interviews or take-home tasks
-- promises job outcomes without showing graduation rates, placement rates, job
-  titles, and time-to-hire
-
-The certificate should reduce hiring risk, but a badge without projects leaves
-the risk in place.
-
-## Project Evidence Beats the Badge
-
-A certification works best when it gives you a project an interviewer can look
-at and question.
+It should also show how data engineers work with analysts and analytics
+engineers. For some programs, it should also show the handoff to ML teams and
+product teams.
 
 In
-[Gloria Quiceno's data engineering job-search story](https://datatalks.club/podcast.html),
-Gloria describes finishing a bootcamp. She then spent about four and a half
-months searching before receiving an offer. Around 36:33, she says Python and
-SQL from the program became useful in her work, along with Docker and Airflow.
-At 51:42, she discusses how candidates should present course projects.
+[Build a Data Engineering Career]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }}),
+Jeff Katz gives a practical curriculum benchmark. Around 23:35, he describes
+junior data engineering as a more defined path than many data science paths.
+He names Python and SQL. He also names cloud basics and orchestration.
 
-Her advice is that repeated course projects can look interchangeable to
-employers. A custom project stands out when you can explain why you chose the
-topic, what the data meant, and what decisions you made. Her sustainability
-project did that: it gave employers a reason to continue the conversation
-because it showed interest and ownership beyond following a template.
+Around 36:18, he starts the learning sequence with Python and SQL. He then
+adds analytics engineering, warehouses, and BI. Later steps add backend
+engineering, ETL, testing, and Airflow.
 
-Before relying on a certification project, check whether it proves:
+That sequence matters for certification programs. A beginner certificate
+shouldn't rush past SQL and Python to advertise a large tool list. Around
+38:05-40:04, Jeff explains why a junior-focused curriculum removed Spark,
+Kafka, and Kubernetes. Spark and Kafka appeared more often in senior job
+descriptions. Kubernetes took weeks away from coding.
 
-- a real source such as an API, file drop, database export, event log, or CDC
-  simulation
-- raw, cleaned, modeled, and serving layers where the stack supports them
-- SQL models with clear table grain and data definitions
-- Python extraction, validation, loading, configuration, and error handling
-- orchestration, dependencies, retries, and reruns
-- tests for freshness, row counts, nulls, uniqueness, accepted values, schema
-  changes, and business rules
-- a named consumer such as an analyst, dashboard, ML training job, product
+Around 56:46, he returns to the same balance. Most of the beginner path should
+focus on SQL and Python. Treat tools plus cloud basics as a smaller share.
+
+Evaluate a certification program by this order:
+
+1. SQL and data modeling.
+2. Python for data work.
+3. End-to-end batch pipelines.
+4. Tests, documentation, and reproducible runs.
+5. Orchestration, reruns, and backfills.
+6. Cloud and warehouse basics.
+7. Advanced tools only when the project creates a real need.
+
+For the longer learning path, compare this article with
+[Data Engineering Course]({{ '/articles/data-engineering-course/' | relative_url }}),
+[Data Engineer Training]({{ '/articles/data-engineer-training/' | relative_url }}),
+and
+[Data Engineering Bootcamp]({{ '/articles/data-engineering-bootcamp/' | relative_url }}).
+
+## Prefer Project-Based Certificates
+
+A certificate is strongest when it links to a project an interviewer can look
+at. The project should run outside a notebook and include setup instructions.
+It should show what happens when data arrives late, duplicates appear, or a
+schema changes.
+
+[Gloria Quiceno]({{ '/people/gloriaquiceno/' | relative_url }}) gives the
+career-change version in
+[Get a Data Analytics and Data Engineering Job]({{ '/podcasts/get-data-analytics-and-data-engineering-job/' | relative_url }}).
+Around 16:14-18:21, she describes searching for a role after finishing a
+bootcamp. Around 36:20-37:25, she says Python and SQL from the program became
+useful in her work, along with Docker and Airflow.
+
+Her strongest advice comes from the portfolio discussion. Around 50:15, Gloria
+discusses a capstone with a Twitter data pipeline, Docker containers, and a
+Slack bot. Around 51:42, she says custom projects stand out because employers
+may see the same course projects repeatedly. Around 53:34, she discusses data
+quality through bot detection, cleaning Twitter data, and sentiment bias.
+
+Use her standard when judging a certification project.
+
+The project should show:
+
+- a real or realistic source such as an API, file drop, database export, event
+  log, or change data capture simulation
+- raw data saved before transformation
+- staged, cleaned, modeled, and serving tables
+- SQL with clear table grain and validation checks
+- Python extraction, loading, configuration, logging, and error handling
+- orchestration outside manual notebook execution
+- tests for freshness, row counts, nulls, uniqueness, schemas, and business
+  rules
+- a named consumer such as a dashboard, analyst, ML training job, product
   feature, or operations workflow
-- documentation for setup, ownership, known failures, backfills, and tradeoffs
+- documentation for setup, failures, backfills, ownership, and tradeoffs
 
-This is why a project-based certificate is more useful than a certificate that
-only verifies attendance or exam performance.
+A project-based certificate from a cohort, course, or bootcamp can be useful.
+An attendance certificate is much weaker. A multiple-choice exam can help you
+learn platform vocabulary, but it rarely proves that you can own a pipeline.
 
-## Program Evaluation
+## Check The Stack Vocabulary
 
-Use this checklist before paying for, enrolling in, or relying on a data
-engineering certification.
+Certification programs often use platform names to sound job-ready.
 
-1. Does it teach the role, not only the tools?
+You still need to understand the categories behind those platforms:
 
-The program should explain what data engineers build.
+- [data pipelines]({{ '/wiki/data-pipelines/' | relative_url }})
+- [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }})
+- [modern data stack]({{ '/wiki/modern-data-stack/' | relative_url }})
+- [data warehouses]({{ '/wiki/data-warehouse/' | relative_url }})
+- [data lakes]({{ '/wiki/data-lake/' | relative_url }})
+- [dbt]({{ '/wiki/dbt/' | relative_url }})
+- [Apache Airflow]({{ '/articles/apache-airflow/' | relative_url }})
 
-It should cover:
+[Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) gives that
+vocabulary in
+[ETL vs ELT and Modern Data Engineering]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}).
+Around 4:30, she breaks ETL into source extraction, business-specific
+transformation, and loading data for use. Around 10:22, she describes
+transformations from type casting to joins across sources. Around 28:07, she
+explains that warehouse and lake choices depend on team and business needs.
+Around 30:59, she positions Airflow as a tool for scheduling and running
+pipelines.
 
-- ingestion and storage
-- transformation and orchestration
-- quality and documentation
-- collaboration with downstream teams
+Use that episode as a certification checklist because a program shouldn't only
+name tools. It should explain what each tool category does and when it's too
+much for the problem. It should also explain how data moves from source systems
+to trusted outputs.
 
-2. Does it prioritize SQL and Python?
+[Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) adds the same
+practical constraint in
+[Modern Data Engineering]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}).
+Around 41:06, he recommends SQL and Python for beginners. He also recommends
+requirements gathering and portfolio building. Around 44:42, he ties tool
+choice to the end user. He also warns against vendor-led stack decisions.
 
-In
-[Build a Data Engineering Career](https://datatalks.club/podcast.html), Jeff
-Katz names Python, SQL, and cloud fundamentals as the core junior path around
-23:35. Around 38:05, he explains why a junior-focused curriculum removed Spark,
-Kafka, and Kubernetes. Those tools appeared more often in senior job
-descriptions and took time away from coding.
+Use those interviews to avoid tool-led certification choices. Learn Airflow
+when your workflow needs dependencies, retries, and backfills. Learn Spark
+when data size or the target role justifies distributed compute. Learn
+streaming when latency changes the user outcome. Learn Kubernetes when
+platform ownership is part of the job.
 
-3. Does the project run outside a notebook?
+## Compare Certificate Types
 
-A strong project should have setup instructions, commands, a scheduler or
-orchestrator, and a repeatable run. It shouldn't depend on manual cell
-execution.
+Different certificates solve different problems.
 
-4. Does it include feedback?
+A course certificate helps when it proves that you finished assignments and
+built a project. It helps less when it only marks attendance. Compare
+[Data Engineer Course]({{ '/articles/data-engineer-course/' | relative_url }}),
+[Data Engineer Courses]({{ '/articles/data-engineer-courses/' | relative_url }}),
+and
+[Free Data Engineering Course]({{ '/articles/free-data-engineering-course/' | relative_url }})
+when you need course-specific criteria.
 
-Peer review, code review, instructor review, and open-source review all help.
-DataTalks.Club's certificate model requires peer review for live cohorts.
+A cloud or vendor certificate helps when your target jobs mention that
+platform. It can teach services, permissions, and storage. It can also teach
+networking and managed orchestration vocabulary. It still needs a project
+beside it. A hiring team has to see whether you can translate the platform into
+a working data system.
 
-Open source is another route. In
-[Contribute to Open Source ML](https://datatalks.club/podcast.html), Vincent
-Warmerdam recommends starting with real tool use, clear issues, and small
-fixes. He also mentions GitHub workflows, tests, formatting, and CI. That kind
-of external feedback is stronger than a private badge.
+A bootcamp or cohort certificate helps when the program gives structure and
+feedback. It should also give peer review, interview practice, and a capstone
+you can customize.
+It's weaker when every student leaves with the same template project. Use
+[Data Engineer Bootcamp]({{ '/articles/data-engineer-bootcamp/' | relative_url }})
+and
+[Data Engineering Bootcamp]({{ '/articles/data-engineering-bootcamp/' | relative_url }})
+for the bootcamp version of this decision.
 
-5. Does it prepare you for interviews?
+Open-source work isn't a certification, but it can be stronger evidence. In
+[Contribute to Open Source ML]({{ '/podcasts/open-source-ml-contributions/' | relative_url }}),
+[Vincent Warmerdam]({{ '/people/vincentwarmerdam/' | relative_url }}) explains
+around 26:44-29:55 how new contributors can start from real tool use and
+reproducible issues. He also mentions documentation, tests, formatting, and CI.
+That advice applies beyond ML.
 
-Jeff's job-prep episode says technical screens commonly include SQL, Python,
-and take-home projects.
+A merged pull request or well-documented issue shows that you can work in a
+shared codebase and accept feedback. It also shows that you can leave something
+useful behind. See
+[Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
+for that path.
 
-A certification program should include:
+## Put It On Your Resume Carefully
 
-- timed SQL
-- Python exercises
-- database concepts
-- take-home practice
-- project walkthroughs
-
-6. Does it publish outcome evidence?
-
-For paid programs, ask for:
-
-- graduation rates
-- placement rates
-- job titles
-- time to first role
-- refund rules
-- the program's definition of a successful placement
-
-In the certification and postgraduate-degree discussion, Jeff recommends
-multiplying graduation rate by job-placement rate to understand the real chance
-of getting a job after enrolling.
-
-## Certificate Types
-
-Different certificate types solve different problems.
-
-A course certificate is useful when it proves that you completed assignments
-and built a project. It's weaker when it only marks attendance.
-
-A cloud or vendor certification can help you learn the vocabulary and services
-of one platform. It's most useful when your target jobs mention that platform
-and you also have a project using the same ideas. Don't assume the credential
-alone proves data engineering skill.
-
-A bootcamp or cohort certificate can help if the program gives structure,
-feedback, peer interaction, and interview practice. It's weak if every student
-finishes with the same project and no customization.
-
-An open-source contribution isn't a certification, but it can be stronger
-evidence. A merged pull request, reproducible issue, documentation improvement,
-or tested utility shows that you can work in a shared codebase.
-
-## Resume Framing
-
-Put the certification on your resume, but don't make it the main story. The
-main story should be the work.
+List the certification, but don't make it the main story. The main story is
+the work you can show.
 
 Use a compact format:
 
-- Certification: name, provider, year, and the project or exam focus
-- Project: one sentence naming the data source, pipeline, storage, models, and
-  consumer
-- Evidence: GitHub link, documentation, tests, screenshots, dashboard, or blog
-  post
+- Certification: name, provider, year, and project or exam focus.
+- Project: source, pipeline, storage, models, checks, and consumer.
+- Evidence: GitHub repository, docs, tests, screenshots, dashboard, or blog
+  post.
 - Interview story: one bug, one tradeoff, one failure mode, and one next
-  improvement
+  improvement.
 
-For example, a useful resume entry might say that you completed a data
-engineering certificate by building an end-to-end batch pipeline. Then name the
-API ingestion, warehouse models, tests, and documented backfill procedure. The
-certificate gives context. The pipeline provides evidence.
+For example, don't stop at "completed a data engineering certification". Say
+that you used the certificate to build an end-to-end batch pipeline. Then name
+the API ingestion and warehouse models.
 
-## Decision Framework
+Add the validation checks, scheduler, and backfill notes. The certificate
+explains the study path, and the pipeline proves the claim.
 
-Choose a data engineering certification if:
+This framing also helps with
+[job search]({{ '/wiki/job-search/' | relative_url }}),
+[CV screening]({{ '/wiki/cv-screening/' | relative_url }}), and
+[job descriptions]({{ '/wiki/job-descriptions/' | relative_url }}). Recruiters
+may notice the credential. Hiring teams still evaluate the code, SQL, project
+explanation, and role fit.
 
-- you need structure and deadlines
-- it requires a serious project
-- it gives feedback on code and design
-- it deepens SQL, Python, and pipeline fundamentals
-- it fits the roles and platforms you're targeting
-- you can turn the work into a public portfolio artifact
+## Decide Before You Pay
 
-Skip or postpone a certification if:
+Choose a data engineering certification if it creates a stronger project,
+better feedback, and clearer interview preparation. Skip or postpone it when
+it delays the work employers look at.
 
-- you're using it to avoid building projects
-- it's mostly exam tricks or platform trivia
-- you already have stronger project evidence to finish
-- it costs more than the support, feedback, and outcomes justify
-- it crowds out SQL, Python, interviews, or job applications
+Before enrolling, check whether the program will make you:
 
-The highest-return path is often simple:
+1. Write substantial SQL and Python.
+2. Build one pipeline another person can run.
+3. Use orchestration for schedules, dependencies, retries, and reruns.
+4. Add data quality checks and explain the assumptions behind them.
+5. Document setup, ownership, failures, and backfills.
+6. Customize the project so it doesn't look like every other course project.
+7. Practice SQL screens, Python exercises, and project walkthroughs.
+8. Publish evidence that supports the certification line on your resume.
 
-- learn the fundamentals
-- build one defensible pipeline
-- get feedback
-- practice interviews
-- use the certificate as a supporting signal
-
-## Podcast-Backed Evidence
-
-Start with these episodes when you evaluate data engineering certifications:
-
-- [Data Engineering Job Prep and Interview Guide](https://datatalks.club/podcast.html):
-  at 21:56-23:13, Jeff Katz answers a certificate question by focusing on
-  Python, SQL, and ETL work. He also focuses on GitHub and whether a candidate
-  can contribute. At 37:49-39:20, he discusses cloud certification value and
-  separates skill development from credential hunting.
-- [Build a Data Engineering Career](https://datatalks.club/podcast.html): at
-  23:35-26:40, Jeff names Python, SQL, and cloud basics as the core. At
-  38:05-40:42, he explains why junior programs may skip Spark, Kafka, and
-  Kubernetes until fundamentals are stronger.
-- [Gloria Quiceno's data engineering job-search story](https://datatalks.club/podcast.html):
-  at 16:14-18:21, Gloria describes the search after bootcamp. At 36:20-37:25,
-  she connects Python and SQL to job usefulness, along with Docker and Airflow.
-  At 51:42-53:37, she explains why custom projects are more credible than
-  repeated course templates.
-- [Contribute to Open Source ML](https://datatalks.club/podcast.html): at
-  26:44-29:55, Vincent Warmerdam explains how useful open-source contributions
-  can start with tool use, issues, and GitHub workflows. He also mentions tests
-  and CI.
-- [Modern Data Engineering](https://datatalks.club/podcast.html): at
-  41:06-44:42, Adrian Brudaru recommends SQL, Python, and requirements
-  gathering. He also recommends portfolio building and tool selection based on
-  the end user.
-
-## Related Learning Paths
-
-Use these pages for adjacent course, project, and job-search context.
-
-- [Data Engineering]({{ '/articles/data-engineering/' | relative_url }})
-- [Data Engineering Course]({{ '/articles/data-engineering-course/' | relative_url }})
-- [Data Engineer Course]({{ '/articles/data-engineer-course/' | relative_url }})
-- [Data Engineering Bootcamp]({{ '/articles/data-engineering-bootcamp/' | relative_url }})
-- [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
-- [Job Search]({{ '/wiki/job-search/' | relative_url }})
+If the answer is yes, the certification can be useful. If the answer is no,
+start with a smaller project, get feedback, and use the certificate later only
+when it fills a specific gap.

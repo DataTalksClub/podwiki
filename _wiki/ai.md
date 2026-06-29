@@ -1,195 +1,224 @@
 ---
 layout: wiki
 title: "AI"
-summary: "How the DataTalks.Club podcast archive frames AI after ChatGPT: generative AI, AI engineering, agents, RAG, LLMOps, infrastructure, evaluation, and governance."
+summary: "How DataTalks.Club podcast guests define AI across machine learning, generative AI, agents, production systems, evaluation, infrastructure, and governance."
 related:
-  - LLM Production Patterns
-  - Search, RAG, and Knowledge Systems
+  - Generative AI
+  - LLMs
+  - AI Engineering
+  - AI Engineer Role
   - Machine Learning
-  - Data Science
-  - Data Engineering
   - Responsible AI and Governance
 ---
 
 ## Definition
 
-AI is the archive's broad umbrella for systems that automate or augment tasks
-with machine learning, deep learning, language models, agents, retrieval, and
-decision logic. In older episodes, AI often overlaps with machine learning and
-data science. In newer episodes, especially after ChatGPT, guests usually use
-"AI" to mean generative AI. That includes LLM applications, RAG, agents, AI
-engineering, LLMOps, and the infrastructure needed to build and run these
-systems.
+Artificial intelligence covers systems that automate or support decisions that
+would otherwise need human judgment. It includes recommendation, generation,
+search, and planning.
 
-Keep that distinction explicit. The archive doesn't have one timeless definition
-of AI. In current episodes, modern AI work combines software engineering, data
-engineering, evaluation, domain knowledge, model behavior, infrastructure, and
-governance.
+DataTalks.Club guests use AI for
+[machine learning]({{ '/wiki/machine-learning/' | relative_url }}),
+[deep learning]({{ '/wiki/deep-learning/' | relative_url }}), and
+[NLP]({{ '/wiki/nlp/' | relative_url }}). Recent episodes also use AI for
+[LLMs]({{ '/wiki/llms/' | relative_url }}) and
+[generative AI]({{ '/wiki/generative-ai/' | relative_url }}). They also use AI
+for [retrieval-augmented generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}),
+[AI agents]({{ '/wiki/ai-agents/' | relative_url }}), and
+[production systems]({{ '/wiki/production/' | relative_url }}).
 
+In [Understanding the AI Engineer Role]({{ '/podcasts/s23e07-understanding-ai-engineer-role/' | relative_url }}),
+[Nasser Qadri]({{ '/people/nasserqadri/' | relative_url }}) separates the broad
+AI umbrella from the current industry habit of using AI to mean generative-AI
+products. He also ties current AI work to statistical evaluation and agents.
 
-## Scope
+In
+[From Game AI to LLM Agents]({{ '/podcasts/from-game-ai-to-modern-ai-agents/' | relative_url }}),
+[Micheal Lanham]({{ '/people/micheallanham/' | relative_url }}) gives a longer
+lineage. Game AI and reinforcement learning sit inside the same historical
+family as modern LLM agents. So do evolutionary algorithms and NLP. Engineers
+build and evaluate each one differently.
 
-Use this foundation hub for generative AI, AI engineering, LLM applications,
-agents, RAG, context management, evaluation, and production readiness. It also
-covers infrastructure and governance.
+## Common Definition
 
-For LLM-specific production patterns, use
-[LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }}).
-For retrieval and RAG architecture, use
-[Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }}).
-For classic applied modeling, use [Machine Learning]({{ '/wiki/machine-learning/' | relative_url }}).
+Across recent episodes, guests treat AI as a system-level discipline rather
+than a single model call. A useful AI product combines model behavior with
+software, data, context, and evaluation. It also needs user experience,
+security, and operations.
 
-## Recurring Archive Themes
+In [Paul Iusztin's AI engineering episode]({{ '/podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products/' | relative_url }}),
+[Paul Iusztin]({{ '/people/pauliusztin/' | relative_url }}) frames modern AI
+engineering as full-stack product work. The 22:29, 29:12, and 42:28 chapters
+put RAG and knowledge management in the same skill stack as agents. They also
+include LLMOps and product engineering. Shipping discipline sits alongside both.
 
-**The archive now uses AI mostly as generative AI.**
+[Ruslan Shchuchkin]({{ '/people/ruslanshchuchkin/' | relative_url }}) makes the
+same point from a role perspective in [Inside the AI Engineer Role]({{ '/podcasts/s23e05-inside-ai-engineer-role-tools-skills-and-career-path/' | relative_url }}).
+At 19:40, the AI engineer combines product discovery with backend work. The role
+also includes LLM tooling and delivery habits. That role framing links AI to
+[AI Engineering]({{ '/wiki/ai-engineering/' | relative_url }}),
+[AI Engineer Role]({{ '/wiki/ai-engineer-role/' | relative_url }}), and
+[AI Engineering Roadmap]({{ '/wiki/ai-engineering-roadmap/' | relative_url }}).
 
-Season 23 role episodes make the vocabulary shift visible. Guests acknowledge
-that AI can mean the broad umbrella over machine learning and deep learning, but
-they also note that current industry usage usually points to LLMs, ChatGPT-style
-systems, and generative AI products.
+The common definition is pragmatic. AI is useful when it changes a workflow or
+decision, not when a team merely adds a model endpoint. In
+[Production AI Engineering]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }}),
+[Bartosz Mikulski]({{ '/people/bartoszmikulski/' | relative_url }}) connects AI
+work to data trust, pipeline tests, and prompt evaluation from 9:05 through
+28:16. The 30:00 and 31:45 chapters add prompt compression, caching, latency,
+and cost. That puts AI close to
+[data engineering]({{ '/wiki/data-engineering/' | relative_url }}),
+[MLOps]({{ '/wiki/mlops/' | relative_url }}), and
+[production]({{ '/wiki/production/' | relative_url }}).
 
-This matters for wiki maintenance. A page about AI in this repo should usually
-route broad modeling claims to [Machine Learning]({{ '/wiki/machine-learning/' | relative_url }})
-and reserve AI-specific synthesis for LLM-era systems unless an episode clearly
-uses the broader meaning.
+## Guest Differences
 
-**AI engineering is software engineering around model behavior.**
+Guests disagree less about whether AI matters and more about where the hard
+part sits. [Nasser Qadri]({{ '/people/nasserqadri/' | relative_url }}) stresses
+statistical rigor and human-centered design in
+[Understanding the AI Engineer Role]({{ '/podcasts/s23e07-understanding-ai-engineer-role/' | relative_url }}),
+especially at 7:45 and 36:15. In his framing, teams need to ask what the system
+should optimize, how people use it, and how they know whether an answer is
+good.
 
-The newest archive episodes define AI engineering less as model research and
-more as building useful systems around models. AI engineers build interfaces,
-backends, context flows, RAG pipelines, agents, evaluations, observability, and
-deployment paths. They translate product needs into software while accounting
-for LLM behavior.
+[Paul Iusztin]({{ '/people/pauliusztin/' | relative_url }}) puts more weight on
+the builder's skill stack in [his AI engineering episode]({{ '/podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products/' | relative_url }}).
+His 22:29 and 42:28 chapters cover full-stack engineering, product delivery,
+and technical pillars for shipping AI products. [Ruslan Shchuchkin]({{ '/people/ruslanshchuchkin/' | relative_url }})
+adds hiring and project evidence in
+[Inside the AI Engineer Role]({{ '/podcasts/s23e05-inside-ai-engineer-role-tools-skills-and-career-path/' | relative_url }}).
+The 7:51 and 57:39 chapters make side projects and skill proof more important
+than credentials.
 
-Guests repeatedly say that making API calls is not enough. AI engineering needs
-software engineering rigor, context management, evaluation design, stakeholder
-communication, and enough domain knowledge to know what "good" means.
+[Andrey Cheptsov]({{ '/people/andreycheptsov/' | relative_url }}) shifts the
+center toward infrastructure in [Post-ChatGPT AI Infrastructure]({{ '/podcasts/ai-infrastructure-hybrid-cloud-on-prem-distributed-training/' | relative_url }}).
+The 8:25 and 21:37 chapters frame AI through cloud economics, privacy, and
+control. The 30:16 and 47:16 chapters add distributed training, GPU
+coordination, Kubernetes limits, and open-source orchestration. For
+infrastructure-heavy teams, the question isn't only "which model?" It's also
+who controls compute, who pays for it, and who operates it.
 
-**Evaluation is becoming a core AI skill.**
+## AI, Machine Learning, and Generative AI
 
-AI episodes borrow heavily from data science and ML evaluation. Guests discuss
-precision, recall, accuracy, test sets, agent evaluations, feedback pipelines,
-human review, monitoring, and iteration. AI products need a way to compare
-outputs against expected behavior, user needs, and business risk.
+[Machine learning]({{ '/wiki/machine-learning/' | relative_url }}) is a major
+technical subset of AI. In older DataTalks.Club episodes, AI often means
+predictive modeling, features, and labels. It also means training data, model
+evaluation and deployment. Use [Machine Learning]({{ '/wiki/machine-learning/' | relative_url }})
+or [Machine Learning Engineer Role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }})
+when the discussion centers on supervised learning, model validation, feature
+pipelines, or classical ML system design.
 
-This is where data scientists have a strong transition path into AI engineering:
-they already understand metrics, experiments, data splits, and evaluation
-tradeoffs. They may need stronger software engineering practice to ship the
-systems.
+Recent AI episodes often mean [generative AI]({{ '/wiki/generative-ai/' | relative_url }})
+and [LLMs]({{ '/wiki/llms/' | relative_url }}). In
+[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}),
+[Meryem Arik]({{ '/people/meryemarik/' | relative_url }}) separates API-based
+LLM use and open-source models. She also covers fine-tuning, retrieval, vector
+databases, and deployment choices. Use that episode for LLM-specific design
+decisions. Use this page for the broader AI map.
 
-**RAG, context, and data engineering are central.**
+[Generative AI]({{ '/wiki/generative-ai/' | relative_url }}) covers systems
+that produce text, code, and images. It also covers summaries, answers, and
+plans.
 
-AI systems often fail because they lack the right context, not because the model
-is weak. The archive connects RAG, chunking, embeddings, citations, retrieval
-quality, metadata, knowledge graphs, and semantic data layers to production AI.
+[Maria Sukhareva]({{ '/people/mariasukhareva/' | relative_url }})
+uses chatbot failures in [Hardening Generative AI Chatbots]({{ '/podcasts/generative-ai-chatbots-in-production-security/' | relative_url }})
+to show why generated outputs need guardrails. The 9:28, 13:20, and 16:15
+chapters cover prompt injection and data exfiltration. They also cover output
+validation and layered defenses. That makes generative AI part of
+[security]({{ '/wiki/security/' | relative_url }}) as well as product design.
 
-Data engineering therefore remains foundational. Agents and conversational
-interfaces need clean data, structured context, documented semantics, and
-retrieval pipelines. Putting an LLM on top of messy data doesn't make the data
-reliable.
+## Agents
 
-**Agents add orchestration and operational risk.**
+Agents extend AI systems from answer generation into action. In
+[Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}),
+[Ranjitha Kulkarni]({{ '/people/ranjithakulkarni/' | relative_url }}) defines
+agents through objectives, tools, and memory. She also covers knowledge stores,
+planning, and evaluation.
 
-Agent episodes describe tools, memory, context windows, orchestration,
-manager-agent designs, MCP-style tool integration, and multi-step workflows. The
-archive is cautiously practical. Agents can automate useful work, but they also
-add more places to fail. Teams need to evaluate tool choice, context
-construction, branching behavior, latency, cost, evaluation, and auditability.
+The 11:00 and 12:31 chapters cover objectives, tools, and memory. The 21:21
+chapter adds context design. The 36:11 and 51:17 chapters connect agents
+to [RAG]({{ '/wiki/rag/' | relative_url }}), test datasets, and outcome-based
+checks.
 
-Preserve that tension. Agents aren't just a product label. They change how teams
-design, test, monitor, and debug AI systems.
+[Micheal Lanham]({{ '/people/micheallanham/' | relative_url }}) adds a design
+history in [From Game AI to LLM Agents]({{ '/podcasts/from-game-ai-to-modern-ai-agents/' | relative_url }}).
+At 20:57 and 23:48, he discusses task decomposition, sequential flows, and
+manager-agent orchestration. At 31:31 and 57:39, he adds MCP-style tool
+integration and monitoring. Use [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }}),
+[AI Agents]({{ '/wiki/ai-agents/' | relative_url }}), and
+[Multi-Agent Systems]({{ '/wiki/multi-agent-systems/' | relative_url }}) for
+the narrower designs.
 
-**Infrastructure choices depend on cost, control, and scale.**
+## Production Systems
 
-AI infrastructure episodes add the compute layer. Guests compare cloud with
-on-prem setups, GPU utilization, orchestration, distributed training, Kubernetes
-limitations, Slurm, open-source tooling, and hybrid setups. The archive doesn't
-say every company should build its own infrastructure. It asks whether the
-organization has enough scale, privacy need, cost pressure, or control
-requirement to justify the operational burden.
+Production AI work starts when the team asks how the system behaves after the
+demo. [Bartosz Mikulski]({{ '/people/bartoszmikulski/' | relative_url }}) makes
+that practical in [Production AI Engineering]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }}).
+Pipeline tests and prompt evaluation show up before the conversation reaches
+coding assistants. So do prompt compression, caching, and latency. Those production
+concerns connect
+AI to [Production]({{ '/wiki/production/' | relative_url }}),
+[LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }}),
+[Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}),
+and [Data Observability]({{ '/wiki/data-observability/' | relative_url }}).
 
-**Governance and human oversight remain part of AI.**
+Retrieval changes production architecture, and
+[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
+shows why. In that episode,
+[Atita Arora]({{ '/people/atitaarora/' | relative_url }}) grounds RAG in search
+quality, embeddings, and chunking. She also covers citations and evaluation.
 
-Responsible-AI episodes connect AI to fairness, explainability, privacy, PII,
-security, red teaming, human oversight, monitoring, and regulatory pressure.
-Production AI pages shouldn't separate capability from risk. The more AI
-systems act across workflows or influence decisions, the more teams need
-auditability, ownership, and human review paths.
+In
+[Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}),
+[Ranjitha Kulkarni]({{ '/people/ranjithakulkarni/' | relative_url }}) warns at
+29:30 and 31:38 that RAG inherits latency and cost problems. It also inherits
+data-quality problems.
+Use [Search]({{ '/wiki/search/' | relative_url }}),
+[Search and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }}),
+[Embeddings]({{ '/wiki/embeddings/' | relative_url }}), and
+[Vector Databases]({{ '/wiki/vector-databases/' | relative_url }}) for those
+implementation details.
 
-## Role and Content Boundaries
+Infrastructure choices depend on cost, control, scale, and privacy. In
+[Post-ChatGPT AI Infrastructure]({{ '/podcasts/ai-infrastructure-hybrid-cloud-on-prem-distributed-training/' | relative_url }}),
+[Andrey Cheptsov]({{ '/people/andreycheptsov/' | relative_url }}) compares
+cloud, on-prem, and open-source orchestration. He also covers distributed
+training and GPU coordination. That discussion anchors
+[AI Infrastructure]({{ '/wiki/ai-infrastructure/' | relative_url }}),
+[Machine Learning Infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }}),
+and [MLOps]({{ '/wiki/mlops/' | relative_url }}).
 
-**AI versus machine learning.**
+## Governance and Security
 
-Machine learning is a major technical subset of AI. In the current archive,
-"AI" often means generative AI and agentic systems, while "machine learning"
-covers predictive models, features, labels, baselines, training, evaluation, and
-production ML.
+AI systems need governance when they affect users or regulated decisions. They
+also need governance when they use private data or operational workflows. In
+[Responsible & Explainable AI]({{ '/podcasts/responsible-explainable-ai-bias-detection/' | relative_url }}),
+[Supreet Kaur]({{ '/people/supreetkaur/' | relative_url }}) defines responsible
+AI through trust, fairness, and explainability. She also adds SME input and
+compliance.
 
-Use [Machine Learning]({{ '/wiki/machine-learning/' | relative_url }}) when the
-topic is classic applied modeling. Use this page when the topic is broad AI
-vocabulary, LLM-era engineering, agents, infrastructure, or governance.
+The 27:38 and 35:28 chapters add monitoring and human oversight. These chapters
+connect AI governance to product choices, not only post-hoc documentation.
 
-**AI versus AI engineering.**
-
-AI is the broad topic. AI engineering is the role and practice of shipping AI
-products. The archive's AI-engineering material currently covers LLM
-applications, end-to-end product building, backend work, context management,
-RAG, agents, evaluation, and production readiness.
-
-The repo may eventually need a separate AI engineer role page. Until then,
-summarize the role enough to satisfy linked topic slugs and route deeper work to
-future role or roadmap pages.
-
-**AI versus data science and data engineering.**
-
-Data scientists contribute evaluation, experimentation, domain framing, and
-model judgment. Data engineers contribute clean data, pipelines, metadata,
-retrieval corpora, and platform reliability. AI engineers combine these with
-software engineering and product delivery.
-
-The archive repeatedly frames successful AI work as cross-functional rather than
-owned by one role.
-
-## Episode Evidence
-
-These episodes give the strongest starting evidence for the topic.
-
-- [Understanding the AI Engineer Role](https://datatalks.club/podcast.html): At
-  5:49-7:55, the episode separates broad AI from current generative-AI usage. At
-  13:15-15:20, it frames AI engineering as the middle ground between software
-  engineering and data science.
-- [AI Engineering: Skill Stack, Agents, LLMOps, and How to Ship AI Products](https://datatalks.club/podcast.html):
-  At 12:09-14:27, the guest describes building software around models,
-  infrastructure, scaling, and monitoring. Later sections cover RAG, knowledge
-  graphs, agents, LLMOps, and AI evaluations.
-- [Inside the AI Engineer Role](https://datatalks.club/podcast.html): At
-  8:38-9:20, the guest says AI engineering is more than working with LLMs. It
-  includes context management and end-to-end systems. Later sections contrast AI
-  engineers with backend engineers and data scientists.
-- [Production AI Engineering]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }}):
-  Connects AI engineering to data pipeline testing, prompt evaluation, prompt
-  compression, caching, latency, cost, coding assistants, and production
-  readiness.
-- [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}):
-  Grounds RAG in search quality, chunking, embeddings, citations, retrieval
-  metrics, and human-in-the-loop evaluation.
-- [From Game AI to LLM Agents]({{ '/podcasts/from-game-ai-to-modern-ai-agents/' | relative_url }}):
-  Places modern LLM agents in a longer AI lineage and covers workflow design,
-  orchestration, tool use, local models, and evaluation.
-- [Post-ChatGPT AI Infrastructure](https://datatalks.club/podcast.html): Covers
-  cloud versus on-prem economics, open-source orchestration, distributed
-  training, GPU utilization, and infrastructure ownership after ChatGPT.
-- [Responsible AI and Governance](https://datatalks.club/podcast.html): Adds
-  fairness, explainability, privacy, PII handling, compliance input, human
-  oversight, and monitoring as AI-system requirements.
+Security becomes sharper for LLM and chatbot systems. [Maria Sukhareva]({{ '/people/mariasukhareva/' | relative_url }})
+shows in [Hardening Generative AI Chatbots]({{ '/podcasts/generative-ai-chatbots-in-production-security/' | relative_url }})
+that prompt injection and knowledge-base leakage need specific defenses.
+Hallucinations and unsafe automation also need human review. That discussion
+belongs with [Security]({{ '/wiki/security/' | relative_url }}),
+[AI Red Teaming]({{ '/wiki/ai-red-teaming/' | relative_url }}),
+[Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }}),
+and [Privacy Engineering for ML]({{ '/wiki/privacy-engineering-for-ml/' | relative_url }}).
 
 ## Related Pages
 
-Use these pages for adjacent topics and deeper implementation detail.
+Use these pages for narrower AI topics and article-style guides.
 
-- [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
-- [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
-- [Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }})
-- [Machine Learning]({{ '/wiki/machine-learning/' | relative_url }})
-- [Data Science]({{ '/wiki/data-science/' | relative_url }})
-- [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }})
+- [Generative AI]({{ '/wiki/generative-ai/' | relative_url }}) covers LLM-era AI products and generated outputs.
+- [LLMs]({{ '/wiki/llms/' | relative_url }}) covers model choice, prompting, retrieval, fine-tuning, and deployment.
+- [AI Engineering]({{ '/wiki/ai-engineering/' | relative_url }}) and [AI Engineer Role]({{ '/wiki/ai-engineer-role/' | relative_url }}) cover the builder role.
+- [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }}) and [AI Agents]({{ '/wiki/ai-agents/' | relative_url }}) cover tool-using and action-oriented systems.
+- [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}) and [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }}) cover context and retrieval.
+- [Production]({{ '/wiki/production/' | relative_url }}) and [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }}) cover reliability after a prototype works.
+- [AI Infrastructure]({{ '/wiki/ai-infrastructure/' | relative_url }}) covers compute, orchestration, and deployment choices.
+- [Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }}), [Security]({{ '/wiki/security/' | relative_url }}), and [AI Red Teaming]({{ '/wiki/ai-red-teaming/' | relative_url }}) cover risk controls.
+- [LLM Tools]({{ '/articles/llm-tools/' | relative_url }}) and [LLM System Design Interview]({{ '/articles/llm-system-design-interview/' | relative_url }}) turn these topics into article-style guides.

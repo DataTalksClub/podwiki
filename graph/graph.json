@@ -7,7 +7,7 @@
     "persons": 438,
     "topics": 145,
     "nodes": 1019,
-    "links": 6675
+    "links": 6867
   },
   "nodes": [
     {
@@ -537,7 +537,7 @@
       "title": "MLOps Course: How to Choose One That Builds Production Skill",
       "url": "/articles/mlops-course/",
       "count": 1,
-      "search": "MLOps Course: How to Choose One That Builds Production Skill A podcast backed guide to choosing an MLOps course by production scope, hands on projects, reproducibility, deployment, monitoring, tools, and portfolio evidence.",
+      "search": "MLOps Course: How to Choose One That Builds Production Skill A podcast grounded guide to choosing an MLOps course with production scope, hands on projects, monitoring practice, and portfolio evidence.",
       "keyword": "mlops course"
     },
     {
@@ -7787,7 +7787,7 @@
       "title": "AI",
       "url": "/wiki/ai/",
       "count": 1,
-      "search": "AI How the DataTalks.Club podcast archive frames AI after ChatGPT: generative AI, AI engineering, agents, RAG, LLMOps, infrastructure, evaluation, and governance."
+      "search": "AI How DataTalks.Club podcast guests define AI across machine learning, generative AI, agents, production systems, evaluation, infrastructure, and governance."
     },
     {
       "id": "wiki:ai-agents",
@@ -8372,7 +8372,7 @@
       "title": "Developer Experience",
       "url": "/wiki/developer-experience/",
       "count": 1,
-      "search": "Developer Experience A bridge page for podcast evidence about making data and ML tools easier to use."
+      "search": "Developer Experience How data, ML, and AI platforms reduce friction for the people who build with them."
     },
     {
       "id": "wiki:developer-relations",
@@ -8462,7 +8462,7 @@
       "title": "Evaluation",
       "url": "/wiki/evaluation/",
       "count": 1,
-      "search": "Evaluation How the podcast archive frames evaluation as the link between model quality, product impact, causal validation, and operational trust."
+      "search": "Evaluation How DataTalks.Club guests judge whether ML, LLM, RAG, product, and production systems are good enough to trust."
     },
     {
       "id": "wiki:event-tracking",
@@ -8678,7 +8678,7 @@
       "title": "Machine Learning Infrastructure",
       "url": "/wiki/machine-learning-infrastructure/",
       "count": 1,
-      "search": "Machine Learning Infrastructure A bridge page for podcast evidence about compute and serving foundations for ML systems."
+      "search": "Machine Learning Infrastructure Podcast grounded reference page for compute, storage, orchestration, serving, monitoring, and platform foundations behind ML systems."
     },
     {
       "id": "wiki:machine-learning-portfolio-projects",
@@ -11693,13 +11693,31 @@
     },
     {
       "source": "article:data-engineering-certification",
+      "target": "article:apache-airflow",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-certification",
+      "target": "article:data-engineer-bootcamp",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-certification",
       "target": "article:data-engineer-course",
       "kind": "article-link",
       "weight": 2
     },
     {
       "source": "article:data-engineering-certification",
-      "target": "article:data-engineering",
+      "target": "article:data-engineer-courses",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-certification",
+      "target": "article:data-engineer-training",
       "kind": "article-link",
       "weight": 2
     },
@@ -11707,11 +11725,89 @@
       "source": "article:data-engineering-certification",
       "target": "article:data-engineering-bootcamp",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:data-engineering-certification",
       "target": "article:data-engineering-course",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-certification",
+      "target": "article:free-data-engineering-course",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-certification",
+      "target": "person:adrianbrudaru",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-certification",
+      "target": "person:gloriaquiceno",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-certification",
+      "target": "person:jeffkatz",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-certification",
+      "target": "person:nataliekwong",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-certification",
+      "target": "person:vincentwarmerdam",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-certification",
+      "target": "podcast:data-engineering-career-path-and-skills",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-certification",
+      "target": "podcast:data-engineering-tools-modern-data-stack",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-certification",
+      "target": "podcast:get-data-analytics-and-data-engineering-job",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-certification",
+      "target": "podcast:get-data-engineering-job-prep-and-interview",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-certification",
+      "target": "podcast:open-source-ml-contributions",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-certification",
+      "target": "podcast:trends-in-modern-data-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-certification",
+      "target": "wiki:cv-screening",
       "kind": "article-link",
       "weight": 2
     },
@@ -11730,6 +11826,12 @@
     {
       "source": "article:data-engineering-certification",
       "target": "wiki:data-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-certification",
+      "target": "wiki:data-engineering",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -11737,7 +11839,7 @@
       "source": "article:data-engineering-certification",
       "target": "wiki:data-engineering-portfolio-projects",
       "kind": "article-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "article:data-engineering-certification",
@@ -11759,6 +11861,42 @@
     },
     {
       "source": "article:data-engineering-certification",
+      "target": "wiki:data-lake",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-certification",
+      "target": "wiki:data-pipelines",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-certification",
+      "target": "wiki:data-warehouse",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-certification",
+      "target": "wiki:dbt",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-certification",
+      "target": "wiki:etl-vs-elt",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-certification",
+      "target": "wiki:job-descriptions",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-certification",
       "target": "wiki:job-search",
       "kind": "article-link",
       "weight": 2
@@ -11768,6 +11906,18 @@
       "target": "wiki:job-search",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "article:data-engineering-certification",
+      "target": "wiki:modern-data-stack",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-certification",
+      "target": "wiki:open-source-portfolio-evidence",
+      "kind": "article-link",
+      "weight": 2
     },
     {
       "source": "article:data-engineering-certification",
@@ -13415,9 +13565,81 @@
     },
     {
       "source": "article:data-observability-for-data-engineering",
-      "target": "wiki:data-engineering",
+      "target": "person:adrianbrudaru",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-observability-for-data-engineering",
+      "target": "person:barrmoses",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-observability-for-data-engineering",
+      "target": "person:bartoszmikulski",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-observability-for-data-engineering",
+      "target": "person:christopherbergh",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-observability-for-data-engineering",
+      "target": "person:nataliekwong",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-observability-for-data-engineering",
+      "target": "podcast:data-engineering-tools-modern-data-stack",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-observability-for-data-engineering",
+      "target": "podcast:data-quality-data-observability-data-reliability",
+      "kind": "article-link",
+      "weight": 8
+    },
+    {
+      "source": "article:data-observability-for-data-engineering",
+      "target": "podcast:dataops-automation-and-reliable-data-pipelines",
       "kind": "article-link",
       "weight": 4
+    },
+    {
+      "source": "article:data-observability-for-data-engineering",
+      "target": "podcast:dataops-for-data-engineering",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-observability-for-data-engineering",
+      "target": "podcast:production-ready-ai-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-observability-for-data-engineering",
+      "target": "podcast:trends-in-modern-data-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-observability-for-data-engineering",
+      "target": "wiki:data-activation",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-observability-for-data-engineering",
+      "target": "wiki:data-engineering",
+      "kind": "article-link",
+      "weight": 2
     },
     {
       "source": "article:data-observability-for-data-engineering",
@@ -13439,9 +13661,15 @@
     },
     {
       "source": "article:data-observability-for-data-engineering",
+      "target": "wiki:data-governance",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-observability-for-data-engineering",
       "target": "wiki:data-observability",
       "kind": "article-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "article:data-observability-for-data-engineering",
@@ -13453,7 +13681,7 @@
       "source": "article:data-observability-for-data-engineering",
       "target": "wiki:data-quality-and-observability",
       "kind": "article-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "article:data-observability-for-data-engineering",
@@ -13472,6 +13700,42 @@
       "target": "wiki:dataops",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "article:data-observability-for-data-engineering",
+      "target": "wiki:mlops",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-observability-for-data-engineering",
+      "target": "wiki:model-monitoring",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-observability-for-data-engineering",
+      "target": "wiki:modern-data-stack",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-observability-for-data-engineering",
+      "target": "wiki:orchestration",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-observability-for-data-engineering",
+      "target": "wiki:production",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-observability-for-data-engineering",
+      "target": "wiki:reverse-etl",
+      "kind": "article-link",
+      "weight": 2
     },
     {
       "source": "article:data-product-manager",
@@ -15905,42 +16169,162 @@
     },
     {
       "source": "article:mlops-architecture",
+      "target": "article:mlops-frameworks",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-architecture",
+      "target": "article:mlops-tools",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-architecture",
+      "target": "person:dannyleybzon",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-architecture",
+      "target": "person:mariavechtomova",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-architecture",
+      "target": "person:nemanjaradojkovic",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-architecture",
+      "target": "person:raphaelhoogvliets",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-architecture",
+      "target": "person:santonatuli",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-architecture",
+      "target": "person:simonstiebellehner",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-architecture",
+      "target": "person:theofilospapapanagiotou",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-architecture",
+      "target": "person:thomives",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-architecture",
+      "target": "podcast:building-production-ml-platform-and-mlops-team",
+      "kind": "article-link",
+      "weight": 12
+    },
+    {
+      "source": "article:mlops-architecture",
+      "target": "podcast:feature-engineering-model-monitoring-and-data-governance",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-architecture",
+      "target": "podcast:lean-mlops-for-startups",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:mlops-architecture",
+      "target": "podcast:mlops-at-scale-reproducibility-adoption",
+      "kind": "article-link",
+      "weight": 8
+    },
+    {
+      "source": "article:mlops-architecture",
+      "target": "podcast:mlops-kubeflow-model-monitoring",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:mlops-architecture",
+      "target": "podcast:mlops-model-monitoring-data-observability",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:mlops-architecture",
+      "target": "podcast:modern-data-pipelines-orchestration-ingestion-modeling",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-architecture",
+      "target": "podcast:pragmatic-and-standardized-mlops",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:mlops-architecture",
       "target": "wiki:data-governance",
       "kind": "article-link",
       "weight": 2
     },
     {
       "source": "article:mlops-architecture",
-      "target": "wiki:dataops",
+      "target": "wiki:data-observability",
       "kind": "article-link",
       "weight": 2
     },
     {
       "source": "article:mlops-architecture",
       "target": "wiki:dataops",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:mlops-architecture",
-      "target": "wiki:experiment-tracking",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:mlops-architecture",
-      "target": "wiki:experiment-tracking",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:mlops-architecture",
-      "target": "wiki:governance",
       "kind": "article-link",
       "weight": 4
     },
     {
       "source": "article:mlops-architecture",
+      "target": "wiki:dataops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:mlops-architecture",
+      "target": "wiki:developer-experience",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-architecture",
+      "target": "wiki:experiment-tracking",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-architecture",
+      "target": "wiki:experiment-tracking",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:mlops-architecture",
+      "target": "wiki:governance",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-architecture",
       "target": "wiki:governance",
       "kind": "article-wiki",
       "weight": 5
@@ -15961,7 +16345,7 @@
       "source": "article:mlops-architecture",
       "target": "wiki:mlops",
       "kind": "article-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "article:mlops-architecture",
@@ -15971,12 +16355,6 @@
     },
     {
       "source": "article:mlops-architecture",
-      "target": "wiki:mlops-and-dataops",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:mlops-architecture",
       "target": "wiki:mlops-roadmap",
       "kind": "article-link",
       "weight": 2
@@ -16010,6 +16388,12 @@
       "target": "wiki:model-registry",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "article:mlops-architecture",
+      "target": "wiki:orchestration",
+      "kind": "article-link",
+      "weight": 4
     },
     {
       "source": "article:mlops-architecture",
@@ -16019,7 +16403,7 @@
     },
     {
       "source": "article:mlops-architecture",
-      "target": "wiki:production",
+      "target": "wiki:privacy-engineering-for-ml",
       "kind": "article-link",
       "weight": 2
     },
@@ -16034,6 +16418,12 @@
       "target": "wiki:reproducibility",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "article:mlops-architecture",
+      "target": "wiki:responsible-ai-and-governance",
+      "kind": "article-link",
+      "weight": 2
     },
     {
       "source": "article:mlops-certification",
@@ -16151,25 +16541,103 @@
     },
     {
       "source": "article:mlops-course",
-      "target": "article:mlops",
+      "target": "article:mlops-courses",
       "kind": "article-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "article:mlops-course",
-      "target": "article:mlops-engineer",
+      "target": "article:mlops-frameworks",
       "kind": "article-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "article:mlops-course",
       "target": "article:mlops-tools",
       "kind": "article-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "article:mlops-course",
       "target": "article:what-is-mlops",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-course",
+      "target": "person:dannyleybzon",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-course",
+      "target": "person:mariavechtomova",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-course",
+      "target": "person:nemanjaradojkovic",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-course",
+      "target": "person:raphaelhoogvliets",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-course",
+      "target": "person:simonstiebellehner",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-course",
+      "target": "podcast:building-production-ml-platform-and-mlops-team",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:mlops-course",
+      "target": "podcast:lean-mlops-for-startups",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-course",
+      "target": "podcast:mlops-and-ml-engineering-in-finance",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:mlops-course",
+      "target": "podcast:mlops-at-scale-reproducibility-adoption",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-course",
+      "target": "podcast:mlops-model-monitoring-data-observability",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-course",
+      "target": "podcast:pragmatic-and-standardized-mlops",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:mlops-course",
+      "target": "wiki:data-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-course",
+      "target": "wiki:data-observability",
       "kind": "article-link",
       "weight": 2
     },
@@ -16181,13 +16649,25 @@
     },
     {
       "source": "article:mlops-course",
+      "target": "wiki:developer-experience",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-course",
+      "target": "wiki:governance",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-course",
       "target": "wiki:machine-learning-engineer-role",
       "kind": "article-link",
       "weight": 2
     },
     {
       "source": "article:mlops-course",
-      "target": "wiki:machine-learning-infrastructure",
+      "target": "wiki:machine-learning-portfolio-projects",
       "kind": "article-link",
       "weight": 2
     },
@@ -16195,7 +16675,7 @@
       "source": "article:mlops-course",
       "target": "wiki:ml-platforms",
       "kind": "article-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "article:mlops-course",
@@ -16206,8 +16686,20 @@
     {
       "source": "article:mlops-course",
       "target": "wiki:mlops",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:mlops-course",
+      "target": "wiki:mlops",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "article:mlops-course",
+      "target": "wiki:mlops-engineer",
+      "kind": "article-link",
+      "weight": 4
     },
     {
       "source": "article:mlops-course",
@@ -16219,7 +16711,7 @@
       "source": "article:mlops-course",
       "target": "wiki:mlops-roadmap",
       "kind": "article-link",
-      "weight": 8
+      "weight": 4
     },
     {
       "source": "article:mlops-course",
@@ -16247,6 +16739,12 @@
     },
     {
       "source": "article:mlops-course",
+      "target": "wiki:platform-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-course",
       "target": "wiki:production",
       "kind": "article-link",
       "weight": 2
@@ -16260,8 +16758,20 @@
     {
       "source": "article:mlops-course",
       "target": "wiki:reproducibility",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-course",
+      "target": "wiki:reproducibility",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "article:mlops-course",
+      "target": "wiki:software-engineering",
+      "kind": "article-link",
+      "weight": 2
     },
     {
       "source": "article:mlops-courses",
@@ -33113,9 +33623,111 @@
     },
     {
       "source": "wiki:ai",
-      "target": "podcast:from-game-ai-to-modern-ai-agents",
+      "target": "article:llm-system-design-interview",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:ai",
+      "target": "article:llm-tools",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai",
+      "target": "person:andreycheptsov",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai",
+      "target": "person:atitaarora",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai",
+      "target": "person:bartoszmikulski",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai",
+      "target": "person:mariasukhareva",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai",
+      "target": "person:meryemarik",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai",
+      "target": "person:micheallanham",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai",
+      "target": "person:nasserqadri",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai",
+      "target": "person:pauliusztin",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai",
+      "target": "person:ranjithakulkarni",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai",
+      "target": "person:ruslanshchuchkin",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai",
+      "target": "person:supreetkaur",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai",
+      "target": "podcast:ai-infrastructure-hybrid-cloud-on-prem-distributed-training",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai",
+      "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai",
+      "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai",
+      "target": "podcast:from-game-ai-to-modern-ai-agents",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai",
+      "target": "podcast:generative-ai-chatbots-in-production-security",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:ai",
@@ -33127,67 +33739,229 @@
       "source": "wiki:ai",
       "target": "podcast:production-ready-ai-engineering",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:ai",
-      "target": "wiki:data-engineering",
+      "target": "podcast:responsible-explainable-ai-bias-detection",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:ai",
-      "target": "wiki:data-engineering",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:ai",
-      "target": "wiki:data-science",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:ai",
-      "target": "wiki:data-science",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:ai",
-      "target": "wiki:llm-production-patterns",
+      "target": "podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products",
       "kind": "wiki-link",
       "weight": 4
     },
     {
       "source": "wiki:ai",
-      "target": "wiki:llm-production-patterns",
+      "target": "podcast:s23e05-inside-ai-engineer-role-tools-skills-and-career-path",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai",
+      "target": "podcast:s23e07-understanding-ai-engineer-role",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai",
+      "target": "wiki:agent-engineering",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai",
+      "target": "wiki:ai-agents",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:ai",
+      "target": "wiki:ai-engineer-role",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai",
+      "target": "wiki:ai-engineer-role",
       "kind": "wiki-related",
       "weight": 3
     },
     {
       "source": "wiki:ai",
-      "target": "wiki:machine-learning",
+      "target": "wiki:ai-engineering",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai",
+      "target": "wiki:ai-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai",
+      "target": "wiki:ai-engineering-roadmap",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai",
+      "target": "wiki:ai-infrastructure",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai",
+      "target": "wiki:ai-red-teaming",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai",
+      "target": "wiki:data-engineering",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai",
+      "target": "wiki:data-observability",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai",
+      "target": "wiki:deep-learning",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai",
+      "target": "wiki:embeddings",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai",
+      "target": "wiki:generative-ai",
       "kind": "wiki-link",
       "weight": 8
     },
     {
       "source": "wiki:ai",
+      "target": "wiki:generative-ai",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai",
+      "target": "wiki:llms",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:ai",
+      "target": "wiki:llms",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai",
+      "target": "wiki:machine-learning",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:ai",
       "target": "wiki:machine-learning",
       "kind": "wiki-related",
       "weight": 3
     },
     {
       "source": "wiki:ai",
-      "target": "wiki:responsible-ai-and-governance",
+      "target": "wiki:machine-learning-engineer-role",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai",
+      "target": "wiki:machine-learning-infrastructure",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai",
+      "target": "wiki:mlops",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai",
+      "target": "wiki:multi-agent-systems",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai",
+      "target": "wiki:nlp",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai",
+      "target": "wiki:privacy-engineering-for-ml",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai",
+      "target": "wiki:production",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:ai",
+      "target": "wiki:rag",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:ai",
       "target": "wiki:responsible-ai-and-governance",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai",
+      "target": "wiki:responsible-ai-and-governance",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:ai",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai",
+      "target": "wiki:search",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:ai",
@@ -33197,9 +33971,15 @@
     },
     {
       "source": "wiki:ai",
-      "target": "wiki:search-rag-and-knowledge-systems",
-      "kind": "wiki-related",
-      "weight": 3
+      "target": "wiki:security",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:ai",
+      "target": "wiki:vector-databases",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:ai-agents",
@@ -39929,7 +40709,49 @@
     },
     {
       "source": "wiki:developer-experience",
+      "target": "person:andreycheptsov",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:developer-experience",
+      "target": "person:hugobowneanderson",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:developer-experience",
+      "target": "person:raphaelhoogvliets",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:developer-experience",
+      "target": "person:simonstiebellehner",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:developer-experience",
+      "target": "person:zhamakdehghani",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:developer-experience",
+      "target": "podcast:ai-infrastructure-hybrid-cloud-on-prem-distributed-training",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:developer-experience",
       "target": "podcast:building-production-ml-platform-and-mlops-team",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:developer-experience",
+      "target": "podcast:data-mesh-architecture-decentralized-data-products",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -39937,13 +40759,13 @@
       "source": "wiki:developer-experience",
       "target": "podcast:devrel-open-source-machine-learning",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:developer-experience",
       "target": "podcast:mlops-at-scale-reproducibility-adoption",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:developer-experience",
@@ -39953,21 +40775,63 @@
     },
     {
       "source": "wiki:developer-experience",
-      "target": "wiki:developer-relations",
+      "target": "wiki:community-building",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:developer-experience",
+      "target": "wiki:contributing",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:developer-experience",
+      "target": "wiki:data-governance",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:developer-experience",
+      "target": "wiki:data-mesh",
       "kind": "wiki-link",
       "weight": 4
+    },
+    {
+      "source": "wiki:developer-experience",
+      "target": "wiki:data-products",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:developer-experience",
+      "target": "wiki:developer-relations",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:developer-experience",
+      "target": "wiki:documentation",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:developer-experience",
+      "target": "wiki:experiment-tracking",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:developer-experience",
       "target": "wiki:metaflow",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:developer-experience",
       "target": "wiki:ml-platforms",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:developer-experience",
@@ -39979,13 +40843,37 @@
       "source": "wiki:developer-experience",
       "target": "wiki:mlops",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:developer-experience",
       "target": "wiki:mlops",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:developer-experience",
+      "target": "wiki:mlops-roadmap",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:developer-experience",
+      "target": "wiki:mlops-tools",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:developer-experience",
+      "target": "wiki:model-registry",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:developer-experience",
+      "target": "wiki:open-source",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:developer-experience",
@@ -40001,9 +40889,15 @@
     },
     {
       "source": "wiki:developer-experience",
-      "target": "wiki:platform-engineering",
+      "target": "wiki:orchestration",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:developer-experience",
+      "target": "wiki:platform-engineering",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:developer-experience",
@@ -40013,9 +40907,15 @@
     },
     {
       "source": "wiki:developer-experience",
-      "target": "wiki:tools",
+      "target": "wiki:production",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:developer-experience",
+      "target": "wiki:technical-writing",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:developer-relations",
@@ -40769,15 +41669,117 @@
     },
     {
       "source": "wiki:evaluation",
-      "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
+      "target": "person:adamsroka",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:evaluation",
+      "target": "person:aleksandermolak",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:evaluation",
+      "target": "person:atitaarora",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:evaluation",
+      "target": "person:dannyleybzon",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:evaluation",
+      "target": "person:jakobgraff",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:evaluation",
+      "target": "person:linaweichbrodt",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:evaluation",
+      "target": "person:meryemarik",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:evaluation",
+      "target": "person:ranjithakulkarni",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:evaluation",
+      "target": "person:rishabhbhargava",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:evaluation",
+      "target": "podcast:ab-testing-and-product-experimentation",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:evaluation",
+      "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:evaluation",
+      "target": "podcast:causal-inference-for-machine-learning",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:evaluation",
+      "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:evaluation",
+      "target": "podcast:human-centered-mlops-and-model-monitoring",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:evaluation",
+      "target": "podcast:ml-engineering-kpis-and-metrics-strategy",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:evaluation",
+      "target": "podcast:mlops-model-monitoring-data-observability",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:evaluation",
+      "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:evaluation",
+      "target": "podcast:production-ml-mlops-and-data-team-building",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:evaluation",
       "target": "wiki:a-a-testing",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:evaluation",
@@ -40790,36 +41792,48 @@
       "target": "wiki:a-b-testing",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:evaluation",
+      "target": "wiki:agent-engineering",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:evaluation",
       "target": "wiki:causal-inference",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "wiki:evaluation",
-      "target": "wiki:experimentation-and-causal-inference",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:evaluation",
-      "target": "wiki:experimentation-and-causal-inference",
+      "target": "wiki:causal-inference",
       "kind": "wiki-related",
       "weight": 3
     },
     {
       "source": "wiki:evaluation",
-      "target": "wiki:llm-production-patterns",
+      "target": "wiki:data-observability",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:evaluation",
-      "target": "wiki:llm-production-patterns",
-      "kind": "wiki-related",
-      "weight": 3
+      "target": "wiki:embeddings",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:evaluation",
+      "target": "wiki:experimentation",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:evaluation",
+      "target": "wiki:machine-learning",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:evaluation",
@@ -40829,25 +41843,67 @@
     },
     {
       "source": "wiki:evaluation",
-      "target": "wiki:machine-learning-system-design",
+      "target": "wiki:metrics",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:evaluation",
+      "target": "wiki:metrics",
       "kind": "wiki-related",
       "weight": 3
     },
     {
       "source": "wiki:evaluation",
-      "target": "wiki:metrics",
+      "target": "wiki:mlops",
       "kind": "wiki-link",
       "weight": 4
     },
     {
       "source": "wiki:evaluation",
-      "target": "wiki:metrics",
+      "target": "wiki:model-monitoring",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:evaluation",
+      "target": "wiki:model-monitoring",
       "kind": "wiki-related",
       "weight": 3
     },
     {
       "source": "wiki:evaluation",
       "target": "wiki:power-analysis",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:evaluation",
+      "target": "wiki:product-analytics",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:evaluation",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:evaluation",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:evaluation",
+      "target": "wiki:search",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:evaluation",
+      "target": "wiki:vector-databases",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -43607,21 +44663,57 @@
     },
     {
       "source": "wiki:machine-learning-infrastructure",
-      "target": "podcast:building-production-ml-platform-and-mlops-team",
+      "target": "person:andreaskretz",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:machine-learning-infrastructure",
+      "target": "person:andreycheptsov",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:machine-learning-infrastructure",
+      "target": "person:raphaelhoogvliets",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:machine-learning-infrastructure",
+      "target": "person:simonstiebellehner",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:machine-learning-infrastructure",
+      "target": "podcast:ai-infrastructure-hybrid-cloud-on-prem-distributed-training",
+      "kind": "wiki-link",
+      "weight": 10
+    },
+    {
+      "source": "wiki:machine-learning-infrastructure",
+      "target": "podcast:building-production-ml-platform-and-mlops-team",
+      "kind": "wiki-link",
+      "weight": 16
     },
     {
       "source": "wiki:machine-learning-infrastructure",
       "target": "podcast:devrel-open-source-machine-learning",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:machine-learning-infrastructure",
       "target": "podcast:mlops-at-scale-reproducibility-adoption",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 12
+    },
+    {
+      "source": "wiki:machine-learning-infrastructure",
+      "target": "podcast:production-ml-pipelines-with-aws-and-kafka",
+      "kind": "wiki-link",
+      "weight": 8
     },
     {
       "source": "wiki:machine-learning-infrastructure",
@@ -43643,6 +44735,30 @@
     },
     {
       "source": "wiki:machine-learning-infrastructure",
+      "target": "wiki:data-pipelines",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:machine-learning-infrastructure",
+      "target": "wiki:developer-experience",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:machine-learning-infrastructure",
+      "target": "wiki:experiment-tracking",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:machine-learning-infrastructure",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:machine-learning-infrastructure",
       "target": "wiki:ml-platforms",
       "kind": "wiki-link",
       "weight": 4
@@ -43657,7 +44773,7 @@
       "source": "wiki:machine-learning-infrastructure",
       "target": "wiki:mlops",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:machine-learning-infrastructure",
@@ -43667,15 +44783,45 @@
     },
     {
       "source": "wiki:machine-learning-infrastructure",
-      "target": "wiki:mlops-vs-devops",
+      "target": "wiki:model-monitoring",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
+    },
+    {
+      "source": "wiki:machine-learning-infrastructure",
+      "target": "wiki:model-monitoring",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:machine-learning-infrastructure",
+      "target": "wiki:model-registry",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:machine-learning-infrastructure",
+      "target": "wiki:model-registry",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:machine-learning-infrastructure",
+      "target": "wiki:orchestration",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:machine-learning-infrastructure",
+      "target": "wiki:orchestration",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:machine-learning-infrastructure",
       "target": "wiki:platform-engineering",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:machine-learning-infrastructure",
@@ -43688,6 +44834,12 @@
       "target": "wiki:production",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:machine-learning-infrastructure",
+      "target": "wiki:reproducibility",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:machine-learning-portfolio-projects",
