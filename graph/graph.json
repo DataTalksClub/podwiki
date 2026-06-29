@@ -2,12 +2,12 @@
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
     "wikis": 153,
-    "articles": 45,
+    "articles": 50,
     "podcasts": 12,
     "persons": 26,
     "topics": 115,
-    "nodes": 351,
-    "links": 2309
+    "nodes": 356,
+    "links": 2376
   },
   "nodes": [
     {
@@ -29,6 +29,16 @@
       "count": 1,
       "search": "Apache Airflow: Workflow Orchestration for Data Pipelines A podcast backed guide to Apache Airflow as a workflow orchestrator: how its architecture fits data pipelines, how to design DAGs, and when a smaller scheduler or another orchestrator is enough.",
       "keyword": "apache airflow"
+    },
+    {
+      "id": "article:best-data-engineering-course",
+      "type": "article",
+      "label": "Best Data Engineering Course: Choose by Background, Role, and Proof",
+      "title": "Best Data Engineering Course: Choose by Background, Role, and Proof",
+      "url": "/articles/best-data-engineering-course/",
+      "count": 1,
+      "search": "Best Data Engineering Course: Choose by Background, Role, and Proof A podcast backed decision guide for choosing the best data engineering course for your background, target role, project evidence, and interview readiness.",
+      "keyword": "best data engineering course"
     },
     {
       "id": "article:data-engineer-bootcamp",
@@ -79,6 +89,16 @@
       "count": 1,
       "search": "Data Engineer Courses: How to Compare Paths for Your Target Job A podcast backed guide to comparing data engineer courses by learner background, course format, target role, portfolio evidence, and interview readiness.",
       "keyword": "data engineer courses"
+    },
+    {
+      "id": "article:data-engineer-manager",
+      "type": "article",
+      "label": "Data Engineer Manager: Responsibilities, Team Design, Hiring, and Career Path",
+      "title": "Data Engineer Manager: Responsibilities, Team Design, Hiring, and Career Path",
+      "url": "/articles/data-engineer-manager/",
+      "count": 1,
+      "search": "Data Engineer Manager: Responsibilities, Team Design, Hiring, and Career Path A podcast backed guide to managing data engineers, designing data teams, hiring, prioritizing work, and building reliable data platforms.",
+      "keyword": "data engineer manager"
     },
     {
       "id": "article:data-engineering-and-data-science",
@@ -181,6 +201,16 @@
       "keyword": "data engineering tools"
     },
     {
+      "id": "article:data-engineering-training",
+      "type": "article",
+      "label": "Data Engineering Training: Build Skills That Transfer to Real Team Work",
+      "title": "Data Engineering Training: Build Skills That Transfer to Real Team Work",
+      "url": "/articles/data-engineering-training/",
+      "count": 1,
+      "search": "Data Engineering Training: Build Skills That Transfer to Real Team Work A podcast backed guide to data engineering training for teams and learners: skill sequence, practical labs, project evidence, feedback, internal enablement, and avoiding tool only programs.",
+      "keyword": "data engineering training"
+    },
+    {
       "id": "article:data-engineering",
       "type": "article",
       "label": "Data Engineering: What It Is, What Data Engineers Build, and How to Learn It",
@@ -189,6 +219,16 @@
       "count": 1,
       "search": "Data Engineering: What It Is, What Data Engineers Build, and How to Learn It A practical, podcast backed guide to data engineering: pipelines, platforms, tools, DataOps, quality, role boundaries, and a learning path for new data engineers.",
       "keyword": "data engineering"
+    },
+    {
+      "id": "article:data-observability-for-data-engineering",
+      "type": "article",
+      "label": "Data Observability for Data Engineering",
+      "title": "Data Observability for Data Engineering",
+      "url": "/articles/data-observability-for-data-engineering/",
+      "count": 1,
+      "search": "Data Observability for Data Engineering A podcast backed guide to data observability for data engineering teams: freshness, volume, schema, distribution, lineage, ownership, runbooks, and downstream impact.",
+      "keyword": "data observability for data engineering"
     },
     {
       "id": "article:data-scientist-interview",
@@ -209,6 +249,16 @@
       "count": 1,
       "search": "Data Scientist: Role, Skills, Career Path, and Interview Signals A podcast backed guide to data scientist role scope and practical preparation.",
       "keyword": "data scientist"
+    },
+    {
+      "id": "article:dataops-tools",
+      "type": "article",
+      "label": "DataOps Tools: What Your Stack Should Cover",
+      "title": "DataOps Tools: What Your Stack Should Cover",
+      "url": "/articles/dataops-tools/",
+      "count": 1,
+      "search": "DataOps Tools: What Your Stack Should Cover A podcast backed guide to DataOps tool categories for version control, CI/CD, orchestration, testing, observability, lineage, deployment, incident response, and lightweight starts.",
+      "keyword": "dataops tools"
     },
     {
       "id": "article:dataops-vs-data-engineering",
@@ -1069,7 +1119,7 @@
       "label": "Data Engineering Tools",
       "title": "Data Engineering Tools",
       "url": "/wiki/",
-      "count": 5,
+      "count": 7,
       "search": "Data Engineering Tools"
     },
     {
@@ -3367,6 +3417,96 @@
       "weight": 5
     },
     {
+      "source": "article:best-data-engineering-course",
+      "target": "article:data-engineering-bootcamp",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:best-data-engineering-course",
+      "target": "article:data-engineering-certification",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:best-data-engineering-course",
+      "target": "article:data-engineering-course",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:best-data-engineering-course",
+      "target": "article:data-engineering-courses",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:best-data-engineering-course",
+      "target": "article:data-engineering-tools",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:best-data-engineering-course",
+      "target": "topic:data-engineering-tools",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:best-data-engineering-course",
+      "target": "wiki:data-engineer-role",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:best-data-engineering-course",
+      "target": "wiki:data-engineer-role",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:best-data-engineering-course",
+      "target": "wiki:data-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:best-data-engineering-course",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:best-data-engineering-course",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:best-data-engineering-course",
+      "target": "wiki:data-engineering-roadmap",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:best-data-engineering-course",
+      "target": "wiki:data-engineering-roadmap",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:best-data-engineering-course",
+      "target": "wiki:job-search",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:best-data-engineering-course",
+      "target": "wiki:job-search",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
       "source": "article:data-engineer-bootcamp",
       "target": "article:data-engineer-course",
       "kind": "article-link",
@@ -3815,6 +3955,96 @@
       "target": "wiki:job-search",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "article:data-engineer-manager",
+      "target": "wiki:career-growth",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineer-manager",
+      "target": "wiki:data-engineer-role",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineer-manager",
+      "target": "wiki:data-engineer-role",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineer-manager",
+      "target": "wiki:data-engineering",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineer-manager",
+      "target": "wiki:data-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineer-manager",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineer-manager",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineer-manager",
+      "target": "wiki:data-product-management",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineer-manager",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineer-manager",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineer-manager",
+      "target": "wiki:hiring",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineer-manager",
+      "target": "wiki:hiring",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineer-manager",
+      "target": "wiki:job-search",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineer-manager",
+      "target": "wiki:job-search",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineer-manager",
+      "target": "wiki:platform-engineering",
+      "kind": "article-link",
+      "weight": 2
     },
     {
       "source": "article:data-engineering",
@@ -4975,6 +5205,156 @@
       "weight": 4
     },
     {
+      "source": "article:data-engineering-training",
+      "target": "article:data-engineering-bootcamp",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering-training",
+      "target": "article:data-engineering-course",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering-training",
+      "target": "article:data-engineering-tools",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-training",
+      "target": "topic:data-engineering-tools",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-training",
+      "target": "wiki:data-engineer-role",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering-training",
+      "target": "wiki:data-engineer-role",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-training",
+      "target": "wiki:data-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-training",
+      "target": "wiki:data-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-training",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering-training",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-training",
+      "target": "wiki:data-engineering-roadmap",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering-training",
+      "target": "wiki:data-engineering-roadmap",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-training",
+      "target": "wiki:job-search",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-training",
+      "target": "wiki:job-search",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-observability-for-data-engineering",
+      "target": "article:dataops-vs-data-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-observability-for-data-engineering",
+      "target": "wiki:data-engineering",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-observability-for-data-engineering",
+      "target": "wiki:data-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-observability-for-data-engineering",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-observability-for-data-engineering",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-observability-for-data-engineering",
+      "target": "wiki:data-observability",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-observability-for-data-engineering",
+      "target": "wiki:data-observability",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-observability-for-data-engineering",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:data-observability-for-data-engineering",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-observability-for-data-engineering",
+      "target": "wiki:dataops",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-observability-for-data-engineering",
+      "target": "wiki:dataops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
       "source": "article:data-product-manager-role",
       "target": "wiki:data-engineering-platforms",
       "kind": "article-wiki",
@@ -5111,6 +5491,78 @@
       "target": "wiki:job-search",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "article:dataops-tools",
+      "target": "wiki:ci-cd",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:dataops-tools",
+      "target": "wiki:data-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:dataops-tools",
+      "target": "wiki:data-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:dataops-tools",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:dataops-tools",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:dataops-tools",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:dataops-tools",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:dataops-tools",
+      "target": "wiki:dataops",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:dataops-tools",
+      "target": "wiki:dataops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:dataops-tools",
+      "target": "wiki:mlops-and-dataops",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:dataops-tools",
+      "target": "wiki:mlops-and-dataops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:dataops-tools",
+      "target": "wiki:orchestration",
+      "kind": "article-link",
+      "weight": 2
     },
     {
       "source": "article:dataops-vs-data-engineering",
