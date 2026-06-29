@@ -2,12 +2,12 @@
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
     "wikis": 153,
-    "articles": 30,
+    "articles": 35,
     "podcasts": 12,
     "persons": 26,
     "topics": 114,
-    "nodes": 335,
-    "links": 2043
+    "nodes": 340,
+    "links": 2126
   },
   "nodes": [
     {
@@ -41,6 +41,26 @@
       "keyword": "data engineer course"
     },
     {
+      "id": "article:data-engineer-courses",
+      "type": "article",
+      "label": "Data Engineer Courses: How to Compare Paths for Your Target Job",
+      "title": "Data Engineer Courses: How to Compare Paths for Your Target Job",
+      "url": "/articles/data-engineer-courses/",
+      "count": 1,
+      "search": "Data Engineer Courses: How to Compare Paths for Your Target Job A podcast backed guide to comparing data engineer courses by learner background, course format, target role, portfolio evidence, and interview readiness.",
+      "keyword": "data engineer courses"
+    },
+    {
+      "id": "article:data-engineering-and-data-science",
+      "type": "article",
+      "label": "Data Engineering and Data Science: How They Work Together",
+      "title": "Data Engineering and Data Science: How They Work Together",
+      "url": "/articles/data-engineering-and-data-science/",
+      "count": 1,
+      "search": "Data Engineering and Data Science: How They Work Together A podcast backed guide to how data engineering and data science differ, where they overlap, how teams should assign ownership, and how learners should sequence skills.",
+      "keyword": "data engineering and data science"
+    },
+    {
       "id": "article:data-engineering-bootcamp",
       "type": "article",
       "label": "Data Engineering Bootcamp: How to Choose One and Prove Job-Ready Skill",
@@ -69,6 +89,16 @@
       "count": 1,
       "search": "Data Engineering Course: What to Learn and How to Prove Job Ready Skill A podcast backed guide to choosing a data engineering course by fundamentals, projects, tool judgment, portfolio evidence, and interview readiness.",
       "keyword": "data engineering course"
+    },
+    {
+      "id": "article:data-engineering-courses",
+      "type": "article",
+      "label": "Data Engineering Courses: Compare Free, Paid, Bootcamp, Certification, and Self-Paced Paths",
+      "title": "Data Engineering Courses: Compare Free, Paid, Bootcamp, Certification, and Self-Paced Paths",
+      "url": "/articles/data-engineering-courses/",
+      "count": 1,
+      "search": "Data Engineering Courses: Compare Free, Paid, Bootcamp, Certification, and Self Paced Paths A podcast backed comparison of data engineering courses by format, sequence, projects, feedback, certificates, and job readiness evidence.",
+      "keyword": "data engineering courses"
     },
     {
       "id": "article:data-engineering-freelance",
@@ -131,6 +161,16 @@
       "keyword": "data ops"
     },
     {
+      "id": "article:designing-machine-learning-systems",
+      "type": "article",
+      "label": "Designing Machine Learning Systems: A Practical Archive-Backed Guide",
+      "title": "Designing Machine Learning Systems: A Practical Archive-Backed Guide",
+      "url": "/articles/designing-machine-learning-systems/",
+      "count": 1,
+      "search": "Designing Machine Learning Systems: A Practical Archive Backed Guide A practical guide to designing machine learning systems with podcast backed advice on problem framing, data strategy, baselines, serving, monitoring, ownership, and tradeoffs.",
+      "keyword": "designing machine learning systems"
+    },
+    {
       "id": "article:freelance-data-engineer",
       "type": "article",
       "label": "Freelance Data Engineer: Services, Proof, Client Risk, and Career Path",
@@ -149,6 +189,16 @@
       "count": 1,
       "search": "From Software Engineer to Machine Learning: What Actually Transfers A career transition article for software engineers moving into ML, grounded in podcast episodes about production systems, MLOps, interviews, and applied ML.",
       "keyword": "software engineering machine learning"
+    },
+    {
+      "id": "article:fundamentals-of-data-engineering",
+      "type": "article",
+      "label": "Fundamentals of Data Engineering: Pipelines, Storage, Quality, and Tradeoffs",
+      "title": "Fundamentals of Data Engineering: Pipelines, Storage, Quality, and Tradeoffs",
+      "url": "/articles/fundamentals-of-data-engineering/",
+      "count": 1,
+      "search": "Fundamentals of Data Engineering: Pipelines, Storage, Quality, and Tradeoffs A podcast backed guide to the durable fundamentals behind data engineering: pipelines, storage, transformations, orchestration, quality, ownership, and architecture tradeoffs.",
+      "keyword": "fundamentals of data engineering"
     },
     {
       "id": "article:how-to-build-data-pipelines",
@@ -910,7 +960,7 @@
       "label": "Data Engineering Tools",
       "title": "Data Engineering Tools",
       "url": "/wiki/",
-      "count": 2,
+      "count": 4,
       "search": "Data Engineering Tools"
     },
     {
@@ -3280,6 +3330,90 @@
       "weight": 5
     },
     {
+      "source": "article:data-engineer-courses",
+      "target": "article:data-engineer-course",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineer-courses",
+      "target": "article:data-engineering-bootcamp",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineer-courses",
+      "target": "article:data-engineering-certification",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineer-courses",
+      "target": "article:data-engineering-course",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineer-courses",
+      "target": "article:data-engineering-tools",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineer-courses",
+      "target": "topic:data-engineering-tools",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineer-courses",
+      "target": "wiki:data-engineer-role",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineer-courses",
+      "target": "wiki:data-engineer-role",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineer-courses",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineer-courses",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineer-courses",
+      "target": "wiki:data-engineering-roadmap",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineer-courses",
+      "target": "wiki:data-engineering-roadmap",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineer-courses",
+      "target": "wiki:job-search",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineer-courses",
+      "target": "wiki:job-search",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
       "source": "article:data-engineering",
       "target": "wiki:analytics-engineering",
       "kind": "article-link",
@@ -3392,6 +3526,108 @@
       "target": "wiki:mlops-and-dataops",
       "kind": "article-link",
       "weight": 2
+    },
+    {
+      "source": "article:data-engineering-and-data-science",
+      "target": "wiki:career-transitions-in-data",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-and-data-science",
+      "target": "wiki:career-transitions-in-data",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-and-data-science",
+      "target": "wiki:data-engineer-role",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-and-data-science",
+      "target": "wiki:data-engineer-role",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-and-data-science",
+      "target": "wiki:data-engineer-vs-data-scientist",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:data-engineering-and-data-science",
+      "target": "wiki:data-engineer-vs-data-scientist",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-and-data-science",
+      "target": "wiki:data-engineering",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering-and-data-science",
+      "target": "wiki:data-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-and-data-science",
+      "target": "wiki:data-engineering-roadmap",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-and-data-science",
+      "target": "wiki:data-science",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering-and-data-science",
+      "target": "wiki:data-science",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-and-data-science",
+      "target": "wiki:data-scientist-role",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering-and-data-science",
+      "target": "wiki:data-scientist-role",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-and-data-science",
+      "target": "wiki:machine-learning-engineer-role",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering-and-data-science",
+      "target": "wiki:machine-learning-engineer-role",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-and-data-science",
+      "target": "wiki:mlops",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering-and-data-science",
+      "target": "wiki:mlops",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "article:data-engineering-bootcamp",
@@ -3647,6 +3883,96 @@
     },
     {
       "source": "article:data-engineering-course",
+      "target": "wiki:modern-data-stack",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-courses",
+      "target": "article:data-engineer-course",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-courses",
+      "target": "article:data-engineering-bootcamp",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering-courses",
+      "target": "article:data-engineering-certification",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-courses",
+      "target": "article:data-engineering-course",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering-courses",
+      "target": "article:data-engineering-tools",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-courses",
+      "target": "topic:data-engineering-tools",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-courses",
+      "target": "wiki:data-engineer-role",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-courses",
+      "target": "wiki:data-engineer-role",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-courses",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:data-engineering-courses",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-courses",
+      "target": "wiki:data-engineering-roadmap",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:data-engineering-courses",
+      "target": "wiki:data-engineering-roadmap",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-courses",
+      "target": "wiki:job-search",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering-courses",
+      "target": "wiki:job-search",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-courses",
       "target": "wiki:modern-data-stack",
       "kind": "article-wiki",
       "weight": 5
@@ -3982,6 +4308,102 @@
       "weight": 5
     },
     {
+      "source": "article:designing-machine-learning-systems",
+      "target": "article:machine-learning-system-design",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:designing-machine-learning-systems",
+      "target": "article:machine-learning-system-design-interview",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:designing-machine-learning-systems",
+      "target": "wiki:machine-learning-engineer-role",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:designing-machine-learning-systems",
+      "target": "wiki:machine-learning-engineer-role",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:designing-machine-learning-systems",
+      "target": "wiki:machine-learning-infrastructure",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:designing-machine-learning-systems",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:designing-machine-learning-systems",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:designing-machine-learning-systems",
+      "target": "wiki:ml-platforms",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:designing-machine-learning-systems",
+      "target": "wiki:ml-platforms",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:designing-machine-learning-systems",
+      "target": "wiki:mlops",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:designing-machine-learning-systems",
+      "target": "wiki:mlops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:designing-machine-learning-systems",
+      "target": "wiki:mlops-and-dataops",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:designing-machine-learning-systems",
+      "target": "wiki:model-monitoring",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:designing-machine-learning-systems",
+      "target": "wiki:model-monitoring",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:designing-machine-learning-systems",
+      "target": "wiki:production",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:designing-machine-learning-systems",
+      "target": "wiki:production",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
       "source": "article:freelance-data-engineer",
       "target": "article:data-engineering-freelance",
       "kind": "article-link",
@@ -4064,6 +4486,132 @@
       "target": "wiki:open-source-portfolio-evidence",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "article:fundamentals-of-data-engineering",
+      "target": "article:apache-airflow",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:fundamentals-of-data-engineering",
+      "target": "article:data-engineering-tools",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:fundamentals-of-data-engineering",
+      "target": "wiki:analytics-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:fundamentals-of-data-engineering",
+      "target": "wiki:batch-vs-streaming",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:fundamentals-of-data-engineering",
+      "target": "wiki:batch-vs-streaming",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:fundamentals-of-data-engineering",
+      "target": "wiki:data-engineer-role",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:fundamentals-of-data-engineering",
+      "target": "wiki:data-engineer-role",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:fundamentals-of-data-engineering",
+      "target": "wiki:data-engineering",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:fundamentals-of-data-engineering",
+      "target": "wiki:data-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:fundamentals-of-data-engineering",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:fundamentals-of-data-engineering",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:fundamentals-of-data-engineering",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:fundamentals-of-data-engineering",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:fundamentals-of-data-engineering",
+      "target": "wiki:data-engineering-roadmap",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:fundamentals-of-data-engineering",
+      "target": "wiki:data-engineering-roadmap",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:fundamentals-of-data-engineering",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:fundamentals-of-data-engineering",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:fundamentals-of-data-engineering",
+      "target": "wiki:data-warehouse-vs-data-lakehouse",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:fundamentals-of-data-engineering",
+      "target": "wiki:dataops",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:fundamentals-of-data-engineering",
+      "target": "wiki:etl-vs-elt",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:fundamentals-of-data-engineering",
+      "target": "wiki:modern-data-stack",
+      "kind": "article-link",
+      "weight": 4
     },
     {
       "source": "article:how-to-build-data-pipelines",
