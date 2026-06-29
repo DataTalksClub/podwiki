@@ -2,12 +2,12 @@
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
     "wikis": 153,
-    "articles": 40,
+    "articles": 45,
     "podcasts": 12,
     "persons": 26,
     "topics": 115,
-    "nodes": 346,
-    "links": 2202
+    "nodes": 351,
+    "links": 2309
   },
   "nodes": [
     {
@@ -49,6 +49,16 @@
       "count": 1,
       "search": "Data Engineer Consultant: Services, Scope, Proof, and Hiring Fit A podcast backed guide to what a data engineer consultant does, when to hire one, how consulting differs from freelance and full time data engineering, and how practitioners can prove they reduce client risk.",
       "keyword": "data engineer consultant"
+    },
+    {
+      "id": "article:data-engineer-consulting",
+      "type": "article",
+      "label": "Data Engineer Consulting: Engagements, Deliverables, Pricing, and Handoff",
+      "title": "Data Engineer Consulting: Engagements, Deliverables, Pricing, and Handoff",
+      "url": "/articles/data-engineer-consulting/",
+      "count": 1,
+      "search": "Data Engineer Consulting: Engagements, Deliverables, Pricing, and Handoff A podcast backed guide to data engineer consulting for buyers and service providers: when to use consulting, how discovery works, which deliverables matter, how to reduce buyer risk, and how pricing and handoff should work.",
+      "keyword": "data engineer consulting"
     },
     {
       "id": "article:data-engineer-course",
@@ -101,6 +111,26 @@
       "keyword": "data engineering certification"
     },
     {
+      "id": "article:data-engineering-consultant",
+      "type": "article",
+      "label": "Data Engineering Consultant: Services, Scope, Proof, and Client Fit",
+      "title": "Data Engineering Consultant: Services, Scope, Proof, and Client Fit",
+      "url": "/articles/data-engineering-consultant/",
+      "count": 1,
+      "search": "Data Engineering Consultant: Services, Scope, Proof, and Client Fit A podcast backed guide to data engineering consulting: what clients buy, how to scope services, what proof reduces risk, and how practitioners can position themselves beyond a temporary data engineer role.",
+      "keyword": "data engineering consultant"
+    },
+    {
+      "id": "article:data-engineering-consulting",
+      "type": "article",
+      "label": "Data Engineering Consulting: Services, Scope, Proof, and Handoff",
+      "title": "Data Engineering Consulting: Services, Scope, Proof, and Handoff",
+      "url": "/articles/data-engineering-consulting/",
+      "count": 1,
+      "search": "Data Engineering Consulting: Services, Scope, Proof, and Handoff A podcast backed buyer guide to data engineering consulting: service scope, engagement models, deliverables, vendor proof, risks, and handoff.",
+      "keyword": "data engineering consulting"
+    },
+    {
       "id": "article:data-engineering-course",
       "type": "article",
       "label": "Data Engineering Course: What to Learn and How to Prove Job-Ready Skill",
@@ -129,6 +159,16 @@
       "count": 1,
       "search": "Data Engineering Freelance: How to Start, Prove Credibility, and Win Clients A podcast backed guide to freelance data engineering: how it differs from full time work, which services to offer first, how to prove credibility, and how to find and price client work.",
       "keyword": "data engineering freelance"
+    },
+    {
+      "id": "article:data-engineering-podcast",
+      "type": "article",
+      "label": "Data Engineering Podcast: DataTalks.Club Episodes to Start With",
+      "title": "Data Engineering Podcast: DataTalks.Club Episodes to Start With",
+      "url": "/articles/data-engineering-podcast/",
+      "count": 1,
+      "search": "Data Engineering Podcast: DataTalks.Club Episodes to Start With A podcast backed listening guide to DataTalks.Club episodes on data engineering fundamentals, tools, platforms, DataOps, careers, freelance work, streaming, Data Mesh, and governance.",
+      "keyword": "data engineering podcast"
     },
     {
       "id": "article:data-engineering-tools",
@@ -269,6 +309,16 @@
       "count": 1,
       "search": "Machine Learning Bootcamp: How to Choose One and Prove Job Ready Skill A podcast backed guide to evaluating a machine learning bootcamp by skill sequence, project evidence, production awareness, interview readiness, and career fit.",
       "keyword": "machine learning bootcamp"
+    },
+    {
+      "id": "article:machine-learning-engineer-certification",
+      "type": "article",
+      "label": "Machine Learning Engineer Certification: When It Helps and What Matters More",
+      "title": "Machine Learning Engineer Certification: When It Helps and What Matters More",
+      "url": "/articles/machine-learning-engineer-certification/",
+      "count": 1,
+      "search": "Machine Learning Engineer Certification: When It Helps and What Matters More A podcast backed guide to deciding whether a machine learning engineer certification helps, what evidence hiring teams trust more, and how to turn certification study into an end to end ML engineering project.",
+      "keyword": "machine learning engineer certification"
     },
     {
       "id": "article:machine-learning-for-software-engineers",
@@ -3497,6 +3547,120 @@
       "weight": 5
     },
     {
+      "source": "article:data-engineer-consulting",
+      "target": "article:data-engineer-consultant",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineer-consulting",
+      "target": "article:data-engineering-freelance",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineer-consulting",
+      "target": "article:freelance-data-engineer",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineer-consulting",
+      "target": "person:adrianbrudaru",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineer-consulting",
+      "target": "wiki:data-engineer-role",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineer-consulting",
+      "target": "wiki:data-engineer-role",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineer-consulting",
+      "target": "wiki:data-engineering",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineer-consulting",
+      "target": "wiki:data-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineer-consulting",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineer-consulting",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineer-consulting",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineer-consulting",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineer-consulting",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineer-consulting",
+      "target": "wiki:data-strategy",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineer-consulting",
+      "target": "wiki:data-strategy",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineer-consulting",
+      "target": "wiki:dataops",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineer-consulting",
+      "target": "wiki:dataops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineer-consulting",
+      "target": "wiki:freelance",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineer-consulting",
+      "target": "wiki:open-source-portfolio-evidence",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
       "source": "article:data-engineer-course",
       "target": "article:data-engineering-bootcamp",
       "kind": "article-link",
@@ -4043,6 +4207,204 @@
       "weight": 5
     },
     {
+      "source": "article:data-engineering-consultant",
+      "target": "article:data-engineer-consultant",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:data-engineering-consultant",
+      "target": "article:data-engineering-freelance",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-consultant",
+      "target": "article:freelance-data-engineer",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-consultant",
+      "target": "wiki:career-transitions-in-data",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-consultant",
+      "target": "wiki:career-transitions-in-data",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-consultant",
+      "target": "wiki:data-engineering",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering-consultant",
+      "target": "wiki:data-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-consultant",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering-consultant",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-consultant",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:data-engineering-consultant",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-consultant",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-consultant",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-consultant",
+      "target": "wiki:job-search",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-consultant",
+      "target": "wiki:job-search",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-consultant",
+      "target": "wiki:mlops-and-dataops",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-consultant",
+      "target": "wiki:mlops-and-dataops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-consultant",
+      "target": "wiki:open-source-portfolio-evidence",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering-consultant",
+      "target": "wiki:open-source-portfolio-evidence",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-consulting",
+      "target": "article:data-engineer-consultant",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering-consulting",
+      "target": "article:data-engineering-freelance",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-consulting",
+      "target": "article:freelance-data-engineer",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering-consulting",
+      "target": "wiki:data-engineering",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:data-engineering-consulting",
+      "target": "wiki:data-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-consulting",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering-consulting",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-consulting",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering-consulting",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-consulting",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-consulting",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-consulting",
+      "target": "wiki:dataops",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering-consulting",
+      "target": "wiki:dataops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-consulting",
+      "target": "wiki:freelance",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
       "source": "article:data-engineering-course",
       "target": "article:data-engineering",
       "kind": "article-link",
@@ -4281,6 +4643,240 @@
       "target": "wiki:open-source-portfolio-evidence",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "article:data-engineering-podcast",
+      "target": "article:apache-airflow",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-podcast",
+      "target": "article:data-engineer-consultant",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-podcast",
+      "target": "article:data-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-podcast",
+      "target": "article:data-engineering-bootcamp",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-podcast",
+      "target": "article:data-engineering-courses",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-podcast",
+      "target": "article:data-engineering-freelance",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering-podcast",
+      "target": "article:data-engineering-tools",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering-podcast",
+      "target": "article:dataops-vs-data-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-podcast",
+      "target": "article:freelance-data-engineer",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-podcast",
+      "target": "article:fundamentals-of-data-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-podcast",
+      "target": "wiki:batch-vs-streaming",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering-podcast",
+      "target": "wiki:batch-vs-streaming",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-podcast",
+      "target": "wiki:data-engineer-role",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-podcast",
+      "target": "wiki:data-engineering",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering-podcast",
+      "target": "wiki:data-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-podcast",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:data-engineering-podcast",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-podcast",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-podcast",
+      "target": "wiki:data-engineering-roadmap",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:data-engineering-podcast",
+      "target": "wiki:data-engineering-roadmap",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-podcast",
+      "target": "wiki:data-governance",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering-podcast",
+      "target": "wiki:data-governance",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-podcast",
+      "target": "wiki:data-mesh",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering-podcast",
+      "target": "wiki:data-mesh",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-podcast",
+      "target": "wiki:data-mesh-vs-centralized-data-platform",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-podcast",
+      "target": "wiki:data-observability",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-podcast",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering-podcast",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-podcast",
+      "target": "wiki:dataops",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering-podcast",
+      "target": "wiki:dataops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-podcast",
+      "target": "wiki:dbt",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-podcast",
+      "target": "wiki:freelance",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-podcast",
+      "target": "wiki:freelance",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-podcast",
+      "target": "wiki:governance",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-podcast",
+      "target": "wiki:modern-data-stack",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-podcast",
+      "target": "wiki:modern-data-stack",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-podcast",
+      "target": "wiki:platform-adoption",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-podcast",
+      "target": "wiki:platform-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-podcast",
+      "target": "wiki:streaming",
+      "kind": "article-link",
+      "weight": 2
     },
     {
       "source": "article:data-engineering-tools",
@@ -5133,6 +5729,102 @@
       "target": "wiki:software-engineer-to-machine-learning",
       "kind": "article-link",
       "weight": 2
+    },
+    {
+      "source": "article:machine-learning-engineer-certification",
+      "target": "article:mlops-certification",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:machine-learning-engineer-certification",
+      "target": "article:mlops-course",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:machine-learning-engineer-certification",
+      "target": "wiki:job-search",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:machine-learning-engineer-certification",
+      "target": "wiki:job-search",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:machine-learning-engineer-certification",
+      "target": "wiki:machine-learning-engineer-role",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:machine-learning-engineer-certification",
+      "target": "wiki:machine-learning-engineer-role",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:machine-learning-engineer-certification",
+      "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:machine-learning-engineer-certification",
+      "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:machine-learning-engineer-certification",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:machine-learning-engineer-certification",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:machine-learning-engineer-certification",
+      "target": "wiki:mlops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:machine-learning-engineer-certification",
+      "target": "wiki:mlops-roadmap",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:machine-learning-engineer-certification",
+      "target": "wiki:mlops-roadmap",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:machine-learning-engineer-certification",
+      "target": "wiki:model-monitoring",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:machine-learning-engineer-certification",
+      "target": "wiki:production",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:machine-learning-engineer-certification",
+      "target": "wiki:software-engineer-to-machine-learning",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "article:machine-learning-for-software-engineers",
