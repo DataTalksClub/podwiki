@@ -1,0 +1,220 @@
+# Podwiki Content TODO
+
+This backlog captures page categories that should become repeatable content
+families. Use it when planning new wiki pages, keyword articles, podcast
+summaries, or people-page expansion.
+
+## Category Rules
+
+Follow these rules when adding any page from this backlog.
+
+- Keep `_wiki/` pages as archive-backed reference pages with episode evidence,
+  tradeoffs, related pages, and maintenance notes.
+- Keep `_articles/` as polished keyword-targeted pages after a target keyword is
+  selected.
+- Keep `_podcast_summaries/` compact enough for agents to decide whether they
+  need the source episode.
+- Link podcast evidence through `https://datatalks.club/podcast.html` unless a
+  local podcast summary exists for agent context.
+- Run `make check` after adding pages so graph and search stay current.
+
+## Roles
+
+Create role pages that explain the work, the boundary with nearby roles, and the
+skills that show up in the archive. Each page should name the episodes that
+support the claims.
+
+When a role page links to people, use them as sources for what they said in the
+podcast archive. Keep biographies secondary.
+
+Existing pages:
+
+- `_wiki/analytics-engineering.md`
+- `_wiki/data-product-management.md`
+- `_articles/analytics-engineer.md`
+- `_articles/data-product-manager-role.md`
+
+Candidate pages:
+
+- Data engineer
+- Data scientist
+- Machine learning engineer
+- ML platform engineer
+- AI engineer
+- Analytics engineer
+- Data analyst
+- Data product manager
+- Developer advocate / DevRel engineer
+- MLOps engineer
+- Data architect
+- Data team lead / head of data
+
+Source hints:
+
+- `data-engineering-career-path-and-skills.md`
+- `big-data-engineer-vs-data-scientist.md`
+- `analytics-engineer-skills-tools.md`
+- `s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products.md`
+- `devrel-open-source-machine-learning.md`
+- `building-production-ml-platform-and-mlops-team.md`
+
+## Career Transitions
+
+Create reusable pages for common moves from one background into another data or
+AI role.
+
+Each page should cover the same core pieces:
+
+- transferable skills
+- missing skills
+- portfolio evidence
+- first job targets
+- relevant guest examples
+
+Existing pages:
+
+- `_wiki/career-transitions-in-data.md`
+- `_articles/software-engineer-to-machine-learning.md`
+
+Candidate pages:
+
+- Software engineer to machine learning
+- Data analyst to data engineer
+- Data analyst to analytics engineer
+- Marketing to analytics engineering
+- QA engineer to ML or data engineering
+- Academic researcher to data science
+- Product designer to data product manager
+- Data scientist to ML engineer
+- DevOps engineer to data engineering
+- Consultant or freelancer to data product founder
+
+Source hints:
+
+- `from-marketing-to-analytics-engineering-sql-dbt-career-switch.md`
+- `how-to-transition-into-ml-and-data-engineering-from-qa.md`
+- `postdoc-to-data-science-lead-career-transition.md`
+- `from-software-engineering-data-science-to-data-engineering-leadership.md`
+- `product-designer-to-data-product-manager.md`
+- `becoming-data-freelancer.md`
+
+## Portfolio Projects
+
+Create pages that help learners choose projects that prove real skills, not
+only tutorial completion. These pages should connect project ideas to
+episode-backed expectations around hiring, open source, production readiness,
+and role-specific portfolios.
+
+Existing pages:
+
+- `_articles/data-scientist-interview.md`
+- `_wiki/open-source-and-developer-relations.md`
+- `_wiki/data-engineering-portfolio-projects.md`
+- `_wiki/machine-learning-portfolio-projects.md`
+- `_wiki/analytics-engineering-portfolio-projects.md`
+- `_wiki/rag-portfolio-projects.md`
+- `_wiki/open-source-portfolio-evidence.md`
+
+Candidate pages:
+
+- End-to-end data pipeline project
+- Production ML project checklist
+- Search or RAG project checklist
+- Dashboard and metric-layer project checklist
+
+Source hints:
+
+- `data-science-interview-and-cv-guide.md`
+- `get-data-scientist-job.md`
+- `open-source-ml-contributions.md`
+- `developer-personal-brand-learn-in-public.md`
+- `building-scalable-and-reliable-machine-learning-systems.md`
+- `modern-search-systems-vector-databases-llms-semantic-retrieval.md`
+
+## Roadmaps
+
+Create roadmap pages that explain learning sequence, project sequence, role
+milestones, and when to stop studying and build. These should be archive-backed,
+not generic course lists.
+
+Existing pages:
+
+- `_wiki/machine-learning-system-design.md`
+- `_wiki/mlops-and-dataops.md`
+- `_wiki/llm-production-patterns.md`
+- `_wiki/search-rag-and-knowledge-systems.md`
+
+Candidate pages:
+
+- Data engineering roadmap
+- Analytics engineering roadmap
+- Machine learning engineer roadmap
+- AI engineer roadmap
+- MLOps roadmap
+- Data scientist interview roadmap
+- Data product manager roadmap
+- Open-source contributor roadmap
+- LLM / RAG production roadmap
+
+Source hints:
+
+- `data-engineering-career-path-and-skills.md`
+- `how-to-grow-your-ml-engineering-career.md`
+- `s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products.md`
+- `machine-learning-system-design-interview.md`
+- `mlops-at-scale-reproducibility-adoption.md`
+
+## X vs Y
+
+Create comparison pages for high-intent queries where readers need concrete
+comparison outcomes:
+
+- a decision
+- a role boundary
+- an architecture tradeoff
+- a vocabulary clarification
+
+Existing pages:
+
+- `_articles/dataops-vs-data-engineering.md`
+
+Candidate pages:
+
+- Data engineer vs data scientist
+- Data analyst vs analytics engineer
+- Machine learning engineer vs data scientist
+- Data product manager vs product manager
+- Product owner vs product manager
+- MLOps vs DevOps
+- DataOps vs MLOps
+- ETL vs ELT
+- Batch vs streaming
+- Data warehouse vs data lakehouse
+- Data mesh vs centralized data platform
+- RAG vs fine-tuning
+- Vector database vs search engine
+- Knowledge graph vs vector search
+
+Source hints:
+
+- `big-data-engineer-vs-data-scientist.md`
+- `analytics-engineer-skills-tools.md`
+- `building-data-products-product-owner-vs-product-manager.md`
+- `data-engineering-tools-modern-data-stack.md`
+- `data-mesh-architecture-decentralized-data-products.md`
+- `production-ml-search-vector-search-embeddings-hybrid-search.md`
+
+## Next Batch
+
+Start with this batch when expanding the content set.
+
+- Add role pages for data engineer, data scientist, machine learning engineer,
+  AI engineer, and data analyst.
+- Add transition pages for marketing to analytics engineering, QA to ML/data
+  engineering, and academic researcher to data science.
+- Add portfolio project pages for data engineering, ML engineering, analytics
+  engineering, and RAG.
+- Add roadmap pages for data engineering, AI engineering, MLOps, and analytics
+  engineering.
+- Add comparison pages for data engineer vs data scientist, data analyst vs
+  analytics engineer, MLOps vs DevOps, ETL vs ELT, and RAG vs fine-tuning.

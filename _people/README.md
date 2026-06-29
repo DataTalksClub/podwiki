@@ -4,7 +4,8 @@ published: false
 
 # People Exploration Pages
 
-This directory contains LLM-curated exploration pages for DataTalks.Club podcast guests and contributors.
+This directory contains LLM-curated exploration pages for DataTalks.Club podcast
+guests and contributors.
 
 ## Source Policy
 
@@ -30,15 +31,25 @@ podcast_episodes: ["episode-slug"]
 ---
 ```
 
-Body sections:
+People pages are primarily about podcast content, not biographies. Include just
+enough background to explain why the guest's claims matter, then focus on what
+they argued, explained, contrasted, or demonstrated in the archive.
 
-- `## Background`: short source-grounded bio.
-- `## Podcast Contributions`: episode-level contribution summary with links to podcast summaries when useful and to the canonical DataTalks.Club podcast index for source episodes.
-- `## Concepts Connected`: concept links using `/wiki/<slug>/` paths when the topic exists.
+Use these body sections:
+
+- `## Podcast Context`: short bio/context tied to the podcast appearance.
+- `## Podcast Contributions`: episode-level contribution summary with links to
+  podcast summaries when useful and to the canonical DataTalks.Club podcast
+  index for source episodes.
+- `## Reusable Claims and Examples`: claims, distinctions, examples, or
+  decision rules future agents can reuse.
+- `## Concepts Connected`: concept links using `/wiki/<slug>/` paths when the
+  topic exists.
 - `## Source Links`: local source person and podcast files for verification.
 
 ## Maintenance Notes
 
-- Keep pages concise enough for agent lookup, but synthesize why the person matters across the archive.
+- Keep pages concise enough for agent lookup, but synthesize why the person's
+  podcast contribution matters across the archive.
 - Prefer durable concepts over keyword stuffing.
 - If a page becomes a major synthesis artifact, link it from the relevant topic or insight page in a separate wiki-maintenance pass.

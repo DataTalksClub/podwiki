@@ -6,6 +6,7 @@ summary: "A practical explanation of MLOps based on DataTalks.Club podcast discu
 related_wiki:
   - MLOps and DataOps
   - Data Engineering Platforms
+  - Data Quality and Observability
 ---
 
 MLOps is the practice of making machine learning systems reliable after the first

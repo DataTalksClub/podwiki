@@ -6,6 +6,7 @@ summary: "A podcast-backed overview of data pipeline design: ingestion, transfor
 related_wiki:
   - Data Engineering Platforms
   - MLOps and DataOps
+  - Data Quality and Observability
 ---
 
 To build a useful data pipeline, start with the decision or workflow the data

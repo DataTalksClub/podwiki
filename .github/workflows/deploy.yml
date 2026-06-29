@@ -35,10 +35,14 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v6
+      - name: Build graph data
+        run: python scripts/build_graph.py
       - name: Build with Rustkyll
         run: .bin/rustkyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
+      - name: Check internal links
+        run: python scripts/check_links.py --baseurl "${{ steps.pages.outputs.base_path }}"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
         with:

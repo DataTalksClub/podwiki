@@ -26,13 +26,15 @@ thematic "Insight Hub" pages.
 
 - `sources/` documents where raw source material lives. The raw Markdown files are
   not copied here.
+- `CONTENT_TODO.md` keeps the durable backlog for roles, transitions, portfolio
+  projects, roadmaps, and comparison pages.
 - `_podcast_summaries/` contains agent-friendly episode summaries that link back
   to the original podcast archive. Full transcripts stay in the website repo.
 - `_people/` contains guest/contributor exploration pages.
 - `_wiki/` contains comprehensive archive-derived wiki articles.
 - `_articles/` contains keyword-driven SEO/editorial articles.
 - `search/` contains the browser fallback corpus copied into the static site.
-- `graph/graph.json` contains the static graph data used by `/graph.html`.
+- `graph/graph.json` contains generated static graph data used by `/graph.html`.
 - `artifacts/search/` contains build artifacts for the Zerosearch Lambda.
 - `search_lambda/` contains the AWS Lambda handler for exploration-page search.
 - `scripts/` contains deterministic helpers for search packaging and checking the
@@ -64,6 +66,18 @@ episode summaries, people, and source-episode relationships from
 `graph/graph.json`. Clicking a node opens a side panel with canonical page links,
 search links, related nodes, and a copyable graph URL such as
 `/graph.html#topic%3Allms`.
+
+Rebuild graph data after content changes:
+
+```bash
+make graph
+```
+
+Check generated internal links after a build:
+
+```bash
+python scripts/check_links.py
+```
 
 ## Search Lambda
 
@@ -110,7 +124,8 @@ Optional repository variable:
    discoverable here.
 3. Link the new summary from relevant `_wiki/`, `_articles/`, and `_people/`
    pages when it adds evidence.
-4. Run `make check` in this repo.
+4. Run `make check` in this repo. This refreshes graph data, search corpus, the
+   Lambda package, static HTML, and generated internal-link checks.
 5. Push this repo to rebuild and deploy the search Lambda through GitHub Actions.
 
 ## Recommended Workflow

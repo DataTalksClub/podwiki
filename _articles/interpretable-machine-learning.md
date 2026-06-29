@@ -4,9 +4,9 @@ title: "Interpretable Machine Learning: How to Build Models People Can Trust"
 keyword: "interpretable machine learning"
 summary: "A practical guide to interpretable machine learning, explainable AI, SHAP, conformal prediction, fairness checks, governance, and actionability."
 related_wiki:
-  - Machine Learning
-  - Responsible AI
-  - Interpretability
+  - Responsible AI and Governance
+  - Data Quality and Observability
+  - MLOps and DataOps
 ---
 
 Interpretable machine learning helps people understand why a model behaves the

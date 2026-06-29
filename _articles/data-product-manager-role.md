@@ -5,6 +5,7 @@ keyword: "data product management"
 summary: "A practical explanation of the data product manager role, based on podcast discussions about discovery, metrics, roadmaps, ownership, and data product adoption."
 related_wiki:
   - Data Product Management
+  - Experimentation and Causal Inference
   - Data Engineering Platforms
 ---
 

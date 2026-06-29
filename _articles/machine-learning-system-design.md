@@ -4,9 +4,9 @@ title: "Machine Learning System Design: A Practical Production Checklist"
 keyword: "machine learning system design"
 summary: "A podcast-backed guide to machine learning system design: problem framing, data, baselines, evaluation, serving, monitoring, fallbacks, and interview preparation."
 related_wiki:
-  - Machine Learning
+  - Machine Learning System Design
   - MLOps and DataOps
-  - System Design
+  - LLM Production Patterns
 ---
 
 Machine learning system design is the practice of turning a model idea into a

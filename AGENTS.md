@@ -15,6 +15,8 @@ not rediscover the same knowledge from scratch.
 ## Layers
 
 - `sources/`: documentation about raw sources and source paths.
+- `CONTENT_TODO.md`: durable backlog for content families such as roles,
+  transitions, portfolio projects, roadmaps, and X vs Y pages.
 - `_podcast_summaries/`: compact episode summaries for agents. Do not copy full
   transcripts here; link to the original source episode.
 - `_people/`: guest/contributor exploration pages.
@@ -25,6 +27,7 @@ not rediscover the same knowledge from scratch.
 - `search/` and `artifacts/search/`: generated exploration-page search corpora
   and packed Zerosearch artifacts.
 - `graph/graph.json`: generated podcast graph data for the static visualization.
+  Do not hand-edit it; run `python scripts/build_graph.py` or `make graph`.
 
 ## Page Ownership
 
@@ -32,9 +35,17 @@ Do not create public full episode, topic, guest, or transcript-copy pages in thi
 repo. The canonical podcast archive is `https://datatalks.club/podcast.html`, with
 source files in `../datatalksclub.github.io/_podcast`.
 
+People pages should be mostly about the person's podcast contributions: what
+they argued, explained, contrasted, or demonstrated in the archive. Keep a short
+bio only when it helps interpret the content.
+
 Curated pages should omit `generated: true`. Do not overwrite curated synthesis
 casually. If source evidence changes, update the relevant exploration page with a
 compact note and links back to the source podcast repo.
+
+Stub wiki pages are allowed when a topic link already exists and the full
+writeup is not ready. Mark them with `stub: true`, link them to an existing hub,
+and replace them with podcast-backed synthesis when the topic becomes important.
 
 ## Ingest Workflow
 
@@ -46,7 +57,8 @@ compact note and links back to the source podcast repo.
 4. Update the target exploration page with synthesized takeaways, not just lists
    of links.
 5. Add cross-links to related wiki pages, articles, people, and podcast summaries.
-6. For search changes, run `python scripts/build_search_index.py`.
+6. For graph/search changes, run `make graph` and
+   `python scripts/build_search_index.py`, or simply run `make check`.
 
 ## Insight Hub Target
 
@@ -112,8 +124,13 @@ transcripts.
 
 The graph UI lives at `graph.md` and `assets/graph.js`. It should remain static:
 use `graph/graph.json`, avoid external runtime dependencies, and keep node links
-stable through graph URL hashes. Episode nodes should link to local podcast
-summaries when available and otherwise to `https://datatalks.club/podcast.html`.
+stable through graph URL hashes. `graph/graph.json` is generated from collection
+frontmatter and internal links by `scripts/build_graph.py`. Episode nodes should
+link to local podcast summaries when available and otherwise to
+`https://datatalks.club/podcast.html`.
+
+Run `python scripts/check_links.py` after a static build to validate generated
+internal links. GitHub Pages runs the same checker with the deployed base path.
 
 ## Lint Workflow
 

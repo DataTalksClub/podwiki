@@ -4,9 +4,10 @@ title: "LLM Tools: How to Choose the Right Stack for Real Products"
 keyword: "llm tools"
 summary: "A practical guide to choosing LLM tools for production workflows, including model APIs, open-source models, RAG, evaluation, agents, observability, and cost trade-offs."
 related_wiki:
-  - LLMs
+  - LLM Production Patterns
+  - Search, RAG, and Knowledge Systems
   - MLOps and DataOps
-  - Tools
+  - Responsible AI and Governance
 ---
 
 LLM tools are useful only when they support a real workflow. A production stack

@@ -6,6 +6,7 @@ summary: "A practical guide to DataOps, how it differs from data engineering, an
 related_wiki:
   - MLOps and DataOps
   - Data Engineering Platforms
+  - Data Quality and Observability
 ---
 
 Data engineering builds and maintains systems that move, transform, model, and
