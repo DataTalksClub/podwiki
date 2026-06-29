@@ -14,10 +14,10 @@ Follow these rules when adding any page from this backlog.
   selected.
 - Keep `_podcast_summaries/` compact enough for agents to decide whether they
   need the source episode.
-- Link podcast evidence to specific episode URLs such as
-  `https://datatalks.club/podcast/<source-file-slug>.html` when the source
-  episode is known. Use `https://datatalks.club/podcast.html` only as a
-  temporary fallback.
+- Link podcast evidence to local podcast summary pages such as
+  `{{ '/podcasts/<source-file-slug>/' | relative_url }}`. Those local pages
+  link to the canonical DataTalks.Club episode. Do not link article or wiki
+  evidence to the generic podcast archive page.
 - Run `make check` after adding pages so graph and search stay current.
 
 ## Current Rewrite Requirements

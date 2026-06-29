@@ -3,6 +3,12 @@ layout: article
 title: "Data Engineering Course: What to Learn and How to Prove Job-Ready Skill"
 keyword: "data engineering course"
 summary: "A podcast-backed guide to choosing a data engineering course by fundamentals, projects, tool judgment, portfolio evidence, and interview readiness."
+search_intent: |
+  People searching for "data engineering course" usually want a practical way
+  to compare free courses, paid courses, cohorts, certificates, and self-paced
+  learning paths. They need to know which skills matter, what kind of project
+  proves readiness, when advanced tools are useful, and how course work turns
+  into interviews.
 related_wiki:
   - Data Engineering Roadmap
   - Data Engineering Portfolio Projects
@@ -12,296 +18,328 @@ related_wiki:
   - Job Search
 ---
 
-People searching for a data engineering course usually need more than a list of
-tools. They need to know what a course should teach, what kind of project proves
-skill, and when a syllabus is trying to cover too much.
+A data engineering course is useful when it helps you do the work behind the
+[data engineer role]({{ '/wiki/data-engineer-role/' | relative_url }}).
+That work turns messy data into trusted datasets that other people can query,
+model, monitor, and depend on. The course format matters less than the evidence
+it produces. By the end, another engineer should be able to run your project
+and look at your SQL and Python. They should also be able to question your
+design choices and understand how the pipeline fails.
 
-The DataTalks.Club podcast archive gives a practical standard. A strong course
-should teach you how to move messy data into trusted datasets. It should make
-you write enough Python and SQL to be credible. It should also help you explain
-why you chose a stack, how the pipeline fails, and what a downstream user can
-trust.
+Use this guide when comparing course formats. For adjacent decisions, see
+[Data Engineer Courses]({{ '/articles/data-engineer-courses/' | relative_url }}),
+[Data Engineering Bootcamp]({{ '/articles/data-engineering-bootcamp/' | relative_url }}),
+and the broader
+[Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }}).
 
-Use this page to evaluate a free course, paid course, cohort program, or
-self-paced path. If you want the intensive-program version of this question,
-see [Data Engineering Bootcamp]({{ '/articles/data-engineering-bootcamp/' | relative_url }}).
-For the full learning sequence, use
-[Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
-and [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }}).
+## Start With The Work
 
+The best data engineering course starts with the work, not the tool list. It
+should teach ingestion and raw storage. It should also teach transformation,
+testing, scheduling, and failure recovery. You should have to explain the
+system to a downstream user.
 
-## Course Evaluation Outline
+[Jeff Katz]({{ '/people/jeffkatz/' | relative_url }}) gives the curriculum
+standard in
+[Build a Data Engineering Career]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }}).
+Around 23:35, he describes the junior data engineering path as more defined
+than many data science paths. For core subjects, he names Python and SQL. He
+also names cloud fundamentals and orchestration.
 
-Evaluate a data engineering course in this order.
+Around 36:18, he describes a sequence that starts with Python and SQL. It then
+adds analytics engineering, warehouse work, and BI. Later parts add backend
+engineering, ETL, testing, and Airflow.
 
-1. Start with the role. The course should explain what data engineers build and
-   where the role overlaps with analytics engineering, data science, and ML
-   engineering.
-2. Check the fundamentals. You should spend serious time on SQL, Python, data
-   modeling, cloud basics, and orchestration.
-3. Look at the projects. A course should make you ingest, store, transform,
-   test, schedule, and document data.
-4. Look for operating practice. You need retries, backfills, data quality
-   checks, runbooks, and failure analysis.
-5. Add modern tools only when they solve a problem. Spark, Kafka, Kubernetes,
-   lakehouse table formats, and streaming shouldn't crowd out the basics.
-6. Connect the work to interviews. A course should prepare you for SQL,
-   Python, take-home projects, and project walkthroughs.
+Use that sequence as a practical benchmark. A course shouldn't treat Python
+and SQL as warm-up topics before the "real" tools. Python and SQL are the work.
+Tools matter when they make the pipeline repeatable, reviewable, observable,
+or easier for another person to operate.
 
-This order matters because a job-ready learner needs judgment, not only tool
-exposure.
+A good course should make you practice:
 
-## Strong Course Content
+- SQL for joins, aggregations, CTEs, window functions, table grain, data marts,
+  and validation queries
+- Python for APIs, files, extraction, loading, configuration, logging, error
+  handling, and tests
+- storage choices such as warehouses, lakes, lakehouses, partitions, raw
+  layers, modeled layers, and serving tables
+- orchestration for schedules, dependencies, retries, backfills, alerts, and
+  run history
+- data quality checks for freshness, row counts, uniqueness, accepted values,
+  nulls, schema changes, and business rules
+- documentation for setup, data dictionaries, runbooks, tradeoffs, ownership,
+  and known failure modes
+- cloud and Docker basics so another person can run the project
 
-A strong course starts from real data engineering work. Data engineers ingest
-files and API data, plus records from databases, logs, applications and
-third-party systems. They store that data in a warehouse or lakehouse. Some
-teams use a lake or operational store. Then they transform the data into
-datasets other people can query and trust.
+This is also where the course should connect to
+[analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }}),
+[dbt]({{ '/wiki/dbt/' | relative_url }}), and the
+[modern data stack]({{ '/wiki/modern-data-stack/' | relative_url }}). A course
+that teaches only ingestion scripts is incomplete. A course that teaches only
+warehouse modeling is also incomplete. Job-ready data engineering sits between
+systems, data modeling, and operation.
 
-The course should make you practice these layers:
+## Evaluate The Curriculum
 
-- SQL for joins, aggregations, window functions, table grain, modeling, and
-  quality checks
-- Python for APIs, files, extraction, validation, loading, configuration, and
-  tests
-- storage concepts such as warehouses, lakes, lakehouses, partitions, and raw
-  versus modeled layers
-- orchestration for schedules, dependencies, retries, backfills, and alerts
-- data quality checks for freshness, nulls, uniqueness, accepted values,
-  row counts, schema changes, and business rules
-- documentation for setup, data dictionaries, runbooks, tradeoffs, and known
-  failure modes
-- cloud and Docker basics so someone else can run the project
+Use the curriculum as a signal for what the course believes a data engineer is.
+If the first page promises every major data tool, read carefully. Spark, Kafka,
+Kubernetes, and lakehouse formats can be useful. Streaming, reverse ETL, dbt,
+and Airflow can be useful too.
 
-Jeff Katz makes the clearest curriculum case in
-[Build a Data Engineering Career](https://datatalks.club/podcast.html). At
-23:35, he describes the junior data engineering path as more defined than many
-data science paths. A course can go deep on Python and SQL. It can also cover
-cloud computing and orchestration.
+Cloud services can also be useful, but all these tools can crowd out the
+fundamentals.
 
-At 36:18, he describes a course sequence that starts with Python and SQL, then
-adds analytics engineering and warehouse work. Later modules add BI and backend
-engineering, plus ETL, testing and Airflow.
+Jeff makes this tradeoff explicit in
+[Build a Data Engineering Career]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }}).
+Around 38:05-40:04, he explains why a junior-focused program removed Spark,
+Kafka, and Kubernetes. Spark and Kafka appeared more in senior roles.
+Kubernetes took weeks away from coding. Around 56:46, he describes the target
+balance as mostly Python and SQL, with tools and cloud basics taking a smaller
+share.
 
-That gives you a useful benchmark. A data engineering course shouldn't treat
-Python and SQL as warm-up topics before the "real" tools. Python and SQL are the
-work. The tools are useful when they make the pipeline reproducible, testable,
-observable, or easier for other people to use.
+Use that as a filter.
 
-## Project Evidence Matters More Than Completion
+A beginner course should spend most of its time on:
 
-Course completion alone is weak evidence. Hiring teams need to see that you can
-build a working data system and explain the choices inside it.
+1. SQL and data modeling.
+2. Python for data work.
+3. End-to-end batch pipelines.
+4. Tests, documentation, and reproducible runs.
+5. Orchestration and reruns.
+6. Interview and project walkthrough practice.
 
-A strong course project has a real data path:
+Add advanced tools when the constraint appears. Learn
+[Apache Airflow]({{ '/articles/apache-airflow/' | relative_url }}) when the
+workflow needs dependencies, schedules, retries, and backfills. Learn Docker
+when another person needs the same environment. Learn dbt-style workflows when
+SQL models need tests, docs, lineage, and review.
 
-1. It ingests data from an API, files, database dump, event log, or simulated
-   change data capture source.
-2. It stores raw data before transforming it.
-3. It creates cleaned, modeled, and serving tables.
-4. It names a consumer such as an analyst, dashboard, ML training job, product
-   feature, or operational workflow.
-5. It runs without manual notebook steps.
-6. It includes tests, logs, documentation, and recovery notes.
+Learn streaming when latency changes the user outcome. Learn Spark when data
+size or the target role requires distributed compute. Learn Kubernetes when
+deployment and platform ownership are actually part of the job.
 
-Jeff Katz raises the portfolio bar in
-[Data Engineering Job Prep and Interview Guide](https://datatalks.club/podcast.html).
-At 1:49, he warns that many portfolio projects list tools but show too little
-Python and SQL. At 2:22, he asks for small functions and descriptive names. He
-also wants object oriented design where it helps, plus tests. At 2:46, he
-recommends personal projects and open-source work because external review pushes
-the code closer to professional standards.
+[Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) gives the
+modern-stack version in
+[Modern Data Engineering]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}).
+Around 41:06, he recommends SQL and Python for beginners. He also recommends
+requirements gathering and portfolio building. Around 44:42, he ties tool choice to the end user and
+warns against vendor-led stack decisions. That's the right course standard:
+tools should answer a data problem, not decorate the syllabus.
 
-Gloria Quiceno's job-search episode shows why custom evidence matters. In
-[Gloria's data engineering job-search story](https://datatalks.club/podcast.html),
-she describes graduating from a bootcamp. She then spent about four and a half
-months applying.
-
-At 36:20, she connects Python, Docker, Airflow and networking to the value she
-got from the program. At 51:42, she warns that employers may see the same course
-projects repeatedly. A custom project can stand out when you explain the
-problem, data, and design choices.
-
-Use [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
-as the project review standard before you put a course project on your resume.
-A smaller project with real tests, clear SQL, and a recovery story usually
-beats a large project that only shows a stack diagram.
-
-## Skip Advanced Tools
-
-Some data engineering courses pack one syllabus with Spark, Kafka, and
-Kubernetes. They may add streaming and lakehouse formats. They may also include
-reverse ETL and Airflow. Some add dbt, Docker and cloud platforms. Some of
-those tools are useful, but a beginner course can become too broad to build
-skill.
-
-Jeff Katz explains this tradeoff directly in
-[Build a Data Engineering Career](https://datatalks.club/podcast.html). At
-38:05-40:04, he says his junior-focused program removed Spark, Kafka, and
-Kubernetes. Those tools appeared more often in senior job descriptions and took
-time away from coding. At 56:46, he describes the target balance as mostly
-Python and SQL, with a smaller share for newer tools and cloud basics.
-
-That doesn't mean advanced tools are unimportant. It means the course should
-sequence them after the constraint appears.
-
-- Learn Airflow when you need dependencies, scheduling, retries, and backfills.
-- Learn Docker when someone else needs to run your scripts in the same
-  environment.
-- Learn dbt-style workflows when SQL models need tests, docs, lineage, and
-  review.
-- Learn a warehouse or lakehouse when you need shared storage, query access,
-  permissions, and cost awareness.
-- Learn streaming when a delayed answer loses value.
-- Learn Spark when data size, distributed compute, or the target role requires
-  it.
-- Learn Kubernetes when deployment and platform ownership are part of the role.
-
-Natalie Kwong's episode,
-[ETL vs ELT and Modern Data Engineering](https://datatalks.club/podcast.html),
-supports the same idea from the tool side. At 4:30, she breaks ETL into source
-extraction, business-specific transformation, and loading into the place where
-people consume data. At 10:22, she explains transformations from simple type
-casting to SQL joins across sources. At 28:07, she says whether a team needs a
-lake or warehouse depends on business complexity and team needs.
-
-Adrian Brudaru adds the modern-stack caution in
-[Modern Data Engineering](https://datatalks.club/podcast.html). At 41:06, he
-recommends SQL and Python for beginners. He also recommends requirements
-gathering and portfolio building. At 43:28-44:42, he ties tool choice to the end user. He also warns
-against vendor-led stack choices.
-
-For a deeper tool map, use
+For a wider tool map, use
 [Data Engineering Tools]({{ '/articles/data-engineering-tools/' | relative_url }})
-and [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}).
+and [Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }}).
 
-## Job-Ready Skill
+## Check The Project Standard
 
-A job-ready data engineering course should leave you able to do several things
-without hiding behind a tool name.
+Course completion is weak evidence. A useful course leaves you with a project
+that shows ownership. The project should have a data path, a consumer, a
+failure story, and enough code for review.
 
-You should be able to:
+A strong course project includes:
 
-- explain the consumer, freshness need, and failure risk for a dataset
-- write SQL that joins, aggregates, windows, models, and validates data
-- write Python that extracts, checks, and loads data in repeatable runs
-- separate raw, staged, transformed, and serving layers
-- schedule a workflow and make reruns safe
-- add basic quality checks and explain what happens when they fail
-- document setup, ownership, backfills, and tradeoffs
-- walk through one project in an interview with clear technical choices
+- a real or realistic source such as an API, file drop, database export, event
+  log, or simulated change data capture stream
+- raw data stored before transformation
+- staged, cleaned, modeled, and serving tables
+- substantial SQL and Python written by you
+- orchestration outside a notebook
+- data quality checks and documented assumptions
+- one failure mode such as late data, duplicates, schema change, or a broken
+  dependency
+- a named consumer such as an analyst, dashboard owner, ML training job,
+  product team, reverse ETL destination, or operations workflow
+- setup instructions, a data dictionary, a runbook, and tradeoff notes
 
-The archive's role pages describe the same standard. Data engineers make data
-usable for analysts and data scientists. They also support ML engineers,
-product teams, and business users.
-They don't only move data. They make the data understandable, reliable, and
-owned when something breaks.
+In
+[Data Engineering Job Prep and Interview Guide]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }}),
+Jeff Katz describes the hiring version of this standard. Around 1:49, he warns
+that many portfolio projects list the expected tools but show too little Python
+and SQL. Around 2:22, he asks for small functions and descriptive names. He
+also asks for useful classes and tests. Around 2:46, he recommends personal
+projects and open-source work because outside review makes the work more
+professional.
 
-Gloria's story adds an important non-tool signal. At 43:37 in
-[Gloria's data engineering job-search story](https://datatalks.club/podcast.html),
-she says interviewers noticed her awareness of clean data and anomaly detection.
-They also noticed that she knew what to do when data isn't organized. That
-matters because many candidates arrive with similar course certificates. You
-send a stronger signal when you understand the work a team needs after the
-course.
+That advice should change how you judge a course. A project that only proves
+you followed a template isn't enough.
 
-## Interview Readiness Belongs in the Course
+A smaller
+[data engineering portfolio project]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
+with clear SQL and real Python is stronger than a large architecture diagram
+that nobody can run. Add tests, documentation, and rerun instructions so the
+work can survive review.
 
-A data engineering course shouldn't end with a capstone demo. You still need
-to translate course work into interviews.
+## Look For Feedback
 
-Jeff Katz describes the interview sequence in
-[Data Engineering Job Prep and Interview Guide](https://datatalks.club/podcast.html).
-At 7:46, he says technical screens often include medium-to-hard SQL and easier
-Python problems. At 8:05, he says some interviews use a take-home project where
-you load raw data, query it, and present findings. In the earlier career-path
-episode, at 44:33-45:14, he mentions SQL window functions and medium SQL
-practice. He also mentions data modeling questions such as OLTP versus OLAP.
+Courses differ most in feedback. A video library can teach concepts, but it
+can't review your table grain or Python structure. It also can't tell you
+whether your pipeline would fail during a backfill.
 
-A strong course should therefore include:
+Jeff's teaching episode is useful here too. In
+[Build a Data Engineering Career]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }}),
+he discusses active learning and continuous student feedback around 3:56.
+Around 11:44, he describes lessons, labs, and reinforcement cycles. Around
+14:30, he argues for conceptual understanding before implementation.
+
+When comparing courses, look for review points:
+
+- SQL review for joins, windows, table grain, and validation logic
+- Python review for function size, names, configuration, error handling, tests,
+  and repository structure
+- pipeline review for raw storage, staged models, serving tables, dependencies,
+  and reruns
+- architecture review for batch versus streaming, warehouse versus lakehouse,
+  and orchestrator choice
+- operational review for logs, alerts, failed runs, backfills, ownership, and
+  runbooks
+- interview review for explaining the project to an engineer, recruiter, and
+  nontechnical stakeholder
+
+If a paid course has no serious project review, treat it as a structured
+learning resource rather than job-ready preparation. If a free course has a
+strong community, code review, and project expectations, it may beat a paid
+program that only provides videos and quizzes.
+
+## Customize The Capstone
+
+You get more value from a course project when you make it yours.
+In
+[Gloria Quiceno's data engineering job-search episode]({{ '/podcasts/get-data-analytics-and-data-engineering-job/' | relative_url }}),
+[Gloria Quiceno]({{ '/people/gloriaquiceno/' | relative_url }}) describes
+finishing a bootcamp and then spending about four months searching around
+16:14-18:21. Around 36:20, she names Python and Docker as valuable parts of the
+program. Airflow and networking mattered too.
+
+The stronger signal comes later. Around 50:15, Gloria discusses a capstone
+with a Twitter data pipeline, Docker containers, and a Slack bot. Around 51:42,
+she says custom projects can stand out because employers may see the same
+course projects repeatedly. Around 53:34, she discusses data quality through
+bot detection, cleaning Twitter data, and sentiment bias.
+
+Start with the course project if it teaches the mechanics.
+
+Then change enough of it to prove ownership:
+
+1. Replace the default dataset with a source you chose.
+2. Name the user and decision the data supports.
+3. Add a data quality problem that can actually happen.
+4. Add tests and a runbook.
+5. Explain one rejected design and one tradeoff.
+6. Keep improving the repository after the course ends.
+
+This also helps with [job search]({{ '/wiki/job-search/' | relative_url }})
+because many candidates have similar certificates. Fewer candidates can explain
+why their pipeline stores raw records, how it handles duplicates, and what
+happens when an upstream schema changes.
+
+## Include Modern Stack Judgment
+
+A course should explain the modern data stack without turning into vendor
+training. You need enough tool literacy to understand common teams, but you
+also need judgment about when a tool adds value.
+
+In
+[ETL vs ELT and Modern Data Engineering]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
+[Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) breaks ETL into
+source extraction, business-specific transformation, and loading around 3:46.
+Around 7:57, she explains why ELT gives teams flexibility and speed. Around
+10:00, she describes transformations ranging from type casting to SQL joins
+across sources. Around 12:39, she connects dbt-style work to the rise of
+analytics engineering.
+
+Natalie's episode also gives a good storage and operations checklist. Around
+15:30, she separates data marts from warehouses. Around 19:50-27:39, she
+compares lakes, warehouses, and cases where teams maintain both. Around 30:59,
+she explains Airflow's role in scheduling and running pipelines. Around 45:59,
+she introduces change data capture as syncing only changed rows.
+
+That means a data engineering course should teach tool categories, not only
+brands:
+
+- ingestion and connectors
+- transformation and modeling
+- warehouses, lakes, and lakehouses
+- orchestration
+- data quality and observability
+- metadata, lineage, and governance
+- batch, streaming, and CDC
+- reverse data flows when operational systems need modeled data
+
+Use
+[Data Warehouse vs Data Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }}),
+[Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }}), and
+[Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
+to deepen those parts after the course.
+
+## Prepare For Interviews
+
+A course shouldn't end at the final demo. It should help you turn the project
+into interview evidence.
+
+In
+[Data Engineering Job Prep and Interview Guide]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }}),
+Jeff Katz describes common interview formats around 7:46. He mentions
+medium-to-hard SQL and easier Python problems. He also describes take-home
+projects where candidates load raw data, query it, and present findings.
+
+Around 9:41, he names database concepts such as views, materialized views, and
+OLTP versus OLAP.
+Around 32:22, he connects object-oriented design to maintainable Airflow code.
+
+The earlier curriculum episode adds more detail. Around 44:21-45:14 in
+[Build a Data Engineering Career]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }}),
+Jeff mentions SQL window functions, medium SQL practice, and data modeling
+questions such as OLTP versus OLAP.
+
+A course should therefore include:
 
 - timed SQL practice
 - Python exercises outside notebooks
 - data modeling questions
+- take-home style work with raw data
 - project walkthrough practice
-- take-home style tasks with raw data
-- resume and LinkedIn translation for course projects
-- behavioral stories about bugs, ambiguity, tradeoffs, and feedback
+- resume and LinkedIn translation for projects
+- behavioral stories about bugs, ambiguity, feedback, tradeoffs, and failure
 
-You don't need to know every tool before applying. You need enough skill to
-build, enough judgment to explain, and enough interview practice to show both.
-For broader job-search context, use
-[Job Search]({{ '/wiki/job-search/' | relative_url }}).
+You don't need every tool before applying. You need enough skill to build,
+enough judgment to explain, and enough interview practice to show both.
 
-## Free, Paid, Cohort, or Self-Paced
+## Choose The Format
 
-The course format matters less than the evidence it helps you create.
+Free, paid, cohort, and self-paced courses can all work. The right format is
+the one that closes your specific gap.
 
-A free self-paced course can work well if you already have discipline and
-project ideas. It works better when people can review your work. A paid course
-can be worth it when it gives you structure and code review. Feedback,
-deadlines, interviews, and peer support can matter too.
+A free self-paced course can work if you already have discipline and a project
+idea. It works better when a community reviews your work. A paid course can be
+worth it when it provides structure, deadlines, and code review. Project
+feedback and interview practice matter too.
 
-A cohort course can help if you need momentum and discussion. A course catalog
-can help if you only need one missing topic.
+A cohort helps if you need momentum, peer discussion, and accountability. A
+course catalog helps if you only need one missing topic.
 
-Avoid any course format that lets you finish without writing much Python and
-SQL. Also avoid courses that grade only videos, quizzes, and template projects.
-You want reviewed work, not passive completion.
+Before enrolling, check whether the course will make you produce evidence:
 
-Check these points before enrolling:
-
-1. You'll write substantial Python and SQL assignments.
-2. Someone will review your code, data models, tests, and repository structure.
-3. The project will ingest, store, transform, test, schedule, and document data.
+1. You'll write substantial SQL and Python.
+2. Someone will review your code, data models, tests, and repository
+   structure.
+3. The project will ingest, store, transform, test, schedule, and document
+   data.
 4. You can customize the capstone source, consumer, or problem.
 5. You'll practice SQL, Python, take-home, and behavioral interviews.
-6. The course explains when not to use Spark, Kafka, Kubernetes, or
-   streaming.
+6. The course explains when not to use Spark, Kafka, Kubernetes, or streaming.
 7. You can keep improving the project after the course ends.
 
-If the course can't pass this checklist, treat it as a learning resource,
-not job-ready preparation.
+If the course can't pass that checklist, use it as a learning resource. Don't
+expect it to be enough job evidence on its own.
 
-## Podcast Evidence
+## Keep Learning
 
-These episodes anchor the article.
+Use these pages to continue after comparing courses:
 
-- [Build a Data Engineering Career](https://datatalks.club/podcast.html):
-  Jeff Katz explains why a junior data engineering curriculum can go deep on
-  Python, SQL, cloud, and orchestration. Use 23:35 for core skills and 36:18
-  for the course sequence. Use 38:05-40:04 for skipping Spark, Kafka, and
-  Kubernetes in a junior path. Use 56:46 for the Python/SQL versus tools
-  balance.
-- [Data Engineering Job Prep and Interview Guide](https://datatalks.club/podcast.html):
-  Jeff Katz describes portfolio and interview signals. Use 1:49 for Python and
-  SQL depth and 2:22 for code quality and tests. Use 2:46 for personal and
-  open-source projects. Use 7:46-8:05 for SQL, Python and take-home
-  interviews.
-- [Gloria's data engineering job-search story](https://datatalks.club/podcast.html):
-  Gloria Quiceno gives learner-side evidence. Use 16:26-18:21 for the
-  post-course job-search timeline and 36:20 for bootcamp value. Use 43:37 for
-  clean data and anomaly awareness, then use 51:42 for custom projects.
-- [ETL vs ELT and Modern Data Engineering](https://datatalks.club/podcast.html):
-  Natalie Kwong explains ETL, ELT, transformation work, warehouses and lakes.
-  She also covers data marts, orchestration, data quality, CDC and reverse
-  data flows. Use 4:30 for ETL responsibilities, 10:22 for transformation
-  examples, and 28:07 for warehouse versus lake decisions.
-- [Modern Data Engineering](https://datatalks.club/podcast.html):
-  Adrian Brudaru updates the beginner path for the modern stack. Use 41:06 for
-  SQL, Python, requirements gathering, and portfolio building. Use 43:28-44:42
-  for end-user-driven tool choice and vendor caution.
-
-## Related Pages
-
-Use these pages to keep learning after you compare courses.
-
-- [Data Engineering]({{ '/articles/data-engineering/' | relative_url }})
-- [Data Engineering Bootcamp]({{ '/articles/data-engineering-bootcamp/' | relative_url }})
 - [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
 - [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
 - [Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }})
 - [Data Engineering Tools]({{ '/articles/data-engineering-tools/' | relative_url }})
-- [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
+- [Data Engineering Certification]({{ '/articles/data-engineering-certification/' | relative_url }})
+- [Apache Airflow]({{ '/articles/apache-airflow/' | relative_url }})
 - [Job Search]({{ '/wiki/job-search/' | relative_url }})

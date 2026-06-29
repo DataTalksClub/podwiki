@@ -2,7 +2,7 @@
 layout: article
 title: "MLOps Frameworks: Categories, Tradeoffs, and When to Keep It Simple"
 keyword: "mlops frameworks"
-summary: "A practical guide to MLOps framework categories: tracking, registries, orchestration, serving, monitoring, feature platforms, CI/CD templates, governance, and lightweight alternatives."
+summary: "A podcast-grounded guide to MLOps framework categories: tracking, registries, orchestration, serving, monitoring, feature platforms, CI/CD templates, governance, and lightweight alternatives."
 related_wiki:
   - MLOps
   - MLOps Tools
@@ -13,261 +13,282 @@ related_wiki:
   - Experiment Tracking
 ---
 
-MLOps frameworks are the repeatable structures teams use to train, deploy,
-monitor, and govern machine learning systems. Some are full platforms. Some are
-small templates, conventions, and shared libraries. The useful decision is which
-lifecycle problem the framework removes for this team.
+Teams use MLOps frameworks to train and deploy machine learning systems, then
+monitor and govern them. A framework can be a platform, an open-source tool, a
+managed service, or a template repository. It can also be a set of team
+conventions. The useful question isn't which framework has the largest feature
+list. It's which lifecycle problem the team needs to remove.
 
-The DataTalks.Club podcast archive is practical about this because guests
-describe MLOps as people, practices, and technology together. They mention
-frameworks and platforms, but the strongest advice is to choose by the team's actual needs.
-Handoff and reproducibility matter first. Deployment, monitoring, and governance
-matter as the model becomes harder to change safely.
+DataTalks.Club guests usually describe [MLOps]({{ '/wiki/mlops/' | relative_url }})
+as a combination of people, process, and technology. In
+[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}),
+[Simon Stiebellehner]({{ '/people/simonstiebellehner/' | relative_url }})
+defines the work that way around 4:42. He then ties platforms to deployment,
+tracking, registries, and orchestration. He also includes metadata, lineage, and
+governance.
 
-For the broader operating model, start with
-[MLOps]({{ '/articles/mlops/' | relative_url }}). Use
-[MLOps Tools]({{ '/articles/mlops-tools/' | relative_url }}) for tool selection,
-and [MLOps Roadmap]({{ '/wiki/mlops-roadmap/' | relative_url }}) for build
-order.
+In
+[MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}),
+[Raphaël Hoogvliets]({{ '/people/raphaelhoogvliets/' | relative_url }})
+adds the adoption side. A central MLOps team should solve visible pain points
+and support product teams. Heavier practices come later, when maturity
+justifies them.
 
+That makes MLOps frameworks different from a shopping list of tools. Start
+with the handoff and operating problem. Add [Experiment Tracking]({{ '/wiki/experiment-tracking/' | relative_url }}),
+[Model Registry]({{ '/wiki/model-registry/' | relative_url }}),
+[Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }}), or
+[ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }}) only when the model
+lifecycle needs that control.
 
-## MLOps Framework Basics
+## Framework Responsibilities
 
-An MLOps framework gives teams a standard way to move a model through the
-lifecycle. It may be a software product, an open-source platform, a managed
-cloud service, or a lightweight internal convention.
+A useful MLOps framework records enough information for another person or
+system to understand what's running and how to change it.
 
-A framework is doing useful work when it records the operational answers:
+At minimum, it should make these questions answerable:
 
-- the code, data reference, parameters, metrics, and artifact behind a model
-- the path from training into batch inference or online serving
-- the model version running in production
-- the tests and approvals before deployment
-- the signals for data quality, predictions, latency, errors, and outcomes
-- the owner after release
+- which code, data reference, parameters, metrics, and artifact produced the
+  model
+- how the model moves from training into batch inference or online serving
+- which model version is running in production
+- which tests, reviews, or approvals happened before deployment
+- which signals show data quality, prediction behavior, latency, errors, and
+  outcomes
+- who owns the model after release
 
-Raphaël Hoogvliets gives a concrete component view in
-[MLOps at Scale](https://datatalks.club/podcast.html). Around 51:21-52:39, the
-episode names version control, CI/CD, and containerization. It also names model
-registries, experiment tracking, and monitoring. Compute, serving, and package
-registries complete the component map. Use those components as a starting point
-instead of a vendor ranking.
+Raphaël's component map in
+[MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }})
+is a good starting point. Around 51:21, he names experiment tracking and model
+registries. He also names serving and monitoring. Around 53:08 and 56:50, he
+adds package registries and container choices such as Docker, Kubernetes, and
+Databricks. The sequence matters because the framework should make models
+reproducible, deployable, observable, and maintainable.
 
-## Tracking and Registry Frameworks
+## Tracking and Registries
 
-Tracking and registry frameworks preserve the link between experiments and
-production artifacts. They capture run metadata, parameters, metrics, and
-artifacts. They also capture code versions, dependency information, and data
-references. A registry then turns a candidate model into something another job,
-service, or team can use.
+Tracking and registry frameworks preserve the connection between experiments
+and production artifacts. Tracking captures run metadata, parameters, metrics,
+and model files. It also captures code versions, dependency information, and
+data references. A registry turns a candidate model into something a batch job,
+API, or another team can consume.
 
-Use this category when the team loses experiment history in notebooks,
-spreadsheets, local files, or chat threads. It's also useful when deployments
-need model versions and owners. Lifecycle stages, evaluation results, approval
-states, and rollback notes belong there too.
+Simon treats tracking as an early platform move in
+[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
+Around 29:41, he frames experiment tracking as an early win for reproducibility
+and collaboration. Around 30:32, he connects the model registry to downstream
+consumption. Around 42:48, he expands the same topic into metadata and lineage.
+Artifact logging and tracking sit in the same part of the platform.
 
-Simon Stiebellehner makes this an early platform win in
-[Building Production ML Platforms](https://datatalks.club/podcast.html). Around
-29:41-30:58, Simon treats experiment tracking as a shared replacement for
-spreadsheet run logs. He also explains why tracking, registries, and metadata
-stores often appear together.
+Use this category when experiment history lives in notebooks, spreadsheets,
+local files, or chat threads. Also use it when deployment needs model versions,
+owners, lifecycle stages, and approval states. Rollback notes and evaluation
+results belong there too.
 
-A registry alone isn't reproducibility, so the key tradeoff is scope. It needs
-code and data references around it, plus environment details and deployment
-context.
-See [Experiment Tracking]({{ '/wiki/experiment-tracking/' | relative_url }}) and
-[Model Registry]({{ '/wiki/model-registry/' | relative_url }}) for the underlying
-archive synthesis.
+A registry alone doesn't make a model reproducible. It should sit beside Git,
+dependency management, data references, and a clear deployment path.
+For the narrower definitions, use
+[Experiment Tracking]({{ '/wiki/experiment-tracking/' | relative_url }}) and
+[Model Registry]({{ '/wiki/model-registry/' | relative_url }}).
 
-## Orchestration and Pipeline Frameworks
+## Orchestration and Pipelines
 
-Orchestration frameworks coordinate training and validation, then schedule batch
-inference plus recurring checks. Feature generation and retraining also fit here.
-Some teams use a data orchestrator, while others use an ML pipeline framework.
-Smaller teams often begin with CI/CD jobs and move to a workflow engine after
-dependencies become hard to see.
+Orchestration frameworks coordinate training, validation, batch inference, and
+feature generation. They coordinate retraining and recurring checks too. Some
+teams use a data orchestrator such as [Airflow]({{ '/articles/airflow/' | relative_url }}).
 
-This category matters when a model lifecycle stops being a single script. It
-also matters when the team needs retries, scheduling, lineage, or parameterized
-runs. Reproducible containers and clear training or inference graphs point in
-the same direction.
+Others use managed ML pipelines or a platform-specific workflow engine. Smaller
+teams often begin with CI/CD jobs. They move to a workflow engine after retries,
+schedules, dependencies, and lineage become hard to manage.
 
-Around 31:51 in
-[Building Production ML Platforms](https://datatalks.club/podcast.html), Simon
-separates batch and online paths. He names Airflow, SageMaker pipelines, and
-similar orchestrators for batch training and batch inference. Simon also warns
-that a platform team should weigh centralized deployment pipelines against team
-flexibility.
+Simon separates batch and online paths around 31:15 in
+[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
+At 31:51, he places Airflow, pipelines, and production workflows in the
+orchestration discussion. That puts orchestration next to
+[ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }}), not just next to
+data engineering. The pipeline needs to know how training artifacts, batch
+predictions, output storage, and production checks fit together.
 
-Start small when the workflow is small. A scheduled job with tests, logs, and
-model versioning may be enough. Move to a heavier framework when orchestration
-failures become the bottleneck.
+Keep orchestration small when the workflow is small. A scheduled job with
+tests, logs, and model versioning may be enough. Move to a heavier framework
+when the model lifecycle becomes a graph of dependent work that people can no
+longer reason about safely. For adjacent data-platform patterns, compare this
+with [DataOps]({{ '/wiki/dataops/' | relative_url }}) and
+[MLOps vs DataOps]({{ '/articles/mlops-vs-dataops/' | relative_url }}).
 
-## Serving Frameworks
+## Serving
 
 Serving frameworks expose trained models to other systems. They may provide
-batch scoring, online APIs, managed endpoints, and model servers. Mature serving
-frameworks also add request validation, autoscaling, canary releases, and
-rollback paths.
+batch scoring, online APIs, managed endpoints, and model servers. Mature
+serving paths can also include request validation, autoscaling, canary releases,
+and rollback paths.
 
-Choose serving by use case:
+Use batch serving for scheduled scoring, offline decisions, and backfills. Use
+online serving for low-latency product decisions, user-facing APIs, and fraud
+checks. It also fits ranking, recommendations, and real-time enrichment. Teams
+use managed endpoints when they want a cloud or platform provider to handle part
+of the operational burden. Custom services fit teams that need unusual APIs, strict
+control, or deep integration with application code.
 
-- Batch serving fits scheduled scoring, offline decisions, backfills, and
-  workflows where predictions can land in a table.
-- Online serving fits low-latency product decisions, user-facing APIs, fraud
-  checks, ranking, recommendations, and real-time enrichment.
-- Managed serving fits teams that want operational support from a cloud or
-  platform vendor.
-- Custom services fit teams that need unusual APIs, strict control, or deep
-  integration with existing application code.
+Serving choices also affect monitoring. In
+[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}),
+Simon connects API design and unified prediction schemas to monitoring and
+analytics around 54:15. The serving framework should log model version and
+schemas. It should also log latency, errors, and enough context to debug
+behavior later.
 
-Serving is where framework choice starts to affect monitoring. Prediction logs
-should include model version, request schema, response schema, and latency. Add
-errors and enough context to debug behavior later. Around 54:15-55:29,
-[Building Production ML Platforms](https://datatalks.club/podcast.html)
-connects API design and shared prediction schemas to later monitoring and
-analytics.
-
-## Monitoring and Observability Frameworks
+## Monitoring and Observability
 
 Monitoring frameworks watch the model and the data system around it. They
 should cover service health, latency, errors, and input quality. They should
-also watch feature distributions and prediction distributions. Drift, feedback,
+also watch feature distributions, prediction distributions, and drift. Feedback
 and business or proxy outcomes matter where the team can measure them.
 
-This category is most urgent when models are already in production and nobody
-knows what they're doing. In [MLOps at Scale](https://datatalks.club/podcast.html),
-Raphaël says around 48:41 that monitoring can be the right starting point when
-teams already have production models but lack visibility.
+Raphaël makes monitoring a practical starting point in
+[MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}).
+Around 48:41, he says teams with production models and poor visibility should
+solve the tangible monitoring problem before chasing a broader platform. In
+[MLOps Architect Guide]({{ '/podcasts/mlops-model-monitoring-data-observability/' | relative_url }}),
+[Danny Leybzon]({{ '/people/dannyleybzon/' | relative_url }}) adds the data
+side. Around 25:04, the episode focuses on production and model monitoring,
+then connects model failures to upstream ETL and transformations. Data quality
+and real-world drift belong in the same monitoring picture.
 
-Danny Leybzon adds the data-side reason in
-[MLOps Architect Guide](https://datatalks.club/podcast.html). Around
-25:04-31:50, the episode explains that model problems often start upstream in
-ETL, transformations, or data quality. Real-world drift can create the same
-need. A model monitoring framework therefore needs to connect inference behavior
-with pipeline and data observability signals.
-
-See [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }}) for the
-archive-backed monitoring page.
+[Lina Weichbrodt]({{ '/people/linaweichbrodt/' | relative_url }}) adds the
+human-centered side in
+[Human-Centered MLOps]({{ '/podcasts/human-centered-mlops-and-model-monitoring/' | relative_url }}).
+Around 29:23, the episode discusses live test sets and small A/B tests for
+monitoring. Around 32:11 and 36:41, it moves into root-cause debugging and
+feedback channels. A monitoring framework is stronger when it supports
+incident response, not only dashboards.
 
 ## Feature Platforms
 
 Feature platforms manage the data used by models. A feature store can provide
-offline training data, online low-latency feature serving, point-in-time
-correctness, and feature reuse. It can also provide feature definitions and
-monitoring around feature freshness and distributions.
+offline training data and online low-latency feature serving. It can also
+provide point-in-time correctness, feature reuse, feature definitions, and
+monitoring around feature freshness or distributions.
 
-Use this category when teams repeatedly rebuild the same features, struggle
-with training-serving skew, or need low-latency online features. It also helps
-when teams need a shared way to publish feature semantics and ownership.
+[Willem Pienaar]({{ '/people/willempienaar/' | relative_url }}) defines the
+core problem around 6:30 in
+[Feature Stores for MLOps]({{ '/podcasts/mlops-feature-stores-feature-stores-feast-tecton/' | relative_url }}).
+He then separates transformations and retrieval between 11:00 and 14:30. He
+also covers on-demand computation. Around 16:30, he uses real-time fraud
+detection to show why online feature lookup matters.
 
-Willem Pienaar explains the category in
-[Feature Stores for MLOps](https://datatalks.club/podcast.html). The episode
-describes a feature store as an operational ML data system that sits between raw
-data sources and production ML. It also distinguishes narrower tools that
-consume transformed data from larger platforms. Those larger platforms may own
-transformations, serving, and monitoring. Some also own security, audit, and
-compliance.
+Around 36:30, he breaks the platform into a transform engine and storage.
+Serving, registry, and monitoring complete that architecture.
 
-A feature platform is often overkill for simple batch scoring. If SQL, dbt, and
-Airflow already cover the workflow, think carefully before adding a feature
-store. Warehouse tables and validation checks may already be enough.
+Use a feature platform when teams repeatedly rebuild the same features or
+struggle with training-serving skew. It also helps when teams need low-latency
+online features or a shared way to publish feature semantics and ownership.
+Avoid it when simple batch scoring, warehouse tables, dbt models, and
+validation checks already solve the problem. Willem makes that boundary
+explicit around 40:00, where the episode distinguishes online tabular use cases
+from overkill scenarios.
 
-## CI/CD and Template Frameworks
+## CI/CD and Templates
 
 CI/CD frameworks make model changes repeatable, and in MLOps they cover more
-than unit tests. They can cover repository structure, code quality, data checks,
-and schema checks. It can also cover container builds, package registries,
-model-service builds, and deployment manifests. Promotion rules and rollback
-notes belong in the same release path.
+than unit tests.
 
-This category is often the most practical first "framework" because it can be a
-template repository plus a few shared workflows.
+They can standardize:
 
-A template can standardize:
+- repository structure and dependency management
+- code quality, data checks, and schema checks
+- container builds, package registries, and model-service builds
+- deployment manifests, promotion rules, and rollback instructions
 
-- project layout and dependency management
-- training and inference entry points
-- tests and lint checks
-- container builds and package publishing
-- environment configuration
-- prediction logging hooks
-- deployment and rollback instructions
+This is often the most practical first framework because it can be a template
+repository plus shared workflows.
 
-In [MLOps at Scale](https://datatalks.club/podcast.html), CI/CD appears before
-more specialized platform work. Around 39:06-44:22, the discussion covers CI
-and repository structure. It also covers parameterization and testing.
-Reproducibility, data versioning, and traceability belong in the same part of
-the discussion. Experiment capture belongs there too.
+In
+[MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}),
+Raphaël discusses CI and repository structure around 39:06. He also covers
+parameterization and testing. Around 42:31, he adds reproducibility and data
+versioning. Traceability and experiment capture sit in the same discussion.
+Around 48:41, he recommends starting with CI/CD and tangible pain points.
 
-Around 53:08-56:50, Raphaël adds package registries and Docker. He also adds
-Kubernetes and ties those choices to deployment compatibility.
+[Maria Vechtomova]({{ '/people/mariavechtomova/' | relative_url }}) takes the
+same practical line in
+[Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }}).
+Around 16:27, she argues for using existing infrastructure such as Kubernetes,
+Git, and CI/CD instead of adopting new tools for their own sake. Around 18:41,
+she names version control, CI/CD, and registries as the essential stack. Model
+registries sit in that same foundation. Around 33:24, she pushes production
+logic out of notebooks into packages and CI/CD.
 
-For learners, this connects directly to
-[MLOps Course]({{ '/articles/mlops-course/' | relative_url }}): a good course or
-internal training path should make one model lifecycle repeatable before naming
-every platform.
+This is where [CI/CD]({{ '/wiki/ci-cd/' | relative_url }}) and
+[MLOps Tools]({{ '/wiki/mlops-tools/' | relative_url }}) meet. The framework
+should make one model lifecycle repeatable before the team standardizes every
+possible platform layer.
 
-## Governance Frameworks
+## Governance
 
-Governance frameworks record why a model exists, who owns it, which data it
-uses, and which approvals happened. They also record how the team audits or
-retires the model. They matter most in regulated, high-risk, or
-business-critical settings.
+Governance frameworks record the operational facts a reviewer or maintainer
+will need:
 
-Governance can include:
+- why the model exists
+- who owns it
+- which data it uses
+- which approvals happened
+- how the team audits it
+- when the team should retire it
 
-- data access and retention rules
-- model owner and support owner
-- training data references and lineage
-- validation results and approval state
-- privacy, security, and deletion requirements
-- model cards, risk notes, and audit trails
-- deployment history and rollback records
+They matter most in regulated, high-risk, or business-critical settings.
 
-In [Building Production ML Platforms](https://datatalks.club/podcast.html),
-Simon connects metadata and lineage with fintech constraints. Around
-38:40-45:50, he also discusses GDPR and platform design.
+Simon connects governance to platform design in
+[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
+Around 39:54, he discusses fintech, security, and compliance constraints.
+Around 45:50, he connects data governance with GDPR implications around logging
+and dataset storage. Those constraints change which framework choices are
+acceptable because metadata, lineage, access control, and retention become part
+of the deployment path.
 
-In [MLOps in Finance](https://datatalks.club/podcast.html), Nemanja Radojkovic
-argues around 31:57-35:05 that even a minimal regulated setup needs separate
-environments and monitoring. It also needs model registries and data versioning.
-Reproducible pipelines belong in that minimum too. He also notes that a simple
-S3 bucket can be a tactical registry while the team works toward a more complete
-solution.
+[Nemanja Radojkovic]({{ '/people/nemanjaradojkovic/' | relative_url }}) gives
+the regulated minimum in
+[MLOps in Finance]({{ '/podcasts/mlops-and-ml-engineering-in-finance/' | relative_url }}).
+Around 31:57, the episode names separate dev, test, and production
+environments. It also names monitoring, model registries, data versioning, and
+reproducible pipelines. Around 35:57, it describes tactical interim solutions.
+One example is using S3 while the team works toward a fuller registry or
+data-management setup.
 
-Governance shouldn't become paperwork detached from operations. It works best
-when the same metadata used for deployment, monitoring, and incident response
-also supports review and audit.
+Governance should stay attached to operations, so the same metadata should
+support deployment, rollback, and monitoring. It should also support incident
+response, ownership, review, and audit. For the broader governance vocabulary, use
+[Governance]({{ '/wiki/governance/' | relative_url }}),
+[Data Governance]({{ '/wiki/data-governance/' | relative_url }}), and
+[Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }}).
 
 ## Lightweight Alternatives
 
 A team doesn't need a heavy MLOps framework just because it trains a model. It
-may need Git, a reproducible environment, and a saved artifact. A small batch
-job, basic monitoring, and clear ownership may be enough.
+may need Git and a reproducible environment. It may also need a saved artifact,
+a scheduled job, basic monitoring, and clear ownership. That's still MLOps if
+it controls the actual risk.
+
+In
+[Lean MLOps for Startups]({{ '/podcasts/lean-mlops-for-startups/' | relative_url }}),
+Nemanja argues for a small startup stack. Around 44:10, he names Python,
+CI/CD-based orchestration, and Dagster when needed. He also discusses MLflow
+tracking and mature tools, while keeping feature stores for teams that have the
+need. The same episode contrasts Kubernetes-heavy platforms with startup speed:
+large frameworks are useful only when they buy back more time than they cost.
 
 Keep the setup lightweight when:
 
 - one person owns one low-risk model
-- the model runs offline and can be rerun manually
+- the model runs offline
 - product value is still unproven
 - no team is blocked by handoff or reuse
-- the data path is stable and simple
+- the data path is stable
 - the organization doesn't need strict audit trails yet
 
-You still practice MLOps by using the smallest framework that creates control.
+Move up only when reproducibility or deployment becomes a real constraint.
+Visibility, reuse, and governance can justify the same move.
 
-In [Lean MLOps for Startups](https://datatalks.club/podcast.html), Nemanja says
-around 44:34-45:39 that his startup approach is minimal. He uses Python and
-CI/CD-based orchestration, plus Dagster when needed. He also uses MLflow
-tracking and mature tools. He adds feature stores only when the team has the
-need.
-
-The same episode contrasts heavy Kubernetes-based platforms with startup speed.
-Large frameworks aren't bad, but a framework should buy back more time than it
-costs.
-
-## A Practical Selection Sequence
+## Choosing a Framework Sequence
 
 Start from the failure mode instead of the framework name.
 
@@ -278,54 +299,31 @@ Start from the failure mode instead of the framework name.
 3. If training or batch inference is hard to coordinate, add orchestration.
 4. If serving is fragile, standardize packaging, validation, logging, and
    rollback.
-5. If production behavior is invisible, add model monitoring and connect it to
-   data observability.
+5. If production behavior is invisible, add monitoring and connect it to data
+   observability.
 6. If features are duplicated or inconsistent, evaluate a feature platform.
 7. If every project repeats the same setup, create templates and CI/CD
    workflows.
 8. If the organization is regulated or high-risk, add governance metadata,
    approvals, lineage, and audit trails early.
 
+[Geo Jolly]({{ '/people/geojolly/' | relative_url }}) adds the product lens in
+[ML Product Manager and MLOps Platform Strategy]({{ '/podcasts/ml-product-manager-and-mlops-platform-strategy/' | relative_url }}).
+Around 8:41, the episode discusses in-house MLOps platform strategy and vendor
+evaluation. Around 18:25, it connects observability and KPIs to platform impact.
+Use that as the standard for framework selection. Choose tools and conventions
+that make teams faster, safer, and more measurable.
+
 Build toward a platform only after repeated work or operational risk justifies
-it. Choose the MLOps framework your team can use consistently while still
+it. Use the smallest framework the team can apply consistently while still
 shipping and maintaining reliable models.
-
-## Podcast-Backed Evidence
-
-Use these episodes for deeper context:
-
-- [MLOps at Scale](https://datatalks.club/podcast.html): Raphaël covers
-  framework components and CI/CD, then adds reproducibility and model
-  monitoring. He also covers dependency management, package registries, and
-  adoption strategy. See the local summary:
-  [MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}).
-- [Building Production ML Platforms](https://datatalks.club/podcast.html):
-  Simon covers experiment tracking and registries, then serving modes and
-  orchestration. He also covers metadata, lineage, governance, and developer
-  experience. See the local summary:
-  [Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
-- [MLOps Architect Guide](https://datatalks.club/podcast.html): Danny covers
-  monitoring with upstream data root causes and data profiling, then adds
-  platform integrations and production-first prioritization.
-- [Feature Stores for MLOps](https://datatalks.club/podcast.html): Willem covers
-  feature platform architecture, Feast, and Tecton. He also covers online
-  serving, transformations, monitoring, and when feature stores are unnecessary.
-- [Lean MLOps for Startups](https://datatalks.club/podcast.html): Nemanja covers
-  minimal MLOps stacks, SaaS choices, and mature tools. He also covers CI/CD
-  orchestration, tracking, and avoiding platform complexity too early.
-- [MLOps in Finance](https://datatalks.club/podcast.html): regulated
-  deployment, CI/CD, monitoring, and model or data registries. Nemanja also
-  covers reproducible pipelines, governance, and tactical interim solutions.
 
 ## Related Pages
 
-Use these pages for adjacent definitions and deeper archive synthesis:
-
-- [MLOps]({{ '/articles/mlops/' | relative_url }})
-- [MLOps Tools]({{ '/articles/mlops-tools/' | relative_url }})
-- [MLOps Course]({{ '/articles/mlops-course/' | relative_url }})
-- [MLOps Roadmap]({{ '/wiki/mlops-roadmap/' | relative_url }})
-- [ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }})
-- [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }})
-- [Experiment Tracking]({{ '/wiki/experiment-tracking/' | relative_url }})
-- [Model Registry]({{ '/wiki/model-registry/' | relative_url }})
+Use [MLOps]({{ '/wiki/mlops/' | relative_url }}) for the operating discipline,
+[MLOps Tools]({{ '/wiki/mlops-tools/' | relative_url }}) for stack components,
+and [MLOps Roadmap]({{ '/wiki/mlops-roadmap/' | relative_url }}) for learning
+order. For adjacent comparisons, use
+[MLOps vs DataOps]({{ '/articles/mlops-vs-dataops/' | relative_url }}),
+[ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }}), and
+[Platform Engineering]({{ '/wiki/platform-engineering/' | relative_url }}).

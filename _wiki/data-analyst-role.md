@@ -1,142 +1,206 @@
 ---
 layout: wiki
 title: "Data Analyst Role"
-summary: "Archive-backed guide to the data analyst role: metrics, dashboards, SQL, experiments, stakeholder communication, role boundaries, and supporting episodes."
+summary: "Archive-backed guide to the data analyst role: SQL, metrics, dashboards, experiments, stakeholder communication, and boundaries with analytics engineering, data science, and data engineering."
 related:
   - Data Analyst Careers
   - Data Analyst vs Analytics Engineer
   - Product Analytics
   - Analytics Engineering
-  - Data Teams
+  - Metrics
+  - Experimentation
 ---
 
-## Definition and Scope
+## Definition
 
-A data analyst helps an organization understand what's happening and what to do
-next. In the DataTalks.Club archive, analysts know where data lives and retrieve
-it with SQL or BI tools. They define metrics, build dashboards and reports,
-investigate changes, support experiments, and explain results to stakeholders.
+A data analyst helps a team understand what happened, why it happened, and what
+decision should follow. In DataTalks.Club discussions, the technical base is
+SQL and dashboards. The decision work uses metrics, product context, experiment
+analysis, and clear communication with people who own decisions.
 
-The role is close to product, business, and domain context. It isn't only
-dashboard production. Strong analysts quantify problems and interpret metric
-movement. They also write recommendations and help teams decide whether a
-product change, experiment, or data-led flow worked.
+In [Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }}),
+the analyst knows what company data exists and how to retrieve it. The analyst
+builds dashboards and defines KPIs. The analyst also quantifies product
+problems and checks whether a shipped feature improved user behavior around
+7:51-10:39. That framing makes the role broader than report production. The
+analyst connects data to a product, operational, or business decision.
 
+## Common Definition
+
+Across the archive, a data analyst turns company data into reusable evidence for
+decisions. In
+[From Analytics to Production ML]({{ '/podcasts/production-ml-mlops-and-data-team-building/' | relative_url }}),
+[Rishabh Bhargava]({{ '/people/rishabhbhargava/' | relative_url }}) describes
+analysts as people who build dashboards and reports around 18:39-24:23. They
+also run ad hoc queries, make recommendations, and support product teams. At
+24:23, he adds a practical detail for real teams. Analysts often know where the
+data lives better than data scientists because they work with the tables every
+day.
+
+The role is especially visible in
+[product analytics]({{ '/wiki/product-analytics/' | relative_url }}).
+[Arpit Choudhury]({{ '/people/arpitchoudhury/' | relative_url }}) explains the
+growth data flow in [How to Build a Data-Led Growth Stack]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }})
+from collection to storage around 22:50-30:03. He then connects storage to
+analysis and activation. That places analysts between source events and
+downstream activation.
+
+At 46:13, he separates analyst work from data engineering and product
+operations. He also names analytics engineering as a neighboring role. That
+split shows why analysts need both source awareness and stakeholder context.
+
+## Role Disagreements
+
+Guests agree that analysts work with metrics and decisions, but they draw the
+role boundary differently.
+
+In the role-definition episode, the analyst sits close to the product manager.
+The product manager owns the product direction. The analyst quantifies the
+problem and helps decide whether the work deserves team time. In
+[From Analytics to Production ML]({{ '/podcasts/production-ml-mlops-and-data-team-building/' | relative_url }}),
+Rishabh extends the boundary toward experimentation. Around 31:19-33:30, he
+describes analysts helping explain uplift, segment differences, and root causes
+when online experiment results differ from model expectations.
+
+Recruiting discussions show a different source of disagreement: the title is
+unstable. In
+[Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }}),
+[Alicja Notowska]({{ '/people/alicjanotowska/' | relative_url }}) discusses
+data analyst hiring around 54:09-59:30 and treats title ambiguity as a real
+hiring problem. A job called "data analyst" may mean BI reporting or product
+analytics. It can also mean light data science or business analysis. The
+responsibilities matter more than the title.
+
+Analytics engineering guests move part of the old analyst workload into a more
+engineered role. In
+[Master Analytics Engineering]({{ '/podcasts/analytics-engineer-skills-tools/' | relative_url }}),
+[Victoria Perez Mola]({{ '/people/victoriaperezmola/' | relative_url }})
+contrasts analytics engineering with data analyst work around 14:34. She also
+compares it with data engineering and links the role to reducing analysts'
+cleaning workload around 16:54. In
+[Marketing to Analytics Engineering]({{ '/podcasts/from-marketing-to-analytics-engineering-sql-dbt-career-switch/' | relative_url }}),
+[Nikola Maksimovic]({{ '/people/nikolamaksimovic/' | relative_url }}) describes
+an overlap between data analyst and analytics engineer work around 25:06. That
+overlap appears when dashboard logic, metric definitions, and transformation
+code need stronger ownership.
 
 ## Responsibilities
 
-Data analysts translate data into decisions.
+The analyst's core responsibility is decision support.
 
-- Find, query, and interpret company data.
-- Define KPIs, metrics, segments, funnels, and reporting logic.
-- Build dashboards, reports, and ad hoc analyses for product, leadership, and
-  operational teams.
-- Quantify problem size and help product managers decide whether work is worth
-  doing.
-- Analyze experiments, A/B tests, launches, and product changes.
-- Investigate anomalies, data quality issues, and metric movement.
-- Explain results in language that stakeholders can act on.
+That work can include:
 
-In mature teams, analysts often become the memory of how the business uses data.
-They know which tables matter, which definitions are contested, and which
-queries answer common stakeholder questions.
+- query company data with SQL and BI tools
+- define KPIs, metric logic, segments, cohorts, funnels, and dashboard views
+- investigate metric movement, anomalies, instrumentation gaps, and source
+  issues
+- build dashboards and recurring reports for product, leadership, growth, and
+  operations teams
+- analyze launches, experiments, and A/B tests
+- explain caveats and recommendations in language stakeholders can act on
 
-## Required Skills
+The archive repeatedly shows that analysts need to know how a metric is
+created, not only how to plot it. In
+[How to Build a Data-Led Growth Stack]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }}),
+Arpit discusses tracking plans, event properties, and ownership around
+13:34-18:27. He also traces anomaly investigation back to event origins. For an
+analyst, a dashboard number is only useful when the event definition,
+collection path, and business meaning are clear.
 
-The archive's analyst skill stack is practical and communication-heavy.
+Analysts also support experimentation, and Rishabh's episode connects analysts to
+A/B testing, shadow mode, and segmentation around 28:42-33:30. He also connects
+the role to uplift and root-cause analysis. The related
+[experimentation]({{ '/wiki/experimentation/' | relative_url }}) work isn't only
+statistical because analysts also define success metrics and important
+segments. They then explain mixed results to product stakeholders.
 
-- SQL: querying, joins, aggregation, windows, funnels, and reproducible analysis.
-- BI and visualization: Tableau, Mode, dashboards, reports, charts, and metric
-  presentation.
-- Statistics and experiments: descriptive statistics, A/B testing,
-  randomization, significance, regression, and forecasting basics.
-- Product and domain knowledge: knowing users, product context, market context,
-  and which metric movement matters.
-- Data skepticism: checking source systems, instrumentation, missingness,
-  anomalies, and whether a number is trustworthy.
-- Writing and stakeholder communication: explaining results, caveats, and
-  recommendations clearly enough for management and product teams.
+## Skills
 
-Python or R can help with repeatable analysis, notebooks, automation, and light
-modeling. The archive treats SQL and business interpretation as the more central
-analyst signals.
+The skill stack is practical and communication-heavy.
 
-## Boundaries with Nearby Roles
+SQL is the central technical skill because analysts use it for joins,
+aggregation, and windows. They also need dates, funnels, cohorts, and enough
+data modeling sense to avoid mixing grains.
 
-- Data analyst versus data scientist: Analysts usually explain what happened and recommend decisions. Data scientists
-overlap with analysis but lean more toward prediction, modeling, and product
-integration. In some companies, one person does both.
+In
+[Designing FinTech Data Analytics Curriculum]({{ '/podcasts/teaching-mentoring-data-analytics-fintech/' | relative_url }}),
+[Irina Brudaru]({{ '/people/irinabrudaru/' | relative_url }}) names SQL and
+data visualization as core analyst fundamentals around 58:08. She also includes
+soft skills and product understanding. Around 31:50, she uses cohort analysis
+and retention metrics as examples of product analytics work.
 
-- Data analyst versus analytics engineer: Analysts answer questions and interpret metrics. Analytics engineers build
-modeled, tested, documented, BI-ready data layers. The boundary appears when
-repeated dashboard logic or metric definitions need versioned ownership.
+BI and visualization matter because analysts communicate through dashboards,
+charts, and recurring views. Nikola's transition episode shows a practical path:
+Excel and SQL first, then dashboard practice and small projects around 41:50.
+His work then moves into Looker, LookML, reporting, and dashboard building
+around 23:12. That path connects the analyst role with
+[analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
+when modeled tables and metric definitions become reusable team assets.
 
-- Data analyst versus data engineer: Data engineers build and operate data paths. Analysts consume those paths and
-surface what the data means. Analysts may discover broken instrumentation or
-quality problems before platform teams do.
+Statistics matter when the decision depends on uncertainty. Analysts don't need
+every model family, but they need descriptive statistics and sampling basics.
+They also need variance, experiment interpretation, and basic causal caution.
+The archive's analyst examples connect statistics to product decisions, not
+abstract calculation. See
+Rishabh on experiment analysis around 31:19 and Irina on cohort and retention
+analysis around 31:50.
 
-- Data analyst versus product manager: Product managers own prioritization and product direction. Analysts provide
-evidence about problem size, affected users, metric movement, and experiment
-results.
+Communication is part of the role, not a soft add-on. The role-definition
+episode describes analyst documentation as material for management and decision
+makers around 18:17-19:08. Alicja's hiring episode reinforces this from the
+candidate side: around 28:41-32:40, she emphasizes clear responsibilities,
+dates, and practical examples over vague buzzwords.
 
-## Guest Descriptions
+## Boundaries
 
-The first role episode defines the data analyst as the person who understands
-company data and explains it to others. The analyst builds dashboards, defines
-KPIs, quantifies product problems, and evaluates whether an ML-backed feature
-helped users.
+The boundary with the
+[data scientist role]({{ '/wiki/data-scientist-role/' | relative_url }}) is
+messy because titles vary. In many teams, analysts explain what happened and
+recommend decisions. Data scientists add prediction, modeling, and model
+integration. Rishabh's analytics-to-ML discussion makes this distinction
+through the goals of analytics work versus ML work around 10:48-13:48. His
+later comments show that both roles share data infrastructure and experiment
+feedback.
 
-Rishabh Bhargava's analytics and ML episode adds the embedded product view.
-Analysts work with ad hoc queries, dashboards, recommendations, product teams,
-experiments, and root-cause analysis. He also notes that analysts often know the
-data location better than data scientists do.
+The boundary with
+[analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
+is about repeatability and ownership of the analytical data layer. Analysts
+answer questions and interpret metrics. Analytics engineers build tested,
+documented, BI-ready models.
 
-Alicja Notowska's recruiting episode shows that data scientist and analyst
-hiring can look similar, but titles are ambiguous. Recruiters and hiring
-managers need to define responsibilities clearly. Candidates need to show
-practical experience instead of buzzwords.
+Victoria's episode connects analytics engineering to data modeling, pipelines,
+and data quality. She also links the role to Looker, `dbt`, and version
+control. Tests and DAGs also appear around 4:05-6:49.
 
-Arpit Choudhury's data-led growth episode places analysts in the growth stack.
-They analyze event data, build dashboards, and support product analytics. They
-also work with data engineers, analytics engineers, and product operations
-around tracking, warehouses, transformations, and activation.
+For this boundary, start with
+[Data Analyst vs Analytics Engineer]({{ '/wiki/data-analyst-vs-analytics-engineer/' | relative_url }})
+as the adjacent page.
 
-## Archive Evidence
+The boundary with the
+[data engineer role]({{ '/wiki/data-engineer-role/' | relative_url }}) is
+about data paths and operations. Data engineers build ingestion, storage,
+orchestration, and platform systems. Analysts use those systems to interpret
+the business. In the role-definition episode, data engineers appear after the
+analyst discussion as the people who make the needed data usable around 13:58.
+Arpit's growth-stack episode gives the operating version of the same boundary
+when teams split tracking, warehousing, analysis, and activation work
+around 46:13.
 
-Start with these episodes for role evidence.
-
-- [Data Team Roles Explained](https://datatalks.club/podcast.html): At
-  7:51-10:39, analysts understand data, build dashboards, define KPIs, quantify
-  product problems, and evaluate experiments. At 18:17-19:08, analyst
-  documentation is aimed at management and decision makers.
-- [From Analytics to Production ML](https://datatalks.club/podcast.html): At
-  18:39-24:23, analysts own dashboards, reports, ad hoc queries,
-  recommendations, and product-team support. At 24:23-28:42, analysts' domain
-  knowledge and SQL familiarity help teams find and trust data.
-- [From Analytics to Production ML](https://datatalks.club/podcast.html): At
-  31:19-33:30, experiment analysis includes segmentation, uplift, and root-cause
-  investigation. At 43:02-49:01, the episode discusses the hiring imbalance
-  between data scientists and analysts.
-- [Hiring Data Scientists and Analysts](https://datatalks.club/podcast.html):
-  At 21:32-35:49, screening looks at responsibilities, education, clarity, and
-  practical experience. At 54:09-59:30, data analyst hiring is discussed through
-  title ambiguity and similar recruiting steps.
-- [Data-Led Growth, Event Tracking, and Reverse ETL](https://datatalks.club/podcast.html):
-  At 22:50-30:03, event data flows from collection to storage, analysis, and
-  activation. At 46:13-51:40, data engineer, analyst, analytics engineer, and
-  product operations roles work together around tracking and dashboards.
-- [Data Engineering Job Prep and Interview Guide](https://datatalks.club/podcast.html):
-  At 19:57-21:56, the guest contrasts data analyst and data engineer paths. He
-  notes that analyst definitions are fluid, product-facing, and often tied to
-  domain expertise.
+The boundary with product management is about ownership of the decision.
+Product managers own product direction and prioritization. Analysts provide
+evidence about problem size, affected users, and metric movement. They also
+explain experiment outcomes and tradeoffs. The role therefore overlaps strongly with
+[metrics]({{ '/wiki/metrics/' | relative_url }}), product analytics, and
+[data teams]({{ '/wiki/data-teams/' | relative_url }}).
 
 ## Related Pages
 
-Use these pages for adjacent analyst and analytics-engineering context.
+These pages cover adjacent roles, skills, and career paths.
 
 - [Data Analyst Careers]({{ '/wiki/data-analyst-careers/' | relative_url }})
 - [Data Analyst vs Analytics Engineer]({{ '/wiki/data-analyst-vs-analytics-engineer/' | relative_url }})
 - [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }})
 - [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
-- [Data Teams]({{ '/wiki/data-teams/' | relative_url }})
+- [Metrics]({{ '/wiki/metrics/' | relative_url }})
+- [Experimentation]({{ '/wiki/experimentation/' | relative_url }})
 - [Career Transitions in Data]({{ '/wiki/career-transitions-in-data/' | relative_url }})
