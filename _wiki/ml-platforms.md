@@ -39,7 +39,7 @@ The archive treats ML platforms as internal products, not tool collections:
   without a good reason. Raphaël Hoogvliets makes the same point through pain
   point collection and quick wins.
 - Build or buy selectively because guests rarely recommend building an
-  end-to-end platform from scratch. They more often describe buying managed
+  end-to-end platform from scratch, and they more often describe buying managed
   tools and wrapping them in team-specific conventions.
 - Experiment tracking and registries are early wins because they preserve run
   history and model handoffs before teams invest in heavier serving or
@@ -58,8 +58,8 @@ These episodes give the strongest platform evidence:
   At 4:42-17:14, Simon defines MLOps through people, process and technology.
   He frames a platform as a way to reduce cognitive load for product teams. At
   29:41-34:01, he covers tracking, registries, serving and orchestration.
-  At 38:40-49:19, he discusses governance, metadata, lineage and thin
-  abstractions, and explains when to delay heavy platform work.
+  At 38:40-49:19, he discusses governance and metadata while also covering
+  lineage, thin abstractions and when to delay heavy platform work.
   Reuse the [summary]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
 - [MLOps at Scale](https://datatalks.club/podcast.html): At 23:01-33:13,
   Raphaël describes a centralized enabling MLOps team that supports product

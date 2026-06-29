@@ -55,8 +55,8 @@ logic before the author spends too much time polishing.
 Shipping cadence matters, but editing has a limit.
 
 Eugene selects an idea, writes an outline, revises, and shares with readers.
-The useful lesson isn't that every person must write weekly. A repeatable
-cadence prevents endless polishing and turns writing into regular practice.
+People don't need to write weekly to use the idea. A repeatable cadence
+prevents endless polishing and turns writing into regular practice.
 
 Technical writing overlaps with DevRel and documentation.
 

@@ -12,17 +12,20 @@ related:
 
 ## Definition and Scope
 
-Metrics are quantified definitions of success, failure, risk, or system
-behavior. In the DataTalks.Club archive, metrics are not just dashboard numbers:
-they decide what an experiment means, how a model is compared with a baseline,
-whether a data product has impact, and when a production system needs attention.
+Metrics quantify success, failure, risk, or system behavior. In the
+DataTalks.Club archive, teams don't treat metrics as dashboard numbers only.
+They use metrics to decide what an experiment means, how a model compares with
+a baseline, whether a data product has impact, and when a production system
+needs attention.
 
-This page focuses on metric design across product analytics, experimentation,
+Use this page for metric design across product analytics, experimentation,
 ML evaluation, and data product management. Use
 [Power Analysis]({{ '/wiki/power-analysis/' | relative_url }}) for how metric
 variance affects experiment duration.
 
 ## Contents
+
+This page uses these sections:
 
 - [Recurring Archive Themes](#recurring-archive-themes)
 - [Episode Evidence](#episode-evidence)
@@ -33,7 +36,7 @@ variance affects experiment duration.
 
 Metric choice changes the decision. Jakob Graff's subscription-versus-points
 example shows that a revenue experiment needs a metric that matches the rollout
-decision. Revenue per user, conversion, retention, and long-term value can point
+decision. Revenue per user, conversion, retention, and long-term value can lead
 to different product choices.
 
 Stable metrics are easier to act on. The experimentation episode separates
@@ -43,12 +46,12 @@ click-through rate, and weekly or yearly seasonality can bias short tests.
 
 Experiments need one primary decision metric and guardrails. The archive warns
 against choosing five primary metrics for a first test because the conclusion
-becomes unclear. Guardrail metrics still matter for harm, such as churn,
-latency, cost, crashes, or revenue cannibalization.
+becomes unclear. Guardrail metrics still watch for harm, including churn,
+latency, cost, crashes, and revenue cannibalization.
 
 Causal and predictive metrics answer different questions. Causal inference
 episodes compare policies on the same business metric, but also ask whether the
-data and causal structure are unbiased. Ordinary regression metrics cannot prove
+data and causal structure are unbiased. Ordinary regression metrics can't prove
 that an intervention effect is valid.
 
 Data product metrics need semantic ownership. Data product and analytics
@@ -56,6 +59,8 @@ engineering episodes show that teams must align definitions such as customer,
 activation, conversion, and KPI grain before metrics can be trusted.
 
 ## Episode Evidence
+
+These episodes give the strongest evidence:
 
 - [Product Analytics and A/B Testing](https://datatalks.club/podcast.html),
   14:27-18:06: uses a subscription model experiment to ground revenue metric
@@ -65,8 +70,9 @@ activation, conversion, and KPI grain before metrics can be trusted.
   30:05-37:44: recommends one decision metric, explains noisy versus stable
   metrics, and discusses weekly and larger business cycles.
 - [Product Analytics and A/B Testing](https://datatalks.club/podcast.html),
-  40:23-57:10: connects metric distributions to test choice, p-values,
-  frequentist intervals, Bayesian intervals, and stakeholder communication.
+  40:23-57:10: connects metric distributions to test choice and p-values. It
+  also compares frequentist intervals, Bayesian intervals, and stakeholder
+  communication.
 - [Causal Inference for Real-World ML](https://datatalks.club/podcast.html),
   32:40-37:37: distinguishes policy metrics from causal-model validation and
   emphasizes comparing causal and baseline policies with the same business
@@ -74,9 +80,12 @@ activation, conversion, and KPI grain before metrics can be trusted.
   `../datatalksclub.github.io/_podcast/causal-inference-for-machine-learning.md`.
 - [From Analytics to Production ML](https://datatalks.club/podcast.html),
   31:19-32:47: shows analysts connecting live model experiments to business
-  metrics, uplift, segments, and root-cause analysis.
+  metrics. Analysts use uplift, segments, and root-cause analysis to explain
+  results.
 
 ## Related Pages
+
+Useful adjacent pages:
 
 - [Evaluation]({{ '/wiki/evaluation/' | relative_url }})
 - [A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }})
@@ -87,6 +96,8 @@ activation, conversion, and KPI grain before metrics can be trusted.
 - [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
 
 ## Maintenance Notes
+
+Future maintainers should preserve these source paths and boundaries:
 
 - Keep this page about metric design and interpretation. Use
   [Evaluation]({{ '/wiki/evaluation/' | relative_url }}) for the broader
