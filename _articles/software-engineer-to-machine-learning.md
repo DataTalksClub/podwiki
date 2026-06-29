@@ -44,4 +44,4 @@ shows the reverse gap: researchers often need clean code, infrastructure, and
 deployment skills. [Software Engineering for Machine Learning](https://datatalks.club/podcast.html)
 frames production ML as a software-system problem, not just a model problem.
 
-For broader transition patterns, see [Career Transitions in Data](/wiki/career-transitions-in-data/).
+For broader transition patterns, see [Career Transitions in Data]({{ '/wiki/career-transitions-in-data/' | relative_url }}).

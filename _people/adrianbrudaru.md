@@ -20,9 +20,9 @@ Adrian Brudaru's source bio traces a path from economics and business analysis i
 
 ## Concepts Connected
 
-- [data engineering](/wiki/data-engineering/) and [data governance](/wiki/data-governance/) for modern platforms and managed data products.
-- [open-source](/wiki/open-source/) for product-led adoption and community trust.
-- [freelance](/wiki/freelance/), [career growth](/wiki/career-growth/), and [entrepreneurship](/wiki/entrepreneurship/) for independent practice and founder paths.
+- [data engineering]({{ '/wiki/data-engineering/' | relative_url }}) and [data governance]({{ '/wiki/data-governance/' | relative_url }}) for modern platforms and managed data products.
+- [open-source]({{ '/wiki/open-source/' | relative_url }}) for product-led adoption and community trust.
+- [freelance]({{ '/wiki/freelance/' | relative_url }}), [career growth]({{ '/wiki/career-growth/' | relative_url }}), and [entrepreneurship]({{ '/wiki/entrepreneurship/' | relative_url }}) for independent practice and founder paths.
 
 ## Source Links
 

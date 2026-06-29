@@ -33,4 +33,4 @@ across the DataTalks.Club podcast archive.
   </aside>
 </section>
 
-<script src="/assets/graph.js"></script>
+<script src="{{ '/assets/graph.js' | relative_url }}"></script>

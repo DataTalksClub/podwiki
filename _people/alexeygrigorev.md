@@ -21,10 +21,10 @@ Alexey Grigorev is the founder of DataTalks.Club. In the podcast archive he appe
 
 ## Concepts Connected
 
-- [community building](/wiki/community-building/) as a durable operating model for meetups, courses, and peer learning.
-- [data engineering](/wiki/data-engineering/) and [MLOps](/wiki/mlops/) as recurring course and podcast pillars.
-- [LLMs](/wiki/llms/) as a newer curriculum and community focus.
-- [career transition](/wiki/career-transition/) and [teaching](/wiki/teaching/) as practical outcomes of open education.
+- [community building]({{ '/wiki/community-building/' | relative_url }}) as a durable operating model for meetups, courses, and peer learning.
+- [data engineering]({{ '/wiki/data-engineering/' | relative_url }}) and [MLOps]({{ '/wiki/mlops/' | relative_url }}) as recurring course and podcast pillars.
+- [LLMs]({{ '/wiki/llms/' | relative_url }}) as a newer curriculum and community focus.
+- [career transition]({{ '/wiki/career-transition/' | relative_url }}) and [teaching]({{ '/wiki/teaching/' | relative_url }}) as practical outcomes of open education.
 
 ## Source Links
 

@@ -18,9 +18,9 @@ Atita Arora's source bio describes deep work in information retrieval systems, i
 
 ## Concepts Connected
 
-- [search](/wiki/search/), [vector databases](/wiki/vector-databases/), and [embeddings](/wiki/embeddings/) for retrieval architecture.
-- [LLMs](/wiki/llms/), [NLP](/wiki/nlp/), and [retrieval-augmented generation](/wiki/retrieval-augmented-generation/) for language-model applications.
-- [data engineering](/wiki/data-engineering/) and [MLOps](/wiki/mlops/) for production retrieval systems.
+- [search]({{ '/wiki/search/' | relative_url }}), [vector databases]({{ '/wiki/vector-databases/' | relative_url }}), and [embeddings]({{ '/wiki/embeddings/' | relative_url }}) for retrieval architecture.
+- [LLMs]({{ '/wiki/llms/' | relative_url }}), [NLP]({{ '/wiki/nlp/' | relative_url }}), and [retrieval-augmented generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}) for language-model applications.
+- [data engineering]({{ '/wiki/data-engineering/' | relative_url }}) and [MLOps]({{ '/wiki/mlops/' | relative_url }}) for production retrieval systems.
 
 ## Source Links
 

@@ -72,6 +72,6 @@ company’s actual problem.
 
 ## Related Concepts
 
-- [Data Product Management](/wiki/data-product-management/)
-- [Data Engineering Platforms](/wiki/data-engineering-platforms/)
-- [MLOps and DataOps](/wiki/mlops-and-dataops/)
+- [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
+- [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
+- [MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }})

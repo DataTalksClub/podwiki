@@ -14,7 +14,7 @@ transcripts.
 {% if pages.size > 0 %}
 <div class="list">
 {% for item in pages %}
-  <a class="row" href="{{ item.url }}">
+  <a class="row" href="{{ item.url | relative_url }}">
     <strong>{{ item.title }}</strong>
     <span>{% if item.season %}S{{ item.season }}E{{ item.episode }}{% endif %}</span>
   </a>

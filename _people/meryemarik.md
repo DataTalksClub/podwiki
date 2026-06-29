@@ -18,9 +18,9 @@ Meryem Arik is co-founder of TitanML. Her source bio describes TitanML as an NLP
 
 ## Concepts Connected
 
-- [LLMs](/wiki/llms/) and [retrieval-augmented generation](/wiki/retrieval-augmented-generation/) for model adaptation and grounding strategies.
-- [MLOps](/wiki/mlops/) and [production](/wiki/production/) for deployment, cost, and reliability constraints.
-- [open-source](/wiki/open-source/) for model choice and ecosystem tradeoffs.
+- [LLMs]({{ '/wiki/llms/' | relative_url }}) and [retrieval-augmented generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}) for model adaptation and grounding strategies.
+- [MLOps]({{ '/wiki/mlops/' | relative_url }}) and [production]({{ '/wiki/production/' | relative_url }}) for deployment, cost, and reliability constraints.
+- [open-source]({{ '/wiki/open-source/' | relative_url }}) for model choice and ecosystem tradeoffs.
 
 ## Source Links
 

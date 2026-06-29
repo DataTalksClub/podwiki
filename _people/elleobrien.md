@@ -18,9 +18,9 @@ Elle O'Brien is a data scientist at Iterative and a lecturer at the University o
 
 ## Concepts Connected
 
-- [developer relations](/wiki/developer-relations/) for community-facing technical work.
-- [open-source](/wiki/open-source/) for tooling, contribution, and adoption.
-- [data science](/wiki/data-science/) and [machine learning](/wiki/machine-learning/) for the technical audience and use cases.
+- [developer relations]({{ '/wiki/developer-relations/' | relative_url }}) for community-facing technical work.
+- [open-source]({{ '/wiki/open-source/' | relative_url }}) for tooling, contribution, and adoption.
+- [data science]({{ '/wiki/data-science/' | relative_url }}) and [machine learning]({{ '/wiki/machine-learning/' | relative_url }}) for the technical audience and use cases.
 
 ## Source Links
 

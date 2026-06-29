@@ -28,7 +28,7 @@ MLOps helps teams answer practical production questions:
 - Can we retrain or roll back?
 - Does the model still support the business decision it was built for?
 
-For the full concept map, see [MLOps and DataOps](/wiki/mlops-and-dataops/).
+For the full concept map, see [MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }}).
 
 ## What MLOps Includes
 
@@ -75,7 +75,7 @@ MLOps focuses on machine learning systems. DataOps focuses on reliable data
 pipelines and analytical systems. In practice they overlap because production ML
 depends on production data.
 
-See [Data Engineering Platforms](/wiki/data-engineering-platforms/) for the
+See [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}) for the
 pipeline and platform side.
 
 ## Common Mistake

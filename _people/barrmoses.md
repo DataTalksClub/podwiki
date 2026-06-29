@@ -18,9 +18,9 @@ Barr Moses is CEO and co-founder of Monte Carlo. Her source bio includes prior w
 
 ## Concepts Connected
 
-- [data observability](/wiki/data-observability/) for monitoring data health.
-- [MLOps](/wiki/mlops/) for downstream reliability where model and analytics systems depend on data.
-- [data governance](/wiki/data-governance/) as an adjacent concern when observability informs ownership, lineage, and trust.
+- [data observability]({{ '/wiki/data-observability/' | relative_url }}) for monitoring data health.
+- [MLOps]({{ '/wiki/mlops/' | relative_url }}) for downstream reliability where model and analytics systems depend on data.
+- [data governance]({{ '/wiki/data-governance/' | relative_url }}) as an adjacent concern when observability informs ownership, lineage, and trust.
 
 ## Source Links
 

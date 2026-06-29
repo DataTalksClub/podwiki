@@ -7,22 +7,25 @@
     <meta name="description" content="{{ site.description }}">
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
-    <link rel="stylesheet" href="/assets/site.css">
+    <link rel="stylesheet" href="{{ '/assets/site.css' | relative_url }}">
+    <script>
+      window.PODWIKI_BASE_URL = "{{ site.baseurl }}";
+    </script>
   </head>
   <body>
     <header class="site-header">
       <div class="site-container">
         <div class="site-title">
-          <a class="brand" href="/">DataTalks.Club</a>
+          <a class="brand" href="{{ '/' | relative_url }}">DataTalks.Club</a>
           <span>Podcast Wiki</span>
         </div>
         <nav class="site-nav" aria-label="Primary navigation">
-          <a href="/graph.html">Graph</a>
-          <a href="/wiki/">Wiki</a>
-          <a href="/articles/">Articles</a>
-          <a href="/podcasts/">Podcasts</a>
-          <a href="/people/">People</a>
-          <a href="/search.html">Search</a>
+          <a href="{{ '/graph.html' | relative_url }}">Graph</a>
+          <a href="{{ '/wiki/' | relative_url }}">Wiki</a>
+          <a href="{{ '/articles/' | relative_url }}">Articles</a>
+          <a href="{{ '/podcasts/' | relative_url }}">Podcasts</a>
+          <a href="{{ '/people/' | relative_url }}">People</a>
+          <a href="{{ '/search.html' | relative_url }}">Search</a>
         </nav>
       </div>
     </header>

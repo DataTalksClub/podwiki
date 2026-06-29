@@ -13,7 +13,7 @@ links to the concepts, articles, and podcast summaries they support.
 {% if pages.size > 0 %}
 <div class="grid">
 {% for item in pages %}
-  <a class="card" href="{{ item.url }}">
+  <a class="card" href="{{ item.url | relative_url }}">
     <strong>{{ item.title }}</strong>
     {% if item.summary %}<span>{{ item.summary }}</span>{% endif %}
   </a>

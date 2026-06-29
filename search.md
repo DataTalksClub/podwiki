@@ -17,4 +17,4 @@ permalink: /search.html
 <script>
   window.PODWIKI_SEARCH_API = "{{ site.search_api_url }}";
 </script>
-<script src="/assets/search.js"></script>
+<script src="{{ '/assets/search.js' | relative_url }}"></script>

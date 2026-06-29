@@ -12,7 +12,7 @@ SEO-focused editorial articles will be created from the keyword list you provide
 {% if pages.size > 0 %}
 <div class="grid">
 {% for item in pages %}
-  <a class="card" href="{{ item.url }}">
+  <a class="card" href="{{ item.url | relative_url }}">
     <strong>{{ item.title }}</strong>
     {% if item.keyword %}<span>{{ item.keyword }}</span>{% endif %}
   </a>

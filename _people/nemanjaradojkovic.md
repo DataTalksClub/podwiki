@@ -19,9 +19,9 @@ Nemanja Radojkovic's source bio describes a path from electrical engineering int
 
 ## Concepts Connected
 
-- [MLOps](/wiki/mlops/) and [production](/wiki/production/) for operationalizing ML under different organizational constraints.
-- [data engineering](/wiki/data-engineering/) and [tools](/wiki/tools/) for infrastructure choices.
-- [career transition](/wiki/career-transition/) and [startups](/wiki/startups/) for role evolution and lean implementation.
+- [MLOps]({{ '/wiki/mlops/' | relative_url }}) and [production]({{ '/wiki/production/' | relative_url }}) for operationalizing ML under different organizational constraints.
+- [data engineering]({{ '/wiki/data-engineering/' | relative_url }}) and [tools]({{ '/wiki/tools/' | relative_url }}) for infrastructure choices.
+- [career transition]({{ '/wiki/career-transition/' | relative_url }}) and [startups]({{ '/wiki/startups/' | relative_url }}) for role evolution and lean implementation.
 
 ## Source Links
 

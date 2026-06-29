@@ -48,4 +48,4 @@ The archive is pragmatic: real-time systems are not automatically better. Use
 real time when the business action is time-sensitive. Otherwise, batch pipelines
 are often cheaper, simpler, and easier to operate.
 
-For the concept page, see [Data Engineering Platforms](/wiki/data-engineering-platforms/).
+For the concept page, see [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}).

@@ -12,7 +12,8 @@ layout: default
   {% if page.topics %}
     <div class="meta">
       {% for topic in page.topics %}
-        <a href="/wiki/{{ topic | slugify }}/">{{ topic }}</a>
+        {% assign topic_slug = topic | slugify %}
+        <a href="{{ '/wiki/' | append: topic_slug | append: '/' | relative_url }}">{{ topic }}</a>
       {% endfor %}
     </div>
   {% endif %}

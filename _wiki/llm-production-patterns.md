@@ -77,5 +77,5 @@ traditional ML may be more reliable for narrower tasks.
 
 ## Related Concepts
 
-- [MLOps and DataOps](/wiki/mlops-and-dataops/)
-- [Data Engineering Platforms](/wiki/data-engineering-platforms/)
+- [MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }})
+- [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})

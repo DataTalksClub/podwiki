@@ -18,9 +18,9 @@ Andreas Kretz describes himself in the source bio as a data engineer and "plumbe
 
 ## Concepts Connected
 
-- [data engineering](/wiki/data-engineering/) for pipelines, platforms, and streaming infrastructure.
-- [machine learning](/wiki/machine-learning/) and [production](/wiki/production/) for deploying models beyond notebooks.
-- [tools](/wiki/tools/) for AWS, Kafka, and related platform choices.
+- [data engineering]({{ '/wiki/data-engineering/' | relative_url }}) for pipelines, platforms, and streaming infrastructure.
+- [machine learning]({{ '/wiki/machine-learning/' | relative_url }}) and [production]({{ '/wiki/production/' | relative_url }}) for deploying models beyond notebooks.
+- [tools]({{ '/wiki/tools/' | relative_url }}) for AWS, Kafka, and related platform choices.
 
 ## Source Links
 

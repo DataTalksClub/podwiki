@@ -18,10 +18,10 @@ Lavanya Gupta is a Carnegie Mellon Language Technologies Institute alum and Seni
 
 ## Concepts Connected
 
-- [LLMs](/wiki/llms/) and [NLP](/wiki/nlp/) for long-context modeling and language applications.
-- [applied research](/wiki/applied-research/) for industry research that balances rigor with product timelines.
-- [MLOps](/wiki/mlops/) for reproducible experiments, evaluation, and model deployment constraints.
-- [career growth](/wiki/career-growth/) for publishing, speaking, mentoring, and building technical credibility.
+- [LLMs]({{ '/wiki/llms/' | relative_url }}) and [NLP]({{ '/wiki/nlp/' | relative_url }}) for long-context modeling and language applications.
+- [applied research]({{ '/wiki/applied-research/' | relative_url }}) for industry research that balances rigor with product timelines.
+- [MLOps]({{ '/wiki/mlops/' | relative_url }}) for reproducible experiments, evaluation, and model deployment constraints.
+- [career growth]({{ '/wiki/career-growth/' | relative_url }}) for publishing, speaking, mentoring, and building technical credibility.
 
 ## Source Links
 

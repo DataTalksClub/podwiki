@@ -5,6 +5,7 @@
   const reset = document.getElementById("graph-reset");
   const toggles = Array.from(document.querySelectorAll(".graph-type"));
   if (!canvas || !panel || !search) return;
+  const baseUrl = (window.PODWIKI_BASE_URL || "").replace(/\/$/, "");
 
   const ctx = canvas.getContext("2d");
   const colors = {
@@ -55,8 +56,14 @@
     history.replaceState(null, "", `${window.location.pathname}#${encodeURIComponent(id)}`);
   }
 
+  function siteUrl(path) {
+    if (!path || /^https?:\/\//i.test(path)) return path;
+    if (path.startsWith("/")) return `${baseUrl}${path}`;
+    return path;
+  }
+
   function nodeUrl(node) {
-    return node.url || `/graph.html#${encodeURIComponent(node.id)}`;
+    return siteUrl(node.url || `/graph.html#${encodeURIComponent(node.id)}`);
   }
 
   function graphUrl(node) {
@@ -234,7 +241,7 @@
       ${node.time ? `<p class="muted">Starts at ${escapeHtml(node.time)}</p>` : ""}
       <div class="graph-actions">
         <a class="button" href="${escapeHtml(nodeUrl(node))}">Open page</a>
-        <a class="button secondary" href="/search.html?q=${searchQuery}">Search this</a>
+        <a class="button secondary" href="${escapeHtml(siteUrl(`/search.html?q=${searchQuery}`))}">Search this</a>
         <button id="copy-graph-link" type="button">Copy graph link</button>
       </div>
       <h3>Linked Nodes</h3>
@@ -346,7 +353,7 @@
     draw();
   });
 
-  fetch("/graph/graph.json")
+  fetch(siteUrl("/graph/graph.json"))
     .then((response) => response.json())
     .then((payload) => {
       graph = payload;

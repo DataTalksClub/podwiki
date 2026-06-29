@@ -18,9 +18,9 @@ Lars Albertsson is the founder of Scling, a data engineering startup in Stockhol
 
 ## Concepts Connected
 
-- [dataops](/wiki/dataops/) and [data engineering](/wiki/data-engineering/) for platform delivery and pipeline discipline.
-- [MLOps](/wiki/mlops/) for overlap between data platform reliability and ML operations.
-- [data strategy](/wiki/data-strategy/) and [production](/wiki/production/) for organizational use of data platforms.
+- [dataops]({{ '/wiki/dataops/' | relative_url }}) and [data engineering]({{ '/wiki/data-engineering/' | relative_url }}) for platform delivery and pipeline discipline.
+- [MLOps]({{ '/wiki/mlops/' | relative_url }}) for overlap between data platform reliability and ML operations.
+- [data strategy]({{ '/wiki/data-strategy/' | relative_url }}) and [production]({{ '/wiki/production/' | relative_url }}) for organizational use of data platforms.
 
 ## Source Links
 

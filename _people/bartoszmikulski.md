@@ -18,9 +18,9 @@ Bartosz Mikulski is an AI and data engineer. His source bio emphasizes productio
 
 ## Concepts Connected
 
-- [AI](/wiki/ai/) and [LLMs](/wiki/llms/) for the application layer.
-- [data engineering](/wiki/data-engineering/) and [MLOps](/wiki/mlops/) for production readiness.
-- [tools](/wiki/tools/) and [production](/wiki/production/) for testing, caching, and operational constraints.
+- [AI]({{ '/wiki/ai/' | relative_url }}) and [LLMs]({{ '/wiki/llms/' | relative_url }}) for the application layer.
+- [data engineering]({{ '/wiki/data-engineering/' | relative_url }}) and [MLOps]({{ '/wiki/mlops/' | relative_url }}) for production readiness.
+- [tools]({{ '/wiki/tools/' | relative_url }}) and [production]({{ '/wiki/production/' | relative_url }}) for testing, caching, and operational constraints.
 
 ## Source Links
 

@@ -18,9 +18,9 @@ Maria Sukhareva is a principal key expert in Artificial Intelligence at Siemens.
 
 ## Concepts Connected
 
-- [generative AI](/wiki/generative-ai/), [LLMs](/wiki/llms/), and [NLP](/wiki/nlp/) for chatbot systems.
-- [AI red teaming](/wiki/ai-red-teaming/) and [security](/wiki/security/) for adversarial testing and risk mitigation.
-- [MLOps](/wiki/mlops/) and [production](/wiki/production/) for operating these systems beyond demos.
+- [generative AI]({{ '/wiki/generative-ai/' | relative_url }}), [LLMs]({{ '/wiki/llms/' | relative_url }}), and [NLP]({{ '/wiki/nlp/' | relative_url }}) for chatbot systems.
+- [AI red teaming]({{ '/wiki/ai-red-teaming/' | relative_url }}) and [security]({{ '/wiki/security/' | relative_url }}) for adversarial testing and risk mitigation.
+- [MLOps]({{ '/wiki/mlops/' | relative_url }}) and [production]({{ '/wiki/production/' | relative_url }}) for operating these systems beyond demos.
 
 ## Source Links
 

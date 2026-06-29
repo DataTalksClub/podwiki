@@ -18,8 +18,8 @@ Demetrios Brinkmann leads the MLOps Community. His source bio describes the comm
 
 ## Concepts Connected
 
-- [MLOps](/wiki/mlops/) as the technical domain around operational machine learning.
-- [community building](/wiki/community-building/) for meetup growth, contributor activation, and durable participation.
+- [MLOps]({{ '/wiki/mlops/' | relative_url }}) as the technical domain around operational machine learning.
+- [community building]({{ '/wiki/community-building/' | relative_url }}) for meetup growth, contributor activation, and durable participation.
 
 ## Source Links
 

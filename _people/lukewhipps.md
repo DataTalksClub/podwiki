@@ -19,9 +19,9 @@ Luke Whipps is a co-founder of Neural.AI, a recruiting company focused on data s
 
 ## Concepts Connected
 
-- [job search](/wiki/job-search/) and [hiring](/wiki/hiring/) for recruiter workflows and candidate evaluation.
-- [career growth](/wiki/career-growth/) for positioning, interview readiness, and negotiation.
-- [data science](/wiki/data-science/) for role expectations and portfolio evidence.
+- [job search]({{ '/wiki/job-search/' | relative_url }}) and [hiring]({{ '/wiki/hiring/' | relative_url }}) for recruiter workflows and candidate evaluation.
+- [career growth]({{ '/wiki/career-growth/' | relative_url }}) for positioning, interview readiness, and negotiation.
+- [data science]({{ '/wiki/data-science/' | relative_url }}) for role expectations and portfolio evidence.
 
 ## Source Links
 

@@ -18,9 +18,9 @@ Andrey Cheptsov is founder and CEO of dstack, an open-source alternative to Kube
 
 ## Concepts Connected
 
-- [AI infrastructure](/wiki/ai-infrastructure/) and [MLOps](/wiki/mlops/) for compute orchestration and model operations.
-- [LLMs](/wiki/llms/) for the workload pressure driving infrastructure decisions.
-- [open-source](/wiki/open-source/) and [tools](/wiki/tools/) for platform choices and developer workflow.
+- [AI infrastructure]({{ '/wiki/ai-infrastructure/' | relative_url }}) and [MLOps]({{ '/wiki/mlops/' | relative_url }}) for compute orchestration and model operations.
+- [LLMs]({{ '/wiki/llms/' | relative_url }}) for the workload pressure driving infrastructure decisions.
+- [open-source]({{ '/wiki/open-source/' | relative_url }}) and [tools]({{ '/wiki/tools/' | relative_url }}) for platform choices and developer workflow.
 
 ## Source Links
 

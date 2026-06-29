@@ -18,9 +18,9 @@ Ben Wilson is a Practice Lead Resident Solutions Architect at Databricks. His so
 
 ## Concepts Connected
 
-- [machine learning](/wiki/machine-learning/) and [production](/wiki/production/) for shipping maintainable systems.
-- [MLOps](/wiki/mlops/) and [software engineering](/wiki/software-engineering/) for engineering discipline around ML.
-- [career growth](/wiki/career-growth/) for the skills expected of production-focused ML practitioners.
+- [machine learning]({{ '/wiki/machine-learning/' | relative_url }}) and [production]({{ '/wiki/production/' | relative_url }}) for shipping maintainable systems.
+- [MLOps]({{ '/wiki/mlops/' | relative_url }}) and [software engineering]({{ '/wiki/software-engineering/' | relative_url }}) for engineering discipline around ML.
+- [career growth]({{ '/wiki/career-growth/' | relative_url }}) for the skills expected of production-focused ML practitioners.
 
 ## Source Links
 

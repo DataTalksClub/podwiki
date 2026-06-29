@@ -49,8 +49,8 @@ MLOps depends on DataOps. A model can fail because the upstream data pipeline
 changed. For that reason, monitoring a model without monitoring its data sources
 is incomplete.
 
-See [MLOps and DataOps](/wiki/mlops-and-dataops/) for the broader operating
-model and [Data Engineering Platforms](/wiki/data-engineering-platforms/) for
+See [MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }}) for the broader operating
+model and [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}) for
 the platform layer.
 
 ## When You Need DataOps

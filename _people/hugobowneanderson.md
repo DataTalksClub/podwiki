@@ -19,9 +19,9 @@ Hugo Bowne-Anderson is Head of Developer Relations at Outerbounds and host of Va
 
 ## Concepts Connected
 
-- [developer relations](/wiki/developer-relations/) and [open-source](/wiki/open-source/) for ecosystem building.
-- [LLMs](/wiki/llms/), [retrieval-augmented generation](/wiki/retrieval-augmented-generation/), and [MLOps](/wiki/mlops/) for practical language-model systems.
-- [machine learning](/wiki/machine-learning/) and [tools](/wiki/tools/) for infrastructure and workflow context.
+- [developer relations]({{ '/wiki/developer-relations/' | relative_url }}) and [open-source]({{ '/wiki/open-source/' | relative_url }}) for ecosystem building.
+- [LLMs]({{ '/wiki/llms/' | relative_url }}), [retrieval-augmented generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}), and [MLOps]({{ '/wiki/mlops/' | relative_url }}) for practical language-model systems.
+- [machine learning]({{ '/wiki/machine-learning/' | relative_url }}) and [tools]({{ '/wiki/tools/' | relative_url }}) for infrastructure and workflow context.
 
 ## Source Links
 

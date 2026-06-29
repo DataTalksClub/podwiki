@@ -1,9 +1,10 @@
-url: ""
+url: "https://datatalks.club"
+baseurl: ""
 name: DataTalks.Club Podcast Wiki
 title: DataTalks.Club Podcast Wiki
 description: Topic hubs, articles, people pages, and exploration search for the DataTalks.Club podcast archive.
 permalink: pretty
-search_api_url: ""
+search_api_url: "https://2zoro3dw5xu4jk6uo4u3q2dfim0nhdgb.lambda-url.eu-west-1.on.aws/"
 
 exclude:
   - .bin/

@@ -18,9 +18,9 @@ Christoph Molnar describes himself in the source person file as a statistician a
 
 ## Concepts Connected
 
-- [interpretability](/wiki/interpretability/) for explaining model behavior and limitations.
-- [machine learning](/wiki/machine-learning/) and [data science](/wiki/data-science/) for the modeling context.
-- [tools](/wiki/tools/) and [practices](/wiki/practices/) for methods teams can apply in real projects.
+- [interpretability]({{ '/wiki/interpretability/' | relative_url }}) for explaining model behavior and limitations.
+- [machine learning]({{ '/wiki/machine-learning/' | relative_url }}) and [data science]({{ '/wiki/data-science/' | relative_url }}) for the modeling context.
+- [tools]({{ '/wiki/tools/' | relative_url }}) and [practices]({{ '/wiki/practices/' | relative_url }}) for methods teams can apply in real projects.
 
 ## Source Links
 

@@ -19,9 +19,9 @@ Tereza Iofciu is an experienced data practitioner whose source bio spans data sc
 
 ## Concepts Connected
 
-- [leadership](/wiki/leadership/), [team building](/wiki/team-building/), and [communication](/wiki/communication/) for the management side of data work.
-- [career transition](/wiki/career-transition/), [career growth](/wiki/career-growth/), and [hiring](/wiki/hiring/) for role selection and candidate evaluation.
-- [data science](/wiki/data-science/) and [data engineering](/wiki/data-engineering/) for cross-functional role boundaries.
+- [leadership]({{ '/wiki/leadership/' | relative_url }}), [team building]({{ '/wiki/team-building/' | relative_url }}), and [communication]({{ '/wiki/communication/' | relative_url }}) for the management side of data work.
+- [career transition]({{ '/wiki/career-transition/' | relative_url }}), [career growth]({{ '/wiki/career-growth/' | relative_url }}), and [hiring]({{ '/wiki/hiring/' | relative_url }}) for role selection and candidate evaluation.
+- [data science]({{ '/wiki/data-science/' | relative_url }}) and [data engineering]({{ '/wiki/data-engineering/' | relative_url }}) for cross-functional role boundaries.
 
 ## Source Links
 

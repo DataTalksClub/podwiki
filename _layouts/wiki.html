@@ -11,7 +11,8 @@ layout: default
   {% if page.related %}
     <div class="meta">
       {% for item in page.related %}
-        <a href="/wiki/{{ item | slugify }}/">{{ item }}</a>
+        {% assign item_slug = item | slugify %}
+        <a href="{{ '/wiki/' | append: item_slug | append: '/' | relative_url }}">{{ item }}</a>
       {% endfor %}
     </div>
   {% endif %}

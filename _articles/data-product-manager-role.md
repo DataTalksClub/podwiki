@@ -41,4 +41,4 @@ roadmap prioritization. [Product Owner vs Product Manager](https://datatalks.clu
 clarifies the role distinction. [Business Skills in SaaS](https://datatalks.club/podcast.html)
 shows why definitions like “customer” become product problems.
 
-For the concept page, see [Data Product Management](/wiki/data-product-management/).
+For the concept page, see [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }}).

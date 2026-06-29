@@ -19,9 +19,9 @@ Vincent Warmerdam's source bio describes his work as a Research Advocate at Rasa
 
 ## Concepts Connected
 
-- [open-source](/wiki/open-source/) and [contributing](/wiki/contributing/) for contribution paths and maintainer dynamics.
-- [developer relations](/wiki/developer-relations/) for education, demos, and public communication.
-- [machine learning](/wiki/machine-learning/), [data science](/wiki/data-science/), and [tools](/wiki/tools/) for the project ecosystem.
+- [open-source]({{ '/wiki/open-source/' | relative_url }}) and [contributing]({{ '/wiki/contributing/' | relative_url }}) for contribution paths and maintainer dynamics.
+- [developer relations]({{ '/wiki/developer-relations/' | relative_url }}) for education, demos, and public communication.
+- [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [data science]({{ '/wiki/data-science/' | relative_url }}), and [tools]({{ '/wiki/tools/' | relative_url }}) for the project ecosystem.
 
 ## Source Links
 

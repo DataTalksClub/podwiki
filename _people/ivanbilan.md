@@ -18,9 +18,9 @@ Ivan Bilan is an Engineering Manager at Personio working on Identity and Access 
 
 ## Concepts Connected
 
-- [NLP](/wiki/nlp/) and [LLMs](/wiki/llms/) for language systems and modern model choices.
-- [MLOps](/wiki/mlops/) and [production](/wiki/production/) for shipping and maintaining NLP systems.
-- [leadership](/wiki/leadership/), [data teams](/wiki/data-teams/), and [career growth](/wiki/career-growth/) for building and guiding applied ML teams.
+- [NLP]({{ '/wiki/nlp/' | relative_url }}) and [LLMs]({{ '/wiki/llms/' | relative_url }}) for language systems and modern model choices.
+- [MLOps]({{ '/wiki/mlops/' | relative_url }}) and [production]({{ '/wiki/production/' | relative_url }}) for shipping and maintaining NLP systems.
+- [leadership]({{ '/wiki/leadership/' | relative_url }}), [data teams]({{ '/wiki/data-teams/' | relative_url }}), and [career growth]({{ '/wiki/career-growth/' | relative_url }}) for building and guiding applied ML teams.
 
 ## Source Links
 

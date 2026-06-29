@@ -18,10 +18,10 @@ Ranjitha Gurunath Kulkarni is a Staff Machine Learning Engineer at NeuBird.ai. H
 
 ## Concepts Connected
 
-- [LLMs](/wiki/llms/) and [AI](/wiki/ai/) for modern assistant and agent systems.
-- [agent engineering](/wiki/agent-engineering/) for system design around tools, plans, and delegated actions.
-- [retrieval-augmented generation](/wiki/retrieval-augmented-generation/) for grounding agents in external information.
-- [MLOps](/wiki/mlops/) and [tools](/wiki/tools/) for evaluation, reliability, and operational workflow.
+- [LLMs]({{ '/wiki/llms/' | relative_url }}) and [AI]({{ '/wiki/ai/' | relative_url }}) for modern assistant and agent systems.
+- [agent engineering]({{ '/wiki/agent-engineering/' | relative_url }}) for system design around tools, plans, and delegated actions.
+- [retrieval-augmented generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}) for grounding agents in external information.
+- [MLOps]({{ '/wiki/mlops/' | relative_url }}) and [tools]({{ '/wiki/tools/' | relative_url }}) for evaluation, reliability, and operational workflow.
 
 ## Source Links
 

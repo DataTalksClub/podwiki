@@ -69,6 +69,6 @@ experimentation.
 
 ## Related Concepts
 
-- [Data Engineering Platforms](/wiki/data-engineering-platforms/)
-- [MLOps and DataOps](/wiki/mlops-and-dataops/)
-- [Career Transitions in Data](/wiki/career-transitions-in-data/)
+- [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
+- [MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }})
+- [Career Transitions in Data]({{ '/wiki/career-transitions-in-data/' | relative_url }})

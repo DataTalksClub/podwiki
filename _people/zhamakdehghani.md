@@ -18,9 +18,9 @@ Zhamak Dehghani is a director of technology at Thoughtworks focused on distribut
 
 ## Concepts Connected
 
-- [data mesh](/wiki/data-mesh/) for decentralized architecture and ownership.
-- [data products](/wiki/data-products/) and [data governance](/wiki/data-governance/) for contracts, accountability, and federated standards.
-- [data engineering](/wiki/data-engineering/) for platform and implementation implications.
+- [data mesh]({{ '/wiki/data-mesh/' | relative_url }}) for decentralized architecture and ownership.
+- [data products]({{ '/wiki/data-products/' | relative_url }}) and [data governance]({{ '/wiki/data-governance/' | relative_url }}) for contracts, accountability, and federated standards.
+- [data engineering]({{ '/wiki/data-engineering/' | relative_url }}) for platform and implementation implications.
 
 ## Source Links
 

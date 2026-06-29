@@ -19,9 +19,9 @@ Eugene Yan works at the intersection of machine learning and product, with sourc
 
 ## Concepts Connected
 
-- [communication](/wiki/communication/) and [career transition](/wiki/career-transition/) for writing as a career tool.
-- [machine learning](/wiki/machine-learning/) and [software engineering](/wiki/software-engineering/) for the production systems context.
-- [community building](/wiki/community-building/) for public learning and technical education.
+- [communication]({{ '/wiki/communication/' | relative_url }}) and [career transition]({{ '/wiki/career-transition/' | relative_url }}) for writing as a career tool.
+- [machine learning]({{ '/wiki/machine-learning/' | relative_url }}) and [software engineering]({{ '/wiki/software-engineering/' | relative_url }}) for the production systems context.
+- [community building]({{ '/wiki/community-building/' | relative_url }}) for public learning and technical education.
 
 ## Source Links
 

@@ -4,7 +4,14 @@
   const status = document.getElementById("search-status");
   const results = document.getElementById("search-results");
   const apiUrl = (window.PODWIKI_SEARCH_API || "").trim();
+  const baseUrl = (window.PODWIKI_BASE_URL || "").replace(/\/$/, "");
   let localDocs = null;
+
+  function siteUrl(path) {
+    if (!path || /^https?:\/\//i.test(path)) return path;
+    if (path.startsWith("/")) return `${baseUrl}${path}`;
+    return path;
+  }
 
   function escapeHtml(value) {
     return String(value || "")
@@ -35,7 +42,7 @@
       const el = document.createElement("article");
       el.className = "result";
       el.innerHTML = `
-        <h2><a href="${escapeHtml(item.url)}">${escapeHtml(title)}</a></h2>
+        <h2><a href="${escapeHtml(siteUrl(item.url))}">${escapeHtml(title)}</a></h2>
         <div class="result-meta">${escapeHtml(meta)}</div>
         <p>${escapeHtml((item.text || "").slice(0, 320))}</p>
       `;
@@ -58,7 +65,7 @@
 
   async function localSearch(query) {
     if (!localDocs) {
-      const response = await fetch("/search/search-corpus.json");
+      const response = await fetch(siteUrl("/search/search-corpus.json"));
       const payload = await response.json();
       localDocs = payload.docs || payload;
     }

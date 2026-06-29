@@ -94,6 +94,6 @@ loops, and business framing still fail with modern tooling.
 
 ## Related Concepts
 
-- [Data Engineering Platforms](/wiki/data-engineering-platforms/)
-- [LLM Production Patterns](/wiki/llm-production-patterns/)
-- [Data Product Management](/wiki/data-product-management/)
+- [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
+- [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
+- [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})

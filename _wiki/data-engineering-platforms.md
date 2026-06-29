@@ -77,6 +77,6 @@ when interfaces, contracts, and ownership are explicit.
 
 ## Related Concepts
 
-- [MLOps and DataOps](/wiki/mlops-and-dataops/)
-- [Data Product Management](/wiki/data-product-management/)
-- [Career Transitions in Data](/wiki/career-transitions-in-data/)
+- [MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }})
+- [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
+- [Career Transitions in Data]({{ '/wiki/career-transitions-in-data/' | relative_url }})

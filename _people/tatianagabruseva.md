@@ -20,9 +20,9 @@ Tatiana Gabruseva is a Computer Vision and Deep Learning Engineer and Kaggle Com
 
 ## Concepts Connected
 
-- [computer vision](/wiki/computer-vision/), [deep learning](/wiki/deep-learning/), and [machine learning](/wiki/machine-learning/) for the technical arc.
-- [career transition](/wiki/career-transition/), [career growth](/wiki/career-growth/), and [academia](/wiki/academia/) for moving into industry roles.
-- [MLOps](/wiki/mlops/) and [staff AI engineer](/wiki/staff-ai-engineer/) for senior-practitioner expectations.
+- [computer vision]({{ '/wiki/computer-vision/' | relative_url }}), [deep learning]({{ '/wiki/deep-learning/' | relative_url }}), and [machine learning]({{ '/wiki/machine-learning/' | relative_url }}) for the technical arc.
+- [career transition]({{ '/wiki/career-transition/' | relative_url }}), [career growth]({{ '/wiki/career-growth/' | relative_url }}), and [academia]({{ '/wiki/academia/' | relative_url }}) for moving into industry roles.
+- [MLOps]({{ '/wiki/mlops/' | relative_url }}) and [staff AI engineer]({{ '/wiki/staff-ai-engineer/' | relative_url }}) for senior-practitioner expectations.
 
 ## Source Links
 
