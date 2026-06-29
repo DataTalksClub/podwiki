@@ -27,3 +27,8 @@ Eugene Yan works at the intersection of machine learning and product, with sourc
 
 - Person source: `../datatalksclub.github.io/_people/eugeneyan.md`
 - Podcast sources: `../datatalksclub.github.io/_podcast/technical-writing-for-data-scientists.md`, `../datatalksclub.github.io/_podcast/datatalksclub-building-scaling-data-community.md`
+
+## Podcast Discussions
+
+- [DataTalks.Club Behind the Scenes: Alexey Grigorev on Scaling and Growing the Community]({{ '/podcasts/datatalksclub-building-scaling-data-community/' | relative_url }}). Related topics: [community building]({{ '/wiki/community-building/' | relative_url }}), [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [data science]({{ '/wiki/data-science/' | relative_url }}), [data engineering]({{ '/wiki/data-engineering/' | relative_url }}), [MLOps]({{ '/wiki/mlops/' | relative_url }}).
+- [Master Technical Writing: 7-Day Workflow to Accelerate Your Data Science Career]({{ '/podcasts/technical-writing-for-data-scientists/' | relative_url }}). Related topics: [software engineering]({{ '/wiki/software-engineering/' | relative_url }}), [tools]({{ '/wiki/tools/' | relative_url }}), [practices]({{ '/wiki/practices/' | relative_url }}), [communication]({{ '/wiki/communication/' | relative_url }}), [career transition]({{ '/wiki/career-transition/' | relative_url }}).

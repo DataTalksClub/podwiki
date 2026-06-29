@@ -26,3 +26,7 @@ Elena Samuylova is co-founder and CEO of Evidently AI. Her source bio describes 
 
 - Person source: `../datatalksclub.github.io/_people/elenasamuylova.md`
 - Podcast source: `../datatalksclub.github.io/_podcast/building-mlops-startup.md`
+
+## Podcast Discussions
+
+- [How to Build a Successful ML Startup: MLOps, Model Monitoring, Open Source & Founder Fit]({{ '/podcasts/building-mlops-startup/' | relative_url }}). Related topics: [startup]({{ '/wiki/startup/' | relative_url }}), [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [MLOps]({{ '/wiki/mlops/' | relative_url }}), [open-source]({{ '/wiki/open-source/' | relative_url }}), [entrepreneurship]({{ '/wiki/entrepreneurship/' | relative_url }}), [founder]({{ '/wiki/founder/' | relative_url }}).

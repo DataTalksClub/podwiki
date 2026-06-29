@@ -82,3 +82,7 @@ Use these sources for verification:
 - Useful practice timestamps include explainable AI versus interpretable ML at
   26:17, hands-on competitions at 33:07, experiment logbook at 36:21, and
   feedback strategy at 44:51.
+
+## Podcast Discussions
+
+- [Interpretable Machine Learning: SHAP, Conformal Prediction and Model Trust]({{ '/podcasts/interpretable-machine-learning/' | relative_url }}). Related topics: [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [data science]({{ '/wiki/data-science/' | relative_url }}), [practices]({{ '/wiki/practices/' | relative_url }}), [tools]({{ '/wiki/tools/' | relative_url }}), [career transition]({{ '/wiki/career-transition/' | relative_url }}), [interpretability]({{ '/wiki/interpretability/' | relative_url }}).

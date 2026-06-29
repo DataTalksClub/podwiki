@@ -26,3 +26,7 @@ Elle O'Brien is a data scientist at Iterative and a lecturer at the University o
 
 - Person source: `../datatalksclub.github.io/_people/elleobrien.md`
 - Podcast source: `../datatalksclub.github.io/_podcast/devrel-data-science-open-source-tools.md`
+
+## Podcast Discussions
+
+- [DevRel for Data Science: Build Community, Create Content, and Grow Your Career]({{ '/podcasts/devrel-data-science-open-source-tools/' | relative_url }}). Related topics: [developer relations]({{ '/wiki/developer-relations/' | relative_url }}), [data science]({{ '/wiki/data-science/' | relative_url }}), [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [open-source]({{ '/wiki/open-source/' | relative_url }}).

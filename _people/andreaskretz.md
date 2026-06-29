@@ -26,3 +26,7 @@ Andreas Kretz describes himself in the source bio as a data engineer and "plumbe
 
 - Person source: `../datatalksclub.github.io/_people/andreaskretz.md`
 - Podcast source: `../datatalksclub.github.io/_podcast/production-ml-pipelines-with-aws-and-kafka.md`
+
+## Podcast Discussions
+
+- [From Notebooks to Production: Build Data Pipelines & Deploy ML (AWS, Kafka, Streaming)]({{ '/podcasts/production-ml-pipelines-with-aws-and-kafka/' | relative_url }}). Related topics: [data engineering]({{ '/wiki/data-engineering/' | relative_url }}), [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [production]({{ '/wiki/production/' | relative_url }}), [tools]({{ '/wiki/tools/' | relative_url }}).

@@ -27,3 +27,7 @@ Lavanya Gupta is a Carnegie Mellon Language Technologies Institute alum and Seni
 
 - Person source: `../datatalksclub.github.io/_people/lavanyagupta.md`
 - Podcast source: `../datatalksclub.github.io/_podcast/applied-llm-research-and-career-growth-in-practice.md`
+
+## Podcast Discussions
+
+- [Applied LLM Research & Career Growth: Long-Context Evaluation, Prototyping & Industry Publishing]({{ '/podcasts/applied-llm-research-and-career-growth-in-practice/' | relative_url }}). Related topics: [LLMs]({{ '/wiki/llms/' | relative_url }}), [NLP]({{ '/wiki/nlp/' | relative_url }}), [MLOps]({{ '/wiki/mlops/' | relative_url }}), [applied research]({{ '/wiki/applied-research/' | relative_url }}), [career growth]({{ '/wiki/career-growth/' | relative_url }}).

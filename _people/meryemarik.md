@@ -26,3 +26,7 @@ Meryem Arik is co-founder of TitanML. Her source bio describes TitanML as an NLP
 
 - Person source: `../datatalksclub.github.io/_people/meryemarik.md`
 - Podcast source: `../datatalksclub.github.io/_podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.md`
+
+## Podcast Discussions
+
+- [Deploying LLMs in Production: Fine-Tuning, Retrieval & Open-Source vs API Tradeoffs]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}). Related topics: [LLMs]({{ '/wiki/llms/' | relative_url }}), [MLOps]({{ '/wiki/mlops/' | relative_url }}), [open-source]({{ '/wiki/open-source/' | relative_url }}), [production]({{ '/wiki/production/' | relative_url }}), [retrieval-augmented generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}).

@@ -27,3 +27,7 @@ Ranjitha Gurunath Kulkarni is a Staff Machine Learning Engineer at NeuBird.ai. H
 
 - Person source: `../datatalksclub.github.io/_people/ranjithakulkarni.md`
 - Podcast source: `../datatalksclub.github.io/_podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.md`
+
+## Podcast Discussions
+
+- [Building Agentic AI Systems: Pragmatic Agent Engineering, Tooling, Retrieval & Evaluation]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}). Related topics: [LLMs]({{ '/wiki/llms/' | relative_url }}), [AI]({{ '/wiki/ai/' | relative_url }}), [agent engineering]({{ '/wiki/agent-engineering/' | relative_url }}), [retrieval-augmented generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}), [MLOps]({{ '/wiki/mlops/' | relative_url }}), [tools]({{ '/wiki/tools/' | relative_url }}).

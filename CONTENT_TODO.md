@@ -52,6 +52,9 @@ These notes capture the current cleanup direction and should not be lost.
 - Keep `make sources` as the first step for broad podcast work. It syncs local
   podcast pages, people pages, chapter summaries, and the source index used by
   subagents.
+- Use `sources/podcast-topic-inventory.md` as the durable topic map from the
+  five-agent archive pass. Extend it when a new archive-wide discovery pass finds
+  a recurring grounded topic.
 - For broad topic discovery, keep five subagents running on non-overlapping
   podcast batches and collect grounded topic reports before writing pages.
 - Keep MLOps and DataOps as separate concept pages. Use `_wiki/mlops.md` for

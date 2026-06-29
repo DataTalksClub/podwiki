@@ -14,5 +14,6 @@ Each source file is a Markdown episode page with YAML-like frontmatter containin
 - quotable clips with start and end offsets
 - transcript lines with speaker and timestamp
 
-This directory intentionally does not copy those files. The import script reads
-them in place and generates wiki pages under `../wiki`.
+This directory intentionally does not copy those files. The source scripts read
+them in place and generate local podcast summaries, people pages, JSON source
+indexes, and the compact archive summary used by agents.

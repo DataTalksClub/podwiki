@@ -7,9 +7,9 @@ This project has two different content products.
 Every public page must pass three checks before it is committed:
 
 - Grounded: every substantive section must cite actual DataTalks.Club podcast
-  discussions. Link public episode evidence through
-  `https://datatalks.club/podcast.html` and keep claims tied to those
-  references.
+  discussions. Link evidence through the local `/podcasts/<slug>/` page when the
+  source episode is known; that page links to the original DataTalks.Club
+  episode.
 - Linked: every page must visibly link to related wiki pages and podcast
   interviews. Articles should use `related_wiki` frontmatter and body links.
   Wiki pages should use `related` frontmatter and body links.
@@ -92,10 +92,10 @@ Generate or refresh these local podcast pages with
 `../datatalksclub.github.io/_podcast`.
 
 Before topic writeups, run `make sources`. This extracts podcast episodes,
-people, chapter summaries, and topic candidates into Markdown pages and
-`artifacts/podcast/source-index.json`. Agents should use that index and the
-local `/podcasts/<slug>/` pages as their first pass before opening a full
-episode transcript.
+people, chapter summaries, topic candidates, `artifacts/podcast/source-index.json`,
+and `sources/podcast-archive-summary.md`. Agents should read the archive
+summary and local `/podcasts/<slug>/` pages as their first pass before opening a
+full episode transcript.
 
 For large topic discovery work, keep five subagents running in parallel. Split
 the source episodes into non-overlapping batches. Each subagent should return
@@ -114,8 +114,10 @@ or people source files changed.
 
 People pages live in `_people/`. They collect guest/contributor information from
 `../datatalksclub.github.io/_people` and podcast participation. They should link
-people to wiki concepts, articles, and podcast summaries where relevant. Public
-episode references should use `https://datatalks.club/podcast.html`.
+people to wiki concepts, articles, and local podcast summaries where relevant.
+Use the original people profile for short background, but make the page mostly
+about what the person argued, explained, contrasted, or demonstrated in podcast
+discussions.
 
 ## Articles
 

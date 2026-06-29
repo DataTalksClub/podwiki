@@ -83,3 +83,7 @@ Use these sources for verification:
   35:49, ingest strategy at 38:24, and RAG evaluation at 48:09.
 - Existing summary:
   [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
+
+## Podcast Discussions
+
+- [Modern Search Systems: Vector Databases, LLMs and Semantic Retrieval]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}). Related topics: [NLP]({{ '/wiki/nlp/' | relative_url }}), [LLMs]({{ '/wiki/llms/' | relative_url }}), [MLOps]({{ '/wiki/mlops/' | relative_url }}), [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [data engineering]({{ '/wiki/data-engineering/' | relative_url }}).

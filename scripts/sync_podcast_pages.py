@@ -103,7 +103,8 @@ def main() -> None:
         if should_skip_podcast(source):
             continue
         total += 1
-        target = args.target / source.name
+        podcast = read_podcast(source)
+        target = args.target / f"{podcast['slug']}.md"
         if render_page(source, target):
             changed += 1
 

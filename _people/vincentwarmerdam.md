@@ -85,3 +85,8 @@ Use these sources for verification:
   hiring signal at 23:29, and business models at 56:19.
 - Existing summary:
   [Contribute to Open Source ML]({{ '/podcasts/open-source-ml-contributions/' | relative_url }})
+
+## Podcast Discussions
+
+- [Contribute to Open Source ML: scikit-learn Pipelines, PRs, Docs & Rasa Conversational AI]({{ '/podcasts/open-source-ml-contributions/' | relative_url }}). Related topics: [open-source]({{ '/wiki/open-source/' | relative_url }}), [data science]({{ '/wiki/data-science/' | relative_url }}), [career development]({{ '/wiki/career-development/' | relative_url }}), [contributing]({{ '/wiki/contributing/' | relative_url }}), [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [tools]({{ '/wiki/tools/' | relative_url }}).
+- [Open Source ML Tools: Scikit-Learn Governance, Sustainability and Business Models]({{ '/podcasts/open-source-ml-tools-strategy-and-business-models/' | relative_url }}). Related topics: [open-source]({{ '/wiki/open-source/' | relative_url }}), [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [data science]({{ '/wiki/data-science/' | relative_url }}), [tools]({{ '/wiki/tools/' | relative_url }}), [developer relations]({{ '/wiki/developer-relations/' | relative_url }}).

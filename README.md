@@ -6,7 +6,8 @@ This project applies Andrej Karpathy's LLM wiki pattern to the podcast content i
 `../datatalksclub.github.io/_podcast`: raw episode files stay in the website
 repo, while this repo holds exploration pages that help agents and readers
 understand, connect, and reuse the podcast archive. Public podcast links should
-point to `https://datatalks.club/podcast.html`.
+usually point to local `/podcasts/<slug>/` pages; those pages link back to the
+canonical DataTalks.Club episode.
 
 ## Why
 
@@ -36,6 +37,8 @@ thematic "Insight Hub" pages.
 - `search/` contains the browser fallback corpus copied into the static site.
 - `graph/graph.json` contains generated static graph data used by `/graph.html`.
 - `artifacts/search/` contains build artifacts for the Zerosearch Lambda.
+- `sources/podcast-archive-summary.md` contains the generated agent-first map
+  of all synced episodes, people, chapter summaries, and topic candidates.
 - `search_lambda/` contains the AWS Lambda handler for exploration-page search.
 - `scripts/` contains deterministic helpers for search packaging and checking the
   static site.
@@ -120,8 +123,9 @@ Optional repository variable:
 
 1. Add or update the source episode Markdown in
    `../datatalksclub.github.io/_podcast`.
-2. Add or update a compact page in `_podcast_summaries/` if the episode should be
-   discoverable here.
+2. Run `make sources` to regenerate `_podcast_summaries/`, `_people/`,
+   `artifacts/podcast/source-index.json`, and
+   `sources/podcast-archive-summary.md`.
 3. Link the new summary from relevant `_wiki/`, `_articles/`, and `_people/`
    pages when it adds evidence.
 4. Run `make check` in this repo. This refreshes graph data, search corpus, the

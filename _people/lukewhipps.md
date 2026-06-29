@@ -27,3 +27,8 @@ Luke Whipps is a co-founder of Neural.AI, a recruiting company focused on data s
 
 - Person source: `../datatalksclub.github.io/_people/lukewhipps.md`
 - Podcast sources: `../datatalksclub.github.io/_podcast/get-data-scientist-job.md`, `../datatalksclub.github.io/_podcast/machine-learning-data-science-interview-prep.md`
+
+## Podcast Discussions
+
+- [Land Data Scientist Roles: Resumes, Portfolios, Interviews & Recruiter Workflow]({{ '/podcasts/get-data-scientist-job/' | relative_url }}). Related topics: [data science]({{ '/wiki/data-science/' | relative_url }}), [career growth]({{ '/wiki/career-growth/' | relative_url }}), [job search]({{ '/wiki/job-search/' | relative_url }}).
+- [Master Machine Learning & Data Science Interviews: Recruiter-Proven Stages, Prep & Resources]({{ '/podcasts/machine-learning-data-science-interview-prep/' | relative_url }}). Related topics: [job search]({{ '/wiki/job-search/' | relative_url }}), [career growth]({{ '/wiki/career-growth/' | relative_url }}), [hiring]({{ '/wiki/hiring/' | relative_url }}), [data science]({{ '/wiki/data-science/' | relative_url }}).

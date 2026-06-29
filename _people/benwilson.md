@@ -82,3 +82,7 @@ Use these sources for verification:
   sponsorship at 29:06, and experimentation at 32:03.
 - Other delivery timestamps include simplicity first at 44:23, team composition
   at 49:54, and career advice at 67:58.
+
+## Podcast Discussions
+
+- [Practical Machine Learning Engineering for Production: Ship Maintainable Models, Avoid Complexity]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }}). Related topics: [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [career growth]({{ '/wiki/career-growth/' | relative_url }}), [production]({{ '/wiki/production/' | relative_url }}).

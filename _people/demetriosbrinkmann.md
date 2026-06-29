@@ -25,3 +25,7 @@ Demetrios Brinkmann leads the MLOps Community. His source bio describes the comm
 
 - Person source: `../datatalksclub.github.io/_people/demetriosbrinkmann.md`
 - Podcast source: `../datatalksclub.github.io/_podcast/mlops-community-building-and-meetups.md`
+
+## Podcast Discussions
+
+- [MLOps Community Playbook: Launch, Grow & Retain Meetups, Members, and Contributors]({{ '/podcasts/mlops-community-building-and-meetups/' | relative_url }}). Related topics: [MLOps]({{ '/wiki/mlops/' | relative_url }}), [community building]({{ '/wiki/community-building/' | relative_url }}).

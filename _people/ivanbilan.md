@@ -26,3 +26,7 @@ Ivan Bilan is an Engineering Manager at Personio working on Identity and Access 
 
 - Person source: `../datatalksclub.github.io/_people/ivanbilan.md`
 - Podcast source: `../datatalksclub.github.io/_podcast/nlp-team-hiring-and-production-mlops.md`
+
+## Podcast Discussions
+
+- [Lead NLP Teams: Hiring, Production Pipelines, MLOps & LLM Tradeoffs (GPT-3, spaCy)]({{ '/podcasts/nlp-team-hiring-and-production-mlops/' | relative_url }}). Related topics: [NLP]({{ '/wiki/nlp/' | relative_url }}), [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [MLOps]({{ '/wiki/mlops/' | relative_url }}), [data teams]({{ '/wiki/data-teams/' | relative_url }}), [LLMs]({{ '/wiki/llms/' | relative_url }}), [leadership]({{ '/wiki/leadership/' | relative_url }}), [career growth]({{ '/wiki/career-growth/' | relative_url }}), [production]({{ '/wiki/production/' | relative_url }}).

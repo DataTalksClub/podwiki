@@ -86,3 +86,7 @@ Use these sources for verification:
   case study at 19:10, and monitoring versus observability at 24:31.
 - Ownership timestamps include RACI at 29:00, data SLAs at 35:24, and false
   positives at 60:27.
+
+## Podcast Discussions
+
+- [Data Observability Explained: 5 Pillars to Prevent Downtime, Drift & False Positives]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }}). Related topics: [MLOps]({{ '/wiki/mlops/' | relative_url }}), [data observability]({{ '/wiki/data-observability/' | relative_url }}).

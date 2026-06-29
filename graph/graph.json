@@ -3,11 +3,11 @@
   "counts": {
     "wikis": 168,
     "articles": 61,
-    "podcasts": 200,
-    "persons": 437,
+    "podcasts": 202,
+    "persons": 438,
     "topics": 145,
-    "nodes": 1011,
-    "links": 4670
+    "nodes": 1014,
+    "links": 4777
   },
   "nodes": [
     {
@@ -637,6 +637,15 @@
       "url": "/people/aaronwishnick/",
       "count": 1,
       "search": "Aaron Wishnick Aaron Wishnick's DataTalks.Club profile."
+    },
+    {
+      "id": "person:abouzarabbaspour",
+      "type": "person",
+      "label": "abouzarabbaspour",
+      "title": "abouzarabbaspour",
+      "url": "/people/abouzarabbaspour/",
+      "count": 1,
+      "search": "abouzarabbaspour abouzarabbaspour's DataTalks.Club podcast discussions, organized for topic exploration."
     },
     {
       "id": "person:adamsroka",
@@ -2211,7 +2220,7 @@
       "title": "Jekaterina Kokatjuhha",
       "url": "/people/jekaterinakokatjuhha/",
       "count": 1,
-      "search": "Jekaterina Kokatjuhha Jekaterina Kokatjuhha's DataTalks.Club profile."
+      "search": "Jekaterina Kokatjuhha Jekaterina Kokatjuhha's DataTalks.Club podcast discussions, organized for topic exploration."
     },
     {
       "id": "person:jensalbrecht",
@@ -5508,6 +5517,15 @@
       "search": "From Software Engineering to Machine Learning: 7 Lessons, Tools, MLOps & Project Roadmap"
     },
     {
+      "id": "podcast:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering",
+      "type": "podcast",
+      "label": "From Theme Parks to Tesla: Building Data Products Through Applied ML and Full-Stack Engineering",
+      "title": "From Theme Parks to Tesla: Building Data Products Through Applied ML and Full-Stack Engineering",
+      "url": "/podcasts/theme-park-crowd-modeling-to-tesla-full-stack-data-engineering/",
+      "count": 1,
+      "search": "From Theme Parks to Tesla: Building Data Products Through Applied ML and Full Stack Engineering"
+    },
+    {
       "id": "podcast:generative-ai-chatbots-in-production-security",
       "type": "podcast",
       "label": "Hardening Generative AI Chatbots: Prevent Prompt Injection, Data Exfiltration & Hallucinations",
@@ -6282,6 +6300,15 @@
       "search": "The Future of AI Agents"
     },
     {
+      "id": "podcast:s12e08",
+      "type": "podcast",
+      "label": "The Journey of a Data Generalist: From Bioinformatics to Freelancing",
+      "title": "The Journey of a Data Generalist: From Bioinformatics to Freelancing",
+      "url": "/podcasts/s12e08/",
+      "count": 1,
+      "search": "The Journey of a Data Generalist: From Bioinformatics to Freelancing"
+    },
+    {
       "id": "podcast:how-to-transition-into-ml-and-data-engineering-from-qa",
       "type": "podcast",
       "label": "Transition from QA to Machine Learning & Data Engineering: Projects, Cloud & Interview Prep",
@@ -6701,7 +6728,7 @@
       "label": "data engineering",
       "title": "data engineering",
       "url": "/wiki/",
-      "count": 59,
+      "count": 60,
       "search": "data engineering"
     },
     {
@@ -6791,7 +6818,7 @@
       "label": "data science",
       "title": "data science",
       "url": "/wiki/",
-      "count": 61,
+      "count": 62,
       "search": "data science"
     },
     {
@@ -7196,7 +7223,7 @@
       "label": "LLMs",
       "title": "LLMs",
       "url": "/wiki/",
-      "count": 33,
+      "count": 34,
       "search": "LLMs"
     },
     {
@@ -7205,7 +7232,7 @@
       "label": "machine learning",
       "title": "machine learning",
       "url": "/wiki/",
-      "count": 96,
+      "count": 97,
       "search": "machine learning"
     },
     {
@@ -7268,7 +7295,7 @@
       "label": "MLOps",
       "title": "MLOps",
       "url": "/wiki/",
-      "count": 90,
+      "count": 91,
       "search": "MLOps"
     },
     {
@@ -14231,6 +14258,48 @@
       "weight": 2
     },
     {
+      "source": "person:abouzarabbaspour",
+      "target": "podcast:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:abouzarabbaspour",
+      "target": "podcast:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering",
+      "kind": "person-podcast",
+      "weight": 4
+    },
+    {
+      "source": "person:abouzarabbaspour",
+      "target": "wiki:data-engineering",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:abouzarabbaspour",
+      "target": "wiki:data-science",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:abouzarabbaspour",
+      "target": "wiki:llms",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:abouzarabbaspour",
+      "target": "wiki:machine-learning",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:abouzarabbaspour",
+      "target": "wiki:mlops",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
       "source": "person:adamsroka",
       "target": "podcast:ml-engineering-kpis-and-metrics-strategy",
       "kind": "person-link",
@@ -14305,8 +14374,20 @@
     {
       "source": "person:adrianbrudaru",
       "target": "podcast:freelance-data-engineering-pricing-and-clients",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:adrianbrudaru",
+      "target": "podcast:freelance-data-engineering-pricing-and-clients",
       "kind": "person-podcast",
       "weight": 4
+    },
+    {
+      "source": "person:adrianbrudaru",
+      "target": "podcast:from-data-freelancer-to-startup-open-source-products",
+      "kind": "person-link",
+      "weight": 2
     },
     {
       "source": "person:adrianbrudaru",
@@ -14318,7 +14399,7 @@
       "source": "person:adrianbrudaru",
       "target": "podcast:trends-in-modern-data-engineering",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:adrianbrudaru",
@@ -14364,13 +14445,37 @@
     },
     {
       "source": "person:adrianbrudaru",
+      "target": "wiki:ai",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:adrianbrudaru",
+      "target": "wiki:career-growth",
+      "kind": "person-link",
+      "weight": 4
+    },
+    {
+      "source": "person:adrianbrudaru",
       "target": "wiki:career-transitions-in-data",
       "kind": "person-link",
       "weight": 2
     },
     {
       "source": "person:adrianbrudaru",
+      "target": "wiki:data-engineering",
+      "kind": "person-link",
+      "weight": 4
+    },
+    {
+      "source": "person:adrianbrudaru",
       "target": "wiki:data-engineering-platforms",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:adrianbrudaru",
+      "target": "wiki:data-governance",
       "kind": "person-link",
       "weight": 2
     },
@@ -14382,7 +14487,43 @@
     },
     {
       "source": "person:adrianbrudaru",
+      "target": "wiki:entrepreneurship",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:adrianbrudaru",
+      "target": "wiki:freelance",
+      "kind": "person-link",
+      "weight": 4
+    },
+    {
+      "source": "person:adrianbrudaru",
+      "target": "wiki:leadership",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:adrianbrudaru",
+      "target": "wiki:open-source",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:adrianbrudaru",
       "target": "wiki:open-source-and-developer-relations",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:adrianbrudaru",
+      "target": "wiki:startups",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:adrianbrudaru",
+      "target": "wiki:tools",
       "kind": "person-link",
       "weight": 2
     },
@@ -14653,8 +14794,20 @@
     {
       "source": "person:alexeygrigorev",
       "target": "podcast:crisp-dm",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:alexeygrigorev",
+      "target": "podcast:crisp-dm",
       "kind": "person-podcast",
       "weight": 4
+    },
+    {
+      "source": "person:alexeygrigorev",
+      "target": "podcast:data-team-roles",
+      "kind": "person-link",
+      "weight": 2
     },
     {
       "source": "person:alexeygrigorev",
@@ -14665,14 +14818,32 @@
     {
       "source": "person:alexeygrigorev",
       "target": "podcast:datatalksclub-building-scaling-data-community",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:alexeygrigorev",
+      "target": "podcast:datatalksclub-building-scaling-data-community",
       "kind": "person-podcast",
       "weight": 4
     },
     {
       "source": "person:alexeygrigorev",
       "target": "podcast:datatalksclub-building-sustainable-data-community-3-years-anniversary",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:alexeygrigorev",
+      "target": "podcast:datatalksclub-building-sustainable-data-community-3-years-anniversary",
       "kind": "person-podcast",
       "weight": 4
+    },
+    {
+      "source": "person:alexeygrigorev",
+      "target": "podcast:datatalksclub-scaling-and-free-courses",
+      "kind": "person-link",
+      "weight": 2
     },
     {
       "source": "person:alexeygrigorev",
@@ -14720,17 +14891,29 @@
       "source": "person:alexeygrigorev",
       "target": "wiki:career-transition",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:alexeygrigorev",
       "target": "wiki:community-building",
       "kind": "person-link",
-      "weight": 2
+      "weight": 8
     },
     {
       "source": "person:alexeygrigorev",
       "target": "wiki:data-engineering",
+      "kind": "person-link",
+      "weight": 10
+    },
+    {
+      "source": "person:alexeygrigorev",
+      "target": "wiki:data-science",
+      "kind": "person-link",
+      "weight": 8
+    },
+    {
+      "source": "person:alexeygrigorev",
+      "target": "wiki:data-teams",
       "kind": "person-link",
       "weight": 2
     },
@@ -14738,17 +14921,29 @@
       "source": "person:alexeygrigorev",
       "target": "wiki:llms",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
+    },
+    {
+      "source": "person:alexeygrigorev",
+      "target": "wiki:machine-learning",
+      "kind": "person-link",
+      "weight": 10
     },
     {
       "source": "person:alexeygrigorev",
       "target": "wiki:mlops",
       "kind": "person-link",
-      "weight": 2
+      "weight": 10
     },
     {
       "source": "person:alexeygrigorev",
       "target": "wiki:teaching",
+      "kind": "person-link",
+      "weight": 4
+    },
+    {
+      "source": "person:alexeygrigorev",
+      "target": "wiki:team-building",
       "kind": "person-link",
       "weight": 2
     },
@@ -14935,6 +15130,12 @@
     {
       "source": "person:andreaskretz",
       "target": "podcast:production-ml-pipelines-with-aws-and-kafka",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:andreaskretz",
+      "target": "podcast:production-ml-pipelines-with-aws-and-kafka",
       "kind": "person-podcast",
       "weight": 4
     },
@@ -14966,23 +15167,29 @@
       "source": "person:andreaskretz",
       "target": "wiki:data-engineering",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:andreaskretz",
       "target": "wiki:machine-learning",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:andreaskretz",
       "target": "wiki:production",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:andreaskretz",
       "target": "wiki:tools",
+      "kind": "person-link",
+      "weight": 4
+    },
+    {
+      "source": "person:andreycheptsov",
+      "target": "podcast:ai-infrastructure-hybrid-cloud-on-prem-distributed-training",
       "kind": "person-link",
       "weight": 2
     },
@@ -15026,31 +15233,31 @@
       "source": "person:andreycheptsov",
       "target": "wiki:ai-infrastructure",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:andreycheptsov",
       "target": "wiki:llms",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:andreycheptsov",
       "target": "wiki:mlops",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:andreycheptsov",
       "target": "wiki:open-source",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:andreycheptsov",
       "target": "wiki:tools",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:andreyshtylenko",
@@ -15284,7 +15491,7 @@
       "source": "person:atitaarora",
       "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:atitaarora",
@@ -15330,6 +15537,12 @@
     },
     {
       "source": "person:atitaarora",
+      "target": "wiki:data-engineering",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:atitaarora",
       "target": "wiki:data-engineering-platforms",
       "kind": "person-link",
       "weight": 2
@@ -15342,7 +15555,31 @@
     },
     {
       "source": "person:atitaarora",
+      "target": "wiki:llms",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:atitaarora",
+      "target": "wiki:machine-learning",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:atitaarora",
+      "target": "wiki:mlops",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:atitaarora",
       "target": "wiki:mlops-and-dataops",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:atitaarora",
+      "target": "wiki:nlp",
       "kind": "person-link",
       "weight": 2
     },
@@ -15391,6 +15628,12 @@
     {
       "source": "person:barrmoses",
       "target": "podcast:data-quality-data-observability-data-reliability",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:barrmoses",
+      "target": "podcast:data-quality-data-observability-data-reliability",
       "kind": "person-podcast",
       "weight": 4
     },
@@ -15426,6 +15669,12 @@
     },
     {
       "source": "person:barrmoses",
+      "target": "wiki:data-observability",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:barrmoses",
       "target": "wiki:data-product-management",
       "kind": "person-link",
       "weight": 2
@@ -15438,7 +15687,19 @@
     },
     {
       "source": "person:barrmoses",
+      "target": "wiki:mlops",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:barrmoses",
       "target": "wiki:mlops-and-dataops",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:bartoszmikulski",
+      "target": "podcast:production-ready-ai-engineering",
       "kind": "person-link",
       "weight": 2
     },
@@ -15482,25 +15743,25 @@
       "source": "person:bartoszmikulski",
       "target": "wiki:ai",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:bartoszmikulski",
       "target": "wiki:data-engineering",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:bartoszmikulski",
       "target": "wiki:llms",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:bartoszmikulski",
       "target": "wiki:mlops",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:bartoszmikulski",
@@ -15512,7 +15773,7 @@
       "source": "person:bartoszmikulski",
       "target": "wiki:tools",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:bartvandekerckhove",
@@ -15583,6 +15844,12 @@
     {
       "source": "person:benwilson",
       "target": "podcast:machine-learning-engineering-production-best-practices",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:benwilson",
+      "target": "podcast:machine-learning-engineering-production-best-practices",
       "kind": "person-podcast",
       "weight": 4
     },
@@ -15618,6 +15885,12 @@
     },
     {
       "source": "person:benwilson",
+      "target": "wiki:career-growth",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:benwilson",
       "target": "wiki:career-transitions-in-data",
       "kind": "person-link",
       "weight": 2
@@ -15630,6 +15903,12 @@
     },
     {
       "source": "person:benwilson",
+      "target": "wiki:machine-learning",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:benwilson",
       "target": "wiki:machine-learning-system-design",
       "kind": "person-link",
       "weight": 2
@@ -15637,6 +15916,12 @@
     {
       "source": "person:benwilson",
       "target": "wiki:mlops-and-dataops",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:benwilson",
+      "target": "wiki:production",
       "kind": "person-link",
       "weight": 2
     },
@@ -15835,6 +16120,12 @@
     {
       "source": "person:christophmolnar",
       "target": "podcast:interpretable-machine-learning",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:christophmolnar",
+      "target": "podcast:interpretable-machine-learning",
       "kind": "person-podcast",
       "weight": 4
     },
@@ -15870,7 +16161,31 @@
     },
     {
       "source": "person:christophmolnar",
+      "target": "wiki:career-transition",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:christophmolnar",
       "target": "wiki:data-quality-and-observability",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:christophmolnar",
+      "target": "wiki:data-science",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:christophmolnar",
+      "target": "wiki:interpretability",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:christophmolnar",
+      "target": "wiki:machine-learning",
       "kind": "person-link",
       "weight": 2
     },
@@ -15882,7 +16197,19 @@
     },
     {
       "source": "person:christophmolnar",
+      "target": "wiki:practices",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:christophmolnar",
       "target": "wiki:responsible-ai-and-governance",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:christophmolnar",
+      "target": "wiki:tools",
       "kind": "person-link",
       "weight": 2
     },
@@ -16261,6 +16588,12 @@
     {
       "source": "person:demetriosbrinkmann",
       "target": "podcast:mlops-community-building-and-meetups",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:demetriosbrinkmann",
+      "target": "podcast:mlops-community-building-and-meetups",
       "kind": "person-podcast",
       "weight": 4
     },
@@ -16292,13 +16625,13 @@
       "source": "person:demetriosbrinkmann",
       "target": "wiki:community-building",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:demetriosbrinkmann",
       "target": "wiki:mlops",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:dimitrivisnadi",
@@ -16393,6 +16726,12 @@
     {
       "source": "person:elenasamuylova",
       "target": "podcast:building-mlops-startup",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:elenasamuylova",
+      "target": "podcast:building-mlops-startup",
       "kind": "person-podcast",
       "weight": 4
     },
@@ -16436,37 +16775,37 @@
       "source": "person:elenasamuylova",
       "target": "wiki:entrepreneurship",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:elenasamuylova",
       "target": "wiki:founder",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:elenasamuylova",
       "target": "wiki:machine-learning",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:elenasamuylova",
       "target": "wiki:mlops",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:elenasamuylova",
       "target": "wiki:open-source",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:elenasamuylova",
       "target": "wiki:startup",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:elenistamatelou",
@@ -16585,6 +16924,12 @@
     {
       "source": "person:elleobrien",
       "target": "podcast:devrel-data-science-open-source-tools",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:elleobrien",
+      "target": "podcast:devrel-data-science-open-source-tools",
       "kind": "person-podcast",
       "weight": 4
     },
@@ -16616,25 +16961,25 @@
       "source": "person:elleobrien",
       "target": "wiki:data-science",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:elleobrien",
       "target": "wiki:developer-relations",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:elleobrien",
       "target": "wiki:machine-learning",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:elleobrien",
       "target": "wiki:open-source",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:erumafzal",
@@ -16693,8 +17038,20 @@
     {
       "source": "person:eugeneyan",
       "target": "podcast:datatalksclub-building-scaling-data-community",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:eugeneyan",
+      "target": "podcast:datatalksclub-building-scaling-data-community",
       "kind": "person-podcast",
       "weight": 4
+    },
+    {
+      "source": "person:eugeneyan",
+      "target": "podcast:technical-writing-for-data-scientists",
+      "kind": "person-link",
+      "weight": 2
     },
     {
       "source": "person:eugeneyan",
@@ -16736,17 +17093,29 @@
       "source": "person:eugeneyan",
       "target": "wiki:career-transition",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:eugeneyan",
       "target": "wiki:communication",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:eugeneyan",
       "target": "wiki:community-building",
+      "kind": "person-link",
+      "weight": 4
+    },
+    {
+      "source": "person:eugeneyan",
+      "target": "wiki:data-engineering",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:eugeneyan",
+      "target": "wiki:data-science",
       "kind": "person-link",
       "weight": 2
     },
@@ -16754,11 +17123,29 @@
       "source": "person:eugeneyan",
       "target": "wiki:machine-learning",
       "kind": "person-link",
+      "weight": 4
+    },
+    {
+      "source": "person:eugeneyan",
+      "target": "wiki:mlops",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:eugeneyan",
+      "target": "wiki:practices",
+      "kind": "person-link",
       "weight": 2
     },
     {
       "source": "person:eugeneyan",
       "target": "wiki:software-engineering",
+      "kind": "person-link",
+      "weight": 4
+    },
+    {
+      "source": "person:eugeneyan",
+      "target": "wiki:tools",
       "kind": "person-link",
       "weight": 2
     },
@@ -16856,13 +17243,19 @@
       "source": "person:hugobowneanderson",
       "target": "podcast:devrel-open-source-machine-learning",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:hugobowneanderson",
       "target": "podcast:devrel-open-source-machine-learning",
       "kind": "person-podcast",
       "weight": 4
+    },
+    {
+      "source": "person:hugobowneanderson",
+      "target": "podcast:practical-llm-engineering-and-rag",
+      "kind": "person-link",
+      "weight": 2
     },
     {
       "source": "person:hugobowneanderson",
@@ -16908,13 +17301,49 @@
     },
     {
       "source": "person:hugobowneanderson",
+      "target": "wiki:developer-relations",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:hugobowneanderson",
       "target": "wiki:llm-production-patterns",
       "kind": "person-link",
       "weight": 2
     },
     {
       "source": "person:hugobowneanderson",
+      "target": "wiki:llms",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:hugobowneanderson",
+      "target": "wiki:machine-learning",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:hugobowneanderson",
+      "target": "wiki:mlops",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:hugobowneanderson",
       "target": "wiki:mlops-and-dataops",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:hugobowneanderson",
+      "target": "wiki:nlp",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:hugobowneanderson",
+      "target": "wiki:open-source",
       "kind": "person-link",
       "weight": 2
     },
@@ -16927,6 +17356,12 @@
     {
       "source": "person:hugobowneanderson",
       "target": "wiki:search-rag-and-knowledge-systems",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:hugobowneanderson",
+      "target": "wiki:tools",
       "kind": "person-link",
       "weight": 2
     },
@@ -17029,6 +17464,12 @@
     {
       "source": "person:ivanbilan",
       "target": "podcast:nlp-team-hiring-and-production-mlops",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:ivanbilan",
+      "target": "podcast:nlp-team-hiring-and-production-mlops",
       "kind": "person-podcast",
       "weight": 4
     },
@@ -17072,23 +17513,29 @@
       "source": "person:ivanbilan",
       "target": "wiki:career-growth",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:ivanbilan",
       "target": "wiki:data-teams",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:ivanbilan",
       "target": "wiki:leadership",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:ivanbilan",
       "target": "wiki:llms",
+      "kind": "person-link",
+      "weight": 4
+    },
+    {
+      "source": "person:ivanbilan",
+      "target": "wiki:machine-learning",
       "kind": "person-link",
       "weight": 2
     },
@@ -17096,19 +17543,19 @@
       "source": "person:ivanbilan",
       "target": "wiki:mlops",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:ivanbilan",
       "target": "wiki:nlp",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:ivanbilan",
       "target": "wiki:production",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:ivanbrigida",
@@ -17265,6 +17712,18 @@
       "target": "wiki:tools",
       "kind": "person-link",
       "weight": 2
+    },
+    {
+      "source": "person:jekaterinakokatjuhha",
+      "target": "podcast:s12e08",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:jekaterinakokatjuhha",
+      "target": "podcast:s12e08",
+      "kind": "person-podcast",
+      "weight": 4
     },
     {
       "source": "person:jessiashdown",
@@ -17689,6 +18148,12 @@
     {
       "source": "person:larsalbertsson",
       "target": "podcast:dataops-principles-and-scalable-data-platforms",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:larsalbertsson",
+      "target": "podcast:dataops-principles-and-scalable-data-platforms",
       "kind": "person-podcast",
       "weight": 4
     },
@@ -17738,17 +18203,23 @@
       "source": "person:larsalbertsson",
       "target": "wiki:dataops",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:larsalbertsson",
       "target": "wiki:mlops",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:larsalbertsson",
       "target": "wiki:production",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:lavanyagupta",
+      "target": "podcast:applied-llm-research-and-career-growth-in-practice",
       "kind": "person-link",
       "weight": 2
     },
@@ -17792,31 +18263,31 @@
       "source": "person:lavanyagupta",
       "target": "wiki:applied-research",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:lavanyagupta",
       "target": "wiki:career-growth",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:lavanyagupta",
       "target": "wiki:llms",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:lavanyagupta",
       "target": "wiki:mlops",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:lavanyagupta",
       "target": "wiki:nlp",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:leonidkholkine",
@@ -18097,8 +18568,20 @@
     {
       "source": "person:lukewhipps",
       "target": "podcast:get-data-scientist-job",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:lukewhipps",
+      "target": "podcast:get-data-scientist-job",
       "kind": "person-podcast",
       "weight": 4
+    },
+    {
+      "source": "person:lukewhipps",
+      "target": "podcast:machine-learning-data-science-interview-prep",
+      "kind": "person-link",
+      "weight": 2
     },
     {
       "source": "person:lukewhipps",
@@ -18134,25 +18617,25 @@
       "source": "person:lukewhipps",
       "target": "wiki:career-growth",
       "kind": "person-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "person:lukewhipps",
       "target": "wiki:data-science",
       "kind": "person-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "person:lukewhipps",
       "target": "wiki:hiring",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:lukewhipps",
       "target": "wiki:job-search",
       "kind": "person-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "person:marcellolarocca",
@@ -18379,6 +18862,12 @@
     {
       "source": "person:mariasukhareva",
       "target": "podcast:generative-ai-chatbots-in-production-security",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:mariasukhareva",
+      "target": "podcast:generative-ai-chatbots-in-production-security",
       "kind": "person-podcast",
       "weight": 4
     },
@@ -18426,9 +18915,15 @@
     },
     {
       "source": "person:mariasukhareva",
-      "target": "wiki:ai-red-teaming",
+      "target": "wiki:ai",
       "kind": "person-link",
       "weight": 2
+    },
+    {
+      "source": "person:mariasukhareva",
+      "target": "wiki:ai-red-teaming",
+      "kind": "person-link",
+      "weight": 4
     },
     {
       "source": "person:mariasukhareva",
@@ -18440,31 +18935,31 @@
       "source": "person:mariasukhareva",
       "target": "wiki:llms",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:mariasukhareva",
       "target": "wiki:mlops",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:mariasukhareva",
       "target": "wiki:nlp",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:mariasukhareva",
       "target": "wiki:production",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:mariasukhareva",
       "target": "wiki:security",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:mariavechtomova",
@@ -18643,6 +19138,12 @@
     {
       "source": "person:meryemarik",
       "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:meryemarik",
+      "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
       "kind": "person-podcast",
       "weight": 4
     },
@@ -18680,31 +19181,31 @@
       "source": "person:meryemarik",
       "target": "wiki:llms",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:meryemarik",
       "target": "wiki:mlops",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:meryemarik",
       "target": "wiki:open-source",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:meryemarik",
       "target": "wiki:production",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:meryemarik",
       "target": "wiki:retrieval-augmented-generation",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:micheallanham",
@@ -18925,8 +19426,20 @@
     {
       "source": "person:nemanjaradojkovic",
       "target": "podcast:lean-mlops-for-startups",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:nemanjaradojkovic",
+      "target": "podcast:lean-mlops-for-startups",
       "kind": "person-podcast",
       "weight": 4
+    },
+    {
+      "source": "person:nemanjaradojkovic",
+      "target": "podcast:mlops-and-ml-engineering-in-finance",
+      "kind": "person-link",
+      "weight": 2
     },
     {
       "source": "person:nemanjaradojkovic",
@@ -18974,11 +19487,17 @@
       "source": "person:nemanjaradojkovic",
       "target": "wiki:career-transition",
       "kind": "person-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "person:nemanjaradojkovic",
       "target": "wiki:data-engineering",
+      "kind": "person-link",
+      "weight": 6
+    },
+    {
+      "source": "person:nemanjaradojkovic",
+      "target": "wiki:machine-learning",
       "kind": "person-link",
       "weight": 2
     },
@@ -18986,25 +19505,25 @@
       "source": "person:nemanjaradojkovic",
       "target": "wiki:mlops",
       "kind": "person-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "person:nemanjaradojkovic",
       "target": "wiki:production",
       "kind": "person-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "person:nemanjaradojkovic",
       "target": "wiki:startups",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:nemanjaradojkovic",
       "target": "wiki:tools",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:nicksingh",
@@ -19501,6 +20020,12 @@
     {
       "source": "person:ranjithakulkarni",
       "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:ranjithakulkarni",
+      "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
       "kind": "person-podcast",
       "weight": 4
     },
@@ -19544,37 +20069,37 @@
       "source": "person:ranjithakulkarni",
       "target": "wiki:agent-engineering",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:ranjithakulkarni",
       "target": "wiki:ai",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:ranjithakulkarni",
       "target": "wiki:llms",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:ranjithakulkarni",
       "target": "wiki:mlops",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:ranjithakulkarni",
       "target": "wiki:retrieval-augmented-generation",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:ranjithakulkarni",
       "target": "wiki:tools",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:raphaelhoogvliets",
@@ -20449,14 +20974,32 @@
     {
       "source": "person:tatianagabruseva",
       "target": "podcast:from-academia-to-staff-ai-engineer-interviews-and-career-growth",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:tatianagabruseva",
+      "target": "podcast:from-academia-to-staff-ai-engineer-interviews-and-career-growth",
       "kind": "person-podcast",
       "weight": 4
     },
     {
       "source": "person:tatianagabruseva",
       "target": "podcast:from-physics-to-computer-vision-career-transition",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:tatianagabruseva",
+      "target": "podcast:from-physics-to-computer-vision-career-transition",
       "kind": "person-podcast",
       "weight": 4
+    },
+    {
+      "source": "person:tatianagabruseva",
+      "target": "podcast:s24e01-competitions-beyond-kaggle-leaderboard",
+      "kind": "person-link",
+      "weight": 2
     },
     {
       "source": "person:tatianagabruseva",
@@ -20504,19 +21047,19 @@
       "source": "person:tatianagabruseva",
       "target": "wiki:academia",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:tatianagabruseva",
       "target": "wiki:career-growth",
       "kind": "person-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "person:tatianagabruseva",
       "target": "wiki:career-transition",
       "kind": "person-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "person:tatianagabruseva",
@@ -20528,23 +21071,29 @@
       "source": "person:tatianagabruseva",
       "target": "wiki:deep-learning",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:tatianagabruseva",
       "target": "wiki:machine-learning",
       "kind": "person-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "person:tatianagabruseva",
       "target": "wiki:mlops",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:tatianagabruseva",
       "target": "wiki:staff-ai-engineer",
+      "kind": "person-link",
+      "weight": 4
+    },
+    {
+      "source": "person:terezaiofciu",
+      "target": "podcast:data-leadership-coaching",
       "kind": "person-link",
       "weight": 2
     },
@@ -20553,6 +21102,12 @@
       "target": "podcast:data-leadership-coaching",
       "kind": "person-podcast",
       "weight": 4
+    },
+    {
+      "source": "person:terezaiofciu",
+      "target": "podcast:data-science-job-red-flags-and-mismatched-roles",
+      "kind": "person-link",
+      "weight": 2
     },
     {
       "source": "person:terezaiofciu",
@@ -20600,29 +21155,41 @@
       "source": "person:terezaiofciu",
       "target": "wiki:career-growth",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:terezaiofciu",
       "target": "wiki:career-transition",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:terezaiofciu",
       "target": "wiki:communication",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:terezaiofciu",
       "target": "wiki:data-engineering",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:terezaiofciu",
       "target": "wiki:data-science",
+      "kind": "person-link",
+      "weight": 4
+    },
+    {
+      "source": "person:terezaiofciu",
+      "target": "wiki:data-strategy",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:terezaiofciu",
+      "target": "wiki:data-teams",
       "kind": "person-link",
       "weight": 2
     },
@@ -20630,19 +21197,25 @@
       "source": "person:terezaiofciu",
       "target": "wiki:hiring",
       "kind": "person-link",
+      "weight": 4
+    },
+    {
+      "source": "person:terezaiofciu",
+      "target": "wiki:job-search",
+      "kind": "person-link",
       "weight": 2
     },
     {
       "source": "person:terezaiofciu",
       "target": "wiki:leadership",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:terezaiofciu",
       "target": "wiki:team-building",
       "kind": "person-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "person:theofilospapapanagiotou",
@@ -20870,13 +21443,19 @@
       "source": "person:vincentwarmerdam",
       "target": "podcast:open-source-ml-contributions",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:vincentwarmerdam",
       "target": "podcast:open-source-ml-contributions",
       "kind": "person-podcast",
       "weight": 4
+    },
+    {
+      "source": "person:vincentwarmerdam",
+      "target": "podcast:open-source-ml-tools-strategy-and-business-models",
+      "kind": "person-link",
+      "weight": 2
     },
     {
       "source": "person:vincentwarmerdam",
@@ -20916,9 +21495,39 @@
     },
     {
       "source": "person:vincentwarmerdam",
+      "target": "wiki:career-development",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:vincentwarmerdam",
       "target": "wiki:career-transitions-in-data",
       "kind": "person-link",
       "weight": 2
+    },
+    {
+      "source": "person:vincentwarmerdam",
+      "target": "wiki:contributing",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:vincentwarmerdam",
+      "target": "wiki:data-science",
+      "kind": "person-link",
+      "weight": 4
+    },
+    {
+      "source": "person:vincentwarmerdam",
+      "target": "wiki:developer-relations",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:vincentwarmerdam",
+      "target": "wiki:machine-learning",
+      "kind": "person-link",
+      "weight": 4
     },
     {
       "source": "person:vincentwarmerdam",
@@ -20934,9 +21543,21 @@
     },
     {
       "source": "person:vincentwarmerdam",
+      "target": "wiki:open-source",
+      "kind": "person-link",
+      "weight": 4
+    },
+    {
+      "source": "person:vincentwarmerdam",
       "target": "wiki:open-source-and-developer-relations",
       "kind": "person-link",
       "weight": 2
+    },
+    {
+      "source": "person:vincentwarmerdam",
+      "target": "wiki:tools",
+      "kind": "person-link",
+      "weight": 4
     },
     {
       "source": "person:vinvashishta",
@@ -21115,6 +21736,12 @@
     {
       "source": "person:zhamakdehghani",
       "target": "podcast:data-mesh-architecture-decentralized-data-products",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:zhamakdehghani",
+      "target": "podcast:data-mesh-architecture-decentralized-data-products",
       "kind": "person-podcast",
       "weight": 4
     },
@@ -21146,7 +21773,7 @@
       "source": "person:zhamakdehghani",
       "target": "wiki:data-engineering",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:zhamakdehghani",
@@ -21158,7 +21785,7 @@
       "source": "person:zhamakdehghani",
       "target": "wiki:data-mesh",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:zhamakdehghani",
@@ -27011,6 +27638,12 @@
       "weight": 2
     },
     {
+      "source": "podcast:s12e08",
+      "target": "person:jekaterinakokatjuhha",
+      "kind": "podcast-person",
+      "weight": 4
+    },
+    {
       "source": "podcast:s22e06-from-black-box-systems-to-augmented-decision-making",
       "target": "person:anushaakkina",
       "kind": "podcast-person",
@@ -27361,6 +27994,42 @@
     {
       "source": "podcast:technical-writing-for-data-scientists",
       "target": "topic:tools",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering",
+      "target": "person:abouzarabbaspour",
+      "kind": "podcast-person",
+      "weight": 4
+    },
+    {
+      "source": "podcast:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering",
+      "target": "topic:data-engineering",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering",
+      "target": "topic:data-science",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering",
+      "target": "topic:llms",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering",
+      "target": "topic:machine-learning",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering",
+      "target": "topic:mlops",
       "kind": "podcast-topic",
       "weight": 2
     },

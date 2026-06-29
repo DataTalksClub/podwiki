@@ -29,6 +29,8 @@ def yaml_list(values: object) -> str:
 
 
 def split_frontmatter(raw: str) -> tuple[dict[str, object], str, str]:
+    if raw.startswith("_\n---\n"):
+        raw = raw[2:]
     if not raw.startswith("---\n"):
         return {}, raw, ""
     end = raw.find("\n---", 4)
@@ -131,6 +133,50 @@ def seconds_to_stamp(value: object) -> str:
     return f"{minutes}:{sec:02d}"
 
 
+def timestamp_url(base_url: object, seconds: object) -> str:
+    url = clean_value(base_url)
+    if not url:
+        return ""
+    try:
+        sec = int(str(seconds))
+    except ValueError:
+        return url
+    if "youtube.com/watch" in url:
+        separator = "&" if "?" in url else "?"
+        return f"{url}{separator}t={sec}"
+    return url
+
+
+def transcript_chapters(items: list[dict[str, str]], youtube_url: object) -> list[dict[str, str]]:
+    chapters: list[dict[str, str]] = []
+    pending: dict[str, str] | None = None
+
+    for item in items:
+        header = clean_value(item.get("header"))
+        if header:
+            if pending:
+                pending["url"] = timestamp_url(youtube_url, pending.get("start", ""))
+                chapters.append(pending)
+            pending = {
+                "title": header,
+                "start": clean_value(item.get("sec")),
+                "end": "",
+                "time": clean_value(item.get("time")) or seconds_to_stamp(item.get("sec", "")),
+                "url": "",
+            }
+            continue
+
+        if pending and not pending["start"] and item.get("sec"):
+            pending["start"] = clean_value(item.get("sec"))
+            pending["time"] = clean_value(item.get("time")) or seconds_to_stamp(item.get("sec", ""))
+
+    if pending:
+        pending["url"] = timestamp_url(youtube_url, pending.get("start", ""))
+        chapters.append(pending)
+
+    return chapters
+
+
 def as_list(value: object) -> list[str]:
     if isinstance(value, list):
         return [clean_value(item) for item in value if clean_value(item)]
@@ -140,15 +186,16 @@ def as_list(value: object) -> list[str]:
 
 
 def should_skip_podcast(path: Path) -> bool:
-    return path.name.startswith("_") or path.name == "README.md"
+    return path.name in {"README.md", "_template.md"}
 
 
 def read_podcast(path: Path) -> dict[str, object]:
     raw = path.read_text(encoding="utf-8")
     meta, body, frontmatter = split_frontmatter(raw)
     clips = parse_list_of_dicts(frontmatter, "quotableClips")
+    transcript_items = parse_list_of_dicts(frontmatter, "transcript")
     links = meta.get("links") if isinstance(meta.get("links"), dict) else {}
-    slug = path.stem
+    slug = path.stem.lstrip("_")
     title = str(meta.get("title") or slug.replace("-", " ").title())
     intro = first_paragraph(meta.get("intro") or meta.get("description"))
     chapters = [
@@ -162,6 +209,8 @@ def read_podcast(path: Path) -> dict[str, object]:
         for clip in clips
         if clip.get("name")
     ]
+    if not chapters:
+        chapters = transcript_chapters(transcript_items, links.get("youtube", ""))
 
     return {
         "slug": slug,

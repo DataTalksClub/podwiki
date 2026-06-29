@@ -72,21 +72,25 @@ and replace them with podcast-backed synthesis when the topic becomes important.
 ## Ingest Workflow
 
 1. Read `CONTENT_GUIDE.md`.
-2. Inspect existing pages in `_wiki/`, `_articles/`, `_podcast_summaries/`, and
+2. For broad topic work, read `sources/podcast-topic-inventory.md` after running
+   `make sources`.
+3. Inspect existing pages in `_wiki/`, `_articles/`, `_podcast_summaries/`, and
    `_people/`.
-3. Open raw source episode files in `../datatalksclub.github.io/_podcast` only
+4. Open raw source episode files in `../datatalksclub.github.io/_podcast` only
    when you need evidence, clips, guests, or transcript context.
-4. Update the target exploration page with synthesized takeaways, not just lists
+5. Update the target exploration page with synthesized takeaways, not just lists
    of links.
-5. Add cross-links to related wiki pages, articles, people, and podcast summaries.
-6. Add podcast evidence links in the body. Use local
+6. Add cross-links to related wiki pages, articles, people, and podcast summaries.
+7. Add podcast evidence links in the body. Use local
    `/podcasts/<source-file-slug>/` links when the source episode is known.
-7. For source-derived podcast and people pages, run `make sources`.
-8. For graph/search changes, run `make graph` and
+8. For source-derived podcast and people pages, run `make sources`.
+9. For graph/search changes, run `make graph` and
    `python scripts/build_search_index.py`, or simply run `make check`.
 
-For broad podcast-topic work, first extract episodes, people, chapter summaries,
-and topic candidates with `make sources`. Then keep five subagents running on
+For broad podcast-topic work, first extract all episodes, all people, compact
+chapter summaries, and topic candidates with `make sources`. Read
+`sources/podcast-archive-summary.md` or `.tmp/podcast-archive-summary.md` before
+opening full source episodes. Then keep five subagents running on
 non-overlapping episode batches. Subagents should produce grounded topic reports
 with local podcast links and guest links before writing wiki or article pages.
 

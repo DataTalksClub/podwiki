@@ -34,11 +34,16 @@ def merge_existing_page(target: Path, rendered: str) -> str:
         return rendered
 
     generated_meta, _, _ = split_frontmatter(rendered)
+    _, generated_body, _ = split_frontmatter(rendered)
     for key, value in generated_meta.items():
         if key in {"source_url", "podcast_episodes"}:
             meta[key] = value
         elif key in {"layout", "title", "summary"} and not meta.get(key):
             meta[key] = value
+
+    if "## Podcast Discussions" not in body and "## Podcast Discussions" in generated_body:
+        discussion = generated_body.split("## Podcast Discussions", 1)[1].strip()
+        body = body.rstrip() + "\n\n## Podcast Discussions\n\n" + discussion + "\n"
 
     frontmatter = ["---"]
     for key, value in meta.items():

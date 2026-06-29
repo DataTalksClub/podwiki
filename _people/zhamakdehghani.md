@@ -26,3 +26,7 @@ Zhamak Dehghani is a director of technology at Thoughtworks focused on distribut
 
 - Person source: `../datatalksclub.github.io/_people/zhamakdehghani.md`
 - Podcast source: `../datatalksclub.github.io/_podcast/data-mesh-architecture-decentralized-data-products.md`
+
+## Podcast Discussions
+
+- [Data Mesh Implementation: Build Decentralized Data Products, Contracts & Federated Governance]({{ '/podcasts/data-mesh-architecture-decentralized-data-products/' | relative_url }}). Related topics: [data mesh]({{ '/wiki/data-mesh/' | relative_url }}), [data engineering]({{ '/wiki/data-engineering/' | relative_url }}).

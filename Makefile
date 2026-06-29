@@ -7,6 +7,7 @@ sources: ## Sync source-derived podcast and people pages for graph/search
 	python scripts/sync_podcast_pages.py
 	python scripts/sync_people_pages.py
 	python scripts/extract_podcast_sources.py
+	python scripts/build_podcast_archive_summary.py
 
 graph: sources ## Build the static graph data used by the site
 	python scripts/build_graph.py

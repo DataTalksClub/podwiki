@@ -26,3 +26,7 @@ Andrey Cheptsov is founder and CEO of dstack, an open-source alternative to Kube
 
 - Person source: `../datatalksclub.github.io/_people/andreycheptsov.md`
 - Podcast source: `../datatalksclub.github.io/_podcast/ai-infrastructure-hybrid-cloud-on-prem-distributed-training.md`
+
+## Podcast Discussions
+
+- [Post-ChatGPT AI Infrastructure: Open Source Orchestration, On-Prem Economics & Distributed Training at Scale]({{ '/podcasts/ai-infrastructure-hybrid-cloud-on-prem-distributed-training/' | relative_url }}). Related topics: [AI infrastructure]({{ '/wiki/ai-infrastructure/' | relative_url }}), [MLOps]({{ '/wiki/mlops/' | relative_url }}), [LLMs]({{ '/wiki/llms/' | relative_url }}), [open-source]({{ '/wiki/open-source/' | relative_url }}), [tools]({{ '/wiki/tools/' | relative_url }}).

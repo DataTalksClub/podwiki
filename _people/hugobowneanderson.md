@@ -86,3 +86,8 @@ Use these sources for verification:
   44:26, and agent framework at 56:21.
 - Existing summary:
   [DevRel Role for Machine Learning]({{ '/podcasts/devrel-open-source-machine-learning/' | relative_url }})
+
+## Podcast Discussions
+
+- [DevRel Role for Machine Learning: ML Ecosystems, Open-Source Governance & Developer Experience with Metaflow]({{ '/podcasts/devrel-open-source-machine-learning/' | relative_url }}). Related topics: [developer relations]({{ '/wiki/developer-relations/' | relative_url }}), [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [open-source]({{ '/wiki/open-source/' | relative_url }}).
+- [Practical LLM Engineering and RAG: Prompting, Evaluation and Real-World Workflows]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}). Related topics: [LLMs]({{ '/wiki/llms/' | relative_url }}), [NLP]({{ '/wiki/nlp/' | relative_url }}), [MLOps]({{ '/wiki/mlops/' | relative_url }}), [tools]({{ '/wiki/tools/' | relative_url }}).

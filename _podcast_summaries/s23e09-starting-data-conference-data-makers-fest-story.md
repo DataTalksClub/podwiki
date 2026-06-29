@@ -20,3 +20,21 @@ apple_url: "https://podcasts.apple.com/us/podcast/starting-a-data-conference-the
 - [Watch on YouTube](https://www.youtube.com/watch?v=6Zx1jDQQScA)
 - [Listen on Spotify](https://open.spotify.com/episode/53hHdpoEFyJeMTfSVas595?si=mwk_BEoZS2O00nxqGjrNEA)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/starting-a-data-conference-the-data-makers-fest/id1541710331?i=1000762031992)
+
+## Chapter Summary
+
+- 0:00 - [Community Building in Data and AI](https://www.youtube.com/watch?v=6Zx1jDQQScA&t=0)
+- 3:02 - [Computer Engineering and International Leadership Roots](https://www.youtube.com/watch?v=6Zx1jDQQScA&t=182)
+- 6:13 - [Machine Learning Research in Sports Physiology](https://www.youtube.com/watch?v=6Zx1jDQQScA&t=373)
+- 10:18 - [Data Lead Club and Executive Networking Retreats](https://www.youtube.com/watch?v=6Zx1jDQQScA&t=618)
+- 14:03 - [AI Observability and R&D at Their Data](https://www.youtube.com/watch?v=6Zx1jDQQScA&t=843)
+- [Professional Growth through Community Organizing](https://www.youtube.com/watch?v=6Zx1jDQQScA)
+- 19:19 - [I would say a little bit. You get to know a lot of people and you get to](https://www.youtube.com/watch?v=6Zx1jDQQScA&t=1159)
+- 27:57 - [Logistical Challenges of In-Person Conferences](https://www.youtube.com/watch?v=6Zx1jDQQScA&t=1677)
+- 31:24 - [Strategic Event Scheduling and Venue Selection](https://www.youtube.com/watch?v=6Zx1jDQQScA&t=1884)
+- 36:52 - [Automated Timetable Optimization with Custom Code](https://www.youtube.com/watch?v=6Zx1jDQQScA&t=2212)
+- 41:22 - [Curating Quality Speaker Proposals in the AI Era](https://www.youtube.com/watch?v=6Zx1jDQQScA&t=2482)
+- 45:47 - [Sponsorship Value and Student Ticket Accessibility](https://www.youtube.com/watch?v=6Zx1jDQQScA&t=2747)
+- 50:23 - [Partnership Outreach and Network Development](https://www.youtube.com/watch?v=6Zx1jDQQScA&t=3023)
+- 54:44 - [The Forward Deployed Engineer Role and Methodology](https://www.youtube.com/watch?v=6Zx1jDQQScA&t=3284)
+- 58:35 - [Professional Development for Junior Data Scientists](https://www.youtube.com/watch?v=6Zx1jDQQScA&t=3515)
