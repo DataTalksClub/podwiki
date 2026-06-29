@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/preparing-for-a-data-science-i
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/machine-learning-data-science-interview-prep.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=NnZjlMowkWA)
 - [Listen on Spotify](https://open.spotify.com/episode/3JAmnWie8pS58Kok9Sjr2V?si=FDpX4O74Qi2kqzMGumqMpw)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/preparing-for-a-data-science-i
 
 How do you reliably prepare for ML and data science technical interviews — from the initial recruiter screen to coding and scenario-based rounds? In this episode Luke Whipps, co-founder of Neural.AI and host of the AI Game Changer podcast, draws on 8+ years recruiting data scientists and AI professionals to lay out recruiter-proven interview stages and practical prep tactics.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Lukewhipps]({{ '/people/lukewhipps/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode Introduction](https://www.youtube.com/watch?v=NnZjlMowkWA&t=0)
 - 1:41 - [Guest Introduction: Luke Whipps & Neural AI](https://www.youtube.com/watch?v=NnZjlMowkWA&t=101)

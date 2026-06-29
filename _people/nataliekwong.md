@@ -15,4 +15,4 @@ Natalie is a Growth Product Manager at Airbyte focused on building the user expe
 
 ## Podcast Discussions
 
-- [ETL vs ELT & Data Lake vs Warehouse: Airbyte, dbt, CDC for Modern Data Engineering]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}). Related topics: [data engineering]({{ '/wiki/data-engineering/' | relative_url }}), [tools]({{ '/wiki/tools/' | relative_url }}).
+- [ETL vs ELT & Data Lake vs Warehouse: Airbyte, dbt, CDC for Modern Data Engineering]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}). Discussed: Episode Overview: Decoding Data Engineering Acronyms; Guest Career Journey: From Marketing Ops to Analytics & Growth; Airbyte Overview: ELT Focus and Connector Purpose; ETL Explained: Extract, Transform, Load (Traditional Model). Related topics: [data engineering]({{ '/wiki/data-engineering/' | relative_url }}), [tools]({{ '/wiki/tools/' | relative_url }}).

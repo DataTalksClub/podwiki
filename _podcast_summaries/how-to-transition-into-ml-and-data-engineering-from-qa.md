@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-testing-phones-to-managin
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/how-to-transition-into-ml-and-data-engineering-from-qa.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=-xumbiXOlA8)
 - [Listen on Spotify](https://open.spotify.com/episode/1LMg70fGthIR2jF4JdmFkb?si=BmEfOtfgSEOpKvp5ENRA2g)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-testing-phones-to-managin
 
 How do you move from a QA role into machine learning and data engineering—what projects, cloud skills, and interview prep actually make a difference? In this episode Alvaro Navas Peire walks through his journey from testing Android phones and QA checklists to quitting the industry, taking a gap year, and retraining in machine learning and data engineering. With an informatics engineering background and hands-on experience from postgraduate courses, Neuromatch, and DataTalks’ ML & DE Zoomcamps, Alvaro explains the.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Alvaronavaspeire]({{ '/people/alvaronavaspeire/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=-xumbiXOlA8&t=0)
 - 1:15 - [Early Life & Informatics Engineering; phone industry beginnings](https://www.youtube.com/watch?v=-xumbiXOlA8&t=75)

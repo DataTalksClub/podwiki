@@ -16,4 +16,4 @@ Danny is a recovering data scientist who has moved over to the dark side of ML/D
 
 ## Podcast Discussions
 
-- [Data Science Career Guide: ABC Framework (Analyst, Builder, Consultant) & Transition Tips]({{ '/podcasts/data-science-career-abc-framework/' | relative_url }}). Related topics: [career transition]({{ '/wiki/career-transition/' | relative_url }}), [data science]({{ '/wiki/data-science/' | relative_url }}), [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), data analysis.
+- [Data Science Career Guide: ABC Framework (Analyst, Builder, Consultant) & Transition Tips]({{ '/podcasts/data-science-career-abc-framework/' | relative_url }}). Discussed: LinkedIn Memes & Creative Editing for Data Audiences; Career Journey: Analytics to Data Science; Transition to Python, Kaggle & Self-Directed Learning; Early Tools: SQL, SAS and Excel Workflows. Related topics: [career transition]({{ '/wiki/career-transition/' | relative_url }}), [data science]({{ '/wiki/data-science/' | relative_url }}), [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), data analysis.

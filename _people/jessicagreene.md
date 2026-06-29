@@ -17,4 +17,4 @@ Jessica Greene is a Senior Machine Learning Engineer at Ecosia, where she levera
 
 ## Podcast Discussions
 
-- [How to Switch to Tech: Community Meetups, Open Source Fellowships & Landing an Ecosia Internship]({{ '/podcasts/how-to-switch-to-ml-tech-without-experience/' | relative_url }}). Related topics: career switch, [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [job search]({{ '/wiki/job-search/' | relative_url }}), [career growth]({{ '/wiki/career-growth/' | relative_url }}).
+- [How to Switch to Tech: Community Meetups, Open Source Fellowships & Landing an Ecosia Internship]({{ '/podcasts/how-to-switch-to-ml-tech-without-experience/' | relative_url }}). Discussed: Career Origin: From Film & Coffee Roasting to Tech; Community Support & Early Conference Exposure (PyLadies, meetups); Learning Path: Codecademy, Andrew Ng Course & FreeCodeCamp; Funding Support: German Bildungsgutschein & Structured Study Time. Related topics: career switch, [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [job search]({{ '/wiki/job-search/' | relative_url }}), [career growth]({{ '/wiki/career-growth/' | relative_url }}).

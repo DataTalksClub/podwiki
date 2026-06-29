@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/biohacking-for-data-scientists
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/biohacking-productivity-for-data-scientists-and-ml-engineers.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=uyxUBADZYpU)
 - [Listen on Spotify](https://open.spotify.com/episode/6IuHKMK4CJdcVJNq9uQ9lm?si=PgXZHBCNSu21Nma1ToxGyQ)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/biohacking-for-data-scientists
 
 How do small, science-aligned biohacks actually move the needle on focus and productivity? In this episode, Ruslan Shchuchkin, a Berlin-based data scientist who transitioned from business/marketing into data science after experimenting with many techniques to stay focused, walks through practical, evidence-minded strategies for improving performance. We cover the root causes of procrastination and perfectionism, behavioral biohacking versus chemical interventions, and how dopamine-driven problem-solving fuels.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Ruslanshchuchkin]({{ '/people/ruslanshchuchkin/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=uyxUBADZYpU&t=0)
 - 1:27 - [Episode Overview & Guest Introduction](https://www.youtube.com/watch?v=uyxUBADZYpU&t=87)

@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/developer-advocacy-for-data-sc
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/devrel-data-science-open-source-tools.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=jv5W4jXk4P4)
 - [Listen on Spotify](https://open.spotify.com/episode/6Hq0ZGPTkDk1h8orfCU78I)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/developer-advocacy-for-data-sc
 
 How do you practice developer relations for data science while balancing reproducibility, community growth, and content strategy? In this episode, Elle O’Brien — a data scientist at Iterative (working on DVC and CML) and a lecturer at the University of Michigan with a PhD in neuroscience and computational modeling from UW — walks through practical DevRel for data-focused tools and teaching.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Elleobrien]({{ '/people/elleobrien/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=jv5W4jXk4P4&t=0)
 - 2:57 - [Introduction: Developer Advocacy for Data Science — Elle O''Brien (Iterative,](https://www.youtube.com/watch?v=jv5W4jXk4P4&t=177)

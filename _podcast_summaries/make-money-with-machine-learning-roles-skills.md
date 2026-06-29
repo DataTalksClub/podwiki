@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/new-roles-key-skills-to-moneti
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/make-money-with-machine-learning-roles-skills.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=xCjzA_8S4kI)
 - [Listen on Spotify](https://open.spotify.com/episode/5u2WuUB8GBNE9qDsNR6mby)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/new-roles-key-skills-to-moneti
 
 How do you turn machine learning models into recurring revenue—ARR and MRR—rather than just a cost center? In this episode, Vin Vashishta, an applied ML practitioner and engineer strategist who has brought products to market with ARR in the $100’s of millions, breaks down practical steps to monetize machine learning.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Vinvashishta]({{ '/people/vinvashishta/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=xCjzA_8S4kI&t=0)
 - 3:30 - [Career & technical background: Vin Vashishta''s journey in ML and strategy](https://www.youtube.com/watch?v=xCjzA_8S4kI&t=210)

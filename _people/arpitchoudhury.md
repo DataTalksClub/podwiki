@@ -17,4 +17,4 @@ Arpit Choudhury is the founder of Data-led Academy, a go-to place for anybody, i
 
 ## Podcast Discussions
 
-- [How to Build a Data-Led Growth Stack: Event Tracking, Tracking Plans & Reverse ETL]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }}). Related topics: [data engineering]({{ '/wiki/data-engineering/' | relative_url }}), [tools]({{ '/wiki/tools/' | relative_url }}).
+- [How to Build a Data-Led Growth Stack: Event Tracking, Tracking Plans & Reverse ETL]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }}). Discussed: DataLed Academy: free learning, repository & podcast; Career trajectory: integrations, Integromat & community growth; Growth marketing: A/B testing, personalization & product data; Marketer tooling: visual queries and self-serve data access. Related topics: [data engineering]({{ '/wiki/data-engineering/' | relative_url }}), [tools]({{ '/wiki/tools/' | relative_url }}).

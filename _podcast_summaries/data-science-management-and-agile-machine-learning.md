@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/the-secret-sauce-of-data-scien
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/data-science-management-and-agile-machine-learning.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=gcxP0qRO-MY)
 - [Listen on Spotify](https://open.spotify.com/episode/4kzcUCVPVN1Opq7XI1Dibd?si=f7GlEOs-TFiC9dxTJlXVyw)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/the-secret-sauce-of-data-scien
 
 How do you run data science teams so experiments become reliable, measurable products? In this episode, Shir Meir Lador, a data science group manager at Intuit who builds machine and deep learning models for document intelligence in TurboTax and QuickBooks, walks through practical approaches to data science management and agile ML.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Shirmeirlador]({{ '/people/shirmeirlador/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 1:40 - [Episode Introduction: The Secret Sauce of Data Science Management](https://www.youtube.com/watch?v=gcxP0qRO-MY&t=100)
 - 2:40 - [Career Background: Electrical Engineering to Document Intelligence at Intuit](https://www.youtube.com/watch?v=gcxP0qRO-MY&t=160)

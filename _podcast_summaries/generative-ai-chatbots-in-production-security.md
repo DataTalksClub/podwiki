@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/ai-in-industry-trust-return-on
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/generative-ai-chatbots-in-production-security.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=bT7-HRNCltk)
 - [Listen on Spotify](https://open.spotify.com/episode/5GOBabz65IRmiMow8FYbr5?si=a99463e34ffb48f1)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/ai-in-industry-trust-return-on
 
 How do you harden generative AI chatbots against prompt injection, data exfiltration, and dangerous hallucinations? In this episode Maria Sukhareva — a principal key expert in AI at Siemens with 15+ years working at the intersection of linguistics and computational AI — walks through real-world risks, attack findings, and practical defenses for chatbot security.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Mariasukhareva]({{ '/people/mariasukhareva/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode Introduction & Guest Overview](https://www.youtube.com/watch?v=bT7-HRNCltk&t=0)
 - 2:13 - [Career Path: From Linguist to Computational Linguistics and Industry](https://www.youtube.com/watch?v=bT7-HRNCltk&t=133)

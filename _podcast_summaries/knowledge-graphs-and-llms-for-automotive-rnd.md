@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/knowledge-graphs-and-llms-acro
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/knowledge-graphs-and-llms-for-automotive-rnd.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=YncdlUscUOo)
 - [Listen on Spotify](https://open.spotify.com/episode/1yDgx6uNaSQxKTjGU1qtIj?si=g0xQjWmDTRinzxhoYV3sdA)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/knowledge-graphs-and-llms-acro
 
 How can knowledge graphs and large language models (LLMs) be combined to accelerate automotive R&D — from crash simulation insights to reproducible reports? In this episode Anahita Pakiman, a data scientist-engineer who moved from mechanical engineering and finite element analysis (FEA) into applied AI and now works as Senior Knowledge Graph-Data Scientist Consultant at brox IT-Solutions, walks through practical strategies and tradeoffs.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Anahitapakiman]({{ '/people/anahitapakiman/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode Introduction](https://www.youtube.com/watch?v=YncdlUscUOo&t=0)
 - 1:40 - [Guest Bio: career path from mechanical engineering to applied AI](https://www.youtube.com/watch?v=YncdlUscUOo&t=100)

@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/building-scalable-and-reliable
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/building-scalable-and-reliable-machine-learning-systems.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=i-pIdekjUow)
 - [Listen on Spotify](https://open.spotify.com/episode/6iDyJuhfXibDB6kXFhvaqG?si=urjDGVl6RrWtjVXIAUgOvQ)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/building-scalable-and-reliable
 
 How do you design machine learning systems that scale, stay reliable in production, and meet tight edge and mobile constraints? In this episode, Arseny Kravchenko — a seasoned ML engineer focused on computer vision, active in ML since 2015 and a former Kaggle Master — walks through practical MLOps patterns for turning models into production systems.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Arsenykravchenko]({{ '/people/arsenykravchenko/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode Overview: Building Scalable & Reliable Machine Learning Systems](https://www.youtube.com/watch?v=i-pIdekjUow&t=0)
 - 2:34 - [Guest Bio & Startup Experience (deep learning, MLOps, Ntropy, AR, Lyft)](https://www.youtube.com/watch?v=i-pIdekjUow&t=154)

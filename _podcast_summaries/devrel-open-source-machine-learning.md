@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/data-developer-relations-hugo-
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/devrel-open-source-machine-learning.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=z7BvslwVRbQ)
 - [Listen on Spotify](https://open.spotify.com/episode/7bVCKqn9fLt6ETq8hxId5V?si=GZSC3NbvRuyXD85iOQo51Q)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/data-developer-relations-hugo-
 
 How do you build effective developer relations for machine learning ecosystems while navigating open-source governance and enhancing developer experience? In this episode, Hugo Bowne-Anderson — Head of Developer Relations at Outerbounds, longtime educator and podcast host — demonstrates Metaflow's capabilities and shares practical guidance for building reproducible ML workflows. Drawing on his background at Coiled and DataCamp and his experience teaching and creating courses, Hugo explores ML ecosystem.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Hugobowneanderson]({{ '/people/hugobowneanderson/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=z7BvslwVRbQ&t=0)
 - 1:33 - [Guest Introduction: Hugo Bowne-Anderson, Outerbounds & Metaflow](https://www.youtube.com/watch?v=z7BvslwVRbQ&t=93)

@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-software-engineer-to-data
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/from-software-engineering-to-leading-data-science-teams.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=xyTfqIWeKf8)
 - [Listen on Spotify](https://open.spotify.com/episode/3vOUwe4WtNQFXHRgTcyMtg?si=87o3XW_EQZ-n68nhAeV8Xw)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-software-engineer-to-data
 
 How do you move from hands-on software engineering into leading data science teams while staying effective on search and machine learning projects? In this episode Sadat Anwar — a people-centric Data Science Manager and former software engineer fluent in Java, Scala and Python — maps his path from an electronics and informatics background to research in computer vision at Fraunhofer and production search work at OLX.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Sadatanwar]({{ '/people/sadatanwar/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=xyTfqIWeKf8&t=0)
 - 1:05 - [Episode Overview: From Software Engineer to Data Science Manager](https://www.youtube.com/watch?v=xyTfqIWeKf8&t=65)

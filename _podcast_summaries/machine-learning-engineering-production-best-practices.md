@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/running-from-complexity-ben-wi
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/machine-learning-engineering-production-best-practices.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=sMy8NYZnsy8)
 - [Listen on Spotify](https://open.spotify.com/episode/2TxcU3eF7hjkAEzAJcYMAg)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/running-from-complexity-ben-wi
 
 Are your ML projects collapsing under their own complexity—or never making it to production at all? In this episode, Ben Wilson, Practice Lead Resident Solutions Architect at Databricks and author of an upcoming Manning book, walks through practical machine learning engineering strategies for shipping maintainable models and avoiding needless complexity. Drawing on 12 years across industries, Ben emphasizes prioritizing maintainability over novelty: refactoring monolithic code into modular, testable components,.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Benwilson]({{ '/people/benwilson/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction: Running from Complexity](https://www.youtube.com/watch?v=sMy8NYZnsy8&t=0)
 - 2:14 - [Guest Introduction: Ben Wilson, Databricks and ML engineering focus](https://www.youtube.com/watch?v=sMy8NYZnsy8&t=134)

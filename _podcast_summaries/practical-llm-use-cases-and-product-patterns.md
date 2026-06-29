@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/the-good-the-bad-and-the-ugly-
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/practical-llm-use-cases-and-product-patterns.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=bM6AR4A-f98)
 - [Listen on Spotify](https://open.spotify.com/episode/5fZ89re1YLiVZ7QNxdoKVH?si=pD96Dv_tRvaHci5N8PZv9g)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/the-good-the-bad-and-the-ugly-
 
 How do you create real business value with LLMs — from early GPT communities to production applications that actually work? In this episode, Sandra Kublik — AI entrepreneur, community builder, and author on GPT — shares a practical, entrepreneurial perspective on building LLM-powered products that deliver results.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Sandrakublik]({{ '/people/sandrakublik/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=bM6AR4A-f98&t=0)
 - 1:15 - [Guest Introduction: Sandra Kublik, AI entrepreneur and GPT-3 author](https://www.youtube.com/watch?v=bM6AR4A-f98&t=75)

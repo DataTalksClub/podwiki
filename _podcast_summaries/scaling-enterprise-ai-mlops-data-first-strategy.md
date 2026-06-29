@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/lessons-learned-about-data-ai-
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/scaling-enterprise-ai-mlops-data-first-strategy.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=Vms29u9xC3k)
 - [Listen on Spotify](https://open.spotify.com/episode/5t3SwzH17mFjxEoDUx9i5c?si=gaTfOoFnQ7muVkBiYuMxuA)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/lessons-learned-about-data-ai-
 
 How do you move from proof-of-concept to scaled enterprise AI without over-investing in hype? In this episode, Alexander Hendorf — head of data and AI at KÖNIGSWEG, PyData chair and Python Software Foundation/EuroPython fellow — walks through pragmatic, data-first strategies for scaling AI across organizations.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Alexanderhendorf]({{ '/people/alexanderhendorf/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=Vms29u9xC3k&t=0)
 - 2:02 - [Guest Overview: Alexander Hendorf — Königsweg partner & PyData chair](https://www.youtube.com/watch?v=Vms29u9xC3k&t=122)

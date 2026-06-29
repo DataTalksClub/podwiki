@@ -18,6 +18,10 @@ from podcast_source_data import (
 DEFAULT_TARGET = ROOT / "_podcast_summaries"
 
 
+def person_label(slug: str) -> str:
+    return slug.replace("-", " ").replace("_", " ").title()
+
+
 def page_body(podcast: dict[str, object]) -> str:
     slug = str(podcast["slug"])
     intro = str(podcast.get("intro") or podcast.get("description") or "")
@@ -25,6 +29,8 @@ def page_body(podcast: dict[str, object]) -> str:
         f"# {podcast.get('title') or slug.replace('-', ' ').title()}",
         "",
         "## Original Episode",
+        "",
+        "Use these links for the canonical episode and media sources.",
         "",
         f"- [Open the original DataTalks.Club podcast page]({podcast['source_url']})",
     ]
@@ -41,9 +47,20 @@ def page_body(podcast: dict[str, object]) -> str:
     if intro:
         lines.extend(["", "## Episode Overview", "", intro])
 
+    guests = podcast.get("guests")
+    if isinstance(guests, list) and guests:
+        lines.extend(["", "## People", "", "Use these links to connect the episode to guest notes."])
+        lines.append("")
+        for guest in guests:
+            slug = str(guest or "").strip()
+            if slug:
+                lines.append(f"- [{person_label(slug)}]({{{{ '/people/{slug}/' | relative_url }}}})")
+
     chapters = podcast.get("chapters")
+    lines.extend(["", "## Chapter Summary", ""])
     if isinstance(chapters, list) and chapters:
-        lines.extend(["", "## Chapter Summary", ""])
+        lines.append("Use these checkpoints to decide whether to open the source transcript.")
+        lines.append("")
         for chapter in chapters:
             if not isinstance(chapter, dict):
                 continue
@@ -57,6 +74,11 @@ def page_body(podcast: dict[str, object]) -> str:
                 lines.append(f"- {prefix}[{label}]({url})")
             else:
                 lines.append(f"- {prefix}{label}")
+    else:
+        lines.append(
+            "- No chapter clips or transcript section headers are available in the source file; "
+            "open the original episode transcript before making fine-grained claims."
+        )
 
     return "\n".join(lines) + "\n"
 

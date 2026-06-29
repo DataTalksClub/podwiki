@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/large-hadron-collider-and-ment
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/from-large-hadron-collider-to-data-science-research-software-engineering.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=kV0ZDy2UtJA)
 - [Listen on Spotify](https://open.spotify.com/episode/6AZ26Q8O4VBkC9YtUNzhab?si=75154323e14d4dca)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/large-hadron-collider-and-ment
 
 How do you move from collider physics to industry data science while keeping rigorous research software engineering practices, succeeding in interviews, and giving or getting effective mentorship? In this episode Anastasia Karavdina — a particle physicist turned data scientist who worked on Large Hadron Collider experiments and later built AI solutions at Blue Yonder and Kaufland e-commerce — walks through that journey.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Anastasiakaravdina]({{ '/people/anastasiakaravdina/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode Opening & Guest Introduction](https://www.youtube.com/watch?v=kV0ZDy2UtJA&t=0)
 - 1:46 - [Guest Background Snapshot](https://www.youtube.com/watch?v=kV0ZDy2UtJA&t=106)

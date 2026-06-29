@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-software-engineering-to-m
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/from-software-engineer-to-machine-learning.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=xVYOdRrN7hw)
 - [Listen on Spotify](https://open.spotify.com/episode/0PHDZPGyXgyDM9HH7QzVdZ)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-software-engineering-to-m
 
 How do you move from software engineering into practical machine learning without getting stuck on theory or math? In this episode, Santiago Valdarrama — Director of Computer Vision and a computer scientist with two decades of software experience — walks through a pragmatic roadmap for software engineers transitioning to machine learning.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Svpino]({{ '/people/svpino/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=xVYOdRrN7hw&t=0)
 - 2:39 - [Guest Overview: Santiago — Director of Computer Vision](https://www.youtube.com/watch?v=xVYOdRrN7hw&t=159)

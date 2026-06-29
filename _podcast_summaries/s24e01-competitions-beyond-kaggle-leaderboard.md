@@ -16,12 +16,22 @@ apple_url: "https://podcasts.apple.com/us/podcast/competitions-beyond-the-kaggle
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/s24e01-competitions-beyond-kaggle-leaderboard.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=oRxT4AWkQVM)
 - [Listen on Spotify](https://open.spotify.com/episode/3IXYBgX5e9NHQ8nIZejiNy?si=0b5722c8a59841e7)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/competitions-beyond-the-kaggle-leaderboard-tatiana/id1541710331?i=1000765636887)
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Tatianagabruseva]({{ '/people/tatianagabruseva/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Tatiana’s journey from academia to staff software engineer](https://www.youtube.com/watch?v=oRxT4AWkQVM&t=0)
 - 6:01 - [Machine learning applications in physics and signal processing](https://www.youtube.com/watch?v=oRxT4AWkQVM&t=361)

@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/designing-a-data-science-organ
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/data-science-team-structure-and-org-design.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=F_rJ4fg5ZEA)
 - [Listen on Spotify](https://open.spotify.com/episode/62ZzHBEuOLbm6ft0u9dlh7?si=182bea5ac49243af)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/designing-a-data-science-organ
 
 How should you structure a data science organization to maximize product impact: centralized, embedded, or a hybrid of both? In this episode, Lisa Cohen, Director of Data Science at Twitter who leads 70 data scientists and previously led Azure Customer Growth Analytics at Microsoft, walks through practical tradeoffs and implementation patterns for designing high-impact data science orgs.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Lisacohen]({{ '/people/lisacohen/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 1:17 - [Guest Introduction: Lisa Cohen, Director of Data Science at Twitter](https://www.youtube.com/watch?v=F_rJ4fg5ZEA&t=77)
 - 1:42 - [Career Background: Applied Math, Microsoft telemetry, Azure to Twitter](https://www.youtube.com/watch?v=F_rJ4fg5ZEA&t=102)

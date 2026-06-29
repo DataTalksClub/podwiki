@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/effective-communication-busine
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/data-translator-role-and-data-strategy.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=gqroEsTyLD0)
 - [Listen on Spotify](https://open.spotify.com/episode/4RF592cRWxHgcXbx6pV0Ja)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/effective-communication-busine
 
 How do you bridge the gap between data teams and management so analytics actually drives growth? In this episode, Lior Barak — author of Data is Like a Plate of Hummus, co-host of WHAT the Data?! and founder of Tale About Data with 12+ years building data teams — lays out the role of a data translator: a product-minded strategist who converts technical outputs into business-aligned action.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Liorbarak]({{ '/people/liorbarak/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=gqroEsTyLD0&t=0)
 - 1:31 - [Episode Theme: Bridging Data & Management](https://www.youtube.com/watch?v=gqroEsTyLD0&t=91)

@@ -18,4 +18,4 @@ Angelica Lo Duca is a Researcher at the Institute of Informatics and Telematics 
 
 ## Podcast Discussions
 
-- [Practical Data Journalism: Sourcing, Storytelling, Visualization & Tools (Python, Tableau)]({{ '/podcasts/data-journalism-python-visualization-storytelling/' | relative_url }}). Related topics: data journalism, [data science]({{ '/wiki/data-science/' | relative_url }}), data visualization, [tools]({{ '/wiki/tools/' | relative_url }}).
+- [Practical Data Journalism: Sourcing, Storytelling, Visualization & Tools (Python, Tableau)]({{ '/podcasts/data-journalism-python-visualization-storytelling/' | relative_url }}). Discussed: Guest Introduction: Angelica Lo Duca, researcher & professor; Career Journey: Cryptography to Web Applications and Data Science; Data Engineering Research Interests: security and data integrity; Writing Portfolio: novels, technical articles, and Comet for Data Science. Related topics: data journalism, [data science]({{ '/wiki/data-science/' | relative_url }}), data visualization, [tools]({{ '/wiki/tools/' | relative_url }}).

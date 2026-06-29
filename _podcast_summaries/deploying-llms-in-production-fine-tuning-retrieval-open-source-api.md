@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/llms-for-everyone-meryem-arik/
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=6dn6uZFkk04)
 - [Listen on Spotify](https://open.spotify.com/episode/0tmi2ytNk1bEPldcbhkvhN?si=DtU2OM3RTFmPBdY8sFCv5g)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/llms-for-everyone-meryem-arik/
 
 How do you take large language models from experiment to reliable production—balancing fine-tuning, retrieval strategies, and the tradeoffs between open-source models and API services? In this episode, Meryem Arik, a recovering physicist and co-founder of TitanML, walks through practical choices for LLM deployment based on her pivot from computer vision to building tools that make models smaller, cheaper, and easier to run in production.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Meryemarik]({{ '/people/meryemarik/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode Introduction: LLMs for Everyone](https://www.youtube.com/watch?v=6dn6uZFkk04&t=0)
 - 1:07 - [Guest Introduction: Meryem Arik and TitanML](https://www.youtube.com/watch?v=6dn6uZFkk04&t=67)

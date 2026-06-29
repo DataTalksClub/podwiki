@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/advancing-big-data-analytics-p
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/big-data-analytics-and-postdoc-research.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=7jgmIQGMhGE)
 - [Listen on Spotify](https://open.spotify.com/episode/6rgBSTPRvgNcJ7ouFyZmbH)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/advancing-big-data-analytics-p
 
 How do you master spatial big data analytics while navigating the demands of postdoc research, systems building, and preparing for a PhD? In this episode, Eleni Tzirita-Zacharatou — a postdoctoral researcher at the DIMA Group, TU Berlin, with a PhD from EPFL and award-winning work in data management — breaks down practical approaches to spatial big data analytics (GPS traces, trajectories, satellite imagery) and robust stream processing for IoT. We cover systems-driven research like the Nebula Stream and Agora.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Elenitziritazacharatou]({{ '/people/elenitziritazacharatou/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 1:13 - [Guest Introduction: Eleni Tzirita-Zacharatou, postdoctoral researcher at](https://www.youtube.com/watch?v=7jgmIQGMhGE&t=73)
 - 2:49 - [Academic Journey: Athens undergrad → EPFL PhD → Berlin postdoc](https://www.youtube.com/watch?v=7jgmIQGMhGE&t=169)

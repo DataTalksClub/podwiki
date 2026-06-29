@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/data-engineering-for-fraud-pre
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/building-and-scaling-data-engineering-systems-for-fraud-detection.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=ZXNKjrrKU_I)
 - [Listen on Spotify](https://open.spotify.com/episode/4wpYwS8XTlNdws39Zynakf?si=OFAHIkVsQlKvdTnlFNaLGg)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/data-engineering-for-fraud-pre
 
 How do you build data infrastructure that stops stolen-card transactions and return abuse in real time? In this episode, Angela Ramirez, a Sam’s Club data engineer who moved from Sephora and specializes in machine learning for fraud prevention, walks through the engineering behind retail fraud detection. Drawing on her background in NLP and four years as a data engineer, Angela explains pipelines, feature engineering workflows that combine daily batches with real-time scoring, and the MLOps responsibilities for.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Angelaramirez]({{ '/people/angelaramirez/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction & Guest Overview (Angela Ramirez)](https://www.youtube.com/watch?v=ZXNKjrrKU_I&t=0)
 - 2:41 - [Career Journey: Sephora to Sam''s Club](https://www.youtube.com/watch?v=ZXNKjrrKU_I&t=161)

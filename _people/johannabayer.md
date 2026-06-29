@@ -3,7 +3,7 @@ layout: person
 title: "Johanna Bayer"
 summary: "Johanna Bayer's DataTalks.Club podcast discussions, organized for topic exploration."
 source_url: "https://datatalks.club/people/johannabayer.html"
-podcast_episodes: ["datatalksclub-building-sustainable-data-community-3-years-anniversary", "teaching-reproducible-research-and-open-science-coding-practices-for-academia"]
+podcast_episodes: ["teaching-reproducible-research-and-open-science-coding-practices-for-academia", "datatalksclub-building-sustainable-data-community-3-years-anniversary"]
 github: "likeajumprope"
 twitter: "likeajumprope"
 linkedin: "johanna-bayer/"
@@ -17,5 +17,5 @@ Johanna has a formal background in psychology and computational neuroscience and
 
 ## Podcast Discussions
 
-- [Building a Sustainable Data Community: 3 Years of DataTalks.Club Growth and Evolution]({{ '/podcasts/datatalksclub-building-sustainable-data-community-3-years-anniversary/' | relative_url }}). Related topics: [community building]({{ '/wiki/community-building/' | relative_url }}), [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [data science]({{ '/wiki/data-science/' | relative_url }}), [data engineering]({{ '/wiki/data-engineering/' | relative_url }}), [MLOps]({{ '/wiki/mlops/' | relative_url }}).
-- [Teaching Open Science & Reproducible Research: Research Software Engineering Practices for Academia]({{ '/podcasts/teaching-reproducible-research-and-open-science-coding-practices-for-academia/' | relative_url }}). Related topics: open science, [software engineering]({{ '/wiki/software-engineering/' | relative_url }}), [academia]({{ '/wiki/academia/' | relative_url }}), [teaching]({{ '/wiki/teaching/' | relative_url }}).
+- [Teaching Open Science & Reproducible Research: Research Software Engineering Practices for Academia]({{ '/podcasts/teaching-reproducible-research-and-open-science-coding-practices-for-academia/' | relative_url }}). Discussed: Guest Background: Johanna Bayer — Psychology to Machine Learning in Neuroimaging; Academic Journey: Studies in Germany, Zurich and Move to Melbourne; Teaching Open Science: Intro to Git, Homework Support and Course Structure; Carpentries & Structured Beginner Curriculum for Reproducible Research. Related topics: open science, [software engineering]({{ '/wiki/software-engineering/' | relative_url }}), [academia]({{ '/wiki/academia/' | relative_url }}), [teaching]({{ '/wiki/teaching/' | relative_url }}).
+- [Building a Sustainable Data Community: 3 Years of DataTalks.Club Growth and Evolution]({{ '/podcasts/datatalksclub-building-sustainable-data-community-3-years-anniversary/' | relative_url }}). Discussed: Episode Opening & DataTalks.Club 3rd Anniversary; Career Shift: From Java Developer to Machine Learning & Python; Transition: Full-time on DataTalks.Club; engineering-heavy roles; Sustainability Strategy: Monetization and Sponsorship Focus. Related topics: [community building]({{ '/wiki/community-building/' | relative_url }}), [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [data science]({{ '/wiki/data-science/' | relative_url }}), [data engineering]({{ '/wiki/data-engineering/' | relative_url }}), [MLOps]({{ '/wiki/mlops/' | relative_url }}).

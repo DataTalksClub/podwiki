@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/building-production-search-sys
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/building-production-search-systems.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=gEmSrknGKDE)
 - [Listen on Spotify](https://open.spotify.com/episode/19R0rLA8hULTBZi9FhZuTs?si=xggb0OzfRHCFSmXtJWm7bA)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/building-production-search-sys
 
 How do you build search systems that balance dense embeddings, MLOps, and meaningful evaluation metrics? In this episode Daniel Svonava — an entrepreneurial technologist with 20 years of experience (from competitive programming and research internships to leading ML infrastructure at YouTube Ads) and co-founder of Superlinked/VectorHub — walks through practical design and operational decisions for modern search and retrieval.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Danielsvonava]({{ '/people/danielsvonava/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=gEmSrknGKDE&t=0)
 - 1:47 - [Guest Introduction: Daniel Svonava, Superlinked & VectorHub](https://www.youtube.com/watch?v=gEmSrknGKDE&t=107)

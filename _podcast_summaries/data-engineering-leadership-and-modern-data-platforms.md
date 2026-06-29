@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/becoming-a-data-engineering-ma
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/data-engineering-leadership-and-modern-data-platforms.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=FljnbUQ796w)
 - [Listen on Spotify](https://open.spotify.com/episode/4nWP18woLTt4a7Wm0CQwhM)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/becoming-a-data-engineering-ma
 
 How do you lead a data engineering team to scale ETL into ELT, build a robust data platform, and maintain data quality as you grow? In this episode, Rahul Jain — a data engineering manager at Siemens with 12+ years in data and three years in management — walks through that transition from ETL developer to IoT data platform lead and what leadership looks like in practice.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [16Rahuljain]({{ '/people/16rahuljain/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=FljnbUQ796w&t=0)
 - 1:56 - [Rahul''s Career Path: From ETL Developer to IoT Data Platform Lead](https://www.youtube.com/watch?v=FljnbUQ796w&t=116)

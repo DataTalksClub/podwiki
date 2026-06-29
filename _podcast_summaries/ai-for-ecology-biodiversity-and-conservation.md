@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/ai-for-ecology-biodiversity-an
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/ai-for-ecology-biodiversity-and-conservation.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=30tTrozbAkg)
 - [Listen on Spotify](https://open.spotify.com/episode/3Hhz5N8ZDvsOPlPP3wxQxq?si=Oz7y_pBrTfeypfYZXubu-g)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/ai-for-ecology-biodiversity-an
 
 How can AI help close critical data gaps in biodiversity monitoring and turn images and sensor data into actionable conservation decisions? In this episode Tanya Berger-Wolf, a computational ecologist, director of TDAI@OSU, and co-founder of the Wildbook project (Wild Me), walks through practical applications of AI for ecology, biodiversity monitoring, and conservation.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Tanyabergerwolf]({{ '/people/tanyabergerwolf/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=30tTrozbAkg&t=0)
 - 1:10 - [Episode Overview: AI for Ecology, Biodiversity, and Conservation](https://www.youtube.com/watch?v=30tTrozbAkg&t=70)

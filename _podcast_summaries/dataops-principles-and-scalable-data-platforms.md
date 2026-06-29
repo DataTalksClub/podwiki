@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/dataops-101-lars-albertsson/id
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/dataops-principles-and-scalable-data-platforms.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=vyF3yGsF6UY)
 - [Listen on Spotify](https://open.spotify.com/episode/5c2m4FVq4KPCfSXndCAzNd)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/dataops-101-lars-albertsson/id
 
 How do you scale a data platform that supports self-service analytics while keeping pipelines reproducible and maintainable? In this episode, Lars Albertsson, founder of Scling and former Google, Spotify and Schibsted engineer, walks through pragmatic DataOps principles for building scalable data platforms.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Larsalbertsson]({{ '/people/larsalbertsson/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 2:39 - [Episode Opening & Guest Introduction](https://www.youtube.com/watch?v=vyF3yGsF6UY&t=159)
 - 3:38 - [Career Journey: Google, Spotify, Consulting and Scling](https://www.youtube.com/watch?v=vyF3yGsF6UY&t=218)

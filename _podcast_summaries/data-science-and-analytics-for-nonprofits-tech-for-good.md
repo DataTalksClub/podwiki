@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/analytics-for-a-better-world-p
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/data-science-and-analytics-for-nonprofits-tech-for-good.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=b6x5zZ3C6sQ)
 - [Listen on Spotify](https://open.spotify.com/episode/5Xiuu4jMBCMuwkokXbwhE2?si=nGRQrMUaRNa5EINbtJadBA)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/analytics-for-a-better-world-p
 
 How can nonprofits move from basic reporting to optimization using analytics while building the right teams, tools, and governance? In this episode, Parvathy Krishnan, CTO at Analytics for a Better World and professional doctorate in data science, walks through practical steps for building data maturity in the social sector. Drawing on discovery workshops, fellowship pilots (including a waste-collection optimization project in Nairobi), and partnerships with academic and industry groups, Parvathy explains how to.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Parvathykrishnan]({{ '/people/parvathykrishnan/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=b6x5zZ3C6sQ&t=0)
 - 1:10 - [Overview: Analytics for a Better World mission and guest intro](https://www.youtube.com/watch?v=b6x5zZ3C6sQ&t=70)

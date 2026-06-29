@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-a-research-scientist-at-a
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/practical-generative-ai-consulting-from-expertise-to-impact.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=4RargY8iOaE)
 - [Listen on Spotify](https://open.spotify.com/episode/7gJI3ds3k1vXd3m3W9iRj9?si=oG6A7BuTSjaEoH6FhvEVug)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-a-research-scientist-at-a
 
 How do you move from research scientist to running a freelance generative AI business focused on NLP—and actually win clients? In this episode Verena Weber, a former Research Scientist at Alexa AI with 7+ years in machine learning and a background in statistics, walks through that transition and what it takes to offer NLP services as a freelancer. Verena's mission is to help companies prepare for the GenAI shift, and she draws on deep NLP expertise to explain which service offerings make sense, how to position.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Verenaweber]({{ '/people/verenaweber/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode Introduction](https://www.youtube.com/watch?v=4RargY8iOaE&t=0)
 - 1:46 - [Early Education: From Economics & Chinese to Statistics](https://www.youtube.com/watch?v=4RargY8iOaE&t=106)

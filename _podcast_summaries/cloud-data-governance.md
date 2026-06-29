@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/data-governance-jessi-ashdown-
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/cloud-data-governance.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=tJ3v8h7A7RY)
 - [Listen on Spotify](https://open.spotify.com/episode/2zaLMrgbIgVkVEWY09b1Wn)
@@ -25,7 +27,16 @@ apple_url: "https://podcasts.apple.com/us/podcast/data-governance-jessi-ashdown-
 
 How do you build data governance in the cloud that enables access, meets regulation, and demonstrates ROI? In this episode, Jessi Ashdown, Senior UX Researcher for Google Cloud, and Uri Gilad, Product Manager for Data Governance at Google Cloud, walk through practical approaches to data governance in the cloud—grounded in real user research and product experience.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Jessiashdown]({{ '/people/jessiashdown/' | relative_url }})
+- [Urigilad]({{ '/people/urigilad/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=tJ3v8h7A7RY&t=0)
 - 3:29 - [Guest Background — Jessi: UX Researcher & Data Governance at Google Cloud](https://www.youtube.com/watch?v=tJ3v8h7A7RY&t=209)

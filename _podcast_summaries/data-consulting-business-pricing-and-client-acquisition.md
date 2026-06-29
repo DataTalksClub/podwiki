@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/starting-a-consultancy-in-the-
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/data-consulting-business-pricing-and-client-acquisition.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=rh_pE35m3vE)
 - [Listen on Spotify](https://open.spotify.com/episode/2Y0mKRHq6wVfr25HJ5Ji3Y?si=kUkmMW2AT6-FeRd6SpXWlg)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/starting-a-consultancy-in-the-
 
 How do you validate customers, run effective user interviews, and set pricing to build a sustainable data consulting business? In this episode, Aleksander Kruszelnicki — ex-Delivery Hero product manager turned co-founder of leukos, a boutique data analytics agency in Berlin — walks through the practical steps he took shifting from product ideas to a consulting model after early startup failures.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Aleksanderkruszelnicki]({{ '/people/aleksanderkruszelnicki/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 1:10 - [Podcast Introduction](https://www.youtube.com/watch?v=rh_pE35m3vE&t=70)
 - 1:47 - [Career Journey & Archaeology Origin Story](https://www.youtube.com/watch?v=rh_pE35m3vE&t=107)

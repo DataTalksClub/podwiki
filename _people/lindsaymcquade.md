@@ -15,4 +15,4 @@ With over 20 years of experience spanning management consulting, higher educatio
 
 ## Podcast Discussions
 
-- [Land Junior Data Jobs: CVs, Interviews, Transferable Skills & Overcome Imposter Syndrome]({{ '/podcasts/get-junior-data-job-and-transferable-skills/' | relative_url }}). Related topics: [career growth]({{ '/wiki/career-growth/' | relative_url }}).
+- [Land Junior Data Jobs: CVs, Interviews, Transferable Skills & Overcome Imposter Syndrome]({{ '/podcasts/get-junior-data-job-and-transferable-skills/' | relative_url }}). Discussed: Guest Introduction & Career Journey; Spiced Academy Programs Overview (Full-Stack & Data Science); Career Coaching Services: CVs, Interview Prep, Negotiation; Defining Ideal Job Environment & Career Experiments. Related topics: [career growth]({{ '/wiki/career-growth/' | relative_url }}).

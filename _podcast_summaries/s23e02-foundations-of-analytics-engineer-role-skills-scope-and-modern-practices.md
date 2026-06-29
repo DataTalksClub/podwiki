@@ -16,12 +16,22 @@ apple_url: "https://podcasts.apple.com/us/podcast/foundations-of-analytics-engin
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=HxMIsPrIyGQ)
 - [Listen on Spotify](https://open.spotify.com/episode/43rmkdGOEXe166SUfz6ReT?si=e474faeb55204b2a)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/foundations-of-analytics-engineer-role-skills-scope/id1541710331?i=1000751963703)
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Juanmanuelperafan]({{ '/people/juanmanuelperafan/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Juan’s psychological research and transition to data](https://www.youtube.com/watch?v=HxMIsPrIyGQ&t=0)
 - 4:33 - [Riding the wave: The early days of analytics engineering](https://www.youtube.com/watch?v=HxMIsPrIyGQ&t=273)

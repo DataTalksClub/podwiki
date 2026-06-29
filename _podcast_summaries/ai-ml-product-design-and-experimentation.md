@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/innovation-and-design-for-mach
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/ai-ml-product-design-and-experimentation.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=tcqBfZw41FM)
 - [Listen on Spotify](https://open.spotify.com/episode/4vhTQJ6Aj9z5VHm9UsHspv)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/innovation-and-design-for-mach
 
 How do you design products that are “algorithm-ready” while running rapid experiments and building data-driven roadmaps? In this episode, Liesbeth Dingemans—strategy and AI leader, founder of Dingemans Consulting, former VP of Revenue at Source.ag and Head of AI Strategy at Prosus—walks through pragmatic approaches to AI product design that bridge vision and execution.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Liesbethdingemans]({{ '/people/liesbethdingemans/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode Introduction & Guest Overview](https://www.youtube.com/watch?v=tcqBfZw41FM&t=0)
 - 1:18 - [Guest Background: Strategy, Product and AI Trajectory](https://www.youtube.com/watch?v=tcqBfZw41FM&t=78)

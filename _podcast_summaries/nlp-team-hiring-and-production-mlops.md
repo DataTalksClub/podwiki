@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/leading-nlp-teams-ivan-bilan/i
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/nlp-team-hiring-and-production-mlops.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=RJEf6mzxh1w)
 - [Listen on Spotify](https://open.spotify.com/episode/0jE1rpmLCYkD3GnUa2E7E3)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/leading-nlp-teams-ivan-bilan/i
 
 How do you structure an NLP team and build reliable production pipelines while weighing the tradeoffs between GPT-3 and in-house models? In this episode, Ivan Bilan, Engineering Manager at Personio working on Identity and Access Management, walks through practical answers from his transition from linguistics to production NLP and MLOps.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Ivanbilan]({{ '/people/ivanbilan/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=RJEf6mzxh1w&t=0)
 - 1:54 - [Episode Overview: Leading NLP Teams & Ivan''s Current Role](https://www.youtube.com/watch?v=RJEf6mzxh1w&t=114)

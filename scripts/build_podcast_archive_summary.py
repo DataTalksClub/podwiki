@@ -34,6 +34,31 @@ def episode_label(episode: dict[str, object]) -> str:
     return f"[{episode['title']}](/podcasts/{episode['slug']}/)"
 
 
+def episode_path_label(episode: dict[str, object]) -> str:
+    path = f"/podcasts/{episode['slug']}/"
+    return f"[{path}]({path})"
+
+
+def chapter_summary_text(episode: dict[str, object], max_items: int = 4) -> str:
+    chapters = episode.get("chapters")
+    if not isinstance(chapters, list):
+        return ""
+
+    titles = []
+    for chapter in chapters:
+        if not isinstance(chapter, dict):
+            continue
+        title = clean_text(chapter.get("title"))
+        if title:
+            titles.append(title)
+        if len(titles) >= max_items:
+            break
+
+    if not titles:
+        return ""
+    return f"Chapter-derived summary: {'; '.join(titles)}."
+
+
 def chapter_lines(episode: dict[str, object], max_chapters: int) -> list[str]:
     chapters = episode.get("chapters")
     if not isinstance(chapters, list) or not chapters:
@@ -98,7 +123,7 @@ def build_summary(
     ]
 
     for episode in episodes:
-        summary = clean_text(episode.get("intro") or episode.get("description"))
+        summary = clean_text(episode.get("intro") or episode.get("description")) or chapter_summary_text(episode)
         guests = [
             person_label(guest, people)
             for guest in episode.get("guests", [])
@@ -111,7 +136,7 @@ def build_summary(
             [
                 f"### {episode['title']}",
                 "",
-                f"- Local page: /podcasts/{episode['slug']}/",
+                f"- Local page: {episode_path_label(episode)}",
                 f"- Original episode: {episode['source_url']}",
                 f"- Source file: `{episode['source_episode']}`",
                 f"- Guests: {', '.join(guests) if guests else 'No guest metadata in source.'}",
@@ -127,7 +152,7 @@ def build_summary(
     lines.extend(["## People Index", ""])
     for slug in sorted(set(people) | set(appearances)):
         person = people.get(slug, {"title": slug})
-        episode_refs = [f"/podcasts/{episode['slug']}/" for episode in appearances.get(slug, [])]
+        episode_refs = [episode_path_label(episode) for episode in appearances.get(slug, [])]
         refs = ", ".join(episode_refs[:8])
         if len(episode_refs) > 8:
             refs = f"{refs}, +{len(episode_refs) - 8} more"
@@ -135,7 +160,7 @@ def build_summary(
 
     lines.extend(["", "## Topic Candidates", ""])
     for topic, count in topic_counter.most_common(topic_limit):
-        examples = ", ".join(f"/podcasts/{episode['slug']}/" for episode in topic_examples[topic])
+        examples = ", ".join(episode_path_label(episode) for episode in topic_examples[topic])
         lines.append(f"- `{slugify(topic)}` ({count}): {topic}. Episodes: {examples}")
 
     lines.append("")

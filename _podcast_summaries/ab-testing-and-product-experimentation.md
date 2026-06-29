@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/a-b-testing-jakob-graff/id1541
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/ab-testing-and-product-experimentation.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=0Gqx1LtqRZU)
 - [Listen on Spotify](https://open.spotify.com/episode/3LhBOO1UANCGbOwkntZt4j)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/a-b-testing-jakob-graff/id1541
 
 How do you design product experiments that truly establish causality and avoid costly false conclusions? In this episode, Jakob Graff — Director of Data Science and Data Analytics at diconium, with prior analytics leadership at Inkitt, Babbel, King and a background in econometrics — walks through practical product analytics and A/B testing strategies focused on causality and reliable metrics.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Jakobgraff]({{ '/people/jakobgraff/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=0Gqx1LtqRZU&t=0)
 - 1:03 - [Guest Background & Career Transition to Data Science](https://www.youtube.com/watch?v=0Gqx1LtqRZU&t=63)

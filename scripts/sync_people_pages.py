@@ -7,6 +7,7 @@ import argparse
 from collections import defaultdict
 from pathlib import Path
 
+from extract_podcast_sources import candidate_topics
 from podcast_source_data import (
     DEFAULT_PEOPLE_SOURCE,
     DEFAULT_PODCAST_SOURCE,
@@ -20,6 +21,14 @@ from podcast_source_data import (
 
 
 DEFAULT_TARGET = ROOT / "_people"
+SKIP_CHAPTER_PREFIXES = (
+    "podcast introduction",
+    "transcript checkpoint",
+    "intro",
+    "introduction",
+    "closing",
+    "wrap",
+)
 
 
 def merge_existing_page(target: Path, rendered: str) -> str:
@@ -72,6 +81,45 @@ def topic_links(topics: object) -> list[str]:
     return links
 
 
+def clean_text(value: object) -> str:
+    return " ".join(str(value or "").split())
+
+
+def discussion_summary(episode: dict[str, object], max_items: int = 4) -> str:
+    highlights: list[str] = []
+    chapters = episode.get("chapters")
+    if isinstance(chapters, list):
+        for chapter in chapters:
+            if not isinstance(chapter, dict):
+                continue
+            title = clean_text(chapter.get("title"))
+            if not title:
+                continue
+            lowered = title.lower()
+            if any(lowered.startswith(prefix) for prefix in SKIP_CHAPTER_PREFIXES):
+                continue
+            highlights.append(title)
+            if len(highlights) >= max_items:
+                break
+
+    if highlights:
+        return "; ".join(highlights) + "."
+
+    summary = clean_text(episode.get("intro") or episode.get("description"))
+    if not summary:
+        return ""
+    if len(summary) <= 240:
+        return summary
+    return summary[:240].rsplit(" ", 1)[0] + "."
+
+
+def discussion_topics(episode: dict[str, object]) -> list[str]:
+    source_topics = episode.get("topics")
+    if isinstance(source_topics, list) and source_topics:
+        return [str(topic) for topic in source_topics if str(topic).strip()]
+    return candidate_topics(episode)[:6]
+
+
 def render_person(slug: str, person: dict[str, object], episodes: list[dict[str, object]]) -> str:
     title = str(person.get("title") or slug)
     bio = str(person.get("bio") or "").strip()
@@ -86,9 +134,11 @@ def render_person(slug: str, person: dict[str, object], episodes: list[dict[str,
         "layout: person",
         f"title: {yaml_string(title)}",
         f"summary: {yaml_string(summary)}",
-        f"source_url: {yaml_string(f'https://datatalks.club/people/{slug}.html')}",
-        f"podcast_episodes: {yaml_list([str(item['slug']) for item in episodes])}",
     ]
+    source_url = str(person.get("source_url") or "").strip()
+    if source_url:
+        frontmatter.append(f"source_url: {yaml_string(source_url)}")
+    frontmatter.append(f"podcast_episodes: {yaml_list([str(item['slug']) for item in episodes])}")
     for key in ("github", "twitter", "linkedin", "web"):
         value = str(person.get(key) or "").strip()
         if value:
@@ -104,10 +154,13 @@ def render_person(slug: str, person: dict[str, object], episodes: list[dict[str,
         for episode in episodes:
             episode_title = str(episode["title"])
             episode_slug = str(episode["slug"])
-            topics = topic_links(episode.get("topics"))
+            summary_text = discussion_summary(episode)
+            summary_sentence = f" Discussed: {summary_text}" if summary_text else ""
+            topics = topic_links(discussion_topics(episode))
             topic_text = f" Related topics: {', '.join(topics)}." if topics else ""
             lines.append(
-                f"- [{episode_title}]({{{{ '/podcasts/{episode_slug}/' | relative_url }}}}).{topic_text}"
+                f"- [{episode_title}]({{{{ '/podcasts/{episode_slug}/' | relative_url }}}})."
+                f"{summary_sentence}{topic_text}"
             )
 
     return "\n".join(frontmatter + lines).rstrip() + "\n"
@@ -131,7 +184,10 @@ def main() -> None:
     changed = 0
     total = 0
     for slug in sorted(set(people) | set(appearances)):
-        person = people.get(slug, {"title": slug, "bio": ""})
+        if slug in people:
+            person = {**people[slug], "source_url": f"https://datatalks.club/people/{slug}.html"}
+        else:
+            person = {"title": slug, "bio": ""}
         target = args.target / f"{slug}.md"
         rendered = merge_existing_page(target, render_person(slug, person, appearances.get(slug, [])))
         total += 1

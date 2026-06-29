@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-academia-to-data-analytic
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/get-data-analytics-and-data-engineering-job.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=0wANfIvum4U)
 - [Listen on Spotify](https://open.spotify.com/episode/1kDpXugcmDdVJ6qUAiNnHQ?si=aa62cc4dce5f41b2)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-academia-to-data-analytic
 
 How do you go from neuroscience research to a data engineering role — and what practical steps and skills actually get you hired? In this episode, Gloria Quiceno, Senior Analytics Engineer at ICE, walks through her transition from neuroscience labs to rebuilding enterprise data platforms (including a BI rebuild that saved €250K), and the concrete tools and tactics that landed her a data engineering job. We cover her early lab automation and scripting experience, learning MATLAB/R and Python, a first industry role.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Gloriaquiceno]({{ '/people/gloriaquiceno/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=0wANfIvum4U&t=0)
 - 1:58 - [Background: Transition from Neuroscience Research to Industry](https://www.youtube.com/watch?v=0wANfIvum4U&t=118)

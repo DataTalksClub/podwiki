@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/mlops-in-corporations-and-star
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/lean-mlops-for-startups.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=DX9c__a4jzg)
 - [Listen on Spotify](https://open.spotify.com/episode/6V8gkTSz7LuPjQYC4rO019)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/mlops-in-corporations-and-star
 
 How can a startup implement Lean MLOps that gets models into production quickly without incurring vendor lock-in or crushing tech debt? In this episode Nemanja Radojkovic — an Electrical Engineer turned Data Scientist and MLOps Engineer, former consultant at Big4 and boutique firms, DataCamp course author, and teacher of Python and machine learning — walks through practical strategies for building a SaaS-first MVP stack while preserving future flexibility.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Nemanjaradojkovic]({{ '/people/nemanjaradojkovic/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode Introduction & Topic Overview](https://www.youtube.com/watch?v=DX9c__a4jzg&t=0)
 - 2:15 - [Career Journey: Academia → Consulting → Finance Machine Learning Engineering](https://www.youtube.com/watch?v=DX9c__a4jzg&t=135)

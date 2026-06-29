@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/bridging-data-science-and-heal
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/building-healthcare-machine-learning-systems.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=pDOwlulDh0c)
 - [Listen on Spotify](https://open.spotify.com/episode/5W6lfZVhjIKEmVzBuexfzE?si=0nUHr66eQa6oPVJDb3d0rw)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/bridging-data-science-and-heal
 
 How do you build machine learning systems that can predict sepsis and actually work in low-resource clinical settings? In this episode Eleni Stamatelou, a machine learning researcher and educator focused on using data science to improve healthcare, walks through the technical and practical steps of turning models into deployed clinical tools. With expertise in signal processing, deep learning, and data-driven design, Eleni frames the core challenges of healthcare ML: data quality and preprocessing, model.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Elenistamatelou]({{ '/people/elenistamatelou/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=pDOwlulDh0c&t=0)
 - 0:44 - [Guest Overview: Elena Stamatelou — ML researcher focused on healthcare](https://www.youtube.com/watch?v=pDOwlulDh0c&t=44)

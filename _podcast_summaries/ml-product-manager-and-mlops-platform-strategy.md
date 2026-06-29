@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/product-management-for-machine
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/ml-product-manager-and-mlops-platform-strategy.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=PjqjPvHliqg)
 - [Listen on Spotify](https://open.spotify.com/episode/7zfH4hagZKwoIWmee0AXBd)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/product-management-for-machine
 
 How do you become an ML product manager and build MLOps platforms that teams actually use? In this episode, Geo Jolly, a Technical PM at Glovo with a background from web/dev to data science and product management, walks through the practical skills and decisions that define the role.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Geojolly]({{ '/people/geojolly/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode Introduction: Product Management for Machine Learning](https://www.youtube.com/watch?v=PjqjPvHliqg&t=0)
 - 1:13 - [Guest Overview: Geo and episode focus on AI Product Manager role](https://www.youtube.com/watch?v=PjqjPvHliqg&t=73)

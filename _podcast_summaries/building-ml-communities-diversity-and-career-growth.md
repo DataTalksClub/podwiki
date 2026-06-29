@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/accelerating-the-adoption-of-a
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/building-ml-communities-diversity-and-career-growth.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=SRUwwvk_YCk)
 - [Listen on Spotify](https://open.spotify.com/episode/6pRkAK9Zo2QrXZCAzh2veV?si=ixEmGK5-RemknBcHrChMNA)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/accelerating-the-adoption-of-a
 
 How do you build and scale a data science community that actually advances diversity, supports machine learning deployment, and accelerates career growth? In this episode, Dânia Meira — AI Guild co-founder, data scientist, teacher and speaker with a Master’s in Computer Science (AI) — walks through her journey from applied math and marketing analytics to founding a global data science community in Berlin.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Daniameira]({{ '/people/daniameira/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=SRUwwvk_YCk&t=0)
 - 1:34 - [Guest Introduction: Dania — AI Guild co-founder, machine learning background](https://www.youtube.com/watch?v=SRUwwvk_YCk&t=94)

@@ -15,4 +15,4 @@ Alicja is a seasoned talent acquisition specialist a.k.a. a self-professed 'prof
 
 ## Podcast Discussions
 
-- [Hiring Data Scientists & Analysts: Talent Pipelines, Job Specs, CV Screening & Salary Tips]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }}). Related topics: [data science]({{ '/wiki/data-science/' | relative_url }}), data analytics, [job search]({{ '/wiki/job-search/' | relative_url }}), [career transition]({{ '/wiki/career-transition/' | relative_url }}), [hiring]({{ '/wiki/hiring/' | relative_url }}).
+- [Hiring Data Scientists & Analysts: Talent Pipelines, Job Specs, CV Screening & Salary Tips]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }}). Discussed: Guest Background & Recruiting Experience; Current Role: Embedded Talent Agency & Client Lead; Typical Interview Funnel for Data Roles; End-to-End Recruiting Responsibilities. Related topics: [data science]({{ '/wiki/data-science/' | relative_url }}), data analytics, [job search]({{ '/wiki/job-search/' | relative_url }}), [career transition]({{ '/wiki/career-transition/' | relative_url }}), [hiring]({{ '/wiki/hiring/' | relative_url }}).

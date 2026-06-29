@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/how-to-build-and-evaluate-ai-s
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=eC3RNuI6ow0)
 - [Listen on Spotify](https://open.spotify.com/episode/2RD2qXaYa2ZjKjuIE7Aj6O)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/how-to-build-and-evaluate-ai-s
 
 How do you move from experimentation to reliable, production-ready LLM engineering and retrieval-augmented generation (RAG)? In this episode Hugo Bowne-Anderson — Head of Developer Relations at Outerbounds, longtime data scientist, educator, and host of Vanishing Gradients — walks through practical patterns for building, evaluating, and scaling real-world LLM workflows.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Hugobowneanderson]({{ '/people/hugobowneanderson/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Kickoff & Hugo Bowne-Anderson Background](https://www.youtube.com/watch?v=eC3RNuI6ow0&t=0)
 - 1:12 - [Vanishing Gradients vs High Signal: Podcast Formats & Audiences](https://www.youtube.com/watch?v=eC3RNuI6ow0&t=72)

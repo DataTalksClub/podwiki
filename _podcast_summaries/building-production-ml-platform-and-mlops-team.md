@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-scratch-to-success-buildi
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=CB1YIsxQRtc)
 - [Listen on Spotify](https://open.spotify.com/episode/0raudIf9XsKdUfr5m2YlUE?si=x1PuaBqwTVyMlfNlGape2A)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-scratch-to-success-buildi
 
 How do you design an ML platform that reliably deploys models, tracks experiments, and meets regulatory constraints? In this episode, Simon Stiebellehner — Lead MLOps Engineer at Transaction Monitoring Netherlands and university lecturer in Data Mining & Data Warehousing — walks through practical MLOps platform design grounded in real-world deployment challenges.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Simonstiebellehner]({{ '/people/simonstiebellehner/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 1:14 - [Episode Introduction: MLOps & ML platform conversation with Simon](https://www.youtube.com/watch?v=CB1YIsxQRtc&t=74)
 - 2:00 - [Career & Transition: Research to industry, early platform work and management](https://www.youtube.com/watch?v=CB1YIsxQRtc&t=120)

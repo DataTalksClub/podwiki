@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/growing-data-engineering-team-
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/scaling-data-engineering-teams-self-service-platforms.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=acJ6sVqKOUk)
 - [Listen on Spotify](https://open.spotify.com/episode/5DkuaYQpbJ13sU9bknFZnk?si=RtQnTHHYQb-ytMEw8J3e8g)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/growing-data-engineering-team-
 
 How do you scale data engineering teams during hypergrowth without sacrificing quality or developer velocity? In this episode, Mehdi OUAZZA — a data engineer and entrepreneur with 7+ years working on streaming and batch pipelines, data modeling, orchestration, infrastructure and analytics — walks through practical approaches to scale data engineering teams, build self-service data platforms, hire senior engineers and adopt Kafka-based event streaming.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Mehdiouazza]({{ '/people/mehdiouazza/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 1:57 - [Episode Introduction: Growing Data Engineering Team & Guest Mehdi](https://www.youtube.com/watch?v=acJ6sVqKOUk&t=117)
 - 2:42 - [Guest background: BI, on-prem Big Data to staff data engineer (career highlights)](https://www.youtube.com/watch?v=acJ6sVqKOUk&t=162)

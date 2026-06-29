@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/product-management-essentials-
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/building-and-scaling-ai-data-products-with-mlops.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=p4wg0Vd2uD4)
 - [Listen on Spotify](https://open.spotify.com/episode/1Oh6ewUJ2c1jiVcKxWIwDU)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/product-management-essentials-
 
 How do you move from proofs-of-concept to scalable AI data products that deliver measurable business value? In this episode, Greg Coquillo, a Technology Manager at Amazon who builds AI roadmaps for Private Brands’ product safety and compliance, walks through practical approaches for building and scaling data products, MLOps, customer research, and metrics.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Gregcoquillo]({{ '/people/gregcoquillo/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode Introduction & Guest Overview](https://www.youtube.com/watch?v=p4wg0Vd2uD4&t=0)
 - 1:43 - [Career Background & Transition to AI Products](https://www.youtube.com/watch?v=p4wg0Vd2uD4&t=103)

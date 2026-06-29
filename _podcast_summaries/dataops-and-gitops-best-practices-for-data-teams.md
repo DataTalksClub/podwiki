@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-data-science-to-dataops-t
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/dataops-and-gitops-best-practices-for-data-teams.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=lem7knxqNzg)
 - [Listen on Spotify](https://open.spotify.com/episode/6jLgdl59sVCdVNJezdIqJY?si=NXasnXtFQVO0KAcCFbvUtQ)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-data-science-to-dataops-t
 
 How do you make data work less fragile and easier to onboard while keeping production safe and reproducible? In this episode, Tomasz Hinc, a DataOps practitioner from Poznań with roots in econometrics, product analytics, data engineering and ML, walks through practical DataOps and GitOps patterns for data teams. We cover platform onboarding (requesting infra vs. merge requests), Infrastructure as Code with Terraform, Terragrunt and Atlantis, and a GitOps workflow from branch to Atlantis dry-run and apply. Tomasz.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Tomaszhinc]({{ '/people/tomaszhinc/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=lem7knxqNzg&t=0)
 - 1:40 - [Guest Introduction & Episode Overview](https://www.youtube.com/watch?v=lem7knxqNzg&t=100)

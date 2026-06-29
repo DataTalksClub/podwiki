@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/i-want-to-build-a-machine-lear
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/building-mlops-startup.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=DiDs5aMjEWg)
 - [Listen on Spotify](https://open.spotify.com/episode/7fwbqo5tDrtakuqWaIuEjc)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/i-want-to-build-a-machine-lear
 
 What does it take to build a successful ML startup—especially around MLOps, model monitoring, open source, and founder fit? Elena Samuylova, Co-founder & CEO of Evidently AI, joins to answer that question drawing on her applied machine learning experience since 2014, including roles at Yandex Data Factory and an industrial AI startup.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Elenasamuylova]({{ '/people/elenasamuylova/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=DiDs5aMjEWg&t=0)
 - 2:01 - [Guest Background: Elena Samuylova’s ML & Startup Journey](https://www.youtube.com/watch?v=DiDs5aMjEWg&t=121)

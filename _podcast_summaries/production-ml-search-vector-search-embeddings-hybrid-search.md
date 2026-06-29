@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/building-machine-learning-prod
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/production-ml-search-vector-search-embeddings-hybrid-search.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=m45tNY-8gY8)
 - [Listen on Spotify](https://open.spotify.com/episode/4jNredXndQ2b2evgfSmD2G?si=gU2kT-zXSX27hDPgLtwMgQ)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/building-machine-learning-prod
 
 How do you move from prototypes to production ML search that scales and stays relevant? In this episode Reem Mahmoud, Director of Data Science at intervu.ai, breaks down practical approaches to building production ML search systems—focusing on embeddings, hybrid architectures, and scalable indexing.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Reemmahmoud]({{ '/people/reemmahmoud/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 1:47 - [Guest Introduction: Daniel, Superlinked, and VectorHub](https://www.youtube.com/watch?v=m45tNY-8gY8&t=107)
 - 2:29 - [Career Journey: Competitive programming, startups, and YouTube Ads](https://www.youtube.com/watch?v=m45tNY-8gY8&t=149)

@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/product-owners-in-data-science
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/building-data-products-product-owner-vs-product-manager.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=rTRTjB6cGng)
 - [Listen on Spotify](https://open.spotify.com/episode/5deNrH5E6802ClwVt2Re4A?si=Xdg7qlT1TPCrH318MvS2RA)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/product-owners-in-data-science
 
 How do you scale recommender systems, hire for production ML, and model price markdowns to reduce waste—and who should own those decisions? In this episode, Anna Hannemann, Domain Owner for Data Science at Metro.digital, walks through practical answers informed by her PhD in Data Science and prior leadership of recommender and robotics/smart logistics teams.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Annahannemann]({{ '/people/annahannemann/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode Introduction](https://www.youtube.com/watch?v=rTRTjB6cGng&t=0)
 - 1:32 - [Guest & METRO overview and customer data completeness](https://www.youtube.com/watch?v=rTRTjB6cGng&t=92)

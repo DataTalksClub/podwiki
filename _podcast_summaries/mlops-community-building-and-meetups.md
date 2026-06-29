@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/building-online-tech-communiti
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/mlops-community-building-and-meetups.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=ByCE1vSrIr8)
 - [Listen on Spotify](https://open.spotify.com/episode/58Xe9PCfdz26CVuYKtZWUE)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/building-online-tech-communiti
 
 How do you launch, grow, and retain an MLOps community that moves from meetups to a sustainable, contributor-led ecosystem? In this episode, Demetrios Brinkmann — who has led the MLOps community since April 2020 and now runs the largest active group with 2,500+ Slack members and 25k YouTube views — walks through a practical community playbook for MLOps meetups, members, and contributors.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Demetriosbrinkmann]({{ '/people/demetriosbrinkmann/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=ByCE1vSrIr8&t=0)
 - 1:28 - [Origin Story: Launching the MLOps community](https://www.youtube.com/watch?v=ByCE1vSrIr8&t=88)

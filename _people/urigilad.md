@@ -17,4 +17,4 @@ Product Manager, Data Governance, Google Cloud
 
 ## Podcast Discussions
 
-- [How to Build Data Governance in the Cloud: Classification, Catalogs, Policies & ROI]({{ '/podcasts/cloud-data-governance/' | relative_url }}). Related topics: [data governance]({{ '/wiki/data-governance/' | relative_url }}), data compliance, cloud.
+- [How to Build Data Governance in the Cloud: Classification, Catalogs, Policies & ROI]({{ '/podcasts/cloud-data-governance/' | relative_url }}). Discussed: Guest Background — Jessi: UX Researcher & Data Governance at Google Cloud; Guest Background — Uri: Product Management & Data Governance Experience; Defining Data Governance: Beyond Security and PII; Cloud & Regulation Driving Governance Adoption (GDPR, Cambridge Analytica). Related topics: [data governance]({{ '/wiki/data-governance/' | relative_url }}), data compliance, cloud.

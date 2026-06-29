@@ -14,6 +14,8 @@ youtube_url: "https://www.youtube.com/watch?v=LQvwTNQbPg4"
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/mentoring-in-tech-how-to-find-and-become-a-mentor.md.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=LQvwTNQbPg4)
 
@@ -21,7 +23,15 @@ youtube_url: "https://www.youtube.com/watch?v=LQvwTNQbPg4"
 
 Struggling to find a mentor — or wondering how to become one — in a fast-moving tech career? In this episode, Rahul Jain, a senior solutions engineer and data/AI leader with 15+ years driving enterprise data transformations and a career arc from mining engineering to data engineering and leadership, walks through practical mentoring strategies for tech professionals. We define mentoring (purpose, scope, types), explore early models like Thoughtworks’ sponsorship, and show how to find mentors through networks,.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Rahuljain]({{ '/people/rahuljain/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode Introduction](https://www.youtube.com/watch?v=LQvwTNQbPg4&t=0)
 - 1:20 - [Career Journey: From Mining Engineering to Data Engineering & Leadership](https://www.youtube.com/watch?v=LQvwTNQbPg4&t=80)

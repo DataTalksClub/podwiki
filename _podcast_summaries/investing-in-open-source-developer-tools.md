@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/investing-in-open-source-data-
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/investing-in-open-source-developer-tools.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=7Bg1JQLnCao)
 - [Listen on Spotify](https://open.spotify.com/episode/6mHnZ3IswczK46UP3MBp4d?si=KkrbjXmJSaiWbq3d9BzTUQ)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/investing-in-open-source-data-
 
 How do early-stage investors evaluate open-source developer tools — and what signals actually predict commercial success? In this episode, Bela Wiertz — who invests in early-stage open-source startups at a German family office focused on Data, AI & Developer Tooling — breaks down the investor playbook for sourcing, evaluating, and funding OSS companies. Drawing from hands-on deal flow and due diligence experience, Bela reveals how investors screen GitHub repositories, conduct developer interviews, and assess.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Belawiertz]({{ '/people/belawiertz/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode Start & Welcome](https://www.youtube.com/watch?v=7Bg1JQLnCao&t=0)
 - 1:15 - [Guest Overview: Bela’s Role at a Family Office](https://www.youtube.com/watch?v=7Bg1JQLnCao&t=75)

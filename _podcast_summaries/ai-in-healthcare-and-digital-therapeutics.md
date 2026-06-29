@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/machine-learning-and-personali
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/ai-in-healthcare-and-digital-therapeutics.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=IDzhmmKeNG4)
 - [Listen on Spotify](https://open.spotify.com/episode/3s78PtlbUmecuMOXwO8aD5?si=991e1811a5204305)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/machine-learning-and-personali
 
 How can AI power effective digital therapeutics while balancing personalization, rapid experimentation, and patient safety? In this episode, Stefan Gudmundsson — Director of Data, Analytics, and AI with a track record building ML and data teams at Sidekick Health, King, H&M, and CCP Games — walks through practical approaches for AI in healthcare and digital therapeutics.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Stefangudmundsson]({{ '/people/stefangudmundsson/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=IDzhmmKeNG4&t=0)
 - 0:38 - [Career Snapshot: Developer to AI & Data Leader](https://www.youtube.com/watch?v=IDzhmmKeNG4&t=38)

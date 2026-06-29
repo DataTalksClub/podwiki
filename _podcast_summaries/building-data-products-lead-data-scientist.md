@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/collaborative-data-science-in-
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/building-data-products-lead-data-scientist.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=1pExOVuCF8Q)
 - [Listen on Spotify](https://open.spotify.com/episode/46DN6rAlufvvXaqdOomoTe?si=OMPDN8m5QZWsc5kJY8IcAA)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/collaborative-data-science-in-
 
 How do you prioritize data product work, validate models in production, and keep them monitored without overwhelming stakeholders? In this episode, Ioannis Mesionis, Lead Data Scientist at easyJet and head of their MLOps efforts, walks through a practical data product operating model for tackling those challenges.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Ioannismesionis]({{ '/people/ioannismesionis/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 1:40 - [Episode introduction & guest Ioannis Mesionis (EasyJet lead data scientist)](https://www.youtube.com/watch?v=1pExOVuCF8Q&t=100)
 - 2:34 - [Career origin & early projects (mathematics degree, master's, internship model)](https://www.youtube.com/watch?v=1pExOVuCF8Q&t=154)

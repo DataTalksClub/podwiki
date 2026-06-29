@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-supply-chain-management-t
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/finops-for-data-engineers.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=7ePp6wuxM5s)
 - [Listen on Spotify](https://open.spotify.com/episode/33YZpX7zE6YcBGbQK9Iclp)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-supply-chain-management-t
 
 How can data engineers bring FinOps practices into their day-to-day work to control cloud spend across BigQuery and the modern data stack? In this episode, Eddy Zulkifly — Staff Data Engineer at Kinaxis with a decade of experience building data platforms on Google Cloud, Azure, and AWS — breaks down practical ways to make cost optimization part of platform design and operations.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Eddyzulkifly]({{ '/people/eddyzulkifly/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=7ePp6wuxM5s&t=0)
 - 1:35 - [Guest Introduction: Eddy Zulkifly, Staff Data Engineer at Kinaxis](https://www.youtube.com/watch?v=7ePp6wuxM5s&t=95)

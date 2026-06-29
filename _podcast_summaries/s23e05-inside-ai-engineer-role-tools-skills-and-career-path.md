@@ -16,12 +16,22 @@ apple_url: "https://podcasts.apple.com/us/podcast/inside-the-ai-engineer-role-to
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/s23e05-inside-ai-engineer-role-tools-skills-and-career-path.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=wIAqcdrKRWc)
 - [Listen on Spotify](https://open.spotify.com/episode/5OdUp9K8TVJFzLCrPOwqzi?si=ooBDWTtQQNCu9eDyBrfGIQ)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/inside-the-ai-engineer-role-tools-skills-and-career/id1541710331?i=1000756374194)
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Ruslanshchuchkin]({{ '/people/ruslanshchuchkin/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [From Account Management to Data Science](https://www.youtube.com/watch?v=wIAqcdrKRWc&t=0)
 - 7:51 - [Building Branch GPT and Side Project Philosophy](https://www.youtube.com/watch?v=wIAqcdrKRWc&t=471)

@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/mastering-self-learning-in-mac
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/learning-machine-learning-self-taught-bioinformatics.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=Kc3Puh3UCRQ)
 - [Listen on Spotify](https://open.spotify.com/episode/2XdKHrmVuytXd5kzLVSbFn?si=ETbkUdT2Q1yJlKCI-d9Rcg)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/mastering-self-learning-in-mac
 
 How do you teach yourself bioinformatics and machine learning in a way that leads to real projects and deployable models? In this episode, Aaisha Muhammad — a self-taught bioinformatician, machine learning engineer and scientific illustrator from Johannesburg and a Datatalks.Club ML Zoomcamp graduate — walks through a project-first path for learning bioinformatics and ML. We cover prioritization and avoiding FOMO, open curricula like OSSU, skill mapping with ML Zoomcamp, and practical resource evaluation (free vs.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Aaishamuhammad]({{ '/people/aaishamuhammad/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=Kc3Puh3UCRQ&t=0)
 - 1:14 - [Guest Overview: Aaisha — self-taught bioinformatician, ML engineer, scientific](https://www.youtube.com/watch?v=Kc3Puh3UCRQ&t=74)

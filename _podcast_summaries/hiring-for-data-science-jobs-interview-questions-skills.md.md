@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/hiring-data-science-talent-olg
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/hiring-for-data-science-jobs-interview-questions-skills.md.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=Af9t9r2b0z0)
 - [Listen on Spotify](https://open.spotify.com/episode/7ddvA9zNTip5Bt6EYnMNty?si=4fee84a6ad43465d)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/hiring-data-science-talent-olg
 
 How do you hire the right data scientists today—balancing algorithmic depth, MLOps skills, and inclusive hiring practices? In this episode, Olga Ivina, Delivery Data Science Director at Microsoft and former Deloitte consultant with a Ph.D. and 16+ years in AI, walks through practical strategies for recruiting strong data science talent.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Olgaivina]({{ '/people/olgaivina/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode Introduction](https://www.youtube.com/watch?v=Af9t9r2b0z0&t=0)
 - 1:44 - [Career Beginnings: Applied mathematics, forecasting, and consulting](https://www.youtube.com/watch?v=Af9t9r2b0z0&t=104)

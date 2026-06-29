@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/redefining-ai-infrastructure-o
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/ai-infrastructure-hybrid-cloud-on-prem-distributed-training.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=1aMuynlLM3o)
 - [Listen on Spotify](https://open.spotify.com/episode/5MIc1pAXPxVYSr0E4pndU4)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/redefining-ai-infrastructure-o
 
 How has the rise of ChatGPT reshaped the infrastructure needed to build and run large language models, and when does open source orchestration make sense compared to cloud or proprietary systems? In this episode we speak with Andrey Cheptsov, founder and CEO of dstack — an open-source alternative to Kubernetes and Slurm designed to simplify AI infrastructure orchestration. Drawing on his decade-plus at JetBrains building developer tools, Andrey frames practical trade-offs between on-prem economics and cloud spend,.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Andreycheptsov]({{ '/people/andreycheptsov/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode Kickoff & Guest Introduction](https://www.youtube.com/watch?v=1aMuynlLM3o&t=0)
 - 2:46 - [Career Background: JetBrains, DataSpell, and Move into AI](https://www.youtube.com/watch?v=1aMuynlLM3o&t=166)

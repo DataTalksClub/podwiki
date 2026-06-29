@@ -15,4 +15,4 @@ Santona began her data journey through fundamental physics—searching through m
 
 ## Podcast Discussions
 
-- [Modern Data Pipeline Architecture: Ingestion, Orchestration, Transformation & MLOps Systems]({{ '/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/' | relative_url }}). Related topics: [data engineering]({{ '/wiki/data-engineering/' | relative_url }}), [MLOps]({{ '/wiki/mlops/' | relative_url }}), [tools]({{ '/wiki/tools/' | relative_url }}).
+- [Modern Data Pipeline Architecture: Ingestion, Orchestration, Transformation & MLOps Systems]({{ '/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/' | relative_url }}). Discussed: Episode Introduction; Career journey: CERN researcher → NLP, ML engineering, Python, Astronomer,; Transition to workflow authoring and orchestration (Airflow, Astronomer); Upsolver vs DBT: pipeline authoring, execution engine, and ingestion focus. Related topics: [data engineering]({{ '/wiki/data-engineering/' | relative_url }}), [MLOps]({{ '/wiki/mlops/' | relative_url }}), [tools]({{ '/wiki/tools/' | relative_url }}).

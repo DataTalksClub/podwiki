@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/become-a-data-freelancer-dimit
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/becoming-data-freelancer.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=R_EnSa9aZtE)
 - [Listen on Spotify](https://open.spotify.com/episode/5OJfRiQ64JtLUmIkvadohg?si=uUEdvZwARN2hVGEfz73URg)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/become-a-data-freelancer-dimit
 
 How do you move from corporate analytics to independent data consulting while pricing services fairly, finding steady clients, and avoiding contract pitfalls? In this episode Dimitri Visnadi — an independent data consultant who has advised brands like Unilever, Ferrero, Heineken and Red Bull and who trained at UCL and HP — walks through the practical realities of becoming a data freelancer.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Dimitrivisnadi]({{ '/people/dimitrivisnadi/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 1:31 - [Podcast Introduction](https://www.youtube.com/watch?v=R_EnSa9aZtE&t=91)
 - 2:20 - [Career Path: From Marketing to Data](https://www.youtube.com/watch?v=R_EnSa9aZtE&t=140)

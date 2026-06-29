@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/machine-learning-engineering-i
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/mlops-and-ml-engineering-in-finance.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=Nl4aibeFwiI)
 - [Listen on Spotify](https://open.spotify.com/episode/3yQtA8EAndau1yhCFPfwtj?si=ZutO4mLlRfOz_Zgw4GujiQ)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/machine-learning-engineering-i
 
 How do you deploy machine learning in heavily regulated finance environments while keeping CI/CD pipelines, model governance, and operational risk under control? In this episode Nemanja Radojkovic—an electrical engineer turned data scientist and MLOps practitioner who moved from Belgrade to Leuven—walks through real-world constraints and pragmatic solutions for MLOps in finance.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Nemanjaradojkovic]({{ '/people/nemanjaradojkovic/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode Introduction](https://www.youtube.com/watch?v=Nl4aibeFwiI&t=0)
 - 1:35 - [Guest Introduction: Nemanja’s journey from Belgrade to ML Ops in Europe](https://www.youtube.com/watch?v=Nl4aibeFwiI&t=95)

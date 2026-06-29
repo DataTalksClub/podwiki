@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/personal-branding-admond-lee-k
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/personal-brand-for-data-professionals.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=tQRQnz_aHYQ)
 - [Listen on Spotify](https://open.spotify.com/episode/61Yv13MISTeP5nOVAZpY88)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/personal-branding-admond-lee-k
 
 How do you build a personal brand that actually attracts an audience and turns into revenue? In this episode, Admond Lee Kin Lim — data scientist, writer, speaker, and Data Science Instructor at Hackwagon Academy — breaks down a practical path from first posts to monetizing with online courses. Drawing on his experience at Micron and as an independent consultant and communicator featured in KDnuggets and Medium, Admond defines personal brand purpose and positioning, then walks through the first steps and mindset.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Admondleekinlim]({{ '/people/admondleekinlim/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=tQRQnz_aHYQ&t=0)
 - 1:10 - [Guest Introduction and Career Journey](https://www.youtube.com/watch?v=tQRQnz_aHYQ&t=70)

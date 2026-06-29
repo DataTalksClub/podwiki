@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/recruiting-data-engineers-nico
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/hiring-for-data-engineering-jobs-in-europe.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=hylxiu4VGTo)
 - [Listen on Spotify](https://open.spotify.com/episode/5ldkzYiHFvJCKoEyfAlvDs?si=WFJzcZ7fRCi1dzwapNGfzA)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/recruiting-data-engineers-nico
 
 How do you hire data engineers in Europe today — and what should candidates and hiring managers actually focus on during interviews? In this episode, Nicolas Rassam, a Senior Talent Acquisition Partner at Helsing with 10+ years scaling AI and engineering teams at Onfido and Criteo, walks through the practical realities of hiring data engineers across Europe's competitive, borderless market.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Nicolasrassam]({{ '/people/nicolasrassam/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode Opening & Guest Welcome](https://www.youtube.com/watch?v=hylxiu4VGTo&t=0)
 - 1:15 - [Guest Background and Career Path](https://www.youtube.com/watch?v=hylxiu4VGTo&t=75)

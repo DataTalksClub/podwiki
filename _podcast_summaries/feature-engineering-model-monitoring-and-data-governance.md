@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/building-business-acumen-for-d
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/feature-engineering-model-monitoring-and-data-governance.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=pImYf9ML95Q)
 - [Listen on Spotify](https://open.spotify.com/episode/4dFbkQI9pF4wUDueZFqxGY)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/building-business-acumen-for-d
 
 How do you move from models that look good on paper to reliable machine learning in production—while keeping data clean and stakeholders aligned? In this episode Thom Ives, founder of Integrated Machine Learning & AI and a veteran data scientist, walks through practical approaches to feature engineering, model monitoring, data governance, and data storytelling. Thom draws on a career spanning industry roles and mentoring to contrast concept-focused learning versus specialist detail work, and to explain why.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Thomives]({{ '/people/thomives/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 1:15 - [Episode Introduction & Guest Thom Ives](https://www.youtube.com/watch?v=pImYf9ML95Q&t=75)
 - 1:50 - [Concept-focused learning vs. detail specialization](https://www.youtube.com/watch?v=pImYf9ML95Q&t=110)

@@ -177,6 +177,44 @@ def transcript_chapters(items: list[dict[str, str]], youtube_url: object) -> lis
     return chapters
 
 
+def transcript_fallback_chapters(
+    items: list[dict[str, str]], youtube_url: object, limit: int = 12
+) -> list[dict[str, str]]:
+    """Create sparse navigational summaries when transcripts have no headers."""
+    candidates = [
+        item
+        for item in items
+        if clean_value(item.get("line")) and clean_value(item.get("sec"))
+    ]
+    if not candidates:
+        return []
+
+    if len(candidates) <= limit:
+        selected = candidates
+    else:
+        step = (len(candidates) - 1) / (limit - 1)
+        selected = [candidates[round(index * step)] for index in range(limit)]
+
+    chapters = []
+    for index, item in enumerate(selected, start=1):
+        line = clean_value(item.get("line")).rstrip("\\").strip()
+        excerpt = first_paragraph(line, max_chars=90)
+        if not excerpt:
+            continue
+        start = clean_value(item.get("sec"))
+        title = f"Transcript checkpoint {index}: {excerpt}"
+        chapters.append(
+            {
+                "title": title,
+                "start": start,
+                "end": "",
+                "time": clean_value(item.get("time")) or seconds_to_stamp(start),
+                "url": timestamp_url(youtube_url, start),
+            }
+        )
+    return chapters
+
+
 def as_list(value: object) -> list[str]:
     if isinstance(value, list):
         return [clean_value(item) for item in value if clean_value(item)]
@@ -187,6 +225,14 @@ def as_list(value: object) -> list[str]:
 
 def should_skip_podcast(path: Path) -> bool:
     return path.name in {"README.md", "_template.md"}
+
+
+def source_relative_path(path: Path) -> str:
+    resolved = path.resolve()
+    try:
+        return str(resolved.relative_to(ROOT.parent))
+    except ValueError:
+        return str(path)
 
 
 def read_podcast(path: Path) -> dict[str, object]:
@@ -211,12 +257,14 @@ def read_podcast(path: Path) -> dict[str, object]:
     ]
     if not chapters:
         chapters = transcript_chapters(transcript_items, links.get("youtube", ""))
+    if not chapters:
+        chapters = transcript_fallback_chapters(transcript_items, links.get("youtube", ""))
 
     return {
         "slug": slug,
         "title": title,
         "short": str(meta.get("short") or ""),
-        "source_episode": str(path.relative_to(ROOT.parent)),
+        "source_episode": source_relative_path(path),
         "source_url": f"https://datatalks.club/podcast/{slug}.html",
         "local_url": f"/podcasts/{slug}/",
         "season": str(meta.get("season") or ""),
@@ -262,4 +310,21 @@ def read_podcasts(source: Path = DEFAULT_PODCAST_SOURCE) -> list[dict[str, objec
         if should_skip_podcast(path):
             continue
         podcasts.append(read_podcast(path))
-    return podcasts
+
+    def sort_key(podcast: dict[str, object]) -> tuple[int, int, str]:
+        def numeric(value: object) -> int:
+            try:
+                return int(str(value or "999"))
+            except ValueError:
+                return 999
+
+        return (
+            numeric(podcast.get("season")),
+            numeric(podcast.get("episode")),
+            str(podcast.get("slug") or ""),
+        )
+
+    return sorted(
+        podcasts,
+        key=sort_key,
+    )

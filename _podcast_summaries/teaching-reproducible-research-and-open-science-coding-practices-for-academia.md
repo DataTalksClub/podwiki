@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/doing-software-engineering-in-
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/teaching-reproducible-research-and-open-science-coding-practices-for-academia.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=K0PdQITQzVQ)
 - [Listen on Spotify](https://open.spotify.com/episode/3ol91Xt0A6VBbPgFxGh5N6?si=QDcjMCJ7SOG6eJjjYbyEcg)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/doing-software-engineering-in-
 
 How do you teach reproducible research and practical research software engineering (RSE) skills to neuroimaging students and researchers? In this episode, Johanna Bayer — a psychologist-turned-computational neuroscientist completing a PhD in machine learning for clinical neuroimaging at the University of Melbourne and an open science advocate — walks through concrete approaches for teaching reproducible research. We cover course design (Carpentries-style curricula, Git introductions, and reproducible manuscripts.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Johannabayer]({{ '/people/johannabayer/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=K0PdQITQzVQ&t=0)
 - 1:08 - [Guest Background: Johanna Bayer — Psychology to Machine Learning in Neuroimaging](https://www.youtube.com/watch?v=K0PdQITQzVQ&t=68)

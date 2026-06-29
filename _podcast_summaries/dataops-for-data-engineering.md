@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/dataops-observability-and-the-
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/dataops-for-data-engineering.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=HzGpIxV8HtA)
 - [Listen on Spotify](https://open.spotify.com/episode/02VoOk5UkMcvfq7VkSOegb)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/dataops-observability-and-the-
 
 How do you transform fragile data pipelines and unreliable ML deployments into automated, observable, production-ready systems? In this episode Christopher Bergh, CEO of DataKitchen and co-author of the DataOps Cookbook and DataOps Manifesto, walks through practical DataOps for data engineering—drawing on 25+ years across research, software engineering, and analytics.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Christopherbergh]({{ '/people/christopherbergh/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=HzGpIxV8HtA&t=0)
 - 2:12 - [Guest Introduction: Christopher Bergh & DataKitchen](https://www.youtube.com/watch?v=HzGpIxV8HtA&t=132)

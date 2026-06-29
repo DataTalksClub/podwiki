@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/what-i-learned-after-interview
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/data-science-interview-and-cv-guide.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=AYi7b-8GPm4)
 - [Listen on Spotify](https://open.spotify.com/episode/406wN6xDkYPyLS8i9fUJL5)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/what-i-learned-after-interview
 
 How do you make your data science application stand out, ace take-home projects, and negotiate an offer without leaving money on the table? In this episode, Oleg Novikov — creator of NextRound and former data science manager at Uber with a background in data and software engineering — walks through a practical data science interview guide covering CV optimization, take-home projects, mock interviews, and negotiation.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Olegnovikov]({{ '/people/olegnovikov/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 1:16 - [Introduction & Episode Overview](https://www.youtube.com/watch?v=AYi7b-8GPm4&t=76)
 - 2:00 - [Career Path: Engineer → Recommenders → Data Science Management](https://www.youtube.com/watch?v=AYi7b-8GPm4&t=120)

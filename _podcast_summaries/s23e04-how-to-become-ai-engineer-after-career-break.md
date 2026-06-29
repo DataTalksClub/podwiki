@@ -16,12 +16,22 @@ apple_url: "https://podcasts.apple.com/us/podcast/how-to-become-an-ai-engineer-a
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/s23e04-how-to-become-ai-engineer-after-career-break.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=IwG_JaxC-Y8)
 - [Listen on Spotify](https://open.spotify.com/episode/3xC8PZjrrAtYCWspQpI8oT?si=4n7hbBgYS6SKbNYDiy7tvA)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/how-to-become-an-ai-engineer-after-a-career/id1541710331?i=1000755145117)
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Revathyramalingam]({{ '/people/revathyramalingam/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Why Move to AI? Using ChatGPT to Plan a Career Pivot](https://www.youtube.com/watch?v=IwG_JaxC-Y8&t=0)
 - 11:00 - [Learning in Public: The Power of Community Support](https://www.youtube.com/watch?v=IwG_JaxC-Y8&t=660)

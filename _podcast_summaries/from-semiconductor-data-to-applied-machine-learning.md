@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-semiconductors-to-machine
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/from-semiconductor-data-to-applied-machine-learning.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=B2tzuUg5uZs)
 - [Listen on Spotify](https://open.spotify.com/episode/1znRtNRf5IUYcBblJYH53r)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-semiconductors-to-machine
 
 How do you move from playing classical guitar to applying machine learning in semiconductor yield analytics? In this episode Dashel Ruiz Perez — a data analyst, ML engineer, and educator — walks us through a nonlinear career path that spans nearly a decade at Microchip Technology and now teaching programming and data skills through ThriveDX. With roles across production, process, yield, and software engineering, Dashel explains how hands-on production experience informs production analytics and ML engineering work.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Dashelruizperez]({{ '/people/dashelruizperez/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction & DataTalksClub](https://www.youtube.com/watch?v=B2tzuUg5uZs&t=0)
 - 1:51 - [Guest Overview: Multidisciplinary Career Snapshot](https://www.youtube.com/watch?v=B2tzuUg5uZs&t=111)

@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/building-data-science-practice
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/building-and-scaling-data-science-practice-industrial-ai-mlops.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=XbDQv8FTA4U)
 - [Listen on Spotify](https://open.spotify.com/episode/0M7Y77MFToxtKuyfdF5W22?si=jgWR6EchQnWe6nYWW44ZxQ)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/building-data-science-practice
 
 How do industrial enterprises move from pilots to production-ready AI—and what team structures, MLOps practices, and career moves make that possible? In this episode Andrey Shtylenko, Director of Engineering at Honeywell and leader of its Advanced Technology Group and AI practice, walks through practical approaches for building and scaling data science teams in industrial enterprises. Drawing on Honeywell use cases—smart sensors, computer vision, and robotics—Andrey explains the data and machine learning practices.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Andreyshtylenko]({{ '/people/andreyshtylenko/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Introduction & Live Chat Poll Results](https://www.youtube.com/watch?v=XbDQv8FTA4U&t=0)
 - 2:29 - [Guest Introduction: Andrey Shtylenko, Honeywell](https://www.youtube.com/watch?v=XbDQv8FTA4U&t=149)

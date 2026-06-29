@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/becoming-a-data-led-profession
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=8v5KpHWgyYw)
 - [Listen on Spotify](https://open.spotify.com/episode/2hg3Gi3h5OfdedXENwZwnU)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/becoming-a-data-led-profession
 
 How do you design a data-led growth stack that reliably powers personalization, activation, and operational workflows? In this episode, Arpit Choudhury, founder of Data-led Academy, walks through the practical steps of building a data-led growth stack focused on event tracking, documented tracking plans, and reverse ETL.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Arpitchoudhury]({{ '/people/arpitchoudhury/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=8v5KpHWgyYw&t=0)
 - 2:21 - [DataLed Academy: free learning, repository & podcast](https://www.youtube.com/watch?v=8v5KpHWgyYw&t=141)

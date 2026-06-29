@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/developer-advocacy-engineer-fo
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/hugging-face-contributions-and-nlp-portfolio.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=SnEYvF-Ztb8)
 - [Listen on Spotify](https://open.spotify.com/episode/5k60LWIwnMpvaIbTaryRv4?si=liHqmXVYT-uB1PO4uB65OQ)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/developer-advocacy-engineer-fo
 
 How do you go from beginner projects to contributing to Hugging Face and building an visible NLP portfolio? In this episode, Merve Noyan — Google Developer Expert in Machine Learning, grad student in Data Science, and NLP-focused ML engineer — walks through practical steps for contributing to open source, datasets, and Hugging Face Spaces.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Mervenoyan]({{ '/people/mervenoyan/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=SnEYvF-Ztb8&t=0)
 - 1:25 - [Guest Welcome & Episode Overview](https://www.youtube.com/watch?v=SnEYvF-Ztb8&t=85)

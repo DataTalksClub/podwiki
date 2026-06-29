@@ -5,7 +5,7 @@ source_person: "../datatalksclub.github.io/_people/nemanjaradojkovic.md"
 person_id: "nemanjaradojkovic"
 summary: "MLOps engineer and teacher connecting regulated finance deployments, startup-scale MLOps, data engineering, and career transition."
 expertise: ["MLOps", "data engineering", "production", "career transition", "tools", "startups"]
-podcast_episodes: ["lean-mlops-for-startups", "mlops-and-ml-engineering-in-finance"]
+podcast_episodes: ["mlops-and-ml-engineering-in-finance", "lean-mlops-for-startups"]
 source_url: "https://datatalks.club/people/nemanjaradojkovic.html"
 ---
 ## Background

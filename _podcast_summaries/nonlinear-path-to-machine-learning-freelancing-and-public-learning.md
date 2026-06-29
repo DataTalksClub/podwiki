@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/how-to-rebuild-data-trust-mind
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/nonlinear-path-to-machine-learning-freelancing-and-public-learning.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=5km62e4nDaw)
 - [Listen on Spotify](https://open.spotify.com/episode/22Gc1bDecKA33KHAaSF9fx)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/how-to-rebuild-data-trust-mind
 
 How do you go from medical school to shipping production-ready healthcare ML—and get paid for it on platforms like Upwork? In this episode, Pastor Soto, a machine learning engineer and mentor who transitioned from medicine and criminology into production ML, walks through the practical steps he used to build a healthcare ML portfolio and freelance career.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Pastorsoto]({{ '/people/pastorsoto/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction & Event Announcements](https://www.youtube.com/watch?v=5km62e4nDaw&t=0)
 - 1:34 - [Guest Overview: Transition from Medicine and Criminology to Machine Learning](https://www.youtube.com/watch?v=5km62e4nDaw&t=94)

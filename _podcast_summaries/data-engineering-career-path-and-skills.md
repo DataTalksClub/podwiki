@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/teaching-data-engineers-jeff-k
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/data-engineering-career-path-and-skills.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=dFo10l8B6Go)
 - [Listen on Spotify](https://open.spotify.com/episode/0Fo6Y62xaWPy7C24eZKfJw?si=lnjgqHUiRdGiZNxE76QMYQ)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/teaching-data-engineers-jeff-k
 
 How do you build a data engineering career from zero — what should you learn, how do you master SQL, and how do you pass the interviews? In this episode, Jeff Katz — former lawyer turned developer, founder of Jigsaw Labs, and current ML engineer at AppFolio — walks through practical paths into data engineering and how to design bootcamp curriculum that actually leads to hires.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Jeffkatz]({{ '/people/jeffkatz/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode Overview & Guest Introduction](https://www.youtube.com/watch?v=dFo10l8B6Go&t=0)
 - 1:20 - [Guest Background: Lawyer → Developer → Educator](https://www.youtube.com/watch?v=dFo10l8B6Go&t=80)

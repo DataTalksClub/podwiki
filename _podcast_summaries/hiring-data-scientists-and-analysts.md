@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/recruiting-data-professionals-
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/hiring-data-scientists-and-analysts.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=WSMDXsjKYx4)
 - [Listen on Spotify](https://open.spotify.com/episode/4LFZX7IfpdYkQ6si4ed0OR)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/recruiting-data-professionals-
 
 How do you consistently find and hire the right data scientists and analysts in a competitive market? In this episode, Alicja Notowska — a talent acquisition specialist with 10+ years recruiting at Google, Zalando and now with embedded agency WeAreKeen — breaks down practical recruiting tactics for hiring data scientists and data analysts.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Alicjanotowska]({{ '/people/alicjanotowska/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=WSMDXsjKYx4&t=0)
 - 2:05 - [Guest Background & Recruiting Experience](https://www.youtube.com/watch?v=WSMDXsjKYx4&t=125)

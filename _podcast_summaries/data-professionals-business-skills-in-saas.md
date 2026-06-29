@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/business-skills-for-data-profe
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/data-professionals-business-skills-in-saas.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=xMYRUiTu960)
 - [Listen on Spotify](https://open.spotify.com/episode/5tw3qs1XHETDPYrxdEaVbK?si=QIclWOT_QhKhIGrcl-KQXg)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/business-skills-for-data-profe
 
 How do you move data science from experiments to measurable impact in a SaaS business? In this episode, Loris Marini — CEO and founder of Discovering Data and host of the Discovering Data podcast — walks through practical approaches to deploying models, building marketing automation, and turning metrics into persuasive stories.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Lorismarini]({{ '/people/lorismarini/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=xMYRUiTu960&t=0)
 - 1:42 - [Guest Background: From Physics to Data Science](https://www.youtube.com/watch?v=xMYRUiTu960&t=102)

@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/becoming-a-data-product-manage
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/product-designer-to-data-product-manager.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=nt__pVuuC-k)
 - [Listen on Spotify](https://open.spotify.com/episode/3NZhd5kgQFpGckyxTQH9bF)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/becoming-a-data-product-manage
 
 How do you move from product design into a data product manager role — and which technical and discovery skills will make that transition practical and persuasive? Sara Menefee, a product manager at Meroxa and former product designer at Sora, Checkr, Change.org, and Zendesk, walks through her path and the concrete steps designers can take to become data-focused PMs.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Saramenefee]({{ '/people/saramenefee/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=nt__pVuuC-k&t=0)
 - 1:27 - [Career Path: From Technical Support to Product Design](https://www.youtube.com/watch?v=nt__pVuuC-k&t=87)

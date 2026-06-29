@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-digital-marketing-to-anal
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/from-marketing-to-analytics-engineering-sql-dbt-career-switch.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=GawJ7mG5ElQ)
 - [Listen on Spotify](https://open.spotify.com/episode/5VwS6ijaToirTzR7Xd5Phw?si=OsOVLOzBSt2sIgvbRS3krg)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-digital-marketing-to-anal
 
 How do you transition from digital marketing into analytics engineering—and master DBT, SQL, and data modeling in the process? In this episode, Nikola Maksimovic shares his complete career transformation journey, from startup marketing roles in London and Berlin to growth marketing at Ecosia, and ultimately his pandemic-driven pivot into BI and analytics engineering. Nikola reveals the step-by-step learning path that worked for him—SQL fundamentals, hands-on BI projects, strategic conversations with internal data.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Nikolamaksimovic]({{ '/people/nikolamaksimovic/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode Overview: Switching from Marketing to Analytics Engineering](https://www.youtube.com/watch?v=GawJ7mG5ElQ&t=0)
 - 0:32 - [Early Career & Startup Experience: London, Berlin, Movinga](https://www.youtube.com/watch?v=GawJ7mG5ElQ&t=32)

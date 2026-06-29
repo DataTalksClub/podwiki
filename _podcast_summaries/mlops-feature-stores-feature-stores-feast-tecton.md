@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/feature-stores-cutting-through
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/mlops-feature-stores-feature-stores-feast-tecton.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=FQYTb4uWljQ)
 - [Listen on Spotify](https://open.spotify.com/episode/05YnfTWbplXwOwicR2doy3)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/feature-stores-cutting-through
 
 How do you reliably build and serve real-time features for production ML without rework, duplication, or training/serving skew? In this episode, Willem Pienaar — engineering lead at Tecton and creator of Feast — walks through what feature stores solve in MLOps and how they enable real-time feature engineering. We define feature stores, compare feature creation vs retrieval (SQL, Python, APIs, on-demand transforms), and illustrate a production real-time fraud detection lookup. Willem separates hype from value,.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Willempienaar]({{ '/people/willempienaar/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode Introduction: Feature Stores in MLOps](https://www.youtube.com/watch?v=FQYTb4uWljQ&t=0)
 - 2:00 - [Background: From Mechatronic Engineering to ML Platform Builder](https://www.youtube.com/watch?v=FQYTb4uWljQ&t=120)

@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/inclusive-data-leadership-coac
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/data-leadership-coaching.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=Z4vOTgzLkJQ)
 - [Listen on Spotify](https://open.spotify.com/episode/3zVzlQ0NmAVCtaFQXbqvHE?si=sSZhU-KXRamv2x5YZCDxAg)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/inclusive-data-leadership-coac
 
 How do you move from a strong individual contributor into a data leader who can influence stakeholders, grow team impact, and build inclusive practices? In this episode Tereza Iofciu—data science manager, data scientist, data engineer, product manager, coach and community organizer—walks through her transition from a PhD in computer science to leading teams and running data leadership coaching.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Terezaiofciu]({{ '/people/terezaiofciu/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 1:26 - [Episode Introduction & Guest Re-introduction (Inclusive Data Leadership Coaching)](https://www.youtube.com/watch?v=Z4vOTgzLkJQ&t=86)
 - 2:41 - [Career Journey: From Computer Science PhD to Data Lead and Coach](https://www.youtube.com/watch?v=Z4vOTgzLkJQ&t=161)

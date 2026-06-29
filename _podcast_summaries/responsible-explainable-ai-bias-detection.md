@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/responsible-and-explainable-ai
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/responsible-explainable-ai-bias-detection.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=8Eb5mG-pC3o)
 - [Listen on Spotify](https://open.spotify.com/episode/0xCSjSCG6tTiMSGfUJrMmO)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/responsible-and-explainable-ai
 
 How do you detect bias, enforce fairness, and govern AI systems in production without sacrificing business outcomes? In this episode, Supreet Kaur — AVP on Morgan Stanley’s Data Strategy and Products team, founder of DataBuzz, and mentor at Columbia and Rutgers — walks through a practical roadmap for responsible AI and explainable AI grounded in real-world examples.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Supreetkaur]({{ '/people/supreetkaur/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode Introduction: Responsible and Explainable AI](https://www.youtube.com/watch?v=8Eb5mG-pC3o&t=0)
 - 2:14 - [Career Journey: Master''s, Consulting, and Founding DataBuzz](https://www.youtube.com/watch?v=8Eb5mG-pC3o&t=134)

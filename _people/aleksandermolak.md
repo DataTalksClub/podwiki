@@ -17,4 +17,4 @@ My name is Aleksander Molak. Friends call me Alex. My mission is to translate co
 
 ## Podcast Discussions
 
-- [Causal Inference for Real-World ML: Uplift Modeling, Counterfactuals, Treatment Effects & LLM Integration]({{ '/podcasts/causal-inference-for-machine-learning/' | relative_url }}). Related topics: [causal inference]({{ '/wiki/causal-inference/' | relative_url }}), [LLMs]({{ '/wiki/llms/' | relative_url }}), [machine learning]({{ '/wiki/machine-learning/' | relative_url }}).
+- [Causal Inference for Real-World ML: Uplift Modeling, Counterfactuals, Treatment Effects & LLM Integration]({{ '/podcasts/causal-inference-for-machine-learning/' | relative_url }}). Discussed: Episode Introduction; Guest Intro: Aleksander Molak & book overview; Career highlights and dyslexia prediction project; Causal advocacy: democratizing causal thinking. Related topics: [causal inference]({{ '/wiki/causal-inference/' | relative_url }}), [LLMs]({{ '/wiki/llms/' | relative_url }}), [machine learning]({{ '/wiki/machine-learning/' | relative_url }}).

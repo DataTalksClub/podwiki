@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/working-in-open-source-probabl
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/open-source-ml-tools-strategy-and-business-models.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=UPlIETGwTg8)
 - [Listen on Spotify](https://open.spotify.com/episode/0HT3IQOaTXTMH0OdEBnw9s?si=HrLtx7QKT_amZyUbZuqRzQ)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/working-in-open-source-probabl
 
 How can open source ML tools stay healthy, useful, and financially sustainable while serving both researchers and industry? In this episode Vincent Warmerdam — Research Advocate at Rasa, author of the Koaning blog, creator of the Algorithm Whiteboard playlist, and cofounder of Calm Code — walks through the real-world tradeoffs of scikit-learn governance, sustainability, and business models for ML tooling.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Vincentwarmerdam]({{ '/people/vincentwarmerdam/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode Overview — Open Source Focus](https://www.youtube.com/watch?v=UPlIETGwTg8&t=0)
 - 1:40 - [Guest Reintroduction & Vincent’s Open Source Profile](https://www.youtube.com/watch?v=UPlIETGwTg8&t=100)

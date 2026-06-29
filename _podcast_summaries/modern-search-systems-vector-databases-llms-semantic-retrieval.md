@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/navigating-challenges-and-inno
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=_fbe1QyJ1PY)
 - [Listen on Spotify](https://open.spotify.com/episode/7mUMvxP4Efyeh0lhF5CvT6?si=7qqKrsMfQxaZy435s3XIEA)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/navigating-challenges-and-inno
 
 How do modern search systems combine vector databases, LLMs, and semantic retrieval to deliver relevant, reliable results—and when should you adopt each component? In this episode Atita Arora walks through that question from both historical and practical angles. A long-time contributor to information retrieval projects (including Apache OpenNLP and Quepid) and author of posts on vectors in e-commerce and the open-source Chorus implementation, Atita brings hands-on experience plus ongoing research into evaluating.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Atitaarora]({{ '/people/atitaarora/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 1:55 - [Episode Introduction: search focus and guest overview](https://www.youtube.com/watch?v=_fbe1QyJ1PY&t=115)
 - 2:38 - [Background & career beginnings in information retrieval](https://www.youtube.com/watch?v=_fbe1QyJ1PY&t=158)

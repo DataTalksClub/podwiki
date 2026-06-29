@@ -16,4 +16,4 @@ I’m a Computer Scientist focused on Data Engineering, after working in differe
 
 ## Podcast Discussions
 
-- [Remote Data Engineering Life: Building IoT Platforms, Career Transitions & Newsletter-Driven Personal Growth]({{ '/podcasts/remote-data-engineering-work-and-building-iot-platforms/' | relative_url }}). Related topics: [data engineering]({{ '/wiki/data-engineering/' | relative_url }}), remote work, personal brand, [career growth]({{ '/wiki/career-growth/' | relative_url }}).
+- [Remote Data Engineering Life: Building IoT Platforms, Career Transitions & Newsletter-Driven Personal Growth]({{ '/podcasts/remote-data-engineering-work-and-building-iot-platforms/' | relative_url }}). Discussed: Episode Overview & Guest Introduction; Background: Spain to Norway and Career Transition; Relocation Story: Moving for Partner’s Job; Remote Work Routine: Two Focused Work Blocks. Related topics: [data engineering]({{ '/wiki/data-engineering/' | relative_url }}), remote work, personal brand, [career growth]({{ '/wiki/career-growth/' | relative_url }}).

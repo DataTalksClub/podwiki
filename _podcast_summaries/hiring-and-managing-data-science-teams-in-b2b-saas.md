@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/data-science-career-developmen
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/hiring-and-managing-data-science-teams-in-b2b-saas.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=i1NHRroQClQ)
 - [Listen on Spotify](https://open.spotify.com/episode/0sm5qB1Cj4EJlbQ2giLtHR)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/data-science-career-developmen
 
 How do you hire, manage, and grow a high-impact data science team inside a B2B SaaS company? In this episode, Katie Bauer — Head of Data at GlossGenius and former data leader at Twitter and Reddit — walks through practical career frameworks and team-building strategies for product analysts, analytics engineers, marketing scientists, and data scientists. Katie traces her own trajectory from linguistics to analytics and explains what “craft” looks like in analytics: maintainability, documentation, and peer review..
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Katiebauer]({{ '/people/katiebauer/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=i1NHRroQClQ&t=0)
 - 1:33 - [Introduction: Episode focus on data science career development (Katie Bauer)](https://www.youtube.com/watch?v=i1NHRroQClQ&t=93)

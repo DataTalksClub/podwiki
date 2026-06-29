@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/moving-from-academia-to-indust
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/postdoc-to-data-science-lead-career-transition.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=m4F651BpUFk)
 - [Listen on Spotify](https://open.spotify.com/episode/5Jvo53ibSoX6rfkfdGq5pJ)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/moving-from-academia-to-indust
 
 How do you go from a postdoc to a data science lead while mastering machine learning foundations and deployment? In this episode, CJ Jenkins — a PhD-turned-data science lead working on credit risk modeling, with published research and a textbook used in academia — walks through that transition. We trace CJ’s roots in evolutionary biology and genomics, the statistical ML foundations (GLMs, population dynamics), and practical tools like Bash, R, Python, and SQL. Key topics include Docker deployment and bridging the.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Cjjenkins]({{ '/people/cjjenkins/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=m4F651BpUFk&t=0)
 - 0:58 - [Career Journey: Postdoc to Data Science Lead](https://www.youtube.com/watch?v=m4F651BpUFk&t=58)

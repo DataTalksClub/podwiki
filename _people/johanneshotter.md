@@ -17,4 +17,4 @@ I am a Data Scientist/Engineer and co-founder of kern.
 
 ## Podcast Discussions
 
-- [Build Open-Source NLP Tools: Weak Supervision, LLM Heuristics & Enterprise ML Product Strategy]({{ '/podcasts/building-open-source-nlp-tool/' | relative_url }}). Related topics: [NLP]({{ '/wiki/nlp/' | relative_url }}), [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), strategy, [entrepreneurship]({{ '/wiki/entrepreneurship/' | relative_url }}), [founder]({{ '/wiki/founder/' | relative_url }}).
+- [Build Open-Source NLP Tools: Weak Supervision, LLM Heuristics & Enterprise ML Product Strategy]({{ '/podcasts/building-open-source-nlp-tool/' | relative_url }}). Discussed: Background & early AI curiosity; Open-source demos overview: Refinery and Bricks; Refinery features: weak supervision & labeling workflows; Jupyter widgets gap and NLP tooling needs. Related topics: [NLP]({{ '/wiki/nlp/' | relative_url }}), [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), strategy, [entrepreneurship]({{ '/wiki/entrepreneurship/' | relative_url }}), [founder]({{ '/wiki/founder/' | relative_url }}).

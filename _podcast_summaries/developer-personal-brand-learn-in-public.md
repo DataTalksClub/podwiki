@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/how-to-market-yourself-without
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/developer-personal-brand-learn-in-public.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=tkBCPqWKCL8)
 - [Listen on Spotify](https://open.spotify.com/episode/6uLyKxpVZv0wItCNyGPdAN)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/how-to-market-yourself-without
 
 How do developers build visibility, earn promotions, and steer their careers by learning in public? In this episode, Shawn Swyx Wang — Senior Developer Advocate for AWS Amplify, author of The Coding Career Handbook, and former engineer at Netlify and Temporal — walks through a practical framework for personal branding and career marketing for developers. We unpack why self-marketing matters beyond job hunting and the five-part personal marketing framework: brand, domain, value, skills, and channel.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Swyx]({{ '/people/swyx/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=tkBCPqWKCL8&t=0)
 - 1:09 - [Guest Overview: Swyx and the learn in public movement](https://www.youtube.com/watch?v=tkBCPqWKCL8&t=69)

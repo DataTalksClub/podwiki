@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/translating-ml-predictions-int
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/machine-learning-decision-optimization.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=SJuzQ4bcU2c)
 - [Listen on Spotify](https://open.spotify.com/episode/42eAhI6F31DZ96Mnq2I4bJ)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/translating-ml-predictions-int
 
 How do you turn machine learning predictions into better real-world decisions—especially under uncertainty in supply chains and pricing? In this episode, Dan Becker, Founder & CEO of Decision AI and former Google data scientist and Product Director at DataRobot, walks through prescriptive analytics and decision optimization for practical business impact. With a background that includes top Kaggle performance and contributions to TensorFlow and Keras, Dan explains how to formulate optimization problems, choose.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Danbecker]({{ '/people/danbecker/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=SJuzQ4bcU2c&t=0)
 - 1:10 - [Introduction: Dan Becker and Decision Optimization Overview](https://www.youtube.com/watch?v=SJuzQ4bcU2c&t=70)

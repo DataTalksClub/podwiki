@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/data-strategy-key-principles-a
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/data-strategy-and-dataops-for-ai-powered-products.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=jGbfeYdlCiQ)
 - [Listen on Spotify](https://open.spotify.com/episode/7tITQ4nLypogRLUjjK75mx?si=722BlhoLSGuxZlE9ia7VhA)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/data-strategy-key-principles-a
 
 How do you turn AI ambitions into measurable, deliverable data products? In this episode Boyan Angelov — author of Elements of Data Strategy and leader of data strategy at Exxeta AG — walks through practical steps to make data strategy actionable for AI-powered products. Drawing on a decade across bioinformatics, clinical trials, HRTech, LegalTech and consulting, Boyan reframes data strategy as a flexible, outcome-focused plan and explains the due diligence needed to align business goals with feasible use cases.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Boyanangelov]({{ '/people/boyanangelov/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=jGbfeYdlCiQ&t=0)
 - 1:53 - [Guest Introduction & Current Role](https://www.youtube.com/watch?v=jGbfeYdlCiQ&t=113)

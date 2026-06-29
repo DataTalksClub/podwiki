@@ -15,4 +15,4 @@ Andrey Shtylenko is a Director of Engineering at Honeywell where he leads the Ad
 
 ## Podcast Discussions
 
-- [Building and Scaling Data Science Practice in Industrial Enterprises: AI Adoption, MLOps Maturity & Career Growth]({{ '/podcasts/building-and-scaling-data-science-practice-industrial-ai-mlops/' | relative_url }}). Related topics: [data science]({{ '/wiki/data-science/' | relative_url }}), industrial AI, ai adoption, [ai]({{ '/wiki/ai/' | relative_url }}), [MLOps]({{ '/wiki/mlops/' | relative_url }}).
+- [Building and Scaling Data Science Practice in Industrial Enterprises: AI Adoption, MLOps Maturity & Career Growth]({{ '/podcasts/building-and-scaling-data-science-practice-industrial-ai-mlops/' | relative_url }}). Discussed: Guest Introduction: Andrey Shtylenko, Honeywell; Career Journey: Startups, Organizational Development, and Honeywell; Honeywell Use Cases: Smart Sensors, Computer Vision, and Robotics; Defining Organizational Data and Machine Learning Practices. Related topics: [data science]({{ '/wiki/data-science/' | relative_url }}), industrial AI, ai adoption, [ai]({{ '/wiki/ai/' | relative_url }}), [MLOps]({{ '/wiki/mlops/' | relative_url }}).

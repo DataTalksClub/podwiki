@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/freelancing-and-consulting-wit
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/freelance-data-engineering-pricing-and-clients.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=9DTTrN-khCk)
 - [Listen on Spotify](https://open.spotify.com/episode/5M9HFWt8xmqf5HyGu40RmJ?si=C95h0CMkRiazs_ft8Z_gRg)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/freelancing-and-consulting-wit
 
 How do you price freelance data engineering work, win steady clients, and pick the right tools for messy production problems? In this episode, Adrian Brudaru — an economist-turned-business analyst who moved to Berlin, left corporate/startup cycles to freelance for five years, and now co-founds a data company releasing open source tooling — walks through a practical playbook for freelance data engineers.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Adrianbrudaru]({{ '/people/adrianbrudaru/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode Introduction](https://www.youtube.com/watch?v=9DTTrN-khCk&t=0)
 - 1:40 - [Guest Overview: Adrian’s Move to Freelancing](https://www.youtube.com/watch?v=9DTTrN-khCk&t=100)

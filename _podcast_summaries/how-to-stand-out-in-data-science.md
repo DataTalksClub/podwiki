@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/hacking-your-data-career-marij
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/how-to-stand-out-in-data-science.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=RhSg8ill1So)
 - [Listen on Spotify](https://open.spotify.com/episode/6oJsS0vhvAQasLNv3IklQ6)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/hacking-your-data-career-marij
 
 In this episode, Marijn Markus—AI Lead and Managing Data Scientist at Capgemini—shares how to stand out in data science by combining curiosity, courage, and creativity. From his unconventional background in sociology and criminology, Marijn explains how diverse teams outperform homogeneous ones, why proactive problem-solving matters, and how to challenge hierarchy with data-driven insights.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Marijnmarkus]({{ '/people/marijnmarkus/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode Introduction & Guest Welcome](https://www.youtube.com/watch?v=RhSg8ill1So&t=0)
 - 1:10 - [From Sociology to Data Science: Election Models, Social Media & Crime Research](https://www.youtube.com/watch?v=RhSg8ill1So&t=70)

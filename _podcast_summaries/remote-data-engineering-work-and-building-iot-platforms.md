@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/mastering-data-engineering-as-
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/remote-data-engineering-work-and-building-iot-platforms.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=UX7UShEioKc)
 - [Listen on Spotify](https://open.spotify.com/episode/2RLxjkPbUO3FBfFpKPHzls?si=TVveHW7PQcW7yGbOyJsJpg)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/mastering-data-engineering-as-
 
 What does it take to thrive as a remote data engineer — building IoT platforms, navigating international career moves, and leveraging writing for professional growth? In this episode, José María Sánchez Salas — a computer scientist turned data engineer and newsletter author — shares his journey from Spain to Norway and the realities of remote IoT platform work.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Josemaria]({{ '/people/josemaria/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=UX7UShEioKc&t=0)
 - 1:09 - [Episode Overview & Guest Introduction](https://www.youtube.com/watch?v=UX7UShEioKc&t=69)

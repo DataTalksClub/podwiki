@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/datatalks-club-anniversary-int
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/datatalksclub-building-sustainable-data-community-3-years-anniversary.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=nCqwZT9zA0M)
 - [Listen on Spotify](https://open.spotify.com/episode/0j1eKj9NbK3oAXHXHyaNae?si=M7rw9WixTvWw-BfKPXPwVg)
@@ -25,7 +27,16 @@ apple_url: "https://podcasts.apple.com/us/podcast/datatalks-club-anniversary-int
 
 How do you build a sustainable data community that endures beyond meetup hype and founder energy? In this episode Alexey Grigorev, founder of DataTalks.Club, and Johanna Bayer, a researcher about to complete her PhD in machine learning for clinical neuroimaging at the University of Melbourne, discuss three years of community growth and evolution.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Alexeygrigorev]({{ '/people/alexeygrigorev/' | relative_url }})
+- [Johannabayer]({{ '/people/johannabayer/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode Opening & DataTalks.Club 3rd Anniversary](https://www.youtube.com/watch?v=nCqwZT9zA0M&t=0)
 - 1:17 - [Career Shift: From Java Developer to Machine Learning & Python](https://www.youtube.com/watch?v=nCqwZT9zA0M&t=77)

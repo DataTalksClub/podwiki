@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/the-rise-of-mlops-theofilos-pa
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/mlops-kubeflow-model-monitoring.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=-i0fVp0ntYA)
 - [Listen on Spotify](https://open.spotify.com/episode/3YPvzGQnfxl7Mo1VKE0l1K)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/the-rise-of-mlops-theofilos-pa
 
 How do you build reliable, production-ready ML pipelines that detect model drift, monitor fairness, and trigger automated retraining? In this episode, Theofilos Papapanagiotou — a systems engineer with 20 years’ experience (from Unix engineering to ML engineering) now helping companies run ML workloads and a Kubeflow enthusiast — walks through practical MLOps strategies and tooling.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Theofilospapapanagiotou]({{ '/people/theofilospapapanagiotou/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=-i0fVp0ntYA&t=0)
 - 2:34 - [Episode Kickoff & Guest Overview](https://www.youtube.com/watch?v=-i0fVp0ntYA&t=154)

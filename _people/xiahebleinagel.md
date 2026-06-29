@@ -17,4 +17,4 @@ From full-time stay-at-home mom to Head of Data & Cloud, my journey has been one
 
 ## Podcast Discussions
 
-- [Reinventing a Career in Tech]({{ '/podcasts/s22e07-reinventing-career-in-tech/' | relative_url }}).
+- [Reinventing a Career in Tech]({{ '/podcasts/s22e07-reinventing-career-in-tech/' | relative_url }}). Related topics: [career transition]({{ '/wiki/career-transition/' | relative_url }}).

@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/the-entrepreneurship-journey-f
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/from-data-freelancer-to-startup-open-source-products.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=vOpEQiCsaLw)
 - [Listen on Spotify](https://open.spotify.com/episode/7wBmJHSXPHoW0mEIbNDgqr?si=z7klLtveT1ioGi6bg8hR7Q)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/the-entrepreneurship-journey-f
 
 How do you move from freelancing to building an open-source data company that wins via bottom-up adoption? In this episode Adrian Brudaru — an economics graduate who pivoted to business analysis in Berlin, then spent years freelancing before co-founding a data startup — walks through that transition and the practical tradeoffs he encountered.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Adrianbrudaru]({{ '/people/adrianbrudaru/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=vOpEQiCsaLw&t=0)
 - 1:53 - [Episode Overview: Building an Open-Source Data Company](https://www.youtube.com/watch?v=vOpEQiCsaLw&t=113)

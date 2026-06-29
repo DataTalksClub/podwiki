@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/technical-writing-and-data-jou
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/data-journalism-python-visualization-storytelling.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=uO_lk12q02A)
 - [Listen on Spotify](https://open.spotify.com/episode/38b2Y9KgxSFlIHPZ3jqheK?si=SPiURO1bTamVKrKV_laVDQ)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/technical-writing-and-data-jou
 
 How do you transform raw data into compelling, trustworthy journalism that readers can understand and act upon? In this episode, Angelica Lo Duca—researcher at the Institute of Informatics and Telematics (CNR) and Data Journalism professor at the University of Pisa—shares practical frameworks for data journalism covering sourcing, storytelling, visualization, and essential tools like Python and Tableau.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Angelicaloduca]({{ '/people/angelicaloduca/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=uO_lk12q02A&t=0)
 - 1:53 - [Guest Introduction: Angelica Lo Duca, researcher & professor](https://www.youtube.com/watch?v=uO_lk12q02A&t=113)

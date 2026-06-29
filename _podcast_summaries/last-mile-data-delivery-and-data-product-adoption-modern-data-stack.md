@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/conquering-the-last-mile-in-da
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/last-mile-data-delivery-and-data-product-adoption-modern-data-stack.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=HfMpG2zpa2I)
 - [Listen on Spotify](https://open.spotify.com/episode/6SGjBev8koFDRpDvLV76ZQ)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/conquering-the-last-mile-in-da
 
 How do you turn a powerful modern data stack into analytics people actually use? In this episode, Caitlin Moorman, VP of Data and Business Operations at Trove Recommerce and former data lead in crowdfunding and self-publishing, walks through the last-mile data delivery challenges that block adoption and offers practical approaches to build data products that drive decisions.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Caitlinmoorman]({{ '/people/caitlinmoorman/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode introduction & Locally Optimistic community](https://www.youtube.com/watch?v=HfMpG2zpa2I&t=0)
 - 4:40 - [Career journey: private equity to modern data stacks](https://www.youtube.com/watch?v=HfMpG2zpa2I&t=280)

@@ -10,181 +10,266 @@ related:
   - Open Source and Developer Relations
 ---
 
-## Definition and Scope
+Career transition is the archive's term for moving from one professional
+identity into another data or AI role. In the DataTalks.Club interviews, the
+transition is rarely a clean reset. Guests keep part of their earlier work and
+translate it into evidence for target roles such as
+[data science]({{ '/wiki/data-science/' | relative_url }}),
+[machine learning]({{ '/wiki/machine-learning/' | relative_url }}), or
+[analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }}).
+Other routes lead toward
+[data engineering]({{ '/wiki/data-engineering/' | relative_url }}) and
+[AI engineering]({{ '/wiki/ai-engineering-roadmap/' | relative_url }}).
 
-Career transition covers the archive's evidence on moving from one field or
-role into another data or AI role. The strongest episodes focus on people who
-move from project management, analytics, software engineering, QA, marketing,
-physics, academia, DevOps, design, career breaks, and freelance work into data
-science, data engineering, analytics engineering, ML engineering, AI
-engineering, or data product management.
+The archive treats transition as a proof problem. A transitioner needs a
+believable story, role-specific skills, and work samples that hiring teams can
+evaluate. The examples cover adjacent business roles and research careers. They
+also cover QA, software, academia, and career breaks.
 
-The archive treats transition as a proof problem. Career changers don't only
-need new tools. They need a believable bridge from prior work to the target
-role, projects that show applied skill, and enough hiring literacy to explain
-why their background helps rather than distracts.
+## Link Map
 
-
-## Recurring Archive Themes
-
-**Transferable skills need translation**
-
-Several guests already had useful skills before the transition. Project
-managers understood planning, stakeholder communication, and business KPIs.
-Analysts brought validation, EDA, and domain context. Software engineers brought
-coding, debugging, and deployment instincts. QA engineers brought testing
-discipline. Product designers brought customer research and UX habits.
-
-Those skills only help when candidates translate them into the language of the
-target role. The archive repeatedly shows candidates moving from "I have done
-similar work" to "here is the exact problem I can solve."
-
-**Projects beat passive study**
-
-Courses appear throughout the transition episodes, but guests use them as
-inputs to projects. Hiring teams get stronger evidence from Kaggle notebooks,
-deployed ML projects, data pipelines, dbt migrations, GitHub notes, cloud
-exercises, open-source work, and product case studies.
-
-The portfolio signal gets stronger when the project includes a README, data
-story, reproducible code, deployment detail, business context, or a clear
-account of tradeoffs. Tutorial copies help less because they don't show role
-judgment.
-
-**Internal moves lower the trust barrier**
-
-Several transitions happen inside or near the person's existing context:
-marketing to BI and analytics engineering, product design to data product
-management, analyst to data science, and project manager to data analyst before
-ML. Internal moves let career changers reuse domain knowledge, stakeholder
-trust, and team access while they build missing technical skills.
-
-**Production literacy separates classroom ML from work**
-
-Episodes on software-to-ML, postdoc-to-data-science, QA-to-ML, and physics-to-CV
-all point toward engineering habits. Guests name Git, tests, Docker, APIs,
-cloud basics, pipelines, deployment, monitoring, and clean code. The archive
-doesn't require every transitioner to become a platform engineer, but it treats
-production literacy as a major differentiator.
-
-**Community creates feedback and opportunities**
-
-Meetups, DataTalks.Club courses, Kaggle, OpenDataScience, dbt Slack, mentors,
-public writing, and open-source communities recur as transition infrastructure.
-They help people choose a path, get feedback, learn interview norms, and become
-visible before a formal application.
-
-## Transition Patterns
-
-The archive shows several repeatable transition routes:
-
-**Adjacent-domain path**
-
-The person starts in a nearby role and adds data depth. Examples include project
-management to data analysis to ML, marketing to analytics engineering, product
-design to data product management, and analytics to data science. This path uses
-domain knowledge as the first proof point.
-
-**Engineering-to-ML path**
-
-The person already knows software or infrastructure and adds ML concepts,
-modeling practice, and data workflows. The archive frames coding and systems
-thinking as real ML skills, especially for ML engineering, AI engineering, and
-data engineering roles.
-
-**Academia-to-industry path**
-
-The person brings research depth, statistics, simulation, domain modeling, or
-scientific programming. The missing pieces are often product framing,
-deployment, interview practice, business language, and concise communication.
-See [Academia]({{ '/wiki/academia/' | relative_url }}) for the fuller archive
-view.
-
-**Career-break or restart path**
-
-Career-break episodes emphasize confidence, modern tooling, project evidence,
-and an updated story. Career returners rebuild with small shipping projects
-instead of waiting until every skill feels current.
-
-**Independent-practice path**
-
-Freelance and consultant transitions add a business layer. The person must prove
-technical competence and market demand. Episodes about freelance data
-engineering and academic research to consulting stress runway, referrals,
-specialization, and small paid proofs of value.
-
-## Episode Evidence
-
-Representative episodes:
-
-- **[From Project Manager to Data Scientist](https://datatalks.club/podcast.html):**
-  at 6:54, the transition moves from data analysis toward ML. At 22:32,
-  PM skills become planning, stakeholder, and KPI advantages. At 32:43,
-  data analyst work appears as a first job target. At 41:07, Git, testing,
-  Docker, deployment, and clean code become production-readiness gaps.
-- **[Career Transition from Analytics to Data Science](https://datatalks.club/podcast.html):**
-  at 14:26, Kaggle becomes the main practice environment. At 18:09,
-  mentorship comes through Kaggle visibility. At 32:14, notebooks, GitHub,
-  and portfolio work help show practical skill. At 36:41, analyst skills
-  translate into validation, domain knowledge, and EDA.
-- **[From Software Engineering to Machine Learning](https://datatalks.club/podcast.html):**
-  at 6:33, coding is framed as a core ML skill. At 17:25, the guest
-  recommends starting projects instead of overpreparing. At 27:58,
-  candidates are told to build and share real projects. At 46:39, ML
-  engineering expands into data pipelines, modeling, deployment, and monitoring.
-- **[From Postdoc to Data Science Lead](https://datatalks.club/podcast.html):**
-  at 3:16, genomics and Bash appear as data science practice. At 6:10,
-  deployment, Docker, and Python are named as gaps. At 17:14, the CV is
-  rewritten around skills and keywords. At 40:02, publications are contrasted
-  with portfolio relevance.
-- **[Marketing to Analytics Engineering](https://datatalks.club/podcast.html):**
-  at 7:18, the career pivot starts with BI and analytics. At 9:53,
-  conversations with the BI team identify required skills. At 14:14, the
-  transition happens through BI projects alongside marketing work. At 41:50,
-  the playbook is Excel, SQL, dashboards, and small projects.
-- **[Transition from QA to Machine Learning and Data Engineering](https://datatalks.club/podcast.html):**
-  at 8:35, the pivot starts after leaving QA. At 17:57, CV redesign and
-  soft-skill work become part of the job search. At 24:57, Zoomcamp projects
-  provide EDA and image-classification evidence. At 28:52, the guest learns to
-  present projects factually instead of underselling them.
-- **[How to Transition from Design to Data Product Manager](https://datatalks.club/podcast.html):**
-  at 7:04, customer discovery and hypotheses define the target role. At 23:00,
-  SQL and data engineering fundamentals are named as technical gaps. At 28:30,
-  networking, on-the-job learning, and mentorship form the transition strategy.
-  At 35:51, portfolio case studies use problem, research, solution, and outcome.
-- **[Switch to Computer Vision and Deep Learning](https://datatalks.club/podcast.html):**
-  at 2:32, maternity leave, courses, and an internship trigger the transition.
-  At 15:56, Kaggle teammates and papers build practice. At 46:40, end-to-end
-  projects include data collection, labeling, deployment, and Docker. At
-  1:04:34, interview preparation includes LeetCode, mock interviews, and
-  system design.
-- **[How to Become an AI Engineer After a Career Break](https://datatalks.club/podcast.html):**
-  current AI tools help a returner prototype, rebuild confidence, and create
-  fresh project evidence after time away from the field.
-
-## Guest Experts
-
-These guests anchor the page:
-
-- Luke Whipps connects transition stories to recruiter expectations, CV
-  readability, portfolios, interviews, and role fit.
-- Tereza Iofciu adds the role-mismatch view: candidates need to ask whether a
-  job title, team, and data maturity level match the work they want.
-- Tatiana Gabruseva contributes two transition arcs: physics to computer vision
-  and academia to staff AI engineering.
-- Nikola Ilic shows how marketing domain knowledge can support analytics
-  engineering.
-- Fahmi Nurfikri shows a QA-to-ML/data engineering transition where project
-  presentation and interview confidence matter as much as courses.
-
-## Related Pages
-
-Use these pages for nearby archive threads:
+Use these wiki routes for the main transition paths:
 
 - [Career Growth]({{ '/wiki/career-growth/' | relative_url }})
 - [Job Search]({{ '/wiki/job-search/' | relative_url }})
 - [Hiring]({{ '/wiki/hiring/' | relative_url }})
-- [Academia]({{ '/wiki/academia/' | relative_url }})
-- [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
-- [Open Source and Developer Relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }})
+- [Academic Researcher to Data Science]({{ '/wiki/academic-researcher-to-data-science/' | relative_url }})
+- [Software Engineer to Machine Learning]({{ '/wiki/software-engineer-to-machine-learning/' | relative_url }})
+- [QA to ML and Data Engineering]({{ '/wiki/qa-to-ml-and-data-engineering/' | relative_url }})
+- [Marketing to Analytics Engineering]({{ '/wiki/marketing-to-analytics-engineering/' | relative_url }})
 - [Career Transitions in Data]({{ '/wiki/career-transitions-in-data/' | relative_url }})
+
+These podcast interviews anchor the page:
+
+- [From Project Manager to Data Scientist]({{ '/podcasts/project-manager-to-data-scientist/' | relative_url }})
+- [From Postdoc to Data Science Lead]({{ '/podcasts/postdoc-to-data-science-lead-career-transition/' | relative_url }})
+- [From Software Engineering to Machine Learning]({{ '/podcasts/from-software-engineer-to-machine-learning/' | relative_url }})
+- [Transition from QA to Machine Learning and Data Engineering]({{ '/podcasts/how-to-transition-into-ml-and-data-engineering-from-qa/' | relative_url }})
+- [Marketing to Analytics Engineering]({{ '/podcasts/from-marketing-to-analytics-engineering-sql-dbt-career-switch/' | relative_url }})
+- [From Academia to Staff AI Engineer]({{ '/podcasts/from-academia-to-staff-ai-engineer-interviews-and-career-growth/' | relative_url }})
+- [How to Become an AI Engineer After a Career Break]({{ '/podcasts/s23e04-how-to-become-ai-engineer-after-career-break/' | relative_url }})
+
+These guests provide the main archive examples:
+
+- [Ksenia Legostay]({{ '/people/ksenialegostay/' | relative_url }})
+- [CJ Jenkins]({{ '/people/cjjenkins/' | relative_url }})
+- [Santiago Valdarrama]({{ '/people/svpino/' | relative_url }})
+- [Alvaro Navas Peire]({{ '/people/alvaronavaspeire/' | relative_url }})
+- [Nikola Maksimovic]({{ '/people/nikolamaksimovic/' | relative_url }})
+- [Tatiana Gabruseva]({{ '/people/tatianagabruseva/' | relative_url }})
+- [Revathy Ramalingam]({{ '/people/revathyramalingam/' | relative_url }})
+
+## Common Definition
+
+Across the archive, a career transition means making prior experience legible
+for a target role. In
+[From Project Manager to Data Scientist]({{ '/podcasts/project-manager-to-data-scientist/' | relative_url }}),
+Ksenia Legostay starts from project management, product decisions, and customer
+thinking. She then moves through data analysis into ML. Her transition advice is
+to assess strengths and target gaps. She treats programming, statistics, and
+domain expertise as the core skill set behind the data scientist title.
+
+The archive also converges on artifacts over passive study. In
+[From Software Engineering to Machine Learning]({{ '/podcasts/from-software-engineer-to-machine-learning/' | relative_url }}),
+Santiago Valdarrama frames the move as adding ML to an existing software
+skillset. He pushes candidates to start projects and share work. The math and
+tooling follow from actual problems.
+
+In the [QA transition episode]({{ '/podcasts/how-to-transition-into-ml-and-data-engineering-from-qa/' | relative_url }}),
+Alvaro Navas Peire's Zoomcamp projects and cloud exercises become more
+persuasive than a list of courses. His GitHub notes and interview coaching add
+more hiring evidence.
+
+The strongest transition stories connect old context to new evidence. In
+[Marketing to Analytics Engineering]({{ '/podcasts/from-marketing-to-analytics-engineering-sql-dbt-career-switch/' | relative_url }}),
+Nikola Maksimovic turns performance marketing and campaign metrics into an
+internal path through BI. Looker reporting becomes part of the same bridge.
+
+In the [career-break AI engineering episode]({{ '/podcasts/s23e04-how-to-become-ai-engineer-after-career-break/' | relative_url }}),
+Revathy Ramalingam returns from a seven-year break by reusing software and
+telecom experience in an ML capstone. Her hiring evidence includes a GitHub
+portfolio, a deployed project, and a RAG take-home assignment.
+
+## Disagreements and Boundaries
+
+The archive doesn't present one universal route. Formal education helps in
+some stories and is optional in others. In
+[From Project Manager to Data Scientist]({{ '/podcasts/project-manager-to-data-scientist/' | relative_url }}),
+Ksenia's path includes a degree in data analysis and structured coursework. In
+[From Software Engineering to Machine Learning]({{ '/podcasts/from-software-engineer-to-machine-learning/' | relative_url }}),
+Santiago emphasizes problem-first learning and project work for software
+engineers.
+
+CJ Jenkins used a one-year learning plan and repeated CV iterations in the
+[postdoc transition interview]({{ '/podcasts/postdoc-to-data-science-lead-career-transition/' | relative_url }}),
+but the important signal wasn't the certificate alone. It was the translation
+of research work into an industry data-science story. Genomics and statistics
+became part of that story. So did Bash, R, Python, and SQL.
+
+Guests also differ on target role. Alvaro's QA transition separates
+math-heavy research ML from tooling-focused data engineering in
+[Transition from QA to Machine Learning and Data Engineering]({{ '/podcasts/how-to-transition-into-ml-and-data-engineering-from-qa/' | relative_url }}).
+Nikola's marketing route stays SQL-first and BI-centered before it becomes
+dbt-style analytics engineering in
+[Marketing to Analytics Engineering]({{ '/podcasts/from-marketing-to-analytics-engineering-sql-dbt-career-switch/' | relative_url }}).
+
+Tatiana's staff-level route in
+[From Academia to Staff AI Engineer]({{ '/podcasts/from-academia-to-staff-ai-engineer-interviews-and-career-growth/' | relative_url }})
+adds a different boundary. Senior transitions must prove leadership and
+roadmapping. They also need system design and cross-functional judgment, not
+only modeling ability.
+
+The boundary around motivation is important. The podcast examples aren't
+"follow your curiosity and jobs appear." They show curiosity plus scoped proof.
+That proof can be Kaggle notebooks, BI side projects, or Docker deployment
+practice.
+
+It can also be a telecom ML capstone, a PDF Q&A assistant, mock interviews,
+and referrals. Rewritten CVs are another recurring proof artifact.
+The related [Job Search]({{ '/wiki/job-search/' | relative_url }}) and
+[Hiring]({{ '/wiki/hiring/' | relative_url }}) pages cover the recruiting side
+of that proof.
+
+## Adjacent Role Transitions
+
+Adjacent transitions use domain trust first, then add technical depth. Ksenia's
+project-manager path starts with decisions, stakeholders, and KPIs. It then
+moves through analytics toward forecasting and fraud/anomaly detection in
+[From Project Manager to Data Scientist]({{ '/podcasts/project-manager-to-data-scientist/' | relative_url }}).
+
+The practical route isn't to claim "data scientist" immediately. It's to do
+analysis at work, build a portfolio, and use frameworks such as CRISP-DM. It
+also means learning production habits. The examples in the episode include Git
+and testing. Docker, deployment, and clean code matter too.
+
+Nikola's path is the analytics-engineering version of the same idea. In
+[Marketing to Analytics Engineering]({{ '/podcasts/from-marketing-to-analytics-engineering-sql-dbt-career-switch/' | relative_url }}),
+performance marketing gives her quick feedback loops, campaign metrics, and
+funnel knowledge.
+
+The transition starts with reporting and Looker, then conversations with the BI
+team define advanced SQL and pipeline basics as the next gaps. Later work
+includes dbt migration and data modeling. It then adds LookML, product
+analytics, and A/B testing. See
+[Marketing to Analytics Engineering]({{ '/wiki/marketing-to-analytics-engineering/' | relative_url }})
+for the deeper route.
+
+## Engineering Backgrounds
+
+Software and QA backgrounds transfer when candidates show that their engineering
+habits apply to data systems. Santiago explicitly reframes software-to-ML as
+adding machine learning to an existing engineering skillset in
+[From Software Engineering to Machine Learning]({{ '/podcasts/from-software-engineer-to-machine-learning/' | relative_url }}).
+
+The roadmap starts with coding, problem analysis, and real projects. It then
+adds Python data tools such as NumPy, Pandas, and scikit-learn. The engineering
+side includes data pipelines and deployment. It also includes monitoring, APIs,
+Docker, and cloud providers. That connects directly to
+[MLOps]({{ '/wiki/mlops/' | relative_url }})
+and [Machine Learning Infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }}).
+
+Alvaro's QA transition adds a testing lens. In the
+[QA transition episode]({{ '/podcasts/how-to-transition-into-ml-and-data-engineering-from-qa/' | relative_url }}),
+phone prototype testing and checklists become transferable habits. Firmware
+validation and reports help with project communication.
+
+The missing pieces are role-specific: Python and ML for modeling work, plus SQL
+and pipelines for data engineering. Cloud familiarity helps in interviews, and
+the CV has to make QA experience relevant. His advice to present projects
+factually rather than
+underselling them is a useful [Job Search]({{ '/wiki/job-search/' | relative_url }})
+lesson for nontraditional candidates.
+
+## Academia and Research Transitions
+
+Academic transitions work when research is translated into industry proof. In
+[From Postdoc to Data Science Lead]({{ '/podcasts/postdoc-to-data-science-lead-career-transition/' | relative_url }}),
+CJ Jenkins explains that evolutionary biology gave her statistics, population
+dynamics, and experimental thinking. It also gave her large genomics files,
+Bash, and data cleaning. The gaps were deployment, APIs, Docker, and Python
+production habits. Clean code, CV keywords, and concise industry communication
+mattered too.
+
+Publications helped less than skills-first evidence that a hiring team could
+map to data-science work.
+
+Tatiana Gabruseva's later staff-level episode shows the advanced version. In
+[From Academia to Staff AI Engineer]({{ '/podcasts/from-academia-to-staff-ai-engineer-interviews-and-career-growth/' | relative_url }}),
+she describes physics and healthcare research as a base for ML leadership. The
+industry move still required onboarding into Scala, Spark, and Kubernetes. It
+also required large-scale recommender systems, quarterly planning, faster
+decisions, and referrals.
+
+The hiring side required coding prep and ML design practice. System design,
+mock interviews, and mentorship mattered too. That's why
+[Academia]({{ '/wiki/academia/' | relative_url }})
+and [Staff AI Engineer]({{ '/wiki/staff-ai-engineer/' | relative_url }}) are
+adjacent pages rather than synonyms.
+
+## Career Breaks and Restarts
+
+Career-break transitions need current evidence and a clear story about the gap.
+In the
+[career-break AI engineering episode]({{ '/podcasts/s23e04-how-to-become-ai-engineer-after-career-break/' | relative_url }}),
+Revathy Ramalingam starts from nine years of software and telecom experience.
+
+After a seven-year maternity break, interviews show her that current roles now
+expect Docker, Kubernetes, and Python. They also expect ML and AI tooling. Her
+restart combines structured DataTalks.Club courses, community help, and
+learning in public. It also includes a telecom network slice prediction
+capstone. A working AI Dev Tools project and a PDF Q&A assistant support the
+take-home interview.
+
+For career returners, the lesson isn't "catch up on everything." They should
+choose a target, make a plan, and build visible projects. They should explain
+the break honestly, then show enough current practice that the prior experience
+becomes an advantage again.
+
+Revathy's new role also illustrates a modern AI-engineering boundary. RAG and
+chunking are part of the job after hiring. Retrieval quality, ChromaDB, and
+LangChain are part of that work too. Hallucination risk and guardrails also
+matter. Projects need to go beyond prompts and show working systems.
+
+## Portfolio and Hiring Proof
+
+Portfolio proof is consistent across episodes. Ksenia references applying
+analysis at work and Kaggle practice in
+[From Project Manager to Data Scientist]({{ '/podcasts/project-manager-to-data-scientist/' | relative_url }}).
+She also names production readiness as part of the transition.
+Santiago tells software engineers to build and share real projects in
+[From Software Engineering to Machine Learning]({{ '/podcasts/from-software-engineer-to-machine-learning/' | relative_url }}).
+
+Alvaro's notes and Zoomcamp projects matter in
+[Transition from QA to Machine Learning and Data Engineering]({{ '/podcasts/how-to-transition-into-ml-and-data-engineering-from-qa/' | relative_url }}).
+So do cloud deployments and project narration. Revathy's GitHub profile and live
+project demo matter in
+[How to Become an AI Engineer After a Career Break]({{ '/podcasts/s23e04-how-to-become-ai-engineer-after-career-break/' | relative_url }}).
+Coding questions and the RAG assignment matter too.
+
+Good transition evidence usually has four parts:
+
+- a role-shaped problem
+- a reproducible artifact
+- a plain explanation of tradeoffs
+- a link from old experience to new work
+
+That's why the archive favors
+[Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}),
+[Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }}),
+and [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
+over tutorial completion alone.
+
+## Related Pages
+
+Use these pages for adjacent routes, hiring context, and portfolio evidence:
+
+- [Career Transitions in Data]({{ '/wiki/career-transitions-in-data/' | relative_url }})
+- [Career Growth]({{ '/wiki/career-growth/' | relative_url }})
+- [Job Search]({{ '/wiki/job-search/' | relative_url }})
+- [Hiring]({{ '/wiki/hiring/' | relative_url }})
+- [Academic Researcher to Data Science]({{ '/wiki/academic-researcher-to-data-science/' | relative_url }})
+- [Software Engineer to Machine Learning]({{ '/wiki/software-engineer-to-machine-learning/' | relative_url }})
+- [QA to ML and Data Engineering]({{ '/wiki/qa-to-ml-and-data-engineering/' | relative_url }})
+- [Marketing to Analytics Engineering]({{ '/wiki/marketing-to-analytics-engineering/' | relative_url }})
+- [AI Engineering Roadmap]({{ '/wiki/ai-engineering-roadmap/' | relative_url }})
+- [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})

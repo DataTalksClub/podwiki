@@ -15,4 +15,4 @@ Stefan Gudmundsson is known for turning advanced machine learning into real worl
 
 ## Podcast Discussions
 
-- [AI in Healthcare & Digital Therapeutics: Building Data Teams, Personalization, A/B Testing & Ethics]({{ '/podcasts/ai-in-healthcare-and-digital-therapeutics/' | relative_url }}). Related topics: [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), healthcare.
+- [AI in Healthcare & Digital Therapeutics: Building Data Teams, Personalization, A/B Testing & Ethics]({{ '/podcasts/ai-in-healthcare-and-digital-therapeutics/' | relative_url }}). Discussed: Career Snapshot: Developer to AI & Data Leader; Building AI Teams at King and H&M; Machine Learning in Healthcare: Diagnosis, Drug Discovery & AlphaFold; Sidekick Health Overview: Gamified Digital Therapeutics & Quality-of-Life. Related topics: [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), healthcare.

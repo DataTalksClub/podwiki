@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/data-science-for-social-impact
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/data-science-for-public-policy-ethical-ai-social-impact.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=xWC1HAfekRk)
 - [Listen on Spotify](https://open.spotify.com/episode/7fzBhDrfVfylnBLCJGwUHC?si=3b03d59083804346)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/data-science-for-social-impact
 
 How can data science meaningfully shape public policy without becoming a tech-first solution or creating new ethical harms? In this episode, Christine Cepelak, a writer and researcher of tech and social issues who’s studying Data Science for Public Policy and has years of experience managing social programs, walks through the practical realities of data science for public policy. We cover career paths and sector differences, a community organizing case study on electronics recycling, and real-world use cases like.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Christinecepelak]({{ '/people/christinecepelak/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode Intro & Guest Christine Cepelak](https://www.youtube.com/watch?v=xWC1HAfekRk&t=0)
 - 1:33 - [Career Journey: Program Management to Data Science for Public Policy](https://www.youtube.com/watch?v=xWC1HAfekRk&t=93)

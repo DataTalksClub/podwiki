@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-data-manager-to-data-arch
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/from-iot-data-engineering-to-leading-data-architect.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=qWG--iYO2uc)
 - [Listen on Spotify](https://open.spotify.com/episode/7twXPni1q2RJQU2jjbCGty?si=KNCEy-0ZRrWDVchFsDCHjQ)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-data-manager-to-data-arch
 
 What does it take to evolve from hands-on IoT data engineering to leading data architecture — building scalable pipelines, adapting to cloud platforms, and designing analytics models that serve entire organizations? In this episode, Loïc Magnien, Lead Data at Mylight150 with a decade spanning database management, data engineering, product ownership and architecture, shares his real-world journey from managing sensor data to architecting enterprise-scale data systems.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Loicmagnien]({{ '/people/loicmagnien/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=qWG--iYO2uc&t=0)
 - 1:45 - [Career overview: From data manager to data lead](https://www.youtube.com/watch?v=qWG--iYO2uc&t=105)

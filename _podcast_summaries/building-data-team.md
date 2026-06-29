@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/building-a-data-science-team-d
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/building-data-team.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=ScDIB-3O77A)
 - [Listen on Spotify](https://open.spotify.com/episode/0daFpY1z2J4Uop1XdMNsnY)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/building-a-data-science-team-d
 
 How do you build and scale an ML team that delivers product-driven AI without getting bogged down by tech debt or false promises? In this episode, Dat Tran — Partner & CTO at DATANOMIQ and former AI lead at Axel Springer, idealo, and Pivotal — walks through practical strategies for hiring, MLOps, and shaping data teams for startups.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Dattran]({{ '/people/dattran/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=ScDIB-3O77A&t=0)
 - 2:06 - [Guest Overview & Career Snapshot](https://www.youtube.com/watch?v=ScDIB-3O77A&t=126)

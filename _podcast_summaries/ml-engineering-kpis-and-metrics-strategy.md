@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/defining-success-metrics-and-k
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/ml-engineering-kpis-and-metrics-strategy.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=H4P2RfKvXGs)
 - [Listen on Spotify](https://open.spotify.com/episode/5kTD7LjoXos1fm2LPD7nJc)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/defining-success-metrics-and-k
 
 How do you design KPIs that prioritize real impact, avoid vanity metrics, and actually prove ROI? In this episode, Dr. Adam Sroka — Head of Machine Learning Engineering at Origami Energy, with a background from a Physics PhD to data science, reinforcement learning, and consultancy — walks through a practical metrics strategy for data and product teams.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Adamsroka]({{ '/people/adamsroka/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=H4P2RfKvXGs&t=0)
 - 1:30 - [Guest Introduction & Career Path](https://www.youtube.com/watch?v=H4P2RfKvXGs&t=90)

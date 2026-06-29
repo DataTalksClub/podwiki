@@ -16,4 +16,4 @@ Born in Argentina, graduated in Systems Engineering, currently working as an Ana
 
 ## Podcast Discussions
 
-- [Master Analytics Engineering: Skills, Toolstack, Career Roadmap]({{ '/podcasts/analytics-engineer-skills-tools/' | relative_url }}). Related topics: [analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }}).
+- [Master Analytics Engineering: Skills, Toolstack, Career Roadmap]({{ '/podcasts/analytics-engineer-skills-tools/' | relative_url }}). Discussed: Guest Introduction: Victoria Perez Mola overview; Career Journey: Systems engineering, ERP & finance reporting; Daily Responsibilities: Data modeling, pipelines, data quality, Looker; DBT Overview: SQL transformations, version control, tests, DAG. Related topics: [analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }}).

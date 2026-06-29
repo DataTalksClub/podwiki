@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-hackathons-to-developer-a
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/practical-devrel-demofirst-education-and-open-source.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=vXbMUfHE1OE)
 - [Listen on Spotify](https://open.spotify.com/episode/4Lt785S38GuK0W2m7naRKt)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-hackathons-to-developer-a
 
 How do developer advocates create measurable community impact while balancing technical leadership, mentorship, and clear communication? In this episode Will Russell, Developer Advocate at Kestra, explores that question through the lens of workflow orchestration and developer education. Will is known for his technical video content on workflow orchestration and for building open source education programs that help new contributors make their first pull requests.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Willrussell]({{ '/people/willrussell/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode Opening & Guest Overview](https://www.youtube.com/watch?v=vXbMUfHE1OE&t=0)
 - 3:21 - [Video Production Setup: Camera, Lens & Webcam Workflow](https://www.youtube.com/watch?v=vXbMUfHE1OE&t=201)

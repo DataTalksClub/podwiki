@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/stock-market-analysis-with-pyt
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/algorithmic-trading-with-python-and-machine-learning.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=NThHAEIazFk)
 - [Listen on Spotify](https://open.spotify.com/episode/1ZXAeGr4Kx7F6oLQUip8Cc?si=KJwpYL-3SvuX8nPdc2cyOg)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/stock-market-analysis-with-pyt
 
 How do you turn a trading idea into a robust, risk-managed algorithm in Python? In this episode Ivan Brigida — analytics lead behind PythonInvest with 10+ years in statistical modeling, forecasting, econometrics and finance — walks through practical steps for algorithmic trading with Python, from data sourcing to deployment (and a clear reminder this is educational, not investment advice).
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Ivanbrigida]({{ '/people/ivanbrigida/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=NThHAEIazFk&t=0)
 - 1:35 - [Guest Introduction: Ivan Brigida — Analytics Lead & PythonInvest](https://www.youtube.com/watch?v=NThHAEIazFk&t=95)

@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/leading-data-research-david-ba
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/building-data-science-programs-and-democratizing-high-performance-computing.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=vZLlpsUlchQ)
 - [Listen on Spotify](https://open.spotify.com/episode/7DmFWFHUwxx4Wf0X6GbKBf?si=2DW0G2EMQ7ebB9K60LfJyQ)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/leading-data-research-david-ba
 
 How do you build effective data science programs, democratize high-performance computing, and scale graph analytics so researchers and practitioners can solve real-world problems? In this episode, David Bader — Director of the Institute for Data Science at NJIT, founder of NJIT’s Department of Data Science, and a distinguished professor with deep expertise in HPC, big data, and analytics — walks through his career, leadership in launching academic units, and practical lessons for curriculum design and regional.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Davidbader]({{ '/people/davidbader/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=vZLlpsUlchQ&t=0)
 - 1:47 - [Guest Intro: David Bader — NJIT Institute for Data Science, research focus](https://www.youtube.com/watch?v=vZLlpsUlchQ&t=107)

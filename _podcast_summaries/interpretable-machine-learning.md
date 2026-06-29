@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/cracking-the-code-machine-lear
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/interpretable-machine-learning.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=LBuGzyOkx7c)
 - [Listen on Spotify](https://open.spotify.com/episode/3SjDB0E2of9IS9TXn2Fof3?si=FwWH99FGTgmL1OGI3-sLAg)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/cracking-the-code-machine-lear
 
 How can you reliably trust a machine learning model’s predictions in real-world settings? In this episode Christoph Molnar — statistician, machine learner, and author of Interpretable Machine Learning — walks through practical approaches for building model trust. Drawing on his experience from Kaggle competitions to authoring a technical book, Christoph explains the trade-offs between interpretability and accuracy and shows how interpretability techniques help debug models.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Christophmolnar]({{ '/people/christophmolnar/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=LBuGzyOkx7c&t=0)
 - 0:42 - [Guest Intro: Christoph Molnar, Interpretable ML Author](https://www.youtube.com/watch?v=LBuGzyOkx7c&t=42)

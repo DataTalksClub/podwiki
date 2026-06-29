@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/community-building-and-teachin
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/community-building-and-teaching-in-ai-tech.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=7SLd5V7z3xQ)
 - [Listen on Spotify](https://open.spotify.com/episode/4iAvz4Qu0l28fxXvaHdAPj?si=7MdKKu1fTrqxIGPQBT61Ag)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/community-building-and-teachin
 
 How can communities turn real-world AI projects into repeatable courses that scale learning and careers? In this episode Erum Afzal — lead ML engineer, PhD researcher in AI for teacher training, and head of Omdena Academy — walks through a project-to-course model for AI education rooted in community collaboration.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Erumafzal]({{ '/people/erumafzal/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=7SLd5V7z3xQ&t=0)
 - 1:25 - [Guest Introduction: Erum Afzal — AI for education & Omdena Academy](https://www.youtube.com/watch?v=7SLd5V7z3xQ&t=85)

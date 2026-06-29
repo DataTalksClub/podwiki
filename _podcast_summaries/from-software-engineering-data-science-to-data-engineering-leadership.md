@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-data-science-to-data-engi
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/from-software-engineering-data-science-to-data-engineering-leadership.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=3TTu-hYzxeg)
 - [Listen on Spotify](https://open.spotify.com/episode/4R9F5B4f8vf5r5yQEmwYiu)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-data-science-to-data-engi
 
 In this episode, Ellen König—Head of Engineering at alcemy—shares her journey from software and data science to data engineering leadership. She explains why many professionals make the switch, the skills that matter most (from DevOps and CI/CD to collaboration), and how to prepare through side projects and software fundamentals.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Ellenkonig]({{ '/people/ellenkonig/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode Introduction & Guest Overview](https://www.youtube.com/watch?v=3TTu-hYzxeg&t=0)
 - 1:51 - [Career Narrative: From Backend Developer to Data Engineering Lead](https://www.youtube.com/watch?v=3TTu-hYzxeg&t=111)

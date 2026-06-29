@@ -15,4 +15,4 @@ Nasser Qadri is an AI Engineer at Google. Previously, he held data science leade
 
 ## Podcast Discussions
 
-- [Understanding the AI Engineer Role]({{ '/podcasts/s23e07-understanding-ai-engineer-role/' | relative_url }}).
+- [Understanding the AI Engineer Role]({{ '/podcasts/s23e07-understanding-ai-engineer-role/' | relative_url }}). Discussed: Transitioning from Social Science to Software Engineering; Applying Statistical Rigor to Generative AI Evaluation; Balancing Research Mindsets with Engineering Speed; Comparing AI Roles in Big Tech vs Startups. Related topics: [software engineering]({{ '/wiki/software-engineering/' | relative_url }}), [generative ai]({{ '/wiki/generative-ai/' | relative_url }}), ai engineer, [llms]({{ '/wiki/llms/' | relative_url }}), [orchestration]({{ '/wiki/orchestration/' | relative_url }}), [search]({{ '/wiki/search/' | relative_url }}).

@@ -15,12 +15,26 @@ from podcast_source_data import DEFAULT_PODCAST_SOURCE, DEFAULT_PEOPLE_SOURCE, R
 DEFAULT_OUTPUT = ROOT / "artifacts" / "podcast" / "source-index.json"
 DEFAULT_AGENT_OUTPUT = ROOT / ".tmp" / "podcast-source-index.json"
 STOPWORDS = {
+    "a",
+    "about",
     "and",
+    "are",
+    "at",
+    "by",
     "for",
     "from",
+    "in",
     "into",
-    "with",
+    "is",
+    "of",
+    "on",
+    "or",
+    "s",
     "the",
+    "to",
+    "vs",
+    "versus",
+    "with",
     "how",
     "what",
     "why",
@@ -33,6 +47,84 @@ STOPWORDS = {
     "closing",
     "resources",
 }
+FILLER_TOPIC_WORDS = {
+    "background",
+    "brought",
+    "closing",
+    "checkpoint",
+    "event",
+    "everyone",
+    "guest",
+    "intro",
+    "introduction",
+    "transcript",
+    "podcast",
+    "q&a",
+    "questions",
+    "resources",
+    "welcome",
+}
+KNOWN_ARCHIVE_TOPICS = [
+    "a/b testing",
+    "academic research",
+    "ai engineering",
+    "ai engineer",
+    "ai infrastructure",
+    "analytics engineering",
+    "career break",
+    "career growth",
+    "career transition",
+    "causal inference",
+    "cloud governance",
+    "community building",
+    "computer vision",
+    "data engineering",
+    "data governance",
+    "data mesh",
+    "data observability",
+    "data product",
+    "data quality",
+    "data science",
+    "data strategy",
+    "data teams",
+    "dataops",
+    "developer relations",
+    "embeddings",
+    "experimentation",
+    "feature store",
+    "freelance",
+    "generative ai",
+    "hiring",
+    "job search",
+    "knowledge graphs",
+    "leadership",
+    "llm evaluation",
+    "llmops",
+    "llms",
+    "machine learning",
+    "ml engineering",
+    "ml platform",
+    "mlops",
+    "model monitoring",
+    "open source",
+    "orchestration",
+    "portfolio",
+    "privacy",
+    "product analytics",
+    "product management",
+    "rag",
+    "reproducibility",
+    "retrieval",
+    "search",
+    "software engineering",
+    "team building",
+    "technical writing",
+    "vector databases",
+]
+TOPIC_ALIASES = {
+    "open-source": "open source",
+    "retrieval augmented generation": "retrieval-augmented generation",
+}
 
 
 def slugify(value: str) -> str:
@@ -41,22 +133,67 @@ def slugify(value: str) -> str:
     return value.strip("-")
 
 
+def normalize_topic(value: str) -> str:
+    topic = re.sub(r"\s+", " ", value.strip().lower())
+    topic = topic.replace(" & ", " and ")
+    return TOPIC_ALIASES.get(topic, topic)
+
+
+def valid_topic_phrase(phrase: str) -> bool:
+    tokens = phrase.split()
+    if not tokens:
+        return False
+    if tokens[0] in STOPWORDS or tokens[-1] in STOPWORDS:
+        return False
+    if any(token in FILLER_TOPIC_WORDS for token in tokens):
+        return False
+    if sum(1 for token in tokens if len(token) <= 2 and token not in {"ai", "ml"}) > 0:
+        return False
+    return len(phrase) >= 8
+
+
+def searchable_episode_text(episode: dict[str, object]) -> str:
+    parts = [
+        str(episode.get("title") or ""),
+        str(episode.get("short") or ""),
+        str(episode.get("intro") or ""),
+        str(episode.get("description") or ""),
+    ]
+    chapters = episode.get("chapters")
+    if isinstance(chapters, list):
+        for chapter in chapters:
+            if not isinstance(chapter, dict):
+                continue
+            title = str(chapter.get("title") or "")
+            if title.lower().startswith("transcript checkpoint"):
+                title = title.split(":", 1)[-1]
+            parts.append(title)
+    return normalize_topic(" ".join(parts))
+
+
 def candidate_topics(episode: dict[str, object]) -> list[str]:
     topics: Counter[str] = Counter()
     for topic in episode.get("topics", []):
         if isinstance(topic, str) and topic.strip():
-            topics[topic.strip().lower()] += 8
+            topics[normalize_topic(topic)] += 12
+
+    episode_text = searchable_episode_text(episode)
+    for topic in KNOWN_ARCHIVE_TOPICS:
+        if normalize_topic(topic) in episode_text:
+            topics[normalize_topic(topic)] += 6
 
     for chapter in episode.get("chapters", []):
         if not isinstance(chapter, dict):
             continue
         title = str(chapter.get("title") or "").lower()
+        if title.startswith("transcript checkpoint"):
+            continue
         title = re.sub(r"[^a-z0-9+.#/ -]+", " ", title)
         tokens = [token for token in re.split(r"\s+", title) if token and token not in STOPWORDS]
         for size in (3, 2):
             for index in range(0, max(0, len(tokens) - size + 1)):
-                phrase = " ".join(tokens[index : index + size]).strip()
-                if len(phrase) >= 8:
+                phrase = normalize_topic(" ".join(tokens[index : index + size]))
+                if valid_topic_phrase(phrase):
                     topics[phrase] += size
     return [topic for topic, _ in topics.most_common(12)]
 

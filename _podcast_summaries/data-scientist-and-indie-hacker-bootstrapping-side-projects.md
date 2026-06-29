@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/indie-hacking-pauline-clavello
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/data-scientist-and-indie-hacker-bootstrapping-side-projects.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=KsV_SVXlTo8)
 - [Listen on Spotify](https://open.spotify.com/episode/2DlD756csrDFAxfuTjSKwY?si=_H2G3bJtQIuJMAe8daEIYg)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/indie-hacking-pauline-clavello
 
 How do you build, launch, and actually monetize indie-hacker products in crypto alerts and generative AI while keeping a day job? In this episode, Pauline Clavelloux — an IBM data science manager and consultant with eight years’ experience who also ships side projects like Cryptopy (crypto alerts) and UnrealMe (a DreamBooth-inspired selfie-to-art tool) — walks through the practical steps.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Paulineclavelloux]({{ '/people/paulineclavelloux/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode Introduction](https://www.youtube.com/watch?v=KsV_SVXlTo8&t=0)
 - 1:12 - [Career Journey: Engineering Student to IBM Data Scientist](https://www.youtube.com/watch?v=KsV_SVXlTo8&t=72)

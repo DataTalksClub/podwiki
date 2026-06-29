@@ -17,4 +17,4 @@ Parvathy is CTO at Analytics for a Better World, a non-profit organisation aimin
 
 ## Podcast Discussions
 
-- [Analytics for Nonprofits: Build Data Maturity, Teams, Tools & Optimization Strategies]({{ '/podcasts/data-science-and-analytics-for-nonprofits-tech-for-good/' | relative_url }}). Related topics: nonprofit, data maturity, [data science]({{ '/wiki/data-science/' | relative_url }}), analytics.
+- [Analytics for Nonprofits: Build Data Maturity, Teams, Tools & Optimization Strategies]({{ '/podcasts/data-science-and-analytics-for-nonprofits-tech-for-good/' | relative_url }}). Discussed: Overview: Analytics for a Better World mission and guest intro; Career Path: From renewable energy to data science and CTO role; CTO Responsibilities: Connecting nonprofits with research and tech capacity; Discovery Workshops: Assessing nonprofit needs and data maturity. Related topics: nonprofit, data maturity, [data science]({{ '/wiki/data-science/' | relative_url }}), analytics.

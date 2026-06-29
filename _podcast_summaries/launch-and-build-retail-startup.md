@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/launching-a-startup-from-idea-
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/launch-and-build-retail-startup.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=s-w8_GDgIlU)
 - [Listen on Spotify](https://open.spotify.com/episode/2zlqwEOamFD8YVGkf4VsFW)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/launching-a-startup-from-idea-
 
 How do you build a grocery retail OS that actually cuts supermarket food waste while scaling a startup? In this episode, Carmine Paolino — CTO and co-founder of FreshFlow and former programmer/researcher in academia and data science — walks through translating technical expertise into a product that solves fresh-product challenges for retailers.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Carminepaolino]({{ '/people/carminepaolino/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 1:46 - [Episode Introduction & Guest Overview](https://www.youtube.com/watch?v=s-w8_GDgIlU&t=106)
 - 2:16 - [Early Career: Programming, Academia, and Data Science](https://www.youtube.com/watch?v=s-w8_GDgIlU&t=136)

@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/trends-in-data-engineering-adr
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/trends-in-modern-data-engineering.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=AlCFKbFIEM8)
 - [Listen on Spotify](https://open.spotify.com/episode/35QbCW6Evqk1EPMKUDGGdv)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/trends-in-data-engineering-adr
 
 How can engineering teams build reliable, scalable lakehouse pipelines that combine transactional table formats with AI-driven automation? In this episode Adrian Brudaru—an economics-trained analyst turned freelance data practitioner and co-founder of a data company focused on open source tooling—joins us to explore the realities of modern data engineering.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Adrianbrudaru]({{ '/people/adrianbrudaru/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:01 - [Episode opening & guest introduction](https://www.youtube.com/watch?v=AlCFKbFIEM8&t=1)
 - 2:23 - [Perspective on evolving data engineering challenges](https://www.youtube.com/watch?v=AlCFKbFIEM8&t=143)

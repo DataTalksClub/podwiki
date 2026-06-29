@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/mlops-architect-danny-leybzon/
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/mlops-model-monitoring-data-observability.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=p1gVaS4Zx5M)
 - [Listen on Spotify](https://open.spotify.com/episode/5gz5lnS7onwRUtbcmpOSuU?si=8cbe799f284c4623)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/mlops-architect-danny-leybzon/
 
 How do you keep machine learning models reliable in production — what should you monitor, where do upstream failures originate, and which tooling decisions actually matter? In this episode, Danny Leybzon, MLOps Architect at WhyLabs and computational statistics alum of UCLA, walks through the practical challenges of production model monitoring, data observability, and tooling trade-offs. Drawing on his path from analyst and product roles at Qubole to field engineering at Imply and now advising customers on.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Dannyleybzon]({{ '/people/dannyleybzon/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=p1gVaS4Zx5M&t=0)
 - 1:56 - [Guest Overview: Danny Leybzon, MLOps Architect at WhyLabs](https://www.youtube.com/watch?v=p1gVaS4Zx5M&t=116)

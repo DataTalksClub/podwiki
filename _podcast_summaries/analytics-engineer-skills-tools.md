@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/analytics-engineer-new-role-in
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/analytics-engineer-skills-tools.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=C5UcxBwdCEg)
 - [Listen on Spotify](https://open.spotify.com/episode/4rLQ5ulsYR9LqXxbFe2MlN)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/analytics-engineer-new-role-in
 
 How do you become an effective analytics engineer and what skills, tools, and career steps matter most? In this episode, Victoria Perez Mola—born in Argentina, trained as a Systems Engineer and now an Analytics Engineer at Tier in Berlin—walks us through her move from ERP and finance reporting into analytics engineering. We cover daily responsibilities like data modeling, pipelines, data quality and Looker; the DBT workflow (SQL transformations, version control, tests, DAG); and a practical analytics toolstack.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Victoriaperezmola]({{ '/people/victoriaperezmola/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=C5UcxBwdCEg&t=0)
 - 1:48 - [Guest Introduction: Victoria Perez Mola overview](https://www.youtube.com/watch?v=C5UcxBwdCEg&t=108)

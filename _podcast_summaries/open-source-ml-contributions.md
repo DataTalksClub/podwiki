@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/getting-started-with-open-sour
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/open-source-ml-contributions.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=IxV9EH-tphQ)
 - [Listen on Spotify](https://open.spotify.com/episode/1dsbDeVncfsEg3m3cYB927)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/getting-started-with-open-sour
 
 How do you start contributing to open source ML projects like scikit-learn pipelines—or move from curious user to confident contributor on Rasa’s conversational AI stack? In this episode, Vincent Warmerdam, Research Advocate at Rasa and creator of The Algorithm Whiteboard and calmcode.io, walks through practical, hands-on advice for contributing to open source ML.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Vincentwarmerdam]({{ '/people/vincentwarmerdam/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction and Episode Overview](https://www.youtube.com/watch?v=IxV9EH-tphQ&t=0)
 - 1:10 - [Guest Background: From Design Student to Data Scientist](https://www.youtube.com/watch?v=IxV9EH-tphQ&t=70)

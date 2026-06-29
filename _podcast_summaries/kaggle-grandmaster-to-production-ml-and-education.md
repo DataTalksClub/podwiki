@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/competitive-machine-leaning-an
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/kaggle-grandmaster-to-production-ml-and-education.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=NfAJAr7FvyY&t)
 - [Listen on Spotify](https://open.spotify.com/episode/6xsov9a1US8D8w5xKcjkNm)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/competitive-machine-leaning-an
 
 How do you take the rigor and creativity that wins Kaggle competitions and turn it into reliable, maintainable production ML? In this episode we explore that question with Alexander Guschin — a Machine Learning Engineer with 10+ years of experience, a Kaggle Grandmaster ranked 5th globally, a leader of DS and SE teams, contributor to open-source ML tools, and instructor to 100K+ students.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Alexanderguschin]({{ '/people/alexanderguschin/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode Start](https://www.youtube.com/watch?v=NfAJAr7FvyY&t&t=0)
 - 3:50 - [Guest Introduction & Kaggle Grandmaster Credentials](https://www.youtube.com/watch?v=NfAJAr7FvyY&t&t=230)

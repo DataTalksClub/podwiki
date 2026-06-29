@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/humans-in-the-loop-lina-weichb
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/human-centered-mlops-and-model-monitoring.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=o50j_Ndx2Hg)
 - [Listen on Spotify](https://open.spotify.com/episode/23VxmAEkKUs1kjaludRQAR)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/humans-in-the-loop-lina-weichb
 
 How do you make MLOps human-centered so stakeholders actually trust models and teams can monitor, debug, and respond to incidents? In this episode, Lina Weichbrodt — a generalist machine learning developer who prototypes data-driven products end-to-end (design, implementation, A/B tests, operations) — walks through practical MLOps strategies that prioritize people as much as pipelines.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Linaweichbrodt]({{ '/people/linaweichbrodt/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode Introduction: Humans in the Loop — MLOps & human-centered ML](https://www.youtube.com/watch?v=o50j_Ndx2Hg&t=0)
 - 3:29 - [Guest Career Path: Lina Weichbrodt — business to ML engineering](https://www.youtube.com/watch?v=o50j_Ndx2Hg&t=209)

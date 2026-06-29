@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/getting-a-data-engineering-job
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/get-data-engineering-job-prep-and-interview.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=asnt7xlyZXQ)
 - [Listen on Spotify](https://open.spotify.com/episode/1SaZ0QXAIhcdH1gfaNoN4Z?si=OvvNFdTpSu2MCCDOWdYgJQ)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/getting-a-data-engineering-job
 
 How do you actually get a data engineering job today — and which skills hiring teams care about most? In this episode, Jeff Katz, a Machine Learning Engineer at AppFolio and longtime instructor/founder of Jigsaw Labs and Flatiron School curriculum lead, distills a webinar on hiring demand into practical advice for job seekers. Drawing on applied AI and data engineering experience plus open-source contributions, Jeff walks through the core data engineering skills employers expect: deep Python and SQL, Docker,.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Jeffkatz]({{ '/people/jeffkatz/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=asnt7xlyZXQ&t=0)
 - 0:36 - [Webinar Recap: Hiring Demand and Skill Gaps](https://www.youtube.com/watch?v=asnt7xlyZXQ&t=36)

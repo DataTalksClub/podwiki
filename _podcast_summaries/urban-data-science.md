@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/using-data-to-create-liveable-
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/urban-data-science.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=VXQIGHUWeL0)
 - [Listen on Spotify](https://open.spotify.com/episode/1z7jdogto8i4Zk6Zh1vDxE?si=KCg2Iq1US0SKwFCKasGqUg)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/using-data-to-create-liveable-
 
 How can cities use transport analytics, sensors and AI to become more liveable? In this episode Rachel Lim, an urban data scientist with a geography background and a master''s in urban data science, walks through practical ways data informs transport planning and placemaking. We cover core data sources—GPS, sensors, fare card systems, ride-hailing logs and computer vision for passenger flow—plus travel demand forecasting, real-time monitoring (including event analytics like F1), and operational responses such as.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Rachellim]({{ '/people/rachellim/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode Introduction](https://www.youtube.com/watch?v=VXQIGHUWeL0&t=0)
 - 1:56 - [Guest Introduction: Rachel Lim, urban data scientist](https://www.youtube.com/watch?v=VXQIGHUWeL0&t=116)

@@ -16,5 +16,5 @@ Ruslan is a Data Scientist living in Berlin who has tried lots of healthy (and n
 
 ## Podcast Discussions
 
-- [Actionable Biohacks to Boost Productivity: Sleep, Circadian Light, Dopamine & Habits]({{ '/podcasts/biohacking-productivity-for-data-scientists-and-ml-engineers/' | relative_url }}). Related topics: biohacking, productivity.
-- [Inside the AI Engineer Role: Tools, Skills, and Career Path]({{ '/podcasts/s23e05-inside-ai-engineer-role-tools-skills-and-career-path/' | relative_url }}).
+- [Actionable Biohacks to Boost Productivity: Sleep, Circadian Light, Dopamine & Habits]({{ '/podcasts/biohacking-productivity-for-data-scientists-and-ml-engineers/' | relative_url }}). Discussed: Episode Overview & Guest Introduction; Career Journey: From Business/Marketing to Data Science; Procrastination & Perfectionism: Acceptance and Deadline Effects; Biohacking Defined: Behavioral Approaches vs. Chemical Interventions. Related topics: biohacking, productivity.
+- [Inside the AI Engineer Role: Tools, Skills, and Career Path]({{ '/podcasts/s23e05-inside-ai-engineer-role-tools-skills-and-career-path/' | relative_url }}). Discussed: From Account Management to Data Science; Building Branch GPT and Side Project Philosophy; Transitioning to AI Engineering Full-Time; Maximizing Your "Luck Surface Area. Related topics: [data science]({{ '/wiki/data-science/' | relative_url }}), [ai engineering]({{ '/wiki/ai-engineering/' | relative_url }}), ai engineer, [hiring]({{ '/wiki/hiring/' | relative_url }}), account management data, management data science.

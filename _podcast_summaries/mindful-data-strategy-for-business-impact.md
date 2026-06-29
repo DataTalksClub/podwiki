@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/how-to-rebuild-data-trust-mind
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/mindful-data-strategy-for-business-impact.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=B76J4QkZPWs)
 - [Listen on Spotify](https://open.spotify.com/episode/54B0xvUI1eQjXW0s1eqgbI)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/how-to-rebuild-data-trust-mind
 
 How do you build a data strategy that drives business impact without chasing perfection? In this episode Lior Barak — author of Data Is Like a Plate of Hummus, co-host of the WHAT the Data?! podcast, and founder of Tale About Data — explores a mindful data strategy that accepts imperfection, prioritizes data trust, and balances maintenance with innovation.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Liorbarak]({{ '/people/liorbarak/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction and Episode Overview (mindful data strategy)](https://www.youtube.com/watch?v=B76J4QkZPWs&t=0)
 - 2:24 - [Lior Barak: Background and shift from engineering to product](https://www.youtube.com/watch?v=B76J4QkZPWs&t=144)

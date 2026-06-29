@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-roasting-coffee-to-backen
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/how-to-switch-to-ml-tech-without-experience.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=BKqmNdxsBko)
 - [Listen on Spotify](https://open.spotify.com/episode/3AnUc03nLbIYS6ichWIrRE?si=momJMlwdTpKFkI0FYQilag)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-roasting-coffee-to-backen
 
 How do you switch to tech from a completely different career and actually land an internship at a mission-driven company? In this episode, Jessica Greene — Senior Machine Learning Engineer at Ecosia and co-organizer of PyLadies Berlin — walks through her journey from film and coffee roasting to machine learning, sharing concrete steps for a career change to tech. We cover the learning path Jessica used (Codecademy, Andrew Ng, FreeCodeCamp), funding and study time via Germany’s Bildungsgutschein, and hands-on.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Jessicagreene]({{ '/people/jessicagreene/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=BKqmNdxsBko&t=0)
 - 1:24 - [Career Origin: From Film & Coffee Roasting to Tech](https://www.youtube.com/watch?v=BKqmNdxsBko&t=84)

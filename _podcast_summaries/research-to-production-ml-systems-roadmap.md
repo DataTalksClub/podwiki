@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/what-researchers-and-engineers
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/research-to-production-ml-systems-roadmap.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=d9xVXqKq3sU)
 - [Listen on Spotify](https://open.spotify.com/episode/0cJJCjK7nX5p1PdeMvGrVL)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/what-researchers-and-engineers
 
 How do you move ML work from research notebooks to reproducible, deployable full-stack systems? In this episode, Mihail Eric — founder of Pametan Data Innovation and Confetti.ai, former Stanford NLP researcher with industry experience at RideOS and Amazon Alexa, and author of papers in ACL, AAAI, and NeurIPS — tackles that exact challenge. We trace Mihail’s path from academic NLP to self-driving and conversational AI, then into hybrid roles that blend hypothesis-driven research with production engineering.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Mihaileric]({{ '/people/mihaileric/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 1:17 - [Podcast Introduction](https://www.youtube.com/watch?v=d9xVXqKq3sU&t=77)
 - 1:52 - [Guest Overview: Mihail’s Roles and Work](https://www.youtube.com/watch?v=d9xVXqKq3sU&t=112)

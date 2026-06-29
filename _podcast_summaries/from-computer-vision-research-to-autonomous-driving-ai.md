@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/lessons-from-applied-ai-tesla-
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/from-computer-vision-research-to-autonomous-driving-ai.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=vK_SxyqIfwk)
 - [Listen on Spotify](https://open.spotify.com/episode/0h9eX7m6H2TPqOjUwb3Jw6?si=I4rKrHXpQTmS7cJBMJbUMA)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/lessons-from-applied-ai-tesla-
 
 How do you take computer vision research out of the lab and turn it into production-ready AI that actually works in the real world? In this episode Aishwarya Jadhav, a Machine Learning Engineer with over four years of industry experience and a Master’s from Carnegie Mellon University, walks through the challenges of applying computer vision research to production systems. Her background spans multimodal LLMs, generative AI, and computer vision, with research experience in multimodal deep learning and text.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Aishwaryajadhav]({{ '/people/aishwaryajadhav/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=vK_SxyqIfwk&t=0)
 - 1:33 - [Guest Bio & Career Overview: Finance to Self-Driving AI](https://www.youtube.com/watch?v=vK_SxyqIfwk&t=93)

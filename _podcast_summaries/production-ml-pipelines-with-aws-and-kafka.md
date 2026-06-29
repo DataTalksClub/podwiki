@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/build-your-own-data-pipeline-a
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/production-ml-pipelines-with-aws-and-kafka.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=IrZPAG6OBqo)
 - [Listen on Spotify](https://open.spotify.com/episode/0fFRCAYFCReMxEiq2RDVak)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/build-your-own-data-pipeline-a
 
 How do you move models out of notebooks and into reliable production data pipelines using AWS, Kafka, and streaming architectures? In this episode, Andreas Kretz — the “Plumber of Data Science” — walks through the practical steps engineers and data scientists need to productionize notebooks and deploy ML systems.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Andreaskretz]({{ '/people/andreaskretz/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 1:56 - [Episode Introduction & Andreas Kretz — "Plumber of Data Science](https://www.youtube.com/watch?v=IrZPAG6OBqo&t=116)
 - 3:19 - [Guest Bio: Andreas’s path from software to big data and data engineering](https://www.youtube.com/watch?v=IrZPAG6OBqo&t=199)

@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/can-you-quit-your-job-and-stil
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/data-freelancing-career-strategy-market-demand-and-client-acquisition.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=S93V8RgwBig)
 - [Listen on Spotify](https://open.spotify.com/episode/3BknrKqhLggx1G5ZbrfgFc)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/can-you-quit-your-job-and-stil
 
 How do you move from employed data pro to a sustainable data freelancer who consistently lands clients, prices services well, and uses AI to boost productivity? In this episode, Dimitri Visnadi — an independent data consultant focused on data strategy who’s worked with Unilever, Ferrero, Heineken and Red Bull, held roles at HP and a Google-partnered firm, and holds a Masters in Business Analytics & Computer Science from UCL — walks through a practical playbook for data freelancers.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Dimitrivisnadi]({{ '/people/dimitrivisnadi/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode Opening & Dimitri’s Data Journey](https://www.youtube.com/watch?v=S93V8RgwBig&t=0)
 - 5:41 - [Job Tenure Trends & Freelancer Types](https://www.youtube.com/watch?v=S93V8RgwBig&t=341)

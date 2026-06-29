@@ -17,4 +17,4 @@ Krzysztof Szafanek is a seasoned engineer with 17 years of professional experien
 
 ## Podcast Discussions
 
-- [How to Grow Your ML Engineering Career: Platform Work, LLM Workflows & Debugging Skills]({{ '/podcasts/how-to-grow-your-ml-engineering-career/' | relative_url }}). Related topics: [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), career transitions, [LLMs]({{ '/wiki/llms/' | relative_url }}), [hiring]({{ '/wiki/hiring/' | relative_url }}), career strategy.
+- [How to Grow Your ML Engineering Career: Platform Work, LLM Workflows & Debugging Skills]({{ '/podcasts/how-to-grow-your-ml-engineering-career/' | relative_url }}). Discussed: Career Overview: Web, Game Development, and Python; Mobile & Game Development: HTML5, Objective-C, Swift, and Unity; Career Transitions: Adapting Between Stacks and Roles; Tech Radar & Language Freedom at Zalando. Related topics: [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), career transitions, [LLMs]({{ '/wiki/llms/' | relative_url }}), [hiring]({{ '/wiki/hiring/' | relative_url }}), career strategy.

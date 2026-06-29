@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/building-and-leading-data-team
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/building-and-scaling-data-team.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=kI4V2iBbaH0)
 - [Listen on Spotify](https://open.spotify.com/episode/3hlzKwORlOsCPKrawuW4YQ)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/building-and-leading-data-team
 
 How do you build and scale a data team that moves beyond dashboards to production ML, reliable forecasting, and real adoption across the business? In this episode Tammy Liang, Chief of Data at Platanomelón and co-host of Data for Future, walks through her journey building data capabilities for marketing, e-commerce, and operations at a mission-driven consumer brand.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Tammyliang]({{ '/people/tammyliang/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=kI4V2iBbaH0&t=0)
 - 1:14 - [Guest Background: Tammy Liang’s career path into data](https://www.youtube.com/watch?v=kI4V2iBbaH0&t=74)

@@ -5,7 +5,7 @@ source_person: "../datatalksclub.github.io/_people/alexeygrigorev.md"
 person_id: "alexeygrigorev"
 summary: "Founder of DataTalks.Club and recurring contributor on data teams, MLOps, community building, and open education."
 expertise: ["community building", "data engineering", "MLOps", "LLMs", "machine learning", "teaching"]
-podcast_episodes: ["crisp-dm", "data-team-roles", "datatalksclub-building-scaling-data-community", "datatalksclub-building-sustainable-data-community-3-years-anniversary", "datatalksclub-scaling-and-free-courses"]
+podcast_episodes: ["data-team-roles", "crisp-dm", "datatalksclub-building-scaling-data-community", "datatalksclub-building-sustainable-data-community-3-years-anniversary", "datatalksclub-scaling-and-free-courses"]
 source_url: "https://datatalks.club/people/alexeygrigorev.html"
 ---
 ## Background

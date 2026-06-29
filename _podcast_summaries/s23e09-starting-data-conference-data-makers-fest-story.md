@@ -16,12 +16,22 @@ apple_url: "https://podcasts.apple.com/us/podcast/starting-a-data-conference-the
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/s23e09-starting-data-conference-data-makers-fest-story.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=6Zx1jDQQScA)
 - [Listen on Spotify](https://open.spotify.com/episode/53hHdpoEFyJeMTfSVas595?si=mwk_BEoZS2O00nxqGjrNEA)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/starting-a-data-conference-the-data-makers-fest/id1541710331?i=1000762031992)
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Leonidkholkine]({{ '/people/leonidkholkine/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Community Building in Data and AI](https://www.youtube.com/watch?v=6Zx1jDQQScA&t=0)
 - 3:02 - [Computer Engineering and International Leadership Roots](https://www.youtube.com/watch?v=6Zx1jDQQScA&t=182)

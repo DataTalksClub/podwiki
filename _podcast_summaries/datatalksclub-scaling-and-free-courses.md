@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/datatalks-club-4th-anniversary
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/datatalksclub-scaling-and-free-courses.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=GHbeXIKnkLQ)
 - [Listen on Spotify](https://open.spotify.com/episode/50wIZxjq6goREu9pwXYITP?si=mPW0v5fBQxuBpg622CpCEA)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/datatalks-club-4th-anniversary
 
 How do you scale a volunteer-run learning community into a sustainable platform offering free data engineering, MLOps, and LLM courses? In this episode Alexey Grigorev, founder of DataTalks.Club, walks through the origin story of the project, the leap to running it full-time, and the practical tradeoffs of building free data engineering courses at scale.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Alexeygrigorev]({{ '/people/alexeygrigorev/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Welcome & AMA Format (community links and live questions)](https://www.youtube.com/watch?v=GHbeXIKnkLQ&t=0)
 - 1:35 - [Host Intro: Johanna as special host](https://www.youtube.com/watch?v=GHbeXIKnkLQ&t=95)

@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/introducing-data-science-in-st
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/solopreneur-data-scientist.html)
 - [Watch on YouTube](https://youtube.com/watch?v=KMSE9GkU2mE)
 - [Listen on Spotify](https://open.spotify.com/episode/0kGFYX12RgkmZC2lMml6S4)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/introducing-data-science-in-st
 
 How can a solo data scientist deliver measurable impact in the first 90 days? In this episode, Marianna Diachuk — data scientist at Restream, former DataRobot engineer and fintech team lead, and Data Science Lead/mentor with Women Who Code — walks through a practical Solo Data Scientist playbook. You''ll hear a clear 90-day roadmap covering first-week stakeholder interviews and data exploration, first-month research and proofs-of-concept, and first-quarter priorities: building data pipelines, deployment,.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Mariannadiachuk]({{ '/people/mariannadiachuk/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://youtube.com/watch?v=KMSE9GkU2mE&t=0)
 - 0:02 - [Guest Background & Career Path in Data Science](https://youtube.com/watch?v=KMSE9GkU2mE&t=2)

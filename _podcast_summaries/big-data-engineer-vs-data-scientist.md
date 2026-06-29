@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/big-data-engineer-vs-data-scie
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/big-data-engineer-vs-data-scientist.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=yg3d1lFd7Uo)
 - [Listen on Spotify](https://open.spotify.com/episode/08Mb5JOOo6sWOFgsXILVsj)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/big-data-engineer-vs-data-scie
 
 How do the day-to-day responsibilities and skill sets really differ between a Big Data Engineer and a Data Scientist—and what should you learn to move between those roles? In this episode, Roksolana Diachuk, a Big Data Engineer at Captify, Women Who Code Kyiv lead and speaker on Scala and Kubernetes, walks through her career transition from backend Java into big data engineering and R&D.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Roksolanadiachuk]({{ '/people/roksolanadiachuk/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 1:52 - [Episode Overview & Guest Introduction](https://www.youtube.com/watch?v=yg3d1lFd7Uo&t=112)
 - 2:28 - [Career Path: From Backend Java to Big Data Engineering (Scala, R&D, Captify)](https://www.youtube.com/watch?v=yg3d1lFd7Uo&t=148)

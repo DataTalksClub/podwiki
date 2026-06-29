@@ -5,7 +5,7 @@ source_person: "../datatalksclub.github.io/_people/terezaiofciu.md"
 person_id: "terezaiofciu"
 summary: "Data leader and coach covering career red flags, team roles, stakeholder communication, and the transition into management."
 expertise: ["leadership", "career transition", "communication", "team building", "data science", "hiring"]
-podcast_episodes: ["data-leadership-coaching", "data-science-job-red-flags-and-mismatched-roles"]
+podcast_episodes: ["data-science-job-red-flags-and-mismatched-roles", "data-leadership-coaching"]
 source_url: "https://datatalks.club/people/terezaiofciu.html"
 ---
 ## Background

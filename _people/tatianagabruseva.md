@@ -5,7 +5,7 @@ source_person: "../datatalksclub.github.io/_people/tatianagabruseva.md"
 person_id: "tatianagabruseva"
 summary: "Computer vision and deep learning engineer connecting Kaggle practice, academia-to-industry transition, and staff-level AI career growth."
 expertise: ["computer vision", "deep learning", "machine learning", "career transition", "career growth", "MLOps"]
-podcast_episodes: ["from-academia-to-staff-ai-engineer-interviews-and-career-growth", "from-physics-to-computer-vision-career-transition", "s24e01-competitions-beyond-kaggle-leaderboard"]
+podcast_episodes: ["from-physics-to-computer-vision-career-transition", "from-academia-to-staff-ai-engineer-interviews-and-career-growth", "s24e01-competitions-beyond-kaggle-leaderboard"]
 source_url: "https://datatalks.club/people/tatianagabruseva.html"
 ---
 ## Background

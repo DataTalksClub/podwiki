@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/staff-ai-engineer-tatiana-gabr
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/from-academia-to-staff-ai-engineer-interviews-and-career-growth.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=_xr1_xb736E)
 - [Listen on Spotify](https://open.spotify.com/episode/4o52jMRR2cctCD8LuFFLdD?si=tBO_9KkiSWySHu7jaM-McQ)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/staff-ai-engineer-tatiana-gabr
 
 How do you transition from academia into a Staff AI Engineer role while nailing interview prep, MLOps, and onboarding? In this episode, Tatiana Gabruseva — a computer vision/deep learning engineer, Kaggle Competitions Master, and Senior ML Engineer at Cork University Hospital — walks through her shift from physics and healthcare research into industry engineering leadership.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Tatianagabruseva]({{ '/people/tatianagabruseva/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=_xr1_xb736E&t=0)
 - 1:11 - [Episode kickoff and guest reintroduction](https://www.youtube.com/watch?v=_xr1_xb736E&t=71)

@@ -16,12 +16,22 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-notebook-to-production-bu
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/s24e03-from-notebook-to-production-building-end-to-end-ai-systems.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=nsekJOwU2tY)
 - [Listen on Spotify](https://open.spotify.com/episode/6RJ1b1iUk595w1LScQIWR6?si=a6bb80971196466b)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/from-notebook-to-production-building-end-to-end-ai/id1541710331?i=1000770208010)
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Marianosemelman]({{ '/people/marianosemelman/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Community Introduction and Slack Engagement](https://www.youtube.com/watch?v=nsekJOwU2tY&t=0)
 - 4:17 - [Career Journey: From Argentina to Barcelona](https://www.youtube.com/watch?v=nsekJOwU2tY&t=257)

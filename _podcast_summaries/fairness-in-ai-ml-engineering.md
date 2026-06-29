@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/linguistics-and-fairness-tamar
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/fairness-in-ai-ml-engineering.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=sXU9vMDBjmk)
 - [Listen on Spotify](https://open.spotify.com/episode/6S4a85iiRzl7NU1HykXeKT?si=FNoDtj74T2ujQKzKdDWwzA)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/linguistics-and-fairness-tamar
 
 How do you reduce bias in credit scoring models without sacrificing explainability? In this episode, Tamara Atanasoska — an open source software engineer at :probabl.., Fairlearn maintainer, and contributor to scikit-learn and skops with a background in software engineering and computational linguistics — walks through practical approaches to fairness in AI. We dig into a real credit scoring use case, empirical findings on gender disparities, and the societal harms of biased models such as debt and repossession.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Tamaraatanasoska]({{ '/people/tamaraatanasoska/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction & Episode Overview](https://www.youtube.com/watch?v=sXU9vMDBjmk&t=0)
 - 2:31 - [Guest Introduction: Tamara’s Open-Source Roles (Fairlearn, scikit-learn,](https://www.youtube.com/watch?v=sXU9vMDBjmk&t=151)

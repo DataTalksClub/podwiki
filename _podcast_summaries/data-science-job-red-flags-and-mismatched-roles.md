@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/decoding-data-science-job-desc
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/data-science-job-red-flags-and-mismatched-roles.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=bqxBiIwtmX4)
 - [Listen on Spotify](https://open.spotify.com/episode/4v6h48B0c0Je8xLMo5zMs5?si=hcMUqpPPQYm2vrdi2py1UQ)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/decoding-data-science-job-desc
 
 How can you tell if a data scientist job is really a data engineering role — or a mismatched hire waiting to happen? In this episode, Tereza Iofciu, PhD and seasoned data practitioner, walks through practical ways to spot misleading data job titles, hiring red flags, and how to build clearer, healthier data teams. Tereza brings experience across data science manager, data scientist, data engineer and product manager roles, plus teaching and community leadership (neuefische, PyLadies Hamburg, PSF community award),.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Terezaiofciu]({{ '/people/terezaiofciu/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=bqxBiIwtmX4&t=0)
 - 1:41 - [Guest Bio: Tereza’s multidisciplinary data roles & community work](https://www.youtube.com/watch?v=bqxBiIwtmX4&t=101)

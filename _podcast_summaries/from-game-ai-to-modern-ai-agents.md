@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/lessons-from-two-decades-of-ai
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/from-game-ai-to-modern-ai-agents.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=DSxqUlumM3A)
 - [Listen on Spotify](https://open.spotify.com/episode/7uhe5ZysRi07S6mb14nnox)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/lessons-from-two-decades-of-ai
 
 How did techniques born in game AI become the foundation for today's LLM-driven agents, and what practical lessons does that 20-year evolution offer to engineers and researchers? In this episode, AI engineer and best-selling author Micheal Lanham walks through the lineage from game AI and multi-agent systems to modern LLM agents, evolutionary algorithms, and contemporary AI tooling.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Micheallanham]({{ '/people/micheallanham/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=DSxqUlumM3A&t=0)
 - 1:07 - [Career Snapshot: Two Decades from Game AI to AI Agents](https://www.youtube.com/watch?v=DSxqUlumM3A&t=67)

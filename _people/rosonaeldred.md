@@ -15,4 +15,4 @@ Rosona Eldred is a trained mathematician working in the “data space” for the
 
 ## Podcast Discussions
 
-- [Master Industrial Data: Synthetic Tabular Data, Small-Data Modeling, Sensors & MLOps]({{ '/podcasts/industrial-data-small-data-production-machine-learning/' | relative_url }}). Related topics: industrial data, synthetic tabular data, [MLOps]({{ '/wiki/mlops/' | relative_url }}).
+- [Master Industrial Data: Synthetic Tabular Data, Small-Data Modeling, Sensors & MLOps]({{ '/podcasts/industrial-data-small-data-production-machine-learning/' | relative_url }}). Discussed: Episode Intro: Guest Overview & Synthetic Tabular Data Focus; Career Pivot: From PhD Algebraic Topology to Industry; Academic Roots: 3D Topological Models and Research Background; Mathematical Mindset: Logical Reasoning, Proof-Style Thinking for Data. Related topics: industrial data, synthetic tabular data, [MLOps]({{ '/wiki/mlops/' | relative_url }}).

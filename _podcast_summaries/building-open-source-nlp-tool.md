@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/building-an-open-source-nlp-to
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/building-open-source-nlp-tool.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=WIpnyiHp4IE)
 - [Listen on Spotify](https://open.spotify.com/episode/5SjY4vatlUYFCZUMV7dE7W?si=MC4ZZrKbSTKUEDVEfedGwA)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/building-an-open-source-nlp-to
 
 How can teams scale high-quality NLP labeling without hand-labeling every example? In this episode, Johannes Hötter, data scientist, engineer, and co-founder of kern, explains practical approaches to that problem using weak supervision, heuristics, and open-source tooling. We walk through demos of Refinery and Bricks, with a close look at Refinery’s weak supervision and labeling workflows, and why Jupyter widgets leave a gap for NLP tooling.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Johanneshotter]({{ '/people/johanneshotter/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=WIpnyiHp4IE&t=0)
 - 1:36 - [Background & early AI curiosity](https://www.youtube.com/watch?v=WIpnyiHp4IE&t=96)

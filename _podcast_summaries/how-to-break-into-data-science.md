@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/data-scientists-at-work-m%C4%B
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/how-to-break-into-data-science.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=oUycqtMoYr8)
 - [Listen on Spotify](https://open.spotify.com/episode/1RSUsWDOBDD4sNDruEbnEY)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/data-scientists-at-work-m%C4%B
 
 How do you actually break into data science, build a portfolio that gets interviews, and stay sane while every new AI model vies for your attention? In this episode Mısra Turp — data scientist, content creator, and developer advocate at AssemblyAI (founder of “So you want to be a data scientist?”) — walks through a practical career playbook for job hunting, portfolio building, and coping with FOMO and imposter syndrome.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Misraturp]({{ '/people/misraturp/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 1:07 - [Episode Introduction](https://www.youtube.com/watch?v=oUycqtMoYr8&t=67)
 - 1:57 - [Misra Career Path: From Big Data Engineering to Content Creator](https://www.youtube.com/watch?v=oUycqtMoYr8&t=117)

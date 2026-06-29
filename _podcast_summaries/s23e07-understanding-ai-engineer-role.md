@@ -16,12 +16,22 @@ apple_url: "https://podcasts.apple.com/us/podcast/understanding-the-ai-engineer-
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/s23e07-understanding-ai-engineer-role.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=5Xfbk_en8e8)
 - [Listen on Spotify](https://open.spotify.com/episode/1YIEpklIbwSQAS7EmmXsBr?si=4__wD7HjR8aq-KeWsuFkmg)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/understanding-the-ai-engineer-role-nasser-qadri/id1541710331?i=1000760703188)
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Nasserqadri]({{ '/people/nasserqadri/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Transitioning from Social Science to Software Engineering](https://www.youtube.com/watch?v=5Xfbk_en8e8&t=0)
 - 7:45 - [Applying Statistical Rigor to Generative AI Evaluation](https://www.youtube.com/watch?v=5Xfbk_en8e8&t=465)

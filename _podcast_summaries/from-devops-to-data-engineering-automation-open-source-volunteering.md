@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/career-choices-transitions-and
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/from-devops-to-data-engineering-automation-open-source-volunteering.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=QKWu5-6_6TE)
 - [Listen on Spotify](https://open.spotify.com/episode/0UW7fLgm9fqMG64GQwvgIN?si=ZixbzDcZT2mNkVrJjZVbeA)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/career-choices-transitions-and
 
 How do you pivot from DevOps to data engineering without starting over? In this episode Agita Jaunzeme — a DevOps/DataOps engineer, manager, community builder and NGO founder — breaks down practical strategies for career transitions that center on automation, open source participation, and volunteering.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Agitajaunzeme]({{ '/people/agitajaunzeme/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=QKWu5-6_6TE&t=0)
 - 2:36 - [Guest Welcome & Interview Agenda](https://www.youtube.com/watch?v=QKWu5-6_6TE&t=156)

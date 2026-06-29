@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/chief-data-officer-marco-de-sa
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/chief-data-officer-data-strategy-and-org-design.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=IdaZOD46FEw)
 - [Listen on Spotify](https://open.spotify.com/episode/64lEB0Wv0a6DfkDi672Ulk)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/chief-data-officer-marco-de-sa
 
 How do you move from head of data to an effective Chief Data Officer who builds strategy, designs the org, and delivers AI? In this episode, Marco De Sa — CDO at OLX Group with prior data leadership roles at Yahoo, Facebook, Twitter, and Spotify — lays out what modern data leadership really requires.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Marcodesa]({{ '/people/marcodesa/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=IdaZOD46FEw&t=0)
 - 1:18 - [Guest Overview: Marco''s Career & Roles](https://www.youtube.com/watch?v=IdaZOD46FEw&t=78)

@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/visualising-machine-learning-m
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/visualizing-machine-learning-concepts-to-explain-ml.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=OuCuk-7RHjM)
 - [Listen on Spotify](https://open.spotify.com/episode/032NhEphm5QDdDFDUIypOL)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/visualising-machine-learning-m
 
 How do you teach machine learning so people build intuition before diving into math? In this episode, Meor Amer—educator, author, and Developer Relations at Cohere—walks through a visual-first approach to machine learning that makes concepts accessible and actionable. Drawing on his journey from bioengineering and telecom analytics to founding kDimensions and writing A Visual Introduction to Deep Learning, Meor explains why visual machine learning and dimensionality reduction matter and how templates can scale.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Meoramer]({{ '/people/meoramer/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode Introduction & Visual ML Overview](https://www.youtube.com/watch?v=OuCuk-7RHjM&t=0)
 - 1:56 - [Posting Cadence & Visuals on LinkedIn](https://www.youtube.com/watch?v=OuCuk-7RHjM&t=116)

@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/navigating-career-changes-in-m
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/how-to-grow-your-ml-engineering-career.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=cUxZBXQgZaU)
 - [Listen on Spotify](https://open.spotify.com/episode/1mDlJi7vfLeJgIZStQ4G90?si=Spd04VwmSh2zZCgZzLIPbA)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/navigating-career-changes-in-m
 
 How do you move from web and game development into building machine learning platforms and working with LLMs—and what practical skills carry over? In this episode Krzysztof Szafanek, a seasoned engineer with 17 years across pharma, geo services, gaming and online retail, and currently an ML Platform engineer and internal consultant at Zalando, answers that question through concrete examples and career lessons.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Krzysztofszafanek]({{ '/people/krzysztofszafanek/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=cUxZBXQgZaU&t=0)
 - 2:12 - [Career Overview: Web, Game Development, and Python](https://www.youtube.com/watch?v=cUxZBXQgZaU&t=132)

@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/bayesian-modeling-and-probabil
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/bayesian-modeling-workflows-and-tools.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=kcKvUSInm-M)
 - [Listen on Spotify](https://open.spotify.com/episode/5WUKDcTYv8ZvnqeHSQT7FF?si=K10siPBHQwmegCCXJ1VpIA)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/bayesian-modeling-and-probabil
 
 How do you move from point estimates to full uncertainty-aware models and choose the right tools and workflows for Bayesian modeling? In this episode Rob Zinkov, a machine learning engineer and former Indiana University research scientist who led development of the Hakaru probabilistic programming language, walks through practical Bayesian workflows and tool choices. We cover the core challenge of encoding priors, likelihoods, and posteriors; why integrals become intractable and how numerical integration and.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Robzinkov]({{ '/people/robzinkov/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode Introduction & Topic Overview](https://www.youtube.com/watch?v=kcKvUSInm-M&t=0)
 - 1:44 - [Guest Introduction: Rob Zinkov and the Hakaru probabilistic programming project](https://www.youtube.com/watch?v=kcKvUSInm-M&t=104)

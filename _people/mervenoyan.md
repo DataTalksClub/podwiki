@@ -18,4 +18,4 @@ Merve Noyan is a Google Developer Expert on Machine Learning and a graduate stud
 
 ## Podcast Discussions
 
-- [Contribute to Hugging Face & Build an NLP Portfolio: Open Source, Datasets, Spaces]({{ '/podcasts/hugging-face-contributions-and-nlp-portfolio/' | relative_url }}). Related topics: [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [NLP]({{ '/wiki/nlp/' | relative_url }}), [open-source]({{ '/wiki/open-source/' | relative_url }}).
+- [Contribute to Hugging Face & Build an NLP Portfolio: Open Source, Datasets, Spaces]({{ '/podcasts/hugging-face-contributions-and-nlp-portfolio/' | relative_url }}). Discussed: Guest Welcome & Episode Overview; Early Career: Industrial Engineering to NLP; Transition to NLP: First Projects & Sentiment Analysis; Open Source Discovery: Finding Hugging Face & Contribution Sprints. Related topics: [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [NLP]({{ '/wiki/nlp/' | relative_url }}), [open-source]({{ '/wiki/open-source/' | relative_url }}).

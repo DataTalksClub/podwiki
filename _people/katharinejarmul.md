@@ -16,4 +16,4 @@ Katharine Jarmul is a privacy activist, machine learning engineer, and Principal
 
 ## Podcast Discussions
 
-- [Data Privacy Playbook: Differential Privacy, Federated Learning, PETs & Consent UX]({{ '/podcasts/data-privacy-engineering-gdpr-machine-learning/' | relative_url }}). Related topics: [data governance]({{ '/wiki/data-governance/' | relative_url }}), data privacy, [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), federated learning.
+- [Data Privacy Playbook: Differential Privacy, Federated Learning, PETs & Consent UX]({{ '/podcasts/data-privacy-engineering-gdpr-machine-learning/' | relative_url }}). Discussed: Episode Introduction; Guest Introduction: Katharine Jarmul — privacy activist, ML engineer, ThoughtWorks,; Career Journey: data journalism, NLP, consulting, and machine learning; Startup Focus: KI Protect, pseudonymisation, encrypted & federated ML. Related topics: [data governance]({{ '/wiki/data-governance/' | relative_url }}), data privacy, [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), federated learning.

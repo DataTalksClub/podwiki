@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/large-scale-entity-resolution-
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/building-open-source-data-product-for-identity-resolution.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=lpjffCOPxlY)
 - [Listen on Spotify](https://open.spotify.com/episode/54DufG1ZVj0GMSoWTbJsen?si=d7XNSW2_Tfa4qKJxmFQpIA)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/large-scale-entity-resolution-
 
 How do you build an open-source, ML-powered identity resolution tool that becomes the single source of truth in a modern data stack? In this episode Sonal Goyal—founder of Zingg and a 23-year data product veteran—walks through the practical challenges of identity resolution and entity resolution across industries like investment banking, telecom, gaming, and insurance. Sonal explains why ML-powered approaches matter, how an open-source framework like Zingg can fit into your modern data stack, and what it takes to.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Sonalgoyal]({{ '/people/sonalgoyal/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=lpjffCOPxlY&t=0)
 - 1:11 - [Guest Overview: Sonal Goyal and Zingg identity resolution](https://www.youtube.com/watch?v=lpjffCOPxlY&t=71)

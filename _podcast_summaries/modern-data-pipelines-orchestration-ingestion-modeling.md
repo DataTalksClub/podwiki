@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-mlops-to-dataops-santona-
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/modern-data-pipelines-orchestration-ingestion-modeling.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=kSTfhQ_SZgc)
 - [Listen on Spotify](https://open.spotify.com/episode/0inhE28kLI4T1AsSjgwnL8?si=WeFES7dXRxqSK_SKonBejw)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-mlops-to-dataops-santona-
 
 How do you build a modern data pipeline that reliably moves raw events through ingestion, dbt transformations, Airflow orchestration and into production ML and analytics? In this episode, Santona Tuli — a former CERN researcher turned ML and data engineering lead at Upsolver — walks through practical patterns and trade-offs for end-to-end pipelines. Drawing on experience from particle-physics event analysis to NLP and workflow authoring with Airflow, Santona explains where ingestion engines and declarative SQL.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Santonatuli]({{ '/people/santonatuli/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode Introduction](https://www.youtube.com/watch?v=kSTfhQ_SZgc&t=0)
 - 1:30 - [Career journey: CERN researcher → NLP, ML engineering, Python, Astronomer,](https://www.youtube.com/watch?v=kSTfhQ_SZgc&t=90)

@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/building-reliable-ai-products-
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=x2AAjqz2XmM)
 - [Listen on Spotify](https://open.spotify.com/episode/7c22vqYNuNLKKYEfYGOos8?si=NBFT2e80S6WErW_tDDrijA)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/building-reliable-ai-products-
 
 How do you build reliable, agentic AI systems that balance practical engineering, tooling, retrieval, and robust evaluation? In this episode Ranjitha Kulkarni, Staff Machine Learning Engineer at NeuBird.ai and former engineer on LLM- and agent-powered product features at Dropbox Dash and Microsoft, explores pragmatic approaches to agent design. Drawing on her work in speech recognition, language modeling, assistant evaluation, and publications on voice query reformulation and automatic online evaluation, Ranjitha.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Ranjithakulkarni]({{ '/people/ranjithakulkarni/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Event Introduction & Community Links](https://www.youtube.com/watch?v=x2AAjqz2XmM&t=0)
 - 3:12 - [Early ML Projects: Image Search with OpenCV](https://www.youtube.com/watch?v=x2AAjqz2XmM&t=192)

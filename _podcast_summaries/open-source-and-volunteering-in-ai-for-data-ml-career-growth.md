@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/make-an-impact-through-volunte
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/open-source-and-volunteering-in-ai-for-data-ml-career-growth.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=aHdaIwOEI8Q)
 - [Listen on Spotify](https://open.spotify.com/episode/7tZSSgv1yAlnoMyB4ggQmb?si=AqDaME2QS26usoZjOEWNtQ)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/make-an-impact-through-volunte
 
 How can volunteering in open source AI projects accelerate your career while delivering tangible community impact? In this episode Sara El-Ateif — Google Developer Expert in Machine Learning, Google PhD Fellow, co-founder of AI Wonder Girls and Evercoach-certified business coach — walks through practical ways to build skills and momentum through volunteering and open source work.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Saraelateif]({{ '/people/saraelateif/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=aHdaIwOEI8Q&t=0)
 - 1:43 - [Episode Overview: Volunteering, Open Source & Community Impact](https://www.youtube.com/watch?v=aHdaIwOEI8Q&t=103)

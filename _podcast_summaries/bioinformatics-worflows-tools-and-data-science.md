@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-biotechnology-to-bioinfor
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/bioinformatics-worflows-tools-and-data-science.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=ZFrcrTtnB1Q)
 - [Listen on Spotify](https://open.spotify.com/episode/3CohNIXZdooLYoIyIbr6EF)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-biotechnology-to-bioinfor
 
 How do you build reproducible, scalable bioinformatics workflows for sequencing and metagenomics using open-source tools? In this episode we explore practical answers with Sebastian Ayala Ruano, a bioinformatics software developer and Master's student in Systems Biology at Maastricht University. Sebastian has contributed to open-source projects such as MicW2Graph, VueGen, and VueCore to simplify multi-omics data analysis and has a background in cheminformatics, peptide discovery, and network-based analysis.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Sebastianayalaruano]({{ '/people/sebastianayalaruano/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=ZFrcrTtnB1Q&t=0)
 - 1:09 - [Career Transition: Biotechnology to Bioinformatics Software](https://www.youtube.com/watch?v=ZFrcrTtnB1Q&t=69)

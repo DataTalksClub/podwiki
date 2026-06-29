@@ -14,6 +14,8 @@ youtube_url: "https://www.youtube.com/watch?v=vXWGd7olv3c"
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/technical-writing-for-data-scientists.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=vXWGd7olv3c)
 
@@ -21,7 +23,15 @@ youtube_url: "https://www.youtube.com/watch?v=vXWGd7olv3c"
 
 How can technical writing accelerate your data science career in just one week? In this episode, Eugene Yan — an Applied Scientist at Amazon who previously led data science teams at Lazada and uCare.ai and writes about ML in production and career growth — walks through a practical, repeatable 7-day workflow for technical writing tailored to data scientists.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Eugeneyan]({{ '/people/eugeneyan/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=vXWGd7olv3c&t=0)
 - 1:40 - [Career Transition: Psychology to Applied Scientist](https://www.youtube.com/watch?v=vXWGd7olv3c&t=100)

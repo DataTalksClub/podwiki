@@ -15,4 +15,4 @@ My passion for solving business use cases, such as Price Optimization for commod
 
 ## Podcast Discussions
 
-- [Build & Scale Data Products for AI: Roadmaps, MLOps, Customer Research & Metrics]({{ '/podcasts/building-and-scaling-ai-data-products-with-mlops/' | relative_url }}). Related topics: product management, [MLOps]({{ '/wiki/mlops/' | relative_url }}), [data engineering]({{ '/wiki/data-engineering/' | relative_url }}), [data science]({{ '/wiki/data-science/' | relative_url }}).
+- [Build & Scale Data Products for AI: Roadmaps, MLOps, Customer Research & Metrics]({{ '/podcasts/building-and-scaling-ai-data-products-with-mlops/' | relative_url }}). Discussed: Episode Introduction & Guest Overview; Career Background & Transition to AI Products; Role & Responsibilities of Data Product Managers (Internal vs External); Customer Journey & Domain Knowledge for Data Professionals. Related topics: product management, [MLOps]({{ '/wiki/mlops/' | relative_url }}), [data engineering]({{ '/wiki/data-engineering/' | relative_url }}), [data science]({{ '/wiki/data-science/' | relative_url }}).

@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/becoming-a-solopreneur-in-data
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/solopreneur-developer-and-data-professional.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=gCLUY37HGtw)
 - [Listen on Spotify](https://open.spotify.com/episode/264kr8rkSV71NwlU3kphHm)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/becoming-a-solopreneur-in-data
 
 How do you build a sustainable solopreneur business that doesn't rely on VC funding—while diversifying income across courses, consulting, books, and side-gigs? In this episode, Noah Gift, founder of Pragmatic AI Labs and a lecturer on machine learning and data science at Northwestern, Duke MIDS, UC Berkeley, UC Davis, and UNC Charlotte, walks through his transition to solo work (since 2017) and a repeatable income mix for intentional small-business ownership.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Noahgift]({{ '/people/noahgift/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=gCLUY37HGtw&t=0)
 - 1:14 - [Episode Topic & Guest Overview: Becoming a Solopreneur with Noah Gift](https://www.youtube.com/watch?v=gCLUY37HGtw&t=74)

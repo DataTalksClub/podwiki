@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/transitioning-from-project-man
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/project-manager-to-data-scientist.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=rBKezdb9jEc)
 - [Listen on Spotify](https://open.spotify.com/episode/3vF1B2mKwImsVC7h3NIDJW)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/transitioning-from-project-man
 
 How do you move from project management into a data science career — and what skills, tools, and courses actually matter? In this episode, Ksenia Legostay, Manager/Data Scientist at momox GmbH, walks through her transition after four years as a project manager into three years researching fraud and anomaly detection and earning a degree in data analysis. We cover career foundations, the difference between analytics and data science, and a concrete learning strategy: assess strengths, target gaps, and build core.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Ksenialegostay]({{ '/people/ksenialegostay/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=rBKezdb9jEc&t=0)
 - 2:24 - [Guest Overview: Ksenia and episode focus (project management → data science)](https://www.youtube.com/watch?v=rBKezdb9jEc&t=144)

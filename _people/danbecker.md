@@ -18,4 +18,4 @@ Dan started his data science career by finishing 2nd (out of 1353 teams) in a ka
 
 ## Podcast Discussions
 
-- [Optimize Decisions with ML: Prescriptive & Robust Optimization for Supply Chain and Pricing]({{ '/podcasts/machine-learning-decision-optimization/' | relative_url }}). Related topics: [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), decision optimization.
+- [Optimize Decisions with ML: Prescriptive & Robust Optimization for Supply Chain and Pricing]({{ '/podcasts/machine-learning-decision-optimization/' | relative_url }}). Discussed: Gap: Machine Learning Predictions vs. Real-World Decisions; Prescriptive Analytics: Role in ML Pipelines; Formulating Optimization Problems: Objectives and Constraints; Modeling Uncertainty: Robust and Stochastic Optimization. Related topics: [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), decision optimization.

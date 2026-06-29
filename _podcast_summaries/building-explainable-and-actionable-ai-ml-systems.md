@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/interpretable-ai-and-ml-polina
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/building-explainable-and-actionable-ai-ml-systems.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=EQcY83VA0Us)
 - [Listen on Spotify](https://open.spotify.com/episode/0p84r6bZmgKO514oC1HE2L?si=30L5gJoSS6Wtrghtdr3jYA)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/interpretable-ai-and-ml-polina
 
 How do you build ML systems that business teams trust and can act on? In this episode, Polina Mosolova — a data scientist at SAP who completed an industrial PhD building end-to-end ML pipelines — demonstrates how to bridge research and production through explainable AI grounded in organizational trust theory. Drawing from her churn prediction research, Polina shows how the ABI framework (Ability, Benevolence, Integrity) transforms model explanations into actionable business interventions.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Polinamosolova]({{ '/people/polinamosolova/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode Introduction & Overview](https://www.youtube.com/watch?v=EQcY83VA0Us&t=0)
 - 1:14 - [Guest Introduction: Polina Mosolova — Industrial PhD and Churn Prediction](https://www.youtube.com/watch?v=EQcY83VA0Us&t=74)

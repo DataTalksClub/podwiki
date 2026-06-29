@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/ace-non-technical-data-science
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/data-interview-behavioral-and-portfolio-prep-guide.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=tRdLVUKU7Bo)
 - [Listen on Spotify](https://open.spotify.com/episode/7tO8GmqAcFUUk4fLqxEXy1)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/ace-non-technical-data-science
 
 Master behavioral interviews & prep to break into data roles: build an impact portfolio, use STAR stories, nail case interviews and cold emails.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Nicksingh]({{ '/people/nicksingh/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=tRdLVUKU7Bo&t=0)
 - 1:58 - [Guest Overview: Nick Singh’s career and book](https://www.youtube.com/watch?v=tRdLVUKU7Bo&t=118)

@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/designing-a-data-science-organ
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/open-source-turned-into-career-and-startup-creation.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=bwfR9dyxf1M)
 - [Listen on Spotify](https://open.spotify.com/episode/4JAwU2jQuXu4MoMucsE899?si=6ed45b98dd4a415a)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/designing-a-data-science-organ
 
 How do you turn open source work into a sustainable career and even a startup? In this episode Will McGugan — a Python open source maintainer and creator of PyFilesystem, Rich, and Textual — walks through his path from video game developer to founder of Textualize. We trace his early projects (BBCode parser, chess libraries), the design of PyFilesystem and S3 integrations, and how solving personal needs led to learning by building.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Willmcgugan]({{ '/people/willmcgugan/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=bwfR9dyxf1M&t=0)
 - 1:39 - [Guest Introduction: Will McGugan, Python Open Source Maintainer](https://www.youtube.com/watch?v=bwfR9dyxf1M&t=99)

@@ -17,4 +17,4 @@ Sandra Kublik is an AI entrepreneur, evangelist, and community builder, fosterin
 
 ## Podcast Discussions
 
-- [LLM Value Creation: GPT Communities, Business Use Cases & Human-in-the-Loop AI Applications]({{ '/podcasts/practical-llm-use-cases-and-product-patterns/' | relative_url }}). Related topics: [LLMs]({{ '/wiki/llms/' | relative_url }}).
+- [LLM Value Creation: GPT Communities, Business Use Cases & Human-in-the-Loop AI Applications]({{ '/podcasts/practical-llm-use-cases-and-product-patterns/' | relative_url }}). Discussed: Guest Introduction: Sandra Kublik, AI entrepreneur and GPT-3 author; LLM Landscape: Why GPT and large language models are everywhere; Career Journey: Nextgrid, Lablab.AI and YouTube entry into AI; Early GPT Community: Gaining access and demo-driven growth. Related topics: [LLMs]({{ '/wiki/llms/' | relative_url }}).

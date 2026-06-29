@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-physics-to-machine-learni
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/from-physics-to-computer-vision-career-transition.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=wJPi6Ip9PX0)
 - [Listen on Spotify](https://open.spotify.com/episode/4Kk7xXfD5t2VHnLDHpdW1y)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-physics-to-machine-learni
 
 How do you switch into computer vision and deep learning from a non-industry background — and build a portfolio that lands interviews? In this episode, Tatiana Gabruseva, a Computer Vision/Deep Learning engineer and Kaggle Competitions Master now working as a Senior ML Engineer at Cork University Hospital, maps a practical career-change roadmap. Drawing on her move from a physics PhD during maternity leave, Tatiana covers learning paths (Python, ML/DL courses, SQL, algorithms, system design), hands-on projects.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Tatianagabruseva]({{ '/people/tatianagabruseva/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=wJPi6Ip9PX0&t=0)
 - 1:57 - [Career origin: physics PhD to computer vision deep learning](https://www.youtube.com/watch?v=wJPi6Ip9PX0&t=117)

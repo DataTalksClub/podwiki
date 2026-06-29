@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/essentials-public-speaking-for
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/public-speaking-for-data-scientists.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=wOFvlR9UBxI)
 - [Listen on Spotify](https://open.spotify.com/episode/4QWfObiuYmtOCtpSL5LZf9)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/essentials-public-speaking-for
 
 How do data scientists move from technical deep dives to memorable keynotes and effective AI evangelism? In this episode, Ben Taylor, Chief AI Evangelist at DataRobot, breaks down the public speaking playbook for data practitioners who want to persuade, teach, and scale their talks.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Bentaylor]({{ '/people/bentaylor/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=wOFvlR9UBxI&t=0)
 - 1:32 - [Guest Overview: Ben Taylor, AI Evangelist at DataRobot](https://www.youtube.com/watch?v=wOFvlR9UBxI&t=92)

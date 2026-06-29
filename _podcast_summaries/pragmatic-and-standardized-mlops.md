@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/pragmatic-and-standardized-mlo
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/pragmatic-and-standardized-mlops.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=q3DTR3Od1MA)
 - [Listen on Spotify](https://open.spotify.com/episode/5UZPZTDllam3RrbI9sOyqS?si=Ghm1oD8bSFS6l0ULDlatpQ)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/pragmatic-and-standardized-mlo
 
 How do you build pragmatic, standardized MLOps across teams without chasing every new tool? In this episode, Maria Vechtomova — an MLOps tech lead and manager with roots in econometrics and early work moving from R to Python — tackles MLOps as an organizational challenge, not just a technology problem.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Mariavechtomova]({{ '/people/mariavechtomova/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=q3DTR3Od1MA&t=0)
 - 1:41 - [Episode Overview: Pragmatic and Standardized MLOps with Maria Vechtomova](https://www.youtube.com/watch?v=q3DTR3Od1MA&t=101)

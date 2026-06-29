@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/what-data-scientists-dont-ment
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/data-science-failures-and-mlops-lessons.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=c6dK1LWpv4g)
 - [Listen on Spotify](https://open.spotify.com/episode/3KR6zErxqeDuQ2jo8NDvNx)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/what-data-scientists-dont-ment
 
 How do you turn data science project failures into tangible career wins — and how should you talk about them on LinkedIn? In this episode, Yury Kashnitsky, Ph.D. in applied math, Kaggle Master and Senior ML Scientist at Elsevier who also leads the open course mlcourse.ai, walks through real production ML lessons and MLOps fixes learned across academia, startups and industry.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Yurykashnitsky]({{ '/people/yurykashnitsky/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode Introduction](https://www.youtube.com/watch?v=c6dK1LWpv4g&t=0)
 - 1:30 - [Episode Theme: Failures and LinkedIn Omissions](https://www.youtube.com/watch?v=c6dK1LWpv4g&t=90)

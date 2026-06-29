@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/career-coaching-lindsay-mcquad
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/get-junior-data-job-and-transferable-skills.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=_U8GrYJvmJM)
 - [Listen on Spotify](https://open.spotify.com/episode/3jMRuqU3ZEcSeoizuOU5q1)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/career-coaching-lindsay-mcquad
 
 Struggling to land a junior data job—how do you turn non-linear experience into a recruiter-ready CV, prepare for interviews, and push past imposter syndrome? In this episode, Lindsay McQuade, a transformational coach with 20+ years across management consulting, higher education and tech and former Senior Career & Development Coach at SPICED Academy, guides listeners through practical steps for junior data roles. Lindsay draws on her work designing programs for hundreds of learners (SPICED training rated 94% “very.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Lindsaymcquade]({{ '/people/lindsaymcquade/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 1:08 - [Guest Introduction & Career Journey](https://www.youtube.com/watch?v=_U8GrYJvmJM&t=68)
 - 5:02 - [Spiced Academy Programs Overview (Full-Stack & Data Science)](https://www.youtube.com/watch?v=_U8GrYJvmJM&t=302)

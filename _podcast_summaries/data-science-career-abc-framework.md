@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/the-abcs-of-data-science-danny
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/data-science-career-abc-framework.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=HVQ0DZOQcts)
 - [Listen on Spotify](https://open.spotify.com/episode/5T1Nm3HvrS9oIMH6C2AWcf)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/the-abcs-of-data-science-danny
 
 How do you pick the right data science path—and actually make the transition? In this episode, Danny Ma, a recovering data scientist now focused on ML and data engineering, walks through his ABC Framework (Analyst, Builder, Consultant) and pragmatic steps for career moves. Danny, who runs the #DataWithDanny community (4,500+ members) and specializes in analytics, supervised ML, data architecture and digital customer experiments, traces his own shift from SQL/SAS/Excel workflows to Python, Kaggle projects and.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Dannyma]({{ '/people/dannyma/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=HVQ0DZOQcts&t=0)
 - 0:49 - [LinkedIn Memes & Creative Editing for Data Audiences](https://www.youtube.com/watch?v=HVQ0DZOQcts&t=49)

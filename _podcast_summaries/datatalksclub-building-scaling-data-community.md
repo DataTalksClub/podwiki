@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/datatalks-club-behind-the-scen
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/datatalksclub-building-scaling-data-community.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=IxTyq96juVE)
 - [Listen on Spotify](https://open.spotify.com/episode/3ltAxUsCE8EAf0pRb9zxDK)
@@ -25,7 +27,16 @@ apple_url: "https://podcasts.apple.com/us/podcast/datatalks-club-behind-the-scen
 
 How do you scale a grassroots machine learning community from a few forum posts to thousands of active members? In this episode, Alexey Grigorev — founder of DataTalks.Club — sits down with Eugene Yan to walk through the real-world steps behind scaling and growing a machine learning community. Alexey shares his origins (forums, landing page, early events), the growth inflection that led to ~9k members, and practical event formats that work: Open Source Spotlight, Minis, Book of the Week, live coding and office.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Eugeneyan]({{ '/people/eugeneyan/' | relative_url }})
+- [Alexeygrigorev]({{ '/people/alexeygrigorev/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=IxTyq96juVE&t=0)
 - 0:09 - [Career Transition: Java to Machine Learning (Coursera, Andrew Ng)](https://www.youtube.com/watch?v=IxTyq96juVE&t=9)

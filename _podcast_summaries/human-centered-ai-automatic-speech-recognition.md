@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/human-centered-ai-for-disorder
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/human-centered-ai-automatic-speech-recognition.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=yTZ4cddD7DU)
 - [Listen on Spotify](https://open.spotify.com/show/0pck8zuiXdI0OrCg86DAPy?si=ac857db69d484277)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/human-centered-ai-for-disorder
 
 How can automatic speech recognition (ASR) better serve people with disordered speech and diverse accents? In this episode Katarzyna Foremniak, a computational linguist with over 10 years in NLP who has built language models for Audi and Porsche and teaches at the University of Warsaw, examines human-centered ASR for atypical and accented speech. We trace her move from linguistics to computational approaches and cover core phonetics and morpho-syntax concepts that matter for speech recognition.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Katarzynaforemniak]({{ '/people/katarzynaforemniak/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode Introduction: Human-Centered AI for Disordered Speech](https://www.youtube.com/watch?v=yTZ4cddD7DU&t=0)
 - 8:06 - [Guest Introduction & Career Highlights (Katarzyna Foremniak)](https://www.youtube.com/watch?v=yTZ4cddD7DU&t=486)

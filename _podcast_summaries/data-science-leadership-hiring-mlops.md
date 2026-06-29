@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/becoming-a-data-science-manage
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/data-science-leadership-hiring-mlops.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=qOLR84-KHoY)
 - [Listen on Spotify](https://open.spotify.com/episode/28Sy4owRwvSJRFTeKAamz2)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/becoming-a-data-science-manage
 
 How do you lead a data science team that prioritizes product impact while building recommender systems, real-time bidding (RTB) solutions, and maintainable MLOps? In this episode, Mariano Semelman, Head of Data Science at OLX Group with over 13 years of experience, walks through practical leadership decisions that bridge models and products.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Marianosemelman]({{ '/people/marianosemelman/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=qOLR84-KHoY&t=0)
 - 1:26 - [Guest Intro: Mariano Semelman, Head of Data Science at OLX](https://www.youtube.com/watch?v=qOLR84-KHoY&t=86)

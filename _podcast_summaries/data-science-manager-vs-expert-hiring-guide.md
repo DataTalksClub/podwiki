@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/data-science-manager-vs-data-s
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/data-science-manager-vs-expert-hiring-guide.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=hFmIgaN-F8Y)
 - [Listen on Spotify](https://open.spotify.com/episode/5Ug8YA3hKY9Kr5hVFDqZ77)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/data-science-manager-vs-data-s
 
 When should you hire a data science manager versus a deep technical expert, and how do you decide whether machine learning is actually the right solution? In this episode Barbara Sobkowiak — data scientist by training, GIS specialist by education, and manager by passion — walks through her career from GIS → SQL → BI to leading teams, and tackles hiring strategy, role design, and practical ML use cases like mental health monitoring and demand forecasting.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Barbarasobkowiak]({{ '/people/barbarasobkowiak/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=hFmIgaN-F8Y&t=0)
 - 1:29 - [Episode Topic: Data Science Manager vs Data Science Expert](https://www.youtube.com/watch?v=hFmIgaN-F8Y&t=89)

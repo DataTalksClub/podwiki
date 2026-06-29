@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/data-intensive-ai-bartosz-miku
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/production-ready-ai-engineering.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=BP6w_vKySN0)
 - [Listen on Spotify](https://open.spotify.com/episode/0nFSU92IQDbM4C9FLvdn4z)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/data-intensive-ai-bartosz-miku
 
 How do you move AI projects from proof-of-concept to reliable production systems while keeping prompts, pipelines, and response times under control? In this episode Bartosz Mikulski, an AI and data engineer who specializes in productionizing AI, breaks down the engineering work required to make models dependable beyond demos. Bartosz explains how to design robust data pipelines, apply prompt optimization practices, and introduce caching strategies that reduce load and improve responsiveness. He also covers.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Bartoszmikulski]({{ '/people/bartoszmikulski/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode Opening & Guest Overview (Data Intensive AI)](https://www.youtube.com/watch?v=BP6w_vKySN0&t=0)
 - 2:02 - [Book Contribution Clarified & Testing Focus](https://www.youtube.com/watch?v=BP6w_vKySN0&t=122)

@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/machine-learning-in-marketing-
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/machine-learning-for-asteroid-mining-and-water-detection.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=YxijEUoDCfw)
 - [Listen on Spotify](https://open.spotify.com/episode/7wjKCbCsD4ytuNrE8JrH2B?si=1WPAtw6PSZGVib0qSsoLvA)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/machine-learning-in-marketing-
 
 How can we reliably detect water on near-Earth asteroids using machine learning and hyperspectral spectroscopy to enable in-situ resource utilization (ISRU)? In this episode Daynan Crull—co-founder of Karman+ and lead of its science and technology effort—walks through the science and engineering needed to find and characterize asteroid water for space missions. Drawing on his background in remote sensing and ML, Daynan explains hyperspectral infrared signatures for water detection, spectral classification.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Daynancrull]({{ '/people/daynancrull/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 1:23 - [Podcast Introduction](https://www.youtube.com/watch?v=YxijEUoDCfw&t=83)
 - 1:51 - [Career & Data Science Pivot: From Astronomy to Asteroid Mining](https://www.youtube.com/watch?v=YxijEUoDCfw&t=111)

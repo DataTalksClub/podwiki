@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/ai-for-digital-health-maria-br
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/building-ai-digital-health-startups.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=whpkDmVVGUE)
 - [Listen on Spotify](https://open.spotify.com/episode/2NE0vbiYwXxOuqychHIqBR?si=QdRyuJvSRE2V3bLwHaEv-Q)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/ai-for-digital-health-maria-br
 
 How do you build a digital health startup that ships a focused MVP, uses AI for diagnosis, and delivers care via telemedicine while overcoming data gaps and legacy workflows? In this episode Maria-Liisa Bruckert, Co-Founder and Co-CEO of SQIN and recipient of the Google Play Best of 2020 award and Google Female Founder Immersion 2020, walks through her transition from electrical engineering to health tech and the practical playbook she uses to de-risk product development.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Mariabruckert]({{ '/people/mariabruckert/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=whpkDmVVGUE&t=0)
 - 0:49 - [Career Journey: From Electrical Engineering to Founding SQIN](https://www.youtube.com/watch?v=whpkDmVVGUE&t=49)

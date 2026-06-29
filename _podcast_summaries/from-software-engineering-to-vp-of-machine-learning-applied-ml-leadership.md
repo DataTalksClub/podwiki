@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/the-unwritten-rules-for-succes
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=su2M058m3Lw)
 - [Listen on Spotify](https://open.spotify.com/episode/2c8E0hZ02osih7ljEB6I6f?si=lSPp07r4TgmpGQey0cUjsA)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/the-unwritten-rules-for-succes
 
 How do you move from a hands-on software engineer to a VP of Machine Learning while getting stakeholders to say “yes,” delivering rapid POCs, and building the full-stack skills teams need? In this episode Jack Blandin walks through that transition. Jack began as a Software Engineer in 2015, shifted into Data Science and Machine Learning in 2017, and has held ML and leadership roles at Fi, Wayfair, Trunk Club, and GoHealth—managing teams of 2 to 15. He’s now VP of Data Science & Machine Learning at Fi, finishing a.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Jackblandin]({{ '/people/jackblandin/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=su2M058m3Lw&t=0)
 - 0:13 - [Guest Overview: Jack’s career arc from software engineer to VP of ML](https://www.youtube.com/watch?v=su2M058m3Lw&t=13)

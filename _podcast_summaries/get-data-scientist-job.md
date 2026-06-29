@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/standing-out-as-a-data-scienti
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/get-data-scientist-job.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=Sb4CJlonB3c)
 - [Listen on Spotify](https://open.spotify.com/episode/2Yxay9HJmd6dvk34MHJ0K2)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/standing-out-as-a-data-scienti
 
 How do you actually land a data scientist role — from a resume that passes screening to a portfolio that wins interviews and an offer that closes? In this episode Luke Whipps, co-founder of Neural.AI and host of the AI Game Changer podcast with 8+ years recruiting experience, walks through the recruiter workflow and practical steps data scientists can use to improve hiring outcomes.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Lukewhipps]({{ '/people/lukewhipps/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=Sb4CJlonB3c&t=0)
 - 1:39 - [Guest Introduction: Luke Whipps, recruiter and podcast host](https://www.youtube.com/watch?v=Sb4CJlonB3c&t=99)

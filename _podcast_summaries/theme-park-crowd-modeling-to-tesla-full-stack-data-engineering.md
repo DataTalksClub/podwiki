@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-theme-parks-to-tesla-buil
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/theme-park-crowd-modeling-to-tesla-full-stack-data-engineering.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=gXvVMvhfrIY)
 - [Listen on Spotify](https://open.spotify.com/episode/5dpBs4xr3zMkBDw6cTYHQE?si=pivilqeDTHOiNCBb1bFHdA)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-theme-parks-to-tesla-buil
 
 How can theme parks use data to cut wait times and guide visitors in real time? In this episode, Abouzar Abbaspour — an EngD-trained machine learning and data engineer whose career spans telecom, e-commerce (bol.com), theme parks (Efteling) and automotive (Tesla) — walks through building systems that optimize visitor flow using crowd modeling, queue prediction and real-time recommendations.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Abouzarabbaspour]({{ '/people/abouzarabbaspour/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction & Event Info](https://www.youtube.com/watch?v=gXvVMvhfrIY&t=0)
 - 1:17 - [Early Career: Software Engineering to Data Science](https://www.youtube.com/watch?v=gXvVMvhfrIY&t=77)

@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-math-teacher-to-analytics
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/from-math-graduate-to-data-analytics.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=qh6-HDhw2xY)
 - [Listen on Spotify](https://open.spotify.com/episode/153XI6DvtNWHYzSAv2UTqw)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-math-teacher-to-analytics
 
 How do you actually break into data analytics — and what combination of networking, portfolio work, SQL skills, and interview prep gets you hired? In this episode, Juan Pablo Murillo, an AI and data professional now at Google with prior roles as an Amazon Business Intelligence Engineer and data scientist at T-Mobile, walks through a practical path from math grad to analytics roles.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Juanpablo]({{ '/people/juanpablo/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=qh6-HDhw2xY&t=0)
 - 1:51 - [Background & Motivation: Math Graduate to Data Analytics](https://www.youtube.com/watch?v=qh6-HDhw2xY&t=111)

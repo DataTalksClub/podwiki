@@ -16,12 +16,22 @@ apple_url: "https://podcasts.apple.com/us/podcast/building-pet-health-tech-ml-se
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=4bl2TSHD_Fc)
 - [Listen on Spotify](https://open.spotify.com/episode/5Ku6cCDpGbtWJjJ2mGtg7O)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/building-pet-health-tech-ml-sensors-and-dog-behavior-data/id1541710331?i=1000741036961)
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Sofyayulpatova]({{ '/people/sofyayulpatova/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Sofya's pet tech startup with machine learning sensor data and behavior](https://www.youtube.com/watch?v=4bl2TSHD_Fc&t=0)
 - 10:00 - [Journey from programming hobby to full time software development career](https://www.youtube.com/watch?v=4bl2TSHD_Fc&t=600)

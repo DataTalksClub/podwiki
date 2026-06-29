@@ -10,125 +10,295 @@ related:
   - Machine Learning System Design
 ---
 
-## Definition and Scope
+Job search is the candidate-side work of choosing a data or AI role and proving
+fit. It also checks whether the company can use the candidate well. In the
+DataTalks.Club archive, job search connects
+[career transition]({{ '/wiki/career-transition/' | relative_url }}),
+[CV screening]({{ '/wiki/cv-screening/' | relative_url }}), and
+[job descriptions]({{ '/wiki/job-descriptions/' | relative_url }}). It also
+covers portfolio evidence and recruiter calls. It includes interviews, offers,
+and company due diligence.
 
-Job search covers how candidates in the podcast archive find, evaluate, and win
-data, analytics, ML, data engineering, and AI roles. It includes role targeting,
-CV structure, portfolio evidence, recruiter screens, technical interviews,
-behavioral interviews, take-home work, networking, salary conversations, and
-the warning signs that a role title does not match the work.
+The archive's practical definition is narrower than "apply to many jobs."
+[Sarah Mestiri]({{ '/people/sarahmestiri/' | relative_url }}) frames the search
+around goals, networking, CV, and strategy in
+[Tech Job Search Strategy]({{ '/podcasts/job-search-strategy-in-tech-projects-skills-cv-networking/' | relative_url }}).
+[Luke Whipps]({{ '/people/lukewhipps/' | relative_url }}) adds the recruiter
+view in
+[Land Data Scientist Roles]({{ '/podcasts/get-data-scientist-job/' | relative_url }}).
+[Nick Singh]({{ '/people/nicksingh/' | relative_url }}) treats interviews as a
+communication problem in
+[Ace Data Interviews]({{ '/podcasts/data-interview-behavioral-and-portfolio-prep-guide/' | relative_url }}).
 
-This page is not a generic checklist. It synthesizes what recruiters, hiring
-managers, career coaches, interview coaches, and career switchers repeatedly say
-in the archive: candidates improve their odds when they narrow the target,
-match evidence to the job, and prepare stories that show ownership and impact.
+## Link Map
 
-
-## Recurring Archive Themes
-
-### Start by choosing the role more precisely
-
-Several episodes warn that "data scientist" can mean product analytics,
-forecasting, ML engineering, research, dashboarding, or general data work. The
-same applies to data engineering and AI engineering. Good search strategy starts
-with target tasks, target companies, and a realistic understanding of which
-skills matter for that role.
-
-### CVs should connect tools to work
-
-Recruiter episodes repeatedly criticize buzzword stacks with no project
-evidence. A strong CV makes the reader see what the candidate personally did,
-which tools they used, which problem they solved, and what changed because of
-the work. Role-specific wording matters, but the archive warns against changing
-titles or claims so far that they become misleading.
-
-### Portfolios need context and ownership
-
-Portfolio work helps when it shows end-to-end thinking, personal contribution,
-domain context, and practical tradeoffs. Projects can come from Kaggle, courses,
-bootcamps, open source, nonprofits, internships, or self-directed work. The
-archive's strongest advice is to document the project so an interviewer can ask
-about choices, limitations, and next steps.
-
-### Networking is targeted research, not mass messaging
-
-Job-search coaches and recruiters favor smaller target lists, informational
-interviews, short personalized outreach, weak ties, referrals, and follow-up.
-Networking works best when candidates ask specific questions and use the answers
-to sharpen their role choice and application story.
-
-### Interviews test communication under constraints
-
-Technical interviews are only part of the archive. Guests also discuss recruiter
-screens, intro calls, behavioral questions, case interviews, product-sense
-questions, take-home work, salary conversations, and rejections. The recurring
-pattern is to prepare examples before the interview and to lead with impact
-before diving into technical details.
-
-### Candidates should evaluate companies too
-
-The archive gives candidates a due-diligence role. Ask about the team, data
-maturity, day-to-day work, objectives, engineering support, interview process,
-take-home burden, salary range, remote policies, and whether the company knows
-what it wants from the role.
-
-## Search Patterns
-
-### Career changer search
-
-Career changers need a narrow target, practical projects, and a translated
-background story. Episodes recommend emphasizing transferable skills, results,
-and project proof instead of apologizing for a nontraditional path.
-
-### Junior search
-
-Junior candidates are advised to pick a domain or company type, show purpose,
-build role-matched projects, and apply even when they do not meet every listed
-requirement. The archive also suggests alternative proof sources such as
-nonprofit work, contracts, internships, open source, teaching, and coaching.
-
-### Data engineering search
-
-Data engineering job-search episodes emphasize Python, SQL, Docker, Airflow,
-warehouses, code quality, pipelines, and the ability to explain projects. Hiring
-teams look for problem and outcome language, not only tool names.
-
-### Data science and ML search
-
-Data science search episodes emphasize role spectrum, CV clarity, case studies,
-behavioral stories, technical fundamentals, product metrics, and the ability to
-defend models used in projects. ML interview episodes add coding, scenario
-questions, fundamentals-first prep, and expectation alignment with recruiters.
-
-## Episode Evidence
-
-| Episode | Evidence |
-| --- | --- |
-| [Tech Job Search Strategy](https://datatalks.club/podcast.html) | At 10:59, the four pillars are goals, networking, CV, and strategy; at 14:30, candidates define ideal roles by tasks and skills; at 26:28, projects validate skills better than course completion alone; at 34:18, outreach messages should be personalized and short. |
-| [Land Data Scientist Roles](https://datatalks.club/podcast.html) | At 14:07, first impressions start with CV design and clarity; at 19:50, projects should link tech stacks to concrete work; at 37:54, candidates should tailor applications by researching job needs; at 44:26, the search works better when candidates focus on fewer companies and segment the market. |
-| [Master Machine Learning and Data Science Interviews](https://datatalks.club/podcast.html) | At 22:02, interview prep starts with process stages and assumptions; at 25:50, recruiter screening filters for role fit; at 38:35, candidates prepare elevator pitches and STAR stories; at 48:10, fundamentals come before secondary and ideal skills. |
-| [Data Science Interview Guide](https://datatalks.club/podcast.html) | At 2:42, building a project differentiates an application; at 18:28, the CV is treated like a landing page; at 27:51, take-home projects require time-investment judgment; at 45:46, PhD candidates are advised to use cold-start projects, synthetic data, and blogging. |
-| [Ace Data Interviews](https://datatalks.club/podcast.html) | At 8:58, behavioral interviews test what interviewers need beyond technical skill; at 13:20, grid planning and STAR stories structure preparation; at 25:13, project walkthroughs should show ownership; at 44:27, case interviews start by clarifying goals. |
-| [How I Landed a Data Engineering Job](https://datatalks.club/podcast.html) | At 16:14, the guest describes the timeline from bootcamp to offer; at 22:57, tracking about 130 applications gives the search structure; at 27:55, live coding and take-home tasks are interview hurdles; at 51:42, custom portfolio projects help candidates stand out. |
-| [Data Engineering Job Prep and Interview Guide](https://datatalks.club/podcast.html) | At 1:20, core skills are Python, SQL, Docker, Airflow, and warehouses; at 2:46, portfolio strategy includes personal projects and open-source contributions; at 7:46, technical interviews include SQL, Python, and take-home projects; at 39:49, nonprofits, contracts, and internships can substitute for commercial experience. |
-| [Data Science Jobs](https://datatalks.club/podcast.html) | At 10:15, job titles can hide role reality; at 18:14, candidates need goals and questions; at 23:01, a role-clarity checklist covers team, objectives, responsibilities, and tech lists; at 30:20, long tech lists and vague responsibilities become red flags. |
-
-## Guest Experts
-
-- Luke Whipps contributes recruiter-side detail on CVs, portfolios, interview
-  stages, outreach, salary, and candidate positioning.
-- Sarah Mestiri contributes a job-search framework built around goals,
-  networking, CV, and strategy.
-- Oleg Ishkhanov contributes hiring-manager and interview-design evidence from
-  data science management and interview coaching.
-- Nick Singh contributes behavioral, portfolio, case, and cold-email tactics.
-- Tereza Iofciu contributes role-red-flag and data-maturity evaluation tactics.
-
-## Related Pages
+Core wiki context:
 
 - [Career Transition]({{ '/wiki/career-transition/' | relative_url }})
 - [Career Growth]({{ '/wiki/career-growth/' | relative_url }})
 - [Hiring]({{ '/wiki/hiring/' | relative_url }})
+- [CV Screening]({{ '/wiki/cv-screening/' | relative_url }})
+- [Job Descriptions]({{ '/wiki/job-descriptions/' | relative_url }})
+- [Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }})
+- [Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }})
+- [Data Engineer vs Data Scientist]({{ '/wiki/data-engineer-vs-data-scientist/' | relative_url }})
+- [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
+- [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
+- [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
+
+Podcast interviews that anchor this page:
+
+- [Tech Job Search Strategy]({{ '/podcasts/job-search-strategy-in-tech-projects-skills-cv-networking/' | relative_url }})
+- [Land Data Scientist Roles]({{ '/podcasts/get-data-scientist-job/' | relative_url }})
+- [Data Engineering Job Prep and Interview Guide]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }})
+- [Ace Data Interviews]({{ '/podcasts/data-interview-behavioral-and-portfolio-prep-guide/' | relative_url }})
+- [Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }})
+- [Land Junior Data Jobs]({{ '/podcasts/get-junior-data-job-and-transferable-skills/' | relative_url }})
+- [Hiring Data Engineers in Europe]({{ '/podcasts/hiring-for-data-engineering-jobs-in-europe/' | relative_url }})
+- [Data Science Jobs]({{ '/podcasts/data-science-job-red-flags-and-mismatched-roles/' | relative_url }})
+
+Guest experts connected to the job-search archive:
+
+- [Sarah Mestiri]({{ '/people/sarahmestiri/' | relative_url }})
+- [Luke Whipps]({{ '/people/lukewhipps/' | relative_url }})
+- [Jeff Katz]({{ '/people/jeffkatz/' | relative_url }})
+- [Nick Singh]({{ '/people/nicksingh/' | relative_url }})
+- [Oleg Novikov]({{ '/people/olegnovikov/' | relative_url }})
+- [Lindsay McQuade]({{ '/people/lindsaymcquade/' | relative_url }})
+- [Nicolas Rassam]({{ '/people/nicolasrassam/' | relative_url }})
+- [Tereza Iofciu]({{ '/people/terezaiofciu/' | relative_url }})
+
+## Common Definition
+
+The podcast archive treats job search as a matching process. Candidates define
+the target work, gather evidence that proves fit, and tell that evidence in the
+hiring team's language. Sarah Mestiri makes the target explicit at 14:30 and
+20:01 in
+[Tech Job Search Strategy]({{ '/podcasts/job-search-strategy-in-tech-projects-skills-cv-networking/' | relative_url }}).
+Role choice starts from tasks, skills, interests, and market demand.
+
+Luke Whipps gives the recruiter-side version at 37:54 and 44:26 in
+[Land Data Scientist Roles]({{ '/podcasts/get-data-scientist-job/' | relative_url }}).
+Candidates research job needs, map the CV to those needs, and focus on fewer
+companies. Oleg Novikov adds at 18:28 and 25:51 in
+[Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }})
+that the CV should behave like a landing page. It should foreground personal
+contribution.
+
+The archive also converges on proof over labels. Jeff Katz names Python and SQL,
+warehouse work, code quality, and project volume at 1:20-2:46 in
+[Data Engineering Job Prep and Interview Guide]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }}).
+Those signals connect job search to
+[Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}),
+[Machine Learning]({{ '/wiki/machine-learning/' | relative_url }}), and
+[Career Growth]({{ '/wiki/career-growth/' | relative_url }}).
+
+## Disagreements and Boundaries
+
+Guests differ on search breadth. Jeff Katz advises candidates at 15:53 in
+[Data Engineering Job Prep and Interview Guide]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }})
+to apply broadly and avoid self-filtering too early. Luke Whipps and Sarah
+Mestiri push a narrower boundary. At 44:26 in
+[Land Data Scientist Roles]({{ '/podcasts/get-data-scientist-job/' | relative_url }})
+and 29:35 in
+[Tech Job Search Strategy]({{ '/podcasts/job-search-strategy-in-tech-projects-skills-cv-networking/' | relative_url }}),
+they recommend segmentation, target-company lists, and focused outreach.
+
+The synthesis isn't "spray and pray" versus "apply to five jobs." Early
+candidates may need volume to learn the market. The archive still warns that
+unfocused volume weakens CV tailoring, interview preparation, and networking.
+
+Guests also draw boundaries around portfolio work. Oleg Novikov treats
+take-home projects as a return-on-investment decision at 27:51 in
+[Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }}).
+Nick Singh emphasizes ownership and impact at 25:13 and 27:50 in
+[Ace Data Interviews]({{ '/podcasts/data-interview-behavioral-and-portfolio-prep-guide/' | relative_url }}).
+For candidates, the portfolio isn't separate from interviews. The project must
+stand up to questions about tradeoffs, metrics, and business context.
+
+## Role Targeting and Market Research
+
+Role targeting begins by translating titles into work. Sarah Mestiri asks
+candidates to define the ideal role through tasks, skills, and future vision at
+14:30 in
+[Tech Job Search Strategy]({{ '/podcasts/job-search-strategy-in-tech-projects-skills-cv-networking/' | relative_url }}).
+At 15:07, she validates that choice with role analysis and informational
+interviews.
+
+Lindsay McQuade makes the junior-candidate version at 20:28 and 23:48 in
+[Land Junior Data Jobs]({{ '/podcasts/get-junior-data-job-and-transferable-skills/' | relative_url }}).
+The market blurs data scientist, analyst, and engineer titles. A candidate
+needs a job focus before tailoring applications.
+
+Data roles make this boundary important. Oleg Novikov separates product data
+science from machine learning engineering at 15:29 in
+[Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }}).
+[Tereza Iofciu]({{ '/people/terezaiofciu/' | relative_url }}) warns in
+[Data Science Jobs]({{ '/podcasts/data-science-job-red-flags-and-mismatched-roles/' | relative_url }})
+that titles can hide the real work and team maturity. Candidates should read
+[Job Descriptions]({{ '/wiki/job-descriptions/' | relative_url }}) as evidence
+about responsibilities, not as a tool wishlist.
+
+## CV and Application Evidence
+
+The archive treats the CV as a proof surface. Luke Whipps starts with first
+impressions, formatting, and clarity at 14:07 in
+[Land Data Scientist Roles]({{ '/podcasts/get-data-scientist-job/' | relative_url }}).
+At 19:50 and 25:04, he asks candidates to connect tools to projects, use cases,
+and business impact.
+
+Oleg Novikov gives a similar rule at 18:28 and 44:38 in
+[Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }}).
+The CV should be easy to scan. It should highlight contribution and remove
+irrelevant personal details.
+
+For junior and transition candidates, the CV has to translate prior work.
+Lindsay McQuade focuses on transferable skills at 11:51-15:06 in
+[Land Junior Data Jobs]({{ '/podcasts/get-junior-data-job-and-transferable-skills/' | relative_url }}).
+She moves candidates from responsibility lists toward achievement-based
+evidence.
+
+Nicolas Rassam gives the data engineering version at 31:16 in
+[Hiring Data Engineers in Europe]({{ '/podcasts/hiring-for-data-engineering-jobs-in-europe/' | relative_url }}).
+He asks for SQL, Python, the problem solved, and the outcome. That makes
+[CV Screening]({{ '/wiki/cv-screening/' | relative_url }}) part of job search,
+not only an employer-side topic.
+
+## Portfolio Projects and Public Proof
+
+Portfolio work matters when it shows reasoning through a real problem. Sarah
+Mestiri argues at 26:28 in
+[Tech Job Search Strategy]({{ '/podcasts/job-search-strategy-in-tech-projects-skills-cv-networking/' | relative_url }})
+that projects validate skills better than course completion alone. Oleg Novikov
+starts [Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }})
+with the same idea at 2:42. A project can differentiate an application before
+the interview.
+
+The expected project changes by role. Jeff Katz recommends personal projects
+and open-source contributions at 2:46 in
+[Data Engineering Job Prep and Interview Guide]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }}).
+At 2:22 he names clean code, useful names, and tests as part of the data
+engineering signal. Nicolas Rassam adds at 54:25-55:53 in
+[Hiring Data Engineers in Europe]({{ '/podcasts/hiring-for-data-engineering-jobs-in-europe/' | relative_url }})
+that standout projects should be shareable and explainable.
+
+Use the project-specific pages for deeper guidance:
+
+- [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
+- [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
+- [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
+
+## Networking and Referrals
+
+Networking in the archive is targeted research, not mass messaging. Sarah
+Mestiri recommends weak ties, referrals, informational interviews, and weekly
+outreach at 31:40-41:17 in
+[Tech Job Search Strategy]({{ '/podcasts/job-search-strategy-in-tech-projects-skills-cv-networking/' | relative_url }}).
+At 34:18, she makes outreach short and personalized. At 36:10, she asks about
+day-to-day work and success factors.
+
+Nick Singh gives the interview-prep version at 58:26-1:00:59 in
+[Ace Data Interviews]({{ '/podcasts/data-interview-behavioral-and-portfolio-prep-guide/' | relative_url }}).
+Cold emails work better when they include project links and specific evidence.
+Lindsay McQuade adds LinkedIn informational outreach at 58:30 in
+[Land Junior Data Jobs]({{ '/podcasts/get-junior-data-job-and-transferable-skills/' | relative_url }}).
+That's especially useful for juniors who can't rely on recruiters.
+
+## Interview Preparation
+
+Interview preparation begins with the process. Oleg Novikov outlines a common
+funnel at 13:24 in
+[Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }}).
+It moves from recruiter screen to take-home and interview rounds.
+
+Jeff Katz gives the data engineering version at 7:46 in
+[Data Engineering Job Prep and Interview Guide]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }}).
+The common formats are SQL, Python, and take-home projects. Nicolas Rassam adds
+at 26:38 in
+[Hiring Data Engineers in Europe]({{ '/podcasts/hiring-for-data-engineering-jobs-in-europe/' | relative_url }})
+that assessment varies by level.
+
+The behavioral and case-interview episodes are communication heavy. Nick Singh
+explains at 8:58 and 13:20 in
+[Ace Data Interviews]({{ '/podcasts/data-interview-behavioral-and-portfolio-prep-guide/' | relative_url }})
+that interviewers need more than technical skill. He recommends grid planning
+and STAR stories. At 44:27 and 45:30, he starts case and product-sense
+interviews by clarifying goals, metrics, and assumptions. That connects this
+page to
+[Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }}),
+where structured reasoning matters.
+
+## Career Changers and Juniors
+
+Career changers need a bridge story, not an apology. Sarah Mestiri works with
+career changers and return-to-work candidates in
+[Tech Job Search Strategy]({{ '/podcasts/job-search-strategy-in-tech-projects-skills-cv-networking/' | relative_url }}).
+At 53:30, she advises candidates to lead with results and transferable skills.
+Lindsay McQuade builds the junior version at 11:51-13:02 in
+[Land Junior Data Jobs]({{ '/podcasts/get-junior-data-job-and-transferable-skills/' | relative_url }}).
+Past experience becomes recruiter-friendly evidence for data roles.
+
+The archive also offers proof paths without commercial experience. Jeff Katz
+names nonprofits, paid projects, and internships at 39:49 in
+[Data Engineering Job Prep and Interview Guide]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }}).
+Oleg Novikov gives PhD and cold-start candidates a project, synthetic-data, and
+blogging path at 45:46 in
+[Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }}).
+For fuller transition patterns, see
+[Career Transition]({{ '/wiki/career-transition/' | relative_url }}) and
+[Academia]({{ '/wiki/academia/' | relative_url }}).
+
+## Data Engineering Search
+
+Data engineering search is more concrete than generic "data" search. The role
+can be tested through pipelines, code, SQL, and operational judgment. Jeff Katz
+names Python and SQL, Docker and Airflow, and warehouse work at 1:20-9:41 in
+[Data Engineering Job Prep and Interview Guide]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }}).
+He also names code quality and database concepts.
+At 21:56 and 37:49, he warns that certificates shouldn't replace skill proof
+and fundamentals.
+
+Nicolas Rassam's recruiter view adds market context in
+[Hiring Data Engineers in Europe]({{ '/podcasts/hiring-for-data-engineering-jobs-in-europe/' | relative_url }}).
+Transferable experience from software and BI roles matters at 20:57.
+Junior-to-senior expectations differ at 22:55. For career switchers, focused
+skills plus projects matter at 30:39. This is the candidate-side companion to
+[Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }}),
+[Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }}),
+and [Hiring]({{ '/wiki/hiring/' | relative_url }}).
+
+## Company Evaluation and Offers
+
+Candidates also evaluate companies, and Tereza Iofciu's
+[Data Science Jobs]({{ '/podcasts/data-science-job-red-flags-and-mismatched-roles/' | relative_url }})
+episode is the clearest archive source for this boundary. Candidates should
+ask about team structure, objectives, data maturity, and responsibilities. They
+should also check whether the company knows what it wants from the role. That
+turns job search into a two-sided fit check.
+
+Offer and rejection handling also appear in the archive. Oleg Novikov discusses
+offer components, market comparison, negotiation, and current-salary problems
+at 42:02 and 50:17 in
+[Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }}).
+He recommends gracious replies to rejections at 49:10 because relationships can
+matter later. Luke Whipps adds salary signals and recruiter trust at
+52:22-1:02:07 in
+[Land Data Scientist Roles]({{ '/podcasts/get-data-scientist-job/' | relative_url }}).
+That includes how transparent to be about other interviews.
+
+## Related Pages
+
+Use these pages for adjacent role, hiring, transition, and portfolio context.
+
+- [Career Transition]({{ '/wiki/career-transition/' | relative_url }})
+- [Career Growth]({{ '/wiki/career-growth/' | relative_url }})
+- [Hiring]({{ '/wiki/hiring/' | relative_url }})
+- [CV Screening]({{ '/wiki/cv-screening/' | relative_url }})
+- [Job Descriptions]({{ '/wiki/job-descriptions/' | relative_url }})
 - [Academia]({{ '/wiki/academia/' | relative_url }})
+- [Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }})
+- [Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }})
+- [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
+- [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
 - [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
 - [Open Source and Developer Relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }})

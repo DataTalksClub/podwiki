@@ -33,6 +33,11 @@ Start AI and LLM wiki work from these grounded clusters.
   [`generative-ai-chatbots-in-production-security`](/podcasts/generative-ai-chatbots-in-production-security/),
   [`practical-llm-use-cases-and-product-patterns`](/podcasts/practical-llm-use-cases-and-product-patterns/),
   [`practical-generative-ai-consulting-from-expertise-to-impact`](/podcasts/practical-generative-ai-consulting-from-expertise-to-impact/).
+- NLP, annotation, and open-source language tooling:
+  [`nlp-team-hiring-and-production-mlops`](/podcasts/nlp-team-hiring-and-production-mlops/),
+  [`hugging-face-contributions-and-nlp-portfolio`](/podcasts/hugging-face-contributions-and-nlp-portfolio/),
+  [`nlp-dataset-creation-annotation-tools-workflows`](/podcasts/nlp-dataset-creation-annotation-tools-workflows/),
+  [`building-open-source-nlp-tool`](/podcasts/building-open-source-nlp-tool/).
 
 ## MLOps and Production ML
 
@@ -86,6 +91,11 @@ pages.
   [`data-governance-data-access-management`](/podcasts/data-governance-data-access-management/),
   [`data-privacy-engineering-gdpr-machine-learning`](/podcasts/data-privacy-engineering-gdpr-machine-learning/),
   [`responsible-explainable-ai-bias-detection`](/podcasts/responsible-explainable-ai-bias-detection/).
+- Data strategy, translator work, and CDO operating models:
+  [`data-translator-role-and-data-strategy`](/podcasts/data-translator-role-and-data-strategy/),
+  [`chief-data-officer-data-strategy-and-org-design`](/podcasts/chief-data-officer-data-strategy-and-org-design/),
+  [`data-strategy-and-dataops-for-ai-powered-products`](/podcasts/data-strategy-and-dataops-for-ai-powered-products/),
+  [`mindful-data-strategy-for-business-impact`](/podcasts/mindful-data-strategy-for-business-impact/).
 - Data mesh, contracts, and self-service platforms:
   [`data-mesh-architecture-decentralized-data-products`](/podcasts/data-mesh-architecture-decentralized-data-products/),
   [`scaling-data-engineering-teams-self-service-platforms`](/podcasts/scaling-data-engineering-teams-self-service-platforms/),
@@ -128,11 +138,26 @@ articles.
   [`devrel-open-source-machine-learning`](/podcasts/devrel-open-source-machine-learning/),
   [`open-source-ml-contributions`](/podcasts/open-source-ml-contributions/),
   [`hugging-face-contributions-and-nlp-portfolio`](/podcasts/hugging-face-contributions-and-nlp-portfolio/).
+- Hiring, management, and data-team design:
+  [`hiring-data-scientists-and-analysts`](/podcasts/hiring-data-scientists-and-analysts/),
+  [`data-science-job-red-flags-and-mismatched-roles`](/podcasts/data-science-job-red-flags-and-mismatched-roles/),
+  [`data-science-team-structure-and-org-design`](/podcasts/data-science-team-structure-and-org-design/),
+  [`hiring-and-managing-data-science-teams-in-b2b-saas`](/podcasts/hiring-and-managing-data-science-teams-in-b2b-saas/).
+- Community building, course operations, and teaching:
+  [`mlops-community-building-and-meetups`](/podcasts/mlops-community-building-and-meetups/),
+  [`datatalksclub-building-scaling-data-community`](/podcasts/datatalksclub-building-scaling-data-community/),
+  [`building-ml-communities-diversity-and-career-growth`](/podcasts/building-ml-communities-diversity-and-career-growth/),
+  [`datatalksclub-scaling-and-free-courses`](/podcasts/datatalksclub-scaling-and-free-courses/).
 - Personal brand, technical writing, and public speaking:
   [`personal-brand-for-data-professionals`](/podcasts/personal-brand-for-data-professionals/),
   [`technical-writing-for-data-scientists`](/podcasts/technical-writing-for-data-scientists/),
   [`public-speaking-for-data-scientists`](/podcasts/public-speaking-for-data-scientists/),
   [`practical-devrel-demofirst-education-and-open-source`](/podcasts/practical-devrel-demofirst-education-and-open-source/).
+- Academic research to industry and research software paths:
+  [`research-to-production-ml-systems-roadmap`](/podcasts/research-to-production-ml-systems-roadmap/),
+  [`from-large-hadron-collider-to-data-science-research-software-engineering`](/podcasts/from-large-hadron-collider-to-data-science-research-software-engineering/),
+  [`from-radio-astronomy-to-machine-learning-and-data-engineering`](/podcasts/from-radio-astronomy-to-machine-learning-and-data-engineering/),
+  [`teaching-reproducible-research-and-open-science-coding-practices-for-academia`](/podcasts/teaching-reproducible-research-and-open-science-coding-practices-for-academia/).
 
 ## Product, Experimentation, and Applied Domains
 
@@ -164,6 +189,11 @@ pages.
   [`industrial-data-small-data-production-machine-learning`](/podcasts/industrial-data-small-data-production-machine-learning/),
   [`machine-learning-for-asteroid-mining-and-water-detection`](/podcasts/machine-learning-for-asteroid-mining-and-water-detection/),
   [`ai-for-ecology-biodiversity-and-conservation`](/podcasts/ai-for-ecology-biodiversity-and-conservation/).
+- Bioinformatics, life sciences, and scientific data workflows:
+  [`learning-machine-learning-self-taught-bioinformatics`](/podcasts/learning-machine-learning-self-taught-bioinformatics/),
+  [`from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers`](/podcasts/from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers/),
+  [`bioinformatics-worflows-tools-and-data-science`](/podcasts/bioinformatics-worflows-tools-and-data-science/),
+  [`s22e08`](/podcasts/s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data/).
 - Recommendation systems and applied real-time products:
   [`theme-park-crowd-modeling-to-tesla-full-stack-data-engineering`](/podcasts/theme-park-crowd-modeling-to-tesla-full-stack-data-engineering/),
   [`building-production-search-systems`](/podcasts/building-production-search-systems/),

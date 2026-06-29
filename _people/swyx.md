@@ -17,4 +17,4 @@ swyx is passionate about Developer Tooling and Developer Communities. He current
 
 ## Podcast Discussions
 
-- [Learn in Public: Personal Branding & Career Marketing for Developers]({{ '/podcasts/developer-personal-brand-learn-in-public/' | relative_url }}). Related topics: personal brand, [career growth]({{ '/wiki/career-growth/' | relative_url }}), [career transition]({{ '/wiki/career-transition/' | relative_url }}).
+- [Learn in Public: Personal Branding & Career Marketing for Developers]({{ '/podcasts/developer-personal-brand-learn-in-public/' | relative_url }}). Discussed: Guest Overview: Swyx and the learn in public movement; Career Journey: finance to coding, Netlify, AWS, Temporal; Why Self-Marketing Matters: recognition, promotions, opportunities; Marketing Beyond Job Hunting: open source and internal persuasion. Related topics: personal brand, [career growth]({{ '/wiki/career-growth/' | relative_url }}), [career transition]({{ '/wiki/career-transition/' | relative_url }}).

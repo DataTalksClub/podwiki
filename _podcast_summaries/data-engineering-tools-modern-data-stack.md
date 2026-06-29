@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/making-sense-of-data-engineeri
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=t9Z1S3OYnJU)
 - [Listen on Spotify](https://open.spotify.com/episode/1AvtwdcAXGGjdJ7fl0Hsuw)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/making-sense-of-data-engineeri
 
 How do you decide between ETL and ELT, or when to keep a data lake versus a warehouse—and where do tools like Airbyte, dbt, and CDC fit into a modern data stack? In this episode, Natalie Kwong, Growth Product Manager at Airbyte with prior analytics and ops roles at Harness, KeepTruckin, and AppDynamics, pulls from hands-on experience scaling analytics teams and systems to unpack these trade-offs.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Nataliekwong]({{ '/people/nataliekwong/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=t9Z1S3OYnJU&t=0)
 - 1:34 - [Episode Overview: Decoding Data Engineering Acronyms](https://www.youtube.com/watch?v=t9Z1S3OYnJU&t=94)

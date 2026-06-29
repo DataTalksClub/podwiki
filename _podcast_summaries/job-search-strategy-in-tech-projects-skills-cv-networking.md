@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/accelerating-the-job-hunt-for-
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/job-search-strategy-in-tech-projects-skills-cv-networking.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=PchwbIs0tOg)
 - [Listen on Spotify](https://open.spotify.com/episode/7giHGC86pjtIYrLOvwP7g4?si=NB9w6S6QTfCBHB_n93LkBQ)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/accelerating-the-job-hunt-for-
 
 How do you turn portfolio projects, a sharper resume, and targeted networking into a successful tech job search? In this episode Sarah Mestiri — Data Scientist and Certified Career & Interview Coach with 6+ years in tech across startups, international firms and financial services (FIS) — walks through a practical job search strategy for career changers and return-to-work professionals. Sarah outlines a four-pillar framework (goals, networking, CV, strategy) and shows how to define your ideal role, choose a.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Sarahmestiri]({{ '/people/sarahmestiri/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=PchwbIs0tOg&t=0)
 - 2:51 - [Guest Introduction & Coaching Mission](https://www.youtube.com/watch?v=PchwbIs0tOg&t=171)

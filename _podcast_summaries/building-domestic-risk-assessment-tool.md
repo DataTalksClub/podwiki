@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/building-a-domestic-risk-asses
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/building-domestic-risk-assessment-tool.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=CpWlBAmD9ok)
 - [Listen on Spotify](https://open.spotify.com/episode/7bjORhGzTQoxtbv60mMtzW?si=p6UaBdZJTnGvlwbGb6AsFQ)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/building-a-domestic-risk-asses
 
 How do you build an accurate, privacy-compliant domestic risk assessment tool that frontline teams can actually use? In this episode Sabina Firtala — who leads Frontline''s AI product development and brings experience in data wrangling, model validation, and applied analytics from finance, SaaS, and mission-driven projects — walks through a practical roadmap.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Sabinafirtala]({{ '/people/sabinafirtala/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=CpWlBAmD9ok&t=0)
 - 1:10 - [Episode Overview: Building a Domestic Risk Assessment Tool](https://www.youtube.com/watch?v=CpWlBAmD9ok&t=70)

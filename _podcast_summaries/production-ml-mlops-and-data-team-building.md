@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/similarities-and-differences-b
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/production-ml-mlops-and-data-team-building.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=rMRUa8WxDz4)
 - [Listen on Spotify](https://open.spotify.com/episode/19fWdSuxTLwIdzVT45qF9x)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/similarities-and-differences-b
 
 How do teams move beyond dashboards to reliable production ML—while organizing people, running experiments, and tackling use cases like fraud detection? In this episode Rishabh Bhargava (7+ years in analytics and ML, former Sales Engineering lead at Datacoral—acquired by Cloudera—and early Primer.ai engineer; MS CS Stanford) walks through the practical bridge from analytics to ML in production.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Rishabhbhargava]({{ '/people/rishabhbhargava/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode Introduction & Guest Overview](https://www.youtube.com/watch?v=rMRUa8WxDz4&t=0)
 - 2:08 - [Career Path: Data Infrastructure and Stanford ML Background](https://www.youtube.com/watch?v=rMRUa8WxDz4&t=128)

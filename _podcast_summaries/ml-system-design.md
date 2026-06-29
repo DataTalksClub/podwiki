@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/why-machine-learning-design-is
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/ml-system-design.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=6YBMU6475KQ)
 - [Listen on Spotify](https://open.spotify.com/episode/3KfKptkWIa1hW1hSOvBQaO)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/why-machine-learning-design-is
 
 How do you design ML systems that fail fast, scale with modular architecture, and survive data drift in production? In this episode, Valerii Babushkin — Senior Director of Data, Analytics, and AI at BP, Kaggle Competitions Grandmaster, and author of Machine Learning System Design — walks through a practical playbook for ML system design.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Valeriybabushkin]({{ '/people/valeriybabushkin/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=6YBMU6475KQ&t=0)
 - 2:06 - [Guest Introduction: Valerii Babushkin background](https://www.youtube.com/watch?v=6YBMU6475KQ&t=126)

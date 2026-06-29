@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/democratizing-causality-aleksa
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/causal-inference-for-machine-learning.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=0I2FHH95Ofs)
 - [Listen on Spotify](https://open.spotify.com/episode/17U3RWz5BupRIwoBvGWqYQ?si=g6XypIZnSwG4hznNIOs7mw)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/democratizing-causality-aleksa
 
 How do you move from correlation to actionable decisions — using counterfactuals, uplift modeling, treatment effect estimation, and LLMs — without falling into confounding traps or biased estimators? In this episode, Aleksander Molak, an independent ML researcher, author and educator specializing in causality, NLP and AI strategy, walks through practical causal inference techniques for real-world machine learning applications.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Aleksandermolak]({{ '/people/aleksandermolak/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode Introduction](https://www.youtube.com/watch?v=0I2FHH95Ofs&t=0)
 - 1:22 - [Guest Intro: Aleksander Molak & book overview](https://www.youtube.com/watch?v=0I2FHH95Ofs&t=82)

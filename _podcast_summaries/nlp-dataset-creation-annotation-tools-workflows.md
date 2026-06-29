@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/dataset-creation-and-curation-
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/nlp-dataset-creation-annotation-tools-workflows.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=QggWydGrWoo)
 - [Listen on Spotify](https://open.spotify.com/episode/26K8JrQXKwLpQelo4n4Kdi?si=e2ad35c4941446c4)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/dataset-creation-and-curation-
 
 How do you create high-quality NLP datasets without breaking the budget? In this episode Christiaan Swart — an NLP practitioner with six years’ experience across email, complaints, pharma, and sales who cofounded Comtura (born from sales call transcription and CRM integration) — walks through practical methods for dataset creation and annotation.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Christiannswart]({{ '/people/christiannswart/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=QggWydGrWoo&t=0)
 - 1:22 - [Episode Overview: Dataset creation, curation, and annotation](https://www.youtube.com/watch?v=QggWydGrWoo&t=82)

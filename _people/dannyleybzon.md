@@ -18,4 +18,4 @@ Danny D. Leybzon has worn many hats, all of them related to data. He studied com
 
 ## Podcast Discussions
 
-- [MLOps Architect Guide: Production Model Monitoring, Data Observability & Tooling]({{ '/podcasts/mlops-model-monitoring-data-observability/' | relative_url }}). Related topics: [MLOps]({{ '/wiki/mlops/' | relative_url }}), [tools]({{ '/wiki/tools/' | relative_url }}), [data engineering]({{ '/wiki/data-engineering/' | relative_url }}).
+- [MLOps Architect Guide: Production Model Monitoring, Data Observability & Tooling]({{ '/podcasts/mlops-model-monitoring-data-observability/' | relative_url }}). Discussed: Guest Overview: Danny Leybzon, MLOps Architect at WhyLabs; Career Journey: From paralegal ambitions to statistics and machine learning; Prior Role: Field Engineer / Solutions Engineer experience; Role Definition: MLOps Architect as technical-business bridge. Related topics: [MLOps]({{ '/wiki/mlops/' | relative_url }}), [tools]({{ '/wiki/tools/' | relative_url }}), [data engineering]({{ '/wiki/data-engineering/' | relative_url }}).

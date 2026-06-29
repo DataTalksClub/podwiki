@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/build-a-strong-career-in-data-
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/applied-llm-research-and-career-growth-in-practice.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=ekG5zJioyFs)
 - [Listen on Spotify](https://open.spotify.com/episode/2mJXd0lSZFPKJA0ZrG9iS2)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/build-a-strong-career-in-data-
 
 How do you evaluate and prototype long-context LLMs in a real-world setting while advancing a career as an applied researcher? In this episode Lavanya Gupta — a Carnegie Mellon Language Technologies Institute alum and Sr. AI/ML Applied Scientist at JPMorgan Chase’s Machine Learning Center of Excellence — walks through practical strategies for applied LLM research and career growth. With 5+ years of industrial research experience, public talks at WiDS, PyData, TensorFlow User Group and reviewer roles for NeurIPS.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Lavanyagupta]({{ '/people/lavanyagupta/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode Introduction & Topic Overview](https://www.youtube.com/watch?v=ekG5zJioyFs&t=0)
 - 2:02 - [Career Overview: From Software Engineering to ML & Master''s](https://www.youtube.com/watch?v=ekG5zJioyFs&t=122)

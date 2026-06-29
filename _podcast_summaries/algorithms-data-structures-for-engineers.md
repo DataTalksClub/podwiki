@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/mastering-algorithms-and-data-
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/algorithms-data-structures-for-engineers.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=RiQa-9LguW8)
 - [Listen on Spotify](https://open.spotify.com/episode/5IM2Des1sjVIwrvB3dGoJN)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/mastering-algorithms-and-data-
 
 How do engineers choose and implement the right algorithm for memory, latency, and scale? In this episode, Marcello La Rocca — senior software engineer at Tundra.com and author of Algorithms and Data Structures in Action, with experience at Twitter, Microsoft and Apple — walks through practical algorithmic solutions engineers can actually use in production. We focus on Bloom filters for memory-efficient containment checks (and real-world uses like crawlers, routing tables, and adtech device-ID targeting), and on.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Marcellolarocca]({{ '/people/marcellolarocca/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=RiQa-9LguW8&t=0)
 - 1:51 - [Guest Intro: Marcello La Rocca and book announcement](https://www.youtube.com/watch?v=RiQa-9LguW8&t=111)

@@ -16,4 +16,4 @@ Anusha is the co-founder of Aurelytix, an AI-driven finance platform built to gi
 
 ## Podcast Discussions
 
-- [From Black-Box Systems to Augmented Decision-Making]({{ '/podcasts/s22e06-from-black-box-systems-to-augmented-decision-making/' | relative_url }}).
+- [From Black-Box Systems to Augmented Decision-Making]({{ '/podcasts/s22e06-from-black-box-systems-to-augmented-decision-making/' | relative_url }}). Discussed: Building trust in AI finance and introducing Auralytix; From accounting roots to auditing at Deloitte and Paraxel; Moving to Germany and pivoting into corporate finance; The data struggle in strategic finance and the need for change. Related topics: [search]({{ '/wiki/search/' | relative_url }}), ai finance, finance teams, building trust ai, trust ai finance, ai finance introducing.

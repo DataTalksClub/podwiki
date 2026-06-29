@@ -16,12 +16,22 @@ apple_url: "https://podcasts.apple.com/us/podcast/the-future-of-ai-agents-aditya
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/s23e03-future-of-ai-agents.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=vcm3gRjNY2I)
 - [Listen on Spotify](https://open.spotify.com/episode/5EudjtdqzbIlXjeHoL0GUd)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/the-future-of-ai-agents-aditya-gautam/id1541710331?i=1000753680241)
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Adityagautam]({{ '/people/adityagautam/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Aditya’s from embedded systems to AI](https://www.youtube.com/watch?v=vcm3gRjNY2I&t=0)
 - 8:52 - [Enterprise AI research and adoption gaps](https://www.youtube.com/watch?v=vcm3gRjNY2I&t=532)

@@ -18,4 +18,4 @@ David A. Bader is the Director of the Institute for Data Science at the New Jers
 
 ## Podcast Discussions
 
-- [Build Data Science Programs, Democratize HPC & Scale Graph Analytics with Arkouda]({{ '/podcasts/building-data-science-programs-and-democratizing-high-performance-computing/' | relative_url }}). Related topics: [data science]({{ '/wiki/data-science/' | relative_url }}), data analytics, [tools]({{ '/wiki/tools/' | relative_url }}).
+- [Build Data Science Programs, Democratize HPC & Scale Graph Analytics with Arkouda]({{ '/podcasts/building-data-science-programs-and-democratizing-high-performance-computing/' | relative_url }}). Discussed: Guest Intro: David Bader — NJIT Institute for Data Science, research focus; Career Journey & Academic Appointments; Daily Responsibilities: Research, Teaching, and Institute Leadership; Active Projects & Industry Partnerships (NSF, Accenture, NVIDIA). Related topics: [data science]({{ '/wiki/data-science/' | relative_url }}), data analytics, [tools]({{ '/wiki/tools/' | relative_url }}).

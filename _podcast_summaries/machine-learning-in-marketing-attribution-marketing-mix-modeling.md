@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/machine-learning-in-marketing-
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/machine-learning-in-marketing-attribution-marketing-mix-modeling.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=jsAxUd_bZpw)
 - [Listen on Spotify](https://open.spotify.com/episode/0rc8zZjdxr5ncxqH9RDqBV?si=49feb89374554f65)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/machine-learning-in-marketing-
 
 How can marketing teams reliably measure ad impact, allocate budget across channels, and adapt to a cookieless world? In this episode, Juan Orduz — a Berlin-based mathematician and data scientist specializing in statistical learning, time series, Bayesian and geometric methods — walks through practical marketing data science approaches for attribution, media mix modeling (MMM), uplift modeling, and cookieless tracking.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Juanorduz]({{ '/people/juanorduz/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=jsAxUd_bZpw&t=0)
 - 1:42 - [Introduction: Juan Orduz — mathematician and data scientist](https://www.youtube.com/watch?v=jsAxUd_bZpw&t=102)

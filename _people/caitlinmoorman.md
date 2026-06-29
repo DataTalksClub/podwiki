@@ -16,4 +16,4 @@ Caitlin is the VP of Data and Business Operations at Trove Recommerce, where she
 
 ## Podcast Discussions
 
-- [Last-Mile Data Delivery for the Modern Data Stack: Build Data Products to Boost Adoption]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }}). Related topics: data analytics, [tools]({{ '/wiki/tools/' | relative_url }}), product management, [leadership]({{ '/wiki/leadership/' | relative_url }}).
+- [Last-Mile Data Delivery for the Modern Data Stack: Build Data Products to Boost Adoption]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }}). Discussed: Episode introduction & Locally Optimistic community; Career journey: private equity to modern data stacks; Defining the "last mile" in data delivery; Modern data stack vs last-mile execution challenges. Related topics: data analytics, [tools]({{ '/wiki/tools/' | relative_url }}), product management, [leadership]({{ '/wiki/leadership/' | relative_url }}).

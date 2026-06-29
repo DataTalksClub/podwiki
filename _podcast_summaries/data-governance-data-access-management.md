@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/data-access-management-bart-va
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/data-governance-data-access-management.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=IiPOIiUy5b4)
 - [Listen on Spotify](https://open.spotify.com/episode/5PDgK1FsGNtKAAyiXOppRs?si=QZDP8k38Q0e4LaZtl4lCMA)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/data-access-management-bart-va
 
 How do you scale data access management—from access controls and data catalogs to access-as-code—without slowing innovation? In this episode, Bart Vandekerckhove, co-founder and CEO at Raito and former PM of Privacy at Collibra, walks through practical approaches born from consulting with banks (BCBS 239) and tackling early data governance pain.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Bartvandekerckhove]({{ '/people/bartvandekerckhove/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=IiPOIiUy5b4&t=0)
 - 1:27 - [Episode Overview: Data Access Management & Guest Summary](https://www.youtube.com/watch?v=IiPOIiUy5b4&t=87)

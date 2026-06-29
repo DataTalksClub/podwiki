@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/data-observability-barr-moses/
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=TrMG1SOqZkQ)
 - [Listen on Spotify](https://open.spotify.com/episode/48QcLAw2I1apC1jeo8e1sd)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/data-observability-barr-moses/
 
 How do you prevent data downtime, drift, and false positives before they break analytics and models? In this episode, Barr Moses, CEO and co-founder of Monte Carlo and former VP of Customer Operations at Gainsight, walks through a practical framework for data observability grounded in real-world incidents and DevOps principles.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Barrmoses]({{ '/people/barrmoses/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=TrMG1SOqZkQ&t=0)
 - 1:48 - [Guest Profile: Barr Moses — career, GainSight, Monte Carlo](https://www.youtube.com/watch?v=TrMG1SOqZkQ&t=108)

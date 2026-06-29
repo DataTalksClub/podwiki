@@ -15,4 +15,4 @@ Sara is a product manager at Meroxa, a company building a data platform that hel
 
 ## Podcast Discussions
 
-- [How to Transition from Design to Data Product Manager: SQL, Customer Discovery & Data Quality]({{ '/podcasts/product-designer-to-data-product-manager/' | relative_url }}). Related topics: [career transition]({{ '/wiki/career-transition/' | relative_url }}), product design, product management.
+- [How to Transition from Design to Data Product Manager: SQL, Customer Discovery & Data Quality]({{ '/podcasts/product-designer-to-data-product-manager/' | relative_url }}). Discussed: Career Path: From Technical Support to Product Design; Product Design: User Research, Prototyping & UX; Data Product Management: Customer Discovery & Hypothesis Formation; Product Lifecycle: Discovery, Planning, Engineering & Launch. Related topics: [career transition]({{ '/wiki/career-transition/' | relative_url }}), product design, product management.

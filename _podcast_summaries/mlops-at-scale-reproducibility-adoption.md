@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/mlops-as-a-team-rapha%C3%ABl-h
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/mlops-at-scale-reproducibility-adoption.html)
 - [Watch on YouTube](https://youtube.com/watch?v=rMq63r3zi4c)
 - [Listen on Spotify](https://open.spotify.com/episode/0Dl372MFGvN0zDa1YQx7oe?si=eCy-a4fkRtOaEe21-KDHXQ)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/mlops-as-a-team-rapha%C3%ABl-h
 
 How do you run MLOps at scale so models stay deployed, reproducible, and actually adopted? In this episode Raphaël Hoogvliets—who leads a 12-engineer team at Eneco and brings a career arc from agriculture into data science and MLOps—walks through practical approaches for CI/CD for ML, reproducibility, model monitoring, and adoption strategy.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Raphaelhoogvliets]({{ '/people/raphaelhoogvliets/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://youtube.com/watch?v=rMq63r3zi4c&t=0)
 - 1:21 - [Guest Overview: Raphaël Hoogvliets and Eneco role](https://youtube.com/watch?v=rMq63r3zi4c&t=81)

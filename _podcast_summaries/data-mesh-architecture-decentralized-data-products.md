@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/data-mesh-101-zhamak-dehghani/
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/data-mesh-architecture-decentralized-data-products.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=346N_pCtYZU)
 - [Listen on Spotify](https://open.spotify.com/episode/5uX5sfRPvC9WAXOM9fRCup?si=FQYB7cpuSOyzq7022xU3Tg)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/data-mesh-101-zhamak-dehghani/
 
 How do you scale data architecture so teams deliver value without centralized bottlenecks? In this episode, Zhamak Dehghani — director of technology at Thoughtworks and founder of the Data Mesh concept — walks through practical steps for Data Mesh implementation: building decentralized data products, defining data contracts, and establishing federated governance.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Zhamakdehghani]({{ '/people/zhamakdehghani/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 2:24 - [Podcast Introduction](https://www.youtube.com/watch?v=346N_pCtYZU&t=144)
 - 2:39 - [Guest background & career path](https://www.youtube.com/watch?v=346N_pCtYZU&t=159)

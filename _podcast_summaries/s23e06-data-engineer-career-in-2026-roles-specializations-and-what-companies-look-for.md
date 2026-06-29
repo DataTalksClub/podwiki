@@ -16,12 +16,22 @@ apple_url: "https://podcasts.apple.com/us/podcast/data-engineer-career-in-2026-r
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=bTHhvKMursI)
 - [Listen on Spotify](https://open.spotify.com/episode/2aVzaqVuBzpf10LW9jWTCF?si=f7zy5l7ETlC8jIJ9WJAlPQ)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/data-engineer-career-in-2026-roles-specializations/id1541710331?i=1000757764073)
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Slawomirtulski]({{ '/people/slawomirtulski/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [From Measuring Glaciers to London’s Tech Scene](https://www.youtube.com/watch?v=bTHhvKMursI&t=0)
 - 6:47 - [Hadoop vs. AI: Lessons from the Original Big Data Hype](https://www.youtube.com/watch?v=bTHhvKMursI&t=407)

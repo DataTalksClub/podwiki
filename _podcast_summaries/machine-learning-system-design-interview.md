@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/machine-learning-system-design
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/machine-learning-system-design-interview.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=0RsmRjar66E)
 - [Listen on Spotify](https://open.spotify.com/episode/5tSLFOh8PGe1NFFz1of9Xe)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/machine-learning-system-design
 
 How do you approach ML system design interviews that probe production constraints, fraud detection trade-offs, and MLOps realities? In this episode, Valerii Babushkin — Senior Director of Data, Analytics, and AI at BP, Kaggle Competitions Grandmaster, and author of Machine Learning System Design — walks through what interviewers look for and how candidates should structure answers for real-world ML problems.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Valeriybabushkin]({{ '/people/valeriybabushkin/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction & Episode Overview](https://www.youtube.com/watch?v=0RsmRjar66E&t=0)
 - 1:51 - [Valerii Background: Career Snapshot and Kaggle Achievements](https://www.youtube.com/watch?v=0RsmRjar66E&t=111)

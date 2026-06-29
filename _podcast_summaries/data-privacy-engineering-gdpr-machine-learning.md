@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/practical-data-privacy-kathari
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/data-privacy-engineering-gdpr-machine-learning.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=gbjoFfrm4iw)
 - [Listen on Spotify](https://open.spotify.com/episode/137H2M9qU5lFqb4hLyMBvg?si=b0KXeubVSpa3bfsuZaS6pQ)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/practical-data-privacy-kathari
 
 How can teams build useful machine learning while respecting user privacy, compliance, and re-identification risk? In this episode, Katharine Jarmul — privacy activist and Principal Data Scientist at ThoughtWorks Germany — walks through a practical Data Privacy Playbook focused on differential privacy, federated learning, privacy-enhancing technologies (PETs) and consent UX.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Katharinejarmul]({{ '/people/katharinejarmul/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode Introduction](https://www.youtube.com/watch?v=gbjoFfrm4iw&t=0)
 - 1:40 - [Guest Introduction: Katharine Jarmul — privacy activist, ML engineer, ThoughtWorks,](https://www.youtube.com/watch?v=gbjoFfrm4iw&t=100)

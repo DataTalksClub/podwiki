@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/lessons-learned-from-freelanci
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/from-startup-engineering-to-freelance-data-science.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=-Gj7SaI-QW4)
 - [Listen on Spotify](https://open.spotify.com/episode/4ehGduC0p734UtwPr5HANq?si=rEC_XP-4RSKYh0TtSQBtlw)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/lessons-learned-from-freelanci
 
 How do you transition from startup engineering to a sustainable freelance data science practice while handling MLOps, model monitoring, and client work on Upwork? In this episode, Antonis Stellas — a freelance data scientist at Nanometrisis with a background in applied mathematics, physics and a professional doctorate working on industry consultancy — lays out a practical playbook.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Antonisstellas]({{ '/people/antonisstellas/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction: guest Antonis and episode themes](https://www.youtube.com/watch?v=-Gj7SaI-QW4&t=0)
 - 2:28 - [Early Education: applied mathematics, physics and nanotechnology](https://www.youtube.com/watch?v=-Gj7SaI-QW4&t=148)

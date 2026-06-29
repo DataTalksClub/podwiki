@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/teaching-and-mentoring-in-data
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/teaching-mentoring-data-analytics-fintech.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=saaRRzgHsmE)
 - [Listen on Spotify](https://open.spotify.com/episode/0ES2N4yIu61bUB3dY9oxgQ?si=_KFHPXOUQVap8oSBp6AJgA)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/teaching-and-mentoring-in-data
 
 How do you design a FinTech data analytics curriculum that teaches fraud detection, chargeback modeling, and real-world cloud skills while also mentoring diverse learners? In this episode, Irina Brudaru — Head of Data & Analytics at Finlex, former Google data leader, and long-time mentor and teacher — walks through building practical FinTech courses informed by industry experience across Berlin, Amsterdam and the Bay Area.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Irinabrudaru]({{ '/people/irinabrudaru/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=saaRRzgHsmE&t=0)
 - 1:08 - [Guest Overview: Irina Brudaru — teacher, curriculum developer, mentor in](https://www.youtube.com/watch?v=saaRRzgHsmE&t=68)

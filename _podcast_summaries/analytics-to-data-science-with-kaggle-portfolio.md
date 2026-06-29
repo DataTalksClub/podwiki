@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/shifting-career-from-analytics
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/analytics-to-data-science-with-kaggle-portfolio.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=ixmTewD5Waw)
 - [Listen on Spotify](https://open.spotify.com/episode/1GVuHJzqbcf2BvaLBTgsAL)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/shifting-career-from-analytics
 
 How do you move from analytics into a hireable data science role by building a Kaggle notebook portfolio and learning Python fast? In this episode, Andrada Olteanu — Data Scientist at Endava, Kaggle Notebooks Master, and Z by HP & NVIDIA Data Science Ambassador — walks through her path from a statistics degree and data analyst role at Avon to a master’s in DS and a practical, project-driven transition.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Andradaolteanu]({{ '/people/andradaolteanu/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=ixmTewD5Waw&t=0)
 - 1:37 - [Episode Overview: Transitioning from Analytics to Data Science](https://www.youtube.com/watch?v=ixmTewD5Waw&t=97)

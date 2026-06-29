@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/data-centric-ai-marysia-winkel
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/data-centric-ai.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=t3HDdVWQzNM)
 - [Listen on Spotify](https://open.spotify.com/episode/6q1yago5iyMt8OmCX1abG3?si=-OaRAwjaRfOfyQ7_QZEbBw)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/data-centric-ai-marysia-winkel
 
 How much can improving label quality and editing your dataset actually boost model performance? In this episode, Marysia Winkels — Lead Data Scientist at GoDataDriven with a Master’s in Artificial Intelligence and a focus on data-efficient deep learning, and co-organizer of PyData Amsterdam/Global — walks through a practical, data-centric approach to that question.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Marysiawinkels]({{ '/people/marysiawinkels/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 1:26 - [Podcast Introduction](https://www.youtube.com/watch?v=t3HDdVWQzNM&t=86)
 - 2:03 - [AI education & geometric deep learning in medical imaging](https://www.youtube.com/watch?v=t3HDdVWQzNM&t=123)

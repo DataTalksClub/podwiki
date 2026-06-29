@@ -16,4 +16,4 @@ Bela Wiertz is working for a German family office investing in VC Funds and earl
 
 ## Podcast Discussions
 
-- [Early-Stage Investing in Open Source Developer Tools: Deal Sourcing, Due Diligence & Commercialization Models]({{ '/podcasts/investing-in-open-source-developer-tools/' | relative_url }}). Related topics: [open source]({{ '/wiki/open-source/' | relative_url }}), [tools]({{ '/wiki/tools/' | relative_url }}), investing, fundraising, early-stage startups.
+- [Early-Stage Investing in Open Source Developer Tools: Deal Sourcing, Due Diligence & Commercialization Models]({{ '/podcasts/investing-in-open-source-developer-tools/' | relative_url }}). Discussed: Episode Start & Welcome; Guest Overview: Bela’s Role at a Family Office; Career Path: From Business Studies to Open Source Investing; Commercializing Open Source Communities: Company Builder Insights. Related topics: [open source]({{ '/wiki/open-source/' | relative_url }}), [tools]({{ '/wiki/tools/' | relative_url }}), investing, fundraising, early-stage startups.

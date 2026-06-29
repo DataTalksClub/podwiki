@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-simulations-to-freelance-
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/from-academic-research-to-data-engineering-freelancing.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=pkcpH5N-GP8)
 - [Listen on Spotify](https://open.spotify.com/episode/5HCSIO0mO8Pr5Yv9puZ72R)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/from-simulations-to-freelance-
 
 How do you turn academic research and simulation expertise into a lean data consulting practice without getting bogged down in perfect solutions? In this episode we talk with Orell Garten, an electrical engineering graduate who focused on simulation algorithms, left a PhD during COVID, and learned through a government-funded startup program how to translate scientific research into real products.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Orellgarten]({{ '/people/orellgarten/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode Introduction & Overview](https://www.youtube.com/watch?v=pkcpH5N-GP8&t=0)
 - 2:19 - [Career Background: Electrical Engineering and Simulation Algorithms](https://www.youtube.com/watch?v=pkcpH5N-GP8&t=139)

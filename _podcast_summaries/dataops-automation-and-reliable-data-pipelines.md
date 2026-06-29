@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/storytime-for-dataops-christop
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/dataops-automation-and-reliable-data-pipelines.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=0Fx5PCoLkf4)
 - [Listen on Spotify](https://open.spotify.com/episode/2PcBsHslUVnjXFhC9hv6zk)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/storytime-for-dataops-christop
 
 How do you build reliable data pipelines that move fast without breaking production? In this episode, Christopher Bergh — CEO and Head Chef at DataKitchen, co-author of the DataOps Cookbook and Manifesto, and a 25+-year veteran across research, engineering, analytics, and leadership — walks through practical approaches to mastering DataOps: automation, observability, and CI/CD for dependable data delivery.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Christopherbergh]({{ '/people/christopherbergh/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:01 - [Opening banter: "Father of DataOps" anecdote](https://www.youtube.com/watch?v=0Fx5PCoLkf4&t=1)
 - 1:20 - [Chris Bergh background and career pivot to data leadership](https://www.youtube.com/watch?v=0Fx5PCoLkf4&t=80)

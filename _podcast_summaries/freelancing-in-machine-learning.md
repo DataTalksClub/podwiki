@@ -16,6 +16,8 @@ apple_url: "https://podcasts.apple.com/us/podcast/freelancing-in-machine-learnin
 
 ## Original Episode
 
+Use these links for the canonical episode and media sources.
+
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/freelancing-in-machine-learning.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=HfF791e0HR8)
 - [Listen on Spotify](https://open.spotify.com/episode/2oE13mUEa9k4AO5qogYdqv)
@@ -25,7 +27,15 @@ apple_url: "https://podcasts.apple.com/us/podcast/freelancing-in-machine-learnin
 
 How do you move from academic research or in-house ML engineering to a sustainable freelance career in machine learning — getting clients, pricing your work, and delivering production systems? In this episode, Mikio Braun, who transitioned from TU Berlin into ML roles at Zalando and GetYourGuide and now consults on machine learning production, infrastructure, and teams, walks through that path step by step.
 
+## People
+
+Use these links to connect the episode to guest notes.
+
+- [Mikiobraun]({{ '/people/mikiobraun/' | relative_url }})
+
 ## Chapter Summary
+
+Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode Introduction & Topic Overview (Freelancing in Machine Learning)](https://www.youtube.com/watch?v=HfF791e0HR8&t=0)
 - 1:59 - [Guest Background — Academic Research to Industry Roles (TU Berlin → Zalando](https://www.youtube.com/watch?v=HfF791e0HR8&t=119)

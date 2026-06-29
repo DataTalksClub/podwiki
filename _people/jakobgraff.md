@@ -15,4 +15,4 @@ Jakob Graff is an experienced data science and analytics leader with a proven tr
 
 ## Podcast Discussions
 
-- [Product Analytics & A/B Testing: Causality, Metrics, Power Analysis, A/A Tests]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}). Related topics: [data science]({{ '/wiki/data-science/' | relative_url }}), [practices]({{ '/wiki/practices/' | relative_url }}).
+- [Product Analytics & A/B Testing: Causality, Metrics, Power Analysis, A/A Tests]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}). Discussed: Guest Background & Career Transition to Data Science; Econometrics to Product Analytics: Causality Emphasis; A/B Testing Explained: Clinical Trials Analogy & Randomization; Experimentation Purpose: Establishing Causality & Controlling Noise. Related topics: [data science]({{ '/wiki/data-science/' | relative_url }}), [practices]({{ '/wiki/practices/' | relative_url }}).
