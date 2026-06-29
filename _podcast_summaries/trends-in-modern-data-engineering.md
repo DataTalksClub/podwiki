@@ -31,7 +31,7 @@ How can engineering teams build reliable, scalable lakehouse pipelines that comb
 
 Use these links to connect the episode to guest notes.
 
-- [Adrianbrudaru]({{ '/people/adrianbrudaru/' | relative_url }})
+- [Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }})
 
 ## Chapter Summary
 

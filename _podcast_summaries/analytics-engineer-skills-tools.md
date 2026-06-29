@@ -31,7 +31,7 @@ How do you become an effective analytics engineer and what skills, tools, and ca
 
 Use these links to connect the episode to guest notes.
 
-- [Victoriaperezmola]({{ '/people/victoriaperezmola/' | relative_url }})
+- [Victoria Perez Mola]({{ '/people/victoriaperezmola/' | relative_url }})
 
 ## Chapter Summary
 

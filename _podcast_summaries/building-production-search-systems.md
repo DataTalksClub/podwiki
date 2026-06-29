@@ -31,7 +31,7 @@ How do you build search systems that balance dense embeddings, MLOps, and meanin
 
 Use these links to connect the episode to guest notes.
 
-- [Danielsvonava]({{ '/people/danielsvonava/' | relative_url }})
+- [Daniel Svonava]({{ '/people/danielsvonava/' | relative_url }})
 
 ## Chapter Summary
 

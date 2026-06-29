@@ -31,7 +31,7 @@ How do you move from analytics into a hireable data science role by building a K
 
 Use these links to connect the episode to guest notes.
 
-- [Andradaolteanu]({{ '/people/andradaolteanu/' | relative_url }})
+- [Andrada Olteanu]({{ '/people/andradaolteanu/' | relative_url }})
 
 ## Chapter Summary
 

@@ -27,7 +27,7 @@ Use these links for the canonical episode and media sources.
 
 Use these links to connect the episode to guest notes.
 
-- [Anushaakkina]({{ '/people/anushaakkina/' | relative_url }})
+- [Anusha Akkina]({{ '/people/anushaakkina/' | relative_url }})
 
 ## Chapter Summary
 

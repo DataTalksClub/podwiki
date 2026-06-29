@@ -31,7 +31,7 @@ How do you prevent data downtime, drift, and false positives before they break a
 
 Use these links to connect the episode to guest notes.
 
-- [Barrmoses]({{ '/people/barrmoses/' | relative_url }})
+- [Barr Moses]({{ '/people/barrmoses/' | relative_url }})
 
 ## Chapter Summary
 

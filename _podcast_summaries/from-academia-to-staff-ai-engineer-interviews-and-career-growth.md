@@ -31,7 +31,7 @@ How do you transition from academia into a Staff AI Engineer role while nailing 
 
 Use these links to connect the episode to guest notes.
 
-- [Tatianagabruseva]({{ '/people/tatianagabruseva/' | relative_url }})
+- [Tatiana Gabruseva]({{ '/people/tatianagabruseva/' | relative_url }})
 
 ## Chapter Summary
 

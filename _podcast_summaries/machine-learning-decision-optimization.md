@@ -31,7 +31,7 @@ How do you turn machine learning predictions into better real-world decisions—
 
 Use these links to connect the episode to guest notes.
 
-- [Danbecker]({{ '/people/danbecker/' | relative_url }})
+- [Dan Becker]({{ '/people/danbecker/' | relative_url }})
 
 ## Chapter Summary
 

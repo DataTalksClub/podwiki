@@ -31,7 +31,7 @@ How can AI help close critical data gaps in biodiversity monitoring and turn ima
 
 Use these links to connect the episode to guest notes.
 
-- [Tanyabergerwolf]({{ '/people/tanyabergerwolf/' | relative_url }})
+- [Tanya Berger-Wolf]({{ '/people/tanyabergerwolf/' | relative_url }})
 
 ## Chapter Summary
 

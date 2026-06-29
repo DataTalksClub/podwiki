@@ -31,7 +31,7 @@ How do you move from software engineering into practical machine learning withou
 
 Use these links to connect the episode to guest notes.
 
-- [Svpino]({{ '/people/svpino/' | relative_url }})
+- [Santiago Valdarrama]({{ '/people/svpino/' | relative_url }})
 
 ## Chapter Summary
 

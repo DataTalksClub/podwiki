@@ -31,7 +31,7 @@ How do you detect bias, enforce fairness, and govern AI systems in production wi
 
 Use these links to connect the episode to guest notes.
 
-- [Supreetkaur]({{ '/people/supreetkaur/' | relative_url }})
+- [Supreet Kaur]({{ '/people/supreetkaur/' | relative_url }})
 
 ## Chapter Summary
 

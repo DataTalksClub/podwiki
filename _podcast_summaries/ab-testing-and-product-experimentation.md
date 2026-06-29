@@ -31,7 +31,7 @@ How do you design product experiments that truly establish causality and avoid c
 
 Use these links to connect the episode to guest notes.
 
-- [Jakobgraff]({{ '/people/jakobgraff/' | relative_url }})
+- [Jakob Graff]({{ '/people/jakobgraff/' | relative_url }})
 
 ## Chapter Summary
 

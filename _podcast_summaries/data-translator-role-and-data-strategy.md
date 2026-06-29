@@ -31,7 +31,7 @@ How do you bridge the gap between data teams and management so analytics actuall
 
 Use these links to connect the episode to guest notes.
 
-- [Liorbarak]({{ '/people/liorbarak/' | relative_url }})
+- [Lior Barak]({{ '/people/liorbarak/' | relative_url }})
 
 ## Chapter Summary
 

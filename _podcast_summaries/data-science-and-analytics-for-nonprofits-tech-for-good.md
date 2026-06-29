@@ -31,7 +31,7 @@ How can nonprofits move from basic reporting to optimization using analytics whi
 
 Use these links to connect the episode to guest notes.
 
-- [Parvathykrishnan]({{ '/people/parvathykrishnan/' | relative_url }})
+- [Parvathy Krishnan]({{ '/people/parvathykrishnan/' | relative_url }})
 
 ## Chapter Summary
 

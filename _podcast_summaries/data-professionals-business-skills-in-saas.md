@@ -31,7 +31,7 @@ How do you move data science from experiments to measurable impact in a SaaS bus
 
 Use these links to connect the episode to guest notes.
 
-- [Lorismarini]({{ '/people/lorismarini/' | relative_url }})
+- [Loris Marini]({{ '/people/lorismarini/' | relative_url }})
 
 ## Chapter Summary
 

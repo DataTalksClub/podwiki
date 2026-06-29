@@ -31,7 +31,7 @@ How do you scale a data platform that supports self-service analytics while keep
 
 Use these links to connect the episode to guest notes.
 
-- [Larsalbertsson]({{ '/people/larsalbertsson/' | relative_url }})
+- [Lars Albertsson]({{ '/people/larsalbertsson/' | relative_url }})
 
 ## Chapter Summary
 

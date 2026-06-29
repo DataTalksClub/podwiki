@@ -31,7 +31,7 @@ How do you build a modern data pipeline that reliably moves raw events through i
 
 Use these links to connect the episode to guest notes.
 
-- [Santonatuli]({{ '/people/santonatuli/' | relative_url }})
+- [Santona Tuli]({{ '/people/santonatuli/' | relative_url }})
 
 ## Chapter Summary
 

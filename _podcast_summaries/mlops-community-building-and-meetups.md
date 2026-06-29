@@ -31,7 +31,7 @@ How do you launch, grow, and retain an MLOps community that moves from meetups t
 
 Use these links to connect the episode to guest notes.
 
-- [Demetriosbrinkmann]({{ '/people/demetriosbrinkmann/' | relative_url }})
+- [Demetrios Brinkmann]({{ '/people/demetriosbrinkmann/' | relative_url }})
 
 ## Chapter Summary
 

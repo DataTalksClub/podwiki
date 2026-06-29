@@ -31,7 +31,7 @@ How do you move AI projects from proof-of-concept to reliable production systems
 
 Use these links to connect the episode to guest notes.
 
-- [Bartoszmikulski]({{ '/people/bartoszmikulski/' | relative_url }})
+- [Bartosz Mikulski]({{ '/people/bartoszmikulski/' | relative_url }})
 
 ## Chapter Summary
 

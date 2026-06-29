@@ -31,7 +31,7 @@ How do you design products that are “algorithm-ready” while running rapid ex
 
 Use these links to connect the episode to guest notes.
 
-- [Liesbethdingemans]({{ '/people/liesbethdingemans/' | relative_url }})
+- [Liesbeth Dingemans]({{ '/people/liesbethdingemans/' | relative_url }})
 
 ## Chapter Summary
 

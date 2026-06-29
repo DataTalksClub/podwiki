@@ -31,7 +31,7 @@ How do developer advocates create measurable community impact while balancing te
 
 Use these links to connect the episode to guest notes.
 
-- [Willrussell]({{ '/people/willrussell/' | relative_url }})
+- [Will Russell]({{ '/people/willrussell/' | relative_url }})
 
 ## Chapter Summary
 

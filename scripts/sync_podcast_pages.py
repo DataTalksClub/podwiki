@@ -7,8 +7,10 @@ import argparse
 from pathlib import Path
 
 from podcast_source_data import (
+    DEFAULT_PEOPLE_SOURCE,
     DEFAULT_PODCAST_SOURCE,
     ROOT,
+    read_people,
     read_podcast,
     should_skip_podcast,
     yaml_list,
@@ -18,11 +20,15 @@ from podcast_source_data import (
 DEFAULT_TARGET = ROOT / "_podcast_summaries"
 
 
-def person_label(slug: str) -> str:
+def person_label(slug: str, people: dict[str, dict[str, object]]) -> str:
+    person = people.get(slug, {})
+    title = str(person.get("title") or "").strip()
+    if title:
+        return title
     return slug.replace("-", " ").replace("_", " ").title()
 
 
-def page_body(podcast: dict[str, object]) -> str:
+def page_body(podcast: dict[str, object], people: dict[str, dict[str, object]]) -> str:
     slug = str(podcast["slug"])
     intro = str(podcast.get("intro") or podcast.get("description") or "")
     lines = [
@@ -54,7 +60,9 @@ def page_body(podcast: dict[str, object]) -> str:
         for guest in guests:
             slug = str(guest or "").strip()
             if slug:
-                lines.append(f"- [{person_label(slug)}]({{{{ '/people/{slug}/' | relative_url }}}})")
+                lines.append(
+                    f"- [{person_label(slug, people)}]({{{{ '/people/{slug}/' | relative_url }}}})"
+                )
 
     chapters = podcast.get("chapters")
     lines.extend(["", "## Chapter Summary", ""])
@@ -83,7 +91,7 @@ def page_body(podcast: dict[str, object]) -> str:
     return "\n".join(lines) + "\n"
 
 
-def render_page(source: Path, target: Path) -> bool:
+def render_page(source: Path, target: Path, people: dict[str, dict[str, object]]) -> bool:
     podcast = read_podcast(source)
     links = podcast.get("links") if isinstance(podcast.get("links"), dict) else {}
 
@@ -105,7 +113,7 @@ def render_page(source: Path, target: Path) -> bool:
                 frontmatter.append(f"{key}_url: {yaml_string(links[key])}")
     frontmatter.extend(["---", ""])
 
-    rendered = "\n".join(frontmatter) + page_body(podcast)
+    rendered = "\n".join(frontmatter) + page_body(podcast, people)
     if target.exists() and target.read_text(encoding="utf-8") == rendered:
         return False
     target.write_text(rendered, encoding="utf-8")
@@ -115,10 +123,12 @@ def render_page(source: Path, target: Path) -> bool:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--source", type=Path, default=DEFAULT_PODCAST_SOURCE)
+    parser.add_argument("--people-source", type=Path, default=DEFAULT_PEOPLE_SOURCE)
     parser.add_argument("--target", type=Path, default=DEFAULT_TARGET)
     args = parser.parse_args()
 
     args.target.mkdir(parents=True, exist_ok=True)
+    people = read_people(args.people_source)
     changed = 0
     total = 0
     for source in sorted(args.source.glob("*.md")):
@@ -127,7 +137,7 @@ def main() -> None:
         total += 1
         podcast = read_podcast(source)
         target = args.target / f"{podcast['slug']}.md"
-        if render_page(source, target):
+        if render_page(source, target, people):
             changed += 1
 
     print(f"synced {total} podcast pages, changed {changed}")

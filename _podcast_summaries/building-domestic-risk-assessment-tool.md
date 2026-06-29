@@ -31,7 +31,7 @@ How do you build an accurate, privacy-compliant domestic risk assessment tool th
 
 Use these links to connect the episode to guest notes.
 
-- [Sabinafirtala]({{ '/people/sabinafirtala/' | relative_url }})
+- [Sabina Firtala]({{ '/people/sabinafirtala/' | relative_url }})
 
 ## Chapter Summary
 

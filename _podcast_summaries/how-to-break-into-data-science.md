@@ -31,7 +31,7 @@ How do you actually break into data science, build a portfolio that gets intervi
 
 Use these links to connect the episode to guest notes.
 
-- [Misraturp]({{ '/people/misraturp/' | relative_url }})
+- [Mısra Turp]({{ '/people/misraturp/' | relative_url }})
 
 ## Chapter Summary
 

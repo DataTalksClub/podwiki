@@ -31,7 +31,7 @@ How do you reduce bias in credit scoring models without sacrificing explainabili
 
 Use these links to connect the episode to guest notes.
 
-- [Tamaraatanasoska]({{ '/people/tamaraatanasoska/' | relative_url }})
+- [Tamara Atanasoska]({{ '/people/tamaraatanasoska/' | relative_url }})
 
 ## Chapter Summary
 

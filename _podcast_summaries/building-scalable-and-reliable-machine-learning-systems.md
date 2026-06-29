@@ -31,7 +31,7 @@ How do you design machine learning systems that scale, stay reliable in producti
 
 Use these links to connect the episode to guest notes.
 
-- [Arsenykravchenko]({{ '/people/arsenykravchenko/' | relative_url }})
+- [Arseny Kravchenko]({{ '/people/arsenykravchenko/' | relative_url }})
 
 ## Chapter Summary
 

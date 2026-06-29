@@ -31,7 +31,7 @@ How do early-stage investors evaluate open-source developer tools — and what s
 
 Use these links to connect the episode to guest notes.
 
-- [Belawiertz]({{ '/people/belawiertz/' | relative_url }})
+- [Bela Wiertz]({{ '/people/belawiertz/' | relative_url }})
 
 ## Chapter Summary
 

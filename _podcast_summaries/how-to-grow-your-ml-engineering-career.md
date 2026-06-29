@@ -31,7 +31,7 @@ How do you move from web and game development into building machine learning pla
 
 Use these links to connect the episode to guest notes.
 
-- [Krzysztofszafanek]({{ '/people/krzysztofszafanek/' | relative_url }})
+- [Krzysztof Szafanek]({{ '/people/krzysztofszafanek/' | relative_url }})
 
 ## Chapter Summary
 

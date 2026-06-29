@@ -31,7 +31,7 @@ How do you scale data engineering teams during hypergrowth without sacrificing q
 
 Use these links to connect the episode to guest notes.
 
-- [Mehdiouazza]({{ '/people/mehdiouazza/' | relative_url }})
+- [Mehdi OUAZZA]({{ '/people/mehdiouazza/' | relative_url }})
 
 ## Chapter Summary
 

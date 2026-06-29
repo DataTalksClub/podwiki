@@ -31,7 +31,7 @@ How do small, science-aligned biohacks actually move the needle on focus and pro
 
 Use these links to connect the episode to guest notes.
 
-- [Ruslanshchuchkin]({{ '/people/ruslanshchuchkin/' | relative_url }})
+- [Ruslan Shchuchkin]({{ '/people/ruslanshchuchkin/' | relative_url }})
 
 ## Chapter Summary
 

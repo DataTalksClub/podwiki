@@ -31,7 +31,7 @@ How do you practice developer relations for data science while balancing reprodu
 
 Use these links to connect the episode to guest notes.
 
-- [Elleobrien]({{ '/people/elleobrien/' | relative_url }})
+- [Elle O'Brien]({{ '/people/elleobrien/' | relative_url }})
 
 ## Chapter Summary
 

@@ -31,7 +31,7 @@ How do data scientists move from technical deep dives to memorable keynotes and 
 
 Use these links to connect the episode to guest notes.
 
-- [Bentaylor]({{ '/people/bentaylor/' | relative_url }})
+- [Ben Taylor]({{ '/people/bentaylor/' | relative_url }})
 
 ## Chapter Summary
 

@@ -31,7 +31,7 @@ How can a solo data scientist deliver measurable impact in the first 90 days? In
 
 Use these links to connect the episode to guest notes.
 
-- [Mariannadiachuk]({{ '/people/mariannadiachuk/' | relative_url }})
+- [Marianna Diachuk]({{ '/people/mariannadiachuk/' | relative_url }})
 
 ## Chapter Summary
 

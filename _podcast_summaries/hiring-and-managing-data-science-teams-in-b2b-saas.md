@@ -31,7 +31,7 @@ How do you hire, manage, and grow a high-impact data science team inside a B2B S
 
 Use these links to connect the episode to guest notes.
 
-- [Katiebauer]({{ '/people/katiebauer/' | relative_url }})
+- [Katie Bauer]({{ '/people/katiebauer/' | relative_url }})
 
 ## Chapter Summary
 

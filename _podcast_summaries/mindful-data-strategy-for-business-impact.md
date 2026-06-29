@@ -31,7 +31,7 @@ How do you build a data strategy that drives business impact without chasing per
 
 Use these links to connect the episode to guest notes.
 
-- [Liorbarak]({{ '/people/liorbarak/' | relative_url }})
+- [Lior Barak]({{ '/people/liorbarak/' | relative_url }})
 
 ## Chapter Summary
 

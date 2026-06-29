@@ -31,7 +31,7 @@ How do you decide between ETL and ELT, or when to keep a data lake versus a ware
 
 Use these links to connect the episode to guest notes.
 
-- [Nataliekwong]({{ '/people/nataliekwong/' | relative_url }})
+- [Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }})
 
 ## Chapter Summary
 

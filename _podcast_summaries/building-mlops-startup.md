@@ -31,7 +31,7 @@ What does it take to build a successful ML startup—especially around MLOps, mo
 
 Use these links to connect the episode to guest notes.
 
-- [Elenasamuylova]({{ '/people/elenasamuylova/' | relative_url }})
+- [Elena Samuylova]({{ '/people/elenasamuylova/' | relative_url }})
 
 ## Chapter Summary
 

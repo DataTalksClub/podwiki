@@ -31,7 +31,7 @@ How do you move from a strong individual contributor into a data leader who can 
 
 Use these links to connect the episode to guest notes.
 
-- [Terezaiofciu]({{ '/people/terezaiofciu/' | relative_url }})
+- [Tereza Iofciu]({{ '/people/terezaiofciu/' | relative_url }})
 
 ## Chapter Summary
 

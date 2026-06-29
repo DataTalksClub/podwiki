@@ -31,7 +31,7 @@ How do you build pragmatic, standardized MLOps across teams without chasing ever
 
 Use these links to connect the episode to guest notes.
 
-- [Mariavechtomova]({{ '/people/mariavechtomova/' | relative_url }})
+- [Maria Vechtomova]({{ '/people/mariavechtomova/' | relative_url }})
 
 ## Chapter Summary
 

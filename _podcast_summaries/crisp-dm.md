@@ -27,7 +27,7 @@ Learn the CRISP-DM methodology for managing data science projects. Step-by-step 
 
 Use these links to connect the episode to guest notes.
 
-- [Alexeygrigorev]({{ '/people/alexeygrigorev/' | relative_url }})
+- [Alexey Grigorev]({{ '/people/alexeygrigorev/' | relative_url }})
 
 ## Chapter Summary
 

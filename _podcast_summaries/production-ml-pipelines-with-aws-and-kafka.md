@@ -31,7 +31,7 @@ How do you move models out of notebooks and into reliable production data pipeli
 
 Use these links to connect the episode to guest notes.
 
-- [Andreaskretz]({{ '/people/andreaskretz/' | relative_url }})
+- [Andreas Kretz]({{ '/people/andreaskretz/' | relative_url }})
 
 ## Chapter Summary
 

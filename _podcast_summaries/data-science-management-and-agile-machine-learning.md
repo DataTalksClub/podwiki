@@ -31,7 +31,7 @@ How do you run data science teams so experiments become reliable, measurable pro
 
 Use these links to connect the episode to guest notes.
 
-- [Shirmeirlador]({{ '/people/shirmeirlador/' | relative_url }})
+- [Shir Meir Lador]({{ '/people/shirmeirlador/' | relative_url }})
 
 ## Chapter Summary
 

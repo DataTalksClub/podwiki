@@ -31,7 +31,7 @@ How do you structure an NLP team and build reliable production pipelines while w
 
 Use these links to connect the episode to guest notes.
 
-- [Ivanbilan]({{ '/people/ivanbilan/' | relative_url }})
+- [Ivan Bilan]({{ '/people/ivanbilan/' | relative_url }})
 
 ## Chapter Summary
 

@@ -31,7 +31,7 @@ How do you design a data-led growth stack that reliably powers personalization, 
 
 Use these links to connect the episode to guest notes.
 
-- [Arpitchoudhury]({{ '/people/arpitchoudhury/' | relative_url }})
+- [Arpit Choudhury]({{ '/people/arpitchoudhury/' | relative_url }})
 
 ## Chapter Summary
 

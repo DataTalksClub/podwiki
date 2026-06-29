@@ -31,7 +31,7 @@ How do you move from point estimates to full uncertainty-aware models and choose
 
 Use these links to connect the episode to guest notes.
 
-- [Robzinkov]({{ '/people/robzinkov/' | relative_url }})
+- [Rob Zinkov]({{ '/people/robzinkov/' | relative_url }})
 
 ## Chapter Summary
 

@@ -31,7 +31,7 @@ How do you move from a biology background into machine learning and build a data
 
 Use these links to connect the episode to guest notes.
 
-- [Isabellabicalho]({{ '/people/isabellabicalho/' | relative_url }})
+- [Isabella Bicalho]({{ '/people/isabellabicalho/' | relative_url }})
 
 ## Chapter Summary
 

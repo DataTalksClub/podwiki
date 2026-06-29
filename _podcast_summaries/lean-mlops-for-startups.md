@@ -31,7 +31,7 @@ How can a startup implement Lean MLOps that gets models into production quickly 
 
 Use these links to connect the episode to guest notes.
 
-- [Nemanjaradojkovic]({{ '/people/nemanjaradojkovic/' | relative_url }})
+- [Nemanja Radojkovic]({{ '/people/nemanjaradojkovic/' | relative_url }})
 
 ## Chapter Summary
 

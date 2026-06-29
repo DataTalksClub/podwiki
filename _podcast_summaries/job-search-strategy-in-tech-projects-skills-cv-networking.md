@@ -31,7 +31,7 @@ How do you turn portfolio projects, a sharper resume, and targeted networking in
 
 Use these links to connect the episode to guest notes.
 
-- [Sarahmestiri]({{ '/people/sarahmestiri/' | relative_url }})
+- [Sarah Mestiri]({{ '/people/sarahmestiri/' | relative_url }})
 
 ## Chapter Summary
 

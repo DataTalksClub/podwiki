@@ -31,7 +31,7 @@ How do you approach ML system design interviews that probe production constraint
 
 Use these links to connect the episode to guest notes.
 
-- [Valeriybabushkin]({{ '/people/valeriybabushkin/' | relative_url }})
+- [Valerii Babushkin]({{ '/people/valeriybabushkin/' | relative_url }})
 
 ## Chapter Summary
 

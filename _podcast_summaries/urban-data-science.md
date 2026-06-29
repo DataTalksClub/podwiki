@@ -31,7 +31,7 @@ How can cities use transport analytics, sensors and AI to become more liveable? 
 
 Use these links to connect the episode to guest notes.
 
-- [Rachellim]({{ '/people/rachellim/' | relative_url }})
+- [Rachel Lim]({{ '/people/rachellim/' | relative_url }})
 
 ## Chapter Summary
 

@@ -31,7 +31,7 @@ How do you switch into computer vision and deep learning from a non-industry bac
 
 Use these links to connect the episode to guest notes.
 
-- [Tatianagabruseva]({{ '/people/tatianagabruseva/' | relative_url }})
+- [Tatiana Gabruseva]({{ '/people/tatianagabruseva/' | relative_url }})
 
 ## Chapter Summary
 

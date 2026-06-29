@@ -31,7 +31,7 @@ How do you transform raw radio astronomy observations into reliable, production-
 
 Use these links to connect the episode to guest notes.
 
-- [Danielegbo]({{ '/people/danielegbo/' | relative_url }})
+- [Daniel Egbo]({{ '/people/danielegbo/' | relative_url }})
 
 ## Chapter Summary
 

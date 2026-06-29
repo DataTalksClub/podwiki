@@ -31,7 +31,7 @@ How do you hire the right data scientists today—balancing algorithmic depth, M
 
 Use these links to connect the episode to guest notes.
 
-- [Olgaivina]({{ '/people/olgaivina/' | relative_url }})
+- [Olga Ivina]({{ '/people/olgaivina/' | relative_url }})
 
 ## Chapter Summary
 

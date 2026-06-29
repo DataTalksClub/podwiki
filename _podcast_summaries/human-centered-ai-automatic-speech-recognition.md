@@ -31,7 +31,7 @@ How can automatic speech recognition (ASR) better serve people with disordered s
 
 Use these links to connect the episode to guest notes.
 
-- [Katarzynaforemniak]({{ '/people/katarzynaforemniak/' | relative_url }})
+- [Katarzyna Foremniak]({{ '/people/katarzynaforemniak/' | relative_url }})
 
 ## Chapter Summary
 

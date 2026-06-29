@@ -31,7 +31,7 @@ How did techniques born in game AI become the foundation for today's LLM-driven 
 
 Use these links to connect the episode to guest notes.
 
-- [Micheallanham]({{ '/people/micheallanham/' | relative_url }})
+- [Micheal Lanham]({{ '/people/micheallanham/' | relative_url }})
 
 ## Chapter Summary
 

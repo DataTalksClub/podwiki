@@ -31,7 +31,7 @@ How do you switch to tech from a completely different career and actually land a
 
 Use these links to connect the episode to guest notes.
 
-- [Jessicagreene]({{ '/people/jessicagreene/' | relative_url }})
+- [Jessica Greene]({{ '/people/jessicagreene/' | relative_url }})
 
 ## Chapter Summary
 

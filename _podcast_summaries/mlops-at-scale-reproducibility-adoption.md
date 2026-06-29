@@ -31,7 +31,7 @@ How do you run MLOps at scale so models stay deployed, reproducible, and actuall
 
 Use these links to connect the episode to guest notes.
 
-- [Raphaelhoogvliets]({{ '/people/raphaelhoogvliets/' | relative_url }})
+- [Raphaël Hoogvliets]({{ '/people/raphaelhoogvliets/' | relative_url }})
 
 ## Chapter Summary
 

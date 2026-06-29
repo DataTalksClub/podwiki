@@ -31,7 +31,7 @@ How do modern search systems combine vector databases, LLMs, and semantic retrie
 
 Use these links to connect the episode to guest notes.
 
-- [Atitaarora]({{ '/people/atitaarora/' | relative_url }})
+- [Atita Arora]({{ '/people/atitaarora/' | relative_url }})
 
 ## Chapter Summary
 

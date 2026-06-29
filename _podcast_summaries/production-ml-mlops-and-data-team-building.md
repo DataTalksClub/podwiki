@@ -31,7 +31,7 @@ How do teams move beyond dashboards to reliable production ML—while organizing
 
 Use these links to connect the episode to guest notes.
 
-- [Rishabhbhargava]({{ '/people/rishabhbhargava/' | relative_url }})
+- [Rishabh Bhargava]({{ '/people/rishabhbhargava/' | relative_url }})
 
 ## Chapter Summary
 

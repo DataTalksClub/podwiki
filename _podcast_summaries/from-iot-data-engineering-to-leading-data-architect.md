@@ -31,7 +31,7 @@ What does it take to evolve from hands-on IoT data engineering to leading data a
 
 Use these links to connect the episode to guest notes.
 
-- [Loicmagnien]({{ '/people/loicmagnien/' | relative_url }})
+- [Loïc Magnien]({{ '/people/loicmagnien/' | relative_url }})
 
 ## Chapter Summary
 

@@ -31,7 +31,7 @@ How do you design a FinTech data analytics curriculum that teaches fraud detecti
 
 Use these links to connect the episode to guest notes.
 
-- [Irinabrudaru]({{ '/people/irinabrudaru/' | relative_url }})
+- [Irina Brudaru]({{ '/people/irinabrudaru/' | relative_url }})
 
 ## Chapter Summary
 

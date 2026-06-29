@@ -31,7 +31,7 @@ How do you build and scale a data team that moves beyond dashboards to productio
 
 Use these links to connect the episode to guest notes.
 
-- [Tammyliang]({{ '/people/tammyliang/' | relative_url }})
+- [Tammy Liang]({{ '/people/tammyliang/' | relative_url }})
 
 ## Chapter Summary
 

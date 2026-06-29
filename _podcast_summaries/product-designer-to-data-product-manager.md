@@ -31,7 +31,7 @@ How do you move from product design into a data product manager role — and whi
 
 Use these links to connect the episode to guest notes.
 
-- [Saramenefee]({{ '/people/saramenefee/' | relative_url }})
+- [Sara Menefee]({{ '/people/saramenefee/' | relative_url }})
 
 ## Chapter Summary
 

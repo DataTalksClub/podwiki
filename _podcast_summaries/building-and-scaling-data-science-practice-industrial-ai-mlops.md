@@ -31,7 +31,7 @@ How do industrial enterprises move from pilots to production-ready AI—and what
 
 Use these links to connect the episode to guest notes.
 
-- [Andreyshtylenko]({{ '/people/andreyshtylenko/' | relative_url }})
+- [Andrey Shtylenko]({{ '/people/andreyshtylenko/' | relative_url }})
 
 ## Chapter Summary
 

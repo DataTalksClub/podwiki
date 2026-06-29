@@ -31,7 +31,7 @@ In this episode, Marijn Markus—AI Lead and Managing Data Scientist at Capgemin
 
 Use these links to connect the episode to guest notes.
 
-- [Marijnmarkus]({{ '/people/marijnmarkus/' | relative_url }})
+- [Marijn Markus]({{ '/people/marijnmarkus/' | relative_url }})
 
 ## Chapter Summary
 

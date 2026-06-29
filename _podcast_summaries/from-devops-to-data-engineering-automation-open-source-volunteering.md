@@ -31,7 +31,7 @@ How do you pivot from DevOps to data engineering without starting over? In this 
 
 Use these links to connect the episode to guest notes.
 
-- [Agitajaunzeme]({{ '/people/agitajaunzeme/' | relative_url }})
+- [Agita Jaunzeme]({{ '/people/agitajaunzeme/' | relative_url }})
 
 ## Chapter Summary
 

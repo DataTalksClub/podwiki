@@ -31,7 +31,7 @@ How do you go from medical school to shipping production-ready healthcare ML—a
 
 Use these links to connect the episode to guest notes.
 
-- [Pastorsoto]({{ '/people/pastorsoto/' | relative_url }})
+- [Pastor Soto]({{ '/people/pastorsoto/' | relative_url }})
 
 ## Chapter Summary
 

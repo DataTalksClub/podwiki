@@ -31,7 +31,7 @@ How do you move from corporate analytics to independent data consulting while pr
 
 Use these links to connect the episode to guest notes.
 
-- [Dimitrivisnadi]({{ '/people/dimitrivisnadi/' | relative_url }})
+- [Dimitri Visnadi]({{ '/people/dimitrivisnadi/' | relative_url }})
 
 ## Chapter Summary
 

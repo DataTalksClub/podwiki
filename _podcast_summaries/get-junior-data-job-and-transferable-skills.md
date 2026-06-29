@@ -31,7 +31,7 @@ Struggling to land a junior data job—how do you turn non-linear experience int
 
 Use these links to connect the episode to guest notes.
 
-- [Lindsaymcquade]({{ '/people/lindsaymcquade/' | relative_url }})
+- [Lindsay McQuade]({{ '/people/lindsaymcquade/' | relative_url }})
 
 ## Chapter Summary
 

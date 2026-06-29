@@ -31,7 +31,7 @@ How do you actually get a data engineering job today — and which skills hiring
 
 Use these links to connect the episode to guest notes.
 
-- [Jeffkatz]({{ '/people/jeffkatz/' | relative_url }})
+- [Jeff Katz]({{ '/people/jeffkatz/' | relative_url }})
 
 ## Chapter Summary
 

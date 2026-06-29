@@ -31,7 +31,7 @@ How do you become an ML product manager and build MLOps platforms that teams act
 
 Use these links to connect the episode to guest notes.
 
-- [Geojolly]({{ '/people/geojolly/' | relative_url }})
+- [Geo Jolly]({{ '/people/geojolly/' | relative_url }})
 
 ## Chapter Summary
 

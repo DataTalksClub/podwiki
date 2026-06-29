@@ -31,8 +31,8 @@ How do you build a sustainable data community that endures beyond meetup hype an
 
 Use these links to connect the episode to guest notes.
 
-- [Alexeygrigorev]({{ '/people/alexeygrigorev/' | relative_url }})
-- [Johannabayer]({{ '/people/johannabayer/' | relative_url }})
+- [Alexey Grigorev]({{ '/people/alexeygrigorev/' | relative_url }})
+- [Johanna Bayer]({{ '/people/johannabayer/' | relative_url }})
 
 ## Chapter Summary
 

@@ -31,7 +31,7 @@ How do you take large language models from experiment to reliable production—b
 
 Use these links to connect the episode to guest notes.
 
-- [Meryemarik]({{ '/people/meryemarik/' | relative_url }})
+- [Meryem Arik]({{ '/people/meryemarik/' | relative_url }})
 
 ## Chapter Summary
 

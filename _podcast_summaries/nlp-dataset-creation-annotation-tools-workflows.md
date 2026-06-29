@@ -31,7 +31,7 @@ How do you create high-quality NLP datasets without breaking the budget? In this
 
 Use these links to connect the episode to guest notes.
 
-- [Christiannswart]({{ '/people/christiannswart/' | relative_url }})
+- [Christiaan Swart]({{ '/people/christiannswart/' | relative_url }})
 
 ## Chapter Summary
 

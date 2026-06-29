@@ -31,7 +31,7 @@ How do you teach reproducible research and practical research software engineeri
 
 Use these links to connect the episode to guest notes.
 
-- [Johannabayer]({{ '/people/johannabayer/' | relative_url }})
+- [Johanna Bayer]({{ '/people/johannabayer/' | relative_url }})
 
 ## Chapter Summary
 

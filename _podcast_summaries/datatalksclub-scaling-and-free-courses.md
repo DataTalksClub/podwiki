@@ -31,7 +31,7 @@ How do you scale a volunteer-run learning community into a sustainable platform 
 
 Use these links to connect the episode to guest notes.
 
-- [Alexeygrigorev]({{ '/people/alexeygrigorev/' | relative_url }})
+- [Alexey Grigorev]({{ '/people/alexeygrigorev/' | relative_url }})
 
 ## Chapter Summary
 

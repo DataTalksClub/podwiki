@@ -31,7 +31,7 @@ How much can improving label quality and editing your dataset actually boost mod
 
 Use these links to connect the episode to guest notes.
 
-- [Marysiawinkels]({{ '/people/marysiawinkels/' | relative_url }})
+- [Marysia Winkels]({{ '/people/marysiawinkels/' | relative_url }})
 
 ## Chapter Summary
 

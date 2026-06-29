@@ -31,7 +31,7 @@ How do you move from models that look good on paper to reliable machine learning
 
 Use these links to connect the episode to guest notes.
 
-- [Thomives]({{ '/people/thomives/' | relative_url }})
+- [Thom Ives]({{ '/people/thomives/' | relative_url }})
 
 ## Chapter Summary
 

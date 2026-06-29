@@ -31,7 +31,7 @@ How do you turn open source work into a sustainable career and even a startup? I
 
 Use these links to connect the episode to guest notes.
 
-- [Willmcgugan]({{ '/people/willmcgugan/' | relative_url }})
+- [Will McGugan]({{ '/people/willmcgugan/' | relative_url }})
 
 ## Chapter Summary
 

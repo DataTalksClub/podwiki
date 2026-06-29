@@ -31,7 +31,7 @@ How do you build reliable data pipelines that move fast without breaking product
 
 Use these links to connect the episode to guest notes.
 
-- [Christopherbergh]({{ '/people/christopherbergh/' | relative_url }})
+- [Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }})
 
 ## Chapter Summary
 

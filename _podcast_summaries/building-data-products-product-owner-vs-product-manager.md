@@ -31,7 +31,7 @@ How do you scale recommender systems, hire for production ML, and model price ma
 
 Use these links to connect the episode to guest notes.
 
-- [Annahannemann]({{ '/people/annahannemann/' | relative_url }})
+- [Anna Hannemann]({{ '/people/annahannemann/' | relative_url }})
 
 ## Chapter Summary
 

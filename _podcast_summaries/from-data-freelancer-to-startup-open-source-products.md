@@ -31,7 +31,7 @@ How do you move from freelancing to building an open-source data company that wi
 
 Use these links to connect the episode to guest notes.
 
-- [Adrianbrudaru]({{ '/people/adrianbrudaru/' | relative_url }})
+- [Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }})
 
 ## Chapter Summary
 

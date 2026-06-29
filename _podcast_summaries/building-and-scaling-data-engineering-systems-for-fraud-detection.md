@@ -31,7 +31,7 @@ How do you build data infrastructure that stops stolen-card transactions and ret
 
 Use these links to connect the episode to guest notes.
 
-- [Angelaramirez]({{ '/people/angelaramirez/' | relative_url }})
+- [Angela Ramirez]({{ '/people/angelaramirez/' | relative_url }})
 
 ## Chapter Summary
 

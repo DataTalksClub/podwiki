@@ -31,7 +31,7 @@ How do the day-to-day responsibilities and skill sets really differ between a Bi
 
 Use these links to connect the episode to guest notes.
 
-- [Roksolanadiachuk]({{ '/people/roksolanadiachuk/' | relative_url }})
+- [Roksolana Diachuk]({{ '/people/roksolanadiachuk/' | relative_url }})
 
 ## Chapter Summary
 

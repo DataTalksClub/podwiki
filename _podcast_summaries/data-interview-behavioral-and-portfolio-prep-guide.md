@@ -31,7 +31,7 @@ Master behavioral interviews & prep to break into data roles: build an impact po
 
 Use these links to connect the episode to guest notes.
 
-- [Nicksingh]({{ '/people/nicksingh/' | relative_url }})
+- [Nick Singh]({{ '/people/nicksingh/' | relative_url }})
 
 ## Chapter Summary
 

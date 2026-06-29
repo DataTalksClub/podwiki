@@ -31,7 +31,7 @@ How do you take computer vision research out of the lab and turn it into product
 
 Use these links to connect the episode to guest notes.
 
-- [Aishwaryajadhav]({{ '/people/aishwaryajadhav/' | relative_url }})
+- [Aishwarya Jadhav]({{ '/people/aishwaryajadhav/' | relative_url }})
 
 ## Chapter Summary
 

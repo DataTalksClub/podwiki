@@ -31,7 +31,7 @@ How can data engineers bring FinOps practices into their day-to-day work to cont
 
 Use these links to connect the episode to guest notes.
 
-- [Eddyzulkifly]({{ '/people/eddyzulkifly/' | relative_url }})
+- [Eddy Zulkifly]({{ '/people/eddyzulkifly/' | relative_url }})
 
 ## Chapter Summary
 

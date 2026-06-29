@@ -31,7 +31,7 @@ How do you build effective developer relations for machine learning ecosystems w
 
 Use these links to connect the episode to guest notes.
 
-- [Hugobowneanderson]({{ '/people/hugobowneanderson/' | relative_url }})
+- [Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }})
 
 ## Chapter Summary
 

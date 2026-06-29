@@ -31,7 +31,7 @@ How do you teach machine learning so people build intuition before diving into m
 
 Use these links to connect the episode to guest notes.
 
-- [Meoramer]({{ '/people/meoramer/' | relative_url }})
+- [Meor Amer]({{ '/people/meoramer/' | relative_url }})
 
 ## Chapter Summary
 

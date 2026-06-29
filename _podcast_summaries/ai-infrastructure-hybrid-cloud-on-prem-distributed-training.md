@@ -31,7 +31,7 @@ How has the rise of ChatGPT reshaped the infrastructure needed to build and run 
 
 Use these links to connect the episode to guest notes.
 
-- [Andreycheptsov]({{ '/people/andreycheptsov/' | relative_url }})
+- [Andrey Cheptsov]({{ '/people/andreycheptsov/' | relative_url }})
 
 ## Chapter Summary
 

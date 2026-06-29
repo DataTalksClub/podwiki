@@ -31,7 +31,7 @@ How do you transform raw data into compelling, trustworthy journalism that reade
 
 Use these links to connect the episode to guest notes.
 
-- [Angelicaloduca]({{ '/people/angelicaloduca/' | relative_url }})
+- [Angelica Lo Duca]({{ '/people/angelicaloduca/' | relative_url }})
 
 ## Chapter Summary
 

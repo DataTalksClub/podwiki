@@ -31,7 +31,7 @@ When should you hire a data science manager versus a deep technical expert, and 
 
 Use these links to connect the episode to guest notes.
 
-- [Barbarasobkowiak]({{ '/people/barbarasobkowiak/' | relative_url }})
+- [Barbara Sobkowiak]({{ '/people/barbarasobkowiak/' | relative_url }})
 
 ## Chapter Summary
 

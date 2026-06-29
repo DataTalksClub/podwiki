@@ -31,7 +31,7 @@ How can communities turn real-world AI projects into repeatable courses that sca
 
 Use these links to connect the episode to guest notes.
 
-- [Erumafzal]({{ '/people/erumafzal/' | relative_url }})
+- [Erum Afzal]({{ '/people/erumafzal/' | relative_url }})
 
 ## Chapter Summary
 

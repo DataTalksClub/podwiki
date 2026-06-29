@@ -31,7 +31,7 @@ How do you validate customers, run effective user interviews, and set pricing to
 
 Use these links to connect the episode to guest notes.
 
-- [Aleksanderkruszelnicki]({{ '/people/aleksanderkruszelnicki/' | relative_url }})
+- [Aleksander Kruszelnicki]({{ '/people/aleksanderkruszelnicki/' | relative_url }})
 
 ## Chapter Summary
 

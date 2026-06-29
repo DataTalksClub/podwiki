@@ -31,7 +31,7 @@ How do you move from correlation to actionable decisions — using counterfactua
 
 Use these links to connect the episode to guest notes.
 
-- [Aleksandermolak]({{ '/people/aleksandermolak/' | relative_url }})
+- [Aleksander Molak]({{ '/people/aleksandermolak/' | relative_url }})
 
 ## Chapter Summary
 

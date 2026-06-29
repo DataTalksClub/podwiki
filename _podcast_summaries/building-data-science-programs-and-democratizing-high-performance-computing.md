@@ -31,7 +31,7 @@ How do you build effective data science programs, democratize high-performance c
 
 Use these links to connect the episode to guest notes.
 
-- [Davidbader]({{ '/people/davidbader/' | relative_url }})
+- [David Bader]({{ '/people/davidbader/' | relative_url }})
 
 ## Chapter Summary
 

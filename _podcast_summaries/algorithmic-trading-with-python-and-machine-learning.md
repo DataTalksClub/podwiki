@@ -31,7 +31,7 @@ How do you turn a trading idea into a robust, risk-managed algorithm in Python? 
 
 Use these links to connect the episode to guest notes.
 
-- [Ivanbrigida]({{ '/people/ivanbrigida/' | relative_url }})
+- [Ivan Brigida]({{ '/people/ivanbrigida/' | relative_url }})
 
 ## Chapter Summary
 

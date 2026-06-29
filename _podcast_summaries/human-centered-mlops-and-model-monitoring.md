@@ -31,7 +31,7 @@ How do you make MLOps human-centered so stakeholders actually trust models and t
 
 Use these links to connect the episode to guest notes.
 
-- [Linaweichbrodt]({{ '/people/linaweichbrodt/' | relative_url }})
+- [Lina Weichbrodt]({{ '/people/linaweichbrodt/' | relative_url }})
 
 ## Chapter Summary
 

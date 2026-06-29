@@ -31,7 +31,7 @@ How do you price freelance data engineering work, win steady clients, and pick t
 
 Use these links to connect the episode to guest notes.
 
-- [Adrianbrudaru]({{ '/people/adrianbrudaru/' | relative_url }})
+- [Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }})
 
 ## Chapter Summary
 

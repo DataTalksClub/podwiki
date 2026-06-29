@@ -31,7 +31,7 @@ How do you turn machine learning models into recurring revenue—ARR and MRR—r
 
 Use these links to connect the episode to guest notes.
 
-- [Vinvashishta]({{ '/people/vinvashishta/' | relative_url }})
+- [Vin Vashishta]({{ '/people/vinvashishta/' | relative_url }})
 
 ## Chapter Summary
 

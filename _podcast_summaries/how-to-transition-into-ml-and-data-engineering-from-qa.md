@@ -31,7 +31,7 @@ How do you move from a QA role into machine learning and data engineering—what
 
 Use these links to connect the episode to guest notes.
 
-- [Alvaronavaspeire]({{ '/people/alvaronavaspeire/' | relative_url }})
+- [Alvaro Navas Peire]({{ '/people/alvaronavaspeire/' | relative_url }})
 
 ## Chapter Summary
 

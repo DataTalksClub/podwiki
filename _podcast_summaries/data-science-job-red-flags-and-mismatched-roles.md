@@ -31,7 +31,7 @@ How can you tell if a data scientist job is really a data engineering role — o
 
 Use these links to connect the episode to guest notes.
 
-- [Terezaiofciu]({{ '/people/terezaiofciu/' | relative_url }})
+- [Tereza Iofciu]({{ '/people/terezaiofciu/' | relative_url }})
 
 ## Chapter Summary
 

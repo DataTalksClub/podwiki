@@ -31,7 +31,7 @@ How do you move from proof-of-concept to scaled enterprise AI without over-inves
 
 Use these links to connect the episode to guest notes.
 
-- [Alexanderhendorf]({{ '/people/alexanderhendorf/' | relative_url }})
+- [Alexander Hendorf]({{ '/people/alexanderhendorf/' | relative_url }})
 
 ## Chapter Summary
 

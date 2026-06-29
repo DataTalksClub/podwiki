@@ -31,7 +31,7 @@ How do you move from research scientist to running a freelance generative AI bus
 
 Use these links to connect the episode to guest notes.
 
-- [Verenaweber]({{ '/people/verenaweber/' | relative_url }})
+- [Verena Weber]({{ '/people/verenaweber/' | relative_url }})
 
 ## Chapter Summary
 

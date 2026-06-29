@@ -31,7 +31,7 @@ How do you move from collider physics to industry data science while keeping rig
 
 Use these links to connect the episode to guest notes.
 
-- [Anastasiakaravdina]({{ '/people/anastasiakaravdina/' | relative_url }})
+- [Anastasia Karavdina]({{ '/people/anastasiakaravdina/' | relative_url }})
 
 ## Chapter Summary
 

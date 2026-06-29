@@ -31,7 +31,7 @@ How do you harden generative AI chatbots against prompt injection, data exfiltra
 
 Use these links to connect the episode to guest notes.
 
-- [Mariasukhareva]({{ '/people/mariasukhareva/' | relative_url }})
+- [Maria Sukhareva]({{ '/people/mariasukhareva/' | relative_url }})
 
 ## Chapter Summary
 

@@ -31,7 +31,7 @@ How do you move from proofs-of-concept to scalable AI data products that deliver
 
 Use these links to connect the episode to guest notes.
 
-- [Gregcoquillo]({{ '/people/gregcoquillo/' | relative_url }})
+- [Greg Coquillo]({{ '/people/gregcoquillo/' | relative_url }})
 
 ## Chapter Summary
 

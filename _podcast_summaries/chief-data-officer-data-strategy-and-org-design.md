@@ -31,7 +31,7 @@ How do you move from head of data to an effective Chief Data Officer who builds 
 
 Use these links to connect the episode to guest notes.
 
-- [Marcodesa]({{ '/people/marcodesa/' | relative_url }})
+- [Marco De Sa]({{ '/people/marcodesa/' | relative_url }})
 
 ## Chapter Summary
 

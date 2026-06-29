@@ -31,7 +31,7 @@ How do you build a sustainable solopreneur business that doesn't rely on VC fund
 
 Use these links to connect the episode to guest notes.
 
-- [Noahgift]({{ '/people/noahgift/' | relative_url }})
+- [Noah Gift]({{ '/people/noahgift/' | relative_url }})
 
 ## Chapter Summary
 

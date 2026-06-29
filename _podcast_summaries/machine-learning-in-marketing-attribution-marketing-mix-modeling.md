@@ -31,7 +31,7 @@ How can marketing teams reliably measure ad impact, allocate budget across chann
 
 Use these links to connect the episode to guest notes.
 
-- [Juanorduz]({{ '/people/juanorduz/' | relative_url }})
+- [Juan Orduz]({{ '/people/juanorduz/' | relative_url }})
 
 ## Chapter Summary
 

@@ -31,7 +31,7 @@ How do you move from employed data pro to a sustainable data freelancer who cons
 
 Use these links to connect the episode to guest notes.
 
-- [Dimitrivisnadi]({{ '/people/dimitrivisnadi/' | relative_url }})
+- [Dimitri Visnadi]({{ '/people/dimitrivisnadi/' | relative_url }})
 
 ## Chapter Summary
 

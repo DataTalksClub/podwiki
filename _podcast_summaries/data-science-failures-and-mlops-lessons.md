@@ -31,7 +31,7 @@ How do you turn data science project failures into tangible career wins — and 
 
 Use these links to connect the episode to guest notes.
 
-- [Yurykashnitsky]({{ '/people/yurykashnitsky/' | relative_url }})
+- [Yury Kashnitsky]({{ '/people/yurykashnitsky/' | relative_url }})
 
 ## Chapter Summary
 

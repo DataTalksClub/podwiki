@@ -31,7 +31,7 @@ How do teams prevent hidden technical debt in ML systems before it derails produ
 
 Use these links to connect the episode to guest notes.
 
-- [Nadianahar]({{ '/people/nadianahar/' | relative_url }})
+- [Nadia Nahar]({{ '/people/nadianahar/' | relative_url }})
 
 ## Chapter Summary
 

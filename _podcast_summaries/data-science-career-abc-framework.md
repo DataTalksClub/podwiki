@@ -31,7 +31,7 @@ How do you pick the right data science path—and actually make the transition? 
 
 Use these links to connect the episode to guest notes.
 
-- [Dannyma]({{ '/people/dannyma/' | relative_url }})
+- [Danny Ma]({{ '/people/dannyma/' | relative_url }})
 
 ## Chapter Summary
 

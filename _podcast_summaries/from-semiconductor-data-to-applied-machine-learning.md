@@ -31,7 +31,7 @@ How do you move from playing classical guitar to applying machine learning in se
 
 Use these links to connect the episode to guest notes.
 
-- [Dashelruizperez]({{ '/people/dashelruizperez/' | relative_url }})
+- [Dashel Ruiz Perez]({{ '/people/dashelruizperez/' | relative_url }})
 
 ## Chapter Summary
 

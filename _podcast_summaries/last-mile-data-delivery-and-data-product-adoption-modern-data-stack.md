@@ -31,7 +31,7 @@ How do you turn a powerful modern data stack into analytics people actually use?
 
 Use these links to connect the episode to guest notes.
 
-- [Caitlinmoorman]({{ '/people/caitlinmoorman/' | relative_url }})
+- [Caitlin Moorman]({{ '/people/caitlinmoorman/' | relative_url }})
 
 ## Chapter Summary
 

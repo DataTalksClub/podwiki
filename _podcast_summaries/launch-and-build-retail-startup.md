@@ -31,7 +31,7 @@ How do you build a grocery retail OS that actually cuts supermarket food waste w
 
 Use these links to connect the episode to guest notes.
 
-- [Carminepaolino]({{ '/people/carminepaolino/' | relative_url }})
+- [Carmine Paolino]({{ '/people/carminepaolino/' | relative_url }})
 
 ## Chapter Summary
 

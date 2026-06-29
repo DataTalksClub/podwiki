@@ -31,7 +31,7 @@ How do you scale data access management—from access controls and data catalogs
 
 Use these links to connect the episode to guest notes.
 
-- [Bartvandekerckhove]({{ '/people/bartvandekerckhove/' | relative_url }})
+- [Bart Vandekerckhove]({{ '/people/bartvandekerckhove/' | relative_url }})
 
 ## Chapter Summary
 

@@ -31,7 +31,7 @@ How should you structure a data science organization to maximize product impact:
 
 Use these links to connect the episode to guest notes.
 
-- [Lisacohen]({{ '/people/lisacohen/' | relative_url }})
+- [Lisa Cohen]({{ '/people/lisacohen/' | relative_url }})
 
 ## Chapter Summary
 

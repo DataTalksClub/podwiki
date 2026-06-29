@@ -31,7 +31,7 @@ How do you build and scale an ML team that delivers product-driven AI without ge
 
 Use these links to connect the episode to guest notes.
 
-- [Dattran]({{ '/people/dattran/' | relative_url }})
+- [Dat Tran]({{ '/people/dattran/' | relative_url }})
 
 ## Chapter Summary
 

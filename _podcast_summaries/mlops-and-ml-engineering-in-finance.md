@@ -31,7 +31,7 @@ How do you deploy machine learning in heavily regulated finance environments whi
 
 Use these links to connect the episode to guest notes.
 
-- [Nemanjaradojkovic]({{ '/people/nemanjaradojkovic/' | relative_url }})
+- [Nemanja Radojkovic]({{ '/people/nemanjaradojkovic/' | relative_url }})
 
 ## Chapter Summary
 

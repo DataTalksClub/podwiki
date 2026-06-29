@@ -31,7 +31,7 @@ How can teams scale high-quality NLP labeling without hand-labeling every exampl
 
 Use these links to connect the episode to guest notes.
 
-- [Johanneshotter]({{ '/people/johanneshotter/' | relative_url }})
+- [Johannes Hötter]({{ '/people/johanneshotter/' | relative_url }})
 
 ## Chapter Summary
 

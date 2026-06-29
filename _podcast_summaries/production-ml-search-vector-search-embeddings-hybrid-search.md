@@ -31,7 +31,7 @@ How do you move from prototypes to production ML search that scales and stays re
 
 Use these links to connect the episode to guest notes.
 
-- [Reemmahmoud]({{ '/people/reemmahmoud/' | relative_url }})
+- [Reem Mahmoud]({{ '/people/reemmahmoud/' | relative_url }})
 
 ## Chapter Summary
 

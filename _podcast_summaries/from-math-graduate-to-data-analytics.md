@@ -31,7 +31,7 @@ How do you actually break into data analytics — and what combination of networ
 
 Use these links to connect the episode to guest notes.
 
-- [Juanpablo]({{ '/people/juanpablo/' | relative_url }})
+- [Juan Pablo]({{ '/people/juanpablo/' | relative_url }})
 
 ## Chapter Summary
 

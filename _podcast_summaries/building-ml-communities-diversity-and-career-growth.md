@@ -31,7 +31,7 @@ How do you build and scale a data science community that actually advances diver
 
 Use these links to connect the episode to guest notes.
 
-- [Daniameira]({{ '/people/daniameira/' | relative_url }})
+- [Dânia Meira]({{ '/people/daniameira/' | relative_url }})
 
 ## Chapter Summary
 

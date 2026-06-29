@@ -31,7 +31,7 @@ How do you move ML work from research notebooks to reproducible, deployable full
 
 Use these links to connect the episode to guest notes.
 
-- [Mihaileric]({{ '/people/mihaileric/' | relative_url }})
+- [Mihail Eric]({{ '/people/mihaileric/' | relative_url }})
 
 ## Chapter Summary
 

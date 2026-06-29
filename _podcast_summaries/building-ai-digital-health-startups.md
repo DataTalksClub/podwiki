@@ -31,7 +31,7 @@ How do you build a digital health startup that ships a focused MVP, uses AI for 
 
 Use these links to connect the episode to guest notes.
 
-- [Mariabruckert]({{ '/people/mariabruckert/' | relative_url }})
+- [Maria Bruckert]({{ '/people/mariabruckert/' | relative_url }})
 
 ## Chapter Summary
 

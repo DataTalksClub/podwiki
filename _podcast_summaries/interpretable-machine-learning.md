@@ -31,7 +31,7 @@ How can you reliably trust a machine learning model’s predictions in real-worl
 
 Use these links to connect the episode to guest notes.
 
-- [Christophmolnar]({{ '/people/christophmolnar/' | relative_url }})
+- [Christoph Molnar]({{ '/people/christophmolnar/' | relative_url }})
 
 ## Chapter Summary
 

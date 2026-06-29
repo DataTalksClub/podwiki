@@ -31,7 +31,7 @@ How do you make your data science application stand out, ace take-home projects,
 
 Use these links to connect the episode to guest notes.
 
-- [Olegnovikov]({{ '/people/olegnovikov/' | relative_url }})
+- [Oleg Novikov]({{ '/people/olegnovikov/' | relative_url }})
 
 ## Chapter Summary
 

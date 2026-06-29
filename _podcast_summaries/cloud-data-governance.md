@@ -31,8 +31,8 @@ How do you build data governance in the cloud that enables access, meets regulat
 
 Use these links to connect the episode to guest notes.
 
-- [Jessiashdown]({{ '/people/jessiashdown/' | relative_url }})
-- [Urigilad]({{ '/people/urigilad/' | relative_url }})
+- [Jessi Ashdown]({{ '/people/jessiashdown/' | relative_url }})
+- [Uri Gilad]({{ '/people/urigilad/' | relative_url }})
 
 ## Chapter Summary
 

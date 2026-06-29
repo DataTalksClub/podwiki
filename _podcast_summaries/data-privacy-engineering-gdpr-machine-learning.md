@@ -31,7 +31,7 @@ How can teams build useful machine learning while respecting user privacy, compl
 
 Use these links to connect the episode to guest notes.
 
-- [Katharinejarmul]({{ '/people/katharinejarmul/' | relative_url }})
+- [Katharine Jarmul]({{ '/people/katharinejarmul/' | relative_url }})
 
 ## Chapter Summary
 

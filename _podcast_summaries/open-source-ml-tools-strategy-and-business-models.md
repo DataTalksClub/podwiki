@@ -31,7 +31,7 @@ How can open source ML tools stay healthy, useful, and financially sustainable w
 
 Use these links to connect the episode to guest notes.
 
-- [Vincentwarmerdam]({{ '/people/vincentwarmerdam/' | relative_url }})
+- [Vincent Warmerdam]({{ '/people/vincentwarmerdam/' | relative_url }})
 
 ## Chapter Summary
 

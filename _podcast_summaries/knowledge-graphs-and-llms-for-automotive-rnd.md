@@ -31,7 +31,7 @@ How can knowledge graphs and large language models (LLMs) be combined to acceler
 
 Use these links to connect the episode to guest notes.
 
-- [Anahitapakiman]({{ '/people/anahitapakiman/' | relative_url }})
+- [Anahita Pakiman]({{ '/people/anahitapakiman/' | relative_url }})
 
 ## Chapter Summary
 

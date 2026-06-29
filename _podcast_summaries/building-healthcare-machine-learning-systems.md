@@ -31,7 +31,7 @@ How do you build machine learning systems that can predict sepsis and actually w
 
 Use these links to connect the episode to guest notes.
 
-- [Elenistamatelou]({{ '/people/elenistamatelou/' | relative_url }})
+- [Eleni Stamatelou]({{ '/people/elenistamatelou/' | relative_url }})
 
 ## Chapter Summary
 

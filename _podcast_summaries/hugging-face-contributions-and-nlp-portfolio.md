@@ -31,7 +31,7 @@ How do you go from beginner projects to contributing to Hugging Face and buildin
 
 Use these links to connect the episode to guest notes.
 
-- [Mervenoyan]({{ '/people/mervenoyan/' | relative_url }})
+- [Merve Noyan]({{ '/people/mervenoyan/' | relative_url }})
 
 ## Chapter Summary
 

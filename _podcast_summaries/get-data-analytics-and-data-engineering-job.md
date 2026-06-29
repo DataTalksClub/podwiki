@@ -31,7 +31,7 @@ How do you go from neuroscience research to a data engineering role — and what
 
 Use these links to connect the episode to guest notes.
 
-- [Gloriaquiceno]({{ '/people/gloriaquiceno/' | relative_url }})
+- [Gloria Quiceno]({{ '/people/gloriaquiceno/' | relative_url }})
 
 ## Chapter Summary
 

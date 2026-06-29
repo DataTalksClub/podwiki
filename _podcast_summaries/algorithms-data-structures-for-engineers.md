@@ -31,7 +31,7 @@ How do engineers choose and implement the right algorithm for memory, latency, a
 
 Use these links to connect the episode to guest notes.
 
-- [Marcellolarocca]({{ '/people/marcellolarocca/' | relative_url }})
+- [Marcello La Rocca]({{ '/people/marcellolarocca/' | relative_url }})
 
 ## Chapter Summary
 

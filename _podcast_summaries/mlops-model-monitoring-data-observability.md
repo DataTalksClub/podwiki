@@ -31,7 +31,7 @@ How do you keep machine learning models reliable in production — what should y
 
 Use these links to connect the episode to guest notes.
 
-- [Dannyleybzon]({{ '/people/dannyleybzon/' | relative_url }})
+- [Danny Leybzon]({{ '/people/dannyleybzon/' | relative_url }})
 
 ## Chapter Summary
 

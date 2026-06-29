@@ -23,7 +23,7 @@ Use these links for the canonical episode and media sources.
 
 Use these links to connect the episode to guest notes.
 
-- [Alexeygrigorev]({{ '/people/alexeygrigorev/' | relative_url }})
+- [Alexey Grigorev]({{ '/people/alexeygrigorev/' | relative_url }})
 
 ## Chapter Summary
 

@@ -31,7 +31,7 @@ How do you scale data architecture so teams deliver value without centralized bo
 
 Use these links to connect the episode to guest notes.
 
-- [Zhamakdehghani]({{ '/people/zhamakdehghani/' | relative_url }})
+- [Zhamak Dehghani]({{ '/people/zhamakdehghani/' | relative_url }})
 
 ## Chapter Summary
 

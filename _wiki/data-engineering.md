@@ -4,6 +4,8 @@ title: "Data Engineering"
 summary: "How the DataTalks.Club podcast archive frames data engineering: pipelines, platforms, data quality, role boundaries, business enablement, and the shift toward AI-ready data systems."
 related:
   - Data Engineering Platforms
+  - Data Pipelines
+  - Modern Data Stack
   - MLOps and DataOps
   - Data Quality and Observability
   - Analytics Engineering
@@ -11,181 +13,297 @@ related:
   - AI
 ---
 
-## Definition
+Data engineering makes data usable and reliable for downstream work. That
+includes analysis, machine learning, product systems, and business decisions. In
+the DataTalks.Club archive, data engineers build the paths between source
+systems and consumers. Those paths cover ingestion, transformation, monitoring,
+and recovery.
 
-Data engineering makes data available and reliable for analysts, data
-scientists, machine learning systems, product teams, and business stakeholders.
-Across the podcast archive, data engineers build ingestion paths, storage
-layers, transformations, orchestration, access controls, monitoring, and
-self-service platforms.
+The podcast archive doesn't treat data engineering as a single fixed job. The
+early role taxonomy says data engineers prepare product data for analysts and
+data scientists without burdening operational systems
+([Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }})).
+Later interviews split the work across platform engineering, product-facing
+data engineering, analytics engineering, and DataOps. Recent episodes also add
+AI-ready infrastructure
+([Data Engineer Career in 2026]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }}),
+[Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }})).
 
-The archive doesn't treat data engineering as one fixed job. Early episodes
-describe data engineers as the people who prepare data for analysts and data
-scientists. Later episodes split the role into platform data engineering,
-product-facing data engineering, analytics engineering, DataOps, cost-aware
-platform work, and AI-ready data infrastructure.
-
-
-## Scope
-
-Use this foundation hub for pipelines, warehouses, lakes, lakehouses, and
-orchestration. It also covers batch and streaming flows, data contracts, quality
-checks, platform conventions, documentation, governance, and cost.
-
-For deeper platform patterns, use [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}).
-For operating practices such as CI/CD, testing, deployment confidence, and
-recovery culture, use [MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }}).
-For dbt-centered transformation and BI-ready modeling, use
+Use this page as the foundation hub for the broader discipline. For deeper
+platform patterns, use
+[Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}).
+For pipeline operating practices, use
+[DataOps]({{ '/wiki/dataops/' | relative_url }}) and
+[MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }}). For
+warehouse-side modeling and metric layers, use
 [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }}).
 
-## Recurring Archive Themes
+## Link Map
 
-**Data engineering supports other data roles.**
+Related wiki pages:
 
-The first DataTalks.Club podcast episode frames data engineers as the people who
-make product data safe to query and train on. Analysts use the data for
-dashboards, reports, KPIs, and experiments. Data scientists use it for model
-training and prediction services. Data engineers keep that analytical workload
-from harming the main product systems.
+- [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
+- [Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }})
+- [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
+- [DataOps]({{ '/wiki/dataops/' | relative_url }})
+- [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
+- [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
+- [Self-Service Data Platforms]({{ '/wiki/self-service-data-platforms/' | relative_url }})
+- [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
+- [Data Strategy]({{ '/wiki/data-strategy/' | relative_url }})
+- [Data Science]({{ '/wiki/data-science/' | relative_url }})
+- [AI]({{ '/wiki/ai/' | relative_url }})
 
-This support role isn't passive. When a team builds a predictive feature, data
-engineers help provide the training data, schedule batch scoring jobs, store
-predictions, and make results available to other services.
+Core podcast interviews:
 
-**The role splits into platform and product specializations.**
+- [Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }})
+- [Data Engineering Career Path and Skills]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }})
+- [ETL vs ELT and Modern Data Engineering]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})
+- [Data Engineer Career in 2026]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }})
+- [DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }})
+- [Scaling Data Engineering Teams]({{ '/podcasts/scaling-data-engineering-teams-self-service-platforms/' | relative_url }})
+- [Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }})
+- [FinOps for Data Engineers]({{ '/podcasts/finops-for-data-engineers/' | relative_url }})
 
-Later data engineering episodes argue that the title still lacks a single
-industry definition. The archive's useful split is between platform data
-engineers and product data engineers. Platform engineers build warehouses,
-orchestration, storage, compute, metadata, access, and monitoring. Product data
-engineers sit closer to business domains. They transform data for use cases and
-often overlap with analytics engineering.
+People connected to these discussions:
 
-This distinction matters because a job title alone may hide different work. One
-company may expect Kafka, Spark, and infrastructure ownership. Another may expect
-SQL, dbt, data modeling, and stakeholder-facing business logic.
+- [DataTalks.Club host]({{ '/people/alexeygrigorev/' | relative_url }})
+- [Jeff Katz]({{ '/people/jeffkatz/' | relative_url }})
+- [Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }})
+- [Slawomir Tulski]({{ '/people/slawomirtulski/' | relative_url }})
+- [Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }})
+- [Lars Albertsson]({{ '/people/larsalbertsson/' | relative_url }})
+- [Mehdi Ouazza]({{ '/people/mehdiouazza/' | relative_url }})
+- [Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }})
+- [Eddy Zulkifly]({{ '/people/eddyzulkifly/' | relative_url }})
 
-**Fundamentals matter more than tool collecting.**
+## Common Definition
 
-Career and bootcamp episodes repeatedly return to Python, SQL, data modeling,
-cloud basics, backend habits, and business context. Spark, Kafka, Kubernetes, and
-Databricks appear throughout the archive, but guests warn against teaching or
-adopting them before the work needs them.
+Across the archive, data engineering converges on one practical definition.
+Data engineers make data dependable enough for other people and systems to use.
+They collect data from operational systems and preserve raw context. They also
+transform data into useful structures, schedule repeatable work, expose
+interfaces, and monitor whether the work still behaves as expected.
 
-This is especially visible in junior-role discussions. Several guests value deep
-SQL, Python, and modeling practice over shallow exposure to every modern data
-tool.
+The earliest DataTalks.Club role episode makes the dependency explicit. Data
+engineers prepare data before analysts query it or data scientists train on it.
+In that episode, the data engineer also protects the product database from
+analytical workloads. The same role helps production features receive
+predictions or prepared datasets when needed
+([Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }}),
+about 13:58 and 30:01).
 
-**Data quality, schema change, and documentation are core work.**
+Later episodes add the modern stack vocabulary. Natalie Kwong connects ETL and
+ELT vocabulary to ingestion and orchestration
+([ETL vs ELT and Modern Data Engineering]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
+3:46-15:30 and 30:59-49:32). Jeff Katz's career episode keeps the foundation
+more basic. SQL, Python, and data modeling come before Spark for junior
+engineers
+([Data Engineering Career Path and Skills]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }}),
+23:35-38:05).
 
-Data engineering isn't only moving bytes. Episodes on big data engineering, data
-observability, DataOps, and data contracts all include schema monitoring,
-freshness checks, volume anomalies, lineage, and documentation. A broken field,
-late partition, or undocumented transformation can invalidate analysis or make
-an ML model look broken.
+## Disagreements and Boundaries
 
-Teams should document schemas and pipeline behavior where downstream consumers
-can find them. They should also monitor data flows before users discover broken
-reports or predictions.
+Guests differ on where the title begins and ends. Slawomir Tulski argues that
+"data engineer" still hides several jobs. Platform data engineering owns
+infrastructure, orchestration, access, and shared conventions. Product data
+engineering sits closer to domain use cases, data products, and stakeholder
+needs
+([Data Engineer Career in 2026]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }}),
+11:54-17:29).
 
-**Real-time work is a constraint, not a maturity badge.**
+That split explains many archive boundaries. Data engineering overlaps with
+[Data Science]({{ '/wiki/data-science/' | relative_url }}) around training
+data, feature pipelines, and production handoff. The role
+taxonomy episode gives the simple boundary. Data engineers prepare data, while
+data scientists model and evaluate it. CRISP-DM shows that data collection and
+preparation can determine whether modeling can even begin
+([Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }}),
+24:55-30:01 and
+[CRISP-DM]({{ '/podcasts/crisp-dm/' | relative_url }}), 15:46-19:25).
 
-Streaming appears in recommendation examples, Kafka discussions, fraud detection
-systems, and modern platform episodes. The archive treats real-time as useful
-when a product decision requires immediate action. It doesn't present Kafka as
-the default mark of maturity.
+This role boundary is porous because warehouse transformation work often
+overlaps with analytics engineering.
 
-Recent platform discussions warn that teams should match architecture to company
-needs. Batch pipelines, managed warehouses, DuckDB-based local processing, or
-headless table formats may be better than a self-managed streaming stack when the
-business doesn't need real-time reaction.
+The clearest references are:
 
-**AI makes clean data and semantics more important.**
+- [ETL vs ELT and Modern Data Engineering]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
+  7:57-15:30.
+- [Foundations of the Analytics Engineer Role]({{ '/podcasts/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices/' | relative_url }}).
 
-The newest data engineering and AI engineering episodes connect data engineering
-to conversational analytics, RAG, agents, and AI-ready platforms. LLMs can
-generate SQL or summarize data, but they need clean tables, clear semantics,
-metadata, context, and governance. Putting an AI interface on top of messy data
-doesn't remove the data engineering work.
+Guests also disagree by architecture pressure. Some scale-up stories need
+Kafka, schemas, and self-service conventions, but Tulski's 2026 career
+discussion warns against treating real-time tools as a maturity badge. Batch or
+managed systems may fit the business better
+([Scaling Data Engineering Teams]({{ '/podcasts/scaling-data-engineering-teams-self-service-platforms/' | relative_url }}),
+12:30-23:26 and
+[Data Engineer Career in 2026]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }}),
+30:56-38:01).
 
-## Role and Content Boundaries
+## Pipelines and the Modern Data Stack
 
-**Data engineering versus data science.**
+Data engineering episodes usually begin with pipeline mechanics because
+engineers extract source data and transform it for consumers. Kwong's episode
+maps this vocabulary. It distinguishes ETL from ELT and places ingestion before
+dbt-style transformation. It also contrasts lakes with warehouses
+([ETL vs ELT and Modern Data Engineering]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
+3:46-12:39 and 30:59-49:32 and
+[Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})).
 
-The early role taxonomy uses a simple split. Data scientists build predictive
-models and integrate them into products. Data engineers prepare the data that
-analysts and data scientists need. Later episodes complicate this boundary. Some
-data scientists clean data, engineer features, and deploy models. Some data
-engineers help with batch model scoring or model deployment.
+The archive treats those tools as implementation choices. Katz puts SQL,
+Python, and modeling before distributed systems for beginners
+([Data Engineering Career Path and Skills]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }}),
+23:35-38:05). Adrian Brudaru's trends episode makes the same point from the
+senior side. Teams should choose platforms and processing tools from actual
+requirements
+([Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}),
+14:32-18:17 and 35:37-44:42).
 
-The archive's practical boundary is sequence and ownership. Data engineering
-usually owns the data paths before analysis and model training. Data science owns
-modeling, experimentation, and prediction quality. The two roles meet around
-feature pipelines, batch scoring, data quality, and production handoff.
+## Platform Engineering and Self-Service
 
-**Data engineering versus analytics engineering.**
+At team scale, data engineering becomes platform work. Lars Albertsson's
+DataOps platform episode covers storage, compute, and workflow engines. The
+platform
+lets other teams use data without reinventing the same foundation
+([DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}),
+16:42-35:57 and 50:13-57:46).
 
-Analytics engineering covers business-facing models, transformation tests,
-documentation, semantic layers, and BI-ready data products. Some companies treat
-this as a specialization within data engineering. Others make it a separate
-role.
+Mehdi Ouazza's scale-up episode adds the human side by showing that
+self-service needs onboarding and playbooks. Fast-growing teams may need
+seniors who turn repeated work into shared capabilities
+([Scaling Data Engineering Teams]({{ '/podcasts/scaling-data-engineering-teams-self-service-platforms/' | relative_url }}),
+12:30-23:26 and 50:17-54:31 and
+[Self-Service Data Platforms]({{ '/wiki/self-service-data-platforms/' | relative_url }})).
 
-Use this page for the broader data systems foundation. Use
-[Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }}) when
-the archive evidence centers on dbt-style modeling, analytics workflows, and
-trusted metric layers.
+This is the main overlap with
+[Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
+and [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }}).
+The platform isn't successful merely because tables exist. It succeeds when
+domain teams can safely produce and consume reliable data products. Those
+products need clear interfaces and ownership
+([DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}),
+57:46-1:04:18 and
+[Last-Mile Data Delivery]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }})).
 
-**Data engineering versus MLOps and AI engineering.**
+## Quality, Observability, and DataOps
 
-Data engineering provides data infrastructure and reliable data products. MLOps
-adds model lifecycle operations: experiment tracking, registries, deployment,
-monitoring, retraining, and ownership. AI engineering adds LLM, RAG, agent,
-evaluation, prompt, context, and orchestration concerns.
+The archive repeatedly frames data engineering as reliability work. Pipelines
+can complete successfully while still delivering late or wrong data. Barr
+Moses's observability episode names the key signals. Teams monitor freshness
+and schema. Lineage and ownership matter too
+([Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }}),
+16:38-29:00 and 35:24-43:00 and
+[Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})).
 
-The pages overlap when AI or ML systems depend on data pipelines, feature
-freshness, retrieval corpora, or evaluation datasets.
+Christopher Bergh's DataOps episodes turn those signals into operating
+practice. Data engineering teams need tests and CI/CD. They also need
+observability and recovery behavior. That makes DataOps part
+of the discipline
+([DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }}),
+15:52-18:46 and 30:55-54:05 and
+[DataOps]({{ '/wiki/dataops/' | relative_url }})).
 
-## Episode Evidence
+Quality work also connects data engineering to ML and AI incidents. A model or
+agent may look broken because an upstream table arrived late. It may also fail
+because a schema changed or a retrieval corpus lost context. Use
+[MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }}) when the
+incident boundary is between model lifecycle and data delivery
+([DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }}),
+18:46-26:13 and
+[Production-Ready AI Engineering]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }}),
+18:38).
 
-These episodes give the strongest starting evidence for the topic.
+## Batch, Streaming, and Real-Time Tradeoffs
 
-- [Data Team Roles Explained](https://datatalks.club/podcast.html): At
-  13:23-15:50, the episode frames data engineers as the people who make
-  user-generated data available for analysis and model training without
-  burdening product systems.
-- [Big Data Engineer vs Data Scientist](https://datatalks.club/podcast.html):
-  At 4:32-6:31, the guest describes ETL pipelines, HDFS/S3, query engines,
-  performance work, and serving analysts. Later sections cover role overlap,
-  monitoring, schema changes, and documentation.
-- [Build a Data Engineering Career](https://datatalks.club/podcast.html): At
-  23:35-26:40, the episode names Python, SQL, and cloud basics as core skills.
-  At 38:05-40:42, it explains why junior curricula may skip Spark, Kafka, and
-  Kubernetes.
-- [Data Engineering Tools and Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}):
-  Covers ETL, ELT, ingestion, transformations, warehouses, lakes,
-  orchestration, CDC, and schema evolution as modern data engineering
-  vocabulary.
-- [Data Engineer Career in 2026](https://datatalks.club/podcast.html): At
-  8:20-9:50, the guest argues that the role still lacks a shared definition. At
-  11:52-14:00, he splits platform data engineering from product data
-  engineering.
-- [DataOps for Data Engineering](https://datatalks.club/podcast.html):
-  Connects data engineering to deployment confidence, realistic test data,
-  observability, CI/CD, and recovery practices.
-- [Trends in Modern Data Engineering]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}):
-  Adds open-source, Iceberg, DuckDB, metadata, cost-efficient pipelines, and
-  AI-powered pipeline trends.
-- [Scaling Data Engineering Teams](https://datatalks.club/podcast.html): Shows
-  how self-service data platforms need conventions, schemas, playbooks,
-  onboarding, and monitoring.
+Streaming helps when latency matters, but it isn't a universal maturity mark.
+
+Use these episodes for the pro-streaming cases:
+
+- [Scaling Data Engineering Teams]({{ '/podcasts/scaling-data-engineering-teams-self-service-platforms/' | relative_url }}),
+  23:26, for Kafka, schemas, and event-driven work.
+- [Production ML Pipelines with AWS and Kafka]({{ '/podcasts/production-ml-pipelines-with-aws-and-kafka/' | relative_url }}),
+  15:11, for Kafka and cloud queues in production ML paths.
+
+Use these episodes for the pushback:
+
+- [DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}),
+  41:53-45:11.
+- [Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}),
+  51:19.
+- [Data Engineer Career in 2026]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }}),
+  38:01.
+
+## Cost, Governance, and Tool Choice
+
+Modern data engineering includes cost and governance. Cloud warehouses and
+lakehouse stacks can become expensive shared
+infrastructure. Eddy Zulkifly's FinOps episode frames data platforms as digital
+warehouses. Teams need cost tagging, capacity planning, and spend accountability
+([FinOps for Data Engineers]({{ '/podcasts/finops-for-data-engineers/' | relative_url }}),
+21:57-24:34 and 31:40-48:01).
+
+Brudaru's modern trends episode adds an open-source architecture lens. Iceberg
+and DuckDB can reduce lock-in, but they still require metadata and governance.
+The archive's synthesis is requirements-led tool selection. Choose the smallest
+system that meets latency and cost constraints
+([Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}),
+18:17-30:31 and 44:42-49:42 and
+[Data Engineer Career in 2026]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }}),
+25:33-30:56).
+
+## AI-Ready Data Engineering
+
+The newer archive links data engineering to AI engineering, but it doesn't
+claim that LLMs remove pipeline work. Brudaru describes AI integration as a
+trend in data engineering and predicts more convergence with AI agents. The
+same episode keeps the focus on metadata and quality
+([Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}),
+16:40-23:41 and 38:02-44:42).
+
+Production AI discussions show the same dependency because Bartosz Mikulski
+connects production AI to preprocessing and testing. AI systems still need
+retrieval corpora and governance
+([Production-Ready AI Engineering]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }}),
+18:38 and
+[AI]({{ '/wiki/ai/' | relative_url }}),
+[AI Infrastructure]({{ '/wiki/ai-infrastructure/' | relative_url }})).
+
+## Career and Skill Development
+
+The career episodes treat data engineering as an applied engineering path, not
+a memorized list of tools. Katz recommends Python, SQL, and data modeling
+before advanced distributed systems. He also presents dbt and Snowflake as
+early exposure to production data work
+([Data Engineering Career Path and Skills]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }}),
+23:35-45:14 and
+[Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})).
+
+Tulski adds the market-side distinction. Senior candidates are valued for
+business judgment, cost awareness, and the ability to avoid over-engineering.
+He also argues that
+AI automation makes
+strategic builders more valuable than people who only operate one narrow tool
+([Data Engineer Career in 2026]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }}),
+42:08-1:04:42). Zulkifly's path from business analysis to data engineering
+shows why domain understanding and stakeholder translation can become an
+engineering advantage. That background becomes stronger when paired with cloud,
+Python, and cost discipline
+([FinOps for Data Engineers]({{ '/podcasts/finops-for-data-engineers/' | relative_url }}),
+6:20-8:18 and 48:01-56:05).
 
 ## Related Pages
 
 Use these pages for adjacent topics and deeper implementation detail.
 
+- [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
-- [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
+- [Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }})
+- [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
+- [DataOps]({{ '/wiki/dataops/' | relative_url }})
 - [MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }})
+- [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
+- [Self-Service Data Platforms]({{ '/wiki/self-service-data-platforms/' | relative_url }})
+- [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
 - [Data Science]({{ '/wiki/data-science/' | relative_url }})
-- [AI]({{ '/wiki/ai/' | relative_url }})
+- [AI Infrastructure]({{ '/wiki/ai-infrastructure/' | relative_url }})

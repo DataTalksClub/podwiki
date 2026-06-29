@@ -31,7 +31,7 @@ How do you take the rigor and creativity that wins Kaggle competitions and turn 
 
 Use these links to connect the episode to guest notes.
 
-- [Alexanderguschin]({{ '/people/alexanderguschin/' | relative_url }})
+- [Alexander Guschin]({{ '/people/alexanderguschin/' | relative_url }})
 
 ## Chapter Summary
 

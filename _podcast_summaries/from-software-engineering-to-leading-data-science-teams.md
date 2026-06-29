@@ -31,7 +31,7 @@ How do you move from hands-on software engineering into leading data science tea
 
 Use these links to connect the episode to guest notes.
 
-- [Sadatanwar]({{ '/people/sadatanwar/' | relative_url }})
+- [Sadat Anwar]({{ '/people/sadatanwar/' | relative_url }})
 
 ## Chapter Summary
 

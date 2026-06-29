@@ -27,7 +27,7 @@ Use these links for the canonical episode and media sources.
 
 Use these links to connect the episode to guest notes.
 
-- [Adityagautam]({{ '/people/adityagautam/' | relative_url }})
+- [Aditya Gautam]({{ '/people/adityagautam/' | relative_url }})
 
 ## Chapter Summary
 

@@ -31,7 +31,7 @@ How do you build reliable, production-ready ML pipelines that detect model drift
 
 Use these links to connect the episode to guest notes.
 
-- [Theofilospapapanagiotou]({{ '/people/theofilospapapanagiotou/' | relative_url }})
+- [Theofilos Papapanagiotou]({{ '/people/theofilospapapanagiotou/' | relative_url }})
 
 ## Chapter Summary
 

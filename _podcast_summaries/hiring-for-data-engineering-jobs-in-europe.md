@@ -31,7 +31,7 @@ How do you hire data engineers in Europe today — and what should candidates an
 
 Use these links to connect the episode to guest notes.
 
-- [Nicolasrassam]({{ '/people/nicolasrassam/' | relative_url }})
+- [Nicolas Rassam]({{ '/people/nicolasrassam/' | relative_url }})
 
 ## Chapter Summary
 

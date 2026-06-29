@@ -31,7 +31,7 @@ How do you teach yourself bioinformatics and machine learning in a way that lead
 
 Use these links to connect the episode to guest notes.
 
-- [Aaishamuhammad]({{ '/people/aaishamuhammad/' | relative_url }})
+- [Aaisha Muhammad]({{ '/people/aaishamuhammad/' | relative_url }})
 
 ## Chapter Summary
 

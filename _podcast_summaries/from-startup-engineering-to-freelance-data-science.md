@@ -31,7 +31,7 @@ How do you transition from startup engineering to a sustainable freelance data s
 
 Use these links to connect the episode to guest notes.
 
-- [Antonisstellas]({{ '/people/antonisstellas/' | relative_url }})
+- [Antonis Stellas]({{ '/people/antonisstellas/' | relative_url }})
 
 ## Chapter Summary
 

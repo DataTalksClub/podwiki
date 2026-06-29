@@ -31,7 +31,7 @@ What does it take to thrive as a remote data engineer — building IoT platforms
 
 Use these links to connect the episode to guest notes.
 
-- [Josemaria]({{ '/people/josemaria/' | relative_url }})
+- [José María Sánchez Salas]({{ '/people/josemaria/' | relative_url }})
 
 ## Chapter Summary
 

@@ -27,7 +27,7 @@ Struggling to find a mentor — or wondering how to become one — in a fast-mov
 
 Use these links to connect the episode to guest notes.
 
-- [Rahuljain]({{ '/people/rahuljain/' | relative_url }})
+- [Rahul Jain]({{ '/people/rahuljain/' | relative_url }})
 
 ## Chapter Summary
 

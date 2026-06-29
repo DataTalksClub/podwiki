@@ -31,7 +31,7 @@ How do you create real business value with LLMs — from early GPT communities t
 
 Use these links to connect the episode to guest notes.
 
-- [Sandrakublik]({{ '/people/sandrakublik/' | relative_url }})
+- [Sandra Kublik]({{ '/people/sandrakublik/' | relative_url }})
 
 ## Chapter Summary
 

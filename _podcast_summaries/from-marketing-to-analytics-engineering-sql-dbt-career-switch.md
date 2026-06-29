@@ -31,7 +31,7 @@ How do you transition from digital marketing into analytics engineering—and ma
 
 Use these links to connect the episode to guest notes.
 
-- [Nikolamaksimovic]({{ '/people/nikolamaksimovic/' | relative_url }})
+- [Nikola Maksimovic]({{ '/people/nikolamaksimovic/' | relative_url }})
 
 ## Chapter Summary
 

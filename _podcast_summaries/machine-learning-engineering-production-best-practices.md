@@ -31,7 +31,7 @@ Are your ML projects collapsing under their own complexity—or never making it 
 
 Use these links to connect the episode to guest notes.
 
-- [Benwilson]({{ '/people/benwilson/' | relative_url }})
+- [Ben Wilson]({{ '/people/benwilson/' | relative_url }})
 
 ## Chapter Summary
 

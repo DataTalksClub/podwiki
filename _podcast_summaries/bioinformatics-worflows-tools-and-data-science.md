@@ -31,7 +31,7 @@ How do you build reproducible, scalable bioinformatics workflows for sequencing 
 
 Use these links to connect the episode to guest notes.
 
-- [Sebastianayalaruano]({{ '/people/sebastianayalaruano/' | relative_url }})
+- [Sebastian Ayala Ruano]({{ '/people/sebastianayalaruano/' | relative_url }})
 
 ## Chapter Summary
 

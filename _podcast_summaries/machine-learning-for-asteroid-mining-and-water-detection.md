@@ -31,7 +31,7 @@ How can we reliably detect water on near-Earth asteroids using machine learning 
 
 Use these links to connect the episode to guest notes.
 
-- [Daynancrull]({{ '/people/daynancrull/' | relative_url }})
+- [Daynan Crull]({{ '/people/daynancrull/' | relative_url }})
 
 ## Chapter Summary
 

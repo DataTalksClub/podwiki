@@ -31,7 +31,7 @@ How do you actually land a data scientist role — from a resume that passes scr
 
 Use these links to connect the episode to guest notes.
 
-- [Lukewhipps]({{ '/people/lukewhipps/' | relative_url }})
+- [Luke Whipps]({{ '/people/lukewhipps/' | relative_url }})
 
 ## Chapter Summary
 

@@ -31,7 +31,7 @@ How do you master spatial big data analytics while navigating the demands of pos
 
 Use these links to connect the episode to guest notes.
 
-- [Elenitziritazacharatou]({{ '/people/elenitziritazacharatou/' | relative_url }})
+- [Eleni Tzirita Zacharatou]({{ '/people/elenitziritazacharatou/' | relative_url }})
 
 ## Chapter Summary
 

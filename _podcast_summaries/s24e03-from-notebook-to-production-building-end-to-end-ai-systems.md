@@ -27,7 +27,7 @@ Use these links for the canonical episode and media sources.
 
 Use these links to connect the episode to guest notes.
 
-- [Marianosemelman]({{ '/people/marianosemelman/' | relative_url }})
+- [Mariano Semelman]({{ '/people/marianosemelman/' | relative_url }})
 
 ## Chapter Summary
 

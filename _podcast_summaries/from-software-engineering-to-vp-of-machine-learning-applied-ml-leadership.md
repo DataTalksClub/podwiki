@@ -31,7 +31,7 @@ How do you move from a hands-on software engineer to a VP of Machine Learning wh
 
 Use these links to connect the episode to guest notes.
 
-- [Jackblandin]({{ '/people/jackblandin/' | relative_url }})
+- [Jack Blandin]({{ '/people/jackblandin/' | relative_url }})
 
 ## Chapter Summary
 

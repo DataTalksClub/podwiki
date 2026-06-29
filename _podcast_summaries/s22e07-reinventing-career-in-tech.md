@@ -27,7 +27,7 @@ Use these links for the canonical episode and media sources.
 
 Use these links to connect the episode to guest notes.
 
-- [Xiahebleinagel]({{ '/people/xiahebleinagel/' | relative_url }})
+- [Xia He-Bleinagel]({{ '/people/xiahebleinagel/' | relative_url }})
 
 ## Chapter Summary
 

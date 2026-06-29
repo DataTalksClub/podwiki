@@ -31,8 +31,8 @@ How do you scale a grassroots machine learning community from a few forum posts 
 
 Use these links to connect the episode to guest notes.
 
-- [Eugeneyan]({{ '/people/eugeneyan/' | relative_url }})
-- [Alexeygrigorev]({{ '/people/alexeygrigorev/' | relative_url }})
+- [Eugene Yan]({{ '/people/eugeneyan/' | relative_url }})
+- [Alexey Grigorev]({{ '/people/alexeygrigorev/' | relative_url }})
 
 ## Chapter Summary
 

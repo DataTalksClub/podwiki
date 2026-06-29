@@ -31,7 +31,7 @@ How do you reliably build and serve real-time features for production ML without
 
 Use these links to connect the episode to guest notes.
 
-- [Willempienaar]({{ '/people/willempienaar/' | relative_url }})
+- [Willem Pienaar]({{ '/people/willempienaar/' | relative_url }})
 
 ## Chapter Summary
 

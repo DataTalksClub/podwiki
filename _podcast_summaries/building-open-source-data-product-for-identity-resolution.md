@@ -31,7 +31,7 @@ How do you build an open-source, ML-powered identity resolution tool that become
 
 Use these links to connect the episode to guest notes.
 
-- [Sonalgoyal]({{ '/people/sonalgoyal/' | relative_url }})
+- [Sonal Goyal]({{ '/people/sonalgoyal/' | relative_url }})
 
 ## Chapter Summary
 

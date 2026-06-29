@@ -31,7 +31,7 @@ How do you transform fragile data pipelines and unreliable ML deployments into a
 
 Use these links to connect the episode to guest notes.
 
-- [Christopherbergh]({{ '/people/christopherbergh/' | relative_url }})
+- [Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }})
 
 ## Chapter Summary
 

@@ -31,7 +31,7 @@ In this episode, Ellen König—Head of Engineering at alcemy—shares her journ
 
 Use these links to connect the episode to guest notes.
 
-- [Ellenkonig]({{ '/people/ellenkonig/' | relative_url }})
+- [Ellen König]({{ '/people/ellenkonig/' | relative_url }})
 
 ## Chapter Summary
 

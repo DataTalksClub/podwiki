@@ -31,7 +31,7 @@ How do you design KPIs that prioritize real impact, avoid vanity metrics, and ac
 
 Use these links to connect the episode to guest notes.
 
-- [Adamsroka]({{ '/people/adamsroka/' | relative_url }})
+- [Adam Sroka]({{ '/people/adamsroka/' | relative_url }})
 
 ## Chapter Summary
 

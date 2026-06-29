@@ -31,7 +31,7 @@ How do developers build visibility, earn promotions, and steer their careers by 
 
 Use these links to connect the episode to guest notes.
 
-- [Swyx]({{ '/people/swyx/' | relative_url }})
+- [Shawn Swyx Wang]({{ '/people/swyx/' | relative_url }})
 
 ## Chapter Summary
 

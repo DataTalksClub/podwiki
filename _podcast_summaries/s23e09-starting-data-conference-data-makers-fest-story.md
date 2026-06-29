@@ -27,7 +27,7 @@ Use these links for the canonical episode and media sources.
 
 Use these links to connect the episode to guest notes.
 
-- [Leonidkholkine]({{ '/people/leonidkholkine/' | relative_url }})
+- [Leonid Kholkine]({{ '/people/leonidkholkine/' | relative_url }})
 
 ## Chapter Summary
 

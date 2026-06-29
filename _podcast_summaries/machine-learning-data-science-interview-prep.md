@@ -31,7 +31,7 @@ How do you reliably prepare for ML and data science technical interviews — fro
 
 Use these links to connect the episode to guest notes.
 
-- [Lukewhipps]({{ '/people/lukewhipps/' | relative_url }})
+- [Luke Whipps]({{ '/people/lukewhipps/' | relative_url }})
 
 ## Chapter Summary
 

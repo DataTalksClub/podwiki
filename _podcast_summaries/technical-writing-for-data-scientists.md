@@ -27,7 +27,7 @@ How can technical writing accelerate your data science career in just one week? 
 
 Use these links to connect the episode to guest notes.
 
-- [Eugeneyan]({{ '/people/eugeneyan/' | relative_url }})
+- [Eugene Yan]({{ '/people/eugeneyan/' | relative_url }})
 
 ## Chapter Summary
 

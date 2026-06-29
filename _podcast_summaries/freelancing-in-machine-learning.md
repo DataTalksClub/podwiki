@@ -31,7 +31,7 @@ How do you move from academic research or in-house ML engineering to a sustainab
 
 Use these links to connect the episode to guest notes.
 
-- [Mikiobraun]({{ '/people/mikiobraun/' | relative_url }})
+- [Mikio Braun]({{ '/people/mikiobraun/' | relative_url }})
 
 ## Chapter Summary
 

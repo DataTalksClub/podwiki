@@ -31,7 +31,7 @@ How do you move from project management into a data science career — and what 
 
 Use these links to connect the episode to guest notes.
 
-- [Ksenialegostay]({{ '/people/ksenialegostay/' | relative_url }})
+- [Ksenia Legostay]({{ '/people/ksenialegostay/' | relative_url }})
 
 ## Chapter Summary
 

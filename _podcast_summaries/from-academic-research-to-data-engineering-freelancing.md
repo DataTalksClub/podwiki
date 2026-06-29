@@ -31,7 +31,7 @@ How do you turn academic research and simulation expertise into a lean data cons
 
 Use these links to connect the episode to guest notes.
 
-- [Orellgarten]({{ '/people/orellgarten/' | relative_url }})
+- [Orell Garten]({{ '/people/orellgarten/' | relative_url }})
 
 ## Chapter Summary
 

@@ -1,4 +1,4 @@
-.PHONY: help sources graph index lambda-package build serve links clean check
+.PHONY: help sources graph index lambda-package build serve links content-audit clean check
 
 help:
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "  %-12s %s\n", $$1, $$2}'
@@ -26,6 +26,9 @@ serve: graph ## Serve the static site locally
 
 links: build ## Check generated internal links
 	python scripts/check_links.py
+
+content-audit: ## Report wiki/article pages that need citation and link cleanup
+	python scripts/audit_content_quality.py
 
 check: lambda-package links ## Build search index/package, static HTML, and link check
 

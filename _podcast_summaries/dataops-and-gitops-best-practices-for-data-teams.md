@@ -31,7 +31,7 @@ How do you make data work less fragile and easier to onboard while keeping produ
 
 Use these links to connect the episode to guest notes.
 
-- [Tomaszhinc]({{ '/people/tomaszhinc/' | relative_url }})
+- [Tomasz Hinc]({{ '/people/tomaszhinc/' | relative_url }})
 
 ## Chapter Summary
 

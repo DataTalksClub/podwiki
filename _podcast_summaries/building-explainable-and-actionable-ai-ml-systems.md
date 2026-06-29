@@ -31,7 +31,7 @@ How do you build ML systems that business teams trust and can act on? In this ep
 
 Use these links to connect the episode to guest notes.
 
-- [Polinamosolova]({{ '/people/polinamosolova/' | relative_url }})
+- [Polina Mosolova]({{ '/people/polinamosolova/' | relative_url }})
 
 ## Chapter Summary
 

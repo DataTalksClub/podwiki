@@ -31,7 +31,7 @@ How do you go from a postdoc to a data science lead while mastering machine lear
 
 Use these links to connect the episode to guest notes.
 
-- [Cjjenkins]({{ '/people/cjjenkins/' | relative_url }})
+- [CJ Jenkins]({{ '/people/cjjenkins/' | relative_url }})
 
 ## Chapter Summary
 

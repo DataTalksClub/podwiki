@@ -31,7 +31,7 @@ How can AI power effective digital therapeutics while balancing personalization,
 
 Use these links to connect the episode to guest notes.
 
-- [Stefangudmundsson]({{ '/people/stefangudmundsson/' | relative_url }})
+- [Stefan Gudmundsson]({{ '/people/stefangudmundsson/' | relative_url }})
 
 ## Chapter Summary
 

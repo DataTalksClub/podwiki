@@ -31,7 +31,7 @@ How do you evaluate and prototype long-context LLMs in a real-world setting whil
 
 Use these links to connect the episode to guest notes.
 
-- [Lavanyagupta]({{ '/people/lavanyagupta/' | relative_url }})
+- [Lavanya Gupta]({{ '/people/lavanyagupta/' | relative_url }})
 
 ## Chapter Summary
 

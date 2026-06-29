@@ -31,7 +31,7 @@ How do you turn AI ambitions into measurable, deliverable data products? In this
 
 Use these links to connect the episode to guest notes.
 
-- [Boyanangelov]({{ '/people/boyanangelov/' | relative_url }})
+- [Boyan Angelov]({{ '/people/boyanangelov/' | relative_url }})
 
 ## Chapter Summary
 

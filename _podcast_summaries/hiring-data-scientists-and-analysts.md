@@ -31,7 +31,7 @@ How do you consistently find and hire the right data scientists and analysts in 
 
 Use these links to connect the episode to guest notes.
 
-- [Alicjanotowska]({{ '/people/alicjanotowska/' | relative_url }})
+- [Alicja Notowska]({{ '/people/alicjanotowska/' | relative_url }})
 
 ## Chapter Summary
 

@@ -31,7 +31,7 @@ How do you lead a data engineering team to scale ETL into ELT, build a robust da
 
 Use these links to connect the episode to guest notes.
 
-- [16Rahuljain]({{ '/people/16rahuljain/' | relative_url }})
+- [Rahul Jain]({{ '/people/16rahuljain/' | relative_url }})
 
 ## Chapter Summary
 

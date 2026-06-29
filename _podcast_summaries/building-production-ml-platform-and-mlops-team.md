@@ -31,7 +31,7 @@ How do you design an ML platform that reliably deploys models, tracks experiment
 
 Use these links to connect the episode to guest notes.
 
-- [Simonstiebellehner]({{ '/people/simonstiebellehner/' | relative_url }})
+- [Simon Stiebellehner]({{ '/people/simonstiebellehner/' | relative_url }})
 
 ## Chapter Summary
 

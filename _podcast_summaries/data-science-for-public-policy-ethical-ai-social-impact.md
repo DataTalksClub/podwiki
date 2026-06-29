@@ -31,7 +31,7 @@ How can data science meaningfully shape public policy without becoming a tech-fi
 
 Use these links to connect the episode to guest notes.
 
-- [Christinecepelak]({{ '/people/christinecepelak/' | relative_url }})
+- [Christine Cepelak]({{ '/people/christinecepelak/' | relative_url }})
 
 ## Chapter Summary
 

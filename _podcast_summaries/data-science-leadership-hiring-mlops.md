@@ -31,7 +31,7 @@ How do you lead a data science team that prioritizes product impact while buildi
 
 Use these links to connect the episode to guest notes.
 
-- [Marianosemelman]({{ '/people/marianosemelman/' | relative_url }})
+- [Mariano Semelman]({{ '/people/marianosemelman/' | relative_url }})
 
 ## Chapter Summary
 

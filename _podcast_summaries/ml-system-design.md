@@ -31,7 +31,7 @@ How do you design ML systems that fail fast, scale with modular architecture, an
 
 Use these links to connect the episode to guest notes.
 
-- [Valeriybabushkin]({{ '/people/valeriybabushkin/' | relative_url }})
+- [Valerii Babushkin]({{ '/people/valeriybabushkin/' | relative_url }})
 
 ## Chapter Summary
 

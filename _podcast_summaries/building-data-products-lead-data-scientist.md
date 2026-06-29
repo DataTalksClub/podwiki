@@ -31,7 +31,7 @@ How do you prioritize data product work, validate models in production, and keep
 
 Use these links to connect the episode to guest notes.
 
-- [Ioannismesionis]({{ '/people/ioannismesionis/' | relative_url }})
+- [Ioannis Mesionis]({{ '/people/ioannismesionis/' | relative_url }})
 
 ## Chapter Summary
 

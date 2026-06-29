@@ -31,7 +31,7 @@ How do you build reliable, agentic AI systems that balance practical engineering
 
 Use these links to connect the episode to guest notes.
 
-- [Ranjithakulkarni]({{ '/people/ranjithakulkarni/' | relative_url }})
+- [Ranjitha Kulkarni]({{ '/people/ranjithakulkarni/' | relative_url }})
 
 ## Chapter Summary
 

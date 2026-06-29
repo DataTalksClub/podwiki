@@ -31,7 +31,7 @@ How do you build, launch, and actually monetize indie-hacker products in crypto 
 
 Use these links to connect the episode to guest notes.
 
-- [Paulineclavelloux]({{ '/people/paulineclavelloux/' | relative_url }})
+- [Pauline Clavelloux]({{ '/people/paulineclavelloux/' | relative_url }})
 
 ## Chapter Summary
 

@@ -31,7 +31,7 @@ How do you build a personal brand that actually attracts an audience and turns i
 
 Use these links to connect the episode to guest notes.
 
-- [Admondleekinlim]({{ '/people/admondleekinlim/' | relative_url }})
+- [Admond Lee Kin Lim]({{ '/people/admondleekinlim/' | relative_url }})
 
 ## Chapter Summary
 

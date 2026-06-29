@@ -31,7 +31,7 @@ How can volunteering in open source AI projects accelerate your career while del
 
 Use these links to connect the episode to guest notes.
 
-- [Saraelateif]({{ '/people/saraelateif/' | relative_url }})
+- [Sara EL-ATEIF]({{ '/people/saraelateif/' | relative_url }})
 
 ## Chapter Summary
 
