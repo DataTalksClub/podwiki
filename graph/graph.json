@@ -7,7 +7,7 @@
     "persons": 438,
     "topics": 145,
     "nodes": 1019,
-    "links": 6265
+    "links": 6390
   },
   "nodes": [
     {
@@ -8003,7 +8003,7 @@
       "title": "Community",
       "url": "/wiki/community/",
       "count": 1,
-      "search": "Community How DataTalks.Club podcast guests use community as a practical layer for learning, feedback, contribution, visibility, and technical adoption."
+      "search": "Community How DataTalks.Club podcast guests use community as a practical layer for learning, feedback, contribution, visibility, safety, and technical adoption."
     },
     {
       "id": "wiki:community-building",
@@ -8057,7 +8057,7 @@
       "title": "Data Activation",
       "url": "/wiki/data-activation/",
       "count": 1,
-      "search": "Data Activation How the podcast archive describes data activation as moving trusted product and customer data into operational tools and user facing workflows."
+      "search": "Data Activation How the podcast archive describes data activation as moving trusted product and customer data into operational tools and decision workflows."
     },
     {
       "id": "wiki:data-analyst-careers",
@@ -8381,7 +8381,7 @@
       "title": "Developer Relations",
       "url": "/wiki/developer-relations/",
       "count": 1,
-      "search": "Developer Relations How podcast guests describe DevRel as technical education, documentation, demos, feedback, community building, and adoption work for data and ML tools."
+      "search": "Developer Relations How DataTalks.Club podcast guests describe DevRel as technical education, demos, documentation, community feedback, open source work, and adoption strategy for data and ML tools."
     },
     {
       "id": "wiki:devops-to-data-engineering",
@@ -8498,7 +8498,7 @@
       "title": "Experimentation",
       "url": "/wiki/experimentation/",
       "count": 1,
-      "search": "Experimentation How the podcast archive treats experimentation as product, model, and organizational learning under uncertainty."
+      "search": "Experimentation How DataTalks.Club guests use experiments to reduce product, ML, and organizational uncertainty before rollout."
     },
     {
       "id": "wiki:experimentation-and-causal-inference",
@@ -34913,9 +34913,111 @@
     },
     {
       "source": "wiki:community",
-      "target": "wiki:career-growth",
+      "target": "article:best-data-engineering-course",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:community",
+      "target": "article:free-data-engineering-course",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:community",
+      "target": "person:daniameira",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:community",
+      "target": "person:demetriosbrinkmann",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:community",
+      "target": "person:elleobrien",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:community",
+      "target": "person:saraelateif",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:community",
+      "target": "person:willmcgugan",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:community",
+      "target": "person:willrussell",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:community",
+      "target": "podcast:building-ml-communities-diversity-and-career-growth",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:community",
+      "target": "podcast:datatalksclub-building-scaling-data-community",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:community",
+      "target": "podcast:datatalksclub-building-sustainable-data-community-3-years-anniversary",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:community",
+      "target": "podcast:datatalksclub-scaling-and-free-courses",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:community",
+      "target": "podcast:devrel-data-science-open-source-tools",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:community",
+      "target": "podcast:mlops-community-building-and-meetups",
+      "kind": "wiki-link",
+      "weight": 10
+    },
+    {
+      "source": "wiki:community",
+      "target": "podcast:open-source-and-volunteering-in-ai-for-data-ml-career-growth",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:community",
+      "target": "podcast:open-source-turned-into-career-and-startup-creation",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:community",
+      "target": "podcast:practical-devrel-demofirst-education-and-open-source",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:community",
+      "target": "wiki:career-growth",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:community",
@@ -34943,6 +35045,12 @@
     },
     {
       "source": "wiki:community",
+      "target": "wiki:data-science",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:community",
       "target": "wiki:developer-relations",
       "kind": "wiki-link",
       "weight": 4
@@ -34955,6 +35063,18 @@
     },
     {
       "source": "wiki:community",
+      "target": "wiki:mlops-tools",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:community",
+      "target": "wiki:open-source",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:community",
       "target": "wiki:open-source-and-developer-relations",
       "kind": "wiki-link",
       "weight": 2
@@ -34967,9 +35087,21 @@
     },
     {
       "source": "wiki:community",
+      "target": "wiki:open-source-portfolio-evidence",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:community",
+      "target": "wiki:teaching",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:community",
       "target": "wiki:technical-writing",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:community-building",
@@ -35141,9 +35273,93 @@
     },
     {
       "source": "wiki:contributing",
-      "target": "wiki:career-growth",
+      "target": "person:elleobrien",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:contributing",
+      "target": "person:hugobowneanderson",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:contributing",
+      "target": "person:mervenoyan",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:contributing",
+      "target": "person:saraelateif",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:contributing",
+      "target": "person:vincentwarmerdam",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:contributing",
+      "target": "person:willrussell",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:contributing",
+      "target": "podcast:datatalksclub-building-scaling-data-community",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:contributing",
+      "target": "podcast:devrel-data-science-open-source-tools",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:contributing",
+      "target": "podcast:devrel-open-source-machine-learning",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:contributing",
+      "target": "podcast:hugging-face-contributions-and-nlp-portfolio",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:contributing",
+      "target": "podcast:open-source-and-volunteering-in-ai-for-data-ml-career-growth",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:contributing",
+      "target": "podcast:open-source-ml-contributions",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:contributing",
+      "target": "podcast:open-source-ml-tools-strategy-and-business-models",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:contributing",
+      "target": "podcast:practical-devrel-demofirst-education-and-open-source",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:contributing",
+      "target": "wiki:career-growth",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:contributing",
@@ -35161,6 +35377,18 @@
       "source": "wiki:contributing",
       "target": "wiki:community-building",
       "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:contributing",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:contributing",
+      "target": "wiki:developer-relations",
+      "kind": "wiki-link",
       "weight": 2
     },
     {
@@ -35177,9 +35405,27 @@
     },
     {
       "source": "wiki:contributing",
+      "target": "wiki:job-search",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:contributing",
+      "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:contributing",
+      "target": "wiki:open-source",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:contributing",
       "target": "wiki:open-source-and-developer-relations",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:contributing",
@@ -35212,6 +35458,36 @@
       "weight": 3
     },
     {
+      "source": "wiki:contributing",
+      "target": "wiki:software-engineering",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:customer-data-platforms",
+      "target": "person:arpitchoudhury",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:customer-data-platforms",
+      "target": "person:sonalgoyal",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:customer-data-platforms",
+      "target": "podcast:building-open-source-data-product-for-identity-resolution",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:customer-data-platforms",
+      "target": "podcast:data-led-growth-event-tracking-and-reverse-etl",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
       "source": "wiki:customer-data-platforms",
       "target": "wiki:data-activation",
       "kind": "wiki-link",
@@ -35225,6 +35501,12 @@
     },
     {
       "source": "wiki:customer-data-platforms",
+      "target": "wiki:data-governance",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:customer-data-platforms",
       "target": "wiki:data-led-growth",
       "kind": "wiki-link",
       "weight": 2
@@ -35234,12 +35516,30 @@
       "target": "wiki:data-led-growth",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:customer-data-platforms",
+      "target": "wiki:data-observability",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:customer-data-platforms",
+      "target": "wiki:data-products",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:customer-data-platforms",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:customer-data-platforms",
       "target": "wiki:event-tracking",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:customer-data-platforms",
@@ -35251,13 +35551,19 @@
       "source": "wiki:customer-data-platforms",
       "target": "wiki:modern-data-stack",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
+    },
+    {
+      "source": "wiki:customer-data-platforms",
+      "target": "wiki:privacy-engineering-for-ml",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:customer-data-platforms",
       "target": "wiki:product-analytics",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:customer-data-platforms",
@@ -35269,7 +35575,7 @@
       "source": "wiki:customer-data-platforms",
       "target": "wiki:reverse-etl",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:customer-data-platforms",
@@ -35281,7 +35587,7 @@
       "source": "wiki:customer-data-platforms",
       "target": "wiki:tracking-plans",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 8
     },
     {
       "source": "wiki:cv-screening",
@@ -35435,9 +35741,39 @@
     },
     {
       "source": "wiki:data-activation",
-      "target": "wiki:analytics-engineering",
+      "target": "person:arpitchoudhury",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:data-activation",
+      "target": "person:caitlinmoorman",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-activation",
+      "target": "person:nataliekwong",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-activation",
+      "target": "podcast:data-engineering-tools-modern-data-stack",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-activation",
+      "target": "podcast:data-led-growth-event-tracking-and-reverse-etl",
+      "kind": "wiki-link",
+      "weight": 14
+    },
+    {
+      "source": "wiki:data-activation",
+      "target": "podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack",
+      "kind": "wiki-link",
+      "weight": 6
     },
     {
       "source": "wiki:data-activation",
@@ -35453,6 +35789,12 @@
     },
     {
       "source": "wiki:data-activation",
+      "target": "wiki:data-governance",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-activation",
       "target": "wiki:data-led-growth",
       "kind": "wiki-link",
       "weight": 4
@@ -35465,6 +35807,24 @@
     },
     {
       "source": "wiki:data-activation",
+      "target": "wiki:data-observability",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-activation",
+      "target": "wiki:data-products",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-activation",
+      "target": "wiki:data-products",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-activation",
       "target": "wiki:event-tracking",
       "kind": "wiki-link",
       "weight": 2
@@ -35472,6 +35832,18 @@
     {
       "source": "wiki:data-activation",
       "target": "wiki:event-tracking",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-activation",
+      "target": "wiki:modern-data-stack",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-activation",
+      "target": "wiki:modern-data-stack",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -35479,7 +35851,7 @@
       "source": "wiki:data-activation",
       "target": "wiki:product-analytics",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:data-activation",
@@ -35491,7 +35863,7 @@
       "source": "wiki:data-activation",
       "target": "wiki:reverse-etl",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "wiki:data-activation",
@@ -35503,7 +35875,7 @@
       "source": "wiki:data-activation",
       "target": "wiki:tracking-plans",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:data-analyst-careers",
@@ -39365,33 +39737,129 @@
     },
     {
       "source": "wiki:developer-relations",
-      "target": "wiki:community",
+      "target": "person:bentaylor",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:developer-relations",
+      "target": "person:demetriosbrinkmann",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:developer-relations",
+      "target": "person:elleobrien",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:developer-relations",
+      "target": "person:eugeneyan",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:developer-relations",
+      "target": "person:hugobowneanderson",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:developer-relations",
+      "target": "person:nataliekwong",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:developer-relations",
+      "target": "person:vincentwarmerdam",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:developer-relations",
+      "target": "person:willrussell",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:developer-relations",
+      "target": "podcast:data-engineering-tools-modern-data-stack",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:developer-relations",
+      "target": "podcast:devrel-data-science-open-source-tools",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:developer-relations",
+      "target": "podcast:devrel-open-source-machine-learning",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:developer-relations",
+      "target": "podcast:mlops-community-building-and-meetups",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:developer-relations",
+      "target": "podcast:open-source-ml-tools-strategy-and-business-models",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:developer-relations",
+      "target": "podcast:practical-devrel-demofirst-education-and-open-source",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:developer-relations",
+      "target": "podcast:public-speaking-for-data-scientists",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:developer-relations",
+      "target": "podcast:technical-writing-for-data-scientists",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:developer-relations",
       "target": "wiki:community",
-      "kind": "wiki-related",
-      "weight": 3
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:developer-relations",
       "target": "wiki:community-building",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
+    },
+    {
+      "source": "wiki:developer-relations",
+      "target": "wiki:community-building",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:developer-relations",
       "target": "wiki:contributing",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:developer-relations",
       "target": "wiki:developer-experience",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:developer-relations",
@@ -39403,7 +39871,7 @@
       "source": "wiki:developer-relations",
       "target": "wiki:documentation",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:developer-relations",
@@ -39413,21 +39881,57 @@
     },
     {
       "source": "wiki:developer-relations",
-      "target": "wiki:open-source-and-developer-relations",
+      "target": "wiki:machine-learning-tools",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:developer-relations",
+      "target": "wiki:metaflow",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:developer-relations",
+      "target": "wiki:mlops",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:developer-relations",
+      "target": "wiki:open-source",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:developer-relations",
+      "target": "wiki:open-source-and-developer-relations",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:developer-relations",
       "target": "wiki:open-source-and-developer-relations",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:developer-relations",
+      "target": "wiki:open-source-portfolio-evidence",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:developer-relations",
+      "target": "wiki:software-engineering",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:developer-relations",
       "target": "wiki:technical-writing",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:developer-relations",
@@ -39605,15 +40109,87 @@
     },
     {
       "source": "wiki:embeddings",
-      "target": "wiki:machine-learning-system-design",
+      "target": "person:atitaarora",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:embeddings",
-      "target": "wiki:nlp",
+      "target": "person:hugobowneanderson",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:embeddings",
+      "target": "person:johanneshotter",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:embeddings",
+      "target": "person:meryemarik",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:embeddings",
+      "target": "person:reemmahmoud",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:embeddings",
+      "target": "podcast:building-open-source-nlp-tool",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:embeddings",
+      "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:embeddings",
+      "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
+      "kind": "wiki-link",
+      "weight": 12
+    },
+    {
+      "source": "wiki:embeddings",
+      "target": "podcast:practical-llm-engineering-and-rag",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:embeddings",
+      "target": "podcast:production-ml-search-vector-search-embeddings-hybrid-search",
+      "kind": "wiki-link",
+      "weight": 10
+    },
+    {
+      "source": "wiki:embeddings",
+      "target": "wiki:information-retrieval",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:embeddings",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:embeddings",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:embeddings",
+      "target": "wiki:nlp",
+      "kind": "wiki-link",
+      "weight": 6
     },
     {
       "source": "wiki:embeddings",
@@ -39623,9 +40199,21 @@
     },
     {
       "source": "wiki:embeddings",
+      "target": "wiki:production-search-evaluation",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:embeddings",
+      "target": "wiki:rag-vs-fine-tuning",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:embeddings",
       "target": "wiki:retrieval-augmented-generation",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:embeddings",
@@ -39637,7 +40225,7 @@
       "source": "wiki:embeddings",
       "target": "wiki:search",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:embeddings",
@@ -39649,7 +40237,7 @@
       "source": "wiki:embeddings",
       "target": "wiki:search-rag-and-knowledge-systems",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:embeddings",
@@ -39661,7 +40249,7 @@
       "source": "wiki:embeddings",
       "target": "wiki:vector-databases",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:embeddings",
@@ -39845,21 +40433,81 @@
     },
     {
       "source": "wiki:event-tracking",
-      "target": "wiki:data-activation",
+      "target": "article:product-analyst",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:event-tracking",
+      "target": "person:arpitchoudhury",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:event-tracking",
+      "target": "person:jakobgraff",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:event-tracking",
+      "target": "person:nataliekwong",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:event-tracking",
+      "target": "podcast:ab-testing-and-product-experimentation",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:event-tracking",
+      "target": "podcast:data-engineering-tools-modern-data-stack",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:event-tracking",
+      "target": "podcast:data-led-growth-event-tracking-and-reverse-etl",
+      "kind": "wiki-link",
+      "weight": 14
+    },
+    {
+      "source": "wiki:event-tracking",
+      "target": "wiki:a-b-testing",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:event-tracking",
+      "target": "wiki:customer-data-platforms",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:event-tracking",
+      "target": "wiki:data-activation",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:event-tracking",
       "target": "wiki:data-activation",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:event-tracking",
+      "target": "wiki:data-governance",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:event-tracking",
       "target": "wiki:data-led-growth",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:event-tracking",
@@ -39869,7 +40517,13 @@
     },
     {
       "source": "wiki:event-tracking",
-      "target": "wiki:experimentation",
+      "target": "wiki:data-observability",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:event-tracking",
+      "target": "wiki:data-quality-and-observability",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -39878,12 +40532,18 @@
       "target": "wiki:experimentation",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:event-tracking",
+      "target": "wiki:modern-data-stack",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:event-tracking",
       "target": "wiki:product-analytics",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:event-tracking",
@@ -39895,13 +40555,13 @@
       "source": "wiki:event-tracking",
       "target": "wiki:reverse-etl",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:event-tracking",
       "target": "wiki:tracking-plans",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:event-tracking",
@@ -40001,12 +40661,72 @@
     },
     {
       "source": "wiki:experimentation",
-      "target": "wiki:a-a-testing",
+      "target": "article:data-product-manager",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:experimentation",
+      "target": "article:product-analyst",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:experimentation",
+      "target": "person:aleksandermolak",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:experimentation",
+      "target": "person:jakobgraff",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:experimentation",
+      "target": "person:liesbethdingemans",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:experimentation",
+      "target": "person:rishabhbhargava",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:experimentation",
+      "target": "podcast:ab-testing-and-product-experimentation",
+      "kind": "wiki-link",
+      "weight": 14
+    },
+    {
+      "source": "wiki:experimentation",
+      "target": "podcast:ai-ml-product-design-and-experimentation",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:experimentation",
+      "target": "podcast:causal-inference-for-machine-learning",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:experimentation",
+      "target": "podcast:production-ml-mlops-and-data-team-building",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:experimentation",
+      "target": "wiki:a-a-testing",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:experimentation",
       "target": "wiki:a-b-testing",
       "kind": "wiki-link",
       "weight": 4
@@ -40028,6 +40748,12 @@
       "target": "wiki:causal-inference",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:experimentation",
+      "target": "wiki:data-led-growth",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:experimentation",
@@ -40045,7 +40771,13 @@
       "source": "wiki:experimentation",
       "target": "wiki:evaluation",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
+    },
+    {
+      "source": "wiki:experimentation",
+      "target": "wiki:event-tracking",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:experimentation",
@@ -40058,24 +40790,42 @@
       "target": "wiki:experimentation-and-causal-inference",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:experimentation",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:experimentation",
+      "target": "wiki:metrics",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:experimentation",
       "target": "wiki:power-analysis",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:experimentation",
       "target": "wiki:product-analytics",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:experimentation",
       "target": "wiki:product-analytics",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:experimentation",
+      "target": "wiki:production",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:experimentation-and-causal-inference",
