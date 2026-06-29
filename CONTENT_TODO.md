@@ -30,19 +30,19 @@ podcast archive. Keep biographies secondary.
 Existing pages:
 
 - `_wiki/analytics-engineering.md`
+- `_wiki/ai-engineer-role.md`
+- `_wiki/data-analyst-role.md`
+- `_wiki/data-engineer-role.md`
 - `_wiki/data-product-management.md`
+- `_wiki/data-scientist-role.md`
+- `_wiki/machine-learning-engineer-role.md`
 - `_articles/analytics-engineer.md`
 - `_articles/data-product-manager-role.md`
 
 Candidate pages:
 
-- Data engineer
-- Data scientist
-- Machine learning engineer
 - ML platform engineer
-- AI engineer
 - Analytics engineer
-- Data analyst
 - Data product manager
 - Developer advocate / DevRel engineer
 - MLOps engineer
@@ -208,8 +208,6 @@ Source hints:
 
 Start with this batch when expanding the content set.
 
-- Add role pages for data engineer, data scientist, machine learning engineer,
-  AI engineer, and data analyst.
 - Add transition pages for marketing to analytics engineering, QA to ML/data
   engineering, and academic researcher to data science.
 - Add portfolio project pages for data engineering, ML engineering, analytics
