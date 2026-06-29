@@ -1828,7 +1828,7 @@
       "title": "Data Governance",
       "url": "/wiki/data-governance/",
       "count": 1,
-      "search": "Data Governance How DataTalks.Club guests frame governance as the people, processes, policies, catalogs, and automation that make data safe and usable."
+      "search": "Data Governance How DataTalks.Club guests frame governance as the people, policies, catalogs, and automation that make data safe and usable."
     },
     {
       "id": "wiki:data-lake",
@@ -1891,7 +1891,7 @@
       "title": "Data Products",
       "url": "/wiki/data-products/",
       "count": 1,
-      "search": "Data Products How the podcast archive describes data products as owned, discoverable, trustworthy data interfaces with users, guarantees, and operational responsibility."
+      "search": "Data Products How the podcast archive describes data products as owned, discoverable, trustworthy data interfaces with users and guarantees."
     },
     {
       "id": "wiki:data-quality-and-observability",

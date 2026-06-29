@@ -13,19 +13,20 @@ related:
 
 ## Definition and Scope
 
-Data-led growth is the practice of using product, customer, and behavioral data
-to shape acquisition, activation, retention, support, sales, onboarding, and
-experimentation. In the archive, it is not the same as blindly following a
+Growth teams use product, customer, and behavioral data to guide acquisition
+and activation. The same data can support retention, support, sales, onboarding,
+and experimentation. In the archive, this isn't the same as blindly following a
 dashboard. Arpit Choudhury defines a data-led professional as someone who knows
-where data comes from, can question its accuracy, and can build experiences
-powered by data.
+where data comes from and can question its accuracy.
 
-This page bridges product analytics and data engineering. The core workflow is:
-define events, document a tracking plan, collect and store data, transform it,
-analyze it, and activate it in the tools where product, growth, support, and
-sales teams work.
+This bridge connects product analytics and data engineering. The core workflow
+starts with event definitions and a tracking plan. Teams then collect and store
+data. They transform, analyze, and activate it in the tools used by product,
+growth, support, and sales teams.
 
 ## Contents
+
+Use these sections:
 
 - [Recurring Archive Themes](#recurring-archive-themes)
 - [Episode Evidence](#episode-evidence)
@@ -35,61 +36,68 @@ sales teams work.
 
 ## Recurring Archive Themes
 
-### Data-led is more skeptical than "data-driven"
+Data-led work is more skeptical than "data-driven" work. The episode distinguishes
+being data-led from blindly making decisions from available numbers. Teams need
+intuition, domain experience, and knowledge of how data was collected.
 
-The episode distinguishes being data-led from blindly making decisions from
-available numbers. Teams need intuition, domain experience, and knowledge of
-how data was collected to challenge bad instrumentation or misleading metrics.
+Growth needs data in operational tools. Arpit argues that a warehouse or BI
+dashboard isn't enough for growth teams. Marketers and product managers need
+product data inside their tools. Operations, support, and sales teams need the
+same access.
 
-### Growth needs data in operational tools
+Activation completes the loop because insight alone is incomplete. Product data
+should feed personalized emails, in-app onboarding, and support context. It can
+also support sales outreach, CRM enrichment, and product recommendations.
 
-Arpit argues that a warehouse or BI dashboard is not enough for growth teams.
-Marketers, product managers, operations teams, support teams, and sales teams
-need the right product data inside the tools where they create campaigns,
-onboarding flows, account prioritization, or customer support.
+Documentation is growth infrastructure because it lets teams debug anomalies and
+avoid misusing events. The key pieces are tracking plans, event ownership, event
+properties, data types, source context, and capture location.
 
-### Activation completes the loop
-
-The episode's strongest claim is that insight alone is incomplete. Product data
-should feed actions: personalized emails, in-app onboarding, support context,
-sales outreach, CRM enrichment, product recommendations, or avoiding irrelevant
-messages.
-
-### Documentation is growth infrastructure
-
-Tracking plans, event ownership, event properties, data types, source context,
-and client-side versus server-side semantics let teams debug anomalies and avoid
-misusing events.
-
-### Team design depends on maturity
-
-Early startups can start with an engineer or analytics generalist. As the stack
-grows, the episode expects data engineers, analysts, analytics engineers,
-DataOps, product ops, and data-literate growth teams.
+Team design depends on maturity. Early startups can start with an engineer or
+analytics generalist. As the stack grows, the episode expects data engineers,
+analysts, analytics engineers, and product ops. DataOps and data-literate growth
+teams become useful too.
 
 ## Episode Evidence
 
-| Episode | Evidence |
-| --- | --- |
-| [Data-Led Growth Stack](https://datatalks.club/podcast.html), 7:21-12:00 | Connects growth marketing to A/B tests, personalization, and product data; defines data-led work as source-aware and accuracy-aware. Source: `../datatalksclub.github.io/_podcast/data-led-growth-event-tracking-and-reverse-etl.md`. |
-| [Data-Led Growth Stack](https://datatalks.club/podcast.html), 13:34-23:27 | Shows tracking plans as the documentation layer for events, properties, ownership, instrumentation, and anomaly investigation. |
-| [Data-Led Growth Stack](https://datatalks.club/podcast.html), 30:03-38:20 | Defines data activation and reverse ETL use cases across support, sales, engagement, product analytics, and customer data platforms. |
-| [Data-Led Growth Stack](https://datatalks.club/podcast.html), 39:54-46:48 | Recommends working backward from questions, then choosing tools and team roles across collection, warehouse, product analytics, activation, and build-versus-buy. |
-| [Data-Led Growth Stack](https://datatalks.club/podcast.html), 51:40-60:05 | Frames data democratization, documentation, and personalized onboarding as requirements for product-led and data-led growth. |
-| [A/B Testing and Product Experimentation](https://datatalks.club/podcast.html) | Complements the growth-stack episode with experiment design, power, metrics, and causal interpretation once instrumentation exists. Source: `../datatalksclub.github.io/_podcast/ab-testing-and-product-experimentation.md`. |
+These episodes give the strongest evidence:
+
+- [Data-Led Growth Stack](https://datatalks.club/podcast.html), 7:21-12:00:
+  connects growth marketing to A/B tests, personalization, and product data. It
+  defines data-led work as source-aware and accuracy-aware. Source:
+  `../datatalksclub.github.io/_podcast/data-led-growth-event-tracking-and-reverse-etl.md`.
+- [Data-Led Growth Stack](https://datatalks.club/podcast.html), 13:34-23:27:
+  shows tracking plans as the documentation layer for events, properties,
+  ownership, and instrumentation. They also support anomaly investigation.
+- [Data-Led Growth Stack](https://datatalks.club/podcast.html), 30:03-38:20:
+  defines data activation and reverse ETL use cases across support and sales.
+  Engagement, product analytics, and customer data platforms complete the stack.
+- [Data-Led Growth Stack](https://datatalks.club/podcast.html), 39:54-46:48:
+  recommends working backward from questions, then choosing tools and team roles
+  across collection and warehousing. Product analytics, activation, and
+  buy-or-build decisions come next.
+- [Data-Led Growth Stack](https://datatalks.club/podcast.html), 51:40-60:05:
+  frames data democratization, documentation, and personalized onboarding as
+  requirements for product-led and data-led growth.
+- [A/B Testing and Product Experimentation](https://datatalks.club/podcast.html):
+  complements the growth-stack episode with experiment design, power, metrics,
+  and causal interpretation once instrumentation exists. Source:
+  `../datatalksclub.github.io/_podcast/ab-testing-and-product-experimentation.md`.
 
 ## Tradeoffs
 
 The stack can grow faster than the team can maintain it. Customer data
-platforms simplify early activation for marketers, while warehouse-centric
-analytics and reverse ETL give stronger ownership and transformation power.
+platforms simplify early activation for marketers. Warehouse-centric analytics
+and reverse ETL give stronger ownership and transformation power.
 
 Event volume is another tradeoff. The episode recommends starting with the few
-events needed to understand the journey from acquisition to activation instead
-of collecting everything and leaving engineers to maintain an unfocused tracking
+events needed to understand the journey from acquisition to activation. That
+beats collecting everything and leaving engineers to maintain an unfocused event
 surface.
 
 ## Related Pages
+
+Useful adjacent pages:
 
 - [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }})
 - [Event Tracking]({{ '/wiki/event-tracking/' | relative_url }})
@@ -101,12 +109,14 @@ surface.
 
 ## Maintenance Notes
 
+Future maintainers should preserve these source paths:
+
 - Primary source file:
   `../datatalksclub.github.io/_podcast/data-led-growth-event-tracking-and-reverse-etl.md`.
-- The local summary
-  [Data-Led Growth Stack]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }})
-  is a useful chapter index, but public episode links should continue pointing
-  to `https://datatalks.club/podcast.html`.
-- Future expansions should add more evidence from experimentation and product
+- The local
+  [Data-Led Growth Stack summary]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }})
+  is a useful chapter index. Public episode references should continue to use
+  `https://datatalks.club/podcast.html`.
+- Future expansions should add evidence from experimentation and product
   analytics episodes. Keep this page focused on growth workflows, not generic
   data strategy.

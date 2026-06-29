@@ -11,15 +11,15 @@ related:
 
 ## Definition and Scope
 
-Retrieval-augmented generation, or RAG, gives an LLM relevant external context at
+RAG gives an LLM relevant external context at
 answer time. Fine-tuning changes a model's weights so it performs better for a
 task, domain, format, tone, or behavior. The podcast archive treats RAG as the
 default starting point when answers depend on changing source knowledge, source
-inspection, citations, or enterprise documents. Fine-tuning is more plausible
-when the system needs consistent behavior, style, domain adaptation, or repeated
-task performance that prompting and retrieval do not solve.
+citations, or enterprise documents. Fine-tuning is more plausible when the system
+needs consistent behavior, style, domain adaptation, or repeated task
+performance that prompting and retrieval don't solve.
 
-This page is about the decision boundary. Use
+Use this page for the decision boundary. Use
 [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
 for retrieval architecture and [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
 for broader production LLM design.
@@ -28,25 +28,36 @@ for broader production LLM design.
 
 - [Comparison](#comparison)
 - [Boundary Principles](#boundary-principles)
-- [When RAG Matters](#when-rag-matters)
-- [When Fine-Tuning Matters](#when-fine-tuning-matters)
+- [RAG Triggers](#rag-triggers)
+- [Fine-Tuning Triggers](#fine-tuning-triggers)
 - [Podcast Evidence](#podcast-evidence)
 - [Related Pages](#related-pages)
 - [Maintenance Notes](#maintenance-notes)
 
 ## Comparison
 
-| Question | RAG | Fine-tuning |
-| --- | --- | --- |
-| What changes? | The context passed to the model at request time. | The model weights or adapter behavior after training. |
-| Best for | Changing knowledge, documents, citations, knowledge-base Q&A, source-grounded assistants. | Style, format, domain language, specialized task behavior, classification-like tasks, repeated patterns. |
-| Update path | Re-ingest, chunk, embed, index, retrieve, and evaluate. | Curate examples, train, evaluate, version, deploy, and monitor a model variant. |
-| Main failure mode | Wrong or noisy chunks, missing context, stale index, poor ranking, unsupported synthesis. | Overfitting, weak training data, costly iteration, stale learned knowledge, harder inspection. |
-| Evaluation focus | Retrieval relevance plus answer faithfulness and usefulness. | Task performance, generalization, regressions, latency, cost, and model behavior. |
+Use these boundaries as a quick LLM architecture check.
+
+- What changes: RAG changes the context passed to the model at request time.
+  Fine-tuning changes model weights or adapter behavior after training.
+- Best fit: RAG fits changing knowledge, documents, citations, knowledge-base
+  Q&A, and source-grounded assistants. Fine-tuning fits style, format, domain
+  language, specialized task behavior, classification-like tasks, and repeated
+  response structures.
+- Update path: RAG updates by re-ingesting, chunking, embedding, indexing,
+  retrieving, and evaluating. Fine-tuning updates by curating examples, training,
+  evaluating, versioning, deploying, and monitoring a model variant.
+- Failure mode: RAG fails through wrong chunks, noisy chunks, missing
+  context, stale indexes, poor ranking, or unsupported synthesis. Fine-tuning
+  fails through overfitting, weak training data, costly iteration, stale learned
+  knowledge, or weaker source review.
+- Evaluation focus: RAG evaluation checks retrieval relevance plus answer
+  faithfulness and usefulness. Fine-tuning evaluation checks task performance,
+  generalization, regressions, latency, cost, and model behavior.
 
 ## Boundary Principles
 
-### Use RAG for changing knowledge
+Use RAG for changing knowledge.
 
 The LLM production episode explicitly frames retrieval as the better answer when
 the knowledge changes often. Updating a document index is usually safer and
@@ -54,41 +65,41 @@ cheaper than continuously retraining a model to memorize new facts. This is also
 why RAG is attractive for internal documentation, support knowledge bases,
 transcripts, policies, and other source-backed answering systems.
 
-### Fine-tuning changes behavior more than facts
+Fine-tuning changes behavior more than facts.
 
 The archive's strongest fine-tuning evidence points to specialization, domain
 adaptation, tone, data format, and end-task performance. Fine-tuning may help a
 model answer in the right structure, understand domain language, or perform a
-repeated task more consistently. It is a weaker fit when the main requirement is
+repeated task more consistently. It's a weaker fit when the main requirement is
 "know the latest source text."
 
-### RAG is only as good as retrieval
+RAG is only as good as retrieval.
 
-Search episodes warn that RAG is not magic memory. It needs search quality,
+Search episodes warn that RAG isn't magic memory. It needs search quality,
 chunking, metadata, embeddings, prompt design, citations, and evaluation. A RAG
-system can fail even when the base model is strong if it retrieves the wrong
-passage or hides provenance.
+system can fail even with a strong base model if it retrieves the wrong passage
+or hides provenance.
 
-### Fine-tuning does not remove production work
+Fine-tuning still needs production work.
 
-Fine-tuned systems still need evaluation, deployment, latency and cost control,
-monitoring, versioning, and rollback. The archive's production LLM episodes also
-warn about API model drift and the need for visibility when model behavior
-changes. A fine-tuned open-source or hosted model needs the same operational
-discipline as other model artifacts.
+Teams that fine-tune still need evaluation, deployment, latency and cost
+control, monitoring, versioning, and rollback. The archive's production LLM
+episodes also warn about API model drift and the need for visibility when model
+behavior changes. A fine-tuned open-source or hosted model needs the same
+operational discipline as other model artifacts.
 
-### The answer can be both
+Some systems need both.
 
-Some systems need both: fine-tune or instruct-tune a model for format, tone, or
-domain behavior, then use RAG for current source knowledge. The archive supports
-starting with the smallest reliable system, then adding fine-tuning only when
-retrieval, prompting, and evaluation show a persistent gap.
+Teams can fine-tune or instruct-tune a model for format, tone, or domain
+behavior, then use RAG for current source knowledge. The archive supports
+starting with the smallest reliable system. Add fine-tuning only when retrieval,
+prompting, and evaluation show a persistent gap.
 
-## When RAG Matters
+## RAG Triggers
 
 Use RAG when:
 
-- the answer must cite or inspect source documents
+- the answer must cite or show source documents
 - knowledge changes faster than a training cycle
 - users ask about internal docs, transcripts, policies, support articles, or
   product knowledge
@@ -97,7 +108,7 @@ Use RAG when:
   context assembly
 - long context alone would be too noisy, slow, or expensive
 
-## When Fine-Tuning Matters
+## Fine-Tuning Triggers
 
 Use fine-tuning when:
 
@@ -111,16 +122,32 @@ Use fine-tuning when:
 
 ## Podcast Evidence
 
-| Episode | Evidence |
-| --- | --- |
-| [Deploying LLMs in Production](https://datatalks.club/podcast.html) | At 26:30-31:38, fine-tuning is tied to specialization, domain adaptation, and tone. At 40:46-48:01, retrieval is recommended for changing knowledge and grounded answers. |
-| [Deploying LLMs in Production](https://datatalks.club/podcast.html) | At 18:46-23:12, API model drift is discussed as a production risk, which reinforces the need to version and evaluate model behavior. |
-| [Modern Search Systems](https://datatalks.club/podcast.html) | At 30:38-35:49, RAG is explained as retrieval plus generation to reduce hallucinations and is illustrated with podcast transcripts. |
-| [Modern Search Systems](https://datatalks.club/podcast.html) | At 38:24-48:09, the episode covers chunking, embeddings, vectorization, prompt design, citations, and multi-level RAG evaluation. |
-| [Practical LLM Engineering and RAG](https://datatalks.club/podcast.html) | At 23:00-27:38, reliable LLM systems need representative gold test sets and failure analysis. At 44:26-50:19, RAG is positioned as a quick business win before adding tools or agents. |
-| [Building Agentic AI Systems](https://datatalks.club/podcast.html) | At 29:30-36:11, the guest pushes back on "RAG is dead," citing latency, cost, garbage-in/garbage-out, chunk metadata, and retrieval as a tool within agents. |
+These episodes give the strongest evidence for the LLM architecture boundary.
+
+- [Deploying LLMs in Production](https://datatalks.club/podcast.html): At
+  26:30-31:38, fine-tuning is tied to specialization, domain adaptation, and
+  tone. At 40:46-48:01, retrieval is recommended for changing knowledge and
+  grounded answers.
+- [Deploying LLMs in Production](https://datatalks.club/podcast.html): At
+  18:46-23:12, API model drift is discussed as a production risk. That
+  reinforces the need to version and evaluate model behavior.
+- [Modern Search Systems](https://datatalks.club/podcast.html): At 30:38-35:49,
+  RAG is explained as retrieval plus generation to reduce hallucinations. The
+  episode illustrates the workflow with podcast transcripts.
+- [Modern Search Systems](https://datatalks.club/podcast.html): At 38:24-48:09,
+  the episode covers chunking, embeddings, vectorization, prompt design,
+  citations, and multi-level RAG evaluation.
+- [Practical LLM Engineering and RAG](https://datatalks.club/podcast.html): At
+  23:00-27:38, reliable LLM systems need representative gold test sets and
+  failure analysis. At 44:26-50:19, RAG is positioned as a quick business win
+  before adding tools or agents.
+- [Building Agentic AI Systems](https://datatalks.club/podcast.html): At
+  29:30-36:11, the guest pushes back on "RAG is dead," citing latency, cost,
+  garbage-in/garbage-out, chunk metadata, and retrieval as a tool within agents.
 
 ## Related Pages
+
+Use these pages for adjacent LLM, retrieval, and evaluation topics.
 
 - [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
 - [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
@@ -133,6 +160,8 @@ Use fine-tuning when:
 
 ## Maintenance Notes
 
+Use these notes when updating the page.
+
 - Highest-value source files:
   `../datatalksclub.github.io/_podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.md`,
   `../datatalksclub.github.io/_podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.md`,
@@ -140,6 +169,5 @@ Use fine-tuning when:
   and `../datatalksclub.github.io/_podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.md`.
 - Keep this page centered on the decision boundary. Put chunking, search, and
   evaluation depth on [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }}).
-- Future improvement: add more archive evidence on fine-tuning datasets,
-  parameter-efficient tuning, and open-source model serving when those clips
-  appear.
+- Add more archive evidence on fine-tuning datasets, parameter-efficient tuning,
+  and open-source model serving when those clips appear.

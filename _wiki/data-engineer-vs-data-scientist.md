@@ -36,23 +36,23 @@ hubs.
 
 Use these boundaries as a quick ownership check.
 
-- **Core responsibility:** Data engineers build and operate data paths,
+- Core responsibility: Data engineers build and operate data paths,
   storage, transformations, access, orchestration, and quality checks. Data
   scientists frame product or business questions, build models or analyses,
   evaluate results, and communicate impact.
-- **Typical output:** Data engineers produce reliable datasets, pipelines,
+- Typical output: Data engineers produce reliable datasets, pipelines,
   schemas, data lakes, warehouses, marts, APIs, and monitoring. Data scientists
   produce forecasts, classifiers, recommendations, experiments, model services,
   notebooks, reports, and decisions.
-- **Main users:** Data engineers serve analysts, data scientists, ML engineers,
+- Main users: Data engineers serve analysts, data scientists, ML engineers,
   product teams, and business users. Data scientists serve product managers,
   decision makers, users of predictive features, and engineering teams shipping
   model-backed products.
-- **Failure mode:** Data engineering failures make downstream work late,
+- Failure mode: Data engineering failures make downstream work late,
   missing, slow, undocumented, inaccessible, or inconsistent. Data science
   failures answer the wrong question, use weak features, miss evaluation gaps,
   or fail to improve the product.
-- **Archive skill signals:** Data engineering leans toward SQL, Python or JVM
+- Archive skill signals: Data engineering leans toward SQL, Python or JVM
   languages, cloud, distributed systems, orchestration, databases, Kafka/Spark,
   monitoring, and documentation. Data science leans toward SQL, Python,
   statistics, ML, experimentation, business framing, feature work, evaluation,
@@ -60,7 +60,7 @@ Use these boundaries as a quick ownership check.
 
 ## Boundary Location
 
-**Data availability comes before modeling.**
+Data availability comes before modeling.
 
 The first archive role episode describes data engineers as the people who make
 user-generated product data usable without burdening production systems.
@@ -69,7 +69,7 @@ sequence gives the cleanest boundary. Data engineering owns the dependable
 supply of data. Data science owns the question, modeling choice, evaluation, and
 product interpretation.
 
-**Feature work is shared.**
+Feature work is shared.
 
 The boundary gets blurry when a model needs features. Data scientists may clean
 data, join sources, and create features during exploration. Data engineers may
@@ -78,7 +78,7 @@ or expose feature data to services. The archive doesn't support a rule that one
 role should do all feature work. It supports explicit handoff across exploratory
 feature logic, repeatable production logic, and monitoring.
 
-**Production adds a third operating layer.**
+Production adds a third operating layer.
 
 Episodes on MLOps and ML platforms show that production models need more than
 data engineering and model development. ML engineers, MLOps teams, or platform
@@ -86,7 +86,7 @@ teams may own registries, CI/CD, deployment paths, serving, monitoring,
 retraining, and governance. Data engineers still matter because upstream schema
 changes and pipeline failures can look like model failures.
 
-**Job titles hide different jobs.**
+Job titles hide different jobs.
 
 Several archive episodes warn that titles are inconsistent. A data scientist job
 may be analytics-heavy, model-heavy, or deployment-heavy. A data engineer job may

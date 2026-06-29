@@ -12,22 +12,24 @@ related:
 
 ## Definition and Scope
 
-An analytics engineering portfolio project should prove that the learner can
-turn messy source data into trusted analytical models and usable metrics. The
-archive frames analytics engineering as a bridge between data engineering and
-analysis: SQL, data modeling, transformation workflows, tests, documentation,
-BI exposure, and business definitions all matter.
+An analytics engineering portfolio project should turn messy source data into
+trusted analytical models and usable metrics. The archive frames analytics
+engineering as a bridge between data engineering and analysis. SQL, data
+modeling, transformation workflows, tests, documentation, BI exposure, and
+business definitions all matter.
 
-Use this page for dbt-style projects, metric-layer projects, dashboard-backed
-models, and career-transition portfolios from marketing, operations, finance,
-BI, or analyst work. For the role hub, use
+Learners can use this page for dbt-style projects, metric-layer projects, and
+dashboard-backed models. It also fits career-transition portfolios from
+marketing, operations, finance, BI, or analyst work. For the role hub, use
 [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }}).
 
 ## Contents
 
+Use these sections to connect project design with archive evidence.
+
 - [Project Criteria](#project-criteria)
-- [Project Shapes](#project-shapes)
-- [What the Project Should Demonstrate](#what-the-project-should-demonstrate)
+- [Project Types](#project-types)
+- [Project Proof](#project-proof)
 - [Episode Evidence](#episode-evidence)
 - [Anti-Patterns](#anti-patterns)
 - [Related Pages](#related-pages)
@@ -35,94 +37,91 @@ BI, or analyst work. For the role hub, use
 
 ## Project Criteria
 
-Good analytics engineering portfolio projects meet these criteria:
+Good analytics engineering portfolio projects meet these criteria.
 
-- **Business question**: Start with a metric, funnel, cohort, finance process,
+- Business question: start with a metric, funnel, cohort, finance process,
   operational workflow, or product decision.
-- **Source understanding**: Document event semantics, source systems, update
+- Source understanding: document event semantics, source systems, update
   cadence, schema owners, and known source defects.
-- **Modeled layers**: Separate sources, staging, intermediate, marts, and
-  presentation models when the project stack supports it.
-- **Metric definitions**: Define grain, dimensions, facts, measures, filters,
-  and accepted business logic.
-- **Tests and docs**: Add non-null, unique, accepted-values, relationship,
-  freshness, and custom tests, plus model and column documentation.
-- **BI readiness**: Expose the result through a dashboard, semantic layer,
-  notebook, or documented query interface.
-- **Operational behavior**: Decide which failures block the build, which warn,
-  who gets notified, and how duplicate definitions get deprecated.
+- Modeled layers: separate sources, staging, intermediate, marts, and
+  presentation models when the stack supports it.
+- Metric definitions: define grain, dimensions, facts, measures, filters, and
+  accepted business logic.
+- Tests and docs: add non-null, unique, accepted-values, relationship,
+  freshness, and custom tests. Include model and column documentation.
+- BI readiness: expose the result through a dashboard, semantic layer, notebook,
+  or documented query interface.
+- Operational behavior: decide which failures block the build, which warn, who
+  gets notified, and how duplicate definitions get deprecated.
 
-## Project Shapes
+## Project Types
 
-### Metric Layer and Dashboard Project
+Choose a project type that makes the analytics engineering role visible.
 
-Pick a realistic domain such as subscriptions, ecommerce, marketing spend,
-SaaS usage, logistics, finance, or nonprofit operations. Build source models,
-staging tables, fact and dimension tables, KPI definitions, tests, docs, and a
-dashboard that uses only modeled data.
+- Metric layer and dashboard project: pick a realistic domain such as
+  subscriptions, ecommerce, marketing spend, SaaS usage, logistics, finance, or
+  nonprofit operations. Build source models, staging tables, fact and dimension
+  tables, KPI definitions, tests, docs, and a dashboard that uses only modeled
+  data.
+- dbt migration or refactor project: start with messy SQL scripts or duplicated
+  dashboard queries. Refactor them into model layers, reusable macros, tests,
+  docs, lineage, and a deployment workflow. Include a migration note that
+  explains how stakeholders should validate changed numbers.
+- Product analytics project: instrument or simulate events, define a tracking
+  plan, model user journeys, and publish retention or activation metrics. Add
+  event-quality checks and a note on how product teams would use the data.
+- Reverse ETL or activation project: model a customer or account segment in the
+  warehouse and push it to a mock CRM, support tool, or marketing destination.
+  Document ownership, refresh cadence, privacy assumptions, and wrong-model
+  consequences.
 
-The key evidence is not the chart. It is the path from source semantics to a
-trusted metric.
+## Project Proof
 
-### dbt Migration or Refactor Project
+Use this checklist as the project review standard.
 
-Start with messy SQL scripts or duplicated dashboard queries, then refactor them
-into a dbt-style project with model layers, reusable macros, tests, docs,
-lineage, and a deployment workflow. Include a migration note that explains what
-changed and how stakeholders should validate the numbers.
-
-This mirrors archive episodes where analytics engineering becomes visible
-through dbt, version control, tests, DAGs, and documentation.
-
-### Product Analytics Project
-
-Instrument or simulate events, define a tracking plan, model user journeys, and
-publish retention, activation, funnel, or experiment-readiness metrics. Include
-event-quality checks and a note on how product and analytics teams would use the
-data.
-
-This shape fits learners with marketing, product, growth, or operations
-backgrounds because domain knowledge becomes part of the evidence.
-
-### Reverse ETL or Activation Project
-
-Model a customer or account segment in the warehouse and push it to a mock CRM,
-support tool, or marketing destination. Document ownership, refresh cadence,
-privacy assumptions, and what happens if the model is wrong.
-
-This project proves that analytics engineering can support operations, not only
-dashboards.
-
-## What the Project Should Demonstrate
-
-Use this checklist as the project review standard:
-
-1. **Metric grain**: What does one row represent, and which joins preserve that
-   grain?
-2. **Source semantics**: Which fields come from user events, backend systems,
-   ads platforms, finance tools, or manual inputs?
-3. **Transformation design**: Why are models layered this way, and where does
-   business logic live?
-4. **Tests**: Which assumptions are enforced, and what is warning-only versus
-   build-blocking?
-5. **Documentation**: Can another analyst find owner, purpose, caveats, columns,
-   dependencies, and examples?
-6. **BI consumption**: Does the dashboard or query surface use shared models
-   instead of embedding duplicate metric logic?
-7. **Stakeholder story**: Which decision does the model support, and how would
-   the learner reconcile conflicting numbers?
+1. Metric grain: state what one row represents and which joins preserve that
+   grain.
+2. Source semantics: name fields from user events, backend systems, ads
+   platforms, finance tools, or manual inputs.
+3. Transformation design: explain why models are layered this way and where
+   business logic lives.
+4. Tests: name enforced assumptions and warning-only checks.
+5. Documentation: make owner, purpose, caveats, columns, dependencies, and
+   examples findable by another analyst.
+6. BI consumption: make the dashboard or query surface use shared models instead
+   of embedded duplicate metric logic.
+7. Stakeholder story: explain which decision the model supports and how to
+   reconcile conflicting numbers.
 
 ## Episode Evidence
 
-| Episode | Portfolio Evidence |
-| --- | --- |
-| [Analytics Engineer: New Role in a Data Team](https://datatalks.club/podcast.html) | At 4:05, Victoria Perez Mola describes data modeling, pipelines, data quality, and Looker as daily work. At 6:49, dbt adds SQL transformations, version control, docs, tests, and DAGs. At 38:53, she discusses dbt tests, upstream checks, warnings, and errors. |
-| [From Digital Marketing to Analytics Engineering](https://datatalks.club/podcast.html) | At 9:53, the move into BI depends on SQL and data-pipeline understanding. At 14:14, the transition happens through BI projects alongside marketing work. Later sections cover dbt migration, wide versus narrow tables, incrementalization, product analytics, and domain knowledge. |
-| [ETL vs ELT and Modern Data Engineering]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}) | At 12:39, the episode connects dbt and SQL workflows to analyst autonomy. It also covers data marts, warehouses, orchestration, reverse data flows, CDC, and schema evolution. |
-| [Data-Led Growth Stack]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }}) | Supports projects around event tracking, warehouse transformations, BI, reverse ETL, and team ownership for growth or product analytics. |
-| [Build a Data Engineering Career](https://datatalks.club/podcast.html) | At 36:18, Jeff Katz uses dbt, Snowflake, Mode, and Fivetran as an analytics engineering module. At 44:21, SQL mastery and data modeling practice become interview-relevant skills. |
+These episodes anchor the project criteria.
+
+- [Analytics Engineer: New Role in a Data Team](https://datatalks.club/podcast.html):
+  at 4:05, Victoria Perez Mola describes data modeling, pipelines, data quality,
+  and Looker as daily work. At 6:49, dbt adds SQL transformations, version
+  control, docs, tests, and DAGs. At 38:53, she discusses dbt tests, upstream
+  checks, warnings, and errors.
+- [From Digital Marketing to Analytics Engineering](https://datatalks.club/podcast.html):
+  at 9:53, the move into BI depends on SQL and data-pipeline understanding.
+  At 14:14, the transition happens through BI projects alongside marketing work.
+  Later sections cover dbt migration, wide versus narrow tables,
+  incrementalization, product analytics, and domain knowledge.
+- [ETL vs ELT and Modern Data Engineering]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}):
+  at 12:39, the episode connects dbt and SQL workflows to analyst autonomy.
+  It also covers data marts, warehouses, orchestration, reverse data flows, CDC,
+  and schema evolution.
+- [Data-Led Growth Stack]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }}):
+  supports projects around event tracking, warehouse transformations, BI,
+  reverse ETL, and team ownership for growth or product analytics.
+- [Build a Data Engineering Career](https://datatalks.club/podcast.html):
+  at 36:18, Jeff Katz uses dbt, Snowflake, Mode, and Fivetran as an analytics
+  engineering module. At 44:21, SQL mastery and data modeling practice become
+  interview-relevant skills.
 
 ## Anti-Patterns
+
+Avoid these weak portfolio signals.
 
 - A dashboard built directly from raw tables with metric logic hidden in charts.
 - A dbt repository with many models but no docs, tests, owners, or business
@@ -135,6 +134,8 @@ Use this checklist as the project review standard:
   control, reviews, lineage, and deployment.
 
 ## Related Pages
+
+Use these pages for adjacent project and role context.
 
 - [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
 - [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
