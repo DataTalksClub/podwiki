@@ -112,11 +112,12 @@ These episodes anchor the transition path.
   understanding as gaps. Python basics are also a gap. At 14:14, the transition
   happens through BI projects alongside marketing work.
 
-  At 41:50, the playbook is Excel, SQL, dashboards, and small projects.
+  At 41:50, the playbook starts with Excel and SQL before dashboard practice and
+  small projects.
 - [Analytics Engineering Roadmap](https://datatalks.club/podcast.html):
   Analytics engineering episodes support the same roadmap. Candidates need SQL
-  fluency and reusable models. They also need tests, documentation, stakeholder
-  definitions, and domain specialization.
+  fluency and reusable models, plus tests and documentation. Stakeholder
+  definitions and domain specialization come next.
 - [Data-Led Growth Stack](https://datatalks.club/podcast.html):
   Growth and activation episodes connect event tracking, warehouse
   transformations, reverse ETL, and customer data platforms. They also connect

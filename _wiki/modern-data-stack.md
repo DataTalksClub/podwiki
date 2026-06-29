@@ -47,9 +47,10 @@ Analytics engineering emerged from this stack. dbt-style workflows brought SQL,
 version control, tests, and documentation closer to analysts and analytics
 engineers. Dependency graphs became part of the work too.
 
-The stack includes more than ingestion and dashboards. Episodes add data marts,
-orchestration, CDC, and schema evolution. They also cover staging areas, data
-quality, governance, and reverse data flows.
+The archive treats the stack as more than ingestion and dashboards. Episodes add
+data marts and orchestration, cover CDC and schema evolution, and discuss
+staging areas and reverse data flows. Data quality and governance sit in the
+same operating layer.
 
 Modern stack choices depend on the use case. Analytics pipelines, ML pipelines,
 streaming systems, and activation workflows need different constraints. Santona
@@ -71,8 +72,8 @@ These episodes give the strongest evidence:
   `../datatalksclub.github.io/_podcast/data-engineering-tools-modern-data-stack.md`.
 - [Data Engineering Tools and Modern Data Stack](https://datatalks.club/podcast.html),
   15:30-33:45: covers data marts and ingestion layers. Natalie also discusses
-  lakes, warehouses, data swamps, architecture decisions, orchestration, and
-  Airbyte's extract-load role.
+  lakes, warehouses, and data swamps before moving to architecture decisions and
+  orchestration. She then covers Airbyte's extract-load role.
 - [Data Engineering Tools and Modern Data Stack](https://datatalks.club/podcast.html),
   33:45-39:06: lists common modern analytics stack components and adds
   operational reverse data flows.
@@ -89,7 +90,7 @@ These episodes give the strongest evidence:
   `../datatalksclub.github.io/_podcast/data-led-growth-event-tracking-and-reverse-etl.md`.
 - [Modern Data Engineering Trends](https://datatalks.club/podcast.html),
   14:32-18:17 and 31:29-44:42: critiques the modern data stack label. Adrian
-  adds Iceberg and catalogs. He also covers DuckDB, dbt alternatives,
+  adds Iceberg and catalogs while also covering DuckDB, dbt alternatives,
   orchestration choices, and vendor-caution guidance. Source:
   `../datatalksclub.github.io/_podcast/trends-in-modern-data-engineering.md`.
 

@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "ML Platforms"
-summary: "A bridge page for podcast evidence about shared systems for experiment tracking, model registries, deployment paths, monitoring, self-service compute, governance, and ML team enablement."
+summary: "A bridge page for podcast evidence about shared ML platform systems and team enablement."
 related:
   - MLOps
   - Platform Engineering
@@ -11,12 +11,11 @@ related:
 
 ## Definition and Scope
 
-An ML platform is the shared product surface that helps teams build, train,
-deploy, monitor, and govern machine learning systems without rebuilding the
-same plumbing for every model. In the podcast archive, platform teams provide
-tracking, registries, compute access, orchestration, deployment paths, and
-prediction logging. They also cover monitoring, metadata, lineage, and support
-practices.
+An ML platform is the shared product surface that helps teams build and train
+models. It also helps them deploy, monitor, and govern models without
+rebuilding the same plumbing each time. In the podcast archive, platform teams
+provide tracking, registries, compute access, and orchestration. They also
+provide deployment paths, prediction logging, monitoring, and support practices.
 
 Use this page for the platform layer. Use [MLOps]({{ '/wiki/mlops/' | relative_url }})
 for the operating discipline and [Machine Learning Infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }})
@@ -41,8 +40,8 @@ The archive treats ML platforms as internal products, not tool collections:
   point collection and quick wins.
 - Build or buy selectively. Guests rarely recommend building an end-to-end
   platform from scratch. They more often describe buying managed tools, adding
-  glue code, and wrapping them in team-specific conventions.
-- Experiment tracking and registries are early wins. They preserve run history,
+  glue code, and wrapping the result in team-specific conventions.
+- Experiment tracking and registries are early wins because they preserve run history,
   parameters, artifacts, and model handoffs before teams invest in heavier
   serving or governance layers.
 - Self-service is a developer-experience problem. Good platforms hide routine
@@ -56,32 +55,32 @@ The archive treats ML platforms as internal products, not tool collections:
 These episodes give the strongest platform evidence:
 
 - [Building Production ML Platforms](https://datatalks.club/podcast.html):
-  At 4:42-17:14, Simon defines MLOps as people, process, and technology. He
-  frames a platform as a way to reduce cognitive load for product teams. At
-  29:41-34:01, he covers tracking, registries, serving, orchestration, and tool
-  integration. At 38:40-49:19, he discusses thin abstractions, governance,
-  metadata, lineage, and when to delay heavy platform work.
+  At 4:42-17:14, Simon defines MLOps through people, process, and technology.
+  He frames a platform as a way to reduce cognitive load for product teams. At
+  29:41-34:01, he covers tracking, registries, serving, and orchestration.
+  At 38:40-49:19, he discusses governance, metadata, lineage, and thin
+  abstractions. He also explains when to delay heavy platform work.
   Reuse the [summary]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
 - [MLOps at Scale](https://datatalks.club/podcast.html): At 23:01-33:13,
   Raphaël describes a centralized enabling MLOps team that supports product
-  teams with infrastructure, tools, practices, feedback, and adoption work. At
-  39:06-56:50, he covers CI, repository structure, testing, reproducibility,
-  registries, serving, monitoring, dependency management, and container
-  tradeoffs. Reuse the [summary]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}).
+  teams with infrastructure, tools, practices, and feedback. At 39:06-56:50,
+  he covers CI, repository structure, testing, and reproducibility. He also
+  covers registries, serving, monitoring, and dependency management. Reuse the
+  [summary]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}).
 - [DevRel Role for Machine Learning](https://datatalks.club/podcast.html):
   Hugo Bowne-Anderson describes Metaflow as a human-centric tool for full-stack
-  ML. The episode adds AWS, Kubernetes, Argo, documentation, and education
-  around the workflow. Reuse the [summary]({{ '/podcasts/devrel-open-source-machine-learning/' | relative_url }}).
+  ML. The episode adds AWS, Kubernetes, Argo, and documentation around the
+  workflow. Reuse the [summary]({{ '/podcasts/devrel-open-source-machine-learning/' | relative_url }}).
 - [MLOps Architect Guide](https://datatalks.club/podcast.html): Danny Leybzon
   adds production-first monitoring, ETL root causes, build-versus-buy
   decisions, and platform-agnostic observability integrations.
 - [Post-ChatGPT AI Infrastructure](https://datatalks.club/podcast.html):
-  Andrey Cheptsov adds infrastructure pressure from AI workloads: cost, cloud
-  versus on-prem, distributed training, Kubernetes limits, and orchestration.
+  Andrey Cheptsov adds infrastructure pressure from AI workloads. The episode
+  covers cost, cloud versus on-prem, distributed training, and Kubernetes
+  limits.
 - [Pragmatic and Standardized MLOps](https://datatalks.club/podcast.html):
-  Reinforces the archive's preference for Git, CI/CD, Kubernetes, registries,
-  standard repositories, and existing engineering primitives before new platform
-  layers.
+  Reinforces the archive's preference for Git, CI/CD, Kubernetes, and
+  registries before new platform layers.
 
 ## Related Pages
 

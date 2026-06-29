@@ -14,9 +14,9 @@ related:
 
 Developer relations, or DevRel, is the bridge between technical builders and
 the people who need to use their tools. In the archive, DevRel includes
-education, documentation, demos, talks, videos, and issue feedback. It also
-includes community facilitation, open-source governance, and internal
-enablement for sales, product, and engineering teams.
+education, documentation, and demos. Talks, videos, and issue feedback also
+matter. Community facilitation, open-source governance, and internal enablement
+matter too.
 
 The podcast archive doesn't treat DevRel as only marketing. Guests describe
 it as technical work that makes adoption easier and routes developer friction
@@ -34,14 +34,14 @@ Use these sections to separate the role, its boundaries, and the evidence.
 
 ## Recurring Archive Themes
 
-**DevRel translates tacit knowledge into usable paths.**
+DevRel translates tacit knowledge into usable paths.
 
 Engineers often know how a tool works before users can reproduce that
-knowledge. DevRel turns that internal knowledge into quickstarts, tutorials,
-examples, videos, talks, and demos. Hugo Bowne-Anderson calls this a wisdom
-layer around tools such as Metaflow.
+knowledge. DevRel turns that internal knowledge into quickstarts and tutorials.
+It also produces examples, videos, talks, and demos. The Metaflow episode calls
+this a wisdom layer around tools.
 
-**DevRel is a feedback role.**
+DevRel is a feedback role.
 
 DevRel people use the product, notice confusing setup, and talk to users. They
 bring friction back to engineering and product. Vincent Warmerdam's
@@ -49,14 +49,14 @@ research-advocacy work at Rasa follows the same structure. He listens to
 practitioners, studies where tools fail, and creates practical material or side
 packages that help the community.
 
-**Technical fluency, writing, and community building reinforce each other.**
+Technical fluency, writing, and community building reinforce each other.
 
 Guests describe DevRel as a hybrid role. A practitioner needs enough technical
-depth to dogfood the product, enough writing skill to explain it, enough
-community skill to talk with real users, and enough product judgment to decide
-which material should exist.
+depth to dogfood the product and enough writing skill to explain it. They also
+need community skill and product judgment to decide which material should
+exist.
 
-**Demos reduce adoption friction.**
+Demos reduce adoption friction.
 
 Developer advocacy episodes repeatedly use demos because they show the first
 useful path through a tool. A good demo isn't a marketing asset alone. It
@@ -65,10 +65,11 @@ context.
 
 ## Role Boundaries
 
-DevRel can report through engineering, product, marketing, the CTO, or a small
-founding team. The archive doesn't name one universal reporting line. It does
-show the tradeoff: DevRel loses credibility when it drifts away from
-engineering, and it loses reach when it ignores marketing and distribution.
+DevRel can report through engineering, product, marketing, or the CTO. In a
+small company, it may sit with the founding team. The archive doesn't name one
+universal reporting line. It does show the tradeoff: DevRel loses credibility
+when it drifts away from engineering, and it loses reach when it ignores
+marketing and distribution.
 
 DevRel also differs from internal data science work. The work may involve less
 ownership of one product metric and more ownership of examples, education,
@@ -120,12 +121,12 @@ Use these notes for future edits.
 
 - Keep this page focused on the DevRel role. Broader open-source governance
   belongs in [Open Source and Developer Relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }}).
-- Highest-value source episodes:
-  `../datatalksclub.github.io/_podcast/devrel-open-source-machine-learning.md`,
-  `../datatalksclub.github.io/_podcast/practical-devrel-demofirst-education-and-open-source.md`,
-  `../datatalksclub.github.io/_podcast/open-source-ml-tools-strategy-and-business-models.md`,
-  `../datatalksclub.github.io/_podcast/open-source-ml-contributions.md`,
-  and `../datatalksclub.github.io/_podcast/data-engineering-tools-modern-data-stack.md`.
+- Revisit `../datatalksclub.github.io/_podcast/devrel-open-source-machine-learning.md`
+- Revisit `../datatalksclub.github.io/_podcast/practical-devrel-demofirst-education-and-open-source.md`
+- Revisit `../datatalksclub.github.io/_podcast/open-source-ml-tools-strategy-and-business-models.md`
+- Revisit `../datatalksclub.github.io/_podcast/open-source-ml-contributions.md`
+- Revisit `../datatalksclub.github.io/_podcast/data-engineering-tools-modern-data-stack.md`
 - Future edits should add examples by DevRel output: quickstart, tutorial,
-  video, talk, demo, or office hours. Community programs, docs feedback, and
-  internal enablement also belong here when the episode explains the role.
+  video, talk, demo, or office hours. Community programs and docs feedback also
+  belong here when the episode explains the role. Internal enablement belongs
+  here when it changes how technical teams explain the tool.

@@ -12,11 +12,11 @@ related:
 
 ## Definition and Scope
 
-Contributing means doing useful work that helps a project, course, community,
-or tool become better for other people. In the archive, contribution includes
-pull requests, reproducible issues, documentation, examples, and tests. It
-also includes CI fixes, packaging, talks, blog posts, mentoring, project
-reviews, and community help.
+Contributing means doing useful work that helps a project or course become
+better for other people. It can also help a community or tool. In the archive,
+contribution includes pull requests and reproducible issues. Documentation,
+examples, and tests also matter. CI fixes and packaging count too. Talks, blog
+posts, mentoring, project reviews, and community help count too.
 
 Use this page for contribution mechanics and etiquette. Use
 [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
@@ -36,28 +36,29 @@ Use these sections to connect contribution types with episode evidence.
 
 ## Recurring Archive Themes
 
-**A useful issue can be a contribution.**
+A useful issue can be a contribution.
 
 Vincent Warmerdam gives the archive its most practical starting point. Use a
 tool, hit a confusing error, and open a clear issue with a reproduction and a
 suggested fix. This helps maintainers even when the contributor doesn't write
 the code.
 
-**Small, scoped changes beat large unsolicited features.**
+Small, scoped changes beat large unsolicited features.
 
 Guests favor small fixes, docs improvements, examples, and maintainer
 conversation before large pull requests. This protects volunteer maintainers
 from review burden and helps contributors learn the project's setup, tests,
 style, and direction.
 
-**Documentation and examples are technical contributions.**
+Documentation and examples are technical contributions.
 
 The archive repeatedly rejects the idea that contribution only means code.
-README improvements, quickstarts, tutorials, API examples, videos, and
-anecdotes for risk checklists all help users succeed. These contributions also
-prove that the contributor understands a project from a user's point of view.
+README improvements, quickstarts, and tutorials all help users succeed. API
+examples, videos, and anecdotes for risk checklists can help too. These
+contributions also prove that the contributor understands a project from a
+user's point of view.
 
-**Contribution programs need onboarding.**
+Contribution programs need onboarding.
 
 Hackathons, fellowships, open-source education programs, and community courses
 can create first contributions. Participants still need clear setup
@@ -84,21 +85,21 @@ These contribution paths recur across the archive.
 These episodes provide the most concrete contribution guidance.
 
 - [Contribute to Open Source ML](https://datatalks.club/podcast.html): at
-  22:20, Vincent covers README, guides, API reference, and examples. At 24:10,
-  he discusses contribution guides and polite interaction. At 25:50, he
-  recommends reproducible issues and small fixes. At 27:40, he names testing,
-  CI, packaging, and pre-commit as first-PR skills.
+  22:20, the episode covers README material, guides, and API reference. It also
+  covers examples. At 24:10, it discusses contribution guides and polite
+  interaction. At 25:50, it recommends reproducible issues and small fixes. At
+  27:40, it names testing, CI, packaging, and pre-commit as first-PR skills.
 - [Open Source ML Tools](https://datatalks.club/podcast.html): at 16:43,
-  Vincent connects training to contributor growth. At 18:11, he discusses
-  maintainer handoff. At 23:29, he treats open-source work as a hiring signal.
+  training connects to contributor growth. At 18:11, the episode discusses
+  maintainer handoff, and at 23:29 open-source work appears as a hiring signal.
 - [Developer Advocacy Through Community Impact](https://datatalks.club/podcast.html):
   at 11:46, hackathons teach Git, teamwork, and building projects. At 35:43,
-  Will discusses mentorship for large repositories. At 39:02, he covers PR
-  quality, Git skills, and onboarding. At 41:16, he covers environment setup
+  the episode covers mentorship for large repositories. At 39:02, it covers PR
+  quality, Git skills, and onboarding. At 41:16, it covers environment setup
   and maintainer collaboration.
 - [Inside Scaling DataTalks.Club](https://datatalks.club/podcast.html):
-  at 51:38, Alexey names concrete ways to help: be a guest, mentor in Slack,
-  and join Project of the Week.
+  at 51:38, the episode names concrete ways to help. Members can be guests,
+  mentor in Slack, or join Project of the Week.
 - [DevRel Role for Machine Learning](https://datatalks.club/podcast.html):
   at 54:31, Hugo recommends GitHub portfolios, meetups, and experimenting with
   DevRel tasks as a way to build evidence.
@@ -121,11 +122,11 @@ Use these notes for future edits.
 
 - Keep this page about how to contribute. Career framing belongs in
   [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }}).
-- Highest-value source episodes:
-  `../datatalksclub.github.io/_podcast/open-source-ml-contributions.md`,
-  `../datatalksclub.github.io/_podcast/open-source-ml-tools-strategy-and-business-models.md`,
-  `../datatalksclub.github.io/_podcast/practical-devrel-demofirst-education-and-open-source.md`,
-  `../datatalksclub.github.io/_podcast/datatalksclub-scaling-and-free-courses.md`,
-  and `../datatalksclub.github.io/_podcast/devrel-open-source-machine-learning.md`.
-- Future edits should add maintainer-side patterns: issue templates, review
-  queues, contributor ladders, release notes, and when to reject a contribution.
+- Revisit `../datatalksclub.github.io/_podcast/open-source-ml-contributions.md`
+- Revisit `../datatalksclub.github.io/_podcast/open-source-ml-tools-strategy-and-business-models.md`
+- Revisit `../datatalksclub.github.io/_podcast/practical-devrel-demofirst-education-and-open-source.md`
+- Revisit `../datatalksclub.github.io/_podcast/datatalksclub-scaling-and-free-courses.md`
+- Revisit `../datatalksclub.github.io/_podcast/devrel-open-source-machine-learning.md`
+- Future edits should add maintainer-side structures such as issue templates,
+  review queues, contributor ladders, and release notes. Add rejection examples
+  when an episode explains why a contribution shouldn't merge.

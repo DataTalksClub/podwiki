@@ -16,9 +16,8 @@ design, scientific programming, and domain data. Many also bring literature
 review and careful reasoning. The industry gap is usually not intelligence or
 motivation.
 
-Researchers need translation work. Product framing, deployment, software
-engineering practice, and interview expectations all matter. Concise
-communication matters too.
+Researchers need product framing, deployment, and software engineering practice,
+plus interview expectations and concise communication.
 
 Researchers need to convert academic work into industry signals. A publication
 list alone may not persuade a hiring team. A skills-first resume, reproducible
@@ -114,8 +113,10 @@ These episodes show how researchers translate academic work into industry work.
   At 1:28, CJ Jenkins describes leaving evolutionary biology during a postdoc.
   At 2:11, statistics and population dynamics become the bridge into data
   science. At 3:16, genomics work includes large files and Bash. Data processing
-  is central too. At 6:10, deployment and APIs are named as gaps. Docker and
-  Python are gaps too.
+  is central too.
+
+  At 6:10, deployment and APIs are named as gaps, along with Docker and Python.
+
   At 17:14, the CV is rewritten around skills rather than research topics.
 
   At 40:02, publications are contrasted with portfolio relevance.

@@ -13,10 +13,10 @@ related:
 ## Definition and Scope
 
 Technical writing is the practice of explaining technical work so another
-person can understand, evaluate, reproduce, or build on it. In the
-DataTalks.Club archive, people write blog posts, tutorials, READMEs, and
-design docs. They also write decision logs, talks, demos, videos, portfolio
-writeups, and DevRel content.
+person can understand, evaluate, or reproduce it. It also helps someone build
+on the work. In the archive, people write blog posts, tutorials, and READMEs.
+They also write design docs, decision logs, talks, demos, and videos. Portfolio
+writeups and DevRel content belong here too.
 
 Use this page for the writing workflow and career use. Use
 [Documentation]({{ '/wiki/documentation/' | relative_url }}) for docs as a
@@ -36,34 +36,35 @@ Use these sections to connect writing practice with episode evidence.
 
 ## Recurring Archive Themes
 
-**Writing clarifies thinking before it creates visibility.**
+Writing clarifies thinking before it creates visibility.
 
 Eugene Yan frames writing as a way to learn, share, and make work inspectable.
 The archive connects writing to career growth, but it doesn't reduce writing
 to personal branding. Good writing forces the author to choose an audience,
 state the problem, arrange ideas, and explain tradeoffs.
 
-**Audience and goal determine the structure.**
+Audience and goal determine the structure.
 
 Hugo Bowne-Anderson and Eugene both say technical content changes with the
-reader. A platform engineer, data scientist, hiring manager, and future
-teammate need different levels of setup, code, architecture, and motivation.
+reader. A platform engineer and data scientist need different levels of setup
+and code. A hiring manager or future teammate may need more architecture and
+motivation.
 The archive favors outline-first writing because structure exposes missing
 logic before the author spends too much time polishing.
 
-**Shipping cadence matters, but editing has a limit.**
+Shipping cadence matters, but editing has a limit.
 
-Eugene describes a weekly workflow with idea selection, outlines, drafting,
-editing, and distribution. The useful lesson isn't that every person must
-write weekly. It's that a repeatable cadence prevents endless polishing and
-turns writing into regular practice.
+Eugene describes a weekly writing habit with idea selection and outlines. The
+habit also includes drafting, editing, and distribution. The useful lesson
+isn't that every person must write weekly. A repeatable cadence prevents
+endless polishing and turns writing into regular practice.
 
-**Technical writing overlaps with DevRel and documentation.**
+Technical writing overlaps with DevRel and documentation.
 
 DevRel episodes treat writing as part of product adoption. Tutorials, docs,
 videos, and demos help users reach a first useful result. Workplace writing
-adds a second context: design docs, decision logs, and rationales help teams
-remember why a technical choice was made.
+adds a second context. Design docs, decision logs, and rationales help teams
+remember why they made a technical choice.
 
 ## Writing Practices
 
@@ -75,8 +76,9 @@ These writing practices recur across the archive.
 - Use concrete examples, code, diagrams, repo tours, or demos when they reduce
   ambiguity.
 - Stop editing when the article is clear enough to help the target reader.
-- Distribute where the audience already is. Use team docs, GitHub, Slack,
-  meetups, LinkedIn, Twitter, newsletters, or conferences.
+- Distribute where the audience already is. Team docs, GitHub, Slack, and
+  meetups already hold the audience. LinkedIn, Twitter, newsletters, and
+  conferences can also work.
 - Treat public writing, talks, and docs as portfolio evidence only when they
   show judgment, not just tool names.
 
@@ -85,16 +87,19 @@ These writing practices recur across the archive.
 These episodes give the strongest writing evidence.
 
 - [Technical Writing for Data Scientists](https://datatalks.club/podcast.html):
-  at 6:00, Eugene discusses early blog posts and meetups. At 9:30, he covers
-  writing motivations. At 14:00, he discusses audience targeting. At 16:30, he
-  treats writing as a product with reader experience. At 20:00, he outlines a
-  weekly workflow. At 25:00, he explains outline-first writing. At 51:00, he
-  covers workplace docs. At 56:30, he covers portfolio READMEs.
+  at 6:00, the episode discusses early blog posts and meetups. At 9:30, it
+  covers writing motivations, and at 14:00 it discusses audience targeting. At
+  16:30, it treats writing as a product with reader experience.
+
+  At 20:00, the episode outlines a weekly workflow, and at 25:00 it explains
+  outline-first writing. At 51:00, it covers workplace docs, and at 56:30 it
+  covers portfolio READMEs.
 - [DevRel Role for Machine Learning](https://datatalks.club/podcast.html):
-  at 31:41, Hugo lists writing as a core DevRel skill. At 37:21, he discusses
-  writing improvement through practice, collaboration, and editorial feedback.
-  At 43:14, he discusses audience, goals, and tutorial structure. At 48:43, he
-  compares blog posts, talks, videos, conferences, and return on effort.
+  at 31:41, writing appears as a core DevRel skill. At 37:21, the episode
+  discusses writing improvement through practice and editorial feedback. At
+  43:14, it discusses audience, goals, and tutorial structure. At 48:43, it
+  compares blog posts and talks. It also compares videos, conferences, and
+  return on effort.
 - [Developer Advocacy Through Community Impact](https://datatalks.club/podcast.html):
   at 49:14, Will connects developer advocacy to docs, demos, and outreach. At
   51:49, he describes a content workflow using bullet points, demos, and writer

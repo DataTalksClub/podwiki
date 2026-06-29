@@ -14,11 +14,10 @@ DevOps to data engineering is a transition from operating software platforms to
 building and operating data platforms. The archive frames this as an adjacent
 engineering move, not a restart. DevOps engineers already understand
 automation, infrastructure, CI/CD, and cloud services. They also understand
-observability and production ownership. Data engineering adds data modeling,
-SQL, batch and streaming pipelines, and warehouses. It also adds orchestration,
-governance, and data quality.
+observability and production ownership.
 
-This is an adjacent engineering move, but the data-specific gaps still matter.
+Data engineering adds data modeling, SQL, batch and streaming pipelines, and
+warehouses. It also adds orchestration, governance, and data quality.
 
 The transition works best when DevOps evidence becomes data evidence. A script
 becomes a pipeline. Infrastructure automation becomes reproducible data platform

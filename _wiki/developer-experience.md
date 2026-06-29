@@ -48,7 +48,7 @@ The archive treats developer experience as an adoption requirement:
   developer experience may be enough.
 - Documentation and examples are infrastructure for adoption. Hugo
   Bowne-Anderson describes DevRel as education, documentation, demos, and
-  discoverability. He also connects it to dogfooding and product feedback.
+  discoverability, and he connects it to dogfooding and product feedback.
 - Good DX removes irrelevant infrastructure work. The Metaflow discussion
   frames a good ML stack as one where scientists can focus on data, modeling,
   and productionization without configuring every YAML file or Kubernetes
@@ -60,24 +60,24 @@ These episodes connect DX to platform adoption and DevRel:
 
 - [MLOps at Scale](https://datatalks.club/podcast.html): At 27:56-37:32,
   Raphaël discusses iteration, feedback, developer experience, pain point
-  collection, quick wins, before-and-after evidence, and how heavy-handed
+  collection, quick wins, and before-and-after evidence. He also discusses how heavy-handed
   standards can lose buy-in. Reuse the [summary]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}).
 - [Building Production ML Platforms](https://datatalks.club/podcast.html):
   At 10:47-13:25, Simon centers platform design on the data science workflow.
   At 38:40-39:41, he argues for thin layers over existing cloud platforms when
-  the goal is improving developer experience. At 49:19-51:15, he warns against
+  teams want better developer experience. At 49:19-51:15, he warns against
   abstractions before teams know their users. Reuse the [summary]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
 - [DevRel Role for Machine Learning](https://datatalks.club/podcast.html):
   At 18:07-25:17, Hugo defines DevRel through education, documentation, a
-  wisdom layer, discoverable examples, collaboration with engineers, and
-  feedback. At 43:14, he explains that tutorials should start from audience and
-  goals. Reuse the [summary]({{ '/podcasts/devrel-open-source-machine-learning/' | relative_url }}).
+  wisdom layer, and discoverable examples. He also covers collaboration with
+  engineers and feedback. At 43:14, he explains that tutorials should start
+  from audience and goals. Reuse the [summary]({{ '/podcasts/devrel-open-source-machine-learning/' | relative_url }}).
 - [Post-ChatGPT AI Infrastructure](https://datatalks.club/podcast.html):
   Andrey connects AI infrastructure work to his JetBrains background, where
-  developer tools meant gathering feedback, passing it to engineering, and
-  improving the user experience of technical tools.
+  developer tools meant gathering feedback and passing it to engineering. Those
+  tools also improved the experience of technical users.
 - [Open Source ML Contributions](https://datatalks.club/podcast.html): Adds the
-  open-source side of DX: reproducible issues, docs fixes, tests, CI,
+  open-source side of DX. It covers reproducible issues, docs fixes, tests, CI,
   packaging, and contribution paths that lower the barrier to useful
   participation. Reuse the [summary]({{ '/podcasts/open-source-ml-contributions/' | relative_url }}).
 

@@ -39,10 +39,11 @@ The archive uses registries as lifecycle glue:
   Stiebellehner places model registries after experiment tracking and before
   serving decisions such as batch inference or online serving.
 - Registries usually come with tracking and metadata tooling. The platform
-  episode mentions MLflow, Weights & Biases, SageMaker, and cloud tools as
-  examples where tracking, registry, and metadata features may be bundled.
+  episode mentions MLflow, Weights & Biases, SageMaker, and cloud tools. These
+  tools may bundle tracking, registry, and metadata features.
 - A registry alone doesn't make a run reproducible. Teams also need the code
-  version, input data reference, job image, parameters, outputs, and lineage.
+  version, input data reference, job image, and parameters. Outputs and lineage
+  matter too.
 - Governance and retention matter. If teams store datasets or metadata with
   model runs, privacy and deletion rules can turn a simple registry into a
   compliance concern.
@@ -56,18 +57,19 @@ These episodes connect registries to handoff and reproducibility:
 - [Building Production ML Platforms](https://datatalks.club/podcast.html):
   At 30:32, Simon discusses persisting models for downstream consumption. At
   42:48-45:50, he connects the registry to metadata, lineage, code versions,
-  data references, and reproducibility. At 54:15-55:29, the discussion connects
-  model serving to unified prediction logs for monitoring and analytics. Reuse
-  the [summary]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
+  and data references. At 54:15-55:29, the discussion connects model serving to
+  unified prediction logs for monitoring and analytics. Reuse the
+  [summary]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
 - [MLOps at Scale](https://datatalks.club/podcast.html): At 51:21, Raphaël
-  includes registries in the core MLOps toolset with tracking, serving,
-  monitoring, compute, container registries, and package registries. At
-  53:08-56:50, he adds dependency packaging and containers as registry-adjacent
-  reproducibility concerns. Reuse the [summary]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}).
+  includes registries in the core MLOps toolset with tracking, serving, and
+  monitoring. He also names compute, container registries, and package
+  registries. At 53:08-56:50, he adds dependency packaging and containers as
+  registry-adjacent reproducibility concerns. Reuse the
+  [summary]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}).
 - [MLOps Roadmap](https://datatalks.club/podcast.html): The archive synthesis
   treats a registry as the stage where teams record owner, training data
-  reference, evaluation metric, approval status, deployment target, and rollback
-  notes. See [MLOps Roadmap]({{ '/wiki/mlops-roadmap/' | relative_url }}).
+  reference, evaluation metric, and approval status. Deployment targets and
+  rollback notes also belong there. See [MLOps Roadmap]({{ '/wiki/mlops-roadmap/' | relative_url }}).
 - [MLOps in Finance](https://datatalks.club/podcast.html): Add regulated ML
   evidence here when it discusses model validation, approval, audit trails,
   lineage, or controlled deployment.

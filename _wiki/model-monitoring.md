@@ -13,14 +13,14 @@ related:
 
 Model monitoring is the practice of watching a deployed model and its
 surrounding data system after release. In the archive, teams monitor input
-quality, feature distributions, prediction distributions, latency, errors, and
-drift. They also watch feedback, business outcomes, alerting, and root cause
+quality, feature distributions, prediction distributions, and latency. They
+also watch errors, drift, feedback, business outcomes, alerting, and root cause
 signals.
 
 Use this page when the evidence is model-specific. Use
 [Data Observability]({{ '/wiki/data-observability/' | relative_url }}) when
-the evidence focuses on data freshness, schema, volume, lineage, or pipeline
-incidents without a model-specific focus.
+the evidence focuses on freshness, schema, volume, or lineage. Pipeline
+incidents without a model-specific focus also belong there.
 
 ## Contents
 
@@ -41,12 +41,12 @@ The archive connects model monitoring to data and operations:
 - Monitoring becomes easier to sell after a team feels pain. Teams with models
   already in production understand drift, broken models, or model outages more
   quickly than teams still in development.
-- Data drift and concept drift are separate concerns. Thom Ives describes
-  ongoing human oversight because new data and new features can make the old
-  model less useful. Changed business workflows can do the same.
-- Prediction logging needs shared schemas. Simon Stiebellehner and Alexey
-  discuss unified request and response logging so teams can analyze model
-  behavior later.
+- Data drift and concept drift are separate concerns. Thom Ives describes why
+  teams need ongoing human oversight. New data, new features, and changed
+  business workflows can make the old model less useful.
+- Prediction logging needs shared schemas. The platform episode discusses
+  unified request and response logging so teams can analyze model behavior
+  later.
 - Monitoring is part of adoption. Raphaël Hoogvliets suggests starting with
   monitoring when teams don't know what production models are doing.
 
@@ -55,28 +55,28 @@ The archive connects model monitoring to data and operations:
 These episodes give the strongest monitoring evidence:
 
 - [MLOps Architect Guide](https://datatalks.club/podcast.html): At
-  25:04-31:50, Danny focuses on production-first monitoring, upstream ETL root
-  causes, customer pain, data profiling, anomaly detection, alerts, and the
-  shift from "why monitor" to "how to monitor". At 36:47-39:29, he discusses
-  platform-agnostic integrations and heterogeneous tooling.
+  25:04-31:50, the episode covers production-first monitoring, upstream ETL root
+  causes, customer pain, and data profiling. It also covers anomaly detection,
+  alerts, and the shift from "why monitor" to "how to monitor". At 36:47-39:29,
+  it discusses platform-agnostic integrations and heterogeneous tooling.
 - [Feature Engineering, Model Monitoring, and Data Governance](https://datatalks.club/podcast.html):
-  At 47:30-49:28, Thom discusses production monitoring, data drift, concept
-  drift, ongoing maintenance, and whether the model remains the best model for
-  production. Earlier sections tie this to ETL reliability, feature quality, and
-  governance.
+  At 47:30-49:28, the episode discusses production monitoring, data drift, and
+  concept drift. It also covers ongoing maintenance and whether the model
+  remains the best model for production. Earlier sections tie this to ETL
+  reliability, feature quality, and governance.
 - [Building Production ML Platforms](https://datatalks.club/podcast.html):
-  At 54:15-55:29, Simon and Alexey discuss API and logging design for storing
+  At 54:15-55:29, the episode discusses API and logging design for storing
   requests, predictions, and responses in a shared schema. Teams can then
   monitor and analyze model behavior. Reuse the [summary]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
 - [MLOps at Scale](https://datatalks.club/podcast.html): At 48:41, Raphaël
   says monitoring is the right starting point when teams have models in
-  production but don't know what they are doing. At 60:54-61:36, he defines
+  production but don't know what they're doing. At 60:54-61:36, he defines
   MLOps as keeping models running because data changes. Reuse the
   [summary]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}).
 - [Data Quality and Observability](https://datatalks.club/podcast.html): Data
   observability episodes supply upstream failure modes that matter for model
-  monitoring: freshness, schema, volume, distributions, lineage, alerting, and
-  recovery. See [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).
+  monitoring. They include freshness, schema, volume, distributions, lineage,
+  alerting, and recovery. See [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).
 
 ## Related Pages
 

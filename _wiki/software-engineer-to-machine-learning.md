@@ -35,10 +35,10 @@ gaps.
 
 ## Transition Profile
 
-This path fits backend, full-stack, and platform engineers. Infrastructure and
-application engineers fit too. It's strongest
-when the target role values shipped systems. APIs, services, and data pipelines
-are examples. Deployment, monitoring, and maintainable code matter too.
+This path fits backend, full-stack, and platform engineers, and infrastructure
+or application engineers fit too. It's strongest when the target role values
+shipped systems. APIs, services, and data pipelines are examples. Deployment,
+monitoring, and maintainable code matter too.
 
 Software engineers still need modeling practice. They can often wrap models in
 usable systems earlier than many beginners. Project constraints can then guide
@@ -105,9 +105,10 @@ These episodes anchor the engineering-to-ML route.
   At 3:28, Santiago Valdarrama frames the move as adding ML skills to a software
   engineering skillset. At 6:33, coding is described as a core ML skill. At
   17:25, the advice is to start projects instead of overpreparing. At 22:18,
-  building and sharing real projects becomes career evidence. At 46:39, ML
-  engineering expands into data pipelines and modeling. Deployment and
-  monitoring matter too.
+  building and sharing real projects becomes career evidence.
+
+  At 46:39, ML engineering expands into data pipelines and modeling. Deployment
+  and monitoring matter too.
 
   At 49:23, APIs, Docker, and cloud providers appear as MLOps fundamentals.
 - [Software Engineering for Machine Learning](https://datatalks.club/podcast.html):

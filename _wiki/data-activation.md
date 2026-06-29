@@ -116,4 +116,5 @@ Future maintainers should preserve these source paths:
   Use [Reverse ETL]({{ '/wiki/reverse-etl/' | relative_url }}) for the specific
   warehouse-to-tool sync path.
 - Add new examples only when the episode names the workflow or destination.
-  CRM and support fit. Email, ads, onboarding, and product analytics fit too.
+  Product analytics should appear here only when the episode treats it as an
+  activation destination.

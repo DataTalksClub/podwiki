@@ -18,7 +18,7 @@ Terraform, Docker, package registries, and notebooks with managed compute. They
 also discuss batch jobs, online serving, GPUs, distributed training, and cloud
 versus on-prem tradeoffs.
 
-Use this page for the infrastructure layer below [ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }}).
+Use this page for infrastructure that supports [ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }}).
 Use [AI Infrastructure]({{ '/wiki/ai-infrastructure/' | relative_url }}) for the
 broader AI and LLM infrastructure hub when that page is expanded.
 
@@ -62,22 +62,22 @@ These episodes give the strongest infrastructure evidence:
   bottlenecks. At 44:33-51:16, he discusses Kubernetes as a foundational
   deployment tool and its limits for AI workflows.
 - [Building Production ML Platforms](https://datatalks.club/podcast.html):
-  At 8:11-13:25, Simon names cloud infrastructure, Kubernetes, Terraform, AWS
-  services, notebooks, and data science workflow knowledge. At 28:20-34:01, he
-  covers managed compute, batch versus online serving, and orchestration. Reuse
-  the [summary]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
+  At 8:11-13:25, Simon names cloud infrastructure, Kubernetes, Terraform, and
+  AWS services. He also names notebooks and data science workflow knowledge. At
+  28:20-34:01, he covers managed compute, batch versus online serving, and
+  orchestration. Reuse the [summary]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
 - [MLOps at Scale](https://datatalks.club/podcast.html): At 53:08-56:50,
-  Raphaël discusses package registries, dependency compatibility, Docker,
-  Kubernetes, Databricks, and whether containerized components make teams more
-  autonomous or add complexity. Reuse the [summary]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}).
+  Raphaël discusses package registries, dependency compatibility, Docker, and
+  Kubernetes. He also covers Databricks and whether containerized components
+  make teams more autonomous or add complexity. Reuse the [summary]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}).
 - [DevRel Role for Machine Learning](https://datatalks.club/podcast.html):
   Hugo describes full-stack ML infrastructure as something scientists shouldn't
   have to configure from scratch. Metaflow integrates AWS, Kubernetes, Argo, and
   production workflows. Reuse the [summary]({{ '/podcasts/devrel-open-source-machine-learning/' | relative_url }}).
 - [From Notebooks to Production](https://datatalks.club/podcast.html): Adds
-  practical pipeline infrastructure: Dockerized training, model storage,
-  inference strategies, scheduling, and simple orchestration before heavier
-  systems.
+  practical pipeline infrastructure. The episode covers Dockerized training,
+  model storage, inference strategies, scheduling, and simple orchestration
+  before heavier systems.
 
 ## Related Pages
 
