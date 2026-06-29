@@ -2,12 +2,12 @@
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
     "wikis": 153,
-    "articles": 35,
+    "articles": 40,
     "podcasts": 12,
     "persons": 26,
-    "topics": 114,
-    "nodes": 340,
-    "links": 2126
+    "topics": 115,
+    "nodes": 346,
+    "links": 2202
   },
   "nodes": [
     {
@@ -29,6 +29,26 @@
       "count": 1,
       "search": "Apache Airflow: Workflow Orchestration for Data Pipelines A podcast backed guide to Apache Airflow as a workflow orchestrator: how its architecture fits data pipelines, how to design DAGs, and when a smaller scheduler or another orchestrator is enough.",
       "keyword": "apache airflow"
+    },
+    {
+      "id": "article:data-engineer-bootcamp",
+      "type": "article",
+      "label": "Data Engineer Bootcamp: How to Become Job-Ready for the Role",
+      "title": "Data Engineer Bootcamp: How to Become Job-Ready for the Role",
+      "url": "/articles/data-engineer-bootcamp/",
+      "count": 1,
+      "search": "Data Engineer Bootcamp: How to Become Job Ready for the Role A podcast backed guide to using a data engineer bootcamp to become job ready through SQL, Python, pipelines, portfolio proof, interview practice, and job search discipline.",
+      "keyword": "data engineer bootcamp"
+    },
+    {
+      "id": "article:data-engineer-consultant",
+      "type": "article",
+      "label": "Data Engineer Consultant: Services, Scope, Proof, and Hiring Fit",
+      "title": "Data Engineer Consultant: Services, Scope, Proof, and Hiring Fit",
+      "url": "/articles/data-engineer-consultant/",
+      "count": 1,
+      "search": "Data Engineer Consultant: Services, Scope, Proof, and Hiring Fit A podcast backed guide to what a data engineer consultant does, when to hire one, how consulting differs from freelance and full time data engineering, and how practitioners can prove they reduce client risk.",
+      "keyword": "data engineer consultant"
     },
     {
       "id": "article:data-engineer-course",
@@ -251,6 +271,16 @@
       "keyword": "machine learning bootcamp"
     },
     {
+      "id": "article:machine-learning-for-software-engineers",
+      "type": "article",
+      "label": "Machine Learning for Software Engineers: A Practical Transition Roadmap",
+      "title": "Machine Learning for Software Engineers: A Practical Transition Roadmap",
+      "url": "/articles/machine-learning-for-software-engineers/",
+      "count": 1,
+      "search": "Machine Learning for Software Engineers: A Practical Transition Roadmap A podcast backed roadmap for software engineers moving into machine learning: transferable skills, missing ML and data skills, project sequence, production awareness, and interview evidence.",
+      "keyword": "machine learning for software engineers"
+    },
+    {
       "id": "article:machine-learning-for-startups",
       "type": "article",
       "label": "Machine Learning for Startups: Build Useful AI Without Overbuilding",
@@ -281,6 +311,16 @@
       "keyword": "machine learning system design"
     },
     {
+      "id": "article:ml-system-design-interview",
+      "type": "article",
+      "label": "ML System Design Interview: Structure, Prompts, and Checklist",
+      "title": "ML System Design Interview: Structure, Prompts, and Checklist",
+      "url": "/articles/ml-system-design-interview/",
+      "count": 1,
+      "search": "ML System Design Interview: Structure, Prompts, and Checklist A concise podcast backed guide to ML system design interview prep: answer structure, common prompts, evaluation signals, monitoring, MLOps, and portfolio practice.",
+      "keyword": "ml system design interview"
+    },
+    {
       "id": "article:mlops-certification",
       "type": "article",
       "label": "MLOps Certification: When It Helps and What Matters More",
@@ -309,6 +349,16 @@
       "count": 1,
       "search": "MLOps Engineer: Responsibilities, Skills, Tools, and Career Roadmap A practical guide to the MLOps engineer role, including responsibilities, skills, role boundaries, tools, roadmap, portfolio signals, and podcast backed evidence.",
       "keyword": "mlops engineer"
+    },
+    {
+      "id": "article:mlops-frameworks",
+      "type": "article",
+      "label": "MLOps Frameworks: Categories, Tradeoffs, and When to Keep It Simple",
+      "title": "MLOps Frameworks: Categories, Tradeoffs, and When to Keep It Simple",
+      "url": "/articles/mlops-frameworks/",
+      "count": 1,
+      "search": "MLOps Frameworks: Categories, Tradeoffs, and When to Keep It Simple A practical guide to MLOps framework categories: tracking, registries, orchestration, serving, monitoring, feature platforms, CI/CD templates, governance, and lightweight alternatives.",
+      "keyword": "mlops frameworks"
     },
     {
       "id": "article:mlops-tools",
@@ -955,12 +1005,21 @@
       "search": "data engineering"
     },
     {
+      "id": "topic:data-engineering-certification",
+      "type": "topic",
+      "label": "Data Engineering Certification",
+      "title": "Data Engineering Certification",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "Data Engineering Certification"
+    },
+    {
       "id": "topic:data-engineering-tools",
       "type": "topic",
       "label": "Data Engineering Tools",
       "title": "Data Engineering Tools",
       "url": "/wiki/",
-      "count": 4,
+      "count": 5,
       "search": "Data Engineering Tools"
     },
     {
@@ -1410,7 +1469,7 @@
       "label": "MLOps Tools",
       "title": "MLOps Tools",
       "url": "/wiki/",
-      "count": 2,
+      "count": 3,
       "search": "MLOps Tools"
     },
     {
@@ -3258,6 +3317,186 @@
       "weight": 5
     },
     {
+      "source": "article:data-engineer-bootcamp",
+      "target": "article:data-engineer-course",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineer-bootcamp",
+      "target": "article:data-engineer-courses",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineer-bootcamp",
+      "target": "article:data-engineering-bootcamp",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineer-bootcamp",
+      "target": "article:data-engineering-certification",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineer-bootcamp",
+      "target": "article:data-engineering-tools",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineer-bootcamp",
+      "target": "topic:data-engineering-certification",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineer-bootcamp",
+      "target": "topic:data-engineering-tools",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineer-bootcamp",
+      "target": "wiki:data-engineer-role",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineer-bootcamp",
+      "target": "wiki:data-engineer-role",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineer-bootcamp",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineer-bootcamp",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineer-bootcamp",
+      "target": "wiki:data-engineering-roadmap",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineer-bootcamp",
+      "target": "wiki:data-engineering-roadmap",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineer-bootcamp",
+      "target": "wiki:job-search",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineer-bootcamp",
+      "target": "wiki:job-search",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineer-consultant",
+      "target": "article:data-engineering-freelance",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineer-consultant",
+      "target": "article:freelance-data-engineer",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineer-consultant",
+      "target": "wiki:career-transitions-in-data",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineer-consultant",
+      "target": "wiki:career-transitions-in-data",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineer-consultant",
+      "target": "wiki:data-engineer-role",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineer-consultant",
+      "target": "wiki:data-engineer-role",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineer-consultant",
+      "target": "wiki:data-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineer-consultant",
+      "target": "wiki:data-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineer-consultant",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineer-consultant",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineer-consultant",
+      "target": "wiki:freelance",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineer-consultant",
+      "target": "wiki:job-search",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineer-consultant",
+      "target": "wiki:job-search",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineer-consultant",
+      "target": "wiki:open-source-portfolio-evidence",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineer-consultant",
+      "target": "wiki:open-source-portfolio-evidence",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
       "source": "article:data-engineer-course",
       "target": "article:data-engineering-bootcamp",
       "kind": "article-link",
@@ -4896,6 +5135,102 @@
       "weight": 2
     },
     {
+      "source": "article:machine-learning-for-software-engineers",
+      "target": "article:machine-learning-system-design-interview",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:machine-learning-for-software-engineers",
+      "target": "wiki:career-transition",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:machine-learning-for-software-engineers",
+      "target": "wiki:career-transition",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:machine-learning-for-software-engineers",
+      "target": "wiki:job-search",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:machine-learning-for-software-engineers",
+      "target": "wiki:job-search",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:machine-learning-for-software-engineers",
+      "target": "wiki:machine-learning-engineer-role",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:machine-learning-for-software-engineers",
+      "target": "wiki:machine-learning-engineer-role",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:machine-learning-for-software-engineers",
+      "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:machine-learning-for-software-engineers",
+      "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:machine-learning-for-software-engineers",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:machine-learning-for-software-engineers",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:machine-learning-for-software-engineers",
+      "target": "wiki:mlops",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:machine-learning-for-software-engineers",
+      "target": "wiki:mlops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:machine-learning-for-software-engineers",
+      "target": "wiki:mlops-roadmap",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:machine-learning-for-software-engineers",
+      "target": "wiki:software-engineer-to-machine-learning",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:machine-learning-for-software-engineers",
+      "target": "wiki:software-engineer-to-machine-learning",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
       "source": "article:machine-learning-for-startups",
       "target": "wiki:machine-learning",
       "kind": "article-wiki",
@@ -4999,6 +5334,84 @@
     },
     {
       "source": "article:machine-learning-system-design-interview",
+      "target": "wiki:model-monitoring",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:ml-system-design-interview",
+      "target": "article:machine-learning-system-design-interview",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:ml-system-design-interview",
+      "target": "wiki:data-scientist-interview-roadmap",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:ml-system-design-interview",
+      "target": "wiki:machine-learning-engineer-role",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:ml-system-design-interview",
+      "target": "wiki:machine-learning-engineer-role",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:ml-system-design-interview",
+      "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:ml-system-design-interview",
+      "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:ml-system-design-interview",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:ml-system-design-interview",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:ml-system-design-interview",
+      "target": "wiki:mlops",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:ml-system-design-interview",
+      "target": "wiki:mlops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:ml-system-design-interview",
+      "target": "wiki:mlops-and-dataops",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:ml-system-design-interview",
+      "target": "wiki:model-monitoring",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:ml-system-design-interview",
       "target": "wiki:model-monitoring",
       "kind": "article-wiki",
       "weight": 5
@@ -5456,6 +5869,108 @@
     {
       "source": "article:mlops-engineer",
       "target": "wiki:platform-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:mlops-frameworks",
+      "target": "article:mlops",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:mlops-frameworks",
+      "target": "article:mlops-course",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:mlops-frameworks",
+      "target": "article:mlops-tools",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:mlops-frameworks",
+      "target": "podcast:building-production-ml-platform-and-mlops-team",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-frameworks",
+      "target": "podcast:mlops-at-scale-reproducibility-adoption",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-frameworks",
+      "target": "topic:mlops-tools",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:mlops-frameworks",
+      "target": "wiki:experiment-tracking",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:mlops-frameworks",
+      "target": "wiki:experiment-tracking",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:mlops-frameworks",
+      "target": "wiki:ml-platforms",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-frameworks",
+      "target": "wiki:ml-platforms",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:mlops-frameworks",
+      "target": "wiki:mlops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:mlops-frameworks",
+      "target": "wiki:mlops-roadmap",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:mlops-frameworks",
+      "target": "wiki:mlops-roadmap",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:mlops-frameworks",
+      "target": "wiki:model-monitoring",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:mlops-frameworks",
+      "target": "wiki:model-monitoring",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:mlops-frameworks",
+      "target": "wiki:model-registry",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:mlops-frameworks",
+      "target": "wiki:model-registry",
       "kind": "article-wiki",
       "weight": 5
     },
