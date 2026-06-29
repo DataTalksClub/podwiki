@@ -7,7 +7,7 @@
     "persons": 438,
     "topics": 145,
     "nodes": 1019,
-    "links": 6554
+    "links": 6675
   },
   "nodes": [
     {
@@ -27,7 +27,7 @@
       "title": "Airflow Docker Compose: Local Development, Learning, and Production Caveats",
       "url": "/articles/airflow-docker-compose/",
       "count": 1,
-      "search": "Airflow Docker Compose: Local Development, Learning, and Production Caveats A podcast backed guide to using Docker Compose for Airflow learning, local DAG development, persistence, executors, project structure, parity, and production caveats.",
+      "search": "Airflow Docker Compose: Local Development, Learning, and Production Caveats A podcast backed guide to using Docker Compose for Airflow learning, local DAG development, persistence, executors, and production caveats.",
       "keyword": "airflow docker compose"
     },
     {
@@ -7841,7 +7841,7 @@
       "title": "AI Red Teaming",
       "url": "/wiki/ai-red-teaming/",
       "count": 1,
-      "search": "AI Red Teaming How the podcast archive frames AI red teaming as adversarial testing for prompt injection, data exfiltration, unsafe outputs, and operational trust."
+      "search": "AI Red Teaming How DataTalks.Club podcast guests frame AI red teaming as adversarial testing for prompt injection, data exfiltration, unsafe outputs, and agent abuse."
     },
     {
       "id": "wiki:ai-tooling",
@@ -8399,7 +8399,7 @@
       "title": "Documentation",
       "url": "/wiki/documentation/",
       "count": 1,
-      "search": "Documentation How the podcast archive treats documentation as adoption infrastructure, team memory, portfolio evidence, and a core practice in open source and data work."
+      "search": "Documentation Podcast grounded reference on documentation as adoption infrastructure, team memory, operational practice, onboarding support, portfolio evidence, and open source maintenance."
     },
     {
       "id": "wiki:duckdb",
@@ -9200,7 +9200,7 @@
       "title": "Technical Writing",
       "url": "/wiki/technical-writing/",
       "count": 1,
-      "search": "Technical Writing Podcast backed guidance on technical writing as a data career skill: audience, cadence, outlines, editing, distribution, workplace docs, and DevRel content."
+      "search": "Technical Writing How DataTalks.Club guests describe technical writing as explanation, documentation, public learning, portfolio proof, and developer education for data and ML work."
     },
     {
       "id": "wiki:testing",
@@ -9245,7 +9245,7 @@
       "title": "Vector Databases",
       "url": "/wiki/vector-databases/",
       "count": 1,
-      "search": "Vector Databases How the podcast archive discusses vector databases as retrieval infrastructure for semantic search, RAG, recommendations, and multimodal matching."
+      "search": "Vector Databases How DataTalks.Club podcast guests discuss vector databases as retrieval infrastructure for semantic search, RAG, recommendations, and multimodal matching."
     }
   ],
   "links": [
@@ -9427,11 +9427,95 @@
       "source": "article:airflow-docker-compose",
       "target": "article:airflow",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:airflow-docker-compose",
       "target": "article:apache-airflow",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:airflow-docker-compose",
+      "target": "article:data-engineering-tools",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:airflow-docker-compose",
+      "target": "article:fundamentals-of-data-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:airflow-docker-compose",
+      "target": "person:adrianbrudaru",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:airflow-docker-compose",
+      "target": "person:andreaskretz",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:airflow-docker-compose",
+      "target": "person:christopherbergh",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:airflow-docker-compose",
+      "target": "person:jeffkatz",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:airflow-docker-compose",
+      "target": "person:mehdiouazza",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:airflow-docker-compose",
+      "target": "person:nataliekwong",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:airflow-docker-compose",
+      "target": "podcast:data-engineering-career-path-and-skills",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:airflow-docker-compose",
+      "target": "podcast:data-engineering-tools-modern-data-stack",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:airflow-docker-compose",
+      "target": "podcast:dataops-for-data-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:airflow-docker-compose",
+      "target": "podcast:production-ml-pipelines-with-aws-and-kafka",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:airflow-docker-compose",
+      "target": "podcast:scaling-data-engineering-teams-self-service-platforms",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:airflow-docker-compose",
+      "target": "podcast:trends-in-modern-data-engineering",
       "kind": "article-link",
       "weight": 2
     },
@@ -9467,6 +9551,24 @@
     },
     {
       "source": "article:airflow-docker-compose",
+      "target": "wiki:data-engineering-roadmap",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:airflow-docker-compose",
+      "target": "wiki:data-observability",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:airflow-docker-compose",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:airflow-docker-compose",
       "target": "wiki:data-quality-and-observability",
       "kind": "article-wiki",
       "weight": 5
@@ -9485,7 +9587,13 @@
     },
     {
       "source": "article:airflow-docker-compose",
-      "target": "wiki:mlops-and-dataops",
+      "target": "wiki:etl-vs-elt",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:airflow-docker-compose",
+      "target": "wiki:modern-data-stack",
       "kind": "article-link",
       "weight": 2
     },
@@ -11399,6 +11507,18 @@
     },
     {
       "source": "article:data-engineering-bootcamp",
+      "target": "article:apache-airflow",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-bootcamp",
+      "target": "article:best-data-engineering-course",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-bootcamp",
       "target": "article:data-engineering",
       "kind": "article-link",
       "weight": 2
@@ -11411,7 +11531,67 @@
     },
     {
       "source": "article:data-engineering-bootcamp",
-      "target": "article:data-scientist-interview",
+      "target": "article:free-data-engineering-course",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-bootcamp",
+      "target": "person:adrianbrudaru",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-bootcamp",
+      "target": "person:gloriaquiceno",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-bootcamp",
+      "target": "person:jeffkatz",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-bootcamp",
+      "target": "person:nataliekwong",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-bootcamp",
+      "target": "podcast:data-engineering-career-path-and-skills",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering-bootcamp",
+      "target": "podcast:data-engineering-tools-modern-data-stack",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-bootcamp",
+      "target": "podcast:get-data-analytics-and-data-engineering-job",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering-bootcamp",
+      "target": "podcast:get-data-engineering-job-prep-and-interview",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering-bootcamp",
+      "target": "podcast:trends-in-modern-data-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-bootcamp",
+      "target": "wiki:cv-screening",
       "kind": "article-link",
       "weight": 2
     },
@@ -11419,7 +11599,7 @@
       "source": "article:data-engineering-bootcamp",
       "target": "wiki:data-engineer-role",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:data-engineering-bootcamp",
@@ -11443,7 +11623,7 @@
       "source": "article:data-engineering-bootcamp",
       "target": "wiki:data-engineering-portfolio-projects",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:data-engineering-bootcamp",
@@ -11455,13 +11635,37 @@
       "source": "article:data-engineering-bootcamp",
       "target": "wiki:data-engineering-roadmap",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:data-engineering-bootcamp",
       "target": "wiki:data-engineering-roadmap",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "article:data-engineering-bootcamp",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-bootcamp",
+      "target": "wiki:dataops",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-bootcamp",
+      "target": "wiki:documentation",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-bootcamp",
+      "target": "wiki:job-descriptions",
+      "kind": "article-link",
+      "weight": 2
     },
     {
       "source": "article:data-engineering-bootcamp",
@@ -11479,7 +11683,7 @@
       "source": "article:data-engineering-bootcamp",
       "target": "wiki:modern-data-stack",
       "kind": "article-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "article:data-engineering-bootcamp",
@@ -33407,7 +33611,61 @@
     },
     {
       "source": "wiki:ai-red-teaming",
-      "target": "wiki:ai",
+      "target": "person:adityagautam",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-red-teaming",
+      "target": "person:mariasukhareva",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-red-teaming",
+      "target": "person:supreetkaur",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-red-teaming",
+      "target": "podcast:generative-ai-chatbots-in-production-security",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:ai-red-teaming",
+      "target": "podcast:responsible-explainable-ai-bias-detection",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai-red-teaming",
+      "target": "podcast:s23e03-future-of-ai-agents",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:ai-red-teaming",
+      "target": "wiki:agent-engineering",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai-red-teaming",
+      "target": "wiki:data-governance",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-red-teaming",
+      "target": "wiki:embeddings",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-red-teaming",
+      "target": "wiki:evaluation",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -33415,7 +33673,7 @@
       "source": "wiki:ai-red-teaming",
       "target": "wiki:generative-ai",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:ai-red-teaming",
@@ -33425,33 +33683,57 @@
     },
     {
       "source": "wiki:ai-red-teaming",
-      "target": "wiki:llm-production-patterns",
+      "target": "wiki:governance",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:ai-red-teaming",
-      "target": "wiki:llm-production-patterns",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai-red-teaming",
+      "target": "wiki:llm-evaluation-workflows",
       "kind": "wiki-related",
       "weight": 3
     },
     {
       "source": "wiki:ai-red-teaming",
-      "target": "wiki:responsible-ai-and-governance",
+      "target": "wiki:llms",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai-red-teaming",
+      "target": "wiki:rag",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:ai-red-teaming",
       "target": "wiki:responsible-ai-and-governance",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai-red-teaming",
+      "target": "wiki:responsible-ai-and-governance",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:ai-red-teaming",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:ai-red-teaming",
       "target": "wiki:security",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "wiki:ai-red-teaming",
@@ -40013,51 +40295,183 @@
     },
     {
       "source": "wiki:documentation",
+      "target": "person:christopherbergh",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:documentation",
+      "target": "person:eugeneyan",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:documentation",
+      "target": "person:hugobowneanderson",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:documentation",
+      "target": "person:nadianahar",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:documentation",
+      "target": "person:vincentwarmerdam",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:documentation",
+      "target": "person:willrussell",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:documentation",
+      "target": "podcast:dataops-automation-and-reliable-data-pipelines",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:documentation",
+      "target": "podcast:devrel-open-source-machine-learning",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:documentation",
+      "target": "podcast:open-source-ml-contributions",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:documentation",
+      "target": "podcast:practical-devrel-demofirst-education-and-open-source",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:documentation",
+      "target": "podcast:software-engineering-for-machine-learning",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:documentation",
+      "target": "podcast:technical-writing-for-data-scientists",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:documentation",
       "target": "wiki:analytics-engineering",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:documentation",
-      "target": "wiki:contributing",
+      "target": "wiki:community-building",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:documentation",
       "target": "wiki:contributing",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:documentation",
+      "target": "wiki:contributing",
       "kind": "wiki-related",
       "weight": 3
     },
     {
       "source": "wiki:documentation",
-      "target": "wiki:developer-relations",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:documentation",
+      "target": "wiki:data-observability",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:documentation",
+      "target": "wiki:dataops",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:documentation",
+      "target": "wiki:developer-experience",
       "kind": "wiki-link",
       "weight": 4
     },
     {
       "source": "wiki:documentation",
       "target": "wiki:developer-relations",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:documentation",
+      "target": "wiki:developer-relations",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:documentation",
+      "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:documentation",
       "target": "wiki:machine-learning-system-design",
       "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:documentation",
+      "target": "wiki:ml-system-design-documents",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:documentation",
+      "target": "wiki:mlops",
+      "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:documentation",
-      "target": "wiki:open-source-and-developer-relations",
+      "target": "wiki:open-source",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:documentation",
       "target": "wiki:open-source-and-developer-relations",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:documentation",
+      "target": "wiki:open-source-and-developer-relations",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:documentation",
+      "target": "wiki:open-source-portfolio-evidence",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:documentation",
@@ -40070,12 +40484,18 @@
       "target": "wiki:practices",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:documentation",
+      "target": "wiki:software-engineering",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:documentation",
       "target": "wiki:technical-writing",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "wiki:documentation",
@@ -45641,15 +46061,51 @@
     },
     {
       "source": "wiki:power-analysis",
-      "target": "wiki:a-a-testing",
+      "target": "person:aleksandermolak",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:power-analysis",
-      "target": "wiki:a-b-testing",
+      "target": "person:jakobgraff",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:power-analysis",
+      "target": "person:rishabhbhargava",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:power-analysis",
+      "target": "podcast:ab-testing-and-product-experimentation",
+      "kind": "wiki-link",
+      "weight": 28
+    },
+    {
+      "source": "wiki:power-analysis",
+      "target": "podcast:causal-inference-for-machine-learning",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:power-analysis",
+      "target": "podcast:production-ml-mlops-and-data-team-building",
       "kind": "wiki-link",
       "weight": 4
+    },
+    {
+      "source": "wiki:power-analysis",
+      "target": "wiki:a-a-testing",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:power-analysis",
+      "target": "wiki:a-b-testing",
+      "kind": "wiki-link",
+      "weight": 6
     },
     {
       "source": "wiki:power-analysis",
@@ -45659,9 +46115,15 @@
     },
     {
       "source": "wiki:power-analysis",
+      "target": "wiki:causal-inference",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:power-analysis",
       "target": "wiki:evaluation",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:power-analysis",
@@ -45673,31 +46135,37 @@
       "source": "wiki:power-analysis",
       "target": "wiki:experimentation",
       "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:power-analysis",
-      "target": "wiki:experimentation-and-causal-inference",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:power-analysis",
-      "target": "wiki:experimentation-and-causal-inference",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:power-analysis",
-      "target": "wiki:metrics",
-      "kind": "wiki-link",
       "weight": 4
     },
     {
       "source": "wiki:power-analysis",
+      "target": "wiki:experimentation-and-causal-inference",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:power-analysis",
+      "target": "wiki:experimentation-and-causal-inference",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:power-analysis",
+      "target": "wiki:metrics",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:power-analysis",
       "target": "wiki:metrics",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:power-analysis",
+      "target": "wiki:product-analytics",
+      "kind": "wiki-link",
+      "weight": 6
     },
     {
       "source": "wiki:practices",
@@ -47459,20 +47927,80 @@
     },
     {
       "source": "wiki:search",
-      "target": "wiki:embeddings",
+      "target": "person:atitaarora",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:search",
+      "target": "person:danielsvonava",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:search",
+      "target": "podcast:building-production-search-systems",
+      "kind": "wiki-link",
+      "weight": 14
+    },
+    {
+      "source": "wiki:search",
+      "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
+      "kind": "wiki-link",
+      "weight": 14
+    },
+    {
+      "source": "wiki:search",
+      "target": "wiki:embeddings",
+      "kind": "wiki-link",
+      "weight": 6
     },
     {
       "source": "wiki:search",
       "target": "wiki:embeddings",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:search",
+      "target": "wiki:information-retrieval",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:search",
+      "target": "wiki:knowledge-graph-vs-vector-search",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:search",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:search",
+      "target": "wiki:llm-production-patterns",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:search",
       "target": "wiki:machine-learning-system-design",
       "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:search",
+      "target": "wiki:metrics",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:search",
+      "target": "wiki:mlops",
+      "kind": "wiki-link",
       "weight": 2
     },
     {
@@ -47489,9 +48017,15 @@
     },
     {
       "source": "wiki:search",
+      "target": "wiki:production-search-evaluation",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:search",
       "target": "wiki:retrieval-augmented-generation",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:search",
@@ -47513,9 +48047,15 @@
     },
     {
       "source": "wiki:search",
-      "target": "wiki:vector-databases",
+      "target": "wiki:vector-database-vs-search-engine",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:search",
+      "target": "wiki:vector-databases",
+      "kind": "wiki-link",
+      "weight": 6
     },
     {
       "source": "wiki:search",
@@ -48203,33 +48743,111 @@
     },
     {
       "source": "wiki:technical-writing",
-      "target": "wiki:career-growth",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:technical-writing",
-      "target": "wiki:career-growth",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:technical-writing",
-      "target": "wiki:communication",
+      "target": "person:angelicaloduca",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:technical-writing",
+      "target": "person:eugeneyan",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:technical-writing",
+      "target": "person:hugobowneanderson",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:technical-writing",
+      "target": "person:vincentwarmerdam",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:technical-writing",
+      "target": "person:willrussell",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:technical-writing",
+      "target": "podcast:data-journalism-python-visualization-storytelling",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:technical-writing",
+      "target": "podcast:devrel-open-source-machine-learning",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:technical-writing",
+      "target": "podcast:open-source-ml-contributions",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:technical-writing",
+      "target": "podcast:open-source-ml-tools-strategy-and-business-models",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:technical-writing",
+      "target": "podcast:practical-devrel-demofirst-education-and-open-source",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:technical-writing",
+      "target": "podcast:technical-writing-for-data-scientists",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:technical-writing",
+      "target": "wiki:career-growth",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:technical-writing",
+      "target": "wiki:career-growth",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:technical-writing",
+      "target": "wiki:communication",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:technical-writing",
       "target": "wiki:communication",
       "kind": "wiki-related",
       "weight": 3
     },
     {
       "source": "wiki:technical-writing",
-      "target": "wiki:developer-relations",
+      "target": "wiki:data-science",
       "kind": "wiki-link",
       "weight": 4
+    },
+    {
+      "source": "wiki:technical-writing",
+      "target": "wiki:data-science",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:technical-writing",
+      "target": "wiki:developer-relations",
+      "kind": "wiki-link",
+      "weight": 6
     },
     {
       "source": "wiki:technical-writing",
@@ -48239,21 +48857,27 @@
     },
     {
       "source": "wiki:technical-writing",
-      "target": "wiki:documentation",
+      "target": "wiki:machine-learning",
       "kind": "wiki-link",
       "weight": 4
     },
     {
       "source": "wiki:technical-writing",
-      "target": "wiki:documentation",
+      "target": "wiki:machine-learning",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:technical-writing",
+      "target": "wiki:open-source",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:technical-writing",
       "target": "wiki:open-source-and-developer-relations",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:technical-writing",
@@ -48265,7 +48889,19 @@
       "source": "wiki:technical-writing",
       "target": "wiki:open-source-portfolio-evidence",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
+    },
+    {
+      "source": "wiki:technical-writing",
+      "target": "wiki:open-source-portfolio-evidence",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:technical-writing",
+      "target": "wiki:software-engineering",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:testing",
@@ -48515,63 +49151,153 @@
     },
     {
       "source": "wiki:vector-databases",
-      "target": "wiki:embeddings",
+      "target": "person:anahitapakiman",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:vector-databases",
-      "target": "wiki:embeddings",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:vector-databases",
-      "target": "wiki:llms",
+      "target": "person:atitaarora",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:vector-databases",
-      "target": "wiki:llms",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:vector-databases",
-      "target": "wiki:retrieval-augmented-generation",
+      "target": "person:danielsvonava",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:vector-databases",
-      "target": "wiki:retrieval-augmented-generation",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:vector-databases",
-      "target": "wiki:search",
+      "target": "person:meryemarik",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:vector-databases",
-      "target": "wiki:search",
-      "kind": "wiki-related",
-      "weight": 3
+      "target": "podcast:building-production-search-systems",
+      "kind": "wiki-link",
+      "weight": 12
     },
     {
       "source": "wiki:vector-databases",
-      "target": "wiki:search-rag-and-knowledge-systems",
+      "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
       "kind": "wiki-link",
       "weight": 4
     },
     {
       "source": "wiki:vector-databases",
+      "target": "podcast:knowledge-graphs-and-llms-for-automotive-rnd",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:vector-databases",
+      "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
+      "kind": "wiki-link",
+      "weight": 12
+    },
+    {
+      "source": "wiki:vector-databases",
+      "target": "wiki:embeddings",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:vector-databases",
+      "target": "wiki:embeddings",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:vector-databases",
+      "target": "wiki:graph-rag-vs-vector-rag",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:vector-databases",
+      "target": "wiki:information-retrieval",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:vector-databases",
+      "target": "wiki:knowledge-graph-vs-vector-search",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:vector-databases",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:vector-databases",
+      "target": "wiki:llms",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:vector-databases",
+      "target": "wiki:llms",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:vector-databases",
+      "target": "wiki:machine-learning",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:vector-databases",
+      "target": "wiki:production-search-evaluation",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:vector-databases",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:vector-databases",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:vector-databases",
+      "target": "wiki:search",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:vector-databases",
+      "target": "wiki:search",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:vector-databases",
+      "target": "wiki:search-rag-and-knowledge-systems",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:vector-databases",
       "target": "wiki:search-rag-and-knowledge-systems",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:vector-databases",
+      "target": "wiki:vector-database-vs-search-engine",
+      "kind": "wiki-link",
+      "weight": 4
     }
   ]
 }

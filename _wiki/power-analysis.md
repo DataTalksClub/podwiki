@@ -9,69 +9,197 @@ related:
   - Evaluation
 ---
 
-## Definition and Scope
+Power analysis estimates how many observations an experiment needs before a team
+can detect a meaningful effect with acceptable error risk. In the
+DataTalks.Club archive, it sits between
+[A/B testing]({{ '/wiki/a-b-testing/' | relative_url }}),
+[metrics]({{ '/wiki/metrics/' | relative_url }}), and
+[product analytics]({{ '/wiki/product-analytics/' | relative_url }}). It turns
+a product question into a sample-size and duration estimate before the team
+looks at results.
 
-Power analysis estimates how many observations an experiment needs to detect a
-meaningful effect with acceptable error risk. In the podcast archive, it's a
-practical planning tool for A/B tests. Teams combine expected effect size,
-baseline metric behavior, variance, and traffic to estimate how long the test
-should run.
+[Jakob Graff]({{ '/people/jakobgraff/' | relative_url }}) gives the archive's
+clearest definition in
+[Product Analytics and A/B Testing at 37:44]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}).
+The team starts with the improvement it wants to detect, the metric's baseline
+behavior, and the statistical assumptions for the test. It then estimates the
+number of observations each group needs and compares that with daily triggering
+traffic. That calculation tells the team whether a test can run for days, weeks,
+or too long to be useful.
 
-Use this page for experiment planning, not statistical derivations. Use
-[Metrics]({{ '/wiki/metrics/' | relative_url }}) for metric design and
-[A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }}) for the broader
-randomized experiment workflow.
+Power analysis doesn't replace experiment design. The team still needs stable
+assignment, logged exposure, and one decision metric. Jakob covers that setup
+earlier in the same episode, especially the traffic splitter and
+[A/A testing]({{ '/wiki/a-a-testing/' | relative_url }}) checks around
+[24:44-30:05]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}).
 
+## Common Definition
 
-## Recurring Archive Themes
+A common archive definition treats power analysis as a planning step for
+randomized product experiments. The team chooses the smallest effect that would
+change the decision. It estimates the variance or baseline rate of the metric,
+chooses error levels, and calculates the required sample size. Then it turns
+that sample size into calendar time using real product traffic.
 
-Power analysis should happen before launch. Jakob Graff frames it as the answer
-to stakeholder pressure. When the team estimates duration upfront, the analyst
-can explain why reading results after one day is unsafe.
+Jakob describes the practical version in
+[the A/B testing episode at 37:44-40:23]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}).
+The inputs aren't abstract statistical decorations. They're product choices.
+The team decides which uplift would change the rollout decision. It also
+estimates metric noise and daily traffic on the experiment surface.
+
+That makes power analysis different from "wait until the dashboard looks
+convincing." It asks the team to decide what evidence would count before the
+test starts. It also gives analysts a concrete answer when stakeholders ask why
+the team can't read the result after one day.
+
+## Guest Differences
+
+Guests use different parts of the experimentation stack, so they focus on
+different risks.
+
+Jakob focuses on product experimentation. His concern is that teams launch
+tests without enough traffic, too many variants, or a metric that can't support
+a causal decision. In
+[Product Analytics and A/B Testing at 30:05-40:23]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}),
+he recommends simple first tests and one main metric. He also checks metric
+stability and plans duration before launch.
+
+[Aleksander Molak]({{ '/people/aleksandermolak/' | relative_url }}) focuses on
+causal structure. In
+[Causal Inference for Real-World ML at 26:16]({{ '/podcasts/causal-inference-for-machine-learning/' | relative_url }}),
+he treats randomized experiments as one route to unconfounded evidence. His
+discussion broadens the question: a well-powered test still answers only the
+intervention the team randomized and the outcome it chose.
+
+[Rishabh Bhargava]({{ '/people/rishabhbhargava/' | relative_url }}) connects
+experiments to live ML validation. In
+[From Analytics to Production ML at 28:42-32:47]({{ '/podcasts/production-ml-mlops-and-data-team-building/' | relative_url }}),
+he discusses A/B testing and shadow mode. He also discusses uplift,
+segmentation, and root-cause analysis after a model reaches production. His
+focus comes after the power calculation: teams still need to explain where the
+effect appeared and why.
+
+## Experimentation Design
+
+Power analysis depends on design choices made before launch. A team has to name
+whether it assigns users, sessions, accounts, or requests. It also has to name
+the triggering event, the treatment, the control, and the primary metric. If
+those choices are vague, the sample-size estimate can look precise while the
+experiment remains hard to interpret.
+
+Jakob's setup advice starts with the mechanics. In
+[Product Analytics and A/B Testing at 23:54-27:52]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}),
+he compares third-party and in-house experimentation platforms. The important
+capabilities are traffic splitting, stable assignment, exposure logging, and
+monitoring. At 27:52, he uses A/A tests to check whether identical groups
+produce suspicious differences before a team trusts an A/B result.
+
+Simple designs make power easier to reason about. Jakob recommends a first test
+with two groups and a clear metric in
+[the same episode at 30:05]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}).
+The team can learn whether its assignment, tracking, and metric definitions
+work before it adds variants or complex analysis.
+
+## A/B Testing
+
+In [A/B testing]({{ '/wiki/a-b-testing/' | relative_url }}), power analysis
+estimates how much traffic each group needs before the team can detect an effect
+it would act on. The answer depends on the metric, the minimum effect, and the
+acceptable risk of false positive and false negative decisions.
+
+Jakob ties the concept to stakeholder expectations at
+[37:44]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}).
+If the product surface gets enough traffic, the team may run the test for a few
+weeks. If the surface gets little traffic, the same effect size may require a
+duration the team can't afford. Low traffic doesn't make the product question
+unimportant, but it changes what evidence the team can get from an online test.
+
+Multi-arm tests raise the cost. In
+[the A/B/C/D discussion at 59:08]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}),
+Jakob explains that splitting traffic across more groups slows the path to the
+required sample size. Pairwise comparisons also increase the chance of false
+positives unless the team adjusts the analysis. This is why power analysis sits
+next to [experimentation]({{ '/wiki/experimentation/' | relative_url }}) and
+[causal inference]({{ '/wiki/causal-inference/' | relative_url }}), not only
+statistics.
+
+## Metrics
 
 Metric behavior drives sample size. A stable conversion metric may need less
-traffic than a noisy revenue metric with many zeros and a few extreme values.
-The statistician's work isn't only plugging numbers into a calculator. They also
-check whether the metric distribution makes the chosen test reasonable.
+traffic than a noisy revenue metric with many zeros and a few large values.
+Jakob starts the metric discussion with noisy and stable metrics in
+[Product Analytics and A/B Testing at 33:23]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}).
+He then connects weekly seasonality, retention, traffic, and business cycles to
+experiment duration.
 
-Traffic turns sample size into duration. Once the required observations are
-estimated, teams compare that number with daily triggering traffic on the
-product surface. Low-traffic surfaces or multi-arm designs can make otherwise
-simple experiments run for much longer.
+The choice of metric also changes the decision. Jakob's
+subscription-versus-points example in
+[the same episode at 14:27]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }})
+shows that short-term revenue, conversion, retention, and long-term value can
+support different rollout decisions. A power calculation is only useful when the
+primary metric matches the decision the team will make.
 
-Seasonality is separate from power but still affects duration. The archive
-recommends covering a full weekly cycle when behavior differs by weekday. Teams
-should also be aware of larger business cycles even when a year-long test is
-unrealistic.
+Metric distributions affect the test choice too. At
+[40:23-45:09]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}),
+Jakob moves from power analysis into statistical tests, and revenue per install
+can have fat tails. Teams may need to look at the distribution and choose a test
+that fits the metric. This connects power analysis with
+[evaluation]({{ '/wiki/evaluation/' | relative_url }}) and experiment
+[metrics]({{ '/wiki/metrics/' | relative_url }}).
 
-## Episode Evidence
+## Sample Size and Practical Significance
 
-These episodes give the strongest evidence:
+Power analysis starts with the smallest effect the team would act on. That
+effect has to be practical, not only statistical. A tiny uplift can become
+statistically significant with enough traffic. The team still has to decide
+whether the uplift pays for engineering work, product risk, operational cost,
+and measurement effort.
 
-- [Product Analytics and A/B Testing](https://datatalks.club/podcast.html),
-  33:23-37:44, explains noisy metrics, stable metrics, and weekly seasonality.
-  It also covers retention examples and business cycles that affect experiment
-  planning. Source:
-  `../datatalksclub.github.io/_podcast/ab-testing-and-product-experimentation.md`.
-- [Product Analytics and A/B Testing](https://datatalks.club/podcast.html),
-  37:44-40:23, defines power analysis as using expected improvement, metric
-  statistics, and test assumptions. Teams use those inputs to estimate required
-  observations and test duration.
-- [Product Analytics and A/B Testing](https://datatalks.club/podcast.html),
-  40:23-45:09, connects power and test choice to error types and confidence
-  levels. Jakob also discusses p-values, revenue distributions, fat tails, and
-  nonparametric tests.
-- [Product Analytics and A/B Testing](https://datatalks.club/podcast.html),
-  59:08-1:02:52, explains why A/B/C/D tests take longer because traffic is split
-  across more groups and multiple comparisons increase false-positive risk.
+Jakob's sample-size explanation at
+[37:44-40:23]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }})
+uses expected improvement and daily traffic to estimate duration. It also uses
+the metric mean and standard deviation. The team can then compare the calculated
+duration with the product calendar. If the test would need months for a small
+effect, the team may choose a larger detectable effect. It may also choose a
+less noisy metric, a broader surface, or a different learning method.
+
+Seasonality adds a separate constraint. Around
+[33:23-37:44]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}),
+Jakob explains that some product behavior differs by weekday or business cycle.
+Even when the power calculation gives enough observations quickly, the team may
+still need to cover a full week before it trusts the readout.
+
+## Product Analytics
+
+[Product analytics]({{ '/wiki/product-analytics/' | relative_url }}) supplies
+the events, cohorts, and metric definitions that power analysis uses. If the
+tracking plan is weak, the calculation can produce the wrong sample size or
+duration. If the experiment surface triggers inconsistently, the team may count
+the wrong population.
+
+Jakob links these concerns throughout
+[Product Analytics and A/B Testing]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}).
+At 24:44, he focuses on traffic splitters and assignment tracking. At 27:52, he
+uses A/A tests as a platform check. At 33:23, he moves into metric stability.
+At 37:44, he turns those pieces into power analysis and duration planning.
+
+The analytics work continues after the test ends. Rishabh's production ML
+discussion at
+[31:19]({{ '/podcasts/production-ml-mlops-and-data-team-building/' | relative_url }})
+shows why teams look at uplift by segment and search for root causes after a
+live experiment. Power analysis helps the team collect enough evidence, but the
+product analyst still has to explain the result in business and product terms.
 
 ## Related Pages
 
-Useful adjacent pages:
+These pages cover the experiment and analytics concepts that power analysis
+depends on.
 
 - [A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }})
 - [A/A Testing]({{ '/wiki/a-a-testing/' | relative_url }})
-- [Metrics]({{ '/wiki/metrics/' | relative_url }})
-- [Evaluation]({{ '/wiki/evaluation/' | relative_url }})
 - [Experimentation]({{ '/wiki/experimentation/' | relative_url }})
 - [Experimentation and Causal Inference]({{ '/wiki/experimentation-and-causal-inference/' | relative_url }})
+- [Causal Inference]({{ '/wiki/causal-inference/' | relative_url }})
+- [Metrics]({{ '/wiki/metrics/' | relative_url }})
+- [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }})
+- [Evaluation]({{ '/wiki/evaluation/' | relative_url }})
