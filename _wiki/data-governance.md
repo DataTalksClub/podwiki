@@ -22,15 +22,6 @@ to use safely, not just harder to access. The best evidence comes from the cloud
 data governance episode. The same ideas reappear in Data Mesh, DataOps, modern
 data engineering, and MLOps platform episodes.
 
-## Contents
-
-Use these sections:
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Episode Evidence](#episode-evidence)
-- [Tradeoffs](#tradeoffs)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -111,20 +102,3 @@ Useful adjacent pages:
 - [MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }})
 - [Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }})
 - [Security]({{ '/wiki/security/' | relative_url }})
-
-## Maintenance Notes
-
-Future maintainers should preserve these source paths:
-
-- Best source files:
-  `../datatalksclub.github.io/_podcast/cloud-data-governance.md`,
-  `../datatalksclub.github.io/_podcast/data-mesh-architecture-decentralized-data-products.md`,
-  `../datatalksclub.github.io/_podcast/data-engineering-tools-modern-data-stack.md`,
-  and `../datatalksclub.github.io/_podcast/dataops-automation-and-reliable-data-pipelines.md`.
-- Future updates should add concrete policy examples, not generic governance
-  claims. Good candidates include retention, access purpose, and data quality
-  thresholds. Catalog metadata, lineage, and stewardship workflows are useful
-  too.
-- Keep AI policy, fairness, and model risk details on
-  [Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }})
-  unless the evidence is specifically about data assets and access.

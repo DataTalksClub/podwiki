@@ -35,28 +35,6 @@ doesn't stop at a tool tour because learners need to build pipelines and
 explain tradeoffs before the evidence is useful. They also need feedback and
 reviewable evidence.
 
-## Search Intent
-
-People searching for `data engineering training` usually need help with these
-decisions:
-
-- which skills a data engineering training program should cover
-- how to train analysts, BI developers, or software engineers for data
-  engineering work
-- which labs and projects prove that learners can do the work
-- how to evaluate a vendor, cohort, internal academy, or self-paced program
-- how to avoid training that names Airflow, Spark, Kafka, and cloud tools
-  without building real skill
-
-A useful answer needs to cover both the learner and the team. The learner needs
-a sequence, practice, review, and portfolio evidence. The team needs shared
-standards, internal examples, and a way to tell whether the training changed
-day-to-day work.
-
-Use [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
-for the full learning sequence and
-[Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
-for the project standard behind this article.
 
 ## Training Program Outline
 

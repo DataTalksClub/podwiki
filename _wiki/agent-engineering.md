@@ -21,14 +21,6 @@ Use [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url
 for the larger production hub. This bridge keeps the agent-specific evidence
 together for linked topic slugs.
 
-## Contents
-
-Use these links to jump between the main agent engineering sections.
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -93,14 +85,3 @@ Use these pages for deeper treatment of nearby topics.
 - [LLMs]({{ '/wiki/llms/' | relative_url }})
 - [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
 - [MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }})
-
-## Maintenance Notes
-
-Future updates should tie every agent claim to a concrete mechanism.
-
-- Add podcast summaries for `building-agentic-ai-engineering-tooling-retrieval-evaluation.md`,
-  `s23e03-future-of-ai-agents.md`, and `from-game-ai-to-modern-ai-agents.md`.
-- Keep agent claims tied to tools, memory, retrieval, planning, evaluation,
-  guardrails, and product workflow.
-- When adding new agent episodes, record whether the system is single-agent,
-  manager-agent, multi-agent, tool-calling, coding-agent, or retrieval-heavy.

@@ -23,17 +23,6 @@ knowledge-system portfolios. For the archive's conceptual RAG synthesis, use
 [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
 and [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }}).
 
-## Contents
-
-Use these sections to connect RAG project design with archive evidence.
-
-- [Project Criteria](#project-criteria)
-- [Project Types](#project-types)
-- [Project Proof](#project-proof)
-- [Episode Evidence](#episode-evidence)
-- [Anti-Patterns](#anti-patterns)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Project Criteria
 
@@ -145,16 +134,3 @@ Use these pages for adjacent project and role context.
 - [Embeddings]({{ '/wiki/embeddings/' | relative_url }})
 - [Vector Databases]({{ '/wiki/vector-databases/' | relative_url }})
 - [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
-
-## Maintenance Notes
-
-- Highest-value source files:
-  `../datatalksclub.github.io/_podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.md`,
-  `../datatalksclub.github.io/_podcast/practical-llm-engineering-and-rag.md`,
-  `../datatalksclub.github.io/_podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.md`,
-  `../datatalksclub.github.io/_podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.md`,
-  and `../datatalksclub.github.io/_podcast/production-ml-search-vector-search-embeddings-hybrid-search.md`.
-- Future expansion should add a compact RAG project rubric with beginner,
-  interview-ready, and production-like levels.
-- Keep this page project-focused. Detailed conceptual synthesis belongs in the
-  RAG and search wiki pages.

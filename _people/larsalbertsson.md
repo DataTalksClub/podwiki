@@ -1,13 +1,13 @@
 ---
-layout: person
+layout: "person"
 title: "Lars Albertsson"
 source_person: "../datatalksclub.github.io/_people/larsalbertsson.md"
-person_id: larsalbertsson
+person_id: "larsalbertsson"
 summary: "Data engineering founder and speaker contributing DataOps patterns for scalable platforms, immutable pipelines, and self-service data work."
 expertise: ["DataOps", "data engineering", "MLOps", "data strategy", "production"]
 podcast_episodes: ["dataops-principles-and-scalable-data-platforms"]
+source_url: "https://datatalks.club/people/larsalbertsson.html"
 ---
-
 ## Background
 
 Lars Albertsson is the founder of Scling, a data engineering startup in Stockholm. His source bio notes data engineering, analytics, data science, conference speaking, and prior work at Google, Spotify, Schibsted, and as a consultant.

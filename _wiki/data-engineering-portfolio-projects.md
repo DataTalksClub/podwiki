@@ -23,17 +23,6 @@ role scope, use [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }
 For transformation-heavy analytical models, use
 [Analytics Engineering Portfolio Projects]({{ '/wiki/analytics-engineering-portfolio-projects/' | relative_url }}).
 
-## Contents
-
-Use these sections to move from criteria to evidence and upkeep.
-
-- [Project Criteria](#project-criteria)
-- [Project Types](#project-types)
-- [Project Proof](#project-proof)
-- [Episode Evidence](#episode-evidence)
-- [Anti-Patterns](#anti-patterns)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Project Criteria
 
@@ -154,16 +143,3 @@ Use these pages for adjacent project and role context.
 - [Analytics Engineering Portfolio Projects]({{ '/wiki/analytics-engineering-portfolio-projects/' | relative_url }})
 - [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
 - [Job Search]({{ '/wiki/job-search/' | relative_url }})
-
-## Maintenance Notes
-
-- Highest-value source files:
-  `../datatalksclub.github.io/_podcast/get-data-engineering-job-prep-and-interview.md`,
-  `../datatalksclub.github.io/_podcast/data-engineering-career-path-and-skills.md`,
-  `../datatalksclub.github.io/_podcast/data-engineering-tools-modern-data-stack.md`,
-  `../datatalksclub.github.io/_podcast/dataops-for-data-engineering.md`,
-  and `../datatalksclub.github.io/_podcast/scaling-data-engineering-teams-self-service-platforms.md`.
-- Future expansion should add a project-evaluation rubric with levels for
-  beginner, interview-ready, and production-like evidence.
-- Don't turn this page into a general course list. Keep it focused on projects
-  that prove data engineering skill through artifacts and tradeoffs.

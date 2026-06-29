@@ -24,17 +24,6 @@ list alone may not persuade a hiring team. A skills-first resume, reproducible
 project, clean code, and business-relevant story make the same background
 easier to evaluate.
 
-## Contents
-
-Use these sections to translate research experience into data science proof.
-
-- [Transition Profile](#transition-profile)
-- [Transferable Skills](#transferable-skills)
-- [Missing Skills](#missing-skills)
-- [Portfolio Evidence](#portfolio-evidence)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Transition Profile
 
@@ -148,17 +137,3 @@ Use these pages for academic context, target-role skills, and interviews.
 - [Machine Learning]({{ '/wiki/machine-learning/' | relative_url }})
 - [Data Scientist Interview Roadmap]({{ '/wiki/data-scientist-interview-roadmap/' | relative_url }})
 - [Job Search]({{ '/wiki/job-search/' | relative_url }})
-
-## Maintenance Notes
-
-Future edits should keep the page focused on role translation.
-
-- Primary source episodes:
-  `../datatalksclub.github.io/_podcast/postdoc-to-data-science-lead-career-transition.md`
-  and
-  `../datatalksclub.github.io/_podcast/from-radio-astronomy-to-machine-learning-and-data-engineering.md`.
-- Add evidence from `from-large-hadron-collider-to-data-science-research-software-engineering.md`,
-  `from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers.md`,
-  and applied research episodes when this page needs more examples.
-- Keep this page career-path focused. Put broader academic culture and open
-  science material in [Academia]({{ '/wiki/academia/' | relative_url }}).

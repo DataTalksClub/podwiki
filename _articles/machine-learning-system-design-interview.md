@@ -32,21 +32,6 @@ For the broader production checklist, use
 Here we focus on interview prep. You can use it to decide what to say, what
 interviewers evaluate, and how to practice with portfolio projects.
 
-## Search Intent
-
-People searching for `machine learning system design interview` usually need a
-practical interview plan. They may already know ML fundamentals, but they need
-to know how a 45-minute conversation should unfold.
-
-Use this guide when you need to prepare these interview moves:
-
-- Structure an ML system design interview answer.
-- Pick prompts to practice before ML engineer or senior data scientist
-  interviews.
-- Understand what interviewers evaluate beyond model accuracy.
-- Discuss metrics, labels, features, monitoring, and fallbacks without getting
-  lost.
-- Choose a portfolio project that proves you can design an ML system.
 
 ## A Strong Answer Structure
 

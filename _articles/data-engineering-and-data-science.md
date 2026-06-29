@@ -39,26 +39,6 @@ For deeper reference pages, start with
 [Data Science]({{ '/wiki/data-science/' | relative_url }}), and
 [Data Engineer vs Data Scientist]({{ '/wiki/data-engineer-vs-data-scientist/' | relative_url }}).
 
-## Search Intent
-
-People searching for `data engineering and data science` usually want a clear
-comparison, but the better answer is a working model.
-
-Use this page to clarify:
-
-1. The role differences.
-2. Collaboration on real data products.
-3. Shared responsibilities.
-4. Skill sequencing for learners.
-5. Team ownership without silos.
-
-Use this article when you need the practical relationship between the two
-fields. If you need a role-only comparison, use
-[Data Engineer vs Data Scientist]({{ '/wiki/data-engineer-vs-data-scientist/' | relative_url }}).
-If you're planning a learning path, use
-[Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
-and [Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }})
-as the next pages.
 
 ## The Simple Boundary
 

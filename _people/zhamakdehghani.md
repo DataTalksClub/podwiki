@@ -1,13 +1,13 @@
 ---
-layout: person
+layout: "person"
 title: "Zhamak Dehghani"
 source_person: "../datatalksclub.github.io/_people/zhamakdehghani.md"
-person_id: zhamakdehghani
+person_id: "zhamakdehghani"
 summary: "Founder of data mesh contributing decentralized data architecture, data products, contracts, and federated governance."
 expertise: ["data mesh", "data engineering", "data products", "data governance"]
 podcast_episodes: ["data-mesh-architecture-decentralized-data-products"]
+source_url: "https://datatalks.club/people/zhamakdehghani.html"
 ---
-
 ## Background
 
 Zhamak Dehghani is a director of technology at Thoughtworks focused on distributed systems and enterprise data architecture. Her source bio identifies her as the founder of data mesh.

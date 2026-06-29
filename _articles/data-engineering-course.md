@@ -29,21 +29,6 @@ For the full learning sequence, use
 [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
 and [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }}).
 
-## Search Intent
-
-The keyword `data engineering course` usually means the reader is comparing
-learning options before committing time or money.
-
-A useful page should help you:
-
-- identify the core data engineering skills a course must cover
-- compare broad course catalogs with focused project-based programs
-- avoid advanced tools until the project needs them
-- judge whether the course creates portfolio evidence
-- connect course work to data engineering interviews and entry-level work
-
-Don't ask which course has the longest syllabus. Ask whether you can build,
-explain, and improve a real data pipeline after the course.
 
 ## Course Evaluation Outline
 

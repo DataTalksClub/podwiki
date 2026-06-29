@@ -26,15 +26,6 @@ instrumentation. Use [A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }})
 and [Experimentation and Causal Inference]({{ '/wiki/experimentation-and-causal-inference/' | relative_url }})
 for experiment design and interpretation.
 
-## Contents
-
-Use these sections:
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Episode Evidence](#episode-evidence)
-- [Tradeoffs](#tradeoffs)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -105,18 +96,3 @@ Useful adjacent pages:
 - [Experimentation and Causal Inference]({{ '/wiki/experimentation-and-causal-inference/' | relative_url }})
 - [Data Activation]({{ '/wiki/data-activation/' | relative_url }})
 - [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
-
-## Maintenance Notes
-
-Future maintainers should preserve these source paths:
-
-- Best source files:
-  `../datatalksclub.github.io/_podcast/data-led-growth-event-tracking-and-reverse-etl.md`,
-  `../datatalksclub.github.io/_podcast/ab-testing-and-product-experimentation.md`,
-  and `../datatalksclub.github.io/_podcast/from-marketing-to-analytics-engineering-sql-dbt-career-switch.md`.
-- Keep this page about product usage data and product decisions. Use
-  [A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }}) for statistical test
-  mechanics.
-- Future expansion should add more product analytics examples when episodes
-  discuss funnels, cohorts, retention, or activation. Add onboarding,
-  monetization, and product-qualified leads when the archive supports them.

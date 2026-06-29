@@ -21,14 +21,6 @@ instrumentation and experimentation. If the system can't produce balanced groups
 and comparable metrics when nothing changed, teams shouldn't use it to judge
 real product changes.
 
-## Contents
-
-Use these sections:
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -75,14 +67,3 @@ Useful adjacent pages:
 - [Power Analysis]({{ '/wiki/power-analysis/' | relative_url }})
 - [Evaluation]({{ '/wiki/evaluation/' | relative_url }})
 - [Tracking Plans]({{ '/wiki/tracking-plans/' | relative_url }})
-
-## Maintenance Notes
-
-Future maintainers should preserve these source paths and boundaries:
-
-- Keep A/A testing framed as experiment-system validation, not a substitute for
-  A/B testing.
-- Best source file:
-  `../datatalksclub.github.io/_podcast/ab-testing-and-product-experimentation.md`.
-- Future expansion should add examples of assignment bugs from other episodes
-  only when transcripts mention concrete split, trigger, or tracking failures.

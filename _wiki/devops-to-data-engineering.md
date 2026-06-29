@@ -23,17 +23,6 @@ The transition works best when DevOps evidence becomes data evidence. A script
 becomes a pipeline. Infrastructure automation becomes reproducible data platform
 setup. Monitoring becomes data quality and cost-aware operations.
 
-## Contents
-
-Use these sections to translate platform experience into data engineering proof.
-
-- [Transition Profile](#transition-profile)
-- [Transferable Skills](#transferable-skills)
-- [Missing Skills](#missing-skills)
-- [Portfolio Evidence](#portfolio-evidence)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Transition Profile
 
@@ -147,17 +136,3 @@ Use these pages for data platform skills and adjacent operations topics.
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})
 - [MLOps vs DevOps]({{ '/wiki/mlops-vs-devops/' | relative_url }})
 - [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
-
-## Maintenance Notes
-
-Future edits should keep this page focused on the transition path.
-
-- Primary source episodes:
-  `../datatalksclub.github.io/_podcast/from-devops-to-data-engineering-automation-open-source-volunteering.md`
-  and
-  `../datatalksclub.github.io/_podcast/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for.md`.
-- Keep this page focused on career transition. Put general platform comparison
-  material in [MLOps vs DevOps]({{ '/wiki/mlops-vs-devops/' | relative_url }})
-  or [DataOps]({{ '/wiki/dataops/' | relative_url }}).
-- Add future evidence from DataOps, platform engineering, open-source data
-  tooling, and data observability episodes.

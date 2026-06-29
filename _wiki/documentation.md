@@ -25,15 +25,6 @@ source. Use [Technical Writing]({{ '/wiki/technical-writing/' | relative_url }})
 for the writer's workflow and [Developer Relations]({{ '/wiki/developer-relations/' | relative_url }})
 for education, demos, and adoption work around developer tools.
 
-## Contents
-
-Use these sections to separate documentation types from evidence.
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Documentation Types](#documentation-types)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -115,19 +106,3 @@ Follow these pages for adjacent topics.
 - [Open Source and Developer Relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }})
 - [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
 - [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
-
-## Maintenance Notes
-
-Use these notes for future edits.
-
-- Keep this page about documentation as a reusable practice. Put writing
-  workflow, cadence, and article structure in
-  [Technical Writing]({{ '/wiki/technical-writing/' | relative_url }}).
-- Revisit `../datatalksclub.github.io/_podcast/open-source-ml-contributions.md`
-- Revisit `../datatalksclub.github.io/_podcast/devrel-open-source-machine-learning.md`
-- Revisit `../datatalksclub.github.io/_podcast/technical-writing-for-data-scientists.md`
-- Revisit `../datatalksclub.github.io/_podcast/practical-devrel-demofirst-education-and-open-source.md`
-- Future expansion should add production and governance examples when episodes
-  discuss concrete docs, while analytics engineering and schema examples also
-  belong here. Good examples include model cards and datasheets, while tracking
-  plans, semantic-layer docs, and runbooks can extend that evidence.

@@ -20,14 +20,6 @@ Use [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-syst
 as the larger hub. This bridge keeps the narrower search vocabulary available
 for people pages, episode topics, and cross-links.
 
-## Contents
-
-Use these links to jump between the main search sections.
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -84,13 +76,3 @@ Use these pages for deeper treatment of nearby topics.
 - [Embeddings]({{ '/wiki/embeddings/' | relative_url }})
 - [NLP]({{ '/wiki/nlp/' | relative_url }})
 - [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
-
-## Maintenance Notes
-
-Future updates should label each search example by the layer it supports.
-
-- Add a compact podcast summary for `production-ml-search-vector-search-embeddings-hybrid-search.md`.
-- Keep search architecture guidance in the larger hub unless a future episode
-  gives enough material for a dedicated production search checklist.
-- When adding examples, label whether they concern candidate retrieval, ranking,
-  evaluation, personalization, or RAG answer generation.

@@ -1,13 +1,13 @@
 ---
-layout: person
+layout: "person"
 title: "Hugo Bowne-Anderson"
 source_person: "../datatalksclub.github.io/_people/hugobowneanderson.md"
-person_id: hugobowneanderson
+person_id: "hugobowneanderson"
 summary: "Developer relations leader and educator connecting ML infrastructure, open-source ecosystems, practical LLM engineering, and RAG workflows."
 expertise: ["developer relations", "open-source", "machine learning", "LLMs", "MLOps", "tools"]
 podcast_episodes: ["devrel-open-source-machine-learning", "practical-llm-engineering-and-rag"]
+source_url: "https://datatalks.club/people/hugobowneanderson.html"
 ---
-
 ## Podcast Context
 
 Hugo Bowne-Anderson appears in the archive as both a developer-relations

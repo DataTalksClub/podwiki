@@ -22,15 +22,6 @@ The podcast archive doesn't treat DevRel as only marketing. Guests describe
 it as technical work that makes adoption easier and routes developer friction
 back to the team building the tool.
 
-## Contents
-
-Use these sections to separate the role, its boundaries, and the evidence.
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Role Boundaries](#role-boundaries)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -114,19 +105,3 @@ Follow these pages for adjacent topics.
 - [Documentation]({{ '/wiki/documentation/' | relative_url }})
 - [Technical Writing]({{ '/wiki/technical-writing/' | relative_url }})
 - [Contributing]({{ '/wiki/contributing/' | relative_url }})
-
-## Maintenance Notes
-
-Use these notes for future edits.
-
-- Keep this page focused on the DevRel role. Broader open-source governance
-  belongs in [Open Source and Developer Relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }}).
-- Revisit `../datatalksclub.github.io/_podcast/devrel-open-source-machine-learning.md`
-- Revisit `../datatalksclub.github.io/_podcast/practical-devrel-demofirst-education-and-open-source.md`
-- Revisit `../datatalksclub.github.io/_podcast/open-source-ml-tools-strategy-and-business-models.md`
-- Revisit `../datatalksclub.github.io/_podcast/open-source-ml-contributions.md`
-- Revisit `../datatalksclub.github.io/_podcast/data-engineering-tools-modern-data-stack.md`
-- Future edits should add examples by DevRel output: quickstart, tutorial,
-  video, talk, demo, or office hours. Community programs and docs feedback also
-  belong here when the episode explains the role. Internal enablement belongs
-  here when it changes how technical teams explain the tool.

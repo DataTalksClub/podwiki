@@ -33,24 +33,6 @@ and
 [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
 as the deeper learning and project standards.
 
-## Search Intent
-
-The plural keyword `data engineering courses` has comparison intent. Readers
-are asking which kind of learning path fits their budget, schedule, background,
-and job goal.
-
-A useful page should help you:
-
-- compare free, paid, cohort, bootcamp, certification, and self-paced options
-- choose a sequence instead of collecting disconnected courses
-- decide when a certificate is useful and when it's weak
-- recognize course projects that employers have seen too many times
-- connect course work to portfolio, interview, and job-search evidence
-
-The best answer isn't a universal ranking because the useful output is a
-decision framework. Start with role fundamentals, build one complete pipeline,
-get feedback, and add specialized courses only when your target role or project
-needs them.
 
 ## Article Outline
 

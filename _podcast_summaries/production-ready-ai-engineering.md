@@ -1,76 +1,53 @@
 ---
 layout: podcast_summary
 title: "Production AI Engineering: Data Pipelines, Prompt Optimization and Caching"
-source_episode: "../datatalksclub.github.io/_podcast/production-ready-ai-engineering.md"
-source_url: "https://datatalks.club/podcast.html"
+source_episode: "datatalksclub.github.io/_podcast/production-ready-ai-engineering.md"
+source_url: "https://datatalks.club/podcast/production-ready-ai-engineering.html"
 season: 20
 episode: 5
-guests: [bartoszmikulski]
-topics: ["AI engineering", "LLMs", "MLOps", "data pipelines", "prompt engineering", "testing", "caching"]
-summary_status: draft
+guests: ["bartoszmikulski"]
+topics: ["data engineering", "AI", "LLMs", "MLOps", "tools"]
+summary_status: source-index
+youtube_url: "https://www.youtube.com/watch?v=BP6w_vKySN0"
+spotify_url: "https://open.spotify.com/episode/0nFSU92IQDbM4C9FLvdn4z"
+apple_url: "https://podcasts.apple.com/us/podcast/data-intensive-ai-bartosz-mikulski/id1541710331?i=1000700288876"
 ---
-
 # Production AI Engineering: Data Pipelines, Prompt Optimization and Caching
 
-## Why This Episode Matters
+## Original Episode
 
-This is a practical bridge between data engineering and production AI work. It connects data pipeline testing, prompt evaluation, prompt compression, caching, and coding assistants into one operational view of AI engineering. It is especially useful when writing about how production AI depends on old-fashioned engineering discipline, not only model choice.
+- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/production-ready-ai-engineering.html)
+- [Watch on YouTube](https://www.youtube.com/watch?v=BP6w_vKySN0)
+- [Listen on Spotify](https://open.spotify.com/episode/0nFSU92IQDbM4C9FLvdn4z)
+- [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/data-intensive-ai-bartosz-mikulski/id1541710331?i=1000700288876)
 
-## Chapter-Level Summary
+## Episode Overview
 
-- 0:00 - Episode Opening & Guest Overview: Introduces Bartosz Mikulski and frames the episode around moving AI projects from demo quality to production readiness.
-- 2:02 - Book Contribution Clarified & Testing Focus: Establishes testing as a recurring theme through Bartosz's contribution to a data engineering book.
-- 4:00 - Career Path: Traces the guest's move from Java to data engineering to AI engineering, with production work as the common thread.
-- 6:04 - Publishing Routine: Covers blogging and content practice as a way to clarify technical thinking and attract work.
-- 9:05 - Data Trust: Explains why testing prevents stakeholder distrust when numbers or outputs look wrong.
-- 11:47 - Test Strategy for Data Pipelines: Discusses snapshot and integration testing as ways to validate pipeline behavior.
-- 13:14 - Testing Tools: Compares Great Expectations, Soda, SQL tests, and Spark tests for different data quality contexts.
-- 17:10 - Technology Choice: Gives criteria for when Apache Spark is justified versus simpler processing tools.
-- 18:38 - Data Engineering's Role in AI: Links preprocessing and fine-tuning data to the data engineering skill set.
-- 21:46 - Invisible AI Use Cases: Looks at AI embedded in workflows such as augmented generation and review analysis.
-- 25:13 - Prompt Engineering Basics: Introduces in-context learning and examples as practical prompt design tools.
-- 28:16 - Prompt Evaluation: Covers prompt formatting, example selection, and cost tradeoffs.
-- 30:00 - Prompt Compression: Discusses token reduction techniques for cheaper and faster inference.
-- 31:45 - Prompt Caching & Model Efficiency: Explains caching as a production lever for latency and cost.
-- 33:42 - Open-Source Models & Tools Experience: Surveys practical experience with open-source models and AI search tools.
-- 35:54 - AI for Lead Scoring: Uses LinkedIn automation and qualification as a concrete applied AI example.
-- 41:04 - Chrome Extension Architecture: Describes a browser-extension pattern backed by AI services.
-- 42:05 - Coding Assistants: Covers Cursor-style workflows and productivity gains from AI coding tools.
-- 44:38 - Code AI Comparison: Compares coding assistants and when different tools fit.
-- 47:19 - Search-Focused Assistants: Positions Perplexity-like tools as research and retrieval aids.
-- 52:09 - Website Hosting: Briefly covers static site hosting and GitHub Pages.
-- 53:10 - Blogging as Business: Connects public writing with consulting, teaching, and client acquisition.
-- 56:17 - AI-Assisted Writing: Discusses drafting and rewriting while preserving author voice.
-- 60:21 - Episode Wrap-Up: Points listeners to guest resources and closes the discussion.
+How do you move AI projects from proof-of-concept to reliable production systems while keeping prompts, pipelines, and response times under control? In this episode Bartosz Mikulski, an AI and data engineer who specializes in productionizing AI, breaks down the engineering work required to make models dependable beyond demos. Bartosz explains how to design robust data pipelines, apply prompt optimization practices, and introduce caching strategies that reduce load and improve responsiveness. He also covers.
 
-## Key Concepts
+## Chapter Summary
 
-- AI engineering
-- production AI
-- data pipeline testing
-- data quality
-- prompt evaluation
-- prompt compression
-- prompt caching
-- AI-assisted coding
-- technical content strategy
-
-## Useful For Agents When
-
-- Writing about production AI engineering practices beyond prompt demos.
-- Comparing data engineering testing tools and AI workflow testing needs.
-- Building an insight page on LLM cost, latency, and caching.
-- Looking for examples of how coding assistants fit into engineering workflows.
-
-## Probably Skip If
-
-- The task is about model architecture research rather than applied AI systems.
-- You need a deep treatment of security, red teaming, or governance.
-- You only need career-transition advice without production engineering details.
-
-## Source Pointers
-
-- Source episode file: `../datatalksclub.github.io/_podcast/production-ready-ai-engineering.md`
-- Original podcast URL: https://datatalks.club/podcast.html
-- YouTube: https://www.youtube.com/watch?v=BP6w_vKySN0
-- Spotify: https://open.spotify.com/episode/0nFSU92IQDbM4C9FLvdn4z
+- 0:00 - [Episode Opening & Guest Overview (Data Intensive AI)](https://www.youtube.com/watch?v=BP6w_vKySN0&t=0)
+- 2:02 - [Book Contribution Clarified & Testing Focus](https://www.youtube.com/watch?v=BP6w_vKySN0&t=122)
+- 4:00 - [Career Path: Java → Data Engineering → AI Engineering](https://www.youtube.com/watch?v=BP6w_vKySN0&t=240)
+- 6:04 - [Publishing Routine: Blogging Frequency & Content Practice](https://www.youtube.com/watch?v=BP6w_vKySN0&t=364)
+- 9:05 - [Data Trust: Why Testing Prevents "This Number Doesn''t Look Correct"](https://www.youtube.com/watch?v=BP6w_vKySN0&t=545)
+- 11:47 - [Test Strategy for Data Pipelines: Snapshot & Integration Testing](https://www.youtube.com/watch?v=BP6w_vKySN0&t=707)
+- 13:14 - [Testing Tools: Great Expectations, Soda, SQL Tests vs Spark Tests](https://www.youtube.com/watch?v=BP6w_vKySN0&t=794)
+- 17:10 - [Technology Choice: When to Use Apache Spark](https://www.youtube.com/watch?v=BP6w_vKySN0&t=1030)
+- 18:38 - [Data Engineering’s Role in AI: Preprocessing & Fine-Tuning Data](https://www.youtube.com/watch?v=BP6w_vKySN0&t=1118)
+- 21:46 - [Invisible AI Use Cases: Augmented Generation & Review Analysis](https://www.youtube.com/watch?v=BP6w_vKySN0&t=1306)
+- 25:13 - [Prompt Engineering Basics: In-Context Learning & Examples](https://www.youtube.com/watch?v=BP6w_vKySN0&t=1513)
+- 28:16 - [Prompt Evaluation: Formatting, Examples, and Cost Tradeoffs](https://www.youtube.com/watch?v=BP6w_vKySN0&t=1696)
+- 30:00 - [Prompt Compression: Token Optimization Techniques](https://www.youtube.com/watch?v=BP6w_vKySN0&t=1800)
+- 31:45 - [Prompt Caching & Model Efficiency (attention caching, Claude)](https://www.youtube.com/watch?v=BP6w_vKySN0&t=1905)
+- 33:42 - [Open-Source Models & Tools Experience (DeepSeek, Perplexity)](https://www.youtube.com/watch?v=BP6w_vKySN0&t=2022)
+- 35:54 - [AI for Lead Scoring: LinkedIn Automation & Qualification](https://www.youtube.com/watch?v=BP6w_vKySN0&t=2154)
+- 41:04 - [Chrome Extension Architecture: Backend AI Integration Pattern](https://www.youtube.com/watch?v=BP6w_vKySN0&t=2464)
+- 42:05 - [Coding Assistants: Cursor Workflow & Productivity Boosts](https://www.youtube.com/watch?v=BP6w_vKySN0&t=2525)
+- 44:38 - [Code AI Comparison: Cursor vs GitHub Copilot & Alternatives](https://www.youtube.com/watch?v=BP6w_vKySN0&t=2678)
+- 47:19 - [Search-Focused Assistants: Using Perplexity & Tool Selection](https://www.youtube.com/watch?v=BP6w_vKySN0&t=2839)
+- 52:09 - [Website Hosting: Static Site Generators & GitHub Pages](https://www.youtube.com/watch?v=BP6w_vKySN0&t=3129)
+- 53:10 - [Blogging as Business: Attracting Clients & Teaching Workshops](https://www.youtube.com/watch?v=BP6w_vKySN0&t=3190)
+- 56:17 - [AI-Assisted Writing: Drafting, Rewriting, and Maintaining Voice](https://www.youtube.com/watch?v=BP6w_vKySN0&t=3377)
+- 1:00:21 - [Episode Wrap-Up & Guest Resources (blog link invitation)](https://www.youtube.com/watch?v=BP6w_vKySN0&t=3621)

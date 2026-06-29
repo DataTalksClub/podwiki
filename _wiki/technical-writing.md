@@ -24,15 +24,6 @@ team and project practice, and
 [Developer Relations]({{ '/wiki/developer-relations/' | relative_url }}) for
 tool adoption, demos, and community feedback.
 
-## Contents
-
-Use these sections to connect writing practice with episode evidence.
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Writing Practices](#writing-practices)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -119,19 +110,3 @@ Follow these pages for adjacent topics.
 - [Communication]({{ '/wiki/communication/' | relative_url }})
 - [Open Source and Developer Relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }})
 - [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
-
-## Maintenance Notes
-
-Use these notes for future edits.
-
-- Keep this page about writing practice and career use. Put project docs,
-  runbooks, and design-doc taxonomy in
-  [Documentation]({{ '/wiki/documentation/' | relative_url }}).
-- Highest-value source episodes:
-  `../datatalksclub.github.io/_podcast/technical-writing-for-data-scientists.md`,
-  `../datatalksclub.github.io/_podcast/devrel-open-source-machine-learning.md`,
-  `../datatalksclub.github.io/_podcast/practical-devrel-demofirst-education-and-open-source.md`,
-  and `../datatalksclub.github.io/_podcast/open-source-ml-tools-strategy-and-business-models.md`.
-- Future edits should add direct examples of article structure, revision,
-  distribution, and workplace writing when new episodes discuss actual writing
-  decisions rather than only mentioning communication.

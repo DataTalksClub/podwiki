@@ -1,0 +1,21 @@
+---
+layout: person
+title: "Will Russell"
+summary: "Will Russell's DataTalks.Club podcast discussions, organized for topic exploration."
+source_url: "https://datatalks.club/people/willrussell.html"
+podcast_episodes: ["practical-devrel-demofirst-education-and-open-source"]
+github: "wrussell1999"
+twitter: "wrussell1999"
+linkedin: "wrussell1999"
+web: "https://wrussell.co.uk/"
+---
+
+# Will Russell
+
+## Background
+
+Will Russell is a Developer Advocate at Kestra, known for his videos on workflow orchestration. Previously, Will built open source education programs to help up and coming developers make their first contributions in open source. With a passion for developer education, Will creates technical video content and documentation that makes technologies more approachable for developers.
+
+## Podcast Discussions
+
+- [Developer Advocacy Through Community Impact: Technical Leadership, Open Source Mentorship & Demo-Driven Communication]({{ '/podcasts/practical-devrel-demofirst-education-and-open-source/' | relative_url }}). Related topics: [open-source]({{ '/wiki/open-source/' | relative_url }}), [computer vision]({{ '/wiki/computer-vision/' | relative_url }}), [tools]({{ '/wiki/tools/' | relative_url }}), [MLOps]({{ '/wiki/mlops/' | relative_url }}), [software engineering]({{ '/wiki/software-engineering/' | relative_url }}).

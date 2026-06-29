@@ -23,17 +23,6 @@ contributions can be credible evidence when they show useful work and clear
 ownership. Examples include project documentation, example code, talks, and
 issue triage.
 
-## Contents
-
-Use these sections to connect contribution quality with role evidence.
-
-- [Evidence Criteria](#evidence-criteria)
-- [Contribution Types](#contribution-types)
-- [Contribution Proof](#contribution-proof)
-- [Episode Evidence](#episode-evidence)
-- [Anti-Patterns](#anti-patterns)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Evidence Criteria
 
@@ -140,17 +129,3 @@ Use these pages for adjacent project and role context.
 - [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
 - [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
 - [RAG Portfolio Projects]({{ '/wiki/rag-portfolio-projects/' | relative_url }})
-
-## Maintenance Notes
-
-- Highest-value source files:
-  `../datatalksclub.github.io/_podcast/open-source-ml-contributions.md`,
-  `../datatalksclub.github.io/_podcast/get-data-engineering-job-prep-and-interview.md`,
-  `../datatalksclub.github.io/_podcast/devrel-open-source-machine-learning.md`,
-  `../datatalksclub.github.io/_podcast/open-source-ml-tools-strategy-and-business-models.md`,
-  and `../datatalksclub.github.io/_podcast/practical-devrel-demofirst-education-and-open-source.md`.
-- Future expansion should add a role map for contribution types:
-  analytics engineer, data engineer, ML engineer, AI engineer, DevRel, and data
-  scientist.
-- Keep this page about evidence quality. Broader community and DevRel synthesis
-  belongs in [Open Source and Developer Relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }}).

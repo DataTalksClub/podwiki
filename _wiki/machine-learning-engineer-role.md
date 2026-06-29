@@ -23,17 +23,6 @@ and feature flows, write production code, manage inference tradeoffs, and
 evaluate models under constraints. They also build tooling for data scientists
 and decide when a simple baseline is better than a complex model.
 
-## Contents
-
-Use these links to move through the role page.
-
-- [Responsibilities](#responsibilities)
-- [Required Skills](#required-skills)
-- [Boundaries with Nearby Roles](#boundaries-with-nearby-roles)
-- [Guest Descriptions](#guest-descriptions)
-- [Archive Evidence](#archive-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Responsibilities
 
@@ -159,20 +148,3 @@ Use these pages for adjacent role and production context.
 - [MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }})
 - [MLOps Roadmap]({{ '/wiki/mlops-roadmap/' | relative_url }})
 - [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
-
-## Maintenance Notes
-
-Use these notes when updating the page.
-
-- Highest-value source files:
-  `../datatalksclub.github.io/_podcast/data-team-roles.md`,
-  `../datatalksclub.github.io/_podcast/machine-learning-engineering-production-best-practices.md`,
-  `../datatalksclub.github.io/_podcast/building-scalable-and-reliable-machine-learning-systems.md`,
-  `../datatalksclub.github.io/_podcast/building-production-ml-platform-and-mlops-team.md`,
-  and `../datatalksclub.github.io/_podcast/how-to-grow-your-ml-engineering-career.md`.
-- Keep this page about the role. Put architecture patterns on
-  [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
-  and operating practices on
-  [MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }}).
-- Future updates should add evidence from computer vision, search, NLP, and
-  edge ML episodes when they clarify daily ML engineering work.

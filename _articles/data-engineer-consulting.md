@@ -42,33 +42,6 @@ worker-intent pages, see
 and
 [Data Engineering Freelance]({{ '/articles/data-engineering-freelance/' | relative_url }}).
 
-## Search Intent
-
-People searching for `data engineer consulting` usually have service or market
-intent.
-
-Buyers want to know whether a consulting engagement can solve a business data
-problem faster than hiring a full-time engineer. They may also compare
-consulting with buying a platform or assigning the work to a generic software
-vendor. They need examples of engagements, deliverables, pricing models, and
-handoff expectations.
-
-Service providers want to know how to package data engineering work.
-
-They need to translate technical ability into offers a buyer can evaluate:
-
-- discovery
-- pipeline stabilization
-- warehouse setup
-- data quality audit
-- modernization assessment
-- implementation
-- training
-- support
-
-Use this page when the question is "what should a data engineer consulting
-engagement include?" Use the consultant page when the question is "what does a
-data engineer consultant do?"
 
 ## Article Outline
 

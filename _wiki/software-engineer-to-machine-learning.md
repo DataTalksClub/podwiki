@@ -20,18 +20,6 @@ changing data.
 The archive treats this less as abandoning software engineering and more as
 adding machine learning to an existing engineering base.
 
-## Contents
-
-Use these sections to separate existing engineering strengths from ML-specific
-gaps.
-
-- [Transition Profile](#transition-profile)
-- [Transferable Skills](#transferable-skills)
-- [Missing Skills](#missing-skills)
-- [Portfolio Evidence](#portfolio-evidence)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Transition Profile
 
@@ -133,15 +121,3 @@ Use these pages for adjacent ML engineering concepts.
 - [MLOps vs DevOps]({{ '/wiki/mlops-vs-devops/' | relative_url }})
 - [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
 - [Machine Learning Infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }})
-
-## Maintenance Notes
-
-Future edits should keep the wiki page distinct from the SEO article.
-
-- Primary source episode:
-  `../datatalksclub.github.io/_podcast/from-software-engineer-to-machine-learning.md`.
-- Keep this page distinct from `_articles/software-engineer-to-machine-learning.md`
-  because the article targets a keyword, while this wiki page should stay
-  archive-backed and reference-oriented.
-- Add future evidence from applied ML, ML system design, AI engineering, and
-  MLOps episodes when they clarify what software engineers still need to learn.

@@ -24,37 +24,6 @@ For the single-course evaluation checklist, see
 For the broader learning path, use
 [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }}).
 
-## Search Intent
-
-People searching for `data engineer courses` usually want to compare options
-before committing time or money.
-
-They may be looking at several paths:
-
-- free courses
-- paid programs
-- bootcamps
-- certificates
-- cloud-provider tracks
-- university-style programs
-- self-paced course bundles
-
-A useful comparison should help you:
-
-- choose a course type for your current background
-- connect the syllabus to a specific data engineer job
-- avoid tool-heavy programs that don't build depth
-- decide when a bootcamp, certificate, or self-paced path is enough
-- turn course work into portfolio and interview evidence
-
-Choose the course that closes your biggest evidence gap.
-
-- If you already write SQL at work, you may need Python, orchestration, and
-  software practice.
-- Backend engineers may need warehouses, table grain, data modeling, and data
-  quality.
-- If you're new to tech, you need a slower path through SQL, Python, and one
-  end-to-end pipeline.
 
 ## Course Comparison
 

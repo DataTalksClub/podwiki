@@ -23,14 +23,6 @@ Vector databases help with semantic retrieval, RAG, recommendations, and
 multimodal matching. Search engines remain important for exact terms, filters,
 recency, explainable ranking, business rules, and evaluation.
 
-## Contents
-
-- [Archive-Level Takeaways](#archive-level-takeaways)
-- [Comparison Structure](#comparison-structure)
-- [Decision Points](#decision-points)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Archive-Level Takeaways
 
@@ -126,12 +118,3 @@ answer or product metric still fails.
 - [Vector Databases]({{ '/wiki/vector-databases/' | relative_url }})
 - [Embeddings]({{ '/wiki/embeddings/' | relative_url }})
 - [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
-
-## Maintenance Notes
-
-- Keep this page vendor-neutral. The archive supports architectural comparison,
-  not a ranking of vector database products.
-- Add more examples only when they identify the retrieval layer, ranking layer,
-  vector-compute layer, and evaluation method.
-- If a future episode covers OpenSearch, Elasticsearch, Solr, or Lucene vector
-  features in depth, update the migration section before adding a new page.

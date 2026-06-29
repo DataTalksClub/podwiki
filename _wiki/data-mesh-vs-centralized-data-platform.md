@@ -22,16 +22,6 @@ The podcast archive doesn't present these as enemies. Compare where ownership
 sits and which interfaces are explicit. Then decide which capabilities must be
 shared so domain teams can move without breaking each other.
 
-## Contents
-
-Use these sections to compare ownership, standards, and platform boundaries.
-
-- [Archive-Level Takeaways](#archive-level-takeaways)
-- [Comparison Structure](#comparison-structure)
-- [Decision Points](#decision-points)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Archive-Level Takeaways
 
@@ -169,14 +159,3 @@ Use these pages for adjacent ownership, governance, and platform topics.
 - [Data Governance]({{ '/wiki/data-governance/' | relative_url }})
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})
 - [Platform Engineering]({{ '/wiki/platform-engineering/' | relative_url }})
-
-## Maintenance Notes
-
-Use these notes when updating the page with new archive evidence.
-
-- Keep this page about ownership and interfaces. Avoid turning it into a
-  generic Data Mesh explainer.
-- Add examples when future guests describe concrete data product contracts,
-  domain team operating models, or failed decentralization efforts.
-- If the Data Mesh stub expands into a full hub, keep this page focused on the
-  comparison with centralized platform architecture.

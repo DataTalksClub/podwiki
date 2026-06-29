@@ -23,17 +23,6 @@ dashboard-backed models. It also fits career-transition portfolios from
 marketing, operations, finance, BI, or analyst work. For the role hub, use
 [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }}).
 
-## Contents
-
-Use these sections to connect project design with archive evidence.
-
-- [Project Criteria](#project-criteria)
-- [Project Types](#project-types)
-- [Project Proof](#project-proof)
-- [Episode Evidence](#episode-evidence)
-- [Anti-Patterns](#anti-patterns)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Project Criteria
 
@@ -143,16 +132,3 @@ Use these pages for adjacent project and role context.
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [Career Transition]({{ '/wiki/career-transition/' | relative_url }})
 - [Job Search]({{ '/wiki/job-search/' | relative_url }})
-
-## Maintenance Notes
-
-- Highest-value source files:
-  `../datatalksclub.github.io/_podcast/analytics-engineer-skills-tools.md`,
-  `../datatalksclub.github.io/_podcast/from-marketing-to-analytics-engineering-sql-dbt-career-switch.md`,
-  `../datatalksclub.github.io/_podcast/data-engineering-tools-modern-data-stack.md`,
-  `../datatalksclub.github.io/_podcast/data-led-growth-event-tracking-and-reverse-etl.md`,
-  and `../datatalksclub.github.io/_podcast/data-engineering-career-path-and-skills.md`.
-- Future expansion should add concrete example rubrics for metric-layer,
-  product-analytics, finance, and reverse-ETL projects.
-- Keep this page portfolio-focused. The full role synthesis belongs in
-  [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }}).

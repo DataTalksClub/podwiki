@@ -12,7 +12,13 @@ layout: default
     {% if page.github %}<a href="https://github.com/{{ page.github }}">GitHub</a>{% endif %}
     {% if page.linkedin %}<a href="https://www.linkedin.com/in/{{ page.linkedin }}">LinkedIn</a>{% endif %}
     {% if page.twitter %}<a href="https://twitter.com/{{ page.twitter }}">Twitter</a>{% endif %}
-    {% if page.web %}<a href="{{ page.web }}">Website</a>{% endif %}
+    {% if page.web %}
+      {% if page.web contains '://' %}
+        <a href="{{ page.web }}">Website</a>
+      {% else %}
+        <a href="https://{{ page.web }}">Website</a>
+      {% endif %}
+    {% endif %}
   </div>
   {{ content }}
 </article>

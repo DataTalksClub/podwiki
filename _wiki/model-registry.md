@@ -22,14 +22,6 @@ versioning, stages, and approvals. It also fits reproducibility and downstream
 consumption. Use [Experiment Tracking]({{ '/wiki/experiment-tracking/' | relative_url }})
 for run capture before a model is promoted.
 
-## Contents
-
-Use these links to jump between the main parts.
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -85,17 +77,3 @@ Use these pages for adjacent lifecycle topics.
 - [Reproducibility]({{ '/wiki/reproducibility/' | relative_url }})
 - [Governance]({{ '/wiki/governance/' | relative_url }})
 - [Production]({{ '/wiki/production/' | relative_url }})
-
-## Maintenance Notes
-
-Use these source files when expanding this page:
-
-- `../datatalksclub.github.io/_podcast/building-production-ml-platform-and-mlops-team.md`
-- `../datatalksclub.github.io/_podcast/mlops-at-scale-reproducibility-adoption.md`
-- `../datatalksclub.github.io/_podcast/mlops-and-ml-engineering-in-finance.md`
-- `../datatalksclub.github.io/_podcast/pragmatic-and-standardized-mlops.md`
-
-Add evidence only when the source mentions model artifacts, promotion,
-versioning, or metadata. Approvals, lineage, deployment handoff, and
-model-versioned logs also fit. Generic "MLOps uses registries" mentions belong
-on [MLOps]({{ '/wiki/mlops/' | relative_url }}).

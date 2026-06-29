@@ -38,22 +38,6 @@ For the broader concept map, see
 [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}),
 and [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}).
 
-## Search Intent
-
-People searching for "data observability for data engineering" usually want a
-practical operating guide. They may already know data pipelines and orchestration
-tools. They may also know dbt, warehouses, or lakehouses. Now they need those
-systems to stay reliable after they start serving analysts, ML engineers,
-product teams, and business stakeholders.
-
-Use this page to connect observability signals to data engineering work:
-
-- what data engineers should monitor beyond task success
-- how freshness, volume, schema, distribution, and lineage catch different
-  failure modes
-- where ownership, SLAs, and runbooks fit
-- how observability protects analytics, ML, product data, and reverse ETL jobs
-- how to start without turning every anomaly into an alert
 
 ## Engineering Need
 

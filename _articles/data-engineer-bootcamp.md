@@ -24,25 +24,6 @@ want the broader program-evaluation checklist, use
 If you're comparing several course formats, use
 [Data Engineer Courses]({{ '/articles/data-engineer-courses/' | relative_url }}).
 
-## Search Intent
-
-People searching for `data engineer bootcamp` usually have a personal career
-question:
-
-- Can a bootcamp help me become a data engineer?
-- What should I know before enrolling?
-- Which skills matter for a junior data engineer role?
-- What projects will make employers believe the transition?
-- What should I do after the bootcamp to get interviews and offers?
-
-A bootcamp helps when it forces you to build, get feedback, customize projects,
-and practice interviews. It's weak when it mainly gives you videos, quizzes,
-tool demos, and the same capstone as every other student.
-
-Use [Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }}) as
-the role definition and
-[Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
-as the learning sequence behind this article.
 
 ## Bootcamp Proof
 

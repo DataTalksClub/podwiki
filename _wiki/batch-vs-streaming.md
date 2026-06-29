@@ -21,16 +21,6 @@ streaming when a product, model, or operational workflow needs immediate
 reaction. They use batch when daily, hourly, or triggered processing gives the
 business enough freshness with less operational load.
 
-## Contents
-
-Use these sections to compare latency, operating cost, and product fit.
-
-- [Archive-Level Takeaways](#archive-level-takeaways)
-- [Comparison Structure](#comparison-structure)
-- [Decision Points](#decision-points)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Archive-Level Takeaways
 
@@ -166,15 +156,3 @@ Use these pages for adjacent data engineering and system design context.
 - [Streaming]({{ '/wiki/streaming/' | relative_url }})
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})
 - [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
-
-## Maintenance Notes
-
-Use these notes when updating the page with new archive evidence.
-
-- Keep this page focused on architecture vocabulary and decision criteria. Tool
-  tutorials for Kafka, Flink, Airflow, or Spark belong on tool-specific pages.
-- Add future evidence when guests name the business action that forces
-  real-time processing.
-- When expanding the page, distinguish true streaming, micro-batching, online
-  inference, batch scoring, and event ingestion. The archive uses all five
-  designs.

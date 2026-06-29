@@ -23,17 +23,6 @@ Warehouses are strong when SQL analytics and business modeling are the main
 work. Lakehouse designs matter when teams need open storage, large raw files,
 ML workloads, multiple compute engines, or reduced vendor lock-in.
 
-## Contents
-
-Use these sections to compare analytics-centered and open-storage-centered
-platform choices.
-
-- [Archive-Level Takeaways](#archive-level-takeaways)
-- [Comparison Structure](#comparison-structure)
-- [Decision Points](#decision-points)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Archive-Level Takeaways
 
@@ -167,13 +156,3 @@ Use these pages for adjacent storage, platform, and analytics topics.
 - [Data Lake]({{ '/wiki/data-lake/' | relative_url }})
 - [Apache Iceberg]({{ '/wiki/apache-iceberg/' | relative_url }})
 - [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
-
-## Maintenance Notes
-
-Use these notes when updating the page with new archive evidence.
-
-- Keep this page as a comparison of architecture designs, not a vendor guide.
-- Future updates should add evidence about catalogs, open table formats,
-  storage tiers, and warehouse cost controls when new episodes cover them.
-- If this page grows too large, split separate pages for "data lakehouse" and
-  "table formats" only after the archive has enough episode-backed synthesis.

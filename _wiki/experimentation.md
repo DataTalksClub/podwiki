@@ -25,14 +25,6 @@ for intervention reasoning beyond randomized tests, and
 [Experimentation and Causal Inference]({{ '/wiki/experimentation-and-causal-inference/' | relative_url }})
 for the full hub.
 
-## Contents
-
-Use these sections:
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -89,16 +81,3 @@ Useful adjacent pages:
 - [Evaluation]({{ '/wiki/evaluation/' | relative_url }})
 - [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }})
 - [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
-
-## Maintenance Notes
-
-Future maintainers should preserve these source paths and boundaries:
-
-- Keep this page broader than A/B testing. Include product discovery,
-  prototype, and ML validation evidence when episodes support it.
-- Best source files:
-  `../datatalksclub.github.io/_podcast/ab-testing-and-product-experimentation.md`,
-  `../datatalksclub.github.io/_podcast/production-ml-mlops-and-data-team-building.md`,
-  and `../datatalksclub.github.io/_podcast/ai-ml-product-design-and-experimentation.md`.
-- Future expansion should add examples from data product rollout episodes when
-  the transcript has concrete experiment design details.

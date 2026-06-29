@@ -40,26 +40,6 @@ Then use
 [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}),
 and [MLOps Roadmap]({{ '/wiki/mlops-roadmap/' | relative_url }}).
 
-## Search Intent
-
-People searching for `machine learning engineer certification` are usually
-asking a career question, not only a course-selection question.
-
-They want to know:
-
-- whether a certificate helps with recruiter screens
-- whether hiring managers care about it
-- which skills a certification should cover
-- what project evidence should sit beside the credential
-- how to describe certification work on a CV without overselling it
-
-The practical answer is conditional. A certificate can help when it gives you a
-clear path through ML engineering skills. It's weak when it leaves you with a
-badge but no runnable project, no code quality, and no production-aware story.
-
-Podcast evidence doesn't support ranking individual third-party certifications
-for ML engineer roles. Judge the program by whether it makes you build evidence
-that another engineer can look at.
 
 ## Short Answer
 

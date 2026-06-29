@@ -39,21 +39,6 @@ For the broader role foundation, see
 For the adjacent service-query page, see
 [Data Engineering Freelance]({{ '/articles/data-engineering-freelance/' | relative_url }}).
 
-## Search Intent
-
-People searching for `freelance data engineer` usually have one of two needs.
-
-Clients want to know whether an independent data engineer can fix a pipeline,
-build a warehouse, audit a stack, or bridge a hiring gap. They need to reduce
-delivery risk before committing to paid work.
-
-Engineers want to know how to become the person clients trust. They need a
-service menu, credibility signals, pricing logic, and a path from employee work
-or portfolio projects into paid contracts.
-
-Use this page for both sides. It's not a generic salary page or a list of
-freelance platforms. You get service positioning and proof. You also get client
-risk and the path into freelancing.
 
 ## Article Outline
 

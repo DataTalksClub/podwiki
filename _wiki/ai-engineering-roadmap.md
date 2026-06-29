@@ -23,21 +23,6 @@ This roadmap starts with software engineering and data foundations because the
 archive doesn't frame AI engineering as prompt demos. The strongest episodes
 describe end-to-end builders who can ship products, not only call an API.
 
-## Contents
-
-Use these sections to move from model-backed software to production AI systems.
-
-- [Stage 1: Build Software That Uses Models](#stage-1-build-software-that-uses-models)
-- [Stage 2: Learn Prompt, Context, and Evaluation Discipline](#stage-2-learn-prompt-context-and-evaluation-discipline)
-- [Stage 3: Build a RAG or Search-Backed System](#stage-3-build-a-rag-or-search-backed-system)
-- [Stage 4: Add Agentic Workflows Carefully](#stage-4-add-agentic-workflows-carefully)
-- [Stage 5: Operate AI Systems](#stage-5-operate-ai-systems)
-- [Project Sequence](#project-sequence)
-- [Role Milestones](#role-milestones)
-- [Study-Build Boundary](#study-build-boundary)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Stage 1: Build Software That Uses Models
 
@@ -176,19 +161,3 @@ Use these pages for adjacent topics.
 - [Evaluation]({{ '/wiki/evaluation/' | relative_url }})
 - [AI Infrastructure]({{ '/wiki/ai-infrastructure/' | relative_url }})
 - [MLOps]({{ '/wiki/mlops/' | relative_url }})
-
-## Maintenance Notes
-
-Use these source files when expanding the page.
-
-- `../datatalksclub.github.io/_podcast/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products.md`
-- `../datatalksclub.github.io/_podcast/s23e04-how-to-become-ai-engineer-after-career-break.md`
-- `../datatalksclub.github.io/_podcast/s23e05-inside-ai-engineer-role-tools-skills-and-career-path.md`
-- `../datatalksclub.github.io/_podcast/s23e07-understanding-ai-engineer-role.md`
-- `../datatalksclub.github.io/_podcast/production-ready-ai-engineering.md`
-- `../datatalksclub.github.io/_podcast/from-game-ai-to-modern-ai-agents.md`
-
-Future updates should add more evidence from RAG, AI infrastructure,
-responsible AI, and red-teaming episodes. Keep the roadmap practical. Don't
-turn it into a list of AI tools or model releases unless an archive episode
-explains the project or role consequence.

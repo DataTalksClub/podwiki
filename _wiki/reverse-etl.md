@@ -21,15 +21,6 @@ last-mile counterpart to ELT: teams push trusted data into workflows.
 Arpit Choudhury's data-led growth episode gives the strongest discussion, and
 the Airbyte modern data stack episode adds supporting context.
 
-## Contents
-
-Use these sections:
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Episode Evidence](#episode-evidence)
-- [Tradeoffs](#tradeoffs)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -96,17 +87,3 @@ Useful adjacent pages:
 - [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }})
 - [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
 - [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
-
-## Maintenance Notes
-
-Future maintainers should preserve these source paths:
-
-- Best source files:
-  `../datatalksclub.github.io/_podcast/data-led-growth-event-tracking-and-reverse-etl.md`
-  and `../datatalksclub.github.io/_podcast/data-engineering-tools-modern-data-stack.md`.
-- Add examples only when the episode includes a destination workflow. Good
-  examples include support, CRM, sales, and ads. Product analytics, email,
-  in-app messaging, and personalization fit too.
-- A future cleanup should upgrade [Data Activation]({{ '/wiki/data-activation/' | relative_url }})
-  and [Customer Data Platforms]({{ '/wiki/customer-data-platforms/' | relative_url }})
-  so this page can link to richer comparisons.

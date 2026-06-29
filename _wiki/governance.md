@@ -24,14 +24,6 @@ catalogs, access, lineage, and data ownership. Use
 [Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }})
 for fairness, explainability, human oversight, and AI accountability.
 
-## Contents
-
-Use these sections to move through the page.
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -95,19 +87,3 @@ Use these pages for adjacent data, ML, and responsible-AI topics.
 - [Model Registry]({{ '/wiki/model-registry/' | relative_url }})
 - [Security]({{ '/wiki/security/' | relative_url }})
 - [Data Strategy]({{ '/wiki/data-strategy/' | relative_url }})
-
-## Maintenance Notes
-
-Best source files for future expansion:
-
-- `../datatalksclub.github.io/_podcast/data-governance-data-access-management.md`
-- `../datatalksclub.github.io/_podcast/cloud-data-governance.md`
-- `../datatalksclub.github.io/_podcast/responsible-explainable-ai-bias-detection.md`
-- `../datatalksclub.github.io/_podcast/building-production-ml-platform-and-mlops-team.md`
-- `../datatalksclub.github.io/_podcast/mlops-and-ml-engineering-in-finance.md`
-- `../datatalksclub.github.io/_podcast/ml-product-manager-and-mlops-platform-strategy.md`
-
-When adding evidence, identify the governed decision and the accountable owner.
-Also name the artifact produced and the operating cadence. Avoid turning this
-page into a generic compliance glossary. Keep it tied to podcast examples and
-route detailed data-governance material to the dedicated data page.

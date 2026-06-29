@@ -3,22 +3,25 @@ layout: default
 ---
 
 <article class="knowledge-page podcast-summary">
-  <p class="eyebrow">Podcast Summary</p>
+  <p class="eyebrow">Podcast</p>
   <h1>{{ page.title }}</h1>
   <div class="summary-meta">
     {% if page.season %}<span>S{{ page.season }}E{{ page.episode }}</span>{% endif %}
-    {% if page.summary_status %}<span>{{ page.summary_status }}</span>{% endif %}
+  </div>
+  {% if page.source_url %}
+    <p class="podcast-source"><a class="button" href="{{ page.source_url }}">Open original DataTalks.Club episode</a></p>
+  {% endif %}
+  <div class="podcast-platforms">
+    {% if page.youtube_url %}<a href="{{ page.youtube_url }}">YouTube</a>{% endif %}
+    {% if page.spotify_url %}<a href="{{ page.spotify_url }}">Spotify</a>{% endif %}
+    {% if page.apple_url %}<a href="{{ page.apple_url }}">Apple Podcasts</a>{% endif %}
   </div>
   {% if page.topics %}
     <div class="meta">
       {% for topic in page.topics %}
-        {% assign topic_slug = topic | slugify %}
-        <a href="{{ '/wiki/' | append: topic_slug | append: '/' | relative_url }}">{{ topic }}</a>
+        <span>{{ topic }}</span>
       {% endfor %}
     </div>
   {% endif %}
   {{ content }}
-  {% if page.source_url %}
-    <p><a class="button" href="{{ page.source_url }}">Open original podcast page</a></p>
-  {% endif %}
 </article>

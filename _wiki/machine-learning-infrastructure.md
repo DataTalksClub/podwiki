@@ -23,14 +23,6 @@ Use this page for infrastructure that supports [ML Platforms]({{ '/wiki/ml-platf
 Use [AI Infrastructure]({{ '/wiki/ai-infrastructure/' | relative_url }}) for the
 broader AI and LLM infrastructure hub when that page is expanded.
 
-## Contents
-
-Use these links to jump between the main parts.
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -91,17 +83,3 @@ Use these pages for adjacent infrastructure and operating topics.
 - [MLOps vs DevOps]({{ '/wiki/mlops-vs-devops/' | relative_url }})
 - [Production]({{ '/wiki/production/' | relative_url }})
 - [Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }})
-
-## Maintenance Notes
-
-Use these source files when expanding this page:
-
-- `../datatalksclub.github.io/_podcast/ai-infrastructure-hybrid-cloud-on-prem-distributed-training.md`
-- `../datatalksclub.github.io/_podcast/building-production-ml-platform-and-mlops-team.md`
-- `../datatalksclub.github.io/_podcast/mlops-at-scale-reproducibility-adoption.md`
-- `../datatalksclub.github.io/_podcast/devrel-open-source-machine-learning.md`
-- `../datatalksclub.github.io/_podcast/s24e03-from-notebook-to-production-building-end-to-end-ai-systems.md`
-
-Keep this page focused on infrastructure constraints and primitives. Put team
-adoption on [Platform Engineering]({{ '/wiki/platform-engineering/' | relative_url }})
-and lifecycle practices on [MLOps]({{ '/wiki/mlops/' | relative_url }}).

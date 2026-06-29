@@ -25,15 +25,6 @@ role exists because analysts and data scientists lose time cleaning data, while
 data engineers often focus on infrastructure, ingestion, and platform
 reliability rather than domain-specific modeling.
 
-## Contents
-
-- [Scope](#scope)
-- [Recurring Patterns From Episodes](#recurring-patterns-from-episodes)
-- [Implementation Checklist](#implementation-checklist)
-- [Episode Evidence](#episode-evidence)
-- [Tradeoffs and Disagreements](#tradeoffs-and-disagreements)
-- [Related Pages](#related-pages)
-- [Agent Maintenance Notes](#agent-maintenance-notes)
 
 ## Scope
 

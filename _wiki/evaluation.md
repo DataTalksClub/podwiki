@@ -24,14 +24,6 @@ Use [Metrics]({{ '/wiki/metrics/' | relative_url }}) for metric design,
 experiments, and [Causal Inference]({{ '/wiki/causal-inference/' | relative_url }})
 when the question is whether an intervention caused the outcome.
 
-## Contents
-
-Use these sections:
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -89,17 +81,3 @@ Useful adjacent pages:
 - [Experimentation and Causal Inference]({{ '/wiki/experimentation-and-causal-inference/' | relative_url }})
 - [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
 - [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
-
-## Maintenance Notes
-
-Future maintainers should preserve these source paths and boundaries:
-
-- Preserve the distinction between offline model scoring, online product
-  experiments, causal validation, and production monitoring.
-- Best source files:
-  `../datatalksclub.github.io/_podcast/ab-testing-and-product-experimentation.md`,
-  `../datatalksclub.github.io/_podcast/causal-inference-for-machine-learning.md`,
-  `../datatalksclub.github.io/_podcast/production-ml-mlops-and-data-team-building.md`,
-  and `../datatalksclub.github.io/_podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.md`.
-- Add timestamped LLM evaluation clips when the evaluation page needs more
-  generative-AI depth.

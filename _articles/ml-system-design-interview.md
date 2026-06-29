@@ -23,20 +23,6 @@ Use this short preparation map for the abbreviated keyword
 For production design beyond interviews, use
 [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }}).
 
-## Search Intent
-
-People searching for `ml system design interview` usually want a practical
-interview structure instead of a full production ML textbook. The Ubersuggest
-row for this keyword shows a smaller but meaningful query than the fully
-spelled-out `machine learning system design interview`. Use this guide as the
-compact version focused on what to say in the interview.
-
-Use it to prepare four things:
-
-1. The order of a strong answer.
-2. The common prompts interviewers use.
-3. The evaluation signals behind the round.
-4. The project evidence that proves you can design ML systems.
 
 ## Answer Structure
 

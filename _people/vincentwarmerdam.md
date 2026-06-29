@@ -1,13 +1,13 @@
 ---
-layout: person
+layout: "person"
 title: "Vincent Warmerdam"
 source_person: "../datatalksclub.github.io/_people/vincentwarmerdam.md"
-person_id: vincentwarmerdam
+person_id: "vincentwarmerdam"
 summary: "Research advocate and open-source ML educator known for practical tooling, scikit-learn contribution guidance, and explainable demos."
 expertise: ["open-source", "machine learning", "data science", "developer relations", "tools"]
 podcast_episodes: ["open-source-ml-contributions", "open-source-ml-tools-strategy-and-business-models"]
+source_url: "https://datatalks.club/people/vincentwarmerdam.html"
 ---
-
 ## Podcast Context
 
 Vincent Warmerdam is one of the archive's clearest voices on practical

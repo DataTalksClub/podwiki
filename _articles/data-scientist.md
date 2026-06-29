@@ -23,16 +23,6 @@ use it for research, experimentation, and first-data-hire work. A practical
 definition works better. A data scientist owns the question, data reasoning,
 method, evaluation and impact story.
 
-## Search Intent
-
-People searching for "data scientist" usually want a role guide. They want to
-understand the work and the skills. They also want a career path and interview
-guidance.
-
-Use this page as the overview. For deeper archive synthesis, use
-[Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }}),
-[Data Science Careers]({{ '/wiki/data-science-careers/' | relative_url }}),
-and [Data Scientist Interview Roadmap]({{ '/wiki/data-scientist-interview-roadmap/' | relative_url }}).
 
 ## Role Scope
 

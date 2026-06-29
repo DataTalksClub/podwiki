@@ -22,15 +22,6 @@ preparation, ranking, context design, and measurement. Good systems decide what
 to retrieve, how to represent it, how much context to pass to an LLM, and how to
 prove that the answer is useful and grounded.
 
-## Contents
-
-- [Archive-Level Takeaways](#archive-level-takeaways)
-- [Recurring Patterns](#recurring-patterns)
-- [Decision Points and Checklists](#decision-points-and-checklists)
-- [Episode Evidence](#episode-evidence)
-- [Tradeoffs and Open Questions](#tradeoffs-and-open-questions)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Archive-Level Takeaways
 
@@ -205,10 +196,3 @@ testing complexity because retrieval quality is only one part of the workflow.
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
 - [MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }})
 - [LLM Tools article]({{ '/articles/llm-tools/' | relative_url }})
-
-## Maintenance Notes
-
-- Add a podcast summary for `production-ml-search-vector-search-embeddings-hybrid-search.md`; it is a high-value source for this page.
-- Add a podcast summary for `knowledge-graphs-and-llms-for-automotive-rnd.md` before expanding the graph-RAG section.
-- When new RAG or search episodes appear, classify them by retrieval layer, generation layer, evaluation method, and production metric.
-- Avoid splitting this topic into many near-duplicate pages such as "RAG", "vector databases", and "semantic search" unless the archive has enough evidence for separate hubs.

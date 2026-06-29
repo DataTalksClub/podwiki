@@ -24,21 +24,6 @@ reliability. Analytics engineers own modeled data that analysts, executives,
 experiments, and operational tools can use without reimplementing business
 logic.
 
-## Contents
-
-Use these sections to move from SQL fluency to metric ownership.
-
-- [Stage 1: Become Fluent in Analytical SQL](#stage-1-become-fluent-in-analytical-sql)
-- [Stage 2: Model Data for Reuse](#stage-2-model-data-for-reuse)
-- [Stage 3: Add Tests and Documentation](#stage-3-add-tests-and-documentation)
-- [Stage 4: Own Metrics and Semantic Interfaces](#stage-4-own-metrics-and-semantic-interfaces)
-- [Stage 5: Specialize by Domain or Platform Boundary](#stage-5-specialize-by-domain-or-platform-boundary)
-- [Project Sequence](#project-sequence)
-- [Role Milestones](#role-milestones)
-- [Study-Build Boundary](#study-build-boundary)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Stage 1: Become Fluent in Analytical SQL
 
@@ -181,19 +166,3 @@ Use these pages for adjacent topics.
 - [Metrics]({{ '/wiki/metrics/' | relative_url }})
 - [Event Tracking]({{ '/wiki/event-tracking/' | relative_url }})
 - [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
-
-## Maintenance Notes
-
-Use these source files when expanding the page.
-
-- `../datatalksclub.github.io/_podcast/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices.md`
-- `../datatalksclub.github.io/_podcast/analytics-engineer-skills-tools.md`
-- `../datatalksclub.github.io/_podcast/from-marketing-to-analytics-engineering-sql-dbt-career-switch.md`
-- `../datatalksclub.github.io/_podcast/data-engineering-tools-modern-data-stack.md`
-- `../datatalksclub.github.io/_podcast/data-led-growth-event-tracking-and-reverse-etl.md`
-
-Future updates should add concrete interview and portfolio evidence for
-analytics engineering roles when more episodes mention hiring signals. Keep
-SEO-style explanations in the analytics engineer article. This page should stay
-focused on roadmap sequence, role milestones, and archive-backed project
-choices.

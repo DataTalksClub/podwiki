@@ -25,15 +25,6 @@ for career proof, and
 [Open Source and Developer Relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }})
 for the broader open-source and DevRel context.
 
-## Contents
-
-Use these sections to connect contribution types with episode evidence.
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Contribution Paths](#contribution-paths)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -117,18 +108,3 @@ Follow these pages for adjacent topics.
 - [Documentation]({{ '/wiki/documentation/' | relative_url }})
 - [Practices]({{ '/wiki/practices/' | relative_url }})
 - [Career Growth]({{ '/wiki/career-growth/' | relative_url }})
-
-## Maintenance Notes
-
-Use these notes for future edits.
-
-- Keep this page about how to contribute. Career framing belongs in
-  [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }}).
-- Revisit `../datatalksclub.github.io/_podcast/open-source-ml-contributions.md`
-- Revisit `../datatalksclub.github.io/_podcast/open-source-ml-tools-strategy-and-business-models.md`
-- Revisit `../datatalksclub.github.io/_podcast/practical-devrel-demofirst-education-and-open-source.md`
-- Revisit `../datatalksclub.github.io/_podcast/datatalksclub-scaling-and-free-courses.md`
-- Revisit `../datatalksclub.github.io/_podcast/devrel-open-source-machine-learning.md`
-- Future edits should add maintainer-side structures such as issue templates,
-  review queues, contributor ladders, and release notes. Add rejection examples
-  when an episode explains why a contribution shouldn't merge.

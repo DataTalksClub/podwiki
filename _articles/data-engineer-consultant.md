@@ -34,22 +34,6 @@ the adjacent independent-worker pages, see
 and
 [Data Engineering Freelance]({{ '/articles/data-engineering-freelance/' | relative_url }}).
 
-## Search Intent
-
-People searching for `data engineer consultant` usually have mixed intent.
-
-Clients want to know whether they should hire an outside specialist instead of
-a full-time data engineer, agency, analytics engineer, or software contractor.
-They need to know which services consultants provide. They also need to scope
-the work, evaluate proof, and avoid long-term dependency.
-
-Practitioners want to know how to position themselves as consultants. They need
-a service menu, public proof, project stories, and scoping habits. They also
-need to turn technical work into client outcomes.
-
-Use this page for both sides because a consultant isn't only a temporary data
-engineer. A valuable consultant diagnoses the constraint, builds or fixes the
-right part of the system, and leaves the client with ownership.
 
 ## Article Outline
 

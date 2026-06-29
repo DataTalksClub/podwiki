@@ -28,21 +28,6 @@ Start with [DataOps]({{ '/wiki/dataops/' | relative_url }}),
 and [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
 for the broader archive synthesis.
 
-## Search Intent
-
-People searching for "dataops tools" usually want a practical list of what a
-DataOps stack should include. Some are comparing product categories. Others are
-trying to decide whether they can start with a lightweight stack.
-
-That stack often starts with familiar tools:
-
-- Git
-- CI/CD
-- SQL checks
-- an orchestrator they already use
-
-Use this page as a tool map. It explains the categories that matter, the jobs
-each category does, and when simple tools are enough.
 
 ## DataOps Tool Map
 

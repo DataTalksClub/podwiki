@@ -24,14 +24,6 @@ research. They can also mean experimentation, dashboarding, or first-data-hire
 work. For role responsibilities, read [Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }}).
 For interview sequence, read [Data Scientist Interview Roadmap]({{ '/wiki/data-scientist-interview-roadmap/' | relative_url }}).
 
-## Contents
-
-Use these links to move through the page.
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -105,20 +97,3 @@ Use these pages for adjacent career and interview context.
 - [Salary Negotiation]({{ '/wiki/salary-negotiation/' | relative_url }})
 - [Career Transitions in Data]({{ '/wiki/career-transitions-in-data/' | relative_url }})
 - [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
-
-## Maintenance Notes
-
-Use these notes when updating the page.
-
-- Keep this page career-oriented. Put role responsibilities on
-  [Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }}) and
-  interview sequencing on [Data Scientist Interview Roadmap]({{ '/wiki/data-scientist-interview-roadmap/' | relative_url }}).
-- Source: `../datatalksclub.github.io/_podcast/get-data-scientist-job.md`.
-- Source: `../datatalksclub.github.io/_podcast/data-science-interview-and-cv-guide.md`.
-- Source: `../datatalksclub.github.io/_podcast/hiring-data-scientists-and-analysts.md`.
-- Source: `../datatalksclub.github.io/_podcast/project-manager-to-data-scientist.md`.
-- Source: `../datatalksclub.github.io/_podcast/machine-learning-data-science-interview-prep.md`.
-- Source: `../datatalksclub.github.io/_podcast/data-science-job-red-flags-and-mismatched-roles.md`.
-- Future updates should add stronger evidence for senior data scientist growth
-  and research-to-product transitions. Add AI-engineering pivots from data
-  science when more source-backed examples exist.

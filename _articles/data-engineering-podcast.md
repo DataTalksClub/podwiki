@@ -33,20 +33,6 @@ For the deeper reference layer, see
 and
 [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }}).
 
-## Search Intent
-
-People searching for `data engineering podcast` usually want one of three
-things.
-
-- A practical show that teaches data engineering concepts through real
-  conversations.
-- A shortlist of episodes on tools, architecture, quality, and platform work.
-- Career guidance from data engineers, consultants, educators, and engineering
-  leaders.
-
-Use the episode clusters for those needs. If you're new to the field, start
-with fundamentals and careers. If you already work with pipelines, jump to
-tools and DataOps. Then move into batch versus streaming and governance.
 
 ## Article Outline
 

@@ -30,24 +30,6 @@ For the broader operating model, start with
 and [MLOps Roadmap]({{ '/wiki/mlops-roadmap/' | relative_url }}) for build
 order.
 
-## Search Intent
-
-People searching for `mlops frameworks` usually want a shortlist, but a
-shortlist helps only after the team understands the categories. Tracking tools
-and pipeline platforms do different jobs. Serving tools, feature stores,
-monitoring platforms, and internal templates do too. Some overlap, and some
-become expensive when the team adopts them before it has the problem they solve.
-
-Use this article as a category map:
-
-1. Tracking and model registry frameworks.
-2. Orchestration and pipeline frameworks.
-3. Serving frameworks.
-4. Monitoring and observability frameworks.
-5. Feature platforms.
-6. CI/CD and project-template frameworks.
-7. Governance frameworks.
-8. Cases where the team doesn't need a framework yet.
 
 ## MLOps Framework Basics
 

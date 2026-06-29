@@ -1,25 +1,34 @@
 ---
 layout: default
-title: Podcast Summaries
+title: Podcasts
 permalink: /podcasts/
 ---
 
-# Podcast Summaries
+# Podcasts
 
-Agent-friendly episode notes. These pages summarize what each episode covers and
-link back to the original DataTalks.Club podcast pages; they do not copy full
-transcripts.
+Local podcast pages are the internal citation targets for the wiki and articles.
+Each page links to the original DataTalks.Club episode.
 
-{% assign pages = site.podcast_summaries | sort: "title" %}
+{% assign pages = site.podcast_summaries | sort: "season" | reverse %}
 {% if pages.size > 0 %}
-<div class="list">
+<div class="podcast-list">
 {% for item in pages %}
-  <a class="row" href="{{ item.url | relative_url }}">
-    <strong>{{ item.title }}</strong>
-    <span>{% if item.season %}S{{ item.season }}E{{ item.episode }}{% endif %}</span>
-  </a>
+  <article class="podcast-list-item">
+    <div class="podcast-list-meta">
+      {% if item.season %}<span>Season {{ item.season }}</span>{% endif %}
+      {% if item.episode %}<span>Episode {{ item.episode }}</span>{% endif %}
+    </div>
+    <h2><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h2>
+    {% if item.topics %}
+      <p class="muted">{{ item.topics | join: ", " }}</p>
+    {% endif %}
+    <p>
+      <a href="{{ item.url | relative_url }}">Open local notes</a>
+      {% if item.source_url %} · <a href="{{ item.source_url }}">Original episode</a>{% endif %}
+    </p>
+  </article>
 {% endfor %}
 </div>
 {% else %}
-<p class="muted">Podcast summaries are being drafted from the source archive.</p>
+<p class="muted">Podcast pages are being drafted from the source archive.</p>
 {% endif %}

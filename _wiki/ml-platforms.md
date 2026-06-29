@@ -21,14 +21,6 @@ Use this page for the platform layer. Use [MLOps]({{ '/wiki/mlops/' | relative_u
 for the operating discipline and [Machine Learning Infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }})
 for compute, containers, orchestration, and hardware constraints.
 
-## Contents
-
-Use these links to jump between the main parts.
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -94,18 +86,3 @@ Use these pages for narrower lifecycle and infrastructure topics.
 - [Model Registry]({{ '/wiki/model-registry/' | relative_url }})
 - [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }})
 - [MLOps Roadmap]({{ '/wiki/mlops-roadmap/' | relative_url }})
-
-## Maintenance Notes
-
-Use these source files when expanding this page:
-
-- `../datatalksclub.github.io/_podcast/building-production-ml-platform-and-mlops-team.md`
-- `../datatalksclub.github.io/_podcast/mlops-at-scale-reproducibility-adoption.md`
-- `../datatalksclub.github.io/_podcast/pragmatic-and-standardized-mlops.md`
-- `../datatalksclub.github.io/_podcast/mlops-model-monitoring-data-observability.md`
-- `../datatalksclub.github.io/_podcast/devrel-open-source-machine-learning.md`
-- `../datatalksclub.github.io/_podcast/ai-infrastructure-hybrid-cloud-on-prem-distributed-training.md`
-
-Keep this page platform-wide, and move narrow model lifecycle details to the
-tracking, registry, and monitoring pages. Move low-level compute details to
-[Machine Learning Infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }}).

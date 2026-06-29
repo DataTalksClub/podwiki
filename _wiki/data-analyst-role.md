@@ -22,17 +22,6 @@ dashboard production. Strong analysts quantify problems and interpret metric
 movement. They also write recommendations and help teams decide whether a
 product change, experiment, or data-led flow worked.
 
-## Contents
-
-Use these links to move through the role page.
-
-- [Responsibilities](#responsibilities)
-- [Required Skills](#required-skills)
-- [Boundaries with Nearby Roles](#boundaries-with-nearby-roles)
-- [Guest Descriptions](#guest-descriptions)
-- [Archive Evidence](#archive-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Responsibilities
 
@@ -151,19 +140,3 @@ Use these pages for adjacent analyst and analytics-engineering context.
 - [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
 - [Data Teams]({{ '/wiki/data-teams/' | relative_url }})
 - [Career Transitions in Data]({{ '/wiki/career-transitions-in-data/' | relative_url }})
-
-## Maintenance Notes
-
-Use these notes when updating the page.
-
-- Highest-value source files:
-  `../datatalksclub.github.io/_podcast/data-team-roles.md`,
-  `../datatalksclub.github.io/_podcast/production-ml-mlops-and-data-team-building.md`,
-  `../datatalksclub.github.io/_podcast/hiring-data-scientists-and-analysts.md`,
-  `../datatalksclub.github.io/_podcast/data-led-growth-event-tracking-and-reverse-etl.md`,
-  and `../datatalksclub.github.io/_podcast/get-data-engineering-job-prep-and-interview.md`.
-- Keep this page focused on role practice. Put career-transition detail on
-  [Data Analyst Careers]({{ '/wiki/data-analyst-careers/' | relative_url }}) once
-  that stub is expanded.
-- Future updates should add examples from product analytics, marketing
-  analytics, operations analytics, and analytics-engineering transition episodes.

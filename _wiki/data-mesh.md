@@ -23,16 +23,6 @@ data-sharing contracts. The practical archive lesson isn't "decentralize
 everything." It's to move ownership closer to domains while keeping enough
 platform and governance support for teams to work together.
 
-## Contents
-
-Use these sections:
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Episode Evidence](#episode-evidence)
-- [Tradeoffs](#tradeoffs)
-- [Guest Experts](#guest-experts)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -127,18 +117,3 @@ Useful adjacent pages:
 - [Data Governance]({{ '/wiki/data-governance/' | relative_url }})
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})
 - [Platform Engineering]({{ '/wiki/platform-engineering/' | relative_url }})
-
-## Maintenance Notes
-
-Future maintainers should preserve these source paths:
-
-- Primary source file:
-  `../datatalksclub.github.io/_podcast/data-mesh-architecture-decentralized-data-products.md`.
-- Supporting source file:
-  `../datatalksclub.github.io/_podcast/dataops-principles-and-scalable-data-platforms.md`.
-- Keep this as the concept hub. Use
-  [Data Mesh vs Centralized Data Platform]({{ '/wiki/data-mesh-vs-centralized-data-platform/' | relative_url }})
-  for comparisons and decision framing.
-- Add concrete case studies only when future episodes describe actual domain
-  ownership, data product contracts, governance automation, or failed
-  decentralization.

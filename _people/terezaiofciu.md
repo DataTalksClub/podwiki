@@ -1,13 +1,13 @@
 ---
-layout: person
+layout: "person"
 title: "Tereza Iofciu"
 source_person: "../datatalksclub.github.io/_people/terezaiofciu.md"
-person_id: terezaiofciu
+person_id: "terezaiofciu"
 summary: "Data leader and coach covering career red flags, team roles, stakeholder communication, and the transition into management."
 expertise: ["leadership", "career transition", "communication", "team building", "data science", "hiring"]
 podcast_episodes: ["data-leadership-coaching", "data-science-job-red-flags-and-mismatched-roles"]
+source_url: "https://datatalks.club/people/terezaiofciu.html"
 ---
-
 ## Background
 
 Tereza Iofciu is an experienced data practitioner whose source bio spans data science management, data science, data engineering, product management, coaching, teaching, PyLadies Hamburg, and Python Software Foundation community work.

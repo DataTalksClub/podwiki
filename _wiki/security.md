@@ -25,14 +25,6 @@ is specifically about adversarial testing. Use
 is ownership, catalogs, or access workflows. Put policy and lineage evidence
 there too.
 
-## Contents
-
-Use these sections to move through the page.
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -91,18 +83,3 @@ Use these pages for adjacent governance, production, and LLM topics.
 - [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
 - [Production]({{ '/wiki/production/' | relative_url }})
 - [MLOps]({{ '/wiki/mlops/' | relative_url }})
-
-## Maintenance Notes
-
-Best source files for future expansion:
-
-- `../datatalksclub.github.io/_podcast/generative-ai-chatbots-in-production-security.md`
-- `../datatalksclub.github.io/_podcast/data-governance-data-access-management.md`
-- `../datatalksclub.github.io/_podcast/data-privacy-engineering-gdpr-machine-learning.md`
-- `../datatalksclub.github.io/_podcast/fairness-in-ai-ml-engineering.md`
-- `../datatalksclub.github.io/_podcast/mlops-and-ml-engineering-in-finance.md`
-
-When adding evidence, name the protected asset and the threat model. Also name
-the control and the operating owner. Keep broad governance principles on
-[Governance]({{ '/wiki/governance/' | relative_url }}) unless the episode
-describes a concrete security control.

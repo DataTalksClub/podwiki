@@ -22,14 +22,6 @@ Use this page for experiment planning, not statistical derivations. Use
 [A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }}) for the broader
 randomized experiment workflow.
 
-## Contents
-
-Use these sections:
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -83,15 +75,3 @@ Useful adjacent pages:
 - [Evaluation]({{ '/wiki/evaluation/' | relative_url }})
 - [Experimentation]({{ '/wiki/experimentation/' | relative_url }})
 - [Experimentation and Causal Inference]({{ '/wiki/experimentation-and-causal-inference/' | relative_url }})
-
-## Maintenance Notes
-
-Future maintainers should preserve these source paths and boundaries:
-
-- Keep this page practical. Don't turn it into a formula reference unless the
-  archive later contains a teaching episode with worked calculations.
-- Best source file:
-  `../datatalksclub.github.io/_podcast/ab-testing-and-product-experimentation.md`.
-- Future expansion should add a compact glossary for type I error, type II
-  error, minimum detectable effect, baseline rate, and variance if these pages
-  become a statistics learning path.

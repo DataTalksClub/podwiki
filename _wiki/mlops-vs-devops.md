@@ -23,15 +23,6 @@ MLOps as a specialized extension of software and platform engineering. The
 systems behave differently because they depend on data and model artifacts as
 well as code.
 
-## Contents
-
-- [Comparison](#comparison)
-- [Borrowed DevOps Practices](#borrowed-devops-practices)
-- [Added ML Concerns](#added-ml-concerns)
-- [Ownership Triggers](#ownership-triggers)
-- [Podcast Evidence](#podcast-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Comparison
 
@@ -147,18 +138,3 @@ Use these pages for adjacent operating and production topics.
 - [Production]({{ '/wiki/production/' | relative_url }})
 - [Machine Learning Infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }})
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})
-
-## Maintenance Notes
-
-Use these notes when updating the page.
-
-- Highest-value source files:
-  `../datatalksclub.github.io/_podcast/building-production-ml-platform-and-mlops-team.md`,
-  `../datatalksclub.github.io/_podcast/pragmatic-and-standardized-mlops.md`,
-  `../datatalksclub.github.io/_podcast/mlops-at-scale-reproducibility-adoption.md`,
-  `../datatalksclub.github.io/_podcast/mlops-model-monitoring-data-observability.md`,
-  and `../datatalksclub.github.io/_podcast/dataops-and-gitops-best-practices-for-data-teams.md`.
-- Avoid making this a generic DevOps explainer. Add DevOps material only when it
-  clarifies what MLOps borrows or extends.
-- Add compact evidence for SRE and on-call practice when more archive clips
-  discuss incident response around model systems.

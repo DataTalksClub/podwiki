@@ -27,15 +27,6 @@ analysis. Teams shouldn't stop at reporting what users did. They use the data
 inside the tools where they email users, support customers, prioritize sales
 work, and structure product experiences.
 
-## Contents
-
-Use these sections:
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Episode Evidence](#episode-evidence)
-- [Tradeoffs](#tradeoffs)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -104,17 +95,3 @@ Useful adjacent pages:
 - [Event Tracking]({{ '/wiki/event-tracking/' | relative_url }})
 - [Tracking Plans]({{ '/wiki/tracking-plans/' | relative_url }})
 - [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
-
-## Maintenance Notes
-
-Future maintainers should preserve these source paths:
-
-- Best source files:
-  `../datatalksclub.github.io/_podcast/data-led-growth-event-tracking-and-reverse-etl.md`
-  and `../datatalksclub.github.io/_podcast/data-engineering-tools-modern-data-stack.md`.
-- Keep this page focused on the last-mile use of data in tools and workflows.
-  Use [Reverse ETL]({{ '/wiki/reverse-etl/' | relative_url }}) for the specific
-  warehouse-to-tool sync path.
-- Add new examples only when the episode names the workflow or destination.
-  Product analytics should appear here only when the episode treats it as an
-  activation destination.

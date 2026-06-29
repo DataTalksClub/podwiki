@@ -26,16 +26,6 @@ of AI. In current episodes, modern AI work combines software engineering, data
 engineering, evaluation, domain knowledge, model behavior, infrastructure, and
 governance.
 
-## Contents
-
-Use these sections to separate broad AI usage from LLM-era engineering detail.
-
-- [Scope](#scope)
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Role and Content Boundaries](#role-and-content-boundaries)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Scope
 
@@ -203,18 +193,3 @@ Use these pages for adjacent topics and deeper implementation detail.
 - [Machine Learning]({{ '/wiki/machine-learning/' | relative_url }})
 - [Data Science]({{ '/wiki/data-science/' | relative_url }})
 - [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }})
-
-## Maintenance Notes
-
-- Highest-value source files for future expansion:
-  `../datatalksclub.github.io/_podcast/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products.md`,
-  `../datatalksclub.github.io/_podcast/s23e05-inside-ai-engineer-role-tools-skills-and-career-path.md`,
-  `../datatalksclub.github.io/_podcast/s23e07-understanding-ai-engineer-role.md`,
-  `../datatalksclub.github.io/_podcast/production-ready-ai-engineering.md`,
-  and `../datatalksclub.github.io/_podcast/ai-infrastructure-hybrid-cloud-on-prem-distributed-training.md`.
-- Good future additions: a dedicated AI engineer role page, an AI engineering
-  roadmap, an agent evaluation page, and a stronger bridge to security and
-  red-teaming episodes.
-- Avoid using this page as a generic AI encyclopedia. Keep it anchored in how
-  the archive uses "AI", especially the post-ChatGPT shift toward LLM products,
-  agents, infrastructure, and evaluation.

@@ -22,14 +22,6 @@ Use this page when the evidence is model-specific. Use
 the evidence focuses on freshness, schema, volume, or lineage. Pipeline
 incidents without a model-specific focus also belong there.
 
-## Contents
-
-Use these links to jump between the main parts.
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -89,17 +81,3 @@ Use these pages for adjacent reliability topics.
 - [ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }})
 - [Production]({{ '/wiki/production/' | relative_url }})
 - [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
-
-## Maintenance Notes
-
-Use these source files when expanding this page:
-
-- `../datatalksclub.github.io/_podcast/mlops-model-monitoring-data-observability.md`
-- `../datatalksclub.github.io/_podcast/feature-engineering-model-monitoring-and-data-governance.md`
-- `../datatalksclub.github.io/_podcast/building-production-ml-platform-and-mlops-team.md`
-- `../datatalksclub.github.io/_podcast/mlops-at-scale-reproducibility-adoption.md`
-- `../datatalksclub.github.io/_podcast/human-centered-mlops-and-model-monitoring.md`
-
-Add future evidence when a source names what's monitored, who receives alerts,
-how teams diagnose root cause, or what triggers retraining. Keep generic data
-quality evidence on the observability pages unless the model impact is explicit.

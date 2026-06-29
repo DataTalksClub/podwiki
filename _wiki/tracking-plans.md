@@ -22,15 +22,6 @@ Tracking plans overlap with governance and data contracts. They govern product
 behavior data at collection time, before downstream teams inherit ambiguous or
 duplicated event names.
 
-## Contents
-
-Use these sections:
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Episode Evidence](#episode-evidence)
-- [Tradeoffs](#tradeoffs)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -99,16 +90,3 @@ Useful adjacent pages:
 - [Data Governance]({{ '/wiki/data-governance/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [Streaming]({{ '/wiki/streaming/' | relative_url }})
-
-## Maintenance Notes
-
-Future maintainers should preserve these source paths:
-
-- Primary source file:
-  `../datatalksclub.github.io/_podcast/data-led-growth-event-tracking-and-reverse-etl.md`.
-- Screenshots or example templates aren't appropriate unless the user requests a
-  website PR, so keep this page as podcast-backed synthesis.
-- If future episodes discuss data contracts for events, add them here only when
-  they apply to product or behavioral instrumentation. Broader
-  producer-consumer contracts belong on [Data Products]({{ '/wiki/data-products/' | relative_url }})
-  or [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}).

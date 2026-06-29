@@ -24,15 +24,6 @@ tools, or reverse ETL. Use
 [Data Activation]({{ '/wiki/data-activation/' | relative_url }}) for the
 broader work of pushing data into action.
 
-## Contents
-
-Use these sections:
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Episode Evidence](#episode-evidence)
-- [Tradeoffs](#tradeoffs)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -99,15 +90,3 @@ Useful adjacent pages:
 - [Event Tracking]({{ '/wiki/event-tracking/' | relative_url }})
 - [Tracking Plans]({{ '/wiki/tracking-plans/' | relative_url }})
 - [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
-
-## Maintenance Notes
-
-Future maintainers should preserve the primary source file:
-
-- Source:
-  `../datatalksclub.github.io/_podcast/data-led-growth-event-tracking-and-reverse-etl.md`.
-- Add more evidence only when guests discuss CDP use cases, identity,
-  segmentation, customer profiles, or activation tradeoffs so this page doesn't
-  become a vendor directory.
-- Keep the comparison with reverse ETL grounded in workflow ownership: who
-  defines customer logic, where data is modeled, and which tools consume it.

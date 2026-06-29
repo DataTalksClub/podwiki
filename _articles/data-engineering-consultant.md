@@ -45,24 +45,6 @@ and
 For the narrower practitioner keyword, see
 [Data Engineer Consultant]({{ '/articles/data-engineer-consultant/' | relative_url }}).
 
-## Search Intent
-
-People searching for `data engineering consultant` usually have commercial
-intent. The searcher may be a founder, CTO, product leader, or data leader.
-They need to decide whether an outside expert can solve a specific data
-problem.
-
-They usually need to understand:
-
-- which services a data engineering consultant provides
-- when consulting is better than hiring a full-time data engineer
-- how discovery, scope, pricing, delivery, and handoff should work
-- which proof shows that the consultant can reduce business and technical risk
-- which clients are a good fit for a consulting engagement
-- how a practitioner can position themselves beyond temporary engineering labor
-
-Rather than shopping only for code, the buyer is paying for diagnosis and
-sequencing. Implementation and transfer of ownership matter too.
 
 ## Article Outline
 

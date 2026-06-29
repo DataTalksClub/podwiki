@@ -1,13 +1,13 @@
 ---
-layout: person
+layout: "person"
 title: "Ranjitha Kulkarni"
 source_person: "../datatalksclub.github.io/_people/ranjithakulkarni.md"
-person_id: ranjithakulkarni
+person_id: "ranjithakulkarni"
 summary: "Staff ML engineer focused on agentic AI, assistant evaluation, retrieval, and pragmatic LLM product engineering."
 expertise: ["LLMs", "AI", "agent engineering", "retrieval-augmented generation", "MLOps", "tools"]
 podcast_episodes: ["building-agentic-ai-engineering-tooling-retrieval-evaluation"]
+source_url: "https://datatalks.club/people/ranjithakulkarni.html"
 ---
-
 ## Background
 
 Ranjitha Gurunath Kulkarni is a Staff Machine Learning Engineer at NeuBird.ai. Her source bio highlights prior work on LLM- and agent-powered product capabilities at Dropbox Dash, plus speech recognition, language modeling, online metrics, and assistant evaluation at Microsoft.

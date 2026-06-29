@@ -23,14 +23,6 @@ for model deployment patterns and
 [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
 for retrieval-heavy systems.
 
-## Contents
-
-Use these links to jump between the main NLP sections.
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -93,16 +85,3 @@ Use these pages for deeper treatment of nearby topics.
 - [Embeddings]({{ '/wiki/embeddings/' | relative_url }})
 - [MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }})
 - [Open Source and Developer Relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }})
-
-## Maintenance Notes
-
-Future updates should keep this page broad unless the archive supports a focused
-NLP subpage.
-
-- Add podcast summaries for `nlp-team-hiring-and-production-mlops.md`,
-  `nlp-dataset-creation-annotation-tools-workflows.md`, and
-  `hugging-face-contributions-and-nlp-portfolio.md`.
-- Split the topic only when the archive has enough evidence for a focused page
-  such as NLP team structure, NLP datasets, or machine translation.
-- When adding LLM evidence, explain how it changes an NLP workflow instead of
-  tagging every LLM episode as NLP.

@@ -22,15 +22,6 @@ This page uses the data-led growth episode as the main source. That episode
 treats event tracking as the first technical step in product analytics and data
 activation.
 
-## Contents
-
-Use these sections:
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Episode Evidence](#episode-evidence)
-- [Tradeoffs](#tradeoffs)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -95,15 +86,3 @@ Useful adjacent pages:
 - [Data Activation]({{ '/wiki/data-activation/' | relative_url }})
 - [Reverse ETL]({{ '/wiki/reverse-etl/' | relative_url }})
 - [Experimentation]({{ '/wiki/experimentation/' | relative_url }})
-
-## Maintenance Notes
-
-Future maintainers should preserve these source paths:
-
-- Primary source file:
-  `../datatalksclub.github.io/_podcast/data-led-growth-event-tracking-and-reverse-etl.md`.
-- Future updates should add timestamped examples from product analytics,
-  experimentation, and streaming episodes when they discuss event semantics,
-  schemas, or instrumentation.
-- Keep raw transcript-copy examples out of this page. Summarize event examples
-  and link to the source episode instead.

@@ -24,20 +24,6 @@ definition, start with
 [the MLOps definition article]({{ '/articles/what-is-mlops/' | relative_url }}). For the
 archive-backed reference page, use [MLOps]({{ '/wiki/mlops/' | relative_url }}).
 
-## Search Intent
-
-People searching for "mlops" usually want more than a definition. They want to
-know what belongs in MLOps, who does the work, and how to implement it without
-buying every tool category in one pass.
-
-You'll get four pieces:
-
-1. The practical scope of MLOps.
-2. Team responsibilities across data science, ML engineering, data engineering,
-   platform, DevOps, and product.
-3. A rollout sequence from reproducibility to monitoring and platform adoption.
-4. Podcast-backed evidence and deeper pages for tools, roles, roadmaps, and
-   production ML.
 
 ## Practical Scope
 

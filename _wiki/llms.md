@@ -21,14 +21,6 @@ Use [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url
 as the larger hub for production design. Use this bridge for episodes and
 people pages that use the `LLMs` topic slug.
 
-## Contents
-
-Use these links to jump between the main LLM sections.
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -93,16 +85,3 @@ Use these pages for deeper treatment of nearby topics.
 - [Generative AI]({{ '/wiki/generative-ai/' | relative_url }})
 - [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }})
 - [MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }})
-
-## Maintenance Notes
-
-Future updates should keep this page concise and route deeper material to the
-larger hubs.
-
-- Keep deeper production guidance in
-  [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }}).
-- Add compact podcast summaries for `deploying-llms-in-production-fine-tuning-retrieval-open-source-api.md`,
-  `practical-llm-engineering-and-rag.md`, and
-  `building-agentic-ai-engineering-tooling-retrieval-evaluation.md`.
-- When new LLM episodes appear, classify evidence by model choice, grounding,
-  evaluation, deployment, security, and product workflow.

@@ -23,14 +23,6 @@ ML evaluation, and data product management. Use
 [Power Analysis]({{ '/wiki/power-analysis/' | relative_url }}) for how metric
 variance affects experiment duration.
 
-## Contents
-
-Use these sections:
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -94,17 +86,3 @@ Useful adjacent pages:
 - [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }})
 - [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
 - [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
-
-## Maintenance Notes
-
-Future maintainers should preserve these source paths and boundaries:
-
-- Keep this page about metric design and interpretation. Use
-  [Evaluation]({{ '/wiki/evaluation/' | relative_url }}) for the broader
-  validation process.
-- Best source files:
-  `../datatalksclub.github.io/_podcast/ab-testing-and-product-experimentation.md`,
-  `../datatalksclub.github.io/_podcast/causal-inference-for-machine-learning.md`,
-  and `../datatalksclub.github.io/_podcast/production-ml-mlops-and-data-team-building.md`.
-- Future expansion should add metric-governance evidence from analytics
-  engineering and data product episodes when transcript timestamps are verified.

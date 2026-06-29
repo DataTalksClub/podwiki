@@ -22,14 +22,6 @@ Use this page for model understanding and explanation. Use
 when the main concern is fairness, accountability, compliance, or human
 oversight.
 
-## Contents
-
-Use these sections to move through the page.
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -88,17 +80,3 @@ Use these pages for adjacent ML, monitoring, and governance topics.
 - [Data Science]({{ '/wiki/data-science/' | relative_url }})
 - [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }})
 - [MLOps]({{ '/wiki/mlops/' | relative_url }})
-
-## Maintenance Notes
-
-Best source files for future expansion:
-
-- `../datatalksclub.github.io/_podcast/interpretable-machine-learning.md`
-- `../datatalksclub.github.io/_podcast/responsible-explainable-ai-bias-detection.md`
-- `../datatalksclub.github.io/_podcast/fairness-in-ai-ml-engineering.md`
-- `../datatalksclub.github.io/_podcast/machine-learning-engineering-production-best-practices.md`
-
-When adding evidence, name the audience for the explanation. That audience may
-be a model developer, business owner, or domain expert. It may also be an
-auditor or affected user. Keep tool lists short unless the transcript explains
-how the tool changes a modeling or governance decision.

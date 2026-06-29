@@ -27,14 +27,6 @@ how to read them. Employer-side hiring work belongs in
 [Hiring]({{ '/wiki/hiring/' | relative_url }}). Candidate tactics belong in
 [Job Search]({{ '/wiki/job-search/' | relative_url }}).
 
-## Contents
-
-Use these links to move through the page.
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -101,18 +93,3 @@ Use these pages for adjacent hiring and candidate context.
 - [Data Analyst Careers]({{ '/wiki/data-analyst-careers/' | relative_url }})
 - [CV Screening]({{ '/wiki/cv-screening/' | relative_url }})
 - [Data Teams]({{ '/wiki/data-teams/' | relative_url }})
-
-## Maintenance Notes
-
-Use these notes when updating the page.
-
-- Keep this page about the description. Put screening mechanics on
-  [CV Screening]({{ '/wiki/cv-screening/' | relative_url }}) and broader hiring
-  work on [Hiring]({{ '/wiki/hiring/' | relative_url }}).
-- High-value source files:
-  `../datatalksclub.github.io/_podcast/hiring-data-scientists-and-analysts.md`,
-  `../datatalksclub.github.io/_podcast/data-science-job-red-flags-and-mismatched-roles.md`,
-  `../datatalksclub.github.io/_podcast/get-data-scientist-job.md`, and
-  `../datatalksclub.github.io/_podcast/data-science-interview-and-cv-guide.md`.
-- Future updates should add examples from data engineering, analytics
-  engineering, AI engineering, and manager-versus-expert job descriptions.

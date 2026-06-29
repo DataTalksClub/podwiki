@@ -23,21 +23,6 @@ and hiring-manager episodes into a preparation sequence. The recurring lesson
 is that candidates should prepare for the actual role, not an abstract "data
 scientist" title.
 
-## Contents
-
-Use these sections to move from targeting to final-round readiness.
-
-- [Stage 1: Pick the Target Role Type](#stage-1-pick-the-target-role-type)
-- [Stage 2: Make the CV and Portfolio Easy to Screen](#stage-2-make-the-cv-and-portfolio-easy-to-screen)
-- [Stage 3: Prepare Recruiter and Intro Screens](#stage-3-prepare-recruiter-and-intro-screens)
-- [Stage 4: Practice Technical Fundamentals](#stage-4-practice-technical-fundamentals)
-- [Stage 5: Prepare Case, Behavioral, and Offer Rounds](#stage-5-prepare-case-behavioral-and-offer-rounds)
-- [Practice Sequence](#practice-sequence)
-- [Role Milestones](#role-milestones)
-- [Interview Boundary](#interview-boundary)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Stage 1: Pick the Target Role Type
 
@@ -185,20 +170,3 @@ Use these pages for adjacent topics.
 - [CV Screening]({{ '/wiki/cv-screening/' | relative_url }})
 - [Career Growth]({{ '/wiki/career-growth/' | relative_url }})
 - [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
-
-## Maintenance Notes
-
-Use these source files when expanding the page.
-
-- `../datatalksclub.github.io/_podcast/machine-learning-data-science-interview-prep.md`
-- `../datatalksclub.github.io/_podcast/data-science-interview-and-cv-guide.md`
-- `../datatalksclub.github.io/_podcast/get-data-scientist-job.md`
-- `../datatalksclub.github.io/_podcast/data-interview-behavioral-and-portfolio-prep-guide.md`
-- `../datatalksclub.github.io/_podcast/hiring-data-scientists-and-analysts.md`
-- `../datatalksclub.github.io/_podcast/machine-learning-system-design-interview.md`
-
-Future updates should add role-specific branches for product data scientist,
-research scientist, ML engineer, and analytics-heavy data scientist interviews.
-Keep this page practical and evidence-backed. Generic interview question banks
-belong elsewhere unless an archive episode explains why a question tests a role
-skill.

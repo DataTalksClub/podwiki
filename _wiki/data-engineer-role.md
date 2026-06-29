@@ -23,17 +23,6 @@ engineers own infrastructure, warehouses, lakes, streaming, and compute. Others
 work closer to product domains and build modeled data products for analytics.
 Job descriptions need to say which version they mean.
 
-## Contents
-
-Use these links to move through the role page.
-
-- [Responsibilities](#responsibilities)
-- [Required Skills](#required-skills)
-- [Boundaries with Nearby Roles](#boundaries-with-nearby-roles)
-- [Guest Descriptions](#guest-descriptions)
-- [Archive Evidence](#archive-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Responsibilities
 
@@ -159,19 +148,3 @@ Use these pages for adjacent role and platform context.
 - [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
 - [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
 - [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
-
-## Maintenance Notes
-
-Use these notes when updating the page.
-
-- Highest-value source files:
-  `../datatalksclub.github.io/_podcast/data-team-roles.md`,
-  `../datatalksclub.github.io/_podcast/big-data-engineer-vs-data-scientist.md`,
-  `../datatalksclub.github.io/_podcast/data-engineering-career-path-and-skills.md`,
-  `../datatalksclub.github.io/_podcast/get-data-engineering-job-prep-and-interview.md`,
-  and `../datatalksclub.github.io/_podcast/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for.md`.
-- Keep this page role-focused. Put architecture detail on
-  [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}) and
-  [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}).
-- Add new evidence when guests clarify platform versus product data
-  engineering, AI-era data engineering, or concrete hiring expectations.

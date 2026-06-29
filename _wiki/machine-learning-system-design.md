@@ -24,15 +24,6 @@ archive-level lesson is that the model is only one component. Guests repeatedly
 return to goals, data quality, baselines, latency, evaluation, monitoring,
 fallbacks, documentation, and organizational ownership.
 
-## Contents
-
-- [Scope](#scope)
-- [Recurring Patterns From Episodes](#recurring-patterns-from-episodes)
-- [Decision Points and Checklist](#decision-points-and-checklist)
-- [Episode Evidence](#episode-evidence)
-- [Tradeoffs and Disagreements](#tradeoffs-and-disagreements)
-- [Related Pages](#related-pages)
-- [Agent Maintenance Notes](#agent-maintenance-notes)
 
 ## Scope
 

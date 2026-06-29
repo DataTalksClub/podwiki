@@ -24,14 +24,6 @@ validation, [Power Analysis]({{ '/wiki/power-analysis/' | relative_url }}) for
 sample size planning, and [Metrics]({{ '/wiki/metrics/' | relative_url }}) for
 metric choice.
 
-## Contents
-
-Use these sections:
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -87,16 +79,3 @@ Useful adjacent pages:
 - [Causal Inference]({{ '/wiki/causal-inference/' | relative_url }})
 - [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }})
 - [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
-
-## Maintenance Notes
-
-Future maintainers should preserve these source paths and boundaries:
-
-- Keep this page about randomized online tests, not every product discovery
-  experiment.
-- Best source file:
-  `../datatalksclub.github.io/_podcast/ab-testing-and-product-experimentation.md`.
-  Use `../datatalksclub.github.io/_podcast/production-ml-mlops-and-data-team-building.md`
-  for model rollout examples.
-- Add more concrete examples only when transcripts include treatment,
-  randomization unit, metric, and decision context.

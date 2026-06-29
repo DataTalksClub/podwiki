@@ -25,14 +25,6 @@ challenge is usually translation: product framing, production engineering,
 industry interviews, business language, and showing which research outputs
 matter to an employer or client.
 
-## Contents
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Transition Patterns](#transition-patterns)
-- [Episode Evidence](#episode-evidence)
-- [Guest Experts](#guest-experts)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -143,15 +135,3 @@ sharing.
 - [Hiring]({{ '/wiki/hiring/' | relative_url }})
 - [Open Source and Developer Relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }})
 - [MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }})
-
-## Maintenance Notes
-
-- This page should stay broad: academia as source of data work, transition
-  patterns, and open-science practice. Create "academic researcher to data
-  science" only as a narrower transition page.
-- Add local summaries for `from-academic-research-to-data-engineering-freelancing.md`,
-  `from-large-hadron-collider-to-data-science-research-software-engineering.md`,
-  `from-radio-astronomy-to-machine-learning-and-data-engineering.md`, and
-  `teaching-reproducible-research-and-open-science-coding-practices-for-academia.md`.
-- Future updates should separate staying in academia from leaving academia,
-  because the evidence supports both paths.

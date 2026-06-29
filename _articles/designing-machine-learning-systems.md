@@ -30,21 +30,6 @@ the shorter checklist, see
 For interview prep, see
 [machine learning system design interview]({{ '/articles/machine-learning-system-design-interview/' | relative_url }}).
 
-## Search Intent
-
-People searching for `designing machine learning systems` usually want a guide
-they can apply to real projects. They may also know the book or interview topic,
-but they need a project-oriented path. They aren't looking for a PDF, download
-page, or list of model architectures.
-
-You'll get:
-
-1. A design sequence for production ML systems.
-2. Podcast-backed examples from fraud detection, recommender systems, edge ML,
-   ML platforms, and monitoring.
-3. Tradeoffs for data, baselines, serving, operations, and platform investment.
-4. Links to deeper archive pages for MLOps, ML platforms, monitoring,
-   infrastructure, and ML engineering roles.
 
 ## The Design Sequence
 

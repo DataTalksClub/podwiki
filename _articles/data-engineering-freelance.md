@@ -34,21 +34,6 @@ For the broader role foundation, see
 and
 [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }}).
 
-## Search Intent
-
-People searching for "data engineering freelance" usually want practical
-answers:
-
-- what freelance data engineers actually do
-- how freelance work differs from full-time data engineering
-- which services are easiest to sell first
-- how to prove credibility without a long client list
-- how pricing, referrals, agencies, and direct clients work
-- how portfolio projects can become reusable client assets
-
-Use this guide to connect those questions to podcast-backed evidence. It's not
-a generic rate card. Freelance rates depend on market and seniority.
-Relationships, project boundaries, and risk matter too.
 
 ## Article Outline
 

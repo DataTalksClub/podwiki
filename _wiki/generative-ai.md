@@ -22,14 +22,6 @@ for production engineering and
 [Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }})
 for risk, trust, and oversight.
 
-## Contents
-
-Use these links to jump between the main generative AI sections.
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -91,14 +83,3 @@ Use these pages for deeper treatment of nearby topics.
 - [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }})
 - [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
 - [Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }})
-
-## Maintenance Notes
-
-Future updates should separate model capability from risk and workflow evidence.
-
-- Keep broad AI governance claims on
-  [Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }}).
-- Add a podcast summary for `generative-ai-chatbots-in-production-security.md`
-  before expanding the security section.
-- When adding examples, separate model capability from workflow integration,
-  evaluation, and risk controls.

@@ -22,16 +22,6 @@ only install tools. Guests describe it as an enabling role. MLOps engineers make
 deployment repeatable, preserve experiment context, give data scientists a safe
 path to production, and make model behavior visible after release.
 
-## Search Intent
-
-People searching for "mlops engineer" usually want a role guide, not a broad
-definition of MLOps. They need to know what the job includes and which skills
-matter. They also need role boundaries, common tools, and portfolio ideas that
-map to interviews.
-
-For the broader operating discipline, see
-[MLOps]({{ '/wiki/mlops/' | relative_url }}) and
-[MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }}).
 
 ## Role Scope
 

@@ -1,13 +1,13 @@
 ---
-layout: person
+layout: "person"
 title: "Lavanya Gupta"
 source_person: "../datatalksclub.github.io/_people/lavanyagupta.md"
-person_id: lavanyagupta
+person_id: "lavanyagupta"
 summary: "Applied AI/ML researcher connecting long-context LLM evaluation, industry publishing, prototyping, and career growth."
 expertise: ["LLMs", "NLP", "MLOps", "applied research", "career growth"]
 podcast_episodes: ["applied-llm-research-and-career-growth-in-practice"]
+source_url: "https://datatalks.club/people/lavanyagupta.html"
 ---
-
 ## Background
 
 Lavanya Gupta is a Carnegie Mellon Language Technologies Institute alum and Senior AI/ML Applied Scientist at JPMorgan Chase's Machine Learning Center of Excellence. Her source bio emphasizes industrial research, technical speaking, and research-review work.

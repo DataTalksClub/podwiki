@@ -1,13 +1,13 @@
 ---
-layout: person
+layout: "person"
 title: "Bartosz Mikulski"
 source_person: "../datatalksclub.github.io/_people/bartoszmikulski.md"
-person_id: bartoszmikulski
+person_id: "bartoszmikulski"
 summary: "AI and data engineer specializing in moving AI projects from demos to production through testing, pipelines, prompt optimization, and caching."
 expertise: ["data engineering", "AI", "LLMs", "MLOps", "tools"]
 podcast_episodes: ["production-ready-ai-engineering"]
+source_url: "https://datatalks.club/people/bartoszmikulski.html"
 ---
-
 ## Background
 
 Bartosz Mikulski is an AI and data engineer. His source bio emphasizes productionizing AI projects by building testing infrastructure and fixing issues found by tests, plus teaching and conference speaking.

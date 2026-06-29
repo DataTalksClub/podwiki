@@ -23,14 +23,6 @@ practical responsibilities. For the whole candidate journey, read
 [Job Search]({{ '/wiki/job-search/' | relative_url }}). For employer-side
 funnel design, read [Hiring]({{ '/wiki/hiring/' | relative_url }}).
 
-## Contents
-
-Use these links to move through the page.
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -109,17 +101,3 @@ Use these pages for adjacent screening, hiring, and portfolio context.
 - [Data Science Careers]({{ '/wiki/data-science-careers/' | relative_url }})
 - [Data Analyst Careers]({{ '/wiki/data-analyst-careers/' | relative_url }})
 - [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
-
-## Maintenance Notes
-
-Use these notes when updating the page.
-
-- Keep this page on first-pass evidence and recruiter screens. Detailed
-  interview preparation belongs in [Data Scientist Interview Roadmap]({{ '/wiki/data-scientist-interview-roadmap/' | relative_url }}).
-- High-value source files:
-  `../datatalksclub.github.io/_podcast/hiring-data-scientists-and-analysts.md`,
-  `../datatalksclub.github.io/_podcast/data-science-interview-and-cv-guide.md`,
-  and `../datatalksclub.github.io/_podcast/get-data-scientist-job.md`.
-- Future updates should add examples of analyst, data engineering,
-  analytics-engineering, and AI-engineering CV screening once the archive has
-  enough role-specific recruiter evidence.

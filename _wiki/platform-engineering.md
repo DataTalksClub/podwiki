@@ -22,14 +22,6 @@ support models. It also fits internal customers and adoption. Use [ML Platforms]
 for the platform surface and [Machine Learning Infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }})
 for compute and orchestration details.
 
-## Contents
-
-Use these links to jump between the main parts.
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -92,17 +84,3 @@ Use these pages for adjacent platform and MLOps topics.
 - [MLOps vs DevOps]({{ '/wiki/mlops-vs-devops/' | relative_url }})
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
 - [Platform Adoption]({{ '/wiki/platform-adoption/' | relative_url }})
-
-## Maintenance Notes
-
-Use these source files when expanding this page:
-
-- `../datatalksclub.github.io/_podcast/building-production-ml-platform-and-mlops-team.md`
-- `../datatalksclub.github.io/_podcast/mlops-at-scale-reproducibility-adoption.md`
-- `../datatalksclub.github.io/_podcast/devrel-open-source-machine-learning.md`
-- `../datatalksclub.github.io/_podcast/mlops-model-monitoring-data-observability.md`
-- `../datatalksclub.github.io/_podcast/scaling-data-engineering-teams-self-service-platforms.md`
-
-Keep this page about team design and enablement. Put specific tooling details
-on [ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }}) or the narrower
-tracking, registry, monitoring, and infrastructure pages.

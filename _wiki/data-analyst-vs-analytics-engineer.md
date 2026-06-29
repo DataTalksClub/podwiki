@@ -21,14 +21,6 @@ person may do both. The boundary becomes useful when repeated business logic and
 metric definitions need an owner. dbt models, semantic layers, and data quality
 checks create the same pressure.
 
-## Contents
-
-- [Comparison](#comparison)
-- [Boundary Principles](#boundary-principles)
-- [Ownership Triggers](#ownership-triggers)
-- [Podcast Evidence](#podcast-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Comparison
 
@@ -149,19 +141,3 @@ Use these pages for adjacent role, analytics, and product topics.
 - [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
 - [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }})
 - [dbt]({{ '/wiki/dbt/' | relative_url }})
-
-## Maintenance Notes
-
-Use these notes when updating the page.
-
-- Highest-value source files:
-  `../datatalksclub.github.io/_podcast/data-team-roles.md`,
-  `../datatalksclub.github.io/_podcast/analytics-engineer-skills-tools.md`,
-  `../datatalksclub.github.io/_podcast/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices.md`,
-  `../datatalksclub.github.io/_podcast/from-marketing-to-analytics-engineering-sql-dbt-career-switch.md`,
-  and `../datatalksclub.github.io/_podcast/data-led-growth-event-tracking-and-reverse-etl.md`.
-- Keep this page focused on ownership boundaries. Put implementation depth on
-  [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }}).
-- Expand [Data Analyst Careers]({{ '/wiki/data-analyst-careers/' | relative_url }})
-  with archive-backed role evidence. Then link this page to specific analyst
-  career clips.

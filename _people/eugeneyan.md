@@ -1,13 +1,13 @@
 ---
-layout: person
+layout: "person"
 title: "Eugene Yan"
 source_person: "../datatalksclub.github.io/_people/eugeneyan.md"
-person_id: eugeneyan
+person_id: "eugeneyan"
 summary: "Applied ML practitioner and writer connecting production ML, technical writing, communication, and community learning."
 expertise: ["machine learning", "software engineering", "communication", "career transition", "community building"]
-podcast_episodes: ["technical-writing-for-data-scientists", "datatalksclub-building-scaling-data-community"]
+podcast_episodes: ["datatalksclub-building-scaling-data-community", "technical-writing-for-data-scientists"]
+source_url: "https://datatalks.club/people/eugeneyan.html"
 ---
-
 ## Background
 
 Eugene Yan works at the intersection of machine learning and product, with source bio experience at Amazon, Lazada, and uCare.ai. He writes and speaks about data science, ML in production, and career growth.

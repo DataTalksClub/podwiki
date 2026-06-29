@@ -1,0 +1,21 @@
+---
+layout: person
+title: "Willem Pienaar"
+summary: "Willem Pienaar's DataTalks.Club podcast discussions, organized for topic exploration."
+source_url: "https://datatalks.club/people/willempienaar.html"
+podcast_episodes: ["mlops-feature-stores-feature-stores-feast-tecton"]
+github: "woop"
+twitter: "willpienaar"
+linkedin: "willempienaar"
+web: "https://feast.dev/"
+---
+
+# Willem Pienaar
+
+## Background
+
+Willem Pienaar is an engineering lead at Tecton and the creator of Feast
+
+## Podcast Discussions
+
+- [Feature Stores for MLOps: Real-Time Feature Engineering, Feast & Tecton Guide]({{ '/podcasts/mlops-feature-stores-feature-stores-feast-tecton/' | relative_url }}). Related topics: [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [MLOps]({{ '/wiki/mlops/' | relative_url }}), feature stores, [tools]({{ '/wiki/tools/' | relative_url }}).

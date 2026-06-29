@@ -1,13 +1,13 @@
 ---
-layout: person
+layout: "person"
 title: "Atita Arora"
 source_person: "../datatalksclub.github.io/_people/atitaarora.md"
-person_id: atitaarora
+person_id: "atitaarora"
 summary: "Information retrieval practitioner connecting vector databases, semantic search, LLMs, embeddings, and open-source search evaluation."
 expertise: ["NLP", "LLMs", "MLOps", "machine learning", "data engineering", "search"]
 podcast_episodes: ["modern-search-systems-vector-databases-llms-semantic-retrieval"]
+source_url: "https://datatalks.club/people/atitaarora.html"
 ---
-
 ## Podcast Context
 
 Atita Arora is the archive's strongest single-person bridge between classical

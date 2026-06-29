@@ -23,14 +23,6 @@ managers, career coaches, interview coaches, and career switchers repeatedly say
 in the archive: candidates improve their odds when they narrow the target,
 match evidence to the job, and prepare stories that show ownership and impact.
 
-## Contents
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Search Patterns](#search-patterns)
-- [Episode Evidence](#episode-evidence)
-- [Guest Experts](#guest-experts)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -140,15 +132,3 @@ questions, fundamentals-first prep, and expectation alignment with recruiters.
 - [Academia]({{ '/wiki/academia/' | relative_url }})
 - [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
 - [Open Source and Developer Relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }})
-
-## Maintenance Notes
-
-- Future pages can split data scientist interview, data engineering interview,
-  and portfolio projects if they use enough episode-specific evidence.
-- Add local podcast summaries for `get-data-scientist-job.md`,
-  `machine-learning-data-science-interview-prep.md`,
-  `job-search-strategy-in-tech-projects-skills-cv-networking.md`,
-  `data-science-interview-and-cv-guide.md`, and
-  `data-interview-behavioral-and-portfolio-prep-guide.md`.
-- Keep this page candidate-facing. Employer-side process and assessment design
-  belong in [Hiring]({{ '/wiki/hiring/' | relative_url }}).

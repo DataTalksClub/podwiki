@@ -50,8 +50,10 @@ publish separate `Archive Evidence`, `Guest Descriptions`, `Maintenance Notes`,
 `Episode Evidence`, `Recurring Archive Themes`, `Contents`, or `Search Intent`
 sections in reader-facing pages.
 
-When the source episode is known, link to the specific podcast page:
-`https://datatalks.club/podcast/<source-file-slug>.html`. Use
+When the source episode is known, link wiki and article pages to the local
+podcast page: `{{ '/podcasts/<source-file-slug>/' | relative_url }}`. That
+local page links to the original
+`https://datatalks.club/podcast/<source-file-slug>.html` episode. Use
 `https://datatalks.club/podcast.html` only as a temporary fallback when the
 specific episode slug is unknown.
 
@@ -77,10 +79,16 @@ and replace them with podcast-backed synthesis when the topic becomes important.
 4. Update the target exploration page with synthesized takeaways, not just lists
    of links.
 5. Add cross-links to related wiki pages, articles, people, and podcast summaries.
-6. Add podcast evidence links in the body. Public episode links should point to
-   the specific `https://datatalks.club/podcast/<slug>.html` page when known.
-7. For graph/search changes, run `make graph` and
+6. Add podcast evidence links in the body. Use local
+   `/podcasts/<source-file-slug>/` links when the source episode is known.
+7. For source-derived podcast and people pages, run `make sources`.
+8. For graph/search changes, run `make graph` and
    `python scripts/build_search_index.py`, or simply run `make check`.
+
+For broad podcast-topic work, first extract episodes, people, chapter summaries,
+and topic candidates with `make sources`. Then keep five subagents running on
+non-overlapping episode batches. Subagents should produce grounded topic reports
+with local podcast links and guest links before writing wiki or article pages.
 
 ## Insight Hub Target
 
@@ -147,9 +155,12 @@ transcripts.
 The graph UI lives at `graph.md` and `assets/graph.js`. It should remain static:
 use `graph/graph.json`, avoid external runtime dependencies, and keep node links
 stable through graph URL hashes. `graph/graph.json` is generated from collection
-frontmatter and internal links by `scripts/build_graph.py`. Episode nodes should
-link to local podcast summaries when available and otherwise to
-`https://datatalks.club/podcast.html`.
+frontmatter and internal links by `scripts/build_graph.py`; do not maintain it
+as separate editorial content. Run `make sources` to sync source-derived
+podcast and people pages before graph generation. The source documents are
+`_wiki/`, `_articles/`, `_people/`, and `_podcast_summaries/`. Episode nodes
+should link to local podcast pages, which then link to the original
+DataTalks.Club podcast pages.
 
 Run `python scripts/check_links.py` after a static build to validate generated
 internal links. GitHub Pages runs the same checker with the deployed base path.

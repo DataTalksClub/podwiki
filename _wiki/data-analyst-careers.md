@@ -23,14 +23,6 @@ For role responsibilities, read [Data Analyst Role]({{ '/wiki/data-analyst-role/
 For the boundary with modeled and tested BI-ready data layers, read
 [Data Analyst vs Analytics Engineer]({{ '/wiki/data-analyst-vs-analytics-engineer/' | relative_url }}).
 
-## Contents
-
-Use these links to move through the page.
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -103,18 +95,3 @@ Use these pages for adjacent analyst and analytics-engineering context.
 - [Job Search]({{ '/wiki/job-search/' | relative_url }})
 - [CV Screening]({{ '/wiki/cv-screening/' | relative_url }})
 - [Career Transitions in Data]({{ '/wiki/career-transitions-in-data/' | relative_url }})
-
-## Maintenance Notes
-
-Use these notes when updating the page.
-
-- Keep role mechanics on [Data Analyst Role]({{ '/wiki/data-analyst-role/' | relative_url }}).
-  Keep this page focused on career evidence, entry paths, and screening signals.
-- Source: `../datatalksclub.github.io/_podcast/data-team-roles.md`.
-- Source: `../datatalksclub.github.io/_podcast/production-ml-mlops-and-data-team-building.md`.
-- Source: `../datatalksclub.github.io/_podcast/project-manager-to-data-scientist.md`.
-- Source: `../datatalksclub.github.io/_podcast/hiring-data-scientists-and-analysts.md`.
-- Source: `../datatalksclub.github.io/_podcast/data-led-growth-event-tracking-and-reverse-etl.md`.
-- Future updates should add more direct analyst job-search evidence. Product
-  analytics, marketing analytics, and analytics-engineering transition episodes
-  are likely sources.

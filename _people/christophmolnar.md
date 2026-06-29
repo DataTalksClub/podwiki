@@ -1,13 +1,13 @@
 ---
-layout: person
+layout: "person"
 title: "Christoph Molnar"
 source_person: "../datatalksclub.github.io/_people/christophmolnar.md"
-person_id: christophmolnar
+person_id: "christophmolnar"
 summary: "Statistician and machine learning practitioner focused on interpretability, model trust, SHAP, and conformal prediction."
 expertise: ["machine learning", "data science", "interpretability", "tools", "practices"]
 podcast_episodes: ["interpretable-machine-learning"]
+source_url: "https://datatalks.club/people/christophmolnar.html"
 ---
-
 ## Podcast Context
 
 Christoph Molnar gives the archive a focused interpretability reference. His

@@ -25,16 +25,6 @@ scientists. Later episodes split the role into platform data engineering,
 product-facing data engineering, analytics engineering, DataOps, cost-aware
 platform work, and AI-ready data infrastructure.
 
-## Contents
-
-Use these sections to route from the broad role topic into deeper archive pages.
-
-- [Scope](#scope)
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Role and Content Boundaries](#role-and-content-boundaries)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Scope
 
@@ -199,17 +189,3 @@ Use these pages for adjacent topics and deeper implementation detail.
 - [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
 - [Data Science]({{ '/wiki/data-science/' | relative_url }})
 - [AI]({{ '/wiki/ai/' | relative_url }})
-
-## Maintenance Notes
-
-- Highest-value source files for future expansion:
-  `../datatalksclub.github.io/_podcast/data-team-roles.md`,
-  `../datatalksclub.github.io/_podcast/big-data-engineer-vs-data-scientist.md`,
-  `../datatalksclub.github.io/_podcast/data-engineering-career-path-and-skills.md`,
-  `../datatalksclub.github.io/_podcast/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for.md`,
-  and `../datatalksclub.github.io/_podcast/data-engineering-tools-modern-data-stack.md`.
-- Keep this as the broad foundation page. Move detailed platform architecture to
-  [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
-  and operational practice to [MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }}).
-- Future improvements should add more concrete clips on data contracts,
-  observability, FinOps, Data Mesh, and fraud-detection pipelines.

@@ -48,24 +48,6 @@ practitioner-oriented pages, see
 and
 [Data Engineering Freelance]({{ '/articles/data-engineering-freelance/' | relative_url }}).
 
-## Search Intent
-
-People searching for `data engineering consulting` usually have service or
-company intent. They may be comparing a consulting firm with an independent
-consultant. They may also be comparing a contractor, agency, or full-time hire.
-
-They need to know:
-
-- what data engineering consulting covers
-- when an outside specialist is the right option
-- which engagement model fits the problem
-- what deliverables should be included
-- how to evaluate technical proof before signing
-- which risks can make the project fail
-- how handoff should work so the company isn't dependent on the vendor
-
-Buyers can use this page to understand the service category. It covers what the
-company buys, how to scope it, and which evidence reduces delivery risk.
 
 ## Article Outline
 

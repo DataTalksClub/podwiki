@@ -1,13 +1,13 @@
 ---
-layout: person
+layout: "person"
 title: "Barr Moses"
 source_person: "../datatalksclub.github.io/_people/barrmoses.md"
-person_id: barrmoses
+person_id: "barrmoses"
 summary: "Monte Carlo co-founder contributing the archive's data observability and data reliability reference for freshness, lineage, schema changes, and downtime prevention."
 expertise: ["data observability", "MLOps", "data quality", "data reliability"]
 podcast_episodes: ["data-quality-data-observability-data-reliability"]
+source_url: "https://datatalks.club/people/barrmoses.html"
 ---
-
 ## Podcast Context
 
 Barr Moses gives the archive its core early definition of data observability.

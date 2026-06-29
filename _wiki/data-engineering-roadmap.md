@@ -25,21 +25,6 @@ doesn't prove readiness. SQL, Python, data modeling, requirements gathering,
 tests, and cost-aware system choices matter before Spark, Kafka, Kubernetes, or
 any vendor stack.
 
-## Contents
-
-Use these sections to move from fundamentals to role milestones.
-
-- [Stage 1: Query and Model Useful Data](#stage-1-query-and-model-useful-data)
-- [Stage 2: Build an End-to-End Batch Pipeline](#stage-2-build-an-end-to-end-batch-pipeline)
-- [Stage 3: Operate the Pipeline Like a Product](#stage-3-operate-the-pipeline-like-a-product)
-- [Stage 4: Choose Platform Patterns Deliberately](#stage-4-choose-platform-patterns-deliberately)
-- [Stage 5: Specialize by Constraint](#stage-5-specialize-by-constraint)
-- [Project Sequence](#project-sequence)
-- [Role Milestones](#role-milestones)
-- [Study-Build Boundary](#study-build-boundary)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Stage 1: Query and Model Useful Data
 
@@ -189,18 +174,3 @@ Use these pages for adjacent topics.
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
 - [MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }})
-
-## Maintenance Notes
-
-Use these source files when expanding the page.
-
-- `../datatalksclub.github.io/_podcast/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for.md`
-- `../datatalksclub.github.io/_podcast/data-engineering-career-path-and-skills.md`
-- `../datatalksclub.github.io/_podcast/data-engineering-tools-modern-data-stack.md`
-- `../datatalksclub.github.io/_podcast/trends-in-modern-data-engineering.md`
-- `../datatalksclub.github.io/_podcast/dataops-for-data-engineering.md`
-
-Future updates should add concrete clips from hiring episodes about data
-engineering interviews. Add more cost and governance evidence when the archive
-has stronger senior-specialization examples. Keep this page focused on
-sequence, projects, and milestones.

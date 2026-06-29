@@ -24,14 +24,6 @@ technical writing, public speaking, community visibility, mentoring, and the
 skills hiring managers use to distinguish junior, senior, expert, and manager
 roles.
 
-## Contents
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Growth Patterns](#growth-patterns)
-- [Episode Evidence](#episode-evidence)
-- [Guest Experts](#guest-experts)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -144,15 +136,3 @@ and community.
 - [Open Source and Developer Relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }})
 - [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
 - [MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }})
-
-## Maintenance Notes
-
-- Split future role-specific growth pages only when there is enough archive
-  evidence to distinguish the path, for example ML engineering growth, data
-  leadership, or staff AI engineer.
-- Add people links for guests whose pages already mention career growth:
-  Lavanya Gupta, Tatiana Gabruseva, Tereza Iofciu, Ben Wilson, Adrian Brudaru,
-  Ivan Bilan, and Luke Whipps.
-- Keep this page focused on growth after entry. Entry tactics belong in
-  [Career Transition]({{ '/wiki/career-transition/' | relative_url }}) and
-  [Job Search]({{ '/wiki/job-search/' | relative_url }}).

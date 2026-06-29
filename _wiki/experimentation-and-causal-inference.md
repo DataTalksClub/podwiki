@@ -22,15 +22,6 @@ Predictive ML can estimate what is likely to happen. Causal methods ask what
 will happen if the team intervenes: launch a feature, target a campaign, change
 a recommender, or deploy a new model.
 
-## Contents
-
-- [Archive-Level Takeaways](#archive-level-takeaways)
-- [Recurring Patterns](#recurring-patterns)
-- [Decision Points and Checklists](#decision-points-and-checklists)
-- [Episode Evidence](#episode-evidence)
-- [Tradeoffs and Open Questions](#tradeoffs-and-open-questions)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Archive-Level Takeaways
 
@@ -189,10 +180,3 @@ segments, cohorts, and business context that pure model evaluation misses.
 - [MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }})
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
 - [Data Product Manager article]({{ '/articles/data-product-manager-role/' | relative_url }})
-
-## Maintenance Notes
-
-- Add podcast summaries for `causal-inference-for-machine-learning.md`, `ai-ml-product-design-and-experimentation.md`, and `production-ml-mlops-and-data-team-building.md`.
-- Future extensions should separate randomized experiment evidence from observational causal inference evidence.
-- Add concrete clips for Bayesian testing, multiple comparisons, and p-values if this page becomes a teaching resource.
-- Watch for overlap with [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }}); keep this page focused on evidence and intervention logic rather than the product manager role.

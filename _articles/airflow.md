@@ -29,16 +29,6 @@ Use [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}) and
 [DataOps]({{ '/wiki/dataops/' | relative_url }}) for the adjacent operating
 model.
 
-## Search Intent
-
-People searching for "airflow" usually want to know what Apache Airflow does
-and whether they need it for data pipelines. Some are choosing between Airflow,
-Prefect, Dagster, and GitHub Actions. Others are comparing cloud schedulers,
-dbt jobs, and managed ML pipeline services. New data engineers may also want to
-know why Airflow appears in job descriptions.
-
-Use this page for the practical intent. It explains where Airflow fits, which
-problems it solves, and which adjacent choices show up in the podcast archive.
 
 ## Airflow Jobs
 
@@ -275,7 +265,7 @@ such as Feast often consume transformed data from upstream systems like dbt,
 Airflow, or Spark. Other platforms may own more of the transformation and
 backfill workflow.
 
-## Bottom Line
+## Practical Takeaway
 
 Airflow is best understood as orchestration infrastructure for recurring,
 dependent data work. It helps teams schedule and coordinate pipelines, handles

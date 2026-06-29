@@ -1,9 +1,14 @@
-.PHONY: help graph index lambda-package build serve links clean check
+.PHONY: help sources graph index lambda-package build serve links clean check
 
 help:
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "  %-12s %s\n", $$1, $$2}'
 
-graph: ## Build the static graph data used by the site
+sources: ## Sync source-derived podcast and people pages for graph/search
+	python scripts/sync_podcast_pages.py
+	python scripts/sync_people_pages.py
+	python scripts/extract_podcast_sources.py
+
+graph: sources ## Build the static graph data used by the site
 	python scripts/build_graph.py
 
 index: graph ## Build the zerosearch artifact used by Lambda

@@ -22,14 +22,6 @@ Use this page when evidence connects research to practical ML systems. Use
 [Academic Researcher to Data Science]({{ '/wiki/academic-researcher-to-data-science/' | relative_url }})
 for career-transition material.
 
-## Contents
-
-Use these sections to move through the page.
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -90,17 +82,3 @@ Use these pages for adjacent ML, production, and career material.
 - [Academic Researcher to Data Science]({{ '/wiki/academic-researcher-to-data-science/' | relative_url }})
 - [AI]({{ '/wiki/ai/' | relative_url }})
 - [MLOps]({{ '/wiki/mlops/' | relative_url }})
-
-## Maintenance Notes
-
-Best source files for future expansion:
-
-- `../datatalksclub.github.io/_podcast/make-money-with-machine-learning-roles-skills.md`
-- `../datatalksclub.github.io/_podcast/research-to-production-ml-systems-roadmap.md`
-- `../datatalksclub.github.io/_podcast/from-computer-vision-research-to-autonomous-driving-ai.md`
-- `../datatalksclub.github.io/_podcast/s24e01-competitions-beyond-kaggle-leaderboard.md`
-
-Add future evidence when an episode explains a research artifact, hypothesis, or
-benchmark. Also add episodes that explain a prototype, validation stage, or
-production handoff. Keep pure career advice on transition pages unless it
-changes how research work is done.

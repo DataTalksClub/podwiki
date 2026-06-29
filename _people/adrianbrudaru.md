@@ -1,13 +1,13 @@
 ---
-layout: person
+layout: "person"
 title: "Adrian Brudaru"
 source_person: "../datatalksclub.github.io/_people/adrianbrudaru.md"
-person_id: adrianbrudaru
+person_id: "adrianbrudaru"
 summary: "Data engineering consultant and founder voice covering modern data platforms, freelance strategy, open-source products, and bottom-up adoption."
 expertise: ["data engineering", "data governance", "open-source", "freelance", "career growth", "entrepreneurship"]
-podcast_episodes: ["trends-in-modern-data-engineering", "freelance-data-engineering-pricing-and-clients", "from-data-freelancer-to-startup-open-source-products"]
+podcast_episodes: ["freelance-data-engineering-pricing-and-clients", "from-data-freelancer-to-startup-open-source-products", "trends-in-modern-data-engineering"]
+source_url: "https://datatalks.club/people/adrianbrudaru.html"
 ---
-
 ## Podcast Context
 
 Adrian Brudaru is useful in the archive because he returns to the same data

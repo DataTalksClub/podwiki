@@ -24,15 +24,6 @@ starts with event definitions and a tracking plan. Teams then collect and store
 data. They transform, analyze, and activate it in the tools used by product,
 growth, support, and sales teams.
 
-## Contents
-
-Use these sections:
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Episode Evidence](#episode-evidence)
-- [Tradeoffs](#tradeoffs)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -106,17 +97,3 @@ Useful adjacent pages:
 - [Data Activation]({{ '/wiki/data-activation/' | relative_url }})
 - [Customer Data Platforms]({{ '/wiki/customer-data-platforms/' | relative_url }})
 - [A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }})
-
-## Maintenance Notes
-
-Future maintainers should preserve these source paths:
-
-- Primary source file:
-  `../datatalksclub.github.io/_podcast/data-led-growth-event-tracking-and-reverse-etl.md`.
-- The local
-  [Data-Led Growth Stack summary]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }})
-  is a useful chapter index. Public episode references should continue to use
-  `https://datatalks.club/podcast.html`.
-- Future expansions should add evidence from experimentation and product
-  analytics episodes. Keep this page focused on growth workflows, not generic
-  data strategy.

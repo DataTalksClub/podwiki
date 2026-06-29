@@ -20,14 +20,6 @@ retrieval system, not as the whole search product.
 For the broader architecture, use
 [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }}).
 
-## Contents
-
-Use these links to jump between the main vector database sections.
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -83,14 +75,3 @@ Use these pages for deeper treatment of nearby topics.
 - [Search]({{ '/wiki/search/' | relative_url }})
 - [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
 - [LLMs]({{ '/wiki/llms/' | relative_url }})
-
-## Maintenance Notes
-
-Future updates should keep this page about architecture, not vendor comparison.
-
-- Avoid expanding this into a vendor guide unless a future task asks for a
-  comparison page.
-- Add `production-ml-search-vector-search-embeddings-hybrid-search.md` to
-  `_podcast_summaries/` before adding deeper selection guidance.
-- When adding examples, distinguish vector databases from embedding models,
-  search engines, re-rankers, and orchestration frameworks.

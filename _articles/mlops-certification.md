@@ -34,22 +34,6 @@ selection, use [MLOps Tools]({{ '/articles/mlops-tools/' | relative_url }}).
 For role expectations, use
 [MLOps Engineer]({{ '/articles/mlops-engineer/' | relative_url }}).
 
-## Search Intent
-
-The keyword `mlops certification` doesn't usually mean the reader needs a
-definition of MLOps.
-
-The reader needs to decide:
-
-- Should I pay for a certificate?
-- Will recruiters or hiring managers care?
-- Which skills should the certificate cover?
-- What project should I build while studying?
-- How do I describe the certificate on a CV without overselling it?
-
-Use a certification as a study plan, not as proof of skill. Let the proof come
-from work artifacts, original projects, open-source contributions, or an
-end-to-end MLOps project that another engineer can look at.
 
 ## Certification Value
 

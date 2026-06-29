@@ -24,15 +24,6 @@ engineering made that work easier to own. ETL still matters when staging,
 compliance, performance, source constraints, or complex preprocessing require
 transformation before loading.
 
-## Contents
-
-- [Comparison](#comparison)
-- [Boundary Principles](#boundary-principles)
-- [ETL Triggers](#etl-triggers)
-- [ELT Triggers](#elt-triggers)
-- [Podcast Evidence](#podcast-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Comparison
 
@@ -146,17 +137,3 @@ Use these pages for adjacent platform and modeling topics.
 - [Data Warehouse]({{ '/wiki/data-warehouse/' | relative_url }})
 - [dbt]({{ '/wiki/dbt/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
-
-## Maintenance Notes
-
-Use these notes when updating the page.
-
-- Highest-value source files:
-  `../datatalksclub.github.io/_podcast/data-engineering-tools-modern-data-stack.md`,
-  `../datatalksclub.github.io/_podcast/analytics-engineer-skills-tools.md`,
-  and `../datatalksclub.github.io/_podcast/data-led-growth-event-tracking-and-reverse-etl.md`.
-- Keep this page as a decision boundary. Put broader platform architecture on
-  [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
-  and role implications on [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }}).
-- Add more evidence from CDC, schema evolution, and data lakehouse episodes to
-  refine when raw storage zones are appropriate.

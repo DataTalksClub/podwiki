@@ -20,17 +20,6 @@ The gap isn't only technical. In the main QA transition episode, the candidate
 also had to present projects and update the CV. Interview preparation and
 confidence mattered too.
 
-## Contents
-
-Use these sections to separate ML evidence from data engineering evidence.
-
-- [Transition Profile](#transition-profile)
-- [Transferable Skills](#transferable-skills)
-- [Missing Skills](#missing-skills)
-- [Portfolio Evidence](#portfolio-evidence)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Transition Profile
 
@@ -140,14 +129,3 @@ Use these pages for target-role skills and hiring context.
 - [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
 - [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
 - [Job Search]({{ '/wiki/job-search/' | relative_url }})
-
-## Maintenance Notes
-
-Future edits should keep both target roles visible.
-
-- Primary source episode:
-  `../datatalksclub.github.io/_podcast/how-to-transition-into-ml-and-data-engineering-from-qa.md`.
-- Keep the page split between ML and data engineering. The archive evidence
-  shows both paths, and the required portfolio differs by target role.
-- Add future evidence from episodes about data quality, testing ML systems, QA
-  automation, or career changers who move from test engineering into DataOps.

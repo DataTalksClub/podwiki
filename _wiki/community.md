@@ -27,14 +27,6 @@ company-backed technical outreach, use
 pull requests and issue work, use
 [Contributing]({{ '/wiki/contributing/' | relative_url }}).
 
-## Contents
-
-Use these sections to move from scope to archive evidence.
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -105,19 +97,3 @@ Follow these pages for adjacent topics.
 - [Contributing]({{ '/wiki/contributing/' | relative_url }})
 - [Career Growth]({{ '/wiki/career-growth/' | relative_url }})
 - [Technical Writing]({{ '/wiki/technical-writing/' | relative_url }})
-
-## Maintenance Notes
-
-Use these notes for future edits.
-
-- Keep this page broad. Put operating tactics in
-  [Community Building]({{ '/wiki/community-building/' | relative_url }}) and
-  contribution mechanics in [Contributing]({{ '/wiki/contributing/' | relative_url }}).
-- Revisit `../datatalksclub.github.io/_podcast/mlops-community-building-and-meetups.md`
-- Revisit `../datatalksclub.github.io/_podcast/datatalksclub-building-scaling-data-community.md`
-- Revisit `../datatalksclub.github.io/_podcast/datatalksclub-building-sustainable-data-community-3-years-anniversary.md`
-- Revisit `../datatalksclub.github.io/_podcast/datatalksclub-scaling-and-free-courses.md`
-- Revisit `../datatalksclub.github.io/_podcast/devrel-open-source-machine-learning.md`
-- Future edits should add evidence only when an episode explains interaction,
-  learning, contribution, or governance in shared spaces. Don't add generic
-  mentions of "the DataTalks.Club community" without a reusable lesson.

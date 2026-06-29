@@ -1,13 +1,13 @@
 ---
-layout: person
+layout: "person"
 title: "Elle O'Brien"
 source_person: "../datatalksclub.github.io/_people/elleobrien.md"
-person_id: elleobrien
+person_id: "elleobrien"
 summary: "Data scientist, educator, and open-source practitioner connecting developer relations, reproducible ML tooling, and community education."
 expertise: ["developer relations", "data science", "machine learning", "open-source"]
 podcast_episodes: ["devrel-data-science-open-source-tools"]
+source_url: "https://datatalks.club/people/elleobrien.html"
 ---
-
 ## Background
 
 Elle O'Brien is a data scientist at Iterative and a lecturer at the University of Michigan School of Information. Her source bio highlights open-source software for machine learning, educational resources, and prior PhD research on speech and hearing.

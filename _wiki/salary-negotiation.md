@@ -23,14 +23,6 @@ understand the company's compensation structure, avoid unnecessary
 current-salary disclosure, and tie the conversation to role value and level.
 For consulting rates, read [Freelance]({{ '/wiki/freelance/' | relative_url }}).
 
-## Contents
-
-Use these links to move through the page.
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -103,18 +95,3 @@ Use these pages for adjacent job-search and hiring context.
 - [CV Screening]({{ '/wiki/cv-screening/' | relative_url }})
 - [Career Growth]({{ '/wiki/career-growth/' | relative_url }})
 - [Freelance]({{ '/wiki/freelance/' | relative_url }})
-
-## Maintenance Notes
-
-Use these notes when updating the page.
-
-- Keep this page about employee compensation conversations. Consulting rates,
-  retainers, and value-based pricing belong in [Freelance]({{ '/wiki/freelance/' | relative_url }}).
-- High-value source files:
-  `../datatalksclub.github.io/_podcast/hiring-data-scientists-and-analysts.md`,
-  `../datatalksclub.github.io/_podcast/data-science-interview-and-cv-guide.md`,
-  `../datatalksclub.github.io/_podcast/get-data-scientist-job.md`, and
-  `../datatalksclub.github.io/_podcast/data-science-job-red-flags-and-mismatched-roles.md`.
-- Future updates should add country-specific salary-transparency evidence only
-  when the archive source gives a date and jurisdiction, because these rules go
-  stale quickly.

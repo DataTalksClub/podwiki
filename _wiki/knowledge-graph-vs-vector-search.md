@@ -21,14 +21,6 @@ search is strong when the question is "what is semantically similar to this?"
 Knowledge graphs are strong when the question is "how are these things
 connected, constrained, or explainable?"
 
-## Contents
-
-- [Archive-Level Takeaways](#archive-level-takeaways)
-- [Comparison Structure](#comparison-structure)
-- [Decision Points](#decision-points)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Archive-Level Takeaways
 
@@ -136,14 +128,3 @@ verification, and human review instead of assuming either store is enough.
 - [Embeddings]({{ '/wiki/embeddings/' | relative_url }})
 - [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
 - [AI]({{ '/wiki/ai/' | relative_url }})
-
-## Maintenance Notes
-
-- Add a dedicated knowledge-graphs hub only after more archive evidence exists.
-  For now, this page and
-  [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
-  should carry the graph-RAG synthesis.
-- When adding examples, say whether the system retrieves similar text, traverses
-  explicit relations, or combines both.
-- Preserve the distinction between graph databases, knowledge graphs, graph ML,
-  vector databases, embeddings, and RAG orchestration.

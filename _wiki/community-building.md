@@ -22,15 +22,6 @@ Use this page for organizing practice. Use
 company-backed advocacy, and [Contributing]({{ '/wiki/contributing/' | relative_url }})
 for individual contribution mechanics.
 
-## Contents
-
-Use these sections to connect operating choices with podcast evidence.
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Operating Notes](#operating-notes)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -112,18 +103,3 @@ Follow these pages for adjacent topics.
 - [Contributing]({{ '/wiki/contributing/' | relative_url }})
 - [Career Growth]({{ '/wiki/career-growth/' | relative_url }})
 - [MLOps]({{ '/wiki/mlops/' | relative_url }})
-
-## Maintenance Notes
-
-Use these notes for future edits.
-
-- Keep this page about operating a technical community. General benefits of
-  community belong in [Community]({{ '/wiki/community/' | relative_url }}).
-- Revisit `../datatalksclub.github.io/_podcast/mlops-community-building-and-meetups.md`
-- Revisit `../datatalksclub.github.io/_podcast/datatalksclub-building-scaling-data-community.md`
-- Revisit `../datatalksclub.github.io/_podcast/datatalksclub-building-sustainable-data-community-3-years-anniversary.md`
-- Revisit `../datatalksclub.github.io/_podcast/datatalksclub-scaling-and-free-courses.md`
-- Revisit `../datatalksclub.github.io/_podcast/practical-devrel-demofirst-education-and-open-source.md`
-- Future expansion should separate launch, growth, moderation, and
-  sustainability, and once more episodes add distinct evidence, contributor
-  activation deserves its own section.

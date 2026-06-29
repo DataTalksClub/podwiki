@@ -24,21 +24,6 @@ you do. For the broader keyword, see
 For intensive programs, see
 [Data Engineering Bootcamp]({{ '/articles/data-engineering-bootcamp/' | relative_url }}).
 
-## Search Intent
-
-This role-first keyword serves learners who want a course that leads toward
-data engineering work.
-
-A good answer should help you:
-
-- understand what data engineers actually build
-- identify the course topics that matter first
-- avoid tool-heavy syllabi that don't build depth
-- turn course projects into credible portfolio evidence
-- connect the course to SQL, Python, take-home, and project interviews
-
-The best course isn't the one with the longest list of tools. It's the one
-that makes you build and explain a working data path.
 
 ## Course Selection Outline
 

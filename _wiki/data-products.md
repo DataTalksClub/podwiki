@@ -22,15 +22,6 @@ This page connects those meanings. The shared lesson is direct. Data products
 aren't just tables, dashboards, or models. They connect producers and consumers
 through ownership, trust, and use.
 
-## Contents
-
-Use these sections:
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Episode Evidence](#episode-evidence)
-- [Tradeoffs](#tradeoffs)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -108,18 +99,3 @@ Useful adjacent pages:
 - [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [Data Activation]({{ '/wiki/data-activation/' | relative_url }})
-
-## Maintenance Notes
-
-Future maintainers should preserve these source paths:
-
-- Best source files:
-  `../datatalksclub.github.io/_podcast/data-mesh-architecture-decentralized-data-products.md`,
-  `../datatalksclub.github.io/_podcast/data-led-growth-event-tracking-and-reverse-etl.md`,
-  `../datatalksclub.github.io/_podcast/scaling-data-engineering-teams-self-service-platforms.md`,
-  and the source episodes behind [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }}).
-- Future additions should separate domain-owned data interfaces from analytics
-  or ML features when the distinction matters.
-- Don't turn this page into a generic list of dashboards. Add examples only when
-  the episode evidence includes users, guarantees, and ownership. Adoption and
-  operational workflow also matter.

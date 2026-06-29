@@ -22,14 +22,6 @@ testing, counterfactuals, and uplift modeling. Conditional average treatment
 effects and unconfoundedness also appear, along with causal feature selection,
 refutation tests, and baseline policy comparison.
 
-## Contents
-
-Use these sections:
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -90,16 +82,3 @@ Useful adjacent pages:
 - [Metrics]({{ '/wiki/metrics/' | relative_url }})
 - [Machine Learning]({{ '/wiki/machine-learning/' | relative_url }})
 - [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
-
-## Maintenance Notes
-
-Future maintainers should preserve these source paths and boundaries:
-
-- Preserve the distinction between predictive accuracy, causal unbiasedness,
-  estimator quality, and policy/business-metric evaluation.
-- Best source file:
-  `../datatalksclub.github.io/_podcast/causal-inference-for-machine-learning.md`.
-  Use `../datatalksclub.github.io/_podcast/ab-testing-and-product-experimentation.md`
-  for randomized experiment grounding.
-- Add a podcast summary for the causal inference episode before expanding this
-  page into a deeper teaching resource.

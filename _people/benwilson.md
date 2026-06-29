@@ -1,13 +1,13 @@
 ---
-layout: person
+layout: "person"
 title: "Ben Wilson"
 source_person: "../datatalksclub.github.io/_people/benwilson.md"
-person_id: benwilson
+person_id: "benwilson"
 summary: "Databricks solutions architect and ML engineering author focused on maintainable production ML systems."
 expertise: ["machine learning", "production", "career growth", "MLOps", "software engineering"]
 podcast_episodes: ["machine-learning-engineering-production-best-practices"]
+source_url: "https://datatalks.club/people/benwilson.html"
 ---
-
 ## Podcast Context
 
 Ben Wilson contributes the archive's clearest "avoid complexity" argument for

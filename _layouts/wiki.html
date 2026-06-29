@@ -9,12 +9,15 @@ layout: default
     <p class="lede">{{ page.summary }}</p>
   {% endif %}
   {% if page.related %}
-    <div class="meta">
+    <section class="crosslink-panel" aria-label="Related wiki pages">
+      <h2>Related Wiki Pages</h2>
+      <div class="meta">
       {% for item in page.related %}
         {% assign item_slug = item | slugify %}
         <a href="{{ '/wiki/' | append: item_slug | append: '/' | relative_url }}">{{ item }}</a>
       {% endfor %}
-    </div>
+      </div>
+    </section>
   {% endif %}
   {{ content }}
 </article>

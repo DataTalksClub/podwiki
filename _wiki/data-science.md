@@ -25,16 +25,6 @@ business or product question into a data-backed analysis, model, experiment, or
 decision workflow, then communicates the result in a way the organization can
 use.
 
-## Contents
-
-Use these sections to separate the broad role topic from nearby technical pages.
-
-- [Scope](#scope)
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Role and Content Boundaries](#role-and-content-boundaries)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Scope
 
@@ -192,18 +182,3 @@ Use these pages for adjacent topics and deeper implementation detail.
 - [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }})
 - [Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }})
 - [Career Transitions in Data]({{ '/wiki/career-transitions-in-data/' | relative_url }})
-
-## Maintenance Notes
-
-- Highest-value source files for future expansion:
-  `../datatalksclub.github.io/_podcast/data-team-roles.md`,
-  `../datatalksclub.github.io/_podcast/get-data-scientist-job.md`,
-  `../datatalksclub.github.io/_podcast/data-science-interview-and-cv-guide.md`,
-  `../datatalksclub.github.io/_podcast/data-science-job-red-flags-and-mismatched-roles.md`,
-  and `../datatalksclub.github.io/_podcast/big-data-engineer-vs-data-scientist.md`.
-- Good future additions: data science leadership episodes, nonprofit/public
-  policy examples, healthcare ML examples, and concrete portfolio project
-  evidence.
-- Avoid turning this page into a generic "what is data science" article. Keep
-  claims tied to role ambiguity, product value, hiring evidence, and
-  collaboration in the podcast archive.

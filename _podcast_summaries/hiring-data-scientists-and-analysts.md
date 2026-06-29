@@ -1,79 +1,55 @@
 ---
 layout: podcast_summary
 title: "Hiring Data Scientists & Analysts: Talent Pipelines, Job Specs, CV Screening & Salary Tips"
-source_episode: "../datatalksclub.github.io/_podcast/hiring-data-scientists-and-analysts.md"
-source_url: "https://datatalks.club/podcast.html"
+source_episode: "datatalksclub.github.io/_podcast/hiring-data-scientists-and-analysts.md"
+source_url: "https://datatalks.club/podcast/hiring-data-scientists-and-analysts.html"
 season: 7
 episode: 2
-guests: [alicjanotowska]
-topics: ["hiring", "data science careers", "data analyst careers", "job descriptions", "CV screening", "salary negotiation", "career transition"]
-summary_status: draft
+guests: ["alicjanotowska"]
+topics: ["data science", "data analytics", "job search", "career transition", "hiring"]
+summary_status: source-index
+youtube_url: "https://www.youtube.com/watch?v=WSMDXsjKYx4"
+spotify_url: "https://open.spotify.com/episode/4LFZX7IfpdYkQ6si4ed0OR"
+apple_url: "https://podcasts.apple.com/us/podcast/recruiting-data-professionals-alicja-notowska/id1541710331?i=1000549307220"
 ---
-
 # Hiring Data Scientists & Analysts: Talent Pipelines, Job Specs, CV Screening & Salary Tips
 
-## Why This Episode Matters
+## Original Episode
 
-This episode gives recruiter-side context for data science and analyst hiring. It covers hiring funnels, job specifications, sourcing, market expectations, inclusive job descriptions, CV screening, salary conversations, career changers, portfolios, and offer etiquette. It is useful for career and hiring pages because it explains how candidates are evaluated before and during interviews.
+- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/hiring-data-scientists-and-analysts.html)
+- [Watch on YouTube](https://www.youtube.com/watch?v=WSMDXsjKYx4)
+- [Listen on Spotify](https://open.spotify.com/episode/4LFZX7IfpdYkQ6si4ed0OR)
+- [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/recruiting-data-professionals-alicja-notowska/id1541710331?i=1000549307220)
 
-## Chapter-Level Summary
+## Episode Overview
 
-- 0:00 - Podcast Introduction: Opens the episode.
-- 2:05 - Guest Background: Introduces recruiting experience.
-- 3:06 - Current Role: Explains embedded talent agency and client lead work.
-- 4:44 - Interview Funnel: Maps the typical funnel for data roles.
-- 6:20 - Recruiting Responsibilities: Covers end-to-end recruiter ownership.
-- 7:09 - Hiring Manager Collaboration: Discusses crafting job specs with managers.
-- 9:02 - Sourcing Channels: Covers LinkedIn, GitHub, conferences, and academia.
-- 11:34 - Talent Pipelines: Explains 360-degree recruitment.
-- 13:57 - Hiring Expectations: Discusses market reality and role requirements.
-- 17:18 - Talent Market Data: Uses market data to negotiate requirements.
-- 18:28 - Job Description Focus: Emphasizes problems over perks.
-- 20:04 - Inclusive JD Language: Covers language and AI tools for attraction.
-- 21:32 - Screening Profiles: Reviews experience, education, and responsibilities.
-- 25:56 - Keyword Strategy: Covers data scientist search terms.
-- 27:10 - Education Signals: Discusses bachelor's, master's, and PhD expectations.
-- 28:41 - CV Best Practices: Covers responsibilities, dates, and clarity.
-- 32:40 - Avoiding Buzzwords: Makes CVs more interview-ready.
-- 36:08 - Recruiter Screening Interviews: Covers behavioral and motivation checks.
-- 40:33 - Salary Conversations: Discusses bands, transparency, and negotiation.
-- 45:05 - High Salary Requests: Covers market research and expectation handling.
-- 47:36 - Career Changer Pathways: Discusses gaining practical experience.
-- 50:53 - Cover Letters vs CVs: Explains when cover letters matter.
-- 54:09 - Data Analyst Hiring: Covers title ambiguity and similar processes.
-- 59:30 - Portfolio Projects: Discusses online courses and projects on a CV.
-- 61:37 - Strong Impression: Emphasizes clear explanations and examples.
-- 61:49 - Offer Etiquette: Covers communication, commitments, and withdrawals.
+How do you consistently find and hire the right data scientists and analysts in a competitive market? In this episode, Alicja Notowska — a talent acquisition specialist with 10+ years recruiting at Google, Zalando and now with embedded agency WeAreKeen — breaks down practical recruiting tactics for hiring data scientists and data analysts.
 
-## Key Concepts
+## Chapter Summary
 
-- data hiring
-- talent pipeline
-- job specification
-- inclusive job descriptions
-- CV screening
-- recruiter screen
-- salary negotiation
-- career changers
-- portfolio projects
-- data analyst roles
-
-## Useful For Agents When
-
-- Writing career guidance for data science or analytics candidates.
-- Explaining how recruiters screen data CVs.
-- Building hiring or interviewing wiki pages.
-- Comparing candidate-side advice with recruiter-side constraints.
-
-## Probably Skip If
-
-- The task needs technical interview questions or model-building depth.
-- You are focused on engineering management rather than recruiting.
-- You need MLOps platform or data architecture details.
-
-## Source Pointers
-
-- Source episode file: `../datatalksclub.github.io/_podcast/hiring-data-scientists-and-analysts.md`
-- Original podcast URL: https://datatalks.club/podcast.html
-- YouTube: https://www.youtube.com/watch?v=WSMDXsjKYx4
-- Spotify: https://open.spotify.com/episode/4LFZX7IfpdYkQ6si4ed0OR
+- 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=WSMDXsjKYx4&t=0)
+- 2:05 - [Guest Background & Recruiting Experience](https://www.youtube.com/watch?v=WSMDXsjKYx4&t=125)
+- 3:06 - [Current Role: Embedded Talent Agency & Client Lead](https://www.youtube.com/watch?v=WSMDXsjKYx4&t=186)
+- 4:44 - [Typical Interview Funnel for Data Roles](https://www.youtube.com/watch?v=WSMDXsjKYx4&t=284)
+- 6:20 - [End-to-End Recruiting Responsibilities](https://www.youtube.com/watch?v=WSMDXsjKYx4&t=380)
+- 7:09 - [Collaborating with Hiring Managers & Crafting Job Specs](https://www.youtube.com/watch?v=WSMDXsjKYx4&t=429)
+- 9:02 - [Sourcing Channels: LinkedIn, GitHub, Conferences & Academia](https://www.youtube.com/watch?v=WSMDXsjKYx4&t=542)
+- 11:34 - [Building Talent Pipelines & 360° Recruitment](https://www.youtube.com/watch?v=WSMDXsjKYx4&t=694)
+- 13:57 - [Managing Hiring Expectations & Market Reality](https://www.youtube.com/watch?v=WSMDXsjKYx4&t=837)
+- 17:18 - [Using Talent Market Data to Negotiate Requirements](https://www.youtube.com/watch?v=WSMDXsjKYx4&t=1038)
+- 18:28 - [Job Description Focus: Problems Over Perks](https://www.youtube.com/watch?v=WSMDXsjKYx4&t=1108)
+- 20:04 - [Inclusive JD Language & AI Tools for Attraction](https://www.youtube.com/watch?v=WSMDXsjKYx4&t=1204)
+- 21:32 - [Screening Profiles: Experience, Education & Responsibilities](https://www.youtube.com/watch?v=WSMDXsjKYx4&t=1292)
+- 25:56 - [Keyword Strategy for Data Scientist Searches](https://www.youtube.com/watch?v=WSMDXsjKYx4&t=1556)
+- 27:10 - [Education Signals: Bachelor’s, Master’s & PhD Expectations](https://www.youtube.com/watch?v=WSMDXsjKYx4&t=1630)
+- 28:41 - [CV Best Practices: Responsibilities, Dates & Clarity](https://www.youtube.com/watch?v=WSMDXsjKYx4&t=1721)
+- 32:40 - [Avoiding Buzzwords & Making CVs Interview-Ready](https://www.youtube.com/watch?v=WSMDXsjKYx4&t=1960)
+- 36:08 - [Recruiter Screening Interviews: Behavioral & Motivation Checks](https://www.youtube.com/watch?v=WSMDXsjKYx4&t=2168)
+- 40:33 - [Salary Conversations: Bands, Transparency & Negotiation](https://www.youtube.com/watch?v=WSMDXsjKYx4&t=2433)
+- 45:05 - [Handling High Salary Requests & Market Research](https://www.youtube.com/watch?v=WSMDXsjKYx4&t=2705)
+- 47:36 - [Pathways for Career Changers: Gaining Practical Experience](https://www.youtube.com/watch?v=WSMDXsjKYx4&t=2856)
+- 50:53 - [Cover Letters vs CVs: When They Matter](https://www.youtube.com/watch?v=WSMDXsjKYx4&t=3053)
+- 54:09 - [Data Analyst Hiring: Title Ambiguity & Similar Processes](https://www.youtube.com/watch?v=WSMDXsjKYx4&t=3249)
+- 59:30 - [Portfolio Projects & Online Courses on Your CV](https://www.youtube.com/watch?v=WSMDXsjKYx4&t=3570)
+- 1:01:37 - [Making a Strong Impression: Clear Explanations & Examples](https://www.youtube.com/watch?v=WSMDXsjKYx4&t=3697)
+- 1:01:49 - [Offer Etiquette: Communication, Commitments & Withdrawals](https://www.youtube.com/watch?v=WSMDXsjKYx4&t=3709)

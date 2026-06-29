@@ -36,15 +36,24 @@ These notes capture the current cleanup direction and should not be lost.
   collecting evidence in a separate appendix.
 - Make every page link-heavy: visible links to specific podcast interviews,
   related wiki pages, relevant articles, and useful local podcast summaries.
-- Use specific podcast interview URLs, not only
-  `https://datatalks.club/podcast.html`, whenever the source episode slug is
-  known.
+- Use local podcast links such as
+  `{{ '/podcasts/<source-file-slug>/' | relative_url }}` whenever the source
+  episode slug is known. The local podcast page links to the original
+  DataTalks.Club episode.
 - Make related links visually obvious in CSS. Related pages should look like
   links, not muted tags.
 - Add a graph-driven "See also" or related graph nodes section to wiki and
   article pages, especially stub pages such as `_wiki/tools.md`.
-- Change `/podcasts/` into a list view closer to the original DataTalks.Club
-  podcast structure, not a generic card/grid page.
+- Keep `/podcasts/` as a list view closer to the original DataTalks.Club
+  podcast structure. The pages in `_podcast_summaries/` are the internal
+  citation targets for wiki/articles.
+- Treat Markdown pages as the source for the graph. Do not maintain
+  `graph/graph.json` separately; regenerate it from the collections.
+- Keep `make sources` as the first step for broad podcast work. It syncs local
+  podcast pages, people pages, chapter summaries, and the source index used by
+  subagents.
+- For broad topic discovery, keep five subagents running on non-overlapping
+  podcast batches and collect grounded topic reports before writing pages.
 - Keep MLOps and DataOps as separate concept pages. Use `_wiki/mlops.md` for
   model lifecycle operations, `_wiki/dataops.md` for data delivery operations,
   and `_articles/mlops-vs-dataops.md` for the comparison.

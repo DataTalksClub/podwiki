@@ -20,18 +20,6 @@ The archive doesn't frame this path as "become technical from scratch." It
 frames it as a move from optimizing marketing decisions with data to owning the
 models, dashboards, and metric definitions that other teams reuse.
 
-## Contents
-
-Use these sections to compare prior marketing work with analytics engineering
-proof.
-
-- [Transition Profile](#transition-profile)
-- [Transferable Skills](#transferable-skills)
-- [Missing Skills](#missing-skills)
-- [Portfolio Evidence](#portfolio-evidence)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Transition Profile
 
@@ -139,16 +127,3 @@ Use these pages for the broader role and adjacent skills.
 - [Analytics Engineering Portfolio Projects]({{ '/wiki/analytics-engineering-portfolio-projects/' | relative_url }})
 - [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }})
 - [dbt]({{ '/wiki/dbt/' | relative_url }})
-
-## Maintenance Notes
-
-Future edits should preserve the transition focus.
-
-- Primary source episode:
-  `../datatalksclub.github.io/_podcast/from-marketing-to-analytics-engineering-sql-dbt-career-switch.md`.
-- Keep this page focused on the transition path. Put general analytics
-  engineering material in [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
-  or [Analytics Engineering Roadmap]({{ '/wiki/analytics-engineering-roadmap/' | relative_url }}).
-- Add more evidence when future episodes discuss marketing operations,
-  lifecycle marketing, growth analytics, attribution, or reverse ETL as a
-  bridge into analytics engineering.

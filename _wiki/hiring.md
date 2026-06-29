@@ -24,14 +24,6 @@ This page focuses on employer-side lessons. Candidate tactics belong in
 share evidence because hiring process and candidate preparation mirror each
 other.
 
-## Contents
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Hiring Patterns](#hiring-patterns)
-- [Episode Evidence](#episode-evidence)
-- [Guest Experts](#guest-experts)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -139,15 +131,3 @@ enough for a wider candidate pool to self-select.
 - [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
 - [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
 - [MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }})
-
-## Maintenance Notes
-
-- Create role-specific hiring pages only when they can preserve distinct
-  evidence: data scientist hiring, data engineer hiring, ML engineer hiring, and
-  data science manager hiring are likely candidates.
-- Add local summaries for `hiring-for-data-engineering-jobs-in-europe.md`,
-  `hiring-for-data-science-jobs-interview-questions-skills.md.md`,
-  `data-science-manager-vs-expert-hiring-guide.md`, and
-  `hiring-and-managing-data-science-teams-in-b2b-saas.md`.
-- Keep candidate advice in [Job Search]({{ '/wiki/job-search/' | relative_url }})
-  unless it directly exposes how hiring teams evaluate evidence.

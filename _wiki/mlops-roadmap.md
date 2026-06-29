@@ -24,21 +24,6 @@ through people, process, and technology together. A model registry, Kubernetes
 cluster, or feature store matters only when it solves a real handoff,
 deployment, monitoring, reproducibility, or ownership problem.
 
-## Contents
-
-Use these sections to move from reproducible experiments to platform adoption.
-
-- [Stage 1: Make Experiments Reproducible](#stage-1-make-experiments-reproducible)
-- [Stage 2: Package and Deploy One Model](#stage-2-package-and-deploy-one-model)
-- [Stage 3: Add Registry, Monitoring, and Retraining Decisions](#stage-3-add-registry-monitoring-and-retraining-decisions)
-- [Stage 4: Turn Repeated Work Into a Platform](#stage-4-turn-repeated-work-into-a-platform)
-- [Stage 5: Specialize by Organization Constraint](#stage-5-specialize-by-organization-constraint)
-- [Project Sequence](#project-sequence)
-- [Role Milestones](#role-milestones)
-- [Study-Build Boundary](#study-build-boundary)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Stage 1: Make Experiments Reproducible
 
@@ -182,17 +167,3 @@ Use these pages for adjacent topics.
 - [Experiment Tracking]({{ '/wiki/experiment-tracking/' | relative_url }})
 - [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }})
 - [Production]({{ '/wiki/production/' | relative_url }})
-
-## Maintenance Notes
-
-Use these source files when expanding the page.
-
-- `../datatalksclub.github.io/_podcast/mlops-at-scale-reproducibility-adoption.md`
-- `../datatalksclub.github.io/_podcast/building-production-ml-platform-and-mlops-team.md`
-- `../datatalksclub.github.io/_podcast/pragmatic-and-standardized-mlops.md`
-- `../datatalksclub.github.io/_podcast/mlops-and-ml-engineering-in-finance.md`
-- `../datatalksclub.github.io/_podcast/lean-mlops-for-startups.md`
-
-Future updates should add clips from human-centered MLOps, model monitoring,
-and AI/LLMOps episodes as the archive gets more model lifecycle examples. Keep
-this page role-and-sequence oriented.

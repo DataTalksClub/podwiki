@@ -24,17 +24,6 @@ production-ML portfolio planning. For the broader ML topic, use
 interview-style architecture, use
 [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }}).
 
-## Contents
-
-Use these sections to connect project design with archive evidence.
-
-- [Project Criteria](#project-criteria)
-- [Project Types](#project-types)
-- [Project Proof](#project-proof)
-- [Episode Evidence](#episode-evidence)
-- [Anti-Patterns](#anti-patterns)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Project Criteria
 
@@ -150,16 +139,3 @@ Use these pages for adjacent project and role context.
 - [Data Science]({{ '/wiki/data-science/' | relative_url }})
 - [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
 - [Job Search]({{ '/wiki/job-search/' | relative_url }})
-
-## Maintenance Notes
-
-- Highest-value source files:
-  `../datatalksclub.github.io/_podcast/machine-learning-system-design-interview.md`,
-  `../datatalksclub.github.io/_podcast/building-scalable-and-reliable-machine-learning-systems.md`,
-  `../datatalksclub.github.io/_podcast/machine-learning-engineering-production-best-practices.md`,
-  `../datatalksclub.github.io/_podcast/software-engineering-for-machine-learning.md`,
-  and `../datatalksclub.github.io/_podcast/mlops-at-scale-reproducibility-adoption.md`.
-- Future expansion should split examples by target role: data scientist, ML
-  engineer, MLOps engineer, and applied AI engineer.
-- Keep this page model-and-system focused. RAG-specific portfolio guidance
-  belongs in [RAG Portfolio Projects]({{ '/wiki/rag-portfolio-projects/' | relative_url }}).

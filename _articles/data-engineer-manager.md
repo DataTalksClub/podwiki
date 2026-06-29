@@ -26,20 +26,6 @@ delivery. For the broader role context, see
 [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}), and
 [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}).
 
-## Search Intent
-
-People searching for "data engineer manager" usually fit these reader groups:
-
-- data engineers moving toward management
-- hiring managers writing the role
-- managers who already lead data engineers and need a clearer operating model
-
-Use this page to decide what a data engineer manager owns and how to design the
-team. It also covers what to hire for, how to prioritize work, and how to keep
-quality high. The data engineering episodes cover platform work, hiring,
-scale-up pressure, and role boundaries. The data leadership episodes add
-management practices that transfer across data science, analytics, ML, and data
-engineering teams.
 
 ## Manager Responsibilities
 

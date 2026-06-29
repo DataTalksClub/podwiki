@@ -31,27 +31,6 @@ Use this guide as a transition roadmap. For the deeper archive view, start with
 [Machine Learning Engineer Role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }}),
 and [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}).
 
-## Search Intent
-
-People searching for this keyword are usually software engineers who want to
-move into applied ML or ML engineering. They may also be aiming at AI
-engineering or data science. Their background may be backend, full-stack, or
-platform engineering. DevOps and product engineering backgrounds fit too. The
-hard question is how to avoid starting over from zero.
-
-A useful answer should help you:
-
-- translate software engineering experience into ML role evidence
-- identify the ML, statistics, and data gaps that still matter
-- choose a project sequence that proves applied skill
-- understand enough production ML to avoid notebook-only work
-- prepare interview stories around systems, tradeoffs, and model behavior
-- decide whether to target ML engineer, data scientist, MLOps, or AI engineer
-
-The Ubersuggest row behind this page targets a practical career query, not a
-theory query, so the advice has to stay close to job evidence. You need a
-learning path, but you also need visible proof that you can use ML inside
-working software.
 
 ## Transferable Skills
 

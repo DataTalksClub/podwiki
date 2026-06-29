@@ -24,15 +24,6 @@ Use this page for the decision boundary. Use
 for retrieval architecture and [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
 for broader production LLM design.
 
-## Contents
-
-- [Comparison](#comparison)
-- [Boundary Principles](#boundary-principles)
-- [RAG Triggers](#rag-triggers)
-- [Fine-Tuning Triggers](#fine-tuning-triggers)
-- [Podcast Evidence](#podcast-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Comparison
 
@@ -157,17 +148,3 @@ Use these pages for adjacent LLM, retrieval, and evaluation topics.
 - [Evaluation]({{ '/wiki/evaluation/' | relative_url }})
 - [Vector Databases]({{ '/wiki/vector-databases/' | relative_url }})
 - [Embeddings]({{ '/wiki/embeddings/' | relative_url }})
-
-## Maintenance Notes
-
-Use these notes when updating the page.
-
-- Highest-value source files:
-  `../datatalksclub.github.io/_podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.md`,
-  `../datatalksclub.github.io/_podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.md`,
-  `../datatalksclub.github.io/_podcast/practical-llm-engineering-and-rag.md`,
-  and `../datatalksclub.github.io/_podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.md`.
-- Keep this page centered on the decision boundary. Put chunking, search, and
-  evaluation depth on [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }}).
-- Add more archive evidence on fine-tuning datasets, parameter-efficient tuning,
-  and open-source model serving when those clips appear.

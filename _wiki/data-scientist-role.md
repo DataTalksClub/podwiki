@@ -24,17 +24,6 @@ first-data-hire generalist work. The useful archive definition is practical: a
 data scientist owns the question, data reasoning, method, evaluation, and impact
 story.
 
-## Contents
-
-Use these links to move through the role page.
-
-- [Responsibilities](#responsibilities)
-- [Required Skills](#required-skills)
-- [Boundaries with Nearby Roles](#boundaries-with-nearby-roles)
-- [Guest Descriptions](#guest-descriptions)
-- [Archive Evidence](#archive-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Responsibilities
 
@@ -161,19 +150,3 @@ Use these pages for adjacent role and practice context.
 - [Machine Learning]({{ '/wiki/machine-learning/' | relative_url }})
 - [Data Engineer vs Data Scientist]({{ '/wiki/data-engineer-vs-data-scientist/' | relative_url }})
 - [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
-
-## Maintenance Notes
-
-Use these notes when updating the page.
-
-- Highest-value source files:
-  `../datatalksclub.github.io/_podcast/data-team-roles.md`,
-  `../datatalksclub.github.io/_podcast/big-data-engineer-vs-data-scientist.md`,
-  `../datatalksclub.github.io/_podcast/get-data-scientist-job.md`,
-  `../datatalksclub.github.io/_podcast/data-science-interview-and-cv-guide.md`,
-  `../datatalksclub.github.io/_podcast/data-science-job-red-flags-and-mismatched-roles.md`,
-  and `../datatalksclub.github.io/_podcast/hiring-for-data-science-jobs-interview-questions-skills.md.md`.
-- Keep this page role-oriented. Put broad topic synthesis on
-  [Data Science]({{ '/wiki/data-science/' | relative_url }}).
-- Future updates should add concrete examples from public policy, healthcare,
-  B2B SaaS, and AI-transition episodes.

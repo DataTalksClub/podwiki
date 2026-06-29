@@ -28,19 +28,6 @@ for the learning path and
 [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
 for project criteria.
 
-## Search Intent
-
-People searching for `data engineering certification` are usually trying to
-answer one of four questions:
-
-- Will a certificate help me get a data engineering job?
-- Which certificate program is worth the time or money?
-- What should I build alongside the certificate?
-- How do I turn certificate work into resume, portfolio, and interview proof?
-
-The practical answer is conditional. A certification is useful when it forces
-you to learn fundamentals and finish a real project. It's weak when it only
-adds a badge to a profile with no pipeline, code, tests, or interview practice.
 
 ## Short Answer
 

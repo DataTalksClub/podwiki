@@ -25,15 +25,6 @@ on [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relativ
 [Data Governance]({{ '/wiki/data-governance/' | relative_url }}), and
 [Data Teams]({{ '/wiki/data-teams/' | relative_url }}).
 
-## Contents
-
-Use these sections:
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Episode Evidence](#episode-evidence)
-- [Tradeoffs](#tradeoffs)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -115,19 +106,3 @@ Useful adjacent pages:
 - [Data Governance]({{ '/wiki/data-governance/' | relative_url }})
 - [Data Teams]({{ '/wiki/data-teams/' | relative_url }})
 - [MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }})
-
-## Maintenance Notes
-
-Future maintainers should keep this page as synthesis:
-
-- Put implementation depth on narrower pages and link back here when a
-  strategic lesson repeats.
-- Best source files:
-  `../datatalksclub.github.io/_podcast/data-mesh-architecture-decentralized-data-products.md`,
-  `../datatalksclub.github.io/_podcast/cloud-data-governance.md`,
-  `../datatalksclub.github.io/_podcast/data-led-growth-event-tracking-and-reverse-etl.md`,
-  `../datatalksclub.github.io/_podcast/scaling-data-engineering-teams-self-service-platforms.md`,
-  and `../datatalksclub.github.io/_podcast/dataops-automation-and-reliable-data-pipelines.md`.
-- Good future additions include a maturity table for startup and scale-up data
-  strategy. Enterprise strategy belongs there too. More evidence from data team
-  leadership episodes would also improve the page.

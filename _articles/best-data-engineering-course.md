@@ -36,25 +36,6 @@ and
 [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
 as the deeper learning and project standards.
 
-## Search Intent
-
-This keyword has high purchase and comparison intent. Readers aren't only
-asking what data engineering is because they're deciding which course is worth
-their time. They also want to know whether a free course, paid program,
-bootcamp, or certificate will move them closer to a job.
-
-A useful answer should help you:
-
-- choose a course for your current background
-- match the course to a target data engineering role
-- check whether the syllabus teaches fundamentals before advanced tools
-- judge the final project before trusting the certificate
-- connect course work to portfolio, interviews, and job-search evidence
-
-Use this guide to compare course decisions, not provider rankings. The archive
-supports a decision guide, not a universal leaderboard. A course is "best" when
-it closes your biggest evidence gap and leaves you with work another engineer
-can look at.
 
 ## Article Outline
 

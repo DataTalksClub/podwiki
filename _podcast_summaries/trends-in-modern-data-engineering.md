@@ -1,80 +1,56 @@
 ---
 layout: podcast_summary
 title: "Modern Data Engineering: Iceberg, Delta Lake & AI-Powered Pipelines"
-source_episode: "../datatalksclub.github.io/_podcast/trends-in-modern-data-engineering.md"
-source_url: "https://datatalks.club/podcast.html"
+source_episode: "datatalksclub.github.io/_podcast/trends-in-modern-data-engineering.md"
+source_url: "https://datatalks.club/podcast/trends-in-modern-data-engineering.html"
 season: 20
 episode: 3
-guests: [adrianbrudaru]
-topics: ["data engineering", "Apache Iceberg", "Delta Lake", "DuckDB", "orchestration", "streaming", "AI engineering", "data governance"]
-summary_status: draft
+guests: ["adrianbrudaru"]
+topics: ["data engineering", "data governance", "AI", "open-source"]
+summary_status: source-index
+youtube_url: "https://www.youtube.com/watch?v=AlCFKbFIEM8"
+spotify_url: "https://open.spotify.com/episode/35QbCW6Evqk1EPMKUDGGdv"
+apple_url: "https://podcasts.apple.com/us/podcast/trends-in-data-engineering-adrian-brudaru/id1541710331?i=1000698294801"
 ---
-
 # Modern Data Engineering: Iceberg, Delta Lake & AI-Powered Pipelines
 
-## Why This Episode Matters
+## Original Episode
 
-This recent data engineering episode is useful for current tooling and trend synthesis. It covers table formats, metadata catalogs, DuckDB, orchestration, streaming, AI-assisted data engineering, and the convergence between data engineering and AI engineering. It complements older modern data stack episodes with newer lakehouse and AI-era concerns.
+- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/trends-in-modern-data-engineering.html)
+- [Watch on YouTube](https://www.youtube.com/watch?v=AlCFKbFIEM8)
+- [Listen on Spotify](https://open.spotify.com/episode/35QbCW6Evqk1EPMKUDGGdv)
+- [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/trends-in-data-engineering-adrian-brudaru/id1541710331?i=1000698294801)
 
-## Chapter-Level Summary
+## Episode Overview
 
-- 0:01 - Episode Opening: Introduces the data engineering trends topic.
-- 2:23 - Evolving Challenges: Gives the guest's view of how data engineering problems are changing.
-- 3:10 - Career Journey: Covers startups, freelancing, and founding DLT.
-- 4:03 - DLT as Ingestion Standard: Positions DLT as a Python-based ingestion approach.
-- 7:45 - DLT Plus Vision: Covers partnerships and reusable offerings.
-- 11:03 - Specialization Shift: Discusses governance, data quality, and streaming as specialized work.
-- 12:37 - Early-Career Opportunities: Points to AI projects and startups as entry paths.
-- 14:32 - Modern Data Stack Critique: Discusses open-source postmodern alternatives.
-- 16:40 - 2025 Trends: Highlights AI integration and Apache Iceberg adoption.
-- 18:17 - Apache Iceberg Explained: Covers table formats, Parquet storage, and lock-in reduction.
-- 21:27 - Database Layers and Catalog Role: Explains storage, compute, access, metadata, and lineage.
-- 23:41 - Metadata and Catalog Tooling: Mentions AWS Glue and peer tools.
-- 25:58 - DuckDB Impact: Covers local OLAP and portable query execution.
-- 27:40 - Cost-Efficient Pipelines: Uses DuckDB, GitHub Actions, and headless table formats as examples.
-- 30:31 - Headless Table Formats: Discusses DLT support for Delta Lake and Iceberg.
-- 31:29 - dbt Influence: Covers dbt workflow influence and alternatives such as SQLMesh.
-- 35:37 - Workflow Orchestration: Compares Airflow, Prefect, Dagster, and GitHub Actions.
-- 38:02 - AI Engineering Convergence: Explains why data engineers increasingly build AI agents.
-- 41:06 - Beginner Roadmap: Recommends SQL, Python, requirements gathering, and portfolio building.
-- 44:42 - Tool Selection Guidance: Warns against vendor-driven tool choices.
-- 45:56 - Transition Paths: Covers senior backend engineers moving into data engineering.
-- 48:04 - Job Market Outlook: Compares senior and junior opportunities.
-- 49:42 - Table Format Comparisons: Compares Delta, Hudi, and Iceberg.
-- 51:19 - Streaming Architectures: Covers micro-batching, Kafka, SQS, and Flink.
-- 56:15 - AI-Driven Commoditization: Discusses code generation effects on data engineering.
-- 59:42 - DLT Roadmap: Covers DLT Plus and reusable data products.
-- 61:19 - Episode Wrap-Up: Summarizes the key takeaways.
+How can engineering teams build reliable, scalable lakehouse pipelines that combine transactional table formats with AI-driven automation? In this episode Adrian Brudaru—an economics-trained analyst turned freelance data practitioner and co-founder of a data company focused on open source tooling—joins us to explore the realities of modern data engineering.
 
-## Key Concepts
+## Chapter Summary
 
-- Apache Iceberg
-- Delta Lake
-- table formats
-- metadata catalog
-- DuckDB
-- orchestration
-- streaming
-- modern data stack
-- data governance
-- AI-powered pipelines
-
-## Useful For Agents When
-
-- Updating data engineering hubs with recent lakehouse and AI trends.
-- Comparing Iceberg, Delta, Hudi, catalogs, and storage/compute separation.
-- Writing career guidance for data engineers in the AI era.
-- Looking for current orchestration and streaming tool comparisons.
-
-## Probably Skip If
-
-- The task only needs evergreen ETL/ELT definitions.
-- You need deep ML model deployment details.
-- You are researching experimentation or product analytics.
-
-## Source Pointers
-
-- Source episode file: `../datatalksclub.github.io/_podcast/trends-in-modern-data-engineering.md`
-- Original podcast URL: https://datatalks.club/podcast.html
-- YouTube: https://www.youtube.com/watch?v=AlCFKbFIEM8
-- Spotify: https://open.spotify.com/episode/35QbCW6Evqk1EPMKUDGGdv
+- 0:01 - [Episode opening & guest introduction](https://www.youtube.com/watch?v=AlCFKbFIEM8&t=1)
+- 2:23 - [Perspective on evolving data engineering challenges](https://www.youtube.com/watch?v=AlCFKbFIEM8&t=143)
+- 3:10 - [Career journey: startups, freelancing, founding DLT](https://www.youtube.com/watch?v=AlCFKbFIEM8&t=190)
+- 4:03 - [DLT as a Python-based ingestion standard and market impact](https://www.youtube.com/watch?v=AlCFKbFIEM8&t=243)
+- 7:45 - [DLT Plus vision and partnership outreach for freelancers](https://www.youtube.com/watch?v=AlCFKbFIEM8&t=465)
+- 11:03 - [Industry shift toward specialization: governance, data quality, streaming](https://www.youtube.com/watch?v=AlCFKbFIEM8&t=663)
+- 12:37 - [Early-career opportunities: AI projects and startup hiring](https://www.youtube.com/watch?v=AlCFKbFIEM8&t=757)
+- 14:32 - [Modern data stack critique and open-source "postmodern" alternatives](https://www.youtube.com/watch?v=AlCFKbFIEM8&t=872)
+- 16:40 - [2025 trends: AI integration in data engineering and Apache Iceberg adoption](https://www.youtube.com/watch?v=AlCFKbFIEM8&t=1000)
+- 18:17 - [Apache Iceberg explained: table format, Parquet storage, vendor lock-in reduction](https://www.youtube.com/watch?v=AlCFKbFIEM8&t=1097)
+- 21:27 - [Database layers and catalog role: storage, compute, access, metadata & lineage](https://www.youtube.com/watch?v=AlCFKbFIEM8&t=1287)
+- 23:41 - [Metadata and catalog tooling overview (AWS Glue and peers)](https://www.youtube.com/watch?v=AlCFKbFIEM8&t=1421)
+- 25:58 - [DuckDB impact: embeddable local OLAP and portable query engine](https://www.youtube.com/watch?v=AlCFKbFIEM8&t=1558)
+- 27:40 - [Cost-efficient pipelines: DuckDB with GitHub Actions and headless table formats](https://www.youtube.com/watch?v=AlCFKbFIEM8&t=1660)
+- 30:31 - [Headless table formats and DLT support for Delta Lake and Iceberg](https://www.youtube.com/watch?v=AlCFKbFIEM8&t=1831)
+- 31:29 - [dbt's influence on engineering workflows and alternatives like SQLMesh](https://www.youtube.com/watch?v=AlCFKbFIEM8&t=1889)
+- 35:37 - [Workflow orchestration options in 2025: Airflow, Prefect, Dagster, GitHub](https://www.youtube.com/watch?v=AlCFKbFIEM8&t=2137)
+- 38:02 - [AI engineering convergence: data engineers building AI agents](https://www.youtube.com/watch?v=AlCFKbFIEM8&t=2282)
+- 41:06 - [Beginner roadmap: SQL, Python, capturing business requirements, building](https://www.youtube.com/watch?v=AlCFKbFIEM8&t=2466)
+- 44:42 - [Tool selection guidance and vendor caution for modern data stacks](https://www.youtube.com/watch?v=AlCFKbFIEM8&t=2682)
+- 45:56 - [Transition paths: senior backend engineers moving into data engineering](https://www.youtube.com/watch?v=AlCFKbFIEM8&t=2756)
+- 48:04 - [Job market outlook: senior vs junior data engineering opportunities](https://www.youtube.com/watch?v=AlCFKbFIEM8&t=2884)
+- 49:42 - [Table format comparisons: Delta, Hudi, and Iceberg differences](https://www.youtube.com/watch?v=AlCFKbFIEM8&t=2982)
+- 51:19 - [Streaming architectures and tools: micro-batching, Kafka, SQS, Flink](https://www.youtube.com/watch?v=AlCFKbFIEM8&t=3079)
+- 56:15 - [AI-driven commoditization and code generation in data engineering](https://www.youtube.com/watch?v=AlCFKbFIEM8&t=3375)
+- 59:42 - [DLT roadmap: DLT Plus and a marketplace for reusable data products](https://www.youtube.com/watch?v=AlCFKbFIEM8&t=3582)
+- 1:01:19 - [Episode wrap-up and key takeaways](https://www.youtube.com/watch?v=AlCFKbFIEM8&t=3679)

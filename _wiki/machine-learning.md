@@ -23,17 +23,6 @@ deployment, monitoring, and maintainability.
 Use this broad ML hub to route readers to deeper pages on system design, MLOps,
 interpretability, search, LLMs, experimentation, and responsible AI.
 
-## Contents
-
-Use these sections to separate the broad technical topic from production and
-role pages.
-
-- [Scope](#scope)
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Role and Content Boundaries](#role-and-content-boundaries)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Scope
 
@@ -185,18 +174,3 @@ Use these pages for adjacent topics and deeper implementation detail.
 - [Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }})
 - [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
 - [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
-
-## Maintenance Notes
-
-- Highest-value source files for future expansion:
-  `../datatalksclub.github.io/_podcast/machine-learning-system-design-interview.md`,
-  `../datatalksclub.github.io/_podcast/machine-learning-engineering-production-best-practices.md`,
-  `../datatalksclub.github.io/_podcast/software-engineering-for-machine-learning.md`,
-  `../datatalksclub.github.io/_podcast/building-scalable-and-reliable-machine-learning-systems.md`,
-  and `../datatalksclub.github.io/_podcast/interpretable-machine-learning.md`.
-- Good future additions: concrete episode clusters for recommendations, fraud,
-  healthcare, marketing attribution, computer vision, causal ML, and industrial
-  small-data ML.
-- Avoid duplicating the detailed checklist already maintained in
-  [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }}).
-  Keep this page as the broader model-and-practice hub.

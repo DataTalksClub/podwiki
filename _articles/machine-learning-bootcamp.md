@@ -25,25 +25,6 @@ the notebook. The credential can help, but employers still need evidence that
 you can reason through messy data and model tradeoffs. They also need to see
 that you can handle production risks and interviews.
 
-## Search Intent
-
-The keyword `machine learning bootcamp` sits between course research and career
-planning, so readers are usually comparing free and paid programs. They may
-also be choosing between schedule formats and delivery formats.
-
-A useful page for this query should help you:
-
-- decide whether a bootcamp matches your current background
-- check whether the syllabus teaches skills in a job-ready order
-- judge portfolio projects before you rely on them in applications
-- understand the difference between classroom ML and production ML
-- prepare for ML, data science, and ML engineering interviews
-- avoid programs that sell tool exposure without project evidence
-
-Use this article as a bootcamp evaluation checklist. For the deeper archive
-view, start with [Machine Learning]({{ '/wiki/machine-learning/' | relative_url }}),
-[Machine Learning Engineer Role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }}),
-and [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}).
 
 ## Bootcamp Proof
 

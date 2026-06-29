@@ -21,14 +21,6 @@ Use [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-syst
 for the larger retrieval architecture. This bridge keeps the representation
 layer separate from vector storage and generation.
 
-## Contents
-
-Use these links to jump between the main embedding sections.
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -87,17 +79,3 @@ Use these pages for deeper treatment of nearby topics.
 - [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
 - [NLP]({{ '/wiki/nlp/' | relative_url }})
 - [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
-
-## Maintenance Notes
-
-Future updates should keep storage choices and architecture choices on their own
-pages.
-
-- Keep storage choices in
-  [Vector Databases]({{ '/wiki/vector-databases/' | relative_url }}) and
-  architecture choices in
-  [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }}).
-- Add a summary for `production-ml-search-vector-search-embeddings-hybrid-search.md`
-  before expanding multimodal and feature-fusion sections.
-- When adding evidence, name what's embedded, which retrieval task uses it, and
-  how quality is measured.

@@ -23,14 +23,6 @@ description, or where a career transition needs skill-building. Use
 [Data Science]({{ '/wiki/data-science/' | relative_url }}) for the broader role
 hubs.
 
-## Contents
-
-- [Comparison](#comparison)
-- [Boundary Location](#boundary-location)
-- [Ownership Triggers](#ownership-triggers)
-- [Podcast Evidence](#podcast-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Comparison
 
@@ -151,17 +143,3 @@ Use these pages for adjacent role and production topics.
 - [MLOps]({{ '/wiki/mlops/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
-
-## Maintenance Notes
-
-Use these notes when updating the page.
-
-- Highest-value source files:
-  `../datatalksclub.github.io/_podcast/data-team-roles.md`,
-  `../datatalksclub.github.io/_podcast/big-data-engineer-vs-data-scientist.md`,
-  `../datatalksclub.github.io/_podcast/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for.md`,
-  and `../datatalksclub.github.io/_podcast/building-production-ml-platform-and-mlops-team.md`.
-- Add evidence only when an episode helps clarify ownership, handoffs, or skill
-  boundaries. Generic tool lists belong on the broader role hubs.
-- Add concrete clips from job-description and hiring episodes where guests
-  explain how to detect mislabeled roles.

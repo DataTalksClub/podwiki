@@ -22,15 +22,6 @@ Open source creates the surface where that bridge is visible: issues, pull
 requests, examples, contribution guides, talks, training, and real user
 feedback.
 
-## Contents
-
-- [Archive-Level Takeaways](#archive-level-takeaways)
-- [Recurring Patterns](#recurring-patterns)
-- [Decision Points and Checklists](#decision-points-and-checklists)
-- [Episode Evidence](#episode-evidence)
-- [Tradeoffs and Open Questions](#tradeoffs-and-open-questions)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Archive-Level Takeaways
 
@@ -186,10 +177,3 @@ problem and more about making many developers successful with a tool.
 - [MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }})
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
 - [LLM Tools article]({{ '/articles/llm-tools/' | relative_url }})
-
-## Maintenance Notes
-
-- Add podcast summaries for `open-source-ml-tools-strategy-and-business-models.md` and `practical-devrel-demofirst-education-and-open-source.md`.
-- Future edits should separate evidence by audience: contributor, maintainer, DevRel practitioner, founder, and hiring manager.
-- Do not create separate shallow pages for "open source", "developer relations", and "community" unless there is enough synthesis to avoid duplication.
-- Cross-link future people pages for Vincent Warmerdam, Hugo Bowne-Anderson, Will Russell, Adrian Brudaru, and Alexey Grigorev when their pages are expanded.

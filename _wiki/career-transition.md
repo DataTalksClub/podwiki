@@ -24,16 +24,6 @@ need new tools. They need a believable bridge from prior work to the target
 role, projects that show applied skill, and enough hiring literacy to explain
 why their background helps rather than distracts.
 
-## Contents
-
-Use this page through these sections:
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Transition Patterns](#transition-patterns)
-- [Episode Evidence](#episode-evidence)
-- [Guest Experts](#guest-experts)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -198,16 +188,3 @@ Use these pages for nearby archive threads:
 - [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
 - [Open Source and Developer Relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }})
 - [Career Transitions in Data]({{ '/wiki/career-transitions-in-data/' | relative_url }})
-
-## Maintenance Notes
-
-Keep these constraints in mind during future edits:
-
-- Keep this page as the general transition hub. Create separate pages for
-  repeated high-evidence moves such as marketing to analytics engineering, QA to
-  ML/data engineering, academic researcher to data science, and product designer
-  to data product manager.
-- Add episode summaries for high-value transition episodes before expanding this
-  page with more examples.
-- Avoid generic advice. Each future claim should name the prior role, target
-  role, missing skills, proof artifact, and hiring context.

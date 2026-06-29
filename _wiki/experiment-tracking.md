@@ -20,14 +20,6 @@ Use this page for run capture and reproducibility before a model is promoted.
 Use [Model Registry]({{ '/wiki/model-registry/' | relative_url }}) for model
 artifact handoff after a run becomes a candidate for deployment.
 
-## Contents
-
-Use these links to jump between the main parts.
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -81,16 +73,3 @@ Use these pages for adjacent reproducibility and lifecycle topics.
 - [Reproducibility]({{ '/wiki/reproducibility/' | relative_url }})
 - [Developer Experience]({{ '/wiki/developer-experience/' | relative_url }})
 - [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
-
-## Maintenance Notes
-
-Use these source files when expanding this page:
-
-- `../datatalksclub.github.io/_podcast/building-production-ml-platform-and-mlops-team.md`
-- `../datatalksclub.github.io/_podcast/mlops-at-scale-reproducibility-adoption.md`
-- `../datatalksclub.github.io/_podcast/devrel-open-source-machine-learning.md`
-- `../datatalksclub.github.io/_podcast/teaching-reproducible-research-and-open-science-coding-practices-for-academia.md`
-
-Keep this page about experiment capture. Put artifact promotion and lifecycle
-state on [Model Registry]({{ '/wiki/model-registry/' | relative_url }}) and
-production behavior on [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }}).

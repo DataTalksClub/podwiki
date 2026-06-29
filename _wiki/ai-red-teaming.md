@@ -20,14 +20,6 @@ Use this page for deliberate stress testing and failure discovery. Use
 [Security]({{ '/wiki/security/' | relative_url }}) for the broader security
 surface, including access controls, privacy, and secure model artifacts.
 
-## Contents
-
-Use these sections to move through the page.
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -77,16 +69,3 @@ Use these pages for adjacent production, governance, and LLM topics.
 - [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
 - [Generative AI]({{ '/wiki/generative-ai/' | relative_url }})
 - [AI]({{ '/wiki/ai/' | relative_url }})
-
-## Maintenance Notes
-
-Best source files for future expansion:
-
-- `../datatalksclub.github.io/_podcast/generative-ai-chatbots-in-production-security.md`
-- `../datatalksclub.github.io/_podcast/s23e03-future-of-ai-agents.md`
-- `../datatalksclub.github.io/_podcast/responsible-explainable-ai-bias-detection.md`
-
-Add future examples when an episode names an attack path, test setup, or
-failure class. Also add cases that describe a mitigation layer or review
-process. Keep generic AI-safety commentary on the broader responsible-AI page
-unless the episode describes adversarial testing.

@@ -26,15 +26,6 @@ broadens the topic into pipeline design across ingestion, staging, warehouses,
 and lakehouses. Adrian Brudaru later calls the modern data stack partly vendor
 packaging and argues for requirements-led tool selection.
 
-## Contents
-
-Use these sections:
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Episode Evidence](#episode-evidence)
-- [Tradeoffs](#tradeoffs)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -123,19 +114,3 @@ Useful adjacent pages:
 - [Data Warehouse vs Data Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }})
 - [Reverse ETL]({{ '/wiki/reverse-etl/' | relative_url }})
 - [Data Activation]({{ '/wiki/data-activation/' | relative_url }})
-
-## Maintenance Notes
-
-Future maintainers should preserve these source paths:
-
-- Best source files:
-  `../datatalksclub.github.io/_podcast/data-engineering-tools-modern-data-stack.md`,
-  `../datatalksclub.github.io/_podcast/modern-data-pipelines-orchestration-ingestion-modeling.md`,
-  `../datatalksclub.github.io/_podcast/data-led-growth-event-tracking-and-reverse-etl.md`,
-  and `../datatalksclub.github.io/_podcast/trends-in-modern-data-engineering.md`.
-- Keep this page as a bridge across stack components. Detailed comparisons
-  belong on pages such as [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }})
-  and [Data Warehouse vs Data Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }}).
-- Add future evidence when guests discuss stack ownership, semantic layers,
-  catalogs, cost management, open-source alternatives, or AI-era changes to data
-  engineering workflows.

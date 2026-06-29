@@ -1,0 +1,13 @@
+---
+layout: "person"
+title: "Nik Bakanchev"
+summary: "Nik Bakanchev's DataTalks.Club profile."
+source_url: "https://datatalks.club/people/nikbakanchev.html"
+podcast_episodes: []
+linkedin: "bakanchevn"
+---
+# Nik Bakanchev
+
+## Background
+
+​Nik Bakanchev is a hands-on Data Engineer and Platform Architect specializing in enterprise-scale data infrastructure. His current focus lies at the intersection of data engineering and AI - specifically, designing, observing, and securing autonomous agentic workflows in production. He joins us today as an independent industry expert to share practical patterns and field observations on the future of data platforms.

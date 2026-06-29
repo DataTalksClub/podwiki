@@ -28,21 +28,6 @@ start with [MLOps]({{ '/articles/mlops/' | relative_url }}) and
 [MLOps Roadmap]({{ '/wiki/mlops-roadmap/' | relative_url }}). For stack selection,
 use [MLOps Tools]({{ '/articles/mlops-tools/' | relative_url }}).
 
-## Search Intent
-
-The keyword `mlops course` means the reader wants a learning path, not another
-definition of MLOps.
-
-A useful course should help you do this work:
-
-- Reproduce how a model was trained.
-- Package the model for batch or online inference.
-- Promote a model through a registry or registry-like handoff.
-- Monitor model behavior after release.
-- Explain when a team needs a platform instead of one-off scripts.
-
-Don't choose a course because it names the most tools. Choose one that makes
-you build and operate one small model lifecycle end to end.
 
 ## Course Evaluation Outline
 

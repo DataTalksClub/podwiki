@@ -22,23 +22,6 @@ data, write Python and SQL, and operate a pipeline. You should also be able to
 explain tradeoffs and pass technical interviews. The credential matters less
 than the evidence you can show afterward.
 
-## Search Intent
-
-The keyword `data engineering bootcamp` sits between course research and career
-planning.
-
-A good page for this query should help you:
-
-- decide whether a bootcamp is the right learning format
-- compare free, paid, online, and full-time programs
-- understand which skills a beginner should prioritize
-- judge whether portfolio projects will survive employer review
-- prepare for interviews and the job search after graduation
-
-Use this article as a bootcamp evaluation checklist. For the full learning
-sequence, see [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
-and use [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
-for project criteria.
 
 ## Bootcamp Proof
 

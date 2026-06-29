@@ -31,25 +31,6 @@ For the broader archive map, start with
 [Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }}), and
 [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }}).
 
-## Search Intent
-
-This keyword usually means the reader wants a practical foundation before
-choosing a course, book, project, or stack.
-
-A useful answer should explain what data engineers actually design and operate:
-
-- how data moves from source systems into trusted destinations
-- why storage layers exist and how warehouses, lakes, and lakehouses differ
-- where transformation logic belongs
-- why orchestration is separate from business logic
-- how quality, observability, and ownership keep data useful
-- when batch, streaming, CDC, and reverse ETL are worth the complexity
-- what a beginner or career changer should build to prove the fundamentals
-
-Use this page as a concept guide. For stack selection, see
-[Data Engineering Tools]({{ '/articles/data-engineering-tools/' | relative_url }}),
-and for project evidence, see
-[Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }}).
 
 ## Article Outline
 

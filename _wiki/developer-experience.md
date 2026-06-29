@@ -21,14 +21,6 @@ also fits documentation, tutorials, onboarding and dogfooding. Use [Developer Re
 or [Open Source and Developer Relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }})
 when the emphasis is public community and content strategy.
 
-## Contents
-
-Use these links to jump between the main parts.
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -91,17 +83,3 @@ Use these pages for adjacent adoption and tooling topics.
 - [Metaflow]({{ '/wiki/metaflow/' | relative_url }})
 - [MLOps]({{ '/wiki/mlops/' | relative_url }})
 - [Tools]({{ '/wiki/tools/' | relative_url }})
-
-## Maintenance Notes
-
-Use these source files when expanding this page:
-
-- `../datatalksclub.github.io/_podcast/mlops-at-scale-reproducibility-adoption.md`
-- `../datatalksclub.github.io/_podcast/building-production-ml-platform-and-mlops-team.md`
-- `../datatalksclub.github.io/_podcast/devrel-open-source-machine-learning.md`
-- `../datatalksclub.github.io/_podcast/ai-infrastructure-hybrid-cloud-on-prem-distributed-training.md`
-- `../datatalksclub.github.io/_podcast/open-source-ml-contributions.md`
-
-Keep this page about the experience of using a platform or tool. Put public
-DevRel strategy on [Open Source and Developer Relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }})
-and platform-team structure on [Platform Engineering]({{ '/wiki/platform-engineering/' | relative_url }}).

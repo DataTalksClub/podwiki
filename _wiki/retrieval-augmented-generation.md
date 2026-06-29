@@ -21,14 +21,6 @@ Use [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-syst
 for the larger hub. Use [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
 for the broader production context.
 
-## Contents
-
-Use these links to jump between the main RAG sections.
-
-- [Recurring Archive Themes](#recurring-archive-themes)
-- [Episode Evidence](#episode-evidence)
-- [Related Pages](#related-pages)
-- [Maintenance Notes](#maintenance-notes)
 
 ## Recurring Archive Themes
 
@@ -91,16 +83,3 @@ Use these pages for deeper treatment of nearby topics.
 - [Vector Databases]({{ '/wiki/vector-databases/' | relative_url }})
 - [Embeddings]({{ '/wiki/embeddings/' | relative_url }})
 - [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }})
-
-## Maintenance Notes
-
-Future updates should preserve the boundary between retrieval, generation, and
-agent workflows.
-
-- Keep detailed architecture checklists in
-  [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }}).
-- Add a podcast summary for `practical-llm-engineering-and-rag.md`. It's the
-  main source for chunking, generator-evaluator work, and RAG-to-agent
-  boundaries.
-- When expanding this page, preserve the distinction between retrieval quality,
-  answer quality, and product outcome.
