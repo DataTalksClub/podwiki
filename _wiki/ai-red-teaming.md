@@ -1,24 +1,85 @@
 ---
 layout: wiki
-title: "Ai Red Teaming"
-summary: "Stub topic page for podcast archive links about Ai Red Teaming."
-stub: true
+title: "AI Red Teaming"
+summary: "How the podcast archive frames AI red teaming as adversarial testing for prompt injection, data exfiltration, unsafe outputs, and operational trust."
 related:
   - Responsible AI and Governance
+  - Security
+  - LLM Production Patterns
+  - Generative AI
 ---
 
-## Status
+## Definition and Scope
 
-This is a stub topic page. It keeps podcast, people, graph, and search links
-stable while agents collect episode-backed synthesis for this topic.
+AI red teaming is adversarial testing of AI systems before and after release.
+In the archive, the clearest examples are LLM chatbots: testers try to bypass
+instructions, extract hidden knowledge-base content, trigger unsafe advice, or
+force outputs that the product should never produce.
 
-## How to Expand
+Use this page for deliberate stress testing and failure discovery. Use
+[Security]({{ '/wiki/security/' | relative_url }}) for the broader security
+surface, including access controls, privacy, and secure model artifacts.
 
-When expanding this page, use the source podcast files in
-`../datatalksclub.github.io/_podcast` and link public episode evidence through
-`https://datatalks.club/podcast.html`. Focus on what guests said in the podcast
-archive, not on generic definitions.
+## Contents
+
+- [Recurring Archive Themes](#recurring-archive-themes)
+- [Episode Evidence](#episode-evidence)
+- [Related Pages](#related-pages)
+- [Maintenance Notes](#maintenance-notes)
+
+## Recurring Archive Themes
+
+Red teaming should test the real product boundary, not only the base model.
+Maria Sukhareva's chatbot-security episode describes a large bot-safety
+challenge where participants tried to make a restricted chatbot reveal hidden
+content. The lesson is that a deployed assistant includes prompts, retrieval
+context, output filters, APIs, user behavior, and business consequences.
+
+Prompt instructions are not enough. Attackers can overload prompts, use unusual
+encodings, craft API requests, or route around a weak filter. The archive's
+defense pattern is layered: analyze the query, constrain retrieved data, check
+the output, use simpler non-LLM classifiers where possible, log failures, and
+put humans in the loop for high-stakes workflows.
+
+Red teaming also clarifies product risk. The chatbot episode ties failures to
+legal exposure, financial mistakes, reputational damage, hallucinated advice,
+and poor adoption. That makes red-team findings useful for product managers and
+governance reviewers, not only security engineers.
+
+## Episode Evidence
+
+- [Hardening Generative AI Chatbots](https://datatalks.club/podcast.html),
+  9:28-17:16: Maria describes a 1,500-person chatbot hacking exercise, hidden
+  knowledge-base extraction, prompt overloading, output filters, query analysis,
+  layered defenses, and simpler classifiers that are harder to manipulate than
+  generative models.
+- [Hardening Generative AI Chatbots](https://datatalks.club/podcast.html),
+  18:01-25:34: the same episode connects hallucinations and unsafe answers to
+  trust, adoption, business risk, and human review.
+- [Future of AI Agents](https://datatalks.club/podcast.html): the agent
+  discussion names red teaming as stress testing in adverse scenarios, such as
+  whether users can game a chatbot. Use this as a bridge to agent-specific
+  safety when expanding the page.
+- [Responsible and Explainable AI](https://datatalks.club/podcast.html),
+  8:20-10:30 and 27:38-34:03: Supreet Kaur contrasts post-hoc explanation with
+  responsible design and shows why review should happen before an incident.
 
 ## Related Pages
 
+- [Security]({{ '/wiki/security/' | relative_url }})
 - [Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }})
+- [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
+- [Generative AI]({{ '/wiki/generative-ai/' | relative_url }})
+- [AI]({{ '/wiki/ai/' | relative_url }})
+
+## Maintenance Notes
+
+Best source files for future expansion:
+
+- `../datatalksclub.github.io/_podcast/generative-ai-chatbots-in-production-security.md`
+- `../datatalksclub.github.io/_podcast/s23e03-future-of-ai-agents.md`
+- `../datatalksclub.github.io/_podcast/responsible-explainable-ai-bias-detection.md`
+
+Add future examples when an episode names an attack path, test setup, failure
+class, mitigation layer, or review process. Keep generic AI-safety commentary on
+the broader responsible-AI page unless the episode describes adversarial testing.

@@ -7,7 +7,7 @@
     "persons": 26,
     "topics": 111,
     "nodes": 313,
-    "links": 1582
+    "links": 1746
   },
   "nodes": [
     {
@@ -1468,7 +1468,7 @@
       "title": "A/A Testing",
       "url": "/wiki/a-a-testing/",
       "count": 1,
-      "search": "A/A Testing Stub topic page for podcast archive links about A/A Testing."
+      "search": "A/A Testing How the podcast archive uses A/A testing to validate experiment assignment, tracking, and statistical interpretation before A/B tests are trusted."
     },
     {
       "id": "wiki:a-b-testing",
@@ -1477,7 +1477,7 @@
       "title": "A/B Testing",
       "url": "/wiki/a-b-testing/",
       "count": 1,
-      "search": "A/B Testing Stub topic page for podcast archive links about A/B Testing."
+      "search": "A/B Testing How the podcast archive explains A/B testing as randomized product evaluation: assignment, metrics, noise, power, and rollout decisions."
     },
     {
       "id": "wiki:academia",
@@ -1563,11 +1563,11 @@
     {
       "id": "wiki:ai-red-teaming",
       "type": "wiki",
-      "label": "Ai Red Teaming",
-      "title": "Ai Red Teaming",
+      "label": "AI Red Teaming",
+      "title": "AI Red Teaming",
       "url": "/wiki/ai-red-teaming/",
       "count": 1,
-      "search": "Ai Red Teaming Stub topic page for podcast archive links about Ai Red Teaming."
+      "search": "AI Red Teaming How the podcast archive frames AI red teaming as adversarial testing for prompt injection, data exfiltration, unsafe outputs, and operational trust."
     },
     {
       "id": "wiki:ai-tooling",
@@ -1621,7 +1621,7 @@
       "title": "Applied Research",
       "url": "/wiki/applied-research/",
       "count": 1,
-      "search": "Applied Research Stub topic page for podcast archive links about Applied Research."
+      "search": "Applied Research How the archive describes applied research as hypothesis driven ML work that turns uncertain ideas into reusable artifacts, products, and production systems."
     },
     {
       "id": "wiki:batch-vs-streaming",
@@ -1684,7 +1684,7 @@
       "title": "Causal Inference",
       "url": "/wiki/causal-inference/",
       "count": 1,
-      "search": "Causal Inference Stub topic page for podcast archive links about Causal Inference."
+      "search": "Causal Inference How the podcast archive explains causal inference as the discipline for reasoning about interventions, counterfactuals, treatment effects, and policy decisions."
     },
     {
       "id": "wiki:cdc",
@@ -1765,7 +1765,7 @@
       "title": "CV Screening",
       "url": "/wiki/cv-screening/",
       "count": 1,
-      "search": "CV Screening Stub topic page for podcast archive links about CV Screening."
+      "search": "CV Screening Archive backed guide to how data CVs and resumes are screened: responsibilities, keywords, project evidence, recruiter calls, bias reduction, and ATS myths."
     },
     {
       "id": "wiki:data-activation",
@@ -1783,7 +1783,7 @@
       "title": "Data Analyst Careers",
       "url": "/wiki/data-analyst-careers/",
       "count": 1,
-      "search": "Data Analyst Careers Stub topic page for podcast archive links about Data Analyst Careers."
+      "search": "Data Analyst Careers Archive backed career guidance for data analyst roles: SQL, metrics, dashboards, product context, title ambiguity, CV signals, and analyst to data science paths."
     },
     {
       "id": "wiki:data-analyst-role",
@@ -1954,7 +1954,7 @@
       "title": "Data Science Careers",
       "url": "/wiki/data-science-careers/",
       "count": 1,
-      "search": "Data Science Careers Stub topic page for podcast archive links about Data Science Careers."
+      "search": "Data Science Careers Archive backed career guidance for data scientist roles: role targeting, CV evidence, portfolio signals, interviews, salary, and ambiguous titles."
     },
     {
       "id": "wiki:data-scientist-interview-roadmap",
@@ -2062,7 +2062,7 @@
       "title": "Developer Experience",
       "url": "/wiki/developer-experience/",
       "count": 1,
-      "search": "Developer Experience A bridge page for podcast evidence about making data and ML tools usable through feedback, documentation, demos, thin abstractions, workflow design, and adoption support."
+      "search": "Developer Experience A bridge page for podcast evidence about making data and ML tools easier to use."
     },
     {
       "id": "wiki:developer-relations",
@@ -2152,7 +2152,7 @@
       "title": "Evaluation",
       "url": "/wiki/evaluation/",
       "count": 1,
-      "search": "Evaluation Stub topic page for podcast archive links about Evaluation."
+      "search": "Evaluation How the podcast archive frames evaluation as the link between model quality, product impact, causal validation, and operational trust."
     },
     {
       "id": "wiki:event-tracking",
@@ -2179,7 +2179,7 @@
       "title": "Experiment Tracking",
       "url": "/wiki/experiment-tracking/",
       "count": 1,
-      "search": "Experiment Tracking A bridge page for podcast evidence about capturing model runs, parameters, metrics, artifacts, data references, and exploratory knowledge for reproducible ML work."
+      "search": "Experiment Tracking A bridge page for podcast evidence about capturing model runs for reproducible ML work."
     },
     {
       "id": "wiki:experimentation",
@@ -2188,7 +2188,7 @@
       "title": "Experimentation",
       "url": "/wiki/experimentation/",
       "count": 1,
-      "search": "Experimentation Stub topic page for podcast archive links about Experimentation."
+      "search": "Experimentation How the podcast archive treats experimentation as product, model, and organizational learning under uncertainty."
     },
     {
       "id": "wiki:experimentation-and-causal-inference",
@@ -2233,7 +2233,7 @@
       "title": "Governance",
       "url": "/wiki/governance/",
       "count": 1,
-      "search": "Governance Stub topic page for podcast archive links about Governance."
+      "search": "Governance Archive backed bridge for governance across data, ML, and AI: ownership, access, review, release controls, compliance, and accountability."
     },
     {
       "id": "wiki:hiring",
@@ -2260,7 +2260,7 @@
       "title": "Interpretability",
       "url": "/wiki/interpretability/",
       "count": 1,
-      "search": "Interpretability Stub topic page for podcast archive links about Interpretability."
+      "search": "Interpretability Archive backed guide to interpretability as model understanding for debugging, trust, uncertainty, fairness, and responsible decisions."
     },
     {
       "id": "wiki:job-descriptions",
@@ -2269,7 +2269,7 @@
       "title": "Job Descriptions",
       "url": "/wiki/job-descriptions/",
       "count": 1,
-      "search": "Job Descriptions Stub topic page for podcast archive links about Job Descriptions."
+      "search": "Job Descriptions Archive backed guidance for reading and writing data job descriptions: role clarity, problem framing, requirements, red flags, and candidate fit."
     },
     {
       "id": "wiki:job-search",
@@ -2341,7 +2341,7 @@
       "title": "Machine Learning Infrastructure",
       "url": "/wiki/machine-learning-infrastructure/",
       "count": 1,
-      "search": "Machine Learning Infrastructure A bridge page for podcast evidence about compute, containers, orchestration, cloud, on prem, GPUs, dependency management, and serving foundations for ML and AI systems."
+      "search": "Machine Learning Infrastructure A bridge page for podcast evidence about compute and serving foundations for ML systems."
     },
     {
       "id": "wiki:machine-learning-portfolio-projects",
@@ -2395,7 +2395,7 @@
       "title": "Metrics",
       "url": "/wiki/metrics/",
       "count": 1,
-      "search": "Metrics Stub topic page for podcast archive links about Metrics."
+      "search": "Metrics How the podcast archive treats metrics as decision definitions for products, experiments, ML systems, data products, and AI evaluation."
     },
     {
       "id": "wiki:ml-platforms",
@@ -2449,7 +2449,7 @@
       "title": "Model Monitoring",
       "url": "/wiki/model-monitoring/",
       "count": 1,
-      "search": "Model Monitoring A bridge page for podcast evidence about watching deployed models, input data, predictions, drift, latency, errors, business outcomes, and retraining signals."
+      "search": "Model Monitoring A bridge page for podcast evidence about watching deployed models and retraining signals."
     },
     {
       "id": "wiki:model-registry",
@@ -2458,7 +2458,7 @@
       "title": "Model Registry",
       "url": "/wiki/model-registry/",
       "count": 1,
-      "search": "Model Registry A bridge page for podcast evidence about storing, versioning, approving, and handing off model artifacts for production use."
+      "search": "Model Registry A bridge page for podcast evidence about model artifact storage and handoff."
     },
     {
       "id": "wiki:modern-data-stack",
@@ -2539,7 +2539,7 @@
       "title": "Platform Engineering",
       "url": "/wiki/platform-engineering/",
       "count": 1,
-      "search": "Platform Engineering A bridge page for podcast evidence about internal platform teams, self service ML workflows, standards, support models, and developer experience."
+      "search": "Platform Engineering A bridge page for podcast evidence about internal platform teams and developer experience."
     },
     {
       "id": "wiki:power-analysis",
@@ -2548,7 +2548,7 @@
       "title": "Power Analysis",
       "url": "/wiki/power-analysis/",
       "count": 1,
-      "search": "Power Analysis Stub topic page for podcast archive links about Power Analysis."
+      "search": "Power Analysis How the podcast archive uses power analysis to estimate experiment sample size, duration, and detectable effect before teams read A/B test results."
     },
     {
       "id": "wiki:practices",
@@ -2674,7 +2674,7 @@
       "title": "Salary Negotiation",
       "url": "/wiki/salary-negotiation/",
       "count": 1,
-      "search": "Salary Negotiation Stub topic page for podcast archive links about Salary Negotiation."
+      "search": "Salary Negotiation Archive backed guidance for data salary conversations: expectations, bands, current salary, market research, competing offers, sign on bonuses, and recruiter transparency."
     },
     {
       "id": "wiki:scikit-learn",
@@ -2710,7 +2710,7 @@
       "title": "Security",
       "url": "/wiki/security/",
       "count": 1,
-      "search": "Security Stub topic page for podcast archive links about Security."
+      "search": "Security Archive backed bridge for security in data and AI systems: LLM abuse, data exfiltration, access control, privacy, and secure ML artifacts."
     },
     {
       "id": "wiki:software-engineer-to-machine-learning",
@@ -5284,7 +5284,25 @@
     },
     {
       "source": "wiki:a-a-testing",
-      "target": "wiki:experimentation-and-causal-inference",
+      "target": "wiki:a-b-testing",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:a-a-testing",
+      "target": "wiki:a-b-testing",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:a-a-testing",
+      "target": "wiki:evaluation",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:a-a-testing",
+      "target": "wiki:experimentation",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -5295,16 +5313,106 @@
       "weight": 3
     },
     {
-      "source": "wiki:a-b-testing",
-      "target": "wiki:experimentation-and-causal-inference",
+      "source": "wiki:a-a-testing",
+      "target": "wiki:metrics",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:a-a-testing",
+      "target": "wiki:metrics",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:a-a-testing",
+      "target": "wiki:power-analysis",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:a-a-testing",
+      "target": "wiki:power-analysis",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:a-a-testing",
+      "target": "wiki:tracking-plans",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:a-b-testing",
+      "target": "wiki:a-a-testing",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:a-b-testing",
+      "target": "wiki:a-a-testing",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:a-b-testing",
+      "target": "wiki:causal-inference",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:a-b-testing",
+      "target": "wiki:experimentation",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:a-b-testing",
+      "target": "wiki:experimentation",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:a-b-testing",
       "target": "wiki:experimentation-and-causal-inference",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:a-b-testing",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:a-b-testing",
+      "target": "wiki:metrics",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:a-b-testing",
+      "target": "wiki:metrics",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:a-b-testing",
+      "target": "wiki:power-analysis",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:a-b-testing",
+      "target": "wiki:power-analysis",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:a-b-testing",
+      "target": "wiki:product-analytics",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:academia",
@@ -5806,6 +5914,36 @@
     },
     {
       "source": "wiki:ai-red-teaming",
+      "target": "wiki:ai",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-red-teaming",
+      "target": "wiki:generative-ai",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-red-teaming",
+      "target": "wiki:generative-ai",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-red-teaming",
+      "target": "wiki:llm-production-patterns",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-red-teaming",
+      "target": "wiki:llm-production-patterns",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-red-teaming",
       "target": "wiki:responsible-ai-and-governance",
       "kind": "wiki-link",
       "weight": 2
@@ -5813,6 +5951,18 @@
     {
       "source": "wiki:ai-red-teaming",
       "target": "wiki:responsible-ai-and-governance",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-red-teaming",
+      "target": "wiki:security",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai-red-teaming",
+      "target": "wiki:security",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -6082,13 +6232,67 @@
     },
     {
       "source": "wiki:applied-research",
-      "target": "wiki:responsible-ai-and-governance",
+      "target": "wiki:academic-researcher-to-data-science",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:applied-research",
+      "target": "wiki:academic-researcher-to-data-science",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:applied-research",
+      "target": "wiki:ai",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:applied-research",
-      "target": "wiki:responsible-ai-and-governance",
+      "target": "wiki:ai",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:applied-research",
+      "target": "wiki:machine-learning",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:applied-research",
+      "target": "wiki:machine-learning",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:applied-research",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:applied-research",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:applied-research",
+      "target": "wiki:mlops",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:applied-research",
+      "target": "wiki:production",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:applied-research",
+      "target": "wiki:production",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -6358,6 +6562,42 @@
     },
     {
       "source": "wiki:causal-inference",
+      "target": "wiki:a-b-testing",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:causal-inference",
+      "target": "wiki:a-b-testing",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:causal-inference",
+      "target": "wiki:data-product-management",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:causal-inference",
+      "target": "wiki:evaluation",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:causal-inference",
+      "target": "wiki:evaluation",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:causal-inference",
+      "target": "wiki:experimentation",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:causal-inference",
       "target": "wiki:experimentation-and-causal-inference",
       "kind": "wiki-link",
       "weight": 2
@@ -6365,6 +6605,30 @@
     {
       "source": "wiki:causal-inference",
       "target": "wiki:experimentation-and-causal-inference",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:causal-inference",
+      "target": "wiki:machine-learning",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:causal-inference",
+      "target": "wiki:machine-learning",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:causal-inference",
+      "target": "wiki:metrics",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:causal-inference",
+      "target": "wiki:metrics",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -6682,15 +6946,81 @@
     },
     {
       "source": "wiki:cv-screening",
-      "target": "wiki:career-transitions-in-data",
+      "target": "wiki:data-analyst-careers",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:cv-screening",
-      "target": "wiki:career-transitions-in-data",
+      "target": "wiki:data-analyst-careers",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:cv-screening",
+      "target": "wiki:data-science-careers",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:cv-screening",
+      "target": "wiki:data-science-careers",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:cv-screening",
+      "target": "wiki:data-scientist-interview-roadmap",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:cv-screening",
+      "target": "wiki:data-scientist-interview-roadmap",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:cv-screening",
+      "target": "wiki:hiring",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:cv-screening",
+      "target": "wiki:hiring",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:cv-screening",
+      "target": "wiki:job-descriptions",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:cv-screening",
+      "target": "wiki:job-descriptions",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:cv-screening",
+      "target": "wiki:job-search",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:cv-screening",
+      "target": "wiki:job-search",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:cv-screening",
+      "target": "wiki:open-source-portfolio-evidence",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:data-activation",
@@ -6766,6 +7096,12 @@
     },
     {
       "source": "wiki:data-analyst-careers",
+      "target": "wiki:analytics-engineering",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-analyst-careers",
       "target": "wiki:career-transitions-in-data",
       "kind": "wiki-link",
       "weight": 2
@@ -6773,6 +7109,66 @@
     {
       "source": "wiki:data-analyst-careers",
       "target": "wiki:career-transitions-in-data",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-analyst-careers",
+      "target": "wiki:cv-screening",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-analyst-careers",
+      "target": "wiki:cv-screening",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-analyst-careers",
+      "target": "wiki:data-analyst-role",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:data-analyst-careers",
+      "target": "wiki:data-analyst-role",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-analyst-careers",
+      "target": "wiki:data-analyst-vs-analytics-engineer",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-analyst-careers",
+      "target": "wiki:data-analyst-vs-analytics-engineer",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-analyst-careers",
+      "target": "wiki:job-search",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-analyst-careers",
+      "target": "wiki:job-search",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-analyst-careers",
+      "target": "wiki:product-analytics",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-analyst-careers",
+      "target": "wiki:product-analytics",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -7947,6 +8343,72 @@
       "weight": 3
     },
     {
+      "source": "wiki:data-science-careers",
+      "target": "wiki:cv-screening",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-science-careers",
+      "target": "wiki:cv-screening",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-science-careers",
+      "target": "wiki:data-scientist-interview-roadmap",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:data-science-careers",
+      "target": "wiki:data-scientist-interview-roadmap",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-science-careers",
+      "target": "wiki:data-scientist-role",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:data-science-careers",
+      "target": "wiki:data-scientist-role",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-science-careers",
+      "target": "wiki:job-search",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-science-careers",
+      "target": "wiki:job-search",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-science-careers",
+      "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-science-careers",
+      "target": "wiki:salary-negotiation",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-science-careers",
+      "target": "wiki:salary-negotiation",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
       "source": "wiki:data-scientist-interview-roadmap",
       "target": "podcast:hiring-data-scientists-and-analysts",
       "kind": "wiki-link",
@@ -8854,6 +9316,36 @@
     },
     {
       "source": "wiki:evaluation",
+      "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:evaluation",
+      "target": "wiki:a-a-testing",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:evaluation",
+      "target": "wiki:a-b-testing",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:evaluation",
+      "target": "wiki:a-b-testing",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:evaluation",
+      "target": "wiki:causal-inference",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:evaluation",
       "target": "wiki:experimentation-and-causal-inference",
       "kind": "wiki-link",
       "weight": 2
@@ -8863,6 +9355,48 @@
       "target": "wiki:experimentation-and-causal-inference",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:evaluation",
+      "target": "wiki:llm-production-patterns",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:evaluation",
+      "target": "wiki:llm-production-patterns",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:evaluation",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:evaluation",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:evaluation",
+      "target": "wiki:metrics",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:evaluation",
+      "target": "wiki:metrics",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:evaluation",
+      "target": "wiki:power-analysis",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:event-tracking",
@@ -9028,6 +9562,54 @@
     },
     {
       "source": "wiki:experimentation",
+      "target": "wiki:a-a-testing",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:experimentation",
+      "target": "wiki:a-b-testing",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:experimentation",
+      "target": "wiki:a-b-testing",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:experimentation",
+      "target": "wiki:causal-inference",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:experimentation",
+      "target": "wiki:causal-inference",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:experimentation",
+      "target": "wiki:data-product-management",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:experimentation",
+      "target": "wiki:data-product-management",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:experimentation",
+      "target": "wiki:evaluation",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:experimentation",
       "target": "wiki:experimentation-and-causal-inference",
       "kind": "wiki-link",
       "weight": 2
@@ -9035,6 +9617,24 @@
     {
       "source": "wiki:experimentation",
       "target": "wiki:experimentation-and-causal-inference",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:experimentation",
+      "target": "wiki:power-analysis",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:experimentation",
+      "target": "wiki:product-analytics",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:experimentation",
+      "target": "wiki:product-analytics",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -9178,6 +9778,24 @@
     },
     {
       "source": "wiki:governance",
+      "target": "wiki:data-governance",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:governance",
+      "target": "wiki:data-governance",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:governance",
+      "target": "wiki:data-strategy",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:governance",
       "target": "wiki:mlops-and-dataops",
       "kind": "wiki-link",
       "weight": 2
@@ -9185,6 +9803,42 @@
     {
       "source": "wiki:governance",
       "target": "wiki:mlops-and-dataops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:governance",
+      "target": "wiki:model-registry",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:governance",
+      "target": "wiki:model-registry",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:governance",
+      "target": "wiki:responsible-ai-and-governance",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:governance",
+      "target": "wiki:responsible-ai-and-governance",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:governance",
+      "target": "wiki:security",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:governance",
+      "target": "wiki:security",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -9268,9 +9922,51 @@
     },
     {
       "source": "wiki:interpretability",
-      "target": "wiki:responsible-ai-and-governance",
+      "target": "wiki:data-science",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:interpretability",
+      "target": "wiki:data-science",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:interpretability",
+      "target": "wiki:machine-learning",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:interpretability",
+      "target": "wiki:machine-learning",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:interpretability",
+      "target": "wiki:mlops",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:interpretability",
+      "target": "wiki:model-monitoring",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:interpretability",
+      "target": "wiki:model-monitoring",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:interpretability",
+      "target": "wiki:responsible-ai-and-governance",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:interpretability",
@@ -9280,13 +9976,73 @@
     },
     {
       "source": "wiki:job-descriptions",
-      "target": "wiki:career-transitions-in-data",
+      "target": "wiki:cv-screening",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:job-descriptions",
+      "target": "wiki:cv-screening",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:job-descriptions",
+      "target": "wiki:data-analyst-careers",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:job-descriptions",
-      "target": "wiki:career-transitions-in-data",
+      "target": "wiki:data-analyst-careers",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:job-descriptions",
+      "target": "wiki:data-science-careers",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:job-descriptions",
+      "target": "wiki:data-science-careers",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:job-descriptions",
+      "target": "wiki:data-teams",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:job-descriptions",
+      "target": "wiki:data-teams",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:job-descriptions",
+      "target": "wiki:hiring",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:job-descriptions",
+      "target": "wiki:hiring",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:job-descriptions",
+      "target": "wiki:job-search",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:job-descriptions",
+      "target": "wiki:job-search",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -10024,13 +10780,73 @@
     },
     {
       "source": "wiki:metrics",
-      "target": "wiki:experimentation-and-causal-inference",
+      "target": "wiki:a-a-testing",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:metrics",
-      "target": "wiki:experimentation-and-causal-inference",
+      "target": "wiki:a-b-testing",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:metrics",
+      "target": "wiki:a-b-testing",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:metrics",
+      "target": "wiki:data-product-management",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:metrics",
+      "target": "wiki:data-product-management",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:metrics",
+      "target": "wiki:evaluation",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:metrics",
+      "target": "wiki:evaluation",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:metrics",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:metrics",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:metrics",
+      "target": "wiki:power-analysis",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:metrics",
+      "target": "wiki:product-analytics",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:metrics",
+      "target": "wiki:product-analytics",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -11002,6 +11818,42 @@
     },
     {
       "source": "wiki:power-analysis",
+      "target": "wiki:a-a-testing",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:power-analysis",
+      "target": "wiki:a-b-testing",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:power-analysis",
+      "target": "wiki:a-b-testing",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:power-analysis",
+      "target": "wiki:evaluation",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:power-analysis",
+      "target": "wiki:evaluation",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:power-analysis",
+      "target": "wiki:experimentation",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:power-analysis",
       "target": "wiki:experimentation-and-causal-inference",
       "kind": "wiki-link",
       "weight": 2
@@ -11009,6 +11861,18 @@
     {
       "source": "wiki:power-analysis",
       "target": "wiki:experimentation-and-causal-inference",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:power-analysis",
+      "target": "wiki:metrics",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:power-analysis",
+      "target": "wiki:metrics",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -11680,13 +12544,73 @@
     },
     {
       "source": "wiki:salary-negotiation",
-      "target": "wiki:career-transitions-in-data",
+      "target": "wiki:career-growth",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:salary-negotiation",
-      "target": "wiki:career-transitions-in-data",
+      "target": "wiki:career-growth",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:salary-negotiation",
+      "target": "wiki:cv-screening",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:salary-negotiation",
+      "target": "wiki:cv-screening",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:salary-negotiation",
+      "target": "wiki:data-science-careers",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:salary-negotiation",
+      "target": "wiki:data-science-careers",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:salary-negotiation",
+      "target": "wiki:freelance",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:salary-negotiation",
+      "target": "wiki:freelance",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:salary-negotiation",
+      "target": "wiki:hiring",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:salary-negotiation",
+      "target": "wiki:hiring",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:salary-negotiation",
+      "target": "wiki:job-search",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:salary-negotiation",
+      "target": "wiki:job-search",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -11819,6 +12743,66 @@
     {
       "source": "wiki:search-rag-and-knowledge-systems",
       "target": "wiki:mlops-and-dataops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:security",
+      "target": "wiki:ai-red-teaming",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:security",
+      "target": "wiki:ai-red-teaming",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:security",
+      "target": "wiki:data-governance",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:security",
+      "target": "wiki:data-governance",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:security",
+      "target": "wiki:governance",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:security",
+      "target": "wiki:llm-production-patterns",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:security",
+      "target": "wiki:llm-production-patterns",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:security",
+      "target": "wiki:mlops",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:security",
+      "target": "wiki:production",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:security",
+      "target": "wiki:production",
       "kind": "wiki-related",
       "weight": 3
     },

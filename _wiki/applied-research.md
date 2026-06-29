@@ -1,24 +1,99 @@
 ---
 layout: wiki
 title: "Applied Research"
-summary: "Stub topic page for podcast archive links about Applied Research."
-stub: true
+summary: "How the archive describes applied research as hypothesis-driven ML work that turns uncertain ideas into reusable artifacts, products, and production systems."
 related:
-  - Responsible AI and Governance
+  - Machine Learning
+  - Production
+  - Machine Learning System Design
+  - Academic Researcher to Data Science
+  - AI
 ---
 
-## Status
+## Definition and Scope
 
-This is a stub topic page. It keeps podcast, people, graph, and search links
-stable while agents collect episode-backed synthesis for this topic.
+Applied research is research aimed at a practical product, workflow, or business
+decision. In the podcast archive, applied researchers produce artifacts such as
+datasets, models, benchmarks, experiments, prototypes, and product insights. The
+work is still scientific, but it is anchored to a use case, market, domain, or
+production path.
 
-## How to Expand
+Use this page when evidence connects research to practical ML systems. Use
+[Academic Researcher to Data Science]({{ '/wiki/academic-researcher-to-data-science/' | relative_url }})
+for career-transition material.
 
-When expanding this page, use the source podcast files in
-`../datatalksclub.github.io/_podcast` and link public episode evidence through
-`https://datatalks.club/podcast.html`. Focus on what guests said in the podcast
-archive, not on generic definitions.
+## Contents
+
+- [Recurring Archive Themes](#recurring-archive-themes)
+- [Episode Evidence](#episode-evidence)
+- [Related Pages](#related-pages)
+- [Maintenance Notes](#maintenance-notes)
+
+## Recurring Archive Themes
+
+Applied research starts with hypotheses, not only models. Vin Vashishta
+describes the first model as a hypothesis about how a system works. The
+researcher then uses data, experiments, model behavior, explainability, and
+production feedback to confirm, reject, or refine that hypothesis.
+
+Research artifacts should become reusable. The archive treats novel datasets,
+benchmarks, model prototypes, and experimental results as intellectual property
+that downstream data scientists and ML engineers can reuse. Applied research is
+valuable when it improves the next product decision or production build.
+
+The research-to-production gap is organizational as much as technical. Mihail
+Eric argues for embedded teams, role fluidity, code reviews for researchers,
+and engineers reading papers and reproducing models. The handoff fails when
+researchers throw notebooks over the wall and engineers receive unclear
+assumptions.
+
+Real-world deployment changes the research question. Computer-vision and
+autonomous-driving episodes move from model quality to latency, sensor cost,
+labeling, simulation, staged rollouts, privacy, safety checks, edge cases, and
+system coordination.
+
+## Episode Evidence
+
+- [Monetize Machine Learning](https://datatalks.club/podcast.html),
+  20:15-29:18: Vin Vashishta separates applied researchers from science
+  researchers and frames applied research as business-aligned artifact creation.
+- [Monetize Machine Learning](https://datatalks.club/podcast.html),
+  36:10-43:28: the episode defines research as hypothesis design,
+  experimentation, explainability, model deconstruction, and iterative evidence
+  gathering.
+- [From Research to Production](https://datatalks.club/podcast.html),
+  8:34-20:25: Mihail Eric covers research infrastructure, prototyping,
+  benchmarks, experimental tooling, and deployment stacks.
+- [From Research to Production](https://datatalks.club/podcast.html),
+  23:32-51:28: the same episode covers reproducibility, engineering rigor,
+  embedded teams, code reviews, end-to-end systems, paper reading, and model
+  reproduction.
+- [Applying Computer Vision Research to Production AI](https://datatalks.club/podcast.html),
+  29:45-36:12: Aishwarya Jadhav describes simulation, closed-track testing,
+  on-road testing, anonymized sensor data, labeling strategy, safety checks, and
+  staged deployments.
+- [Applying Computer Vision Research to Production AI](https://datatalks.club/podcast.html),
+  51:28-55:25: the episode discusses sensitive-case evaluation, broader
+  scenario tests, gradual rollout, and multimodal LLM constraints.
 
 ## Related Pages
 
-- [Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }})
+- [Machine Learning]({{ '/wiki/machine-learning/' | relative_url }})
+- [Production]({{ '/wiki/production/' | relative_url }})
+- [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
+- [Academic Researcher to Data Science]({{ '/wiki/academic-researcher-to-data-science/' | relative_url }})
+- [AI]({{ '/wiki/ai/' | relative_url }})
+- [MLOps]({{ '/wiki/mlops/' | relative_url }})
+
+## Maintenance Notes
+
+Best source files for future expansion:
+
+- `../datatalksclub.github.io/_podcast/make-money-with-machine-learning-roles-skills.md`
+- `../datatalksclub.github.io/_podcast/research-to-production-ml-systems-roadmap.md`
+- `../datatalksclub.github.io/_podcast/from-computer-vision-research-to-autonomous-driving-ai.md`
+- `../datatalksclub.github.io/_podcast/s24e01-competitions-beyond-kaggle-leaderboard.md`
+
+Add future evidence when an episode explains a research artifact, hypothesis,
+benchmark, prototype, validation stage, or production handoff. Keep pure career
+advice on transition pages unless it changes how research work is done.

@@ -15,8 +15,8 @@ related:
 Technical writing is the practice of explaining technical work so another
 person can understand, evaluate, or reproduce it. It also helps someone build
 on the work. In the archive, people write blog posts, tutorials, and READMEs.
-They also write design docs, decision logs, talks, demos, and videos. Portfolio
-writeups and DevRel content belong here too.
+They also write design docs, decision logs, and talks. Demos, videos, portfolio
+writeups, and DevRel content belong here too.
 
 Use this page for the writing workflow and career use. Use
 [Documentation]({{ '/wiki/documentation/' | relative_url }}) for docs as a
@@ -54,10 +54,10 @@ logic before the author spends too much time polishing.
 
 Shipping cadence matters, but editing has a limit.
 
-Eugene describes a weekly writing habit with idea selection and outlines. The
-habit also includes drafting, editing, and distribution. The useful lesson
-isn't that every person must write weekly. A repeatable cadence prevents
-endless polishing and turns writing into regular practice.
+Eugene starts by selecting an idea and writing an outline. He then drafts,
+edits, and distributes the piece. The useful lesson isn't that every person
+must write weekly. A repeatable cadence prevents endless polishing and turns
+writing into regular practice.
 
 Technical writing overlaps with DevRel and documentation.
 
@@ -76,9 +76,9 @@ These writing practices recur across the archive.
 - Use concrete examples, code, diagrams, repo tours, or demos when they reduce
   ambiguity.
 - Stop editing when the article is clear enough to help the target reader.
-- Distribute where the audience already is. Team docs, GitHub, Slack, and
-  meetups already hold the audience. LinkedIn, Twitter, newsletters, and
-  conferences can also work.
+- Distribute where the audience already is. Team docs and GitHub often already
+  hold the audience, and Slack or meetups can do the same. LinkedIn, Twitter,
+  newsletters, and conferences can also work.
 - Treat public writing, talks, and docs as portfolio evidence only when they
   show judgment, not just tool names.
 

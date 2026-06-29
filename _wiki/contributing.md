@@ -14,9 +14,10 @@ related:
 
 Contributing means doing useful work that helps a project or course become
 better for other people. It can also help a community or tool. In the archive,
-contribution includes pull requests and reproducible issues. Documentation,
-examples, and tests also matter. CI fixes and packaging count too. Talks, blog
-posts, mentoring, project reviews, and community help count too.
+contribution includes pull requests and reproducible issues.
+
+Documentation and examples also matter, as do tests, CI fixes, and packaging.
+Talks and mentoring count too, along with project reviews and community help.
 
 Use this page for contribution mechanics and etiquette. Use
 [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
@@ -85,18 +86,19 @@ These contribution paths recur across the archive.
 These episodes provide the most concrete contribution guidance.
 
 - [Contribute to Open Source ML](https://datatalks.club/podcast.html): at
-  22:20, the episode covers README material, guides, and API reference. It also
-  covers examples. At 24:10, it discusses contribution guides and polite
-  interaction. At 25:50, it recommends reproducible issues and small fixes. At
-  27:40, it names testing, CI, packaging, and pre-commit as first-PR skills.
+  22:20, the episode covers README material and guides, plus API reference and
+  examples. At 24:10, it discusses contribution guides and polite interaction.
+  At 25:50, it recommends reproducible issues and small fixes. At 27:40, it
+  names testing and CI as first-PR skills, with packaging and pre-commit also
+  appearing there.
 - [Open Source ML Tools](https://datatalks.club/podcast.html): at 16:43,
   training connects to contributor growth. At 18:11, the episode discusses
   maintainer handoff, and at 23:29 open-source work appears as a hiring signal.
 - [Developer Advocacy Through Community Impact](https://datatalks.club/podcast.html):
-  at 11:46, hackathons teach Git, teamwork, and building projects. At 35:43,
+  at 11:46, hackathons teach Git and teamwork through projects, and at 35:43
   the episode covers mentorship for large repositories. At 39:02, it covers PR
-  quality, Git skills, and onboarding. At 41:16, it covers environment setup
-  and maintainer collaboration.
+  quality and Git skills, plus onboarding, and at 41:16 it covers environment
+  setup and maintainer collaboration.
 - [Inside Scaling DataTalks.Club](https://datatalks.club/podcast.html):
   at 51:38, the episode names concrete ways to help. Members can be guests,
   mentor in Slack, or join Project of the Week.

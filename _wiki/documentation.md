@@ -18,7 +18,7 @@ includes READMEs, quickstarts, and guides. API references and examples also
 matter. It also includes contribution guides and design docs.
 
 Decision logs and tracking plans recur too. Model cards and datasheets belong
-here as well. Runbooks, demos, and portfolio repo tours also fit.
+here as well, and runbooks, demos, and portfolio repo tours also fit.
 
 Use this page for documentation as a practice across tools, teams, and open
 source. Use [Technical Writing]({{ '/wiki/technical-writing/' | relative_url }})
@@ -89,8 +89,8 @@ These episodes give the strongest documentation evidence.
   valid contributions.
 - [DevRel Role for Machine Learning](https://datatalks.club/podcast.html):
   at 18:03, documentation sits inside DevRel's wisdom layer. At 25:17, the
-  episode discusses documentation feedback and dogfooding. At 43:14, it covers
-  tutorial audience, goals, and structure.
+  episode discusses documentation feedback and dogfooding, then at 43:14 it
+  covers tutorial audience and goals.
 - [Technical Writing for Data Scientists](https://datatalks.club/podcast.html):
   at 51:00, Eugene discusses press releases, working-backwards documents, and
   design docs. At 54:00, he covers decision logs, rationales, and team memory.
@@ -127,7 +127,7 @@ Use these notes for future edits.
 - Revisit `../datatalksclub.github.io/_podcast/devrel-open-source-machine-learning.md`
 - Revisit `../datatalksclub.github.io/_podcast/technical-writing-for-data-scientists.md`
 - Revisit `../datatalksclub.github.io/_podcast/practical-devrel-demofirst-education-and-open-source.md`
-- Future expansion should add production, governance, analytics engineering,
-  and schema examples when episodes discuss concrete docs. Good examples
-  include model cards, datasheets, and tracking plans. Semantic-layer docs and
-  runbooks also fit.
+- Future expansion should add production and governance examples when episodes
+  discuss concrete docs, while analytics engineering and schema examples also
+  belong here. Good examples include model cards and datasheets, while tracking
+  plans, semantic-layer docs, and runbooks can extend that evidence.

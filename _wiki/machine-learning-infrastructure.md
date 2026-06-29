@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Machine Learning Infrastructure"
-summary: "A bridge page for podcast evidence about compute, containers, orchestration, cloud, on-prem, GPUs, dependency management, and serving foundations for ML and AI systems."
+summary: "A bridge page for podcast evidence about compute and serving foundations for ML systems."
 related:
   - ML Platforms
   - Platform Engineering
@@ -14,9 +14,8 @@ related:
 Machine learning infrastructure is the compute, storage, networking,
 orchestration, packaging, and serving foundation that lets teams train and run
 models. In the podcast archive, teams discuss cloud services, Kubernetes,
-Terraform, Docker, package registries, and notebooks with managed compute. They
-also discuss batch jobs, online serving, GPUs, distributed training, and cloud
-versus on-prem tradeoffs.
+Terraform, Docker, and package registries. They also discuss notebooks with
+managed compute, batch jobs, online serving, GPUs, and distributed training.
 
 Use this page for infrastructure that supports [ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }}).
 Use [AI Infrastructure]({{ '/wiki/ai-infrastructure/' | relative_url }}) for the
@@ -42,7 +41,7 @@ The archive makes infrastructure practical rather than decorative:
   common deployment base, but AI workflows may need GPU-aware orchestration,
   training abstractions, and tools beyond general container scheduling.
 - Platform engineers need cloud and infrastructure skills. Simon
-  Stiebellehner names AWS, GCP, Azure, Kubernetes, and Terraform. He also names
+  Stiebellehner names AWS, GCP, Azure, and Kubernetes. He also names
   notebooks, managed compute, orchestration, and serving paths.
 - Packaging and dependency management are infrastructure too. Raphaël
   Hoogvliets discusses package registries, Docker images, version ranges, and
@@ -57,13 +56,13 @@ These episodes give the strongest infrastructure evidence:
 
 - [Post-ChatGPT AI Infrastructure](https://datatalks.club/podcast.html): At
   5:27-10:00, Andrey discusses cloud versus on-prem cost, Terraform,
-  Kubernetes, Docker, and cost of ownership. At 30:16-36:00, he covers GPU
-  requirements, distributed training, PyTorch, NCCL, and communication
+  Kubernetes, and Docker. At 30:16-36:00, he covers GPU requirements,
+  distributed training, PyTorch, NCCL, and communication
   bottlenecks. At 44:33-51:16, he discusses Kubernetes as a foundational
   deployment tool and its limits for AI workflows.
 - [Building Production ML Platforms](https://datatalks.club/podcast.html):
   At 8:11-13:25, Simon names cloud infrastructure, Kubernetes, Terraform, and
-  AWS services. He also names notebooks and data science workflow knowledge. At
+  AWS services. He also names notebooks and workflow knowledge. At
   28:20-34:01, he covers managed compute, batch versus online serving, and
   orchestration. Reuse the [summary]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
 - [MLOps at Scale](https://datatalks.club/podcast.html): At 53:08-56:50,
@@ -75,7 +74,7 @@ These episodes give the strongest infrastructure evidence:
   have to configure from scratch. Metaflow integrates AWS, Kubernetes, Argo, and
   production workflows. Reuse the [summary]({{ '/podcasts/devrel-open-source-machine-learning/' | relative_url }}).
 - [From Notebooks to Production](https://datatalks.club/podcast.html): Adds
-  practical pipeline infrastructure. The episode covers Dockerized training,
+  practical pipeline infrastructure, covering Dockerized training,
   model storage, inference strategies, scheduling, and simple orchestration
   before heavier systems.
 

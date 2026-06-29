@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Developer Experience"
-summary: "A bridge page for podcast evidence about making data and ML tools usable through feedback, documentation, demos, thin abstractions, workflow design, and adoption support."
+summary: "A bridge page for podcast evidence about making data and ML tools easier to use."
 related:
   - Platform Engineering
   - ML Platforms
@@ -18,7 +18,7 @@ DevRel, documentation, demos, and self-service compute. It also appears in thin
 abstractions and feedback from users back to product and engineering teams.
 
 Use this page when the evidence is about usability, adoption friction,
-documentation, tutorials, onboarding, and dogfooding. It also fits feedback and
+documentation, tutorials, and onboarding. It also fits dogfooding, feedback, and
 workflow fit. Use [Developer Relations]({{ '/wiki/developer-relations/' | relative_url }})
 or [Open Source and Developer Relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }})
 when the emphasis is public community and content strategy.
@@ -47,8 +47,8 @@ The archive treats developer experience as an adoption requirement:
   if a company plans to stay on a cloud platform, a thin layer that improves
   developer experience may be enough.
 - Documentation and examples are infrastructure for adoption. Hugo
-  Bowne-Anderson describes DevRel as education, documentation, demos, and
-  discoverability, and he connects it to dogfooding and product feedback.
+  Bowne-Anderson describes DevRel as education, documentation, and demos. He
+  also connects it to discoverability, dogfooding, and product feedback.
 - Good DX removes irrelevant infrastructure work. The Metaflow discussion
   frames a good ML stack as one where scientists can focus on data, modeling,
   and productionization without configuring every YAML file or Kubernetes
@@ -60,8 +60,9 @@ These episodes connect DX to platform adoption and DevRel:
 
 - [MLOps at Scale](https://datatalks.club/podcast.html): At 27:56-37:32,
   Raphaël discusses iteration, feedback, developer experience, pain point
-  collection, quick wins, and before-and-after evidence. He also discusses how heavy-handed
-  standards can lose buy-in. Reuse the [summary]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}).
+  collection, and quick wins. He also discusses before-and-after evidence and
+  how heavy-handed standards can lose buy-in. Reuse the
+  [summary]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}).
 - [Building Production ML Platforms](https://datatalks.club/podcast.html):
   At 10:47-13:25, Simon centers platform design on the data science workflow.
   At 38:40-39:41, he argues for thin layers over existing cloud platforms when
@@ -77,7 +78,7 @@ These episodes connect DX to platform adoption and DevRel:
   developer tools meant gathering feedback and passing it to engineering. Those
   tools also improved the experience of technical users.
 - [Open Source ML Contributions](https://datatalks.club/podcast.html): Adds the
-  open-source side of DX. It covers reproducible issues, docs fixes, tests, CI,
+  open-source side of DX, covering reproducible issues, docs fixes, tests, CI,
   packaging, and contribution paths that lower the barrier to useful
   participation. Reuse the [summary]({{ '/podcasts/open-source-ml-contributions/' | relative_url }}).
 

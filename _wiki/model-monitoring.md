@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Model Monitoring"
-summary: "A bridge page for podcast evidence about watching deployed models, input data, predictions, drift, latency, errors, business outcomes, and retraining signals."
+summary: "A bridge page for podcast evidence about watching deployed models and retraining signals."
 related:
   - MLOps
   - Data Quality and Observability
@@ -13,8 +13,8 @@ related:
 
 Model monitoring is the practice of watching a deployed model and its
 surrounding data system after release. In the archive, teams monitor input
-quality, feature distributions, prediction distributions, and latency. They
-also watch errors, drift, feedback, business outcomes, alerting, and root cause
+quality, feature distributions, prediction distributions, latency, and errors.
+They also watch drift, feedback, business outcomes, alerting, and root cause
 signals.
 
 Use this page when the evidence is model-specific. Use
@@ -45,7 +45,7 @@ The archive connects model monitoring to data and operations:
   teams need ongoing human oversight. New data, new features, and changed
   business workflows can make the old model less useful.
 - Prediction logging needs shared schemas. The platform episode discusses
-  unified request and response logging so teams can analyze model behavior
+  request and response logging so teams can analyze model behavior
   later.
 - Monitoring is part of adoption. Raphaël Hoogvliets suggests starting with
   monitoring when teams don't know what production models are doing.
@@ -56,7 +56,7 @@ These episodes give the strongest monitoring evidence:
 
 - [MLOps Architect Guide](https://datatalks.club/podcast.html): At
   25:04-31:50, the episode covers production-first monitoring, upstream ETL root
-  causes, customer pain, and data profiling. It also covers anomaly detection,
+  causes, and data profiling. It also covers anomaly detection,
   alerts, and the shift from "why monitor" to "how to monitor". At 36:47-39:29,
   it discusses platform-agnostic integrations and heterogeneous tooling.
 - [Feature Engineering, Model Monitoring, and Data Governance](https://datatalks.club/podcast.html):
@@ -75,8 +75,8 @@ These episodes give the strongest monitoring evidence:
   [summary]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}).
 - [Data Quality and Observability](https://datatalks.club/podcast.html): Data
   observability episodes supply upstream failure modes that matter for model
-  monitoring. They include freshness, schema, volume, distributions, lineage,
-  alerting, and recovery. See [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).
+  monitoring. They include freshness, schema, volume, lineage, alerting, and
+  recovery. See [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).
 
 ## Related Pages
 

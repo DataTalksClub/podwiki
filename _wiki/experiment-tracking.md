@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Experiment Tracking"
-summary: "A bridge page for podcast evidence about capturing model runs, parameters, metrics, artifacts, data references, and exploratory knowledge for reproducible ML work."
+summary: "A bridge page for podcast evidence about capturing model runs for reproducible ML work."
 related:
   - MLOps
   - ML Platforms
@@ -12,8 +12,8 @@ related:
 ## Definition and Scope
 
 Experiment tracking records what happened during model development. Teams
-capture code versions, parameters, metrics, and data references. They may also
-capture artifacts, notes, and environment details. In the archive, teams use
+capture code versions, parameters, metrics, data references, artifacts, and
+notes. In the archive, teams use
 tracking to stop losing knowledge in notebooks, spreadsheets, and personal
 machines.
 
@@ -44,8 +44,8 @@ The archive treats experiment tracking as an early MLOps habit:
   code, parameters, data versions, and traceability. Job images and artifacts
   also matter.
 - Tool choice is secondary to capture discipline. The archive names MLflow,
-  Weights & Biases, Neptune, Comet, and SageMaker. The main point is whether
-  teams can recover what produced a model.
+  Weights & Biases, Neptune, Comet, and SageMaker, but teams still need to
+  recover what produced a model.
 - Tracking creates governance questions when teams log full datasets,
   especially under privacy rules such as GDPR.
 
