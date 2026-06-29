@@ -8,15 +8,48 @@ summaries, or people-page expansion.
 
 Follow these rules when adding any page from this backlog.
 
-- Keep `_wiki/` pages as archive-backed reference pages with episode evidence,
-  tradeoffs, related pages, and maintenance notes.
+- Keep `_wiki/` pages as archive-backed reference pages with inline episode
+  references, tradeoffs, and related pages.
 - Keep `_articles/` as polished keyword-targeted pages after a target keyword is
   selected.
 - Keep `_podcast_summaries/` compact enough for agents to decide whether they
   need the source episode.
-- Link podcast evidence through `https://datatalks.club/podcast.html` unless a
-  local podcast summary exists for agent context.
+- Link podcast evidence to specific episode URLs such as
+  `https://datatalks.club/podcast/<source-file-slug>.html` when the source
+  episode is known. Use `https://datatalks.club/podcast.html` only as a
+  temporary fallback.
 - Run `make check` after adding pages so graph and search stay current.
+
+## Current Rewrite Requirements
+
+These notes capture the current cleanup direction and should not be lost.
+
+- Redo wiki pages to follow one structure: opening definition, link map, common
+  definition, where guests differ, concrete topic sections with inline podcast
+  references, and related pages.
+- Remove public meta sections from wiki and article pages. Do not use
+  `Contents`, `Search Intent`, `Archive Evidence`, `Episode Evidence`, `Guest
+  Descriptions`, `Recurring Archive Themes`, `Maintenance Notes`, or `Agent
+  Maintenance Notes` as reader-facing headings.
+- Ground each substantive section in actual podcast discussions. Put the
+  podcast reference next to the claim it supports, like a citation, instead of
+  collecting evidence in a separate appendix.
+- Make every page link-heavy: visible links to specific podcast interviews,
+  related wiki pages, relevant articles, and useful local podcast summaries.
+- Use specific podcast interview URLs, not only
+  `https://datatalks.club/podcast.html`, whenever the source episode slug is
+  known.
+- Make related links visually obvious in CSS. Related pages should look like
+  links, not muted tags.
+- Add a graph-driven "See also" or related graph nodes section to wiki and
+  article pages, especially stub pages such as `_wiki/tools.md`.
+- Change `/podcasts/` into a list view closer to the original DataTalks.Club
+  podcast structure, not a generic card/grid page.
+- Keep MLOps and DataOps as separate concept pages. Use `_wiki/mlops.md` for
+  model lifecycle operations, `_wiki/dataops.md` for data delivery operations,
+  and `_articles/mlops-vs-dataops.md` for the comparison.
+- Keep pages centered on one topic, role, transition, comparison, roadmap, or
+  project type. Split mixed pages instead of broadening them.
 
 ## Roles
 
