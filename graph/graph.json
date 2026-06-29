@@ -2,14 +2,24 @@
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
     "wikis": 168,
-    "articles": 61,
+    "articles": 66,
     "podcasts": 202,
     "persons": 438,
     "topics": 145,
-    "nodes": 1014,
-    "links": 4777
+    "nodes": 1019,
+    "links": 4860
   },
   "nodes": [
+    {
+      "id": "article:ai-powered-business-intelligence",
+      "type": "article",
+      "label": "AI-Powered Business Intelligence: Practical Workflows, Trust, and Limits",
+      "title": "AI-Powered Business Intelligence: Practical Workflows, Trust, and Limits",
+      "url": "/articles/ai-powered-business-intelligence/",
+      "count": 1,
+      "search": "AI Powered Business Intelligence: Practical Workflows, Trust, and Limits A DataTalks.Club podcast backed guide to AI powered business intelligence: where LLMs help BI workflows, what governance has to cover, and why trust still depends on product thinking.",
+      "keyword": "ai powered business intelligence"
+    },
     {
       "id": "article:airflow-docker-compose",
       "type": "article",
@@ -591,6 +601,16 @@
       "keyword": "mlops"
     },
     {
+      "id": "article:product-analyst",
+      "type": "article",
+      "label": "Product Analyst Job Description: Responsibilities, Skills, and Role Boundaries",
+      "title": "Product Analyst Job Description: Responsibilities, Skills, and Role Boundaries",
+      "url": "/articles/product-analyst/",
+      "count": 1,
+      "search": "Product Analyst Job Description: Responsibilities, Skills, and Role Boundaries A practical, podcast backed guide to the product analyst role: product analytics responsibilities, event tracking, tracking plans, A/B testing, analytics engineering boundaries, and job description examples.",
+      "keyword": "product analyst"
+    },
+    {
       "id": "article:data-product-manager-role",
       "type": "article",
       "label": "What Does a Data Product Manager Do?",
@@ -601,6 +621,26 @@
       "keyword": "data product management"
     },
     {
+      "id": "article:data-product-manager",
+      "type": "article",
+      "label": "What Is a Data Product Manager?",
+      "title": "What Is a Data Product Manager?",
+      "url": "/articles/data-product-manager/",
+      "count": 1,
+      "search": "What Is a Data Product Manager? A podcast grounded definition of the data product manager role: who they serve, what they own, and how they turn data work into adopted products.",
+      "keyword": "data product manager"
+    },
+    {
+      "id": "article:solopreneur-data-scientist",
+      "type": "article",
+      "label": "What Is a Solopreneur? A Data and AI Career Guide",
+      "title": "What Is a Solopreneur? A Data and AI Career Guide",
+      "url": "/articles/solopreneur-data-scientist/",
+      "count": 1,
+      "search": "What Is a Solopreneur? A Data and AI Career Guide A podcast backed guide to solopreneur careers for data and AI professionals: what a solopreneur is, how solo data work differs from freelancing, and how to build income without losing focus.",
+      "keyword": "solopreneur"
+    },
+    {
       "id": "article:analytics-engineer",
       "type": "article",
       "label": "What Is an Analytics Engineer? Skills, Tools, and Career Path",
@@ -609,6 +649,16 @@
       "count": 1,
       "search": "What Is an Analytics Engineer? Skills, Tools, and Career Path A practical explanation of the analytics engineer role, including SQL, dbt, data modeling, testing, BI, stakeholder work, and career transition paths.",
       "keyword": "analytics engineer"
+    },
+    {
+      "id": "article:dataops",
+      "type": "article",
+      "label": "What Is DataOps? A Practical Guide for Data Teams",
+      "title": "What Is DataOps? A Practical Guide for Data Teams",
+      "url": "/articles/dataops/",
+      "count": 1,
+      "search": "What Is DataOps? A Practical Guide for Data Teams A podcast backed guide to DataOps: how data teams use automation, testing, CI/CD, observability, GitOps, and reproducible platforms to make data pipelines safer to change.",
+      "keyword": "dataops"
     },
     {
       "id": "article:what-is-mlops",
@@ -9200,6 +9250,108 @@
   ],
   "links": [
     {
+      "source": "article:ai-powered-business-intelligence",
+      "target": "podcast:data-governance-data-access-management",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:ai-powered-business-intelligence",
+      "target": "podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:ai-powered-business-intelligence",
+      "target": "podcast:practical-llm-use-cases-and-product-patterns",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:ai-powered-business-intelligence",
+      "target": "podcast:s22e06-from-black-box-systems-to-augmented-decision-making",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:ai-powered-business-intelligence",
+      "target": "podcast:urban-data-science",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:ai-powered-business-intelligence",
+      "target": "wiki:data-governance",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:ai-powered-business-intelligence",
+      "target": "wiki:data-governance",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:ai-powered-business-intelligence",
+      "target": "wiki:data-product-adoption",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:ai-powered-business-intelligence",
+      "target": "wiki:data-product-adoption",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:ai-powered-business-intelligence",
+      "target": "wiki:data-products",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:ai-powered-business-intelligence",
+      "target": "wiki:data-products",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:ai-powered-business-intelligence",
+      "target": "wiki:llm-production-patterns",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:ai-powered-business-intelligence",
+      "target": "wiki:llm-production-patterns",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:ai-powered-business-intelligence",
+      "target": "wiki:product-analytics",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:ai-powered-business-intelligence",
+      "target": "wiki:product-analytics",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:ai-powered-business-intelligence",
+      "target": "wiki:rag",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:ai-powered-business-intelligence",
+      "target": "wiki:rag",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
       "source": "article:airflow",
       "target": "article:data-engineering-tools",
       "kind": "article-link",
@@ -11738,6 +11890,96 @@
       "weight": 5
     },
     {
+      "source": "article:data-product-manager",
+      "target": "article:data-product-manager-role",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-product-manager",
+      "target": "podcast:building-data-products-product-owner-vs-product-manager",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-product-manager",
+      "target": "podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-product-manager",
+      "target": "podcast:ml-product-manager-and-mlops-platform-strategy",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-product-manager",
+      "target": "podcast:product-designer-to-data-product-manager",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-product-manager",
+      "target": "wiki:data-product-adoption",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-product-manager",
+      "target": "wiki:data-product-adoption",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-product-manager",
+      "target": "wiki:data-product-management",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-product-manager",
+      "target": "wiki:data-product-management",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-product-manager",
+      "target": "wiki:data-products",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-product-manager",
+      "target": "wiki:data-products",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-product-manager",
+      "target": "wiki:experimentation-and-causal-inference",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-product-manager",
+      "target": "wiki:experimentation-and-causal-inference",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-product-manager",
+      "target": "wiki:product-analytics",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-product-manager",
+      "target": "wiki:product-analytics",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
       "source": "article:data-product-manager-role",
       "target": "wiki:data-engineering-platforms",
       "kind": "article-wiki",
@@ -11944,6 +12186,126 @@
     {
       "source": "article:data-scientist-to-data-engineer",
       "target": "wiki:job-search",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:dataops",
+      "target": "article:dataops-tools",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:dataops",
+      "target": "article:mlops-vs-dataops",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:dataops",
+      "target": "podcast:dataops-and-gitops-best-practices-for-data-teams",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:dataops",
+      "target": "podcast:dataops-automation-and-reliable-data-pipelines",
+      "kind": "article-link",
+      "weight": 8
+    },
+    {
+      "source": "article:dataops",
+      "target": "podcast:dataops-for-data-engineering",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:dataops",
+      "target": "podcast:dataops-principles-and-scalable-data-platforms",
+      "kind": "article-link",
+      "weight": 8
+    },
+    {
+      "source": "article:dataops",
+      "target": "wiki:ci-cd",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:dataops",
+      "target": "wiki:data-observability",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:dataops",
+      "target": "wiki:data-observability",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:dataops",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:dataops",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:dataops",
+      "target": "wiki:dataops",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:dataops",
+      "target": "wiki:dataops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:dataops",
+      "target": "wiki:gitops-for-data-teams",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:dataops",
+      "target": "wiki:gitops-for-data-teams",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:dataops",
+      "target": "wiki:governance",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:dataops",
+      "target": "wiki:mlops-and-dataops",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:dataops",
+      "target": "wiki:mlops-and-dataops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:dataops",
+      "target": "wiki:mlops-vs-devops",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:dataops",
+      "target": "wiki:mlops-vs-devops",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -14168,6 +14530,102 @@
       "weight": 5
     },
     {
+      "source": "article:product-analyst",
+      "target": "podcast:ab-testing-and-product-experimentation",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:product-analyst",
+      "target": "podcast:data-led-growth-event-tracking-and-reverse-etl",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:product-analyst",
+      "target": "podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:product-analyst",
+      "target": "podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:product-analyst",
+      "target": "wiki:a-b-testing",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:product-analyst",
+      "target": "wiki:a-b-testing",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:product-analyst",
+      "target": "wiki:analytics-engineering",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:product-analyst",
+      "target": "wiki:analytics-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:product-analyst",
+      "target": "wiki:data-analyst-role",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:product-analyst",
+      "target": "wiki:data-analyst-role",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:product-analyst",
+      "target": "wiki:event-tracking",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:product-analyst",
+      "target": "wiki:event-tracking",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:product-analyst",
+      "target": "wiki:product-analytics",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:product-analyst",
+      "target": "wiki:product-analytics",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:product-analyst",
+      "target": "wiki:tracking-plans",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:product-analyst",
+      "target": "wiki:tracking-plans",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
       "source": "article:software-engineer-to-machine-learning",
       "target": "wiki:career-transitions-in-data",
       "kind": "article-link",
@@ -14182,6 +14640,96 @@
     {
       "source": "article:software-engineer-to-machine-learning",
       "target": "wiki:mlops-and-dataops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:solopreneur-data-scientist",
+      "target": "podcast:becoming-data-freelancer",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:solopreneur-data-scientist",
+      "target": "podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:solopreneur-data-scientist",
+      "target": "podcast:personal-brand-for-data-professionals",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:solopreneur-data-scientist",
+      "target": "podcast:solopreneur-data-scientist",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:solopreneur-data-scientist",
+      "target": "podcast:solopreneur-developer-and-data-professional",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:solopreneur-data-scientist",
+      "target": "wiki:entrepreneurship",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:solopreneur-data-scientist",
+      "target": "wiki:entrepreneurship",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:solopreneur-data-scientist",
+      "target": "wiki:freelance",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:solopreneur-data-scientist",
+      "target": "wiki:freelance",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:solopreneur-data-scientist",
+      "target": "wiki:open-source-and-developer-relations",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:solopreneur-data-scientist",
+      "target": "wiki:open-source-and-developer-relations",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:solopreneur-data-scientist",
+      "target": "wiki:startups",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:solopreneur-data-scientist",
+      "target": "wiki:startups",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:solopreneur-data-scientist",
+      "target": "wiki:technical-writing",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:solopreneur-data-scientist",
+      "target": "wiki:technical-writing",
       "kind": "article-wiki",
       "weight": 5
     },
