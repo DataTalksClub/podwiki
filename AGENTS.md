@@ -35,6 +35,20 @@ Do not create public full episode, topic, guest, or transcript-copy pages in thi
 repo. The canonical podcast archive is `https://datatalks.club/podcast.html`, with
 source files in `../datatalksclub.github.io/_podcast`.
 
+Every public page must be grounded, linked, and focused:
+
+- Grounded: every substantive section cites actual podcast discussions. Do not
+  add generic advice unless a podcast discussion or an existing archive-backed
+  page supports it.
+- Linked: make the page link-heavy. Add visible links to podcast interviews and
+  related wiki pages in the body, not only in generated graph data.
+- Focused: center the page on one topic, role, transition, comparison, roadmap,
+  or project type. Split mixed pages instead of padding them.
+
+Use inline references in the relevant section, like Wikipedia citations. Do not
+publish separate `Archive Evidence`, `Guest Descriptions`, `Maintenance Notes`,
+or `Search Intent` sections in reader-facing pages.
+
 People pages should be mostly about the person's podcast contributions: what
 they argued, explained, contrasted, or demonstrated in the archive. Keep a short
 bio only when it helps interpret the content.
@@ -57,7 +71,9 @@ and replace them with podcast-backed synthesis when the topic becomes important.
 4. Update the target exploration page with synthesized takeaways, not just lists
    of links.
 5. Add cross-links to related wiki pages, articles, people, and podcast summaries.
-6. For graph/search changes, run `make graph` and
+6. Add podcast evidence links in the body. Public episode links should point to
+   `https://datatalks.club/podcast.html`.
+7. For graph/search changes, run `make graph` and
    `python scripts/build_search_index.py`, or simply run `make check`.
 
 ## Insight Hub Target
