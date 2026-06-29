@@ -20,6 +20,11 @@ Do not publish maintenance notes, agent instructions, evidence appendixes, guest
 description appendixes, or SEO scaffolding such as `Search Intent` sections.
 Use inline references in the relevant section, like Wikipedia citations.
 
+When the source episode is known, link to the specific podcast page:
+`https://datatalks.club/podcast/<source-file-slug>.html`. Use
+`https://datatalks.club/podcast.html` only when the specific episode slug is not
+known yet.
+
 ## Wiki Pages
 
 Wiki pages live in `_wiki/` and are archive-derived reference pages. They should
@@ -27,15 +32,40 @@ answer: "What has the DataTalks.Club podcast collectively taught about this topi
 
 Required structure:
 
-- short definition and archive-level summary
-- link map near the top with related wiki pages, adjacent articles when useful,
-  and the core podcast interviews for the topic
-- common definition or consensus from the archive
-- where podcast guests disagree, use different boundaries, or emphasize
-  different tradeoffs
-- major subtopics with synthesized takeaways and inline podcast references
-- patterns, disagreements, and tradeoffs across guests
-- related wiki pages in frontmatter and in the body
+1. Opening definition: 1-3 short paragraphs that define the topic and link to
+   the most important related wiki pages.
+2. Link map: a compact section with related wiki pages, adjacent articles when
+   useful, and 3-8 specific podcast interviews for the topic.
+3. Common definition: what the podcast archive converges on, with inline
+   episode links.
+4. Where guests differ: disagreements, boundary differences, or tradeoffs, with
+   inline episode links.
+5. Topic sections: concrete subtopics with podcast references inside the
+   section where the claim appears.
+6. Related pages: a short final list when the body needs a navigational close.
+
+Use these reader-facing headings where they fit:
+
+```markdown
+## Link Map
+## Common Definition
+## Where Guests Differ
+## <Concrete Topic Section>
+## Related Pages
+```
+
+Do not use these headings in public pages:
+
+```markdown
+## Contents
+## Search Intent
+## Archive Evidence
+## Episode Evidence
+## Guest Descriptions
+## Recurring Archive Themes
+## Maintenance Notes
+## Agent Maintenance Notes
+```
 
 Wiki pages should not target arbitrary SEO keywords. They should be comprehensive
 knowledge pages built from the podcast archive.
@@ -76,6 +106,9 @@ Required structure once keywords exist:
 - article outline matched to the keyword without a public `Search Intent` section
 - podcast-backed examples and expert quotes or paraphrases
 - links back to relevant wiki pages and podcast interviews
+
+Article sections should still follow the wiki evidence rule: cite specific
+podcast interviews inline when making claims.
 
 ## Evidence Rules
 

@@ -47,7 +47,13 @@ Every public page must be grounded, linked, and focused:
 
 Use inline references in the relevant section, like Wikipedia citations. Do not
 publish separate `Archive Evidence`, `Guest Descriptions`, `Maintenance Notes`,
-or `Search Intent` sections in reader-facing pages.
+`Episode Evidence`, `Recurring Archive Themes`, `Contents`, or `Search Intent`
+sections in reader-facing pages.
+
+When the source episode is known, link to the specific podcast page:
+`https://datatalks.club/podcast/<source-file-slug>.html`. Use
+`https://datatalks.club/podcast.html` only as a temporary fallback when the
+specific episode slug is unknown.
 
 People pages should be mostly about the person's podcast contributions: what
 they argued, explained, contrasted, or demonstrated in the archive. Keep a short
@@ -72,7 +78,7 @@ and replace them with podcast-backed synthesis when the topic becomes important.
    of links.
 5. Add cross-links to related wiki pages, articles, people, and podcast summaries.
 6. Add podcast evidence links in the body. Public episode links should point to
-   `https://datatalks.club/podcast.html`.
+   the specific `https://datatalks.club/podcast/<slug>.html` page when known.
 7. For graph/search changes, run `make graph` and
    `python scripts/build_search_index.py`, or simply run `make check`.
 
