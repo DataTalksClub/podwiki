@@ -7,7 +7,7 @@
     "persons": 438,
     "topics": 145,
     "nodes": 1019,
-    "links": 7019
+    "links": 7195
   },
   "nodes": [
     {
@@ -113,11 +113,11 @@
     {
       "id": "article:data-engineer-manager",
       "type": "article",
-      "label": "Data Engineer Manager: Responsibilities, Team Design, Hiring, and Career Path",
-      "title": "Data Engineer Manager: Responsibilities, Team Design, Hiring, and Career Path",
+      "label": "Data Engineer Manager: Responsibilities, Hiring, Team Design, and Career Path",
+      "title": "Data Engineer Manager: Responsibilities, Hiring, Team Design, and Career Path",
       "url": "/articles/data-engineer-manager/",
       "count": 1,
-      "search": "Data Engineer Manager: Responsibilities, Team Design, Hiring, and Career Path A podcast backed guide to managing data engineers, designing data teams, hiring, prioritizing work, and building reliable data platforms.",
+      "search": "Data Engineer Manager: Responsibilities, Hiring, Team Design, and Career Path A podcast grounded guide to the data engineer manager role: what the manager owns, how to design data engineering teams, how to hire, and how to keep platforms reliable.",
       "keyword": "data engineer manager"
     },
     {
@@ -223,11 +223,11 @@
     {
       "id": "article:data-engineering-manager",
       "type": "article",
-      "label": "Data Engineering Manager: Responsibilities, Hiring, Roadmaps and Reliable Platforms",
-      "title": "Data Engineering Manager: Responsibilities, Hiring, Roadmaps and Reliable Platforms",
+      "label": "Data Engineering Manager: Role, Responsibilities, Hiring, and Roadmaps",
+      "title": "Data Engineering Manager: Role, Responsibilities, Hiring, and Roadmaps",
       "url": "/articles/data-engineering-manager/",
       "count": 1,
-      "search": "Data Engineering Manager: Responsibilities, Hiring, Roadmaps and Reliable Platforms A podcast backed guide to the data engineering manager role: team responsibilities, platform decisions, hiring, stakeholder management, quality and roadmaps.",
+      "search": "Data Engineering Manager: Role, Responsibilities, Hiring, and Roadmaps A podcast backed guide to the data engineering manager role: platform choices, team design, hiring, stakeholder work, DataOps, quality, and career path.",
       "keyword": "data engineering manager"
     },
     {
@@ -273,11 +273,11 @@
     {
       "id": "article:data-engineering",
       "type": "article",
-      "label": "Data Engineering: What It Is, What Data Engineers Build, and How to Learn It",
-      "title": "Data Engineering: What It Is, What Data Engineers Build, and How to Learn It",
+      "label": "Data Engineering: What Data Engineers Build and How the Work Fits Together",
+      "title": "Data Engineering: What Data Engineers Build and How the Work Fits Together",
       "url": "/articles/data-engineering/",
       "count": 1,
-      "search": "Data Engineering: What It Is, What Data Engineers Build, and How to Learn It A practical, podcast backed guide to data engineering: pipelines, platforms, tools, DataOps, quality, role boundaries, and a learning path for new data engineers.",
+      "search": "Data Engineering: What Data Engineers Build and How the Work Fits Together A practical, podcast backed guide to data engineering: pipelines, storage, transformations, orchestration, quality, role boundaries, platforms, and learning priorities.",
       "keyword": "data engineering"
     },
     {
@@ -593,11 +593,11 @@
     {
       "id": "article:mlops",
       "type": "article",
-      "label": "MLOps: Practical Scope, Team Responsibilities, and Implementation Sequence",
-      "title": "MLOps: Practical Scope, Team Responsibilities, and Implementation Sequence",
+      "label": "MLOps: Practical Lessons from Production ML Conversations",
+      "title": "MLOps: Practical Lessons from Production ML Conversations",
       "url": "/articles/mlops/",
       "count": 1,
-      "search": "MLOps: Practical Scope, Team Responsibilities, and Implementation Sequence A practical MLOps guide focused on scope, team ownership, rollout order, platform adoption, monitoring, reproducibility, and links to deeper DataTalks.Club podcast backed pages.",
+      "search": "MLOps: Practical Lessons from Production ML Conversations A podcast backed article on what MLOps covers, where to start, how teams share responsibility, and how monitoring, platforms, governance, and startup constraints change the work.",
       "keyword": "mlops"
     },
     {
@@ -8489,7 +8489,7 @@
       "title": "Experiment Tracking",
       "url": "/wiki/experiment-tracking/",
       "count": 1,
-      "search": "Experiment Tracking A bridge page for podcast evidence about capturing model runs for reproducible ML work."
+      "search": "Experiment Tracking Podcast grounded reference page for experiment tracking as run history, reproducibility practice, and ML platform capability."
     },
     {
       "id": "wiki:experimentation",
@@ -8831,7 +8831,7 @@
       "title": "Model Registry",
       "url": "/wiki/model-registry/",
       "count": 1,
-      "search": "Model Registry A bridge page for podcast evidence about model artifact storage and handoff."
+      "search": "Model Registry Podcast grounded reference page for model registries as the handoff point between training, deployment, reproducibility, monitoring, and governance."
     },
     {
       "id": "wiki:modern-data-stack",
@@ -9011,7 +9011,7 @@
       "title": "RAG Portfolio Projects",
       "url": "/wiki/rag-portfolio-projects/",
       "count": 1,
-      "search": "RAG Portfolio Projects Archive backed guidance for choosing RAG portfolio projects that prove retrieval quality, chunking, grounding, citations, evaluation, failure analysis, and production minded LLM engineering."
+      "search": "RAG Portfolio Projects Archive backed guidance for RAG portfolio projects that prove retrieval quality, context design, citations, evaluation, failure analysis, and production minded AI engineering."
     },
     {
       "id": "wiki:rag-vs-fine-tuning",
@@ -10769,6 +10769,120 @@
     },
     {
       "source": "article:data-engineer-manager",
+      "target": "article:data-engineering-manager",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineer-manager",
+      "target": "person:barbarasobkowiak",
+      "kind": "article-link",
+      "weight": 8
+    },
+    {
+      "source": "article:data-engineer-manager",
+      "target": "person:boyanangelov",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineer-manager",
+      "target": "person:christopherbergh",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:data-engineer-manager",
+      "target": "person:katiebauer",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineer-manager",
+      "target": "person:marianosemelman",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineer-manager",
+      "target": "person:mehdiouazza",
+      "kind": "article-link",
+      "weight": 10
+    },
+    {
+      "source": "article:data-engineer-manager",
+      "target": "person:nicolasrassam",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:data-engineer-manager",
+      "target": "person:slawomirtulski",
+      "kind": "article-link",
+      "weight": 8
+    },
+    {
+      "source": "article:data-engineer-manager",
+      "target": "podcast:data-science-leadership-hiring-mlops",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineer-manager",
+      "target": "podcast:data-science-manager-vs-expert-hiring-guide",
+      "kind": "article-link",
+      "weight": 8
+    },
+    {
+      "source": "article:data-engineer-manager",
+      "target": "podcast:data-strategy-and-dataops-for-ai-powered-products",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineer-manager",
+      "target": "podcast:dataops-automation-and-reliable-data-pipelines",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineer-manager",
+      "target": "podcast:dataops-for-data-engineering",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:data-engineer-manager",
+      "target": "podcast:hiring-and-managing-data-science-teams-in-b2b-saas",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineer-manager",
+      "target": "podcast:hiring-for-data-engineering-jobs-in-europe",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:data-engineer-manager",
+      "target": "podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for",
+      "kind": "article-link",
+      "weight": 8
+    },
+    {
+      "source": "article:data-engineer-manager",
+      "target": "podcast:scaling-data-engineering-teams-self-service-platforms",
+      "kind": "article-link",
+      "weight": 10
+    },
+    {
+      "source": "article:data-engineer-manager",
+      "target": "wiki:analytics-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineer-manager",
       "target": "wiki:career-growth",
       "kind": "article-link",
       "weight": 2
@@ -10789,7 +10903,7 @@
       "source": "article:data-engineer-manager",
       "target": "wiki:data-engineering",
       "kind": "article-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "article:data-engineer-manager",
@@ -10801,7 +10915,7 @@
       "source": "article:data-engineer-manager",
       "target": "wiki:data-engineering-platforms",
       "kind": "article-link",
-      "weight": 4
+      "weight": 10
     },
     {
       "source": "article:data-engineer-manager",
@@ -10813,17 +10927,41 @@
       "source": "article:data-engineer-manager",
       "target": "wiki:data-product-management",
       "kind": "article-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "article:data-engineer-manager",
       "target": "wiki:data-quality-and-observability",
       "kind": "article-link",
-      "weight": 4
+      "weight": 8
     },
     {
       "source": "article:data-engineer-manager",
       "target": "wiki:data-quality-and-observability",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineer-manager",
+      "target": "wiki:data-strategy",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:data-engineer-manager",
+      "target": "wiki:data-strategy",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineer-manager",
+      "target": "wiki:dataops",
+      "kind": "article-link",
+      "weight": 10
+    },
+    {
+      "source": "article:data-engineer-manager",
+      "target": "wiki:dataops",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -10831,7 +10969,7 @@
       "source": "article:data-engineer-manager",
       "target": "wiki:hiring",
       "kind": "article-link",
-      "weight": 2
+      "weight": 8
     },
     {
       "source": "article:data-engineer-manager",
@@ -10841,21 +10979,15 @@
     },
     {
       "source": "article:data-engineer-manager",
-      "target": "wiki:job-search",
+      "target": "wiki:leadership",
       "kind": "article-link",
       "weight": 2
     },
     {
       "source": "article:data-engineer-manager",
-      "target": "wiki:job-search",
+      "target": "wiki:leadership",
       "kind": "article-wiki",
       "weight": 5
-    },
-    {
-      "source": "article:data-engineer-manager",
-      "target": "wiki:platform-engineering",
-      "kind": "article-link",
-      "weight": 2
     },
     {
       "source": "article:data-engineer-roadmap",
@@ -11219,15 +11351,189 @@
     },
     {
       "source": "article:data-engineering",
-      "target": "wiki:analytics-engineering",
+      "target": "article:apache-airflow",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "article:data-engineer-roadmap",
       "kind": "article-link",
       "weight": 4
     },
     {
       "source": "article:data-engineering",
-      "target": "wiki:batch-vs-streaming",
+      "target": "article:data-engineering-and-data-science",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "article:data-engineering-pipeline-project",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "article:data-engineering-tools",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "article:dataops-vs-data-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "article:fundamentals-of-data-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "person:adrianbrudaru",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "person:barrmoses",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "person:christopherbergh",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "person:eddyzulkifly",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "person:jeffkatz",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "person:mehdiouazza",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "person:nataliekwong",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "person:roksolanadiachuk",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "person:slawomirtulski",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "podcast:big-data-engineer-vs-data-scientist",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "podcast:data-engineering-career-path-and-skills",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "podcast:data-engineering-tools-modern-data-stack",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "podcast:data-quality-data-observability-data-reliability",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "podcast:data-team-roles",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "podcast:dataops-for-data-engineering",
       "kind": "article-link",
       "weight": 4
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "podcast:finops-for-data-engineers",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "podcast:get-data-engineering-job-prep-and-interview",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "podcast:scaling-data-engineering-teams-self-service-platforms",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "podcast:trends-in-modern-data-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "wiki:analytics-engineering",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "wiki:batch-vs-streaming",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "wiki:data-analyst-vs-analytics-engineer",
+      "kind": "article-link",
+      "weight": 2
     },
     {
       "source": "article:data-engineering",
@@ -11245,13 +11551,13 @@
       "source": "article:data-engineering",
       "target": "wiki:data-engineer-vs-data-scientist",
       "kind": "article-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "article:data-engineering",
       "target": "wiki:data-engineering",
       "kind": "article-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "article:data-engineering",
@@ -11263,7 +11569,7 @@
       "source": "article:data-engineering",
       "target": "wiki:data-engineering-platforms",
       "kind": "article-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "article:data-engineering",
@@ -11281,11 +11587,35 @@
       "source": "article:data-engineering",
       "target": "wiki:data-engineering-roadmap",
       "kind": "article-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "article:data-engineering",
       "target": "wiki:data-engineering-roadmap",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "wiki:data-lake",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "wiki:data-mesh",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "wiki:data-pipelines",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "wiki:data-pipelines",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -11303,7 +11633,7 @@
     },
     {
       "source": "article:data-engineering",
-      "target": "wiki:data-science",
+      "target": "wiki:data-warehouse",
       "kind": "article-link",
       "weight": 2
     },
@@ -11317,7 +11647,13 @@
       "source": "article:data-engineering",
       "target": "wiki:dataops",
       "kind": "article-link",
-      "weight": 4
+      "weight": 6
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "wiki:dataops",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "article:data-engineering",
@@ -11328,6 +11664,24 @@
     {
       "source": "article:data-engineering",
       "target": "wiki:mlops-and-dataops",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "wiki:modern-data-stack",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "wiki:modern-data-stack",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "wiki:self-service-data-platforms",
       "kind": "article-link",
       "weight": 2
     },
@@ -12683,9 +13037,111 @@
     },
     {
       "source": "article:data-engineering-manager",
-      "target": "wiki:data-engineer-role",
+      "target": "person:barbarasobkowiak",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-manager",
+      "target": "person:barrmoses",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-manager",
+      "target": "person:christopherbergh",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-manager",
+      "target": "person:katiebauer",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-manager",
+      "target": "person:marianosemelman",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-manager",
+      "target": "person:mehdiouazza",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-manager",
+      "target": "person:nicolasrassam",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-manager",
+      "target": "person:slawomirtulski",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-manager",
+      "target": "podcast:data-quality-data-observability-data-reliability",
       "kind": "article-link",
       "weight": 4
+    },
+    {
+      "source": "article:data-engineering-manager",
+      "target": "podcast:data-science-leadership-hiring-mlops",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering-manager",
+      "target": "podcast:data-science-manager-vs-expert-hiring-guide",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:data-engineering-manager",
+      "target": "podcast:dataops-for-data-engineering",
+      "kind": "article-link",
+      "weight": 8
+    },
+    {
+      "source": "article:data-engineering-manager",
+      "target": "podcast:hiring-and-managing-data-science-teams-in-b2b-saas",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:data-engineering-manager",
+      "target": "podcast:hiring-for-data-engineering-jobs-in-europe",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-manager",
+      "target": "podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for",
+      "kind": "article-link",
+      "weight": 8
+    },
+    {
+      "source": "article:data-engineering-manager",
+      "target": "podcast:scaling-data-engineering-teams-self-service-platforms",
+      "kind": "article-link",
+      "weight": 12
+    },
+    {
+      "source": "article:data-engineering-manager",
+      "target": "wiki:career-growth",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-manager",
+      "target": "wiki:data-engineer-role",
+      "kind": "article-link",
+      "weight": 6
     },
     {
       "source": "article:data-engineering-manager",
@@ -12697,7 +13153,7 @@
       "source": "article:data-engineering-manager",
       "target": "wiki:data-engineering",
       "kind": "article-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "article:data-engineering-manager",
@@ -12725,6 +13181,12 @@
     },
     {
       "source": "article:data-engineering-manager",
+      "target": "wiki:data-observability",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering-manager",
       "target": "wiki:data-product-management",
       "kind": "article-link",
       "weight": 4
@@ -12763,7 +13225,7 @@
       "source": "article:data-engineering-manager",
       "target": "wiki:dataops",
       "kind": "article-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "article:data-engineering-manager",
@@ -12780,6 +13242,24 @@
     {
       "source": "article:data-engineering-manager",
       "target": "wiki:hiring",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-manager",
+      "target": "wiki:leadership",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-manager",
+      "target": "wiki:self-service-data-platforms",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:data-engineering-manager",
+      "target": "wiki:self-service-data-platforms",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -16247,6 +16727,12 @@
     },
     {
       "source": "article:mlops",
+      "target": "article:data-product-manager-role",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops",
       "target": "article:mlops-engineer",
       "kind": "article-link",
       "weight": 4
@@ -16255,13 +16741,103 @@
       "source": "article:mlops",
       "target": "article:mlops-tools",
       "kind": "article-link",
-      "weight": 4
+      "weight": 6
+    },
+    {
+      "source": "article:mlops",
+      "target": "article:mlops-vs-dataops",
+      "kind": "article-link",
+      "weight": 2
     },
     {
       "source": "article:mlops",
       "target": "article:what-is-mlops",
       "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops",
+      "target": "person:dannyleybzon",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops",
+      "target": "person:linaweichbrodt",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops",
+      "target": "person:mariavechtomova",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops",
+      "target": "person:nemanjaradojkovic",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops",
+      "target": "person:raphaelhoogvliets",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops",
+      "target": "person:simonstiebellehner",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops",
+      "target": "podcast:building-production-ml-platform-and-mlops-team",
+      "kind": "article-link",
+      "weight": 10
+    },
+    {
+      "source": "article:mlops",
+      "target": "podcast:human-centered-mlops-and-model-monitoring",
+      "kind": "article-link",
+      "weight": 8
+    },
+    {
+      "source": "article:mlops",
+      "target": "podcast:lean-mlops-for-startups",
+      "kind": "article-link",
       "weight": 4
+    },
+    {
+      "source": "article:mlops",
+      "target": "podcast:mlops-and-ml-engineering-in-finance",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:mlops",
+      "target": "podcast:mlops-at-scale-reproducibility-adoption",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:mlops",
+      "target": "podcast:mlops-model-monitoring-data-observability",
+      "kind": "article-link",
+      "weight": 8
+    },
+    {
+      "source": "article:mlops",
+      "target": "podcast:pragmatic-and-standardized-mlops",
+      "kind": "article-link",
+      "weight": 8
+    },
+    {
+      "source": "article:mlops",
+      "target": "wiki:ci-cd",
+      "kind": "article-link",
+      "weight": 2
     },
     {
       "source": "article:mlops",
@@ -16271,9 +16847,45 @@
     },
     {
       "source": "article:mlops",
-      "target": "wiki:experiment-tracking",
+      "target": "wiki:data-observability",
       "kind": "article-link",
       "weight": 2
+    },
+    {
+      "source": "article:mlops",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops",
+      "target": "wiki:dataops",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops",
+      "target": "wiki:developer-experience",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops",
+      "target": "wiki:experiment-tracking",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:mlops",
+      "target": "wiki:experiment-tracking",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:mlops",
+      "target": "wiki:governance",
+      "kind": "article-link",
+      "weight": 4
     },
     {
       "source": "article:mlops",
@@ -16285,13 +16897,13 @@
       "source": "article:mlops",
       "target": "wiki:machine-learning-system-design",
       "kind": "article-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "article:mlops",
       "target": "wiki:ml-platforms",
       "kind": "article-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "article:mlops",
@@ -16315,13 +16927,13 @@
       "source": "article:mlops",
       "target": "wiki:mlops-and-dataops",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:mlops",
       "target": "wiki:mlops-roadmap",
       "kind": "article-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "article:mlops",
@@ -16331,9 +16943,15 @@
     },
     {
       "source": "article:mlops",
-      "target": "wiki:model-monitoring",
+      "target": "wiki:mlops-vs-devops",
       "kind": "article-link",
       "weight": 2
+    },
+    {
+      "source": "article:mlops",
+      "target": "wiki:model-monitoring",
+      "kind": "article-link",
+      "weight": 8
     },
     {
       "source": "article:mlops",
@@ -16345,7 +16963,13 @@
       "source": "article:mlops",
       "target": "wiki:model-registry",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
+    },
+    {
+      "source": "article:mlops",
+      "target": "wiki:model-registry",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "article:mlops",
@@ -16357,7 +16981,7 @@
       "source": "article:mlops",
       "target": "wiki:production",
       "kind": "article-link",
-      "weight": 2
+      "weight": 8
     },
     {
       "source": "article:mlops",
@@ -16368,8 +16992,14 @@
     {
       "source": "article:mlops",
       "target": "wiki:reproducibility",
-      "kind": "article-wiki",
-      "weight": 5
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops",
+      "target": "wiki:startups",
+      "kind": "article-link",
+      "weight": 2
     },
     {
       "source": "article:mlops-architecture",
@@ -42593,19 +43223,55 @@
     },
     {
       "source": "wiki:experiment-tracking",
-      "target": "podcast:building-production-ml-platform-and-mlops-team",
+      "target": "person:hugobowneanderson",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:experiment-tracking",
+      "target": "person:johannabayer",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:experiment-tracking",
+      "target": "person:raphaelhoogvliets",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:experiment-tracking",
+      "target": "person:simonstiebellehner",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:experiment-tracking",
+      "target": "podcast:building-production-ml-platform-and-mlops-team",
+      "kind": "wiki-link",
+      "weight": 24
     },
     {
       "source": "wiki:experiment-tracking",
       "target": "podcast:devrel-open-source-machine-learning",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:experiment-tracking",
       "target": "podcast:mlops-at-scale-reproducibility-adoption",
+      "kind": "wiki-link",
+      "weight": 10
+    },
+    {
+      "source": "wiki:experiment-tracking",
+      "target": "podcast:teaching-reproducible-research-and-open-science-coding-practices-for-academia",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:experiment-tracking",
+      "target": "wiki:data-governance",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -42613,19 +43279,49 @@
       "source": "wiki:experiment-tracking",
       "target": "wiki:developer-experience",
       "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:experiment-tracking",
+      "target": "wiki:developer-experience",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:experiment-tracking",
+      "target": "wiki:evaluation",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:experiment-tracking",
+      "target": "wiki:governance",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:experiment-tracking",
+      "target": "wiki:governance",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:experiment-tracking",
+      "target": "wiki:machine-learning",
+      "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:experiment-tracking",
       "target": "wiki:machine-learning-system-design",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:experiment-tracking",
       "target": "wiki:ml-platforms",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:experiment-tracking",
@@ -42637,37 +43333,67 @@
       "source": "wiki:experiment-tracking",
       "target": "wiki:mlops",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:experiment-tracking",
       "target": "wiki:mlops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:experiment-tracking",
+      "target": "wiki:mlops-tools",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:experiment-tracking",
+      "target": "wiki:model-monitoring",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:experiment-tracking",
+      "target": "wiki:model-monitoring",
       "kind": "wiki-related",
       "weight": 3
     },
     {
       "source": "wiki:experiment-tracking",
       "target": "wiki:model-registry",
+      "kind": "wiki-link",
+      "weight": 10
+    },
+    {
+      "source": "wiki:experiment-tracking",
+      "target": "wiki:model-registry",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:experiment-tracking",
+      "target": "wiki:production",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:experiment-tracking",
+      "target": "wiki:reproducibility",
       "kind": "wiki-link",
       "weight": 4
     },
     {
       "source": "wiki:experiment-tracking",
-      "target": "wiki:model-registry",
+      "target": "wiki:reproducibility",
       "kind": "wiki-related",
       "weight": 3
     },
     {
       "source": "wiki:experiment-tracking",
-      "target": "wiki:reproducibility",
+      "target": "wiki:responsible-ai-and-governance",
       "kind": "wiki-link",
       "weight": 2
-    },
-    {
-      "source": "wiki:experiment-tracking",
-      "target": "wiki:reproducibility",
-      "kind": "wiki-related",
-      "weight": 3
     },
     {
       "source": "wiki:experimentation",
@@ -45671,9 +46397,87 @@
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
-      "target": "wiki:analytics-engineering",
+      "target": "article:analytics-engineer",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:marketing-to-analytics-engineering",
+      "target": "person:arpitchoudhury",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:marketing-to-analytics-engineering",
+      "target": "person:juanmanuelperafan",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:marketing-to-analytics-engineering",
+      "target": "person:nataliekwong",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:marketing-to-analytics-engineering",
+      "target": "person:nikolamaksimovic",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:marketing-to-analytics-engineering",
+      "target": "person:tammyliang",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:marketing-to-analytics-engineering",
+      "target": "person:victoriaperezmola",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:marketing-to-analytics-engineering",
+      "target": "podcast:analytics-engineer-skills-tools",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:marketing-to-analytics-engineering",
+      "target": "podcast:building-and-scaling-data-team",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:marketing-to-analytics-engineering",
+      "target": "podcast:data-engineering-tools-modern-data-stack",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:marketing-to-analytics-engineering",
+      "target": "podcast:data-led-growth-event-tracking-and-reverse-etl",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:marketing-to-analytics-engineering",
+      "target": "podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch",
+      "kind": "wiki-link",
+      "weight": 36
+    },
+    {
+      "source": "wiki:marketing-to-analytics-engineering",
+      "target": "podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:marketing-to-analytics-engineering",
+      "target": "wiki:analytics-engineering",
+      "kind": "wiki-link",
+      "weight": 6
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
@@ -45685,13 +46489,13 @@
       "source": "wiki:marketing-to-analytics-engineering",
       "target": "wiki:analytics-engineering-portfolio-projects",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
       "target": "wiki:analytics-engineering-roadmap",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
@@ -45713,7 +46517,25 @@
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
-      "target": "wiki:dbt",
+      "target": "wiki:data-activation",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:marketing-to-analytics-engineering",
+      "target": "wiki:data-analyst-vs-analytics-engineer",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:marketing-to-analytics-engineering",
+      "target": "wiki:data-led-growth",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:marketing-to-analytics-engineering",
+      "target": "wiki:data-quality-and-observability",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -45722,12 +46544,30 @@
       "target": "wiki:dbt",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:marketing-to-analytics-engineering",
+      "target": "wiki:event-tracking",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:marketing-to-analytics-engineering",
+      "target": "wiki:metrics",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:marketing-to-analytics-engineering",
+      "target": "wiki:modern-data-stack",
+      "kind": "wiki-link",
+      "weight": 6
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
       "target": "wiki:product-analytics",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 8
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
@@ -47099,13 +47939,61 @@
     },
     {
       "source": "wiki:model-registry",
-      "target": "podcast:building-production-ml-platform-and-mlops-team",
+      "target": "article:mlops-tools",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:model-registry",
+      "target": "person:mariavechtomova",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:model-registry",
+      "target": "person:raphaelhoogvliets",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:model-registry",
+      "target": "person:simonstiebellehner",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:model-registry",
+      "target": "podcast:building-production-ml-platform-and-mlops-team",
+      "kind": "wiki-link",
+      "weight": 28
+    },
+    {
+      "source": "wiki:model-registry",
       "target": "podcast:mlops-at-scale-reproducibility-adoption",
+      "kind": "wiki-link",
+      "weight": 12
+    },
+    {
+      "source": "wiki:model-registry",
+      "target": "podcast:pragmatic-and-standardized-mlops",
+      "kind": "wiki-link",
+      "weight": 20
+    },
+    {
+      "source": "wiki:model-registry",
+      "target": "wiki:data-governance",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:model-registry",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:model-registry",
+      "target": "wiki:developer-experience",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -47113,7 +48001,7 @@
       "source": "wiki:model-registry",
       "target": "wiki:experiment-tracking",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "wiki:model-registry",
@@ -47123,15 +48011,21 @@
     },
     {
       "source": "wiki:model-registry",
-      "target": "wiki:governance",
+      "target": "wiki:machine-learning-infrastructure",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
+    },
+    {
+      "source": "wiki:model-registry",
+      "target": "wiki:machine-learning-infrastructure",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:model-registry",
       "target": "wiki:ml-platforms",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 8
     },
     {
       "source": "wiki:model-registry",
@@ -47143,7 +48037,7 @@
       "source": "wiki:model-registry",
       "target": "wiki:mlops",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:model-registry",
@@ -47155,19 +48049,25 @@
       "source": "wiki:model-registry",
       "target": "wiki:mlops-roadmap",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 8
     },
     {
       "source": "wiki:model-registry",
       "target": "wiki:model-monitoring",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:model-registry",
       "target": "wiki:model-monitoring",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:model-registry",
+      "target": "wiki:platform-engineering",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:model-registry",
@@ -47178,6 +48078,18 @@
     {
       "source": "wiki:model-registry",
       "target": "wiki:reproducibility",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:model-registry",
+      "target": "wiki:reproducibility",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:model-registry",
+      "target": "wiki:responsible-ai-and-governance",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -49217,13 +50129,145 @@
     },
     {
       "source": "wiki:rag-portfolio-projects",
-      "target": "wiki:embeddings",
+      "target": "person:anahitapakiman",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:rag-portfolio-projects",
+      "target": "person:atitaarora",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:rag-portfolio-projects",
+      "target": "person:hugobowneanderson",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:rag-portfolio-projects",
+      "target": "person:meryemarik",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:rag-portfolio-projects",
+      "target": "person:pauliusztin",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:rag-portfolio-projects",
+      "target": "person:ranjithakulkarni",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:rag-portfolio-projects",
+      "target": "person:revathyramalingam",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:rag-portfolio-projects",
+      "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
+      "kind": "wiki-link",
+      "weight": 10
+    },
+    {
+      "source": "wiki:rag-portfolio-projects",
+      "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:rag-portfolio-projects",
+      "target": "podcast:knowledge-graphs-and-llms-for-automotive-rnd",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:rag-portfolio-projects",
+      "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
+      "kind": "wiki-link",
+      "weight": 24
+    },
+    {
+      "source": "wiki:rag-portfolio-projects",
+      "target": "podcast:practical-llm-engineering-and-rag",
+      "kind": "wiki-link",
+      "weight": 18
+    },
+    {
+      "source": "wiki:rag-portfolio-projects",
+      "target": "podcast:production-ml-search-vector-search-embeddings-hybrid-search",
+      "kind": "wiki-link",
+      "weight": 10
+    },
+    {
+      "source": "wiki:rag-portfolio-projects",
+      "target": "podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:rag-portfolio-projects",
+      "target": "podcast:s23e04-how-to-become-ai-engineer-after-career-break",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:rag-portfolio-projects",
+      "target": "wiki:agent-engineering",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:rag-portfolio-projects",
+      "target": "wiki:ai-engineering",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:rag-portfolio-projects",
+      "target": "wiki:ai-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:rag-portfolio-projects",
+      "target": "wiki:career-transition",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:rag-portfolio-projects",
       "target": "wiki:embeddings",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:rag-portfolio-projects",
+      "target": "wiki:graph-rag-vs-vector-rag",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:rag-portfolio-projects",
+      "target": "wiki:job-search",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:rag-portfolio-projects",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:rag-portfolio-projects",
+      "target": "wiki:llm-evaluation-workflows",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -49231,7 +50275,7 @@
       "source": "wiki:rag-portfolio-projects",
       "target": "wiki:llm-production-patterns",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:rag-portfolio-projects",
@@ -49243,13 +50287,31 @@
       "source": "wiki:rag-portfolio-projects",
       "target": "wiki:machine-learning-portfolio-projects",
       "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:rag-portfolio-projects",
+      "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:rag-portfolio-projects",
+      "target": "wiki:open-source-portfolio-evidence",
+      "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:rag-portfolio-projects",
+      "target": "wiki:rag-vs-fine-tuning",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:rag-portfolio-projects",
       "target": "wiki:retrieval-augmented-generation",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 8
     },
     {
       "source": "wiki:rag-portfolio-projects",
@@ -49261,7 +50323,7 @@
       "source": "wiki:rag-portfolio-projects",
       "target": "wiki:search-rag-and-knowledge-systems",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "wiki:rag-portfolio-projects",
@@ -49273,13 +50335,7 @@
       "source": "wiki:rag-portfolio-projects",
       "target": "wiki:vector-databases",
       "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:rag-portfolio-projects",
-      "target": "wiki:vector-databases",
-      "kind": "wiki-related",
-      "weight": 3
+      "weight": 6
     },
     {
       "source": "wiki:rag-vs-fine-tuning",

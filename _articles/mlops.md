@@ -1,268 +1,267 @@
 ---
 layout: article
-title: "MLOps: Practical Scope, Team Responsibilities, and Implementation Sequence"
+title: "MLOps: Practical Lessons from Production ML Conversations"
 keyword: "mlops"
-summary: "A practical MLOps guide focused on scope, team ownership, rollout order, platform adoption, monitoring, reproducibility, and links to deeper DataTalks.Club podcast-backed pages."
+summary: "A podcast-backed article on what MLOps covers, where to start, how teams share responsibility, and how monitoring, platforms, governance, and startup constraints change the work."
+search_intent: "People searching for MLOps usually want a practical definition, an implementation sequence, role boundaries, and examples of what production ML teams actually operate."
 related_wiki:
   - MLOps
   - MLOps Roadmap
   - ML Platforms
   - Model Monitoring
-  - Reproducibility
+  - Model Registry
+  - Experiment Tracking
   - Production
 ---
 
-MLOps is the operating layer that helps teams move machine learning from a
-working model to a maintained system. It includes reproducible experiments and
-deployment paths. It also includes model registries and CI/CD. Monitoring,
-retraining decisions, governance, and team habits keep models useful after
-release.
+MLOps is the operating discipline that turns a trained model into a maintained
+system. In the DataTalks.Club archive, that means more than deployment. Guests
+connect MLOps to reproducible experiments and release paths. They also connect
+it to registries and serving. Monitoring, governance, and ownership come with
+the same operating discipline
+([MLOps]({{ '/wiki/mlops/' | relative_url }}),
+[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }})).
 
-Use this page to choose the first MLOps work for your team. It explains
-responsibilities, rollout order, and the tool-shopping trap. For a shorter
-definition, start with
-[the MLOps definition article]({{ '/articles/what-is-mlops/' | relative_url }}). For the
-archive-backed reference page, use [MLOps]({{ '/wiki/mlops/' | relative_url }}).
+The archive treats MLOps as operational practice rather than a vendor checklist.
+[Maria Vechtomova]({{ '/people/mariavechtomova/' | relative_url }}) gives the
+pragmatic version in
+[Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }}).
+The episode emphasizes Git and CI/CD. It also covers registries, standard
+repositories, deployment paths, and monitoring.
 
+[MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }})
+adds the adoption view. [Raphael Hoogvliets]({{ '/people/raphaelhoogvliets/' | relative_url }})
+frames MLOps as an enabling function that supports product teams. His episode
+ties adoption to feedback loops and quick wins
+([ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }})).
 
-## Practical Scope
+## MLOps Scope
 
-MLOps starts when a model becomes something another person or system depends
-on. At that point, the team needs more than a notebook and a metric. The team
-needs to recover how the model was built. It also needs to deploy safely, watch
-the model in use, and respond when the model or its data stops matching
-reality.
+MLOps starts when a model becomes something another person or system depends on.
+At that point, a team needs to recover how the model was trained. It also needs
+an approved artifact and a repeatable deployment path. Production monitoring
+and a named response owner belong in the same operating loop
+([MLOps Roadmap]({{ '/wiki/mlops-roadmap/' | relative_url }}),
+[Model Registry]({{ '/wiki/model-registry/' | relative_url }}),
+[Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }})).
 
-The practical scope includes:
+The core scope is consistent across the strongest MLOps episodes:
 
 - Reproducibility: code versions, dependencies, parameters, data references,
-  metrics, artifacts, and environment details.
-- Deployment: batch jobs, online services, managed endpoints, containerized
-  jobs, or scheduled inference pipelines.
-- CI/CD: tests, packaging, model-service builds, deployment checks, schema
-  checks, and rollback paths.
-- Model registry: versioned model artifacts with owner, evaluation result,
-  lifecycle stage, approval status, and deployment target.
-- Monitoring: input quality and feature distributions. Teams also watch
-  prediction distributions and drift, then add measurable business outcomes
-  where possible.
-- Governance: access control, validation, lineage, approvals, audit trails,
-  retention, and compliance requirements.
-- Team operating model: ownership, support, incident response, documentation,
-  and feedback loops with model users.
+  metrics, artifacts, and environment details
+  ([Experiment Tracking]({{ '/wiki/experiment-tracking/' | relative_url }}),
+  [Reproducibility]({{ '/wiki/reproducibility/' | relative_url }})).
+- Release path: CI/CD, tests, packaging, deployment checks, model-service or
+  batch-job builds, and rollback notes
+  ([Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }}),
+  [CI/CD]({{ '/wiki/ci-cd/' | relative_url }})).
+- Model handoff: registry metadata such as owner and version. Evaluation result
+  and approval state belong there too. Artifact location, deployment target,
+  and training data reference complete the handoff
+  ([Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}),
+  [Model Registry]({{ '/wiki/model-registry/' | relative_url }})).
+- Serving: batch inference, online APIs, managed endpoints, orchestration, and
+  prediction logging, depending on the product workflow
+  ([Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }}),
+  [Production]({{ '/wiki/production/' | relative_url }})).
+- Monitoring: service health, input quality, feature and prediction
+  distributions, drift, latency, and errors. Feedback and business outcomes
+  belong here when the team can observe them
+  ([Human-Centered MLOps]({{ '/podcasts/human-centered-mlops-and-model-monitoring/' | relative_url }}),
+  [MLOps Architect Guide]({{ '/podcasts/mlops-model-monitoring-data-observability/' | relative_url }})).
+- Governance and risk control: lineage, approvals, access, validation, audit
+  trails, retention, and release controls when the domain requires them
+  ([MLOps in Finance]({{ '/podcasts/mlops-and-ml-engineering-in-finance/' | relative_url }}),
+  [Governance]({{ '/wiki/governance/' | relative_url }})).
 
-The stack depends on the organization. A startup may use one managed platform
-and a small registry convention. A regulated finance team may need stricter
-validation, approvals, auditability, and release controls. A large product
-organization may need shared platform templates because many teams repeat the
-same training, serving, and monitoring work.
+That scope makes MLOps close to software engineering and data engineering, but
+not identical to either. It borrows CI/CD and observability from DevOps. It also
+adds model-specific concerns. Training data references and model versions become
+operating concerns. Drift, retraining decisions, and delayed labels do too
+([MLOps vs DevOps]({{ '/wiki/mlops-vs-devops/' | relative_url }}),
+[MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }})).
+
+## Starting Sequence
+
+Start with the failure mode that blocks the team, then follow the archive's
+incremental order. Make one model reproducible, package one inference path, add
+a registry convention, and monitor production behavior.
+Turn repeated work into a platform only after teams repeat the same work
+([MLOps Roadmap]({{ '/wiki/mlops-roadmap/' | relative_url }}),
+[MLOps Tools]({{ '/articles/mlops-tools/' | relative_url }})).
+
+If experiments can't be recovered, start with Git, dependency management, and
+experiment tracking. Save artifacts, metrics, parameters, and data references
+with the run.
+[Simon Stiebellehner]({{ '/people/simonstiebellehner/' | relative_url }})
+treats experiment tracking and model registries as early platform wins. In
+[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}),
+those tools keep useful model work from disappearing into notebooks, local
+machines, and informal handoffs
+([Experiment Tracking]({{ '/wiki/experiment-tracking/' | relative_url }})).
+
+If deployment is the pain point, choose one serving path first. Batch scoring
+and online services create different operational requirements. A managed
+endpoint adds its own constraints. For the chosen path, write down the input
+schema and model artifact. Include runtime dependencies and release path.
+
+Prediction logs and rollback plan belong there too
+([Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }}),
+[Production]({{ '/wiki/production/' | relative_url }})).
+
+If no one knows what happens after release, monitoring is the next useful
+layer. [Danny Leybzon]({{ '/people/dannyleybzon/' | relative_url }}) connects
+model monitoring to upstream ETL and data pipelines in
+[MLOps Architect Guide]({{ '/podcasts/mlops-model-monitoring-data-observability/' | relative_url }}).
+[Lina Weichbrodt]({{ '/people/linaweichbrodt/' | relative_url }}) ties
+monitoring to service levels and stakeholder impact. Her episode also covers
+debugging, feedback channels, and post-mortems in
+[Human-Centered MLOps]({{ '/podcasts/human-centered-mlops-and-model-monitoring/' | relative_url }})
+([Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }})).
 
 ## Team Responsibilities
 
-MLOps succeeds when each team knows its part of the model lifecycle. The
-boundaries vary by company, but the responsibilities are usually predictable.
+MLOps works when the ownership boundary is explicit. Data scientists usually
+own problem framing, feature reasoning, model experiments, and evaluation.
 
-Data scientists own problem framing and feature work, plus experiments,
-evaluation, and model tradeoffs. They log enough context for another person to
-understand a promising run later.
+Machine learning engineers package inference and connect offline evaluation to
+production behavior. Data engineers keep upstream data reliable. Platform or
+MLOps engineers build the shared release path and registry integration. They
+also provide templates and monitoring hooks. A support model belongs with that
+platform work
+([Machine Learning Engineer Role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }}),
+[Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }}),
+[Platform Engineering]({{ '/wiki/platform-engineering/' | relative_url }})).
 
-Machine learning engineers turn model work into reliable software by packaging
-inference, writing tests, designing APIs or batch jobs, and handling model
-artifacts. They also connect offline evaluation with production behavior.
+The central MLOps team model appears in both Maria Vechtomova's and Raphael
+Hoogvliets' episodes. Maria describes reusable infrastructure and CI/CD. She
+also describes standardized repositories in
+[Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }}).
+Raphael describes a centralized enabling team that supports product teams and
+collects pain points. His episode also measures adoption signals such as
+deployment frequency in
+[MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }})
+([Developer Experience]({{ '/wiki/developer-experience/' | relative_url }})).
 
-Data engineers own upstream data reliability by managing ingestion,
-transformation, orchestration, and schema changes. They also manage freshness,
-data quality, and lineage because many model incidents start before inference.
+Business and product stakeholders still matter. Lina Weichbrodt's
+human-centered episode starts before tooling, so the team needs a business
+case, KPIs, and alternatives to ML. Stakeholder buy-in and service levels
+belong in the same discussion. An incident response path does too
+([Human-Centered MLOps]({{ '/podcasts/human-centered-mlops-and-model-monitoring/' | relative_url }}),
+[Data Product Manager Role]({{ '/articles/data-product-manager-role/' | relative_url }})).
 
-Platform and MLOps engineers create the shared path. They provide repository
-templates, CI/CD, tracking conventions, and registry integration. They also
-provide deployment patterns, logging standards, monitoring hooks, and
-documentation. When they do this well, product teams ship models without
-rebuilding the same plumbing.
+That's why a technically healthy model service can still be a poor MLOps
+outcome. The team still needs to explain what decision the model supports. It
+also needs a response when users report bad behavior
+([Production]({{ '/wiki/production/' | relative_url }})).
 
-Infrastructure teams own cloud platforms, runtimes, deployment systems, and
-observability. DevOps or SRE teams often handle incident workflows for those
-systems. MLOps adds drift signals, data references, model-versioned logs, and
-retraining decisions.
+## Monitoring as Operations
 
-Product and business stakeholders own the use case. They decide whether the
-model supports a valuable decision and which errors matter most. They also
-decide what service level is acceptable and when a fallback is better than an
-automated prediction.
+Model monitoring has to cover the model and the system around it. Input
+distributions, feature distributions, and prediction distributions matter.
+Latency, errors, and feedback matter too. Those signals are useful when they
+help the team act.
 
-For role detail, see
-[MLOps Engineer]({{ '/articles/mlops-engineer/' | relative_url }}),
-[Machine Learning Engineer Role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }}),
-and [Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }}).
+The response may be investigation or rollback. It may also be retraining,
+upstream data repair, or a product workflow change
+([Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }}),
+[Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})).
 
-## A Practical MLOps Implementation Sequence
+Danny Leybzon's monitoring discussion moves root-cause analysis upstream. A
+model can appear to degrade because a source system changed. It can also fail
+because labels arrived late or a schema moved. A feature pipeline can break,
+and the serving path can log the wrong thing
+([MLOps Architect Guide]({{ '/podcasts/mlops-model-monitoring-data-observability/' | relative_url }}),
+[Data Observability]({{ '/wiki/data-observability/' | relative_url }})).
 
-Start with the failure mode that blocks the team instead of the full platform.
+Simon Stiebellehner adds the platform view because platform teams can define
+prediction schemas and request logs. Those logs give teams material for later
+diagnosis
+([Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }})).
 
-1. Make one model reproducible. Put the code in Git, pin dependencies, record
-   parameters, save the model artifact, capture metrics, and keep a data
-   reference. If the team can't recover how a model was trained, every later
-   MLOps layer rests on weak ground.
-2. Package one inference path by choosing batch or online serving, then add
-   input validation and error handling before prediction logging and rollback
-   notes.
-3. Add CI/CD around the model path with tests for code and data transformations,
-   then add packaging and container builds before deployment checks and
-   environment promotion.
-4. Add a registry convention. Track model version, owner, artifact location,
-   evaluation result, approval state, deployment target, and training data
-   reference. A simple table or object-store convention can work before a full
-   registry product is justified.
-5. Monitor the model and its data. Watch service health, input quality,
-   prediction distributions, feature drift, latency, and errors. Track a
-   business or proxy outcome where possible, and route alerts to the people who
-   can diagnose the problem.
-6. Decide retraining rules. Don't automate retraining before the team knows
-   what signal should trigger it, who approves the new model, and how the new
-   model is compared with the current one.
-7. Turn repeated work into a platform. Add templates, shared libraries,
-   self-service compute, standard logging, and paved deployment paths when
-   several teams repeat the same work.
+Lina Weichbrodt's episode adds the human response layer. Live test sets and
+small A/B tests help detect issues. User feedback and internal bug reports add
+another signal. Service levels, post-mortems, and action items make monitoring
+operational
+([Human-Centered MLOps]({{ '/podcasts/human-centered-mlops-and-model-monitoring/' | relative_url }})).
+Alerts should route to people who can diagnose the failure mode and decide what
+recovery path is acceptable
+([Production]({{ '/wiki/production/' | relative_url }})).
 
-Use [MLOps Roadmap]({{ '/wiki/mlops-roadmap/' | relative_url }}) for a deeper
-build order and [MLOps Tools]({{ '/articles/mlops-tools/' | relative_url }})
-for tool categories.
+## Platforms, Governance, and Company Size
 
-## Monitoring and Reproducibility
+An MLOps platform is useful when several teams repeat the same work. Simon
+Stiebellehner's platform discussion covers self-service compute and experiment
+tracking. Model registries and serving are part of the same platform scope. It
+also covers orchestration, metadata, and lineage.
 
-Many teams first meet MLOps through deployment, but the long-term work is
-reproducibility plus monitoring.
+Governance and API design appear there too. Prediction logging and developer
+experience are part of the same platform discussion
+([Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}),
+[ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }})).
 
-Reproducibility tells the team what was built by connecting code, data, and
-parameters. It also connects artifacts, metrics, dependency versions, and
-deployment configuration. Without it, a model registry becomes a folder of files
-rather than a reliable handoff.
 
-Monitoring tells the team what changed after release. A model can fail because
-the service is down, but it can also fail because a source system changed. A
-feature pipeline can break, labels can shift, or user behavior can move away
-from the training data.
+The platform shouldn't arrive before the team understands the real workflow.
+Maria Vechtomova's episode favors standard engineering primitives and
+guardrails before new layers. Raphael Hoogvliets' episode favors internal-user
+feedback, quick wins, and adoption over abstract platform completeness
+([Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }}),
+[MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }})).
+For deeper tool categories, use
+[MLOps Tools]({{ '/articles/mlops-tools/' | relative_url }}).
 
-The useful operating workflow has five steps:
+Company constraints change the right implementation. In regulated finance,
+[Nemanja Radojkovic]({{ '/people/nemanjaradojkovic/' | relative_url }})
+connects MLOps to existing DevOps governance, release management, and approvals.
+He also names dev/test/prod environments and monitoring. Model registries, data
+versioning, and reproducible pipelines complete the minimum finance setup
+([MLOps in Finance]({{ '/podcasts/mlops-and-ml-engineering-in-finance/' | relative_url }})).
 
-1. Capture experiments well enough to recover a candidate model.
-2. Promote the model through a registry or registry-like convention.
-3. Deploy through one repeatable path.
-4. Log model versions, inputs, predictions, responses, and outcomes where
-   possible.
-5. Use monitoring to decide whether to investigate, roll back, retrain, or
-   change the product workflow.
+In his startup episode, the same guest argues for leaner SaaS-first choices,
+portability awareness, and minimal automation. He also covers observability and
+conscious technical-debt management
+([Lean MLOps for Startups]({{ '/podcasts/lean-mlops-for-startups/' | relative_url }}),
+[Startups]({{ '/wiki/startups/' | relative_url }})).
 
-See [Experiment Tracking]({{ '/wiki/experiment-tracking/' | relative_url }}),
-[Model Registry]({{ '/wiki/model-registry/' | relative_url }}), and
-[Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }}) for the
-underlying archive synthesis.
+The contrast is the point. MLOps in a small startup may be a Python project and
+a CI/CD pipeline. An orchestrated job and a lightweight registry convention may
+be enough. Basic observability may be enough too.
 
-## Platform Adoption
+MLOps in a regulated enterprise may require formal approvals and lineage.
+Access controls and validation may be mandatory. Auditability and environment
+promotion may matter too. Platform reuse may matter as well
+([MLOps in Finance]({{ '/podcasts/mlops-and-ml-engineering-in-finance/' | relative_url }}),
+[Lean MLOps for Startups]({{ '/podcasts/lean-mlops-for-startups/' | relative_url }}),
+[Governance]({{ '/wiki/governance/' | relative_url }})).
 
-An MLOps platform is useful when it removes repeated pain. It becomes a
-problem when the platform team builds abstractions before it understands how
-data scientists, ML engineers, and product teams actually work.
+## Common Mistakes
 
-The podcast archive favors incremental adoption. Start with tracking, a
-registry convention, CI/CD templates, and deployment examples. Add prediction
-logging and clear documentation. Then collect feedback from the teams using the
-path.
+The first mistake is treating MLOps as tool shopping. The podcast evidence
+supports tools when they remove concrete handoff and reproducibility pain.
+Deployment, monitoring, governance, and adoption pain count too. It doesn't
+support buying a platform
+before the team has a real model lifecycle to operate
+([MLOps Tools]({{ '/articles/mlops-tools/' | relative_url }}),
+[ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }})).
 
-A platform that saves time earns trust. A platform that adds approvals without
-solving daily work gets bypassed.
+The second mistake is ignoring data reliability. Model incidents often begin
+before inference, which is why Danny Leybzon's monitoring episode connects
+model observability to ETL and data pipelines. That's also why MLOps overlaps with
+[DataOps]({{ '/wiki/dataops/' | relative_url }})
+([MLOps Architect Guide]({{ '/podcasts/mlops-model-monitoring-data-observability/' | relative_url }}),
+[MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }})).
 
-Raphaël Hoogvliets describes centralized MLOps as an enabling team function in
-[MLOps at Scale](https://datatalks.club/podcast.html). His discussion connects
-adoption to feedback loops, developer experience, and pain-point collection. He
-also ties adoption to quick wins and measurable outcomes such as deployment
-frequency.
+The third mistake is skipping ownership. A deployed model needs an owner, an
+alert route, a rollback path, and a retraining or retirement decision process.
+Without those pieces, the team has a model artifact in production but not an
+operating system around it
+([Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }}),
+[MLOps Engineer]({{ '/articles/mlops-engineer/' | relative_url }})).
 
-Simon Stiebellehner makes a related platform point in
-[Building Production ML Platforms](https://datatalks.club/podcast.html). MLOps
-combines people, process, and technology. He connects platform work to data
-scientist workflows, experiment tracking, and model registries. He also covers
-serving modes, metadata, and lineage. Governance, API design, and prediction
-logging also matter in his platform discussion.
-
-Use [ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }}) and
-[Platform Engineering]({{ '/wiki/platform-engineering/' | relative_url }}) when
-the operating problem becomes a shared internal product.
-
-## Podcast-Backed Lessons
-
-The DataTalks.Club archive gives a practical MLOps view across several
-episodes.
-
-- In [Pragmatic and Standardized MLOps](https://datatalks.club/podcast.html),
-  Maria Vechtomova argues for existing engineering primitives such as Git,
-  CI/CD, registries, and standardized repositories. She uses Kubernetes where
-  appropriate and puts monitoring inside the standard path. Teams should
-  standardize the path before chasing every new tool.
-- In [MLOps at Scale](https://datatalks.club/podcast.html), Raphaël
-  Hoogvliets connects MLOps adoption with support for product teams. He also
-  covers CI, repository structure, and testing while treating data versioning
-  and traceability as part of the same discussion. The episode adds experiment
-  capture, registries, and serving, plus monitoring and dependency management.
-- In [Building Production ML Platforms](https://datatalks.club/podcast.html),
-  Simon Stiebellehner treats experiment tracking and registries as early wins,
-  then links them to serving and orchestration. He also connects them to
-  metadata, lineage, governance, and developer experience.
-- In [MLOps Architect Guide](https://datatalks.club/podcast.html), Danny
-  Leybzon ties model monitoring to upstream ETL and data pipeline root causes.
-  Model observability has to see the data system around the model.
-- In [Human-Centered MLOps](https://datatalks.club/podcast.html), Lina
-  Weichbrodt starts before tooling by focusing on business cases and KPIs. She
-  also covers alternatives, stakeholder buy-in, and incident preparedness.
-  Service levels, post-mortems, and debugging practices are part of the same
-  operating model.
-- In [MLOps in Finance](https://datatalks.club/podcast.html), Nemanja
-  Radojkovic adds regulated deployment concerns such as CI/CD, release
-  management, dev/test/prod environments, and monitoring. He also covers model
-  registries, data versioning, and reproducible pipelines. Approvals and
-  platform reuse matter in that regulated setting too.
-- In [Lean MLOps for Startups](https://datatalks.club/podcast.html), Nemanja
-  Radojkovic shows the opposite constraint. Small teams may need SaaS-first
-  choices and simple automation instead of a heavy internal platform. They also
-  need portability awareness and deliberate technical debt management.
-
-## Common MLOps Mistakes
-
-The most common mistake is treating MLOps as a shopping list. Tools help, but
-the team first needs a clear production path. The team needs to reproduce the
-model and deploy it. It also needs to monitor the model, assign ownership, and
-decide how to respond when reality changes.
-
-Another mistake is building a platform too early. If the team hasn't proven
-model value, heavy platform work can become a distraction. If several teams
-already repeat the same deployment and monitoring work, a shared platform can
-save time and reduce risk.
-
-Teams also underinvest in data reliability. A model can look broken when the
-root cause is late data, schema drift, changed units, or missing labels. A
-feature pipeline error can create the same symptom. MLOps and DataOps overlap
-because models depend on data systems.
-
-Finally, teams sometimes skip ownership. A deployed model needs a named owner,
-an alert route, a rollback path, and a plan for retraining or deprecation.
-Without those, production ML becomes a collection of orphaned services.
-
-## Next Steps
-
-Use these pages depending on what you need next:
-
-- [The MLOps definition article]({{ '/articles/what-is-mlops/' | relative_url }}) for the
-  concise definition.
-- [MLOps Tools]({{ '/articles/mlops-tools/' | relative_url }}) for stack
-  categories and selection.
-- [MLOps Engineer]({{ '/articles/mlops-engineer/' | relative_url }}) for the
-  role, skills, and portfolio signals.
-- [MLOps Roadmap]({{ '/wiki/mlops-roadmap/' | relative_url }}) for the build
-  sequence.
-- [MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }}) for the
-  overlap between model operations and data operations.
-- [Production]({{ '/wiki/production/' | relative_url }}) for the broader shift
-  from demo to maintained system.
-- [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
-  for pre-launch decisions about baselines, serving mode, evaluation, and
-  monitoring. It also covers fallbacks and ownership.
+Use [the MLOps definition article]({{ '/articles/what-is-mlops/' | relative_url }}) for a
+concise definition and
+[MLOps Engineer]({{ '/articles/mlops-engineer/' | relative_url }}) for role
+detail. Use [MLOps Roadmap]({{ '/wiki/mlops-roadmap/' | relative_url }}) for a
+build sequence. For adjacent comparisons, use
+[MLOps vs DataOps]({{ '/articles/mlops-vs-dataops/' | relative_url }}) and
+[Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }}).

@@ -1,309 +1,318 @@
 ---
 layout: article
-title: "Data Engineer Manager: Responsibilities, Team Design, Hiring, and Career Path"
+title: "Data Engineer Manager: Responsibilities, Hiring, Team Design, and Career Path"
 keyword: "data engineer manager"
-summary: "A podcast-backed guide to managing data engineers, designing data teams, hiring, prioritizing work, and building reliable data platforms."
+summary: "A podcast-grounded guide to the data engineer manager role: what the manager owns, how to design data engineering teams, how to hire, and how to keep platforms reliable."
+search_intent: "People searching for data engineer manager usually want a practical role definition, manager responsibilities, hiring signals, team design choices, and career path guidance for moving from data engineering into management."
 related_wiki:
   - Data Engineer Role
   - Data Engineering
   - Data Engineering Platforms
-  - Hiring
-  - Job Search
   - Data Quality and Observability
+  - DataOps
+  - Hiring
+  - Leadership
+  - Data Strategy
 ---
 
-A data engineer manager leads the people and priorities that make data
-engineering work reliable. The manager may still understand pipelines,
-warehouses, orchestration, and cloud infrastructure. The main job is no longer
-writing every pipeline. The manager builds a team that can serve analysts, data
-scientists, ML engineers, and product teams without becoming a bottleneck.
+A data engineer manager leads the people and priorities behind reliable data
+engineering work. The manager still needs enough technical judgment to discuss
+pipelines and warehouses. They should also understand orchestration. They need
+enough context for data contracts, cloud cost, and incidents. The job is no
+longer to write every pipeline.
 
-The DataTalks.Club podcast archive treats this as a practical leadership role.
-Guests connect data management to team design and stakeholder translation. They
-also connect it to hiring, platform standards, craft quality, and sustainable
-delivery. For the broader role context, see
-[Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }}),
-[Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}), and
-[Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}).
+In the DataTalks.Club archive, this role connects to
+[data engineering]({{ '/wiki/data-engineering/' | relative_url }}) and
+[data engineering platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}).
+It also connects to [hiring]({{ '/wiki/hiring/' | relative_url }}) and
+[leadership]({{ '/wiki/leadership/' | relative_url }}).
 
+The archive doesn't define "data engineer manager" as a generic people title.
+It treats the role as an operating role. The manager clarifies what the team
+owns and hires for missing capability. They protect engineering quality and
+translate stakeholder requests into a roadmap.
 
-## Manager Responsibilities
+That synthesis comes from three discussions. [Slawomir Tulski]({{ '/people/slawomirtulski/' | relative_url }})
+covers data engineering specialization in
+[Data Engineer Career in 2026]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }}).
+[Mehdi OUAZZA]({{ '/people/mehdiouazza/' | relative_url }}) covers scale-up
+data engineering in
+[Scale Data Engineering Teams]({{ '/podcasts/scaling-data-engineering-teams-self-service-platforms/' | relative_url }}).
+[Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }}) covers
+[DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }}).
 
-A data engineer manager owns outcomes through other people.
+## The Short Definition
 
-Typical responsibilities include:
+A data engineer manager is accountable for team outcomes, not only individual
+technical output. [Barbara Sobkowiak]({{ '/people/barbarasobkowiak/' | relative_url }})
+draws the clearest boundary in
+[Data Science Manager vs Expert]({{ '/podcasts/data-science-manager-vs-expert-hiring-guide/' | relative_url }}).
+A manager needs strategy, stakeholder communication, team development, and
+broad technical literacy. An expert brings deeper technical or domain
+specialization. The same distinction applies to data engineering management.
 
-- setting direction for data platforms, pipelines, contracts, observability, and
-  data products
-- choosing the team model for platform work, product-facing data engineering,
-  analytics engineering, and stakeholder support
-- hiring data engineers with the right level, domain fit, and operating
-  maturity
-- prioritizing platform investment against delivery requests
-- creating standards for code review, documentation, testing, deployment, and
-  incident response
-- coaching engineers through ambiguity, stakeholder work, and career growth
-- explaining tradeoffs around speed, quality, cost, privacy, reliability, and
-  business impact
+That means a data engineer manager doesn't need to be the strongest specialist
+in Kafka, Spark, dbt, or Airflow. They do need to know when each specialty
+matters. They also need to know who should decide and what the decision means
+for consumers of the data platform. This is the management version of the
+[data engineer role]({{ '/wiki/data-engineer-role/' | relative_url }}). The
+manager creates the conditions for analysts, data scientists, ML engineers, and
+product teams to use trustworthy data.
 
-The manager should understand the technical work well enough to ask useful
-questions. Barbara Sobkowiak's manager-versus-expert episode makes this
-distinction clear for data science teams. In her framing, managers need broad
-technical literacy and stakeholder communication. They also need strategy and
-team development.
+## Core Responsibilities
 
-Experts provide deeper technical or domain specialization, and the same
-distinction helps data engineering teams. A data engineer manager doesn't need
-to be the best Spark, Kafka, dbt, or cloud specialist on the team. They do need
-to know when those specialties matter and when the team is solving the wrong
-problem.
+The responsibilities are practical: a data engineer manager usually owns team
+structure and roadmap. They also own the hiring plan, engineering standards,
+and stakeholder interfaces.
 
-Katie Bauer frames a data manager's job around team capability and craft
-quality. In embedded or matrix data teams, product and business stakeholders may
-drive day-to-day requests. The data manager protects maintainability,
-documentation, peer review, and career growth. That's especially relevant for
-data engineering because one poorly documented ingestion path or schema decision
-can become a long-lived dependency.
+In
+[Scale Data Engineering Teams]({{ '/podcasts/scaling-data-engineering-teams-self-service-platforms/' | relative_url }}),
+[Mehdi OUAZZA]({{ '/people/mehdiouazza/' | relative_url }}) describes scale-up
+pressure as a balance between speed and quality. His management levers include
+self-service platforms, Airflow conventions, playbooks, and onboarding. Kafka
+schemas and data contracts protect downstream consumers.
 
-## Team Design: Platform, Product, and Embedded Work
+For the manager, that turns into a concrete operating checklist:
 
-Data engineering roles aren't uniform. Slawomir Tulski's 2026 data engineering
-career episode separates two major clusters: platform data engineers and
-product data engineers.
+- decide whether the team is mainly a platform team, a product-facing data
+  engineering team, or a mix of both, using the platform/product split described
+  by [Slawomir Tulski]({{ '/people/slawomirtulski/' | relative_url }}) in
+  [Data Engineer Career in 2026]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }}).
+- reserve capacity for reusable platform work when repeated requests keep
+  reaching the same engineers, following [Mehdi OUAZZA's]({{ '/people/mehdiouazza/' | relative_url }})
+  self-service argument in
+  [Scale Data Engineering Teams]({{ '/podcasts/scaling-data-engineering-teams-self-service-platforms/' | relative_url }}).
+- define standards for tests, code review, documentation, deployment, and
+  recovery, which [Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }})
+  connects to DataOps in
+  [DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }}).
+- make data quality expectations visible through freshness, schema, volume,
+  lineage, ownership, and runbooks, using the operating model in
+  [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).
+- hire for the work the team actually needs, not for a vague title, which
+  [Nicolas Rassam]({{ '/people/nicolasrassam/' | relative_url }}) emphasizes in
+  [Hiring Data Engineers in Europe]({{ '/podcasts/hiring-for-data-engineering-jobs-in-europe/' | relative_url }}).
+- translate stakeholder demand into a ranked roadmap, the same business-facing
+  management skill [Barbara Sobkowiak]({{ '/people/barbarasobkowiak/' | relative_url }})
+  discusses in
+  [Data Science Manager vs Expert]({{ '/podcasts/data-science-manager-vs-expert-hiring-guide/' | relative_url }}).
 
-Platform data engineers build shared systems across warehouses and lakehouses,
-and they often own orchestration and infrastructure. Access, monitoring,
-metadata, and developer experience usually sit nearby.
+The manager is also responsible for preventing two common failure modes. A
+request-only team becomes a queue for dashboards, exports, and one-off
+pipelines. A platform-only team can lose contact with business problems. The
+archive-level [data strategy]({{ '/wiki/data-strategy/' | relative_url }})
+synthesis connects the two. Strategy has to name the consumer, the platform
+capability, the ownership model, and the operating practice.
 
-Product data engineers sit closer to domains and use cases. They turn
-available data into business capabilities and often overlap with analytics
-engineering, data products, and stakeholder-facing modeling.
+## Team Design
 
-A data engineer manager should make that split explicit. If the team owns both
-platform and use-case delivery, decide how much capacity goes to each. Mehdi
-Ouazza's scale-up episode gives a useful rule: when requests repeat, turn the
-repeated work into self-service frameworks.
+The first team-design question is whether the organization needs platform data
+engineers, product-facing data engineers, or analytics engineers. Some teams
+need a blend.
 
-That might mean Airflow conventions, pipeline templates, and schema guidelines.
-It can also mean dbt-style production SQL, onboarding sessions, and support
-channels. The platform team should stop handling every routine request while
-still setting standards.
+[Slawomir Tulski]({{ '/people/slawomirtulski/' | relative_url }}) separates
+platform data engineering from product data engineering in
+[Data Engineer Career in 2026]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }}).
+Platform work covers shared storage, orchestration, access, and monitoring.
+Metadata and developer experience often sit nearby. Product-facing work sits
+closer to domains, data products, modeled datasets, and stakeholder delivery.
 
-Small teams need more generalists. A first data engineer might build ingestion,
-transformations, dashboards, and infrastructure. As the company grows, the
-manager should narrow responsibilities before work quality drops.
+That split should be explicit in a manager's roadmap. If the same small team
+owns platform reliability and use-case delivery, the roadmap needs protected
+time for both. [Mehdi OUAZZA]({{ '/people/mehdiouazza/' | relative_url }})
+gives the scale-up version in
+[Scale Data Engineering Teams]({{ '/podcasts/scaling-data-engineering-teams-self-service-platforms/' | relative_url }}).
+The team should turn repeated work into self-service support. Self-service
+still needs conventions, templates, playbooks, and onboarding.
 
-Common splits include:
+In embedded data teams, the manager needs another habit. The manager protects
+craft quality even when product or business stakeholders drive the immediate
+asks.
 
-- platform engineering for shared infrastructure, orchestration, access,
-  cost, observability, and standards
-- product data engineering for domain pipelines, data products, event models,
-  metrics, and activation
-- analytics engineering for trusted transformations, semantic models, tests,
-  documentation, and BI-ready tables
-- data operations for incident handling, deployment discipline, runbooks, and
-  recovery where the workload justifies a named function
+[Katie Bauer]({{ '/people/katiebauer/' | relative_url }}) discusses embedded
+and matrix data-team management in
+[How to Hire, Manage, and Grow a Data Science Team in B2B SaaS]({{ '/podcasts/hiring-and-managing-data-science-teams-in-b2b-saas/' | relative_url }}).
+She treats maintainability, documentation, peer review, and career growth as
+manager responsibilities. For a data engineer manager, that maps to pipeline
+ownership and schema decisions. It also maps to transformation review and
+operational handoff.
 
-The split should follow consumer needs, not titles. If analysts, scientists,
-and product teams all wait on the same few engineers, the team needs either
-self-service or clearer ownership. If each domain builds incompatible pipelines,
-the team needs stronger platform standards.
+When the team supports data products, the manager should also separate product
+judgment from engineering implementation. The
+[data product management]({{ '/wiki/data-product-management/' | relative_url }})
+archive page frames data products around users, adoption, decisions, and
+quality guarantees. That distinction helps a data engineer manager avoid
+turning every stakeholder request into an unowned table or fragile sync.
 
 ## Hiring Data Engineers
 
-Hiring starts with the actual work. Recruiter and manager episodes repeatedly
-warn that data titles hide different responsibilities. Nicolas Rassam's data
-engineering hiring episode says the title matters less than the projects a
-candidate has actually done. Software engineers and BI engineers may have
-relevant data engineering experience. Analysts and data scientists may have it
-too if they have built pipelines, modeled data, handled scale, or solved data
-quality problems.
+Hiring starts with the missing capability. [Nicolas Rassam]({{ '/people/nicolasrassam/' | relative_url }})
+argues in
+[Hiring Data Engineers in Europe]({{ '/podcasts/hiring-for-data-engineering-jobs-in-europe/' | relative_url }})
+that titles hide different experience. Software engineers, BI engineers,
+analysts, and data scientists may have done real data engineering work. The
+signal is whether they have built pipelines, modeled data, handled scale, or
+solved quality problems.
+For a manager, the practical rule is to define the work before screening CVs.
 
-For a data engineer manager, the practical hiring sequence is:
+The hiring brief should name the gap:
 
-1. Define the team's constraint. Name the missing capability. Common examples
-   include platform depth and product-domain delivery. They can also include
-   orchestration practice, cloud skills, privacy knowledge, and senior design
-   judgment.
-2. Decide the level. Junior engineers can execute scoped tasks and grow with
-   support, while mid-level engineers can own projects with ambiguity. Senior
-   engineers influence architecture, ways of working, and less experienced
-   teammates.
-3. Match interviews to the job. Test SQL, Python, data modeling, cloud
-   fundamentals, orchestration, and system tradeoffs only when those skills will
-   matter in the role.
-4. Ask for project evidence. Strong candidates can explain the problem, data,
-   tools, design choices, failure modes, and outcome.
-5. Check business context. Data engineers serve downstream users, so they need
-   to explain tradeoffs in time, money, and performance while also
-   understanding privacy and reliability.
+- platform depth for storage, orchestration, access, cloud infrastructure,
+  cost, and standards, tied to
+  [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}).
+- product-facing data engineering for domain pipelines, data products, event
+  models, and stakeholder collaboration, tied to
+  [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }}).
+- analytics engineering for SQL modeling, tests, documentation, semantic
+  definitions, and BI-ready tables, tied to
+  [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }}).
+- reliability work for CI/CD, monitoring, backfills, incident recovery, and
+  runbooks, tied to [DataOps]({{ '/wiki/dataops/' | relative_url }}).
+- senior judgment for architecture, mentoring, standards, and ambiguous
+  stakeholder requests, tied to
+  [Hiring]({{ '/wiki/hiring/' | relative_url }}).
 
-Scale changes the hiring bar. In a hypergrowth environment, Mehdi argues that a
-team should seed senior experience early because standards set under pressure
-become expensive to unwind. If the team is about to run Kafka or change cloud
-providers, hire for that experience. Do the same when the team must support a
-large warehouse or serve many internal users. The manager shouldn't expect every
-engineer to learn the hard parts only after the system is overloaded.
+Leveling changes the evidence, and [Nicolas Rassam]({{ '/people/nicolasrassam/' | relative_url }})
+uses junior, mid-level, and senior expectations in
+[Hiring Data Engineers in Europe]({{ '/podcasts/hiring-for-data-engineering-jobs-in-europe/' | relative_url }}).
+Junior engineers show task execution and fundamentals. Mid-level engineers show
+project ownership and design choices.
 
-Juniors can still be a strong investment. Katie Bauer's team-growth episode
-argues that junior hiring can strengthen an organization over time. The team
-needs mentoring capacity, project-based learning, regular check-ins, and enough
-senior support. A data engineer manager shouldn't hire juniors into an
-unsupported one-person platform backlog and call it a growth plan.
+Senior engineers show tradeoff reasoning, technical influence, and business
+context. A data engineer manager should make the interview mirror the expected
+work instead of testing every tool in the modern stack.
+
+Junior hiring can work, but only when the team has mentoring capacity.
+[Katie Bauer]({{ '/people/katiebauer/' | relative_url }}) makes that point in
+[How to Hire, Manage, and Grow a Data Science Team in B2B SaaS]({{ '/podcasts/hiring-and-managing-data-science-teams-in-b2b-saas/' | relative_url }}).
+Growth needs onboarding, practical projects, check-ins, and senior support.
+For data engineering, that means a junior shouldn't be the only person
+responsible for an unsupported platform backlog.
 
 ## Prioritization and Stakeholder Management
 
-Data engineering teams usually receive more requests than they can finish. The
-manager's job is to turn requests into a ranked portfolio, not to make every
-stakeholder happy at the same time.
+Data engineering teams usually receive more requests than they can finish, so
+the manager has to convert demand into a ranked portfolio. [Barbara Sobkowiak]({{ '/people/barbarasobkowiak/' | relative_url }})
+connects management to prioritization, stakeholder translation, and project
+ownership in
+[Data Science Manager vs Expert]({{ '/podcasts/data-science-manager-vs-expert-hiring-guide/' | relative_url }}).
+[Mariano Semelman]({{ '/people/marianosemelman/' | relative_url }}) adds the
+product-first version in
+[Data Science Leadership]({{ '/podcasts/data-science-leadership-hiring-mlops/' | relative_url }}):
+start from the problem, then spend technical effort where it changes the
+outcome.
 
-Use these checks to prioritize:
+For a data engineer manager, every request should answer four questions:
 
-- Name the data consumer and the decision or way of working that changes.
-- Classify the request as one-off delivery, repeated work, or a platform gap.
-- State the risk of shipping quickly without contracts, tests, or
-  documentation.
-- State the risk of delaying delivery to build a reusable framework.
-- Check whether the work reduces future support load, improves reliability,
-  unlocks revenue, reduces risk, or improves data trust.
-- Name the team that owns recovery when the pipeline or data product fails.
+- who consumes the data, and what decision, product feature, model, or workflow
+  changes, following the user-value framing in
+  [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }}).
+- is this a one-off delivery request, repeated work that should become a
+  template, or a platform gap, following
+  [Mehdi OUAZZA's]({{ '/people/mehdiouazza/' | relative_url }}) self-service
+  platform discussion in
+  [Scale Data Engineering Teams]({{ '/podcasts/scaling-data-engineering-teams-self-service-platforms/' | relative_url }}).
+- what reliability risk appears if the team ships without tests, contracts,
+  observability, or documentation, using
+  [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).
+- who owns recovery when the data arrives late, changes structure, or produces
+  a wrong downstream number, using the incident ownership logic in
+  [DataOps]({{ '/wiki/dataops/' | relative_url }}).
 
-Barbara's manager episode is useful here because she treats prioritization as
-part project management and part stakeholder translation. She doesn't estimate
-every task in isolation. She considers available people, expected complexity,
-buffer time, and project ownership. She also considers client feedback.
+This is also where the manager should challenge architecture requests. If a
+stakeholder asks for streaming, the manager should ask which action loses
+business value without low latency. The archive's
+[data engineering platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
+page makes this tradeoff explicit. Real-time architecture is useful when the
+business needs low latency. It's wasteful when the team only wants to look
+mature.
 
-Mariano Semelman's data science leadership episode adds the product-first
-version: start from the problem and run the experiment. Then spend modeling or
-engineering time where it will have the most impact.
+## Reliability, DataOps, and Quality
 
-For a data engineer manager, that means some requests should become platform
-work. If five teams ask for similar pipelines, invest in templates and
-guidelines. If one executive dashboard is fragile, fix quality and ownership
-before adding more charts. If a stakeholder asks for streaming, ask what action
-must happen immediately. Real-time systems are valuable when the product needs
-them, but expensive when the business only needs a daily decision.
+Reliability is a management responsibility because managers set how work is
+reviewed, deployed, monitored, and recovered. [Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }})
+connects sustainable data delivery to version control, tests, CI/CD, and
+observability. He also includes realistic test data, deployment confidence, and
+on-call readiness in
+[DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }})
+and
+[Mastering DataOps]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }}).
 
-## Quality, Reliability, and DataOps
+The manager should turn that into team habits:
 
-Managers are responsible for quality because they set how engineers work.
-Data quality isn't only whether a pipeline ran. It includes freshness, schema,
-volume, and distribution. It also includes lineage, ownership, documentation,
-and downstream impact. See
-[Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
-for the archive-level synthesis.
+- review changes to pipelines and transformations.
+- define schema-change rules.
+- monitor freshness and volume.
+- keep lineage useful for impact analysis.
+- document runbooks.
+- review recurring incidents.
 
-Christopher Bergh's DataOps episode gives a useful operating model. Teams get
-stuck between two bad modes: fear of changing anything and hero-driven recovery
-after every breakage. DataOps tries to reduce both by using version control,
-automated tests, realistic test data, and observability. CI/CD and safer
-deployment paths complete the operating layer.
+These practices apply
+[DataOps]({{ '/wiki/dataops/' | relative_url }}) and
+[Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).
+The archive frames quality as fitness for a downstream decision, model,
+product, or workflow.
 
-A data engineer manager should translate that into concrete team habits:
-
-- require code review for pipelines, transformations, and infrastructure
-- define schema change rules and data contracts for upstream producers
-- monitor freshness, volume, schema, and key business distributions
-- keep raw data immutable where possible and version processing logic
-- create runbooks for common failures, backfills, and stakeholder
-  communication
-- make documentation part of done, not a cleanup task after launch
-- review recurring incidents and remove the dependency on individual heroes
-
-Katie Bauer's craft-quality advice applies directly. Product managers and
-business users may only care that the dashboard, model, or data sync works
-today. The manager has to care whether another engineer can maintain it six
-months later.
+Cost and governance belong in the same operating conversation.
+[Boyan Angelov]({{ '/people/boyanangelov/' | relative_url }}) treats
+[data strategy]({{ '/wiki/data-strategy/' | relative_url }}) as actionable
+choices rather than a static plan during
+[Actionable Data Strategy and DataOps]({{ '/podcasts/data-strategy-and-dataops-for-ai-powered-products/' | relative_url }}).
+For a data engineer manager, that means platform investment should connect to
+business value and delivery speed. It should also connect to risk reduction,
+privacy, and support load.
 
 ## Career Path Into Data Engineering Management
 
-The most common path starts from senior data engineering, analytics
-engineering, software engineering, or ML engineering. Some managers come from
-technical leadership. The transition isn't automatic. Strong ICs create force
-through their own technical output. Managers create force by improving the
-team's decisions, habits, communication, and growth.
+The path into data engineering management often starts from senior data
+engineering or analytics engineering. Software engineering can lead there too.
+So can ML engineering and technical lead roles.
 
-Build these skills before or during the move:
+[Slawomir Tulski]({{ '/people/slawomirtulski/' | relative_url }}) is a useful
+example. His person page records movement between individual-contributor and
+manager roles while scaling data engineering support for Meta Ads ranking
+systems. His episode,
+[Data Engineer Career in 2026]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }}),
+also shows why managers need company context. They need to separate platform
+engineering, product engineering, and hiring.
 
-- technical breadth across ingestion, modeling, orchestration, cloud,
-  reliability, governance, and cost
-- stakeholder translation with analysts, data scientists, and ML engineers
-- stakeholder translation with product managers, finance, legal, sales, and
-  executives
-- hiring and interviewing across levels
-- coaching, feedback, one-on-ones, onboarding, and development plans
-- strategy through tradeoff reasoning, not abstract roadmaps
-- written communication for design docs, standards, incident notes, and
-  planning
+The transition takes deliberate practice, and [Mariano Semelman]({{ '/people/marianosemelman/' | relative_url }})
+describes the leadership side in
+[Data Science Leadership]({{ '/podcasts/data-science-leadership-hiring-mlops/' | relative_url }}).
+Early management work includes listening, planning, and mentoring. It also
+includes code review, feedback, and development plans. That translates well to
+data engineering management because the new manager creates impact through other engineers'
+decisions, not only through personal output.
 
-Mariano's leadership episode shows the human side of the transition. He used a
-30-60-90 plan when he became a manager. He spent early time listening and
-learning projects. He delayed serious feedback until he had enough context and
-relied on senior engineers for architecture as the team matured. That's a
-realistic model for a data engineer manager.
+Before or during the move, build breadth in ingestion, modeling, and
+orchestration. Add cloud, governance, cost, and reliability. Stakeholder
+communication matters too. The archive supports that breadth through
+[Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}),
+[DataOps]({{ '/wiki/dataops/' | relative_url }}),
+[Hiring]({{ '/wiki/hiring/' | relative_url }}), and
+[Career Growth]({{ '/wiki/career-growth/' | relative_url }}).
 
-You don't need to make every technical decision. You do need enough context to
-know who should decide and how the decision will affect the team.
+The manager doesn't need to become the deepest specialist in every area. The
+work is to ask
+better questions and staff the right strengths. It also keeps decisions
+connected to business and operating outcomes.
 
-Career growth also includes the option to move back and forth between IC and
-management. Katie describes this as a real option rather than a one-way ladder.
-If you enjoy technical depth more than people systems, an expert or staff data
-engineer path may fit better. If you enjoy building the conditions for other
-engineers to do good work, data engineering management can be the right next
-management move.
-
-## Podcast-Backed Evidence
-
-Start with these episodes for source evidence.
-
-- [Data Engineer Career in 2026](https://datatalks.club/podcast.html):
-  Slawomir Tulski explains why data engineering still lacks one stable role
-  definition. He separates platform data engineering from product-facing data
-  engineering and argues that AI increases the need for clean data, metadata,
-  semantics, and platform integration.
-- [Scaling Data Engineering Teams](https://datatalks.club/podcast.html):
-  Mehdi Ouazza describes hypergrowth pressure and the tradeoff between speed
-  and quality. He also covers self-service platform design, Airflow conventions,
-  and playbooks. His episode adds onboarding, senior hiring, Kafka schemas, and
-  data contracts.
-- [Hiring Data Engineers in Europe](https://datatalks.club/podcast.html):
-  Nicolas Rassam explains why hiring teams should look past titles and study
-  actual project work. He also separates junior, mid-level, and senior
-  expectations and stresses business context for data engineers.
-- [DataOps for Data Engineering](https://datatalks.club/podcast.html):
-  Christopher Bergh connects sustainable data work to automation, testing, and
-  observability. He also covers CI/CD, deployment confidence, and leadership
-  support.
-- [Data Science Manager vs Data Science Expert](https://datatalks.club/podcast.html):
-  Barbara Sobkowiak distinguishes managerial breadth from expert depth. She
-  covers strategy, team development, stakeholder communication, and project
-  prioritization. She also covers impact measurement and the risk of hiring a
-  technical expert when the organization needs a manager.
-- [How to Hire, Manage, and Grow a Data Science Team in B2B SaaS](https://datatalks.club/podcast.html):
-  Katie Bauer explains embedded data teams, matrix management, and craft
-  quality. She also covers documentation, peer review, and junior development.
-  Her episode adds manager interviews, strategy case studies, onboarding, and
-  data culture.
-- [Data Science Leadership](https://datatalks.club/podcast.html):
-  Mariano Semelman covers the IC-to-manager transition, 30-60-90 onboarding,
-  mentoring, and planning. He also covers product-first prioritization,
-  feedback, and code review. His episode adds delegation through senior
-  engineers and development plans.
-- [Data Team Roles Explained](https://datatalks.club/podcast.html):
-  The episode explains how product managers, analysts, data scientists, and
-  data engineers collaborate around one product problem. It also covers ML
-  engineers and MLOps or DevOps roles.
+Management isn't the only senior path. [Barbara Sobkowiak]({{ '/people/barbarasobkowiak/' | relative_url }})
+separates manager and expert tracks in
+[Data Science Manager vs Expert]({{ '/podcasts/data-science-manager-vs-expert-hiring-guide/' | relative_url }}).
+That distinction is useful for data engineers deciding between staff-level
+technical depth and people management. Choose management when you want team
+design, hiring, prioritization, and coaching. Stakeholder alignment and
+operating discipline come with that choice.
 
 ## Related Pages
 
-Use these internal pages for deeper context:
+For deeper context, use these pages:
 
 - [Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }})
-- [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }})
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
-- [Platform Engineering]({{ '/wiki/platform-engineering/' | relative_url }})
-- [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
-- [Hiring]({{ '/wiki/hiring/' | relative_url }})
-- [Job Search]({{ '/wiki/job-search/' | relative_url }})
-- [Career Growth]({{ '/wiki/career-growth/' | relative_url }})
+- [DataOps]({{ '/wiki/dataops/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
+- [Hiring]({{ '/wiki/hiring/' | relative_url }})
+- [Data Strategy]({{ '/wiki/data-strategy/' | relative_url }})
+- [Data Engineering Manager]({{ '/articles/data-engineering-manager/' | relative_url }})

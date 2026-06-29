@@ -1,234 +1,303 @@
 ---
 layout: article
-title: "Data Engineering: What It Is, What Data Engineers Build, and How to Learn It"
+title: "Data Engineering: What Data Engineers Build and How the Work Fits Together"
 keyword: "data engineering"
-summary: "A practical, podcast-backed guide to data engineering: pipelines, platforms, tools, DataOps, quality, role boundaries, and a learning path for new data engineers."
+summary: "A practical, podcast-backed guide to data engineering: pipelines, storage, transformations, orchestration, quality, role boundaries, platforms, and learning priorities."
+search_intent: "People searching for data engineering usually want a clear definition, examples of what data engineers build, the core tools and skills, role boundaries, and a practical learning path. Keep this article grounded in DataTalks.Club podcast discussions rather than generic SEO advice."
 related_wiki:
   - Data Engineering
   - Data Engineer Role
   - Data Engineering Platforms
+  - Data Pipelines
+  - Modern Data Stack
   - Data Quality and Observability
+  - DataOps
   - Data Engineering Roadmap
 ---
 
-Data engineering makes data usable and reliably available for analysis and
-machine learning. Teams also use that data in product features, operations, and
-business decisions. Data engineers build the paths that move data from source
-systems into places where other teams can trust it.
+Data engineering is the work of making data usable after it leaves the source
+system. In the DataTalks.Club archive, that means more than copying rows into a
+warehouse. Data engineers design the path from source systems into trusted
+datasets.
 
-In the DataTalks.Club podcast archive, data engineering isn't just "ETL" or
-"big data." Guests describe a broader discipline. Data engineers handle
-ingestion and storage, transformation and orchestration, and quality checks.
-They also handle monitoring, permissions, and documentation. Platform choices
-and collaboration across data and product teams are part of the job too.
+They include applications, events, APIs, and files. Analysts and data
+scientists use the results alongside product teams and ML systems
+([Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }}),
+[Data Engineering]({{ '/wiki/data-engineering/' | relative_url }})).
 
-## Data Engineering Definition
+The practical definition is simple: data engineering turns raw data into
+reliable data products. That product may be a batch pipeline or warehouse
+model. It may also be a lakehouse table, feature dataset, reverse ETL sync, or
+self-service platform.
 
-Data engineering sits between raw systems and useful data products. Product
-databases and event streams rarely arrive ready for analysts or models. APIs,
-files, logs, and third-party systems usually need the same cleanup.
+The useful test is practical. Another person or system can understand the data
+and depend on it. The same consumer can recover when it breaks
+([ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
+[DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }})).
 
-A data engineer designs the path from those messy inputs to useful outputs.
-Those outputs may be documented datasets, dashboards, and reports. They may
-also be product features, reverse ETL syncs, or model inputs.
-
-Data engineers move data so workflows, models, product features, and decisions
-become dependable. Data has to arrive on time and keep its meaning. It also has
-to survive schema changes, remain queryable, and have an owner when something
-breaks.
-
-For the archive-level concept map, see
+For the reference layer behind this article, use
 [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}) and
-[Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }}).
+[Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }}). For a
+study sequence, use
+[Data Engineer Roadmap]({{ '/articles/data-engineer-roadmap/' | relative_url }})
+and [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }}).
 
-## Data Engineer Outputs
+## Data Engineering Outputs
 
-Data engineers usually build and operate several connected layers:
+Data engineers build the pieces between source data and use. In
+[Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }}),
+the archive's early role map says data engineers make product data usable for
+analysts and data scientists. They also keep analytical workloads away from
+operational systems. In
+[Big Data Engineer vs Data Scientist]({{ '/podcasts/big-data-engineer-vs-data-scientist/' | relative_url }}),
+[Roksolana Diachuk]({{ '/people/roksolanadiachuk/' | relative_url }}) describes
+the big-data version through ETL pipelines and storage. She also covers query
+engines, Spark performance, monitoring, and schema work.
 
-- ingestion from databases, applications, event streams, APIs, files, and
-  partner systems
-- raw storage in a data lake, warehouse, lakehouse, object store, or operational
-  store
+In practice, data engineering outputs usually include:
+
+- ingestion from databases, applications, APIs, SaaS tools, event streams,
+  files, and logs
+- raw storage that preserves enough source context for future modeling
 - transformations that clean, join, model, and document data
 - orchestration for schedules, dependencies, retries, backfills, and alerts
-- data quality checks for freshness, completeness, uniqueness, schema changes,
-  valid values, and volume anomalies
-- access controls, lineage, metadata, catalogs, and governance
-- data marts, semantic layers, dashboards, feature tables, exports, and reverse
+- quality checks for freshness, schema changes, nulls, duplicates, volumes,
+  distributions, and business rules
+- warehouses, lakes, lakehouses, marts, feature tables, exports, and reverse
   data flows
-- self-service platforms that help other teams build pipelines without
-  reinventing the stack
+- ownership conventions, access controls, runbooks, catalogs, and lineage
 
-The podcast evidence makes one boundary clear: a pipeline isn't finished when
-data arrives somewhere. It's finished when downstream users can understand it,
-query it, and notice when it's wrong.
+The list is broad because the role changes with the company. A startup may need
+one engineer to handle ingestion, warehouse models, dashboards, and operations.
+A larger team may split the same work across
+[data engineering platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}),
+[analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }}),
+[DataOps]({{ '/wiki/dataops/' | relative_url }}), and ML platform teams
+([Data Engineer Career in 2026]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }})).
 
-## Tools and Platforms
+## Finished Pipelines
 
-The data engineering tool stack depends on the company, but the common building
-blocks are stable.
+A pipeline starts with ingestion, but the archive treats ingestion as only the
+first step. In
+[ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
+[Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) explains ETL,
+ELT, and Airbyte-style loading. She also covers warehouse transformations,
+data marts, and data lakes. Airflow orchestration, CDC, schema evolution, and
+reverse data flows appear in the same conversation. Her discussion connects the
+vocabulary to pipeline responsibilities.
 
-SQL and Python are the core skills. Warehouses such as BigQuery, Snowflake, or
-Redshift support analytical workloads. Data lakes and lakehouses store raw or
-large-scale data. Teams may add table formats such as Iceberg or Delta Lake.
+That pipeline structure creates a durable data engineering checklist:
 
-Orchestrators such as Airflow, Prefect, Dagster, or GitHub Actions run jobs and
-manage dependencies. Transformation tools such as dbt help teams turn raw tables
-into modeled datasets. Ingestion and CDC tools move data from source systems.
-Streaming systems such as Kafka or Flink handle low-latency event flows when the
-use case needs them.
+1. Source: name the system that produced the data and define each important
+   field.
+2. Load: document how the data arrives and how the team replays or backfills
+   it.
+3. Store: separate raw data, staged data, and modeled data for consumption.
+4. Transform: keep business rules, joins, metrics, and feature logic in
+   reviewable code.
+5. Run: define schedules, dependencies, retries, and alerts.
+6. Serve: name the consumer and the recovery path for late or wrong data.
 
-The archive is pragmatic about tools. Guests warn against using Kafka, Spark,
-Kubernetes, or a lakehouse because they sound mature. Use real-time pipelines
-when a late answer loses value. Use batch or micro-batch when a scheduled job
-solves the business problem with less operational burden.
+The consumer changes the design. A BI mart and a product experiment don't need
+the same freshness or latency. A feature table, fraud workflow, and CRM
+activation sync create different quality and ownership needs. That's why the
+article-level topic connects to
+[Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }}),
+[ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}), and
+[Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}).
 
-Use these pages for deeper architecture tradeoffs:
+## Storage and Modeling
 
-- [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
-- [Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }})
-- [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }})
-- [Data Warehouse vs Data Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }})
+Data engineering storage choices should follow the workload because warehouses
+and lakes serve different needs. Warehouses fit structured analytics and
+SQL-heavy modeling. Lakes preserve raw files and logs, plus media and
+semi-structured records. Lakehouses then add table semantics and metadata on
+top of object storage
+([Data Warehouse]({{ '/wiki/data-warehouse/' | relative_url }}),
+[Data Lake]({{ '/wiki/data-lake/' | relative_url }}),
+[Data Warehouse vs Data Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }})).
 
-## DataOps, Quality, and Trust
+Natalie's modern-stack episode frames warehouses, marts, and lakes as
+architecture choices. A newer archive discussion extends that map.
+[Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) discusses
+Apache Iceberg, Delta Lake, and DuckDB in
+[Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}).
+He also covers catalogs, orchestration, and streaming. His recurring point is
+that teams should choose the storage and processing approach from requirements,
+not from vendor fashion
+([Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})).
 
-Data engineering work fails in ordinary ways:
+Transformation gives stored data meaning. The archive connects this layer to
+SQL, `dbt`, tests, and documentation. It also connects transformation to
+dependency graphs and
+[analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }}).
 
-- a source schema changes
-- an API returns fewer rows than usual
-- a partition arrives late
-- a join duplicates records
-- a dashboard metric changes meaning
-- a downstream ML job trains on bad data
+That doesn't remove data engineers from modeling because ownership may be
+shared. Data engineers often own ingestion and storage. They also own
+orchestration, access, and reliability. Analytics engineers may own
+business-facing models, metrics, and marts
+([ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
+[Foundations of the Analytics Engineer Role]({{ '/podcasts/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices/' | relative_url }})).
 
-DataOps exists because these failures are normal.
+## Reliability Work
 
-Good data engineering teams add operating discipline around the pipeline:
-
-- version control
-- code review and CI/CD
-- tests and realistic test data
-- monitoring and alerts
-- runbooks, ownership, and recovery paths
-
-Data quality checks should map to the consumer. A finance report, fraud system,
-product experiment, and model training job don't need the same latency or
-tolerance for missing values.
-
-Observability also needs a recovery path, so freshness and volume checks catch
-late or missing data. Distribution, schema, lineage, and pipeline status help
-the owning team detect impact before consumers discover the problem.
-
-See [DataOps]({{ '/wiki/dataops/' | relative_url }}),
-[MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }}), and
+Data engineering is reliability work because a successful job can still produce
+bad data. A source schema can change, or a partition can arrive late. An API can
+return fewer rows than usual. A join can duplicate records, and a metric can
+change meaning without the dashboard owner noticing. That's why
 [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
-for the operating model behind reliable data systems.
+and [DataOps]({{ '/wiki/dataops/' | relative_url }}) belong inside the topic.
+
+In [DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }}),
+[Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }}) connects
+data engineering to automation and observability. He also covers CI/CD and
+deployment confidence with realistic test data.
+
+In
+[Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }}),
+[Barr Moses]({{ '/people/barrmoses/' | relative_url }}) anchors the monitoring
+layer around freshness checks and volume checks. Schema checks belong there
+too, as do distribution checks. She also covers lineage and ownership. Runbooks,
+SLAs, and alerts are part of the same operating layer.
+
+The operating standard is consumer-specific. A finance report may tolerate a
+different delay than a fraud system. A product experiment and an ML feature
+pipeline may need different checks. Data engineering teams need quality rules
+that match the downstream use. They also need a recovery path when a check
+fails
+([DataOps vs Data Engineering]({{ '/articles/dataops-vs-data-engineering/' | relative_url }}),
+[MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }})).
+
+## Platforms and Cost
+
+At team scale, data engineering becomes platform work, and the platform isn't
+just a stack of tools. It's the shared path for teams to create and consume
+data without rebuilding the same foundation each time
+([Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})).
+
+In
+[Scaling Data Engineering Teams]({{ '/podcasts/scaling-data-engineering-teams-self-service-platforms/' | relative_url }}),
+[Mehdi OUAZZA]({{ '/people/mehdiouazza/' | relative_url }}) describes scale-up
+data engineering through self-service platforms and onboarding. Airflow
+conventions and playbooks are part of the same work. Kafka, schemas, and data
+contracts enter the platform discussion too. Self-service still needs shared
+standards and ownership
+([Self-Service Data Platforms]({{ '/wiki/self-service-data-platforms/' | relative_url }}),
+[Data Mesh]({{ '/wiki/data-mesh/' | relative_url }})).
+
+Cost is part of the same platform responsibility. In
+[Data Engineer Career in 2026]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }}),
+[Slawomir Tulski]({{ '/people/slawomirtulski/' | relative_url }}) separates
+platform data engineering from product-facing data engineering and warns
+against over-engineered stacks. In
+[FinOps for Data Engineers]({{ '/podcasts/finops-for-data-engineers/' | relative_url }}),
+[Eddy Zulkifly]({{ '/people/eddyzulkifly/' | relative_url }}) makes cloud cost
+an engineering concern. His episode covers BigQuery and managed services. It
+also covers tagging, accountability, and managed-versus-custom choices.
+
+## Batch and Streaming
+
+Data engineering doesn't become better just because it's real time. The
+archive's streaming discussions are more specific. Streaming helps when late
+answers lose value, event ordering matters, or an operational system must react
+quickly. Batch and micro-batch pipelines are often simpler for reporting,
+scheduled exports, training data, and many analytical workflows
+([Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }})).
+
+This is the tradeoff Slawomir raises in
+[Data Engineer Career in 2026]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }}).
+Kafka, Spark, and real-time platforms should solve a real constraint. Mehdi's
+scale-up episode shows the other side. Kafka can be useful when teams also
+invest in schemas, contracts, onboarding, and monitoring
+([Scaling Data Engineering Teams]({{ '/podcasts/scaling-data-engineering-teams-self-service-platforms/' | relative_url }})).
+
+Choose batch first when the consumer can wait and the recovery path is simpler.
+Choose streaming when latency, ordering, or operational response is central to
+the product or process.
 
 ## Role Boundaries
 
-The phrase "data engineer" hides several jobs because platform teams and product
-teams need different work. Platform data engineers handle storage systems,
-orchestration, access, and cloud infrastructure. They also work on monitoring,
-cost, and self-service conventions.
+The boundary with data science is ownership. Data engineers usually own
+reliable data movement, storage, transformations, and orchestration. They also
+own access and pipeline operations. Data scientists own modeling, experiments,
+feature reasoning, and decision quality. The handoff is visible when prepared
+datasets or batch predictions move into product systems
+([Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }}),
+[Data Engineer vs Data Scientist]({{ '/wiki/data-engineer-vs-data-scientist/' | relative_url }})).
 
-Other data engineers work closer to product or analytics domains. They handle
-business logic, modeled datasets, metrics, and data products. Some companies
-call that second group analytics engineers.
+The boundary with analytics engineering is less rigid. Analytics engineers
+often own warehouse-side business models, metric definitions, and BI-ready
+marts. They also own tests and documentation.
 
-Data engineering also overlaps with data science and ML engineering. Data
-engineers usually own the dependable data path before analysis or model
-training. Data scientists own modeling, experiments, feature reasoning, and
-decision quality. ML engineers or MLOps teams often own model serving,
-registries, deployment, and model monitoring. The overlap shows up around
-feature pipelines, batch scoring, model inputs, and production handoffs.
+Data engineers usually sit closer to ingestion, storage, orchestration, and
+compute. They also sit closer to permissions and platform operations. The two
+roles overlap wherever SQL modeling becomes
+production-critical
+([Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }}),
+[Data Analyst vs Analytics Engineer]({{ '/wiki/data-analyst-vs-analytics-engineer/' | relative_url }})).
 
-The useful question isn't "which title owns this?" It's "who owns the data
-path, who owns the model or decision, and who owns the system when it breaks?"
+The boundary with ML engineering and AI engineering appears around production
+systems. Data engineers own upstream datasets and feature pipelines. They also
+own retrieval corpora, freshness, metadata, and permissions. ML and AI
+engineers own model packaging, serving, evaluation, and model-backed
+application behavior. Incidents often cross that boundary, so
+[MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }}) is a useful
+bridge.
 
-For role comparisons, see
-[Data Engineer vs Data Scientist]({{ '/wiki/data-engineer-vs-data-scientist/' | relative_url }}),
-[Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }}),
-and [Data Science]({{ '/wiki/data-science/' | relative_url }}).
+## Learning Data Engineering
 
-## Learning Path for Data Engineering
+The archive's learning advice is deliberately narrower than many tool lists.
+In
+[Build a Data Engineering Career]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }}),
+[Jeff Katz]({{ '/people/jeffkatz/' | relative_url }}) centers SQL and Python
+for junior candidates. He adds cloud basics and orchestration. He also argues
+that beginners can delay Spark, Kafka, and Kubernetes until the fundamentals
+are strong.
 
-Start with fundamentals before collecting tools.
+In
+[Data Engineering Job Prep and Interview Guide]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }}),
+he pushes candidates toward cleaner Python and meaningful SQL. Tests and
+projects should show how the system works.
 
-The archive's career episodes keep returning to the same first layer:
+A practical learning sequence is:
 
-1. Learn SQL deeply. Practice joins, aggregations, and window functions. Then
-   add table grain, modeling, query performance, and data quality checks.
-2. Learn Python for extraction, validation, file handling, and API calls. Use it
-   to write tests and simple pipeline code.
-3. Build a batch pipeline from source data to raw storage. Add transformations
-   and tables for one downstream consumer.
-4. Add orchestration, retries, backfills, alerts, and a short runbook.
-5. Add quality checks for freshness, row counts, schemas, nulls, uniqueness, and
-   business rules.
-6. Learn one warehouse or lakehouse stack well enough to explain storage,
-   compute, permissions, cost, and failure modes.
-7. Specialize after the basics. Choose a platform track or an analytics track.
-   Streaming, governance, cost optimization, and AI-ready data are other deep
-   paths.
+1. Learn SQL joins, aggregations, and window functions. Practice table grain,
+   modeling, and validation queries.
+2. Learn Python for APIs, files, configuration, and retries. Include validation,
+   tests, and simple pipeline code.
+3. Build one batch pipeline from source data to raw storage, modeled tables,
+   and a named consumer.
+4. Add orchestration, retries, reruns, and backfills. Include logs and alerts
+   with a short runbook.
+5. Add data quality checks for freshness and schema. Include row counts and
+   nulls, plus uniqueness, accepted values, and business rules.
+6. Learn one warehouse, lake, or lakehouse path deeply enough to explain storage
+   and compute, plus cost, permissions, and failure modes.
+7. Specialize after the basics in platform engineering, product-facing data
+   engineering, analytics engineering, and streaming. Other useful paths include
+   governance and cost, plus AI-ready data.
 
-A strong portfolio project should show ingestion, transformation, orchestration,
-and tests. It should also include monitoring, documentation, and a clear
-consumer. A small finished system beats a broad list of tools that never work
-together.
+A strong project should show ingestion, transformation, orchestration, and
+quality. It should also include documentation and an actual consumer. A small
+complete system is stronger than a broad list of tools that never work together
+([Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }}),
+[Data Engineering Pipeline Project]({{ '/articles/data-engineering-pipeline-project/' | relative_url }})).
 
-For a fuller sequence, see
-[Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
-and
-[Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }}).
+## Next Steps
 
-## Podcast-Backed Evidence
-
-These DataTalks.Club podcast episodes are the strongest starting points for the
-topic:
-
-- [Data Team Roles Explained](https://datatalks.club/podcast.html): at
-  13:23-16:04, data engineers prepare clean, accessible data for analysts and
-  data scientists while keeping analytical workloads away from product systems.
-  At 26:59-30:01, batch scoring shows the handoff between data engineering, data
-  science, and ML engineering.
-- [Big Data Engineer vs Data Scientist](https://datatalks.club/podcast.html):
-  at 4:32-6:31, the role centers on ETL pipelines and storage. The guest also
-  discusses query engines and analyst support. Later sections connect the role
-  to monitoring, schema changes, and documentation.
-- [Build a Data Engineering Career](https://datatalks.club/podcast.html): at
-  23:35-26:40, Python, SQL, and cloud fundamentals are named as core skills.
-  At 38:05-40:42, the episode explains why junior paths can skip Spark, Kafka,
-  and Kubernetes until the fundamentals are strong.
-- [Data Engineering Tools and Modern Data Stack](https://datatalks.club/podcast.html):
-  explains ETL/ELT, ingestion, transformation work, and orchestration. The
-  episode compares warehouses with lakes and adds CDC plus reverse data flows.
-- [DataOps for Data Engineering](https://datatalks.club/podcast.html): connects
-  data engineering to automation and observability, then links CI/CD and
-  regression tests to test data, monitoring, and deployment confidence.
-- [Scaling Data Engineering Teams](https://datatalks.club/podcast.html): shows
-  why self-service platforms need conventions, schemas, playbooks, and clear
-  ownership for onboarding and monitoring.
-- [Data Engineer Career in 2026](https://datatalks.club/podcast.html): at
-  8:20-14:00, the guest explains why the title has no single definition and
-  separates platform data engineering from product-facing data engineering. At
-  25:33 onward, the episode adds cost-aware platform judgment and warns against
-  overbuilding.
-- [Modern Data Engineering](https://datatalks.club/podcast.html): covers
-  lakehouse table formats such as Iceberg and Delta Lake plus DuckDB, metadata
-  catalogs, orchestration, and streaming. Later sections connect AI-assisted
-  data engineering to SQL and Python, requirements gathering, and portfolio
-  evidence.
-
-## Related Wiki Pages
-
-Use these pages for the deeper wiki layer behind this article.
+Use the wiki pages for deeper reference material:
 
 - [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }})
 - [Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }})
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
-- [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
+- [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})
-- [Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }})
-- [Data Engineer vs Data Scientist]({{ '/wiki/data-engineer-vs-data-scientist/' | relative_url }})
-- [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
+
+Use the related articles when you want a narrower next step:
+
+- [Fundamentals of Data Engineering]({{ '/articles/fundamentals-of-data-engineering/' | relative_url }})
+- [Data Engineering Tools]({{ '/articles/data-engineering-tools/' | relative_url }})
+- [Apache Airflow]({{ '/articles/apache-airflow/' | relative_url }})
+- [Data Engineer Roadmap]({{ '/articles/data-engineer-roadmap/' | relative_url }})
+- [Data Engineering and Data Science]({{ '/articles/data-engineering-and-data-science/' | relative_url }})
