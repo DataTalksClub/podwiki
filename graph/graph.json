@@ -2,14 +2,34 @@
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
     "wikis": 153,
-    "articles": 11,
+    "articles": 16,
     "podcasts": 12,
     "persons": 26,
     "topics": 111,
-    "nodes": 313,
-    "links": 1746
+    "nodes": 318,
+    "links": 1836
   },
   "nodes": [
+    {
+      "id": "article:data-engineering-tools",
+      "type": "article",
+      "label": "Data Engineering Tools: A Practical Guide to the Modern Stack",
+      "title": "Data Engineering Tools: A Practical Guide to the Modern Stack",
+      "url": "/articles/data-engineering-tools/",
+      "count": 1,
+      "search": "Data Engineering Tools: A Practical Guide to the Modern Stack A podcast backed guide to choosing data engineering tools across the modern stack.",
+      "keyword": "data engineering tools"
+    },
+    {
+      "id": "article:data-engineering",
+      "type": "article",
+      "label": "Data Engineering: What It Is, What Data Engineers Build, and How to Learn It",
+      "title": "Data Engineering: What It Is, What Data Engineers Build, and How to Learn It",
+      "url": "/articles/data-engineering/",
+      "count": 1,
+      "search": "Data Engineering: What It Is, What Data Engineers Build, and How to Learn It A practical, podcast backed guide to data engineering: pipelines, platforms, tools, DataOps, quality, role boundaries, and a learning path for new data engineers.",
+      "keyword": "data engineering"
+    },
     {
       "id": "article:data-scientist-interview",
       "type": "article",
@@ -61,6 +81,16 @@
       "keyword": "interpretable machine learning"
     },
     {
+      "id": "article:llm-system-design-interview",
+      "type": "article",
+      "label": "LLM System Design Interview: A Practical Production Checklist",
+      "title": "LLM System Design Interview: A Practical Production Checklist",
+      "url": "/articles/llm-system-design-interview/",
+      "count": 1,
+      "search": "LLM System Design Interview: A Practical Production Checklist A podcast backed guide to LLM system design interviews with practical coverage of RAG, evaluation, latency, cost, safety, security, and observability.",
+      "keyword": "llm system design interview"
+    },
+    {
       "id": "article:llm-tools",
       "type": "article",
       "label": "LLM Tools: How to Choose the Right Stack for Real Products",
@@ -89,6 +119,26 @@
       "count": 1,
       "search": "Machine Learning System Design: A Practical Production Checklist A podcast backed guide to machine learning system design: problem framing, data, baselines, evaluation, serving, monitoring, fallbacks, and interview preparation.",
       "keyword": "machine learning system design"
+    },
+    {
+      "id": "article:mlops-engineer",
+      "type": "article",
+      "label": "MLOps Engineer: Responsibilities, Skills, Tools, and Career Roadmap",
+      "title": "MLOps Engineer: Responsibilities, Skills, Tools, and Career Roadmap",
+      "url": "/articles/mlops-engineer/",
+      "count": 1,
+      "search": "MLOps Engineer: Responsibilities, Skills, Tools, and Career Roadmap A practical guide to the MLOps engineer role, including responsibilities, skills, role boundaries, tools, roadmap, portfolio signals, and podcast backed evidence.",
+      "keyword": "mlops engineer"
+    },
+    {
+      "id": "article:mlops-tools",
+      "type": "article",
+      "label": "MLOps Tools: What Your Stack Should Cover",
+      "title": "MLOps Tools: What Your Stack Should Cover",
+      "url": "/articles/mlops-tools/",
+      "count": 1,
+      "search": "MLOps Tools: What Your Stack Should Cover A practical guide to MLOps tools for experiment tracking, model registries, orchestration, CI/CD, monitoring, data observability, developer experience, and stack selection.",
+      "keyword": "mlops tools"
     },
     {
       "id": "article:data-product-manager-role",
@@ -2859,6 +2909,216 @@
       "weight": 5
     },
     {
+      "source": "article:data-engineering",
+      "target": "wiki:analytics-engineering",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "wiki:batch-vs-streaming",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "wiki:data-engineer-role",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "wiki:data-engineer-role",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "wiki:data-engineer-vs-data-scientist",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "wiki:data-engineering",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "wiki:data-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "wiki:data-engineering-roadmap",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "wiki:data-engineering-roadmap",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "wiki:data-science",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "wiki:data-warehouse-vs-data-lakehouse",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "wiki:dataops",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "wiki:etl-vs-elt",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering",
+      "target": "wiki:mlops-and-dataops",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-tools",
+      "target": "wiki:analytics-engineering",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering-tools",
+      "target": "wiki:customer-data-platforms",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-tools",
+      "target": "wiki:data-activation",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-tools",
+      "target": "wiki:data-engineering",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering-tools",
+      "target": "wiki:data-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-tools",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering-tools",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-tools",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:data-engineering-tools",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-tools",
+      "target": "wiki:data-warehouse-vs-data-lakehouse",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering-tools",
+      "target": "wiki:dbt",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-tools",
+      "target": "wiki:etl-vs-elt",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering-tools",
+      "target": "wiki:mlops-and-dataops",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-tools",
+      "target": "wiki:modern-data-stack",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering-tools",
+      "target": "wiki:modern-data-stack",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-tools",
+      "target": "wiki:reverse-etl",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
       "source": "article:data-product-manager-role",
       "target": "wiki:data-engineering-platforms",
       "kind": "article-wiki",
@@ -2973,6 +3233,114 @@
       "weight": 5
     },
     {
+      "source": "article:llm-system-design-interview",
+      "target": "wiki:agent-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:llm-system-design-interview",
+      "target": "wiki:ai-engineer-role",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:llm-system-design-interview",
+      "target": "wiki:ai-red-teaming",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:llm-system-design-interview",
+      "target": "wiki:ai-red-teaming",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:llm-system-design-interview",
+      "target": "wiki:data-observability",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:llm-system-design-interview",
+      "target": "wiki:evaluation",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:llm-system-design-interview",
+      "target": "wiki:evaluation",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:llm-system-design-interview",
+      "target": "wiki:llm-production-patterns",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:llm-system-design-interview",
+      "target": "wiki:llm-production-patterns",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:llm-system-design-interview",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:llm-system-design-interview",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:llm-system-design-interview",
+      "target": "wiki:model-monitoring",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:llm-system-design-interview",
+      "target": "wiki:rag",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:llm-system-design-interview",
+      "target": "wiki:rag-vs-fine-tuning",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:llm-system-design-interview",
+      "target": "wiki:responsible-ai-and-governance",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:llm-system-design-interview",
+      "target": "wiki:search-rag-and-knowledge-systems",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:llm-system-design-interview",
+      "target": "wiki:search-rag-and-knowledge-systems",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:llm-system-design-interview",
+      "target": "wiki:security",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
       "source": "article:llm-tools",
       "target": "wiki:llm-production-patterns",
       "kind": "article-wiki",
@@ -3031,6 +3399,228 @@
       "target": "wiki:mlops-and-dataops",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "article:mlops-engineer",
+      "target": "article:what-is-mlops",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-engineer",
+      "target": "wiki:data-engineer-role",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:mlops-engineer",
+      "target": "wiki:data-engineer-role",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:mlops-engineer",
+      "target": "wiki:experiment-tracking",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-engineer",
+      "target": "wiki:machine-learning-engineer-role",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:mlops-engineer",
+      "target": "wiki:machine-learning-engineer-role",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:mlops-engineer",
+      "target": "wiki:ml-platforms",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-engineer",
+      "target": "wiki:ml-platforms",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:mlops-engineer",
+      "target": "wiki:mlops",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:mlops-engineer",
+      "target": "wiki:mlops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:mlops-engineer",
+      "target": "wiki:mlops-and-dataops",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-engineer",
+      "target": "wiki:mlops-roadmap",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:mlops-engineer",
+      "target": "wiki:mlops-roadmap",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:mlops-engineer",
+      "target": "wiki:model-monitoring",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-engineer",
+      "target": "wiki:model-registry",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-engineer",
+      "target": "wiki:platform-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-engineer",
+      "target": "wiki:platform-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:mlops-tools",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-tools",
+      "target": "wiki:data-observability",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-tools",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:mlops-tools",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:mlops-tools",
+      "target": "wiki:developer-experience",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-tools",
+      "target": "wiki:experiment-tracking",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:mlops-tools",
+      "target": "wiki:experiment-tracking",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:mlops-tools",
+      "target": "wiki:machine-learning-infrastructure",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-tools",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-tools",
+      "target": "wiki:ml-platforms",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:mlops-tools",
+      "target": "wiki:ml-platforms",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:mlops-tools",
+      "target": "wiki:mlops",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:mlops-tools",
+      "target": "wiki:mlops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:mlops-tools",
+      "target": "wiki:mlops-roadmap",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:mlops-tools",
+      "target": "wiki:mlops-vs-devops",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:mlops-tools",
+      "target": "wiki:model-monitoring",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:mlops-tools",
+      "target": "wiki:model-monitoring",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:mlops-tools",
+      "target": "wiki:model-registry",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:mlops-tools",
+      "target": "wiki:model-registry",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:mlops-tools",
+      "target": "wiki:platform-engineering",
+      "kind": "article-link",
+      "weight": 2
     },
     {
       "source": "article:software-engineer-to-machine-learning",
