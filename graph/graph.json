@@ -7,7 +7,7 @@
     "persons": 438,
     "topics": 146,
     "nodes": 1050,
-    "links": 11598
+    "links": 11606
   },
   "nodes": [
     {
@@ -9176,7 +9176,7 @@
       "title": "Data Mesh",
       "url": "/wiki/data-mesh/",
       "count": 1,
-      "search": "Data Mesh How the podcast archive explains Data Mesh as domain owned data products, explicit contracts, self serve platforms, and federated governance."
+      "search": "Data Mesh How the podcast archive explains Data Mesh as domain owned data products, explicit contracts, self service platforms, and federated governance."
     },
     {
       "id": "wiki:data-mesh-vs-centralized-data-platform",
@@ -47758,7 +47758,7 @@
       "source": "wiki:business-skills-for-data-professionals",
       "target": "podcast:from-iot-data-engineering-to-leading-data-architect",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 10
     },
     {
       "source": "wiki:business-skills-for-data-professionals",
@@ -47770,7 +47770,13 @@
       "source": "wiki:business-skills-for-data-professionals",
       "target": "wiki:career-growth",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 6
+    },
+    {
+      "source": "wiki:business-skills-for-data-professionals",
+      "target": "wiki:career-growth",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:business-skills-for-data-professionals",
@@ -47786,9 +47792,15 @@
     },
     {
       "source": "wiki:business-skills-for-data-professionals",
+      "target": "wiki:data-architect-role",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:business-skills-for-data-professionals",
       "target": "wiki:data-strategy",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:business-skills-for-data-professionals",
@@ -47824,7 +47836,7 @@
       "source": "wiki:business-skills-for-data-professionals",
       "target": "wiki:metrics",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:business-skills-for-data-professionals",
@@ -47836,7 +47848,7 @@
       "source": "wiki:business-skills-for-data-professionals",
       "target": "wiki:product-analytics",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:business-skills-for-data-professionals",
@@ -48226,43 +48238,43 @@
       "source": "wiki:career-growth",
       "target": "podcast:developer-personal-brand-learn-in-public",
       "kind": "wiki-link",
-      "weight": 7
+      "weight": 6
     },
     {
       "source": "wiki:career-growth",
       "target": "podcast:how-to-grow-your-ml-engineering-career",
       "kind": "wiki-link",
-      "weight": 12
+      "weight": 8
     },
     {
       "source": "wiki:career-growth",
       "target": "podcast:job-search-strategy-in-tech-projects-skills-cv-networking",
       "kind": "wiki-link",
-      "weight": 10
+      "weight": 8
     },
     {
       "source": "wiki:career-growth",
       "target": "podcast:mentoring-in-tech-how-to-find-and-become-a-mentor.md",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:career-growth",
       "target": "podcast:personal-brand-for-data-professionals",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:career-growth",
       "target": "podcast:public-speaking-for-data-scientists",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:career-growth",
       "target": "podcast:technical-writing-for-data-scientists",
       "kind": "wiki-link",
-      "weight": 10
+      "weight": 8
     },
     {
       "source": "wiki:career-growth",
@@ -48274,13 +48286,19 @@
       "source": "wiki:career-growth",
       "target": "wiki:career-transition",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:career-growth",
       "target": "wiki:career-transition",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:career-growth",
+      "target": "wiki:communication",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:career-growth",
@@ -48292,7 +48310,7 @@
       "source": "wiki:career-growth",
       "target": "wiki:developer-relations",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:career-growth",
@@ -48302,9 +48320,15 @@
     },
     {
       "source": "wiki:career-growth",
+      "target": "wiki:documentation",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:career-growth",
       "target": "wiki:hiring",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:career-growth",
@@ -48334,13 +48358,19 @@
       "source": "wiki:career-growth",
       "target": "wiki:machine-learning-engineer-role",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:career-growth",
       "target": "wiki:machine-learning-engineer-role",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:career-growth",
+      "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:career-growth",
@@ -48353,6 +48383,12 @@
       "target": "wiki:machine-learning-system-design",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:career-growth",
+      "target": "wiki:ml-platform-engineer-role",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:career-growth",
@@ -48442,43 +48478,43 @@
       "source": "wiki:career-transition",
       "target": "podcast:from-academia-to-staff-ai-engineer-interviews-and-career-growth",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:career-transition",
       "target": "podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:career-transition",
       "target": "podcast:from-software-engineer-to-machine-learning",
       "kind": "wiki-link",
-      "weight": 10
+      "weight": 8
     },
     {
       "source": "wiki:career-transition",
       "target": "podcast:how-to-transition-into-ml-and-data-engineering-from-qa",
       "kind": "wiki-link",
-      "weight": 10
+      "weight": 8
     },
     {
       "source": "wiki:career-transition",
       "target": "podcast:postdoc-to-data-science-lead-career-transition",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:career-transition",
       "target": "podcast:project-manager-to-data-scientist",
       "kind": "wiki-link",
-      "weight": 10
+      "weight": 8
     },
     {
       "source": "wiki:career-transition",
       "target": "podcast:s23e04-how-to-become-ai-engineer-after-career-break",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:career-transition",
@@ -48526,7 +48562,7 @@
       "source": "wiki:career-transition",
       "target": "wiki:career-transitions-in-data",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:career-transition",
@@ -48538,7 +48574,7 @@
       "source": "wiki:career-transition",
       "target": "wiki:data-engineering-portfolio-projects",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:career-transition",
@@ -48586,13 +48622,13 @@
       "source": "wiki:career-transition",
       "target": "wiki:machine-learning-portfolio-projects",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:career-transition",
       "target": "wiki:marketing-to-analytics-engineering",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:career-transition",
@@ -48616,13 +48652,13 @@
       "source": "wiki:career-transition",
       "target": "wiki:qa-to-ml-and-data-engineering",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:career-transition",
       "target": "wiki:software-engineer-to-machine-learning",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:career-transition",
@@ -54796,37 +54832,37 @@
       "source": "wiki:data-mesh",
       "target": "person:zhamakdehghani",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:data-mesh",
       "target": "podcast:data-governance-data-access-management",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 4
     },
     {
       "source": "wiki:data-mesh",
       "target": "podcast:data-mesh-architecture-decentralized-data-products",
       "kind": "wiki-link",
-      "weight": 30
+      "weight": 20
     },
     {
       "source": "wiki:data-mesh",
       "target": "podcast:dataops-principles-and-scalable-data-platforms",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:data-mesh",
       "target": "podcast:scaling-data-engineering-teams-self-service-platforms",
       "kind": "wiki-link",
-      "weight": 10
+      "weight": 8
     },
     {
       "source": "wiki:data-mesh",
       "target": "wiki:data-engineering-platforms",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:data-mesh",
@@ -54838,7 +54874,7 @@
       "source": "wiki:data-mesh",
       "target": "wiki:data-governance",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:data-mesh",
@@ -54862,7 +54898,7 @@
       "source": "wiki:data-mesh",
       "target": "wiki:data-products",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:data-mesh",
@@ -54880,7 +54916,7 @@
       "source": "wiki:data-mesh",
       "target": "wiki:dataops",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 8
     },
     {
       "source": "wiki:data-mesh",
@@ -54890,7 +54926,19 @@
     },
     {
       "source": "wiki:data-mesh",
+      "target": "wiki:developer-experience",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-mesh",
       "target": "wiki:platform-engineering",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-mesh",
+      "target": "wiki:security",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -54898,7 +54946,7 @@
       "source": "wiki:data-mesh",
       "target": "wiki:self-service-data-platforms",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 4
     },
     {
       "source": "wiki:data-mesh-vs-centralized-data-platform",
@@ -58762,7 +58810,7 @@
       "source": "wiki:dataops-platforms",
       "target": "article:guide:dataops-tools",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:dataops-platforms",
@@ -58780,7 +58828,7 @@
       "source": "wiki:dataops-platforms",
       "target": "person:barrmoses",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:dataops-platforms",
@@ -58792,7 +58840,7 @@
       "source": "wiki:dataops-platforms",
       "target": "person:larsalbertsson",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:dataops-platforms",
@@ -58828,19 +58876,19 @@
       "source": "wiki:dataops-platforms",
       "target": "podcast:data-quality-data-observability-data-reliability",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:dataops-platforms",
       "target": "podcast:dataops-and-gitops-best-practices-for-data-teams",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:dataops-platforms",
       "target": "podcast:dataops-automation-and-reliable-data-pipelines",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:dataops-platforms",
@@ -58852,13 +58900,13 @@
       "source": "wiki:dataops-platforms",
       "target": "podcast:dataops-principles-and-scalable-data-platforms",
       "kind": "wiki-link",
-      "weight": 10
+      "weight": 8
     },
     {
       "source": "wiki:dataops-platforms",
       "target": "podcast:scaling-data-engineering-teams-self-service-platforms",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:dataops-platforms",
@@ -58870,7 +58918,7 @@
       "source": "wiki:dataops-platforms",
       "target": "wiki:ci-cd",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:dataops-platforms",
@@ -58882,7 +58930,7 @@
       "source": "wiki:dataops-platforms",
       "target": "wiki:data-engineering-platforms",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:dataops-platforms",
@@ -58894,7 +58942,7 @@
       "source": "wiki:dataops-platforms",
       "target": "wiki:data-governance",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:dataops-platforms",
@@ -58906,7 +58954,7 @@
       "source": "wiki:dataops-platforms",
       "target": "wiki:data-observability",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:dataops-platforms",
@@ -58918,7 +58966,7 @@
       "source": "wiki:dataops-platforms",
       "target": "wiki:data-quality-and-observability",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:dataops-platforms",
@@ -58930,7 +58978,7 @@
       "source": "wiki:dataops-platforms",
       "target": "wiki:dataops",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:dataops-platforms",
@@ -58966,7 +59014,7 @@
       "source": "wiki:dataops-platforms",
       "target": "wiki:orchestration",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:dataops-platforms",

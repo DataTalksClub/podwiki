@@ -13,253 +13,247 @@ related:
   - Machine Learning System Design
 ---
 
-Career growth is the increase in scope and judgment after a person has entered
-data, analytics, ML, or AI leadership work. In the podcast
-archive, growth isn't just a promotion ladder. It's the move from proving
-baseline skill to owning harder problems. It also means making technical
-choices legible and mentoring others. It also means building a record of work
-that colleagues, communities, and hiring teams can evaluate.
+Career growth in data and AI is the expansion of scope and judgment after
+someone can already do useful technical work. In the DataTalks.Club podcast
+archive, it isn't only a promotion ladder. It's the shift from proving baseline
+skill to choosing better problems. It also means diagnosing systems, explaining
+tradeoffs, mentoring others, and leaving evidence that teams can evaluate.
 
-Read it with [career transition]({{ '/wiki/career-transition/' | relative_url }}),
+This topic sits between [career transition]({{ '/wiki/career-transition/' | relative_url }}),
 [job search]({{ '/wiki/job-search/' | relative_url }}), and
-[hiring]({{ '/wiki/hiring/' | relative_url }}). The public-work side connects
-to [technical writing]({{ '/wiki/technical-writing/' | relative_url }}),
-[developer relations]({{ '/wiki/developer-relations/' | relative_url }}), and
-[machine learning engineer roles]({{ '/wiki/machine-learning-engineer-role/' | relative_url }}).
-The career episodes show what changes after someone can already do the work.
-The work becomes broader, more communicative, and more accountable for
-outcomes.
-
-## Link Map
-
-Use these routes as the short map for this topic.
-
-Wiki routes include:
-
-- [Career Transition]({{ '/wiki/career-transition/' | relative_url }})
-- [Job Search]({{ '/wiki/job-search/' | relative_url }})
-- [Hiring]({{ '/wiki/hiring/' | relative_url }})
-- [Technical Writing]({{ '/wiki/technical-writing/' | relative_url }})
-- [Developer Relations]({{ '/wiki/developer-relations/' | relative_url }})
-- [Open Source and Developer Relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }})
-- [Machine Learning Engineer Role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }})
-- [MLOps]({{ '/wiki/mlops/' | relative_url }})
-- [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
-
-Podcast routes include:
-
-- [How to Grow Your ML Engineering Career]({{ '/podcasts/how-to-grow-your-ml-engineering-career/' | relative_url }})
-- [Learn in Public]({{ '/podcasts/developer-personal-brand-learn-in-public/' | relative_url }})
-- [How to Find a Mentor and Become One]({{ '/podcasts/mentoring-in-tech-how-to-find-and-become-a-mentor.md/' | relative_url }})
-- [Tech Job Search Strategy]({{ '/podcasts/job-search-strategy-in-tech-projects-skills-cv-networking/' | relative_url }})
-- [Personal Brand for Data Professionals]({{ '/podcasts/personal-brand-for-data-professionals/' | relative_url }})
-- [Technical Writing for Data Scientists]({{ '/podcasts/technical-writing-for-data-scientists/' | relative_url }})
-- [Public Speaking for Data Scientists]({{ '/podcasts/public-speaking-for-data-scientists/' | relative_url }})
-
-People routes include:
-
-- [Krzysztof Szafanek]({{ '/people/krzysztofszafanek/' | relative_url }})
-- [Shawn Swyx Wang]({{ '/people/swyx/' | relative_url }})
-- [Rahul Jain]({{ '/people/rahuljain/' | relative_url }})
-- [Sarah Mestiri]({{ '/people/sarahmestiri/' | relative_url }})
-- [Admond Lee Kin Lim]({{ '/people/admondleekinlim/' | relative_url }})
-- [Eugene Yan]({{ '/people/eugeneyan/' | relative_url }})
-- [Ben Taylor]({{ '/people/bentaylor/' | relative_url }})
+[hiring]({{ '/wiki/hiring/' | relative_url }}). The technical side connects to
+the [machine learning engineer role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }}),
+[MLOps]({{ '/wiki/mlops/' | relative_url }}), and
+[machine learning system design]({{ '/wiki/machine-learning-system-design/' | relative_url }}).
+The public-work side connects to
+[technical writing]({{ '/wiki/technical-writing/' | relative_url }}) and
+[developer relations]({{ '/wiki/developer-relations/' | relative_url }}),
+including [open source and developer relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }}).
 
 ## Common Definition
 
-Across these episodes, career growth means expanding useful impact rather than
-collecting more tool names. Krzysztof Szafanek's
-[ML engineering career discussion]({{ '/podcasts/how-to-grow-your-ml-engineering-career/' | relative_url }})
-puts stable fundamentals at the center of long-lived skill growth. SQL and Git
-come up directly. So do shell, troubleshooting, and debugging (29:00 / 33:34 /
-37:37). He then frames T-shaped breadth and depth as a strategy for moving
-between web work, game work, platforms, and LLMs (7:05 / 35:23).
+Across the archive, career growth means compounding useful judgment rather than
+collecting more tool names. In
+[How to Grow Your ML Engineering Career]({{ '/podcasts/how-to-grow-your-ml-engineering-career/' | relative_url }}),
+[Krzysztof Szafanek]({{ '/people/krzysztofszafanek/' | relative_url }})
+places stable engineering fundamentals at the center of long-lived growth. SQL
+and Git stay useful as stacks change. Shell work, debugging, and problem
+decomposition travel too (29:00 / 33:34 / 37:37).
 
-Sarah Mestiri's
-[job-search strategy episode]({{ '/podcasts/job-search-strategy-in-tech-projects-skills-cv-networking/' | relative_url }})
-uses a similar logic for direction-setting. Define the target role by tasks and
-skills. Choose a specialization, then validate ability through practical work
-rather than course completion alone (14:30 / 17:52 / 26:28).
+His T-shaped framing treats
+depth as the source of credibility. Breadth lets the person move across web
+and game work as well as platform and LLM work (7:05 / 35:23).
 
-The archive also treats communication as part of technical seniority. Eugene
-Yan's [technical writing episode]({{ '/podcasts/technical-writing-for-data-scientists/' | relative_url }})
-links writing to learning and reader targeting. It also covers workplace design
-documents and portfolio READMEs (9:30 / 14:00 / 51:00 / 56:30).
+[Sarah Mestiri]({{ '/people/sarahmestiri/' | relative_url }}) applies the same
+logic to direction setting in
+[Tech Job Search Strategy]({{ '/podcasts/job-search-strategy-in-tech-projects-skills-cv-networking/' | relative_url }}).
+She recommends defining a target role by tasks and skills. Then choose a
+specialization and validate ability through practical work instead of course
+completion alone (14:30 / 17:52 / 26:28). That makes growth a sequence of clearer
+choices about the next role, the needed evidence, and the signal a team will
+trust.
 
-Ben Taylor's
-[public speaking episode]({{ '/podcasts/public-speaking-for-data-scientists/' | relative_url }})
-turns the same principle into spoken communication. Reduce technical overload,
-translate metrics into narrative, and lead executive presentations with
-recommendations (12:54 / 30:57 / 39:55). He also treats meetups as a path toward
-larger stages (47:38).
+The archive also treats communication as part of senior technical work.
+[Eugene Yan]({{ '/people/eugeneyan/' | relative_url }}) links writing to
+learning and reader targeting in
+[Technical Writing for Data Scientists]({{ '/podcasts/technical-writing-for-data-scientists/' | relative_url }})
+at 9:30 and 14:00. He also covers workplace design documents and portfolio
+READMEs (51:00 / 56:30).
 
-## Disagreements and Boundaries
+[Ben Taylor]({{ '/people/bentaylor/' | relative_url }}) makes the same point
+for spoken communication in
+[Public Speaking for Data Scientists]({{ '/podcasts/public-speaking-for-data-scientists/' | relative_url }}).
+He argues for reducing technical overload and translating metrics into
+narrative. Executive presentations should lead with recommendations before
+details (12:54 / 30:57 / 39:55).
 
-Career growth is different from simple visibility. Swyx argues in
+## Guest Differences
+
+Guests agree that visibility helps, but they differ on what kind of visibility
+matters. [Shawn Swyx Wang]({{ '/people/swyx/' | relative_url }}) argues in
 [Learn in Public]({{ '/podcasts/developer-personal-brand-learn-in-public/' | relative_url }})
-that self-marketing matters for recognition and promotions. Open source
-adoption and internal persuasion are part of the same argument (6:16 / 8:33 /
-51:10). But Eugene Yan's
-[writing discussion]({{ '/podcasts/technical-writing-for-data-scientists/' | relative_url }})
-sets a boundary.
+that self-marketing and open-source adoption can change recognition outcomes.
+He also links internal persuasion and brag documents to promotion outcomes.
+Signature initiatives help make the same case (6:16 / 8:33 / 51:10 / 57:09).
 
-Eugene treats early posts as writing practice because writing helps people
-clarify their thinking. He may be writing for future teammates rather than for a
-large public following (9:30 / 14:00 / 41:00).
+Eugene Yan's
+[technical writing discussion]({{ '/podcasts/technical-writing-for-data-scientists/' | relative_url }})
+sets a quieter boundary. Early writing can be mainly a way to clarify thinking
+and help future teammates, rather than chase a large public audience (9:30 /
+14:00 / 41:00).
 
-Admond Lee Kin Lim discusses audience growth, publishing platforms, and
-monetization in his [personal brand episode]({{ '/podcasts/personal-brand-for-data-professionals/' | relative_url }})
-(13:00 / 36:30 / 46:30). Brand is one career-growth mechanism, not the whole
-definition.
+[Admond Lee Kin Lim]({{ '/people/admondleekinlim/' | relative_url }}) makes the
+distribution layer explicit in
+[Personal Brand for Data Professionals]({{ '/podcasts/personal-brand-for-data-professionals/' | relative_url }}),
+covering publishing platforms and audience growth. He also discusses
+confidence, values, feedback, and monetization (13:00 / 34:00 / 36:30 / 42:00 /
+46:30).
 
-Podcast guests also distinguish individual-contributor growth from leadership
-growth. Krzysztof's [ML engineering episode]({{ '/podcasts/how-to-grow-your-ml-engineering-career/' | relative_url }})
-keeps technical breadth and troubleshooting inside the IC path. Mentoring sits
-there too (35:23 / 37:37).
+In this archive, personal brand is one mechanism for career growth. It
+doesn't replace technical depth, team trust, or proof that a person can own
+harder work.
 
-Rahul Jain's
-[mentoring episode]({{ '/podcasts/mentoring-in-tech-how-to-find-and-become-a-mentor.md/' | relative_url }})
-adds a people-development layer. Rahul covers goals and expectations before
-moving to agendas, listening practice, boundaries, and follow-through (6:10 /
-19:40 / 30:40 / 42:30 / 52:40).
+The episodes also keep individual-contributor growth separate from management
+growth. Krzysztof's
+[ML engineering career episode]({{ '/podcasts/how-to-grow-your-ml-engineering-career/' | relative_url }})
+keeps troubleshooting, platform breadth, and mentoring inside the senior IC
+path (35:23 / 37:37 / 48:37).
 
-Those skills overlap with [leadership]({{ '/wiki/leadership/' | relative_url }}),
-but the podcast doesn't collapse mentoring, management, and senior IC work into
-one path.
+In
+[How to Find a Mentor and Become One]({{ '/podcasts/mentoring-in-tech-how-to-find-and-become-a-mentor.md/' | relative_url }}),
+[Rahul Jain]({{ '/people/rahuljain/' | relative_url }}) adds a
+people-development layer. Goals and agendas give the relationship structure.
+Listening, boundaries, and follow-through make mentoring a practice rather than
+an informal favor (6:10 / 19:40 / 30:40 / 42:30 / 52:40). Those skills overlap with
+[leadership]({{ '/wiki/leadership/' | relative_url }}), but the archive does
+not collapse mentoring into management or senior IC work.
 
 ## Technical Depth and Transferable Fundamentals
 
-For technical roles, the strongest growth signal isn't chasing every new
-framework. Krzysztof's [ML engineering career episode]({{ '/podcasts/how-to-grow-your-ml-engineering-career/' | relative_url }})
-describes a career that moved through web development and mobile games. It also
-includes Unity and Python work. ML platform support and LLM experimentation
-come later.
+For technical roles, growth is strongest when new tools sit on transferable
+fundamentals. Krzysztof's career story moves through web development, mobile
+games, Unity, and Python in
+[How to Grow Your ML Engineering Career]({{ '/podcasts/how-to-grow-your-ml-engineering-career/' | relative_url }}).
+ML platform support and LLM experimentation come later. The through-line isn't
+one framework. It's the ability to debug, use the terminal, reason about data,
+and divide problems into smaller tests (7:05 / 22:01 / 29:00 / 48:37).
 
-Fundamentals travel across stacks because SQL and Git remain useful when the
-stack changes. Shell, debugging, and problem decomposition travel too (7:05 /
-22:01 / 29:00 / 48:37).
-
-Krzysztof's examples link career growth to
+That view is especially important for
 [machine learning engineering]({{ '/wiki/machine-learning-engineer-role/' | relative_url }})
-and [MLOps]({{ '/wiki/mlops/' | relative_url }}). It also connects to
-[machine learning system design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
-because senior work depends on diagnosing systems.
+and [MLOps]({{ '/wiki/mlops/' | relative_url }}), where seniority often shows
+up as system diagnosis rather than model selection alone. The adjacent
+[ML platform engineer role]({{ '/wiki/ml-platform-engineer-role/' | relative_url }})
+and [machine learning system design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
+pages cover that systems side in more detail. Career growth means being able to
+see why a pipeline or deployment is failing. It also means explaining data
+interfaces and feedback loops to other people.
 
-Krzysztof's episode favors T-shaped development. In
-[How to Grow Your ML Engineering Career]({{ '/podcasts/how-to-grow-your-ml-engineering-career/' | relative_url }}),
-depth creates credibility in a current problem area. Breadth helps the person
-adapt to new infrastructure and AI tooling (35:23). Sarah
-Mestiri's [job-search strategy episode]({{ '/podcasts/job-search-strategy-in-tech-projects-skills-cv-networking/' | relative_url }})
-applies the same boundary to role choice. Choose a specialization by comparing
-interests, current skills, and market demand instead of staying broadly
-interested in everything (17:52 / 20:01).
+Sarah Mestiri's
+[job-search strategy episode]({{ '/podcasts/job-search-strategy-in-tech-projects-skills-cv-networking/' | relative_url }})
+adds a market-facing boundary. Choose a specialization by comparing interests,
+current skill, and demand rather than staying vaguely interested in
+everything (17:52 / 20:01). The same choice matters inside a company. A person
+grows faster when their learning, projects, and internal opportunities point
+toward a recognizable next level.
 
 ## Ownership and Internal Influence
 
-Internal growth needs advocates beyond the immediate team.
+Career growth often depends on making ownership visible before a formal title
+changes. Swyx's
+[Learn in Public]({{ '/podcasts/developer-personal-brand-learn-in-public/' | relative_url }})
+connects external public learning to internal advocacy. Write down wins, create
+signature initiatives, and help other people understand why the work mattered
+(51:10 / 57:09). The same repeated move appears in
+[technical writing]({{ '/wiki/technical-writing/' | relative_url }}), where
+design docs, READMEs, and decision records make technical choices legible to
+reviewers and future collaborators.
 
-[Learn in Public][p]
+Sarah's
+[Tech Job Search Strategy]({{ '/podcasts/job-search-strategy-in-tech-projects-skills-cv-networking/' | relative_url }})
+turns this into role research and weak-tie learning. Informational interviews
+and company research reveal which skills matter at the next level. Weekly
+networking shows which responsibilities peers and employers value (10:59 /
+15:07 / 31:40 / 41:17).
 
-Swyx describes brag documents and signature initiatives as advocacy tools
-(51:10 / 57:09).
+That work supports
+[job search]({{ '/wiki/job-search/' | relative_url }}). It also helps inside a
+current role because it teaches what evidence a manager, peer, or hiring team
+will recognize.
 
-External opportunities start with a target role and company research. Sarah
-Mestiri's [job-search framework]({{ '/podcasts/job-search-strategy-in-tech-projects-skills-cv-networking/' | relative_url }})
-also uses informational interviews and weekly networking (10:59 / 15:07 /
-31:40 / 41:17). For career growth, this matters even outside active search. Role research and weak-tie
-conversations reveal which skills and responsibilities are valued in the next
-level.
-
-## Writing, Speaking, and Personal Brand
+## Writing, Speaking, and Public Work
 
 Writing turns experience into reusable evidence. Eugene Yan's
-[technical writing episode]({{ '/podcasts/technical-writing-for-data-scientists/' | relative_url }})
-starts with early blog posts and meetups. Then he turns writing into a
-repeatable practice. Choose an audience, outline first, and ship on a cadence.
-Use workplace documents or portfolio READMEs to help readers reproduce the work
-(6:00 / 14:00 / 20:00 / 25:00 / 51:00 / 56:30).
+[Technical Writing for Data Scientists]({{ '/podcasts/technical-writing-for-data-scientists/' | relative_url }})
+starts with early blog posts and meetups. It then turns writing into a
+repeatable practice. Choose an audience and outline first. Then publish on a
+cadence and document work so another reader can reproduce it (6:00 / 14:00 /
+20:00 / 25:00 / 51:00 / 56:30).
 
 This is the career-growth side of
+[documentation]({{ '/wiki/documentation/' | relative_url }}) and
 [technical writing]({{ '/wiki/technical-writing/' | relative_url }}). Writing
-isn't only publication because it helps people remember decisions and communicate
-tradeoffs.
+helps people remember decisions, evaluate tradeoffs, and trust the work.
 
-Ben Taylor's [public speaking episode]({{ '/podcasts/public-speaking-for-data-scientists/' | relative_url }})
-adds a speaking path for data practitioners and [developer relations]({{ '/wiki/developer-relations/' | relative_url }})
-work. He criticizes talks that overload the audience with technical detail. He
-recommends translating data work into narrative. Executive presenters should
-lead with recommendations and keep the technical appendix ready (12:54 / 30:57
-/ 39:55).
+Speaking makes the same evidence live in a room. Ben Taylor's
+[Public Speaking for Data Scientists]({{ '/podcasts/public-speaking-for-data-scientists/' | relative_url }})
+warns against talks that overload the audience with technical detail. He
+recommends tailoring the message, translating data work into narrative, and
+keeping the technical appendix ready when presenting to executives (12:54 /
+30:57 / 39:55). That connects career growth to
+[developer relations]({{ '/wiki/developer-relations/' | relative_url }}) and
+[communication]({{ '/wiki/communication/' | relative_url }}), especially for
+people whose work must influence users, executives, or open-source communities.
 
-Admond Lee Kin Lim's
+Admond's
 [personal brand episode]({{ '/podcasts/personal-brand-for-data-professionals/' | relative_url }})
-then makes the distribution layer explicit. He covers publishing on LinkedIn
-and Medium, building confidence through repeated posts, aligning content with
-values, and measuring impact through feedback (13:00 / 34:00 / 42:00 / 46:30).
+adds the publishing system around that work. LinkedIn, Medium, audience
+feedback, and monetization can matter.
+
+The strongest career signal is still specific. It shows the problem explained,
+the reader's takeaway, and the opportunity that evidence made possible (13:00 /
+34:00 / 46:30).
 
 ## Mentoring and Leadership Through Others
 
-Mentoring is a growth practice for both sides of the relationship. Rahul Jain's
+Mentoring is a career-growth practice for both sides of the relationship.
+Rahul Jain's
 [mentoring episode]({{ '/podcasts/mentoring-in-tech-how-to-find-and-become-a-mentor.md/' | relative_url }})
-defines mentoring by purpose and scope. He also separates relationship types.
-The practical work includes finding mentors through networks or cold outreach.
+defines mentoring by purpose and scope, then separates one-off advice from an
+ongoing relationship. Useful sessions need goals and agendas. They also need
+expectations and a decision about what the mentee will do next (6:10 / 12:50 /
+16:30 / 19:40 / 22:30). For someone navigating a
+[career transition]({{ '/wiki/career-transition/' | relative_url }}) or
+[career development]({{ '/wiki/career-development/' | relative_url }}),
+mentoring makes the path more structured.
 
-Sessions need goals and agendas. Mentees also need to decide whether advice is
-one-off or part of a longer relationship (6:10 / 12:50 / 16:30 / 19:40 /
-22:30).
+The mentor's growth is different. Rahul frames mentoring as practice in
+listening and empathy, while also developing boundaries and repeated judgment
+(25:10 / 30:40 / 42:30).
 
-That makes mentoring a structured part of
-[career transition]({{ '/wiki/career-transition/' | relative_url }})
-and [career development]({{ '/wiki/career-development/' | relative_url }}), not
-only an informal chat.
-
-The mentor's growth is different. Rahul's discussion frames mentoring as a way
-to practice listening, empathy, boundary-setting, and repeated judgment (25:10 /
-30:40 / 42:30). Krzysztof's
+Krzysztof's
 [ML engineering career episode]({{ '/podcasts/how-to-grow-your-ml-engineering-career/' | relative_url }})
-also connects mentoring to debugging. Rubber-ducking, divide-and-conquer
-diagnosis, and helping others get unstuck are senior engineering behaviors
-(37:37 / 48:37). Together, the episodes show why people-development skill can
+connects senior help to debugging. Rubber-ducking, divide-and-conquer
+diagnosis, and helping others get unstuck are engineering behaviors, not only
+management behaviors (37:37 / 48:37). That's why people-development skill can
 grow before a formal manager title appears.
 
-## Portfolios, Networking, and External Signals
+## Portfolios, Networks, and External Signals
 
-Portfolio and network signals matter when they demonstrate real choices.
-Sarah Mestiri's [job-search strategy episode]({{ '/podcasts/job-search-strategy-in-tech-projects-skills-cv-networking/' | relative_url }})
-argues that projects validate skills better than course completion, then links
-resumes to project storytelling and company research. Skill matching is part of
-the same work (26:28 / 45:05 / 47:32). Eugene Yan's
+Portfolio and network signals matter when they demonstrate real choices. Sarah
+Mestiri's
+[job-search strategy episode]({{ '/podcasts/job-search-strategy-in-tech-projects-skills-cv-networking/' | relative_url }})
+argues that projects validate skills better than course completion. She links
+resumes to project storytelling and skill matching. Company research belongs in
+the same evidence loop (26:28 / 45:05 / 47:32).
+
+Eugene Yan's
 [technical writing episode]({{ '/podcasts/technical-writing-for-data-scientists/' | relative_url }})
-adds the documentation standard. A clear README, quick start, and repo tour
-make portfolio work easier to evaluate (56:30).
+adds the documentation standard. A clear README, quick start, and repository
+tour make portfolio work easier to evaluate (56:30).
 
-Swyx's [Learn in Public episode]({{ '/podcasts/developer-personal-brand-learn-in-public/' | relative_url }})
-extends portfolio evidence into public learning. He recommends choosing a
-domain and validating the niche through meetups. Community signals, honest
-progress, and open knowledge projects make the work useful to others (18:43 /
-22:32 / 23:53 / 47:14).
-
-That connects career growth to
-[open source]({{ '/wiki/open-source/' | relative_url }}) and
-[open source portfolio evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }}).
-It also links to [community building]({{ '/wiki/community-building/' | relative_url }}).
-Visible work is strongest when it helps another person do something.
+Swyx's
+[Learn in Public]({{ '/podcasts/developer-personal-brand-learn-in-public/' | relative_url }})
+extends portfolio evidence into public learning. Choose a domain and validate a
+niche through meetups. Share honest progress and build open knowledge projects
+that are useful to others (18:43 / 22:32 / 23:53 / 47:14). That connects career
+growth to [open source]({{ '/wiki/open-source/' | relative_url }}),
+[open source portfolio evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }}),
+and [community building]({{ '/wiki/community-building/' | relative_url }}).
+It also connects to role-specific project pages such as
+[machine learning portfolio projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}).
 
 ## Related Pages
 
 Use these pages for adjacent questions and deeper role-specific detail.
 
 - [Career Transition]({{ '/wiki/career-transition/' | relative_url }})
+- [Career Development]({{ '/wiki/career-development/' | relative_url }})
 - [Job Search]({{ '/wiki/job-search/' | relative_url }})
 - [Hiring]({{ '/wiki/hiring/' | relative_url }})
-- [Career Development]({{ '/wiki/career-development/' | relative_url }})
 - [Machine Learning Engineer Role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }})
+- [MLOps]({{ '/wiki/mlops/' | relative_url }})
+- [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
 - [Technical Writing]({{ '/wiki/technical-writing/' | relative_url }})
 - [Developer Relations]({{ '/wiki/developer-relations/' | relative_url }})
 - [Open Source and Developer Relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }})
 - [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
-- [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
-- [MLOps]({{ '/wiki/mlops/' | relative_url }})
-
-[p]: {{ '/podcasts/developer-personal-brand-learn-in-public/' | relative_url }}
