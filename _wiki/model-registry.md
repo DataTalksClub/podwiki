@@ -11,123 +11,102 @@ related:
   - Machine Learning Infrastructure
 ---
 
-A model registry is the tool or convention that makes a trained model
-available for later use. In the DataTalks.Club archive, it's the handoff point
-between [experiment tracking]({{ '/wiki/experiment-tracking/' | relative_url }})
-and [production]({{ '/wiki/production/' | relative_url }}). A team trains and
-evaluates a candidate. Then it persists the model, records context, and lets a
-job or service consume it.
+A model registry is the place where a team records which trained model can be
+used next. In the DataTalks.Club archive, it sits after
+[experiment tracking]({{ '/wiki/experiment-tracking/' | relative_url }}) and
+before [deployment]({{ '/wiki/production/' | relative_url }}). A team trains
+and evaluates a model, persists the chosen version, then gives batch jobs or
+online services a stable way to load it. [Simon Stiebellehner]({{ '/people/simonstiebellehner/' | relative_url }})
+walks through that handoff in
+[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }})
+around 29:41-31:51.
 
-The archive doesn't treat the registry as a magic production system. In
-[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}),
-[Simon Stiebellehner]({{ '/people/simonstiebellehner/' | relative_url }})
-places registries next to experiment tracking, metadata stores, and deployment
-pipelines. He also connects them to lineage and governance. In
-
-[Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }}),
-[Maria Vechtomova]({{ '/people/mariavechtomova/' | relative_url }}) makes the
-same point with lighter infrastructure. Artifactory, S3, MLflow, or another
-storage system can work when teams keep artifacts traceable and reproducible.
-The registry also has to fit rollback and deployment workflows.
-
-## Link Map
-
-These wiki pages cover the closest neighboring concepts:
-
-- [Experiment Tracking]({{ '/wiki/experiment-tracking/' | relative_url }})
-  covers the run history before a model is promoted.
-- [ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }}) and
-  [Machine Learning Infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }})
-  cover the shared platform and runtime systems around the registry.
-- [MLOps]({{ '/wiki/mlops/' | relative_url }}) and
-  [MLOps Roadmap]({{ '/wiki/mlops-roadmap/' | relative_url }}) cover the
-  operating discipline that makes a registry useful.
-- [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }}) depends on
-  knowing which model version produced predictions.
-- [Reproducibility]({{ '/wiki/reproducibility/' | relative_url }}) covers code,
-  data, and environment recovery.
-- [Data Governance]({{ '/wiki/data-governance/' | relative_url }}) covers
-  metadata, retention, and audit questions around stored artifacts.
-
-These podcast interviews anchor the page:
-
-- [Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }})
-  with [Simon Stiebellehner]({{ '/people/simonstiebellehner/' | relative_url }})
-  covers model persistence around 30:32, metadata and lineage around 42:48, and
-  data-governance constraints around 45:50.
-- [Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }})
-  with [Maria Vechtomova]({{ '/people/mariavechtomova/' | relative_url }})
-  covers model registry as part of a minimum MLOps stack around 18:41,
-  artifact-store alternatives around 20:49, and rollback context around 22:36.
-  It also covers registry-to-serving templates around 32:09.
-- [MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }})
-  with [Raphaël Hoogvliets]({{ '/people/raphaelhoogvliets/' | relative_url }})
-  places registries inside a larger toolset around 51:21. That toolset also
-  includes experiment tracking and serving. It also includes monitoring,
-  dependency management, and team adoption.
-- [MLOps Tools]({{ '/wiki/mlops-tools/' | relative_url }}) summarizes
-  registry placement for readers comparing tool categories, while this page
-  keeps the archive-derived concept focused.
+The podcast archive treats the registry as part of
+[MLOps]({{ '/wiki/mlops/' | relative_url }}), not as a full production system
+on its own. A registry helps only when teams can connect it to experiments,
+deployment paths, runtime dependencies, and monitoring or rollback context.
+Simon places it next to metadata stores and serving choices in
+[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
+[Maria Vechtomova]({{ '/people/mariavechtomova/' | relative_url }}) gives the
+lighter version in
+[Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }}).
+She says Artifactory, S3, MLflow, or another store can serve the registry role
+if teams can find the model later and reproduce why it exists.
 
 ## Common Definition
 
-Across the archive, a model registry is the durable handoff record for a model.
-It stores the artifact or links to it. It also gives downstream consumers a
-stable lookup path, deployment context, and investigation context.
-
-Simon frames that handoff directly after experiment tracking. Once teams train
-and evaluate a model, they need to persist it for downstream usage. That
-registry often lives in the same platform family as the tracker or metadata store
+A model registry is the durable record for a model that has moved beyond a
+single experiment. It stores the model file or a pointer to it. It also records
+enough context for a batch job or service to load, deploy, investigate, or roll
+back the model. Simon describes this after the data scientist has pulled data
+and evaluated models. At that point, the team needs a persistent model for
+downstream services or batch jobs
 ([Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }})).
 
-The shared definition includes metadata, not just files. Simon says managed
-platforms can help record job images and connections between pipeline runs.
-They can also record inputs and outputs. Teams still need to think through code
-versions and data versions end to end
-([Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }})).
+Guests include metadata in the definition, not only files. Around 42:48 in
+[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}),
+Simon says managed platforms can record the job image and the connections
+between pipeline runs. They can also record inputs and outputs. He also warns
+that teams still need to think through code and data versions if they want
+[reproducibility]({{ '/wiki/reproducibility/' | relative_url }}) years later.
 
-Maria describes the same requirement through rollback. Teams need to find the
-code, compute, and model for each run. They also need the deployment and storage
-location
-([Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }})).
-
-The common definition also separates a model registry from the broader
-[ML platform]({{ '/wiki/ml-platforms/' | relative_url }}). The registry is one
-component in a lifecycle. That lifecycle also needs CI/CD and deployment. It
-also needs monitoring, governance, and Docker or package registries
-([Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }}),
-[MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }})).
-
-## Guest Differences
-
-Guests differ most on registry formality. Simon describes a platform version
-where experiment tracking, model registry, and metadata tracking arrive
-together in SaaS or cloud MLOps tooling. He names MLflow-style tools and
-Weights & Biases-style tools. He also names SageMaker, GCP, and Azure
-([Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }})).
-That view fits teams with repeated deployment paths, stronger governance needs,
-or enough models to justify platform standardization.
-
-Maria gives the lighter-weight implementation boundary. Around 20:49 in
+Maria's minimum MLOps stack uses the same boundary. Around 18:41-20:49 in
 [Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }}),
-she says Artifactory or S3 can be acceptable. Teams need searchable attributes,
-later artifact lookup, traceability, and reproducibility. Her point isn't that
-registries are optional. Teams can implement the registry principle with
-existing infrastructure before they buy or build a specialized system.
+she includes the model registry in a stack with version control and CI/CD. She
+also places it next to Docker registry, deployment, and monitoring. She says a
+team can use a package registry or S3 if the files have searchable attributes
+and remain traceable and reproducible.
 
-Raphaël Hoogvliets draws the boundary from adoption and scale. Around 51:21 in
+A registry belongs inside an
+[ML platform]({{ '/wiki/ml-platforms/' | relative_url }}), not the whole
+platform. [Raphaël Hoogvliets]({{ '/people/raphaelhoogvliets/' | relative_url }})
+places it beside the other operating parts of an MLOps platform in
+[MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}).
+
+Those parts include version control and CI/CD, plus containerization,
+experiment tracking, and serving. Monitoring, compute, and package registries
+belong in the same toolset. This connects the registry to
+[CI/CD]({{ '/wiki/ci-cd/' | relative_url }}),
+[model monitoring]({{ '/wiki/model-monitoring/' | relative_url }}), and
+[machine learning infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }}).
+
+## Guest Tradeoffs
+
+Guests differ most on how formal the registry needs to be. Simon describes a
+platform version where experiment tracking, model registry, and metadata store
+often arrive together in MLOps tooling. Around 30:32-30:58 in
+[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}),
+he agrees that MLflow-style tools and Weights & Biases-style tools often package
+those parts together. He says cloud platforms such as SageMaker, GCP, and Azure
+do this too. That view fits teams with repeated deployment paths, shared
+platform work, or stronger governance constraints.
+
+Maria gives the lighter implementation boundary. Around 20:49 in
+[Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }}),
+she says Artifactory or S3 can work when teams add attributes, search, and
+traceability. She still treats the registry as a minimum MLOps category, but she
+doesn't require a specialized registry product before a team can start.
+
+[Nemanja Radojkovic]({{ '/people/nemanjaradojkovic/' | relative_url }}) adds a
+startup and vendor-boundary focus. In
+[Lean MLOps for Startups]({{ '/podcasts/lean-mlops-for-startups/' | relative_url }}),
+he says early teams should keep the stack minimal and use mature tools. Around
+48:11-48:29, he argues that vendors should let teams use a strong model registry
+as a standalone product instead of forcing a full platform purchase. That
+differs from Simon's platform packaging emphasis, but both arguments keep the
+registry tied to how teams deploy and operate models.
+
+Raphaël shifts the question from tool choice to adoption. Around 51:21 in
 [MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}),
-he lists model registries with experiment tracking, serving, and monitoring.
-He doesn't treat the registry as the first thing to build.
-
-In his framing, the registry belongs to an enabling MLOps platform. That
-platform also handles CI, repository structure, testing, and dependency
-packaging. It also handles deployment frequency and team pain points
-([MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }})).
+he lists the registry as one part of a larger MLOps toolset. Earlier in the same
+episode, he argues that teams should start with the pain point they can solve,
+such as CI/CD or monitoring. He doesn't argue for rolling out every platform
+component in one batch. In that view, the registry matters when it removes a
+real handoff problem.
 
 ## Registry Metadata
 
-The registry record needs enough metadata to answer production questions:
+Registry metadata should let the team answer concrete production questions:
 
 - Which artifact is this?
 - Which code produced it?
@@ -135,98 +114,134 @@ The registry record needs enough metadata to answer production questions:
 - Which data or query fed training?
 - Which outputs were written?
 
-Simon covers those questions around 42:48 when he discusses metadata, lineage,
-and reproducibility in
-[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
+Simon names those fields around 42:48 in
+[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }})
+when he discusses metadata, lineage, and reproducibility. The stored model file
+isn't enough on its own. If the team wants to reproduce a result three years
+later, it also needs code and data versions. It also needs the runtime image,
+parameters, and pipeline context.
 
-That metadata connects the registry to
-[reproducibility]({{ '/wiki/reproducibility/' | relative_url }}). A stored model
-artifact isn't enough to recreate an old result. The team also needs code and
-data versions. It needs parameters, job image, and pipeline context too
-([Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }})).
+Maria's early MLOps example makes the same point through custom metadata. In
+[Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }}),
+she describes older Teradata Aster work where teams stored parameters,
+evaluation metrics, and prediction metadata. That let them search across model
+runs. Her later Artifactory and S3 discussion keeps that principle. The storage
+choice can be simple, but the registry record still needs enough metadata to
+support traceability.
 
-Maria's maturity-assessment discussion says the same thing operationally.
-Teams need to know how code and compute fit with model deployment and storage.
-That context lets them roll back
-([Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }})).
+[Theofilos Papapanagiotou]({{ '/people/theofilospapapanagiotou/' | relative_url }})
+gives a related metadata-store version in
+[Mastering MLOps]({{ '/podcasts/mlops-kubeflow-model-monitoring/' | relative_url }}).
+Around 46:58, he ties ML metadata to data and model versioning. Around 59:49,
+he describes serving by giving the model location and name to KFServing.
+His example reinforces the boundary between storing model identity and using
+that identity during deployment.
 
 ## Handoff to Deployment
 
-A registry becomes useful when prediction code can consume a known artifact.
-Simon places the registry immediately before deployment decisions. After the
-team persists the model, it chooses a serving path. That path can be batch
-inference, online serving, or a managed deployment pipeline
-([Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }})).
+A registry becomes useful when prediction code can load a known model version.
+Simon places it immediately before the deployment choice in
+[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
+After the team persists the model, it decides whether downstream consumption is
+batch inference, online serving, or a managed deployment pipeline. In his batch
+example around 31:51, the training job writes a model to the registry. The
+batch inference job writes predictions or other data outputs elsewhere.
 
-Maria's standardized-template example shows the handoff. In the online-service
-scenario around 32:09, the generated project already has CI/CD and tags. It
-also has a deployable structure. The serving code then retrieves the model from
-the registry
-([Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }})).
+Maria's standardized-template example shows the handoff from the service side.
+Around 32:09 in
+[Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }}),
+Alexey describes an online-service template with CI/CD, tags, and a deployable
+`main.py`. The service can get the model from the registry and start serving.
 That connects model registries to
-[Developer Experience]({{ '/wiki/developer-experience/' | relative_url }}) and
-[Platform Engineering]({{ '/wiki/platform-engineering/' | relative_url }}):
-the registry should reduce custom handoff work, not become another manual
-spreadsheet.
+[developer experience]({{ '/wiki/developer-experience/' | relative_url }}) and
+[platform engineering]({{ '/wiki/platform-engineering/' | relative_url }}):
+the registry should reduce custom handoff work between training and serving.
+
+Older Kubeflow practice uses the same deployment boundary. Around 59:49 in
+[Mastering MLOps]({{ '/podcasts/mlops-kubeflow-model-monitoring/' | relative_url }}),
+Theofilos says KFServing can create an API endpoint when the team provides the
+model name and S3 location. That isn't a full registry definition, but it shows
+why the registry record needs a stable artifact location and model identity.
+
+Feature stores use a neighboring registry concept, not a replacement. In
+[Feature Stores for MLOps]({{ '/podcasts/mlops-feature-stores-feature-stores-feast-tecton/' | relative_url }}),
+[Willem Pienaar]({{ '/people/willempienaar/' | relative_url }}) describes a
+feature-store registry for sources, entities, and transforms. That registry
+helps materialize features for training and serving, while a model registry
+tracks the trained model that consumes those features. Teams need both concepts
+when they manage feature stores and model releases together
+([MLOps Tools]({{ '/wiki/mlops-tools/' | relative_url }})).
 
 ## Registry, Monitoring, and Rollback
 
-Monitoring needs the registry because a team has to know which model version is
-running before it can diagnose production signals. Raphaël lists model
-registry, serving, and monitoring together in the core MLOps toolset
-([MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }})).
-Simon adds the logging side. Teams can use unified prediction schemas for
-requests, predictions, and responses to support monitoring and analytics after
-serving
-([Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }})).
+Monitoring needs registry context because a team must know which model version
+created the predictions it's inspecting. Raphaël lists model registry, serving,
+and monitoring together in the core MLOps toolset in
+[MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}).
+Simon adds the logging side in
+[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
+Around 55:29, Alexey describes unified request, prediction, and response logs so
+teams can run analytics and monitoring across use cases.
 
-Rollback is the practical test. Maria says teams need to recover the model
-behind a deployment. They also need to know where it was stored because rollback
-becomes tedious without that context
-([Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }})).
-That's why a useful registry record should link the model version to the
-deployment target and owner. It should also link to approval state, runtime
-dependencies, and monitoring dashboards
-([MLOps Roadmap]({{ '/wiki/mlops-roadmap/' | relative_url }}),
-[Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }})).
+Rollback tests whether the registry record is useful. Maria's minimum-stack discussion
+in
+[Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }})
+centers traceability and reproducibility. Teams need to know which model was
+stored and where it was stored. They also need to know how it relates to
+deployment. Without that record, rolling back a bad release turns into manual
+reconstruction.
+
+A useful registry links the model version to the deployment target and owner.
+It may also link runtime dependencies and monitoring dashboards when a team has
+those systems
+([Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }}),
+[MLOps Roadmap]({{ '/wiki/mlops-roadmap/' | relative_url }})).
 
 ## Governance and Retention
 
-Registry metadata can create governance obligations. Simon's fintech examples
-show why fraud and financial systems may need auditability and explainability.
-They may also need fairness checks and evidence for why a decision happened
-([Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }})).
-Those needs connect model registries to
-[Data Governance]({{ '/wiki/data-governance/' | relative_url }}) and
-[Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }}).
+Registry metadata can become governance evidence. Simon's fintech and fraud
+examples in
+[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }})
+show why some model releases need auditability and explainability. They may
+also need fairness checks and evidence for why a decision happened. That
+connects model registries to
+[data governance]({{ '/wiki/data-governance/' | relative_url }}),
+[security]({{ '/wiki/security/' | relative_url }}), and
+[responsible AI and governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }}).
 
-Data retention is the sharpest archive-backed warning. Around 45:50 in
+Data retention is the sharpest registry warning in the archive. Around 45:50 in
 [Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}),
 Simon contrasts storing pointers or metadata with duplicating full training
-datasets for every model run. Full dataset logging can become costly with large
-data and difficult under GDPR-style deletion requests when personal data is
-copied into many artifact stores.
+datasets for every model run. Copying large datasets into tool-managed storage
+can become expensive, and personal-data deletion becomes harder when the same
+person appears in many stored training snapshots.
 
-The archive supports an evidence-driven boundary. Store enough context to
-audit, reproduce, deploy, and monitor the model. Then choose which data
-reference belongs in the registry. The options include full datasets and
-pointers to immutable data. They also include feature references, query
-metadata, and lineage metadata
-([Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}),
-[Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})).
+Teams should store enough context for audit, reproduction, deployment, and
+monitoring. They can then decide whether the registry should hold a full dataset
+or an immutable-data pointer. It might instead hold a query reference, feature
+references, or lineage metadata. Simon's discussion supports that boundary for
+ML platforms, while
+[Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
+covers the broader data reliability side.
 
 ## Minimal Registry Practice
 
-Small teams can use a simple registry convention before building a large
-platform. Maria says an object store or package registry can work when
-teams add searchable attributes. That lighter convention still needs
-traceability and reproducibility
+Small teams can use a simple registry convention before they adopt a larger
+platform. Maria says an object store or package registry can work when teams add
+searchable attributes and preserve traceability
 ([Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }})).
-Simon also says experiment tracking can pay off for a single team. Other
-platform pieces need real users and deployment patterns before heavy investment
+
+Simon says isolated platform pieces such as experiment tracking can help even a
+single team. Larger platform work should follow repeated deployment paths and
+real user needs
 ([Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }})).
 
-A minimum archive-grounded registry record should include:
+Nemanja's startup discussion says teams should start with mature components.
+They can avoid a full platform when one standalone registry or tracking service
+would solve the current problem
+([Lean MLOps for Startups]({{ '/podcasts/lean-mlops-for-startups/' | relative_url }})).
+
+A minimum registry record grounded in these episodes includes:
 
 - artifact location
 - model version and owner
@@ -237,15 +252,18 @@ A minimum archive-grounded registry record should include:
 - approval state
 - rollback note
 
-Those fields come from Simon's metadata and deployment discussion. They also
-come from Maria's rollback discussion and the staged checklist in
-[MLOps Roadmap]({{ '/wiki/mlops-roadmap/' | relative_url }})
-([Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}),
-[Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }})).
+Simon supports the code and image fields in
+[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
+He also supports the data, input/output, and deployment fields.
+Maria supports the searchable storage, traceability, and reproducibility fields
+in
+[Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }}).
+The staged [MLOps Roadmap]({{ '/wiki/mlops-roadmap/' | relative_url }}) expands
+those fields into a broader release path.
 
 Teams should add a specialized registry when the convention breaks down.
 
-That usually happens in a few cases:
+The archive shows these cases:
 
 - multiple teams need the same handoff
 - serving code needs stable lookup
@@ -260,23 +278,17 @@ support that escalation path
 
 ## Related Pages
 
-These pages cover the adjacent lifecycle and platform topics.
+These pages cover the closest lifecycle and platform topics.
 
-- [Experiment Tracking]({{ '/wiki/experiment-tracking/' | relative_url }}) -
-  captures runs before promotion.
-- [MLOps]({{ '/wiki/mlops/' | relative_url }}) - frames the full operating
-  discipline around model lifecycle work.
-- [MLOps Roadmap]({{ '/wiki/mlops-roadmap/' | relative_url }}) - places the
-  registry after reproducible experiments and one deployment path.
-- [ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }}) - covers shared
-  platform services, adoption, metadata, and governance.
-- [Machine Learning Infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }}) -
-  covers runtime, orchestration, and serving infrastructure.
-- [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }}) - uses
-  model version context to diagnose production behavior.
-- [Reproducibility]({{ '/wiki/reproducibility/' | relative_url }}) - covers
-  code, data, environment, and artifact recovery.
-- [Data Governance]({{ '/wiki/data-governance/' | relative_url }}) - covers
-  metadata, retention, lineage, and compliance constraints.
-- [MLOps Tools]({{ '/wiki/mlops-tools/' | relative_url }}) - compares tool
-  categories for readers choosing an MLOps stack.
+- [Experiment Tracking]({{ '/wiki/experiment-tracking/' | relative_url }}) for
+  the run history before a model is promoted.
+- [ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }}) and
+  [Platform Engineering]({{ '/wiki/platform-engineering/' | relative_url }}) for
+  the shared systems around registries, serving, and developer experience.
+- [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }}) for the
+  production signals that need model-version context.
+- [Reproducibility]({{ '/wiki/reproducibility/' | relative_url }}) for the code,
+  data, runtime, and parameter record behind a model version.
+- [Data Governance]({{ '/wiki/data-governance/' | relative_url }}) and
+  [Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }})
+  for audit, retention, and decision-evidence constraints.

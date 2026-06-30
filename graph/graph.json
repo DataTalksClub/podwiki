@@ -7,7 +7,7 @@
     "persons": 438,
     "topics": 146,
     "nodes": 1050,
-    "links": 11580
+    "links": 11598
   },
   "nodes": [
     {
@@ -9246,7 +9246,7 @@
       "title": "Data Quality and Observability",
       "url": "/wiki/data-quality-and-observability/",
       "count": 1,
-      "search": "Data Quality and Observability How the podcast archive frames reliable data systems: data contracts, tests, freshness, lineage, monitoring, and recovery practices."
+      "search": "Data Quality and Observability How the podcast archive frames reliable data systems: tests, freshness, lineage, monitoring, triage, and recovery practices."
     },
     {
       "id": "wiki:data-science",
@@ -43744,17 +43744,11 @@
       "source": "wiki:academia",
       "target": "person:anastasiakaravdina",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:academia",
       "target": "person:cjjenkins",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:academia",
-      "target": "person:elenitziritazacharatou",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -43762,23 +43756,11 @@
       "source": "wiki:academia",
       "target": "person:johannabayer",
       "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:academia",
-      "target": "person:mihaileric",
-      "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:academia",
       "target": "person:orellgarten",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:academia",
-      "target": "person:tatianagabruseva",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -43786,55 +43768,55 @@
       "source": "wiki:academia",
       "target": "podcast:big-data-analytics-and-postdoc-research",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:academia",
       "target": "podcast:from-academia-to-staff-ai-engineer-interviews-and-career-growth",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:academia",
       "target": "podcast:from-academic-research-to-data-engineering-freelancing",
       "kind": "wiki-link",
-      "weight": 10
+      "weight": 8
     },
     {
       "source": "wiki:academia",
       "target": "podcast:from-large-hadron-collider-to-data-science-research-software-engineering",
       "kind": "wiki-link",
-      "weight": 10
+      "weight": 8
     },
     {
       "source": "wiki:academia",
       "target": "podcast:postdoc-to-data-science-lead-career-transition",
       "kind": "wiki-link",
-      "weight": 14
+      "weight": 12
     },
     {
       "source": "wiki:academia",
       "target": "podcast:research-to-production-ml-systems-roadmap",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:academia",
       "target": "podcast:teaching-reproducible-research-and-open-science-coding-practices-for-academia",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:academia",
       "target": "wiki:academic-researcher-to-data-science",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:academia",
       "target": "wiki:career-growth",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:academia",
@@ -43846,7 +43828,7 @@
       "source": "wiki:academia",
       "target": "wiki:career-transition",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:academia",
@@ -43858,13 +43840,13 @@
       "source": "wiki:academia",
       "target": "wiki:data-engineering",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:academia",
       "target": "wiki:data-science",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:academia",
@@ -43876,7 +43858,7 @@
       "source": "wiki:academia",
       "target": "wiki:hiring",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:academia",
@@ -43888,7 +43870,7 @@
       "source": "wiki:academia",
       "target": "wiki:job-search",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:academia",
@@ -43900,7 +43882,7 @@
       "source": "wiki:academia",
       "target": "wiki:machine-learning",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:academia",
@@ -43912,7 +43894,7 @@
       "source": "wiki:academia",
       "target": "wiki:mlops",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:academia",
@@ -43924,7 +43906,7 @@
       "source": "wiki:academia",
       "target": "wiki:open-source",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:academia",
@@ -43936,19 +43918,19 @@
       "source": "wiki:academia",
       "target": "wiki:production",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:academia",
       "target": "wiki:reproducibility",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:academia",
       "target": "wiki:software-engineering",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:academia",
@@ -43966,7 +43948,7 @@
       "source": "wiki:academia",
       "target": "wiki:teaching",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
@@ -51638,7 +51620,13 @@
     },
     {
       "source": "wiki:data-analyst-vs-analytics-engineer",
-      "target": "article:guide:analytics-engineer",
+      "target": "article:roadmap:data-analyst-to-analytics-engineer",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-analyst-vs-analytics-engineer",
+      "target": "person:alexeygrigorev",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -51676,13 +51664,13 @@
       "source": "wiki:data-analyst-vs-analytics-engineer",
       "target": "podcast:data-led-growth-event-tracking-and-reverse-etl",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 8
     },
     {
       "source": "wiki:data-analyst-vs-analytics-engineer",
       "target": "podcast:data-team-roles",
       "kind": "wiki-link",
-      "weight": 16
+      "weight": 10
     },
     {
       "source": "wiki:data-analyst-vs-analytics-engineer",
@@ -51694,13 +51682,13 @@
       "source": "wiki:data-analyst-vs-analytics-engineer",
       "target": "podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices",
       "kind": "wiki-link",
-      "weight": 12
+      "weight": 10
     },
     {
       "source": "wiki:data-analyst-vs-analytics-engineer",
       "target": "wiki:a-b-testing",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:data-analyst-vs-analytics-engineer",
@@ -51718,7 +51706,7 @@
       "source": "wiki:data-analyst-vs-analytics-engineer",
       "target": "wiki:analytics-engineering-portfolio-projects",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:data-analyst-vs-analytics-engineer",
@@ -51728,9 +51716,15 @@
     },
     {
       "source": "wiki:data-analyst-vs-analytics-engineer",
-      "target": "wiki:data-activation",
+      "target": "wiki:dashboard-and-metric-layer-project-checklist",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:data-analyst-vs-analytics-engineer",
+      "target": "wiki:data-activation",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:data-analyst-vs-analytics-engineer",
@@ -51748,7 +51742,7 @@
       "source": "wiki:data-analyst-vs-analytics-engineer",
       "target": "wiki:data-analyst-role",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:data-analyst-vs-analytics-engineer",
@@ -51764,27 +51758,21 @@
     },
     {
       "source": "wiki:data-analyst-vs-analytics-engineer",
-      "target": "wiki:data-product-adoption",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-analyst-vs-analytics-engineer",
       "target": "wiki:data-products",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:data-analyst-vs-analytics-engineer",
       "target": "wiki:data-quality-and-observability",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:data-analyst-vs-analytics-engineer",
       "target": "wiki:dbt",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:data-analyst-vs-analytics-engineer",
@@ -51796,13 +51784,13 @@
       "source": "wiki:data-analyst-vs-analytics-engineer",
       "target": "wiki:event-tracking",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:data-analyst-vs-analytics-engineer",
       "target": "wiki:experimentation-and-causal-inference",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:data-analyst-vs-analytics-engineer",
@@ -51814,7 +51802,7 @@
       "source": "wiki:data-analyst-vs-analytics-engineer",
       "target": "wiki:metrics",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 4
     },
     {
       "source": "wiki:data-analyst-vs-analytics-engineer",
@@ -51839,6 +51827,12 @@
       "target": "wiki:product-analytics",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-analyst-vs-analytics-engineer",
+      "target": "wiki:reverse-etl",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:data-architect-role",
@@ -56122,7 +56116,7 @@
       "source": "wiki:data-quality-and-observability",
       "target": "person:adrianbrudaru",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:data-quality-and-observability",
@@ -56134,37 +56128,37 @@
       "source": "wiki:data-quality-and-observability",
       "target": "person:bartoszmikulski",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:data-quality-and-observability",
       "target": "person:christopherbergh",
       "kind": "wiki-link",
-      "weight": 14
+      "weight": 12
     },
     {
       "source": "wiki:data-quality-and-observability",
       "target": "person:simonstiebellehner",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:data-quality-and-observability",
       "target": "person:thomives",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:data-quality-and-observability",
       "target": "podcast:building-production-ml-platform-and-mlops-team",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:data-quality-and-observability",
       "target": "podcast:data-quality-data-observability-data-reliability",
       "kind": "wiki-link",
-      "weight": 14
+      "weight": 16
     },
     {
       "source": "wiki:data-quality-and-observability",
@@ -56182,29 +56176,23 @@
       "source": "wiki:data-quality-and-observability",
       "target": "podcast:feature-engineering-model-monitoring-and-data-governance",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:data-quality-and-observability",
       "target": "podcast:production-ready-ai-engineering",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:data-quality-and-observability",
       "target": "podcast:trends-in-modern-data-engineering",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:data-quality-and-observability",
       "target": "wiki:analytics-engineering",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-quality-and-observability",
-      "target": "wiki:data-engineering",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -56248,7 +56236,7 @@
       "source": "wiki:data-quality-and-observability",
       "target": "wiki:data-product-management",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:data-quality-and-observability",
@@ -56260,7 +56248,7 @@
       "source": "wiki:data-quality-and-observability",
       "target": "wiki:dataops",
       "kind": "wiki-link",
-      "weight": 12
+      "weight": 8
     },
     {
       "source": "wiki:data-quality-and-observability",
@@ -56272,7 +56260,7 @@
       "source": "wiki:data-quality-and-observability",
       "target": "wiki:mlops",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:data-quality-and-observability",
@@ -56284,7 +56272,7 @@
       "source": "wiki:data-quality-and-observability",
       "target": "wiki:model-monitoring",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:data-quality-and-observability",
@@ -63302,6 +63290,12 @@
     },
     {
       "source": "wiki:governance",
+      "target": "person:adityagautam",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:governance",
       "target": "person:bartvandekerckhove",
       "kind": "wiki-link",
       "weight": 2
@@ -63321,6 +63315,12 @@
     {
       "source": "wiki:governance",
       "target": "person:katharinejarmul",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:governance",
+      "target": "person:mariasukhareva",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -63350,9 +63350,15 @@
     },
     {
       "source": "wiki:governance",
+      "target": "person:zhamakdehghani",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:governance",
       "target": "podcast:building-production-ml-platform-and-mlops-team",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 8
     },
     {
       "source": "wiki:governance",
@@ -63368,7 +63374,19 @@
     },
     {
       "source": "wiki:governance",
+      "target": "podcast:data-mesh-architecture-decentralized-data-products",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:governance",
       "target": "podcast:data-privacy-engineering-gdpr-machine-learning",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:governance",
+      "target": "podcast:generative-ai-chatbots-in-production-security",
       "kind": "wiki-link",
       "weight": 6
     },
@@ -63376,25 +63394,37 @@
       "source": "wiki:governance",
       "target": "podcast:ml-product-manager-and-mlops-platform-strategy",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 4
     },
     {
       "source": "wiki:governance",
       "target": "podcast:mlops-and-ml-engineering-in-finance",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:governance",
       "target": "podcast:responsible-explainable-ai-bias-detection",
       "kind": "wiki-link",
-      "weight": 10
+      "weight": 6
+    },
+    {
+      "source": "wiki:governance",
+      "target": "podcast:s23e03-future-of-ai-agents",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:governance",
+      "target": "wiki:ai-red-teaming",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:governance",
       "target": "wiki:data-governance",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:governance",
@@ -63404,15 +63434,39 @@
     },
     {
       "source": "wiki:governance",
+      "target": "wiki:data-mesh",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:governance",
       "target": "wiki:data-quality-and-observability",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
+    },
+    {
+      "source": "wiki:governance",
+      "target": "wiki:dataops",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:governance",
       "target": "wiki:gitops-for-data-teams",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
+    },
+    {
+      "source": "wiki:governance",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:governance",
+      "target": "wiki:llm-production-patterns",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:governance",
@@ -63424,19 +63478,19 @@
       "source": "wiki:governance",
       "target": "wiki:ml-platforms",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:governance",
       "target": "wiki:mlops",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 2
     },
     {
       "source": "wiki:governance",
       "target": "wiki:mlops-and-dataops",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:governance",
@@ -63446,9 +63500,15 @@
     },
     {
       "source": "wiki:governance",
+      "target": "wiki:model-monitoring",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:governance",
       "target": "wiki:model-registry",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:governance",
@@ -63460,7 +63520,7 @@
       "source": "wiki:governance",
       "target": "wiki:platform-adoption",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:governance",
@@ -63472,13 +63532,13 @@
       "source": "wiki:governance",
       "target": "wiki:privacy-engineering-for-ml",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:governance",
       "target": "wiki:responsible-ai-and-governance",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:governance",
@@ -63490,7 +63550,7 @@
       "source": "wiki:governance",
       "target": "wiki:security",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 8
     },
     {
       "source": "wiki:governance",
@@ -63502,7 +63562,7 @@
       "source": "wiki:governance",
       "target": "wiki:self-service-data-platforms",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:graph-rag-vs-vector-rag",
@@ -69736,7 +69796,13 @@
       "source": "wiki:model-registry",
       "target": "person:mariavechtomova",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
+    },
+    {
+      "source": "wiki:model-registry",
+      "target": "person:nemanjaradojkovic",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:model-registry",
@@ -69748,31 +69814,67 @@
       "source": "wiki:model-registry",
       "target": "person:simonstiebellehner",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
+    },
+    {
+      "source": "wiki:model-registry",
+      "target": "person:theofilospapapanagiotou",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:model-registry",
+      "target": "person:willempienaar",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:model-registry",
       "target": "podcast:building-production-ml-platform-and-mlops-team",
       "kind": "wiki-link",
-      "weight": 28
+      "weight": 24
+    },
+    {
+      "source": "wiki:model-registry",
+      "target": "podcast:lean-mlops-for-startups",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:model-registry",
       "target": "podcast:mlops-at-scale-reproducibility-adoption",
       "kind": "wiki-link",
-      "weight": 12
+      "weight": 8
+    },
+    {
+      "source": "wiki:model-registry",
+      "target": "podcast:mlops-feature-stores-feature-stores-feast-tecton",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:model-registry",
+      "target": "podcast:mlops-kubeflow-model-monitoring",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:model-registry",
       "target": "podcast:pragmatic-and-standardized-mlops",
       "kind": "wiki-link",
-      "weight": 20
+      "weight": 16
+    },
+    {
+      "source": "wiki:model-registry",
+      "target": "wiki:ci-cd",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:model-registry",
       "target": "wiki:data-governance",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:model-registry",
@@ -69790,7 +69892,7 @@
       "source": "wiki:model-registry",
       "target": "wiki:experiment-tracking",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:model-registry",
@@ -69802,7 +69904,7 @@
       "source": "wiki:model-registry",
       "target": "wiki:machine-learning-infrastructure",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:model-registry",
@@ -69814,7 +69916,7 @@
       "source": "wiki:model-registry",
       "target": "wiki:ml-platforms",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:model-registry",
@@ -69826,7 +69928,7 @@
       "source": "wiki:model-registry",
       "target": "wiki:mlops",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:model-registry",
@@ -69838,13 +69940,13 @@
       "source": "wiki:model-registry",
       "target": "wiki:mlops-roadmap",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 4
     },
     {
       "source": "wiki:model-registry",
       "target": "wiki:mlops-tools",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:model-registry",
@@ -69862,7 +69964,7 @@
       "source": "wiki:model-registry",
       "target": "wiki:platform-engineering",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:model-registry",
@@ -69874,7 +69976,7 @@
       "source": "wiki:model-registry",
       "target": "wiki:reproducibility",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:model-registry",
@@ -69885,6 +69987,12 @@
     {
       "source": "wiki:model-registry",
       "target": "wiki:responsible-ai-and-governance",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:model-registry",
+      "target": "wiki:security",
       "kind": "wiki-link",
       "weight": 2
     },

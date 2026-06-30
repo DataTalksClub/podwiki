@@ -10,61 +10,32 @@ related:
   - Open Source and Developer Relations
 ---
 
-Academia in the DataTalks.Club archive covers research work and PhD or postdoc
-training. It also covers research software, open science, and moves from
-academic outputs into data and AI roles. The archive doesn't treat academia as
-separate from data work. [CJ Jenkins]({{ '/people/cjjenkins/' | relative_url }})
-describes genomics and Bash as a practical base for data science in
+Academia in the DataTalks.Club archive means university research, teaching,
+software, and career systems. It includes PhDs, postdocs, labs, and academic
+collaborations. The podcast treats it as a source of data and ML practice, not
+as a world separate from industry. [CJ Jenkins]({{ '/people/cjjenkins/' | relative_url }})
+connects evolutionary biology and statistical modeling to
+[data science]({{ '/wiki/data-science/' | relative_url }}) in
 [From Postdoc to Data Science Lead]({{ '/podcasts/postdoc-to-data-science-lead-career-transition/' | relative_url }})
 at 1:28-6:10. [Anastasia Karavdina]({{ '/people/anastasiakaravdina/' | relative_url }})
-maps collider collaborations and research software into industry data science
-in
+maps collider collaborations, high-volume event data, and research software
+engineering into industry data science in
 [From Collider Physics to Data Science]({{ '/podcasts/from-large-hadron-collider-to-data-science-research-software-engineering/' | relative_url }})
 at 11:15-24:31.
 
-The archive returns to translation again and again. Academic researchers often use
-[data science]({{ '/wiki/data-science/' | relative_url }}),
+The recurring archive question is translation. Academic researchers often use
 [machine learning]({{ '/wiki/machine-learning/' | relative_url }}),
 [data engineering]({{ '/wiki/data-engineering/' | relative_url }}), and
 [software engineering]({{ '/wiki/software-engineering/' | relative_url }})
-before those names appear on a resume. Industry teams then need proof in a
-different form. That proof may be a deployed system or product framing. It may
-also be an interview story, maintainable repository, or concise impact claim.
+before those names appear on a resume. Industry teams then need the evidence in
+a different form. A deployed system or maintainable repository can show the
+work. Product framing, interview stories, and concise impact claims can show it
+too.
 
-That's why this page
-overlaps with
+That's why this page overlaps with
 [Academic Researcher to Data Science]({{ '/wiki/academic-researcher-to-data-science/' | relative_url }}),
 [Career Transition]({{ '/wiki/career-transition/' | relative_url }}), and
 [Notebook to Production AI Systems]({{ '/wiki/notebook-to-production-ai-systems/' | relative_url }}).
-
-## Link Map
-
-Use these wiki pages to move from academia into adjacent archive topics:
-
-- [Academic Researcher to Data Science]({{ '/wiki/academic-researcher-to-data-science/' | relative_url }})
-- [Career Transition]({{ '/wiki/career-transition/' | relative_url }})
-- [Career Growth]({{ '/wiki/career-growth/' | relative_url }})
-- [Job Search]({{ '/wiki/job-search/' | relative_url }})
-- [Hiring]({{ '/wiki/hiring/' | relative_url }})
-- [Data Science]({{ '/wiki/data-science/' | relative_url }})
-- [Machine Learning]({{ '/wiki/machine-learning/' | relative_url }})
-- [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }})
-- [MLOps]({{ '/wiki/mlops/' | relative_url }})
-- [Production]({{ '/wiki/production/' | relative_url }})
-- [Software Engineering]({{ '/wiki/software-engineering/' | relative_url }})
-- [Reproducibility]({{ '/wiki/reproducibility/' | relative_url }})
-- [Teaching]({{ '/wiki/teaching/' | relative_url }})
-- [Open Source]({{ '/wiki/open-source/' | relative_url }})
-
-Start with these podcast discussions for evidence:
-
-- [From Postdoc to Data Science Lead]({{ '/podcasts/postdoc-to-data-science-lead-career-transition/' | relative_url }}) with [CJ Jenkins]({{ '/people/cjjenkins/' | relative_url }})
-- [From Collider Physics to Data Science]({{ '/podcasts/from-large-hadron-collider-to-data-science-research-software-engineering/' | relative_url }}) with [Anastasia Karavdina]({{ '/people/anastasiakaravdina/' | relative_url }})
-- [From Academic Research to Lean Data Consulting]({{ '/podcasts/from-academic-research-to-data-engineering-freelancing/' | relative_url }}) with [Orell Garten]({{ '/people/orellgarten/' | relative_url }})
-- [Teaching Open Science and Reproducible Research]({{ '/podcasts/teaching-reproducible-research-and-open-science-coding-practices-for-academia/' | relative_url }}) with [Johanna Bayer]({{ '/people/johannabayer/' | relative_url }})
-- [From Research to Production]({{ '/podcasts/research-to-production-ml-systems-roadmap/' | relative_url }}) with [Mihail Eric]({{ '/people/mihaileric/' | relative_url }})
-- [Transitioning from Academia to Industry as a Staff AI Engineer]({{ '/podcasts/from-academia-to-staff-ai-engineer-interviews-and-career-growth/' | relative_url }}) with [Tatiana Gabruseva]({{ '/people/tatianagabruseva/' | relative_url }})
-- [Master Spatial Big Data Analytics]({{ '/podcasts/big-data-analytics-and-postdoc-research/' | relative_url }}) with [Eleni Tzirita Zacharatou]({{ '/people/elenitziritazacharatou/' | relative_url }})
 
 ## Common Definition
 
@@ -95,7 +66,7 @@ Tatiana Gabruseva makes the senior version of the same argument in
 At 14:41-25:30, she translates academic leadership and grants into industry
 impact. She also uses applied projects as evidence.
 
-## Disagreements and Boundaries
+## Guest Differences
 
 Guests don't agree that leaving academia is the only useful outcome.
 [Johanna Bayer]({{ '/people/johannabayer/' | relative_url }}) focuses on making
