@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "ELT"
-summary: "Podcast-grounded guide to ELT as a load-first data pipeline pattern for warehouses, dbt transformations, analytics engineering, orchestration, CDC, quality checks, and governed data marts."
+summary: "Podcast-grounded guide to ELT as a load-first data pipeline approach for warehouses, dbt transformations, analytics engineering, orchestration, CDC, quality checks, and governed data marts."
 related:
   - ETL vs ELT
   - ETL
@@ -32,8 +32,10 @@ transformations. Data engineers don't need to re-extract a source every time a
 new field or question appears.
 
 Use [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }})
-for the full comparison and [ETL]({{ '/wiki/etl/' | relative_url }}) for the
-transform-before-load side.
+for the full reference comparison and [ETL]({{ '/wiki/etl/' | relative_url }})
+for the transform-before-load side. Use the shorter
+[ETL vs ELT decision guide]({{ '/comparisons/etl-vs-elt/' | relative_url }})
+when the choice is the question.
 
 ## Definition and Scope
 

@@ -2,12 +2,12 @@
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
     "wikis": 168,
-    "articles": 68,
+    "articles": 69,
     "podcasts": 202,
     "persons": 438,
     "topics": 146,
-    "nodes": 1022,
-    "links": 10397
+    "nodes": 1023,
+    "links": 10427
   },
   "nodes": [
     {
@@ -449,6 +449,17 @@
       "count": 1,
       "search": "Designing Machine Learning Systems: A Practical Archive Backed Guide A practical guide to designing machine learning systems with podcast backed advice on problem framing, data strategy, baselines, serving, monitoring, ownership, and tradeoffs.",
       "keyword": "designing machine learning systems"
+    },
+    {
+      "id": "article:comparison:etl-vs-elt",
+      "type": "article",
+      "collection": "comparison",
+      "label": "ETL vs ELT",
+      "title": "ETL vs ELT",
+      "url": "/comparisons/etl-vs-elt/",
+      "count": 1,
+      "search": "ETL vs ELT A podcast grounded decision guide for choosing transform before load or load before transform pipelines in modern data stacks.",
+      "keyword": "etl vs elt"
     },
     {
       "id": "article:guide:free-data-engineering-course",
@@ -9230,7 +9241,7 @@
       "title": "ELT",
       "url": "/wiki/elt/",
       "count": 1,
-      "search": "ELT Podcast grounded guide to ELT as a load first data pipeline pattern for warehouses, dbt transformations, analytics engineering, orchestration, CDC, quality checks, and governed data marts."
+      "search": "ELT Podcast grounded guide to ELT as a load first data pipeline approach for warehouses, dbt transformations, analytics engineering, orchestration, CDC, quality checks, and governed data marts."
     },
     {
       "id": "wiki:embeddings",
@@ -10627,6 +10638,168 @@
       "target": "wiki:orchestration",
       "kind": "article-link",
       "weight": 2
+    },
+    {
+      "source": "article:comparison:etl-vs-elt",
+      "target": "person:arpitchoudhury",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:etl-vs-elt",
+      "target": "person:larsalbertsson",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:etl-vs-elt",
+      "target": "person:nataliekwong",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:etl-vs-elt",
+      "target": "person:santonatuli",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:etl-vs-elt",
+      "target": "person:victoriaperezmola",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:etl-vs-elt",
+      "target": "podcast:analytics-engineer-skills-tools",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:etl-vs-elt",
+      "target": "podcast:data-engineering-tools-modern-data-stack",
+      "kind": "article-link",
+      "weight": 10
+    },
+    {
+      "source": "article:comparison:etl-vs-elt",
+      "target": "podcast:data-led-growth-event-tracking-and-reverse-etl",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:etl-vs-elt",
+      "target": "podcast:dataops-principles-and-scalable-data-platforms",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:etl-vs-elt",
+      "target": "podcast:modern-data-pipelines-orchestration-ingestion-modeling",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:comparison:etl-vs-elt",
+      "target": "wiki:analytics-engineering",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:etl-vs-elt",
+      "target": "wiki:analytics-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:etl-vs-elt",
+      "target": "wiki:data-pipelines",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:etl-vs-elt",
+      "target": "wiki:data-pipelines",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:etl-vs-elt",
+      "target": "wiki:dataops",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:etl-vs-elt",
+      "target": "wiki:dataops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:etl-vs-elt",
+      "target": "wiki:dbt",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:etl-vs-elt",
+      "target": "wiki:dbt",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:etl-vs-elt",
+      "target": "wiki:elt",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:etl-vs-elt",
+      "target": "wiki:elt",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:etl-vs-elt",
+      "target": "wiki:etl",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:etl-vs-elt",
+      "target": "wiki:etl",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:etl-vs-elt",
+      "target": "wiki:etl-vs-elt",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:etl-vs-elt",
+      "target": "wiki:modern-data-stack",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:etl-vs-elt",
+      "target": "wiki:modern-data-stack",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:etl-vs-elt",
+      "target": "wiki:reverse-etl",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:etl-vs-elt",
+      "target": "wiki:reverse-etl",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "article:comparison:mlops-vs-dataops",
@@ -43024,6 +43197,12 @@
     },
     {
       "source": "wiki:apache-iceberg",
+      "target": "article:comparison:etl-vs-elt",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:apache-iceberg",
       "target": "person:adrianbrudaru",
       "kind": "wiki-link",
       "weight": 6
@@ -43171,12 +43350,6 @@
       "target": "wiki:etl-vs-elt",
       "kind": "wiki-link",
       "weight": 6
-    },
-    {
-      "source": "wiki:apache-iceberg",
-      "target": "wiki:etl-vs-elt",
-      "kind": "wiki-related",
-      "weight": 3
     },
     {
       "source": "wiki:apache-iceberg",
@@ -45040,6 +45213,12 @@
     },
     {
       "source": "wiki:cdc",
+      "target": "article:comparison:etl-vs-elt",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:cdc",
       "target": "person:larsalbertsson",
       "kind": "wiki-link",
       "weight": 2
@@ -45139,12 +45318,6 @@
       "target": "wiki:etl-vs-elt",
       "kind": "wiki-link",
       "weight": 2
-    },
-    {
-      "source": "wiki:cdc",
-      "target": "wiki:etl-vs-elt",
-      "kind": "wiki-related",
-      "weight": 3
     },
     {
       "source": "wiki:cdc",
@@ -49024,6 +49197,12 @@
     },
     {
       "source": "wiki:data-engineering-tools",
+      "target": "article:comparison:etl-vs-elt",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-engineering-tools",
       "target": "person:adrianbrudaru",
       "kind": "wiki-link",
       "weight": 2
@@ -49264,12 +49443,6 @@
     },
     {
       "source": "wiki:data-engineering-tools",
-      "target": "wiki:etl-vs-elt",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:data-engineering-tools",
       "target": "wiki:modern-data-stack",
       "kind": "wiki-link",
       "weight": 4
@@ -49468,6 +49641,12 @@
     },
     {
       "source": "wiki:data-lake",
+      "target": "article:comparison:etl-vs-elt",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-lake",
       "target": "person:adrianbrudaru",
       "kind": "wiki-link",
       "weight": 6
@@ -49615,12 +49794,6 @@
       "target": "wiki:etl-vs-elt",
       "kind": "wiki-link",
       "weight": 4
-    },
-    {
-      "source": "wiki:data-lake",
-      "target": "wiki:etl-vs-elt",
-      "kind": "wiki-related",
-      "weight": 3
     },
     {
       "source": "wiki:data-lake",
@@ -50266,6 +50439,12 @@
     },
     {
       "source": "wiki:data-pipelines",
+      "target": "article:comparison:etl-vs-elt",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-pipelines",
       "target": "article:guide:apache-airflow",
       "kind": "wiki-link",
       "weight": 4
@@ -50467,12 +50646,6 @@
       "target": "wiki:etl-vs-elt",
       "kind": "wiki-link",
       "weight": 4
-    },
-    {
-      "source": "wiki:data-pipelines",
-      "target": "wiki:etl-vs-elt",
-      "kind": "wiki-related",
-      "weight": 3
     },
     {
       "source": "wiki:data-pipelines",
@@ -52672,6 +52845,12 @@
     },
     {
       "source": "wiki:data-warehouse",
+      "target": "article:comparison:etl-vs-elt",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-warehouse",
       "target": "article:guide:data-observability-for-data-engineering",
       "kind": "wiki-link",
       "weight": 2
@@ -52891,12 +53070,6 @@
       "target": "wiki:etl-vs-elt",
       "kind": "wiki-link",
       "weight": 2
-    },
-    {
-      "source": "wiki:data-warehouse",
-      "target": "wiki:etl-vs-elt",
-      "kind": "wiki-related",
-      "weight": 3
     },
     {
       "source": "wiki:data-warehouse",
@@ -54760,6 +54933,18 @@
     },
     {
       "source": "wiki:elt",
+      "target": "article:comparison:etl-vs-elt",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:elt",
+      "target": "article:comparison:etl-vs-elt",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:elt",
       "target": "article:guide:airflow",
       "kind": "wiki-link",
       "weight": 2
@@ -54937,12 +55122,6 @@
       "target": "wiki:etl-vs-elt",
       "kind": "wiki-link",
       "weight": 2
-    },
-    {
-      "source": "wiki:elt",
-      "target": "wiki:etl-vs-elt",
-      "kind": "wiki-related",
-      "weight": 3
     },
     {
       "source": "wiki:elt",
@@ -55282,6 +55461,18 @@
     },
     {
       "source": "wiki:etl",
+      "target": "article:comparison:etl-vs-elt",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:etl",
+      "target": "article:comparison:etl-vs-elt",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:etl",
       "target": "person:16rahuljain",
       "kind": "wiki-link",
       "weight": 2
@@ -55408,12 +55599,6 @@
     },
     {
       "source": "wiki:etl",
-      "target": "wiki:etl-vs-elt",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:etl",
       "target": "wiki:reverse-etl",
       "kind": "wiki-link",
       "weight": 2
@@ -55423,6 +55608,12 @@
       "target": "wiki:reverse-etl",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:etl-vs-elt",
+      "target": "article:comparison:etl-vs-elt",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:etl-vs-elt",

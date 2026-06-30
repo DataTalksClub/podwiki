@@ -41,6 +41,10 @@ for the broader warehouse-centered stack. Use
 [Data Warehouse vs Data Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }})
 for the storage-platform tradeoff.
 
+For the shorter decision guide, use
+[ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }}) in the comparison
+section.
+
 ## Link Map
 
 Use these pages to place ETL vs ELT inside the archive.
@@ -349,6 +353,7 @@ Use these pages for the adjacent platform, modeling, and activation topics.
 
 - [ETL]({{ '/wiki/etl/' | relative_url }})
 - [ELT]({{ '/wiki/elt/' | relative_url }})
+- [ETL vs ELT decision guide]({{ '/comparisons/etl-vs-elt/' | relative_url }})
 - [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
 - [Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }})
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})

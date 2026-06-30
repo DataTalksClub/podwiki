@@ -24,7 +24,10 @@ organization-specific business logic and destination-specific loading routines.
 
 This topic covers the transform-before-load side of the pipeline. Use
 [ELT]({{ '/wiki/elt/' | relative_url }}) for load-first warehouse modeling and
-[ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}) for the comparison. ETL
+[ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}) for the reference
+comparison. Use the shorter
+[ETL vs ELT decision guide]({{ '/comparisons/etl-vs-elt/' | relative_url }})
+when the choice is the question. ETL
 also sits close to [data pipelines]({{ '/wiki/data-pipelines/' | relative_url }})
 and [data engineering platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}).
 The archive connects ETL to [DataOps]({{ '/wiki/dataops/' | relative_url }})

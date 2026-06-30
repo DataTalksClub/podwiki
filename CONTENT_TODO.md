@@ -232,6 +232,7 @@ Existing pages:
 
 - `_comparisons/dataops-vs-data-engineering.md`
 - `_comparisons/delta-lake-vs-apache-iceberg.md`
+- `_comparisons/etl-vs-elt.md`
 - `_comparisons/product-owner-vs-product-manager.md`
 
 Candidate pages:
@@ -243,7 +244,6 @@ Candidate pages:
 - Data product owner vs data product manager
 - MLOps vs DevOps
 - DataOps vs MLOps
-- ETL vs ELT
 - Batch vs streaming
 - Data warehouse vs data lakehouse
 - Data mesh vs centralized data platform
@@ -274,9 +274,9 @@ Start with this batch when expanding the content set.
   engineering, and RAG.
 - Add roadmap pages for data engineering, AI engineering, MLOps, and analytics
   engineering.
-- Add comparison pages for ETL vs ELT, data analyst vs analytics engineer, and
-  RAG vs fine-tuning first. These have the strongest current mix of podcast
-  evidence, existing wiki support, and keyword fit.
+- Add comparison pages for data analyst vs analytics engineer and RAG vs
+  fine-tuning first. These have the strongest current mix of podcast evidence,
+  existing wiki support, and keyword fit.
 - Evaluate `dataops platforms` as either `_wiki/dataops-platforms.md` or a
   guide that links to DataOps, platform engineering, and data engineering
   platforms. Strong sources include
