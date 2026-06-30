@@ -7,7 +7,7 @@
     "persons": 438,
     "topics": 145,
     "nodes": 1019,
-    "links": 7605
+    "links": 7751
   },
   "nodes": [
     {
@@ -8084,7 +8084,7 @@
       "title": "Data Analyst vs Analytics Engineer",
       "url": "/wiki/data-analyst-vs-analytics-engineer/",
       "count": 1,
-      "search": "Data Analyst vs Analytics Engineer A podcast backed boundary page for separating analysis work from engineered analytical modeling, tests, documentation, and reusable data products."
+      "search": "Data Analyst vs Analytics Engineer A podcast backed comparison of the data analyst and analytics engineer role boundary: decisions, dashboards, reusable models, dbt, data quality, and team ownership."
     },
     {
       "id": "wiki:data-engineer-role",
@@ -8273,7 +8273,7 @@
       "title": "Data Scientist Interview Roadmap",
       "url": "/wiki/data-scientist-interview-roadmap/",
       "count": 1,
-      "search": "Data Scientist Interview Roadmap A podcast backed roadmap for data scientist interview preparation: role targeting, portfolio evidence, recruiter screens, technical rounds, case studies, behavioral stories, and offer readiness."
+      "search": "Data Scientist Interview Roadmap A podcast backed roadmap for data scientist interview preparation: role targeting, CV evidence, recruiter screens, technical rounds, case studies, behavioral stories, and offer readiness."
     },
     {
       "id": "wiki:data-scientist-role",
@@ -8318,7 +8318,7 @@
       "title": "Data Warehouse vs Data Lakehouse",
       "url": "/wiki/data-warehouse-vs-data-lakehouse/",
       "count": 1,
-      "search": "Data Warehouse vs Data Lakehouse How the podcast archive compares warehouse centered analytics with lakehouse architectures built from object storage, table formats, catalogs, and governance."
+      "search": "Data Warehouse vs Data Lakehouse A podcast grounded comparison of warehouse centered analytics and lakehouse architectures built from object storage, table formats, catalogs, compute engines, and governance."
     },
     {
       "id": "wiki:data-led-growth",
@@ -8453,7 +8453,7 @@
       "title": "ETL vs ELT",
       "url": "/wiki/etl-vs-elt/",
       "count": 1,
-      "search": "ETL vs ELT A podcast backed comparison of transform before load and load before transform patterns in modern data engineering."
+      "search": "ETL vs ELT A podcast grounded comparison of transform before load and load before transform pipeline choices in modern data platforms."
     },
     {
       "id": "wiki:evaluation",
@@ -8642,7 +8642,7 @@
       "title": "LLM Production Patterns",
       "url": "/wiki/llm-production-patterns/",
       "count": 1,
-      "search": "LLM Production Patterns How the podcast archive frames RAG, agents, fine tuning, evaluation, context engineering, and the AI engineer role."
+      "search": "LLM Production Patterns How DataTalks.Club guests turn LLM demos into production systems with model choice, RAG, agents, and evaluation."
     },
     {
       "id": "wiki:llms",
@@ -39653,21 +39653,105 @@
     },
     {
       "source": "wiki:data-analyst-vs-analytics-engineer",
-      "target": "wiki:analytics-engineering",
+      "target": "article:analytics-engineer",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:data-analyst-vs-analytics-engineer",
+      "target": "person:arpitchoudhury",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-analyst-vs-analytics-engineer",
+      "target": "person:juanmanuelperafan",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-analyst-vs-analytics-engineer",
+      "target": "person:nikolamaksimovic",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-analyst-vs-analytics-engineer",
+      "target": "person:victoriaperezmola",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-analyst-vs-analytics-engineer",
+      "target": "podcast:analytics-engineer-skills-tools",
+      "kind": "wiki-link",
+      "weight": 18
+    },
+    {
+      "source": "wiki:data-analyst-vs-analytics-engineer",
+      "target": "podcast:data-led-growth-event-tracking-and-reverse-etl",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:data-analyst-vs-analytics-engineer",
+      "target": "podcast:data-team-roles",
+      "kind": "wiki-link",
+      "weight": 16
+    },
+    {
+      "source": "wiki:data-analyst-vs-analytics-engineer",
+      "target": "podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch",
+      "kind": "wiki-link",
+      "weight": 12
+    },
+    {
+      "source": "wiki:data-analyst-vs-analytics-engineer",
+      "target": "podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices",
+      "kind": "wiki-link",
+      "weight": 12
+    },
+    {
+      "source": "wiki:data-analyst-vs-analytics-engineer",
+      "target": "wiki:a-b-testing",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-analyst-vs-analytics-engineer",
+      "target": "wiki:analytics-engineering",
+      "kind": "wiki-link",
+      "weight": 6
     },
     {
       "source": "wiki:data-analyst-vs-analytics-engineer",
       "target": "wiki:analytics-engineering",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-analyst-vs-analytics-engineer",
+      "target": "wiki:analytics-engineering-portfolio-projects",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:data-analyst-vs-analytics-engineer",
+      "target": "wiki:analytics-engineering-roadmap",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-analyst-vs-analytics-engineer",
+      "target": "wiki:data-activation",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:data-analyst-vs-analytics-engineer",
       "target": "wiki:data-analyst-careers",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:data-analyst-vs-analytics-engineer",
@@ -39677,33 +39761,93 @@
     },
     {
       "source": "wiki:data-analyst-vs-analytics-engineer",
-      "target": "wiki:data-engineering",
+      "target": "wiki:data-analyst-role",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:data-analyst-vs-analytics-engineer",
-      "target": "wiki:data-product-management",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-analyst-vs-analytics-engineer",
-      "target": "wiki:data-product-management",
+      "target": "wiki:data-analyst-role",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-analyst-vs-analytics-engineer",
+      "target": "wiki:data-led-growth",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-analyst-vs-analytics-engineer",
+      "target": "wiki:data-product-adoption",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-analyst-vs-analytics-engineer",
+      "target": "wiki:data-products",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:data-analyst-vs-analytics-engineer",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-link",
+      "weight": 6
     },
     {
       "source": "wiki:data-analyst-vs-analytics-engineer",
       "target": "wiki:dbt",
       "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:data-analyst-vs-analytics-engineer",
+      "target": "wiki:dbt",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-analyst-vs-analytics-engineer",
+      "target": "wiki:event-tracking",
+      "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:data-analyst-vs-analytics-engineer",
+      "target": "wiki:experimentation-and-causal-inference",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-analyst-vs-analytics-engineer",
+      "target": "wiki:marketing-to-analytics-engineering",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-analyst-vs-analytics-engineer",
+      "target": "wiki:metrics",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:data-analyst-vs-analytics-engineer",
+      "target": "wiki:metrics",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-analyst-vs-analytics-engineer",
+      "target": "wiki:modern-data-stack",
+      "kind": "wiki-link",
+      "weight": 6
     },
     {
       "source": "wiki:data-analyst-vs-analytics-engineer",
       "target": "wiki:product-analytics",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:data-analyst-vs-analytics-engineer",
@@ -42635,9 +42779,87 @@
     },
     {
       "source": "wiki:data-scientist-interview-roadmap",
+      "target": "article:data-scientist",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-scientist-interview-roadmap",
+      "target": "article:data-scientist-interview",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-scientist-interview-roadmap",
+      "target": "article:machine-learning-system-design-interview",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-scientist-interview-roadmap",
+      "target": "person:alicjanotowska",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-scientist-interview-roadmap",
+      "target": "person:lukewhipps",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:data-scientist-interview-roadmap",
+      "target": "person:nicksingh",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-scientist-interview-roadmap",
+      "target": "person:olegnovikov",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-scientist-interview-roadmap",
+      "target": "person:valeriybabushkin",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-scientist-interview-roadmap",
+      "target": "podcast:data-interview-behavioral-and-portfolio-prep-guide",
+      "kind": "wiki-link",
+      "weight": 22
+    },
+    {
+      "source": "wiki:data-scientist-interview-roadmap",
+      "target": "podcast:data-science-interview-and-cv-guide",
+      "kind": "wiki-link",
+      "weight": 38
+    },
+    {
+      "source": "wiki:data-scientist-interview-roadmap",
+      "target": "podcast:get-data-scientist-job",
+      "kind": "wiki-link",
+      "weight": 14
+    },
+    {
+      "source": "wiki:data-scientist-interview-roadmap",
       "target": "podcast:hiring-data-scientists-and-analysts",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 24
+    },
+    {
+      "source": "wiki:data-scientist-interview-roadmap",
+      "target": "podcast:machine-learning-data-science-interview-prep",
+      "kind": "wiki-link",
+      "weight": 20
+    },
+    {
+      "source": "wiki:data-scientist-interview-roadmap",
+      "target": "podcast:machine-learning-system-design-interview",
+      "kind": "wiki-link",
+      "weight": 14
     },
     {
       "source": "wiki:data-scientist-interview-roadmap",
@@ -42647,15 +42869,15 @@
     },
     {
       "source": "wiki:data-scientist-interview-roadmap",
-      "target": "wiki:career-growth",
-      "kind": "wiki-related",
-      "weight": 3
+      "target": "wiki:career-transitions-in-data",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:data-scientist-interview-roadmap",
       "target": "wiki:cv-screening",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 10
     },
     {
       "source": "wiki:data-scientist-interview-roadmap",
@@ -42667,7 +42889,7 @@
       "source": "wiki:data-scientist-interview-roadmap",
       "target": "wiki:data-science",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:data-scientist-interview-roadmap",
@@ -42677,9 +42899,27 @@
     },
     {
       "source": "wiki:data-scientist-interview-roadmap",
+      "target": "wiki:data-science-careers",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-scientist-interview-roadmap",
+      "target": "wiki:data-scientist-role",
+      "kind": "wiki-link",
+      "weight": 10
+    },
+    {
+      "source": "wiki:data-scientist-interview-roadmap",
+      "target": "wiki:data-scientist-role",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-scientist-interview-roadmap",
       "target": "wiki:hiring",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:data-scientist-interview-roadmap",
@@ -42691,7 +42931,7 @@
       "source": "wiki:data-scientist-interview-roadmap",
       "target": "wiki:job-search",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 8
     },
     {
       "source": "wiki:data-scientist-interview-roadmap",
@@ -42701,15 +42941,51 @@
     },
     {
       "source": "wiki:data-scientist-interview-roadmap",
-      "target": "wiki:machine-learning-system-design",
+      "target": "wiki:machine-learning-engineer-role",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:data-scientist-interview-roadmap",
+      "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "wiki-link",
+      "weight": 10
+    },
+    {
+      "source": "wiki:data-scientist-interview-roadmap",
+      "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-scientist-interview-roadmap",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "wiki-link",
+      "weight": 8
     },
     {
       "source": "wiki:data-scientist-interview-roadmap",
       "target": "wiki:machine-learning-system-design",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-scientist-interview-roadmap",
+      "target": "wiki:metrics",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-scientist-interview-roadmap",
+      "target": "wiki:mlops",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-scientist-interview-roadmap",
+      "target": "wiki:product-analytics",
+      "kind": "wiki-link",
+      "weight": 8
     },
     {
       "source": "wiki:data-scientist-role",
@@ -43193,33 +43469,93 @@
     },
     {
       "source": "wiki:data-warehouse-vs-data-lakehouse",
+      "target": "person:adrianbrudaru",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:data-warehouse-vs-data-lakehouse",
+      "target": "person:arpitchoudhury",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:data-warehouse-vs-data-lakehouse",
+      "target": "person:eddyzulkifly",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-warehouse-vs-data-lakehouse",
+      "target": "person:larsalbertsson",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:data-warehouse-vs-data-lakehouse",
+      "target": "person:nataliekwong",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:data-warehouse-vs-data-lakehouse",
+      "target": "person:santonatuli",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-warehouse-vs-data-lakehouse",
       "target": "podcast:data-engineering-tools-modern-data-stack",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 18
     },
     {
       "source": "wiki:data-warehouse-vs-data-lakehouse",
       "target": "podcast:data-led-growth-event-tracking-and-reverse-etl",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 12
+    },
+    {
+      "source": "wiki:data-warehouse-vs-data-lakehouse",
+      "target": "podcast:dataops-principles-and-scalable-data-platforms",
+      "kind": "wiki-link",
+      "weight": 16
+    },
+    {
+      "source": "wiki:data-warehouse-vs-data-lakehouse",
+      "target": "podcast:finops-for-data-engineers",
+      "kind": "wiki-link",
+      "weight": 10
+    },
+    {
+      "source": "wiki:data-warehouse-vs-data-lakehouse",
+      "target": "podcast:modern-data-pipelines-orchestration-ingestion-modeling",
+      "kind": "wiki-link",
+      "weight": 8
     },
     {
       "source": "wiki:data-warehouse-vs-data-lakehouse",
       "target": "podcast:trends-in-modern-data-engineering",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 24
     },
     {
       "source": "wiki:data-warehouse-vs-data-lakehouse",
       "target": "wiki:analytics-engineering",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 10
+    },
+    {
+      "source": "wiki:data-warehouse-vs-data-lakehouse",
+      "target": "wiki:analytics-engineering",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:data-warehouse-vs-data-lakehouse",
       "target": "wiki:apache-iceberg",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:data-warehouse-vs-data-lakehouse",
@@ -43229,9 +43565,9 @@
     },
     {
       "source": "wiki:data-warehouse-vs-data-lakehouse",
-      "target": "wiki:data-engineering",
+      "target": "wiki:data-activation",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 8
     },
     {
       "source": "wiki:data-warehouse-vs-data-lakehouse",
@@ -43243,7 +43579,7 @@
       "source": "wiki:data-warehouse-vs-data-lakehouse",
       "target": "wiki:data-engineering-platforms",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 10
     },
     {
       "source": "wiki:data-warehouse-vs-data-lakehouse",
@@ -43255,7 +43591,7 @@
       "source": "wiki:data-warehouse-vs-data-lakehouse",
       "target": "wiki:data-lake",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:data-warehouse-vs-data-lakehouse",
@@ -43265,15 +43601,51 @@
     },
     {
       "source": "wiki:data-warehouse-vs-data-lakehouse",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:data-warehouse-vs-data-lakehouse",
       "target": "wiki:data-warehouse",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:data-warehouse-vs-data-lakehouse",
       "target": "wiki:data-warehouse",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-warehouse-vs-data-lakehouse",
+      "target": "wiki:dataops",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:data-warehouse-vs-data-lakehouse",
+      "target": "wiki:dataops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-warehouse-vs-data-lakehouse",
+      "target": "wiki:modern-data-stack",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:data-warehouse-vs-data-lakehouse",
+      "target": "wiki:modern-data-stack",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-warehouse-vs-data-lakehouse",
+      "target": "wiki:product-analytics",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:dataops",
@@ -44429,9 +44801,81 @@
     },
     {
       "source": "wiki:etl-vs-elt",
+      "target": "person:arpitchoudhury",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:etl-vs-elt",
+      "target": "person:juanmanuelperafan",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:etl-vs-elt",
+      "target": "person:larsalbertsson",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:etl-vs-elt",
+      "target": "person:nataliekwong",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:etl-vs-elt",
+      "target": "person:santonatuli",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:etl-vs-elt",
+      "target": "person:victoriaperezmola",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:etl-vs-elt",
+      "target": "podcast:analytics-engineer-skills-tools",
+      "kind": "wiki-link",
+      "weight": 12
+    },
+    {
+      "source": "wiki:etl-vs-elt",
+      "target": "podcast:data-engineering-tools-modern-data-stack",
+      "kind": "wiki-link",
+      "weight": 24
+    },
+    {
+      "source": "wiki:etl-vs-elt",
+      "target": "podcast:data-led-growth-event-tracking-and-reverse-etl",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:etl-vs-elt",
+      "target": "podcast:dataops-principles-and-scalable-data-platforms",
+      "kind": "wiki-link",
+      "weight": 10
+    },
+    {
+      "source": "wiki:etl-vs-elt",
+      "target": "podcast:modern-data-pipelines-orchestration-ingestion-modeling",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:etl-vs-elt",
+      "target": "podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:etl-vs-elt",
       "target": "wiki:analytics-engineering",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 8
     },
     {
       "source": "wiki:etl-vs-elt",
@@ -44441,9 +44885,15 @@
     },
     {
       "source": "wiki:etl-vs-elt",
-      "target": "wiki:data-engineering",
+      "target": "wiki:customer-data-platforms",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:etl-vs-elt",
+      "target": "wiki:data-activation",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:etl-vs-elt",
@@ -44455,23 +44905,59 @@
       "source": "wiki:etl-vs-elt",
       "target": "wiki:data-engineering-platforms",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:etl-vs-elt",
       "target": "wiki:data-engineering-platforms",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:etl-vs-elt",
+      "target": "wiki:data-governance",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:etl-vs-elt",
+      "target": "wiki:data-lake",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:etl-vs-elt",
+      "target": "wiki:data-observability",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:etl-vs-elt",
+      "target": "wiki:data-pipelines",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:etl-vs-elt",
       "target": "wiki:data-quality-and-observability",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:etl-vs-elt",
       "target": "wiki:data-warehouse",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:etl-vs-elt",
+      "target": "wiki:data-warehouse-vs-data-lakehouse",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:etl-vs-elt",
+      "target": "wiki:dataops",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -44479,17 +44965,65 @@
       "source": "wiki:etl-vs-elt",
       "target": "wiki:dbt",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
+    },
+    {
+      "source": "wiki:etl-vs-elt",
+      "target": "wiki:dbt",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:etl-vs-elt",
       "target": "wiki:elt",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:etl-vs-elt",
       "target": "wiki:elt",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:etl-vs-elt",
+      "target": "wiki:etl",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:etl-vs-elt",
+      "target": "wiki:etl",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:etl-vs-elt",
+      "target": "wiki:gitops-for-data-teams",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:etl-vs-elt",
+      "target": "wiki:modern-data-stack",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:etl-vs-elt",
+      "target": "wiki:modern-data-stack",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:etl-vs-elt",
+      "target": "wiki:reverse-etl",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:etl-vs-elt",
+      "target": "wiki:reverse-etl",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -47153,33 +47687,375 @@
     },
     {
       "source": "wiki:llm-production-patterns",
-      "target": "wiki:data-engineering-platforms",
+      "target": "article:llm-system-design-interview",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:llm-production-patterns",
-      "target": "wiki:data-engineering-platforms",
+      "target": "person:adityagautam",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "person:atitaarora",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "person:bartoszmikulski",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "person:hugobowneanderson",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "person:lavanyagupta",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "person:marianosemelman",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "person:mariasukhareva",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "person:meryemarik",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "person:micheallanham",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "person:nasserqadri",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "person:pauliusztin",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "person:ranjithakulkarni",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "person:sandrakublik",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "podcast:applied-llm-research-and-career-growth-in-practice",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
+      "kind": "wiki-link",
+      "weight": 14
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
+      "kind": "wiki-link",
+      "weight": 14
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "podcast:from-game-ai-to-modern-ai-agents",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "podcast:generative-ai-chatbots-in-production-security",
+      "kind": "wiki-link",
+      "weight": 10
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "podcast:practical-llm-engineering-and-rag",
+      "kind": "wiki-link",
+      "weight": 10
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "podcast:practical-llm-use-cases-and-product-patterns",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "podcast:production-ready-ai-engineering",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "podcast:s23e03-future-of-ai-agents",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "podcast:s23e07-understanding-ai-engineer-role",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "wiki:agent-engineering",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "wiki:agent-engineering",
       "kind": "wiki-related",
       "weight": 3
     },
     {
       "source": "wiki:llm-production-patterns",
-      "target": "wiki:mlops-and-dataops",
+      "target": "wiki:ai-agents",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:llm-production-patterns",
-      "target": "wiki:mlops-and-dataops",
+      "target": "wiki:ai-engineer-role",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "wiki:ai-engineer-role",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "wiki:ai-engineering",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "wiki:ai-engineering-roadmap",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "wiki:ai-infrastructure",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "wiki:ai-red-teaming",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "wiki:ai-red-teaming",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "wiki:data-engineering",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "wiki:data-governance",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "wiki:data-products",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "wiki:evaluation",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "wiki:llms",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "wiki:llms",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "wiki:mlops",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "wiki:model-monitoring",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "wiki:notebook-to-production-ai-systems",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "wiki:notebook-to-production-ai-systems",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "wiki:orchestration",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "wiki:production-search-evaluation",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "wiki:rag-portfolio-projects",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "wiki:rag-vs-fine-tuning",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "wiki:rag-vs-fine-tuning",
       "kind": "wiki-related",
       "weight": 3
     },
     {
       "source": "wiki:llm-production-patterns",
       "target": "wiki:responsible-ai-and-governance",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "wiki:retrieval-augmented-generation",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "wiki:search-rag-and-knowledge-systems",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "wiki:security",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "wiki:software-engineering",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "wiki:testing",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "wiki:tools",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:llms",
