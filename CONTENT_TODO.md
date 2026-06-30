@@ -90,19 +90,19 @@ Existing pages:
 - `_wiki/data-engineer-role.md`
 - `_wiki/data-product-management.md`
 - `_wiki/data-scientist-role.md`
+- `_wiki/data-team-lead-role.md`
+- `_wiki/data-architect-role.md`
 - `_wiki/machine-learning-engineer-role.md`
+- `_wiki/ml-platform-engineer-role.md`
+- `_wiki/mlops-engineer.md`
 - `_guides/analytics-engineer.md`
 - `_guides/data-product-manager-role.md`
 
 Candidate pages:
 
-- ML platform engineer
 - Analytics engineer
 - Data product manager
 - Developer advocate / DevRel engineer
-- MLOps engineer
-- Data architect
-- Data team lead / head of data
 
 Source hints:
 
@@ -134,22 +134,18 @@ Existing pages:
   portfolio packaging.
 - `_roadmaps/data-engineer-roadmap.md` owns the main data engineer roadmap.
 - `_guides/software-engineer-to-machine-learning.md`
+- `_roadmaps/data-analyst-to-data-engineer.md`
+- `_wiki/academic-researcher-to-data-science.md`
+- `_wiki/devops-to-data-engineering.md`
+- `_wiki/marketing-to-analytics-engineering.md`
+- `_wiki/product-designer-to-data-product-manager.md`
+- `_wiki/qa-to-ml-and-data-engineering.md`
+- `_wiki/data-scientist-to-machine-learning-engineer.md`
+- `_wiki/software-engineer-to-machine-learning.md`
 
 Candidate pages:
 
-- Software engineer to machine learning
-- Data analyst to data engineer. Create
-  `_roadmaps/data-analyst-to-data-engineer.md` as an analyst-specific
-  transition page grounded in `data-engineering-career-path-and-skills.md`,
-  `get-data-engineering-job-prep-and-interview.md`, and
-  `get-data-analytics-and-data-engineering-job.md`.
 - Data analyst to analytics engineer
-- Marketing to analytics engineering
-- QA engineer to ML or data engineering
-- Academic researcher to data science
-- Product designer to data product manager
-- Data scientist to ML engineer
-- DevOps engineer to data engineering
 - Consultant or freelancer to data product founder
 
 Source hints:
@@ -240,11 +236,16 @@ comparison outcomes:
 
 Existing pages:
 
+- `_comparisons/data-analyst-vs-analytics-engineer.md`
+- `_comparisons/data-product-manager-vs-product-manager.md`
+- `_comparisons/data-product-owner-vs-data-product-manager.md`
 - `_comparisons/dataops-vs-data-engineering.md`
 - `_comparisons/delta-lake-vs-apache-iceberg.md`
 - `_comparisons/etl-vs-elt.md`
+- `_comparisons/knowledge-graph-vs-vector-search.md`
 - `_comparisons/machine-learning-engineer-vs-data-scientist.md`
 - `_comparisons/mlops-vs-dataops.md`
+- `_comparisons/mlops-vs-devops.md`
 - `_comparisons/product-owner-vs-product-manager.md`
 - `_comparisons/rag-vs-fine-tuning.md`
 - `_wiki/batch-vs-streaming.md` owns the canonical batch vs streaming decision.
@@ -264,21 +265,6 @@ Candidate pages:
   `_comparisons/data-engineer-vs-data-scientist.md` only as a short
   decision-oriented page for the exact role query; keep
   `_wiki/data-engineer-vs-data-scientist.md` as the canonical reference page.
-- Data analyst vs analytics engineer
-- Data analyst vs analytics engineer. Create
-  `_comparisons/data-analyst-vs-analytics-engineer.md` as a short
-  decision-oriented page that points back to
-  `_wiki/data-analyst-vs-analytics-engineer.md`.
-- Data product manager vs product manager. Create
-  `_comparisons/data-product-manager-vs-product-manager.md` grounded in
-  `_wiki/data-product-management.md`, `_guides/data-product-manager-role.md`,
-  and product/adoption episodes.
-- Data product owner vs data product manager. Create
-  `_comparisons/data-product-owner-vs-data-product-manager.md` as a focused
-  spin-out from `_comparisons/product-owner-vs-product-manager.md`,
-  `_wiki/data-product-management.md`, and
-  `building-data-products-product-owner-vs-product-manager.md`.
-- MLOps vs DevOps
 
 Source hints:
 
@@ -297,21 +283,22 @@ Start with this batch when expanding the content set.
   `.tmp/next-actions-done-datatalks.club.xlsx` currently has the expected tabs
   but only header rows, so replace it with the populated export before creating
   gap-driven pages.
-- Add transition pages for marketing to analytics engineering, QA to ML/data
-  engineering, and academic researcher to data science.
+- Improve the published transition pages for marketing to analytics
+  engineering, QA to ML/data engineering, academic researcher to data science,
+  product designer to data product manager, and data scientist to machine
+  learning engineer as the source archive grows.
 - Add portfolio project pages for data engineering, ML engineering, analytics
   engineering, and RAG.
 - Add roadmap pages for data engineering, AI engineering, MLOps, and analytics
   engineering.
-- Add comparison pages for data analyst vs analytics engineer and RAG vs
-  fine-tuning first. These have the strongest current mix of podcast evidence,
-  existing wiki support, and keyword fit.
+- Improve the existing comparison pages for data analyst vs analytics engineer
+  and RAG vs fine-tuning when new podcast evidence appears.
 - Keep batch vs streaming and data warehouse vs data lakehouse as wiki-owned
   decision pages unless a new keyword brief requires a very short editorial
   page that points back to the canonical wiki page.
 - Viable audited follow-ups: data engineer vs data scientist as a short
-  decision page, MLOps vs DevOps as a short decision page, and data analyst to
-  analytics engineer as an analyst-specific roadmap page.
+  decision page and data analyst to analytics engineer as an analyst-specific
+  roadmap page.
 - Keep `dataops platforms` on `_wiki/dataops-platforms.md`. It links to
   DataOps, DataOps tools, platform engineering, and data engineering platforms.
 - Improve `_wiki/open-source.md` before creating any Open Source editorial
@@ -319,11 +306,10 @@ Start with this batch when expanding the content set.
 - Treat Delta Lake as a wiki concept. The editorial comparison now lives in
   `_comparisons/delta-lake-vs-apache-iceberg.md`; keep bare Delta Lake updates
   on `_wiki/delta-lake.md`.
-- Create `_guides/ab-testing-podcast.md` as a listening guide, not a generic
-  explainer. Strong sources include `ab-testing-and-product-experimentation.md`,
-  `causal-inference-for-machine-learning.md`,
-  `ml-engineering-kpis-and-metrics-strategy.md`, and
-  `data-led-growth-event-tracking-and-reverse-etl.md`.
+- Keep A/B testing as wiki coverage, not a separate guide, unless a future
+  keyword brief specifically asks for a listening guide. Current coverage lives
+  in `_wiki/a-b-testing.md`, `_wiki/experimentation-and-causal-inference.md`,
+  and `_guides/product-analyst.md`.
 - Do not create a generic machine learning newsletter guide from the podcast
   archive alone. The evidence supports a community-content or owned-channel
   guide later, not a standalone "best newsletters" page.

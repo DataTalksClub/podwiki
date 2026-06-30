@@ -262,6 +262,7 @@ matter.
 Use these pages for narrower lifecycle, product, and infrastructure topics.
 
 - [MLOps]({{ '/wiki/mlops/' | relative_url }})
+- [ML Platform Engineer Role]({{ '/wiki/ml-platform-engineer-role/' | relative_url }})
 - [Platform Engineering]({{ '/wiki/platform-engineering/' | relative_url }})
 - [Machine Learning Infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }})
 - [Developer Experience]({{ '/wiki/developer-experience/' | relative_url }})

@@ -206,9 +206,19 @@ stack works. People have to use the outputs in real decisions.
 
 Data team design connects to [data product management]({{ '/wiki/data-product-management/' | relative_url }})
 when teams need roadmaps, discovery, adoption metrics, and product owners for
-internal data assets. It connects to [analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
+internal data assets. It connects to
+[analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
 when the organization needs tested models, governed metrics, documentation, and
-BI-ready datasets. It connects to [leadership]({{ '/wiki/leadership/' | relative_url }})
+BI-ready datasets.
+
+Use [Data Team Lead Role]({{ '/wiki/data-team-lead-role/' | relative_url }})
+for hiring order, trust repair, adoption, and head-of-data scope. It also covers
+manager-versus-expert boundaries. Use
+[Data Architect Role]({{ '/wiki/data-architect-role/' | relative_url }}) for
+end-to-end model structure, reusable templates, governance, and consumer-facing
+architecture.
+
+Data team design also connects to [leadership]({{ '/wiki/leadership/' | relative_url }})
 and [communication]({{ '/wiki/communication/' | relative_url }}) when managers
 must translate stakeholder demand into priorities, career growth, and operating
 standards.

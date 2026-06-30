@@ -1,13 +1,13 @@
 {
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
-    "wikis": 169,
+    "wikis": 174,
     "articles": 78,
     "podcasts": 202,
     "persons": 438,
     "topics": 146,
-    "nodes": 1033,
-    "links": 10878
+    "nodes": 1038,
+    "links": 11042
   },
   "nodes": [
     {
@@ -8973,6 +8973,16 @@
       "search": "Data Analyst vs Analytics Engineer A podcast backed comparison of the data analyst and analytics engineer role boundary: decisions, dashboards, reusable models, dbt, data quality, and team ownership."
     },
     {
+      "id": "wiki:data-architect-role",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Data Architect Role",
+      "title": "Data Architect Role",
+      "url": "/wiki/data-architect-role/",
+      "count": 1,
+      "search": "Data Architect Role Podcast backed definition of the data architect role: end to end data ownership, modeling, cloud adaptation, stakeholder alignment, reusable patterns, and boundaries with data engineering leadership."
+    },
+    {
       "id": "wiki:data-engineer-role",
       "type": "wiki",
       "collection": "wiki",
@@ -9193,6 +9203,16 @@
       "search": "Data Scientist Role Archive backed definition of the data scientist role: product questions, modeling, experimentation, ambiguity, role boundaries, and supporting episodes."
     },
     {
+      "id": "wiki:data-scientist-to-machine-learning-engineer",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Data Scientist to Machine Learning Engineer",
+      "title": "Data Scientist to Machine Learning Engineer",
+      "url": "/wiki/data-scientist-to-machine-learning-engineer/",
+      "count": 1,
+      "search": "Data Scientist to Machine Learning Engineer Podcast backed transition notes for data scientists moving toward machine learning engineering through software engineering, deployment, monitoring, MLOps, and production ownership."
+    },
+    {
       "id": "wiki:data-strategy",
       "type": "wiki",
       "collection": "wiki",
@@ -9201,6 +9221,16 @@
       "url": "/wiki/data-strategy/",
       "count": 1,
       "search": "Data Strategy How DataTalks.Club guests connect data strategy to business goals, operating models, governance, platforms, adoption, and tool choices."
+    },
+    {
+      "id": "wiki:data-team-lead-role",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Data Team Lead Role",
+      "title": "Data Team Lead Role",
+      "url": "/wiki/data-team-lead-role/",
+      "count": 1,
+      "search": "Data Team Lead Role Podcast backed definition of the data team lead and head of data role: hiring order, team design, stakeholder adoption, quality standards, trust repair, and leadership boundaries."
     },
     {
       "id": "wiki:data-teams",
@@ -9703,6 +9733,16 @@
       "search": "Metrics How DataTalks.Club podcast guests define metrics for product decisions, ML systems, monitoring, experiments, and business impact."
     },
     {
+      "id": "wiki:ml-platform-engineer-role",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "ML Platform Engineer Role",
+      "title": "ML Platform Engineer Role",
+      "url": "/wiki/ml-platform-engineer-role/",
+      "count": 1,
+      "search": "ML Platform Engineer Role Podcast backed definition of the ML platform engineer role: internal ML platforms, developer experience, MLOps services, infrastructure tradeoffs, and boundaries with MLOps and ML engineering."
+    },
+    {
       "id": "wiki:ml-platforms",
       "type": "wiki",
       "collection": "wiki",
@@ -9951,6 +9991,16 @@
       "url": "/wiki/product-analytics/",
       "count": 1,
       "search": "Product Analytics How the podcast archive connects product analytics to event tracking, metrics, experimentation, activation, and product decision making."
+    },
+    {
+      "id": "wiki:product-designer-to-data-product-manager",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Product Designer to Data Product Manager",
+      "title": "Product Designer to Data Product Manager",
+      "url": "/wiki/product-designer-to-data-product-manager/",
+      "count": 1,
+      "search": "Product Designer to Data Product Manager Podcast backed transition notes for product designers moving into data product management through discovery, SQL, data quality, documentation, portfolio cases, and stakeholder empathy."
     },
     {
       "id": "wiki:production",
@@ -47308,6 +47358,12 @@
     },
     {
       "source": "wiki:career-transitions-in-data",
+      "target": "wiki:data-scientist-to-machine-learning-engineer",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
       "target": "wiki:developer-relations",
       "kind": "wiki-link",
       "weight": 2
@@ -47387,6 +47443,12 @@
     {
       "source": "wiki:career-transitions-in-data",
       "target": "wiki:product-analytics",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
+      "target": "wiki:product-designer-to-data-product-manager",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -49735,6 +49797,222 @@
       "target": "wiki:product-analytics",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-architect-role",
+      "target": "person:16rahuljain",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-architect-role",
+      "target": "person:loicmagnien",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-architect-role",
+      "target": "person:mehdiouazza",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-architect-role",
+      "target": "person:tammyliang",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-architect-role",
+      "target": "person:zhamakdehghani",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-architect-role",
+      "target": "podcast:building-and-scaling-data-team",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-architect-role",
+      "target": "podcast:cloud-data-governance",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-architect-role",
+      "target": "podcast:data-engineering-leadership-and-modern-data-platforms",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-architect-role",
+      "target": "podcast:data-governance-data-access-management",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-architect-role",
+      "target": "podcast:data-mesh-architecture-decentralized-data-products",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-architect-role",
+      "target": "podcast:dataops-principles-and-scalable-data-platforms",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-architect-role",
+      "target": "podcast:from-iot-data-engineering-to-leading-data-architect",
+      "kind": "wiki-link",
+      "weight": 14
+    },
+    {
+      "source": "wiki:data-architect-role",
+      "target": "podcast:scaling-data-engineering-teams-self-service-platforms",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-architect-role",
+      "target": "wiki:analytics-engineering",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:data-architect-role",
+      "target": "wiki:analytics-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-architect-role",
+      "target": "wiki:data-engineer-role",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-architect-role",
+      "target": "wiki:data-engineering",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-architect-role",
+      "target": "wiki:data-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-architect-role",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-architect-role",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-architect-role",
+      "target": "wiki:data-governance",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-architect-role",
+      "target": "wiki:data-governance",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-architect-role",
+      "target": "wiki:data-mesh",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-architect-role",
+      "target": "wiki:data-mesh",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-architect-role",
+      "target": "wiki:data-product-management",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-architect-role",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-architect-role",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-architect-role",
+      "target": "wiki:data-team-lead-role",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-architect-role",
+      "target": "wiki:data-teams",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-architect-role",
+      "target": "wiki:data-teams",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-architect-role",
+      "target": "wiki:data-warehouse-vs-data-lakehouse",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-architect-role",
+      "target": "wiki:data-warehouse-vs-data-lakehouse",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-architect-role",
+      "target": "wiki:dataops",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-architect-role",
+      "target": "wiki:governance",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-architect-role",
+      "target": "wiki:leadership",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-architect-role",
+      "target": "wiki:self-service-data-platforms",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:data-engineer-role",
@@ -53482,6 +53760,12 @@
     },
     {
       "source": "wiki:data-product-management",
+      "target": "wiki:product-designer-to-data-product-manager",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-product-management",
       "target": "wiki:production",
       "kind": "wiki-link",
       "weight": 2
@@ -54933,6 +55217,198 @@
       "weight": 4
     },
     {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "article:comparison:machine-learning-engineer-vs-data-scientist",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "person:benwilson",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "person:dannyma",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "person:ellenkonig",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "person:mihaileric",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "person:roksolanadiachuk",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "person:simonstiebellehner",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "person:svpino",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "podcast:big-data-engineer-vs-data-scientist",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "podcast:building-production-ml-platform-and-mlops-team",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "podcast:data-science-career-abc-framework",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "podcast:from-software-engineer-to-machine-learning",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "podcast:from-software-engineering-data-science-to-data-engineering-leadership",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "podcast:machine-learning-engineering-production-best-practices",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "podcast:research-to-production-ml-systems-roadmap",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "wiki:career-transition",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "wiki:career-transitions-in-data",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "wiki:data-science-careers",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "wiki:data-science-careers",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "wiki:data-scientist-role",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "wiki:data-scientist-role",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "wiki:machine-learning-engineer-role",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "wiki:machine-learning-engineer-role",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "wiki:ml-platform-engineer-role",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "wiki:mlops",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "wiki:mlops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "wiki:software-engineering",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "wiki:software-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
       "source": "wiki:data-strategy",
       "target": "article:guide:airflow",
       "kind": "wiki-link",
@@ -55137,6 +55613,204 @@
       "weight": 2
     },
     {
+      "source": "wiki:data-team-lead-role",
+      "target": "person:barbarasobkowiak",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-team-lead-role",
+      "target": "person:caitlinmoorman",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-team-lead-role",
+      "target": "person:katiebauer",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-team-lead-role",
+      "target": "person:lisacohen",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-team-lead-role",
+      "target": "person:marcodesa",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-team-lead-role",
+      "target": "person:tammyliang",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-team-lead-role",
+      "target": "person:terezaiofciu",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-team-lead-role",
+      "target": "podcast:building-and-scaling-data-team",
+      "kind": "wiki-link",
+      "weight": 14
+    },
+    {
+      "source": "wiki:data-team-lead-role",
+      "target": "podcast:chief-data-officer-data-strategy-and-org-design",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-team-lead-role",
+      "target": "podcast:data-leadership-coaching",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-team-lead-role",
+      "target": "podcast:data-science-manager-vs-expert-hiring-guide",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-team-lead-role",
+      "target": "podcast:data-science-team-structure-and-org-design",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:data-team-lead-role",
+      "target": "podcast:hiring-and-managing-data-science-teams-in-b2b-saas",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-team-lead-role",
+      "target": "podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-team-lead-role",
+      "target": "wiki:data-architect-role",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-team-lead-role",
+      "target": "wiki:data-engineer-role",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-team-lead-role",
+      "target": "wiki:data-engineer-role",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-team-lead-role",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-team-lead-role",
+      "target": "wiki:data-product-adoption",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-team-lead-role",
+      "target": "wiki:data-product-management",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-team-lead-role",
+      "target": "wiki:data-product-management",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-team-lead-role",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-team-lead-role",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-team-lead-role",
+      "target": "wiki:data-scientist-role",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-team-lead-role",
+      "target": "wiki:data-scientist-role",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-team-lead-role",
+      "target": "wiki:data-strategy",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-team-lead-role",
+      "target": "wiki:data-strategy",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-team-lead-role",
+      "target": "wiki:data-teams",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-team-lead-role",
+      "target": "wiki:data-teams",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-team-lead-role",
+      "target": "wiki:leadership",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-team-lead-role",
+      "target": "wiki:leadership",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-team-lead-role",
+      "target": "wiki:team-building",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-team-lead-role",
+      "target": "wiki:team-building",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
       "source": "wiki:data-teams",
       "target": "article:guide:data-engineer-manager",
       "kind": "wiki-link",
@@ -55264,6 +55938,12 @@
     },
     {
       "source": "wiki:data-teams",
+      "target": "wiki:data-architect-role",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-teams",
       "target": "wiki:data-engineering-platforms",
       "kind": "wiki-link",
       "weight": 4
@@ -55309,6 +55989,12 @@
       "target": "wiki:data-products",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-teams",
+      "target": "wiki:data-team-lead-role",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:data-teams",
@@ -64449,6 +65135,198 @@
       "weight": 2
     },
     {
+      "source": "wiki:ml-platform-engineer-role",
+      "target": "person:geojolly",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ml-platform-engineer-role",
+      "target": "person:krzysztofszafanek",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ml-platform-engineer-role",
+      "target": "person:mariavechtomova",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ml-platform-engineer-role",
+      "target": "person:raphaelhoogvliets",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ml-platform-engineer-role",
+      "target": "person:simonstiebellehner",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ml-platform-engineer-role",
+      "target": "podcast:building-production-ml-platform-and-mlops-team",
+      "kind": "wiki-link",
+      "weight": 18
+    },
+    {
+      "source": "wiki:ml-platform-engineer-role",
+      "target": "podcast:how-to-grow-your-ml-engineering-career",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:ml-platform-engineer-role",
+      "target": "podcast:ml-product-manager-and-mlops-platform-strategy",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ml-platform-engineer-role",
+      "target": "podcast:mlops-at-scale-reproducibility-adoption",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ml-platform-engineer-role",
+      "target": "podcast:mlops-feature-stores-feature-stores-feast-tecton",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ml-platform-engineer-role",
+      "target": "podcast:pragmatic-and-standardized-mlops",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ml-platform-engineer-role",
+      "target": "wiki:developer-experience",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ml-platform-engineer-role",
+      "target": "wiki:developer-experience",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ml-platform-engineer-role",
+      "target": "wiki:experiment-tracking",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ml-platform-engineer-role",
+      "target": "wiki:experiment-tracking",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ml-platform-engineer-role",
+      "target": "wiki:governance",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ml-platform-engineer-role",
+      "target": "wiki:machine-learning-engineer-role",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:ml-platform-engineer-role",
+      "target": "wiki:machine-learning-engineer-role",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ml-platform-engineer-role",
+      "target": "wiki:ml-platforms",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ml-platform-engineer-role",
+      "target": "wiki:ml-platforms",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ml-platform-engineer-role",
+      "target": "wiki:mlops",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ml-platform-engineer-role",
+      "target": "wiki:mlops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ml-platform-engineer-role",
+      "target": "wiki:mlops-engineer",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ml-platform-engineer-role",
+      "target": "wiki:model-monitoring",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ml-platform-engineer-role",
+      "target": "wiki:model-monitoring",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ml-platform-engineer-role",
+      "target": "wiki:model-registry",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ml-platform-engineer-role",
+      "target": "wiki:model-registry",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ml-platform-engineer-role",
+      "target": "wiki:platform-adoption",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ml-platform-engineer-role",
+      "target": "wiki:platform-adoption",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ml-platform-engineer-role",
+      "target": "wiki:platform-engineering",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ml-platform-engineer-role",
+      "target": "wiki:platform-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ml-platform-engineer-role",
+      "target": "wiki:reproducibility",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
       "source": "wiki:ml-platforms",
       "target": "person:alexanderhendorf",
       "kind": "wiki-link",
@@ -64583,6 +65461,12 @@
     {
       "source": "wiki:ml-platforms",
       "target": "wiki:machine-learning-system-design",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ml-platforms",
+      "target": "wiki:ml-platform-engineer-role",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -69197,6 +70081,156 @@
     {
       "source": "wiki:product-analytics",
       "target": "wiki:tracking-plans",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
+      "target": "article:comparison:data-product-manager-vs-product-manager",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
+      "target": "article:comparison:product-owner-vs-product-manager",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
+      "target": "person:annahannemann",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
+      "target": "person:caitlinmoorman",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
+      "target": "person:geojolly",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
+      "target": "person:saramenefee",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
+      "target": "podcast:building-data-products-product-owner-vs-product-manager",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
+      "target": "podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
+      "target": "podcast:ml-product-manager-and-mlops-platform-strategy",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
+      "target": "podcast:product-designer-to-data-product-manager",
+      "kind": "wiki-link",
+      "weight": 16
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
+      "target": "wiki:a-b-testing",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
+      "target": "wiki:career-transition",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
+      "target": "wiki:career-transition",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
+      "target": "wiki:career-transitions-in-data",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
+      "target": "wiki:data-engineering",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
+      "target": "wiki:data-product-adoption",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
+      "target": "wiki:data-product-adoption",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
+      "target": "wiki:data-product-management",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
+      "target": "wiki:data-product-management",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
+      "target": "wiki:data-products",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
+      "target": "wiki:data-products",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
+      "target": "wiki:product-analytics",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
+      "target": "wiki:product-analytics",
       "kind": "wiki-related",
       "weight": 3
     },
