@@ -43972,13 +43972,13 @@
       "source": "wiki:academic-researcher-to-data-science",
       "target": "person:anastasiakaravdina",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
       "target": "person:cjjenkins",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
@@ -43996,13 +43996,19 @@
       "source": "wiki:academic-researcher-to-data-science",
       "target": "person:lukewhipps",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
       "target": "person:mihaileric",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
+    },
+    {
+      "source": "wiki:academic-researcher-to-data-science",
+      "target": "person:olegnovikov",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
@@ -44018,9 +44024,15 @@
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
+      "target": "podcast:data-science-interview-and-cv-guide",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:academic-researcher-to-data-science",
       "target": "podcast:from-academia-to-staff-ai-engineer-interviews-and-career-growth",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
@@ -44038,31 +44050,31 @@
       "source": "wiki:academic-researcher-to-data-science",
       "target": "podcast:from-large-hadron-collider-to-data-science-research-software-engineering",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
       "target": "podcast:from-radio-astronomy-to-machine-learning-and-data-engineering",
       "kind": "wiki-link",
-      "weight": 10
+      "weight": 8
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
       "target": "podcast:get-data-scientist-job",
       "kind": "wiki-link",
-      "weight": 14
+      "weight": 10
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
       "target": "podcast:postdoc-to-data-science-lead-career-transition",
       "kind": "wiki-link",
-      "weight": 30
+      "weight": 28
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
       "target": "podcast:research-to-production-ml-systems-roadmap",
       "kind": "wiki-link",
-      "weight": 12
+      "weight": 10
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
@@ -44104,7 +44116,7 @@
       "source": "wiki:academic-researcher-to-data-science",
       "target": "wiki:data-engineering",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
@@ -44140,7 +44152,7 @@
       "source": "wiki:academic-researcher-to-data-science",
       "target": "wiki:job-search",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 2
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
@@ -44152,7 +44164,7 @@
       "source": "wiki:academic-researcher-to-data-science",
       "target": "wiki:machine-learning",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
@@ -44174,12 +44186,6 @@
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
-      "target": "wiki:mlops",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:academic-researcher-to-data-science",
       "target": "wiki:notebook-to-production-ai-systems",
       "kind": "wiki-link",
       "weight": 4
@@ -44194,23 +44200,11 @@
       "source": "wiki:academic-researcher-to-data-science",
       "target": "wiki:open-source-portfolio-evidence",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
       "target": "wiki:production",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:academic-researcher-to-data-science",
-      "target": "wiki:reproducibility",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:academic-researcher-to-data-science",
-      "target": "wiki:software-engineering",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -45578,6 +45572,12 @@
     },
     {
       "source": "wiki:ai-engineering-roadmap",
+      "target": "person:adityagautam",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-engineering-roadmap",
       "target": "person:atitaarora",
       "kind": "wiki-link",
       "weight": 2
@@ -45586,13 +45586,13 @@
       "source": "wiki:ai-engineering-roadmap",
       "target": "person:bartoszmikulski",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:ai-engineering-roadmap",
       "target": "person:hugobowneanderson",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:ai-engineering-roadmap",
@@ -45616,19 +45616,19 @@
       "source": "wiki:ai-engineering-roadmap",
       "target": "person:nasserqadri",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:ai-engineering-roadmap",
       "target": "person:pauliusztin",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:ai-engineering-roadmap",
       "target": "person:ranjithakulkarni",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:ai-engineering-roadmap",
@@ -45640,31 +45640,31 @@
       "source": "wiki:ai-engineering-roadmap",
       "target": "person:ruslanshchuchkin",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:ai-engineering-roadmap",
       "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
       "kind": "wiki-link",
-      "weight": 10
+      "weight": 12
     },
     {
       "source": "wiki:ai-engineering-roadmap",
       "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 8
     },
     {
       "source": "wiki:ai-engineering-roadmap",
       "target": "podcast:from-game-ai-to-modern-ai-agents",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:ai-engineering-roadmap",
       "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "wiki:ai-engineering-roadmap",
@@ -45682,37 +45682,37 @@
       "source": "wiki:ai-engineering-roadmap",
       "target": "podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products",
       "kind": "wiki-link",
-      "weight": 14
+      "weight": 18
     },
     {
       "source": "wiki:ai-engineering-roadmap",
       "target": "podcast:s23e03-future-of-ai-agents",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:ai-engineering-roadmap",
       "target": "podcast:s23e04-how-to-become-ai-engineer-after-career-break",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:ai-engineering-roadmap",
       "target": "podcast:s23e05-inside-ai-engineer-role-tools-skills-and-career-path",
       "kind": "wiki-link",
-      "weight": 10
+      "weight": 14
     },
     {
       "source": "wiki:ai-engineering-roadmap",
       "target": "podcast:s23e07-understanding-ai-engineer-role",
       "kind": "wiki-link",
-      "weight": 10
+      "weight": 12
     },
     {
       "source": "wiki:ai-engineering-roadmap",
       "target": "podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "wiki:ai-engineering-roadmap",
@@ -45748,7 +45748,7 @@
       "source": "wiki:ai-engineering-roadmap",
       "target": "wiki:ai-engineering",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:ai-engineering-roadmap",
@@ -45772,7 +45772,7 @@
       "source": "wiki:ai-engineering-roadmap",
       "target": "wiki:ai-red-teaming",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:ai-engineering-roadmap",
@@ -45784,7 +45784,7 @@
       "source": "wiki:ai-engineering-roadmap",
       "target": "wiki:llm-evaluation-workflows",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:ai-engineering-roadmap",
@@ -45832,7 +45832,7 @@
       "source": "wiki:ai-engineering-roadmap",
       "target": "wiki:multi-agent-systems",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:ai-engineering-roadmap",
@@ -45844,13 +45844,13 @@
       "source": "wiki:ai-engineering-roadmap",
       "target": "wiki:prompt-engineering",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "wiki:ai-engineering-roadmap",
       "target": "wiki:rag",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "wiki:ai-engineering-roadmap",
@@ -45862,7 +45862,7 @@
       "source": "wiki:ai-engineering-roadmap",
       "target": "wiki:rag-portfolio-projects",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:ai-engineering-roadmap",
@@ -45874,13 +45874,19 @@
       "source": "wiki:ai-engineering-roadmap",
       "target": "wiki:responsible-ai-and-governance",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:ai-engineering-roadmap",
       "target": "wiki:retrieval-augmented-generation",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai-engineering-roadmap",
+      "target": "wiki:search-and-rag-project-checklist",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:ai-engineering-roadmap",
@@ -45892,7 +45898,7 @@
       "source": "wiki:ai-engineering-roadmap",
       "target": "wiki:security",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:ai-engineering-roadmap",
@@ -46666,7 +46672,7 @@
       "source": "wiki:analytics-engineering-portfolio-projects",
       "target": "person:arpitchoudhury",
       "kind": "wiki-link",
-      "weight": 14
+      "weight": 8
     },
     {
       "source": "wiki:analytics-engineering-portfolio-projects",
@@ -46684,67 +46690,67 @@
       "source": "wiki:analytics-engineering-portfolio-projects",
       "target": "person:jeffkatz",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:analytics-engineering-portfolio-projects",
       "target": "person:juanmanuelperafan",
       "kind": "wiki-link",
-      "weight": 14
+      "weight": 10
     },
     {
       "source": "wiki:analytics-engineering-portfolio-projects",
       "target": "person:nataliekwong",
       "kind": "wiki-link",
-      "weight": 10
+      "weight": 6
     },
     {
       "source": "wiki:analytics-engineering-portfolio-projects",
       "target": "person:nikolamaksimovic",
       "kind": "wiki-link",
-      "weight": 14
+      "weight": 12
     },
     {
       "source": "wiki:analytics-engineering-portfolio-projects",
       "target": "person:tammyliang",
       "kind": "wiki-link",
-      "weight": 10
+      "weight": 6
     },
     {
       "source": "wiki:analytics-engineering-portfolio-projects",
       "target": "person:victoriaperezmola",
       "kind": "wiki-link",
-      "weight": 16
+      "weight": 12
     },
     {
       "source": "wiki:analytics-engineering-portfolio-projects",
       "target": "podcast:analytics-engineer-skills-tools",
       "kind": "wiki-link",
-      "weight": 18
+      "weight": 14
     },
     {
       "source": "wiki:analytics-engineering-portfolio-projects",
       "target": "podcast:building-and-scaling-data-team",
       "kind": "wiki-link",
-      "weight": 10
+      "weight": 6
     },
     {
       "source": "wiki:analytics-engineering-portfolio-projects",
       "target": "podcast:data-engineering-career-path-and-skills",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:analytics-engineering-portfolio-projects",
       "target": "podcast:data-engineering-tools-modern-data-stack",
       "kind": "wiki-link",
-      "weight": 10
+      "weight": 6
     },
     {
       "source": "wiki:analytics-engineering-portfolio-projects",
       "target": "podcast:data-led-growth-event-tracking-and-reverse-etl",
       "kind": "wiki-link",
-      "weight": 14
+      "weight": 8
     },
     {
       "source": "wiki:analytics-engineering-portfolio-projects",
@@ -46762,19 +46768,25 @@
       "source": "wiki:analytics-engineering-portfolio-projects",
       "target": "podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch",
       "kind": "wiki-link",
-      "weight": 14
+      "weight": 12
     },
     {
       "source": "wiki:analytics-engineering-portfolio-projects",
       "target": "podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices",
       "kind": "wiki-link",
-      "weight": 14
+      "weight": 10
+    },
+    {
+      "source": "wiki:analytics-engineering-portfolio-projects",
+      "target": "wiki:a-b-testing",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:analytics-engineering-portfolio-projects",
       "target": "wiki:analytics-engineering",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:analytics-engineering-portfolio-projects",
@@ -46786,7 +46798,7 @@
       "source": "wiki:analytics-engineering-portfolio-projects",
       "target": "wiki:analytics-engineering-roadmap",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:analytics-engineering-portfolio-projects",
@@ -46798,7 +46810,7 @@
       "source": "wiki:analytics-engineering-portfolio-projects",
       "target": "wiki:dashboard-and-metric-layer-project-checklist",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:analytics-engineering-portfolio-projects",
@@ -46810,7 +46822,7 @@
       "source": "wiki:analytics-engineering-portfolio-projects",
       "target": "wiki:data-activation",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "wiki:analytics-engineering-portfolio-projects",
@@ -46852,7 +46864,7 @@
       "source": "wiki:analytics-engineering-portfolio-projects",
       "target": "wiki:dataops",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "wiki:analytics-engineering-portfolio-projects",
@@ -46888,7 +46900,7 @@
       "source": "wiki:analytics-engineering-portfolio-projects",
       "target": "wiki:marketing-to-analytics-engineering",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:analytics-engineering-portfolio-projects",
@@ -46900,7 +46912,7 @@
       "source": "wiki:analytics-engineering-portfolio-projects",
       "target": "wiki:modern-data-stack",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:analytics-engineering-portfolio-projects",
@@ -46913,6 +46925,12 @@
       "target": "wiki:product-analytics",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:analytics-engineering-portfolio-projects",
+      "target": "wiki:reverse-etl",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:analytics-engineering-roadmap",
@@ -64252,49 +64270,49 @@
       "source": "wiki:job-search",
       "target": "person:jeffkatz",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 12
     },
     {
       "source": "wiki:job-search",
       "target": "person:lindsaymcquade",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 10
     },
     {
       "source": "wiki:job-search",
       "target": "person:lukewhipps",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 8
     },
     {
       "source": "wiki:job-search",
       "target": "person:nicksingh",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 10
     },
     {
       "source": "wiki:job-search",
       "target": "person:nicolasrassam",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 8
     },
     {
       "source": "wiki:job-search",
       "target": "person:olegnovikov",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 14
     },
     {
       "source": "wiki:job-search",
       "target": "person:sarahmestiri",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 14
     },
     {
       "source": "wiki:job-search",
       "target": "person:terezaiofciu",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "wiki:job-search",
@@ -64306,7 +64324,7 @@
       "source": "wiki:job-search",
       "target": "podcast:data-science-interview-and-cv-guide",
       "kind": "wiki-link",
-      "weight": 18
+      "weight": 16
     },
     {
       "source": "wiki:job-search",
@@ -64318,13 +64336,13 @@
       "source": "wiki:job-search",
       "target": "podcast:get-data-engineering-job-prep-and-interview",
       "kind": "wiki-link",
-      "weight": 14
+      "weight": 12
     },
     {
       "source": "wiki:job-search",
       "target": "podcast:get-data-scientist-job",
       "kind": "wiki-link",
-      "weight": 12
+      "weight": 9
     },
     {
       "source": "wiki:job-search",
@@ -64336,13 +64354,13 @@
       "source": "wiki:job-search",
       "target": "podcast:hiring-for-data-engineering-jobs-in-europe",
       "kind": "wiki-link",
-      "weight": 10
+      "weight": 8
     },
     {
       "source": "wiki:job-search",
       "target": "podcast:job-search-strategy-in-tech-projects-skills-cv-networking",
       "kind": "wiki-link",
-      "weight": 16
+      "weight": 14
     },
     {
       "source": "wiki:job-search",
@@ -64360,7 +64378,7 @@
       "source": "wiki:job-search",
       "target": "wiki:career-growth",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:job-search",
@@ -64372,7 +64390,7 @@
       "source": "wiki:job-search",
       "target": "wiki:career-transition",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:job-search",
@@ -64384,19 +64402,13 @@
       "source": "wiki:job-search",
       "target": "wiki:cv-screening",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:job-search",
       "target": "wiki:data-engineer-role",
       "kind": "wiki-link",
-      "weight": 6
-    },
-    {
-      "source": "wiki:job-search",
-      "target": "wiki:data-engineer-vs-data-scientist",
-      "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:job-search",
@@ -64420,13 +64432,13 @@
       "source": "wiki:job-search",
       "target": "wiki:data-scientist-role",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:job-search",
       "target": "wiki:hiring",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:job-search",
@@ -64438,7 +64450,7 @@
       "source": "wiki:job-search",
       "target": "wiki:job-descriptions",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:job-search",
@@ -64474,7 +64486,7 @@
       "source": "wiki:job-search",
       "target": "wiki:open-source-portfolio-evidence",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:knowledge-graph-vs-vector-search",
@@ -69274,89 +69286,83 @@
       "source": "wiki:mlops-vs-devops",
       "target": "article:guide:mlops-architecture",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:mlops-vs-devops",
       "target": "person:christopherbergh",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:mlops-vs-devops",
       "target": "person:dannyleybzon",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 2
     },
     {
       "source": "wiki:mlops-vs-devops",
       "target": "person:mariavechtomova",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 2
     },
     {
       "source": "wiki:mlops-vs-devops",
       "target": "person:raphaelhoogvliets",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 2
     },
     {
       "source": "wiki:mlops-vs-devops",
       "target": "person:simonstiebellehner",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 2
     },
     {
       "source": "wiki:mlops-vs-devops",
       "target": "person:theofilospapapanagiotou",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 2
     },
     {
       "source": "wiki:mlops-vs-devops",
       "target": "podcast:building-production-ml-platform-and-mlops-team",
       "kind": "wiki-link",
-      "weight": 20
+      "weight": 16
     },
     {
       "source": "wiki:mlops-vs-devops",
       "target": "podcast:dataops-for-data-engineering",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 4
     },
     {
       "source": "wiki:mlops-vs-devops",
       "target": "podcast:mlops-at-scale-reproducibility-adoption",
       "kind": "wiki-link",
-      "weight": 22
+      "weight": 16
     },
     {
       "source": "wiki:mlops-vs-devops",
       "target": "podcast:mlops-kubeflow-model-monitoring",
       "kind": "wiki-link",
-      "weight": 16
+      "weight": 12
     },
     {
       "source": "wiki:mlops-vs-devops",
       "target": "podcast:mlops-model-monitoring-data-observability",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:mlops-vs-devops",
       "target": "podcast:pragmatic-and-standardized-mlops",
       "kind": "wiki-link",
-      "weight": 22
+      "weight": 14
     },
     {
       "source": "wiki:mlops-vs-devops",
       "target": "wiki:ci-cd",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:mlops-vs-devops",
-      "target": "wiki:data-governance",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -69364,7 +69370,7 @@
       "source": "wiki:mlops-vs-devops",
       "target": "wiki:data-observability",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:mlops-vs-devops",
@@ -69376,31 +69382,25 @@
       "source": "wiki:mlops-vs-devops",
       "target": "wiki:experiment-tracking",
       "kind": "wiki-link",
-      "weight": 8
-    },
-    {
-      "source": "wiki:mlops-vs-devops",
-      "target": "wiki:governance",
-      "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:mlops-vs-devops",
       "target": "wiki:machine-learning-infrastructure",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:mlops-vs-devops",
       "target": "wiki:ml-platforms",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:mlops-vs-devops",
       "target": "wiki:mlops",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:mlops-vs-devops",
@@ -69412,19 +69412,19 @@
       "source": "wiki:mlops-vs-devops",
       "target": "wiki:mlops-engineer",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:mlops-vs-devops",
       "target": "wiki:mlops-tools",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:mlops-vs-devops",
       "target": "wiki:model-monitoring",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:mlops-vs-devops",
@@ -69436,7 +69436,7 @@
       "source": "wiki:mlops-vs-devops",
       "target": "wiki:model-registry",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:mlops-vs-devops",
@@ -69448,7 +69448,7 @@
       "source": "wiki:mlops-vs-devops",
       "target": "wiki:platform-engineering",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 2
     },
     {
       "source": "wiki:mlops-vs-devops",
@@ -69460,7 +69460,7 @@
       "source": "wiki:mlops-vs-devops",
       "target": "wiki:production",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:mlops-vs-devops",
@@ -69484,13 +69484,13 @@
       "source": "wiki:mlops-vs-devops",
       "target": "wiki:software-engineer-to-machine-learning",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:mlops-vs-devops",
       "target": "wiki:software-engineering",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:mlops-vs-devops",
