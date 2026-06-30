@@ -235,6 +235,9 @@ Existing pages:
 - `_comparisons/delta-lake-vs-apache-iceberg.md`
 - `_comparisons/etl-vs-elt.md`
 - `_comparisons/product-owner-vs-product-manager.md`
+- `_wiki/batch-vs-streaming.md` owns the canonical batch vs streaming decision.
+- `_wiki/data-warehouse-vs-data-lakehouse.md` owns the canonical warehouse vs
+  lakehouse decision.
 
 Candidate pages:
 
@@ -245,8 +248,6 @@ Candidate pages:
 - Data product owner vs data product manager
 - MLOps vs DevOps
 - DataOps vs MLOps
-- Batch vs streaming
-- Data warehouse vs data lakehouse
 - Data mesh vs centralized data platform
 - RAG vs fine-tuning
 - Vector database vs search engine
@@ -278,6 +279,12 @@ Start with this batch when expanding the content set.
 - Add comparison pages for data analyst vs analytics engineer and RAG vs
   fine-tuning first. These have the strongest current mix of podcast evidence,
   existing wiki support, and keyword fit.
+- Keep batch vs streaming and data warehouse vs data lakehouse as wiki-owned
+  decision pages unless a new keyword brief requires a very short editorial
+  page that points back to the canonical wiki page.
+- Viable audited follow-ups: data engineer vs data scientist as a short
+  decision page, MLOps vs DevOps as a short decision page, and data analyst to
+  analytics engineer as an analyst-specific roadmap page.
 - Keep `dataops platforms` on `_wiki/dataops-platforms.md`. It links to
   DataOps, DataOps tools, platform engineering, and data engineering platforms.
 - Improve `_wiki/open-source.md` before creating any Open Source editorial
