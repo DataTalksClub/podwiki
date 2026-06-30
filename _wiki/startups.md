@@ -1,6 +1,13 @@
 ---
 layout: wiki
 title: "Startups"
+keyword: "tech startups"
+secondary_keywords:
+  - "AI startups"
+  - "machine learning startups"
+  - "data startups"
+  - "open source startups"
+  - "MLOps startups"
 summary: "Recurring startup lessons across DataTalks.Club podcast discussions: problem discovery, validation, MLOps scope, open-source distribution, consulting paths, funding, and startup career tradeoffs."
 related:
   - Startup
@@ -14,12 +21,16 @@ related:
   - MLOps Roadmap
 ---
 
-DataTalks.Club guests discuss startup work through concrete company examples.
-They cover venture-backed MLOps tools, retail AI products, and open-source data products.
-They also cover consulting firms, indie products, and early jobs in four-person
-teams. Startup teams have to learn the real workflow and choose a narrow
-product boundary. They also have to reach users early and avoid technical scope
-that outruns the business.
+DataTalks.Club guests discuss tech startups through concrete company examples.
+In this archive, guests usually use tech startups for data and AI companies.
+They discuss machine learning companies, MLOps tools, and open-source
+developer-tool startups rather than generic startup advice. The archive covers
+venture-backed MLOps tools, retail AI products, and open-source data products.
+
+It also covers consulting firms, indie products, and early jobs in four-person
+teams. Startup teams have to learn the real workflow and choose a narrow product
+boundary. They also have to reach users early and avoid technical scope that
+outruns the business.
 
 [Startup]({{ '/wiki/startup/' | relative_url }}) covers the singular concept and
 the end-to-end founder playbook. The plural startup topic works as a
@@ -31,54 +42,28 @@ to [freelance]({{ '/wiki/freelance/' | relative_url }}),
 [data product management]({{ '/wiki/data-product-management/' | relative_url }}),
 and [MLOps]({{ '/wiki/mlops/' | relative_url }}).
 
-## Link Map
+[Elena Samuylova]({{ '/people/elenasamuylova/' | relative_url }}) anchors the
+problem-first ML startup thread in
+[How to Build a Successful ML Startup]({{ '/podcasts/building-mlops-startup/' | relative_url }}).
+[Carmine Paolino]({{ '/people/carminepaolino/' | relative_url }}) adds retail
+AI fieldwork in
+[Build a Grocery Retail OS to Cut Supermarket Food Waste]({{ '/podcasts/launch-and-build-retail-startup/' | relative_url }}).
+[Sonal Goyal]({{ '/people/sonalgoyal/' | relative_url }}) shows an open-source
+identity-resolution product in
+[Building an Open-Source ML-Powered Identity Resolution Tool]({{ '/podcasts/building-open-source-data-product-for-identity-resolution/' | relative_url }}).
 
-The startup category connects most often to these concept pages:
-
-- [Startup]({{ '/wiki/startup/' | relative_url }})
-- [Founder]({{ '/wiki/founder/' | relative_url }})
-- [Entrepreneurship]({{ '/wiki/entrepreneurship/' | relative_url }})
-- [Open Source]({{ '/wiki/open-source/' | relative_url }})
-- [Open Source and Developer Relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }})
-- [Freelance]({{ '/wiki/freelance/' | relative_url }})
-- [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
-- [MLOps]({{ '/wiki/mlops/' | relative_url }})
-- [MLOps Roadmap]({{ '/wiki/mlops-roadmap/' | relative_url }})
-
-Core podcast interviews:
-
-- [Elena Samuylova]({{ '/people/elenasamuylova/' | relative_url }}) on
-  problem-first ML startup building, model monitoring, open source, and founder
-  fit in
-  [How to Build a Successful ML Startup]({{ '/podcasts/building-mlops-startup/' | relative_url }}).
-- [Carmine Paolino]({{ '/people/carminepaolino/' | relative_url }}) on
-  supermarket fieldwork, pilots, fundraising, and retail AI scope in
-  [Build a Grocery Retail OS to Cut Supermarket Food Waste]({{ '/podcasts/launch-and-build-retail-startup/' | relative_url }}).
-- [Sonal Goyal]({{ '/people/sonalgoyal/' | relative_url }}) on turning
-  recurring identity-resolution consulting pain into an open-source data product
-  in
-  [Building an Open-Source ML-Powered Identity Resolution Tool]({{ '/podcasts/building-open-source-data-product-for-identity-resolution/' | relative_url }}).
-- [Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) on moving
-  from data freelancing to a startup and using workshops to validate a
-  developer-facing library in
-  [From Data Freelancer to Startup]({{ '/podcasts/from-data-freelancer-to-startup-open-source-products/' | relative_url }}).
-- [Aleksander Kruszelnicki]({{ '/people/aleksanderkruszelnicki/' | relative_url }})
-  on failed product ideas, customer interviews, consulting positioning, and
-  pricing in
-  [Build a Data Consulting Business]({{ '/podcasts/data-consulting-business-pricing-and-client-acquisition/' | relative_url }}).
-- [Nemanja Radojkovic]({{ '/people/nemanjaradojkovic/' | relative_url }}) on
-  lean MLOps choices for small teams in
-  [Lean MLOps for Startups]({{ '/podcasts/lean-mlops-for-startups/' | relative_url }}).
-- [Pauline Clavelloux]({{ '/people/paulineclavelloux/' | relative_url }}) on
-  indie products built without outside funding, launch work, pricing, and costs in
-  [Indie Hacking and Bootstrapping Side Projects]({{ '/podcasts/data-scientist-and-indie-hacker-bootstrapping-side-projects/' | relative_url }}).
-- [Antonis Stellas]({{ '/people/antonisstellas/' | relative_url }}) on startup
-  work as a training ground for self-organization, communication, MLOps, and
-  freelance work in
-  [Freelance Data Scientist Playbook]({{ '/podcasts/from-startup-engineering-to-freelance-data-science/' | relative_url }}).
-- [Bela Wiertz]({{ '/people/belawiertz/' | relative_url }}) on how investors
-  evaluate open-source developer-tool startups in
-  [Early-Stage Investing in Open Source Developer Tools]({{ '/podcasts/investing-in-open-source-developer-tools/' | relative_url }}).
+[Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) covers the move
+from data freelancing into a developer-tool startup in
+[From Data Freelancer to Startup]({{ '/podcasts/from-data-freelancer-to-startup-open-source-products/' | relative_url }}).
+[Nemanja Radojkovic]({{ '/people/nemanjaradojkovic/' | relative_url }}) covers
+small-team MLOps in
+[Lean MLOps for Startups]({{ '/podcasts/lean-mlops-for-startups/' | relative_url }}).
+[Pauline Clavelloux]({{ '/people/paulineclavelloux/' | relative_url }}) covers
+side products funded without outside capital in
+[Indie Hacking and Bootstrapping Side Projects]({{ '/podcasts/data-scientist-and-indie-hacker-bootstrapping-side-projects/' | relative_url }}).
+[Bela Wiertz]({{ '/people/belawiertz/' | relative_url }}) adds the investor
+view on open-source developer-tool companies in
+[Early-Stage Investing in Open Source Developer Tools]({{ '/podcasts/investing-in-open-source-developer-tools/' | relative_url }}).
 
 ## Common Definition
 

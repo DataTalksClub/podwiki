@@ -1,255 +1,241 @@
 ---
 layout: wiki
 title: "Founder"
-summary: "How DataTalks.Club podcast guests describe the founder role in data, AI, MLOps, open-source, consulting, and digital health startups."
+summary: "How DataTalks.Club podcast guests describe founder work in data, AI, MLOps, open-source, consulting, indie, and digital health startups."
 related:
-  - Entrepreneurship
   - Startup
   - Startups
-  - Data Product Management
-  - Machine Learning
-  - MLOps
+  - Entrepreneurship
   - Open Source
+  - Solopreneur
+  - Consultant or Freelancer to Data Product Founder
+  - Data Product Management
+  - MLOps
   - Team Building
 ---
 
-A founder in the DataTalks.Club archive keeps the company moving through
-uncertainty. Founders choose the problem and find users. They define the product,
-hire the missing skills, and prove that the business can reach customers and
-make money. That makes the role narrower than
-[entrepreneurship]({{ '/wiki/entrepreneurship/' | relative_url }}), which covers
-the broader path of starting and running independent work. Here, founder means
-the operating role inside data, AI, and open-source startups.
+A founder in the DataTalks.Club archive turns uncertainty into company work.
+Guests don't use founder as a generic biography label. They describe founders
+choosing a problem, validating it with users, shaping the product boundary,
+and finding distribution. They also describe hiring only when the business
+demands it and deciding how the company earns money.
 
-Across these episodes, founders don't start with the technology they like.
-[Elena Samuylova]({{ '/people/elenasamuylova/' | relative_url }}) warns against
-framing a company as a "machine learning startup" before the problem is known.
-In
-[How to Build a Successful ML Startup]({{ '/podcasts/building-mlops-startup/' | relative_url }})
-around 7:23, she argues that a founder should look for a painful workflow first.
-Only after that should the founder decide whether
-[machine learning]({{ '/wiki/machine-learning/' | relative_url }}) is the right
-tool. That distinction also shapes
-[Machine Learning for Startups]({{ '/guides/machine-learning-for-startups/' | relative_url }}):
-ML helps only when it improves a real customer decision or workflow.
+For the startup cluster, use [Startup]({{ '/wiki/startup/' | relative_url }})
+for the end-to-end playbook and [Startups]({{ '/wiki/startups/' | relative_url }})
+for the cross-episode map. Use
+[Machine Learning for Startups]({{ '/guides/machine-learning-for-startups/' | relative_url }})
+when the founder question is whether ML belongs in the product.
+[Entrepreneurship]({{ '/wiki/entrepreneurship/' | relative_url }}) covers the
+broader choice to build independent work.
+[Open Source]({{ '/wiki/open-source/' | relative_url }}) covers community-led
+adoption. [Solopreneur]({{ '/wiki/solopreneur/' | relative_url }}) covers
+intentionally small independent businesses, and
+[Consultant or Freelancer to Data Product Founder]({{ '/wiki/consultant-or-freelancer-to-data-product-founder/' | relative_url }})
+covers the service-to-product path.
 
 ## Problem Selection
 
-Founder work starts with choosing a problem that can become a company. Samuylova
-describes this as a problem-first search, not a search for places to use a
-favorite model. Her grocery-store example is deliberately non-glamorous: a team
-may think the problem is forecasting. After customer conversations, they may
-learn that the store can't collect basic inventory data yet
-([7:23-11:12]({{ '/podcasts/building-mlops-startup/' | relative_url }})).
+[Elena Samuylova]({{ '/people/elenasamuylova/' | relative_url }}) gives the
+clearest warning in
+[How to Build a Successful ML Startup]({{ '/podcasts/building-mlops-startup/' | relative_url }}).
+Around 7:23, she warns technical founders. Don't start with the wish to build a
+machine learning startup. Start with a painful workflow. Then ask whether
+[machine learning]({{ '/wiki/machine-learning/' | relative_url }}) is the right
+tool.
 
-For a founder, that means the first decision isn't model architecture. It's
-whether the customer has a routine pain, whether the pain is large enough, and
-whether the customer wants to pay for a fix.
+In her grocery-store example, a team may think the problem is forecasting.
+Customer conversations may reveal that the store can't collect basic inventory
+data yet.
 
-[Sonal Goyal]({{ '/people/sonalgoyal/' | relative_url }}) gives the same lesson
-from identity resolution. Zingg came from repeated consulting work where
-companies struggled with customer, supplier, patient, and product records. In
-[Building an Open-Source ML-Powered Identity Resolution Tool]({{ '/podcasts/building-open-source-data-product-for-identity-resolution/' | relative_url }}),
-she traces the product back to use cases she saw across domains. Around 2:58,
-11:09, and 18:13, she also describes why a scalable identity-resolution tool had
-to work inside the modern data stack. When several clients expose the same gap,
-the founder can test whether the repeated consulting problem deserves a product.
+[Carmine Paolino]({{ '/people/carminepaolino/' | relative_url }}) shows the
+same move in retail. In
+[Build a Grocery Retail OS to Cut Supermarket Food Waste]({{ '/podcasts/launch-and-build-retail-startup/' | relative_url }}),
+FreshFlow started with a computer-vision idea, then watched fresh-product
+managers work in supermarkets. Around 5:46-13:16, Paolino describes shelf
+checks and stockroom counts as part of ordering. Weather, local events, and the
+fear of empty shelves also shaped the order. Around 24:47, the product moved
+toward a broader retail operating system because store work set the boundary.
 
 [Maria Bruckert]({{ '/people/mariabruckert/' | relative_url }}) adds the
-regulated-market version. SQIN began with healthcare as a domain that needed
-technology help. The founders spent roughly the first one and a half to two
-years learning the industry before settling on the product structure. In
-[Building Digital Health Startups]({{ '/podcasts/building-ai-digital-health-startups/' | relative_url }}),
-she describes talking with pharmacists and doctors. The founders also talked
-with hospitals, patients, pharma companies, and regulatory players before
-turning AI diagnosis into a digital clinic flow
-([2:05 and 24:08]({{ '/podcasts/building-ai-digital-health-startups/' | relative_url }})).
+regulated-market version in
+[Building Digital Health Startups]({{ '/podcasts/building-ai-digital-health-startups/' | relative_url }}).
+SQIN began with healthcare as a domain that needed technology help. Around
+2:05-6:11 and 12:20-24:08, she describes industry immersion, cold outreach, and
+accelerators. The founders also used clinical meetings and conversations with
+pharmacists and doctors before the product settled into a digital clinic flow.
 
-In healthcare, the founder has to choose a problem that's useful and ethical.
-The problem also has to be data-feasible and safe enough to put in front of
-patients.
+In healthcare, founders have to pick a useful and ethical problem. It also has
+to be data-feasible and safe enough to put in front of patients.
 
-## Customer Validation
+## Validation Before Build
 
-The founder also owns the proof that the problem is real. Samuylova says
-founders should talk to potential users before coding. That matters especially
-for technical founders who are tempted to build a polished system too early. In
-Evidently's case, the team talked to roughly 50 people before starting. They
-talked to more than 100 during early development.
+Founder work also includes proving that the problem is real before the product
+gets heavy. Samuylova says Evidently talked to roughly 50 people before
+starting and more than 100 during early development. Around 42:15-45:45, those
+interviews surfaced broken models, abandoned monitoring, and production
+failures that no one noticed. Evidently validated
+[model monitoring]({{ '/wiki/model-monitoring/' | relative_url }}) as a
+business problem because practitioners kept naming the same operational pain.
 
-Teams kept describing broken models. They
-also described abandoned monitoring and production failures that no one noticed,
-so Evidently validated model monitoring
-([40:13-45:45]({{ '/podcasts/building-mlops-startup/' | relative_url }})).
+[Sonal Goyal]({{ '/people/sonalgoyal/' | relative_url }}) gives the
+consulting-to-product version in
+[Building an Open-Source ML-Powered Identity Resolution Tool]({{ '/podcasts/building-open-source-data-product-for-identity-resolution/' | relative_url }}).
+Around 2:58 and 11:09, she traces Zingg to repeated identity-resolution
+problems across customer and supplier records. She also saw the gap in patient
+records and product catalogs. Around 21:51 and 23:00, proof-of-concept work
+turned into a full-time product build and then a public release. The founder
+signal was repetition: several clients exposed the same gap in the modern data
+stack.
 
-That makes [model monitoring]({{ '/wiki/model-monitoring/' | relative_url }})
-not just a technical category, but a customer-discovery result.
+[Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) validates
+through teaching in
+[From Data Freelancer to Startup]({{ '/podcasts/from-data-freelancer-to-startup-open-source-products/' | relative_url }}).
+Around 36:00-42:01, the DLT team ran a three-day workshop where about 60 Python
+users built an incremental pipeline. The team added checkpoints, live support,
+and a shared Codespaces setup. Participants learned the tool, and the founders
+saw where people understood the abstraction and where the tool blocked them.
+For developer products, docs and workshops can become product research.
 
-[Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) shows a
-developer-tools version of validation. In
-[From Data Freelancer to Startup]({{ '/podcasts/from-data-freelancer-to-startup-open-source-products/' | relative_url }}),
-the DLT team tested its interface through a three-day workshop where about 60
-Python users built an incremental pipeline. The team added checkpoints, live
-support, and a shared Codespaces environment so they could see where people got
-stuck
-([36:00-42:01]({{ '/podcasts/from-data-freelancer-to-startup-open-source-products/' | relative_url }})).
-Teaching can double as product research when the exercise exposes whether users
-understand the abstraction.
+## Product Boundaries
 
-[Aleksander Kruszelnicki]({{ '/people/aleksanderkruszelnicki/' | relative_url }})
-grounds validation in consulting and positioning. In
-[Build a Data Consulting Business]({{ '/podcasts/data-consulting-business-pricing-and-client-acquisition/' | relative_url }}),
-he explains why his team moved away from "data stack as a service" after market
-validation. The team moved toward hands-on analytics consulting because clients
-needed help bridging business questions to data models more than they needed
-infrastructure alone
-([4:16-26:03]({{ '/podcasts/data-consulting-business-pricing-and-client-acquisition/' | relative_url }})).
-For founders, validation can say no to the product they wanted and yes to the
-business customers are ready to buy.
+Founders decide what the product is and what it refuses to become. Brudaru
+frames DLT as a developer-focused library rather than a platform. Around 40:50
+and 53:24, he connects that choice to integration with a data engineer's stack.
+He mentions tools such as DuckDB and avoids taking over the whole workflow.
+Founders make that
+[data product management]({{ '/wiki/data-product-management/' | relative_url }})
+decision alongside the engineering decision.
 
-## Product Strategy
+Bruckert's SQIN example shows why product boundaries include ethics and user
+experience. Around 24:08-28:01, she explains that the app couldn't simply tell
+a user they might have a serious skin condition. The founders designed a flow
+from diagnosis to consultation and treatment. They also connected the flow to
+pharmacies and prescriptions.
 
-Founders decide what the product is and what it isn't. Brudaru frames DLT as a
-developer-focused library rather than a platform. Around 40:50 and 53:24, he
-connects that choice to the product's principles. DLT should fit into a data
-engineer's stack. It should integrate with tools such as DuckDB and avoid trying
-to take over the whole workflow
-([From Data Freelancer to Startup]({{ '/podcasts/from-data-freelancer-to-startup-open-source-products/' | relative_url }})).
+They kept fallbacks for cases the model couldn't handle. For AI founders, the
+product boundary includes what the system should route to a human or a safer
+path.
 
-That's a product-management decision as much as an engineering decision, and it
-sits close to [data product management]({{ '/wiki/data-product-management/' | relative_url }}).
+Paolino adds the infrastructure lesson. Around 53:09 in the FreshFlow episode,
+he describes moving away from Kubeflow complexity toward managed cloud services.
+For retail AI founders, platform work can steal months from pilots and retailer
+learning. It can also delay forecasting quality and product-market fit.
 
-Samuylova's Evidently story makes the same point for infrastructure startups.
-For [MLOps]({{ '/wiki/mlops/' | relative_url }}), open source made sense because
-model monitoring users needed to try small pieces quickly. Around 48:11, she
-describes open core and cloud as monetization paths. Around 49:29, she explains
-that open source shortens feedback loops. Users can try small features before a
-closed product is fully deployed
-([How to Build a Successful ML Startup]({{ '/podcasts/building-mlops-startup/' | relative_url }})).
+## Distribution and Open Source
 
-The founder has to match product packaging to the buyer's trust threshold, data
-sensitivity, and adoption path.
+Several founders use [open source]({{ '/wiki/open-source/' | relative_url }})
+as distribution, not only as a license. Samuylova explains this for Evidently
+around 48:11-56:17. Engineers and data scientists can try model-monitoring
+features before the company sells cloud or on-premise deployment. The company
+can also sell security, scaling, and support. Open source reduces the
+data-sharing barrier because users can run the tool in their own environment.
 
-Bruckert's SQIN example shows why product strategy includes ethics and user
-experience. The app couldn't simply tell a user that they might have a serious
-skin condition. The founders had to design a flow from diagnosis to
-consultation, treatment, pharmacies, and prescriptions. They also had to keep
-communication sensitive and inclusive.
+Goyal says open source was both a personal choice and a business decision for
+Zingg. Around 24:14-31:10, she describes community adoption, discoverability,
+and AGPL licensing as part of the business model. The founder has to decide
+what stays public, what protects the company, and how users move from
+open-source adoption to a sustainable product.
 
-The founders focused the algorithm on a
-specific starting market and added fallbacks for cases the model couldn't
-handle
-([24:08-28:01]({{ '/podcasts/building-ai-digital-health-startups/' | relative_url }})).
-For AI founders, the product boundary includes what the system should refuse,
-defer, or route to another path.
+[Bela Wiertz]({{ '/people/belawiertz/' | relative_url }}) gives the investor
+view in
+[Early-Stage Investing in Open Source Developer Tools]({{ '/podcasts/investing-in-open-source-developer-tools/' | relative_url }}).
+Around 13:42-16:40, he frames open source as community-driven distribution and
+bottom-up developer adoption. Around 32:31-39:01, he says investors still look
+at the team and market need. They also check commercialization, user
+interviews, and active community engagement. GitHub stars help with discovery,
+but they don't replace evidence
+that users care.
 
-## Distribution
+Brudaru describes the day-to-day version of founder-led distribution. Around
+47:56-53:24, his job became finding personas, learning where data engineers
+spent time, and identifying adjacent tool communities. He also worked on
+ecosystem partnerships. A developer library needs a path into notebooks, demos,
+docs, and communities before enterprise buyers will care.
 
-The archive treats distribution as founder work, not a late marketing add-on.
-Sonal Goyal says open source was both a personal choice and a business decision.
-Zingg could reach more companies than a closed-source product that required
-direct sales. It also helped the team discover more use cases than door-to-door
-outreach could
-([24:14-25:25]({{ '/podcasts/building-open-source-data-product-for-identity-resolution/' | relative_url }})).
+## Roles, Hiring, and Runway
 
-At the end of the episode, she makes distribution explicit. Even with open
-source, founders must know where early users are. They need to know which
-communities or channels they can reach and what content will help those users
-try the product
-([57:09]({{ '/podcasts/building-open-source-data-product-for-identity-resolution/' | relative_url }})).
+Founders in the archive start as generalists because the company has more jobs
+than people. Around 46:32-47:58, Samuylova describes her Evidently role moving
+from user conversations and feedback processing into content. She also handled
+investor conversations, company setup, and open-source evangelism. Evidently's
+open-source path put the founder into content and community. A direct
+enterprise-sales startup would have put the founder into sales.
 
-Brudaru describes the day-to-day version of that work as go-to-market for a
-library. His job became finding personas, understanding where data engineers
-hang out, identifying tool communities with matching use cases, and building
-ecosystem partnerships. The DocDB example worked because DLT and DocDB could
-run together in notebooks and demos, creating a useful path for both products
-([47:56-53:24]({{ '/podcasts/from-data-freelancer-to-startup-open-source-products/' | relative_url }})).
-This is adjacent to
-[developer relations]({{ '/wiki/developer-relations/' | relative_url }}) and
-[open-source and developer relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }}),
-but the founder still owns the strategic choice of audience, channel, and
-positioning.
+Goyal describes Zingg founder work as product, coding, integrations, and
+community support. She also handled content and hiring. Incorporation, taxation,
+and funding stayed in the founder workload too. Around 32:59-37:25, she
+explains that the first full-time hire came from where her time was going and
+what the product needed. Zingg hired a developer first because the technical
+product needed more engineering depth.
 
-For service businesses, Kruszelnicki gives a network-first distribution model.
-His team reached out to people who could introduce them to customers, then kept
-iterating on target customer, value proposition, and message. He warns that
-"doing everything" becomes no positioning at all. The founder has to say who
-the offer is for and what business problem it solves
-([27:59-36:33]({{ '/podcasts/data-consulting-business-pricing-and-client-acquisition/' | relative_url }})).
-That's why distribution and positioning belong on a founder page, not only on
-[freelance]({{ '/wiki/freelance/' | relative_url }}) or consulting articles such
-as [Data Engineer Consulting]({{ '/guides/data-engineer-consulting/' | relative_url }}).
+Paolino gives a co-founder split in the FreshFlow discussion around 42:24-48:52.
+He describes the CTO and CEO roles. He also covers first hires, freelancers,
+delegation, and remote talent. Around 57:09, he argues that motivation and
+behavior can matter more than a narrow skill checklist.
 
-## Hiring and Founder Roles
+Samuylova gives the hiring threshold from the other side. Around 57:06, she
+says to hire when real users, real features, or real demand create the need.
+Don't hire because the founder wrote a long feature list. This connects
+founder work to [team building]({{ '/wiki/team-building/' | relative_url }}),
+but the founder decision is timing under risk.
 
-Founders begin as generalists because the company has more jobs than people.
-Samuylova says her role at Evidently evolved from user conversations and
-feedback processing into content, investor conversations, company setup, and
-open-source evangelism. She calls the CEO role "chief everything officer" in
-that context, but the concrete work depends on the startup's go-to-market. A
-direct enterprise-sales startup would put the founder into sales. Evidently's
-open-source path put her into content and community
-([46:32-47:58]({{ '/podcasts/building-mlops-startup/' | relative_url }})).
+Founders can create runway from more than venture funding. Brudaru describes
+savings, consulting revenue, and design partners around 31:08-36:00. He also
+describes careful spending and early payroll.
 
-Goyal describes the founder role at Zingg as product work, coding, integrations,
-and community support. It also included content and hiring, plus incorporation,
-taxation, and funding. She still wrote code, but she also called the role
-"company building" rather than a pure development role
-([32:59-35:10]({{ '/podcasts/building-open-source-data-product-for-identity-resolution/' | relative_url }})).
+His story is central to
+[Consultant or Freelancer to Data Product Founder]({{ '/wiki/consultant-or-freelancer-to-data-product-founder/' | relative_url }}).
+Service work can fund product discovery. It also has to reveal a repeatable
+problem before it becomes a product path.
 
-Her first-hire logic was practical. She looked at where her time went and
-whether the work deserved a full-time role. She also checked whether someone
-else could own it and what demand came from outside the company. Zingg's first
-full-time hire was a developer because the technical product needed engineering
-depth
-([35:14-37:25]({{ '/podcasts/building-open-source-data-product-for-identity-resolution/' | relative_url }})).
+## Revenue and Funding
 
-Samuylova gives the hiring threshold from the other side. Before
-product-market fit, a small team can change course without spending money on a
-feature list that may not matter. Hiring should follow business need. Founders
-hire when they have more users, more features users actually want, or more
-capacity to serve demand
-([57:06-57:23]({{ '/podcasts/building-mlops-startup/' | relative_url }})).
-That connects founder work to
-[team building]({{ '/wiki/team-building/' | relative_url }}), but the founder
-decision is about timing and risk, not just org design.
-
-## Pricing and Business Model
-
-Founders also decide how value turns into revenue. Samuylova describes a model
-where engineers and data scientists adopt the open-source tool first.
-Enterprises pay for security and reliability once the product matters in
-production. They also pay for someone to be responsible for the product
+Founders decide how value turns into revenue. Samuylova's Evidently model lets
+engineers and data scientists adopt the open-source tool first. Enterprises
+then pay for security, reliability, and scale. They may also pay for hosting,
+on-premise options, or a responsible vendor once the product matters in production
 ([51:48-56:38]({{ '/podcasts/building-mlops-startup/' | relative_url }})).
 
-That business model depends on trust. Open source reduces the data-sharing
-barrier because users can run the tool themselves. The paid offerings cover the
-enterprise need for accountability.
+Brudaru separates open-source adoption from the paid product. Around 55:10 in
+the DLT episode, the team was still doing user research before building a paid
+complement to the library. The founder decides what stays free, what becomes
+paid, and whether the paid offer strengthens or weakens adoption.
 
-Brudaru separates product-market fit from the paid product. DLT first looked for
-adoption of the open-source library, then the company worked toward a paid
-complementary product that wouldn't restrict the library. Around 55:10, he says
-the team was doing user research before building that paid solution
-([From Data Freelancer to Startup]({{ '/podcasts/from-data-freelancer-to-startup-open-source-products/' | relative_url }})).
-The founder decision is what stays free, what becomes paid, and whether the paid
-offer strengthens or weakens adoption.
+Bruckert adds the healthcare constraint. Around 44:00-47:48, she describes the
+need to prove both technical credibility and a path to revenue through partner
+integrations. She also names point-of-sale health checks, SaaS-like use cases,
+and e-commerce cuts. In regulated AI, the revenue model has to satisfy buyers,
+investors, and patient-safety constraints.
 
-Bruckert's health-tech discussion adds a different revenue constraint. SQIN had
-to prove not only technical credibility but also that healthcare AI could earn
-money. She describes AI integrations with partners and point-of-sale health
-checks. She also describes SaaS-like use cases and e-commerce cuts. The exact
-model depends on the market, regulation, and the software being sold
-([44:00-47:48]({{ '/podcasts/building-ai-digital-health-startups/' | relative_url }})).
+Wiertz gives the fundraising lens for open-source developer tools. Around
+22:20-23:42, he discusses 12-18 months of runway and use of proceeds. Around
+49:28-54:47, he compares open-core and hosted services. He also compares
+enterprise licenses and support revenue. Founders who raise money have to
+explain not only community interest, but how that interest can become a
+scalable company.
 
-For regulated AI founders, business model design is part of investor trust and
-patient safety.
+## Indie and Small-Business Paths
 
-Kruszelnicki gives the pricing discipline for consulting and services. His team
-benchmarked competitors, priced around value rather than production cost, and
-treated willingness to pay as early evidence. He also explains why day rates
-include a premium for flexibility. Founders need a starting rate and a minimum
-they'll accept, and referrals punish bad incentives in a small ecosystem
-([45:19-55:45]({{ '/podcasts/data-consulting-business-pricing-and-client-acquisition/' | relative_url }})).
+Not every founder path in the archive points to a venture-backed company.
+[Pauline Clavelloux]({{ '/people/paulineclavelloux/' | relative_url }}) covers
+the indie version. In
+[Indie Hacking and Bootstrapping Side Projects]({{ '/podcasts/data-scientist-and-indie-hacker-bootstrapping-side-projects/' | relative_url }}),
+around 7:23-18:45, she describes bootstrapping while keeping a day job. She
+splits time and builds crypto alerts from her own trading need. She also covers
+company setup, landing pages, legal work, and payments.
 
-Across software and services, founders price around customer value. They update
-the model as real buyers reveal what they trust and pay for.
+Pauline's UnrealMe discussion adds launch and cost discipline around
+23:33-34:55. She compares API fine-tuning with self-hosted GPUs. For launch,
+she used Twitter and niche listings while working through early sales, customer
+acquisition, and pricing constraints.
+
+Around 48:54-50:35, she checks ideas through competitor scans and skills fit.
+She also asks whether she can build a useful first version. That path sits
+closer to [Solopreneur]({{ '/wiki/solopreneur/' | relative_url }}) than to a
+large startup, but it still asks founder questions. Someone has to name the
+buyer, the channel, the running cost, and the builder's capacity to keep going.
+
+Across these episodes, founder work isn't a title. Founders choose the problem,
+validate with real users, and narrow the product. They also pick a distribution
+path, hire only when demand justifies it, and build a revenue model that
+matches how customers adopt the product.

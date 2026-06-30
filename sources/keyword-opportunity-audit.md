@@ -83,6 +83,8 @@ These keyword groups already have editorial coverage:
 | ETL vs ELT | `_comparisons/etl-vs-elt.md`, `_wiki/etl-vs-elt.md` | etl vs elt, elt vs etl, etl and elt |
 | DataOps Platforms | `_wiki/dataops-platforms.md` | dataops platforms |
 | A/B Testing | `_wiki/a-b-testing.md`, `_wiki/experimentation-and-causal-inference.md`, `_guides/product-analyst.md` | a/b testing podcast, ab testing, product experimentation |
+| Open Source | `_wiki/open-source.md`, `_wiki/open-source-portfolio-evidence.md`, `_roadmaps/open-source-contributor-roadmap.md` | what is open source, data engineering open source projects, open source entity resolution |
+| Tech Startups | `_wiki/startups.md`, `_wiki/startup.md`, `_wiki/founder.md`, `_wiki/entrepreneurship.md`, `_guides/machine-learning-for-startups.md` | tech startups, machine learning startup, machine learning for startups, startup machine learning, ml startups |
 
 ## Editorial Backlog From CSV
 
@@ -92,9 +94,7 @@ publication.
 
 | Priority | Content target | Keyword variants from CSV | Why it may be worth creating |
 |---:|---|---|---|
-| 1 | Open Source | what is open source | Keep the public page title as `Open Source`; use the "what is open source" query only as search metadata. |
 | 3 | Machine Learning Newsletter | machine learning newsletter, machine learnings newsletter | Do not create a generic newsletter guide. Keep for a possible community-content or owned-channel guide only. |
-| 4 | Tech Startups | tech startups | Broad; probably lower priority than machine-learning-for-startups, which already exists. |
 
 ## Not Recommended From This CSV
 
@@ -127,6 +127,12 @@ The first content batches from this audit have been created:
 12. `_comparisons/delta-lake-vs-apache-iceberg.md`
 13. `_comparisons/etl-vs-elt.md`
 14. `_wiki/dataops-platforms.md`
+15. `_wiki/open-source.md`
+16. `_wiki/startups.md`
+17. `_wiki/startup.md`
+18. `_wiki/founder.md`
+19. `_wiki/entrepreneurship.md`
+20. `_guides/machine-learning-for-startups.md`
 
 ## Next Content Step
 
@@ -135,8 +141,7 @@ those gap suggestions separately from the Ubersuggest keyword backlog. Until
 that file is available locally, continue with the remaining CSV backlog in the
 table above.
 
-The next strongest comparison pages from the current backlog are data analyst
-vs analytics engineer and RAG vs fine-tuning. The next strongest non-comparison
-page is Open Source as a wiki cleanup. Machine Learning Newsletter should stay
-out of scope unless it becomes a community-content or owned-channel guide with
-real DataTalks.Club asset links.
+The strongest remaining CSV backlog item is Machine Learning Newsletter, but it
+should stay out of scope unless it becomes a community-content or owned-channel
+guide with real DataTalks.Club asset links. The broad Tech Startups keyword now
+belongs to the startup wiki cluster rather than a separate generic guide.

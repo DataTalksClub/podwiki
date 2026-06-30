@@ -7,7 +7,7 @@
     "persons": 438,
     "topics": 146,
     "nodes": 1050,
-    "links": 11506
+    "links": 11524
   },
   "nodes": [
     {
@@ -9496,7 +9496,7 @@
       "title": "Entrepreneurship",
       "url": "/wiki/entrepreneurship/",
       "count": 1,
-      "search": "Entrepreneurship Podcast backed notes on entrepreneurship in data, AI, open source tooling, and consulting."
+      "search": "Entrepreneurship Podcast backed notes on data and AI entrepreneurship across startups, solopreneurship, freelance consulting, open source products, and founder transitions."
     },
     {
       "id": "wiki:etl",
@@ -9586,7 +9586,7 @@
       "title": "Founder",
       "url": "/wiki/founder/",
       "count": 1,
-      "search": "Founder How DataTalks.Club podcast guests describe the founder role in data, AI, MLOps, open source, consulting, and digital health startups."
+      "search": "Founder How DataTalks.Club podcast guests describe founder work in data, AI, MLOps, open source, consulting, indie, and digital health startups."
     },
     {
       "id": "wiki:freelance",
@@ -10357,7 +10357,8 @@
       "title": "Startups",
       "url": "/wiki/startups/",
       "count": 1,
-      "search": "Startups Recurring startup lessons across DataTalks.Club podcast discussions: problem discovery, validation, MLOps scope, open source distribution, consulting paths, funding, and startup career tradeoffs."
+      "search": "Startups Recurring startup lessons across DataTalks.Club podcast discussions: problem discovery, validation, MLOps scope, open source distribution, consulting paths, funding, and startup career tradeoffs.",
+      "keyword": "tech startups"
     },
     {
       "id": "wiki:streaming",
@@ -23677,6 +23678,30 @@
     },
     {
       "source": "article:guide:machine-learning-for-startups",
+      "target": "wiki:entrepreneurship",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:guide:machine-learning-for-startups",
+      "target": "wiki:entrepreneurship",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:machine-learning-for-startups",
+      "target": "wiki:founder",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:guide:machine-learning-for-startups",
+      "target": "wiki:founder",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:machine-learning-for-startups",
       "target": "wiki:machine-learning",
       "kind": "article-link",
       "weight": 2
@@ -23714,6 +23739,30 @@
     {
       "source": "article:guide:machine-learning-for-startups",
       "target": "wiki:open-source",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:guide:machine-learning-for-startups",
+      "target": "wiki:open-source",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:machine-learning-for-startups",
+      "target": "wiki:startup",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:guide:machine-learning-for-startups",
+      "target": "wiki:startup",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:machine-learning-for-startups",
+      "target": "wiki:startups",
       "kind": "article-link",
       "weight": 2
     },
@@ -60931,15 +60980,9 @@
     },
     {
       "source": "wiki:entrepreneurship",
-      "target": "article:guide:data-engineering-freelance",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:entrepreneurship",
       "target": "article:guide:machine-learning-for-startups",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:entrepreneurship",
@@ -60955,7 +60998,7 @@
     },
     {
       "source": "wiki:entrepreneurship",
-      "target": "person:carminepaolino",
+      "target": "person:dimitrivisnadi",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -60967,13 +61010,13 @@
     },
     {
       "source": "wiki:entrepreneurship",
-      "target": "person:mariabruckert",
+      "target": "person:noahgift",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:entrepreneurship",
-      "target": "person:nemanjaradojkovic",
+      "target": "person:paulineclavelloux",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -60985,15 +61028,9 @@
     },
     {
       "source": "wiki:entrepreneurship",
-      "target": "podcast:building-ai-digital-health-startups",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:entrepreneurship",
       "target": "podcast:building-mlops-startup",
       "kind": "wiki-link",
-      "weight": 10
+      "weight": 8
     },
     {
       "source": "wiki:entrepreneurship",
@@ -61005,25 +61042,31 @@
       "source": "wiki:entrepreneurship",
       "target": "podcast:data-consulting-business-pricing-and-client-acquisition",
       "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:entrepreneurship",
+      "target": "podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:entrepreneurship",
+      "target": "podcast:data-scientist-and-indie-hacker-bootstrapping-side-projects",
+      "kind": "wiki-link",
       "weight": 4
     },
     {
       "source": "wiki:entrepreneurship",
       "target": "podcast:from-data-freelancer-to-startup-open-source-products",
       "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:entrepreneurship",
-      "target": "podcast:launch-and-build-retail-startup",
-      "kind": "wiki-link",
       "weight": 6
     },
     {
       "source": "wiki:entrepreneurship",
-      "target": "podcast:lean-mlops-for-startups",
+      "target": "podcast:solopreneur-developer-and-data-professional",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:entrepreneurship",
@@ -61033,31 +61076,25 @@
     },
     {
       "source": "wiki:entrepreneurship",
-      "target": "wiki:career-transitions-in-data",
+      "target": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:entrepreneurship",
+      "target": "wiki:consultant-or-freelancer-to-data-product-founder",
       "kind": "wiki-related",
       "weight": 3
     },
     {
       "source": "wiki:entrepreneurship",
-      "target": "wiki:data-product-management",
+      "target": "wiki:founder",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:entrepreneurship",
-      "target": "wiki:data-product-management",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:entrepreneurship",
-      "target": "wiki:data-strategy",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:entrepreneurship",
-      "target": "wiki:data-strategy",
+      "target": "wiki:founder",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -61065,41 +61102,53 @@
       "source": "wiki:entrepreneurship",
       "target": "wiki:freelance",
       "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:entrepreneurship",
-      "target": "wiki:machine-learning",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:entrepreneurship",
-      "target": "wiki:machine-learning",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:entrepreneurship",
-      "target": "wiki:mlops",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:entrepreneurship",
-      "target": "wiki:mlops",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:entrepreneurship",
-      "target": "wiki:model-monitoring",
-      "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:entrepreneurship",
       "target": "wiki:open-source",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:entrepreneurship",
+      "target": "wiki:open-source",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:entrepreneurship",
+      "target": "wiki:solopreneur",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:entrepreneurship",
+      "target": "wiki:solopreneur",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:entrepreneurship",
+      "target": "wiki:startup",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:entrepreneurship",
+      "target": "wiki:startup",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:entrepreneurship",
+      "target": "wiki:startups",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:entrepreneurship",
+      "target": "wiki:startups",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -62533,12 +62582,6 @@
     },
     {
       "source": "wiki:founder",
-      "target": "article:guide:data-engineer-consulting",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:founder",
       "target": "article:guide:machine-learning-for-startups",
       "kind": "wiki-link",
       "weight": 2
@@ -62551,7 +62594,13 @@
     },
     {
       "source": "wiki:founder",
-      "target": "person:aleksanderkruszelnicki",
+      "target": "person:belawiertz",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:founder",
+      "target": "person:carminepaolino",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -62569,6 +62618,12 @@
     },
     {
       "source": "wiki:founder",
+      "target": "person:paulineclavelloux",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:founder",
       "target": "person:sonalgoyal",
       "kind": "wiki-link",
       "weight": 2
@@ -62577,31 +62632,55 @@
       "source": "wiki:founder",
       "target": "podcast:building-ai-digital-health-startups",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 2
     },
     {
       "source": "wiki:founder",
       "target": "podcast:building-mlops-startup",
       "kind": "wiki-link",
-      "weight": 14
+      "weight": 4
     },
     {
       "source": "wiki:founder",
       "target": "podcast:building-open-source-data-product-for-identity-resolution",
       "kind": "wiki-link",
-      "weight": 10
+      "weight": 2
     },
     {
       "source": "wiki:founder",
-      "target": "podcast:data-consulting-business-pricing-and-client-acquisition",
+      "target": "podcast:data-scientist-and-indie-hacker-bootstrapping-side-projects",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 2
     },
     {
       "source": "wiki:founder",
       "target": "podcast:from-data-freelancer-to-startup-open-source-products",
       "kind": "wiki-link",
-      "weight": 10
+      "weight": 2
+    },
+    {
+      "source": "wiki:founder",
+      "target": "podcast:investing-in-open-source-developer-tools",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:founder",
+      "target": "podcast:launch-and-build-retail-startup",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:founder",
+      "target": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:founder",
+      "target": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:founder",
@@ -62617,12 +62696,6 @@
     },
     {
       "source": "wiki:founder",
-      "target": "wiki:developer-relations",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:founder",
       "target": "wiki:entrepreneurship",
       "kind": "wiki-link",
       "weight": 2
@@ -62635,25 +62708,7 @@
     },
     {
       "source": "wiki:founder",
-      "target": "wiki:freelance",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:founder",
       "target": "wiki:machine-learning",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:founder",
-      "target": "wiki:machine-learning",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:founder",
-      "target": "wiki:mlops",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -62672,12 +62727,30 @@
     {
       "source": "wiki:founder",
       "target": "wiki:open-source",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:founder",
+      "target": "wiki:open-source",
       "kind": "wiki-related",
       "weight": 3
     },
     {
       "source": "wiki:founder",
-      "target": "wiki:open-source-and-developer-relations",
+      "target": "wiki:solopreneur",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:founder",
+      "target": "wiki:solopreneur",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:founder",
+      "target": "wiki:startup",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -62686,6 +62759,12 @@
       "target": "wiki:startup",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:founder",
+      "target": "wiki:startups",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:founder",
@@ -77077,12 +77156,6 @@
     },
     {
       "source": "wiki:startup",
-      "target": "article:guide:data-engineering-freelance",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:startup",
       "target": "article:guide:machine-learning-for-startups",
       "kind": "wiki-link",
       "weight": 4
@@ -77203,6 +77276,18 @@
     },
     {
       "source": "wiki:startup",
+      "target": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:startup",
+      "target": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:startup",
       "target": "wiki:data-product-management",
       "kind": "wiki-link",
       "weight": 4
@@ -77295,7 +77380,7 @@
       "source": "wiki:startup",
       "target": "wiki:open-source",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "wiki:startup",
@@ -77316,6 +77401,30 @@
       "weight": 3
     },
     {
+      "source": "wiki:startup",
+      "target": "wiki:solopreneur",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:startup",
+      "target": "wiki:solopreneur",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:startup",
+      "target": "wiki:startups",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:startup",
+      "target": "wiki:startups",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
       "source": "wiki:startups",
       "target": "person:adrianbrudaru",
       "kind": "wiki-link",
@@ -77325,13 +77434,13 @@
       "source": "wiki:startups",
       "target": "person:aleksanderkruszelnicki",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:startups",
       "target": "person:antonisstellas",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:startups",
@@ -77385,7 +77494,7 @@
       "source": "wiki:startups",
       "target": "podcast:data-consulting-business-pricing-and-client-acquisition",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:startups",
@@ -77403,7 +77512,7 @@
       "source": "wiki:startups",
       "target": "podcast:from-startup-engineering-to-freelance-data-science",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:startups",
@@ -77433,7 +77542,7 @@
       "source": "wiki:startups",
       "target": "wiki:data-product-management",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:startups",
@@ -77445,7 +77554,7 @@
       "source": "wiki:startups",
       "target": "wiki:entrepreneurship",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:startups",
@@ -77457,7 +77566,7 @@
       "source": "wiki:startups",
       "target": "wiki:founder",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:startups",
@@ -77469,13 +77578,13 @@
       "source": "wiki:startups",
       "target": "wiki:freelance",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:startups",
       "target": "wiki:mlops",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:startups",
@@ -77487,7 +77596,7 @@
       "source": "wiki:startups",
       "target": "wiki:mlops-roadmap",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:startups",
@@ -77499,7 +77608,7 @@
       "source": "wiki:startups",
       "target": "wiki:open-source",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:startups",
@@ -77511,7 +77620,7 @@
       "source": "wiki:startups",
       "target": "wiki:open-source-and-developer-relations",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:startups",
@@ -77523,7 +77632,7 @@
       "source": "wiki:startups",
       "target": "wiki:startup",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:startups",

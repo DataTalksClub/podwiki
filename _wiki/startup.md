@@ -3,10 +3,13 @@ layout: wiki
 title: "Startup"
 summary: "How DataTalks.Club podcast guests build, validate, fund, and operate data, AI, MLOps, and open-source startups."
 related:
+  - Startups
   - Founder
   - Entrepreneurship
   - Open Source
   - Open Source and Developer Relations
+  - Solopreneur
+  - Consultant or Freelancer to Data Product Founder
   - Freelance
   - Data Product Management
   - MLOps
@@ -21,9 +24,11 @@ business model, and keep the team alive while evidence changes.
 
 DataTalks.Club guests discuss startup work in data, AI,
 [MLOps]({{ '/wiki/mlops/' | relative_url }}), and
-[open source]({{ '/wiki/open-source/' | relative_url }}). For the operating
-role, see [founder]({{ '/wiki/founder/' | relative_url }}). For the broader
-choice to build independent work, see
+[open source]({{ '/wiki/open-source/' | relative_url }}). Use
+[Startups]({{ '/wiki/startups/' | relative_url }}) for the broader
+cross-episode cluster and this page for the singular founder playbook. For the
+operating role, see [founder]({{ '/wiki/founder/' | relative_url }}). For the
+broader choice to build independent work, see
 [entrepreneurship]({{ '/wiki/entrepreneurship/' | relative_url }}). For a
 startup-specific ML implementation view, see
 [Machine Learning for Startups]({{ '/guides/machine-learning-for-startups/' | relative_url }}).
@@ -93,7 +98,8 @@ live support, and a shared development environment. Participants came to learn,
 but the startup also learned where Python users understood the abstraction and
 where the tool blocked them. For open-source data products, documentation,
 examples, and teaching can expose product fit earlier than a polished sales
-demo.
+demo. This is the service-to-product path covered more directly in
+[Consultant or Freelancer to Data Product Founder]({{ '/wiki/consultant-or-freelancer-to-data-product-founder/' | relative_url }}).
 
 ## Keep the Early Stack Small
 
@@ -127,7 +133,8 @@ engineering into the product unless the startup is selling a platform.
 
 ## Open Source as Distribution
 
-Several startup discussions use [open source and developer relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }})
+Several startup discussions use [open source]({{ '/wiki/open-source/' | relative_url }})
+and [open source and developer relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }})
 as go-to-market, not as a license preference. In Evidently's case, Samuylova
 connects open source to model-monitoring adoption around 48:11-56:17 in
 [How to Build a Successful ML Startup]({{ '/podcasts/building-mlops-startup/' | relative_url }}).
@@ -157,7 +164,8 @@ number.
 ## Services Can Become Products
 
 Startup paths in the archive often begin with
-[freelance]({{ '/wiki/freelance/' | relative_url }}) or consulting work. Brudaru
+[freelance]({{ '/wiki/freelance/' | relative_url }}), consulting, or
+[solopreneur]({{ '/wiki/solopreneur/' | relative_url }}) work. Brudaru
 started from data engineering projects where clients repeatedly struggled with
 warehouse setup, JSON ingestion, and stakeholder alignment. Around 12:31-19:38
 in
@@ -178,7 +186,10 @@ enough to package and valuable enough to fund.
 
 That's why startup work connects to career and product transitions. A data
 practitioner may move from implementation to diagnosis, then to reusable
-assets, then to a company. The [data product management]({{ '/wiki/data-product-management/' | relative_url }})
+assets, then to a company. The
+[Consultant or Freelancer to Data Product Founder]({{ '/wiki/consultant-or-freelancer-to-data-product-founder/' | relative_url }})
+page follows that transition when services reveal repeated product pain. The
+[data product management]({{ '/wiki/data-product-management/' | relative_url }})
 question is whether the reusable asset has a user, a workflow, and a buying
 path. The [ML product manager role]({{ '/wiki/ml-product-manager-role/' | relative_url }})
 adds the same discipline for ML platforms and ML-enabled products.
@@ -240,24 +251,24 @@ need a narrow enough product to understand how to adopt it.
 
 ## Related Pages
 
-These pages expand the startup threads above:
+Use [Startups]({{ '/wiki/startups/' | relative_url }}) for the broader
+cross-episode map and [Founder]({{ '/wiki/founder/' | relative_url }}) for the
+operating role inside a startup. [Entrepreneurship]({{ '/wiki/entrepreneurship/' | relative_url }})
+covers the broader independent-work path, while
+[Solopreneur]({{ '/wiki/solopreneur/' | relative_url }}) covers deliberately
+small businesses.
 
-- [Founder]({{ '/wiki/founder/' | relative_url }}) for the operating role inside
-  a startup.
-- [Entrepreneurship]({{ '/wiki/entrepreneurship/' | relative_url }}) for the
-  broader independent-work path.
-- [Open Source]({{ '/wiki/open-source/' | relative_url }}) and
-  [Open Source and Developer Relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }})
-  for open-source distribution, governance, and developer adoption.
-- [Freelance]({{ '/wiki/freelance/' | relative_url }}),
-  [Data Engineering Consulting]({{ '/guides/data-engineering-consulting/' | relative_url }}),
-  and [Data Engineering Freelance]({{ '/guides/data-engineering-freelance/' | relative_url }})
-  for service paths that can reveal startup ideas.
-- [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }}),
-  [ML Product Manager Role]({{ '/wiki/ml-product-manager-role/' | relative_url }}),
-  and [Data Strategy]({{ '/wiki/data-strategy/' | relative_url }}) for product
-  strategy, GTM evidence, and data feasibility.
-- [MLOps]({{ '/wiki/mlops/' | relative_url }}),
-  [MLOps Roadmap]({{ '/wiki/mlops-roadmap/' | relative_url }}), and
-  [Machine Learning for Startups]({{ '/guides/machine-learning-for-startups/' | relative_url }})
-  for startup ML systems and implementation tradeoffs.
+[Open Source]({{ '/wiki/open-source/' | relative_url }}) and
+[Open Source and Developer Relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }})
+cover developer-tool distribution and community adoption. [Freelance]({{ '/wiki/freelance/' | relative_url }}),
+[Data Engineering Consulting]({{ '/guides/data-engineering-consulting/' | relative_url }}),
+and [Consultant or Freelancer to Data Product Founder]({{ '/wiki/consultant-or-freelancer-to-data-product-founder/' | relative_url }})
+cover service paths that reveal startup ideas.
+
+[Data Product Management]({{ '/wiki/data-product-management/' | relative_url }}),
+[ML Product Manager Role]({{ '/wiki/ml-product-manager-role/' | relative_url }}),
+and [Data Strategy]({{ '/wiki/data-strategy/' | relative_url }}) cover product
+strategy and data feasibility. [MLOps]({{ '/wiki/mlops/' | relative_url }}),
+[MLOps Roadmap]({{ '/wiki/mlops-roadmap/' | relative_url }}), and
+[Machine Learning for Startups]({{ '/guides/machine-learning-for-startups/' | relative_url }})
+cover startup ML systems and implementation tradeoffs.
