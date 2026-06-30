@@ -234,6 +234,8 @@ Existing pages:
 - `_comparisons/dataops-vs-data-engineering.md`
 - `_comparisons/delta-lake-vs-apache-iceberg.md`
 - `_comparisons/etl-vs-elt.md`
+- `_comparisons/machine-learning-engineer-vs-data-scientist.md`
+- `_comparisons/mlops-vs-dataops.md`
 - `_comparisons/product-owner-vs-product-manager.md`
 - `_wiki/batch-vs-streaming.md` owns the canonical batch vs streaming decision.
 - `_wiki/data-warehouse-vs-data-lakehouse.md` owns the canonical warehouse vs
@@ -248,14 +250,11 @@ Existing pages:
 
 Candidate pages:
 
-- Data engineer vs data scientist
+- Data engineer vs data scientist. Create
+  `_comparisons/data-engineer-vs-data-scientist.md` only as a short
+  decision-oriented page for the exact role query; keep
+  `_wiki/data-engineer-vs-data-scientist.md` as the canonical reference page.
 - Data analyst vs analytics engineer
-- Machine learning engineer vs data scientist. Create
-  `_comparisons/machine-learning-engineer-vs-data-scientist.md` with
-  `_wiki/machine-learning-engineer-role.md`, `_wiki/data-scientist-role.md`,
-  `data-team-roles.md`, `data-science-interview-and-cv-guide.md`, and
-  `machine-learning-engineering-production-best-practices.md` as primary
-  grounding.
 - Data product manager vs product manager
 - Data product owner vs data product manager. Create
   `_comparisons/data-product-owner-vs-data-product-manager.md` as a focused
@@ -263,8 +262,8 @@ Candidate pages:
   `_wiki/data-product-management.md`, and
   `building-data-products-product-owner-vs-product-manager.md`.
 - MLOps vs DevOps
-- DataOps vs MLOps
-- RAG vs fine-tuning
+- RAG vs fine-tuning. Create `_comparisons/rag-vs-fine-tuning.md` as a shorter
+  decision page that points back to `_wiki/rag-vs-fine-tuning.md`.
 
 Source hints:
 

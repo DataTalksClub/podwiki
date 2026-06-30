@@ -2,12 +2,12 @@
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
     "wikis": 169,
-    "articles": 69,
+    "articles": 70,
     "podcasts": 202,
     "persons": 438,
     "topics": 146,
-    "nodes": 1024,
-    "links": 10483
+    "nodes": 1025,
+    "links": 10516
   },
   "nodes": [
     {
@@ -592,6 +592,17 @@
       "count": 1,
       "search": "Machine Learning Engineer Certification: When It Helps and What Employers Still Need A podcast backed guide to deciding whether a machine learning engineer certification helps, how to judge certification programs, and how to turn certification study into portfolio and interview evidence.",
       "keyword": "machine learning engineer certification"
+    },
+    {
+      "id": "article:comparison:machine-learning-engineer-vs-data-scientist",
+      "type": "article",
+      "collection": "comparison",
+      "label": "Machine Learning Engineer vs Data Scientist",
+      "title": "Machine Learning Engineer vs Data Scientist",
+      "url": "/comparisons/machine-learning-engineer-vs-data-scientist/",
+      "count": 1,
+      "search": "Machine Learning Engineer vs Data Scientist A podcast grounded role comparison for deciding whether a team needs data science ownership, machine learning engineering ownership, or both.",
+      "keyword": "machine learning engineer vs data scientist"
     },
     {
       "id": "article:guide:machine-learning-for-software-engineers",
@@ -10808,6 +10819,204 @@
     {
       "source": "article:comparison:etl-vs-elt",
       "target": "wiki:reverse-etl",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:machine-learning-engineer-vs-data-scientist",
+      "target": "person:arsenykravchenko",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:machine-learning-engineer-vs-data-scientist",
+      "target": "person:benwilson",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:machine-learning-engineer-vs-data-scientist",
+      "target": "person:nadianahar",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:machine-learning-engineer-vs-data-scientist",
+      "target": "person:olegnovikov",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:machine-learning-engineer-vs-data-scientist",
+      "target": "person:roksolanadiachuk",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:machine-learning-engineer-vs-data-scientist",
+      "target": "person:simonstiebellehner",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:machine-learning-engineer-vs-data-scientist",
+      "target": "person:terezaiofciu",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:machine-learning-engineer-vs-data-scientist",
+      "target": "podcast:big-data-engineer-vs-data-scientist",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:machine-learning-engineer-vs-data-scientist",
+      "target": "podcast:building-production-ml-platform-and-mlops-team",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:machine-learning-engineer-vs-data-scientist",
+      "target": "podcast:building-scalable-and-reliable-machine-learning-systems",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:machine-learning-engineer-vs-data-scientist",
+      "target": "podcast:data-science-interview-and-cv-guide",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:machine-learning-engineer-vs-data-scientist",
+      "target": "podcast:data-science-job-red-flags-and-mismatched-roles",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:machine-learning-engineer-vs-data-scientist",
+      "target": "podcast:data-team-roles",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:machine-learning-engineer-vs-data-scientist",
+      "target": "podcast:machine-learning-engineering-production-best-practices",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:machine-learning-engineer-vs-data-scientist",
+      "target": "podcast:software-engineering-for-machine-learning",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:machine-learning-engineer-vs-data-scientist",
+      "target": "wiki:data-science",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:machine-learning-engineer-vs-data-scientist",
+      "target": "wiki:data-science",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:machine-learning-engineer-vs-data-scientist",
+      "target": "wiki:data-scientist-role",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:comparison:machine-learning-engineer-vs-data-scientist",
+      "target": "wiki:data-scientist-role",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:machine-learning-engineer-vs-data-scientist",
+      "target": "wiki:data-teams",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:machine-learning-engineer-vs-data-scientist",
+      "target": "wiki:data-teams",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:machine-learning-engineer-vs-data-scientist",
+      "target": "wiki:machine-learning",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:machine-learning-engineer-vs-data-scientist",
+      "target": "wiki:machine-learning",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:machine-learning-engineer-vs-data-scientist",
+      "target": "wiki:machine-learning-engineer-role",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:comparison:machine-learning-engineer-vs-data-scientist",
+      "target": "wiki:machine-learning-engineer-role",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:machine-learning-engineer-vs-data-scientist",
+      "target": "wiki:machine-learning-infrastructure",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:machine-learning-engineer-vs-data-scientist",
+      "target": "wiki:machine-learning-infrastructure",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:machine-learning-engineer-vs-data-scientist",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:machine-learning-engineer-vs-data-scientist",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:machine-learning-engineer-vs-data-scientist",
+      "target": "wiki:mlops",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:machine-learning-engineer-vs-data-scientist",
+      "target": "wiki:mlops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:machine-learning-engineer-vs-data-scientist",
+      "target": "wiki:software-engineering",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:machine-learning-engineer-vs-data-scientist",
+      "target": "wiki:software-engineering",
       "kind": "article-wiki",
       "weight": 5
     },
