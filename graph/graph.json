@@ -7,7 +7,7 @@
     "persons": 438,
     "topics": 146,
     "nodes": 1020,
-    "links": 8924
+    "links": 9040
   },
   "nodes": [
     {
@@ -7931,7 +7931,7 @@
       "title": "Caching",
       "url": "/wiki/caching/",
       "count": 1,
-      "search": "Caching Stub topic page for podcast archive links about Caching."
+      "search": "Caching How DataTalks.Club guests discuss caching, prompt caching, context reuse, and model efficiency in production AI systems."
     },
     {
       "id": "wiki:career-development",
@@ -7940,7 +7940,7 @@
       "title": "Career Development",
       "url": "/wiki/career-development/",
       "count": 1,
-      "search": "Career Development Stub topic page for podcast archive links about Career Development."
+      "search": "Career Development Archive backed guide to compounding skills, public proof, interview readiness, internal growth, transitions, and personal brand in data and AI careers."
     },
     {
       "id": "wiki:career-growth",
@@ -7981,11 +7981,11 @@
     {
       "id": "wiki:cdc",
       "type": "wiki",
-      "label": "Cdc",
-      "title": "Cdc",
+      "label": "CDC",
+      "title": "CDC",
       "url": "/wiki/cdc/",
       "count": 1,
-      "search": "Cdc Stub topic page for podcast archive links about Cdc."
+      "search": "CDC Change data capture in the DataTalks.Club archive: when to capture row level database changes, how CDC compares with batch dumps and streaming, and what teams must operate around schema changes, deletes, and replay."
     },
     {
       "id": "wiki:ci-cd",
@@ -7994,7 +7994,7 @@
       "title": "CI/CD",
       "url": "/wiki/ci-cd/",
       "count": 1,
-      "search": "CI/CD Stub topic page for podcast archive links about CI/CD."
+      "search": "CI/CD Podcast grounded reference page for CI/CD in data, ML, and AI systems."
     },
     {
       "id": "wiki:communication",
@@ -8003,7 +8003,7 @@
       "title": "Communication",
       "url": "/wiki/communication/",
       "count": 1,
-      "search": "Communication Stub topic page for podcast archive links about Communication."
+      "search": "Communication How DataTalks.Club podcast guests treat communication as a core data and ML skill: stakeholder translation, interviews, writing, consulting, portfolio narratives, and business context."
     },
     {
       "id": "wiki:community",
@@ -42440,9 +42440,87 @@
     },
     {
       "source": "wiki:caching",
-      "target": "wiki:llm-production-patterns",
+      "target": "article:llm-tools",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:caching",
+      "target": "person:bartoszmikulski",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:caching",
+      "target": "person:meryemarik",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:caching",
+      "target": "person:ranjithakulkarni",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:caching",
+      "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:caching",
+      "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:caching",
+      "target": "podcast:production-ready-ai-engineering",
+      "kind": "wiki-link",
+      "weight": 14
+    },
+    {
+      "source": "wiki:caching",
+      "target": "wiki:ai-engineering",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:caching",
+      "target": "wiki:ai-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:caching",
+      "target": "wiki:ai-infrastructure",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:caching",
+      "target": "wiki:ai-infrastructure",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:caching",
+      "target": "wiki:ai-tooling",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:caching",
+      "target": "wiki:ai-tooling",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:caching",
+      "target": "wiki:llm-production-patterns",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:caching",
@@ -42451,14 +42529,248 @@
       "weight": 3
     },
     {
-      "source": "wiki:career-development",
-      "target": "wiki:career-transitions-in-data",
+      "source": "wiki:caching",
+      "target": "wiki:production",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:caching",
+      "target": "wiki:production",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:caching",
+      "target": "wiki:prompt-engineering",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:caching",
+      "target": "wiki:rag",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:caching",
+      "target": "wiki:retrieval-augmented-generation",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:career-development",
+      "target": "person:admondleekinlim",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:career-development",
+      "target": "person:dannyma",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:career-development",
+      "target": "person:lukewhipps",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:career-development",
+      "target": "person:marijnmarkus",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:career-development",
+      "target": "person:nicksingh",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:career-development",
+      "target": "person:olegnovikov",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:career-development",
+      "target": "person:saraelateif",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:career-development",
+      "target": "person:sarahmestiri",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:career-development",
+      "target": "person:swyx",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:career-development",
+      "target": "person:tatianagabruseva",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:career-development",
+      "target": "podcast:data-interview-behavioral-and-portfolio-prep-guide",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:career-development",
+      "target": "podcast:data-science-career-abc-framework",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:career-development",
+      "target": "podcast:data-science-interview-and-cv-guide",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:career-development",
+      "target": "podcast:developer-personal-brand-learn-in-public",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:career-development",
+      "target": "podcast:from-academia-to-staff-ai-engineer-interviews-and-career-growth",
+      "kind": "wiki-link",
+      "weight": 10
+    },
+    {
+      "source": "wiki:career-development",
+      "target": "podcast:get-data-scientist-job",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:career-development",
+      "target": "podcast:how-to-stand-out-in-data-science",
+      "kind": "wiki-link",
+      "weight": 10
+    },
+    {
+      "source": "wiki:career-development",
+      "target": "podcast:job-search-strategy-in-tech-projects-skills-cv-networking",
+      "kind": "wiki-link",
+      "weight": 10
+    },
+    {
+      "source": "wiki:career-development",
+      "target": "podcast:open-source-and-volunteering-in-ai-for-data-ml-career-growth",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:career-development",
+      "target": "podcast:personal-brand-for-data-professionals",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:career-development",
+      "target": "wiki:career-growth",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:career-development",
+      "target": "wiki:career-growth",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:career-development",
       "target": "wiki:career-transitions-in-data",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:career-development",
+      "target": "wiki:career-transitions-in-data",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:career-development",
+      "target": "wiki:communication",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:career-development",
+      "target": "wiki:communication",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:career-development",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:career-development",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:career-development",
+      "target": "wiki:data-science-careers",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:career-development",
+      "target": "wiki:data-science-careers",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:career-development",
+      "target": "wiki:job-search",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:career-development",
+      "target": "wiki:job-search",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:career-development",
+      "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:career-development",
+      "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:career-development",
+      "target": "wiki:open-source-portfolio-evidence",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:career-development",
+      "target": "wiki:open-source-portfolio-evidence",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -43442,6 +43754,42 @@
     },
     {
       "source": "wiki:cdc",
+      "target": "person:larsalbertsson",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:cdc",
+      "target": "person:nataliekwong",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:cdc",
+      "target": "podcast:data-engineering-tools-modern-data-stack",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:cdc",
+      "target": "podcast:dataops-principles-and-scalable-data-platforms",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:cdc",
+      "target": "wiki:data-engineering",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:cdc",
+      "target": "wiki:data-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:cdc",
       "target": "wiki:data-engineering-platforms",
       "kind": "wiki-link",
       "weight": 2
@@ -43453,26 +43801,374 @@
       "weight": 3
     },
     {
+      "source": "wiki:cdc",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:cdc",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:cdc",
+      "target": "wiki:data-pipelines",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:cdc",
+      "target": "wiki:data-pipelines",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:cdc",
+      "target": "wiki:dataops",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:cdc",
+      "target": "wiki:dataops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:cdc",
+      "target": "wiki:elt",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:cdc",
+      "target": "wiki:etl",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:cdc",
+      "target": "wiki:etl-vs-elt",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:cdc",
+      "target": "wiki:etl-vs-elt",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:cdc",
+      "target": "wiki:modern-data-stack",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:cdc",
+      "target": "wiki:modern-data-stack",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:cdc",
+      "target": "wiki:streaming",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:cdc",
+      "target": "wiki:streaming",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
       "source": "wiki:ci-cd",
-      "target": "wiki:mlops-and-dataops",
+      "target": "person:christopherbergh",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ci-cd",
+      "target": "person:mariavechtomova",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:ci-cd",
-      "target": "wiki:mlops-and-dataops",
+      "target": "person:nemanjaradojkovic",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ci-cd",
+      "target": "person:raphaelhoogvliets",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ci-cd",
+      "target": "podcast:dataops-automation-and-reliable-data-pipelines",
+      "kind": "wiki-link",
+      "weight": 10
+    },
+    {
+      "source": "wiki:ci-cd",
+      "target": "podcast:dataops-for-data-engineering",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:ci-cd",
+      "target": "podcast:mlops-and-ml-engineering-in-finance",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:ci-cd",
+      "target": "podcast:mlops-at-scale-reproducibility-adoption",
+      "kind": "wiki-link",
+      "weight": 10
+    },
+    {
+      "source": "wiki:ci-cd",
+      "target": "podcast:pragmatic-and-standardized-mlops",
+      "kind": "wiki-link",
+      "weight": 12
+    },
+    {
+      "source": "wiki:ci-cd",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:ci-cd",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ci-cd",
+      "target": "wiki:dataops",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ci-cd",
+      "target": "wiki:dataops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ci-cd",
+      "target": "wiki:gitops-for-data-teams",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ci-cd",
+      "target": "wiki:gitops-for-data-teams",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ci-cd",
+      "target": "wiki:mlops",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ci-cd",
+      "target": "wiki:mlops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ci-cd",
+      "target": "wiki:mlops-tools",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:ci-cd",
+      "target": "wiki:mlops-tools",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ci-cd",
+      "target": "wiki:reproducibility",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:ci-cd",
+      "target": "wiki:reproducibility",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ci-cd",
+      "target": "wiki:testing",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:ci-cd",
+      "target": "wiki:testing",
       "kind": "wiki-related",
       "weight": 3
     },
     {
       "source": "wiki:communication",
-      "target": "wiki:career-transitions-in-data",
+      "target": "article:data-engineer-manager",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:communication",
+      "target": "person:admondleekinlim",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:communication",
+      "target": "person:aleksanderkruszelnicki",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:communication",
+      "target": "person:eugeneyan",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:communication",
+      "target": "person:lorismarini",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:communication",
+      "target": "person:marijnmarkus",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:communication",
+      "target": "person:nicksingh",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:communication",
+      "target": "person:olegnovikov",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:communication",
+      "target": "podcast:data-consulting-business-pricing-and-client-acquisition",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:communication",
+      "target": "podcast:data-interview-behavioral-and-portfolio-prep-guide",
+      "kind": "wiki-link",
+      "weight": 10
+    },
+    {
+      "source": "wiki:communication",
+      "target": "podcast:data-professionals-business-skills-in-saas",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:communication",
+      "target": "podcast:data-science-interview-and-cv-guide",
+      "kind": "wiki-link",
+      "weight": 10
+    },
+    {
+      "source": "wiki:communication",
+      "target": "podcast:how-to-stand-out-in-data-science",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:communication",
+      "target": "podcast:personal-brand-for-data-professionals",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:communication",
+      "target": "podcast:technical-writing-for-data-scientists",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:communication",
       "target": "wiki:career-transitions-in-data",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:communication",
+      "target": "wiki:career-transitions-in-data",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:communication",
+      "target": "wiki:data-product-management",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:communication",
+      "target": "wiki:data-product-management",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:communication",
+      "target": "wiki:data-scientist-role",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:communication",
+      "target": "wiki:data-scientist-role",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:communication",
+      "target": "wiki:job-search",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:communication",
+      "target": "wiki:job-search",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:communication",
+      "target": "wiki:open-source-portfolio-evidence",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:communication",
+      "target": "wiki:open-source-portfolio-evidence",
       "kind": "wiki-related",
       "weight": 3
     },
