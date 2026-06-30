@@ -7,7 +7,7 @@
     "persons": 438,
     "topics": 146,
     "nodes": 1050,
-    "links": 11553
+    "links": 11566
   },
   "nodes": [
     {
@@ -10297,7 +10297,7 @@
       "title": "Self-Service Data Platforms",
       "url": "/wiki/self-service-data-platforms/",
       "count": 1,
-      "search": "Self Service Data Platforms How the podcast archive frames self service data platforms: reusable systems, conventions, governance, adoption, and team design."
+      "search": "Self Service Data Platforms How the DataTalks.Club podcast archive frames self service data platforms: reusable systems, conventions, contracts, governance, adoption, and team design."
     },
     {
       "id": "wiki:software-engineer-to-machine-learning",
@@ -58348,55 +58348,55 @@
       "source": "wiki:data-warehouse-vs-data-lakehouse",
       "target": "person:adrianbrudaru",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:data-warehouse-vs-data-lakehouse",
       "target": "person:arpitchoudhury",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 2
     },
     {
       "source": "wiki:data-warehouse-vs-data-lakehouse",
       "target": "person:eddyzulkifly",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:data-warehouse-vs-data-lakehouse",
       "target": "person:larsalbertsson",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:data-warehouse-vs-data-lakehouse",
       "target": "person:nataliekwong",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:data-warehouse-vs-data-lakehouse",
       "target": "person:santonatuli",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:data-warehouse-vs-data-lakehouse",
       "target": "podcast:data-engineering-tools-modern-data-stack",
       "kind": "wiki-link",
-      "weight": 18
+      "weight": 20
     },
     {
       "source": "wiki:data-warehouse-vs-data-lakehouse",
       "target": "podcast:data-led-growth-event-tracking-and-reverse-etl",
       "kind": "wiki-link",
-      "weight": 12
+      "weight": 8
     },
     {
       "source": "wiki:data-warehouse-vs-data-lakehouse",
       "target": "podcast:dataops-principles-and-scalable-data-platforms",
       "kind": "wiki-link",
-      "weight": 16
+      "weight": 14
     },
     {
       "source": "wiki:data-warehouse-vs-data-lakehouse",
@@ -58408,19 +58408,19 @@
       "source": "wiki:data-warehouse-vs-data-lakehouse",
       "target": "podcast:modern-data-pipelines-orchestration-ingestion-modeling",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 4
     },
     {
       "source": "wiki:data-warehouse-vs-data-lakehouse",
       "target": "podcast:trends-in-modern-data-engineering",
       "kind": "wiki-link",
-      "weight": 24
+      "weight": 22
     },
     {
       "source": "wiki:data-warehouse-vs-data-lakehouse",
       "target": "wiki:analytics-engineering",
       "kind": "wiki-link",
-      "weight": 10
+      "weight": 4
     },
     {
       "source": "wiki:data-warehouse-vs-data-lakehouse",
@@ -58432,7 +58432,7 @@
       "source": "wiki:data-warehouse-vs-data-lakehouse",
       "target": "wiki:apache-iceberg",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:data-warehouse-vs-data-lakehouse",
@@ -58444,7 +58444,7 @@
       "source": "wiki:data-warehouse-vs-data-lakehouse",
       "target": "wiki:data-activation",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 4
     },
     {
       "source": "wiki:data-warehouse-vs-data-lakehouse",
@@ -58456,7 +58456,7 @@
       "source": "wiki:data-warehouse-vs-data-lakehouse",
       "target": "wiki:data-engineering-platforms",
       "kind": "wiki-link",
-      "weight": 10
+      "weight": 4
     },
     {
       "source": "wiki:data-warehouse-vs-data-lakehouse",
@@ -58480,7 +58480,7 @@
       "source": "wiki:data-warehouse-vs-data-lakehouse",
       "target": "wiki:data-quality-and-observability",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:data-warehouse-vs-data-lakehouse",
@@ -58498,7 +58498,7 @@
       "source": "wiki:data-warehouse-vs-data-lakehouse",
       "target": "wiki:dataops",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 4
     },
     {
       "source": "wiki:data-warehouse-vs-data-lakehouse",
@@ -58508,9 +58508,15 @@
     },
     {
       "source": "wiki:data-warehouse-vs-data-lakehouse",
+      "target": "wiki:delta-lake",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-warehouse-vs-data-lakehouse",
       "target": "wiki:modern-data-stack",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 4
     },
     {
       "source": "wiki:data-warehouse-vs-data-lakehouse",
@@ -64978,25 +64984,25 @@
       "source": "wiki:llm-production-patterns",
       "target": "person:adityagautam",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:llm-production-patterns",
       "target": "person:atitaarora",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:llm-production-patterns",
       "target": "person:bartoszmikulski",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:llm-production-patterns",
       "target": "person:hugobowneanderson",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:llm-production-patterns",
@@ -65008,19 +65014,19 @@
       "source": "wiki:llm-production-patterns",
       "target": "person:marianosemelman",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:llm-production-patterns",
       "target": "person:mariasukhareva",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:llm-production-patterns",
       "target": "person:meryemarik",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:llm-production-patterns",
@@ -65030,21 +65036,15 @@
     },
     {
       "source": "wiki:llm-production-patterns",
-      "target": "person:nasserqadri",
+      "target": "person:pauliusztin",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:llm-production-patterns",
-      "target": "person:pauliusztin",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:llm-production-patterns",
       "target": "person:ranjithakulkarni",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:llm-production-patterns",
@@ -65062,13 +65062,13 @@
       "source": "wiki:llm-production-patterns",
       "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
       "kind": "wiki-link",
-      "weight": 14
+      "weight": 12
     },
     {
       "source": "wiki:llm-production-patterns",
       "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
       "kind": "wiki-link",
-      "weight": 14
+      "weight": 10
     },
     {
       "source": "wiki:llm-production-patterns",
@@ -65080,19 +65080,19 @@
       "source": "wiki:llm-production-patterns",
       "target": "podcast:generative-ai-chatbots-in-production-security",
       "kind": "wiki-link",
-      "weight": 10
+      "weight": 6
     },
     {
       "source": "wiki:llm-production-patterns",
       "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 2
     },
     {
       "source": "wiki:llm-production-patterns",
       "target": "podcast:practical-llm-engineering-and-rag",
       "kind": "wiki-link",
-      "weight": 10
+      "weight": 8
     },
     {
       "source": "wiki:llm-production-patterns",
@@ -65104,31 +65104,25 @@
       "source": "wiki:llm-production-patterns",
       "target": "podcast:production-ready-ai-engineering",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 2
     },
     {
       "source": "wiki:llm-production-patterns",
       "target": "podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:llm-production-patterns",
       "target": "podcast:s23e03-future-of-ai-agents",
       "kind": "wiki-link",
-      "weight": 8
-    },
-    {
-      "source": "wiki:llm-production-patterns",
-      "target": "podcast:s23e07-understanding-ai-engineer-role",
-      "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:llm-production-patterns",
       "target": "podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 4
     },
     {
       "source": "wiki:llm-production-patterns",
@@ -65144,15 +65138,9 @@
     },
     {
       "source": "wiki:llm-production-patterns",
-      "target": "wiki:ai-agents",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:llm-production-patterns",
       "target": "wiki:ai-engineer-role",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:llm-production-patterns",
@@ -65168,12 +65156,6 @@
     },
     {
       "source": "wiki:llm-production-patterns",
-      "target": "wiki:ai-engineering-roadmap",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:llm-production-patterns",
       "target": "wiki:ai-infrastructure",
       "kind": "wiki-link",
       "weight": 2
@@ -65182,7 +65164,7 @@
       "source": "wiki:llm-production-patterns",
       "target": "wiki:ai-red-teaming",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:llm-production-patterns",
@@ -65218,7 +65200,7 @@
       "source": "wiki:llm-production-patterns",
       "target": "wiki:llm-evaluation-workflows",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:llm-production-patterns",
@@ -65230,7 +65212,7 @@
       "source": "wiki:llm-production-patterns",
       "target": "wiki:llms",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:llm-production-patterns",
@@ -65284,7 +65266,7 @@
       "source": "wiki:llm-production-patterns",
       "target": "wiki:rag-vs-fine-tuning",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 4
     },
     {
       "source": "wiki:llm-production-patterns",
@@ -65296,7 +65278,7 @@
       "source": "wiki:llm-production-patterns",
       "target": "wiki:retrieval-augmented-generation",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:llm-production-patterns",
@@ -65308,13 +65290,13 @@
       "source": "wiki:llm-production-patterns",
       "target": "wiki:search-rag-and-knowledge-systems",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:llm-production-patterns",
       "target": "wiki:security",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:llm-production-patterns",
@@ -66278,6 +66260,12 @@
     },
     {
       "source": "wiki:machine-learning-portfolio-projects",
+      "target": "article:roadmap:open-source-contributor-roadmap",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:machine-learning-portfolio-projects",
       "target": "person:andradaolteanu",
       "kind": "wiki-link",
       "weight": 2
@@ -66297,6 +66285,12 @@
     {
       "source": "wiki:machine-learning-portfolio-projects",
       "target": "person:eugeneyan",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:machine-learning-portfolio-projects",
+      "target": "person:isabellabicalho",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -66340,19 +66334,19 @@
       "source": "wiki:machine-learning-portfolio-projects",
       "target": "podcast:analytics-to-data-science-with-kaggle-portfolio",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:machine-learning-portfolio-projects",
       "target": "podcast:building-scalable-and-reliable-machine-learning-systems",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "wiki:machine-learning-portfolio-projects",
       "target": "podcast:crisp-dm",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "wiki:machine-learning-portfolio-projects",
@@ -66362,15 +66356,27 @@
     },
     {
       "source": "wiki:machine-learning-portfolio-projects",
+      "target": "podcast:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:machine-learning-portfolio-projects",
       "target": "podcast:from-physics-to-computer-vision-career-transition",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:machine-learning-portfolio-projects",
       "target": "podcast:get-data-scientist-job",
       "kind": "wiki-link",
       "weight": 4
+    },
+    {
+      "source": "wiki:machine-learning-portfolio-projects",
+      "target": "podcast:hugging-face-contributions-and-nlp-portfolio",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:machine-learning-portfolio-projects",
@@ -66382,7 +66388,7 @@
       "source": "wiki:machine-learning-portfolio-projects",
       "target": "podcast:machine-learning-system-design-interview",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 8
     },
     {
       "source": "wiki:machine-learning-portfolio-projects",
@@ -66400,19 +66406,19 @@
       "source": "wiki:machine-learning-portfolio-projects",
       "target": "podcast:technical-writing-for-data-scientists",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:machine-learning-portfolio-projects",
       "target": "wiki:a-b-testing",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:machine-learning-portfolio-projects",
       "target": "wiki:career-transition",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:machine-learning-portfolio-projects",
@@ -66454,7 +66460,7 @@
       "source": "wiki:machine-learning-portfolio-projects",
       "target": "wiki:machine-learning",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:machine-learning-portfolio-projects",
@@ -66472,7 +66478,7 @@
       "source": "wiki:machine-learning-portfolio-projects",
       "target": "wiki:machine-learning-system-design",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 4
     },
     {
       "source": "wiki:machine-learning-portfolio-projects",
@@ -66496,7 +66502,7 @@
       "source": "wiki:machine-learning-portfolio-projects",
       "target": "wiki:open-source-portfolio-evidence",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:machine-learning-portfolio-projects",
@@ -66514,13 +66520,19 @@
       "source": "wiki:machine-learning-portfolio-projects",
       "target": "wiki:production-ml-project-checklist",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:machine-learning-portfolio-projects",
       "target": "wiki:production-ml-project-checklist",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:machine-learning-portfolio-projects",
+      "target": "wiki:search-and-rag-project-checklist",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:machine-learning-system-design",
@@ -76388,7 +76400,37 @@
     },
     {
       "source": "wiki:self-service-data-platforms",
+      "target": "person:jessiashdown",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:self-service-data-platforms",
+      "target": "person:larsalbertsson",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:self-service-data-platforms",
       "target": "person:mehdiouazza",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:self-service-data-platforms",
+      "target": "person:urigilad",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:self-service-data-platforms",
+      "target": "person:zhamakdehghani",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:self-service-data-platforms",
+      "target": "podcast:cloud-data-governance",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -76396,7 +76438,19 @@
       "source": "wiki:self-service-data-platforms",
       "target": "podcast:data-engineering-leadership-and-modern-data-platforms",
       "kind": "wiki-link",
-      "weight": 12
+      "weight": 8
+    },
+    {
+      "source": "wiki:self-service-data-platforms",
+      "target": "podcast:data-mesh-architecture-decentralized-data-products",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:self-service-data-platforms",
+      "target": "podcast:dataops-principles-and-scalable-data-platforms",
+      "kind": "wiki-link",
+      "weight": 10
     },
     {
       "source": "wiki:self-service-data-platforms",
@@ -76408,41 +76462,53 @@
       "source": "wiki:self-service-data-platforms",
       "target": "podcast:scaling-data-engineering-teams-self-service-platforms",
       "kind": "wiki-link",
-      "weight": 18
+      "weight": 16
     },
     {
       "source": "wiki:self-service-data-platforms",
       "target": "wiki:data-engineering",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:self-service-data-platforms",
+      "target": "wiki:data-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:self-service-data-platforms",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:self-service-data-platforms",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:self-service-data-platforms",
+      "target": "wiki:data-governance",
       "kind": "wiki-link",
       "weight": 6
     },
     {
       "source": "wiki:self-service-data-platforms",
-      "target": "wiki:data-engineering",
+      "target": "wiki:data-governance",
       "kind": "wiki-related",
       "weight": 3
     },
     {
       "source": "wiki:self-service-data-platforms",
-      "target": "wiki:data-engineering-platforms",
+      "target": "wiki:data-mesh-vs-centralized-data-platform",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 4
     },
     {
       "source": "wiki:self-service-data-platforms",
-      "target": "wiki:data-engineering-platforms",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:self-service-data-platforms",
-      "target": "wiki:data-governance",
-      "kind": "wiki-link",
-      "weight": 8
-    },
-    {
-      "source": "wiki:self-service-data-platforms",
-      "target": "wiki:data-governance",
+      "target": "wiki:data-mesh-vs-centralized-data-platform",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -76450,13 +76516,13 @@
       "source": "wiki:self-service-data-platforms",
       "target": "wiki:data-quality-and-observability",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:self-service-data-platforms",
       "target": "wiki:dataops",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:self-service-data-platforms",
@@ -76472,21 +76538,33 @@
     },
     {
       "source": "wiki:self-service-data-platforms",
+      "target": "wiki:documentation",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:self-service-data-platforms",
       "target": "wiki:modern-data-stack",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:self-service-data-platforms",
       "target": "wiki:modern-data-stack",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:self-service-data-platforms",
+      "target": "wiki:orchestration",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:self-service-data-platforms",
       "target": "wiki:platform-adoption",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:self-service-data-platforms",
@@ -76498,7 +76576,7 @@
       "source": "wiki:self-service-data-platforms",
       "target": "wiki:streaming",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:software-engineer-to-machine-learning",
@@ -76510,7 +76588,7 @@
       "source": "wiki:software-engineer-to-machine-learning",
       "target": "person:mihaileric",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:software-engineer-to-machine-learning",
@@ -76534,7 +76612,7 @@
       "source": "wiki:software-engineer-to-machine-learning",
       "target": "person:svpino",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:software-engineer-to-machine-learning",
@@ -76546,19 +76624,19 @@
       "source": "wiki:software-engineer-to-machine-learning",
       "target": "podcast:building-production-ml-platform-and-mlops-team",
       "kind": "wiki-link",
-      "weight": 14
+      "weight": 8
     },
     {
       "source": "wiki:software-engineer-to-machine-learning",
       "target": "podcast:from-software-engineer-to-machine-learning",
       "kind": "wiki-link",
-      "weight": 30
+      "weight": 24
     },
     {
       "source": "wiki:software-engineer-to-machine-learning",
       "target": "podcast:mlops-at-scale-reproducibility-adoption",
       "kind": "wiki-link",
-      "weight": 16
+      "weight": 12
     },
     {
       "source": "wiki:software-engineer-to-machine-learning",
@@ -76570,13 +76648,13 @@
       "source": "wiki:software-engineer-to-machine-learning",
       "target": "podcast:research-to-production-ml-systems-roadmap",
       "kind": "wiki-link",
-      "weight": 24
+      "weight": 14
     },
     {
       "source": "wiki:software-engineer-to-machine-learning",
       "target": "podcast:software-engineering-for-machine-learning",
       "kind": "wiki-link",
-      "weight": 18
+      "weight": 12
     },
     {
       "source": "wiki:software-engineer-to-machine-learning",
@@ -76600,7 +76678,7 @@
       "source": "wiki:software-engineer-to-machine-learning",
       "target": "wiki:machine-learning",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:software-engineer-to-machine-learning",
@@ -76612,7 +76690,7 @@
       "source": "wiki:software-engineer-to-machine-learning",
       "target": "wiki:machine-learning-engineer-role",
       "kind": "wiki-link",
-      "weight": 14
+      "weight": 8
     },
     {
       "source": "wiki:software-engineer-to-machine-learning",
@@ -76624,13 +76702,13 @@
       "source": "wiki:software-engineer-to-machine-learning",
       "target": "wiki:machine-learning-infrastructure",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:software-engineer-to-machine-learning",
       "target": "wiki:machine-learning-portfolio-projects",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:software-engineer-to-machine-learning",
@@ -76642,13 +76720,13 @@
       "source": "wiki:software-engineer-to-machine-learning",
       "target": "wiki:machine-learning-system-design",
       "kind": "wiki-link",
-      "weight": 10
+      "weight": 6
     },
     {
       "source": "wiki:software-engineer-to-machine-learning",
       "target": "wiki:mlops",
       "kind": "wiki-link",
-      "weight": 10
+      "weight": 8
     },
     {
       "source": "wiki:software-engineer-to-machine-learning",
@@ -76666,7 +76744,7 @@
       "source": "wiki:software-engineer-to-machine-learning",
       "target": "wiki:mlops-vs-devops",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:software-engineer-to-machine-learning",
@@ -76690,7 +76768,7 @@
       "source": "wiki:software-engineer-to-machine-learning",
       "target": "wiki:software-engineering",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:software-engineer-to-machine-learning",

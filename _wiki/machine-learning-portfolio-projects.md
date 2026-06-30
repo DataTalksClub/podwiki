@@ -13,232 +13,262 @@ related:
   - Open Source Portfolio Evidence
 ---
 
-## Definition
+A machine learning portfolio project is public evidence that a candidate can
+turn a decision problem into a working [machine learning]({{ '/wiki/machine-learning/' | relative_url }})
+system or analysis. In the DataTalks.Club archive, the strongest projects are
+not model demos alone. They explain the decision, data, baseline, and
+[evaluation]({{ '/wiki/evaluation/' | relative_url }}). They also show the
+operating boundary that makes the work reviewable.
 
-A machine learning portfolio project is public proof that a candidate can turn a
-decision problem into working software. The project needs data and labels. It
-also needs features, baselines, and evaluation. DataTalks.Club guests keep
-returning to the same warning: a model-first notebook is weak evidence.
-
-In [CRISP-DM]({{ '/podcasts/crisp-dm/' | relative_url }}), the ML project
-workflow starts with business understanding. The team studies the data and
-builds a simple baseline. It evaluates against the original objective, then
-deploys only when the solution helps the decision.
-
-This topic covers applied
-[machine learning]({{ '/wiki/machine-learning/' | relative_url }}),
-[data science]({{ '/wiki/data-science/' | relative_url }}), and
-[ML engineering]({{ '/wiki/machine-learning-engineer-role/' | relative_url }})
-portfolio planning. Use
-[Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
-for architecture interviews, and use
-[MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }}) for
-deployment, monitoring, and reproducibility.
-For a concrete production-readiness checklist, use
+For applied [data science]({{ '/wiki/data-science/' | relative_url }}),
+[machine learning engineer]({{ '/wiki/machine-learning-engineer-role/' | relative_url }}),
+and [job search]({{ '/wiki/job-search/' | relative_url }}) use cases, start
+here. For architecture interview practice, use
+[Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }}).
+For deployment and monitoring context, use
+[MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }}). For a
+production-aware implementation pass, use
 [Production ML Project Checklist]({{ '/wiki/production-ml-project-checklist/' | relative_url }}).
-
-## Link Map
-
-Useful adjacent pages:
-
-- [Machine Learning]({{ '/wiki/machine-learning/' | relative_url }})
-- [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
-- [Evaluation]({{ '/wiki/evaluation/' | relative_url }})
-- [A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }})
-- [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }})
-- [Career Transition]({{ '/wiki/career-transition/' | relative_url }})
-- [Job Search]({{ '/wiki/job-search/' | relative_url }})
-- [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
-
-Useful podcast discussions:
-
-- [CRISP-DM]({{ '/podcasts/crisp-dm/' | relative_url }}) for project stages, baselines, evaluation, and deployment.
-- [ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }}) for metrics, baselines, labels, monitoring, and fallbacks.
-- [Building Scalable and Reliable Machine Learning Systems]({{ '/podcasts/building-scalable-and-reliable-machine-learning-systems/' | relative_url }}) for goals, constraints, data strategy, and runtime tradeoffs.
-- [Practical Machine Learning Engineering for Production]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }}) for maintainability, buy-in, timeboxing, and cost.
-- [Software Engineering for ML]({{ '/podcasts/software-engineering-for-machine-learning/' | relative_url }}) for requirements, documentation, testing, and deployment gaps.
-- [Land Data Scientist Roles]({{ '/podcasts/get-data-scientist-job/' | relative_url }}) for recruiter review of projects and tech stacks.
-- [Ace Data Interviews]({{ '/podcasts/data-interview-behavioral-and-portfolio-prep-guide/' | relative_url }}) for project walkthroughs and impact stories.
-- [Analytics to Data Science with Kaggle]({{ '/podcasts/analytics-to-data-science-with-kaggle-portfolio/' | relative_url }}) for Kaggle notebooks as public proof.
-- [Switch to Computer Vision and Deep Learning]({{ '/podcasts/from-physics-to-computer-vision-career-transition/' | relative_url }}) for computer vision projects, labeling, deployment, and Docker.
-- [Technical Writing for Data Scientists]({{ '/podcasts/technical-writing-for-data-scientists/' | relative_url }}) for portfolio writeups.
 
 ## Common Definition
 
-Guests converge on one standard: a good ML portfolio project proves judgment
-under constraints. The project should show why ML belongs in the problem and
-which baseline it beats. It should also show how the data was built, how the
-result was evaluated, and how someone could run or review the work.
+Across the archive, a good ML portfolio project proves judgment under
+constraints.
 
-The CRISP-DM episode gives the base project lifecycle. At 16:54, the discussion
-uses a rule-based category classifier as the first comparison. At 17:05 and
-17:17, evaluation moves from model score to a small traffic test that checks
-whether moderators spend less time correcting categories. At 18:23, extra model
-complexity has to justify its return.
+The project should answer five review questions:
+
+- Why does ML belong in the problem?
+- Which baseline does the model beat?
+- How were the data and labels built?
+- How was the result evaluated?
+- How can another person run or review the work?
+
+The [CRISP-DM discussion]({{ '/podcasts/crisp-dm/' | relative_url }}) gives the
+basic lifecycle from business understanding through deployment. Its
+classified-listing example starts with the business problem. It uses a
+rule-based category classifier as a baseline around 16:54. Around 17:05, it
+checks whether the baseline is enough. At 18:23, it asks whether more model
+complexity serves the business objective.
 
 [Valerii Babushkin]({{ '/people/valeriybabushkin/' | relative_url }}) gives the
 interview version in
 [ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }}).
-At 24:28, the discussion joins metrics and baselines with model outputs. It also
-connects features to A/B tests.
+At 24:28, he connects metrics, baselines, and model outputs. Around 44:11, he
+adds labels, feature access, and loss functions. He also adds validation and
+online evaluation.
 
-At 44:11, it adds labels and feature access, plus loss functions and validation.
-It also covers online evaluation. At 46:02, it adds distribution shift and class
-imbalance. It also covers broken models, monitoring, and fallbacks.
+Around 46:02, he brings in distribution shift, class imbalance, and monitoring.
+He also covers broken models and fallbacks. This makes a portfolio project
+closer to a small system design exercise than to a notebook leaderboard entry.
 
-Communication is part of the proof. In
-[Land Data Scientist Roles]({{ '/podcasts/get-data-scientist-job/' | relative_url }}),
-[Luke Whipps]({{ '/people/lukewhipps/' | relative_url }}) says projects should
-back up the claimed tech stack. TensorFlow or PyTorch claims need concrete
-project examples. Python or SQL claims need them too.
+Recruiting and interview episodes apply the same standard to presentation.
+In [Land Data Scientist Roles]({{ '/podcasts/get-data-scientist-job/' | relative_url }}),
+[Luke Whipps]({{ '/people/lukewhipps/' | relative_url }}) says around 19:50
+that projects should back up the skills claimed on a resume. That includes
+Python and SQL. It also includes TensorFlow or PyTorch.
 
 In
 [Ace Data Interviews]({{ '/podcasts/data-interview-behavioral-and-portfolio-prep-guide/' | relative_url }}),
-[Nick Singh]({{ '/people/nicksingh/' | relative_url }}) explains that interviewers
-often use project walkthroughs to test model choice and metrics. They also test
-validation, ownership, and impact.
+[Nick Singh]({{ '/people/nicksingh/' | relative_url }}) treats project
+walkthroughs as a way to test model choice and metrics. He also uses them to
+test validation, ownership, and impact.
 
 ## Guest Differences
 
-The episodes stress different portfolio signals.
+The guests mostly agree on the bar for credible work, but they value different
+signals. The
+[CRISP-DM episode]({{ '/podcasts/crisp-dm/' | relative_url }}) centers process:
+a project is convincing when the path from problem framing through evaluation
+and deployment is visible. Valerii centers defensibility in
+[ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }}),
+including the outline-first advice and simple baseline discussion around 29:09.
 
-- The CRISP-DM discussion centers process. A convincing project shows the path from business understanding through deployment and revision.
-- Valerii centers defensibility. At 29:09, he recommends an outline and a simple baseline before deeper interview discussion.
-- [Arseny Kravchenko]({{ '/people/arsenykravchenko/' | relative_url }}) centers constraints. In [Building Scalable and Reliable Machine Learning Systems]({{ '/podcasts/building-scalable-and-reliable-machine-learning-systems/' | relative_url }}), he defines ML system design at 7:54 as decisions under constraints. His mobile ML example adds latency, energy use, model size, user experience, and platform choice.
-- [Ben Wilson]({{ '/people/benwilson/' | relative_url }}) centers maintainability and adoption. In [Practical Machine Learning Engineering for Production]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }}), he criticizes large "god function" code at 8:49. At 10:46, he says projects miss production when nobody has business buy-in or the solution costs too much to maintain.
-- [Nadia Nahar]({{ '/people/nadianahar/' | relative_url }}) centers software engineering. In [Software Engineering for ML]({{ '/podcasts/software-engineering-for-machine-learning/' | relative_url }}), she says at 7:42 that ML has to become part of a larger software system. At 10:54, she names weak requirements and data access. She also names unrealistic expectations and deployment gaps.
+[Arseny Kravchenko]({{ '/people/arsenykravchenko/' | relative_url }}) centers
+constraints in
+[Building Scalable and Reliable Machine Learning Systems]({{ '/podcasts/building-scalable-and-reliable-machine-learning-systems/' | relative_url }}).
+At 7:54, he frames ML system design as decisions under constraints. His mobile
+ML example adds latency, energy use, and model size to the modeling problem. It
+also adds user experience and platform choice.
 
-Together, these views set a high bar: a portfolio project should show the
-decision and baseline. It should also show the data path, evaluation plan,
-software boundary, and maintenance story.
+[Ben Wilson]({{ '/people/benwilson/' | relative_url }}) connects
+maintainability and adoption, and the
+[production ML episode]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }})
+has the concrete critique. Around 8:49, he criticizes large "god function"
+code. Around 10:46, he explains that projects fail production when they lack
+buy-in or cost too much to maintain.
 
-## Choosing a Project
+[Nadia Nahar]({{ '/people/nadianahar/' | relative_url }}) centers software
+engineering boundaries in
+[Software Engineering for ML]({{ '/podcasts/software-engineering-for-machine-learning/' | relative_url }}).
+Around 7:42, she argues that ML has to become part of a larger software system.
+Around 10:54, she names weak requirements and data access. She also names
+unrealistic expectations and deployment gaps. Together, these perspectives make
+the portfolio bar broader than model quality.
 
-Choose the project around the role signal you need.
+The project has to show the decision, baseline, and data path. It also has to
+show the evaluation plan, software boundary, and maintenance story.
 
-For data science roles, a predictive project can work well. Start from a
-stakeholder decision, use a public or synthetic dataset with a clear label, and
-compare against a simple rule or model. The CRISP-DM listing-classification
-example supports this because it links model quality to moderator time and a
-small traffic evaluation.
+## Predictive Service Projects
 
-For ML engineering roles, make the lifecycle visible. A training script and
-batch scoring job can prove more than a complex model. Add an API, Docker setup,
-CI check, and monitoring sketch. Ben Wilson's production capstone discussion at
-57:56 uses unit tests and integration tests. It also uses monitoring, A/B
-testing, deployments, and CI/CD around an open-source dataset.
+A predictive service is the strongest default when the target role involves
+applied modeling plus production awareness. The project can be a classifier or
+forecaster. Fraud scoring, churn prediction, and ranking also work. It should
+start from the decision that changes if the prediction works.
 
-For computer vision roles, expose the data work and runtime constraint. Apply
-the same standard to deep learning roles. In
-[Switch to Computer Vision and Deep Learning]({{ '/podcasts/from-physics-to-computer-vision-career-transition/' | relative_url }}),
-[Tatiana Gabruseva]({{ '/people/tatianagabruseva/' | relative_url }}) discusses
-Kaggle and internships. She also discusses Omdena-style collaborations and pet
-projects.
+The [CRISP-DM episode]({{ '/podcasts/crisp-dm/' | relative_url }}) supports
+this structure through its classified-listing example. The model is judged
+against a baseline and against whether moderators spend less time correcting
+categories. It isn't judged only against an offline score.
 
-Those projects include data collection and labeling, plus deployment and Docker.
-Arseny's mobile AR example adds the engineering side by covering model size,
-frames per second, battery use, and platform support.
+The reviewable version of this project includes a simple baseline, a leakage
+check, and a metric tied to false positives or false negatives. It also
+includes a fallback path.
 
-For Kaggle projects, show understanding over rank and apply the same standard
-to other public datasets.
-[Andrada Olteanu]({{ '/people/andradaolteanu/' | relative_url }}) says in the
-[Kaggle portfolio episode]({{ '/podcasts/analytics-to-data-science-with-kaggle-portfolio/' | relative_url }})
-at 32:55 that Kaggle can prove Python or PyTorch. A CV claim alone is weaker.
-At 42:33, she studies strong notebooks and credits the baseline. She
-decomposes the code, reimplements it, and then improves it.
+Valerii's checklist in
+[ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }})
+grounds those details through labels, feature access, and validation. It also
+covers online evaluation and distribution shift. It covers class imbalance,
+monitoring, and fallbacks. For more context on metrics and experiments,
+connect the project to
+[Evaluation]({{ '/wiki/evaluation/' | relative_url }}) and
+[A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }}).
 
-For open-source-oriented portfolios, keep the work small enough to maintain. In
-[Contribute to Open Source ML]({{ '/podcasts/open-source-ml-contributions/' | relative_url }}),
-[Vincent Warmerdam]({{ '/people/vincentwarmerdam/' | relative_url }}) treats
-documentation and examples as project stewardship. He also includes contribution
-guides, packaging, tests, and CI. That work connects directly to
-[Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }}).
-
-## Project Proof
-
-Use the README or case study to make the review easy.
-
-- Name the decision that changes if the model works. This follows CRISP-DM's business understanding step. It also follows Valerii's advice at 40:11 to define the goal, proxy metric, and long-term risks.
-- Explain the data and labels. Valerii's checklist at 44:11 asks for labels and feature access. It also asks for loss functions, validation, and online evaluation.
-- Show the baseline. The CRISP-DM episode starts from a rule-based classifier. Arseny's design discussion at 32:37 requires a baseline before the next solution.
-- Justify the metric. Valerii's examples connect metrics to false positives, false negatives, and ranking quality. They also connect metrics to A/B tests and business goals. Use [Evaluation]({{ '/wiki/evaluation/' | relative_url }}) when the metric needs more context.
-- Include error analysis. Tatiana's transition episode treats failure as a learning input. Ben Wilson uses complexity, cost, and maintainability as failure modes.
-- Show the run path outside a notebook. Nadia's episode argues that ML becomes useful as part of a software system. Ben Wilson adds modular code, tests, CI/CD, and monitoring.
-- Prepare the interview story. Luke Whipps links projects to claimed skills. Nick Singh says candidates should lead with impact and know the details behind the work.
-
-## Project Types
-
-A predictive service is a strong default when the target role involves modeling
-and production awareness. Build a classifier or forecaster behind a batch command
-or simple API. Fraud scorers and churn models also work. A ranking model works
-too when the problem calls for one.
-
-Use the CRISP-DM cycle with a baseline, then explain leakage, class imbalance,
-and the fallback path. Valerii's system-design checklist supports
-this structure because it joins labels, metrics, and features. It also joins
-validation, monitoring, and fallbacks.
-
-A recommendation or search-ranking project fits product ML and marketplace
-roles. It also fits e-commerce, media, and search roles. Show candidate
-generation and ranking features, then include cold-start behavior, offline
-metrics, and a serving sketch. Valerii's points-of-interest recommender discussion and Arseny's
-design-doc examples both show why recommendation work needs problem framing.
-They also show why metrics and data-flow assumptions come before an embedding
-demo.
-
-A computer vision or NLP project is strongest when it explains the data and the
-deployment constraint. Tatiana's episode supports projects with data collection,
-labeling, deployment, and Docker. Arseny's mobile AR example shows why runtime
-constraints can matter more than model novelty.
+## Production ML Pipeline Projects
 
 A production ML pipeline project can use a simple model because the lifecycle is
-the proof. Use reproducible training and tests. Add experiment tracking, model
-packaging, batch or online inference, and a monitoring plan. This connects Ben
-Wilson's capstone discussion to
+the proof. The useful portfolio signal is reproducible training and testable
+code. It also includes batch or online inference, packaging, deployment notes,
+and a monitoring plan.
+
+Ben Wilson's
+[production ML engineering discussion]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }})
+supports this project type. Around 57:56, he describes a production capstone
+with unit tests, integration tests, and monitoring. The capstone also includes
+A/B testing, deployments, and CI/CD around an open-source dataset.
+
+This project should make the run path visible outside a notebook. Nadia's
+[Software Engineering for ML]({{ '/podcasts/software-engineering-for-machine-learning/' | relative_url }})
+episode grounds that requirement because she treats ML as part of a larger
+software system, not an isolated experiment. A compact version can include a
+training command, model artifact, and scoring job. It can also include a Docker
+setup, CI check, and monitoring sketch. That connects directly to
 [MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }}) and
-[Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }}).
+[Production ML Project Checklist]({{ '/wiki/production-ml-project-checklist/' | relative_url }}).
 
-A case-study writeup can be enough when the project can't be deployed publicly.
-[Technical Writing for Data Scientists]({{ '/podcasts/technical-writing-for-data-scientists/' | relative_url }})
-helps here because
+## Recommendation and Ranking Projects
+
+Recommendation projects fit product ML roles, and search-ranking or marketplace
+projects can show the same role signal. They need candidate generation, ranking
+features, and cold-start behavior. They also need offline metrics, serving
+assumptions, and user-facing tradeoffs.
+
+Valerii's
+[system design interview episode]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }})
+uses recommender and ranking examples to tie metrics and baselines to product
+outcomes before model choice. Arseny's
+[scalable ML systems episode]({{ '/podcasts/building-scalable-and-reliable-machine-learning-systems/' | relative_url }})
+adds the design-doc focus. Constraints, data flow, latency, and failure modes
+come before an embedding demo.
+
+For portfolio review, state the served surface and target metric.
+Search projects should link to
+[Search and RAG Project Checklist]({{ '/wiki/search-and-rag-project-checklist/' | relative_url }})
+only when retrieval or ranking behavior is part of the implementation. Product
+behavior projects should link to
+[Product Analytics]({{ '/wiki/product-analytics/' | relative_url }}) and
+[A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }}) because the archive
+repeatedly treats online impact as separate from offline model score.
+
+## Computer Vision and NLP Projects
+
+Computer vision and NLP projects are strongest when the data work is visible.
+They also need a deployment constraint.
+[Tatiana Gabruseva]({{ '/people/tatianagabruseva/' | relative_url }}) discusses
+that transition in
+[Switch to Computer Vision and Deep Learning]({{ '/podcasts/from-physics-to-computer-vision-career-transition/' | relative_url }}).
+
+She covers Kaggle projects, internships and Omdena-style collaborations. She
+also covers pet projects and data collection, then connects labeling,
+deployment, and Docker to the same transition.
+
+Arseny's mobile ML example in
+[Building Scalable and Reliable Machine Learning Systems]({{ '/podcasts/building-scalable-and-reliable-machine-learning-systems/' | relative_url }})
+shows why runtime constraints can matter more than model novelty. Those
+constraints include model size, frame rate, battery use, and platform support.
+
+Open-source and community NLP work can also become portfolio evidence when the
+artifact is concrete. In
+[Hugging Face Contributions and NLP Portfolio]({{ '/podcasts/hugging-face-contributions-and-nlp-portfolio/' | relative_url }}),
+the archive treats Spaces demos, documentation, and GitHub work as public proof
+of applied NLP capability. In
+[From Biology to ML]({{ '/podcasts/from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers/' | relative_url }}),
+[Isabella Bicalho]({{ '/people/isabellabicalho/' | relative_url }}) connects
+open-source and AI-for-good work to job-ready experience around 42:24. Her
+computer vision and transformer projects stay grounded in collaboration and
+practical implementation.
+
+## Kaggle and Notebook Projects
+
+Kaggle projects can work as portfolio evidence when they show understanding,
+not just rank. In
+[Analytics to Data Science with Kaggle]({{ '/podcasts/analytics-to-data-science-with-kaggle-portfolio/' | relative_url }}),
+[Andrada Olteanu]({{ '/people/andradaolteanu/' | relative_url }}) describes
+Kaggle notebooks, GitHub, and portfolio impact around 32:14. Around 41:49 and
+45:16, she recommends learning by doing competitions and studying strong
+notebooks. She decomposes the code, reimplements it, debugs it, and improves
+it.
+
+The credible Kaggle portfolio project names the baseline, credits borrowed
+ideas, explains the data validation and feature choices, and adds original
+analysis. It also connects the notebook to the claimed skill. Luke Whipps'
+[recruiter discussion]({{ '/podcasts/get-data-scientist-job/' | relative_url }})
+supports that standard because he expects resume skills to link to concrete
+projects rather than disconnected tool names.
+
+## Open Source ML Projects
+
+An open-source-oriented ML portfolio can be smaller than a full application if
+the work makes a project easier to use, run, test, or maintain. In
+[Contribute to Open Source ML]({{ '/podcasts/open-source-ml-contributions/' | relative_url }}),
+[Vincent Warmerdam]({{ '/people/vincentwarmerdam/' | relative_url }}) treats
+documentation, examples, and contribution guides as part of project stewardship.
+He also includes packaging, tests, and CI. His scikit-lego and Rasa discussion
+shows why small, ecosystem-compatible tools can be stronger evidence than
+unfinished large projects.
+
+This route fits candidates who want public collaboration evidence. It should
+link issues, pull requests, examples, or docs work to a clear user problem. For
+more detail on that signal, use
+[Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
+and the
+[Open Source Contributor Roadmap]({{ '/roadmaps/open-source-contributor-roadmap/' | relative_url }}).
+
+## Portfolio Writeups
+
+A case-study writeup can explain the project when deployment is private,
+expensive, or unsafe to publish. In
+[Technical Writing for Data Scientists]({{ '/podcasts/technical-writing-for-data-scientists/' | relative_url }}),
 [Eugene Yan]({{ '/people/eugeneyan/' | relative_url }}) describes writing as
-communication practice. At 20:18, he describes outlines with section headers,
-topic sentences, and supporting evidence.
+communication practice. Around 20:18, he uses outlines with section headers,
+topic sentences, and supporting evidence. That same structure works for a
+portfolio case study.
 
-Use that discipline for the portfolio writeup. Cover the problem and data first,
-then cover the baseline and model. End with the metric, result, limits, and next
-decision.
-
-## Anti-Patterns
-
-Weak ML portfolio projects usually ignore the evidence above. A notebook with no
-decision and no baseline contradicts the CRISP-DM project workflow. The same is
-true when it has no data explanation or error analysis. An advanced model chosen
-because it looks impressive contradicts Ben Wilson's advice to use the minimum
-required complexity and check the cost.
-
-A project also loses credibility when the presentation fails under interview
-questions. Nick Singh's project-walkthrough advice requires candidates to defend
-the model and assumptions. It also requires candidates to defend metrics,
-validation, and impact. Luke Whipps' recruiting advice requires claimed skills
-to connect to concrete projects.
-
-Avoid these weak signals:
-
-- copied Kaggle notebooks with no attribution or original analysis
-- accuracy-only reporting on imbalanced problems
-- features that can't exist at prediction time
-- no explanation of labels, missing values, privacy, or leakage
-- demo APIs with no monitoring or fallback story
-- public impact claims with no experiment, user metric, or defensible proxy
+The writeup should cover the problem and decision before the data, baseline,
+and model. It should also cover the metric, result, limitations, and next
+decision so the interview story is ready. Nick Singh's
+[portfolio prep discussion]({{ '/podcasts/data-interview-behavioral-and-portfolio-prep-guide/' | relative_url }})
+grounds that requirement because project walkthroughs test whether the
+candidate can defend assumptions and model choices. They also test metrics,
+validation, and impact.
 
 ## Related Pages
 
-Use these pages for adjacent project and role context.
+These pages cover adjacent role, system, and evaluation context.
 
 - [Machine Learning]({{ '/wiki/machine-learning/' | relative_url }})
 - [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
 - [MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }})
+- [Production ML Project Checklist]({{ '/wiki/production-ml-project-checklist/' | relative_url }})
 - [Evaluation]({{ '/wiki/evaluation/' | relative_url }})
 - [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
 - [Career Transition]({{ '/wiki/career-transition/' | relative_url }})
