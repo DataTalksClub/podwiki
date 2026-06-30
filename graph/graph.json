@@ -7,7 +7,7 @@
     "persons": 438,
     "topics": 146,
     "nodes": 1050,
-    "links": 11578
+    "links": 11576
   },
   "nodes": [
     {
@@ -10007,7 +10007,7 @@
       "title": "Open Source and Developer Relations",
       "url": "/wiki/open-source-and-developer-relations/",
       "count": 1,
-      "search": "Open Source and Developer Relations How DataTalks.Club podcast guests connect open source stewardship, developer relations, documentation, demos, community feedback, and adoption for data and ML tools."
+      "search": "Open Source and Developer Relations How DataTalks.Club podcast guests connect open source stewardship with DevRel and adoption."
     },
     {
       "id": "wiki:open-source-portfolio-evidence",
@@ -12118,13 +12118,13 @@
       "source": "article:comparison:knowledge-graph-vs-vector-search",
       "target": "person:anahitapakiman",
       "kind": "article-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "article:comparison:knowledge-graph-vs-vector-search",
       "target": "person:atitaarora",
       "kind": "article-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "article:comparison:knowledge-graph-vs-vector-search",
@@ -12148,25 +12148,31 @@
       "source": "article:comparison:knowledge-graph-vs-vector-search",
       "target": "podcast:knowledge-graphs-and-llms-for-automotive-rnd",
       "kind": "article-link",
-      "weight": 10
+      "weight": 14
     },
     {
       "source": "article:comparison:knowledge-graph-vs-vector-search",
       "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
       "kind": "article-link",
-      "weight": 8
+      "weight": 14
     },
     {
       "source": "article:comparison:knowledge-graph-vs-vector-search",
       "target": "podcast:production-ml-search-vector-search-embeddings-hybrid-search",
       "kind": "article-link",
-      "weight": 10
+      "weight": 14
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "wiki:agent-engineering",
+      "kind": "article-link",
+      "weight": 2
     },
     {
       "source": "article:comparison:knowledge-graph-vs-vector-search",
       "target": "wiki:embeddings",
       "kind": "article-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "article:comparison:knowledge-graph-vs-vector-search",
@@ -12190,17 +12196,17 @@
       "source": "article:comparison:knowledge-graph-vs-vector-search",
       "target": "wiki:knowledge-graph-vs-vector-search",
       "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "article-link",
       "weight": 4
     },
     {
       "source": "article:comparison:knowledge-graph-vs-vector-search",
       "target": "wiki:llm-evaluation-workflows",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:comparison:knowledge-graph-vs-vector-search",
-      "target": "wiki:llm-evaluation-workflows",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -12208,25 +12214,19 @@
       "source": "article:comparison:knowledge-graph-vs-vector-search",
       "target": "wiki:production-search-evaluation",
       "kind": "article-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "article:comparison:knowledge-graph-vs-vector-search",
       "target": "wiki:production-search-evaluation",
       "kind": "article-wiki",
       "weight": 5
-    },
-    {
-      "source": "article:comparison:knowledge-graph-vs-vector-search",
-      "target": "wiki:rag-vs-fine-tuning",
-      "kind": "article-link",
-      "weight": 2
     },
     {
       "source": "article:comparison:knowledge-graph-vs-vector-search",
       "target": "wiki:retrieval-augmented-generation",
       "kind": "article-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "article:comparison:knowledge-graph-vs-vector-search",
@@ -12238,7 +12238,7 @@
       "source": "article:comparison:knowledge-graph-vs-vector-search",
       "target": "wiki:search",
       "kind": "article-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "article:comparison:knowledge-graph-vs-vector-search",
@@ -47518,13 +47518,13 @@
       "source": "wiki:batch-vs-streaming",
       "target": "article:guide:apache-airflow",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:batch-vs-streaming",
       "target": "person:adrianbrudaru",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 2
     },
     {
       "source": "wiki:batch-vs-streaming",
@@ -47536,37 +47536,37 @@
       "source": "wiki:batch-vs-streaming",
       "target": "person:angelaramirez",
       "kind": "wiki-link",
-      "weight": 10
+      "weight": 4
     },
     {
       "source": "wiki:batch-vs-streaming",
       "target": "person:larsalbertsson",
       "kind": "wiki-link",
-      "weight": 18
+      "weight": 4
     },
     {
       "source": "wiki:batch-vs-streaming",
       "target": "person:mehdiouazza",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 4
     },
     {
       "source": "wiki:batch-vs-streaming",
       "target": "person:santonatuli",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:batch-vs-streaming",
       "target": "person:simonstiebellehner",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 4
     },
     {
       "source": "wiki:batch-vs-streaming",
       "target": "person:willempienaar",
       "kind": "wiki-link",
-      "weight": 10
+      "weight": 4
     },
     {
       "source": "wiki:batch-vs-streaming",
@@ -47578,19 +47578,19 @@
       "source": "wiki:batch-vs-streaming",
       "target": "podcast:building-production-ml-platform-and-mlops-team",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:batch-vs-streaming",
       "target": "podcast:dataops-principles-and-scalable-data-platforms",
       "kind": "wiki-link",
-      "weight": 18
+      "weight": 14
     },
     {
       "source": "wiki:batch-vs-streaming",
       "target": "podcast:mlops-feature-stores-feature-stores-feast-tecton",
       "kind": "wiki-link",
-      "weight": 12
+      "weight": 10
     },
     {
       "source": "wiki:batch-vs-streaming",
@@ -47608,13 +47608,13 @@
       "source": "wiki:batch-vs-streaming",
       "target": "podcast:scaling-data-engineering-teams-self-service-platforms",
       "kind": "wiki-link",
-      "weight": 10
+      "weight": 8
     },
     {
       "source": "wiki:batch-vs-streaming",
       "target": "podcast:trends-in-modern-data-engineering",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 4
     },
     {
       "source": "wiki:batch-vs-streaming",
@@ -47632,7 +47632,7 @@
       "source": "wiki:batch-vs-streaming",
       "target": "wiki:data-engineering-platforms",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:batch-vs-streaming",
@@ -47650,7 +47650,7 @@
       "source": "wiki:batch-vs-streaming",
       "target": "wiki:data-governance",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:batch-vs-streaming",
@@ -47668,19 +47668,19 @@
       "source": "wiki:batch-vs-streaming",
       "target": "wiki:data-products",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:batch-vs-streaming",
       "target": "wiki:data-quality-and-observability",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:batch-vs-streaming",
       "target": "wiki:dataops",
       "kind": "wiki-link",
-      "weight": 12
+      "weight": 8
     },
     {
       "source": "wiki:batch-vs-streaming",
@@ -47690,13 +47690,19 @@
     },
     {
       "source": "wiki:batch-vs-streaming",
-      "target": "wiki:devops-to-data-engineering",
+      "target": "wiki:event-tracking",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:batch-vs-streaming",
       "target": "wiki:experiment-tracking",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:batch-vs-streaming",
+      "target": "wiki:machine-learning-infrastructure",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -47716,7 +47722,7 @@
       "source": "wiki:batch-vs-streaming",
       "target": "wiki:mlops",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:batch-vs-streaming",
@@ -61372,31 +61378,31 @@
       "source": "wiki:etl-vs-elt",
       "target": "person:arpitchoudhury",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:etl-vs-elt",
       "target": "person:juanmanuelperafan",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:etl-vs-elt",
       "target": "person:larsalbertsson",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:etl-vs-elt",
       "target": "person:nataliekwong",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:etl-vs-elt",
       "target": "person:santonatuli",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:etl-vs-elt",
@@ -61408,25 +61414,25 @@
       "source": "wiki:etl-vs-elt",
       "target": "podcast:analytics-engineer-skills-tools",
       "kind": "wiki-link",
-      "weight": 12
+      "weight": 8
     },
     {
       "source": "wiki:etl-vs-elt",
       "target": "podcast:data-engineering-tools-modern-data-stack",
       "kind": "wiki-link",
-      "weight": 24
+      "weight": 30
     },
     {
       "source": "wiki:etl-vs-elt",
       "target": "podcast:data-led-growth-event-tracking-and-reverse-etl",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:etl-vs-elt",
       "target": "podcast:dataops-principles-and-scalable-data-platforms",
       "kind": "wiki-link",
-      "weight": 10
+      "weight": 4
     },
     {
       "source": "wiki:etl-vs-elt",
@@ -61438,13 +61444,13 @@
       "source": "wiki:etl-vs-elt",
       "target": "podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 4
     },
     {
       "source": "wiki:etl-vs-elt",
       "target": "wiki:analytics-engineering",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:etl-vs-elt",
@@ -61454,15 +61460,15 @@
     },
     {
       "source": "wiki:etl-vs-elt",
-      "target": "wiki:customer-data-platforms",
+      "target": "wiki:data-activation",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:etl-vs-elt",
-      "target": "wiki:data-activation",
+      "target": "wiki:data-engineering",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:etl-vs-elt",
@@ -61474,7 +61480,7 @@
       "source": "wiki:etl-vs-elt",
       "target": "wiki:data-engineering-platforms",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:etl-vs-elt",
@@ -61510,19 +61516,19 @@
       "source": "wiki:etl-vs-elt",
       "target": "wiki:data-quality-and-observability",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:etl-vs-elt",
       "target": "wiki:data-warehouse",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:etl-vs-elt",
       "target": "wiki:data-warehouse-vs-data-lakehouse",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:etl-vs-elt",
@@ -61576,7 +61582,7 @@
       "source": "wiki:etl-vs-elt",
       "target": "wiki:modern-data-stack",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:etl-vs-elt",
@@ -61588,7 +61594,7 @@
       "source": "wiki:etl-vs-elt",
       "target": "wiki:reverse-etl",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:etl-vs-elt",
@@ -70912,7 +70918,7 @@
       "source": "wiki:open-source-and-developer-relations",
       "target": "person:hugobowneanderson",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:open-source-and-developer-relations",
@@ -70930,7 +70936,7 @@
       "source": "wiki:open-source-and-developer-relations",
       "target": "person:vincentwarmerdam",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:open-source-and-developer-relations",
@@ -70942,55 +70948,55 @@
       "source": "wiki:open-source-and-developer-relations",
       "target": "podcast:building-open-source-nlp-tool",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:open-source-and-developer-relations",
       "target": "podcast:data-engineering-tools-modern-data-stack",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:open-source-and-developer-relations",
       "target": "podcast:devrel-data-science-open-source-tools",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:open-source-and-developer-relations",
       "target": "podcast:devrel-open-source-machine-learning",
       "kind": "wiki-link",
-      "weight": 14
+      "weight": 12
     },
     {
       "source": "wiki:open-source-and-developer-relations",
       "target": "podcast:from-data-freelancer-to-startup-open-source-products",
       "kind": "wiki-link",
-      "weight": 10
+      "weight": 8
     },
     {
       "source": "wiki:open-source-and-developer-relations",
       "target": "podcast:open-source-ml-contributions",
       "kind": "wiki-link",
-      "weight": 10
+      "weight": 8
     },
     {
       "source": "wiki:open-source-and-developer-relations",
       "target": "podcast:open-source-ml-tools-strategy-and-business-models",
       "kind": "wiki-link",
-      "weight": 12
+      "weight": 8
     },
     {
       "source": "wiki:open-source-and-developer-relations",
       "target": "podcast:practical-devrel-demofirst-education-and-open-source",
       "kind": "wiki-link",
-      "weight": 10
+      "weight": 8
     },
     {
       "source": "wiki:open-source-and-developer-relations",
       "target": "wiki:community-building",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:open-source-and-developer-relations",
@@ -71002,7 +71008,7 @@
       "source": "wiki:open-source-and-developer-relations",
       "target": "wiki:contributing",
       "kind": "wiki-link",
-      "weight": 10
+      "weight": 6
     },
     {
       "source": "wiki:open-source-and-developer-relations",
@@ -71014,7 +71020,7 @@
       "source": "wiki:open-source-and-developer-relations",
       "target": "wiki:developer-experience",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:open-source-and-developer-relations",
@@ -71026,7 +71032,7 @@
       "source": "wiki:open-source-and-developer-relations",
       "target": "wiki:developer-relations",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 4
     },
     {
       "source": "wiki:open-source-and-developer-relations",
@@ -71038,7 +71044,7 @@
       "source": "wiki:open-source-and-developer-relations",
       "target": "wiki:documentation",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:open-source-and-developer-relations",
@@ -71080,7 +71086,7 @@
       "source": "wiki:open-source-and-developer-relations",
       "target": "wiki:open-source-portfolio-evidence",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:open-source-and-developer-relations",
@@ -74636,18 +74642,6 @@
     },
     {
       "source": "wiki:reproducibility",
-      "target": "person:christopherbergh",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:reproducibility",
-      "target": "person:elleobrien",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:reproducibility",
       "target": "person:johannabayer",
       "kind": "wiki-link",
       "weight": 4
@@ -74662,7 +74656,7 @@
       "source": "wiki:reproducibility",
       "target": "person:mihaileric",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:reproducibility",
@@ -74680,7 +74674,7 @@
       "source": "wiki:reproducibility",
       "target": "person:tomaszhinc",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:reproducibility",
@@ -74692,13 +74686,13 @@
       "source": "wiki:reproducibility",
       "target": "podcast:dataops-and-gitops-best-practices-for-data-teams",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:reproducibility",
       "target": "podcast:dataops-automation-and-reliable-data-pipelines",
       "kind": "wiki-link",
-      "weight": 12
+      "weight": 10
     },
     {
       "source": "wiki:reproducibility",
@@ -74710,7 +74704,7 @@
       "source": "wiki:reproducibility",
       "target": "podcast:devrel-data-science-open-source-tools",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:reproducibility",
@@ -74722,7 +74716,7 @@
       "source": "wiki:reproducibility",
       "target": "podcast:research-to-production-ml-systems-roadmap",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:reproducibility",
@@ -74746,13 +74740,13 @@
       "source": "wiki:reproducibility",
       "target": "wiki:data-lake",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:reproducibility",
       "target": "wiki:data-quality-and-observability",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:reproducibility",
@@ -74764,7 +74758,7 @@
       "source": "wiki:reproducibility",
       "target": "wiki:dataops",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:reproducibility",
@@ -74776,7 +74770,7 @@
       "source": "wiki:reproducibility",
       "target": "wiki:experiment-tracking",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:reproducibility",
@@ -74800,7 +74794,7 @@
       "source": "wiki:reproducibility",
       "target": "wiki:mlops",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:reproducibility",
@@ -74812,13 +74806,7 @@
       "source": "wiki:reproducibility",
       "target": "wiki:model-registry",
       "kind": "wiki-link",
-      "weight": 6
-    },
-    {
-      "source": "wiki:reproducibility",
-      "target": "wiki:practices",
-      "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:reproducibility",

@@ -12,73 +12,45 @@ related:
   - Software Engineering
 ---
 
-Reproducibility is the ability to rerun, review, or explain a data result after
-the original work has moved on. Podcast guests use the word in several
-connected ways.
+Reproducibility means a team can rerun a data result, review it, or explain it
+after the original work has moved on. In the DataTalks.Club podcast archive,
+it's not just a research virtue or a tooling label. It's the operating habit
+that connects an output to the code, data, environment, and parameters behind
+it. It also preserves the tests, approvals, and people who shaped the result.
 
-Researchers should be able to recreate a paper from code and
-data. Data teams should be able to rerun a pipeline against known inputs. ML
-platform teams should be able to name the code and data versions. They should
-also name the model artifact, environment, and approval path that produced a
-prediction.
+The archive uses reproducibility in three connected settings.
+[Johanna Bayer]({{ '/people/johannabayer/' | relative_url }}) describes the
+research version as packaging code and papers. The same workflow preserves data
+and environments so another researcher can recreate the result in
+[Teaching Open Science and Reproducible Research]({{ '/podcasts/teaching-reproducible-research-and-open-science-coding-practices-for-academia/' | relative_url }}).
+[Lars Albertsson]({{ '/people/larsalbertsson/' | relative_url }}) gives the
+[DataOps]({{ '/wiki/dataops/' | relative_url }}) version through immutable
+datasets and functional transformations in
+[DataOps 101]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}).
 
-Reproducibility is the operating practice behind several related topics. The
-model lifecycle connects it to [MLOps]({{ '/wiki/mlops/' | relative_url }}),
-[Experiment Tracking]({{ '/wiki/experiment-tracking/' | relative_url }}), and
-[Model Registry]({{ '/wiki/model-registry/' | relative_url }}). Pipeline
-delivery connects it to [DataOps]({{ '/wiki/dataops/' | relative_url }}),
+[Simon Stiebellehner]({{ '/people/simonstiebellehner/' | relative_url }}) and
+[Raphael Hoogvliets]({{ '/people/raphaelhoogvliets/' | relative_url }}) give
+the [MLOps]({{ '/wiki/mlops/' | relative_url }}) version through
+[Experiment Tracking]({{ '/wiki/experiment-tracking/' | relative_url }}),
+[Model Registry]({{ '/wiki/model-registry/' | relative_url }}), metadata, and
+lineage. Their episodes also connect reproducibility to data references,
+containers, and deployment records in
+[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }})
+and
+[MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}).
+
+That makes reproducibility a bridge across engineering, operations, and
+platform work. The engineering side includes
+[Software Engineering]({{ '/wiki/software-engineering/' | relative_url }}),
+[CI/CD]({{ '/wiki/ci-cd/' | relative_url }}), and
+[Testing]({{ '/wiki/testing/' | relative_url }}). The operating side includes
 [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}),
-and [Practices]({{ '/wiki/practices/' | relative_url }}).
+[Data Governance]({{ '/wiki/data-governance/' | relative_url }}), and
+[ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }}).
 
-## Link Map
-
-These wiki pages cover adjacent lifecycle and reliability work:
-
-- [MLOps]({{ '/wiki/mlops/' | relative_url }}) and [ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }})
-- [DataOps]({{ '/wiki/dataops/' | relative_url }}) and [Data Lake]({{ '/wiki/data-lake/' | relative_url }})
-- [Experiment Tracking]({{ '/wiki/experiment-tracking/' | relative_url }}) and [Model Registry]({{ '/wiki/model-registry/' | relative_url }})
-- [Data Governance]({{ '/wiki/data-governance/' | relative_url }})
-- [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
-- [CI/CD]({{ '/wiki/ci-cd/' | relative_url }}), [Testing]({{ '/wiki/testing/' | relative_url }}), and [Software Engineering]({{ '/wiki/software-engineering/' | relative_url }})
-
-Core podcast discussions:
-
-- [Teaching Open Science and Reproducible Research]({{ '/podcasts/teaching-reproducible-research-and-open-science-coding-practices-for-academia/' | relative_url }})
-  with [Johanna Bayer]({{ '/people/johannabayer/' | relative_url }})
-  anchors the academic version through Git, reproducible papers, tests, and
-  environments. She also discusses MLflow, Cookiecutter structure, and
-  sensitive-data limits.
-- [DataOps 101]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }})
-  with [Lars Albertsson]({{ '/people/larsalbertsson/' | relative_url }})
-  anchors the data-platform version. He focuses on immutable datasets,
-  functional transformations, and workflow orchestration. He also discusses
-  lineage and database history.
-- [Mastering DataOps]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }})
-  with [Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }})
-  anchors the delivery version through version control, automated tests, and
-  CI/CD. He also discusses end-to-end runs and versioned governance
-  artifacts.
-- [MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }})
-  with [Raphael Hoogvliets]({{ '/people/raphaelhoogvliets/' | relative_url }})
-  anchors the MLOps adoption version. He ties data versioning and traceability
-  to experiment capture, dependency management, and practical sequencing.
-- [Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }})
-  with [Simon Stiebellehner]({{ '/people/simonstiebellehner/' | relative_url }})
-  anchors the platform version through metadata, lineage, and model registry
-  contents. He also covers data tracking and GDPR tradeoffs.
-- [DataOps and GitOps for Data Teams]({{ '/podcasts/dataops-and-gitops-best-practices-for-data-teams/' | relative_url }})
-  with [Tomasz Hinc]({{ '/people/tomaszhinc/' | relative_url }})
-  shows the infrastructure version through Terraform, merge requests, and
-  Atlantis dry runs. He also covers fixed dependency versions and Docker
-  failure modes.
-- [From Research to Production]({{ '/podcasts/research-to-production-ml-systems-roadmap/' | relative_url }})
-  with [Mihail Eric]({{ '/people/mihaileric/' | relative_url }})
-  connects reproducible research to production engineering through experiment
-  logs, Docker, code review, and end-to-end systems.
-- [DevRel for Data Science]({{ '/podcasts/devrel-data-science-open-source-tools/' | relative_url }})
-  with [Elle O'Brien]({{ '/people/elleobrien/' | relative_url }})
-  adds the education and tooling view through DVC, CML, and reproducible
-  examples. She also discusses data science curricula.
+The exact capture mechanism changes by domain, but the podcast discussions
+converge on the same standard. A reproducible team can explain how a result was
+produced. It can also identify what must be rerun, reviewed, or changed.
 
 ## Common Definition
 
@@ -115,7 +87,7 @@ versions helps teams reverse-engineer what happened. He also makes maturity
 part of the definition. Smaller teams may not need full data versioning on day
 one, but work with regulation or customer-facing decisions may need it earlier.
 
-## Guest Differences
+## Different Emphases
 
 Guests differ most on scope and timing because some start from teaching, while
 others start from operations or platform risk.
