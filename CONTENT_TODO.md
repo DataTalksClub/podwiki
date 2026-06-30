@@ -26,13 +26,14 @@ Follow these rules when adding any page from this backlog.
 
 These notes capture the current cleanup direction and should not be lost.
 
-- Redo wiki pages to follow one structure: opening definition, link map, common
+- Redo wiki pages to follow one structure: opening definition, common
   definition, where guests differ, concrete topic sections with inline podcast
   references, and related pages.
 - Remove public meta sections from wiki and editorial pages. Do not use
   `Contents`, `Search Intent`, `Archive Evidence`, `Episode Evidence`, `Guest
   Descriptions`, `Recurring Archive Themes`, `Maintenance Notes`, or `Agent
-  Maintenance Notes` as reader-facing headings.
+  Maintenance Notes` as reader-facing headings. Do not add visible `Link Map`
+  sections; spread those links through the article body and `Related Pages`.
 - Ground each substantive section in actual podcast discussions. Put the
   podcast reference next to the claim it supports, like a citation, instead of
   collecting evidence in a separate appendix.

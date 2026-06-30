@@ -82,6 +82,7 @@ These keyword groups already have editorial coverage:
 | Delta Lake vs Apache Iceberg | `_comparisons/delta-lake-vs-apache-iceberg.md` | delta lake, delta lake vs apache iceberg, apache iceberg vs delta lake |
 | ETL vs ELT | `_comparisons/etl-vs-elt.md`, `_wiki/etl-vs-elt.md` | etl vs elt, elt vs etl, etl and elt |
 | DataOps Platforms | `_wiki/dataops-platforms.md` | dataops platforms |
+| A/B Testing | `_wiki/a-b-testing.md`, `_wiki/experimentation-and-causal-inference.md`, `_guides/product-analyst.md` | a/b testing podcast, ab testing, product experimentation |
 
 ## Editorial Backlog From CSV
 
@@ -92,7 +93,6 @@ publication.
 | Priority | Content target | Keyword variants from CSV | Why it may be worth creating |
 |---:|---|---|---|
 | 1 | Open Source | what is open source | Keep the public page title as `Open Source`; use the "what is open source" query only as search metadata. |
-| 2 | A/B Testing Podcast | a/b testing podcast | Good fit as a curated listening guide through experimentation episodes, not as a generic explainer. |
 | 3 | Machine Learning Newsletter | machine learning newsletter, machine learnings newsletter | Do not create a generic newsletter guide. Keep for a possible community-content or owned-channel guide only. |
 | 4 | Tech Startups | tech startups | Broad; probably lower priority than machine-learning-for-startups, which already exists. |
 
