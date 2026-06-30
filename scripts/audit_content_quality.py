@@ -14,7 +14,7 @@ GENERIC_PODCAST_URL = "https://datatalks.club/podcast.html"
 PUBLIC_COLLECTIONS = ("podcasts", "wiki", "people", "guides", "comparisons", "roadmaps", "how-tos")
 PUBLIC_CONTENT_FOLDERS = {"_wiki", "_guides", "_comparisons", "_roadmaps", "_how_tos"}
 FORBIDDEN_HEADING_RE = re.compile(
-    r"^## (Contents|Search Intent|Archive Evidence|Episode Evidence|Guest Descriptions|"
+    r"^## (Contents|Link Map|Search Intent|Archive Evidence|Episode Evidence|Guest Descriptions|"
     r"Recurring Archive Themes|Maintenance Notes|Agent Maintenance Notes|Guest Experts|Bottom Line)\b",
     re.MULTILINE,
 )

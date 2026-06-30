@@ -15,47 +15,33 @@ related:
 ---
 
 An analytics engineering roadmap should teach you to turn raw data into
-trusted analytical models, not only to collect tools. The DataTalks.Club archive
-places the role between [data engineering]({{ '/wiki/data-engineering/' | relative_url }})
-and analytics. In the stronger definition, you own modeled business data. That
-means table grain, reusable SQL, tests, and documentation. It also means metric
-definitions and BI or activation surfaces.
+trusted analytical models. It shouldn't become a tool checklist. In the
+DataTalks.Club archive, the role sits between [data engineering]({{ '/wiki/data-engineering/' | relative_url }})
+and analytics.
+
+You learn SQL and data modeling first, then add tests, documentation, and
+metric ownership. Other people can then use the same business logic in
+dashboards, experiments, product analytics, or activation.
 
 [Victoria Perez Mola]({{ '/people/victoriaperezmola/' | relative_url }})
 describes the day-to-day job as modeling data and maintaining pipelines. She
 also works on data quality and Looker-facing models
 ([role episode at 4:14-6:49]({{ '/podcasts/analytics-engineer-skills-tools/' | relative_url }})).
 [Juan Manuel Perafan]({{ '/people/juanmanuelperafan/' | relative_url }})
-adds the roadmap principle. Analytics engineering takes business reality and
-makes data resemble it. It then applies software-engineering rigor so the
-result is testable and robust
+adds the roadmap principle: analytics engineering takes business reality and
+makes data resemble it. The role then applies software-engineering rigor so the
+models are testable and robust
 ([foundations episode at 11:03-18:35]({{ '/podcasts/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices/' | relative_url }})).
-
-## Link Map
-
-Use these pages alongside the roadmap:
-
-- Role and boundary pages: [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }}), [Data Analyst vs Analytics Engineer]({{ '/wiki/data-analyst-vs-analytics-engineer/' | relative_url }}), and [Marketing to Analytics Engineering]({{ '/wiki/marketing-to-analytics-engineering/' | relative_url }})
-- Practice pages: [Analytics Engineering Portfolio Projects]({{ '/wiki/analytics-engineering-portfolio-projects/' | relative_url }}), [dbt]({{ '/wiki/dbt/' | relative_url }}), [Metrics]({{ '/wiki/metrics/' | relative_url }}), and [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
-- Stack and domain pages: [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}), [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }}), [Event Tracking]({{ '/wiki/event-tracking/' | relative_url }}), [Data-Led Growth]({{ '/wiki/data-led-growth/' | relative_url }}), [Reverse ETL]({{ '/wiki/reverse-etl/' | relative_url }}), and [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
-- Adjacent article: [Analytics Engineer]({{ '/guides/analytics-engineer/' | relative_url }})
-
-Core podcast discussions:
-
-- [Analytics Engineer Skills and Tools]({{ '/podcasts/analytics-engineer-skills-tools/' | relative_url }}) with [Victoria Perez Mola]({{ '/people/victoriaperezmola/' | relative_url }}) on modeling, dbt, tests, Looker, Snowflake, SQL, and role fit.
-- [Foundations of the Analytics Engineer Role]({{ '/podcasts/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices/' | relative_url }}) with [Juan Manuel Perafan]({{ '/people/juanmanuelperafan/' | relative_url }}) on business reality, engineering rigor, SQL, Python, tests, CI, and dbt as a practice vehicle.
-- [From Marketing to Analytics Engineering]({{ '/podcasts/from-marketing-to-analytics-engineering-sql-dbt-career-switch/' | relative_url }}) with [Nikola Maksimovic]({{ '/people/nikolamaksimovic/' | relative_url }}) on a SQL-first career switch, Looker work, dbt migration, data modeling, product analytics, and mentorship.
-- [ETL, ELT, and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}) with [Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) on ELT, warehouses, data marts, dbt, orchestration, governance, and reverse data flows.
-- [Data-Led Growth Stack]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }}) with [Arpit Choudhury]({{ '/people/arpitchoudhury/' | relative_url }}) on event tracking, tracking plans, warehouse transforms, BI, reverse ETL, and team responsibilities.
-- [Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}) with [Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) on tool selection, dbt's influence, orchestration choices, and why SQL, Python, business requirements, and portfolio work still matter.
 
 ## Common Definition
 
 Across the archive, analytics engineering readiness means you can own the
 modeled layer between raw data and decisions. A dashboard alone isn't enough.
-You need to explain table grain, decide where logic belongs, and test model
-assumptions. You also need to document definitions and make the result usable by
-analysts, product managers, executives, or operational tools.
+You need to explain table grain, decide where logic belongs, test model
+assumptions, and document definitions. Analysts and operators can then use
+those modeled definitions for [metrics]({{ '/wiki/metrics/' | relative_url }}),
+BI, [product analytics]({{ '/wiki/product-analytics/' | relative_url }}), and
+sometimes [data activation]({{ '/wiki/data-activation/' | relative_url }}).
 
 Several guests converge on that definition. [Victoria Perez Mola]({{ '/people/victoriaperezmola/' | relative_url }})
 starts from SQL-based models, dbt documentation, and version control. She also
@@ -70,6 +56,10 @@ point. The work is data modeling plus engineering practice
 work inside ELT. Data is loaded into the warehouse first, and analysts or
 analytics engineers then transform it with SQL and dbt-style workflows
 ([modern stack episode at 7:57-15:30]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})).
+
+The same definition connects the roadmap to [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }}),
+[Data Analyst vs Analytics Engineer]({{ '/wiki/data-analyst-vs-analytics-engineer/' | relative_url }}),
+[dbt]({{ '/wiki/dbt/' | relative_url }}), and [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).
 
 ## Guest Differences
 
@@ -95,9 +85,11 @@ ingestion and orchestration. It also helps with APIs, testing, and tool glue
 ([role episode at 27:31-29:15]({{ '/podcasts/analytics-engineer-skills-tools/' | relative_url }}),
 [foundations episode at 31:22-38:35]({{ '/podcasts/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices/' | relative_url }})).
 
-The roadmap should therefore be SQL-first and Python-aware, not Python-first.
+For a learner, that disagreement leads to a practical sequence. Become
+SQL-first and Python-aware, then add Python when ingestion or orchestration
+requires it. API work and test automation may require it too.
 
-## Learning Sequence
+## SQL and Modeling Roadmap
 
 Start with analytical SQL and table meaning. You should be comfortable with
 joins and aggregations, plus window functions and CTEs. You should also
@@ -120,11 +112,18 @@ same step concrete through a dbt migration, domain model work, wide-versus-narro
 table decisions, and incrementalization tradeoffs
 ([marketing transition episode at 18:34-33:46]({{ '/podcasts/from-marketing-to-analytics-engineering-sql-dbt-career-switch/' | relative_url }})).
 
-After modeling basics you can use version control and review. Dependency graphs
-show how models connect. Model documentation and tests come next. [Victoria Perez
-Mola]({{ '/people/victoriaperezmola/' | relative_url }}) explains dbt as SQL
-files with YAML documentation. She also names GitHub version control, built-in
-tests, and DAG visibility
+The first roadmap milestone isn't "finish SQL." It's one source-to-mart model
+where you can defend grain, keys, joins, and the business definition. That same
+milestone becomes useful portfolio evidence when you show the model, tests,
+documentation, and BI surface in an [analytics engineering portfolio project]({{ '/wiki/analytics-engineering-portfolio-projects/' | relative_url }}).
+
+## dbt, Tests, and Review
+
+After modeling basics, use version control and review so modeled data can change
+without breaking downstream work. Dependency graphs show how models connect.
+Model documentation and tests come next. [Victoria Perez Mola]({{ '/people/victoriaperezmola/' | relative_url }})
+explains dbt as SQL files with YAML documentation. She also names GitHub version
+control, built-in tests, and DAG visibility
 ([role episode at 6:49-10:04]({{ '/podcasts/analytics-engineer-skills-tools/' | relative_url }})).
 
 [Juan Manuel Perafan]({{ '/people/juanmanuelperafan/' | relative_url }}) extends
@@ -132,11 +131,18 @@ that into generic tests and singular SQL tests. He also covers unit tests and CI
 checks that stop broken code from merging
 ([foundations episode at 38:41-45:09]({{ '/podcasts/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices/' | relative_url }})).
 
-Finally, learn enough of the surrounding stack to place your models. [Natalie
-Kwong]({{ '/people/nataliekwong/' | relative_url }}) separates ingestion from
-data marts and explains why ELT gives analysts and analytics engineers
-warehouse autonomy. She also ties dbt to orchestration, governance, and reverse
-data flows
+Use this stage to move from "can write SQL" to "can maintain shared analytical
+code." [dbt]({{ '/wiki/dbt/' | relative_url }}) belongs on the roadmap without
+becoming the whole roadmap because the useful skill is reviewable, tested
+modeling.
+
+## Stack Context and Activation
+
+Learn enough of the surrounding [modern data stack]({{ '/wiki/modern-data-stack/' | relative_url }})
+to place your models. [Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }})
+separates ingestion from data marts and explains why ELT gives analysts and
+analytics engineers warehouse autonomy. She also ties dbt to orchestration,
+governance, and reverse data flows
 ([modern stack episode at 12:39-22:30]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})).
 
 [Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) adds a current
@@ -145,10 +151,16 @@ tools based on architecture and cost. Openness, orchestration needs, and
 requirements matter too
 ([trends episode at 31:29-45:56]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }})).
 
+[Arpit Choudhury]({{ '/people/arpitchoudhury/' | relative_url }}) extends the
+stack beyond BI. His data-led-growth discussion connects [event tracking]({{ '/wiki/event-tracking/' | relative_url }})
+and tracking plans to warehouse transforms, BI, and [reverse ETL]({{ '/wiki/reverse-etl/' | relative_url }}).
+Teams can then return modeled data to sales, support, marketing, or engagement tools
+([data-led growth episode at 13:34-38:20]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }})).
+
 ## Project Sequence
 
-Build projects in the same order the archive treats the work as becoming more
-durable.
+Build projects in the same order that the archive treats the work as becoming
+more durable.
 
 1. Model one metric from raw data to mart. Pick one domain, define the entities
    and grain, write the SQL, and document the metric definition. This matches

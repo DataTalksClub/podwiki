@@ -12,294 +12,258 @@ related:
   - Machine Learning Portfolio Projects
 ---
 
-## Definition and Scope
+In a RAG portfolio project, the builder turns a document corpus into a
+retrieval-backed LLM system. A reviewer can look at the evidence behind each
+answer. In the README, the builder names the corpus and chunking plan. In the
+demo, the reviewer sees metadata, retrieved context, and citations. The builder
+uses evaluation notes to explain failures.
 
-A RAG portfolio project is a public artifact. It proves that the builder can
-turn a document corpus into a retrieval-backed LLM system with grounded answers.
-[Atita Arora]({{ '/people/atitaarora/' | relative_url }}) gives the core path
-in
-[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
-at 30:38-42:49. She connects retrieval and context packaging. She also covers
-generation, prompt design, and citations.
-
-[Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }})
-adds evaluation sets and failure categories. He also covers logs, traces, and
-chunking choices in
-[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }})
-at 23:00-48:20.
-
-This topic covers RAG projects aimed at
-[AI engineering]({{ '/wiki/ai-engineering/' | relative_url }}),
-[LLM production]({{ '/wiki/llm-production-patterns/' | relative_url }}),
-search engineering, or career-transition proof. For the concept page, start
-with
+The topic starts with
 [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
 and
 [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }}).
-For a practical review checklist, use
-[Search and RAG Project Checklist]({{ '/wiki/search-and-rag-project-checklist/' | relative_url }}).
-For general project evidence, compare
+Use [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }})
+for gold sets and failure analysis. Use
+[AI Engineering]({{ '/wiki/ai-engineering/' | relative_url }}) for the wider
+product-engineering context. For project review, pair this page with the
+[Search and RAG Project Checklist]({{ '/wiki/search-and-rag-project-checklist/' | relative_url }})
+and the broader
 [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
-and
-[Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }}).
+standard.
 
-## Link Map
-
-Core wiki routes:
-
-- [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
-- [Search and RAG Project Checklist]({{ '/wiki/search-and-rag-project-checklist/' | relative_url }})
-- [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
-- [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }})
-- [RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }})
-- [Vector Databases]({{ '/wiki/vector-databases/' | relative_url }})
-- [Embeddings]({{ '/wiki/embeddings/' | relative_url }})
-- [Graph RAG vs Vector RAG]({{ '/wiki/graph-rag-vs-vector-rag/' | relative_url }})
-- [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }})
-
-Podcast anchors:
-
-- [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}) with [Atita Arora]({{ '/people/atitaarora/' | relative_url }})
-- [Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}) with [Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }})
-- [Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}) with [Meryem Arik]({{ '/people/meryemarik/' | relative_url }})
-- [Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}) with [Ranjitha Kulkarni]({{ '/people/ranjithakulkarni/' | relative_url }})
-- [Production ML Search]({{ '/podcasts/production-ml-search-vector-search-embeddings-hybrid-search/' | relative_url }})
-- [Knowledge Graphs and LLMs for Automotive R&D]({{ '/podcasts/knowledge-graphs-and-llms-for-automotive-rnd/' | relative_url }}) with [Anahita Pakiman]({{ '/people/anahitapakiman/' | relative_url }})
-- [AI Engineering: Skill Stack, Agents, LLMOps, and How to Ship AI Products]({{ '/podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products/' | relative_url }}) with [Paul Iusztin]({{ '/people/pauliusztin/' | relative_url }})
+[Atita Arora]({{ '/people/atitaarora/' | relative_url }}) gives the clearest
+archive-backed structure in
+[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}).
+At 30:38-42:49, she connects retrieval and chunking to context packaging. She
+then brings in vectorization, prompt design, and citations.
+[Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }}) adds
+the review standard in
+[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}):
+at 23:00-27:38, he ties gold tests and failure categories to traceable logs.
 
 ## Common Definition
 
-Across the archive, a strong RAG project proves the full retrieval loop. It
-covers source ingestion, chunking, and metadata. It also covers retrieval,
-answer generation, and citations. Evaluation and iteration are part of the same
-loop.
+Across the podcast archive, guests treat a strong RAG portfolio project as the
+full retrieval loop, not only a chat UI over files. The project ingests source
+documents and splits them into useful chunks. It keeps source metadata, retrieves
+evidence for a question, and gives that evidence to the model. The answer cites
+the sources a reader can open.
 
-Atita's transcript-chatbot example in
-[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
-at 35:49-42:49 is the clearest portfolio model. The corpus is long, the chunks
-need provenance, and the answer has to point back to the source.
+At 35:49-42:49 in
+[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}),
+Atita gives the most direct project model. Long transcripts need chunking and
+overlap. Each retrieved passage needs provenance before the answer can cite it.
 
-Hugo adds the review standard in
+[Meryem Arik]({{ '/people/meryemarik/' | relative_url }}) gives the production
+reason in
+[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}).
+At 40:46-46:42, she frames retrieval as a better fit than repeated retraining
+when knowledge changes. The answer still has to stay grounded in indexed
+documents.
+
+The same project should make evaluation visible. Hugo's discussion at
+23:00-27:38 in
 [Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }})
-at 23:00-27:38. Build representative gold tests. Categorize failures. Log
-traces. Change chunking or retrieval before polishing the UI when retrieval is
-the larger failure class.
-
-The portfolio signal is strongest when readers can look at the system's work. A
-README should show example questions, retrieved chunks, and citations. It
-should also show wrong answers, latency or cost notes, and the next retrieval
-fix. This follows Atita's multi-level RAG evaluation discussion at 48:09 in
-[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
-and Hugo's debugging workflow at 27:38 in
-[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}).
+supports a small gold set with expected evidence, acceptable answers, and
+failure labels. [Daniel Svonava]({{ '/people/danielsvonava/' | relative_url }})
+adds the search-system view in
+[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}):
+at 12:45-17:40, he separates candidate retrieval from ranking. At 34:00-45:11,
+he discusses hybrid search with filters, recency, and query-time weights.
 
 ## Guest Differences
 
-Atita starts from search engineering. Her useful portfolio standard is to
-compare existing search infrastructure with standalone
-[vector databases]({{ '/wiki/vector-databases/' | relative_url }}). The project
-should preserve metadata and evaluate retrieval quality before the LLM answer
-becomes the product
-([Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}),
-17:01-48:09).
+Guests mostly differ on which part of the project needs the strongest proof.
+Atita starts from search engineering. Her RAG standard emphasizes chunking,
+metadata, and vector search choices. It also covers prompt context, citations,
+and multi-level retrieval evaluation
+([Modern Search Systems, 17:01-48:09]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})).
+That view treats a
+[vector database]({{ '/wiki/vector-databases/' | relative_url }}) as one
+possible retrieval component, not as the whole project.
 
-Hugo starts from practical LLM shipping. He presents RAG as a quick business win
-when the corpus, chunking, and embeddings fit the task. He also says teams
-should add tools or agents only when the workflow needs actions beyond lookup
-([Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}),
-44:26-56:21).
+Hugo starts from practical LLM shipping. For him, RAG is a quick business win
+when the knowledge base fits the task. Chunking and embeddings also need to fit.
+Teams should add tools or
+[agents]({{ '/wiki/agent-engineering/' | relative_url }}) only when the system
+needs more than lookup. The system may need to take actions, call APIs, or
+coordinate multiple steps
+([Practical LLM Engineering and RAG, 44:26-56:21]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }})).
 
-[Ranjitha Kulkarni]({{ '/people/ranjithakulkarni/' | relative_url }}) draws the
-same boundary from agent engineering. RAG remains useful when retrieval controls
-latency, cost, noisy context, and chunk metadata. Source quality and wrappers
-also decide whether retrieval helps
-([Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}),
-29:30-37:39).
+[Ranjitha Kulkarni]({{ '/people/ranjithakulkarni/' | relative_url }}) draws a
+similar boundary from agent engineering. In
+[Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}),
+she argues at 29:30-37:39 that RAG still matters when latency and cost constrain
+the system. Noisy context, chunk metadata, and source quality matter too.
 
-[Meryem Arik]({{ '/people/meryemarik/' | relative_url }}) frames RAG against
-fine-tuning and deployment constraints. In
-[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}),
-she treats retrieval as a better fit for changing knowledge at 40:46-46:42. She
-also covers API risk and model drift at 18:46. Later, she covers latency, cost,
-and self-hosting at 49:44-51:35.
+At 51:17-57:23, she extends evaluation to custom datasets, mocked tools, and
+integration tests. Outcome assertions matter for agentic RAG too.
+
+Meryem frames the project against fine-tuning and deployment choices, and her
+production episode supports RAG when knowledge changes. It asks the project to
+name API risk, model drift, latency, and cost. Privacy and serving tradeoffs
+also matter
+([Deploying LLMs in Production, 18:46 and 49:44-51:35]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }})).
+
+[Anahita Pakiman]({{ '/people/anahitapakiman/' | relative_url }}) adds a domain
+modeling boundary. When relationships matter, a graph-backed retrieval design
+can be more useful than nearest-neighbor text chunks
+([Knowledge Graphs and LLMs for Automotive R&D, 33:43-42:42]({{ '/podcasts/knowledge-graphs-and-llms-for-automotive-rnd/' | relative_url }})).
 
 ## Source-Cited Knowledge Assistant
 
-Start with a source-cited assistant over a real corpus. Good archive-backed
-choices include podcast transcripts, internal docs, and policies. Tickets,
-research papers, and course notes can also work.
+A source-cited knowledge assistant is the safest first RAG portfolio project.
+Use a corpus where grounding matters. Podcast transcripts and policy documents
+work well. Course notes and product manuals also work. Support tickets and
+research papers are useful when the project can cite exact passages.
 
-Atita's podcast-transcript RAG example at 35:49-42:49
-in
+The project should show example questions and retrieved passages. It should also
+show answer citations and refusals when the corpus lacks evidence.
+
+Atita's transcript-chatbot discussion at 35:49-42:49 in
 [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
-shows the essential proof. Parse long source documents and chunk them. Attach
-source metadata, retrieve relevant passages, and return citations users can
-open.
+supports this structure directly. She moves from long podcast transcripts to
+chunking and overlap. She then covers embeddings, retrieval, augmentation,
+and generation. Prompt design and citations complete that path. For this kind
+of portfolio, a useful README should show the retrieved transcript sections and
+the citation linked by the answer.
 
-For a portfolio README, include questions where the assistant answers with
-citations. Include questions where it refuses because evidence is missing. That
-matches the grounding work in
-[Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
-and the human-review layer Atita describes at 48:09 in
+The assistant should expose missed evidence, not hide it. Atita discusses
+multi-level RAG evaluation at 48:09 in
 [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}).
-
-## Search-First RAG Project
-
-A search-first project proves that generation isn't hiding weak retrieval.
-Build keyword search or vector search first. Add filters or hybrid search when
-the corpus needs them. Then add the answer-generation layer.
-
-This follows
-[Production ML Search]({{ '/podcasts/production-ml-search-vector-search-embeddings-hybrid-search/' | relative_url }}),
-where the discussion separates candidate generation from ML ranking at
-12:45-17:40. The same episode covers embeddings and vector compute at
-21:55-29:00. It also covers vector storage, filters, recency, and business
-constraints at 29:00-45:11.
-
-This project is useful for candidates targeting search,
-[embeddings]({{ '/wiki/embeddings/' | relative_url }}), or
-[vector database]({{ '/wiki/vector-databases/' | relative_url }}) roles. It can
-show retrieval metrics before and after changes. Compare one simple baseline
-with one semantic or hybrid path. That reflects Atita's migration discussion at
-20:27 in
-[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
-and the hybrid-search discussion at 34:00 in
-[Production ML Search]({{ '/podcasts/production-ml-search-vector-search-embeddings-hybrid-search/' | relative_url }}).
-
-## Evaluation and Failure Analysis
-
-An evaluation-focused project can start from an existing demo and make it
-measurable. Hugo's workflow in
+Hugo gives a failure-analysis workflow at 26:43 in
 [Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }})
-at 23:00-27:38 gives the structure. Create a representative gold set, run the
-system, label failures, and separate retrieval failures from generation
-failures. Then log enough traces to debug the next change. This connects to
-[LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }}).
+that supports labeling failures as retrieval, generation, formatting, or source
+preparation problems.
 
-Ranjitha's agent-evaluation guidance extends the same idea. It applies when
-retrieval is one tool in a larger workflow. At 51:17-57:23 in
-[Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}),
-she argues for custom datasets and mocked tools. She also covers integration
-tests and outcome assertions.
+## Search-First RAG System
 
-A portfolio project can show this with a small report. Include the query,
-retrieved evidence, and generated answer. Add the
-expected evidence, failure class, and proposed fix.
+A search-first RAG project proves retrieval quality before generation makes the
+demo look fluent. Start with keyword search or another simple baseline. Then
+compare vector retrieval with filters or recency. Add hybrid search or reranking
+when the corpus needs them.
 
-## Domain Knowledge or Graph RAG
+In Daniel's
+[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }})
+episode, he separates candidate generation from ranking at 12:45. At 17:40, he
+recommends existing search engines instead of hand-rolled indexes.
 
-Some RAG projects shouldn't be only nearest-neighbor text search. In
-[Knowledge Graphs and LLMs for Automotive R&D]({{ '/podcasts/knowledge-graphs-and-llms-for-automotive-rnd/' | relative_url }}),
-[Anahita Pakiman]({{ '/people/anahitapakiman/' | relative_url }}) contrasts
-text chunking, embeddings, and vector databases at 33:43-38:10. She also
-compares that with graph semantics. Then she covers Cypher-driven retrieval and
-verification limits at 39:56-42:42.
+At 27:21-34:00, he covers vector databases and vector compute. He also covers
+ingestion encoding, query-time encoding, and hybrid search. At 1:01:25-1:03:50,
+he ties search quality to business metrics and A/B tests, then connects it to
+offline evaluation and fast iteration.
 
-That supports RAG projects for domains where relationships matter. Examples
-include papers and citations, parts and simulations, regulations and clauses,
-or incident reports and linked systems. A useful
-[Graph RAG vs Vector RAG]({{ '/wiki/graph-rag-vs-vector-rag/' | relative_url }})
-portfolio example can retrieve text snippets and relationship paths. It should
-show where each method fails or succeeds against the same gold questions
-([Knowledge Graphs and LLMs for Automotive R&D]({{ '/podcasts/knowledge-graphs-and-llms-for-automotive-rnd/' | relative_url }}),
-38:10-47:10).
+This project is strongest when the README compares retrieval approaches on the
+same questions. A candidate for search roles can show precision-oriented
+examples before generated answers. A candidate for
+[embeddings]({{ '/wiki/embeddings/' | relative_url }}) or
+[information retrieval]({{ '/wiki/information-retrieval/' | relative_url }})
+roles can add retrieved chunk ranks, filters, and failure cases.
+
+## Evaluation And Failure Analysis Project
+
+An evaluation-focused RAG project can start from an ordinary demo and make it
+measurable. Build a small gold set. Each row should include a question, expected
+evidence, and an acceptable answer. Add failure labels.
+
+Store retrieved chunks and scores for each run, plus the prompt and model
+versions. The run log should also include the answer, latency, cost, and
+feedback.
+
+Hugo gives this structure in
+[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}).
+At 23:00-25:25, he argues for representative gold tests. At 26:43, he
+recommends categorizing failures so the next fix goes to retrieval or prompting.
+Formatting and data preparation can be separate failure classes. At 27:38, he
+connects logs and traces to a debuggable MVP.
+
+Ranjitha extends the same idea when retrieval becomes one tool inside a larger
+[AI agent]({{ '/wiki/ai-agents/' | relative_url }}) workflow. Her agent
+evaluation discussion at 51:17-57:23 in
+[Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }})
+supports custom datasets, mocked tools, integration tests, and outcome
+assertions. A portfolio project can show this with a compact evaluation report.
+Include the query, expected evidence, and retrieved evidence. Include the
+answer, failure class, and next retrieval fix too.
+
+## Graph Or Domain RAG Project
+
+Some RAG portfolio projects should model relationships instead of relying only
+on nearest-neighbor text chunks. Paper citations and regulatory clauses can need
+explicit entities, edges, and paths. Simulation parts, service incidents, and
+customer tickets can need the same structure.
+
+Anahita's
+[Knowledge Graphs and LLMs for Automotive R&D]({{ '/podcasts/knowledge-graphs-and-llms-for-automotive-rnd/' | relative_url }})
+episode supports this project type. At 33:43, she connects knowledge graphs with
+LLM grounding and RAG. At 38:10-39:56, she contrasts text chunking and
+embeddings with graph semantics. She also discusses vector databases and
+Cypher-driven retrieval.
+
+At 42:42-47:10, she discusses trust and hallucination, plus verification limits
+and paper parsing. She also covers graph visualization, PageRank, and references.
+
+A strong [Graph RAG vs Vector RAG]({{ '/wiki/graph-rag-vs-vector-rag/' | relative_url }})
+portfolio project tests both retrieval paths against the same questions. It can
+show text similarity for passages and graph traversal for relationships. It
+should also show when the answer needs to say the evidence is insufficient.
 
 ## Career-Transition RAG Project
 
-A career-switcher RAG project should connect old domain knowledge to current AI
-engineering.
-[How to Become an AI Engineer After a Career Break]({{ '/podcasts/s23e04-how-to-become-ai-engineer-after-career-break/' | relative_url }})
-shows [Revathy Ramalingam]({{ '/people/revathyramalingam/' | relative_url }}) in
-her restart path. She uses current project evidence and GitHub work. She also
-uses a deployed project and a PDF Q&A assistant at 22:15-33:45.
+A career-transition RAG project should connect the builder's previous domain to
+current AI engineering practice. The project works best when it uses domain
+documents the builder understands. It should then prove modern engineering
+choices through chunking, retrieval baselines, and citations. Tests, logs, and
+deployment boundaries matter too.
 
-The
-[Career Transition]({{ '/wiki/career-transition/' | relative_url }}) page
-connects that story to a broader archive lesson. Visible artifacts make prior
-experience legible to a target role.
+[Revathy Ramalingam]({{ '/people/revathyramalingam/' | relative_url }}) gives a
+career-break example in
+[How to Become an AI Engineer After a Career Break]({{ '/podcasts/s23e04-how-to-become-ai-engineer-after-career-break/' | relative_url }}).
+Her 22:15 chapter covers building prototypes with AI developer tools, and her
+33:45 chapter covers an interview task that uses a PDF Q&A assistant. Her
+episode connects portfolio work to visible project evidence during a restart.
 
-[Paul Iusztin]({{ '/people/pauliusztin/' | relative_url }}) adds the
-AI-engineering version in
+[Paul Iusztin]({{ '/people/pauliusztin/' | relative_url }}) adds the AI
+engineering framing in
 [his AI engineering episode]({{ '/podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products/' | relative_url }}).
-His 29:12 chapter puts RAG and knowledge management inside the AI engineer
-skill set. His 54:05 chapter connects portfolio work with a "second brain"
-artifact. A personal knowledge assistant is credible when it shows software
+At 29:12, he places RAG and knowledge management inside the AI engineer skill
+stack. At 54:05, he connects portfolio work with a "second brain" project. That
+supports a personal knowledge assistant when the project also shows software
 quality, evaluation, and knowledge-management judgment.
 
-## Practical Review Criteria
+## Production-Minded RAG Demo
 
-Use these criteria as the project review standard because each one maps to a
-recurring archive discussion.
+A production-minded demo doesn't need production scale, but it should name the
+constraints a real team would face. Document how the system reindexes sources
+and which model versions it uses. Add embedding versions and latency. Include
+cost, privacy limits, and hosted API risks.
 
-1. Define the corpus and user questions. Atita's transcript-chatbot example in
-   [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
-   works because the corpus and question type are clear at 35:49.
-2. Preserve source provenance. Chunk metadata and wrappers matter because Atita
-   and Ranjitha connect retrieval quality to context design and metadata. Useful
-   provenance can include titles, timestamps, and sections. Authors or
-   permissions can matter too
-   ([Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}),
-   38:24-42:49 and
-   [Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}),
-   32:48).
-3. Compare retrieval approaches. A portfolio project shouldn't assume vector
-   search is the whole answer because
-   [Production ML Search]({{ '/podcasts/production-ml-search-vector-search-embeddings-hybrid-search/' | relative_url }})
-   separates keyword search from vector search. It also covers filters,
-   recency, and ranking at 11:29-45:11.
-4. Require grounded answers. The generation step should cite retrieved evidence
-   and expose missing-evidence cases, following
-   [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
-   at 42:49 and
-   [Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }})
-   at 42:02-46:42.
-5. Build a small gold set. Hugo's test-set discussion at 23:00-25:25 in
-   [Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }})
-   supports a compact evaluation file with questions, expected evidence,
-   acceptable answers, and failure labels.
-6. Log the debugging path. Retrieved chunks and scores are portfolio evidence.
-   Prompts and model versions matter too. Log outputs, latency, cost, and
-   feedback because Hugo ties logs and traces to debuggable MVPs at 27:38 in
-   [Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}).
-7. State production boundaries. Meryem's production discussion at 18:46 and
-   49:44-51:35 in
-   [Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }})
-   supports documenting API risk, model drift, and privacy. It also supports
-   latency, cost, serving, and reindexing notes.
+Meryem's
+[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }})
+episode supports that checklist. At 18:46, she discusses hidden API changes and
+model drift. At 49:44-51:35, she compares hosted APIs with open-source serving
+and covers latency, cost, and hardware. Deployment tradeoffs belong in the same
+review. These constraints connect the project to
+[LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
+and [RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }}).
 
-## Weak Signals to Avoid
-
-A RAG portfolio is weak when it only shows "chat with PDF" behavior. That misses
-retrieval evaluation and source citations. It also misses visible chunks and
-failure analysis.
-
-The project then misses Atita's retrieval-plus-generation path in
-[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
-at 30:38-48:09. It also misses the gold-set workflow Hugo describes in
-[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }})
-at 23:00-27:38.
-
-It's also weak to use agents or long context as a way to skip retrieval design.
-A vector database doesn't remove that work either.
-
-Ranjitha's RAG reality check
-at 29:30-37:39 in
+Ranjitha's RAG reality check at 29:30-37:39 in
 [Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }})
-keeps latency and cost in scope. It also keeps noisy context, chunk metadata,
-and tool boundaries in scope. The
-[Production ML Search]({{ '/podcasts/production-ml-search-vector-search-embeddings-hybrid-search/' | relative_url }})
-discussion keeps filters and recency in scope. It also covers ranking and
-offline tests at 34:00-63:50.
+adds another production boundary. Long context, agents, and vector databases do
+not remove the need to manage source quality and noisy context. Teams still need
+to manage chunk metadata, latency, and cost.
 
 ## Related Pages
 
-Use these pages for adjacent concepts and project standards:
+These pages cover the concepts and project standards around RAG portfolio work.
 
 - [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}) for the core RAG architecture.
+- [Search and RAG Project Checklist]({{ '/wiki/search-and-rag-project-checklist/' | relative_url }}) for a practical review checklist.
 - [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }}) for retrieval architecture and knowledge-system tradeoffs.
-- [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }}) for gold sets, failure analysis, and agent tests.
+- [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }}) for gold sets, traces, and failure analysis.
 - [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }}) for deployment, latency, cost, observability, and model-risk context.
 - [RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }}) for deciding whether changing knowledge belongs in retrieval or model adaptation.
+- [Vector Databases]({{ '/wiki/vector-databases/' | relative_url }}) and [Embeddings]({{ '/wiki/embeddings/' | relative_url }}) for retrieval infrastructure choices.
 - [Graph RAG vs Vector RAG]({{ '/wiki/graph-rag-vs-vector-rag/' | relative_url }}) for projects where relationships matter as much as text similarity.
 - [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}) for the broader project-evidence standard.
 - [Career Transition]({{ '/wiki/career-transition/' | relative_url }}) and [Job Search]({{ '/wiki/job-search/' | relative_url }}) for turning the project into hiring evidence.
