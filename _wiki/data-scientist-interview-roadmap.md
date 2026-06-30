@@ -12,354 +12,357 @@ related:
   - Machine Learning Portfolio Projects
 ---
 
-## Definition
+A data scientist interview roadmap is a role-specific preparation path from job
+targeting to final offer. In the DataTalks.Club archive, prep starts with the
+work behind the title. "Data scientist" can mean product analytics,
+experimentation, or forecasting. It can also mean machine learning or
+production ML.
 
-A data scientist interview roadmap is the preparation path from role targeting
-to offer discussion. In the DataTalks.Club archive, the path starts with the
-actual work behind the title. [Oleg Novikov]({{ '/people/olegnovikov/' | relative_url }})
-separates product data scientist interviews from machine-learning-engineering
-interviews in
-[Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }}).
+[Oleg Novikov]({{ '/people/olegnovikov/' | relative_url }}) makes one split
+explicit. He contrasts product data science with
+[machine learning engineering]({{ '/wiki/machine-learning-engineer-role/' | relative_url }})
+in [Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }}).
+
 [Luke Whipps]({{ '/people/lukewhipps/' | relative_url }}) explains in
 [Land Data Scientist Roles]({{ '/podcasts/get-data-scientist-job/' | relative_url }})
-that recruiters match candidates by industry, use case, projects, and business
-impact. The roadmap therefore belongs beside
-[Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }}),
-[Job Search]({{ '/wiki/job-search/' | relative_url }}), and
-[CV Screening]({{ '/wiki/cv-screening/' | relative_url }}), not beside a generic
-question bank.
+that recruiters screen for industry fit and use-case fit. They also look for
+projects, business impact, and career narrative.
 
-The archive treats preparation as staged work. It moves from target role to
-written evidence and recruiter calls. Technical practice comes next. Cases,
-stories, and offers follow. Luke's recruiter workflow anchors this sequence in
-[Master Machine Learning and Data Science Interviews]({{ '/podcasts/machine-learning-data-science-interview-prep/' | relative_url }}).
+Use this roadmap with
+[Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }}) and
+[Data Science Careers]({{ '/wiki/data-science-careers/' | relative_url }}).
+It also connects to [Job Search]({{ '/wiki/job-search/' | relative_url }}) and
+[CV Screening]({{ '/wiki/cv-screening/' | relative_url }}). A useful roadmap
+doesn't start with a generic question bank. It starts by deciding which role
+you're interviewing for. Then it turns your CV and projects into evidence.
 
-Oleg's funnel adds recruiter screens, take-homes, and interview rounds in
+Case practice, technical drills, stories, and offer talks support that role.
+
+## Common Definition
+
+Across the archive, data scientist interview preparation means building
+role-specific proof. The first proof is role fit. Luke's recruiter workflow in
+[Land Data Scientist Roles]({{ '/podcasts/get-data-scientist-job/' | relative_url }})
+starts from role definition and market guidance. It then moves through
+shortlists, interview preparation, feedback, and offer negotiation. Oleg's
+funnel in
+[Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }})
+then narrows the candidate side into recruiter screen, take-home work, and
+interview rounds.
+
+The second proof is written evidence, and [Alicja
+Notowska]({{ '/people/alicjanotowska/' | relative_url }}) describes profile
+screens around experience and education. She also looks for responsibilities,
+keywords, and clear examples in
+[Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }}).
+That matches Oleg's advice to treat the CV like a landing page and make
+personal contribution visible in
 [Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }}).
-[Nick Singh]({{ '/people/nicksingh/' | relative_url }}) adds behavioral and
-portfolio preparation in
+
+The third proof is interview performance. Luke's later episode,
+[Master Machine Learning and Data Science Interviews]({{ '/podcasts/machine-learning-data-science-interview-prep/' | relative_url }}),
+breaks the process into recruiter screening and intro interviews. It also
+covers technical components, expectation alignment, and fundamentals-first
+practice. [Nick
+Singh]({{ '/people/nicksingh/' | relative_url }}) adds the behavioral and
+portfolio layer in
 [Ace Data Interviews]({{ '/podcasts/data-interview-behavioral-and-portfolio-prep-guide/' | relative_url }}).
 
-## Link Map
+His prep covers story grids and STAR structure. It also covers project
+walkthroughs, product-sense cases, and company research.
 
-Core wiki context:
-
-- [Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }})
-- [Data Science]({{ '/wiki/data-science/' | relative_url }})
-- [Data Science Careers]({{ '/wiki/data-science-careers/' | relative_url }})
-- [Job Search]({{ '/wiki/job-search/' | relative_url }})
-- [Hiring]({{ '/wiki/hiring/' | relative_url }})
-- [CV Screening]({{ '/wiki/cv-screening/' | relative_url }})
-- [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
-- [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
-- [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }})
-- [Metrics]({{ '/wiki/metrics/' | relative_url }})
-
-Podcast interviews that anchor this roadmap:
-
-- [Land Data Scientist Roles]({{ '/podcasts/get-data-scientist-job/' | relative_url }}) with [Luke Whipps]({{ '/people/lukewhipps/' | relative_url }})
-- [Master Machine Learning and Data Science Interviews]({{ '/podcasts/machine-learning-data-science-interview-prep/' | relative_url }}) with [Luke Whipps]({{ '/people/lukewhipps/' | relative_url }})
-- [Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }}) with [Oleg Novikov]({{ '/people/olegnovikov/' | relative_url }})
-- [Ace Data Interviews]({{ '/podcasts/data-interview-behavioral-and-portfolio-prep-guide/' | relative_url }}) with [Nick Singh]({{ '/people/nicksingh/' | relative_url }})
-- [Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }}) with [Alicja Notowska]({{ '/people/alicjanotowska/' | relative_url }})
-- [ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }}) with [Valerii Babushkin]({{ '/people/valeriybabushkin/' | relative_url }})
-
-Related article paths:
-
-- [Data Scientist Interview Prep]({{ '/guides/data-scientist-interview/' | relative_url }})
-- [Machine Learning System Design Interview]({{ '/guides/machine-learning-system-design-interview/' | relative_url }})
-- [Data Scientist]({{ '/guides/data-scientist/' | relative_url }})
-
-## Common Sequence
-
-Start with role targeting because titles vary.
-
-Oleg Novikov gives the interview-side version in
-[his interview guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }}).
-Preparation changes when the job is product data science rather than
-[machine learning engineering]({{ '/wiki/machine-learning-engineer-role/' | relative_url }}).
-
-After targeting, the roadmap moves to screenable evidence. [Alicja
-Notowska]({{ '/people/alicjanotowska/' | relative_url }}) describes recruiter
-screening in
-[Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }})
-as matching profiles against experience, education, and responsibilities. She
-also looks for keywords and clear examples. Oleg's CV advice in
-[Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }})
-adds the candidate rule: the CV should make personal contribution visible
-quickly and remove irrelevant detail. This is the preparation bridge between
-[CV Screening]({{ '/wiki/cv-screening/' | relative_url }}) and interviews.
-
-The interview rounds then split into communication, technical, and judgment
-tests. Luke's
-[Master Machine Learning and Data Science Interviews]({{ '/podcasts/machine-learning-data-science-interview-prep/' | relative_url }})
-lays out recruiter screens, intro interviews, and technical components. He also
-covers expectation alignment and fundamentals-first preparation.
-
-Nick's
-[Ace Data Interviews]({{ '/podcasts/data-interview-behavioral-and-portfolio-prep-guide/' | relative_url }})
-adds behavioral grids and STAR stories. It also covers impact-first project
-walkthroughs, case clarification, product metrics, and company research.
-
-Valerii Babushkin's
-[ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }})
-anchors the ML-heavy branch with assumptions, baselines, labels, and features.
-It also covers metrics and A/B testing. Monitoring, serving, and fallbacks
-complete the branch.
+For ML-heavy roles, [Valerii
+Babushkin]({{ '/people/valeriybabushkin/' | relative_url }}) adds assumptions
+and baselines. Labels and validation also matter, while serving, monitoring,
+and fallbacks appear in
+[ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }}).
 
 ## Guest Differences
 
-Guests differ first on search breadth. Luke Whipps emphasizes segmentation and
-tailored applications in
-[Land Data Scientist Roles]({{ '/podcasts/get-data-scientist-job/' | relative_url }})
-and direct outreach in the same episode. He adds expectation alignment with
-recruiters in
-[Master Machine Learning and Data Science Interviews]({{ '/podcasts/machine-learning-data-science-interview-prep/' | relative_url }}).
-That differs from a pure volume strategy. The archive's
-[Job Search]({{ '/wiki/job-search/' | relative_url }}) page preserves the
-broader tension between applying widely to learn the market and focusing enough
-to tailor CVs and outreach.
+Guests agree that interview prep should be evidence-driven, but they put weight
+on different parts of the process. Luke emphasizes market segmentation,
+tailored applications, and direct outreach in
+[Land Data Scientist Roles]({{ '/podcasts/get-data-scientist-job/' | relative_url }}).
+In
+[Master Machine Learning and Data Science Interviews]({{ '/podcasts/machine-learning-data-science-interview-prep/' | relative_url }}),
+he also pushes candidates to clarify technical depth with recruiters before
+they over-study the wrong material.
 
-They also differ on which interview evidence matters most. Oleg Novikov
-foregrounds CV positioning and take-home return on investment. He also covers
-case-study structure, SQL, and coding. Rejection handling and negotiation appear
-in
+Oleg focuses more on the candidate funnel. In
+[Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }}),
+he links role targeting to CV positioning and take-home return on investment.
+He also covers case-study structure and SQL. Coding, rejection handling, and
+negotiation matter too.
+
+His version of prep helps candidates decide how much time to spend on a
+take-home project. It also helps them frame product data science cases.
+
+Nick puts more weight on communication. In
+[Ace Data Interviews]({{ '/podcasts/data-interview-behavioral-and-portfolio-prep-guide/' | relative_url }}),
+he treats behavioral interviews as ownership and judgment tests, not small
+talk. His project advice is also stricter than a portfolio gallery. Lead with
+impact and show business context. Control pacing, and don't present technical
+claims you can't defend.
+
+Alicja gives the hiring-side view. In
+[Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }}),
+she shows why responsibilities and dates matter before deeper technical rounds.
+Examples, education signals, and salary communication matter too. She also
+notes that analyst and data scientist processes can overlap when the job
+responsibilities overlap. That connects this page to
+[Data Analyst Role]({{ '/wiki/data-analyst-role/' | relative_url }}) and
+[Data Science]({{ '/wiki/data-science/' | relative_url }}).
+
+Valerii's advice applies when the "data scientist" role is closer to applied
+ML or production ML. In
+[ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }}),
+he distinguishes ML system design from software system design. He asks
+candidates to reason through goals and proxy metrics. Labels, features, and
+validation matter too. Production robustness and when not to use ML make this
+the branch connected to
+[Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
+and [MLOps]({{ '/wiki/mlops/' | relative_url }}).
+
+## Target The Role Before Practicing
+
+Start by translating each job description into interview risks. A
+product-facing data scientist should prepare business-goal framing,
+[metrics]({{ '/wiki/metrics/' | relative_url }}), SQL, and experimentation.
+Case structure matters because Oleg's strategy moves from business goals to
+evaluation metrics in
 [Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }}).
-
-Nick Singh puts more weight on behavioral preparation and concise ownership
-stories. He also covers portfolio impact and product-sense cases.
-Cold emails appear in
-[Ace Data Interviews]({{ '/podcasts/data-interview-behavioral-and-portfolio-prep-guide/' | relative_url }}).
-Both connect to the same evidence standard. The candidate should be able to
-defend what they personally built, measured, and learned.
-
-Technical depth changes by role. Alicja Notowska notes in
-[Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }})
-that analyst and data scientist hiring can look similar when responsibilities
-overlap. Oleg's product-data-scientist versus ML-engineer split in
-[Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }})
-pushes product-facing candidates toward business goals and cases. It also
-emphasizes metrics, SQL, and
-[product analytics]({{ '/wiki/product-analytics/' | relative_url }}).
-
-Valerii's
-[ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }})
-pushes ML-heavy candidates toward production constraints and data strategy. It
-also covers label strategy, evaluation, serving, and
-[MLOps]({{ '/wiki/mlops/' | relative_url }}).
-
-
-## Role Targeting Before Practice
-
-Start by translating the job description into interview risks. A product data
-scientist role needs practice around business goals and product metrics. SQL,
-experimentation, and case structure matter because Oleg Novikov starts case
-preparation from business goals and evaluation metrics in
-[Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }}).
-That path connects to [Metrics]({{ '/wiki/metrics/' | relative_url }}) and
+Nick's product-sense discussion in
+[Ace Data Interviews]({{ '/podcasts/data-interview-behavioral-and-portfolio-prep-guide/' | relative_url }})
+adds goal clarification, assumptions, and brainstorming. Metric identification
+and company context tie this branch to
 [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }}).
 
-An ML-heavy data scientist role needs a different map. Valerii Babushkin's
+An ML-heavy data scientist should prepare a different map. Valerii's
 [ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }})
-tests whether the candidate can state assumptions and align with the interviewer.
-It also tests baselines plus labels. Class imbalance and validation are part of
-the same path. Monitoring plus fallbacks connect it to
-[Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
-and [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}).
+tests whether the candidate can state assumptions and get alignment. It also
+tests metrics, baselines, labels, and features. Validation and serving matter
+too. Monitoring, distribution shift, and fallback behavior complete the branch.
 
-For career switchers, the target role should also decide which proof to build.
-Oleg recommends projects and synthetic data for PhD-to-industry
+That preparation overlaps with
+[Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
+because a project walkthrough should expose the same decisions.
+
+For career switchers, the target role decides what proof to build. Oleg
+recommends cold-start projects, synthetic data, and blogging for PhD-to-industry
 candidates in
-[Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }}),
-and he also suggests blogging. Alicja Notowska says in
-[Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }})
-that career changers need practical experience and clear examples. That makes
+[Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }}).
+Alicja says career changers need practical experience and clear examples in
+[Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }}).
+That makes
 [Career Transitions in Data]({{ '/wiki/career-transitions-in-data/' | relative_url }})
-part of interview preparation rather than a separate background story.
+part of interview prep, not a separate personal-history concern.
 
-## CV and Portfolio Preparation
+## Build Screenable CV And Portfolio Evidence
 
-The CV should make the next interview easy to justify. Luke Whipps evaluates
-first impressions and industry fit in
-[Land Data Scientist Roles]({{ '/podcasts/get-data-scientist-job/' | relative_url }}).
-He also looks for project links. Use cases, business impact, and career
-narrative matter too.
+The CV should make the next interview easy to justify. Luke's
+[Land Data Scientist Roles]({{ '/podcasts/get-data-scientist-job/' | relative_url }})
+connects first impressions to CV design and professional clarity. He also looks
+for industry fit and use-case alignment. Project links, career narrative, and
+business impact matter too.
 
-Oleg Novikov's
+Oleg adds in
 [Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }})
-adds that the CV should behave like a landing page and highlight personal
-contribution. Alicja Notowska's recruiter screen in
-[Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }})
-confirms why. Buzzwords are weaker than responsibilities and examples.
+that the CV should behave like a landing page. Remove noise, highlight personal
+contribution, and tailor the page to the job description.
+
+Alicja's screening process explains why this matters. In
+[Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }}),
+she screens for responsibilities and dates. She also looks for clarity and
+examples. She warns
+against buzzword-heavy CVs that don't make the work interview-ready. Use
+[CV Screening]({{ '/wiki/cv-screening/' | relative_url }}) to connect these
+claims to the broader recruiting workflow.
 
 The portfolio should become an interview asset, not a separate gallery. Nick
-Singh asks candidates to walk through projects with ownership. He also asks
-them to lead with impact and translate technical work into product value.
-Candidates should present only technical claims they can defend in
+asks candidates to walk through projects with ownership. He also asks them to
+lead with impact and translate technical work into product value in
 [Ace Data Interviews]({{ '/podcasts/data-interview-behavioral-and-portfolio-prep-guide/' | relative_url }}).
-
-Oleg's
+Oleg's take-home discussion in
 [Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }})
-uses projects to differentiate applications and discusses take-home projects as
-a return-on-investment decision. For ML projects, the archive standard is
-summarized in
-[Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}).
+adds a time-management constraint. Project work should be useful evidence, but
+the candidate still needs to judge the return on investment.
 
-The project should cover the decision, data, labels, and baseline. The metric,
-limitations, and deployment awareness matter too.
+## Prepare Recruiter And Intro Screens
 
-## Recruiter and Intro Screens
-
-Recruiter calls are alignment rounds. Luke Whipps treats the recruiter screen as
-role-fit filtering in
+Recruiter calls are alignment rounds. Luke describes stage-zero recruiter
+screening as role-fit filtering in
 [Master Machine Learning and Data Science Interviews]({{ '/podcasts/machine-learning-data-science-interview-prep/' | relative_url }}),
-then recommends clarifying technical depth with recruiters. This keeps
-candidates from studying the wrong material.
-
-Alicja Notowska describes recruiter screening interviews as behavioral and
+and then recommends clarifying technical expectations with recruiters. Do that
+before prioritizing practice. Alicja describes recruiter screens as behavioral and
 motivation checks in
 [Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }}).
-Salary conversations and offer etiquette come later in the same process.
 
-Prepare a short narrative that ties target role to project evidence. Add
-practical constraints and motivation. Luke's intro-interview guidance in
+Prepare a short narrative that ties your target role to your strongest
+evidence. Include domain fit, project ownership, business impact, and
+constraints. Luke's intro
+interview section in
 [Master Machine Learning and Data Science Interviews]({{ '/podcasts/machine-learning-data-science-interview-prep/' | relative_url }})
-covers relationship building, interviewer research, and elevator pitches. It
-also covers STAR storytelling and expectation alignment. This is why the
-interview roadmap
-overlaps with [Career Growth]({{ '/wiki/career-growth/' | relative_url }}) and
-[Hiring]({{ '/wiki/hiring/' | relative_url }}), not only technical practice.
+covers relationship building and interviewer research. It also covers elevator
+pitches and STAR storytelling.
 
-## Technical and Case Practice
+Salary expectations also belong here because Luke discusses
+salary signals in
+[Land Data Scientist Roles]({{ '/podcasts/get-data-scientist-job/' | relative_url }}),
+while Alicja covers salary bands and transparency. She also covers high salary
+requests and market research in
+[Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }}).
 
-For standard data scientist rounds, practice SQL and coding. Add ML
-fundamentals, statistics, model evaluation, and project defense in the role's
-context.
-Oleg Novikov names ML knowledge, SQL window functions, and coding in
+## Practice Technical And Case Rounds
+
+For standard data scientist rounds, practice SQL, coding, and statistics. Add
+ML fundamentals, model evaluation, and project defense in the role's context.
+Oleg
+names ML knowledge, SQL window functions, and coding as technical-assessment
+areas in
 [Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }}).
-Luke Whipps recommends fundamentals-first preparation, then secondary and ideal
+Luke recommends fundamentals-first preparation, then secondary and ideal
 skills, in
 [Master Machine Learning and Data Science Interviews]({{ '/podcasts/machine-learning-data-science-interview-prep/' | relative_url }}).
 
-Case practice should start with the business or product decision. Oleg's
+Case practice should start with the decision, not the algorithm. Oleg's
 [Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }})
-moves from business goals to evaluation metrics. Nick Singh's
+frames case studies around business goals and evaluation metrics. Nick's
 [Ace Data Interviews]({{ '/podcasts/data-interview-behavioral-and-portfolio-prep-guide/' | relative_url }})
-adds a case approach based on clarifying goals and identifying assumptions. It
-also uses metrics and company or product context. This connects case
-interviews to [Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }})
-because the role is about turning ambiguous questions into useful evidence.
+adds a practical case method. Clarify goals, state assumptions, and identify
+metrics. Use product and company context before jumping to a solution.
 
-For ML system design rounds, use Valerii Babushkin's sequence from
+For ML system design rounds, follow Valerii's sequence in
 [ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }}).
-State assumptions and align on the problem. Then define metrics and baselines.
-Discuss labels and features. Choose validation, account for serving, and name
-monitoring or fallback behavior.
+State assumptions and align on the problem, define metrics and baselines,
+discuss labels and features, then choose validation. Explain serving,
+monitoring, distribution shift, and fallback behavior. His warning
+about when to avoid ML is also interview prep. A strong answer can reject an ML
+solution when the business problem doesn't need one.
 
-The same preparation supports
-[Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
-and the interview article
-[Machine Learning System Design Interview]({{ '/guides/machine-learning-system-design-interview/' | relative_url }}).
+## Prepare Behavioral Stories And Closing
 
-## Behavioral, Story, and Offer Readiness
-
-Behavioral preparation isn't separate from technical credibility. Nick Singh
-describes behavioral interviews as tests of ownership and communication. They
-also test judgment in
+Behavioral preparation is technical credibility in story form. Nick describes
+behavioral interviews as tests of ownership and communication. They also test
+judgment and recovery from tricky prompts in
 [Ace Data Interviews]({{ '/podcasts/data-interview-behavioral-and-portfolio-prep-guide/' | relative_url }}).
-His method uses a story grid and STAR structure. It asks candidates to lead with
-impact, control pacing, and avoid burying the result.
 
-The same project can support conflict and failure stories, plus ambiguity and
-collaboration stories. Leadership stories work when the candidate can explain
-the decision and result.
+His grid and STAR method turn one project into several stories. Use it for
+impact, conflict, and failure. It also helps with ambiguity, collaboration,
+leadership, and tradeoff judgment.
 
+Oleg's behavioral-story section in
+[Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }})
+reinforces the same lesson. Prepare past-project narratives that show your
+contribution and result. Luke's STAR guidance in
+[Master Machine Learning and Data Science Interviews]({{ '/podcasts/machine-learning-data-science-interview-prep/' | relative_url }})
+also connects behaviorals to intro interviews. The first screen often tests
+whether your story is clear enough to pass forward.
 
-Offer readiness belongs in the roadmap because the archive treats compensation
-and closing as part of hiring. Oleg Novikov covers offer components and market
-comparison in
+Closing belongs in the roadmap because the archive treats rejection and offers
+as part of the hiring process. Salary and etiquette matter too. Oleg covers
+rejection follow-up, offer components, market comparison, and negotiation in
 [Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }}).
-He also covers negotiation and rejections.
 
-Alicja Notowska covers salary bands and transparency in
+Alicja covers salary conversations and high salary requests. She also covers
+market research and offer communication in
 [Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }}).
-She also covers high salary requests and offer etiquette. Luke Whipps adds
-recruiter-side salary signals and transparency in
-[Land Data Scientist Roles]({{ '/podcasts/get-data-scientist-job/' | relative_url }}).
+Use [Salary Negotiation]({{ '/wiki/salary-negotiation/' | relative_url }}) when
+the interview process reaches compensation and competing offers.
 
 ## Practical Roadmap
 
 Use the archive sequence as a preparation checklist:
 
-1. Role map: choose the target work. Reject mismatched titles using
+1. Choose the target role. Compare product data science with analytics-heavy
+   data science and ML-heavy data science. Use
    [Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }}),
+   Oleg's role-spectrum discussion in
    [Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }}),
-   and [Land Data Scientist Roles]({{ '/podcasts/get-data-scientist-job/' | relative_url }}).
-2. CV rewrite: make ownership and fit visible. Add use case, impact, and
-   contribution, following
-   [CV Screening]({{ '/wiki/cv-screening/' | relative_url }}),
-   [Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }}),
-   and [Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }}).
-3. Portfolio case study: write one project around problem and data. Add method,
-   metric, result, and limitation using
-   [Ace Data Interviews]({{ '/podcasts/data-interview-behavioral-and-portfolio-prep-guide/' | relative_url }})
-   and [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}).
-4. Recruiter script: prepare target role and career narrative, then add
-   constraints, salary expectations, and round questions from
-   [Master Machine Learning and Data Science Interviews]({{ '/podcasts/machine-learning-data-science-interview-prep/' | relative_url }})
-   and [Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }}).
-5. Technical drills: practice SQL and Python or coding, then add statistics,
-   ML fundamentals, model evaluation, and one defendable project using
+   plus Luke's recruiter workflow in
+   [Land Data Scientist Roles]({{ '/podcasts/get-data-scientist-job/' | relative_url }}).
+2. Rewrite the CV. Make industry fit and use case visible. Add personal
+   contribution, dates, responsibilities, and examples. Show impact using
+   [CV Screening]({{ '/wiki/cv-screening/' | relative_url }}) and
+   [Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }}).
+   Use
    [Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }})
-   and [Master Machine Learning and Data Science Interviews]({{ '/podcasts/machine-learning-data-science-interview-prep/' | relative_url }}).
-6. Case template: start from goal and user. Add data, assumptions, and metric.
-   Include baseline plus validation, following
+   for CV framing.
+3. Turn one project into an interview case study. Write the problem and data
+   first, then add method and metric before explaining result, limitation, and
+   ownership with [Ace Data Interviews]({{ '/podcasts/data-interview-behavioral-and-portfolio-prep-guide/' | relative_url }})
+   alongside guidance from
+   [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}).
+4. Prepare recruiter and intro scripts. Cover target role and motivation. Add
+   constraints, salary expectations, and questions about the interview depth
+   using Luke's
+   [Master Machine Learning and Data Science Interviews]({{ '/podcasts/machine-learning-data-science-interview-prep/' | relative_url }})
+   and Alicja's
+   [Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }}).
+5. Drill the technical core. Practice SQL, coding, and statistics. Add ML
+   fundamentals, model evaluation, and project defense using Oleg's
+   [Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }})
+   and Luke's fundamentals-first advice in
+   [Master Machine Learning and Data Science Interviews]({{ '/podcasts/machine-learning-data-science-interview-prep/' | relative_url }}).
+6. Build a case template. Start from the decision, goal, and user, then add
+   stakeholder context when it differs. Include assumptions, data, metrics, and
+   baselines before covering validation and tradeoffs using Nick's
    [Ace Data Interviews]({{ '/podcasts/data-interview-behavioral-and-portfolio-prep-guide/' | relative_url }})
-   and [ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }}).
-7. Story grid and offer plan: prepare STAR stories and rejection follow-up. Add
-   market comparison and negotiation boundaries. Include offer etiquette
-   from [Ace Data Interviews]({{ '/podcasts/data-interview-behavioral-and-portfolio-prep-guide/' | relative_url }}),
-   [Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }}),
-   and [Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }}).
+   and Valerii's
+   [ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }}).
+7. Prepare behavioral stories and closing with STAR stories tied to project
+   ownership, then add rejection follow-up and market comparison. Use
+   [Ace Data Interviews]({{ '/podcasts/data-interview-behavioral-and-portfolio-prep-guide/' | relative_url }})
+   for story prep and
+   [Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }})
+   for rejection follow-up. Use
+   [Land Data Scientist Roles]({{ '/podcasts/get-data-scientist-job/' | relative_url }})
+   for market comparison and
+   [Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }})
+   for offer etiquette.
 
 ## Readiness Milestones
 
 Application readiness means a recruiter can connect the CV to a real data
-scientist role. Luke Whipps looks for role definition and industry fit. He also
-checks use-case fit, project links, business impact, and career narrative in
+scientist role. Luke looks for industry and use-case alignment. He also checks
+project links, business impact, and career narrative in
 [Land Data Scientist Roles]({{ '/podcasts/get-data-scientist-job/' | relative_url }}).
-Alicja Notowska's
+Alicja's
 [Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }})
-adds that responsibilities and examples matter more than buzzwords.
+adds that responsibilities and examples are stronger than buzzwords.
 
-Screen readiness means the candidate can explain their story and target role.
-Motivation and constraints matter too. Salary context comes from
-[Luke's recruiter guidance]({{ '/podcasts/machine-learning-data-science-interview-prep/' | relative_url }})
-and Alicja's recruiter-screening and salary sections in
+Screen readiness means the candidate can explain role fit and motivation. They
+can also explain constraints and salary context.
+
+They should know what kind of technical process they're entering. Luke covers
+recruiter screening and intro interviews in
+[Master Machine Learning and Data Science Interviews]({{ '/podcasts/machine-learning-data-science-interview-prep/' | relative_url }}).
+The same episode covers expectation alignment and interviewer research. Alicja
+covers motivation checks and salary conversations in
 [Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }}).
 
-Technical readiness means the candidate can solve expected SQL and coding
-tasks. They should explain model evaluation and defend project decisions.
+Technical readiness means the candidate can solve the expected SQL and coding
+tasks. They can explain model evaluation and defend project choices. They can
+also structure a case.
 
-Oleg Novikov's
-[Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }})
-names ML knowledge, SQL, and coding. It also covers case studies and take-home
-work. Valerii Babushkin's
-[ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }})
-adds the ML-heavy readiness standard. Candidates need assumptions and baselines.
-They also need labels and features.
+Oleg anchors the standard data-science version in
+[Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }}).
+Valerii anchors the ML-heavy version in
+[ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }}),
+where readiness includes assumptions and baselines. Labels, features,
+validation, and serving matter too. Monitoring and fallbacks complete the
+readiness check.
 
-Metrics and validation complete the standard, while serving and monitoring
-matter for ML-heavy rounds too.
-
-
-Final-round readiness means the candidate can structure ambiguity and tell
-concise ownership stories. Nick Singh's
+Final-round readiness means the candidate can handle ambiguity and tell concise
+ownership stories. They can also close professionally. Nick's
 [Ace Data Interviews]({{ '/podcasts/data-interview-behavioral-and-portfolio-prep-guide/' | relative_url }})
-anchors this milestone with behavioral grids and STAR stories. He also covers
-project walkthroughs and impact-first communication. Product-sense cases and
-company research complete the milestone. Oleg and Alicja add the closing layer
-through negotiation, rejection handling, salary discussion, and offer etiquette.
+anchors story grids and STAR delivery. It also anchors project walkthroughs,
+product-sense cases, and company research.
+
+Oleg and Alicja add the closing layer. Rejection handling, negotiation, salary
+discussion, and offer etiquette appear in
+[Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }})
+and
+[Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }}).
 
 ## Related Pages
 
@@ -374,4 +377,6 @@ Use these pages for adjacent role, project, and hiring context:
 - [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
 - [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
 - [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }})
+- [Salary Negotiation]({{ '/wiki/salary-negotiation/' | relative_url }})
 - [Data Scientist Interview Prep]({{ '/guides/data-scientist-interview/' | relative_url }})
+- [Machine Learning System Design Interview]({{ '/guides/machine-learning-system-design-interview/' | relative_url }})
