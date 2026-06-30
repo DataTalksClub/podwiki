@@ -1,8 +1,9 @@
 ---
 layout: article
-title: "Airflow: Where It Fits in Data Engineering, Pipelines, and the Modern Data Stack"
+title: "Airflow: When Data Teams Need Workflow Orchestration"
 keyword: "airflow"
-summary: "A podcast-backed guide to Airflow as a data orchestration tool: what it does, when teams need it, and how it compares with adjacent choices such as dbt, Airbyte, Prefect, Dagster, GitHub Actions, and feature-store workflows."
+summary: "A podcast-backed guide to Airflow as workflow orchestration for data pipelines, analytics stacks, platform teams, and batch ML workflows."
+search_intent: "People searching for Airflow usually want to know what Airflow does, where it fits in a data stack, when it is worth adopting, and how it differs from dbt, Airbyte, Prefect, Dagster, GitHub Actions, feature stores, and ML pipeline tools."
 related_wiki:
   - Data Engineering
   - Data Engineering Platforms
@@ -12,268 +13,255 @@ related_wiki:
   - Batch vs Streaming
 ---
 
-Airflow is a workflow orchestration tool for data teams. It schedules jobs,
-coordinates dependencies, runs retries, and shows whether a pipeline finished
-or failed.
+Airflow is useful when a data team has recurring jobs that depend on each
+other. In the DataTalks.Club archive, guests discuss it as an orchestrator. It
+schedules work, runs dependent steps, and gives teams a place to look at
+pipeline runs. It doesn't store data or define business logic
+([Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}),
+[Data Engineering Tools and Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
+30:59).
 
-DataTalks.Club guests treat Airflow as part of data engineering, not as the
-whole stack. They mention it with ingestion tools, warehouses, and dbt-style
-transformations. Feature stores, ML platforms, observability, and team
-conventions show up around it too. The practical question isn't "Should we use
-Airflow?" It's "Do we have enough recurring data work that an orchestrator will
-make the system easier to operate?"
+A team may use Airflow to trigger ingestion and run transformations. It may
+also call Spark jobs and notify an owner. Each underlying tool still owns the
+work it runs
+([Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}),
+[Data Engineering Tools]({{ '/articles/data-engineering-tools/' | relative_url }})).
+Airflow becomes a good fit when those steps are hard to run, retry, backfill,
+or explain as separate scripts.
 
-Start with [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }})
-and [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}).
-Use [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}) and
-[DataOps]({{ '/wiki/dataops/' | relative_url }}) for the adjacent operating
-model.
-
+For a deeper Apache Airflow production guide, use
+[Apache Airflow]({{ '/articles/apache-airflow/' | relative_url }}). For local
+learning and DAG development, use
+[Airflow Docker Compose]({{ '/articles/airflow-docker-compose/' | relative_url }}).
 
 ## Airflow Jobs
 
-Airflow gives data workflows a control plane. A team can define a directed
-workflow and schedule it. It can connect tasks, retry failures, and look at run
-history.
+Airflow gives data workflows a control plane, and teams define task graph
+metadata, retries, and alerts. Airflow records which runs succeeded, which
+tasks failed, and which downstream steps are blocked
+([Apache Airflow]({{ '/articles/apache-airflow/' | relative_url }}),
+[Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})).
 
-That makes Airflow useful when work has dependencies.
+In Natalie's modern stack episode, Airflow appears after she maps the modern
+stack. Around 30:59, she explains Airflow as orchestration around those tools.
+Around 31:31, she connects Airbyte with extract-load work and dbt-style
+transformation
+([Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}),
+[Data Engineering Tools and Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})).
 
-- extract data from a source system
-- load raw data into a warehouse, lake, or lakehouse
-- run transformations or dbt jobs
-- check data quality
-- backfill historical partitions
-- publish a data mart, dashboard table, feature table, or reverse ETL sync
-- run batch model training or batch inference
+So the practical Airflow question isn't whether the team wants a familiar
+tool. The question is whether the team needs one place to manage schedule
+state and dependency state. Retries, backfills, and run visibility belong in
+that decision too
+([Orchestration]({{ '/wiki/orchestration/' | relative_url }}),
+[DataOps]({{ '/wiki/dataops/' | relative_url }})).
 
-Airflow is often discussed with ETL and ELT, but it isn't the transformation
-logic. In the modern stack episode, Natalie Kwong positions Airflow as the
-orchestrator that schedules and runs other pieces. Those pieces include
-Airbyte jobs and downstream transformations.
+## Stack Fit
 
-That distinction matters because Airflow coordinates the pipeline, while SQL
-or dbt may run the work. Spark and Python can do the work too, as can Airbyte,
-warehouses, and ML platforms.
+In an analytics stack, Airflow usually sits between ingestion and consumption.
+It can start connector jobs and warehouse transformations, then trigger tests
+and publish modeled tables
+([Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}),
+[Data Activation]({{ '/wiki/data-activation/' | relative_url }})). Those
+tables may feed dashboards, activation, or product analysis.
 
-## Modern Stack Fit
+That doesn't make Airflow the transformation layer. In the same modern stack
+discussion, Natalie separates Airbyte-style extract-load work from dbt-style
+transformation. She then places Airflow around the workflow
+([Data Engineering Tools and Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
+30:59-31:31).
 
-A common modern analytics flow looks like this:
+Use Airflow to coordinate the steps. Keep metric definitions and SQL models in
+systems where the team can review them. Keep Python modules and Spark jobs
+there too, so the team can review and test them
+([dbt]({{ '/wiki/dbt/' | relative_url }}),
+[ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }})).
 
-1. Ingestion brings data from APIs, SaaS tools, databases, event streams, or
-   files into raw storage.
-2. A warehouse, lake, or lakehouse stores data for analytics and downstream
-   systems.
-3. Transformations clean, join, model, and document the data.
-4. Orchestration schedules and coordinates those jobs.
-5. Data quality and observability check freshness, schema, volume, and
-   downstream impact.
-6. BI, ML, reverse ETL, product analytics, or operational tools consume the
-   result.
+The same split shows up in pipeline architecture. [Santona Tuli]({{ '/people/santonatuli/' | relative_url }})
+discusses workflow authoring through Airflow and Astronomer around 7:08. Around
+26:43, she places orchestration next to Spark and Kafka. She also discusses
+feature stores and vector databases
+([Modern Data Pipeline Architecture]({{ '/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/' | relative_url }})).
 
-Airflow usually belongs in step 4. It can call the ingestion job, trigger the
-dbt project, wait for upstream tables, and run validation tasks. It can also
-alert the owner when a dependency fails.
-
-Modern data stack guests make this split clear. Airbyte handles extract-load
-work, dbt handles transformations, and warehouses or lakes store data.
-Airflow coordinates the moving parts. Reverse ETL tools push modeled data back
-into business systems when the workflow needs activation.
-
-See [Data Engineering Tools]({{ '/articles/data-engineering-tools/' | relative_url }})
-for the broader tool map and
-[Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }}) for the
-latency tradeoff behind many orchestration decisions.
+Airflow coordinates a pipeline whose responsibilities are already clear, but it
+doesn't make unclear ownership disappear.
 
 ## Good Fit
 
-Airflow becomes useful when pipelines are no longer a few isolated scripts.
+Airflow earns its cost when a workflow has dependencies, ownership, recovery,
+and history that people need to share. Natalie covers analytics pipelines that
+combine Airbyte and dbt
+([Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}),
+[Data Engineering Tools and Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})).
+Mehdi covers platform teams that need reusable Airflow conventions
+([Mehdi OUAZZA]({{ '/people/mehdiouazza/' | relative_url }}),
+[Scaling Data Engineering Teams]({{ '/podcasts/scaling-data-engineering-teams-self-service-platforms/' | relative_url }}),
+17:22). Simon covers ML workflows that separate batch inference from online
+serving
+([Simon Stiebellehner]({{ '/people/simonstiebellehner/' | relative_url }}),
+[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}),
+31:15-31:51).
 
-Common triggers include these cases:
+A strong Airflow use case usually has a real pipeline operations need
+([Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}),
+[Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})):
 
-- multiple recurring jobs with dependencies
-- backfills that must run in a controlled order
-- shared pipelines that several teams rely on
-- data quality checks that should block or warn before publication
-- pipeline failures that need run history and ownership
-- batch ML jobs that need the same repeatable schedule as analytics pipelines
-- platform teams that need conventions for many similar pipelines
+- several jobs that must run in order
+- scheduled backfills or partition reruns
+- shared run history for multiple teams
+- retries and alert owners
+- data quality checks before publication
+- batch ML jobs that need reproducible sequencing
+- conventions for many similar pipelines
 
-In the scale-up data engineering episode, Mehdi OUAZZA argues that an Airflow
-cluster alone isn't a platform. Teams also need naming conventions and
-sequencing rules. Reusable templates, playbooks, and operating habits matter
-too.
+[Mehdi OUAZZA]({{ '/people/mehdiouazza/' | relative_url }}) gives the platform
+version of this point. Around 17:22, he says an Airflow cluster isn't the
+whole data platform. Teams also need conventions, playbooks, and best
+practices for using Airflow
+([Scaling Data Engineering Teams]({{ '/podcasts/scaling-data-engineering-teams-self-service-platforms/' | relative_url }})).
+That connects Airflow to
+[self-service data platforms]({{ '/wiki/self-service-data-platforms/' | relative_url }})
+and [DataOps]({{ '/wiki/dataops/' | relative_url }}).
 
-His point is useful for Airflow adoption. The tool helps once the team also
-invests in how pipelines are structured and maintained.
+In those operating
+models, teams make the orchestrator useful through templates and deployment
+paths. They also use tests, alerts, and ownership.
 
-That's where Airflow connects to [DataOps]({{ '/wiki/dataops/' | relative_url }}).
-Retries and scheduling are only part of reliable data delivery. Teams still
-need version control, tests, CI/CD, and realistic test data. They also need
-observability, runbooks, and clear ownership.
+## Too Much Airflow
 
-## Too Much
+Airflow isn't the right first move for every scheduled job. Around 35:46,
+[Andreas Kretz]({{ '/people/andreaskretz/' | relative_url }}) compares
+Airflow with cloud schedulers and simpler services. Around
+41:06, he recommends starting with simpler infrastructure. Teams can move
+toward Airflow or Kubernetes when they need more logging, insight, and control
+([From Notebooks to Production]({{ '/podcasts/production-ml-pipelines-with-aws-and-kafka/' | relative_url }})).
 
-Airflow isn't always the right first tool, and podcast guests give the same
-advice. Start from the workflow and operating need, not from the most
-recognizable tool name.
+[Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) makes a
+similar data engineering point. Around 35:37, he names Airflow beside
+Prefect, Dagster, and GitHub Actions. Around 37:08, he says GitHub Actions can
+be enough for simple workflows because it avoids the cost of always-on
+orchestrators
+([Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }})).
 
-Andreas Kretz's production pipeline discussion gives a clear sequence. A team
-can start with a simpler queue, script, cloud function, or scheduled job when
-it's proving a first workflow. As the project grows and needs more logging,
-visibility, and control, moving to Airflow or a similar orchestrator makes more
-sense.
+Delay Airflow when the workflow is one small script and the schedule is simple.
+It also makes sense to wait when manual reruns are acceptable and no one needs
+shared run history
+([Data Engineering Tools]({{ '/articles/data-engineering-tools/' | relative_url }}),
+[Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }})).
+Choose a workflow service such as Airflow, Prefect, or Dagster when informal
+scheduling no longer gives the team enough visibility and recovery
+([Orchestration]({{ '/wiki/orchestration/' | relative_url }})).
 
-Adrian Brudaru's modern data engineering episode makes a similar point for
-2025 tooling. He names Airflow as a common choice, but also mentions Prefect,
-Dagster, and GitHub Actions. For simple workflows, GitHub Actions can be
-enough, especially when an always-on orchestrator would add cost without adding
-much value.
+## Airflow vs dbt and Airbyte
 
-Use a smaller scheduler in these cases:
+Airflow answers a different question than dbt or Airbyte. Airbyte moves data
+into storage, dbt transforms models, and Airflow schedules the surrounding
+workflow. [Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) makes
+this split in
+[Data Engineering Tools and Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})
+at 30:59-31:31.
 
-- the workflow is a single daily script
-- there are few dependencies
-- failures are easy to rerun manually
-- no team needs shared run history
-- cloud-native scheduled jobs already cover the use case
-- the cost of running and maintaining Airflow is larger than the pipeline risk
+That separation is useful in project design.
 
-Use Airflow or another orchestrator when dependencies and ownership become hard
-to manage informally. Backfills, auditability, and shared operations push in
-the same direction.
+A DAG can start ingestion and wait for raw data. It can then run
+transformations and publish a checked table. Keep the DAG focused on
+orchestration instead of hiding all business logic inside Airflow code.
+[Jeff Katz]({{ '/people/jeffkatz/' | relative_url }}) makes the code-structure
+point at 55:10 in
+[Build a Data Engineering Career]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }}).
+See [Airflow Docker Compose]({{ '/articles/airflow-docker-compose/' | relative_url }})
+for local DAG structure.
 
-## Airflow vs dbt
+For learners and portfolio projects, this distinction is important because
+Airflow should demonstrate dependencies and retries, plus logging and recovery.
+It shouldn't decorate a pipeline that could run as one command
+([Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }}),
+[Data Engineering Pipeline Project]({{ '/articles/data-engineering-pipeline-project/' | relative_url }})).
 
-dbt mainly transforms data through SQL-oriented models and also provides tests,
-documentation, and dependency graphs. Airflow is mainly about orchestrating
-jobs.
+## Airflow in ML and Feature Pipelines
 
-Many teams use both because dbt defines analytical transformations and Airflow
-schedules the surrounding work. That work can include ingestion, transforms,
-checks, and publication.
+Airflow also appears in ML infrastructure when the work is batch-oriented.
+Around 31:15, [Simon Stiebellehner]({{ '/people/simonstiebellehner/' | relative_url }})
+separates batch inference from online serving. Around 31:51, he discusses
+Airflow and production workflows as orchestration choices
+([Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}),
+[ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }})).
 
-In the modern data stack episode, dbt is tied to analytics engineering and
-warehouse transformations. Airflow is discussed as the scheduler and
-orchestrator around those components.
+Feature stores create another boundary. [Willem Pienaar]({{ '/people/willempienaar/' | relative_url }})
+explains that some feature stores don't handle upstream transformations. Feast
+is one example, and teams may keep those transformations in dbt or Spark. They
+may also orchestrate them through Airflow before features reach the feature
+store
+([Feature Stores for MLOps]({{ '/podcasts/mlops-feature-stores-feature-stores-feast-tecton/' | relative_url }}),
+42:30, and [Machine Learning Infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }})).
 
-## Airflow vs Airbyte
+So Airflow can coordinate upstream feature generation and batch ML jobs. It
+isn't the feature store or model registry. It also isn't the online serving
+layer or monitoring system
+([MLOps Tools]({{ '/articles/mlops-tools/' | relative_url }}),
+[Production]({{ '/wiki/production/' | relative_url }})).
 
-Airbyte handles extract-load connector work. Airflow can trigger or coordinate
-Airbyte jobs as part of a larger pipeline. Natalie Kwong describes this setup
-directly: Airflow integrates with Airbyte so teams can orchestrate the extract
-and load step inside a broader workflow.
+## Operating Airflow Well
 
-The useful separation is simple: Airbyte moves data from sources, while Airflow
-decides when that movement and related downstream jobs should run.
+A green Airflow run only proves that scheduled tasks reached a successful
+state. It doesn't prove that the records are complete or that the metric is
+right. It also doesn't prove that the downstream dashboard, feature, or
+activation workflow is safe to use
+([Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}),
+[Data Activation]({{ '/wiki/data-activation/' | relative_url }})).
 
-## Airflow vs Prefect and Dagster
+[Tomasz Hinc]({{ '/people/tomaszhinc/' | relative_url }}) gives the sharpest
+warning in the archive. Around 1:02:28, he describes green Airflow jobs that
+inserted zero records. He uses the story to argue for pragmatic edge-case
+checks and confidence beyond task status
+([DataOps and GitOps Best Practices for Data Teams]({{ '/podcasts/dataops-and-gitops-best-practices-for-data-teams/' | relative_url }})).
 
-The archive doesn't present one orchestrator as universally best, and Adrian
-Brudaru frames the choice as team-dependent. Airflow remains common, while
-Prefect and Dagster are popular alternatives. GitHub Actions can be enough for
-small or cost-sensitive workflows.
+Good Airflow practice therefore belongs with DataOps:
 
-Antonis Maronikolakis, discussing a course project, describes Prefect as an
-easier Airflow alternative for the project he wanted to build. That doesn't
-make a general rule against Airflow. It's a useful reminder that developer
-experience and project size matter.
+- version pipeline code
+- control dependencies
+- test transformations
+- check data
+- route alerts
+- keep runbooks and clear owners
 
-## Airflow and Feature Stores
+These operating practices connect Airflow to
+([DataOps]({{ '/wiki/dataops/' | relative_url }}) and
+[Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})).
 
-Feature-store discussions show Airflow as part of the upstream data
-infrastructure. Willem Pienaar explains that Feast doesn't own upstream
-transformations. Teams often keep those transformations in dbt, Airflow, or
-Spark jobs. They then feed transformed data into the feature store.
+Airflow supplies the scheduling and run history. The team still has to define
+what correct data means and what to do when a run fails.
 
-Tecton can take more of that workflow into the feature platform. That creates
-a build versus adopt decision for existing teams.
+## Learning Airflow
 
-This matters for ML teams because batch features, backfills, and online serving
-often cross tool boundaries. Airflow may orchestrate upstream feature
-pipelines, but it isn't the feature store.
+Learn Airflow after you can already build a small data pipeline with Python and
+SQL. Add storage and transformations before Airflow. Add checks too.
 
-## Airflow and ML Platforms
+[Jeff Katz]({{ '/people/jeffkatz/' | relative_url }}) places Airflow after
+Python/SQL in the data engineering learning path. He also puts Docker before
+Airflow. Cloud basics and warehouses come first too. Around 55:10, he says good
+Airflow code keeps most logic in normal Python instead of relying on
+Airflow-specific code in
+[Build a Data Engineering Career]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }}).
+See [Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }}) for
+the broader role context.
 
-Simon Stiebellehner's ML platform episode connects Airflow to batch training
-and batch inference. A batch model workflow often looks like a sequence of data
-loading, preprocessing, and feature engineering. Training or inference comes
-next, followed by output storage. Airflow can coordinate that sequence, but
-managed ML pipelines or cloud-specific tooling may do the same job depending on
-the team's platform strategy.
+A useful Airflow learning project should make orchestration visible by showing
+the schedule, dependencies, retries and logs. It should also include a backfill
+path, data checks and owner notes. Then link those pieces to a real data
+engineering pipeline rather than treating Airflow as the whole project
+([Airflow Docker Compose]({{ '/articles/airflow-docker-compose/' | relative_url }}),
+[Data Engineering Pipeline Project]({{ '/articles/data-engineering-pipeline-project/' | relative_url }})).
 
-For ML platform teams, the decision isn't just "Airflow or no Airflow." It's
-whether the platform should standardize repeated workflows or leave teams more
-flexibility.
+If the project is still a single script with no meaningful dependency graph,
+start with a command or cron job. A cloud scheduler or GitHub Actions workflow
+can fit the same simple case.
+Move to Airflow when the pipeline needs shared operational state.
 
-## Learning Path
-
-For learners, Airflow is most useful after the basics are clear.
-
-Data engineering career guidance in the archive keeps returning to these
-fundamentals:
-
-- SQL and Python
-- files, APIs, and database sources
-- batch pipeline design
-- warehouses, lakes, and lakehouses
-- data modeling and transformations
-- testing and data quality
-- cloud basics and deployment
-- logs, alerts, retries, and ownership
-
-Airflow should make a pipeline more operable. It can't rescue a workflow whose
-source data, transformations, ownership, or downstream purpose is unclear.
-
-For a portfolio project, avoid adding Airflow only as decoration. A stronger
-project shows why orchestration is needed through dependencies, retries, and
-backfills. It should also include data quality checks, alerts, and a short
-runbook.
-
-## Podcast Evidence
-
-[Data Engineering Tools and Modern Data Stack](https://datatalks.club/podcast.html)
-is the clearest Airflow explanation in the archive. Natalie Kwong discusses
-ETL, ELT, Airbyte, and dbt. She also covers warehouses, data lakes,
-orchestration, and reverse ETL. Her Airflow framing is practical. It schedules
-and orchestrates jobs around the stack rather than replacing ingestion or
-transformation tools.
-
-[Scaling Data Engineering Teams](https://datatalks.club/podcast.html)
-adds the platform view. Mehdi OUAZZA argues that Airflow is only one piece of a
-usable data platform. Teams need conventions, templates, playbooks, and
-operating rules so pipelines remain maintainable as more users build on the
-platform.
-
-[Modern Data Engineering Trends](https://datatalks.club/podcast.html)
-adds the current tool-choice caution. Adrian Brudaru names Airflow, Prefect,
-Dagster, and GitHub Actions as orchestration options and ties the decision to
-team needs and cost.
-
-[From Notebooks to Production](https://datatalks.club/podcast.html)
-shows when not to overbuild. Andreas Kretz describes starting with simpler
-workflow coordination and moving toward Airflow or similar tooling as a system
-needs more insight and operational control.
-
-[Building Production ML Platforms](https://datatalks.club/podcast.html)
-connects orchestration to ML workflows. Simon Stiebellehner discusses batch
-training and batch inference as sequences of jobs that can be coordinated with
-Airflow or managed pipeline services.
-
-[Feature Stores for MLOps](https://datatalks.club/podcast.html)
-shows the adjacent feature-store boundary. Willem Pienaar explains that tools
-such as Feast often consume transformed data from upstream systems like dbt,
-Airflow, or Spark. Other platforms may own more of the transformation and
-backfill workflow.
-
-## Practical Takeaway
-
-Airflow is best understood as orchestration infrastructure for recurring,
-dependent data work. It helps teams schedule and coordinate pipelines, handles
-retries and backfills, and adds visibility. It fits modern data stacks,
-analytics engineering workflows, DataOps practices, and batch ML systems.
-
-It's not a replacement for ingestion, transformation, storage, or data quality.
-It also doesn't replace platform conventions. Guests give a consistent rule:
-choose Airflow when the workflow needs a real control plane. Keep simpler
-schedulers or managed tools in play when the workflow doesn't justify the extra
-operating burden.
+[Andreas Kretz]({{ '/people/andreaskretz/' | relative_url }}) supports that
+staging path in
+[From Notebooks to Production]({{ '/podcasts/production-ml-pipelines-with-aws-and-kafka/' | relative_url }})
+at 35:46-41:06. [Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }})
+supports the same idea in
+[Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }})
+at 35:37-37:08.
