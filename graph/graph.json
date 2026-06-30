@@ -1,13 +1,13 @@
 {
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
-    "wikis": 168,
+    "wikis": 169,
     "articles": 69,
     "podcasts": 202,
     "persons": 438,
     "topics": 146,
-    "nodes": 1023,
-    "links": 10427
+    "nodes": 1024,
+    "links": 10475
   },
   "nodes": [
     {
@@ -9152,6 +9152,16 @@
       "url": "/wiki/dataops/",
       "count": 1,
       "search": "DataOps Podcast grounded reference page for DataOps as the operating discipline for reliable data pipelines, analytics workflows, and data platforms."
+    },
+    {
+      "id": "wiki:dataops-platforms",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "DataOps Platforms",
+      "title": "DataOps Platforms",
+      "url": "/wiki/dataops-platforms/",
+      "count": 1,
+      "search": "DataOps Platforms How DataTalks.Club podcast guests discuss DataOps platforms as the operating layer for reliable pipelines, CI/CD, observability, governance, and self service data delivery."
     },
     {
       "id": "wiki:dbt",
@@ -18556,6 +18566,18 @@
     {
       "source": "article:guide:dataops-tools",
       "target": "wiki:dataops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:dataops-tools",
+      "target": "wiki:dataops-platforms",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:guide:dataops-tools",
+      "target": "wiki:dataops-platforms",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -48675,6 +48697,18 @@
     },
     {
       "source": "wiki:data-engineering-platforms",
+      "target": "wiki:dataops-platforms",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-engineering-platforms",
+      "target": "wiki:dataops-platforms",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-engineering-platforms",
       "target": "wiki:duckdb",
       "kind": "wiki-link",
       "weight": 4
@@ -53427,6 +53461,18 @@
     },
     {
       "source": "wiki:dataops",
+      "target": "wiki:dataops-platforms",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:dataops",
+      "target": "wiki:dataops-platforms",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dataops",
       "target": "wiki:mlops",
       "kind": "wiki-link",
       "weight": 6
@@ -53446,6 +53492,246 @@
     {
       "source": "wiki:dataops",
       "target": "wiki:orchestration",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "article:comparison:etl-vs-elt",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "article:comparison:mlops-vs-dataops",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "article:guide:dataops-tools",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "person:16rahuljain",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "person:adrianbrudaru",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "person:barrmoses",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "person:christopherbergh",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "person:larsalbertsson",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "person:mehdiouazza",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "person:nataliekwong",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "person:tomaszhinc",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "podcast:data-engineering-leadership-and-modern-data-platforms",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "podcast:data-engineering-tools-modern-data-stack",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "podcast:data-quality-data-observability-data-reliability",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "podcast:dataops-and-gitops-best-practices-for-data-teams",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "podcast:dataops-automation-and-reliable-data-pipelines",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "podcast:dataops-for-data-engineering",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "podcast:dataops-principles-and-scalable-data-platforms",
+      "kind": "wiki-link",
+      "weight": 10
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "podcast:scaling-data-engineering-teams-self-service-platforms",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "podcast:trends-in-modern-data-engineering",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "wiki:ci-cd",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "wiki:ci-cd",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "wiki:data-governance",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "wiki:data-governance",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "wiki:data-observability",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "wiki:data-pipelines",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "wiki:dataops",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "wiki:dataops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "wiki:elt",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "wiki:etl",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "wiki:modern-data-stack",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "wiki:modern-data-stack",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "wiki:orchestration",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "wiki:orchestration",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "wiki:self-service-data-platforms",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:dataops-platforms",
+      "target": "wiki:self-service-data-platforms",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -69648,6 +69934,18 @@
       "target": "wiki:dataops",
       "kind": "wiki-link",
       "weight": 4
+    },
+    {
+      "source": "wiki:self-service-data-platforms",
+      "target": "wiki:dataops-platforms",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:self-service-data-platforms",
+      "target": "wiki:dataops-platforms",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:self-service-data-platforms",

@@ -81,6 +81,7 @@ These keyword groups already have editorial coverage:
 | AI Tools for Personal Productivity | `_guides/ai-tools-for-personal-productivity.md` | ai tools for personal productivity, ai for personal productivity |
 | Delta Lake vs Apache Iceberg | `_comparisons/delta-lake-vs-apache-iceberg.md` | delta lake, delta lake vs apache iceberg, apache iceberg vs delta lake |
 | ETL vs ELT | `_comparisons/etl-vs-elt.md`, `_wiki/etl-vs-elt.md` | etl vs elt, elt vs etl, etl and elt |
+| DataOps Platforms | `_wiki/dataops-platforms.md` | dataops platforms |
 
 ## Editorial Backlog From CSV
 
@@ -90,11 +91,10 @@ publication.
 
 | Priority | Content target | Keyword variants from CSV | Why it may be worth creating |
 |---:|---|---|---|
-| 1 | DataOps Platforms | dataops platforms | Adjacent pages exist, but the platform angle may need its own grounded hub. |
-| 2 | Open Source | what is open source | Keep the public page title as `Open Source`; use the "what is open source" query only as search metadata. |
-| 3 | A/B Testing Podcast | a/b testing podcast | Good fit as a curated listening guide through experimentation episodes, not as a generic explainer. |
-| 4 | Machine Learning Newsletter | machine learning newsletter, machine learnings newsletter | Do not create a generic newsletter guide. Keep for a possible community-content or owned-channel guide only. |
-| 5 | Tech Startups | tech startups | Broad; probably lower priority than machine-learning-for-startups, which already exists. |
+| 1 | Open Source | what is open source | Keep the public page title as `Open Source`; use the "what is open source" query only as search metadata. |
+| 2 | A/B Testing Podcast | a/b testing podcast | Good fit as a curated listening guide through experimentation episodes, not as a generic explainer. |
+| 3 | Machine Learning Newsletter | machine learning newsletter, machine learnings newsletter | Do not create a generic newsletter guide. Keep for a possible community-content or owned-channel guide only. |
+| 4 | Tech Startups | tech startups | Broad; probably lower priority than machine-learning-for-startups, which already exists. |
 
 ## Not Recommended From This CSV
 
@@ -126,6 +126,7 @@ The first content batches from this audit have been created:
 11. `_comparisons/product-owner-vs-product-manager.md`
 12. `_comparisons/delta-lake-vs-apache-iceberg.md`
 13. `_comparisons/etl-vs-elt.md`
+14. `_wiki/dataops-platforms.md`
 
 ## Next Content Step
 
@@ -136,6 +137,6 @@ table above.
 
 The next strongest comparison pages from the current backlog are data analyst
 vs analytics engineer and RAG vs fine-tuning. The next strongest non-comparison
-page is DataOps Platforms. Machine Learning Newsletter should stay out of scope
-unless it becomes a community-content or owned-channel guide with real
-DataTalks.Club asset links.
+page is Open Source as a wiki cleanup. Machine Learning Newsletter should stay
+out of scope unless it becomes a community-content or owned-channel guide with
+real DataTalks.Club asset links.

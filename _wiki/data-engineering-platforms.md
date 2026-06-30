@@ -4,6 +4,7 @@ title: "Data Engineering Platforms"
 summary: "How the DataTalks.Club podcast archive defines data engineering platforms: shared ingestion, storage, orchestration, modeling, governance, self-service, reliability, adoption, and cost control."
 related:
   - Data Engineering
+  - DataOps Platforms
   - Self-Service Data Platforms
   - DataOps
   - Modern Data Stack
@@ -34,6 +35,8 @@ provides and the boundaries guests draw around it. It also connects platform
 architecture to adoption. For the broader discipline, use
 [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}). The
 operating model belongs under [DataOps]({{ '/wiki/dataops/' | relative_url }}).
+Use [DataOps Platforms]({{ '/wiki/dataops-platforms/' | relative_url }}) for the
+overlap between platform capabilities and DataOps operating practices.
 
 The self-service subset belongs under
 [Self-Service Data Platforms]({{ '/wiki/self-service-data-platforms/' | relative_url }}).
@@ -43,6 +46,7 @@ The self-service subset belongs under
 Related wiki pages:
 
 - [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }})
+- [DataOps Platforms]({{ '/wiki/dataops-platforms/' | relative_url }})
 - [Self-Service Data Platforms]({{ '/wiki/self-service-data-platforms/' | relative_url }})
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})
 - [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})

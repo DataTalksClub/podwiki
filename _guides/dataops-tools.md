@@ -5,6 +5,7 @@ keyword: "dataops tools"
 summary: "A podcast-backed guide to DataOps tool categories for version control, CI/CD, orchestration, testing, observability, lineage, deployment, incident response, and lightweight starts."
 related_wiki:
   - DataOps
+  - DataOps Platforms
   - MLOps and DataOps
   - Data Quality and Observability
   - Data Engineering Platforms
@@ -25,6 +26,8 @@ from change review to tests, deployments, alerts, and fixes.
 
 For the concept layer, start with [DataOps]({{ '/wiki/dataops/' | relative_url }})
 and [MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }}).
+Use [DataOps Platforms]({{ '/wiki/dataops-platforms/' | relative_url }}) when
+the tool categories need to become a shared platform layer.
 Use [DataOps vs Data Engineering]({{ '/comparisons/dataops-vs-data-engineering/' | relative_url }})
 when you need the boundary between the operating practice and the engineering
 role.

@@ -4,6 +4,7 @@ title: "Self-Service Data Platforms"
 summary: "How the podcast archive frames self-service data platforms: reusable systems, conventions, governance, adoption, and team design."
 related:
   - Data Engineering Platforms
+  - DataOps Platforms
   - Platform Adoption
   - Data Engineering
   - Data Governance
@@ -22,6 +23,8 @@ For adjacent scopes:
 
 - Use [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
   for the broader platform layer.
+- Use [DataOps Platforms]({{ '/wiki/dataops-platforms/' | relative_url }}) for
+  the operating layer behind shared tests, CI/CD, observability, and recovery.
 - Use [Data Governance]({{ '/wiki/data-governance/' | relative_url }}) for
   ownership and control practices.
 - Use [Platform Adoption]({{ '/wiki/platform-adoption/' | relative_url }}) for
@@ -32,6 +35,7 @@ For adjacent scopes:
 The operating model connects to these wiki pages:
 
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
+- [DataOps Platforms]({{ '/wiki/dataops-platforms/' | relative_url }})
 - [Platform Adoption]({{ '/wiki/platform-adoption/' | relative_url }})
 - [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }})
 - [Data Governance]({{ '/wiki/data-governance/' | relative_url }})

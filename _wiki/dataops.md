@@ -3,6 +3,7 @@ layout: wiki
 title: "DataOps"
 summary: "Podcast-grounded reference page for DataOps as the operating discipline for reliable data pipelines, analytics workflows, and data platforms."
 related:
+  - DataOps Platforms
   - Data Engineering Platforms
   - Data Quality and Observability
   - Data Observability
@@ -38,7 +39,8 @@ Use [MLOps]({{ '/wiki/mlops/' | relative_url }}) for production machine
 learning systems. Use
 [MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }}) when the
 question is about the boundary between model lifecycle work and data delivery
-work.
+work. Use [DataOps Platforms]({{ '/wiki/dataops-platforms/' | relative_url }})
+when the question is how DataOps becomes shared platform infrastructure.
 
 ## Core Interviews
 
@@ -205,6 +207,7 @@ investigation.
 Use these pages for adjacent DataOps topics and the MLOps boundary:
 
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
+- [DataOps Platforms]({{ '/wiki/dataops-platforms/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [Data Observability]({{ '/wiki/data-observability/' | relative_url }})
 - [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }})

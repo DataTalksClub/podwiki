@@ -197,6 +197,7 @@ Existing pages:
 - `_wiki/mlops-and-dataops.md`
 - `_wiki/llm-production-patterns.md`
 - `_wiki/search-rag-and-knowledge-systems.md`
+- `_wiki/dataops-platforms.md`
 
 Candidate pages:
 
@@ -277,13 +278,8 @@ Start with this batch when expanding the content set.
 - Add comparison pages for data analyst vs analytics engineer and RAG vs
   fine-tuning first. These have the strongest current mix of podcast evidence,
   existing wiki support, and keyword fit.
-- Evaluate `dataops platforms` as either `_wiki/dataops-platforms.md` or a
-  guide that links to DataOps, platform engineering, and data engineering
-  platforms. Strong sources include
-  `dataops-principles-and-scalable-data-platforms.md`,
-  `dataops-automation-and-reliable-data-pipelines.md`,
-  `dataops-for-data-engineering.md`, and
-  `scaling-data-engineering-teams-self-service-platforms.md`.
+- Keep `dataops platforms` on `_wiki/dataops-platforms.md`. It links to
+  DataOps, DataOps tools, platform engineering, and data engineering platforms.
 - Improve `_wiki/open-source.md` before creating any Open Source editorial
   page. The keyword is a bare concept, so the wiki page should own it.
 - Treat Delta Lake as a wiki concept. The editorial comparison now lives in
