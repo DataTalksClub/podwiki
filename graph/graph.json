@@ -7,7 +7,7 @@
     "persons": 438,
     "topics": 145,
     "nodes": 1019,
-    "links": 8399
+    "links": 8517
   },
   "nodes": [
     {
@@ -407,7 +407,7 @@
       "title": "How to Build Data Pipelines That People Can Trust",
       "url": "/articles/how-to-build-data-pipelines/",
       "count": 1,
-      "search": "How to Build Data Pipelines That People Can Trust A podcast backed overview of data pipeline design: ingestion, transformation, orchestration, contracts, testing, monitoring, and last mile adoption.",
+      "search": "How to Build Data Pipelines That People Can Trust A podcast backed guide to building data pipelines with ingestion, transformation, orchestration, contracts, testing, observability, and last mile activation.",
       "keyword": "build data pipelines"
     },
     {
@@ -8894,7 +8894,7 @@
       "title": "Open Source Portfolio Evidence",
       "url": "/wiki/open-source-portfolio-evidence/",
       "count": 1,
-      "search": "Open Source Portfolio Evidence Archive backed guidance for using open source contribution as portfolio evidence in data, ML, analytics engineering, data engineering, and AI roles."
+      "search": "Open Source Portfolio Evidence Archive backed guidance for turning open source issues, pull requests, documentation, demos, and community work into credible portfolio evidence for data, ML, AI, and DevRel roles."
     },
     {
       "id": "wiki:orchestration",
@@ -17375,15 +17375,111 @@
     },
     {
       "source": "article:how-to-become-a-data-engineer-with-no-experience",
-      "target": "wiki:analytics-engineering",
+      "target": "article:data-engineer-roadmap",
       "kind": "article-link",
       "weight": 2
     },
     {
       "source": "article:how-to-become-a-data-engineer-with-no-experience",
-      "target": "wiki:career-transitions-in-data",
+      "target": "article:data-engineering-bootcamp",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how-to-become-a-data-engineer-with-no-experience",
+      "target": "article:data-engineering-pipeline-project",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how-to-become-a-data-engineer-with-no-experience",
+      "target": "person:agitajaunzeme",
       "kind": "article-link",
       "weight": 4
+    },
+    {
+      "source": "article:how-to-become-a-data-engineer-with-no-experience",
+      "target": "person:ellenkonig",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how-to-become-a-data-engineer-with-no-experience",
+      "target": "person:gloriaquiceno",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:how-to-become-a-data-engineer-with-no-experience",
+      "target": "person:jeffkatz",
+      "kind": "article-link",
+      "weight": 14
+    },
+    {
+      "source": "article:how-to-become-a-data-engineer-with-no-experience",
+      "target": "person:nicolasrassam",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:how-to-become-a-data-engineer-with-no-experience",
+      "target": "person:slawomirtulski",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how-to-become-a-data-engineer-with-no-experience",
+      "target": "podcast:data-engineering-career-path-and-skills",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:how-to-become-a-data-engineer-with-no-experience",
+      "target": "podcast:from-devops-to-data-engineering-automation-open-source-volunteering",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:how-to-become-a-data-engineer-with-no-experience",
+      "target": "podcast:from-software-engineering-data-science-to-data-engineering-leadership",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how-to-become-a-data-engineer-with-no-experience",
+      "target": "podcast:get-data-analytics-and-data-engineering-job",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:how-to-become-a-data-engineer-with-no-experience",
+      "target": "podcast:get-data-engineering-job-prep-and-interview",
+      "kind": "article-link",
+      "weight": 8
+    },
+    {
+      "source": "article:how-to-become-a-data-engineer-with-no-experience",
+      "target": "podcast:hiring-for-data-engineering-jobs-in-europe",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:how-to-become-a-data-engineer-with-no-experience",
+      "target": "podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how-to-become-a-data-engineer-with-no-experience",
+      "target": "wiki:analytics-engineering",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:how-to-become-a-data-engineer-with-no-experience",
+      "target": "wiki:career-transitions-in-data",
+      "kind": "article-link",
+      "weight": 6
     },
     {
       "source": "article:how-to-become-a-data-engineer-with-no-experience",
@@ -17393,9 +17489,15 @@
     },
     {
       "source": "article:how-to-become-a-data-engineer-with-no-experience",
-      "target": "wiki:data-engineer-role",
+      "target": "wiki:cv-screening",
       "kind": "article-link",
       "weight": 2
+    },
+    {
+      "source": "article:how-to-become-a-data-engineer-with-no-experience",
+      "target": "wiki:data-engineer-role",
+      "kind": "article-link",
+      "weight": 6
     },
     {
       "source": "article:how-to-become-a-data-engineer-with-no-experience",
@@ -17411,27 +17513,57 @@
     },
     {
       "source": "article:how-to-become-a-data-engineer-with-no-experience",
-      "target": "wiki:data-engineering-portfolio-projects",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:how-to-become-a-data-engineer-with-no-experience",
-      "target": "wiki:data-engineering-portfolio-projects",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:how-to-become-a-data-engineer-with-no-experience",
-      "target": "wiki:data-engineering-roadmap",
+      "target": "wiki:data-engineering-platforms",
       "kind": "article-link",
       "weight": 2
     },
     {
       "source": "article:how-to-become-a-data-engineer-with-no-experience",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:how-to-become-a-data-engineer-with-no-experience",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:how-to-become-a-data-engineer-with-no-experience",
+      "target": "wiki:data-engineering-roadmap",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:how-to-become-a-data-engineer-with-no-experience",
       "target": "wiki:data-engineering-roadmap",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "article:how-to-become-a-data-engineer-with-no-experience",
+      "target": "wiki:data-engineering-tools",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how-to-become-a-data-engineer-with-no-experience",
+      "target": "wiki:data-products",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how-to-become-a-data-engineer-with-no-experience",
+      "target": "wiki:devops-to-data-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how-to-become-a-data-engineer-with-no-experience",
+      "target": "wiki:job-descriptions",
+      "kind": "article-link",
+      "weight": 2
     },
     {
       "source": "article:how-to-become-a-data-engineer-with-no-experience",
@@ -17446,6 +17578,126 @@
       "weight": 5
     },
     {
+      "source": "article:how-to-become-a-data-engineer-with-no-experience",
+      "target": "wiki:modern-data-stack",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how-to-become-a-data-engineer-with-no-experience",
+      "target": "wiki:software-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how-to-build-data-pipelines",
+      "target": "person:arpitchoudhury",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how-to-build-data-pipelines",
+      "target": "person:barrmoses",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how-to-build-data-pipelines",
+      "target": "person:christopherbergh",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how-to-build-data-pipelines",
+      "target": "person:mehdiouazza",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how-to-build-data-pipelines",
+      "target": "person:nataliekwong",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how-to-build-data-pipelines",
+      "target": "person:santonatuli",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how-to-build-data-pipelines",
+      "target": "podcast:data-engineering-tools-modern-data-stack",
+      "kind": "article-link",
+      "weight": 12
+    },
+    {
+      "source": "article:how-to-build-data-pipelines",
+      "target": "podcast:data-led-growth-event-tracking-and-reverse-etl",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:how-to-build-data-pipelines",
+      "target": "podcast:data-quality-data-observability-data-reliability",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:how-to-build-data-pipelines",
+      "target": "podcast:dataops-automation-and-reliable-data-pipelines",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how-to-build-data-pipelines",
+      "target": "podcast:dataops-for-data-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how-to-build-data-pipelines",
+      "target": "podcast:modern-data-pipelines-orchestration-ingestion-modeling",
+      "kind": "article-link",
+      "weight": 10
+    },
+    {
+      "source": "article:how-to-build-data-pipelines",
+      "target": "podcast:scaling-data-engineering-teams-self-service-platforms",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:how-to-build-data-pipelines",
+      "target": "wiki:analytics-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how-to-build-data-pipelines",
+      "target": "wiki:batch-vs-streaming",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how-to-build-data-pipelines",
+      "target": "wiki:data-activation",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how-to-build-data-pipelines",
+      "target": "wiki:data-activation",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:how-to-build-data-pipelines",
+      "target": "wiki:data-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
       "source": "article:how-to-build-data-pipelines",
       "target": "wiki:data-engineering-platforms",
       "kind": "article-link",
@@ -17456,6 +17708,30 @@
       "target": "wiki:data-engineering-platforms",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "article:how-to-build-data-pipelines",
+      "target": "wiki:data-observability",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how-to-build-data-pipelines",
+      "target": "wiki:data-pipelines",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how-to-build-data-pipelines",
+      "target": "wiki:data-pipelines",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:how-to-build-data-pipelines",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-link",
+      "weight": 2
     },
     {
       "source": "article:how-to-build-data-pipelines",
@@ -17465,9 +17741,51 @@
     },
     {
       "source": "article:how-to-build-data-pipelines",
-      "target": "wiki:mlops-and-dataops",
+      "target": "wiki:data-warehouse-vs-data-lakehouse",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how-to-build-data-pipelines",
+      "target": "wiki:dataops",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how-to-build-data-pipelines",
+      "target": "wiki:dataops",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "article:how-to-build-data-pipelines",
+      "target": "wiki:mlops-and-dataops",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how-to-build-data-pipelines",
+      "target": "wiki:product-analytics",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how-to-build-data-pipelines",
+      "target": "wiki:reverse-etl",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how-to-build-data-pipelines",
+      "target": "wiki:self-service-data-platforms",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how-to-build-data-pipelines",
+      "target": "wiki:tracking-plans",
+      "kind": "article-link",
+      "weight": 2
     },
     {
       "source": "article:interpretable-machine-learning",
@@ -38909,31 +39227,121 @@
     },
     {
       "source": "wiki:analytics-engineering-roadmap",
+      "target": "article:analytics-engineer",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:analytics-engineering-roadmap",
+      "target": "person:adrianbrudaru",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:analytics-engineering-roadmap",
+      "target": "person:arpitchoudhury",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:analytics-engineering-roadmap",
+      "target": "person:juanmanuelperafan",
+      "kind": "wiki-link",
+      "weight": 18
+    },
+    {
+      "source": "wiki:analytics-engineering-roadmap",
+      "target": "person:nataliekwong",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:analytics-engineering-roadmap",
+      "target": "person:nikolamaksimovic",
+      "kind": "wiki-link",
+      "weight": 16
+    },
+    {
+      "source": "wiki:analytics-engineering-roadmap",
+      "target": "person:victoriaperezmola",
+      "kind": "wiki-link",
+      "weight": 22
+    },
+    {
+      "source": "wiki:analytics-engineering-roadmap",
+      "target": "podcast:analytics-engineer-skills-tools",
+      "kind": "wiki-link",
+      "weight": 22
+    },
+    {
+      "source": "wiki:analytics-engineering-roadmap",
       "target": "podcast:data-engineering-tools-modern-data-stack",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 8
     },
     {
       "source": "wiki:analytics-engineering-roadmap",
       "target": "podcast:data-led-growth-event-tracking-and-reverse-etl",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 8
+    },
+    {
+      "source": "wiki:analytics-engineering-roadmap",
+      "target": "podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch",
+      "kind": "wiki-link",
+      "weight": 16
+    },
+    {
+      "source": "wiki:analytics-engineering-roadmap",
+      "target": "podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices",
+      "kind": "wiki-link",
+      "weight": 18
     },
     {
       "source": "wiki:analytics-engineering-roadmap",
       "target": "podcast:trends-in-modern-data-engineering",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 8
     },
     {
       "source": "wiki:analytics-engineering-roadmap",
       "target": "wiki:analytics-engineering",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:analytics-engineering-roadmap",
       "target": "wiki:analytics-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:analytics-engineering-roadmap",
+      "target": "wiki:analytics-engineering-portfolio-projects",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:analytics-engineering-roadmap",
+      "target": "wiki:analytics-engineering-portfolio-projects",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:analytics-engineering-roadmap",
+      "target": "wiki:data-activation",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:analytics-engineering-roadmap",
+      "target": "wiki:data-analyst-vs-analytics-engineer",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:analytics-engineering-roadmap",
+      "target": "wiki:data-analyst-vs-analytics-engineer",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -38945,15 +39353,15 @@
     },
     {
       "source": "wiki:analytics-engineering-roadmap",
-      "target": "wiki:data-engineering",
-      "kind": "wiki-related",
-      "weight": 3
+      "target": "wiki:data-led-growth",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:analytics-engineering-roadmap",
       "target": "wiki:data-product-management",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:analytics-engineering-roadmap",
@@ -38964,20 +39372,44 @@
     {
       "source": "wiki:analytics-engineering-roadmap",
       "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:analytics-engineering-roadmap",
+      "target": "wiki:data-quality-and-observability",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:analytics-engineering-roadmap",
+      "target": "wiki:dbt",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:analytics-engineering-roadmap",
       "target": "wiki:event-tracking",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
+    },
+    {
+      "source": "wiki:analytics-engineering-roadmap",
+      "target": "wiki:marketing-to-analytics-engineering",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:analytics-engineering-roadmap",
+      "target": "wiki:marketing-to-analytics-engineering",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:analytics-engineering-roadmap",
       "target": "wiki:metrics",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:analytics-engineering-roadmap",
@@ -38987,15 +39419,33 @@
     },
     {
       "source": "wiki:analytics-engineering-roadmap",
+      "target": "wiki:modern-data-stack",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:analytics-engineering-roadmap",
+      "target": "wiki:modern-data-stack",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:analytics-engineering-roadmap",
       "target": "wiki:product-analytics",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:analytics-engineering-roadmap",
       "target": "wiki:product-analytics",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:analytics-engineering-roadmap",
+      "target": "wiki:reverse-etl",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:apache-iceberg",
@@ -45329,31 +45779,145 @@
     },
     {
       "source": "wiki:data-quality-and-observability",
-      "target": "podcast:building-production-ml-platform-and-mlops-team",
+      "target": "article:data-observability-for-data-engineering",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
+      "target": "article:dataops",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
+      "target": "article:mlops-vs-dataops",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
+      "target": "person:adrianbrudaru",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
+      "target": "person:barrmoses",
+      "kind": "wiki-link",
+      "weight": 18
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
+      "target": "person:bartoszmikulski",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
+      "target": "person:christopherbergh",
+      "kind": "wiki-link",
+      "weight": 14
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
+      "target": "person:simonstiebellehner",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
+      "target": "person:thomives",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
+      "target": "podcast:building-production-ml-platform-and-mlops-team",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
+      "target": "podcast:data-quality-data-observability-data-reliability",
+      "kind": "wiki-link",
+      "weight": 14
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
+      "target": "podcast:dataops-automation-and-reliable-data-pipelines",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
+      "target": "podcast:dataops-for-data-engineering",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
+      "target": "podcast:feature-engineering-model-monitoring-and-data-governance",
+      "kind": "wiki-link",
+      "weight": 8
     },
     {
       "source": "wiki:data-quality-and-observability",
       "target": "podcast:production-ready-ai-engineering",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:data-quality-and-observability",
       "target": "podcast:trends-in-modern-data-engineering",
       "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
+      "target": "wiki:analytics-engineering",
+      "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:data-quality-and-observability",
-      "target": "wiki:data-engineering-platforms",
+      "target": "wiki:data-engineering",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:data-quality-and-observability",
       "target": "wiki:data-engineering-platforms",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
+      "target": "wiki:data-governance",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
+      "target": "wiki:data-governance",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
+      "target": "wiki:data-observability",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
+      "target": "wiki:data-observability",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -45361,7 +45925,7 @@
       "source": "wiki:data-quality-and-observability",
       "target": "wiki:data-product-management",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:data-quality-and-observability",
@@ -45371,19 +45935,37 @@
     },
     {
       "source": "wiki:data-quality-and-observability",
-      "target": "wiki:machine-learning-system-design",
+      "target": "wiki:dataops",
+      "kind": "wiki-link",
+      "weight": 10
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
+      "target": "wiki:dataops",
       "kind": "wiki-related",
       "weight": 3
     },
     {
       "source": "wiki:data-quality-and-observability",
-      "target": "wiki:mlops-and-dataops",
+      "target": "wiki:mlops",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:data-quality-and-observability",
-      "target": "wiki:mlops-and-dataops",
+      "target": "wiki:mlops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
+      "target": "wiki:model-monitoring",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
+      "target": "wiki:model-monitoring",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -55181,45 +55763,153 @@
     },
     {
       "source": "wiki:open-source-portfolio-evidence",
+      "target": "person:belawiertz",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:open-source-portfolio-evidence",
+      "target": "person:hugobowneanderson",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:open-source-portfolio-evidence",
+      "target": "person:jeffkatz",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:open-source-portfolio-evidence",
+      "target": "person:nicksingh",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:open-source-portfolio-evidence",
+      "target": "person:swyx",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:open-source-portfolio-evidence",
+      "target": "person:vincentwarmerdam",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:open-source-portfolio-evidence",
+      "target": "podcast:data-interview-behavioral-and-portfolio-prep-guide",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:open-source-portfolio-evidence",
+      "target": "podcast:developer-personal-brand-learn-in-public",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:open-source-portfolio-evidence",
       "target": "podcast:devrel-open-source-machine-learning",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 8
     },
     {
       "source": "wiki:open-source-portfolio-evidence",
-      "target": "wiki:career-growth",
+      "target": "podcast:get-data-engineering-job-prep-and-interview",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 10
     },
     {
       "source": "wiki:open-source-portfolio-evidence",
-      "target": "wiki:career-growth",
-      "kind": "wiki-related",
-      "weight": 3
+      "target": "podcast:investing-in-open-source-developer-tools",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:open-source-portfolio-evidence",
+      "target": "podcast:open-source-ml-contributions",
+      "kind": "wiki-link",
+      "weight": 20
     },
     {
       "source": "wiki:open-source-portfolio-evidence",
       "target": "wiki:career-transition",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:open-source-portfolio-evidence",
-      "target": "wiki:career-transition",
+      "target": "wiki:contributing",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:open-source-portfolio-evidence",
+      "target": "wiki:contributing",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:open-source-portfolio-evidence",
+      "target": "wiki:cv-screening",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:open-source-portfolio-evidence",
       "target": "wiki:data-engineering-portfolio-projects",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
+    },
+    {
+      "source": "wiki:open-source-portfolio-evidence",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:open-source-portfolio-evidence",
+      "target": "wiki:developer-experience",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:open-source-portfolio-evidence",
+      "target": "wiki:developer-experience",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:open-source-portfolio-evidence",
+      "target": "wiki:developer-relations",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:open-source-portfolio-evidence",
+      "target": "wiki:developer-relations",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:open-source-portfolio-evidence",
+      "target": "wiki:documentation",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:open-source-portfolio-evidence",
+      "target": "wiki:documentation",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:open-source-portfolio-evidence",
       "target": "wiki:job-search",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:open-source-portfolio-evidence",
@@ -55231,29 +55921,47 @@
       "source": "wiki:open-source-portfolio-evidence",
       "target": "wiki:machine-learning-portfolio-projects",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:open-source-portfolio-evidence",
-      "target": "wiki:open-source-and-developer-relations",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:open-source-portfolio-evidence",
-      "target": "wiki:open-source-and-developer-relations",
+      "target": "wiki:machine-learning-portfolio-projects",
       "kind": "wiki-related",
       "weight": 3
     },
     {
       "source": "wiki:open-source-portfolio-evidence",
-      "target": "wiki:practices",
+      "target": "wiki:open-source",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:open-source-portfolio-evidence",
+      "target": "wiki:open-source",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:open-source-portfolio-evidence",
+      "target": "wiki:open-source-and-developer-relations",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:open-source-portfolio-evidence",
+      "target": "wiki:open-source-and-developer-relations",
       "kind": "wiki-related",
       "weight": 3
     },
     {
       "source": "wiki:open-source-portfolio-evidence",
       "target": "wiki:rag-portfolio-projects",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:open-source-portfolio-evidence",
+      "target": "wiki:technical-writing",
       "kind": "wiki-link",
       "weight": 2
     },
