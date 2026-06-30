@@ -27,7 +27,7 @@ chunking choices in
 [Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }})
 at 23:00-48:20.
 
-Use this page for RAG projects aimed at
+This topic covers RAG projects aimed at
 [AI engineering]({{ '/wiki/ai-engineering/' | relative_url }}),
 [LLM production]({{ '/wiki/llm-production-patterns/' | relative_url }}),
 search engineering, or career-transition proof. For the concept page, start

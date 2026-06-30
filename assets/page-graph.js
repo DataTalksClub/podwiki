@@ -5,7 +5,7 @@
   const labels = {
     topic: "Topic",
     wiki: "Wiki",
-    article: "Article",
+    article: "Content",
     podcast: "Podcast",
     person: "Person",
   };

@@ -122,7 +122,7 @@ ordinary product events
 ([A/B testing at 14:27-44:39]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }})).
 
 For role context, the
-[Product Analyst]({{ '/articles/product-analyst/' | relative_url }}) article
+[Product Analyst]({{ '/guides/product-analyst/' | relative_url }}) article
 uses this archive connection. Product analysts often review tracking plans and
 check event semantics. They also build funnels, support experiments, and
 explain whether a metric reflects real product behavior.

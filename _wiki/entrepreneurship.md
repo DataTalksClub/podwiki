@@ -96,7 +96,7 @@ useful.
 [Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) shows another
 validation path in
 [From Data Freelancer to Startup]({{ '/podcasts/from-data-freelancer-to-startup-open-source-products/' | relative_url }}).
-After years of freelance [data engineering]({{ '/articles/data-engineering-freelance/' | relative_url }})
+After years of freelance [data engineering]({{ '/guides/data-engineering-freelance/' | relative_url }})
 work, he saw the same problem repeat. Teams could set up a warehouse, but they
 struggled to align stakeholders on basic entities and metrics. Around
 36:00-40:19, his company used a workshop to test whether Python users could
@@ -174,7 +174,7 @@ often need PostgreSQL, Python, simple APIs, and CI/CD. They may also need
 orchestration and observability before they need a full platform.
 
 Founders can read
-[machine learning for startups]({{ '/articles/machine-learning-for-startups/' | relative_url }})
+[machine learning for startups]({{ '/guides/machine-learning-for-startups/' | relative_url }})
 through that lens. They should build enough infrastructure to learn from
 customers and protect reliability. They shouldn't build so much that
 infrastructure becomes the company.

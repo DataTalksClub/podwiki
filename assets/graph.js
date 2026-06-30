@@ -18,7 +18,7 @@
   const labels = {
     topic: "Topic",
     wiki: "Wiki",
-    article: "Article",
+    article: "Content",
     podcast: "Podcast Summary",
     person: "Person",
   };
@@ -225,7 +225,7 @@
         <p class="muted">Search or click a node to inspect links.</p>
         <dl class="graph-stats">
           <div><dt>Wiki</dt><dd>${counts.wikis || 0}</dd></div>
-          <div><dt>Articles</dt><dd>${counts.articles || 0}</dd></div>
+          <div><dt>Content</dt><dd>${counts.articles || 0}</dd></div>
           <div><dt>Podcasts</dt><dd>${counts.podcasts || 0}</dd></div>
           <div><dt>People</dt><dd>${counts.persons || 0}</dd></div>
           <div><dt>Topics</dt><dd>${counts.topics || 0}</dd></div>

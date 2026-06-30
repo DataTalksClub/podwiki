@@ -9,8 +9,9 @@ files from this repo unless the user explicitly asks to prepare a website PR.
 
 The wiki is a compounding artifact. When you answer a meaningful research question,
 categorize an episode, or synthesize a theme, file the useful result back into
-`_wiki/`, `_articles/`, `_podcast_summaries/`, or `_people/` so future sessions do
-not rediscover the same knowledge from scratch.
+`_wiki/`, `_guides/`, `_comparisons/`, `_roadmaps/`, `_how_tos/`,
+`_podcast_summaries/`, or `_people/` so future sessions do not rediscover the
+same knowledge from scratch.
 
 ## Layers
 
@@ -22,8 +23,10 @@ not rediscover the same knowledge from scratch.
 - `_people/`: guest/contributor exploration pages.
 - `_wiki/`: human/LLM-authored archive-derived wiki pages. Do not overwrite
   with generated stubs.
-- `_articles/`: keyword-driven editorial articles. Do not create these until
-  the user provides target keywords.
+- `_guides/`: keyword-driven practical guides.
+- `_comparisons/`: X vs Y pages and role or architecture tradeoffs.
+- `_roadmaps/`: learning paths, transitions, and "how to get into" pages.
+- `_how_tos/`: procedural build, setup, and operations pages.
 - `search/` and `artifacts/search/`: generated exploration-page search corpora
   and packed Zerosearch artifacts.
 - `graph/graph.json`: generated podcast graph data for the static visualization.
@@ -40,8 +43,9 @@ Every public page must be grounded, linked, and focused:
 - Grounded: every substantive section cites actual podcast discussions. Do not
   add generic advice unless a podcast discussion or an existing archive-backed
   page supports it.
-- Linked: make the page link-heavy. Add visible links to podcast interviews and
-  related wiki pages in the body, not only in generated graph data.
+- Linked: make the page link-heavy. Add visible links to related wiki pages,
+  people pages, local podcast pages, and grounding evidence in the body, not
+  only in generated graph data.
 - Focused: center the page on one topic, role, transition, comparison, roadmap,
   or project type. Split mixed pages instead of padding them.
 
@@ -50,7 +54,7 @@ publish separate `Archive Evidence`, `Guest Descriptions`, `Maintenance Notes`,
 `Episode Evidence`, `Recurring Archive Themes`, `Contents`, or `Search Intent`
 sections in reader-facing pages.
 
-When the source episode is known, link wiki and article pages to the local
+When the source episode is known, link public content pages to the local
 podcast page: `{{ '/podcasts/<source-file-slug>/' | relative_url }}`. That
 local page links to the original
 `https://datatalks.club/podcast/<source-file-slug>.html` episode. Use
@@ -74,13 +78,14 @@ and replace them with podcast-backed synthesis when the topic becomes important.
 1. Read `CONTENT_GUIDE.md`.
 2. For broad topic work, read `sources/podcast-topic-inventory.md` after running
    `make sources`.
-3. Inspect existing pages in `_wiki/`, `_articles/`, `_podcast_summaries/`, and
-   `_people/`.
+3. Inspect existing pages in `_wiki/`, `_guides/`, `_comparisons/`,
+   `_roadmaps/`, `_how_tos/`, `_podcast_summaries/`, and `_people/`.
 4. Open raw source episode files in `../datatalksclub.github.io/_podcast` only
    when you need evidence, clips, guests, or transcript context.
 5. Update the target exploration page with synthesized takeaways, not just lists
    of links.
-6. Add cross-links to related wiki pages, articles, people, and podcast summaries.
+6. Add cross-links to related wiki pages, category pages, people pages, local
+   podcast pages, and grounding evidence.
 7. Add podcast evidence links in the body. Use local
    `/podcasts/<source-file-slug>/` links when the source episode is known.
 8. For source-derived podcast and people pages, run `make sources`.
@@ -92,7 +97,7 @@ chapter summaries, and topic candidates with `make sources`. Read
 `sources/podcast-archive-summary.md` or `.tmp/podcast-archive-summary.md` before
 opening full source episodes. Then keep five subagents running on
 non-overlapping episode batches. Subagents should produce grounded topic reports
-with local podcast links and guest links before writing wiki or article pages.
+with local podcast links and guest links before writing wiki or editorial pages.
 
 ## Insight Hub Target
 
@@ -109,7 +114,7 @@ Insight pages should follow the shape requested in DataTalksClub issue #111:
 Prefer evidence-backed synthesis over generic advice. If the source transcripts do
 not support a claim, mark it as a hypothesis or leave it out.
 
-## Wiki vs Articles
+## Wiki vs Editorial Content
 
 Use `CONTENT_GUIDE.md`.
 
@@ -117,8 +122,10 @@ Wiki pages are comprehensive reference pages based on the full podcast archive.
 They should include evidence links, timestamped examples, tradeoffs, and related
 wiki pages. Podcast summaries are a separate agent index and should stay compact.
 
-Articles are SEO pages created only after the user supplies target keywords.
-They should link back to wiki pages but are not the same deliverable.
+Editorial pages are SEO-informed pages created only after the user supplies
+target keywords. They live in `_guides/`, `_comparisons/`, `_roadmaps/`, or
+`_how_tos/`, with public URLs under `/guides/`, `/comparisons/`, `/roadmaps/`,
+and `/how-tos/`. Bare concepts belong in `_wiki/`.
 
 ## Taxonomy Guidelines
 
@@ -137,7 +144,8 @@ Avoid topic proliferation. Merge near-duplicates such as `LLM`, `LLMs`, and
 
 When answering a user question about podcast content:
 
-1. Search `_wiki/`, `_articles/`, `_podcast_summaries/`, and `_people/` with `rg`.
+1. Search `_wiki/`, `_guides/`, `_comparisons/`, `_roadmaps/`, `_how_tos/`,
+   `_podcast_summaries/`, and `_people/` with `rg`.
 2. Read the most relevant exploration pages.
 3. Open raw episode files for direct transcript verification when quoting or making
    fine-grained claims.
@@ -162,9 +170,12 @@ stable through graph URL hashes. `graph/graph.json` is generated from collection
 frontmatter and internal links by `scripts/build_graph.py`; do not maintain it
 as separate editorial content. Run `make sources` to sync source-derived
 podcast and people pages before graph generation. The source documents are
-`_wiki/`, `_articles/`, `_people/`, and `_podcast_summaries/`. Episode nodes
+`_wiki/`, `_guides/`, `_comparisons/`, `_roadmaps/`, `_how_tos/`, `_people/`,
+and `_podcast_summaries/`. Episode nodes
 should link to local podcast pages, which then link to the original
-DataTalks.Club podcast pages.
+DataTalks.Club podcast pages. The graph may still treat guides, comparisons,
+roadmaps, and how-tos internally as article/content nodes; keep that separate
+from public collection naming.
 
 Run `python scripts/check_links.py` after a static build to validate generated
 internal links. GitHub Pages runs the same checker with the deployed base path.
@@ -175,7 +186,7 @@ Periodically check for:
 
 - wiki pages with too many episode mentions and no synthesis
 - episodes with missing or overly broad topics
-- orphan articles/wiki pages with no incoming links
+- orphan editorial/wiki pages with no incoming links
 - stale claims contradicted by newer episodes
 - guest pages with no useful topic links
 - high-value transcript clips that should become hub examples

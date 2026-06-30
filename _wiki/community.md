@@ -209,8 +209,8 @@ In
 with [Will Russell]({{ '/people/willrussell/' | relative_url }}), the 57:22
 section covers tutorials for Docker and Postgres. It also covers Git and
 workflow orchestration. These examples connect community with
-[best data engineering course]({{ '/articles/best-data-engineering-course/' | relative_url }}),
-[free data engineering course]({{ '/articles/free-data-engineering-course/' | relative_url }}),
+[best data engineering course]({{ '/guides/best-data-engineering-course/' | relative_url }}),
+[free data engineering course]({{ '/guides/free-data-engineering-course/' | relative_url }}),
 and [teaching]({{ '/wiki/teaching/' | relative_url }}).
 
 ## Events and Open Source

@@ -28,7 +28,7 @@ a validation score alone can hide. Around 20:27, he connects interpretability to
 conformal prediction. In that setup, a model returns calibrated prediction sets
 or intervals instead of a single overconfident answer.
 
-Use this page for model understanding and explanations, including debugging and
+This topic covers model understanding and explanations, including debugging and
 uncertainty. It explains what evidence people need before they trust a
 prediction. Use
 [Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }})
@@ -197,4 +197,4 @@ guidance.
 - [MLOps]({{ '/wiki/mlops/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [Data Governance]({{ '/wiki/data-governance/' | relative_url }})
-- [Interpretable Machine Learning]({{ '/articles/interpretable-machine-learning/' | relative_url }})
+- [Interpretable Machine Learning]({{ '/guides/interpretable-machine-learning/' | relative_url }})

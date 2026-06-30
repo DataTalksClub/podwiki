@@ -66,9 +66,9 @@ Podcast interviews that anchor this roadmap:
 
 Related article paths:
 
-- [Data Scientist Interview Prep]({{ '/articles/data-scientist-interview/' | relative_url }})
-- [Machine Learning System Design Interview]({{ '/articles/machine-learning-system-design-interview/' | relative_url }})
-- [Data Scientist]({{ '/articles/data-scientist/' | relative_url }})
+- [Data Scientist Interview Prep]({{ '/guides/data-scientist-interview/' | relative_url }})
+- [Machine Learning System Design Interview]({{ '/guides/machine-learning-system-design-interview/' | relative_url }})
+- [Data Scientist]({{ '/guides/data-scientist/' | relative_url }})
 
 ## Common Sequence
 
@@ -259,7 +259,7 @@ monitoring or fallback behavior.
 The same preparation supports
 [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
 and the interview article
-[Machine Learning System Design Interview]({{ '/articles/machine-learning-system-design-interview/' | relative_url }}).
+[Machine Learning System Design Interview]({{ '/guides/machine-learning-system-design-interview/' | relative_url }}).
 
 ## Behavioral, Story, and Offer Readiness
 
@@ -374,4 +374,4 @@ Use these pages for adjacent role, project, and hiring context:
 - [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
 - [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
 - [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }})
-- [Data Scientist Interview Prep]({{ '/articles/data-scientist-interview/' | relative_url }})
+- [Data Scientist Interview Prep]({{ '/guides/data-scientist-interview/' | relative_url }})

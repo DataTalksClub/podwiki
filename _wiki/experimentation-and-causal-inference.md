@@ -41,7 +41,7 @@ change a recommender, or trust a model policy. That overlap appears in
 
 ## Link Map
 
-Use this page as the bridge between archive topics:
+This topic is the bridge between archive topics:
 
 - [Experimentation]({{ '/wiki/experimentation/' | relative_url }}) covers the
   broad learning loop through A/B and A/A tests, shadow mode, prototypes, and
@@ -62,7 +62,7 @@ Use this page as the bridge between archive topics:
   answer means for revenue and retention. It also covers churn, latency, cost,
   or another rollout decision.
 - [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
-  and the [Data Product Manager]({{ '/articles/data-product-manager/' | relative_url }})
+  and the [Data Product Manager]({{ '/guides/data-product-manager/' | relative_url }})
   article connect experiments to discovery and prioritization. They also connect
   experiments to adoption and impact.
 - [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
@@ -289,5 +289,5 @@ These pages connect the adjacent archive threads:
 - [Data Products]({{ '/wiki/data-products/' | relative_url }})
 - [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
 - [Production]({{ '/wiki/production/' | relative_url }})
-- [Data Product Manager]({{ '/articles/data-product-manager/' | relative_url }})
-- [Product Analyst]({{ '/articles/product-analyst/' | relative_url }})
+- [Data Product Manager]({{ '/guides/data-product-manager/' | relative_url }})
+- [Product Analyst]({{ '/guides/product-analyst/' | relative_url }})

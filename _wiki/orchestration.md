@@ -25,14 +25,14 @@ pieces sit at the center of a data platform. Around 31:18-35:57, he explains tha
 engine defines dependencies and schedules work when data arrives or on a timer.
 It retries when late data, transient infrastructure, or bugs break a run.
 
-That makes orchestration broader than [Apache Airflow]({{ '/articles/apache-airflow/' | relative_url }}).
+That makes orchestration broader than [Apache Airflow]({{ '/guides/apache-airflow/' | relative_url }}).
 Airflow is a common orchestrator, but the archive also discusses Luigi,
 Prefect, and Dagster. GitHub Actions appears in the same group. Cloud
 schedulers and AWS Batch appear there too. So do SageMaker Pipelines, Kubeflow
 Pipelines, and CI/CD pipelines.
 
-[Airflow]({{ '/articles/airflow/' | relative_url }}) and
-[Apache Airflow]({{ '/articles/apache-airflow/' | relative_url }}) cover DAG
+[Airflow]({{ '/guides/airflow/' | relative_url }}) and
+[Apache Airflow]({{ '/guides/apache-airflow/' | relative_url }}) cover DAG
 design, Airflow operations, and Airflow tradeoffs in more detail.
 
 ## Orchestration Scope
@@ -198,7 +198,7 @@ store pipeline-run connections. A team still has to think through
 reproducibility across code and data. Model versions need the same care. That
 connects orchestration to
 [MLOps]({{ '/wiki/mlops/' | relative_url }}) and
-[MLOps Tools]({{ '/articles/mlops-tools/' | relative_url }}).
+[MLOps Tools]({{ '/guides/mlops-tools/' | relative_url }}).
 
 It also connects orchestration to experiment tracking, model registries, and
 lineage rather than replacing them.

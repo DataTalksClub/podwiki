@@ -22,7 +22,7 @@ archive definition in
 at 3:46-4:30, she breaks ETL into source-specific extraction. She then adds
 organization-specific business logic and destination-specific loading routines.
 
-Use this page for the transform-before-load side of the pipeline. Use
+This topic covers the transform-before-load side of the pipeline. Use
 [ELT]({{ '/wiki/elt/' | relative_url }}) for load-first warehouse modeling and
 [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}) for the comparison. ETL
 also sits close to [data pipelines]({{ '/wiki/data-pipelines/' | relative_url }})

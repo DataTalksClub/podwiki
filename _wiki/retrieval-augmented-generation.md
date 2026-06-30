@@ -235,4 +235,4 @@ Use these pages for the adjacent concepts this page links through.
 - [RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }}) separates changing knowledge from model behavior changes.
 - [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }}) covers the point where retrieval becomes one tool inside an action-oriented workflow.
 - [Graph RAG vs Vector RAG]({{ '/wiki/graph-rag-vs-vector-rag/' | relative_url }}) covers domains where explicit relationships matter as much as text similarity.
-- [LLM System Design Interview]({{ '/articles/llm-system-design-interview/' | relative_url }}) turns these RAG tradeoffs into an interview-ready design path.
+- [LLM System Design Interview]({{ '/guides/llm-system-design-interview/' | relative_url }}) turns these RAG tradeoffs into an interview-ready design path.

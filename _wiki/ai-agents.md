@@ -154,7 +154,7 @@ At 33:25 he covers sequential thinking servers and scratchpads.
 
 Those discussions connect this topic to
 [Tools]({{ '/wiki/tools/' | relative_url }}) and
-[LLM Tools]({{ '/articles/llm-tools/' | relative_url }}). A tool's existence
+[LLM Tools]({{ '/guides/llm-tools/' | relative_url }}). A tool's existence
 isn't enough. Teams also need to know whether the tool is safe for the agent to
 call without human review. They need traceable results and a known workflow
 state after a failed call.

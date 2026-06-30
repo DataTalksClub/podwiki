@@ -31,7 +31,7 @@ the same failure modes to [DataOps]({{ '/wiki/dataops/' | relative_url }}). He
 focuses on tests, CI/CD, version control, and observability. He also covers
 runbooks and deployment habits that reduce errors before consumers find them.
 
-Use this page for the combined reliability topic. Use
+This topic covers the combined reliability topic. Use
 [Data Observability]({{ '/wiki/data-observability/' | relative_url }}) for the
 specific monitoring and diagnosis practice. Use
 [DataOps]({{ '/wiki/dataops/' | relative_url }}) for pipeline delivery
@@ -54,9 +54,9 @@ These wiki pages connect directly:
 
 Adjacent articles include:
 
-- [Data Observability for Data Engineering]({{ '/articles/data-observability-for-data-engineering/' | relative_url }})
-- [DataOps]({{ '/articles/dataops/' | relative_url }})
-- [MLOps vs DataOps]({{ '/articles/mlops-vs-dataops/' | relative_url }})
+- [Data Observability for Data Engineering]({{ '/guides/data-observability-for-data-engineering/' | relative_url }})
+- [DataOps]({{ '/guides/dataops/' | relative_url }})
+- [MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }})
 
 Core podcast discussions include:
 

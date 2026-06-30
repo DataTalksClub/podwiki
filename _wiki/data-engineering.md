@@ -29,7 +29,7 @@ AI-ready infrastructure
 ([Data Engineer Career in 2026]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }}),
 [Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }})).
 
-Use this page as the foundation hub for the broader discipline. For deeper
+This topic is the foundation hub for the broader discipline. For deeper
 platform patterns, use
 [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}).
 For pipeline operating practices, use

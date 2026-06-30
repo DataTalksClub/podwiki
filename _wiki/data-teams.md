@@ -143,7 +143,7 @@ stakeholder prioritization, technical credibility, and quality standards. He
 also covers data culture and data reconciliation. The same discussion includes
 access controls, lineage, and the move from ETL to ELT.
 
-A [data engineer manager]({{ '/articles/data-engineer-manager/' | relative_url }}) is
+A [data engineer manager]({{ '/guides/data-engineer-manager/' | relative_url }}) is
 responsible for more than delivery tickets. They protect the platform and the
 people who rely on it.
 

@@ -25,7 +25,7 @@ anchors the discovery side in her episode on moving from design into
 roadmap and metrics side in
 [Build & Scale Data Products for AI]({{ '/podcasts/building-and-scaling-ai-data-products-with-mlops/' | relative_url }}).
 
-Use this page for the concept and role boundary. Use
+This topic covers the concept and role boundary. Use
 [Data Products]({{ '/wiki/data-products/' | relative_url }}) for the artifact,
 and use [Data Product Adoption]({{ '/wiki/data-product-adoption/' | relative_url }})
 for the last-mile adoption problem. Use
@@ -103,8 +103,8 @@ Adjacent wiki and article pages:
 
 - [Data Products]({{ '/wiki/data-products/' | relative_url }})
 - [Data Product Adoption]({{ '/wiki/data-product-adoption/' | relative_url }})
-- [Data Product Manager]({{ '/articles/data-product-manager/' | relative_url }})
-- [Data Product Manager Role]({{ '/articles/data-product-manager-role/' | relative_url }})
+- [Data Product Manager]({{ '/guides/data-product-manager/' | relative_url }})
+- [Data Product Manager Role]({{ '/guides/data-product-manager-role/' | relative_url }})
 - [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }})
 - [A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }})
 - [Experimentation and Causal Inference]({{ '/wiki/experimentation-and-causal-inference/' | relative_url }})
@@ -345,8 +345,8 @@ Use these pages for the adjacent artifacts, roles, and operating systems:
 
 - [Data Products]({{ '/wiki/data-products/' | relative_url }})
 - [Data Product Adoption]({{ '/wiki/data-product-adoption/' | relative_url }})
-- [Data Product Manager]({{ '/articles/data-product-manager/' | relative_url }})
-- [Data Product Manager Role]({{ '/articles/data-product-manager-role/' | relative_url }})
+- [Data Product Manager]({{ '/guides/data-product-manager/' | relative_url }})
+- [Data Product Manager Role]({{ '/guides/data-product-manager-role/' | relative_url }})
 - [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }})
 - [Metrics]({{ '/wiki/metrics/' | relative_url }})
 - [A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }})

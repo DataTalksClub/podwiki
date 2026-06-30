@@ -31,7 +31,7 @@ management.
 Use [DataOps]({{ '/wiki/dataops/' | relative_url }}) for the separate
 discipline around data pipelines and analytical delivery. Use
 [MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }}) and
-[MLOps vs DataOps]({{ '/articles/mlops-vs-dataops/' | relative_url }}) for the
+[MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }}) for the
 boundary between model operations and data operations. The MLOps side adds
 model artifacts and experiment capture. It also adds drift, retraining, and
 model governance.

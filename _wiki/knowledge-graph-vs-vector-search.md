@@ -26,7 +26,7 @@ uses them for production search and hybrid retrieval
 [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}),
 [Production ML Search]({{ '/podcasts/production-ml-search-vector-search-embeddings-hybrid-search/' | relative_url }})).
 
-Use this page for the retrieval-substrate comparison. Use
+This comparison covers retrieval substrates. Use
 [Graph RAG vs Vector RAG]({{ '/wiki/graph-rag-vs-vector-rag/' | relative_url }})
 when the question is what context to give an LLM. Use
 [Vector Database vs Search Engine]({{ '/wiki/vector-database-vs-search-engine/' | relative_url }})

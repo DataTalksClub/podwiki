@@ -2,7 +2,7 @@ url: "https://datatalks.club"
 baseurl: ""
 name: DataTalks.Club Podcast Wiki
 title: DataTalks.Club Podcast Wiki
-description: Topic hubs, articles, people pages, and exploration search for the DataTalks.Club podcast archive.
+description: Topic hubs, guides, people pages, and exploration search for the DataTalks.Club podcast archive.
 permalink: pretty
 search_api_url: "https://2zoro3dw5xu4jk6uo4u3q2dfim0nhdgb.lambda-url.eu-west-1.on.aws/"
 
@@ -40,9 +40,18 @@ collections:
   wiki:
     output: true
     permalink: /wiki/:title/
-  articles:
+  guides:
     output: true
-    permalink: /articles/:title/
+    permalink: /guides/:title/
+  comparisons:
+    output: true
+    permalink: /comparisons/:title/
+  roadmaps:
+    output: true
+    permalink: /roadmaps/:title/
+  how_tos:
+    output: true
+    permalink: /how-tos/:title/
 
 defaults:
   - scope:
@@ -62,6 +71,25 @@ defaults:
       layout: "wiki"
   - scope:
       path: ""
-      type: "articles"
+      type: "guides"
     values:
       layout: "article"
+      content_kind: "guide"
+  - scope:
+      path: ""
+      type: "comparisons"
+    values:
+      layout: "article"
+      content_kind: "comparison"
+  - scope:
+      path: ""
+      type: "roadmaps"
+    values:
+      layout: "article"
+      content_kind: "roadmap"
+  - scope:
+      path: ""
+      type: "how_tos"
+    values:
+      layout: "article"
+      content_kind: "how-to"

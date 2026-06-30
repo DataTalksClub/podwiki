@@ -6,7 +6,8 @@ permalink: /graph.html
 
 # Podcast Graph
 
-Explore how wiki pages, articles, people, topics, and podcast summaries connect
+Explore how wiki pages, guides, comparisons, roadmaps, how-tos, people, topics,
+and podcast summaries connect
 across the DataTalks.Club podcast archive.
 
 <section class="graph-controls" aria-label="Graph controls">
@@ -17,7 +18,7 @@ across the DataTalks.Club podcast archive.
   <div class="graph-toggles" aria-label="Visible node types">
     <label><input class="graph-type" type="checkbox" value="topic" checked /> Topics</label>
     <label><input class="graph-type" type="checkbox" value="wiki" checked /> Wiki</label>
-    <label><input class="graph-type" type="checkbox" value="article" checked /> Articles</label>
+    <label><input class="graph-type" type="checkbox" value="article" checked /> Content</label>
     <label><input class="graph-type" type="checkbox" value="podcast" checked /> Podcasts</label>
     <label><input class="graph-type" type="checkbox" value="person" checked /> People</label>
   </div>

@@ -19,7 +19,7 @@ observability, and recovery.
 
 Use this bridge when an old link or a mixed production incident mentions both
 terms. For the full boundary, read
-[MLOps vs DataOps]({{ '/articles/mlops-vs-dataops/' | relative_url }}).
+[MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }}).
 
 ## MLOps
 
@@ -97,7 +97,7 @@ Continue from the page that matches the object you need to operate.
 
 - [MLOps]({{ '/wiki/mlops/' | relative_url }}) for model lifecycle ownership.
 - [DataOps]({{ '/wiki/dataops/' | relative_url }}) for reliable data delivery.
-- [MLOps vs DataOps]({{ '/articles/mlops-vs-dataops/' | relative_url }}) for the
+- [MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }}) for the
   comparison and incident boundary.
 - [ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }}) and
   [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})

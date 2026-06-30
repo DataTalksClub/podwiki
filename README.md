@@ -32,8 +32,15 @@ thematic "Insight Hub" pages.
 - `_podcast_summaries/` contains agent-friendly episode summaries that link back
   to the original podcast archive. Full transcripts stay in the website repo.
 - `_people/` contains guest/contributor exploration pages.
-- `_wiki/` contains comprehensive archive-derived wiki articles.
-- `_articles/` contains keyword-driven SEO/editorial articles.
+- `_wiki/` contains comprehensive archive-derived wiki pages.
+- `_guides/` contains podcast-backed practical guides published under
+  `/guides/`.
+- `_comparisons/` contains X vs Y pages and role or architecture tradeoffs
+  published under `/comparisons/`.
+- `_roadmaps/` contains learning paths and transition paths published under
+  `/roadmaps/`.
+- `_how_tos/` contains procedural build, setup, and operations pages published
+  under `/how-tos/`.
 - `search/` contains the browser fallback corpus copied into the static site.
 - `graph/graph.json` contains generated static graph data used by `/graph.html`.
 - `artifacts/search/` contains build artifacts for the Zerosearch Lambda.
@@ -64,11 +71,13 @@ When `search_api_url` is empty, the page falls back to a simple client-side sear
 over `/search/search-corpus.json` for local development. Search indexes the
 exploration collections, not full podcast transcripts.
 
-The graph page is available at `/graph.html`. It visualizes topics, articles,
-episode summaries, people, and source-episode relationships from
-`graph/graph.json`. Clicking a node opens a side panel with canonical page links,
-search links, related nodes, and a copyable graph URL such as
-`/graph.html#topic%3Allms`.
+The graph page is available at `/graph.html`. It visualizes topics, guides,
+comparisons, roadmaps, how-tos, episode summaries, people, and source-episode
+relationships from `graph/graph.json`. The graph may still treat the category
+collections internally as article/content nodes; public URLs remain
+`/guides/`, `/comparisons/`, `/roadmaps/`, and `/how-tos/`. Clicking a node opens
+a side panel with canonical page links, search links, related nodes, and a
+copyable graph URL such as `/graph.html#topic%3Allms`.
 
 Rebuild graph data after content changes:
 
@@ -103,7 +112,10 @@ The Lambda in
 - `GET /health`
 - `GET /?q=<query>`
 - `GET /?q=<query>&level=wiki`
-- `GET /?q=<query>&level=article`
+- `GET /?q=<query>&level=guide`
+- `GET /?q=<query>&level=comparison`
+- `GET /?q=<query>&level=roadmap`
+- `GET /?q=<query>&level=how_to`
 - `GET /?q=<query>&level=podcast_summary`
 - `GET /?q=<query>&level=person`
 - `GET /?q=<query>&level=section`
@@ -126,8 +138,8 @@ Optional repository variable:
 2. Run `make sources` to regenerate `_podcast_summaries/`, `_people/`,
    `artifacts/podcast/source-index.json`, and
    `sources/podcast-archive-summary.md`.
-3. Link the new summary from relevant `_wiki/`, `_articles/`, and `_people/`
-   pages when it adds evidence.
+3. Link the new summary from relevant `_wiki/`, `_guides/`, `_comparisons/`,
+   `_roadmaps/`, `_how_tos/`, and `_people/` pages when it adds evidence.
 4. Run `make check` in this repo. This refreshes graph data, search corpus, the
    Lambda package, static HTML, and generated internal-link checks.
 5. Push this repo to rebuild and deploy the search Lambda through GitHub Actions.
@@ -136,9 +148,12 @@ Optional repository variable:
 
 1. Ask the LLM to synthesize one wiki page at a time using existing exploration
    pages plus source transcript excerpts from `../datatalksclub.github.io`.
-2. File durable public synthesis into `_wiki/<topic>.md`; use `_articles/` for
-   keyword-driven editorial pages.
-3. Add compact `_podcast_summaries/` and `_people/` pages as reusable agent
+2. File durable public synthesis into `_wiki/<topic>.md`; use `_guides/`,
+   `_comparisons/`, `_roadmaps/`, and `_how_tos/` for keyword-driven editorial
+   pages.
+3. Cross-link editorial pages to relevant wiki pages, people pages, local
+   `/podcasts/<slug>/` pages, and the podcast evidence that grounds each claim.
+4. Add compact `_podcast_summaries/` and `_people/` pages as reusable agent
    context, not as podcast mirrors.
-4. Periodically ask the LLM to lint for stale summaries, missing cross-links, weak
+5. Periodically ask the LLM to lint for stale summaries, missing cross-links, weak
    taxonomy assignments, and orphan pages.

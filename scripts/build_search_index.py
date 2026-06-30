@@ -23,7 +23,10 @@ DEFAULT_BROWSER_CORPUS = ROOT / "search" / "search-corpus.json"
 DEFAULT_INDEX = ROOT / "artifacts" / "search" / "search-index.zsx"
 COLLECTIONS = {
     "_wiki": ("wiki", "/wiki/"),
-    "_articles": ("article", "/articles/"),
+    "_guides": ("guide", "/guides/"),
+    "_comparisons": ("comparison", "/comparisons/"),
+    "_roadmaps": ("roadmap", "/roadmaps/"),
+    "_how_tos": ("how_to", "/how-tos/"),
     "_podcast_summaries": ("podcast_summary", "/podcasts/"),
     "_people": ("person", "/people/"),
 }
@@ -80,7 +83,9 @@ def section_docs(body: str, base: dict, url: str) -> list[dict]:
             {
                 **base,
                 "id": f"{base['id']}#{anchor}",
-                "level": "section",
+                "document_type": "section",
+                "page_title": base["title"],
+                "title": f"{heading} - {base['title']}",
                 "segment_title": heading,
                 "url": f"{url}#{anchor}",
                 "text": text,
@@ -106,6 +111,8 @@ def build_docs() -> list[dict]:
             base = {
                 "id": f"{level}:{path.stem}",
                 "level": level,
+                "document_type": "page",
+                "page_title": title,
                 "episode_slug": path.stem if level == "podcast_summary" else "",
                 "title": title,
                 "segment_title": "",
@@ -143,7 +150,7 @@ def main() -> None:
 
     index = Index(
         text_fields=["title", "segment_title", "text"],
-        keyword_fields=["id", "level", "episode_slug"],
+        keyword_fields=["id", "level", "document_type", "episode_slug"],
     )
     index.fit(docs)
     args.index.parent.mkdir(parents=True, exist_ok=True)

@@ -200,5 +200,5 @@ Use these pages for adjacent roles, projects, interviews, and boundaries.
 - [Data Engineer vs Data Scientist]({{ '/wiki/data-engineer-vs-data-scientist/' | relative_url }})
 - [Machine Learning]({{ '/wiki/machine-learning/' | relative_url }})
 - [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
-- [Data Engineering and Data Science]({{ '/articles/data-engineering-and-data-science/' | relative_url }})
-- [Data Scientist Interview Prep]({{ '/articles/data-scientist-interview/' | relative_url }})
+- [Data Engineering and Data Science]({{ '/comparisons/data-engineering-and-data-science/' | relative_url }})
+- [Data Scientist Interview Prep]({{ '/guides/data-scientist-interview/' | relative_url }})

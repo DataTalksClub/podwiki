@@ -22,7 +22,7 @@ direct data engineering version in
 [Freelance Data Engineering Playbook]({{ '/podcasts/freelance-data-engineering-pricing-and-clients/' | relative_url }}).
 He moved from startup and corporate work into freelancing through a recruiter.
 His projects included legacy cleanup,
-[Airflow]({{ '/articles/apache-airflow/' | relative_url }}) implementation, data
+[Airflow]({{ '/guides/apache-airflow/' | relative_url }}) implementation, data
 science work, and a warehouse build that later led to hiring an internal data
 team.
 
@@ -205,7 +205,7 @@ expectations. They also name working style and timelines.
 That scoping habit protects both sides. The freelancer avoids promising a fixed
 project before seeing the failure modes. The client gets a short decision point
 instead of a long open-ended engagement. For
-[data engineering consulting]({{ '/articles/data-engineering-consulting/' | relative_url }}),
+[data engineering consulting]({{ '/guides/data-engineering-consulting/' | relative_url }}),
 this often means mapping sources, owners, and consumers. It also means mapping
 access constraints.
 
@@ -398,10 +398,10 @@ operate.
 Freelance data and AI work connects to
 [Business Skills for Data Professionals]({{ '/wiki/business-skills-for-data-professionals/' | relative_url }})
 and
-[Data Engineering Consultant]({{ '/articles/data-engineering-consultant/' | relative_url }}).
+[Data Engineering Consultant]({{ '/guides/data-engineering-consultant/' | relative_url }}).
 It also connects to
-[Freelance Data Engineer]({{ '/articles/freelance-data-engineer/' | relative_url }})
+[Freelance Data Engineer]({{ '/guides/freelance-data-engineer/' | relative_url }})
 and
-[Data Engineering Freelance]({{ '/articles/data-engineering-freelance/' | relative_url }}).
+[Data Engineering Freelance]({{ '/guides/data-engineering-freelance/' | relative_url }}).
 The freelance lens is broader: the technical work only succeeds when the
 business around it also works.

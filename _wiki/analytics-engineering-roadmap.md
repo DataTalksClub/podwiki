@@ -38,7 +38,7 @@ Use these pages alongside the roadmap:
 - Role and boundary pages: [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }}), [Data Analyst vs Analytics Engineer]({{ '/wiki/data-analyst-vs-analytics-engineer/' | relative_url }}), and [Marketing to Analytics Engineering]({{ '/wiki/marketing-to-analytics-engineering/' | relative_url }})
 - Practice pages: [Analytics Engineering Portfolio Projects]({{ '/wiki/analytics-engineering-portfolio-projects/' | relative_url }}), [dbt]({{ '/wiki/dbt/' | relative_url }}), [Metrics]({{ '/wiki/metrics/' | relative_url }}), and [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - Stack and domain pages: [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}), [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }}), [Event Tracking]({{ '/wiki/event-tracking/' | relative_url }}), [Data-Led Growth]({{ '/wiki/data-led-growth/' | relative_url }}), [Reverse ETL]({{ '/wiki/reverse-etl/' | relative_url }}), and [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
-- Adjacent article: [Analytics Engineer]({{ '/articles/analytics-engineer/' | relative_url }})
+- Adjacent article: [Analytics Engineer]({{ '/guides/analytics-engineer/' | relative_url }})
 
 Core podcast discussions:
 
@@ -289,4 +289,4 @@ Use these pages for the role, stack, projects, and adjacent domains.
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
 - [Data Activation]({{ '/wiki/data-activation/' | relative_url }})
-- [Analytics Engineer article]({{ '/articles/analytics-engineer/' | relative_url }})
+- [Analytics Engineer article]({{ '/guides/analytics-engineer/' | relative_url }})

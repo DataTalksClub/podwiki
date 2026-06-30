@@ -24,7 +24,7 @@ defines RAG as retrieval plus generation. At 38:24 she turns podcast
 transcripts into chunks, embeddings, and vectorized context. At 48:09 she
 brings evaluation and human review back into the system.
 
-Use this page as the map across the retrieval stack. Start with
+This topic maps the retrieval stack. Start with
 [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
 for the core RAG design. Use [Vector Databases]({{ '/wiki/vector-databases/' | relative_url }})
 for vector storage and indexing. Use

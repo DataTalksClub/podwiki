@@ -9,14 +9,17 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_FOLDERS = ("_wiki", "_articles")
+DEFAULT_FOLDERS = ("_wiki", "_guides", "_comparisons", "_roadmaps", "_how_tos")
 GENERIC_PODCAST_URL = "https://datatalks.club/podcast.html"
+PUBLIC_COLLECTIONS = ("podcasts", "wiki", "people", "guides", "comparisons", "roadmaps", "how-tos")
+PUBLIC_CONTENT_FOLDERS = {"_wiki", "_guides", "_comparisons", "_roadmaps", "_how_tos"}
 FORBIDDEN_HEADING_RE = re.compile(
     r"^## (Contents|Search Intent|Archive Evidence|Episode Evidence|Guest Descriptions|"
     r"Recurring Archive Themes|Maintenance Notes|Agent Maintenance Notes|Guest Experts|Bottom Line)\b",
     re.MULTILINE,
 )
 LOCAL_LINK_RE = re.compile(r"'/([^']+)/' \| relative_url")
+MARKDOWN_LINK_RE = re.compile(r"\[[^\]]+\]\((/[^)#?]+)")
 
 
 def page_paths(folders: list[str]) -> list[Path]:
@@ -27,9 +30,10 @@ def page_paths(folders: list[str]) -> list[Path]:
 
 
 def link_counts(text: str) -> dict[str, int]:
-    counts = {"podcasts": 0, "wiki": 0, "people": 0, "articles": 0}
-    for match in LOCAL_LINK_RE.finditer(text):
-        target = match.group(1)
+    counts = {collection: 0 for collection in PUBLIC_COLLECTIONS}
+    targets = [match.group(1) for match in LOCAL_LINK_RE.finditer(text)]
+    targets.extend(match.group(1).lstrip("/") for match in MARKDOWN_LINK_RE.finditer(text))
+    for target in targets:
         for collection in counts:
             if target.startswith(f"{collection}/"):
                 counts[collection] += 1
@@ -42,7 +46,7 @@ def audit_file(path: Path) -> dict[str, object]:
     forbidden = FORBIDDEN_HEADING_RE.findall(text)
     generic = text.count(GENERIC_PODCAST_URL)
     score = generic * 3 + len(forbidden) * 10
-    if path.parts[-2] in {"_wiki", "_articles"} and links["podcasts"] == 0:
+    if path.parts[-2] in PUBLIC_CONTENT_FOLDERS and links["podcasts"] == 0:
         score += 5
     return {
         "path": path.relative_to(ROOT),
@@ -51,7 +55,10 @@ def audit_file(path: Path) -> dict[str, object]:
         "local_podcast_links": links["podcasts"],
         "wiki_links": links["wiki"],
         "people_links": links["people"],
-        "article_links": links["articles"],
+        "guide_links": links["guides"],
+        "comparison_links": links["comparisons"],
+        "roadmap_links": links["roadmaps"],
+        "how_to_links": links["how-tos"],
         "score": score,
     }
 
@@ -80,7 +87,9 @@ def main() -> None:
             f"{row['path']}: score={row['score']} "
             f"generic={row['generic_podcast_links']} bad_headings={row['forbidden_headings']} "
             f"podcast_links={row['local_podcast_links']} wiki_links={row['wiki_links']} "
-            f"people_links={row['people_links']}"
+            f"people_links={row['people_links']} guide_links={row['guide_links']} "
+            f"comparison_links={row['comparison_links']} roadmap_links={row['roadmap_links']} "
+            f"how_to_links={row['how_to_links']}"
         )
 
 

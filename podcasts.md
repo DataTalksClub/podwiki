@@ -6,8 +6,9 @@ permalink: /podcasts/
 
 # Podcasts
 
-Local podcast pages are the internal citation targets for the wiki and articles.
-Each page links to the original DataTalks.Club episode.
+Local podcast pages are the internal citation targets for the wiki, guides,
+comparisons, roadmaps, and how-tos. Each page links to the original
+DataTalks.Club episode.
 
 {% assign pages = site.podcast_summaries | sort: "season" | reverse %}
 {% if pages.size > 0 %}

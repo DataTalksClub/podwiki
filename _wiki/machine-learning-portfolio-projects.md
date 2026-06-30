@@ -24,7 +24,7 @@ workflow starts with business understanding. The team studies the data and
 builds a simple baseline. It evaluates against the original objective, then
 deploys only when the solution helps the decision.
 
-Use this page for applied
+This topic covers applied
 [machine learning]({{ '/wiki/machine-learning/' | relative_url }}),
 [data science]({{ '/wiki/data-science/' | relative_url }}), and
 [ML engineering]({{ '/wiki/machine-learning-engineer-role/' | relative_url }})

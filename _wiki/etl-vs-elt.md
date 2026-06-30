@@ -34,8 +34,8 @@ tool ranking. The same source data can feed [data engineering platforms]({{ '/wi
 question is where transformation belongs for the consumer, risk, and ownership
 model in front of the team.
 
-Use this page for the comparison. Use [ETL]({{ '/wiki/etl/' | relative_url }})
-and [ELT]({{ '/wiki/elt/' | relative_url }}) for the standalone topic nodes,
+This comparison sits between [ETL]({{ '/wiki/etl/' | relative_url }})
+and [ELT]({{ '/wiki/elt/' | relative_url }}) as standalone topic nodes,
 then use [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
 for the broader warehouse-centered stack. Use
 [Data Warehouse vs Data Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }})

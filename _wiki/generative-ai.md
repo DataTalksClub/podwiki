@@ -227,7 +227,7 @@ Bartosz discusses coding assistants in
 At 42:05 and 44:38, he compares Cursor, GitHub Copilot, and alternatives. At
 47:19, he discusses search-focused assistants and tool selection.
 
-These examples belong with [LLM tools]({{ '/articles/llm-tools/' | relative_url }}).
+These examples belong with [LLM tools]({{ '/guides/llm-tools/' | relative_url }}).
 The choice is often less about the model and more about where the tool fits in
 the developer's work.
 

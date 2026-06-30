@@ -22,7 +22,7 @@ asks for tests plus recovery behavior
 and [Ellen König]({{ '/people/ellenkonig/' | relative_url }}) in
 [How to Become a Data Engineer]({{ '/podcasts/from-software-engineering-data-science-to-data-engineering-leadership/' | relative_url }})).
 
-Use this page for junior and transition portfolios aimed at
+This topic covers junior and transition portfolios aimed at
 [data engineering]({{ '/wiki/data-engineering/' | relative_url }}), platform
 data work, or data-science-to-data-engineering moves. For metric modeling and
 BI-heavy projects, use

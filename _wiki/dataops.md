@@ -36,7 +36,7 @@ and quality automation.
 
 Use [MLOps]({{ '/wiki/mlops/' | relative_url }}) for production machine
 learning systems. Use
-[MLOps vs DataOps]({{ '/articles/mlops-vs-dataops/' | relative_url }}) when the
+[MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }}) when the
 question is about the boundary between model lifecycle work and data delivery
 work.
 
@@ -212,4 +212,4 @@ Use these pages for adjacent DataOps topics and the MLOps boundary:
 - [Orchestration]({{ '/wiki/orchestration/' | relative_url }})
 - [CI/CD]({{ '/wiki/ci-cd/' | relative_url }})
 - [MLOps]({{ '/wiki/mlops/' | relative_url }})
-- [MLOps vs DataOps]({{ '/articles/mlops-vs-dataops/' | relative_url }})
+- [MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }})

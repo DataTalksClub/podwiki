@@ -248,5 +248,5 @@ These pages cover the surrounding techniques, roles, and production concerns.
 - [NLP]({{ '/wiki/nlp/' | relative_url }})
 - [Security]({{ '/wiki/security/' | relative_url }})
 - [AI Red Teaming]({{ '/wiki/ai-red-teaming/' | relative_url }})
-- [LLM Tools]({{ '/articles/llm-tools/' | relative_url }})
-- [LLM System Design Interview]({{ '/articles/llm-system-design-interview/' | relative_url }})
+- [LLM Tools]({{ '/guides/llm-tools/' | relative_url }})
+- [LLM System Design Interview]({{ '/guides/llm-system-design-interview/' | relative_url }})

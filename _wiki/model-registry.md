@@ -65,7 +65,7 @@ These podcast interviews anchor the page:
   places registries inside a larger toolset around 51:21. That toolset also
   includes experiment tracking and serving. It also includes monitoring,
   dependency management, and team adoption.
-- [MLOps Tools]({{ '/articles/mlops-tools/' | relative_url }}) summarizes
+- [MLOps Tools]({{ '/guides/mlops-tools/' | relative_url }}) summarizes
   registry placement for readers comparing tool categories, while this page
   keeps the archive-derived concept focused.
 
@@ -278,5 +278,5 @@ These pages cover the adjacent lifecycle and platform topics.
   code, data, environment, and artifact recovery.
 - [Data Governance]({{ '/wiki/data-governance/' | relative_url }}) - covers
   metadata, retention, lineage, and compliance constraints.
-- [MLOps Tools]({{ '/articles/mlops-tools/' | relative_url }}) - compares tool
+- [MLOps Tools]({{ '/guides/mlops-tools/' | relative_url }}) - compares tool
   categories for readers choosing an MLOps stack.

@@ -54,7 +54,7 @@ Use these archive paths to place the warehouse in context:
   and [dbt]({{ '/wiki/dbt/' | relative_url }}) for warehouse-side modeling,
   tests, documentation, and BI-facing tables.
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
-  and [Data Observability for Data Engineering]({{ '/articles/data-observability-for-data-engineering/' | relative_url }})
+  and [Data Observability for Data Engineering]({{ '/guides/data-observability-for-data-engineering/' | relative_url }})
   for freshness, schema, lineage, and trust.
 - [Data Governance]({{ '/wiki/data-governance/' | relative_url }}) for
   ownership, access, and policy.

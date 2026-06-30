@@ -24,7 +24,7 @@ experimentation. It can also cover dashboards or first-data-hire work. For the
 role, see [Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }}). For
 the interview path, see
 [Data Scientist Interview Roadmap]({{ '/wiki/data-scientist-interview-roadmap/' | relative_url }})
-and [Data Scientist Interview]({{ '/articles/data-scientist-interview/' | relative_url }}).
+and [Data Scientist Interview]({{ '/guides/data-scientist-interview/' | relative_url }}).
 
 ## Common Path
 
@@ -191,7 +191,7 @@ paths.
 
 - [Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }})
 - [Data Scientist Interview Roadmap]({{ '/wiki/data-scientist-interview-roadmap/' | relative_url }})
-- [Data Scientist Interview]({{ '/articles/data-scientist-interview/' | relative_url }})
+- [Data Scientist Interview]({{ '/guides/data-scientist-interview/' | relative_url }})
 - [Job Search]({{ '/wiki/job-search/' | relative_url }})
 - [CV Screening]({{ '/wiki/cv-screening/' | relative_url }})
 - [Salary Negotiation]({{ '/wiki/salary-negotiation/' | relative_url }})

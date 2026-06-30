@@ -7,7 +7,7 @@ permalink: /people/
 # People
 
 Guests and contributors extracted from the DataTalks.Club source records, with
-links to the concepts, articles, and podcast summaries they support.
+links to the concepts, content pages, and podcast summaries they support.
 
 {% assign pages = site.people | sort: "title" %}
 {% if pages.size > 0 %}

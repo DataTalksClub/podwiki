@@ -16,8 +16,8 @@ analytics, and ML systems at Databricks. He also wrote about ML engineering in
 practice. He uses that field experience to push maintainability, business fit,
 and simpler baselines before novelty.
 
-Use this page when a question asks why an ML project failed after a prototype.
-It also helps explain why a simpler model might be the right design.
+This profile is useful when a question asks why an ML project failed after a
+prototype. It also helps explain why a simpler model might be the right design.
 
 ## Podcast Contributions
 

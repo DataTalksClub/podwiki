@@ -28,7 +28,7 @@ essentials. Examples matter too. At 24:10, he connects contribution guides with
 community etiquette. At 25:50, he treats reproducible issues and small
 documentation fixes as real contributions.
 
-Use this page for documentation as a project and team practice. Use
+This topic covers documentation as a project and team practice. Use
 [Technical Writing]({{ '/wiki/technical-writing/' | relative_url }}) for the
 writing workflow, [Developer Relations]({{ '/wiki/developer-relations/' | relative_url }})
 for demos and tool adoption, and [Contributing]({{ '/wiki/contributing/' | relative_url }})

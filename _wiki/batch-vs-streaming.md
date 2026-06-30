@@ -57,7 +57,7 @@ Use this map to move from the comparison to the adjacent archive pages.
   and [MLOps]({{ '/wiki/mlops/' | relative_url }}) when feature values must work
   for both offline training and online serving.
 - Scheduled work: use
-  [Apache Airflow]({{ '/articles/apache-airflow/' | relative_url }}) and
+  [Apache Airflow]({{ '/guides/apache-airflow/' | relative_url }}) and
   [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}) when the
   main question is orchestration, warehouses, or dbt-style transformation.
 - Reliability: use
@@ -214,7 +214,7 @@ uses workflow orchestration as the reason in
 Batches can declare the complete time window and the upstream outputs required
 for the run. That makes batch useful for warehouse models and reporting. It
 also fits training datasets, backfills, and batch inference. It aligns with
-[Apache Airflow]({{ '/articles/apache-airflow/' | relative_url }}) when the
+[Apache Airflow]({{ '/guides/apache-airflow/' | relative_url }}) when the
 problem is dependency management rather than event-time reaction.
 
 Batch also fits systems where reruns are part of the operating model.
@@ -327,7 +327,7 @@ These pages provide adjacent context for platform, ML, and reliability choices.
 - [Streaming]({{ '/wiki/streaming/' | relative_url }})
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})
 - [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
-- [Apache Airflow]({{ '/articles/apache-airflow/' | relative_url }})
+- [Apache Airflow]({{ '/guides/apache-airflow/' | relative_url }})
 - [Feature Stores for MLOps]({{ '/podcasts/mlops-feature-stores-feature-stores-feast-tecton/' | relative_url }})
 - [MLOps]({{ '/wiki/mlops/' | relative_url }})
 - [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})

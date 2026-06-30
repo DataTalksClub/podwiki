@@ -1,8 +1,8 @@
 # Podwiki Content TODO
 
 This backlog captures page categories that should become repeatable content
-families. Use it when planning new wiki pages, keyword articles, podcast
-summaries, or people-page expansion.
+families. Use it when planning new wiki pages, guides, comparisons, roadmaps,
+how-tos, podcast summaries, or people-page expansion.
 
 ## Category Rules
 
@@ -10,14 +10,16 @@ Follow these rules when adding any page from this backlog.
 
 - Keep `_wiki/` pages as archive-backed reference pages with inline episode
   references, tradeoffs, and related pages.
-- Keep `_articles/` as polished keyword-targeted pages after a target keyword is
-  selected.
+- Put keyword-targeted editorial pages in `_guides/`, `_comparisons/`,
+  `_roadmaps/`, or `_how_tos/`. If the page is only the bare concept, put it in
+  `_wiki/`. Public URLs are `/guides/`, `/comparisons/`, `/roadmaps/`, and
+  `/how-tos/`.
 - Keep `_podcast_summaries/` compact enough for agents to decide whether they
   need the source episode.
-- Link podcast evidence to local podcast summary pages such as
+- Link podcast evidence to local podcast pages such as
   `{{ '/podcasts/<source-file-slug>/' | relative_url }}`. Those local pages
-  link to the canonical DataTalks.Club episode. Do not link article or wiki
-  evidence to the generic podcast archive page.
+  link to the canonical DataTalks.Club episode. Do not link public-page evidence
+  to the generic podcast archive page.
 - Run `make check` after adding pages so graph and search stay current.
 
 ## Current Rewrite Requirements
@@ -27,7 +29,7 @@ These notes capture the current cleanup direction and should not be lost.
 - Redo wiki pages to follow one structure: opening definition, link map, common
   definition, where guests differ, concrete topic sections with inline podcast
   references, and related pages.
-- Remove public meta sections from wiki and article pages. Do not use
+- Remove public meta sections from wiki and editorial pages. Do not use
   `Contents`, `Search Intent`, `Archive Evidence`, `Episode Evidence`, `Guest
   Descriptions`, `Recurring Archive Themes`, `Maintenance Notes`, or `Agent
   Maintenance Notes` as reader-facing headings.
@@ -35,7 +37,8 @@ These notes capture the current cleanup direction and should not be lost.
   podcast reference next to the claim it supports, like a citation, instead of
   collecting evidence in a separate appendix.
 - Make every page link-heavy: visible links to specific podcast interviews,
-  related wiki pages, relevant articles, and useful local podcast summaries.
+  related wiki pages, people pages, category pages, local podcast pages, and the
+  grounding evidence behind substantive claims.
 - Use local podcast links such as
   `{{ '/podcasts/<source-file-slug>/' | relative_url }}` whenever the source
   episode slug is known. The local podcast page links to the original
@@ -43,12 +46,14 @@ These notes capture the current cleanup direction and should not be lost.
 - Make related links visually obvious in CSS. Related pages should look like
   links, not muted tags.
 - Add a graph-driven "See also" or related graph nodes section to wiki and
-  article pages, especially stub pages such as `_wiki/tools.md`.
+  editorial pages, especially stub pages such as `_wiki/tools.md`.
 - Keep `/podcasts/` as a list view closer to the original DataTalks.Club
   podcast structure. The pages in `_podcast_summaries/` are the internal
-  citation targets for wiki/articles.
+  citation targets for wiki and editorial pages.
 - Treat Markdown pages as the source for the graph. Do not maintain
   `graph/graph.json` separately; regenerate it from the collections.
+  Internally, graph nodes may still call guides, comparisons, roadmaps, and
+  how-tos article/content nodes; do not expose that as a public category.
 - Keep `make sources` as the first step for broad podcast work. It syncs local
   podcast pages, people pages, chapter summaries, and the source index used by
   subagents.
@@ -59,7 +64,7 @@ These notes capture the current cleanup direction and should not be lost.
   podcast batches and collect grounded topic reports before writing pages.
 - Keep MLOps and DataOps as separate concept pages. Use `_wiki/mlops.md` for
   model lifecycle operations, `_wiki/dataops.md` for data delivery operations,
-  and `_articles/mlops-vs-dataops.md` for the comparison.
+  and `_comparisons/mlops-vs-dataops.md` for the comparison.
 - Keep pages centered on one topic, role, transition, comparison, roadmap, or
   project type. Split mixed pages instead of broadening them.
 
@@ -81,8 +86,8 @@ Existing pages:
 - `_wiki/data-product-management.md`
 - `_wiki/data-scientist-role.md`
 - `_wiki/machine-learning-engineer-role.md`
-- `_articles/analytics-engineer.md`
-- `_articles/data-product-manager-role.md`
+- `_guides/analytics-engineer.md`
+- `_guides/data-product-manager-role.md`
 
 Candidate pages:
 
@@ -119,7 +124,7 @@ Each page should cover the same core pieces:
 Existing pages:
 
 - `_wiki/career-transitions-in-data.md`
-- `_articles/software-engineer-to-machine-learning.md`
+- `_guides/software-engineer-to-machine-learning.md`
 
 Candidate pages:
 
@@ -152,7 +157,7 @@ and role-specific portfolios.
 
 Existing pages:
 
-- `_articles/data-scientist-interview.md`
+- `_guides/data-scientist-interview.md`
 - `_wiki/open-source-and-developer-relations.md`
 - `_wiki/data-engineering-portfolio-projects.md`
 - `_wiki/machine-learning-portfolio-projects.md`
@@ -221,7 +226,7 @@ comparison outcomes:
 
 Existing pages:
 
-- `_articles/dataops-vs-data-engineering.md`
+- `_comparisons/dataops-vs-data-engineering.md`
 
 Candidate pages:
 

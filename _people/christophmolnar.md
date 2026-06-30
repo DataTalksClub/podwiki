@@ -17,8 +17,8 @@ practical model-trust work with SHAP and conformal prediction. He also
 discusses prediction sets, book writing, hands-on competitions, and experiment
 notes.
 
-Use this page when a question needs concrete interpretability methods rather
-than generic responsible-AI language.
+This profile is useful when a question needs concrete interpretability methods
+rather than generic responsible-AI language.
 
 ## Podcast Contributions
 
@@ -65,7 +65,7 @@ Use these existing hubs for follow-up topic work:
   for model choice, debugging, evaluation, and production tradeoffs.
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
   for monitoring and drift concerns that interpretability can help diagnose.
-- [Interpretable Machine Learning]({{ '/articles/interpretable-machine-learning/' | relative_url }})
+- [Interpretable Machine Learning]({{ '/guides/interpretable-machine-learning/' | relative_url }})
   for the editorial article that already uses this episode as evidence.
 
 ## Source Links

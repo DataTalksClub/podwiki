@@ -80,7 +80,7 @@ can serve that boundary even when the teams use different languages or tools
 (10:29 and 16:26-17:04).
 
 For a tool-category overview, the
-[Data Engineering Tools]({{ '/articles/data-engineering-tools/' | relative_url }})
+[Data Engineering Tools]({{ '/guides/data-engineering-tools/' | relative_url }})
 article places DuckDB in the newer lakehouse and cost-aware tooling landscape.
 
 ## Cost-Aware Pipelines

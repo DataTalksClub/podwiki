@@ -17,9 +17,9 @@ explain why data teams often learn about broken data from executives or
 customers. The failure report often comes from business users instead of the
 data team's own systems.
 
-Use this page when a question needs the reliability model behind freshness,
-volume, schema, and lineage. It also covers root-cause analysis, SLAs, and
-false-positive reduction.
+This profile is useful when a question needs the reliability model behind
+freshness, volume, schema, and lineage. It also covers root-cause analysis,
+SLAs, and false-positive reduction.
 
 ## Podcast Contributions
 

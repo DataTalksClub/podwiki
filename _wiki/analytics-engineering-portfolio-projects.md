@@ -33,7 +33,7 @@ adds that analytics engineering should make business reality match the data.
 Engineering discipline then makes the result safer
 ([Foundations of the Analytics Engineer Role at 11:03 and 46:34]({{ '/podcasts/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices/' | relative_url }})).
 
-Use this page for portfolios aimed at
+This topic covers portfolios aimed at
 [analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }}),
 BI-heavy data roles, and analyst-to-engineer transitions. For ingestion,
 orchestration, and platform-heavy work, use

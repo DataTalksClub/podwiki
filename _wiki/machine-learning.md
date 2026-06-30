@@ -21,7 +21,7 @@ connect models to business framing and data availability. Feature design and
 evaluation are part of the same subject. Deployment, monitoring, and ownership
 belong there too.
 
-Use this page as the broad hub for classic applied ML. For system architecture,
+This topic is the broad hub for classic applied ML. For system architecture,
 go deeper with [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }}).
 For running models after deployment, use [MLOps]({{ '/wiki/mlops/' | relative_url }})
 and [MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }}). For

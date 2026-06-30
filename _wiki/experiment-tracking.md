@@ -26,7 +26,7 @@ handoff path
 at 29:41-30:58).
 
 The archive's practical definition is narrower than "all experimentation."
-Use this page for run capture, reproducibility, and team memory during model
+This topic covers run capture, reproducibility, and team memory during model
 development. Use [Model Registry]({{ '/wiki/model-registry/' | relative_url }})
 for promoted artifacts, [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }})
 for deployed behavior, and [Evaluation]({{ '/wiki/evaluation/' | relative_url }})

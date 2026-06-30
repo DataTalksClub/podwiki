@@ -161,8 +161,8 @@ That stack view links directly to these graph nodes:
 - [Data Warehouse]({{ '/wiki/data-warehouse/' | relative_url }})
 
 For article coverage, see
-[Data Engineering Tools]({{ '/articles/data-engineering-tools/' | relative_url }})
-and [Apache Airflow]({{ '/articles/apache-airflow/' | relative_url }}).
+[Data Engineering Tools]({{ '/guides/data-engineering-tools/' | relative_url }})
+and [Apache Airflow]({{ '/guides/apache-airflow/' | relative_url }}).
 
 ## MLOps and ML Platform Tools
 
@@ -210,7 +210,7 @@ See also:
 - [Orchestration]({{ '/wiki/orchestration/' | relative_url }})
 
 For article coverage, see
-[MLOps Tools]({{ '/articles/mlops-tools/' | relative_url }}).
+[MLOps Tools]({{ '/guides/mlops-tools/' | relative_url }}).
 
 ## Search, RAG, and Agent Tooling
 
@@ -258,7 +258,7 @@ See also:
 - [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
 - [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }})
 - [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
-- [LLM Tools]({{ '/articles/llm-tools/' | relative_url }})
+- [LLM Tools]({{ '/guides/llm-tools/' | relative_url }})
 
 ## Open Source and Developer Experience
 
@@ -349,7 +349,7 @@ archive:
 
 - [Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }})
 - [MLOps Tools]({{ '/wiki/mlops-tools/' | relative_url }})
-- [DataOps Tools]({{ '/articles/dataops-tools/' | relative_url }})
+- [DataOps Tools]({{ '/guides/dataops-tools/' | relative_url }})
 - [Orchestration]({{ '/wiki/orchestration/' | relative_url }})
 - [Platform Engineering]({{ '/wiki/platform-engineering/' | relative_url }})
 - [ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }})

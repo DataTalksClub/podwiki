@@ -30,7 +30,7 @@ is used for experiments. His discussion covers randomization, metric design,
 and power analysis in
 [the A/B testing episode at 5:11-37:44]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}).
 
-Use this page as the center for product usage analysis. For growth systems, use
+This topic is the center for product usage analysis. For growth systems, use
 [Data-Led Growth]({{ '/wiki/data-led-growth/' | relative_url }}). For product
 signals in operational tools, use
 [Data Activation]({{ '/wiki/data-activation/' | relative_url }}). For analytics

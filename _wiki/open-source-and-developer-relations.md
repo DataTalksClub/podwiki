@@ -35,7 +35,7 @@ and Metaflow. At 18:03, he defines DevRel through education, documentation, and
 a "wisdom layer" around tools. At 25:17, he ties developer collaboration to
 feedback loops, documentation, and dogfooding.
 
-Use this page for the boundary between the two topics. For narrower questions,
+This topic covers the boundary between the two topics. For narrower questions,
 use [Open Source]({{ '/wiki/open-source/' | relative_url }})
 for the broad project category. Use
 [Developer Relations]({{ '/wiki/developer-relations/' | relative_url }}) for

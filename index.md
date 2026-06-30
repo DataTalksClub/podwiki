@@ -5,7 +5,8 @@ title: Podcast Wiki
 
 # DataTalks.Club Podcast Wiki
 
-Explore DataTalks.Club podcast episodes by topic, guest, and transcript segment.
+Explore DataTalks.Club podcast episodes by topic, guest, transcript segment,
+and podcast-backed content.
 
 <form class="home-search" action="{{ '/search.html' | relative_url }}" method="get">
   <input name="q" type="search" placeholder="Search RAG, career transitions, feature stores..." />
@@ -15,9 +16,13 @@ Explore DataTalks.Club podcast episodes by topic, guest, and transcript segment.
 <div class="quick-actions">
   <a class="button" href="{{ '/graph.html' | relative_url }}">Open podcast graph</a>
   <a class="button secondary" href="{{ '/wiki/' | relative_url }}">Read wiki</a>
+  <a class="button secondary" href="{{ '/guides/' | relative_url }}">Browse guides</a>
+  <a class="button secondary" href="{{ '/comparisons/' | relative_url }}">Browse comparisons</a>
+  <a class="button secondary" href="{{ '/roadmaps/' | relative_url }}">Browse roadmaps</a>
+  <a class="button secondary" href="{{ '/how-tos/' | relative_url }}">Browse how-tos</a>
   <a class="button secondary" href="{{ '/podcasts/' | relative_url }}">Browse summaries</a>
   <a class="button secondary" href="{{ '/people/' | relative_url }}">Browse people</a>
-  <a class="button secondary" href="{{ '/search.html' | relative_url }}">Search transcripts</a>
+  <a class="button secondary" href="{{ '/search.html' | relative_url }}">Search content</a>
 </div>
 
 ## Wiki
@@ -36,18 +41,66 @@ Explore DataTalks.Club podcast episodes by topic, guest, and transcript segment.
 <p class="muted">Wiki pages are being drafted from archive evidence.</p>
 {% endif %}
 
-## Articles
+## Guides
 
-{% assign articles = site.articles | sort: "title" %}
-{% if articles.size > 0 %}
+{% assign guides = site.guides | sort: "title" %}
+{% if guides.size > 0 %}
 <div class="list">
-{% for item in articles limit: 12 %}
+{% for item in guides limit: 8 %}
   <a class="row" href="{{ item.url | relative_url }}">
     <strong>{{ item.title }}</strong>
-    {% if item.keyword %}<span>{{ item.keyword }}</span>{% endif %}
+    {% if item.summary %}<span>{{ item.summary }}</span>{% endif %}
   </a>
 {% endfor %}
 </div>
 {% else %}
-<p class="muted">Article drafts will be created from selected keyword opportunities.</p>
+<p class="muted">Guides are being grouped from podcast-backed editorial pages.</p>
+{% endif %}
+
+## Comparisons
+
+{% assign comparisons = site.comparisons | sort: "title" %}
+{% if comparisons.size > 0 %}
+<div class="list">
+{% for item in comparisons limit: 6 %}
+  <a class="row" href="{{ item.url | relative_url }}">
+    <strong>{{ item.title }}</strong>
+    {% if item.summary %}<span>{{ item.summary }}</span>{% endif %}
+  </a>
+{% endfor %}
+</div>
+{% else %}
+<p class="muted">Comparison pages are being grouped from archive-backed pages.</p>
+{% endif %}
+
+## Roadmaps
+
+{% assign roadmaps = site.roadmaps | sort: "title" %}
+{% if roadmaps.size > 0 %}
+<div class="list">
+{% for item in roadmaps limit: 6 %}
+  <a class="row" href="{{ item.url | relative_url }}">
+    <strong>{{ item.title }}</strong>
+    {% if item.summary %}<span>{{ item.summary }}</span>{% endif %}
+  </a>
+{% endfor %}
+</div>
+{% else %}
+<p class="muted">Roadmaps are being grouped from archive-backed pages.</p>
+{% endif %}
+
+## How-Tos
+
+{% assign howtos = site.how_tos | sort: "title" %}
+{% if howtos.size > 0 %}
+<div class="list">
+{% for item in howtos limit: 6 %}
+  <a class="row" href="{{ item.url | relative_url }}">
+    <strong>{{ item.title }}</strong>
+    {% if item.summary %}<span>{{ item.summary }}</span>{% endif %}
+  </a>
+{% endfor %}
+</div>
+{% else %}
+<p class="muted">How-tos are being grouped from archive-backed pages.</p>
 {% endif %}

@@ -27,8 +27,8 @@ responsible-AI checks.
 That makes this page broader than
 [MLOps Tools]({{ '/wiki/mlops-tools/' | relative_url }}). Use the MLOps page
 when the question is about registries, orchestration, deployment, and
-monitoring as a production operating layer. Use this page when the question is
-which tool category belongs at a given stage of machine learning work.
+monitoring as a production operating layer. The sections below focus on which
+tool category belongs at a given stage of machine learning work.
 
 That range starts with Python and scikit-learn, then moves through
 [experiment tracking]({{ '/wiki/experiment-tracking/' | relative_url }}) and
@@ -208,7 +208,7 @@ adds that responsible decisions need domain experts and humans in the loop.
 That connects tool choice to
 [Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }}),
 [Interpretability]({{ '/wiki/interpretability/' | relative_url }}), and the
-[interpretable machine learning article]({{ '/articles/interpretable-machine-learning/' | relative_url }}).
+[interpretable machine learning article]({{ '/guides/interpretable-machine-learning/' | relative_url }}).
 
 ## Open-Source Tools and Contribution Paths
 

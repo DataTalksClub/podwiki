@@ -32,10 +32,10 @@ those storage choices.
 ingestion and orchestration come before modeling. Transformation, analytics
 outputs, and production ML handoffs belong in the same conversation.
 
-Use this page for pipeline design, and use
+This topic covers pipeline design. Use
 [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}) for the transformation
 boundary. [Orchestration]({{ '/wiki/orchestration/' | relative_url }}) and
-[Apache Airflow]({{ '/articles/apache-airflow/' | relative_url }}) cover
+[Apache Airflow]({{ '/guides/apache-airflow/' | relative_url }}) cover
 scheduling and dependencies. [DataOps]({{ '/wiki/dataops/' | relative_url }})
 covers reliable delivery practice.
 [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
@@ -133,7 +133,7 @@ Daily jobs compute stable fraud features, while live transaction signals feed
 real-time decisions at checkout. That hybrid design appears around 8:24 and
 34:46. Use [Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }})
 for the latency decision and
-[ML pipelines]({{ '/articles/mlops-architecture/' | relative_url }}) for the
+[ML pipelines]({{ '/guides/mlops-architecture/' | relative_url }}) for the
 larger model lifecycle.
 
 ## Orchestration and Publication
@@ -319,7 +319,7 @@ Use [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}) when the question is
 where transformations should run. Use [CDC]({{ '/wiki/cdc/' | relative_url }})
 when the source data changes incrementally and full reloads are wasteful. Use
 [Orchestration]({{ '/wiki/orchestration/' | relative_url }}) and
-[Apache Airflow]({{ '/articles/apache-airflow/' | relative_url }}) when the
+[Apache Airflow]({{ '/guides/apache-airflow/' | relative_url }}) when the
 problem is scheduling, dependencies, retries, or backfills.
 
 Use [DataOps]({{ '/wiki/dataops/' | relative_url }}) when the concern is
@@ -336,6 +336,6 @@ when the same conventions have to support many teams and many pipelines.
 Use [Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }}) when
 latency and replay drive the design. It also covers cost and operations. Use
 [MLOps]({{ '/wiki/mlops/' | relative_url }}) and
-[ML pipelines]({{ '/articles/mlops-architecture/' | relative_url }}) when the
+[ML pipelines]({{ '/guides/mlops-architecture/' | relative_url }}) when the
 pipeline publishes features, training data, or model artifacts. They also
 apply when the pipeline publishes online predictions or feedback data.

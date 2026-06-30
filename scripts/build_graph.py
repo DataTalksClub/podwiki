@@ -14,10 +14,23 @@ ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_OUTPUT = ROOT / "graph" / "graph.json"
 
 COLLECTIONS = {
-    "_wiki": ("wiki", "/wiki/"),
-    "_articles": ("article", "/articles/"),
-    "_podcast_summaries": ("podcast", "/podcasts/"),
-    "_people": ("person", "/people/"),
+    "_wiki": ("wiki", "/wiki/", "wiki"),
+    "_guides": ("article", "/guides/", "guide"),
+    "_comparisons": ("article", "/comparisons/", "comparison"),
+    "_roadmaps": ("article", "/roadmaps/", "roadmap"),
+    "_how_tos": ("article", "/how-tos/", "how_to"),
+    "_podcast_summaries": ("podcast", "/podcasts/", "podcast"),
+    "_people": ("person", "/people/", "person"),
+}
+
+TARGET_TYPES = {
+    "wiki": ("wiki", "wiki"),
+    "guides": ("article", "guide"),
+    "comparisons": ("article", "comparison"),
+    "roadmaps": ("article", "roadmap"),
+    "how-tos": ("article", "how_to"),
+    "podcasts": ("podcast", "podcast"),
+    "people": ("person", "person"),
 }
 
 
@@ -98,9 +111,15 @@ def plain_text(markdown: str) -> str:
     return re.sub(r"\s+", " ", markdown).strip()
 
 
+def node_id(node_type: str, id_scope: str, slug: str) -> str:
+    if node_type == "article":
+        return f"{node_type}:{id_scope}:{slug}"
+    return f"{node_type}:{slug}"
+
+
 def read_pages() -> list[dict[str, object]]:
     pages = []
-    for directory, (node_type, prefix) in COLLECTIONS.items():
+    for directory, (node_type, prefix, id_scope) in COLLECTIONS.items():
         collection_dir = ROOT / directory
         if not collection_dir.exists():
             continue
@@ -113,8 +132,9 @@ def read_pages() -> list[dict[str, object]]:
             summary = str(meta.get("summary") or "")
             pages.append(
                 {
-                    "id": f"{node_type}:{path.stem}",
+                    "id": node_id(node_type, id_scope, path.stem),
                     "type": node_type,
+                    "collection": id_scope,
                     "slug": path.stem,
                     "title": title,
                     "label": title,
@@ -129,20 +149,16 @@ def read_pages() -> list[dict[str, object]]:
 
 def collection_target(path: str) -> str | None:
     path = path.strip()
-    liquid_match = re.search(r"'(/(?:wiki|articles|podcasts|people)/[^']+)'", path)
+    public_paths = "|".join(re.escape(name) for name in TARGET_TYPES)
+    liquid_match = re.search(rf"'(/(?:{public_paths})/[^']+)'", path)
     if liquid_match:
         path = liquid_match.group(1)
     path = path.split("#", 1)[0]
-    match = re.match(r"/(wiki|articles|podcasts|people)/([^/]+)/?", path)
+    match = re.match(rf"/({public_paths})/([^/]+)/?", path)
     if not match:
         return None
-    type_by_path = {
-        "wiki": "wiki",
-        "articles": "article",
-        "podcasts": "podcast",
-        "people": "person",
-    }
-    return f"{type_by_path[match.group(1)]}:{match.group(2)}"
+    target_type, id_scope = TARGET_TYPES[match.group(1)]
+    return node_id(target_type, id_scope, match.group(2))
 
 
 def markdown_targets(body: str) -> list[str]:
@@ -186,6 +202,7 @@ def build_graph() -> dict[str, object]:
         node = {
             "id": page["id"],
             "type": page["type"],
+            "collection": page["collection"],
             "label": page["label"],
             "title": page["title"],
             "url": page["url"],

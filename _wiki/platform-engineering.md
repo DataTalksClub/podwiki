@@ -175,7 +175,7 @@ The data-platform version appears in
 and [data engineering platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}).
 The ML version appears in [ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }}),
 [MLOps Tools]({{ '/wiki/mlops-tools/' | relative_url }}), and
-[MLOps Architecture]({{ '/articles/mlops-architecture/' | relative_url }}).
+[MLOps Architecture]({{ '/guides/mlops-architecture/' | relative_url }}).
 The shared platform decision is whether a repeated path is mature enough to
 turn into a supported product.
 
@@ -257,6 +257,6 @@ These pages cover the adjacent platform and operations topics.
   covers the data-platform version of supported autonomy.
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
   covers platform work for data pipelines and shared data products.
-- [MLOps Architecture]({{ '/articles/mlops-architecture/' | relative_url }})
+- [MLOps Architecture]({{ '/guides/mlops-architecture/' | relative_url }})
   covers the architecture decisions that connect MLOps tools to platform
   ownership.

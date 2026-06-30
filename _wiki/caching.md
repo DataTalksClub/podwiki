@@ -49,7 +49,7 @@ For adjacent synthesis, use
 [AI Engineering]({{ '/wiki/ai-engineering/' | relative_url }}) and
 [AI Tooling]({{ '/wiki/ai-tooling/' | relative_url }}). Use
 [Production]({{ '/wiki/production/' | relative_url }}) and the article on
-[LLM tools]({{ '/articles/llm-tools/' | relative_url }}) for the operational
+[LLM tools]({{ '/guides/llm-tools/' | relative_url }}) for the operational
 side.
 
 ## Common Definition
@@ -212,4 +212,4 @@ and infrastructure:
 - [AI Tooling]({{ '/wiki/ai-tooling/' | relative_url }})
 - [Production]({{ '/wiki/production/' | relative_url }})
 - [Prompt Engineering]({{ '/wiki/prompt-engineering/' | relative_url }})
-- [LLM Tools]({{ '/articles/llm-tools/' | relative_url }})
+- [LLM Tools]({{ '/guides/llm-tools/' | relative_url }})

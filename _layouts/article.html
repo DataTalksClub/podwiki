@@ -3,11 +3,29 @@ layout: default
 ---
 
 <article class="knowledge-page article-page">
-  <p class="eyebrow">Article</p>
-  <h1>{{ page.title }}</h1>
-  {% if page.keyword %}
-    <p class="muted">Target keyword: {{ page.keyword }}</p>
+  {% assign content_kind = page.content_kind %}
+  {% if content_kind == nil %}
+    {% case page.collection %}
+    {% when "comparisons" %}
+      {% assign content_kind = "comparison" %}
+    {% when "roadmaps" %}
+      {% assign content_kind = "roadmap" %}
+    {% when "how_tos" %}
+      {% assign content_kind = "how-to" %}
+    {% else %}
+      {% assign content_kind = "guide" %}
+    {% endcase %}
   {% endif %}
+  {% assign content_label = "Guide" %}
+  {% if content_kind == "comparison" %}
+    {% assign content_label = "Comparison" %}
+  {% elsif content_kind == "roadmap" %}
+    {% assign content_label = "Roadmap" %}
+  {% elsif content_kind == "how-to" %}
+    {% assign content_label = "How-To" %}
+  {% endif %}
+  <p class="eyebrow">{{ content_label }}</p>
+  <h1>{{ page.title }}</h1>
   {% if page.summary %}
     <p class="lede">{{ page.summary }}</p>
   {% endif %}

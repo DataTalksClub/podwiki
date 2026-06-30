@@ -330,5 +330,5 @@ Continue with these related pages:
 - [MLOps]({{ '/wiki/mlops/' | relative_url }})
 - [MLOps Roadmap]({{ '/wiki/mlops-roadmap/' | relative_url }})
 - [Notebook to Production AI Systems]({{ '/wiki/notebook-to-production-ai-systems/' | relative_url }})
-- [Machine Learning for Software Engineers]({{ '/articles/machine-learning-for-software-engineers/' | relative_url }})
-- [LLM Tools]({{ '/articles/llm-tools/' | relative_url }})
+- [Machine Learning for Software Engineers]({{ '/guides/machine-learning-for-software-engineers/' | relative_url }})
+- [LLM Tools]({{ '/guides/llm-tools/' | relative_url }})

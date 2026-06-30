@@ -16,7 +16,7 @@ time. In the podcast archive, self-service isn't permissionless chaos. It
 depends on platform primitives, clear conventions, and playbooks. Data
 contracts, lineage, governance, and support loops make the easy path reliable.
 
-Use this page for the self-service operating model.
+This topic covers the self-service operating model.
 
 For adjacent scopes:
 

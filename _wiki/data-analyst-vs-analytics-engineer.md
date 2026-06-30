@@ -257,4 +257,4 @@ Use these pages for adjacent role boundaries, tools, and decision workflows.
 - [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [Data Products]({{ '/wiki/data-products/' | relative_url }})
-- [Analytics Engineer article]({{ '/articles/analytics-engineer/' | relative_url }})
+- [Analytics Engineer article]({{ '/guides/analytics-engineer/' | relative_url }})

@@ -143,7 +143,7 @@ needs business context. Around 31:19, he connects model experiment analysis to
 uplift, segments, and root causes. This puts experimentation close to
 [evaluation]({{ '/wiki/evaluation/' | relative_url }}),
 [machine learning system design]({{ '/wiki/machine-learning-system-design/' | relative_url }}),
-and the [Product Analyst]({{ '/articles/product-analyst/' | relative_url }})
+and the [Product Analyst]({{ '/guides/product-analyst/' | relative_url }})
 role.
 
 Guardrail metrics keep the team from optimizing one number while damaging
@@ -177,7 +177,7 @@ This connects experimentation to
 [data-led growth]({{ '/wiki/data-led-growth/' | relative_url }}) and
 [data product management]({{ '/wiki/data-product-management/' | relative_url }}).
 It also connects to the
-[Data Product Manager]({{ '/articles/data-product-manager/' | relative_url }})
+[Data Product Manager]({{ '/guides/data-product-manager/' | relative_url }})
 article.
 
 ## Causal Inference

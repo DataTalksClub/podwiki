@@ -43,7 +43,7 @@ he separates candidate retrieval from ranking and vector compute from vector
 storage. He adds hybrid filters and recency around the vector index. He later
 adds weights and business metrics.
 
-Use this page when semantic matching ownership is the question.
+This comparison applies when semantic matching ownership is the question.
 
 Use these neighboring comparisons when retrieval may need explicit
 relationships instead of similar chunks:

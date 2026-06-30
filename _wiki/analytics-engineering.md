@@ -248,4 +248,4 @@ Use these pages for role boundaries, platform context, and career paths.
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})
 - [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
 - [Career Transitions in Data]({{ '/wiki/career-transitions-in-data/' | relative_url }})
-- [Analytics Engineer article]({{ '/articles/analytics-engineer/' | relative_url }})
+- [Analytics Engineer article]({{ '/guides/analytics-engineer/' | relative_url }})

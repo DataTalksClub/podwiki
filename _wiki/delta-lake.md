@@ -22,7 +22,7 @@ as a table format over Parquet storage. Later, he compares Delta Lake, Hudi,
 and Iceberg as table-format choices (18:17 and 49:42).
 
 That matters because the archive usually talks about Delta Lake through
-comparison. Use this page for the Delta Lake side of the lakehouse discussion.
+comparison. This topic covers the Delta Lake side of the lakehouse discussion.
 Treat the Iceberg page as the deeper archive-backed explanation of open table
 formats, catalogs, metadata, and vendor lock-in. Use
 [Data Lake]({{ '/wiki/data-lake/' | relative_url }}) for the storage layer and

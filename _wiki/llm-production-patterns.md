@@ -357,4 +357,4 @@ Continue with these pages for adjacent production work:
 - [AI Red Teaming]({{ '/wiki/ai-red-teaming/' | relative_url }})
 - [Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }})
 - [RAG Portfolio Projects]({{ '/wiki/rag-portfolio-projects/' | relative_url }})
-- [LLM System Design Interview]({{ '/articles/llm-system-design-interview/' | relative_url }})
+- [LLM System Design Interview]({{ '/guides/llm-system-design-interview/' | relative_url }})

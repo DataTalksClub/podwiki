@@ -249,5 +249,5 @@ preparation.
 - [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }})
 - [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
 - [Software Engineer to Machine Learning]({{ '/wiki/software-engineer-to-machine-learning/' | relative_url }})
-- [Machine Learning for Software Engineers]({{ '/articles/machine-learning-for-software-engineers/' | relative_url }})
-- [Machine Learning System Design Interview]({{ '/articles/machine-learning-system-design-interview/' | relative_url }})
+- [Machine Learning for Software Engineers]({{ '/guides/machine-learning-for-software-engineers/' | relative_url }})
+- [Machine Learning System Design Interview]({{ '/guides/machine-learning-system-design-interview/' | relative_url }})

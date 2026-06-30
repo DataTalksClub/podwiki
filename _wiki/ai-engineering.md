@@ -82,13 +82,13 @@ Bartosz adds tested data pipelines at 9:05 and 11:47. He returns to prompt
 mechanics at 25:13, 28:16, 30:00, and 31:45
 ([Production AI Engineering]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }})).
 
-AI engineering is broader than [LLM tools]({{ '/articles/llm-tools/' | relative_url }})
+AI engineering is broader than [LLM tools]({{ '/guides/llm-tools/' | relative_url }})
 or a framework choice. The engineer has to choose where to put knowledge and
 which model behavior to trust. They also need to look at failures and operate
 the feature after launch. For related production work, see
 [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }}),
 [AI Infrastructure]({{ '/wiki/ai-infrastructure/' | relative_url }}), and
-[MLOps Architecture]({{ '/articles/mlops-architecture/' | relative_url }}).
+[MLOps Architecture]({{ '/guides/mlops-architecture/' | relative_url }}).
 
 Mariano's notebook-to-production discussion adds the product and deployment
 concerns. He moves from product-driven AI at 7:18 to end-to-end ownership at
@@ -98,8 +98,8 @@ modern stack with FastAPI, UV, and Arize
 ([From Notebook to Production]({{ '/podcasts/s24e03-from-notebook-to-production-building-end-to-end-ai-systems/' | relative_url }})).
 For those topics, see
 [Notebook to Production AI Systems]({{ '/wiki/notebook-to-production-ai-systems/' | relative_url }}),
-[machine learning system design]({{ '/articles/machine-learning-system-design/' | relative_url }}),
-and [machine learning for software engineers]({{ '/articles/machine-learning-for-software-engineers/' | relative_url }}).
+[machine learning system design]({{ '/guides/machine-learning-system-design/' | relative_url }}),
+and [machine learning for software engineers]({{ '/guides/machine-learning-for-software-engineers/' | relative_url }}).
 
 ## Context, RAG, and Knowledge Systems
 
@@ -174,8 +174,8 @@ testing tools at 13:14, and Spark choices at 17:10. He then connects
 preprocessing and fine-tuning data to AI work at 18:38
 ([Production AI Engineering]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }})).
 For adjacent data work, see [Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }}),
-[Data Engineering]({{ '/articles/data-engineering/' | relative_url }}), and
-[How to Build Data Pipelines]({{ '/articles/how-to-build-data-pipelines/' | relative_url }}).
+[Data Engineering]({{ '/guides/data-engineering/' | relative_url }}), and
+[How to Build Data Pipelines]({{ '/how-tos/how-to-build-data-pipelines/' | relative_url }}).
 
 Mariano shows the deployment side through end-to-end AI systems. His chapters
 cover ownership at 17:27, requirements at 37:39, and system architecture at
@@ -183,7 +183,7 @@ cover ownership at 17:27, requirements at 37:39, and system architecture at
 monitoring stack at 1:02:53
 ([From Notebook to Production]({{ '/podcasts/s24e03-from-notebook-to-production-building-end-to-end-ai-systems/' | relative_url }})).
 The same operational work runs through [MLOps]({{ '/wiki/mlops/' | relative_url }}),
-[MLOps Engineer]({{ '/articles/mlops-engineer/' | relative_url }}), and
+[MLOps Engineer]({{ '/guides/mlops-engineer/' | relative_url }}), and
 [AI Infrastructure]({{ '/wiki/ai-infrastructure/' | relative_url }}).
 
 ## Career and Learning Signals

@@ -139,8 +139,8 @@ customer discovery and product documentation as part of adopting data tools and
 products. She also includes Slack help, pairing, and knowledge bases
 (49:37-56:08 in
 [How to Transition from Design to Data Product Manager]({{ '/podcasts/product-designer-to-data-product-manager/' | relative_url }})).
-That connects the topic to the [data product manager]({{ '/articles/data-product-manager/' | relative_url }})
-and [data product manager role]({{ '/articles/data-product-manager-role/' | relative_url }})
+That connects the topic to the [data product manager]({{ '/guides/data-product-manager/' | relative_url }})
+and [data product manager role]({{ '/guides/data-product-manager-role/' | relative_url }})
 articles.
 
 Hannemann adds a useful distinction for ML-heavy data products. A product owner
@@ -240,4 +240,4 @@ These pages cover the adjacent roles, practices, and platform choices:
 - [Data Activation]({{ '/wiki/data-activation/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})
-- [Data Product Manager]({{ '/articles/data-product-manager/' | relative_url }})
+- [Data Product Manager]({{ '/guides/data-product-manager/' | relative_url }})

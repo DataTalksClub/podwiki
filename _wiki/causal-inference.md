@@ -197,5 +197,5 @@ work:
 - [Metrics]({{ '/wiki/metrics/' | relative_url }})
 - [Machine Learning]({{ '/wiki/machine-learning/' | relative_url }})
 - [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
-- [Data Product Manager]({{ '/articles/data-product-manager/' | relative_url }})
-- [Product Analyst]({{ '/articles/product-analyst/' | relative_url }})
+- [Data Product Manager]({{ '/guides/data-product-manager/' | relative_url }})
+- [Product Analyst]({{ '/guides/product-analyst/' | relative_url }})

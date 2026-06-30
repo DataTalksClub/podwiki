@@ -39,8 +39,8 @@ In
 explicit. Open-source projects force code quality closer to professional work
 because pull requests need reliability, tests, and review.
 
-Use this page when a portfolio needs external review or public contribution
-proof. For project selection, use
+This topic applies when a portfolio needs external review or public
+contribution proof. For project selection, use
 [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }}),
 [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}),
 or [RAG Portfolio Projects]({{ '/wiki/rag-portfolio-projects/' | relative_url }}).

@@ -131,7 +131,7 @@ messaging experiments.
 This topic links closely to
 [Data-Led Growth]({{ '/wiki/data-led-growth/' | relative_url }}),
 [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }}), and the
-[Product Analyst]({{ '/articles/product-analyst/' | relative_url }}) article.
+[Product Analyst]({{ '/guides/product-analyst/' | relative_url }}) article.
 
 Jakob's
 [Product Analytics and A/B Testing discussion at 18:06]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }})

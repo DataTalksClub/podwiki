@@ -216,7 +216,7 @@ planning and multiple data sources. They also fit tool calls and API
 integrations.
 
 For interview-style system design, the same tradeoffs appear in
-[LLM System Design Interview]({{ '/articles/llm-system-design-interview/' | relative_url }}):
+[LLM System Design Interview]({{ '/guides/llm-system-design-interview/' | relative_url }}):
 first name the user task and source of truth. Then choose the repair path based
 on the system failure. That may be retrieval or fine-tuning. It may also be long
 context, tools, or agents.

@@ -258,7 +258,7 @@ roles that production systems depend on.
 
 - [MLOps]({{ '/wiki/mlops/' | relative_url }})
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})
-- [MLOps vs DataOps]({{ '/articles/mlops-vs-dataops/' | relative_url }})
+- [MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }})
 - [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
 - [Machine Learning Infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }})
 - [ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }})

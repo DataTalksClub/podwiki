@@ -23,7 +23,7 @@ The archive keeps data and AI leadership close to operating work. Guests talk
 about manager and expert paths, team design, hiring, and coaching. They also
 talk about stakeholder translation, platform ownership, and scale. For
 role-specific manager detail, use the
-[data engineering manager article]({{ '/articles/data-engineering-manager/' | relative_url }})
+[data engineering manager article]({{ '/guides/data-engineering-manager/' | relative_url }})
 and the broader [hiring]({{ '/wiki/hiring/' | relative_url }}) page. Here,
 leadership stays cross-role rather than manager-only.
 

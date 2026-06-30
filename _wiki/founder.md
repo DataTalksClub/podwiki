@@ -30,7 +30,7 @@ around 7:23, she argues that a founder should look for a painful workflow first.
 Only after that should the founder decide whether
 [machine learning]({{ '/wiki/machine-learning/' | relative_url }}) is the right
 tool. That distinction also shapes
-[Machine Learning for Startups]({{ '/articles/machine-learning-for-startups/' | relative_url }}):
+[Machine Learning for Startups]({{ '/guides/machine-learning-for-startups/' | relative_url }}):
 ML helps only when it improves a real customer decision or workflow.
 
 ## Problem Selection
@@ -178,7 +178,7 @@ the offer is for and what business problem it solves
 ([27:59-36:33]({{ '/podcasts/data-consulting-business-pricing-and-client-acquisition/' | relative_url }})).
 That's why distribution and positioning belong on a founder page, not only on
 [freelance]({{ '/wiki/freelance/' | relative_url }}) or consulting articles such
-as [Data Engineer Consulting]({{ '/articles/data-engineer-consulting/' | relative_url }}).
+as [Data Engineer Consulting]({{ '/guides/data-engineer-consulting/' | relative_url }}).
 
 ## Hiring and Founder Roles
 

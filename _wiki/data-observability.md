@@ -103,7 +103,7 @@ model monitoring. Leybzon's 31:50 discussion of data profiling architecture in
 shows how profiles can summarize behavior over time. His 55:50 comparison of
 WhyLogs and WhyLabs separates open-source profiling from managed observability.
 See [MLOps Tools]({{ '/wiki/mlops-tools/' | relative_url }}) for the tooling
-layer and [DataOps Tools]({{ '/articles/dataops-tools/' | relative_url }}) for
+layer and [DataOps Tools]({{ '/guides/dataops-tools/' | relative_url }}) for
 adjacent pipeline checks.
 
 ## Lineage and Diagnosis
@@ -180,5 +180,5 @@ These pages cover adjacent roles, practices, and tools.
 - [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }})
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
 - [Governance]({{ '/wiki/governance/' | relative_url }})
-- [DataOps Tools]({{ '/articles/dataops-tools/' | relative_url }})
-- [Apache Airflow]({{ '/articles/apache-airflow/' | relative_url }})
+- [DataOps Tools]({{ '/guides/dataops-tools/' | relative_url }})
+- [Apache Airflow]({{ '/guides/apache-airflow/' | relative_url }})

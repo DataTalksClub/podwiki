@@ -199,7 +199,7 @@ tracking. Power analysis and interpretation stay with the same owner. These
 differences matter for role pages such as
 [MLOps Engineer]({{ '/wiki/mlops-engineer/' | relative_url }}) and for
 comparison pages such as
-[MLOps vs DataOps]({{ '/articles/mlops-vs-dataops/' | relative_url }}).
+[MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }}).
 
 ## Related Pages
 

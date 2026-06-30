@@ -99,7 +99,7 @@ preference.
 Bartosz says at 29:33-30:00 that each extra example adds tokens and money. The
 team should prepare evaluation inputs and expected outputs so it can stop adding
 examples when quality stops improving. The archive's broader
-[LLM system design]({{ '/articles/llm-system-design-interview/' | relative_url }})
+[LLM system design]({{ '/guides/llm-system-design-interview/' | relative_url }})
 material uses the same cost-aware framing. Model calls, context size, and
 reliability belong to one design decision.
 

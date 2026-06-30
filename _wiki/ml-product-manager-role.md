@@ -17,7 +17,7 @@ problems, translate between stakeholders and engineers, manage roadmaps, and
 guide adoption. They also decide how technical platform work connects to
 business outcomes.
 
-Use this page for the role. Use [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
+This topic covers the role. Use [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
 for the broader product discipline, [ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }})
 for shared systems, and [MLOps]({{ '/wiki/mlops/' | relative_url }}) for the
 operating practices around model delivery.

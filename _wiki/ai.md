@@ -114,7 +114,7 @@ and [LLMs]({{ '/wiki/llms/' | relative_url }}). In
 [Meryem Arik]({{ '/people/meryemarik/' | relative_url }}) separates API-based
 LLM use and open-source models. She also covers fine-tuning, retrieval, vector
 databases, and deployment choices. Use that episode for LLM-specific design
-decisions. Use this page for the broader AI map.
+decisions. This topic is the broader AI map.
 
 [Generative AI]({{ '/wiki/generative-ai/' | relative_url }}) covers systems
 that produce text, code, and images. It also covers summaries, answers, and
@@ -221,4 +221,4 @@ Use these pages for narrower AI topics and article-style guides.
 - [Production]({{ '/wiki/production/' | relative_url }}) and [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }}) cover reliability after a prototype works.
 - [AI Infrastructure]({{ '/wiki/ai-infrastructure/' | relative_url }}) covers compute, orchestration, and deployment choices.
 - [Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }}), [Security]({{ '/wiki/security/' | relative_url }}), and [AI Red Teaming]({{ '/wiki/ai-red-teaming/' | relative_url }}) cover risk controls.
-- [LLM Tools]({{ '/articles/llm-tools/' | relative_url }}) and [LLM System Design Interview]({{ '/articles/llm-system-design-interview/' | relative_url }}) turn these topics into article-style guides.
+- [LLM Tools]({{ '/guides/llm-tools/' | relative_url }}) and [LLM System Design Interview]({{ '/guides/llm-system-design-interview/' | relative_url }}) turn these topics into article-style guides.

@@ -94,7 +94,7 @@ programs can delay Spark, Kafka, and Kubernetes until the core is solid. In
 [Data Engineering Job Prep and Interview Guide]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }}),
 the 1:20 section adds Docker, Airflow, and warehouses as visible hiring
 signals. That version of the role is close to
-[data engineering training]({{ '/articles/data-engineering-training/' | relative_url }})
+[data engineering training]({{ '/guides/data-engineering-training/' | relative_url }})
 and [data engineering portfolio projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }}).
 
 ## Responsibilities
@@ -120,8 +120,8 @@ Orchestration is part of the role when jobs depend on each other or run on a
 schedule. Airflow appears in Jeff's interview guide at 1:20 as a practical
 skill signal. It also appears in the broader project content as a tool for
 recurring data pipelines. See
-[Apache Airflow]({{ '/articles/apache-airflow/' | relative_url }}) and
-[Airflow]({{ '/articles/airflow/' | relative_url }}) for the tool-specific
+[Apache Airflow]({{ '/guides/apache-airflow/' | relative_url }}) and
+[Airflow]({{ '/guides/airflow/' | relative_url }}) for the tool-specific
 discussion.
 
 Data engineers also own operational quality. Roksolana's 39:09 and 43:37

@@ -26,7 +26,7 @@ role, see [founder]({{ '/wiki/founder/' | relative_url }}). For the broader
 choice to build independent work, see
 [entrepreneurship]({{ '/wiki/entrepreneurship/' | relative_url }}). For a
 startup-specific ML implementation view, see
-[Machine Learning for Startups]({{ '/articles/machine-learning-for-startups/' | relative_url }}).
+[Machine Learning for Startups]({{ '/guides/machine-learning-for-startups/' | relative_url }}).
 
 ## Start With the Problem
 
@@ -82,7 +82,7 @@ team moved away from a "data stack as a service" idea after learning that
 clients needed help translating business questions into usable data models.
 
 That makes validation relevant to
-[data engineering consulting]({{ '/articles/data-engineering-consulting/' | relative_url }})
+[data engineering consulting]({{ '/guides/data-engineering-consulting/' | relative_url }})
 and not only venture-backed software.
 
 [Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) turns
@@ -250,8 +250,8 @@ These pages expand the startup threads above:
   [Open Source and Developer Relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }})
   for open-source distribution, governance, and developer adoption.
 - [Freelance]({{ '/wiki/freelance/' | relative_url }}),
-  [Data Engineering Consulting]({{ '/articles/data-engineering-consulting/' | relative_url }}),
-  and [Data Engineering Freelance]({{ '/articles/data-engineering-freelance/' | relative_url }})
+  [Data Engineering Consulting]({{ '/guides/data-engineering-consulting/' | relative_url }}),
+  and [Data Engineering Freelance]({{ '/guides/data-engineering-freelance/' | relative_url }})
   for service paths that can reveal startup ideas.
 - [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }}),
   [ML Product Manager Role]({{ '/wiki/ml-product-manager-role/' | relative_url }}),
@@ -259,5 +259,5 @@ These pages expand the startup threads above:
   strategy, GTM evidence, and data feasibility.
 - [MLOps]({{ '/wiki/mlops/' | relative_url }}),
   [MLOps Roadmap]({{ '/wiki/mlops-roadmap/' | relative_url }}), and
-  [Machine Learning for Startups]({{ '/articles/machine-learning-for-startups/' | relative_url }})
+  [Machine Learning for Startups]({{ '/guides/machine-learning-for-startups/' | relative_url }})
   for startup ML systems and implementation tradeoffs.

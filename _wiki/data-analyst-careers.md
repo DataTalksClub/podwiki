@@ -137,7 +137,7 @@ collection, storage, and analysis. He then connects analysis to activation.
 Around 46:13, Arpit separates analysts from data engineers and analytics
 engineers from product operations. That's why analyst skills connect directly to
 [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }}) and the
-[Product Analyst]({{ '/articles/product-analyst/' | relative_url }}) article.
+[Product Analyst]({{ '/guides/product-analyst/' | relative_url }}) article.
 
 Statistics and experimentation become important when the analyst supports
 launches and growth decisions. Rishabh discusses A/B testing, shadow mode,

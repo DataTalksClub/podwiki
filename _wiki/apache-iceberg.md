@@ -23,7 +23,7 @@ storage and compute from access, metadata, and lineage in the same discussion
 ([Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}),
 18:17-23:41).
 
-Use this page for Iceberg as part of the
+Apache Iceberg belongs in the
 [data warehouse vs data lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }})
 conversation. Use [Data Lake]({{ '/wiki/data-lake/' | relative_url }}) for the
 broader storage concept. Use [Delta Lake]({{ '/wiki/delta-lake/' | relative_url }})

@@ -47,8 +47,8 @@ Core wiki pages:
 
 Adjacent articles:
 
-- [MLOps Tools]({{ '/articles/mlops-tools/' | relative_url }})
-- [Machine Learning System Design]({{ '/articles/machine-learning-system-design/' | relative_url }})
+- [MLOps Tools]({{ '/guides/mlops-tools/' | relative_url }})
+- [Machine Learning System Design]({{ '/guides/machine-learning-system-design/' | relative_url }})
 
 Podcast anchors:
 

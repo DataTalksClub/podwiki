@@ -70,7 +70,16 @@ def lambda_handler(event: dict, context: object) -> dict:
         return response(400, {"error": "missing query parameter q"})
 
     level = (event.get("queryStringParameters") or {}).get("level")
-    allowed_levels = {"wiki", "article", "podcast_summary", "person", "section"}
+    allowed_levels = {
+        "wiki",
+        "guide",
+        "comparison",
+        "roadmap",
+        "how_to",
+        "podcast_summary",
+        "person",
+        "section",
+    }
     filters = {"level": level} if level in allowed_levels else {}
     results = index().search(
         query,

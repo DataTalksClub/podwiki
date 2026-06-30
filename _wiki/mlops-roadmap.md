@@ -22,7 +22,7 @@ that combines people, process, and technology, as
 defines around 4:42 in
 [Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
 
-Use this page for the learning and project sequence. Use
+This roadmap covers the learning and project sequence. Use
 [MLOps]({{ '/wiki/mlops/' | relative_url }}) for the reference concept,
 [ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }}) for shared internal
 platforms, and [DataOps]({{ '/wiki/dataops/' | relative_url }}) for the separate
