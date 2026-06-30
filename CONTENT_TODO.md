@@ -231,6 +231,7 @@ comparison outcomes:
 Existing pages:
 
 - `_comparisons/dataops-vs-data-engineering.md`
+- `_comparisons/delta-lake-vs-apache-iceberg.md`
 - `_comparisons/product-owner-vs-product-manager.md`
 
 Candidate pages:
@@ -249,7 +250,6 @@ Candidate pages:
 - RAG vs fine-tuning
 - Vector database vs search engine
 - Knowledge graph vs vector search
-- Delta Lake vs Apache Iceberg
 
 Source hints:
 
@@ -274,19 +274,26 @@ Start with this batch when expanding the content set.
   engineering, and RAG.
 - Add roadmap pages for data engineering, AI engineering, MLOps, and analytics
   engineering.
-- Add comparison pages for data engineer vs data scientist, data analyst vs
-  analytics engineer, MLOps vs DevOps, ETL vs ELT, and RAG vs fine-tuning.
+- Add comparison pages for ETL vs ELT, data analyst vs analytics engineer, and
+  RAG vs fine-tuning first. These have the strongest current mix of podcast
+  evidence, existing wiki support, and keyword fit.
 - Evaluate `dataops platforms` as either `_wiki/dataops-platforms.md` or a
   guide that links to DataOps, platform engineering, and data engineering
-  platforms.
+  platforms. Strong sources include
+  `dataops-principles-and-scalable-data-platforms.md`,
+  `dataops-automation-and-reliable-data-pipelines.md`,
+  `dataops-for-data-engineering.md`, and
+  `scaling-data-engineering-teams-self-service-platforms.md`.
 - Improve `_wiki/open-source.md` before creating any Open Source editorial
   page. The keyword is a bare concept, so the wiki page should own it.
-- Treat Delta Lake as a wiki concept. If an editorial page is needed, prefer a
-  comparison such as Delta Lake vs Apache Iceberg instead of a duplicate guide.
-  The strongest source is `trends-in-modern-data-engineering.md`, especially
-  the Iceberg, table-format, catalog, and Delta/Hudi/Iceberg comparison
-  chapters.
-- Consider `_guides/ab-testing-podcast.md` as a listening guide if the podcast
-  archive angle is useful.
-- Only create a machine learning newsletter guide if it maps to a real
-  DataTalks.Club newsletter or community asset.
+- Treat Delta Lake as a wiki concept. The editorial comparison now lives in
+  `_comparisons/delta-lake-vs-apache-iceberg.md`; keep bare Delta Lake updates
+  on `_wiki/delta-lake.md`.
+- Create `_guides/ab-testing-podcast.md` as a listening guide, not a generic
+  explainer. Strong sources include `ab-testing-and-product-experimentation.md`,
+  `causal-inference-for-machine-learning.md`,
+  `ml-engineering-kpis-and-metrics-strategy.md`, and
+  `data-led-growth-event-tracking-and-reverse-etl.md`.
+- Do not create a generic machine learning newsletter guide from the podcast
+  archive alone. The evidence supports a community-content or owned-channel
+  guide later, not a standalone "best newsletters" page.

@@ -29,6 +29,9 @@ formats, catalogs, metadata, and vendor lock-in. Use
 [Data Warehouse vs Data Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }})
 for the architecture tradeoff.
 
+For the dedicated side-by-side decision page, use
+[Delta Lake vs Apache Iceberg]({{ '/comparisons/delta-lake-vs-apache-iceberg/' | relative_url }}).
+
 ## Archive Definition
 
 In the archive context, Delta Lake is a table format for lakehouse storage. It
@@ -182,3 +185,16 @@ For Delta Lake specifically, the practical archive-backed checks are:
 Those questions keep Delta Lake tied to the archive's main lesson. Table
 formats matter when they serve a real lakehouse requirement. They don't replace
 the platform, governance, and DataOps work that makes lake data useful.
+
+## Related Pages
+
+Continue with these adjacent archive topics:
+
+- [Delta Lake vs Apache Iceberg]({{ '/comparisons/delta-lake-vs-apache-iceberg/' | relative_url }})
+- [Apache Iceberg]({{ '/wiki/apache-iceberg/' | relative_url }})
+- [Data Lake]({{ '/wiki/data-lake/' | relative_url }})
+- [Data Warehouse vs Data Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }})
+- [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
+- [DataOps]({{ '/wiki/dataops/' | relative_url }})
+- [Data Governance]({{ '/wiki/data-governance/' | relative_url }})
+- [DuckDB]({{ '/wiki/duckdb/' | relative_url }})

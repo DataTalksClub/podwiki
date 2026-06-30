@@ -185,7 +185,8 @@ returns to headless table formats at 30:31
 Use [Delta Lake]({{ '/wiki/delta-lake/' | relative_url }}) for the adjacent
 topic node, but keep the comparison tied to the requirement. Ask which table
 format best supports the engines, catalog, governance, and cost model the team
-actually needs.
+actually needs. For the dedicated comparison, use
+[Delta Lake vs Apache Iceberg]({{ '/comparisons/delta-lake-vs-apache-iceberg/' | relative_url }}).
 
 ## DLT, DuckDB, and Headless Tables
 
@@ -280,6 +281,7 @@ Continue with these adjacent archive topics:
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
 - [Data Lake]({{ '/wiki/data-lake/' | relative_url }})
 - [Delta Lake]({{ '/wiki/delta-lake/' | relative_url }})
+- [Delta Lake vs Apache Iceberg]({{ '/comparisons/delta-lake-vs-apache-iceberg/' | relative_url }})
 - [DuckDB]({{ '/wiki/duckdb/' | relative_url }})
 - [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
 - [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }})

@@ -2,12 +2,12 @@
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
     "wikis": 168,
-    "articles": 67,
+    "articles": 68,
     "podcasts": 202,
     "persons": 438,
     "topics": 146,
-    "nodes": 1021,
-    "links": 10367
+    "nodes": 1022,
+    "links": 10397
   },
   "nodes": [
     {
@@ -427,6 +427,17 @@
       "count": 1,
       "search": "DataOps vs Data Engineering: What Changes in Practice? A podcast grounded comparison of DataOps and data engineering: what each discipline owns, where they overlap, and what changes when teams add DataOps practices.",
       "keyword": "data ops"
+    },
+    {
+      "id": "article:comparison:delta-lake-vs-apache-iceberg",
+      "type": "article",
+      "collection": "comparison",
+      "label": "Delta Lake vs Apache Iceberg",
+      "title": "Delta Lake vs Apache Iceberg",
+      "url": "/comparisons/delta-lake-vs-apache-iceberg/",
+      "count": 1,
+      "search": "Delta Lake vs Apache Iceberg A podcast grounded comparison of Delta Lake and Apache Iceberg as lakehouse table format choices, centered on storage, catalogs, engines, lock in, and platform operations.",
+      "keyword": "delta lake"
     },
     {
       "id": "article:guide:designing-machine-learning-systems",
@@ -10448,6 +10459,174 @@
       "target": "wiki:mlops",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "article:comparison:delta-lake-vs-apache-iceberg",
+      "target": "person:adrianbrudaru",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:delta-lake-vs-apache-iceberg",
+      "target": "person:larsalbertsson",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:delta-lake-vs-apache-iceberg",
+      "target": "person:nataliekwong",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:delta-lake-vs-apache-iceberg",
+      "target": "podcast:data-engineering-tools-modern-data-stack",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:delta-lake-vs-apache-iceberg",
+      "target": "podcast:dataops-principles-and-scalable-data-platforms",
+      "kind": "article-link",
+      "weight": 8
+    },
+    {
+      "source": "article:comparison:delta-lake-vs-apache-iceberg",
+      "target": "podcast:trends-in-modern-data-engineering",
+      "kind": "article-link",
+      "weight": 24
+    },
+    {
+      "source": "article:comparison:delta-lake-vs-apache-iceberg",
+      "target": "wiki:analytics-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:delta-lake-vs-apache-iceberg",
+      "target": "wiki:apache-iceberg",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:comparison:delta-lake-vs-apache-iceberg",
+      "target": "wiki:apache-iceberg",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:delta-lake-vs-apache-iceberg",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:comparison:delta-lake-vs-apache-iceberg",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:delta-lake-vs-apache-iceberg",
+      "target": "wiki:data-governance",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:comparison:delta-lake-vs-apache-iceberg",
+      "target": "wiki:data-governance",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:delta-lake-vs-apache-iceberg",
+      "target": "wiki:data-lake",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:delta-lake-vs-apache-iceberg",
+      "target": "wiki:data-lake",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:delta-lake-vs-apache-iceberg",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:delta-lake-vs-apache-iceberg",
+      "target": "wiki:data-warehouse-vs-data-lakehouse",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:delta-lake-vs-apache-iceberg",
+      "target": "wiki:data-warehouse-vs-data-lakehouse",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:delta-lake-vs-apache-iceberg",
+      "target": "wiki:dataops",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:comparison:delta-lake-vs-apache-iceberg",
+      "target": "wiki:dataops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:delta-lake-vs-apache-iceberg",
+      "target": "wiki:dbt",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:delta-lake-vs-apache-iceberg",
+      "target": "wiki:delta-lake",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:delta-lake-vs-apache-iceberg",
+      "target": "wiki:delta-lake",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:delta-lake-vs-apache-iceberg",
+      "target": "wiki:duckdb",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:delta-lake-vs-apache-iceberg",
+      "target": "wiki:duckdb",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:delta-lake-vs-apache-iceberg",
+      "target": "wiki:modern-data-stack",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:delta-lake-vs-apache-iceberg",
+      "target": "wiki:modern-data-stack",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:delta-lake-vs-apache-iceberg",
+      "target": "wiki:orchestration",
+      "kind": "article-link",
+      "weight": 2
     },
     {
       "source": "article:comparison:mlops-vs-dataops",
@@ -42839,6 +43018,12 @@
     },
     {
       "source": "wiki:apache-iceberg",
+      "target": "article:comparison:delta-lake-vs-apache-iceberg",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:apache-iceberg",
       "target": "person:adrianbrudaru",
       "kind": "wiki-link",
       "weight": 6
@@ -53489,6 +53674,12 @@
     },
     {
       "source": "wiki:delta-lake",
+      "target": "article:comparison:delta-lake-vs-apache-iceberg",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:delta-lake",
       "target": "person:adrianbrudaru",
       "kind": "wiki-link",
       "weight": 2
@@ -53527,7 +53718,7 @@
       "source": "wiki:delta-lake",
       "target": "wiki:apache-iceberg",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "wiki:delta-lake",
@@ -53539,7 +53730,7 @@
       "source": "wiki:delta-lake",
       "target": "wiki:data-engineering-platforms",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:delta-lake",
@@ -53551,7 +53742,7 @@
       "source": "wiki:delta-lake",
       "target": "wiki:data-governance",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:delta-lake",
@@ -53563,7 +53754,7 @@
       "source": "wiki:delta-lake",
       "target": "wiki:data-lake",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "wiki:delta-lake",
@@ -53575,7 +53766,7 @@
       "source": "wiki:delta-lake",
       "target": "wiki:data-warehouse-vs-data-lakehouse",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "wiki:delta-lake",
@@ -53587,7 +53778,7 @@
       "source": "wiki:delta-lake",
       "target": "wiki:dataops",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:delta-lake",
@@ -53599,7 +53790,7 @@
       "source": "wiki:delta-lake",
       "target": "wiki:duckdb",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:delta-lake",
