@@ -1,288 +1,295 @@
 ---
 layout: article
-title: "Machine Learning System Design Interview: How to Structure Strong Answers"
+title: "Machine Learning System Design Interview: A Podcast-Grounded Prep Guide"
 keyword: "machine learning system design interview"
-summary: "A podcast-backed guide to machine learning system design interview preparation: prompts, answer structure, evaluation criteria, tradeoffs, monitoring, and portfolio practice."
+search_intent:
+  - "Prepare for machine learning system design interview prompts with grounded production examples."
+  - "Practice answer structure, fraud detection, recommendation, serving, monitoring, and portfolio evidence."
+summary: "A DataTalks.Club podcast-backed guide to machine learning system design interview preparation: answer structure, prompts, metrics, data strategy, serving, monitoring, fallbacks, and portfolio practice."
 related_wiki:
   - Machine Learning System Design
+  - ML System Design Documents
   - Machine Learning Portfolio Projects
   - Data Scientist Interview Roadmap
-  - MLOps and DataOps
+  - MLOps
   - Model Monitoring
 ---
 
-If you're preparing for the keyword topic `machine learning system design
-interview`, don't memorize one perfect architecture. Practice the way you
-structure ambiguity. Interviewers want to hear how you clarify the product
-goal and choose the right data.
+A machine learning system design interview tests whether you can turn a model
+idea into a product system. In
+[ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }}),
+[Valerii Babushkin]({{ '/people/valeriybabushkin/' | relative_url }}) frames the
+round around assumptions and baselines. He then connects labels and metrics to
+A/B tests, monitoring, fallbacks, and MLOps ownership. The maintained
+[Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
+page preserves that same archive structure.
 
-They also want to hear how you define labels and metrics. From there, explain
-the baseline and serving path. Finish with validation, monitoring, and
-tradeoffs.
+Start with the decision, then work through data and evaluation. Serving,
+operations, and ownership come next.
 
-The DataTalks.Club podcast archive treats ML system design interviews as a
-production-readiness test. The main [Machine Learning System Design Interview](https://datatalks.club/podcast.html)
-episode uses fraud detection and recommendation examples. Valerii Babushkin
-shows how strong candidates move through assumptions and metrics before labels
-and features. He also covers model choice and A/B tests. Monitoring, fallbacks,
-and MLOps ownership round out the interview.
+Use this article when you're preparing for the keyword topic "machine learning
+system design interview." For the broader production discipline, read
+[Designing Machine Learning Systems]({{ '/articles/designing-machine-learning-systems/' | relative_url }})
+and [ML System Design Documents]({{ '/wiki/ml-system-design-documents/' | relative_url }}).
+For the shorter keyword variant, see
+[ML System Design Interview]({{ '/articles/ml-system-design-interview/' | relative_url }}).
 
-For the broader production checklist, use
-[machine learning system design]({{ '/articles/machine-learning-system-design/' | relative_url }}).
-Here we focus on interview prep. You can use it to decide what to say, what
-interviewers evaluate, and how to practice with portfolio projects.
+## Start With the Decision
 
+Open with the business or product decision, not the model family. Valerii's
+fraud example in
+[ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }})
+turns the same prediction into different actions. The product may block a
+transaction, approve it, warn someone, or send the case to review. Those actions
+change the cost of false positives and false negatives. They also change the
+latency target, thresholding plan, and human-review path.
 
-## A Strong Answer Structure
+[Arseny Kravchenko]({{ '/people/arsenykravchenko/' | relative_url }}) gives the
+production version in
+[Building Scalable and Reliable Machine Learning Systems]({{ '/podcasts/building-scalable-and-reliable-machine-learning-systems/' | relative_url }}).
+He starts designs with goals and non-goals. He also writes assumptions,
+constraints, and metrics before model architecture. That habit helps in
+interviews because it shows the interviewer what problem you're solving before
+you draw boxes.
 
-Start with the product decision, not the model, because a fraud detector or
-recommender changes a business decision. So does a search ranker, demand
-forecast, or churn model. Say who uses the output, what action changes, and
-what happens when the system is wrong.
+A useful opening sounds like this:
 
-Then move through the system in this order:
+1. Name the user and the decision the system supports.
+2. State the cost of a wrong decision.
+3. Ask about scale, latency, privacy, reliability, and available data.
+4. Propose the simplest baseline that could already help.
+5. Explain how you'll validate whether the system improves the decision.
+
+This structure also matches the
+[Data Scientist Interview Roadmap]({{ '/wiki/data-scientist-interview-roadmap/' | relative_url }}),
+where interview preparation starts from the actual role. An ML-heavy data
+scientist or machine learning engineer interview needs more production design,
+serving, and monitoring discussion than an analytics-heavy role.
+
+## Build the Answer Path
+
+After the opening, move through the system in a predictable order.
+
+This order comes from Valerii's interview episode and the broader
+[Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
+hub:
 
 1. Clarify the goal, user, decision, risk, and constraints.
-2. State assumptions and ask for alignment.
+2. State assumptions and let the interviewer correct them.
 3. Choose a business metric and one or two model metrics.
-4. Explain the labels, data sources, feature freshness, leakage risks, and
-   class imbalance.
-5. Start with a baseline: a rule, heuristic, simple model, or existing manual
-   workflow.
-6. Propose a model path only after the baseline and data path make sense.
-7. Choose serving mode: batch, online API, streaming, edge, or hybrid.
-8. Explain validation: offline metrics, slices, A/B tests, human review, or
-   shadow mode.
-9. Add monitoring for data drift, prediction drift, latency, errors, and
-   business outcomes.
-10. Define fallback behavior, rollback, retraining triggers, and ownership.
+4. Explain labels, data sources, feature freshness, leakage risks, and class
+   imbalance.
+5. Compare against a rule, heuristic, manual process, or simple model.
+6. Choose a model path only after the data and baseline make sense.
+7. Pick batch, online API, streaming, edge, or hybrid serving.
+8. Explain offline validation, slices, A/B tests, shadow mode, or human review.
+9. Add monitoring for inputs, predictions, service health, labels, and outcomes.
+10. Define fallback behavior, rollback, retraining triggers, and owners.
 
-This order protects you from jumping to XGBoost, deep learning, embeddings, or
-feature stores before you know what the system must do.
+That sequence keeps you from jumping straight to XGBoost or embeddings. It also
+keeps deep learning behind the product need. Use feature stores only when the
+feature path requires them.
+[Ben Wilson]({{ '/people/benwilson/' | relative_url }}) makes the same
+simplicity argument in
+[Practical Machine Learning Engineering for Production]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }}):
+teams should prefer modular systems and prove value before adding complexity.
+Those systems should stay maintainable and business-aligned.
 
-## Practice Prompts
+## Practice Fraud Detection
 
-Use prompts that force tradeoffs. If the prompt can be answered with one model
-name, it's too narrow for system design practice.
+Fraud detection is the archive's strongest machine learning system design
+interview prompt. Valerii uses it in
+[ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }})
+because the candidate has to discuss probabilities, thresholds, class
+imbalance, and delayed labels. The same prompt also needs real-time constraints
+and business loss. The answer is incomplete if it ends at "train a classifier."
 
-## Fraud Detection Prompt
+[Angela Ramirez]({{ '/people/angelaramirez/' | relative_url }}) adds the
+production data-engineering view in
+[Data Engineering for Fraud Prevention]({{ '/podcasts/building-and-scaling-data-engineering-systems-for-fraud-detection/' | relative_url }}).
+Her episode covers retail fraud use cases, feature pipelines, daily batch
+computation, and real-time scoring. She also covers graph features, monitoring,
+runbooks, and data quality checks. That makes fraud a good prompt for testing
+whether you can connect model design to data operations.
 
-This is the strongest prompt from the archive. In the podcast episode, Valerii
-uses fraud detection to show why a candidate needs probabilities and
-thresholds. The answer also needs labels, class imbalance, and real-time
-constraints. Add loss functions and human review where the error costs require
-them.
+For a fraud prompt, cover these points:
 
-A good answer should cover:
+1. The action: block, warn, approve, score, or route to review.
+2. The cost: customer friction from false positives and fraud loss from false
+   negatives.
+3. Labels: who confirms fraud, when labels arrive, and which labels are noisy.
+4. Metrics: precision, recall, expected loss, review capacity, and important
+   slices.
+5. Features: transaction, account, device, merchant, graph, and historical
+   behavior signals.
+6. Serving: batch features with request-time scoring when the decision happens
+   at checkout.
+7. Operations: monitoring, runbooks, fallback rules, rollback, and manual
+   investigation.
 
-- the business action: block, warn, approve, review, or score a transaction
-- the error costs: false positives hurt real customers, while false negatives
-  allow fraud
-- label delay: fraud labels may arrive minutes, days, weeks, or months later
-- class imbalance and metric choice
-- real-time serving needs and fallback behavior
-- offline validation, A/B testing, and fraud-specialist review
-- monitoring for feature shift, target shift, model breakage, and performance
-  drops
+If the score is close to the threshold, explain uncertainty explicitly. The
+product may send the case to a fraud specialist instead of automatically
+blocking the customer. That choice follows Valerii's threshold and loss framing
+and Angela's front-end decisioning discussion.
 
-The tradeoff isn't only model quality. You also need to explain how the
-business handles uncertain cases.
+## Practice Recommendation and Ranking
 
-## Recommendation Prompt
+Recommendation prompts test whether you define the product surface before the
+ranking model. Valerii contrasts nearby points of interest with personalized
+recommendations in
+[ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }}).
+A nearby-place system can start from location, popularity, and simple rules. A
+personalized feed needs user history, item features, and candidate generation.
+It also needs ranking, cold-start handling, and feedback.
 
-Recommendation prompts test whether you clarify the product before choosing a
-ranking model. In the podcast, Valerii contrasts a nearby points-of-interest
-system with a personalized recommender. The first may start from location,
-popularity, and simple heuristics. The second needs user history, item features,
-candidate generation, and ranking. It also needs cold-start handling and online
-feedback.
+[Daniel Svonava]({{ '/people/danielsvonava/' | relative_url }}) gives the search
+and ranking version in
+[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}).
+He separates candidate generation from ranking. He also covers hybrid
+retrieval, filters, and recency. His business metrics, A/B tests, and
+operational metrics apply when an interviewer asks you to rank products and
+jobs. The same framing works for videos, ads, and documents.
 
-Explain the difference before you design the model, then choose the metric from
-the product action. Common options include clicks and saves, plus visits or
-purchases. Watch time, retention, diversity, and long-term user value are other
-options. If a proxy metric becomes the goal, it may create behavior the product
-team doesn't want, so add guardrail metrics.
+In the interview, say which behavior you're optimizing before choosing the
+model. Clicks and saves are easy to observe, but they may not represent
+long-term value. Purchases and return visits can become guardrails. So can
+diversity, freshness, latency, and trust. The
+[Production Search Evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }})
+page keeps that distinction visible for search and ranking systems.
 
-## Predictive Service Prompt
+## Design the Data and Label Path
 
-A churn, lead-scoring, risk-scoring, or demand-forecasting prompt lets you show
-general ML system design skill. Ask when the prediction is needed and how fresh
-the features must be. Then clarify whether the output is a score or a decision
-and who acts on it.
+Good interview answers treat data as part of the system. Valerii's interview
+episode connects labels, class imbalance, feature tradeoffs, and validation in
+[ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }}).
+Arseny's episode adds data availability, processing, and feature needs. He also
+discusses data lakes and system diagrams in
+[Building Scalable and Reliable Machine Learning Systems]({{ '/podcasts/building-scalable-and-reliable-machine-learning-systems/' | relative_url }}).
 
-Choose the simplest serving path that meets the product need. A daily batch
-score may be enough for a retention team. A checkout fraud decision may need
-low-latency online inference and a manual-review path.
+Ask these questions out loud:
 
-## Evaluation Criteria
+1. Which source systems provide training data?
+2. Who owns each source?
+3. When do labels arrive?
+4. Which features are available at prediction time?
+5. How fresh do features need to be?
+6. Where can leakage enter the training set?
+7. Which privacy, access, or governance limits apply?
 
-Interviewers evaluate judgment more than architecture recall. The archive's
-interview and hiring pages converge on these signals.
+This is where many candidates show production judgment. A model can look strong
+offline and still fail if the serving system can't compute the same features.
+The [MLOps]({{ '/wiki/mlops/' | relative_url }}) and
+[MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }}) pages connect
+that risk to reproducibility, deployment, upstream pipeline reliability, and
+monitoring.
 
-- Clarification: you ask about the user, business decision, risk level, scale,
-  latency, and constraints.
-- Assumptions: you state assumptions and check whether the interviewer wants a
-  different path.
-- Metrics: you connect model metrics to the business decision and add guardrail
-  metrics where needed.
-- Data reasoning: you discuss labels, leakage, delayed outcomes, noisy labels,
-  feature availability, freshness, ownership, and privacy.
-- Baseline discipline: you start with a simple rule, heuristic, or model before
-  adding complexity.
-- Production awareness: you cover serving, monitoring, fallbacks, rollback,
-  retraining, and operational ownership.
-- Communication: you signpost the answer so the interviewer knows whether you
-  are discussing baseline design and model choice, data flow and evaluation, or
-  operations.
+## Choose Metrics That Match the Decision
 
-The [Data Scientist Interview Roadmap]({{ '/wiki/data-scientist-interview-roadmap/' | relative_url }})
-adds a useful boundary: prepare for the role, not for an abstract title. An
-ML-heavy data scientist or ML engineer interview expects more system design,
-evaluation, coding, and deployment discussion than an analytics-heavy role.
+Use one business metric, one or two model metrics, and guardrails. Valerii's
+fraud discussion in
+[ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }})
+shows why accuracy is too weak for imbalanced, high-cost decisions. You may
+need precision, recall, and calibration. You may also need expected loss, review
+load, and slice-level checks.
 
-## Tradeoff Structure
+For ranking or search, Daniel's
+[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }})
+episode ties relevance work to business metrics and A/B testing. It also covers
+offline evaluation and operational metrics. For broader ML systems, the
+[Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
+page keeps offline metrics separate from product validation.
 
-Strong candidates make tradeoffs explicit. Use a small set of recurring
-questions and apply them to the prompt.
+When the prompt allows product impact claims, say how you'd test them. Offline
+metrics can guide model development, but a user-facing ranking system often
+needs A/B testing or shadow mode. A recommender or fraud system may also need
+staged rollout, backtesting, or human review. That answer connects the model to
+[evaluation]({{ '/wiki/evaluation/' | relative_url }}) rather than treating the
+model score as the final result.
 
-## Metric Versus Goal
+## Pick the Serving Path
 
-Start with the real goal, then choose a proxy metric carefully. For fraud, the
-goal may be reducing expected fraud loss while preserving customer trust. For a
-recommender, clicks may be easy to measure, but they may not represent
-long-term user value. Add guardrail metrics when optimizing one number can
-damage another part of the product.
+Serving mode should follow the decision. In
+[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}),
+[Simon Stiebellehner]({{ '/people/simonstiebellehner/' | relative_url }})
+separates batch inference from online serving. Batch inference often fits a
+scheduled scoring job. Online serving needs latency budgets and API contracts.
+It also needs prediction logging, rollback, and operational support.
 
-## Offline Score Versus Online Impact
+For fraud, Angela's
+[Data Engineering for Fraud Prevention]({{ '/podcasts/building-and-scaling-data-engineering-systems-for-fraud-detection/' | relative_url }})
+episode shows a hybrid design: daily feature computation plus instant scoring
+when the transaction happens. For mobile or edge ML, Arseny's
+[scalable systems episode]({{ '/podcasts/building-scalable-and-reliable-machine-learning-systems/' | relative_url }})
+adds latency and frame rate. It also adds energy use, model size, and offline
+behavior.
 
-Offline metrics tell you whether the model learned something useful on past
-data. They don't prove product impact. For many systems, you still need an A/B
-test or shadow deployment. Human labeling or a staged rollout may be the better
-validation path when the risk is higher.
+In an interview, don't say "real time" unless you define the product need. A
+retention team may only need a daily churn list. A checkout fraud decision may
+need request-time scoring and a manual-review path. A search system may
+precompute candidates and rerank online. Each path changes the data freshness,
+failure mode, and monitoring plan.
 
-## Simple Baseline Versus Complex Model
+## Monitor and Define Fallbacks
 
-Baselines aren't filler because they tell you whether ML is needed and how much
-lift a complex model must provide. Ben Wilson's production ML episode
-reinforces the same principle from the engineering side. Teams should prefer
-maintainable, modular, testable solutions and prove value before they add
-unnecessary complexity.
+Monitoring is part of the answer, not a final add-on. Valerii's
+[ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }})
+discussion includes monitoring, distribution shift, and fallbacks. It also
+includes serving and MLOps roles. [Danny Leybzon]({{ '/people/dannyleybzon/' | relative_url }})
+adds the upstream view in
+[MLOps Architect Guide]({{ '/podcasts/mlops-model-monitoring-data-observability/' | relative_url }}).
 
-## Batch Versus Real Time
+Model problems can start in ETL jobs or schemas. They can also start in
+transformations, source systems, or data profiles.
 
-Real-time inference adds design complexity because it can require feature
-freshness, low-latency APIs, and fallbacks. It may also need autoscaling and
-tighter monitoring. Batch scoring can be easier to operate when the business
-decision doesn't need an immediate prediction. Say what the product needs
-before choosing either path.
+Name the signals you would log:
 
-## Model Monitoring Versus Data Observability
+1. Model and feature versions.
+2. Input feature distributions.
+3. Prediction distributions and thresholds.
+4. Latency, errors, timeouts, and throughput.
+5. Data freshness, schema changes, and missing values.
+6. Delayed labels and business outcomes.
+7. Important slices such as region, customer segment, item type, or risk band.
 
-Monitoring should cover more than the model score. Use
-[Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }}) for the
-archive evidence on upstream data and pipeline changes.
+Then name who responds, and connect the alert to a real action.
+[Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }}) connects
+drift, data quality, service health, and label feedback. It also connects those
+signals to alert ownership.
 
-In an interview, name the signals you would log:
+A fallback may use a previous model or cached prediction. It may also use a rule
+system, manual review, or disabled automation. A monitoring answer without an
+owner doesn't show how the team protects the product after launch.
 
-- input feature distributions
-- prediction distributions
-- latency and errors
-- label feedback
-- business outcomes
-- data freshness
+## Turn Portfolio Projects Into Interview Evidence
 
-## Portfolio Practice
+The best preparation isn't only mock whiteboarding, so build one project you can
+explain as a system. The
+[Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
+page gives the archive-backed standard. Define the decision, show the data and
+labels, and compare a baseline. Choose metrics and analyze errors. Then sketch
+deployment and explain monitoring plus fallback behavior.
 
-The best practice for this interview isn't only mock whiteboarding. Build one
-project that you can explain as a system.
+For this interview, a simple project can be strong if it exposes the right
+tradeoffs. A fraud-style classifier can include delayed labels and class
+imbalance. Add a threshold, review bucket, and monitoring notes to show more
+system thinking than a notebook with one accuracy number.
 
-Use the [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
-criteria as your review checklist:
+A search or recommendation project can do the same by showing candidate
+generation and ranking metrics. Cold starts, online feedback, and guardrails
+can come from the
+[production search]({{ '/wiki/production-search-evaluation/' | relative_url }})
+archive.
 
-1. Define the decision the model supports.
-2. Show the data and labels, including leakage and delay risks.
-3. Compare a baseline against your model.
-4. Pick metrics that match the decision and class balance.
-5. Include error analysis by segment or failure type.
-6. Sketch the serving path, monitoring signals, fallback behavior, and
-   retraining trigger.
-7. Write the tradeoffs clearly enough that a hiring manager can follow them.
+Before the interview, rehearse the project in the same order as the system
+design answer:
 
-For a portfolio project, the model can be simple. You prove interview readiness
-through the system thinking around it. A fraud-style classifier with a
-threshold and manual-review bucket will usually teach more than a notebook that
-reports one accuracy number. Add delayed labels, monitoring notes, and a
-rollback plan.
+1. Decision and users.
+2. Error costs and constraints.
+3. Data, labels, features, leakage, and freshness.
+4. Baseline and model choice.
+5. Offline metrics, business metric, and guardrails.
+6. Serving path and fallback.
+7. Monitoring, retraining trigger, and owner.
 
-## Interview Checklist
-
-Use this checklist during practice. Keep each answer short enough that the
-interviewer can interrupt and steer.
-
-1. Problem: name the decision the system supports.
-2. Users: name who sees the output and who owns mistakes.
-3. Constraints: state the latency, scale, privacy, cost, and reliability
-   requirements.
-4. Data: explain the sources, labels, features, freshness guarantees, and
-   leakage risks.
-5. Baseline: name the simple method the ML system must beat.
-6. Model: choose the sufficient model family and explain why something simpler
-   isn't enough.
-7. Evaluation: choose the offline metrics, slices, A/B tests, or human labels
-   that prove value.
-8. Serving: explain how the prediction reaches the product.
-9. Monitoring: name what you log, alert on, and investigate.
-10. Fallback: explain what happens when the model, data, or service fails.
-11. Ownership: name who deploys, reviews, retrains, and deprecates the system.
-
-## Podcast-Backed Evidence
-
-[Machine Learning System Design Interview](https://datatalks.club/podcast.html)
-anchors this article. Valerii Babushkin explains how interviewers assess
-ML-system judgment through several concrete topics.
-
-Use these topics for practice:
-
-- fraud detection
-- labels and class imbalance
-- feature tradeoffs
-- baselines and metrics
-- A/B testing and monitoring
-- distribution shift and fallbacks
-- serving and MLOps roles
-
-He also discusses interview tactics. State assumptions, get alignment, build
-iteratively from a baseline, and signpost when you move deeper into model
-details.
-
-[Building Scalable and Reliable Machine Learning Systems](https://datatalks.club/podcast.html)
-adds the production design view. It covers goals and non-goals, then moves into
-assumptions, constraints, and risks. It also covers data strategy, diagrams, and
-batch versus real-time choices.
-
-[Practical Machine Learning Engineering for Production](https://datatalks.club/podcast.html)
-supports the baseline and maintainability sections. Ben Wilson argues for
-modular, testable, business-aligned ML work and simple solutions before
-unnecessary model or platform complexity.
-
-[MLOps at Scale](https://datatalks.club/podcast.html) connects interview
-answers to operating reality by covering CI/CD, reproducibility, repository
-structure, and monitoring. It also covers data versioning, deployment
-frequency, and product-team adoption.
-
-[Building Production ML Platforms](https://datatalks.club/podcast.html)
-adds the platform layer. It covers experiment tracking and model registries,
-plus batch and online serving. It also covers orchestration, metadata, and
-lineage. Governance, prediction logging, and developer experience round out the
-platform view.
-
-## Related Wiki Pages
-
-Use these pages for deeper preparation:
-
-- [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
-- [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
-- [Data Scientist Interview Roadmap]({{ '/wiki/data-scientist-interview-roadmap/' | relative_url }})
-- [Machine Learning Engineer Role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }})
-- [MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }})
-- [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }})
+That rehearsal helps you avoid generic architecture talk. Every claim ties back
+to something you built, tested, or intentionally left out.
