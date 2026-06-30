@@ -11,180 +11,263 @@ related:
   - Machine Learning
 ---
 
-Privacy engineering for ML means designing data collection, feature access, and
-model training around privacy constraints. Teams apply the same constraints to
-deployment, logging, and interfaces. The system should create value without
-collecting, exposing, or retaining more personal data than the product can
-justify. Privacy engineering sits near
-[Data Governance]({{ '/wiki/data-governance/' | relative_url }}) and
-[Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }}).
-It also connects to [Security]({{ '/wiki/security/' | relative_url }}),
+Privacy engineering for ML is the work of turning privacy obligations into
+system design. It asks what data a product should collect and what data a model
+should see. It also asks who may access that data, how long the team should
+retain it, and which controls apply in production. In the DataTalks.Club
+archive, it sits between [Data Governance]({{ '/wiki/data-governance/' | relative_url }})
+and [Security]({{ '/wiki/security/' | relative_url }}). It also connects to
+[Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }}),
 [Machine Learning]({{ '/wiki/machine-learning/' | relative_url }}), and
 [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }}).
 
-In the season 14-15 archive, guests treat privacy engineering as technical
-architecture plus organizational process. They discuss consent UX, data minimization, and
-privacy-enhancing technologies. They also cover access reviews, purpose-based
-permissions, and localized or self-hosted LLMs. A recurring risk is sending
-sensitive text into systems that weren't designed around retention and deletion.
+This topic is centered on ML and AI systems, not privacy law in the abstract.
+[Katharine Jarmul]({{ '/people/katharinejarmul/' | relative_url }}) gives the
+most direct archive definition in
+[her privacy engineering episode]({{ '/podcasts/data-privacy-engineering-gdpr-machine-learning/' | relative_url }}).
 
-## Link Map
+She joins the legal and social sides of privacy with the technical side. Then
+she translates risk into product and architecture requirements. The rest of the
+archive adds the operating machinery. That machinery includes access governance
+and masking. It also includes data quality checks, LLM deployment choices, and
+security testing.
 
-These wiki pages connect privacy engineering to adjacent topics:
-
-- [Data Governance]({{ '/wiki/data-governance/' | relative_url }})
-- [Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }})
-- [Security]({{ '/wiki/security/' | relative_url }})
-- [LLMs]({{ '/wiki/llms/' | relative_url }})
-- [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
-- [MLOps]({{ '/wiki/mlops/' | relative_url }})
-- [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
-
-These interviews anchor the page:
-
-- [Data Privacy Engineering, GDPR, and Machine Learning]({{ '/podcasts/data-privacy-engineering-gdpr-machine-learning/' | relative_url }}) with [Katharine Jarmul]({{ '/people/katharinejarmul/' | relative_url }})
-- [Data Governance and Data Access Management]({{ '/podcasts/data-governance-data-access-management/' | relative_url }}) with [Bart Vandekerckhove]({{ '/people/bartvandekerckhove/' | relative_url }})
-- [Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}) with [Meryem Arik]({{ '/people/meryemarik/' | relative_url }})
 
 ## Common Definition
 
-Across the archive, privacy engineering translates legal obligations and user
-expectations into product requirements. It also connects data architecture and
-ML system design. In
-[Data Privacy Engineering, GDPR, and Machine Learning]({{ '/podcasts/data-privacy-engineering-gdpr-machine-learning/' | relative_url }}),
-Katharine Jarmul describes looking at the data side and application side of a
-system. Privacy engineers identify risks and constraints, then turn them into
-requirements that satisfy product goals and privacy needs.
+Across the archive, privacy engineering isn't a late compliance review. It's
+a design constraint across the full data lifecycle. A team should know why it
+collects data and whether the use case still works with less data. It should
+also know which fields are sensitive, who can access them, and how the model or
+application prevents unintended exposure.
 
-Bart Vandekerckhove gives the platform-governance version in
-[Data Governance and Data Access Management]({{ '/podcasts/data-governance-data-access-management/' | relative_url }}).
-Cloud data warehouses and lakes collapse old boundaries between source systems.
-Teams then need dataset-level access management and purpose-based requests. They
-also need approvals, reviews, and revocation. Masking and visibility into access
-matter too.
+Katharine's episode connects minimization to consent. At 11:33 and 14:35, she
+discusses GDPR, CCPA, and CPRA. She also covers cookie-consent defaults. At
+22:38, she frames privacy engineering as translation between legal and
+technical views. At 30:15 and 47:00, privacy becomes normal product design.
 
-Meryem Arik adds the LLM deployment focus in
-[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}).
-Privacy is one reason to move from quick API prototypes toward controlled
-open-source or self-hosted models for production workloads.
+Teams can use session-based inference and ask whether data collection is
+necessary. They can also make the private path easy for users
+([Katharine's privacy episode]({{ '/podcasts/data-privacy-engineering-gdpr-machine-learning/' | relative_url }})).
 
-## Guest Perspectives
+[Bart Vandekerckhove]({{ '/people/bartvandekerckhove/' | relative_url }}) gives
+the governance version in
+[his access-governance episode]({{ '/podcasts/data-governance-data-access-management/' | relative_url }}).
 
-Katharine focuses on data minimization, consent, and re-identification risk.
-She also discusses privacy-enhancing technologies, including differential
-privacy and federated learning. The same discussion covers encrypted computation
-plus localized model deployment
-([Data Privacy Engineering, GDPR, and Machine Learning]({{ '/podcasts/data-privacy-engineering-gdpr-machine-learning/' | relative_url }})).
+At 11:20, he connects modern cloud data consolidation to access management. At
+27:49 and 32:08, the controls become operational. Teams need purpose-based
+access requests, approval, reviews, and revocation. Time-bound access matters
+too.
 
-Katharine argues that teams should design privacy into the easiest product path.
-They shouldn't leave it to users who may paste personal, proprietary, or
-regulated data into convenient interfaces.
+For ML teams, those controls decide which training data can be used. They also
+decide which features, logs, and debugging records can be used.
 
-Bart focuses on operating practice. In his access-management discussion, he
-centers data owners, data engineers, and governance teams. DPOs and CISOs also
-appear in the approval flow. He also covers access requests, time-bound access,
-and regular reviews. He treats automated tagging and masking as part of the same
-governance work
-([Data Governance and Data Access Management]({{ '/podcasts/data-governance-data-access-management/' | relative_url }})).
 
-Meryem's production LLM discussion focuses on model control. APIs are fast for
-prototyping, but long-term systems often need stable behavior and cost control.
-They may also need latency control, fine-tuning, and data privacy
-([Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }})).
+[Supreet Kaur]({{ '/people/supreetkaur/' | relative_url }}) links privacy to
+responsible AI in
+[her responsible-AI episode]({{ '/podcasts/responsible-explainable-ai-bias-detection/' | relative_url }}).
+At 14:39 and 17:20, PII handling and masking become product decisions. Feature
+necessity becomes a subject-matter and compliance decision too. That places
+privacy engineering next
+to [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
+and [Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }}).
 
-## Data Minimization and Consent UX
+The review should cover both model accuracy and whether the data inputs are
+justified.
 
-Katharine starts from practical product choices, including cookie defaults,
-one-click rejection, and consent. She also asks whether a product can still work
-when a user shares less data
-([Data Privacy Engineering, GDPR, and Machine Learning]({{ '/podcasts/data-privacy-engineering-gdpr-machine-learning/' | relative_url }})).
-Her business case isn't only compliance. If a small model-performance bump
-requires holding sensitive data indefinitely, the company also accepts breach
-risk. It also accepts legal, insurance, and customer-trust risk.
+## Guest Differences
 
-For ML teams, this changes the design question. Instead of asking how much user
-history to collect for personalization, the team can ask which inferences can
-happen in-session. It can also ask which features are necessary, which retention
-period is justified, and whether the system can degrade gracefully when consent
-is withheld. This connects privacy engineering to
-[Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }})
-because the interface and the model pipeline belong to the same risk surface.
+The guests mostly agree on the goal. Useful AI systems shouldn't create
+avoidable privacy, security, or compliance risk. The difference is their
+starting point.
 
-## Access Controls for Sensitive ML Data
+Katharine starts from privacy risk through regulation and consent UX examples.
+Her episode also covers browser fingerprinting. Re-identification,
+privacy-enhancing technologies, and differential privacy follow
+([Katharine's privacy episode]({{ '/podcasts/data-privacy-engineering-gdpr-machine-learning/' | relative_url }})
+at 16:24 and 25:12 and at 33:08 and 40:50).
 
-Bart's access-management episode shows why privacy engineering can't be only a
-modeling concern. A churn model may need customer email, product usage, billing,
-or support data. Each field can have a different owner and sensitivity level. It
-can also have a different approved purpose
-([Data Governance and Data Access Management]({{ '/podcasts/data-governance-data-access-management/' | relative_url }})).
+The failure mode is collecting or centralizing sensitive data because it's
+convenient. The team may then discover later that deletion, retention, or user
+expectations were never designed into the system.
 
-Bart recommends catalog discovery and purpose-based access requests. He also
-recommends data-owner approval, time-bound access, and automatic revocation.
+Bart starts from access operations. Cloud warehouses and lakehouses make more
+data visible to more teams. Without purpose-based requests and owners, privacy
+depends on informal permission habits. Masking and filtering make those habits
+explicit. Reviews and revocation do too
+([Bart's access-governance episode]({{ '/podcasts/data-governance-data-access-management/' | relative_url }}),
+25:05 and 27:49, plus 42:20 and 46:42).
 
-Bart also warns about privilege creep and role explosion. ML experiments often
-start with temporary access, but access granted and never revoked
-creates long-term risk. Bart's answer is collaboration between data owners,
-engineers, and governance teams.
+[Meryem Arik]({{ '/people/meryemarik/' | relative_url }}) starts from LLM
+deployment. In
+[her LLM deployment episode]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}),
+the 16:48 chapter compares open-source and API models around control, privacy,
+and fine-tuning. At 18:46, hidden API model changes become a production risk.
+For her, privacy is one reason a team may move from a quick hosted-model
+prototype to a more controlled deployment path.
 
-He also recommends active metadata, automated tagging, and masking. He treats row
-filtering and regular reviews as part of the same control set. Together, Bart
-treats these controls as part of
+[Maria Sukhareva]({{ '/people/mariasukhareva/' | relative_url }}) starts from
+product security. In
+[her chatbot-security episode]({{ '/podcasts/generative-ai-chatbots-in-production-security/' | relative_url }}),
+the 13:20 chapter shows how prompt injection and retrieval can expose hidden
+knowledge-base content. Her mitigation path uses layered defenses, output
+validation, query analysis, and non-LLM classifiers at 16:15 and 17:00. This
+connects privacy engineering to [AI Red Teaming]({{ '/wiki/ai-red-teaming/' | relative_url }})
+and [Security]({{ '/wiki/security/' | relative_url }}).
+
+## Data Minimization and Consent
+
+Data minimization is the archive's strongest privacy-engineering habit. The
+team should first ask whether the product can work with less data. Shorter
+retention, local inference, or a less identifying representation may be enough.
+Katharine's
+session-based personalization example at 30:15 shows the design. Teams can
+infer intent from the current session where possible instead of accumulating
+permanent user histories
+([Katharine's privacy episode]({{ '/podcasts/data-privacy-engineering-gdpr-machine-learning/' | relative_url }})).
+
+This changes the modeling conversation. A personalization model or churn model
+may improve when it sees more user history. A fraud model or support assistant
+may improve too. The improvement still has to be weighed against breach impact,
+deletion requirements, customer trust, and insurance or regulatory exposure.
+Katharine ties that business case to risk management and customer trust at
+35:09 in the same episode.
+
+Consent belongs in the same product design. At 14:35, Katharine discusses
+one-click rejection and user behavior around cookie banners. For ML teams,
+privacy shouldn't depend on users understanding every later model use. Teams
+should offer a reasonable low-data path. They should avoid turning consent into
+a forced trade for basic functionality.
+
+## Access Governance for ML Data
+
+Privacy engineering fails if sensitive data becomes the default input to every
+notebook, feature store, and production job. Bart's access-management episode
+shows the practical controls. A team should connect catalogs and lineage to
+ownership. It should then require access requests that name the purpose and
+duration
+([Bart's access-governance episode]({{ '/podcasts/data-governance-data-access-management/' | relative_url }}),
+8:58, 13:34, 27:49).
+
+For ML systems, access rules should cover raw sources and feature tables. They
+should also cover labels, experiment datasets, and model-debugging samples.
+Embeddings, retrieval indexes, logs, and annotation queues need coverage too.
+The same customer email can appear in several derived forms. A support message
+can too, so privacy reviews need
 [Data Governance]({{ '/wiki/data-governance/' | relative_url }}) and
-[Security]({{ '/wiki/security/' | relative_url }}) inside the ML system, not as
-external compliance paperwork.
+[Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
+signals, not only a policy document.
+
+Bart's privilege-creep discussion at 32:08 is especially relevant to model
+experimentation. Temporary access granted for a prototype can persist after the
+model is abandoned. Time-bound access, revocation, review workflows, and
+access-as-code reduce that drift. Masking and filtering at 42:20 and active
+metadata at 46:42 make those controls easier to reuse. The same controls can
+cover analytics, training, and operations.
 
 ## Privacy-Enhancing Technologies
 
-Katharine describes privacy-enhancing technologies as architectural and
-algorithmic options. They let teams do more advanced data science while reducing
-centralization or exposure of sensitive data
-([Data Privacy Engineering, GDPR, and Machine Learning]({{ '/podcasts/data-privacy-engineering-gdpr-machine-learning/' | relative_url }})).
-Katharine names encrypted ML and federated learning as examples. She also names
-rigorous anonymity definitions and differential privacy.
+Katharine describes privacy-enhancing technologies as architectural choices,
+not magic add-ons. At 33:08 in
+[her privacy episode]({{ '/podcasts/data-privacy-engineering-gdpr-machine-learning/' | relative_url }}),
+she discusses encrypted ML, federated learning, and privacy-aware architecture.
+At 40:50, she introduces differential privacy as a formal way to reason about
+privacy loss.
 
-Guests don't present these techniques as the first move for every team.
-Katharine recommends starting with the simpler organizational conversation. Then
-the team can move toward advanced privacy engineering when the system needs it.
+The archive doesn't imply that every team should begin with advanced PETs.
+Katharine recommends clarifying what data is sensitive and what the product
+needs. Teams should then decide who owns the risk. Techniques such as federated
+learning, encrypted computation, differential privacy, or localized deployment
+fit only when the use case still requires learning from sensitive patterns.
 
-Teams need maturity first because a team that hasn't defined sensitive fields
-and access owners won't fix privacy by adding a complex privacy-preserving
-algorithm. The same applies when retention, consent, or deletion are undefined.
-Privacy-enhancing technologies are most useful when they fit into an existing
-workflow for data governance and evaluation. They also need production
-ownership.
+That matters because privacy-enhancing technologies need governance around
+them. A federated-learning design still needs participant consent, update
+controls, evaluation, and incident handling. Differential privacy still needs a
+privacy budget and a decision about utility loss. Teams still need to own
+encrypted computation in production. The technical technique works only when it's
+embedded in [MLOps]({{ '/wiki/mlops/' | relative_url }}), governance, and
+security practice.
 
-## LLM Privacy and Deployment Choices
+## Regulated and High-Impact Deployment
 
-LLMs make privacy engineering more visible because users naturally paste
-contracts and emails into text boxes. They also paste customer messages and
-credentials. Proprietary documents can end up there too.
+High-impact deployment changes privacy engineering from a model-building concern
+into a cross-functional approval process. Supreet's
+[responsible-AI episode]({{ '/podcasts/responsible-explainable-ai-bias-detection/' | relative_url }})
+episode is useful here because it treats feature necessity, PII handling,
+fairness, and compliance as connected decisions. Human oversight belongs in
+that same review. At 17:20, product owners should help decide whether to use a
+feature. Subject-matter experts and compliance stakeholders belong in that
+decision too.
 
-Katharine's generative-AI discussion shows how retention and deletion become
-product decisions. The same is true for consent and incident notification.
-Training reuse is another product decision
-([Data Privacy Engineering, GDPR, and Machine Learning]({{ '/podcasts/data-privacy-engineering-gdpr-machine-learning/' | relative_url }})).
+Bart adds the access-control operating model for regulated data. In his
+episode, data owners and governance teams appear in the approval flow. DPOs and
+security teams appear too, along with engineers. The important approach is
+separation of concerns. Privacy and security may need to approve the same
+dataset. Domain owners may need to approve it for different reasons
 
-Her design principle is that the easiest path should be private enough for
-ordinary users. Users shouldn't have to manage the whole burden.
+([Bart's access-governance episode]({{ '/podcasts/data-governance-data-access-management/' | relative_url }}),
+35:35, 37:19).
 
-Meryem's LLM deployment episode gives the production tradeoff. API models are
-useful during prototyping because teams can get demos quickly. Production teams
-often move toward open-source or self-hosted models for control and privacy.
-They may also need stable model behavior and cost control. Latency control and
-fine-tuning can matter too
-([Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }})).
+For production ML, the approval record should state which sensitive fields are
+used and why they're necessary. It should state whether those fields are
+masked, transformed, or excluded. It should also state who approved access, how
+long access lasts, what gets logged in production, and how the team handles
+deletion or incident-response requests. Those checks connect privacy
+engineering to [Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }}),
+[Security]({{ '/wiki/security/' | relative_url }}), and [MLOps]({{ '/wiki/mlops/' | relative_url }}).
 
-Teams don't need to self-host every private system immediately. They do need to
-include the privacy review in the prototype-to-production decision alongside
-latency and evaluation. Retrieval, monitoring, and cost matter too.
+## LLM Privacy and Security Tradeoffs
+
+LLMs make privacy engineering visible because the interface invites free-form
+text. Users may paste contracts, credentials, or customer messages into the same
+box. They may paste medical details, code, or proprietary documents too.
+
+Katharine's generative-AI discussion turns retention and deletion into product
+requirements. Training reuse and consent belong there. Incident notification
+does too
+([Katharine's privacy episode]({{ '/podcasts/data-privacy-engineering-gdpr-machine-learning/' | relative_url }})).
+
+Meryem's production LLM episode adds the infrastructure tradeoff. API models
+are fast for prototyping, while open-source or self-hosted models can give
+teams more control over privacy and fine-tuning. They can also give teams more
+control over latency and cost
+([Meryem's LLM deployment episode]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}),
+16:48). API drift at 18:46 adds another operational risk. When a provider
+changes model behavior, the privacy review and the evaluation results may no
+longer describe the system that's running.
+
+Retrieval systems add a second exposure path. A model might not store the
+private data, but a vector index can still leak it. A document chunk, prompt
+template, or log can leak it too. Maria's chatbot-security episode shows this
+through knowledge-base exfiltration at 13:20. She then argues for layered
+defenses at 16:15 and 17:00
+([Maria's chatbot-security episode]({{ '/podcasts/generative-ai-chatbots-in-production-security/' | relative_url }})).
+
+That places LLM privacy next to
+[Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}),
+[LLMs]({{ '/wiki/llms/' | relative_url }}), and
+[AI Red Teaming]({{ '/wiki/ai-red-teaming/' | relative_url }}).
+
+The archive's practical production rule is to include privacy in the
+prototype-to-production decision. Teams should decide where prompts are stored,
+whether user inputs can train future models, and how retrieval permissions are
+enforced. They should also decide what appears in logs and what tests catch
+prompt injection or data exfiltration. Cost and latency belong in the same
+review as evaluation and privacy on
+[LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
+systems.
 
 ## Related Pages
 
-Continue from these related pages:
+Use these adjacent pages for governance, security, LLM deployment, and ML
+operations context:
 
 - [Data Governance]({{ '/wiki/data-governance/' | relative_url }})
 - [Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }})
 - [Security]({{ '/wiki/security/' | relative_url }})
+- [AI Red Teaming]({{ '/wiki/ai-red-teaming/' | relative_url }})
 - [LLMs]({{ '/wiki/llms/' | relative_url }})
 - [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
+- [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
 - [MLOps]({{ '/wiki/mlops/' | relative_url }})
+- [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})

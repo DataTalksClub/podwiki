@@ -10,168 +10,255 @@ related:
   - Evaluation
 ---
 
-Production search evaluation is the practice of proving that a search system
-returns useful results under real product constraints. In the podcast archive,
-that means evaluating candidate retrieval and ranking. It also means checking
-hybrid signals, generated answers, latency, and business impact.
+Production search evaluation is the practice of proving that a search or
+retrieval system returns useful results under real product constraints. In the
+DataTalks.Club archive, the evaluation problem starts with
+[search]({{ '/wiki/search/' | relative_url }}) and
+[information retrieval]({{ '/wiki/information-retrieval/' | relative_url }}).
+The team checks whether the system found relevant candidates, ranked them well,
+and served the user within its constraints. Those constraints include latency,
+freshness, and business rules.
 
-Use [Search]({{ '/wiki/search/' | relative_url }}) for the broader topic and
-[Evaluation]({{ '/wiki/evaluation/' | relative_url }}) for model and product
-measurement across the archive. Here, the boundary is search systems that need
-to work in production, including vector search and RAG.
+The same evaluation discipline applies to
+[vector databases]({{ '/wiki/vector-databases/' | relative_url }}) and
+[embeddings]({{ '/wiki/embeddings/' | relative_url }}). It also applies to
+[retrieval-augmented generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}).
+Broader knowledge systems need the same checks. Use the
+[knowledge systems overview]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
+for that wider context.
 
-## Link Map
-
-Start with these related wiki pages:
-
-- [Search]({{ '/wiki/search/' | relative_url }})
-- [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
-- [Information Retrieval]({{ '/wiki/information-retrieval/' | relative_url }})
-- [Vector Database vs Search Engine]({{ '/wiki/vector-database-vs-search-engine/' | relative_url }})
-- [Evaluation]({{ '/wiki/evaluation/' | relative_url }})
-- [A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }})
-
-The main podcast discussions are:
-
-- [Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }})
-- [Production ML Search]({{ '/podcasts/production-ml-search-vector-search-embeddings-hybrid-search/' | relative_url }})
-- [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
-
-The guest experts are:
-
-- [Daniel Svonava]({{ '/people/danielsvonava/' | relative_url }}) on search architecture and business metrics
-- [Atita Arora]({{ '/people/atitaarora/' | relative_url }}) on RAG evaluation and human review
-- [Reem Mahmoud]({{ '/people/reemmahmoud/' | relative_url }}) on production ML search systems
+A RAG product may look like an LLM application. The archive still treats much
+of its quality as a retrieval problem before it becomes a generation problem.
 
 ## Common Definition
 
-The archive converges on one definition: production search evaluation isn't a
-single relevance score. Teams first check whether the retriever found plausible
-candidates. Then they check whether the ranker ordered them well. Finally, they
-check whether users and the business got the outcome they came for.
+Across the search episodes, production search evaluation isn't one relevance
+number. It's a set of checks across candidate generation and ranking. Answer
+quality and product impact belong in the same definition.
+[Daniel Svonava]({{ '/people/danielsvonava/' | relative_url }}) defines search
+as a relevance decision in
+[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }})
+around 6:20, then separates candidate generation from ranking around 12:45.
+That split matters because a ranker can't fix useful documents that retrieval
+never returned.
 
-In [Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}),
-Daniel Svonava separates fast candidate generation from ranking around 12:45.
-That split matters for evaluation because a ranker can't fix documents that
-retrieval never returned. A good candidate set can still fail when ranking,
-filters, or business rules order it badly.
+[Atita Arora]({{ '/people/atitaarora/' | relative_url }}) applies the same
+layered view to RAG in
+[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}).
+At 38:24-48:09, she separates chunking and embedding choice. Retrieval count
+and prompt context are separate checks too. She also separates citations,
+generated answers, offline tests, and human review.
+For RAG, evaluation must show both that the right evidence was retrieved and
+that the generated response used it correctly.
 
-In [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}),
-Atita Arora applies the same evaluation split to RAG. From 42:49 to 48:09 she
-separates model choice, chunking, retrieval count, and prompt context. She also
-treats citations, answer quality and end-user feedback as separate checks.
+This puts production search evaluation between
+[Evaluation]({{ '/wiki/evaluation/' | relative_url }}),
+[LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }}),
+[A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }}), and
+[Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }}). Offline
+relevance checks diagnose the system quickly. Online experiments and monitoring
+show whether changes hold up with real users, traffic, and business goals.
 
-## Guest Perspectives
+## Guest Differences
 
-Daniel pushes teams toward business metrics. At 1:01:25, he argues that search
-metrics become more valuable when they connect to the outcome a company cares
-about. Examples include revenue, contacts, clicks, and orders. Around 1:03:50,
-he adds offline tests and A/B tests. He also adds control groups and
-engineer-accessible metrics for fast iteration
-([Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }})).
+The guests agree that search quality needs evidence, but they start from
+different decision points.
 
-In [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}),
-Atita starts one layer lower (40:01-48:09).
-
-She checks these pieces of the system:
-
-- chunking strategy and overlap
-- embedding model and retrieval count
-- references, generated responses, and human review
-
-Teams can use this checklist when they don't yet have enough live traffic for
-reliable online experiments.
-
-In [Production ML Search]({{ '/podcasts/production-ml-search-vector-search-embeddings-hybrid-search/' | relative_url }}),
-Reem Mahmoud emphasizes product constraints that ordinary semantic similarity
-can miss. Around 34:00-45:11, the episode covers recency, popularity, and
-filters. It also covers feature fusion and query-time weights. Teams need to
-evaluate those signals because each can improve one use case while harming
-another.
-
-## Evaluate Retrieval and Ranking Separately
-
-Production search first retrieves a small candidate set, then ranks it. Daniel
-describes retrieval as narrowing the haystack. Ranking is a more model-heavy
-decision about the probability that a query and result match
-([Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}),
-12:45).
-
-Teams should test retrieval and ranking separately. Retrieval evaluation asks
-whether relevant items are present in the candidate set at all. Ranking
-evaluation asks whether the best items are near the top after scoring,
-reranking, filtering, or personalization. Mixing the two can hide failures: a
-team may tune ranking metrics while the retriever silently drops the most useful
-documents.
-
-## Tie Search Metrics to Product Outcomes
-
-The archive warns against dashboards that matter only to the search team. In
+Daniel starts from production retrieval and business value. In
 [Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}),
-Daniel says around 1:01:25 that funding and trust improve when metrics connect
-to business performance. A marketplace can translate search success into
-contacts, clicks, orders, or other events that can be assigned business value.
+he moves from relevance and ranking to hybrid search signals, vector database
+choices, and business metrics.
 
-This doesn't mean every evaluation starts with revenue. Early-stage systems may
-use offline relevance judgments and click-through proxies. They may also use
-successful-event counts, latency targets, or human labels. Teams should make
-the proxy explicit, then test whether it predicts the product outcome.
+Around 1:01:25, he argues that search metrics become more valuable when they
+connect to product outcomes. Examples include clicks, contacts, orders, and
+revenue. Around 1:03:50, he adds offline tests and A/B tests. He also wants
+engineer-facing metrics for faster iteration.
 
-## Use Offline Tests Before Online Experiments
+Atita starts from modern search architecture and RAG quality. In
+[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}),
+she compares vector databases with existing search systems at 17:01-20:27 and
+then evaluates RAG as a pipeline at 38:24-48:09. Her frame is useful when a
+team must locate the source of poor answers. The failure may come from
+chunking, embedding choice, or retrieval. It may also come from prompt
+construction, missing citations, or generation.
 
-Offline tests give teams repeatable checks before they expose changes to users.
-Atita describes preparing representative questions and expected answers
-for RAG evaluation. Around 48:09, she compares pipeline responses with human
-review and semantic similarity
-([Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})).
+[Reem Mahmoud]({{ '/people/reemmahmoud/' | relative_url }}) focuses on the
+production constraints that semantic similarity alone misses in
+[Production ML Search]({{ '/podcasts/production-ml-search-vector-search-embeddings-hybrid-search/' | relative_url }}).
+Around 34:00-45:11, the discussion covers recency, popularity, and metadata.
+It also covers filters, feature fusion, and query-time weights. Her frame is
+useful for search products where relevance is contextual. The "best" result
+depends on freshness, constraints, personalization, and the user's immediate
+task.
 
-Daniel's production-search discussion says offline tests give engineers fast
-feedback before or alongside A/B tests
-([Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}),
-1:03:50). Teams can use offline tests for speed and diagnosis. Then they can
-use online experiments when the question is whether the change actually moves
-user behavior.
+## Retrieval and Ranking
 
-## Evaluate Hybrid Signals as Tradeoffs
+Evaluate retrieval before ranking because retrieval evaluation asks whether the
+candidate set contains the right records. Those records may include documents
+and products. They may also include chunks, images, or entities. Ranking
+evaluation asks whether the best candidates appear near the top after scoring,
+reranking, filtering, or personalization.
 
-Hybrid search adds relevance signals beyond text similarity, including filters,
-recency, and popularity. It can also include behavioral data, personalization,
-and business constraints. The
+Daniel's architecture split in
+[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }})
+around 12:45 gives a practical debugging rule. If relevant items are absent
+from the candidate set, work on indexing or query understanding. Embeddings,
+metadata, and recall may need attention too.
+
+If the items are present but buried, work on ranking features or weights.
+Reranking and business rules may need changes. A single dashboard metric can
+hide the actual fix when both failures are mixed together.
+
+A RAG chatbot may answer badly for the same layered reasons. The retriever may
+find the wrong chunks, the prompt may use them poorly, or the model may invent
+unsupported text. Atita's RAG evaluation discussion at 48:09 in
+[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
+keeps those checks separate through offline tests and human review.
+
+## Vector and Hybrid Search
+
+Vector search changes what teams can retrieve, but it doesn't remove the need
+for ordinary relevance evaluation. Daniel covers dense representations,
+embedding pipelines, vector storage, and multimodal retrieval at 11:29-33:13 in
+[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}).
+Those sections connect vector retrieval to
+[Vector Database vs Search Engine]({{ '/wiki/vector-database-vs-search-engine/' | relative_url }}).
+Nearest-neighbor search is only part of the production system.
+
+Hybrid search is where evaluation becomes a tradeoff exercise. In
+[Production ML Search]({{ '/podcasts/production-ml-search-vector-search-embeddings-hybrid-search/' | relative_url }}),
+the 34:00-45:11 sections combine vector similarity with product signals.
+Those signals include filters, recency, and popularity. Metadata and query-time
+weights are part of the same design.
+
+A freshness boost can help newsy queries and hurt evergreen results. A strict
+filter can enforce a product rule and remove a useful near match.
+
+Popularity can improve average engagement while making niche queries worse.
+
+Segment-level checks matter more than aggregate metrics alone. Teams should
+evaluate exact-match and semantic queries separately, then separate long-tail
+queries from new and stale content. Content behind permission filters needs its
+own checks. High-value business segments need their own checks too because the
+archive's search discussions treat these as product choices, not merely model
+tuning.
+
+## RAG Answer Quality
+
+RAG evaluation adds answer-level checks on top of retrieval checks. Atita's
+podcast-transcript chatbot example in
+[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
+starts with ingestion, chunking, and overlap at 38:24. Embedding models and
+vectorization are part of the same setup. It then retrieves context, builds a
+prompt, and returns citations at 42:49. Evaluation at 48:09 includes
+multi-level metrics, offline tests, and human review.
+
+That workflow connects directly to
+[Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
+and [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }}).
+The retrieval layer should be judged on evidence coverage and citation
+usefulness. The answer layer should be judged on correctness, support from the
+retrieved context, and refusal behavior. Formatting and user feedback belong in
+the same review.
+
+This is also why
+[RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }}) is an
+evaluation question. If the failure is missing or stale knowledge, retrieval
+and source preparation are likely the right levers. If the failure is behavior
+or style, the fix may belong in prompting or fine-tuning. Formatting and task
+execution may show that the issue belongs in application logic.
+
+## Offline Tests and Online Experiments
+
+Offline tests are the fast diagnostic loop. They let engineers compare
+retrievers, rankers, chunking strategies, and embedding models. Prompts and
+rerankers belong in the comparison too. The comparison runs against a stable set
+of representative cases.
+
+Daniel mentions offline evaluation as part of search operationalization around
+1:03:50 in
+[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}).
+Atita uses offline tests and human review for RAG around 48:09 in
+[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}).
+
+Online experiments check whether the change improved user behavior under live
+product conditions. Daniel's business-metrics discussion
+around 1:01:25 ties search changes to
+[A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }}) and production
+rollouts. A/B tests are useful when traffic, assignment, exposure logging, and
+metric definitions are strong enough to support the decision.
+
+The archive's practical sequence uses both offline and online checks. Offline
+tests catch obvious regressions and explain failure modes. Online experiments
+measure whether the new retrieval or ranking behavior improves the product
+outcome that the team actually cares about.
+
+## Monitoring and Feedback Loops
+
+Search evaluation doesn't end at launch. Indexes and content freshness change,
+and user behavior changes too. Embedding models and business rules can also
+shift. Daniel's
+discussion of vector compute and ingestion at 29:00-33:13 in
+[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }})
+shows why production search needs versioning and operational discipline.
+Recomputing embeddings or swapping models can change retrieval behavior even
+when the UI stays the same.
+
+Monitoring should include service health, latency, and index freshness, plus
+empty and low-confidence results. Click behavior, conversion behavior, and user
+feedback matter too.
+
+Drift checks should cover queries, documents, metadata, and ranking signals.
+This connects production search to
+[Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }}) and
+[MLOps]({{ '/wiki/mlops/' | relative_url }}). The search-specific concern is
+relevance over time, especially whether results still help with current user
+queries.
+
+RAG systems need additional feedback loops. They should log retrieved chunks,
+citations, prompts, and generated answers where privacy and product constraints
+allow. User feedback and review labels belong in the logs too.
+
+Those logs help teams locate failures because the issue may belong in
+ingestion, chunking, or retrieval. It may also belong in prompt assembly, model
+choice, or answer policy.
+
+## Product and Business Fit
+
+Production search evaluation is ultimately a product-fit question. Daniel's
+1:01:25 discussion in
+[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }})
+warns against search dashboards that only the search team understands. A
+marketplace or ecommerce site may need different success metrics from a support
+system, internal knowledge base, or RAG assistant. Useful metrics include
+contact rate, order rate, resolved tickets, and time saved. Answer acceptance,
+user trust, and revenue may matter too.
+
+Reem's hybrid-search sections in
 [Production ML Search]({{ '/podcasts/production-ml-search-vector-search-embeddings-hybrid-search/' | relative_url }})
-episode shows why this is hard around 34:00. A strict recency filter can remove
-a relevant article that's just outside the cutoff, while a pure semantic
-match can return stale or unpopular results.
+show why product fit can conflict with raw similarity. Freshness, filters,
+metadata, and popularity can improve one workflow while hurting another.
+Business rules can do the same. Good evaluation names the user segment and
+decision the system serves before optimizing the metric.
 
-Teams should therefore check tradeoffs, not only aggregate relevance.
-Freshness, exact-match behavior, and semantic recall can point in different
-directions. Latency, diversity, personalization, and commercial constraints can
-pull the ranking in other directions.
-Guests distinguish hard requirements from soft scoring signals. Teams can then
-test query-time weights or ranking rules by context.
-
-## Evaluate RAG Answers Beyond Retrieval
-
-RAG systems add another layer because the answer can fail even when retrieval
-succeeds. Atita's podcast-transcript chatbot example retrieves chunks and
-augments a prompt. It asks the LLM to answer from context and can attach
-references to build user trust
-([Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}),
-42:49). Teams then need to look at chunk choice and citation usefulness. They
-also need to check answer correctness, unsupported claims, "I don't know"
-behavior, and user feedback.
-
-This is why [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
-treats search quality and RAG answer quality as related but separate. A search
-system can retrieve the right evidence and still generate a weak answer. A
-generative answer can sound fluent while hiding a retrieval miss.
+For RAG, product fit includes trust. Atita's citation and human-review guidance
+in
+[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
+turns answer quality into a user-facing issue. A fluent answer that hides weak
+retrieval is worse than a cautious answer with clear sources when the product
+depends on evidence.
 
 ## Related Pages
 
-These pages cover the surrounding search and evaluation topics:
+These pages cover the surrounding search, retrieval, evaluation, and production
+topics:
 
 - [Search]({{ '/wiki/search/' | relative_url }})
-- [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
 - [Information Retrieval]({{ '/wiki/information-retrieval/' | relative_url }})
+- [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
+- [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
+- [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }})
 - [Vector Database vs Search Engine]({{ '/wiki/vector-database-vs-search-engine/' | relative_url }})
 - [Evaluation]({{ '/wiki/evaluation/' | relative_url }})
 - [A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }})
+- [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }})

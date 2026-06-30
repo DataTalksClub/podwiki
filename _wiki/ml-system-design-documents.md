@@ -1,185 +1,238 @@
 ---
 layout: wiki
 title: "ML System Design Documents"
-summary: "Podcast-grounded reference for ML design docs as fail-fast, ownership, data strategy, monitoring, and fallback artifacts."
+summary: "Podcast-grounded reference for ML design docs as fail-fast, ownership, data strategy, monitoring, review, and production-readiness artifacts."
 related:
   - Machine Learning System Design
   - Documentation
   - MLOps
   - Model Monitoring
   - Software Engineering
+  - Evaluation
+  - Data Quality and Observability
 ---
 
-ML system design documents make an ML system's goal and scope explicit. They
-also record assumptions and data strategy. They capture baselines, evaluation
-plans, ownership, and operational risks. Teams write them before they commit
-months of implementation. They're a focused
-companion to
-[Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }}),
-[Documentation]({{ '/wiki/documentation/' | relative_url }}), [MLOps]({{ '/wiki/mlops/' | relative_url }}),
-and [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }}).
+## Definition
 
-Podcast guests converge on a practical view: the design document isn't a
-paperwork gate. Teams use it to expose weak assumptions, missing data, and
-unclear ownership. They can also catch bad baselines, deployment gaps, and
-monitoring blind spots while the project is still cheap to change.
+An ML system design document is the written specification for an
+[ML system]({{ '/wiki/machine-learning-system-design/' | relative_url }}) before
+and during implementation. It names the product decision, goals, and non-goals.
+It also records assumptions, data paths, and baselines. Evaluation and serving
+belong in the same artifact.
 
-## Link Map
+Ownership, monitoring, and fallback behavior do too. It's closer to an
+engineering design review than to a research report.
 
-Use these wiki pages for the engineering context:
-
-- [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
-- [Documentation]({{ '/wiki/documentation/' | relative_url }})
-- [MLOps]({{ '/wiki/mlops/' | relative_url }})
-- [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }})
-- [Software Engineering]({{ '/wiki/software-engineering/' | relative_url }})
-- [Evaluation]({{ '/wiki/evaluation/' | relative_url }})
-- [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
-
-Start with these podcast interviews:
-
-- [Building Scalable and Reliable Machine Learning Systems]({{ '/podcasts/building-scalable-and-reliable-machine-learning-systems/' | relative_url }}) with [Arseny Kravchenko]({{ '/people/arsenykravchenko/' | relative_url }})
-- [ML System Design]({{ '/podcasts/ml-system-design/' | relative_url }}) with [Valerii Babushkin]({{ '/people/valeriybabushkin/' | relative_url }})
-- [Software Engineering for Machine Learning]({{ '/podcasts/software-engineering-for-machine-learning/' | relative_url }}) with [Nadia Nahar]({{ '/people/nadianahar/' | relative_url }})
+The DataTalks.Club archive treats these documents as coordination tools for
+[MLOps]({{ '/wiki/mlops/' | relative_url }}),
+[documentation]({{ '/wiki/documentation/' | relative_url }}), and
+[software engineering]({{ '/wiki/software-engineering/' | relative_url }}).
+[Valerii Babushkin]({{ '/people/valeriybabushkin/' | relative_url }}) frames the
+design document as a way to fail fast in
+[ML System Design Playbook]({{ '/podcasts/ml-system-design/' | relative_url }}).
+At 7:06 and 8:39, he compares it to a blueprint that can expose weak assumptions
+before months of implementation.
+[Arseny Kravchenko]({{ '/people/arsenykravchenko/' | relative_url }})
+uses a similar problem-first frame in
+[Building Scalable and Reliable Machine Learning Systems]({{ '/podcasts/building-scalable-and-reliable-machine-learning-systems/' | relative_url }}),
+where goals and constraints come before model choice. Assumptions, metrics, and
+data flow come early too.
 
 ## Common Definition
 
-An ML system design document is a compact, shareable description of the system
-the team intends to build. It also records the risks the team must manage. In
-[Building Scalable and Reliable Machine Learning Systems]({{ '/podcasts/building-scalable-and-reliable-machine-learning-systems/' | relative_url }}),
-Arseny Kravchenko argues for a lightweight design phase that splits attention
-between the problem and the solution. The problem side records product scenarios
-and goals. It also records non-goals, assumptions, constraints, and metrics.
+Across the podcast episodes, an ML system design document is a compact, living
+agreement about the system the team plans to build. It also states what must be
+true for that system to work in production. The shared structure is problem
+first, then solution. A useful document starts with the decision the model
+supports and the users affected by that decision. It then adds the metric or
+business outcome, plus the conditions where the team shouldn't use ML.
 
-On the solution side, teams cover the baseline, model direction, and data flow.
-They also cover pipeline components and data strategy.
+Valerii's design-doc episode makes the fail-fast purpose explicit. At 14:36, he
+connects shared design docs to stakeholder alignment, feedback, and simplicity.
+At 19:01, he argues that the design doc has to stay alive as the system changes.
 
-Valerii Babushkin describes the design document as a way to fail fast in
-[ML System Design]({{ '/podcasts/ml-system-design/' | relative_url }}). A project
-may not survive the questions raised in a few weeks of design. Teams should
-learn that before six or nine months of implementation. They can also use the
-document to see whether the project is feasible. Teams should also use it to
-show what must be owned and where reliability work has to happen.
+At 43:53, his outline starts with preliminary research and loss functions. It
+then adds metrics, datasets, validation schema, and a baseline solution. Later
+sections cover error analysis, training pipelines, features, and reporting. The
+outline also includes integration, reliability, and monitoring. Serving,
+ownership, and maintenance are part of it too
+([ML System Design Playbook]({{ '/podcasts/ml-system-design/' | relative_url }})).
+
+Arseny describes the same artifact from startup and production-systems work.
+In his episode at 20:21 and 29:01, the document splits attention between the
+problem and the solution. The problem side records product scenarios, goals, and
+non-goals. It also records assumptions, constraints, and metrics.
+
+The solution side records the baseline and model direction. Data flow, pipeline
+components, and data strategy belong there too
+([Building Scalable and Reliable Machine Learning Systems]({{ '/podcasts/building-scalable-and-reliable-machine-learning-systems/' | relative_url }})).
 
 ## Guest Differences
 
-Arseny emphasizes early scoping and decision quality. His examples include
-startups, edge and mobile constraints, photostock search, and retail pricing. He
-also covers baseline tests, data availability, batch versus real-time flows, and
-system diagrams in
-[Building Scalable and Reliable Machine Learning Systems]({{ '/podcasts/building-scalable-and-reliable-machine-learning-systems/' | relative_url }}).
-His design-doc advice is intentionally lightweight enough to fit small teams and
-ambiguous early projects.
+Valerii emphasizes design documents as long-lived production artifacts. His
+episode returns to maintenance, modular chapters, versioning signals, and
+review. It also covers ownership, bus-factor risk, monitoring, and fallback
+planning. In his view, the team should treat the design doc as part of
+[model monitoring]({{ '/wiki/model-monitoring/' | relative_url }}) and
+[MLOps architecture]({{ '/guides/mlops-architecture/' | relative_url }}), not just
+as a planning note.
 
-Valerii emphasizes long-lived documentation and modular chapters in
-[ML System Design]({{ '/podcasts/ml-system-design/' | relative_url }}). He also
-emphasizes ownership, versioning signals, and bus factor. Reliability matters in
-his account too. So do monitoring and fallback planning.
+Arseny emphasizes early scoping and decision quality through examples that
+include startups, edge ML, and mobile ML. Photostock search and retail pricing
+appear in the same discussion. At 10:34, mobile constraints make latency and
+frames per second first-class design inputs.
+Energy use, model size, offline behavior, and runtime choices matter too.
 
-Nadia Nahar adds the software-engineering focus in
+At 37:15, he uses diagrams to reason about data flow. He also uses them for
+dependencies and batch versus real-time paths.
+
+[Nadia Nahar]({{ '/people/nadianahar/' | relative_url }}) adds the software
+engineering warning in
 [Software Engineering for Machine Learning]({{ '/podcasts/software-engineering-for-machine-learning/' | relative_url }}).
-ML products fail when teams treat requirements and data access as secondary
-concerns. Team integration, deployment expectations, and documentation need the
-same attention.
+At 10:54 and 29:42, she names poor requirements and unrealistic expectations as
+recurring causes of ML project failure. Data access and deployment gaps matter
+too. At 56:55, she argues for involving ML practitioners from requirements
+through testing.
+That broadens the document from a modeling artifact into a cross-functional
+review surface.
 
-## Goals, Non-Goals, and Assumptions
+## Requirements, Non-Goals, and Assumptions
 
-Teams narrow the problem before they discuss solution details. Arseny recommends
-writing goals, non-goals, and assumptions first
+The first job of the document is to turn vague model intent into requirements
+that another team can review. Arseny's problem-first design section asks teams
+to write goals and non-goals before they choose architecture. Assumptions,
+constraints, and metrics come early too
 ([Building Scalable and Reliable Machine Learning Systems]({{ '/podcasts/building-scalable-and-reliable-machine-learning-systems/' | relative_url }})).
-Teams ask what decision the model supports and which success metric matters.
-They should also state what the system explicitly won't solve and which product
-constraints are fixed.
+This protects the design from becoming a model wish list.
 
-By narrowing the problem first, teams avoid turning design work into a model
-wish list. For an edge or mobile ML system, latency and frames per second may
-matter more than offline accuracy. Energy use, model size, offline behavior, and
-platform constraints may matter more too. For pricing, search, or
-recommendation, business behavior and metric choice guide the architecture
-before model selection starts.
+Good requirements connect the model to a product action. A fraud system might
+block a transaction or route it to manual review. A pricing system might change
+a displayed price or only recommend one to an operator. A search system might
+rank, filter, or explain.
 
-## Data Strategy and Baselines
+Teams should write which action is in scope. They should also write which
+failure costs matter and where human review is required. Those choices connect
+the design work to
+[evaluation]({{ '/wiki/evaluation/' | relative_url }}) and
+[experimentation]({{ '/wiki/experimentation/' | relative_url }}), because offline
+metrics alone don't define product success.
 
-Guests treat the baseline as a design requirement. Arseny says the team needs a
-baseline and a metric. Without both, the team can't know whether a proposed ML
-solution is useful
+Requirements are organizational too, and Nadia's episode shows how unclear
+vocabulary and data access assumptions create hidden technical debt. Deployment
+expectations create the same risk
+([Software Engineering for Machine Learning]({{ '/podcasts/software-engineering-for-machine-learning/' | relative_url }})).
+An ML design document is useful when it gives data scientists, ML engineers,
+software engineers, and product owners the same object to challenge. Domain
+experts and operations owners need that review surface too.
+
+## Data Strategy, Baselines, and Evaluation
+
+The archive treats baselines as design work, not as an afterthought. At 55:13,
+Valerii recommends simple baseline solutions. Teams can use them to test
+hypotheses. They can also iterate before they over-invest
+([ML System Design Playbook]({{ '/podcasts/ml-system-design/' | relative_url }})).
+
+Arseny makes the same point through metrics and data availability. Without a
+baseline and a metric, the team can't tell whether the system is useful
 ([Building Scalable and Reliable Machine Learning Systems]({{ '/podcasts/building-scalable-and-reliable-machine-learning-systems/' | relative_url }})).
-Valerii reinforces the same practice with simple baseline solutions. They
-validate hypotheses quickly before the team over-invests
-([ML System Design]({{ '/podcasts/ml-system-design/' | relative_url }})).
 
-Teams should use the data strategy to record whether the data exists. They
-should also explain where the data comes from and how they process it. The
-needed features belong there too. Teams should say whether a data lake or
-pipeline already supports the flow. They should also state whether the system
-needs batch, streaming, or online serving.
+Teams should use the data section to explain whether the required data exists
+and who owns it. They should state where the data comes from and how they
+process it. They should also say whether features can be computed at prediction
+time.
 
-Those questions link the design document to
-[Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
-and [Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }}). An ML design
-without a data path hides the most common production failure modes.
+Teams should choose between batch scoring and streaming features. They should
+also decide whether the system needs online serving or offline analysis. Those
+decisions tie ML design docs to
+[data pipelines]({{ '/wiki/data-pipelines/' | relative_url }}),
+[batch versus streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }}), and
+[data quality and observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).
+
+Evaluation belongs in the same written artifact because model quality and
+product quality can diverge. Teams should record the offline metric and the
+business metric. They should also record slices or cohorts to look at, the
+validation data source, and the error analysis plan. The rollout method belongs
+there too.
+
+If the system affects users directly, the review may need an A/B test or shadow
+deployment. It may also need a manual-review queue or staged launch rather than
+a single offline score.
+
+## Review and Production Readiness
+
+Guests describe written specs as a way to move production risk earlier. Valerii
+links design documents to feedback and review at 14:36. At 41:01, he connects
+them to design-doc review and update frequency
+([ML System Design Playbook]({{ '/podcasts/ml-system-design/' | relative_url }})).
+
+The review is valuable when it catches missing data and fragile dependencies. It
+should also catch unowned components, unrealistic latency targets, weak
+baselines, and privacy issues. Governance issues and missing fallback behavior
+should be visible before launch.
+
+Production readiness in an ML design doc should cover the system boundary. That
+boundary includes training, features, serving, and integrations. It also
+includes deployment, monitoring, and alerts. Rollback and ownership belong there
+too.
+
+This is where the team's design work overlaps with [MLOps]({{ '/wiki/mlops/' | relative_url }}),
+[machine learning infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }}),
+and [software engineering]({{ '/wiki/software-engineering/' | relative_url }}).
+Nadia's software-engineering episode supports this broader review bar by
+showing how ML projects stall when documentation and requirements stay separate
+from modeling work. Testing and deployment need the same integration
+([Software Engineering for Machine Learning]({{ '/podcasts/software-engineering-for-machine-learning/' | relative_url }})).
 
 ## Ownership and Living Documentation
 
-Valerii repeatedly stresses that a design document is a living artifact, not a
-finished approval file
-([ML System Design]({{ '/podcasts/ml-system-design/' | relative_url }})).
-If implementation changes and the document isn't updated, the document loses
-its value. His answer is modularity and accountability. Chapters or sections
-should have owners, and the document should make responsibility visible.
+Valerii repeatedly argues that a design document isn't finished when the first
+version is approved. At 19:01 and 24:37, he connects the artifact to maintenance,
+accountability, and explicit responsibility areas. At 31:59, he uses bus-factor
+risk to show why the document should reveal people dependencies
+([ML System Design Playbook]({{ '/podcasts/ml-system-design/' | relative_url }})).
 
-That ownership also reduces bus-factor risk. When only one person understands a
-model, data pipeline, or integration, the system becomes fragile. The same risk
-applies when one person understands the monitoring setup. Teams can use the
-design document to map those dependencies. They can
-also make maintenance work explicit.
+That makes ownership a design-doc section, not a project-management appendix.
+Teams should state who owns the model and data sources. They should also name
+owners for feature definitions, pipelines, and deployment.
 
-Readers can connect this ownership work to [Documentation]({{ '/wiki/documentation/' | relative_url }})
-and [Software Engineering]({{ '/wiki/software-engineering/' | relative_url }}).
-People get value from the artifact only when it helps them coordinate real
-engineering work.
+Monitoring, incident response, and product decisions need owners too. If
+different groups own those pieces, the team should make the handoffs visible.
+This connects ML design docs to
+[documentation]({{ '/wiki/documentation/' | relative_url }}),
+[governance]({{ '/wiki/governance/' | relative_url }}), and
+[data product management]({{ '/wiki/data-product-management/' | relative_url }}).
 
-## Monitoring and Fallbacks
+## Monitoring, Drift, and Fallbacks
 
-Monitoring and fallback planning belong in the design document before launch.
-Valerii names data drift, concept drift, and prediction drift as design-doc
-concerns. He also includes model quality, data quality, and reliability.
-Monitoring, serving, and inference optimization belong there too
-([ML System Design]({{ '/podcasts/ml-system-design/' | relative_url }})).
-The team should decide what can go wrong and how the system should react before
-an incident happens.
+Monitoring and fallbacks belong in the design before the first production
+release. Valerii separates data drift, concept drift, and prediction drift at
+47:46. At 51:59, he links fallback strategies to redundancy, simple baselines,
+and serving reliability
+([ML System Design Playbook]({{ '/podcasts/ml-system-design/' | relative_url }})).
+Those sections should state what can break. They should also state what the
+product should do when it breaks.
 
-A fallback might be a simple baseline, a previous model, or manual review. It
-might also be redundancy, graceful degradation, or a different serving path. The
-right choice depends on the product risk. Fraud detection, pricing, and search
-products have different failure costs.
+The answer may be a previous model or a simple rule. It may be a cached
+recommendation or a manual-review route. It may also be a disabled automation or
+a slower but safer serving path. The right fallback depends on the failure cost.
 
-Healthcare and education products differ too. They all need a documented answer
-for what happens when the model, data, or integration fails.
-
-## Requirements and Team Alignment
-
-Nadia Nahar's
-[Software Engineering for Machine Learning]({{ '/podcasts/software-engineering-for-machine-learning/' | relative_url }})
-episode broadens the design-doc conversation beyond the document. Her research
-discussion shows hidden technical debt from unmet requirements, poor data, and
-deployment gaps. It also covers CRISP-DM and Agile mismatches, siloed teams, and
-unclear communication. Documentation helps only when it's part of shared
-vocabulary, requirements alignment, engineering support, and testing.
-
-The people who will live with the system should review ML design documents.
-Reviewers should include data scientists, ML engineers,
-software engineers, and product owners. Platform teams, domain experts, and
-operations owners should review them too. A design document
-that only satisfies the modeling team can still fail at deployment, monitoring,
-or user adoption.
+A healthcare or education system may require stronger human review and
+explainability. A pricing or search system may need staged rollout. Fraud and
+recommendation systems may need alert thresholds and rollback rules. Teams
+should connect those decisions to
+[model monitoring]({{ '/wiki/model-monitoring/' | relative_url }}),
+[data quality and observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}),
+and [governance]({{ '/wiki/governance/' | relative_url }}).
 
 ## Related Pages
 
-These pages cover adjacent ML design and delivery topics:
+These pages expand the design-doc decisions above.
 
 - [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
 - [Documentation]({{ '/wiki/documentation/' | relative_url }})
 - [MLOps]({{ '/wiki/mlops/' | relative_url }})
+- [Machine Learning Infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }})
 - [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }})
+- [Evaluation]({{ '/wiki/evaluation/' | relative_url }})
+- [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [Software Engineering]({{ '/wiki/software-engineering/' | relative_url }})
