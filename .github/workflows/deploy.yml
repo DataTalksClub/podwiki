@@ -41,6 +41,8 @@ jobs:
         run: .bin/rustkyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
+      - name: Fix sitemap and feed URLs
+        run: python scripts/fix_absolute_urls.py --baseurl "${{ steps.pages.outputs.base_path }}"
       - name: Check internal links
         run: python scripts/check_links.py --baseurl "${{ steps.pages.outputs.base_path }}"
       - name: Upload artifact

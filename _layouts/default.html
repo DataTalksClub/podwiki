@@ -1,10 +1,29 @@
 <!doctype html>
 <html lang="en">
   <head>
+    {% assign page_description = site.description %}
+    {% if page.summary %}
+      {% assign page_description = page.summary %}
+    {% endif %}
+    {% assign canonical_url = site.url | append: site.baseurl | append: page.url %}
+    {% if page.source_url and page.collection == "podcast_summaries" %}
+      {% assign canonical_url = page.source_url %}
+    {% elsif page.source_url and page.collection == "people" %}
+      {% assign canonical_url = page.source_url %}
+    {% endif %}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-    <meta name="description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="description" content="{{ page_description | escape }}">
+    <link rel="canonical" href="{{ canonical_url }}">
+    <meta property="og:site_name" content="{{ site.title | escape }}">
+    <meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
+    <meta property="og:description" content="{{ page_description | escape }}">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="{{ canonical_url }}">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
+    <meta name="twitter:description" content="{{ page_description | escape }}">
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
     <link rel="stylesheet" href="{{ '/assets/site.css' | relative_url }}">

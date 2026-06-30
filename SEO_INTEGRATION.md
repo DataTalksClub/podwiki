@@ -124,9 +124,9 @@ wiki page already owns.
 
 - [ ] Main repo `robots.txt`: add `Sitemap: https://datatalks.club/podwiki/sitemap.xml`
 - [ ] Main repo: add nav/footer link to `/podwiki/`; podwiki links back
-- [ ] Verify CI sitemap `<loc>` includes `/podwiki/`; if not, set `baseurl: "/podwiki"` in `_config.yml`
-- [ ] Add self-referencing canonical + OG tags to podwiki `_layouts/default.html`
-- [ ] Canonicalize podwiki people → main `/people/`; podcast summaries → main `/podcast/`
+- [x] Verify CI sitemap `<loc>` includes `/podwiki/`; if not, set `baseurl: "/podwiki"` in `_config.yml`
+- [x] Add self-referencing canonical + OG tags to podwiki `_layouts/default.html`
+- [x] Canonicalize podwiki people → main `/people/`; podcast summaries → main `/podcast/`
 - [ ] Consolidate the article keyword swarm into topics + roadmaps/Q&A (§5)
 - [ ] Remove podwiki articles that duplicate wiki slugs or target branded/course terms
 - [ ] Resubmit both sitemaps in Google Search Console
