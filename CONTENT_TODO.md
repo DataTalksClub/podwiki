@@ -238,20 +238,33 @@ Existing pages:
 - `_wiki/batch-vs-streaming.md` owns the canonical batch vs streaming decision.
 - `_wiki/data-warehouse-vs-data-lakehouse.md` owns the canonical warehouse vs
   lakehouse decision.
+- `_wiki/data-mesh-vs-centralized-data-platform.md` owns the canonical data mesh
+  vs centralized platform decision unless a separate editorial comparison is
+  needed.
+- `_wiki/vector-database-vs-search-engine.md` owns the canonical vector database
+  vs search engine decision unless a separate editorial comparison is needed.
+- `_wiki/knowledge-graph-vs-vector-search.md` owns the canonical knowledge graph
+  vs vector search decision unless a separate editorial comparison is needed.
 
 Candidate pages:
 
 - Data engineer vs data scientist
 - Data analyst vs analytics engineer
-- Machine learning engineer vs data scientist
+- Machine learning engineer vs data scientist. Create
+  `_comparisons/machine-learning-engineer-vs-data-scientist.md` with
+  `_wiki/machine-learning-engineer-role.md`, `_wiki/data-scientist-role.md`,
+  `data-team-roles.md`, `data-science-interview-and-cv-guide.md`, and
+  `machine-learning-engineering-production-best-practices.md` as primary
+  grounding.
 - Data product manager vs product manager
-- Data product owner vs data product manager
+- Data product owner vs data product manager. Create
+  `_comparisons/data-product-owner-vs-data-product-manager.md` as a focused
+  spin-out from `_comparisons/product-owner-vs-product-manager.md`,
+  `_wiki/data-product-management.md`, and
+  `building-data-products-product-owner-vs-product-manager.md`.
 - MLOps vs DevOps
 - DataOps vs MLOps
-- Data mesh vs centralized data platform
 - RAG vs fine-tuning
-- Vector database vs search engine
-- Knowledge graph vs vector search
 
 Source hints:
 
