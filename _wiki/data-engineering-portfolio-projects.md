@@ -5,6 +5,7 @@ summary: "Archive-backed guidance for data engineering portfolio projects that p
 related:
   - Data Engineering
   - Data Engineering Roadmap
+  - End-to-End Data Pipeline Project
   - Data Pipelines
   - Data Quality and Observability
   - DataOps
@@ -27,6 +28,8 @@ This topic covers junior and transition portfolios aimed at
 data work, or data-science-to-data-engineering moves. For metric modeling and
 BI-heavy projects, use
 [Analytics Engineering Portfolio Projects]({{ '/wiki/analytics-engineering-portfolio-projects/' | relative_url }}).
+For one concrete project structure, use
+[End-to-End Data Pipeline Project]({{ '/wiki/end-to-end-data-pipeline-project/' | relative_url }}).
 For sequencing, use
 [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }}).
 
@@ -202,6 +205,7 @@ and [Data-Led Growth Stack]({{ '/podcasts/data-led-growth-event-tracking-and-rev
 Use these pages to follow the role, architecture, and portfolio-adjacent topics:
 
 - [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }})
+- [End-to-End Data Pipeline Project]({{ '/wiki/end-to-end-data-pipeline-project/' | relative_url }})
 - [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
 - [Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})

@@ -142,10 +142,10 @@ Existing pages:
 - `_wiki/qa-to-ml-and-data-engineering.md`
 - `_wiki/data-scientist-to-machine-learning-engineer.md`
 - `_wiki/software-engineer-to-machine-learning.md`
+- `_roadmaps/data-analyst-to-analytics-engineer.md`
 
 Candidate pages:
 
-- Data analyst to analytics engineer
 - Consultant or freelancer to data product founder
 
 Source hints:
@@ -173,13 +173,14 @@ Existing pages:
 - `_wiki/analytics-engineering-portfolio-projects.md`
 - `_wiki/rag-portfolio-projects.md`
 - `_wiki/open-source-portfolio-evidence.md`
+- `_wiki/end-to-end-data-pipeline-project.md`
+- `_wiki/production-ml-project-checklist.md`
+- `_wiki/search-and-rag-project-checklist.md`
+- `_wiki/dashboard-and-metric-layer-project-checklist.md`
 
 Candidate pages:
 
-- End-to-end data pipeline project
-- Production ML project checklist
-- Search or RAG project checklist
-- Dashboard and metric-layer project checklist
+- Improve the published project-checklist pages as new interviews add evidence.
 
 Source hints:
 
@@ -198,6 +199,13 @@ not generic course lists.
 
 Existing pages:
 
+- `_wiki/data-engineering-roadmap.md`
+- `_roadmaps/data-engineer-roadmap.md`
+- `_roadmaps/how-to-become-a-data-engineer-with-no-experience.md`
+- `_wiki/analytics-engineering-roadmap.md`
+- `_wiki/ai-engineering-roadmap.md`
+- `_wiki/mlops-roadmap.md`
+- `_wiki/data-scientist-interview-roadmap.md`
 - `_wiki/machine-learning-system-design.md`
 - `_wiki/mlops-and-dataops.md`
 - `_wiki/llm-production-patterns.md`
@@ -206,12 +214,7 @@ Existing pages:
 
 Candidate pages:
 
-- Data engineering roadmap
-- Analytics engineering roadmap
 - Machine learning engineer roadmap
-- AI engineer roadmap
-- MLOps roadmap
-- Data scientist interview roadmap
 - Data product manager roadmap
 - Open-source contributor roadmap
 - LLM / RAG production roadmap

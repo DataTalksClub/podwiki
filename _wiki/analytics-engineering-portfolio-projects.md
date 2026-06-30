@@ -4,6 +4,7 @@ title: "Analytics Engineering Portfolio Projects"
 summary: "Archive-backed guidance for analytics engineering portfolio projects that prove SQL modeling, metric ownership, dbt-style tests, documentation, BI readiness, and stakeholder judgment."
 related:
   - Analytics Engineering
+  - Dashboard and Metric Layer Project Checklist
   - Analytics Engineering Roadmap
   - Data Analyst vs Analytics Engineer
   - Data Engineering Portfolio Projects
@@ -38,6 +39,8 @@ This topic covers portfolios aimed at
 BI-heavy data roles, and analyst-to-engineer transitions. For ingestion,
 orchestration, and platform-heavy work, use
 [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }}).
+For one concrete dashboard and metric-layer project structure, use
+[Dashboard and Metric Layer Project Checklist]({{ '/wiki/dashboard-and-metric-layer-project-checklist/' | relative_url }}).
 For learning order, use
 [Analytics Engineering Roadmap]({{ '/wiki/analytics-engineering-roadmap/' | relative_url }}).
 

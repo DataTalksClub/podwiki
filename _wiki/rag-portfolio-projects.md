@@ -4,6 +4,7 @@ title: "RAG Portfolio Projects"
 summary: "Archive-backed guidance for RAG portfolio projects that prove retrieval quality, context design, citations, evaluation, failure analysis, and production-minded AI engineering."
 related:
   - Retrieval-Augmented Generation
+  - Search and RAG Project Checklist
   - Search, RAG, and Knowledge Systems
   - LLM Evaluation Workflows
   - LLM Production Patterns
@@ -35,6 +36,8 @@ with
 [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
 and
 [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }}).
+For a practical review checklist, use
+[Search and RAG Project Checklist]({{ '/wiki/search-and-rag-project-checklist/' | relative_url }}).
 For general project evidence, compare
 [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
 and
@@ -45,6 +48,7 @@ and
 Core wiki routes:
 
 - [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
+- [Search and RAG Project Checklist]({{ '/wiki/search-and-rag-project-checklist/' | relative_url }})
 - [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
 - [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }})
 - [RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }})

@@ -1,13 +1,13 @@
 {
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
-    "wikis": 174,
-    "articles": 78,
+    "wikis": 178,
+    "articles": 79,
     "podcasts": 202,
     "persons": 438,
     "topics": 146,
-    "nodes": 1038,
-    "links": 11042
+    "nodes": 1043,
+    "links": 11232
   },
   "nodes": [
     {
@@ -97,6 +97,17 @@
       "count": 1,
       "search": "Data Analysis: Practical Work, Skills, and Portfolio Projects A podcast backed guide to practical data analysis: SQL, metrics, dashboards, experiments, stakeholder communication, role boundaries, and portfolio evidence.",
       "keyword": "data analysis"
+    },
+    {
+      "id": "article:roadmap:data-analyst-to-analytics-engineer",
+      "type": "article",
+      "collection": "roadmap",
+      "label": "Data Analyst to Analytics Engineer Roadmap",
+      "title": "Data Analyst to Analytics Engineer Roadmap",
+      "url": "/roadmaps/data-analyst-to-analytics-engineer/",
+      "count": 1,
+      "search": "Data Analyst to Analytics Engineer Roadmap A podcast backed roadmap for analysts moving into analytics engineering through SQL modeling, dbt style workflows, metric ownership, tests, documentation, and portfolio evidence.",
+      "keyword": "data analyst to analytics engineer"
     },
     {
       "id": "article:roadmap:data-analyst-to-data-engineer",
@@ -8933,6 +8944,16 @@
       "search": "CV Screening Archive backed guide to how data CVs and resumes are screened: responsibilities, keywords, project evidence, recruiter calls, bias reduction, and ATS myths."
     },
     {
+      "id": "wiki:dashboard-and-metric-layer-project-checklist",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Dashboard and Metric Layer Project Checklist",
+      "title": "Dashboard and Metric Layer Project Checklist",
+      "url": "/wiki/dashboard-and-metric-layer-project-checklist/",
+      "count": 1,
+      "search": "Dashboard and Metric Layer Project Checklist Archive backed checklist for a dashboard or metric layer portfolio project that proves stakeholder decisions, event definitions, metric ownership, tested models, BI consumption, and adoption."
+    },
+    {
       "id": "wiki:data-activation",
       "type": "wiki",
       "collection": "wiki",
@@ -9391,6 +9412,16 @@
       "url": "/wiki/embeddings/",
       "count": 1,
       "search": "Embeddings How the podcast archive explains embeddings as representations for semantic search, RAG, recommendations, multimodal retrieval, and language systems."
+    },
+    {
+      "id": "wiki:end-to-end-data-pipeline-project",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "End-to-End Data Pipeline Project",
+      "title": "End-to-End Data Pipeline Project",
+      "url": "/wiki/end-to-end-data-pipeline-project/",
+      "count": 1,
+      "search": "End to End Data Pipeline Project Archive backed guidance for a data pipeline portfolio project that proves ingestion, modeling, orchestration, quality checks, recovery behavior, and consumer facing output."
     },
     {
       "id": "wiki:entrepreneurship",
@@ -10013,6 +10044,16 @@
       "search": "Production How DataTalks.Club guests define production systems across data, ML, and AI through deployment, monitoring, reliability, ownership, cost, security, and operational feedback."
     },
     {
+      "id": "wiki:production-ml-project-checklist",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Production ML Project Checklist",
+      "title": "Production ML Project Checklist",
+      "url": "/wiki/production-ml-project-checklist/",
+      "count": 1,
+      "search": "Production ML Project Checklist Archive backed checklist for a production ML portfolio project that proves reproducible training, tracked experiments, registry handoff, deployment, monitoring, and rollback criteria."
+    },
+    {
       "id": "wiki:production-search-evaluation",
       "type": "wiki",
       "collection": "wiki",
@@ -10151,6 +10192,16 @@
       "url": "/wiki/search/",
       "count": 1,
       "search": "Search How the podcast archive frames search as retrieval, ranking, evaluation, semantic matching, and product relevance."
+    },
+    {
+      "id": "wiki:search-and-rag-project-checklist",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Search and RAG Project Checklist",
+      "title": "Search and RAG Project Checklist",
+      "url": "/wiki/search-and-rag-project-checklist/",
+      "count": 1,
+      "search": "Search and RAG Project Checklist Archive backed checklist for a search or RAG portfolio project that proves retrieval quality, context design, citations, evaluation, tracing, and production tradeoffs."
     },
     {
       "id": "wiki:search-rag-and-knowledge-systems",
@@ -25866,6 +25917,234 @@
     },
     {
       "source": "article:how_to:how-to-build-data-pipelines",
+      "target": "wiki:tracking-plans",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-analytics-engineer",
+      "target": "article:comparison:data-analyst-vs-analytics-engineer",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-analytics-engineer",
+      "target": "article:comparison:data-analyst-vs-analytics-engineer",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-analytics-engineer",
+      "target": "person:arpitchoudhury",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-analytics-engineer",
+      "target": "person:christopherbergh",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-analytics-engineer",
+      "target": "person:gloriaquiceno",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-analytics-engineer",
+      "target": "person:juanmanuelperafan",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-analytics-engineer",
+      "target": "person:nataliekwong",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-analytics-engineer",
+      "target": "person:nikolamaksimovic",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-analytics-engineer",
+      "target": "person:victoriaperezmola",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-analytics-engineer",
+      "target": "podcast:analytics-engineer-skills-tools",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-analytics-engineer",
+      "target": "podcast:data-engineering-tools-modern-data-stack",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-analytics-engineer",
+      "target": "podcast:data-led-growth-event-tracking-and-reverse-etl",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-analytics-engineer",
+      "target": "podcast:data-team-roles",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-analytics-engineer",
+      "target": "podcast:dataops-automation-and-reliable-data-pipelines",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-analytics-engineer",
+      "target": "podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-analytics-engineer",
+      "target": "podcast:get-data-analytics-and-data-engineering-job",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-analytics-engineer",
+      "target": "podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-analytics-engineer",
+      "target": "wiki:analytics-engineering",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-analytics-engineer",
+      "target": "wiki:analytics-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-analytics-engineer",
+      "target": "wiki:analytics-engineering-portfolio-projects",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-analytics-engineer",
+      "target": "wiki:analytics-engineering-portfolio-projects",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-analytics-engineer",
+      "target": "wiki:analytics-engineering-roadmap",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-analytics-engineer",
+      "target": "wiki:analytics-engineering-roadmap",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-analytics-engineer",
+      "target": "wiki:dashboard-and-metric-layer-project-checklist",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-analytics-engineer",
+      "target": "wiki:data-analyst-role",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-analytics-engineer",
+      "target": "wiki:data-analyst-role",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-analytics-engineer",
+      "target": "wiki:data-analyst-vs-analytics-engineer",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-analytics-engineer",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-analytics-engineer",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-analytics-engineer",
+      "target": "wiki:dbt",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-analytics-engineer",
+      "target": "wiki:dbt",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-analytics-engineer",
+      "target": "wiki:event-tracking",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-analytics-engineer",
+      "target": "wiki:marketing-to-analytics-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-analytics-engineer",
+      "target": "wiki:metrics",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-analytics-engineer",
+      "target": "wiki:metrics",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-analytics-engineer",
+      "target": "wiki:product-analytics",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-analytics-engineer",
+      "target": "wiki:product-analytics",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-analytics-engineer",
       "target": "wiki:tracking-plans",
       "kind": "article-link",
       "weight": 2
@@ -45258,6 +45537,18 @@
     },
     {
       "source": "wiki:analytics-engineering-portfolio-projects",
+      "target": "wiki:dashboard-and-metric-layer-project-checklist",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:analytics-engineering-portfolio-projects",
+      "target": "wiki:dashboard-and-metric-layer-project-checklist",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:analytics-engineering-portfolio-projects",
       "target": "wiki:data-activation",
       "kind": "wiki-link",
       "weight": 4
@@ -47077,6 +47368,12 @@
     {
       "source": "wiki:career-transition",
       "target": "wiki:staff-ai-engineer",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
+      "target": "article:roadmap:data-analyst-to-analytics-engineer",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -49065,6 +49362,240 @@
       "target": "wiki:open-source-portfolio-evidence",
       "kind": "wiki-link",
       "weight": 4
+    },
+    {
+      "source": "wiki:dashboard-and-metric-layer-project-checklist",
+      "target": "person:adamsroka",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:dashboard-and-metric-layer-project-checklist",
+      "target": "person:arpitchoudhury",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:dashboard-and-metric-layer-project-checklist",
+      "target": "person:caitlinmoorman",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:dashboard-and-metric-layer-project-checklist",
+      "target": "person:jakobgraff",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:dashboard-and-metric-layer-project-checklist",
+      "target": "person:juanmanuelperafan",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:dashboard-and-metric-layer-project-checklist",
+      "target": "person:nikolamaksimovic",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:dashboard-and-metric-layer-project-checklist",
+      "target": "person:tammyliang",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:dashboard-and-metric-layer-project-checklist",
+      "target": "person:victoriaperezmola",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:dashboard-and-metric-layer-project-checklist",
+      "target": "podcast:ab-testing-and-product-experimentation",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:dashboard-and-metric-layer-project-checklist",
+      "target": "podcast:analytics-engineer-skills-tools",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:dashboard-and-metric-layer-project-checklist",
+      "target": "podcast:building-and-scaling-data-team",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:dashboard-and-metric-layer-project-checklist",
+      "target": "podcast:data-led-growth-event-tracking-and-reverse-etl",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:dashboard-and-metric-layer-project-checklist",
+      "target": "podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:dashboard-and-metric-layer-project-checklist",
+      "target": "podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:dashboard-and-metric-layer-project-checklist",
+      "target": "podcast:ml-engineering-kpis-and-metrics-strategy",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:dashboard-and-metric-layer-project-checklist",
+      "target": "podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:dashboard-and-metric-layer-project-checklist",
+      "target": "wiki:a-b-testing",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:dashboard-and-metric-layer-project-checklist",
+      "target": "wiki:a-b-testing",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dashboard-and-metric-layer-project-checklist",
+      "target": "wiki:analytics-engineering",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:dashboard-and-metric-layer-project-checklist",
+      "target": "wiki:analytics-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dashboard-and-metric-layer-project-checklist",
+      "target": "wiki:analytics-engineering-portfolio-projects",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:dashboard-and-metric-layer-project-checklist",
+      "target": "wiki:analytics-engineering-portfolio-projects",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dashboard-and-metric-layer-project-checklist",
+      "target": "wiki:analytics-engineering-roadmap",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:dashboard-and-metric-layer-project-checklist",
+      "target": "wiki:data-activation",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:dashboard-and-metric-layer-project-checklist",
+      "target": "wiki:data-product-adoption",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:dashboard-and-metric-layer-project-checklist",
+      "target": "wiki:data-product-adoption",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dashboard-and-metric-layer-project-checklist",
+      "target": "wiki:data-product-management",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:dashboard-and-metric-layer-project-checklist",
+      "target": "wiki:data-products",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:dashboard-and-metric-layer-project-checklist",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:dashboard-and-metric-layer-project-checklist",
+      "target": "wiki:dbt",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:dashboard-and-metric-layer-project-checklist",
+      "target": "wiki:event-tracking",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:dashboard-and-metric-layer-project-checklist",
+      "target": "wiki:event-tracking",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dashboard-and-metric-layer-project-checklist",
+      "target": "wiki:experimentation",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:dashboard-and-metric-layer-project-checklist",
+      "target": "wiki:metrics",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:dashboard-and-metric-layer-project-checklist",
+      "target": "wiki:metrics",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dashboard-and-metric-layer-project-checklist",
+      "target": "wiki:product-analytics",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:dashboard-and-metric-layer-project-checklist",
+      "target": "wiki:product-analytics",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dashboard-and-metric-layer-project-checklist",
+      "target": "wiki:tracking-plans",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:dashboard-and-metric-layer-project-checklist",
+      "target": "wiki:tracking-plans",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:data-activation",
@@ -51633,6 +52164,18 @@
       "target": "wiki:devops-to-data-engineering",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:data-engineering-portfolio-projects",
+      "target": "wiki:end-to-end-data-pipeline-project",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-engineering-portfolio-projects",
+      "target": "wiki:end-to-end-data-pipeline-project",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:data-engineering-portfolio-projects",
@@ -58727,6 +59270,216 @@
       "weight": 3
     },
     {
+      "source": "wiki:end-to-end-data-pipeline-project",
+      "target": "article:guide:airflow",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:end-to-end-data-pipeline-project",
+      "target": "article:guide:data-engineering-pipeline-project",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:end-to-end-data-pipeline-project",
+      "target": "article:how_to:how-to-build-data-pipelines",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:end-to-end-data-pipeline-project",
+      "target": "person:barrmoses",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:end-to-end-data-pipeline-project",
+      "target": "person:christopherbergh",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:end-to-end-data-pipeline-project",
+      "target": "person:gloriaquiceno",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:end-to-end-data-pipeline-project",
+      "target": "person:jeffkatz",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:end-to-end-data-pipeline-project",
+      "target": "person:nataliekwong",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:end-to-end-data-pipeline-project",
+      "target": "person:santonatuli",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:end-to-end-data-pipeline-project",
+      "target": "podcast:data-engineering-career-path-and-skills",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:end-to-end-data-pipeline-project",
+      "target": "podcast:data-engineering-tools-modern-data-stack",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:end-to-end-data-pipeline-project",
+      "target": "podcast:data-quality-data-observability-data-reliability",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:end-to-end-data-pipeline-project",
+      "target": "podcast:dataops-for-data-engineering",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:end-to-end-data-pipeline-project",
+      "target": "podcast:get-data-analytics-and-data-engineering-job",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:end-to-end-data-pipeline-project",
+      "target": "podcast:get-data-engineering-job-prep-and-interview",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:end-to-end-data-pipeline-project",
+      "target": "podcast:modern-data-pipelines-orchestration-ingestion-modeling",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:end-to-end-data-pipeline-project",
+      "target": "podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:end-to-end-data-pipeline-project",
+      "target": "wiki:analytics-engineering",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:end-to-end-data-pipeline-project",
+      "target": "wiki:batch-vs-streaming",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:end-to-end-data-pipeline-project",
+      "target": "wiki:batch-vs-streaming",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:end-to-end-data-pipeline-project",
+      "target": "wiki:data-engineering",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:end-to-end-data-pipeline-project",
+      "target": "wiki:data-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:end-to-end-data-pipeline-project",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:end-to-end-data-pipeline-project",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:end-to-end-data-pipeline-project",
+      "target": "wiki:data-engineering-roadmap",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:end-to-end-data-pipeline-project",
+      "target": "wiki:data-pipelines",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:end-to-end-data-pipeline-project",
+      "target": "wiki:data-pipelines",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:end-to-end-data-pipeline-project",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:end-to-end-data-pipeline-project",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:end-to-end-data-pipeline-project",
+      "target": "wiki:dataops",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:end-to-end-data-pipeline-project",
+      "target": "wiki:dataops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:end-to-end-data-pipeline-project",
+      "target": "wiki:modern-data-stack",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:end-to-end-data-pipeline-project",
+      "target": "wiki:modern-data-stack",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:end-to-end-data-pipeline-project",
+      "target": "wiki:orchestration",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:end-to-end-data-pipeline-project",
+      "target": "wiki:orchestration",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
       "source": "wiki:entrepreneurship",
       "target": "article:guide:data-engineering-freelance",
       "kind": "wiki-link",
@@ -64101,6 +64854,18 @@
       "target": "wiki:product-analytics",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:machine-learning-portfolio-projects",
+      "target": "wiki:production-ml-project-checklist",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:machine-learning-portfolio-projects",
+      "target": "wiki:production-ml-project-checklist",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:machine-learning-system-design",
@@ -70499,6 +71264,222 @@
       "weight": 4
     },
     {
+      "source": "wiki:production-ml-project-checklist",
+      "target": "person:benwilson",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:production-ml-project-checklist",
+      "target": "person:dannyleybzon",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:production-ml-project-checklist",
+      "target": "person:linaweichbrodt",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:production-ml-project-checklist",
+      "target": "person:mariavechtomova",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:production-ml-project-checklist",
+      "target": "person:nemanjaradojkovic",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:production-ml-project-checklist",
+      "target": "person:raphaelhoogvliets",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:production-ml-project-checklist",
+      "target": "person:simonstiebellehner",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:production-ml-project-checklist",
+      "target": "person:willempienaar",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:production-ml-project-checklist",
+      "target": "podcast:building-production-ml-platform-and-mlops-team",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:production-ml-project-checklist",
+      "target": "podcast:human-centered-mlops-and-model-monitoring",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:production-ml-project-checklist",
+      "target": "podcast:machine-learning-engineering-production-best-practices",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:production-ml-project-checklist",
+      "target": "podcast:mlops-and-ml-engineering-in-finance",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:production-ml-project-checklist",
+      "target": "podcast:mlops-at-scale-reproducibility-adoption",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:production-ml-project-checklist",
+      "target": "podcast:mlops-feature-stores-feature-stores-feast-tecton",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:production-ml-project-checklist",
+      "target": "podcast:mlops-model-monitoring-data-observability",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:production-ml-project-checklist",
+      "target": "podcast:pragmatic-and-standardized-mlops",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:production-ml-project-checklist",
+      "target": "wiki:ci-cd",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:production-ml-project-checklist",
+      "target": "wiki:evaluation",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:production-ml-project-checklist",
+      "target": "wiki:experiment-tracking",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:production-ml-project-checklist",
+      "target": "wiki:experiment-tracking",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:production-ml-project-checklist",
+      "target": "wiki:machine-learning-engineer-role",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:production-ml-project-checklist",
+      "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:production-ml-project-checklist",
+      "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:production-ml-project-checklist",
+      "target": "wiki:ml-platforms",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:production-ml-project-checklist",
+      "target": "wiki:ml-platforms",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:production-ml-project-checklist",
+      "target": "wiki:mlops",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:production-ml-project-checklist",
+      "target": "wiki:mlops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:production-ml-project-checklist",
+      "target": "wiki:mlops-roadmap",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:production-ml-project-checklist",
+      "target": "wiki:mlops-roadmap",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:production-ml-project-checklist",
+      "target": "wiki:model-monitoring",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:production-ml-project-checklist",
+      "target": "wiki:model-monitoring",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:production-ml-project-checklist",
+      "target": "wiki:model-registry",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:production-ml-project-checklist",
+      "target": "wiki:model-registry",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:production-ml-project-checklist",
+      "target": "wiki:production",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:production-ml-project-checklist",
+      "target": "wiki:reproducibility",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:production-ml-project-checklist",
+      "target": "wiki:reproducibility",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
       "source": "wiki:production-search-evaluation",
       "target": "person:atitaarora",
       "kind": "wiki-link",
@@ -71377,6 +72358,18 @@
     {
       "source": "wiki:rag-portfolio-projects",
       "target": "wiki:retrieval-augmented-generation",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:rag-portfolio-projects",
+      "target": "wiki:search-and-rag-project-checklist",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:rag-portfolio-projects",
+      "target": "wiki:search-and-rag-project-checklist",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -73038,6 +74031,204 @@
     },
     {
       "source": "wiki:search",
+      "target": "wiki:vector-databases",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:search-and-rag-project-checklist",
+      "target": "person:anahitapakiman",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:search-and-rag-project-checklist",
+      "target": "person:atitaarora",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:search-and-rag-project-checklist",
+      "target": "person:danielsvonava",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:search-and-rag-project-checklist",
+      "target": "person:hugobowneanderson",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:search-and-rag-project-checklist",
+      "target": "person:lavanyagupta",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:search-and-rag-project-checklist",
+      "target": "person:meryemarik",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:search-and-rag-project-checklist",
+      "target": "person:ranjithakulkarni",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:search-and-rag-project-checklist",
+      "target": "podcast:applied-llm-research-and-career-growth-in-practice",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:search-and-rag-project-checklist",
+      "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:search-and-rag-project-checklist",
+      "target": "podcast:building-production-search-systems",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:search-and-rag-project-checklist",
+      "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:search-and-rag-project-checklist",
+      "target": "podcast:knowledge-graphs-and-llms-for-automotive-rnd",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:search-and-rag-project-checklist",
+      "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:search-and-rag-project-checklist",
+      "target": "podcast:practical-llm-engineering-and-rag",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:search-and-rag-project-checklist",
+      "target": "wiki:embeddings",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:search-and-rag-project-checklist",
+      "target": "wiki:graph-rag-vs-vector-rag",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:search-and-rag-project-checklist",
+      "target": "wiki:graph-rag-vs-vector-rag",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:search-and-rag-project-checklist",
+      "target": "wiki:information-retrieval",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:search-and-rag-project-checklist",
+      "target": "wiki:knowledge-graph-vs-vector-search",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:search-and-rag-project-checklist",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:search-and-rag-project-checklist",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:search-and-rag-project-checklist",
+      "target": "wiki:llm-production-patterns",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:search-and-rag-project-checklist",
+      "target": "wiki:llm-production-patterns",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:search-and-rag-project-checklist",
+      "target": "wiki:production-search-evaluation",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:search-and-rag-project-checklist",
+      "target": "wiki:rag-portfolio-projects",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:search-and-rag-project-checklist",
+      "target": "wiki:rag-portfolio-projects",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:search-and-rag-project-checklist",
+      "target": "wiki:rag-vs-fine-tuning",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:search-and-rag-project-checklist",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:search-and-rag-project-checklist",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:search-and-rag-project-checklist",
+      "target": "wiki:search-rag-and-knowledge-systems",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:search-and-rag-project-checklist",
+      "target": "wiki:search-rag-and-knowledge-systems",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:search-and-rag-project-checklist",
+      "target": "wiki:vector-databases",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:search-and-rag-project-checklist",
       "target": "wiki:vector-databases",
       "kind": "wiki-related",
       "weight": 3

@@ -412,6 +412,7 @@ proof.
 - [Career Growth]({{ '/wiki/career-growth/' | relative_url }})
 - [Hiring]({{ '/wiki/hiring/' | relative_url }})
 - [Data Analyst Role]({{ '/wiki/data-analyst-role/' | relative_url }})
+- [Data Analyst to Analytics Engineer Roadmap]({{ '/roadmaps/data-analyst-to-analytics-engineer/' | relative_url }})
 - [Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }})
 - [Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }})
 - [Machine Learning Engineer Role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }})

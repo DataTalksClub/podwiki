@@ -6,6 +6,7 @@ related:
   - Machine Learning
   - Machine Learning System Design
   - MLOps and DataOps
+  - Production ML Project Checklist
   - Data Science
   - Evaluation
   - Job Search
@@ -33,6 +34,8 @@ portfolio planning. Use
 for architecture interviews, and use
 [MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }}) for
 deployment, monitoring, and reproducibility.
+For a concrete production-readiness checklist, use
+[Production ML Project Checklist]({{ '/wiki/production-ml-project-checklist/' | relative_url }}).
 
 ## Link Map
 
