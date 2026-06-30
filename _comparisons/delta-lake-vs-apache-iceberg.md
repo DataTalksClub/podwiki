@@ -1,9 +1,9 @@
 ---
 layout: article
 title: "Delta Lake vs Apache Iceberg"
-keyword: "delta lake"
+keyword: "delta lake vs apache iceberg"
 secondary_keywords:
-  - delta lake vs apache iceberg
+  - delta lake
   - apache iceberg vs delta lake
 summary: "A podcast-grounded comparison of Delta Lake and Apache Iceberg as lakehouse table-format choices, centered on storage, catalogs, engines, lock-in, and platform operations."
 related_wiki:
@@ -32,6 +32,13 @@ from access, metadata, and lineage. Later, he compares Delta Lake, Hudi, and
 Iceberg as table-format options
 ([18:17-23:41 and 49:42]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }})).
 
+[Roksolana Diachuk]({{ '/people/roksolanadiachuk/' | relative_url }}) adds a
+more concrete Delta Lake operating example in
+[Big Data Engineer vs Data Scientist]({{ '/podcasts/big-data-engineer-vs-data-scientist/' | relative_url }}).
+She connects Delta Lake with Spark-based version tracking, time travel, and
+reprocessing or auditing work
+([1:00:25]({{ '/podcasts/big-data-engineer-vs-data-scientist/' | relative_url }})).
+
 Use [Delta Lake]({{ '/wiki/delta-lake/' | relative_url }}) for the archive's
 Delta-specific topic page. Use
 [Apache Iceberg]({{ '/wiki/apache-iceberg/' | relative_url }}) for the deeper
@@ -58,7 +65,12 @@ Delta Lake appears as the adjacent lakehouse table format in the same episode.
 Brudaru names Delta Lake in the DLT support discussion and then in the
 Delta/Hudi/Iceberg comparison
 ([30:31 and 49:42]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }})).
-So the archive supports a practical comparison, but not a deep feature matrix.
+He describes Delta as the most mature of those three options in that comparison
+chapter. Roksolana's Spark example gives the concrete Delta-side reason this
+matters: version-aware data can support reprocessing and auditing
+([Big Data Engineer vs Data Scientist]({{ '/podcasts/big-data-engineer-vs-data-scientist/' | relative_url }}),
+1:00:25). The archive supports a practical comparison, but not a deep feature
+matrix.
 
 ## Iceberg Fit
 
@@ -97,12 +109,28 @@ beside Iceberg in the DLT support chapter
 30:31). That keeps the decision practical. Choose the table format your team
 can operate across ingestion, transformation, catalog work, and compute.
 
+Delta Lake also fits when Spark versioning and recovery are already part of the
+team's mental model. Roksolana discusses historical reprocessing and risk
+management in
+[Big Data Engineer vs Data Scientist]({{ '/podcasts/big-data-engineer-vs-data-scientist/' | relative_url }}).
+She then names Delta Lake as a way to track data versions and travel back to
+previous states
+([58:05-1:00:25]({{ '/podcasts/big-data-engineer-vs-data-scientist/' | relative_url }})).
+Roksolana's example is narrower than a full architecture endorsement. It still
+gives a real Delta use case: auditing and rerunning pipelines when the data
+changes.
+
 Delta Lake also fits when the team is already inside a Delta-oriented
 lakehouse ecosystem. The archive doesn't give a long Delta-specific operating
-story, so the safest DataTalks.Club-backed claim is narrower. Delta Lake is a
-legitimate table-format option, but the podcast evidence discusses it mainly
-through DLT support and the Hudi/Iceberg comparison
-([30:31 and 49:42]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }})).
+story. The safest DataTalks.Club-backed claim is narrower. Delta Lake is a
+legitimate table-format option.
+
+In the podcast evidence, Delta Lake appears through DLT support and the
+Hudi/Iceberg comparison
+([Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}),
+30:31 and 49:42).
+[Big Data Engineer vs Data Scientist]({{ '/podcasts/big-data-engineer-vs-data-scientist/' | relative_url }})
+covers the Spark versioning example at 1:00:25.
 
 That thinner evidence is important. If a page or roadmap claims a Delta Lake
 architecture, it should still answer the same platform questions.
@@ -167,10 +195,14 @@ compute layers can support it repeatedly.
 
 Start with the platform requirement, not the table-format name.
 
-- Choose Iceberg when open storage, multi-engine access, and catalog design are explicit requirements. Brudaru's Iceberg discussion also supports this path when lock-in reduction matters.
+- Choose Iceberg when the team explicitly needs open storage across multiple
+  engines and a catalog path, especially when lock-in reduction matters.
 - Choose Delta Lake when existing ingestion, transformation, or lakehouse
   tooling already expects Delta tables, and the team can operate that path
   cleanly.
+- Choose Delta Lake when the concrete requirement is Spark-oriented versioning,
+  time travel, auditing, or historical reprocessing, as in Roksolana's big-data
+  engineering example.
 - Keep either choice tied to governance. Kwong's data-swamp warning and
   Albertsson's DataOps platform chapters both show why ownership, quality, and
   lineage matter.

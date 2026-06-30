@@ -2,7 +2,7 @@
 layout: article
 title: "Data Engineering and Data Science: How They Work Together"
 keyword: "data engineering and data science"
-summary: "A podcast-backed guide to how data engineering and data science differ, where they overlap, how teams should assign ownership, and how learners should sequence skills."
+summary: "A podcast-backed comparison of data engineering and data science: role boundaries, shared work, production handoffs, team ownership, and learning paths."
 search_intent: "People searching for data engineering and data science usually want to understand how the roles differ, how they collaborate, which one to learn first, and how the boundary changes when ML systems move into production."
 related_wiki:
   - Data Engineering
@@ -10,249 +10,298 @@ related_wiki:
   - Data Engineer Role
   - Data Scientist Role
   - Data Engineer vs Data Scientist
-  - Career Transitions in Data
+  - Data Teams
   - Machine Learning Engineer Role
   - MLOps
 ---
 
-Data engineering and data science share one data product lifecycle.
-[Data engineering]({{ '/wiki/data-engineering/' | relative_url }}) makes
-trustworthy data available. [Data science]({{ '/wiki/data-science/' | relative_url }})
-turns data into a decision, model, experiment, or product behavior.
+[Data engineering]({{ '/wiki/data-engineering/' | relative_url }}) and
+[data science]({{ '/wiki/data-science/' | relative_url }}) are different jobs
+inside the same data product lifecycle. Data engineers make data available,
+trustworthy, and repeatable. Data scientists turn that data into evidence,
+models, experiments, and product decisions.
 
-The roles meet when a model needs reliable inputs. They also meet when a
-pipeline needs a real consumer or a team has to explain whether a data product
-changed the business. The DataTalks.Club archive shows a practical boundary.
+The shortest DataTalks.Club answer is this: data engineering owns the dependable
+data path, while data science owns the reasoning path from question to result.
+The roles meet when a model, analysis, or product feature needs both reliable
+inputs and a clear decision rule.
 
-Engineers make data usable and repeatable, while scientists define the
-question, evaluation, and model behavior. Production work forces both sides to
-share ownership.
+Use
+[Data Engineer vs Data Scientist]({{ '/wiki/data-engineer-vs-data-scientist/' | relative_url }})
+for the role-by-role reference page. This comparison focuses on how the two
+functions should work together.
 
-## Role Fit
+## Quick Navigation
+
+Start with the short comparison, then use the deeper sections for team and
+career decisions.
+
+- [Short Comparison](#short-comparison)
+- [Boundary Source](#boundary-source)
+- [Collaboration Points](#collaboration-points)
+- [Production Handoffs](#production-handoffs)
+- [Skills and Learning Order](#skills-and-learning-order)
+- [Hiring and Team Design](#hiring-and-team-design)
+- [Expert Podcast Discussions](#expert-podcast-discussions)
+- [Related Pages](#related-pages)
+
+## Short Comparison
+
+Compare the roles by the risk each one owns.
+
+- Main responsibility: data engineering keeps data usable and repeatable,
+  while data science turns it into evidence, predictions, and decisions.
+- Primary risk: data engineering handles unreliable or hard-to-reprocess data,
+  while data science handles weak questions, metrics, baselines, and models.
+- Common work: data engineering covers the path from ingestion to access, plus
+  monitoring and backfills, while data science covers the path from problem
+  framing to interpretation.
+- Shared work: both roles meet around feature pipelines, batch scoring,
+  prediction tables, quality checks, and production monitoring.
+- Adjacent roles: data engineering often works near analytics engineering and
+  DataOps, while data science often works near product analytics and MLOps.
 
 In
 [Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }}),
-the 13:58 chapter describes the data engineer as the person who makes data
-usable for analysts and data scientists. The 24:55 chapter uses product
-categorization as an example where data supports model training and product
-behavior.
+the 11:17 section separates data scientists from analysts through prediction
+and product integration. At 13:58, it defines data engineers as the people who
+make product data usable for analysts and data scientists without burdening
+production systems. At 40:10, batch scoring shows the handoff. A model can
+produce predictions, but a data path still has to move those predictions into a
+product or database.
 
-That same division appears in
+[Roksolana Diachuk]({{ '/people/roksolanadiachuk/' | relative_url }}) gives the
+clearest direct comparison in
 [Big Data Engineer vs Data Scientist]({{ '/podcasts/big-data-engineer-vs-data-scientist/' | relative_url }}).
-[Roksolana Diachuk]({{ '/people/roksolanadiachuk/' | relative_url }}) describes
-the engineering side through ETL pipelines, HDFS or S3 storage, and query
-access. She also covers Spark performance and operational monitoring.
+At 4:26-7:18, she places ETL pipelines and HDFS or S3 on the engineering
+side. Parquet, Spark performance, and monitoring belong there too. At 13:56,
+she places data cleaning and feature engineering on the data science side.
+Model cycles and deployment awareness belong there too.
 
-At 13:56, the episode describes the data science side through cleaning, feature
-engineering, and model cycles. It also covers deployment awareness. The split
-isn't "tools versus math." It's supply chain versus decision logic.
+## Boundary Source
 
-For the short role page, read
-[Data Engineer vs Data Scientist]({{ '/wiki/data-engineer-vs-data-scientist/' | relative_url }}).
-The sections below focus on collaboration between the two roles.
+Data engineering starts before a notebook, dashboard, or model can be useful.
+Engineers need to know where data comes from and how often it arrives. They
+also need to know how schemas change, who can query the data, and how the team
+recovers when a job fails. Those responsibilities connect the role to
+[data pipelines]({{ '/wiki/data-pipelines/' | relative_url }}),
+[data engineering platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}),
+[data observability]({{ '/wiki/data-observability/' | relative_url }}), and
+[DataOps]({{ '/wiki/dataops/' | relative_url }}).
 
-## The Working Boundary
+Diachuk's episode is useful because it doesn't reduce engineering to "moving
+data." Her engineering scope includes storage formats, distributed compute, and
+cluster resources. It also includes flow metrics, schema-change alerts,
+documentation, and historical reprocessing. Those details matter because
+downstream scientists can't evaluate a model if the training data is stale,
+duplicated, or impossible to explain.
 
-Data engineering starts before analysis or modeling.
+Data science starts when someone needs a better decision or product behavior.
+Scientists need to define the question, metric, baseline, and features. They
+also need to define the evaluation method and error tradeoff. In
+[Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }}),
+[Oleg Novikov]({{ '/people/olegnovikov/' | relative_url }}) separates product
+data scientist expectations from machine-learning-engineering-heavy
+expectations at 15:29.
 
-A data engineer should be able to explain several things:
+At 32:03 and 36:38, he ties strong data science interview performance to
+business goals and evaluation metrics. He also covers SQL, coding, and ML
+fundamentals. That's why the
+[Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }}) page
+doesn't treat the job as algorithm selection alone.
 
-- where data comes from
-- how often it arrives
-- which schema changes break downstream users
-- how transformations run
-- where other teams should query the result
+The boundary is ownership, not tools. Both roles may use SQL and Python, and
+they may also use warehouses, notebooks, and cloud services. The question is
+whether the work mainly makes data dependable for other people or uses data to
+make a decision.
 
-That work includes ingestion, storage, and orchestration. It also covers
-documentation, access rules, freshness checks, and backfill procedures.
+## Collaboration Points
 
-Data science starts when a person needs a better decision or product behavior.
-A data scientist should be able to explain the question, metric, baseline, and
-training data. They should also explain feature availability, error behavior,
-and the tradeoff that matters most.
+Feature work is the main overlap. A data scientist may discover that a signal
+improves a model. A data engineer or ML platform team may then need to compute
+that signal repeatedly with stable timing, schema, and monitoring. Diachuk's
+16:26 section discusses file interfaces such as Parquet and team structures.
+Her recommendation-system example at 18:54-23:40 shows why streaming, batch
+jobs, storage, and model work have to be designed together.
 
-That tradeoff may involve precision, recall, or latency. It may also involve
-fairness, cost, interpretability, or business impact.
-
-This is why the two roles depend on each other:
-
-- A data scientist can't evaluate a model if the training data is stale,
-  undocumented, or inconsistent.
-- A data engineer can't design a useful pipeline without knowing who consumes
-  the data and what grain, history, and latency the decision needs.
-- A team can't productionize a model unless someone owns both the data path and
-  the model path.
-
-The 16:26 chapter of
-[Big Data Engineer vs Data Scientist]({{ '/podcasts/big-data-engineer-vs-data-scientist/' | relative_url }})
-is useful because Roksolana describes collaboration through file interfaces and
-team structures. A Parquet file or table boundary can make handoff clear, but it
-doesn't remove the need for shared understanding.
-
-## Shared Work
-
-Feature work is the clearest overlap. A data scientist may discover that a
-signal improves the model. A production feature then has to be computed
-repeatedly with the same logic and timing. The engineering work isn't separate
-from the science work. The feature is useful only when both sides are true.
-
-Batch scoring is another shared area.
-
-In
+Batch scoring is another shared surface. In
 [Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }}),
-the 30:01 and 38:52 chapters separate preparation work from prediction work and
-then show the result. It becomes a product-facing service or scheduled output.
-The scientist owns model quality and evaluation. The engineer often owns the
-input data and schedule. They may also own the output table, backfills, and
-integration point.
+the 30:01 and 38:52 sections separate preparation work from prediction work.
+The 40:10 example then shows predictions flowing back into a product or
+database. Data science owns model logic and evaluation. Data engineering often
+owns the scheduled input path, output tables, backfills, and refresh behavior.
 
-Monitoring crosses the boundary too. At 39:09 in
-[Big Data Engineer vs Data Scientist]({{ '/podcasts/big-data-engineer-vs-data-scientist/' | relative_url }}),
-Roksolana discusses flow metrics, volume spikes, and schema-change alerts. Those
-signals look like data engineering observability, but they directly affect
-model reliability. A model can fail because the distribution changed. It can
-also fail because an upstream field disappeared or a batch arrived late.
+For systems that serve customers directly,
+[machine learning engineers]({{ '/wiki/machine-learning-engineer-role/' | relative_url }})
+or [MLOps]({{ '/wiki/mlops/' | relative_url }}) teams may own packaging,
+serving, and model-specific monitoring.
 
-Use [Data Observability]({{ '/wiki/data-observability/' | relative_url }}) and
-[Software Engineering]({{ '/wiki/software-engineering/' | relative_url }}) as
-companion pages for the production discipline around this overlap.
+Data quality incidents cross the boundary too. Diachuk discusses flow metrics
+and volume spikes at 39:09-46:14, and she also covers schema-change alerts,
+schema descriptions, and governance. Those signals look like data engineering
+work, but they can break a model through missing fields or late batches.
+Distribution shifts and hidden training-serving differences can break it too.
 
-## Production Changes the Boundary
+Use
+[Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
+and [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }}) as
+companion pages for this shared operational work.
 
-The boundary becomes less clean when data science reaches production. In
-[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}),
+## Production Handoffs
+
+The boundary becomes less clean when data science reaches production.
 [Simon Stiebellehner]({{ '/people/simonstiebellehner/' | relative_url }})
-describes MLOps as people, process, and technology at 4:42. The 21:03 chapter
-covers the data science workflow from exploration through training and
-evaluation. The 29:41 and 30:32 chapters add experiment tracking and model
-registries. The 31:15 and 31:51 chapters then bring in batch inference, online
-serving, orchestration, and production workflows.
+describes this in
+[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
+At 4:42, he defines MLOps through people, process, and technology. At 21:03,
+he describes the data science path from exploration to training and
+evaluation. At 29:41 and 30:32, experiment tracking and model registries make
+that work reproducible.
 
-Those chapters show why [MLOps]({{ '/wiki/mlops/' | relative_url }}) and the
-[Machine Learning Engineer Role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }})
-exist. A production ML system isn't only a notebook or a pipeline. It needs
-reproducible experiments and registered artifacts. It also needs deployable
-services or batch jobs, monitored inputs, monitored predictions, and a clear
-path from business need to model operation.
+At 31:15 and 31:51, batch inference and online serving enter the picture.
+Orchestration and production workflows enter the picture there too.
 
-Simon's 47:08 chapter is also important for sequencing: teams should prove that
-a model matters before they invest heavily in platform machinery. That matches
-the data engineering lesson from the archive: infrastructure is valuable when
-it serves a real use case.
+That sequence explains why teams add
+[machine learning infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }})
+and [platform engineering]({{ '/wiki/platform-engineering/' | relative_url }})
+around data science work. A production model needs a trustworthy data supply,
+reproducible experiments, and deployable artifacts. It also needs monitored
+predictions and a clear way to connect model behavior to business outcomes.
 
-## Learner Priorities
+Stiebellehner's 47:08 section also gives a useful guardrail: prove that the
+model matters before investing heavily in platform machinery. That matches the
+data engineering lesson from the archive. Infrastructure is valuable when it
+serves a real use case, not when it exists as a title-driven platform project.
 
-For learners, the first choice isn't "data engineering or data science forever."
-The useful sequence is shared fundamentals first, then role depth.
+## Skills and Learning Order
 
-Start with shared skills:
+Learners shouldn't treat data engineering and data science as unrelated paths.
 
-- SQL
-- Python
-- data modeling
-- Git
-- reproducible projects
-- business framing
+The useful sequence starts with shared fundamentals:
 
-A data engineer uses those skills to build reliable datasets and pipelines. A
+- SQL and data modeling
+- Python and reproducible projects
+- Git, testing habits, and code readability
+- Basic cloud and warehouse concepts
+- Metrics, business framing, and communication
+
+Then go deeper in the direction of the role you want. A data engineer uses
+those fundamentals to build pipelines, datasets, and operating practices. A
 data scientist uses them to ask better questions, test assumptions, and turn
-experiments into evidence.
+experiments or models into evidence.
 
 In
 [Build a Data Engineering Career]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }}),
 [Jeff Katz]({{ '/people/jeffkatz/' | relative_url }}) names Python, SQL, and
-cloud fundamentals as the core junior data engineering skill set at 23:35. At
-38:05 and 56:46, he argues against starting junior learners with too much Spark
-or Kafka. He also warns against Kubernetes and tool collecting before the
-fundamentals are solid.
-That supports the path in
-[Data Engineering Course]({{ '/guides/data-engineering-course/' | relative_url }}):
-learn the data path before optimizing for infrastructure breadth.
+cloud fundamentals as the junior data engineering base at 23:35. At 38:05 and
+56:46, he argues against leading junior learners with Spark, Kafka, or
+Kubernetes before the fundamentals are solid. That supports the sequence in
+[Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
+and [Data Engineering Course]({{ '/guides/data-engineering-course/' | relative_url }}).
 
-For data science, the archive puts role fit, metrics, and communication next to
-ML knowledge. In
-[Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }}),
-[Oleg Novikov]({{ '/people/olegnovikov/' | relative_url }}) separates product
-data scientist expectations from machine learning engineer expectations at
-15:29. At 32:03 and 36:38, he connects interview performance to business goals
-and evaluation metrics. He also covers ML fundamentals, SQL, and coding. That's
-why the
-[Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }}) page
-shouldn't be reduced to algorithms.
+For data science, use Novikov's interview guide. It puts business case studies
+and metrics together with SQL and coding. It also puts ML fundamentals in the
+same interview path. The path in
+[Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }}) and
+[Data Scientist Interview Roadmap]({{ '/wiki/data-scientist-interview-roadmap/' | relative_url }})
+therefore rewards evidence and communication alongside modeling.
 
-If you want to move between the roles, use
-[Career Transitions in Data]({{ '/wiki/career-transitions-in-data/' | relative_url }})
-and
-[Machine Learning for Software Engineers]({{ '/guides/machine-learning-for-software-engineers/' | relative_url }})
-as transition guides. The bridge usually runs through shared projects. One
-project might feed a model from a pipeline. Another might turn an analysis into
-a repeatable data product.
+If you're moving between the roles, build a project that exposes the boundary.
+A strong bridge project may ingest raw data and document the schema. It may
+also train a baseline model, write predictions to a table, and monitor
+freshness or model quality. Use
+[Career Transitions in Data]({{ '/wiki/career-transitions-in-data/' | relative_url }}),
+[Data Scientist to Data Engineer]({{ '/guides/data-scientist-to-data-engineer/' | relative_url }}),
+and [Machine Learning for Software Engineers]({{ '/guides/machine-learning-for-software-engineers/' | relative_url }})
+for transition-specific guidance.
 
-## Team Ownership
+## Hiring and Team Design
 
-Teams should assign ownership by dependency, not by title status.
+Teams should assign ownership by risk, not by title status.
 
-1. Start with the decision or product behavior. Name what should improve before
-   choosing a tool.
-2. Look at source data together. Engineering and science should review schema,
-   history, quality, permissions, and freshness before modeling.
-3. Build the smallest reliable dataset. Engineering makes it queryable,
-   documented, and refreshable while science confirms that it can answer the
-   question.
-4. Create a baseline. Science compares a simple rule, analysis, or model before
-   proposing a complex system.
-5. Productionize what survives evaluation. Engineering makes the path
-   repeatable and monitored, while science checks that model quality and
-   business impact still hold.
-6. Add ML engineering or MLOps when production risk grows. Experiment tracking,
-   registries, CI/CD, serving, and model monitoring become useful when several
-   people depend on the model.
+Use a data engineer when the main risk is unreliable data. That includes late
+feeds, changing schemas, and expensive queries. It also includes missing
+documentation, weak access controls, and painful reprocessing.
 
-This sequence prevents two common failures. The first is building a broad data
-platform before a use case proves value. The second is building a promising
+Use a data scientist when the main risk is choosing a weak question or metric.
+Baselines and model choice belong there too. Use an ML engineer or MLOps owner
+when the main risk is serving or deployment. Experiment tracking, model
+registries, runtime monitoring, and rollback fit there.
+
+[Tereza Iofciu]({{ '/people/terezaiofciu/' | relative_url }}) warns that job
+titles often hide this risk split in
+[Data Science Jobs]({{ '/podcasts/data-science-job-red-flags-and-mismatched-roles/' | relative_url }}).
+At 20:06-27:18, she recommends checking team structure and objectives. She
+also recommends checking responsibilities and data infrastructure. She checks
+whether analytics or data engineering support exists too.
+
+A "data scientist" role can hide analytics work and first data hire work. It
+can also hide platform cleanup if the company hasn't named the real problem.
+
+[Slawomir Tulski]({{ '/people/slawomirtulski/' | relative_url }}) adds the
+data engineering version in
+[Data Engineer Career in 2026]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }}).
+At 11:54, he separates platform data engineering from product-facing data
+engineering. At 25:33-30:56, he ties senior judgment to cost awareness and
+avoiding over-engineered platforms. That split matters because a product data
+engineer working next to scientists needs different evidence from a platform
+engineer building shared infrastructure.
+
+A practical team sequence looks like this:
+
+1. Name the decision or product behavior before choosing tools.
+2. Review source data together: schemas, history, quality, permissions, and
+   freshness.
+3. Build the smallest reliable dataset that can answer the question.
+4. Create a baseline before proposing a complex model or platform.
+5. Productionize only what survives evaluation.
+6. Add MLOps or ML engineering when several people depend on the model or its
+   predictions.
+
+This sequence prevents two common failures. The first is building a broad
+platform before the team proves a use case. The second is building a promising
 model on top of data that can't be refreshed, explained, or trusted.
 
-## Common Failure Modes
+## Expert Podcast Discussions
 
-The first failure is treating data engineering as lower-level support work.
-Reliable data paths determine what data science can ask, which features are
-available, how often predictions can run, and whether a result can be trusted.
+These discussions are the best starting points for this comparison.
 
-The second failure is treating data science as model training only. The
-DataTalks.Club interviews repeatedly connect useful data science to business
-framing, metrics, experimentation, and error analysis. They also connect it to
-communication. A model that no one uses isn't a successful data science
-outcome.
+- [Big Data Engineer vs Data Scientist]({{ '/podcasts/big-data-engineer-vs-data-scientist/' | relative_url }})
+  links [Roksolana Diachuk]({{ '/people/roksolanadiachuk/' | relative_url }})
+  to engineering work and data science work. It also covers feature pipelines,
+  monitoring, and career transitions.
+- [Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }})
+  gives the broader data-team role map across data science and data
+  engineering. It also covers ML engineering, analytics, and product
+  management.
+- [Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }})
+  links [Simon Stiebellehner]({{ '/people/simonstiebellehner/' | relative_url }})
+  to experiments, registries, batch inference, and serving. It also covers
+  lineage and monitoring.
+- [Data Science Jobs]({{ '/podcasts/data-science-job-red-flags-and-mismatched-roles/' | relative_url }})
+  links [Tereza Iofciu]({{ '/people/terezaiofciu/' | relative_url }}) to title
+  mismatches, unclear ownership, and missing data support.
+- [Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }})
+  links [Oleg Novikov]({{ '/people/olegnovikov/' | relative_url }}) to product
+  data scientist expectations and business case studies. It also covers
+  metrics, SQL, and ML fundamentals.
+- [Build a Data Engineering Career]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }})
+  links [Jeff Katz]({{ '/people/jeffkatz/' | relative_url }}) to junior data
+  engineering fundamentals such as Python, SQL, cloud basics, and projects.
 
-The third failure is making the boundary too rigid. If data scientists never
-learn how pipelines work, they miss freshness, leakage, and deployment
-constraints. If data engineers never learn how models use their data, they may
-optimize pipelines that don't support the actual decision.
+## Related Pages
 
-The fourth failure is learning tools in the wrong order. Jeff Katz's data
-engineering episode prioritizes Python, SQL, cloud basics, and projects before
-advanced infrastructure. Oleg Novikov's data science interview episode rewards
-business framing, SQL, coding, and metrics before exotic modeling. Both paths
-push toward fundamentals and evidence.
-
-## Practical Summary
-
-Data engineering creates the trusted path from source systems to usable data.
-Data science creates the reasoning path from data to decision, model, or product
-behavior. The overlap is where real systems happen. It includes features, batch
-scoring, and monitoring. It also includes deployment and stakeholder
-explanation.
-
-For a team, the useful question isn't which role is more important. The useful
-question is who owns each dependency from source data to production result. When
-that ownership is visible, data engineering and data science stop competing as
-labels and start working as one product system.
-
-Continue with:
+Continue with the role hubs, adjacent production topics, and transition pages.
 
 - [Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }})
 - [Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }})
 - [Data Engineer vs Data Scientist]({{ '/wiki/data-engineer-vs-data-scientist/' | relative_url }})
-- [Machine Learning Engineer Role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }})
-- [MLOps]({{ '/wiki/mlops/' | relative_url }})
+- [Data Teams]({{ '/wiki/data-teams/' | relative_url }})
 - [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }})
+- [Data Science]({{ '/wiki/data-science/' | relative_url }})
+- [Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }})
+- [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
+- [Machine Learning Engineer Role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }})
+- [Machine Learning Infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }})
+- [MLOps]({{ '/wiki/mlops/' | relative_url }})
+- [Career Transitions in Data]({{ '/wiki/career-transitions-in-data/' | relative_url }})

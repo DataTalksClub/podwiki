@@ -2,10 +2,11 @@
 layout: article
 title: "Airflow Docker Compose: Local Development, Learning, and Production Caveats"
 keyword: "airflow docker compose"
-summary: "A podcast-backed guide to using Docker Compose for Airflow learning, local DAG development, persistence, executors, and production caveats."
-search_intent: "People searching for airflow docker compose usually want a practical local Airflow setup. They may be learning Airflow, building a portfolio project, debugging DAGs, or comparing local Compose with production deployment. Keep the public page focused on how Compose helps learners see Airflow services locally and where it stops being enough."
+summary: "A podcast-backed how-to for using Docker Compose as a local Airflow learning and DAG development environment, with clear production boundaries."
 related_wiki:
   - Data Engineering
+  - Data Pipelines
+  - Orchestration
   - Data Engineering Platforms
   - Modern Data Stack
   - DataOps
@@ -14,270 +15,234 @@ related_wiki:
   - Batch vs Streaming
 ---
 
-`airflow docker compose` is a local-development question before it's an
-Airflow architecture question.
+Use Docker Compose for Airflow when you need a local environment that makes the
+orchestrator's moving parts visible. You can run the web UI and scheduler. You
+can also run the metadata database, DAG files, task logs, and workers when you
+need them. The DataTalks.Club podcast archive supports that local-development
+use case. It doesn't support treating a Compose file as a production deployment
+recipe.
 
-You want a runnable Airflow environment with the core services visible:
-
-- web UI
-- scheduler
-- metadata database
-- DAG folder
-- logs
-- workers, when the executor needs them
-
-You also want to learn those pieces without building a shared data platform on
-day one.
-
-Docker Compose is a good fit for that learning loop. It can start the Airflow
-services together, mount your DAGs from the local checkout, preserve metadata
-between restarts, and make missing dependencies visible inside containers. It
-isn't proof that the same workflow is production-ready.
-
-That distinction is consistent with the DataTalks.Club archive.
-
-[Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) places Airflow
-in the orchestration layer in the
-[modern data stack episode]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}).
-Around 30:59, she discusses Airflow next to Airbyte and dbt. She also places
-it beside warehouses, CDC, and reverse ETL. She treats Airflow as the scheduler
-and dependency layer. It doesn't replace ingestion, transformation, storage, or
-data quality.
+[Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) draws the
+Airflow boundary in the modern data stack episode. Around 30:59-31:12, she
+explains that Airflow is an
+[orchestrator]({{ '/wiki/orchestration/' | relative_url }}) and scheduler around
+tools such as Airbyte and dbt. It doesn't own ingestion, transformation,
+storage, or quality
+([Data Engineering Tools and Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})).
+So an Airflow Docker Compose setup should help you learn orchestration and DAG
+development. It shouldn't hide weak [data pipeline]({{ '/wiki/data-pipelines/' | relative_url }})
+design behind a local cluster.
 
 For the broader Airflow decision, use
 [Airflow]({{ '/guides/airflow/' | relative_url }}) and
-[Apache Airflow]({{ '/guides/apache-airflow/' | relative_url }}). Here, use
-the local Docker Compose setup to learn Airflow's pieces and the point where
-teams should move beyond it.
+[Apache Airflow]({{ '/guides/apache-airflow/' | relative_url }}). Use the
+Compose workflow here for local work.
 
-## Local Use Case
+## Compose Fit
 
-Use Docker Compose for Airflow when you need to see the system work as a small
-local environment:
+Use an Airflow Docker Compose setup for a small local dev cycle:
 
-- learning Airflow's scheduler, web UI, metadata database, and task logs
-- developing DAGs before deploying them to a shared environment
-- testing DAG imports and dependency files inside containers
-- building a reproducible data engineering portfolio project
-- teaching orchestration in a course or workshop
-- reproducing a small bug with known services and known state
+- learning how the scheduler, web UI, metadata database, DAG folder, logs, and
+  task execution relate to each other.
+- developing DAGs before deploying them to a shared environment.
+- testing whether imports, dependency files, and supporting Python modules work
+  inside containers.
+- teaching orchestration in a course or workshop.
+- building a [data engineering portfolio project]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
+  where a reviewer can rerun the workflow.
+- reproducing a pipeline bug with known services and known local state.
 
-Compose helps because Airflow has separate services. The web UI can load
-while the scheduler is unhealthy. A DAG can parse in one container but fail in
-a worker because a package is missing. A task can also turn green while the
-output data is wrong. Running the pieces locally makes those boundaries easier
-to look at.
+[Jeff Katz]({{ '/people/jeffkatz/' | relative_url }}) supports this learning
+sequence in
+[Data Engineering Career Path and Skills]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }}).
+Around 23:35, he describes extending a data engineering curriculum from Python
+and SQL into AWS, Docker, and Airflow. Around 57:36, he says good Airflow code
+keeps most logic in Python instead of relying on Airflow for everything. That's
+the main Compose rule. Use local containers to expose the orchestration
+environment, but keep the pipeline logic reviewable and testable outside the
+DAG file.
 
-[Jeff Katz]({{ '/people/jeffkatz/' | relative_url }}) explains why Docker and
-Airflow appear together in learning paths in
-[Build a Data Engineering Career]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }}).
-Around 21:52, he describes extending a data engineering curriculum from Python
-and SQL into cloud, Docker, and Airflow. Around 55:10, he warns that good
-Airflow code should keep most logic in normal Python rather than relying on
-Airflow. A local Compose setup should teach that separation.
+## Build The Smallest Useful Local Stack
 
-## Local Services
+Start with the smallest Airflow stack that teaches the workflow you need. Many
+learners need a scheduler, web UI, and metadata database. They also need
+mounted `dags/`, mounted `logs/`, and a repeatable initialization path. Add
+workers and a broker only when the lesson requires queued or distributed task
+execution.
 
-A local Airflow Compose setup usually teaches the main service boundaries.
-
-The web UI shows DAG and task status, logs, retries, and configuration.
-Learners can use it to look at failures, while the scheduler still decides
-what should run next.
-
-The scheduler reads DAG definitions and creates task instances when schedules
-and dependencies say work is ready. If the scheduler is down, the UI may still
-open, but scheduled work won't progress normally.
-
-The metadata database stores Airflow's memory:
-
-- DAG runs and task states
-- connections and variables
-- retries and scheduling history
-
-That database is why Airflow is more than cron, and it becomes an operating
-responsibility in a real platform.
-
-Workers run task code when the executor sends work away from the scheduler
-process. A simple local setup may not need a separate worker. A queued setup
-usually adds workers and a broker, so task execution can happen outside the
-scheduler service.
-
-Folder mounts connect your local project to the containers. A typical local
-project mounts `dags/` and `logs/`, and it may also mount plugins,
-configuration, and supporting Python code. Those mounts create fast feedback,
-but they can also hide a weak project structure if every transformation lives
-inside a DAG file.
-
-This is where Compose connects to
-[data engineering]({{ '/wiki/data-engineering/' | relative_url }}) practice:
-the local environment should teach orchestration, not become the place where
-all pipeline logic is buried.
-
-## DAG Project Structure
-
-A useful Airflow Docker Compose project is boring to navigate. Keep the
-orchestration files separate from the work they call.
-
-Use `dags/` for DAG definitions and use `src/`, `include/`, or another clear
-folder for reusable Python code. Keep SQL, dbt models, validation logic, and
-extract/load helpers in places where they can be reviewed outside Airflow.
-They should be testable there too. Use `requirements.txt`, `pyproject.toml`,
-or an image build step for dependencies. Document startup, reset, and expected
-services in the project README.
-
-The DAG file should mostly describe orchestration:
-
-- schedule
-- dependencies
-- retries
-- owners
-- task definitions
-- calls into the real work
-
-This follows Natalie's orchestration boundary. Airflow can trigger Airbyte and
-dbt, and it can also trigger Python, Spark, or warehouse work. Each tool should
-still own its part of the pipeline.
-
-For adjacent stack decisions, see
-[Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}) and
-[ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}). Also use
-[Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }}).
-
-## Persistence and Logs
-
-Persistence is where local Airflow starts to feel like a real system.
-
-For learning, it's useful to reset everything often. You can delete local
-volumes and restart the containers to see how Airflow initializes. For DAG
-development, you usually want more state. The metadata database should survive
-container restarts so you can look at previous DAG runs, failed tasks, retries,
-and backfills. Logs should be mounted or stored where the UI can read them
-after a task fails.
-
-Think about three local persistence categories:
-
-- Airflow metadata, usually in a database volume
-- task logs, usually mounted or written to a shared path
-- project code, usually mounted from the working directory
-
-The same categories become production responsibilities later. Teams need
-metadata database backups, durable task logs, managed access to secrets, and
-managed access to connections. Alert owners and recovery steps need the same
-attention.
-
-[Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }}) ties
-that local-to-production jump to DataOps in
-[DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }}).
-The episode frames reliable data work around automation and observability. It
-also covers CI/CD, tests, and recovery. Airflow can show a task state, but
-[DataOps]({{ '/wiki/dataops/' | relative_url }}) is what turns the workflow
-into a maintained data system.
-
-## Executors and Scale
-
-You don't need to master every Airflow executor before using Docker Compose.
-You do need the high-level distinction.
-
-A simple local executor can run work in the same local environment. It's
-enough for learning DAG structure, dependencies, retries, and logs. A queued
-or distributed executor separates scheduling from task execution. It usually
-adds workers and a broker, and it's closer to how teams think about
-concurrency, isolation, and scale.
-
-Start with the smallest setup that teaches the workflow. Add workers when you
-need to understand task execution across services, not because a larger
-Compose file looks more realistic.
-
-[Andreas Kretz]({{ '/people/andreaskretz/' | relative_url }}) gives the same
-staged approach in
+That staged approach follows [Andreas Kretz's]({{ '/people/andreaskretz/' | relative_url }})
+production advice in
 [From Notebooks to Production]({{ '/podcasts/production-ml-pipelines-with-aws-and-kafka/' | relative_url }}).
-Around 34:16, he describes moving code out of notebooks into Docker
-containers and scheduled production work. Around 35:46, he says simpler
-scheduled containers can be enough before adopting a framework such as
-Airflow. Around 41:06, he recommends adding bigger infrastructure when teams
-need more logging, insight, and control.
+Around 35:46, he compares Airflow with simpler schedulers such as CloudWatch,
+Lambda, and AWS Batch. Around 41:06, he recommends starting with simple
+infrastructure and moving toward Airflow or Kubernetes when the team needs more
+logging, insight, and control. Locally, the same rule applies: make one DAG
+understandable before adding more services because the Compose file looks more
+realistic.
 
-For Airflow Docker Compose, that means the learning order matters. First make
-a simple DAG understandable. Then make the task environment reproducible.
-Then add persistence and logs. Only after that should a learner add
-worker-based execution, brokers, or production-like deployment concerns.
+Use this order:
 
-## Production Boundary
+1. Create one DAG that calls real work in Python or SQL.
+2. Mount the DAG and supporting code into the Airflow containers.
+3. Persist metadata and logs so failed runs can be looked at after restart.
+4. Add checks that prove the output is usable, not only that the task ended.
+5. Add worker-based execution only when you need to learn task isolation or
+   concurrency.
+6. Document reset, startup, and expected services so another person can run the
+   same local environment.
 
-Docker Compose is a local tool. It can model services and dependencies, but it
-doesn't solve production operations.
+## Keep DAGs Thin
 
-Move beyond a local Compose setup when any of these become true:
+A useful Compose project is boring to navigate. Put orchestration in `dags/`
+and put reusable code in clear project folders. Common choices include `src/`,
+`include/`, dbt models, and SQL files. The DAG should describe the schedule,
+dependencies, retries, and owners. It should also define task boundaries and
+calls into the real work.
 
-- several people deploy or edit DAGs
-- failures need alerts and owners
-- logs must be retained and searchable
-- secrets need managed storage and access controls
-- the metadata database needs backups and upgrades
-- workers need isolation, concurrency, or autoscaling
-- backfills can compete with current runs
-- workflows call production databases, warehouses, queues, or APIs
-- downstream users depend on the outputs for reports, ML jobs, product
-  features, or operational decisions
+The DAG shouldn't become the only place where transformation logic lives.
 
-[Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) gives the
-tool-choice version in
-[Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}).
-Around 35:37, he names Airflow and Prefect as orchestration choices. He also
-mentions Dagster and GitHub Actions. Around 37:08, he notes that GitHub
-Actions can be enough for simple workflows because it avoids always-on
-orchestrator cost.
+Natalie's tool boundary supports this split because Airflow schedules and
+coordinates. The ingestion tool owns ingestion. The dbt project owns
+transformation. Warehouse jobs, Spark jobs, and Python modules own the work they
+run
+([Data Engineering Tools and Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
+30:59-31:31).
 
-That doesn't make GitHub Actions a replacement for every Airflow use case. It
-sets the selection standard. Match the orchestrator to the workflow and
-dependency graph. Then account for team size, failure cost, and operating
-burden.
+It also fits [Santona Tuli's]({{ '/people/santonatuli/' | relative_url }})
+pipeline architecture discussion. Around 26:43-27:07 in
+[Modern Data Pipeline Architecture]({{ '/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/' | relative_url }}),
+she names orchestration engines such as Airflow and Prefect. She also names
+Dagster and Mage. She ties the choice to how the team breaks up the workflow
+and which transformations the pipeline runs.
 
-[Mehdi OUAZZA]({{ '/people/mehdiouazza/' | relative_url }}) adds the platform
-view in
+For adjacent design choices, use
+[Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}),
+[Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }}),
+and [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}).
+
+## Persist The Right State
+
+Local Airflow becomes useful when you can look at what happened.
+
+Keep these state categories explicit:
+
+- project code, usually mounted from the working directory.
+- Airflow metadata, usually persisted in a local database volume.
+- task logs, mounted or stored where the Airflow UI can read them after a
+  failure.
+
+The metadata database is why Airflow is more than cron. It records DAG runs,
+task states, retries, and scheduling history. Logs show what failed inside a
+task. Local persistence lets a learner stop the environment, start it again, and
+still look at a failed run.
+
+In shared environments, teams need database backups and log retention. They
+also need dependency control, managed secrets, and connection access.
+[Tomasz Hinc]({{ '/people/tomaszhinc/' | relative_url }})
+connects that operational mindset to [DataOps]({{ '/wiki/dataops/' | relative_url }})
+in
+[DataOps and GitOps Best Practices for Data Teams]({{ '/podcasts/dataops-and-gitops-best-practices-for-data-teams/' | relative_url }}).
+Around 1:02:28-1:05:41, he warns that green Airflow jobs can still insert zero
+records. A local Compose setup should therefore include output checks, not only
+a successful task state.
+
+## Add Quality Checks Before Trusting Runs
+
+The common local mistake is to celebrate a green DAG run too early. Airflow can
+show that a task started, retried, failed, or succeeded. It can't prove whether
+data is fresh or complete. It also can't prove schema validity, plausible
+counts, or downstream metric correctness unless the workflow includes those
+checks.
+
+Add lightweight checks before publishing an output:
+
+- row-count or freshness checks for ingested data.
+- schema checks for expected columns and types.
+- partition checks for time-bounded pipelines.
+- null, duplicate, and range checks for critical fields.
+- a clear failure path that leaves logs and data context behind.
+
+This is where the local Compose environment connects to
+[data quality and observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).
+Tomasz's Airflow caveat is the strongest archive example: task success isn't
+business confidence
+([DataOps and GitOps Best Practices for Data Teams]({{ '/podcasts/dataops-and-gitops-best-practices-for-data-teams/' | relative_url }}),
+1:02:28-1:05:41). Compose can help you practice the check locally, but the
+check belongs to the pipeline design.
+
+## Know When Compose Stops Being Enough
+
+Move beyond Docker Compose when the workflow needs shared operations:
+
+- several people deploy or edit DAGs.
+- failures need alerts, owners, and recovery steps.
+- logs must be retained and searchable.
+- secrets and connections need managed access control.
+- the Airflow metadata database needs backups and upgrades.
+- workers need isolation, concurrency, or autoscaling.
+- backfills can compete with current runs.
+- production databases, warehouses, queues, or APIs are involved.
+- downstream dashboards, ML jobs, product features, or operational decisions
+  depend on the output.
+
+[Mehdi OUAZZA]({{ '/people/mehdiouazza/' | relative_url }}) gives the platform
+version in
 [Scaling Data Engineering Teams]({{ '/podcasts/scaling-data-engineering-teams-self-service-platforms/' | relative_url }}).
-Around 17:22, he talks about Airflow together with conventions, playbooks, and
-best practices. An Airflow cluster alone isn't a platform.
+Around 17:22-17:56, he says an Airflow cluster is only one platform component.
+Teams still need conventions and playbooks. They also need sequencing rules,
+naming rules, and reusable DAG templates. A local Compose file is further from a
+platform than a shared Airflow cluster, so it should be treated as a learning
+and development tool.
 
-A local Compose file is even further from one. Teams need naming rules and
-reusable patterns, plus alert routing, ownership, and onboarding.
+Use [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}),
+[Self-Service Data Platforms]({{ '/wiki/self-service-data-platforms/' | relative_url }}),
+and [Production]({{ '/wiki/production/' | relative_url }}) for the larger
+operating model.
 
-Use [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
-and [Production]({{ '/wiki/production/' | relative_url }}) for those broader
-operating questions.
+## Compare Against Simpler Schedulers
 
-## Failure Modes
+Airflow isn't always the right first scheduler. If the workflow is one small
+script with one simple schedule, a cloud scheduler, cron-like service, or GitHub
+Actions workflow may be easier to operate.
 
-The common mistakes come from treating Docker Compose as a shortcut around
-design.
+[Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) makes that
+tradeoff in
+[Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}).
+At 35:37 he names Airflow alongside Prefect, Dagster, and GitHub Actions.
+Around 37:08, he says GitHub Actions can be enough for simple workflows because
+it avoids the cost of always-on orchestrators. An Airflow Docker Compose project
+should therefore prove that the workflow has real dependencies, retries, run
+history, or backfills to learn from.
 
-- Treating Airflow as the ETL logic instead of the orchestrator.
-- Putting large transformations directly in DAG files.
-- Installing dependencies on the host machine but not in the Airflow image.
-- Forgetting that metadata and logs need persistence.
-- Storing secrets in local files and later copying that habit into production.
-- Adding distributed workers before learning the simple execution path.
-- Assuming a green local run proves production readiness.
-- Keeping no reset instructions, so another developer can't reproduce the
-  environment.
-- Skipping data-quality checks because the Airflow task status is green.
+## Local Checklist
 
-The practical standard is simple: use Docker Compose to make Airflow's moving
-parts visible and repeatable. Use Airflow to coordinate recurring workflows.
-Use [data quality and observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
-with tests, ownership, and recovery practices. That combination decides whether
-the workflow is ready for other people to depend on it.
+Before calling the local setup useful, check that it shows the orchestration
+behavior the archive keeps emphasizing:
+
+- The DAG calls external pipeline logic instead of hiding all work in the DAG
+  file.
+- The scheduler, UI, metadata database, and logs can be looked at separately.
+- A failed run leaves enough logs to debug the task.
+- The project has a documented reset path.
+- Dependencies are installed inside the Airflow image, not only on the host.
+- Don't copy secrets into a local structure that would be unsafe in production.
+- At least one data-quality check guards the output.
+- The README explains when to replace the local setup with managed
+  infrastructure or a shared Airflow environment.
+
+Keep the standard simple by using Compose to make Airflow local and repeatable.
+Use Airflow to coordinate recurring work, then add DataOps and quality checks
+before other people depend on the workflow.
 
 ## Related Pages
 
-For the Airflow decision, read
-[Airflow]({{ '/guides/airflow/' | relative_url }}) and
-[Apache Airflow]({{ '/guides/apache-airflow/' | relative_url }}). For a
-learning sequence, use
-[Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
-and
-[Fundamentals of Data Engineering]({{ '/guides/fundamentals-of-data-engineering/' | relative_url }}).
-For operating practices, use
-[DataOps]({{ '/wiki/dataops/' | relative_url }}),
-[Data Observability]({{ '/wiki/data-observability/' | relative_url }}), and
-[Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}).
+Use these pages for the surrounding Airflow, pipeline, and operations topics:
+
+- [Airflow]({{ '/guides/airflow/' | relative_url }})
+- [Apache Airflow]({{ '/guides/apache-airflow/' | relative_url }})
+- [How to Build Data Pipelines]({{ '/how-tos/how-to-build-data-pipelines/' | relative_url }})
+- [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
+- [Orchestration]({{ '/wiki/orchestration/' | relative_url }})
+- [DataOps]({{ '/wiki/dataops/' | relative_url }})
+- [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
+- [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})

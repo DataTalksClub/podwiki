@@ -2,12 +2,12 @@
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
     "wikis": 169,
-    "articles": 71,
+    "articles": 78,
     "podcasts": 202,
     "persons": 438,
     "topics": 146,
-    "nodes": 1026,
-    "links": 10547
+    "nodes": 1033,
+    "links": 10878
   },
   "nodes": [
     {
@@ -40,7 +40,7 @@
       "title": "Airflow Docker Compose: Local Development, Learning, and Production Caveats",
       "url": "/how-tos/airflow-docker-compose/",
       "count": 1,
-      "search": "Airflow Docker Compose: Local Development, Learning, and Production Caveats A podcast backed guide to using Docker Compose for Airflow learning, local DAG development, persistence, executors, and production caveats.",
+      "search": "Airflow Docker Compose: Local Development, Learning, and Production Caveats A podcast backed how to for using Docker Compose as a local Airflow learning and DAG development environment, with clear production boundaries.",
       "keyword": "airflow docker compose"
     },
     {
@@ -97,6 +97,28 @@
       "count": 1,
       "search": "Data Analysis: Practical Work, Skills, and Portfolio Projects A podcast backed guide to practical data analysis: SQL, metrics, dashboards, experiments, stakeholder communication, role boundaries, and portfolio evidence.",
       "keyword": "data analysis"
+    },
+    {
+      "id": "article:roadmap:data-analyst-to-data-engineer",
+      "type": "article",
+      "collection": "roadmap",
+      "label": "Data Analyst to Data Engineer Roadmap",
+      "title": "Data Analyst to Data Engineer Roadmap",
+      "url": "/roadmaps/data-analyst-to-data-engineer/",
+      "count": 1,
+      "search": "Data Analyst to Data Engineer Roadmap A podcast backed roadmap for data analysts moving into data engineering: transferable analyst strengths, missing backend and cloud skills, portfolio projects, and interview positioning.",
+      "keyword": "data analyst to data engineer"
+    },
+    {
+      "id": "article:comparison:data-analyst-vs-analytics-engineer",
+      "type": "article",
+      "collection": "comparison",
+      "label": "Data Analyst vs Analytics Engineer",
+      "title": "Data Analyst vs Analytics Engineer",
+      "url": "/comparisons/data-analyst-vs-analytics-engineer/",
+      "count": 1,
+      "search": "Data Analyst vs Analytics Engineer A podcast grounded role comparison for deciding whether a team needs analyst ownership, analytics engineering ownership, or both.",
+      "keyword": "data analyst vs analytics engineer"
     },
     {
       "id": "article:guide:data-engineer-bootcamp",
@@ -194,7 +216,7 @@
       "title": "Data Engineering and Data Science: How They Work Together",
       "url": "/comparisons/data-engineering-and-data-science/",
       "count": 1,
-      "search": "Data Engineering and Data Science: How They Work Together A podcast backed guide to how data engineering and data science differ, where they overlap, how teams should assign ownership, and how learners should sequence skills.",
+      "search": "Data Engineering and Data Science: How They Work Together A podcast backed comparison of data engineering and data science: role boundaries, shared work, production handoffs, team ownership, and learning paths.",
       "keyword": "data engineering and data science"
     },
     {
@@ -341,6 +363,28 @@
       "keyword": "data product manager"
     },
     {
+      "id": "article:comparison:data-product-manager-vs-product-manager",
+      "type": "article",
+      "collection": "comparison",
+      "label": "Data Product Manager vs Product Manager",
+      "title": "Data Product Manager vs Product Manager",
+      "url": "/comparisons/data-product-manager-vs-product-manager/",
+      "count": 1,
+      "search": "Data Product Manager vs Product Manager A podcast grounded comparison of product manager and data product manager responsibilities, role boundaries, technical literacy, metrics, and adoption work.",
+      "keyword": "data product manager vs product manager"
+    },
+    {
+      "id": "article:comparison:data-product-owner-vs-data-product-manager",
+      "type": "article",
+      "collection": "comparison",
+      "label": "Data Product Owner vs Data Product Manager",
+      "title": "Data Product Owner vs Data Product Manager",
+      "url": "/comparisons/data-product-owner-vs-data-product-manager/",
+      "count": 1,
+      "search": "Data Product Owner vs Data Product Manager A podcast grounded comparison of data product owner and data product manager responsibilities, decision rights, guarantees, roadmaps, technical literacy, and adoption work.",
+      "keyword": "data product owner vs data product manager"
+    },
+    {
       "id": "article:guide:data-roles",
       "type": "article",
       "collection": "guide",
@@ -437,7 +481,7 @@
       "url": "/comparisons/delta-lake-vs-apache-iceberg/",
       "count": 1,
       "search": "Delta Lake vs Apache Iceberg A podcast grounded comparison of Delta Lake and Apache Iceberg as lakehouse table format choices, centered on storage, catalogs, engines, lock in, and platform operations.",
-      "keyword": "delta lake"
+      "keyword": "delta lake vs apache iceberg"
     },
     {
       "id": "article:guide:designing-machine-learning-systems",
@@ -537,6 +581,17 @@
       "count": 1,
       "search": "Interpretable Machine Learning: How to Build Models People Can Trust A practical guide to interpretable machine learning, explainable AI, SHAP, conformal prediction, fairness checks, governance, and actionability.",
       "keyword": "interpretable machine learning"
+    },
+    {
+      "id": "article:comparison:knowledge-graph-vs-vector-search",
+      "type": "article",
+      "collection": "comparison",
+      "label": "Knowledge Graph vs Vector Search",
+      "title": "Knowledge Graph vs Vector Search",
+      "url": "/comparisons/knowledge-graph-vs-vector-search/",
+      "count": 1,
+      "search": "Knowledge Graph vs Vector Search A podcast grounded comparison of knowledge graphs and vector search for retrieval, RAG, semantic search, relationship heavy knowledge systems, and production evaluation.",
+      "keyword": "knowledge graph vs vector search"
     },
     {
       "id": "article:guide:llm-system-design-interview",
@@ -726,6 +781,17 @@
       "keyword": "mlops vs dataops"
     },
     {
+      "id": "article:comparison:mlops-vs-devops",
+      "type": "article",
+      "collection": "comparison",
+      "label": "MLOps vs DevOps",
+      "title": "MLOps vs DevOps",
+      "url": "/comparisons/mlops-vs-devops/",
+      "count": 1,
+      "search": "MLOps vs DevOps Podcast grounded comparison of MLOps and DevOps: shared software delivery practices, ML specific lifecycle risks, monitoring boundaries, and team responsibilities.",
+      "keyword": "mlops vs devops"
+    },
+    {
       "id": "article:guide:mlops-zoomcamp",
       "type": "article",
       "collection": "guide",
@@ -746,6 +812,17 @@
       "count": 1,
       "search": "Product Analyst Job Description: Responsibilities, Skills, and Role Boundaries A practical, podcast backed guide to the product analyst role: product analytics responsibilities, event tracking, tracking plans, A/B testing, analytics engineering boundaries, and job description examples.",
       "keyword": "product analyst"
+    },
+    {
+      "id": "article:comparison:product-analyst-vs-data-analyst",
+      "type": "article",
+      "collection": "comparison",
+      "label": "Product Analyst vs Data Analyst",
+      "title": "Product Analyst vs Data Analyst",
+      "url": "/comparisons/product-analyst-vs-data-analyst/",
+      "count": 1,
+      "search": "Product Analyst vs Data Analyst A podcast grounded role comparison for deciding whether a team needs product focused analytics, broader business analysis, or one analyst who covers both.",
+      "keyword": "product analyst vs data analyst"
     },
     {
       "id": "article:comparison:product-owner-vs-product-manager",
@@ -10198,8 +10275,248 @@
   ],
   "links": [
     {
+      "source": "article:comparison:data-analyst-vs-analytics-engineer",
+      "target": "article:guide:analytics-engineer",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-analyst-vs-analytics-engineer",
+      "target": "article:guide:product-analyst",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-analyst-vs-analytics-engineer",
+      "target": "person:arpitchoudhury",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-analyst-vs-analytics-engineer",
+      "target": "person:juanmanuelperafan",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-analyst-vs-analytics-engineer",
+      "target": "person:nikolamaksimovic",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-analyst-vs-analytics-engineer",
+      "target": "person:victoriaperezmola",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-analyst-vs-analytics-engineer",
+      "target": "podcast:analytics-engineer-skills-tools",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-analyst-vs-analytics-engineer",
+      "target": "podcast:data-led-growth-event-tracking-and-reverse-etl",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-analyst-vs-analytics-engineer",
+      "target": "podcast:data-team-roles",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-analyst-vs-analytics-engineer",
+      "target": "podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-analyst-vs-analytics-engineer",
+      "target": "podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-analyst-vs-analytics-engineer",
+      "target": "wiki:a-b-testing",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-analyst-vs-analytics-engineer",
+      "target": "wiki:analytics-engineering",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-analyst-vs-analytics-engineer",
+      "target": "wiki:analytics-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:data-analyst-vs-analytics-engineer",
+      "target": "wiki:analytics-engineering-portfolio-projects",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-analyst-vs-analytics-engineer",
+      "target": "wiki:analytics-engineering-portfolio-projects",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:data-analyst-vs-analytics-engineer",
+      "target": "wiki:analytics-engineering-roadmap",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-analyst-vs-analytics-engineer",
+      "target": "wiki:analytics-engineering-roadmap",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:data-analyst-vs-analytics-engineer",
+      "target": "wiki:data-activation",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-analyst-vs-analytics-engineer",
+      "target": "wiki:data-analyst-careers",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-analyst-vs-analytics-engineer",
+      "target": "wiki:data-analyst-careers",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:data-analyst-vs-analytics-engineer",
+      "target": "wiki:data-analyst-role",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-analyst-vs-analytics-engineer",
+      "target": "wiki:data-analyst-role",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:data-analyst-vs-analytics-engineer",
+      "target": "wiki:data-analyst-vs-analytics-engineer",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-analyst-vs-analytics-engineer",
+      "target": "wiki:data-led-growth",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-analyst-vs-analytics-engineer",
+      "target": "wiki:data-product-adoption",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-analyst-vs-analytics-engineer",
+      "target": "wiki:data-products",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-analyst-vs-analytics-engineer",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-analyst-vs-analytics-engineer",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:data-analyst-vs-analytics-engineer",
+      "target": "wiki:dbt",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:comparison:data-analyst-vs-analytics-engineer",
+      "target": "wiki:dbt",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:data-analyst-vs-analytics-engineer",
+      "target": "wiki:event-tracking",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-analyst-vs-analytics-engineer",
+      "target": "wiki:experimentation",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-analyst-vs-analytics-engineer",
+      "target": "wiki:metrics",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:comparison:data-analyst-vs-analytics-engineer",
+      "target": "wiki:metrics",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:data-analyst-vs-analytics-engineer",
+      "target": "wiki:modern-data-stack",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-analyst-vs-analytics-engineer",
+      "target": "wiki:product-analytics",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-analyst-vs-analytics-engineer",
+      "target": "wiki:product-analytics",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:data-analyst-vs-analytics-engineer",
+      "target": "wiki:tracking-plans",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
       "source": "article:comparison:data-engineering-and-data-science",
       "target": "article:guide:data-engineering-course",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-engineering-and-data-science",
+      "target": "article:guide:data-scientist-to-data-engineer",
       "kind": "article-link",
       "weight": 2
     },
@@ -10213,67 +10530,85 @@
       "source": "article:comparison:data-engineering-and-data-science",
       "target": "person:jeffkatz",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:comparison:data-engineering-and-data-science",
       "target": "person:olegnovikov",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:comparison:data-engineering-and-data-science",
       "target": "person:roksolanadiachuk",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:comparison:data-engineering-and-data-science",
       "target": "person:simonstiebellehner",
       "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-engineering-and-data-science",
+      "target": "person:slawomirtulski",
+      "kind": "article-link",
       "weight": 2
+    },
+    {
+      "source": "article:comparison:data-engineering-and-data-science",
+      "target": "person:terezaiofciu",
+      "kind": "article-link",
+      "weight": 4
     },
     {
       "source": "article:comparison:data-engineering-and-data-science",
       "target": "podcast:big-data-engineer-vs-data-scientist",
       "kind": "article-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "article:comparison:data-engineering-and-data-science",
       "target": "podcast:building-production-ml-platform-and-mlops-team",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:comparison:data-engineering-and-data-science",
       "target": "podcast:data-engineering-career-path-and-skills",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:comparison:data-engineering-and-data-science",
       "target": "podcast:data-science-interview-and-cv-guide",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-engineering-and-data-science",
+      "target": "podcast:data-science-job-red-flags-and-mismatched-roles",
+      "kind": "article-link",
+      "weight": 4
     },
     {
       "source": "article:comparison:data-engineering-and-data-science",
       "target": "podcast:data-team-roles",
       "kind": "article-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "article:comparison:data-engineering-and-data-science",
-      "target": "wiki:career-transitions-in-data",
+      "target": "podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for",
       "kind": "article-link",
       "weight": 2
     },
     {
       "source": "article:comparison:data-engineering-and-data-science",
       "target": "wiki:career-transitions-in-data",
-      "kind": "article-wiki",
-      "weight": 5
+      "kind": "article-link",
+      "weight": 4
     },
     {
       "source": "article:comparison:data-engineering-and-data-science",
@@ -10310,6 +10645,18 @@
       "target": "wiki:data-engineering",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "article:comparison:data-engineering-and-data-science",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-engineering-and-data-science",
+      "target": "wiki:data-engineering-roadmap",
+      "kind": "article-link",
+      "weight": 2
     },
     {
       "source": "article:comparison:data-engineering-and-data-science",
@@ -10319,27 +10666,63 @@
     },
     {
       "source": "article:comparison:data-engineering-and-data-science",
-      "target": "wiki:data-science",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:comparison:data-engineering-and-data-science",
-      "target": "wiki:data-science",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:comparison:data-engineering-and-data-science",
-      "target": "wiki:data-scientist-role",
+      "target": "wiki:data-pipelines",
       "kind": "article-link",
       "weight": 4
     },
     {
       "source": "article:comparison:data-engineering-and-data-science",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-engineering-and-data-science",
+      "target": "wiki:data-science",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-engineering-and-data-science",
+      "target": "wiki:data-science",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:data-engineering-and-data-science",
+      "target": "wiki:data-scientist-interview-roadmap",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-engineering-and-data-science",
+      "target": "wiki:data-scientist-role",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:comparison:data-engineering-and-data-science",
       "target": "wiki:data-scientist-role",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "article:comparison:data-engineering-and-data-science",
+      "target": "wiki:data-teams",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-engineering-and-data-science",
+      "target": "wiki:data-teams",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:data-engineering-and-data-science",
+      "target": "wiki:dataops",
+      "kind": "article-link",
+      "weight": 2
     },
     {
       "source": "article:comparison:data-engineering-and-data-science",
@@ -10355,6 +10738,12 @@
     },
     {
       "source": "article:comparison:data-engineering-and-data-science",
+      "target": "wiki:machine-learning-infrastructure",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-engineering-and-data-science",
       "target": "wiki:mlops",
       "kind": "article-link",
       "weight": 4
@@ -10367,9 +10756,441 @@
     },
     {
       "source": "article:comparison:data-engineering-and-data-science",
-      "target": "wiki:software-engineering",
+      "target": "wiki:model-monitoring",
       "kind": "article-link",
       "weight": 2
+    },
+    {
+      "source": "article:comparison:data-engineering-and-data-science",
+      "target": "wiki:platform-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-product-manager-vs-product-manager",
+      "target": "article:comparison:product-owner-vs-product-manager",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-product-manager-vs-product-manager",
+      "target": "article:guide:data-product-manager",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-product-manager-vs-product-manager",
+      "target": "article:guide:data-product-manager-role",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-product-manager-vs-product-manager",
+      "target": "person:annahannemann",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-product-manager-vs-product-manager",
+      "target": "person:caitlinmoorman",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-product-manager-vs-product-manager",
+      "target": "person:geojolly",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-product-manager-vs-product-manager",
+      "target": "person:gregcoquillo",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-product-manager-vs-product-manager",
+      "target": "person:saramenefee",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-product-manager-vs-product-manager",
+      "target": "podcast:building-and-scaling-ai-data-products-with-mlops",
+      "kind": "article-link",
+      "weight": 14
+    },
+    {
+      "source": "article:comparison:data-product-manager-vs-product-manager",
+      "target": "podcast:building-data-products-product-owner-vs-product-manager",
+      "kind": "article-link",
+      "weight": 8
+    },
+    {
+      "source": "article:comparison:data-product-manager-vs-product-manager",
+      "target": "podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack",
+      "kind": "article-link",
+      "weight": 8
+    },
+    {
+      "source": "article:comparison:data-product-manager-vs-product-manager",
+      "target": "podcast:ml-product-manager-and-mlops-platform-strategy",
+      "kind": "article-link",
+      "weight": 14
+    },
+    {
+      "source": "article:comparison:data-product-manager-vs-product-manager",
+      "target": "podcast:product-designer-to-data-product-manager",
+      "kind": "article-link",
+      "weight": 12
+    },
+    {
+      "source": "article:comparison:data-product-manager-vs-product-manager",
+      "target": "wiki:a-b-testing",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-product-manager-vs-product-manager",
+      "target": "wiki:analytics-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-product-manager-vs-product-manager",
+      "target": "wiki:data-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-product-manager-vs-product-manager",
+      "target": "wiki:data-product-adoption",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-product-manager-vs-product-manager",
+      "target": "wiki:data-product-adoption",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:data-product-manager-vs-product-manager",
+      "target": "wiki:data-product-management",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-product-manager-vs-product-manager",
+      "target": "wiki:data-product-management",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:data-product-manager-vs-product-manager",
+      "target": "wiki:data-products",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-product-manager-vs-product-manager",
+      "target": "wiki:data-products",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:data-product-manager-vs-product-manager",
+      "target": "wiki:data-teams",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-product-manager-vs-product-manager",
+      "target": "wiki:data-teams",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:data-product-manager-vs-product-manager",
+      "target": "wiki:experimentation-and-causal-inference",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-product-manager-vs-product-manager",
+      "target": "wiki:metrics",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:comparison:data-product-manager-vs-product-manager",
+      "target": "wiki:metrics",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:data-product-manager-vs-product-manager",
+      "target": "wiki:ml-product-manager-role",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-product-manager-vs-product-manager",
+      "target": "wiki:ml-product-manager-role",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:data-product-manager-vs-product-manager",
+      "target": "wiki:mlops",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-product-manager-vs-product-manager",
+      "target": "wiki:mlops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:data-product-manager-vs-product-manager",
+      "target": "wiki:product-analytics",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:comparison:data-product-manager-vs-product-manager",
+      "target": "wiki:product-analytics",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:data-product-manager-vs-product-manager",
+      "target": "wiki:self-service-data-platforms",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-product-owner-vs-data-product-manager",
+      "target": "article:comparison:data-product-manager-vs-product-manager",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-product-owner-vs-data-product-manager",
+      "target": "article:comparison:product-owner-vs-product-manager",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-product-owner-vs-data-product-manager",
+      "target": "person:annahannemann",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-product-owner-vs-data-product-manager",
+      "target": "person:caitlinmoorman",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-product-owner-vs-data-product-manager",
+      "target": "person:geojolly",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-product-owner-vs-data-product-manager",
+      "target": "person:gregcoquillo",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-product-owner-vs-data-product-manager",
+      "target": "person:saramenefee",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-product-owner-vs-data-product-manager",
+      "target": "person:zhamakdehghani",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-product-owner-vs-data-product-manager",
+      "target": "podcast:building-and-scaling-ai-data-products-with-mlops",
+      "kind": "article-link",
+      "weight": 8
+    },
+    {
+      "source": "article:comparison:data-product-owner-vs-data-product-manager",
+      "target": "podcast:building-data-products-product-owner-vs-product-manager",
+      "kind": "article-link",
+      "weight": 14
+    },
+    {
+      "source": "article:comparison:data-product-owner-vs-data-product-manager",
+      "target": "podcast:data-mesh-architecture-decentralized-data-products",
+      "kind": "article-link",
+      "weight": 8
+    },
+    {
+      "source": "article:comparison:data-product-owner-vs-data-product-manager",
+      "target": "podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-product-owner-vs-data-product-manager",
+      "target": "podcast:ml-product-manager-and-mlops-platform-strategy",
+      "kind": "article-link",
+      "weight": 8
+    },
+    {
+      "source": "article:comparison:data-product-owner-vs-data-product-manager",
+      "target": "podcast:product-designer-to-data-product-manager",
+      "kind": "article-link",
+      "weight": 8
+    },
+    {
+      "source": "article:comparison:data-product-owner-vs-data-product-manager",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-product-owner-vs-data-product-manager",
+      "target": "wiki:data-governance",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-product-owner-vs-data-product-manager",
+      "target": "wiki:data-governance",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:data-product-owner-vs-data-product-manager",
+      "target": "wiki:data-mesh",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-product-owner-vs-data-product-manager",
+      "target": "wiki:data-mesh",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:data-product-owner-vs-data-product-manager",
+      "target": "wiki:data-product-adoption",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-product-owner-vs-data-product-manager",
+      "target": "wiki:data-product-adoption",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:data-product-owner-vs-data-product-manager",
+      "target": "wiki:data-product-management",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-product-owner-vs-data-product-manager",
+      "target": "wiki:data-product-management",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:data-product-owner-vs-data-product-manager",
+      "target": "wiki:data-products",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:comparison:data-product-owner-vs-data-product-manager",
+      "target": "wiki:data-products",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:data-product-owner-vs-data-product-manager",
+      "target": "wiki:data-teams",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-product-owner-vs-data-product-manager",
+      "target": "wiki:data-teams",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:data-product-owner-vs-data-product-manager",
+      "target": "wiki:metrics",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-product-owner-vs-data-product-manager",
+      "target": "wiki:metrics",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:data-product-owner-vs-data-product-manager",
+      "target": "wiki:ml-product-manager-role",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-product-owner-vs-data-product-manager",
+      "target": "wiki:ml-product-manager-role",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:data-product-owner-vs-data-product-manager",
+      "target": "wiki:mlops",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-product-owner-vs-data-product-manager",
+      "target": "wiki:mlops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:data-product-owner-vs-data-product-manager",
+      "target": "wiki:product-analytics",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-product-owner-vs-data-product-manager",
+      "target": "wiki:product-analytics",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:data-product-owner-vs-data-product-manager",
+      "target": "wiki:self-service-data-platforms",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:dataops-vs-data-engineering",
+      "target": "article:comparison:mlops-vs-dataops",
+      "kind": "article-link",
+      "weight": 4
     },
     {
       "source": "article:comparison:dataops-vs-data-engineering",
@@ -10381,7 +11202,7 @@
       "source": "article:comparison:dataops-vs-data-engineering",
       "target": "person:christopherbergh",
       "kind": "article-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "article:comparison:dataops-vs-data-engineering",
@@ -10405,7 +11226,7 @@
       "source": "article:comparison:dataops-vs-data-engineering",
       "target": "podcast:data-engineering-tools-modern-data-stack",
       "kind": "article-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "article:comparison:dataops-vs-data-engineering",
@@ -10417,7 +11238,7 @@
       "source": "article:comparison:dataops-vs-data-engineering",
       "target": "podcast:dataops-and-gitops-best-practices-for-data-teams",
       "kind": "article-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "article:comparison:dataops-vs-data-engineering",
@@ -10435,13 +11256,25 @@
       "source": "article:comparison:dataops-vs-data-engineering",
       "target": "podcast:dataops-principles-and-scalable-data-platforms",
       "kind": "article-link",
-      "weight": 6
+      "weight": 2
     },
     {
       "source": "article:comparison:dataops-vs-data-engineering",
-      "target": "podcast:mlops-model-monitoring-data-observability",
+      "target": "wiki:analytics-engineering",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:dataops-vs-data-engineering",
+      "target": "wiki:ci-cd",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:dataops-vs-data-engineering",
+      "target": "wiki:ci-cd",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "article:comparison:dataops-vs-data-engineering",
@@ -10459,7 +11292,7 @@
       "source": "article:comparison:dataops-vs-data-engineering",
       "target": "wiki:data-engineering-platforms",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:comparison:dataops-vs-data-engineering",
@@ -10469,9 +11302,27 @@
     },
     {
       "source": "article:comparison:dataops-vs-data-engineering",
-      "target": "wiki:data-quality-and-observability",
+      "target": "wiki:data-observability",
       "kind": "article-link",
       "weight": 2
+    },
+    {
+      "source": "article:comparison:dataops-vs-data-engineering",
+      "target": "wiki:data-pipelines",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:dataops-vs-data-engineering",
+      "target": "wiki:data-pipelines",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:dataops-vs-data-engineering",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-link",
+      "weight": 4
     },
     {
       "source": "article:comparison:dataops-vs-data-engineering",
@@ -10483,7 +11334,7 @@
       "source": "article:comparison:dataops-vs-data-engineering",
       "target": "wiki:dataops",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:comparison:dataops-vs-data-engineering",
@@ -10493,13 +11344,43 @@
     },
     {
       "source": "article:comparison:dataops-vs-data-engineering",
-      "target": "wiki:mlops",
+      "target": "wiki:dataops-platforms",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:dataops-vs-data-engineering",
+      "target": "wiki:dataops-platforms",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "article:comparison:dataops-vs-data-engineering",
       "target": "wiki:mlops",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:dataops-vs-data-engineering",
+      "target": "wiki:mlops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:dataops-vs-data-engineering",
+      "target": "wiki:modern-data-stack",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:dataops-vs-data-engineering",
+      "target": "wiki:orchestration",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:dataops-vs-data-engineering",
+      "target": "wiki:orchestration",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -10520,6 +11401,18 @@
       "target": "person:nataliekwong",
       "kind": "article-link",
       "weight": 2
+    },
+    {
+      "source": "article:comparison:delta-lake-vs-apache-iceberg",
+      "target": "person:roksolanadiachuk",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:delta-lake-vs-apache-iceberg",
+      "target": "podcast:big-data-engineer-vs-data-scientist",
+      "kind": "article-link",
+      "weight": 12
     },
     {
       "source": "article:comparison:delta-lake-vs-apache-iceberg",
@@ -10830,6 +11723,168 @@
     {
       "source": "article:comparison:etl-vs-elt",
       "target": "wiki:reverse-etl",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "person:anahitapakiman",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "person:atitaarora",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "person:ranjithakulkarni",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "person:reemmahmoud",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "podcast:knowledge-graphs-and-llms-for-automotive-rnd",
+      "kind": "article-link",
+      "weight": 10
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
+      "kind": "article-link",
+      "weight": 8
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "podcast:production-ml-search-vector-search-embeddings-hybrid-search",
+      "kind": "article-link",
+      "weight": 10
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "wiki:embeddings",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "wiki:embeddings",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "wiki:graph-rag-vs-vector-rag",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "wiki:graph-rag-vs-vector-rag",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "wiki:knowledge-graph-vs-vector-search",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "wiki:production-search-evaluation",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "wiki:production-search-evaluation",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "wiki:rag-vs-fine-tuning",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "wiki:search",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "wiki:search",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "wiki:search-rag-and-knowledge-systems",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "wiki:search-rag-and-knowledge-systems",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "wiki:vector-database-vs-search-engine",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "wiki:vector-databases",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "wiki:vector-databases",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -11182,6 +12237,492 @@
       "weight": 5
     },
     {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "article:comparison:mlops-vs-dataops",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "person:agitajaunzeme",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "person:dannyleybzon",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "person:mariavechtomova",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "person:nadianahar",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "person:raphaelhoogvliets",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "person:simonstiebellehner",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "person:svpino",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "person:theofilospapapanagiotou",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "podcast:building-production-ml-platform-and-mlops-team",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "podcast:from-devops-to-data-engineering-automation-open-source-volunteering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "podcast:from-software-engineer-to-machine-learning",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "podcast:mlops-at-scale-reproducibility-adoption",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "podcast:mlops-kubeflow-model-monitoring",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "podcast:mlops-model-monitoring-data-observability",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "podcast:pragmatic-and-standardized-mlops",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "podcast:software-engineering-for-machine-learning",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "wiki:ci-cd",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "wiki:ci-cd",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "wiki:data-observability",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "wiki:data-observability",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "wiki:experiment-tracking",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "wiki:experiment-tracking",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "wiki:machine-learning-infrastructure",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "wiki:ml-platforms",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "wiki:mlops",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "wiki:mlops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "wiki:mlops-engineer",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "wiki:mlops-engineer",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "wiki:mlops-vs-devops",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "wiki:model-monitoring",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "wiki:model-monitoring",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "wiki:model-registry",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "wiki:model-registry",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "wiki:platform-engineering",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "wiki:platform-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "wiki:production",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "wiki:production",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "wiki:reproducibility",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "wiki:reproducibility",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "wiki:software-engineer-to-machine-learning",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "wiki:software-engineering",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "wiki:software-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "wiki:testing",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:product-analyst-vs-data-analyst",
+      "target": "article:comparison:data-analyst-vs-analytics-engineer",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:product-analyst-vs-data-analyst",
+      "target": "article:guide:data-analysis",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:product-analyst-vs-data-analyst",
+      "target": "person:arpitchoudhury",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:product-analyst-vs-data-analyst",
+      "target": "person:caitlinmoorman",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:product-analyst-vs-data-analyst",
+      "target": "person:jakobgraff",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:product-analyst-vs-data-analyst",
+      "target": "person:katiebauer",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:product-analyst-vs-data-analyst",
+      "target": "podcast:ab-testing-and-product-experimentation",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:product-analyst-vs-data-analyst",
+      "target": "podcast:data-led-growth-event-tracking-and-reverse-etl",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:product-analyst-vs-data-analyst",
+      "target": "podcast:data-team-roles",
+      "kind": "article-link",
+      "weight": 8
+    },
+    {
+      "source": "article:comparison:product-analyst-vs-data-analyst",
+      "target": "podcast:hiring-and-managing-data-science-teams-in-b2b-saas",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:product-analyst-vs-data-analyst",
+      "target": "podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:product-analyst-vs-data-analyst",
+      "target": "wiki:a-b-testing",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:product-analyst-vs-data-analyst",
+      "target": "wiki:a-b-testing",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:product-analyst-vs-data-analyst",
+      "target": "wiki:analytics-engineering",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:product-analyst-vs-data-analyst",
+      "target": "wiki:analytics-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:product-analyst-vs-data-analyst",
+      "target": "wiki:data-analyst-careers",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:product-analyst-vs-data-analyst",
+      "target": "wiki:data-analyst-careers",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:product-analyst-vs-data-analyst",
+      "target": "wiki:data-analyst-role",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:comparison:product-analyst-vs-data-analyst",
+      "target": "wiki:data-analyst-role",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:product-analyst-vs-data-analyst",
+      "target": "wiki:data-led-growth",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:product-analyst-vs-data-analyst",
+      "target": "wiki:data-led-growth",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:product-analyst-vs-data-analyst",
+      "target": "wiki:data-product-adoption",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:product-analyst-vs-data-analyst",
+      "target": "wiki:data-product-adoption",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:product-analyst-vs-data-analyst",
+      "target": "wiki:event-tracking",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:product-analyst-vs-data-analyst",
+      "target": "wiki:event-tracking",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:product-analyst-vs-data-analyst",
+      "target": "wiki:experimentation",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:product-analyst-vs-data-analyst",
+      "target": "wiki:experimentation",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:product-analyst-vs-data-analyst",
+      "target": "wiki:metrics",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:product-analyst-vs-data-analyst",
+      "target": "wiki:metrics",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:product-analyst-vs-data-analyst",
+      "target": "wiki:power-analysis",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:product-analyst-vs-data-analyst",
+      "target": "wiki:product-analytics",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:product-analyst-vs-data-analyst",
+      "target": "wiki:product-analytics",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:product-analyst-vs-data-analyst",
+      "target": "wiki:tracking-plans",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:product-analyst-vs-data-analyst",
+      "target": "wiki:tracking-plans",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:product-owner-vs-product-manager",
+      "target": "article:comparison:data-product-manager-vs-product-manager",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:product-owner-vs-product-manager",
+      "target": "article:guide:data-product-manager",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:product-owner-vs-product-manager",
+      "target": "article:guide:data-product-manager-role",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
       "source": "article:comparison:product-owner-vs-product-manager",
       "target": "person:annahannemann",
       "kind": "article-link",
@@ -11195,27 +12736,87 @@
     },
     {
       "source": "article:comparison:product-owner-vs-product-manager",
+      "target": "person:gregcoquillo",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:product-owner-vs-product-manager",
       "target": "person:saramenefee",
       "kind": "article-link",
       "weight": 2
     },
     {
       "source": "article:comparison:product-owner-vs-product-manager",
+      "target": "person:zhamakdehghani",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:product-owner-vs-product-manager",
+      "target": "podcast:building-and-scaling-ai-data-products-with-mlops",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:product-owner-vs-product-manager",
       "target": "podcast:building-data-products-product-owner-vs-product-manager",
       "kind": "article-link",
-      "weight": 26
+      "weight": 30
+    },
+    {
+      "source": "article:comparison:product-owner-vs-product-manager",
+      "target": "podcast:data-mesh-architecture-decentralized-data-products",
+      "kind": "article-link",
+      "weight": 6
     },
     {
       "source": "article:comparison:product-owner-vs-product-manager",
       "target": "podcast:ml-product-manager-and-mlops-platform-strategy",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:comparison:product-owner-vs-product-manager",
       "target": "podcast:product-designer-to-data-product-manager",
       "kind": "article-link",
-      "weight": 2
+      "weight": 6
+    },
+    {
+      "source": "article:comparison:product-owner-vs-product-manager",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:product-owner-vs-product-manager",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:product-owner-vs-product-manager",
+      "target": "wiki:data-mesh",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:comparison:product-owner-vs-product-manager",
+      "target": "wiki:data-mesh",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:product-owner-vs-product-manager",
+      "target": "wiki:data-mesh-vs-centralized-data-platform",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:product-owner-vs-product-manager",
+      "target": "wiki:data-mesh-vs-centralized-data-platform",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "article:comparison:product-owner-vs-product-manager",
@@ -11233,7 +12834,7 @@
       "source": "article:comparison:product-owner-vs-product-manager",
       "target": "wiki:data-product-management",
       "kind": "article-link",
-      "weight": 6
+      "weight": 8
     },
     {
       "source": "article:comparison:product-owner-vs-product-manager",
@@ -11245,7 +12846,7 @@
       "source": "article:comparison:product-owner-vs-product-manager",
       "target": "wiki:data-products",
       "kind": "article-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "article:comparison:product-owner-vs-product-manager",
@@ -12065,6 +13666,12 @@
     },
     {
       "source": "article:guide:analytics-engineer",
+      "target": "article:comparison:data-analyst-vs-analytics-engineer",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:analytics-engineer",
       "target": "person:christopherbergh",
       "kind": "article-link",
       "weight": 2
@@ -12146,12 +13753,6 @@
       "target": "wiki:data-analyst-vs-analytics-engineer",
       "kind": "article-link",
       "weight": 2
-    },
-    {
-      "source": "article:guide:analytics-engineer",
-      "target": "wiki:data-analyst-vs-analytics-engineer",
-      "kind": "article-wiki",
-      "weight": 5
     },
     {
       "source": "article:guide:analytics-engineer",
@@ -12599,6 +14200,12 @@
     },
     {
       "source": "article:guide:data-analysis",
+      "target": "article:comparison:data-analyst-vs-analytics-engineer",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:data-analysis",
       "target": "person:alicjanotowska",
       "kind": "article-link",
       "weight": 2
@@ -12776,12 +14383,6 @@
       "target": "wiki:data-analyst-vs-analytics-engineer",
       "kind": "article-link",
       "weight": 2
-    },
-    {
-      "source": "article:guide:data-analysis",
-      "target": "wiki:data-analyst-vs-analytics-engineer",
-      "kind": "article-wiki",
-      "weight": 5
     },
     {
       "source": "article:guide:data-analysis",
@@ -23807,7 +25408,7 @@
     },
     {
       "source": "article:how_to:airflow-docker-compose",
-      "target": "article:guide:fundamentals-of-data-engineering",
+      "target": "article:how_to:how-to-build-data-pipelines",
       "kind": "article-link",
       "weight": 2
     },
@@ -23820,12 +25421,6 @@
     {
       "source": "article:how_to:airflow-docker-compose",
       "target": "person:andreaskretz",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:how_to:airflow-docker-compose",
-      "target": "person:christopherbergh",
       "kind": "article-link",
       "weight": 2
     },
@@ -23849,6 +25444,18 @@
     },
     {
       "source": "article:how_to:airflow-docker-compose",
+      "target": "person:santonatuli",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how_to:airflow-docker-compose",
+      "target": "person:tomaszhinc",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how_to:airflow-docker-compose",
       "target": "podcast:data-engineering-career-path-and-skills",
       "kind": "article-link",
       "weight": 2
@@ -23857,11 +25464,17 @@
       "source": "article:how_to:airflow-docker-compose",
       "target": "podcast:data-engineering-tools-modern-data-stack",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:how_to:airflow-docker-compose",
-      "target": "podcast:dataops-for-data-engineering",
+      "target": "podcast:dataops-and-gitops-best-practices-for-data-teams",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:how_to:airflow-docker-compose",
+      "target": "podcast:modern-data-pipelines-orchestration-ingestion-modeling",
       "kind": "article-link",
       "weight": 2
     },
@@ -23892,12 +25505,6 @@
     {
       "source": "article:how_to:airflow-docker-compose",
       "target": "wiki:data-engineering",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:how_to:airflow-docker-compose",
-      "target": "wiki:data-engineering",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -23915,6 +25522,12 @@
     },
     {
       "source": "article:how_to:airflow-docker-compose",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how_to:airflow-docker-compose",
       "target": "wiki:data-engineering-roadmap",
       "kind": "article-link",
       "weight": 2
@@ -23927,15 +25540,21 @@
     },
     {
       "source": "article:how_to:airflow-docker-compose",
-      "target": "wiki:data-observability",
+      "target": "wiki:data-pipelines",
       "kind": "article-link",
       "weight": 2
     },
     {
       "source": "article:how_to:airflow-docker-compose",
+      "target": "wiki:data-pipelines",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:how_to:airflow-docker-compose",
       "target": "wiki:data-quality-and-observability",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:how_to:airflow-docker-compose",
@@ -23975,6 +25594,18 @@
     },
     {
       "source": "article:how_to:airflow-docker-compose",
+      "target": "wiki:orchestration",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:how_to:airflow-docker-compose",
+      "target": "wiki:orchestration",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:how_to:airflow-docker-compose",
       "target": "wiki:production",
       "kind": "article-link",
       "weight": 2
@@ -23984,6 +25615,12 @@
       "target": "wiki:production",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "article:how_to:airflow-docker-compose",
+      "target": "wiki:self-service-data-platforms",
+      "kind": "article-link",
+      "weight": 2
     },
     {
       "source": "article:how_to:how-to-build-data-pipelines",
@@ -24180,6 +25817,282 @@
     {
       "source": "article:how_to:how-to-build-data-pipelines",
       "target": "wiki:tracking-plans",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-data-engineer",
+      "target": "article:comparison:dataops-vs-data-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-data-engineer",
+      "target": "article:guide:data-engineering-pipeline-project",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-data-engineer",
+      "target": "article:roadmap:data-engineer-roadmap",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-data-engineer",
+      "target": "article:roadmap:how-to-become-a-data-engineer-with-no-experience",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-data-engineer",
+      "target": "person:eddyzulkifly",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-data-engineer",
+      "target": "person:gloriaquiceno",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-data-engineer",
+      "target": "person:jeffkatz",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-data-engineer",
+      "target": "person:nikolamaksimovic",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-data-engineer",
+      "target": "person:slawomirtulski",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-data-engineer",
+      "target": "podcast:data-engineering-career-path-and-skills",
+      "kind": "article-link",
+      "weight": 8
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-data-engineer",
+      "target": "podcast:finops-for-data-engineers",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-data-engineer",
+      "target": "podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-data-engineer",
+      "target": "podcast:get-data-analytics-and-data-engineering-job",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-data-engineer",
+      "target": "podcast:get-data-engineering-job-prep-and-interview",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-data-engineer",
+      "target": "podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-data-engineer",
+      "target": "wiki:analytics-engineering",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-data-engineer",
+      "target": "wiki:analytics-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-data-engineer",
+      "target": "wiki:analytics-engineering-portfolio-projects",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-data-engineer",
+      "target": "wiki:career-transitions-in-data",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-data-engineer",
+      "target": "wiki:data-analyst-careers",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-data-engineer",
+      "target": "wiki:data-analyst-careers",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-data-engineer",
+      "target": "wiki:data-analyst-role",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-data-engineer",
+      "target": "wiki:data-analyst-role",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-data-engineer",
+      "target": "wiki:data-analyst-vs-analytics-engineer",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-data-engineer",
+      "target": "wiki:data-engineer-role",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-data-engineer",
+      "target": "wiki:data-engineer-role",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-data-engineer",
+      "target": "wiki:data-engineering",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-data-engineer",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-data-engineer",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-data-engineer",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-data-engineer",
+      "target": "wiki:data-engineering-roadmap",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-data-engineer",
+      "target": "wiki:data-engineering-roadmap",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-data-engineer",
+      "target": "wiki:data-engineering-tools",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-data-engineer",
+      "target": "wiki:data-observability",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-data-engineer",
+      "target": "wiki:data-pipelines",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-data-engineer",
+      "target": "wiki:data-pipelines",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-data-engineer",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-data-engineer",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-data-engineer",
+      "target": "wiki:data-warehouse",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-data-engineer",
+      "target": "wiki:dataops",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-data-engineer",
+      "target": "wiki:dbt",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-data-engineer",
+      "target": "wiki:etl-vs-elt",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-data-engineer",
+      "target": "wiki:job-search",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-data-engineer",
+      "target": "wiki:job-search",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-data-engineer",
+      "target": "wiki:modern-data-stack",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-data-engineer",
+      "target": "wiki:open-source-portfolio-evidence",
       "kind": "article-link",
       "weight": 2
     },
@@ -42965,43 +44878,13 @@
     },
     {
       "source": "wiki:analytics-engineering",
-      "target": "person:arpitchoudhury",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:analytics-engineering",
-      "target": "person:christopherbergh",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:analytics-engineering",
-      "target": "person:jeffkatz",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:analytics-engineering",
       "target": "person:juanmanuelperafan",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:analytics-engineering",
-      "target": "person:nataliekwong",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:analytics-engineering",
       "target": "person:nikolamaksimovic",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:analytics-engineering",
-      "target": "person:tammyliang",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -43015,67 +44898,91 @@
       "source": "wiki:analytics-engineering",
       "target": "podcast:analytics-engineer-skills-tools",
       "kind": "wiki-link",
-      "weight": 14
+      "weight": 12
     },
     {
       "source": "wiki:analytics-engineering",
       "target": "podcast:building-and-scaling-data-team",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:analytics-engineering",
       "target": "podcast:data-engineering-career-path-and-skills",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:analytics-engineering",
       "target": "podcast:data-engineering-tools-modern-data-stack",
       "kind": "wiki-link",
-      "weight": 10
+      "weight": 8
     },
     {
       "source": "wiki:analytics-engineering",
       "target": "podcast:data-led-growth-event-tracking-and-reverse-etl",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
+    },
+    {
+      "source": "wiki:analytics-engineering",
+      "target": "podcast:dataops-and-gitops-best-practices-for-data-teams",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:analytics-engineering",
       "target": "podcast:dataops-automation-and-reliable-data-pipelines",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:analytics-engineering",
       "target": "podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch",
       "kind": "wiki-link",
-      "weight": 10
+      "weight": 8
     },
     {
       "source": "wiki:analytics-engineering",
-      "target": "podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices",
-      "kind": "wiki-link",
-      "weight": 10
-    },
-    {
-      "source": "wiki:analytics-engineering",
-      "target": "wiki:analytics-engineering-portfolio-projects",
+      "target": "podcast:hiring-and-managing-data-science-teams-in-b2b-saas",
       "kind": "wiki-link",
       "weight": 4
     },
     {
       "source": "wiki:analytics-engineering",
-      "target": "wiki:analytics-engineering-roadmap",
+      "target": "podcast:modern-data-pipelines-orchestration-ingestion-modeling",
       "kind": "wiki-link",
       "weight": 6
     },
     {
       "source": "wiki:analytics-engineering",
+      "target": "podcast:production-ml-mlops-and-data-team-building",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:analytics-engineering",
+      "target": "podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:analytics-engineering",
+      "target": "wiki:analytics-engineering-portfolio-projects",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:analytics-engineering",
+      "target": "wiki:analytics-engineering-roadmap",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:analytics-engineering",
       "target": "wiki:career-transitions-in-data",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:analytics-engineering",
@@ -43087,13 +44994,13 @@
       "source": "wiki:analytics-engineering",
       "target": "wiki:data-analyst-vs-analytics-engineer",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:analytics-engineering",
       "target": "wiki:data-engineering-platforms",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 8
     },
     {
       "source": "wiki:analytics-engineering",
@@ -43105,7 +45012,7 @@
       "source": "wiki:analytics-engineering",
       "target": "wiki:data-product-management",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:analytics-engineering",
@@ -43117,7 +45024,13 @@
       "source": "wiki:analytics-engineering",
       "target": "wiki:data-quality-and-observability",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
+    },
+    {
+      "source": "wiki:analytics-engineering",
+      "target": "wiki:data-teams",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:analytics-engineering",
@@ -43127,9 +45040,15 @@
     },
     {
       "source": "wiki:analytics-engineering",
+      "target": "wiki:machine-learning-engineer-role",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:analytics-engineering",
       "target": "wiki:marketing-to-analytics-engineering",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:analytics-engineering",
@@ -43147,7 +45066,13 @@
       "source": "wiki:analytics-engineering",
       "target": "wiki:product-analytics",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
+    },
+    {
+      "source": "wiki:analytics-engineering-portfolio-projects",
+      "target": "article:comparison:data-analyst-vs-analytics-engineer",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:analytics-engineering-portfolio-projects",
@@ -43295,12 +45220,6 @@
     },
     {
       "source": "wiki:analytics-engineering-portfolio-projects",
-      "target": "wiki:data-analyst-vs-analytics-engineer",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:analytics-engineering-portfolio-projects",
       "target": "wiki:data-engineering-portfolio-projects",
       "kind": "wiki-link",
       "weight": 4
@@ -43392,6 +45311,12 @@
     {
       "source": "wiki:analytics-engineering-portfolio-projects",
       "target": "wiki:product-analytics",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:analytics-engineering-roadmap",
+      "target": "article:comparison:data-analyst-vs-analytics-engineer",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -43508,12 +45433,6 @@
       "target": "wiki:data-analyst-vs-analytics-engineer",
       "kind": "wiki-link",
       "weight": 4
-    },
-    {
-      "source": "wiki:analytics-engineering-roadmap",
-      "target": "wiki:data-analyst-vs-analytics-engineer",
-      "kind": "wiki-related",
-      "weight": 3
     },
     {
       "source": "wiki:analytics-engineering-roadmap",
@@ -47225,6 +49144,12 @@
     },
     {
       "source": "wiki:data-analyst-careers",
+      "target": "article:comparison:data-analyst-vs-analytics-engineer",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-analyst-careers",
       "target": "article:guide:product-analyst",
       "kind": "wiki-link",
       "weight": 2
@@ -47381,12 +49306,6 @@
     },
     {
       "source": "wiki:data-analyst-careers",
-      "target": "wiki:data-analyst-vs-analytics-engineer",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:data-analyst-careers",
       "target": "wiki:data-engineer-role",
       "kind": "wiki-link",
       "weight": 2
@@ -47436,6 +49355,12 @@
     {
       "source": "wiki:data-analyst-careers",
       "target": "wiki:product-analytics",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-analyst-role",
+      "target": "article:comparison:data-analyst-vs-analytics-engineer",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -47552,12 +49477,6 @@
       "target": "wiki:data-analyst-vs-analytics-engineer",
       "kind": "wiki-link",
       "weight": 4
-    },
-    {
-      "source": "wiki:data-analyst-role",
-      "target": "wiki:data-analyst-vs-analytics-engineer",
-      "kind": "wiki-related",
-      "weight": 3
     },
     {
       "source": "wiki:data-analyst-role",
@@ -47837,13 +49756,31 @@
     },
     {
       "source": "wiki:data-engineer-role",
+      "target": "person:16rahuljain",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-engineer-role",
       "target": "person:arpitchoudhury",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:data-engineer-role",
+      "target": "person:gloriaquiceno",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-engineer-role",
       "target": "person:jeffkatz",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-engineer-role",
+      "target": "person:mehdiouazza",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -47873,6 +49810,12 @@
     },
     {
       "source": "wiki:data-engineer-role",
+      "target": "podcast:data-engineering-leadership-and-modern-data-platforms",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-engineer-role",
       "target": "podcast:data-led-growth-event-tracking-and-reverse-etl",
       "kind": "wiki-link",
       "weight": 2
@@ -47885,6 +49828,12 @@
     },
     {
       "source": "wiki:data-engineer-role",
+      "target": "podcast:get-data-analytics-and-data-engineering-job",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-engineer-role",
       "target": "podcast:get-data-engineering-job-prep-and-interview",
       "kind": "wiki-link",
       "weight": 4
@@ -47892,6 +49841,12 @@
     {
       "source": "wiki:data-engineer-role",
       "target": "podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-engineer-role",
+      "target": "podcast:scaling-data-engineering-teams-self-service-platforms",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -47941,7 +49896,7 @@
       "source": "wiki:data-engineer-role",
       "target": "wiki:data-engineering-platforms",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "wiki:data-engineer-role",
@@ -47953,7 +49908,13 @@
       "source": "wiki:data-engineer-role",
       "target": "wiki:data-engineering-portfolio-projects",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 6
+    },
+    {
+      "source": "wiki:data-engineer-role",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:data-engineer-role",
@@ -47983,7 +49944,7 @@
       "source": "wiki:data-engineer-role",
       "target": "wiki:dataops",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 8
     },
     {
       "source": "wiki:data-engineer-role",
@@ -47995,7 +49956,7 @@
       "source": "wiki:data-engineer-role",
       "target": "wiki:devops-to-data-engineering",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:data-engineer-role",
@@ -48026,6 +49987,18 @@
       "target": "wiki:mlops-tools",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:data-engineer-role",
+      "target": "wiki:self-service-data-platforms",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-engineer-role",
+      "target": "wiki:self-service-data-platforms",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:data-engineer-vs-data-scientist",
@@ -52625,6 +54598,18 @@
     },
     {
       "source": "wiki:data-scientist-role",
+      "target": "article:comparison:machine-learning-engineer-vs-data-scientist",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-scientist-role",
+      "target": "article:guide:data-scientist",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-scientist-role",
       "target": "article:guide:data-scientist-interview",
       "kind": "wiki-link",
       "weight": 2
@@ -52643,13 +54628,37 @@
     },
     {
       "source": "wiki:data-scientist-role",
+      "target": "person:eugeneyan",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-scientist-role",
+      "target": "person:ioannismesionis",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-scientist-role",
       "target": "person:jakobgraff",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:data-scientist-role",
+      "target": "person:ksenialegostay",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-scientist-role",
       "target": "person:lukewhipps",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-scientist-role",
+      "target": "person:mariannadiachuk",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -52688,6 +54697,12 @@
       "target": "podcast:big-data-engineer-vs-data-scientist",
       "kind": "wiki-link",
       "weight": 4
+    },
+    {
+      "source": "wiki:data-scientist-role",
+      "target": "podcast:building-data-products-lead-data-scientist",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:data-scientist-role",
@@ -52733,6 +54748,24 @@
     },
     {
       "source": "wiki:data-scientist-role",
+      "target": "podcast:project-manager-to-data-scientist",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-scientist-role",
+      "target": "podcast:solopreneur-data-scientist",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-scientist-role",
+      "target": "podcast:technical-writing-for-data-scientists",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-scientist-role",
       "target": "wiki:ai-engineer-role",
       "kind": "wiki-link",
       "weight": 2
@@ -52740,6 +54773,18 @@
     {
       "source": "wiki:data-scientist-role",
       "target": "wiki:career-transitions-in-data",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-scientist-role",
+      "target": "wiki:communication",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-scientist-role",
+      "target": "wiki:communication",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -52777,7 +54822,13 @@
       "source": "wiki:data-scientist-role",
       "target": "wiki:data-products",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-scientist-role",
+      "target": "wiki:data-products",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:data-scientist-role",
@@ -52861,13 +54912,25 @@
       "source": "wiki:data-scientist-role",
       "target": "wiki:product-analytics",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-scientist-role",
+      "target": "wiki:product-analytics",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:data-scientist-role",
       "target": "wiki:responsible-ai-and-governance",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:data-scientist-role",
+      "target": "wiki:technical-writing",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:data-strategy",
@@ -55091,6 +57154,12 @@
     },
     {
       "source": "wiki:devops-to-data-engineering",
+      "target": "article:comparison:mlops-vs-devops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:devops-to-data-engineering",
       "target": "person:agitajaunzeme",
       "kind": "wiki-link",
       "weight": 4
@@ -55256,12 +57325,6 @@
       "target": "wiki:mlops-vs-devops",
       "kind": "wiki-link",
       "weight": 4
-    },
-    {
-      "source": "wiki:devops-to-data-engineering",
-      "target": "wiki:mlops-vs-devops",
-      "kind": "wiki-related",
-      "weight": 3
     },
     {
       "source": "wiki:devops-to-data-engineering",
@@ -58409,6 +60472,12 @@
     },
     {
       "source": "wiki:graph-rag-vs-vector-rag",
+      "target": "article:comparison:knowledge-graph-vs-vector-search",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:graph-rag-vs-vector-rag",
       "target": "person:anahitapakiman",
       "kind": "wiki-link",
       "weight": 2
@@ -58460,12 +60529,6 @@
       "target": "wiki:knowledge-graph-vs-vector-search",
       "kind": "wiki-link",
       "weight": 6
-    },
-    {
-      "source": "wiki:graph-rag-vs-vector-rag",
-      "target": "wiki:knowledge-graph-vs-vector-search",
-      "kind": "wiki-related",
-      "weight": 3
     },
     {
       "source": "wiki:graph-rag-vs-vector-rag",
@@ -69947,6 +72010,12 @@
     },
     {
       "source": "wiki:search-rag-and-knowledge-systems",
+      "target": "article:comparison:knowledge-graph-vs-vector-search",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:search-rag-and-knowledge-systems",
       "target": "person:anahitapakiman",
       "kind": "wiki-link",
       "weight": 4
@@ -70052,12 +72121,6 @@
       "target": "wiki:knowledge-graph-vs-vector-search",
       "kind": "wiki-link",
       "weight": 4
-    },
-    {
-      "source": "wiki:search-rag-and-knowledge-systems",
-      "target": "wiki:knowledge-graph-vs-vector-search",
-      "kind": "wiki-related",
-      "weight": 3
     },
     {
       "source": "wiki:search-rag-and-knowledge-systems",
@@ -70433,6 +72496,12 @@
     },
     {
       "source": "wiki:software-engineer-to-machine-learning",
+      "target": "article:comparison:mlops-vs-devops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:software-engineer-to-machine-learning",
       "target": "person:mihaileric",
       "kind": "wiki-link",
       "weight": 4
@@ -70592,12 +72661,6 @@
       "target": "wiki:mlops-vs-devops",
       "kind": "wiki-link",
       "weight": 6
-    },
-    {
-      "source": "wiki:software-engineer-to-machine-learning",
-      "target": "wiki:mlops-vs-devops",
-      "kind": "wiki-related",
-      "weight": 3
     },
     {
       "source": "wiki:software-engineer-to-machine-learning",

@@ -9,6 +9,8 @@ related:
   - Analytics Engineering
   - DataOps
   - Data Engineering Roadmap
+  - Self-Service Data Platforms
+  - Data Engineering Portfolio Projects
 ---
 
 A data engineer builds and operates the systems that make data available for
@@ -61,7 +63,18 @@ operations around tracking and reverse ETL. This connects the role to
 [DataOps]({{ '/wiki/dataops/' | relative_url }}), and
 [data engineering platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}).
 
-## Guest Differences
+In the scale-up setting,
+[Mehdi OUAZZA]({{ '/people/mehdiouazza/' | relative_url }}) describes data
+engineering as a way to make other teams productive, not only as pipeline
+delivery. In
+[Scaling Data Engineering Teams and Self-Service Platforms]({{ '/podcasts/scaling-data-engineering-teams-self-service-platforms/' | relative_url }}),
+the 12:30 and 17:22 sections connect the role to self-service onboarding,
+Airflow conventions, and playbooks. The 23:26 section adds Kafka, schemas,
+schema registries, and data contracts. That places the role near
+[self-service data platforms]({{ '/wiki/self-service-data-platforms/' | relative_url }})
+and [DataOps]({{ '/wiki/dataops/' | relative_url }}).
+
+## Role Variants
 
 Guests disagree less about the core work and more about the job title. The
 episodes use "data engineer" for platform builders, big-data engineers,
@@ -97,6 +110,13 @@ signals. That version of the role is close to
 [data engineering training]({{ '/guides/data-engineering-training/' | relative_url }})
 and [data engineering portfolio projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }}).
 
+Mehdi's scale-up episode puts the role between platform engineering and
+use-case delivery. At 52:55, he describes a roughly even split between building
+platform capabilities and building pipelines for concrete users. That version
+of the job differs from a mature centralized platform role. The data engineer
+still has to listen to internal users, encode conventions, and remove
+themselves from repeated support work.
+
 ## Responsibilities
 
 Data engineers make data dependable before other teams use it. They build
@@ -130,6 +150,16 @@ and governance. Arpit's 13:34 section adds tracking plans for product data.
 Teams need documented events, properties, and ownership before dashboards or
 activation workflows can be trusted.
 
+[Rahul Jain]({{ '/people/16rahuljain/' | relative_url }}) adds the manager and
+platform-lead view in
+[Data Engineering Leadership and Modern Data Platforms]({{ '/podcasts/data-engineering-leadership-and-modern-data-platforms/' | relative_url }}).
+At 25:04, he talks about data culture, consumers served, and data quality
+metrics. At 30:50, he connects data engineering to ETL-to-ELT migration, data
+lakes, and lineage. At 57:29, he walks through an end-to-end pipeline from
+ingestion to a central hub, exposure, and monitoring. That version of the role
+links responsibilities to [data engineering platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
+and [DataOps]({{ '/wiki/dataops/' | relative_url }}), not just individual jobs.
+
 ## Skills
 
 SQL and data modeling are core because data engineers have to understand joins
@@ -152,12 +182,29 @@ warehouses at 1:20. Roksolana's 36:07 section adds Docker, cloud services, and
 introductory Kubernetes. Slawomir's 25:33 section adds cost-aware engineering,
 which becomes important when platform teams scale shared compute.
 
-Data quality and documentation aren't optional extras. Roksolana's 39:09
-section covers freshness, spikes, schema changes, and alerts. Her 43:37 section
+Data quality and documentation aren't optional extras. At 39:09, Roksolana
+covers freshness, volume spikes, schema changes and alerts. Her 43:37 section
 covers schema descriptions and governance.
+
+At 38:36, Rahul names the experienced-hiring baseline: SQL, ETL concepts and
+data warehousing. Candidates also need a scripting language such as Python plus
+CI/CD and cloud experience. Rahul includes ownership in the checklist too. His
+54:34 student advice points back to DBMS, SQL, and fundamentals rather than
+chasing every named tool.
 
 Arpit's growth-stack episode adds the product-data version. It covers tracking
 plans at 13:34, then data literacy and self-serve analytics at 51:40.
+
+[Gloria Quiceno]({{ '/people/gloriaquiceno/' | relative_url }}) shows how those
+skills can be demonstrated by a career switcher.
+[Gloria Quiceno's career-transition episode]({{ '/podcasts/get-data-analytics-and-data-engineering-job/' | relative_url }})
+uses Docker and AWS for reproducible collaborative scripts at 21:25. At 36:20,
+she names Python, Docker, Airflow and networking as bootcamp outcomes. The
+50:15 section turns a Twitter data pipeline into portfolio evidence. That
+connects the role to
+[data engineering portfolio projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
+and [DevOps to Data Engineering]({{ '/wiki/devops-to-data-engineering/' | relative_url }})
+because employers can look at the pipeline work.
 
 ## Boundaries with Nearby Roles
 

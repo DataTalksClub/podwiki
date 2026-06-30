@@ -5,9 +5,12 @@ summary: "Archive-backed definition of the data scientist role: product question
 related:
   - Data Science
   - Machine Learning
+  - Product Analytics
+  - Data Products
   - Data Engineer vs Data Scientist
   - Data Scientist Interview Roadmap
   - Career Transitions in Data
+  - Communication
 ---
 
 A data scientist turns a business, product, or operational question into
@@ -56,7 +59,7 @@ starts case-study preparation from business goals and evaluation metrics at
 shows how randomized experiments turn product questions into causal evidence.
 Metric design, A/A tests, and power analysis make that evidence usable.
 
-## Guest Differences
+## Role Variations
 
 Guests differ mostly on how much engineering and product ownership the title
 should imply. They also differ on the expected statistical depth. The archive
@@ -85,6 +88,21 @@ At 8:31, he names statistics, programming, and domain knowledge as core pillars.
 At 37:49 and 43:08, he pushes candidates toward distinctive portfolio projects
 and cross-disciplinary domain expertise instead of interchangeable Kaggle-style
 work.
+
+The archive also separates solo, lead, and transition versions of the role.
+[Marianna Diachuk]({{ '/people/mariannadiachuk/' | relative_url }})
+frames the solo data scientist as a mid-senior owner who has to discover
+business problems and check data readiness. She also has to prioritize by
+feasibility and impact, then educate the company in
+[Solo Data Scientist Playbook]({{ '/podcasts/solopreneur-data-scientist/' | relative_url }}).
+
+[Ioannis Mesionis]({{ '/people/ioannismesionis/' | relative_url }})
+describes a lead data scientist operating model in
+[Building Data Products at Scale]({{ '/podcasts/building-data-products-lead-data-scientist/' | relative_url }}).
+The operating model includes embedded stakeholder meetings and a single intake
+path. It also uses definition-of-done templates, pilot tests, and monitoring.
+These examples make senior data science less about isolated modeling and more
+about product intake, delivery, and organizational trust.
 
 ## Responsibilities
 
@@ -124,10 +142,20 @@ distinction. Roksolana's episode adds reproducibility and code quality at
 [machine learning infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }})
 and [MLOps tools]({{ '/wiki/mlops-tools/' | relative_url }}).
 
+In early-stage or thinly staffed settings, the role may include roadmap and
+enablement work. Marianna's 90-day solo data scientist episode moves from first
+week stakeholder interviews and data exploration to first-month proofs of
+concept. By the first quarter, she expects pipelines and deployment. She also
+expects A/B tests.
+
+Ioannis's lead data scientist episode shows a more mature version. The data
+scientist helps structure intake, success criteria, and pilots. They also help
+with rollout and monitoring so marketing teams know what's being built and why.
+
 ## Skills
 
-The role needs SQL and data literacy because most data science work starts by
-finding, joining, and checking data. In
+Data scientists need SQL and data literacy because most data science work starts
+by finding, joining, and checking data. In
 [Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }}),
 [Alicja Notowska]({{ '/people/alicjanotowska/' | relative_url }})
 describes recruiter screening around experience, education, and actual
@@ -154,6 +182,24 @@ industry. It also rewards clear business impact. Tereza's red-flags episode
 rewards candidates who ask what problem they'll own. They should also ask who
 they'll work with and whether the company has the data maturity to support the
 role.
+
+Writing and documentation help data scientists turn project work into shared
+memory. In
+[Technical Writing for Data Scientists]({{ '/podcasts/technical-writing-for-data-scientists/' | relative_url }}),
+[Eugene Yan]({{ '/people/eugeneyan/' | relative_url }})
+connects writing to learning and portfolio proof. He also connects it to design
+docs, decision logs, rationales, and clearer READMEs. That links the role to
+[technical writing]({{ '/wiki/technical-writing/' | relative_url }}) and
+[communication]({{ '/wiki/communication/' | relative_url }}), especially when a
+project needs stakeholder buy-in or later handoff.
+
+For career switchers, the archive treats the skill set as a gap-finding problem
+rather than a fixed checklist. In
+[From Project Manager to Data Scientist]({{ '/podcasts/project-manager-to-data-scientist/' | relative_url }}),
+[Ksenia Legostay]({{ '/people/ksenialegostay/' | relative_url }})
+starts from analytics, business KPIs, and planning. She also brings stakeholder
+communication. She then adds programming, statistics, and domain expertise. The
+production side adds Git, testing, Docker, and deployment readiness.
 
 ## Boundaries with Nearby Roles
 
@@ -198,7 +244,13 @@ Use these pages for adjacent roles, projects, interviews, and boundaries.
 - [Data Science Careers]({{ '/wiki/data-science-careers/' | relative_url }})
 - [Data Scientist Interview Roadmap]({{ '/wiki/data-scientist-interview-roadmap/' | relative_url }})
 - [Data Engineer vs Data Scientist]({{ '/wiki/data-engineer-vs-data-scientist/' | relative_url }})
+- [Machine Learning Engineer vs Data Scientist]({{ '/comparisons/machine-learning-engineer-vs-data-scientist/' | relative_url }})
 - [Machine Learning]({{ '/wiki/machine-learning/' | relative_url }})
 - [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
+- [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }})
+- [Data Products]({{ '/wiki/data-products/' | relative_url }})
+- [Communication]({{ '/wiki/communication/' | relative_url }})
+- [Technical Writing]({{ '/wiki/technical-writing/' | relative_url }})
 - [Data Engineering and Data Science]({{ '/comparisons/data-engineering-and-data-science/' | relative_url }})
 - [Data Scientist Interview Prep]({{ '/guides/data-scientist-interview/' | relative_url }})
+- [Data Scientist Guide]({{ '/guides/data-scientist/' | relative_url }})

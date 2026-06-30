@@ -7,171 +7,249 @@ related_wiki:
   - DataOps
   - Data Engineering
   - Data Engineering Platforms
+  - DataOps Platforms
   - Data Quality and Observability
+  - Data Pipelines
+  - Orchestration
+  - CI/CD
   - MLOps
 ---
 
-Data engineering builds the paths that move and transform data. It also models
-and serves that data for downstream use. DataOps changes how teams operate
-those paths. It adds version control and tests. It also adds CI/CD,
-observability, recovery playbooks, and platform enablement around the pipeline
-work.
+[Data engineering]({{ '/wiki/data-engineering/' | relative_url }}) builds data
+paths from sources to consumers. Engineers move data, transform it, model it,
+and serve it. [DataOps]({{ '/wiki/dataops/' | relative_url }}) changes how
+teams operate those paths. It starts with version control and tests. It adds
+CI/CD, observability, recovery playbooks, and platform enablement around data
+delivery work.
 
-That distinction matters because people often use "data ops" as a tool label.
-In the DataTalks.Club archive, it's closer to an operating discipline for
-[data engineering]({{ '/wiki/data-engineering/' | relative_url }}) than a
-replacement for data engineering. [Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }})
-ties DataOps to automation, observability, and productivity. He also ties it to
-regression tests and realistic test data in
-[DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }}).
+The distinction matters because teams often use "data ops" as a tool label or
+a job title. In the DataTalks.Club archive, DataOps works better as an
+operating discipline for data engineering.
+
+In
+[DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }}),
+[Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }}) ties
+DataOps to automation, observability, and productivity at 15:52. He adds CI/CD,
+regression tests, and realistic test data at 30:55. Later sections cover
+deployment automation and production monitoring at 42:39 and 50:29.
 
 [Lars Albertsson]({{ '/people/larsalbertsson/' | relative_url }}) frames the
-same discipline from the platform side. He focuses on reproducible pipelines,
-immutable data flows, self-service analytics, and clear ownership in
+same discipline from the platform side in
 [DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}).
+He focuses on self-service and immutable pipelines at 7:52 and 16:42. He then
+connects DataOps to reproducibility, storage, and compute at 20:12 and 30:34.
+At 46:52, he adds quality automation.
 
-## The Short Version
+## Practical Comparison
 
-Data engineering turns source data into usable downstream data for analysts,
-products, and ML systems. Engineers ingest and transform it, then orchestrate
-and store it for downstream use. They also model and serve it.
+The comparison has four useful boundaries.
+
+- Data engineering builds the data path from sources to consumers. DataOps
+  makes that path safer to change and recover.
+- Data engineering owns the pipeline assets. DataOps owns the release, test,
+  monitoring, and recovery assets.
+- Data engineering chooses how to ingest, transform, and orchestrate data. It
+  also chooses how to store and serve data. DataOps chooses how teams review,
+  test, and deploy data work. It also chooses how teams monitor, rerun, and
+  repair that work.
+- Data engineering asks whether the pipeline or table meets the requirement.
+  DataOps asks whether the team can detect failure, identify ownership,
+  recover, and prevent the same class of failure.
+
+[Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) gives the data
+engineering side in
+[ETL vs ELT and Modern Data Engineering]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}).
+She walks through extraction, transformation, loading, and ELT at 3:46 and
+7:57. She covers dbt-style warehouse modeling and Airflow orchestration at
+12:39 and 30:59. She also covers CDC and schema evolution at 45:59 and 48:58.
+
+That's build work because the team chooses the pipeline structure,
+implementation layer, and consumer interface.
+
+DataOps starts from the operating side. Once the data path exists, teams need
+to change it without fear.
 
 In
-[ETL vs ELT and Modern Data Engineering]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
-[Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) maps that work
-across extraction, loading, and transformation. She also covers warehouses,
-lakes, and orchestration. She then adds CDC and reverse data flows. The
-[Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}) wiki page
-tracks that broader role boundary.
-
-DataOps answers "how do we make data delivery safer to change and easier to
-recover?" In
 [Mastering DataOps]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }}),
-[Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }}) describes
-the practical targets as fewer errors, shorter deployment cycles, and better
-productivity. His examples include monitoring and version control. They also
-include tests, CI/CD, and automated runbooks. The [DataOps]({{ '/wiki/dataops/' | relative_url }})
-wiki page keeps that operating model separate from the broader engineering
-discipline.
+Bergh defines the operating targets as error reduction, shorter deployment
+cycle time, and better productivity around 6:42. He then connects healthier
+delivery to observability at 7:22. At 33:47 and 34:37, he adds version
+control and tests. He also adds CI/CD and automated playbooks. At 38:01 and
+51:21, he covers handoffs and end-to-end versioning.
 
-Software engineering and DevOps give a useful analogy. Software engineers still
-build the product, but DevOps practices change how teams ship, observe, and
-recover it. Data engineers still build the data system, but DataOps practices
-change how the team ships, observes, and recovers the data system.
+## Data Engineering Ownership
 
-## DataOps Changes
+Data engineering owns the path that turns source data into usable downstream
+data. Engineers decide how to ingest from source systems and preserve raw
+context. They also decide how to model tables and expose the result to analysts
+and products. Some paths also serve ML systems.
 
-Teams first make pipeline changes reviewable and repeatable. Bergh's DataOps
-episodes put version control, tests, and CI/CD in the same delivery loop. They
-also add deployment automation.
+That work sits close to
+[data pipelines]({{ '/wiki/data-pipelines/' | relative_url }}) and the
+[modern data stack]({{ '/wiki/modern-data-stack/' | relative_url }}). It also
+overlaps with
+[analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
+and [orchestration]({{ '/wiki/orchestration/' | relative_url }}).
 
-In
+Kwong's modern stack episode shows why the role is broader than moving files.
+ETL puts business logic before load. ELT loads first and lets analysts or
+analytics engineers transform later in the warehouse at 3:46, 7:57, and 12:39.
+She also separates ingestion tools from orchestration and transformation.
+Airflow schedules jobs, Airbyte handles extract-load work, and dbt handles
+warehouse transformations at 30:59 and 31:31.
+
+Those are architecture and implementation choices. A data engineer may choose
+batch or streaming, a warehouse or a lakehouse, and dbt or Spark. The same
+engineer may choose managed ingestion or custom connectors.
+
+DataOps doesn't make those choices disappear. It asks whether the choices can
+be reviewed and tested. It also asks whether the team can deploy, observe, and
+repair them.
+
+## DataOps Additions
+
+DataOps adds operating discipline around the engineering work. It turns a data
+pipeline from "code that runs" into a delivery system that other people can
+change, diagnose, and recover.
+
+Bergh's two DataOps episodes are the clearest delivery-side evidence. In
 [DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }}),
-Bergh moves from deployment fear and hero culture to CI/CD pipelines,
-regression tests, and test data. It also covers end-to-end checks. In
+he moves from deployment fear toward automation and observability at 13:27 and
+15:52. He treats hero culture as part of the same delivery problem. He then
+adds CI/CD pipelines, regression tests, and realistic test data at 30:55.
+Later, he covers deployment automation and production monitoring at 42:39 and
+50:29.
+
+In
 [Mastering DataOps]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }}),
-he also discusses automated playbooks and replaceable handoffs instead of
-manual rescue work.
+he adds version control and tests at 33:47. He adds CI/CD and runbook
+automation at 34:37. He also covers replaceable handoffs and test environments
+at 38:01 and 44:12. At 51:21, he covers end-to-end versioning.
 
-Teams also treat operational signals as part of the product, not an
-afterthought. DataOps relies on
-[data quality and observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
-because a scheduled job can succeed while the data it publishes is late,
-partial, malformed, or shifted. [Barr Moses]({{ '/people/barrmoses/' | relative_url }})
-explains that distinction through freshness, volume, and distribution. She also
-uses schema and lineage in
-[Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }}).
-
-DataOps uses those signals inside alerts and runbooks. It also uses them in
-ownership paths and release decisions.
-
-Platform teams start treating self-service as a designed path. Albertsson's
-[DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }})
-connects storage, compute, and workflow engines. It also connects immutable
-pipelines and lineage.
-He also connects those pieces to self-service analytics.
-
-[Tomasz Hinc]({{ '/people/tomaszhinc/' | relative_url }})
-adds the GitOps version in
+The same shift appears in
 [DataOps and GitOps for Data Teams]({{ '/podcasts/dataops-and-gitops-best-practices-for-data-teams/' | relative_url }}).
-Teams move from asking someone to provision infrastructure toward merge
-requests, Terraform-style configuration, dry runs, and reviews. They also make
-dependencies reproducible. That's where DataOps overlaps with
-[data engineering platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}).
+[Tomasz Hinc]({{ '/people/tomaszhinc/' | relative_url }}) describes DataOps as
+making data work faster and less scary at 18:59. He then grounds DataOps in
+SQL, secrets, and GitOps at 20:56. At 23:04 and 26:21, he adds Terraform and
+Terragrunt.
 
-## Data Engineering Boundary
+He also covers Atlantis dry runs and merge-request based infrastructure
+changes. At 1:01:27, he covers fixed versions and dependency control.
 
-Data engineering is still the discipline that chooses and builds the data path.
-Engineers decide how to ingest from sources and how to model tables. They also
-decide when to use batch or streaming, how to orchestrate transformations, and
-how to expose data to analysts and products. They may also serve ML systems.
+That's why DataOps sits near [CI/CD]({{ '/wiki/ci-cd/' | relative_url }}),
+[DataOps Platforms]({{ '/wiki/dataops-platforms/' | relative_url }}), and
+[Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}).
 
-Kwong grounds those choices in concrete layers, including extraction, loading,
-and warehouse transformations. She also covers orchestration, CDC, and reverse ETL
-([ETL vs ELT and Modern Data Engineering]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})).
+## Platform and Self-Service Boundary
 
-DataOps doesn't answer all of those architecture questions. It asks whether a
-team can review, test, and deploy a choice. It also asks whether the team can
-monitor and recover that choice.
+At team scale, the comparison becomes platform work versus platform operating
+practice. Data engineers may build the shared platform. That platform includes
+storage, compute, workflow engines, and ingestion paths. It also includes data
+models and access rules. DataOps gives teams rules for using the platform
+without creating unreviewed, unowned, or unrecoverable pipelines.
 
-A data engineer may still pick Spark, Flink, or dbt. The same engineer may pick
-Airflow, a managed warehouse, or a lakehouse. Albertsson explains why those
-choices depend on storage and compute. They also depend on latency, governance,
-and self-service needs
-([DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }})).
-DataOps adds the operating rules that keep the chosen path dependable.
+Albertsson's Spotify story is the clearest archive example. His team moved
+from taking internal requests to enabling teams to deploy production data
+pipelines themselves. He describes self-service at 7:52. He then connects the
+platform to workflow engines and immutable pipeline design at 10:48 and 16:42.
 
-This is why the two terms shouldn't be collapsed. A team can do data
-engineering badly with no tests, no monitoring, and risky manual deployments. A
-team can also do strong data engineering with DataOps practices built in from
-the start. Don't read the comparison as job title versus job title. Read it as
-build work versus operating discipline.
+He also covers reproducibility, storage, and compute at 20:12 and 30:34.
+Quality automation and lineage appear at 46:52 and 1:04:18.
 
-## DataOps vs MLOps
+Hinc gives the GitOps version of the same boundary. Instead of asking a
+platform team to provision infrastructure by hand, data teams can propose a
+reviewed change. They can run a dry run and apply it through a controlled flow.
+He covers that platform-team review path at 12:40, 13:07, and 26:21.
 
-DataOps and [MLOps]({{ '/wiki/mlops/' | relative_url }}) overlap, but they're
-not the same operating model. DataOps focuses on pipelines, datasets,
-transformations, and data quality. It also covers platform configuration and
-delivery paths. MLOps focuses on model artifacts, training runs, model
-registries, and serving. It also covers model monitoring, retraining decisions,
-and model governance.
+The platform team still reviews and enables safe practice, while the operating
+path becomes visible and repeatable.
 
-The two disciplines stay connected because production models depend on
-production data.
-In Bergh's
-[DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }}),
-the discussion explicitly reaches reliable ML deployments and on-call readiness
-for data science. In
-[MLOps Architect Guide]({{ '/podcasts/mlops-model-monitoring-data-observability/' | relative_url }}),
-model monitoring is tied back to upstream ETL, data pipelines, and data
-observability. A model alert may come from model drift, but it may also come
-from a late table or changed schema. It may also come from a missing feature or
-broken upstream job.
+## Observability and Recovery Boundary
 
-For that reason, use DataOps when the root concern is the data delivery path.
-Use MLOps when the root concern is the model lifecycle. Use both when a model
-system depends on changing data pipelines, feature jobs, and production
-serving.
+Data engineering can produce a scheduled job that succeeds while downstream
+data is still wrong. [Barr Moses]({{ '/people/barrmoses/' | relative_url }})
+describes that failure mode in
+[Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }}).
+Her five observability pillars start with freshness and volume. She also names
+distribution, schema, and lineage around 16:38. She then connects "good
+pipelines, bad data" to engineering practice and data observability around
+21:57.
+
+That makes
+[data quality and observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
+a bridge between the two disciplines. Data engineers build checks and fix the
+pipeline. DataOps makes those checks part of alerts, ownership paths, SLAs, and
+runbooks. It also makes recovery part of the release and incident path.
+
+Moses covers data SLAs and operational runbooks at 35:24 and 41:03. She covers
+maturity and auto-lineage at 43:00 and 58:51.
+
+The practical boundary is incident response. If a transformation is wrong, a
+data engineer fixes the logic or model. If no one knows who owns the table, why
+the alert fired, or how to replay the job, the team is missing DataOps
+practice. The same is true when the team can't prevent the next silent failure.
+
+## Relation to MLOps
+
+DataOps and [MLOps]({{ '/wiki/mlops/' | relative_url }}) overlap because models
+depend on production data, but they operate different assets. DataOps focuses
+on ingestion jobs and transformations. It also covers datasets and pipeline
+tests. Data quality, lineage, and recovery stay on the DataOps side.
+
+MLOps focuses on experiments and model artifacts, then manages model registries
+and serving paths. Monitoring, retraining, and governance stay on the MLOps
+side.
+
+Bergh explicitly connects DataOps to reliable ML deployments and on-call
+readiness in
+[DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }})
+at 18:46 and 26:13. The important boundary is root cause. A model alert may
+come from model drift, but it may also come from a late table or changed
+schema. It may also come from a missing feature or broken upstream job. Use
+[MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }}) when
+the question is model lifecycle versus data delivery.
 
 ## Investment Signals
 
-Invest in DataOps when changing a data pipeline feels risky or slow. Bergh's
-episodes are useful here because they don't define maturity by tool count. They
-define it by whether a team can reduce errors and shorten cycle time. The team
-also needs to automate checks, observe production behavior, and recover without
-heroics
+Invest in DataOps when pipeline changes are slow or risky. It also helps when
+delivery depends on a few heroes. Bergh's episodes define maturity by outcomes.
+Teams should see fewer errors, shorter deployment cycles, and better
+productivity. They should also see automated checks, observable production
+behavior, and recovery without heroics
 ([Mastering DataOps]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }}),
 [DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }})).
 
-Small teams usually start with Git and tests for critical transformations. They
-also add scheduled checks, ownership, and a clear recovery path. Teams with
-shared platforms add self-service onboarding and infrastructure as code. They
-also add repeatable environments, lineage, and cross-team review. For example,
-Hinc describes turning infrastructure requests and deployment steps into
-reviewed changes
-([DataOps and GitOps for Data Teams]({{ '/podcasts/dataops-and-gitops-best-practices-for-data-teams/' | relative_url }})).
+Small teams usually start with Git, code review, and tests for critical
+transformations. They then add scheduled checks, ownership, and alert routing.
+They also add a clear rerun or rollback path. Teams with shared platforms add
+self-service onboarding, infrastructure as code, and repeatable environments.
+They also add lineage and cross-team review.
 
-Ask whether dashboards, data products, or models depend on the pipeline. If
-they do, the pipeline needs more than code that runs. The team needs operating
-habits that make failures visible. It also needs reversible changes and clear
-ownership.
+Hinc's GitOps episode shows the shared-platform version. Teams use merge
+requests, dry runs, and reviewed infrastructure changes. They also fix
+dependency versions and teach practical operational skills for data roles at
+23:04, 47:55, and 1:01:27.
+
+Don't read the comparison as job title versus job title. Read it as build work
+versus operating discipline. Strong data engineering can include DataOps from
+the start. Weak data engineering may have pipelines that run, but no reliable
+way to review, test, or deploy them. It may also lack a reliable way to monitor
+and repair them.
+
+## Related Pages
+
+These pages cover the deeper topic nodes behind the comparison:
+
+- [DataOps]({{ '/wiki/dataops/' | relative_url }})
+- [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }})
+- [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
+- [DataOps Platforms]({{ '/wiki/dataops-platforms/' | relative_url }})
+- [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
+- [Data Observability]({{ '/wiki/data-observability/' | relative_url }})
+- [Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }})
+- [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
+- [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
+- [Orchestration]({{ '/wiki/orchestration/' | relative_url }})
+- [CI/CD]({{ '/wiki/ci-cd/' | relative_url }})
+- [MLOps]({{ '/wiki/mlops/' | relative_url }})
+- [MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }})

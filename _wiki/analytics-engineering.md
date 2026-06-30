@@ -18,42 +18,14 @@ engineers turn that data into reusable business definitions and decision-ready
 models.
 
 The role isn't only "SQL plus dashboards."
-[Victoria Perez Mola's role episode]({{ '/podcasts/analytics-engineer-skills-tools/' | relative_url }})
-grounds the job in data modeling and quality checks. It also covers the
+[Victoria Perez Mola]({{ '/people/victoriaperezmola/' | relative_url }}) grounds the job in
+[data modeling and quality checks]({{ '/podcasts/analytics-engineer-skills-tools/' | relative_url }}).
+It also covers the
 warehouse and BI stack. The workflow examples include SQL tests and DAGs. In
 [Juan Manuel Perafan's foundations episode]({{ '/podcasts/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices/' | relative_url }}),
-the role translates business reality into clean data systems with software
-engineering discipline.
-
-## Link Map
-
-Use these pages to place analytics engineering in the archive.
-
-- Role boundaries: [Data Analyst vs Analytics Engineer]({{ '/wiki/data-analyst-vs-analytics-engineer/' | relative_url }}), [Analytics Engineering Roadmap]({{ '/wiki/analytics-engineering-roadmap/' | relative_url }}), and [Analytics Engineering Portfolio Projects]({{ '/wiki/analytics-engineering-portfolio-projects/' | relative_url }})
-- Adjacent concepts: [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}), [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}), [DataOps]({{ '/wiki/dataops/' | relative_url }}), and [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
-- Transition pages: [Marketing to Analytics Engineering]({{ '/wiki/marketing-to-analytics-engineering/' | relative_url }}) and [Career Transitions in Data]({{ '/wiki/career-transitions-in-data/' | relative_url }})
-
-Core podcast interviews for this page:
-
-- [Analytics Engineer Skills and Tools]({{ '/podcasts/analytics-engineer-skills-tools/' | relative_url }})
-- [From Marketing to Analytics Engineering]({{ '/podcasts/from-marketing-to-analytics-engineering-sql-dbt-career-switch/' | relative_url }})
-- [Foundations of the Analytics Engineer Role]({{ '/podcasts/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices/' | relative_url }})
-- [Data Engineering Career Path and Skills]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }})
-- [DataOps Automation and Reliable Data Pipelines]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }})
-- [Building and Scaling a Data Team]({{ '/podcasts/building-and-scaling-data-team/' | relative_url }})
-- [ETL, ELT, and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})
-- [Data-Led Growth Stack]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }})
-
-People connected to the cited interviews:
-
-- [Victoria Perez Mola]({{ '/people/victoriaperezmola/' | relative_url }})
-- [Nikola Maksimovic]({{ '/people/nikolamaksimovic/' | relative_url }})
-- [Juan Manuel Perafan]({{ '/people/juanmanuelperafan/' | relative_url }})
-- [Jeff Katz]({{ '/people/jeffkatz/' | relative_url }})
-- [Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }})
-- [Tammy Liang]({{ '/people/tammyliang/' | relative_url }})
-- [Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }})
-- [Arpit Choudhury]({{ '/people/arpitchoudhury/' | relative_url }})
+[Perafan]({{ '/people/juanmanuelperafan/' | relative_url }})
+describes the role as translating business reality into clean data systems with
+software engineering discipline.
 
 ## Common Definition
 
@@ -72,12 +44,19 @@ The archive also agrees that analytics engineering is a response to a team
 bottleneck. Analysts and data scientists need trusted definitions but often lose
 time rebuilding joins and reconciling dashboards. Data engineers may own
 ingestion, orchestration, cloud infrastructure, and platform reliability.
-Analytics engineers occupy the middle. They use engineering
-practices to make business-facing data reusable
+Analytics engineers occupy the middle. They use engineering practices to make
+business-facing data reusable
 ([Data Engineering Career Path and Skills]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }}),
 [Modern Data Stack episode]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})).
 
-## Disagreements and Boundaries
+Santona Tuli adds a pipeline-level version of the same definition. Her modern
+data pipeline discussion puts dbt after ingestion and orchestration. It then
+ties modeled marts to dashboards and business questions at 24:57, 39:23, and
+43:05
+([Modern Data Pipeline Architecture]({{ '/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/' | relative_url }}),
+[Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})).
+
+## Guest Differences
 
 Guests differ most on whether analytics engineering is a separate role. It can
 also be a practice inside adjacent roles. Perez Mola describes a bridge role
@@ -91,7 +70,8 @@ less useful when it creates a rigid job boundary
 
 Guests also differ on tool centrality. dbt is the archive's clearest symbol of
 analytics engineering because it made SQL transformations visible as a DAG. It
-also made them versioned and testable. Nikola Maksimovic's transition story adds
+also made them versioned and testable.
+[Nikola Maksimovic]({{ '/people/nikolamaksimovic/' | relative_url }}) adds
 Looker migration, product analytics, A/B testing, and table design.
 
 Natalie Kwong places dbt inside a broader ELT flow with ingestion and
@@ -105,6 +85,13 @@ It later included a warehouse, dbt, Data Studio, and Notion documentation. Tests
 and forecasting support followed. That work crossed analyst and engineer
 responsibilities because the company needed trusted data first
 ([Building and Scaling a Data Team]({{ '/podcasts/building-and-scaling-data-team/' | relative_url }})).
+
+Rishabh Bhargava's analytics-to-ML discussion shows another boundary.
+Analytics engineering can bridge notebooks and SQL-plus-Python work into
+production ML, but the goals still differ. Analytics work explains business
+behavior, while ML systems serve predictions under operational constraints
+([Production ML and Data Team Building]({{ '/podcasts/production-ml-mlops-and-data-team-building/' | relative_url }}),
+[Machine Learning Engineer Role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }})).
 
 ## Role Boundaries
 
@@ -126,6 +113,12 @@ Kwong makes this boundary concrete through ELT. In that ELT flow, source data is
 loaded first and warehouse-side transformations serve analytical users
 ([Modern Data Stack episode]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
 [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})).
+
+From the pipeline side, Tuli says ingestion and orchestration handle raw events.
+Pre-processing covers ordering, deduplication, and PII masking. Analytics
+engineering starts to dominate when teams map entities, foreign keys, business
+questions, and metrics into modeled tables
+([Modern Data Pipeline Architecture at 37:10-43:05]({{ '/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/' | relative_url }})).
 
 ## Modeling and Semantic Layers
 
@@ -170,6 +163,17 @@ the full platform. Freshness plus orchestration reliability also matter
 ([Modern Data Stack episode]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
 [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})).
 
+Tuli's build-versus-buy discussion adds another constraint. Teams choose tools
+based on the pipeline stage they need to control. That choice can include
+managed ingestion, Snowflake, and Databricks. It can also include Spark, Kafka
+or Kinesis, and orchestrators.
+
+Analytics engineers still need to understand those choices because dbt models
+inherit source freshness and late events. They also inherit schema changes and
+cost from the platform
+([Modern Data Pipeline Architecture at 26:43-37:10]({{ '/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/' | relative_url }}),
+[Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})).
+
 ## Data Quality and DataOps
 
 Analytics engineering quality work is continuous in Perez Mola's examples of
@@ -190,6 +194,15 @@ Analytics engineers don't own every platform reliability concern. Their models
 still become production dependencies when dashboards or forecasts rely on them
 ([DataOps Automation and Reliable Data Pipelines]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }}),
 [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}),
+[DataOps]({{ '/wiki/dataops/' | relative_url }})).
+
+Tomasz Hinc's GitOps episode makes the handoff with platform teams more
+concrete. Data teams can reduce waiting by changing infrastructure through
+merge requests. Platform teams still review access and secrets, then set safe
+defaults. That operating model matters when analytics engineers maintain
+models, warehouses, or scheduled jobs. Those jobs depend on reproducible
+environments
+([DataOps and GitOps for Data Teams at 12:40-26:21]({{ '/podcasts/dataops-and-gitops-best-practices-for-data-teams/' | relative_url }}),
 [DataOps]({{ '/wiki/dataops/' | relative_url }})).
 
 ## Business Context and Career Paths
@@ -215,6 +228,13 @@ or cloud specialization. Streaming and ML platforms are later paths
 [Career Transitions in Data]({{ '/wiki/career-transitions-in-data/' | relative_url }}),
 [Analytics Engineering Roadmap]({{ '/wiki/analytics-engineering-roadmap/' | relative_url }})).
 
+Katie Bauer's team-building episode adds a seniority signal for analytics work.
+Maintainability, documentation, and peer review turn modeling from personal SQL
+skill into team craft. That matters when a data team hires separate product
+analysts and analytics engineers. It also matters when marketing scientists own
+a distinct surface
+([How to Hire, Manage, and Grow a Data Science Team at 6:22-11:58]({{ '/podcasts/hiring-and-managing-data-science-teams-in-b2b-saas/' | relative_url }})).
+
 ## Team Design and Adoption
 
 Analytics engineering succeeds when modeled data changes how teams work. Liang's
@@ -234,6 +254,13 @@ definitions with analysts and product ops
 ([Data-Led Growth Stack]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }}),
 [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})).
 
+Bauer's hiring discussion adds the management view. A team may hire product
+analysts, analytics engineers, and marketing scientists as separate roles. Peer
+review and maintainable work still make analytics usable after one stakeholder
+request becomes repeated team work. Documentation does the same
+([How to Hire, Manage, and Grow a Data Science Team]({{ '/podcasts/hiring-and-managing-data-science-teams-in-b2b-saas/' | relative_url }}),
+[Data Teams]({{ '/wiki/data-teams/' | relative_url }})).
+
 ## Related Pages
 
 Use these pages for role boundaries, platform context, and career paths.
@@ -247,5 +274,6 @@ Use these pages for role boundaries, platform context, and career paths.
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})
 - [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
+- [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }})
 - [Career Transitions in Data]({{ '/wiki/career-transitions-in-data/' | relative_url }})
 - [Analytics Engineer article]({{ '/guides/analytics-engineer/' | relative_url }})

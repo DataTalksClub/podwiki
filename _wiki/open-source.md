@@ -63,7 +63,7 @@ Around 14:01, he names plugins such as UMAP and scikit-lego as a healthier path.
 A method can follow scikit-learn conventions without adding maintenance burden
 to the main project.
 
-## Guest Differences
+## Guest Tradeoffs
 
 Guests agree that open source should be useful, but they disagree on emphasis.
 Vincent focuses on small libraries, maintainability, and project boundaries.
