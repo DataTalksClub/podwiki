@@ -128,12 +128,20 @@ Each page should cover the same core pieces:
 Existing pages:
 
 - `_wiki/career-transitions-in-data.md`
+- `_how_tos/how-to-build-data-pipelines.md` owns the procedural pipeline
+  build page. Keep `_guides/data-engineering-pipeline-project.md` focused on
+  portfolio packaging.
+- `_roadmaps/data-engineer-roadmap.md` owns the main data engineer roadmap.
 - `_guides/software-engineer-to-machine-learning.md`
 
 Candidate pages:
 
 - Software engineer to machine learning
-- Data analyst to data engineer
+- Data analyst to data engineer. Create
+  `_roadmaps/data-analyst-to-data-engineer.md` as an analyst-specific
+  transition page grounded in `data-engineering-career-path-and-skills.md`,
+  `get-data-engineering-job-prep-and-interview.md`, and
+  `get-data-analytics-and-data-engineering-job.md`.
 - Data analyst to analytics engineer
 - Marketing to analytics engineering
 - QA engineer to ML or data engineering
@@ -237,6 +245,7 @@ Existing pages:
 - `_comparisons/machine-learning-engineer-vs-data-scientist.md`
 - `_comparisons/mlops-vs-dataops.md`
 - `_comparisons/product-owner-vs-product-manager.md`
+- `_comparisons/rag-vs-fine-tuning.md`
 - `_wiki/batch-vs-streaming.md` owns the canonical batch vs streaming decision.
 - `_wiki/data-warehouse-vs-data-lakehouse.md` owns the canonical warehouse vs
   lakehouse decision.
@@ -255,15 +264,20 @@ Candidate pages:
   decision-oriented page for the exact role query; keep
   `_wiki/data-engineer-vs-data-scientist.md` as the canonical reference page.
 - Data analyst vs analytics engineer
-- Data product manager vs product manager
+- Data analyst vs analytics engineer. Create
+  `_comparisons/data-analyst-vs-analytics-engineer.md` as a short
+  decision-oriented page that points back to
+  `_wiki/data-analyst-vs-analytics-engineer.md`.
+- Data product manager vs product manager. Create
+  `_comparisons/data-product-manager-vs-product-manager.md` grounded in
+  `_wiki/data-product-management.md`, `_guides/data-product-manager-role.md`,
+  and product/adoption episodes.
 - Data product owner vs data product manager. Create
   `_comparisons/data-product-owner-vs-data-product-manager.md` as a focused
   spin-out from `_comparisons/product-owner-vs-product-manager.md`,
   `_wiki/data-product-management.md`, and
   `building-data-products-product-owner-vs-product-manager.md`.
 - MLOps vs DevOps
-- RAG vs fine-tuning. Create `_comparisons/rag-vs-fine-tuning.md` as a shorter
-  decision page that points back to `_wiki/rag-vs-fine-tuning.md`.
 
 Source hints:
 

@@ -2,12 +2,12 @@
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
     "wikis": 169,
-    "articles": 70,
+    "articles": 71,
     "podcasts": 202,
     "persons": 438,
     "topics": 146,
-    "nodes": 1025,
-    "links": 10516
+    "nodes": 1026,
+    "links": 10547
   },
   "nodes": [
     {
@@ -757,6 +757,17 @@
       "count": 1,
       "search": "Product Owner vs Product Manager: Data Product Role Boundaries A podcast grounded comparison of product owner, product manager, and domain owner responsibilities in data product and production ML teams.",
       "keyword": "data product owner"
+    },
+    {
+      "id": "article:comparison:rag-vs-fine-tuning",
+      "type": "article",
+      "collection": "comparison",
+      "label": "RAG vs Fine-Tuning",
+      "title": "RAG vs Fine-Tuning",
+      "url": "/comparisons/rag-vs-fine-tuning/",
+      "count": 1,
+      "search": "RAG vs Fine Tuning A podcast grounded decision guide for choosing retrieval, model adaptation, or both in production LLM systems.",
+      "keyword": "rag vs fine tuning"
     },
     {
       "id": "article:guide:solopreneur-data-scientist",
@@ -11289,6 +11300,192 @@
       "target": "wiki:product-analytics",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "article:comparison:rag-vs-fine-tuning",
+      "target": "person:anahitapakiman",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:rag-vs-fine-tuning",
+      "target": "person:atitaarora",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:rag-vs-fine-tuning",
+      "target": "person:hugobowneanderson",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:rag-vs-fine-tuning",
+      "target": "person:meryemarik",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:rag-vs-fine-tuning",
+      "target": "person:ranjithakulkarni",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:rag-vs-fine-tuning",
+      "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:rag-vs-fine-tuning",
+      "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
+      "kind": "article-link",
+      "weight": 8
+    },
+    {
+      "source": "article:comparison:rag-vs-fine-tuning",
+      "target": "podcast:knowledge-graphs-and-llms-for-automotive-rnd",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:rag-vs-fine-tuning",
+      "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:comparison:rag-vs-fine-tuning",
+      "target": "podcast:practical-llm-engineering-and-rag",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:rag-vs-fine-tuning",
+      "target": "wiki:agent-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:rag-vs-fine-tuning",
+      "target": "wiki:agent-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:rag-vs-fine-tuning",
+      "target": "wiki:embeddings",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:rag-vs-fine-tuning",
+      "target": "wiki:evaluation",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:rag-vs-fine-tuning",
+      "target": "wiki:graph-rag-vs-vector-rag",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:rag-vs-fine-tuning",
+      "target": "wiki:graph-rag-vs-vector-rag",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:rag-vs-fine-tuning",
+      "target": "wiki:knowledge-graph-vs-vector-search",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:rag-vs-fine-tuning",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:rag-vs-fine-tuning",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:rag-vs-fine-tuning",
+      "target": "wiki:llm-production-patterns",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:rag-vs-fine-tuning",
+      "target": "wiki:llm-production-patterns",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:rag-vs-fine-tuning",
+      "target": "wiki:mlops",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:rag-vs-fine-tuning",
+      "target": "wiki:production-search-evaluation",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:rag-vs-fine-tuning",
+      "target": "wiki:prompt-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:rag-vs-fine-tuning",
+      "target": "wiki:prompt-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:rag-vs-fine-tuning",
+      "target": "wiki:rag-vs-fine-tuning",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:rag-vs-fine-tuning",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:rag-vs-fine-tuning",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:rag-vs-fine-tuning",
+      "target": "wiki:search-rag-and-knowledge-systems",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:rag-vs-fine-tuning",
+      "target": "wiki:search-rag-and-knowledge-systems",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:rag-vs-fine-tuning",
+      "target": "wiki:vector-databases",
+      "kind": "article-link",
+      "weight": 2
     },
     {
       "source": "article:guide:ai-powered-business-intelligence",
@@ -59556,6 +59753,12 @@
     },
     {
       "source": "wiki:llm-evaluation-workflows",
+      "target": "article:comparison:rag-vs-fine-tuning",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:llm-evaluation-workflows",
       "target": "person:adityagautam",
       "kind": "wiki-link",
       "weight": 2
@@ -59676,12 +59879,6 @@
     },
     {
       "source": "wiki:llm-evaluation-workflows",
-      "target": "wiki:rag-vs-fine-tuning",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:llm-evaluation-workflows",
       "target": "wiki:responsible-ai-and-governance",
       "kind": "wiki-link",
       "weight": 2
@@ -59703,6 +59900,12 @@
       "target": "wiki:testing",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "article:comparison:rag-vs-fine-tuning",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:llm-production-patterns",
@@ -60024,12 +60227,6 @@
     },
     {
       "source": "wiki:llm-production-patterns",
-      "target": "wiki:rag-vs-fine-tuning",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:llm-production-patterns",
       "target": "wiki:responsible-ai-and-governance",
       "kind": "wiki-link",
       "weight": 4
@@ -60075,6 +60272,12 @@
       "target": "wiki:tools",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:llms",
+      "target": "article:comparison:rag-vs-fine-tuning",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:llms",
@@ -60285,12 +60488,6 @@
       "target": "wiki:rag-vs-fine-tuning",
       "kind": "wiki-link",
       "weight": 4
-    },
-    {
-      "source": "wiki:llms",
-      "target": "wiki:rag-vs-fine-tuning",
-      "kind": "wiki-related",
-      "weight": 3
     },
     {
       "source": "wiki:llms",
@@ -67308,6 +67505,12 @@
     },
     {
       "source": "wiki:prompt-engineering",
+      "target": "article:comparison:rag-vs-fine-tuning",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:prompt-engineering",
       "target": "article:guide:llm-system-design-interview",
       "kind": "wiki-link",
       "weight": 2
@@ -67467,12 +67670,6 @@
       "target": "wiki:production-search-evaluation",
       "kind": "wiki-link",
       "weight": 2
-    },
-    {
-      "source": "wiki:prompt-engineering",
-      "target": "wiki:rag-vs-fine-tuning",
-      "kind": "wiki-related",
-      "weight": 3
     },
     {
       "source": "wiki:prompt-engineering",
@@ -67680,6 +67877,12 @@
     },
     {
       "source": "wiki:rag",
+      "target": "article:comparison:rag-vs-fine-tuning",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:rag",
       "target": "article:guide:llm-system-design-interview",
       "kind": "wiki-link",
       "weight": 2
@@ -67827,12 +68030,6 @@
       "target": "wiki:rag-vs-fine-tuning",
       "kind": "wiki-link",
       "weight": 4
-    },
-    {
-      "source": "wiki:rag",
-      "target": "wiki:rag-vs-fine-tuning",
-      "kind": "wiki-related",
-      "weight": 3
     },
     {
       "source": "wiki:rag",
