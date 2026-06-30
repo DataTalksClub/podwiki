@@ -184,4 +184,5 @@ archive:
 - [Metrics]({{ '/wiki/metrics/' | relative_url }})
 - [Causal Inference]({{ '/wiki/causal-inference/' | relative_url }})
 - [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }})
+- [Data Product Manager Roadmap]({{ '/roadmaps/data-product-manager-roadmap/' | relative_url }})
 - [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})

@@ -347,6 +347,7 @@ Use this checklist as a reading guide for the archive-backed practices above:
 Continue with these pages for adjacent production work:
 
 - [LLMs]({{ '/wiki/llms/' | relative_url }})
+- [LLM and RAG Production Roadmap]({{ '/roadmaps/llm-rag-production-roadmap/' | relative_url }})
 - [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
 - [RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }})
 - [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }})

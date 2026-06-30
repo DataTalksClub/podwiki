@@ -143,10 +143,11 @@ Existing pages:
 - `_wiki/data-scientist-to-machine-learning-engineer.md`
 - `_wiki/software-engineer-to-machine-learning.md`
 - `_roadmaps/data-analyst-to-analytics-engineer.md`
+- `_wiki/consultant-or-freelancer-to-data-product-founder.md`
 
 Candidate pages:
 
-- Consultant or freelancer to data product founder
+- Improve existing transition pages as new episodes add evidence.
 
 Source hints:
 
@@ -211,13 +212,14 @@ Existing pages:
 - `_wiki/llm-production-patterns.md`
 - `_wiki/search-rag-and-knowledge-systems.md`
 - `_wiki/dataops-platforms.md`
+- `_roadmaps/machine-learning-engineer-roadmap.md`
+- `_roadmaps/data-product-manager-roadmap.md`
+- `_roadmaps/open-source-contributor-roadmap.md`
+- `_roadmaps/llm-rag-production-roadmap.md`
 
 Candidate pages:
 
-- Machine learning engineer roadmap
-- Data product manager roadmap
-- Open-source contributor roadmap
-- LLM / RAG production roadmap
+- Improve existing roadmap pages as new episodes add evidence.
 
 Source hints:
 
@@ -292,8 +294,9 @@ Start with this batch when expanding the content set.
   learning engineer as the source archive grows.
 - Add portfolio project pages for data engineering, ML engineering, analytics
   engineering, and RAG.
-- Add roadmap pages for data engineering, AI engineering, MLOps, and analytics
-  engineering.
+- Improve roadmap pages for data engineering, AI engineering, MLOps, analytics
+  engineering, machine learning engineering, data product management, open
+  source contribution, and LLM/RAG production as the archive grows.
 - Improve the existing comparison pages for data analyst vs analytics engineer
   and RAG vs fine-tuning when new podcast evidence appears.
 - Keep batch vs streaming and data warehouse vs data lakehouse as wiki-owned

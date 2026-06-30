@@ -329,6 +329,7 @@ link won't help. Review comments and failure modes need the same clarity.
 Use these pages for adjacent role, contribution, and portfolio context:
 
 - [Open Source]({{ '/wiki/open-source/' | relative_url }})
+- [Open Source Contributor Roadmap]({{ '/roadmaps/open-source-contributor-roadmap/' | relative_url }})
 - [Open Source and Developer Relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }})
 - [Contributing]({{ '/wiki/contributing/' | relative_url }})
 - [Documentation]({{ '/wiki/documentation/' | relative_url }})

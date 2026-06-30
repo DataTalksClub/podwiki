@@ -348,6 +348,7 @@ That connects data product management to
 Use these pages for the adjacent artifacts, roles, and operating systems:
 
 - [Data Products]({{ '/wiki/data-products/' | relative_url }})
+- [Data Product Manager Roadmap]({{ '/roadmaps/data-product-manager-roadmap/' | relative_url }})
 - [Data Product Adoption]({{ '/wiki/data-product-adoption/' | relative_url }})
 - [Product Designer to Data Product Manager]({{ '/wiki/product-designer-to-data-product-manager/' | relative_url }})
 - [Data Product Manager]({{ '/guides/data-product-manager/' | relative_url }})

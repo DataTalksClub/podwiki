@@ -1,13 +1,13 @@
 {
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
-    "wikis": 178,
-    "articles": 79,
+    "wikis": 179,
+    "articles": 83,
     "podcasts": 202,
     "persons": 438,
     "topics": 146,
-    "nodes": 1043,
-    "links": 11232
+    "nodes": 1048,
+    "links": 11411
   },
   "nodes": [
     {
@@ -363,6 +363,17 @@
       "keyword": "data observability for data engineering"
     },
     {
+      "id": "article:roadmap:data-product-manager-roadmap",
+      "type": "article",
+      "collection": "roadmap",
+      "label": "Data Product Manager Roadmap",
+      "title": "Data Product Manager Roadmap",
+      "url": "/roadmaps/data-product-manager-roadmap/",
+      "count": 1,
+      "search": "Data Product Manager Roadmap A podcast backed roadmap for data product managers, from discovery and metrics to roadmaps, data quality, adoption, and experimentation.",
+      "keyword": "data product manager roadmap"
+    },
+    {
       "id": "article:guide:data-product-manager",
       "type": "article",
       "collection": "guide",
@@ -605,6 +616,17 @@
       "keyword": "knowledge graph vs vector search"
     },
     {
+      "id": "article:roadmap:llm-rag-production-roadmap",
+      "type": "article",
+      "collection": "roadmap",
+      "label": "LLM and RAG Production Roadmap",
+      "title": "LLM and RAG Production Roadmap",
+      "url": "/roadmaps/llm-rag-production-roadmap/",
+      "count": 1,
+      "search": "LLM and RAG Production Roadmap A podcast backed roadmap for building LLM and RAG systems from bounded workflows to retrieval, evaluation, agents, security, cost, and monitoring.",
+      "keyword": "llm rag production roadmap"
+    },
+    {
       "id": "article:guide:llm-system-design-interview",
       "type": "article",
       "collection": "guide",
@@ -658,6 +680,17 @@
       "count": 1,
       "search": "Machine Learning Engineer Certification: When It Helps and What Employers Still Need A podcast backed guide to deciding whether a machine learning engineer certification helps, how to judge certification programs, and how to turn certification study into portfolio and interview evidence.",
       "keyword": "machine learning engineer certification"
+    },
+    {
+      "id": "article:roadmap:machine-learning-engineer-roadmap",
+      "type": "article",
+      "collection": "roadmap",
+      "label": "Machine Learning Engineer Roadmap",
+      "title": "Machine Learning Engineer Roadmap",
+      "url": "/roadmaps/machine-learning-engineer-roadmap/",
+      "count": 1,
+      "search": "Machine Learning Engineer Roadmap A podcast backed roadmap for becoming a machine learning engineer, from problem framing and baselines to production ML systems, monitoring, and MLOps.",
+      "keyword": "machine learning engineer roadmap"
     },
     {
       "id": "article:comparison:machine-learning-engineer-vs-data-scientist",
@@ -812,6 +845,17 @@
       "count": 1,
       "search": "MLOps Zoomcamp: What to Build, Prove, and Learn A podcast grounded guide to using MLOps Zoomcamp to build production ML evidence through deployment, monitoring, reproducibility, CI/CD, and an end to end project.",
       "keyword": "mlops zoomcamp"
+    },
+    {
+      "id": "article:roadmap:open-source-contributor-roadmap",
+      "type": "article",
+      "collection": "roadmap",
+      "label": "Open Source Contributor Roadmap",
+      "title": "Open Source Contributor Roadmap",
+      "url": "/roadmaps/open-source-contributor-roadmap/",
+      "count": 1,
+      "search": "Open Source Contributor Roadmap A podcast backed roadmap for becoming an open source contributor through issues, docs, tests, demos, maintainer collaboration, and portfolio evidence.",
+      "keyword": "open source contributor roadmap"
     },
     {
       "id": "article:guide:product-analyst",
@@ -7960,7 +8004,7 @@
       "label": "Freelance",
       "title": "Freelance",
       "url": "/wiki/",
-      "count": 22,
+      "count": 23,
       "search": "Freelance"
     },
     {
@@ -8912,6 +8956,16 @@
       "url": "/wiki/computer-vision/",
       "count": 1,
       "search": "Computer Vision Archive backed guide to computer vision as applied perception, from images and sensors to labeling, deployment constraints, multimodal retrieval, and career project work."
+    },
+    {
+      "id": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Consultant or Freelancer to Data Product Founder",
+      "title": "Consultant or Freelancer to Data Product Founder",
+      "url": "/wiki/consultant-or-freelancer-to-data-product-founder/",
+      "count": 1,
+      "search": "Consultant or Freelancer to Data Product Founder How podcast guests turn repeated consulting and freelance data problems into reusable data products, open source products, and startup paths."
     },
     {
       "id": "wiki:contributing",
@@ -26720,6 +26774,210 @@
       "weight": 2
     },
     {
+      "source": "article:roadmap:data-product-manager-roadmap",
+      "target": "article:comparison:data-product-manager-vs-product-manager",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-product-manager-roadmap",
+      "target": "article:comparison:data-product-owner-vs-data-product-manager",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-product-manager-roadmap",
+      "target": "person:annahannemann",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-product-manager-roadmap",
+      "target": "person:boyanangelov",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-product-manager-roadmap",
+      "target": "person:caitlinmoorman",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-product-manager-roadmap",
+      "target": "person:geojolly",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-product-manager-roadmap",
+      "target": "person:gregcoquillo",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-product-manager-roadmap",
+      "target": "person:ioannismesionis",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-product-manager-roadmap",
+      "target": "person:jakobgraff",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-product-manager-roadmap",
+      "target": "person:saramenefee",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-product-manager-roadmap",
+      "target": "person:zhamakdehghani",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-product-manager-roadmap",
+      "target": "podcast:ab-testing-and-product-experimentation",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-product-manager-roadmap",
+      "target": "podcast:building-and-scaling-ai-data-products-with-mlops",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-product-manager-roadmap",
+      "target": "podcast:building-data-products-lead-data-scientist",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-product-manager-roadmap",
+      "target": "podcast:building-data-products-product-owner-vs-product-manager",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-product-manager-roadmap",
+      "target": "podcast:data-mesh-architecture-decentralized-data-products",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-product-manager-roadmap",
+      "target": "podcast:data-strategy-and-dataops-for-ai-powered-products",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-product-manager-roadmap",
+      "target": "podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-product-manager-roadmap",
+      "target": "podcast:ml-product-manager-and-mlops-platform-strategy",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-product-manager-roadmap",
+      "target": "podcast:product-designer-to-data-product-manager",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-product-manager-roadmap",
+      "target": "wiki:a-b-testing",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:data-product-manager-roadmap",
+      "target": "wiki:a-b-testing",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:data-product-manager-roadmap",
+      "target": "wiki:data-mesh",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-product-manager-roadmap",
+      "target": "wiki:data-mesh",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:data-product-manager-roadmap",
+      "target": "wiki:data-product-adoption",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:data-product-manager-roadmap",
+      "target": "wiki:data-product-adoption",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:data-product-manager-roadmap",
+      "target": "wiki:data-product-management",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:data-product-manager-roadmap",
+      "target": "wiki:data-product-management",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:data-product-manager-roadmap",
+      "target": "wiki:data-products",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:data-product-manager-roadmap",
+      "target": "wiki:data-products",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:data-product-manager-roadmap",
+      "target": "wiki:data-strategy",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-product-manager-roadmap",
+      "target": "wiki:metrics",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-product-manager-roadmap",
+      "target": "wiki:product-analytics",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:data-product-manager-roadmap",
+      "target": "wiki:product-analytics",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
       "source": "article:roadmap:how-to-become-a-data-engineer-with-no-experience",
       "target": "article:guide:data-engineering-bootcamp",
       "kind": "article-link",
@@ -26934,6 +27192,630 @@
       "target": "wiki:software-engineering",
       "kind": "article-link",
       "weight": 2
+    },
+    {
+      "source": "article:roadmap:llm-rag-production-roadmap",
+      "target": "article:comparison:rag-vs-fine-tuning",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:llm-rag-production-roadmap",
+      "target": "person:adityagautam",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:llm-rag-production-roadmap",
+      "target": "person:atitaarora",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:llm-rag-production-roadmap",
+      "target": "person:bartoszmikulski",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:llm-rag-production-roadmap",
+      "target": "person:danielsvonava",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:llm-rag-production-roadmap",
+      "target": "person:hugobowneanderson",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:llm-rag-production-roadmap",
+      "target": "person:marianosemelman",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:llm-rag-production-roadmap",
+      "target": "person:mariasukhareva",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:llm-rag-production-roadmap",
+      "target": "person:meryemarik",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:llm-rag-production-roadmap",
+      "target": "person:pauliusztin",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:llm-rag-production-roadmap",
+      "target": "person:ranjithakulkarni",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:llm-rag-production-roadmap",
+      "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:llm-rag-production-roadmap",
+      "target": "podcast:building-production-search-systems",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:llm-rag-production-roadmap",
+      "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:llm-rag-production-roadmap",
+      "target": "podcast:generative-ai-chatbots-in-production-security",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:llm-rag-production-roadmap",
+      "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:llm-rag-production-roadmap",
+      "target": "podcast:practical-llm-engineering-and-rag",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:llm-rag-production-roadmap",
+      "target": "podcast:production-ready-ai-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:llm-rag-production-roadmap",
+      "target": "podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:llm-rag-production-roadmap",
+      "target": "podcast:s23e03-future-of-ai-agents",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:llm-rag-production-roadmap",
+      "target": "podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:llm-rag-production-roadmap",
+      "target": "wiki:agent-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:llm-rag-production-roadmap",
+      "target": "wiki:agent-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:llm-rag-production-roadmap",
+      "target": "wiki:ai-engineering-roadmap",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:llm-rag-production-roadmap",
+      "target": "wiki:ai-red-teaming",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:llm-rag-production-roadmap",
+      "target": "wiki:ai-red-teaming",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:llm-rag-production-roadmap",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:llm-rag-production-roadmap",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:llm-rag-production-roadmap",
+      "target": "wiki:llm-production-patterns",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:llm-rag-production-roadmap",
+      "target": "wiki:llm-production-patterns",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:llm-rag-production-roadmap",
+      "target": "wiki:production-search-evaluation",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:llm-rag-production-roadmap",
+      "target": "wiki:rag-portfolio-projects",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:llm-rag-production-roadmap",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:llm-rag-production-roadmap",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:llm-rag-production-roadmap",
+      "target": "wiki:search-and-rag-project-checklist",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:llm-rag-production-roadmap",
+      "target": "wiki:search-rag-and-knowledge-systems",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:llm-rag-production-roadmap",
+      "target": "wiki:search-rag-and-knowledge-systems",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:llm-rag-production-roadmap",
+      "target": "wiki:vector-databases",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:machine-learning-engineer-roadmap",
+      "target": "person:alexeygrigorev",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:machine-learning-engineer-roadmap",
+      "target": "person:arsenykravchenko",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:machine-learning-engineer-roadmap",
+      "target": "person:benwilson",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:machine-learning-engineer-roadmap",
+      "target": "person:linaweichbrodt",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:machine-learning-engineer-roadmap",
+      "target": "person:raphaelhoogvliets",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:machine-learning-engineer-roadmap",
+      "target": "person:simonstiebellehner",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:machine-learning-engineer-roadmap",
+      "target": "person:svpino",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:machine-learning-engineer-roadmap",
+      "target": "person:valeriybabushkin",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:machine-learning-engineer-roadmap",
+      "target": "podcast:building-production-ml-platform-and-mlops-team",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:machine-learning-engineer-roadmap",
+      "target": "podcast:building-scalable-and-reliable-machine-learning-systems",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:machine-learning-engineer-roadmap",
+      "target": "podcast:crisp-dm",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:machine-learning-engineer-roadmap",
+      "target": "podcast:data-team-roles",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:machine-learning-engineer-roadmap",
+      "target": "podcast:from-software-engineer-to-machine-learning",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:machine-learning-engineer-roadmap",
+      "target": "podcast:human-centered-mlops-and-model-monitoring",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:machine-learning-engineer-roadmap",
+      "target": "podcast:machine-learning-engineering-production-best-practices",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:machine-learning-engineer-roadmap",
+      "target": "podcast:machine-learning-system-design-interview",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:machine-learning-engineer-roadmap",
+      "target": "podcast:mlops-at-scale-reproducibility-adoption",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:machine-learning-engineer-roadmap",
+      "target": "wiki:a-b-testing",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:machine-learning-engineer-roadmap",
+      "target": "wiki:data-scientist-to-machine-learning-engineer",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:machine-learning-engineer-roadmap",
+      "target": "wiki:machine-learning-engineer-role",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:machine-learning-engineer-roadmap",
+      "target": "wiki:machine-learning-engineer-role",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:machine-learning-engineer-roadmap",
+      "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:machine-learning-engineer-roadmap",
+      "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:machine-learning-engineer-roadmap",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:machine-learning-engineer-roadmap",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:machine-learning-engineer-roadmap",
+      "target": "wiki:ml-system-design-documents",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:machine-learning-engineer-roadmap",
+      "target": "wiki:mlops",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:machine-learning-engineer-roadmap",
+      "target": "wiki:mlops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:machine-learning-engineer-roadmap",
+      "target": "wiki:mlops-roadmap",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:machine-learning-engineer-roadmap",
+      "target": "wiki:model-monitoring",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:machine-learning-engineer-roadmap",
+      "target": "wiki:model-monitoring",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:machine-learning-engineer-roadmap",
+      "target": "wiki:production-ml-project-checklist",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:machine-learning-engineer-roadmap",
+      "target": "wiki:production-ml-project-checklist",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:machine-learning-engineer-roadmap",
+      "target": "wiki:software-engineer-to-machine-learning",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:machine-learning-engineer-roadmap",
+      "target": "wiki:software-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:open-source-contributor-roadmap",
+      "target": "person:eugeneyan",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:open-source-contributor-roadmap",
+      "target": "person:hugobowneanderson",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:open-source-contributor-roadmap",
+      "target": "person:isabellabicalho",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:open-source-contributor-roadmap",
+      "target": "person:mervenoyan",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:open-source-contributor-roadmap",
+      "target": "person:saraelateif",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:open-source-contributor-roadmap",
+      "target": "person:swyx",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:open-source-contributor-roadmap",
+      "target": "person:vincentwarmerdam",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:open-source-contributor-roadmap",
+      "target": "person:willrussell",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:open-source-contributor-roadmap",
+      "target": "podcast:developer-personal-brand-learn-in-public",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:open-source-contributor-roadmap",
+      "target": "podcast:devrel-open-source-machine-learning",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:open-source-contributor-roadmap",
+      "target": "podcast:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:open-source-contributor-roadmap",
+      "target": "podcast:hugging-face-contributions-and-nlp-portfolio",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:open-source-contributor-roadmap",
+      "target": "podcast:open-source-and-volunteering-in-ai-for-data-ml-career-growth",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:open-source-contributor-roadmap",
+      "target": "podcast:open-source-ml-contributions",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:open-source-contributor-roadmap",
+      "target": "podcast:open-source-ml-tools-strategy-and-business-models",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:open-source-contributor-roadmap",
+      "target": "podcast:practical-devrel-demofirst-education-and-open-source",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:open-source-contributor-roadmap",
+      "target": "podcast:technical-writing-for-data-scientists",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:open-source-contributor-roadmap",
+      "target": "wiki:contributing",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:open-source-contributor-roadmap",
+      "target": "wiki:contributing",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:open-source-contributor-roadmap",
+      "target": "wiki:developer-experience",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:open-source-contributor-roadmap",
+      "target": "wiki:developer-relations",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:open-source-contributor-roadmap",
+      "target": "wiki:developer-relations",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:open-source-contributor-roadmap",
+      "target": "wiki:documentation",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:open-source-contributor-roadmap",
+      "target": "wiki:documentation",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:open-source-contributor-roadmap",
+      "target": "wiki:open-source",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:open-source-contributor-roadmap",
+      "target": "wiki:open-source",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:open-source-contributor-roadmap",
+      "target": "wiki:open-source-and-developer-relations",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:open-source-contributor-roadmap",
+      "target": "wiki:open-source-portfolio-evidence",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:open-source-contributor-roadmap",
+      "target": "wiki:open-source-portfolio-evidence",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:open-source-contributor-roadmap",
+      "target": "wiki:technical-writing",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:open-source-contributor-roadmap",
+      "target": "wiki:technical-writing",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "person:16rahuljain",
@@ -42345,6 +43227,12 @@
     },
     {
       "source": "wiki:a-b-testing",
+      "target": "article:roadmap:data-product-manager-roadmap",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:a-b-testing",
       "target": "person:aleksandermolak",
       "kind": "wiki-link",
       "weight": 2
@@ -47607,6 +48495,12 @@
     },
     {
       "source": "wiki:career-transitions-in-data",
+      "target": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
       "target": "wiki:data-analyst-role",
       "kind": "wiki-link",
       "weight": 6
@@ -48892,6 +49786,216 @@
     {
       "source": "wiki:computer-vision",
       "target": "wiki:vector-databases",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "target": "person:adrianbrudaru",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "target": "person:aleksanderkruszelnicki",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "target": "person:caitlinmoorman",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "target": "person:dimitrivisnadi",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "target": "person:elenasamuylova",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "target": "person:gregcoquillo",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "target": "person:saramenefee",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "target": "person:sonalgoyal",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "target": "person:verenaweber",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "target": "podcast:building-and-scaling-ai-data-products-with-mlops",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "target": "podcast:building-mlops-startup",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "target": "podcast:building-open-source-data-product-for-identity-resolution",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "target": "podcast:data-consulting-business-pricing-and-client-acquisition",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "target": "podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "target": "podcast:freelance-data-engineering-pricing-and-clients",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "target": "podcast:from-data-freelancer-to-startup-open-source-products",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "target": "podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "target": "podcast:practical-generative-ai-consulting-from-expertise-to-impact",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "target": "podcast:product-designer-to-data-product-manager",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "target": "topic:freelance",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "target": "wiki:business-skills-for-data-professionals",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "target": "wiki:data-product-adoption",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "target": "wiki:data-product-management",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "target": "wiki:data-product-management",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "target": "wiki:data-products",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "target": "wiki:data-products",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "target": "wiki:entrepreneurship",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "target": "wiki:entrepreneurship",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "target": "wiki:founder",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "target": "wiki:founder",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "target": "wiki:freelance",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "target": "wiki:open-source-portfolio-evidence",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "target": "wiki:open-source-portfolio-evidence",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "target": "wiki:startup",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "target": "wiki:startup",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -54066,6 +55170,12 @@
       "target": "article:guide:data-product-manager-role",
       "kind": "wiki-link",
       "weight": 4
+    },
+    {
+      "source": "wiki:data-product-management",
+      "target": "article:roadmap:data-product-manager-roadmap",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:data-product-management",
@@ -63417,6 +64527,12 @@
     },
     {
       "source": "wiki:llm-production-patterns",
+      "target": "article:roadmap:llm-rag-production-roadmap",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:llm-production-patterns",
       "target": "person:adityagautam",
       "kind": "wiki-link",
       "weight": 4
@@ -64234,6 +65350,12 @@
     {
       "source": "wiki:machine-learning-engineer-role",
       "target": "article:guide:machine-learning-system-design-interview",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:machine-learning-engineer-role",
+      "target": "article:roadmap:machine-learning-engineer-roadmap",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -69360,6 +70482,12 @@
       "target": "wiki:technical-writing",
       "kind": "wiki-link",
       "weight": 4
+    },
+    {
+      "source": "wiki:open-source-portfolio-evidence",
+      "target": "article:roadmap:open-source-contributor-roadmap",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:open-source-portfolio-evidence",
