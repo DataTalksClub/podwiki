@@ -22,6 +22,15 @@ LOCAL_LINK_RE = re.compile(r"'/([^']+)/' \| relative_url")
 MARKDOWN_LINK_RE = re.compile(r"\[[^\]]+\]\((/[^)#?]+)")
 
 
+def visible_body(text: str) -> str:
+    if not text.startswith("---\n"):
+        return text
+    _, separator, body = text.partition("\n---\n")
+    if not separator:
+        return text
+    return body
+
+
 def page_paths(folders: list[str]) -> list[Path]:
     paths: list[Path] = []
     for folder in folders:
@@ -42,9 +51,10 @@ def link_counts(text: str) -> dict[str, int]:
 
 def audit_file(path: Path) -> dict[str, object]:
     text = path.read_text(encoding="utf-8")
+    body = visible_body(text)
     links = link_counts(text)
     forbidden = FORBIDDEN_HEADING_RE.findall(text)
-    generic = text.count(GENERIC_PODCAST_URL)
+    generic = body.count(GENERIC_PODCAST_URL)
     score = generic * 3 + len(forbidden) * 10
     if path.parts[-2] in PUBLIC_CONTENT_FOLDERS and links["podcasts"] == 0:
         score += 5
