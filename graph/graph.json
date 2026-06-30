@@ -7,7 +7,7 @@
     "persons": 438,
     "topics": 145,
     "nodes": 1019,
-    "links": 8517
+    "links": 8645
   },
   "nodes": [
     {
@@ -297,7 +297,7 @@
       "title": "Data Scientist Interview Prep: What to Practice Before the First Call",
       "url": "/articles/data-scientist-interview/",
       "count": 1,
-      "search": "Data Scientist Interview Prep: What to Practice Before the First Call A practical guide to data scientist interview preparation, covering recruiter screens, CVs, take home projects, SQL, ML fundamentals, case studies, and behavioral stories.",
+      "search": "Data Scientist Interview Prep: What to Practice Before the First Call A podcast backed guide to data scientist interview preparation, covering role targeting, CV evidence, recruiter screens, technical rounds, case studies, project stories, and offer questions.",
       "keyword": "data scientist interview"
     },
     {
@@ -477,7 +477,7 @@
       "title": "Machine Learning for Startups: Build Useful AI Without Overbuilding",
       "url": "/articles/machine-learning-for-startups/",
       "count": 1,
-      "search": "Machine Learning for Startups: Build Useful AI Without Overbuilding A startup focused guide to applying machine learning pragmatically, covering problem selection, MVPs, data strategy, lean MLOps, hiring, monitoring, and product market fit.",
+      "search": "Machine Learning for Startups: Build Useful AI Without Overbuilding A startup focused guide to applying machine learning pragmatically, with podcast backed guidance on problem selection, MVPs, data strategy, lean MLOps, hiring, monitoring, and product market fit.",
       "keyword": "machine learning for startups"
     },
     {
@@ -663,12 +663,12 @@
     {
       "id": "article:what-is-mlops",
       "type": "article",
-      "label": "What Is MLOps? A Practical Guide from Production ML Conversations",
-      "title": "What Is MLOps? A Practical Guide from Production ML Conversations",
+      "label": "What Is MLOps? A Practical Definition from Production ML Work",
+      "title": "What Is MLOps? A Practical Definition from Production ML Work",
       "url": "/articles/what-is-mlops/",
       "count": 1,
-      "search": "What Is MLOps? A Practical Guide from Production ML Conversations A practical explanation of MLOps based on DataTalks.Club podcast discussions about production ML, monitoring, CI/CD, governance, and team ownership.",
-      "keyword": "mlops"
+      "search": "What Is MLOps? A Practical Definition from Production ML Work MLOps is the practice of turning machine learning models into reproducible, monitored, governed production systems.",
+      "keyword": "what is mlops"
     },
     {
       "id": "person:aaishamuhammad",
@@ -15533,7 +15533,103 @@
     },
     {
       "source": "article:data-product-manager-role",
+      "target": "person:annahannemann",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:data-product-manager-role",
+      "target": "person:caitlinmoorman",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:data-product-manager-role",
+      "target": "person:geojolly",
+      "kind": "article-link",
+      "weight": 10
+    },
+    {
+      "source": "article:data-product-manager-role",
+      "target": "person:gregcoquillo",
+      "kind": "article-link",
+      "weight": 16
+    },
+    {
+      "source": "article:data-product-manager-role",
+      "target": "person:jakobgraff",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-product-manager-role",
+      "target": "person:liesbethdingemans",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-product-manager-role",
+      "target": "person:lorismarini",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-product-manager-role",
+      "target": "podcast:ab-testing-and-product-experimentation",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-product-manager-role",
+      "target": "podcast:ai-ml-product-design-and-experimentation",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-product-manager-role",
+      "target": "podcast:building-and-scaling-ai-data-products-with-mlops",
+      "kind": "article-link",
+      "weight": 16
+    },
+    {
+      "source": "article:data-product-manager-role",
+      "target": "podcast:building-data-products-product-owner-vs-product-manager",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:data-product-manager-role",
+      "target": "podcast:data-professionals-business-skills-in-saas",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-product-manager-role",
+      "target": "podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-product-manager-role",
+      "target": "podcast:ml-product-manager-and-mlops-platform-strategy",
+      "kind": "article-link",
+      "weight": 10
+    },
+    {
+      "source": "article:data-product-manager-role",
       "target": "wiki:data-engineering-platforms",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-product-manager-role",
+      "target": "wiki:data-product-adoption",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-product-manager-role",
+      "target": "wiki:data-product-adoption",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -15541,7 +15637,7 @@
       "source": "article:data-product-manager-role",
       "target": "wiki:data-product-management",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:data-product-manager-role",
@@ -15551,7 +15647,61 @@
     },
     {
       "source": "article:data-product-manager-role",
+      "target": "wiki:data-products",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-product-manager-role",
+      "target": "wiki:data-products",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-product-manager-role",
       "target": "wiki:experimentation-and-causal-inference",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-product-manager-role",
+      "target": "wiki:metrics",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-product-manager-role",
+      "target": "wiki:metrics",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-product-manager-role",
+      "target": "wiki:ml-product-manager-role",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-product-manager-role",
+      "target": "wiki:ml-product-manager-role",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-product-manager-role",
+      "target": "wiki:mlops",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-product-manager-role",
+      "target": "wiki:product-analytics",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-product-manager-role",
+      "target": "wiki:product-analytics",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -15779,9 +15929,75 @@
     },
     {
       "source": "article:data-scientist-interview",
+      "target": "article:machine-learning-system-design-interview",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-scientist-interview",
+      "target": "person:lukewhipps",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:data-scientist-interview",
+      "target": "person:nicksingh",
+      "kind": "article-link",
+      "weight": 8
+    },
+    {
+      "source": "article:data-scientist-interview",
+      "target": "person:olegnovikov",
+      "kind": "article-link",
+      "weight": 16
+    },
+    {
+      "source": "article:data-scientist-interview",
+      "target": "person:olgaivina",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-scientist-interview",
+      "target": "podcast:data-interview-behavioral-and-portfolio-prep-guide",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:data-scientist-interview",
+      "target": "podcast:data-science-interview-and-cv-guide",
+      "kind": "article-link",
+      "weight": 14
+    },
+    {
+      "source": "article:data-scientist-interview",
+      "target": "podcast:hiring-for-data-science-jobs-interview-questions-skills.md",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-scientist-interview",
+      "target": "podcast:machine-learning-data-science-interview-prep",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:data-scientist-interview",
+      "target": "wiki:career-transitions-in-data",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-scientist-interview",
       "target": "wiki:career-transitions-in-data",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "article:data-scientist-interview",
+      "target": "wiki:data-science",
+      "kind": "article-link",
+      "weight": 2
     },
     {
       "source": "article:data-scientist-interview",
@@ -15791,7 +16007,67 @@
     },
     {
       "source": "article:data-scientist-interview",
+      "target": "wiki:data-science-careers",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-scientist-interview",
+      "target": "wiki:data-scientist-interview-roadmap",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-scientist-interview",
+      "target": "wiki:data-scientist-interview-roadmap",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-scientist-interview",
+      "target": "wiki:hiring",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-scientist-interview",
+      "target": "wiki:hiring",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-scientist-interview",
       "target": "wiki:job-search",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-scientist-interview",
+      "target": "wiki:job-search",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-scientist-interview",
+      "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-scientist-interview",
+      "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-scientist-interview",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-scientist-interview",
+      "target": "wiki:machine-learning-system-design",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -18029,9 +18305,129 @@
     },
     {
       "source": "article:llm-tools",
+      "target": "person:atitaarora",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:llm-tools",
+      "target": "person:bartoszmikulski",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:llm-tools",
+      "target": "person:hugobowneanderson",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:llm-tools",
+      "target": "person:meryemarik",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:llm-tools",
+      "target": "person:ranjithakulkarni",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:llm-tools",
+      "target": "person:sandrakublik",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:llm-tools",
+      "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:llm-tools",
+      "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:llm-tools",
+      "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:llm-tools",
+      "target": "podcast:practical-llm-engineering-and-rag",
+      "kind": "article-link",
+      "weight": 8
+    },
+    {
+      "source": "article:llm-tools",
+      "target": "podcast:practical-llm-use-cases-and-product-patterns",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:llm-tools",
+      "target": "podcast:production-ready-ai-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:llm-tools",
+      "target": "wiki:agent-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:llm-tools",
+      "target": "wiki:agent-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:llm-tools",
+      "target": "wiki:embeddings",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:llm-tools",
+      "target": "wiki:evaluation",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:llm-tools",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:llm-tools",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:llm-tools",
+      "target": "wiki:llm-production-patterns",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:llm-tools",
       "target": "wiki:llm-production-patterns",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "article:llm-tools",
+      "target": "wiki:mlops",
+      "kind": "article-link",
+      "weight": 2
     },
     {
       "source": "article:llm-tools",
@@ -18041,15 +18437,57 @@
     },
     {
       "source": "article:llm-tools",
+      "target": "wiki:rag-vs-fine-tuning",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:llm-tools",
+      "target": "wiki:responsible-ai-and-governance",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:llm-tools",
       "target": "wiki:responsible-ai-and-governance",
       "kind": "article-wiki",
       "weight": 5
     },
     {
       "source": "article:llm-tools",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:llm-tools",
+      "target": "wiki:search-rag-and-knowledge-systems",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:llm-tools",
       "target": "wiki:search-rag-and-knowledge-systems",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "article:llm-tools",
+      "target": "wiki:security",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:llm-tools",
+      "target": "wiki:software-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:llm-tools",
+      "target": "wiki:vector-databases",
+      "kind": "article-link",
+      "weight": 2
     },
     {
       "source": "article:machine-learning-bootcamp",
@@ -18743,19 +19181,157 @@
     },
     {
       "source": "article:machine-learning-for-startups",
+      "target": "person:carminepaolino",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:machine-learning-for-startups",
+      "target": "person:dattran",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:machine-learning-for-startups",
+      "target": "person:elenasamuylova",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:machine-learning-for-startups",
+      "target": "person:mariabruckert",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:machine-learning-for-startups",
+      "target": "person:marianosemelman",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:machine-learning-for-startups",
+      "target": "person:nemanjaradojkovic",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:machine-learning-for-startups",
+      "target": "podcast:building-ai-digital-health-startups",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:machine-learning-for-startups",
+      "target": "podcast:building-data-team",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:machine-learning-for-startups",
+      "target": "podcast:building-mlops-startup",
+      "kind": "article-link",
+      "weight": 14
+    },
+    {
+      "source": "article:machine-learning-for-startups",
+      "target": "podcast:data-science-leadership-hiring-mlops",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:machine-learning-for-startups",
+      "target": "podcast:launch-and-build-retail-startup",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:machine-learning-for-startups",
+      "target": "podcast:lean-mlops-for-startups",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:machine-learning-for-startups",
+      "target": "wiki:data-product-management",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:machine-learning-for-startups",
+      "target": "wiki:data-product-management",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:machine-learning-for-startups",
+      "target": "wiki:data-strategy",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:machine-learning-for-startups",
+      "target": "wiki:data-strategy",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:machine-learning-for-startups",
+      "target": "wiki:machine-learning",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:machine-learning-for-startups",
       "target": "wiki:machine-learning",
       "kind": "article-wiki",
       "weight": 5
     },
     {
       "source": "article:machine-learning-for-startups",
-      "target": "wiki:mlops-and-dataops",
+      "target": "wiki:mlops",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:machine-learning-for-startups",
+      "target": "wiki:mlops",
       "kind": "article-wiki",
       "weight": 5
     },
     {
       "source": "article:machine-learning-for-startups",
+      "target": "wiki:model-monitoring",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:machine-learning-for-startups",
+      "target": "wiki:model-monitoring",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:machine-learning-for-startups",
+      "target": "wiki:open-source",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:machine-learning-for-startups",
       "target": "wiki:startups",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:machine-learning-for-startups",
+      "target": "wiki:team-building",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:machine-learning-for-startups",
+      "target": "wiki:team-building",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -21395,31 +21971,223 @@
     },
     {
       "source": "article:what-is-mlops",
-      "target": "wiki:data-engineering-platforms",
+      "target": "person:dannyleybzon",
       "kind": "article-link",
       "weight": 2
     },
     {
       "source": "article:what-is-mlops",
-      "target": "wiki:data-engineering-platforms",
-      "kind": "article-wiki",
-      "weight": 5
+      "target": "person:linaweichbrodt",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:what-is-mlops",
+      "target": "person:mariavechtomova",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:what-is-mlops",
+      "target": "person:nemanjaradojkovic",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:what-is-mlops",
+      "target": "person:raphaelhoogvliets",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:what-is-mlops",
+      "target": "person:rishabhbhargava",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:what-is-mlops",
+      "target": "person:simonstiebellehner",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:what-is-mlops",
+      "target": "person:theofilospapapanagiotou",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:what-is-mlops",
+      "target": "person:valeriybabushkin",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:what-is-mlops",
+      "target": "podcast:building-production-ml-platform-and-mlops-team",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:what-is-mlops",
+      "target": "podcast:crisp-dm",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:what-is-mlops",
+      "target": "podcast:human-centered-mlops-and-model-monitoring",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:what-is-mlops",
+      "target": "podcast:machine-learning-system-design-interview",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:what-is-mlops",
+      "target": "podcast:mlops-and-ml-engineering-in-finance",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:what-is-mlops",
+      "target": "podcast:mlops-at-scale-reproducibility-adoption",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:what-is-mlops",
+      "target": "podcast:mlops-kubeflow-model-monitoring",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:what-is-mlops",
+      "target": "podcast:mlops-model-monitoring-data-observability",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:what-is-mlops",
+      "target": "podcast:pragmatic-and-standardized-mlops",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:what-is-mlops",
+      "target": "podcast:production-ml-mlops-and-data-team-building",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:what-is-mlops",
+      "target": "wiki:data-observability",
+      "kind": "article-link",
+      "weight": 2
     },
     {
       "source": "article:what-is-mlops",
       "target": "wiki:data-quality-and-observability",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:what-is-mlops",
-      "target": "wiki:mlops-and-dataops",
       "kind": "article-link",
       "weight": 2
     },
     {
       "source": "article:what-is-mlops",
-      "target": "wiki:mlops-and-dataops",
+      "target": "wiki:dataops",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:what-is-mlops",
+      "target": "wiki:dataops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:what-is-mlops",
+      "target": "wiki:experiment-tracking",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:what-is-mlops",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:what-is-mlops",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:what-is-mlops",
+      "target": "wiki:mlops",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:what-is-mlops",
+      "target": "wiki:mlops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:what-is-mlops",
+      "target": "wiki:mlops-roadmap",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:what-is-mlops",
+      "target": "wiki:mlops-roadmap",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:what-is-mlops",
+      "target": "wiki:mlops-tools",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:what-is-mlops",
+      "target": "wiki:mlops-vs-devops",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:what-is-mlops",
+      "target": "wiki:model-monitoring",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:what-is-mlops",
+      "target": "wiki:model-monitoring",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:what-is-mlops",
+      "target": "wiki:model-registry",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:what-is-mlops",
+      "target": "wiki:reproducibility",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:what-is-mlops",
+      "target": "wiki:reproducibility",
       "kind": "article-wiki",
       "weight": 5
     },
