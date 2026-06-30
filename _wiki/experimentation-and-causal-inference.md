@@ -1,182 +1,293 @@
 ---
 layout: wiki
 title: "Experimentation and Causal Inference"
-summary: "How the podcast archive explains A/B testing, causal reasoning, uplift modeling, product experiments, metric design, and decision validation."
+summary: "How DataTalks.Club podcast guests connect randomized experiments, causal reasoning, metric design, uplift modeling, and product decisions."
 related:
-  - Data Product Management
-  - MLOps and DataOps
-  - Data Engineering Platforms
+  - Experimentation
+  - Causal Inference
+  - A/B Testing
+  - Metrics
+  - Product Analytics
+  - Evaluation
 ---
 
-## Definition and Scope
+## Definition
 
-Experimentation and causal inference are the practices used to decide whether a
-change caused an outcome, what would have happened under a different action, and
-which product or model decision should be rolled out. In the DataTalks.Club
-podcast archive, the topic spans A/B tests, A/A tests, power analysis, metric
-selection, uplift modeling, counterfactuals, causal feature selection, product
-design experiments, and live ML evaluation.
+Experimentation and causal inference both help teams decide whether an action
+changed an outcome. In the DataTalks.Club archive,
+[Jakob Graff]({{ '/people/jakobgraff/' | relative_url }}) explains the
+randomized version in
+[Product Analytics and A/B Testing at 8:13]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}).
+Teams split comparable users or sessions and expose one group to a change. They
+keep another group as control and compare the metric chosen before launch.
 
-The archive's core distinction is between prediction and decision-making.
-Predictive ML can estimate what is likely to happen. Causal methods ask what
-will happen if the team intervenes: launch a feature, target a campaign, change
-a recommender, or deploy a new model.
+[Aleksander Molak]({{ '/people/aleksandermolak/' | relative_url }}) explains the
+broader causal version in
+[Causal Inference for Real-World ML at 7:31]({{ '/podcasts/causal-inference-for-machine-learning/' | relative_url }}).
+Teams separate association from causation, then ask what would have happened
+under a different intervention.
 
+The bridge is decision-making:
+[Experimentation]({{ '/wiki/experimentation/' | relative_url }}) usually starts
+with a live test or product discovery loop.
+[Causal inference]({{ '/wiki/causal-inference/' | relative_url }}) starts with
+the intervention, outcome, population, and counterfactual comparison. They meet
+when a team needs to decide whether to roll out a feature, target a campaign,
+change a recommender, or trust a model policy. That overlap appears in
+[A/B testing]({{ '/wiki/a-b-testing/' | relative_url }}),
+[metrics]({{ '/wiki/metrics/' | relative_url }}),
+[product analytics]({{ '/wiki/product-analytics/' | relative_url }}), and
+[evaluation]({{ '/wiki/evaluation/' | relative_url }}).
 
-## Archive-Level Takeaways
+## Link Map
 
-### Randomization is the cleanest causal tool
+Use this page as the bridge between archive topics:
 
-The A/B testing episode explains experiments through the clinical-trial pattern:
-randomly split users or sessions, expose one group to a change, keep another as
-control, and compare outcomes. Randomization helps isolate the product change
-from marketing campaigns, seasonality, individual user differences, and other
-noise.
+- [Experimentation]({{ '/wiki/experimentation/' | relative_url }}) covers the
+  broad learning loop through A/B and A/A tests, shadow mode, prototypes, and
+  design sprints.
+- [Causal Inference]({{ '/wiki/causal-inference/' | relative_url }}) covers
+  counterfactual reasoning and treatment effects. It also covers causal feature
+  selection, refutation tests, and policy decisions.
+- [A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }}) is the cleanest
+  overlap because random assignment creates stronger causal evidence when the
+  product can support a controlled test.
+- [A/A Testing]({{ '/wiki/a-a-testing/' | relative_url }}) checks whether the
+  experimentation system can split traffic and measure outcomes before an A/B
+  result is trusted.
+- [Power Analysis]({{ '/wiki/power-analysis/' | relative_url }}) connects
+  causal questions to traffic and variance, then sets detectable effects and
+  experiment duration.
+- [Metrics]({{ '/wiki/metrics/' | relative_url }}) determines what the causal
+  answer means for revenue and retention. It also covers churn, latency, cost,
+  or another rollout decision.
+- [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
+  and the [Data Product Manager]({{ '/articles/data-product-manager/' | relative_url }})
+  article connect experiments to discovery and prioritization. They also connect
+  experiments to adoption and impact.
+- [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
+  and [Production]({{ '/wiki/production/' | relative_url }}) connect online
+  experiments, shadow mode, baselines, and model rollout.
 
-### Metrics determine what the experiment means
+## Common Definition
 
-Guests repeatedly return to metric design. A subscription experiment can look
-different depending on whether the metric is revenue per user, retention,
-conversion, or long-term value. A model that wins offline can lose online if the
-wrong segment, product constraint, or business metric was optimized.
+Commonly, experiments apply when the team can create the comparison. Causal
+inference applies when no clean experiment can create it.
 
-### A/A tests establish trust before A/B tests create knowledge
+Jakob's A/B testing episode grounds the experimental side. At
+[11:48]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}),
+he describes experiments as a way to establish causality in noisy product
+conditions. At
+[24:44]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}),
+he moves from the idea to traffic splitting and assignment tracking. He also
+covers platform trust.
 
-Before trusting an experimentation system, teams should validate assignment,
-tracking, and analysis with A/A tests. If identical experiences produce
-imbalanced groups or divergent metrics, the platform is biased or broken.
+Aleksander's causal inference episode grounds the causal side. At
+[15:36]({{ '/podcasts/causal-inference-for-machine-learning/' | relative_url }}),
+he uses marketing and recommendation examples to show why prediction alone may
+not answer an intervention question. At
+[24:24]({{ '/podcasts/causal-inference-for-machine-learning/' | relative_url }}),
+he introduces conditional average treatment effect, or CATE, for estimating how
+the effect changes by person or segment. That makes causal inference close to
+[product analytics]({{ '/wiki/product-analytics/' | relative_url }}) when the
+decision is who should receive a discount, message, recommendation, or churn
+intervention.
 
-### Causal inference extends experimentation into policy decisions
+The shared structure is small and practical:
 
-Aleksander Molak's causal inference episode moves beyond "did variant B beat
-variant A?" into counterfactual decision-making. Uplift modeling estimates who
-changes behavior because of treatment. That matters for marketing, churn,
-recommendations, and any policy where treating everyone wastes money or harms
-some users.
+- define the intervention or treatment
+- define the outcome metric
+- define the population and assignment unit
+- define the comparison group or counterfactual
+- decide what action the evidence will support
 
-### Product discovery is part of experimentation
+## Guest Differences
 
-AI product design episodes show a broader view of experiments: user research,
-parallel proofs of concept, design sprints, scoping documents, and data-driven
-pitches. These are not always randomized tests, but they reduce uncertainty
-before teams invest in full product or ML builds.
+[Jakob Graff]({{ '/people/jakobgraff/' | relative_url }}) starts from the
+experimentation system. In
+[Product Analytics and A/B Testing at 27:52]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}),
+he uses [A/A testing]({{ '/wiki/a-a-testing/' | relative_url }}) to validate
+randomization and tracking before interpreting an A/B result. He also checks
+metric calculation. At
+[37:44]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}),
+he uses [power analysis]({{ '/wiki/power-analysis/' | relative_url }}) to plan
+duration from baseline rates and variance. The same planning uses traffic and
+detectable effect.
 
-## Recurring Patterns
+[Aleksander Molak]({{ '/people/aleksandermolak/' | relative_url }}) starts from
+causal structure. In
+[Causal Inference for Real-World ML at 26:16]({{ '/podcasts/causal-inference-for-machine-learning/' | relative_url }}),
+he treats randomized experiments as one path to unconfounded evidence and
+causal feature selection as another path. That second path matters when
+observational data is used. At
+[33:14]({{ '/podcasts/causal-inference-for-machine-learning/' | relative_url }}),
+he adds refutation tests and policy metrics because a causal model needs checks
+that ordinary predictive validation doesn't provide.
 
-### Start simple
+[Rishabh Bhargava]({{ '/people/rishabhbhargava/' | relative_url }}) connects
+the topic to production ML. In
+[From Analytics to Production ML at 28:42]({{ '/podcasts/production-ml-mlops-and-data-team-building/' | relative_url }}),
+he describes model work as experimental and iterative. At
+[31:19]({{ '/podcasts/production-ml-mlops-and-data-team-building/' | relative_url }}),
+he connects live model tests to uplift and segment analysis. The root-cause
+work places analysts between [evaluation]({{ '/wiki/evaluation/' | relative_url }})
+and business outcomes.
 
-For first A/B tests, the archive recommends simple two-group designs, one
-decision metric, clear assignment tracking, and an easy-to-instrument product
-surface. Complex multi-arm tests, noisy revenue metrics, or unclear triggering
-logic make it harder to learn whether the experimentation machinery works.
+[Liesbeth Dingemans]({{ '/people/liesbethdingemans/' | relative_url }}) uses a
+product-design lens. In
+[AI Product Design at 16:02]({{ '/podcasts/ai-ml-product-design-and-experimentation/' | relative_url }}),
+parallel experiments and proofs of concept remove weak solution paths before a
+team invests in an AI product. At
+[31:04]({{ '/podcasts/ai-ml-product-design-and-experimentation/' | relative_url }}),
+scoping documents and repeated "why" questions challenge a proposed solution
+before the team turns it into an experiment or build plan.
 
-### Plan sample size before stakeholders ask for results
+[Juan Orduz]({{ '/people/juanorduz/' | relative_url }}) starts from marketing
+measurement. In
+[Marketing Data Science at 13:36]({{ '/podcasts/machine-learning-in-marketing-attribution-marketing-mix-modeling/' | relative_url }}),
+he discusses media mix modeling and time-series counterfactuals for campaign
+impact. At
+[30:54]({{ '/podcasts/machine-learning-in-marketing-attribution-marketing-mix-modeling/' | relative_url }}),
+he connects uplift modeling with treatment/control thinking and data pitfalls,
+which puts marketing attribution close to observational causal inference.
 
-Power analysis translates expected effect size, metric variance, baseline rate,
-and traffic into a rough duration. This protects analysts from premature peeking
-and gives product managers an answer before the experiment starts.
+## Randomized Experiments
 
-### Segment after the top-line read, not instead of it
+The archive's strongest example of experimentation and causal inference working
+together is the randomized experiment. Jakob's
+[clinical-trial analogy at 8:13]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }})
+shows why randomization matters. It makes the treatment group and control group
+comparable enough to attribute a metric difference to the tested change. His
+[traffic-splitting discussion at 24:44]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }})
+adds the operational requirements. Teams need stable assignment, exposure
+logging, monitoring, and debuggable metrics.
 
-Live ML and product experiments often need segment analysis to explain why an
-offline winner failed online or why uplift appears only for certain cohorts.
-But segmentation should support root-cause analysis, not become an unplanned
-search for any positive slice.
+The experiment still has to match the decision. In Jakob's
+[subscription-versus-points example at 14:27]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}),
+the result depends on which revenue or retention metric the team chooses. His
+[noise and seasonality discussion at 33:23]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }})
+keeps metric design tied to timing, business cycles, and sample size. Those
+details connect randomized experiments to [metrics]({{ '/wiki/metrics/' | relative_url }})
+and [power analysis]({{ '/wiki/power-analysis/' | relative_url }}), not only to
+statistics.
 
-### Compare policies with the same business metric
+## Observational Causal Inference
 
-Causal models can use specialized validation techniques, but when the question
-is "which policy should we deploy?", the archive recommends comparing the
-causal policy with the baseline on the same business metric: revenue, churn,
-retention, conversion, support resolution, or another agreed outcome.
+Observational causal inference enters when the team can't run a clean
+experiment. Aleksander's
+[confounder discussion at 8:55]({{ '/podcasts/causal-inference-for-machine-learning/' | relative_url }})
+shows why a predictive relationship can mislead a decision. At
+[26:16]({{ '/podcasts/causal-inference-for-machine-learning/' | relative_url }}),
+he explains that unconfoundedness can come from randomization or from careful
+causal feature selection. At
+[59:33]({{ '/podcasts/causal-inference-for-machine-learning/' | relative_url }})
+and
+[1:04:03]({{ '/podcasts/causal-inference-for-machine-learning/' | relative_url }}),
+he discusses partial identification and sensitivity when the available data
+can't identify one clean answer.
 
-### Treat experimentation as organizational learning
+Marketing is the archive's clearest observational setting. Juan's
+[multi-channel journey discussion at 10:18]({{ '/podcasts/machine-learning-in-marketing-attribution-marketing-mix-modeling/' | relative_url }})
+shows why attribution gets ambiguous when customers see several channels before
+conversion. His
+[privacy and cookieless tracking discussion at 20:49]({{ '/podcasts/machine-learning-in-marketing-attribution-marketing-mix-modeling/' | relative_url }})
+pushes the problem toward aggregate models, assumptions, and stakeholder
+communication. That's why [causal inference]({{ '/wiki/causal-inference/' | relative_url }})
+matters beyond A/B tests.
 
-A/B tests do more than approve or reject features. They build reusable product
-knowledge about users, implementation choices, and risk. Small experiments on
-lower-risk surfaces can inform rollouts on larger products.
+## Product and Design Experiments
 
-## Decision Points and Checklists
+Not every useful experiment is a causal estimate. Liesbeth's
+[Double Diamond discussion at 12:12]({{ '/podcasts/ai-ml-product-design-and-experimentation/' | relative_url }})
+separates problem framing from solution exploration. Her
+[design sprint discussion at 23:16]({{ '/podcasts/ai-ml-product-design-and-experimentation/' | relative_url }})
+uses prototypes to test whether a direction deserves investment. These
+activities don't replace A/B tests. They reduce product uncertainty before a
+team has enough traffic, instrumentation, or user trust for a randomized
+rollout.
 
-### Experiment design checklist
+This design layer matters for data and AI products because a technically valid
+model can still solve the wrong problem. Liesbeth's
+[data scientist involvement point at 28:18]({{ '/podcasts/ai-ml-product-design-and-experimentation/' | relative_url }})
+connects product discovery to ML feasibility, and her
+[experimentation culture discussion at 54:11]({{ '/podcasts/ai-ml-product-design-and-experimentation/' | relative_url }})
+connects prioritization to measurable learning. Those ideas fit beside
+[data product management]({{ '/wiki/data-product-management/' | relative_url }}),
+[data products]({{ '/wiki/data-products/' | relative_url }}), and
+[data product adoption]({{ '/wiki/data-product-adoption/' | relative_url }}).
 
-- State the decision the experiment will support.
-- Choose the unit of randomization: user, session, account, device, market, or
-  another stable unit.
-- Define one primary decision metric before launch.
-- Add guardrail metrics for harm: latency, crashes, churn, complaints, cost, or
-  revenue cannibalization.
-- Run an A/A test or platform validation when assignment/tracking is new.
-- Estimate sample size and duration before launch.
-- Cover known seasonality, such as a full weekly cycle when behavior differs by
-  weekday.
-- Decide when peeking is allowed and who can stop the test.
+## Production ML Decisions
 
-### Causal inference checklist
+Production ML adds another boundary. An offline model metric may improve while
+the product metric doesn't.
 
-- Clarify the treatment, outcome, population, and decision policy.
-- Ask whether prediction is enough or whether an intervention decision is being
-  made.
-- Prefer randomized treatment data when possible.
-- If using observational data, identify confounders and justify causal feature
-  selection.
-- Estimate heterogeneous treatment effects when the action should differ by
-  user or segment.
-- Use refutation tests or sensitivity analysis to challenge causal structure.
-- Validate any deployed policy against a baseline before full rollout.
+Rishabh discusses staged validation at
+[28:42 in From Analytics to Production ML]({{ '/podcasts/production-ml-mlops-and-data-team-building/' | relative_url }}).
+The examples are offline experiments, shadow mode, and A/B tests. His
+[uplift and segment-analysis discussion at 31:19]({{ '/podcasts/production-ml-mlops-and-data-team-building/' | relative_url }})
+shows why analysts look at cohorts and root causes after a live model test.
+They don't stop at the top-line model score.
 
-### Product experiment checklist
+[Valeriy Babushkin]({{ '/people/valeriybabushkin/' | relative_url }}) links the
+same concern to ML system design. In
+[ML System Design Interviews at 24:28]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }}),
+he treats metrics, baselines, and A/B tests as part of the end-to-end ML
+pipeline. At
+[57:23]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }}),
+he discusses production validation through A/B tests, causality, and human
+labels. That places this bridge page next to
+[machine learning system design]({{ '/wiki/machine-learning-system-design/' | relative_url }}),
+[MLOps]({{ '/wiki/mlops/' | relative_url }}), and
+[model registry]({{ '/wiki/model-registry/' | relative_url }}) work.
 
-- Start with the user or business problem, not the proposed model.
-- Use scoping documents to challenge assumptions and ask "why".
-- Explore multiple solution paths, including non-ML baselines.
-- Involve product, design, data science, engineering, and analytics early.
-- Decide which uncertainty requires user research, a prototype, an offline
-  model test, or a randomized experiment.
+## Practical Decision Points
 
-## Episode Evidence
+Choose a randomized experiment when the product can assign comparable users or
+sessions and log exposure. The team also needs enough time for the metric to
+stabilize. This is Jakob's path through
+[A/B testing]({{ '/wiki/a-b-testing/' | relative_url }}). Start with a simple
+two-group design at
+[30:05]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}),
+validate the system with [A/A testing]({{ '/wiki/a-a-testing/' | relative_url }})
+at [27:52]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}),
+and plan sample size before launch at
+[37:44]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}).
 
-| Episode | Evidence | Local summary |
-| --- | --- | --- |
-| [Product Analytics and A/B Testing](https://datatalks.club/podcast.html) | At 8:13, explains A/B tests through randomized clinical-trial logic; at 14:27, subscription vs points shows why revenue metric design matters; at 27:52, A/A tests validate randomization and tracking; at 33:23, metric noise and seasonality affect design; at 37:44, power analysis estimates sample size and duration. | [summary]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}) |
-| [Causal Inference for Real-World ML](https://datatalks.club/podcast.html) | At 7:31, distinguishes association from causal thinking; at 15:36, marketing targeting shows why prediction alone is insufficient; at 24:24, CATE estimates compare treatment and non-treatment outcomes; at 26:17, unconfoundedness can come from A/B tests or causal feature selection; at 33:14, model evaluation includes refutation tests and policy metrics. | none yet |
-| [AI Product Design](https://datatalks.club/podcast.html) | At 10:04, compares TikTok and Instagram signal collection; at 12:12, Double Diamond separates problem framing from solution exploration; at 16:02, parallel experiments and proofs of concept eliminate weak solution paths; at 31:34, scoping documents and "why" questions challenge top-down solution requests. | none yet |
-| [From Analytics to Production ML](https://datatalks.club/podcast.html) | At 28:42, ML work is described as experimental and iterative; at 31:19, live model experiments use A/B tests or shadow mode; at 32:47, analysts help connect model results to business metrics, segment analysis, and root cause. | none yet |
-| [Building Data Products at Scale](https://datatalks.club/podcast.html) | Connects data product delivery to Definition of Done, baseline KPIs, intake, and A/B testing before rollout. | none yet |
-| [Data Product Management](https://datatalks.club/podcast.html) | Frames experimentation as a way for data product teams to prove impact rather than only ship outputs. | [wiki]({{ '/wiki/data-product-management/' | relative_url }}) |
+Use causal inference when the decision is about an intervention but the team
+can't rely only on randomized evidence. Aleksander's causal ML episode makes
+that boundary explicit through confounding at
+[8:55]({{ '/podcasts/causal-inference-for-machine-learning/' | relative_url }}),
+unconfoundedness at
+[26:16]({{ '/podcasts/causal-inference-for-machine-learning/' | relative_url }}),
+and policy evaluation at
+[32:40]({{ '/podcasts/causal-inference-for-machine-learning/' | relative_url }}).
+The method is heavier than ordinary prediction, so the archive frames it as
+most valuable when it changes a rollout or targeting decision. Pricing and
+allocation decisions can justify the same work.
 
-## Tradeoffs and Open Questions
-
-### Third-party vs in-house experimentation platforms
-
-Third-party platforms can help small teams split traffic and get dashboards
-quickly. In-house platforms require engineering effort but give transparency
-over assignment, logging, triggering, and analysis. The archive does not choose
-one universally; it stresses trust and monitoring either way.
-
-### Frequentist vs Bayesian testing
-
-The A/B testing episode covers both. Frequentist tests and power analysis are
-common and calculator-friendly. Bayesian approaches can communicate uncertainty
-and decision cost differently. The practical choice depends on team literacy,
-tooling, and decision cadence.
-
-### Experiments vs observational causal inference
-
-Randomized experiments are cleaner but not always possible, ethical, or cheap.
-Observational causal inference can help, but it requires stronger assumptions
-about confounders and causal structure. The archive treats A/B testing as a
-validation baseline whenever possible.
-
-### Offline model metrics vs online impact
-
-ML teams may improve offline accuracy while hurting product metrics. Shadow
-mode and A/B tests bridge that gap. Analysts often explain failures through
-segments, cohorts, and business context that pure model evaluation misses.
+Use discovery experiments when the team is still unsure what to build. Liesbeth's
+[parallel proof-of-concept discussion at 16:02]({{ '/podcasts/ai-ml-product-design-and-experimentation/' | relative_url }})
+and
+[scoping-document discussion at 31:04]({{ '/podcasts/ai-ml-product-design-and-experimentation/' | relative_url }})
+support the early product phase. These experiments produce evidence about
+problem fit, feasibility, and user signals before the team reaches the stricter
+causal question.
 
 ## Related Pages
 
+These pages connect the adjacent archive threads:
+
+- [Experimentation]({{ '/wiki/experimentation/' | relative_url }})
+- [Causal Inference]({{ '/wiki/causal-inference/' | relative_url }})
+- [A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }})
+- [A/A Testing]({{ '/wiki/a-a-testing/' | relative_url }})
+- [Power Analysis]({{ '/wiki/power-analysis/' | relative_url }})
+- [Metrics]({{ '/wiki/metrics/' | relative_url }})
+- [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }})
+- [Evaluation]({{ '/wiki/evaluation/' | relative_url }})
 - [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
-- [MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }})
-- [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
-- [Data Product Manager article]({{ '/articles/data-product-manager-role/' | relative_url }})
+- [Data Products]({{ '/wiki/data-products/' | relative_url }})
+- [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
+- [Production]({{ '/wiki/production/' | relative_url }})
+- [Data Product Manager]({{ '/articles/data-product-manager/' | relative_url }})
+- [Product Analyst]({{ '/articles/product-analyst/' | relative_url }})
