@@ -136,4 +136,6 @@ wiki page already owns.
   - [x] Remove exact guide/wiki slug collisions and move useful guide material
     into the wiki layer
   - [x] Remove branded Zoomcamp guide pages
+  - [x] Remove duplicate data engineering course, courses, bootcamp, and
+    training guide variants
 - [ ] Resubmit both sitemaps in Google Search Console

@@ -130,11 +130,8 @@ Evaluate a certification program by this order:
 6. Cloud and warehouse basics.
 7. Advanced tools only when the project creates a real need.
 
-For the longer learning path, compare this page with
-[Data Engineering Course]({{ '/guides/data-engineering-course/' | relative_url }}),
-[Data Engineer Training]({{ '/guides/data-engineer-training/' | relative_url }}),
-and
-[Data Engineering Bootcamp]({{ '/guides/data-engineering-bootcamp/' | relative_url }}).
+For the longer learning path, compare this page with the
+[Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }}).
 
 ## Prefer Project-Based Certificates
 
@@ -224,11 +221,8 @@ platform ownership is part of the job.
 Different certificates solve different problems.
 
 A course certificate helps when it proves that you finished assignments and
-built a project. It helps less when it only marks attendance. Compare
-[Data Engineer Course]({{ '/guides/data-engineer-course/' | relative_url }}),
-[Data Engineer Courses]({{ '/guides/data-engineer-courses/' | relative_url }}),
-and
-[Free Data Engineering Course]({{ '/guides/free-data-engineering-course/' | relative_url }})
+built a project. It helps less when it only marks attendance. Compare the
+[Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
 when you need course-specific criteria.
 
 A cloud or vendor certificate helps when your target jobs mention that
@@ -241,9 +235,7 @@ A bootcamp or cohort certificate helps when the program gives structure and
 feedback. It should also give peer review, interview practice, and a capstone
 you can customize.
 It's weaker when every student leaves with the same template project. Use
-[Data Engineer Bootcamp]({{ '/guides/data-engineer-bootcamp/' | relative_url }})
-and
-[Data Engineering Bootcamp]({{ '/guides/data-engineering-bootcamp/' | relative_url }})
+[Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
 for the bootcamp version of this decision.
 
 Open-source work isn't a certification, but it can be stronger evidence. In

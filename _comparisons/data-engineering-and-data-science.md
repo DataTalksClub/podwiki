@@ -195,9 +195,9 @@ In
 [Jeff Katz]({{ '/people/jeffkatz/' | relative_url }}) names Python, SQL, and
 cloud fundamentals as the junior data engineering base at 23:35. At 38:05 and
 56:46, he argues against leading junior learners with Spark, Kafka, or
-Kubernetes before the fundamentals are solid. That supports the sequence in
-[Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
-and [Data Engineering Course]({{ '/guides/data-engineering-course/' | relative_url }}).
+Kubernetes before the fundamentals are solid. That supports the course-style
+sequence in
+[Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }}).
 
 For data science, use Novikov's interview guide. It puts business case studies
 and metrics together with SQL and coding. It also puts ML fundamentals in the

@@ -12,6 +12,7 @@ related:
   - DataOps
   - Data Quality and Observability
   - Analytics Engineering
+  - Data Engineering Certification
 ---
 
 A data engineering roadmap is a sequence for becoming useful with data before
@@ -121,6 +122,72 @@ orchestration. Add cost and reliability. For product data engineering, focus on
 modeling and requirements. Pair that work with
 [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
 and data product ownership.
+
+## Courses, Bootcamps, and Training
+
+Courses, bootcamps, and company training are roadmap inputs. They help when
+they create deadlines, feedback, reviewable labs, and a project that another
+engineer can run. They're weak when they replace the roadmap with a tool list
+or certificate signaling.
+
+Katz gives the curriculum test in
+[Data Engineering Career Path and Skills]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }}):
+Python and SQL come first. Cloud fundamentals and orchestration come next. He
+later describes the beginner balance as mostly Python and SQL, with tools and
+cloud basics added around that core (23:35-40:42 and 56:46).
+
+Use structured learning to move through the same stages as this roadmap. A
+useful course starts with SQL, Python, and data modeling. It then makes the
+learner ingest data and keep raw data. It also makes the learner transform
+data into modeled tables, schedule the work, test it, and document a consumer.
+
+Kwong's modern-stack episode grounds that sequence through ETL, ELT, marts,
+and orchestration. She also adds CDC and schema evolution
+([ETL vs ELT and Modern Data Engineering]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})
+3:46-17:55 and 30:59-49:32). Tuli's pipeline episode adds the same
+source-to-dashboard and source-to-ML handoff
+([Modern Data Pipeline Architecture]({{ '/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/' | relative_url }})
+10:48-18:44 and 32:57-44:57).
+
+Bootcamps and cohorts are most useful for career changers when they add
+pressure, feedback, interview practice, and customization. [Gloria Quiceno]({{ '/people/gloriaquiceno/' | relative_url }})
+shows the learner side in
+[Gloria's data engineering job episode]({{ '/podcasts/get-data-analytics-and-data-engineering-job/' | relative_url }}).
+Her path included a bootcamp, a four-month search, volunteer practice, and
+tracked applications.
+
+She connects Python and Docker to job readiness, with Airflow, AWS, and
+networking helping too. Her Twitter data pipeline capstone used Docker
+containers and a Slack bot. Custom projects stand out more than repeated course
+projects (16:14-18:21, 36:20-37:25, and 50:15-53:34).
+
+That makes the project the main output of any training path. Katz's job-prep
+episode warns that many portfolio projects list tools while showing too little
+Python and SQL. He asks for cleaner code with small functions and descriptive
+names. He also asks for useful classes and tests
+([Data Engineering Job Prep and Interview Guide]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }})
+1:49-2:46).
+
+A course project should therefore become a
+[Data Engineering Portfolio Project]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }}).
+The project needs one realistic source, raw storage, modeled tables, and
+orchestration.
+It also needs data quality checks, setup instructions, a runbook, and at least
+one handled failure mode.
+
+The same rule applies to course catalogs such as
+[Data Engineering Zoomcamp](https://datatalks.club/blog/data-engineering-zoomcamp.html).
+The DataTalks.Club course discussion frames the Zoomcamp portfolio as free
+project-based learning
+([Inside Scaling DataTalks.Club]({{ '/podcasts/datatalksclub-scaling-and-free-courses/' | relative_url }})
+5:07-9:22 and 12:04-16:27). A learner should still finish with a pipeline they
+can explain instead of only a completed syllabus.
+
+Brudaru gives the modern-stack version of that boundary. Beginners should
+combine SQL, Python, requirements gathering, and portfolio work. They should
+do that before chasing every orchestrator, table format, or vendor trend
+([Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }})
+41:06-44:42).
 
 ## Stage 1: Query and Model Useful Data
 
@@ -354,3 +421,4 @@ Use these adjacent pages for deeper roadmap work:
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
+- [Data Engineering Certification]({{ '/wiki/data-engineering-certification/' | relative_url }})

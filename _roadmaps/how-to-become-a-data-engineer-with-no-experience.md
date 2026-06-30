@@ -370,4 +370,3 @@ Use these pages for the deeper wiki and article layer behind this guide:
 - [Data Engineer vs Data Scientist]({{ '/wiki/data-engineer-vs-data-scientist/' | relative_url }})
 - [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
 - [Data Engineer Roadmap]({{ '/roadmaps/data-engineer-roadmap/' | relative_url }})
-- [Data Engineering Bootcamp]({{ '/guides/data-engineering-bootcamp/' | relative_url }})

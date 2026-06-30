@@ -50,6 +50,13 @@ link to the official course pages there when useful.
 ## B. CONSOLIDATE — keyword swarms → one page each (26)
 
 ### B1 → wiki `data-engineering-roadmap` ("how to learn / become a DE")
+Status: the duplicate guide pages for data engineering course, courses,
+bootcamp, and training variants were removed from podwiki on 2026-07-01. Useful
+selection guidance belongs in `_wiki/data-engineering-roadmap.md`. Keep the
+roadmap-category pages `_roadmaps/data-engineer-roadmap.md` and
+`_roadmaps/how-to-become-a-data-engineer-with-no-experience.md` for their
+specific roadmap intents.
+
 best-data-engineering-course · free-data-engineering-course · data-engineer-course ·
 data-engineer-courses · data-engineering-course · data-engineering-courses ·
 data-engineer-bootcamp · data-engineering-bootcamp · data-engineering-training ·

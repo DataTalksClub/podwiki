@@ -38,7 +38,7 @@ Use this article as a transition guide, then go deeper with
 [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }}),
 [Fundamentals of Data Engineering]({{ '/guides/fundamentals-of-data-engineering/' | relative_url }}),
 and
-[Data Engineering Course]({{ '/guides/data-engineering-course/' | relative_url }}).
+[Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }}).
 
 ## Role Shift
 
@@ -86,7 +86,7 @@ same path.
 For a data scientist, that means turning exploration code into reusable
 workflows. The workflows should extract and validate data. They should also
 load, configure, log, and run from the command line
-([Data Engineering Course]({{ '/guides/data-engineering-course/' | relative_url }})).
+([Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})).
 
 Feature thinking is another advantage. The
 [Data Engineer vs Data Scientist]({{ '/wiki/data-engineer-vs-data-scientist/' | relative_url }})

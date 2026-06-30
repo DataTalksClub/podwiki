@@ -101,9 +101,8 @@ course contributors, or speakers.
 links the course portfolio at 5:07 to product work behind scaled courses at
 26:43. That connects community building to
 [teaching]({{ '/wiki/teaching/' | relative_url }}),
-[data engineering training]({{ '/guides/data-engineering-training/' | relative_url }}),
-and
-[data engineering course]({{ '/guides/data-engineering-course/' | relative_url }}).
+[data engineering learning paths]({{ '/wiki/data-engineering-roadmap/' | relative_url }}),
+and course design.
 A course can attract people. The community makes the course easier to finish
 because learners can ask questions and see other people working through the
 same material.
@@ -197,4 +196,4 @@ For individual participation, see
 For learning communities and career outcomes, see
 [Teaching]({{ '/wiki/teaching/' | relative_url }}),
 [Career Growth]({{ '/wiki/career-growth/' | relative_url }}), and
-[Data Engineering Training]({{ '/guides/data-engineering-training/' | relative_url }}).
+[Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }}).

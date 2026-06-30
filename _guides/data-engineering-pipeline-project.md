@@ -395,7 +395,6 @@ and choices behind the work.
 Use these pages for adjacent project, tool, and role context.
 
 - [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
-- [Data Engineer Course]({{ '/guides/data-engineer-course/' | relative_url }})
 - [Data Engineer Roadmap]({{ '/roadmaps/data-engineer-roadmap/' | relative_url }})
 - [Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }})
 - [Apache Airflow]({{ '/guides/apache-airflow/' | relative_url }})

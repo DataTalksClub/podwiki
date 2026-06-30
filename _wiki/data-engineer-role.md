@@ -107,7 +107,7 @@ programs can delay Spark, Kafka, and Kubernetes until the core is solid. In
 [Data Engineering Job Prep and Interview Guide]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }}),
 the 1:20 section adds Docker, Airflow, and warehouses as visible hiring
 signals. That version of the role is close to
-[data engineering training]({{ '/guides/data-engineering-training/' | relative_url }})
+[data engineering learning paths]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
 and [data engineering portfolio projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }}).
 
 Mehdi's scale-up episode puts the role between platform engineering and

@@ -2,12 +2,12 @@
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
     "wikis": 180,
-    "articles": 80,
+    "articles": 70,
     "podcasts": 202,
     "persons": 438,
     "topics": 146,
-    "nodes": 1046,
-    "links": 11573
+    "nodes": 1036,
+    "links": 11248
   },
   "nodes": [
     {
@@ -77,17 +77,6 @@
       "keyword": "apache airflow"
     },
     {
-      "id": "article:guide:best-data-engineering-course",
-      "type": "article",
-      "collection": "guide",
-      "label": "Best Data Engineering Course: Choose by Background, Role, and Proof",
-      "title": "Best Data Engineering Course: Choose by Background, Role, and Proof",
-      "url": "/guides/best-data-engineering-course/",
-      "count": 1,
-      "search": "Best Data Engineering Course: Choose by Background, Role, and Proof A podcast backed decision guide for choosing the best data engineering course for your background, target role, project evidence, and interview readiness.",
-      "keyword": "best data engineering course"
-    },
-    {
       "id": "article:guide:data-analysis",
       "type": "article",
       "collection": "guide",
@@ -132,17 +121,6 @@
       "keyword": "data analyst vs analytics engineer"
     },
     {
-      "id": "article:guide:data-engineer-bootcamp",
-      "type": "article",
-      "collection": "guide",
-      "label": "Data Engineer Bootcamp: How to Become Job-Ready for the Role",
-      "title": "Data Engineer Bootcamp: How to Become Job-Ready for the Role",
-      "url": "/guides/data-engineer-bootcamp/",
-      "count": 1,
-      "search": "Data Engineer Bootcamp: How to Become Job Ready for the Role A podcast backed guide to choosing and using a data engineer bootcamp: SQL, Python, pipelines, portfolio proof, interviews, and job search follow through.",
-      "keyword": "data engineer bootcamp"
-    },
-    {
       "id": "article:guide:data-engineer-consultant",
       "type": "article",
       "collection": "guide",
@@ -163,28 +141,6 @@
       "count": 1,
       "search": "Data Engineer Consulting: Scope, Discovery, Proof, Pricing, and Handoff A podcast backed article for buyers and practitioners of data engineer consulting: what clients actually buy, how discovery should work, which deliverables reduce risk, and how pricing and handoff fit the engagement.",
       "keyword": "data engineer consulting"
-    },
-    {
-      "id": "article:guide:data-engineer-course",
-      "type": "article",
-      "collection": "guide",
-      "label": "Data Engineer Course: How to Choose One and Become Job-Ready",
-      "title": "Data Engineer Course: How to Choose One and Become Job-Ready",
-      "url": "/guides/data-engineer-course/",
-      "count": 1,
-      "search": "Data Engineer Course: How to Choose One and Become Job Ready A podcast backed guide to choosing a data engineer course that teaches SQL, Python, pipelines, data quality, portfolio projects, and interview readiness.",
-      "keyword": "data engineer course"
-    },
-    {
-      "id": "article:guide:data-engineer-courses",
-      "type": "article",
-      "collection": "guide",
-      "label": "Data Engineer Courses: How to Compare Paths for Your Target Job",
-      "title": "Data Engineer Courses: How to Compare Paths for Your Target Job",
-      "url": "/guides/data-engineer-courses/",
-      "count": 1,
-      "search": "Data Engineer Courses: How to Compare Paths for Your Target Job A podcast backed guide to comparing data engineer courses by learner background, course format, target role, portfolio evidence, and interview readiness.",
-      "keyword": "data engineer courses"
     },
     {
       "id": "article:guide:data-engineer-manager",
@@ -209,17 +165,6 @@
       "keyword": "data engineer roadmap"
     },
     {
-      "id": "article:guide:data-engineer-training",
-      "type": "article",
-      "collection": "guide",
-      "label": "Data Engineer Training: Build Job-Ready Pipeline Skills",
-      "title": "Data Engineer Training: Build Job-Ready Pipeline Skills",
-      "url": "/guides/data-engineer-training/",
-      "count": 1,
-      "search": "Data Engineer Training: Build Job Ready Pipeline Skills A podcast backed guide to data engineer training: skill sequence, practical labs, portfolio projects, interview practice, and how to evaluate training options.",
-      "keyword": "data engineer training"
-    },
-    {
       "id": "article:comparison:data-engineer-vs-data-scientist",
       "type": "article",
       "collection": "comparison",
@@ -242,17 +187,6 @@
       "keyword": "data engineering and data science"
     },
     {
-      "id": "article:guide:data-engineering-bootcamp",
-      "type": "article",
-      "collection": "guide",
-      "label": "Data Engineering Bootcamp: How to Choose One and Prove Job-Ready Skill",
-      "title": "Data Engineering Bootcamp: How to Choose One and Prove Job-Ready Skill",
-      "url": "/guides/data-engineering-bootcamp/",
-      "count": 1,
-      "search": "Data Engineering Bootcamp: How to Choose One and Prove Job Ready Skill A podcast backed guide to evaluating a data engineering bootcamp by curriculum depth, project evidence, interview readiness, and job ready data engineering skill.",
-      "keyword": "data engineering bootcamp"
-    },
-    {
       "id": "article:guide:data-engineering-consultant",
       "type": "article",
       "collection": "guide",
@@ -273,28 +207,6 @@
       "count": 1,
       "search": "Data Engineering Consulting: Services, Scope, Proof, and Handoff A podcast backed buyer guide to data engineering consulting: service scope, discovery, pricing proof, platform work, freelance boundaries, and handoff.",
       "keyword": "data engineering consulting"
-    },
-    {
-      "id": "article:guide:data-engineering-course",
-      "type": "article",
-      "collection": "guide",
-      "label": "Data Engineering Course: What to Learn and How to Prove Job-Ready Skill",
-      "title": "Data Engineering Course: What to Learn and How to Prove Job-Ready Skill",
-      "url": "/guides/data-engineering-course/",
-      "count": 1,
-      "search": "Data Engineering Course: What to Learn and How to Prove Job Ready Skill A podcast backed guide to choosing a data engineering course by fundamentals, projects, tool judgment, portfolio evidence, and interview readiness.",
-      "keyword": "data engineering course"
-    },
-    {
-      "id": "article:guide:data-engineering-courses",
-      "type": "article",
-      "collection": "guide",
-      "label": "Data Engineering Courses: Compare Free, Paid, Bootcamp, Certification, and Self-Paced Paths",
-      "title": "Data Engineering Courses: Compare Free, Paid, Bootcamp, Certification, and Self-Paced Paths",
-      "url": "/guides/data-engineering-courses/",
-      "count": 1,
-      "search": "Data Engineering Courses: Compare Free, Paid, Bootcamp, Certification, and Self Paced Paths A podcast backed comparison of data engineering courses by format, sequence, projects, feedback, certificates, and job readiness evidence.",
-      "keyword": "data engineering courses"
     },
     {
       "id": "article:guide:data-engineering-freelance",
@@ -339,17 +251,6 @@
       "count": 1,
       "search": "Data Engineering Podcast: DataTalks.Club Episodes to Start With A podcast backed listening guide to DataTalks.Club episodes on data engineering fundamentals, tools, platforms, DataOps, careers, freelance work, streaming, Data Mesh, and governance.",
       "keyword": "data engineering podcast"
-    },
-    {
-      "id": "article:guide:data-engineering-training",
-      "type": "article",
-      "collection": "guide",
-      "label": "Data Engineering Training: Build Skills That Transfer to Real Team Work",
-      "title": "Data Engineering Training: Build Skills That Transfer to Real Team Work",
-      "url": "/guides/data-engineering-training/",
-      "count": 1,
-      "search": "Data Engineering Training: Build Skills That Transfer to Real Team Work A podcast backed guide to data engineering training for teams and learners: role fit, SQL and Python depth, practical labs, portfolio projects, feedback, internal enablement, and tool selection.",
-      "keyword": "data engineering training"
     },
     {
       "id": "article:guide:data-observability-for-data-engineering",
@@ -526,17 +427,6 @@
       "count": 1,
       "search": "ETL vs ELT A podcast grounded decision guide for choosing transform before load or load before transform pipelines in modern data stacks.",
       "keyword": "etl vs elt"
-    },
-    {
-      "id": "article:guide:free-data-engineering-course",
-      "type": "article",
-      "collection": "guide",
-      "label": "Free Data Engineering Course: What a No-Cost Path Must Include",
-      "title": "Free Data Engineering Course: What a No-Cost Path Must Include",
-      "url": "/guides/free-data-engineering-course/",
-      "count": 1,
-      "search": "Free Data Engineering Course: What a No Cost Path Must Include A podcast backed guide to choosing or building a free data engineering course with SQL, Python, cloud basics, orchestration, warehouses, hands on projects, portfolio evidence, and interview readiness.",
-      "keyword": "free data engineering course"
     },
     {
       "id": "article:guide:freelance-data-engineer",
@@ -10860,12 +10750,6 @@
     },
     {
       "source": "article:comparison:data-engineering-and-data-science",
-      "target": "article:guide:data-engineering-course",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:comparison:data-engineering-and-data-science",
       "target": "article:guide:data-scientist-to-data-engineer",
       "kind": "article-link",
       "weight": 2
@@ -14453,186 +14337,6 @@
       "weight": 2
     },
     {
-      "source": "article:guide:best-data-engineering-course",
-      "target": "article:guide:apache-airflow",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:best-data-engineering-course",
-      "target": "article:guide:data-engineering-bootcamp",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:best-data-engineering-course",
-      "target": "article:guide:data-engineering-course",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:best-data-engineering-course",
-      "target": "article:guide:data-engineering-courses",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:best-data-engineering-course",
-      "target": "person:adrianbrudaru",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:best-data-engineering-course",
-      "target": "person:gloriaquiceno",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:best-data-engineering-course",
-      "target": "person:jeffkatz",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:best-data-engineering-course",
-      "target": "person:nataliekwong",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:best-data-engineering-course",
-      "target": "podcast:data-engineering-career-path-and-skills",
-      "kind": "article-link",
-      "weight": 10
-    },
-    {
-      "source": "article:guide:best-data-engineering-course",
-      "target": "podcast:data-engineering-tools-modern-data-stack",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:best-data-engineering-course",
-      "target": "podcast:get-data-analytics-and-data-engineering-job",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:best-data-engineering-course",
-      "target": "podcast:get-data-engineering-job-prep-and-interview",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:best-data-engineering-course",
-      "target": "podcast:trends-in-modern-data-engineering",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:best-data-engineering-course",
-      "target": "wiki:cv-screening",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:best-data-engineering-course",
-      "target": "wiki:data-engineer-role",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:best-data-engineering-course",
-      "target": "wiki:data-engineer-role",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:best-data-engineering-course",
-      "target": "wiki:data-engineering",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:best-data-engineering-course",
-      "target": "wiki:data-engineering",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:best-data-engineering-course",
-      "target": "wiki:data-engineering-certification",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:best-data-engineering-course",
-      "target": "wiki:data-engineering-portfolio-projects",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:best-data-engineering-course",
-      "target": "wiki:data-engineering-portfolio-projects",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:best-data-engineering-course",
-      "target": "wiki:data-engineering-roadmap",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:best-data-engineering-course",
-      "target": "wiki:data-engineering-roadmap",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:best-data-engineering-course",
-      "target": "wiki:data-engineering-tools",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:best-data-engineering-course",
-      "target": "wiki:data-engineering-tools",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:best-data-engineering-course",
-      "target": "wiki:dbt",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:best-data-engineering-course",
-      "target": "wiki:job-descriptions",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:best-data-engineering-course",
-      "target": "wiki:job-search",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:best-data-engineering-course",
-      "target": "wiki:job-search",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:best-data-engineering-course",
-      "target": "wiki:modern-data-stack",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
       "source": "article:guide:data-analysis",
       "target": "article:comparison:data-analyst-vs-analytics-engineer",
       "kind": "article-wiki",
@@ -14895,186 +14599,6 @@
       "target": "wiki:tracking-plans",
       "kind": "article-link",
       "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-bootcamp",
-      "target": "article:guide:apache-airflow",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-bootcamp",
-      "target": "article:guide:data-engineer-course",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineer-bootcamp",
-      "target": "article:guide:data-engineer-courses",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineer-bootcamp",
-      "target": "article:guide:data-engineering-bootcamp",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineer-bootcamp",
-      "target": "person:adrianbrudaru",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-bootcamp",
-      "target": "person:gloriaquiceno",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:data-engineer-bootcamp",
-      "target": "person:jeffkatz",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineer-bootcamp",
-      "target": "person:slawomirtulski",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-bootcamp",
-      "target": "podcast:data-engineering-career-path-and-skills",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-bootcamp",
-      "target": "podcast:data-team-roles",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-bootcamp",
-      "target": "podcast:get-data-analytics-and-data-engineering-job",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:data-engineer-bootcamp",
-      "target": "podcast:get-data-engineering-job-prep-and-interview",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineer-bootcamp",
-      "target": "podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-bootcamp",
-      "target": "podcast:trends-in-modern-data-engineering",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-bootcamp",
-      "target": "wiki:data-engineer-role",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineer-bootcamp",
-      "target": "wiki:data-engineer-role",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineer-bootcamp",
-      "target": "wiki:data-engineering",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-bootcamp",
-      "target": "wiki:data-engineering-certification",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineer-bootcamp",
-      "target": "wiki:data-engineering-certification",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineer-bootcamp",
-      "target": "wiki:data-engineering-portfolio-projects",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineer-bootcamp",
-      "target": "wiki:data-engineering-portfolio-projects",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineer-bootcamp",
-      "target": "wiki:data-engineering-roadmap",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineer-bootcamp",
-      "target": "wiki:data-engineering-roadmap",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineer-bootcamp",
-      "target": "wiki:data-engineering-tools",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineer-bootcamp",
-      "target": "wiki:data-engineering-tools",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineer-bootcamp",
-      "target": "wiki:data-pipelines",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-bootcamp",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-bootcamp",
-      "target": "wiki:dbt",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-bootcamp",
-      "target": "wiki:job-search",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineer-bootcamp",
-      "target": "wiki:job-search",
-      "kind": "article-wiki",
-      "weight": 5
     },
     {
       "source": "article:guide:data-engineer-consultant",
@@ -15509,384 +15033,6 @@
       "weight": 5
     },
     {
-      "source": "article:guide:data-engineer-course",
-      "target": "article:guide:apache-airflow",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-course",
-      "target": "article:guide:best-data-engineering-course",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineer-course",
-      "target": "article:guide:data-engineering-bootcamp",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineer-course",
-      "target": "article:guide:data-engineering-course",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineer-course",
-      "target": "article:roadmap:data-engineer-roadmap",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-course",
-      "target": "person:adrianbrudaru",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-course",
-      "target": "person:gloriaquiceno",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-course",
-      "target": "person:jeffkatz",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-course",
-      "target": "person:nataliekwong",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-course",
-      "target": "podcast:data-engineering-career-path-and-skills",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineer-course",
-      "target": "podcast:data-engineering-tools-modern-data-stack",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-course",
-      "target": "podcast:get-data-analytics-and-data-engineering-job",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-course",
-      "target": "podcast:get-data-engineering-job-prep-and-interview",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineer-course",
-      "target": "podcast:trends-in-modern-data-engineering",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-course",
-      "target": "wiki:cv-screening",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-course",
-      "target": "wiki:data-engineer-role",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineer-course",
-      "target": "wiki:data-engineer-role",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineer-course",
-      "target": "wiki:data-engineering-portfolio-projects",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineer-course",
-      "target": "wiki:data-engineering-portfolio-projects",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineer-course",
-      "target": "wiki:data-engineering-roadmap",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineer-course",
-      "target": "wiki:data-engineering-roadmap",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineer-course",
-      "target": "wiki:data-engineering-tools",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineer-course",
-      "target": "wiki:data-engineering-tools",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineer-course",
-      "target": "wiki:data-pipelines",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-course",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-course",
-      "target": "wiki:data-warehouse-vs-data-lakehouse",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-course",
-      "target": "wiki:dbt",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-course",
-      "target": "wiki:job-search",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineer-course",
-      "target": "wiki:job-search",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineer-course",
-      "target": "wiki:modern-data-stack",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineer-courses",
-      "target": "article:guide:apache-airflow",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-courses",
-      "target": "article:guide:data-engineer-course",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineer-courses",
-      "target": "article:guide:data-engineering-bootcamp",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineer-courses",
-      "target": "article:guide:data-engineering-course",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-courses",
-      "target": "article:guide:data-engineering-courses",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-courses",
-      "target": "person:adrianbrudaru",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-courses",
-      "target": "person:gloriaquiceno",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-courses",
-      "target": "person:jeffkatz",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-courses",
-      "target": "person:nataliekwong",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-courses",
-      "target": "person:slawomirtulski",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-courses",
-      "target": "podcast:data-engineering-career-path-and-skills",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:data-engineer-courses",
-      "target": "podcast:data-engineering-tools-modern-data-stack",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-courses",
-      "target": "podcast:get-data-analytics-and-data-engineering-job",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-courses",
-      "target": "podcast:get-data-engineering-job-prep-and-interview",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineer-courses",
-      "target": "podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-courses",
-      "target": "podcast:trends-in-modern-data-engineering",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-courses",
-      "target": "wiki:analytics-engineering",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-courses",
-      "target": "wiki:cv-screening",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-courses",
-      "target": "wiki:data-engineer-role",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-courses",
-      "target": "wiki:data-engineer-role",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineer-courses",
-      "target": "wiki:data-engineering",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-courses",
-      "target": "wiki:data-engineering-certification",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineer-courses",
-      "target": "wiki:data-engineering-portfolio-projects",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineer-courses",
-      "target": "wiki:data-engineering-portfolio-projects",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineer-courses",
-      "target": "wiki:data-engineering-roadmap",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineer-courses",
-      "target": "wiki:data-engineering-roadmap",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineer-courses",
-      "target": "wiki:data-engineering-tools",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-courses",
-      "target": "wiki:data-engineering-tools",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineer-courses",
-      "target": "wiki:dbt",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-courses",
-      "target": "wiki:job-descriptions",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-courses",
-      "target": "wiki:job-search",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineer-courses",
-      "target": "wiki:job-search",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineer-courses",
-      "target": "wiki:modern-data-stack",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
       "source": "article:guide:data-engineer-manager",
       "target": "article:guide:data-engineering-manager",
       "kind": "article-link",
@@ -16105,438 +15251,6 @@
     {
       "source": "article:guide:data-engineer-manager",
       "target": "wiki:leadership",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineer-training",
-      "target": "article:guide:apache-airflow",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-training",
-      "target": "article:guide:best-data-engineering-course",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-training",
-      "target": "article:guide:data-engineer-bootcamp",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineer-training",
-      "target": "article:guide:data-engineer-course",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineer-training",
-      "target": "article:guide:data-engineering-course",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineer-training",
-      "target": "person:adrianbrudaru",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-training",
-      "target": "person:christopherbergh",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-training",
-      "target": "person:ellenkonig",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-training",
-      "target": "person:gloriaquiceno",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-training",
-      "target": "person:jeffkatz",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineer-training",
-      "target": "person:nataliekwong",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-training",
-      "target": "podcast:data-engineering-career-path-and-skills",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:data-engineer-training",
-      "target": "podcast:data-engineering-tools-modern-data-stack",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-training",
-      "target": "podcast:dataops-for-data-engineering",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-training",
-      "target": "podcast:from-software-engineering-data-science-to-data-engineering-leadership",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-training",
-      "target": "podcast:get-data-analytics-and-data-engineering-job",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-training",
-      "target": "podcast:get-data-engineering-job-prep-and-interview",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineer-training",
-      "target": "podcast:trends-in-modern-data-engineering",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-training",
-      "target": "wiki:cv-screening",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-training",
-      "target": "wiki:data-engineer-role",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineer-training",
-      "target": "wiki:data-engineer-role",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineer-training",
-      "target": "wiki:data-engineering",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-training",
-      "target": "wiki:data-engineering",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineer-training",
-      "target": "wiki:data-engineering-platforms",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-training",
-      "target": "wiki:data-engineering-portfolio-projects",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineer-training",
-      "target": "wiki:data-engineering-portfolio-projects",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineer-training",
-      "target": "wiki:data-engineering-roadmap",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineer-training",
-      "target": "wiki:data-engineering-roadmap",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineer-training",
-      "target": "wiki:data-engineering-tools",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineer-training",
-      "target": "wiki:data-observability",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-training",
-      "target": "wiki:data-pipelines",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-training",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-training",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineer-training",
-      "target": "wiki:data-warehouse-vs-data-lakehouse",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-training",
-      "target": "wiki:dataops",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-training",
-      "target": "wiki:dbt",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-training",
-      "target": "wiki:job-descriptions",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-training",
-      "target": "wiki:job-search",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineer-training",
-      "target": "wiki:job-search",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineer-training",
-      "target": "wiki:modern-data-stack",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineer-training",
-      "target": "wiki:software-engineering",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-bootcamp",
-      "target": "article:guide:apache-airflow",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-bootcamp",
-      "target": "article:guide:best-data-engineering-course",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-bootcamp",
-      "target": "article:guide:free-data-engineering-course",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-bootcamp",
-      "target": "person:adrianbrudaru",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-bootcamp",
-      "target": "person:gloriaquiceno",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-bootcamp",
-      "target": "person:jeffkatz",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-bootcamp",
-      "target": "person:nataliekwong",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-bootcamp",
-      "target": "podcast:data-engineering-career-path-and-skills",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-bootcamp",
-      "target": "podcast:data-engineering-tools-modern-data-stack",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-bootcamp",
-      "target": "podcast:get-data-analytics-and-data-engineering-job",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-bootcamp",
-      "target": "podcast:get-data-engineering-job-prep-and-interview",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-bootcamp",
-      "target": "podcast:trends-in-modern-data-engineering",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-bootcamp",
-      "target": "wiki:cv-screening",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-bootcamp",
-      "target": "wiki:data-engineer-role",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-bootcamp",
-      "target": "wiki:data-engineer-role",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-bootcamp",
-      "target": "wiki:data-engineering",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-bootcamp",
-      "target": "wiki:data-engineering-platforms",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-bootcamp",
-      "target": "wiki:data-engineering-platforms",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-bootcamp",
-      "target": "wiki:data-engineering-portfolio-projects",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-bootcamp",
-      "target": "wiki:data-engineering-portfolio-projects",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-bootcamp",
-      "target": "wiki:data-engineering-roadmap",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-bootcamp",
-      "target": "wiki:data-engineering-roadmap",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-bootcamp",
-      "target": "wiki:data-engineering-tools",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-bootcamp",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-bootcamp",
-      "target": "wiki:dataops",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-bootcamp",
-      "target": "wiki:documentation",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-bootcamp",
-      "target": "wiki:job-descriptions",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-bootcamp",
-      "target": "wiki:job-search",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-bootcamp",
-      "target": "wiki:job-search",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-bootcamp",
-      "target": "wiki:modern-data-stack",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:data-engineering-bootcamp",
-      "target": "wiki:modern-data-stack",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -16971,372 +15685,6 @@
       "target": "wiki:self-service-data-platforms",
       "kind": "article-link",
       "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-course",
-      "target": "article:guide:apache-airflow",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-course",
-      "target": "article:guide:data-engineer-courses",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-course",
-      "target": "article:guide:data-engineering-bootcamp",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-course",
-      "target": "person:adrianbrudaru",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-course",
-      "target": "person:gloriaquiceno",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-course",
-      "target": "person:jeffkatz",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-course",
-      "target": "person:nataliekwong",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-course",
-      "target": "podcast:data-engineering-career-path-and-skills",
-      "kind": "article-link",
-      "weight": 8
-    },
-    {
-      "source": "article:guide:data-engineering-course",
-      "target": "podcast:data-engineering-tools-modern-data-stack",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-course",
-      "target": "podcast:get-data-analytics-and-data-engineering-job",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-course",
-      "target": "podcast:get-data-engineering-job-prep-and-interview",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-course",
-      "target": "podcast:trends-in-modern-data-engineering",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-course",
-      "target": "wiki:analytics-engineering",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-course",
-      "target": "wiki:data-engineer-role",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-course",
-      "target": "wiki:data-engineer-role",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-course",
-      "target": "wiki:data-engineering-certification",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-course",
-      "target": "wiki:data-engineering-portfolio-projects",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-course",
-      "target": "wiki:data-engineering-portfolio-projects",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-course",
-      "target": "wiki:data-engineering-roadmap",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-course",
-      "target": "wiki:data-engineering-roadmap",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-course",
-      "target": "wiki:data-engineering-tools",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:data-engineering-course",
-      "target": "wiki:data-engineering-tools",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-course",
-      "target": "wiki:data-pipelines",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-course",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-course",
-      "target": "wiki:data-warehouse-vs-data-lakehouse",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-course",
-      "target": "wiki:dbt",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-course",
-      "target": "wiki:job-search",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-course",
-      "target": "wiki:job-search",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-course",
-      "target": "wiki:modern-data-stack",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-course",
-      "target": "wiki:modern-data-stack",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-courses",
-      "target": "article:guide:apache-airflow",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-courses",
-      "target": "article:guide:best-data-engineering-course",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-courses",
-      "target": "article:guide:data-engineer-course",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-courses",
-      "target": "article:guide:data-engineering-bootcamp",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-courses",
-      "target": "article:guide:data-engineering-course",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-courses",
-      "target": "article:guide:free-data-engineering-course",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-courses",
-      "target": "person:adrianbrudaru",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-courses",
-      "target": "person:gloriaquiceno",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-courses",
-      "target": "person:jeffkatz",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-courses",
-      "target": "person:nataliekwong",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-courses",
-      "target": "podcast:data-engineering-career-path-and-skills",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-courses",
-      "target": "podcast:data-engineering-tools-modern-data-stack",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-courses",
-      "target": "podcast:get-data-analytics-and-data-engineering-job",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-courses",
-      "target": "podcast:get-data-engineering-job-prep-and-interview",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:data-engineering-courses",
-      "target": "podcast:trends-in-modern-data-engineering",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-courses",
-      "target": "wiki:analytics-engineering",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-courses",
-      "target": "wiki:cv-screening",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-courses",
-      "target": "wiki:data-engineer-role",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-courses",
-      "target": "wiki:data-engineer-role",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-courses",
-      "target": "wiki:data-engineering-certification",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-courses",
-      "target": "wiki:data-engineering-portfolio-projects",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:data-engineering-courses",
-      "target": "wiki:data-engineering-portfolio-projects",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-courses",
-      "target": "wiki:data-engineering-roadmap",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-courses",
-      "target": "wiki:data-engineering-roadmap",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-courses",
-      "target": "wiki:data-engineering-tools",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-courses",
-      "target": "wiki:data-engineering-tools",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-courses",
-      "target": "wiki:dataops",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-courses",
-      "target": "wiki:job-search",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-courses",
-      "target": "wiki:job-search",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-courses",
-      "target": "wiki:modern-data-stack",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-courses",
-      "target": "wiki:modern-data-stack",
-      "kind": "article-wiki",
-      "weight": 5
     },
     {
       "source": "article:guide:data-engineering-freelance",
@@ -17778,12 +16126,6 @@
     },
     {
       "source": "article:guide:data-engineering-pipeline-project",
-      "target": "article:guide:data-engineer-course",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-pipeline-project",
       "target": "article:guide:data-observability-for-data-engineering",
       "kind": "article-link",
       "weight": 2
@@ -18031,18 +16373,6 @@
     {
       "source": "article:guide:data-engineering-podcast",
       "target": "article:guide:data-engineer-consultant",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-podcast",
-      "target": "article:guide:data-engineering-bootcamp",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-podcast",
-      "target": "article:guide:data-engineering-courses",
       "kind": "article-link",
       "weight": 2
     },
@@ -18471,162 +16801,6 @@
       "target": "wiki:streaming",
       "kind": "article-link",
       "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-training",
-      "target": "article:guide:data-engineering-bootcamp",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-training",
-      "target": "article:guide:data-engineering-course",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-training",
-      "target": "article:guide:data-engineering-pipeline-project",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-training",
-      "target": "person:adrianbrudaru",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-training",
-      "target": "person:jeffkatz",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-training",
-      "target": "person:nicolasrassam",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-training",
-      "target": "person:slawomirtulski",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-training",
-      "target": "podcast:data-engineering-career-path-and-skills",
-      "kind": "article-link",
-      "weight": 10
-    },
-    {
-      "source": "article:guide:data-engineering-training",
-      "target": "podcast:datatalksclub-scaling-and-free-courses",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-training",
-      "target": "podcast:get-data-engineering-job-prep-and-interview",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-training",
-      "target": "podcast:hiring-for-data-engineering-jobs-in-europe",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-training",
-      "target": "podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-training",
-      "target": "podcast:trends-in-modern-data-engineering",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-training",
-      "target": "wiki:analytics-engineering",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-training",
-      "target": "wiki:data-engineer-role",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-training",
-      "target": "wiki:data-engineer-role",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-training",
-      "target": "wiki:data-engineering",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-training",
-      "target": "wiki:data-engineering",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-training",
-      "target": "wiki:data-engineering-portfolio-projects",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-training",
-      "target": "wiki:data-engineering-portfolio-projects",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-training",
-      "target": "wiki:data-engineering-roadmap",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-training",
-      "target": "wiki:data-engineering-roadmap",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-training",
-      "target": "wiki:data-engineering-tools",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-training",
-      "target": "wiki:data-engineering-tools",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-training",
-      "target": "wiki:job-search",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-training",
-      "target": "wiki:job-search",
-      "kind": "article-wiki",
-      "weight": 5
     },
     {
       "source": "article:guide:data-observability-for-data-engineering",
@@ -20280,12 +18454,6 @@
     },
     {
       "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "article:guide:data-engineering-course",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
       "target": "article:guide:data-engineering-pipeline-project",
       "kind": "article-link",
       "weight": 4
@@ -20486,7 +18654,7 @@
       "source": "article:guide:data-scientist-to-data-engineer",
       "target": "wiki:data-engineering-portfolio-projects",
       "kind": "article-link",
-      "weight": 8
+      "weight": 10
     },
     {
       "source": "article:guide:data-scientist-to-data-engineer",
@@ -20498,7 +18666,7 @@
       "source": "article:guide:data-scientist-to-data-engineer",
       "target": "wiki:data-engineering-roadmap",
       "kind": "article-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "article:guide:data-scientist-to-data-engineer",
@@ -21059,186 +19227,6 @@
       "weight": 5
     },
     {
-      "source": "article:guide:free-data-engineering-course",
-      "target": "article:guide:airflow",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:free-data-engineering-course",
-      "target": "article:guide:best-data-engineering-course",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:free-data-engineering-course",
-      "target": "article:guide:data-engineer-course",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:free-data-engineering-course",
-      "target": "article:guide:data-engineering-bootcamp",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:free-data-engineering-course",
-      "target": "article:guide:data-engineering-course",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:free-data-engineering-course",
-      "target": "person:adrianbrudaru",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:free-data-engineering-course",
-      "target": "person:gloriaquiceno",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:free-data-engineering-course",
-      "target": "person:jeffkatz",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:free-data-engineering-course",
-      "target": "person:nataliekwong",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:free-data-engineering-course",
-      "target": "podcast:data-engineering-career-path-and-skills",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:free-data-engineering-course",
-      "target": "podcast:data-engineering-tools-modern-data-stack",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:free-data-engineering-course",
-      "target": "podcast:get-data-analytics-and-data-engineering-job",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:free-data-engineering-course",
-      "target": "podcast:get-data-engineering-job-prep-and-interview",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:free-data-engineering-course",
-      "target": "podcast:trends-in-modern-data-engineering",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:free-data-engineering-course",
-      "target": "wiki:data-engineer-role",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:free-data-engineering-course",
-      "target": "wiki:data-engineer-role",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:free-data-engineering-course",
-      "target": "wiki:data-engineering-portfolio-projects",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:free-data-engineering-course",
-      "target": "wiki:data-engineering-portfolio-projects",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:free-data-engineering-course",
-      "target": "wiki:data-engineering-roadmap",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:free-data-engineering-course",
-      "target": "wiki:data-engineering-roadmap",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:free-data-engineering-course",
-      "target": "wiki:data-engineering-tools",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:free-data-engineering-course",
-      "target": "wiki:data-engineering-tools",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:free-data-engineering-course",
-      "target": "wiki:dbt",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:free-data-engineering-course",
-      "target": "wiki:elt",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:free-data-engineering-course",
-      "target": "wiki:etl",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:free-data-engineering-course",
-      "target": "wiki:job-descriptions",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:free-data-engineering-course",
-      "target": "wiki:job-search",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:free-data-engineering-course",
-      "target": "wiki:job-search",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:free-data-engineering-course",
-      "target": "wiki:modern-data-stack",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:free-data-engineering-course",
-      "target": "wiki:modern-data-stack",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
       "source": "article:guide:freelance-data-engineer",
       "target": "article:guide:apache-airflow",
       "kind": "article-link",
@@ -21417,18 +19405,6 @@
       "target": "article:guide:apache-airflow",
       "kind": "article-link",
       "weight": 4
-    },
-    {
-      "source": "article:guide:fundamentals-of-data-engineering",
-      "target": "article:guide:best-data-engineering-course",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:fundamentals-of-data-engineering",
-      "target": "article:guide:data-engineering-course",
-      "kind": "article-link",
-      "weight": 2
     },
     {
       "source": "article:guide:fundamentals-of-data-engineering",
@@ -26559,12 +24535,6 @@
       "target": "wiki:product-analytics",
       "kind": "article-wiki",
       "weight": 5
-    },
-    {
-      "source": "article:roadmap:how-to-become-a-data-engineer-with-no-experience",
-      "target": "article:guide:data-engineering-bootcamp",
-      "kind": "article-link",
-      "weight": 2
     },
     {
       "source": "article:roadmap:how-to-become-a-data-engineer-with-no-experience",
@@ -48870,18 +46840,6 @@
     },
     {
       "source": "wiki:community",
-      "target": "article:guide:best-data-engineering-course",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:community",
-      "target": "article:guide:free-data-engineering-course",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:community",
       "target": "person:daniameira",
       "kind": "wiki-link",
       "weight": 2
@@ -49002,6 +46960,12 @@
     },
     {
       "source": "wiki:community",
+      "target": "wiki:data-engineering-roadmap",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:community",
       "target": "wiki:data-science",
       "kind": "wiki-link",
       "weight": 2
@@ -49057,18 +47021,6 @@
     {
       "source": "wiki:community",
       "target": "wiki:technical-writing",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:community-building",
-      "target": "article:guide:data-engineering-course",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:community-building",
-      "target": "article:guide:data-engineering-training",
       "kind": "wiki-link",
       "weight": 4
     },
@@ -49161,6 +47113,12 @@
       "target": "wiki:data-engineering",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:community-building",
+      "target": "wiki:data-engineering-roadmap",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:community-building",
@@ -51318,12 +49276,6 @@
     },
     {
       "source": "wiki:data-engineer-role",
-      "target": "article:guide:data-engineering-training",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-engineer-role",
       "target": "person:16rahuljain",
       "kind": "wiki-link",
       "weight": 2
@@ -51482,7 +49434,7 @@
       "source": "wiki:data-engineer-role",
       "target": "wiki:data-engineering-roadmap",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "wiki:data-engineer-role",
@@ -52146,48 +50098,6 @@
     },
     {
       "source": "wiki:data-engineering-certification",
-      "target": "article:guide:data-engineer-bootcamp",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-engineering-certification",
-      "target": "article:guide:data-engineer-course",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-engineering-certification",
-      "target": "article:guide:data-engineer-courses",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-engineering-certification",
-      "target": "article:guide:data-engineer-training",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-engineering-certification",
-      "target": "article:guide:data-engineering-bootcamp",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:data-engineering-certification",
-      "target": "article:guide:data-engineering-course",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-engineering-certification",
-      "target": "article:guide:free-data-engineering-course",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-engineering-certification",
       "target": "person:adrianbrudaru",
       "kind": "wiki-link",
       "weight": 2
@@ -52298,7 +50208,7 @@
       "source": "wiki:data-engineering-certification",
       "target": "wiki:data-engineering-roadmap",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 8
     },
     {
       "source": "wiki:data-engineering-certification",
@@ -53022,6 +50932,12 @@
     },
     {
       "source": "wiki:data-engineering-roadmap",
+      "target": "person:gloriaquiceno",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-engineering-roadmap",
       "target": "person:jeffkatz",
       "kind": "wiki-link",
       "weight": 4
@@ -53054,13 +50970,13 @@
       "source": "wiki:data-engineering-roadmap",
       "target": "podcast:data-engineering-career-path-and-skills",
       "kind": "wiki-link",
-      "weight": 14
+      "weight": 16
     },
     {
       "source": "wiki:data-engineering-roadmap",
       "target": "podcast:data-engineering-tools-modern-data-stack",
       "kind": "wiki-link",
-      "weight": 12
+      "weight": 14
     },
     {
       "source": "wiki:data-engineering-roadmap",
@@ -53076,15 +50992,27 @@
     },
     {
       "source": "wiki:data-engineering-roadmap",
+      "target": "podcast:datatalksclub-scaling-and-free-courses",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-engineering-roadmap",
+      "target": "podcast:get-data-analytics-and-data-engineering-job",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-engineering-roadmap",
       "target": "podcast:get-data-engineering-job-prep-and-interview",
       "kind": "wiki-link",
-      "weight": 10
+      "weight": 12
     },
     {
       "source": "wiki:data-engineering-roadmap",
       "target": "podcast:modern-data-pipelines-orchestration-ingestion-modeling",
       "kind": "wiki-link",
-      "weight": 12
+      "weight": 14
     },
     {
       "source": "wiki:data-engineering-roadmap",
@@ -53102,7 +51030,7 @@
       "source": "wiki:data-engineering-roadmap",
       "target": "podcast:trends-in-modern-data-engineering",
       "kind": "wiki-link",
-      "weight": 14
+      "weight": 16
     },
     {
       "source": "wiki:data-engineering-roadmap",
@@ -53142,6 +51070,18 @@
     },
     {
       "source": "wiki:data-engineering-roadmap",
+      "target": "wiki:data-engineering-certification",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-engineering-roadmap",
+      "target": "wiki:data-engineering-certification",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-engineering-roadmap",
       "target": "wiki:data-engineering-platforms",
       "kind": "wiki-link",
       "weight": 6
@@ -53156,7 +51096,7 @@
       "source": "wiki:data-engineering-roadmap",
       "target": "wiki:data-engineering-portfolio-projects",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "wiki:data-engineering-roadmap",

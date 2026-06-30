@@ -53,8 +53,8 @@ These keyword groups already have editorial coverage:
 
 | Group | Existing content | Covered keyword variants |
 |---|---|---|
-| Data engineering courses | `_guides/data-engineering-course.md`, `_guides/data-engineering-courses.md`, `_guides/best-data-engineering-course.md`, `_guides/free-data-engineering-course.md` | data engineering course, data engineering courses, best data engineering course, free data engineering course |
-| Data engineering bootcamps | `_guides/data-engineering-bootcamp.md`, `_guides/data-engineer-bootcamp.md` | data engineering bootcamp, data engineer bootcamp |
+| Data engineering courses | `_wiki/data-engineering-roadmap.md` | data engineering course, data engineering courses, best data engineering course, free data engineering course |
+| Data engineering bootcamps | `_wiki/data-engineering-roadmap.md` | data engineering bootcamp, data engineer bootcamp |
 | Data engineering roadmaps | `_roadmaps/data-engineer-roadmap.md` | data engineer roadmap |
 | Data pipeline projects | `_guides/data-engineering-pipeline-project.md`, `_how_tos/how-to-build-data-pipelines.md` | build data pipelines, data engineering pipeline project |
 | Data engineering consulting | `_guides/data-engineering-consulting.md`, `_guides/data-engineering-consultant.md`, `_guides/data-engineer-consulting.md`, `_guides/data-engineer-consultant.md` | data engineering consulting, data engineering consultant, data engineer consulting |
@@ -131,6 +131,12 @@ main DataTalks.Club site owns those course queries.
 14. `_wiki/founder.md`
 15. `_wiki/entrepreneurship.md`
 16. `_guides/machine-learning-for-startups.md`
+
+The duplicate data engineering course, courses, bootcamp, and training guide
+variants were later removed. Their useful guidance belongs in
+`_wiki/data-engineering-roadmap.md`, with roadmap-specific intents still covered
+by `_roadmaps/data-engineer-roadmap.md` and
+`_roadmaps/how-to-become-a-data-engineer-with-no-experience.md`.
 
 ## Next Content Step
 

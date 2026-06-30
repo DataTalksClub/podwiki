@@ -218,8 +218,6 @@ For written guides, use these pages:
 - [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
 - [Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }})
 - [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
-- [Data Engineering Bootcamp]({{ '/guides/data-engineering-bootcamp/' | relative_url }})
-- [Data Engineering Courses]({{ '/guides/data-engineering-courses/' | relative_url }})
 
 ## Freelance and Consulting
 

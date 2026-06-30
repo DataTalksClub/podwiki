@@ -344,10 +344,6 @@ For a structured path, use
 [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
 and
 [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }}).
-For course selection, use
-[Data Engineering Course]({{ '/guides/data-engineering-course/' | relative_url }})
-and
-[Best Data Engineering Course]({{ '/guides/best-data-engineering-course/' | relative_url }}).
 
 ## Next Pages
 
