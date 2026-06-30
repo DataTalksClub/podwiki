@@ -7,7 +7,7 @@
     "persons": 438,
     "topics": 146,
     "nodes": 1020,
-    "links": 9342
+    "links": 9458
   },
   "nodes": [
     {
@@ -7108,11 +7108,11 @@
     {
       "id": "topic:freelance",
       "type": "topic",
-      "label": "freelance",
-      "title": "freelance",
+      "label": "Freelance",
+      "title": "Freelance",
       "url": "/wiki/",
-      "count": 11,
-      "search": "freelance"
+      "count": 20,
+      "search": "Freelance"
     },
     {
       "id": "topic:fundraising",
@@ -8444,7 +8444,7 @@
       "title": "Entrepreneurship",
       "url": "/wiki/entrepreneurship/",
       "count": 1,
-      "search": "Entrepreneurship Stub topic page for podcast archive links about Entrepreneurship."
+      "search": "Entrepreneurship Podcast backed notes on entrepreneurship in data, AI, open source tooling, and consulting."
     },
     {
       "id": "wiki:etl",
@@ -8453,7 +8453,7 @@
       "title": "ETL",
       "url": "/wiki/etl/",
       "count": 1,
-      "search": "ETL Stub topic page for podcast archive links about ETL."
+      "search": "ETL Podcast grounded guide to extract transform load pipelines, ETL fit, staging, data quality, lineage, and modern platform work."
     },
     {
       "id": "wiki:etl-vs-elt",
@@ -8489,7 +8489,7 @@
       "title": "Evolutionary Algorithms",
       "url": "/wiki/evolutionary-algorithms/",
       "count": 1,
-      "search": "Evolutionary Algorithms Stub topic page for podcast archive links about Evolutionary Algorithms."
+      "search": "Evolutionary Algorithms How DataTalks.Club podcast discussions connect evolutionary algorithms to game AI, evolutionary deep learning, prompt search, optimization, and modern agent systems."
     },
     {
       "id": "wiki:experiment-tracking",
@@ -8525,16 +8525,16 @@
       "title": "Founder",
       "url": "/wiki/founder/",
       "count": 1,
-      "search": "Founder Stub topic page for podcast archive links about Founder."
+      "search": "Founder How DataTalks.Club podcast guests describe the founder role in data, AI, MLOps, open source, consulting, and digital health startups."
     },
     {
       "id": "wiki:freelance",
       "type": "wiki",
-      "label": "Freelance",
-      "title": "Freelance",
+      "label": "Freelance Data and AI Work",
+      "title": "Freelance Data and AI Work",
       "url": "/wiki/freelance/",
       "count": 1,
-      "search": "Freelance Stub topic page for podcast archive links about Freelance."
+      "search": "Freelance Data and AI Work Archive backed guide to freelance data and AI work: finding clients, pricing, scoping, agencies, direct clients, productized consulting, and career transitions."
     },
     {
       "id": "wiki:generative-ai",
@@ -10640,6 +10640,12 @@
     },
     {
       "source": "article:data-engineer-consultant",
+      "target": "topic:freelance",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineer-consultant",
       "target": "wiki:business-skills-for-data-professionals",
       "kind": "article-link",
       "weight": 2
@@ -10743,12 +10749,6 @@
     {
       "source": "article:data-engineer-consultant",
       "target": "wiki:dataops",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:data-engineer-consultant",
-      "target": "wiki:freelance",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -13142,6 +13142,12 @@
     },
     {
       "source": "article:data-engineering-consultant",
+      "target": "topic:freelance",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-consultant",
       "target": "wiki:career-transitions-in-data",
       "kind": "article-link",
       "weight": 2
@@ -13235,12 +13241,6 @@
       "target": "wiki:freelance",
       "kind": "article-link",
       "weight": 2
-    },
-    {
-      "source": "article:data-engineering-consultant",
-      "target": "wiki:freelance",
-      "kind": "article-wiki",
-      "weight": 5
     },
     {
       "source": "article:data-engineering-consultant",
@@ -13370,6 +13370,12 @@
     },
     {
       "source": "article:data-engineering-consulting",
+      "target": "topic:freelance",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-consulting",
       "target": "wiki:data-engineering",
       "kind": "article-link",
       "weight": 2
@@ -13445,12 +13451,6 @@
       "target": "wiki:freelance",
       "kind": "article-link",
       "weight": 2
-    },
-    {
-      "source": "article:data-engineering-consulting",
-      "target": "wiki:freelance",
-      "kind": "article-wiki",
-      "weight": 5
     },
     {
       "source": "article:data-engineering-consulting",
@@ -13952,6 +13952,12 @@
     },
     {
       "source": "article:data-engineering-freelance",
+      "target": "topic:freelance",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-freelance",
       "target": "wiki:analytics-engineering",
       "kind": "article-link",
       "weight": 2
@@ -14021,12 +14027,6 @@
       "target": "wiki:freelance",
       "kind": "article-link",
       "weight": 2
-    },
-    {
-      "source": "article:data-engineering-freelance",
-      "target": "wiki:freelance",
-      "kind": "article-wiki",
-      "weight": 5
     },
     {
       "source": "article:data-engineering-freelance",
@@ -14810,6 +14810,12 @@
     },
     {
       "source": "article:data-engineering-podcast",
+      "target": "topic:freelance",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-podcast",
       "target": "wiki:batch-vs-streaming",
       "kind": "article-link",
       "weight": 4
@@ -14939,12 +14945,6 @@
       "target": "wiki:freelance",
       "kind": "article-link",
       "weight": 2
-    },
-    {
-      "source": "article:data-engineering-podcast",
-      "target": "wiki:freelance",
-      "kind": "article-wiki",
-      "weight": 5
     },
     {
       "source": "article:data-engineering-podcast",
@@ -17552,6 +17552,12 @@
     },
     {
       "source": "article:freelance-data-engineer",
+      "target": "topic:freelance",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:freelance-data-engineer",
       "target": "wiki:analytics-engineering",
       "kind": "article-link",
       "weight": 2
@@ -17609,12 +17615,6 @@
       "target": "wiki:data-engineering-roadmap",
       "kind": "article-link",
       "weight": 2
-    },
-    {
-      "source": "article:freelance-data-engineer",
-      "target": "wiki:freelance",
-      "kind": "article-wiki",
-      "weight": 5
     },
     {
       "source": "article:freelance-data-engineer",
@@ -22520,6 +22520,12 @@
     },
     {
       "source": "article:solopreneur-data-scientist",
+      "target": "topic:freelance",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:solopreneur-data-scientist",
       "target": "wiki:entrepreneurship",
       "kind": "article-link",
       "weight": 6
@@ -22535,12 +22541,6 @@
       "target": "wiki:freelance",
       "kind": "article-link",
       "weight": 4
-    },
-    {
-      "source": "article:solopreneur-data-scientist",
-      "target": "wiki:freelance",
-      "kind": "article-wiki",
-      "weight": 5
     },
     {
       "source": "article:solopreneur-data-scientist",
@@ -53378,9 +53378,105 @@
     },
     {
       "source": "wiki:entrepreneurship",
-      "target": "wiki:career-transitions-in-data",
+      "target": "article:data-engineering-freelance",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:entrepreneurship",
+      "target": "article:machine-learning-for-startups",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:entrepreneurship",
+      "target": "person:adrianbrudaru",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:entrepreneurship",
+      "target": "person:aleksanderkruszelnicki",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:entrepreneurship",
+      "target": "person:carminepaolino",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:entrepreneurship",
+      "target": "person:elenasamuylova",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:entrepreneurship",
+      "target": "person:mariabruckert",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:entrepreneurship",
+      "target": "person:nemanjaradojkovic",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:entrepreneurship",
+      "target": "person:sonalgoyal",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:entrepreneurship",
+      "target": "podcast:building-ai-digital-health-startups",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:entrepreneurship",
+      "target": "podcast:building-mlops-startup",
+      "kind": "wiki-link",
+      "weight": 10
+    },
+    {
+      "source": "wiki:entrepreneurship",
+      "target": "podcast:building-open-source-data-product-for-identity-resolution",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:entrepreneurship",
+      "target": "podcast:data-consulting-business-pricing-and-client-acquisition",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:entrepreneurship",
+      "target": "podcast:from-data-freelancer-to-startup-open-source-products",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:entrepreneurship",
+      "target": "podcast:launch-and-build-retail-startup",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:entrepreneurship",
+      "target": "podcast:lean-mlops-for-startups",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:entrepreneurship",
+      "target": "topic:freelance",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:entrepreneurship",
@@ -53389,6 +53485,132 @@
       "weight": 3
     },
     {
+      "source": "wiki:entrepreneurship",
+      "target": "wiki:data-product-management",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:entrepreneurship",
+      "target": "wiki:data-product-management",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:entrepreneurship",
+      "target": "wiki:data-strategy",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:entrepreneurship",
+      "target": "wiki:data-strategy",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:entrepreneurship",
+      "target": "wiki:freelance",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:entrepreneurship",
+      "target": "wiki:machine-learning",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:entrepreneurship",
+      "target": "wiki:machine-learning",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:entrepreneurship",
+      "target": "wiki:mlops",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:entrepreneurship",
+      "target": "wiki:mlops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:entrepreneurship",
+      "target": "wiki:model-monitoring",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:entrepreneurship",
+      "target": "wiki:open-source",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:etl",
+      "target": "person:16rahuljain",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:etl",
+      "target": "person:jeffkatz",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:etl",
+      "target": "person:larsalbertsson",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:etl",
+      "target": "person:nataliekwong",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:etl",
+      "target": "person:santonatuli",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:etl",
+      "target": "podcast:data-engineering-leadership-and-modern-data-platforms",
+      "kind": "wiki-link",
+      "weight": 14
+    },
+    {
+      "source": "wiki:etl",
+      "target": "podcast:data-engineering-tools-modern-data-stack",
+      "kind": "wiki-link",
+      "weight": 14
+    },
+    {
+      "source": "wiki:etl",
+      "target": "podcast:dataops-principles-and-scalable-data-platforms",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:etl",
+      "target": "podcast:get-data-engineering-job-prep-and-interview",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:etl",
+      "target": "podcast:modern-data-pipelines-orchestration-ingestion-modeling",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
       "source": "wiki:etl",
       "target": "wiki:data-engineering-platforms",
       "kind": "wiki-link",
@@ -53397,6 +53619,78 @@
     {
       "source": "wiki:etl",
       "target": "wiki:data-engineering-platforms",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:etl",
+      "target": "wiki:data-pipelines",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:etl",
+      "target": "wiki:data-pipelines",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:etl",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:etl",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:etl",
+      "target": "wiki:dataops",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:etl",
+      "target": "wiki:dataops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:etl",
+      "target": "wiki:elt",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:etl",
+      "target": "wiki:elt",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:etl",
+      "target": "wiki:etl-vs-elt",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:etl",
+      "target": "wiki:etl-vs-elt",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:etl",
+      "target": "wiki:reverse-etl",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:etl",
+      "target": "wiki:reverse-etl",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -54008,13 +54302,115 @@
     },
     {
       "source": "wiki:evolutionary-algorithms",
-      "target": "wiki:machine-learning-system-design",
+      "target": "person:danbecker",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:evolutionary-algorithms",
-      "target": "wiki:machine-learning-system-design",
+      "target": "person:micheallanham",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:evolutionary-algorithms",
+      "target": "podcast:from-game-ai-to-modern-ai-agents",
+      "kind": "wiki-link",
+      "weight": 24
+    },
+    {
+      "source": "wiki:evolutionary-algorithms",
+      "target": "podcast:machine-learning-decision-optimization",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:evolutionary-algorithms",
+      "target": "wiki:agent-engineering",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:evolutionary-algorithms",
+      "target": "wiki:agent-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:evolutionary-algorithms",
+      "target": "wiki:ai-agents",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:evolutionary-algorithms",
+      "target": "wiki:ai-agents",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:evolutionary-algorithms",
+      "target": "wiki:deep-learning",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:evolutionary-algorithms",
+      "target": "wiki:deep-learning",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:evolutionary-algorithms",
+      "target": "wiki:evaluation",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:evolutionary-algorithms",
+      "target": "wiki:evaluation",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:evolutionary-algorithms",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:evolutionary-algorithms",
+      "target": "wiki:llm-production-patterns",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:evolutionary-algorithms",
+      "target": "wiki:machine-learning",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:evolutionary-algorithms",
+      "target": "wiki:machine-learning",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:evolutionary-algorithms",
+      "target": "wiki:multi-agent-systems",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:evolutionary-algorithms",
+      "target": "wiki:reinforcement-learning",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:evolutionary-algorithms",
+      "target": "wiki:reinforcement-learning",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -54572,13 +54968,283 @@
     },
     {
       "source": "wiki:founder",
-      "target": "wiki:career-transitions-in-data",
+      "target": "article:data-engineer-consulting",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:founder",
-      "target": "wiki:career-transitions-in-data",
+      "target": "article:machine-learning-for-startups",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:founder",
+      "target": "person:adrianbrudaru",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:founder",
+      "target": "person:aleksanderkruszelnicki",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:founder",
+      "target": "person:elenasamuylova",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:founder",
+      "target": "person:mariabruckert",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:founder",
+      "target": "person:sonalgoyal",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:founder",
+      "target": "podcast:building-ai-digital-health-startups",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:founder",
+      "target": "podcast:building-mlops-startup",
+      "kind": "wiki-link",
+      "weight": 14
+    },
+    {
+      "source": "wiki:founder",
+      "target": "podcast:building-open-source-data-product-for-identity-resolution",
+      "kind": "wiki-link",
+      "weight": 10
+    },
+    {
+      "source": "wiki:founder",
+      "target": "podcast:data-consulting-business-pricing-and-client-acquisition",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:founder",
+      "target": "podcast:from-data-freelancer-to-startup-open-source-products",
+      "kind": "wiki-link",
+      "weight": 10
+    },
+    {
+      "source": "wiki:founder",
+      "target": "wiki:data-product-management",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:founder",
+      "target": "wiki:data-product-management",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:founder",
+      "target": "wiki:developer-relations",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:founder",
+      "target": "wiki:entrepreneurship",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:founder",
+      "target": "wiki:entrepreneurship",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:founder",
+      "target": "wiki:freelance",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:founder",
+      "target": "wiki:machine-learning",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:founder",
+      "target": "wiki:machine-learning",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:founder",
+      "target": "wiki:mlops",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:founder",
+      "target": "wiki:mlops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:founder",
+      "target": "wiki:model-monitoring",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:founder",
+      "target": "wiki:open-source",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:founder",
+      "target": "wiki:open-source-and-developer-relations",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:founder",
+      "target": "wiki:startup",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:founder",
+      "target": "wiki:startups",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:founder",
+      "target": "wiki:team-building",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:founder",
+      "target": "wiki:team-building",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:freelance",
+      "target": "article:apache-airflow",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:freelance",
+      "target": "article:data-engineering-consultant",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:freelance",
+      "target": "article:data-engineering-consulting",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:freelance",
+      "target": "article:data-engineering-freelance",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:freelance",
+      "target": "article:freelance-data-engineer",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:freelance",
+      "target": "person:adrianbrudaru",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:freelance",
+      "target": "person:aleksanderkruszelnicki",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:freelance",
+      "target": "person:dimitrivisnadi",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:freelance",
+      "target": "person:orellgarten",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:freelance",
+      "target": "podcast:becoming-data-freelancer",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:freelance",
+      "target": "podcast:data-consulting-business-pricing-and-client-acquisition",
+      "kind": "wiki-link",
+      "weight": 10
+    },
+    {
+      "source": "wiki:freelance",
+      "target": "podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition",
+      "kind": "wiki-link",
+      "weight": 12
+    },
+    {
+      "source": "wiki:freelance",
+      "target": "podcast:freelance-data-engineering-pricing-and-clients",
+      "kind": "wiki-link",
+      "weight": 16
+    },
+    {
+      "source": "wiki:freelance",
+      "target": "podcast:from-academic-research-to-data-engineering-freelancing",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:freelance",
+      "target": "podcast:from-data-freelancer-to-startup-open-source-products",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:freelance",
+      "target": "wiki:analytics-engineering",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:freelance",
+      "target": "wiki:business-skills-for-data-professionals",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:freelance",
+      "target": "wiki:business-skills-for-data-professionals",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -54593,6 +55259,36 @@
       "target": "wiki:career-transitions-in-data",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:freelance",
+      "target": "wiki:data-engineering",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:freelance",
+      "target": "wiki:data-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:freelance",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:freelance",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:freelance",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:generative-ai",
@@ -63452,6 +64148,12 @@
     },
     {
       "source": "wiki:salary-negotiation",
+      "target": "topic:freelance",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:salary-negotiation",
       "target": "wiki:career-growth",
       "kind": "wiki-link",
       "weight": 4
@@ -63503,12 +64205,6 @@
       "target": "wiki:freelance",
       "kind": "wiki-link",
       "weight": 4
-    },
-    {
-      "source": "wiki:salary-negotiation",
-      "target": "wiki:freelance",
-      "kind": "wiki-related",
-      "weight": 3
     },
     {
       "source": "wiki:salary-negotiation",
