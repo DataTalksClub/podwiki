@@ -5,9 +5,9 @@
     "articles": 66,
     "podcasts": 202,
     "persons": 438,
-    "topics": 145,
-    "nodes": 1019,
-    "links": 9777
+    "topics": 146,
+    "nodes": 1020,
+    "links": 9935
   },
   "nodes": [
     {
@@ -7111,7 +7111,7 @@
       "label": "Freelance",
       "title": "Freelance",
       "url": "/wiki/",
-      "count": 20,
+      "count": 21,
       "search": "Freelance"
     },
     {
@@ -7572,6 +7572,15 @@
       "url": "/wiki/",
       "count": 5,
       "search": "retrieval-augmented generation"
+    },
+    {
+      "id": "topic:scikit-learn",
+      "type": "topic",
+      "label": "Scikit Learn",
+      "title": "Scikit Learn",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "Scikit Learn"
     },
     {
       "id": "topic:search",
@@ -9029,7 +9038,7 @@
       "title": "Reinforcement Learning",
       "url": "/wiki/reinforcement-learning/",
       "count": 1,
-      "search": "Reinforcement Learning Stub topic page for podcast archive links about Reinforcement Learning."
+      "search": "Reinforcement Learning How DataTalks.Club podcast guests discuss reinforcement learning through agents, rewards, simulators, games, robotics, autonomous driving, optimization, and practical limits."
     },
     {
       "id": "wiki:reproducibility",
@@ -9038,7 +9047,7 @@
       "title": "Reproducibility",
       "url": "/wiki/reproducibility/",
       "count": 1,
-      "search": "Reproducibility Stub topic page for podcast archive links about Reproducibility."
+      "search": "Reproducibility How DataTalks.Club podcast guests make data science, ML, research, and data pipeline work rerunnable, reviewable, and explainable."
     },
     {
       "id": "wiki:responsible-ai-and-governance",
@@ -9079,11 +9088,11 @@
     {
       "id": "wiki:scikit-learn",
       "type": "wiki",
-      "label": "Scikit Learn",
-      "title": "Scikit Learn",
+      "label": "Scikit-Learn",
+      "title": "Scikit-Learn",
       "url": "/wiki/scikit-learn/",
       "count": 1,
-      "search": "Scikit Learn Stub topic page for podcast archive links about Scikit Learn."
+      "search": "Scikit Learn A podcast grounded guide to scikit learn as a practical ML toolkit, API ecosystem, open source project, contribution target, and sustainability case study."
     },
     {
       "id": "wiki:search",
@@ -9142,11 +9151,11 @@
     {
       "id": "wiki:staff-ai-engineer",
       "type": "wiki",
-      "label": "Staff Ai Engineer",
-      "title": "Staff Ai Engineer",
+      "label": "Staff AI Engineer",
+      "title": "Staff AI Engineer",
       "url": "/wiki/staff-ai-engineer/",
       "count": 1,
-      "search": "Staff Ai Engineer Stub topic page for podcast archive links about Staff Ai Engineer."
+      "search": "Staff AI Engineer A podcast backed guide to staff AI engineer scope across production AI, LLMOps, agents, and career leveling."
     },
     {
       "id": "wiki:startup",
@@ -9155,7 +9164,7 @@
       "title": "Startup",
       "url": "/wiki/startup/",
       "count": 1,
-      "search": "Startup Stub topic page for podcast archive links about Startup."
+      "search": "Startup How DataTalks.Club podcast guests build, validate, fund, and operate data, AI, MLOps, and open source startups."
     },
     {
       "id": "wiki:startups",
@@ -59063,6 +59072,12 @@
     },
     {
       "source": "wiki:machine-learning-tools",
+      "target": "topic:scikit-learn",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:machine-learning-tools",
       "target": "wiki:agent-engineering",
       "kind": "wiki-link",
       "weight": 2
@@ -59208,12 +59223,6 @@
     {
       "source": "wiki:machine-learning-tools",
       "target": "wiki:responsible-ai-and-governance",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:machine-learning-tools",
-      "target": "wiki:scikit-learn",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -65375,6 +65384,156 @@
     },
     {
       "source": "wiki:reinforcement-learning",
+      "target": "person:adamsroka",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:reinforcement-learning",
+      "target": "person:aishwaryajadhav",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:reinforcement-learning",
+      "target": "person:danbecker",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:reinforcement-learning",
+      "target": "person:dannyleybzon",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:reinforcement-learning",
+      "target": "person:lorismarini",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:reinforcement-learning",
+      "target": "person:micheallanham",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:reinforcement-learning",
+      "target": "person:ranjithakulkarni",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:reinforcement-learning",
+      "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:reinforcement-learning",
+      "target": "podcast:data-professionals-business-skills-in-saas",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:reinforcement-learning",
+      "target": "podcast:from-computer-vision-research-to-autonomous-driving-ai",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:reinforcement-learning",
+      "target": "podcast:from-game-ai-to-modern-ai-agents",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:reinforcement-learning",
+      "target": "podcast:machine-learning-decision-optimization",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:reinforcement-learning",
+      "target": "podcast:ml-engineering-kpis-and-metrics-strategy",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:reinforcement-learning",
+      "target": "podcast:mlops-model-monitoring-data-observability",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:reinforcement-learning",
+      "target": "wiki:agent-engineering",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:reinforcement-learning",
+      "target": "wiki:agent-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:reinforcement-learning",
+      "target": "wiki:ai-agents",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:reinforcement-learning",
+      "target": "wiki:ai-agents",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:reinforcement-learning",
+      "target": "wiki:computer-vision",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:reinforcement-learning",
+      "target": "wiki:computer-vision",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:reinforcement-learning",
+      "target": "wiki:evolutionary-algorithms",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:reinforcement-learning",
+      "target": "wiki:evolutionary-algorithms",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:reinforcement-learning",
+      "target": "wiki:experimentation",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:reinforcement-learning",
+      "target": "wiki:machine-learning",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:reinforcement-learning",
+      "target": "wiki:machine-learning",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:reinforcement-learning",
       "target": "wiki:machine-learning-system-design",
       "kind": "wiki-link",
       "weight": 2
@@ -65386,16 +65545,238 @@
       "weight": 3
     },
     {
+      "source": "wiki:reinforcement-learning",
+      "target": "wiki:metrics",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:reinforcement-learning",
+      "target": "wiki:metrics",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:reinforcement-learning",
+      "target": "wiki:multi-agent-systems",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:reinforcement-learning",
+      "target": "wiki:multi-agent-systems",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
       "source": "wiki:reproducibility",
-      "target": "wiki:mlops-and-dataops",
+      "target": "person:christopherbergh",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:reproducibility",
-      "target": "wiki:mlops-and-dataops",
+      "target": "person:elleobrien",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:reproducibility",
+      "target": "person:johannabayer",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:reproducibility",
+      "target": "person:larsalbertsson",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:reproducibility",
+      "target": "person:mihaileric",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:reproducibility",
+      "target": "person:raphaelhoogvliets",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:reproducibility",
+      "target": "person:simonstiebellehner",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:reproducibility",
+      "target": "person:tomaszhinc",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:reproducibility",
+      "target": "podcast:building-production-ml-platform-and-mlops-team",
+      "kind": "wiki-link",
+      "weight": 12
+    },
+    {
+      "source": "wiki:reproducibility",
+      "target": "podcast:dataops-and-gitops-best-practices-for-data-teams",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:reproducibility",
+      "target": "podcast:dataops-automation-and-reliable-data-pipelines",
+      "kind": "wiki-link",
+      "weight": 12
+    },
+    {
+      "source": "wiki:reproducibility",
+      "target": "podcast:dataops-principles-and-scalable-data-platforms",
+      "kind": "wiki-link",
+      "weight": 10
+    },
+    {
+      "source": "wiki:reproducibility",
+      "target": "podcast:devrel-data-science-open-source-tools",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:reproducibility",
+      "target": "podcast:mlops-at-scale-reproducibility-adoption",
+      "kind": "wiki-link",
+      "weight": 10
+    },
+    {
+      "source": "wiki:reproducibility",
+      "target": "podcast:research-to-production-ml-systems-roadmap",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:reproducibility",
+      "target": "podcast:teaching-reproducible-research-and-open-science-coding-practices-for-academia",
+      "kind": "wiki-link",
+      "weight": 10
+    },
+    {
+      "source": "wiki:reproducibility",
+      "target": "wiki:ci-cd",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:reproducibility",
+      "target": "wiki:data-governance",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:reproducibility",
+      "target": "wiki:data-lake",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:reproducibility",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:reproducibility",
+      "target": "wiki:data-quality-and-observability",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:reproducibility",
+      "target": "wiki:dataops",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:reproducibility",
+      "target": "wiki:dataops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:reproducibility",
+      "target": "wiki:experiment-tracking",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:reproducibility",
+      "target": "wiki:experiment-tracking",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:reproducibility",
+      "target": "wiki:ml-platforms",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:reproducibility",
+      "target": "wiki:ml-platforms",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:reproducibility",
+      "target": "wiki:mlops",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:reproducibility",
+      "target": "wiki:mlops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:reproducibility",
+      "target": "wiki:model-registry",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:reproducibility",
+      "target": "wiki:practices",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:reproducibility",
+      "target": "wiki:practices",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:reproducibility",
+      "target": "wiki:software-engineering",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:reproducibility",
+      "target": "wiki:software-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:reproducibility",
+      "target": "wiki:testing",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:responsible-ai-and-governance",
@@ -66161,13 +66542,145 @@
     },
     {
       "source": "wiki:scikit-learn",
-      "target": "wiki:open-source-and-developer-relations",
+      "target": "person:svpino",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:scikit-learn",
+      "target": "person:tamaraatanasoska",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:scikit-learn",
+      "target": "person:vincentwarmerdam",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:scikit-learn",
+      "target": "podcast:fairness-in-ai-ml-engineering",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:scikit-learn",
+      "target": "podcast:from-software-engineer-to-machine-learning",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:scikit-learn",
+      "target": "podcast:open-source-ml-contributions",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:scikit-learn",
+      "target": "podcast:open-source-ml-tools-strategy-and-business-models",
+      "kind": "wiki-link",
+      "weight": 18
+    },
+    {
+      "source": "wiki:scikit-learn",
+      "target": "wiki:contributing",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:scikit-learn",
+      "target": "wiki:contributing",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:scikit-learn",
+      "target": "wiki:data-science",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:scikit-learn",
+      "target": "wiki:documentation",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:scikit-learn",
+      "target": "wiki:documentation",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:scikit-learn",
+      "target": "wiki:interpretability",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:scikit-learn",
+      "target": "wiki:interpretability",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:scikit-learn",
+      "target": "wiki:machine-learning",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:scikit-learn",
+      "target": "wiki:machine-learning",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:scikit-learn",
+      "target": "wiki:machine-learning-tools",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:scikit-learn",
+      "target": "wiki:machine-learning-tools",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:scikit-learn",
+      "target": "wiki:open-source",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:scikit-learn",
+      "target": "wiki:open-source",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:scikit-learn",
       "target": "wiki:open-source-and-developer-relations",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:scikit-learn",
+      "target": "wiki:open-source-and-developer-relations",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:scikit-learn",
+      "target": "wiki:responsible-ai-and-governance",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:scikit-learn",
+      "target": "wiki:responsible-ai-and-governance",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -67193,25 +67706,469 @@
     },
     {
       "source": "wiki:staff-ai-engineer",
+      "target": "person:bartoszmikulski",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:staff-ai-engineer",
+      "target": "person:geojolly",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:staff-ai-engineer",
+      "target": "person:marianosemelman",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:staff-ai-engineer",
+      "target": "person:pauliusztin",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:staff-ai-engineer",
+      "target": "person:ranjithakulkarni",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:staff-ai-engineer",
+      "target": "person:tatianagabruseva",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:staff-ai-engineer",
+      "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:staff-ai-engineer",
+      "target": "podcast:from-academia-to-staff-ai-engineer-interviews-and-career-growth",
+      "kind": "wiki-link",
+      "weight": 22
+    },
+    {
+      "source": "wiki:staff-ai-engineer",
+      "target": "podcast:ml-product-manager-and-mlops-platform-strategy",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:staff-ai-engineer",
+      "target": "podcast:production-ready-ai-engineering",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:staff-ai-engineer",
+      "target": "podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:staff-ai-engineer",
+      "target": "podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:staff-ai-engineer",
+      "target": "wiki:academic-researcher-to-data-science",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:staff-ai-engineer",
+      "target": "wiki:agent-engineering",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:staff-ai-engineer",
+      "target": "wiki:agent-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:staff-ai-engineer",
+      "target": "wiki:ai-agents",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:staff-ai-engineer",
+      "target": "wiki:ai-engineer-role",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:staff-ai-engineer",
+      "target": "wiki:ai-engineer-role",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:staff-ai-engineer",
+      "target": "wiki:ai-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:staff-ai-engineer",
+      "target": "wiki:ai-engineering-roadmap",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:staff-ai-engineer",
+      "target": "wiki:ai-engineering-roadmap",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:staff-ai-engineer",
+      "target": "wiki:career-growth",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:staff-ai-engineer",
+      "target": "wiki:career-growth",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:staff-ai-engineer",
       "target": "wiki:career-transitions-in-data",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:staff-ai-engineer",
-      "target": "wiki:career-transitions-in-data",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:staff-ai-engineer",
+      "target": "wiki:leadership",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:staff-ai-engineer",
+      "target": "wiki:leadership",
       "kind": "wiki-related",
       "weight": 3
     },
     {
-      "source": "wiki:startup",
-      "target": "wiki:career-transitions-in-data",
+      "source": "wiki:staff-ai-engineer",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:staff-ai-engineer",
+      "target": "wiki:llm-production-patterns",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:staff-ai-engineer",
+      "target": "wiki:llm-production-patterns",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:staff-ai-engineer",
+      "target": "wiki:ml-platforms",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:staff-ai-engineer",
+      "target": "wiki:ml-platforms",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:staff-ai-engineer",
+      "target": "wiki:mlops",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:staff-ai-engineer",
+      "target": "wiki:mlops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:staff-ai-engineer",
+      "target": "wiki:platform-adoption",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:staff-ai-engineer",
+      "target": "wiki:production-search-evaluation",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:staff-ai-engineer",
+      "target": "wiki:rag",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:startup",
-      "target": "wiki:career-transitions-in-data",
+      "target": "article:data-engineering-consulting",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:startup",
+      "target": "article:data-engineering-freelance",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:startup",
+      "target": "article:machine-learning-for-startups",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:startup",
+      "target": "person:adrianbrudaru",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:startup",
+      "target": "person:aleksanderkruszelnicki",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:startup",
+      "target": "person:belawiertz",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:startup",
+      "target": "person:carminepaolino",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:startup",
+      "target": "person:elenasamuylova",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:startup",
+      "target": "person:liesbethdingemans",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:startup",
+      "target": "person:mariabruckert",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:startup",
+      "target": "person:nemanjaradojkovic",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:startup",
+      "target": "person:sonalgoyal",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:startup",
+      "target": "podcast:ai-ml-product-design-and-experimentation",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:startup",
+      "target": "podcast:building-ai-digital-health-startups",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:startup",
+      "target": "podcast:building-mlops-startup",
+      "kind": "wiki-link",
+      "weight": 10
+    },
+    {
+      "source": "wiki:startup",
+      "target": "podcast:building-open-source-data-product-for-identity-resolution",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:startup",
+      "target": "podcast:data-consulting-business-pricing-and-client-acquisition",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:startup",
+      "target": "podcast:from-data-freelancer-to-startup-open-source-products",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:startup",
+      "target": "podcast:investing-in-open-source-developer-tools",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:startup",
+      "target": "podcast:launch-and-build-retail-startup",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:startup",
+      "target": "podcast:lean-mlops-for-startups",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:startup",
+      "target": "topic:freelance",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:startup",
+      "target": "wiki:data-product-management",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:startup",
+      "target": "wiki:data-product-management",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:startup",
+      "target": "wiki:data-strategy",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:startup",
+      "target": "wiki:data-strategy",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:startup",
+      "target": "wiki:entrepreneurship",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:startup",
+      "target": "wiki:entrepreneurship",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:startup",
+      "target": "wiki:founder",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:startup",
+      "target": "wiki:founder",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:startup",
+      "target": "wiki:freelance",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:startup",
+      "target": "wiki:ml-product-manager-role",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:startup",
+      "target": "wiki:mlops",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:startup",
+      "target": "wiki:mlops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:startup",
+      "target": "wiki:mlops-roadmap",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:startup",
+      "target": "wiki:mlops-roadmap",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:startup",
+      "target": "wiki:model-monitoring",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:startup",
+      "target": "wiki:open-source",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:startup",
+      "target": "wiki:open-source",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:startup",
+      "target": "wiki:open-source-and-developer-relations",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:startup",
+      "target": "wiki:open-source-and-developer-relations",
       "kind": "wiki-related",
       "weight": 3
     },
