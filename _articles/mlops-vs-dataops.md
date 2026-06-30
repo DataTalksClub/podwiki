@@ -13,76 +13,58 @@ related_wiki:
   - Production
 ---
 
-MLOps and DataOps both make production systems safer to change, but they are not
-the same discipline. [MLOps]({{ '/wiki/mlops/' | relative_url }}) owns the
-machine learning lifecycle: experiments, artifacts, registries, deployment,
-serving, monitoring, retraining, governance, and model ownership.
-[DataOps]({{ '/wiki/dataops/' | relative_url }}) owns data delivery:
-pipelines, transformations, analytics workflows, tests, CI/CD, observability,
-orchestration, and recovery.
+MLOps and DataOps both make production systems safer to change, but they're
+separate disciplines. Use [MLOps]({{ '/wiki/mlops/' | relative_url }}) for the
+machine learning lifecycle. It covers experiments and model artifacts. It also
+covers registries, deployment, serving, and monitoring. It covers retraining,
+governance, and model ownership too.
 
-They overlap when models depend on data pipelines. A model failure may be a
-model problem, a feature problem, a data freshness problem, or a schema problem.
-That is why the disciplines need to talk to each other without collapsing into
-one vague category.
+Use [DataOps]({{ '/wiki/dataops/' | relative_url }}) for data delivery. It
+covers ingestion and transformations, plus analytics workflows, tests, and
+CI/CD. It also covers observability, orchestration, and recovery.
 
-## Link Map
+Production models depend on production data, so teams need the boundary during
+incidents. A model alert may come from the model artifact or the serving path.
+It may also come from a feature job, a late table, or a schema change. The
+DataTalks.Club podcast discussions treat MLOps and DataOps as related
+reliability practices, but different teams still own different failure modes.
 
-Use [MLOps]({{ '/wiki/mlops/' | relative_url }}) for the model lifecycle and
-[DataOps]({{ '/wiki/dataops/' | relative_url }}) for data delivery. Adjacent
-pages are [ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }}),
-[Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}),
-[Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }}),
-[Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}),
-and [Production]({{ '/wiki/production/' | relative_url }}).
+## Quick Comparison
 
-Podcast references:
-[MLOps at Scale](https://datatalks.club/podcast/mlops-at-scale-reproducibility-adoption.html),
-[Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html),
-[MLOps Architect Guide](https://datatalks.club/podcast/mlops-model-monitoring-data-observability.html),
-[DataOps 101](https://datatalks.club/podcast/dataops-principles-and-scalable-data-platforms.html),
-[Mastering DataOps](https://datatalks.club/podcast/dataops-automation-and-reliable-data-pipelines.html),
-and [DataOps for Data Engineering](https://datatalks.club/podcast/dataops-for-data-engineering.html).
+Both disciplines borrow from DevOps, but they operate different assets:
 
-## Common Definition
+- MLOps changes model code, training parameters, artifacts, serving code, and
+  prediction schemas.
+- DataOps changes ingestion jobs, transformations, data models, schemas, and
+  orchestration.
+- MLOps responders check model serving, prediction quality, drift, feedback,
+  and registry handoff.
+- DataOps responders check freshness, volume, and schema. They also check
+  distribution, lineage, failed jobs, and transformations.
 
-Both disciplines bring software-engineering habits into systems that fail in
-domain-specific ways. In
-[MLOps at Scale](https://datatalks.club/podcast/mlops-at-scale-reproducibility-adoption.html),
-the model side includes CI/CD, repository structure, parameterization,
-reproducibility, monitoring, dependency management, and adoption by product
-teams. In
-[DataOps for Data Engineering](https://datatalks.club/podcast/dataops-for-data-engineering.html),
-the data side includes automation, observability, CI/CD, regression tests,
-realistic test data, data versioning, on-call readiness, and production
-monitoring.
-
-The common definition is reliability through repeatable process. The important
-difference is the object being operated. MLOps operates model systems. DataOps
-operates data systems.
-
-## Where Guests Differ
-
-MLOps guests usually start from model handoff and serving. In
-[Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html),
-the operating layer includes experiment tracking, model registries, batch
-inference, online serving, orchestration, metadata, lineage, governance, and
-developer experience.
-
-DataOps guests usually start from pipeline reliability and team-scale delivery.
-In [DataOps 101](https://datatalks.club/podcast/dataops-principles-and-scalable-data-platforms.html),
-the focus is immutable pipelines, reproducibility, self-service platforms,
-workflow engines, batch versus streaming tradeoffs, and quality automation. In
-[Mastering DataOps](https://datatalks.club/podcast/dataops-automation-and-reliable-data-pipelines.html),
-the focus is error reduction, deployment cycle time, version control, tests,
-CI/CD, observability, and automated playbooks.
-
-The disagreement is not about whether reliability matters. It is about where
-the reliability boundary starts: model lifecycle or data delivery lifecycle.
+[Raphaël Hoogvliets]({{ '/people/raphaelhoogvliets/' | relative_url }})
+describes MLOps at 39:06 and 42:31 in
+[MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }})
+through CI, repository structure, parameterization, and testing. He also covers
+reproducibility, data versioning, traceability, and experiment capture. On the
+DataOps side,
+[Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }}) frames
+reliable data delivery at 15:52 and 30:55 in
+[DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }})
+through automation, observability, and productivity. He then covers CI/CD
+pipelines, regression tests, and realistic test data.
 
 ## Ownership Boundary
 
-MLOps owns model-specific assets:
+MLOps owns model-specific assets because ML teams need a controlled path from
+experimentation to production. At 29:41 in
+[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}),
+[Simon Stiebellehner]({{ '/people/simonstiebellehner/' | relative_url }})
+frames experiment tracking as a reproducibility win. At 30:32, he covers model
+registries. At 31:15, he separates batch inference from online serving.
+
+Later, at 42:48, he connects metadata and lineage to reproducible model
+operations. At 45:50, he adds data governance.
 
 - training code and parameters
 - experiment tracking
@@ -93,57 +75,131 @@ MLOps owns model-specific assets:
 - retraining and rollback decisions
 - model governance
 
-DataOps owns data-delivery assets:
+DataOps owns data-delivery assets because data teams need to make pipelines
+reviewable and recoverable. At 11:50 and 16:42 in
+[DataOps 101]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}),
+[Lars Albertsson]({{ '/people/larsalbertsson/' | relative_url }}) ties DataOps
+to people alignment and immutable pipeline architecture. At 20:12 and 46:52, he
+adds reproducibility, quality, and schema automation.
+
+At 33:47 and 34:37 in
+[Mastering DataOps]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }}),
+[Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }}) turns
+that into practical delivery work. He focuses on version control, tests,
+CI/CD, and runbooks. He also pushes teams toward automated playbooks.
 
 - ingestion jobs
 - raw, staged, and modeled datasets
 - transformation code
 - orchestration and backfills
 - data tests and schema checks
-- freshness, volume, distribution, schema, and lineage monitors
+- freshness, volume, and distribution monitors
+- schema and lineage monitors
 - runbooks and recovery paths
 - data platform conventions
 
-The boundary is easiest to see during incidents. If a model endpoint is down,
+The ownership split is simplest during incidents. If a model endpoint is down,
 MLOps owns the serving path. If the model receives stale features because an
-upstream table did not update, DataOps owns the pipeline failure. If the model
-drifts because the product changed, both teams may need to investigate.
+upstream table didn't update, DataOps owns the pipeline failure.
+
+If model behavior changes after a product or population shift, both teams need
+evidence.
+MLOps checks prediction behavior and retraining signals. DataOps checks
+freshness, schema, distribution, and lineage.
 
 ## Monitoring Boundary
 
-[MLOps Architect Guide](https://datatalks.club/podcast/mlops-model-monitoring-data-observability.html)
-connects model monitoring to ETL, data pipelines, and data observability. That
-episode is the clearest reason not to blur the terms. A model alert can start
-in the model layer, but root cause analysis often moves upstream into data.
+[Danny Leybzon]({{ '/people/dannyleybzon/' | relative_url }}) makes the overlap
+explicit at 25:04 and 27:35 in
+[MLOps Architect Guide]({{ '/podcasts/mlops-model-monitoring-data-observability/' | relative_url }}).
+He focuses on production model monitoring, but the observability scope includes
+ETL, data pipelines, and upstream root causes. That's the clearest reason not
+to blur the terms. A model alert can start in the model layer while root-cause
+analysis moves upstream into data.
 
 Use [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }}) for model
-behavior, prediction distributions, service health, labels, feedback, and
-retraining signals. Use
+behavior and prediction distributions. Use it for service health, labels,
+feedback, and retraining signals.
+
+Use
 [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
-for freshness, volume, schema, distribution, lineage, and ownership of
-datasets. Good production systems connect both views.
+for freshness, volume, and schema. Use it for distribution and lineage too. Use
+it when the question is about dataset ownership. Good production systems
+connect both views.
 
 ## Platform Boundary
 
 MLOps platform work gives ML teams a repeatable path for training, tracking,
-registry handoff, serving, monitoring, and governance. In
-[Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html),
-that platform layer grows when many teams repeat the same ML lifecycle work.
+and registry handoff. It also covers serving, monitoring, and governance. At
+17:14 in
+[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}),
+[Simon Stiebellehner]({{ '/people/simonstiebellehner/' | relative_url }})
+describes standardization pressure as a trigger for platform work. At 38:40,
+he describes thin abstractions over cloud providers as a developer-experience
+choice, not as a reason to hide the underlying platform.
 
 DataOps platform work gives data teams a repeatable path for ingestion,
-transformation, orchestration, tests, observability, and recovery. In
-[DataOps 101](https://datatalks.club/podcast/dataops-principles-and-scalable-data-platforms.html),
-self-service matters only when the platform still preserves ownership,
+transformation, and orchestration. It also covers tests, observability, and
+recovery. At 7:52 and 28:22 in
+[DataOps 101]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}),
+[Lars Albertsson]({{ '/people/larsalbertsson/' | relative_url }}) connects
+self-service analytics to workflow engines and offline processing. At 30:34
+and 50:13, he adds storage, compute, and embedded engineering support.
+Self-service helps only when the platform still preserves ownership,
 reproducibility, and quality.
 
-## Practical Rule
+## Incident Overlap
+
+Incidents overlap when a model consumes data that changed in a way the model
+team didn't expect. In
+[DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }}),
+[Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }}) discusses
+model reliability and on-call readiness at 26:13. At 30:55, he moves to CI/CD,
+regression tests, and test data. The same episode treats DataOps, MLOps, and
+LLMs as related terms at 18:46. Teams still apply the delivery practices to
+pipelines, tests, observability, and production monitoring.
+
+In
+[MLOps Architect Guide]({{ '/podcasts/mlops-model-monitoring-data-observability/' | relative_url }}),
+[Danny Leybzon]({{ '/people/dannyleybzon/' | relative_url }}) starts from model
+monitoring and then follows failures upstream. That means the incident handoff
+should be evidence-based. MLOps should bring model version and serving health.
+It should also bring prediction logs, label feedback, and drift signals.
+DataOps should bring table freshness, volume, and schema changes.
+
+DataOps should also bring feature lineage, failed jobs, and recent backfills.
+
+## Team Responsibilities
 
 Use MLOps when the page, project, or incident is about the model lifecycle. Use
-DataOps when it is about data delivery. Use both only when a production ML
+DataOps when it's about data delivery. Use both only when a production ML
 system depends on a data pipeline and the boundary affects ownership,
 monitoring, or recovery.
 
+In practice, teams can split responsibility this way:
+
+- MLOps owns the model release path. That includes experiment tracking,
+  artifact approval, and registry handoff. It also includes serving, prediction
+  logging, and model monitoring, plus rollback and retraining.
+  [Simon Stiebellehner]({{ '/people/simonstiebellehner/' | relative_url }})
+  lays out that platform path in
+  [Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
+- DataOps owns the data release path from ingestion through transformations and
+  orchestration, including tests, observability, and recovery work such as
+  runbooks and backfills.
+  [Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }})
+  covers those delivery practices in both
+  [Mastering DataOps]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }}) and
+  [DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }}).
+- Shared incidents need a joint triage path. MLOps decides whether the deployed
+  model, serving system, or retraining plan changed. DataOps decides whether
+  the upstream schema, freshness, or lineage changed. The team
+  closes the incident only after both sides agree which asset failed and who
+  owns the prevention work.
+
 ## Related Pages
+
+These pages cover the adjacent concepts behind the comparison:
 
 - [MLOps]({{ '/wiki/mlops/' | relative_url }})
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})

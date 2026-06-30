@@ -7,7 +7,7 @@
     "persons": 438,
     "topics": 146,
     "nodes": 1020,
-    "links": 10112
+    "links": 10239
   },
   "nodes": [
     {
@@ -9227,7 +9227,7 @@
       "title": "Tools",
       "url": "/wiki/tools/",
       "count": 1,
-      "search": "Tools Stub topic page for podcast archive links about Tools."
+      "search": "Tools How DataTalks.Club podcast guests choose, operate, teach, and sustain tools across data engineering, MLOps, DataOps, search, RAG, open source, and developer experience."
     },
     {
       "id": "wiki:tracking-plans",
@@ -22154,9 +22154,75 @@
     },
     {
       "source": "article:mlops-vs-dataops",
-      "target": "wiki:data-engineering-platforms",
+      "target": "person:christopherbergh",
+      "kind": "article-link",
+      "weight": 8
+    },
+    {
+      "source": "article:mlops-vs-dataops",
+      "target": "person:dannyleybzon",
       "kind": "article-link",
       "weight": 4
+    },
+    {
+      "source": "article:mlops-vs-dataops",
+      "target": "person:larsalbertsson",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:mlops-vs-dataops",
+      "target": "person:raphaelhoogvliets",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-vs-dataops",
+      "target": "person:simonstiebellehner",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:mlops-vs-dataops",
+      "target": "podcast:building-production-ml-platform-and-mlops-team",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:mlops-vs-dataops",
+      "target": "podcast:dataops-automation-and-reliable-data-pipelines",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:mlops-vs-dataops",
+      "target": "podcast:dataops-for-data-engineering",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:mlops-vs-dataops",
+      "target": "podcast:dataops-principles-and-scalable-data-platforms",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:mlops-vs-dataops",
+      "target": "podcast:mlops-at-scale-reproducibility-adoption",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-vs-dataops",
+      "target": "podcast:mlops-model-monitoring-data-observability",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:mlops-vs-dataops",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "article-link",
+      "weight": 2
     },
     {
       "source": "article:mlops-vs-dataops",
@@ -22168,7 +22234,7 @@
       "source": "article:mlops-vs-dataops",
       "target": "wiki:data-quality-and-observability",
       "kind": "article-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "article:mlops-vs-dataops",
@@ -22180,7 +22246,7 @@
       "source": "article:mlops-vs-dataops",
       "target": "wiki:dataops",
       "kind": "article-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "article:mlops-vs-dataops",
@@ -22192,7 +22258,7 @@
       "source": "article:mlops-vs-dataops",
       "target": "wiki:ml-platforms",
       "kind": "article-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "article:mlops-vs-dataops",
@@ -22204,7 +22270,7 @@
       "source": "article:mlops-vs-dataops",
       "target": "wiki:mlops",
       "kind": "article-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "article:mlops-vs-dataops",
@@ -22216,7 +22282,7 @@
       "source": "article:mlops-vs-dataops",
       "target": "wiki:model-monitoring",
       "kind": "article-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "article:mlops-vs-dataops",
@@ -22228,7 +22294,7 @@
       "source": "article:mlops-vs-dataops",
       "target": "wiki:production",
       "kind": "article-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "article:mlops-vs-dataops",
@@ -51448,13 +51514,91 @@
       "source": "wiki:dataops",
       "target": "article:mlops-vs-dataops",
       "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:dataops",
+      "target": "person:barrmoses",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:dataops",
+      "target": "person:christopherbergh",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:dataops",
+      "target": "person:dannyleybzon",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:dataops",
+      "target": "person:larsalbertsson",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:dataops",
+      "target": "person:nataliekwong",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:dataops",
+      "target": "person:tomaszhinc",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:dataops",
+      "target": "podcast:data-engineering-tools-modern-data-stack",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:dataops",
+      "target": "podcast:data-quality-data-observability-data-reliability",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:dataops",
+      "target": "podcast:dataops-and-gitops-best-practices-for-data-teams",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:dataops",
+      "target": "podcast:dataops-automation-and-reliable-data-pipelines",
+      "kind": "wiki-link",
+      "weight": 10
+    },
+    {
+      "source": "wiki:dataops",
+      "target": "podcast:dataops-for-data-engineering",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:dataops",
+      "target": "podcast:dataops-principles-and-scalable-data-platforms",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:dataops",
+      "target": "podcast:mlops-model-monitoring-data-observability",
+      "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:dataops",
       "target": "wiki:analytics-engineering",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:dataops",
@@ -51466,7 +51610,7 @@
       "source": "wiki:dataops",
       "target": "wiki:ci-cd",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:dataops",
@@ -51478,7 +51622,7 @@
       "source": "wiki:dataops",
       "target": "wiki:data-engineering",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:dataops",
@@ -51490,7 +51634,7 @@
       "source": "wiki:dataops",
       "target": "wiki:data-engineering-platforms",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:dataops",
@@ -51502,7 +51646,7 @@
       "source": "wiki:dataops",
       "target": "wiki:data-observability",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:dataops",
@@ -51514,7 +51658,7 @@
       "source": "wiki:dataops",
       "target": "wiki:data-quality-and-observability",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:dataops",
@@ -51538,7 +51682,7 @@
       "source": "wiki:dataops",
       "target": "wiki:orchestration",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:dataops",
@@ -60236,6 +60380,96 @@
     },
     {
       "source": "wiki:mlops",
+      "target": "person:dannyleybzon",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:mlops",
+      "target": "person:linaweichbrodt",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:mlops",
+      "target": "person:mariavechtomova",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:mlops",
+      "target": "person:nemanjaradojkovic",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:mlops",
+      "target": "person:raphaelhoogvliets",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:mlops",
+      "target": "person:simonstiebellehner",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:mlops",
+      "target": "person:theofilospapapanagiotou",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:mlops",
+      "target": "podcast:building-production-ml-platform-and-mlops-team",
+      "kind": "wiki-link",
+      "weight": 12
+    },
+    {
+      "source": "wiki:mlops",
+      "target": "podcast:human-centered-mlops-and-model-monitoring",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:mlops",
+      "target": "podcast:lean-mlops-for-startups",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:mlops",
+      "target": "podcast:mlops-and-ml-engineering-in-finance",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:mlops",
+      "target": "podcast:mlops-at-scale-reproducibility-adoption",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:mlops",
+      "target": "podcast:mlops-kubeflow-model-monitoring",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:mlops",
+      "target": "podcast:mlops-model-monitoring-data-observability",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:mlops",
+      "target": "podcast:pragmatic-and-standardized-mlops",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:mlops",
       "target": "wiki:data-quality-and-observability",
       "kind": "wiki-link",
       "weight": 2
@@ -60296,6 +60530,12 @@
     },
     {
       "source": "wiki:mlops",
+      "target": "wiki:mlops-and-dataops",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:mlops",
       "target": "wiki:model-monitoring",
       "kind": "wiki-link",
       "weight": 6
@@ -60350,9 +60590,93 @@
     },
     {
       "source": "wiki:mlops-and-dataops",
+      "target": "person:christopherbergh",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:mlops-and-dataops",
+      "target": "person:dannyleybzon",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:mlops-and-dataops",
+      "target": "person:larsalbertsson",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:mlops-and-dataops",
+      "target": "person:raphaelhoogvliets",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:mlops-and-dataops",
+      "target": "person:simonstiebellehner",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:mlops-and-dataops",
+      "target": "podcast:building-production-ml-platform-and-mlops-team",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:mlops-and-dataops",
+      "target": "podcast:dataops-automation-and-reliable-data-pipelines",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:mlops-and-dataops",
+      "target": "podcast:dataops-for-data-engineering",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:mlops-and-dataops",
+      "target": "podcast:dataops-principles-and-scalable-data-platforms",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:mlops-and-dataops",
+      "target": "podcast:mlops-at-scale-reproducibility-adoption",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:mlops-and-dataops",
+      "target": "podcast:mlops-model-monitoring-data-observability",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:mlops-and-dataops",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:mlops-and-dataops",
       "target": "wiki:data-engineering-platforms",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:mlops-and-dataops",
+      "target": "wiki:data-observability",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:mlops-and-dataops",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:mlops-and-dataops",
@@ -60375,6 +60699,12 @@
     {
       "source": "wiki:mlops-and-dataops",
       "target": "wiki:ml-platforms",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:mlops-and-dataops",
+      "target": "wiki:ml-platforms",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -60389,6 +60719,12 @@
       "target": "wiki:mlops",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:mlops-and-dataops",
+      "target": "wiki:model-monitoring",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:mlops-engineer",
@@ -69458,15 +69794,441 @@
     },
     {
       "source": "wiki:tools",
-      "target": "wiki:open-source-and-developer-relations",
+      "target": "article:apache-airflow",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tools",
+      "target": "article:data-engineering-tools",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tools",
+      "target": "article:dataops-tools",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tools",
+      "target": "article:llm-tools",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tools",
+      "target": "article:mlops-tools",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tools",
+      "target": "person:atitaarora",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tools",
+      "target": "person:christopherbergh",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tools",
+      "target": "person:danielsvonava",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tools",
+      "target": "person:elleobrien",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tools",
+      "target": "person:hugobowneanderson",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tools",
+      "target": "person:larsalbertsson",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tools",
+      "target": "person:nataliekwong",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tools",
+      "target": "person:ranjithakulkarni",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tools",
+      "target": "person:raphaelhoogvliets",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tools",
+      "target": "person:simonstiebellehner",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tools",
+      "target": "person:tomaszhinc",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tools",
+      "target": "person:vincentwarmerdam",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tools",
+      "target": "person:willempienaar",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tools",
+      "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:tools",
+      "target": "podcast:building-production-ml-platform-and-mlops-team",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:tools",
+      "target": "podcast:building-production-search-systems",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:tools",
+      "target": "podcast:data-engineering-tools-modern-data-stack",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:tools",
+      "target": "podcast:dataops-and-gitops-best-practices-for-data-teams",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tools",
+      "target": "podcast:dataops-automation-and-reliable-data-pipelines",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tools",
+      "target": "podcast:dataops-principles-and-scalable-data-platforms",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tools",
+      "target": "podcast:devrel-data-science-open-source-tools",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:tools",
+      "target": "podcast:devrel-open-source-machine-learning",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:tools",
+      "target": "podcast:mlops-at-scale-reproducibility-adoption",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:tools",
+      "target": "podcast:mlops-feature-stores-feature-stores-feast-tecton",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tools",
+      "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:tools",
+      "target": "podcast:open-source-ml-tools-strategy-and-business-models",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:tools",
+      "target": "wiki:agent-engineering",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:tools",
+      "target": "wiki:ci-cd",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tools",
+      "target": "wiki:contributing",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tools",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tools",
+      "target": "wiki:data-engineering-tools",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:tools",
+      "target": "wiki:data-engineering-tools",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:tools",
+      "target": "wiki:data-lake",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tools",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tools",
+      "target": "wiki:data-warehouse",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tools",
+      "target": "wiki:dataops",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tools",
+      "target": "wiki:dataops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:tools",
+      "target": "wiki:dbt",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tools",
+      "target": "wiki:developer-experience",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:tools",
+      "target": "wiki:developer-experience",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:tools",
+      "target": "wiki:developer-relations",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tools",
+      "target": "wiki:documentation",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tools",
+      "target": "wiki:etl",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tools",
+      "target": "wiki:etl-vs-elt",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tools",
+      "target": "wiki:experiment-tracking",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tools",
+      "target": "wiki:llm-production-patterns",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tools",
+      "target": "wiki:ml-platforms",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:tools",
+      "target": "wiki:mlops",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tools",
+      "target": "wiki:mlops-tools",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:tools",
+      "target": "wiki:mlops-tools",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:tools",
+      "target": "wiki:model-monitoring",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tools",
+      "target": "wiki:model-registry",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tools",
+      "target": "wiki:modern-data-stack",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tools",
+      "target": "wiki:open-source",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:tools",
       "target": "wiki:open-source-and-developer-relations",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:tools",
+      "target": "wiki:open-source-and-developer-relations",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:tools",
+      "target": "wiki:open-source-portfolio-evidence",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tools",
+      "target": "wiki:orchestration",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:tools",
+      "target": "wiki:orchestration",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:tools",
+      "target": "wiki:platform-adoption",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tools",
+      "target": "wiki:platform-engineering",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:tools",
+      "target": "wiki:reproducibility",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tools",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tools",
+      "target": "wiki:search",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tools",
+      "target": "wiki:search-rag-and-knowledge-systems",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:tools",
+      "target": "wiki:search-rag-and-knowledge-systems",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:tools",
+      "target": "wiki:technical-writing",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tools",
+      "target": "wiki:vector-databases",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:tracking-plans",
