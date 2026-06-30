@@ -1,198 +1,336 @@
 ---
 layout: wiki
 title: "Search, RAG, and Knowledge Systems"
-summary: "How the podcast archive connects classical search, vector retrieval, RAG, context engineering, and knowledge graphs into production knowledge systems."
+summary: "How DataTalks.Club podcast guests connect retrieval, RAG, knowledge graphs, and production knowledge systems."
 related:
+  - Retrieval-Augmented Generation
+  - Search
+  - Vector Databases
+  - Knowledge Graph vs Vector Search
   - LLM Production Patterns
-  - Data Engineering Platforms
-  - MLOps and DataOps
 ---
 
-## Definition and Scope
+Search/RAG/knowledge systems form the retrieval layer behind useful AI and data
+products. In the DataTalks.Club archive, the topic starts with
+[search]({{ '/wiki/search/' | relative_url }}) and
+[information retrieval]({{ '/wiki/information-retrieval/' | relative_url }}).
+It then extends into embedding-based retrieval, RAG, graph retrieval, and
+[LLM evaluation]({{ '/wiki/llm-evaluation-workflows/' | relative_url }}).
 
-Search, RAG, and knowledge systems are the practices used to help users and
-models find, ground, rank, and reuse information. In the podcast archive, this
-topic spans classical information retrieval, vector search, hybrid retrieval,
-retrieval-augmented generation, knowledge graphs, context engineering, and
-evaluation.
+[Atita Arora]({{ '/people/atitaarora/' | relative_url }}) gives the bridge in
+[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}):
+search practice still matters when teams add vectors and LLMs. At 30:38 she
+defines RAG as retrieval plus generation. At 38:24 she turns podcast
+transcripts into chunks, embeddings, and vectorized context. At 48:09 she
+brings evaluation and human review back into the system.
 
-The archive's main lesson is that RAG is not a replacement for search
-engineering. It is a product pattern built on retrieval quality, document
-preparation, ranking, context design, and measurement. Good systems decide what
-to retrieve, how to represent it, how much context to pass to an LLM, and how to
-prove that the answer is useful and grounded.
+Use this page as the map across the retrieval stack. Start with
+[Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
+for the core RAG design. Use [Vector Databases]({{ '/wiki/vector-databases/' | relative_url }})
+for vector storage and indexing. Use
+[Graph RAG vs Vector RAG]({{ '/wiki/graph-rag-vs-vector-rag/' | relative_url }})
+for structured retrieval choices. Use
+[Production Search Evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }})
+for measuring retrieval and business outcomes.
 
+## Link Map
 
-## Archive-Level Takeaways
+Core concepts:
 
-### RAG is search plus generation, not magic memory
+- [Search]({{ '/wiki/search/' | relative_url }})
+- [Information Retrieval]({{ '/wiki/information-retrieval/' | relative_url }})
+- [Embeddings]({{ '/wiki/embeddings/' | relative_url }})
+- [Vector Databases]({{ '/wiki/vector-databases/' | relative_url }})
+- [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
+- [Knowledge Graph vs Vector Search]({{ '/wiki/knowledge-graph-vs-vector-search/' | relative_url }})
+- [Graph RAG vs Vector RAG]({{ '/wiki/graph-rag-vs-vector-rag/' | relative_url }})
+- [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }})
+- [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
+- [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }})
 
-Atita Arora's modern search episode frames RAG as retrieval plus generation:
-the LLM receives a question and selected context so it is less likely to invent
-unsupported answers. The podcast-transcript chatbot example is especially
-important for this repo because it mirrors the archive itself: transcripts are
-chunked, embedded, searched, and used to answer questions with citations.
+Podcast anchors:
 
-Later agentic AI episodes keep the same caution. Long context windows make some
-tasks easier, but they do not remove the need to reduce noise, preserve
-metadata, and choose evidence deliberately.
+- [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
+  with [Atita Arora]({{ '/people/atitaarora/' | relative_url }}) links
+  classical search to vector databases, transcript RAG, citations, and RAG
+  review.
+- [Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }})
+  with [Daniel Svonava]({{ '/people/danielsvonava/' | relative_url }})
+  separates retrieval and ranking. It also covers vector compute, vector
+  storage, hybrid search, and business metrics.
+- [Production ML Search]({{ '/podcasts/production-ml-search-vector-search-embeddings-hybrid-search/' | relative_url }})
+  covers inverted indexes, embeddings, and vector compute. It also covers
+  hybrid search with filters, recency, and operational evaluation.
+- [Knowledge Graphs and LLMs for Automotive R&D]({{ '/podcasts/knowledge-graphs-and-llms-for-automotive-rnd/' | relative_url }})
+  with [Anahita Pakiman]({{ '/people/anahitapakiman/' | relative_url }})
+  shows when graph semantics and Cypher-style retrieval matter more than
+  nearest-neighbor chunks alone.
+- [Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }})
+  with [Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }})
+  turns RAG into engineering work with gold tests and failure categories. It
+  also covers logs, traces, chunking, and tool escalation.
+- [Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }})
+  with [Ranjitha Kulkarni]({{ '/people/ranjithakulkarni/' | relative_url }})
+  treats retrieval as one tool inside agent systems, not a reason to ignore
+  latency and cost. It also keeps context noise and evaluation in scope.
+- [Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }})
+  with [Meryem Arik]({{ '/people/meryemarik/' | relative_url }}) draws the
+  boundary between retrieval for changing knowledge and fine-tuning for
+  behavior, style, or task adaptation.
 
-### Classical information retrieval still matters
+## Common Definition
 
-The archive treats vector databases as an evolution of retrieval, not a clean
-break from Lucene, Solr, Elasticsearch, OpenSearch, or inverted indexes. Vector
-representations help when keyword rules, synonyms, and multilingual matching
-become brittle. But filters, recency, popularity, business constraints, and
-ranking remain product requirements.
+Across the archive, a knowledge system is the part of a product that finds and
+ranks information before a user or model uses it. It also represents and
+verifies that information. Search retrieves candidates, and ranking orders them.
+RAG adds selected context to an LLM prompt, while knowledge graphs expose
+explicit relationships.
 
-### Knowledge systems need structure as well as embeddings
+The production system still needs provenance and permissions, which Atita covers
+in
+[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}).
+Daniel adds latency and product metrics in
+[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}),
+and Anahita adds verification for graph-backed systems in
+[Knowledge Graphs and LLMs for Automotive R&D]({{ '/podcasts/knowledge-graphs-and-llms-for-automotive-rnd/' | relative_url }}).
 
-The knowledge-graphs episode adds a separate pattern: some domains need explicit
-relationships, semantics, and graph traversal, not only nearest-neighbor
-search. In automotive R&D, graph representations help compare simulations,
-reuse semantic reports, and expose relationships that are awkward in tables.
-For LLM applications, graphs can drive retrieval and prompt templates when
-domain semantics matter.
+The archive doesn't treat RAG as magic memory. Atita's transcript example works
+because the system prepares documents, chunks them, and embeds them. It then
+retrieves them, wraps them with context, and cites them
+([Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}),
+35:49-42:49). That makes RAG a product design built on
+[search]({{ '/wiki/search/' | relative_url }}), not a replacement for search.
 
-### Evaluation is a product decision
+The archive also doesn't treat vector search as the whole system. The
+[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }})
+discussion separates vector compute from vector storage at 29:00 and adds
+filters, recency, business rules, and ranking at 34:00-45:11. This connects
+vector databases to [production search evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }})
+and [MLOps]({{ '/wiki/mlops/' | relative_url }}), because embedding models,
+indexes, and ranking logic all change over time.
 
-Search quality, RAG quality, and business impact are separate but connected.
-Guests discuss precision/recall-style search evaluation, RAG-specific
-human-in-the-loop review, offline tests, A/B metrics, revenue attribution,
-latency, and cost. A system can retrieve plausible chunks but still fail the
-user if the answer is unsupported, too slow, too expensive, or misaligned with
-the product metric.
+## Guest Differences
 
-## Recurring Patterns
+Atita starts from the search stack. Her 17:01 and 20:27 chapters in
+[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
+compare standalone vector databases with adding vectors to existing search
+infrastructure. Her RAG guidance then emphasizes chunking, prompt context,
+citations, and human-in-the-loop evaluation.
 
-### Hybrid retrieval is the production default
+[Daniel Svonava]({{ '/people/danielsvonava/' | relative_url }}) starts from
+production retrieval and ranking. In
+[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}),
+he frames search as a relevance decision at 6:20, separates retrieval from
+ranking at 12:45. He also ties search impact to A/B tests and revenue at
+1:01:25. His view is useful when the product is search, recommendations,
+ecommerce, or
+matching rather than a chatbot alone.
 
-Production search usually combines signals. Keyword search handles exact terms,
-filters, and explainable constraints. Vector search handles semantic similarity,
-language variation, and multimodal matching. Ranking and re-ranking combine
-freshness, popularity, personalization, and business rules.
+[Anahita Pakiman]({{ '/people/anahitapakiman/' | relative_url }}) starts from
+domain relationships. Her
+[Knowledge Graphs and LLMs for Automotive R&D]({{ '/podcasts/knowledge-graphs-and-llms-for-automotive-rnd/' | relative_url }})
+episode contrasts text chunks and vector databases with graph semantics at
+38:10. She discusses Cypher-driven retrieval at 39:56. Her view fits domains where the
+answer depends on entity relationships and report structure. It also fits
+simulation-heavy domains where verification matters more than similar text.
 
-The archive warns against a rigid "waterfall of constraints" where filters
-discard relevant results too early. The better pattern is to decide which
-constraints are hard requirements and which should be soft scoring signals.
+[Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }}) starts
+from practical LLM engineering. In
+[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}),
+he places gold tests and failure analysis around the RAG application. He also
+uses logs, traces, and chunking choices. His escalation point is pragmatic. Use
+RAG for knowledge lookup, then add tools or agents when the workflow must take
+action.
 
-### Chunking is a product interface
+[Ranjitha Kulkarni]({{ '/people/ranjithakulkarni/' | relative_url }}) starts
+from agent engineering. In
+[Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}),
+she pushes back on "RAG is dead" at 29:30 because long context and agents still
+face latency and cost. They also still face noisy context, metadata, and
+source-quality constraints.
+Her view keeps retrieval inside [agent engineering]({{ '/wiki/agent-engineering/' | relative_url }})
+without turning every lookup problem into an agent workflow.
 
-Chunking is not just a data preprocessing step. It determines whether a RAG
-system returns a whole episode, a section, a paragraph, or a precise answer.
-Modern search and agentic AI episodes both emphasize adding metadata and
-wrappers around chunks so the LLM knows where context came from and how to use
-it.
+[Meryem Arik]({{ '/people/meryemarik/' | relative_url }}) starts from LLM
+deployment. Her
+[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }})
+episode treats retrieval as the better fit for changing knowledge at
+40:46-46:42. Fine-tuning fits behavior, style, and task adaptation. That
+boundary anchors [RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }}).
 
-For this podcast wiki, good chunks should preserve episode, guest, timestamp,
-speaker, topic, and nearby context. Otherwise future systems will retrieve text
-without enough provenance to support a claim.
+## Search-First Architecture
 
-### Vector compute and vector storage are different problems
+A search-first knowledge system makes retrieval visible before generation. The
+[Production ML Search]({{ '/podcasts/production-ml-search-vector-search-embeddings-hybrid-search/' | relative_url }})
+episode separates inverted-index search at 11:29, candidate generation and
+ranking at 12:45, embeddings at 21:55, and hybrid search at 34:00. That order
+is useful for RAG because a generated answer can't compensate for missing or
+badly ranked evidence.
 
-The production ML search episode separates two responsibilities. Vector
-databases store and retrieve nearest neighbors. Vector compute creates the
-representations during ingestion and at query time. That split affects data
-pipelines, model versioning, reindexing, latency, and consistency between
-document vectors and query vectors.
+For product search, the retrieved object may be a product or session. It may
+also be an image, document, or support article.
 
-### Knowledge graphs are useful when relationships are first-class
+For RAG, it may be a chunk or section. It may also be an entity, graph path, or
+source record.
 
-Graphs help when the important question is not only "which text is similar?"
-but "how are these entities, simulations, parts, constraints, or reports
-connected?" The automotive R&D episode uses graphs for semantic reporting,
-simulation comparison, clustering, and load-path detection. In RAG systems,
-graph retrieval can provide structured facts or Cypher-derived context instead
-of unstructured chunks alone.
+Both cases need metadata for filters and citations, plus freshness and
+evaluation. Daniel covers those search
+constraints at 29:00-45:11 in
+[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}).
+Atita covers RAG provenance at 38:24-48:09 in
+[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}).
 
-### Agents use retrieval as one tool
+## RAG as Context Packaging
 
-Agentic systems can call retrieval tools, inspect logs, query APIs, and use
-memory or knowledge stores. The archive distinguishes "RAG is enough" knowledge
-lookup from agent workflows that require planning, tool use, or action. This
-keeps knowledge-system design from turning every search problem into an agent
-problem.
+RAG turns retrieval results into model context. Atita's transcript chatbot in
+[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
+shows the sequence. The system ingests transcripts, chooses chunks and overlap,
+computes embeddings, and retrieves passages. It then places them into a prompt
+and returns citations. That makes chunk design part of the user experience, not just
+a preprocessing detail.
 
-## Decision Points and Checklists
+Hugo's
+[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }})
+discussion adds the debugging work. At 23:00 he emphasizes representative gold
+tests. At 26:43 he separates failure categories. At 27:38 he brings in logs
+and traces. At 48:20 he compares chunking and context-window strategies.
 
-### Retrieval architecture checklist
+Those practices connect RAG to
+[LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }})
+instead of leaving it as a demo.
 
-- Is the problem exact lookup, semantic matching, recommendation, answer
-  generation, or workflow automation?
-- Does the current keyword search stack already support vectors well enough?
-- Is reindexing acceptable, or does a parallel vector database reduce migration
-  risk?
-- Which signals are hard filters, and which are ranking weights?
-- Which metadata must survive retrieval for citations and downstream reasoning?
-- How will embedding-model changes trigger partial or full recomputation?
+## Vector Retrieval and Hybrid Search
 
-### RAG design checklist
+Vector retrieval helps when exact words are brittle, when users ask semantically
+similar questions in different language, or when the product needs multimodal
+matching. The [Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }})
+episode covers dense representations at 11:29, vector databases at 27:21, and
+CLIP-style text-to-image retrieval at 32:43. Those examples connect
+[embeddings]({{ '/wiki/embeddings/' | relative_url }}) to search,
+recommendations, personalization, and RAG.
 
-- Define the unit of retrieval: episode, clip, heading section, paragraph, or
-  sentence group.
-- Preserve provenance: episode title, guest, source file, timestamp, and source
-  URL.
-- Choose chunk size based on answer experience, not only token limits.
-- Decide whether retrieval is keyword, vector, hybrid, graph-based, or routed.
-- Require citations or evidence snippets for user-facing answers.
-- Build a gold set of representative questions before optimizing prompts.
+Hybrid search is the archive's production default for search products. The same
+search discussion adds filters and recency around vector similarity. It also
+adds popularity and business rules. Query-time weights and ranking matter too
+([Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}),
+34:00-45:11). That's why
+[Vector Database vs Search Engine]({{ '/wiki/vector-database-vs-search-engine/' | relative_url }})
+is an architecture decision, not a slogan about newer tools replacing older
+search engines.
 
-### Evaluation checklist
+## Knowledge Graphs and Structured Retrieval
 
-- Measure retrieval separately from answer generation.
-- Inspect failure modes: missing evidence, wrong chunk, stale content,
-  unsupported synthesis, noisy context, latency, and cost.
-- Use human review for nuanced RAG answers where exact-match metrics are weak.
-- Track business or product metrics when search affects revenue, engagement, or
-  support resolution.
-- Compare offline relevance tests with online A/B or user-feedback data before
-  broad rollout.
+Knowledge graphs become useful when the question is about relationships, not
+only similarity. Anahita's
+[Knowledge Graphs and LLMs for Automotive R&D]({{ '/podcasts/knowledge-graphs-and-llms-for-automotive-rnd/' | relative_url }})
+episode connects graph databases to changing automotive relationships at 16:31.
+It also covers semantic reporting at 10:28 and graph-based RAG at 33:43-39:56.
+The graph can preserve entities, containment, and order. It can also preserve paths and domain
+semantics that plain chunks may lose.
 
-## Episode Evidence
+Graph retrieval doesn't remove grounding work. Anahita's 42:42 discussion of
+hallucination and verification shows why graph facts still need validation,
+traceability, and review
+([Knowledge Graphs and LLMs for Automotive R&D]({{ '/podcasts/knowledge-graphs-and-llms-for-automotive-rnd/' | relative_url }})).
+Use [Graph RAG vs Vector RAG]({{ '/wiki/graph-rag-vs-vector-rag/' | relative_url }})
+when deciding whether the context should be similar text, graph paths, or both.
 
-| Episode | Evidence | Local summary |
-| --- | --- | --- |
-| [Modern Search Systems](https://datatalks.club/podcast.html) | At 20:27, compares vectors inside existing search stacks with standalone vector databases; at 30:38, defines RAG as retrieval plus generation; at 38:24, uses podcast transcripts, chunking, embeddings, and vectorization as a concrete RAG design; at 48:09, discusses multi-level RAG evaluation and human review. | [summary]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}) |
-| [Production ML Search](https://datatalks.club/podcast.html) | At 21:55, explains embeddings as shared representations for robust matching; at 30:22, separates vector compute from vector storage; at 34:00, shows why hybrid search needs recency, filters, popularity, and relevance tradeoffs; at 61:25, ties search metrics to business KPIs and A/B tests. | none yet |
-| [Building Agentic AI Systems](https://datatalks.club/podcast.html) | At 21:21, frames context engineering as deliberate input design; at 29:30, rejects "RAG is dead" because latency, cost, and noisy context still matter; at 32:48, emphasizes chunk metadata and wrappers; at 36:11, positions retrieval as a tool within agents. | none yet |
-| [Knowledge Graphs and LLMs for Automotive R&D](https://datatalks.club/podcast.html) | At 10:28, semantic reporting is tied to reusable analysis and regenerated results; at 16:31, graph databases are chosen because relational maintenance is costly for changing automotive relationships; at 33:43, covers knowledge graphs with LLM grounding and RAG; at 42:43, discusses hallucination and verification limits. | none yet |
-| [Production AI Engineering](https://datatalks.club/podcast.html) | At 28:16, prompt evaluation and example selection affect quality and cost; at 31:45, caching is a latency and cost lever; at 47:19, search-focused AI assistants are positioned as research and retrieval aids. | [summary]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }}) |
-| [Deploying LLMs in Production](https://datatalks.club/podcast.html) | Connects retrieval, fine-tuning, open-source models, vector databases, latency, cost, and evaluation. Retrieval is safer than fine-tuning when knowledge changes often. | none yet |
+## Evaluation and Operations
 
-## Tradeoffs and Open Questions
+Hugo adds tests in
+[the episode]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}).
+Failure labels show whether the next fix belongs in data preparation or
+retrieval. Some fixes belong in prompting, formatting, or product constraints
+instead.
 
-### Existing search stack vs standalone vector database
+Production search also needs business measurement. In
+[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}),
+Daniel ties search quality to revenue, A/B tests, and operational metrics at
+1:01:25-1:03:50. That makes [Production Search Evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }})
+the operational counterpart to RAG evaluation. A retriever can look good
+offline and still fail on latency, cost, conversion, or support resolution. It
+can also fail user trust.
 
-If a team already runs Solr, Elasticsearch, OpenSearch, Postgres, or another
-search-capable database, adding vector support in place can reduce operational
-sprawl. A standalone vector database is attractive when reindexing the current
-system is risky, vector experimentation should not disturb production search,
-or the team wants a focused vector service.
+## Production Boundaries
 
-### Vector search vs knowledge graph
+Use RAG when the system mostly answers from a changing knowledge base and needs
+sources, citations, or reviewable evidence. Meryem's
+[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }})
+discussion at 40:46-46:42 supports retrieval for changing knowledge, while
+[RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }}) captures
+the boundary with model adaptation.
 
-Vector search is strong for approximate semantic similarity. Knowledge graphs
-are strong for explicit relationships, constraints, and traversal. The archive
-does not present them as substitutes. A durable system may use both: vector
-retrieval to find candidate text and graph retrieval to preserve relationships
-or validate facts.
+Use agents for planning and tool calls when action needs API queries or state
+lookup. Ranjitha places retrieval as one tool inside a larger workflow at
+36:11-37:39.
+([episode]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}))
+That adds production complexity,
+while [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }})
+covers the added evaluation and tool-integration burden.
 
-### RAG vs fine-tuning
+Use graph retrieval when the relationship structure is part of the answer.
+Anahita's
+[Knowledge Graphs and LLMs for Automotive R&D]({{ '/podcasts/knowledge-graphs-and-llms-for-automotive-rnd/' | relative_url }})
+discussion at 38:10-39:56 supports graph context for domains where entity
+links, paths, and constraints matter. Use vector retrieval when semantic
+similarity over chunks, images, or sessions is the main retrieval problem
+([Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}),
+21:55-34:00).
 
-RAG is usually better for changing knowledge, source citation, and inspection.
-Fine-tuning is more plausible when the target is behavior, style, domain
-language, or repeated task performance. If the question is "what did the source
-say?", retrieval should remain central.
+## Practical Design Questions
 
-### RAG vs agents
+Use these checks when routing a search, RAG, or knowledge-graph design.
 
-Use RAG when the system mostly answers from a knowledge base. Use agents when
-the system must plan, call tools, inspect state, or take action. Agents increase
-testing complexity because retrieval quality is only one part of the workflow.
+1. Define the retrieval unit. Atita's transcript example uses chunks, while
+   Anahita's graph example uses graph units.
+   ([Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}),
+   38:24 and
+   [Knowledge Graphs and LLMs for Automotive R&D]({{ '/podcasts/knowledge-graphs-and-llms-for-automotive-rnd/' | relative_url }}),
+   38:10).
+2. Preserve the metadata that survives retrieval. Source and timestamp matter
+   in Atita's citation flow, while permissions and recency may matter too.
+   Graph relations can affect retrieval.
+   ([Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}),
+   34:00-45:11 and
+   [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}),
+   42:49).
+3. Choose the retrieval mode by failure mode. Keyword and vector search address
+   text matching, while hybrid search and graph retrieval address other
+   failures.
+   ([Production ML Search]({{ '/podcasts/production-ml-search-vector-search-embeddings-hybrid-search/' | relative_url }}),
+   11:29-45:11 and
+   [Graph RAG vs Vector RAG]({{ '/wiki/graph-rag-vs-vector-rag/' | relative_url }})).
+4. Evaluate retrieval and generation separately. Atita uses relevance and
+   citations in
+   [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}).
+   Hugo adds gold questions in
+   [Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}).
+   Daniel adds business metrics in
+   [Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}).
+5. Track what changes over time. Source documents, permissions, and embedding
+   models can force retrieval changes. Chunking and graph schemas can do the
+   same, as can prompts and ranking weights. User behavior can also force
+   changes
+   ([Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}),
+   29:00-33:13 and
+   [Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}),
+   40:46-46:42).
 
 ## Related Pages
 
+These pages cover the neighboring concepts and decision boundaries:
+
+- [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
+- [RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }})
+- [RAG Portfolio Projects]({{ '/wiki/rag-portfolio-projects/' | relative_url }})
+- [Search]({{ '/wiki/search/' | relative_url }})
+- [Information Retrieval]({{ '/wiki/information-retrieval/' | relative_url }})
+- [Embeddings]({{ '/wiki/embeddings/' | relative_url }})
+- [Vector Databases]({{ '/wiki/vector-databases/' | relative_url }})
+- [Vector Database vs Search Engine]({{ '/wiki/vector-database-vs-search-engine/' | relative_url }})
+- [Knowledge Graph vs Vector Search]({{ '/wiki/knowledge-graph-vs-vector-search/' | relative_url }})
+- [Graph RAG vs Vector RAG]({{ '/wiki/graph-rag-vs-vector-rag/' | relative_url }})
+- [Production Search Evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }})
+- [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }})
 - [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
-- [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
-- [MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }})
-- [LLM Tools article]({{ '/articles/llm-tools/' | relative_url }})
+- [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }})
