@@ -2,12 +2,12 @@
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
     "wikis": 168,
-    "articles": 66,
+    "articles": 71,
     "podcasts": 202,
     "persons": 438,
     "topics": 146,
-    "nodes": 1020,
-    "links": 10239
+    "nodes": 1025,
+    "links": 10392
   },
   "nodes": [
     {
@@ -281,6 +281,16 @@
       "keyword": "data engineering training"
     },
     {
+      "id": "article:data-engineering-zoomcamp",
+      "type": "article",
+      "label": "Data Engineering Zoomcamp: How to Use the Free Course for Job-Ready Practice",
+      "title": "Data Engineering Zoomcamp: How to Use the Free Course for Job-Ready Practice",
+      "url": "/articles/data-engineering-zoomcamp/",
+      "count": 1,
+      "search": "Data Engineering Zoomcamp: How to Use the Free Course for Job Ready Practice A podcast backed guide to the DataTalks.Club Data Engineering Zoomcamp: who it fits, what evidence to produce, how to use the cohort, and how to connect the course to a data engineering roadmap and portfolio.",
+      "keyword": "data engineering zoomcamp"
+    },
+    {
       "id": "article:data-engineering",
       "type": "article",
       "label": "Data Engineering: What Data Engineers Build and How the Work Fits Together",
@@ -299,6 +309,16 @@
       "count": 1,
       "search": "Data Observability for Data Engineering A podcast backed guide to data observability for data engineering teams: freshness, volume, schema, distribution, lineage, ownership, runbooks, and downstream impact.",
       "keyword": "data observability for data engineering"
+    },
+    {
+      "id": "article:data-science-for-managers",
+      "type": "article",
+      "label": "Data Science for Managers: What to Know Before Leading Data Science Work",
+      "title": "Data Science for Managers: What to Know Before Leading Data Science Work",
+      "url": "/articles/data-science-for-managers/",
+      "count": 1,
+      "search": "Data Science for Managers: What to Know Before Leading Data Science Work A podcast grounded guide to data science for managers: role boundaries, team design, stakeholder communication, project signals, production limits, and when not to use ML.",
+      "keyword": "data science for managers"
     },
     {
       "id": "article:data-scientist-interview",
@@ -451,6 +471,16 @@
       "keyword": "llm tools"
     },
     {
+      "id": "article:llm-zoomcamp",
+      "type": "article",
+      "label": "LLM Zoomcamp: What to Build, Prove, and Learn",
+      "title": "LLM Zoomcamp: What to Build, Prove, and Learn",
+      "url": "/articles/llm-zoomcamp/",
+      "count": 1,
+      "search": "LLM Zoomcamp: What to Build, Prove, and Learn A practical guide to LLM Zoomcamp as a path into LLM engineering, RAG, evaluation, monitoring, and AI engineering portfolio evidence, grounded in DataTalks.Club podcast discussions.",
+      "keyword": "llm zoomcamp"
+    },
+    {
       "id": "article:machine-learning-bootcamp",
       "type": "article",
       "label": "Machine Learning Bootcamp: How to Choose One and Turn It Into Job Evidence",
@@ -509,6 +539,16 @@
       "count": 1,
       "search": "Machine Learning System Design: A Practical Production Checklist A podcast backed guide to machine learning system design: problem framing, data, baselines, evaluation, serving, monitoring, fallbacks, and interview preparation.",
       "keyword": "machine learning system design"
+    },
+    {
+      "id": "article:machine-learning-zoomcamp",
+      "type": "article",
+      "label": "Machine Learning Zoomcamp: A Practical Path From ML Study to Portfolio Evidence",
+      "title": "Machine Learning Zoomcamp: A Practical Path From ML Study to Portfolio Evidence",
+      "url": "/articles/machine-learning-zoomcamp/",
+      "count": 1,
+      "search": "Machine Learning Zoomcamp: A Practical Path From ML Study to Portfolio Evidence A podcast backed guide to Machine Learning Zoomcamp and ML Zoomcamp: who it fits, prerequisites, portfolio signals, transition value, and what to do after the course.",
+      "keyword": "machine learning zoomcamp"
     },
     {
       "id": "article:ml-system-design-interview",
@@ -599,6 +639,16 @@
       "count": 1,
       "search": "MLOps vs DataOps: Separate Concepts, Shared Reliability Practices Podcast grounded comparison of MLOps and DataOps: what each discipline owns, where they overlap, and how teams should separate model incidents from data incidents.",
       "keyword": "mlops vs dataops"
+    },
+    {
+      "id": "article:mlops-zoomcamp",
+      "type": "article",
+      "label": "MLOps Zoomcamp: What to Build, Prove, and Learn",
+      "title": "MLOps Zoomcamp: What to Build, Prove, and Learn",
+      "url": "/articles/mlops-zoomcamp/",
+      "count": 1,
+      "search": "MLOps Zoomcamp: What to Build, Prove, and Learn A podcast grounded guide to using MLOps Zoomcamp to build production ML evidence through deployment, monitoring, reproducibility, CI/CD, and an end to end project.",
+      "keyword": "mlops zoomcamp"
     },
     {
       "id": "article:mlops",
@@ -15415,6 +15465,210 @@
       "weight": 5
     },
     {
+      "source": "article:data-engineering-zoomcamp",
+      "target": "article:apache-airflow",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-zoomcamp",
+      "target": "article:best-data-engineering-course",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-zoomcamp",
+      "target": "article:data-engineering-course",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-zoomcamp",
+      "target": "article:data-engineering-pipeline-project",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-zoomcamp",
+      "target": "article:free-data-engineering-course",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering-zoomcamp",
+      "target": "article:how-to-build-data-pipelines",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-zoomcamp",
+      "target": "person:adrianbrudaru",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-zoomcamp",
+      "target": "person:alexeygrigorev",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-zoomcamp",
+      "target": "person:alvaronavaspeire",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-zoomcamp",
+      "target": "person:jeffkatz",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-zoomcamp",
+      "target": "person:johannabayer",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-zoomcamp",
+      "target": "podcast:data-engineering-career-path-and-skills",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-zoomcamp",
+      "target": "podcast:datatalksclub-building-sustainable-data-community-3-years-anniversary",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-zoomcamp",
+      "target": "podcast:datatalksclub-scaling-and-free-courses",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-zoomcamp",
+      "target": "podcast:get-data-engineering-job-prep-and-interview",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-zoomcamp",
+      "target": "podcast:how-to-transition-into-ml-and-data-engineering-from-qa",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-zoomcamp",
+      "target": "podcast:trends-in-modern-data-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-zoomcamp",
+      "target": "wiki:community-building",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-zoomcamp",
+      "target": "wiki:community-building",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-zoomcamp",
+      "target": "wiki:data-engineer-role",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-zoomcamp",
+      "target": "wiki:data-engineer-role",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-zoomcamp",
+      "target": "wiki:data-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-zoomcamp",
+      "target": "wiki:data-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-zoomcamp",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering-zoomcamp",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-zoomcamp",
+      "target": "wiki:data-engineering-roadmap",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-engineering-zoomcamp",
+      "target": "wiki:data-engineering-roadmap",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-zoomcamp",
+      "target": "wiki:data-engineering-tools",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-zoomcamp",
+      "target": "wiki:data-engineering-tools",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-zoomcamp",
+      "target": "wiki:data-pipelines",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-zoomcamp",
+      "target": "wiki:dbt",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-zoomcamp",
+      "target": "wiki:job-search",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-engineering-zoomcamp",
+      "target": "wiki:job-search",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-engineering-zoomcamp",
+      "target": "wiki:modern-data-stack",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
       "source": "article:data-observability-for-data-engineering",
       "target": "article:dataops-vs-data-engineering",
       "kind": "article-link",
@@ -15855,6 +16109,180 @@
     {
       "source": "article:data-product-manager-role",
       "target": "wiki:product-analytics",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-science-for-managers",
+      "target": "article:data-engineer-manager",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-science-for-managers",
+      "target": "person:barbarasobkowiak",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-science-for-managers",
+      "target": "person:geojolly",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-science-for-managers",
+      "target": "person:lisacohen",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-science-for-managers",
+      "target": "person:marcodesa",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-science-for-managers",
+      "target": "person:terezaiofciu",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-science-for-managers",
+      "target": "podcast:chief-data-officer-data-strategy-and-org-design",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-science-for-managers",
+      "target": "podcast:data-leadership-coaching",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:data-science-for-managers",
+      "target": "podcast:data-science-manager-vs-expert-hiring-guide",
+      "kind": "article-link",
+      "weight": 8
+    },
+    {
+      "source": "article:data-science-for-managers",
+      "target": "podcast:data-science-team-structure-and-org-design",
+      "kind": "article-link",
+      "weight": 8
+    },
+    {
+      "source": "article:data-science-for-managers",
+      "target": "podcast:ml-product-manager-and-mlops-platform-strategy",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:data-science-for-managers",
+      "target": "wiki:communication",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-science-for-managers",
+      "target": "wiki:communication",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-science-for-managers",
+      "target": "wiki:data-science",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-science-for-managers",
+      "target": "wiki:data-science",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-science-for-managers",
+      "target": "wiki:data-strategy",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-science-for-managers",
+      "target": "wiki:data-strategy",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-science-for-managers",
+      "target": "wiki:data-teams",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-science-for-managers",
+      "target": "wiki:data-teams",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-science-for-managers",
+      "target": "wiki:hiring",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-science-for-managers",
+      "target": "wiki:hiring",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-science-for-managers",
+      "target": "wiki:leadership",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-science-for-managers",
+      "target": "wiki:leadership",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-science-for-managers",
+      "target": "wiki:machine-learning",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-science-for-managers",
+      "target": "wiki:machine-learning",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-science-for-managers",
+      "target": "wiki:mlops",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:data-science-for-managers",
+      "target": "wiki:mlops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:data-science-for-managers",
+      "target": "wiki:team-building",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:data-science-for-managers",
+      "target": "wiki:team-building",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -18835,6 +19263,192 @@
       "weight": 2
     },
     {
+      "source": "article:llm-zoomcamp",
+      "target": "article:llm-system-design-interview",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:llm-zoomcamp",
+      "target": "person:atitaarora",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:llm-zoomcamp",
+      "target": "person:bartoszmikulski",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:llm-zoomcamp",
+      "target": "person:hugobowneanderson",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:llm-zoomcamp",
+      "target": "person:meryemarik",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:llm-zoomcamp",
+      "target": "person:pauliusztin",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:llm-zoomcamp",
+      "target": "person:ranjithakulkarni",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:llm-zoomcamp",
+      "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:llm-zoomcamp",
+      "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:llm-zoomcamp",
+      "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:llm-zoomcamp",
+      "target": "podcast:practical-llm-engineering-and-rag",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:llm-zoomcamp",
+      "target": "podcast:production-ready-ai-engineering",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:llm-zoomcamp",
+      "target": "podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:llm-zoomcamp",
+      "target": "wiki:agent-engineering",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:llm-zoomcamp",
+      "target": "wiki:agent-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:llm-zoomcamp",
+      "target": "wiki:ai-engineering",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:llm-zoomcamp",
+      "target": "wiki:ai-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:llm-zoomcamp",
+      "target": "wiki:ai-engineering-roadmap",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:llm-zoomcamp",
+      "target": "wiki:ai-engineering-roadmap",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:llm-zoomcamp",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:llm-zoomcamp",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:llm-zoomcamp",
+      "target": "wiki:llm-production-patterns",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:llm-zoomcamp",
+      "target": "wiki:llm-production-patterns",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:llm-zoomcamp",
+      "target": "wiki:production-search-evaluation",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:llm-zoomcamp",
+      "target": "wiki:rag-portfolio-projects",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:llm-zoomcamp",
+      "target": "wiki:rag-portfolio-projects",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:llm-zoomcamp",
+      "target": "wiki:rag-vs-fine-tuning",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:llm-zoomcamp",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:llm-zoomcamp",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:llm-zoomcamp",
+      "target": "wiki:search-rag-and-knowledge-systems",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:llm-zoomcamp",
+      "target": "wiki:search-rag-and-knowledge-systems",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
       "source": "article:machine-learning-bootcamp",
       "target": "article:machine-learning-engineer-certification",
       "kind": "article-link",
@@ -20009,6 +20623,186 @@
       "target": "wiki:production-search-evaluation",
       "kind": "article-link",
       "weight": 4
+    },
+    {
+      "source": "article:machine-learning-zoomcamp",
+      "target": "person:aaishamuhammad",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:machine-learning-zoomcamp",
+      "target": "person:alvaronavaspeire",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:machine-learning-zoomcamp",
+      "target": "person:dashelruizperez",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:machine-learning-zoomcamp",
+      "target": "podcast:datatalksclub-building-scaling-data-community",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:machine-learning-zoomcamp",
+      "target": "podcast:from-semiconductor-data-to-applied-machine-learning",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:machine-learning-zoomcamp",
+      "target": "podcast:how-to-transition-into-ml-and-data-engineering-from-qa",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:machine-learning-zoomcamp",
+      "target": "podcast:learning-machine-learning-self-taught-bioinformatics",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:machine-learning-zoomcamp",
+      "target": "wiki:career-transition",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:machine-learning-zoomcamp",
+      "target": "wiki:career-transition",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:machine-learning-zoomcamp",
+      "target": "wiki:community-building",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:machine-learning-zoomcamp",
+      "target": "wiki:data-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:machine-learning-zoomcamp",
+      "target": "wiki:job-search",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:machine-learning-zoomcamp",
+      "target": "wiki:job-search",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:machine-learning-zoomcamp",
+      "target": "wiki:machine-learning",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:machine-learning-zoomcamp",
+      "target": "wiki:machine-learning",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:machine-learning-zoomcamp",
+      "target": "wiki:machine-learning-engineer-role",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:machine-learning-zoomcamp",
+      "target": "wiki:machine-learning-engineer-role",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:machine-learning-zoomcamp",
+      "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:machine-learning-zoomcamp",
+      "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:machine-learning-zoomcamp",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:machine-learning-zoomcamp",
+      "target": "wiki:mlops",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:machine-learning-zoomcamp",
+      "target": "wiki:mlops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:machine-learning-zoomcamp",
+      "target": "wiki:mlops-roadmap",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:machine-learning-zoomcamp",
+      "target": "wiki:model-monitoring",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:machine-learning-zoomcamp",
+      "target": "wiki:open-source-portfolio-evidence",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:machine-learning-zoomcamp",
+      "target": "wiki:qa-to-ml-and-data-engineering",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:machine-learning-zoomcamp",
+      "target": "wiki:qa-to-ml-and-data-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:machine-learning-zoomcamp",
+      "target": "wiki:software-engineer-to-machine-learning",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:machine-learning-zoomcamp",
+      "target": "wiki:software-engineer-to-machine-learning",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:machine-learning-zoomcamp",
+      "target": "wiki:teaching",
+      "kind": "article-link",
+      "weight": 2
     },
     {
       "source": "article:ml-system-design-interview",
@@ -22299,6 +23093,180 @@
     {
       "source": "article:mlops-vs-dataops",
       "target": "wiki:production",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:mlops-zoomcamp",
+      "target": "article:mlops-certification",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-zoomcamp",
+      "target": "article:mlops-course",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-zoomcamp",
+      "target": "article:mlops-tools",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-zoomcamp",
+      "target": "person:dannyleybzon",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-zoomcamp",
+      "target": "person:ioannismesionis",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:mlops-zoomcamp",
+      "target": "person:mariavechtomova",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-zoomcamp",
+      "target": "person:simonstiebellehner",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-zoomcamp",
+      "target": "podcast:building-data-products-lead-data-scientist",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:mlops-zoomcamp",
+      "target": "podcast:building-production-ml-platform-and-mlops-team",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:mlops-zoomcamp",
+      "target": "podcast:datatalksclub-scaling-and-free-courses",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-zoomcamp",
+      "target": "podcast:mlops-model-monitoring-data-observability",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:mlops-zoomcamp",
+      "target": "podcast:pragmatic-and-standardized-mlops",
+      "kind": "article-link",
+      "weight": 8
+    },
+    {
+      "source": "article:mlops-zoomcamp",
+      "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-zoomcamp",
+      "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:mlops-zoomcamp",
+      "target": "wiki:ml-platforms",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-zoomcamp",
+      "target": "wiki:ml-platforms",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:mlops-zoomcamp",
+      "target": "wiki:mlops",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-zoomcamp",
+      "target": "wiki:mlops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:mlops-zoomcamp",
+      "target": "wiki:mlops-engineer",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:mlops-zoomcamp",
+      "target": "wiki:mlops-engineer",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:mlops-zoomcamp",
+      "target": "wiki:mlops-roadmap",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-zoomcamp",
+      "target": "wiki:mlops-roadmap",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:mlops-zoomcamp",
+      "target": "wiki:mlops-tools",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:mlops-zoomcamp",
+      "target": "wiki:model-monitoring",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-zoomcamp",
+      "target": "wiki:model-monitoring",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:mlops-zoomcamp",
+      "target": "wiki:production",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-zoomcamp",
+      "target": "wiki:production",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:mlops-zoomcamp",
+      "target": "wiki:reproducibility",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:mlops-zoomcamp",
+      "target": "wiki:reproducibility",
       "kind": "article-wiki",
       "weight": 5
     },

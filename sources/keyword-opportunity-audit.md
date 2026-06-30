@@ -11,20 +11,25 @@ Input files:
 ## Extraction Result
 
 - Ubersuggest CSV rows extracted: 1000
-- Existing article pages checked: 66
+- Existing article pages checked: 71
 - Existing wiki pages checked: 168
-- Excel workbook tabs checked: `Quick-wins`, `Competitor Gaps`, `Code Fix`
-- Excel rows beyond headers: 0
+- Excel workbook tabs checked in the local file:
+  `Quick-wins`, `Competitor Gaps`, `Code Fix`
+- Excel rows beyond headers in the local file: 0
+- Expected rows in the intended gaps export: 689
 
-The workbook was checked through the raw `.xlsx` XML. The sheet dimensions are:
+The workbook was checked through the raw `.xlsx` XML. The local file at
+`.tmp/next-actions-done-datatalks.club.xlsx` is 17,859 bytes and has these
+sheet dimensions:
 
 - `Quick-wins`: `A1:C1`
 - `Competitor Gaps`: `A1:B1`
 - `Code Fix`: `A1:A1`
 
-So the Excel file currently contains only headers, not content rows. If there is
-another export with populated tabs, it should replace this file or be added next
-to it before we create content from that source.
+So the checked local Excel file currently contains only headers, not content
+rows. This does not mean there are no gap suggestions. The expected source has
+689 rows, so the local `.tmp` workbook should be replaced with the populated
+export or added next to it before we create content from the gap source.
 
 ## CSV Use
 
@@ -57,6 +62,11 @@ These keyword groups already have article coverage:
 | Data scientist interview | `_articles/data-scientist-interview.md` | data scientist interview |
 | Data product roles | `_articles/data-product-manager.md`, `_articles/data-product-manager-role.md`, `_articles/product-analyst.md` | data product manager, data product management, product analyst |
 | Airflow | `_articles/airflow.md`, `_articles/apache-airflow.md`, `_articles/airflow-docker-compose.md` | airflow, apache airflow, airflow docker compose |
+| Data Engineering Zoomcamp | `_articles/data-engineering-zoomcamp.md` | data engineering zoomcamp, data-engineering-zoomcamp, dataengineering zoomcamp, data engineer zoomcamp, data engineering zoom camp |
+| MLOps Zoomcamp | `_articles/mlops-zoomcamp.md` | mlops zoomcamp, mlops-zoomcamp, mlops zoom camp, datatalks.club mlops zoomcamp |
+| Machine Learning Zoomcamp | `_articles/machine-learning-zoomcamp.md` | machine learning zoomcamp, ml zoomcamp, machine learning zoomcamp reddit |
+| LLM Zoomcamp | `_articles/llm-zoomcamp.md` | llm zoomcamp, llm zoomcamp data talks club, datatalksclub llm zoomcamp |
+| Data Science for Managers | `_articles/data-science-for-managers.md` | data science for managers |
 
 ## Article Backlog From CSV
 
@@ -66,20 +76,15 @@ publication.
 
 | Priority | Article target | Keyword variants from CSV | Why it may be worth creating |
 |---:|---|---|---|
-| 1 | Data Engineering Zoomcamp | data engineering zoomcamp, data-engineering-zoomcamp, dataengineering zoomcamp, data engineer zoomcamp, data engineering zoom camp | Strong DataTalks.Club brand query cluster and direct course intent. |
-| 2 | MLOps Zoomcamp | mlops zoomcamp, mlops-zoomcamp, mlops zoom camp, datatalks.club mlops zoomcamp | Strong DataTalks.Club brand query cluster and direct course intent. |
-| 3 | Machine Learning Zoomcamp | machine learning zoomcamp, ml zoomcamp, machine learning zoomcamp reddit | Strong DataTalks.Club brand query cluster and direct course intent. |
-| 4 | LLM Zoomcamp | llm zoomcamp, llm zoomcamp data talks club, datatalksclub llm zoomcamp | Strong DataTalks.Club brand query cluster and direct course intent. |
-| 5 | Data Science for Managers | data science for managers | Can use leadership, stakeholder, product, and team-building podcast evidence. |
-| 6 | Data Roles | data roles | Can become a role-navigation article linking role wiki pages and podcast evidence. |
-| 7 | Data Analysis | data analysis | High volume, but broad. Needs a DataTalks-specific angle, probably analytics workflows and analyst role boundaries. |
-| 8 | Hire Data Engineers | hire data engineers | Commercial-intent article grounded in hiring, team-building, and data engineering role episodes. |
-| 9 | Data Science Headhunter / Recruiter | data science headhunter, data scientist headhunter | Possible hiring-market article if enough podcast evidence exists. |
-| 10 | AI Tools for Personal Productivity | ai tools for personal productivity, ai for personal productivity | Possible article if grounded in AI tooling and productivity episodes; avoid generic tool-list content. |
-| 11 | Machine Learning Newsletter | machine learning newsletter, machine learnings newsletter | Possible DataTalks/community article, but lower priority unless it maps to a real site asset. |
-| 12 | What Is Open Source | what is open source | Could reuse the open-source wiki, but only create an article if the keyword is strategically useful. |
-| 13 | Tech Startups | tech startups | Broad; probably lower priority than machine-learning-for-startups, which already exists. |
-| 14 | Delta Lake | delta lake | Wiki exists, but no article. Create only if podcast evidence is strong enough. |
+| 1 | Data Roles | data roles | Can become a role-navigation article linking role wiki pages and podcast evidence. |
+| 2 | Data Analysis | data analysis | High volume, but broad. Needs a DataTalks-specific angle, probably analytics workflows and analyst role boundaries. |
+| 3 | Hire Data Engineers | hire data engineers | Commercial-intent article grounded in hiring, team-building, and data engineering role episodes. |
+| 4 | Data Science Headhunter / Recruiter | data science headhunter, data scientist headhunter | Possible hiring-market article if enough podcast evidence exists. |
+| 5 | AI Tools for Personal Productivity | ai tools for personal productivity, ai for personal productivity | Possible article if grounded in AI tooling and productivity episodes; avoid generic tool-list content. |
+| 6 | Machine Learning Newsletter | machine learning newsletter, machine learnings newsletter | Possible DataTalks/community article, but lower priority unless it maps to a real site asset. |
+| 7 | What Is Open Source | what is open source | Could reuse the open-source wiki, but only create an article if the keyword is strategically useful. |
+| 8 | Tech Startups | tech startups | Broad; probably lower priority than machine-learning-for-startups, which already exists. |
+| 9 | Delta Lake | delta lake | Wiki exists, but no article. Create only if podcast evidence is strong enough. |
 
 ## Not Recommended From This CSV
 
@@ -94,15 +99,19 @@ separate site strategy:
 - Unclear or unrelated terms: `download"`, `scale"`, `rfm analysis`,
   `rfm segmentation`, `faang`
 
-## Next Content Step
+## Completed From This Audit
 
-The next article batch should start with the branded course-intent clusters:
+The first article batch from this audit has been created:
 
 1. `_articles/data-engineering-zoomcamp.md`
 2. `_articles/mlops-zoomcamp.md`
 3. `_articles/machine-learning-zoomcamp.md`
 4. `_articles/llm-zoomcamp.md`
+5. `_articles/data-science-for-managers.md`
 
-These pages should link to existing course pages where appropriate and use
-podcast evidence only where it helps explain role outcomes, project evidence,
-career transitions, and production skill expectations.
+## Next Content Step
+
+Replace the local gaps workbook with the populated 689-row export, then group
+those gap suggestions separately from the Ubersuggest keyword backlog. Until
+that file is available locally, continue with the remaining CSV backlog in the
+table above.

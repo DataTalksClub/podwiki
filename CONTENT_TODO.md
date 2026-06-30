@@ -253,6 +253,10 @@ Source hints:
 
 Start with this batch when expanding the content set.
 
+- Resolve the 689-row content gaps export. The local file
+  `.tmp/next-actions-done-datatalks.club.xlsx` currently has the expected tabs
+  but only header rows, so replace it with the populated export before creating
+  gap-driven pages.
 - Add transition pages for marketing to analytics engineering, QA to ML/data
   engineering, and academic researcher to data science.
 - Add portfolio project pages for data engineering, ML engineering, analytics
