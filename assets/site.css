@@ -400,6 +400,19 @@ button:focus,
   gap: 0.55rem;
 }
 
+.graph-connection-group {
+  margin: 1rem 0 0;
+}
+
+.graph-connection-group h3 {
+  margin: 0 0 0.45rem;
+  color: var(--muted);
+  font-family: "Alegreya Sans", "Segoe UI", system-ui, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 .graph-connection {
   display: block;
   padding: 0.6rem 0.7rem;

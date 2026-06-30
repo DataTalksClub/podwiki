@@ -45,8 +45,9 @@ These notes capture the current cleanup direction and should not be lost.
   DataTalks.Club episode.
 - Make related links visually obvious in CSS. Related pages should look like
   links, not muted tags.
-- Add a graph-driven "See also" or related graph nodes section to wiki and
-  editorial pages, especially stub pages such as `_wiki/tools.md`.
+- Keep the graph-driven "See Also in the Graph" section on wiki, editorial,
+  podcast summary, and people pages. It is rendered from `graph/graph.json` by
+  `assets/page-graph.js`, so Markdown links remain the source of truth.
 - Keep `/podcasts/` as a list view closer to the original DataTalks.Club
   podcast structure. The pages in `_podcast_summaries/` are the internal
   citation targets for wiki and editorial pages.

@@ -6,8 +6,15 @@
     topic: "Topic",
     wiki: "Wiki",
     article: "Content",
-    podcast: "Podcast",
+    podcast: "Podcast Summary",
     person: "Person",
+  };
+  const groupLabels = {
+    wiki: "Wiki",
+    article: "Guides and Editorial Pages",
+    podcast: "Podcast Summaries",
+    person: "People",
+    topic: "Topic Tags",
   };
 
   function baseUrl() {
@@ -41,6 +48,17 @@
     return { wiki: 0, article: 1, podcast: 2, person: 3, topic: 4 }[type] || 5;
   }
 
+  function typeLabel(node) {
+    if (node.type !== "article") return labels[node.type] || node.type;
+    const collectionLabels = {
+      guide: "Guide",
+      comparison: "Comparison",
+      roadmap: "Roadmap",
+      how_to: "How-To",
+    };
+    return collectionLabels[node.collection] || "Content";
+  }
+
   function nodeUrl(node) {
     return siteUrl(node.url || "/graph.html");
   }
@@ -56,17 +74,28 @@
 
   function linkedNodes(graph, node) {
     const nodes = new Map((graph.nodes || []).map((item) => [item.id, item]));
-    const linked = [];
+    const linked = new Map();
     for (const link of graph.links || []) {
       let id = "";
       if (link.source === node.id) id = link.target;
       if (link.target === node.id) id = link.source;
       if (!id || !nodes.has(id)) continue;
-      linked.push({ ...nodes.get(id), weight: link.weight || 1, kind: link.kind || "" });
+      const current = linked.get(id);
+      const nextWeight = Math.max(current ? current.weight : 0, link.weight || 1);
+      linked.set(id, { ...nodes.get(id), weight: nextWeight, kind: link.kind || "" });
     }
-    return linked
-      .sort((a, b) => b.weight - a.weight || typeRank(a.type) - typeRank(b.type) || String(a.label).localeCompare(String(b.label)))
-      .slice(0, 12);
+    return Array.from(linked.values())
+      .sort((a, b) => b.weight - a.weight || typeRank(a.type) - typeRank(b.type) || String(a.label).localeCompare(String(b.label)));
+  }
+
+  function groupNodes(nodes) {
+    const groups = new Map();
+    for (const item of nodes) {
+      const group = groups.get(item.type) || [];
+      if (group.length < 6) group.push(item);
+      groups.set(item.type, group);
+    }
+    return Array.from(groups.entries()).sort((a, b) => typeRank(a[0]) - typeRank(b[0]));
   }
 
   function render(root, graph, node) {
@@ -79,16 +108,22 @@
       root.hidden = true;
       return;
     }
+    const groups = groupNodes(linked);
     root.innerHTML = `
-      <h2>Graph Connections</h2>
-      <div class="graph-connection-list">
-        ${linked.map((item) => `
-          <a class="graph-connection" href="${escapeHtml(nodeUrl(item))}">
-            <span>${escapeHtml(labels[item.type] || item.type)}</span>
-            ${escapeHtml(item.label || item.title)}
-          </a>
-        `).join("")}
-      </div>
+      <h2>See Also in the Graph</h2>
+      ${groups.map(([type, items]) => `
+        <section class="graph-connection-group">
+          <h3>${escapeHtml(groupLabels[type] || labels[type] || type)}</h3>
+          <div class="graph-connection-list">
+            ${items.map((item) => `
+              <a class="graph-connection" href="${escapeHtml(nodeUrl(item))}">
+                <span>${escapeHtml(typeLabel(item))}</span>
+                ${escapeHtml(item.label || item.title)}
+              </a>
+            `).join("")}
+          </div>
+        </section>
+      `).join("")}
       <p class="graph-open"><a href="${escapeHtml(graphUrl(node))}">Open this page in the graph</a></p>
     `;
   }
