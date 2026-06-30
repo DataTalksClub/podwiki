@@ -104,15 +104,16 @@ with local podcast links and guest links before writing wiki or editorial pages.
 Insight pages should follow the shape requested in DataTalksClub issue #111:
 
 - title and 1-2 paragraph introduction
-- table of contents
 - H2/H3 subtopic sections
 - brief synthesized takeaways based on transcript evidence
 - relevant podcast cards or episode links
-- guest experts section
 - related topics section
 
 Prefer evidence-backed synthesis over generic advice. If the source transcripts do
-not support a claim, mark it as a hypothesis or leave it out.
+not support a claim, mark it as a hypothesis or leave it out. Keep guest names,
+podcast links, and evidence inside the relevant topic sections instead of adding
+visible meta sections such as contents, guest experts, archive evidence, or
+maintenance notes.
 
 ## Wiki vs Editorial Content
 

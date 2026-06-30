@@ -324,10 +324,11 @@ Start with this batch when expanding the content set.
 - Treat Delta Lake as a wiki concept. The editorial comparison now lives in
   `_comparisons/delta-lake-vs-apache-iceberg.md`; keep bare Delta Lake updates
   on `_wiki/delta-lake.md`.
-- Keep A/B testing as wiki coverage, not a separate guide, unless a future
-  keyword brief specifically asks for a listening guide. Current coverage lives
-  in `_wiki/a-b-testing.md`, `_wiki/experimentation-and-causal-inference.md`,
-  and `_guides/product-analyst.md`.
+- Keep A/B testing as wiki coverage, not a separate guide. Current canonical
+  coverage lives in `_wiki/a-b-testing.md`,
+  `_wiki/experimentation-and-causal-inference.md`, `_wiki/experimentation.md`,
+  and `_wiki/power-analysis.md`. Editorial pages such as Product Analyst should
+  link back to those wiki pages instead of owning the topic.
 - Do not create a generic machine learning newsletter guide from the podcast
   archive alone. The evidence supports a community-content or owned-channel
   guide later, not a standalone "best newsletters" page.

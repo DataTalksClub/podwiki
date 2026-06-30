@@ -8,266 +8,225 @@ related:
   - Tracking Plans
   - A/B Testing
   - Experimentation and Causal Inference
+  - Metrics
+  - Analytics Engineering
+  - Data Product Management
+  - Data Product Adoption
   - Data Activation
 ---
 
-Product analytics studies product usage so teams can improve activation,
-retention, engagement, and monetization. In the podcast archive, product
-analytics is broader than funnel reporting: it starts with
+Product analytics studies how people use a product. Teams use it to improve
+activation, retention, and product quality. They also use it to understand
+engagement and monetization.
+
+In the podcast archive, product analytics starts with
 [event tracking]({{ '/wiki/event-tracking/' | relative_url }}) and
-[tracking plans]({{ '/wiki/tracking-plans/' | relative_url }}). It becomes more
-reliable through [metrics]({{ '/wiki/metrics/' | relative_url }}) and
-[A/B testing]({{ '/wiki/a-b-testing/' | relative_url }}). Teams get more value
-when they connect the findings to product decisions.
+[tracking plans]({{ '/wiki/tracking-plans/' | relative_url }}). Metrics and
+[A/B testing]({{ '/wiki/a-b-testing/' | relative_url }}) make it more
+trustworthy. Product teams use evidence to change roadmaps and experiments.
+They also use it for onboarding, support, and lifecycle messaging.
 
-Across these episodes, guests treat product analytics as a bridge between
-product work and the modern data stack. Arpit Choudhury connects product
-analytics to documented events and collection choices. He then follows the data
-into warehouses, BI, customer data platforms, and reverse ETL in the
-[data-led growth episode at 13:34-46:13]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }}).
-Jakob Graff adds that product analytics is a causal decision discipline when it
-is used for experiments. His discussion covers randomization, metric design,
-and power analysis in
-[the A/B testing episode at 5:11-37:44]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}).
+Product managers share this work with analysts and analytics engineers. Data
+engineers and data scientists contribute too.
 
-This topic is the center for product usage analysis. For growth systems, use
-[Data-Led Growth]({{ '/wiki/data-led-growth/' | relative_url }}). For product
-signals in operational tools, use
-[Data Activation]({{ '/wiki/data-activation/' | relative_url }}). For analytics
-outputs that change decisions, use
-[Data Product Adoption]({{ '/wiki/data-product-adoption/' | relative_url }}).
+In [Data Team Roles]({{ '/podcasts/data-team-roles/' | relative_url }}),
+[Alexey Grigorev]({{ '/people/alexeygrigorev/' | relative_url }}) puts
+analysts next to product managers. The product manager
+keeps the team close to the user. Analysts quantify the problem and later check
+whether a shipped feature improved the posting flow or reduced wrong
+categorization
+([5:47-11:17]({{ '/podcasts/data-team-roles/' | relative_url }})). The later
+episodes add the stack, inference, product-management, and adoption layers.
 
-## Link Map
+## Concept Scope
 
-Start with these podcast discussions:
+A practical archive-backed definition has five parts:
 
-- [Arpit Choudhury on data-led growth, event tracking, and reverse ETL]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }}) explains how product analytics depends on event definitions, properties, collection tools, warehouses, BI, CDPs, and activation.
-- [Jakob Graff on product analytics and A/B testing]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}) shows why product analytics needs randomization, assignment tracking, A/A tests, metric stability, and power analysis before teams trust experiment results.
-- [Nikola Maksimovic on moving from marketing to analytics engineering]({{ '/podcasts/from-marketing-to-analytics-engineering-sql-dbt-career-switch/' | relative_url }}) places product analytics inside analytics engineering. That work uses SQL, dbt, Looker, Redshift, Snowplow, dashboards, growth analysis, retention analysis, RFM analysis, and A/B testing.
-- [Sara Menefee on becoming a data product manager]({{ '/podcasts/product-designer-to-data-product-manager/' | relative_url }}) connects analytics to customer discovery, hypothesis formation, data quality, documentation, SQL literacy, and product lifecycle decisions.
-- [Caitlin Moorman on last-mile data delivery]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }}) explains why technically correct analytics still fail when they're not discoverable. Teams also need trust, interpretation, and decision context.
+- Teams define the product question, such as activation drop-off or roadmap
+  priority.
+- Teams instrument behavior with named events and properties. They record
+  owners, source context, data types, and capture locations.
+- Analysts and analytics engineers model product usage into funnels, cohorts,
+  dashboards, and experiment metrics.
+- Product and growth teams use [experimentation]({{ '/wiki/experimentation/' | relative_url }})
+  or [Experimentation and Causal Inference]({{ '/wiki/experimentation-and-causal-inference/' | relative_url }})
+  when they need to know whether a product change caused an outcome.
+- Teams package the result so someone can make a decision, take an operational
+  action, or adopt a [data product]({{ '/wiki/data-products/' | relative_url }}).
 
-Guest pages:
+[Arpit Choudhury]({{ '/people/arpitchoudhury/' | relative_url }}) gives the
+stack-oriented version in
+[Data-Led Growth, Event Tracking, and Reverse ETL]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }}).
+He follows product events from collection through storage, transformation,
+analysis, and activation. Product analytics sits beside warehouses and BI. It
+also sits beside customer data platforms and
+[reverse ETL]({{ '/wiki/reverse-etl/' | relative_url }}) because the same events
+can support dashboards, growth analysis, and CRM enrichment. They can also add
+support context and personalize onboarding
+([22:50-46:13]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }})).
 
-- [Arpit Choudhury]({{ '/people/arpitchoudhury/' | relative_url }})
-- [Jakob Graff]({{ '/people/jakobgraff/' | relative_url }})
-- [Nikola Maksimovic]({{ '/people/nikolamaksimovic/' | relative_url }})
-- [Sara Menefee]({{ '/people/saramenefee/' | relative_url }})
-- [Caitlin Moorman]({{ '/people/caitlinmoorman/' | relative_url }})
-
-Adjacent wiki pages:
-
-- [Data-Led Growth]({{ '/wiki/data-led-growth/' | relative_url }})
-- [Event Tracking]({{ '/wiki/event-tracking/' | relative_url }})
-- [Tracking Plans]({{ '/wiki/tracking-plans/' | relative_url }})
-- [Metrics]({{ '/wiki/metrics/' | relative_url }})
-- [A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }})
-- [Experimentation and Causal Inference]({{ '/wiki/experimentation-and-causal-inference/' | relative_url }})
-- [Data Activation]({{ '/wiki/data-activation/' | relative_url }})
-- [Reverse ETL]({{ '/wiki/reverse-etl/' | relative_url }})
-- [Customer Data Platforms]({{ '/wiki/customer-data-platforms/' | relative_url }})
-- [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
-- [Data Products]({{ '/wiki/data-products/' | relative_url }})
-- [Data Product Adoption]({{ '/wiki/data-product-adoption/' | relative_url }})
-
-## Common Definition
-
-Across the archive, product analytics means turning product behavior into
-decisions. Teams first define the product question. Then they choose events and
-properties that represent the behavior. They collect the data consistently and
-model it where needed.
-
-They use the result for funnels, cohorts, and
-dashboards. Experiments, activation, and product planning use the same product
-behavior base.
-
-Choudhury's growth-stack discussion gives the infrastructure version of that
-definition. He starts with [tracking plans]({{ '/wiki/tracking-plans/' | relative_url }})
-for event names and properties. The plan also records ownership and collection
-context before product analytics tools enter the picture
-([data-led growth at 13:34-24:43]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }})).
-He then follows the same events into warehouses and BI analysis. Product
-analytics tools, activation systems, reverse ETL, and CDPs use the same event
-base
-([data-led growth at 28:52-41:30]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }})).
-
-Graff gives the measurement version. Product analytics can describe behavior,
-but product decisions often need causal evidence. His episode moves from
-econometrics into product analytics. He explains experiments through
-randomization, external noise control, and revenue metric design. Assignment
-tracking, A/A testing, metric stability, and power analysis
-complete the measurement work
-([product analytics and A/B testing at 5:11-37:44]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }})).
-
-The role-oriented episodes add that product analytics is shared work. Maksimovic
-describes product support and dashboards as part of an analytics engineering
-role. Growth analysis, retention analysis, RFM work, and A/B tests sit in the
-same role
-([marketing to analytics engineering at 14:14 and 38:27]({{ '/podcasts/from-marketing-to-analytics-engineering-sql-dbt-career-switch/' | relative_url }})).
-Menefee describes a data product manager using customer discovery and
-hypotheses. SQL, data-quality awareness, and documentation literacy help turn
-data into product choices
-([data product manager at 7:04-26:33]({{ '/podcasts/product-designer-to-data-product-manager/' | relative_url }})).
-
-## Disagreements and Boundaries
-
-Choudhury is the most stack-oriented. He treats product analytics as one part
-of a data-led growth system. Event collection and warehouse storage matter.
-Transformation, BI, product analytics, and CDP choices also matter. Reverse ETL
-and team ownership affect whether product teams can use behavioral data
-([data-led growth at 22:50-46:13]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }})).
-
-Graff is the most inference-oriented. For him, product analytics is unreliable
-when teams skip randomization checks or choose noisy metrics. It also breaks
-when teams ignore business cycles or underpower tests. His guidance is narrower
-than "analyze usage."
-Use experimentation to learn what caused a change, not just what changed
-([product analytics and A/B testing at 8:13-40:23]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }})).
-
-Maksimovic connects product analytics with
-[analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }}).
-SQL, dbt, Looker, and Redshift support product and growth analysis. Snowplow,
-dashboarding, and data modeling support the same work
-([marketing to analytics engineering at 18:34-30:28]({{ '/podcasts/from-marketing-to-analytics-engineering-sql-dbt-career-switch/' | relative_url }})).
-
-Menefee and Moorman focus more on product judgment and adoption. Menefee starts
-from customer discovery and hypothesis formation. She also covers data quality
-and PII. Compliance, SQL, and the data lifecycle sit in the same product role
-([data product manager at 7:04-28:30]({{ '/podcasts/product-designer-to-data-product-manager/' | relative_url }})).
-
-Moorman starts from whether the analysis becomes usable in a decision. Adoption
-depends on trust, interpretability, and personas. Teams support that adoption
-with outcome-first design, meeting rituals, and narrow slices of measurable
-impact
-([last-mile data delivery at 20:02-45:35]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }})).
+[Jakob Graff]({{ '/people/jakobgraff/' | relative_url }}) gives the
+inference-oriented version in
+[Product Analytics and A/B Testing]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}).
+Behavioral analysis can describe what changed, but product teams need
+randomization checks and assignment tracking. They also need A/A tests, stable
+metrics, and power analysis before they treat an experiment result as causal
+evidence
+([8:13-40:23]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }})).
 
 ## Instrumentation Before Analysis
 
-Across these episodes, product analytics starts before a dashboard or vendor
-tool. Choudhury recommends a tracking plan for event names, properties, and
-owners. It also records data types, source context, and capture locations.
-His SaaS examples include signup, project creation, invites, and invoices. He
-distinguishes client-side from server-side events by timing, accuracy, and use
-case
-([data-led growth at 13:34-28:52]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }})).
+Product analytics depends on event definitions before it depends on a charting
+tool. Choudhury recommends tracking plans for event names, properties, owners,
+and source context. Teams also record data types and capture locations. His
+SaaS examples include
+signup, project creation, invites, and invoices. He also separates client-side
+and server-side events by timing, accuracy, and use case
+([13:34-28:52]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }})).
 
+Product analytics therefore belongs near
 [Event Tracking]({{ '/wiki/event-tracking/' | relative_url }}) and
-[Tracking Plans]({{ '/wiki/tracking-plans/' | relative_url }}) are prerequisites
-for trusted product analytics. The same growth-stack episode uses anomaly
-investigation to show the practical value. Teams need to know where an event
-came from before they judge a spike. That source context also helps them check
-whether a funnel drop or fake-signup case is real
-([data-led growth at 18:27-20:47]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }})).
+[Tracking Plans]({{ '/wiki/tracking-plans/' | relative_url }}), not under a
+separate implementation-only topic. Teams can only trust a funnel drop, signup
+spike, or activation metric when they can trace where the event came from.
+In Choudhury's anomaly example, source context helps teams decide whether a
+spike is real product behavior or a collection problem such as fake signups
+([18:27-20:47]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }})).
 
-## Metrics, Funnels, and Experiments
+[Liesbeth Dingemans]({{ '/people/liesbethdingemans/' | relative_url }}) adds
+the product-design side in
+[AI Product Design]({{ '/podcasts/ai-ml-product-design-and-experimentation/' | relative_url }}).
+Algorithm-ready product experiences need interfaces that collect the right
+signals. Her examples contrast interaction design with signal collection. She
+then connects those signals to design sprints, parallel experiments, scoping
+documents, and product roadmaps
+([6:43-18:21]({{ '/podcasts/ai-ml-product-design-and-experimentation/' | relative_url }})).
+For AI or ML products, instrumentation is part of the product design, not an
+analytics task added after launch.
 
-Product analytics is strongest when descriptive usage metrics connect to a
-decision method. Graff's episode treats [A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }})
-and [Experimentation and Causal Inference]({{ '/wiki/experimentation-and-causal-inference/' | relative_url }})
-as the step from "users behaved differently" to "this change caused the
-difference." He uses randomization and traffic splitting. Assignment tracking
-and A/A tests validate the experiment system before teams interpret product
-results
-([product analytics and A/B testing at 8:13-30:05]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }})).
+## Metrics And Experiments
 
-Metric design is part of the product decision, not a reporting afterthought.
-Graff's subscription-versus-points example shows that revenue metrics can change
-the interpretation of a product test. His later sections cover stability and
-seasonality. They also cover sample size, duration, and distribution checks
-before teams act on a result
-([product analytics and A/B testing at 14:27-44:39]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }})).
+Product analytics becomes decision-grade when teams connect descriptive usage
+metrics to a decision method. Graff treats
+[A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }}) as the path from
+"users behaved differently" to "this product change caused the difference."
+His episode covers traffic splitting, assignment tracking, A/A tests, and
+simple two-group designs before teams interpret results
+([24:54-33:23]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }})).
 
-Maksimovic shows the analytics-engineering side of the same work. Product
-analytics at Ecosia included growth analysis, retention analysis, and RFM
-analysis. It also included NLP experiments, dashboards, and A/B testing support.
-SQL, data modeling, and dbt backed that work. Looker, Redshift, and Snowplow
-also appear in the same tooling story
-([marketing to analytics engineering at 14:14-23:12 and 38:27-39:36]({{ '/podcasts/from-marketing-to-analytics-engineering-sql-dbt-career-switch/' | relative_url }})).
+[Metrics]({{ '/wiki/metrics/' | relative_url }}) include product assumptions, so
+teams need to choose them before they celebrate a win. Graff's
+subscription-versus-points example shows how a revenue metric can change the
+interpretation of a product test. He also stresses noise, stability, and
+seasonality. Teams need sample-size, duration, and distribution checks before
+acting on a result
+([14:27-44:39]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }})).
 
-## Warehouse, BI, and Product Analytics Tools
+[Nikola Maksimovic]({{ '/people/nikolamaksimovic/' | relative_url }}) shows the
+[analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
+version of the same work in
+[From Marketing to Analytics Engineering]({{ '/podcasts/from-marketing-to-analytics-engineering-sql-dbt-career-switch/' | relative_url }}).
+Product analytics at Ecosia included product support, growth analysis,
+retention analysis, and RFM work. It also included NLP experiments, dashboards,
+and A/B testing. SQL and dbt backed those product questions. Looker and
+Redshift supported the same work, as did Snowplow and data modeling
+([14:14-23:12 and 38:27-39:36]({{ '/podcasts/from-marketing-to-analytics-engineering-sql-dbt-career-switch/' | relative_url }})).
 
-Guests don't draw a hard wall between product analytics tools and
-[BI]({{ '/wiki/analytics-engineering/' | relative_url }}) work. Choudhury places
-product analytics beside warehouses, transformations, and BI tools. Data
-collection platforms, reverse ETL, and CDPs sit nearby. Product analytics tools
-make common behavioral questions easier, but warehouses and BI remain important
-for joins. They also support governed definitions, custom metrics, and broader
-reporting
-([data-led growth at 28:52-41:30]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }})).
+## Product Roles And Ownership
 
-Maksimovic's transition episode shows why this overlap matters in practice. His
-analytics engineering work included Looker reporting and dbt migration.
-Redshift, Airflow, Airbyte, and Snowplow appear in the same stack. He also
-discusses wide-versus-narrow modeling choices and incrementalization tradeoffs.
-Those aren't separate from product analytics when product teams depend on
-governed dashboards, retention metrics, and experiment readouts
-([marketing to analytics engineering at 18:34-33:46]({{ '/podcasts/from-marketing-to-analytics-engineering-sql-dbt-career-switch/' | relative_url }})).
+The archive doesn't make one role own product analytics alone. In
+[Data Team Roles]({{ '/podcasts/data-team-roles/' | relative_url }}), product
+managers prioritize and represent user needs. Analysts quantify the problem,
+define KPIs, explain the data, and evaluate whether a feature worked
+([5:47-11:17]({{ '/podcasts/data-team-roles/' | relative_url }})). That division
+keeps product analytics close to both product judgment and statistical
+measurement.
 
-Teams trade tool speed against metric control. Product analytics tools can help
-product and growth teams ask self-serve behavioral questions.
-Warehouse-centric work gives stronger control over transformations and joins.
-It also gives stronger control over lineage and metric governance, but it asks
-more from analysts, analytics engineers, and data engineers
-([data-led growth at 35:27-46:13]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }})).
+[Sara Menefee's]({{ '/people/saramenefee/' | relative_url }})
+[Data Product Manager]({{ '/podcasts/product-designer-to-data-product-manager/' | relative_url }})
+episode connects product analytics to
+[Data Product Management]({{ '/wiki/data-product-management/' | relative_url }}).
+She frames data product work around customer discovery, hypothesis formation,
+data quality, and compliance. SQL literacy, documentation, and lifecycle
+context also matter, from data sources through warehouses and applications
+([7:04-28:30]({{ '/podcasts/product-designer-to-data-product-manager/' | relative_url }})).
+For product analytics, that means the product question and the data quality
+question need to move together.
 
-## Activation and Last-Mile Adoption
+Dingemans makes the same cross-functional point for AI and ML products. She
+argues for involving data scientists early in problem definition. Otherwise,
+teams can discover too late that the product idea, signals, or interface can't
+support the model. Product managers then use scoping documents, rapid
+experiments, and data-driven pitches to decide which bets deserve investment
+([25:00-35:00 and 46:30-56:36]({{ '/podcasts/ai-ml-product-design-and-experimentation/' | relative_url }})).
 
-Product analytics becomes operational when product events leave the dashboard.
-Choudhury describes sending event data to support, sales, engagement, and
-onboarding tools through activation and reverse ETL. The same behavioral data
-that powers funnels can also personalize lifecycle messages, enrich CRM records,
-or provide support context
-([data-led growth at 30:03-41:30]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }})).
+## Adoption And Activation
 
-Moorman adds that usage isn't guaranteed after data is delivered. Teams still
-need discoverability, interpretability, trust, and decision context. Her last
-mile framing treats analytics as a data product. Start with the outcome and map
-the decision. Then prototype low-fidelity interfaces, embed metrics in meetings,
-and build advocacy through narrow measurable wins
-([last-mile data delivery at 8:48-45:35]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }})).
+Product analytics doesn't end at a dashboard. Choudhury describes activation
+work that sends product event data to support and sales tools. Teams can also
+send it to onboarding and engagement systems through
+[Data Activation]({{ '/wiki/data-activation/' | relative_url }}) and reverse
+ETL. The same events that power funnels can enrich CRM records, trigger
+lifecycle messages, or give support teams product context
+([30:03-41:30]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }})).
 
-For the operational side, use
-[Data Activation]({{ '/wiki/data-activation/' | relative_url }}) and
-[Reverse ETL]({{ '/wiki/reverse-etl/' | relative_url }}). For product framing,
-use [Data Products]({{ '/wiki/data-products/' | relative_url }}) and
+[Caitlin Moorman's]({{ '/people/caitlinmoorman/' | relative_url }})
+[Last-Mile Data Delivery]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }})
+episode explains why technically correct analytics can still fail. Teams need
+trust, discoverability, and interpretability. They also need data quality and
+decision context.
+
+Moorman recommends treating analytics as a product, with user research and
+persona-driven design. Teams should start from the decision they need to make,
+prototype low-fidelity interfaces, and embed metrics in meetings
+([24:13-39:32]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }})).
+That places product analytics directly next to
 [Data Product Adoption]({{ '/wiki/data-product-adoption/' | relative_url }}).
-Across these episodes, teams work backward from the decision and then choose the
-simplest analytics, activation, or product surface that preserves trust.
 
-## Product Roles and Discovery
+Moorman also connects product analytics to organizational behavior. Adoption
+improves when teams scope narrow slices, recruit advocates, and prove impact
+with measurable wins or practical proxy metrics
+([41:18-52:45]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }})).
+Those constraints matter because a dashboard that nobody trusts or uses does
+not improve the product.
 
-Product analytics isn't owned by one title in the archive. Menefee's data
-product manager episode shows a product-side version. The PM uses customer
-discovery to form hypotheses and works through product lifecycle planning with
-engineering. They also need data-quality awareness, compliance awareness, SQL,
-and enough data-engineering literacy to collaborate with technical teams
-([data product manager at 7:04-28:30]({{ '/podcasts/product-designer-to-data-product-manager/' | relative_url }})).
+## Boundaries
 
-Menefee also makes documentation and empathy part of the role. She describes
-daily work across standups, analytics, and customer development. She also
-covers product documentation, PRDs, and customer notes. Knowledge bases,
-backlog validation, and context switching round out the role
-([data product manager at 46:01-60:40]({{ '/podcasts/product-designer-to-data-product-manager/' | relative_url }})).
+Use product analytics for product behavior, from events and funnels to cohorts
+and activation. It also covers retention and feature use, plus user quality and
+product experiments. Use
+[Data-Led Growth]({{ '/wiki/data-led-growth/' | relative_url }}) when the page
+needs the broader growth stack across collection, storage, and analysis. It
+also covers activation and customer data infrastructure.
 
-Maksimovic shows the analyst or analytics engineer side. Domain knowledge from
-marketing helped him understand funnels, user journeys, and stakeholder needs.
-SQL, dashboards, dbt, and modeling turned that context into reusable analytics
-([marketing to analytics engineering at 39:36-45:09]({{ '/podcasts/from-marketing-to-analytics-engineering-sql-dbt-career-switch/' | relative_url }})).
+Use [A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }}) or
+[Experimentation and Causal Inference]({{ '/wiki/experimentation-and-causal-inference/' | relative_url }})
+when the main question is causal design, power analysis, or randomization. They
+also fit statistical testing and experiment interpretation. Use
+[Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
+when the main question is modeling, transformations, semantic layers, or dbt.
+It also fits warehouses and governed metrics.
+
+Use
+[Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
+and [Data Product Adoption]({{ '/wiki/data-product-adoption/' | relative_url }})
+when the main question is ownership, discovery, or lifecycle planning. They also
+fit decision design and whether teams actually use the analytics.
 
 ## Related Pages
 
-Useful adjacent pages:
+The closest adjacent pages are:
 
-- [Data-Led Growth]({{ '/wiki/data-led-growth/' | relative_url }})
 - [Event Tracking]({{ '/wiki/event-tracking/' | relative_url }})
 - [Tracking Plans]({{ '/wiki/tracking-plans/' | relative_url }})
 - [Metrics]({{ '/wiki/metrics/' | relative_url }})
 - [A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }})
+- [Experimentation]({{ '/wiki/experimentation/' | relative_url }})
 - [Experimentation and Causal Inference]({{ '/wiki/experimentation-and-causal-inference/' | relative_url }})
 - [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
+- [Data-Led Growth]({{ '/wiki/data-led-growth/' | relative_url }})
 - [Data Activation]({{ '/wiki/data-activation/' | relative_url }})
 - [Reverse ETL]({{ '/wiki/reverse-etl/' | relative_url }})
-- [Customer Data Platforms]({{ '/wiki/customer-data-platforms/' | relative_url }})
 - [Data Products]({{ '/wiki/data-products/' | relative_url }})
 - [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
 - [Data Product Adoption]({{ '/wiki/data-product-adoption/' | relative_url }})

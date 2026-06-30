@@ -37,20 +37,21 @@ Required structure:
 
 1. Opening definition: 1-3 short paragraphs that define the topic and link to
    the most important related wiki pages.
-2. Link map: a compact section with related wiki pages, adjacent guides when
-   useful, and 3-8 specific podcast interviews for the topic.
-3. Common definition: what the podcast archive converges on, with inline
+2. Common definition: what the podcast archive converges on, with inline
    episode links.
-4. Where guests differ: disagreements, boundary differences, or tradeoffs, with
+3. Where guests differ: disagreements, boundary differences, or tradeoffs, with
    inline episode links.
-5. Topic sections: concrete subtopics with podcast references inside the
+4. Topic sections: concrete subtopics with podcast references inside the
    section where the claim appears.
-6. Related pages: a short final list when the body needs a navigational close.
+5. Related pages: a short final list when the body needs a navigational close.
+
+Do not publish a separate link map or evidence appendix. Put links where they
+help the claim: related wiki pages in definitions, people links where a guest's
+argument appears, and local podcast links next to the discussion they support.
 
 Use these reader-facing headings where they fit:
 
 ```markdown
-## Link Map
 ## Common Definition
 ## Where Guests Differ
 ## <Concrete Topic Section>
@@ -61,6 +62,7 @@ Do not use these headings in public pages:
 
 ```markdown
 ## Contents
+## Link Map
 ## Search Intent
 ## Archive Evidence
 ## Episode Evidence

@@ -14,87 +14,31 @@ related:
   - Batch vs Streaming
 ---
 
-Data engineering platforms are the shared systems and operating practices that
-move data from source systems into reliable forms for analytics. They support
-product decisions too. They also support machine learning and operational
-workflows.
+Data engineering platforms are the shared systems and team practices that move
+data from source systems into reliable analytical uses. They also support
+machine learning and operational workflows. In the DataTalks.Club archive, the
+platform is broader than a warehouse or scheduler. It combines ingestion,
+storage, compute, and workflow coordination. Access, monitoring, governance,
+and support practices belong there too.
 
-In the DataTalks.Club archive, a platform is broader than a warehouse or
-scheduler. It joins ingestion and storage. It also joins compute and workflow
-execution. Access, monitoring, governance, and support loops are part of the
-same platform. [Lars Albertsson]({{ '/people/larsalbertsson/' | relative_url }})
-covers the platform primitives in
+[Lars Albertsson]({{ '/people/larsalbertsson/' | relative_url }}) starts from
+storage, compute, and workflow engines in
 [DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}).
-
+He then connects those primitives to reproducibility and self-service.
 [Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) maps the modern
-stack layers in
+stack version through extraction, loading, transformation, and orchestration in
 [ETL vs ELT and Modern Data Engineering]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}).
+She also brings CDC and reverse data flows into the same discussion.
 
-This topic covers the platform concept: the capabilities a platform
-provides and the boundaries guests draw around it. It also connects platform
-architecture to adoption. For the broader discipline, use
-[Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}). The
-operating model belongs under [DataOps]({{ '/wiki/dataops/' | relative_url }}).
-Use [DataOps Platforms]({{ '/wiki/dataops-platforms/' | relative_url }}) for the
-overlap between platform capabilities and DataOps operating practices.
-
-The self-service subset belongs under
-[Self-Service Data Platforms]({{ '/wiki/self-service-data-platforms/' | relative_url }}).
-
-## Link Map
-
-Related wiki pages:
-
-- [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }})
-- [DataOps Platforms]({{ '/wiki/dataops-platforms/' | relative_url }})
-- [Self-Service Data Platforms]({{ '/wiki/self-service-data-platforms/' | relative_url }})
-- [DataOps]({{ '/wiki/dataops/' | relative_url }})
-- [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
-- [Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }})
-- [Orchestration]({{ '/wiki/orchestration/' | relative_url }})
-- [Data Products]({{ '/wiki/data-products/' | relative_url }})
-- [Data Product Adoption]({{ '/wiki/data-product-adoption/' | relative_url }})
-- [Data Governance]({{ '/wiki/data-governance/' | relative_url }})
-- [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
-- [Data Warehouse vs Data Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }})
-- [Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }})
-- [Apache Iceberg]({{ '/wiki/apache-iceberg/' | relative_url }})
-- [DuckDB]({{ '/wiki/duckdb/' | relative_url }})
-- [Data Mesh vs Centralized Data Platform]({{ '/wiki/data-mesh-vs-centralized-data-platform/' | relative_url }})
-
-Core podcast discussions:
-
-- [DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }})
-  with [Lars Albertsson]({{ '/people/larsalbertsson/' | relative_url }})
-  anchors the platform layer through reproducible pipelines and self-service
-  analytics.
-- [ETL vs ELT and Modern Data Engineering]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})
-  with [Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }})
-  maps ingestion and ELT, then adds orchestration, CDC, and reverse data flows.
-- [Scaling Data Engineering Teams and Self-Service Platforms]({{ '/podcasts/scaling-data-engineering-teams-self-service-platforms/' | relative_url }})
-  with [Mehdi OUAZZA]({{ '/people/mehdiouazza/' | relative_url }})
-  explains why scale-up platforms need onboarding, conventions, and senior
-  engineering ownership.
-- [Data Mesh Implementation]({{ '/podcasts/data-mesh-architecture-decentralized-data-products/' | relative_url }})
-  with [Zhamak Dehghani]({{ '/people/zhamakdehghani/' | relative_url }})
-  shows the domain-ownership boundary through data products and federated
-  governance.
-- [Data Engineering Leadership and Modern Data Platforms]({{ '/podcasts/data-engineering-leadership-and-modern-data-platforms/' | relative_url }})
-  with [Rahul Jain]({{ '/people/16rahuljain/' | relative_url }})
-  adds platform leadership through stakeholder prioritization and quality
-  metrics.
-- [Last-Mile Data Delivery]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }})
-  with [Caitlin Moorman]({{ '/people/caitlinmoorman/' | relative_url }})
-  keeps the platform honest by focusing on adoption and decisions changed by
-  data.
-- [Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }})
-  with [Barr Moses]({{ '/people/barrmoses/' | relative_url }})
-  defines the reliability signals a platform must expose.
-- [Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }})
-  with [Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) and
-  [FinOps for Data Engineers]({{ '/podcasts/finops-for-data-engineers/' | relative_url }})
-  with [Eddy Zulkifly]({{ '/people/eddyzulkifly/' | relative_url }}) add the
-  recent cost and architecture lens.
+Read this page for the platform concept. The main questions are which
+capabilities belong in the shared foundation, where guests draw ownership
+boundaries, and how adoption changes the architecture. Use
+[Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}) for the
+broader discipline. Use [DataOps]({{ '/wiki/dataops/' | relative_url }}) and
+[DataOps Platforms]({{ '/wiki/dataops-platforms/' | relative_url }}) for the
+operating model. Use
+[Self-Service Data Platforms]({{ '/wiki/self-service-data-platforms/' | relative_url }})
+for the enablement subset.
 
 ## Common Definition
 
@@ -131,14 +75,14 @@ trusted and discoverable. It must also be interpretable and tied to decisions
 ([Last-Mile Data Delivery]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }}),
 8:48-34:00).
 
-The compact archive definition is simple. A data engineering platform is the
-shared technical and social layer that lets teams ingest and model data. It
-also gives teams a governed and observable path to use that data. That places
-the topic between [Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }}),
+The archive converges on a practical definition. A data engineering platform is
+the shared technical and social layer that lets teams ingest and store data.
+It also gives them ways to transform, govern, observe, and use that data. The
+topic sits between [Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }}),
 [DataOps]({{ '/wiki/dataops/' | relative_url }}), [Data Products]({{ '/wiki/data-products/' | relative_url }}),
 and [Data Governance]({{ '/wiki/data-governance/' | relative_url }}).
 
-## Guest Differences
+## Differences Among Guests
 
 Guests differ most on where platform ownership should sit. [Zhamak
 Dehghani]({{ '/people/zhamakdehghani/' | relative_url }}) argues for

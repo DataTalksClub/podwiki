@@ -11,76 +11,45 @@ related:
   - Evaluation
 ---
 
-## Definition
-
 Experimentation and causal inference both help teams decide whether an action
-changed an outcome. In the DataTalks.Club archive,
-[Jakob Graff]({{ '/people/jakobgraff/' | relative_url }}) explains the
-randomized version in
+changed an outcome. In the DataTalks.Club archive, the randomized version comes
+through [Jakob Graff]({{ '/people/jakobgraff/' | relative_url }}) in
 [Product Analytics and A/B Testing at 8:13]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}).
-Teams split comparable users or sessions and expose one group to a change. They
-keep another group as control and compare the metric chosen before launch.
-
-[Aleksander Molak]({{ '/people/aleksandermolak/' | relative_url }}) explains the
-broader causal version in
+He describes splitting comparable users or sessions, exposing one group to a
+change, keeping another as control, and comparing the metric chosen before
+launch. The broader causal version comes through
+[Aleksander Molak]({{ '/people/aleksandermolak/' | relative_url }}) in
 [Causal Inference for Real-World ML at 7:31]({{ '/podcasts/causal-inference-for-machine-learning/' | relative_url }}).
-Teams separate association from causation, then ask what would have happened
+He separates association from causation, then asks what would have happened
 under a different intervention.
 
-The bridge is decision-making:
-[Experimentation]({{ '/wiki/experimentation/' | relative_url }}) usually starts
-with a live test or product discovery loop.
-[Causal inference]({{ '/wiki/causal-inference/' | relative_url }}) starts with
-the intervention, outcome, population, and counterfactual comparison. They meet
-when a team needs to decide whether to roll out a feature, target a campaign,
-change a recommender, or trust a model policy. That overlap appears in
-[A/B testing]({{ '/wiki/a-b-testing/' | relative_url }}),
-[metrics]({{ '/wiki/metrics/' | relative_url }}),
-[product analytics]({{ '/wiki/product-analytics/' | relative_url }}), and
-[evaluation]({{ '/wiki/evaluation/' | relative_url }}).
-
-## Link Map
-
-This topic is the bridge between archive topics:
-
-- [Experimentation]({{ '/wiki/experimentation/' | relative_url }}) covers the
-  broad learning loop through A/B and A/A tests, shadow mode, prototypes, and
-  design sprints.
-- [Causal Inference]({{ '/wiki/causal-inference/' | relative_url }}) covers
-  counterfactual reasoning and treatment effects. It also covers causal feature
-  selection, refutation tests, and policy decisions.
-- [A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }}) is the cleanest
-  overlap because random assignment creates stronger causal evidence when the
-  product can support a controlled test.
-- [A/A Testing]({{ '/wiki/a-a-testing/' | relative_url }}) checks whether the
-  experimentation system can split traffic and measure outcomes before an A/B
-  result is trusted.
-- [Power Analysis]({{ '/wiki/power-analysis/' | relative_url }}) connects
-  causal questions to traffic and variance, then sets detectable effects and
-  experiment duration.
-- [Metrics]({{ '/wiki/metrics/' | relative_url }}) determines what the causal
-  answer means for revenue and retention. It also covers churn, latency, cost,
-  or another rollout decision.
-- [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
-  and the [Data Product Manager]({{ '/guides/data-product-manager/' | relative_url }})
-  article connect experiments to discovery and prioritization. They also connect
-  experiments to adoption and impact.
-- [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
-  and [Production]({{ '/wiki/production/' | relative_url }}) connect online
-  experiments, shadow mode, baselines, and model rollout.
+The bridge is decision-making because
+[experimentation]({{ '/wiki/experimentation/' | relative_url }}) usually starts
+with a live test or product discovery loop. That loop can include an
+[A/B test]({{ '/wiki/a-b-testing/' | relative_url }}), an A/A check, or a
+prototype. [Causal inference]({{ '/wiki/causal-inference/' | relative_url }})
+starts with the intervention, outcome, population, and counterfactual
+comparison. They meet when a team needs to interpret a
+[metric]({{ '/wiki/metrics/' | relative_url }}) as evidence rather than noise.
+The next decision may be whether to roll out a feature, target a campaign,
+change a recommender, or validate a model policy.
 
 ## Common Definition
 
-Commonly, experiments apply when the team can create the comparison. Causal
-inference applies when no clean experiment can create it.
+Across the podcast archive, experiments apply when the team can create the
+comparison. Causal inference applies when the team still needs an intervention
+answer but can't rely only on a clean randomized comparison.
 
 Jakob's A/B testing episode grounds the experimental side. At
 [11:48]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}),
 he describes experiments as a way to establish causality in noisy product
 conditions. At
 [24:44]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}),
-he moves from the idea to traffic splitting and assignment tracking. He also
-covers platform trust.
+he moves from the idea to traffic splitting, assignment tracking, and monitoring.
+At [27:52]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}),
+he uses [A/A testing]({{ '/wiki/a-a-testing/' | relative_url }}) to check whether
+the system can split traffic and measure outcomes before an A/B result is
+trusted.
 
 Aleksander's causal inference episode grounds the causal side. At
 [15:36]({{ '/podcasts/causal-inference-for-machine-learning/' | relative_url }}),
@@ -101,7 +70,7 @@ The shared structure is small and practical:
 - define the comparison group or counterfactual
 - decide what action the evidence will support
 
-## Guest Differences
+## Guest Tradeoffs
 
 [Jakob Graff]({{ '/people/jakobgraff/' | relative_url }}) starts from the
 experimentation system. In
@@ -240,7 +209,7 @@ labels. That places this bridge page next to
 [MLOps]({{ '/wiki/mlops/' | relative_url }}), and
 [model registry]({{ '/wiki/model-registry/' | relative_url }}) work.
 
-## Practical Decision Points
+## Choosing the Evidence Standard
 
 Choose a randomized experiment when the product can assign comparable users or
 sessions and log exposure. The team also needs enough time for the metric to
@@ -275,7 +244,7 @@ causal question.
 
 ## Related Pages
 
-These pages connect the adjacent archive threads:
+The adjacent archive threads are:
 
 - [Experimentation]({{ '/wiki/experimentation/' | relative_url }})
 - [Causal Inference]({{ '/wiki/causal-inference/' | relative_url }})

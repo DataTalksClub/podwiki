@@ -82,7 +82,7 @@ These keyword groups already have editorial coverage:
 | Delta Lake vs Apache Iceberg | `_comparisons/delta-lake-vs-apache-iceberg.md` | delta lake, delta lake vs apache iceberg, apache iceberg vs delta lake |
 | ETL vs ELT | `_comparisons/etl-vs-elt.md`, `_wiki/etl-vs-elt.md` | etl vs elt, elt vs etl, etl and elt |
 | DataOps Platforms | `_wiki/dataops-platforms.md` | dataops platforms |
-| A/B Testing | `_wiki/a-b-testing.md`, `_wiki/experimentation-and-causal-inference.md`, `_guides/product-analyst.md` | a/b testing podcast, ab testing, product experimentation |
+| A/B Testing | `_wiki/a-b-testing.md`, `_wiki/experimentation-and-causal-inference.md`, `_wiki/experimentation.md`, `_wiki/power-analysis.md` | a/b testing podcast, ab testing, product experimentation |
 | Open Source | `_wiki/open-source.md`, `_wiki/open-source-portfolio-evidence.md`, `_roadmaps/open-source-contributor-roadmap.md` | what is open source, data engineering open source projects, open source entity resolution |
 | Tech Startups | `_wiki/startups.md`, `_wiki/startup.md`, `_wiki/founder.md`, `_wiki/entrepreneurship.md`, `_guides/machine-learning-for-startups.md` | tech startups, machine learning startup, machine learning for startups, startup machine learning, ml startups |
 
