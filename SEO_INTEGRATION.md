@@ -127,10 +127,13 @@ wiki page already owns.
 - [x] Verify CI sitemap `<loc>` includes `/podwiki/`; if not, set `baseurl: "/podwiki"` in `_config.yml`
 - [x] Add self-referencing canonical + OG tags to podwiki `_layouts/default.html`
 - [x] Canonicalize podwiki people → main `/people/`; podcast summaries → main `/podcast/`
-- [x] Add explicit `canonical_url` support and canonicalize branded Zoomcamp
-  guides plus the podcast guide to their main-site owners
+- [x] Add explicit `canonical_url` support and canonicalize the podcast guide
+  to the main podcast page
+- [x] Remove branded Zoomcamp guide pages from podwiki so the main site owns
+  those course queries
 - [ ] Consolidate the article keyword swarm into topics + roadmaps/Q&A (§5)
 - [ ] Remove podwiki articles that duplicate wiki slugs or target branded/course terms
   - [x] Remove exact guide/wiki slug collisions and move useful guide material
     into the wiki layer
+  - [x] Remove branded Zoomcamp guide pages
 - [ ] Resubmit both sitemaps in Google Search Console

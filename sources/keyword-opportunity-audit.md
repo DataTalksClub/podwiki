@@ -69,10 +69,10 @@ These keyword groups already have editorial coverage:
 | Data product roles | `_guides/data-product-manager.md`, `_guides/data-product-manager-role.md`, `_guides/product-analyst.md` | data product manager, data product management, product analyst |
 | Product owner vs product manager | `_comparisons/product-owner-vs-product-manager.md` | data product owner, data science product owner |
 | Airflow | `_guides/airflow.md`, `_guides/apache-airflow.md`, `_how_tos/airflow-docker-compose.md` | airflow, apache airflow, airflow docker compose |
-| Data Engineering Zoomcamp | `_guides/data-engineering-zoomcamp.md` | data engineering zoomcamp, data-engineering-zoomcamp, dataengineering zoomcamp, data engineer zoomcamp, data engineering zoom camp |
-| MLOps Zoomcamp | `_guides/mlops-zoomcamp.md` | mlops zoomcamp, mlops-zoomcamp, mlops zoom camp, datatalks.club mlops zoomcamp |
-| Machine Learning Zoomcamp | `_guides/machine-learning-zoomcamp.md` | machine learning zoomcamp, ml zoomcamp, machine learning zoomcamp reddit |
-| LLM Zoomcamp | `_guides/llm-zoomcamp.md` | llm zoomcamp, llm zoomcamp data talks club, datatalksclub llm zoomcamp |
+| Data Engineering Zoomcamp | main DataTalks.Club course page | data engineering zoomcamp, data-engineering-zoomcamp, dataengineering zoomcamp, data engineer zoomcamp, data engineering zoom camp |
+| MLOps Zoomcamp | main DataTalks.Club course page | mlops zoomcamp, mlops-zoomcamp, mlops zoom camp, datatalks.club mlops zoomcamp |
+| Machine Learning Zoomcamp | main DataTalks.Club course page | machine learning zoomcamp, ml zoomcamp, machine learning zoomcamp reddit |
+| LLM Zoomcamp | main DataTalks.Club course page | llm zoomcamp, llm zoomcamp data talks club, datatalksclub llm zoomcamp |
 | Data Science for Managers | `_guides/data-science-for-managers.md` | data science for managers |
 | Data Roles | `_guides/data-roles.md` | data roles |
 | Data Analysis | `_guides/data-analysis.md` | data analysis |
@@ -111,28 +111,26 @@ separate site strategy:
 
 ## Completed From This Audit
 
-The first content batches from this audit have been created:
+The first content batches from this audit created the following durable podwiki
+coverage. The four branded Zoomcamp guide pages were later removed because the
+main DataTalks.Club site owns those course queries.
 
-1. `_guides/data-engineering-zoomcamp.md`
-2. `_guides/mlops-zoomcamp.md`
-3. `_guides/machine-learning-zoomcamp.md`
-4. `_guides/llm-zoomcamp.md`
-5. `_guides/data-science-for-managers.md`
-6. `_guides/data-roles.md`
-7. `_guides/data-analysis.md`
-8. `_guides/hire-data-engineers.md`
-9. `_guides/data-science-recruiter.md`
-10. `_guides/ai-tools-for-personal-productivity.md`
-11. `_comparisons/product-owner-vs-product-manager.md`
-12. `_comparisons/delta-lake-vs-apache-iceberg.md`
-13. `_comparisons/etl-vs-elt.md`
-14. `_wiki/dataops-platforms.md`
-15. `_wiki/open-source.md`
-16. `_wiki/startups.md`
-17. `_wiki/startup.md`
-18. `_wiki/founder.md`
-19. `_wiki/entrepreneurship.md`
-20. `_guides/machine-learning-for-startups.md`
+1. `_guides/data-science-for-managers.md`
+2. `_guides/data-roles.md`
+3. `_guides/data-analysis.md`
+4. `_guides/hire-data-engineers.md`
+5. `_guides/data-science-recruiter.md`
+6. `_guides/ai-tools-for-personal-productivity.md`
+7. `_comparisons/product-owner-vs-product-manager.md`
+8. `_comparisons/delta-lake-vs-apache-iceberg.md`
+9. `_comparisons/etl-vs-elt.md`
+10. `_wiki/dataops-platforms.md`
+11. `_wiki/open-source.md`
+12. `_wiki/startups.md`
+13. `_wiki/startup.md`
+14. `_wiki/founder.md`
+15. `_wiki/entrepreneurship.md`
+16. `_guides/machine-learning-for-startups.md`
 
 ## Next Content Step
 

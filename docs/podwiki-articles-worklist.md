@@ -34,6 +34,11 @@ Google has had time to index the pages.)
 
 ## A. DELETE-BRANDED (5) — main site owns these
 
+Status: the four Zoomcamp guide pages were removed from podwiki on 2026-07-01.
+The main DataTalks.Club site owns those course pages. Keep podcast evidence
+about course usage inside role, roadmap, portfolio, and transition pages, and
+link to the official course pages there when useful.
+
 | Slug | Keyword | 301 target |
 |---|---|---|
 | data-engineering-zoomcamp | data engineering zoomcamp | main DE Zoomcamp course page |
