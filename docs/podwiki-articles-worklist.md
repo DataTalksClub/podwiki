@@ -1,0 +1,139 @@
+# Articles worklist — per-page decisions
+
+Status note: this worklist was written before the category split in commit
+`473dd0e`. The public `_articles/` collection is now retired, and these pages
+live under `_guides/`, `_comparisons/`, `_roadmaps/`, and `_how_tos/`. Keep this
+file as a consolidation plan for deciding which migrated editorial pages should
+stay, merge into wiki topics, canonicalize, or redirect.
+
+Decision for every one of the 71 pages in `_articles/`. Goal: dissolve the
+Ubersuggest keyword swarm, eliminate cannibalization with the main site and with
+podwiki's own wiki, and keep only genuinely additive pages.
+
+See `SEO_INTEGRATION.md` for the why. _Generated 2026-06-30._
+
+## Decision legend
+
+| Code | Meaning | Action |
+|---|---|---|
+| **DELETE-BRANDED** | DTC owns this as a real course/product on the main site | 301 → main-site page; remove article |
+| **MERGE→wiki** | An existing (or 1 new) wiki topic covers this concept | Fold useful content into the topic; 301 article → `/podwiki/wiki/<topic>/` |
+| **CONSOLIDATE** | One of several keyword variants for a single intent | Pick the one canonical target; 301 all variants → it |
+| **KEEP-NEW** | Additive format the main site & wiki lack | Build the consolidated page; 301 variants → it |
+
+**Redirects are optional here.** A 301 preserves a URL's earned index presence,
+backlinks, and live references. These articles are ~1 day old, unindexed, orphaned
+(no inbound links, sitemap not advertised) — they've earned none of that, so they
+can be deleted/merged cleanly. Restructuring now, before any SEO footprint exists,
+is free. Add a 301 only for any URL you've already shared externally, and fix
+internal links to deleted articles at the source. Old URL form:
+`/podwiki/articles/<slug>/`. (Revisit this if the cleanup is delayed by weeks and
+Google has had time to index the pages.)
+
+---
+
+## A. DELETE-BRANDED (5) — main site owns these
+
+| Slug | Keyword | 301 target |
+|---|---|---|
+| data-engineering-zoomcamp | data engineering zoomcamp | main DE Zoomcamp course page |
+| machine-learning-zoomcamp | machine learning zoomcamp | main ML Zoomcamp course page |
+| mlops-zoomcamp | mlops zoomcamp | main MLOps Zoomcamp course page |
+| llm-zoomcamp | llm zoomcamp | main LLM Zoomcamp course page |
+| data-engineering-podcast | data engineering podcast | `/podcast/` |
+
+## B. CONSOLIDATE — keyword swarms → one page each (26)
+
+### B1 → wiki `data-engineering-roadmap` ("how to learn / become a DE")
+best-data-engineering-course · free-data-engineering-course · data-engineer-course ·
+data-engineer-courses · data-engineering-course · data-engineering-courses ·
+data-engineer-bootcamp · data-engineering-bootcamp · data-engineering-training ·
+data-engineer-training · how-to-become-a-data-engineer-with-no-experience ·
+data-engineer-roadmap  → 301 all to `/podwiki/wiki/data-engineering-roadmap/` (which links to the DE Zoomcamp)
+
+### B2 → wiki `mlops-roadmap` (learn MLOps/ML + certifications)
+mlops-course · mlops-courses · mlops-certification · machine-learning-bootcamp ·
+machine-learning-engineer-certification  → 301 to `/podwiki/wiki/mlops-roadmap/`
+
+### B3 → wiki `freelance` (consulting/freelance DE)
+data-engineer-consultant · data-engineer-consulting · data-engineering-consultant ·
+data-engineering-consulting · data-engineering-freelance · freelance-data-engineer
+ → 301 to `/podwiki/wiki/freelance/`
+
+### B4 → KEEP-NEW interview-prep page (see §D)
+machine-learning-system-design-interview · ml-system-design-interview ·
+llm-system-design-interview  → 301 to the new interview page
+
+## C. MERGE→wiki — 1:1 into an existing topic (39)
+
+| Slug | → wiki topic | Note |
+|---|---|---|
+| airflow | orchestration | |
+| apache-airflow | orchestration | dup of airflow |
+| airflow-docker-compose | orchestration | thin how-to |
+| analytics-engineer | analytics-engineering | |
+| data-engineering-and-data-science | data-engineer-vs-data-scientist | |
+| data-engineering-certification | data-engineering-certification | **slug collision** |
+| data-engineering-manager | leadership | |
+| data-engineer-manager | leadership | dup |
+| data-engineering | data-engineering | **slug collision** |
+| data-engineering-pipeline-project | data-engineering-portfolio-projects | |
+| data-engineering-tools | data-engineering-tools | **slug collision** |
+| data-observability-for-data-engineering | data-observability | |
+| dataops | dataops | **slug collision** |
+| dataops-tools | dataops | |
+| dataops-vs-data-engineering | dataops | comparison → fold in |
+| data-product-manager | data-product-management | |
+| data-product-manager-role | data-product-management | dup |
+| data-science-for-managers | leadership | |
+| data-scientist-interview | data-scientist-interview-roadmap | |
+| data-scientist | data-scientist-role | |
+| data-scientist-to-data-engineer | career-transition | |
+| designing-machine-learning-systems | machine-learning-system-design | book title |
+| fundamentals-of-data-engineering | data-engineering | book title |
+| how-to-build-data-pipelines | data-pipelines | |
+| interpretable-machine-learning | interpretability | |
+| llm-tools | llms | or ai-tooling |
+| machine-learning-for-software-engineers | software-engineer-to-machine-learning | |
+| machine-learning-for-startups | startups | |
+| machine-learning-system-design | machine-learning-system-design | **slug collision** |
+| mlops-architecture | mlops | |
+| mlops-engineer | mlops-engineer | **slug collision** |
+| mlops-frameworks | mlops-tools | |
+| mlops | mlops | **slug collision** |
+| mlops-tools | mlops-tools | **slug collision** |
+| mlops-vs-dataops | mlops-and-dataops | |
+| product-analyst | product-analytics | or data-analyst-role |
+| software-engineer-to-machine-learning | software-engineer-to-machine-learning | **slug collision** |
+| solopreneur-data-scientist | entrepreneurship | |
+| what-is-mlops | mlops | |
+
+## D. KEEP-NEW — additive pages to build (2)
+
+| New page | Absorbs | Why it's additive |
+|---|---|---|
+| **ML/LLM system-design interview prep** (Q&A format) | B4 (the 3 `*-system-design-interview` articles) | Interview-prep / Q&A format the main site & wiki don't have; backed by exploration search |
+| **AI-powered business intelligence** → new wiki topic `business-intelligence` | ai-powered-business-intelligence | No existing home; genuine concept, link to product-analytics + generative-ai |
+
+---
+
+## Outcome
+
+- 71 articles → **0 standalone keyword pages.**
+- Surviving content: existing wiki topics (enriched), 2 existing roadmap topics
+  (DE, MLOps), wiki `freelance`, 1 new interview-prep page, 1 new
+  `business-intelligence` topic.
+- The `articles/` collection can then be retired (or repurposed only for the
+  KEEP-NEW format), and `articles.md` / nav updated.
+
+## Execution order
+
+1. Enrich each §C wiki topic with the article's useful content, then delete the article.
+2. Enrich the 2 roadmap topics + `freelance` (§B); delete the variant articles.
+3. Build the 2 KEEP-NEW pages (§D); delete their source articles.
+4. Delete §A articles (link the branded ones to the main course page from wherever they're referenced).
+5. Fix any internal links that pointed at deleted articles.
+6. Remove emptied `_articles/`, update `articles.md`, sitemap, and nav.
+7. Resubmit sitemaps in Search Console.
+
+(Redirects only where noted above — not needed wholesale for this brand-new, unindexed site.)
