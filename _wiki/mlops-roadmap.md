@@ -4,8 +4,11 @@ title: "MLOps Roadmap"
 summary: "A podcast-backed roadmap for MLOps: reproducible experiments, deployment paths, model registries, monitoring, platform adoption, and role milestones."
 related:
   - MLOps
+  - MLOps Engineer
   - ML Platforms
   - Machine Learning Infrastructure
+  - Machine Learning Portfolio Projects
+  - Machine Learning Engineer Role
   - Model Registry
   - Experiment Tracking
   - Model Monitoring
@@ -266,6 +269,76 @@ The same roadmap still needs reproducible configuration, deployment,
 evaluation, and monitoring. Ownership, cost control, and rollback paths still
 matter.
 
+## Learning Programs
+
+Learning programs are inputs to the roadmap rather than proof that the roadmap
+has been completed. Use them to close one concrete gap at a time. Common gaps
+include Git and CI/CD, reproducible experiments, and model handoff.
+
+Other gaps include deployment, monitoring, and platform adoption. The finished
+evidence should still be a working model lifecycle that another person can run
+and question.
+
+Maria's learning advice in
+[Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }})
+is the most direct archive anchor for MLOps study choices. Around 54:05, she
+recommends hands-on projects and pairing with engineers. Around 56:08, she
+adds ML fundamentals and software engineering. She also adds system design and
+data engineering. That makes an MLOps course useful when it forces end-to-end
+practice, not when it only introduces a long tool catalog.
+
+For an MLOps course, the curriculum should match the build order in this
+roadmap. It should start with versioned training code and dependency
+management. It should then capture experiment tracking and parameters.
+
+Add metrics, data references, and artifacts before serving work. After that,
+add batch or online inference and CI/CD before registry handoff, monitoring,
+and operating notes.
+
+Simon's sequence in
+[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }})
+supports that order. He covers experiment tracking around 29:41 and registries
+around 30:32. Batch and online serving appear around 31:15-31:51. Metadata and
+lineage appear around 42:48-54:15.
+
+Certifications are useful when they organize study or teach a named platform,
+but they should point back to evidence. [Jeff Katz]({{ '/people/jeffkatz/' | relative_url }})
+answers a certification question in
+[Data Engineering Job Prep and Interview Guide]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }})
+around 21:56 by returning to Python and SQL. He also references GitHub and
+practical ETL work. Around 37:49, he treats cloud certificate prep as useful
+for fundamentals, not as a replacement for skill. For MLOps, a credential
+supports the story only when it's tied to
+[Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}),
+[MLOps Engineer]({{ '/wiki/mlops-engineer/' | relative_url }}), and production
+work.
+
+A machine learning bootcamp can be a good entry point when it builds the ML
+base that MLOps depends on. It should teach problem framing, labels, features,
+and baselines before adding deployment and monitoring. It should also teach
+metrics, evaluation, and error analysis.
+
+[Valerii Babushkin]({{ '/people/valeriybabushkin/' | relative_url }})
+shows that order in
+[Machine Learning System Design Interview]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }}).
+Fraud detection and recommendation examples move from labels and imbalance into
+metrics and baselines. The same discussion adds A/B testing, monitoring,
+distribution shift, and fallbacks. A bootcamp that skips this
+foundation may teach tools. It won't prepare the learner for
+[Machine Learning Engineer Role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }})
+or production MLOps work.
+
+Use format as a support choice. A free or self-paced course works when the
+learner can finish the project and get feedback elsewhere. A cohort or paid
+program is useful when deadlines, code review, mentoring, or team-style work
+make the lifecycle project stronger. A vendor or cloud certification is useful
+when target roles name that stack. The learner should still show
+[Experiment Tracking]({{ '/wiki/experiment-tracking/' | relative_url }}),
+[Model Registry]({{ '/wiki/model-registry/' | relative_url }}),
+[Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }}), and
+[Production]({{ '/wiki/production/' | relative_url }}) decisions outside the
+exam.
+
 ## Project Sequence
 
 Build projects in the order that exposes the lifecycle:
@@ -302,6 +375,61 @@ production ML advice in
 [Practical Machine Learning Engineering for Production]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }})
 repeatedly favors maintainable systems, cross-functional trust, and
 cost-benefit tradeoffs over novelty.
+
+## Project Evidence
+
+Roadmap evidence should be a small system with decisions attached, not a
+certificate screenshot or copied notebook. The strongest project starts from a
+clear product decision. It explains the data and label, establishes a
+baseline, and records training. It packages inference and shows what will be
+monitored after deployment.
+
+A course, certification, or bootcamp project should include:
+
+- versioned training code with dependency setup and configuration
+- a documented data reference
+- parameters and metrics, plus environment details and model artifacts captured
+  in an experiment tracker or reproducibility note
+- a batch inference job, API, managed endpoint, or clearly documented serving
+  simulation
+- tests for code, input schemas, and at least one data assumption
+- a registry entry or release table with model version, owner, and artifact
+  location
+- release metadata for evaluation result, approval state, and deployment target
+- logs for model version, inputs, predictions, and request or run IDs
+- service logs for errors and latency
+- monitoring notes for service health, input quality, and prediction behavior
+- monitoring notes for drift, feedback, and one business or proxy signal
+- operating notes for ownership, failure modes, fallback behavior, and rollback
+- operating notes for retraining criteria, known limits, and future work
+
+This evidence connects the MLOps roadmap to portfolio and hiring discussions.
+[Slawomir Tulski]({{ '/people/slawomirtulski/' | relative_url }}) discusses
+side-project framing around 57:35 in
+[Data Engineer Career in 2026]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }}).
+Around 1:04:42, he points toward end-to-end platform projects as stronger
+proof. For MLOps, a working training-to-monitoring path is stronger evidence
+than a list of tools.
+
+Ben gives the engineering bar in
+[Practical Machine Learning Engineering for Production]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }}).
+Around 8:49, he talks about refactoring hard-to-follow data science code into
+smaller pieces that teams can maintain. Around 32:03, he discusses timeboxed
+experiments and cost-benefit tradeoffs. Around 44:23, he recommends simpler
+methods such as SQL or statistics before deep learning when they solve the
+problem. A roadmap project should show that same judgment: simple, runnable,
+observable work before a heavy platform.
+
+The project should also be easy to discuss in an interview. Valerii's system
+design episode ties features, labels, and baselines to metrics. It also adds
+monitoring and fallbacks.
+
+Maria's MLOps episode adds Git and CI/CD, plus registries and deployment.
+Monitoring, code quality, and testing belong there too. Simon and Raphael add
+the platform path when repeated projects need shared standards, developer
+experience, and adoption work. Together, those discussions make the portfolio
+standard clear: finish one lifecycle, explain the tradeoffs, then use the gaps
+to choose the next roadmap step.
 
 ## Role Milestones
 

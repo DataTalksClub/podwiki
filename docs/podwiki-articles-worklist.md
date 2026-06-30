@@ -64,6 +64,11 @@ data-engineer-training · how-to-become-a-data-engineer-with-no-experience ·
 data-engineer-roadmap  → 301 all to `/podwiki/wiki/data-engineering-roadmap/` (which links to the DE Zoomcamp)
 
 ### B2 → wiki `mlops-roadmap` (learn MLOps/ML + certifications)
+Status: the duplicate MLOps course, courses, certification, machine learning
+bootcamp, and machine learning engineer certification guide pages were removed
+from podwiki on 2026-07-01. Useful course and certification selection guidance
+belongs in `_wiki/mlops-roadmap.md`.
+
 mlops-course · mlops-courses · mlops-certification · machine-learning-bootcamp ·
 machine-learning-engineer-certification  → 301 to `/podwiki/wiki/mlops-roadmap/`
 

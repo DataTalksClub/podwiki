@@ -2,12 +2,12 @@
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
     "wikis": 180,
-    "articles": 70,
+    "articles": 65,
     "podcasts": 202,
     "persons": 438,
     "topics": 146,
-    "nodes": 1036,
-    "links": 11248
+    "nodes": 1031,
+    "links": 11063
   },
   "nodes": [
     {
@@ -539,28 +539,6 @@
       "keyword": "llm tools"
     },
     {
-      "id": "article:guide:machine-learning-bootcamp",
-      "type": "article",
-      "collection": "guide",
-      "label": "Machine Learning Bootcamp: How to Choose One and Turn It Into Job Evidence",
-      "title": "Machine Learning Bootcamp: How to Choose One and Turn It Into Job Evidence",
-      "url": "/guides/machine-learning-bootcamp/",
-      "count": 1,
-      "search": "Machine Learning Bootcamp: How to Choose One and Turn It Into Job Evidence A podcast backed guide to evaluating a machine learning bootcamp by fundamentals, project evidence, production awareness, interview preparation, and fit for your starting point.",
-      "keyword": "machine learning bootcamp"
-    },
-    {
-      "id": "article:guide:machine-learning-engineer-certification",
-      "type": "article",
-      "collection": "guide",
-      "label": "Machine Learning Engineer Certification: When It Helps and What Employers Still Need",
-      "title": "Machine Learning Engineer Certification: When It Helps and What Employers Still Need",
-      "url": "/guides/machine-learning-engineer-certification/",
-      "count": 1,
-      "search": "Machine Learning Engineer Certification: When It Helps and What Employers Still Need A podcast backed guide to deciding whether a machine learning engineer certification helps, how to judge certification programs, and how to turn certification study into portfolio and interview evidence.",
-      "keyword": "machine learning engineer certification"
-    },
-    {
       "id": "article:roadmap:machine-learning-engineer-roadmap",
       "type": "article",
       "collection": "roadmap",
@@ -636,39 +614,6 @@
       "count": 1,
       "search": "MLOps Architecture: Production Map for Models, Pipelines, Platforms, and Feedback A podcast backed MLOps architecture guide covering data inputs, training and feature pipelines, experiment tracking, registries, CI/CD, serving, monitoring, feedback loops, governance, and the tradeoff between simple stacks and shared platforms.",
       "keyword": "mlops architecture"
-    },
-    {
-      "id": "article:guide:mlops-certification",
-      "type": "article",
-      "collection": "guide",
-      "label": "MLOps Certification: When It Helps and What Matters More",
-      "title": "MLOps Certification: When It Helps and What Matters More",
-      "url": "/guides/mlops-certification/",
-      "count": 1,
-      "search": "MLOps Certification: When It Helps and What Matters More A podcast backed guide to deciding whether an MLOps certification is worth it, what hiring evidence matters more, and how to turn certification study into production MLOps proof.",
-      "keyword": "mlops certification"
-    },
-    {
-      "id": "article:guide:mlops-course",
-      "type": "article",
-      "collection": "guide",
-      "label": "MLOps Course: How to Choose One That Builds Production Skill",
-      "title": "MLOps Course: How to Choose One That Builds Production Skill",
-      "url": "/guides/mlops-course/",
-      "count": 1,
-      "search": "MLOps Course: How to Choose One That Builds Production Skill A podcast grounded guide to choosing an MLOps course with production scope, hands on projects, monitoring practice, and portfolio evidence.",
-      "keyword": "mlops course"
-    },
-    {
-      "id": "article:guide:mlops-courses",
-      "type": "article",
-      "collection": "guide",
-      "label": "MLOps Courses: How to Choose Training That Builds Production Skill",
-      "title": "MLOps Courses: How to Choose Training That Builds Production Skill",
-      "url": "/guides/mlops-courses/",
-      "count": 1,
-      "search": "MLOps Courses: How to Choose Training That Builds Production Skill A podcast grounded guide to comparing MLOps courses by production scope, hands on projects, monitoring practice, platform judgment, and portfolio evidence.",
-      "keyword": "mlops courses"
     },
     {
       "id": "article:guide:mlops-frameworks",
@@ -20433,468 +20378,6 @@
       "weight": 2
     },
     {
-      "source": "article:guide:machine-learning-bootcamp",
-      "target": "article:guide:machine-learning-engineer-certification",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:machine-learning-bootcamp",
-      "target": "article:guide:machine-learning-for-software-engineers",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:machine-learning-bootcamp",
-      "target": "person:arsenykravchenko",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:machine-learning-bootcamp",
-      "target": "person:benwilson",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:machine-learning-bootcamp",
-      "target": "person:lukewhipps",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:machine-learning-bootcamp",
-      "target": "person:nadianahar",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:machine-learning-bootcamp",
-      "target": "person:svpino",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:machine-learning-bootcamp",
-      "target": "person:valeriybabushkin",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:machine-learning-bootcamp",
-      "target": "podcast:building-scalable-and-reliable-machine-learning-systems",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:machine-learning-bootcamp",
-      "target": "podcast:from-software-engineer-to-machine-learning",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:machine-learning-bootcamp",
-      "target": "podcast:get-data-scientist-job",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:machine-learning-bootcamp",
-      "target": "podcast:machine-learning-data-science-interview-prep",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:machine-learning-bootcamp",
-      "target": "podcast:machine-learning-engineering-production-best-practices",
-      "kind": "article-link",
-      "weight": 8
-    },
-    {
-      "source": "article:guide:machine-learning-bootcamp",
-      "target": "podcast:machine-learning-system-design-interview",
-      "kind": "article-link",
-      "weight": 8
-    },
-    {
-      "source": "article:guide:machine-learning-bootcamp",
-      "target": "podcast:software-engineering-for-machine-learning",
-      "kind": "article-link",
-      "weight": 8
-    },
-    {
-      "source": "article:guide:machine-learning-bootcamp",
-      "target": "wiki:batch-vs-streaming",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:machine-learning-bootcamp",
-      "target": "wiki:career-transition",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:machine-learning-bootcamp",
-      "target": "wiki:career-transition",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:machine-learning-bootcamp",
-      "target": "wiki:documentation",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:machine-learning-bootcamp",
-      "target": "wiki:job-search",
-      "kind": "article-link",
-      "weight": 16
-    },
-    {
-      "source": "article:guide:machine-learning-bootcamp",
-      "target": "wiki:job-search",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:machine-learning-bootcamp",
-      "target": "wiki:machine-learning",
-      "kind": "article-link",
-      "weight": 12
-    },
-    {
-      "source": "article:guide:machine-learning-bootcamp",
-      "target": "wiki:machine-learning",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:machine-learning-bootcamp",
-      "target": "wiki:machine-learning-engineer-role",
-      "kind": "article-link",
-      "weight": 10
-    },
-    {
-      "source": "article:guide:machine-learning-bootcamp",
-      "target": "wiki:machine-learning-engineer-role",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:machine-learning-bootcamp",
-      "target": "wiki:machine-learning-portfolio-projects",
-      "kind": "article-link",
-      "weight": 18
-    },
-    {
-      "source": "article:guide:machine-learning-bootcamp",
-      "target": "wiki:machine-learning-portfolio-projects",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:machine-learning-bootcamp",
-      "target": "wiki:machine-learning-system-design",
-      "kind": "article-link",
-      "weight": 10
-    },
-    {
-      "source": "article:guide:machine-learning-bootcamp",
-      "target": "wiki:machine-learning-system-design",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:machine-learning-bootcamp",
-      "target": "wiki:metrics",
-      "kind": "article-link",
-      "weight": 8
-    },
-    {
-      "source": "article:guide:machine-learning-bootcamp",
-      "target": "wiki:mlops",
-      "kind": "article-link",
-      "weight": 14
-    },
-    {
-      "source": "article:guide:machine-learning-bootcamp",
-      "target": "wiki:mlops",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:machine-learning-bootcamp",
-      "target": "wiki:model-monitoring",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:machine-learning-bootcamp",
-      "target": "wiki:production",
-      "kind": "article-link",
-      "weight": 10
-    },
-    {
-      "source": "article:guide:machine-learning-bootcamp",
-      "target": "wiki:software-engineer-to-machine-learning",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:machine-learning-bootcamp",
-      "target": "wiki:software-engineer-to-machine-learning",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:machine-learning-bootcamp",
-      "target": "wiki:software-engineering",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:machine-learning-engineer-certification",
-      "target": "article:guide:machine-learning-bootcamp",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:machine-learning-engineer-certification",
-      "target": "article:guide:mlops-certification",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:machine-learning-engineer-certification",
-      "target": "article:guide:mlops-course",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:machine-learning-engineer-certification",
-      "target": "person:benwilson",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:machine-learning-engineer-certification",
-      "target": "person:jeffkatz",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:machine-learning-engineer-certification",
-      "target": "person:mariavechtomova",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:machine-learning-engineer-certification",
-      "target": "person:olegnovikov",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:machine-learning-engineer-certification",
-      "target": "person:pastorsoto",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:machine-learning-engineer-certification",
-      "target": "person:slawomirtulski",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:machine-learning-engineer-certification",
-      "target": "person:svpino",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:machine-learning-engineer-certification",
-      "target": "person:valeriybabushkin",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:machine-learning-engineer-certification",
-      "target": "podcast:data-science-interview-and-cv-guide",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:machine-learning-engineer-certification",
-      "target": "podcast:data-team-roles",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:machine-learning-engineer-certification",
-      "target": "podcast:from-software-engineer-to-machine-learning",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:machine-learning-engineer-certification",
-      "target": "podcast:get-data-engineering-job-prep-and-interview",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:machine-learning-engineer-certification",
-      "target": "podcast:machine-learning-engineering-production-best-practices",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:machine-learning-engineer-certification",
-      "target": "podcast:machine-learning-system-design-interview",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:machine-learning-engineer-certification",
-      "target": "podcast:nonlinear-path-to-machine-learning-freelancing-and-public-learning",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:machine-learning-engineer-certification",
-      "target": "podcast:pragmatic-and-standardized-mlops",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:machine-learning-engineer-certification",
-      "target": "podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:machine-learning-engineer-certification",
-      "target": "wiki:job-search",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:machine-learning-engineer-certification",
-      "target": "wiki:job-search",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:machine-learning-engineer-certification",
-      "target": "wiki:machine-learning-engineer-role",
-      "kind": "article-link",
-      "weight": 8
-    },
-    {
-      "source": "article:guide:machine-learning-engineer-certification",
-      "target": "wiki:machine-learning-engineer-role",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:machine-learning-engineer-certification",
-      "target": "wiki:machine-learning-portfolio-projects",
-      "kind": "article-link",
-      "weight": 8
-    },
-    {
-      "source": "article:guide:machine-learning-engineer-certification",
-      "target": "wiki:machine-learning-portfolio-projects",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:machine-learning-engineer-certification",
-      "target": "wiki:machine-learning-system-design",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:machine-learning-engineer-certification",
-      "target": "wiki:machine-learning-system-design",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:machine-learning-engineer-certification",
-      "target": "wiki:mlops",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:machine-learning-engineer-certification",
-      "target": "wiki:mlops",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:machine-learning-engineer-certification",
-      "target": "wiki:mlops-roadmap",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:machine-learning-engineer-certification",
-      "target": "wiki:mlops-roadmap",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:machine-learning-engineer-certification",
-      "target": "wiki:model-monitoring",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:machine-learning-engineer-certification",
-      "target": "wiki:model-monitoring",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:machine-learning-engineer-certification",
-      "target": "wiki:open-source-portfolio-evidence",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:machine-learning-engineer-certification",
-      "target": "wiki:open-source-portfolio-evidence",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:machine-learning-engineer-certification",
-      "target": "wiki:production",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:machine-learning-engineer-certification",
-      "target": "wiki:production",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:machine-learning-engineer-certification",
-      "target": "wiki:software-engineer-to-machine-learning",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:machine-learning-engineer-certification",
-      "target": "wiki:software-engineer-to-machine-learning",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
       "source": "article:guide:machine-learning-for-software-engineers",
       "target": "article:guide:machine-learning-system-design-interview",
       "kind": "article-link",
@@ -21967,726 +21450,6 @@
       "target": "wiki:responsible-ai-and-governance",
       "kind": "article-link",
       "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-certification",
-      "target": "article:guide:mlops-course",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:mlops-certification",
-      "target": "article:guide:mlops-courses",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-certification",
-      "target": "article:guide:mlops-frameworks",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:mlops-certification",
-      "target": "person:dannyleybzon",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-certification",
-      "target": "person:jeffkatz",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-certification",
-      "target": "person:mariavechtomova",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-certification",
-      "target": "person:nemanjaradojkovic",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-certification",
-      "target": "person:raphaelhoogvliets",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-certification",
-      "target": "person:simonstiebellehner",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-certification",
-      "target": "person:slawomirtulski",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-certification",
-      "target": "podcast:building-production-ml-platform-and-mlops-team",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:mlops-certification",
-      "target": "podcast:get-data-engineering-job-prep-and-interview",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-certification",
-      "target": "podcast:lean-mlops-for-startups",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-certification",
-      "target": "podcast:mlops-and-ml-engineering-in-finance",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-certification",
-      "target": "podcast:mlops-at-scale-reproducibility-adoption",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:mlops-certification",
-      "target": "podcast:mlops-model-monitoring-data-observability",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-certification",
-      "target": "podcast:pragmatic-and-standardized-mlops",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:mlops-certification",
-      "target": "podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-certification",
-      "target": "wiki:data-observability",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-certification",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-certification",
-      "target": "wiki:experiment-tracking",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-certification",
-      "target": "wiki:governance",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-certification",
-      "target": "wiki:job-search",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:mlops-certification",
-      "target": "wiki:job-search",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:mlops-certification",
-      "target": "wiki:machine-learning-portfolio-projects",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-certification",
-      "target": "wiki:ml-platforms",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:mlops-certification",
-      "target": "wiki:ml-platforms",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:mlops-certification",
-      "target": "wiki:mlops",
-      "kind": "article-link",
-      "weight": 8
-    },
-    {
-      "source": "article:guide:mlops-certification",
-      "target": "wiki:mlops",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:mlops-certification",
-      "target": "wiki:mlops-engineer",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:mlops-certification",
-      "target": "wiki:mlops-engineer",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:mlops-certification",
-      "target": "wiki:mlops-roadmap",
-      "kind": "article-link",
-      "weight": 8
-    },
-    {
-      "source": "article:guide:mlops-certification",
-      "target": "wiki:mlops-roadmap",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:mlops-certification",
-      "target": "wiki:mlops-tools",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:mlops-certification",
-      "target": "wiki:mlops-tools",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:mlops-certification",
-      "target": "wiki:model-monitoring",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:mlops-certification",
-      "target": "wiki:model-monitoring",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:mlops-certification",
-      "target": "wiki:model-registry",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-certification",
-      "target": "wiki:open-source-portfolio-evidence",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-certification",
-      "target": "wiki:production",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:mlops-certification",
-      "target": "wiki:production",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:mlops-certification",
-      "target": "wiki:reproducibility",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-certification",
-      "target": "wiki:reproducibility",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:mlops-course",
-      "target": "article:guide:mlops-courses",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-course",
-      "target": "article:guide:mlops-frameworks",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-course",
-      "target": "person:dannyleybzon",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-course",
-      "target": "person:mariavechtomova",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-course",
-      "target": "person:nemanjaradojkovic",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-course",
-      "target": "person:raphaelhoogvliets",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-course",
-      "target": "person:simonstiebellehner",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-course",
-      "target": "podcast:building-production-ml-platform-and-mlops-team",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:mlops-course",
-      "target": "podcast:lean-mlops-for-startups",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-course",
-      "target": "podcast:mlops-and-ml-engineering-in-finance",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:mlops-course",
-      "target": "podcast:mlops-at-scale-reproducibility-adoption",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-course",
-      "target": "podcast:mlops-model-monitoring-data-observability",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-course",
-      "target": "podcast:pragmatic-and-standardized-mlops",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:mlops-course",
-      "target": "wiki:data-engineering",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-course",
-      "target": "wiki:data-observability",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-course",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-course",
-      "target": "wiki:developer-experience",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-course",
-      "target": "wiki:governance",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-course",
-      "target": "wiki:machine-learning-engineer-role",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-course",
-      "target": "wiki:machine-learning-portfolio-projects",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-course",
-      "target": "wiki:ml-platforms",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-course",
-      "target": "wiki:ml-platforms",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:mlops-course",
-      "target": "wiki:mlops",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:mlops-course",
-      "target": "wiki:mlops",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:mlops-course",
-      "target": "wiki:mlops-engineer",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:mlops-course",
-      "target": "wiki:mlops-engineer",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:mlops-course",
-      "target": "wiki:mlops-roadmap",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:mlops-course",
-      "target": "wiki:mlops-roadmap",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:mlops-course",
-      "target": "wiki:mlops-tools",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:mlops-course",
-      "target": "wiki:mlops-tools",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:mlops-course",
-      "target": "wiki:model-monitoring",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:mlops-course",
-      "target": "wiki:model-monitoring",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:mlops-course",
-      "target": "wiki:platform-engineering",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-course",
-      "target": "wiki:production",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-course",
-      "target": "wiki:production",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:mlops-course",
-      "target": "wiki:reproducibility",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-course",
-      "target": "wiki:reproducibility",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:mlops-course",
-      "target": "wiki:software-engineering",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-courses",
-      "target": "article:guide:mlops-certification",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-courses",
-      "target": "article:guide:mlops-course",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-courses",
-      "target": "person:dannyleybzon",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-courses",
-      "target": "person:mariavechtomova",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-courses",
-      "target": "person:nemanjaradojkovic",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-courses",
-      "target": "person:raphaelhoogvliets",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-courses",
-      "target": "person:simonstiebellehner",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-courses",
-      "target": "podcast:building-production-ml-platform-and-mlops-team",
-      "kind": "article-link",
-      "weight": 20
-    },
-    {
-      "source": "article:guide:mlops-courses",
-      "target": "podcast:datatalksclub-scaling-and-free-courses",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:mlops-courses",
-      "target": "podcast:lean-mlops-for-startups",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-courses",
-      "target": "podcast:mlops-at-scale-reproducibility-adoption",
-      "kind": "article-link",
-      "weight": 10
-    },
-    {
-      "source": "article:guide:mlops-courses",
-      "target": "podcast:mlops-model-monitoring-data-observability",
-      "kind": "article-link",
-      "weight": 10
-    },
-    {
-      "source": "article:guide:mlops-courses",
-      "target": "podcast:pragmatic-and-standardized-mlops",
-      "kind": "article-link",
-      "weight": 16
-    },
-    {
-      "source": "article:guide:mlops-courses",
-      "target": "wiki:data-observability",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-courses",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-courses",
-      "target": "wiki:evaluation",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-courses",
-      "target": "wiki:experiment-tracking",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-courses",
-      "target": "wiki:governance",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-courses",
-      "target": "wiki:machine-learning-portfolio-projects",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:mlops-courses",
-      "target": "wiki:machine-learning-system-design",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-courses",
-      "target": "wiki:ml-platforms",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-courses",
-      "target": "wiki:ml-platforms",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:mlops-courses",
-      "target": "wiki:mlops",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-courses",
-      "target": "wiki:mlops",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:mlops-courses",
-      "target": "wiki:mlops-engineer",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-courses",
-      "target": "wiki:mlops-engineer",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:mlops-courses",
-      "target": "wiki:mlops-roadmap",
-      "kind": "article-link",
-      "weight": 8
-    },
-    {
-      "source": "article:guide:mlops-courses",
-      "target": "wiki:mlops-roadmap",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:mlops-courses",
-      "target": "wiki:mlops-tools",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:mlops-courses",
-      "target": "wiki:mlops-tools",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:mlops-courses",
-      "target": "wiki:model-monitoring",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:mlops-courses",
-      "target": "wiki:model-monitoring",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:mlops-courses",
-      "target": "wiki:model-registry",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-courses",
-      "target": "wiki:platform-engineering",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-courses",
-      "target": "wiki:production",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:mlops-courses",
-      "target": "wiki:production",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:mlops-courses",
-      "target": "wiki:reproducibility",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-courses",
-      "target": "wiki:reproducibility",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:mlops-courses",
-      "target": "wiki:software-engineering",
-      "kind": "article-link",
-      "weight": 4
     },
     {
       "source": "article:guide:mlops-frameworks",
@@ -66382,6 +65145,12 @@
     },
     {
       "source": "wiki:mlops-roadmap",
+      "target": "person:jeffkatz",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:mlops-roadmap",
       "target": "person:linaweichbrodt",
       "kind": "wiki-link",
       "weight": 2
@@ -66412,6 +65181,18 @@
     },
     {
       "source": "wiki:mlops-roadmap",
+      "target": "person:slawomirtulski",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:mlops-roadmap",
+      "target": "person:valeriybabushkin",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:mlops-roadmap",
       "target": "person:willempienaar",
       "kind": "wiki-link",
       "weight": 2
@@ -66420,7 +65201,13 @@
       "source": "wiki:mlops-roadmap",
       "target": "podcast:building-production-ml-platform-and-mlops-team",
       "kind": "wiki-link",
-      "weight": 20
+      "weight": 22
+    },
+    {
+      "source": "wiki:mlops-roadmap",
+      "target": "podcast:get-data-engineering-job-prep-and-interview",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:mlops-roadmap",
@@ -66438,7 +65225,13 @@
       "source": "wiki:mlops-roadmap",
       "target": "podcast:machine-learning-engineering-production-best-practices",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 6
+    },
+    {
+      "source": "wiki:mlops-roadmap",
+      "target": "podcast:machine-learning-system-design-interview",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:mlops-roadmap",
@@ -66468,7 +65261,13 @@
       "source": "wiki:mlops-roadmap",
       "target": "podcast:pragmatic-and-standardized-mlops",
       "kind": "wiki-link",
-      "weight": 18
+      "weight": 20
+    },
+    {
+      "source": "wiki:mlops-roadmap",
+      "target": "podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:mlops-roadmap",
@@ -66498,11 +65297,23 @@
       "source": "wiki:mlops-roadmap",
       "target": "wiki:experiment-tracking",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 8
     },
     {
       "source": "wiki:mlops-roadmap",
       "target": "wiki:experiment-tracking",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:mlops-roadmap",
+      "target": "wiki:machine-learning-engineer-role",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:mlops-roadmap",
+      "target": "wiki:machine-learning-engineer-role",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -66515,6 +65326,18 @@
     {
       "source": "wiki:mlops-roadmap",
       "target": "wiki:machine-learning-infrastructure",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:mlops-roadmap",
+      "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:mlops-roadmap",
+      "target": "wiki:machine-learning-portfolio-projects",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -66558,7 +65381,13 @@
       "source": "wiki:mlops-roadmap",
       "target": "wiki:mlops-engineer",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
+    },
+    {
+      "source": "wiki:mlops-roadmap",
+      "target": "wiki:mlops-engineer",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:mlops-roadmap",
@@ -66570,7 +65399,7 @@
       "source": "wiki:mlops-roadmap",
       "target": "wiki:model-monitoring",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "wiki:mlops-roadmap",
@@ -66582,7 +65411,7 @@
       "source": "wiki:mlops-roadmap",
       "target": "wiki:model-registry",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "wiki:mlops-roadmap",
@@ -66593,6 +65422,12 @@
     {
       "source": "wiki:mlops-roadmap",
       "target": "wiki:platform-adoption",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:mlops-roadmap",
+      "target": "wiki:production",
       "kind": "wiki-link",
       "weight": 2
     },

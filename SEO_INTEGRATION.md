@@ -138,4 +138,6 @@ wiki page already owns.
   - [x] Remove branded Zoomcamp guide pages
   - [x] Remove duplicate data engineering course, courses, bootcamp, and
     training guide variants
+  - [x] Remove duplicate MLOps course, certification, and machine learning
+    bootcamp guide variants
 - [ ] Resubmit both sitemaps in Google Search Console

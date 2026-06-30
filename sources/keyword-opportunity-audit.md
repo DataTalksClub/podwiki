@@ -59,7 +59,7 @@ These keyword groups already have editorial coverage:
 | Data pipeline projects | `_guides/data-engineering-pipeline-project.md`, `_how_tos/how-to-build-data-pipelines.md` | build data pipelines, data engineering pipeline project |
 | Data engineering consulting | `_guides/data-engineering-consulting.md`, `_guides/data-engineering-consultant.md`, `_guides/data-engineer-consulting.md`, `_guides/data-engineer-consultant.md` | data engineering consulting, data engineering consultant, data engineer consulting |
 | Freelance data engineering | `_guides/freelance-data-engineer.md`, `_guides/data-engineering-freelance.md` | freelance data engineer, data engineering freelance |
-| MLOps core terms | `_wiki/mlops.md`, `_guides/mlops-course.md`, `_guides/mlops-courses.md`, `_wiki/mlops-tools.md`, `_guides/mlops-frameworks.md`, `_guides/mlops-architecture.md`, `_wiki/mlops-engineer.md`, `_guides/mlops-certification.md` | mlops, what is mlops, mlops course, mlops tools, mlops architecture |
+| MLOps core terms | `_wiki/mlops.md`, `_wiki/mlops-roadmap.md`, `_wiki/mlops-tools.md`, `_guides/mlops-frameworks.md`, `_guides/mlops-architecture.md`, `_wiki/mlops-engineer.md` | mlops, what is mlops, mlops course, mlops tools, mlops architecture |
 | DataOps core terms | `_wiki/dataops.md`, `_guides/dataops-tools.md`, `_comparisons/dataops-vs-data-engineering.md`, `_comparisons/mlops-vs-dataops.md` | dataops, data ops, dataops tools, mlops vs dataops |
 | Machine learning system design | `_wiki/machine-learning-system-design.md`, `_guides/machine-learning-system-design-interview.md`, `_guides/ml-system-design-interview.md`, `_guides/designing-machine-learning-systems.md` | machine learning system design, ml system design interview, designing machine learning systems |
 | LLM system design | `_guides/llm-system-design-interview.md` | llm system design interview |
@@ -137,6 +137,10 @@ variants were later removed. Their useful guidance belongs in
 `_wiki/data-engineering-roadmap.md`, with roadmap-specific intents still covered
 by `_roadmaps/data-engineer-roadmap.md` and
 `_roadmaps/how-to-become-a-data-engineer-with-no-experience.md`.
+
+The duplicate MLOps course, courses, certification, machine learning bootcamp,
+and machine learning engineer certification guide variants were later removed.
+Their useful guidance belongs in `_wiki/mlops-roadmap.md`.
 
 ## Next Content Step
 
