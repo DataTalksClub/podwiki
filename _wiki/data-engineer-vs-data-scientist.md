@@ -11,8 +11,6 @@ related:
   - MLOps
 ---
 
-## Definition and Scope
-
 A data engineer owns dependable data paths through ingestion, storage, and
 transformation. The role also covers orchestration, access, monitoring, and
 documentation.
@@ -41,27 +39,17 @@ product feature
 ([Big Data Engineer vs Data Scientist]({{ '/podcasts/big-data-engineer-vs-data-scientist/' | relative_url }}),
 [Data Engineering and Data Science]({{ '/comparisons/data-engineering-and-data-science/' | relative_url }})).
 
-## Link Map
-
-Start with these role and concept pages:
-
-- [Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }}) for the engineering side of the boundary.
-- [Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }}) for the modeling, experimentation, and decision side.
-- [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}) for pipelines, platforms, data quality, and data products.
-- [Data Science]({{ '/wiki/data-science/' | relative_url }}) for modeling, statistics, experimentation, and career variants.
-- [Machine Learning Engineer Role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }}) for the production-model role that often sits between data science and engineering.
-- [MLOps]({{ '/wiki/mlops/' | relative_url }}), [Machine Learning Infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }}), and [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }}) for the shared production layer.
-- [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}), [Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }}), and [Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }}) for engineering-heavy boundary cases.
-- [Job Descriptions]({{ '/wiki/job-descriptions/' | relative_url }}), [Hiring]({{ '/wiki/hiring/' | relative_url }}), and [Data Science Careers]({{ '/wiki/data-science-careers/' | relative_url }}) for title ambiguity and candidate signals.
-
-Core podcast discussions for this comparison:
-
-- [Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }}) gives the archive's baseline role sequence: analysts explain, data scientists predict, data engineers make data usable, and machine learning engineers help scale model-backed services.
-- [Big Data Engineer vs Data Scientist]({{ '/podcasts/big-data-engineer-vs-data-scientist/' | relative_url }}) with [Roksolana Diachuk]({{ '/people/roksolanadiachuk/' | relative_url }}) is the strongest direct comparison of engineering, data science, tools, feature work, and production handoffs.
-- [Data Engineer Career in 2026]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }}) with [Slawomir Tulski]({{ '/people/slawomirtulski/' | relative_url }}) explains why "data engineer" can mean platform engineering or product-facing data engineering.
-- [Data Science Jobs]({{ '/podcasts/data-science-job-red-flags-and-mismatched-roles/' | relative_url }}) with [Tereza Iofciu]({{ '/people/terezaiofciu/' | relative_url }}) explains how job titles hide mismatched expectations, missing data infrastructure, and unclear team ownership.
-- [Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }}) with [Oleg Novikov]({{ '/people/olegnovikov/' | relative_url }}) separates product data scientist expectations from machine-learning-engineering-heavy expectations.
-- [Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}) with [Simon Stiebellehner]({{ '/people/simonstiebellehner/' | relative_url }}) shows the platform layer around data scientist workflows: notebooks, experiment tracking, model registries, batch inference, online serving, and monitoring.
+Use the short
+[Data Engineer vs Data Scientist comparison]({{ '/comparisons/data-engineer-vs-data-scientist/' | relative_url }})
+when you need a decision page. For the broader archive reference, follow the
+role boundary through [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}),
+[Data Science]({{ '/wiki/data-science/' | relative_url }}), and [Data Quality
+and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).
+Engineering-heavy cases connect to
+[Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }}) and
+[Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }}). Title
+ambiguity connects to [Job Descriptions]({{ '/wiki/job-descriptions/' | relative_url }})
+and [Hiring]({{ '/wiki/hiring/' | relative_url }}).
 
 ## Common Definition
 

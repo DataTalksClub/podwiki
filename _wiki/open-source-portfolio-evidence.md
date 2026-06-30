@@ -11,6 +11,7 @@ related:
   - Developer Experience
   - Job Search
   - Data Engineering Portfolio Projects
+  - Data Engineering Tools
   - Machine Learning Portfolio Projects
 ---
 
@@ -44,53 +45,63 @@ contribution proof. For project selection, use
 [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }}),
 [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}),
 or [RAG Portfolio Projects]({{ '/wiki/rag-portfolio-projects/' | relative_url }}).
-For open-source adoption, community, and DevRel strategy, use
-[Open Source and Developer Relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }}).
+For open-source adoption and community strategy, use
+[Open Source]({{ '/wiki/open-source/' | relative_url }}),
+[Open Source and Developer Relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }}),
+or the contributor path in
+[Open Source Contributor Roadmap]({{ '/roadmaps/open-source-contributor-roadmap/' | relative_url }}).
 
-## Link Map
+## Public Contribution Signals
 
-Core adjacent pages:
+[Open Source]({{ '/wiki/open-source/' | relative_url }}) gives the broader
+project and licensing context, while
+[Open Source and Developer Relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }})
+connects public work to documentation, demos, and feedback loops. Governance
+belongs in that same adoption context.
+The visible work usually appears through
+[contributing]({{ '/wiki/contributing/' | relative_url }}),
+[documentation]({{ '/wiki/documentation/' | relative_url }}), and
+[technical writing]({{ '/wiki/technical-writing/' | relative_url }}). It can
+also show up through [developer relations]({{ '/wiki/developer-relations/' | relative_url }})
+and [developer experience]({{ '/wiki/developer-experience/' | relative_url }})
+when demos, first-run friction, user feedback, and community education become
+part of the contribution.
 
-- [Open Source]({{ '/wiki/open-source/' | relative_url }}) for the broader
-  project and licensing context.
-- [Open Source and Developer Relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }})
-  for documentation, demos, feedback loops, and governance.
-- [Contributing]({{ '/wiki/contributing/' | relative_url }}) for issue, pull
-  request, testing, and maintainer-interaction standards.
-- [Documentation]({{ '/wiki/documentation/' | relative_url }}) and
-  [Technical Writing]({{ '/wiki/technical-writing/' | relative_url }}) for
-  README, guide, and API reference evidence.
-- [Developer Relations]({{ '/wiki/developer-relations/' | relative_url }}) and
-  [Developer Experience]({{ '/wiki/developer-experience/' | relative_url }})
-  for demos, first-run friction, user feedback, and community education.
-- [Job Search]({{ '/wiki/job-search/' | relative_url }}),
-  [CV Screening]({{ '/wiki/cv-screening/' | relative_url }}), and
-  [Career Transition]({{ '/wiki/career-transition/' | relative_url }}) for
-  presenting public work to employers.
+[Vincent Warmerdam]({{ '/people/vincentwarmerdam/' | relative_url }}) gives the
+maintainer-side standard in
+[Contribute to Open Source ML]({{ '/podcasts/open-source-ml-contributions/' | relative_url }}).
+He values reproducible issues, small fixes, docs, and tests.
+[Jeff Katz]({{ '/people/jeffkatz/' | relative_url }})
+adds the hiring side in
+[Data Engineering Job Prep]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }}).
+Open-source work can prove Python, SQL, Docker, and code quality when the
+repository is inspectable.
 
-Primary podcast anchors:
+The data engineering archive adds tool-specific examples. [Natalie
+Kwong]({{ '/people/nataliekwong/' | relative_url }}) uses Airbyte's connector
+ecosystem and open-source/cloud path in
+[ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}).
+[Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) uses DLT docs,
+workshops, product-market-fit learning, and bottom-up developer adoption in
+[From Data Freelancer to Startup]({{ '/podcasts/from-data-freelancer-to-startup-open-source-products/' | relative_url }}).
+[Sonal Goyal]({{ '/people/sonalgoyal/' | relative_url }}) uses Zingg,
+entity-resolution product strategy, licensing, and community strategy in
+[Building an Open-Source Identity Resolution Tool]({{ '/podcasts/building-open-source-data-product-for-identity-resolution/' | relative_url }}).
 
-- [Contribute to Open Source ML]({{ '/podcasts/open-source-ml-contributions/' | relative_url }})
-  with [Vincent Warmerdam]({{ '/people/vincentwarmerdam/' | relative_url }})
-  for reproducible issues, small fixes, docs, and tests.
-- [Data Engineering Job Prep]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }})
-  with [Jeff Katz]({{ '/people/jeffkatz/' | relative_url }}) for open-source
-  work as hiring evidence for Python, SQL, Docker, and code quality.
-- [DevRel Role for Machine Learning]({{ '/podcasts/devrel-open-source-machine-learning/' | relative_url }})
-  with [Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }})
-  for GitHub portfolios, blog posts, meetup talks, and documentation.
-- [Early-Stage Investing in Open Source Developer Tools]({{ '/podcasts/investing-in-open-source-developer-tools/' | relative_url }})
-  with [Bela Wiertz]({{ '/people/belawiertz/' | relative_url }}) for what
-  external observers can infer from repositories, community engagement, and
-  commercialization plans.
-- [Learn in Public]({{ '/podcasts/developer-personal-brand-learn-in-public/' | relative_url }})
-  with [Shawn Swyx Wang]({{ '/people/swyx/' | relative_url }}) for turning
-  public learning, writing, and open-source knowledge into a durable career
-  signal.
-- [Ace Data Interviews]({{ '/podcasts/data-interview-behavioral-and-portfolio-prep-guide/' | relative_url }})
-  with [Nick Singh]({{ '/people/nicksingh/' | relative_url }}) for project
-  walkthroughs, ownership checks, impact framing, and defensible technical
-  claims.
+The career-facing episodes show how to present that work. [Hugo
+Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }}) connects
+GitHub portfolios, blog posts, meetup talks, and documentation in
+[DevRel Role for Machine Learning]({{ '/podcasts/devrel-open-source-machine-learning/' | relative_url }}).
+[Bela Wiertz]({{ '/people/belawiertz/' | relative_url }}) looks at what
+external observers can infer from repositories, community engagement, and
+commercialization plans in
+[Early-Stage Investing in Open Source Developer Tools]({{ '/podcasts/investing-in-open-source-developer-tools/' | relative_url }}).
+[Shawn Swyx Wang]({{ '/people/swyx/' | relative_url }}) connects public
+learning and open-source knowledge to a durable career signal in
+[Learn in Public]({{ '/podcasts/developer-personal-brand-learn-in-public/' | relative_url }}).
+[Nick Singh]({{ '/people/nicksingh/' | relative_url }}) covers project
+walkthroughs, ownership checks, impact framing, and defensible technical claims
+in [Ace Data Interviews]({{ '/podcasts/data-interview-behavioral-and-portfolio-prep-guide/' | relative_url }}).
 
 ## Common Definition
 
@@ -117,9 +128,28 @@ Jeff gives the hiring standard. In
 [Data Engineering Job Prep]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }}),
 he warns around 1:49 that many portfolios list the right tools while showing too
 little Python and SQL. Around 2:22, he adds professional code structure. That
-means small functions, classes, descriptive names, and tests. Around 2:46, he recommends
-personal and open-source projects because review pressure makes the code more
-reliable and closer to professional practice.
+means small functions, classes, descriptive names, and tests. Around 2:46, he
+recommends personal and open-source projects because review pressure makes the
+code more reliable and closer to professional practice.
+
+The data-engineering episodes add concrete project settings. In
+[ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
+[Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) explains
+Airbyte's connector ecosystem at 43:45. It existed for the long tail of
+business tools.
+
+In
+[From Data Freelancer to Startup]({{ '/podcasts/from-data-freelancer-to-startup-open-source-products/' | relative_url }}),
+[Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) shows how DLT
+used workshops and documentation to validate a Python-first pipeline library.
+Developer adoption became part of that validation.
+
+In
+[Building an Open-Source Identity Resolution Tool]({{ '/podcasts/building-open-source-data-product-for-identity-resolution/' | relative_url }}),
+[Sonal Goyal]({{ '/people/sonalgoyal/' | relative_url }}) shows the product
+side through Zingg. Identity resolution and open-source distribution become
+visible. So do licensing choices, community feedback, and ecosystem
+integrations.
 
 That makes open-source portfolio evidence narrower than "I use open source" and
 broader than "I merged a feature." The useful proof is public work that makes a
@@ -191,6 +221,14 @@ education, dogfooding, and product feedback
 A strong documentation PR shows that the contributor understood the tool well
 enough to make the first run, common failure, or advanced use case clearer.
 
+DLT makes this documentation path especially concrete for data engineering.
+Adrian says at 41:23 that without docs the product was unusable. At 43:01, he
+describes months of work before people could use the docs and then call them good
+([From Data Freelancer to Startup]({{ '/podcasts/from-data-freelancer-to-startup-open-source-products/' | relative_url }})).
+A portfolio contribution to a pipeline library can therefore be a setup guide,
+source example, or destination example. A workshop fix can also help another
+Python user build the pipeline successfully.
+
 A small code fix becomes credible when reviewers can look at it quickly.
 Vincent recommends learning the repo's ecosystem basics. That includes Git and
 GitHub workflow, packaging, `pytest`, and `flake8`. It also includes `black`,
@@ -201,6 +239,15 @@ governance constraints
 ([Contribute to Open Source ML]({{ '/podcasts/open-source-ml-contributions/' | relative_url }}),
 27:40). For portfolio use, link the issue and pull request. Include tests, CI
 results, and maintainer feedback.
+
+Airbyte gives a connector-specific version of this path. Around 44:12 Natalie
+explains that closed-source ingestion tools struggle with the long tail of
+connectors. Around 46:52 she describes custom connectors through Airbyte's
+connector development kit
+([ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})).
+
+A connector fix or connector example is strong in a data-engineering portfolio
+when it shows API handling, schema behavior, tests, and a clear review trail.
 
 A small ecosystem-compatible package can work, but it needs restraint. Vincent's
 scikit-lego discussion shows focused APIs that fit scikit-learn pipelines. They
@@ -232,7 +279,29 @@ Good open-source examples include connector fixes,
 pipeline examples, and data-quality checks. Orchestration documentation, SQL
 model tests, and reproducible bugs in data tooling also fit. Connect these to
 [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
+and [Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }})
 instead of leaving them as generic GitHub activity.
+
+Airbyte, DLT, and Zingg show three useful data-engineering contribution shapes:
+
+- Airbyte makes connector work legible. The evidence can cover sources,
+  destinations, CDC behavior, and the boundary between open connectors and cloud
+  features
+  ([Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) in
+  [ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
+  43:45 / 46:52).
+- DLT makes library and documentation work legible. A developer can contribute
+  examples, workshop corrections, or source integrations. Docs can show how
+  Python users build pipelines
+  ([Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) in
+  [From Data Freelancer to Startup]({{ '/podcasts/from-data-freelancer-to-startup-open-source-products/' | relative_url }}),
+  36:00 / 41:23 / 47:56).
+- Zingg makes productized data-quality work legible. Identity resolution needs
+  entity modeling and training data. Spark-compatible sources, licensing
+  judgment, and community support also matter
+  ([Sonal Goyal]({{ '/people/sonalgoyal/' | relative_url }}) in
+  [Building an Open-Source Identity Resolution Tool]({{ '/podcasts/building-open-source-data-product-for-identity-resolution/' | relative_url }}),
+  24:32 / 27:00 / 32:59).
 
 For machine learning, the contribution should prove maintainable ML work. Good
 examples include reproducible examples, evaluation helpers, scikit-learn
@@ -259,9 +328,12 @@ At 13:42 and 16:40, he discusses open source as community trust and bottom-up
 developer adoption. At 32:31 and 40:41, he separates vanity metrics from active
 engagement and commercialization understanding
 ([Early-Stage Investing in Open Source Developer Tools]({{ '/podcasts/investing-in-open-source-developer-tools/' | relative_url }})).
+
 The portfolio should therefore show active users and issue discussion. It can
 also show repeated use, community learning, or a credible boundary between the
-free project and commercial value.
+free project and commercial value. Adrian's DLT story adds workshops, docs, and
+bottom-up adoption as product evidence. Sonal's Zingg story adds licensing,
+discoverability, user feedback, and ecosystem integrations as product evidence.
 
 ## Presenting the Work
 

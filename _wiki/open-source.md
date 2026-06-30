@@ -1,6 +1,7 @@
 ---
 layout: wiki
 title: "Open Source"
+keyword: "what is open source"
 summary: "How DataTalks.Club podcast guests discuss open source across ML and data tools, contribution work, governance, licensing, developer relations, and startup distribution."
 related:
   - Open Source and Developer Relations
@@ -15,6 +16,7 @@ related:
   - Data Engineering Tools
   - Startup
   - Entrepreneurship
+  - Solopreneur
   - Tools
 ---
 
@@ -38,7 +40,9 @@ For tool adoption, it overlaps with
 and
 [data engineering tools]({{ '/wiki/data-engineering-tools/' | relative_url }}).
 For company paths, see [startup]({{ '/wiki/startup/' | relative_url }}) and
-[entrepreneurship]({{ '/wiki/entrepreneurship/' | relative_url }}).
+[entrepreneurship]({{ '/wiki/entrepreneurship/' | relative_url }}). For the
+intentionally small business version, see
+[Solopreneur]({{ '/wiki/solopreneur/' | relative_url }}).
 
 ## Common Definition
 
@@ -273,6 +277,10 @@ focuses on using public contributions as career proof.
 contributions and pull-request habits.
 [Documentation]({{ '/wiki/documentation/' | relative_url }}) covers docs as a
 product surface.
+
 [Developer Experience]({{ '/wiki/developer-experience/' | relative_url }}) and
 [Tools]({{ '/wiki/tools/' | relative_url }}) cover the surrounding product
 interfaces.
+[Solopreneur]({{ '/wiki/solopreneur/' | relative_url }}) covers intentionally
+small businesses that use public work, teaching, or software as part of the
+business model.

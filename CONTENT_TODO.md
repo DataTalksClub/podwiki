@@ -97,12 +97,14 @@ Existing pages:
 - `_wiki/mlops-engineer.md`
 - `_guides/analytics-engineer.md`
 - `_guides/data-product-manager-role.md`
+- `_wiki/developer-relations.md` owns the Developer Advocate / DevRel Engineer
+  role vocabulary unless a future keyword brief needs a separate role page.
 
 Candidate pages:
 
-- Analytics engineer
-- Data product manager
-- Developer advocate / DevRel engineer
+- Improve existing analytics engineer and data product manager pages as new
+  interviews add evidence. Do not create duplicate role pages for the same
+  keyword family.
 
 Source hints:
 
@@ -128,6 +130,7 @@ Each page should cover the same core pieces:
 
 Existing pages:
 
+- `_wiki/solopreneur.md`
 - `_wiki/career-transitions-in-data.md`
 - `_how_tos/how-to-build-data-pipelines.md` owns the procedural pipeline
   build page. Keep `_guides/data-engineering-pipeline-project.md` focused on
@@ -241,6 +244,7 @@ comparison outcomes:
 
 Existing pages:
 
+- `_comparisons/data-engineer-vs-data-scientist.md`
 - `_comparisons/data-analyst-vs-analytics-engineer.md`
 - `_comparisons/data-product-manager-vs-product-manager.md`
 - `_comparisons/data-product-owner-vs-data-product-manager.md`
@@ -266,9 +270,9 @@ Existing pages:
 
 Candidate pages:
 
-- Data engineer vs data scientist. Create
-  `_comparisons/data-engineer-vs-data-scientist.md` only as a short
-  decision-oriented page for the exact role query; keep
+- Improve existing comparison pages as new interviews add evidence. Keep
+  `_comparisons/data-engineer-vs-data-scientist.md` as the short
+  decision-oriented page for the exact role query, and keep
   `_wiki/data-engineer-vs-data-scientist.md` as the canonical reference page.
 
 Source hints:
@@ -302,13 +306,21 @@ Start with this batch when expanding the content set.
 - Keep batch vs streaming and data warehouse vs data lakehouse as wiki-owned
   decision pages unless a new keyword brief requires a very short editorial
   page that points back to the canonical wiki page.
-- Viable audited follow-ups: data engineer vs data scientist as a short
-  decision page and data analyst to analytics engineer as an analyst-specific
-  roadmap page.
+- Viable audited follow-up: data analyst to analytics engineer as an
+  analyst-specific roadmap page.
 - Keep `dataops platforms` on `_wiki/dataops-platforms.md`. It links to
   DataOps, DataOps tools, platform engineering, and data engineering platforms.
 - Improve `_wiki/open-source.md` before creating any Open Source editorial
   page. The keyword is a bare concept, so the wiki page should own it.
+- Keep `data engineering open source projects` covered by `_wiki/open-source.md`,
+  `_wiki/open-source-portfolio-evidence.md`,
+  `_wiki/data-engineering-portfolio-projects.md`, and
+  `_roadmaps/open-source-contributor-roadmap.md` unless a future brief asks for
+  a narrower project guide.
+- Treat `open source entity resolution` as wiki coverage unless more interviews
+  make it a broader topic. Use Zingg/Sonal Goyal evidence inside Open Source,
+  Data Engineering Tools, and portfolio pages before creating a standalone
+  `_wiki/entity-resolution.md`.
 - Treat Delta Lake as a wiki concept. The editorial comparison now lives in
   `_comparisons/delta-lake-vs-apache-iceberg.md`; keep bare Delta Lake updates
   on `_wiki/delta-lake.md`.

@@ -41,6 +41,8 @@ For the archive reference page, use
 For the two role hubs, use
 [Data Analyst Role]({{ '/wiki/data-analyst-role/' | relative_url }}) and
 [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }}).
+If you're moving from analyst work toward model ownership, use the
+[Data Analyst to Analytics Engineer Roadmap]({{ '/roadmaps/data-analyst-to-analytics-engineer/' | relative_url }}).
 
 ## Short Comparison
 
@@ -128,10 +130,11 @@ practices turn warehouse SQL into something closer to production code. Use the
 [Juan Manuel Perafan]({{ '/people/juanmanuelperafan/' | relative_url }}) gives
 the deeper role definition in
 [Foundations of the Analytics Engineer Role]({{ '/podcasts/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices/' | relative_url }}).
-At 11:03-13:18, he describes analytics engineering as making data resemble the
-business reality. He then adds rigor, robustness, and reproducibility. At
-16:25-18:35, he contrasts fast dashboard work with engineering work that puts
-testability first.
+At 8:20-8:42, he says the role is often misread as only bridging analysts and
+data engineers. His stronger definition starts at 11:03: analytics engineers
+take business reality and make data resemble it. He then adds rigor,
+robustness, and reproducibility. At 16:25-18:35, he contrasts fast dashboard
+work with engineering work that puts testability first.
 
 Use the distinction to assign ownership. Analysts can move quickly when a
 stakeholder needs an answer today. Analytics engineers slow down when the same
@@ -157,6 +160,13 @@ support, and A/B testing. It also included ad hoc analysis, RFM analysis, and
 data model changes. Later, at 19:07-22:08, he describes the `dbt` migration and
 transformation layers that turned that work into a reusable model.
 
+Nikola returns to the title question at 25:06-28:40. His official role combined
+analytics engineer and data analyst because the BI team was small. He says
+small and medium-sized teams shouldn't get stuck on the title split. The work
+still needs analytical skill, KPI fluency, and domain modeling. In a
+larger data department, though, separating analysts and analytics engineers can
+make structural sense because people can focus.
+
 Use work mode instead of title when one person covers both sides:
 
 - Stay in analyst mode for a one-off question, an experiment readout, a metric
@@ -170,7 +180,8 @@ The [Analytics Engineering Roadmap]({{ '/wiki/analytics-engineering-roadmap/' | 
 and
 [Analytics Engineering Portfolio Projects]({{ '/wiki/analytics-engineering-portfolio-projects/' | relative_url }})
 pages are useful when an analyst wants to move toward the engineered side of
-the boundary.
+the boundary. For a step-by-step transition path, use
+[Data Analyst to Analytics Engineer Roadmap]({{ '/roadmaps/data-analyst-to-analytics-engineer/' | relative_url }}).
 
 ## Dashboards, Metrics, and Models
 
@@ -256,6 +267,26 @@ Strong examples include:
 The useful signal isn't "knows `dbt`." The stronger signal is "made trusted
 analytical data easier to reuse and safer to change."
 
+[Alicja Notowska]({{ '/people/alicjanotowska/' | relative_url }}) gives the
+hiring-screen version in
+[Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }}).
+At 21:32-32:40, she describes sourcing from the job description, checking
+responsibilities instead of titles alone, and reading beyond tool lists and
+buzzwords. For this comparison, that means a data analyst CV should show the
+questions, decisions, and stakeholders behind the analysis. An analytics
+engineer CV should show the models, tests, docs, and ownership behind the
+tools.
+
+[Tereza Iofciu]({{ '/people/terezaiofciu/' | relative_url }}) adds the job-ad
+side in
+[Data Science Jobs]({{ '/podcasts/data-science-job-red-flags-and-mismatched-roles/' | relative_url }}).
+At 27:18-30:44, she recommends checking whether the team is described,
+responsibilities are well-defined, and objectives appear instead of a long
+technology checklist. A posting for either role should name the work. If it
+asks for every data tool without saying whether the person owns decisions or
+models, the title is weak evidence. Quality ownership and stakeholder ownership
+should be visible too.
+
 The overlap matters because analysts who understand modeling can avoid bad
 joins and mixed grains. Analytics engineers who understand stakeholder
 questions can model the right entities instead of only making tidy tables.
@@ -270,6 +301,7 @@ behind the comparison:
 
 - [Data Analyst Role]({{ '/wiki/data-analyst-role/' | relative_url }})
 - [Data Analyst Careers]({{ '/wiki/data-analyst-careers/' | relative_url }})
+- [Data Analyst to Analytics Engineer Roadmap]({{ '/roadmaps/data-analyst-to-analytics-engineer/' | relative_url }})
 - [Data Analyst vs Analytics Engineer]({{ '/wiki/data-analyst-vs-analytics-engineer/' | relative_url }})
 - [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
 - [Analytics Engineer article]({{ '/guides/analytics-engineer/' | relative_url }})

@@ -9,6 +9,8 @@ related:
   - Data Pipelines
   - Data Quality and Observability
   - DataOps
+  - Data Engineering Tools
+  - Open Source
   - Open Source Portfolio Evidence
 ---
 
@@ -32,59 +34,69 @@ For one concrete project structure, use
 [End-to-End Data Pipeline Project]({{ '/wiki/end-to-end-data-pipeline-project/' | relative_url }}).
 For sequencing, use
 [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }}).
+For public contribution routes, use
+[Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
+and the
+[Open Source Contributor Roadmap]({{ '/roadmaps/open-source-contributor-roadmap/' | relative_url }}).
 
-## Link Map
+## Project Context
 
-Start with these role and architecture pages:
+[Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}) defines the
+role scope behind these projects, including platform data work and product data
+work. [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
+covers learning order and project sequence. A project usually sits inside
+[Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }}),
+[Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}),
+[DataOps]({{ '/wiki/dataops/' | relative_url }}), and
+[GitOps for Data Teams]({{ '/wiki/gitops-for-data-teams/' | relative_url }}).
 
-- [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}) for role
-  scope and platform versus product data work.
-- [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
-  for learning order and project sequence.
-- [Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }}) for ingestion
-  and orchestration.
-- [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
-  for freshness and schema work.
-- [DataOps]({{ '/wiki/dataops/' | relative_url }}) and
-  [GitOps for Data Teams]({{ '/wiki/gitops-for-data-teams/' | relative_url }})
-  for tests and CI/CD.
-- [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}),
-  [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}),
-  [CDC]({{ '/wiki/cdc/' | relative_url }}), and
-  [Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }}) for
-  architecture choices.
-- [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
-  for public contribution proof.
+Architecture choices come from
+[Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}),
+[ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}), and
+[CDC]({{ '/wiki/cdc/' | relative_url }}). They also come from
+[Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }}) and
+[Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }}).
+Public contribution proof connects this page to
+[Open Source]({{ '/wiki/open-source/' | relative_url }}),
+[Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }}),
+and the
+[Open Source Contributor Roadmap]({{ '/roadmaps/open-source-contributor-roadmap/' | relative_url }}).
 
-The main podcast anchors are:
+[Jeff Katz]({{ '/people/jeffkatz/' | relative_url }}) connects portfolio
+strength to fundamentals and public work in
+[Data Engineering Job Prep]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }}).
+In [Build a Data Engineering Career]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }}),
+he centers SQL, Python, and backend ETL. Junior tool selection belongs in the
+same career path.
+[Ellen König]({{ '/people/ellenkonig/' | relative_url }}) adds software habits
+and domain projects in
+[How to Become a Data Engineer]({{ '/podcasts/from-software-engineering-data-science-to-data-engineering-leadership/' | relative_url }}).
 
-- [Data Engineering Job Prep]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }})
-  with [Jeff Katz]({{ '/people/jeffkatz/' | relative_url }}) connects portfolio
-  strength to fundamentals and public work.
-- [Build a Data Engineering Career]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }})
-  with [Jeff Katz]({{ '/people/jeffkatz/' | relative_url }}) centers SQL,
-  Python, backend ETL, and junior tool selection.
-- [How to Become a Data Engineer]({{ '/podcasts/from-software-engineering-data-science-to-data-engineering-leadership/' | relative_url }})
-  with [Ellen König]({{ '/people/ellenkonig/' | relative_url }}) covers software
-  habits and domain projects.
-- [ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})
-  with [Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) covers
-  ingestion and modern-stack boundaries.
-- [Modern Data Pipeline Architecture]({{ '/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/' | relative_url }})
-  with [Santona Tuli]({{ '/people/santonatuli/' | relative_url }}) grounds
-  staging and persona-driven design.
-- [DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }})
-  and [Mastering DataOps]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }})
-  with [Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }})
-  ground tests and deployment confidence.
-- [Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }})
-  with [Barr Moses]({{ '/people/barrmoses/' | relative_url }}) grounds
-  freshness and root-cause analysis.
-- [Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }})
-  with [Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) and
-  [Data Engineer Career in 2026]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }})
-  with [Slawomir Tulski]({{ '/people/slawomirtulski/' | relative_url }}). These
-  episodes ground cost-aware choices and portfolio framing.
+[Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) grounds
+ingestion and modern-stack boundaries in
+[ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}).
+[Santona Tuli]({{ '/people/santonatuli/' | relative_url }}) grounds staging
+and persona-driven design in
+[Modern Data Pipeline Architecture]({{ '/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/' | relative_url }}).
+[Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }}) grounds
+tests and deployment confidence in
+[DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }})
+and [Mastering DataOps]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }}).
+[Barr Moses]({{ '/people/barrmoses/' | relative_url }}) grounds freshness and
+root-cause analysis in
+[Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }}).
+
+[Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) and
+[Slawomir Tulski]({{ '/people/slawomirtulski/' | relative_url }}) ground
+cost-aware choices and portfolio framing in
+[Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }})
+and
+[Data Engineer Career in 2026]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }}).
+Brudaru also covers DLT, docs, workshops, and bottom-up open-source adoption in
+[From Data Freelancer to Startup]({{ '/podcasts/from-data-freelancer-to-startup-open-source-products/' | relative_url }}).
+[Sonal Goyal]({{ '/people/sonalgoyal/' | relative_url }}) covers Zingg, entity
+resolution, and open-source distribution in
+[Building an Open-Source Data Product for Identity Resolution]({{ '/podcasts/building-open-source-data-product-for-identity-resolution/' | relative_url }}).
 
 ## Common Project Evidence
 
@@ -119,6 +131,25 @@ A strong repository makes five things inspectable:
   ([DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }})
   and [DataOps]({{ '/wiki/dataops/' | relative_url }})).
 
+Open-source data engineering work can make the same evidence public. For
+Airbyte, a connector fix can show source behavior and review pressure. A custom
+connector example or long-tail-source test can show the same thing. Kwong
+explains Airbyte through extraction and connectors. She also covers community
+breadth and the cloud monetization path
+([ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})
+and [Open Source]({{ '/wiki/open-source/' | relative_url }})).
+
+DLT docs and workshops show a different contribution surface.
+Brudaru says docs and workshops helped validate DLT while supporting bottom-up
+adoption
+([From Data Freelancer to Startup]({{ '/podcasts/from-data-freelancer-to-startup-open-source-products/' | relative_url }})).
+
+Zingg adds a product-data surface. Goyal ties open-source distribution to
+identity resolution and entity matching. She also discusses Spark, Snowflake,
+Python APIs, and dbt interfaces
+([Building an Open-Source Data Product for Identity Resolution]({{ '/podcasts/building-open-source-data-product-for-identity-resolution/' | relative_url }})
+and [Sonal Goyal]({{ '/people/sonalgoyal/' | relative_url }})).
+
 ## Guest Differences
 
 Guests differ by starting point. Katz starts from hiring evidence, so he wants
@@ -143,6 +174,15 @@ Brudaru and Tulski start from tool judgment through SQL, Python and cost.
 That leads to warnings about over-built stacks and role confusion
 ([Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }})
 and [Data Engineer Career in 2026]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }})).
+
+The open-source guests add public product examples. Kwong uses Airbyte to
+connect connector coverage and community contributions with cloud monetization
+([ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})).
+Brudaru uses DLT to show docs, workshops, and bottom-up developer adoption
+([From Data Freelancer to Startup]({{ '/podcasts/from-data-freelancer-to-startup-open-source-products/' | relative_url }})).
+Goyal uses Zingg to show how open source can distribute a specialized
+identity-resolution product
+([Building an Open-Source Data Product for Identity Resolution]({{ '/podcasts/building-open-source-data-product-for-identity-resolution/' | relative_url }})).
 
 ## Practical Projects
 
@@ -172,10 +212,26 @@ These project categories turn the archive themes into portfolio choices.
   cost note before adding Spark or Kafka
   ([Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }})
   and [Data Warehouse vs Data Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }})).
-- Open-source data contribution: contribute a connector fix or docs example. A
-  reproducible bug also works, and the issue or pull request should explain tests
-  ([Data Engineering Job Prep]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }})
-  and [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})).
+- Open-source data contribution: choose one inspectable contribution. It can be
+  a connector fix, docs example, test case, or reproducible issue.
+
+  Airbyte is useful for ingestion work because Kwong describes long-tail
+  connectors and custom connector work. She also covers community contribution
+  and cloud monetization
+  ([ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})).
+  DLT is useful for Python ingestion because Brudaru connects docs and
+  workshops to bottom-up adoption
+  ([From Data Freelancer to Startup]({{ '/podcasts/from-data-freelancer-to-startup-open-source-products/' | relative_url }})).
+  Zingg is useful for product-data work because Goyal connects entity
+  resolution to open-source distribution
+  ([Building an Open-Source Data Product for Identity Resolution]({{ '/podcasts/building-open-source-data-product-for-identity-resolution/' | relative_url }})).
+
+  Tie the contribution back to Katz's hiring standard with clean Python or SQL
+  and a clear README. Include tests plus a pull request or issue that explains
+  the tradeoff
+  ([Data Engineering Job Prep]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }}),
+  [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }}),
+  and [Open Source Contributor Roadmap]({{ '/roadmaps/open-source-contributor-roadmap/' | relative_url }})).
 
 ## Portfolio Anti-Patterns
 
@@ -200,6 +256,13 @@ to source semantics. Choudhury and Moses add evidence before consumption
 ([ETL vs ELT]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})
 and [Data-Led Growth Stack]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }})).
 
+Avoid treating open source as a badge. A fork or star list is weak evidence,
+and so is a generic claim that the project uses Airbyte, DLT, or Zingg. Show
+what changed and name the user problem it addressed. Explain how you tested it
+and how a maintainer or user could review it
+([Data Engineering Job Prep]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }})
+and [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})).
+
 ## Related Pages
 
 Use these pages to follow the role, architecture, and portfolio-adjacent topics:
@@ -213,10 +276,13 @@ Use these pages to follow the role, architecture, and portfolio-adjacent topics:
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})
 - [GitOps for Data Teams]({{ '/wiki/gitops-for-data-teams/' | relative_url }})
 - [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
+- [Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }})
 - [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }})
 - [CDC]({{ '/wiki/cdc/' | relative_url }})
 - [Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }})
 - [Analytics Engineering Portfolio Projects]({{ '/wiki/analytics-engineering-portfolio-projects/' | relative_url }})
+- [Open Source]({{ '/wiki/open-source/' | relative_url }})
 - [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
+- [Open Source Contributor Roadmap]({{ '/roadmaps/open-source-contributor-roadmap/' | relative_url }})
 - [Data Engineer vs Data Scientist]({{ '/wiki/data-engineer-vs-data-scientist/' | relative_url }})
 - [Job Search]({{ '/wiki/job-search/' | relative_url }})
