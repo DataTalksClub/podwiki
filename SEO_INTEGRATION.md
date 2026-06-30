@@ -140,4 +140,7 @@ wiki page already owns.
     training guide variants
   - [x] Remove duplicate MLOps course, certification, and machine learning
     bootcamp guide variants
+  - [x] Consolidate freelance and consulting guide variants into
+    `_wiki/freelance.md`
+  - [x] Keep A/B testing as wiki concept coverage, not guide/category content
 - [ ] Resubmit both sitemaps in Google Search Console

@@ -64,8 +64,8 @@ For a small company, that brief may be simple:
 
 Those questions also decide whether you need a permanent hire, a senior
 consultant, or a short-term bridge. If the problem is bounded, a
-[freelance data engineer]({{ '/guides/freelance-data-engineer/' | relative_url }})
-or [data engineering consultant]({{ '/guides/data-engineering-consulting/' | relative_url }})
+[freelance data engineer]({{ '/wiki/freelance/' | relative_url }})
+or [data engineering consultant]({{ '/wiki/freelance/' | relative_url }})
 may help you stabilize the system before you hire internally. If the same
 problems recur every week, you probably need a team member who can own the
 operating model.

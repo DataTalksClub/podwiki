@@ -248,9 +248,6 @@ operating constraint before choosing a tool.
 
 For written follow-up, use these pages:
 
-- [Data Engineering Freelance]({{ '/guides/data-engineering-freelance/' | relative_url }})
-- [Freelance Data Engineer]({{ '/guides/freelance-data-engineer/' | relative_url }})
-- [Data Engineer Consultant]({{ '/guides/data-engineer-consultant/' | relative_url }})
 - [Freelance]({{ '/wiki/freelance/' | relative_url }})
 
 ## Batch and Streaming
@@ -377,4 +374,4 @@ Use these pages after you choose an episode cluster.
 - [Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }})
 - [Data Mesh]({{ '/wiki/data-mesh/' | relative_url }})
 - [Data Governance]({{ '/wiki/data-governance/' | relative_url }})
-- [Data Engineering Freelance]({{ '/guides/data-engineering-freelance/' | relative_url }})
+- [Freelance]({{ '/wiki/freelance/' | relative_url }})

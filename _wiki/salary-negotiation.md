@@ -189,10 +189,8 @@ negotiation. The candidate isn't only pricing skill. They're pricing
 availability and client risk. They're also pricing unpaid selling time, taxes,
 legal setup, and the chance that the next project won't appear immediately.
 That makes
-[Freelance]({{ '/wiki/freelance/' | relative_url }}),
-[Freelance Data Engineer]({{ '/guides/freelance-data-engineer/' | relative_url }}),
-and [Data Engineering Freelance]({{ '/guides/data-engineering-freelance/' | relative_url }})
-adjacent pages rather than synonyms.
+[Freelance]({{ '/wiki/freelance/' | relative_url }})
+an adjacent page rather than a synonym.
 
 [Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) explains the
 risk calculation in

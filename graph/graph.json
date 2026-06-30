@@ -2,12 +2,12 @@
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
     "wikis": 180,
-    "articles": 65,
+    "articles": 59,
     "podcasts": 202,
     "persons": 438,
     "topics": 146,
-    "nodes": 1031,
-    "links": 11063
+    "nodes": 1025,
+    "links": 10849
   },
   "nodes": [
     {
@@ -121,28 +121,6 @@
       "keyword": "data analyst vs analytics engineer"
     },
     {
-      "id": "article:guide:data-engineer-consultant",
-      "type": "article",
-      "collection": "guide",
-      "label": "Data Engineer Consultant: Services, Scope, Proof, and Hiring Fit",
-      "title": "Data Engineer Consultant: Services, Scope, Proof, and Hiring Fit",
-      "url": "/guides/data-engineer-consultant/",
-      "count": 1,
-      "search": "Data Engineer Consultant: Services, Scope, Proof, and Hiring Fit A podcast backed guide to what a data engineer consultant does, when to hire one, how consulting differs from freelancing and employment, and which proof reduces client risk.",
-      "keyword": "data engineer consultant"
-    },
-    {
-      "id": "article:guide:data-engineer-consulting",
-      "type": "article",
-      "collection": "guide",
-      "label": "Data Engineer Consulting: Scope, Discovery, Proof, Pricing, and Handoff",
-      "title": "Data Engineer Consulting: Scope, Discovery, Proof, Pricing, and Handoff",
-      "url": "/guides/data-engineer-consulting/",
-      "count": 1,
-      "search": "Data Engineer Consulting: Scope, Discovery, Proof, Pricing, and Handoff A podcast backed article for buyers and practitioners of data engineer consulting: what clients actually buy, how discovery should work, which deliverables reduce risk, and how pricing and handoff fit the engagement.",
-      "keyword": "data engineer consulting"
-    },
-    {
       "id": "article:guide:data-engineer-manager",
       "type": "article",
       "collection": "guide",
@@ -185,39 +163,6 @@
       "count": 1,
       "search": "Data Engineering and Data Science: How They Work Together A podcast backed comparison of data engineering and data science: role boundaries, shared work, production handoffs, team ownership, and learning paths.",
       "keyword": "data engineering and data science"
-    },
-    {
-      "id": "article:guide:data-engineering-consultant",
-      "type": "article",
-      "collection": "guide",
-      "label": "Data Engineering Consultant: What to Buy, Scope, and Evaluate",
-      "title": "Data Engineering Consultant: What to Buy, Scope, and Evaluate",
-      "url": "/guides/data-engineering-consultant/",
-      "count": 1,
-      "search": "Data Engineering Consultant: What to Buy, Scope, and Evaluate A podcast backed guide to hiring or becoming a data engineering consultant.",
-      "keyword": "data engineering consultant"
-    },
-    {
-      "id": "article:guide:data-engineering-consulting",
-      "type": "article",
-      "collection": "guide",
-      "label": "Data Engineering Consulting: Services, Scope, Proof, and Handoff",
-      "title": "Data Engineering Consulting: Services, Scope, Proof, and Handoff",
-      "url": "/guides/data-engineering-consulting/",
-      "count": 1,
-      "search": "Data Engineering Consulting: Services, Scope, Proof, and Handoff A podcast backed buyer guide to data engineering consulting: service scope, discovery, pricing proof, platform work, freelance boundaries, and handoff.",
-      "keyword": "data engineering consulting"
-    },
-    {
-      "id": "article:guide:data-engineering-freelance",
-      "type": "article",
-      "collection": "guide",
-      "label": "Data Engineering Freelance: Services, Proof, Pricing, and Client Fit",
-      "title": "Data Engineering Freelance: Services, Proof, Pricing, and Client Fit",
-      "url": "/guides/data-engineering-freelance/",
-      "count": 1,
-      "search": "Data Engineering Freelance: Services, Proof, Pricing, and Client Fit A podcast backed guide to data engineering freelance work: what clients buy, how to scope projects, how to prove credibility, and how to choose pricing models without generic career advice.",
-      "keyword": "data engineering freelance"
     },
     {
       "id": "article:guide:data-engineering-manager",
@@ -427,17 +372,6 @@
       "count": 1,
       "search": "ETL vs ELT A podcast grounded decision guide for choosing transform before load or load before transform pipelines in modern data stacks.",
       "keyword": "etl vs elt"
-    },
-    {
-      "id": "article:guide:freelance-data-engineer",
-      "type": "article",
-      "collection": "guide",
-      "label": "Freelance Data Engineer: Services, Proof, Pricing, and Client Fit",
-      "title": "Freelance Data Engineer: Services, Proof, Pricing, and Client Fit",
-      "url": "/guides/freelance-data-engineer/",
-      "count": 1,
-      "search": "Freelance Data Engineer: Services, Proof, Pricing, and Client Fit A podcast backed guide to freelance data engineering: services clients buy, positioning, proof, pricing, discovery, and boundaries with consulting.",
-      "keyword": "freelance data engineer"
     },
     {
       "id": "article:guide:fundamentals-of-data-engineering",
@@ -7806,7 +7740,7 @@
       "label": "Freelance",
       "title": "Freelance",
       "url": "/wiki/",
-      "count": 24,
+      "count": 19,
       "search": "Freelance"
     },
     {
@@ -9383,11 +9317,11 @@
       "id": "wiki:freelance",
       "type": "wiki",
       "collection": "wiki",
-      "label": "Freelance Data and AI Work",
-      "title": "Freelance Data and AI Work",
+      "label": "Freelance Data Engineering and Consulting",
+      "title": "Freelance Data Engineering and Consulting",
       "url": "/wiki/freelance/",
       "count": 1,
-      "search": "Freelance Data and AI Work Archive backed guide to freelance data and AI work: finding clients, pricing, scoping, agencies, direct clients, productized consulting, and career transitions."
+      "search": "Freelance Data Engineering and Consulting Archive backed guide to freelance data engineering and consulting: finding clients, pricing, scoping, agencies, direct clients, productized consulting, and career transitions."
     },
     {
       "id": "wiki:generative-ai",
@@ -14546,438 +14480,6 @@
       "weight": 2
     },
     {
-      "source": "article:guide:data-engineer-consultant",
-      "target": "article:guide:apache-airflow",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-consultant",
-      "target": "article:guide:data-engineer-consulting",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-consultant",
-      "target": "article:guide:data-engineering-consultant",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-consultant",
-      "target": "article:guide:freelance-data-engineer",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-consultant",
-      "target": "person:adrianbrudaru",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-consultant",
-      "target": "person:aleksanderkruszelnicki",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-consultant",
-      "target": "person:caitlinmoorman",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-consultant",
-      "target": "person:dimitrivisnadi",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-consultant",
-      "target": "person:gregcoquillo",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-consultant",
-      "target": "person:jeffkatz",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-consultant",
-      "target": "podcast:becoming-data-freelancer",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:data-engineer-consultant",
-      "target": "podcast:building-and-scaling-ai-data-products-with-mlops",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-consultant",
-      "target": "podcast:data-consulting-business-pricing-and-client-acquisition",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineer-consultant",
-      "target": "podcast:freelance-data-engineering-pricing-and-clients",
-      "kind": "article-link",
-      "weight": 12
-    },
-    {
-      "source": "article:guide:data-engineer-consultant",
-      "target": "podcast:from-data-freelancer-to-startup-open-source-products",
-      "kind": "article-link",
-      "weight": 8
-    },
-    {
-      "source": "article:guide:data-engineer-consultant",
-      "target": "podcast:get-data-engineering-job-prep-and-interview",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineer-consultant",
-      "target": "podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-consultant",
-      "target": "podcast:trends-in-modern-data-engineering",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-consultant",
-      "target": "topic:freelance",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineer-consultant",
-      "target": "wiki:business-skills-for-data-professionals",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-consultant",
-      "target": "wiki:business-skills-for-data-professionals",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineer-consultant",
-      "target": "wiki:data-engineer-role",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-consultant",
-      "target": "wiki:data-engineer-role",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineer-consultant",
-      "target": "wiki:data-engineering",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-consultant",
-      "target": "wiki:data-engineering",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineer-consultant",
-      "target": "wiki:data-engineering-platforms",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-consultant",
-      "target": "wiki:data-engineering-platforms",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineer-consultant",
-      "target": "wiki:data-engineering-portfolio-projects",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-consultant",
-      "target": "wiki:data-engineering-portfolio-projects",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineer-consultant",
-      "target": "wiki:data-engineering-roadmap",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-consultant",
-      "target": "wiki:data-engineering-tools",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-consultant",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-consultant",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineer-consultant",
-      "target": "wiki:data-strategy",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-consultant",
-      "target": "wiki:data-strategy",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineer-consultant",
-      "target": "wiki:dataops",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-consultant",
-      "target": "wiki:dataops",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineer-consultant",
-      "target": "wiki:open-source-portfolio-evidence",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-consultant",
-      "target": "wiki:open-source-portfolio-evidence",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineer-consulting",
-      "target": "article:guide:apache-airflow",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-consulting",
-      "target": "article:guide:data-engineer-consultant",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-consulting",
-      "target": "article:guide:data-engineering-consultant",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-consulting",
-      "target": "person:adrianbrudaru",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-consulting",
-      "target": "person:aleksanderkruszelnicki",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-consulting",
-      "target": "person:christopherbergh",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-consulting",
-      "target": "person:jeffkatz",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-consulting",
-      "target": "person:mehdiouazza",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-consulting",
-      "target": "person:orellgarten",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-consulting",
-      "target": "podcast:data-consulting-business-pricing-and-client-acquisition",
-      "kind": "article-link",
-      "weight": 8
-    },
-    {
-      "source": "article:guide:data-engineer-consulting",
-      "target": "podcast:dataops-for-data-engineering",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:data-engineer-consulting",
-      "target": "podcast:freelance-data-engineering-pricing-and-clients",
-      "kind": "article-link",
-      "weight": 14
-    },
-    {
-      "source": "article:guide:data-engineer-consulting",
-      "target": "podcast:from-academic-research-to-data-engineering-freelancing",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-consulting",
-      "target": "podcast:from-data-freelancer-to-startup-open-source-products",
-      "kind": "article-link",
-      "weight": 8
-    },
-    {
-      "source": "article:guide:data-engineer-consulting",
-      "target": "podcast:get-data-engineering-job-prep-and-interview",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-consulting",
-      "target": "podcast:scaling-data-engineering-teams-self-service-platforms",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-consulting",
-      "target": "podcast:trends-in-modern-data-engineering",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-consulting",
-      "target": "wiki:business-skills-for-data-professionals",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineer-consulting",
-      "target": "wiki:data-engineer-role",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineer-consulting",
-      "target": "wiki:data-engineering",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-consulting",
-      "target": "wiki:data-engineering",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineer-consulting",
-      "target": "wiki:data-engineering-platforms",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-consulting",
-      "target": "wiki:data-engineering-platforms",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineer-consulting",
-      "target": "wiki:data-engineering-portfolio-projects",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-consulting",
-      "target": "wiki:data-products",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-consulting",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-consulting",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineer-consulting",
-      "target": "wiki:data-strategy",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-consulting",
-      "target": "wiki:data-strategy",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineer-consulting",
-      "target": "wiki:dataops",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-consulting",
-      "target": "wiki:dataops",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineer-consulting",
-      "target": "wiki:open-source-portfolio-evidence",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-consulting",
-      "target": "wiki:open-source-portfolio-evidence",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
       "source": "article:guide:data-engineer-manager",
       "target": "article:guide:data-engineering-manager",
       "kind": "article-link",
@@ -15196,642 +14698,6 @@
     {
       "source": "article:guide:data-engineer-manager",
       "target": "wiki:leadership",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-consultant",
-      "target": "article:guide:data-engineer-consultant",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-consultant",
-      "target": "article:guide:data-engineering-consulting",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-consultant",
-      "target": "article:guide:data-engineering-freelance",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-consultant",
-      "target": "article:guide:freelance-data-engineer",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-consultant",
-      "target": "person:adrianbrudaru",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-consultant",
-      "target": "person:aleksanderkruszelnicki",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-consultant",
-      "target": "person:barrmoses",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-consultant",
-      "target": "person:christopherbergh",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-consultant",
-      "target": "person:jeffkatz",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-consultant",
-      "target": "person:mehdiouazza",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-consultant",
-      "target": "podcast:data-consulting-business-pricing-and-client-acquisition",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:data-engineering-consultant",
-      "target": "podcast:data-quality-data-observability-data-reliability",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-consultant",
-      "target": "podcast:dataops-for-data-engineering",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-consultant",
-      "target": "podcast:freelance-data-engineering-pricing-and-clients",
-      "kind": "article-link",
-      "weight": 10
-    },
-    {
-      "source": "article:guide:data-engineering-consultant",
-      "target": "podcast:from-data-freelancer-to-startup-open-source-products",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-consultant",
-      "target": "podcast:get-data-engineering-job-prep-and-interview",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-consultant",
-      "target": "podcast:scaling-data-engineering-teams-self-service-platforms",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-consultant",
-      "target": "podcast:trends-in-modern-data-engineering",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-consultant",
-      "target": "topic:freelance",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-consultant",
-      "target": "wiki:career-transitions-in-data",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-consultant",
-      "target": "wiki:data-engineer-role",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-consultant",
-      "target": "wiki:data-engineer-role",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-consultant",
-      "target": "wiki:data-engineering",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:data-engineering-consultant",
-      "target": "wiki:data-engineering",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-consultant",
-      "target": "wiki:data-engineering-platforms",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-consultant",
-      "target": "wiki:data-engineering-platforms",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-consultant",
-      "target": "wiki:data-engineering-portfolio-projects",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-consultant",
-      "target": "wiki:data-engineering-portfolio-projects",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-consultant",
-      "target": "wiki:data-observability",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-consultant",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-consultant",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-consultant",
-      "target": "wiki:data-strategy",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-consultant",
-      "target": "wiki:dataops",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:data-engineering-consultant",
-      "target": "wiki:dataops",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-consultant",
-      "target": "wiki:freelance",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-consultant",
-      "target": "wiki:job-search",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-consultant",
-      "target": "wiki:modern-data-stack",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-consultant",
-      "target": "wiki:open-source-portfolio-evidence",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-consultant",
-      "target": "wiki:open-source-portfolio-evidence",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-consulting",
-      "target": "article:guide:data-engineer-consultant",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-consulting",
-      "target": "article:guide:data-engineering-consultant",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-consulting",
-      "target": "article:guide:data-engineering-freelance",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-consulting",
-      "target": "article:guide:dataops-tools",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-consulting",
-      "target": "article:guide:freelance-data-engineer",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-consulting",
-      "target": "person:adrianbrudaru",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-consulting",
-      "target": "person:barrmoses",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-consulting",
-      "target": "person:christopherbergh",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-consulting",
-      "target": "person:jeffkatz",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-consulting",
-      "target": "person:mehdiouazza",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-consulting",
-      "target": "podcast:data-quality-data-observability-data-reliability",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-consulting",
-      "target": "podcast:dataops-for-data-engineering",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-consulting",
-      "target": "podcast:freelance-data-engineering-pricing-and-clients",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-consulting",
-      "target": "podcast:from-data-freelancer-to-startup-open-source-products",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-consulting",
-      "target": "podcast:get-data-engineering-job-prep-and-interview",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-consulting",
-      "target": "podcast:scaling-data-engineering-teams-self-service-platforms",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-consulting",
-      "target": "podcast:trends-in-modern-data-engineering",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-consulting",
-      "target": "topic:freelance",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-consulting",
-      "target": "wiki:data-engineering",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-consulting",
-      "target": "wiki:data-engineering",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-consulting",
-      "target": "wiki:data-engineering-platforms",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-consulting",
-      "target": "wiki:data-engineering-platforms",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-consulting",
-      "target": "wiki:data-engineering-portfolio-projects",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-consulting",
-      "target": "wiki:data-engineering-portfolio-projects",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-consulting",
-      "target": "wiki:data-observability",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-consulting",
-      "target": "wiki:data-products",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-consulting",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-consulting",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-consulting",
-      "target": "wiki:dataops",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-consulting",
-      "target": "wiki:dataops",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-consulting",
-      "target": "wiki:freelance",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-consulting",
-      "target": "wiki:modern-data-stack",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-consulting",
-      "target": "wiki:self-service-data-platforms",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-freelance",
-      "target": "article:guide:apache-airflow",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-freelance",
-      "target": "article:guide:data-engineer-consulting",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-freelance",
-      "target": "article:guide:data-engineering-consulting",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-freelance",
-      "target": "article:guide:freelance-data-engineer",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-freelance",
-      "target": "article:roadmap:data-engineer-roadmap",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-freelance",
-      "target": "person:adrianbrudaru",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-freelance",
-      "target": "person:aleksanderkruszelnicki",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-freelance",
-      "target": "person:dimitrivisnadi",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-freelance",
-      "target": "person:jeffkatz",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-freelance",
-      "target": "person:orellgarten",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-freelance",
-      "target": "podcast:becoming-data-freelancer",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-freelance",
-      "target": "podcast:data-consulting-business-pricing-and-client-acquisition",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-freelance",
-      "target": "podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-freelance",
-      "target": "podcast:freelance-data-engineering-pricing-and-clients",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-freelance",
-      "target": "podcast:from-academic-research-to-data-engineering-freelancing",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-freelance",
-      "target": "podcast:from-data-freelancer-to-startup-open-source-products",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:data-engineering-freelance",
-      "target": "podcast:get-data-engineering-job-prep-and-interview",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-freelance",
-      "target": "podcast:trends-in-modern-data-engineering",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-freelance",
-      "target": "topic:freelance",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-freelance",
-      "target": "wiki:analytics-engineering",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-freelance",
-      "target": "wiki:business-skills-for-data-professionals",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-freelance",
-      "target": "wiki:business-skills-for-data-professionals",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-freelance",
-      "target": "wiki:career-transitions-in-data",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-freelance",
-      "target": "wiki:data-engineer-role",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-freelance",
-      "target": "wiki:data-engineer-role",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-freelance",
-      "target": "wiki:data-engineering",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-freelance",
-      "target": "wiki:data-engineering",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-freelance",
-      "target": "wiki:data-engineering-portfolio-projects",
-      "kind": "article-link",
-      "weight": 8
-    },
-    {
-      "source": "article:guide:data-engineering-freelance",
-      "target": "wiki:data-engineering-portfolio-projects",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-freelance",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-freelance",
-      "target": "wiki:freelance",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-freelance",
-      "target": "wiki:job-search",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-freelance",
-      "target": "wiki:open-source-portfolio-evidence",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:data-engineering-freelance",
-      "target": "wiki:open-source-portfolio-evidence",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -16317,24 +15183,6 @@
     },
     {
       "source": "article:guide:data-engineering-podcast",
-      "target": "article:guide:data-engineer-consultant",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-podcast",
-      "target": "article:guide:data-engineering-freelance",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-podcast",
-      "target": "article:guide:freelance-data-engineer",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-podcast",
       "target": "article:guide:fundamentals-of-data-engineering",
       "kind": "article-link",
       "weight": 2
@@ -16709,7 +15557,7 @@
       "source": "article:guide:data-engineering-podcast",
       "target": "wiki:freelance",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:guide:data-engineering-podcast",
@@ -19172,180 +18020,6 @@
       "weight": 5
     },
     {
-      "source": "article:guide:freelance-data-engineer",
-      "target": "article:guide:apache-airflow",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:freelance-data-engineer",
-      "target": "article:guide:data-engineer-consulting",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:freelance-data-engineer",
-      "target": "article:guide:data-engineering-consulting",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:freelance-data-engineer",
-      "target": "article:guide:data-engineering-freelance",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:freelance-data-engineer",
-      "target": "person:adrianbrudaru",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:freelance-data-engineer",
-      "target": "person:aleksanderkruszelnicki",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:freelance-data-engineer",
-      "target": "person:dimitrivisnadi",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:freelance-data-engineer",
-      "target": "person:jeffkatz",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:freelance-data-engineer",
-      "target": "person:orellgarten",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:freelance-data-engineer",
-      "target": "podcast:becoming-data-freelancer",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:freelance-data-engineer",
-      "target": "podcast:data-consulting-business-pricing-and-client-acquisition",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:freelance-data-engineer",
-      "target": "podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:freelance-data-engineer",
-      "target": "podcast:freelance-data-engineering-pricing-and-clients",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:freelance-data-engineer",
-      "target": "podcast:from-academic-research-to-data-engineering-freelancing",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:freelance-data-engineer",
-      "target": "podcast:from-data-freelancer-to-startup-open-source-products",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:freelance-data-engineer",
-      "target": "podcast:get-data-engineering-job-prep-and-interview",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:freelance-data-engineer",
-      "target": "topic:freelance",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:freelance-data-engineer",
-      "target": "wiki:analytics-engineering",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:freelance-data-engineer",
-      "target": "wiki:business-skills-for-data-professionals",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:freelance-data-engineer",
-      "target": "wiki:career-transitions-in-data",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:freelance-data-engineer",
-      "target": "wiki:data-engineer-role",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:freelance-data-engineer",
-      "target": "wiki:data-engineer-role",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:freelance-data-engineer",
-      "target": "wiki:data-engineering",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:freelance-data-engineer",
-      "target": "wiki:data-engineering",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:freelance-data-engineer",
-      "target": "wiki:data-engineering-portfolio-projects",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:freelance-data-engineer",
-      "target": "wiki:data-engineering-portfolio-projects",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:freelance-data-engineer",
-      "target": "wiki:data-engineering-roadmap",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:freelance-data-engineer",
-      "target": "wiki:open-source-portfolio-evidence",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:freelance-data-engineer",
-      "target": "wiki:open-source-portfolio-evidence",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
       "source": "article:guide:fundamentals-of-data-engineering",
       "target": "article:guide:apache-airflow",
       "kind": "article-link",
@@ -19623,18 +18297,6 @@
     },
     {
       "source": "article:guide:hire-data-engineers",
-      "target": "article:guide:data-engineering-consulting",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:hire-data-engineers",
-      "target": "article:guide:freelance-data-engineer",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:hire-data-engineers",
       "target": "person:christopherbergh",
       "kind": "article-link",
       "weight": 2
@@ -19836,6 +18498,12 @@
       "target": "wiki:dataops",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "article:guide:hire-data-engineers",
+      "target": "wiki:freelance",
+      "kind": "article-link",
+      "weight": 4
     },
     {
       "source": "article:guide:hire-data-engineers",
@@ -39609,6 +38277,18 @@
     },
     {
       "source": "wiki:a-b-testing",
+      "target": "wiki:data-product-management",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:a-b-testing",
+      "target": "wiki:data-product-management",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:a-b-testing",
       "target": "wiki:evaluation",
       "kind": "wiki-link",
       "weight": 2
@@ -39678,6 +38358,12 @@
       "target": "wiki:product-analytics",
       "kind": "wiki-link",
       "weight": 6
+    },
+    {
+      "source": "wiki:a-b-testing",
+      "target": "wiki:product-analytics",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:a-b-testing",
@@ -58827,30 +57513,6 @@
     },
     {
       "source": "wiki:freelance",
-      "target": "article:guide:data-engineering-consultant",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:freelance",
-      "target": "article:guide:data-engineering-consulting",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:freelance",
-      "target": "article:guide:data-engineering-freelance",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:freelance",
-      "target": "article:guide:freelance-data-engineer",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:freelance",
       "target": "person:adrianbrudaru",
       "kind": "wiki-link",
       "weight": 2
@@ -58919,7 +57581,7 @@
       "source": "wiki:freelance",
       "target": "wiki:business-skills-for-data-professionals",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:freelance",
@@ -58931,7 +57593,7 @@
       "source": "wiki:freelance",
       "target": "wiki:career-transitions-in-data",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:freelance",
@@ -58941,9 +57603,21 @@
     },
     {
       "source": "wiki:freelance",
-      "target": "wiki:data-engineering",
+      "target": "wiki:communication",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:freelance",
+      "target": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:freelance",
+      "target": "wiki:data-engineering",
+      "kind": "wiki-link",
+      "weight": 6
     },
     {
       "source": "wiki:freelance",
@@ -58966,6 +57640,12 @@
     {
       "source": "wiki:freelance",
       "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:freelance",
+      "target": "wiki:solopreneur",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -71991,18 +70671,6 @@
     },
     {
       "source": "wiki:salary-negotiation",
-      "target": "article:guide:data-engineering-freelance",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:salary-negotiation",
-      "target": "article:guide:freelance-data-engineer",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:salary-negotiation",
       "target": "person:adrianbrudaru",
       "kind": "wiki-link",
       "weight": 2
@@ -73701,18 +72369,6 @@
     },
     {
       "source": "wiki:solopreneur",
-      "target": "article:guide:data-engineering-consulting",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:solopreneur",
-      "target": "article:guide:freelance-data-engineer",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:solopreneur",
       "target": "article:guide:solopreneur-data-scientist",
       "kind": "wiki-link",
       "weight": 4
@@ -74115,12 +72771,6 @@
     },
     {
       "source": "wiki:startup",
-      "target": "article:guide:data-engineering-consulting",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:startup",
       "target": "article:guide:machine-learning-for-startups",
       "kind": "wiki-link",
       "weight": 4
@@ -74303,7 +72953,7 @@
       "source": "wiki:startup",
       "target": "wiki:freelance",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 8
     },
     {
       "source": "wiki:startup",

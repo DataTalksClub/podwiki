@@ -8,6 +8,8 @@ related:
   - A/A Testing
   - Metrics
   - Power Analysis
+  - Product Analytics
+  - Data Product Management
 ---
 
 A/B testing is a randomized product experiment. A team assigns comparable users
@@ -18,7 +20,8 @@ In the DataTalks.Club archive, A/B testing is the practical bridge between
 [product analytics]({{ '/wiki/product-analytics/' | relative_url }}),
 [experimentation]({{ '/wiki/experimentation/' | relative_url }}), and
 [causal inference]({{ '/wiki/causal-inference/' | relative_url }}). It turns a
-product question into a rollout decision.
+product question into a rollout decision, which is why it also matters for
+[data product management]({{ '/wiki/data-product-management/' | relative_url }}).
 
 [Jakob Graff]({{ '/people/jakobgraff/' | relative_url }}) gives the core
 definition in
@@ -47,7 +50,7 @@ uses [A/A testing at 27:52]({{ '/podcasts/ab-testing-and-product-experimentation
 as the trust check. If two identical groups show a large difference, the
 measurement system needs attention before an A/B result is credible.
 
-## Guest Differences
+## Guest Perspectives
 
 The guests agree that A/B testing is about causal decisions, but they use it in
 different operating contexts.
@@ -132,6 +135,10 @@ This topic links closely to
 [Data-Led Growth]({{ '/wiki/data-led-growth/' | relative_url }}),
 [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }}), and the
 [Product Analyst]({{ '/guides/product-analyst/' | relative_url }}) article.
+It also gives
+[data product management]({{ '/wiki/data-product-management/' | relative_url }})
+a measurement discipline for deciding whether a product, data workflow, or
+model-backed feature should roll out.
 
 Jakob's
 [Product Analytics and A/B Testing discussion at 18:06]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }})
@@ -184,5 +191,6 @@ archive:
 - [Metrics]({{ '/wiki/metrics/' | relative_url }})
 - [Causal Inference]({{ '/wiki/causal-inference/' | relative_url }})
 - [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }})
+- [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
 - [Data Product Manager Roadmap]({{ '/roadmaps/data-product-manager-roadmap/' | relative_url }})
 - [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})

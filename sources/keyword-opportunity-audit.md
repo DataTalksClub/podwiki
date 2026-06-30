@@ -57,8 +57,8 @@ These keyword groups already have editorial coverage:
 | Data engineering bootcamps | `_wiki/data-engineering-roadmap.md` | data engineering bootcamp, data engineer bootcamp |
 | Data engineering roadmaps | `_roadmaps/data-engineer-roadmap.md` | data engineer roadmap |
 | Data pipeline projects | `_guides/data-engineering-pipeline-project.md`, `_how_tos/how-to-build-data-pipelines.md` | build data pipelines, data engineering pipeline project |
-| Data engineering consulting | `_guides/data-engineering-consulting.md`, `_guides/data-engineering-consultant.md`, `_guides/data-engineer-consulting.md`, `_guides/data-engineer-consultant.md` | data engineering consulting, data engineering consultant, data engineer consulting |
-| Freelance data engineering | `_guides/freelance-data-engineer.md`, `_guides/data-engineering-freelance.md` | freelance data engineer, data engineering freelance |
+| Data engineering consulting | `_wiki/freelance.md` | data engineering consulting, data engineering consultant, data engineer consulting, data engineer consultant |
+| Freelance data engineering | `_wiki/freelance.md` | freelance data engineer, data engineering freelance |
 | MLOps core terms | `_wiki/mlops.md`, `_wiki/mlops-roadmap.md`, `_wiki/mlops-tools.md`, `_guides/mlops-frameworks.md`, `_guides/mlops-architecture.md`, `_wiki/mlops-engineer.md` | mlops, what is mlops, mlops course, mlops tools, mlops architecture |
 | DataOps core terms | `_wiki/dataops.md`, `_guides/dataops-tools.md`, `_comparisons/dataops-vs-data-engineering.md`, `_comparisons/mlops-vs-dataops.md` | dataops, data ops, dataops tools, mlops vs dataops |
 | Machine learning system design | `_wiki/machine-learning-system-design.md`, `_guides/machine-learning-system-design-interview.md`, `_guides/ml-system-design-interview.md`, `_guides/designing-machine-learning-systems.md` | machine learning system design, ml system design interview, designing machine learning systems |
@@ -141,6 +141,11 @@ by `_roadmaps/data-engineer-roadmap.md` and
 The duplicate MLOps course, courses, certification, machine learning bootcamp,
 and machine learning engineer certification guide variants were later removed.
 Their useful guidance belongs in `_wiki/mlops-roadmap.md`.
+
+The freelance and consulting keyword variants were consolidated into
+`_wiki/freelance.md`; do not recreate separate guide pages for those variants.
+A/B testing should remain wiki concept coverage through `_wiki/a-b-testing.md`
+and the experimentation wiki cluster, not guide or category content.
 
 ## Next Content Step
 

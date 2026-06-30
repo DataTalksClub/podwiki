@@ -73,6 +73,10 @@ mlops-course · mlops-courses · mlops-certification · machine-learning-bootcam
 machine-learning-engineer-certification  → 301 to `/podwiki/wiki/mlops-roadmap/`
 
 ### B3 → wiki `freelance` (consulting/freelance DE)
+Status: the duplicate freelance and consulting guide variants were consolidated
+into `_wiki/freelance.md` on 2026-07-01. Keep consulting/freelance career
+guidance in the wiki concept page rather than separate keyword guide pages.
+
 data-engineer-consultant · data-engineer-consulting · data-engineering-consultant ·
 data-engineering-consulting · data-engineering-freelance · freelance-data-engineer
  → 301 to `/podwiki/wiki/freelance/`

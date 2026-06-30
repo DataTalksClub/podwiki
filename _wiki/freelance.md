@@ -1,7 +1,7 @@
 ---
 layout: wiki
-title: "Freelance Data and AI Work"
-summary: "Archive-backed guide to freelance data and AI work: finding clients, pricing, scoping, agencies, direct clients, productized consulting, and career transitions."
+title: "Freelance Data Engineering and Consulting"
+summary: "Archive-backed guide to freelance data engineering and consulting: finding clients, pricing, scoping, agencies, direct clients, productized consulting, and career transitions."
 related:
   - Career Transitions in Data
   - Business Skills for Data Professionals
@@ -9,13 +9,14 @@ related:
   - Data Engineering Portfolio Projects
 ---
 
-# Freelance Data and AI Work
+# Freelance Data Engineering and Consulting
 
-DataTalks.Club guests treat freelance data and AI work as more than a
-career-label change. They describe a small services business around data
-problems. The work includes client acquisition, pricing risk, scope control, and
-delivery. It also includes decisions about whether to stay independent, grow an
-agency, or turn repeated pain into a product.
+DataTalks.Club guests treat freelance data engineering, data consulting, and
+consultant-style AI work as more than a career-label change. They describe a
+small services business around data problems. The work includes client
+acquisition, pricing risk, scope control, and delivery. It also includes
+decisions about whether to stay independent, grow an agency, or turn repeated
+pain into a product.
 
 [Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) gives the most
 direct data engineering version in
@@ -204,10 +205,12 @@ expectations. They also name working style and timelines.
 
 That scoping habit protects both sides. The freelancer avoids promising a fixed
 project before seeing the failure modes. The client gets a short decision point
-instead of a long open-ended engagement. For
-[data engineering consulting]({{ '/guides/data-engineering-consulting/' | relative_url }}),
+instead of a long open-ended engagement. In
+[data engineering]({{ '/wiki/data-engineering/' | relative_url }}) consulting,
 this often means mapping sources, owners, and consumers. It also means mapping
-access constraints.
+access constraints, stakeholder expectations, and the
+[business skills]({{ '/wiki/business-skills-for-data-professionals/' | relative_url }})
+needed to keep scope visible.
 
 Known incidents, freshness targets, and correctness targets belong in the same
 first pass.
@@ -395,13 +398,17 @@ client's problem and use short discovery when the problem is vague. Price the
 uncertainty, communicate early, and leave the client with something they can
 operate.
 
-Freelance data and AI work connects to
-[Business Skills for Data Professionals]({{ '/wiki/business-skills-for-data-professionals/' | relative_url }})
-and
-[Data Engineering Consultant]({{ '/guides/data-engineering-consultant/' | relative_url }}).
-It also connects to
-[Freelance Data Engineer]({{ '/guides/freelance-data-engineer/' | relative_url }})
-and
-[Data Engineering Freelance]({{ '/guides/data-engineering-freelance/' | relative_url }}).
-The freelance lens is broader: the technical work only succeeds when the
-business around it also works.
+Across the archive, freelance data engineering, data engineering consulting,
+and independent data consulting show the same operating lesson. The technical
+work only succeeds when the business around it also works.
+
+## Related Pages
+
+Use these pages for adjacent skills, career paths, and business models:
+
+- [Business Skills for Data Professionals]({{ '/wiki/business-skills-for-data-professionals/' | relative_url }})
+- [Communication]({{ '/wiki/communication/' | relative_url }})
+- [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }})
+- [Career Transitions in Data]({{ '/wiki/career-transitions-in-data/' | relative_url }})
+- [Solopreneur]({{ '/wiki/solopreneur/' | relative_url }})
+- [Consultant or Freelancer to Data Product Founder]({{ '/wiki/consultant-or-freelancer-to-data-product-founder/' | relative_url }})

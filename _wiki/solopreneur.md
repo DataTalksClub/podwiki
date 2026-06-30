@@ -169,8 +169,6 @@ These pages cover the adjacent career and business topics:
 
 - [Solopreneur Data Scientist]({{ '/guides/solopreneur-data-scientist/' | relative_url }})
 - [Freelance]({{ '/wiki/freelance/' | relative_url }})
-- [Freelance Data Engineer]({{ '/guides/freelance-data-engineer/' | relative_url }})
-- [Data Engineering Consulting]({{ '/guides/data-engineering-consulting/' | relative_url }})
 - [Entrepreneurship]({{ '/wiki/entrepreneurship/' | relative_url }})
 - [Startup]({{ '/wiki/startup/' | relative_url }})
 - [Consultant or Freelancer to Data Product Founder]({{ '/wiki/consultant-or-freelancer-to-data-product-founder/' | relative_url }})

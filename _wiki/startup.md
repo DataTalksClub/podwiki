@@ -87,7 +87,7 @@ team moved away from a "data stack as a service" idea after learning that
 clients needed help translating business questions into usable data models.
 
 That makes validation relevant to
-[data engineering consulting]({{ '/guides/data-engineering-consulting/' | relative_url }})
+[data engineering consulting]({{ '/wiki/freelance/' | relative_url }})
 and not only venture-backed software.
 
 [Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) turns
@@ -261,7 +261,7 @@ small businesses.
 [Open Source]({{ '/wiki/open-source/' | relative_url }}) and
 [Open Source and Developer Relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }})
 cover developer-tool distribution and community adoption. [Freelance]({{ '/wiki/freelance/' | relative_url }}),
-[Data Engineering Consulting]({{ '/guides/data-engineering-consulting/' | relative_url }}),
+[Data Engineering Consulting]({{ '/wiki/freelance/' | relative_url }}),
 and [Consultant or Freelancer to Data Product Founder]({{ '/wiki/consultant-or-freelancer-to-data-product-founder/' | relative_url }})
 cover service paths that reveal startup ideas.
 
