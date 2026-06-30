@@ -7,7 +7,7 @@
     "persons": 438,
     "topics": 146,
     "nodes": 1020,
-    "links": 9935
+    "links": 10112
   },
   "nodes": [
     {
@@ -7111,7 +7111,7 @@
       "label": "Freelance",
       "title": "Freelance",
       "url": "/wiki/",
-      "count": 21,
+      "count": 22,
       "search": "Freelance"
     },
     {
@@ -9173,7 +9173,7 @@
       "title": "Startups",
       "url": "/wiki/startups/",
       "count": 1,
-      "search": "Startups Stub topic page for podcast archive links about Startups."
+      "search": "Startups Recurring startup lessons across DataTalks.Club podcast discussions: problem discovery, validation, MLOps scope, open source distribution, consulting paths, funding, and startup career tradeoffs."
     },
     {
       "id": "wiki:streaming",
@@ -9182,7 +9182,7 @@
       "title": "Streaming",
       "url": "/wiki/streaming/",
       "count": 1,
-      "search": "Streaming Stub topic page for podcast archive links about Streaming."
+      "search": "Streaming How the DataTalks.Club archive discusses event streaming with Kafka and Flink, feature stores for real time ML, and low latency operations."
     },
     {
       "id": "wiki:teaching",
@@ -9191,7 +9191,7 @@
       "title": "Teaching",
       "url": "/wiki/teaching/",
       "count": 1,
-      "search": "Teaching Stub topic page for podcast archive links about Teaching."
+      "search": "Teaching How DataTalks.Club guests teach data, ML, and AI through projects, feedback, community, documentation, bootcamps, and public explanation."
     },
     {
       "id": "wiki:team-building",
@@ -9200,7 +9200,7 @@
       "title": "Team Building",
       "url": "/wiki/team-building/",
       "count": 1,
-      "search": "Team Building Stub topic page for podcast archive links about Team Building."
+      "search": "Team Building How DataTalks.Club podcast guests describe building data, ML, AI, DataOps, and MLOps teams through hiring order, onboarding, role design, platform enablement, leadership, and cross functional operating models."
     },
     {
       "id": "wiki:technical-writing",
@@ -9218,7 +9218,7 @@
       "title": "Testing",
       "url": "/wiki/testing/",
       "count": 1,
-      "search": "Testing Stub topic page for podcast archive links about Testing."
+      "search": "Testing How DataTalks.Club guests test data, ML, and AI systems through data checks, CI/CD, evaluation sets, monitoring, and production readiness practices."
     },
     {
       "id": "wiki:tools",
@@ -68174,13 +68174,325 @@
     },
     {
       "source": "wiki:startups",
-      "target": "wiki:career-transitions-in-data",
+      "target": "person:adrianbrudaru",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:startups",
-      "target": "wiki:career-transitions-in-data",
+      "target": "person:aleksanderkruszelnicki",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:startups",
+      "target": "person:antonisstellas",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:startups",
+      "target": "person:belawiertz",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:startups",
+      "target": "person:carminepaolino",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:startups",
+      "target": "person:elenasamuylova",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:startups",
+      "target": "person:nemanjaradojkovic",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:startups",
+      "target": "person:paulineclavelloux",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:startups",
+      "target": "person:sonalgoyal",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:startups",
+      "target": "podcast:building-mlops-startup",
+      "kind": "wiki-link",
+      "weight": 10
+    },
+    {
+      "source": "wiki:startups",
+      "target": "podcast:building-open-source-data-product-for-identity-resolution",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:startups",
+      "target": "podcast:data-consulting-business-pricing-and-client-acquisition",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:startups",
+      "target": "podcast:data-scientist-and-indie-hacker-bootstrapping-side-projects",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:startups",
+      "target": "podcast:from-data-freelancer-to-startup-open-source-products",
+      "kind": "wiki-link",
+      "weight": 10
+    },
+    {
+      "source": "wiki:startups",
+      "target": "podcast:from-startup-engineering-to-freelance-data-science",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:startups",
+      "target": "podcast:investing-in-open-source-developer-tools",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:startups",
+      "target": "podcast:launch-and-build-retail-startup",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:startups",
+      "target": "podcast:lean-mlops-for-startups",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:startups",
+      "target": "topic:freelance",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:startups",
+      "target": "wiki:data-product-management",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:startups",
+      "target": "wiki:data-product-management",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:startups",
+      "target": "wiki:entrepreneurship",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:startups",
+      "target": "wiki:entrepreneurship",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:startups",
+      "target": "wiki:founder",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:startups",
+      "target": "wiki:founder",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:startups",
+      "target": "wiki:freelance",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:startups",
+      "target": "wiki:mlops",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:startups",
+      "target": "wiki:mlops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:startups",
+      "target": "wiki:mlops-roadmap",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:startups",
+      "target": "wiki:mlops-roadmap",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:startups",
+      "target": "wiki:open-source",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:startups",
+      "target": "wiki:open-source",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:startups",
+      "target": "wiki:open-source-and-developer-relations",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:startups",
+      "target": "wiki:open-source-and-developer-relations",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:startups",
+      "target": "wiki:startup",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:startups",
+      "target": "wiki:startup",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:streaming",
+      "target": "person:adrianbrudaru",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:streaming",
+      "target": "person:andreaskretz",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:streaming",
+      "target": "person:angelaramirez",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:streaming",
+      "target": "person:elenitziritazacharatou",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:streaming",
+      "target": "person:larsalbertsson",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:streaming",
+      "target": "person:mehdiouazza",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:streaming",
+      "target": "person:willempienaar",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:streaming",
+      "target": "podcast:big-data-analytics-and-postdoc-research",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:streaming",
+      "target": "podcast:building-and-scaling-data-engineering-systems-for-fraud-detection",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:streaming",
+      "target": "podcast:dataops-principles-and-scalable-data-platforms",
+      "kind": "wiki-link",
+      "weight": 14
+    },
+    {
+      "source": "wiki:streaming",
+      "target": "podcast:mlops-feature-stores-feature-stores-feast-tecton",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:streaming",
+      "target": "podcast:production-ml-pipelines-with-aws-and-kafka",
+      "kind": "wiki-link",
+      "weight": 12
+    },
+    {
+      "source": "wiki:streaming",
+      "target": "podcast:scaling-data-engineering-teams-self-service-platforms",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:streaming",
+      "target": "podcast:trends-in-modern-data-engineering",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:streaming",
+      "target": "wiki:batch-vs-streaming",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:streaming",
+      "target": "wiki:batch-vs-streaming",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:streaming",
+      "target": "wiki:cdc",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:streaming",
+      "target": "wiki:cdc",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -68188,7 +68500,7 @@
       "source": "wiki:streaming",
       "target": "wiki:data-engineering-platforms",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:streaming",
@@ -68197,26 +68509,578 @@
       "weight": 3
     },
     {
+      "source": "wiki:streaming",
+      "target": "wiki:data-mesh",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:streaming",
+      "target": "wiki:data-pipelines",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:streaming",
+      "target": "wiki:data-pipelines",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:streaming",
+      "target": "wiki:data-products",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:streaming",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:streaming",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:streaming",
+      "target": "wiki:dataops",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:streaming",
+      "target": "wiki:dataops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:streaming",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:streaming",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:streaming",
+      "target": "wiki:mlops",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:streaming",
+      "target": "wiki:mlops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
       "source": "wiki:teaching",
-      "target": "wiki:open-source-and-developer-relations",
+      "target": "person:alexanderguschin",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "person:elleobrien",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "person:erumafzal",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "person:eugeneyan",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "person:irinabrudaru",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "person:jeffkatz",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "person:johannabayer",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "person:meoramer",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "person:swyx",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "podcast:community-building-and-teaching-in-ai-tech",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "podcast:data-engineering-career-path-and-skills",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "podcast:datatalksclub-building-scaling-data-community",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "podcast:developer-personal-brand-learn-in-public",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "podcast:devrel-data-science-open-source-tools",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "podcast:kaggle-grandmaster-to-production-ml-and-education",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "podcast:teaching-mentoring-data-analytics-fintech",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "podcast:teaching-reproducible-research-and-open-science-coding-practices-for-academia",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "podcast:technical-writing-for-data-scientists",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "podcast:visualizing-machine-learning-concepts-to-explain-ml",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "wiki:ai-engineering-roadmap",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "wiki:career-transition",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "wiki:career-transition",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "wiki:career-transitions-in-data",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "wiki:community",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "wiki:community-building",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "wiki:community-building",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "wiki:data-engineering-roadmap",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "wiki:data-engineering-roadmap",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "wiki:developer-relations",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "wiki:developer-relations",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "wiki:documentation",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "wiki:documentation",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "wiki:mlops-roadmap",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:teaching",
       "target": "wiki:open-source-and-developer-relations",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "wiki:open-source-portfolio-evidence",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "wiki:open-source-portfolio-evidence",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "wiki:technical-writing",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "wiki:technical-writing",
       "kind": "wiki-related",
       "weight": 3
     },
     {
       "source": "wiki:team-building",
-      "target": "wiki:career-transitions-in-data",
+      "target": "person:16rahuljain",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:team-building",
-      "target": "wiki:career-transitions-in-data",
+      "target": "person:barbarasobkowiak",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:team-building",
+      "target": "person:dattran",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:team-building",
+      "target": "person:katiebauer",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:team-building",
+      "target": "person:larsalbertsson",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:team-building",
+      "target": "person:lisacohen",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:team-building",
+      "target": "person:marianosemelman",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:team-building",
+      "target": "person:mehdiouazza",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:team-building",
+      "target": "person:raphaelhoogvliets",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:team-building",
+      "target": "person:simonstiebellehner",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:team-building",
+      "target": "person:tammyliang",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:team-building",
+      "target": "podcast:building-and-scaling-data-team",
+      "kind": "wiki-link",
+      "weight": 14
+    },
+    {
+      "source": "wiki:team-building",
+      "target": "podcast:building-data-team",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:team-building",
+      "target": "podcast:building-production-ml-platform-and-mlops-team",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:team-building",
+      "target": "podcast:data-engineering-leadership-and-modern-data-platforms",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:team-building",
+      "target": "podcast:data-science-leadership-hiring-mlops",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:team-building",
+      "target": "podcast:data-science-manager-vs-expert-hiring-guide",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:team-building",
+      "target": "podcast:data-science-team-structure-and-org-design",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:team-building",
+      "target": "podcast:dataops-principles-and-scalable-data-platforms",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:team-building",
+      "target": "podcast:hiring-and-managing-data-science-teams-in-b2b-saas",
+      "kind": "wiki-link",
+      "weight": 10
+    },
+    {
+      "source": "wiki:team-building",
+      "target": "podcast:mlops-at-scale-reproducibility-adoption",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:team-building",
+      "target": "podcast:scaling-data-engineering-teams-self-service-platforms",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:team-building",
+      "target": "wiki:communication",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:team-building",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:team-building",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:team-building",
+      "target": "wiki:data-product-management",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:team-building",
+      "target": "wiki:data-teams",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:team-building",
+      "target": "wiki:data-teams",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:team-building",
+      "target": "wiki:dataops",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:team-building",
+      "target": "wiki:dataops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:team-building",
+      "target": "wiki:hiring",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:team-building",
+      "target": "wiki:hiring",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:team-building",
+      "target": "wiki:leadership",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:team-building",
+      "target": "wiki:leadership",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:team-building",
+      "target": "wiki:mlops",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:team-building",
+      "target": "wiki:mlops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:team-building",
+      "target": "wiki:mlops-and-dataops",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:team-building",
+      "target": "wiki:platform-adoption",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:team-building",
+      "target": "wiki:platform-adoption",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:team-building",
+      "target": "wiki:platform-engineering",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:team-building",
+      "target": "wiki:self-service-data-platforms",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:team-building",
+      "target": "wiki:self-service-data-platforms",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -68384,15 +69248,213 @@
     },
     {
       "source": "wiki:testing",
-      "target": "wiki:mlops-and-dataops",
+      "target": "person:barrmoses",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:testing",
+      "target": "person:bartoszmikulski",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:testing",
+      "target": "person:christopherbergh",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:testing",
+      "target": "person:hugobowneanderson",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:testing",
+      "target": "person:ranjithakulkarni",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:testing",
+      "target": "person:victoriaperezmola",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:testing",
+      "target": "podcast:analytics-engineer-skills-tools",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:testing",
+      "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:testing",
+      "target": "podcast:data-quality-data-observability-data-reliability",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:testing",
+      "target": "podcast:dataops-automation-and-reliable-data-pipelines",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:testing",
+      "target": "podcast:dataops-for-data-engineering",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:testing",
+      "target": "podcast:practical-llm-engineering-and-rag",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:testing",
+      "target": "podcast:production-ready-ai-engineering",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:testing",
+      "target": "wiki:agent-engineering",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:testing",
+      "target": "wiki:analytics-engineering",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:testing",
+      "target": "wiki:ci-cd",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:testing",
+      "target": "wiki:ci-cd",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:testing",
+      "target": "wiki:data-observability",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:testing",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:testing",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:testing",
+      "target": "wiki:dataops",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:testing",
+      "target": "wiki:dataops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:testing",
+      "target": "wiki:evaluation",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:testing",
+      "target": "wiki:evaluation",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:testing",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:testing",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:testing",
+      "target": "wiki:llm-production-patterns",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:testing",
+      "target": "wiki:mlops",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:testing",
-      "target": "wiki:mlops-and-dataops",
+      "target": "wiki:model-monitoring",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:testing",
+      "target": "wiki:production",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:testing",
+      "target": "wiki:production",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:testing",
+      "target": "wiki:production-search-evaluation",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:testing",
+      "target": "wiki:rag",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:testing",
+      "target": "wiki:reproducibility",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:testing",
+      "target": "wiki:search-rag-and-knowledge-systems",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:tools",
