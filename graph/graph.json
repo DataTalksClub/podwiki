@@ -5,9 +5,9 @@
     "articles": 66,
     "podcasts": 202,
     "persons": 438,
-    "topics": 145,
-    "nodes": 1019,
-    "links": 8745
+    "topics": 146,
+    "nodes": 1020,
+    "links": 8924
   },
   "nodes": [
     {
@@ -7367,6 +7367,15 @@
       "search": "monetization"
     },
     {
+      "id": "topic:multi-agent-systems",
+      "type": "topic",
+      "label": "Multi-Agent Systems",
+      "title": "Multi-Agent Systems",
+      "url": "/wiki/",
+      "count": 1,
+      "search": "Multi-Agent Systems"
+    },
+    {
       "id": "topic:nlp",
       "type": "topic",
       "label": "NLP",
@@ -7792,11 +7801,11 @@
     {
       "id": "wiki:ai-agents",
       "type": "wiki",
-      "label": "Ai Agents",
-      "title": "Ai Agents",
+      "label": "AI Agents",
+      "title": "AI Agents",
       "url": "/wiki/ai-agents/",
       "count": 1,
-      "search": "Ai Agents Stub topic page for podcast archive links about Ai Agents."
+      "search": "AI Agents What DataTalks.Club guests have said about AI agents: autonomy, tool use, memory, RAG boundaries, evaluation, governance, and infrastructure."
     },
     {
       "id": "wiki:ai-engineer-role",
@@ -7810,11 +7819,11 @@
     {
       "id": "wiki:ai-engineering",
       "type": "wiki",
-      "label": "Ai Engineering",
-      "title": "Ai Engineering",
+      "label": "AI Engineering",
+      "title": "AI Engineering",
       "url": "/wiki/ai-engineering/",
       "count": 1,
-      "search": "Ai Engineering Stub topic page for podcast archive links about Ai Engineering."
+      "search": "AI Engineering Archive backed guide to AI engineering as the discipline of shipping LLM applications, RAG systems, agents, evaluations, and production AI products."
     },
     {
       "id": "wiki:ai-engineering-roadmap",
@@ -7832,7 +7841,7 @@
       "title": "AI Infrastructure",
       "url": "/wiki/ai-infrastructure/",
       "count": 1,
-      "search": "AI Infrastructure Stub topic page for podcast archive links about AI Infrastructure."
+      "search": "AI Infrastructure Podcast grounded reference page for compute, GPUs, orchestration, model serving, cost, and operations behind production AI systems."
     },
     {
       "id": "wiki:ai-red-teaming",
@@ -7846,11 +7855,11 @@
     {
       "id": "wiki:ai-tooling",
       "type": "wiki",
-      "label": "Ai Tooling",
-      "title": "Ai Tooling",
+      "label": "AI Tooling",
+      "title": "AI Tooling",
       "url": "/wiki/ai-tooling/",
       "count": 1,
-      "search": "Ai Tooling Stub topic page for podcast archive links about Ai Tooling."
+      "search": "AI Tooling How DataTalks.Club podcast guests choose and operate AI tooling for model APIs, open source LLMs, RAG, prompts, agents, evaluation, observability, and deployment."
     },
     {
       "id": "wiki:analytics-engineering",
@@ -7886,7 +7895,7 @@
       "title": "Apache Iceberg",
       "url": "/wiki/apache-iceberg/",
       "count": 1,
-      "search": "Apache Iceberg Stub topic page for podcast archive links about Apache Iceberg."
+      "search": "Apache Iceberg How DataTalks.Club podcast guests place Apache Iceberg inside lakehouse architecture, open table formats, catalogs, Parquet storage, Delta Lake and Hudi comparisons, DLT support, and data engineering platform design."
     },
     {
       "id": "wiki:applied-research",
@@ -39365,13 +39374,223 @@
     },
     {
       "source": "wiki:ai-agents",
-      "target": "wiki:llm-production-patterns",
+      "target": "article:llm-tools",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:ai-agents",
+      "target": "person:adityagautam",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-agents",
+      "target": "person:hugobowneanderson",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-agents",
+      "target": "person:mariasukhareva",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai-agents",
+      "target": "person:micheallanham",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-agents",
+      "target": "person:pauliusztin",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-agents",
+      "target": "person:ranjithakulkarni",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai-agents",
+      "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:ai-agents",
+      "target": "podcast:from-game-ai-to-modern-ai-agents",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:ai-agents",
+      "target": "podcast:generative-ai-chatbots-in-production-security",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai-agents",
+      "target": "podcast:practical-llm-engineering-and-rag",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:ai-agents",
+      "target": "podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai-agents",
+      "target": "podcast:s23e03-future-of-ai-agents",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai-agents",
+      "target": "topic:multi-agent-systems",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-agents",
+      "target": "wiki:agent-engineering",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai-agents",
+      "target": "wiki:agent-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-agents",
+      "target": "wiki:ai-engineer-role",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-agents",
+      "target": "wiki:ai-engineering-roadmap",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-agents",
+      "target": "wiki:ai-red-teaming",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:ai-agents",
+      "target": "wiki:ai-red-teaming",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-agents",
+      "target": "wiki:data-governance",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-agents",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:ai-agents",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-agents",
       "target": "wiki:llm-production-patterns",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai-agents",
+      "target": "wiki:llm-production-patterns",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-agents",
+      "target": "wiki:multi-agent-systems",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:ai-agents",
+      "target": "wiki:production",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-agents",
+      "target": "wiki:rag",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai-agents",
+      "target": "wiki:rag-vs-fine-tuning",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-agents",
+      "target": "wiki:responsible-ai-and-governance",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:ai-agents",
+      "target": "wiki:responsible-ai-and-governance",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-agents",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:ai-agents",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-agents",
+      "target": "wiki:search-rag-and-knowledge-systems",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-agents",
+      "target": "wiki:software-engineering",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-agents",
+      "target": "wiki:tools",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai-agents",
+      "target": "wiki:tools",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -39653,15 +39872,303 @@
     },
     {
       "source": "wiki:ai-engineering",
-      "target": "wiki:llm-production-patterns",
+      "target": "article:data-engineering",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "article:how-to-build-data-pipelines",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "article:llm-tools",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "article:machine-learning-for-software-engineers",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "article:machine-learning-system-design",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "article:mlops-architecture",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "article:mlops-engineer",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "person:bartoszmikulski",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "person:marianosemelman",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "person:nasserqadri",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "person:pauliusztin",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "person:ruslanshchuchkin",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "podcast:production-ready-ai-engineering",
+      "kind": "wiki-link",
+      "weight": 10
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products",
+      "kind": "wiki-link",
+      "weight": 14
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "podcast:s23e05-inside-ai-engineer-role-tools-skills-and-career-path",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "podcast:s23e07-understanding-ai-engineer-role",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems",
+      "kind": "wiki-link",
+      "weight": 10
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "wiki:agent-engineering",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "wiki:agent-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "wiki:ai-agents",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "wiki:ai-engineer-role",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "wiki:ai-engineer-role",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "wiki:ai-engineering-roadmap",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "wiki:ai-engineering-roadmap",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "wiki:ai-infrastructure",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "wiki:ai-infrastructure",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "wiki:data-engineer-role",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "wiki:data-pipelines",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "wiki:data-scientist-role",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "wiki:evaluation",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "wiki:graph-rag-vs-vector-rag",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "wiki:llm-production-patterns",
+      "kind": "wiki-link",
+      "weight": 6
     },
     {
       "source": "wiki:ai-engineering",
       "target": "wiki:llm-production-patterns",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "wiki:machine-learning-engineer-role",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "wiki:mlops",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "wiki:mlops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "wiki:multi-agent-systems",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "wiki:notebook-to-production-ai-systems",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "wiki:notebook-to-production-ai-systems",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "wiki:open-source-portfolio-evidence",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "wiki:prompt-engineering",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "wiki:rag",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "wiki:rag-portfolio-projects",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "wiki:rag-vs-fine-tuning",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "wiki:search-rag-and-knowledge-systems",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "wiki:search-rag-and-knowledge-systems",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "wiki:software-engineering",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:ai-engineering-roadmap",
@@ -40001,15 +40508,195 @@
     },
     {
       "source": "wiki:ai-infrastructure",
-      "target": "wiki:llm-production-patterns",
+      "target": "person:andreycheptsov",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai-infrastructure",
+      "target": "person:bartoszmikulski",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai-infrastructure",
+      "target": "person:meryemarik",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai-infrastructure",
+      "target": "person:raphaelhoogvliets",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai-infrastructure",
+      "target": "person:simonstiebellehner",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai-infrastructure",
+      "target": "podcast:ai-infrastructure-hybrid-cloud-on-prem-distributed-training",
+      "kind": "wiki-link",
+      "weight": 16
+    },
+    {
+      "source": "wiki:ai-infrastructure",
+      "target": "podcast:building-production-ml-platform-and-mlops-team",
+      "kind": "wiki-link",
+      "weight": 16
+    },
+    {
+      "source": "wiki:ai-infrastructure",
+      "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
+      "kind": "wiki-link",
+      "weight": 14
+    },
+    {
+      "source": "wiki:ai-infrastructure",
+      "target": "podcast:mlops-at-scale-reproducibility-adoption",
+      "kind": "wiki-link",
+      "weight": 16
+    },
+    {
+      "source": "wiki:ai-infrastructure",
+      "target": "podcast:production-ready-ai-engineering",
+      "kind": "wiki-link",
+      "weight": 10
+    },
+    {
+      "source": "wiki:ai-infrastructure",
+      "target": "wiki:ai-engineering",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:ai-infrastructure",
+      "target": "wiki:ai-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-infrastructure",
+      "target": "wiki:caching",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:ai-infrastructure",
+      "target": "wiki:caching",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-infrastructure",
+      "target": "wiki:developer-experience",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-infrastructure",
+      "target": "wiki:experiment-tracking",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:ai-infrastructure",
       "target": "wiki:llm-production-patterns",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:ai-infrastructure",
+      "target": "wiki:llm-production-patterns",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:ai-infrastructure",
+      "target": "wiki:machine-learning-infrastructure",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:ai-infrastructure",
+      "target": "wiki:machine-learning-infrastructure",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-infrastructure",
+      "target": "wiki:mlops",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:ai-infrastructure",
+      "target": "wiki:mlops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-infrastructure",
+      "target": "wiki:mlops-tools",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:ai-infrastructure",
+      "target": "wiki:mlops-tools",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-infrastructure",
+      "target": "wiki:model-monitoring",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai-infrastructure",
+      "target": "wiki:model-monitoring",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-infrastructure",
+      "target": "wiki:model-registry",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-infrastructure",
+      "target": "wiki:orchestration",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:ai-infrastructure",
+      "target": "wiki:orchestration",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-infrastructure",
+      "target": "wiki:platform-engineering",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-infrastructure",
+      "target": "wiki:reproducibility",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai-infrastructure",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:ai-red-teaming",
@@ -40145,15 +40832,249 @@
     },
     {
       "source": "wiki:ai-tooling",
-      "target": "wiki:machine-learning-system-design",
+      "target": "article:machine-learning-system-design",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-tooling",
+      "target": "article:mlops-tools",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-tooling",
+      "target": "person:bartoszmikulski",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai-tooling",
+      "target": "person:hugobowneanderson",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai-tooling",
+      "target": "person:meryemarik",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai-tooling",
+      "target": "person:pauliusztin",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai-tooling",
+      "target": "person:ranjithakulkarni",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai-tooling",
+      "target": "person:vincentwarmerdam",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai-tooling",
+      "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
+      "kind": "wiki-link",
+      "weight": 12
+    },
+    {
+      "source": "wiki:ai-tooling",
+      "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
+      "kind": "wiki-link",
+      "weight": 10
+    },
+    {
+      "source": "wiki:ai-tooling",
+      "target": "podcast:open-source-ml-tools-strategy-and-business-models",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai-tooling",
+      "target": "podcast:practical-llm-engineering-and-rag",
+      "kind": "wiki-link",
+      "weight": 12
+    },
+    {
+      "source": "wiki:ai-tooling",
+      "target": "podcast:production-ready-ai-engineering",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:ai-tooling",
+      "target": "podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:ai-tooling",
+      "target": "wiki:agent-engineering",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:ai-tooling",
+      "target": "wiki:agent-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-tooling",
+      "target": "wiki:ai-engineer-role",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-tooling",
+      "target": "wiki:ai-engineering",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-tooling",
+      "target": "wiki:ai-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-tooling",
+      "target": "wiki:embeddings",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai-tooling",
+      "target": "wiki:evaluation",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-tooling",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:ai-tooling",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-tooling",
+      "target": "wiki:llm-production-patterns",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai-tooling",
+      "target": "wiki:llm-production-patterns",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-tooling",
+      "target": "wiki:llms",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:ai-tooling",
       "target": "wiki:machine-learning-system-design",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-tooling",
+      "target": "wiki:mlops",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-tooling",
+      "target": "wiki:mlops-tools",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:ai-tooling",
+      "target": "wiki:mlops-tools",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:ai-tooling",
+      "target": "wiki:model-monitoring",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai-tooling",
+      "target": "wiki:open-source-and-developer-relations",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai-tooling",
+      "target": "wiki:prompt-engineering",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:ai-tooling",
+      "target": "wiki:rag",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-tooling",
+      "target": "wiki:rag-vs-fine-tuning",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-tooling",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-tooling",
+      "target": "wiki:search-rag-and-knowledge-systems",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:ai-tooling",
+      "target": "wiki:search-rag-and-knowledge-systems",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-tooling",
+      "target": "wiki:tools",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-tooling",
+      "target": "wiki:tools",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-tooling",
+      "target": "wiki:vector-databases",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:analytics-engineering",
@@ -40817,15 +41738,177 @@
     },
     {
       "source": "wiki:apache-iceberg",
-      "target": "wiki:data-engineering-platforms",
+      "target": "person:adrianbrudaru",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:apache-iceberg",
+      "target": "person:larsalbertsson",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:apache-iceberg",
+      "target": "person:nataliekwong",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:apache-iceberg",
+      "target": "podcast:data-engineering-tools-modern-data-stack",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:apache-iceberg",
+      "target": "podcast:dataops-principles-and-scalable-data-platforms",
+      "kind": "wiki-link",
+      "weight": 16
+    },
+    {
+      "source": "wiki:apache-iceberg",
+      "target": "podcast:trends-in-modern-data-engineering",
+      "kind": "wiki-link",
+      "weight": 30
+    },
+    {
+      "source": "wiki:apache-iceberg",
+      "target": "wiki:analytics-engineering",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:apache-iceberg",
       "target": "wiki:data-engineering-platforms",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:apache-iceberg",
+      "target": "wiki:data-engineering-platforms",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:apache-iceberg",
+      "target": "wiki:data-governance",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:apache-iceberg",
+      "target": "wiki:data-governance",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:apache-iceberg",
+      "target": "wiki:data-lake",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:apache-iceberg",
+      "target": "wiki:data-lake",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:apache-iceberg",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:apache-iceberg",
+      "target": "wiki:data-warehouse",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:apache-iceberg",
+      "target": "wiki:data-warehouse-vs-data-lakehouse",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:apache-iceberg",
+      "target": "wiki:data-warehouse-vs-data-lakehouse",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:apache-iceberg",
+      "target": "wiki:dataops",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:apache-iceberg",
+      "target": "wiki:dataops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:apache-iceberg",
+      "target": "wiki:dbt",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:apache-iceberg",
+      "target": "wiki:delta-lake",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:apache-iceberg",
+      "target": "wiki:delta-lake",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:apache-iceberg",
+      "target": "wiki:duckdb",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:apache-iceberg",
+      "target": "wiki:duckdb",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:apache-iceberg",
+      "target": "wiki:etl-vs-elt",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:apache-iceberg",
+      "target": "wiki:etl-vs-elt",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:apache-iceberg",
+      "target": "wiki:modern-data-stack",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:apache-iceberg",
+      "target": "wiki:modern-data-stack",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:apache-iceberg",
+      "target": "wiki:orchestration",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:applied-research",
