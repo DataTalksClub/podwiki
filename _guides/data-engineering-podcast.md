@@ -68,7 +68,7 @@ warehouses, and lakes. Later sections cover orchestration, reverse data flows,
 CDC, and schema evolution.
 
 For written companions, use
-[Data Engineering]({{ '/guides/data-engineering/' | relative_url }}) and
+[Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}) and
 [Fundamentals of Data Engineering]({{ '/guides/fundamentals-of-data-engineering/' | relative_url }}).
 
 ## Tools and Modern Stack
@@ -107,7 +107,7 @@ understand why a warehouse table isn't the end of the data flow.
 
 For deeper tool comparisons, use these pages:
 
-- [Data Engineering Tools]({{ '/guides/data-engineering-tools/' | relative_url }})
+- [Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }})
 - [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
 - [dbt]({{ '/wiki/dbt/' | relative_url }})
 - [Apache Airflow]({{ '/guides/apache-airflow/' | relative_url }})
@@ -371,7 +371,7 @@ fraud-prevention episode to see why latency changes the architecture.
 Use these pages after you choose an episode cluster.
 
 - [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }})
-- [Data Engineering Tools]({{ '/guides/data-engineering-tools/' | relative_url }})
+- [Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }})
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
 - [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})

@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "What Is a Data Product Manager?"
+title: "Data Product Manager Role"
 keyword: "data product manager"
 summary: "A podcast-grounded definition of the data product manager role: who they serve, what they own, and how they turn data work into adopted products."
 search_intent: "Define what a data product manager is, when a team needs one, and how the role differs from analytics, data science, and product owner work."

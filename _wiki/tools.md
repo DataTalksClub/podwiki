@@ -161,7 +161,7 @@ That stack view links directly to these graph nodes:
 - [Data Warehouse]({{ '/wiki/data-warehouse/' | relative_url }})
 
 For article coverage, see
-[Data Engineering Tools]({{ '/guides/data-engineering-tools/' | relative_url }})
+[Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }})
 and [Apache Airflow]({{ '/guides/apache-airflow/' | relative_url }}).
 
 ## MLOps and ML Platform Tools
@@ -210,7 +210,7 @@ See also:
 - [Orchestration]({{ '/wiki/orchestration/' | relative_url }})
 
 For article coverage, see
-[MLOps Tools]({{ '/guides/mlops-tools/' | relative_url }}).
+[MLOps Tools]({{ '/wiki/mlops-tools/' | relative_url }}).
 
 ## Search, RAG, and Agent Tooling
 

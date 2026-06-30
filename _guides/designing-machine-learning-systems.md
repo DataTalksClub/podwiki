@@ -334,6 +334,6 @@ Use this checklist before implementation:
 Continue through the archive with [MLOps]({{ '/wiki/mlops/' | relative_url }}),
 [DataOps]({{ '/wiki/dataops/' | relative_url }}), and
 [MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }}). Use
-[MLOps Tools]({{ '/guides/mlops-tools/' | relative_url }}),
+[MLOps Tools]({{ '/wiki/mlops-tools/' | relative_url }}),
 [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }}), and
 [Production]({{ '/wiki/production/' | relative_url }}) for the operating layer.

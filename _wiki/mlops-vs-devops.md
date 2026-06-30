@@ -81,7 +81,7 @@ The overlap is large because production ML still needs deployable software.
 [Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }})
 around 16:27-20:49 that teams should reuse existing infrastructure. Her list
 includes Kubernetes, Git, registries, and monitoring.
-That's why [MLOps Tools]({{ '/guides/mlops-tools/' | relative_url }})
+That's why [MLOps Tools]({{ '/wiki/mlops-tools/' | relative_url }})
 and [MLOps Architecture]({{ '/guides/mlops-architecture/' | relative_url }})
 should be read as additions to the engineering base, not replacements for it.
 
@@ -313,5 +313,5 @@ Continue through these connected wiki and article pages:
 - [MLOps Engineer]({{ '/wiki/mlops-engineer/' | relative_url }})
 - [Software Engineer to Machine Learning]({{ '/wiki/software-engineer-to-machine-learning/' | relative_url }})
 - [Notebook to Production AI Systems]({{ '/wiki/notebook-to-production-ai-systems/' | relative_url }})
-- [MLOps Tools]({{ '/guides/mlops-tools/' | relative_url }})
+- [MLOps Tools]({{ '/wiki/mlops-tools/' | relative_url }})
 - [MLOps Architecture]({{ '/guides/mlops-architecture/' | relative_url }})

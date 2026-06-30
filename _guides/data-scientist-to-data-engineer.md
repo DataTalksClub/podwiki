@@ -219,7 +219,7 @@ product data engineering or analytics engineering
 If your data science work was close to models in production, target feature
 pipelines or batch scoring. Model monitoring and MLOps-adjacent data work are
 nearby targets
-([MLOps Tools]({{ '/guides/mlops-tools/' | relative_url }})).
+([MLOps Tools]({{ '/wiki/mlops-tools/' | relative_url }})).
 
 [Victoria Perez Mola]({{ '/people/victoriaperezmola/' | relative_url }})'s
 [analytics engineering episode]({{ '/podcasts/analytics-engineer-skills-tools/' | relative_url }})
@@ -289,7 +289,7 @@ Build in this order:
    versus lakehouse or batch versus streaming. Airflow versus a simpler
    scheduler also works, as does managed service versus local stack
    ([Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }}),
-   [Data Engineering Tools]({{ '/guides/data-engineering-tools/' | relative_url }})).
+   [Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }})).
 
 This path keeps the keyword promise honest. A data scientist becomes a credible
 data engineer by proving the path from source to trusted consumer. The data

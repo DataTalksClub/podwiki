@@ -98,7 +98,7 @@ modern stack with FastAPI, UV, and Arize
 ([From Notebook to Production]({{ '/podcasts/s24e03-from-notebook-to-production-building-end-to-end-ai-systems/' | relative_url }})).
 For those topics, see
 [Notebook to Production AI Systems]({{ '/wiki/notebook-to-production-ai-systems/' | relative_url }}),
-[machine learning system design]({{ '/guides/machine-learning-system-design/' | relative_url }}),
+[machine learning system design]({{ '/wiki/machine-learning-system-design/' | relative_url }}),
 and [machine learning for software engineers]({{ '/guides/machine-learning-for-software-engineers/' | relative_url }}).
 
 ## Context, RAG, and Knowledge Systems
@@ -174,7 +174,7 @@ testing tools at 13:14, and Spark choices at 17:10. He then connects
 preprocessing and fine-tuning data to AI work at 18:38
 ([Production AI Engineering]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }})).
 For adjacent data work, see [Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }}),
-[Data Engineering]({{ '/guides/data-engineering/' | relative_url }}), and
+[Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}), and
 [How to Build Data Pipelines]({{ '/how-tos/how-to-build-data-pipelines/' | relative_url }}).
 
 Mariano shows the deployment side through end-to-end AI systems. His chapters
@@ -183,7 +183,7 @@ cover ownership at 17:27, requirements at 37:39, and system architecture at
 monitoring stack at 1:02:53
 ([From Notebook to Production]({{ '/podcasts/s24e03-from-notebook-to-production-building-end-to-end-ai-systems/' | relative_url }})).
 The same operational work runs through [MLOps]({{ '/wiki/mlops/' | relative_url }}),
-[MLOps Engineer]({{ '/guides/mlops-engineer/' | relative_url }}), and
+[MLOps Engineer]({{ '/wiki/mlops-engineer/' | relative_url }}), and
 [AI Infrastructure]({{ '/wiki/ai-infrastructure/' | relative_url }}).
 
 ## Career and Learning Signals

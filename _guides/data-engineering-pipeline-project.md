@@ -30,7 +30,7 @@ For role and stack context, use these pages:
 
 [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}),
 [Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }}),
-[Data Engineering Tools]({{ '/guides/data-engineering-tools/' | relative_url }}),
+[Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }}),
 and [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}).
 
 ## Pick a Narrow, Real Pipeline
@@ -397,7 +397,7 @@ Use these pages for adjacent project, tool, and role context.
 - [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
 - [Data Engineer Course]({{ '/guides/data-engineer-course/' | relative_url }})
 - [Data Engineer Roadmap]({{ '/roadmaps/data-engineer-roadmap/' | relative_url }})
-- [Data Engineering Tools]({{ '/guides/data-engineering-tools/' | relative_url }})
+- [Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }})
 - [Apache Airflow]({{ '/guides/apache-airflow/' | relative_url }})
 - [Data Observability for Data Engineering]({{ '/guides/data-observability-for-data-engineering/' | relative_url }})
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})

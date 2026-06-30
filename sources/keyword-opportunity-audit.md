@@ -59,11 +59,11 @@ These keyword groups already have editorial coverage:
 | Data pipeline projects | `_guides/data-engineering-pipeline-project.md`, `_how_tos/how-to-build-data-pipelines.md` | build data pipelines, data engineering pipeline project |
 | Data engineering consulting | `_guides/data-engineering-consulting.md`, `_guides/data-engineering-consultant.md`, `_guides/data-engineer-consulting.md`, `_guides/data-engineer-consultant.md` | data engineering consulting, data engineering consultant, data engineer consulting |
 | Freelance data engineering | `_guides/freelance-data-engineer.md`, `_guides/data-engineering-freelance.md` | freelance data engineer, data engineering freelance |
-| MLOps core terms | `_guides/mlops.md`, `_guides/what-is-mlops.md`, `_guides/mlops-course.md`, `_guides/mlops-courses.md`, `_guides/mlops-tools.md`, `_guides/mlops-frameworks.md`, `_guides/mlops-architecture.md`, `_guides/mlops-engineer.md`, `_guides/mlops-certification.md` | mlops, what is mlops, mlops course, mlops tools, mlops architecture |
-| DataOps core terms | `_guides/dataops.md`, `_guides/dataops-tools.md`, `_comparisons/dataops-vs-data-engineering.md`, `_comparisons/mlops-vs-dataops.md` | dataops, data ops, dataops tools, mlops vs dataops |
-| Machine learning system design | `_guides/machine-learning-system-design.md`, `_guides/machine-learning-system-design-interview.md`, `_guides/ml-system-design-interview.md`, `_guides/designing-machine-learning-systems.md` | machine learning system design, ml system design interview, designing machine learning systems |
+| MLOps core terms | `_wiki/mlops.md`, `_guides/what-is-mlops.md`, `_guides/mlops-course.md`, `_guides/mlops-courses.md`, `_wiki/mlops-tools.md`, `_guides/mlops-frameworks.md`, `_guides/mlops-architecture.md`, `_wiki/mlops-engineer.md`, `_guides/mlops-certification.md` | mlops, what is mlops, mlops course, mlops tools, mlops architecture |
+| DataOps core terms | `_wiki/dataops.md`, `_guides/dataops-tools.md`, `_comparisons/dataops-vs-data-engineering.md`, `_comparisons/mlops-vs-dataops.md` | dataops, data ops, dataops tools, mlops vs dataops |
+| Machine learning system design | `_wiki/machine-learning-system-design.md`, `_guides/machine-learning-system-design-interview.md`, `_guides/ml-system-design-interview.md`, `_guides/designing-machine-learning-systems.md` | machine learning system design, ml system design interview, designing machine learning systems |
 | LLM system design | `_guides/llm-system-design-interview.md` | llm system design interview |
-| Machine learning for software engineers | `_guides/machine-learning-for-software-engineers.md`, `_guides/software-engineer-to-machine-learning.md` | machine learning for software engineers, software engineering machine learning |
+| Machine learning for software engineers | `_guides/machine-learning-for-software-engineers.md`, `_wiki/software-engineer-to-machine-learning.md` | machine learning for software engineers, software engineering machine learning |
 | Machine learning startups | `_guides/machine-learning-for-startups.md` | machine learning for startups |
 | Data scientist interview | `_guides/data-scientist-interview.md` | data scientist interview |
 | Data product roles | `_guides/data-product-manager.md`, `_guides/data-product-manager-role.md`, `_guides/product-analyst.md` | data product manager, data product management, product analyst |
@@ -87,10 +87,13 @@ publication.
 
 | Priority | Content target | Keyword variants from CSV | Why it may be worth creating |
 |---:|---|---|---|
-| 1 | Machine Learning Newsletter | machine learning newsletter, machine learnings newsletter | Possible DataTalks/community guide, but lower priority unless it maps to a real site asset. |
-| 2 | What Is Open Source | what is open source | Could reuse the open-source wiki, but only create a guide if the keyword is strategically useful. |
-| 3 | Tech Startups | tech startups | Broad; probably lower priority than machine-learning-for-startups, which already exists. |
-| 4 | Delta Lake | delta lake | Wiki exists, but no guide. Create only if podcast evidence is strong enough. |
+| 1 | Product Owner vs Product Manager | data product owner | Use the existing product-owner podcast episode; comparison intent is clearer than a bare role page. |
+| 2 | DataOps Platforms | dataops platforms | Adjacent pages exist, but the platform angle may need its own grounded hub. |
+| 3 | Delta Lake vs Apache Iceberg | delta lake | Wiki exists for Delta Lake; a comparison is safer than a duplicate guide. |
+| 4 | Open Source | what is open source | Improve the open-source wiki first; only create a guide if the keyword is strategically useful. |
+| 5 | Machine Learning Newsletter | machine learning newsletter, machine learnings newsletter | Possible DataTalks/community guide, but lower priority unless it maps to a real site asset. |
+| 6 | A/B Testing Podcast | a/b testing podcast | Possible listening guide using the experimentation archive. |
+| 7 | Tech Startups | tech startups | Broad; probably lower priority than machine-learning-for-startups, which already exists. |
 
 ## Not Recommended From This CSV
 

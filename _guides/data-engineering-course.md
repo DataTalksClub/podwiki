@@ -127,7 +127,7 @@ warns against vendor-led stack decisions. That's the right course standard:
 tools should answer a data problem, not decorate the syllabus.
 
 For a wider tool map, use
-[Data Engineering Tools]({{ '/guides/data-engineering-tools/' | relative_url }})
+[Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }})
 and [Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }}).
 
 ## Check The Project Standard
@@ -339,7 +339,7 @@ Use these pages to continue after comparing courses:
 - [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
 - [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
 - [Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }})
-- [Data Engineering Tools]({{ '/guides/data-engineering-tools/' | relative_url }})
-- [Data Engineering Certification]({{ '/guides/data-engineering-certification/' | relative_url }})
+- [Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }})
+- [Data Engineering Certification]({{ '/wiki/data-engineering-certification/' | relative_url }})
 - [Apache Airflow]({{ '/guides/apache-airflow/' | relative_url }})
 - [Job Search]({{ '/wiki/job-search/' | relative_url }})

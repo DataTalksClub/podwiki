@@ -47,7 +47,7 @@ She also adds system design and data engineering.
 
 If you're comparing options, use [MLOps Course]({{ '/guides/mlops-course/' | relative_url }})
 for a broader course checklist, [MLOps Certification]({{ '/guides/mlops-certification/' | relative_url }})
-for credential tradeoffs, and [MLOps Tools]({{ '/guides/mlops-tools/' | relative_url }})
+for credential tradeoffs, and [MLOps Tools]({{ '/wiki/mlops-tools/' | relative_url }})
 for stack selection. For MLOps Zoomcamp, focus on the project evidence you
 leave with.
 

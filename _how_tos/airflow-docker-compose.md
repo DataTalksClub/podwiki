@@ -141,7 +141,7 @@ still own its part of the pipeline.
 For adjacent stack decisions, see
 [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}) and
 [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}). Also use
-[Data Engineering Tools]({{ '/guides/data-engineering-tools/' | relative_url }}).
+[Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }}).
 
 ## Persistence and Logs
 

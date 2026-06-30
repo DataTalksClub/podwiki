@@ -38,7 +38,7 @@ also adds system design and data engineering.
 Use this article as a checklist for evaluating an MLOps course. For the
 broader operating model, see [MLOps]({{ '/wiki/mlops/' | relative_url }}). For a
 build sequence, use [MLOps Roadmap]({{ '/wiki/mlops-roadmap/' | relative_url }}).
-For stack selection, use [MLOps Tools]({{ '/guides/mlops-tools/' | relative_url }}).
+For stack selection, use [MLOps Tools]({{ '/wiki/mlops-tools/' | relative_url }}).
 
 ## Course Content
 
@@ -294,7 +294,7 @@ Use these pages depending on what you need next:
   plural course-comparison article.
 - [MLOps Roadmap]({{ '/wiki/mlops-roadmap/' | relative_url }}) for the learning
   and project sequence.
-- [MLOps Tools]({{ '/guides/mlops-tools/' | relative_url }}) for stack
+- [MLOps Tools]({{ '/wiki/mlops-tools/' | relative_url }}) for stack
   categories.
 - [MLOps Frameworks]({{ '/guides/mlops-frameworks/' | relative_url }}) for
   framework and platform choices.

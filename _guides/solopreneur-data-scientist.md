@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "What Is a Solopreneur? A Data and AI Career Guide"
+title: "Solopreneur Data Scientist: A Data and AI Career Guide"
 keyword: "solopreneur"
 summary: "A podcast-backed guide to solopreneur careers for data and AI professionals: what a solopreneur is, how solo data work differs from freelancing, and how to build income without losing focus."
 search_intent: "Define solopreneur and explain practical data, AI, freelance, consulting, teaching, writing, and product paths supported by DataTalks.Club podcast interviews."

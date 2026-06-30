@@ -139,7 +139,7 @@ requirements gathering and portfolio building. Around 43:28-44:42, he ties
 tool choice to the end user and warns against vendor-led stack decisions.
 
 For a broader map, use
-[Data Engineering Tools]({{ '/guides/data-engineering-tools/' | relative_url }})
+[Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }})
 and [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}).
 
 ## Check The Stack Vocabulary
@@ -305,6 +305,6 @@ These pages extend the course decision into nearby topics.
 - [Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }})
 - [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
 - [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
-- [Data Engineering Tools]({{ '/guides/data-engineering-tools/' | relative_url }})
+- [Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }})
 - [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
 - [Job Search]({{ '/wiki/job-search/' | relative_url }})

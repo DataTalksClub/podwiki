@@ -157,7 +157,7 @@ and lineage.
 Warehouses, lakes, and lakehouses should teach storage and access. They should
 also teach modeling, cost, and governance, while streaming belongs in a junior
 path only when latency changes the user outcome. For a broader stack map, use
-[Data Engineering Tools]({{ '/guides/data-engineering-tools/' | relative_url }}).
+[Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }}).
 
 ## The Portfolio Must Show Ownership
 
@@ -287,7 +287,7 @@ finishing public work.
 
 Choose a certificate when you need a credential, cloud vocabulary, or a narrow
 study structure. The certificate should still point back to a real project. Use
-[Data Engineering Certification]({{ '/guides/data-engineering-certification/' | relative_url }})
+[Data Engineering Certification]({{ '/wiki/data-engineering-certification/' | relative_url }})
 for the credential-specific decision.
 
 Choose a self-paced course when you already have discipline and only need the
@@ -343,9 +343,9 @@ Use these pages to continue after comparing bootcamps.
 - [Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }})
 - [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
 - [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
-- [Data Engineering Tools]({{ '/guides/data-engineering-tools/' | relative_url }})
+- [Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }})
 - [Data Engineer Course]({{ '/guides/data-engineer-course/' | relative_url }})
 - [Data Engineer Courses]({{ '/guides/data-engineer-courses/' | relative_url }})
 - [Data Engineering Bootcamp]({{ '/guides/data-engineering-bootcamp/' | relative_url }})
-- [Data Engineering Certification]({{ '/guides/data-engineering-certification/' | relative_url }})
+- [Data Engineering Certification]({{ '/wiki/data-engineering-certification/' | relative_url }})
 - [Job Search]({{ '/wiki/job-search/' | relative_url }})

@@ -130,7 +130,7 @@ Use these checks when reading a syllabus:
 - Streaming should appear only when the use case needs low latency.
 
 For deeper tool context, use
-[Data Engineering Tools]({{ '/guides/data-engineering-tools/' | relative_url }}),
+[Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }}),
 [Apache Airflow]({{ '/guides/apache-airflow/' | relative_url }}), and
 [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}).
 
@@ -267,11 +267,11 @@ show that evidence, treat it as guided study rather than job-ready preparation.
 Use these pages to look at the role, tools, and project evidence behind a
 bootcamp decision.
 
-- [Data Engineering]({{ '/guides/data-engineering/' | relative_url }})
+- [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }})
 - [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
 - [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
 - [Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }})
-- [Data Engineering Tools]({{ '/guides/data-engineering-tools/' | relative_url }})
+- [Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }})
 - [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
 - [Job Search]({{ '/wiki/job-search/' | relative_url }})

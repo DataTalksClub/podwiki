@@ -66,6 +66,10 @@ llm-system-design-interview  → 301 to the new interview page
 
 ## C. MERGE→wiki — 1:1 into an existing topic (39)
 
+Status: exact guide/wiki slug collisions were merged into the wiki layer and
+the duplicate guide files were removed on 2026-06-30. Remaining rows in this
+section still need the same merge/delete decision.
+
 | Slug | → wiki topic | Note |
 |---|---|---|
 | airflow | orchestration | |
@@ -73,14 +77,14 @@ llm-system-design-interview  → 301 to the new interview page
 | airflow-docker-compose | orchestration | thin how-to |
 | analytics-engineer | analytics-engineering | |
 | data-engineering-and-data-science | data-engineer-vs-data-scientist | |
-| data-engineering-certification | data-engineering-certification | **slug collision** |
+| data-engineering-certification | data-engineering-certification | **done: slug collision merged** |
 | data-engineering-manager | leadership | |
 | data-engineer-manager | leadership | dup |
-| data-engineering | data-engineering | **slug collision** |
+| data-engineering | data-engineering | **done: slug collision removed** |
 | data-engineering-pipeline-project | data-engineering-portfolio-projects | |
-| data-engineering-tools | data-engineering-tools | **slug collision** |
+| data-engineering-tools | data-engineering-tools | **done: slug collision merged** |
 | data-observability-for-data-engineering | data-observability | |
-| dataops | dataops | **slug collision** |
+| dataops | dataops | **done: slug collision removed** |
 | dataops-tools | dataops | |
 | dataops-vs-data-engineering | dataops | comparison → fold in |
 | data-product-manager | data-product-management | |
@@ -96,15 +100,15 @@ llm-system-design-interview  → 301 to the new interview page
 | llm-tools | llms | or ai-tooling |
 | machine-learning-for-software-engineers | software-engineer-to-machine-learning | |
 | machine-learning-for-startups | startups | |
-| machine-learning-system-design | machine-learning-system-design | **slug collision** |
+| machine-learning-system-design | machine-learning-system-design | **done: slug collision removed** |
 | mlops-architecture | mlops | |
-| mlops-engineer | mlops-engineer | **slug collision** |
+| mlops-engineer | mlops-engineer | **done: slug collision merged** |
 | mlops-frameworks | mlops-tools | |
-| mlops | mlops | **slug collision** |
-| mlops-tools | mlops-tools | **slug collision** |
+| mlops | mlops | **done: slug collision removed** |
+| mlops-tools | mlops-tools | **done: slug collision merged** |
 | mlops-vs-dataops | mlops-and-dataops | |
 | product-analyst | product-analytics | or data-analyst-role |
-| software-engineer-to-machine-learning | software-engineer-to-machine-learning | **slug collision** |
+| software-engineer-to-machine-learning | software-engineer-to-machine-learning | **done: slug collision removed** |
 | solopreneur-data-scientist | entrepreneurship | |
 | what-is-mlops | mlops | |
 

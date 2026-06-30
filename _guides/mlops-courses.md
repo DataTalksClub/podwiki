@@ -38,7 +38,7 @@ single-course checklist, use
 archive-backed reference page, start with
 [MLOps]({{ '/wiki/mlops/' | relative_url }}), then use
 [MLOps Roadmap]({{ '/wiki/mlops-roadmap/' | relative_url }}) for build order and
-[MLOps Tools]({{ '/guides/mlops-tools/' | relative_url }}) for stack
+[MLOps Tools]({{ '/wiki/mlops-tools/' | relative_url }}) for stack
 selection.
 
 ## Compare the Outcome
@@ -121,7 +121,7 @@ Look for these course modules:
    surface.
 
 If a syllabus jumps straight to Kubernetes or Terraform, compare it against
-[MLOps Tools]({{ '/guides/mlops-tools/' | relative_url }}) and
+[MLOps Tools]({{ '/wiki/mlops-tools/' | relative_url }}) and
 [ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }}). Those pages frame
 cloud ML platforms as answers to workflow problems, not as the goal of the
 course.
@@ -177,7 +177,7 @@ Use the course type to solve a specific learning problem:
 - Choose a vendor or cloud course when the target job names that stack, but
   check that the course still teaches lifecycle decisions, registry handoff,
   monitoring, and rollback through
-  [MLOps Tools]({{ '/guides/mlops-tools/' | relative_url }}) and
+  [MLOps Tools]({{ '/wiki/mlops-tools/' | relative_url }}) and
   [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }}).
 - Choose a platform engineering course when your target role owns shared paths
   for multiple teams, using Simon's platform triggers in

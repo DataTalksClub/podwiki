@@ -198,7 +198,7 @@ store pipeline-run connections. A team still has to think through
 reproducibility across code and data. Model versions need the same care. That
 connects orchestration to
 [MLOps]({{ '/wiki/mlops/' | relative_url }}) and
-[MLOps Tools]({{ '/guides/mlops-tools/' | relative_url }}).
+[MLOps Tools]({{ '/wiki/mlops-tools/' | relative_url }}).
 
 It also connects orchestration to experiment tracking, model registries, and
 lineage rather than replacing them.

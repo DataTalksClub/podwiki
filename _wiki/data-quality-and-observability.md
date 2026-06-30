@@ -55,7 +55,7 @@ These wiki pages connect directly:
 Adjacent articles include:
 
 - [Data Observability for Data Engineering]({{ '/guides/data-observability-for-data-engineering/' | relative_url }})
-- [DataOps]({{ '/guides/dataops/' | relative_url }})
+- [DataOps]({{ '/wiki/dataops/' | relative_url }})
 - [MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }})
 
 Core podcast discussions include:

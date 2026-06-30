@@ -41,7 +41,7 @@ For the broader discipline, start with
 [MLOps]({{ '/wiki/mlops/' | relative_url }}). Use
 [MLOps Roadmap]({{ '/wiki/mlops-roadmap/' | relative_url }}) for build order,
 [ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }}) for the shared
-platform layer, and [MLOps Tools]({{ '/guides/mlops-tools/' | relative_url }})
+platform layer, and [MLOps Tools]({{ '/wiki/mlops-tools/' | relative_url }})
 for stack selection.
 
 ## Architecture Flow

@@ -223,7 +223,7 @@ standard for a free course. Learn tools by serving a user, not by collecting
 tool names.
 
 For more tool context, use
-[Data Engineering Tools]({{ '/guides/data-engineering-tools/' | relative_url }}),
+[Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }}),
 [Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }}),
 and [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}).
 
@@ -284,6 +284,6 @@ Use these pages to turn a free course into a fuller data engineering path:
 - [Data Engineering Course]({{ '/guides/data-engineering-course/' | relative_url }})
 - [Data Engineer Course]({{ '/guides/data-engineer-course/' | relative_url }})
 - [Data Engineering Bootcamp]({{ '/guides/data-engineering-bootcamp/' | relative_url }})
-- [Data Engineering Tools]({{ '/guides/data-engineering-tools/' | relative_url }})
+- [Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }})
 - [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
 - [Job Search]({{ '/wiki/job-search/' | relative_url }})

@@ -68,6 +68,9 @@ These notes capture the current cleanup direction and should not be lost.
   and `_comparisons/mlops-vs-dataops.md` for the comparison.
 - Keep pages centered on one topic, role, transition, comparison, roadmap, or
   project type. Split mixed pages instead of broadening them.
+- Name concept pages by the concept, not by "What is ..." phrasing. Use
+  `Open Source`, `MLOps`, or `DataOps` as page names; keep "what is" only as a
+  keyword variant in frontmatter or audit notes.
 
 ## Roles
 
@@ -236,6 +239,7 @@ Candidate pages:
 - Machine learning engineer vs data scientist
 - Data product manager vs product manager
 - Product owner vs product manager
+- Data product owner vs data product manager
 - MLOps vs DevOps
 - DataOps vs MLOps
 - ETL vs ELT
@@ -245,6 +249,7 @@ Candidate pages:
 - RAG vs fine-tuning
 - Vector database vs search engine
 - Knowledge graph vs vector search
+- Delta Lake vs Apache Iceberg
 
 Source hints:
 
@@ -271,3 +276,16 @@ Start with this batch when expanding the content set.
   engineering.
 - Add comparison pages for data engineer vs data scientist, data analyst vs
   analytics engineer, MLOps vs DevOps, ETL vs ELT, and RAG vs fine-tuning.
+- Add the CSV-backed comparison gap for product owner vs product manager using
+  `building-data-products-product-owner-vs-product-manager.md`.
+- Evaluate `dataops platforms` as either `_wiki/dataops-platforms.md` or a
+  guide that links to DataOps, platform engineering, and data engineering
+  platforms.
+- Improve `_wiki/open-source.md` before creating any Open Source editorial
+  page. The keyword is a bare concept, so the wiki page should own it.
+- Treat Delta Lake as a wiki concept. If an editorial page is needed, prefer a
+  comparison such as Delta Lake vs Apache Iceberg instead of a duplicate guide.
+- Consider `_guides/ab-testing-podcast.md` as a listening guide if the podcast
+  archive angle is useful.
+- Only create a machine learning newsletter guide if it maps to a real
+  DataTalks.Club newsletter or community asset.

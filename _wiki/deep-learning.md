@@ -171,7 +171,7 @@ gold-standard examples and human evaluation
 That places transformer systems close to
 [production]({{ '/wiki/production/' | relative_url }}),
 [MLOps]({{ '/wiki/mlops/' | relative_url }}), and the practical
-[MLOps article]({{ '/guides/mlops/' | relative_url }}).
+[MLOps]({{ '/wiki/mlops/' | relative_url }}).
 
 Paul's AI engineering discussion connects deep learning to the current product
 stack. His background includes large neural networks in production. The

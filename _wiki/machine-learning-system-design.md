@@ -253,5 +253,5 @@ These pages expand the system-design decisions above.
 - [Evaluation]({{ '/wiki/evaluation/' | relative_url }})
 - [A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }})
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
-- [Machine Learning System Design article]({{ '/guides/machine-learning-system-design/' | relative_url }})
+- [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
 - [Machine Learning System Design Interview article]({{ '/guides/machine-learning-system-design-interview/' | relative_url }})

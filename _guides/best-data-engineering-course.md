@@ -51,7 +51,7 @@ and
 For intensive programs and credentials, see
 [Data Engineering Bootcamp]({{ '/guides/data-engineering-bootcamp/' | relative_url }})
 and
-[Data Engineering Certification]({{ '/guides/data-engineering-certification/' | relative_url }}).
+[Data Engineering Certification]({{ '/wiki/data-engineering-certification/' | relative_url }}).
 
 ## Choosing Criteria
 
@@ -276,7 +276,7 @@ customize enough of the work to prove ownership.
 A certification path can help when it organizes cloud or pipeline vocabulary.
 It becomes weak when the main output is a badge rather than code, tests, and a
 defensible data system. Use
-[Data Engineering Certification]({{ '/guides/data-engineering-certification/' | relative_url }})
+[Data Engineering Certification]({{ '/wiki/data-engineering-certification/' | relative_url }})
 when the credential question is central.
 
 ## Interview Fit
@@ -335,6 +335,6 @@ Related guides:
 - [Data Engineering Course]({{ '/guides/data-engineering-course/' | relative_url }})
 - [Data Engineering Courses]({{ '/guides/data-engineering-courses/' | relative_url }})
 - [Data Engineering Bootcamp]({{ '/guides/data-engineering-bootcamp/' | relative_url }})
-- [Data Engineering Certification]({{ '/guides/data-engineering-certification/' | relative_url }})
-- [Data Engineering Tools]({{ '/guides/data-engineering-tools/' | relative_url }})
+- [Data Engineering Certification]({{ '/wiki/data-engineering-certification/' | relative_url }})
+- [Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }})
 - [Job Search]({{ '/wiki/job-search/' | relative_url }})

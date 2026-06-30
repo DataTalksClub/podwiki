@@ -49,7 +49,7 @@ tool owns ingestion. The SQL model owns transformation. The Spark job,
 warehouse, feature store, or model service owns its part of the work.
 
 This is why Airflow often appears in discussions of
-[data engineering tools]({{ '/guides/data-engineering-tools/' | relative_url }})
+[data engineering tools]({{ '/wiki/data-engineering-tools/' | relative_url }})
 and [data engineering platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}).
 It becomes useful when several teams need shared run history, retry behavior,
 and a visible dependency graph. It becomes expensive ceremony when one small

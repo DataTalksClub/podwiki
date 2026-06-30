@@ -131,4 +131,6 @@ wiki page already owns.
   guides plus the podcast guide to their main-site owners
 - [ ] Consolidate the article keyword swarm into topics + roadmaps/Q&A (§5)
 - [ ] Remove podwiki articles that duplicate wiki slugs or target branded/course terms
+  - [x] Remove exact guide/wiki slug collisions and move useful guide material
+    into the wiki layer
 - [ ] Resubmit both sitemaps in Google Search Console

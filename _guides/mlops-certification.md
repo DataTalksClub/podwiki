@@ -48,7 +48,7 @@ design. That's the useful way to read the word
 it.
 
 For stack choices, compare this article with
-[MLOps Tools]({{ '/guides/mlops-tools/' | relative_url }}),
+[MLOps Tools]({{ '/wiki/mlops-tools/' | relative_url }}),
 [MLOps Frameworks]({{ '/guides/mlops-frameworks/' | relative_url }}), and
 [MLOps Course]({{ '/guides/mlops-course/' | relative_url }}). For the short
 definition, use the [MLOps definition article]({{ '/guides/what-is-mlops/' | relative_url }}).
@@ -322,7 +322,7 @@ Use these pages for the underlying archive synthesis:
 - [MLOps Roadmap]({{ '/wiki/mlops-roadmap/' | relative_url }})
 - [MLOps Course]({{ '/guides/mlops-course/' | relative_url }})
 - [MLOps Courses]({{ '/guides/mlops-courses/' | relative_url }})
-- [MLOps Tools]({{ '/guides/mlops-tools/' | relative_url }})
+- [MLOps Tools]({{ '/wiki/mlops-tools/' | relative_url }})
 - [MLOps Frameworks]({{ '/guides/mlops-frameworks/' | relative_url }})
 - [MLOps Engineer]({{ '/wiki/mlops-engineer/' | relative_url }})
 - [ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }})

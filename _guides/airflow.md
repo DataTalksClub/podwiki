@@ -25,7 +25,7 @@ A team may use Airflow to trigger ingestion and run transformations. It may
 also call Spark jobs and notify an owner. Each underlying tool still owns the
 work it runs
 ([Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}),
-[Data Engineering Tools]({{ '/guides/data-engineering-tools/' | relative_url }})).
+[Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }})).
 Airflow becomes a good fit when those steps are hard to run, retry, backfill,
 or explain as separate scripts.
 
@@ -146,7 +146,7 @@ orchestrators
 Delay Airflow when the workflow is one small script and the schedule is simple.
 It also makes sense to wait when manual reruns are acceptable and no one needs
 shared run history
-([Data Engineering Tools]({{ '/guides/data-engineering-tools/' | relative_url }}),
+([Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }}),
 [Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }})).
 Choose a workflow service such as Airflow, Prefect, or Dagster when informal
 scheduling no longer gives the team enough visibility and recovery
@@ -198,7 +198,7 @@ store
 So Airflow can coordinate upstream feature generation and batch ML jobs. It
 isn't the feature store or model registry. It also isn't the online serving
 layer or monitoring system
-([MLOps Tools]({{ '/guides/mlops-tools/' | relative_url }}),
+([MLOps Tools]({{ '/wiki/mlops-tools/' | relative_url }}),
 [Production]({{ '/wiki/production/' | relative_url }})).
 
 ## Operating Airflow Well

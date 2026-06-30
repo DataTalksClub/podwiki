@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "What Is MLOps? A Practical Definition from Production ML Work"
+title: "MLOps: A Practical Definition from Production ML Work"
 keyword: "what is mlops"
 secondary_keywords:
   - mlops

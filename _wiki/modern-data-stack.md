@@ -250,7 +250,7 @@ ownership for schemas and SLAs.
 These pages cover adjacent tools, practices, and tradeoffs:
 
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
-- [Data Engineering Tools]({{ '/guides/data-engineering-tools/' | relative_url }})
+- [Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }})
 - [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }})
 - [ELT]({{ '/wiki/elt/' | relative_url }})
 - [dbt]({{ '/wiki/dbt/' | relative_url }})
