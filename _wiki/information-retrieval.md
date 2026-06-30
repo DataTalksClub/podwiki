@@ -1,24 +1,264 @@
 ---
 layout: wiki
 title: "Information Retrieval"
-summary: "Stub topic page for podcast archive links about Information Retrieval."
-stub: true
+summary: "How DataTalks.Club podcast guests discuss retrieval discipline across candidate generation, ranking, RAG, and evaluation."
 related:
-  - LLM Production Patterns
+  - Search
+  - Search, RAG, and Knowledge Systems
+  - Retrieval-Augmented Generation
+  - Vector Databases
+  - Embeddings
+  - Production Search Evaluation
 ---
 
-## Status
+Information retrieval finds the right pieces of information from a larger
+collection under time, quality, and system constraints. In the DataTalks.Club
+archive, it sits behind [search]({{ '/wiki/search/' | relative_url }}),
+[vector databases]({{ '/wiki/vector-databases/' | relative_url }}), and RAG.
+It also sits behind recommendations and agent tools.
 
-This is a stub topic page. It keeps podcast, people, graph, and search links
-stable while agents collect episode-backed synthesis for this topic.
+[Daniel Svonava]({{ '/people/danielsvonava/' | relative_url }}) frames search
+as a relevance decision problem in
+[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}).
+At 8:00 he describes the work as isolating relevant data from a larger pile of
+data. At 9:10 he names information retrieval as the common field behind search
+and personalized search. He also connects it to recommender boundaries and RAG.
 
-## How to Expand
+Read this page for retrieval mechanics, and use
+[Search]({{ '/wiki/search/' | relative_url }}) for product search systems and
+user-facing relevance. Use
+[Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
+for generation, citations, and answer quality after retrieval. Use
+[Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
+for the broader map across retrieval systems and LLM applications.
 
-When expanding this page, use the source podcast files in
-`../datatalksclub.github.io/_podcast` and link public episode evidence through
-`https://datatalks.club/podcast.html`. Focus on what guests said in the podcast
-archive, not on generic definitions.
+## Common Definition
 
-## Related Pages
+Guests describe information retrieval as two connected jobs: retrieve candidate
+items quickly, then rank the smaller candidate set with richer signals. Daniel
+makes that split explicit around 12:45 in
+[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}).
+Candidate generation narrows the haystack to plausible results. Ranking then
+estimates whether each query-result pair actually matches the task, which can
+mean relevance or click probability. It can also mean purchase probability or
+another product signal.
 
-- [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
+Daniel keeps retrieval distinct from the database that stores the data. His
+12:45 discussion starts with query rewriting, synonyms, ingestion, and indexes.
+The system has to prepare both the query and the corpus before matching can be
+fast. His 10:45 latency point explains why retrieval rarely means scanning
+every document. The system needs a data structure that can search under
+user-facing latency constraints.
+
+[Atita Arora]({{ '/people/atitaarora/' | relative_url }}) gives the search
+quality version in
+[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}).
+Around 9:18, she describes the practical question as matching the right content
+with the right query. She then adds that teams need to measure search quality
+against business goals. Her later RAG discussion keeps the same retrieval
+discipline inside LLM systems. The model can only answer from the context the
+retriever finds.
+
+## Guest Differences
+
+Daniel emphasizes retrieval architecture and ranking. In
+[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}),
+he starts with inverted indexes, candidate generation, and ranking. He then
+moves to embeddings, vector compute, hybrid retrieval, and business metrics.
+His view helps teams decide which signals belong in candidate generation and
+which signals belong in the ranking model.
+
+Atita emphasizes evolution and migration. In
+[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}),
+she traces retrieval from Solr, Lucene, and NLP-based matching to vector
+databases and RAG pipelines. She also covers citations and multi-layer
+evaluation. Around 20:44, she argues that teams don't always need to dump an
+existing Solr,
+Elasticsearch, or OpenSearch stack when they add vectors. A standalone vector
+database can sit beside the current search system when reindexing the production
+stack is risky.
+
+[Meryem Arik]({{ '/people/meryemarik/' | relative_url }}) brings retrieval into
+LLM deployment. In
+[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}),
+she prefers information retrieval for changing knowledge around 41:36-44:17.
+Teams can index the knowledge base, retrieve the relevant section, and ground
+the answer in documentation. That avoids repeatedly fine-tuning the model on
+changing facts.
+That boundary connects this page to
+[RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }}).
+
+[Ranjitha Kulkarni]({{ '/people/ranjithakulkarni/' | relative_url }}) treats
+retrieval as one tool inside agentic systems. In
+[Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}),
+she says around 35:09-37:04 that RAG or search-style information retrieval is a
+tool to use when needed. Agents may also query tables, MongoDB, APIs, or other
+systems. Her boundary is task complexity. RAG can reduce a large search space
+to useful context, but agents fit workflows with multiple data sources, dynamic
+planning, and tool use.
+
+## Candidate Generation and Indexing
+
+Candidate generation is the fast retrieval step. Daniel explains around 12:45
+in
+[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }})
+that the system prepares a query object and processes the corpus. It then
+builds an index so it can match the query against the haystack quickly.
+
+In lexical search, an inverted index links terms to the documents or positions
+where they appear. This makes exact-word lookup efficient, but Daniel also
+notes the brittleness that comes from handcrafted dictionaries. Query rewrites,
+synonym rules, and normalization choices add more brittleness.
+
+Candidate generation also sets the upper bound for later ranking. If the
+retriever misses the relevant item, a reranker can't recover it. Atita's
+podcast-transcript RAG example makes this concrete around 38:24-42:49 in
+[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}):
+the system chunks transcripts and embeds the chunks. It retrieves a small number
+of relevant pieces and only then asks the LLM to answer from that context. Chunk
+size, overlap, embedding model, and the number of retrieved chunks all affect
+what the generator can see.
+
+## Lexical and Semantic Retrieval
+
+Lexical retrieval matches query terms against indexed text. It's still valuable
+when the task depends on exact words, filters, domain terminology, or
+predictable matching behavior. Atita's early-search discussion around 4:42-9:18
+in
+[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
+places Solr and Lucene at the center of practical search work before the
+current vector wave. She also includes full-text search and NLP-based
+query-content matching.
+
+Semantic retrieval compares representations rather than only matching terms.
+Daniel's 11:29-12:45 discussion in
+[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }})
+connects bag-of-words search to dense vectors. Around 21:55-33:13, he explains
+that embedding models can turn documents and queries into vectors. They can
+also encode images and user behavior. The system can then match items by
+proximity in a shared representation space.
+
+That's why semantic retrieval belongs with
+[Embeddings]({{ '/wiki/embeddings/' | relative_url }}) as much as with
+[Vector Databases]({{ '/wiki/vector-databases/' | relative_url }}).
+
+Vector storage and vector compute are separate concerns. Daniel says around
+30:22 that teams compute vectors during ingestion and at query time. Both paths
+must land in the same vector space. When documents change or embedding models
+change, teams may need to recompute vectors or rebuild indexes.
+
+Atita's 20:44 migration discussion adds the architecture choice. Teams can use vector support
+inside an existing search engine or run a focused vector database in parallel
+when that lowers migration risk.
+
+## Hybrid Retrieval and Ranking
+
+Hybrid retrieval combines semantic similarity with filters, recency, and
+popularity. It can also include personalization and business rules. Daniel
+introduces the problem around 34:00 in
+[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}):
+a news search result for "car" may need to be both relevant and fresh. A hard
+one-month filter can remove a highly relevant article older than 30 days, while
+pure vector similarity may ignore freshness. The retrieval system has to balance
+signals instead of treating every condition as an all-or-nothing filter.
+
+That balancing act is where retrieval and ranking meet. Around 39:53-45:11,
+Daniel contrasts Lucene-style `must` and `should` constraints with vector-query
+approaches that encode or weight recency and popularity. He also includes user
+behavior and semantic relevance.
+
+Daniel recommends postponing signal weights until query time when possible. A
+landing page and a category page may need different weights over the same
+indexed data. A personalized page may need different weights again.
+
+The same boundary appears in [Vector Database vs Search Engine]({{ '/wiki/vector-database-vs-search-engine/' | relative_url }}).
+A vector database can return nearest neighbors, but an information retrieval
+system still has to decide which filters are mandatory. It also has to decide
+which signals should be soft ranking features, which reranker to run, and how
+to keep the index fresh. That's why this page treats a vector database as
+retrieval infrastructure, not as the whole retrieval discipline.
+
+## RAG and Context Boundaries
+
+RAG is retrieval plus context packaging plus generation. Atita defines the two
+core pieces, retrieval and generation, around 30:51 in
+[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}).
+
+Around 42:49, she walks through the retrieval step. The system converts the
+query to a vector query and sends it to a vector search engine. It retrieves a
+chosen number of chunks and places those chunks in the prompt. It can also
+return references so the response is explainable.
+
+Meryem gives the deployment reason for the same design. Around 42:02-46:42 in
+[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}),
+she describes indexing a changing knowledge base and retrieving relevant
+sections. Teams inject those sections into a prompt and may use a summarizer for
+sensitive tasks. Her point isn't that retrieval makes the model smarter in
+general. It
+grounds the answer in the current documentation, which is different from
+fine-tuning the model to imitate a style or task format.
+
+Ranjitha sets the boundary for long-context and agentic systems. Around
+30:27-32:48 in
+[Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}),
+she argues that large context windows don't remove retrieval work because
+latency, cost, and noisy context still matter. She also notes that older
+retrieval backends were built for people clicking "blue links", not for feeding
+LLM context. This is why RAG systems often need chunk metadata, source
+provenance, and context wrappers, not only top-k vector search.
+
+## Evaluation
+
+Retrieval evaluation has to cover both the result set and the downstream task.
+Daniel ties search relevance to business outcomes around 1:01:41-1:03:50 in
+[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}):
+teams should connect retrieval and ranking changes to business metrics. They
+should run careful A/B tests when possible and use offline evaluation or
+operational metrics that engineers can iterate on. This connects information
+retrieval to
+[Production Search Evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }})
+and [MLOps]({{ '/wiki/mlops/' | relative_url }}).
+
+Atita separates classic search evaluation from RAG evaluation around
+30:51-42:49 in
+[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}).
+For ecommerce search, she describes a clearer query-response setup with
+precision and recall concepts. For RAG, she says evaluation needs multiple
+layers. Teams evaluate the embedding model and the chunking strategy. They also
+evaluate the retrieval strategy and the end-to-end answer.
+
+This distinction matters because a RAG answer can fail even when the vector
+database returns similar chunks. A generated answer can also look fluent while
+the retrieved evidence is incomplete.
+
+Ranjitha adds the system-benchmark version for agents around 51:42-54:19 in
+[Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}).
+Public benchmarks such as SQuAD evaluate model capability, not the team's
+retrieval or agent system. Teams need their own representative datasets,
+integration tests, mocked tools, and assertions over outcomes. That applies
+when retrieval is one step inside
+[Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }}) or
+[AI Agents]({{ '/wiki/ai-agents/' | relative_url }}), not a standalone search
+endpoint.
+
+## System Boundaries
+
+Design retrieval around the object being found and the decision that follows.
+In product search, teams may retrieve products or recommendation candidates.
+In RAG, teams may retrieve chunks or graph paths. An agent may retrieve logs,
+metrics, database rows, or API responses.
+
+Daniel's 9:10 boundary discussion in
+[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }})
+is useful here. He treats search and recommendations as neighboring brackets
+around the same information retrieval field. He makes the same point about
+personalized search and RAG.
+
+Information retrieval is narrower than the whole
+[Search]({{ '/wiki/search/' | relative_url }}) product and broader than any one
+indexing technology. Retrieval design choices include lexical indexes, vector
+indexes, rerankers, and chunking strategies. Metadata filters and evaluation
+datasets are retrieval design choices too. Teams use those choices to decide
+what to retrieve and how to narrow the search space. They also use them to rank
+candidates and prove that the retrieved information helped the person or system
+that needed it.
