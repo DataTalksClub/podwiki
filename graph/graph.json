@@ -7,7 +7,7 @@
     "persons": 438,
     "topics": 146,
     "nodes": 1050,
-    "links": 11576
+    "links": 11580
   },
   "nodes": [
     {
@@ -67066,55 +67066,55 @@
       "source": "wiki:marketing-to-analytics-engineering",
       "target": "person:arpitchoudhury",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
       "target": "person:juanmanuelperafan",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
       "target": "person:nataliekwong",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
       "target": "person:nikolamaksimovic",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
       "target": "person:tammyliang",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
       "target": "person:victoriaperezmola",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
       "target": "podcast:analytics-engineer-skills-tools",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 4
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
       "target": "podcast:building-and-scaling-data-team",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
       "target": "podcast:data-engineering-tools-modern-data-stack",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
@@ -67126,19 +67126,19 @@
       "source": "wiki:marketing-to-analytics-engineering",
       "target": "podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch",
       "kind": "wiki-link",
-      "weight": 36
+      "weight": 32
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
       "target": "podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
       "target": "wiki:analytics-engineering",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
@@ -67150,13 +67150,13 @@
       "source": "wiki:marketing-to-analytics-engineering",
       "target": "wiki:analytics-engineering-portfolio-projects",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
       "target": "wiki:analytics-engineering-roadmap",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
@@ -67186,13 +67186,13 @@
       "source": "wiki:marketing-to-analytics-engineering",
       "target": "wiki:data-analyst-vs-analytics-engineer",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
       "target": "wiki:data-led-growth",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
@@ -67210,7 +67210,7 @@
       "source": "wiki:marketing-to-analytics-engineering",
       "target": "wiki:event-tracking",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
@@ -67222,19 +67222,31 @@
       "source": "wiki:marketing-to-analytics-engineering",
       "target": "wiki:modern-data-stack",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
       "target": "wiki:product-analytics",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
       "target": "wiki:product-analytics",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:marketing-to-analytics-engineering",
+      "target": "wiki:reverse-etl",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:marketing-to-analytics-engineering",
+      "target": "wiki:tracking-plans",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:metaflow",
@@ -67816,7 +67828,7 @@
       "source": "wiki:ml-platforms",
       "target": "person:geojolly",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:ml-platforms",
@@ -67834,13 +67846,19 @@
       "source": "wiki:ml-platforms",
       "target": "person:simonstiebellehner",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
+    },
+    {
+      "source": "wiki:ml-platforms",
+      "target": "person:willempienaar",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:ml-platforms",
       "target": "podcast:ai-infrastructure-hybrid-cloud-on-prem-distributed-training",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 4
     },
     {
       "source": "wiki:ml-platforms",
@@ -67858,25 +67876,31 @@
       "source": "wiki:ml-platforms",
       "target": "podcast:mlops-at-scale-reproducibility-adoption",
       "kind": "wiki-link",
-      "weight": 14
+      "weight": 12
+    },
+    {
+      "source": "wiki:ml-platforms",
+      "target": "podcast:mlops-feature-stores-feature-stores-feast-tecton",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:ml-platforms",
       "target": "podcast:pragmatic-and-standardized-mlops",
       "kind": "wiki-link",
-      "weight": 10
+      "weight": 6
     },
     {
       "source": "wiki:ml-platforms",
       "target": "podcast:scaling-enterprise-ai-mlops-data-first-strategy",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 2
     },
     {
       "source": "wiki:ml-platforms",
       "target": "wiki:ai-infrastructure",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:ml-platforms",
@@ -67888,7 +67912,7 @@
       "source": "wiki:ml-platforms",
       "target": "wiki:developer-experience",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:ml-platforms",
@@ -67900,7 +67924,7 @@
       "source": "wiki:ml-platforms",
       "target": "wiki:experiment-tracking",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:ml-platforms",
@@ -67910,21 +67934,15 @@
     },
     {
       "source": "wiki:ml-platforms",
-      "target": "wiki:gitops-for-data-teams",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:ml-platforms",
       "target": "wiki:governance",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:ml-platforms",
       "target": "wiki:machine-learning-infrastructure",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:ml-platforms",
@@ -67954,7 +67972,7 @@
       "source": "wiki:ml-platforms",
       "target": "wiki:mlops",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 4
     },
     {
       "source": "wiki:ml-platforms",
@@ -67964,39 +67982,39 @@
     },
     {
       "source": "wiki:ml-platforms",
-      "target": "wiki:mlops-tools",
+      "target": "wiki:model-monitoring",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:ml-platforms",
       "target": "wiki:model-monitoring",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ml-platforms",
+      "target": "wiki:model-registry",
       "kind": "wiki-link",
       "weight": 4
     },
     {
       "source": "wiki:ml-platforms",
-      "target": "wiki:model-monitoring",
+      "target": "wiki:model-registry",
       "kind": "wiki-related",
       "weight": 3
     },
     {
       "source": "wiki:ml-platforms",
-      "target": "wiki:model-registry",
+      "target": "wiki:platform-adoption",
       "kind": "wiki-link",
-      "weight": 8
-    },
-    {
-      "source": "wiki:ml-platforms",
-      "target": "wiki:model-registry",
-      "kind": "wiki-related",
-      "weight": 3
+      "weight": 4
     },
     {
       "source": "wiki:ml-platforms",
       "target": "wiki:platform-engineering",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:ml-platforms",
@@ -68008,7 +68026,7 @@
       "source": "wiki:ml-platforms",
       "target": "wiki:reproducibility",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:ml-platforms",
@@ -68020,7 +68038,7 @@
       "source": "wiki:ml-platforms",
       "target": "wiki:self-service-data-platforms",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:ml-product-manager-role",
@@ -73618,7 +73636,7 @@
       "source": "wiki:qa-to-ml-and-data-engineering",
       "target": "person:alvaronavaspeire",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
@@ -73630,13 +73648,13 @@
       "source": "wiki:qa-to-ml-and-data-engineering",
       "target": "person:jeffkatz",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 2
     },
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
       "target": "person:juanmanuelperafan",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
@@ -73654,25 +73672,25 @@
       "source": "wiki:qa-to-ml-and-data-engineering",
       "target": "podcast:from-software-engineer-to-machine-learning",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 8
     },
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
       "target": "podcast:get-data-engineering-job-prep-and-interview",
       "kind": "wiki-link",
-      "weight": 10
+      "weight": 8
     },
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
       "target": "podcast:how-to-transition-into-ml-and-data-engineering-from-qa",
       "kind": "wiki-link",
-      "weight": 32
+      "weight": 30
     },
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
       "target": "podcast:machine-learning-engineering-production-best-practices",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 10
     },
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
@@ -73682,9 +73700,15 @@
     },
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
+      "target": "wiki:analytics-engineering",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:qa-to-ml-and-data-engineering",
       "target": "wiki:career-transition",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 4
     },
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
@@ -73696,7 +73720,7 @@
       "source": "wiki:qa-to-ml-and-data-engineering",
       "target": "wiki:career-transitions-in-data",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
@@ -73720,7 +73744,7 @@
       "source": "wiki:qa-to-ml-and-data-engineering",
       "target": "wiki:data-engineering-portfolio-projects",
       "kind": "wiki-link",
-      "weight": 10
+      "weight": 6
     },
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
@@ -73738,7 +73762,7 @@
       "source": "wiki:qa-to-ml-and-data-engineering",
       "target": "wiki:job-search",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
@@ -73768,7 +73792,7 @@
       "source": "wiki:qa-to-ml-and-data-engineering",
       "target": "wiki:machine-learning-portfolio-projects",
       "kind": "wiki-link",
-      "weight": 10
+      "weight": 6
     },
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
@@ -73786,7 +73810,7 @@
       "source": "wiki:qa-to-ml-and-data-engineering",
       "target": "wiki:software-engineer-to-machine-learning",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
@@ -74254,13 +74278,13 @@
       "source": "wiki:rag-vs-fine-tuning",
       "target": "person:anahitapakiman",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:rag-vs-fine-tuning",
       "target": "person:atitaarora",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:rag-vs-fine-tuning",
@@ -74272,13 +74296,19 @@
       "source": "wiki:rag-vs-fine-tuning",
       "target": "person:meryemarik",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:rag-vs-fine-tuning",
       "target": "person:ranjithakulkarni",
       "kind": "wiki-link",
       "weight": 4
+    },
+    {
+      "source": "wiki:rag-vs-fine-tuning",
+      "target": "person:reemmahmoud",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:rag-vs-fine-tuning",
@@ -74290,7 +74320,7 @@
       "source": "wiki:rag-vs-fine-tuning",
       "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
       "kind": "wiki-link",
-      "weight": 24
+      "weight": 18
     },
     {
       "source": "wiki:rag-vs-fine-tuning",
@@ -74302,13 +74332,13 @@
       "source": "wiki:rag-vs-fine-tuning",
       "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
       "kind": "wiki-link",
-      "weight": 12
+      "weight": 10
     },
     {
       "source": "wiki:rag-vs-fine-tuning",
       "target": "podcast:practical-llm-engineering-and-rag",
       "kind": "wiki-link",
-      "weight": 10
+      "weight": 8
     },
     {
       "source": "wiki:rag-vs-fine-tuning",
@@ -74320,7 +74350,7 @@
       "source": "wiki:rag-vs-fine-tuning",
       "target": "wiki:agent-engineering",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:rag-vs-fine-tuning",
@@ -74338,7 +74368,7 @@
       "source": "wiki:rag-vs-fine-tuning",
       "target": "wiki:embeddings",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:rag-vs-fine-tuning",
@@ -74350,13 +74380,13 @@
       "source": "wiki:rag-vs-fine-tuning",
       "target": "wiki:evaluation",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:rag-vs-fine-tuning",
       "target": "wiki:graph-rag-vs-vector-rag",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "wiki:rag-vs-fine-tuning",
@@ -74368,13 +74398,13 @@
       "source": "wiki:rag-vs-fine-tuning",
       "target": "wiki:knowledge-graph-vs-vector-search",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "wiki:rag-vs-fine-tuning",
       "target": "wiki:llm-evaluation-workflows",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:rag-vs-fine-tuning",
@@ -74386,43 +74416,37 @@
       "source": "wiki:rag-vs-fine-tuning",
       "target": "wiki:llm-production-patterns",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:rag-vs-fine-tuning",
       "target": "wiki:llm-production-patterns",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:rag-vs-fine-tuning",
-      "target": "wiki:machine-learning",
-      "kind": "wiki-link",
-      "weight": 2
     },
     {
       "source": "wiki:rag-vs-fine-tuning",
       "target": "wiki:mlops",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:rag-vs-fine-tuning",
       "target": "wiki:production-search-evaluation",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:rag-vs-fine-tuning",
       "target": "wiki:prompt-engineering",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:rag-vs-fine-tuning",
       "target": "wiki:retrieval-augmented-generation",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 4
     },
     {
       "source": "wiki:rag-vs-fine-tuning",
@@ -74434,7 +74458,7 @@
       "source": "wiki:rag-vs-fine-tuning",
       "target": "wiki:search-rag-and-knowledge-systems",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:rag-vs-fine-tuning",
@@ -74446,7 +74470,7 @@
       "source": "wiki:rag-vs-fine-tuning",
       "target": "wiki:vector-databases",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:rag-vs-fine-tuning",
@@ -79606,55 +79630,55 @@
       "source": "wiki:vector-database-vs-search-engine",
       "target": "person:anahitapakiman",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:vector-database-vs-search-engine",
       "target": "person:atitaarora",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:vector-database-vs-search-engine",
       "target": "person:danielsvonava",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:vector-database-vs-search-engine",
       "target": "person:meryemarik",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:vector-database-vs-search-engine",
       "target": "podcast:building-production-search-systems",
       "kind": "wiki-link",
-      "weight": 34
+      "weight": 26
     },
     {
       "source": "wiki:vector-database-vs-search-engine",
       "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:vector-database-vs-search-engine",
       "target": "podcast:knowledge-graphs-and-llms-for-automotive-rnd",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:vector-database-vs-search-engine",
       "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
       "kind": "wiki-link",
-      "weight": 26
+      "weight": 18
     },
     {
       "source": "wiki:vector-database-vs-search-engine",
       "target": "wiki:embeddings",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:vector-database-vs-search-engine",
@@ -79696,7 +79720,7 @@
       "source": "wiki:vector-database-vs-search-engine",
       "target": "wiki:production-search-evaluation",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:vector-database-vs-search-engine",
@@ -79714,7 +79738,7 @@
       "source": "wiki:vector-database-vs-search-engine",
       "target": "wiki:retrieval-augmented-generation",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:vector-database-vs-search-engine",
@@ -79726,7 +79750,7 @@
       "source": "wiki:vector-database-vs-search-engine",
       "target": "wiki:search",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:vector-database-vs-search-engine",
@@ -79750,7 +79774,7 @@
       "source": "wiki:vector-database-vs-search-engine",
       "target": "wiki:vector-databases",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:vector-database-vs-search-engine",
