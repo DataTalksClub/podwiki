@@ -2,6 +2,7 @@
 layout: article
 title: "Machine Learning Zoomcamp: A Practical Path From ML Study to Portfolio Evidence"
 keyword: "machine learning zoomcamp"
+canonical_url: "https://datatalks.club/blog/machine-learning-zoomcamp.html"
 summary: "A podcast-backed guide to Machine Learning Zoomcamp and ML Zoomcamp: who it fits, prerequisites, portfolio signals, transition value, and what to do after the course."
 search_intent: "People searching for machine learning zoomcamp or ml zoomcamp usually want to know whether DataTalks.Club's free course fits their background, what they will build, whether it helps with career transition, and how to turn the course into portfolio evidence."
 related_wiki:

@@ -2,6 +2,7 @@
 layout: article
 title: "MLOps Zoomcamp: What to Build, Prove, and Learn"
 keyword: "mlops zoomcamp"
+canonical_url: "https://datatalks.club/blog/mlops-zoomcamp.html"
 summary: "A podcast-grounded guide to using MLOps Zoomcamp to build production ML evidence through deployment, monitoring, reproducibility, CI/CD, and an end-to-end project."
 search_intent: >-
   People searching for MLOps Zoomcamp want to know whether the DataTalks.Club

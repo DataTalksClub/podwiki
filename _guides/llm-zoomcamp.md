@@ -2,6 +2,7 @@
 layout: article
 title: "LLM Zoomcamp: What to Build, Prove, and Learn"
 keyword: "llm zoomcamp"
+canonical_url: "https://datatalks.club/blog/llm-zoomcamp.html"
 summary: "A practical guide to LLM Zoomcamp as a path into LLM engineering, RAG, evaluation, monitoring, and AI engineering portfolio evidence, grounded in DataTalks.Club podcast discussions."
 search_intent:
   - "Find the official LLM Zoomcamp course and understand who should take it."

@@ -6,7 +6,9 @@
       {% assign page_description = page.summary %}
     {% endif %}
     {% assign canonical_url = site.url | append: site.baseurl | append: page.url %}
-    {% if page.source_url and page.collection == "podcast_summaries" %}
+    {% if page.canonical_url %}
+      {% assign canonical_url = page.canonical_url %}
+    {% elsif page.source_url and page.collection == "podcast_summaries" %}
       {% assign canonical_url = page.source_url %}
     {% elsif page.source_url and page.collection == "people" %}
       {% assign canonical_url = page.source_url %}

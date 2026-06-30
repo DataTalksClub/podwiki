@@ -2,6 +2,7 @@
 layout: article
 title: "Data Engineering Zoomcamp: How to Use the Free Course for Job-Ready Practice"
 keyword: "data engineering zoomcamp"
+canonical_url: "https://datatalks.club/blog/data-engineering-zoomcamp.html"
 summary: "A podcast-backed guide to the DataTalks.Club Data Engineering Zoomcamp: who it fits, what evidence to produce, how to use the cohort, and how to connect the course to a data engineering roadmap and portfolio."
 search_intent: |
   People searching for "data engineering zoomcamp" usually want to understand

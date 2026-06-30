@@ -2,6 +2,7 @@
 layout: article
 title: "Data Engineering Podcast: DataTalks.Club Episodes to Start With"
 keyword: "data engineering podcast"
+canonical_url: "https://datatalks.club/podcast.html"
 summary: "A podcast-backed listening guide to DataTalks.Club episodes on data engineering fundamentals, tools, platforms, DataOps, careers, freelance work, streaming, Data Mesh, and governance."
 related_wiki:
   - Data Engineering
