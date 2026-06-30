@@ -10,158 +10,195 @@ related:
   - LLM Production Patterns
 ---
 
-LLM evaluation workflows are repeatable checks for prompts and retrieval
-pipelines. They also cover tool-using agents and AI product behavior. Teams use
-them to decide whether a system is good enough to ship. In the podcast archive,
-guests treat evaluation as an engineering cycle instead of a single benchmark
-score.
+LLM evaluation workflows are the repeatable checks teams use before they ship
+prompts, [RAG]({{ '/wiki/rag/' | relative_url }}) pipelines,
+[agents]({{ '/wiki/agent-engineering/' | relative_url }}), and AI product
+behavior. In the DataTalks.Club archive, guests treat evaluation as an
+engineering loop. The loop combines examples, pass criteria, failure analysis,
+and production feedback.
 
-Teams collect representative cases and run the system. They look at failures,
-improve the weakest part, and feed production signals back into the next
-evaluation set.
-
-Here, [Evaluation]({{ '/wiki/evaluation/' | relative_url }}) narrows to LLM,
-[RAG]({{ '/wiki/rag/' | relative_url }}), and
-[agent engineering]({{ '/wiki/agent-engineering/' | relative_url }}). The topic
-stays close to [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
-because the archive repeatedly frames evaluation as the difference between an AI
-demo and a product system.
-
-## Link Map
-
-The related wiki pages are:
-
-- [Evaluation]({{ '/wiki/evaluation/' | relative_url }})
-- [RAG]({{ '/wiki/rag/' | relative_url }})
-- [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
-- [RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }})
-- [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
-- [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }})
-- [Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }})
-
-The podcast discussions are:
-
-- [Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}) with [Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }})
-- [Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}) with [Ranjitha Kulkarni]({{ '/people/ranjithakulkarni/' | relative_url }})
-- [The Future of AI Agents]({{ '/podcasts/s23e03-future-of-ai-agents/' | relative_url }}) with [Aditya Gautam]({{ '/people/adityagautam/' | relative_url }})
-- [Understanding the AI Engineer Role]({{ '/podcasts/s23e07-understanding-ai-engineer-role/' | relative_url }}) with [Nasser Qadri]({{ '/people/nasserqadri/' | relative_url }})
-- [AI Engineering: Skill Stack, Agents, LLMOps, and How to Ship AI Products]({{ '/podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products/' | relative_url }}) with [Paul Iusztin]({{ '/people/pauliusztin/' | relative_url }})
+LLM evaluation connects [Evaluation]({{ '/wiki/evaluation/' | relative_url }})
+with [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }}),
+[Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}),
+and [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }}). A good
+workflow tells the team what failed and where the next fix belongs. The fix may
+belong in prompting or retrieval. It may also belong in data preparation, tool
+use, guardrails, or the product boundary. New production failures then become
+future evaluation cases.
 
 ## Common Definition
 
-The archive converges on a simple definition. An LLM evaluation workflow is a
-small production discipline around representative examples, explicit pass/fail
-criteria, failure analysis, and iteration. In
-[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}),
-Hugo Bowne-Anderson describes a generator-evaluator setup at 13:56. He then
-argues at 23:00-25:25 that reliable software eventually needs a gold test set
-that's representative but still cheap enough to run often.
+An LLM evaluation workflow is a small production discipline. Teams collect
+representative examples, define what a good answer or action looks like, and
+run the system. They look at failures and keep the eval set fresh as the
+product changes.
 
-Season 23 keeps that same framing for the AI engineer role. In
-[Paul Iusztin's AI engineering episode]({{ '/podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products/' | relative_url }}),
-Paul calls evaluation one of the most important AI engineering skills at 38:41.
-He connects it to human review, correctness measurement, and validation sets. He
-also connects it to understanding generated code through measurement.
+[Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }})
+gives the clearest builder version in
+[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}).
+At 13:56, he describes generator-evaluator checks. At 23:00-25:25, he argues
+for representative gold tests that are still cheap enough to run often.
 
-In
-[Understanding the AI Engineer Role]({{ '/podcasts/s23e07-understanding-ai-engineer-role/' | relative_url }}),
-Nasser Qadri makes the same bridge from data science to AI engineering at
-7:45-7:55. He says precision, recall, accuracy, and statistical discipline still
-matter when agents replace traditional ML components.
+[Paul Iusztin]({{ '/people/pauliusztin/' | relative_url }}) puts the same work
+inside the AI engineer skill stack in
+[his AI engineering episode]({{ '/podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products/' | relative_url }}).
+At 38:41-41:39, evaluation appears with human review, correctness measurement,
+and validation sets. [Nasser Qadri]({{ '/people/nasserqadri/' | relative_url }})
+connects this back to statistical rigor in
+[Understanding the AI Engineer Role]({{ '/podcasts/s23e07-understanding-ai-engineer-role/' | relative_url }})
+at 7:45-7:55. Precision, recall, accuracy, and careful measurement still matter
+even when the product uses generative models or agents.
 
-## Judging Methods
+## Guest Differences
 
-Guests differ mostly on who or what should judge the result. Hugo argues that
-not every check needs an LLM judge. Teams can use structured output, regular
-expressions, and string matching for behavior that's easy to assert. Cheaper
-models and spreadsheets can also lower cost in
+Guests mostly differ on what should judge the system and where the workflow
+should spend money. Hugo's
 [Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }})
-at 24:39-24:59.
+discussion at 24:39-24:59 is cost-aware. Simple assertions, structured output,
+regular expressions, and string matching can be enough when the expected
+behavior is easy to check. Cheaper models and spreadsheets can also keep
+iteration affordable. His point is practical: save LLM-as-judge calls for cases
+where deterministic checks are too brittle.
 
-Aditya Gautam is more explicit about LLM judges in enterprise agent settings. In
+[Aditya Gautam]({{ '/people/adityagautam/' | relative_url }}) is more explicit
+about LLM judges in enterprise agent settings. In
 [The Future of AI Agents]({{ '/podcasts/s23e03-future-of-ai-agents/' | relative_url }}),
-he describes golden datasets, pass thresholds, and LLM judges trained on human
-data at 46:19-48:11. He also describes red teaming and guardrails, while still
-warning that LLM judges can be biased. Ranjitha Kulkarni draws another boundary in
-[Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}):
-agents don't need to replay the exact same reasoning path. The test should
-assert that the right outcome happened with the right tool use and parameters at
-51:17-57:23.
+he describes golden datasets, pass thresholds, and LLM judges trained against
+human labels at 46:19-50:18. Red teaming and guardrails appear in the same
+discussion. He also warns that judges can be biased, so the judge is part of
+the system to validate, not an oracle.
 
-## Gold Sets and Cost-Aware Iteration
+[Ranjitha Kulkarni]({{ '/people/ranjithakulkarni/' | relative_url }}) draws a
+different boundary for agents in
+[Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}).
+At 51:17-57:23, she argues that agent tests should evaluate system behavior,
+not whether the agent replayed one exact reasoning trace. The important test is
+whether the right outcome happened with the right tool calls and parameters.
 
-Teams usually start with a gold set of examples, and Hugo's episode connects the
-gold set to prompt iteration. Teams can eyeball early outputs, but reliable and
-consistent systems need examples that represent real user interactions. He also
-warns that oversized evaluation sets increase cost and runtime, which can slow
-iteration
-([Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}),
-23:00-25:25).
+## Evaluation Sets
 
-Paul Iusztin's discussion makes the same point through the older ML vocabulary
-of validation sets in
-[his AI engineering episode]({{ '/podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products/' | relative_url }})
-at 40:16-41:39. This framing is useful for data scientists moving into AI
-engineering. Even when teams outsource training to model providers, they still
-split data, check validation cases, and reason about probabilistic behavior.
+The archive's practical workflow starts with a small gold set drawn from real
+or realistic user tasks. Hugo connects this to prompt iteration in
+[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}).
 
-## Failure Analysis Before More Architecture
+Teams can eyeball early outputs. Reliable software eventually needs cases that
+represent the product's actual questions and documents. The set should also
+cover expected formats and failure modes. Large eval sets slow the loop. Every
+prompt, retrieval change, or model change becomes expensive to test.
 
-Teams use evaluation to decide where to work next, and Hugo's failure-analysis
-example is intentionally mundane. They categorize errors in a spreadsheet, rank
-them, and don't spend engineering time fixing formatting if the larger error
-class is retrieval. That discussion at 26:43-27:20 in
+Paul's
+[AI engineering episode]({{ '/podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products/' | relative_url }})
+uses the older ML vocabulary of validation sets at 40:16-41:39. That framing is
+useful for data scientists moving into AI engineering. Even when the base model
+comes from a provider, the product team still owns representative cases and
+data splits. It also owns labels and acceptance criteria. Use
+[RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }}) when the
+eval result is deciding whether to change prompts and retrieval or change model
+behavior through fine-tuning.
+
+## Human Review and Automated Checks
+
+Human review is most useful when the team is learning the failure taxonomy.
+Common failure types include unsupported answers, missing citations, and wrong
+tone. Unsafe advice, stale knowledge, broken formatting, and tool misuse also
+belong in the taxonomy.
+
+Hugo's spreadsheet-style failure
+analysis at 26:43-27:20 in
 [Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }})
-links LLM evaluation directly to [RAG]({{ '/wiki/rag/' | relative_url }}) design,
-chunking, ingestion quality, and retrieval relevance.
+shows the point. Teams categorize failures and rank the largest error classes.
+They avoid spending engineering time on minor formatting if the major problem
+is retrieval quality.
 
-This is also why the page belongs near
-[Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
-rather than only near model metrics. A bad answer can come from prompt wording,
-retrieval noise, missing metadata, or OCR errors. It can also come from an
-outdated index, a weak judge, or a tool failure. The workflow has to separate
-Teams have to separate those causes before they add agents, fine-tuning, or more
-complex orchestration.
+Teams use automated checks to make that review repeatable. Deterministic checks
+can validate JSON schema, exact fields, and required citations. They can also
+check forbidden strings, SQL syntax, tool parameters, and regular expressions.
 
-## Evaluating Agents as Software Systems
+Other checks need semantic judgment. Aditya's
+[Future of AI Agents]({{ '/podcasts/s23e03-future-of-ai-agents/' | relative_url }})
+discussion at 46:19-48:11 shows the LLM-judge version, but it also implies a
+second eval problem. Teams must compare automated judgments against human labels
+and watch for judge bias.
 
-Agent evaluation adds tool behavior to answer quality. Ranjitha Kulkarni says
-public benchmarks such as SQuAD evaluate model capability. They don't evaluate
-the deployed system, so teams need datasets that represent real users
+## RAG Evaluation
+
+RAG evaluation has to separate retrieval failures from generation failures. A
+bad answer can come from missing source documents, poor chunking, or weak
+embeddings. It can also come from loose metadata filters, stale indexes, prompt
+wording, or a model that ignores the retrieved evidence. Hugo's
+failure-analysis example at
+26:43-27:20 in
+[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }})
+is useful because it asks where the next fix belongs before adding more
+architecture.
+
+[Atita Arora]({{ '/people/atitaarora/' | relative_url }}) gives the search-side
+version in
+[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}).
+At 38:24-48:09, she connects chunk size, overlap, and embedding choice.
+Retrieval strategy, answer quality, and citations belong in the same loop.
+Human-in-the-loop evaluation belongs there too. That
+makes LLM eval part of
+[Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
+and [Production Search Evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }}),
+not only model scoring.
+
+The same evidence keeps [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
+close to source trust. The answer quality check should ask whether the answer
+is useful and whether it's grounded in the retrieved material. The retrieval
+check should ask whether the right evidence was available to the model before
+generation.
+
+## Agent and Tool Evaluation
+
+Agent evaluation adds software behavior to answer quality. Ranjitha says public
+benchmarks such as SQuAD evaluate model capability, not the deployed system
 ([Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}),
-51:17-51:42). She then frames agent tests like software tests. Teams mock tools,
-assert outputs, and check whether the agent calls the right systems without
-depending on external services at test time.
+51:17-51:42). Teams therefore need custom datasets that represent user goals,
+tool constraints, and product workflows.
 
-The important archive nuance is that agent tests should be outcome based. A
-calendar agent can reach the same goal through different paths. Teams should
-check whether the calendar invite has the right parameters. They shouldn't
-require the internal trace to exactly match a fixed script
-([Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}),
-56:02-57:23). This connects the page to
-[agent engineering]({{ '/wiki/agent-engineering/' | relative_url }}),
-[orchestration]({{ '/wiki/orchestration/' | relative_url }}), and
-[testing]({{ '/wiki/testing/' | relative_url }}).
+Her agent testing workflow is close to ordinary
+[testing]({{ '/wiki/testing/' | relative_url }}) and
+[orchestration]({{ '/wiki/orchestration/' | relative_url }}). Mock external
+tools, assert outputs, check tool names and parameters, and keep integration
+tests for the real systems. At 56:02-57:23 in
+[Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}),
+the calendar-agent example shows why outcome assertions matter more than exact
+trace matching. Several valid action paths can create the same correct invite.
 
-## Production Feedback and Governance
+## Production Feedback Loops
 
-Recent agent episodes extend evaluation beyond offline test sets. Aditya Gautam
-describes explicit feedback, such as thumbs up or thumbs down. He also describes
-implicit feedback when a user repeats or reframes a query because the answer
-wasn't useful. He then connects these signals to synthetic data and human
-labeling. Fine-tuning and updated evaluation datasets can follow from the same
-signals
+Offline eval sets decay unless production behavior feeds them. Aditya describes
+explicit feedback, such as thumbs up or thumbs down. He also describes implicit
+feedback, such as a user repeating or reframing a query after a bad answer
 ([The Future of AI Agents]({{ '/podcasts/s23e03-future-of-ai-agents/' | relative_url }}),
-38:49-42:20).
+38:49-42:20). Those signals can become synthetic data, human labeling work, or
+new gold cases. They can also lead to updated prompts, fine-tuning examples, or
+new guardrail tests.
 
-The same episode adds governance requirements at 30:00-32:27. Sensitive settings
-such as healthcare and finance need logging, auditability, and data lineage.
-They also need guardrails and compliance checks. That means an LLM evaluation
-workflow isn't complete when a local test passes.
+Production feedback also needs traces. Hugo discusses logs and traces at 27:38
+in
+[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}).
+The team has to reconstruct whether the wrong output came from retrieval or
+context packaging. The problem can also come from tool use or generation. This
+is where LLM evaluation meets [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }})
+and [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }}).
 
-In production-facing systems, the workflow also needs traces, monitoring, and
-red-team cases. Teams also need a way to turn user failure signals back into
-cases the next model, prompt, or agent version must pass.
+## Governance and Guardrails
+
+High-risk LLM workflows need more than accuracy checks. Aditya's enterprise
+agent discussion at 30:00-32:27 in
+[The Future of AI Agents]({{ '/podcasts/s23e03-future-of-ai-agents/' | relative_url }})
+adds logging, auditability, data lineage, and guardrails. Compliance also
+matters for sensitive settings such as healthcare and finance. That connects
+evaluation to
+[Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }}).
+
+Guardrails can be evaluated like any other product behavior. Unsafe requests
+should be refused or routed, and sensitive data shouldn't leak through
+retrieved context. Citations should reference allowed sources. Tool calls should
+stay inside permission boundaries. Red-team cases then become part of the same
+regression suite as ordinary product examples.
 
 ## Related Pages
 
@@ -170,5 +207,8 @@ Continue with these related pages:
 - [Evaluation]({{ '/wiki/evaluation/' | relative_url }})
 - [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
 - [RAG]({{ '/wiki/rag/' | relative_url }})
-- [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }})
+- [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
+- [RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }})
+- [Production Search Evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }})
 - [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }})
+- [Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }})
