@@ -7,7 +7,7 @@
     "persons": 438,
     "topics": 146,
     "nodes": 1021,
-    "links": 10384
+    "links": 10367
   },
   "nodes": [
     {
@@ -704,17 +704,6 @@
       "keyword": "mlops zoomcamp"
     },
     {
-      "id": "article:guide:what-is-mlops",
-      "type": "article",
-      "collection": "guide",
-      "label": "MLOps: A Practical Definition from Production ML Work",
-      "title": "MLOps: A Practical Definition from Production ML Work",
-      "url": "/guides/what-is-mlops/",
-      "count": 1,
-      "search": "MLOps: A Practical Definition from Production ML Work MLOps is the practice of turning machine learning models into reproducible, monitored, governed production systems.",
-      "keyword": "what is mlops"
-    },
-    {
       "id": "article:guide:product-analyst",
       "type": "article",
       "collection": "guide",
@@ -724,6 +713,17 @@
       "count": 1,
       "search": "Product Analyst Job Description: Responsibilities, Skills, and Role Boundaries A practical, podcast backed guide to the product analyst role: product analytics responsibilities, event tracking, tracking plans, A/B testing, analytics engineering boundaries, and job description examples.",
       "keyword": "product analyst"
+    },
+    {
+      "id": "article:comparison:product-owner-vs-product-manager",
+      "type": "article",
+      "collection": "comparison",
+      "label": "Product Owner vs Product Manager: Data Product Role Boundaries",
+      "title": "Product Owner vs Product Manager: Data Product Role Boundaries",
+      "url": "/comparisons/product-owner-vs-product-manager/",
+      "count": 1,
+      "search": "Product Owner vs Product Manager: Data Product Role Boundaries A podcast grounded comparison of product owner, product manager, and domain owner responsibilities in data product and production ML teams.",
+      "keyword": "data product owner"
     },
     {
       "id": "article:guide:solopreneur-data-scientist",
@@ -10600,6 +10600,126 @@
       "weight": 5
     },
     {
+      "source": "article:comparison:product-owner-vs-product-manager",
+      "target": "person:annahannemann",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:product-owner-vs-product-manager",
+      "target": "person:geojolly",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:product-owner-vs-product-manager",
+      "target": "person:saramenefee",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:product-owner-vs-product-manager",
+      "target": "podcast:building-data-products-product-owner-vs-product-manager",
+      "kind": "article-link",
+      "weight": 26
+    },
+    {
+      "source": "article:comparison:product-owner-vs-product-manager",
+      "target": "podcast:ml-product-manager-and-mlops-platform-strategy",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:product-owner-vs-product-manager",
+      "target": "podcast:product-designer-to-data-product-manager",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:product-owner-vs-product-manager",
+      "target": "wiki:data-product-adoption",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:product-owner-vs-product-manager",
+      "target": "wiki:data-product-adoption",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:product-owner-vs-product-manager",
+      "target": "wiki:data-product-management",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:comparison:product-owner-vs-product-manager",
+      "target": "wiki:data-product-management",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:product-owner-vs-product-manager",
+      "target": "wiki:data-products",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:product-owner-vs-product-manager",
+      "target": "wiki:data-products",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:product-owner-vs-product-manager",
+      "target": "wiki:data-teams",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:product-owner-vs-product-manager",
+      "target": "wiki:data-teams",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:product-owner-vs-product-manager",
+      "target": "wiki:ml-product-manager-role",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:product-owner-vs-product-manager",
+      "target": "wiki:ml-product-manager-role",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:product-owner-vs-product-manager",
+      "target": "wiki:mlops",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:product-owner-vs-product-manager",
+      "target": "wiki:mlops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:product-owner-vs-product-manager",
+      "target": "wiki:product-analytics",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:product-owner-vs-product-manager",
+      "target": "wiki:product-analytics",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
       "source": "article:guide:ai-powered-business-intelligence",
       "target": "podcast:data-governance-data-access-management",
       "kind": "article-link",
@@ -16091,6 +16211,12 @@
     },
     {
       "source": "article:guide:data-product-manager",
+      "target": "article:comparison:product-owner-vs-product-manager",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:guide:data-product-manager",
       "target": "article:guide:data-product-manager-role",
       "kind": "article-link",
       "weight": 2
@@ -16178,6 +16304,12 @@
       "target": "wiki:product-analytics",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "article:guide:data-product-manager-role",
+      "target": "article:comparison:product-owner-vs-product-manager",
+      "kind": "article-link",
+      "weight": 2
     },
     {
       "source": "article:guide:data-product-manager-role",
@@ -21587,12 +21719,6 @@
     },
     {
       "source": "article:guide:mlops-certification",
-      "target": "article:guide:what-is-mlops",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-certification",
       "target": "person:dannyleybzon",
       "kind": "article-link",
       "weight": 2
@@ -21739,7 +21865,7 @@
       "source": "article:guide:mlops-certification",
       "target": "wiki:mlops",
       "kind": "article-link",
-      "weight": 6
+      "weight": 8
     },
     {
       "source": "article:guide:mlops-certification",
@@ -21840,12 +21966,6 @@
     {
       "source": "article:guide:mlops-course",
       "target": "article:guide:mlops-frameworks",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:mlops-course",
-      "target": "article:guide:what-is-mlops",
       "kind": "article-link",
       "weight": 2
     },
@@ -22890,228 +23010,6 @@
     {
       "source": "article:guide:solopreneur-data-scientist",
       "target": "wiki:technical-writing",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:what-is-mlops",
-      "target": "person:dannyleybzon",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:what-is-mlops",
-      "target": "person:linaweichbrodt",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:what-is-mlops",
-      "target": "person:mariavechtomova",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:what-is-mlops",
-      "target": "person:nemanjaradojkovic",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:what-is-mlops",
-      "target": "person:raphaelhoogvliets",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:what-is-mlops",
-      "target": "person:rishabhbhargava",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:what-is-mlops",
-      "target": "person:simonstiebellehner",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:what-is-mlops",
-      "target": "person:theofilospapapanagiotou",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:what-is-mlops",
-      "target": "person:valeriybabushkin",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:what-is-mlops",
-      "target": "podcast:building-production-ml-platform-and-mlops-team",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:what-is-mlops",
-      "target": "podcast:crisp-dm",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:what-is-mlops",
-      "target": "podcast:human-centered-mlops-and-model-monitoring",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:what-is-mlops",
-      "target": "podcast:machine-learning-system-design-interview",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:what-is-mlops",
-      "target": "podcast:mlops-and-ml-engineering-in-finance",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:what-is-mlops",
-      "target": "podcast:mlops-at-scale-reproducibility-adoption",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:what-is-mlops",
-      "target": "podcast:mlops-kubeflow-model-monitoring",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:what-is-mlops",
-      "target": "podcast:mlops-model-monitoring-data-observability",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:what-is-mlops",
-      "target": "podcast:pragmatic-and-standardized-mlops",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:what-is-mlops",
-      "target": "podcast:production-ml-mlops-and-data-team-building",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:what-is-mlops",
-      "target": "wiki:data-observability",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:what-is-mlops",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:what-is-mlops",
-      "target": "wiki:dataops",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:what-is-mlops",
-      "target": "wiki:dataops",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:what-is-mlops",
-      "target": "wiki:experiment-tracking",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:what-is-mlops",
-      "target": "wiki:machine-learning-system-design",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:what-is-mlops",
-      "target": "wiki:machine-learning-system-design",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:what-is-mlops",
-      "target": "wiki:mlops",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:what-is-mlops",
-      "target": "wiki:mlops",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:what-is-mlops",
-      "target": "wiki:mlops-roadmap",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:what-is-mlops",
-      "target": "wiki:mlops-roadmap",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:what-is-mlops",
-      "target": "wiki:mlops-tools",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:what-is-mlops",
-      "target": "wiki:mlops-vs-devops",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:what-is-mlops",
-      "target": "wiki:model-monitoring",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:what-is-mlops",
-      "target": "wiki:model-monitoring",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:what-is-mlops",
-      "target": "wiki:model-registry",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:what-is-mlops",
-      "target": "wiki:reproducibility",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:what-is-mlops",
-      "target": "wiki:reproducibility",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -50561,6 +50459,12 @@
     },
     {
       "source": "wiki:data-product-management",
+      "target": "article:comparison:product-owner-vs-product-manager",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-product-management",
       "target": "article:guide:data-product-manager",
       "kind": "wiki-link",
       "weight": 4
@@ -62219,12 +62123,6 @@
     },
     {
       "source": "wiki:mlops-engineer",
-      "target": "article:guide:what-is-mlops",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:mlops-engineer",
       "target": "person:dannyleybzon",
       "kind": "wiki-link",
       "weight": 2
@@ -62401,7 +62299,7 @@
       "source": "wiki:mlops-engineer",
       "target": "wiki:mlops",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "wiki:mlops-engineer",

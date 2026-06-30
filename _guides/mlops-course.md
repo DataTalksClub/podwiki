@@ -287,9 +287,8 @@ and clear ownership.
 
 Use these pages depending on what you need next:
 
-- [MLOps]({{ '/wiki/mlops/' | relative_url }}) for the archive-backed topic page.
-- [What's MLOps?]({{ '/guides/what-is-mlops/' | relative_url }}) for a short
-  definition.
+- [MLOps]({{ '/wiki/mlops/' | relative_url }}) for the archive-backed topic page
+  and short definition.
 - [MLOps Courses]({{ '/guides/mlops-courses/' | relative_url }}) for the
   plural course-comparison article.
 - [MLOps Roadmap]({{ '/wiki/mlops-roadmap/' | relative_url }}) for the learning

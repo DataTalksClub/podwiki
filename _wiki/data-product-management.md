@@ -105,6 +105,7 @@ Adjacent wiki and article pages:
 - [Data Product Adoption]({{ '/wiki/data-product-adoption/' | relative_url }})
 - [Data Product Manager]({{ '/guides/data-product-manager/' | relative_url }})
 - [Data Product Manager Role]({{ '/guides/data-product-manager-role/' | relative_url }})
+- [Product Owner vs Product Manager]({{ '/comparisons/product-owner-vs-product-manager/' | relative_url }})
 - [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }})
 - [A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }})
 - [Experimentation and Causal Inference]({{ '/wiki/experimentation-and-causal-inference/' | relative_url }})
@@ -182,6 +183,9 @@ Hannemann draws the clearest title boundary. In her examples, a product owner
 often protects and guides delivery teams. A product manager may own broader
 strategy. A domain owner aligns data science work across business areas
 ([15:11-22:08]({{ '/podcasts/building-data-products-product-owner-vs-product-manager/' | relative_url }})).
+Use
+[Product Owner vs Product Manager]({{ '/comparisons/product-owner-vs-product-manager/' | relative_url }})
+for the dedicated comparison.
 
 Her practical examples also keep ML from becoming the default answer. An
 operations problem may call for a manual cleanup, an MVP, or staged portfolio

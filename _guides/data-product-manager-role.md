@@ -186,6 +186,9 @@ owner and product manager is often unclear across organizations. In her view, a
 product owner is closer to the CEO of the product. A product manager may have
 less decision power and listen more to tech leads and teams
 ([15:11-21:45]({{ '/podcasts/building-data-products-product-owner-vs-product-manager/' | relative_url }})).
+Use
+[Product Owner vs Product Manager]({{ '/comparisons/product-owner-vs-product-manager/' | relative_url }})
+for the full comparison.
 
 The team needs someone with authority to decide whether the product is good
 enough to ship. They also need someone who can decide whether the team needs two

@@ -124,6 +124,8 @@ product judgment. Without that owner, the team can build technically correct
 dashboards, models, or tables that nobody uses.
 
 For a responsibility-by-responsibility breakdown, read
-[the companion role article]({{ '/guides/data-product-manager-role/' | relative_url }}),
-and for the broader reference page, use
+[the companion role article]({{ '/guides/data-product-manager-role/' | relative_url }}).
+Use
+[Product Owner vs Product Manager]({{ '/comparisons/product-owner-vs-product-manager/' | relative_url }})
+for the title boundary. For the broader reference page, use
 [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }}).

@@ -296,7 +296,7 @@ metrics, templates, and feedback loops belong in the same answer
 ## Related Reading
 
 Use [MLOps]({{ '/wiki/mlops/' | relative_url }}) for the broader operating
-discipline, and use the [short MLOps definition]({{ '/guides/what-is-mlops/' | relative_url }})
+discipline, and use the [MLOps reference page]({{ '/wiki/mlops/' | relative_url }})
 for the basics. [MLOps Architecture]({{ '/guides/mlops-architecture/' | relative_url }})
 maps the system. [MLOps Tools]({{ '/wiki/mlops-tools/' | relative_url }})
 covers stack categories.

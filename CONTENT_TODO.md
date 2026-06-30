@@ -231,6 +231,7 @@ comparison outcomes:
 Existing pages:
 
 - `_comparisons/dataops-vs-data-engineering.md`
+- `_comparisons/product-owner-vs-product-manager.md`
 
 Candidate pages:
 
@@ -238,7 +239,6 @@ Candidate pages:
 - Data analyst vs analytics engineer
 - Machine learning engineer vs data scientist
 - Data product manager vs product manager
-- Product owner vs product manager
 - Data product owner vs data product manager
 - MLOps vs DevOps
 - DataOps vs MLOps
@@ -276,8 +276,6 @@ Start with this batch when expanding the content set.
   engineering.
 - Add comparison pages for data engineer vs data scientist, data analyst vs
   analytics engineer, MLOps vs DevOps, ETL vs ELT, and RAG vs fine-tuning.
-- Add the CSV-backed comparison gap for product owner vs product manager using
-  `building-data-products-product-owner-vs-product-manager.md`.
 - Evaluate `dataops platforms` as either `_wiki/dataops-platforms.md` or a
   guide that links to DataOps, platform engineering, and data engineering
   platforms.
@@ -285,6 +283,9 @@ Start with this batch when expanding the content set.
   page. The keyword is a bare concept, so the wiki page should own it.
 - Treat Delta Lake as a wiki concept. If an editorial page is needed, prefer a
   comparison such as Delta Lake vs Apache Iceberg instead of a duplicate guide.
+  The strongest source is `trends-in-modern-data-engineering.md`, especially
+  the Iceberg, table-format, catalog, and Delta/Hudi/Iceberg comparison
+  chapters.
 - Consider `_guides/ab-testing-podcast.md` as a listening guide if the podcast
   archive angle is useful.
 - Only create a machine learning newsletter guide if it maps to a real

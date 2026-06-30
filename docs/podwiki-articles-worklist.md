@@ -110,7 +110,7 @@ section still need the same merge/delete decision.
 | product-analyst | product-analytics | or data-analyst-role |
 | software-engineer-to-machine-learning | software-engineer-to-machine-learning | **done: slug collision removed** |
 | solopreneur-data-scientist | entrepreneurship | |
-| what-is-mlops | mlops | |
+| MLOps definition keyword variant | mlops | **done: handled by the MLOps wiki page; keep "what is mlops" only as a keyword variant** |
 
 ## D. KEEP-NEW — additive pages to build (2)
 

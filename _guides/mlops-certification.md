@@ -51,7 +51,7 @@ For stack choices, compare this article with
 [MLOps Tools]({{ '/wiki/mlops-tools/' | relative_url }}),
 [MLOps Frameworks]({{ '/guides/mlops-frameworks/' | relative_url }}), and
 [MLOps Course]({{ '/guides/mlops-course/' | relative_url }}). For the short
-definition, use the [MLOps definition article]({{ '/guides/what-is-mlops/' | relative_url }}).
+definition, use the [MLOps reference page]({{ '/wiki/mlops/' | relative_url }}).
 
 ## Useful Cases
 
