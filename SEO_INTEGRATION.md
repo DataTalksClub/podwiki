@@ -122,8 +122,8 @@ wiki page already owns.
 
 ## 6. Action checklist
 
-- [ ] Main repo `robots.txt`: add `Sitemap: https://datatalks.club/podwiki/sitemap.xml`
-- [ ] Main repo: add nav/footer link to `/podwiki/`; podwiki links back
+- [x] Main repo `robots.txt`: add `Sitemap: https://datatalks.club/podwiki/sitemap.xml`
+- [x] Main repo: add nav/footer link to `/podwiki/`; podwiki links back
 - [x] Verify CI sitemap `<loc>` includes `/podwiki/`; if not, set `baseurl: "/podwiki"` in `_config.yml`
 - [x] Add self-referencing canonical + OG tags to podwiki `_layouts/default.html`
 - [x] Canonicalize podwiki people → main `/people/`; podcast summaries → main `/podcast/`
