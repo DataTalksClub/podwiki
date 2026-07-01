@@ -38,7 +38,7 @@ you're interviewing for. Then it turns your CV and projects into evidence.
 
 Case practice, technical drills, stories, and offer talks support that role.
 
-## Common Definition
+## Role Fit, Written Evidence, and Interview Performance
 
 Guests describe data scientist interview preparation as building role-specific
 proof. The first proof is role fit. Luke's recruiter workflow in
@@ -61,9 +61,8 @@ personal contribution visible in
 
 The third proof is interview performance. Luke's later episode,
 [Master Machine Learning and Data Science Interviews]({{ '/podcasts/machine-learning-data-science-interview-prep/' | relative_url }}),
-breaks the process into recruiter screening and intro interviews. It also
-covers technical components, expectation alignment, and fundamentals-first
-practice. [Nick
+separates recruiter screening from intro interviews. It also covers technical
+components, expectation alignment, and fundamentals-first practice. [Nick
 Singh]({{ '/people/nicksingh/' | relative_url }}) adds the behavioral and
 portfolio layer in
 [Ace Data Interviews]({{ '/podcasts/data-interview-behavioral-and-portfolio-prep-guide/' | relative_url }}).
@@ -77,10 +76,10 @@ and baselines. Labels and validation also matter, while serving, monitoring,
 and fallbacks appear in
 [ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }}).
 
-## Guest Differences
+## Recruiter, Candidate, and ML-Heavy Prep
 
 Guests agree that interview prep should be evidence-driven, but they put weight
-on different parts of the process. Luke emphasizes market segmentation,
+on different interview stages. Luke emphasizes market segmentation,
 tailored applications, and direct outreach in
 [Land Data Scientist Roles]({{ '/podcasts/get-data-scientist-job/' | relative_url }}).
 In
@@ -108,10 +107,11 @@ Alicja gives the hiring-side view. In
 [Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }}),
 she shows why responsibilities and dates matter before deeper technical rounds.
 Examples, education signals, and salary communication matter too. She also
-notes that analyst and data scientist processes can overlap when the job
-responsibilities overlap. That connects this page to
-[Data Analyst Role]({{ '/wiki/data-analyst-role/' | relative_url }}) and
-[Data Science]({{ '/wiki/data-science/' | relative_url }}).
+notes that analyst and data scientist interview tracks can overlap when the job
+responsibilities overlap. Use [Data Analyst
+Role]({{ '/wiki/data-analyst-role/' | relative_url }}) and [Data
+Science]({{ '/wiki/data-science/' | relative_url }}) when the interview sits
+between analyst and data scientist expectations.
 
 Valerii's advice applies when the "data scientist" role is closer to applied
 ML or production ML. In
@@ -123,7 +123,7 @@ the branch connected to
 [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
 and [MLOps]({{ '/wiki/mlops/' | relative_url }}).
 
-## Target The Role Before Practicing
+## Target the Role Before Practicing
 
 Start by translating each job description into interview risks. A
 product-facing data scientist should prepare business-goal framing,
@@ -157,7 +157,7 @@ That makes
 [Career Transitions in Data]({{ '/wiki/career-transitions-in-data/' | relative_url }})
 part of interview prep, not a separate personal-history concern.
 
-## Build Screenable CV And Portfolio Evidence
+## Build Screenable CV and Portfolio Evidence
 
 The CV should make the next interview easy to justify. Luke's
 [Land Data Scientist Roles]({{ '/podcasts/get-data-scientist-job/' | relative_url }})
@@ -170,7 +170,7 @@ Oleg adds in
 that the CV should behave like a landing page. Remove noise, highlight personal
 contribution, and tailor the page to the job description.
 
-Alicja's screening process explains why this matters. In
+Alicja's screening criteria explain why this matters. In
 [Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }}),
 she screens for responsibilities and dates. She also looks for clarity and
 examples. She warns
@@ -187,7 +187,7 @@ Oleg's take-home discussion in
 adds a time-management constraint. Project work should be useful evidence, but
 the candidate still needs to judge the return on investment.
 
-## Prepare Recruiter And Intro Screens
+## Prepare Recruiter and Intro Screens
 
 Recruiter calls are alignment rounds. Luke describes stage-zero recruiter
 screening as role-fit filtering in
@@ -212,7 +212,7 @@ while Alicja covers salary bands and transparency. She also covers high salary
 requests and market research in
 [Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }}).
 
-## Practice Technical And Case Rounds
+## Practice Technical and Case Rounds
 
 For standard data scientist rounds, practice SQL, coding, and statistics. Add
 ML fundamentals, model evaluation, and project defense in the role's context.
@@ -239,7 +239,7 @@ monitoring, distribution shift, and fallback behavior. His warning
 about when to avoid ML is also interview prep. A strong answer can reject an ML
 solution when the business problem doesn't need one.
 
-## Prepare Behavioral Stories And Closing
+## Prepare Behavioral Stories and Closing
 
 Behavioral preparation is technical credibility in story form. Nick describes
 behavioral interviews as tests of ownership and communication. They also test
@@ -259,7 +259,7 @@ also connects behaviorals to intro interviews. The first screen often tests
 whether your story is clear enough to pass forward.
 
 Include closing in the roadmap because guests treat rejection and offers as
-part of the hiring process. Salary and etiquette matter too. Oleg covers
+part of the hiring loop. Salary and etiquette matter too. Oleg covers
 rejection follow-up, offer components, market comparison, and negotiation in
 [Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }}).
 
@@ -267,11 +267,11 @@ Alicja covers salary conversations and high salary requests. She also covers
 market research and offer communication in
 [Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }}).
 Use [Salary Negotiation]({{ '/wiki/salary-negotiation/' | relative_url }}) when
-the interview process reaches compensation and competing offers.
+interviews reach compensation and competing offers.
 
-## Practical Roadmap
+## Preparation Sequence
 
-Use this podcast-backed sequence as a preparation checklist:
+Use this sequence as a preparation checklist:
 
 1. Choose the target role. Compare product data science with analytics-heavy
    data science and ML-heavy data science. Use
@@ -320,7 +320,7 @@ Use this podcast-backed sequence as a preparation checklist:
    [Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }})
    for offer etiquette.
 
-## Readiness Milestones
+## Interview Readiness Milestones
 
 Application readiness means a recruiter can connect the CV to a real data
 scientist role. Luke looks for industry and use-case alignment. He also checks
@@ -333,7 +333,7 @@ adds that responsibilities and examples are stronger than buzzwords.
 Screen readiness means the candidate can explain role fit and motivation. They
 can also explain constraints and salary context.
 
-They should know what kind of technical process they're entering. Luke covers
+They should know which technical rounds they're entering. Luke covers
 recruiter screening and intro interviews in
 [Master Machine Learning and Data Science Interviews]({{ '/podcasts/machine-learning-data-science-interview-prep/' | relative_url }}).
 The same episode covers expectation alignment and interviewer research. Alicja
@@ -364,7 +364,7 @@ discussion, and offer etiquette appear in
 and
 [Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }}).
 
-## Related Pages
+## Related Interview and Hiring Pages
 
 Use these pages for adjacent role, project, and hiring context:
 

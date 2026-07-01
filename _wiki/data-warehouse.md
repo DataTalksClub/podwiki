@@ -34,58 +34,13 @@ She contrasts ETL with ELT. She explains why teams may load raw data before
 transforming it. She also places warehouses beside marts and lakes.
 Orchestration, CDC, and reverse flows stay in the same map.
 
-[Adrian
-Brudaru]({{ '/people/adrianbrudaru/' | relative_url }})
+[Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }})
 updates the boundary in
 [Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }})
 through Apache Iceberg and catalogs. He also covers open table formats and
 lakehouse tradeoffs.
 
-## Starting Points
-
-Use these topic paths to place the warehouse in context:
-
-- [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}) for the
-  stack around warehouse analytics.
-- [ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }}) for the load-first
-  versus transform-first tradeoff.
-- [Data Lake]({{ '/wiki/data-lake/' | relative_url }}) and
-  [Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
-  for storage boundaries.
-- [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
-  and [dbt]({{ '/wiki/dbt/' | relative_url }}) for warehouse-side modeling,
-  tests, documentation, and BI-facing tables.
-- [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
-  and [Data Observability for Data Engineering]({{ '/guides/data-observability-for-data-engineering/' | relative_url }})
-  for freshness, schema, lineage, and trust.
-- [Data Governance]({{ '/wiki/data-governance/' | relative_url }}) for
-  ownership, access, and policy.
-- [FinOps for Data Engineers]({{ '/wiki/finops-for-data-engineers/' | relative_url }})
-  for warehouse cost ownership, tagging, reservations, and spend reporting.
-- [Data Product Adoption]({{ '/wiki/data-product-adoption/' | relative_url }})
-  and [Reverse ETL]({{ '/wiki/reverse-etl/' | relative_url }}) for what happens
-  after modeled warehouse data reaches dashboards or business tools.
-
-Core podcast discussions:
-
-- [ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})
-  with [Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }})
-- [Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }})
-  with [Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }})
-- [Analytics Engineer Skills and Tools]({{ '/podcasts/analytics-engineer-skills-tools/' | relative_url }})
-  with [Victoria Perez Mola]({{ '/people/victoriaperezmola/' | relative_url }})
-- [From Marketing to Analytics Engineering]({{ '/podcasts/from-marketing-to-analytics-engineering-sql-dbt-career-switch/' | relative_url }})
-  with [Nikola Maksimovic]({{ '/people/nikolamaksimovic/' | relative_url }})
-- [Data Engineering Job Prep and Interview Guide]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }})
-  with [Jeff Katz]({{ '/people/jeffkatz/' | relative_url }})
-- [Gloria Quiceno's data engineering job episode]({{ '/podcasts/get-data-analytics-and-data-engineering-job/' | relative_url }})
-  with [Gloria Quiceno]({{ '/people/gloriaquiceno/' | relative_url }})
-- [FinOps for Data Engineers]({{ '/podcasts/finops-for-data-engineers/' | relative_url }})
-  with [Eddy Zulkifly]({{ '/people/eddyzulkifly/' | relative_url }})
-- [Last-Mile Data Delivery]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }})
-  with [Caitlin Moorman]({{ '/people/caitlinmoorman/' | relative_url }})
-
-## Common Definition
+## Modeled Analytical Storage
 
 Guests usually describe a warehouse by what teams do with it. A warehouse holds
 business-facing analytical data, not just copied source tables. Raw records may
@@ -93,18 +48,18 @@ arrive first. Analysts and analytics engineers then model customer and order
 tables. They also model events, funnels, finance facts, and dimensions into
 tables that people can reuse.
 
-Kwong's ELT discussion makes this practical. At 7:57-12:39, she explains that
-loading first gives analysts more flexibility because they can add new
+Kwong makes this practical in her ELT discussion. At 7:57-12:39, she explains
+that loading first gives analysts more flexibility because they can add new
 warehouse transformations without asking engineers to rebuild extraction code.
 At 15:30-18:47, she separates warehouses from marts. Warehouses hold the
 broader analytical layer, while data marts serve narrower consumption needs
 ([ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})).
 
-The analytics engineering episodes add the modeling layer. [Victoria Perez
-Mola]({{ '/people/victoriaperezmola/' | relative_url }}) ties daily analytics
-engineering work to data modeling, pipelines, and data quality. Looker and
-Snowflake sit in the same toolstack. She also explains dbt through SQL
-transformations, version control, and tests. She describes the DAG too
+[Victoria Perez Mola]({{ '/people/victoriaperezmola/' | relative_url }}) adds
+the modeling layer by tying daily analytics engineering work to data modeling,
+pipelines, and data quality. Looker and Snowflake sit in the same tool stack.
+She also explains dbt through SQL transformations, version control, and tests.
+She describes the DAG too
 ([Analytics Engineer Skills and Tools]({{ '/podcasts/analytics-engineer-skills-tools/' | relative_url }}),
 4:05-10:04).
 
@@ -114,7 +69,7 @@ Redshift and Airflow. It also uses Airbyte and Snowplow
 ([From Marketing to Analytics Engineering]({{ '/podcasts/from-marketing-to-analytics-engineering-sql-dbt-career-switch/' | relative_url }}),
 18:34-30:28).
 
-## Guest Differences
+## Warehouse and Lakehouse Boundaries
 
 Kwong favors the warehouse as an ELT workbench. Her strongest argument is
 autonomy because after data arrives, SQL users can cast types and join sources.
@@ -131,10 +86,9 @@ access, and lineage sit in that split too.
 Teams can combine open storage with
 warehouse-like behavior and reduce lock-in
 ([Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}),
-18:17-23:41 and 49:42). Use
-[Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
-when the question is whether trust should live in a managed warehouse or in an
-open table-format platform.
+18:17-23:41 and 49:42). Teams choosing between managed warehouse trust and an
+open table-format platform can start with [Data Warehouse vs Data
+Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }}).
 
 Perez Mola and Maksimovic focus less on the storage product and more on the
 modeled layer that users see. Perez Mola treats dbt and tests as role-defining
@@ -190,7 +144,7 @@ models or BI-ready tables inside the warehouse
 ([ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
 15:30-18:47).
 
-## ELT, dbt, and BI
+## Warehouse Modeling with ELT, dbt, and BI
 
 Teams using warehouse-centered ELT usually load source data and transform it
 with SQL. They test it, document it, and expose it through BI or activation
@@ -202,8 +156,8 @@ flows fit into the same stack
 
 dbt matters because it puts software-engineering habits around SQL models. Perez
 Mola explains dbt through transformations, version control, tests, and a DAG.
-She also links the work to Looker and Snowflake. Those modeled tables become usable
-reporting interfaces rather than hidden SQL files
+She also links the work to Looker and Snowflake. Those modeled tables become
+usable reporting interfaces rather than hidden SQL files
 ([Analytics Engineer Skills and Tools]({{ '/podcasts/analytics-engineer-skills-tools/' | relative_url }}),
 6:49-10:04 and 36:44-50:46).
 
@@ -214,7 +168,7 @@ into reusable structure, not just runnable queries
 ([From Marketing to Analytics Engineering]({{ '/podcasts/from-marketing-to-analytics-engineering-sql-dbt-career-switch/' | relative_url }}),
 18:34-33:46 and 38:27-41:50).
 
-## Cost, Governance, and Reliability
+## Warehouse Cost, Governance, and Reliability
 
 Warehouses concentrate compute and storage, so teams need
 [cost discipline]({{ '/wiki/finops-for-data-engineers/' | relative_url }}).
@@ -235,12 +189,12 @@ problem. Teams create the same problem when transformations are undocumented
 ([ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
 21:22 and 43:02).
 
-Use
-[Data Governance]({{ '/wiki/data-governance/' | relative_url }}) for ownership,
-access, definitions, and policy. Use
-[Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
-for freshness, schema, and lineage. Use the same page for tests and incident
-signals.
+[Data Governance]({{ '/wiki/data-governance/' | relative_url }}) covers
+warehouse ownership and policy decisions, including access and shared
+definitions. [Data Quality and
+Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
+covers freshness and schema checks. It also covers lineage plus tests and
+incident signals.
 
 [Gloria Quiceno]({{ '/people/gloriaquiceno/' | relative_url }}) gives a career
 example with implementation detail. Her episode connects data engineering work
@@ -250,10 +204,10 @@ appear there too.
 It also includes a BI platform rebuild. That rebuild saved money and created a
 centralized source of truth
 ([Gloria Quiceno's data engineering job episode]({{ '/podcasts/get-data-analytics-and-data-engineering-job/' | relative_url }}),
-7:46-21:25 plus 36:20-45:29 and 50:15-53:34). Her story ties warehouse work to
+7:46-21:25 plus 36:20-45:29 and 50:15-53:34). Quiceno ties warehouse work to
 practical reliability, not only architecture diagrams.
 
-## Learning and Hiring Signals
+## Warehouse Skills in Data Careers
 
 Warehouse literacy shows up in career episodes because many data roles depend
 on analytical storage. [Jeff Katz]({{ '/people/jeffkatz/' | relative_url }})
@@ -261,7 +215,7 @@ names Python plus SQL among the core skills for data engineering candidates. He
 names Docker too. Airflow and data warehouses also matter.
 
 He also brings up OLTP versus OLAP, while views and materialized views appear
-too. The same interview covers take-home projects
+too. He also covers take-home projects
 ([Data Engineering Job Prep and Interview Guide]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }}),
 1:20-11:24 and 19:57-23:13).
 
@@ -270,17 +224,44 @@ engineers. Useful warehouse practice means more than connecting a dashboard.
 Build tables with a clear grain. Document metric definitions. Add tests and
 explain why a consumer should trust the model.
 
-These habits link warehouse skills to
+Those warehouse habits belong in
 [analytics engineering portfolio projects]({{ '/wiki/analytics-engineering-portfolio-projects/' | relative_url }})
-and to the [analytics engineering roadmap]({{ '/wiki/analytics-engineering-roadmap/' | relative_url }}).
+and the [analytics engineering roadmap]({{ '/wiki/analytics-engineering-roadmap/' | relative_url }}).
 Perez Mola covers this at 42:05-50:46 in
 [Analytics Engineer Skills and Tools]({{ '/podcasts/analytics-engineer-skills-tools/' | relative_url }}).
 Maksimovic covers it at 41:50-45:09 in
 [From Marketing to Analytics Engineering]({{ '/podcasts/from-marketing-to-analytics-engineering-sql-dbt-career-switch/' | relative_url }}).
 
-Moorman's last-mile discussion adds the final hiring signal. A good warehouse
-practitioner can connect tables to decisions by asking who uses a model and what
-decision it supports. They can also ask whether people trust it and how to
-measure adoption
+Moorman adds the final hiring signal in her last-mile discussion. A good
+warehouse practitioner can connect tables to decisions by asking who uses a
+model and what decision it supports. They can also ask whether people trust it
+and how to measure adoption
 ([Last-Mile Data Delivery]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }}),
 34:00-49:25).
+
+## Warehouse Topic Map
+
+Warehouse work in these episodes connects to [data engineering
+platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}),
+[modern data stack]({{ '/wiki/modern-data-stack/' | relative_url }}), and
+[ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }}) choices.
+For storage boundaries, compare the warehouse with [data
+lakes]({{ '/wiki/data-lake/' | relative_url }}) and [data warehouse vs data
+lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }}).
+
+The modeled layer connects most directly to [analytics
+engineering]({{ '/wiki/analytics-engineering/' | relative_url }}) and
+[dbt]({{ '/wiki/dbt/' | relative_url }}). [Business
+intelligence]({{ '/wiki/business-intelligence/' | relative_url }}) consumes
+those modeled warehouse tables. Operating the warehouse connects to [data
+quality and
+observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
+and [data governance]({{ '/wiki/data-governance/' | relative_url }}). [FinOps
+for data engineers]({{ '/wiki/finops-for-data-engineers/' | relative_url }})
+covers the cost side.
+
+After teams publish trusted tables, [data product
+adoption]({{ '/wiki/data-product-adoption/' | relative_url }}) and [reverse
+ETL]({{ '/wiki/reverse-etl/' | relative_url }}) describe how that data reaches
+dashboards and business tools. Those business tools include sales and support
+systems.

@@ -19,17 +19,18 @@ available. Teams still have to turn that availability into decisions people can
 make in real workflows
 ([last-mile data delivery, 8:48-15:56]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }})).
 
-The podcast archive treats adoption as product work, not a launch announcement.
-A technically correct output can still sit unused. People need to find it and
-trust it. They also need to interpret it and connect it to a decision.
+DataTalks.Club guests treat adoption as product work, not a launch
+announcement. A technically correct output can still sit unused. People need
+to find it and trust it. They also need to interpret it and connect it to a
+decision.
 
-That connects adoption to [data products]({{ '/wiki/data-products/' | relative_url }})
-and [data product management]({{ '/wiki/data-product-management/' | relative_url }}).
-It also connects to [platform adoption]({{ '/wiki/platform-adoption/' | relative_url }}),
+Adoption sits beside [data products]({{ '/wiki/data-products/' | relative_url }})
+and [data product management]({{ '/wiki/data-product-management/' | relative_url }}),
+and it also depends on [platform adoption]({{ '/wiki/platform-adoption/' | relative_url }}),
 [metrics]({{ '/wiki/metrics/' | relative_url }}), and
 [communication]({{ '/wiki/communication/' | relative_url }}).
 
-## Common Definition
+## Decision Use, Not Delivery
 
 Teams adopt a data product when data is present at the moment of decision and
 changes what people do. In [Moorman's]({{ '/people/caitlinmoorman/' | relative_url }})
@@ -52,7 +53,7 @@ also argues that users need enough visibility into how numbers are produced
 before they'll use them confidently
 ([data translator role, 4:08-13:15]({{ '/podcasts/data-translator-role-and-data-strategy/' | relative_url }})).
 
-## Guest Differences
+## Adoption Levers Across Roles
 
 Guests agree that adoption is behavioral, but they assign the work to different
 operating levers. [Moorman]({{ '/people/caitlinmoorman/' | relative_url }})
@@ -108,7 +109,7 @@ adds that trust also depends on demos of bad cases, fallbacks, and service
 levels. Teams also need agreement about what happens during incidents
 ([human-centered MLOps, 18:29-27:14]({{ '/podcasts/human-centered-mlops-and-model-monitoring/' | relative_url }})).
 
-## Start From Decisions
+## Decision-First Design
 
 [Moorman's]({{ '/people/caitlinmoorman/' | relative_url }}) strongest adoption
 advice is to start from the decision rather than the dataset. For an A/B testing
@@ -128,7 +129,7 @@ company-wide rituals. In reviews, teams can ask whether people made decisions
 from the numbers
 ([KPI design and metrics strategy, 22:41-44:59]({{ '/podcasts/ml-engineering-kpis-and-metrics-strategy/' | relative_url }})).
 
-## User Research And Prototyping
+## User Research and Prototyping
 
 Guests repeatedly treat low adoption as a user-research signal. [Moorman]({{ '/people/caitlinmoorman/' | relative_url }})
 suggests asking whether users know the product exists and know how to use it.
@@ -146,7 +147,7 @@ workflow has a business owner. Only then does the team invest in a maintainable
 implementation
 ([data translator role, 14:20-34:52]({{ '/podcasts/data-translator-role-and-data-strategy/' | relative_url }})).
 
-## Education And Rituals
+## Enablement and Operating Rituals
 
 Adoption is also reinforced through rituals. [Liang's]({{ '/people/tammyliang/' | relative_url }})
 team used a weekly newsletter, internal wiki, workshops, and later Q&A-style
@@ -163,7 +164,7 @@ them. The team also has to build enough data literacy for the project to be
 owned outside the technical team
 ([human-centered MLOps, 4:50-15:07 and 54:49-56:28]({{ '/podcasts/human-centered-mlops-and-model-monitoring/' | relative_url }})).
 
-## Measuring Adoption
+## Measuring Behavior Change
 
 Adoption evidence shouldn't stop at page views or dashboard counts. [Moorman]({{ '/people/caitlinmoorman/' | relative_url }})
 recommends narrow wins with visible stakes. Help one stakeholder make a better
@@ -188,9 +189,10 @@ to [data observability]({{ '/wiki/data-observability/' | relative_url }}) and
 [model monitoring]({{ '/wiki/model-monitoring/' | relative_url }}). The product
 has to work, stay trusted, and leave evidence that it changed behavior.
 
-## Related Pages
+## Adjacent Adoption Work
 
-These pages cover adjacent adoption work:
+Data product adoption sits next to adjacent roles, platform patterns, and
+measurement practices:
 
 - [Data Products]({{ '/wiki/data-products/' | relative_url }})
 - [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})

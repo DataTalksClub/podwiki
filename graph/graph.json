@@ -48789,12 +48789,6 @@
     },
     {
       "source": "wiki:data-warehouse",
-      "target": "article:guide:data-observability-for-data-engineering",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-warehouse",
       "target": "person:adrianbrudaru",
       "kind": "wiki-link",
       "weight": 1
@@ -48936,6 +48930,12 @@
       "target": "wiki:business-intelligence",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-warehouse",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "wiki-link",
+      "weight": 1
     },
     {
       "source": "wiki:data-warehouse",

@@ -14,11 +14,11 @@ related:
   - Data Engineer Role
 ---
 
-A data team lead turns data work into an operating system for the organization.
-The role isn't just senior analysis or senior engineering. In the
-DataTalks.Club interviews, it covers hiring order and delivery priorities. It
-also covers quality standards and stakeholder adoption. Team model choices
-belong there too.
+A data team lead turns data work into an operating model for the organization.
+The role isn't just senior analysis or senior engineering. Across
+DataTalks.Club interviews, the lead chooses the first data priorities and hires
+the team around those priorities. They also set quality standards and make data
+useful inside business decisions. Team model choices belong there too.
 
 [Tammy Liang]({{ '/people/tammyliang/' | relative_url }}) gives the most
 concrete early-team version. As Chief of Data, she starts with business health
@@ -32,12 +32,12 @@ science teams. She then ties structure to OKRs, cross-functional rituals,
 staffing, and experimentation. Product partnership sits in the same structure
 ([Designing High-Impact Data Science Teams: org models through roadmap decisions at 6:27-55:48]({{ '/podcasts/data-science-team-structure-and-org-design/' | relative_url }})).
 
-## Common Definition
+## Operating Scope
 
-The common definition is ownership of the team system around data work. A data
-team lead decides what the team should do first and which roles are needed.
-They also decide how the team works with business partners and what quality bar
-makes data trusted. That makes the role a close neighbor of
+The data team lead owns the team system around data work. They decide what the
+team should do first and which roles are needed. They also define how the team
+works with business partners and what quality bar makes data trusted. That
+makes the role a close neighbor of
 [Data Teams]({{ '/wiki/data-teams/' | relative_url }}),
 [Leadership]({{ '/wiki/leadership/' | relative_url }}), and
 [Team Building]({{ '/wiki/team-building/' | relative_url }}).
@@ -62,13 +62,13 @@ and data culture belong there too
 A head of data may be more operating-level than a CDO, but both roles turn
 company goals into a data operating model.
 
-## Guest Tradeoffs
+## Team Model Choices
 
-Guests differ on the reporting model. Cohen separates centralized teams from
-embedded teams because each model protects a different thing. Central teams
-protect craft standards and career support. Teams embed data people to gain
-domain context and faster product decisions. Hybrid models try to keep both
-benefits
+Data team leads have to choose where data people sit. Cohen separates
+centralized teams from embedded teams because each model protects a different
+thing. Central teams protect craft standards and career support. Teams embed
+data people to gain domain context and faster product decisions. Hybrid models
+try to keep both benefits
 ([Designing High-Impact Data Science Teams: centralized to hybrid models at 6:27-30:52]({{ '/podcasts/data-science-team-structure-and-org-design/' | relative_url }})).
 
 Tammy's episode puts less emphasis on reporting lines and more emphasis on
@@ -94,10 +94,10 @@ both management and expert judgment.
 
 ## Quality, Trust, and Adoption
 
-The team lead owns the conditions that let people trust the team's work.
+The data team lead owns the conditions that let people trust the team's work.
 Tammy's trust-repair discussion covers data accuracy, governance, and errors.
-Playbooks, dbt tests, and regular dashboard checks matter too. She connects timely
-insights to operational visibility and campaign monitoring
+Playbooks, dbt tests, and regular dashboard checks matter too. She connects
+timely insights to operational visibility and campaign monitoring
 ([How to Build & Scale a Data Team: governance and dbt checks at 35:38-41:42]({{ '/podcasts/building-and-scaling-data-team/' | relative_url }})).
 
 That work links directly to
@@ -114,7 +114,7 @@ interpretability, trust, and a place in the actual decision workflow
 ([Last-Mile Data Delivery: trust and decision workflow design at 24:13-38:15]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }})).
 The data team lead has to make those adoption loops part of delivery.
 
-## Planning and Role Boundaries
+## Growth Stage and Leadership Boundaries
 
 The role boundary changes as the team grows. In an early company, the lead may
 write SQL, repair dashboards, and interview stakeholders. They may also manage
@@ -145,9 +145,12 @@ architect owns durable system structure. The data team lead owns the people,
 priorities, and operating habits that make the architecture useful. In small
 teams, one person may hold both responsibilities.
 
-## Related Pages
+## Adjacent Roles and Topics
 
-These nearby pages expand the role, team design, and quality themes:
+These pages expand the team design, leadership, and strategy around the data
+team lead.
+
+They also cover quality and role boundaries:
 
 - [Data Teams]({{ '/wiki/data-teams/' | relative_url }})
 - [Leadership]({{ '/wiki/leadership/' | relative_url }})

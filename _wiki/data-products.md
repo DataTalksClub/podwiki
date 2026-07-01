@@ -27,13 +27,13 @@ latency, and ownership (34:36-39:36). In
 [Last-Mile Data Delivery]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }}),
 [Caitlin Moorman]({{ '/people/caitlinmoorman/' | relative_url }}) uses product
 thinking for analytics outputs that people must find, trust, and use in real
-decisions (8:48-26:36). Both views connect [data products]({{ '/wiki/data-products/' | relative_url }})
-to [data product management]({{ '/wiki/data-product-management/' | relative_url }}),
+decisions (8:48-26:36). Both views connect data products to
+[data product management]({{ '/wiki/data-product-management/' | relative_url }}),
 [data product adoption]({{ '/wiki/data-product-adoption/' | relative_url }}),
 [data mesh]({{ '/wiki/data-mesh/' | relative_url }}), and
 [analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }}).
 
-## Common Definition
+## Consumer Commitments
 
 Across the interviews, a data product has a consumer and a commitment. The
 consumer may be another domain team, an analyst, or a marketing manager. It may
@@ -67,13 +67,12 @@ compliance. SQL, documentation, and empathy also matter (19:38-56:08). A data
 product therefore needs a user problem and an operating plan, not only a
 technical owner.
 
-## Guest Differences
+## Architectural Scope
 
-Guests disagree less about the definition than about the center of gravity.
-Dehghani starts from architecture, where domain teams publish data products so
-other teams can consume them without a central data team mediating every request.
-Her
-episode connects data products to
+The DataTalks.Club discussions differ most in where they place the center of
+gravity. Dehghani starts from architecture, where domain teams publish data
+products so other teams can consume them without a central data team mediating
+every request. Her episode connects data products to
 [schema and quality agreements]({{ '/wiki/data-mesh/' | relative_url }}),
 [federated governance]({{ '/wiki/governance/' | relative_url }}), and
 [self-service platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
@@ -106,7 +105,7 @@ closest to [MLOps]({{ '/wiki/mlops/' | relative_url }}) and
 [product analytics]({{ '/wiki/product-analytics/' | relative_url }}), because
 the product has to be validated and monitored after launch.
 
-## Data Products In Data Mesh
+## Data Products in Data Mesh
 
 In Data Mesh, a data product is the unit of ownership. Dehghani describes a
 mesh as a graph of value exchange between domains. Producers publish data with
@@ -144,9 +143,9 @@ customer discovery and product documentation as part of adopting data tools and
 products. She also includes Slack help, pairing, and knowledge bases
 (49:37-56:08 in
 [How to Transition from Design to Data Product Manager]({{ '/podcasts/product-designer-to-data-product-manager/' | relative_url }})).
-That connects the topic to the [data product manager]({{ '/guides/data-product-manager/' | relative_url }})
-and [data product manager]({{ '/guides/data-product-manager/' | relative_url }})
-articles.
+Product ownership also links data products to the
+[data product manager]({{ '/guides/data-product-manager/' | relative_url }})
+role.
 
 Hannemann adds a useful distinction for ML-heavy data products. A product owner
 may advocate for delivery teams and make tactical trade-offs. A product manager
@@ -184,7 +183,7 @@ choices determine which data products a team can maintain. A warehouse table or
 dbt model may become a product interface. So can a dashboard or reverse ETL sync
 when someone owns the consumer commitment.
 
-## Activation And Adoption
+## Activation and Adoption
 
 Some data products aren't meant for analysts at all. In
 [How to Build a Data-Led Growth Stack]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }}),
@@ -213,7 +212,7 @@ Stakeholder demos and monitoring plans continue the work afterward
 For ML products, this overlaps with [model monitoring]({{ '/wiki/model-monitoring/' | relative_url }})
 and [production]({{ '/wiki/production/' | relative_url }}).
 
-## Reliability And Operations
+## Reliability and Operations
 
 A data product needs operating discipline after launch. In
 [Mastering DataOps]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }}),
@@ -231,9 +230,12 @@ products sit near [DataOps]({{ '/wiki/dataops/' | relative_url }}),
 [data observability]({{ '/wiki/data-observability/' | relative_url }}), and
 [data quality and observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).
 
-## Related Pages
+## Adjacent Product Practices
 
-These pages cover the adjacent roles, practices, and platform choices:
+Data products depend on role design, platform choices, activation paths, and
+reliability practices.
+
+These pages cover the main adjacent topics:
 
 - [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
 - [Data Product Adoption]({{ '/wiki/data-product-adoption/' | relative_url }})
