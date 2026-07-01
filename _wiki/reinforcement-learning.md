@@ -24,6 +24,8 @@ Business teams often choose simpler optimization or experimentation methods
 when they don't have a reliable simulator.
 
 For a structured introduction to the topic, the [Reinforcement Learning]({{ '/books/20210111-reinforcement-learning/' | relative_url }}) Book of the Week by Phil Winder covers industrial applications and the practical boundary between simulated environments and real-world deployment.
+[Grokking Deep Reinforcement Learning]({{ '/books/20210517-grokking-deep-reinforcement-learning/' | relative_url }})
+by Miguel Morales is a complementary learning path: it builds intuition for Q-learning, policy gradients, and actor-critic methods through annotated code and visual walkthroughs.
 
 Start with
 [Micheal Lanham]({{ '/people/micheallanham/' | relative_url }}) in

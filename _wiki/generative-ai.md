@@ -31,6 +31,8 @@ deterministic software better.
 [Build a Large Language Model (From Scratch)]({{ '/books/20241017-build-large-language-model-from-scratch/' | relative_url }})
 by Sebastian Raschka shows the internals of the transformer architectures that
 power these generative models.
+[Generative AI with Python and TensorFlow 2]({{ '/books/20211108-generative-ai-with-python-and-tensorflow-2/' | relative_url }})
+by Joseph Babcock and Raghav Bali is a practitioner reference for the underlying deep learning architectures (GANs, VAEs, transformers) behind generative systems.
 
 ## From Model Output to Product Systems
 

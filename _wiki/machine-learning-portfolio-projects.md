@@ -72,6 +72,11 @@ online evaluation.
 Around 46:02, he brings in distribution shift, class imbalance, and monitoring.
 He also covers broken models and fallbacks. This makes a portfolio project
 closer to a small system design exercise than to a notebook leaderboard entry.
+For project-driven learning, Alexey Grigorev's [Machine Learning Bookcamp]({{ '/books/20201214-ml-bookcamp/' | relative_url }})
+structures a path through real ML projects rather than isolated exercises, and
+[The Kaggle Book]({{ '/books/20220919-kaggle-book/' | relative_url }})
+by Luca Massaron and Konrad Banachewicz compiles competition-winning approaches
+that translate into portfolio-grade work.
 
 Recruiting and interview episodes apply the same standard to presentation.
 In [Land Data Scientist Roles]({{ '/podcasts/get-data-scientist-job/' | relative_url }}),

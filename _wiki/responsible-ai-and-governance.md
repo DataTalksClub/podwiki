@@ -65,6 +65,8 @@ If a feature improves an internal score but makes the product hard to justify,
 the team may remove it or transform it. It may also add human review or monitor
 the feature with stricter drift checks. The podcast discussions treat those
 choices as design and governance work, not paperwork after launch.
+For a practitioner reference on these bias and fairness tradeoffs, [Practical Fairness]({{ '/books/20220523-practical-fairness/' | relative_url }})
+by Nielsen Aileen covers the measurement and mitigation techniques behind real-world fairness checks.
 
 ## Data Access and Privacy Boundaries
 

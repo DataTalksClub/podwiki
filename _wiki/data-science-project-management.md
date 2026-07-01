@@ -44,6 +44,8 @@ evaluate next. They deploy when the result is ready to leave analysis.
 by Evan Shellshear and Douglas Gray grounds the same failure modes the podcast
 returns to repeatedly: misaligned business framing, over-scoped pilots, and
 projects that never reach production adoption.
+[Managing Machine Learning Projects]({{ '/books/20221010-managing-machine-learning-projects/' | relative_url }})
+by Simon Thompson covers the same project lifecycle from the delivery side: scoping, risk management, and stakeholder alignment for ML-specific work.
 
 In [From Project Manager to Data Scientist]({{ '/podcasts/project-manager-to-data-scientist/' | relative_url }}),
 [Ksenia Legostay]({{ '/people/ksenialegostay/' | relative_url }}) treats planning

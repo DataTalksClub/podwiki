@@ -42,6 +42,8 @@ For Spark-based processing in particular,
 [Data Analysis with Python and PySpark]({{ '/books/20211025-data-analysis-with-python-and-pyspark/' | relative_url }})
 by Jonathan Rioux is a practical reference for the transformation and analysis
 layer.
+For everyday pandas-based analysis work, [Effective Pandas]({{ '/books/20220131-effective-pandas/' | relative_url }})
+by Matt Harrison is a practitioner reference for the idioms and patterns that keep data analysis code maintainable.
 
 Most teams combine tools from these categories:
 

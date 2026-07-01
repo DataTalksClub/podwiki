@@ -44,6 +44,8 @@ Janna Lipenkova's
 develops the same product-focused view: it treats AI as an end-to-end product
 discipline covering market research, UX, and business model fit, not just model
 development.
+[Artificial Intelligence with Python]({{ '/books/20220509-artificial-intelligence-with-python/' | relative_url }})
+by Prateek Joshi covers the broader toolkit that underlies these product systems, from search and optimization through ML, deep learning, and reinforcement learning.
 
 ## AI as Product Engineering
 

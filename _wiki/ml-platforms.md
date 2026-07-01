@@ -55,6 +55,8 @@ monitoring follow. Package registries and container choices follow too
 
 In this definition, a platform is broader than one tool and narrower than the
 whole engineering organization.
+[Machine Learning on Kubernetes]({{ '/books/20221107-machine-learning-on-kubernetes/' | relative_url }})
+by Ross Brigoli and Faisal Masood covers the Kubernetes-native implementation of this platform surface: from training and serving operators to model registries and monitoring on shared infrastructure.
 
 [Maria Vechtomova]({{ '/people/mariavechtomova/' | relative_url }}) reinforces
 that pragmatic boundary. Her MLOps stack starts with Git, CI/CD, registries,

@@ -77,6 +77,8 @@ he argues that teams can often push batch latency down to minutes or seconds.
 They can still keep explicit dependencies and easier reruns. His view favors
 workflow-oriented batch when the product can tolerate the delay. It keeps
 streaming tied to recoverability rather than tool fashion.
+For a guided tour of the internal mechanics behind these systems, [Grokking Streaming Systems]({{ '/books/20220704-grokking-streaming-systems/' | relative_url }})
+by Josh Fischer and Ning Wang explains the core patterns (watermarks, windows, backpressure) through concrete examples without tying them to a single framework.
 
 [Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) adds the modern
 data-stack warning in

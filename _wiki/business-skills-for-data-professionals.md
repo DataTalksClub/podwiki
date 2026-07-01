@@ -32,6 +32,8 @@ adds the management version in
 [Hiring and Managing Data Science Teams in B2B SaaS]({{ '/podcasts/hiring-and-managing-data-science-teams-in-b2b-saas/' | relative_url }}).
 For her, business skill includes team design and mentorship. It also includes
 maintainability and stakeholder conversations.
+[Business Skills for Data Scientists]({{ '/books/20210823-business-skills-for-data-scientists/' | relative_url }})
+by David Stephenson expands the same stakeholder and communication practices into a structured playbook for analytics teams.
 
 [Loïc Magnien]({{ '/people/loicmagnien/' | relative_url }})
 extends the topic into the

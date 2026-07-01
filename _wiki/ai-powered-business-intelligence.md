@@ -61,6 +61,8 @@ For a broader operating frame, use
 [Dashboard and Metric Layer Project Checklist]({{ '/wiki/dashboard-and-metric-layer-project-checklist/' | relative_url }}).
 Those pages keep AI-powered BI close to business questions instead of treating
 it as a separate interface project.
+[AI-Powered Business Intelligence]({{ '/books/20220606-ai-powered-business-intelligence/' | relative_url }})
+by Tobias Zwingmann expands this same use-case-first approach: it covers where generative AI usefully augments BI workflows and where governed metrics must stay the foundation.
 
 ## Dashboards, Metrics, and Semantic Layers
 

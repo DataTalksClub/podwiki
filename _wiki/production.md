@@ -30,6 +30,8 @@ Khuyen Tran's
 extends the same dependence and ownership ideas: it covers the
 experiment-to-production handoff, testing, reproducibility, and deployment
 templates that turn a notebook into a maintained system.
+[Reliable Machine Learning]({{ '/books/20221121-reliable-machine-learning/' | relative_url }})
+by Todd Underwood, Kranti K. Parisa, Cathy Chen, and Niall Murphy extends this reliability lens to ML-specific failure modes: data drift, model decay, and the operational practices that keep a deployed ML system trustworthy over time.
 
 ## Operational Responsibility
 

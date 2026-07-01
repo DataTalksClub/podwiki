@@ -66,6 +66,8 @@ belong there too
 ([From Notebook to Production, 17:27-21:12 and 37:39-41:28]({{ '/podcasts/s24e03-from-notebook-to-production-building-end-to-end-ai-systems/' | relative_url }})).
 That view keeps product signals close to [AI engineering]({{ '/wiki/ai-engineering/' | relative_url }})
 and [MLOps]({{ '/wiki/mlops/' | relative_url }}).
+[Building Machine Learning Powered Applications]({{ '/books/20211122-building-machine-learning-powered-applications/' | relative_url }})
+by Emmanuel Ameisen structures the same feedback-driven approach to shipping ML products: prototype, evaluate against user behavior, and iterate before and after launch.
 
 Anusha starts earlier, with user research and workflow pain. Her finance
 episode spends time on ChatGPT prototyping and interviews before the product

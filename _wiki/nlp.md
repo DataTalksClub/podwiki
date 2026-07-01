@@ -182,6 +182,9 @@ semantic search. Her retrieval discussion belongs next to
 [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }}).
 
 For a practitioner-oriented reference on the transformer architecture behind these models, [Transformers for Natural Language Processing]({{ '/books/20210419-transformers-for-natural-language-processing/' | relative_url }}) by Denis Rothman covers attention mechanisms, fine-tuning, and downstream NLP tasks.
+For deploying NLP systems inside organizations, [Applied Natural Language Processing in the Enterprise]({{ '/books/20210726-applied-natural-language-processing-in-the-enterprise/' | relative_url }})
+by Ankur A. Patel and Ajay Uppili Arasanipalai covers practical NLP pipelines from data labeling through production deployment. [Blueprints for Text Analytics Using Python]({{ '/books/20211018-blueprints-for-text-analytics-using-python/' | relative_url }})
+by Jens Albrecht, Sidharth Ramachandran, and Christian Winkler provides reusable blueprint patterns for text-mining workflows.
 
 [Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }})
 adds the builder's version in

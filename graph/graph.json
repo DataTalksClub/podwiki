@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 132,
     "nodes": 1156,
-    "links": 13335
+    "links": 13353
   },
   "nodes": [
     {
@@ -45442,6 +45442,12 @@
     },
     {
       "source": "wiki:ai",
+      "target": "book:20220509-artificial-intelligence-with-python",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai",
       "target": "book:20240205-creating-intelligent-products",
       "kind": "wiki-link",
       "weight": 1
@@ -47926,6 +47932,12 @@
     },
     {
       "source": "wiki:ai-powered-business-intelligence",
+      "target": "book:20220606-ai-powered-business-intelligence",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-powered-business-intelligence",
       "target": "person:adrianbrudaru",
       "kind": "wiki-link",
       "weight": 1
@@ -48155,6 +48167,12 @@
     {
       "source": "wiki:ai-powered-business-intelligence",
       "target": "wiki:tracking-plans",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-product-feedback-loops",
+      "target": "book:20211122-building-machine-learning-powered-applications",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -50815,6 +50833,12 @@
       "target": "wiki:rag",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:business-skills-for-data-professionals",
+      "target": "book:20210823-business-skills-for-data-scientists",
+      "kind": "wiki-link",
+      "weight": 1
     },
     {
       "source": "wiki:business-skills-for-data-professionals",
@@ -57700,6 +57724,12 @@
     },
     {
       "source": "wiki:data-engineering-tools",
+      "target": "book:20220131-effective-pandas",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-tools",
       "target": "person:adrianbrudaru",
       "kind": "wiki-link",
       "weight": 1
@@ -61001,6 +61031,12 @@
     {
       "source": "wiki:data-science-project-management",
       "target": "article:roadmap:machine-learning-engineer-roadmap",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "book:20221010-managing-machine-learning-projects",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -69166,6 +69202,12 @@
     },
     {
       "source": "wiki:generative-ai",
+      "target": "book:20211108-generative-ai-with-python-and-tensorflow-2",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:generative-ai",
       "target": "book:20241017-build-large-language-model-from-scratch",
       "kind": "wiki-link",
       "weight": 1
@@ -74386,6 +74428,18 @@
     },
     {
       "source": "wiki:machine-learning-portfolio-projects",
+      "target": "book:20201214-ml-bookcamp",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-portfolio-projects",
+      "target": "book:20220919-kaggle-book",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-portfolio-projects",
       "target": "person:andradaolteanu",
       "kind": "wiki-link",
       "weight": 1
@@ -74711,6 +74765,18 @@
     {
       "source": "wiki:machine-learning-system-design",
       "target": "article:guide:mlops-architecture",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-system-design",
+      "target": "book:20210802-practical-recommender-systems",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-system-design",
+      "target": "book:20220627-designing-machine-learning-systems",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -76319,6 +76385,12 @@
     {
       "source": "wiki:ml-platform-engineer-role",
       "target": "wiki:reproducibility",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ml-platforms",
+      "target": "book:20221107-machine-learning-on-kubernetes",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -79295,6 +79367,18 @@
     {
       "source": "wiki:nlp",
       "target": "book:20210419-transformers-for-natural-language-processing",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:nlp",
+      "target": "book:20210726-applied-natural-language-processing-in-the-enterprise",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:nlp",
+      "target": "book:20211018-blueprints-for-text-analytics-using-python",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -83326,6 +83410,12 @@
     },
     {
       "source": "wiki:production",
+      "target": "book:20221121-reliable-machine-learning",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:production",
       "target": "book:20250728-production-ready-data-science",
       "kind": "wiki-link",
       "weight": 1
@@ -85408,6 +85498,12 @@
     },
     {
       "source": "wiki:reinforcement-learning",
+      "target": "book:20210517-grokking-deep-reinforcement-learning",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:reinforcement-learning",
       "target": "person:adamsroka",
       "kind": "wiki-link",
       "weight": 1
@@ -85781,6 +85877,12 @@
     {
       "source": "wiki:reproducibility",
       "target": "wiki:testing",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:responsible-ai-and-governance",
+      "target": "book:20220523-practical-fairness",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -89597,6 +89699,12 @@
     {
       "source": "wiki:streaming",
       "target": "article:comparison:batch-vs-streaming",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:streaming",
+      "target": "book:20220704-grokking-streaming-systems",
       "kind": "wiki-link",
       "weight": 1
     },

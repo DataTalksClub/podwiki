@@ -19,6 +19,8 @@ Machine learning system design decides how an ML system should support a product
 or business decision before teams commit to a model. A design names the decision
 and data. It also names labels and the feature path. Then it names serving,
 evaluation, monitoring, and ownership after release.
+[Designing Machine Learning Systems]({{ '/books/20220627-designing-machine-learning-systems/' | relative_url }})
+by Chip Huyen is the canonical reference for this discipline: it covers the full stack from problem framing and data engineering through serving, monitoring, and continuous improvement.
 
 In [ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }})
 [Valeriy Babushkin]({{ '/people/valeriybabushkin/' | relative_url }}) connects
@@ -151,6 +153,8 @@ simple baselines to validate hypotheses quickly.
 Model choice comes after that baseline. A team may choose a rule or a linear
 model. It may also choose a tree model or an embedding system. A recommender,
 ranking model, or deep model may be enough for other cases.
+For a dedicated reference on ranking and recommendation, [Practical Recommender Systems]({{ '/books/20210802-practical-recommender-systems/' | relative_url }})
+by Kim Falk covers the data, algorithms, and evaluation patterns behind recommender design choices.
 
 The team can only make that choice after it understands the decision, data, and
 latency. It must also understand evaluation and failure cost. This is why
