@@ -9,9 +9,9 @@
     "how_tos": 5,
     "podcasts": 202,
     "persons": 438,
-    "topics": 100,
-    "nodes": 1015,
-    "links": 12467
+    "topics": 112,
+    "nodes": 1027,
+    "links": 12530
   },
   "nodes": [
     {
@@ -1412,7 +1412,7 @@
       "title": "Caitlin Moorman",
       "url": "/people/caitlinmoorman/",
       "count": 1,
-      "search": "Caitlin Moorman Caitlin Moorman's DataTalks.Club podcast discussions, organized for topic exploration."
+      "search": "Caitlin Moorman Caitlin Moorman's DataTalks.Club contribution on last mile data delivery, data product adoption, stakeholder workflows, BI delivery, metrics, and analytics leadership."
     },
     {
       "id": "person:carminepaolino",
@@ -1502,7 +1502,7 @@
       "title": "Christopher Bergh",
       "url": "/people/christopherbergh/",
       "count": 1,
-      "search": "Christopher Bergh Christopher Bergh's DataTalks.Club podcast discussions, organized for topic exploration."
+      "search": "Christopher Bergh Christopher Bergh's DataTalks.Club podcast contributions on DataOps, reliable pipelines, automation, observability, and production data practices."
     },
     {
       "id": "person:cjjenkins",
@@ -2442,7 +2442,7 @@
       "title": "Jeff Katz",
       "url": "/people/jeffkatz/",
       "count": 1,
-      "search": "Jeff Katz Jeff Katz's DataTalks.Club podcast discussions, organized for topic exploration."
+      "search": "Jeff Katz Machine learning engineer and educator contributing practical guidance on data engineering bootcamps, Python and SQL depth, portfolio evidence, and interview preparation."
     },
     {
       "id": "person:jekaterinakokatjuhha",
@@ -7111,6 +7111,15 @@
       "search": "analytics"
     },
     {
+      "id": "topic:analytics-leadership",
+      "type": "topic",
+      "label": "analytics leadership",
+      "title": "analytics leadership",
+      "url": "/search.html?q=analytics%20leadership",
+      "count": 1,
+      "search": "analytics leadership"
+    },
+    {
       "id": "topic:astroinformatics",
       "type": "topic",
       "label": "astroinformatics",
@@ -7183,6 +7192,15 @@
       "search": "bioinformatics"
     },
     {
+      "id": "topic:bootcamp-curriculum",
+      "type": "topic",
+      "label": "bootcamp curriculum",
+      "title": "bootcamp curriculum",
+      "url": "/search.html?q=bootcamp%20curriculum",
+      "count": 1,
+      "search": "bootcamp curriculum"
+    },
+    {
       "id": "topic:bootstrapping",
       "type": "topic",
       "label": "bootstrapping",
@@ -7237,6 +7255,15 @@
       "search": "career transitions"
     },
     {
+      "id": "topic:ci-cd-for-data-pipelines",
+      "type": "topic",
+      "label": "CI/CD for data pipelines",
+      "title": "CI/CD for data pipelines",
+      "url": "/search.html?q=CI/CD%20for%20data%20pipelines",
+      "count": 1,
+      "search": "CI/CD for data pipelines"
+    },
+    {
       "id": "topic:cloud",
       "type": "topic",
       "label": "cloud",
@@ -7289,6 +7316,24 @@
       "url": "/search.html?q=data%20compliance",
       "count": 1,
       "search": "data compliance"
+    },
+    {
+      "id": "topic:data-engineering-education",
+      "type": "topic",
+      "label": "data engineering education",
+      "title": "data engineering education",
+      "url": "/search.html?q=data%20engineering%20education",
+      "count": 1,
+      "search": "data engineering education"
+    },
+    {
+      "id": "topic:data-engineering-reliability",
+      "type": "topic",
+      "label": "data engineering reliability",
+      "title": "data engineering reliability",
+      "url": "/search.html?q=data%20engineering%20reliability",
+      "count": 1,
+      "search": "data engineering reliability"
     },
     {
       "id": "topic:data-integration",
@@ -7615,6 +7660,15 @@
       "search": "knowledge graphs"
     },
     {
+      "id": "topic:last-mile-data-delivery",
+      "type": "topic",
+      "label": "last-mile data delivery",
+      "title": "last-mile data delivery",
+      "url": "/search.html?q=last-mile%20data%20delivery",
+      "count": 1,
+      "search": "last-mile data delivery"
+    },
+    {
       "id": "topic:llmops",
       "type": "topic",
       "label": "llmops",
@@ -7685,6 +7739,15 @@
       "url": "/search.html?q=ML%20teams",
       "count": 1,
       "search": "ML teams"
+    },
+    {
+      "id": "topic:mlops-and-dataops-overlap",
+      "type": "topic",
+      "label": "MLOps and DataOps overlap",
+      "title": "MLOps and DataOps overlap",
+      "url": "/search.html?q=MLOps%20and%20DataOps%20overlap",
+      "count": 1,
+      "search": "MLOps and DataOps overlap"
     },
     {
       "id": "topic:model-governance",
@@ -7804,6 +7867,15 @@
       "search": "product owners"
     },
     {
+      "id": "topic:production-data-systems",
+      "type": "topic",
+      "label": "production data systems",
+      "title": "production data systems",
+      "url": "/search.html?q=production%20data%20systems",
+      "count": 1,
+      "search": "production data systems"
+    },
+    {
       "id": "topic:production-ml",
       "type": "topic",
       "label": "production ML",
@@ -7847,6 +7919,15 @@
       "url": "/search.html?q=public%20speaking",
       "count": 1,
       "search": "public speaking"
+    },
+    {
+      "id": "topic:python",
+      "type": "topic",
+      "label": "Python",
+      "title": "Python",
+      "url": "/search.html?q=Python",
+      "count": 1,
+      "search": "Python"
     },
     {
       "id": "topic:qa",
@@ -7921,6 +8002,15 @@
       "search": "solopreneurship"
     },
     {
+      "id": "topic:sql",
+      "type": "topic",
+      "label": "SQL",
+      "title": "SQL",
+      "url": "/search.html?q=SQL",
+      "count": 1,
+      "search": "SQL"
+    },
+    {
       "id": "topic:sql-transformations",
       "type": "topic",
       "label": "SQL transformations",
@@ -7928,6 +8018,15 @@
       "url": "/search.html?q=SQL%20transformations",
       "count": 1,
       "search": "SQL transformations"
+    },
+    {
+      "id": "topic:stakeholder-workflows",
+      "type": "topic",
+      "label": "stakeholder workflows",
+      "title": "stakeholder workflows",
+      "url": "/search.html?q=stakeholder%20workflows",
+      "count": 1,
+      "search": "stakeholder workflows"
     },
     {
       "id": "topic:strategy",
@@ -7964,6 +8063,15 @@
       "url": "/search.html?q=technical%20communities",
       "count": 1,
       "search": "technical communities"
+    },
+    {
+      "id": "topic:technical-interviews",
+      "type": "topic",
+      "label": "technical interviews",
+      "title": "technical interviews",
+      "url": "/search.html?q=technical%20interviews",
+      "count": 1,
+      "search": "technical interviews"
     },
     {
       "id": "topic:technical-leadership",
@@ -25319,13 +25427,91 @@
     },
     {
       "source": "person:caitlinmoorman",
+      "target": "topic:analytics-leadership",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:caitlinmoorman",
+      "target": "topic:last-mile-data-delivery",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:caitlinmoorman",
+      "target": "topic:stakeholder-workflows",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:caitlinmoorman",
+      "target": "wiki:analytics-engineering",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:caitlinmoorman",
+      "target": "wiki:business-intelligence",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:caitlinmoorman",
+      "target": "wiki:business-intelligence",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:caitlinmoorman",
+      "target": "wiki:data-product-adoption",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:caitlinmoorman",
+      "target": "wiki:data-product-adoption",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:caitlinmoorman",
+      "target": "wiki:data-products",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:caitlinmoorman",
+      "target": "wiki:data-teams",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:caitlinmoorman",
       "target": "wiki:leadership",
       "kind": "person-link",
       "weight": 1
     },
     {
       "source": "person:caitlinmoorman",
-      "target": "wiki:tools",
+      "target": "wiki:metrics",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:caitlinmoorman",
+      "target": "wiki:metrics",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:caitlinmoorman",
+      "target": "wiki:modern-data-stack",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:caitlinmoorman",
+      "target": "wiki:modern-data-stack",
       "kind": "person-link",
       "weight": 1
     },
@@ -25409,6 +25595,12 @@
     },
     {
       "source": "person:christopherbergh",
+      "target": "article:guide:dataops-tools",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:christopherbergh",
       "target": "podcast:dataops-automation-and-reliable-data-pipelines",
       "kind": "person-link",
       "weight": 1
@@ -25430,6 +25622,36 @@
       "target": "podcast:dataops-for-data-engineering",
       "kind": "person-podcast",
       "weight": 4
+    },
+    {
+      "source": "person:christopherbergh",
+      "target": "topic:ci-cd-for-data-pipelines",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:christopherbergh",
+      "target": "topic:data-engineering-reliability",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:christopherbergh",
+      "target": "topic:mlops-and-dataops-overlap",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:christopherbergh",
+      "target": "topic:production-data-systems",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:christopherbergh",
+      "target": "wiki:ci-cd",
+      "kind": "person-link",
+      "weight": 1
     },
     {
       "source": "person:christopherbergh",
@@ -25439,7 +25661,31 @@
     },
     {
       "source": "person:christopherbergh",
+      "target": "wiki:data-observability",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:christopherbergh",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:christopherbergh",
       "target": "wiki:dataops",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:christopherbergh",
+      "target": "wiki:dataops",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:christopherbergh",
+      "target": "wiki:dataops-platforms",
       "kind": "person-link",
       "weight": 1
     },
@@ -25451,7 +25697,7 @@
     },
     {
       "source": "person:christopherbergh",
-      "target": "wiki:practices",
+      "target": "wiki:orchestration",
       "kind": "person-link",
       "weight": 1
     },
@@ -26993,6 +27239,12 @@
     },
     {
       "source": "person:jakobgraff",
+      "target": "article:guide:product-analyst",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:jakobgraff",
       "target": "podcast:ab-testing-and-product-experimentation",
       "kind": "person-link",
       "weight": 1
@@ -27002,6 +27254,36 @@
       "target": "podcast:ab-testing-and-product-experimentation",
       "kind": "person-podcast",
       "weight": 4
+    },
+    {
+      "source": "person:jakobgraff",
+      "target": "wiki:a-a-testing",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:jakobgraff",
+      "target": "wiki:a-b-testing",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:jakobgraff",
+      "target": "wiki:a-b-testing",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:jakobgraff",
+      "target": "wiki:causal-inference",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:jakobgraff",
+      "target": "wiki:causal-inference",
+      "kind": "person-link",
+      "weight": 1
     },
     {
       "source": "person:jakobgraff",
@@ -27011,7 +27293,103 @@
     },
     {
       "source": "person:jakobgraff",
-      "target": "wiki:practices",
+      "target": "wiki:evaluation",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:jakobgraff",
+      "target": "wiki:event-tracking",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:jakobgraff",
+      "target": "wiki:experimentation",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:jakobgraff",
+      "target": "wiki:experimentation",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:jakobgraff",
+      "target": "wiki:experimentation-and-causal-inference",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:jakobgraff",
+      "target": "wiki:kpis",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:jakobgraff",
+      "target": "wiki:machine-learning-personalization",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:jakobgraff",
+      "target": "wiki:metrics",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:jakobgraff",
+      "target": "wiki:metrics",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:jakobgraff",
+      "target": "wiki:power-analysis",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:jakobgraff",
+      "target": "wiki:power-analysis",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:jakobgraff",
+      "target": "wiki:product-analytics",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:jakobgraff",
+      "target": "wiki:product-analytics",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:jakobgraff",
+      "target": "wiki:tracking-plans",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:jeffkatz",
+      "target": "article:guide:data-engineering-courses",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:jeffkatz",
+      "target": "article:how_to:airflow-docker-compose",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:jeffkatz",
+      "target": "article:roadmap:data-engineer-roadmap",
       "kind": "person-link",
       "weight": 1
     },
@@ -27041,7 +27419,43 @@
     },
     {
       "source": "person:jeffkatz",
-      "target": "wiki:career-growth",
+      "target": "topic:bootcamp-curriculum",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:jeffkatz",
+      "target": "topic:data-engineering-education",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:jeffkatz",
+      "target": "topic:python",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:jeffkatz",
+      "target": "topic:sql",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:jeffkatz",
+      "target": "topic:technical-interviews",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:jeffkatz",
+      "target": "wiki:apache-airflow",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:jeffkatz",
+      "target": "wiki:data-engineer-role",
       "kind": "person-link",
       "weight": 1
     },
@@ -27053,13 +27467,43 @@
     },
     {
       "source": "person:jeffkatz",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:jeffkatz",
+      "target": "wiki:data-engineering-roadmap",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:jeffkatz",
+      "target": "wiki:data-engineering-tools",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:jeffkatz",
+      "target": "wiki:job-search",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:jeffkatz",
       "target": "wiki:job-search",
       "kind": "person-link",
       "weight": 1
     },
     {
       "source": "person:jeffkatz",
-      "target": "wiki:tools",
+      "target": "wiki:portfolio-projects",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:jeffkatz",
+      "target": "wiki:portfolio-projects",
       "kind": "person-link",
       "weight": 1
     },
@@ -28685,6 +29129,12 @@
     },
     {
       "source": "person:meryemarik",
+      "target": "article:comparison:rag-vs-fine-tuning",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:meryemarik",
       "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
       "kind": "person-link",
       "weight": 1
@@ -28697,6 +29147,24 @@
     },
     {
       "source": "person:meryemarik",
+      "target": "wiki:evaluation",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:meryemarik",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:meryemarik",
+      "target": "wiki:llm-production-patterns",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:meryemarik",
       "target": "wiki:llms",
       "kind": "person-expertise",
       "weight": 2
@@ -28716,6 +29184,12 @@
     {
       "source": "person:meryemarik",
       "target": "wiki:mlops",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:meryemarik",
+      "target": "wiki:model-monitoring",
       "kind": "person-link",
       "weight": 1
     },
@@ -28745,13 +29219,19 @@
     },
     {
       "source": "person:meryemarik",
+      "target": "wiki:rag",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:meryemarik",
       "target": "wiki:retrieval-augmented-generation",
       "kind": "person-expertise",
       "weight": 2
     },
     {
       "source": "person:meryemarik",
-      "target": "wiki:retrieval-augmented-generation",
+      "target": "wiki:vector-databases",
       "kind": "person-link",
       "weight": 1
     },
@@ -29741,7 +30221,19 @@
     },
     {
       "source": "person:ranjithakulkarni",
-      "target": "wiki:ai",
+      "target": "wiki:ai-engineer-role",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:ranjithakulkarni",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:ranjithakulkarni",
+      "target": "wiki:llm-production-patterns",
       "kind": "person-link",
       "weight": 1
     },
@@ -29750,12 +30242,6 @@
       "target": "wiki:llms",
       "kind": "person-expertise",
       "weight": 2
-    },
-    {
-      "source": "person:ranjithakulkarni",
-      "target": "wiki:llms",
-      "kind": "person-link",
-      "weight": 1
     },
     {
       "source": "person:ranjithakulkarni",
