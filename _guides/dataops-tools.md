@@ -19,10 +19,29 @@ DataOps tools help data teams change pipelines without relying on memory,
 manual checks, and late-night heroics. The tool stack is useful when it makes
 changes reviewable, testable, observable, and recoverable.
 
-DataTalks.Club guests rarely frame DataOps as a shopping list. They describe
-an operating model for [data engineering]({{ '/wiki/data-engineering/' | relative_url }})
-and [data platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}).
-They also connect it to
+DataTalks.Club guests rarely frame DataOps as a shopping list. In
+[Mastering DataOps]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }}),
+[Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }}) treats
+it as an operating loop. Teams version changes and test them before release.
+They deploy through CI/CD, observe the result, and recover through playbooks. In
+[DataOps and GitOps for Data Teams]({{ '/podcasts/dataops-and-gitops-best-practices-for-data-teams/' | relative_url }}),
+[Tomasz Hinc]({{ '/people/tomaszhinc/' | relative_url }}) makes the same
+point for infrastructure with Terraform and Terragrunt plans reviewed through
+Atlantis.
+
+For tool selection, treat DataOps as an operating model for
+[data engineering]({{ '/wiki/data-engineering/' | relative_url }}) and
+[data platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}).
+
+[Lars Albertsson]({{ '/people/larsalbertsson/' | relative_url }}) grounds
+that model in scalable platform components in
+[DataOps 101]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}).
+[Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) shows how
+ingestion, orchestration, warehouses, and dbt fit together. In
+[Data Engineering Tools and Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
+she also covers reverse flows inside the
+[modern data stack]({{ '/wiki/modern-data-stack/' | relative_url }}).
+The same framing connects DataOps to
 [data quality]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 and production analytics. Teams use DataOps tools to shorten the distance
 from change review to tests, deployments, alerts, and fixes.
@@ -220,8 +239,8 @@ data may be late or malformed. It may also be incomplete, skewed, or wrong.
 
 In
 [Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }}),
-[Barr Moses]({{ '/people/barrmoses/' | relative_url }}) gives the archive's
-clearest observability model.
+[Barr Moses]({{ '/people/barrmoses/' | relative_url }}) gives the clearest
+observability model used here.
 
 Around 16:38, she defines the five pillars:
 
@@ -354,7 +373,7 @@ Start with this stack:
 5. A simple owner map for important datasets and dashboards.
 6. A short runbook for backfills, reruns, and stakeholder communication.
 
-That starting point matches the archive. Bergh shows that SQL tests and
+That starting point matches the interviews. Bergh shows that SQL tests and
 targeted expectations can be enough when they capture real consumer needs.
 Moses discusses maturity from reactive work toward proactive and automated
 observability around 43:00 in

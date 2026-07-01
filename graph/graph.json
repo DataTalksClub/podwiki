@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 145,
     "nodes": 1006,
-    "links": 10577
+    "links": 10578
   },
   "nodes": [
     {
@@ -11737,49 +11737,49 @@
       "source": "article:comparison:delta-lake-vs-apache-iceberg",
       "target": "person:adrianbrudaru",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:comparison:delta-lake-vs-apache-iceberg",
       "target": "person:larsalbertsson",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:comparison:delta-lake-vs-apache-iceberg",
       "target": "person:nataliekwong",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:comparison:delta-lake-vs-apache-iceberg",
       "target": "person:roksolanadiachuk",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:comparison:delta-lake-vs-apache-iceberg",
       "target": "podcast:big-data-engineer-vs-data-scientist",
       "kind": "article-link",
-      "weight": 12
+      "weight": 14
     },
     {
       "source": "article:comparison:delta-lake-vs-apache-iceberg",
       "target": "podcast:data-engineering-tools-modern-data-stack",
       "kind": "article-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "article:comparison:delta-lake-vs-apache-iceberg",
       "target": "podcast:dataops-principles-and-scalable-data-platforms",
       "kind": "article-link",
-      "weight": 8
+      "weight": 12
     },
     {
       "source": "article:comparison:delta-lake-vs-apache-iceberg",
       "target": "podcast:trends-in-modern-data-engineering",
       "kind": "article-link",
-      "weight": 24
+      "weight": 26
     },
     {
       "source": "article:comparison:delta-lake-vs-apache-iceberg",
@@ -11815,7 +11815,7 @@
       "source": "article:comparison:delta-lake-vs-apache-iceberg",
       "target": "wiki:data-governance",
       "kind": "article-link",
-      "weight": 6
+      "weight": 8
     },
     {
       "source": "article:comparison:delta-lake-vs-apache-iceberg",
@@ -11899,7 +11899,7 @@
       "source": "article:comparison:delta-lake-vs-apache-iceberg",
       "target": "wiki:orchestration",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:comparison:etl-vs-elt",
@@ -11911,73 +11911,73 @@
       "source": "article:comparison:etl-vs-elt",
       "target": "person:arpitchoudhury",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:comparison:etl-vs-elt",
       "target": "person:juanmanuelperafan",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:comparison:etl-vs-elt",
       "target": "person:larsalbertsson",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:comparison:etl-vs-elt",
       "target": "person:nataliekwong",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:comparison:etl-vs-elt",
       "target": "person:santonatuli",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:comparison:etl-vs-elt",
       "target": "person:victoriaperezmola",
       "kind": "article-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "article:comparison:etl-vs-elt",
       "target": "podcast:analytics-engineer-skills-tools",
       "kind": "article-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "article:comparison:etl-vs-elt",
       "target": "podcast:data-engineering-tools-modern-data-stack",
       "kind": "article-link",
-      "weight": 22
+      "weight": 28
     },
     {
       "source": "article:comparison:etl-vs-elt",
       "target": "podcast:data-led-growth-event-tracking-and-reverse-etl",
       "kind": "article-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "article:comparison:etl-vs-elt",
       "target": "podcast:dataops-principles-and-scalable-data-platforms",
       "kind": "article-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "article:comparison:etl-vs-elt",
       "target": "podcast:modern-data-pipelines-orchestration-ingestion-modeling",
       "kind": "article-link",
-      "weight": 6
+      "weight": 8
     },
     {
       "source": "article:comparison:etl-vs-elt",
       "target": "podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:comparison:etl-vs-elt",
@@ -15079,7 +15079,7 @@
       "source": "article:guide:data-science-recruiter",
       "target": "person:alicjanotowska",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:guide:data-science-recruiter",
@@ -15097,7 +15097,7 @@
       "source": "article:guide:data-science-recruiter",
       "target": "person:lukewhipps",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:guide:data-science-recruiter",
@@ -15115,7 +15115,7 @@
       "source": "article:guide:data-science-recruiter",
       "target": "person:olgaivina",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:guide:data-science-recruiter",
@@ -15127,7 +15127,7 @@
       "source": "article:guide:data-science-recruiter",
       "target": "person:terezaiofciu",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:guide:data-science-recruiter",
@@ -15145,7 +15145,7 @@
       "source": "article:guide:data-science-recruiter",
       "target": "podcast:data-science-job-red-flags-and-mismatched-roles",
       "kind": "article-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "article:guide:data-science-recruiter",
@@ -15157,7 +15157,7 @@
       "source": "article:guide:data-science-recruiter",
       "target": "podcast:get-data-scientist-job",
       "kind": "article-link",
-      "weight": 8
+      "weight": 10
     },
     {
       "source": "article:guide:data-science-recruiter",
@@ -15169,13 +15169,13 @@
       "source": "article:guide:data-science-recruiter",
       "target": "podcast:hiring-data-scientists-and-analysts",
       "kind": "article-link",
-      "weight": 12
+      "weight": 14
     },
     {
       "source": "article:guide:data-science-recruiter",
       "target": "podcast:hiring-for-data-science-jobs-interview-questions-skills.md",
       "kind": "article-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "article:guide:data-science-recruiter",
@@ -15187,7 +15187,7 @@
       "source": "article:guide:data-science-recruiter",
       "target": "wiki:cv-screening",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:guide:data-science-recruiter",
@@ -15223,7 +15223,7 @@
       "source": "article:guide:data-science-recruiter",
       "target": "wiki:data-scientist-role",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:guide:data-science-recruiter",
@@ -15235,7 +15235,7 @@
       "source": "article:guide:data-science-recruiter",
       "target": "wiki:hiring",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:guide:data-science-recruiter",
@@ -15247,7 +15247,7 @@
       "source": "article:guide:data-science-recruiter",
       "target": "wiki:job-descriptions",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:guide:data-science-recruiter",
@@ -15259,7 +15259,7 @@
       "source": "article:guide:data-science-recruiter",
       "target": "wiki:job-search",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:guide:data-science-recruiter",
@@ -15691,7 +15691,7 @@
       "source": "article:guide:dataops-tools",
       "target": "person:christopherbergh",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:guide:dataops-tools",
@@ -15703,13 +15703,13 @@
       "source": "article:guide:dataops-tools",
       "target": "person:larsalbertsson",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:guide:dataops-tools",
       "target": "person:nataliekwong",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:guide:dataops-tools",
@@ -15721,7 +15721,7 @@
       "source": "article:guide:dataops-tools",
       "target": "person:tomaszhinc",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:guide:dataops-tools",
@@ -15739,7 +15739,7 @@
       "source": "article:guide:dataops-tools",
       "target": "podcast:data-engineering-tools-modern-data-stack",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:guide:dataops-tools",
@@ -15757,13 +15757,13 @@
       "source": "article:guide:dataops-tools",
       "target": "podcast:dataops-and-gitops-best-practices-for-data-teams",
       "kind": "article-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "article:guide:dataops-tools",
       "target": "podcast:dataops-automation-and-reliable-data-pipelines",
       "kind": "article-link",
-      "weight": 10
+      "weight": 12
     },
     {
       "source": "article:guide:dataops-tools",
@@ -15775,7 +15775,7 @@
       "source": "article:guide:dataops-tools",
       "target": "podcast:dataops-principles-and-scalable-data-platforms",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:guide:dataops-tools",
@@ -15878,6 +15878,12 @@
       "target": "wiki:dataops-platforms",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "article:guide:dataops-tools",
+      "target": "wiki:modern-data-stack",
+      "kind": "article-link",
+      "weight": 2
     },
     {
       "source": "article:guide:dataops-tools",
@@ -17833,13 +17839,13 @@
       "source": "article:guide:product-analyst",
       "target": "person:arpitchoudhury",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:guide:product-analyst",
       "target": "person:jakobgraff",
       "kind": "article-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "article:guide:product-analyst",
@@ -17857,13 +17863,13 @@
       "source": "article:guide:product-analyst",
       "target": "podcast:ab-testing-and-product-experimentation",
       "kind": "article-link",
-      "weight": 8
+      "weight": 10
     },
     {
       "source": "article:guide:product-analyst",
       "target": "podcast:data-led-growth-event-tracking-and-reverse-etl",
       "kind": "article-link",
-      "weight": 8
+      "weight": 10
     },
     {
       "source": "article:guide:product-analyst",

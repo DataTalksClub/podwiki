@@ -17,10 +17,10 @@ related_wiki:
   - Modern Data Stack
 ---
 
-Delta Lake and Apache Iceberg are both lakehouse table-format choices. In the
-DataTalks.Club archive, the useful question isn't "which one is better?" It's
-which table format fits the team's platform constraints. Those constraints
-include storage, compute, catalog design, and governance.
+Delta Lake and Apache Iceberg are both lakehouse table-format choices. The
+useful question isn't "which one is better?" It's which table format fits the
+team's platform constraints. Those constraints include storage, compute,
+catalog design, and governance.
 
 [Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) gives the
 strongest direct comparison in
@@ -38,7 +38,7 @@ She connects Delta Lake with Spark-based version tracking, time travel, and
 reprocessing or auditing work
 ([1:00:25]({{ '/podcasts/big-data-engineer-vs-data-scientist/' | relative_url }})).
 
-Use [Delta Lake]({{ '/wiki/delta-lake/' | relative_url }}) for the archive's
+Use [Delta Lake]({{ '/wiki/delta-lake/' | relative_url }}) for the
 Delta-specific topic page. Use
 [Apache Iceberg]({{ '/wiki/apache-iceberg/' | relative_url }}) for the deeper
 Iceberg and catalog discussion. Use
@@ -53,8 +53,8 @@ storage behave more like reliable tables. That means the team wants more than
 loose files. It wants table metadata, version-aware writes, engine access, and
 governance hooks.
 
-The archive gives stronger detail for Iceberg than for Delta Lake. Brudaru
-names Iceberg adoption as a 2025 trend and ties it to vendor-lock-in reduction
+The podcast evidence gives stronger detail for Iceberg than for Delta Lake.
+Brudaru names Iceberg adoption as a 2025 trend and ties it to vendor-lock-in reduction
 ([16:40-18:17]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }})).
 He also discusses catalogs, metadata, and lineage immediately after explaining
 Iceberg
@@ -68,7 +68,7 @@ He describes Delta as the most mature of those three options in that comparison
 chapter. Roksolana's Spark example gives the concrete Delta-side reason this
 matters: version-aware data can support reprocessing and auditing
 ([Big Data Engineer vs Data Scientist]({{ '/podcasts/big-data-engineer-vs-data-scientist/' | relative_url }}),
-1:00:25). The archive supports a practical comparison, but not a deep feature
+1:00:25). Those episodes support a practical comparison, but not a deep feature
 matrix.
 
 ## Iceberg Fit
@@ -120,7 +120,7 @@ gives a real Delta use case: auditing and rerunning pipelines when the data
 changes.
 
 Delta Lake also fits when the team is already inside a Delta-oriented
-lakehouse ecosystem. The archive doesn't give a long Delta-specific operating
+lakehouse ecosystem. The podcast material doesn't give a long Delta-specific operating
 story. The safest DataTalks.Club-backed claim is narrower. Delta Lake is a
 legitimate table-format option.
 
@@ -199,14 +199,31 @@ Start with the platform requirement, not the table-format name.
 - Choose Delta Lake when existing ingestion, transformation, or lakehouse
   tooling already expects Delta tables, and the team can operate that path
   cleanly.
-- Choose Delta Lake when the concrete requirement is Spark-oriented versioning,
-  time travel, auditing, or historical reprocessing, as in Roksolana's big-data
-  engineering example.
-- Keep either choice tied to governance. Kwong's data-swamp warning and
-  Albertsson's DataOps platform chapters both show why ownership, quality, and
-  lineage matter.
-- Keep either choice tied to orchestration. Teams need repeatable ingestion,
-  transformation, testing, and recovery for the tables.
+- Choose Delta Lake when the concrete requirement is Spark-oriented versioning
+  and time travel for auditing or historical reprocessing, as in
+  [Roksolana Diachuk's]({{ '/people/roksolanadiachuk/' | relative_url }})
+  big-data engineering example
+  ([Big Data Engineer vs Data Scientist]({{ '/podcasts/big-data-engineer-vs-data-scientist/' | relative_url }}),
+  58:05-1:00:25).
+- Keep either choice tied to
+  [governance]({{ '/wiki/data-governance/' | relative_url }}) because
+  [Natalie Kwong's]({{ '/people/nataliekwong/' | relative_url }})
+  data-swamp warning shows the ownership risk
+  ([ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
+  19:50-21:22).
+  [Lars Albertsson's]({{ '/people/larsalbertsson/' | relative_url }})
+  DataOps platform chapters add why quality and lineage matter
+  ([DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}),
+  16:42-35:57 and 1:04:18-1:07:52).
+- Keep either choice tied to
+  [orchestration]({{ '/wiki/orchestration/' | relative_url }}) because teams
+  need repeatable work around table ingestion, transformation, testing, and
+  recovery. [Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }})
+  discusses this through workflow tools such as Airflow and Dagster in
+  [Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}).
+  Albertsson places workflow engines inside scalable platform architecture
+  ([DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}),
+  30:34-35:57).
 - Don't use the comparison to avoid the warehouse-versus-lakehouse question.
   If a warehouse-centered ELT system already serves the work, improve
   [dbt]({{ '/wiki/dbt/' | relative_url }}),
@@ -216,7 +233,7 @@ Start with the platform requirement, not the table-format name.
 
 ## Related Pages
 
-These pages provide the surrounding archive context:
+These pages provide the surrounding context:
 
 - [Delta Lake]({{ '/wiki/delta-lake/' | relative_url }})
 - [Apache Iceberg]({{ '/wiki/apache-iceberg/' | relative_url }})

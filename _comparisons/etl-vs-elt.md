@@ -226,21 +226,45 @@ that's good enough for exploration may still fail when used for
 
 Start from the target and the failure mode.
 
-- Use ETL if the target must receive masked, joined, filtered, or ready-to-use
-  data.
-- Use ETL if pre-load validation protects compliance, data volume, ordering, or
-  operational constraints.
-- Use ELT if future business questions require raw source detail and flexible
-  SQL modeling.
-- Use ELT if analytics engineers or analysts own the transformation layer and
-  can maintain tests, docs, and dependencies.
-- Use either pipeline choice only with clear ownership, lineage, and quality
-  checks.
+- Use ETL if the target must receive curated data before storage.
+  [Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) shows the CAC
+  transform-before-load case in
+  [ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})
+  at 6:37.
+- Use ETL if pre-load validation protects compliance or operational constraints
+  because [Santona Tuli]({{ '/people/santonatuli/' | relative_url }}) puts
+  ingestion-stage deduplication together with ordering guarantees and PII
+  masking in
+  [Modern Data Pipeline Architecture]({{ '/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/' | relative_url }})
+  at 37:10.
+- Use ELT if future business questions require raw source detail.
+  Kwong ties load-first design to flexible warehouse-side SQL models in
+  [ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})
+  at 7:57-12:39.
+- Use ELT when analytics engineers or analysts own the transformation layer.
+  They need tested models and documented dependencies.
+  [Victoria Perez Mola]({{ '/people/victoriaperezmola/' | relative_url }})
+  covers dbt tests and DAGs at 6:49-10:04 in
+  [Analytics Engineer Skills and Tools]({{ '/podcasts/analytics-engineer-skills-tools/' | relative_url }}).
+  [Juan Manuel Perafan]({{ '/people/juanmanuelperafan/' | relative_url }})
+  covers software engineering rigor at 11:03 and 46:34 in
+  [Foundations of the Analytics Engineer Role]({{ '/podcasts/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices/' | relative_url }}).
+- Use either pipeline choice only when owners can trace lineage and run quality checks.
+  [Lars Albertsson]({{ '/people/larsalbertsson/' | relative_url }}) links
+  active datasets to versioned code and lineage at 1:04:18 in
+  [DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}).
+  [Arpit Choudhury]({{ '/people/arpitchoudhury/' | relative_url }})
+  shows why warehouse quality matters at 28:52-37:25 in
+  [Data-Led Growth, Event Tracking, and Reverse ETL]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }}).
 
-The interviews give a practical rule: transform early when the target needs
-protection. Load first when the team needs future modeling flexibility.
-Don't use ELT as a reason to ignore governance. Don't use ETL as a reason to
-hide source detail that future teams will need.
+Transform early when the target needs protection, as Kwong and Tuli show in
+curated-metric and ingestion-control examples. Load first when the team needs
+future modeling flexibility. Keep governance explicit because Kwong warns that
+unmanaged raw zones can become data swamps
+([ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
+21:22 and 43:02). Don't use ELT as a reason to postpone ownership, lineage, or
+quality checks. Don't use ETL as a reason to hide source detail that future
+teams will need.
 
 ## Related Pages
 

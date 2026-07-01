@@ -22,16 +22,24 @@ related_wiki:
 ---
 
 A product analyst helps product teams understand how users move through a
-product. They identify where the experience breaks down and whether changes
-improve the metrics the team cares about. The role brings together
+product. They identify where the experience breaks down and whether the product
+captures that behavior correctly. In
+[the Data-Led Growth episode]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }}),
+[Arpit Choudhury]({{ '/people/arpitchoudhury/' | relative_url }}) ties that
+work to a defined event set at 13:34-18:27. That event set covers event names,
+properties, owners and capture locations. Product analysts combine
 [product analytics]({{ '/wiki/product-analytics/' | relative_url }}) and
-[event tracking]({{ '/wiki/event-tracking/' | relative_url }}). It also covers
-metric definition, dashboarding, experiment analysis, and stakeholder
-communication.
+[event tracking]({{ '/wiki/event-tracking/' | relative_url }}), then extend
+into metric definition, dashboarding and experiment analysis with stakeholders.
 
-The role goes beyond dashboards because product analysts define the question
-and check whether the data can answer it. They analyze user behavior, explain
-the tradeoffs, and help the team decide what to do next.
+Product analysts go beyond dashboards because they define the question and
+check whether the data can answer it. They analyze user behavior, explain the
+tradeoffs, and help the team decide what to do next. For experiments,
+[Jakob Graff]({{ '/people/jakobgraff/' | relative_url }}) frames A/B testing as
+causal measurement under noisy live conditions in
+[A/B Testing and Product Experimentation]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }})
+at 8:13-14:27. He then connects assignment tracking, metric stability, and
+power to trustworthy product decisions at 24:44-40:23.
 
 ## Product Analyst Responsibilities
 
@@ -317,7 +325,7 @@ Strong portfolio examples can draw on these podcast examples:
 
 ## Related Pages
 
-Use these archive-backed pages for deeper product analytics context:
+Use these pages for deeper product analytics context:
 
 - [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }})
 - [Event Tracking]({{ '/wiki/event-tracking/' | relative_url }})

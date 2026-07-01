@@ -20,7 +20,7 @@ candidate search. A data science headhunter does the more active version of the
 work. They map the market, contact people who aren't applying, and help both
 sides decide whether the role is a fit.
 
-The DataTalks.Club archive treats recruiting as more than keyword matching. In
+DataTalks.Club guests treat recruiting as more than keyword matching. In
 [Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }}),
 [Alicja Notowska]({{ '/people/alicjanotowska/' | relative_url }}) describes
 recruiters working with hiring managers on the full funnel. The work includes
@@ -257,20 +257,55 @@ their market, priorities, and alternatives.
 ## Choosing a Data Science Recruiter
 
 For a company, the useful data science recruiter asks about the problem before
-asking for a keyword list. They should want to know the team structure,
-technical depth, and seniority. Salary range, interview plan, and tradeoffs
-matter too. They should be willing to say when the market won't support the
-spec.
+asking for a keyword list.
+[Alicja Notowska]({{ '/people/alicjanotowska/' | relative_url }}) describes
+that recruiter-manager calibration in
+[Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }}).
+The recruiter helps write the job spec and sourcing plan. They also handle
+screening, salary conversation, and offer communication. That connects
+recruiter choice to [Hiring]({{ '/wiki/hiring/' | relative_url }}) and
+[Job Descriptions]({{ '/wiki/job-descriptions/' | relative_url }}).
+
+The recruiter should ask about team structure, technical depth, and seniority.
+They should also discuss salary range, interview plan, and tradeoffs, and they
+should be willing to say when the market won't support the spec.
+
+For a company choosing a headhunter,
+[Luke Whipps]({{ '/people/lukewhipps/' | relative_url }}) gives a practical
+benchmark in
+[Land Data Scientist Roles]({{ '/podcasts/get-data-scientist-job/' | relative_url }}).
+He describes role definition and market guidance. He also covers headhunting
+and shortlists, then interview preparation, feedback, and negotiation. The
+recruiter should be able to explain how they map the candidate market and what
+evidence they use before outreach. They should also explain how they keep
+feedback moving between the hiring manager and the candidate.
 
 For a candidate, the useful data scientist headhunter can explain the role
-beyond the title. They know whether the job is product analytics, applied ML, or
-experimentation. They can also separate platform-adjacent work from management.
-They prepare you for the interview stage without coaching you into a false
-profile. They also give clear feedback when they can.
+beyond the title.
+[Tereza Iofciu]({{ '/people/terezaiofciu/' | relative_url }}) warns in
+[Data Science Jobs]({{ '/podcasts/data-science-job-red-flags-and-mismatched-roles/' | relative_url }})
+that a data scientist title can hide data engineering or dashboarding. It can
+also hide first-data-hire cleanup or undefined data work. A useful recruiter
+can say whether the role centers on product analytics, applied ML, or
+experimentation. They can also separate platform-adjacent work from management,
+and that answer should fit the
+[Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }}) and
+[Job Search]({{ '/wiki/job-search/' | relative_url }}) questions you're
+already using.
 
-The archive's common lesson is simple: recruiting works when it makes the match
-specific. The recruiter surfaces candidates, the company defines the work, and
-the candidate shows evidence. When all three parts are present, a data science
-recruiter can shorten the path to a strong hire. When one part is missing, the
-process usually produces vague screens, noisy CV matching, and misaligned
-interviews.
+Interview clarity is part of the same test.
+[Olga Ivina]({{ '/people/olgaivina/' | relative_url }}) connects hiring
+criteria to role fit in
+[How to Hire Data Scientists]({{ '/podcasts/hiring-for-data-science-jobs-interview-questions-skills.md/' | relative_url }}).
+If the recruiter can't explain what each interview stage tests, you have little
+evidence that the interview plan matches the job. They should prepare you for
+the next stage without coaching you into a false profile. They should also give
+clear feedback when they can.
+
+A recruiter helps most when they make the match specific. They surface
+candidates while the company defines the work and the candidate shows evidence
+through the
+[CV Screening]({{ '/wiki/cv-screening/' | relative_url }}) and interview
+stages. When all three parts are present, a data science recruiter can shorten
+the path to a strong hire. When one part is missing, hiring teams usually get
+vague screens, noisy CV matching, and misaligned interviews.
