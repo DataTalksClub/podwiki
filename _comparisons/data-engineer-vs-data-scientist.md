@@ -5,7 +5,8 @@ keyword: "data engineer vs data scientist"
 secondary_keywords:
   - data scientist vs data engineer
   - data engineering vs data science
-summary: "A podcast-grounded comparison for deciding whether a team needs data engineering ownership, data science ownership, or both."
+  - data engineering and data science
+summary: "A podcast-grounded comparison for deciding whether a team needs data engineering ownership, data science ownership, or both, and how the two roles work together."
 related_wiki:
   - Data Engineer vs Data Scientist
   - Data Engineer Role
@@ -20,13 +21,19 @@ They don't own the same risk. A data engineer owns the path that makes data
 available, dependable, documented, and reusable. A data scientist owns the path
 from question to evidence, model, experiment, or decision.
 
+The two roles work inside the same data product lifecycle. Data engineering
+keeps the data path dependable, while data science turns that data into a
+decision rule, experiment, or model. It can also turn data into product
+behavior. The handoff matters most when a model, metric, or data product needs
+both reliable inputs and clear interpretation.
+
 Start with
 [Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }}).
-At 11:17, [Alexey Grigorev]({{ '/people/alexeygrigorev/' | relative_url }})
-separates data scientists from analysts through prediction and product
-integration. At 13:58, he describes data engineers as the people who make
-product data usable without burdening production systems. At 30:01, the data
-engineering boundary sits around the data that other roles depend on.
+At 11:17, the episode separates data scientists from analysts through
+prediction and product integration. At 13:58, data engineers appear as the
+people who make product data usable without burdening production systems. At
+30:01, the data engineering boundary sits around the data that other roles
+depend on.
 
 Use the [Data Engineer vs Data Scientist]({{ '/wiki/data-engineer-vs-data-scientist/' | relative_url }})
 wiki page for the full archive reference. Use
@@ -133,6 +140,18 @@ When the work crosses the boundary, write down the handoff. Name who owns the
 source data, feature table, and model artifact. Then name who owns the batch
 job, online endpoint, monitoring signal, and rollback decision.
 
+For a shared project, start with the smallest reliable path that can answer the
+question. Review the source schema, quality history, permissions, and refresh
+cadence before the team chooses tools. Build a baseline before proposing a
+complex model or platform. Productionize only what survives evaluation, then add
+MLOps or ML engineering when several people depend on the predictions.
+
+A strong bridge project can show both sides without pretending one person owns
+everything. Ingest raw data, document the schema, and train a baseline model.
+Then write predictions to a table and monitor freshness or model quality. That
+makes the collaboration visible: data engineering proves the path can run again,
+and data science proves the result supports a real decision.
+
 ## Hiring Signals
 
 For data engineering, hiring screens usually ask for implementation depth.
@@ -145,6 +164,13 @@ fundamentals and project storytelling in
 [Hiring Data Engineers in Europe]({{ '/podcasts/hiring-for-data-engineering-jobs-in-europe/' | relative_url }})
 at 31:16 and 39:41. At 44:35 and 54:25, he adds portfolio or GitHub evidence.
 At 55:53 and 58:05, he adds domain fit.
+
+[Slawomir Tulski]({{ '/people/slawomirtulski/' | relative_url }}) adds a newer
+data-engineering split in
+[Data Engineer Career in 2026]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }}).
+At 11:54, platform data engineering and product-facing data engineering need
+different evidence. At 25:33-30:56, cost awareness and avoiding overbuilt
+platforms become senior signals.
 
 For data science, hiring screens usually ask for problem framing. Oleg's
 episode asks candidates to tailor the story to the role spectrum. Product data

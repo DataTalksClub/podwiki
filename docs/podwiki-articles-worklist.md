@@ -102,7 +102,7 @@ data-engineering-manager/data-engineer-manager cluster was consolidated into
 | apache-airflow | orchestration | **done: consolidated into `_wiki/orchestration.md`; dup of airflow** |
 | airflow-docker-compose | orchestration | **done: consolidated into `_wiki/orchestration.md`; thin how-to** |
 | analytics-engineer | analytics-engineering | **done: consolidated into `_wiki/analytics-engineering.md`** |
-| data-engineering-and-data-science | data-engineer-vs-data-scientist | |
+| data-engineering-and-data-science | data-engineer-vs-data-scientist | **done: consolidated into `_comparisons/data-engineer-vs-data-scientist.md`** |
 | data-engineering-certification | data-engineering-certification | **done: slug collision merged** |
 | data-engineering-manager | leadership | **done: consolidated into `_wiki/leadership.md`** |
 | data-engineer-manager | leadership | **done: consolidated into `_wiki/leadership.md`; dup of data-engineering-manager** |

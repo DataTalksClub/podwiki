@@ -251,6 +251,6 @@ Use these pages for adjacent roles, projects, interviews, and boundaries.
 - [Data Products]({{ '/wiki/data-products/' | relative_url }})
 - [Communication]({{ '/wiki/communication/' | relative_url }})
 - [Technical Writing]({{ '/wiki/technical-writing/' | relative_url }})
-- [Data Engineering and Data Science]({{ '/comparisons/data-engineering-and-data-science/' | relative_url }})
+- [Data Engineer vs Data Scientist comparison]({{ '/comparisons/data-engineer-vs-data-scientist/' | relative_url }})
 - [Data Scientist Interview Prep]({{ '/guides/data-scientist-interview/' | relative_url }})
 - [Data Scientist Guide]({{ '/guides/data-scientist/' | relative_url }})

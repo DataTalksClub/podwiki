@@ -37,7 +37,7 @@ The question is whether the work primarily makes data dependable for others or
 turns data into a decision. It may also turn data into a model, experiment, or
 product feature
 ([Big Data Engineer vs Data Scientist]({{ '/podcasts/big-data-engineer-vs-data-scientist/' | relative_url }}),
-[Data Engineering and Data Science]({{ '/comparisons/data-engineering-and-data-science/' | relative_url }})).
+[Data Engineer vs Data Scientist comparison]({{ '/comparisons/data-engineer-vs-data-scientist/' | relative_url }})).
 
 Use the short
 [Data Engineer vs Data Scientist comparison]({{ '/comparisons/data-engineer-vs-data-scientist/' | relative_url }})
@@ -311,4 +311,4 @@ Use these pages for adjacent role boundaries, tools, and career paths.
 - [Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }})
 - [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
 - [Job Descriptions]({{ '/wiki/job-descriptions/' | relative_url }})
-- [Data Engineering and Data Science]({{ '/comparisons/data-engineering-and-data-science/' | relative_url }})
+- [Data Engineer vs Data Scientist comparison]({{ '/comparisons/data-engineer-vs-data-scientist/' | relative_url }})
