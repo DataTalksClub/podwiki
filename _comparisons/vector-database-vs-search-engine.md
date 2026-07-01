@@ -209,13 +209,13 @@ constraints, and production measurement remain search work.
 Atita's 52:07 section in
 [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
 extends vector databases beyond RAG into session-based recommendations and
-reranking. That connects the comparison to
-[machine learning]({{ '/wiki/machine-learning/' | relative_url }}) systems
-where the retrieved item may be an image or product. It may also be a session
-or recommendation candidate rather than a document chunk. The search engine
-side still matters when the product experience depends on filters, metadata,
-and current item state. It also matters when ranking rules and measurable
-relevance drive the experience.
+reranking. In
+[machine learning]({{ '/wiki/machine-learning/' | relative_url }}) systems,
+the retrieved item may be an image or product. It may also be a session or
+recommendation candidate rather than a document chunk. The search engine side
+still matters when the product experience depends on filters and metadata.
+Current item state, ranking rules, and measurable relevance also belong on the
+search side.
 
 ## Operations and Migration
 

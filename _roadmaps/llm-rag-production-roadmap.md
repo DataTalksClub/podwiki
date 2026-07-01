@@ -118,8 +118,8 @@ Debug RAG by separating retrieval failures from generation failures.
 missing, chunks are weak, or ranking returns the wrong evidence. Generation may
 fail because prompt formatting is unclear or the model ignores context.
 
-[Daniel Svonava]({{ '/people/danielsvonava/' | relative_url }}) connects this
-to search engineering in
+[Daniel Svonava]({{ '/people/danielsvonava/' | relative_url }}) shows the
+search-engineering side in
 [Building Production Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}).
 At 6:20 and 12:45, search quality depends on relevance, candidate generation,
 and ranking. At 16:45 and 30:22, chunking, ingestion, and embedding versioning
@@ -177,10 +177,10 @@ security version in
 At 13:20, knowledge-base exfiltration is a real failure mode. At 16:15 and
 17:00, output validation, query analysis, and non-LLM classifiers become part
 of a layered defense.
-That connects the final stage to
-[AI Red Teaming]({{ '/wiki/ai-red-teaming/' | relative_url }}) and to the
-monitoring concerns in
-[LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }}).
+Use [AI Red Teaming]({{ '/wiki/ai-red-teaming/' | relative_url }}) for
+adversarial testing and
+[LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
+for monitoring controls.
 
 ## Related Production Paths
 

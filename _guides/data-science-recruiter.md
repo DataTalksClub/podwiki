@@ -33,7 +33,7 @@ view.
 The recruiter defines the role, guides the company on the market, and builds a
 shortlist. They prepare candidates, gather feedback, and support the offer.
 
-That makes the best data science recruiter a translator between
+The best data science recruiter translates between
 [hiring]({{ '/wiki/hiring/' | relative_url }}), the
 [job search]({{ '/wiki/job-search/' | relative_url }}), and the actual
 [data scientist role]({{ '/wiki/data-scientist-role/' | relative_url }}). The
@@ -79,7 +79,7 @@ Portfolio work helps when it proves judgment, not when it only displays tools.
 [Ace Data Interviews]({{ '/podcasts/data-interview-behavioral-and-portfolio-prep-guide/' | relative_url }})
 that project walkthroughs should lead with impact, then support that claim with
 detail. He also warns candidates to mention only models and methods they can
-defend. That advice connects directly to
+defend. Recruiter-facing portfolio material should follow the same standard:
 [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
 and the
 [Data Scientist Interview Roadmap]({{ '/wiki/data-scientist-interview-roadmap/' | relative_url }}).
@@ -99,9 +99,9 @@ page uses the same role-targeting logic.
 ## Headhunter Value
 
 A headhunter is useful when the market is hard to see from inside the company.
-Luke Whipps describes a process that includes role definition and market
-guidance. It also includes headhunting and shortlists. Interview preparation,
-feedback, and negotiation also belong to that process in
+Luke Whipps puts role definition and market guidance before headhunting and
+shortlists. Interview preparation, feedback, and negotiation also belong in the
+headhunter's work in
 [Land Data Scientist Roles]({{ '/podcasts/get-data-scientist-job/' | relative_url }}).
 
 That's valuable when a company needs senior data science talent. It also helps
@@ -116,8 +116,8 @@ true when one role combines production ML, dashboarding, stakeholder
 management, and a low salary band. The recruiter should be able to show the
 company how each requirement narrows the pool.
 
-Recruiters also help candidates read the process. They can explain the next
-stage and the expected interview format. They can also clarify the salary band
+Recruiters also help candidates read the hiring sequence. They can explain the
+next stage and the expected interview format. They can also clarify the salary band
 and the urgency of the role. Later, they can help with interview feedback and
 offer timing. Oleg
 Novikov's hiring-funnel discussion in
@@ -150,8 +150,8 @@ as the employer's evaluation of the candidate.
 Recruiters also can't turn the wrong interview into a useful signal. If the
 role needs product analytics, a narrow algorithm puzzle may miss the point. If
 the role needs production ML, a dashboard-only interview may miss it too.
-[Olga Ivina]({{ '/people/olgaivina/' | relative_url }}) connects hiring
-criteria to role fit in
+[Olga Ivina]({{ '/people/olgaivina/' | relative_url }}) ties hiring criteria
+to role fit in
 [How to Hire Data Scientists]({{ '/podcasts/hiring-for-data-science-jobs-interview-questions-skills/' | relative_url }}):
 companies may need mathematical depth or engineering skill. Other roles need
 MLOps awareness, communication, or growth mindset.
@@ -168,7 +168,7 @@ doesn't have to be perfect, but it should cover five points.
 3. The support that already exists from data engineering, analytics, product,
    platform, or leadership.
 4. The true must-have skills and the skills someone can learn after joining.
-5. The evidence the interview process will test.
+5. The evidence the interviews will test.
 
 [Barbara Sobkowiak]({{ '/people/barbarasobkowiak/' | relative_url }}) draws the
 manager-versus-expert distinction in
@@ -226,7 +226,7 @@ Those points aren't a script for being difficult. They help both sides
 avoid the mismatch Tereza Iofciu describes in
 [Data Science Jobs]({{ '/podcasts/data-science-job-red-flags-and-mismatched-roles/' | relative_url }}).
 They also help you decide whether to invest time in a take-home task, technical
-round, or long interview process.
+round, or long interview sequence.
 
 ## Recruiter Screens, Interviews, and Offers
 
@@ -249,7 +249,7 @@ Offer conversations need the same clarity. Alicja Notowska discusses salary
 bands and transparency in
 [Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }}).
 She also covers high salary requests and offer communication. Luke Whipps
-connects salary signals, transparency with recruiters, and trust in
+pairs salary signals, transparency with recruiters, and trust in
 [Land Data Scientist Roles]({{ '/podcasts/get-data-scientist-job/' | relative_url }}).
 A recruiter can help with negotiation, but the candidate still needs to know
 their market, priorities, and alternatives.
@@ -262,8 +262,8 @@ asking for a keyword list.
 that recruiter-manager calibration in
 [Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }}).
 The recruiter helps write the job spec and sourcing plan. They also handle
-screening, salary conversation, and offer communication. That connects
-recruiter choice to [Hiring]({{ '/wiki/hiring/' | relative_url }}) and
+screening, salary conversation, and offer communication. Recruiter choice
+belongs with [Hiring]({{ '/wiki/hiring/' | relative_url }}) and
 [Job Descriptions]({{ '/wiki/job-descriptions/' | relative_url }}).
 
 The recruiter should ask about team structure, technical depth, and seniority.
@@ -294,8 +294,8 @@ and that answer should fit the
 already using.
 
 Interview clarity is part of the same test.
-[Olga Ivina]({{ '/people/olgaivina/' | relative_url }}) connects hiring
-criteria to role fit in
+[Olga Ivina]({{ '/people/olgaivina/' | relative_url }}) ties hiring criteria
+to role fit in
 [How to Hire Data Scientists]({{ '/podcasts/hiring-for-data-science-jobs-interview-questions-skills/' | relative_url }}).
 If the recruiter can't explain what each interview stage tests, you have little
 evidence that the interview plan matches the job. They should prepare you for

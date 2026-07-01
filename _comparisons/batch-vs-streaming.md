@@ -39,7 +39,7 @@ when the pipeline feeds a model-backed product.
 pipeline vocabulary in
 [From Notebooks to Production]({{ '/podcasts/production-ml-pipelines-with-aws-and-kafka/' | relative_url }}).
 Events land in systems such as Kafka or Kinesis. The team then decides whether
-to react immediately or store the data first and process it later.
+to react immediately or store the data first and transform it later.
 
 That framing keeps batch vs streaming away from tool fashion. The useful
 questions are latency, dependencies, and operating cost. They also include
@@ -204,7 +204,7 @@ service communication. Data teams consume the same topics for analytical
 pipelines.
 
 Without Avro or another schema practice, the stream becomes a
-shifting interface. Registry lookup, allowed schema changes, and a process for
+shifting interface. Registry lookup, allowed schema changes, and a change path for
 changes make the interface usable. That's why the batch vs streaming decision
 also touches
 [data governance]({{ '/wiki/data-governance/' | relative_url }}),
@@ -252,7 +252,7 @@ sets, and serve low-latency online features through a unified API in
 [Feature Stores for MLOps]({{ '/podcasts/mlops-feature-stores-feature-stores-feast-tecton/' | relative_url }}).
 
 Pure batch scoring or campaign use cases may not need a feature store. SQL,
-dbt, and validation may be enough. That connects batch vs streaming to
+dbt, and validation may be enough. Those choices belong with
 [MLOps]({{ '/wiki/mlops/' | relative_url }}),
 [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }}), and
 [machine learning infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }}).

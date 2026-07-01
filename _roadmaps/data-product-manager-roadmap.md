@@ -142,10 +142,12 @@ delivery. Business alignment belongs in that work too. At 52:44 and 55:32,
 small budgeted use cases need baseline measurement and post-implementation
 metrics.
 
-That connects the roadmap to
+Roadmap decisions need
 [Data Strategy]({{ '/wiki/data-strategy/' | relative_url }}),
 [Metrics]({{ '/wiki/metrics/' | relative_url }}), and
 [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }}).
+The PM has to compare business alignment, baseline measurement, and expected
+product impact before committing a team to a bet.
 For role boundaries, compare the roadmap responsibilities with
 [Data Product Owner vs Data Product Manager]({{ '/comparisons/data-product-owner-vs-data-product-manager/' | relative_url }})
 and

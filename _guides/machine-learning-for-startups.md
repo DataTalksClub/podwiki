@@ -174,8 +174,9 @@ User support became
 Inclusive UX mattered because the AI handled skin health rather than a low-risk
 consumer recommendation
 ([ethics and sensitive AI messaging at 24:08]({{ '/podcasts/building-ai-digital-health-startups/' | relative_url }})).
-That trust work also connects startup ML to
-[privacy engineering for ML]({{ '/wiki/privacy-engineering-for-ml/' | relative_url }}).
+For startup ML in sensitive domains, trust and
+[privacy engineering for ML]({{ '/wiki/privacy-engineering-for-ml/' | relative_url }})
+belong in the product design from the beginning.
 
 Samuylova adds the developer-tools version of the same data problem. In the
 Evidently discussion, she covers data safety and on-premise deployment. She
@@ -191,12 +192,12 @@ technical pipeline.
 Startup ML teams usually need generalists before specialists. Tran says early
 hiring should match prototype and MVP uncertainty. Cross-functional roles
 matter, and T-shaped engineers are useful before the team shifts toward
-specialists. He connects that shift to
+specialists. He grounds that shift in
 [startup hiring under prototype uncertainty at 28:57]({{ '/podcasts/building-data-team/' | relative_url }})
 and
 [mid-stage specialization at 33:35]({{ '/podcasts/building-data-team/' | relative_url }}).
-That connects ML hiring to [team building]({{ '/wiki/team-building/' | relative_url }})
-rather than to a fixed list of job titles.
+For ML startups, hiring is [team building]({{ '/wiki/team-building/' | relative_url }})
+rather than a fixed list of job titles.
 
 Radojkovic describes the same constraint from the MLOps side. Startups create
 [end-to-end ownership at 27:30]({{ '/podcasts/lean-mlops-for-startups/' | relative_url }})
@@ -228,7 +229,7 @@ to reach teams that needed to watch model behavior.
 
 Radojkovic gives the startup-scale version through
 [observability choices such as Logfire, Prometheus/Grafana, and Streamlit at 45:55]({{ '/podcasts/lean-mlops-for-startups/' | relative_url }}).
-He also connects reliability to
+He treats reliability as part of
 [data quality, lineage, and the extra unpredictability of LLM systems at 55:43]({{ '/podcasts/lean-mlops-for-startups/' | relative_url }}).
 
 Monitoring should follow the failure modes customers will notice:
@@ -249,7 +250,7 @@ In product-led ML teams, monitoring also supports prioritization.
 [Mariano Semelman]({{ '/people/marianosemelman/' | relative_url }}) ties data
 science work to user impact and experiments in
 [a product-first discussion at 29:29]({{ '/podcasts/data-science-leadership-hiring-mlops/' | relative_url }}).
-He also connects that work to deployment, fail-fast iteration, and
+He ties that work to deployment, fail-fast iteration, and
 [where modeling time delivers impact at 36:50]({{ '/podcasts/data-science-leadership-hiring-mlops/' | relative_url }}).
 Startup teams should spend modeling time where the next improvement changes a
 product metric or customer workflow, not where it only improves an offline

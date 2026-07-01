@@ -5,7 +5,7 @@ keyword: "data product manager vs product manager"
 secondary_keywords:
   - product manager vs data product manager
   - data pm vs product manager
-summary: "A podcast-grounded comparison of product manager and data product manager responsibilities, role boundaries, technical literacy, metrics, and adoption work."
+summary: "A comparison of product manager and data product manager responsibilities, role boundaries, technical literacy, metrics, and adoption work."
 related_wiki:
   - Data Product Management
   - Data Products
@@ -70,13 +70,12 @@ The data version changes who the customers are. Greg's internal data products
 served sales and marketing teams, finance, supply chain, and program teams. The
 product used curated pipelines and dashboards so sales teams could build
 contracts faster. Those dashboards combined routing and capacity data with
-demand and pricing. They also used competitor and marketing data
-([4:24-7:13]({{ '/podcasts/building-and-scaling-ai-data-products-with-mlops/' | relative_url }})).
-
-That context ties the role to
+demand and pricing. They also used competitor and marketing data, which is why
+the comparison needs the vocabulary of
 [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }}),
 [Data Products]({{ '/wiki/data-products/' | relative_url }}), and
-[Metrics]({{ '/wiki/metrics/' | relative_url }}).
+[Metrics]({{ '/wiki/metrics/' | relative_url }})
+([4:24-7:13]({{ '/podcasts/building-and-scaling-ai-data-products-with-mlops/' | relative_url }})).
 
 ## Product Manager Ownership
 
@@ -107,21 +106,24 @@ define the solution. Geo warns that PMs can jump too quickly to a favorite
 technical answer unless they spend time discussing the problem with users
 ([16:44-21:06]({{ '/podcasts/ml-product-manager-and-mlops-platform-strategy/' | relative_url }})).
 
-That boundary also applies outside data. A PM shouldn't turn a roadmap into a
-list of preferred tools. They should make the customer problem, outcome, and
-tradeoff clear enough that the technical team can design the right path.
+Outside data, a PM still shouldn't turn a roadmap into a list of preferred
+tools. They should make the customer problem, outcome, and tradeoff clear enough
+that the technical team can design the right path.
 
 ## Data Product Manager Additions
 
-A data product manager has to understand how data is produced, transformed,
-trusted, and consumed. Sara says a data PM should know how data moves from
-sources through transformations into warehouses and lakes. They should also
-understand how apps, analysis, and other data applications consume that data
+A data product manager has to understand how teams produce and transform data.
+They also need to know how people decide whether to trust and use it. Sara says
+a data PM should know how data moves from sources through transformations into
+warehouses and lakes. They should also understand how apps, analysis, and other
+data applications consume that data
 ([26:33-28:30]({{ '/podcasts/product-designer-to-data-product-manager/' | relative_url }})).
-That makes the role adjacent to
-[Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}),
-[Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }}),
-[Product Analytics]({{ '/wiki/product-analytics/' | relative_url }}), and
+
+In practice, data PM decisions often involve
+[Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}) and
+[Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }}).
+They also overlap with
+[Product Analytics]({{ '/wiki/product-analytics/' | relative_url }}) and
 [MLOps]({{ '/wiki/mlops/' | relative_url }}).
 
 The role also adds quality and governance concerns. Sara connects data product
@@ -141,10 +143,10 @@ endpoint. They also separated recommendation IDs from customer-facing content
 and supported A/B tests
 ([22:08-30:01]({{ '/podcasts/building-data-products-product-owner-vs-product-manager/' | relative_url }})).
 
-That's why data product management isn't only "PM plus SQL." The product may be
-a table, API, model, or dashboard. It may also be a metric, platform, or
-decision workflow. The PM has to understand enough of the data system to ask
-whether the team can trust and operate the product.
+Data product management isn't only "PM plus SQL." The product may be a table,
+API, model, or dashboard. It may also be a metric, platform, or decision
+workflow. The PM has to understand enough of the data system to ask whether the
+team can trust and operate the product.
 
 ## Users And Adoption
 
@@ -152,8 +154,8 @@ Product managers care about adoption. Data product managers care about adoption
 with an extra problem. Technically correct data can still fail if people can't
 find it, interpret it, trust it, or use it at the decision point.
 
-[Caitlin Moorman]({{ '/people/caitlinmoorman/' | relative_url }}) explains this
-in
+[Caitlin Moorman]({{ '/people/caitlinmoorman/' | relative_url }}) names this
+adoption failure in
 [Last-Mile Data Delivery]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }}).
 She argues that the data team hasn't delivered value when data merely reaches a
 warehouse, dashboard, or tool. The data still has to reach the meeting,
@@ -206,13 +208,13 @@ Geo adds observability metrics for ML platform impact, such as reducing model
 training time or measuring whether the platform improves deployment speed
 ([16:44-18:25]({{ '/podcasts/ml-product-manager-and-mlops-platform-strategy/' | relative_url }})).
 
-Caitlin adds a decision metric. An A/B testing reporting product shouldn't show
-every statistical detail by default. It should help a product manager decide
-whether to roll out a feature and understand the business impact
-([28:42-40:53]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }})).
-That connects the comparison to
+Caitlin adds a decision metric for
 [A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }}) and
 [Experimentation and Causal Inference]({{ '/wiki/experimentation-and-causal-inference/' | relative_url }}).
+An A/B testing reporting product shouldn't show every statistical detail by
+default. It should help a product manager decide whether to roll out a feature
+and understand the business impact
+([28:42-40:53]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }})).
 
 ## Technical Literacy
 

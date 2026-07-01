@@ -134,7 +134,7 @@ Embeddings alone aren't enough because Atita ties vector RAG quality to chunk
 boundaries and overlap. Source metadata, citation behavior, and retrieval
 evaluation matter too. In the same episode, she discusses
 prompt design and references at 42:49. At 48:09, she separates RAG evaluation
-into multiple levels. That connects vector RAG to
+into multiple levels, so vector RAG quality depends on
 [LLM evaluation workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }})
 as much as to vector storage.
 
@@ -181,13 +181,14 @@ documents or records, and graph traversal adds related entities. It can also add
 validated facts, dependency paths, or provenance. The prompt can then include
 text evidence and structured context.
 
-That design connects this comparison to
+Use
 [RAG]({{ '/wiki/rag/' | relative_url }}) and
-[Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }}).
-It also links the retrieval substrate to
+[Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
+for the wider retrieval architecture. Use
 [vector databases]({{ '/wiki/vector-databases/' | relative_url }}),
 [embeddings]({{ '/wiki/embeddings/' | relative_url }}), and
-[knowledge graph vs vector search]({{ '/comparisons/knowledge-graph-vs-vector-search/' | relative_url }}).
+[Knowledge Graph vs Vector Search]({{ '/comparisons/knowledge-graph-vs-vector-search/' | relative_url }})
+for the storage and retrieval layers behind the RAG choice.
 
 ## Context Packaging Changes the Prompt
 
@@ -210,9 +211,9 @@ queries for structured context, not only nearest text chunks
 dependency. It also helps with containment and explainable paths.
 
 The LLM doesn't care which datastore produced the context. It cares whether
-the prompt contains enough relevant, inspectable evidence. That's the bridge
-between this comparison and
-[search and RAG project design]({{ '/wiki/search-and-rag-project-checklist/' | relative_url }}).
+the prompt contains enough relevant, inspectable evidence. The
+[Search and RAG Project Checklist]({{ '/wiki/search-and-rag-project-checklist/' | relative_url }})
+turns that requirement into retrieval, citation, and evaluation checks.
 
 ## Evaluate the Retrieval Failure
 
