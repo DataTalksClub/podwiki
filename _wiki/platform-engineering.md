@@ -173,6 +173,10 @@ focus on reusable improvements instead of one-off fixes.
 The data-platform version appears in
 [self-service data platforms]({{ '/wiki/self-service-data-platforms/' | relative_url }})
 and [data engineering platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}).
+Use
+[Data Mesh vs Centralized Data Platform]({{ '/comparisons/data-mesh-vs-centralized-data-platform/' | relative_url }})
+when the platform question is whether domain teams or a shared platform own the
+data-product path.
 The ML version appears in [ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }}),
 [MLOps Tools]({{ '/wiki/mlops-tools/' | relative_url }}), and
 [MLOps Architecture]({{ '/guides/mlops-architecture/' | relative_url }}).

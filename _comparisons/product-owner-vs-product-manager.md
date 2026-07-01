@@ -12,7 +12,6 @@ related_wiki:
   - Data Products
   - Data Product Adoption
   - Data Mesh
-  - Data Mesh vs Centralized Data Platform
   - ML Product Manager Role
   - Product Analytics
   - Data Teams
@@ -171,7 +170,7 @@ ticket owner. The owner has to know what producers can promise and what
 consumers need before they can trust the data. Use this section with
 [Data Products]({{ '/wiki/data-products/' | relative_url }}),
 [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}),
-[Data Mesh vs Centralized Data Platform]({{ '/wiki/data-mesh-vs-centralized-data-platform/' | relative_url }}),
+[Data Mesh vs Centralized Data Platform]({{ '/comparisons/data-mesh-vs-centralized-data-platform/' | relative_url }}),
 and [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }}).
 
 ## Technical Literacy
@@ -293,7 +292,7 @@ These pages cover the surrounding roles, topics, and comparisons:
 - [Data Product Owner vs Data Product Manager]({{ '/comparisons/data-product-owner-vs-data-product-manager/' | relative_url }})
 - [Data Product Manager vs Product Manager]({{ '/comparisons/data-product-manager-vs-product-manager/' | relative_url }})
 - [Data Mesh]({{ '/wiki/data-mesh/' | relative_url }})
-- [Data Mesh vs Centralized Data Platform]({{ '/wiki/data-mesh-vs-centralized-data-platform/' | relative_url }})
+- [Data Mesh vs Centralized Data Platform]({{ '/comparisons/data-mesh-vs-centralized-data-platform/' | relative_url }})
 - [ML Product Manager Role]({{ '/wiki/ml-product-manager-role/' | relative_url }})
 - [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }})
 - [Data Teams]({{ '/wiki/data-teams/' | relative_url }})

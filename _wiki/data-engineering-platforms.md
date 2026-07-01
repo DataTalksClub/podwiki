@@ -97,7 +97,7 @@ discussion asks when decentralization creates governance risks and
 reproducibility risks
 ([DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}),
 57:46-1:04:18). Use
-[Data Mesh vs Centralized Data Platform]({{ '/wiki/data-mesh-vs-centralized-data-platform/' | relative_url }})
+[Data Mesh vs Centralized Data Platform]({{ '/comparisons/data-mesh-vs-centralized-data-platform/' | relative_url }})
 for that ownership comparison.
 
 Guests also differ on how much infrastructure a team should buy or build.
@@ -197,7 +197,7 @@ governance are part of the same interface
 A centralized platform can publish those guarantees. A Data Mesh
 approach asks domains to own them on top of shared platform
 capabilities
-([Data Mesh vs Centralized Data Platform]({{ '/wiki/data-mesh-vs-centralized-data-platform/' | relative_url }})).
+([Data Mesh vs Centralized Data Platform]({{ '/comparisons/data-mesh-vs-centralized-data-platform/' | relative_url }})).
 
 [Caitlin Moorman]({{ '/people/caitlinmoorman/' | relative_url }}) provides the
 adoption test for data products. A platform output isn't finished when a table
@@ -332,4 +332,4 @@ Use these pages for adjacent platform, governance, and delivery topics.
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }})
 - [Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
-- [Data Mesh vs Centralized Data Platform]({{ '/wiki/data-mesh-vs-centralized-data-platform/' | relative_url }})
+- [Data Mesh vs Centralized Data Platform]({{ '/comparisons/data-mesh-vs-centralized-data-platform/' | relative_url }})

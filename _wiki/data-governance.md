@@ -100,6 +100,10 @@ to [Data Mesh]({{ '/wiki/data-mesh/' | relative_url }}). Domains can own data
 products, but shared primitives still cover identity and authorization. They
 also cover metadata, retention, and validation.
 
+Use
+[Data Mesh vs Centralized Data Platform]({{ '/comparisons/data-mesh-vs-centralized-data-platform/' | relative_url }})
+for the ownership boundary behind that governance choice.
+
 [Katharine Jarmul]({{ '/people/katharinejarmul/' | relative_url }}) moves the
 boundary toward privacy risk in
 [Data Privacy Engineering, GDPR, and Machine Learning]({{ '/podcasts/data-privacy-engineering-gdpr-machine-learning/' | relative_url }}).
@@ -258,6 +262,7 @@ Use these pages for adjacent governance concepts:
 
 - [Governance]({{ '/wiki/governance/' | relative_url }})
 - [Data Mesh]({{ '/wiki/data-mesh/' | relative_url }})
+- [Data Mesh vs Centralized Data Platform]({{ '/comparisons/data-mesh-vs-centralized-data-platform/' | relative_url }})
 - [Data Products]({{ '/wiki/data-products/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})

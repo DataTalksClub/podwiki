@@ -1,17 +1,17 @@
 {
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
-    "wikis": 176,
-    "articles": 48,
+    "wikis": 175,
+    "articles": 49,
     "guides": 19,
-    "comparisons": 18,
+    "comparisons": 19,
     "roadmaps": 9,
     "how_tos": 2,
     "podcasts": 202,
     "persons": 438,
     "topics": 145,
     "nodes": 1009,
-    "links": 10551
+    "links": 10552
   },
   "nodes": [
     {
@@ -112,6 +112,17 @@
       "count": 1,
       "search": "Data Engineer vs Data Scientist A podcast grounded comparison for deciding whether a team needs data engineering ownership, data science ownership, or both, and how the two roles work together.",
       "keyword": "data engineer vs data scientist"
+    },
+    {
+      "id": "article:comparison:data-mesh-vs-centralized-data-platform",
+      "type": "article",
+      "collection": "comparison",
+      "label": "Data Mesh vs Centralized Data Platform",
+      "title": "Data Mesh vs Centralized Data Platform",
+      "url": "/comparisons/data-mesh-vs-centralized-data-platform/",
+      "count": 1,
+      "search": "Data Mesh vs Centralized Data Platform How DataTalks.Club podcast guests compare domain owned data products with centralized platform ownership through architecture, governance, self service, reliability, and organizational maturity.",
+      "keyword": "data mesh vs centralized data platform"
     },
     {
       "id": "article:guide:data-observability-for-data-engineering",
@@ -8778,16 +8789,6 @@
       "search": "Data Mesh How the podcast archive explains Data Mesh as domain owned data products, explicit contracts, self service platforms, and federated governance."
     },
     {
-      "id": "wiki:data-mesh-vs-centralized-data-platform",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "Data Mesh vs Centralized Data Platform",
-      "title": "Data Mesh vs Centralized Data Platform",
-      "url": "/wiki/data-mesh-vs-centralized-data-platform/",
-      "count": 1,
-      "search": "Data Mesh vs Centralized Data Platform A podcast grounded comparison of domain owned data products and centralized platform ownership through architecture, governance, self service, reliability, and organizational maturity."
-    },
-    {
       "id": "wiki:data-observability",
       "type": "wiki",
       "collection": "wiki",
@@ -10731,6 +10732,192 @@
       "weight": 4
     },
     {
+      "source": "article:comparison:data-mesh-vs-centralized-data-platform",
+      "target": "person:16rahuljain",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-mesh-vs-centralized-data-platform",
+      "target": "person:bartvandekerckhove",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-mesh-vs-centralized-data-platform",
+      "target": "person:caitlinmoorman",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-mesh-vs-centralized-data-platform",
+      "target": "person:larsalbertsson",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-mesh-vs-centralized-data-platform",
+      "target": "person:mehdiouazza",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-mesh-vs-centralized-data-platform",
+      "target": "person:zhamakdehghani",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-mesh-vs-centralized-data-platform",
+      "target": "podcast:data-engineering-leadership-and-modern-data-platforms",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-mesh-vs-centralized-data-platform",
+      "target": "podcast:data-governance-data-access-management",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:comparison:data-mesh-vs-centralized-data-platform",
+      "target": "podcast:data-mesh-architecture-decentralized-data-products",
+      "kind": "article-link",
+      "weight": 24
+    },
+    {
+      "source": "article:comparison:data-mesh-vs-centralized-data-platform",
+      "target": "podcast:dataops-principles-and-scalable-data-platforms",
+      "kind": "article-link",
+      "weight": 14
+    },
+    {
+      "source": "article:comparison:data-mesh-vs-centralized-data-platform",
+      "target": "podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:comparison:data-mesh-vs-centralized-data-platform",
+      "target": "podcast:scaling-data-engineering-teams-self-service-platforms",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:comparison:data-mesh-vs-centralized-data-platform",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:comparison:data-mesh-vs-centralized-data-platform",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:data-mesh-vs-centralized-data-platform",
+      "target": "wiki:data-governance",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-mesh-vs-centralized-data-platform",
+      "target": "wiki:data-governance",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:data-mesh-vs-centralized-data-platform",
+      "target": "wiki:data-mesh",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-mesh-vs-centralized-data-platform",
+      "target": "wiki:data-mesh",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:data-mesh-vs-centralized-data-platform",
+      "target": "wiki:data-products",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:comparison:data-mesh-vs-centralized-data-platform",
+      "target": "wiki:data-products",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:data-mesh-vs-centralized-data-platform",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-mesh-vs-centralized-data-platform",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:data-mesh-vs-centralized-data-platform",
+      "target": "wiki:dataops",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-mesh-vs-centralized-data-platform",
+      "target": "wiki:dataops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:data-mesh-vs-centralized-data-platform",
+      "target": "wiki:modern-data-stack",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-mesh-vs-centralized-data-platform",
+      "target": "wiki:platform-adoption",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-mesh-vs-centralized-data-platform",
+      "target": "wiki:platform-adoption",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:data-mesh-vs-centralized-data-platform",
+      "target": "wiki:platform-engineering",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-mesh-vs-centralized-data-platform",
+      "target": "wiki:platform-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:data-mesh-vs-centralized-data-platform",
+      "target": "wiki:self-service-data-platforms",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:comparison:data-mesh-vs-centralized-data-platform",
+      "target": "wiki:self-service-data-platforms",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
       "source": "article:comparison:data-product-manager-vs-product-manager",
       "target": "article:comparison:data-product-owner-vs-data-product-manager",
       "kind": "article-link",
@@ -10937,6 +11124,12 @@
     {
       "source": "article:comparison:data-product-manager-vs-product-manager",
       "target": "wiki:self-service-data-platforms",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-product-owner-vs-data-product-manager",
+      "target": "article:comparison:data-mesh-vs-centralized-data-platform",
       "kind": "article-link",
       "weight": 2
     },
@@ -13030,6 +13223,12 @@
     },
     {
       "source": "article:comparison:product-owner-vs-product-manager",
+      "target": "article:comparison:data-mesh-vs-centralized-data-platform",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:product-owner-vs-product-manager",
       "target": "article:comparison:data-product-manager-vs-product-manager",
       "kind": "article-link",
       "weight": 4
@@ -13127,18 +13326,6 @@
     {
       "source": "article:comparison:product-owner-vs-product-manager",
       "target": "wiki:data-mesh",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:comparison:product-owner-vs-product-manager",
-      "target": "wiki:data-mesh-vs-centralized-data-platform",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:comparison:product-owner-vs-product-manager",
-      "target": "wiki:data-mesh-vs-centralized-data-platform",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -45640,6 +45827,12 @@
     },
     {
       "source": "wiki:data-engineering-platforms",
+      "target": "article:comparison:data-mesh-vs-centralized-data-platform",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:data-engineering-platforms",
       "target": "article:comparison:data-warehouse-vs-data-lakehouse",
       "kind": "wiki-link",
       "weight": 4
@@ -45817,12 +46010,6 @@
       "target": "wiki:data-lake",
       "kind": "wiki-link",
       "weight": 2
-    },
-    {
-      "source": "wiki:data-engineering-platforms",
-      "target": "wiki:data-mesh-vs-centralized-data-platform",
-      "kind": "wiki-link",
-      "weight": 6
     },
     {
       "source": "wiki:data-engineering-platforms",
@@ -46822,6 +47009,12 @@
     },
     {
       "source": "wiki:data-governance",
+      "target": "article:comparison:data-mesh-vs-centralized-data-platform",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-governance",
       "target": "person:bartvandekerckhove",
       "kind": "wiki-link",
       "weight": 2
@@ -47350,6 +47543,12 @@
     },
     {
       "source": "wiki:data-mesh",
+      "target": "article:comparison:data-mesh-vs-centralized-data-platform",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-mesh",
       "target": "person:bartvandekerckhove",
       "kind": "wiki-link",
       "weight": 2
@@ -47422,18 +47621,6 @@
     },
     {
       "source": "wiki:data-mesh",
-      "target": "wiki:data-mesh-vs-centralized-data-platform",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:data-mesh",
-      "target": "wiki:data-mesh-vs-centralized-data-platform",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:data-mesh",
       "target": "wiki:data-products",
       "kind": "wiki-link",
       "weight": 6
@@ -47485,186 +47672,6 @@
       "target": "wiki:self-service-data-platforms",
       "kind": "wiki-link",
       "weight": 4
-    },
-    {
-      "source": "wiki:data-mesh-vs-centralized-data-platform",
-      "target": "person:16rahuljain",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-mesh-vs-centralized-data-platform",
-      "target": "person:bartvandekerckhove",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-mesh-vs-centralized-data-platform",
-      "target": "person:caitlinmoorman",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-mesh-vs-centralized-data-platform",
-      "target": "person:larsalbertsson",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-mesh-vs-centralized-data-platform",
-      "target": "person:mehdiouazza",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-mesh-vs-centralized-data-platform",
-      "target": "person:zhamakdehghani",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-mesh-vs-centralized-data-platform",
-      "target": "podcast:data-engineering-leadership-and-modern-data-platforms",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-mesh-vs-centralized-data-platform",
-      "target": "podcast:data-governance-data-access-management",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:data-mesh-vs-centralized-data-platform",
-      "target": "podcast:data-mesh-architecture-decentralized-data-products",
-      "kind": "wiki-link",
-      "weight": 22
-    },
-    {
-      "source": "wiki:data-mesh-vs-centralized-data-platform",
-      "target": "podcast:dataops-principles-and-scalable-data-platforms",
-      "kind": "wiki-link",
-      "weight": 14
-    },
-    {
-      "source": "wiki:data-mesh-vs-centralized-data-platform",
-      "target": "podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack",
-      "kind": "wiki-link",
-      "weight": 6
-    },
-    {
-      "source": "wiki:data-mesh-vs-centralized-data-platform",
-      "target": "podcast:scaling-data-engineering-teams-self-service-platforms",
-      "kind": "wiki-link",
-      "weight": 6
-    },
-    {
-      "source": "wiki:data-mesh-vs-centralized-data-platform",
-      "target": "wiki:data-engineering-platforms",
-      "kind": "wiki-link",
-      "weight": 6
-    },
-    {
-      "source": "wiki:data-mesh-vs-centralized-data-platform",
-      "target": "wiki:data-engineering-platforms",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:data-mesh-vs-centralized-data-platform",
-      "target": "wiki:data-governance",
-      "kind": "wiki-link",
-      "weight": 6
-    },
-    {
-      "source": "wiki:data-mesh-vs-centralized-data-platform",
-      "target": "wiki:data-governance",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:data-mesh-vs-centralized-data-platform",
-      "target": "wiki:data-mesh",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:data-mesh-vs-centralized-data-platform",
-      "target": "wiki:data-mesh",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:data-mesh-vs-centralized-data-platform",
-      "target": "wiki:data-products",
-      "kind": "wiki-link",
-      "weight": 6
-    },
-    {
-      "source": "wiki:data-mesh-vs-centralized-data-platform",
-      "target": "wiki:data-products",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:data-mesh-vs-centralized-data-platform",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:data-mesh-vs-centralized-data-platform",
-      "target": "wiki:dataops",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:data-mesh-vs-centralized-data-platform",
-      "target": "wiki:dataops",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:data-mesh-vs-centralized-data-platform",
-      "target": "wiki:governance",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-mesh-vs-centralized-data-platform",
-      "target": "wiki:modern-data-stack",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-mesh-vs-centralized-data-platform",
-      "target": "wiki:platform-adoption",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:data-mesh-vs-centralized-data-platform",
-      "target": "wiki:platform-engineering",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:data-mesh-vs-centralized-data-platform",
-      "target": "wiki:platform-engineering",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:data-mesh-vs-centralized-data-platform",
-      "target": "wiki:self-service-data-platforms",
-      "kind": "wiki-link",
-      "weight": 6
-    },
-    {
-      "source": "wiki:data-mesh-vs-centralized-data-platform",
-      "target": "wiki:self-service-data-platforms",
-      "kind": "wiki-related",
-      "weight": 3
     },
     {
       "source": "wiki:data-observability",
@@ -48448,6 +48455,12 @@
     },
     {
       "source": "wiki:data-products",
+      "target": "article:comparison:data-mesh-vs-centralized-data-platform",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-products",
       "target": "article:guide:data-product-manager",
       "kind": "wiki-link",
       "weight": 6
@@ -48631,12 +48644,6 @@
       "target": "wiki:data-mesh",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:data-products",
-      "target": "wiki:data-mesh-vs-centralized-data-platform",
-      "kind": "wiki-link",
-      "weight": 4
     },
     {
       "source": "wiki:data-products",
@@ -65104,6 +65111,12 @@
     },
     {
       "source": "wiki:platform-engineering",
+      "target": "article:comparison:data-mesh-vs-centralized-data-platform",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:platform-engineering",
       "target": "article:guide:mlops-architecture",
       "kind": "wiki-link",
       "weight": 4
@@ -69982,6 +69995,12 @@
     },
     {
       "source": "wiki:self-service-data-platforms",
+      "target": "article:comparison:data-mesh-vs-centralized-data-platform",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:self-service-data-platforms",
       "target": "person:16rahuljain",
       "kind": "wiki-link",
       "weight": 2
@@ -70091,18 +70110,6 @@
     {
       "source": "wiki:self-service-data-platforms",
       "target": "wiki:data-governance",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:self-service-data-platforms",
-      "target": "wiki:data-mesh-vs-centralized-data-platform",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:self-service-data-platforms",
-      "target": "wiki:data-mesh-vs-centralized-data-platform",
       "kind": "wiki-related",
       "weight": 3
     },

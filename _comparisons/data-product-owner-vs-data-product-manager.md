@@ -101,7 +101,10 @@ whether the producer team, a middle team, or the consumer should build a
 derived product.
 That connects the role to [Data Mesh]({{ '/wiki/data-mesh/' | relative_url }}),
 [Data Governance]({{ '/wiki/data-governance/' | relative_url }}), and
-[Data Products]({{ '/wiki/data-products/' | relative_url }}).
+[Data Products]({{ '/wiki/data-products/' | relative_url }}). Use
+[Data Mesh vs Centralized Data Platform]({{ '/comparisons/data-mesh-vs-centralized-data-platform/' | relative_url }})
+when the role question depends on whether domains or a shared platform own the
+data-product interface.
 
 ## Data Product Manager
 

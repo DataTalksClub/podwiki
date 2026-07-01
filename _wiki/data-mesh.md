@@ -4,7 +4,6 @@ title: "Data Mesh"
 summary: "How the podcast archive explains Data Mesh as domain-owned data products, explicit contracts, self-service platforms, and federated governance."
 related:
   - Data Engineering Platforms
-  - Data Mesh vs Centralized Data Platform
   - Data Products
   - Data Governance
   - DataOps
@@ -104,7 +103,7 @@ the operational meaning should be accountable for the data product it publishes
 That accountability includes producer work, consumer communication, quality
 expectations, and change management.
 
-This is why [Data Mesh vs Centralized Data Platform]({{ '/wiki/data-mesh-vs-centralized-data-platform/' | relative_url }})
+This is why [Data Mesh vs Centralized Data Platform]({{ '/comparisons/data-mesh-vs-centralized-data-platform/' | relative_url }})
 is a real architecture and organization tradeoff. A centralized platform can
 still own storage, compute, workflow engines, and access primitives. It can
 also own shared standards. Data Mesh moves product meaning, prioritization, and consumer
@@ -230,7 +229,7 @@ data team has become a bottleneck.
 
 Use these adjacent pages for the main tradeoffs and implementation details.
 
-- [Data Mesh vs Centralized Data Platform]({{ '/wiki/data-mesh-vs-centralized-data-platform/' | relative_url }})
+- [Data Mesh vs Centralized Data Platform]({{ '/comparisons/data-mesh-vs-centralized-data-platform/' | relative_url }})
 - [Data Products]({{ '/wiki/data-products/' | relative_url }})
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
 - [Self-Service Data Platforms]({{ '/wiki/self-service-data-platforms/' | relative_url }})

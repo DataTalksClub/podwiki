@@ -9,7 +9,6 @@ related:
   - Data Engineering
   - Data Governance
   - Modern Data Stack
-  - Data Mesh vs Centralized Data Platform
 ---
 
 Self-service data platforms are shared systems and operating practices. They
@@ -68,7 +67,7 @@ platform abstractions, data product contracts, and metadata. Identity,
 authorization, and federated governance let domains publish useful data without
 centralizing every pipeline decision
 ([Data Mesh Implementation, 31:05-53:02]({{ '/podcasts/data-mesh-architecture-decentralized-data-products/' | relative_url }})).
-Use [Data Mesh vs Centralized Data Platform]({{ '/wiki/data-mesh-vs-centralized-data-platform/' | relative_url }})
+Use [Data Mesh vs Centralized Data Platform]({{ '/comparisons/data-mesh-vs-centralized-data-platform/' | relative_url }})
 for that ownership comparison.
 
 Maturity boundaries differ too because Lars warns pure self-service takes a
@@ -216,6 +215,6 @@ quality work:
 - [DataOps Platforms]({{ '/wiki/dataops-platforms/' | relative_url }})
 - [Data Governance]({{ '/wiki/data-governance/' | relative_url }})
 - [Platform Adoption]({{ '/wiki/platform-adoption/' | relative_url }})
-- [Data Mesh vs Centralized Data Platform]({{ '/wiki/data-mesh-vs-centralized-data-platform/' | relative_url }})
+- [Data Mesh vs Centralized Data Platform]({{ '/comparisons/data-mesh-vs-centralized-data-platform/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})

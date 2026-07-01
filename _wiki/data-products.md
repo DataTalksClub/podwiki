@@ -125,7 +125,7 @@ governance in the same platform layer
 [data quality and observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}),
 and [data engineering platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}).
 
-This is also where [data mesh vs centralized data platform]({{ '/wiki/data-mesh-vs-centralized-data-platform/' | relative_url }})
+This is also where [data mesh vs centralized data platform]({{ '/comparisons/data-mesh-vs-centralized-data-platform/' | relative_url }})
 becomes a real design question. A centralized platform can provide storage,
 lineage, access control, and workflow tooling. Data Mesh asks domain teams to
 own the product meaning and consumer commitments while the platform removes
@@ -239,7 +239,7 @@ These pages cover the adjacent roles, practices, and platform choices:
 - [Data Product Adoption]({{ '/wiki/data-product-adoption/' | relative_url }})
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
 - [Data Mesh]({{ '/wiki/data-mesh/' | relative_url }})
-- [Data Mesh vs Centralized Data Platform]({{ '/wiki/data-mesh-vs-centralized-data-platform/' | relative_url }})
+- [Data Mesh vs Centralized Data Platform]({{ '/comparisons/data-mesh-vs-centralized-data-platform/' | relative_url }})
 - [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
 - [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
 - [Data Activation]({{ '/wiki/data-activation/' | relative_url }})
