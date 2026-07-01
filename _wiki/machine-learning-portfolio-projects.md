@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Machine Learning Portfolio Projects"
-summary: "Archive-backed guidance for choosing machine learning portfolio projects that prove problem framing, baselines, data strategy, evaluation, production awareness, and maintainable code."
+summary: "Podcast-grounded guidance for choosing machine learning portfolio projects that prove problem framing, baselines, data strategy, evaluation, production awareness, and maintainable code."
 related:
   - Portfolio Projects
   - Machine Learning
@@ -17,7 +17,7 @@ related:
 
 A machine learning portfolio project is public evidence that a candidate can
 turn a decision problem into a working [machine learning]({{ '/wiki/machine-learning/' | relative_url }})
-system or analysis. In the DataTalks.Club archive, the strongest projects are
+system or analysis. DataTalks.Club guests argue that the strongest projects are
 not model demos alone. They explain the decision, data, baseline, and
 [evaluation]({{ '/wiki/evaluation/' | relative_url }}). They also show the
 operating boundary that makes the work reviewable.
@@ -37,7 +37,7 @@ production-aware implementation pass, use
 
 ## Common Definition
 
-Across the archive, a good ML portfolio project proves judgment under
+Across these podcast discussions, a good ML portfolio project proves judgment under
 constraints.
 
 The project should answer five review questions:
@@ -181,8 +181,8 @@ Search projects should link to
 only when retrieval or ranking behavior is part of the implementation. Product
 behavior projects should link to
 [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }}) and
-[A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }}) because the archive
-repeatedly treats online impact as separate from offline model score.
+[A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }}) because several
+podcast discussions treat online impact as separate from offline model score.
 
 ## Computer Vision and NLP Projects
 
@@ -204,7 +204,7 @@ constraints include model size, frame rate, battery use, and platform support.
 Open-source and community NLP work can also become portfolio evidence when the
 artifact is concrete. In
 [Hugging Face Contributions and NLP Portfolio]({{ '/podcasts/hugging-face-contributions-and-nlp-portfolio/' | relative_url }}),
-the archive treats Spaces demos, documentation, and GitHub work as public proof
+the episode treats Spaces demos, documentation, and GitHub work as public proof
 of applied NLP capability. In
 [From Biology to ML]({{ '/podcasts/from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers/' | relative_url }}),
 [Isabella Bicalho]({{ '/people/isabellabicalho/' | relative_url }}) connects

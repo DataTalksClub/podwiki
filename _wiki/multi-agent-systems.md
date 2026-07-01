@@ -26,7 +26,7 @@ tool-using agents more broadly. Use
 [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
 for serving decisions and retrieval work.
 
-## Archive Definition
+## Common Definition
 
 Lanham describes a sequential flow as an assembly line of agents. One agent
 handles requirements, another plans, and another executes. Each agent passes

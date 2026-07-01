@@ -13,15 +13,16 @@ related:
 
 RAG, short for retrieval-augmented generation, is an LLM application design. The
 system retrieves relevant external context before asking a model to answer. In
-the DataTalks.Club archive, RAG isn't model memory. It's search with context
-packaging. It also needs answer generation, citation, and evaluation.
+the DataTalks.Club podcast discussions, RAG isn't model memory. It's search
+with context packaging. It also needs answer generation, citation, and
+evaluation.
 
 The foundations are [search]({{ '/wiki/search/' | relative_url }}),
 [information retrieval]({{ '/wiki/information-retrieval/' | relative_url }}),
 and [LLM evaluation]({{ '/wiki/llm-evaluation-workflows/' | relative_url }}).
 
 [Atita Arora]({{ '/people/atitaarora/' | relative_url }}) gives the clearest
-archive definition in
+definition in
 [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}).
 At 30:38 she frames RAG as retrieval plus generation for reducing unsupported
 LLM answers. At 35:49 she applies it to podcast transcripts. At 38:24 she walks
@@ -33,10 +34,11 @@ and nearby context.
 
 ## Common Definition
 
-The archive converges on a practical definition. RAG retrieves relevant source
-material, adds that material to the model input, and asks the model to answer
-from those sources. The answer depends on retrieval quality and context
-building. It also depends on the prompt, generation step, and citation policy.
+The podcast discussions converge on a practical definition. RAG retrieves
+relevant source material, adds that material to the model input, and asks the
+model to answer from those sources. The answer depends on retrieval quality and
+context building. It also depends on the prompt, generation step, and citation
+policy.
 
 [Meryem Arik]({{ '/people/meryemarik/' | relative_url }}) makes the production
 case in
@@ -106,7 +108,7 @@ she discusses chunking, overlap, and embedding models. She also covers
 vectorization before connecting retrieval with augmentation, generation, prompt
 design, and citations at 42:49.
 
-For this archive, a useful chunk should preserve the episode and guest. It
+For this wiki, a useful chunk should preserve the episode and guest. It
 should also preserve the timestamp, title, speaker context, and nearby section.
 A chunk without provenance can help the model sound fluent, but it can't support
 a wiki claim.
@@ -120,8 +122,8 @@ spend time polishing prompts.
 
 ## Embeddings and Vector Databases
 
-RAG often uses vector search, but the archive doesn't reduce RAG to a
-[vector database]({{ '/wiki/vector-databases/' | relative_url }}). At 17:01 in
+RAG often uses vector search, but these podcast discussions don't reduce RAG to
+a [vector database]({{ '/wiki/vector-databases/' | relative_url }}). At 17:01 in
 [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}),
 Atita introduces vector databases such as Qdrant as plug-and-play vector search
 infrastructure. At 20:27 she compares putting vectors into an existing search
@@ -210,7 +212,7 @@ summaries, citations, or tool calls. For internal knowledge bases, metadata must
 include permissions and source ownership. It must also include freshness and
 retention rules through indexing and retrieval.
 
-The archive's RAG-specific evidence is mostly about grounding and verification.
+The RAG-specific evidence in these episodes is mostly about grounding and verification.
 Meryem emphasizes retrieval for changing knowledge and grounded responses at
 40:46-46:42 in
 [Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}).

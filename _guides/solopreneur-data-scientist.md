@@ -19,7 +19,7 @@ related_wiki:
 A solopreneur is an entrepreneur who chooses to run a small business, usually
 without building a large employee team.
 
-For how this archive uses the term, start with
+For how DataTalks.Club guests use the term, start with
 [Solopreneur]({{ '/wiki/solopreneur/' | relative_url }}). The path here's for
 data and AI professionals.
 
@@ -30,7 +30,7 @@ For data and AI professionals, that can mean several kinds of work:
 - courses, books, and technical writing
 - open-source tooling or small software products
 
-The DataTalks.Club podcast archive doesn't present solopreneurship as a quick
+The DataTalks.Club podcast discussions don't present solopreneurship as a quick
 escape from employment.
 
 Three interviews anchor this article:
@@ -47,7 +47,7 @@ Three interviews anchor this article:
   and
   [Taking Your Freelance Career to the Next Level]({{ '/podcasts/data-freelancing-career-strategy-market-demand-and-client-acquisition/' | relative_url }}).
 
-The broader archive context connects solopreneurship with these topics:
+These podcast discussions connect solopreneurship with these topics:
 
 - [freelance]({{ '/wiki/freelance/' | relative_url }})
 - [entrepreneurship]({{ '/wiki/entrepreneurship/' | relative_url }})
@@ -94,13 +94,13 @@ the technical work. It also adds contracts, payment risk, and client management.
 A startup founder usually builds a company that can grow beyond the founder.
 That may involve employees and investors. It may also involve product teams and
 a larger market bet.
-The archive's
+DataTalks.Club
 [startups]({{ '/wiki/startups/' | relative_url }}) discussions often revolve
 around company readiness, product constraints, and team building.
 
 A solopreneur sits between those paths. You can take client work like a
 freelancer and build assets like a founder. You don't have to turn every idea
-into a venture-backed company. That distinction is close to the archive's
+into a venture-backed company. That distinction is close to the DataTalks.Club
 [entrepreneurship]({{ '/wiki/entrepreneurship/' | relative_url }}) thread:
 business ownership can mean useful, profitable, intentionally small work.
 
@@ -140,8 +140,8 @@ whether to continue, simplify, or stop.
 
 ## Offers That Fit Data and AI Solopreneurs
 
-The archive supports offers that connect technical skill to a business result.
-It doesn't support a generic promise to "do AI" for everyone.
+Noah, Marianna, and Dimitri point toward offers that connect technical skill to a
+business result. They don't support a generic promise to "do AI" for everyone.
 
 Good first offers are narrow:
 
@@ -203,8 +203,8 @@ the work.
 
 ## Transition Without Blind Risk
 
-The archive is conservative about quitting. Noah recommends building the tunnel
-while still employed at 53:49 in
+Noah and Dimitri are conservative about quitting. Noah recommends building the
+tunnel while still employed at 53:49 in
 [Becoming a Solopreneur in Data]({{ '/podcasts/solopreneur-developer-and-data-professional/' | relative_url }}).
 Lower expenses where possible, save money, build side streams, and avoid
 betting the whole career on one new offer. Dimitri gives a similar version from

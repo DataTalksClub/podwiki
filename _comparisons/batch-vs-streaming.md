@@ -19,12 +19,12 @@ related_wiki:
   - Data Quality and Observability
 ---
 
-Batch processing handles bounded chunks of data. In the archive, that includes
-scheduled warehouse jobs and backfills. It also includes training set creation
-and batch inference.
+Batch processing handles bounded chunks of data. In these episodes, that
+includes scheduled warehouse jobs and backfills. It also includes training set
+creation and batch inference.
 
 Streaming processing handles events as they arrive from queues, brokers, or
-production services. In the DataTalks.Club archive, the comparison connects to
+production services. In the DataTalks.Club podcast discussions, the comparison connects to
 [data pipelines]({{ '/wiki/data-pipelines/' | relative_url }}),
 [data engineering platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}),
 and [DataOps]({{ '/wiki/dataops/' | relative_url }}). It also connects to
@@ -42,7 +42,7 @@ replay, ownership, and the action that consumes the result.
 
 ## Common Definition
 
-Across the archive, batch is the default when the consumer can wait. It also
+Across these episodes, batch is the default when the consumer can wait. It also
 fits teams that benefit from explicit dependencies. [Lars Albertsson]({{ '/people/larsalbertsson/' | relative_url }})
 describes the workflow-oriented version in
 [DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}).
@@ -54,8 +54,8 @@ transformations in the
 [modern data stack]({{ '/wiki/modern-data-stack/' | relative_url }}). It also
 fits backfills, training datasets, and scheduled scoring.
 
-Streaming is the archive's answer when a delayed result changes the product
-outcome. Lars separates slow reporting, the middle streaming window, and
+Streaming fits cases where a delayed result changes the product outcome. Lars
+separates slow reporting, the middle streaming window, and
 sub-100-millisecond paths that belong inside the serving application in
 [DataOps 101]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}).
 [Angela Ramirez]({{ '/people/angelaramirez/' | relative_url }}) shows the product
@@ -133,8 +133,8 @@ That structure is easy to reason about with
 [model registries]({{ '/wiki/model-registry/' | relative_url }}), and
 [data quality and observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).
 
-Streaming fits actions tied to event arrival. The archive examples include
-fraud checks, recommendations, risk scores, and pricing. They also include
+Streaming fits actions tied to event arrival. DataTalks.Club guests discuss
+fraud checks, recommendations, risk scores, and pricing. They also discuss
 ranking and request-time enrichment. Angela's
 [fraud workflow]({{ '/podcasts/building-and-scaling-data-engineering-systems-for-fraud-detection/' | relative_url }})
 must answer during a purchase.
@@ -250,8 +250,8 @@ dbt, and validation may be enough. That connects batch vs streaming to
 
 ## Hybrid Designs
 
-The strongest archive examples aren't pure batch or pure streaming. They split
-the system by stability and latency. Historical features, backfills, and
+The strongest DataTalks.Club examples aren't pure batch or pure streaming. They
+split the system by stability and latency. Historical features, backfills, and
 training sets are computed in batch. Current context, event-triggered actions,
 and low-latency retrieval live in streaming or online paths. Angela's
 [fraud prevention design]({{ '/podcasts/building-and-scaling-data-engineering-systems-for-fraud-detection/' | relative_url }}),
@@ -274,7 +274,7 @@ online serving may be justified. A hybrid feature path may also fit.
 
 ## Related Pages
 
-These pages connect the comparison to adjacent archive topics.
+These pages connect the comparison to adjacent data topics.
 
 - [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }})
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})

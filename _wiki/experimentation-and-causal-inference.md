@@ -12,8 +12,8 @@ related:
 ---
 
 Experimentation and causal inference both help teams decide whether an action
-changed an outcome. In the DataTalks.Club archive, the randomized version comes
-through [Jakob Graff]({{ '/people/jakobgraff/' | relative_url }}) in
+changed an outcome. [Jakob Graff]({{ '/people/jakobgraff/' | relative_url }})
+explains the randomized version in
 [Product Analytics and A/B Testing at 8:13]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}).
 He describes splitting comparable users or sessions, exposing one group to a
 change, keeping another as control, and comparing the metric chosen before
@@ -36,7 +36,7 @@ change a recommender, or validate a model policy.
 
 ## Common Definition
 
-Across the podcast archive, experiments apply when the team can create the
+Across these podcast discussions, experiments apply when the team can create the
 comparison. Causal inference applies when the team still needs an intervention
 answer but can't rely only on a clean randomized comparison.
 
@@ -122,8 +122,8 @@ which puts marketing attribution close to observational causal inference.
 
 ## Randomized Experiments
 
-The archive's strongest example of experimentation and causal inference working
-together is the randomized experiment. Jakob's
+Jakob's clearest example of experimentation and causal inference working
+together is the randomized experiment. His
 [clinical-trial analogy at 8:13]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }})
 shows why randomization matters. It makes the treatment group and control group
 comparable enough to attribute a metric difference to the tested change. His
@@ -155,7 +155,7 @@ and
 he discusses partial identification and sensitivity when the available data
 can't identify one clean answer.
 
-Marketing is the archive's clearest observational setting. Juan's
+Juan Orduz's marketing episode gives the clearest observational setting. His
 [multi-channel journey discussion at 10:18]({{ '/podcasts/machine-learning-in-marketing-attribution-marketing-mix-modeling/' | relative_url }})
 shows why attribution gets ambiguous when customers see several channels before
 conversion. His
@@ -230,7 +230,7 @@ unconfoundedness at
 [26:16]({{ '/podcasts/causal-inference-for-machine-learning/' | relative_url }}),
 and policy evaluation at
 [32:40]({{ '/podcasts/causal-inference-for-machine-learning/' | relative_url }}).
-The method is heavier than ordinary prediction, so the archive frames it as
+The method is heavier than ordinary prediction, so these episodes frame it as
 most valuable when it changes a rollout or targeting decision. Pricing and
 allocation decisions can justify the same work.
 
@@ -244,7 +244,7 @@ causal question.
 
 ## Related Pages
 
-The adjacent archive threads are:
+The adjacent topics are:
 
 - [Experimentation]({{ '/wiki/experimentation/' | relative_url }})
 - [Causal Inference]({{ '/wiki/causal-inference/' | relative_url }})

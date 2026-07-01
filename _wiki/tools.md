@@ -13,7 +13,7 @@ related:
 ---
 
 Tools help data and ML teams repeat work through systems, libraries,
-platforms, or workflows. In the DataTalks.Club archive, tools matter most when
+platforms, or workflows. DataTalks.Club guests treat tools as most useful when
 they encode a practice.
 
 They can encode ingestion, transformation, orchestration and experiment
@@ -22,7 +22,7 @@ evaluation, and contribution belong in the same tool conversation. Tools matter
 less when the conversation turns into names without ownership, tests, docs, or
 feedback.
 
-The archive returns to that structure often. [Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }})
+Several episodes return to that structure. [Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }})
 uses Airbyte, dbt, and Airflow to explain modern data engineering tradeoffs.
 She also covers CDC, data lakes, and warehouses in
 [ETL vs ELT and Modern Data Engineering]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}).
@@ -49,7 +49,7 @@ Start with these nearby pages:
 
 ## Tool Value
 
-The archive doesn't treat tools as a shopping list. A tool matters when it
+DataTalks.Club guests don't treat tools as a shopping list. A tool matters when it
 removes a concrete bottleneck or makes a practice repeatable. In
 [ETL vs ELT and Modern Data Engineering]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
 Natalie starts from the pipeline layout. Airbyte handles extract-load work,
@@ -166,7 +166,7 @@ and [Apache Airflow]({{ '/wiki/apache-airflow/' | relative_url }}).
 
 ## MLOps and ML Platform Tools
 
-MLOps tool discussions in the archive start from the model lifecycle, but they
+MLOps tool discussions in these episodes start from the model lifecycle, but they
 quickly become platform discussions. Simon's episode names self-service
 compute, notebooks, BigQuery, and Databricks. It then adds experiment tracking
 and model registries. Batch inference, online serving, and pipeline tools come
@@ -304,7 +304,7 @@ See also:
 
 ## Choosing a Tool
 
-Across the archive, tool choice starts with the work the team must repeat. For
+Across these episodes, tool choice starts with the work the team must repeat. For
 data engineering, the question is where ingestion and transformation belong.
 Teams also decide where orchestration and quality belong. Storage and
 activation belong in that decision too.
@@ -344,8 +344,7 @@ there too
 
 ## Related Pages
 
-These pages cover the main neighboring graph nodes for tool choices in the
-archive:
+These pages cover the main neighboring graph nodes for tool choices:
 
 - [Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }})
 - [MLOps Tools]({{ '/wiki/mlops-tools/' | relative_url }})

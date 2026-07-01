@@ -17,8 +17,8 @@ deployed, monitored, explained, and changed safely. The useful stack isn't the
 longest vendor list. It's the smallest set of tools and conventions that makes
 the model lifecycle repeatable for the team running it.
 
-Across the DataTalks.Club archive, guests treat [MLOps]({{ '/wiki/mlops/' | relative_url }})
-as an operating discipline, not a shopping category. In
+DataTalks.Club guests treat [MLOps]({{ '/wiki/mlops/' | relative_url }}) as an
+operating discipline, not a shopping category. In
 [Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}),
 [Simon Stiebellehner]({{ '/people/simonstiebellehner/' | relative_url }})
 frames MLOps around people, processes, and technology. The discussion covers
@@ -55,7 +55,7 @@ A practical MLOps stack should cover seven jobs:
 7. Give data scientists and ML engineers a path that's easy enough to adopt
    without hiding the production constraints they're responsible for.
 
-That coverage comes directly from the archive. In
+Several episodes ground that coverage. In
 [MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}),
 [Raphaël Hoogvliets]({{ '/people/raphaelhoogvliets/' | relative_url }})
 starts with version control, CI/CD, and containerization. His toolbelt also
@@ -116,7 +116,7 @@ A managed endpoint product may work well for online inference but be awkward for
 large batch scoring. A workflow orchestrator may be enough for offline scoring
 but insufficient for low-latency services.
 
-The archive-backed rule is simple. Choose tools based on the
+The rule from these podcast discussions is simple. Choose tools based on the
 workflow you need to operate. Don't choose them just because the product says
 it's an end-to-end MLOps platform.
 
@@ -196,8 +196,8 @@ we trigger retraining?"
 
 ## Choosing an MLOps Stack
 
-The archive converges on a pragmatic selection rule: start with the failure mode
-that blocks the team.
+The episodes converge on a pragmatic selection rule: start with the failure
+mode that blocks the team.
 
 - If experiments can't be reproduced, start with Git, dependency management,
   experiment tracking, artifact storage, and data references.

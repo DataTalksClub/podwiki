@@ -11,9 +11,9 @@ related:
   - Data Pipelines
 ---
 
-DuckDB appears in the DataTalks.Club archive as embeddable local OLAP. It can
+DataTalks.Club guests discuss DuckDB as embeddable local OLAP. It can
 run close to files and Python code without requiring a separate warehouse
-service. The strongest archive discussion comes from
+service. The strongest DuckDB discussion comes from
 [Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) in
 [Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}).
 In that episode, he places DuckDB next to open table formats. He also connects
@@ -25,13 +25,13 @@ conversation, not only beside laptop analytics. It also belongs beside
 [Apache Iceberg]({{ '/wiki/apache-iceberg/' | relative_url }}),
 [Data Lake]({{ '/wiki/data-lake/' | relative_url }}), and the
 [Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
-comparison. The archive discusses it as a portable access layer over files,
+comparison. Podcast guests discuss it as a portable access layer over files,
 lakes, and table-format experiments.
 
 ## Definition
 
-DuckDB is useful in the archive when a team wants analytical SQL before it
-stands up a large data platform. Brudaru describes it as embeddable. Engineers
+Guests use DuckDB when a team wants analytical SQL before it stands up a large
+data platform. Brudaru describes it as embeddable. Engineers
 can use it as a building block inside another product or pipeline. In DLT, his
 team uses DuckDB to query data through one interface. That interface covers
 file systems, data lakes, and SQL databases
@@ -49,7 +49,7 @@ for that workflow layer. Use
 [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}) for the
 warehouse-centered stack DuckDB is often compared with.
 
-## Archive Anchors
+## Key Episodes
 
 The main DuckDB episode is
 [Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }})
@@ -107,9 +107,9 @@ checks and cost judgment before adding Spark, Kafka, or Kubernetes.
 
 ## Parquet and Local Analytics
 
-DuckDB's archive role depends on Parquet and file-based analytics. Brudaru
-places DuckDB immediately after the Iceberg discussion, where Iceberg is a table
-format over Parquet storage. Catalogs map that data to compute
+Brudaru ties DuckDB to Parquet and file-based analytics. He places DuckDB
+immediately after the Iceberg discussion, where Iceberg is a table format over
+Parquet storage. Catalogs map that data to compute
 ([Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}),
 18:17-23:41). DuckDB then becomes one compute path over local or lake-backed
 data, rather than the data owner.
@@ -130,8 +130,8 @@ data size, latency, and reliability requirements fit.
 
 ## Fit With Warehouses and Lakehouses
 
-The archive doesn't frame DuckDB as a full substitute for a warehouse or
-lakehouse. It frames DuckDB as a portable query engine that can reduce the need
+Guests don't frame DuckDB as a full substitute for a warehouse or
+lakehouse. They frame DuckDB as a portable query engine that can reduce the need
 to push every transformation into a managed warehouse. That distinction matters
 because warehouses and lakehouses still solve access, governance, sharing, and
 operational problems that DuckDB doesn't solve alone.

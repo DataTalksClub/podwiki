@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Analytics Engineering Roadmap"
-summary: "A podcast-backed roadmap for analytics engineering: SQL modeling, dbt-style workflows, metric ownership, stakeholder trust, and the move from dashboards to governed analytical products."
+summary: "How DataTalks.Club guests describe analytics engineering: SQL modeling, dbt-style workflows, metric ownership, stakeholder trust, and the move from dashboards to governed analytical products."
 related:
   - Analytics Engineering
   - Analytics Engineering Portfolio Projects
@@ -15,7 +15,7 @@ related:
 
 An analytics engineering roadmap should teach you to turn raw data into
 trusted analytical models. It shouldn't become a tool checklist. In the
-DataTalks.Club archive, the role sits between [data engineering]({{ '/wiki/data-engineering/' | relative_url }})
+DataTalks.Club podcast discussions, the role sits between [data engineering]({{ '/wiki/data-engineering/' | relative_url }})
 and analytics.
 
 You learn SQL and data modeling first, then add tests, documentation, and
@@ -34,7 +34,7 @@ models are testable and robust
 
 ## Common Definition
 
-Across the archive, analytics engineering readiness means you can own the
+Across these episodes, analytics engineering readiness means you can own the
 modeled layer between raw data and decisions. A dashboard alone isn't enough.
 You need to explain table grain, decide where logic belongs, test model
 assumptions, and document definitions. Analysts and operators can then use
@@ -96,7 +96,7 @@ Start with analytical SQL and table meaning. You should be comfortable with
 joins and aggregations, plus window functions and CTEs. You should also
 understand dates, nulls, deduplication, and query debugging.
 
-The archive's emphasis isn't syntax trivia. [Nikola
+The guests don't frame SQL as syntax trivia. [Nikola
 Maksimovic]({{ '/people/nikolamaksimovic/' | relative_url }}) had already taken
 a SQL course when she moved toward BI. She then had to read and write more
 complex company queries and understand how models fit into the wider pipeline
@@ -160,8 +160,8 @@ Teams can then return modeled data to sales, support, marketing, or engagement t
 
 ## Project Sequence
 
-Build projects in the same order that the archive treats the work as becoming
-more durable.
+Build projects in the same order that DataTalks.Club guests describe the work
+becoming more durable.
 
 1. Model one metric from raw data to mart. Pick one domain, define the entities
    and grain, write the SQL, and document the metric definition. This matches
@@ -266,7 +266,7 @@ and [Data Activation]({{ '/wiki/data-activation/' | relative_url }}).
 
 Stop studying and build once you can answer one business question with SQL,
 name table grain, explain duplicate rows, and use Git. You also need to model
-one source-to-mart path. The archive consistently rewards applied proof.
+one source-to-mart path. DataTalks.Club guests consistently value applied proof.
 
 [Nikola Maksimovic]({{ '/people/nikolamaksimovic/' | relative_url }}) moved by
 using SQL, real BI queries, Looker, and dashboards. Small projects mattered

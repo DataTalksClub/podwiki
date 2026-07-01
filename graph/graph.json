@@ -8286,7 +8286,7 @@
       "title": "Academia",
       "url": "/wiki/academia/",
       "count": 1,
-      "search": "Academia How the podcast archive connects academic research, PhDs, postdocs, open science, research software, and transitions into data and AI industry roles."
+      "search": "Academia How DataTalks.Club podcast discussions connect academic research, PhDs, postdocs, open science, research software, and transitions into data and AI industry roles."
     },
     {
       "id": "wiki:academic-researcher-to-data-science",
@@ -8416,7 +8416,7 @@
       "title": "Analytics Engineering Roadmap",
       "url": "/wiki/analytics-engineering-roadmap/",
       "count": 1,
-      "search": "Analytics Engineering Roadmap A podcast backed roadmap for analytics engineering: SQL modeling, dbt style workflows, metric ownership, stakeholder trust, and the move from dashboards to governed analytical products."
+      "search": "Analytics Engineering Roadmap How DataTalks.Club guests describe analytics engineering: SQL modeling, dbt style workflows, metric ownership, stakeholder trust, and the move from dashboards to governed analytical products."
     },
     {
       "id": "wiki:apache-airflow",
@@ -8486,7 +8486,7 @@
       "title": "Career Development",
       "url": "/wiki/career-development/",
       "count": 1,
-      "search": "Career Development Archive backed guide to compounding skills, public proof, interview readiness, internal growth, transitions, and personal brand in data and AI careers."
+      "search": "Career Development Podcast backed guide to compounding skills, public proof, interview readiness, internal growth, transitions, and personal brand in data and AI careers."
     },
     {
       "id": "wiki:career-growth",
@@ -8516,7 +8516,7 @@
       "title": "Career Transitions in Data",
       "url": "/wiki/career-transitions-in-data/",
       "count": 1,
-      "search": "Career Transitions in Data Archive backed patterns for moving into data science, analytics engineering, data engineering, ML, AI engineering, and freelance data work."
+      "search": "Career Transitions in Data How DataTalks.Club guests describe moving into data science, analytics engineering, data engineering, ML, AI engineering, and freelance data work."
     },
     {
       "id": "wiki:causal-inference",
@@ -8586,7 +8586,7 @@
       "title": "Computer Vision",
       "url": "/wiki/computer-vision/",
       "count": 1,
-      "search": "Computer Vision Archive backed guide to computer vision as applied perception, from images and sensors to labeling, deployment constraints, multimodal retrieval, and career project work."
+      "search": "Computer Vision Podcast grounded guide to computer vision as applied perception, from images and sensors to labeling, deployment constraints, multimodal retrieval, and career project work."
     },
     {
       "id": "wiki:consultant-or-freelancer-to-data-product-founder",
@@ -8646,7 +8646,7 @@
       "title": "Data Activation",
       "url": "/wiki/data-activation/",
       "count": 1,
-      "search": "Data Activation How the podcast archive describes data activation as moving trusted product and customer data into operational tools and decision workflows."
+      "search": "Data Activation How podcast discussions describe data activation as moving trusted product and customer data into operational tools and decision workflows."
     },
     {
       "id": "wiki:data-analyst-careers",
@@ -8776,7 +8776,7 @@
       "title": "Data Mesh",
       "url": "/wiki/data-mesh/",
       "count": 1,
-      "search": "Data Mesh How the podcast archive explains Data Mesh as domain owned data products, explicit contracts, self service platforms, and federated governance."
+      "search": "Data Mesh How DataTalks.Club guests explain Data Mesh as domain owned data products, explicit contracts, self service platforms, and federated governance."
     },
     {
       "id": "wiki:data-observability",
@@ -9126,7 +9126,7 @@
       "title": "Experiment Tracking",
       "url": "/wiki/experiment-tracking/",
       "count": 1,
-      "search": "Experiment Tracking Archive grounded reference page for experiment tracking as run history, reproducibility practice, and ML platform capability."
+      "search": "Experiment Tracking Podcast grounded reference page for experiment tracking as run history, reproducibility practice, and ML platform capability."
     },
     {
       "id": "wiki:experimentation",
@@ -9336,7 +9336,7 @@
       "title": "Machine Learning Portfolio Projects",
       "url": "/wiki/machine-learning-portfolio-projects/",
       "count": 1,
-      "search": "Machine Learning Portfolio Projects Archive backed guidance for choosing machine learning portfolio projects that prove problem framing, baselines, data strategy, evaluation, production awareness, and maintainable code."
+      "search": "Machine Learning Portfolio Projects Podcast grounded guidance for choosing machine learning portfolio projects that prove problem framing, baselines, data strategy, evaluation, production awareness, and maintainable code."
     },
     {
       "id": "wiki:machine-learning-system-design",
@@ -9676,7 +9676,7 @@
       "title": "Production Search Evaluation",
       "url": "/wiki/production-search-evaluation/",
       "count": 1,
-      "search": "Production Search Evaluation How the podcast archive evaluates production search with relevance checks, RAG quality, business metrics, A/B tests, and feedback loops."
+      "search": "Production Search Evaluation How DataTalks.Club guests evaluate production search with relevance checks, RAG quality, business metrics, A/B tests, and feedback loops."
     },
     {
       "id": "wiki:prompt-engineering",

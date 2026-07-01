@@ -19,8 +19,8 @@ related:
   - Data Product Management
 ---
 
-Leaders in the DataTalks.Club podcast archive increase other people's ability
-to do useful data and AI work. The episodes place that work in formal
+DataTalks.Club guests describe leaders as people who increase other people's
+ability to do useful data and AI work. The episodes place that work in formal
 management, senior IC mentoring, and platform ownership. First data hires show
 leadership when they build business trust. Executives show it when they turn
 data work into strategy. [Tereza Iofciu]({{ '/people/terezaiofciu/' | relative_url }})
@@ -31,7 +31,7 @@ people don't need a leadership title to develop leadership skills (about 6:17).
 Across the podcast episodes, guests keep data and AI leadership close to
 operating work. They talk about manager and expert paths. They also cover team
 design, hiring, coaching, and stakeholder translation. Portfolio judgment,
-platform ownership, and scale appear throughout the archive.
+platform ownership, and scale appear throughout these episodes.
 
 For data engineering managers, that means aligning people with priorities and
 connecting platform work to reliability. The manager still needs technical
@@ -113,8 +113,8 @@ choices are reversible and which ones create production or stakeholder risk
 
 ## Data Engineering Management
 
-[Rahul Jain]({{ '/people/16rahuljain/' | relative_url }}) gives the archive's
-clearest data engineering leadership discussion in
+[Rahul Jain]({{ '/people/16rahuljain/' | relative_url }}) gives the clearest
+data engineering leadership discussion in
 [Data Engineering Leadership and Modern Data Platforms]({{ '/podcasts/data-engineering-leadership-and-modern-data-platforms/' | relative_url }}).
 He frames the manager role as servant leadership. That means enabling a
 self-motivated team, setting quality expectations, and supporting career
@@ -159,8 +159,8 @@ still reserves capacity for the systems that make data usable.
 ## Team Design and Hiring
 
 Data leaders design the team before they design the roadmap.
-[Lisa Cohen]({{ '/people/lisacohen/' | relative_url }}) gives the archive's
-strongest data science org-design discussion in
+[Lisa Cohen]({{ '/people/lisacohen/' | relative_url }}) gives one of the clearest
+data science org-design discussions in
 [Designing High-Impact Data Science Teams]({{ '/podcasts/data-science-team-structure-and-org-design/' | relative_url }}).
 
 She compares centralized, embedded, and hybrid models. Central teams protect
@@ -205,9 +205,8 @@ who can explain how product managers and senior leaders think (about 30:10,
 34:16, and 40:12).
 
 Hiring a junior is therefore a leadership commitment, not only a lower-cost
-staffing choice. The archive's [hiring]({{ '/wiki/hiring/' | relative_url }})
-page expands the same role-design work across data scientists, analysts, and
-data engineers.
+staffing choice. For more role-design work across data scientists, analysts,
+and data engineers, see [hiring]({{ '/wiki/hiring/' | relative_url }}).
 
 [Nicolas Rassam]({{ '/people/nicolasrassam/' | relative_url }}) makes the data
 engineering version concrete in

@@ -13,8 +13,8 @@ related:
 
 Data product management applies product management to data capabilities such as
 dashboards, metrics, and event streams. It also covers models, ML platforms, and
-the operating systems around them. In the DataTalks.Club archive, the role is
-defined less by the title than by the decision boundary it owns. A data product
+the operating systems around them. DataTalks.Club guests define the role less
+by the title than by the decision boundary it owns. A data product
 manager clarifies the user problem and chooses the outcome. They manage the
 roadmap, coordinate delivery, and prove that the product changes a decision or
 workflow.
@@ -49,10 +49,10 @@ In his version, product work starts from customer needs and pain points. Roadmap
 tradeoffs and measurable business value come next
 ([6:41-14:03]({{ '/podcasts/building-and-scaling-ai-data-products-with-mlops/' | relative_url }})).
 
-## Archive Consensus
+## Shared Definition
 
-Across the archive, data product management starts before a technical solution
-is chosen. Menefee starts with product discovery. The team talks to users,
+Across these episodes, data product management starts before a technical
+solution is chosen. Menefee starts with product discovery. The team talks to users,
 understands what they're responsible for, and forms a hypothesis about the
 problem. Planning and engineering follow
 ([7:04-15:10]({{ '/podcasts/product-designer-to-data-product-manager/' | relative_url }})).
@@ -174,7 +174,7 @@ serve the same function
 
 ## Discovery and Problem Framing
 
-Discovery is the first practical skill in the archive. Menefee's transition
+Discovery is the first practical skill in these discussions. Menefee's transition
 episode puts user research and customer development before engineering.
 Hypothesis formation and PM-designer collaboration come before engineering too
 ([4:58-16:26]({{ '/podcasts/product-designer-to-data-product-manager/' | relative_url }})).
@@ -221,7 +221,7 @@ adoption, and portfolio evidence.
 
 ## Metrics, Experiments, and Success Criteria
 
-The archive repeatedly ties data product management to measurable success.
+DataTalks.Club guests repeatedly tie data product management to measurable success.
 Coquillo's template moves from problems to solutions to metrics, then adds
 SMART goals and operational measures. Those measures include pipeline failures,
 SLAs, and data quality
@@ -252,7 +252,7 @@ belongs in the same executive view
 
 ## Adoption and Operating Ownership
 
-Adoption is part of the product boundary because the archive treats unused data
+Adoption is part of the product boundary because these guests treat unused data
 outputs as unfinished products. Moorman recommends starting from the decision
 and designing for personas. She also recommends embedding metrics in meetings,
 prototyping quickly, and scoping narrow wins. Those narrow wins build advocacy

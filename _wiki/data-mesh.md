@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Data Mesh"
-summary: "How the podcast archive explains Data Mesh as domain-owned data products, explicit contracts, self-service platforms, and federated governance."
+summary: "How DataTalks.Club guests explain Data Mesh as domain-owned data products, explicit contracts, self-service platforms, and federated governance."
 related:
   - Data Engineering Platforms
   - Data Products
@@ -19,7 +19,7 @@ A shared [data engineering platform]({{ '/wiki/data-engineering-platforms/' | re
 keeps that decentralization usable through self-service infrastructure and
 identity. It also provides access controls, observability, and common standards.
 
-The archive's main reference is
+The main DataTalks.Club reference is
 [Data Mesh Implementation]({{ '/podcasts/data-mesh-architecture-decentralized-data-products/' | relative_url }}),
 where [Zhamak Dehghani]({{ '/people/zhamakdehghani/' | relative_url }})
 frames Data Mesh as a decentralized socio-technical response to long
@@ -32,7 +32,7 @@ bottlenecks (7:35-9:56). Her definition connects
 
 ## Common Definition
 
-Across the DataTalks.Club archive, Data Mesh means moving ownership closer to
+Across these DataTalks.Club episodes, Data Mesh means moving ownership closer to
 the people who understand the business domain while keeping interoperability
 central. Dehghani describes the shift from long pipelines to a graph of value
 exchange between domains in
@@ -55,8 +55,8 @@ Dehghani covers those pieces from minimal guarantees and metadata at 31:05
 through self-service platforms at 41:58 and federated governance at 49:25 in
 [Data Mesh Implementation]({{ '/podcasts/data-mesh-architecture-decentralized-data-products/' | relative_url }}).
 
-The archive also treats Data Mesh as an extension of platform engineering, not
-a replacement for it. In
+These discussions also treat Data Mesh as an extension of platform engineering,
+not a replacement for it. In
 [Scale Data Engineering Teams]({{ '/podcasts/scaling-data-engineering-teams-self-service-platforms/' | relative_url }}),
 [Mehdi OUAZZA]({{ '/people/mehdiouazza/' | relative_url }}) describes
 self-service enablement, Airflow conventions, and playbooks (12:30-17:22). He
@@ -195,7 +195,7 @@ filtering, and federated governance. Those controls connect the mesh to
 [security]({{ '/wiki/security/' | relative_url }}) as well as
 [data governance]({{ '/wiki/data-governance/' | relative_url }}).
 
-The archive's governance pages therefore treat catalogs and metadata as
+The related governance pages therefore treat catalogs and metadata as
 operational infrastructure rather than paperwork. Consumers need to discover
 products, understand meaning, request access, and judge fitness for use. Domain
 owners need a way to publish metadata and enforce policies without manual
@@ -203,8 +203,8 @@ coordination for every consumer.
 
 ## Adoption and Operating Model
 
-The archive presents Data Mesh as an operating-model change, not a product to
-install. Dehghani's adoption section in
+DataTalks.Club guests present Data Mesh as an operating-model change, not a
+product to install. Dehghani's adoption section in
 [Data Mesh Implementation]({{ '/podcasts/data-mesh-architecture-decentralized-data-products/' | relative_url }})
 starts with readiness assessment, pilots, and executive buy-in at 57:27. That
 sequence matters because the model changes who owns data, how consumers request

@@ -51,6 +51,8 @@ Required structure:
 Do not publish a separate link map or evidence appendix. Put links where they
 help the claim: related wiki pages in definitions, people links where a guest's
 argument appears, and local podcast links next to the discussion they support.
+Do not use reader-facing headings with "Archive" in the name. Use
+`Common Definition`, `Where Guests Differ`, and concrete topic headings instead.
 
 Use these reader-facing headings where they fit:
 

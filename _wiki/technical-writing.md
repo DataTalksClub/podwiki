@@ -18,7 +18,7 @@ Technical writing explains technical work so another person can use it. A good
 technical write-up helps someone understand and evaluate the work. It also
 helps them reproduce or extend it.
 
-In the DataTalks.Club archive, people use writing in blog posts and tutorials.
+In DataTalks.Club episodes, people use writing in blog posts and tutorials.
 They use it in READMEs and design docs. They also use it in decision logs, demo
 scripts, conference proposals, and teaching material.
 
@@ -39,7 +39,7 @@ tool adoption, demos, and community feedback. Use
 for public project proof, and [career growth]({{ '/wiki/career-growth/' | relative_url }})
 for promotion, visibility, and seniority signals.
 
-## Common Definition in the Archive
+## Common Definition
 
 Podcast guests define technical writing through the reader's job. A technical
 article should help someone solve a problem, understand a tradeoff, or decide

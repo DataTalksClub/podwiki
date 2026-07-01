@@ -15,7 +15,7 @@ related_wiki:
 ---
 
 A data scientist turns a business or product question into evidence someone can
-use. The question can also be operational. In the DataTalks.Club archive, that
+use. The question can also be operational. In the DataTalks.Club discussions, that
 evidence may be a forecast or an experiment. It may also be a recommendation
 system or written analysis. In other cases, it's a model-backed feature or
 decision memo
@@ -26,7 +26,7 @@ The caveat is that "data scientist" isn't one stable job. The same title can
 mean product analytics or applied machine learning. It can also mean
 experimentation, research, data engineering support, or first-data-hire work.
 
-That warning shows up repeatedly in the archive, including in
+That warning shows up repeatedly in DataTalks.Club episodes, including in
 [Tereza Iofciu]({{ '/people/terezaiofciu/' | relative_url }})'s
 [Data Science Jobs]({{ '/podcasts/data-science-job-red-flags-and-mismatched-roles/' | relative_url }})
 episode. It also appears in
@@ -35,7 +35,7 @@ episode. It also appears in
 recruiting discussion.
 
 Use this article as a practical guide to the data scientist role. For deeper
-archive synthesis, start with
+role synthesis, start with
 [Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }}),
 [Data Science Careers]({{ '/wiki/data-science-careers/' | relative_url }}),
 and
@@ -255,8 +255,8 @@ Ask whether the team needs product analytics or experimentation. Then ask
 whether it needs applied ML, research, data engineering support, or a mix.
 Tereza Iofciu's
 [Data Science Jobs]({{ '/podcasts/data-science-job-red-flags-and-mismatched-roles/' | relative_url }})
-episode is the best archive-backed reminder that title clarity isn't enough.
-team maturity, data access, and role ownership matter
+episode is the clearest reminder that title clarity isn't enough. Team
+maturity, data access, and role ownership matter
 ([Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }})).
 
 Ask who owns data pipelines and model deployment, then ask who owns monitoring,
@@ -268,7 +268,7 @@ is the deeper role-boundary reference.
 
 ## Go Deeper
 
-Use these archive-backed pages for the next step:
+Use these pages for the next step:
 
 - [Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }})
 - [Data Science]({{ '/wiki/data-science/' | relative_url }})

@@ -12,7 +12,7 @@ related:
   - Consultant or Freelancer to Data Product Founder
 ---
 
-In the DataTalks.Club podcast archive, entrepreneurship means turning technical
+In DataTalks.Club podcast discussions, entrepreneurship means turning technical
 or consulting expertise into an owned business. The focus is still data and AI.
 
 The guests describe paths through
@@ -22,15 +22,14 @@ cover [freelance]({{ '/wiki/freelance/' | relative_url }}) consulting and
 [open source]({{ '/wiki/open-source/' | relative_url }}) product distribution
 models.
 
-That makes entrepreneurship the hub around
-[startups]({{ '/wiki/startups/' | relative_url }}),
-[founder]({{ '/wiki/founder/' | relative_url }}) work, client services, and
-indie products. It also covers service-to-product transitions. The archive's
-recurring lesson is that business model follows evidence. Builders watch what
-customers struggle with, what they're willing to pay for, and what the builder
-can keep operating without burning out.
+The podcast discussions connect
+[startups]({{ '/wiki/startups/' | relative_url }}) and
+[founder]({{ '/wiki/founder/' | relative_url }}) work with client services,
+indie products, and service-to-product transitions. Business models follow
+evidence: builders watch what customers struggle with and what they're willing
+to pay for. They also decide what they can keep operating without burning out.
 
-## Business Paths in the Archive
+## Business Paths
 
 [Elena Samuylova]({{ '/people/elenasamuylova/' | relative_url }}) gives the
 venture-backed ML startup version in
@@ -48,7 +47,7 @@ guide expands that startup-specific version of the same rule.
 Around 6:42 and 9:45, he frames solopreneurship as staying intentionally small
 instead of chasing venture-backed scale. Around 25:05 and 42:56, his business
 mix includes teaching, courses, and books. It also includes apps, consulting,
-and investments. In the archive, that's still entrepreneurship, but it
+and investments. In these episodes, that's still entrepreneurship, but it
 optimizes for independence and durable income rather than headcount or funding
 rounds.
 
@@ -175,7 +174,7 @@ support surface, and sales funnel.
 
 ## Solopreneurs and Indie Builders
 
-The archive keeps solopreneurship distinct from freelancing because Noah's
+Noah's episode keeps solopreneurship distinct from freelancing because his
 version isn't "one person sells hours forever." Around 46:27-53:49 in
 [Becoming a Solopreneur in Data]({{ '/podcasts/solopreneur-developer-and-data-professional/' | relative_url }}),
 he recommends building income streams while employed. He also recommends

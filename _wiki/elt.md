@@ -15,15 +15,15 @@ related:
 
 ELT means extract, load, transform. A team extracts data from source systems
 and loads it into analytical storage. Then it transforms the data inside the
-warehouse, lakehouse, or adjacent SQL engine. In the DataTalks.Club archive,
-ELT usually sits inside the [modern data stack]({{ '/wiki/modern-data-stack/' | relative_url }}).
+warehouse, lakehouse, or adjacent SQL engine. DataTalks.Club guests usually
+place ELT inside the [modern data stack]({{ '/wiki/modern-data-stack/' | relative_url }}).
 
 An ingestion tool loads source data, and a [data warehouse]({{ '/wiki/data-warehouse/' | relative_url }})
 keeps raw and modeled tables. [dbt]({{ '/wiki/dbt/' | relative_url }}) or plain
 SQL turns those tables into business-facing models.
 
-[Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) gives the archive's
-clearest definition in
+[Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) gives the clearest
+definition in
 [ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}).
 At 7:57-14:54, she explains why teams load first when business logic changes
 often. Source detail stays available. Analysts can write new SQL
@@ -53,7 +53,7 @@ That puts ELT near [data pipelines]({{ '/wiki/data-pipelines/' | relative_url }}
 because the pipeline still has to move data and transform it. The team also has
 to publish the result and keep it reliable.
 
-The archive doesn't treat ELT as "load everything and forget about it."
+Guests don't treat ELT as "load everything and forget about it."
 Kwong separates raw ingestion from data marts at 15:30-18:47.
 [Rahul Jain]({{ '/people/16rahuljain/' | relative_url }}) describes the same
 move at platform scale in
@@ -106,8 +106,8 @@ the transformation side in
 At 4:05-10:04, she describes dbt as the place where analytics engineers write
 SQL models, documentation, and tests. dbt also tracks model dependencies.
 Snowflake runs the queries in her example stack, while Looker consumes the
-modeled result. This is the
-archive's clearest link between ELT and [analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }}).
+modeled result. Perez Mola gives the clearest link in these episodes between
+ELT and [analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }}).
 
 [Airflow]({{ '/wiki/apache-airflow/' | relative_url }}) belongs at the scheduling
 and dependency boundary. Kwong says Airflow is an orchestrator that can run

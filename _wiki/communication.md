@@ -11,7 +11,7 @@ related:
 ---
 
 Communication in data and ML work means translating technical work into a
-decision someone else can trust. Across the DataTalks.Club archive, guests do
+decision someone else can trust. DataTalks.Club guests do
 not treat communication as polish added after modeling or SQL work. They apply
 the same rule to dashboards and infrastructure. Data professionals define the
 business question, explain assumptions, show ownership, and make evidence
@@ -49,7 +49,7 @@ Start with these interviews:
 
 ## Shared Definition
 
-Across the archive, a data professional communicates well when another person
+Across these episodes, a data professional communicates well when another person
 can understand the decision and trust the evidence. That person may be a hiring
 manager, product manager, executive, or client. It may also be a teammate,
 open-source maintainer, or future reader of a README.
@@ -182,7 +182,7 @@ visible in conversation.
 
 ## Writing and Documentation
 
-Writing is the archive's most reusable communication skill. It helps a data
+Writing is the most reusable communication skill in these discussions. It helps a data
 professional teach, clarify their own thinking, help a team remember decisions,
 and make a project easier to look at.
 
@@ -240,7 +240,7 @@ repeatable service, client result, or well-scoped diagnostic.
 ## Portfolio Narratives
 
 Portfolio work only helps when the viewer can understand what the project proves.
-The archive repeatedly warns against treating a project as self-explanatory.
+Nick, Oleg, and Marijn repeatedly warn against treating a project as self-explanatory.
 
 Nick Singh's portfolio guidance in
 [Ace Data Interviews]({{ '/podcasts/data-interview-behavioral-and-portfolio-prep-guide/' | relative_url }})

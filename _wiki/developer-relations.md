@@ -14,7 +14,7 @@ related:
 
 Developer relations, or DevRel, helps developers understand and trust a
 technical product. It also helps them use the product well enough to give useful
-feedback. In the DataTalks.Club archive, DevRel sits between
+feedback. In DataTalks.Club episodes, DevRel sits between
 [developer experience]({{ '/wiki/developer-experience/' | relative_url }}),
 [documentation]({{ '/wiki/documentation/' | relative_url }}), and
 [technical writing]({{ '/wiki/technical-writing/' | relative_url }}). It also
@@ -29,7 +29,7 @@ layer" around tools. At 25:17, he connects the role to dogfooding and developer
 collaboration. He also names documentation feedback and routing user friction
 back to the team building the product.
 
-## Common Definition in the Archive
+## Common Definition
 
 Across the DevRel episodes, guests describe the same operating model. DevRel
 people learn the tool deeply and turn that knowledge into reproducible examples.
@@ -160,7 +160,7 @@ scikit-learn governance and project history, and at 18:11 he discusses
 maintainer transition. DevRel work in that setting has to respect governance and
 maintainers while supporting contribution paths and long-term trust.
 
-This is why the archive links DevRel closely to
+Those examples link DevRel closely to
 [open source and developer relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }}),
 [contributing]({{ '/wiki/contributing/' | relative_url }}), and
 [open-source portfolio evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }}).
@@ -221,7 +221,7 @@ broadcasting.
 
 ## Related Pages
 
-Follow these pages for adjacent topics in the archive.
+Follow these pages for adjacent topics.
 
 - [Open Source and Developer Relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }})
   connects DevRel to maintainers, governance, contribution paths, and

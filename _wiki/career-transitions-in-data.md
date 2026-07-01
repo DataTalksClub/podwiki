@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Career Transitions in Data"
-summary: "Archive-backed patterns for moving into data science, analytics engineering, data engineering, ML, AI engineering, and freelance data work."
+summary: "How DataTalks.Club guests describe moving into data science, analytics engineering, data engineering, ML, AI engineering, and freelance data work."
 related:
   - Career Transition
   - Job Search
@@ -20,8 +20,8 @@ or [data science]({{ '/wiki/data-scientist-role/' | relative_url }}). It can
 also be [data engineering]({{ '/wiki/data-engineer-role/' | relative_url }}),
 [machine learning engineering]({{ '/wiki/machine-learning-engineer-role/' | relative_url }}),
 [AI engineering]({{ '/wiki/ai-engineer-role/' | relative_url }}), or
-[freelance data work]({{ '/wiki/freelance/' | relative_url }}). In the
-DataTalks.Club archive, these transitions aren't clean restarts. Guests keep
+[freelance data work]({{ '/wiki/freelance/' | relative_url }}). In
+DataTalks.Club interviews, these transitions aren't clean restarts. Guests keep
 parts of their previous work and turn them into evidence for the next role.
 
 The repeated move is translation. Project management becomes stakeholder and
@@ -44,8 +44,8 @@ Academic research becomes statistics, domain data, and experimental reasoning
 in [CJ Jenkins']({{ '/people/cjjenkins/' | relative_url }})
 [postdoc transition]({{ '/podcasts/postdoc-to-data-science-lead-career-transition/' | relative_url }}).
 
-The archive's common question isn't "which course should I take?" It asks what
-proof makes a transition believable for the target role. Employees can show
+The recurring question isn't "which course should I take?" It asks what proof
+makes a transition believable for the target role. Employees can show
 analysis done at work, dbt migrations, or take-home assignments. Engineers can
 show deployed ML projects and end-to-end data platforms. Public GitHub work and
 open-source contributions help too.
@@ -58,7 +58,7 @@ portfolio pages supply the target-specific evidence.
 
 ## Common Definition
 
-Across the archive, a data career transition means translating previous work
+Across these episodes, a data career transition means translating previous work
 into the language, artifacts, and responsibilities of a target data role.
 [Ksenia Legostay's]({{ '/people/ksenialegostay/' | relative_url }}) route from
 project management into data science starts with customer-centric and
@@ -95,7 +95,7 @@ That's why this page links software-to-ML transitions to
 [machine learning infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }}),
 and [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}).
 
-The archive also treats transition evidence as role-specific.
+DataTalks.Club guests also treat transition evidence as role-specific.
 [Slawomir Tulski's]({{ '/people/slawomirtulski/' | relative_url }})
 data-engineering career episode ranks real work above side projects. Tutorial
 or certificate-only signals are weaker. His project advice favors a personal
@@ -334,7 +334,7 @@ talent pools help people step into leadership
 
 ## Choosing the Target Role
 
-The archive repeatedly warns that "data" is too broad for a transition plan.
+DataTalks.Club guests repeatedly warn that "data" is too broad for a transition plan.
 [Rishabh Bhargava]({{ '/people/rishabhbhargava/' | relative_url }}) separates
 analytics from ML by goals and outputs. He also separates the roles by
 infrastructure and day-to-day work. Analysts build dashboards and reports. They

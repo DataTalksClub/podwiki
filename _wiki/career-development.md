@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Career Development"
-summary: "Archive-backed guide to compounding skills, public proof, interview readiness, internal growth, transitions, and personal brand in data and AI careers."
+summary: "Podcast-backed guide to compounding skills, public proof, interview readiness, internal growth, transitions, and personal brand in data and AI careers."
 related:
   - Job Search
   - Career Growth
@@ -13,7 +13,7 @@ related:
   - Communication
 ---
 
-Career development in the DataTalks.Club archive means building a career record
+In DataTalks.Club podcast discussions, career development means building a career record
 that other people can review. Guests talk about skills, but they rarely stop
 there. They ask what target role the person wants and what proof makes that
 target credible. They also ask how the person explains the work to hiring teams,
@@ -73,9 +73,9 @@ Several podcast discussions anchor this page:
 
 ## Shared Career Model
 
-The archive's strongest career model is practical. People choose a role
-direction, build evidence, and practice explanation. Then they use feedback to
-adjust the next step.
+Guests describe a practical career model. People choose a role direction, build
+evidence, and practice explanation. Then they use feedback to adjust the next
+step.
 
 Sarah Mestiri makes the role direction explicit in
 [Tech Job Search Strategy]({{ '/podcasts/job-search-strategy-in-tech-projects-skills-cv-networking/' | relative_url }}).
@@ -265,8 +265,8 @@ she recommends a top-five company list. [Luke Whipps]({{ '/people/lukewhipps/' |
 [Land Data Scientist Roles]({{ '/podcasts/get-data-scientist-job/' | relative_url }}),
 also favors tailored applications and market segmentation at 37:54 and 44:26.
 
-That differs from advice that begins with application volume. The archive's
-practical compromise is to use enough volume to learn the market. Candidates
+That differs from advice that begins with application volume. These guests land
+on a practical compromise: use enough volume to learn the market. Candidates
 should still tailor the CV, outreach, and interview preparation.
 
 Guests also differ on public visibility. Swyx treats visibility as a career
@@ -290,5 +290,6 @@ profiles so people can invest deliberately. Marijn Markus keeps diverse
 backgrounds as an advantage at 4:02, and Tatiana Gabruseva shows how academic
 research leadership can become staff-engineer impact.
 
-The archive's synthesis isn't "specialize early" or "stay general." It's to
-keep transferable strengths visible while choosing the next role-specific proof.
+Across these episodes, guests don't argue for "specialize early" or "stay
+general." They keep transferable strengths visible while choosing the next
+role-specific proof.

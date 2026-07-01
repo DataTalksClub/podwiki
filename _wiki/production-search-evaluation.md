@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Production Search Evaluation"
-summary: "How the podcast archive evaluates production search with relevance checks, RAG quality, business metrics, A/B tests, and feedback loops."
+summary: "How DataTalks.Club guests evaluate production search with relevance checks, RAG quality, business metrics, A/B tests, and feedback loops."
 related:
   - Search
   - Search, RAG, and Knowledge Systems
@@ -12,7 +12,7 @@ related:
 
 Production search evaluation is the practice of proving that a search or
 retrieval system returns useful results under real product constraints. In the
-DataTalks.Club archive, the evaluation problem starts with
+DataTalks.Club podcast discussions, the evaluation problem starts with
 [search]({{ '/wiki/search/' | relative_url }}) and
 [information retrieval]({{ '/wiki/information-retrieval/' | relative_url }}).
 The team checks whether the system found relevant candidates, ranked them well,
@@ -27,7 +27,7 @@ Broader knowledge systems need the same checks. Use the
 [knowledge systems overview]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
 for that wider context.
 
-A RAG product may look like an LLM application. The archive still treats much
+A RAG product may look like an LLM application. These episodes still treat much
 of its quality as a retrieval problem before it becomes a generation problem.
 
 ## Common Definition
@@ -140,8 +140,7 @@ Segment-level checks matter more than aggregate metrics alone. Teams should
 evaluate exact-match and semantic queries separately, then separate long-tail
 queries from new and stale content. Content behind permission filters needs its
 own checks. High-value business segments need their own checks too because the
-archive's search discussions treat these as product choices, not merely model
-tuning.
+search discussions treat these as product choices, not merely model tuning.
 
 ## RAG Answer Quality
 
@@ -188,8 +187,8 @@ around 1:01:25 ties search changes to
 rollouts. A/B tests are useful when traffic, assignment, exposure logging, and
 metric definitions are strong enough to support the decision.
 
-The archive's practical sequence uses both offline and online checks. Offline
-tests catch obvious regressions and explain failure modes. Online experiments
+The practical sequence in these episodes uses both offline and online checks.
+Offline tests catch obvious regressions and explain failure modes. Online experiments
 measure whether the new retrieval or ranking behavior improves the product
 outcome that the team actually cares about.
 

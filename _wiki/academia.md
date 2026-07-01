@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Academia"
-summary: "How the podcast archive connects academic research, PhDs, postdocs, open science, research software, and transitions into data and AI industry roles."
+summary: "How DataTalks.Club podcast discussions connect academic research, PhDs, postdocs, open science, research software, and transitions into data and AI industry roles."
 related:
   - Career Transition
   - Career Growth
@@ -10,10 +10,12 @@ related:
   - Open Source and Developer Relations
 ---
 
-Academia in the DataTalks.Club archive means university research, teaching,
-software, and career systems. It includes PhDs, postdocs, labs, and academic
-collaborations. The podcast treats it as a source of data and ML practice, not
-as a world separate from industry. [CJ Jenkins]({{ '/people/cjjenkins/' | relative_url }})
+In DataTalks.Club podcast discussions, academia means university research and
+teaching. It also means software and career systems. It includes PhDs, postdocs,
+labs, and academic collaborations. The podcast treats it as a source of data and
+ML practice, not as a world separate from industry.
+
+[CJ Jenkins]({{ '/people/cjjenkins/' | relative_url }})
 connects evolutionary biology and statistical modeling to
 [data science]({{ '/wiki/data-science/' | relative_url }}) in
 [From Postdoc to Data Science Lead]({{ '/podcasts/postdoc-to-data-science-lead-career-transition/' | relative_url }})
@@ -23,7 +25,7 @@ engineering into industry data science in
 [From Collider Physics to Data Science]({{ '/podcasts/from-large-hadron-collider-to-data-science-research-software-engineering/' | relative_url }})
 at 11:15-24:31.
 
-The recurring archive question is translation. Academic researchers often use
+The recurring question in these episodes is translation. Academic researchers often use
 [machine learning]({{ '/wiki/machine-learning/' | relative_url }}),
 [data engineering]({{ '/wiki/data-engineering/' | relative_url }}), and
 [software engineering]({{ '/wiki/software-engineering/' | relative_url }})
@@ -127,8 +129,9 @@ position-fit problem at 20:35-26:30 in
 
 ## Research Software and Reproducibility
 
-The archive treats research software as both an academic quality problem and an
-industry transition asset. Johanna Bayer defines research software engineering
+Johanna Bayer treats research software as an academic quality problem, and
+Anastasia Karavdina shows why it can become an industry transition asset.
+Johanna defines research software engineering
 around software-focused research outputs, toolboxes, and DOIs. She also ties it
 to publishing code and changing lab culture in
 [Teaching Open Science and Reproducible Research]({{ '/podcasts/teaching-reproducible-research-and-open-science-coding-practices-for-academia/' | relative_url }})
@@ -199,7 +202,7 @@ failures. LeetCode preparation, ML design interviews, and system design matter
 too. Mock interviews and mentor networks also matter at 3:24-7:30 and
 14:41-54:13.
 
-The archive therefore links
+Together, the guests link
 academia to [hiring]({{ '/wiki/hiring/' | relative_url }}),
 [staff AI engineer]({{ '/wiki/staff-ai-engineer/' | relative_url }}), and
 [career growth]({{ '/wiki/career-growth/' | relative_url }}). It doesn't limit
@@ -251,7 +254,7 @@ and trial research before committing to a PhD.
 
 ## Related Pages
 
-Continue through these pages for narrower archive-backed views:
+Continue through these pages for narrower podcast-backed views:
 
 - [Academic Researcher to Data Science]({{ '/wiki/academic-researcher-to-data-science/' | relative_url }})
 - [Career Transition]({{ '/wiki/career-transition/' | relative_url }})

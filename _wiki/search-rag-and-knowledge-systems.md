@@ -35,13 +35,13 @@ guests treat it as the product surface and retrieval pipeline. It also includes
 metadata plus source provenance. Ranking logic and evaluation loops decide
 which knowledge is usable.
 
-The archive's central discussions cover search and RAG. They also cover vector
+The central podcast discussions cover search and RAG. They also cover vector
 retrieval, graph retrieval, production boundaries, and
 [agent engineering]({{ '/wiki/agent-engineering/' | relative_url }}).
 
 ## Common Definition
 
-Across the archive, search and RAG systems are built around one common
+Across these episodes, search and RAG systems are built around one common
 mechanism. They retrieve candidate information, decide what belongs in front of
 the user or model, and evaluate whether the downstream task improved.
 [Daniel Svonava]({{ '/people/danielsvonava/' | relative_url }}) frames this as
@@ -63,7 +63,7 @@ context and returns citations
 [information retrieval]({{ '/wiki/information-retrieval/' | relative_url }}),
 not model memory.
 
-The archive also doesn't treat vector search as the whole system. Daniel
+These episodes also don't treat vector search as the whole system. Daniel
 separates vector compute from vector storage at 29:00 in
 [Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }})
 and adds filters, recency, business rules, and ranking at 34:00-45:11. These
@@ -183,7 +183,7 @@ CLIP-style text-to-image retrieval at 32:43. Those examples connect
 [embeddings]({{ '/wiki/embeddings/' | relative_url }}) to search,
 recommendations, personalization, and RAG.
 
-Hybrid search is the archive's production default for search products. Daniel
+Hybrid search is the production default in these search discussions. Daniel
 adds filters, recency, and popularity around vector similarity. He also adds
 business rules and query-time weights at 34:00-45:11 in
 [Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}).

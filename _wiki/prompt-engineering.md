@@ -85,7 +85,7 @@ model nondeterminism, provider updates, or the need for validation.
 
 ## Structured Output and Examples
 
-Teams in the archive repeatedly use prompt engineering to get structured
+DataTalks.Club guests repeatedly use prompt engineering to get structured
 output. At 28:16 in
 [Production AI Engineering]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }}),
 Bartosz uses sentiment analysis as the example. The team can describe the JSON
@@ -102,7 +102,7 @@ preference.
 
 Bartosz says at 29:33-30:00 that each extra example adds tokens and money. The
 team should prepare evaluation inputs and expected outputs so it can stop adding
-examples when quality stops improving. The archive's broader
+examples when quality stops improving. The broader
 [LLM system design]({{ '/guides/llm-system-design-interview/' | relative_url }})
 material uses the same cost-aware framing. Model calls, context size, and
 reliability belong to one design decision.
@@ -137,7 +137,7 @@ Prompt size matters because every token can affect cost, latency, and answer
 quality. Bartosz discusses prompt compression at 30:00-31:45 in
 [Production AI Engineering]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }}).
 He describes it as creating a shorter prompt that should preserve the same
-behavior. The archive treats this as an optimization topic, not a replacement
+behavior. Bartosz treats this as an optimization topic, not a replacement
 for evaluation. A compressed prompt still needs the same expected-output checks
 as the original.
 
@@ -157,8 +157,8 @@ because the prompt is only as useful as the context selected for it.
 
 ## Context Engineering and RAG Prompts
 
-Context engineering is the archive's broader name for prompt work that selects
-and packages information for the model. Ranjitha says at 28:17-32:48 in
+Context engineering is the broader term these episodes use for prompt work that
+selects and packages information for the model. Ranjitha says at 28:17-32:48 in
 [Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }})
 that teams should be deliberate about the context they provide. They choose how
 to chunk it, which metadata to attach, and which wrapper helps the LLM use it.
@@ -234,7 +234,7 @@ boundary in
 At 14:09-17:25, he discusses evolutionary algorithms for prompt engineering.
 They can find useful prompt variations, but they're computationally expensive.
 
-That reinforces the archive's practical theme. Prompt iteration is useful, but
+That reinforces the practical theme across these episodes. Prompt iteration is useful, but
 teams should measure whether more iteration beats retrieval or fine-tuning. They
 should also compare it with tool design, human review, or a smaller product
 target.

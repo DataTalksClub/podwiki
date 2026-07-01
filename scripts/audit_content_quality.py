@@ -18,6 +18,7 @@ FORBIDDEN_HEADING_RE = re.compile(
     r"Recurring Archive Themes|Maintenance Notes|Agent Maintenance Notes|Guest Experts|Bottom Line)\b",
     re.MULTILINE,
 )
+ARCHIVE_HEADING_RE = re.compile(r"^## .*?\bArchive\b.*$", re.MULTILINE)
 ARCHIVE_SCAFFOLDING_RE = re.compile(
     r"\b(?:the archive|The archive|DataTalks\.Club archive|archive-backed|archive's|archive’s)\b"
 )
@@ -78,15 +79,16 @@ def audit_file(path: Path) -> dict[str, object]:
     body = visible_body(text)
     links = link_counts(text)
     forbidden = FORBIDDEN_HEADING_RE.findall(text)
+    archive_headings = ARCHIVE_HEADING_RE.findall(text)
     archive_scaffolding = ARCHIVE_SCAFFOLDING_RE.findall(body)
     generic = body.count(GENERIC_PODCAST_URL)
-    score = generic * 3 + len(forbidden) * 10 + len(archive_scaffolding)
+    score = generic * 3 + (len(forbidden) + len(archive_headings)) * 10 + len(archive_scaffolding)
     if path.parts[-2] in PUBLIC_CONTENT_FOLDERS and links["podcasts"] == 0:
         score += 5
     return {
         "path": path.relative_to(ROOT),
         "generic_podcast_links": generic,
-        "forbidden_headings": len(forbidden),
+        "forbidden_headings": len(forbidden) + len(archive_headings),
         "archive_scaffolding": len(archive_scaffolding),
         "local_podcast_links": links["podcasts"],
         "wiki_links": links["wiki"],

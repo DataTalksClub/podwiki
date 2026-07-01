@@ -14,7 +14,7 @@ related:
 
 Agent engineering is the practice of building AI systems that can pursue a goal
 and act inside a workflow. These systems may use tools, retrieve information,
-and keep task state. In the DataTalks.Club archive, agents aren't only
+and keep task state. In DataTalks.Club podcast discussions, agents aren't only
 chatbots. Guests discuss on-call assistants, email assistants, and coding
 agents. They also discuss enterprise search assistants, multi-agent support
 systems, and workflow automation.
@@ -33,7 +33,7 @@ and [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_u
 
 ## Common Definition
 
-Across the archive, an agent is an LLM-backed system that can decide the next
+Across these episodes, an agent is an LLM-backed system that can decide the next
 step in a task rather than only return one answer. It may call APIs or run
 search. It may also look at logs, draft code, update a document, or route work
 to another component.
@@ -42,7 +42,7 @@ Beyond prompts, engineers define task decomposition, tool interfaces, and
 retrieved context. They also define permissions, evaluation, observability, and
 fallback behavior.
 
-The archive also keeps a strong boundary between
+Ranjitha and Hugo also keep a strong boundary between
 [RAG]({{ '/wiki/rag/' | relative_url }}) and agents. In Ranjitha's episode, the
 37:39 section separates cases where retrieval is enough from cases that need an
 agent. At 36:11, she describes retrieval as a tool the agent can call.
@@ -149,7 +149,7 @@ control, and failure handling.
 
 Retrieval is one of the main tools agents use. It gives the system access to
 documents, logs, and emails. It can also expose code, tickets, and other
-external state. The archive doesn't treat retrieval as automatic. Guests discuss
+external state. Guests don't treat retrieval as automatic. They discuss
 chunking, metadata, wrappers, and failure analysis.
 
 Ranjitha's 21:21 section names context engineering as the design of effective

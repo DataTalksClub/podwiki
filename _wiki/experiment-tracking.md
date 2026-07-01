@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Experiment Tracking"
-summary: "Archive-grounded reference page for experiment tracking as run history, reproducibility practice, and ML platform capability."
+summary: "Podcast-grounded reference page for experiment tracking as run history, reproducibility practice, and ML platform capability."
 related:
   - MLOps
   - ML Platforms
@@ -20,7 +20,7 @@ usually includes code version, parameters, metrics, and artifacts. It can also
 include environment details, data references, and notes about the modeling
 decision.
 
-In the DataTalks.Club archive, experiment tracking sits between exploratory
+In DataTalks.Club podcast discussions, experiment tracking sits between exploratory
 [machine learning]({{ '/wiki/machine-learning/' | relative_url }}) work and
 production [MLOps]({{ '/wiki/mlops/' | relative_url }}). It isn't the same as a
 [model registry]({{ '/wiki/model-registry/' | relative_url }}), but guests often
@@ -44,7 +44,7 @@ for the wider recovery problem across code, data, environments, and outputs.
 
 ## Common Definition
 
-Across the archive, experiment tracking moves run history out of private
+Guests describe experiment tracking as moving run history out of private
 memory. It turns local notebooks and ad hoc spreadsheets into a shared record.
 It also captures one-off terminal output that other people can look at later.
 Simon gives the clearest platform definition in
@@ -109,7 +109,7 @@ at 34:01-35:14).
 
 ## Run Records
 
-The archive supports a compact run record rather than a generic dashboard
+Simon and Raphael support a compact run record rather than a generic dashboard
 wishlist. A useful tracked run preserves enough model-development context for a
 teammate or future maintainer to understand what happened. Simon names job
 images, consumed inputs, and written outputs. He also names persistent metadata
@@ -180,8 +180,8 @@ either, but it gives those later steps a recoverable model-history record.
 ## Tool Choice and Integration
 
 Guests name tools such as MLflow, Weights & Biases, and Comet. They also name
-Neptune and SageMaker. The archive doesn't support choosing an experiment
-tracker by brand alone.
+Neptune and SageMaker. Simon doesn't recommend choosing an experiment tracker
+by brand alone.
 Simon argues that most teams should integrate an existing tracker rather than
 build one from scratch. Teams have to fit the tracker to the data science
 workflow, data constraints, and surrounding infrastructure

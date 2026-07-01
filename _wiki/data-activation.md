@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Data Activation"
-summary: "How the podcast archive describes data activation as moving trusted product and customer data into operational tools and decision workflows."
+summary: "How podcast discussions describe data activation as moving trusted product and customer data into operational tools and decision workflows."
 related:
   - Data-Led Growth
   - Reverse ETL
@@ -15,7 +15,7 @@ related:
 ## Definition
 
 Data activation is the work of putting trusted data where people or systems can
-act on it. In the DataTalks.Club archive, that usually means product data,
+act on it. In DataTalks.Club podcast discussions, that usually means product data,
 customer data, or modeled warehouse data moving into operational workflows.
 Sales and support are common examples. Marketing, onboarding, and engagement
 show the same need on the growth side.
@@ -26,7 +26,7 @@ The topic sits between
 [data products]({{ '/wiki/data-products/' | relative_url }}).
 
 [Arpit Choudhury]({{ '/people/arpitchoudhury/' | relative_url }}) gives the
-clearest archive definition in
+clearest podcast definition in
 [How to Build a Data-Led Growth Stack]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }}).
 At 22:50, he lays out a sequence from collection to storage and analysis, then
 activation. At 30:03, he defines activation through support and sales tools.
@@ -35,7 +35,7 @@ leaving it in dashboards.
 
 ## Common Definition
 
-Guests use a practical definition across the archive. Teams usually activate
+Guests use a practical definition across these episodes. Teams usually activate
 data after they trust it enough to affect a workflow. A team collects events,
 documents their meaning, stores them, and transforms them for analysis.
 
@@ -80,7 +80,7 @@ includes meetings and productized analytics, not only syncs into external tools.
 ## Reverse ETL
 
 [Reverse ETL]({{ '/wiki/reverse-etl/' | relative_url }}) is the most explicit
-activation mechanism in the archive. Arpit places it after warehouse storage
+activation mechanism in these episodes. Arpit places it after warehouse storage
 and transformation. At 37:25-38:20, he names Census and Hightouch as tools for
 sending modeled warehouse data to operational systems. Grouparoo appears in the
 same comparison.
@@ -96,7 +96,7 @@ ways for sales or marketing users to copy warehouse outputs. The data goes into
 the systems where those users work
 ([modern data stack episode]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})).
 
-The archive therefore treats reverse ETL as operational plumbing, not as a
+Arpit and Natalie therefore treat reverse ETL as operational plumbing, not as a
 replacement for modeling. The business logic still needs clear tables,
 definitions, ownership, and freshness. Those controls come before it can safely
 drive outreach, support, or onboarding.

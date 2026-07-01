@@ -36,7 +36,7 @@ too.
 
 ## Common Definition
 
-The archive gives a practical definition. A production system has an owner, a
+The podcast discussions give a practical definition. A production system has an owner, a
 release path, observable behavior, and a failure plan. It doesn't have to be
 large, real-time, or deep-learning-heavy. It has to be dependable enough for the
 decision it supports.
@@ -108,7 +108,7 @@ not only deployment and uptime.
 ## Deployment
 
 Deployment is the handoff from a working prototype to a repeatable running
-system. In the archive, good deployment starts before release because teams need
+system. In these episodes, good deployment starts before release because teams need
 to know the model artifact and runtime environment. They also need the data
 inputs, serving interface, and rollback path.
 
@@ -174,7 +174,7 @@ output quality, they can't know whether the AI system is fit for production.
 ## Reliability
 
 Reliability is the ability to keep serving the intended decision when data or
-traffic changes. Models, dependencies, and users change too. The archive treats
+traffic changes. Models, dependencies, and users change too. Guests treat
 reliability as a system property, not as a property of a model alone.
 
 [Nadia Nahar]({{ '/people/nadianahar/' | relative_url }})'s
@@ -232,7 +232,7 @@ optimization. They also cover hardware choices, latency, and cost tradeoffs.
 ## Security and Governance
 
 Security and governance become production concerns once models interact with
-private data, regulated decisions, or external users. The archive connects these
+private data, regulated decisions, or external users. The podcast discussions connect these
 risks to both platform controls and AI-specific failure modes.
 
 [Simon Stiebellehner]({{ '/people/simonstiebellehner/' | relative_url }})

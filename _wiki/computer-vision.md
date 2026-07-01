@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Computer Vision"
-summary: "Archive-backed guide to computer vision as applied perception, from images and sensors to labeling, deployment constraints, multimodal retrieval, and career project work."
+summary: "Podcast-grounded guide to computer vision as applied perception, from images and sensors to labeling, deployment constraints, multimodal retrieval, and career project work."
 related:
   - AI
   - Machine Learning
@@ -17,8 +17,8 @@ related:
 Computer vision is the part of
 [AI]({{ '/wiki/ai/' | relative_url }}) and
 [machine learning]({{ '/wiki/machine-learning/' | relative_url }}) that turns
-images, video, sensor streams, and remote-sensing data into decisions. In the
-DataTalks.Club archive, guests rarely treat it as a model family alone. They
+images, video, sensor streams, and remote-sensing data into decisions. In
+DataTalks.Club episodes, guests rarely treat it as a model family alone. They
 describe it as applied perception. Teams collect visual data, label it, train a
 [deep learning]({{ '/wiki/deep-learning/' | relative_url }}) model, and test it
 against real-world edge cases. Then they ship it inside a product or field
@@ -49,7 +49,7 @@ The main computer vision episodes are:
 - [Production ML Search]({{ '/podcasts/production-ml-search-vector-search-embeddings-hybrid-search/' | relative_url }}) for multimodal embeddings and CLIP-style image retrieval. Use it to connect computer vision to hybrid search and [vector search]({{ '/wiki/vector-databases/' | relative_url }}).
 - [AI Engineering: Skill Stack, Agents, LLMOps, and How to Ship AI Products]({{ '/podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products/' | relative_url }}) with [Paul Iusztin]({{ '/people/pauliusztin/' | relative_url }}) for the production skill stack around GenAI, computer vision, and MLOps.
 
-## Definition In The Archive
+## Common Definition
 
 Across these episodes, guests define computer vision as a visual decision
 system, not only a convolutional neural network or transformer. Vision systems
@@ -152,7 +152,7 @@ against practical project constraints.
 
 ## Multimodal Search And Retrieval
 
-Computer vision also appears in the archive through
+Computer vision also appears in DataTalks.Club episodes through
 [embeddings]({{ '/wiki/embeddings/' | relative_url }}) and image retrieval.
 In [Production ML Search]({{ '/podcasts/production-ml-search-vector-search-embeddings-hybrid-search/' | relative_url }}),
 the discussion covers multimodal embeddings around 33:13. Images and text can

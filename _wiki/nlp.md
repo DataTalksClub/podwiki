@@ -11,15 +11,15 @@ related:
 ---
 
 Natural language processing (NLP) is the part of machine learning that works
-with language data. The archive covers text and speech. It also covers
-documents, dialogue, and translation.
+with language data. DataTalks.Club guests discuss text and speech. They also
+discuss documents, dialogue, and translation.
 
 In DataTalks.Club interviews, guests rarely treat NLP as only model training.
 They connect it to data collection and annotation. They also connect it to
 linguistics, deployment, and evaluation. User safety and product constraints
 matter too.
 
-The archive also connects older NLP work to modern
+The podcast discussions also connect older NLP work to modern
 [LLMs]({{ '/wiki/llms/' | relative_url }}),
 [embeddings]({{ '/wiki/embeddings/' | relative_url }}), and
 [RAG]({{ '/wiki/rag/' | relative_url }}). In
@@ -35,7 +35,7 @@ search, speech recognition, and chatbot safety.
 Across the interviews, NLP means turning language data into useful software.
 Some episodes cover text classification, information extraction, and document
 processing. Others cover search, translation, and chatbots. Speech recognition
-and LLM-powered assistants also appear across the archive.
+and LLM-powered assistants also appear across these episodes.
 
 Ivan's definition in
 [Lead NLP Teams]({{ '/podcasts/nlp-team-hiring-and-production-mlops/' | relative_url }})
@@ -137,7 +137,7 @@ skill more clearly than a notebook that no one can reproduce.
 
 ## Transformers and LLMs
 
-LLMs change the interface to NLP. The archive still treats them as a
+LLMs change the interface to NLP. DataTalks.Club guests still treat them as a
 continuation of language-system work rather than a replacement for it. Ivan's
 [Lead NLP Teams]({{ '/podcasts/nlp-team-hiring-and-production-mlops/' | relative_url }})
 episode already makes this transition visible. At 38:55, he discusses GPT-3
@@ -177,8 +177,8 @@ teams need task-specific evidence, not only larger context windows.
 
 ## Speech and Text Use Cases
 
-The archive's NLP examples include more than text classification. Ivan covers
-chatbot UX and conversational designers at 26:19 in
+The NLP examples in these episodes include more than text classification. Ivan
+covers chatbot UX and conversational designers at 26:19 in
 [Lead NLP Teams]({{ '/podcasts/nlp-team-hiring-and-production-mlops/' | relative_url }}).
 At 28:38 he discusses parsing, information extraction, and multilingual needs.
 Christiaan's dataset episode starts from sales-call transcription and CRM
@@ -236,7 +236,7 @@ episode shows why teams need query analysis, output validation, layered
 defenses, and human review. At 17:00 she also presents non-LLM classifiers as
 robust alternatives for some decisions.
 
-That discussion gives the archive one of its clearest NLP production lessons.
+Maria gives a direct NLP production lesson.
 Choose the narrowest language system that can do the job safely. Then evaluate
 it against the failure modes the product will face.
 

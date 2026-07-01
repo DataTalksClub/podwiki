@@ -13,7 +13,7 @@ related:
 ---
 
 A data scientist interview roadmap is a role-specific preparation path from job
-targeting to final offer. In the DataTalks.Club archive, prep starts with the
+targeting to final offer. In DataTalks.Club interview episodes, prep starts with the
 work behind the title. "Data scientist" can mean product analytics,
 experimentation, or forecasting. It can also mean machine learning or
 production ML.
@@ -40,8 +40,8 @@ Case practice, technical drills, stories, and offer talks support that role.
 
 ## Common Definition
 
-Across the archive, data scientist interview preparation means building
-role-specific proof. The first proof is role fit. Luke's recruiter workflow in
+Guests describe data scientist interview preparation as building role-specific
+proof. The first proof is role fit. Luke's recruiter workflow in
 [Land Data Scientist Roles]({{ '/podcasts/get-data-scientist-job/' | relative_url }})
 starts from role definition and market guidance. It then moves through
 shortlists, interview preparation, feedback, and offer negotiation. Oleg's
@@ -258,8 +258,8 @@ contribution and result. Luke's STAR guidance in
 also connects behaviorals to intro interviews. The first screen often tests
 whether your story is clear enough to pass forward.
 
-Closing belongs in the roadmap because the archive treats rejection and offers
-as part of the hiring process. Salary and etiquette matter too. Oleg covers
+Include closing in the roadmap because guests treat rejection and offers as
+part of the hiring process. Salary and etiquette matter too. Oleg covers
 rejection follow-up, offer components, market comparison, and negotiation in
 [Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }}).
 
@@ -271,7 +271,7 @@ the interview process reaches compensation and competing offers.
 
 ## Practical Roadmap
 
-Use the archive sequence as a preparation checklist:
+Use this podcast-backed sequence as a preparation checklist:
 
 1. Choose the target role. Compare product data science with analytics-heavy
    data science and ML-heavy data science. Use

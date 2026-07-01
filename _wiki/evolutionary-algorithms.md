@@ -11,14 +11,14 @@ related:
   - Evaluation
 ---
 
-In the DataTalks.Club archive, [Micheal Lanham]({{ '/people/micheallanham/' | relative_url }})
+In DataTalks.Club podcast discussions, [Micheal Lanham]({{ '/people/micheallanham/' | relative_url }})
 gives the clearest evolutionary-algorithms thread. He connects the topic to game
 AI and numerical optimization. He also connects it to evolutionary deep
 learning, prompt search, and modern
 [AI agents]({{ '/wiki/ai-agents/' | relative_url }})
 ([From Game AI to LLM Agents]({{ '/podcasts/from-game-ai-to-modern-ai-agents/' | relative_url }}),
-1:07-14:09). The archive evidence is narrow, so this article maps
-that podcast discussion rather than giving a complete textbook treatment of
+1:07-14:09). The podcast evidence is narrow, so this article maps
+that discussion rather than giving a complete textbook treatment of
 evolutionary computation.
 
 Lanham puts evolutionary algorithms beside
@@ -32,7 +32,7 @@ why they were attractive before modern deep learning frameworks became dominant
 ([From Game AI to LLM Agents]({{ '/podcasts/from-game-ai-to-modern-ai-agents/' | relative_url }}),
 4:19-5:01).
 
-## Archive Definition
+## Common Definition
 
 In the interview, genetic algorithms are framed as a type of evolutionary
 algorithm. You start with a population and score each candidate by fitness.
@@ -42,8 +42,8 @@ parents to combine traits
 ([From Game AI to LLM Agents]({{ '/podcasts/from-game-ai-to-modern-ai-agents/' | relative_url }}),
 11:30-12:59).
 
-The archive treats evolutionary algorithms as search methods that explore many
-candidates when no answer is obvious. Lanham says they were seen around 2006
+Lanham treats evolutionary algorithms as search methods that explore many
+candidates when no answer is obvious. He says they were seen around 2006
 as a promising path to intelligence. He also emphasizes heavy computation and
 looser constraints than a hand-designed optimization method
 ([From Game AI to LLM Agents]({{ '/podcasts/from-game-ai-to-modern-ai-agents/' | relative_url }}),

@@ -13,7 +13,7 @@ related:
 ---
 
 A solopreneur is an entrepreneur who chooses an intentionally small business.
-In the DataTalks.Club archive, that usually means independent data, AI, and
+In DataTalks.Club episodes, that usually means independent data, AI, and
 software work. It also includes consulting, teaching, writing, or product work
 without trying to become a large agency or venture-backed company.
 
@@ -33,7 +33,7 @@ broader business category.
 
 ## Common Definition
 
-Across the archive, solopreneurs usually share a few traits:
+Across these episodes, solopreneurs usually share a few traits:
 
 - They own the business.
 - They keep the company small enough to preserve independence.
@@ -123,7 +123,7 @@ personal-brand version in
 He frames public work as sharing expertise, experience, knowledge, and mistakes
 so other people know what kind of help to ask for.
 
-The archive also connects audience to
+The podcast discussions also connect audience to
 [Technical Writing]({{ '/wiki/technical-writing/' | relative_url }}),
 [Open Source]({{ '/wiki/open-source/' | relative_url }}), and
 [Developer Relations]({{ '/wiki/developer-relations/' | relative_url }}).
@@ -153,10 +153,10 @@ for the focused transition page.
 
 ## Sustainability and Runway
 
-The archive is conservative about solo risk. Noah recommends building income
-streams while employed and reducing expenses before switching. Dimitri also
-uses financial targets and a fallback window when he describes moving into
-freelancing.
+Noah Gift and Dimitri Visnadi are conservative about solo risk. Noah recommends
+building income streams while employed and reducing expenses before switching.
+Dimitri also uses financial targets and a fallback window when he describes
+moving into freelancing.
 
 For data and AI professionals, sustainability means more than technical demand.
 The offer needs a buyer and a repeatable problem. It also needs a price that

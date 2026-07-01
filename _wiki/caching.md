@@ -11,8 +11,8 @@ related:
 ---
 
 Caching is the reuse of already computed work so an AI or data system can avoid
-doing the same expensive step on every request. In the DataTalks.Club archive,
-the clearest example is prompt caching for LLM systems. Teams reuse the stable
+doing the same expensive step on every request. In the DataTalks.Club podcast
+discussions, the clearest example is prompt caching for LLM systems. Teams reuse the stable
 part of a prompt or model computation so repeated calls can cost less and
 respond faster. That sits beside
 [prompt engineering]({{ '/wiki/prompt-engineering/' | relative_url }}),
@@ -20,7 +20,7 @@ respond faster. That sits beside
 and [AI infrastructure]({{ '/wiki/ai-infrastructure/' | relative_url }}).
 
 [Bartosz Mikulski]({{ '/people/bartoszmikulski/' | relative_url }}) gives the
-main archive anchor in
+main podcast discussion in
 [Production AI Engineering]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }}).
 At 28:16-31:45, he moves from examples and prompt evaluation to prompt
 compression and prompt caching. The sequence matters: caching isn't a magic
@@ -30,7 +30,7 @@ expected output should look like.
 
 ## Starting Points
 
-Start with these archive discussions:
+Start with these podcast discussions:
 
 - [Production AI Engineering]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }})
   with [Bartosz Mikulski]({{ '/people/bartoszmikulski/' | relative_url }}) for
@@ -54,7 +54,7 @@ side.
 
 ## Common Definition
 
-The archive uses caching as an efficiency tactic, not as a separate AI
+DataTalks.Club guests use caching as an efficiency tactic, not as a separate AI
 discipline. Teams cache when the same stable input appears across requests. The
 reused input may be a retrieval result, model state, or prompt prefix. Teams do
 this to reduce repeated computation while preserving the behavior that tests and
@@ -74,8 +74,8 @@ recalls attention-value caching as a possible implementation detail. He then
 says readers should check provider documentation rather than rely on their
 memory.
 
-The archive supports the product-level technique, but it doesn't claim one
-universal provider implementation.
+Bartosz supports the product-level technique, but he doesn't claim one universal
+provider implementation.
 
 ## Prompt Caching and Model Efficiency
 
@@ -141,8 +141,8 @@ Teams first reduce and structure context with retrieval, chunking, metadata,
 and wrappers. They can then cache stable retrieval results or stable context
 blocks when the product can tolerate their freshness rules.
 
-For data systems, the archive implies a guardrail: cache only after correctness
-is visible. Bartosz starts the same production AI episode with data trust,
+For data systems, Bartosz's testing sequence implies a guardrail: cache only
+after correctness is visible. He starts the same production AI episode with data trust,
 snapshot tests, integration tests, and testing tools at 9:05-13:14. That order
 keeps caching from hiding bad inputs.
 
@@ -187,8 +187,8 @@ can dominate per-request spend. It can improve reliability when a cache
 stabilizes common paths. Without a freshness rule, the same cache can serve
 stale or wrong context.
 
-The archive supports a practical rule: make cost and latency visible before
-optimizing. Bartosz ties prompt examples to cost at 29:33 and evaluation at
+Bartosz, Ranjitha, and Meryem support a practical rule: make cost and latency
+visible before optimizing. Bartosz ties prompt examples to cost at 29:33 and evaluation at
 30:00 in
 [Production AI Engineering]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }}).
 Ranjitha ties long context to latency, cost, and noisy outputs at 30:27 in

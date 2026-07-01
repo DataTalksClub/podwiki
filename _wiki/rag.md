@@ -24,8 +24,8 @@ the boundary with [fine-tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative
 and [agents]({{ '/wiki/agent-engineering/' | relative_url }}), continue to the
 final section.
 
-[Atita Arora]({{ '/people/atitaarora/' | relative_url }}) gives the archive's
-clearest RAG definition in
+[Atita Arora]({{ '/people/atitaarora/' | relative_url }}) gives the clearest
+RAG definition in
 [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}).
 At 30:38, she describes RAG as retrieval plus generation. The system retrieves
 client or product context and gives it to the model so the answer has a basis
@@ -38,8 +38,9 @@ references.
 
 ## Retrieval Before Generation
 
-The archive's RAG advice starts with [search]({{ '/wiki/search/' | relative_url }})
-and [information retrieval]({{ '/wiki/information-retrieval/' | relative_url }}),
+The RAG advice in these episodes starts with
+[search]({{ '/wiki/search/' | relative_url }}) and
+[information retrieval]({{ '/wiki/information-retrieval/' | relative_url }}),
 not with generation. Atita's transcript chatbot starts by asking how to find the
 right part of many podcast transcripts for a user's question
 ([Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}),
@@ -86,8 +87,9 @@ learned.
 
 ## Embeddings And Vector Stores
 
-Many RAG systems use vector retrieval, but the archive doesn't equate RAG with a
-vector database. Atita introduces Qdrant and other vector stores at 17:01 in
+Many RAG systems use vector retrieval, but these podcast discussions don't
+equate RAG with a vector database. Atita introduces Qdrant and other vector
+stores at 17:01 in
 [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}).
 At 20:27, she compares standalone vector databases with adding vectors to
 existing search stacks such as Solr and Elasticsearch. She also mentions
@@ -139,8 +141,8 @@ index.
 
 RAG security starts before the model answers. The system shouldn't retrieve
 documents the user isn't allowed to see. The answer shouldn't leak restricted
-content through summaries or citations. The archive's clearest
-LLM-security discussion comes from
+content through summaries or citations. The clearest LLM-security discussion
+comes from
 [Maria Sukhareva]({{ '/people/mariasukhareva/' | relative_url }}) in
 [Hardening Generative AI Chatbots]({{ '/podcasts/generative-ai-chatbots-in-production-security/' | relative_url }}).
 At 13:20, she describes data exfiltration from a knowledge database through
