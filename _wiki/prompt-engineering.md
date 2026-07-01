@@ -12,34 +12,36 @@ related:
   - AI Tooling
 ---
 
-Prompt engineering shapes an
-[LLM]({{ '/wiki/llms/' | relative_url }}) input so the model has the role and
-task it needs. The input also includes examples, context, and output constraints.
-DataTalks.Club guests usually discuss it as a practical interface. The prompt
-sits between the product workflow, retrieved context, model, and checks that
-decide whether the answer is usable.
+Prompt engineering shapes the input to an
+[LLM]({{ '/wiki/llms/' | relative_url }}). It names the role and task, provides
+examples and retrieved context, and sets output constraints before the model
+answers. In the
+DataTalks.Club LLM episodes, guests treat prompts as part of the product
+interface. The prompt sits between the user task, retrieved evidence, model
+behavior, and checks that decide whether the answer is usable.
 
-Here, prompt engineering means the prompt and context interface. Use
+Prompt engineering is narrower than the whole LLM application. Use
 [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
 for serving, deployment, observability, and model choice. Use
 [AI Tooling]({{ '/wiki/ai-tooling/' | relative_url }}) for libraries and
-developer tools around prompts. The narrower prompt question is what the model
+developer tools around prompts. The prompt-engineering question is what the model
 sees and how the team constrains the answer. It also covers how they test prompt
-changes and when they stop trying to solve the problem with wording alone.
+changes and when they stop trying to fix the system with wording alone.
 
 Use
 [RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }})
 when the decision is whether a system needs better prompts, retrieved context,
 or model adaptation.
 
-## Common Definition
+## Prompt and Context Interface
 
-Guests usually define the work as giving the model the right job and evidence,
-plus the right target format. In
+Hugo Bowne-Anderson, Bartosz Mikulski, and Ranjitha Kulkarni converge on a
+practical definition. Prompt engineering gives the model the right job,
+evidence, and target format. In
 [Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}),
 [Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }})
-starts with a role and objective, then adds examples and heuristics at 11:11. In his
-timestamp example at 13:33-15:58, teams iterate on prompt details and add
+starts with a role and objective, then adds examples and heuristics at 11:11.
+In his timestamp example at 13:33-15:58, teams iterate on prompt details and add
 audience-specific criteria. They also involve the person who used to do the
 work.
 
@@ -56,7 +58,7 @@ isn't the whole system. [Ranjitha Kulkarni]({{ '/people/ranjithakulkarni/' | rel
 draws that boundary in
 [Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}):
 at 28:17-29:30, she frames context engineering as a deliberate information
-choice. Teams decide what to give the LLM instead of stuffing everything into
+choice. Teams choose what to give the LLM instead of stuffing everything into
 the input.
 
 ## Role Prompts and Task Framing
@@ -85,12 +87,11 @@ model nondeterminism, provider updates, or the need for validation.
 
 ## Structured Output and Examples
 
-DataTalks.Club guests repeatedly use prompt engineering to get structured
-output. At 28:16 in
-[Production AI Engineering]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }}),
-Bartosz uses sentiment analysis as the example. The team can describe the JSON
-keys, or it can show a review and the expected JSON output. Examples often make
-the model follow the format even when the instruction is short.
+Bartosz treats structured output as a prompt-engineering problem in
+[Production AI Engineering]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }}).
+At 28:16, he uses sentiment analysis as the example. The team can describe the
+JSON keys, or it can show a review and the expected JSON output. Examples often
+make the model follow the format even when the instruction is short.
 
 Hugo makes the same point from the evaluation side in
 [Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}).
@@ -112,7 +113,7 @@ reliability belong to one design decision.
 Prompt evaluation starts with representative cases, not with clever wording.
 Hugo's generator-evaluator setup at 13:56 in
 [Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }})
-uses one model to generate an output and another check it. He also says the
+uses one model to generate an output and another to check it. He also says the
 final signal can be pass/fail with feedback, because a product usually needs to
 know whether the result can ship.
 
@@ -155,10 +156,10 @@ budgeting to [retrieval-augmented generation]({{ '/wiki/retrieval-augmented-gene
 and [production search evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }}),
 because the prompt is only as useful as the context selected for it.
 
-## Context Engineering and RAG Prompts
+## Context Engineering and RAG
 
-Context engineering is the broader term these episodes use for prompt work that
-selects and packages information for the model. Ranjitha says at 28:17-32:48 in
+Context engineering is the broader term for prompt work that selects and
+packages information for the model. Ranjitha says at 28:17-32:48 in
 [Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }})
 that teams should be deliberate about the context they provide. They choose how
 to chunk it, which metadata to attach, and which wrapper helps the LLM use it.
@@ -208,7 +209,7 @@ Maria's 13:20 discussion shows that attackers can extract knowledge-base data.
 The prompt template can state the rule, but access control and validation must
 enforce it.
 
-## Prompting Boundaries
+## Limits of Prompting
 
 Several guests draw a clear stopping point for prompt engineering. In
 [Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }})
@@ -234,7 +235,7 @@ boundary in
 At 14:09-17:25, he discusses evolutionary algorithms for prompt engineering.
 They can find useful prompt variations, but they're computationally expensive.
 
-That reinforces the practical theme across these episodes. Prompt iteration is useful, but
-teams should measure whether more iteration beats retrieval or fine-tuning. They
-should also compare it with tool design, human review, or a smaller product
-target.
+That reinforces the practical theme across these episodes. Prompt iteration is
+useful, but teams should measure whether more iteration beats retrieval or
+fine-tuning. They should also compare it with tool design, human review, or a
+smaller product target.

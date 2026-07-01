@@ -31,9 +31,9 @@ these systems lives in
 broader production practices live in
 [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }}).
 
-## Starting Points
+## Core Podcast Threads
 
-Start with these podcast discussions:
+The agent discussions in the podcast cluster around six recurring threads:
 
 - [Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}) with [Ranjitha Kulkarni]({{ '/people/ranjithakulkarni/' | relative_url }}) for autonomy, orchestration, tools, memory, and SRE workflows. The same episode covers agentic RAG, MCP-style tool protocols, and goal-based evaluation.
 - [The Future of AI Agents]({{ '/podcasts/s23e03-future-of-ai-agents/' | relative_url }}) with [Aditya Gautam]({{ '/people/adityagautam/' | relative_url }}) for enterprise adoption, specialized models, guardrails, and data lineage. He also covers multi-tenant evaluation, human-label alignment, and deployment risk.
@@ -42,7 +42,8 @@ Start with these podcast discussions:
 - [AI Engineering: Skill Stack, Agents, LLMOps, and How to Ship AI Products]({{ '/podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products/' | relative_url }}) with [Paul Iusztin]({{ '/people/pauliusztin/' | relative_url }}) for agents inside the wider AI engineering skill stack.
 - [Hardening Generative AI Chatbots]({{ '/podcasts/generative-ai-chatbots-in-production-security/' | relative_url }}) with [Maria Sukhareva]({{ '/people/mariasukhareva/' | relative_url }}) for security risks that become sharper when an LLM can retrieve data or take actions.
 
-Adjacent pages cover the supporting pieces:
+The supporting pieces appear throughout the article and connect agents to these
+neighboring topics:
 
 - [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}) and [RAG]({{ '/wiki/rag/' | relative_url }}) for search-backed grounding.
 - [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }}) for tests, judges, and failure analysis.
@@ -51,7 +52,7 @@ Adjacent pages cover the supporting pieces:
 - [Tools]({{ '/wiki/tools/' | relative_url }}) for action interfaces.
 - [Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }}) for controls.
 
-## Common Definition
+## Agentic System Boundaries
 
 Across the agent-focused episodes, guests describe an AI agent as an LLM system
 that can plan or route the next step in a task. It can also use tools and
@@ -77,7 +78,7 @@ to LLMOps and shipped AI products. That puts agents close to the
 [AI Engineering Roadmap]({{ '/wiki/ai-engineering-roadmap/' | relative_url }}),
 not in a separate research-only category.
 
-## Guest Differences
+## Production, Adoption, Design, and Governance Lenses
 
 Guests agree on tools and context. They also agree on evaluation and
 guardrails, but they start from different failure modes.
@@ -97,9 +98,9 @@ API access plus RAG to show how teams can grow from retrieval into actions.
 Micheal starts from agent design history. In
 [From Game AI to LLM Agents]({{ '/podcasts/from-game-ai-to-modern-ai-agents/' | relative_url }}),
 he ties modern LLM agents to game AI and reinforcement learning. He also links
-them to multi-agent systems and workflow design. His 20:57 section favors minimalism and task
-decomposition, while 23:48 contrasts sequential flows with manager-agent
-orchestration. That emphasis connects AI agents to
+them to multi-agent systems and workflow design. His 20:57 section favors
+minimalism and task decomposition, while 23:48 contrasts sequential flows with
+manager-agent orchestration. That emphasis connects AI agents to
 [Multi-Agent Systems]({{ '/wiki/multi-agent-systems/' | relative_url }}) and
 [Software Engineering]({{ '/wiki/software-engineering/' | relative_url }}).
 
@@ -232,10 +233,9 @@ AI agents to [AI Red Teaming]({{ '/wiki/ai-red-teaming/' | relative_url }}),
 [Data Governance]({{ '/wiki/data-governance/' | relative_url }}), and
 [Production]({{ '/wiki/production/' | relative_url }}).
 
-## See Also
+## Adjacent Agent Topics
 
-These pages cover the design, retrieval, safety, and evaluation work around
-agent systems:
+Agent work usually crosses these neighboring topics:
 
 - [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }}) for implementation practice around tool design, retrieval, tests, and deployment.
 - [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }}) for model choice, serving, cost, latency, guardrails, and production constraints.

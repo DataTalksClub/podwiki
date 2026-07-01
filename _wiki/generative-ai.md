@@ -11,8 +11,6 @@ related:
   - Responsible AI and Governance
 ---
 
-## Definition
-
 Generative AI covers systems that produce new outputs from prompts and context.
 Those outputs can be text, code, images, or structured data. They can also be
 summaries, translations, recommendations, or actions. DataTalks.Club guests
@@ -31,12 +29,12 @@ generation tasks. That framing matters because not every AI product needs a
 generator. Some problems still fit classifiers, retrieval systems, or
 deterministic software better.
 
-## Common Definition
+## From Model Output to Product Systems
 
-Guests use a practical definition that's narrower than the market term. They
-usually treat generative AI as a product or engineering capability. The system
-uses a model to generate an output. Teams then add retrieval and tooling. They
-also add validation, monitoring, and human review.
+Guests usually use the term more narrowly than the market does. They treat
+generative AI as a product or engineering capability. The model generates an
+output. Teams add retrieval and tools around it. They also add validation,
+monitoring, and human review.
 
 [Bartosz Mikulski]({{ '/people/bartoszmikulski/' | relative_url }}) makes this
 engineering view explicit in
@@ -60,7 +58,7 @@ CSV workflows. At 13:56, he describes a generator-evaluator check for quality
 control. At 23:00 and 26:43, he shifts from prompting to evaluation sets,
 failure analysis, and retrieval fixes.
 
-## Guest Differences
+## Trust Boundaries
 
 Guests differ less on whether generative AI is useful and more on where teams
 should put the trust boundary.
@@ -71,11 +69,12 @@ chatbot as a risky interface in
 At 9:28, she discusses findings from a large chatbot hacking exercise. At
 11:38 and 13:20, she covers hallucinations, legal exposure, and financial
 incidents. She also covers data exfiltration through prompts and knowledge-base
-retrieval. Her
-definition of a usable generative AI system includes
+retrieval.
+
+For her, a usable generative AI system includes
 [security]({{ '/wiki/security/' | relative_url }}),
-[AI red teaming]({{ '/wiki/ai-red-teaming/' | relative_url }}), output
-validation, and human review.
+[AI red teaming]({{ '/wiki/ai-red-teaming/' | relative_url }}), and output
+validation. It also includes human review.
 
 Meryem focuses on deployment choices. In
 [Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}),

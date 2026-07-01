@@ -12,18 +12,18 @@ related:
   - Tools
 ---
 
-Agent engineering is the practice of building AI systems that can pursue a goal
-and act inside a workflow. These systems may use tools, retrieve information,
-and keep task state. In DataTalks.Club podcast discussions, agents aren't only
-chatbots. Guests discuss on-call assistants, email assistants, and coding
-agents. They also discuss enterprise search assistants, multi-agent support
-systems, and workflow automation.
+Agent engineering is the practice of building AI systems that can pursue a
+goal and act inside a workflow. These systems may use tools, retrieve
+information, and keep task state. DataTalks.Club guests don't treat agents as
+chatbots with longer prompts. They discuss on-call assistants, email
+assistants, coding agents, and enterprise search assistants. They also discuss
+multi-agent support systems and workflow automation.
 
 The clearest definition comes from
 [Ranjitha Kulkarni]({{ '/people/ranjithakulkarni/' | relative_url }}) in
 [Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}).
-At 11:00, she frames an agent around autonomy and objectives. She also connects
-the definition to LLM reasoning. At 12:31, she adds orchestration and tool use.
+At 11:00, she frames an agent around autonomy and objectives, then connects the
+definition to LLM reasoning. At 12:31, she adds orchestration and tool use.
 She also adds memory and knowledge stores.
 
 That puts agent engineering next to
@@ -31,7 +31,7 @@ That puts agent engineering next to
 [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}),
 and [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }}).
 
-## Common Definition
+## Agents as Workflow Actors
 
 Across these episodes, an agent is an LLM-backed system that can decide the next
 step in a task rather than only return one answer. It may call APIs or run
@@ -45,7 +45,7 @@ fallback behavior.
 Ranjitha and Hugo also keep a strong boundary between
 [RAG]({{ '/wiki/rag/' | relative_url }}) and agents. In Ranjitha's episode, the
 37:39 section separates cases where retrieval is enough from cases that need an
-agent. At 36:11, she describes retrieval as a tool the agent can call.
+agent. At 36:11, she describes retrieval as one tool an agent can call.
 
 In
 [Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}),
@@ -54,7 +54,7 @@ makes the same progression. His 44:26 section starts with chunking and
 embeddings for quick RAG wins. At 50:19, he discusses when teams should add
 tool calls and agent behavior.
 
-This definition connects agent engineering to the
+This way of defining agents connects agent engineering to the
 [AI Engineer Role]({{ '/wiki/ai-engineer-role/' | relative_url }}). In
 [Paul Iusztin's AI engineering episode]({{ '/podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products/' | relative_url }}),
 [Paul Iusztin]({{ '/people/pauliusztin/' | relative_url }}) places agents
@@ -62,10 +62,11 @@ inside a broader AI product stack. His 22:29 chapter covers the full-stack AI
 engineer skill set. His 29:12 chapter emphasizes RAG and knowledge management.
 The 42:28 chapter moves from techniques to shipping AI products.
 
-## Guest Differences
+## Starting Points for Agent Work
 
-Guests agree that agents need tool use, context, and evaluation, but they differ
-on where to start.
+Guests agree that agents need tool use, context, and evaluation, but they start
+from different engineering pressures. Each guest treats a different constraint
+as the first thing to solve.
 
 [Ranjitha Kulkarni]({{ '/people/ranjithakulkarni/' | relative_url }}) starts
 from production workflows. Her

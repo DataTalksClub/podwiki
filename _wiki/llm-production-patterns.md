@@ -22,29 +22,28 @@ They also include [RAG vs fine-tuning]({{ '/comparisons/rag-vs-fine-tuning/' | r
 evaluation, and security. Cost, latency, and ownership stay part of the same
 production question.
 
-The important boundary is that the LLM is rarely the whole product.
+DataTalks.Club guests repeatedly treat the LLM as a product component, not the
+whole system.
 [Meryem Arik]({{ '/people/meryemarik/' | relative_url }}) ties LLM production
-to deployment, open-source versus API tradeoffs, fine-tuning, and retrieval in
+to deployment and model ownership in
 [Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}).
-She also discusses cost and latency there.
-
-[Business Intelligence]({{ '/wiki/business-intelligence/' | relative_url }})
-is one place where that boundary matters. The model can help with questions and
-summaries, but the product still depends on governed metrics. It also depends
-on access controls and review.
+She also discusses fine-tuning, retrieval, cost, and latency there. In
+[business intelligence]({{ '/wiki/business-intelligence/' | relative_url }}),
+the model can help with questions and summaries. The product still depends on
+governed metrics, access controls, and review.
 
 [Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }})
 turns the same production problem into prompts, RAG, and gold tests in
 [Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}).
 He adds failure analysis, logs, traces, and tool use in the same episode.
 
-## Common Definition
+## Production System Boundary
 
-Across these episodes, guests define production LLM work as system design around
-measurable product behavior. Hugo starts from a small LLM application, then
-adds generator-evaluator checks at 13:56 and representative gold tests at
-23:00. He covers failure analysis at 26:43, logs and traces at 27:38, and tool
-use or agents at 44:26-56:21 in
+Guests define production LLM work by the system boundary around measurable
+product behavior. Hugo starts from a small LLM application, then adds
+generator-evaluator checks at 13:56 and representative gold tests at 23:00. He
+covers failure analysis at 26:43, logs and traces at 27:38, and tool use or
+agents at 44:26-56:21 in
 [Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}).
 That makes [LLM evaluation workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }})
 part of production design rather than a final audit.
@@ -69,7 +68,7 @@ Teams choose the model boundary and package the context. They test the
 behavior, watch the system in use, and change the design when failures show
 where the next fix belongs.
 
-## Guest Differences
+## Different Starting Constraints
 
 Guests differ on the constraint they treat as the first production problem.
 Meryem starts with the serving boundary. In
@@ -77,8 +76,8 @@ Meryem starts with the serving boundary. In
 she compares open-source models with hosted APIs at 16:48-25:26. She connects
 that choice to control and privacy. Provider drift appears there too.
 
-Fine-tuning, compression, and inference optimization appear through 49:44-51:35,
-with latency and cost in that same production discussion.
+She also covers fine-tuning, compression, and inference optimization through
+49:44-51:35, with latency and cost in the same production discussion.
 
 Hugo starts with builder iteration. He treats prompts and structured outputs as
 parts of a testable system in
