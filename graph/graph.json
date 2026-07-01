@@ -2,12 +2,12 @@
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
     "wikis": 180,
-    "articles": 53,
+    "articles": 52,
     "podcasts": 202,
     "persons": 438,
     "topics": 147,
-    "nodes": 1020,
-    "links": 10634
+    "nodes": 1019,
+    "links": 10633
   },
   "nodes": [
     {
@@ -196,17 +196,6 @@
       "count": 1,
       "search": "Data Roles: Analyst, Data Scientist, Data Engineer, Analytics Engineer, MLE, and Data Product Manager A podcast backed guide to common data roles, how their responsibilities differ, how to choose a target role, and what portfolio evidence each role needs.",
       "keyword": "data roles"
-    },
-    {
-      "id": "article:guide:data-science-for-managers",
-      "type": "article",
-      "collection": "guide",
-      "label": "Data Science for Managers: What to Know Before Leading Data Science Work",
-      "title": "Data Science for Managers: What to Know Before Leading Data Science Work",
-      "url": "/guides/data-science-for-managers/",
-      "count": 1,
-      "search": "Data Science for Managers: What to Know Before Leading Data Science Work A podcast grounded guide to data science for managers: role boundaries, team design, stakeholder communication, project signals, production limits, and when not to use ML.",
-      "keyword": "data science for managers"
     },
     {
       "id": "article:guide:data-science-recruiter",
@@ -9374,7 +9363,7 @@
       "title": "Leadership",
       "url": "/wiki/leadership/",
       "count": 1,
-      "search": "Leadership How DataTalks.Club podcast guests describe data and AI leadership across manager, senior IC, platform, strategy, hiring, mentoring, and stakeholder roles."
+      "search": "Leadership How DataTalks.Club podcast guests describe data and AI leadership across manager, senior IC, platform, strategy, hiring, mentoring, stakeholder, and data science manager roles."
     },
     {
       "id": "wiki:llm-evaluation-workflows",
@@ -14592,6 +14581,12 @@
     },
     {
       "source": "article:guide:data-product-manager",
+      "target": "wiki:a-b-testing",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:guide:data-product-manager",
       "target": "wiki:data-product-adoption",
       "kind": "article-link",
       "weight": 2
@@ -15255,174 +15250,6 @@
       "target": "wiki:software-engineer-to-machine-learning",
       "kind": "article-link",
       "weight": 2
-    },
-    {
-      "source": "article:guide:data-science-for-managers",
-      "target": "person:barbarasobkowiak",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-science-for-managers",
-      "target": "person:geojolly",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-science-for-managers",
-      "target": "person:lisacohen",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-science-for-managers",
-      "target": "person:marcodesa",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-science-for-managers",
-      "target": "person:terezaiofciu",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-science-for-managers",
-      "target": "podcast:chief-data-officer-data-strategy-and-org-design",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-science-for-managers",
-      "target": "podcast:data-leadership-coaching",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:data-science-for-managers",
-      "target": "podcast:data-science-manager-vs-expert-hiring-guide",
-      "kind": "article-link",
-      "weight": 8
-    },
-    {
-      "source": "article:guide:data-science-for-managers",
-      "target": "podcast:data-science-team-structure-and-org-design",
-      "kind": "article-link",
-      "weight": 8
-    },
-    {
-      "source": "article:guide:data-science-for-managers",
-      "target": "podcast:ml-product-manager-and-mlops-platform-strategy",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:data-science-for-managers",
-      "target": "wiki:communication",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-science-for-managers",
-      "target": "wiki:communication",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-science-for-managers",
-      "target": "wiki:data-science",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-science-for-managers",
-      "target": "wiki:data-science",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-science-for-managers",
-      "target": "wiki:data-strategy",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-science-for-managers",
-      "target": "wiki:data-strategy",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-science-for-managers",
-      "target": "wiki:data-teams",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-science-for-managers",
-      "target": "wiki:data-teams",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-science-for-managers",
-      "target": "wiki:hiring",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-science-for-managers",
-      "target": "wiki:hiring",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-science-for-managers",
-      "target": "wiki:leadership",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-science-for-managers",
-      "target": "wiki:leadership",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-science-for-managers",
-      "target": "wiki:machine-learning",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-science-for-managers",
-      "target": "wiki:machine-learning",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-science-for-managers",
-      "target": "wiki:mlops",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-science-for-managers",
-      "target": "wiki:mlops",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-science-for-managers",
-      "target": "wiki:team-building",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-science-for-managers",
-      "target": "wiki:team-building",
-      "kind": "article-wiki",
-      "weight": 5
     },
     {
       "source": "article:guide:data-science-recruiter",
@@ -36734,7 +36561,7 @@
       "source": "wiki:a-b-testing",
       "target": "article:guide:product-analyst",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:a-b-testing",
@@ -36800,7 +36627,13 @@
       "source": "wiki:a-b-testing",
       "target": "wiki:data-led-growth",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
+    },
+    {
+      "source": "wiki:a-b-testing",
+      "target": "wiki:data-led-growth",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:a-b-testing",
@@ -36818,13 +36651,25 @@
       "source": "wiki:a-b-testing",
       "target": "wiki:evaluation",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
+    },
+    {
+      "source": "wiki:a-b-testing",
+      "target": "wiki:evaluation",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:a-b-testing",
       "target": "wiki:event-tracking",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
+    },
+    {
+      "source": "wiki:a-b-testing",
+      "target": "wiki:event-tracking",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:a-b-testing",
@@ -36896,7 +36741,13 @@
       "source": "wiki:a-b-testing",
       "target": "wiki:production",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
+    },
+    {
+      "source": "wiki:a-b-testing",
+      "target": "wiki:production",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:academia",
@@ -55350,6 +55201,12 @@
     },
     {
       "source": "wiki:experiment-tracking",
+      "target": "wiki:a-b-testing",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:experiment-tracking",
       "target": "wiki:data-governance",
       "kind": "wiki-link",
       "weight": 2
@@ -55369,6 +55226,12 @@
     {
       "source": "wiki:experiment-tracking",
       "target": "wiki:evaluation",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:experiment-tracking",
+      "target": "wiki:experimentation",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -58016,11 +57879,17 @@
       "source": "wiki:leadership",
       "target": "person:barbarasobkowiak",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:leadership",
       "target": "person:barrmoses",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:leadership",
+      "target": "person:benwilson",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -58028,7 +57897,13 @@
       "source": "wiki:leadership",
       "target": "person:christopherbergh",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
+    },
+    {
+      "source": "wiki:leadership",
+      "target": "person:geojolly",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:leadership",
@@ -58044,6 +57919,12 @@
     },
     {
       "source": "wiki:leadership",
+      "target": "person:lisacohen",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:leadership",
       "target": "person:marcodesa",
       "kind": "wiki-link",
       "weight": 2
@@ -58052,7 +57933,7 @@
       "source": "wiki:leadership",
       "target": "person:marianosemelman",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:leadership",
@@ -58082,6 +57963,12 @@
       "source": "wiki:leadership",
       "target": "person:terezaiofciu",
       "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:leadership",
+      "target": "person:valeriybabushkin",
+      "kind": "wiki-link",
       "weight": 2
     },
     {
@@ -58100,37 +57987,43 @@
       "source": "wiki:leadership",
       "target": "podcast:data-engineering-leadership-and-modern-data-platforms",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:leadership",
       "target": "podcast:data-leadership-coaching",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 8
     },
     {
       "source": "wiki:leadership",
       "target": "podcast:data-quality-data-observability-data-reliability",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:leadership",
       "target": "podcast:data-science-leadership-hiring-mlops",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 8
     },
     {
       "source": "wiki:leadership",
       "target": "podcast:data-science-manager-vs-expert-hiring-guide",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 10
+    },
+    {
+      "source": "wiki:leadership",
+      "target": "podcast:data-science-team-structure-and-org-design",
+      "kind": "wiki-link",
+      "weight": 6
     },
     {
       "source": "wiki:leadership",
       "target": "podcast:dataops-for-data-engineering",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:leadership",
@@ -58149,6 +58042,24 @@
       "target": "podcast:hiring-for-data-engineering-jobs-in-europe",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:leadership",
+      "target": "podcast:machine-learning-engineering-production-best-practices",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:leadership",
+      "target": "podcast:machine-learning-system-design-interview",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:leadership",
+      "target": "podcast:ml-product-manager-and-mlops-platform-strategy",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:leadership",
@@ -58176,6 +58087,12 @@
     },
     {
       "source": "wiki:leadership",
+      "target": "wiki:communication",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:leadership",
       "target": "wiki:data-engineer-role",
       "kind": "wiki-link",
       "weight": 2
@@ -58236,6 +58153,18 @@
     },
     {
       "source": "wiki:leadership",
+      "target": "wiki:data-science",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:leadership",
+      "target": "wiki:data-science",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:leadership",
       "target": "wiki:data-strategy",
       "kind": "wiki-link",
       "weight": 2
@@ -58272,6 +58201,12 @@
     },
     {
       "source": "wiki:leadership",
+      "target": "wiki:experimentation",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:leadership",
       "target": "wiki:hiring",
       "kind": "wiki-link",
       "weight": 2
@@ -58281,16 +58216,64 @@
       "target": "wiki:hiring",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:leadership",
+      "target": "wiki:machine-learning",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:leadership",
+      "target": "wiki:machine-learning",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:leadership",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:leadership",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:leadership",
+      "target": "wiki:metrics",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:leadership",
       "target": "wiki:mlops",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:leadership",
+      "target": "wiki:mlops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:leadership",
+      "target": "wiki:model-monitoring",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:leadership",
       "target": "wiki:self-service-data-platforms",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:leadership",
+      "target": "wiki:team-building",
       "kind": "wiki-link",
       "weight": 2
     },

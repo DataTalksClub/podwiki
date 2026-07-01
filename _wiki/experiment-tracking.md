@@ -33,7 +33,10 @@ at 29:41-31:51.
 
 Use this topic for experiment tracking in ML and AI work. The center is run
 capture, reproducibility, team memory, and platform integration. It doesn't
-cover general product A/B testing. For adjacent topics, use
+cover general product
+[A/B testing]({{ '/wiki/a-b-testing/' | relative_url }}) or broader
+[experimentation]({{ '/wiki/experimentation/' | relative_url }}). For adjacent
+topics, use
 [Evaluation]({{ '/wiki/evaluation/' | relative_url }}) for judging runs and
 [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }}) for deployed
 behavior. Use [Reproducibility]({{ '/wiki/reproducibility/' | relative_url }})

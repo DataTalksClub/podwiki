@@ -148,5 +148,6 @@ wiki page already owns.
     `_wiki/analytics-engineering.md`
   - [x] Consolidate data-engineering-manager and data-engineer-manager into
     `_wiki/leadership.md`
+  - [x] Consolidate data-science-for-managers into `_wiki/leadership.md`
   - [x] Keep A/B testing as wiki concept coverage, not guide/category content
 - [ ] Resubmit both sitemaps in Google Search Console

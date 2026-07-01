@@ -115,7 +115,7 @@ data-engineering-manager/data-engineer-manager cluster was consolidated into
 | dataops-vs-data-engineering | dataops | comparison → fold in |
 | data-product-manager | data-product-management | |
 | data-product-manager-role | data-product-management | dup |
-| data-science-for-managers | leadership | |
+| data-science-for-managers | leadership | **done: consolidated into `_wiki/leadership.md`** |
 | data-scientist-interview | data-scientist-interview-roadmap | |
 | data-scientist | data-scientist-role | |
 | data-scientist-to-data-engineer | career-transition | |

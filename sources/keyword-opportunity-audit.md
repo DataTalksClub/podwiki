@@ -74,7 +74,7 @@ These keyword groups already have editorial coverage:
 | MLOps Zoomcamp | main DataTalks.Club course page | mlops zoomcamp, mlops-zoomcamp, mlops zoom camp, datatalks.club mlops zoomcamp |
 | Machine Learning Zoomcamp | main DataTalks.Club course page | machine learning zoomcamp, ml zoomcamp, machine learning zoomcamp reddit |
 | LLM Zoomcamp | main DataTalks.Club course page | llm zoomcamp, llm zoomcamp data talks club, datatalksclub llm zoomcamp |
-| Data Science for Managers | `_guides/data-science-for-managers.md` | data science for managers |
+| Data Science for Managers | `_wiki/leadership.md` | data science for managers |
 | Data Roles | `_guides/data-roles.md` | data roles |
 | Data Analysis | `_guides/data-analysis.md` | data analysis |
 | Hire Data Engineers | `_guides/hire-data-engineers.md` | hire data engineers |
@@ -116,7 +116,7 @@ The first content batches from this audit created the following durable podwiki
 coverage. The four branded Zoomcamp guide pages were later removed because the
 main DataTalks.Club site owns those course queries.
 
-1. `_guides/data-science-for-managers.md`
+1. `_wiki/leadership.md` (consolidated from `_guides/data-science-for-managers.md`)
 2. `_guides/data-roles.md`
 3. `_guides/data-analysis.md`
 4. `_guides/hire-data-engineers.md`

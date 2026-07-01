@@ -8,8 +8,12 @@ related:
   - A/A Testing
   - Metrics
   - Power Analysis
+  - Event Tracking
   - Product Analytics
+  - Data-Led Growth
   - Data Product Management
+  - Evaluation
+  - Production
 ---
 
 A/B testing is a randomized product experiment. A team assigns comparable users
@@ -189,8 +193,13 @@ archive:
 - [A/A Testing]({{ '/wiki/a-a-testing/' | relative_url }})
 - [Power Analysis]({{ '/wiki/power-analysis/' | relative_url }})
 - [Metrics]({{ '/wiki/metrics/' | relative_url }})
+- [Event Tracking]({{ '/wiki/event-tracking/' | relative_url }})
 - [Causal Inference]({{ '/wiki/causal-inference/' | relative_url }})
 - [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }})
+- [Data-Led Growth]({{ '/wiki/data-led-growth/' | relative_url }})
 - [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
+- [Evaluation]({{ '/wiki/evaluation/' | relative_url }})
+- [Production]({{ '/wiki/production/' | relative_url }})
+- [Product Analyst]({{ '/guides/product-analyst/' | relative_url }})
 - [Data Product Manager Roadmap]({{ '/roadmaps/data-product-manager-roadmap/' | relative_url }})
 - [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})

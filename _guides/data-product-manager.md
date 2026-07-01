@@ -86,6 +86,7 @@ transformation jobs, joins, and dashboard design
 ([26:21-40:53]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }})).
 
 This is why a data product manager needs fluency in
+[A/B testing]({{ '/wiki/a-b-testing/' | relative_url }}) and
 [experimentation and causal inference]({{ '/wiki/experimentation-and-causal-inference/' | relative_url }})
 when the data product supports product decisions. The manager doesn't need to
 be the statistician for every test, but they need enough judgment to connect
