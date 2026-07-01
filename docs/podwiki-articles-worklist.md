@@ -1,14 +1,16 @@
-# Articles worklist — per-page decisions
+# Retired articles worklist — per-page decisions
 
 Status note: this worklist was written before the category split in commit
-`473dd0e`. The public `_articles/` collection is now retired, and these pages
-live under `_guides/`, `_comparisons/`, `_roadmaps/`, and `_how_tos/`. Keep this
-file as a consolidation plan for deciding which migrated editorial pages should
-stay, merge into wiki topics, canonicalize, or redirect.
+`473dd0e`. Article retirement is complete: the public `_articles/` collection
+and `/articles/` URLs are no longer the active editorial surface. Surviving
+editorial content now lives under `_guides/`, `_comparisons/`, `_roadmaps/`, and
+`_how_tos/`, with public URLs under `/guides/`, `/comparisons/`, `/roadmaps/`,
+and `/how-tos/`.
 
-Decision for every one of the 71 pages in `_articles/`. Goal: dissolve the
-Ubersuggest keyword swarm, eliminate cannibalization with the main site and with
-podwiki's own wiki, and keep only genuinely additive pages.
+This file is now a historical/current decision record for the 71 retired
+article pages. Its purpose is to preserve why the Ubersuggest keyword swarm was
+dissolved, where useful material landed, and which migrated editorial pages
+should keep being maintained as guides, comparisons, roadmaps, or how-tos.
 
 See `SEO_INTEGRATION.md` for the why. _Generated 2026-06-30._
 
@@ -21,14 +23,11 @@ See `SEO_INTEGRATION.md` for the why. _Generated 2026-06-30._
 | **CONSOLIDATE** | One of several keyword variants for a single intent | Pick the one canonical target; 301 all variants → it |
 | **KEEP-NEW** | Additive format the main site & wiki lack | Build the consolidated page; 301 variants → it |
 
-**Redirects are optional here.** A 301 preserves a URL's earned index presence,
-backlinks, and live references. These articles are ~1 day old, unindexed, orphaned
-(no inbound links, sitemap not advertised) — they've earned none of that, so they
-can be deleted/merged cleanly. Restructuring now, before any SEO footprint exists,
-is free. Add a 301 only for any URL you've already shared externally, and fix
-internal links to deleted articles at the source. Old URL form:
-`/podwiki/articles/<slug>/`. (Revisit this if the cleanup is delayed by weeks and
-Google has had time to index the pages.)
+**Redirects were optional for the retirement.** A 301 preserves a URL's earned
+index presence, backlinks, and live references. The article pages were new,
+unindexed, and orphaned when the cleanup happened, so most were deleted or
+merged without per-page redirects. Add a 301 only if an old article URL was
+shared externally and still matters. Old URL form: `/podwiki/articles/<slug>/`.
 
 ---
 
@@ -94,11 +93,12 @@ ML interview guide. llm-system-design-interview → canonical LLM interview guid
 ## C. MERGE→wiki — 1:1 into an existing topic (39)
 
 Status: exact guide/wiki slug collisions were merged into the wiki layer and
-the duplicate guide files were removed on 2026-06-30. Remaining rows in this
-section still need the same merge/delete decision. The Airflow/apache-airflow
-concept pages were consolidated into `_wiki/orchestration.md` on 2026-07-01,
-while `airflow-docker-compose` now has a standalone procedural how-to in
-`_how_tos/airflow-docker-compose.md`. The analytics-engineer guide variant was consolidated into
+the duplicate guide files were removed on 2026-06-30. Rows marked **keep** are
+the surviving editorial pages now maintained in the split collections. The
+Airflow/apache-airflow concept pages were consolidated into
+`_wiki/orchestration.md` on 2026-07-01, while `airflow-docker-compose` now has a
+standalone procedural how-to in `_how_tos/airflow-docker-compose.md`. The
+analytics-engineer guide variant was consolidated into
 `_wiki/analytics-engineering.md` on 2026-07-01. The
 data-engineering-manager/data-engineer-manager cluster was consolidated into
 `_wiki/leadership.md` on 2026-07-01.
@@ -158,13 +158,12 @@ data-engineering-manager/data-engineer-manager cluster was consolidated into
 ## Outcome
 
 - 71 articles → **0 standalone keyword pages.**
-- Surviving content: existing wiki topics (enriched), 2 existing roadmap topics
-  (DE, MLOps), wiki `freelance`, canonical ML and LLM interview-prep guides,
-  and the `business-intelligence` wiki topic.
-- The `articles/` collection can then be retired (or repurposed only for the
-  KEEP-NEW format), and `articles.md` / nav updated.
+- The public `_articles/` collection is retired.
+- Surviving content: existing wiki topics (enriched), split editorial pages in
+  `_guides/`, `_comparisons/`, `_roadmaps/`, and `_how_tos/`, canonical ML and
+  LLM interview-prep guides, and the `business-intelligence` wiki topic.
 
-## Execution order
+## Archived execution order
 
 1. Enrich each §C wiki topic with the article's useful content, then delete the article.
 2. Enrich the 2 roadmap topics + `freelance` (§B); delete the variant articles.
@@ -174,4 +173,6 @@ data-engineering-manager/data-engineer-manager cluster was consolidated into
 6. Remove emptied `_articles/`, update `articles.md`, sitemap, and nav.
 7. Resubmit sitemaps in Search Console.
 
-(Redirects only where noted above — not needed wholesale for this brand-new, unindexed site.)
+Steps 1-6 are complete. Search Console sitemap resubmission remains an external
+operations task. Redirects were only needed where noted above, not wholesale for
+the brand-new, unindexed article URLs.

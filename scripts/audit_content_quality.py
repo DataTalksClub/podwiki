@@ -78,12 +78,15 @@ def audit_file(path: Path) -> dict[str, object]:
     text = path.read_text(encoding="utf-8")
     body = visible_body(text)
     links = link_counts(text)
+    is_public_content = path.parent.name in PUBLIC_CONTENT_FOLDERS
     forbidden = FORBIDDEN_HEADING_RE.findall(text)
     archive_headings = ARCHIVE_HEADING_RE.findall(text)
     archive_scaffolding = ARCHIVE_SCAFFOLDING_RE.findall(body)
     generic = body.count(GENERIC_PODCAST_URL)
     score = generic * 3 + (len(forbidden) + len(archive_headings)) * 10 + len(archive_scaffolding)
-    if path.parts[-2] in PUBLIC_CONTENT_FOLDERS and links["podcasts"] == 0:
+    if is_public_content and links["podcasts"] == 0:
+        score += 5
+    if is_public_content and links["people"] == 0:
         score += 5
     return {
         "path": path.relative_to(ROOT),
@@ -116,6 +119,7 @@ def main() -> None:
             or row["forbidden_headings"]
             or row["archive_scaffolding"]
             or row["local_podcast_links"] == 0
+            or row["people_links"] == 0
         )
     ]
 
@@ -124,6 +128,7 @@ def main() -> None:
     print(f"generic_podcast_links: {sum(int(row['generic_podcast_links']) for row in rows)}")
     print(f"forbidden_headings: {sum(int(row['forbidden_headings']) for row in rows)}")
     print(f"archive_scaffolding: {sum(int(row['archive_scaffolding']) for row in rows)}")
+    print(f"pages_without_people_links: {sum(1 for row in rows if int(row['people_links']) == 0)}")
     print("")
 
     for row in sorted(problem_rows, key=lambda item: (-int(item["score"]), str(item["path"])))[: args.limit]:

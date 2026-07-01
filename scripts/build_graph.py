@@ -185,6 +185,12 @@ def build_graph() -> dict[str, object]:
     for page in pages:
         title_to_pages.setdefault(str(page["title"]).lower(), []).append(page)
         slug_to_pages.setdefault(str(page["slug"]).lower(), []).append(page)
+    wiki_title_to_page = {
+        str(page["title"]).lower(): page for page in pages if str(page["collection"]) == "wiki"
+    }
+    wiki_slug_to_page = {
+        str(page["slug"]).lower(): page for page in pages if str(page["collection"]) == "wiki"
+    }
     topic_labels: dict[str, str] = {}
     topic_counts: Counter[str] = Counter()
     link_weights: Counter[tuple[str, str, str]] = Counter()
@@ -221,6 +227,13 @@ def build_graph() -> dict[str, object]:
                 if str(candidate["collection"]) == collection:
                     return str(candidate["id"])
         return str(candidates[0]["id"])
+
+    def topic_url(slug: str, label: str) -> str:
+        normalized = re.sub(r"\s+", " ", label).strip()
+        wiki_page = wiki_title_to_page.get(normalized.lower()) or wiki_slug_to_page.get(slug)
+        if wiki_page:
+            return str(wiki_page["url"])
+        return "/wiki/"
 
     for page in pages:
         node = {
@@ -269,7 +282,7 @@ def build_graph() -> dict[str, object]:
                 "type": "topic",
                 "label": label,
                 "title": label,
-                "url": "/wiki/",
+                "url": topic_url(slug, label),
                 "count": topic_counts[slug],
                 "search": label,
             }

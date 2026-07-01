@@ -51,9 +51,10 @@ Common forms include:
 - semantic search over documentation
 - an analyst copilot that drafts a first explanation before human review
 
-Rachel Lim's discussion of urban data science gives a concrete version of this
-workflow. In transport analytics, teams combine fare-card records with sensors
-and GPS. They also use computer vision, historical data, and real-time APIs.
+[Rachel Lim's]({{ '/people/rachellim/' | relative_url }}) discussion of urban
+data science gives a concrete version of this workflow. In transport analytics,
+teams combine fare-card records with sensors and GPS. They also use computer
+vision, historical data, and real-time APIs.
 
 Later in the episode, she describes natural-language access and text-to-SQL. She
 also describes metadata, vector databases, RAG, and prompt engineering. Query
@@ -70,14 +71,16 @@ use [RAG]({{ '/wiki/rag/' | relative_url }}) and
 ## Guest Differences
 
 Guests differ on whether BI is primarily a reporting layer, a product surface,
-or an operating workflow. Natalie Kwong places BI downstream of warehouses,
-marts, and modern-stack transformations in
+or an operating workflow. [Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }})
+places BI downstream of warehouses, marts, and modern-stack transformations in
 [ETL vs ELT and Modern Data Engineering]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}).
-Caitlin Moorman treats last-mile BI as a product adoption problem in
+[Caitlin Moorman]({{ '/people/caitlinmoorman/' | relative_url }}) treats
+last-mile BI as a product adoption problem in
 [Last-Mile Data Delivery]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }}).
-Rachel Lim and Sandra Kublik add the AI interface, where natural-language
-queries and LLM summaries help only when definitions, permissions, and review
-loops already exist.
+[Rachel Lim]({{ '/people/rachellim/' | relative_url }}) and
+[Sandra Kublik]({{ '/people/sandrakublik/' | relative_url }}) add the AI
+interface, where natural-language queries and LLM summaries help only when
+definitions, permissions, and review loops already exist.
 
 ## BI, Metrics, and Dashboards
 
@@ -90,10 +93,11 @@ AI helps only if the system can find the right metric and explain the
 definition. It also has to identify caveats and route uncertain answers back to
 an analyst.
 
-Caitlin Moorman's last-mile data delivery episode is the strongest reminder
-that BI adoption is product work. She argues that teams should start from the
-decision they want to enable. Then they map metrics into real meetings,
-prototype quickly, and prove impact with narrow wins
+[Caitlin Moorman's]({{ '/people/caitlinmoorman/' | relative_url }}) last-mile
+data delivery episode is the strongest reminder that BI adoption is product
+work. She argues that teams should start from the decision they want to enable.
+Then they map metrics into real meetings, prototype quickly, and prove impact
+with narrow wins
 ([last-mile data delivery, 34:00-45:35]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }})).
 
 Those same principles apply when AI is added to BI. A conversational interface
@@ -101,11 +105,11 @@ doesn't remove the need for discoverability or interpretability. It also
 doesn't remove the need for trust and decision context
 ([last-mile data delivery, 20:02-26:36]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }})).
 
-Anusha Akkina describes another useful workflow in her finance episode. Finance
-teams often work around rigid ERP systems with spreadsheets and local business
-logic. They also rely on tribal knowledge. Her discussion covers strategic
-finance and spreadsheet dependency. It also covers user research and real-time
-decision insights.
+[Anusha Akkina]({{ '/people/anushaakkina/' | relative_url }}) describes another
+useful workflow in her finance episode. Finance teams often work around rigid
+ERP systems with spreadsheets and local business logic. They also rely on tribal
+knowledge. Her discussion covers strategic finance and spreadsheet dependency.
+It also covers user research and real-time decision insights.
 
 For AI-assisted BI, the practical takeaway is direct. The system has to meet
 people inside existing finance workflows instead of assuming a clean data
@@ -140,10 +144,10 @@ business definitions and metric documentation. It can also use dashboard notes
 and previous analysis. It shouldn't be treated as a guarantee that the final
 answer is true.
 
-Sandra Kublik's LLM product discussion keeps the same caution. Useful LLM
-applications need human-in-the-loop review for hallucinations and brand safety.
-Teams also need controls for latency, data risk, cost, and model-choice
-tradeoffs
+[Sandra Kublik's]({{ '/people/sandrakublik/' | relative_url }}) LLM product
+discussion keeps the same caution. Useful LLM applications need
+human-in-the-loop review for hallucinations and brand safety. Teams also need
+controls for latency, data risk, cost, and model-choice tradeoffs
 ([Practical LLM Use Cases 23:29-40:21]({{ '/podcasts/practical-llm-use-cases-and-product-patterns/' | relative_url }})).
 
 In BI, the system should show where an answer came from:
@@ -160,9 +164,10 @@ to spread unreviewed analysis.
 Governance isn't a blocker to AI-powered BI because it makes broader access safe
 enough to allow.
 
-Bart Vandekerckhove's data access management episode frames governance as trust
-in data, not just compliance. He covers catalogs and dictionaries. He also
-covers lineage and data access management. Ownership appears as a core concern.
+[Bart Vandekerckhove's]({{ '/people/bartvandekerckhove/' | relative_url }})
+data access management episode frames governance as trust in data, not just
+compliance. He covers catalogs and dictionaries. He also covers lineage and data
+access management. Ownership appears as a core concern.
 
 He covers approval workflows, access reviews, revocation, and masking.
 Filtering, active metadata, and access-as-code appear in the same discussion
@@ -193,9 +198,10 @@ hide uncertainty, or summarize a dashboard without understanding the business
 context.
 
 That's why [data product adoption]({{ '/wiki/data-product-adoption/' | relative_url }})
-matters. Moorman's adoption guidance starts with the intended decision and works
-backward through user research and prototypes. It also includes meeting rituals
-and impact measurement
+matters. [Caitlin Moorman's]({{ '/people/caitlinmoorman/' | relative_url }})
+adoption guidance starts with the intended decision and works backward through
+user research and prototypes. It also includes meeting rituals and impact
+measurement
 ([last-mile data delivery, 26:21-40:53]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }})).
 
 Teams building AI-powered BI should do the same by watching how people use
@@ -234,8 +240,9 @@ Several limits are predictable:
 - Cost and latency can make interactive BI worse if the AI layer is added to
   every question without prioritization.
 
-Sandra Kublik's LLM episode is useful here because it frames LLMs as product
-components with tradeoffs, not magic.
+[Sandra Kublik's]({{ '/people/sandrakublik/' | relative_url }}) LLM episode is
+useful here because it frames LLMs as product components with tradeoffs, not
+magic.
 
 Model choice and embeddings matter alongside prompt iteration and fine-tuning.
 Teams also have to consider proprietary APIs, open-source models, IP concerns,

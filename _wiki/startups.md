@@ -1,13 +1,6 @@
 ---
 layout: wiki
 title: "Startups"
-keyword: "tech startups"
-secondary_keywords:
-  - "AI startups"
-  - "machine learning startups"
-  - "data startups"
-  - "open source startups"
-  - "MLOps startups"
 summary: "Recurring startup lessons across DataTalks.Club podcast discussions: problem discovery, validation, MLOps scope, open-source distribution, consulting paths, funding, and startup career tradeoffs."
 related:
   - Startup

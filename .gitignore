@@ -4,7 +4,9 @@ _site/
 __pycache__/
 *.pyc
 .venv/
-artifacts/
+artifacts/*
+!artifacts/keywords/
+!artifacts/keywords/*.json
 lambda_package/
 .aws-sam/
 .tmp/

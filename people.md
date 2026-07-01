@@ -13,10 +13,12 @@ links to the concepts, content pages, and podcast summaries they support.
 {% if pages.size > 0 %}
 <div class="grid">
 {% for item in pages %}
+  {% unless item.redirect_to %}
   <a class="card" href="{{ item.url | relative_url }}">
     <strong>{{ item.title }}</strong>
     {% if item.summary %}<span>{{ item.summary }}</span>{% endif %}
   </a>
+  {% endunless %}
 {% endfor %}
 </div>
 {% else %}

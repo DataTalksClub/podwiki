@@ -1,0 +1,26 @@
+[
+  {
+    "sheet": "Quick-wins",
+    "headers": [
+      "Opportunity",
+      "Keyword",
+      "Page URL:"
+    ],
+    "rows": 0
+  },
+  {
+    "sheet": "Competitor Gaps",
+    "headers": [
+      "Opportunity",
+      "Keyword"
+    ],
+    "rows": 0
+  },
+  {
+    "sheet": "Code Fix",
+    "headers": [
+      "Opportunity"
+    ],
+    "rows": 0
+  }
+]

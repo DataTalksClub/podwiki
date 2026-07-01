@@ -11,8 +11,9 @@ Input files:
 ## Extraction Result
 
 - Ubersuggest CSV rows extracted: 1000
-- Existing editorial pages checked: 76
-- Existing wiki pages checked: 168
+- Existing editorial pages checked: 49
+  (`_guides/`, `_comparisons/`, `_roadmaps/`, `_how_tos/`)
+- Existing wiki pages checked: 183
 - Excel workbook tabs checked in the local file:
   `Quick-wins`, `Competitor Gaps`, `Code Fix`
 - Excel rows beyond headers in the local file: 0
@@ -27,9 +28,10 @@ sheet dimensions:
 - `Code Fix`: `A1:A1`
 
 So the checked local Excel file currently contains only headers, not content
-rows. This does not mean there are no gap suggestions. The expected source has
-689 rows, so the local `.tmp` workbook should be replaced with the populated
-export or added next to it before we create content from the gap source.
+rows. The 689 expected rows are not present in the checked workbook. This does
+not mean there are no gap suggestions; it means the local `.tmp` workbook should
+be replaced with the populated export or added next to it before we create
+content from the gap source.
 
 ## CSV Use
 
@@ -42,6 +44,11 @@ Editorial targets live in `_guides/`, `_comparisons/`, `_roadmaps/`, or
 and `/how-tos/`. Before publication, each page should cross-link relevant wiki
 pages, people pages, local podcast pages, and the podcast evidence that grounds
 its claims.
+
+The normalized keyword artifacts in `artifacts/keywords/` now use
+`covered_by_editorial` / `editorial_file` for the split editorial collections,
+plus `covered_by_wiki` / `wiki_file` for exact wiki matches. They should not
+refer to retired `_articles/` paths.
 
 Rows such as `slack`, `download"`, unrelated book/PDF queries, and misspellings
 without a DataTalks.Club angle are kept in the raw extraction but excluded from
@@ -69,7 +76,7 @@ These keyword groups already have editorial coverage:
 | Machine learning startups | `_guides/machine-learning-for-startups.md` | machine learning for startups |
 | Data scientist interview | `_guides/data-scientist-interview.md` | data scientist interview |
 | Data product roles | `_guides/data-product-manager.md`, `_wiki/data-product-management.md`, `_guides/product-analyst.md` | data product manager, data product management, product analyst |
-| Product owner vs product manager | `_comparisons/product-owner-vs-product-manager.md` | data product owner, data science product owner |
+| Product owner vs product manager | `_comparisons/product-owner-vs-product-manager.md`, `_comparisons/data-product-owner-vs-data-product-manager.md` | data product owner, data science product owner, data product owner vs data product manager |
 | Data engineering management | `_wiki/leadership.md` | data engineering manager, data engineer manager |
 | Airflow | `_wiki/apache-airflow.md`, `_wiki/orchestration.md`, `_how_tos/airflow-docker-compose.md` | airflow, apache airflow, airflow docker compose |
 | Data Engineering Zoomcamp | main DataTalks.Club course page | data engineering zoomcamp, data-engineering-zoomcamp, dataengineering zoomcamp, data engineer zoomcamp, data engineering zoom camp |
@@ -89,15 +96,16 @@ These keyword groups already have editorial coverage:
 | Open Source | `_wiki/open-source.md`, `_wiki/open-source-portfolio-evidence.md`, `_roadmaps/open-source-contributor-roadmap.md` | what is open source, data engineering open source projects, open source entity resolution |
 | Tech Startups | `_wiki/startups.md`, `_wiki/startup.md`, `_wiki/founder.md`, `_wiki/entrepreneurship.md`, `_guides/machine-learning-for-startups.md` | tech startups, machine learning startup, machine learning for startups, startup machine learning, ml startups |
 
-## Editorial Backlog From CSV
+## Conditional CSV Items
 
-These groups are plausible content targets from the CSV that are not yet covered
-well enough by existing pages. They still need podcast grounding before
-publication.
+These groups are visible in the CSV but are not recommended as podwiki pages
+unless DataTalks.Club wants owned-channel content grounded in real newsletter or
+community assets. They are not active editorial backlog.
 
-| Priority | Content target | Keyword variants from CSV | Why it may be worth creating |
+| Priority | Content target | Keyword variants from CSV | Recommendation |
 |---:|---|---|---|
-| 3 | Machine Learning Newsletter | machine learning newsletter, machine learnings newsletter | Do not create a generic newsletter guide. Keep for a possible community-content or owned-channel guide only. |
+| 3 | Machine Learning Newsletter | machine learning newsletter, machine learnings newsletter | Conditional only: not recommended for podwiki unless DataTalks.Club wants owned-channel content grounded in real newsletter/community assets. |
+| 3 | DTC Newsletter | dtc newsletter | Conditional only: not recommended for podwiki unless DataTalks.Club wants owned-channel content grounded in real newsletter/community assets. |
 
 ## Not Recommended From This CSV
 
@@ -111,6 +119,11 @@ separate site strategy:
   `natural language processing with transformers`
 - Unclear or unrelated terms: `download"`, `scale"`, `rfm analysis`,
   `rfm segmentation`, `faang`
+- Owned-channel terms without a current podwiki archive angle:
+  `machine-learning-newsletter`, `machine learning newsletter`,
+  `machine learnings newsletter`, `dtc newsletter`. Reconsider only if
+  DataTalks.Club wants a newsletter/community landing page with real owned
+  assets and links.
 
 ## Completed From This Audit
 
@@ -125,16 +138,17 @@ main DataTalks.Club site owns those course queries.
 5. `_guides/data-science-recruiter.md`
 6. `_guides/ai-tools-for-personal-productivity.md`
 7. `_comparisons/product-owner-vs-product-manager.md`
-8. `_comparisons/delta-lake-vs-apache-iceberg.md`
-9. `_comparisons/etl-vs-elt.md`
-10. `_wiki/dataops-platforms.md`
-11. `_wiki/open-source.md`
-12. `_wiki/startups.md`
-13. `_wiki/startup.md`
-14. `_wiki/founder.md`
-15. `_wiki/entrepreneurship.md`
-16. `_guides/machine-learning-for-startups.md`
-17. `_wiki/apache-airflow.md`
+8. `_comparisons/data-product-owner-vs-data-product-manager.md`
+9. `_comparisons/delta-lake-vs-apache-iceberg.md`
+10. `_comparisons/etl-vs-elt.md`
+11. `_wiki/dataops-platforms.md`
+12. `_wiki/open-source.md`
+13. `_wiki/startups.md`
+14. `_wiki/startup.md`
+15. `_wiki/founder.md`
+16. `_wiki/entrepreneurship.md`
+17. `_guides/machine-learning-for-startups.md`
+18. `_wiki/apache-airflow.md`
 
 The duplicate data engineering course, courses, bootcamp, and training guide
 variants were later removed. Their useful guidance belongs in
@@ -161,10 +175,12 @@ keyword guide.
 
 Replace the local gaps workbook with the populated 689-row export, then group
 those gap suggestions separately from the Ubersuggest keyword backlog. Until
-that file is available locally, continue with the remaining CSV backlog in the
-table above.
+that file is available locally, do not use the headers-only workbook as a source
+for content decisions.
 
-The strongest remaining CSV backlog item is Machine Learning Newsletter, but it
-should stay out of scope unless it becomes a community-content or owned-channel
-guide with real DataTalks.Club asset links. The broad Tech Startups keyword now
-belongs to the startup wiki cluster rather than a separate generic guide.
+The strongest remaining CSV backlog item is the newsletter cluster
+(`machine-learning-newsletter` / `dtc-newsletter`), but it is conditional and
+not recommended for podwiki unless it becomes community-content or
+owned-channel content with real DataTalks.Club asset links. The broad Tech
+Startups keyword now belongs to the startup wiki cluster rather than a separate
+generic guide.

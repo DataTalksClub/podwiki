@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 145,
     "nodes": 1006,
-    "links": 10578
+    "links": 10584
   },
   "nodes": [
     {
@@ -6958,7 +6958,7 @@
       "type": "topic",
       "label": "academia",
       "title": "academia",
-      "url": "/wiki/",
+      "url": "/wiki/academia/",
       "count": 9,
       "search": "academia"
     },
@@ -6967,7 +6967,7 @@
       "type": "topic",
       "label": "agent engineering",
       "title": "agent engineering",
-      "url": "/wiki/",
+      "url": "/wiki/agent-engineering/",
       "count": 2,
       "search": "agent engineering"
     },
@@ -6976,7 +6976,7 @@
       "type": "topic",
       "label": "AI",
       "title": "AI",
-      "url": "/wiki/",
+      "url": "/wiki/ai/",
       "count": 21,
       "search": "AI"
     },
@@ -6994,7 +6994,7 @@
       "type": "topic",
       "label": "AI infrastructure",
       "title": "AI infrastructure",
-      "url": "/wiki/",
+      "url": "/wiki/ai-infrastructure/",
       "count": 2,
       "search": "AI infrastructure"
     },
@@ -7003,7 +7003,7 @@
       "type": "topic",
       "label": "AI red teaming",
       "title": "AI red teaming",
-      "url": "/wiki/",
+      "url": "/wiki/ai-red-teaming/",
       "count": 2,
       "search": "AI red teaming"
     },
@@ -7039,7 +7039,7 @@
       "type": "topic",
       "label": "analytics engineering",
       "title": "analytics engineering",
-      "url": "/wiki/",
+      "url": "/wiki/analytics-engineering/",
       "count": 2,
       "search": "analytics engineering"
     },
@@ -7048,7 +7048,7 @@
       "type": "topic",
       "label": "applied research",
       "title": "applied research",
-      "url": "/wiki/",
+      "url": "/wiki/applied-research/",
       "count": 2,
       "search": "applied research"
     },
@@ -7147,7 +7147,7 @@
       "type": "topic",
       "label": "career development",
       "title": "career development",
-      "url": "/wiki/",
+      "url": "/wiki/career-development/",
       "count": 5,
       "search": "career development"
     },
@@ -7156,7 +7156,7 @@
       "type": "topic",
       "label": "career growth",
       "title": "career growth",
-      "url": "/wiki/",
+      "url": "/wiki/career-growth/",
       "count": 55,
       "search": "career growth"
     },
@@ -7183,7 +7183,7 @@
       "type": "topic",
       "label": "career transition",
       "title": "career transition",
-      "url": "/wiki/",
+      "url": "/wiki/career-transition/",
       "count": 47,
       "search": "career transition"
     },
@@ -7201,7 +7201,7 @@
       "type": "topic",
       "label": "causal inference",
       "title": "causal inference",
-      "url": "/wiki/",
+      "url": "/wiki/causal-inference/",
       "count": 1,
       "search": "causal inference"
     },
@@ -7219,7 +7219,7 @@
       "type": "topic",
       "label": "communication",
       "title": "communication",
-      "url": "/wiki/",
+      "url": "/wiki/communication/",
       "count": 11,
       "search": "communication"
     },
@@ -7228,7 +7228,7 @@
       "type": "topic",
       "label": "community building",
       "title": "community building",
-      "url": "/wiki/",
+      "url": "/wiki/community-building/",
       "count": 9,
       "search": "community building"
     },
@@ -7237,7 +7237,7 @@
       "type": "topic",
       "label": "computer vision",
       "title": "computer vision",
-      "url": "/wiki/",
+      "url": "/wiki/computer-vision/",
       "count": 9,
       "search": "computer vision"
     },
@@ -7255,7 +7255,7 @@
       "type": "topic",
       "label": "contributing",
       "title": "contributing",
-      "url": "/wiki/",
+      "url": "/wiki/contributing/",
       "count": 1,
       "search": "contributing"
     },
@@ -7300,7 +7300,7 @@
       "type": "topic",
       "label": "data engineering",
       "title": "data engineering",
-      "url": "/wiki/",
+      "url": "/wiki/data-engineering/",
       "count": 60,
       "search": "data engineering"
     },
@@ -7309,7 +7309,7 @@
       "type": "topic",
       "label": "data governance",
       "title": "data governance",
-      "url": "/wiki/",
+      "url": "/wiki/data-governance/",
       "count": 15,
       "search": "data governance"
     },
@@ -7336,7 +7336,7 @@
       "type": "topic",
       "label": "data mesh",
       "title": "data mesh",
-      "url": "/wiki/",
+      "url": "/wiki/data-mesh/",
       "count": 2,
       "search": "data mesh"
     },
@@ -7345,7 +7345,7 @@
       "type": "topic",
       "label": "data observability",
       "title": "data observability",
-      "url": "/wiki/",
+      "url": "/wiki/data-observability/",
       "count": 2,
       "search": "data observability"
     },
@@ -7363,7 +7363,7 @@
       "type": "topic",
       "label": "data products",
       "title": "data products",
-      "url": "/wiki/",
+      "url": "/wiki/data-products/",
       "count": 2,
       "search": "data products"
     },
@@ -7390,7 +7390,7 @@
       "type": "topic",
       "label": "data science",
       "title": "data science",
-      "url": "/wiki/",
+      "url": "/wiki/data-science/",
       "count": 62,
       "search": "data science"
     },
@@ -7399,7 +7399,7 @@
       "type": "topic",
       "label": "data strategy",
       "title": "data strategy",
-      "url": "/wiki/",
+      "url": "/wiki/data-strategy/",
       "count": 10,
       "search": "data strategy"
     },
@@ -7417,7 +7417,7 @@
       "type": "topic",
       "label": "data teams",
       "title": "data teams",
-      "url": "/wiki/",
+      "url": "/wiki/data-teams/",
       "count": 8,
       "search": "data teams"
     },
@@ -7435,7 +7435,7 @@
       "type": "topic",
       "label": "dataops",
       "title": "dataops",
-      "url": "/wiki/",
+      "url": "/wiki/dataops/",
       "count": 6,
       "search": "dataops"
     },
@@ -7462,7 +7462,7 @@
       "type": "topic",
       "label": "deep learning",
       "title": "deep learning",
-      "url": "/wiki/",
+      "url": "/wiki/deep-learning/",
       "count": 2,
       "search": "deep learning"
     },
@@ -7480,7 +7480,7 @@
       "type": "topic",
       "label": "developer relations",
       "title": "developer relations",
-      "url": "/wiki/",
+      "url": "/wiki/developer-relations/",
       "count": 7,
       "search": "developer relations"
     },
@@ -7525,7 +7525,7 @@
       "type": "topic",
       "label": "embeddings",
       "title": "embeddings",
-      "url": "/wiki/",
+      "url": "/wiki/embeddings/",
       "count": 2,
       "search": "embeddings"
     },
@@ -7534,7 +7534,7 @@
       "type": "topic",
       "label": "entrepreneurship",
       "title": "entrepreneurship",
-      "url": "/wiki/",
+      "url": "/wiki/entrepreneurship/",
       "count": 12,
       "search": "entrepreneurship"
     },
@@ -7615,7 +7615,7 @@
       "type": "topic",
       "label": "founder",
       "title": "founder",
-      "url": "/wiki/",
+      "url": "/wiki/founder/",
       "count": 4,
       "search": "founder"
     },
@@ -7633,7 +7633,7 @@
       "type": "topic",
       "label": "freelance",
       "title": "freelance",
-      "url": "/wiki/",
+      "url": "/wiki/freelance/",
       "count": 11,
       "search": "freelance"
     },
@@ -7651,7 +7651,7 @@
       "type": "topic",
       "label": "generative AI",
       "title": "generative AI",
-      "url": "/wiki/",
+      "url": "/wiki/generative-ai/",
       "count": 1,
       "search": "generative AI"
     },
@@ -7669,7 +7669,7 @@
       "type": "topic",
       "label": "governance",
       "title": "governance",
-      "url": "/wiki/",
+      "url": "/wiki/governance/",
       "count": 1,
       "search": "governance"
     },
@@ -7705,7 +7705,7 @@
       "type": "topic",
       "label": "hiring",
       "title": "hiring",
-      "url": "/wiki/",
+      "url": "/wiki/hiring/",
       "count": 9,
       "search": "hiring"
     },
@@ -7741,7 +7741,7 @@
       "type": "topic",
       "label": "information retrieval",
       "title": "information retrieval",
-      "url": "/wiki/",
+      "url": "/wiki/information-retrieval/",
       "count": 1,
       "search": "information retrieval"
     },
@@ -7750,7 +7750,7 @@
       "type": "topic",
       "label": "interpretability",
       "title": "interpretability",
-      "url": "/wiki/",
+      "url": "/wiki/interpretability/",
       "count": 3,
       "search": "interpretability"
     },
@@ -7768,7 +7768,7 @@
       "type": "topic",
       "label": "job search",
       "title": "job search",
-      "url": "/wiki/",
+      "url": "/wiki/job-search/",
       "count": 13,
       "search": "job search"
     },
@@ -7786,7 +7786,7 @@
       "type": "topic",
       "label": "leadership",
       "title": "leadership",
-      "url": "/wiki/",
+      "url": "/wiki/leadership/",
       "count": 23,
       "search": "leadership"
     },
@@ -7795,7 +7795,7 @@
       "type": "topic",
       "label": "LLMs",
       "title": "LLMs",
-      "url": "/wiki/",
+      "url": "/wiki/llms/",
       "count": 34,
       "search": "LLMs"
     },
@@ -7804,7 +7804,7 @@
       "type": "topic",
       "label": "machine learning",
       "title": "machine learning",
-      "url": "/wiki/",
+      "url": "/wiki/machine-learning/",
       "count": 97,
       "search": "machine learning"
     },
@@ -7858,7 +7858,7 @@
       "type": "topic",
       "label": "metrics",
       "title": "metrics",
-      "url": "/wiki/",
+      "url": "/wiki/metrics/",
       "count": 1,
       "search": "metrics"
     },
@@ -7867,7 +7867,7 @@
       "type": "topic",
       "label": "MLOps",
       "title": "MLOps",
-      "url": "/wiki/",
+      "url": "/wiki/mlops/",
       "count": 91,
       "search": "MLOps"
     },
@@ -7876,7 +7876,7 @@
       "type": "topic",
       "label": "modern data stack",
       "title": "modern data stack",
-      "url": "/wiki/",
+      "url": "/wiki/modern-data-stack/",
       "count": 1,
       "search": "modern data stack"
     },
@@ -7894,7 +7894,7 @@
       "type": "topic",
       "label": "NLP",
       "title": "NLP",
-      "url": "/wiki/",
+      "url": "/wiki/nlp/",
       "count": 16,
       "search": "NLP"
     },
@@ -7921,7 +7921,7 @@
       "type": "topic",
       "label": "open-source",
       "title": "open-source",
-      "url": "/wiki/",
+      "url": "/wiki/open-source/",
       "count": 28,
       "search": "open-source"
     },
@@ -7957,7 +7957,7 @@
       "type": "topic",
       "label": "practices",
       "title": "practices",
-      "url": "/wiki/",
+      "url": "/wiki/practices/",
       "count": 8,
       "search": "practices"
     },
@@ -8011,7 +8011,7 @@
       "type": "topic",
       "label": "production",
       "title": "production",
-      "url": "/wiki/",
+      "url": "/wiki/production/",
       "count": 23,
       "search": "production"
     },
@@ -8092,7 +8092,7 @@
       "type": "topic",
       "label": "retrieval-augmented generation",
       "title": "retrieval-augmented generation",
-      "url": "/wiki/",
+      "url": "/wiki/retrieval-augmented-generation/",
       "count": 5,
       "search": "retrieval-augmented generation"
     },
@@ -8101,7 +8101,7 @@
       "type": "topic",
       "label": "search",
       "title": "search",
-      "url": "/wiki/",
+      "url": "/wiki/search/",
       "count": 2,
       "search": "search"
     },
@@ -8110,7 +8110,7 @@
       "type": "topic",
       "label": "security",
       "title": "security",
-      "url": "/wiki/",
+      "url": "/wiki/security/",
       "count": 2,
       "search": "security"
     },
@@ -8146,7 +8146,7 @@
       "type": "topic",
       "label": "software engineering",
       "title": "software engineering",
-      "url": "/wiki/",
+      "url": "/wiki/software-engineering/",
       "count": 17,
       "search": "software engineering"
     },
@@ -8164,7 +8164,7 @@
       "type": "topic",
       "label": "staff AI engineer",
       "title": "staff AI engineer",
-      "url": "/wiki/",
+      "url": "/wiki/staff-ai-engineer/",
       "count": 1,
       "search": "staff AI engineer"
     },
@@ -8173,7 +8173,7 @@
       "type": "topic",
       "label": "startup",
       "title": "startup",
-      "url": "/wiki/",
+      "url": "/wiki/startup/",
       "count": 4,
       "search": "startup"
     },
@@ -8182,7 +8182,7 @@
       "type": "topic",
       "label": "startups",
       "title": "startups",
-      "url": "/wiki/",
+      "url": "/wiki/startups/",
       "count": 8,
       "search": "startups"
     },
@@ -8218,7 +8218,7 @@
       "type": "topic",
       "label": "teaching",
       "title": "teaching",
-      "url": "/wiki/",
+      "url": "/wiki/teaching/",
       "count": 6,
       "search": "teaching"
     },
@@ -8227,7 +8227,7 @@
       "type": "topic",
       "label": "team building",
       "title": "team building",
-      "url": "/wiki/",
+      "url": "/wiki/team-building/",
       "count": 12,
       "search": "team building"
     },
@@ -8245,7 +8245,7 @@
       "type": "topic",
       "label": "tools",
       "title": "tools",
-      "url": "/wiki/",
+      "url": "/wiki/tools/",
       "count": 53,
       "search": "tools"
     },
@@ -8254,7 +8254,7 @@
       "type": "topic",
       "label": "vector databases",
       "title": "vector databases",
-      "url": "/wiki/",
+      "url": "/wiki/vector-databases/",
       "count": 2,
       "search": "vector databases"
     },
@@ -9896,8 +9896,7 @@
       "title": "Startups",
       "url": "/wiki/startups/",
       "count": 1,
-      "search": "Startups Recurring startup lessons across DataTalks.Club podcast discussions: problem discovery, validation, MLOps scope, open source distribution, consulting paths, funding, and startup career tradeoffs.",
-      "keyword": "tech startups"
+      "search": "Startups Recurring startup lessons across DataTalks.Club podcast discussions: problem discovery, validation, MLOps scope, open source distribution, consulting paths, funding, and startup career tradeoffs."
     },
     {
       "id": "wiki:streaming",
@@ -40724,6 +40723,42 @@
       "target": "wiki:software-engineering",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:business-intelligence",
+      "target": "person:anushaakkina",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:business-intelligence",
+      "target": "person:bartvandekerckhove",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:business-intelligence",
+      "target": "person:caitlinmoorman",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:business-intelligence",
+      "target": "person:nataliekwong",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:business-intelligence",
+      "target": "person:rachellim",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:business-intelligence",
+      "target": "person:sandrakublik",
+      "kind": "wiki-link",
+      "weight": 6
     },
     {
       "source": "wiki:business-intelligence",

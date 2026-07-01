@@ -85,7 +85,10 @@
     const response = await fetch(url.toString());
     if (!response.ok) throw new Error(`Search API returned ${response.status}`);
     const payload = await response.json();
-    return payload.results || [];
+    if (!payload || !Array.isArray(payload.results)) {
+      throw new Error("Search API returned unusable data");
+    }
+    return payload.results;
   }
 
   async function runSearch() {
@@ -97,8 +100,21 @@
     params.set("q", query);
     history.replaceState(null, "", `${window.location.pathname}?${params.toString()}`);
     try {
-      const items = apiUrl ? await remoteSearch(query) : await localSearch(query);
-      render(items);
+      if (!apiUrl) {
+        render(await localSearch(query));
+        return;
+      }
+
+      try {
+        render(await remoteSearch(query));
+      } catch (remoteErr) {
+        status.textContent = "Search API unavailable; trying local search...";
+        const items = await localSearch(query);
+        render(items);
+        status.textContent = items.length
+          ? `${items.length} local results; remote search unavailable.`
+          : "No local results; remote search unavailable.";
+      }
     } catch (err) {
       status.textContent = `Search failed: ${err.message}`;
     }

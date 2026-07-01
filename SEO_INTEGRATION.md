@@ -7,11 +7,12 @@ integrated with the main site (`datatalksclub.github.io`, served at
 _Last updated: 2026-07-01._
 
 Status note: this analysis was written before the category split in commit
-`473dd0e`, which retired the public `_articles/` collection and moved
-editorial content under `_guides/`, `_comparisons/`, `_roadmaps/`, and
-`_how_tos/`. Keep the recommendations below as the SEO consolidation plan:
-the remaining question is which migrated editorial pages should stay, merge
-into wiki topics, canonicalize, or redirect.
+`473dd0e`. The public `_articles/` collection and `/articles/` URLs have now
+been retired. Editorial content lives under `_guides/`, `_comparisons/`,
+`_roadmaps/`, and `_how_tos/`, with public URLs under `/guides/`,
+`/comparisons/`, `/roadmaps/`, and `/how-tos/`. Keep the notes below as
+historical SEO rationale and as a consolidation checklist for the migrated
+editorial surface.
 
 ---
 
@@ -27,11 +28,12 @@ authority stay consolidated on one host. A subdomain would split them. **Keep it
 
 ## 2. URL structure — fine, no action
 
-Wiki/article/podcast/people URLs are ~3 segments deep
-(`/podwiki/wiki/rag/`). **URL/folder depth is not a ranking factor** — click
-depth and internal linking are. Slugs are descriptive, lowercase, hyphenated,
-with consistent trailing-slash pretty permalinks. Only rule: **keep slugs
-stable once indexed.**
+Wiki/editorial/podcast/people URLs are ~3 segments deep
+(`/podwiki/wiki/rag/`, `/podwiki/guides/data-roles/`,
+`/podwiki/comparisons/mlops-vs-dataops/`). **URL/folder depth is not a ranking
+factor** — click depth and internal linking are. Slugs are descriptive,
+lowercase, hyphenated, with consistent trailing-slash pretty permalinks. Only
+rule: **keep slugs stable once indexed.**
 
 ## 3. The real problems
 
@@ -48,15 +50,16 @@ Two pages per person/episode on one domain = duplicate-content / signal-splittin
 risk. Podwiki's *unique* value is **wiki topics, exploration search, and the
 graph** — not re-publishing people and episode pages.
 
-### 3b. The "articles/" are an Ubersuggest keyword-page swarm (HIGH)
+### 3b. The retired article set was an Ubersuggest keyword-page swarm (HIGH)
 
-71 articles, generated from `artifacts/keywords/*` (Ubersuggest). Front matter
-is `keyword:` / `search_intent:` — these are programmatic SEO landing pages.
+The retired set had 71 article pages generated from `artifacts/keywords/*`
+(Ubersuggest), with `keyword:` / `search_intent:` front matter. This was useful
+for discovering demand but risky as a public URL surface:
 
-- **Cannibalize the main site** on branded terms — articles exist for
+- **Cannibalize the main site** on branded terms — the retired articles included
   `data-engineering-zoomcamp`, `mlops-zoomcamp`, `machine-learning-zoomcamp`,
   `llm-zoomcamp`, competing with the main site's own course pages.
-- **Cannibalize podwiki's own wiki** — 9 article slugs are identical to wiki
+- **Cannibalize podwiki's own wiki** — 9 article slugs were identical to wiki
   slugs: `data-engineering`, `dataops`, `mlops`, `mlops-tools`, `mlops-engineer`,
   `machine-learning-system-design`, `data-engineering-tools`,
   `data-engineering-certification`, `software-engineer-to-machine-learning`.
@@ -95,17 +98,19 @@ consolidated into topics.
    people/episode pages and surface that data only inside topic hubs + search.
    Recommended: keep podcast *summaries* only if they add clear, distinct value
    and canonical-link to the main episode page; canonicalize people to main.
-2. **Replace "articles/" — see §5.** Collapse the keyword swarm into topics and
-   a small number of genuinely additive formats.
+2. **Keep the article replacement split — see §5.** The keyword swarm has been
+   collapsed into topics and a small number of genuinely additive editorial
+   formats.
 3. **One canonical owner per query.** Branded/course terms (zoomcamps) →
    main site always wins. Concept terms → podwiki wiki topic wins. Comparison
    and decision queries → `_comparisons/` wins. Never two live competitors for
    the same query.
 
-## 5. What to have instead of `articles/`
+## 5. What replaced `articles/`
 
-The keyword-page model is the liability. Better, additive formats that the main
-blog and wiki don't already cover:
+The keyword-page model was the liability. The completed collection split moved
+the useful parts into additive formats that the main blog and wiki do not
+already cover:
 
 - **Fold into Topics (wiki).** An "article" on a concept *is* a topic hub.
   Merge the 9 article==wiki collisions and any concept articles into the wiki;
@@ -118,9 +123,10 @@ blog and wiki don't already cover:
   `_comparisons/` where the comparison is real and link to both topic hubs;
   drop the rest.
 
-Net: 71 keyword articles → a handful of roadmaps/Q&A/comparison pages + the rest
-absorbed into topics. Each remaining page must target a query no main-site or
-wiki page already owns.
+Net: 71 keyword articles → 0 standalone keyword pages. Surviving editorial
+content now lives as focused guides, comparisons, roadmaps, and how-tos; the
+rest was absorbed into wiki topics or removed. Each remaining editorial page
+must target a query no main-site or wiki page already owns.
 
 ## 6. Action checklist
 
@@ -133,8 +139,10 @@ wiki page already owns.
   to the main podcast page
 - [x] Remove branded Zoomcamp guide pages from podwiki so the main site owns
   those course queries
-- [ ] Consolidate the article keyword swarm into topics + roadmaps/Q&A (§5)
-- [ ] Remove podwiki articles that duplicate wiki slugs or target branded/course terms
+- [x] Retire the public `_articles/` collection and split surviving editorial
+  content into `_guides/`, `_comparisons/`, `_roadmaps/`, and `_how_tos/`
+- [x] Consolidate the article keyword swarm into topics + editorial formats (§5)
+- [x] Remove podwiki articles that duplicate wiki slugs or target branded/course terms
   - [x] Remove exact guide/wiki slug collisions and move useful guide material
     into the wiki layer
   - [x] Remove branded Zoomcamp guide pages
