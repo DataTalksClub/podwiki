@@ -1,17 +1,17 @@
 {
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
-    "wikis": 197,
-    "articles": 55,
+    "wikis": 201,
+    "articles": 56,
     "guides": 21,
-    "comparisons": 19,
+    "comparisons": 20,
     "roadmaps": 10,
     "how_tos": 5,
     "podcasts": 202,
     "persons": 438,
     "topics": 90,
-    "nodes": 982,
-    "links": 11814
+    "nodes": 987,
+    "links": 11880
   },
   "nodes": [
     {
@@ -46,6 +46,17 @@
       "count": 1,
       "search": "Batch vs Streaming How DataTalks.Club podcast guests compare batch and streaming data processing through latency, operations, contracts, cost, ML serving, and product decision tradeoffs.",
       "keyword": "batch vs streaming"
+    },
+    {
+      "id": "article:comparison:camera-first-vs-lidar-autonomous-driving",
+      "type": "article",
+      "collection": "comparison",
+      "label": "Camera-First vs LiDAR in Autonomous Driving",
+      "title": "Camera-First vs LiDAR in Autonomous Driving",
+      "url": "/comparisons/camera-first-vs-lidar-autonomous-driving/",
+      "count": 1,
+      "search": "Camera First vs LiDAR in Autonomous Driving A podcast grounded comparison of camera first perception, LiDAR, radar, driver assistance, driverless ride hailing, edge cases, and production tradeoffs in autonomous driving.",
+      "keyword": "camera-first vs lidar autonomous driving"
     },
     {
       "id": "article:guide:competitions-beyond-kaggle",
@@ -7940,6 +7951,16 @@
       "search": "AI Engineering Roadmap A podcast backed roadmap for learning AI engineering through software foundations, LLM applications, RAG, evaluation, agents, LLMOps, and production ownership."
     },
     {
+      "id": "wiki:ai-for-finance-decision-support",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "AI for Finance Decision Support",
+      "title": "AI for Finance Decision Support",
+      "url": "/wiki/ai-for-finance-decision-support/",
+      "count": 1,
+      "search": "AI for Finance Decision Support How AI can help finance teams turn ERP, CRM, expense, and spreadsheet context into trusted decision insight without replacing finance judgment."
+    },
+    {
       "id": "wiki:ai-infrastructure",
       "type": "wiki",
       "collection": "wiki",
@@ -8058,6 +8079,16 @@
       "url": "/wiki/applied-research/",
       "count": 1,
       "search": "Applied Research How DataTalks.Club guests describe applied research as hypothesis driven work that turns uncertain ML ideas into products, reusable systems, and production ready evidence."
+    },
+    {
+      "id": "wiki:bioinformatics-data-science",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Bioinformatics Data Science",
+      "title": "Bioinformatics Data Science",
+      "url": "/wiki/bioinformatics-data-science/",
+      "count": 1,
+      "search": "Bioinformatics Data Science Bioinformatics data science applies exploration, modeling, network analysis, and open source software workflows to biological data from sequencing, metagenomics, and multi omics experiments."
     },
     {
       "id": "wiki:business-intelligence",
@@ -8288,6 +8319,16 @@
       "url": "/wiki/data-analyst-role/",
       "count": 1,
       "search": "Data Analyst Role DataTalks.Club podcast guide to the data analyst role: SQL, metrics, dashboards, experiments, stakeholder communication, and boundaries with analytics engineering, data science, and data engineering."
+    },
+    {
+      "id": "wiki:data-ai-conference-building",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Data and AI Conference Building",
+      "title": "Data and AI Conference Building",
+      "url": "/wiki/data-ai-conference-building/",
+      "count": 1,
+      "search": "Data and AI Conference Building Conference and community event operations for data and AI practitioners, grounded in Data Makers Fest."
     },
     {
       "id": "wiki:data-architect-role",
@@ -8898,6 +8939,16 @@
       "url": "/wiki/freelance/",
       "count": 1,
       "search": "Freelance Data Engineering and Consulting DataTalks.Club guest guidance for freelance data engineering and consulting: finding clients, pricing, scoping, agencies, direct clients, productized consulting, and career transitions."
+    },
+    {
+      "id": "wiki:game-ai-to-llm-agents",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Game AI to LLM Agents",
+      "title": "Game AI to LLM Agents",
+      "url": "/wiki/game-ai-to-llm-agents/",
+      "count": 1,
+      "search": "Game AI to LLM Agents How Micheal Lanham connects game AI, reinforcement learning, evolutionary algorithms, multi agent workflows, NPC behavior, support assistants, and modern LLM agents."
     },
     {
       "id": "wiki:generative-ai",
@@ -10074,6 +10125,84 @@
     {
       "source": "article:comparison:batch-vs-streaming",
       "target": "wiki:streaming",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:camera-first-vs-lidar-autonomous-driving",
+      "target": "article:comparison:mlops-vs-devops",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:comparison:camera-first-vs-lidar-autonomous-driving",
+      "target": "person:aishwaryajadhav",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:comparison:camera-first-vs-lidar-autonomous-driving",
+      "target": "podcast:from-computer-vision-research-to-autonomous-driving-ai",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:comparison:camera-first-vs-lidar-autonomous-driving",
+      "target": "wiki:ai-infrastructure",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:comparison:camera-first-vs-lidar-autonomous-driving",
+      "target": "wiki:ai-infrastructure",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:camera-first-vs-lidar-autonomous-driving",
+      "target": "wiki:computer-vision",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:comparison:camera-first-vs-lidar-autonomous-driving",
+      "target": "wiki:computer-vision",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:camera-first-vs-lidar-autonomous-driving",
+      "target": "wiki:deep-learning",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:comparison:camera-first-vs-lidar-autonomous-driving",
+      "target": "wiki:deep-learning",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:camera-first-vs-lidar-autonomous-driving",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:comparison:camera-first-vs-lidar-autonomous-driving",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:camera-first-vs-lidar-autonomous-driving",
+      "target": "wiki:production",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:comparison:camera-first-vs-lidar-autonomous-driving",
+      "target": "wiki:production",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -40846,6 +40975,102 @@
       "weight": 1
     },
     {
+      "source": "wiki:ai-for-finance-decision-support",
+      "target": "person:anushaakkina",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-for-finance-decision-support",
+      "target": "podcast:s22e06-from-black-box-systems-to-augmented-decision-making",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-for-finance-decision-support",
+      "target": "wiki:ai-product-feedback-loops",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-for-finance-decision-support",
+      "target": "wiki:ai-product-feedback-loops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-for-finance-decision-support",
+      "target": "wiki:data-products",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-for-finance-decision-support",
+      "target": "wiki:data-products",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-for-finance-decision-support",
+      "target": "wiki:data-strategy",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-for-finance-decision-support",
+      "target": "wiki:data-strategy",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-for-finance-decision-support",
+      "target": "wiki:data-trust-and-strategy",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-for-finance-decision-support",
+      "target": "wiki:data-trust-and-strategy",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-for-finance-decision-support",
+      "target": "wiki:llm-production-patterns",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-for-finance-decision-support",
+      "target": "wiki:llm-production-patterns",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-for-finance-decision-support",
+      "target": "wiki:metrics",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-for-finance-decision-support",
+      "target": "wiki:metrics",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-for-finance-decision-support",
+      "target": "wiki:responsible-ai-and-governance",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-for-finance-decision-support",
+      "target": "wiki:responsible-ai-and-governance",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
       "source": "wiki:ai-infrastructure",
       "target": "person:andreycheptsov",
       "kind": "wiki-link",
@@ -43304,6 +43529,78 @@
       "target": "wiki:software-engineering",
       "kind": "wiki-link",
       "weight": 1
+    },
+    {
+      "source": "wiki:bioinformatics-data-science",
+      "target": "person:sebastianayalaruano",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:bioinformatics-data-science",
+      "target": "podcast:bioinformatics-worflows-tools-and-data-science",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:bioinformatics-data-science",
+      "target": "wiki:data-pipelines",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:bioinformatics-data-science",
+      "target": "wiki:data-pipelines",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:bioinformatics-data-science",
+      "target": "wiki:data-science",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:bioinformatics-data-science",
+      "target": "wiki:data-science",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:bioinformatics-data-science",
+      "target": "wiki:machine-learning",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:bioinformatics-data-science",
+      "target": "wiki:machine-learning",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:bioinformatics-data-science",
+      "target": "wiki:open-source",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:bioinformatics-data-science",
+      "target": "wiki:open-source",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:bioinformatics-data-science",
+      "target": "wiki:reproducibility",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:bioinformatics-data-science",
+      "target": "wiki:reproducibility",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:business-intelligence",
@@ -47276,6 +47573,78 @@
       "target": "wiki:tracking-plans",
       "kind": "wiki-link",
       "weight": 1
+    },
+    {
+      "source": "wiki:data-ai-conference-building",
+      "target": "person:leonidkholkine",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-ai-conference-building",
+      "target": "podcast:s23e09-starting-data-conference-data-makers-fest-story",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-ai-conference-building",
+      "target": "wiki:career-growth",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-ai-conference-building",
+      "target": "wiki:career-growth",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-ai-conference-building",
+      "target": "wiki:community",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-ai-conference-building",
+      "target": "wiki:community",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-ai-conference-building",
+      "target": "wiki:community-building",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-ai-conference-building",
+      "target": "wiki:community-building",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-ai-conference-building",
+      "target": "wiki:data-teams",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-ai-conference-building",
+      "target": "wiki:data-teams",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-ai-conference-building",
+      "target": "wiki:leadership",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-ai-conference-building",
+      "target": "wiki:leadership",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:data-analyst-careers",
@@ -60488,6 +60857,84 @@
       "target": "wiki:solopreneur",
       "kind": "wiki-link",
       "weight": 1
+    },
+    {
+      "source": "wiki:game-ai-to-llm-agents",
+      "target": "person:micheallanham",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:game-ai-to-llm-agents",
+      "target": "podcast:from-game-ai-to-modern-ai-agents",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:game-ai-to-llm-agents",
+      "target": "wiki:agent-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:game-ai-to-llm-agents",
+      "target": "wiki:agent-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:game-ai-to-llm-agents",
+      "target": "wiki:ai-agents",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:game-ai-to-llm-agents",
+      "target": "wiki:ai-agents",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:game-ai-to-llm-agents",
+      "target": "wiki:evolutionary-algorithms",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:game-ai-to-llm-agents",
+      "target": "wiki:multi-agent-systems",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:game-ai-to-llm-agents",
+      "target": "wiki:multi-agent-systems",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:game-ai-to-llm-agents",
+      "target": "wiki:prompt-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:game-ai-to-llm-agents",
+      "target": "wiki:prompt-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:game-ai-to-llm-agents",
+      "target": "wiki:reinforcement-learning",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:game-ai-to-llm-agents",
+      "target": "wiki:reinforcement-learning",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:generative-ai",
