@@ -5,11 +5,17 @@ summary: "Podcast-backed transition notes for academic researchers, PhDs, postdo
 related:
   - Academia
   - Career Transition
+  - Career Transitions in Data
   - Data Science
+  - Data Scientist Role
+  - Data Science Careers
   - Applied Research
   - Notebook to Production AI Systems
   - Machine Learning Portfolio Projects
   - Job Search
+  - CV Screening
+  - Job Descriptions
+  - Communication
 ---
 
 Academic researcher to data science means moving from academic research into
@@ -19,11 +25,11 @@ translation from academic evidence into
 [data science]({{ '/wiki/data-science/' | relative_url }}),
 [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), or
 [data engineering]({{ '/wiki/data-engineering/' | relative_url }}) evidence,
-not as a beginner path.
+not as a blank-slate path.
 
 [CJ Jenkins]({{ '/people/cjjenkins/' | relative_url }})
 turns evolutionary biology and genomics into a postdoc-to-data-science route.
-His bridge includes statistics and Bash. It also includes R, Python, and SQL
+Her bridge includes statistics and Bash. It also includes R, Python, and SQL
 ([postdoc transition at 1:28-6:10]({{ '/podcasts/postdoc-to-data-science-lead-career-transition/' | relative_url }})).
 [Anastasia Karavdina]({{ '/people/anastasiakaravdina/' | relative_url }})
 connects collider physics, statistical analysis, and research software
@@ -32,7 +38,7 @@ engineering to industry data science
 
 Researchers have to make research skills legible to hiring teams and add the
 production habits expected in industry teams. CJ names deployment, APIs, and
-Docker as gaps to fill. He also names clean code, pair programming, and code
+Docker as gaps to fill. She also names clean code, pair programming, and code
 review
 ([postdoc transition at 6:10 and 36:43-37:39]({{ '/podcasts/postdoc-to-data-science-lead-career-transition/' | relative_url }})).
 [Mihail Eric]({{ '/people/mihaileric/' | relative_url }}) frames the same
@@ -51,7 +57,7 @@ That makes this transition adjacent to
 Across the interviews, academic researcher to data science means keeping the
 discipline-specific research advantage while renaming the work in industry
 terms. CJ turns population dynamics, genomics files, and GLMs into a
-data-science story before moving into credit-risk modeling. He also names Bash
+data-science story before moving into credit-risk modeling. She also names Bash
 and data cleaning as part of the bridge. R, Python, and SQL belong there too
 ([postdoc transition at 1:28-6:10 and 41:12-43:44]({{ '/podcasts/postdoc-to-data-science-lead-career-transition/' | relative_url }})).
 
@@ -80,7 +86,7 @@ impact and a product mindset in academics moving into data-science roles
 
 Guests differ on the best target role. CJ's route points toward data scientist
 and data-science lead roles. Statistics and credit-risk modeling are the
-industry landing zone in his story
+industry landing zone in her story
 ([postdoc transition at 0:58-6:10 and 31:00]({{ '/podcasts/postdoc-to-data-science-lead-career-transition/' | relative_url }})).
 [Daniel Egbo]({{ '/people/danielegbo/' | relative_url }}) leans from radio
 astronomy toward applied ML and data engineering because MEERKAT work requires
@@ -119,6 +125,18 @@ researchers learn engineering and engineers learn experimental rigor
 That boundary connects this transition to
 [Applied Research]({{ '/wiki/applied-research/' | relative_url }}) as well as
 [Job Search]({{ '/wiki/job-search/' | relative_url }}).
+
+For academic candidates, the first job-search task is deciding which
+data-science role the research actually supports. CJ's story points toward
+statistical modeling, credit risk, and data-science leadership
+([postdoc transition at 0:58-6:10 and 31:00]({{ '/podcasts/postdoc-to-data-science-lead-career-transition/' | relative_url }})).
+She also describes uncertainty about what data science work would look like
+before starting
+([postdoc transition at 6:10]({{ '/podcasts/postdoc-to-data-science-lead-career-transition/' | relative_url }})).
+That connects the transition to
+[Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }}),
+[Data Science Careers]({{ '/wiki/data-science-careers/' | relative_url }}), and
+[Job Descriptions]({{ '/wiki/job-descriptions/' | relative_url }}).
 
 ## Translating Research Into Industry Evidence
 
@@ -184,6 +202,15 @@ A strong academic-to-data-science portfolio exposes the work that a paper or
 thesis may hide. CJ contrasts publications with portfolios and points toward
 relevant, visible work
 ([postdoc transition at 40:02]({{ '/podcasts/postdoc-to-data-science-lead-career-transition/' | relative_url }})).
+
+CJ's portfolio advice is conditional. She says publications usually matter less
+outside research roles, but she also warns that many pet projects use overly
+clean datasets. For academic researchers, the better portfolio move is to expose
+the messy data work already present in research.
+
+That can mean large files, Bash processing, and data cleaning. It can also mean
+domain translation and statistical foundations
+([postdoc transition at 1:28-6:10 and 40:02-42:48]({{ '/podcasts/postdoc-to-data-science-lead-career-transition/' | relative_url }})).
 Luke asks data-science candidates to connect projects, tech stack, use cases,
 and business impact
 ([data-science job episode at 19:50-25:04]({{ '/podcasts/get-data-scientist-job/' | relative_url }})).
@@ -214,6 +241,14 @@ The transition story has to be specific enough that a recruiter or interviewer
 can map it to the job. CJ rewrites around skills, keywords, and recruiter
 feedback, then iterates the CV instead of leading with a publication list
 ([postdoc transition at 17:14-20:40 and 40:02]({{ '/podcasts/postdoc-to-data-science-lead-career-transition/' | relative_url }})).
+
+CJ's CV rewrite wasn't a one-pass formatting exercise. She describes deleting
+publication-heavy academic material and moving education down. She also asked
+industry peers and recruiters for feedback, then did about 14 iterations before
+applying. That connects this transition to
+[CV Screening]({{ '/wiki/cv-screening/' | relative_url }}) and
+[Job Search]({{ '/wiki/job-search/' | relative_url }}).
+
 Luke adds that the resume should connect tech stack to projects and industry
 fit. Use cases, business impact, a clear narrative, and targeted applications
 matter for data-science recruiting
@@ -247,9 +282,14 @@ preparation.
 
 - [Academia]({{ '/wiki/academia/' | relative_url }})
 - [Career Transition]({{ '/wiki/career-transition/' | relative_url }})
+- [Career Transitions in Data]({{ '/wiki/career-transitions-in-data/' | relative_url }})
 - [Data Science]({{ '/wiki/data-science/' | relative_url }})
 - [Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }})
+- [Data Science Careers]({{ '/wiki/data-science-careers/' | relative_url }})
 - [Applied Research]({{ '/wiki/applied-research/' | relative_url }})
 - [Notebook to Production AI Systems]({{ '/wiki/notebook-to-production-ai-systems/' | relative_url }})
 - [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
 - [Data Scientist Interview Roadmap]({{ '/wiki/data-scientist-interview-roadmap/' | relative_url }})
+- [CV Screening]({{ '/wiki/cv-screening/' | relative_url }})
+- [Job Descriptions]({{ '/wiki/job-descriptions/' | relative_url }})
+- [Communication]({{ '/wiki/communication/' | relative_url }})

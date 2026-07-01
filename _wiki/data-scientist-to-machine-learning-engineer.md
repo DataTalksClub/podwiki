@@ -9,15 +9,22 @@ related:
   - Machine Learning System Design
   - MLOps
   - Machine Learning Portfolio Projects
+  - Production ML Project Checklist
+  - ML System Design Documents
+  - Model Monitoring
+  - Experiment Tracking
+  - Model Registry
+  - Reproducibility
   - Software Engineering
   - Data Science Careers
 ---
 
 Data scientist to machine learning engineer is a transition from analysis and
-model development toward production ownership. The destination isn't "more
-advanced modeling." In the DataTalks.Club interviews, it's software engineering
-around model-backed systems. Modular code, tests, and deployment define the
-shift. Monitoring, serving choices, and operational tradeoffs matter too.
+model development toward production ownership. The destination isn't only "more
+advanced modeling." In the DataTalks.Club interviews, it's stronger modeling
+judgment inside software engineering around model-backed systems. Modular code,
+tests, and deployment define the shift. Monitoring, serving choices, and
+operational tradeoffs matter too.
 
 [Danny Ma]({{ '/people/dannyma/' | relative_url }}) gives the career framing
 through his ABC model. The builder path moves data science toward ML
@@ -35,6 +42,14 @@ This transition sits between
 [Machine Learning Engineer Role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }}),
 [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }}),
 and [MLOps]({{ '/wiki/mlops/' | relative_url }}).
+
+The archive's early role boundary appears in
+[Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }}).
+At 17:04, machine learning engineers help data scientists scale model-backed
+services and apply engineering practices. At 40:10, the episode separates
+online serving from batch scoring. That helps decide whether the transition
+needs API, latency, and reliability skills or pipeline-oriented batch
+ownership.
 
 ## Common Route
 
@@ -90,8 +105,8 @@ Mihail's version makes role boundaries more fluid in strong teams. He describes
 embedded collaboration, full-stack data scientists, code reviews, and deployed
 end-to-end systems
 ([research-to-production episode at 34:20-46:57]({{ '/podcasts/research-to-production-ml-systems-roadmap/' | relative_url }})).
-So this page should be read as a responsibility shift, not a universal title
-ladder.
+The transition is better understood as a responsibility shift than a universal
+title ladder.
 
 ## Skill Gaps
 
@@ -118,20 +133,44 @@ connects recommendation systems to streaming and batch pipeline design, then
 connects deployment tooling to ML engineering roles
 ([role comparison episode at 18:54-23:40]({{ '/podcasts/big-data-engineer-vs-data-scientist/' | relative_url }})).
 
+The fourth gap is written system design. [Arseny Kravchenko]({{ '/people/arsenykravchenko/' | relative_url }})
+argues for constraints and design-document planning before implementation in
+[Build Scalable, Reliable ML Systems]({{ '/podcasts/building-scalable-and-reliable-machine-learning-systems/' | relative_url }}).
+He introduces constraints at 7:54 and 8:21. The design-document work appears at
+18:49, 20:21, and 21:07.
+
+Later sections add goals and non-goals at 23:34 and 29:01, then baselines and
+data strategy at 31:42 and 32:37. Dependencies and batch-versus-real-time
+choices appear at 32:37 and 37:15. For a transitioning data scientist, model
+intuition has to become written design decisions with explicit
+[ML System Design Documents]({{ '/wiki/ml-system-design-documents/' | relative_url }}).
+
 ## Portfolio Evidence
 
 A portfolio for this transition should prove the new ownership surface. A
 notebook alone isn't enough. The project should show data loading, a baseline,
-and training. Evaluation, packaging, and tests matter too. It should also show
-deployment or scheduled scoring, monitoring hooks, and a clear explanation of
-tradeoffs.
+and training. Evaluation, packaging, and tests matter too.
 
-This matches the existing
+It should also show
+deployment or scheduled scoring and input-quality checks. It should show
+prediction-distribution monitoring, service health, and a rollback or
+retraining trigger.
+
 [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
-page. It also matches Ben's emphasis on maintainable components and
-Santiago's deployment-plus-monitoring advice
+treats this as production-aware portfolio evidence. Ben's maintainable-component
+advice and Santiago's deployment-plus-monitoring advice point in the same
+direction
 ([production ML engineering episode]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }}),
 [software-engineer-to-ML episode]({{ '/podcasts/from-software-engineer-to-machine-learning/' | relative_url }})).
+
+A stronger transition portfolio pairs one working model with one
+production-readiness artifact. Use the
+[Machine Learning Engineer Roadmap]({{ '/roadmaps/machine-learning-engineer-roadmap/' | relative_url }})
+for sequencing and the
+[Production ML Project Checklist]({{ '/wiki/production-ml-project-checklist/' | relative_url }})
+for reproducible training, tracked runs, and an artifact or registry record. It
+also covers batch or online serving and input validation. Logs, monitoring
+signals, and rollback criteria complete the project.
 
 Strong project examples include:
 
@@ -148,14 +187,21 @@ That's the main difference between this transition and a general
 
 ## Related Pages
 
-These pages cover adjacent roles, comparison pages, and portfolio topics.
+Adjacent role, comparison, and portfolio topics include:
 
 - [Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }})
 - [Machine Learning Engineer Role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }})
+- [Machine Learning Engineer Roadmap]({{ '/roadmaps/machine-learning-engineer-roadmap/' | relative_url }})
 - [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
+- [ML System Design Documents]({{ '/wiki/ml-system-design-documents/' | relative_url }})
 - [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
+- [Production ML Project Checklist]({{ '/wiki/production-ml-project-checklist/' | relative_url }})
 - [MLOps]({{ '/wiki/mlops/' | relative_url }})
 - [ML Platform Engineer Role]({{ '/wiki/ml-platform-engineer-role/' | relative_url }})
+- [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }})
+- [Experiment Tracking]({{ '/wiki/experiment-tracking/' | relative_url }})
+- [Model Registry]({{ '/wiki/model-registry/' | relative_url }})
+- [Reproducibility]({{ '/wiki/reproducibility/' | relative_url }})
 - [Software Engineering]({{ '/wiki/software-engineering/' | relative_url }})
 - [Machine Learning Engineer vs Data Scientist]({{ '/comparisons/machine-learning-engineer-vs-data-scientist/' | relative_url }})
 - [Data Science Careers]({{ '/wiki/data-science-careers/' | relative_url }})

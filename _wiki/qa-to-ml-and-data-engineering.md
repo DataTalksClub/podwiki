@@ -7,7 +7,12 @@ related:
   - Career Transitions in Data
   - Testing
   - Machine Learning
+  - Machine Learning Engineer Role
   - Data Engineering
+  - Data Engineer Role
+  - Portfolio Projects
+  - Production ML Project Checklist
+  - End-to-End Data Pipeline Project
   - Job Search
 ---
 
@@ -26,7 +31,7 @@ Interview stories showed how the previous testing discipline supported the new
 target role
 ([QA transition episode at 13:32-45:28]({{ '/podcasts/how-to-transition-into-ml-and-data-engineering-from-qa/' | relative_url }})).
 
-That makes this page a focused branch of
+QA-to-ML and QA-to-data-engineering sit inside
 [Career Transition]({{ '/wiki/career-transition/' | relative_url }}) and
 [Career Transitions in Data]({{ '/wiki/career-transitions-in-data/' | relative_url }}).
 Target-role depth sits in
@@ -36,11 +41,28 @@ The transition also connects to
 [Testing]({{ '/wiki/testing/' | relative_url }}) and
 [Job Search]({{ '/wiki/job-search/' | relative_url }}).
 
+Choose the target role before choosing the project. QA-to-ML should route
+toward [Machine Learning Engineer Role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }})
+and the
+[Production ML Project Checklist]({{ '/wiki/production-ml-project-checklist/' | relative_url }}).
+QA-to-data-engineering should route toward
+[Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }}),
+[Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }}),
+and
+[End-to-End Data Pipeline Project]({{ '/wiki/end-to-end-data-pipeline-project/' | relative_url }}).
+Alvaro separates math-heavy ML from tooling-focused data engineering near the
+end of his interview
+([47:39-59:51]({{ '/podcasts/how-to-transition-into-ml-and-data-engineering-from-qa/' | relative_url }})).
+
 ## Common Definition
 
-The archive converges on a practical definition: QA-to-ML/data engineering is a
-proof-building transition. The candidate keeps the QA background long enough to
-show systematic validation, then proves the new role with artifacts.
+The QA-specific episode shows a practical definition:
+QA-to-ML/data engineering is a proof-building transition. The candidate keeps
+the QA background long enough to show systematic validation, then proves the
+new role with artifacts. The target-role evidence lives in
+[Machine Learning Engineer Role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }}),
+[Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }}), and
+[Portfolio Projects]({{ '/wiki/portfolio-projects/' | relative_url }}).
 
 Alvaro's QA work wasn't generic "attention to detail." It involved
 phone-prototype testing, GPS field testing, and RF field testing. It also
@@ -48,16 +70,16 @@ included Android certification checks, repeated firmware validation, checklists,
 and written reports
 ([QA transition episode at 2:13-7:14]({{ '/podcasts/how-to-transition-into-ml-and-data-engineering-from-qa/' | relative_url }})).
 
-The common route then moves through exploration, structured retraining, and
-visible project work. Alvaro first explored front-end work and chose ML because
+Alvaro's route then moves through exploration, structured retraining, and
+visible project work. He first explored front-end work and chose ML because
 he liked the mathematical challenge. He then used a postgraduate course and
 Neuromatch Academy to build project experience. Machine Learning Zoomcamp and
 Data Engineering Zoomcamp served the same purpose
 ([QA transition episode at 8:35-17:28]({{ '/podcasts/how-to-transition-into-ml-and-data-engineering-from-qa/' | relative_url }})).
 
-His project evidence included an EDA project, a vegetable
-image-classification project, and Google Cloud deployment. It also included AWS
-exercises and public GitHub notes
+His project work included an EDA project, a vegetable image-classification
+project, and Google Cloud deployment. It also included AWS exercises and public
+GitHub notes
 ([QA transition episode at 24:57-28:42 and 35:02-42:55]({{ '/podcasts/how-to-transition-into-ml-and-data-engineering-from-qa/' | relative_url }})).
 
 Hiring translation mattered in Alvaro's route because coaching covered
@@ -104,7 +126,8 @@ he adds Python/SQL depth, Docker, and Airflow. Warehouse fundamentals also
 matter in that hiring frame. Clean code, tests, portfolio projects, and
 technical interview formats matter too. This version of the transition points toward the
 [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
-rather than model research.
+rather than model research
+([1:20-9:41]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }})).
 
 [Juan Manuel Perafan]({{ '/people/juanmanuelperafan/' | relative_url }}) makes
 testing part of the data-role boundary. In
@@ -162,7 +185,7 @@ For data engineering work, the QA habit should become pipeline reliability.
 Katz's data-engineering job-prep episode names Python, SQL, Docker, and
 Airflow. Warehouses, clean code, tests, and portfolio projects are hiring
 signals too
-([Data Engineering Job Prep and Interview Guide]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }})).
+([Data Engineering Job Prep and Interview Guide at 1:20-9:41]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }})).
 
 The [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
 page is the related project-design reference for ingestion and source handling.
@@ -184,8 +207,8 @@ Valdarrama's route starts from projects. It then adds Python and Pandas.
 Scikit-learn, problem analysis, deployment, and cloud work round out the route
 ([software-to-ML episode at 17:25-29:05 and 33:10-51:21]({{ '/podcasts/from-software-engineer-to-machine-learning/' | relative_url }})).
 
-Alvaro's route adds the specific archive example of postgraduate ML study and
-Zoomcamp work. It also includes a deployed image-classification project
+Alvaro's route adds postgraduate ML study and Zoomcamp work. It also includes a
+deployed image-classification project
 ([QA transition episode at 13:32-17:28 and 24:57-28:42]({{ '/podcasts/how-to-transition-into-ml-and-data-engineering-from-qa/' | relative_url }})).
 
 The data-engineering route needs Python, SQL, cloud fundamentals, and ETL work.
@@ -215,9 +238,9 @@ comparison helps separate those two paths.
 
 ## Portfolio and Public Notes
 
-Alvaro's archive example shows portfolio evidence through project work. That
-work includes an EDA project and an image-classification project. It also
-includes Google Cloud deployment and AWS exercises during the course
+Alvaro shows portfolio evidence through project work. That work includes an EDA
+project and an image-classification project. It also includes Google Cloud
+deployment and AWS exercises during the course
 ([QA transition episode at 24:57-28:42]({{ '/podcasts/how-to-transition-into-ml-and-data-engineering-from-qa/' | relative_url }})).
 
 It also shows learning evidence. Alvaro used Markdown notes, GitHub gists,
@@ -231,6 +254,10 @@ baseline, and evaluation metric. It should also cover error cases, deployment
 path, and failure modes
 ([production ML engineering episode at 52:14-59:27]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }}),
 [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})).
+Use [Portfolio Projects]({{ '/wiki/portfolio-projects/' | relative_url }}) for
+the cross-role standard and
+[Production ML Project Checklist]({{ '/wiki/production-ml-project-checklist/' | relative_url }})
+for reproducible training, deployment, monitoring, and rollback criteria.
 This is where QA discipline becomes a visible ML asset.
 
 For QA-to-data-engineering candidates, a useful portfolio project should show
@@ -238,6 +265,16 @@ ingestion and transformation. It should also show SQL depth, data quality
 tests, and orchestration. Recovery behavior belongs in the project too
 ([Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }}),
 [Data Engineering Job Prep and Interview Guide]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }})).
+
+[Santona Tuli]({{ '/people/santonatuli/' | relative_url }}) and
+[Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) ground the
+pipeline version through ingestion and transformation. They also ground marts,
+orchestration, and consumer-facing outputs
+([Santona pipeline structure at 37:10-43:05]({{ '/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/' | relative_url }}),
+[Natalie modern stack details at 15:30-30:59]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})).
+Use
+[End-to-End Data Pipeline Project]({{ '/wiki/end-to-end-data-pipeline-project/' | relative_url }})
+when the transition project needs one concrete data-engineering blueprint.
 A QA background strengthens the story when the README explains what can break,
 which tests catch it, and how to rerun the pipeline.
 
@@ -259,7 +296,7 @@ belonged to Alvaro
 ([QA transition episode at 43:33-47:29]({{ '/podcasts/how-to-transition-into-ml-and-data-engineering-from-qa/' | relative_url }})).
 Katz's data-engineering job-prep episode adds the role-specific hiring format.
 It covers SQL, Python, take-home projects, resumes and interview stages
-([Data Engineering Job Prep and Interview Guide]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }})).
+([Data Engineering Job Prep and Interview Guide at 1:20-9:41]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }})).
 
 The CV should make the bridge obvious. Alvaro's episode includes a CV
 discussion near the end
@@ -273,7 +310,7 @@ as the adjacent hiring page.
 
 ## Related Pages
 
-Use these pages for target-role depth and adjacent transition context.
+These role, project, and hiring paths sit next to QA transitions.
 
 - [Career Transition]({{ '/wiki/career-transition/' | relative_url }})
 - [Career Transitions in Data]({{ '/wiki/career-transitions-in-data/' | relative_url }})
@@ -281,9 +318,13 @@ Use these pages for target-role depth and adjacent transition context.
 - [Machine Learning]({{ '/wiki/machine-learning/' | relative_url }})
 - [Machine Learning Engineer Role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }})
 - [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
+- [Production ML Project Checklist]({{ '/wiki/production-ml-project-checklist/' | relative_url }})
 - [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }})
+- [Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }})
 - [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
 - [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
+- [End-to-End Data Pipeline Project]({{ '/wiki/end-to-end-data-pipeline-project/' | relative_url }})
+- [Portfolio Projects]({{ '/wiki/portfolio-projects/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }})
 - [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})

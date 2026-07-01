@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 145,
     "nodes": 1010,
-    "links": 10645
+    "links": 10706
   },
   "nodes": [
     {
@@ -36743,7 +36743,7 @@
       "source": "wiki:academic-researcher-to-data-science",
       "target": "podcast:postdoc-to-data-science-lead-career-transition",
       "kind": "wiki-link",
-      "weight": 28
+      "weight": 34
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
@@ -36789,6 +36789,42 @@
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
+      "target": "wiki:career-transitions-in-data",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:academic-researcher-to-data-science",
+      "target": "wiki:career-transitions-in-data",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:academic-researcher-to-data-science",
+      "target": "wiki:communication",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:academic-researcher-to-data-science",
+      "target": "wiki:communication",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:academic-researcher-to-data-science",
+      "target": "wiki:cv-screening",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:academic-researcher-to-data-science",
+      "target": "wiki:cv-screening",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:academic-researcher-to-data-science",
       "target": "wiki:data-engineering",
       "kind": "wiki-link",
       "weight": 2
@@ -36813,6 +36849,18 @@
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
+      "target": "wiki:data-science-careers",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:academic-researcher-to-data-science",
+      "target": "wiki:data-science-careers",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:academic-researcher-to-data-science",
       "target": "wiki:data-scientist-interview-roadmap",
       "kind": "wiki-link",
       "weight": 4
@@ -36821,13 +36869,31 @@
       "source": "wiki:academic-researcher-to-data-science",
       "target": "wiki:data-scientist-role",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
+    },
+    {
+      "source": "wiki:academic-researcher-to-data-science",
+      "target": "wiki:data-scientist-role",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:academic-researcher-to-data-science",
+      "target": "wiki:job-descriptions",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:academic-researcher-to-data-science",
+      "target": "wiki:job-descriptions",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
       "target": "wiki:job-search",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
@@ -49977,6 +50043,18 @@
     },
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "article:roadmap:machine-learning-engineer-roadmap",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "person:arsenykravchenko",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
       "target": "person:benwilson",
       "kind": "wiki-link",
       "weight": 2
@@ -50031,9 +50109,21 @@
     },
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "podcast:building-scalable-and-reliable-machine-learning-systems",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
       "target": "podcast:data-science-career-abc-framework",
       "kind": "wiki-link",
       "weight": 4
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "podcast:data-team-roles",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
@@ -50097,6 +50187,18 @@
     },
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "wiki:experiment-tracking",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "wiki:experiment-tracking",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
       "target": "wiki:machine-learning-engineer-role",
       "kind": "wiki-link",
       "weight": 4
@@ -50139,6 +50241,18 @@
     },
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "wiki:ml-system-design-documents",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "wiki:ml-system-design-documents",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
       "target": "wiki:mlops",
       "kind": "wiki-link",
       "weight": 4
@@ -50146,6 +50260,54 @@
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
       "target": "wiki:mlops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "wiki:model-monitoring",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "wiki:model-monitoring",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "wiki:model-registry",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "wiki:model-registry",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "wiki:production-ml-project-checklist",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "wiki:production-ml-project-checklist",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "wiki:reproducibility",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "wiki:reproducibility",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -60039,6 +60201,18 @@
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
+      "target": "wiki:a-b-testing",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:marketing-to-analytics-engineering",
+      "target": "wiki:a-b-testing",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:marketing-to-analytics-engineering",
       "target": "wiki:analytics-engineering",
       "kind": "wiki-link",
       "weight": 4
@@ -60069,6 +60243,18 @@
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
+      "target": "wiki:business-intelligence",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:marketing-to-analytics-engineering",
+      "target": "wiki:business-intelligence",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:marketing-to-analytics-engineering",
       "target": "wiki:career-transition",
       "kind": "wiki-link",
       "weight": 2
@@ -60081,9 +60267,27 @@
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
+      "target": "wiki:dashboard-and-metric-layer-project-checklist",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:marketing-to-analytics-engineering",
+      "target": "wiki:dashboard-and-metric-layer-project-checklist",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:marketing-to-analytics-engineering",
       "target": "wiki:data-activation",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:marketing-to-analytics-engineering",
+      "target": "wiki:data-analyst-role",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
@@ -60105,6 +60309,12 @@
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
+      "target": "wiki:data-warehouse",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:marketing-to-analytics-engineering",
       "target": "wiki:dbt",
       "kind": "wiki-related",
       "weight": 3
@@ -60114,6 +60324,12 @@
       "target": "wiki:event-tracking",
       "kind": "wiki-link",
       "weight": 4
+    },
+    {
+      "source": "wiki:marketing-to-analytics-engineering",
+      "target": "wiki:experimentation",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
@@ -66615,9 +66831,39 @@
     },
     {
       "source": "wiki:product-designer-to-data-product-manager",
+      "target": "person:gregcoquillo",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
+      "target": "person:ioannismesionis",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
       "target": "person:saramenefee",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
+      "target": "person:zhamakdehghani",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
+      "target": "podcast:building-and-scaling-ai-data-products-with-mlops",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
+      "target": "podcast:building-data-products-lead-data-scientist",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:product-designer-to-data-product-manager",
@@ -66627,21 +66873,27 @@
     },
     {
       "source": "wiki:product-designer-to-data-product-manager",
+      "target": "podcast:data-mesh-architecture-decentralized-data-products",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
       "target": "podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:product-designer-to-data-product-manager",
       "target": "podcast:ml-product-manager-and-mlops-platform-strategy",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:product-designer-to-data-product-manager",
       "target": "podcast:product-designer-to-data-product-manager",
       "kind": "wiki-link",
-      "weight": 48
+      "weight": 50
     },
     {
       "source": "wiki:product-designer-to-data-product-manager",
@@ -66699,6 +66951,18 @@
     },
     {
       "source": "wiki:product-designer-to-data-product-manager",
+      "target": "wiki:data-mesh",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
+      "target": "wiki:data-mesh",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
       "target": "wiki:data-product-adoption",
       "kind": "wiki-link",
       "weight": 4
@@ -66753,6 +67017,18 @@
     },
     {
       "source": "wiki:product-designer-to-data-product-manager",
+      "target": "wiki:experimentation-and-causal-inference",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
+      "target": "wiki:experimentation-and-causal-inference",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
       "target": "wiki:metrics",
       "kind": "wiki-link",
       "weight": 2
@@ -66762,6 +67038,18 @@
       "target": "wiki:ml-platform-engineer-role",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
+      "target": "wiki:ml-product-manager-role",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
+      "target": "wiki:ml-product-manager-role",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:product-designer-to-data-product-manager",
@@ -67647,6 +67935,18 @@
     },
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
+      "target": "person:nataliekwong",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:qa-to-ml-and-data-engineering",
+      "target": "person:santonatuli",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:qa-to-ml-and-data-engineering",
       "target": "person:svpino",
       "kind": "wiki-link",
       "weight": 4
@@ -67659,6 +67959,12 @@
     },
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
+      "target": "podcast:data-engineering-tools-modern-data-stack",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:qa-to-ml-and-data-engineering",
       "target": "podcast:from-software-engineer-to-machine-learning",
       "kind": "wiki-link",
       "weight": 8
@@ -67667,19 +67973,25 @@
       "source": "wiki:qa-to-ml-and-data-engineering",
       "target": "podcast:get-data-engineering-job-prep-and-interview",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 10
     },
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
       "target": "podcast:how-to-transition-into-ml-and-data-engineering-from-qa",
       "kind": "wiki-link",
-      "weight": 30
+      "weight": 32
     },
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
       "target": "podcast:machine-learning-engineering-production-best-practices",
       "kind": "wiki-link",
       "weight": 10
+    },
+    {
+      "source": "wiki:qa-to-ml-and-data-engineering",
+      "target": "podcast:modern-data-pipelines-orchestration-ingestion-modeling",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
@@ -67719,6 +68031,18 @@
     },
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
+      "target": "wiki:data-engineer-role",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:qa-to-ml-and-data-engineering",
+      "target": "wiki:data-engineer-role",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:qa-to-ml-and-data-engineering",
       "target": "wiki:data-engineering",
       "kind": "wiki-link",
       "weight": 6
@@ -67739,7 +68063,7 @@
       "source": "wiki:qa-to-ml-and-data-engineering",
       "target": "wiki:data-engineering-roadmap",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 8
     },
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
@@ -67752,6 +68076,18 @@
       "target": "wiki:dataops",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:qa-to-ml-and-data-engineering",
+      "target": "wiki:end-to-end-data-pipeline-project",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:qa-to-ml-and-data-engineering",
+      "target": "wiki:end-to-end-data-pipeline-project",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
@@ -67781,7 +68117,13 @@
       "source": "wiki:qa-to-ml-and-data-engineering",
       "target": "wiki:machine-learning-engineer-role",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 8
+    },
+    {
+      "source": "wiki:qa-to-ml-and-data-engineering",
+      "target": "wiki:machine-learning-engineer-role",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
@@ -67800,6 +68142,30 @@
       "target": "wiki:open-source-portfolio-evidence",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:qa-to-ml-and-data-engineering",
+      "target": "wiki:portfolio-projects",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:qa-to-ml-and-data-engineering",
+      "target": "wiki:portfolio-projects",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:qa-to-ml-and-data-engineering",
+      "target": "wiki:production-ml-project-checklist",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:qa-to-ml-and-data-engineering",
+      "target": "wiki:production-ml-project-checklist",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:qa-to-ml-and-data-engineering",

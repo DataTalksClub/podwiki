@@ -11,6 +11,9 @@ related:
   - Data Quality and Observability
   - Data Engineering
   - A/B Testing
+  - Data Mesh
+  - ML Product Manager Role
+  - Experimentation and Causal Inference
 ---
 
 Product designer to data product manager is a transition from designing user
@@ -42,12 +45,11 @@ be a workflow or data-backed application.
 
 ## Common Definition
 
-Across the cited episodes, product designer to data product manager means using
-design discovery as the entry point into data-product ownership. The designer
-already knows how to ask about user pain, prototype a direction, and test
-whether a proposed experience solves a problem. The new work is to connect that
-discovery to data lifecycle decisions and quality constraints. Metrics and
-engineering tradeoffs become part of the same product judgment.
+Product designer to data product manager means using design discovery as the
+entry point into data-product ownership. The designer already knows how to ask
+about user pain, prototype a direction, and test whether a proposed experience
+solves a problem. The new work connects that discovery to data lifecycle
+decisions, quality constraints, metrics, and engineering tradeoffs.
 
 Sara defines the data PM work at
 [7:09]({{ '/podcasts/product-designer-to-data-product-manager/' | relative_url }}):
@@ -95,7 +97,9 @@ product work. In
 [ML Product Management and Platform Strategy]({{ '/podcasts/ml-product-manager-and-mlops-platform-strategy/' | relative_url }}),
 he treats data scientists and analysts as platform customers. Roadmap choices,
 observability KPIs, release governance, and rollout timing become product
-management work. That path is close to
+management work
+([11:24-57:20]({{ '/podcasts/ml-product-manager-and-mlops-platform-strategy/' | relative_url }})).
+That path is close to
 [ML Platform Engineer Role]({{ '/wiki/ml-platform-engineer-role/' | relative_url }})
 and [platform engineering]({{ '/wiki/platform-engineering/' | relative_url }}),
 but the user and adoption questions still look like product management.
@@ -105,7 +109,9 @@ adoption in
 [Last-Mile Data Delivery]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }}).
 Users need to find a data product, understand it, trust it, and use it where
 decisions happen. Designers often have an advantage here because they already
-think in personas, journeys, friction, and decision context. That evidence
+think in personas, journeys, friction, and decision context
+([8:48-26:36 and 26:21-40:53]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }})).
+That evidence
 connects this transition to
 [data product adoption]({{ '/wiki/data-product-adoption/' | relative_url }}).
 
@@ -123,6 +129,19 @@ when the title boundary is the main question.
 [Data Product Owner vs Data Product Manager]({{ '/comparisons/data-product-owner-vs-data-product-manager/' | relative_url }})
 is the closer comparison when the question is ownership of data products
 inside data teams.
+
+[Greg Coquillo]({{ '/people/gregcoquillo/' | relative_url }}) adds the roadmap
+version in
+[Building and Scaling AI Data Products with MLOps]({{ '/podcasts/building-and-scaling-ai-data-products-with-mlops/' | relative_url }}).
+His data product manager starts from customer journeys and business-partner
+interviews. Five Whys and hypothesis testing come before roadmap options. For
+product designers, the next skill is translating discovery into impact and
+effort
+([14:03-26:25 and 47:18-51:11]({{ '/podcasts/building-and-scaling-ai-data-products-with-mlops/' | relative_url }})).
+
+Cost, SMART goals, and operating metrics belong in that same roadmap work.
+Those metrics can include pipeline failures, SLAs, and data quality
+([47:18-55:32]({{ '/podcasts/building-and-scaling-ai-data-products-with-mlops/' | relative_url }})).
 
 ## Transfer Design Discovery Into Data Product Work
 
@@ -199,6 +218,16 @@ Use [data quality and observability]({{ '/wiki/data-quality-and-observability/' 
 and [data governance]({{ '/wiki/data-governance/' | relative_url }}) for that
 operating layer.
 
+[Zhamak Dehghani]({{ '/people/zhamakdehghani/' | relative_url }}) adds the
+quality layer in
+[Data Mesh Implementation]({{ '/podcasts/data-mesh-architecture-decentralized-data-products/' | relative_url }}).
+A data product needs consumer-facing guarantees. Those guarantees include
+metadata, quality expectations, access paths, and SLAs. Ownership and
+governance policies belong there too.
+
+For a designer moving into data PM, quality becomes part of the user promise
+([31:05 and 34:36, plus 39:36 and 41:58]({{ '/podcasts/data-mesh-architecture-decentralized-data-products/' | relative_url }})).
+
 ## Prove the Transition With Portfolio Cases
 
 Sara recommends data-product case studies as the main portfolio evidence. At
@@ -213,12 +242,23 @@ Sara says it starts with the problem and research, then adds the data. It then
 shows opportunities and prototypes. It also covers outcome, customer follow-up,
 and what could improve.
 
+[Ioannis Mesionis]({{ '/people/ioannismesionis/' | relative_url }}) gives a
+data-product operating template in
+[Building Data Products at Scale]({{ '/podcasts/building-data-products-lead-data-scientist/' | relative_url }}).
+A strong case study can show intake, a Definition of Done, and KPIs. It can
+also show feasibility checks and pilot or A/B-test design. Stakeholder demos
+and post-launch monitoring belong in the same operating model
+([15:23-25:22, 17:37-27:25, and 35:38-41:33]({{ '/podcasts/building-data-products-lead-data-scientist/' | relative_url }})).
+That makes the portfolio look like data-product operating work, not only design
+discovery plus screenshots.
+
 At
 [37:57]({{ '/podcasts/product-designer-to-data-product-manager/' | relative_url }}),
 she says candidates can publish case studies on a personal website, blog, or
 Medium. A PDF or slidedoc can also work, depending on the audience.
 
-Good transition projects include:
+Good transition projects follow the evidence in Sara's case-study advice,
+Moorman's adoption work, and Mesionis's operating model:
 
 - a discovery case study for an internal dashboard or data product
 - a PRD for a data platform feature, with user workflow and adoption measure
@@ -273,6 +313,13 @@ use data. A designer's empathy and communication skill can help there. It only
 works when that empathy is paired with enough data literacy to avoid creating
 another vague request for the data team.
 
+Sara also says data product management can include data science and ML, though
+she hadn't yet reached that stage in her own role
+([1:00:40-1:01:34]({{ '/podcasts/product-designer-to-data-product-manager/' | relative_url }})).
+That connects this transition to
+[ML Product Manager Role]({{ '/wiki/ml-product-manager-role/' | relative_url }})
+when the product surface moves beyond analytics and data engineering.
+
 ## Related Pages
 
 These pages cover adjacent role, product, and analytics topics.
@@ -282,10 +329,13 @@ These pages cover adjacent role, product, and analytics topics.
 - [Data Product Adoption]({{ '/wiki/data-product-adoption/' | relative_url }})
 - [Data Product Manager]({{ '/guides/data-product-manager/' | relative_url }})
 - [Data Product Manager Roadmap]({{ '/roadmaps/data-product-manager-roadmap/' | relative_url }})
+- [ML Product Manager Role]({{ '/wiki/ml-product-manager-role/' | relative_url }})
 - [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }})
 - [A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }})
+- [Experimentation and Causal Inference]({{ '/wiki/experimentation-and-causal-inference/' | relative_url }})
 - [Tracking Plans]({{ '/wiki/tracking-plans/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
+- [Data Mesh]({{ '/wiki/data-mesh/' | relative_url }})
 - [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }})
 - [Career Transitions in Data]({{ '/wiki/career-transitions-in-data/' | relative_url }})
 - [Product Owner vs Product Manager]({{ '/comparisons/product-owner-vs-product-manager/' | relative_url }})
