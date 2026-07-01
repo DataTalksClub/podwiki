@@ -15,10 +15,10 @@ Alexey Grigorev is the founder of DataTalks.Club. In the podcast archive he appe
 
 ## Podcast Contributions
 
-- [Data Team Roles Explained](https://datatalks.club/podcast.html) frames data work as a collaboration between data analysis, data engineering, machine learning, MLOps, product management, and leadership.
-- [CRISP-DM Methodology for Data Science Projects](https://datatalks.club/podcast.html) gives the archive an early reference point for project structure, business understanding, modeling, evaluation, and deployment.
-- [DataTalks.Club Behind the Scenes](https://datatalks.club/podcast.html) and [Building a Sustainable Data Community](https://datatalks.club/podcast.html) document the operational side of growing a technical learning community.
-- [Inside Scaling DataTalks.Club](https://datatalks.club/podcast.html) connects the free Data Engineering, MLOps, and LLM courses to community growth and career transition pathways.
+- [Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }}) frames data work as a collaboration between data analysis, data engineering, machine learning, MLOps, product management, and leadership.
+- [CRISP-DM Methodology for Data Science Projects]({{ '/podcasts/crisp-dm/' | relative_url }}) gives the archive an early reference point for project structure, business understanding, modeling, evaluation, and deployment.
+- [DataTalks.Club Behind the Scenes]({{ '/podcasts/datatalksclub-building-scaling-data-community/' | relative_url }}) and [Building a Sustainable Data Community]({{ '/podcasts/datatalksclub-building-sustainable-data-community-3-years-anniversary/' | relative_url }}) document the operational side of growing a technical learning community.
+- [Inside Scaling DataTalks.Club]({{ '/podcasts/datatalksclub-scaling-and-free-courses/' | relative_url }}) connects the free Data Engineering, MLOps, and LLM courses to community growth and career transition pathways.
 
 ## Concepts Connected
 

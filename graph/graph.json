@@ -1,7 +1,7 @@
 {
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
-    "wikis": 180,
+    "wikis": 181,
     "articles": 42,
     "guides": 19,
     "comparisons": 13,
@@ -10,8 +10,8 @@
     "podcasts": 202,
     "persons": 438,
     "topics": 145,
-    "nodes": 1007,
-    "links": 10372
+    "nodes": 1008,
+    "links": 10418
   },
   "nodes": [
     {
@@ -9120,6 +9120,16 @@
       "url": "/wiki/experimentation-and-causal-inference/",
       "count": 1,
       "search": "Experimentation and Causal Inference How DataTalks.Club podcast guests connect randomized experiments, causal reasoning, metric design, uplift modeling, and product decisions."
+    },
+    {
+      "id": "wiki:finops-for-data-engineers",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "FinOps for Data Engineers",
+      "title": "FinOps for Data Engineers",
+      "url": "/wiki/finops-for-data-engineers/",
+      "count": 1,
+      "search": "FinOps for Data Engineers How data engineers use cloud cost data, tagging, usage models, and platform design to make data infrastructure spend visible and controllable."
     },
     {
       "id": "wiki:founder",
@@ -19463,7 +19473,7 @@
       "source": "person:adrianbrudaru",
       "target": "podcast:freelance-data-engineering-pricing-and-clients",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:adrianbrudaru",
@@ -19475,7 +19485,7 @@
       "source": "person:adrianbrudaru",
       "target": "podcast:from-data-freelancer-to-startup-open-source-products",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:adrianbrudaru",
@@ -19487,7 +19497,7 @@
       "source": "person:adrianbrudaru",
       "target": "podcast:trends-in-modern-data-engineering",
       "kind": "person-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "person:adrianbrudaru",
@@ -19883,7 +19893,7 @@
       "source": "person:alexeygrigorev",
       "target": "podcast:crisp-dm",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:alexeygrigorev",
@@ -19895,7 +19905,7 @@
       "source": "person:alexeygrigorev",
       "target": "podcast:data-team-roles",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:alexeygrigorev",
@@ -19907,7 +19917,7 @@
       "source": "person:alexeygrigorev",
       "target": "podcast:datatalksclub-building-scaling-data-community",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:alexeygrigorev",
@@ -19919,7 +19929,7 @@
       "source": "person:alexeygrigorev",
       "target": "podcast:datatalksclub-building-sustainable-data-community-3-years-anniversary",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:alexeygrigorev",
@@ -19931,7 +19941,7 @@
       "source": "person:alexeygrigorev",
       "target": "podcast:datatalksclub-scaling-and-free-courses",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:alexeygrigorev",
@@ -20219,7 +20229,7 @@
       "source": "person:andreaskretz",
       "target": "podcast:production-ml-pipelines-with-aws-and-kafka",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:andreaskretz",
@@ -20279,7 +20289,7 @@
       "source": "person:andreycheptsov",
       "target": "podcast:ai-infrastructure-hybrid-cloud-on-prem-distributed-training",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:andreycheptsov",
@@ -20591,7 +20601,7 @@
       "source": "person:atitaarora",
       "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
       "kind": "person-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "person:atitaarora",
@@ -20729,7 +20739,7 @@
       "source": "person:barrmoses",
       "target": "podcast:data-quality-data-observability-data-reliability",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:barrmoses",
@@ -20795,7 +20805,7 @@
       "source": "person:bartoszmikulski",
       "target": "podcast:production-ready-ai-engineering",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:bartoszmikulski",
@@ -20945,7 +20955,7 @@
       "source": "person:benwilson",
       "target": "podcast:machine-learning-engineering-production-best-practices",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:benwilson",
@@ -21677,7 +21687,7 @@
       "source": "person:demetriosbrinkmann",
       "target": "podcast:mlops-community-building-and-meetups",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:demetriosbrinkmann",
@@ -21815,7 +21825,7 @@
       "source": "person:elenasamuylova",
       "target": "podcast:building-mlops-startup",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:elenasamuylova",
@@ -22013,7 +22023,7 @@
       "source": "person:elleobrien",
       "target": "podcast:devrel-data-science-open-source-tools",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:elleobrien",
@@ -22127,7 +22137,7 @@
       "source": "person:eugeneyan",
       "target": "podcast:datatalksclub-building-scaling-data-community",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:eugeneyan",
@@ -22139,7 +22149,7 @@
       "source": "person:eugeneyan",
       "target": "podcast:technical-writing-for-data-scientists",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:eugeneyan",
@@ -22337,7 +22347,7 @@
       "source": "person:hugobowneanderson",
       "target": "podcast:devrel-open-source-machine-learning",
       "kind": "person-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "person:hugobowneanderson",
@@ -22349,7 +22359,7 @@
       "source": "person:hugobowneanderson",
       "target": "podcast:practical-llm-engineering-and-rag",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:hugobowneanderson",
@@ -22553,7 +22563,7 @@
       "source": "person:ivanbilan",
       "target": "podcast:nlp-team-hiring-and-production-mlops",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:ivanbilan",
@@ -23261,7 +23271,7 @@
       "source": "person:larsalbertsson",
       "target": "podcast:dataops-principles-and-scalable-data-platforms",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:larsalbertsson",
@@ -23333,7 +23343,7 @@
       "source": "person:lavanyagupta",
       "target": "podcast:applied-llm-research-and-career-growth-in-practice",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:lavanyagupta",
@@ -23705,7 +23715,7 @@
       "source": "person:lukewhipps",
       "target": "podcast:get-data-scientist-job",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:lukewhipps",
@@ -23717,7 +23727,7 @@
       "source": "person:lukewhipps",
       "target": "podcast:machine-learning-data-science-interview-prep",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:lukewhipps",
@@ -24005,7 +24015,7 @@
       "source": "person:mariasukhareva",
       "target": "podcast:generative-ai-chatbots-in-production-security",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:mariasukhareva",
@@ -24281,7 +24291,7 @@
       "source": "person:meryemarik",
       "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:meryemarik",
@@ -24599,7 +24609,7 @@
       "source": "person:nemanjaradojkovic",
       "target": "podcast:lean-mlops-for-startups",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:nemanjaradojkovic",
@@ -24611,7 +24621,7 @@
       "source": "person:nemanjaradojkovic",
       "target": "podcast:mlops-and-ml-engineering-in-finance",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:nemanjaradojkovic",
@@ -25211,7 +25221,7 @@
       "source": "person:ranjithakulkarni",
       "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:ranjithakulkarni",
@@ -26201,7 +26211,7 @@
       "source": "person:tatianagabruseva",
       "target": "podcast:from-academia-to-staff-ai-engineer-interviews-and-career-growth",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:tatianagabruseva",
@@ -26213,7 +26223,7 @@
       "source": "person:tatianagabruseva",
       "target": "podcast:from-physics-to-computer-vision-career-transition",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:tatianagabruseva",
@@ -26225,7 +26235,7 @@
       "source": "person:tatianagabruseva",
       "target": "podcast:s24e01-competitions-beyond-kaggle-leaderboard",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:tatianagabruseva",
@@ -26321,7 +26331,7 @@
       "source": "person:terezaiofciu",
       "target": "podcast:data-leadership-coaching",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:terezaiofciu",
@@ -26333,7 +26343,7 @@
       "source": "person:terezaiofciu",
       "target": "podcast:data-science-job-red-flags-and-mismatched-roles",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:terezaiofciu",
@@ -26675,7 +26685,7 @@
       "source": "person:vincentwarmerdam",
       "target": "podcast:open-source-ml-contributions",
       "kind": "person-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "person:vincentwarmerdam",
@@ -26687,7 +26697,7 @@
       "source": "person:vincentwarmerdam",
       "target": "podcast:open-source-ml-tools-strategy-and-business-models",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:vincentwarmerdam",
@@ -26969,7 +26979,7 @@
       "source": "person:zhamakdehghani",
       "target": "podcast:data-mesh-architecture-decentralized-data-products",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:zhamakdehghani",
@@ -43671,6 +43681,12 @@
     },
     {
       "source": "wiki:data-engineer-role",
+      "target": "wiki:finops-for-data-engineers",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-engineer-role",
       "target": "wiki:machine-learning",
       "kind": "wiki-link",
       "weight": 2
@@ -44271,6 +44287,12 @@
     },
     {
       "source": "wiki:data-engineering",
+      "target": "wiki:finops-for-data-engineers",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-engineering",
       "target": "wiki:mlops",
       "kind": "wiki-related",
       "weight": 3
@@ -44760,6 +44782,12 @@
       "target": "wiki:elt",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:data-engineering-platforms",
+      "target": "wiki:finops-for-data-engineers",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:data-engineering-platforms",
@@ -45360,6 +45388,12 @@
       "target": "wiki:dataops",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-engineering-roadmap",
+      "target": "wiki:finops-for-data-engineers",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:data-engineering-roadmap",
@@ -49785,6 +49819,12 @@
     },
     {
       "source": "wiki:data-warehouse",
+      "target": "wiki:finops-for-data-engineers",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-warehouse",
       "target": "wiki:modern-data-stack",
       "kind": "wiki-link",
       "weight": 4
@@ -49968,6 +50008,12 @@
       "target": "wiki:delta-lake",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:data-warehouse-vs-data-lakehouse",
+      "target": "wiki:finops-for-data-engineers",
+      "kind": "wiki-link",
+      "weight": 6
     },
     {
       "source": "wiki:data-warehouse-vs-data-lakehouse",
@@ -54110,6 +54156,234 @@
       "weight": 2
     },
     {
+      "source": "wiki:finops-for-data-engineers",
+      "target": "article:comparison:dataops-vs-data-engineering",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:finops-for-data-engineers",
+      "target": "article:comparison:mlops-vs-dataops",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:finops-for-data-engineers",
+      "target": "person:andreycheptsov",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:finops-for-data-engineers",
+      "target": "person:eddyzulkifly",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:finops-for-data-engineers",
+      "target": "person:slawomirtulski",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:finops-for-data-engineers",
+      "target": "podcast:ai-infrastructure-hybrid-cloud-on-prem-distributed-training",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:finops-for-data-engineers",
+      "target": "podcast:finops-for-data-engineers",
+      "kind": "wiki-link",
+      "weight": 34
+    },
+    {
+      "source": "wiki:finops-for-data-engineers",
+      "target": "podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:finops-for-data-engineers",
+      "target": "wiki:ai-infrastructure",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:finops-for-data-engineers",
+      "target": "wiki:analytics-engineering",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:finops-for-data-engineers",
+      "target": "wiki:data-engineer-role",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:finops-for-data-engineers",
+      "target": "wiki:data-engineer-role",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:finops-for-data-engineers",
+      "target": "wiki:data-engineering",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:finops-for-data-engineers",
+      "target": "wiki:data-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:finops-for-data-engineers",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:finops-for-data-engineers",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:finops-for-data-engineers",
+      "target": "wiki:data-engineering-tools",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:finops-for-data-engineers",
+      "target": "wiki:data-engineering-tools",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:finops-for-data-engineers",
+      "target": "wiki:data-governance",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:finops-for-data-engineers",
+      "target": "wiki:data-governance",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:finops-for-data-engineers",
+      "target": "wiki:data-product-management",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:finops-for-data-engineers",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:finops-for-data-engineers",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:finops-for-data-engineers",
+      "target": "wiki:data-warehouse",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:finops-for-data-engineers",
+      "target": "wiki:data-warehouse",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:finops-for-data-engineers",
+      "target": "wiki:data-warehouse-vs-data-lakehouse",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:finops-for-data-engineers",
+      "target": "wiki:dataops",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:finops-for-data-engineers",
+      "target": "wiki:dataops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:finops-for-data-engineers",
+      "target": "wiki:leadership",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:finops-for-data-engineers",
+      "target": "wiki:leadership",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:finops-for-data-engineers",
+      "target": "wiki:metrics",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:finops-for-data-engineers",
+      "target": "wiki:metrics",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:finops-for-data-engineers",
+      "target": "wiki:modern-data-stack",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:finops-for-data-engineers",
+      "target": "wiki:modern-data-stack",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:finops-for-data-engineers",
+      "target": "wiki:orchestration",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:finops-for-data-engineers",
+      "target": "wiki:orchestration",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:finops-for-data-engineers",
+      "target": "wiki:platform-engineering",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:finops-for-data-engineers",
+      "target": "wiki:platform-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
       "source": "wiki:founder",
       "target": "article:guide:machine-learning-for-startups",
       "kind": "wiki-link",
@@ -56616,6 +56890,12 @@
       "target": "wiki:experimentation",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:leadership",
+      "target": "wiki:finops-for-data-engineers",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:leadership",
@@ -62040,6 +62320,12 @@
       "target": "wiki:etl-vs-elt",
       "kind": "wiki-link",
       "weight": 4
+    },
+    {
+      "source": "wiki:modern-data-stack",
+      "target": "wiki:finops-for-data-engineers",
+      "kind": "wiki-link",
+      "weight": 6
     },
     {
       "source": "wiki:modern-data-stack",

@@ -125,8 +125,9 @@ and discuss implementation choices when needed (about 7:27, 8:54, 13:15, and
 
 That makes data engineering management an operating role. The manager clarifies
 ownership for orchestration, warehouse work, and streaming. Schema changes and
-governance need owners too, as do cloud cost, data contracts, and incident
-response.
+governance need owners too, as do
+[cloud cost]({{ '/wiki/finops-for-data-engineers/' | relative_url }}), data
+contracts, and incident response.
 
 Managers also decide when a one-off pipeline request should become a reusable
 platform path. That synthesis connects Jain's engineering leadership to
@@ -218,7 +219,8 @@ and 20:57). A data engineering manager should therefore hire for the missing
 capability rather than a vague title.
 
 The hiring brief should name the actual gap. Platform-heavy teams need storage
-and orchestration while access, cloud infrastructure, cost, and standards
+and orchestration while access, cloud infrastructure,
+[cost]({{ '/wiki/finops-for-data-engineers/' | relative_url }}), and standards
 belong in the same brief. Product-facing teams need domain pipelines, data
 products, event definitions, and stakeholder collaboration.
 

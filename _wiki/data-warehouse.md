@@ -62,6 +62,8 @@ Use these archive paths to place the warehouse in context:
   for freshness, schema, lineage, and trust.
 - [Data Governance]({{ '/wiki/data-governance/' | relative_url }}) for
   ownership, access, and policy.
+- [FinOps for Data Engineers]({{ '/wiki/finops-for-data-engineers/' | relative_url }})
+  for warehouse cost ownership, tagging, reservations, and spend reporting.
 - [Data Product Adoption]({{ '/wiki/data-product-adoption/' | relative_url }})
   and [Reverse ETL]({{ '/wiki/reverse-etl/' | relative_url }}) for what happens
   after modeled warehouse data reaches dashboards or business tools.
@@ -216,7 +218,8 @@ into reusable structure, not just runnable queries
 
 ## Cost, Governance, and Reliability
 
-Warehouses concentrate compute and storage, so teams need cost discipline.
+Warehouses concentrate compute and storage, so teams need
+[cost discipline]({{ '/wiki/finops-for-data-engineers/' | relative_url }}).
 [Eddy Zulkifly]({{ '/people/eddyzulkifly/' | relative_url }}) frames BigQuery
 and dbt as parts of a digital warehouse. Orchestration, monitoring, and tests
 belong there too. He then turns cloud cost into engineering work.

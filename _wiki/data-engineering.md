@@ -291,7 +291,9 @@ managed systems may fit many businesses better
 ## Cost, Governance, and Tool Choice
 
 Modern data engineering includes cost and governance. Cloud warehouses and
-lakehouse stacks can become expensive shared infrastructure.
+lakehouse stacks can become expensive shared infrastructure. Use
+[FinOps for Data Engineers]({{ '/wiki/finops-for-data-engineers/' | relative_url }})
+for cloud-cost visibility, tagging, capacity planning, and accountability.
 [Eddy Zulkifly's]({{ '/people/eddyzulkifly/' | relative_url }}) FinOps
 episode frames data platforms as digital warehouses. Teams need cost tagging,
 capacity planning, and spend accountability
@@ -366,6 +368,7 @@ Use these pages for adjacent topics and deeper implementation detail.
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
 - [Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }})
 - [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
+- [FinOps for Data Engineers]({{ '/wiki/finops-for-data-engineers/' | relative_url }})
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})
 - [DataOps vs Data Engineering]({{ '/comparisons/dataops-vs-data-engineering/' | relative_url }})
 - [MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }})

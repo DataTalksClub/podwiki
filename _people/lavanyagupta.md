@@ -15,7 +15,7 @@ Lavanya Gupta is a Carnegie Mellon Language Technologies Institute alum and Seni
 
 ## Podcast Contributions
 
-- [Applied LLM Research and Career Growth](https://datatalks.club/podcast.html) gives the archive evidence on long-context LLM evaluation, rapid prototyping, industry research publication, and using communication to advance an applied research career.
+- [Applied LLM Research and Career Growth]({{ '/podcasts/applied-llm-research-and-career-growth-in-practice/' | relative_url }}) gives the archive evidence on long-context LLM evaluation, rapid prototyping, industry research publication, and using communication to advance an applied research career.
 
 ## Concepts Connected
 

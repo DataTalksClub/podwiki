@@ -15,8 +15,8 @@ Eugene Yan works at the intersection of machine learning and product, with sourc
 
 ## Podcast Contributions
 
-- [Master Technical Writing](https://datatalks.club/podcast.html) contributes a concrete writing workflow for data practitioners who want to clarify their work and build professional leverage.
-- [DataTalks.Club Behind the Scenes](https://datatalks.club/podcast.html) includes Eugene in the community-building evidence around scaling learning communities and maintaining durable technical education.
+- [Master Technical Writing]({{ '/podcasts/technical-writing-for-data-scientists/' | relative_url }}) contributes a concrete writing workflow for data practitioners who want to clarify their work and build professional leverage.
+- [DataTalks.Club Behind the Scenes]({{ '/podcasts/datatalksclub-building-scaling-data-community/' | relative_url }}) includes Eugene in the community-building evidence around scaling learning communities and maintaining durable technical education.
 
 ## Concepts Connected
 

@@ -275,11 +275,14 @@ main design question.
 
 ## Cost, Ownership, and Maturity
 
-Platform cost is a design concern, not a finance afterthought. [Eddy
-Zulkifly]({{ '/people/eddyzulkifly/' | relative_url }}) compares data platforms
-to digital warehouses. He connects the modern stack to ELT and dbt. BigQuery
-and orchestration sit in that same discussion. He then links platform work to
-monitoring, tests, and cost tagging
+Platform cost is a design concern, not a finance afterthought. Use
+[FinOps for Data Engineers]({{ '/wiki/finops-for-data-engineers/' | relative_url }})
+for the cloud-cost, tagging, reporting, and capacity-planning layer.
+
+[Eddy Zulkifly]({{ '/people/eddyzulkifly/' | relative_url }}) compares data
+platforms to digital warehouses. He connects the modern stack to ELT, dbt,
+BigQuery, and orchestration. He then links platform work to monitoring, tests,
+and cost tagging
 ([FinOps for Data Engineers]({{ '/podcasts/finops-for-data-engineers/' | relative_url }}),
 21:57-48:01).
 
@@ -322,6 +325,7 @@ Use these pages for adjacent platform, governance, and delivery topics.
 - [Self-Service Data Platforms]({{ '/wiki/self-service-data-platforms/' | relative_url }})
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})
 - [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
+- [FinOps for Data Engineers]({{ '/wiki/finops-for-data-engineers/' | relative_url }})
 - [Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }})
 - [Data Products]({{ '/wiki/data-products/' | relative_url }})
 - [Data Product Adoption]({{ '/wiki/data-product-adoption/' | relative_url }})

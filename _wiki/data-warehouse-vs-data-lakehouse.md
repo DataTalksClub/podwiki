@@ -258,6 +258,10 @@ catalog. Raw storage and multiple access paths need control too.
 ## Cost and Lock-In
 
 Warehouse convenience can hide cost as query volume and dashboard use grow.
+[FinOps for Data Engineers]({{ '/wiki/finops-for-data-engineers/' | relative_url }})
+is the canonical page for the cost-visibility and accountability side of that
+decision.
+
 Reverse ETL or storage growth can add more spend. Zulkifly treats cloud cost
 optimization as part of data engineering work. His examples include
 reservations and storage tiers.
@@ -301,7 +305,8 @@ trend. His requirements-led tool selection does the same
 If BI and dbt models already serve the business, the better move may be
 improving the warehouse path. Warehouse permissions and reverse ETL belong in
 that improvement path. Cost controls and documentation belong there too.
-Orchestration and FinOps do as well
+Orchestration and
+[FinOps]({{ '/wiki/finops-for-data-engineers/' | relative_url }}) do as well
 ([ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
 30:59-43:02 and
 [FinOps for Data Engineers]({{ '/podcasts/finops-for-data-engineers/' | relative_url }}),
@@ -355,6 +360,7 @@ around the comparison.
 - [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
 - [Data Warehouse]({{ '/wiki/data-warehouse/' | relative_url }})
+- [FinOps for Data Engineers]({{ '/wiki/finops-for-data-engineers/' | relative_url }})
 - [Data Lake]({{ '/wiki/data-lake/' | relative_url }})
 - [Apache Iceberg]({{ '/wiki/apache-iceberg/' | relative_url }})
 - [Delta Lake]({{ '/wiki/delta-lake/' | relative_url }})

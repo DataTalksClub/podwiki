@@ -44,11 +44,15 @@ roadmap point from the modern-stack side. Beginners should learn fundamentals
 and gather requirements. They should build projects before surveying every
 orchestrator or table format
 ([Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }})
-41:06-44:42). [Slawomir Tulski]({{ '/people/slawomirtulski/' | relative_url }})
-adds the senior constraint. Data engineers need cost-aware tool judgment instead
-of defaulting to real-time or cloud-heavy systems
+41:06-44:42).
+
+[Slawomir Tulski]({{ '/people/slawomirtulski/' | relative_url }}) adds the
+senior constraint. Data engineers need cost-aware tool judgment instead of
+defaulting to real-time or cloud-heavy systems
 ([Data Engineer Career in 2026]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }})
-25:33-38:01).
+25:33-38:01). Use
+[FinOps for Data Engineers]({{ '/wiki/finops-for-data-engineers/' | relative_url }})
+when the roadmap moves from learning tools to operating shared cloud spend.
 
 ## Common Definition
 
@@ -125,8 +129,10 @@ to domain models, data products, and stakeholders
 11:54-17:29).
 
 That split changes the roadmap. For a platform role, go deeper into cloud and
-orchestration. Add cost and reliability. For product data engineering, focus on
-modeling and requirements. Pair that work with
+orchestration. Add
+[cost]({{ '/wiki/finops-for-data-engineers/' | relative_url }}) and
+reliability. For product data engineering, focus on modeling and requirements.
+Pair that work with
 [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
 and data product ownership.
 

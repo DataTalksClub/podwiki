@@ -25,7 +25,7 @@ builders to check, log, evaluate, and ship.
 
 These episodes connect ecosystem work with hands-on AI engineering:
 
-- [DevRel Role for Machine Learning](https://datatalks.club/podcast.html)
+- [DevRel Role for Machine Learning]({{ '/podcasts/devrel-open-source-machine-learning/' | relative_url }})
   gives the archive a concrete model for developer relations in ML tooling.
   Hugo describes DevRel through education, documentation, community work,
   and dogfooding. He also calls it a "wisdom layer" around Metaflow and
@@ -34,7 +34,7 @@ These episodes connect ecosystem work with hands-on AI engineering:
   distinguishes a company helping a project from a company owning every part of
   a community. He also explains why technical fluency, writing, and community
   building matter together.
-- [Practical LLM Engineering and RAG](https://datatalks.club/podcast.html)
+- [Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }})
   adds an implementation-oriented view of LLM work. He covers structured
   prompts, transcript automation, generator-evaluator checks, and evaluation
   sets. He also covers failure analysis, logs, and traces. The episode then
@@ -75,7 +75,7 @@ Use these existing hubs for follow-up topic work:
 Use these sources for verification:
 
 - Canonical podcast index:
-  [DataTalks.Club Podcast](https://datatalks.club/podcast.html)
+  [DataTalks.Club Podcast]({{ '/podcasts/' | relative_url }})
 - Person source: `../datatalksclub.github.io/_people/hugobowneanderson.md`
 - Podcast sources:
   `../datatalksclub.github.io/_podcast/devrel-open-source-machine-learning.md`,

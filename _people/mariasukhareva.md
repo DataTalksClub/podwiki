@@ -15,7 +15,7 @@ Maria Sukhareva is a principal key expert in Artificial Intelligence at Siemens.
 
 ## Podcast Contributions
 
-- [Hardening Generative AI Chatbots](https://datatalks.club/podcast.html) contributes production security guidance for prompt injection, data exfiltration, hallucination reduction, defenses, and detection.
+- [Hardening Generative AI Chatbots]({{ '/podcasts/generative-ai-chatbots-in-production-security/' | relative_url }}) contributes production security guidance for prompt injection, data exfiltration, hallucination reduction, defenses, and detection.
 
 ## Concepts Connected
 

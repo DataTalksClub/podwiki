@@ -189,7 +189,8 @@ awareness for teams that work on large distributed systems.
 Cloud and infrastructure knowledge matter because data engineers operate
 systems, not only queries. Jeff's job-prep episode names Docker, Airflow, and
 warehouses at 1:20. Roksolana's 36:07 section adds Docker, cloud services, and
-introductory Kubernetes. Slawomir's 25:33 section adds cost-aware engineering,
+introductory Kubernetes. Slawomir's 25:33 section adds
+[cost-aware engineering]({{ '/wiki/finops-for-data-engineers/' | relative_url }}),
 which becomes important when platform teams scale shared compute.
 
 Data quality and documentation aren't optional extras. At 39:09, Roksolana

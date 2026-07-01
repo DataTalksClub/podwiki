@@ -26,7 +26,7 @@ SLAs, and false-positive reduction.
 
 This episode defines the data reliability vocabulary used by later pages:
 
-- [Data Observability Explained](https://datatalks.club/podcast.html) defines
+- [Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }}) defines
   data downtime as a reliability problem for analytics, ML, and data products.
   Barr connects it to the moment when a dashboard, board report, model, or
   downstream workflow silently depends on bad data.
@@ -76,7 +76,7 @@ Use these existing hubs for follow-up topic work:
 Use these sources for verification:
 
 - Canonical podcast index:
-  [DataTalks.Club Podcast](https://datatalks.club/podcast.html)
+  [DataTalks.Club Podcast]({{ '/podcasts/' | relative_url }})
 - Person source: `../datatalksclub.github.io/_people/barrmoses.md`
 - Podcast source:
   `../datatalksclub.github.io/_podcast/data-quality-data-observability-data-reliability.md`

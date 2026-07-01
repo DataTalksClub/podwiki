@@ -15,8 +15,8 @@ Nemanja Radojkovic's source bio describes a path from electrical engineering int
 
 ## Podcast Contributions
 
-- [MLOps in Finance](https://datatalks.club/podcast.html) contributes regulated deployment, CI/CD, monitoring, and model governance lessons.
-- [Lean MLOps for Startups](https://datatalks.club/podcast.html) contrasts that with a lighter SaaS-first startup stack, MVP constraints, and vendor lock-in tradeoffs.
+- [MLOps in Finance]({{ '/podcasts/mlops-and-ml-engineering-in-finance/' | relative_url }}) contributes regulated deployment, CI/CD, monitoring, and model governance lessons.
+- [Lean MLOps for Startups]({{ '/podcasts/lean-mlops-for-startups/' | relative_url }}) contrasts that with a lighter SaaS-first startup stack, MVP constraints, and vendor lock-in tradeoffs.
 
 ## Concepts Connected
 

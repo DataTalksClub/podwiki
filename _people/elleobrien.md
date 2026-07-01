@@ -15,7 +15,7 @@ Elle O'Brien is a data scientist at Iterative and a lecturer at the University o
 
 ## Podcast Contributions
 
-- [DevRel for Data Science](https://datatalks.club/podcast.html) connects developer relations with data science practice: community growth, content, reproducibility, open-source tools, and career development through public technical work.
+- [DevRel for Data Science]({{ '/podcasts/devrel-data-science-open-source-tools/' | relative_url }}) connects developer relations with data science practice: community growth, content, reproducibility, open-source tools, and career development through public technical work.
 
 ## Concepts Connected
 

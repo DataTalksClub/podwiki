@@ -15,7 +15,7 @@ Ivan Bilan is an Engineering Manager at Personio working on Identity and Access 
 
 ## Podcast Contributions
 
-- [Lead NLP Teams](https://datatalks.club/podcast.html) adds a management and production perspective to the NLP archive: hiring, team structure, production pipelines, MLOps practices, and tradeoffs around LLM use.
+- [Lead NLP Teams]({{ '/podcasts/nlp-team-hiring-and-production-mlops/' | relative_url }}) adds a management and production perspective to the NLP archive: hiring, team structure, production pipelines, MLOps practices, and tradeoffs around LLM use.
 
 ## Concepts Connected
 

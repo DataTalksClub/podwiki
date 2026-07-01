@@ -15,9 +15,9 @@ Tatiana Gabruseva is a Computer Vision and Deep Learning Engineer and Kaggle Com
 
 ## Podcast Contributions
 
-- [Switch to Computer Vision and Deep Learning](https://datatalks.club/podcast.html) connects physics, Kaggle projects, mentorship, and interview preparation.
-- [Competitions: Beyond the Kaggle Leaderboard](https://datatalks.club/podcast.html) extends the competition-learning thread beyond rankings.
-- [Transitioning from Academia to Industry as a Staff AI Engineer](https://datatalks.club/podcast.html) contributes evidence on staff-level interviews, onboarding, MLOps, and career growth.
+- [Switch to Computer Vision and Deep Learning]({{ '/podcasts/from-physics-to-computer-vision-career-transition/' | relative_url }}) connects physics, Kaggle projects, mentorship, and interview preparation.
+- [Competitions: Beyond the Kaggle Leaderboard]({{ '/podcasts/s24e01-competitions-beyond-kaggle-leaderboard/' | relative_url }}) extends the competition-learning thread beyond rankings.
+- [Transitioning from Academia to Industry as a Staff AI Engineer]({{ '/podcasts/from-academia-to-staff-ai-engineer-interviews-and-career-growth/' | relative_url }}) contributes evidence on staff-level interviews, onboarding, MLOps, and career growth.
 
 ## Concepts Connected
 

@@ -23,7 +23,7 @@ ML projects stay useful and sustainable".
 
 These episodes move from first contribution mechanics to project stewardship:
 
-- [Contribute to Open Source ML](https://datatalks.club/podcast.html) is a
+- [Contribute to Open Source ML]({{ '/podcasts/open-source-ml-contributions/' | relative_url }}) is a
   tactical guide for new contributors. Vincent covers project choice and
   reproducible issues, then moves to documentation, tests, CI, and packaging.
   The episode treats pre-commit hooks, contribution guides, and premature PyPI
@@ -31,7 +31,7 @@ These episodes move from first contribution mechanics to project stewardship:
 - The same episode gives concrete examples from evol and scikit-lego. It also
   mentions clumper, memo, whatlies, and Rasa as examples of small tools growing
   from curiosity or repeated work.
-- [Open Source ML Tools](https://datatalks.club/podcast.html) adds the
+- [Open Source ML Tools]({{ '/podcasts/open-source-ml-tools-strategy-and-business-models/' | relative_url }}) adds the
   maintainer and institution layer. Vincent discusses scikit-learn governance
   and NumFOCUS, compares plugins with core features, then covers maintainer
   transitions and volunteer motivation. He also discusses hiring signals, Calm
@@ -73,7 +73,7 @@ Use these existing hubs for follow-up topic work:
 Use these sources for verification:
 
 - Canonical podcast index:
-  [DataTalks.Club Podcast](https://datatalks.club/podcast.html)
+  [DataTalks.Club Podcast]({{ '/podcasts/' | relative_url }})
 - Person source: `../datatalksclub.github.io/_people/vincentwarmerdam.md`
 - Podcast sources:
   `../datatalksclub.github.io/_podcast/open-source-ml-contributions.md`,

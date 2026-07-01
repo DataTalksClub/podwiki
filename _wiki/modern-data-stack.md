@@ -54,7 +54,9 @@ cost-aware engineering version in
 [FinOps for Data Engineers]({{ '/podcasts/finops-for-data-engineers/' | relative_url }}).
 At 21:57-24:34, he frames ELT, dbt, and BigQuery as parts of a digital
 warehouse. He also includes orchestration, monitoring, and tests. Teams have
-to run all of it economically.
+to run all of it economically. Use
+[FinOps for Data Engineers]({{ '/wiki/finops-for-data-engineers/' | relative_url }})
+for the cloud-cost layer.
 
 This makes the modern data stack adjacent to
 [data engineering platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}).
@@ -234,7 +236,12 @@ match their consumers. See
 [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 for the operating layer.
 
-Cost is another operating constraint. In
+Cost is another operating constraint.
+[FinOps for Data Engineers]({{ '/wiki/finops-for-data-engineers/' | relative_url }})
+connects that constraint to cloud usage data, tagging, cost models, and
+accountability.
+
+In
 [FinOps for Data Engineers]({{ '/podcasts/finops-for-data-engineers/' | relative_url }}),
 Zulkifly frames cloud spend as part of data engineering, not only finance. At
 31:40, he introduces FinOps for SaaS platforms. At 36:11-44:41, he covers cost
@@ -257,6 +264,7 @@ These pages cover adjacent tools, practices, and tradeoffs:
 - [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
 - [Data Warehouse]({{ '/wiki/data-warehouse/' | relative_url }})
 - [Data Warehouse vs Data Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }})
+- [FinOps for Data Engineers]({{ '/wiki/finops-for-data-engineers/' | relative_url }})
 - [Orchestration]({{ '/wiki/orchestration/' | relative_url }})
 - [Reverse ETL]({{ '/wiki/reverse-etl/' | relative_url }})
 - [Data Activation]({{ '/wiki/data-activation/' | relative_url }})

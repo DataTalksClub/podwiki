@@ -74,7 +74,7 @@ Use these existing hubs for follow-up topic work:
 Use these sources for verification:
 
 - Canonical podcast index:
-  [DataTalks.Club Podcast](https://datatalks.club/podcast.html)
+  [DataTalks.Club Podcast]({{ '/podcasts/' | relative_url }})
 - Person source: `../datatalksclub.github.io/_people/christophmolnar.md`
 - Podcast source:
   `../datatalksclub.github.io/_podcast/interpretable-machine-learning.md`

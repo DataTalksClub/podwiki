@@ -15,7 +15,7 @@ Andreas Kretz describes himself in the source bio as a data engineer and "plumbe
 
 ## Podcast Contributions
 
-- [From Notebooks to Production](https://datatalks.club/podcast.html) contributes data pipeline and deployment guidance for production ML using AWS, Kafka, streaming, and platform engineering practices.
+- [From Notebooks to Production]({{ '/podcasts/production-ml-pipelines-with-aws-and-kafka/' | relative_url }}) contributes data pipeline and deployment guidance for production ML using AWS, Kafka, streaming, and platform engineering practices.
 
 ## Concepts Connected
 

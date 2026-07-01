@@ -13,7 +13,9 @@ guests and contributors.
 - Podcast participation comes from `../datatalksclub.github.io/_podcast/<episode_slug>.md` frontmatter.
 - Do not copy full transcripts into these pages.
 - Use podcast frontmatter and transcript snippets only for compact synthesis and source-grounded links.
-- Public podcast links should point to `https://datatalks.club/podcast.html`.
+- Public podcast links should point to local podcast pages, such as
+  `{{ '/podcasts/<episode_slug>/' | relative_url }}`. Local podcast pages link
+  to the original DataTalks.Club episode.
 
 ## Page Format
 
@@ -39,8 +41,7 @@ Use these body sections:
 
 - `## Podcast Context`: short bio/context tied to the podcast appearance.
 - `## Podcast Contributions`: episode-level contribution summary with links to
-  podcast summaries when useful and to the canonical DataTalks.Club podcast
-  index for source episodes.
+  local podcast summary pages when useful.
 - `## Reusable Claims and Examples`: claims, distinctions, examples, or
   decision rules future agents can reuse.
 - `## Concepts Connected`: concept links using `/wiki/<slug>/` paths when the

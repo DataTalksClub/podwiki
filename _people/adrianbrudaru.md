@@ -25,16 +25,16 @@ messy ingestion work into reusable tools, businesses, and career options.
 These episodes show how Adrian connects career choices, tooling, and platform
 tradeoffs:
 
-- [Freelance Data Engineering Playbook](https://datatalks.club/podcast.html)
+- [Freelance Data Engineering Playbook]({{ '/podcasts/freelance-data-engineering-pricing-and-clients/' | relative_url }})
   frames freelancing as a business design problem, not only a rate card. Adrian
   discusses occupancy, hourly pricing, client acquisition, and recruiters
   versus direct contracts. He also covers scope documents, spikes, repeat work,
   and reusable portfolio assets.
-- [From Data Freelancer to Startup](https://datatalks.club/podcast.html)
+- [From Data Freelancer to Startup]({{ '/podcasts/from-data-freelancer-to-startup-open-source-products/' | relative_url }})
   explains why he chose product work over agency growth. The episode connects
   consulting pain to an open-source data product: DLT as a Python-first library
   for declarative JSON-to-relational pipeline work.
-- [Modern Data Engineering](https://datatalks.club/podcast.html) updates the
+- [Modern Data Engineering]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}) updates the
   archive with 2025-era platform topics. He covers table formats and metadata
   catalogs, then compares orchestration and streaming. He also roots
   AI-assisted data work in requirements-led tool selection.
@@ -78,7 +78,7 @@ Use these existing hubs for follow-up topic work:
 Use these sources for verification:
 
 - Canonical podcast index:
-  [DataTalks.Club Podcast](https://datatalks.club/podcast.html)
+  [DataTalks.Club Podcast]({{ '/podcasts/' | relative_url }})
 - Person source: `../datatalksclub.github.io/_people/adrianbrudaru.md`
 - Podcast sources:
   `../datatalksclub.github.io/_podcast/freelance-data-engineering-pricing-and-clients.md`,

@@ -24,7 +24,7 @@ prototype. It also helps explain why a simpler model might be the right design.
 
 This episode gives production ML teams a simplicity-first operating model:
 
-- [Practical Machine Learning Engineering for Production](https://datatalks.club/podcast.html)
+- [Practical Machine Learning Engineering for Production]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }})
   argues that teams should start from the internal customer's problem and the
   maintainability burden, not from the most advanced model or library.
 - Ben gives concrete code-quality guidance for data science code: break "god
@@ -72,7 +72,7 @@ Use these existing hubs for follow-up topic work:
 Use these sources for verification:
 
 - Canonical podcast index:
-  [DataTalks.Club Podcast](https://datatalks.club/podcast.html)
+  [DataTalks.Club Podcast]({{ '/podcasts/' | relative_url }})
 - Person source: `../datatalksclub.github.io/_people/benwilson.md`
 - Podcast source:
   `../datatalksclub.github.io/_podcast/machine-learning-engineering-production-best-practices.md`

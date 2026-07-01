@@ -15,7 +15,7 @@ Lars Albertsson is the founder of Scling, a data engineering startup in Stockhol
 
 ## Podcast Contributions
 
-- [DataOps 101 for Scaling Data Platforms](https://datatalks.club/podcast.html) gives the archive a core DataOps reference around immutable pipelines, reproducibility, self-service lakehouse patterns, and scalable data platforms.
+- [DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}) gives the archive a core DataOps reference around immutable pipelines, reproducibility, self-service lakehouse patterns, and scalable data platforms.
 
 ## Concepts Connected
 

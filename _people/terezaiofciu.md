@@ -15,8 +15,8 @@ Tereza Iofciu is an experienced data practitioner whose source bio spans data sc
 
 ## Podcast Contributions
 
-- [Data Leadership Coaching](https://datatalks.club/podcast.html) focuses on moving into management, stakeholder communication, coaching, and team leadership.
-- [Data Science Jobs](https://datatalks.club/podcast.html) helps candidates identify misleading job titles, role mismatches, and hiring red flags.
+- [Data Leadership Coaching]({{ '/podcasts/data-leadership-coaching/' | relative_url }}) focuses on moving into management, stakeholder communication, coaching, and team leadership.
+- [Data Science Jobs]({{ '/podcasts/data-science-job-red-flags-and-mismatched-roles/' | relative_url }}) helps candidates identify misleading job titles, role mismatches, and hiring red flags.
 
 ## Concepts Connected
 

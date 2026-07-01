@@ -15,7 +15,7 @@ Ranjitha Gurunath Kulkarni is a Staff Machine Learning Engineer at NeuBird.ai. H
 
 ## Podcast Contributions
 
-- [Building Agentic AI Systems](https://datatalks.club/podcast.html) contributes a practical view of agent engineering: tool use, retrieval, evaluation, reliability, and the constraints that determine whether an autonomous workflow is production-ready.
+- [Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}) contributes a practical view of agent engineering: tool use, retrieval, evaluation, reliability, and the constraints that determine whether an autonomous workflow is production-ready.
 
 ## Concepts Connected
 

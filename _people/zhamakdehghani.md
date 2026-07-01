@@ -15,7 +15,7 @@ Zhamak Dehghani is a director of technology at Thoughtworks focused on distribut
 
 ## Podcast Contributions
 
-- [Data Mesh Implementation](https://datatalks.club/podcast.html) adds the archive's data mesh reference: decentralized data products, data contracts, domain ownership, and federated governance.
+- [Data Mesh Implementation]({{ '/podcasts/data-mesh-architecture-decentralized-data-products/' | relative_url }}) adds the archive's data mesh reference: decentralized data products, data contracts, domain ownership, and federated governance.
 
 ## Concepts Connected
 

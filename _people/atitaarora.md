@@ -24,7 +24,7 @@ quality problem, not as a generic LLM wrapper.
 
 This episode connects classical search practice to LLM-era retrieval:
 
-- [Modern Search Systems](https://datatalks.club/podcast.html) starts from
+- [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}) starts from
   Solr and Lucene before moving into Semantic Web, NLP, and vector or LLM
   systems.
 - Atita explains the migration decision teams face. They can add vectors to an
@@ -74,7 +74,7 @@ Use these existing hubs for follow-up topic work:
 Use these sources for verification:
 
 - Canonical podcast index:
-  [DataTalks.Club Podcast](https://datatalks.club/podcast.html)
+  [DataTalks.Club Podcast]({{ '/podcasts/' | relative_url }})
 - Person source: `../datatalksclub.github.io/_people/atitaarora.md`
 - Podcast source:
   `../datatalksclub.github.io/_podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.md`
