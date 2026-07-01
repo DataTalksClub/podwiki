@@ -1,7 +1,7 @@
 {
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
-    "wikis": 176,
+    "wikis": 175,
     "articles": 49,
     "guides": 19,
     "comparisons": 19,
@@ -10,8 +10,8 @@
     "podcasts": 202,
     "persons": 438,
     "topics": 145,
-    "nodes": 1010,
-    "links": 10707
+    "nodes": 1009,
+    "links": 10653
   },
   "nodes": [
     {
@@ -110,7 +110,7 @@
       "title": "Data Engineer vs Data Scientist",
       "url": "/comparisons/data-engineer-vs-data-scientist/",
       "count": 1,
-      "search": "Data Engineer vs Data Scientist A podcast grounded comparison for deciding whether a team needs data engineering ownership, data science ownership, or both, and how the two roles work together.",
+      "search": "Data Engineer vs Data Scientist A comparison for deciding whether a team needs data engineering ownership, data science ownership, or both, and how the two roles work together.",
       "keyword": "data engineer vs data scientist"
     },
     {
@@ -8689,16 +8689,6 @@
       "search": "Data Engineer Role Archive backed guide to what data engineers do, where the role starts and ends, and how DataTalks.Club guests describe data engineering work in practice."
     },
     {
-      "id": "wiki:data-engineer-vs-data-scientist",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "Data Engineer vs Data Scientist",
-      "title": "Data Engineer vs Data Scientist",
-      "url": "/wiki/data-engineer-vs-data-scientist/",
-      "count": 1,
-      "search": "Data Engineer vs Data Scientist A podcast backed comparison of the data engineer and data scientist role boundary: data paths, modeling, feature work, production handoffs, hiring signals, and team ownership."
-    },
-    {
       "id": "wiki:data-engineering",
       "type": "wiki",
       "collection": "wiki",
@@ -10677,21 +10667,9 @@
     },
     {
       "source": "article:comparison:data-engineer-vs-data-scientist",
-      "target": "wiki:data-engineer-vs-data-scientist",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:comparison:data-engineer-vs-data-scientist",
-      "target": "wiki:data-engineer-vs-data-scientist",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:comparison:data-engineer-vs-data-scientist",
       "target": "wiki:data-engineering",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:comparison:data-engineer-vs-data-scientist",
@@ -10703,7 +10681,7 @@
       "source": "article:comparison:data-engineer-vs-data-scientist",
       "target": "wiki:data-science",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:comparison:data-engineer-vs-data-scientist",
@@ -14865,12 +14843,6 @@
     },
     {
       "source": "article:guide:data-roles",
-      "target": "wiki:data-engineer-vs-data-scientist",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-roles",
       "target": "wiki:data-engineering",
       "kind": "article-link",
       "weight": 2
@@ -15219,6 +15191,12 @@
     },
     {
       "source": "article:guide:data-scientist",
+      "target": "article:comparison:data-engineer-vs-data-scientist",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:data-scientist",
       "target": "article:guide:data-scientist-interview",
       "kind": "article-link",
       "weight": 2
@@ -15324,18 +15302,6 @@
       "target": "wiki:data-analyst-role",
       "kind": "article-link",
       "weight": 2
-    },
-    {
-      "source": "article:guide:data-scientist",
-      "target": "wiki:data-engineer-vs-data-scientist",
-      "kind": "article-link",
-      "weight": 8
-    },
-    {
-      "source": "article:guide:data-scientist",
-      "target": "wiki:data-engineer-vs-data-scientist",
-      "kind": "article-wiki",
-      "weight": 5
     },
     {
       "source": "article:guide:data-scientist",
@@ -19557,6 +19523,12 @@
     },
     {
       "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "article:comparison:data-engineer-vs-data-scientist",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
       "target": "article:comparison:mlops-vs-dataops",
       "kind": "article-link",
       "weight": 2
@@ -19738,18 +19710,6 @@
     {
       "source": "article:roadmap:data-scientist-to-data-engineer",
       "target": "wiki:data-engineer-role",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:roadmap:data-scientist-to-data-engineer",
-      "target": "wiki:data-engineer-vs-data-scientist",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:roadmap:data-scientist-to-data-engineer",
-      "target": "wiki:data-engineer-vs-data-scientist",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -44865,6 +44825,12 @@
     },
     {
       "source": "wiki:data-engineer-role",
+      "target": "article:comparison:data-engineer-vs-data-scientist",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-engineer-role",
       "target": "article:comparison:dataops-vs-data-engineering",
       "kind": "wiki-link",
       "weight": 6
@@ -44986,18 +44952,6 @@
     {
       "source": "wiki:data-engineer-role",
       "target": "wiki:analytics-engineering",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:data-engineer-role",
-      "target": "wiki:data-engineer-vs-data-scientist",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:data-engineer-role",
-      "target": "wiki:data-engineer-vs-data-scientist",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -45132,276 +45086,6 @@
       "target": "wiki:self-service-data-platforms",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "article:comparison:batch-vs-streaming",
-      "kind": "wiki-link",
-      "weight": 6
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "article:comparison:data-engineer-vs-data-scientist",
-      "kind": "wiki-link",
-      "weight": 6
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "person:lukewhipps",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "podcast:big-data-engineer-vs-data-scientist",
-      "kind": "wiki-link",
-      "weight": 26
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "podcast:building-production-ml-platform-and-mlops-team",
-      "kind": "wiki-link",
-      "weight": 12
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "podcast:data-science-interview-and-cv-guide",
-      "kind": "wiki-link",
-      "weight": 6
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "podcast:data-science-job-red-flags-and-mismatched-roles",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "podcast:data-team-roles",
-      "kind": "wiki-link",
-      "weight": 20
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "podcast:get-data-engineering-job-prep-and-interview",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "podcast:get-data-scientist-job",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "wiki:analytics-engineering",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "wiki:career-transitions-in-data",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "wiki:data-analyst-vs-analytics-engineer",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "wiki:data-engineer-role",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "wiki:data-engineer-role",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "wiki:data-engineering",
-      "kind": "wiki-link",
-      "weight": 6
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "wiki:data-engineering",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "wiki:data-engineering-platforms",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "wiki:data-engineering-portfolio-projects",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "wiki:data-engineering-roadmap",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "wiki:data-engineering-tools",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "wiki:data-observability",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "wiki:data-pipelines",
-      "kind": "wiki-link",
-      "weight": 6
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "wiki:data-products",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "wiki-link",
-      "weight": 6
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "wiki:data-science",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "wiki:data-science",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "wiki:data-science-careers",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "wiki:data-scientist-interview-roadmap",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "wiki:data-scientist-role",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "wiki:data-scientist-role",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "wiki:developer-experience",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "wiki:hiring",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "wiki:job-descriptions",
-      "kind": "wiki-link",
-      "weight": 6
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "wiki:machine-learning",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "wiki:machine-learning-engineer-role",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "wiki:machine-learning-engineer-role",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "wiki:machine-learning-infrastructure",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "wiki:metrics",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "wiki:mlops",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "wiki:mlops",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "wiki:platform-engineering",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "wiki:production",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "wiki:software-engineering",
-      "kind": "wiki-link",
-      "weight": 2
     },
     {
       "source": "wiki:data-engineering",
@@ -46402,12 +46086,6 @@
     {
       "source": "wiki:data-engineering-portfolio-projects",
       "target": "wiki:data-activation",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-engineering-portfolio-projects",
-      "target": "wiki:data-engineer-vs-data-scientist",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -49011,6 +48689,12 @@
     },
     {
       "source": "wiki:data-science",
+      "target": "article:comparison:data-engineer-vs-data-scientist",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-science",
       "target": "article:comparison:mlops-vs-dataops",
       "kind": "wiki-link",
       "weight": 2
@@ -49134,18 +48818,6 @@
       "target": "wiki:career-transitions-in-data",
       "kind": "wiki-link",
       "weight": 2
-    },
-    {
-      "source": "wiki:data-science",
-      "target": "wiki:data-engineer-vs-data-scientist",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-science",
-      "target": "wiki:data-engineer-vs-data-scientist",
-      "kind": "wiki-related",
-      "weight": 3
     },
     {
       "source": "wiki:data-science",
@@ -49707,6 +49379,12 @@
     },
     {
       "source": "wiki:data-scientist-role",
+      "target": "article:comparison:data-engineer-vs-data-scientist",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-scientist-role",
       "target": "article:comparison:machine-learning-engineer-vs-data-scientist",
       "kind": "wiki-link",
       "weight": 2
@@ -49908,18 +49586,6 @@
       "target": "wiki:data-engineer-role",
       "kind": "wiki-link",
       "weight": 2
-    },
-    {
-      "source": "wiki:data-scientist-role",
-      "target": "wiki:data-engineer-vs-data-scientist",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:data-scientist-role",
-      "target": "wiki:data-engineer-vs-data-scientist",
-      "kind": "wiki-related",
-      "weight": 3
     },
     {
       "source": "wiki:data-scientist-role",

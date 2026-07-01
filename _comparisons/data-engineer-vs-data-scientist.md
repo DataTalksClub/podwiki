@@ -6,9 +6,8 @@ secondary_keywords:
   - data scientist vs data engineer
   - data engineering vs data science
   - data engineering and data science
-summary: "A podcast-grounded comparison for deciding whether a team needs data engineering ownership, data science ownership, or both, and how the two roles work together."
+summary: "A comparison for deciding whether a team needs data engineering ownership, data science ownership, or both, and how the two roles work together."
 related_wiki:
-  - Data Engineer vs Data Scientist
   - Data Engineer Role
   - Data Scientist Role
   - Data Engineering
@@ -35,11 +34,12 @@ people who make product data usable without burdening production systems. At
 30:01, the data engineering boundary sits around the data that other roles
 depend on.
 
-Use the [Data Engineer vs Data Scientist]({{ '/wiki/data-engineer-vs-data-scientist/' | relative_url }})
-wiki page for the full archive reference. Use
+The role hubs are
 [Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }}) and
 [Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }}) for
-the role hubs.
+the ownership boundary. [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }})
+and [Data Science]({{ '/wiki/data-science/' | relative_url }}) cover the broader
+topic context.
 
 ## Short Comparison
 
@@ -186,9 +186,8 @@ infrastructure, and analytics or engineering support matter too.
 
 ## Related Pages
 
-These pages cover the role definitions and adjacent comparisons:
+Start with these role definitions and adjacent comparisons:
 
-- [Data Engineer vs Data Scientist]({{ '/wiki/data-engineer-vs-data-scientist/' | relative_url }})
 - [Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }})
 - [Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }})
 - [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }})
