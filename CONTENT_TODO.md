@@ -133,10 +133,11 @@ Existing pages:
 - `_wiki/solopreneur.md`
 - `_wiki/career-transitions-in-data.md`
 - `_how_tos/how-to-build-data-pipelines.md` owns the procedural pipeline
-  build page. Keep `_guides/data-engineering-pipeline-project.md` focused on
-  portfolio packaging.
+  build page. Keep `_wiki/end-to-end-data-pipeline-project.md` as the canonical
+  portfolio-ready pipeline blueprint.
 - `_roadmaps/data-engineer-roadmap.md` owns the main data engineer roadmap.
 - `_guides/software-engineer-to-machine-learning.md`
+- `_roadmaps/data-scientist-to-data-engineer.md`
 - `_roadmaps/data-analyst-to-data-engineer.md`
 - `_wiki/academic-researcher-to-data-science.md`
 - `_wiki/devops-to-data-engineering.md`

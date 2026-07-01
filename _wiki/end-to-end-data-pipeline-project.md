@@ -134,13 +134,63 @@ when the project needs the tradeoff. Use
 boundaries and [Orchestration]({{ '/wiki/orchestration/' | relative_url }}) for
 scheduling.
 
+## Reviewer Checklist
+
+A reviewer should be able to understand the project without a private
+walkthrough. In the README, name the consumer and the decision the data
+supports. Also name the source data and the expected update cadence. Show the
+table grain, setup steps, one command to run the pipeline, and the checks that
+can fail the run.
+
+This follows Jeff's hiring advice in
+[Data Engineering Job Prep]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }}).
+At 1:49, he warns against projects that list tools but show too little Python
+and SQL. At 2:22, he asks for code that another engineer can read, test, and
+discuss. Christopher Bergh's
+[DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }})
+adds the operating side. Tests, repeatable delivery, and recovery belong in the
+project, not only in a diagram.
+
+Use the README to document common failure cases:
+
+- the API is down
+- a file arrives late
+- a column is renamed
+- a batch partially loads
+- a downstream table fails a check
+
+Each case should reference a test or log message. It can also reference a
+quarantine table, skipped merge, backfill command, or runbook step.
+
+## Interview Story
+
+Prepare a short walkthrough in the same order an engineer would use to debug or
+extend the system:
+
+1. Name the consumer and the decision the pipeline supports.
+2. Explain which source behavior made the project realistic.
+3. Show where raw records live so the run can be replayed.
+4. Name the table grain for staged, modeled, and serving outputs.
+5. Show how the pipeline runs without manual notebook clicks.
+6. Show the checks that protect the consumer.
+7. Explain one bug or tradeoff that changed the design.
+8. Name the next improvement without pretending the project is a full platform.
+
+That story maps to Jeff's interview formats around 7:46 in
+[Data Engineering Job Prep]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }}),
+including SQL screens, Python problems, and take-home projects. It also matches
+[Gloria Quiceno's]({{ '/people/gloriaquiceno/' | relative_url }}) advice in
+[Get a Data Analytics and Data Engineering Job]({{ '/podcasts/get-data-analytics-and-data-engineering-job/' | relative_url }}).
+At 51:42, she explains that repeated course projects are weaker than custom
+projects. Custom projects work better when the candidate can explain the data
+and the choices behind the work.
+
 ## Related Pages
 
 Use these pages to follow the project and its adjacent concepts.
 
 - [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
 - [How to Build Data Pipelines]({{ '/how-tos/how-to-build-data-pipelines/' | relative_url }})
-- [Data Engineering Pipeline Project]({{ '/guides/data-engineering-pipeline-project/' | relative_url }})
 - [Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }})
 - [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})

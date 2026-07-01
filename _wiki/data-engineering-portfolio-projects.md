@@ -25,13 +25,20 @@ asks for tests plus recovery behavior
 and [Ellen König]({{ '/people/ellenkonig/' | relative_url }}) in
 [How to Become a Data Engineer]({{ '/podcasts/from-software-engineering-data-science-to-data-engineering-leadership/' | relative_url }})).
 
-This topic covers junior and transition portfolios aimed at
-[data engineering]({{ '/wiki/data-engineering/' | relative_url }}), platform
-data work, or data-science-to-data-engineering moves. For metric modeling and
-BI-heavy projects, use
+This topic covers junior and transition portfolios for
+[data engineering]({{ '/wiki/data-engineering/' | relative_url }}) and platform
+data work. It also covers data-science-to-data-engineering moves.
+
+For metric modeling and BI-heavy projects, use
 [Analytics Engineering Portfolio Projects]({{ '/wiki/analytics-engineering-portfolio-projects/' | relative_url }}).
+For the transition-specific path, use the
+[Data Scientist to Data Engineer Roadmap]({{ '/roadmaps/data-scientist-to-data-engineer/' | relative_url }}).
 For one concrete project structure, use
 [End-to-End Data Pipeline Project]({{ '/wiki/end-to-end-data-pipeline-project/' | relative_url }}).
+It gives a portfolio-ready blueprint with source behavior and layered data
+models. It also covers orchestration, checks, recovery, and an interview
+walkthrough.
+
 For sequencing, use
 [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }}).
 For public contribution routes, use

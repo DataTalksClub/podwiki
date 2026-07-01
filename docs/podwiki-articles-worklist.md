@@ -107,7 +107,7 @@ data-engineering-manager/data-engineer-manager cluster was consolidated into
 | data-engineering-manager | leadership | **done: consolidated into `_wiki/leadership.md`** |
 | data-engineer-manager | leadership | **done: consolidated into `_wiki/leadership.md`; dup of data-engineering-manager** |
 | data-engineering | data-engineering | **done: slug collision removed** |
-| data-engineering-pipeline-project | data-engineering-portfolio-projects | |
+| data-engineering-pipeline-project | data-engineering-portfolio-projects | **done: folded into `_wiki/end-to-end-data-pipeline-project.md`; old guide removed** |
 | data-engineering-tools | data-engineering-tools | **done: slug collision merged** |
 | data-observability-for-data-engineering | data-observability | **keep: practical guide for the data-engineering-specific observability query** |
 | dataops | dataops | **done: slug collision removed** |
@@ -118,7 +118,7 @@ data-engineering-manager/data-engineer-manager cluster was consolidated into
 | data-science-for-managers | leadership | **done: consolidated into `_wiki/leadership.md`** |
 | data-scientist-interview | data-scientist-interview-roadmap | **keep: keyword guide; roadmap remains `_wiki/data-scientist-interview-roadmap.md`** |
 | data-scientist | data-scientist-role | **keep: keyword guide linked to canonical role page** |
-| data-scientist-to-data-engineer | career-transition | |
+| data-scientist-to-data-engineer | career-transition | **done: moved to `_roadmaps/data-scientist-to-data-engineer.md`** |
 | designing-machine-learning-systems | machine-learning-system-design | **done: book-title guide folded into `_wiki/machine-learning-system-design.md`** |
 | fundamentals-of-data-engineering | data-engineering | **done: book-title guide folded into `_wiki/data-engineering.md`, `_wiki/data-pipelines.md`, and `_wiki/data-engineering-roadmap.md`** |
 | how-to-build-data-pipelines | data-pipelines | **keep: procedural how-to in `_how_tos`** |

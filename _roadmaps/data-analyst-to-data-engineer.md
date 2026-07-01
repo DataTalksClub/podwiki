@@ -236,7 +236,7 @@ diagram.
 
 Use [Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }}),
 [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}), and
-[Data Engineering Pipeline Project]({{ '/guides/data-engineering-pipeline-project/' | relative_url }})
+[End-to-End Data Pipeline Project]({{ '/wiki/end-to-end-data-pipeline-project/' | relative_url }})
 for implementation patterns.
 
 ## Stage 4: Add Cloud, Docker, Orchestration, And Operations

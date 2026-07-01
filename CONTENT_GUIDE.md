@@ -143,7 +143,9 @@ The public URLs are `/guides/`, `/comparisons/`, `/roadmaps/`, and `/how-tos/`.
 
 If a page is only the bare concept, put it in `_wiki/` instead of making an
 editorial page. The wiki owns the thing. Editorial collections own questions
-about the thing.
+about the thing. For example, `A/B Testing` belongs in `_wiki/a-b-testing.md`,
+while a role or product guide should link to that page when it uses experiments
+as evidence.
 
 Do not create editorial pages until the target keyword list is provided.
 

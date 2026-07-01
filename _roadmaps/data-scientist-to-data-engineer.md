@@ -1,10 +1,11 @@
 ---
 layout: article
-title: "Data Scientist to Data Engineer: A Practical Transition Path"
+title: "Data Scientist to Data Engineer Roadmap"
 keyword: "data scientist to data engineer"
-summary: "A DataTalks.Club podcast-backed guide for data scientists moving into data engineering: role shift, transferable skills, missing engineering habits, portfolio projects, and interview positioning."
+summary: "A DataTalks.Club podcast-backed roadmap for data scientists moving into data engineering: role shift, transferable skills, missing engineering habits, portfolio projects, and interview positioning."
 search_intent: "People searching for data scientist to data engineer want a practical career-transition path: which data science skills transfer, which data engineering skills to build, what projects prove readiness, and how to explain the move in interviews."
 related_wiki:
+  - Career Transitions in Data
   - Data Engineer vs Data Scientist
   - Data Engineer Role
   - Data Engineering
@@ -29,17 +30,26 @@ That overlap is why the transition is realistic. A data scientist already knows
 how messy inputs affect analysis and modeling. That includes missing values and
 leakage. It also includes bad joins, late data, and unclear definitions.
 
-The career move is to turn private cleanup habits into shared infrastructure. That
-means modeled tables and reliable pipelines.
-
-It also means documented assumptions, tests, backfills, and recovery paths
+The career move is to turn private cleanup habits into shared infrastructure.
+That means modeled tables, reliable pipelines, and documented assumptions. It
+also means tests, backfills, and recovery paths
 ([Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})).
 
-Use this article as a transition guide, then go deeper with
+Use this roadmap as a transition guide, then go deeper with
 [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }}),
 [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}),
 and
 [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }}).
+
+[Ellen König]({{ '/people/ellenkonig/' | relative_url }}) gives the most direct
+archive example of this move in
+[How to Become a Data Engineer]({{ '/podcasts/from-software-engineering-data-science-to-data-engineering-leadership/' | relative_url }}).
+At 9:41, she describes data science tasks that are already data engineering
+work. At 13:55, she explains which pipeline, stakeholder, and exploration
+skills transfer.
+
+At 15:02 and 26:20, she adds collaborative coding, CI/CD, and DevOps habits.
+She also names clean code and CLI work. Git, Docker, and tests matter too.
 
 ## Role Shift
 
@@ -99,13 +109,19 @@ That background is useful when a pipeline feeds ML training or batch scoring.
 It also helps with product analytics and monitoring
 ([MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }})).
 
-Data scientists also bring evaluation habits.
-[Barr Moses]({{ '/people/barrmoses/' | relative_url }}) explains in
+Ellen's transition episode adds a practical version of this advantage. Around
+12:02, she talks about understanding how data is produced, structured, and
+biased. Around 17:34, she separates research-oriented data science from the
+MLOps and production-engineering skills needed when models depend on reliable
+data paths.
+
+Data scientists also bring evaluation habits. [Barr Moses]({{ '/people/barrmoses/' | relative_url }})
+explains in
 [Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }})
 that a successful job run isn't the same as trustworthy data. Teams need to
-watch freshness, volume, and distribution. Schema and lineage matter too. A data scientist
-who has debugged a model after a feature shifted already understands why those
-checks matter
+watch freshness, volume, and distribution. Schema and lineage matter too. A
+data scientist who has debugged a model after a feature shifted already
+understands why those checks matter
 ([Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})).
 
 ## Gaps to Close
@@ -122,10 +138,9 @@ Start with pipeline design by ingesting from an API or file
 drop. A database export, event log, or CDC simulation also works. It should
 preserve raw records, then transform them into staged and modeled tables. The
 last step is one output for a named consumer
-([Data Engineering Pipeline Project]({{ '/guides/data-engineering-pipeline-project/' | relative_url }})).
+([End-to-End Data Pipeline Project]({{ '/wiki/end-to-end-data-pipeline-project/' | relative_url }})).
 
-Add data modeling with [Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }})'s episode. She
-uses
+Add data modeling with [Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }})'s episode. She uses
 [ETL vs ELT & Data Lake vs Warehouse]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})
 to connect ingestion and ELT with warehouses, lakes, and data marts. She also
 covers Airflow, CDC, and schema evolution. Reverse ETL extends the same modern
@@ -136,9 +151,8 @@ staging layers. The modeled and serving layers matter too. They should also
 name the grain and consumer of each important table
 ([Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})).
 
-Add orchestration and recovery, because orchestration isn't only scheduling and
-should make dependencies, retries, and reruns visible. Alerts and backfills belong in
-the same operating story
+Add orchestration and recovery because orchestration isn't only scheduling. It
+should show dependencies, reruns, alerts, and backfills in the same operating story
 ([Apache Airflow]({{ '/wiki/orchestration/' | relative_url }})). In
 [DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}),
 [Lars Albertsson]({{ '/people/larsalbertsson/' | relative_url }}) frames
@@ -188,7 +202,12 @@ Good project choices include:
 The project should include a README and setup steps. Add an architecture
 sketch and data dictionary, plus tests and orchestration notes. Include a small
 runbook
-([Data Engineering Pipeline Project]({{ '/guides/data-engineering-pipeline-project/' | relative_url }})).
+([End-to-End Data Pipeline Project]({{ '/wiki/end-to-end-data-pipeline-project/' | relative_url }})).
+
+Ellen gives the transition-specific project advice at 41:29 and 44:00 in
+[How to Become a Data Engineer]({{ '/podcasts/from-software-engineering-data-science-to-data-engineering-leadership/' | relative_url }}).
+She recommends scrapers, ETL pipelines, schedulers such as Airflow, and
+domain-focused pipelines with real data and automation.
 
 Jeff Katz's
 [Data Engineering Job Prep and Interview Guide]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }})

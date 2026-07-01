@@ -138,7 +138,7 @@ Make the project defensible:
 Use
 [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
 as the review standard, and use
-[Data Engineering Pipeline Project]({{ '/guides/data-engineering-pipeline-project/' | relative_url }})
+[End-to-End Data Pipeline Project]({{ '/wiki/end-to-end-data-pipeline-project/' | relative_url }})
 if you want a single-project blueprint.
 
 ## Make No-Experience Credible

@@ -110,6 +110,12 @@ signals. That version of the role is close to
 [data engineering learning paths]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
 and [data engineering portfolio projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }}).
 
+For data scientists, the transition version of this entry path is the
+[Data Scientist to Data Engineer Roadmap]({{ '/roadmaps/data-scientist-to-data-engineer/' | relative_url }}).
+It uses Ellen König's data-science-to-data-engineering episode to connect
+feature work and data intuition to the role. It also connects collaborative
+coding, CI/CD, and pipeline projects to the role.
+
 Mehdi's scale-up episode puts the role between platform engineering and
 use-case delivery. At 52:55, he describes a roughly even split between building
 platform capabilities and building pipelines for concrete users. That version

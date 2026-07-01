@@ -33,6 +33,9 @@ Marketing becomes funnel and BI knowledge in
 Software engineering becomes ML system building in
 [Santiago Valdarrama's]({{ '/people/svpino/' | relative_url }})
 [software-to-ML episode]({{ '/podcasts/from-software-engineer-to-machine-learning/' | relative_url }}).
+Data science becomes data engineering when the person turns analysis cleanup
+and modeling-adjacent data work into shared pipelines
+([Data Scientist to Data Engineer Roadmap]({{ '/roadmaps/data-scientist-to-data-engineer/' | relative_url }})).
 
 QA becomes testing and project discipline in
 [Alvaro Navas Peire's]({{ '/people/alvaronavaspeire/' | relative_url }})
@@ -253,13 +256,16 @@ current proof
 ([Career Break to AI Engineer]({{ '/podcasts/s23e04-how-to-become-ai-engineer-after-career-break/' | relative_url }}),
 15:37-33:45).
 
-Data-engineering portfolios need different evidence from ML portfolios, so
-[Slawomir Tulski's]({{ '/people/slawomirtulski/' | relative_url }})
-data-engineering episode favors end-to-end projects. A strong project includes
-ingestion and storage, plus modeling, serving and a useful personal or
-analytical consumer
-([Data Engineer Career in 2026]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }}),
-57:35-1:04:42).
+In
+[Data Engineer Career in 2026 at 57:35-1:04:42]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }}),
+[Slawomir Tulski]({{ '/people/slawomirtulski/' | relative_url }}) favors
+end-to-end projects for data-engineering portfolios. A strong project includes
+ingestion and storage. It also includes modeling and serving, with a useful
+personal or analytical consumer.
+
+For data scientists moving into that work, the
+[Data Scientist to Data Engineer Roadmap]({{ '/roadmaps/data-scientist-to-data-engineer/' | relative_url }})
+turns notebook cleanup and feature work into a pipeline portfolio path.
 
 [Merve Noyan's]({{ '/people/mervenoyan/' | relative_url }}) Hugging Face
 episode shows an open-source portfolio path through contribution sprints,

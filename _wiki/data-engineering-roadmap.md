@@ -29,6 +29,13 @@ catalog of [Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relativ
 For role scope, use [Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }}).
 For proof of skill, use
 [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }}).
+
+If you already work in analytics, use the
+[Data Analyst to Data Engineer Roadmap]({{ '/roadmaps/data-analyst-to-data-engineer/' | relative_url }}).
+If you already work in data science, use the
+[Data Scientist to Data Engineer Roadmap]({{ '/roadmaps/data-scientist-to-data-engineer/' | relative_url }}).
+Both pages translate existing skills into the data engineering path.
+
 For operating practice, use [DataOps]({{ '/wiki/dataops/' | relative_url }})
 and [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).
 

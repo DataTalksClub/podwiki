@@ -2,12 +2,12 @@
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
     "wikis": 179,
-    "articles": 46,
+    "articles": 45,
     "podcasts": 202,
     "persons": 438,
     "topics": 147,
-    "nodes": 1012,
-    "links": 10413
+    "nodes": 1011,
+    "links": 10381
   },
   "nodes": [
     {
@@ -97,17 +97,6 @@
       "count": 1,
       "search": "Data Engineer vs Data Scientist A podcast grounded comparison for deciding whether a team needs data engineering ownership, data science ownership, or both, and how the two roles work together.",
       "keyword": "data engineer vs data scientist"
-    },
-    {
-      "id": "article:guide:data-engineering-pipeline-project",
-      "type": "article",
-      "collection": "guide",
-      "label": "Data Engineering Pipeline Project: A Podcast-Backed Portfolio Blueprint",
-      "title": "Data Engineering Pipeline Project: A Podcast-Backed Portfolio Blueprint",
-      "url": "/guides/data-engineering-pipeline-project/",
-      "count": 1,
-      "search": "Data Engineering Pipeline Project: A Podcast Backed Portfolio Blueprint A podcast backed blueprint for a data engineering pipeline project with core skills and interview readiness.",
-      "keyword": "data engineering pipeline project"
     },
     {
       "id": "article:guide:data-engineering-podcast",
@@ -209,14 +198,14 @@
       "keyword": "data scientist interview"
     },
     {
-      "id": "article:guide:data-scientist-to-data-engineer",
+      "id": "article:roadmap:data-scientist-to-data-engineer",
       "type": "article",
-      "collection": "guide",
-      "label": "Data Scientist to Data Engineer: A Practical Transition Path",
-      "title": "Data Scientist to Data Engineer: A Practical Transition Path",
-      "url": "/guides/data-scientist-to-data-engineer/",
+      "collection": "roadmap",
+      "label": "Data Scientist to Data Engineer Roadmap",
+      "title": "Data Scientist to Data Engineer Roadmap",
+      "url": "/roadmaps/data-scientist-to-data-engineer/",
       "count": 1,
-      "search": "Data Scientist to Data Engineer: A Practical Transition Path A DataTalks.Club podcast backed guide for data scientists moving into data engineering: role shift, transferable skills, missing engineering habits, portfolio projects, and interview positioning.",
+      "search": "Data Scientist to Data Engineer Roadmap A DataTalks.Club podcast backed roadmap for data scientists moving into data engineering: role shift, transferable skills, missing engineering habits, portfolio projects, and interview positioning.",
       "keyword": "data scientist to data engineer"
     },
     {
@@ -13172,240 +13161,6 @@
       "weight": 2
     },
     {
-      "source": "article:guide:data-engineering-pipeline-project",
-      "target": "article:guide:data-observability-for-data-engineering",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-pipeline-project",
-      "target": "article:roadmap:data-engineer-roadmap",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-pipeline-project",
-      "target": "person:adrianbrudaru",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-pipeline-project",
-      "target": "person:barrmoses",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-pipeline-project",
-      "target": "person:christopherbergh",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-pipeline-project",
-      "target": "person:gloriaquiceno",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-pipeline-project",
-      "target": "person:jeffkatz",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-pipeline-project",
-      "target": "person:mehdiouazza",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-pipeline-project",
-      "target": "person:nataliekwong",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-pipeline-project",
-      "target": "person:santonatuli",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-pipeline-project",
-      "target": "person:tomaszhinc",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-pipeline-project",
-      "target": "podcast:data-engineering-career-path-and-skills",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-pipeline-project",
-      "target": "podcast:data-engineering-tools-modern-data-stack",
-      "kind": "article-link",
-      "weight": 12
-    },
-    {
-      "source": "article:guide:data-engineering-pipeline-project",
-      "target": "podcast:data-quality-data-observability-data-reliability",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-pipeline-project",
-      "target": "podcast:dataops-and-gitops-best-practices-for-data-teams",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-pipeline-project",
-      "target": "podcast:dataops-for-data-engineering",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:data-engineering-pipeline-project",
-      "target": "podcast:get-data-analytics-and-data-engineering-job",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-pipeline-project",
-      "target": "podcast:get-data-engineering-job-prep-and-interview",
-      "kind": "article-link",
-      "weight": 10
-    },
-    {
-      "source": "article:guide:data-engineering-pipeline-project",
-      "target": "podcast:modern-data-pipelines-orchestration-ingestion-modeling",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-pipeline-project",
-      "target": "podcast:scaling-data-engineering-teams-self-service-platforms",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-pipeline-project",
-      "target": "podcast:trends-in-modern-data-engineering",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:data-engineering-pipeline-project",
-      "target": "wiki:data-engineering",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-pipeline-project",
-      "target": "wiki:data-engineering-platforms",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-pipeline-project",
-      "target": "wiki:data-engineering-platforms",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-pipeline-project",
-      "target": "wiki:data-engineering-portfolio-projects",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:data-engineering-pipeline-project",
-      "target": "wiki:data-engineering-portfolio-projects",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-pipeline-project",
-      "target": "wiki:data-engineering-tools",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-pipeline-project",
-      "target": "wiki:data-observability",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-pipeline-project",
-      "target": "wiki:data-pipelines",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-pipeline-project",
-      "target": "wiki:data-pipelines",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-pipeline-project",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-pipeline-project",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-pipeline-project",
-      "target": "wiki:data-warehouse-vs-data-lakehouse",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-pipeline-project",
-      "target": "wiki:dataops",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-pipeline-project",
-      "target": "wiki:dataops",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-pipeline-project",
-      "target": "wiki:dbt",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-pipeline-project",
-      "target": "wiki:modern-data-stack",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-pipeline-project",
-      "target": "wiki:modern-data-stack",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-pipeline-project",
-      "target": "wiki:orchestration",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
       "source": "article:guide:data-engineering-podcast",
       "target": "person:16rahuljain",
       "kind": "article-link",
@@ -15090,342 +14845,6 @@
       "target": "wiki:machine-learning-system-design",
       "kind": "article-wiki",
       "weight": 5
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "article:comparison:data-engineer-vs-data-scientist",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "article:comparison:mlops-vs-dataops",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "article:guide:data-engineering-pipeline-project",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "article:how_to:how-to-build-data-pipelines",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "person:adrianbrudaru",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "person:barrmoses",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "person:jeffkatz",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "person:larsalbertsson",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "person:mehdiouazza",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "person:nataliekwong",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "person:nicolasrassam",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "person:slawomirtulski",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "person:victoriaperezmola",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "podcast:analytics-engineer-skills-tools",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "podcast:big-data-engineer-vs-data-scientist",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "podcast:data-engineering-career-path-and-skills",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "podcast:data-engineering-tools-modern-data-stack",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "podcast:data-quality-data-observability-data-reliability",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "podcast:data-team-roles",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "podcast:dataops-principles-and-scalable-data-platforms",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "podcast:get-data-engineering-job-prep-and-interview",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "podcast:hiring-for-data-engineering-jobs-in-europe",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "podcast:scaling-data-engineering-teams-self-service-platforms",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "podcast:trends-in-modern-data-engineering",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "wiki:analytics-engineering",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "wiki:analytics-engineering-portfolio-projects",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "wiki:batch-vs-streaming",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "wiki:career-transitions-in-data",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "wiki:data-engineer-role",
-      "kind": "article-link",
-      "weight": 8
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "wiki:data-engineer-role",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "wiki:data-engineer-vs-data-scientist",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "wiki:data-engineering",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "wiki:data-engineering",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "wiki:data-engineering-platforms",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "wiki:data-engineering-portfolio-projects",
-      "kind": "article-link",
-      "weight": 10
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "wiki:data-engineering-portfolio-projects",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "wiki:data-engineering-roadmap",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "wiki:data-engineering-roadmap",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "wiki:data-engineering-tools",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "wiki:data-observability",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "wiki:data-scientist-role",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "wiki:dataops",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "wiki:dataops",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "wiki:job-descriptions",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "wiki:job-search",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "wiki:job-search",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "wiki:machine-learning-portfolio-projects",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "wiki:machine-learning-system-design",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "wiki:mlops",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "wiki:mlops",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "wiki:mlops-tools",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "wiki:modern-data-stack",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "wiki:orchestration",
-      "kind": "article-link",
-      "weight": 2
     },
     {
       "source": "article:guide:dataops-tools",
@@ -18243,12 +17662,6 @@
     },
     {
       "source": "article:roadmap:data-analyst-to-data-engineer",
-      "target": "article:guide:data-engineering-pipeline-project",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:roadmap:data-analyst-to-data-engineer",
       "target": "article:roadmap:data-engineer-roadmap",
       "kind": "article-link",
       "weight": 4
@@ -18483,6 +17896,12 @@
     },
     {
       "source": "article:roadmap:data-analyst-to-data-engineer",
+      "target": "wiki:end-to-end-data-pipeline-project",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-data-engineer",
       "target": "wiki:etl-vs-elt",
       "kind": "article-link",
       "weight": 2
@@ -18508,12 +17927,6 @@
     {
       "source": "article:roadmap:data-analyst-to-data-engineer",
       "target": "wiki:open-source-portfolio-evidence",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:roadmap:data-engineer-roadmap",
-      "target": "article:guide:data-engineering-pipeline-project",
       "kind": "article-link",
       "weight": 2
     },
@@ -18754,6 +18167,12 @@
     {
       "source": "article:roadmap:data-engineer-roadmap",
       "target": "wiki:elt",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-engineer-roadmap",
+      "target": "wiki:end-to-end-data-pipeline-project",
       "kind": "article-link",
       "weight": 2
     },
@@ -19010,8 +18429,356 @@
       "weight": 5
     },
     {
-      "source": "article:roadmap:how-to-become-a-data-engineer-with-no-experience",
-      "target": "article:guide:data-engineering-pipeline-project",
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "article:comparison:data-engineer-vs-data-scientist",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "article:comparison:mlops-vs-dataops",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "article:how_to:how-to-build-data-pipelines",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "person:adrianbrudaru",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "person:barrmoses",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "person:ellenkonig",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "person:jeffkatz",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "person:larsalbertsson",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "person:mehdiouazza",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "person:nataliekwong",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "person:nicolasrassam",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "person:slawomirtulski",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "person:victoriaperezmola",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "podcast:analytics-engineer-skills-tools",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "podcast:big-data-engineer-vs-data-scientist",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "podcast:data-engineering-career-path-and-skills",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "podcast:data-engineering-tools-modern-data-stack",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "podcast:data-quality-data-observability-data-reliability",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "podcast:data-team-roles",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "podcast:dataops-principles-and-scalable-data-platforms",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "podcast:from-software-engineering-data-science-to-data-engineering-leadership",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "podcast:get-data-engineering-job-prep-and-interview",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "podcast:hiring-for-data-engineering-jobs-in-europe",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "podcast:scaling-data-engineering-teams-self-service-platforms",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "podcast:trends-in-modern-data-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "wiki:analytics-engineering",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "wiki:analytics-engineering-portfolio-projects",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "wiki:batch-vs-streaming",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "wiki:career-transitions-in-data",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "wiki:career-transitions-in-data",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "wiki:data-engineer-role",
+      "kind": "article-link",
+      "weight": 8
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "wiki:data-engineer-role",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "wiki:data-engineer-vs-data-scientist",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "wiki:data-engineering",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "wiki:data-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "article-link",
+      "weight": 10
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "wiki:data-engineering-roadmap",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "wiki:data-engineering-roadmap",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "wiki:data-engineering-tools",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "wiki:data-observability",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "wiki:data-scientist-role",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "wiki:dataops",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "wiki:dataops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "wiki:end-to-end-data-pipeline-project",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "wiki:job-descriptions",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "wiki:job-search",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "wiki:job-search",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "wiki:mlops",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "wiki:mlops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "wiki:mlops-tools",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "wiki:modern-data-stack",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "wiki:orchestration",
       "kind": "article-link",
       "weight": 2
     },
@@ -19186,6 +18953,12 @@
     {
       "source": "article:roadmap:how-to-become-a-data-engineer-with-no-experience",
       "target": "wiki:devops-to-data-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:how-to-become-a-data-engineer-with-no-experience",
+      "target": "wiki:end-to-end-data-pipeline-project",
       "kind": "article-link",
       "weight": 2
     },
@@ -40443,6 +40216,12 @@
     },
     {
       "source": "wiki:career-transitions-in-data",
+      "target": "article:roadmap:data-scientist-to-data-engineer",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
       "target": "person:adrianbrudaru",
       "kind": "wiki-link",
       "weight": 4
@@ -43851,6 +43630,12 @@
     },
     {
       "source": "wiki:data-engineer-role",
+      "target": "article:roadmap:data-scientist-to-data-engineer",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-engineer-role",
       "target": "person:16rahuljain",
       "kind": "wiki-link",
       "weight": 2
@@ -45177,6 +44962,12 @@
     },
     {
       "source": "wiki:data-engineering-portfolio-projects",
+      "target": "article:roadmap:data-scientist-to-data-engineer",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-engineering-portfolio-projects",
       "target": "article:roadmap:open-source-contributor-roadmap",
       "kind": "wiki-link",
       "weight": 8
@@ -45492,6 +45283,18 @@
       "target": "wiki:open-source-portfolio-evidence",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-engineering-roadmap",
+      "target": "article:roadmap:data-analyst-to-data-engineer",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-engineering-roadmap",
+      "target": "article:roadmap:data-scientist-to-data-engineer",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:data-engineering-roadmap",
@@ -52599,12 +52402,6 @@
     },
     {
       "source": "wiki:end-to-end-data-pipeline-project",
-      "target": "article:guide:data-engineering-pipeline-project",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:end-to-end-data-pipeline-project",
       "target": "article:how_to:how-to-build-data-pipelines",
       "kind": "wiki-link",
       "weight": 2
@@ -52625,7 +52422,7 @@
       "source": "wiki:end-to-end-data-pipeline-project",
       "target": "person:gloriaquiceno",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:end-to-end-data-pipeline-project",
@@ -52667,19 +52464,19 @@
       "source": "wiki:end-to-end-data-pipeline-project",
       "target": "podcast:dataops-for-data-engineering",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:end-to-end-data-pipeline-project",
       "target": "podcast:get-data-analytics-and-data-engineering-job",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:end-to-end-data-pipeline-project",
       "target": "podcast:get-data-engineering-job-prep-and-interview",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:end-to-end-data-pipeline-project",

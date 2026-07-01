@@ -145,7 +145,7 @@ Airflow, and warehouse fundamentals there. At 2:46, he says personal projects
 and open-source contributions help create credible proof. Use
 [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
 as the review standard, and use
-[Data Engineering Pipeline Project]({{ '/guides/data-engineering-pipeline-project/' | relative_url }})
+[End-to-End Data Pipeline Project]({{ '/wiki/end-to-end-data-pipeline-project/' | relative_url }})
 for a single-project blueprint.
 
 ## Stage 3: Choose Storage, ETL, And ELT Deliberately
