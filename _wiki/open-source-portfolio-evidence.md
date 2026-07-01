@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Open Source Portfolio Evidence"
-summary: "Archive-backed guidance for turning open-source issues, pull requests, documentation, demos, and community work into credible portfolio evidence for data, ML, AI, and DevRel roles."
+summary: "Guidance for turning open-source issues, pull requests, documentation, demos, and community work into credible portfolio evidence for data, ML, AI, and DevRel roles."
 related:
   - Portfolio Projects
   - Open Source
@@ -27,7 +27,7 @@ visible too. So do packaging and community feedback
 [Documentation]({{ '/wiki/documentation/' | relative_url }}),
 [Developer Experience]({{ '/wiki/developer-experience/' | relative_url }})).
 
-The DataTalks.Club archive treats this evidence as career proof when the
+DataTalks.Club guests treat this evidence as career proof when the
 artifact is specific and inspectable. In
 [Contribute to Open Source ML]({{ '/podcasts/open-source-ml-contributions/' | relative_url }}),
 [Vincent Warmerdam]({{ '/people/vincentwarmerdam/' | relative_url }}) presents
@@ -42,13 +42,13 @@ explicit. Open-source projects force code quality closer to professional work
 because pull requests need reliability, tests, and review.
 
 This topic applies when a portfolio needs external review or public
-contribution proof. It's part of the broader
+contribution proof. It belongs inside the broader
 [Portfolio Projects]({{ '/wiki/portfolio-projects/' | relative_url }}) hub. For
-project selection, use
+project selection, the adjacent paths are
 [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }}),
 [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}),
 or [RAG Portfolio Projects]({{ '/wiki/rag-portfolio-projects/' | relative_url }}).
-For open-source adoption and community strategy, use
+Open-source adoption and community strategy connect to
 [Open Source]({{ '/wiki/open-source/' | relative_url }}),
 [Open Source and Developer Relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }}),
 or the contributor path in
@@ -80,7 +80,7 @@ adds the hiring side in
 Open-source work can prove Python, SQL, Docker, and code quality when the
 repository is inspectable.
 
-The data engineering archive adds tool-specific examples. [Natalie
+Data engineering tool episodes add project-specific examples. [Natalie
 Kwong]({{ '/people/nataliekwong/' | relative_url }}) uses Airbyte's connector
 ecosystem and open-source/cloud path in
 [ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}).
@@ -108,14 +108,13 @@ in [Ace Data Interviews]({{ '/podcasts/data-interview-behavioral-and-portfolio-p
 
 ## Common Definition
 
-Across the archive, strong open-source portfolio evidence combines public work
+Strong open-source portfolio evidence combines public work
 with public context and a clear role signal. The public work can be an issue or
 pull request. It can also be a documentation page or example notebook.
 
 A demo, package, release note, or blog post can work too. Maintainer comments
 and community discussion show how the work handled feedback. The explanation
 connects the contribution to a role signal that an interviewer can evaluate.
-
 
 Vincent gives the clearest contribution standard. At 22:20 in
 [Contribute to Open Source ML]({{ '/podcasts/open-source-ml-contributions/' | relative_url }}),
@@ -334,9 +333,15 @@ engagement and commercialization understanding
 
 The portfolio should therefore show active users and issue discussion. It can
 also show repeated use, community learning, or a credible boundary between the
-free project and commercial value. Adrian's DLT story adds workshops, docs, and
-bottom-up adoption as product evidence. Sonal's Zingg story adds licensing,
-discoverability, user feedback, and ecosystem integrations as product evidence.
+free project and commercial value.
+
+Adrian's DLT story adds workshops and docs. It also treats bottom-up adoption as
+product evidence
+([From Data Freelancer to Startup]({{ '/podcasts/from-data-freelancer-to-startup-open-source-products/' | relative_url }}),
+36:00 / 41:23 / 47:56). Sonal's Zingg story adds licensing and discoverability.
+It also adds user feedback and ecosystem integrations as product evidence
+([Building an Open-Source Identity Resolution Tool]({{ '/podcasts/building-open-source-data-product-for-identity-resolution/' | relative_url }}),
+24:32 / 27:00 / 32:59).
 
 ## Presenting the Work
 
@@ -375,7 +380,7 @@ and a better next attempt
 Avoid treating a forked repository as portfolio evidence when it has no issue,
 pull request, docs change, or test result. Maintainer interaction and a user
 story matter too.
-The archive's open-source episodes value useful work in context, not plain
+The open-source episodes value useful work in context, not plain
 GitHub presence
 ([Contribute to Open Source ML]({{ '/podcasts/open-source-ml-contributions/' | relative_url }}),
 25:50 / 27:40).
@@ -401,7 +406,7 @@ link won't help. Review comments and failure modes need the same clarity.
 
 ## Related Pages
 
-Use these pages for adjacent role, contribution, and portfolio context:
+Adjacent role, contribution, and portfolio topics:
 
 - [Open Source]({{ '/wiki/open-source/' | relative_url }})
 - [Open Source Contributor Roadmap]({{ '/roadmaps/open-source-contributor-roadmap/' | relative_url }})

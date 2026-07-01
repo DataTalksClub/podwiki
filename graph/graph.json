@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 145,
     "nodes": 1010,
-    "links": 10707
+    "links": 10708
   },
   "nodes": [
     {
@@ -418,7 +418,7 @@
       "title": "Machine Learning for Startups: Build Useful AI Without Overbuilding",
       "url": "/guides/machine-learning-for-startups/",
       "count": 1,
-      "search": "Machine Learning for Startups: Build Useful AI Without Overbuilding A startup focused guide to applying machine learning pragmatically, with podcast backed guidance on problem selection, MVPs, data strategy, lean MLOps, hiring, monitoring, and product market fit.",
+      "search": "Machine Learning for Startups: Build Useful AI Without Overbuilding A startup focused guide to applying machine learning pragmatically, with problem selection, MVPs, data strategy, lean MLOps, hiring, monitoring, and product market fit.",
       "keyword": "machine learning for startups"
     },
     {
@@ -8706,7 +8706,7 @@
       "title": "Data Engineering",
       "url": "/wiki/data-engineering/",
       "count": 1,
-      "search": "Data Engineering How the DataTalks.Club podcast archive frames data engineering: pipelines, platforms, data quality, role boundaries, business enablement, and the shift toward AI ready data systems."
+      "search": "Data Engineering Data engineering across pipelines, platforms, data quality, role boundaries, business enablement, and the shift toward AI ready data systems."
     },
     {
       "id": "wiki:data-engineering-certification",
@@ -8756,7 +8756,7 @@
       "title": "Data Engineering Tools",
       "url": "/wiki/data-engineering-tools/",
       "count": 1,
-      "search": "Data Engineering Tools A podcast backed guide to choosing data engineering tools across ingestion, orchestration, storage, transformation, quality, governance, and activation."
+      "search": "Data Engineering Tools A practical guide to choosing data engineering tools across ingestion, orchestration, storage, transformation, quality, governance, and activation."
     },
     {
       "id": "wiki:data-governance",
@@ -9586,7 +9586,7 @@
       "title": "Open Source Portfolio Evidence",
       "url": "/wiki/open-source-portfolio-evidence/",
       "count": 1,
-      "search": "Open Source Portfolio Evidence Archive backed guidance for turning open source issues, pull requests, documentation, demos, and community work into credible portfolio evidence for data, ML, AI, and DevRel roles."
+      "search": "Open Source Portfolio Evidence Guidance for turning open source issues, pull requests, documentation, demos, and community work into credible portfolio evidence for data, ML, AI, and DevRel roles."
     },
     {
       "id": "wiki:orchestration",
@@ -9626,7 +9626,7 @@
       "title": "Portfolio Projects",
       "url": "/wiki/portfolio-projects/",
       "count": 1,
-      "search": "Portfolio Projects Archive backed guidance for choosing data, analytics, ML, AI, and open source portfolio projects that prove role fit, practical judgment, public proof, and interview ready ownership."
+      "search": "Portfolio Projects Guidance for choosing data, analytics, ML, AI, and open source portfolio projects that prove role fit, practical judgment, public proof, and interview ready ownership."
     },
     {
       "id": "wiki:power-analysis",
@@ -45411,6 +45411,12 @@
     },
     {
       "source": "wiki:data-engineering",
+      "target": "article:comparison:batch-vs-streaming",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-engineering",
       "target": "article:comparison:dataops-vs-data-engineering",
       "kind": "wiki-link",
       "weight": 8
@@ -64739,7 +64745,7 @@
       "source": "wiki:open-source-portfolio-evidence",
       "target": "podcast:building-open-source-data-product-for-identity-resolution",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 8
     },
     {
       "source": "wiki:open-source-portfolio-evidence",
@@ -64769,7 +64775,7 @@
       "source": "wiki:open-source-portfolio-evidence",
       "target": "podcast:from-data-freelancer-to-startup-open-source-products",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 10
     },
     {
       "source": "wiki:open-source-portfolio-evidence",
@@ -65645,19 +65651,19 @@
       "source": "wiki:portfolio-projects",
       "target": "person:atitaarora",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:portfolio-projects",
       "target": "person:benwilson",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "wiki:portfolio-projects",
       "target": "person:ellenkonig",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:portfolio-projects",
@@ -65669,19 +65675,19 @@
       "source": "wiki:portfolio-projects",
       "target": "person:hugobowneanderson",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:portfolio-projects",
       "target": "person:jeffkatz",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "wiki:portfolio-projects",
       "target": "person:juanmanuelperafan",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:portfolio-projects",
@@ -65699,13 +65705,13 @@
       "source": "wiki:portfolio-projects",
       "target": "person:mervenoyan",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:portfolio-projects",
       "target": "person:nadianahar",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:portfolio-projects",
@@ -65723,7 +65729,7 @@
       "source": "wiki:portfolio-projects",
       "target": "person:santonatuli",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:portfolio-projects",
@@ -65741,25 +65747,25 @@
       "source": "wiki:portfolio-projects",
       "target": "person:valeriybabushkin",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:portfolio-projects",
       "target": "person:victoriaperezmola",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:portfolio-projects",
       "target": "person:vincentwarmerdam",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:portfolio-projects",
       "target": "podcast:analytics-engineer-skills-tools",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:portfolio-projects",
@@ -65783,13 +65789,13 @@
       "source": "wiki:portfolio-projects",
       "target": "podcast:from-software-engineering-data-science-to-data-engineering-leadership",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:portfolio-projects",
       "target": "podcast:get-data-engineering-job-prep-and-interview",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 8
     },
     {
       "source": "wiki:portfolio-projects",
@@ -65801,49 +65807,49 @@
       "source": "wiki:portfolio-projects",
       "target": "podcast:hugging-face-contributions-and-nlp-portfolio",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:portfolio-projects",
       "target": "podcast:machine-learning-engineering-production-best-practices",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "wiki:portfolio-projects",
       "target": "podcast:machine-learning-system-design-interview",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:portfolio-projects",
       "target": "podcast:modern-data-pipelines-orchestration-ingestion-modeling",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:portfolio-projects",
       "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:portfolio-projects",
       "target": "podcast:open-source-ml-contributions",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:portfolio-projects",
       "target": "podcast:practical-llm-engineering-and-rag",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:portfolio-projects",
       "target": "podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:portfolio-projects",
@@ -65867,7 +65873,7 @@
       "source": "wiki:portfolio-projects",
       "target": "podcast:software-engineering-for-machine-learning",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:portfolio-projects",

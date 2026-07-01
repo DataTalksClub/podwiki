@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Data Engineering Tools"
-summary: "A podcast-backed guide to choosing data engineering tools across ingestion, orchestration, storage, transformation, quality, governance, and activation."
+summary: "A practical guide to choosing data engineering tools across ingestion, orchestration, storage, transformation, quality, governance, and activation."
 related:
   - Data Engineering
   - Data Engineering Platforms
@@ -18,10 +18,11 @@ analytics, operations, and machine learning work. The useful question isn't
 "which modern data stack tools should we buy?" It's "which data flow do we
 need to make reliable, and who depends on it?"
 
-The DataTalks.Club archive is consistent on that point. In
+In
 [ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
-[Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) explains the
-basic stack through ingestion, warehouse loading, and dbt-style transformation.
+[Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) grounds that point
+in the basic stack. She starts with ingestion, warehouse loading, and dbt-style
+transformation.
 She also covers orchestration, lake storage, change data capture, and reverse
 data flows.
 
@@ -29,12 +30,12 @@ In
 [Modern Data Engineering]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}),
 [Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) adds a newer
 view. He covers open table formats, catalogs, and DuckDB. He also covers
-AI-assisted pipeline work, streaming, and more careful vendor choices. Read
-those episodes with the
+AI-assisted pipeline work, streaming, and more careful vendor choices. Those
+tool choices sit next to
 [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}),
 [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}), and
 [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
-wiki pages open.
+as concepts.
 
 ## Stack Map
 
@@ -61,7 +62,7 @@ Brudaru warns against vendor-led tool collection around 44:42 in
 In that discussion, he says teams should choose tools after they understand the
 business requirement, team skills, and operating cost.
 
-That matches the archive's broader role guidance. In
+Katz's career guidance gives the same ordering. In
 [Build a Data Engineering Career]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }}),
 [Jeff Katz]({{ '/people/jeffkatz/' | relative_url }}) treats Python, SQL, and
 cloud basics as core skills. He adds orchestration before advanced tools.
@@ -130,7 +131,7 @@ around 6:42. Around 33:47-51:21, he names version control, tests, and CI/CD.
 He also covers runbooks and automation. Later in the same stretch, he discusses
 dbt and Great Expectations alongside SQL tests and end-to-end versioning. Tools
 need a release path and recovery process.
-Use [DataOps Tools]({{ '/guides/dataops-tools/' | relative_url }}) for the
+[DataOps Tools]({{ '/guides/dataops-tools/' | relative_url }}) covers the
 practical stack categories behind that operating layer.
 
 ## Warehouses, Lakes, And Lakehouses
@@ -239,7 +240,7 @@ support systems. They also feed marketing, engagement, and product tools. This
 category turns analysis into action, but it also turns analytics definitions
 into operational dependencies.
 
-Choudhury gives the clearest archive example in
+Choudhury gives a concrete activation example in
 [the Data-Led Growth episode]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }}).
 Around 28:52-37:25, he walks through warehouses and dbt. He connects them to BI
 and product analytics. He also covers warehouse-centric tools and reverse ETL
@@ -304,7 +305,7 @@ Bergh and Moses add the reliability layer through
 
 ## Related Reading
 
-Use these pages to go deeper into the main tool categories:
+The main tool categories connect to these pages:
 
 - [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }})
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
