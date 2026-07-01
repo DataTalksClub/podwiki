@@ -3,91 +3,144 @@ layout: "person"
 title: "Barr Moses"
 source_person: "../datatalksclub.github.io/_people/barrmoses.md"
 person_id: "barrmoses"
-summary: "Monte Carlo co-founder contributing the archive's data observability and data reliability reference for freshness, lineage, schema changes, and downtime prevention."
+summary: "Monte Carlo co-founder whose DataTalks.Club episode defines data downtime, data observability signals, ownership, SLAs, and recovery workflows."
 expertise: ["data observability", "MLOps", "data quality", "data reliability"]
 podcast_episodes: ["data-quality-data-observability-data-reliability"]
+curated: true
 source_url: "https://datatalks.club/people/barrmoses.html"
 ---
 
-## Podcast Context
+## Background
 
-Barr Moses gives the archive its core early definition of data observability.
-The relevant bio context is that she led customer data and analytics work before
-co-founding Monte Carlo. In the episode, she uses that operating experience to
-explain why data teams often learn about broken data from executives or
-customers. The failure report often comes from business users instead of the
-data team's own systems.
+Barr Moses is the CEO and co-founder of Monte Carlo. In
+[Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }}),
+she grounds her view of data reliability in customer data and analytics work at
+GainSight. She also mentions earlier work in data, analytics, consulting, and
+the Israeli Air Force. That background matters because her episode isn't mainly
+about tool marketing. It's about the operational failures she saw when companies
+tried to become data-driven but still learned about broken data from executives,
+customers, or downstream teams.
 
-This profile is useful when a question needs the reliability model behind
-freshness, volume, schema, and lineage. It also covers root-cause analysis,
-SLAs, and false-positive reduction.
+Her contribution sits at the center of
+[data observability]({{ '/wiki/data-observability/' | relative_url }}),
+[data quality and observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}),
+and [DataOps]({{ '/wiki/dataops/' | relative_url }}). Use her page when the
+question is how a data team detects unhealthy data, routes the incident, and
+restores trust before consumers lose confidence.
 
-## Podcast Contributions
+## Data Downtime and Trust
 
-This episode defines the data reliability vocabulary used by later pages:
+Moses frames unreliable data as "data downtime." Around 5:00 in
+[Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }}),
+she describes a familiar failure path. A customer says a dataset looks wrong,
+or a CEO questions a board-report number. The data team then starts guessing
+whether the report refreshed. They also have to ask whether all data arrived or
+whether an upstream schema changed.
 
-- [Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }}) defines
-  data downtime as a reliability problem for analytics, ML, and data products.
-  Barr connects it to the moment when a dashboard, board report, model, or
-  downstream workflow silently depends on bad data.
-- She maps software observability ideas into the data world but explains why
-  batch data differs from application monitoring. Data failures can be late,
-  partial, skewed, or schema-breaking before a consumer notices.
-- The episode introduces the five pillars of data observability: freshness,
-  volume, distribution, schema, and lineage.
-- Later sections cover RACI-style ownership, data SLAs, threshold automation,
-  operational runbooks, and maturity stages. They also cover platform criteria,
-  auto lineage, anomaly context, and false-positive reduction.
+That framing turns data quality into a production reliability problem. Data may
+exist after the pipeline has completed. A dashboard, ML model, customer
+workflow, or board report can still use bad data.
 
-## Reusable Claims and Examples
+Her episode is useful beside
+[Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
+and [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }}).
+Those pages cover whether consumers can rely on data products when they make
+decisions.
 
-These claims are reusable in future topic pages:
+## Five Data Observability Signals
 
-- Data teams are often the last to know about a data incident. Observability
-  should detect data downtime before a stakeholder asks why a number looks
-  wrong.
-- Monitoring and observability are different. Monitoring detects a symptom.
-  Observability helps diagnose root cause through context, correlation, logs,
-  and lineage.
-- Lineage turns an alert into impact analysis because teams can see which
-  dashboards, ML jobs, and downstream consumers are affected.
-- Good pipelines can still deliver bad data. Pipeline success isn't enough if
-  volume, schema, or freshness changed in a way that breaks the
-  use case.
-- False positives are an adoption risk. Alerts need context, thresholds,
-  ownership, and runbooks or teams will ignore them.
+Around 16:38 in
+[Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }}),
+Moses defines five signals for data observability.
 
-## Connected Concepts
+- Freshness asks whether data arrived on time.
+- Volume asks whether the amount of data is plausible.
+- Distribution checks whether values moved into unexpected ranges or formats.
+- Schema watches tables and fields for structural changes.
+- Lineage maps upstream causes and downstream impact.
 
-Use these existing hubs for follow-up topic work:
+These are data signals, not just pipeline signals.
+Around 13:40, Moses discusses silent failures where a job is green but only a
+fraction of the expected rows arrived. Values may become null, or numeric fields
+may contain unexpected strings.
 
-- [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
-  for freshness, schema, lineage, and data downtime.
-- [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
-  for platform ownership, pipeline contracts, lineage, and downstream impact.
-- [MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }}) for
-  production reliability when models depend on data freshness and quality.
-- [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
-  for the consumer-facing trust problem that makes data downtime a product
-  issue.
+Around 21:57, she names this the "good pipelines, bad data" problem. A healthy
+orchestrator run still needs
+[testing]({{ '/wiki/testing/' | relative_url }}), data quality checks, and
+runtime observability. The practical checklist version appears in
+[DataOps Checks for Data Pipelines]({{ '/how-tos/dataops-checks-for-data-pipelines/' | relative_url }}).
 
-## Source Links
+## Monitoring, Diagnosis, and Lineage
 
-Use these sources for verification:
+Moses separates monitoring from observability around 24:31 in
+[Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }}).
+Monitoring tells the team that something changed, such as a freshness problem.
+Observability helps the team understand why it happened, what downstream assets
+are affected, and whether the incident should be fixed immediately.
 
-- Canonical podcast index:
-  [DataTalks.Club Podcast]({{ '/podcasts/' | relative_url }})
-- Person source: `../datatalksclub.github.io/_people/barrmoses.md`
-- Podcast source:
-  `../datatalksclub.github.io/_podcast/data-quality-data-observability-data-reliability.md`
-- Useful incident timestamps include data downtime impact at 4:35, DevOps
-  observability origins at 6:56, batch data challenges at 9:49, and silent
-  failures at 13:40.
-- Useful operations timestamps include five pillars at 16:38, a schema-change
-  case study at 19:10, and monitoring versus observability at 24:31.
-- Ownership timestamps include RACI at 29:00, data SLAs at 35:24, and false
-  positives at 60:27.
+Lineage is the bridge from alert to action. In the schema-change discussion
+around 19:10, the episode shows how a source change can be announced in one
+place but missed by affected consumers. Moses ties that example to schema and
+lineage. An automated dependency map can tell which downstream jobs,
+dashboards, models, and reports need notice. Around 26:04 and 58:51, she returns
+to the same idea for root cause analysis and upstream or downstream impact.
 
-## Podcast Discussions
+That makes her episode a useful companion to
+[Model Monitoring vs Data Observability]({{ '/comparisons/model-monitoring-vs-data-observability/' | relative_url }}).
+When a model behaves badly, the model owner may see the symptom. Lineage may
+then show that the cause started in an upstream dataset, feature table, or
+schema change.
 
-- [Data Observability Explained: 5 Pillars to Prevent Downtime, Drift & False Positives]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }}). Related topics: [MLOps]({{ '/wiki/mlops/' | relative_url }}), [data observability]({{ '/wiki/data-observability/' | relative_url }}).
+## Ownership, SLAs, and Runbooks
+
+Moses doesn't treat observability as alerts alone. Around 29:00 in
+[Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }}),
+she uses RACI to separate responsible and accountable roles. The same framework
+also names who should be consulted or informed across the data lifecycle. In a
+small company, one data engineer may own most of the response. In a large
+company, decentralized teams need self-service observability while a central
+platform group defines the supported approach.
+
+Around 35:24, she connects ownership to data SLAs. A team consuming a feature
+table may need data five minutes after a user action, while another table can
+wait. That agreement helps responders prioritize incidents. Around 41:03, she
+adds runbooks and playbooks. The team should know who gets informed, which
+systems the data engineers look at, and which steps they take.
+
+The runbook should also say how the affected consumer is protected while the
+incident is being fixed.
+
+This operating model sits close to
+[DataOps]({{ '/wiki/dataops/' | relative_url }}). It also complements
+[Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }}), who
+emphasizes DataOps automation, tests, and production recovery.
+[Lars Albertsson]({{ '/people/larsalbertsson/' | relative_url }}) connects
+platform design to repeatable data delivery.
+
+## Testing, Platforms, and False Positives
+
+Moses supports tests, but she warns that tests alone cover only known failure
+modes. Around 50:52 in
+[Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }}),
+she discusses test-driven data development, dbt checks, and manually defined
+expectations. Those checks help, but teams still need monitoring and
+observability for changes they didn't know to encode as tests. That boundary
+connects her episode to [dbt]({{ '/wiki/dbt/' | relative_url }}) and the
+practical guide
+[Data Observability for Data Engineering]({{ '/guides/data-observability-for-data-engineering/' | relative_url }}).
+
+Her platform advice is similarly pragmatic. Around 47:00, she argues that a
+strong observability solution needs end-to-end visibility across warehouses and
+lakes. It also has to cover ETL, BI, and ML assets.
+
+Around 54:23-57:13, she says data observability should work across cloud
+providers and distributed environments. It should still give the organization a
+central way to define SLAs and reliability standards.
+
+The final incident nuance comes around 1:00:27. Moses says a data change can be
+uncommon without being bad. Teams still need to know because the change may
+affect a downstream model, report, or customer workflow. Around 1:02:06, she
+warns against alert fatigue.
+
+Useful observability combines data and metadata with lineage, usage, and
+dependency context. That context helps teams act on events that matter.
