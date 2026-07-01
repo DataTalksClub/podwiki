@@ -15,25 +15,26 @@ related:
 ---
 
 Data teams are the organizational design around data work. They decide who owns
-pipelines and analytical models, who maintains ML systems and metrics, and who
-is accountable for stakeholder and quality commitments. DataTalks.Club guests
-don't treat a data team as one job family. They
-describe a coordination model that spans [analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }}),
+pipelines and analytical models, who maintains ML systems and metrics, and
+who's accountable for stakeholder and quality commitments.
+
+DataTalks.Club guests don't treat a data team as one job family. They describe
+a coordination model that spans
+[analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }}),
 [data engineering platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}),
-and [data product management]({{ '/wiki/data-product-management/' | relative_url }}).
+[data product management]({{ '/wiki/data-product-management/' | relative_url }}).
 It also reaches [communication]({{ '/wiki/communication/' | relative_url }}) and
 [leadership]({{ '/wiki/leadership/' | relative_url }}).
 
-Guests return to the same design question. Leaders can centralize data work or
-embed it in product and business domains. They can also use a hybrid model with
-shared standards.
-Lisa Cohen frames this directly in
-[Designing a Data Science Organization]({{ '/podcasts/data-science-team-structure-and-org-design/' | relative_url }}).
-In that episode, she compares centralized, decentralized, and hybrid models for
-data science teams.
+The recurring design question is where authority should sit. Leaders can
+centralize data work or embed it in product and business domains. They can also
+use a hybrid model with shared standards.
 
-[Zhamak Dehghani]({{ '/people/zhamakdehghani/' | relative_url }}) makes the same
-question architectural in
+[Lisa Cohen]({{ '/people/lisacohen/' | relative_url }}) frames that choice in
+[Designing a Data Science Organization]({{ '/podcasts/data-science-team-structure-and-org-design/' | relative_url }}).
+She compares centralized teams, decentralized teams, and hybrid models.
+[Zhamak Dehghani]({{ '/people/zhamakdehghani/' | relative_url }})
+makes the same question architectural in
 [Data Mesh 101]({{ '/podcasts/data-mesh-architecture-decentralized-data-products/' | relative_url }}).
 In that model, domain teams own data products. Platform and governance work
 keeps those products discoverable and interoperable.
@@ -80,11 +81,12 @@ for experiment tracking, annotation, and procurement.
 
 Data teams work when people make the interfaces explicit.
 [Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }})
-separates the roles by the work each person owns in an ML product.
+separates roles by the work each person owns in an ML product. Product managers
+keep the team close to the user. Data scientists test whether the problem
+should become a project.
 
-Product managers keep the team close to the user. Data scientists test whether
-the problem should become a project. Data engineers make usable data available.
-ML engineers bring models into software systems.
+Data engineers make usable data available, while ML engineers bring models into
+software systems.
 
 That role split matters less as a rigid org chart than as a set of handoffs.
 Data engineers and platform engineers make data available. Analytics engineers
@@ -94,7 +96,7 @@ Analysts and data scientists translate questions into metrics and
 recommendations. They may also run experiments or build models. Product and
 business partners decide what action the work should support.
 
-This is why data teams connect naturally to
+The same interface logic links data teams to
 [data products]({{ '/wiki/data-products/' | relative_url }}) and
 [team building]({{ '/wiki/team-building/' | relative_url }}). The team succeeds
 when someone owns the user, the data interface, the quality bar, and the
@@ -124,7 +126,7 @@ practices, and adopt playbooks without waiting on a central bottleneck. Around
 use-case pipelines.
 
 Data product ownership asks who's accountable for a data asset once other
-people depend on it. Dehghani's data mesh discussion connects that answer to
+people depend on it. Dehghani's data mesh discussion grounds that answer in
 [data mesh]({{ '/wiki/data-mesh/' | relative_url }}),
 [self-service data platforms]({{ '/wiki/self-service-data-platforms/' | relative_url }}),
 and [data engineering platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}).
@@ -151,10 +153,11 @@ people who rely on it.
 
 Small data teams usually start with generalists. In
 [Building a Data Science Team]({{ '/podcasts/building-data-team/' | relative_url }}),
-Dat Tran argues for T-shaped engineers in early startups, then a shift toward
-specialists as maturity grows. He also ties hiring to product uncertainty. Build
-the prototype, learn what the MVP needs, and then hire around the product vision
-rather than fashionable titles.
+[Dat Tran]({{ '/people/dattran/' | relative_url }}) argues for T-shaped
+engineers in early startups, then a shift toward specialists as maturity grows.
+He also ties hiring to product uncertainty. Build the prototype, learn what the
+MVP needs, and then hire around the product vision rather than fashionable
+titles.
 
 As a data team grows, the risks change. Liang describes spreadsheet culture,
 dashboard distrust, production ML gaps, and governance repairs in her team
@@ -168,57 +171,73 @@ quality pressure, hiring surges, and onboarding strain. He also talks about
 event streaming schemas and the need for senior engineers who can set
 conventions.
 
-Rahul adds the management version. Managers need empathy and situational awareness, but they
-also need explicit quality standards and enough technical credibility to guide
-tradeoffs. Without that mix, a team can ship more pipelines while making the
-platform harder to trust.
+Rahul adds the management version. Managers need empathy and situational
+awareness, but they also need explicit quality standards and enough technical
+credibility to guide tradeoffs. Without that mix, a team can ship more
+pipelines while making the platform harder to trust.
 
-## Guest Differences
+## Authority Placement
 
-Guests agree that data teams need ownership, communication, and trustworthy
-delivery. They differ on where to put authority.
+Podcast discussions agree that data teams need ownership, communication, and
+trustworthy delivery. They differ on where authority should sit.
+[Cohen]({{ '/people/lisacohen/' | relative_url }}) and
+[Bauer]({{ '/people/katiebauer/' | relative_url }}) focus on reporting lines
+and careers in data science teams. Cohen weighs centralization against
+embedded domain context in
+[Designing a Data Science Organization]({{ '/podcasts/data-science-team-structure-and-org-design/' | relative_url }}).
 
-Cohen and Bauer focus on reporting lines and careers in data science teams.
-Cohen weighs centralization against embedded context. Bauer focuses on manager
-expectations, craft quality, mentorship, and cross-functional work inside B2B
-SaaS. Their shared concern is that data people shouldn't become
-isolated ticket takers, whether they sit in a central team or a matrixed
-product organization.
+Bauer focuses on manager expectations and craft quality. She also emphasizes
+mentorship and cross-functional work in
+[B2B SaaS]({{ '/podcasts/hiring-and-managing-data-science-teams-in-b2b-saas/' | relative_url }}).
+Their shared concern is that data people shouldn't become isolated ticket
+takers, whether they sit in a central team or a matrixed product organization.
 
-Dehghani and Mehdi shift the center of gravity toward architecture and platform
-interfaces. Dehghani gives domain teams ownership of interoperable
-[data products]({{ '/wiki/data-products/' | relative_url }}), with federated
-governance and self-serve platforms around them. Mehdi keeps more attention on
-the scale-up platform team. He names conventions and playbooks, plus senior
-hiring, Kafka schemas, and schema guarantees. He also names the split between
-shared platform work and use-case delivery.
+Dehghani and Mehdi put more weight on architecture and platform interfaces.
+[Dehghani]({{ '/people/zhamakdehghani/' | relative_url }}) gives domain teams
+ownership of interoperable [data products]({{ '/wiki/data-products/' | relative_url }})
+with federated governance and self-serve platforms around them in
+[Data Mesh 101]({{ '/podcasts/data-mesh-architecture-decentralized-data-products/' | relative_url }}).
 
-Moorman and Liang care most about adoption, but they approach it from different
-sides. Moorman starts from last-mile decisions, personas, and prototypes. She
-then brings the work into meetings and measurable wins.
+[Mehdi OUAZZA]({{ '/people/mehdiouazza/' | relative_url }}) keeps the scale-up
+platform team in view in
+[Growing a Data Engineering Team in a Scale-Up]({{ '/podcasts/scaling-data-engineering-teams-self-service-platforms/' | relative_url }}).
+He names conventions and playbooks. He also names senior hiring, Kafka schemas,
+and schema guarantees. His work split separates shared platform work from
+use-case delivery.
 
-Liang starts from business operations and trust repair, using dashboards,
-warehouses, and forecasting as examples. She also uses quality checks and team
-workshops. Together they argue that a data team isn't healthy just because its
-stack works. People have to use the outputs in real decisions.
+Moorman and Liang both center adoption, but they start from different problems.
+[Moorman]({{ '/people/caitlinmoorman/' | relative_url }}) starts from last-mile
+decisions, personas, prototypes, and measurable wins in
+[Conquering the Last Mile in Data]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }}).
 
-## Adjacent Topics
+[Liang]({{ '/people/tammyliang/' | relative_url }}) starts from business
+operations and trust repair in
+[Building and Leading Data Teams]({{ '/podcasts/building-and-scaling-data-team/' | relative_url }}).
+She uses dashboards and a warehouse as examples. She also adds forecasting,
+quality checks, and team workshops. A data team isn't healthy just because its
+stack works. People have to use its outputs in real decisions.
 
-Data team design connects to [data product management]({{ '/wiki/data-product-management/' | relative_url }})
+## Neighboring Work
+
+Data team design overlaps with
+[data product management]({{ '/wiki/data-product-management/' | relative_url }})
 when teams need roadmaps, discovery, adoption metrics, and product owners for
-internal data assets. It connects to
+internal data assets. It overlaps with
 [analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
 when the organization needs tested models, governed metrics, documentation, and
-BI-ready datasets.
+BI-ready datasets. Liang's
+[data team buildout]({{ '/podcasts/building-and-scaling-data-team/' | relative_url }})
+shows both: dashboards and forecasting need analytical modeling, while adoption
+work needs the product habits Moorman describes in
+[Last-Mile Data Delivery]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }}).
 
-Use [Data Team Lead Role]({{ '/wiki/data-team-lead-role/' | relative_url }})
-for hiring order, trust repair, adoption, and head-of-data scope. It also covers
-manager-versus-expert boundaries. Use
-[Data Architect Role]({{ '/wiki/data-architect-role/' | relative_url }}) for
-end-to-end model structure, reusable templates, governance, and consumer-facing
-architecture.
-
-Data team design also connects to [leadership]({{ '/wiki/leadership/' | relative_url }})
-and [communication]({{ '/wiki/communication/' | relative_url }}) when managers
-must translate stakeholder demand into priorities, career growth, and operating
-standards.
+[Data Team Lead Role]({{ '/wiki/data-team-lead-role/' | relative_url }}) covers
+hiring order, trust repair, adoption, and head-of-data scope. It also covers
+manager-versus-expert boundaries. [Data Architect Role]({{ '/wiki/data-architect-role/' | relative_url }})
+covers end-to-end model structure, reusable templates, governance, and
+consumer-facing architecture. [Leadership]({{ '/wiki/leadership/' | relative_url }})
+and [communication]({{ '/wiki/communication/' | relative_url }}) become part of
+data team design when managers translate stakeholder demand into priorities.
+They also help managers handle career growth and operating standards, as Rahul
+Jain describes in
+[Data Engineering Leadership and Modern Data Platforms]({{ '/podcasts/data-engineering-leadership-and-modern-data-platforms/' | relative_url }}).

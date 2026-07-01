@@ -12,10 +12,10 @@ related:
   - Data Product Management
 ---
 
-Data quality means data is fit for the downstream decision. It also needs to fit
-the product, pipeline, or model that depends on it. Data observability is the
-operating practice that helps a team notice when that fitness changes and
-diagnose the cause. The closest adjacent wiki pages are
+Teams call data high-quality when it fits the downstream decision, product,
+pipeline, or model that depends on it. They use data observability to notice
+when that fitness changes and diagnose the cause. The closest adjacent wiki
+pages are
 [DataOps]({{ '/wiki/dataops/' | relative_url }}) and
 [Data Observability]({{ '/wiki/data-observability/' | relative_url }}).
 Platform and governance links include
@@ -23,34 +23,32 @@ Platform and governance links include
 [Data Governance]({{ '/wiki/data-governance/' | relative_url }}), and
 [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }}).
 
-Guests treat quality and observability as production reliability work, not as
-dashboard polish. In
+DataTalks.Club guests treat quality and observability as production reliability
+work, not as dashboard polish. In
 [Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }}),
 [Barr Moses]({{ '/people/barrmoses/' | relative_url }}) frames the failure mode
-as "data downtime". Analytics teams, ML models, and business workflows can
-receive data that exists but is late or incomplete. It may also be malformed or
-shifted.
+as "data downtime." Analytics teams, ML models, and business workflows can
+receive data that exists but is late or incomplete. The data may also be
+malformed or shifted.
 
-In the DataOps episodes,
+Across the DataOps episodes,
 [Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }}) connects
-the same failures to tests and CI/CD. He also connects them to version control,
-observability, runbooks, and automated playbooks in
+the same failures to tests and CI/CD. He also ties reliability to version
+control, observability, runbooks, and automated playbooks in
 [DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }})
 and
 [Mastering DataOps]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }}).
 
-Use this page for the combined reliability concept. Use
-[Data Observability]({{ '/wiki/data-observability/' | relative_url }}) for the
-monitoring and diagnosis discipline, [DataOps]({{ '/wiki/dataops/' | relative_url }})
-for delivery practices around data pipelines, and
-[MLOps]({{ '/wiki/mlops/' | relative_url }}) when the failure affects deployed
-models.
+Use this page for the combined reliability concept. For narrower topics, follow
+[Data Observability]({{ '/wiki/data-observability/' | relative_url }}) for
+monitoring and diagnosis, [DataOps]({{ '/wiki/dataops/' | relative_url }}) for
+data pipeline delivery, and [MLOps]({{ '/wiki/mlops/' | relative_url }}) for
+deployed model failures.
 
-## Common Definition
+## Reliable Data Work
 
-Across these reliability episodes, reliable data teams try to prevent
-avoidable bad data, detect unhealthy data quickly, and make the recovery path
-obvious. In
+Reliable data teams try to prevent avoidable bad data, detect unhealthy data
+quickly, and make the recovery path obvious. In
 [Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }}),
 [Barr Moses]({{ '/people/barrmoses/' | relative_url }}) names freshness and
 volume at 16:38. She also names distribution, schema, and lineage. At 24:31,
@@ -58,7 +56,7 @@ she separates monitoring from observability. Monitoring detects that something
 changed, while observability helps the team find the cause.
 
 [Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }}) gives the
-operating definition in
+operating version of the same idea in
 [DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }}).
 At 15:52, he groups automation, observability, and productivity as core DataOps
 practices. At 30:55, the discussion moves to CI/CD pipelines, regression tests,
@@ -74,10 +72,10 @@ maintenance to data drift and concept drift at 47:30. In
 testing because production AI systems inherit reliability problems from data
 pipelines, prompt inputs, and evaluation checks.
 
-## Differences Between Guests
+## Failure Modes
 
-Guests agree that quality requires more than "the job ran", but they start from
-different failure modes.
+The podcast discussions agree that quality requires more than "the job ran",
+but the guests start from different failure modes.
 
 [Barr Moses]({{ '/people/barrmoses/' | relative_url }}) starts from invisible
 data failure. At 13:40 in
@@ -163,8 +161,8 @@ cause. Lineage adds upstream and downstream impact.
 At 58:51, she returns to automatic lineage across warehouses and lakes. She also
 includes BI tools and downstream assets.
 
-The platform has to expose enough metadata for responders to act, which
-connects observability to
+Responders need platform metadata before they can act, so observability sits
+beside
 [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}).
 
 Not every anomaly is bad data. At 1:00:27 in
@@ -182,8 +180,8 @@ Observability only helps when the right team can act. In
 to separate responsible or accountable roles from consulted or informed roles.
 At 35:24, she connects quality to data SLAs. A data scientist may need a
 feature table five minutes after a user action, while another table can wait.
-The SLA tells a platform or pipeline team which freshness incident deserves
-immediate response.
+Platform and pipeline teams use that SLA to decide which freshness incident
+deserves immediate response.
 
 At 47:00, [Barr Moses]({{ '/people/barrmoses/' | relative_url }}) warns against
 naive alerting. She says a useful observability system should reduce false
@@ -248,9 +246,9 @@ observability, platform teams should standardize logging and metadata. They
 should also standardize lineage, tests, and deployment paths without making
 incidents hard to debug.
 
-## Related Pages
+## Related Topics
 
-Continue with these adjacent pages:
+Adjacent topics cover the narrower operating disciplines and platform areas:
 
 - [Data Observability]({{ '/wiki/data-observability/' | relative_url }})
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})

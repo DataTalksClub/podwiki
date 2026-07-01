@@ -14,212 +14,241 @@ related:
   - Evaluation
 ---
 
-Deep learning is the part of
-[machine learning]({{ '/wiki/machine-learning/' | relative_url }}) that uses
-neural networks to learn representations from data. In DataTalks.Club
-episodes, guests use it most often for
+Deep learning is the neural-network part of
+[machine learning]({{ '/wiki/machine-learning/' | relative_url }}). The
+DataTalks.Club podcast uses it most often for
 [computer vision]({{ '/wiki/computer-vision/' | relative_url }}) and large
-language models. They also use it for medical imaging, remote sensing, and
-autonomous-driving perception. The topic sits inside
-[AI]({{ '/wiki/ai/' | relative_url }}), but guests treat it as engineering
-work rather than a magic model choice.
+language models. Medical imaging, remote sensing, and autonomous-driving
+perception also appear in the same thread. It sits inside
+[AI]({{ '/wiki/ai/' | relative_url }}), but guests treat it as engineering work.
+The team still has to collect data, train a model, evaluate failure cases, and
+ship within system constraints.
 
-Guests make a pragmatic case for deep learning when simpler approaches struggle
-with images, text, audio, or sensor streams. It also helps with other
-high-dimensional unstructured data. Deep learning adds cost too. Teams need
-enough labels and a reliable evaluation plan. They also need deployable
-inference and a reason the neural model beats a simpler baseline.
+The tradeoff is pragmatic because neural networks handle image, text, audio,
+and sensor data that are too complex for hand-built features alone.
+They also add cost, labeling needs, inference limits, and maintenance risk.
+The strongest podcast examples pair model choice with
+[evaluation]({{ '/wiki/evaluation/' | relative_url }}),
+[MLOps]({{ '/wiki/mlops/' | relative_url }}), and
+[production]({{ '/wiki/production/' | relative_url }}) decisions.
 
-## Start With These Discussions
+## Neural Models as Applied Perception
 
-These episodes anchor the topic:
+[Tatiana Gabruseva]({{ '/people/tatianagabruseva/' | relative_url }}) frames
+deep learning through computer vision in
+[Switch to Computer Vision and Deep Learning]({{ '/podcasts/from-physics-to-computer-vision-career-transition/' | relative_url }}).
+Her career-transition path starts with physics and online courses around 1:57
+and 2:32. Later chapters turn deep learning into visible project work. She
+compares Kaggle with internships around 42:34, recommends end-to-end pet
+projects around 46:40, and gives a learning roadmap around 49:29.
 
-- [Switch to Computer Vision and Deep Learning]({{ '/podcasts/from-physics-to-computer-vision-career-transition/' | relative_url }}) with [Tatiana Gabruseva]({{ '/people/tatianagabruseva/' | relative_url }}) for a career roadmap, Kaggle work, pet projects, labeling, deployment, and Docker.
-- [Applying Computer Vision Research to Building Production-Ready AI Systems]({{ '/podcasts/from-computer-vision-research-to-autonomous-driving-ai/' | relative_url }}) with [Aishwarya Jadhav]({{ '/people/aishwaryajadhav/' | relative_url }}) for autonomous-driving perception, sensor tradeoffs, edge inference, validation stages, and release safety.
-- [From Biology to ML]({{ '/podcasts/from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers/' | relative_url }}) with [Isabella Bicalho]({{ '/people/isabellabicalho/' | relative_url }}) for open-source computer vision, transformer projects, green-space segmentation, and portfolio building.
-- [Data-Centric AI]({{ '/podcasts/data-centric-ai/' | relative_url }}) with [Marysia Winkels]({{ '/people/marysiawinkels/' | relative_url }}) for label quality, data edits, transfer learning, dataset gaps, and production feedback.
-- [Practical Machine Learning Engineering for Production]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }}) for the warning that SQL, statistics, or a simpler ML model may beat a hard-to-maintain deep learning system.
-- [From Software Engineering to Machine Learning]({{ '/podcasts/from-software-engineer-to-machine-learning/' | relative_url }}) with [Santiago Valdarrama]({{ '/people/svpino/' | relative_url }}) for the software-engineer path into ML, project-first learning, deployment basics, and MLOps fundamentals.
-- [Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}) with [Meryem Arik]({{ '/people/meryemarik/' | relative_url }}) for transformers, generative versus non-generative tasks, fine-tuning, retrieval, model compression, latency, cost, and evaluation.
-- [AI Engineering: Skill Stack, Agents, LLMOps, and How to Ship AI Products]({{ '/podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products/' | relative_url }}) with [Paul Iusztin]({{ '/people/pauliusztin/' | relative_url }}) for large neural networks in production and the wider AI engineering skill stack.
-- [Optimize Decisions with ML]({{ '/podcasts/machine-learning-decision-optimization/' | relative_url }}) with [Dan Becker]({{ '/people/danbecker/' | relative_url }}) for the boundary between model predictions and the decision systems that consume them.
+Those projects cover data work, labeling, deployment, and Docker. The roadmap
+adds Python and ML/DL plus SQL, algorithms, and system design.
 
-## Common Definition
+[Aishwarya Jadhav]({{ '/people/aishwaryajadhav/' | relative_url }}) makes deep
+learning concrete in autonomous driving. Her
+[Applying Computer Vision Research to Building Production-Ready AI Systems]({{ '/podcasts/from-computer-vision-research-to-autonomous-driving-ai/' | relative_url }})
+episode moves from sensor choices around 11:22 and camera-first perception
+around 14:45. Gesture recognition for traffic control appears around 19:57. The
+deep learning model isn't isolated from the vehicle system.
 
-Across these episodes, deep learning means using neural networks when a model must
-learn useful features rather than rely only on hand-built columns. Tatiana's
-career-transition episode ties deep learning to computer vision work. She
-covers Python, ML and DL courses, Kaggle practice, and end-to-end pet projects.
-Those projects include data collection, labeling, deployment, and Docker
-([Switch to Computer Vision and Deep Learning]({{ '/podcasts/from-physics-to-computer-vision-career-transition/' | relative_url }})).
+On-vehicle inference
+appears around 22:17, and quantization and compression appear around 23:28.
+Validation in simulation and closed tracks appears around 29:45, followed by
+staged releases around 32:43.
 
-Aishwarya makes the same definition concrete in autonomous driving. Her
-discussion covers camera and LiDAR tradeoffs, traffic-control gesture
-recognition, on-vehicle inference, and quantization. She also covers sensor
-data management, human annotation, and automated labeling. Simulation,
-closed-track testing, and staged releases come later in the same discussion
+Those episodes define deep learning as a representation-learning tool inside a
+larger perception system. Visual or sensor data becomes useful only when the
+team can label examples and measure errors. The team also has to decide how the
+prediction changes an application. Aishwarya's malaria-mapping example around
+24:05 and 27:03 shows the same structure outside cars. Satellite and
+topographic data support resource allocation only when the model output can be
+used by people in the field.
+
+## Transformers and Language Models
+
+Large language models are the other major deep learning thread.
+[Meryem Arik]({{ '/people/meryemarik/' | relative_url }}) explains the
+transformer-based view in
+[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}).
+She separates generative and non-generative models around 10:24, compares
+classification and generation around 11:44, and explains why LLMs matter
+for unstructured text around 14:45. For
+[generative AI]({{ '/wiki/generative-ai/' | relative_url }}), deep learning is
+the model layer. Retrieval, fine-tuning, serving, and evaluation decide whether
+the product works.
+
+Meryem's deployment discussion keeps model choice close to product constraints.
+Open-source and API models are compared around 16:48. Hidden API model changes
+appear around 18:46, and model size plus inference optimization appear around
+25:26. Fine-tuning appears around 26:30 and 31:38. Retrieval for changing
+knowledge appears around 40:46.
+
+Vector databases appear around 48:01. Latency and cost appear around 51:35,
+and human evaluation appears around 56:39. Those topics place deep learning beside
+[AI engineering]({{ '/wiki/ai-engineering/' | relative_url }}),
+[LLM production patterns]({{ '/wiki/llm-production-patterns/' | relative_url }}),
+[retrieval-augmented generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}),
+and [vector databases]({{ '/wiki/vector-databases/' | relative_url }}).
+
+[Paul Iusztin]({{ '/people/pauliusztin/' | relative_url }}) extends that view
+from models to shipped products in
+[Paul's AI engineering episode]({{ '/podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products/' | relative_url }}).
+He links deep learning and autonomous driving around 7:08 to a full-stack AI
+engineering skill stack around 22:29. RAG and knowledge management appear
+around 29:12, shipping pillars around 42:28, and portfolio work around 54:05.
+Neural-network skill gains value when it comes with software delivery, product
+ownership, and measurable behavior.
+
+## Simpler Models and Baselines
+
+Guests don't treat deep learning as the default answer.
+[Ben Wilson]({{ '/people/benwilson/' | relative_url }}) argues for
+maintainability before novelty in
+[Practical Machine Learning Engineering for Production]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }}).
+He discusses overcomplicated production
+failures around 10:35, emotional attachment to complex systems around 36:13,
+and novel algorithm risk around 39:17. The case for SQL or statistics before
+deep learning appears around 44:23. Reproducibility and environment assumptions
+appear around 46:22, along with cloud cost.
+
+[Dan Becker]({{ '/people/danbecker/' | relative_url }}) gives another boundary
+in
+[Optimize Decisions with ML]({{ '/podcasts/machine-learning-decision-optimization/' | relative_url }}).
+He separates predictions from real-world decisions around 3:00. Objectives and
+constraints appear around 9:00, uncertainty around 12:00, and prediction
+integration around 15:30. He discusses business-aligned loss functions around
+18:45.
+
+A neural model may improve a forecast, but supply-chain and pricing systems
+still need constraints, impact metrics, monitoring plus organizational
+adoption.
+Supply-chain work appears around 28:30, and pricing appears around 32:00.
+Impact metrics appear around 38:00. Monitoring appears around 41:00, and
+adoption appears around 44:00.
+
+For project work, the baseline is part of the claim. A strong deep learning
+example names the simpler method it beats. It also names the metric, error
+cases, and operating constraint that justify neural-network complexity.
+That standard links the topic to
+[machine learning portfolio projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}),
+[machine learning system design]({{ '/wiki/machine-learning-system-design/' | relative_url }}),
+and [model evaluation]({{ '/wiki/evaluation/' | relative_url }}).
+
+## Data, Labels, and Error Analysis
+
+Deep learning episodes repeatedly return to data quality because neural
+networks expose label problems as model failures.
+[Marysia Winkels]({{ '/people/marysiawinkels/' | relative_url }}) shifts the
+focus from big data to good data around 5:24 in
+[Data-Centric AI]({{ '/podcasts/data-centric-ai/' | relative_url }}).
+She contrasts model-centric and data-centric work around 5:54. Transfer
+learning and fine-tuning make label quality more important around 10:28. The
+fixed-ResNet competition around 13:45 shows how dataset edits can improve a
+vision system without changing the architecture.
+
+Marysia treats a dataset as something a team can look at and improve. She
+covers targeted data augmentation around 17:44 and editable datasets around
+18:46. Lightweight data edits appear around 23:24, spreadsheet-based labeling
+plus automation around 26:26, and targeted relabeling around 27:55. The same
+episode covers baseline-plus-error-analysis work with subject-matter experts
+around 33:16.
+
+Representativeness and bias appear around 35:24. Dataset gaps
+appear around 36:14, acceptance criteria around 41:47, and post-deployment
+feedback around 44:13.
+
+Aishwarya's autonomous-driving discussion turns the same data-quality issue
+into an operational requirement. Sensor data management appears around 31:02.
+Human annotation and automated labeling appear around 32:09. Release checks
+appear around 32:43. Geographic edge cases appear around 37:18.
+
+The discussion also covers
+inherited tests for sensitive cases around 51:28
 ([Applying Computer Vision Research]({{ '/podcasts/from-computer-vision-research-to-autonomous-driving-ai/' | relative_url }})).
-In that setting, the neural network is one part of a perception system that has
-to run fast, handle edge cases, and pass safety checks.
-
-Meryem extends the definition to large language models. She separates
-generative and non-generative models, then connects transformer-based LLMs to
-classification and generation. She also covers fine-tuning, retrieval,
-open-source deployment, and API tradeoffs
-([Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }})).
-For current [generative AI]({{ '/wiki/generative-ai/' | relative_url }}), deep
-learning is often the model layer inside the product. Retrieval, evaluation,
-and serving decide whether that product works.
-
-## Neural Network Use Cases
-
-Deep learning matters most in these discussions when the input is hard to summarize
-by hand. Vision examples include guide-dog navigation, autonomous-driving
-perception, and traffic gestures. Other examples include malaria mapping from
-satellite data and green-space segmentation. Aishwarya's episode emphasizes the system side of
-these use cases. The team has to validate perception changes in simulation, on
-closed tracks, and on roads before release
-([Applying Computer Vision Research]({{ '/podcasts/from-computer-vision-research-to-autonomous-driving-ai/' | relative_url }})).
-
-Isabella's episode shows a smaller project version, tracing a path from
-statistics into transformers. She then discusses Hugging Face community work,
-computer vision contributions, and a green-space segmentation project that
-compares CNNs with transformers
-([From Biology to ML]({{ '/podcasts/from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers/' | relative_url }})).
-The useful signal for a portfolio isn't only that a transformer appears in the
-notebook. The project has to explain the data, the task, the comparison, and
-the practical reason for using that model family.
-
-LLM work follows the same rule. Meryem frames LLMs as useful for
-unstructured text at scale, but she doesn't treat generation as the answer to
-every problem. She distinguishes classification from generation, then explains
-when teams choose fine-tuning and retrieval. She also compares API models with
-open-source serving
-([Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }})).
-That makes deep learning adjacent to [AI engineering]({{ '/wiki/ai-engineering/' | relative_url }}),
-where the model is only one part of the shipped product.
-
-## Simpler Baselines Still Matter
-
-DataTalks.Club guests don't treat deep learning as the default answer. In
-[Practical Machine Learning Engineering for Production]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }}),
-Ben Wilson argues for maintainable solutions. He explicitly places SQL or
-statistical approaches before deep learning when they solve the business
-problem. Neural networks can add cloud cost, reproducibility issues, dependency
-problems, and systems that are hard for the next engineer to operate.
-
-Dan Becker's decision-optimization discussion gives a second boundary: a model
-prediction isn't the same as a decision. In supply-chain and pricing examples,
-teams still need objectives, constraints, and uncertainty handling. They also
-need real-world impact metrics, monitoring, and organizational adoption
-([Optimize Decisions with ML]({{ '/podcasts/machine-learning-decision-optimization/' | relative_url }})).
-A deep learning model may produce a better forecast, but the business result
-depends on the decision system around it.
-
-This is why the deep learning page should be read with
-[model evaluation]({{ '/wiki/evaluation/' | relative_url }}) and
-[machine learning portfolio projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}).
-The model choice belongs in a comparison. A strong project explains the
-baseline, the metric, the error cases, and the operating constraint that makes
-the neural model worth its added complexity.
-
-## Data Quality and Labels
-
-Deep learning discussions repeatedly return to data quality. Marysia's
-data-centric AI episode shifts attention from big data to good data. She
-discusses transfer learning, fine-tuning, and a fixed-ResNet data-centric
-competition. She also covers targeted relabeling with model confidence and
-image embeddings. Dataset completeness, bias, acceptance criteria, and
-production feedback belong in the same data-quality discussion
-([Data-Centric AI]({{ '/podcasts/data-centric-ai/' | relative_url }})).
-
-A neural network can expose label problems instead of fixing them. Marysia
-starts with a baseline model and error analysis, then brings in subject-matter
-experts and targeted data edits. She also covers low-tech labeling with
-spreadsheets and automation scripts. Many teams improve a deep learning system
-through better labels before they change the architecture.
-
-Aishwarya's autonomous-driving discussion makes label quality operational
-through sensor data management and privacy. She also covers human annotation
-and automated labeling at scale
-([Applying Computer Vision Research]({{ '/podcasts/from-computer-vision-research-to-autonomous-driving-ai/' | relative_url }})).
-Those topics connect deep learning to [MLOps]({{ '/wiki/mlops/' | relative_url }}).
-Teams maintain training data and labels as system assets. Validation sets and
-release gates become maintained assets too, not one-time notebook inputs.
+For deep learning teams, training data and labels are maintained assets.
+Validation sets and release gates are maintained assets too, not disposable
+notebook inputs.
 
 ## Production Constraints
 
-Production deep learning is constrained by inference speed, hardware, and cost.
-Privacy, release safety, and maintainability constrain it too. Aishwarya covers
-on-vehicle inference, model compression, and quantization. She also discusses
-simulation and staged deployment.
+Production deep learning is constrained by speed and hardware, plus privacy,
+safety, and cost. Aishwarya covers mobile navigation hardware limits around
+9:14.
 
-She also covers geographic edge cases for autonomous driving
+Vehicle inference appears around 22:17, and compression appears around 23:28.
+Simulation and closed-track testing appear around 29:45. Aishwarya discusses
+staged deployment around 32:43.
+
+Cross-domain transfer to robotics and drones appears around 36:12
 ([Applying Computer Vision Research]({{ '/podcasts/from-computer-vision-research-to-autonomous-driving-ai/' | relative_url }})).
-That discussion shows why production vision work isn't finished when the
-offline score improves.
+An offline score isn't enough when a model must run on a device, respond
+quickly, and handle geography-specific edge cases.
 
-Meryem covers the LLM version of the same constraint. She discusses open-source
-models versus API models and hidden API model changes. Model size, compression,
-and inference optimization matter in the same deployment discussion.
+LLM systems face the same production pressure in a different form. Meryem
+discusses model drift risk with API models around 18:46. Model compression and
+inference optimization appear around 25:26. Prototyping versus production
+choices appear around 49:44.
 
-She also covers fine-tuning data formats, retrieval for changing knowledge, and
-vector databases. Latency and cost complete the production picture. So do
-gold-standard examples and human evaluation
+Latency and cost appear around 51:35, and gold-standard examples appear around 53:34
 ([Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }})).
 
-That places transformer systems close to
-[production]({{ '/wiki/production/' | relative_url }}),
-[MLOps]({{ '/wiki/mlops/' | relative_url }}), and the practical
-[MLOps]({{ '/wiki/mlops/' | relative_url }}).
+The model family matters, but deployment choices determine privacy and runtime.
+They also determine failure visibility and budget.
 
-Paul's AI engineering discussion connects deep learning to the current product
-stack. His background includes large neural networks in production. The
-episode moves from autonomous-driving deep learning to full-stack AI products,
-RAG, and knowledge management. It also covers technical pillars for shipping
-and portfolio work
-([Paul's AI engineering episode]({{ '/podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products/' | relative_url }})).
-For modern teams, deep learning skill is valuable when it's paired with
-software delivery, evaluation, and product ownership.
+Those constraints make deep learning inseparable from
+[MLOps]({{ '/wiki/mlops/' | relative_url }}),
+[production]({{ '/wiki/production/' | relative_url }}), and
+[AI infrastructure]({{ '/wiki/ai-infrastructure/' | relative_url }}). The
+practical stance isn't "use a neural network." Use one when the data,
+evaluation evidence, and operating constraints justify it.
 
-## Career and Project Signals
+## Career and Portfolio Signals
 
-DataTalks.Club career episodes treat deep learning as something to demonstrate
-through projects, not only credentials. Tatiana recommends end-to-end computer
-vision pet projects with data collection, labeling, deployment, and Docker.
-She also discusses Kaggle, internships, mentors, and interview preparation. Her
-learning roadmap includes Python, ML and DL courses, and SQL. It also includes
-algorithms and system design
-([Switch to Computer Vision and Deep Learning]({{ '/podcasts/from-physics-to-computer-vision-career-transition/' | relative_url }})).
+Career episodes treat deep learning as something to demonstrate through
+projects. Tatiana recommends end-to-end computer vision pet projects around
+46:40 in
+[Switch to Computer Vision and Deep Learning]({{ '/podcasts/from-physics-to-computer-vision-career-transition/' | relative_url }}).
+The same episode covers Kaggle teams around 15:56, Kaggle versus internships
+around 42:34, and interview preparation around 1:04:34. A credible project
+shows the data source, labeling path, deployment route, and reason for the
+neural model.
 
-Santiago gives the software-engineer version. He tells engineers to start
-projects instead of overpreparing, communicate ML simply, analyze the problem
-before coding, and learn deployment basics. Those basics include APIs, Docker,
-and cloud providers. They also include data pipelines, monitoring, and MLOps
-([From Software Engineering to Machine Learning]({{ '/podcasts/from-software-engineer-to-machine-learning/' | relative_url }})).
-That path matters for deep learning because many useful neural-network
-projects fail on engineering habits rather than model math.
+[Santiago Valdarrama]({{ '/people/svpino/' | relative_url }}) gives the
+software-engineer route in
+[From Software Engineering to Machine Learning]({{ '/podcasts/from-software-engineer-to-machine-learning/' | relative_url }}).
+He emphasizes starting projects instead of overpreparing around 17:25,
+communicating ML simply around 13:00, problem analysis before coding around
+26:39, and deployment basics around 49:23. His discussion around 46:39 covers
+data pipelines, deployment, monitoring, and MLOps. Those habits matter because
+many neural-network demos fail on engineering rather than model math.
 
-Isabella's portfolio examples add open source and community work. Her episode
-covers Hugging Face course contributions, computer vision review work, and
-open-source project types. She also discusses green-space segmentation. Project
-work becomes job-ready experience in the same discussion
-([From Biology to ML]({{ '/podcasts/from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers/' | relative_url }})).
+[Isabella Bicalho]({{ '/people/isabellabicalho/' | relative_url }}) adds an
+open-source route in
+[From Biology to ML]({{ '/podcasts/from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers/' | relative_url }}).
 
-Together, these episodes set a high bar. A deep learning portfolio should show
-problem framing, data work, and a baseline. It should also show evaluation and
-some awareness of how the model would run after the notebook.
+She moves from statistics to transformers around 8:29, and Hugging Face
+computer vision contributions appear around 26:30. Open-source project types
+appear around 37:26, and green-space segmentation appears around 40:12. The
+segmentation example uses Sentinel-2, CNNs, and transformers. Her portfolio
+framing around 42:24 shows
+why a project should explain the task and data.
 
-## Nearby Topics
+It should also explain the comparison and the practical reason for the model
+family.
+
+## Related Topics
 
 Use [machine learning]({{ '/wiki/machine-learning/' | relative_url }}) for the
 broader modeling discipline and
-[computer vision]({{ '/wiki/computer-vision/' | relative_url }}) for the
-strongest image and sensor examples in these episodes. Use
-[generative AI]({{ '/wiki/generative-ai/' | relative_url }}) and
-[AI engineering]({{ '/wiki/ai-engineering/' | relative_url }}) for transformer
-applications, RAG, agents, and product work. Use
+[computer vision]({{ '/wiki/computer-vision/' | relative_url }}) for image and
+video cases plus sensor and remote-sensing examples. Use
+[generative AI]({{ '/wiki/generative-ai/' | relative_url }}),
+[AI engineering]({{ '/wiki/ai-engineering/' | relative_url }}), and
+[LLM production patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
+for transformer applications and RAG. They also cover agents and product work.
+Use
 [MLOps]({{ '/wiki/mlops/' | relative_url }}),
 [production]({{ '/wiki/production/' | relative_url }}), and
-[model evaluation]({{ '/wiki/evaluation/' | relative_url }}) when the question
-is whether a deep learning system is reliable enough to ship.
+[evaluation]({{ '/wiki/evaluation/' | relative_url }}) when the question is
+whether a deep learning system is reliable enough to ship.

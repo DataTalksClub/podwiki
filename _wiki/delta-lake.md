@@ -13,187 +13,147 @@ related:
 ---
 
 Delta Lake appears in DataTalks.Club podcast discussions as an open lakehouse
-table format rather than as a standalone architecture. The strongest discussion comes
-from [Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) in
+table format, not as a complete architecture. It sits above files in a
+[data lake]({{ '/wiki/data-lake/' | relative_url }}) and gives teams table
+behavior on open storage. The surrounding
+[data engineering platform]({{ '/wiki/data-engineering-platforms/' | relative_url }})
+still owns compute and catalogs. It also owns access, lineage, orchestration,
+and cost.
+
+[Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) gives the
+clearest table-format framing in
 [Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}).
 He first explains [Apache Iceberg]({{ '/wiki/apache-iceberg/' | relative_url }})
-as a table format over Parquet storage. Later, he compares Delta Lake, Hudi,
-and Iceberg as table-format choices (18:17 and 49:42).
+as a table format over Parquet storage. He then separates storage and compute
+from access, metadata, and lineage
+([18:17-23:41]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }})).
+At 30:31 he says DLT is already serving headless Delta Lake and working on
+similar Iceberg support. At 49:42 he compares Delta Lake, Hudi, and Iceberg as
+related table-format options.
 
-That matters because guests usually talk about Delta Lake through
-comparison. This topic covers the Delta Lake side of the lakehouse discussion.
-Treat the Iceberg page as the deeper podcast-backed explanation of open table
-formats, catalogs, metadata, and vendor lock-in. Use
-[Data Lake]({{ '/wiki/data-lake/' | relative_url }}) for the storage layer and
+For architecture decisions, use
 [Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
-for the architecture tradeoff.
-
-For the dedicated side-by-side decision page, use
+beside this page. For the direct format comparison, use
 [Delta Lake vs Apache Iceberg]({{ '/comparisons/delta-lake-vs-apache-iceberg/' | relative_url }}).
 
-## Common Definition
+## Lakehouse Table Layer
 
-In these podcast discussions, Delta Lake is a table format for lakehouse
-storage. It sits above files in a [data lake]({{ '/wiki/data-lake/' | relative_url }}) and
-helps teams add table behavior to open storage. That table layer belongs
-beside compute engines, catalogs, metadata, and lineage. It also belongs beside
-access controls.
-
-Brudaru's episode gives the clearest layer model. He separates storage and
-compute from access, metadata, and lineage. He does this while explaining
-Iceberg and catalogs. At 30:31, he says DLT supports Delta Lake and Iceberg in the same
-headless-table-format discussion
+Delta Lake belongs to the table layer of a lakehouse. In Brudaru's layer model,
+files and compute aren't enough. Catalogs and metadata sit around the table
+format too, alongside access and lineage
 ([Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}),
-18:17-30:31). Delta Lake is therefore one table-format choice inside a broader
-[data engineering platform]({{ '/wiki/data-engineering-platforms/' | relative_url }}).
-
-[Lars Albertsson]({{ '/people/larsalbertsson/' | relative_url }}) supplies the
-older platform framing. In
-[DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}),
-he describes raw lake storage, object storage, and governance. He also covers
-ingress, egress, and self-service SQL
-(21:29-30:34 and 1:07:52).
-
-That context keeps Delta Lake from becoming a magic label. A table format helps
-only when the team also operates the platform around the table.
-
-## Delta, Hudi, and Iceberg
-
-Brudaru's 49:42 chapter compares Delta Lake with Hudi and Iceberg in
-[Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}).
-Earlier in the same episode, he criticizes buying a packaged modern data stack
-without decomposing the layers. Later, he argues for requirements-led tool
-selection (14:32 and 44:42).
-
-That sequence is important: Brudaru doesn't say "choose Delta Lake" in
-general. He says teams should pick the table format after they name storage,
-compute, and catalog constraints. Cost and governance matter too.
-
-Delta Lake also appears beside Iceberg in the DLT chapter. Brudaru connects
-cost-efficient pipelines with
-[DuckDB]({{ '/wiki/duckdb/' | relative_url }}) and GitHub Actions. He then
-moves to headless table formats before naming DLT support for Delta Lake and
-Iceberg
-([Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}),
-25:58-30:31). That makes Delta Lake relevant to smaller, portable pipeline
-experiments as well as larger lakehouse platforms.
-
-The available podcast evidence gives less detail about Hudi on this page's
-source path. Hudi is useful as the third named comparison point, but the
-reusable point is about the decision boundary. Table formats differ in engine support,
-catalog integration, operational maturity, and lock-in risk.
-
-## Contrast With Iceberg
-
-[Apache Iceberg]({{ '/wiki/apache-iceberg/' | relative_url }}) has stronger
-coverage in DataTalks.Club discussions. Brudaru names Iceberg adoption as a 2025 trend, then
-uses it to explain Parquet-backed table formats and reduced vendor lock-in
-([Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}),
-16:40-18:17). He also spends time on catalogs, metadata, and lineage. DuckDB
-and headless formats come before the later Delta/Hudi/Iceberg comparison.
-
-So the safest podcast-backed distinction isn't a feature-by-feature verdict:
-Iceberg is the format the podcast explains most fully. Delta Lake is the
-adjacent format the same episode places in the comparison set and in DLT
-support. For open storage, multi-engine access, and vendor-lock-in reduction,
-these episodes point readers to the Iceberg discussion first. Some teams already
-use Delta Lake tooling.
-
-Some pipeline tools may need Delta Lake support. The podcast treats those cases
-as part of the same lakehouse table-format family.
-
-That distinction keeps the page honest. Delta Lake can be a legitimate
-lakehouse format, but the DataTalks.Club evidence is thinner than the Iceberg
-evidence. Claims about Delta Lake should stay tied to the comparison chapter,
-DLT support, and the wider lakehouse platform discussion.
-
-## Table-Format Triggers
-
-Delta Lake matters when a team needs table semantics on lake storage.
-
-At least one concrete requirement is usually present:
-
-- Multiple engines need to read and write shared tables.
-- The team wants to keep data in open storage.
-- The platform needs versioned table metadata rather than loose files.
-
-[Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) explains why the
-storage boundary matters in
-[ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}).
-She contrasts warehouses, marts, and data lakes. She then warns that unmanaged
-lakes become data swamps without governance and ownership (15:30-24:24). Her
-episode doesn't center Delta Lake, but it explains the problem that lakehouse
-formats try to solve. Flexible storage still needs structure, trust, and
-consumer-facing access.
-
-Albertsson adds the [DataOps]({{ '/wiki/dataops/' | relative_url }}) version.
-He argues for immutable, reproducible platform design before he discusses raw
-lake storage and object storage. He also covers compute engines and workflow
-engines. Lineage, versioning, and lakehouse architecture come later
-([DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}),
-16:42-35:57 and 1:04:18-1:07:52).
-
-Delta Lake fits this kind of platform only when the team also runs the
-ingestion and transformation paths around it. It also needs testing and access
-paths.
-
-Table formats matter less when the main bottleneck is analyst-facing modeling.
-Kwong's [modern data stack]({{ '/wiki/modern-data-stack/' | relative_url }})
-discussion shows why a warehouse-centered ELT flow can be enough for many
-teams. They may get more value from ingestion reliability and dbt-style
-transformation before they change the lake table format. Orchestration,
-documentation, and reverse data flows may matter more too
-([ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
-7:57-18:47 and 30:59-35:42).
-
-## Platform and Governance Work
-
-Delta Lake belongs in the platform layer. A team still needs catalog choices,
-metadata, and lineage around the table format. Permissions and cost controls
-belong there too.
-
-Brudaru names access, metadata, and lineage while explaining the database
-layers behind lakehouse systems
-([Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}),
-21:27-23:41). That connects Delta Lake directly to
+21:27-23:41). That placement keeps Delta Lake close to
 [Data Governance]({{ '/wiki/data-governance/' | relative_url }}), because the
-format doesn't decide dataset ownership. It also doesn't decide access rights
-or downstream trust.
+format can support table semantics but doesn't assign dataset ownership,
+permissions, or trust.
 
-This is also why the warehouse-versus-lakehouse decision should start from the
-consumer and operating model. A [data warehouse vs data lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
-choice isn't mainly a brand choice. It's a choice about where storage,
-compute, trust, and access should live. Brudaru's requirements-led guidance
-and Albertsson's platform chapters both support that reading
-([Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}),
-44:42).
-Albertsson supports it in
-[DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}),
-30:34-35:57.
+[Lars Albertsson]({{ '/people/larsalbertsson/' | relative_url }}) gives the
+older platform version of the same idea in
+[DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}).
+He discusses raw lake storage and object storage. He also covers ingress,
+egress, and self-service SQL. Workflow engines and lakehouse architecture appear
+with lineage and versioning
+([16:42-35:57 and 1:04:18-1:07:52]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }})).
 
-For Delta Lake specifically, the practical podcast-backed checks are:
+Delta Lake fits that platform story only when the team can operate the
+ingestion and transformation paths around the tables. It also needs testing,
+access, and recovery paths.
 
-- Name the engines that need to read and write the same lakehouse tables.
-- Choose the catalog that will hold metadata, lineage, and access information.
-- Confirm whether the team's ingestion or platform tooling already supports
-  Delta Lake.
-- Compare the requirement with Iceberg's podcast-supported open-storage and
-  lock-in story.
+## Delta Lake, Hudi, and Iceberg
+
+Brudaru doesn't present Delta Lake as a default choice. In the same episode, he
+criticizes buying a packaged
+[modern data stack]({{ '/wiki/modern-data-stack/' | relative_url }}) without
+decomposing its layers. He then argues for requirements-led tool selection
+([14:32 and 44:42]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }})).
+
+The Delta/Hudi/Iceberg comparison at 49:42 follows that logic. Choose the table
+format after the team names its storage and compute constraints. Catalog,
+governance, and cost constraints belong in the same decision.
+
+The DataTalks.Club material gives deeper coverage to
+[Apache Iceberg]({{ '/wiki/apache-iceberg/' | relative_url }}) than to Delta
+Lake. Brudaru names Iceberg adoption as a 2025 trend, describes it over
+Parquet, and ties it to reduced vendor lock-in
+([16:40-18:17]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }})).
+Delta Lake appears beside Iceberg through DLT support at 30:31 and the
+Delta/Hudi/Iceberg comparison at 49:42. He also describes Delta as the most
+mature of those three options in that comparison chapter.
+
+That distinction matters for reuse across the wiki. Claims about open storage,
+catalogs, metadata, and lock-in should usually point readers to the
+[Iceberg page]({{ '/wiki/apache-iceberg/' | relative_url }}). Claims about
+Delta Lake should stay tied to tool support, Spark-oriented versioning, and
+existing Delta-oriented lakehouse environments.
+
+## Spark Versioning and Historical Reruns
+
+[Roksolana Diachuk]({{ '/people/roksolanadiachuk/' | relative_url }}) provides
+the clearest Delta-specific operating example in
+[Big Data Engineer vs Data Scientist]({{ '/podcasts/big-data-engineer-vs-data-scientist/' | relative_url }}).
+She describes deduplication, month-old data mistakes, risky production
+rewrites, and resource-heavy historical reruns. Then she names Delta Lake with
+Spark as a way to track data versions and travel back to earlier data states
+([58:05-1:00:25]({{ '/podcasts/big-data-engineer-vs-data-scientist/' | relative_url }})).
+
+Her example places Delta Lake near
+[data quality and observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}),
+[data engineering tools]({{ '/wiki/data-engineering-tools/' | relative_url }}),
+and [data engineering platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}).
+The practical requirement isn't the name of the format. It's the ability to
+recover from bad data, audit changes, rerun historical batches, and keep table
+state understandable to engineers who operate Spark-based jobs.
+
+## Portable and Smaller Lakehouse Work
+
+Delta Lake also appears in Brudaru's discussion of leaner data pipelines. He
+connects cost-efficient pipelines with
+[DuckDB]({{ '/wiki/duckdb/' | relative_url }}), GitHub Actions, and headless
+table formats before naming DLT support for Delta Lake and Iceberg
+([25:58-30:31]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }})).
+That sequence puts Delta Lake beside large lakehouse platforms and smaller
+portable experiments where teams still want table semantics on files.
+
+The same episode links table formats to
+[orchestration]({{ '/wiki/orchestration/' | relative_url }}). Brudaru compares
+Airflow, Prefect, Dagster, and GitHub Actions at 35:37. Albertsson places
+workflow engines inside scalable platform architecture
+([DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}),
+30:34-35:57). A Delta table is easier to justify when the surrounding jobs,
+tests, catalogs, and access paths can support repeated reads and writes.
+
+## Format Misfit
+
+[Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) explains why
+storage flexibility alone isn't enough in
+[ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}).
+She contrasts warehouses, marts, and lakes, then warns that unmanaged lakes
+become data swamps without governance and ownership
+([15:30-24:24]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})).
+Her episode doesn't center Delta Lake, but it explains the failure mode that
+lakehouse table formats are often asked to address.
+
+For analyst-facing work, a warehouse-centered ELT system may be enough. Kwong's
+modern-data-stack discussion covers ingestion and dbt-style transformation. It
+also covers orchestration, documentation, and reverse data flows
+([7:57-18:47 and 30:59-35:42]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})).
+
+Before changing a lake table format, teams should ask where the bottleneck
+sits:
+
+- ingestion reliability
+- [dbt]({{ '/wiki/dbt/' | relative_url }}) modeling
+- [analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
+- documentation
+- consumer access
+
+For Delta Lake specifically, the grounded checks are concrete:
+
+- Name the engines that need to read and write the same tables.
+- Choose the catalog that will hold metadata and lineage.
+- Confirm whether ingestion or platform tooling already expects Delta tables.
+- Compare the requirement with Iceberg's open-storage and lock-in story.
 - Assign ownership for governance, tests, documentation, and table operation.
 
-Those questions keep Delta Lake tied to DataTalks.Club guests' main lesson. Table
-formats matter when they serve a real lakehouse requirement. They don't replace
-the platform, governance, and DataOps work that makes lake data useful.
-
-## Related Pages
-
-Continue with these adjacent topics:
-
-- [Delta Lake vs Apache Iceberg]({{ '/comparisons/delta-lake-vs-apache-iceberg/' | relative_url }})
-- [Apache Iceberg]({{ '/wiki/apache-iceberg/' | relative_url }})
-- [Data Lake]({{ '/wiki/data-lake/' | relative_url }})
-- [Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
-- [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
-- [DataOps]({{ '/wiki/dataops/' | relative_url }})
-- [Data Governance]({{ '/wiki/data-governance/' | relative_url }})
-- [DuckDB]({{ '/wiki/duckdb/' | relative_url }})
+Those checks keep Delta Lake inside the lakehouse platform discussion instead
+of turning it into a generic data architecture label.

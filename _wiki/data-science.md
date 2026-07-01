@@ -14,50 +14,46 @@ related:
   - AI
 ---
 
-Data science turns business and product questions into evidence someone can
-use. It also covers operations questions. On DataTalks.Club, that evidence may
-be a SQL analysis or a forecast. It may be a ranking model, an A/B test, or a
-recommender system. It may also be a model-backed service.
+Data science turns business questions into evidence someone can use. It also
+covers product and operational questions. In DataTalks.Club discussions, that
+evidence may be a SQL analysis or a forecast. It may also be a ranking model,
+an A/B test, a recommender system, or a model-backed service.
 
-[Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }})
-sets the teaching boundary. Analysts explain what happened, and data scientists
-predict what will happen. They also help put those predictions into a product.
+In [Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }}),
+analysts explain what happened. Data scientists predict what will happen and
+help put those predictions into products. Later episodes show why the title
+still moves by company. A data scientist may sit close to product analytics or
+[machine learning]({{ '/wiki/machine-learning/' | relative_url }}). They may
+also work near
+[experimentation]({{ '/wiki/experimentation-and-causal-inference/' | relative_url }}),
+[data engineering]({{ '/wiki/data-engineering/' | relative_url }}), or
+first-data-hire responsibilities.
 
-Several episodes also warn that the boundary moves by company. In some
-companies, a data scientist job means product analytics or
-[machine learning]({{ '/wiki/machine-learning/' | relative_url }}). In others,
-it means
-[experimentation]({{ '/wiki/experimentation-and-causal-inference/' | relative_url }}).
-It may also mean
-[data engineering]({{ '/wiki/data-engineering/' | relative_url }}) or
-first-data-hire work.
-
-Use [Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }})
-for the role-level definition and
-[Data Science Careers]({{ '/wiki/data-science-careers/' | relative_url }}) for
-career paths. When evaluating a specific opening, use
+For role-level detail, see
+[Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }}). For
+career paths, see
+[Data Science Careers]({{ '/wiki/data-science-careers/' | relative_url }}) and
 [Job Search]({{ '/wiki/job-search/' | relative_url }}).
 
-## Common Definition
+## Decision Framing and Evaluation
 
-Across these podcast discussions, practitioners start data science work from a
-decision and end with a usable answer.
-[CRISP-DM Methodology]({{ '/podcasts/crisp-dm/' | relative_url }}) frames that
-work around business understanding and data preparation. It then moves through
-modeling, evaluation, and deployment. At 13:25 and 17:05, the discussion ties
-the model objective
-back to measurable business value instead of treating the algorithm as the goal.
-The 18:23 checkpoint keeps evaluation tied to the same business question.
+Data science starts from a decision and ends with a usable answer.
+In [CRISP-DM Methodology]({{ '/podcasts/crisp-dm/' | relative_url }}), a data
+science project starts with business understanding and data preparation. It
+then moves through modeling, evaluation, and deployment. At 13:25 and 17:05,
+the discussion ties the model objective back to measurable business value
+instead of treating the algorithm as the goal. The 18:23 checkpoint keeps
+evaluation tied to the same business question.
 
 In
 [Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }}),
 the analyst-versus-data scientist distinction is practical rather than
 academic. At 11:17, analysts quantify what happened, while data scientists
 build predictive services. Later, the episode connects data science work to
-Python and SQL. It also names machine learning, Flask, Docker, and simple model
-services.
+Python, SQL, and machine learning. It also names Flask, Docker, and simple
+model services.
 
-Interview discussions reinforce that broad definition. In
+In
 [Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }}),
 [Oleg Novikov]({{ '/people/olegnovikov/' | relative_url }}) separates product
 data scientist and machine-learning-engineer expectations around 15:29. At
@@ -67,11 +63,12 @@ they test modeling, SQL, or coding.
 ## Boundaries and Role Fit
 
 Data science versus analytics is a difference in emphasis, not a hard wall.
-[Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }})
-shows why the job description matters. Recruiters may screen analysts and data
-scientists with similar signals. Candidates still need to check whether the
-work is reporting, product analysis, modeling, or experimentation. Some jobs
-also expect production ML.
+[Alicja Notowska]({{ '/people/alicjanotowska/' | relative_url }}) shows why the
+job description matters in
+[Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }}).
+Recruiters may screen analysts and data scientists with similar signals.
+Candidates still need to check whether the work is reporting, product analysis,
+modeling, or experimentation. Some jobs also expect production ML.
 
 Data science versus data engineering depends on ownership.
 [Roksolana Diachuk]({{ '/people/roksolanadiachuk/' | relative_url }}) draws the
@@ -85,58 +82,55 @@ and platform reliability do too. The dedicated
 [Data Engineer vs Data Scientist]({{ '/comparisons/data-engineer-vs-data-scientist/' | relative_url }})
 page goes deeper into that overlap.
 
-[Tereza Iofciu]({{ '/people/terezaiofciu/' | relative_url }}) gives the
-clearest warning about mismatched titles.
-She recommends checking the team structure and objectives in
 [Data Science Job Red Flags]({{ '/podcasts/data-science-job-red-flags-and-mismatched-roles/' | relative_url }})
-at 20:06 and 23:01.
-Candidates should also check responsibilities and infrastructure. At 27:18 she
-points candidates to data engineering and analytics support. That support helps
-candidates tell whether the job is data science or a catch-all data role.
+with [Tereza Iofciu]({{ '/people/terezaiofciu/' | relative_url }}) gives the
+clearest warning about mismatched titles. At 20:06 and 23:01, she recommends
+checking the team structure and objectives.
+Candidates should also check responsibilities and infrastructure. At 27:18, she
+points candidates to data engineering and analytics support. Those neighboring
+roles help candidates tell whether the opening is data science or a catch-all
+data role.
 
-## Project Framing and Product Decisions
+## Product Decisions and Experiments
 
-These discussions treat data science as a product and decision practice before
-modeling. In
+Data science work often starts with a product decision before modeling begins.
+In
 [Data Science Leadership]({{ '/podcasts/data-science-leadership-hiring-mlops/' | relative_url }}),
-[Mariano Semelman]({{ '/people/marianosemelman/' | relative_url }}) describes
-transferable data science habits around problem framing and feature engineering
-at 23:09. At 29:29 and 30:06, he pushes the work toward user impact and
+[Mariano Semelman]({{ '/people/marianosemelman/' | relative_url }}) treats
+problem framing and feature engineering as transferable data science habits at
+23:09. At 29:29 and 30:06, he pushes the work toward user impact and
 experiments. He also connects data science to deployment and the practical
 rules of shipping ML. At 33:36, he recommends starting simple, testing quickly,
 and learning from production use.
 
-The podcast often connects analysis with decisions through experimentation. In
+Experimentation gives product analysis a causal test. In
 [Product Analytics and A/B Testing]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}),
-the 8:13 section explains A/B testing through randomized clinical-trial logic.
-The subscription-versus-points example at 14:27 shows why metric design changes
-how a team interprets a product test. The episode covers A/A tests at 27:52 and
-seasonality at 33:23. Power analysis at 37:44 explains why experimentation
-belongs next to data science but needs its own
+[Jakob Graff]({{ '/people/jakobgraff/' | relative_url }}) explains A/B testing
+through randomized clinical-trial logic at 8:13. The
+subscription-versus-points example at 14:27 shows why metric design changes how
+a team interprets a product test. He covers A/A tests at 27:52, seasonality at
+33:23, and power analysis at 37:44. Those details put experimentation next to
+data science while giving it its own
 [Experimentation and Causal Inference]({{ '/wiki/experimentation-and-causal-inference/' | relative_url }})
 page.
 
-## Careers, Transitions, and Portfolio Evidence
+## Careers and Portfolio Evidence
 
 Career episodes treat data science as a portfolio-backed craft, not a list of
 tools. In [Land Data Scientist Roles]({{ '/podcasts/get-data-scientist-job/' | relative_url }}),
-[Luke Whipps]({{ '/people/lukewhipps/' | relative_url }}) describes recruiting
+[Luke Whipps]({{ '/people/lukewhipps/' | relative_url }}) follows recruiting
 from role definition through shortlist and interview preparation. He also
 covers feedback and offer negotiation. At 19:50 and 25:04, stronger candidates
-connect projects to
-industry context, real use cases, and business impact.
+connect projects to industry context, real use cases, and business impact.
 
-[Oleg Novikov]({{ '/people/olegnovikov/' | relative_url }}) gives the same
-signal in CV and case-study form. At 18:28, he treats the CV as a screening
-surface. At 29:32 and 32:03, project stories need to explain the problem and
-data. Case studies also need to name the method, metric, and tradeoff. That's
-why data science portfolios often link to
-[Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
-when the work centers on modeling.
-
-When public contributions are the strongest proof, portfolios link to
-[Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
-instead.
+The same signal appears in [Oleg Novikov]({{ '/people/olegnovikov/' | relative_url }})'s
+CV and case-study advice. At 18:28, he treats the CV as a screening surface. At
+29:32 and 32:03, project stories need to explain the problem and data. Case
+studies also need to name the method, metric, and tradeoff. Modeling portfolios
+belong with
+[Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}),
+while public contributions belong with
+[Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }}).
 
 [Ksenia Legostay]({{ '/people/ksenialegostay/' | relative_url }}) adds the
 transition view in
@@ -146,20 +140,21 @@ stakeholder communication. Business KPIs transfer in the same way. At 32:43,
 she recommends applying analysis at work and building portfolio evidence.
 
 At 41:07, production readiness adds Git and testing to the learning path. It
-also adds Docker, deployment, and clean code. This is why career pages connect
-data science to
+also adds Docker, deployment, and clean code. Career pages connect data science
+to
 [career transitions in data]({{ '/wiki/career-transitions-in-data/' | relative_url }})
 instead of treating every entrant as a new graduate.
 
-## Engineering Awareness and Production Handoff
+## Engineering Awareness and Model Handoff
 
-DataTalks.Club guests don't require every data scientist to become a platform
-engineer, but they repeatedly value engineering awareness. In
+Across these episodes, data scientists don't need to become platform
+engineers, but they need enough engineering awareness to collaborate. In
 [Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }}),
-data scientists build the model and may expose it through a simple service. In
+data scientists build the model and sometimes expose it through a simple
+service. In
 [Big Data Engineer vs Data Scientist]({{ '/podcasts/big-data-engineer-vs-data-scientist/' | relative_url }}),
-the 46:14 section ties software engineering practice to reproducibility and
-code quality.
+[Roksolana Diachuk]({{ '/people/roksolanadiachuk/' | relative_url }}) ties
+software engineering practice to reproducibility and code quality at 46:14.
 
 Model quality depends on upstream data and downstream use. Recommendation
 systems and batch scoring jobs need data contracts and feature availability.
@@ -168,22 +163,23 @@ Model APIs need monitoring and clear owners.
 When the question shifts from doing data science to running models, the topic
 changes. These pages route model operations toward
 [MLOps]({{ '/wiki/mlops/' | relative_url }}) and data-flow reliability toward
-[DataOps]({{ '/wiki/dataops/' | relative_url }}). Use
+[DataOps]({{ '/wiki/dataops/' | relative_url }}).
 [MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }})
-when the boundary matters, and use
+handles that boundary, and
 [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
-for architecture choices.
+goes deeper on architecture choices.
 
-## Trust, Interpretability, and Responsible Use
+## Trust and Responsible Use
 
 Data science doesn't end when an offline metric improves.
 [Interpretable Machine Learning]({{ '/podcasts/interpretable-machine-learning/' | relative_url }})
-adds trust and debugging methods to the data science toolkit. Around 9:27, the
-discussion covers the interpretability-versus-accuracy tradeoff and SHAP. At
-20:27, it covers conformal prediction and calibrated uncertainty. At 36:21,
-experiment notes make model work traceable.
+adds trust and debugging methods to the data science toolkit.
+[Christoph Molnar]({{ '/people/christophmolnar/' | relative_url }}) covers the
+interpretability-versus-accuracy tradeoff and SHAP around 9:27. At 20:27, he
+covers conformal prediction and calibrated uncertainty. At 36:21, experiment
+notes make model work traceable.
 
-Those practices connect data science to
+Interpretability links data science to
 [Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }})
 and [Interpretability]({{ '/wiki/interpretability/' | relative_url }}). Users
 need to know where a prediction is reliable, where it fails, and what evidence

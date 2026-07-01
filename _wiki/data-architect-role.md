@@ -19,68 +19,70 @@ is senior and end-to-end. It combines
 [data engineering]({{ '/wiki/data-engineering/' | relative_url }}),
 [analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }}),
 [data quality]({{ '/wiki/data-quality-and-observability/' | relative_url }}),
-and stakeholder discovery. Technical leadership belongs in the same role.
+and stakeholder discovery. The role gives technical leadership to data-system
+structure, not only to pipeline delivery.
 
 [Loic Magnien]({{ '/people/loicmagnien/' | relative_url }}) gives the clearest
 role example. His path moves from sensor-data aggregation and ETL automation
-into cloud adaptation and analytics modeling. It also includes reusable
-pipeline templates and team alignment
+into cloud adaptation and analytics modeling. He later adds reusable pipeline
+templates and team alignment
 ([From IoT Data Engineering to Data Architecture - career path
 1:45-27:20]({{ '/podcasts/from-iot-data-engineering-to-leading-data-architect/' | relative_url }})).
 The title is less about drawing diagrams and more about keeping the data system
 coherent as more teams consume it.
 
-## Common Definition
+## Durable System Ownership
 
-Guests use the data architect role for decisions that outlive one pipeline.
-Loic describes architecture work through seniority and end-to-end ownership. He
-also puts modeling in the role. The architect has to understand how data
-arrives and how teams transform it. They also need to know how departments
+DataTalks.Club guests use the data architect role for decisions that outlive one
+pipeline. Loic describes architecture work through seniority and end-to-end
+ownership. He puts modeling in the role too. Architects have to understand how
+data arrives and how teams transform it. They also need to know how departments
 consume that data and where quality expectations belong
 ([IoT to Data Architecture - ownership and modeling
 22:47-36:00]({{ '/podcasts/from-iot-data-engineering-to-leading-data-architect/' | relative_url }})).
 
-That puts the role near
+The role sits near
 [data engineering platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
 and [analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }}).
-The architect doesn't only build ingestion jobs. They define layers and models.
-They also set reusable conventions so engineers and analysts can produce
-consistent outputs.
+Architects define layers and models, then set reusable conventions so engineers
+and analysts produce consistent outputs.
 
-Loic's lakehouse discussion gives one concrete structure. Bronze, silver, and
-gold layers give the team a shared language for raw and refined data. They also
-name consumption-ready data. The same discussion connects those layers to
+Loic's lakehouse discussion gives one concrete structure. Bronze is raw data,
+silver is refined data, and gold is consumption-ready data. Those layers give
+the team a shared language. In the same discussion, Loic ties them to
 quality expectations and consumer needs
 ([From IoT Data Engineering to Data Architecture - lakehouse layers and quality
 29:56-36:00]({{ '/podcasts/from-iot-data-engineering-to-leading-data-architect/' | relative_url }})).
-That connects the role to
-[Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }}).
+That lakehouse work belongs next to the
+[Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
+comparison.
 
 [Zhamak Dehghani]({{ '/people/zhamakdehghani/' | relative_url }}) extends the
 definition through [Data Mesh]({{ '/wiki/data-mesh/' | relative_url }}). Her
 episode treats architecture as ownership design where domain teams own data
-products.
+products. Metadata, discoverability, and quality guarantees make those products
+usable by other teams.
 
-Metadata, discoverability, and quality guarantees belong in that design.
-Self-serve platforms and federated governance do too
+[self-service data platforms]({{ '/wiki/self-service-data-platforms/' | relative_url }})
+and federated governance sit in the same design
 ([Data Mesh Implementation - contracts and federated governance
 13:20-53:02]({{ '/podcasts/data-mesh-architecture-decentralized-data-products/' | relative_url }})).
-That version differs from a centralized architecture team. It still asks who
-owns the data product and which guarantees make it usable by others.
+A mesh version differs from a centralized architecture team. Both versions ask
+who owns the data product. They also ask which guarantees make it usable and how
+teams discover it.
 
-## Points of Disagreement
+## Hands-On Authority
 
-Guests differ on how close the architect should stay to implementation.
-Loic's role still includes proofs of concept, demos, and technical scouting. He
-uses one-on-ones, demos, and hands-on work to stay close to delivery
+Guests differ on how close the architect should stay to implementation. Loic's
+role still includes proofs of concept, demos, and technical scouting. He uses
+one-on-ones, demos, and hands-on work to stay close to delivery
 ([From IoT Data Engineering to Data Architecture - hands-on role balance
 37:10-50:45]({{ '/podcasts/from-iot-data-engineering-to-leading-data-architect/' | relative_url }})).
 
-That differs from a pure governance interpretation of architecture. In these
-interviews, the useful architect doesn't leave implementation to other people
-and only review designs later. The role keeps enough hands-on context to judge
-tradeoffs. It also spends more time on prioritization, alignment, and standards
-than an individual pipeline owner.
+In these interviews, the useful architect keeps enough hands-on context to judge
+tradeoffs instead of only reviewing designs later. The architect also spends
+more time on prioritization, alignment, and standards than an individual
+pipeline owner.
 
 [Rahul Jain]({{ '/people/16rahuljain/' | relative_url }}) shows the leadership
 side of the same boundary. His data engineering leadership discussion ties
@@ -88,13 +90,14 @@ technical credibility to stakeholder prioritization, quality standards, access
 controls, and lineage. Data culture belongs in the same leadership discussion
 ([Data Engineering Leadership - prioritization quality and lineage
 4:52-30:50]({{ '/podcasts/data-engineering-leadership-and-modern-data-platforms/' | relative_url }})).
-That version overlaps with a data engineering manager. The architect is more
-focused on system structure and durable technical choices.
+Rahul's version overlaps with [Leadership]({{ '/wiki/leadership/' | relative_url }})
+and data engineering management. The architect is more focused on system
+structure and durable technical choices.
 
-Centralization is another difference: Zhamak argues for domain-owned data
-products, but platform-oriented episodes keep more authority in central teams.
-That central version fits teams where
-reproducibility, governance, or onboarding are still weak
+Centralization is another fault line. Zhamak argues for domain-owned data
+products, while platform-oriented episodes keep more authority in central
+teams. A central [DataOps]({{ '/wiki/dataops/' | relative_url }}) platform can
+fit teams where reproducibility, governance, or onboarding are still weak
 ([Data Mesh - domain ownership
 16:34-53:02]({{ '/podcasts/data-mesh-architecture-decentralized-data-products/' | relative_url }}),
 [DataOps 101 - platform split
@@ -109,11 +112,11 @@ multiple consumers and departments
 ([From IoT Data Engineering to Data Architecture - analytics modeling
 32:58-36:00]({{ '/podcasts/from-iot-data-engineering-to-leading-data-architect/' | relative_url }})).
 
-This makes the architect a partner to
+Architects work with
 [analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
 and [data product management]({{ '/wiki/data-product-management/' | relative_url }}).
-The architect needs a model that analysts can query. Engineering teams need to
-maintain it, and business users need to trust the definitions.
+Analysts need a model they can query, engineering teams need something they can
+maintain, and business users need definitions they can trust.
 
 [Tammy Liang]({{ '/people/tammyliang/' | relative_url }}) shows why this
 matters for scaling teams. Her data team starts with business health
@@ -124,7 +127,7 @@ forecasting. Governance repairs, dbt tests, and adoption workshops follow
 The architect's modeling choices become visible when the team has to repair
 trust or support new decision workflows.
 
-## Reusable Structures
+## Reuse and Platform Standards
 
 Architects create reusable structures where repeated work would otherwise
 diverge. Loic discusses proof-of-concept pipelines and reusable ingestion work.
@@ -133,7 +136,7 @@ between reusable components and project-specific solutions
 ([From IoT Data Engineering to Data Architecture - templates and reuse
 53:28-59:34]({{ '/podcasts/from-iot-data-engineering-to-leading-data-architect/' | relative_url }})).
 
-That tradeoff connects the role to
+The tradeoff belongs with
 [self-service data platforms]({{ '/wiki/self-service-data-platforms/' | relative_url }})
 and [DataOps]({{ '/wiki/dataops/' | relative_url }}). Reuse is valuable when it
 reduces duplicated decisions and helps teams follow standards. It becomes
@@ -148,18 +151,29 @@ playbooks, and operating habits matter too
 17:22-20:13]({{ '/podcasts/scaling-data-engineering-teams-self-service-platforms/' | relative_url }})).
 A data architect helps decide which conventions become shared architecture.
 
-Governance belongs in the same architecture discussion. Access and lineage
-affect whether data can be reused safely. Classification and catalogs matter
-too.
+## Governance and Quality Guarantees
 
-Ownership and review complete the control layer. Revocation, masking, and
-automation also belong there
+Governance belongs in the same architecture discussion because access and
+lineage affect whether teams can reuse data safely. Classification and catalogs
+set discovery rules. Ownership review and automation also matter, along with
+revocation and masking
 ([Access Management - reviews and masking
 8:58-46:42]({{ '/podcasts/data-governance-data-access-management/' | relative_url }}),
 [Cloud Governance - policies and catalogs
 14:04-54:37]({{ '/podcasts/cloud-data-governance/' | relative_url }})).
-That connects the role to [Governance]({{ '/wiki/governance/' | relative_url }})
-and [Data Governance]({{ '/wiki/data-governance/' | relative_url }}).
+Those controls put the data architect close to
+[Governance]({{ '/wiki/governance/' | relative_url }}) and
+[Data Governance]({{ '/wiki/data-governance/' | relative_url }}).
+
+Zhamak's federated governance discussion gives the decentralized version of the
+same concern. Domain teams keep ownership, but shared standards handle identity
+and authorization. They also cover policy automation, retention, metadata, and
+validation
+([Data Mesh Implementation - governance primitives
+32:04-53:02]({{ '/podcasts/data-mesh-architecture-decentralized-data-products/' | relative_url }})).
+For a data architect, the question isn't only whether policy exists. The role
+has to place policy where teams can apply it without turning every data product
+change into a central approval queue.
 
 ## Skills and Boundaries
 
@@ -175,24 +189,14 @@ The boundary with a
 [data engineer]({{ '/wiki/data-engineer-role/' | relative_url }}) is scope.
 Data engineers often own concrete ingestion, transformation, orchestration, and
 delivery work. Data architects own the durable structure across many such
-systems.
+systems. For the broader craft, see
+[Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}) and
+[Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}).
 
 The boundary with a
 [data team lead]({{ '/wiki/data-team-lead-role/' | relative_url }}) is
 people-management emphasis. A team lead owns hiring, delegation, adoption, and
 execution cadence. A data architect may influence those choices, but the core
-job is the structure and quality of the data system.
-
-## Related Pages
-
-Adjacent role boundaries and architecture topics include:
-
-- [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }})
-- [Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }})
-- [Data Teams]({{ '/wiki/data-teams/' | relative_url }})
-- [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
-- [Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
-- [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
-- [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
-- [Data Mesh]({{ '/wiki/data-mesh/' | relative_url }})
-- [Governance]({{ '/wiki/governance/' | relative_url }})
+job is the structure and quality of the data system. In small
+[Data Teams]({{ '/wiki/data-teams/' | relative_url }}), one person may hold both
+responsibilities.

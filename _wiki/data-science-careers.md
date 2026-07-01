@@ -13,188 +13,56 @@ related:
 
 ## Definition and Scope
 
-A data science career is the path into data scientist roles and across adjacent
-roles. In the DataTalks.Club podcast archive, guests describe that path as a
-role-fit problem, not a title chase. Candidates need to understand the kind of
-data scientist role they want. They also need to show work that matches it and
-ask whether the company has enough data maturity for the role to succeed.
+Data science careers run through [data scientist roles]({{ '/wiki/data-scientist-role/' | relative_url }}) and adjacent analytics, machine learning, research, and product roles. DataTalks.Club guests usually frame that path as a role-fit question rather than a title chase. Candidates need to know which version of data science they want. They also need to show matching work and ask whether the company has enough data maturity for the role to succeed.
 
-The title can cover product analytics, applied machine learning, research, and
-experimentation. It can also cover dashboards or first-data-hire work. For the
-role, see [Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }}). For
-the interview path, see
-[Data Scientist Interview Roadmap]({{ '/wiki/data-scientist-interview-roadmap/' | relative_url }})
-and [Data Scientist Interview]({{ '/guides/data-scientist-interview/' | relative_url }}).
+The title can mean product analytics or applied [machine learning]({{ '/wiki/machine-learning/' | relative_url }}). It can also mean experimentation, research, dashboards, or first-data-hire work. [Tereza Iofciu]({{ '/people/terezaiofciu/' | relative_url }}) warns about this ambiguity in [Data Science Jobs]({{ '/podcasts/data-science-job-red-flags-and-mismatched-roles/' | relative_url }}). Around 20:06 and 23:01, she asks candidates to look at responsibilities, team setup, and objectives before treating a data scientist title as a career step. When the responsibilities are mostly pipelines or reporting, the better comparison may be [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}) or the [Data Analyst Role]({{ '/wiki/data-analyst-role/' | relative_url }}).
 
-## Common Path
+For the interview path, use the [Data Scientist Interview Roadmap]({{ '/wiki/data-scientist-interview-roadmap/' | relative_url }}) and the [Data Scientist Interview]({{ '/guides/data-scientist-interview/' | relative_url }}) guide. For broader search mechanics, use [Job Search]({{ '/wiki/job-search/' | relative_url }}), [CV Screening]({{ '/wiki/cv-screening/' | relative_url }}), and [Salary Negotiation]({{ '/wiki/salary-negotiation/' | relative_url }}).
 
-Most guests describe the same career sequence. Choose a target role, find the
-missing skills, build evidence, then use the job search to test fit.
-[Luke Whipps]({{ '/people/lukewhipps/' | relative_url }}) gives the recruiter
-version in [Land Data Scientist Roles]({{ '/podcasts/get-data-scientist-job/' | relative_url }}).
-Around 16:15 and 19:50, he connects stronger CVs to industry alignment, real
-projects, and business problems. Around 37:54, he recommends tailored
-applications because the candidate needs to map their skills to the company
-problem.
+## Role Targeting Before Applications
 
-[Sarah Mestiri]({{ '/people/sarahmestiri/' | relative_url }}) gives a similar
-sequence in [Tech Job Search Strategy]({{ '/podcasts/job-search-strategy-in-tech-projects-skills-cv-networking/' | relative_url }}).
-Around 10:59, she organizes the job search around goals and networking. She
-also covers CV and strategy. Around 14:30 and 20:01, she asks candidates to
-define the target role before collecting courses or tools.
+Most career advice in the podcast converges on one order of work. Candidates choose a target role, find the missing skills, build evidence, and use applications to test fit. [Luke Whipps]({{ '/people/lukewhipps/' | relative_url }}) gives the recruiter version in [Land Data Scientist Roles]({{ '/podcasts/get-data-scientist-job/' | relative_url }}). Around 16:15 and 19:50, he ties stronger CVs to industry alignment, real projects, and concrete business problems. Around 37:54, he recommends tailored applications because candidates need to map their skills to the company's problem.
 
-Use her episode alongside
-[Job Search]({{ '/wiki/job-search/' | relative_url }}) and
-[Career Transitions in Data]({{ '/wiki/career-transitions-in-data/' | relative_url }}).
-Without a target role, every portfolio project and CV bullet competes for a
-different job.
+[Sarah Mestiri]({{ '/people/sarahmestiri/' | relative_url }}) uses a similar frame in [Tech Job Search Strategy]({{ '/podcasts/job-search-strategy-in-tech-projects-skills-cv-networking/' | relative_url }}). Around 10:59, she organizes the search around goals and networking, then CV and strategy. Around 14:30 and 20:01, she asks candidates to define the target role before collecting more courses or tools. Her advice belongs with [Career Transitions in Data]({{ '/wiki/career-transitions-in-data/' | relative_url }}): without a target role, every portfolio project and CV bullet targets a different job.
 
-## Guest Differences
+Tereza Iofciu adds the company-side check. In [Data Science Jobs]({{ '/podcasts/data-science-job-red-flags-and-mismatched-roles/' | relative_url }}), she discusses role clarity around 23:01, data team signals around 27:18, and data maturity around 48:32 and 50:24. A candidate should ask whether the team has data engineering support, analytics context, clear objectives, and realistic expectations for the career stage.
 
-Guests agree that data science careers need practical evidence, but they differ
-on where that evidence should come from.
+## Different Routes Into the Same Field
 
-[Ksenia Legostay]({{ '/people/ksenialegostay/' | relative_url }}) describes a
-gradual move from project management into analytics and then machine learning
-in [From Project Manager to Data Scientist]({{ '/podcasts/project-manager-to-data-scientist/' | relative_url }}).
-Around 8:33, she starts with a skills gap assessment. Around 22:32, she treats
-planning, stakeholder communication, and KPI work as transferable strengths.
-Around 32:43, she recommends starting with analysis work and turning it into a
-portfolio before moving deeper into machine learning.
+Guests agree that candidates need practical evidence, but they start from different material. [Ksenia Legostay]({{ '/people/ksenialegostay/' | relative_url }}) describes a gradual move from project management into analytics and then machine learning in [From Project Manager to Data Scientist]({{ '/podcasts/project-manager-to-data-scientist/' | relative_url }}). Around 8:33, she starts with a skills gap assessment. Around 22:32, she treats planning, stakeholder communication, and KPI work as transferable strengths. Around 32:43, she recommends starting with analysis work and turning it into a portfolio before moving deeper into machine learning.
 
-[Andrada Olteanu]({{ '/people/andradaolteanu/' | relative_url }}) gives a more
-project-public path in
-[Career Transition from Analytics to Data Science]({{ '/podcasts/analytics-to-data-science-with-kaggle-portfolio/' | relative_url }}).
-Around 14:26 and 32:14, she explains how Kaggle notebooks and GitHub helped her
-turn analytics experience into data science evidence. Around 36:41, she keeps
-data validation, domain knowledge, and exploratory analysis as analyst
-strengths.
+[Andrada Olteanu]({{ '/people/andradaolteanu/' | relative_url }}) gives a more public-project route in [Career Transition from Analytics to Data Science]({{ '/podcasts/analytics-to-data-science-with-kaggle-portfolio/' | relative_url }}). Around 14:26 and 32:14, she explains how Kaggle notebooks and GitHub helped turn analytics experience into data science evidence. Around 36:41, she keeps data validation, domain knowledge, and exploratory analysis as analyst strengths rather than background to discard.
 
-[Tereza Iofciu]({{ '/people/terezaiofciu/' | relative_url }}) adds a caution
-from the hiring side in
-[Data Science Jobs]({{ '/podcasts/data-science-job-red-flags-and-mismatched-roles/' | relative_url }}).
-Around 20:06 and 23:01, she argues that candidates should look at the actual
-responsibilities, team setup, and objectives behind a data scientist title.
-That can mean walking away from a role that's
-[Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}),
-[Data Analyst Role]({{ '/wiki/data-analyst-role/' | relative_url }}), or an
-undefined first-data-hire position.
+[Alicja Notowska]({{ '/people/alicjanotowska/' | relative_url }}) covers career changers from the hiring side in [Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }}). Around 47:36, she talks about gaining practical experience. Around 59:30, she discusses portfolio projects and online courses on a CV. Sarah Mestiri makes the same distinction around 26:28 in [Tech Job Search Strategy]({{ '/podcasts/job-search-strategy-in-tech-projects-skills-cv-networking/' | relative_url }}). Courses can close skill gaps, but projects and role-specific stories support the application.
 
-## Skills
+## Skills as Role Evidence
 
-Guests treat skills as evidence for a role, not as a universal checklist.
-Ksenia Legostay names programming and statistics around 13:00 in
-[From Project Manager to Data Scientist]({{ '/podcasts/project-manager-to-data-scientist/' | relative_url }}).
-She also names domain expertise. Around 41:07, she adds Git and testing. She
-also adds Docker, deployment, and clean code because data science work has to
-move beyond notebooks when a team depends on it.
+Guests treat skills as evidence for a role, not as a universal checklist. Ksenia Legostay names programming, statistics, and domain expertise around 13:00 in [From Project Manager to Data Scientist]({{ '/podcasts/project-manager-to-data-scientist/' | relative_url }}). Around 41:07, she adds Git and testing. She also adds Docker, deployment, and clean code because data science work has to leave the notebook when a team depends on it.
 
-[Misra Turp]({{ '/people/misraturp/' | relative_url }}) frames the day-to-day
-role differently in
-[Data Science Career Playbook]({{ '/podcasts/how-to-break-into-data-science/' | relative_url }}).
-Around 9:01, she describes trained models and pipelines as deliverables. She
-also includes reports and presentations. Around 30:11, she names stakeholder
-communication as a major challenge.
+[Misra Turp]({{ '/people/misraturp/' | relative_url }}) frames the day-to-day role differently in [Data Science Career Playbook]({{ '/podcasts/how-to-break-into-data-science/' | relative_url }}). Around 9:01, she lists trained models, pipelines, reports and presentations as deliverables. Around 30:11, she names stakeholder communication as a major challenge. Her account puts communication beside modeling and Python rather than after the technical work.
 
-Put communication beside modeling and Python, while keeping SQL and statistics
-in the core skill set. For the technical core, use
-[Data Science]({{ '/wiki/data-science/' | relative_url }}),
-[Machine Learning]({{ '/wiki/machine-learning/' | relative_url }}), and
-[MLOps]({{ '/wiki/mlops/' | relative_url }}).
+For [Data Science]({{ '/wiki/data-science/' | relative_url }}), candidates still need SQL and statistics plus Python, modeling, and evaluation. ML-heavy roles add [MLOps]({{ '/wiki/mlops/' | relative_url }}), testing, deployment judgment, and the ability to explain production tradeoffs. Product data science roles lean harder on metrics, experimentation, stakeholder questions, and business framing.
 
 ## Portfolio Evidence
 
-A data science portfolio should show how the candidate works, not only show
-notebooks.
-Luke Whipps ties portfolio strength to use-case alignment around 19:50 and
-25:04 in
-[Land Data Scientist Roles]({{ '/podcasts/get-data-scientist-job/' | relative_url }}).
-The project should show what problem the candidate solved, which tools they
-used, and what changed because of the work.
+A data science portfolio should show how the candidate works, not only show notebooks. Luke Whipps ties portfolio strength to use-case alignment around 19:50 and 25:04 in [Land Data Scientist Roles]({{ '/podcasts/get-data-scientist-job/' | relative_url }}). Candidates should use each project to show the problem, the tools, their contribution, and the business change or decision the work supported.
 
-[Oleg Novikov]({{ '/people/olegnovikov/' | relative_url }}) makes the same
-point from the interview side in
-[Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }}).
-Around 2:42, he discusses building a project to stand out. Around 45:46, he
-suggests cold-start projects, synthetic data, and blogging for candidates who
-lack industry experience.
+[Oleg Novikov]({{ '/people/olegnovikov/' | relative_url }}) makes the same point from the interview side in [Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }}). Around 2:42, he discusses building a project to stand out. Around 45:46, he suggests cold-start projects, synthetic data, and blogging for candidates without industry experience. [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}) expands that idea into project examples.
 
-Portfolio pages should show problem framing, data choices, evaluation, and
-limitations. They should also show communication, not only model scores. See
-[Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
-for project examples.
+Public work can help, but the format depends on the target role. Andrada Olteanu used Kaggle notebooks and GitHub around 32:14 in [Career Transition from Analytics to Data Science]({{ '/podcasts/analytics-to-data-science-with-kaggle-portfolio/' | relative_url }}). Misra Turp recommends relevant projects and real-world data around 54:31 and 58:14 in [Data Science Career Playbook]({{ '/podcasts/how-to-break-into-data-science/' | relative_url }}). Product data science projects need business reasoning and metrics. ML-heavy projects need modeling, evaluation, and production judgment.
 
-Public work can help, but the format depends on the target role. Andrada
-Olteanu uses Kaggle notebooks and GitHub in
-[Career Transition from Analytics to Data Science]({{ '/podcasts/analytics-to-data-science-with-kaggle-portfolio/' | relative_url }})
-around 32:14. Misra Turp recommends relevant projects and real-world data
-around 54:31 and 58:14 in
-[Data Science Career Playbook]({{ '/podcasts/how-to-break-into-data-science/' | relative_url }}).
-For product data science, the project needs business reasoning and metrics. For
-ML-heavy roles, it needs modeling, evaluation, and production judgment.
+## CVs, Interviews, and Offers
 
-## CV, Screening, and Interviews
+Recruiters and hiring managers screen for clarity first. In [Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }}), Alicja Notowska explains profile screening around 21:32, education signals around 27:10, and CV clarity around 28:41. Around 32:40, she warns against buzzword-heavy CVs because they make it harder to understand what the candidate did.
 
-Recruiters and hiring managers screen for clarity first. In
-[Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }}),
-[Alicja Notowska]({{ '/people/alicjanotowska/' | relative_url }}) explains
-profile screening around 21:32. She covers education signals around 27:10 and
-CV clarity around 28:41. Around 32:40, she warns against buzzword-heavy CVs
-because they make it harder to understand what the candidate did.
+Oleg Novikov uses a similar screen in [Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }}). Around 18:28, he treats the CV as a landing page for the role. Around 25:51, he emphasizes personal contribution and removing noise. Around 32:03, he moves from business goals to evaluation metrics in case studies.
 
-Oleg Novikov uses a similar screen in
-[Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }}).
-Around 18:28, he treats the CV as a landing page for the role. Around 25:51,
-he emphasizes personal contribution and removing noise. Around 32:03, he moves
-from business goals to evaluation metrics in case studies.
+Use that advice with [CV Screening]({{ '/wiki/cv-screening/' | relative_url }}), behavioral stories, SQL, and ML fundamentals. Take-home tasks belong in the same preparation plan.
 
-Use that interview advice with
-[CV Screening]({{ '/wiki/cv-screening/' | relative_url }}), behavioral stories,
-and SQL. Keep ML fundamentals and take-home tasks in the same prep plan. Use
-[Salary Negotiation]({{ '/wiki/salary-negotiation/' | relative_url }}) when the
-conversation moves from interviews to offers.
+Candidates should also evaluate the company while the company evaluates them. Tereza Iofciu discusses take-home burden around 16:25, role clarity around 23:01, and salary transparency around 37:08 in [Data Science Jobs]({{ '/podcasts/data-science-job-red-flags-and-mismatched-roles/' | relative_url }}). Oleg Novikov covers offer components and negotiation around 42:02 and 50:17 in [Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }}). When the conversation moves from interviews to offers, [Salary Negotiation]({{ '/wiki/salary-negotiation/' | relative_url }}) helps separate market evidence from wishful thinking.
 
-Tereza Iofciu adds that candidates should evaluate the interview process. In
-[Data Science Jobs]({{ '/podcasts/data-science-job-red-flags-and-mismatched-roles/' | relative_url }}),
-she discusses take-home burden around 16:25, role clarity around 23:01, and
-salary transparency around 37:08. A career page therefore can't treat every
-offer as progress. A better role usually has clear responsibilities, a real
-team context, useful feedback, and a plausible path to growth.
+## Career Progression and Adjacent Paths
 
-## Transitions Into Data Science
+Data science careers don't always move from junior data scientist to senior data scientist. Ksenia Legostay's path shows a project manager keeping planning and stakeholder strengths while adding statistics, programming, and machine learning. Andrada Olteanu's path shows an analyst keeping data validation and domain knowledge while making Python, notebooks, and public projects visible. Both examples belong with [Career Transitions in Data]({{ '/wiki/career-transitions-in-data/' | relative_url }}) because the transition depends on the evidence already available.
 
-Career changers can reuse prior domain knowledge, software habits, product
-context, and stakeholder experience. They still need data science evidence that
-matches the role. Ksenia Legostay's transition from project management shows
-one path. Keep planning and stakeholder strengths, add statistics and
-programming, then move from analysis into machine learning.
-
-Andrada Olteanu's analytics-to-data-science path shows another. Keep data
-validation and domain knowledge, then make Python, notebooks, and public
-projects visible.
-
-Alicja Notowska covers career changers around 47:36 and portfolio projects
-around 59:30 in
-[Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }}).
-Sarah Mestiri covers career changers and return-to-work candidates around 9:27
-in
-[Tech Job Search Strategy]({{ '/podcasts/job-search-strategy-in-tech-projects-skills-cv-networking/' | relative_url }}),
-then recommends practical work over course collection around 26:28. The
-transition rule is consistent across these episodes. Use courses to close skill
-gaps, but let projects, referrals, and role-specific stories support the
-application.
-
-## Related Pages
-
-These pages cover role boundaries, interviews, search, and adjacent career
-paths.
-
-- [Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }})
-- [Data Scientist Interview Roadmap]({{ '/wiki/data-scientist-interview-roadmap/' | relative_url }})
-- [Data Scientist Interview]({{ '/guides/data-scientist-interview/' | relative_url }})
-- [Job Search]({{ '/wiki/job-search/' | relative_url }})
-- [CV Screening]({{ '/wiki/cv-screening/' | relative_url }})
-- [Salary Negotiation]({{ '/wiki/salary-negotiation/' | relative_url }})
-- [Career Transitions in Data]({{ '/wiki/career-transitions-in-data/' | relative_url }})
-- [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
-- [Data Analyst Careers]({{ '/wiki/data-analyst-careers/' | relative_url }})
+Adjacent roles can be better fits at different points. Candidates who like dashboards, stakeholder questions, and exploratory analysis may fit [Data Analyst Careers]({{ '/wiki/data-analyst-careers/' | relative_url }}) before a modeling-heavy data scientist role. Pipeline, orchestration, and reliability work may fit [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}). For model deployment and platform work, compare the target data scientist role with [MLOps]({{ '/wiki/mlops/' | relative_url }}) and machine learning engineering expectations.

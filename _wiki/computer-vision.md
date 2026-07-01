@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Computer Vision"
-summary: "Podcast-grounded guide to computer vision as applied perception, from images and sensors to labeling, deployment constraints, multimodal retrieval, and career project work."
+summary: "DataTalks.Club discussions on computer vision as applied perception: images, sensors, labels, deployment constraints, multimodal retrieval, and project work."
 related:
   - AI
   - Machine Learning
@@ -14,227 +14,208 @@ related:
   - Career Transition
 ---
 
-Computer vision is the part of
-[AI]({{ '/wiki/ai/' | relative_url }}) and
-[machine learning]({{ '/wiki/machine-learning/' | relative_url }}) that turns
-images, video, sensor streams, and remote-sensing data into decisions. In
-DataTalks.Club episodes, guests rarely treat it as a model family alone. They
-describe it as applied perception. Teams collect visual data, label it, train a
-[deep learning]({{ '/wiki/deep-learning/' | relative_url }}) model, and test it
-against real-world edge cases. Then they ship it inside a product or field
-workflow.
+Computer vision sits inside [AI]({{ '/wiki/ai/' | relative_url }}) and
+[machine learning]({{ '/wiki/machine-learning/' | relative_url }}). It turns
+images and video into decisions, and it also works with sensor streams and
+remote-sensing data.
+
+DataTalks.Club guests treat it less as a model family and more as applied
+perception. A team collects and labels visual data. It trains a
+[deep learning]({{ '/wiki/deep-learning/' | relative_url }}) model, validates
+edge cases, and ships the result where someone acts on it.
 
 [Aishwarya Jadhav]({{ '/people/aishwaryajadhav/' | relative_url }}) gives the
-most direct version in
+clearest autonomous-driving version in
 [Applying Computer Vision Research to Building Production-Ready AI Systems]({{ '/podcasts/from-computer-vision-research-to-autonomous-driving-ai/' | relative_url }}).
-She starts with camera and LiDAR tradeoffs, then covers on-vehicle inference
-and validation stages. She also covers sensor data management, labeling, and
-staged releases.
+She moves from sensor tradeoffs into on-vehicle inference and sensor data
+management. She also covers labeling, simulation, closed-track testing, and
+staged releases. In
+[Tanya's ecology episode]({{ '/podcasts/ai-for-ecology-biodiversity-and-conservation/' | relative_url }}),
+[Tanya Berger-Wolf]({{ '/people/tanyabergerwolf/' | relative_url }}) applies
+the same visual-decision frame to camera traps, drone imagery, and remote
+sensing. Her examples add citizen science, sparse labels, and field deployment.
 
-[Tanya Berger-Wolf]({{ '/people/tanyabergerwolf/' | relative_url }})
-extends the same idea to ecology in
-[AI for Ecology, Biodiversity, and Conservation]({{ '/podcasts/ai-for-ecology-biodiversity-and-conservation/' | relative_url }}).
-Her ecology example covers camera traps and drone imagery. It also covers
-remote sensing, citizen science, sparse labels, and domain shift.
+## Visual Decision Systems
 
-## Start With These Discussions
+In these episodes, computer vision turns visual signals into actions or
+searchable representations. A system may detect objects, segment land cover, or
+identify species. It may also classify cells, recognize traffic-control
+gestures, or embed product images for search.
 
-The main computer vision episodes are:
+A useful vision system also needs the right data source and labeling path. The
+team has to plan validation, runtime targets, privacy constraints, and
+ownership.
 
-- [Applying Computer Vision Research to Building Production-Ready AI Systems]({{ '/podcasts/from-computer-vision-research-to-autonomous-driving-ai/' | relative_url }}) with [Aishwarya Jadhav]({{ '/people/aishwaryajadhav/' | relative_url }}) for autonomous driving and sensor tradeoffs. Aishwarya also discusses edge inference and labeling. She later covers simulation and staged deployment.
-- [AI for Ecology, Biodiversity, and Conservation]({{ '/podcasts/ai-for-ecology-biodiversity-and-conservation/' | relative_url }}) with [Tanya Berger-Wolf]({{ '/people/tanyabergerwolf/' | relative_url }}) for conservation and camera traps. Tanya also covers drone imagery and remote sensing. Her episode adds citizen science, domain shift, and field constraints.
-- [Building and Scaling Data Science Practice in Industrial Enterprises]({{ '/podcasts/building-and-scaling-data-science-practice-industrial-ai-mlops/' | relative_url }}) with [Andrey Shtylenko]({{ '/people/andreyshtylenko/' | relative_url }}) for industrial AI, smart sensors, and robotics. Andrey also covers shared annotation services and [MLOps]({{ '/wiki/mlops/' | relative_url }}) maturity.
-- [From Biology to ML]({{ '/podcasts/from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers/' | relative_url }}) with [Isabella Bicalho]({{ '/people/isabellabicalho/' | relative_url }}) for open-source computer vision work. Isabella covers transformer projects, green-space segmentation, and portfolio building.
-- [Switch to Computer Vision and Deep Learning]({{ '/podcasts/from-physics-to-computer-vision-career-transition/' | relative_url }}) with [Tatiana Gabruseva]({{ '/people/tatianagabruseva/' | relative_url }}) for [career transition]({{ '/wiki/career-transition/' | relative_url }}), Kaggle, and pet projects. Tatiana also covers data collection and labeling. Her project advice adds deployment and Docker.
-- [Production ML Search]({{ '/podcasts/production-ml-search-vector-search-embeddings-hybrid-search/' | relative_url }}) for multimodal embeddings and CLIP-style image retrieval. Use it to connect computer vision to hybrid search and [vector search]({{ '/wiki/vector-databases/' | relative_url }}).
-- [AI Engineering: Skill Stack, Agents, LLMOps, and How to Ship AI Products]({{ '/podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products/' | relative_url }}) with [Paul Iusztin]({{ '/people/pauliusztin/' | relative_url }}) for the production skill stack around GenAI, computer vision, and MLOps.
+Autonomous driving makes the boundary visible. In
+[Aishwarya's episode]({{ '/podcasts/from-computer-vision-research-to-autonomous-driving-ai/' | relative_url }}),
+the computer vision problem includes sensors around 11:22, camera-first
+perception around 14:45, and gesture recognition for police and construction
+signals around 19:57. She then covers on-vehicle inference around 22:17 and
+sensor data management around 31:02. Labeling appears around 32:09, staged
+releases around 32:43, and sensitive-case testing around 51:28.
 
-## Common Definition
+Conservation changes the input data and stakeholders, but the system structure is
+similar. [Tanya Berger-Wolf]({{ '/people/tanyabergerwolf/' | relative_url }})
+describes computer vision, machine learning, and remote sensing around 7:00 in
+[her ecology episode]({{ '/podcasts/ai-for-ecology-biodiversity-and-conservation/' | relative_url }}).
+She then discusses camera traps, drone imagery, and species ID around 10:30.
+The same episode adds individual identification around 14:00, habitat mapping
+and change detection around 17:00, and platform-scale biodiversity monitoring
+around 32:00. Computer vision here supports
+[data strategy]({{ '/wiki/data-strategy/' | relative_url }}) and conservation
+decisions, not only model accuracy.
 
-Across these episodes, guests define computer vision as a visual decision
-system, not only a convolutional neural network or transformer. Vision systems
-may detect objects, segment land cover, identify species, or classify cells.
-They may also recognize gestures or embed images for search. Teams then connect
-the model to data collection and labels. They also manage validation, latency,
-privacy, and product ownership.
+## Data and Labeling
 
-Aishwarya shows the system boundary in autonomous driving. Around the sensor
-chapters, she compares LiDAR, radar, and cameras. She then discusses
-camera-first perception, traffic-control gestures, and on-vehicle inference.
-Later she covers simulation, closed-track testing, road testing, and privacy.
-She also covers human annotation, automated labeling, and staged releases
-([Applying Computer Vision Research]({{ '/podcasts/from-computer-vision-research-to-autonomous-driving-ai/' | relative_url }})).
+Computer vision exposes data work because missing labels and wrong labels show
+up in the output. In autonomous driving, Aishwarya links rare edge cases to
+sensor data collection and privacy in
+[Applying Computer Vision Research]({{ '/podcasts/from-computer-vision-research-to-autonomous-driving-ai/' | relative_url }})
+around 31:02. She then discusses annotation and automated labeling around
+32:09. A model can't learn uncommon road situations if the team can't find,
+label, review, and feed those cases back into training and testing.
 
-Tanya makes the same definition work outside vehicles. Computer vision helps
-turn images from camera traps, drones, and remote sensing into species
-identification. It also supports individual animal tracking, habitat mapping,
-and change detection. She then discusses class imbalance, sparse observations,
-heterogeneous data, and Indigenous knowledge. The same conversation covers
-citizen science and long-term platform maintenance
-([AI for Ecology, Biodiversity, and Conservation]({{ '/podcasts/ai-for-ecology-biodiversity-and-conservation/' | relative_url }})).
+Tanya's conservation examples add class imbalance and sparse observations. Rare
+species appear infrequently, and individual animals may reappear across years.
+Labels may come from scientists, citizen-science contributors, or local
+communities. In
+[AI for Ecology, Biodiversity, and Conservation]({{ '/podcasts/ai-for-ecology-biodiversity-and-conservation/' | relative_url }})
+Tanya discusses data challenges around 20:30 and heterogeneous sources around
+23:30. Her citizen-science quality-control chapter around 35:30 puts quality
+review inside the vision system instead of treating it as cleanup after
+modeling.
 
-For architecture, pair computer vision with
-[machine learning system design]({{ '/wiki/machine-learning-system-design/' | relative_url }}).
-For deployment context, pair it with
-[production]({{ '/wiki/production/' | relative_url }}) and
+[Andrey Shtylenko]({{ '/people/andreyshtylenko/' | relative_url }}) adds the
+enterprise version in
+[Building and Scaling Data Science Practice in Industrial Enterprises]({{ '/podcasts/building-and-scaling-data-science-practice-industrial-ai-mlops/' | relative_url }}).
+After introducing smart sensors, computer vision, and robotics around 8:54, he
+returns to shared services around 50:14. Those services include experiment
+tracking, annotation, and procurement. For industrial computer vision, labels
+and tooling become part of
+[MLOps]({{ '/wiki/mlops/' | relative_url }}) maturity, not a side task owned by
+one modeler.
+
+## Deployment Constraints
+
+Computer vision deployment depends on where the decision happens. A vehicle
+needs low-latency perception, compression, safety tests, and release controls.
+Aishwarya covers on-vehicle inference around 22:17 and model compression around
+23:28 in
+[Applying Computer Vision Research]({{ '/podcasts/from-computer-vision-research-to-autonomous-driving-ai/' | relative_url }}).
+The same discussion adds simulation and closed-track validation around 29:45,
+staged releases around 32:43, and geography or edge-case complexity around
+37:18.
+Those topics put computer vision inside
+[machine learning system design]({{ '/wiki/machine-learning-system-design/' | relative_url }}),
+[production]({{ '/wiki/production/' | relative_url }}), and
 [notebook-to-production AI systems]({{ '/wiki/notebook-to-production-ai-systems/' | relative_url }}).
-A vision model becomes useful when someone can run it where the decision
-happens. That may mean a car or a low-power field device. It may also mean a
-factory workflow, a search product, or a public portfolio project that
-reviewers can reproduce.
 
-## Deployment In The Real World
+Field deployment has different constraints. Tanya discusses low-power devices,
+real-time alerts, and local partners around 47:00 and 49:30 in
+[her ecology episode]({{ '/podcasts/ai-for-ecology-biodiversity-and-conservation/' | relative_url }}).
+She returns to capacity building around 55:30.
+A conservation model can score well offline and still fail if field teams
+can't maintain the data flow or understand the output. It can also fail if they
+can't use the output for policy, enforcement, and habitat decisions.
 
-Autonomous driving makes deployment constraints visible. A perception model has
-to run on the vehicle and respond fast enough for driving behavior. It also has
-to keep working across geography, weather, construction, and unusual human
-signals.
-
-Aishwarya covers on-vehicle inference around 22:17, model compression around
-23:28, and validation through simulation and controlled tracks around 29:45.
-She also covers staged releases around 32:43
-([Applying Computer Vision Research]({{ '/podcasts/from-computer-vision-research-to-autonomous-driving-ai/' | relative_url }})).
-
-Industrial AI adds a different deployment path. In
-[Building and Scaling Data Science Practice in Industrial Enterprises]({{ '/podcasts/building-and-scaling-data-science-practice-industrial-ai-mlops/' | relative_url }}),
-[Andrey Shtylenko]({{ '/people/andreyshtylenko/' | relative_url }}) describes
-an enterprise AI practice built around computer vision, smart sensors, and
-robotics. He starts with proof-of-concept work before covering centralized
-tooling and embedded teams. He also covers shared services, annotation, and
-procurement.
-
-For computer vision teams, deployment is also an organizational design problem.
-
-The team needs standards, ownership, and shared infrastructure, not only a
+Industrial deployment adds organizational ownership. In
+[Andrey's industrial AI discussion]({{ '/podcasts/building-and-scaling-data-science-practice-industrial-ai-mlops/' | relative_url }}),
+proof-of-concept work around 32:00 leads into centralized tooling around 38:26,
+embedded teams around 46:04, and a hub-and-spoke model around 48:13. Computer
+vision teams need standards, shared infrastructure, and local trust, not only a
 trained model.
 
-Ecology and conservation add field constraints. Tanya's episode covers edge
-deployment on low-power devices and real-time alerts around 47:00. It also
-connects adoption to local partners and capacity building.
+## Robustness and Ethics
 
-Tanya also discusses data standards and funding for long-term monitoring. A
-conservation model can have strong technical performance and still fail if field
-teams can't maintain the data flow. It can also fail if they can't use the
-output in policy or enforcement. Habitat decisions add another use case
-([AI for Ecology, Biodiversity, and Conservation]({{ '/podcasts/ai-for-ecology-biodiversity-and-conservation/' | relative_url }})).
+The same risks recur across domains. A model trained in one city may fail in
+another. The same risk appears with a new camera setup, factory line, or
+habitat. In
+[Applying Computer Vision Research]({{ '/podcasts/from-computer-vision-research-to-autonomous-driving-ai/' | relative_url }})
+Aishwarya names geography and unusual traffic signals as real-world complexity
+around 37:18. Tanya discusses domain shift, transfer learning, and
+generalization around 26:00 in
+[her ecology episode]({{ '/podcasts/ai-for-ecology-biodiversity-and-conservation/' | relative_url }}).
 
-## Data Collection And Labeling
+Safety and ethics also depend on the domain. Autonomous driving emphasizes
+testing stages, inherited tests, and cautious release plans. In
+[Tanya's episode]({{ '/podcasts/ai-for-ecology-biodiversity-and-conservation/' | relative_url }}),
+conservation adds responsible AI, Indigenous knowledge, and equity around
+29:00. Policy use appears around 38:30.
 
-Computer vision projects expose the data work quickly because labels are
-expensive and errors are visible. Aishwarya discusses sensor data management
-and privacy in the autonomous-driving episode. She also covers human annotation
-and automated labeling. The model can't learn rare edge cases unless the team
-can collect and label them. The team also has to route those cases back into
-training and testing.
+Those discussions make computer vision part of
+[governance]({{ '/wiki/governance/' | relative_url }}). Teams need review
+paths, human override points, data standards, and long-term maintenance.
 
-Tanya's conservation examples add class imbalance because rare species appear
-infrequently. The same animal may also appear across years, which makes identity
-tracking part of the data problem. Labels may come from scientists or local
-communities. Citizen-science contributors may also provide labels.
+## Multimodal Retrieval
 
-Her Wildbook discussion treats quality control as part of the computer vision
-system. The same point applies to data integration rather than cleanup after
-modeling
-([Tanya's conservation episode]({{ '/podcasts/ai-for-ecology-biodiversity-and-conservation/' | relative_url }})).
-
-Portfolio projects need the same discipline at smaller scale. Tatiana's career
-transition episode recommends end-to-end pet projects around 46:40. Those
-projects should show data collection and labeling. They should also show
-deployment and Docker
-([Switch to Computer Vision and Deep Learning]({{ '/podcasts/from-physics-to-computer-vision-career-transition/' | relative_url }})).
-
-[Isabella Bicalho]({{ '/people/isabellabicalho/' | relative_url }}) gives an
-open-source version in
-[From Biology to ML]({{ '/podcasts/from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers/' | relative_url }}).
-She discusses Hugging Face computer vision contributions and green-space
-segmentation with Sentinel-2 imagery. She also compares CNNs and transformers
-against practical project constraints.
-
-## Multimodal Search And Retrieval
-
-Computer vision also appears in DataTalks.Club episodes through
-[embeddings]({{ '/wiki/embeddings/' | relative_url }}) and image retrieval.
-In [Production ML Search]({{ '/podcasts/production-ml-search-vector-search-embeddings-hybrid-search/' | relative_url }}),
+Computer vision also appears through
+[embeddings]({{ '/wiki/embeddings/' | relative_url }}) and image retrieval. In
+[Production ML Search]({{ '/podcasts/production-ml-search-vector-search-embeddings-hybrid-search/' | relative_url }}),
 the discussion covers multimodal embeddings around 33:13. Images and text can
-share a representation space. That lets teams search images with text queries
-or join visual similarity with product metadata. The later CLIP and e-commerce
-chapters show why image retrieval still needs production thinking.
+share a representation space, which lets a search system retrieve images from
+text queries or join visual similarity with product metadata.
 
-Image retrieval still needs candidate generation plus filters and indexing.
-Teams also account for recency, popularity, and business metrics.
+The search discussion keeps image retrieval grounded in production architecture.
+The episode moves from vector search basics around 21:55 to embedding
+generation and ingestion around 29:00. It then covers hybrid search with
+filters and recency around 34:00. Metadata and popularity appear around 38:50,
+and query-time weighting appears around 45:11.
 
-This connects computer vision to
-[vector databases]({{ '/wiki/vector-databases/' | relative_url }}). It also
-connects vision work to
-[knowledge graph vs vector search]({{ '/comparisons/knowledge-graph-vs-vector-search/' | relative_url }})
-and
-[production search evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }}).
+CLIP-style e-commerce prototyping appears around 58:17, and search metrics
+appear around 1:01:25
+([Production ML Search]({{ '/podcasts/production-ml-search-vector-search-embeddings-hybrid-search/' | relative_url }})).
+A CLIP demo can show text-to-image retrieval, but a product search system still
+needs generated vectors and storage. It also needs refresh logic, filtering,
+ranking, and evaluation. That places vision retrieval next to
+[vector databases]({{ '/wiki/vector-databases/' | relative_url }}),
+[knowledge graph vs vector search]({{ '/comparisons/knowledge-graph-vs-vector-search/' | relative_url }}),
+and [production search evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }}).
 
-A CLIP demo can prove that text-to-image retrieval is possible. A production
-search system still has to generate and store vectors. It also needs refresh
-logic, filtering, ranking, and evaluation.
+## Career and Project Work
 
-## Production Risks
+Computer vision portfolios need the full lifecycle at a smaller scale.
+[Tatiana Gabruseva]({{ '/people/tatianagabruseva/' | relative_url }}) frames
+her move from physics into computer vision and deep learning in
+[Switch to Computer Vision and Deep Learning]({{ '/podcasts/from-physics-to-computer-vision-career-transition/' | relative_url }}).
+Her project advice around 46:40 calls for end-to-end work with data collection
+and labeling plus deployment and Docker.
 
-The main production risks repeat across domains.
+In the surrounding chapters, Tatiana
+discusses Kaggle teams, mentors, and interviews. She also covers Python and ML
+or DL courses. SQL, algorithms, and system design round out the roadmap.
 
-- Domain shift: A model trained on one city, camera setup, or habitat may fail in another. Aishwarya discusses geography and edge cases in autonomous driving. Tanya discusses transfer learning and generalization in conservation.
-- Runtime constraints: Vehicles and mobile devices can impose latency and model-size limits. Field hardware can add energy and connectivity limits. Aishwarya covers compression and on-vehicle inference. Tanya covers edge deployment.
-- Label quality: Human annotation and automated labeling both introduce uncertainty. Citizen science and sparse observations add more uncertainty. Vision teams need review paths and data versioning, not only more images.
-- Safety and ethics: Autonomous driving raises safety testing and staged-release concerns. Conservation adds responsible AI and Indigenous knowledge. It also adds equity and policy use.
-- Organizational ownership: Andrey's industrial AI discussion shows why shared services and embedded teams matter. Once computer vision moves beyond a pilot, [MLOps]({{ '/wiki/mlops/' | relative_url }}) standards matter too.
+[Isabella Bicalho]({{ '/people/isabellabicalho/' | relative_url }}) shows an
+open-source route in
+[From Biology to ML]({{ '/podcasts/from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers/' | relative_url }}).
+She discusses Hugging Face computer vision contributions around 26:30,
+open-source opportunities around 34:41, green-space segmentation with
+Sentinel-2 imagery around 40:12, and portfolio-building value around 42:24.
+Her examples show how a project can compare CNNs and transformers while still
+documenting data, constraints, and collaboration.
 
-These risks are why computer vision belongs inside
-[production]({{ '/wiki/production/' | relative_url }}) and
-[MLOps]({{ '/wiki/mlops/' | relative_url }}) discussions. A high offline score
-doesn't answer whether the model can be updated safely, monitored, explained to
-operators, or rolled back when the visual world changes.
+[Paul Iusztin]({{ '/people/pauliusztin/' | relative_url }}) broadens the career
+frame in
+[his AI engineering episode]({{ '/podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products/' | relative_url }}).
+He connects deep learning and autonomous driving around 7:08 to the full-stack
+AI engineer skill stack around 22:29 and shipping AI products around 42:28. For
+computer vision, that means a reviewer should see the data source and label
+strategy.
 
-## Career And Project Work
-
-People entering computer vision should show the full lifecycle. Tatiana's
-transition from physics to computer vision centers learning and Kaggle. It also
-covers mentors, interviews, and end-to-end projects. Her
-project advice around 46:40 includes data collection and labeling. It also
-includes deployment and Docker, not only notebook training
-([Switch to Computer Vision and Deep Learning]({{ '/podcasts/from-physics-to-computer-vision-career-transition/' | relative_url }})).
-
-Isabella's path from biology to machine learning adds open-source evidence.
-Contributing to computer vision educational material, reviewing examples, and
-building applied projects can show collaboration and communication alongside
-modeling. Her green-space segmentation discussion also shows how a project can
-compare model families while staying tied to practical constraints
-([From Biology to ML]({{ '/podcasts/from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers/' | relative_url }})).
-
-Paul's AI engineering discussion broadens the career frame. He connects GenAI
-and computer vision with MLOps, then argues for shipping complete AI products
-rather than stopping at a model demo
-([AI Engineering]({{ '/podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products/' | relative_url }})).
-
-For a computer vision portfolio, that means a reviewer should see the problem
-and data source. They should also see the labeling approach, baseline, metric,
-and error analysis. Add the deployment path and operating constraints. Use
+They should also see the baseline and metric. Error analysis,
+deployment path, and operating constraints need to be visible too. The broader
+portfolio standard lives in
 [machine learning portfolio projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
-for the broader portfolio standard.
+and [career transition]({{ '/wiki/career-transition/' | relative_url }}).
 
-## Applied Domains
+## Related Pages
 
-The podcast archive shows computer vision through several applied settings:
-
-- [Aishwarya Jadhav]({{ '/people/aishwaryajadhav/' | relative_url }}) on applied computer vision research and autonomous driving. She also covers sensor tradeoffs and labeling. Her episode adds validation, multimodal AI, and production deployment.
-- [Tanya Berger-Wolf]({{ '/people/tanyabergerwolf/' | relative_url }}) on computer vision for ecology, biodiversity, and conservation. She also covers citizen science and remote sensing. Her episode adds field deployment.
-- [Andrey Shtylenko]({{ '/people/andreyshtylenko/' | relative_url }}) on industrial AI practices, smart sensors, computer vision, and robotics. He also covers shared services and MLOps maturity.
-- [Isabella Bicalho]({{ '/people/isabellabicalho/' | relative_url }}) on open-source computer vision work, transformer projects, and green-space segmentation. She also covers career transition from biology.
-- [Tatiana Gabruseva]({{ '/people/tatianagabruseva/' | relative_url }}) on computer vision and deep learning career transition. She also covers Kaggle and projects. Her episode adds mentors and interview preparation.
-- [Paul Iusztin]({{ '/people/pauliusztin/' | relative_url }}) on shipping AI products across GenAI, computer vision, and MLOps.
-
-## Adjacent Topics
-
-Use these pages for the neighboring concepts:
-
-- [AI]({{ '/wiki/ai/' | relative_url }}) and [Machine Learning]({{ '/wiki/machine-learning/' | relative_url }}) for the broader modeling context.
-- [Deep Learning]({{ '/wiki/deep-learning/' | relative_url }}) for neural vision models and representation learning.
-- [MLOps]({{ '/wiki/mlops/' | relative_url }}) and [Production]({{ '/wiki/production/' | relative_url }}) for deployment, monitoring, release planning, and ownership.
-- [Notebook to Production AI Systems]({{ '/wiki/notebook-to-production-ai-systems/' | relative_url }}) for moving visual models into usable applications.
-- [Embeddings]({{ '/wiki/embeddings/' | relative_url }}) and [Vector Databases]({{ '/wiki/vector-databases/' | relative_url }}) for CLIP-style multimodal search and retrieval.
-- [Career Transition]({{ '/wiki/career-transition/' | relative_url }}) and [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}) for entering the field with project evidence.
+For modeling context, pair computer vision with
+[AI]({{ '/wiki/ai/' | relative_url }}),
+[machine learning]({{ '/wiki/machine-learning/' | relative_url }}), and
+[deep learning]({{ '/wiki/deep-learning/' | relative_url }}). For deployment,
+use [MLOps]({{ '/wiki/mlops/' | relative_url }}),
+[production]({{ '/wiki/production/' | relative_url }}),
+[machine learning system design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
+and [notebook-to-production AI systems]({{ '/wiki/notebook-to-production-ai-systems/' | relative_url }}).
+For retrieval, use [embeddings]({{ '/wiki/embeddings/' | relative_url }}) and
+[vector databases]({{ '/wiki/vector-databases/' | relative_url }}).

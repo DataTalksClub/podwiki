@@ -11,7 +11,7 @@
     "persons": 183,
     "topics": 92,
     "nodes": 704,
-    "links": 10998
+    "links": 11040
   },
   "nodes": [
     {
@@ -5529,7 +5529,7 @@
       "title": "CI/CD",
       "url": "/wiki/ci-cd/",
       "count": 1,
-      "search": "CI/CD Podcast grounded reference page for CI/CD in data, ML, and AI systems."
+      "search": "CI/CD Reference page for CI/CD in data, ML, and AI systems."
     },
     {
       "id": "wiki:communication",
@@ -5569,7 +5569,7 @@
       "title": "Computer Vision",
       "url": "/wiki/computer-vision/",
       "count": 1,
-      "search": "Computer Vision Podcast grounded guide to computer vision as applied perception, from images and sensors to labeling, deployment constraints, multimodal retrieval, and career project work."
+      "search": "Computer Vision DataTalks.Club discussions on computer vision as applied perception: images, sensors, labels, deployment constraints, multimodal retrieval, and project work."
     },
     {
       "id": "wiki:consultant-or-freelancer-to-data-product-founder",
@@ -5639,7 +5639,7 @@
       "title": "Data Analyst Careers",
       "url": "/wiki/data-analyst-careers/",
       "count": 1,
-      "search": "Data Analyst Careers A podcast grounded career page for data analyst paths, entry points, portfolio evidence, hiring signals, and transitions into analytics engineering, data science, and data engineering."
+      "search": "Data Analyst Careers A career page for data analyst entry routes, portfolio evidence, hiring signals, and moves into analytics engineering, data science, and data engineering."
     },
     {
       "id": "wiki:data-analyst-role",
@@ -5769,7 +5769,7 @@
       "title": "Data Observability",
       "url": "/wiki/data-observability/",
       "count": 1,
-      "search": "Data Observability Podcast grounded definition of data observability across freshness, volume, distribution, schema, lineage, ownership, SLAs, and incident response."
+      "search": "Data Observability How DataTalks.Club guests define data observability through reliability signals, ownership, SLAs, and incident response."
     },
     {
       "id": "wiki:data-pipelines",
@@ -40555,6 +40555,12 @@
     },
     {
       "source": "wiki:ci-cd",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ci-cd",
       "target": "wiki:dataops",
       "kind": "wiki-link",
       "weight": 1
@@ -40567,6 +40573,18 @@
     },
     {
       "source": "wiki:ci-cd",
+      "target": "wiki:developer-experience",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ci-cd",
+      "target": "wiki:experiment-tracking",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ci-cd",
       "target": "wiki:gitops-for-data-teams",
       "kind": "wiki-link",
       "weight": 1
@@ -40576,6 +40594,12 @@
       "target": "wiki:gitops-for-data-teams",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:ci-cd",
+      "target": "wiki:governance",
+      "kind": "wiki-link",
+      "weight": 1
     },
     {
       "source": "wiki:ci-cd",
@@ -40603,6 +40627,24 @@
     },
     {
       "source": "wiki:ci-cd",
+      "target": "wiki:model-monitoring",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ci-cd",
+      "target": "wiki:model-registry",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ci-cd",
+      "target": "wiki:platform-adoption",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ci-cd",
       "target": "wiki:reproducibility",
       "kind": "wiki-link",
       "weight": 1
@@ -40612,6 +40654,12 @@
       "target": "wiki:reproducibility",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:ci-cd",
+      "target": "wiki:security",
+      "kind": "wiki-link",
+      "weight": 1
     },
     {
       "source": "wiki:ci-cd",
@@ -41221,6 +41269,12 @@
     },
     {
       "source": "wiki:computer-vision",
+      "target": "wiki:data-strategy",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:computer-vision",
       "target": "wiki:deep-learning",
       "kind": "wiki-link",
       "weight": 1
@@ -41242,6 +41296,12 @@
       "target": "wiki:embeddings",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:computer-vision",
+      "target": "wiki:governance",
+      "kind": "wiki-link",
+      "weight": 1
     },
     {
       "source": "wiki:computer-vision",
@@ -42391,6 +42451,12 @@
     },
     {
       "source": "wiki:data-analyst-careers",
+      "target": "article:comparison:product-analyst-vs-data-analyst",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-analyst-careers",
       "target": "article:guide:product-analyst",
       "kind": "wiki-link",
       "weight": 1
@@ -42968,6 +43034,12 @@
     {
       "source": "wiki:data-architect-role",
       "target": "wiki:leadership",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-architect-role",
+      "target": "wiki:leadership",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -43261,6 +43333,12 @@
     },
     {
       "source": "wiki:data-engineering",
+      "target": "article:comparison:etl-vs-elt",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering",
       "target": "article:comparison:mlops-vs-dataops",
       "kind": "wiki-link",
       "weight": 1
@@ -43465,6 +43543,18 @@
     },
     {
       "source": "wiki:data-engineering",
+      "target": "wiki:cdc",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering",
+      "target": "wiki:data-analyst-careers",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering",
       "target": "wiki:data-engineering-platforms",
       "kind": "wiki-link",
       "weight": 1
@@ -43477,7 +43567,19 @@
     },
     {
       "source": "wiki:data-engineering",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering",
       "target": "wiki:data-engineering-roadmap",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering",
+      "target": "wiki:data-observability",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -43558,6 +43660,12 @@
       "target": "wiki:modern-data-stack",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-engineering",
+      "target": "wiki:orchestration",
+      "kind": "wiki-link",
+      "weight": 1
     },
     {
       "source": "wiki:data-engineering",
@@ -45715,6 +45823,12 @@
     },
     {
       "source": "wiki:data-observability",
+      "target": "wiki:leadership",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-observability",
       "target": "wiki:mlops",
       "kind": "wiki-link",
       "weight": 1
@@ -45742,6 +45856,12 @@
       "target": "wiki:production",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-observability",
+      "target": "wiki:testing",
+      "kind": "wiki-link",
+      "weight": 1
     },
     {
       "source": "wiki:data-pipelines",
@@ -46129,12 +46249,6 @@
     },
     {
       "source": "wiki:data-product-management",
-      "target": "article:comparison:data-product-manager-vs-product-manager",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-product-management",
       "target": "article:comparison:data-product-owner-vs-data-product-manager",
       "kind": "wiki-link",
       "weight": 1
@@ -46270,6 +46384,12 @@
       "target": "wiki:data-engineering-platforms",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-product-management",
+      "target": "wiki:data-mesh",
+      "kind": "wiki-link",
+      "weight": 1
     },
     {
       "source": "wiki:data-product-management",
@@ -46850,6 +46970,24 @@
     {
       "source": "wiki:data-science",
       "target": "article:comparison:mlops-vs-dataops",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science",
+      "target": "person:alicjanotowska",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science",
+      "target": "person:christophmolnar",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science",
+      "target": "person:jakobgraff",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -48199,6 +48337,12 @@
     },
     {
       "source": "wiki:data-strategy",
+      "target": "person:alexanderhendorf",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-strategy",
       "target": "person:arpitchoudhury",
       "kind": "wiki-link",
       "weight": 1
@@ -48607,13 +48751,31 @@
     },
     {
       "source": "wiki:data-teams",
+      "target": "person:dattran",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-teams",
       "target": "person:katiebauer",
       "kind": "wiki-link",
       "weight": 1
     },
     {
       "source": "wiki:data-teams",
+      "target": "person:lisacohen",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-teams",
       "target": "person:mehdiouazza",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-teams",
+      "target": "person:tammyliang",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -49951,6 +50113,12 @@
     },
     {
       "source": "wiki:dbt",
+      "target": "wiki:metrics",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dbt",
       "target": "wiki:modern-data-stack",
       "kind": "wiki-link",
       "weight": 1
@@ -49962,8 +50130,26 @@
       "weight": 3
     },
     {
+      "source": "wiki:dbt",
+      "target": "wiki:product-analytics",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dbt",
+      "target": "wiki:reverse-etl",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
       "source": "wiki:deep-learning",
       "target": "person:aishwaryajadhav",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:deep-learning",
+      "target": "person:benwilson",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -50089,6 +50275,12 @@
     },
     {
       "source": "wiki:deep-learning",
+      "target": "wiki:ai-infrastructure",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:deep-learning",
       "target": "wiki:computer-vision",
       "kind": "wiki-link",
       "weight": 1
@@ -50125,6 +50317,12 @@
     },
     {
       "source": "wiki:deep-learning",
+      "target": "wiki:llm-production-patterns",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:deep-learning",
       "target": "wiki:machine-learning",
       "kind": "wiki-link",
       "weight": 1
@@ -50149,6 +50347,12 @@
     },
     {
       "source": "wiki:deep-learning",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:deep-learning",
       "target": "wiki:mlops",
       "kind": "wiki-link",
       "weight": 1
@@ -50170,6 +50374,18 @@
       "target": "wiki:production",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:deep-learning",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:deep-learning",
+      "target": "wiki:vector-databases",
+      "kind": "wiki-link",
+      "weight": 1
     },
     {
       "source": "wiki:delta-lake",
@@ -50203,6 +50419,18 @@
     },
     {
       "source": "wiki:delta-lake",
+      "target": "person:roksolanadiachuk",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:delta-lake",
+      "target": "podcast:big-data-engineer-vs-data-scientist",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:delta-lake",
       "target": "podcast:data-engineering-tools-modern-data-stack",
       "kind": "wiki-link",
       "weight": 1
@@ -50221,6 +50449,12 @@
     },
     {
       "source": "wiki:delta-lake",
+      "target": "wiki:analytics-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:delta-lake",
       "target": "wiki:apache-iceberg",
       "kind": "wiki-link",
       "weight": 1
@@ -50242,6 +50476,12 @@
       "target": "wiki:data-engineering-platforms",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:delta-lake",
+      "target": "wiki:data-engineering-tools",
+      "kind": "wiki-link",
+      "weight": 1
     },
     {
       "source": "wiki:delta-lake",
@@ -50269,7 +50509,7 @@
     },
     {
       "source": "wiki:delta-lake",
-      "target": "wiki:dataops",
+      "target": "wiki:data-quality-and-observability",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -50278,6 +50518,12 @@
       "target": "wiki:dataops",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:delta-lake",
+      "target": "wiki:dbt",
+      "kind": "wiki-link",
+      "weight": 1
     },
     {
       "source": "wiki:delta-lake",
@@ -50302,6 +50548,12 @@
       "target": "wiki:modern-data-stack",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:delta-lake",
+      "target": "wiki:orchestration",
+      "kind": "wiki-link",
+      "weight": 1
     },
     {
       "source": "wiki:developer-experience",
