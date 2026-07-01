@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=UPlIETGwTg8"
 spotify_url: "https://open.spotify.com/episode/0HT3IQOaTXTMH0OdEBnw9s?si=HrLtx7QKT_amZyUbZuqRzQ"
 apple_url: "https://podcasts.apple.com/us/podcast/working-in-open-source-probabl-ai-and-sklearn-vincent/id1541710331?i=1000654481795"
 ---
-# Open Source ML Tools: Scikit-Learn Governance, Sustainability and Business Models
+
+# Episode: Open Source ML Tools: Scikit-Learn Governance, Sustainability and Business Models
 
 ## Original Episode
 
@@ -25,7 +26,13 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How can open source ML tools stay healthy, useful, and financially sustainable while serving both researchers and industry? In this episode Vincent Warmerdam — Research Advocate at Rasa, author of the Koaning blog, creator of the Algorithm Whiteboard playlist, and cofounder of Calm Code — walks through the real-world tradeoffs of scikit-learn governance, sustainability, and business models for ML tooling.
+This episode covers Open Source ML Tools - Scikit-Learn Governance, Sustainability and Business Models.
+
+## Episode Value
+
+This episode covers Open Source ML Tools - Scikit-Learn Governance, Sustainability and Business Models.
+
+Agents should consider this episode when working on open-source, machine learning, data science.
 
 ## People
 
@@ -33,12 +40,22 @@ Use these links to connect the episode to guest notes.
 
 - [Vincent Warmerdam]({{ '/people/vincentwarmerdam/' | relative_url }})
 
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- open-source
+- machine learning
+- data science
+- tools
+- developer relations
+
 ## Chapter Summary
 
 Use these checkpoints to decide whether to open the source transcript.
 
-- 0:00 - [Episode Overview — Open Source Focus](https://www.youtube.com/watch?v=UPlIETGwTg8&t=0)
-- 1:40 - [Guest Reintroduction & Vincent’s Open Source Profile](https://www.youtube.com/watch?v=UPlIETGwTg8&t=100)
+- 0:00 - [Episode Overview - Open Source Focus](https://www.youtube.com/watch?v=UPlIETGwTg8&t=0)
+- 1:40 - [Guest Reintroduction & Vincent's Open Source Profile](https://www.youtube.com/watch?v=UPlIETGwTg8&t=100)
 - 4:00 - [Early Community Work & PyLadies Code Sprint](https://www.youtube.com/watch?v=UPlIETGwTg8&t=240)
 - 4:19 - [Scikit Lego Origin, Adoption, and Career Impact](https://www.youtube.com/watch?v=UPlIETGwTg8&t=259)
 - 6:03 - [Career Path: Econometrics → DevRel → Core Engineering](https://www.youtube.com/watch?v=UPlIETGwTg8&t=363)
@@ -67,3 +84,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 57:34 - [Upcoming Work: Calm Code Book on Expectations vs. Reality in Data](https://www.youtube.com/watch?v=UPlIETGwTg8&t=3454)
 - 58:17 - [Live Experiments: Converting Tree Models to SQL and Streaming Work](https://www.youtube.com/watch?v=UPlIETGwTg8&t=3497)
 - 1:00:27 - [Live Stream Format: Preparation, Live Coding, and Demos](https://www.youtube.com/watch?v=UPlIETGwTg8&t=3627)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around open-source, machine learning, data science, tools, developer relations.
+- First pass reading starts with Episode Overview - Open Source Focus, Guest Reintroduction & Vincent's Open Source Profile, Early Community Work & PyLadies Code Sprint, Scikit Lego Origin, Adoption, and Career Impact.
+- Source file: `datatalksclub.github.io/_podcast/open-source-ml-tools-strategy-and-business-models.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve open-source, machine learning, data science, tools, the listed guests, or the chapter topics above.

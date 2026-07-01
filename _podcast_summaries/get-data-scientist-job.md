@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=Sb4CJlonB3c"
 spotify_url: "https://open.spotify.com/episode/2Yxay9HJmd6dvk34MHJ0K2"
 apple_url: "https://podcasts.apple.com/us/podcast/standing-out-as-a-data-scientist-luke-whipps/id1541710331?i=1000502844994"
 ---
-# Land Data Scientist Roles: Resumes, Portfolios, Interviews & Recruiter Workflow
+
+# Episode: Land Data Scientist Roles: Resumes, Portfolios, Interviews & Recruiter Workflow
 
 ## Original Episode
 
@@ -25,13 +26,27 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you actually land a data scientist role — from a resume that passes screening to a portfolio that wins interviews and an offer that closes? In this episode Luke Whipps, co-founder of Neural.AI and host of the AI Game Changer podcast with 8+ years recruiting experience, walks through the recruiter workflow and practical steps data scientists can use to improve hiring outcomes.
+This episode covers Land Data Scientist Roles - Resumes, Portfolios, Interviews & Recruiter Workflow.
+
+## Episode Value
+
+This episode covers Land Data Scientist Roles - Resumes, Portfolios, Interviews & Recruiter Workflow.
+
+Agents should consider this episode when working on data science, career growth, job search.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Luke Whipps]({{ '/people/lukewhipps/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- data science
+- career growth
+- job search
 
 ## Chapter Summary
 
@@ -66,3 +81,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 1:00:15 - [Switching backgrounds: web development to machine learning skills](https://www.youtube.com/watch?v=Sb4CJlonB3c&t=3615)
 - 1:02:07 - [Disclosing other interviews: transparency, trust and recruiter differences](https://www.youtube.com/watch?v=Sb4CJlonB3c&t=3727)
 - 1:07:37 - [Episode summary: purpose-driven candidates and standing out as a data scientist](https://www.youtube.com/watch?v=Sb4CJlonB3c&t=4057)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around data science, career growth, job search.
+- First pass reading starts with Guest Introduction: Luke Whipps, recruiter and podcast host, Recruiting background: a decade in data, analytics and AI, Neural AI origin: founding principles and non-transactional recruiting, Community focus: podcasts, events and value-driven talent work.
+- Source file: `datatalksclub.github.io/_podcast/get-data-scientist-job.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve data science, career growth, job search, the listed guests, or the chapter topics above.

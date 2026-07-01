@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=H4P2RfKvXGs"
 spotify_url: "https://open.spotify.com/episode/5kTD7LjoXos1fm2LPD7nJc"
 apple_url: "https://podcasts.apple.com/us/podcast/defining-success-metrics-and-kpis-adam-sroka/id1541710331?i=1000535667935"
 ---
-# KPI Design & Metrics Strategy: Prioritize Impact, Avoid Vanity Metrics, and Prove ROI
+
+# Episode: KPI Design & Metrics Strategy: Prioritize Impact, Avoid Vanity Metrics, and Prove ROI
 
 ## Original Episode
 
@@ -25,13 +26,31 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you design KPIs that prioritize real impact, avoid vanity metrics, and actually prove ROI? In this episode, Dr. Adam Sroka — Head of Machine Learning Engineering at Origami Energy, with a background from a Physics PhD to data science, reinforcement learning, and consultancy — walks through a practical metrics strategy for data and product teams.
+This episode covers KPI Design & Metrics Strategy - Prioritize Impact, Avoid Vanity Metrics, and Prove ROI.
+
+## Episode Value
+
+This episode covers KPI Design & Metrics Strategy - Prioritize Impact, Avoid Vanity Metrics, and Prove ROI.
+
+Agents should consider this episode when working on machine learning, leadership, data science.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Adam Sroka]({{ '/people/adamsroka/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- machine learning
+- leadership
+- data science
+- product management
+- strategy
+- metrics
+- communication
 
 ## Chapter Summary
 
@@ -58,6 +77,20 @@ Use these checkpoints to decide whether to open the source transcript.
 - 46:34 - [Threshold Metrics: Alerts, Limits, and Safety Conditions](https://www.youtube.com/watch?v=H4P2RfKvXGs&t=2794)
 - 48:48 - [Health & Hygiene Metrics: Downtime and Service Reliability](https://www.youtube.com/watch?v=H4P2RfKvXGs&t=2928)
 - 51:12 - [Data Team Metrics: Translate Model Performance into £ / Time Saved](https://www.youtube.com/watch?v=H4P2RfKvXGs&t=3072)
-- 55:42 - [Experimentation & Measurement: A/B Testing and Champion–Challenger](https://www.youtube.com/watch?v=H4P2RfKvXGs&t=3342)
+- 55:42 - [Experimentation & Measurement: A/B Testing and Champion-Challenger](https://www.youtube.com/watch?v=H4P2RfKvXGs&t=3342)
 - 56:35 - [Model Validation Techniques: Randomization, Backtesting, and Uplift](https://www.youtube.com/watch?v=H4P2RfKvXGs&t=3395)
 - 1:00:02 - [Timeboxing Data Work: Two-Week Spikes and Accelerate Metrics](https://www.youtube.com/watch?v=H4P2RfKvXGs&t=3602)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around machine learning, leadership, data science, product management, strategy, metrics.
+- First pass reading starts with Guest Introduction & Career Path, From Physics PhD to Data Science and Reinforcement Learning, Moving into Consultancy: BI, Dashboards, and Client Workshops, Laser Research, Ray-Tracing Tools, and Early RL Experiments.
+- Source file: `datatalksclub.github.io/_podcast/ml-engineering-kpis-and-metrics-strategy.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve machine learning, leadership, data science, product management, the listed guests, or the chapter topics above.

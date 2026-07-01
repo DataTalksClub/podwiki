@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=Nl4aibeFwiI"
 spotify_url: "https://open.spotify.com/episode/3yQtA8EAndau1yhCFPfwtj?si=ZutO4mLlRfOz_Zgw4GujiQ"
 apple_url: "https://podcasts.apple.com/us/podcast/machine-learning-engineering-in-finance-nemanja-radojkovic/id1541710331?i=1000643322929"
 ---
-# MLOps in Finance: Regulated Deployment, CI/CD and Model Governance
+
+# Episode: MLOps in Finance: Regulated Deployment, CI/CD and Model Governance
 
 ## Original Episode
 
@@ -25,7 +26,13 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you deploy machine learning in heavily regulated finance environments while keeping CI/CD pipelines, model governance, and operational risk under control? In this episode Nemanja Radojkovic—an electrical engineer turned data scientist and MLOps practitioner who moved from Belgrade to Leuven—walks through real-world constraints and pragmatic solutions for MLOps in finance.
+This episode covers MLOps in Finance - Regulated Deployment, CI/CD and Model Governance.
+
+## Episode Value
+
+This episode covers MLOps in Finance - Regulated Deployment, CI/CD and Model Governance.
+
+Agents should consider this episode when working on MLOps, machine learning, data engineering.
 
 ## People
 
@@ -33,12 +40,22 @@ Use these links to connect the episode to guest notes.
 
 - [Nemanja Radojkovic]({{ '/people/nemanjaradojkovic/' | relative_url }})
 
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- MLOps
+- machine learning
+- data engineering
+- production
+- career transition
+
 ## Chapter Summary
 
 Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode Introduction](https://www.youtube.com/watch?v=Nl4aibeFwiI&t=0)
-- 1:35 - [Guest Introduction: Nemanja’s journey from Belgrade to ML Ops in Europe](https://www.youtube.com/watch?v=Nl4aibeFwiI&t=95)
+- 1:35 - [Guest Introduction: Nemanja's journey from Belgrade to ML Ops in Europe](https://www.youtube.com/watch?v=Nl4aibeFwiI&t=95)
 - 2:52 - [Guest Background: Electrical engineering, PhD experience, and early career](https://www.youtube.com/watch?v=Nl4aibeFwiI&t=172)
 - 8:18 - [Early Data Roles: PhD, Deloitte, and first paid Python work](https://www.youtube.com/watch?v=Nl4aibeFwiI&t=498)
 - 10:35 - [Finance Use Cases: Compliance, AML, fraud, and smart automation (document](https://www.youtube.com/watch?v=Nl4aibeFwiI&t=635)
@@ -57,3 +74,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 48:55 - [Career Transition Challenges: Moving from electrical engineering and sales](https://www.youtube.com/watch?v=Nl4aibeFwiI&t=2935)
 - 52:51 - [Beginner Tech Stack: Python, SQL, Pandas/Polars, cloud basics, and job-market](https://www.youtube.com/watch?v=Nl4aibeFwiI&t=3171)
 - 56:19 - [Learn by Building: End-to-end projects, web apps, and scraping job postings](https://www.youtube.com/watch?v=Nl4aibeFwiI&t=3379)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around MLOps, machine learning, data engineering, production, career transition.
+- First pass reading starts with Episode Introduction, Guest Introduction: Nemanja's journey from Belgrade to ML Ops in Europe, Guest Background: Electrical engineering, PhD experience, and early career, Early Data Roles: PhD, Deloitte, and first paid Python work.
+- Source file: `datatalksclub.github.io/_podcast/mlops-and-ml-engineering-in-finance.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve MLOps, machine learning, data engineering, production, the listed guests, or the chapter topics above.

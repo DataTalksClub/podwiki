@@ -10,7 +10,8 @@ topics: ["team building", "data teams", "data science", "machine learning", "dat
 summary_status: source-index
 youtube_url: "https://www.youtube.com/watch?v=UukjwSIAnpw"
 ---
-# Data Team Roles Explained: Skills, Responsibilities, and How Teams Ship ML Products
+
+# Episode: Data Team Roles Explained: Skills, Responsibilities, and How Teams Ship ML Products
 
 ## Original Episode
 
@@ -19,11 +20,34 @@ Use these links for the canonical episode and media sources.
 - [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/data-team-roles.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=UukjwSIAnpw)
 
+## Episode Overview
+
+This episode covers Data Team Roles Explained - Skills, Responsibilities, and How Teams Ship ML Products.
+
+## Episode Value
+
+This episode covers Data Team Roles Explained - Skills, Responsibilities, and How Teams Ship ML Products.
+
+Agents should consider this episode when working on team building, data teams, data science.
+
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Alexey Grigorev]({{ '/people/alexeygrigorev/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- team building
+- data teams
+- data science
+- machine learning
+- data analysis
+- data engineering
+- MLOps
+- product management
 
 ## Chapter Summary
 
@@ -41,3 +65,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 34:35 - [Transcript checkpoint 10: What roles depend on the size of the team? For example, would you see a machine](https://www.youtube.com/watch?v=UukjwSIAnpw&t=2075)
 - 38:52 - [Transcript checkpoint 11: The nature of the work is different. A full stack web engineer focuses on](https://www.youtube.com/watch?v=UukjwSIAnpw&t=2332)
 - 43:24 - [Transcript checkpoint 12: We are wrapping up for today. Thank you for attending the session. I look](https://www.youtube.com/watch?v=UukjwSIAnpw&t=2604)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around team building, data teams, data science, machine learning, data analysis, data engineering.
+- First pass reading starts with Thank you for joining. I will start with the introduction, and maybe more, A product manager is responsible for the product and for making sure the team, The product manager exists to keep the team close to the user. They speak, Together with the product manager they decide if the problem is worth solving..
+- Source file: `datatalksclub.github.io/_podcast/data-team-roles.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve team building, data teams, data science, machine learning, the listed guests, or the chapter topics above.

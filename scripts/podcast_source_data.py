@@ -227,6 +227,13 @@ def should_skip_podcast(path: Path) -> bool:
     return path.name in {"README.md", "_template.md"}
 
 
+def source_slug(path: Path) -> str:
+    slug = path.stem.lstrip("_")
+    if slug.endswith(".md"):
+        slug = slug[:-3]
+    return slug
+
+
 def source_relative_path(path: Path) -> str:
     resolved = path.resolve()
     try:
@@ -241,7 +248,7 @@ def read_podcast(path: Path) -> dict[str, object]:
     clips = parse_list_of_dicts(frontmatter, "quotableClips")
     transcript_items = parse_list_of_dicts(frontmatter, "transcript")
     links = meta.get("links") if isinstance(meta.get("links"), dict) else {}
-    slug = path.stem.lstrip("_")
+    slug = source_slug(path)
     title = str(meta.get("title") or slug.replace("-", " ").title())
     intro = first_paragraph(meta.get("intro") or meta.get("description"))
     chapters = [

@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=bT7-HRNCltk"
 spotify_url: "https://open.spotify.com/episode/5GOBabz65IRmiMow8FYbr5?si=a99463e34ffb48f1"
 apple_url: "https://podcasts.apple.com/us/podcast/ai-in-industry-trust-return-on-investment-and-future/id1541710331?i=1000679505962"
 ---
-# Hardening Generative AI Chatbots: Prevent Prompt Injection, Data Exfiltration & Hallucinations
+
+# Episode: Hardening Generative AI Chatbots: Prevent Prompt Injection, Data Exfiltration & Hallucinations
 
 ## Original Episode
 
@@ -25,7 +26,13 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you harden generative AI chatbots against prompt injection, data exfiltration, and dangerous hallucinations? In this episode Maria Sukhareva — a principal key expert in AI at Siemens with 15+ years working at the intersection of linguistics and computational AI — walks through real-world risks, attack findings, and practical defenses for chatbot security.
+This episode covers Hardening Generative AI Chatbots - Prevent Prompt Injection, Data Exfiltration & Hallucinations.
+
+## Episode Value
+
+This episode covers Hardening Generative AI Chatbots - Prevent Prompt Injection, Data Exfiltration & Hallucinations.
+
+Agents should consider this episode when working on AI, LLMs, NLP.
 
 ## People
 
@@ -33,13 +40,25 @@ Use these links to connect the episode to guest notes.
 
 - [Maria Sukhareva]({{ '/people/mariasukhareva/' | relative_url }})
 
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- AI
+- LLMs
+- NLP
+- MLOps
+- production
+- AI red teaming
+- security
+
 ## Chapter Summary
 
 Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode Introduction & Guest Overview](https://www.youtube.com/watch?v=bT7-HRNCltk&t=0)
 - 2:13 - [Career Path: From Linguist to Computational Linguistics and Industry](https://www.youtube.com/watch?v=bT7-HRNCltk&t=133)
-- 4:11 - [Role Definition: Principal Key Expert in AI — Advising on Technology and](https://www.youtube.com/watch?v=bT7-HRNCltk&t=251)
+- 4:11 - [Role Definition: Principal Key Expert in AI - Advising on Technology and](https://www.youtube.com/watch?v=bT7-HRNCltk&t=251)
 - 5:42 - [Democratization of Generative AI: Rise of Prompting and New "AI Experts"](https://www.youtube.com/watch?v=bT7-HRNCltk&t=342)
 - 9:28 - [Bot Safety Challenge: Large-Scale Chatbot Hacking Exercise and Findings](https://www.youtube.com/watch?v=bT7-HRNCltk&t=568)
 - 11:38 - [Chatbot Failures: Hallucinations, Legal Exposure, and Financial Incidents](https://www.youtube.com/watch?v=bT7-HRNCltk&t=698)
@@ -59,3 +78,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 56:52 - [Orthography & Data Quality: Inconsistent Spelling in Historical Corpora](https://www.youtube.com/watch?v=bT7-HRNCltk&t=3412)
 - 57:28 - [Industry Trade-offs: Research Innovation vs. ROI and Operational Needs](https://www.youtube.com/watch?v=bT7-HRNCltk&t=3448)
 - 59:14 - [Episode Wrap-Up: Key Takeaways on AI Trust, Safety, and Future Directions](https://www.youtube.com/watch?v=bT7-HRNCltk&t=3554)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around AI, LLMs, NLP, MLOps, production, AI red teaming.
+- First pass reading starts with Episode Introduction & Guest Overview, Career Path: From Linguist to Computational Linguistics and Industry, Role Definition: Principal Key Expert in AI - Advising on Technology and, Democratization of Generative AI: Rise of Prompting and New "AI Experts".
+- Source file: `datatalksclub.github.io/_podcast/generative-ai-chatbots-in-production-security.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve AI, LLMs, NLP, MLOps, the listed guests, or the chapter topics above.

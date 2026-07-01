@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=kcKvUSInm-M"
 spotify_url: "https://open.spotify.com/episode/5WUKDcTYv8ZvnqeHSQT7FF?si=K10siPBHQwmegCCXJ1VpIA"
 apple_url: "https://podcasts.apple.com/us/podcast/bayesian-modeling-and-probabilistic-programming-rob/id1541710331?i=1000642253191"
 ---
-# Bayesian Modeling: PyMC, Stan and Probabilistic Programming Workflows
+
+# Episode: Bayesian Modeling: PyMC, Stan and Probabilistic Programming Workflows
 
 ## Original Episode
 
@@ -25,13 +26,28 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you move from point estimates to full uncertainty-aware models and choose the right tools and workflows for Bayesian modeling? In this episode Rob Zinkov, a machine learning engineer and former Indiana University research scientist who led development of the Hakaru probabilistic programming language, walks through practical Bayesian workflows and tool choices. We cover the core challenge of encoding priors, likelihoods, and posteriors; why integrals become intractable and how numerical integration and.
+This episode covers Bayesian Modeling - PyMC, Stan and Probabilistic Programming Workflows.
+
+## Episode Value
+
+This episode covers Bayesian Modeling - PyMC, Stan and Probabilistic Programming Workflows.
+
+Agents should consider this episode when working on probabilistic programming, bayesian statistics, machine learning.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Rob Zinkov]({{ '/people/robzinkov/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- probabilistic programming
+- bayesian statistics
+- machine learning
+- tools
 
 ## Chapter Summary
 
@@ -52,7 +68,7 @@ Use these checkpoints to decide whether to open the source transcript.
 - 26:40 - [Numerical Integration: Sampling as an approximation technique](https://www.youtube.com/watch?v=kcKvUSInm-M&t=1600)
 - 29:17 - [Samplers Overview: Using draws to estimate posterior expectations](https://www.youtube.com/watch?v=kcKvUSInm-M&t=1757)
 - 33:48 - [MCMC Fundamentals: Markov chains and exploring high-probability regions](https://www.youtube.com/watch?v=kcKvUSInm-M&t=2028)
-- 36:39 - [Probabilistic Languages: Hakaru’s role in generating samplers](https://www.youtube.com/watch?v=kcKvUSInm-M&t=2199)
+- 36:39 - [Probabilistic Languages: Hakaru's role in generating samplers](https://www.youtube.com/watch?v=kcKvUSInm-M&t=2199)
 - 39:38 - [Language vs Library: Model semantics, control flow, and ASTs](https://www.youtube.com/watch?v=kcKvUSInm-M&t=2378)
 - 43:20 - [PyMC Example: Building a rainfall model and computational graph](https://www.youtube.com/watch?v=kcKvUSInm-M&t=2600)
 - 48:10 - [Interpreting Posteriors: Model checks and iterative refinement](https://www.youtube.com/watch?v=kcKvUSInm-M&t=2890)
@@ -60,4 +76,18 @@ Use these checkpoints to decide whether to open the source transcript.
 - 53:12 - [Multimodality & Uncertainty: Representing multiple plausible outcomes](https://www.youtube.com/watch?v=kcKvUSInm-M&t=3192)
 - 55:41 - [Stan & HMC/NUTS: Advances in efficient sampling algorithms](https://www.youtube.com/watch?v=kcKvUSInm-M&t=3341)
 - 1:00:47 - [Learning Resources: PyMC book, Statistical Rethinking course, and tutorials](https://www.youtube.com/watch?v=kcKvUSInm-M&t=3647)
-- 1:05:53 - [Consulting & Contact: Rob’s statistical consulting and email](https://www.youtube.com/watch?v=kcKvUSInm-M&t=3953)
+- 1:05:53 - [Consulting & Contact: Rob's statistical consulting and email](https://www.youtube.com/watch?v=kcKvUSInm-M&t=3953)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around probabilistic programming, bayesian statistics, machine learning, tools.
+- First pass reading starts with Episode Introduction & Topic Overview, Guest Introduction: Rob Zinkov and the Hakaru probabilistic programming project, Career Journey: From software engineering to machine learning research, Industry vs Academia: Applying Bayesian tools in real problems.
+- Source file: `datatalksclub.github.io/_podcast/bayesian-modeling-workflows-and-tools.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve probabilistic programming, bayesian statistics, machine learning, tools, the listed guests, or the chapter topics above.

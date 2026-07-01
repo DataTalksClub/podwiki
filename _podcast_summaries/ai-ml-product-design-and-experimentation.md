@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=tcqBfZw41FM"
 spotify_url: "https://open.spotify.com/episode/4vhTQJ6Aj9z5VHm9UsHspv"
 apple_url: "https://podcasts.apple.com/us/podcast/innovation-and-design-for-machine-learning-liesbeth/id1541710331?i=1000556693861"
 ---
-# AI Product Design: Algorithm-Ready UX, Rapid Experiments & Data-Driven Roadmaps
+
+# Episode: AI Product Design: Algorithm-Ready UX, Rapid Experiments & Data-Driven Roadmaps
 
 ## Original Episode
 
@@ -25,13 +26,29 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you design products that are “algorithm-ready” while running rapid experiments and building data-driven roadmaps? In this episode, Liesbeth Dingemans—strategy and AI leader, founder of Dingemans Consulting, former VP of Revenue at Source.ag and Head of AI Strategy at Prosus—walks through pragmatic approaches to AI product design that bridge vision and execution.
+This episode covers AI Product Design - Algorithm-Ready UX, Rapid Experiments & Data-Driven Roadmaps.
+
+## Episode Value
+
+This episode covers AI Product Design - Algorithm-Ready UX, Rapid Experiments & Data-Driven Roadmaps.
+
+Agents should consider this episode when working on machine learning, design thinking, strategy.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Liesbeth Dingemans]({{ '/people/liesbethdingemans/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- machine learning
+- design thinking
+- strategy
+- ai
+- practices
 
 ## Chapter Summary
 
@@ -54,7 +71,7 @@ Use these checkpoints to decide whether to open the source transcript.
 - 28:18 - [Data Scientists in Problem Definition: Avoiding Rework](https://www.youtube.com/watch?v=tcqBfZw41FM&t=1698)
 - 31:04 - [Scoping Documents: Challenging Assumptions with "Why"](https://www.youtube.com/watch?v=tcqBfZw41FM&t=1864)
 - 33:25 - [Organizational Miscommunication & Backtracking Problems](https://www.youtube.com/watch?v=tcqBfZw41FM&t=2005)
-- 37:15 - [Product Managers’ Role in AI Roadmaps and Prioritization](https://www.youtube.com/watch?v=tcqBfZw41FM&t=2235)
+- 37:15 - [Product Managers' Role in AI Roadmaps and Prioritization](https://www.youtube.com/watch?v=tcqBfZw41FM&t=2235)
 - 39:33 - [Innovation vs Quarterly OKRs: Making Space for Long-Term Bets](https://www.youtube.com/watch?v=tcqBfZw41FM&t=2373)
 - 43:19 - [Radical Innovation Example: Second-Hand Car Trust Solutions](https://www.youtube.com/watch?v=tcqBfZw41FM&t=2599)
 - 46:30 - [Building Evidence: Data-Driven Pitches for Big Ideas](https://www.youtube.com/watch?v=tcqBfZw41FM&t=2790)
@@ -63,3 +80,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 54:11 - [Experimentation Culture: Prioritization Through Measurability](https://www.youtube.com/watch?v=tcqBfZw41FM&t=3251)
 - 56:36 - [Measurement Mindset: Data-Guided Product Decisions (Citrix)](https://www.youtube.com/watch?v=tcqBfZw41FM&t=3396)
 - 58:20 - [Skill Building: Learnable Design & Innovation Practices](https://www.youtube.com/watch?v=tcqBfZw41FM&t=3500)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around machine learning, design thinking, strategy, ai, practices.
+- First pass reading starts with Episode Introduction & Guest Overview, Guest Background: Strategy, Product and AI Trajectory, Interdisciplinary Perspective: Physics Meets Humanities, Design as a User-Centered Product Process.
+- Source file: `datatalksclub.github.io/_podcast/ai-ml-product-design-and-experimentation.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve machine learning, design thinking, strategy, ai, the listed guests, or the chapter topics above.

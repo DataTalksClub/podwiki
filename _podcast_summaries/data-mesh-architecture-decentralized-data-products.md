@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=346N_pCtYZU"
 spotify_url: "https://open.spotify.com/episode/5uX5sfRPvC9WAXOM9fRCup?si=FQYB7cpuSOyzq7022xU3Tg"
 apple_url: "https://podcasts.apple.com/us/podcast/data-mesh-101-zhamak-dehghani/id1541710331?i=1000578193372"
 ---
-# Data Mesh Implementation: Build Decentralized Data Products, Contracts & Federated Governance
+
+# Episode: Data Mesh Implementation: Build Decentralized Data Products, Contracts & Federated Governance
 
 ## Original Episode
 
@@ -25,13 +26,26 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you scale data architecture so teams deliver value without centralized bottlenecks? In this episode, Zhamak Dehghani — director of technology at Thoughtworks and founder of the Data Mesh concept — walks through practical steps for Data Mesh implementation: building decentralized data products, defining data contracts, and establishing federated governance.
+This episode covers Data Mesh Implementation - Build Decentralized Data Products, Contracts & Federated Governance.
+
+## Episode Value
+
+This episode covers Data Mesh Implementation - Build Decentralized Data Products, Contracts & Federated Governance.
+
+Agents should consider this episode when working on data mesh, data engineering.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Zhamak Dehghani]({{ '/people/zhamakdehghani/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- data mesh
+- data engineering
 
 ## Chapter Summary
 
@@ -61,3 +75,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 54:48 - [Core understanding: why, what, and how of Data Mesh](https://www.youtube.com/watch?v=346N_pCtYZU&t=3288)
 - 57:27 - [Adoption roadmap: assessment, pilots, and executive buy-in](https://www.youtube.com/watch?v=346N_pCtYZU&t=3447)
 - 1:00:03 - [Implementations and case studies: community resources](https://www.youtube.com/watch?v=346N_pCtYZU&t=3603)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around data mesh, data engineering.
+- First pass reading starts with Guest background & career path, From firmware to distributed systems: career highlights, Consulting practice: building data platforms and products, Enterprise data friction: long pipelines to value.
+- Source file: `datatalksclub.github.io/_podcast/data-mesh-architecture-decentralized-data-products.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve data mesh, data engineering, the listed guests, or the chapter topics above.

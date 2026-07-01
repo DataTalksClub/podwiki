@@ -10,7 +10,8 @@ topics: ["software engineering", "tools", "practices", "communication", "career 
 summary_status: source-index
 youtube_url: "https://www.youtube.com/watch?v=vXWGd7olv3c"
 ---
-# Master Technical Writing: 7-Day Workflow to Accelerate Your Data Science Career
+
+# Episode: Master Technical Writing: 7-Day Workflow to Accelerate Your Data Science Career
 
 ## Original Episode
 
@@ -21,13 +22,29 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How can technical writing accelerate your data science career in just one week? In this episode, Eugene Yan — an Applied Scientist at Amazon who previously led data science teams at Lazada and uCare.ai and writes about ML in production and career growth — walks through a practical, repeatable 7-day workflow for technical writing tailored to data scientists.
+This episode covers Master Technical Writing - 7-Day Workflow to Accelerate Your Data Science Career.
+
+## Episode Value
+
+This episode covers Master Technical Writing - 7-Day Workflow to Accelerate Your Data Science Career.
+
+Agents should consider this episode when working on software engineering, tools, practices.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Eugene Yan]({{ '/people/eugeneyan/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- software engineering
+- tools
+- practices
+- communication
+- career transition
 
 ## Chapter Summary
 
@@ -52,3 +69,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 54:00 - [Technical Documentation: Decision Logs, Rationales, and Team Memory](https://www.youtube.com/watch?v=vXWGd7olv3c&t=3240)
 - 56:30 - [Portfolio Best Practices: Clear README, Quick Start, Repo Tour](https://www.youtube.com/watch?v=vXWGd7olv3c&t=3390)
 - 58:30 - [Practical Tips: Iterate Outlines, Ship Weekly, Learn by Teaching](https://www.youtube.com/watch?v=vXWGd7olv3c&t=3510)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around software engineering, tools, practices, communication, career transition.
+- First pass reading starts with Career Transition: Psychology to Applied Scientist, First Public Writing: Early Blog Posts and Meetups, Writing Motivations: Share, Learn, Be a Beacon, Audience Targeting: Readers, Peers, and Future Teammates.
+- Source file: `datatalksclub.github.io/_podcast/technical-writing-for-data-scientists.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve software engineering, tools, practices, communication, the listed guests, or the chapter topics above.

@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=gXvVMvhfrIY"
 spotify_url: "https://open.spotify.com/episode/5dpBs4xr3zMkBDw6cTYHQE?si=pivilqeDTHOiNCBb1bFHdA"
 apple_url: "https://podcasts.apple.com/us/podcast/from-theme-parks-to-tesla-building-data-products-that-work/id1541710331?i=1000731198436"
 ---
-# From Theme Parks to Tesla: Building Data Products Through Applied ML and Full-Stack Engineering
+
+# Episode: From Theme Parks to Tesla: Building Data Products Through Applied ML and Full-Stack Engineering
 
 ## Original Episode
 
@@ -25,13 +26,29 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How can theme parks use data to cut wait times and guide visitors in real time? In this episode, Abouzar Abbaspour — an EngD-trained machine learning and data engineer whose career spans telecom, e-commerce (bol.com), theme parks (Efteling) and automotive (Tesla) — walks through building systems that optimize visitor flow using crowd modeling, queue prediction and real-time recommendations.
+This episode covers From Theme Parks to Tesla - Building Data Products Through Applied ML and Full-Stack Engineering.
+
+## Episode Value
+
+This episode covers From Theme Parks to Tesla - Building Data Products Through Applied ML and Full-Stack Engineering.
+
+Agents should consider this episode when working on machine learning, MLOps, data engineering.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Abouzarabbaspour]({{ '/people/abouzarabbaspour/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- machine learning
+- MLOps
+- data engineering
+- LLMs
+- data science
 
 ## Chapter Summary
 
@@ -58,3 +75,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 54:03 - [Interview Preparation: Tesla Data Engineering Expectations (Architecture,](https://www.youtube.com/watch?v=gXvVMvhfrIY&t=3243)
 - 57:43 - [Career Strategy: Prioritization, Learning Opportunities, Underpromise & Overdeliver](https://www.youtube.com/watch?v=gXvVMvhfrIY&t=3463)
 - 1:00:10 - [Episode Closing & Key Takeaways](https://www.youtube.com/watch?v=gXvVMvhfrIY&t=3610)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around machine learning, MLOps, data engineering, LLMs, data science.
+- First pass reading starts with Early Career: Software Engineering to Data Science, Academic Path: Professional Doctorate & TU Berlin, Research Partnerships: Industry Projects and Applied Research, Efteling Insights: Theme Park Tech and Experience Design.
+- Source file: `datatalksclub.github.io/_podcast/_theme-park-crowd-modeling-to-tesla-full-stack-data-engineering.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve machine learning, MLOps, data engineering, LLMs, the listed guests, or the chapter topics above.

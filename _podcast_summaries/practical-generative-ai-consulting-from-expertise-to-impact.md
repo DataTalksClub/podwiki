@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=4RargY8iOaE"
 spotify_url: "https://open.spotify.com/episode/7gJI3ds3k1vXd3m3W9iRj9?si=oG6A7BuTSjaEoH6FhvEVug"
 apple_url: "https://podcasts.apple.com/us/podcast/from-a-research-scientist-at-amazon-to-a/id1541710331?i=1000634411188"
 ---
-# Launching a Freelance Generative AI Business: NLP Services and Client Acquisition
+
+# Episode: Launching a Freelance Generative AI Business: NLP Services and Client Acquisition
 
 ## Original Episode
 
@@ -25,7 +26,13 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you move from research scientist to running a freelance generative AI business focused on NLP—and actually win clients? In this episode Verena Weber, a former Research Scientist at Alexa AI with 7+ years in machine learning and a background in statistics, walks through that transition and what it takes to offer NLP services as a freelancer. Verena's mission is to help companies prepare for the GenAI shift, and she draws on deep NLP expertise to explain which service offerings make sense, how to position.
+This episode covers Launching a Freelance Generative AI Business - NLP Services and Client Acquisition.
+
+## Episode Value
+
+This episode covers Launching a Freelance Generative AI Business - NLP Services and Client Acquisition.
+
+Agents should consider this episode when working on AI, LLMs, NLP.
 
 ## People
 
@@ -33,13 +40,24 @@ Use these links to connect the episode to guest notes.
 
 - [Verena Weber]({{ '/people/verenaweber/' | relative_url }})
 
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- AI
+- LLMs
+- NLP
+- freelance
+- production
+- career transition
+
 ## Chapter Summary
 
 Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode Introduction](https://www.youtube.com/watch?v=4RargY8iOaE&t=0)
 - 1:46 - [Early Education: From Economics & Chinese to Statistics](https://www.youtube.com/watch?v=4RargY8iOaE&t=106)
-- 3:09 - [Discovering Data Science During Master’s Studies](https://www.youtube.com/watch?v=4RargY8iOaE&t=189)
+- 3:09 - [Discovering Data Science During Master's Studies](https://www.youtube.com/watch?v=4RargY8iOaE&t=189)
 - 3:39 - [Career Progression: Consulting, In-house Roles, and Platform Data](https://www.youtube.com/watch?v=4RargY8iOaE&t=219)
 - 6:37 - [Freelance Transition: Becoming a Generative AI Consultant](https://www.youtube.com/watch?v=4RargY8iOaE&t=397)
 - 6:56 - [Landing a Research Role Without a PhD: Hiring Dynamics](https://www.youtube.com/watch?v=4RargY8iOaE&t=416)
@@ -64,3 +82,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 53:33 - [Side Projects & Wellbeing: Sound Baths and Creative Outlets](https://www.youtube.com/watch?v=4RargY8iOaE&t=3213)
 - 55:06 - [Educational Foundation: Statistics, Probability, and Reading Papers](https://www.youtube.com/watch?v=4RargY8iOaE&t=3306)
 - 57:53 - [Recommended Resources: Books and Podcasts](https://www.youtube.com/watch?v=4RargY8iOaE&t=3473)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around AI, LLMs, NLP, freelance, production, career transition.
+- First pass reading starts with Episode Introduction, Early Education: From Economics & Chinese to Statistics, Discovering Data Science During Master's Studies, Career Progression: Consulting, In-house Roles, and Platform Data.
+- Source file: `datatalksclub.github.io/_podcast/practical-generative-ai-consulting-from-expertise-to-impact.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve AI, LLMs, NLP, freelance, the listed guests, or the chapter topics above.

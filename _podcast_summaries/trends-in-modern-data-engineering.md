@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=AlCFKbFIEM8"
 spotify_url: "https://open.spotify.com/episode/35QbCW6Evqk1EPMKUDGGdv"
 apple_url: "https://podcasts.apple.com/us/podcast/trends-in-data-engineering-adrian-brudaru/id1541710331?i=1000698294801"
 ---
-# Modern Data Engineering: Iceberg, Delta Lake & AI-Powered Pipelines
+
+# Episode: Modern Data Engineering: Iceberg, Delta Lake & AI-Powered Pipelines
 
 ## Original Episode
 
@@ -25,13 +26,28 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How can engineering teams build reliable, scalable lakehouse pipelines that combine transactional table formats with AI-driven automation? In this episode Adrian Brudaru—an economics-trained analyst turned freelance data practitioner and co-founder of a data company focused on open source tooling—joins us to explore the realities of modern data engineering.
+This episode covers Modern Data Engineering - Iceberg, Delta Lake & AI-Powered Pipelines.
+
+## Episode Value
+
+This episode covers Modern Data Engineering - Iceberg, Delta Lake & AI-Powered Pipelines.
+
+Agents should consider this episode when working on data engineering, data governance, AI.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- data engineering
+- data governance
+- AI
+- open-source
 
 ## Chapter Summary
 
@@ -64,3 +80,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 56:15 - [AI-driven commoditization and code generation in data engineering](https://www.youtube.com/watch?v=AlCFKbFIEM8&t=3375)
 - 59:42 - [DLT roadmap: DLT Plus and a marketplace for reusable data products](https://www.youtube.com/watch?v=AlCFKbFIEM8&t=3582)
 - 1:01:19 - [Episode wrap-up and key takeaways](https://www.youtube.com/watch?v=AlCFKbFIEM8&t=3679)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around data engineering, data governance, AI, open-source.
+- First pass reading starts with Episode opening & guest introduction, Perspective on evolving data engineering challenges, Career journey: startups, freelancing, founding DLT, DLT as a Python-based ingestion standard and market impact.
+- Source file: `datatalksclub.github.io/_podcast/trends-in-modern-data-engineering.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve data engineering, data governance, AI, open-source, the listed guests, or the chapter topics above.

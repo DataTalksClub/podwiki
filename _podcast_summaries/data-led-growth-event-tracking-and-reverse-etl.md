@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=8v5KpHWgyYw"
 spotify_url: "https://open.spotify.com/episode/2hg3Gi3h5OfdedXENwZwnU"
 apple_url: "https://podcasts.apple.com/us/podcast/becoming-a-data-led-professional-arpit-choudhury/id1541710331?i=1000523422699"
 ---
-# How to Build a Data-Led Growth Stack: Event Tracking, Tracking Plans & Reverse ETL
+
+# Episode: How to Build a Data-Led Growth Stack: Event Tracking, Tracking Plans & Reverse ETL
 
 ## Original Episode
 
@@ -25,13 +26,26 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you design a data-led growth stack that reliably powers personalization, activation, and operational workflows? In this episode, Arpit Choudhury, founder of Data-led Academy, walks through the practical steps of building a data-led growth stack focused on event tracking, documented tracking plans, and reverse ETL.
+This episode covers How to Build a Data-Led Growth Stack - Event Tracking, Tracking Plans & Reverse ETL.
+
+## Episode Value
+
+This episode covers How to Build a Data-Led Growth Stack - Event Tracking, Tracking Plans & Reverse ETL.
+
+Agents should consider this episode when working on data engineering, tools.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Arpit Choudhury]({{ '/people/arpitchoudhury/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- data engineering
+- tools
 
 ## Chapter Summary
 
@@ -42,7 +56,7 @@ Use these checkpoints to decide whether to open the source transcript.
 - 5:06 - [Career trajectory: integrations, Integromat & community growth](https://www.youtube.com/watch?v=8v5KpHWgyYw&t=306)
 - 7:21 - [Growth marketing: A/B testing, personalization & product data](https://www.youtube.com/watch?v=8v5KpHWgyYw&t=441)
 - 9:46 - [Marketer tooling: visual queries and self-serve data access](https://www.youtube.com/watch?v=8v5KpHWgyYw&t=586)
-- 10:45 - [Definition: data-led professional — source awareness & data skepticism](https://www.youtube.com/watch?v=8v5KpHWgyYw&t=645)
+- 10:45 - [Definition: data-led professional - source awareness & data skepticism](https://www.youtube.com/watch?v=8v5KpHWgyYw&t=645)
 - 11:33 - [Data-led vs. data-driven: balancing data, intuition & bias](https://www.youtube.com/watch?v=8v5KpHWgyYw&t=693)
 - 13:34 - [Tracking plan & instrumentation: documenting events, properties & ownership](https://www.youtube.com/watch?v=8v5KpHWgyYw&t=814)
 - 18:27 - [Anomaly investigation: tracing event origins and fake signups](https://www.youtube.com/watch?v=8v5KpHWgyYw&t=1107)
@@ -62,3 +76,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 51:40 - [Data democratization: data literacy, documentation & self-serve analytics](https://www.youtube.com/watch?v=8v5KpHWgyYw&t=3100)
 - 53:48 - [Motivating documentation: culture, early habits & catalog tools](https://www.youtube.com/watch?v=8v5KpHWgyYw&t=3228)
 - 56:08 - [Product-led vs. data-led: activation events and personalized onboarding](https://www.youtube.com/watch?v=8v5KpHWgyYw&t=3368)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around data engineering, tools.
+- First pass reading starts with DataLed Academy: free learning, repository & podcast, Career trajectory: integrations, Integromat & community growth, Growth marketing: A/B testing, personalization & product data, Marketer tooling: visual queries and self-serve data access.
+- Source file: `datatalksclub.github.io/_podcast/data-led-growth-event-tracking-and-reverse-etl.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve data engineering, tools, the listed guests, or the chapter topics above.

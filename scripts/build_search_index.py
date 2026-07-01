@@ -34,11 +34,36 @@ COLLECTIONS = {
 
 def slugify(value: str) -> str:
     value = value.lower()
+    value = value.replace("/", "")
     value = re.sub(r"[^a-z0-9]+", "-", value)
     return value.strip("-")
 
 
-def split_frontmatter(raw: str) -> tuple[dict[str, str], str]:
+def source_slug(path: Path) -> str:
+    slug = path.stem
+    if slug.endswith(".md"):
+        slug = slug[:-3]
+    return slug
+
+
+def clean_value(value: str) -> str:
+    return value.strip().strip('"').strip("'")
+
+
+def parse_inline_list(value: str) -> list[str]:
+    value = value.strip()
+    if not (value.startswith("[") and value.endswith("]")):
+        return [clean_value(value)] if value else []
+    raw_items = re.findall(r'"([^"]+)"|\'([^\']+)\'|([^,\[\]]+)', value)
+    items = []
+    for quoted, single_quoted, bare in raw_items:
+        item = clean_value(quoted or single_quoted or bare)
+        if item:
+            items.append(item)
+    return items
+
+
+def split_frontmatter(raw: str) -> tuple[dict[str, object], str]:
     if not raw.startswith("---\n"):
         return {}, raw
     end = raw.find("\n---", 4)
@@ -46,14 +71,28 @@ def split_frontmatter(raw: str) -> tuple[dict[str, str], str]:
         return {}, raw
     frontmatter = raw[4:end].strip().splitlines()
     body = raw[end + 4 :].lstrip()
-    meta: dict[str, str] = {}
+    meta: dict[str, object] = {}
+    current_key: str | None = None
     for line in frontmatter:
+        stripped = line.strip()
+        if not stripped:
+            continue
+        if stripped.startswith("- ") and current_key:
+            meta.setdefault(current_key, [])
+            if isinstance(meta[current_key], list):
+                meta[current_key].append(clean_value(stripped[2:]))
+            continue
         if ":" not in line or line.startswith(" "):
             continue
         key, value = line.split(":", 1)
-        value = value.strip().strip('"').strip("'")
-        if value and not value.startswith("["):
-            meta[key.strip()] = value
+        current_key = key.strip()
+        value = value.strip()
+        if not value:
+            meta[current_key] = []
+        elif value.startswith("[") and value.endswith("]"):
+            meta[current_key] = parse_inline_list(value)
+        else:
+            meta[current_key] = clean_value(value)
     return meta, body
 
 
@@ -66,6 +105,27 @@ def plain_text(markdown: str) -> str:
     markdown = re.sub(r"^#+\s*", "", markdown, flags=re.M)
     markdown = re.sub(r"[*_>#|~-]", " ", markdown)
     return re.sub(r"\s+", " ", markdown).strip()
+
+
+def as_list(value: object) -> list[str]:
+    if isinstance(value, list):
+        return [str(item).strip() for item in value if str(item).strip()]
+    if isinstance(value, str) and value.strip():
+        return [value.strip()]
+    return []
+
+
+def metadata_text(meta: dict[str, object], level: str) -> str:
+    fields = ["keyword", "collection", "source_episode"]
+    list_fields = ["topics", "guests", "related", "related_wiki", "expertise", "podcast_episodes"]
+    parts = [level]
+    for field in fields:
+        value = meta.get(field)
+        if isinstance(value, str) and value.strip():
+            parts.append(value)
+    for field in list_fields:
+        parts.extend(as_list(meta.get(field)))
+    return " ".join(parts)
 
 
 def section_docs(body: str, base: dict, url: str) -> list[dict]:
@@ -105,25 +165,30 @@ def build_docs() -> list[dict]:
                 continue
             raw = path.read_text(encoding="utf-8")
             meta, body = split_frontmatter(raw)
-            if meta.get("redirect_to") or meta.get("published", "").lower() == "false":
+            if meta.get("redirect_to") or str(meta.get("published", "")).lower() == "false":
                 continue
-            title = meta.get("title") or path.stem.replace("-", " ").title()
-            summary = meta.get("summary", "")
-            url = f"{prefix}{path.stem}/"
+            if directory == "_people" and not as_list(meta.get("podcast_episodes")):
+                continue
+            slug = source_slug(path)
+            title = str(meta.get("title") or slug.replace("-", " ").title())
+            summary = str(meta.get("summary") or "")
+            url = f"{prefix}{slug}/"
+            related_terms = metadata_text(meta, level)
             base = {
-                "id": f"{level}:{path.stem}",
+                "id": f"{level}:{slug}",
                 "level": level,
                 "document_type": "page",
                 "page_title": title,
-                "episode_slug": path.stem if level == "podcast_summary" else "",
+                "episode_slug": slug if level == "podcast_summary" else "",
                 "title": title,
                 "segment_title": "",
                 "url": url,
+                "related_terms": related_terms,
             }
             docs.append(
                 {
                     **base,
-                    "text": plain_text(" ".join([summary, body])),
+                    "text": plain_text(" ".join([title, summary, related_terms, body])),
                 }
             )
             docs.extend(section_docs(body, base, url))
@@ -151,8 +216,8 @@ def main() -> None:
     args.browser_corpus.write_text(json.dumps({"docs": docs}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     index = Index(
-        text_fields=["title", "segment_title", "text"],
-        keyword_fields=["id", "level", "document_type", "episode_slug"],
+        text_fields=["title", "segment_title", "text", "related_terms"],
+        keyword_fields=["id", "level", "document_type", "episode_slug", "related_terms"],
     )
     index.fit(docs)
     args.index.parent.mkdir(parents=True, exist_ok=True)

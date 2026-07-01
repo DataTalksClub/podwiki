@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=PchwbIs0tOg"
 spotify_url: "https://open.spotify.com/episode/7giHGC86pjtIYrLOvwP7g4?si=NB9w6S6QTfCBHB_n93LkBQ"
 apple_url: "https://podcasts.apple.com/us/podcast/accelerating-the-job-hunt-for-the-perfect-job-in/id1541710331?i=1000643971899"
 ---
-# Tech Job Search Strategy: Portfolio Projects, Resume Tips and Networking
+
+# Episode: Tech Job Search Strategy: Portfolio Projects, Resume Tips and Networking
 
 ## Original Episode
 
@@ -25,13 +26,29 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you turn portfolio projects, a sharper resume, and targeted networking into a successful tech job search? In this episode Sarah Mestiri — Data Scientist and Certified Career & Interview Coach with 6+ years in tech across startups, international firms and financial services (FIS) — walks through a practical job search strategy for career changers and return-to-work professionals. Sarah outlines a four-pillar framework (goals, networking, CV, strategy) and shows how to define your ideal role, choose a.
+This episode covers Tech Job Search Strategy - Portfolio Projects, Resume Tips and Networking.
+
+## Episode Value
+
+This episode covers Tech Job Search Strategy - Portfolio Projects, Resume Tips and Networking.
+
+Agents should consider this episode when working on MLOps, data engineering, machine learning.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Sarah Mestiri]({{ '/people/sarahmestiri/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- MLOps
+- data engineering
+- machine learning
+- career transition
+- job search
 
 ## Chapter Summary
 
@@ -63,3 +80,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 53:30 - [Age and Career Change: Emphasize Results and Transferable Skills](https://www.youtube.com/watch?v=PchwbIs0tOg&t=3210)
 - 55:58 - [Applying During Courses: Share Learnings and Build Visibility](https://www.youtube.com/watch?v=PchwbIs0tOg&t=3358)
 - 1:00:26 - [Recommended Resources: Tests, Books, Podcasts, MyNextMove](https://www.youtube.com/watch?v=PchwbIs0tOg&t=3626)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around MLOps, data engineering, machine learning, career transition, job search.
+- First pass reading starts with Guest Introduction & Coaching Mission, Career Path: Computer Science, Full-Stack to Data Science, AdTech Experience & Thriving Career Moms Project, Becoming a Career Coach: Community, Mentorship, First Mentees.
+- Source file: `datatalksclub.github.io/_podcast/job-search-strategy-in-tech-projects-skills-cv-networking.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve MLOps, data engineering, machine learning, career transition, the listed guests, or the chapter topics above.

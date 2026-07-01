@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=BKqmNdxsBko"
 spotify_url: "https://open.spotify.com/episode/3AnUc03nLbIYS6ichWIrRE?si=momJMlwdTpKFkI0FYQilag"
 apple_url: "https://podcasts.apple.com/us/podcast/from-roasting-coffee-to-backend-development-jessica/id1541710331?i=1000559856138"
 ---
-# How to Switch to Tech: Community Meetups, Open Source Fellowships & Landing an Ecosia Internship
+
+# Episode: How to Switch to Tech: Community Meetups, Open Source Fellowships & Landing an Ecosia Internship
 
 ## Original Episode
 
@@ -25,13 +26,28 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you switch to tech from a completely different career and actually land an internship at a mission-driven company? In this episode, Jessica Greene — Senior Machine Learning Engineer at Ecosia and co-organizer of PyLadies Berlin — walks through her journey from film and coffee roasting to machine learning, sharing concrete steps for a career change to tech. We cover the learning path Jessica used (Codecademy, Andrew Ng, FreeCodeCamp), funding and study time via Germany’s Bildungsgutschein, and hands-on.
+This episode covers How to Switch to Tech - Community Meetups, Open Source Fellowships & Landing an Ecosia Internship.
+
+## Episode Value
+
+This episode covers How to Switch to Tech - Community Meetups, Open Source Fellowships & Landing an Ecosia Internship.
+
+Agents should consider this episode when working on career switch, machine learning, job search.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Jessica Greene]({{ '/people/jessicagreene/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- career switch
+- machine learning
+- job search
+- career growth
 
 ## Chapter Summary
 
@@ -60,3 +76,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 55:36 - [Ecosia Overview: Green Search Engine, Tree-Planting Mission & Backend (Go)](https://www.youtube.com/watch?v=BKqmNdxsBko&t=3336)
 - 58:10 - [Diversity Challenges: Gender, Privilege & Inclusion in Tech](https://www.youtube.com/watch?v=BKqmNdxsBko&t=3490)
 - 59:53 - [Connect with Jessica: Twitter, GitHub & PyLadies Slack](https://www.youtube.com/watch?v=BKqmNdxsBko&t=3593)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around career switch, machine learning, job search, career growth.
+- First pass reading starts with Career Origin: From Film & Coffee Roasting to Tech, Community Support & Early Conference Exposure (PyLadies, meetups), Learning Path: Codecademy, Andrew Ng Course & FreeCodeCamp, Funding Support: German Bildungsgutschein & Structured Study Time.
+- Source file: `datatalksclub.github.io/_podcast/how-to-switch-to-ml-tech-without-experience.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve career switch, machine learning, job search, career growth, the listed guests, or the chapter topics above.

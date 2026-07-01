@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=jGbfeYdlCiQ"
 spotify_url: "https://open.spotify.com/episode/7tITQ4nLypogRLUjjK75mx?si=722BlhoLSGuxZlE9ia7VhA"
 apple_url: "https://podcasts.apple.com/us/podcast/data-strategy-key-principles-and-best-practices-boyan/id1541710331?i=1000614629229"
 ---
-# Actionable Data Strategy & DataOps for AI-Powered Products: Pitch, Measure, Use GPT
+
+# Episode: Actionable Data Strategy & DataOps for AI-Powered Products: Pitch, Measure, Use GPT
 
 ## Original Episode
 
@@ -25,13 +26,27 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you turn AI ambitions into measurable, deliverable data products? In this episode Boyan Angelov — author of Elements of Data Strategy and leader of data strategy at Exxeta AG — walks through practical steps to make data strategy actionable for AI-powered products. Drawing on a decade across bioinformatics, clinical trials, HRTech, LegalTech and consulting, Boyan reframes data strategy as a flexible, outcome-focused plan and explains the due diligence needed to align business goals with feasible use cases.
+This episode covers Actionable Data Strategy & DataOps for AI-Powered Products - Pitch, Measure, Use GPT.
+
+## Episode Value
+
+This episode covers Actionable Data Strategy & DataOps for AI-Powered Products - Pitch, Measure, Use GPT.
+
+Agents should consider this episode when working on data strategy, dataops, AI.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Boyan Angelov]({{ '/people/boyanangelov/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- data strategy
+- dataops
+- AI
 
 ## Chapter Summary
 
@@ -59,3 +74,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 52:44 - [Pitching Strategy: Start Small with a Budgeted Use Case](https://www.youtube.com/watch?v=jGbfeYdlCiQ&t=3164)
 - 55:32 - [Baselines & Measurement: Pre- and Post-Implementation Metrics](https://www.youtube.com/watch?v=jGbfeYdlCiQ&t=3332)
 - 56:56 - [Recommended Reading: Data Strategy, DataOps & Infonomics](https://www.youtube.com/watch?v=jGbfeYdlCiQ&t=3416)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around data strategy, dataops, AI.
+- First pass reading starts with Guest Introduction & Current Role, Guest Background & Career Path, Becoming a Data Strategist: Accidental Transition, Defining Data Strategy: Actionable, Flexible Plans.
+- Source file: `datatalksclub.github.io/_podcast/data-strategy-and-dataops-for-ai-powered-products.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve data strategy, dataops, AI, the listed guests, or the chapter topics above.

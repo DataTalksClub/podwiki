@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=lem7knxqNzg"
 spotify_url: "https://open.spotify.com/episode/6jLgdl59sVCdVNJezdIqJY?si=NXasnXtFQVO0KAcCFbvUtQ"
 apple_url: "https://podcasts.apple.com/us/podcast/from-data-science-to-dataops-tomasz-hinc/id1541710331?i=1000583457504"
 ---
-# DataOps & GitOps for Data Teams: Onboarding, IaC, Reproducibility & Production Best Practices
+
+# Episode: DataOps & GitOps for Data Teams: Onboarding, IaC, Reproducibility & Production Best Practices
 
 ## Original Episode
 
@@ -25,13 +26,28 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you make data work less fragile and easier to onboard while keeping production safe and reproducible? In this episode, Tomasz Hinc, a DataOps practitioner from Poznań with roots in econometrics, product analytics, data engineering and ML, walks through practical DataOps and GitOps patterns for data teams. We cover platform onboarding (requesting infra vs. merge requests), Infrastructure as Code with Terraform, Terragrunt and Atlantis, and a GitOps workflow from branch to Atlantis dry-run and apply. Tomasz.
+This episode covers DataOps & GitOps for Data Teams - Onboarding, IaC, Reproducibility & Production Best Practices.
+
+## Episode Value
+
+This episode covers DataOps & GitOps for Data Teams - Onboarding, IaC, Reproducibility & Production Best Practices.
+
+Agents should consider this episode when working on DataOps, GitOps, data teams.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Tomasz Hinc]({{ '/people/tomaszhinc/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- DataOps
+- GitOps
+- data teams
+- tools
 
 ## Chapter Summary
 
@@ -45,7 +61,7 @@ Use these checkpoints to decide whether to open the source transcript.
 - 6:34 - [Behavioral Analysis & Product Analytics: Clickstream Modeling](https://www.youtube.com/watch?v=lem7knxqNzg&t=394)
 - 7:08 - [Operational Realities: ETL Failures, Production Constraints](https://www.youtube.com/watch?v=lem7knxqNzg&t=428)
 - 12:40 - [Platform Onboarding: Requesting Infra vs. Doing a Merge Request](https://www.youtube.com/watch?v=lem7knxqNzg&t=760)
-- 13:07 - [Platform Teams’ Role: Review, Enablement, and Safe Practices](https://www.youtube.com/watch?v=lem7knxqNzg&t=787)
+- 13:07 - [Platform Teams' Role: Review, Enablement, and Safe Practices](https://www.youtube.com/watch?v=lem7knxqNzg&t=787)
 - 14:12 - [Motivation Shift: From Model-Centric to Data-Centric Work](https://www.youtube.com/watch?v=lem7knxqNzg&t=852)
 - 18:59 - [Defining DataOps: Enabling Faster, Less Scary Data Work (DataOps, DevOps)](https://www.youtube.com/watch?v=lem7knxqNzg&t=1139)
 - 20:56 - [DataOps & Infra: SQL, Secrets, GitOps, and Developer Enablement](https://www.youtube.com/watch?v=lem7knxqNzg&t=1256)
@@ -65,3 +81,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 58:26 - [Company-Scale Migration: Jenkins → GitLab CI and Broad Collaboration](https://www.youtube.com/watch?v=lem7knxqNzg&t=3506)
 - 1:01:27 - [Reproducibility & Dependencies: Fixed Versions, Docker, Silent Failures](https://www.youtube.com/watch?v=lem7knxqNzg&t=3687)
 - 1:02:28 - [Confidence in Data: Pragmatic Edge-Case Checks & Airflow Caveats](https://www.youtube.com/watch?v=lem7knxqNzg&t=3748)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around DataOps, GitOps, data teams, tools.
+- First pass reading starts with Guest Introduction & Episode Overview, Career Journey: Econometrics → ML Trainee → Data Roles, Early Experience: OLX, Government Statistics, Academia, ML Education: Multi-Dimensional Analysis to Machine Learning.
+- Source file: `datatalksclub.github.io/_podcast/dataops-and-gitops-best-practices-for-data-teams.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve DataOps, GitOps, data teams, tools, the listed guests, or the chapter topics above.

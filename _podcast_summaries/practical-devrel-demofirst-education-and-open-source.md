@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=vXbMUfHE1OE"
 spotify_url: "https://open.spotify.com/episode/4Lt785S38GuK0W2m7naRKt"
 apple_url: "https://podcasts.apple.com/us/podcast/from-hackathons-to-developer-advocacy-will-russel/id1541710331?i=1000709634418"
 ---
-# Developer Advocacy Through Community Impact: Technical Leadership, Open Source Mentorship & Demo-Driven Communication
+
+# Episode: Developer Advocacy Through Community Impact: Technical Leadership, Open Source Mentorship & Demo-Driven Communication
 
 ## Original Episode
 
@@ -25,13 +26,29 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do developer advocates create measurable community impact while balancing technical leadership, mentorship, and clear communication? In this episode Will Russell, Developer Advocate at Kestra, explores that question through the lens of workflow orchestration and developer education. Will is known for his technical video content on workflow orchestration and for building open source education programs that help new contributors make their first pull requests.
+This episode covers Developer Advocacy Through Community Impact - Technical Leadership, Open Source Mentorship & Demo-Driven Communication.
+
+## Episode Value
+
+This episode covers Developer Advocacy Through Community Impact - Technical Leadership, Open Source Mentorship & Demo-Driven Communication.
+
+Agents should consider this episode when working on open-source, computer vision, tools.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Will Russell]({{ '/people/willrussell/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- open-source
+- computer vision
+- tools
+- MLOps
+- software engineering
 
 ## Chapter Summary
 
@@ -50,7 +67,7 @@ Use these checkpoints to decide whether to open the source transcript.
 - 23:18 - [Running Hackathons: Format, Online Tools & Office Hours](https://www.youtube.com/watch?v=vXbMUfHE1OE&t=1398)
 - 25:26 - [Judging Strategies: Scoring Matrices, Categories & Tie-Breakers](https://www.youtube.com/watch?v=vXbMUfHE1OE&t=1526)
 - 26:14 - [Sponsor-Driven Challenges & Themed Categories](https://www.youtube.com/watch?v=vXbMUfHE1OE&t=1574)
-- 29:44 - [Case Study — Willmojis: Image Recognition, Font Generation & Demo](https://www.youtube.com/watch?v=vXbMUfHE1OE&t=1784)
+- 29:44 - [Case Study - Willmojis: Image Recognition, Font Generation & Demo](https://www.youtube.com/watch?v=vXbMUfHE1OE&t=1784)
 - 33:39 - [Major League Hacking (MLH): Community Support & Rep Experience](https://www.youtube.com/watch?v=vXbMUfHE1OE&t=2019)
 - 35:43 - [MLH Fellowship: Mentorship Model & Contributing to Large Repos](https://www.youtube.com/watch?v=vXbMUfHE1OE&t=2143)
 - 39:02 - [Contribution Best Practices: PR Quality, Git Skills & Onboarding](https://www.youtube.com/watch?v=vXbMUfHE1OE&t=2342)
@@ -64,3 +81,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 54:30 - [Feature Demo Example: "After Execution" Notifications in Workflows](https://www.youtube.com/watch?v=vXbMUfHE1OE&t=3270)
 - 57:22 - [Learn with Kestra Series: Tool Tutorials (Docker, Postgres, Git)](https://www.youtube.com/watch?v=vXbMUfHE1OE&t=3442)
 - 59:59 - [Leadership & Team Empowerment Recommendation: "Turn the Ship Around"](https://www.youtube.com/watch?v=vXbMUfHE1OE&t=3599)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around open-source, computer vision, tools, MLOps, software engineering.
+- First pass reading starts with Episode Opening & Guest Overview, Video Production Setup: Camera, Lens & Webcam Workflow, Audio Setup: Microphone, Preamp & Pop Filtering, Lighting Strategy: 45° Key Light & Background Separation.
+- Source file: `datatalksclub.github.io/_podcast/practical-devrel-demofirst-education-and-open-source.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve open-source, computer vision, tools, MLOps, the listed guests, or the chapter topics above.

@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=NThHAEIazFk"
 spotify_url: "https://open.spotify.com/episode/1ZXAeGr4Kx7F6oLQUip8Cc?si=KJwpYL-3SvuX8nPdc2cyOg"
 apple_url: "https://podcasts.apple.com/us/podcast/stock-market-analysis-with-python-and-machine/id1541710331?i=1000641465239"
 ---
-# Algorithmic Trading with Python: Backtesting, Risk Management and Deployment
+
+# Episode: Algorithmic Trading with Python: Backtesting, Risk Management and Deployment
 
 ## Original Episode
 
@@ -25,7 +26,13 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you turn a trading idea into a robust, risk-managed algorithm in Python? In this episode Ivan Brigida — analytics lead behind PythonInvest with 10+ years in statistical modeling, forecasting, econometrics and finance — walks through practical steps for algorithmic trading with Python, from data sourcing to deployment (and a clear reminder this is educational, not investment advice).
+This episode covers Algorithmic Trading with Python - Backtesting, Risk Management and Deployment.
+
+## Episode Value
+
+This episode covers Algorithmic Trading with Python - Backtesting, Risk Management and Deployment.
+
+Agents should consider this episode when working on machine learning, data science, MLOps.
 
 ## People
 
@@ -33,12 +40,22 @@ Use these links to connect the episode to guest notes.
 
 - [Ivan Brigida]({{ '/people/ivanbrigida/' | relative_url }})
 
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- machine learning
+- data science
+- MLOps
+- algorithmic trading
+- tools
+
 ## Chapter Summary
 
 Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=NThHAEIazFk&t=0)
-- 1:35 - [Guest Introduction: Ivan Brigida — Analytics Lead & PythonInvest](https://www.youtube.com/watch?v=NThHAEIazFk&t=95)
+- 1:35 - [Guest Introduction: Ivan Brigida - Analytics Lead & PythonInvest](https://www.youtube.com/watch?v=NThHAEIazFk&t=95)
 - 2:08 - [Disclaimer: Financial discussion, not investment advice](https://www.youtube.com/watch?v=NThHAEIazFk&t=128)
 - 3:53 - [Background & career trajectory from finance to analytics](https://www.youtube.com/watch?v=NThHAEIazFk&t=233)
 - 6:42 - [Google experience and role transitions](https://www.youtube.com/watch?v=NThHAEIazFk&t=402)
@@ -63,3 +80,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 55:05 - [Learning pathways: MLOps, ML Zoomcamp, and practical projects](https://www.youtube.com/watch?v=NThHAEIazFk&t=3305)
 - 57:29 - [PythonInvest content: API guides, models, portfolio allocation stories](https://www.youtube.com/watch?v=NThHAEIazFk&t=3449)
 - 1:01:06 - [Course plans, sign-up, and community building](https://www.youtube.com/watch?v=NThHAEIazFk&t=3666)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around machine learning, data science, MLOps, algorithmic trading, tools.
+- First pass reading starts with Guest Introduction: Ivan Brigida - Analytics Lead & PythonInvest, Disclaimer: Financial discussion, not investment advice, Background & career trajectory from finance to analytics, Google experience and role transitions.
+- Source file: `datatalksclub.github.io/_podcast/algorithmic-trading-with-python-and-machine-learning.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve machine learning, data science, MLOps, algorithmic trading, the listed guests, or the chapter topics above.

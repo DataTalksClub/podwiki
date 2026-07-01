@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=xMYRUiTu960"
 spotify_url: "https://open.spotify.com/episode/5tw3qs1XHETDPYrxdEaVbK?si=QIclWOT_QhKhIGrcl-KQXg"
 apple_url: "https://podcasts.apple.com/us/podcast/business-skills-for-data-professionals-loris-marini/id1541710331?i=1000590422440"
 ---
-# Practical Skills for Data Professionals in SaaS: Bridging the Gap between Data and Business
+
+# Episode: Practical Skills for Data Professionals in SaaS: Bridging the Gap between Data and Business
 
 ## Original Episode
 
@@ -25,13 +26,29 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you move data science from experiments to measurable impact in a SaaS business? In this episode, Loris Marini — CEO and founder of Discovering Data and host of the Discovering Data podcast — walks through practical approaches to deploying models, building marketing automation, and turning metrics into persuasive stories.
+This episode covers Practical Skills for Data Professionals in SaaS - Bridging the Gap between Data and Business.
+
+## Episode Value
+
+This episode covers Practical Skills for Data Professionals in SaaS - Bridging the Gap between Data and Business.
+
+Agents should consider this episode when working on data science, MLOps, communication.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Loris Marini]({{ '/people/lorismarini/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- data science
+- MLOps
+- communication
+- tools
+- career transition
 
 ## Chapter Summary
 
@@ -60,3 +77,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 56:13 - [Presenting Online: Podcasting, Pauses, and Audio Practices](https://www.youtube.com/watch?v=xMYRUiTu960&t=3373)
 - 58:35 - [Resources: Discovering Data Podcast for Business Skills](https://www.youtube.com/watch?v=xMYRUiTu960&t=3515)
 - 1:00:33 - [Community Building: Joining the Discovering Data Discord](https://www.youtube.com/watch?v=xMYRUiTu960&t=3633)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around data science, MLOps, communication, tools, career transition.
+- First pass reading starts with Guest Background: From Physics to Data Science, Early Data Role: Research Skills Applied in a Startup, Production Challenges: Deploying Models in a SaaS, Marketing Automation Use Case: Recommendations & Reporting.
+- Source file: `datatalksclub.github.io/_podcast/data-professionals-business-skills-in-saas.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve data science, MLOps, communication, tools, the listed guests, or the chapter topics above.

@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=rMRUa8WxDz4"
 spotify_url: "https://open.spotify.com/episode/19fWdSuxTLwIdzVT45qF9x"
 apple_url: "https://podcasts.apple.com/us/podcast/similarities-and-differences-between-ml-and/id1541710331?i=1000538713607"
 ---
-# From Analytics to Production ML: Team Building, Experiments, MLOps & Fraud Detection
+
+# Episode: From Analytics to Production ML: Team Building, Experiments, MLOps & Fraud Detection
 
 ## Original Episode
 
@@ -25,13 +26,32 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do teams move beyond dashboards to reliable production ML—while organizing people, running experiments, and tackling use cases like fraud detection? In this episode Rishabh Bhargava (7+ years in analytics and ML, former Sales Engineering lead at Datacoral—acquired by Cloudera—and early Primer.ai engineer; MS CS Stanford) walks through the practical bridge from analytics to ML in production.
+This episode covers From Analytics to Production ML - Team Building, Experiments, MLOps & Fraud Detection.
+
+## Episode Value
+
+This episode covers From Analytics to Production ML - Team Building, Experiments, MLOps & Fraud Detection.
+
+Agents should consider this episode when working on machine learning, production, data analytics.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Rishabh Bhargava]({{ '/people/rishabhbhargava/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- machine learning
+- production
+- data analytics
+- MLOps
+- team building
+- data teams
+- leadership
+- career growth
 
 ## Chapter Summary
 
@@ -58,3 +78,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 49:01 - [Team Organization: Embedded Data Roles Versus Centralized Structures](https://www.youtube.com/watch?v=rMRUa8WxDz4&t=2941)
 - 55:41 - [Building a Data Team: Hire Data Engineers, Then Analysts, Then DS](https://www.youtube.com/watch?v=rMRUa8WxDz4&t=3341)
 - 58:19 - [MLOpsRoundup Newsletter: ML Production, MLOps Insights and Resources](https://www.youtube.com/watch?v=rMRUa8WxDz4&t=3499)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around machine learning, production, data analytics, MLOps, team building, data teams.
+- First pass reading starts with Episode Introduction & Guest Overview, Career Path: Data Infrastructure and Stanford ML Background, Sales Engineering: Demos, POCs and Data Integration, Early Machine Learning Work: NLP, Summarization and Entity Extraction.
+- Source file: `datatalksclub.github.io/_podcast/production-ml-mlops-and-data-team-building.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve machine learning, production, data analytics, MLOps, the listed guests, or the chapter topics above.

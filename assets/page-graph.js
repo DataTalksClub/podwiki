@@ -69,7 +69,9 @@
 
   function currentNode(graph) {
     const current = normalizePath(window.location.pathname);
-    return (graph.nodes || []).find((node) => normalizePath(node.url || "") === current);
+    return (graph.nodes || [])
+      .filter((node) => normalizePath(node.url || "") === current)
+      .sort((a, b) => typeRank(a.type) - typeRank(b.type))[0];
   }
 
   function linkedNodes(graph, node) {

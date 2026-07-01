@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=qWG--iYO2uc"
 spotify_url: "https://open.spotify.com/episode/7twXPni1q2RJQU2jjbCGty?si=KNCEy-0ZRrWDVchFsDCHjQ"
 apple_url: "https://podcasts.apple.com/us/podcast/from-data-manager-to-data-architect-lo%C3%AFc-magnien/id1541710331?i=1000629678056"
 ---
-# From Hands-On IoT Data Engineering to Leading Data Architecture: Pipelines, Cloud Adaptation & Analytics Modeling
+
+# Episode: From Hands-On IoT Data Engineering to Leading Data Architecture: Pipelines, Cloud Adaptation & Analytics Modeling
 
 ## Original Episode
 
@@ -25,13 +26,27 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-What does it take to evolve from hands-on IoT data engineering to leading data architecture — building scalable pipelines, adapting to cloud platforms, and designing analytics models that serve entire organizations? In this episode, Loïc Magnien, Lead Data at Mylight150 with a decade spanning database management, data engineering, product ownership and architecture, shares his real-world journey from managing sensor data to architecting enterprise-scale data systems.
+This episode covers From Hands-On IoT Data Engineering to Leading Data Architecture - Pipelines, Cloud Adaptation & Analytics Modeling.
+
+## Episode Value
+
+This episode covers From Hands-On IoT Data Engineering to Leading Data Architecture - Pipelines, Cloud Adaptation & Analytics Modeling.
+
+Agents should consider this episode when working on data engineering, career transition, MLOps.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Loïc Magnien]({{ '/people/loicmagnien/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- data engineering
+- career transition
+- MLOps
 
 ## Chapter Summary
 
@@ -59,3 +74,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 57:12 - [Reusable templates: ingestion, transformation, and datamart patterns](https://www.youtube.com/watch?v=qWG--iYO2uc&t=3432)
 - 59:34 - [Design tradeoffs: reusable components vs project-specific solutions](https://www.youtube.com/watch?v=qWG--iYO2uc&t=3574)
 - 1:00:51 - [Follow-up: guest contact and LinkedIn connection](https://www.youtube.com/watch?v=qWG--iYO2uc&t=3651)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around data engineering, career transition, MLOps.
+- First pass reading starts with Career overview: From data manager to data lead, Early role: Sensor data aggregation & structural health monitoring, Data management vs analyst: responsibilities and data discovery, Automation to data engineering: ETL, scripting, and process automation.
+- Source file: `datatalksclub.github.io/_podcast/from-iot-data-engineering-to-leading-data-architect.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve data engineering, career transition, MLOps, the listed guests, or the chapter topics above.

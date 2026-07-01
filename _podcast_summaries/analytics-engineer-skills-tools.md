@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=C5UcxBwdCEg"
 spotify_url: "https://open.spotify.com/episode/4rLQ5ulsYR9LqXxbFe2MlN"
 apple_url: "https://podcasts.apple.com/us/podcast/analytics-engineer-new-role-in-data-team-victoria-perez/id1541710331?i=1000526036141"
 ---
-# Master Analytics Engineering: Skills, Toolstack, Career Roadmap
+
+# Episode: Master Analytics Engineering: Skills, Toolstack, Career Roadmap
 
 ## Original Episode
 
@@ -25,13 +26,25 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you become an effective analytics engineer and what skills, tools, and career steps matter most? In this episode, Victoria Perez Mola—born in Argentina, trained as a Systems Engineer and now an Analytics Engineer at Tier in Berlin—walks us through her move from ERP and finance reporting into analytics engineering. We cover daily responsibilities like data modeling, pipelines, data quality and Looker; the DBT workflow (SQL transformations, version control, tests, DAG); and a practical analytics toolstack.
+This episode covers Master Analytics Engineering - Skills, Toolstack, Career Roadmap.
+
+## Episode Value
+
+This episode covers Master Analytics Engineering - Skills, Toolstack, Career Roadmap.
+
+Agents should consider this episode when working on analytics engineering.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Victoria Perez Mola]({{ '/people/victoriaperezmola/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- analytics engineering
 
 ## Chapter Summary
 
@@ -60,3 +73,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 46:28 - [Job Frustrations: Enforcing guidelines, ad-hoc firefights, limited raw control](https://www.youtube.com/watch?v=C5UcxBwdCEg&t=2788)
 - 48:36 - [Team Scale & Placement: Platform teams vs embedded analytics engineers](https://www.youtube.com/watch?v=C5UcxBwdCEg&t=2916)
 - 50:46 - [Data Documentation & Profiling: DBT docs strengths and profiling tools (Datafold,](https://www.youtube.com/watch?v=C5UcxBwdCEg&t=3046)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around analytics engineering.
+- First pass reading starts with Guest Introduction: Victoria Perez Mola overview, Career Journey: Systems engineering, ERP & finance reporting, Daily Responsibilities: Data modeling, pipelines, data quality, Looker, DBT Overview: SQL transformations, version control, tests, DAG.
+- Source file: `datatalksclub.github.io/_podcast/analytics-engineer-skills-tools.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve analytics engineering, the listed guests, or the chapter topics above.

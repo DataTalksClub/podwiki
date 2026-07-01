@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=BP6w_vKySN0"
 spotify_url: "https://open.spotify.com/episode/0nFSU92IQDbM4C9FLvdn4z"
 apple_url: "https://podcasts.apple.com/us/podcast/data-intensive-ai-bartosz-mikulski/id1541710331?i=1000700288876"
 ---
-# Production AI Engineering: Data Pipelines, Prompt Optimization and Caching
+
+# Episode: Production AI Engineering: Data Pipelines, Prompt Optimization and Caching
 
 ## Original Episode
 
@@ -25,13 +26,29 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you move AI projects from proof-of-concept to reliable production systems while keeping prompts, pipelines, and response times under control? In this episode Bartosz Mikulski, an AI and data engineer who specializes in productionizing AI, breaks down the engineering work required to make models dependable beyond demos. Bartosz explains how to design robust data pipelines, apply prompt optimization practices, and introduce caching strategies that reduce load and improve responsiveness. He also covers.
+This episode covers Production AI Engineering - Data Pipelines, Prompt Optimization and Caching.
+
+## Episode Value
+
+This episode covers Production AI Engineering - Data Pipelines, Prompt Optimization and Caching.
+
+Agents should consider this episode when working on data engineering, AI, LLMs.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Bartosz Mikulski]({{ '/people/bartoszmikulski/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- data engineering
+- AI
+- LLMs
+- MLOps
+- tools
 
 ## Chapter Summary
 
@@ -45,7 +62,7 @@ Use these checkpoints to decide whether to open the source transcript.
 - 11:47 - [Test Strategy for Data Pipelines: Snapshot & Integration Testing](https://www.youtube.com/watch?v=BP6w_vKySN0&t=707)
 - 13:14 - [Testing Tools: Great Expectations, Soda, SQL Tests vs Spark Tests](https://www.youtube.com/watch?v=BP6w_vKySN0&t=794)
 - 17:10 - [Technology Choice: When to Use Apache Spark](https://www.youtube.com/watch?v=BP6w_vKySN0&t=1030)
-- 18:38 - [Data Engineering’s Role in AI: Preprocessing & Fine-Tuning Data](https://www.youtube.com/watch?v=BP6w_vKySN0&t=1118)
+- 18:38 - [Data Engineering's Role in AI: Preprocessing & Fine-Tuning Data](https://www.youtube.com/watch?v=BP6w_vKySN0&t=1118)
 - 21:46 - [Invisible AI Use Cases: Augmented Generation & Review Analysis](https://www.youtube.com/watch?v=BP6w_vKySN0&t=1306)
 - 25:13 - [Prompt Engineering Basics: In-Context Learning & Examples](https://www.youtube.com/watch?v=BP6w_vKySN0&t=1513)
 - 28:16 - [Prompt Evaluation: Formatting, Examples, and Cost Tradeoffs](https://www.youtube.com/watch?v=BP6w_vKySN0&t=1696)
@@ -61,3 +78,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 53:10 - [Blogging as Business: Attracting Clients & Teaching Workshops](https://www.youtube.com/watch?v=BP6w_vKySN0&t=3190)
 - 56:17 - [AI-Assisted Writing: Drafting, Rewriting, and Maintaining Voice](https://www.youtube.com/watch?v=BP6w_vKySN0&t=3377)
 - 1:00:21 - [Episode Wrap-Up & Guest Resources (blog link invitation)](https://www.youtube.com/watch?v=BP6w_vKySN0&t=3621)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around data engineering, AI, LLMs, MLOps, tools.
+- First pass reading starts with Episode Opening & Guest Overview (Data Intensive AI), Book Contribution Clarified & Testing Focus, Career Path: Java → Data Engineering → AI Engineering, Publishing Routine: Blogging Frequency & Content Practice.
+- Source file: `datatalksclub.github.io/_podcast/production-ready-ai-engineering.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve data engineering, AI, LLMs, MLOps, the listed guests, or the chapter topics above.

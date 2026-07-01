@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=WIpnyiHp4IE"
 spotify_url: "https://open.spotify.com/episode/5SjY4vatlUYFCZUMV7dE7W?si=MC4ZZrKbSTKUEDVEfedGwA"
 apple_url: "https://podcasts.apple.com/us/podcast/building-an-open-source-nlp-tool-johannes-h%C3%B6tter/id1541710331?i=1000610117894"
 ---
-# Build Open-Source NLP Tools: Weak Supervision, LLM Heuristics & Enterprise ML Product Strategy
+
+# Episode: Build Open-Source NLP Tools: Weak Supervision, LLM Heuristics & Enterprise ML Product Strategy
 
 ## Original Episode
 
@@ -25,13 +26,29 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How can teams scale high-quality NLP labeling without hand-labeling every example? In this episode, Johannes Hötter, data scientist, engineer, and co-founder of kern, explains practical approaches to that problem using weak supervision, heuristics, and open-source tooling. We walk through demos of Refinery and Bricks, with a close look at Refinery’s weak supervision and labeling workflows, and why Jupyter widgets leave a gap for NLP tooling.
+This episode covers Build Open-Source NLP Tools - Weak Supervision, LLM Heuristics & Enterprise ML Product Strategy.
+
+## Episode Value
+
+This episode covers Build Open-Source NLP Tools - Weak Supervision, LLM Heuristics & Enterprise ML Product Strategy.
+
+Agents should consider this episode when working on NLP, machine learning, strategy.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Johannes Hötter]({{ '/people/johanneshotter/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- NLP
+- machine learning
+- strategy
+- entrepreneurship
+- founder
 
 ## Chapter Summary
 
@@ -65,3 +82,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 56:03 - [Open source as trust-builder with developer teams](https://www.youtube.com/watch?v=WIpnyiHp4IE&t=3363)
 - 57:02 - [Fundraising recap: 2.7M raise and investor interest in open source ML](https://www.youtube.com/watch?v=WIpnyiHp4IE&t=3422)
 - 59:58 - [Recommended reading: Prediction Machines (applied AI economics)](https://www.youtube.com/watch?v=WIpnyiHp4IE&t=3598)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around NLP, machine learning, strategy, entrepreneurship, founder.
+- First pass reading starts with Background & early AI curiosity, Open-source demos overview: Refinery and Bricks, Refinery features: weak supervision & labeling workflows, Jupyter widgets gap and NLP tooling needs.
+- Source file: `datatalksclub.github.io/_podcast/building-open-source-nlp-tool.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve NLP, machine learning, strategy, entrepreneurship, the listed guests, or the chapter topics above.

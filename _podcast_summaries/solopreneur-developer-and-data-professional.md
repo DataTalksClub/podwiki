@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=gCLUY37HGtw"
 spotify_url: "https://open.spotify.com/episode/264kr8rkSV71NwlU3kphHm"
 apple_url: "https://podcasts.apple.com/us/podcast/becoming-a-solopreneur-in-data-noah-gift/id1541710331?i=1000540908616"
 ---
-# Solopreneur Guide: Diversify Income with Courses, Consulting, Books & Side-Gigs
+
+# Episode: Solopreneur Guide: Diversify Income with Courses, Consulting, Books & Side-Gigs
 
 ## Original Episode
 
@@ -25,13 +26,29 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you build a sustainable solopreneur business that doesn't rely on VC funding—while diversifying income across courses, consulting, books, and side-gigs? In this episode, Noah Gift, founder of Pragmatic AI Labs and a lecturer on machine learning and data science at Northwestern, Duke MIDS, UC Berkeley, UC Davis, and UNC Charlotte, walks through his transition to solo work (since 2017) and a repeatable income mix for intentional small-business ownership.
+This episode covers Solopreneur Guide - Diversify Income with Courses, Consulting, Books & Side-Gigs.
+
+## Episode Value
+
+This episode covers Solopreneur Guide - Diversify Income with Courses, Consulting, Books & Side-Gigs.
+
+Agents should consider this episode when working on solopreneurship, entrepreneurship, career growth.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Noah Gift]({{ '/people/noahgift/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- solopreneurship
+- entrepreneurship
+- career growth
+- career transition
+- consulting
 
 ## Chapter Summary
 
@@ -54,9 +71,23 @@ Use these checkpoints to decide whether to open the source transcript.
 - 38:08 - [Book Workflow: Outlines First, Build Projects, Then Write](https://www.youtube.com/watch?v=gCLUY37HGtw&t=2288)
 - 41:34 - [Writing Discipline: Treating Book Projects Like Marathons](https://www.youtube.com/watch?v=gCLUY37HGtw&t=2494)
 - 42:56 - [Distributed Income: Combining Books, Apps, Real Estate, and Investments](https://www.youtube.com/watch?v=gCLUY37HGtw&t=2576)
-- 46:27 - [Side-Gig Strategy: Building the “Tunnel” While Employed](https://www.youtube.com/watch?v=gCLUY37HGtw&t=2787)
+- 46:27 - [Side-Gig Strategy: Building the "Tunnel" While Employed](https://www.youtube.com/watch?v=gCLUY37HGtw&t=2787)
 - 49:12 - [Time & Cost Tactics: Reduce Commute, Lower Expenses, and Save Cash](https://www.youtube.com/watch?v=gCLUY37HGtw&t=2952)
 - 53:49 - [Financial Readiness: When to Quit Full-Time Employment](https://www.youtube.com/watch?v=gCLUY37HGtw&t=3229)
 - 55:06 - [Networking for Independence: Deep Skill, Visibility, and Avoiding Management](https://www.youtube.com/watch?v=gCLUY37HGtw&t=3306)
 - 58:24 - [University Teaching Path: Leverage Expertise, Professors, and Written Work](https://www.youtube.com/watch?v=gCLUY37HGtw&t=3504)
 - 1:00:00 - [Contact & Resources: NoahGift.com and LinkedIn](https://www.youtube.com/watch?v=gCLUY37HGtw&t=3600)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around solopreneurship, entrepreneurship, career growth, career transition, consulting.
+- First pass reading starts with Episode Topic & Guest Overview: Becoming a Solopreneur with Noah Gift, Early Career: TV, Caltech, Disney and Film Pipeline Experience, Transition to Independent Work: Solopreneur Since 2017, Defining Solopreneurship: Intentional Smallness and Revenue Diversification.
+- Source file: `datatalksclub.github.io/_podcast/solopreneur-developer-and-data-professional.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve solopreneurship, entrepreneurship, career growth, career transition, the listed guests, or the chapter topics above.

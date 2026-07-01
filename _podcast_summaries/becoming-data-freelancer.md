@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=R_EnSa9aZtE"
 spotify_url: "https://open.spotify.com/episode/5OJfRiQ64JtLUmIkvadohg?si=uUEdvZwARN2hVGEfz73URg"
 apple_url: "https://podcasts.apple.com/us/podcast/become-a-data-freelancer-dimitri-visnadi/id1541710331?i=1000637962993"
 ---
-# Becoming a Data Freelancer: Pricing, Client Acquisition and Contract Strategy
+
+# Episode: Becoming a Data Freelancer: Pricing, Client Acquisition and Contract Strategy
 
 ## Original Episode
 
@@ -25,13 +26,30 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you move from corporate analytics to independent data consulting while pricing services fairly, finding steady clients, and avoiding contract pitfalls? In this episode Dimitri Visnadi — an independent data consultant who has advised brands like Unilever, Ferrero, Heineken and Red Bull and who trained at UCL and HP — walks through the practical realities of becoming a data freelancer.
+This episode covers Becoming a Data Freelancer - Pricing, Client Acquisition and Contract Strategy.
+
+## Episode Value
+
+This episode covers Becoming a Data Freelancer - Pricing, Client Acquisition and Contract Strategy.
+
+Agents should consider this episode when working on freelance, consulting, data analytics.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Dimitri Visnadi]({{ '/people/dimitrivisnadi/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- freelance
+- consulting
+- data analytics
+- career transition
+- career growth
+- data science
 
 ## Chapter Summary
 
@@ -63,3 +81,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 55:01 - [Common Pitfalls: Mispositioning, Mispricing & False Expectations](https://www.youtube.com/watch?v=R_EnSa9aZtE&t=3301)
 - 57:34 - [Learning Resources: Marketing Courses, Mentors & Newsletters](https://www.youtube.com/watch?v=R_EnSa9aZtE&t=3454)
 - 1:00:51 - [Follow-Up: The Data Freelancer Newsletter & Contact Channels](https://www.youtube.com/watch?v=R_EnSa9aZtE&t=3651)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around freelance, consulting, data analytics, career transition, career growth, data science.
+- First pass reading starts with Career Path: From Marketing to Data, Startup Experience: Translation, SQL & User Analysis, Corporate Analytics: Hewlett Packard Sales BI & KPIs, Education & Transition: UCL Master''s to Data Scientist.
+- Source file: `datatalksclub.github.io/_podcast/becoming-data-freelancer.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve freelance, consulting, data analytics, career transition, the listed guests, or the chapter topics above.

@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=IDzhmmKeNG4"
 spotify_url: "https://open.spotify.com/episode/3s78PtlbUmecuMOXwO8aD5?si=991e1811a5204305"
 apple_url: "https://podcasts.apple.com/us/podcast/machine-learning-and-personalization-in-healthcare/id1541710331?i=1000557726819"
 ---
-# AI in Healthcare & Digital Therapeutics: Building Data Teams, Personalization, A/B Testing & Ethics
+
+# Episode: AI in Healthcare & Digital Therapeutics: Building Data Teams, Personalization, A/B Testing & Ethics
 
 ## Original Episode
 
@@ -25,13 +26,26 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How can AI power effective digital therapeutics while balancing personalization, rapid experimentation, and patient safety? In this episode, Stefan Gudmundsson — Director of Data, Analytics, and AI with a track record building ML and data teams at Sidekick Health, King, H&M, and CCP Games — walks through practical approaches for AI in healthcare and digital therapeutics.
+This episode covers AI in Healthcare & Digital Therapeutics - Building Data Teams, Personalization, A/B Testing & Ethics.
+
+## Episode Value
+
+This episode covers AI in Healthcare & Digital Therapeutics - Building Data Teams, Personalization, A/B Testing & Ethics.
+
+Agents should consider this episode when working on machine learning, healthcare.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Stefan Gudmundsson]({{ '/people/stefangudmundsson/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- machine learning
+- healthcare
 
 ## Chapter Summary
 
@@ -57,3 +71,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 53:21 - [Hiring & Scaling: Growing the Data, ML and Engineering Team](https://www.youtube.com/watch?v=IDzhmmKeNG4&t=3201)
 - 55:53 - [AI for Mental Health: Monitoring Signals and Supportive Interventions](https://www.youtube.com/watch?v=IDzhmmKeNG4&t=3353)
 - 57:29 - [Resources & Contact: LinkedIn and Open Roles at Sidekick Health](https://www.youtube.com/watch?v=IDzhmmKeNG4&t=3449)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around machine learning, healthcare.
+- First pass reading starts with Career Snapshot: Developer to AI & Data Leader, Building AI Teams at King and H&M, Machine Learning in Healthcare: Diagnosis, Drug Discovery & AlphaFold, Sidekick Health Overview: Gamified Digital Therapeutics & Quality-of-Life.
+- Source file: `datatalksclub.github.io/_podcast/ai-in-healthcare-and-digital-therapeutics.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve machine learning, healthcare, the listed guests, or the chapter topics above.

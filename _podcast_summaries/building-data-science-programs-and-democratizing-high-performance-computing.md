@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=vZLlpsUlchQ"
 spotify_url: "https://open.spotify.com/episode/7DmFWFHUwxx4Wf0X6GbKBf?si=2DW0G2EMQ7ebB9K60LfJyQ"
 apple_url: "https://podcasts.apple.com/us/podcast/leading-data-research-david-bader/id1541710331?i=1000579710785"
 ---
-# Build Data Science Programs, Democratize HPC & Scale Graph Analytics with Arkouda
+
+# Episode: Build Data Science Programs, Democratize HPC & Scale Graph Analytics with Arkouda
 
 ## Original Episode
 
@@ -25,7 +26,13 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you build effective data science programs, democratize high-performance computing, and scale graph analytics so researchers and practitioners can solve real-world problems? In this episode, David Bader — Director of the Institute for Data Science at NJIT, founder of NJIT’s Department of Data Science, and a distinguished professor with deep expertise in HPC, big data, and analytics — walks through his career, leadership in launching academic units, and practical lessons for curriculum design and regional.
+This episode covers Build Data Science Programs, Democratize HPC & Scale Graph Analytics with Arkouda.
+
+## Episode Value
+
+This episode covers Build Data Science Programs, Democratize HPC & Scale Graph Analytics with Arkouda.
+
+Agents should consider this episode when working on data science, data analytics, tools.
 
 ## People
 
@@ -33,12 +40,20 @@ Use these links to connect the episode to guest notes.
 
 - [David Bader]({{ '/people/davidbader/' | relative_url }})
 
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- data science
+- data analytics
+- tools
+
 ## Chapter Summary
 
 Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=vZLlpsUlchQ&t=0)
-- 1:47 - [Guest Intro: David Bader — NJIT Institute for Data Science, research focus](https://www.youtube.com/watch?v=vZLlpsUlchQ&t=107)
+- 1:47 - [Guest Intro: David Bader - NJIT Institute for Data Science, research focus](https://www.youtube.com/watch?v=vZLlpsUlchQ&t=107)
 - 3:20 - [Career Journey & Academic Appointments](https://www.youtube.com/watch?v=vZLlpsUlchQ&t=200)
 - 4:53 - [Daily Responsibilities: Research, Teaching, and Institute Leadership](https://www.youtube.com/watch?v=vZLlpsUlchQ&t=293)
 - 6:11 - [Active Projects & Industry Partnerships (NSF, Accenture, NVIDIA)](https://www.youtube.com/watch?v=vZLlpsUlchQ&t=371)
@@ -63,3 +78,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 56:40 - [Building Usable Systems: From Research to Real-world Adoption (NASA example)](https://www.youtube.com/watch?v=vZLlpsUlchQ&t=3400)
 - 58:11 - [Recruiting Students: PhD vs. Industry and Collaborative Opportunities](https://www.youtube.com/watch?v=vZLlpsUlchQ&t=3491)
 - 1:03:31 - [Contact & Resources: davidbader.net, Arkouda, NJIT Data Science links](https://www.youtube.com/watch?v=vZLlpsUlchQ&t=3811)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around data science, data analytics, tools.
+- First pass reading starts with Guest Intro: David Bader - NJIT Institute for Data Science, research focus, Career Journey & Academic Appointments, Daily Responsibilities: Research, Teaching, and Institute Leadership, Active Projects & Industry Partnerships (NSF, Accenture, NVIDIA).
+- Source file: `datatalksclub.github.io/_podcast/building-data-science-programs-and-democratizing-high-performance-computing.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve data science, data analytics, tools, the listed guests, or the chapter topics above.

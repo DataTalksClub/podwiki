@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=ZXNKjrrKU_I"
 spotify_url: "https://open.spotify.com/episode/4wpYwS8XTlNdws39Zynakf?si=OFAHIkVsQlKvdTnlFNaLGg"
 apple_url: "https://podcasts.apple.com/us/podcast/data-engineering-for-fraud-prevention-angela-ramirez/id1541710331?i=1000630468398"
 ---
-# Build and Scale Data Engineering Systems for Fraud Detection: Feature Pipelines, Real-Time Inference, Graph Databases & Production Debugging
+
+# Episode: Build and Scale Data Engineering Systems for Fraud Detection: Feature Pipelines, Real-Time Inference, Graph Databases & Production Debugging
 
 ## Original Episode
 
@@ -25,13 +26,29 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you build data infrastructure that stops stolen-card transactions and return abuse in real time? In this episode, Angela Ramirez, a Sam’s Club data engineer who moved from Sephora and specializes in machine learning for fraud prevention, walks through the engineering behind retail fraud detection. Drawing on her background in NLP and four years as a data engineer, Angela explains pipelines, feature engineering workflows that combine daily batches with real-time scoring, and the MLOps responsibilities for.
+This episode covers Build and Scale Data Engineering Systems for Fraud Detection - Feature Pipelines, Real-Time Inference, Graph Databases & Production Debugging.
+
+## Episode Value
+
+This episode covers Build and Scale Data Engineering Systems for Fraud Detection - Feature Pipelines, Real-Time Inference, Graph Databases & Production Debugging.
+
+Agents should consider this episode when working on data engineering, MLOps, fraud detection.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Angela Ramirez]({{ '/people/angelaramirez/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- data engineering
+- MLOps
+- fraud detection
+- graph databases
+- software engineering
 
 ## Chapter Summary
 
@@ -66,3 +83,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 54:57 - [Cassandra Use Cases: Scalability, Fault Tolerance, Clusters](https://www.youtube.com/watch?v=ZXNKjrrKU_I&t=3297)
 - 56:19 - [External Data Integration: APIs, Data Contracts, Stability](https://www.youtube.com/watch?v=ZXNKjrrKU_I&t=3379)
 - 1:00:00 - [Recommended Resources: Designing Data-Intensive Applications, PySpark, SQL](https://www.youtube.com/watch?v=ZXNKjrrKU_I&t=3600)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around data engineering, MLOps, fraud detection, graph databases, software engineering.
+- First pass reading starts with Career Journey: Sephora to Sam''s Club, Fraud Detection in Retail: Stolen Cards & Return Abuse, Data Engineering for Fraud: Pipelines, Features, Dashboards, Feature Engineering Workflow: Daily Batches + Real-Time Scoring.
+- Source file: `datatalksclub.github.io/_podcast/building-and-scaling-data-engineering-systems-for-fraud-detection.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve data engineering, MLOps, fraud detection, graph databases, the listed guests, or the chapter topics above.

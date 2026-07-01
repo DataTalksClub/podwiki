@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=Vms29u9xC3k"
 spotify_url: "https://open.spotify.com/episode/5t3SwzH17mFjxEoDUx9i5c?si=gaTfOoFnQ7muVkBiYuMxuA"
 apple_url: "https://podcasts.apple.com/us/podcast/lessons-learned-about-data-ai-at-enterprises-alexander/id1541710331?i=1000576622709"
 ---
-# Scale Enterprise AI: Data-First Strategies, MLOps Best Practices & Realistic Experiments
+
+# Episode: Scale Enterprise AI: Data-First Strategies, MLOps Best Practices & Realistic Experiments
 
 ## Original Episode
 
@@ -25,7 +26,13 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you move from proof-of-concept to scaled enterprise AI without over-investing in hype? In this episode, Alexander Hendorf — head of data and AI at KÖNIGSWEG, PyData chair and Python Software Foundation/EuroPython fellow — walks through pragmatic, data-first strategies for scaling AI across organizations.
+This episode covers Scale Enterprise AI - Data-First Strategies, MLOps Best Practices & Realistic Experiments.
+
+## Episode Value
+
+This episode covers Scale Enterprise AI - Data-First Strategies, MLOps Best Practices & Realistic Experiments.
+
+Agents should consider this episode when working on MLOps, AI, machine learning.
 
 ## People
 
@@ -33,12 +40,22 @@ Use these links to connect the episode to guest notes.
 
 - [Alexander Hendorf]({{ '/people/alexanderhendorf/' | relative_url }})
 
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- MLOps
+- AI
+- machine learning
+- data engineering
+- open-source
+
 ## Chapter Summary
 
 Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=Vms29u9xC3k&t=0)
-- 2:02 - [Guest Overview: Alexander Hendorf — Königsweg partner & PyData chair](https://www.youtube.com/watch?v=Vms29u9xC3k&t=122)
+- 2:02 - [Guest Overview: Alexander Hendorf - Königsweg partner & PyData chair](https://www.youtube.com/watch?v=Vms29u9xC3k&t=122)
 - 3:19 - [Career Path: from law and DJing to programming and machine learning](https://www.youtube.com/watch?v=Vms29u9xC3k&t=199)
 - 5:07 - [Partner Role: team leadership, strategy, and client selection](https://www.youtube.com/watch?v=Vms29u9xC3k&t=307)
 - 9:36 - [Community Engagement: PyData, cross-domain learning, and meetups](https://www.youtube.com/watch?v=Vms29u9xC3k&t=576)
@@ -57,3 +74,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 55:35 - [MLOps Hype vs. Reality: buzzword caution and consultancy pitfalls](https://www.youtube.com/watch?v=Vms29u9xC3k&t=3335)
 - 58:51 - [Platform Selection & Longevity: vendor lock-in, long-term planning, and team](https://www.youtube.com/watch?v=Vms29u9xC3k&t=3531)
 - 1:01:07 - [How to Reach Alexander: LinkedIn, Twitter, and PyData events](https://www.youtube.com/watch?v=Vms29u9xC3k&t=3667)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around MLOps, AI, machine learning, data engineering, open-source.
+- First pass reading starts with Guest Overview: Alexander Hendorf - Königsweg partner & PyData chair, Career Path: from law and DJing to programming and machine learning, Partner Role: team leadership, strategy, and client selection, Community Engagement: PyData, cross-domain learning, and meetups.
+- Source file: `datatalksclub.github.io/_podcast/scaling-enterprise-ai-mlops-data-first-strategy.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve MLOps, AI, machine learning, data engineering, the listed guests, or the chapter topics above.

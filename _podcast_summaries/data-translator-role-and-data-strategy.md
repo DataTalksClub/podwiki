@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=gqroEsTyLD0"
 spotify_url: "https://open.spotify.com/episode/4RF592cRWxHgcXbx6pV0Ja"
 apple_url: "https://podcasts.apple.com/us/podcast/effective-communication-business-for-data-professionals/id1541710331?i=1000519463715"
 ---
-# Data Strategist Guide: Effective Communication to Bridge Data Teams & Management for Data-Driven Growth
+
+# Episode: Data Strategist Guide: Effective Communication to Bridge Data Teams & Management for Data-Driven Growth
 
 ## Original Episode
 
@@ -25,13 +26,29 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you bridge the gap between data teams and management so analytics actually drives growth? In this episode, Lior Barak — author of Data is Like a Plate of Hummus, co-host of WHAT the Data?! and founder of Tale About Data with 12+ years building data teams — lays out the role of a data translator: a product-minded strategist who converts technical outputs into business-aligned action.
+This episode covers Data Strategist Guide - Effective Communication to Bridge Data Teams & Management for Data-Driven Growth.
+
+## Episode Value
+
+This episode covers Data Strategist Guide - Effective Communication to Bridge Data Teams & Management for Data-Driven Growth.
+
+Agents should consider this episode when working on data strategy, communication, project management.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Lior Barak]({{ '/people/liorbarak/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- data strategy
+- communication
+- project management
+- leadership
+- data teams
 
 ## Chapter Summary
 
@@ -55,9 +72,23 @@ Use these checkpoints to decide whether to open the source transcript.
 - 36:33 - [Non-technical Stakeholders: Explain effort in plain language](https://www.youtube.com/watch?v=gqroEsTyLD0&t=2193)
 - 39:44 - [Cross-team Empathy: Breaking silos through co-working and lunches](https://www.youtube.com/watch?v=gqroEsTyLD0&t=2384)
 - 42:55 - [Remote Collaboration: Chat-driven triggers and selective meeting use](https://www.youtube.com/watch?v=gqroEsTyLD0&t=2575)
-- 45:29 - [Product Perspectives: Consumers vs engineers — the hummus analogy](https://www.youtube.com/watch?v=gqroEsTyLD0&t=2729)
+- 45:29 - [Product Perspectives: Consumers vs engineers - the hummus analogy](https://www.youtube.com/watch?v=gqroEsTyLD0&t=2729)
 - 50:50 - [Local Anecdote: Recommended hummus spots in Berlin](https://www.youtube.com/watch?v=gqroEsTyLD0&t=3050)
 - 51:36 - [Book Overview: Purpose of "Data is Like a Plate of Hummus"](https://www.youtube.com/watch?v=gqroEsTyLD0&t=3096)
 - 53:20 - [Strategy Foundations: Build a stable data ground before models](https://www.youtube.com/watch?v=gqroEsTyLD0&t=3200)
 - 55:49 - [Data Chaos: Clearing requests, educating users, and leading growth](https://www.youtube.com/watch?v=gqroEsTyLD0&t=3349)
 - 57:40 - [Resources & Contact: Lior''s LinkedIn, Twitter, and podcast](https://www.youtube.com/watch?v=gqroEsTyLD0&t=3460)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around data strategy, communication, project management, leadership, data teams.
+- First pass reading starts with Episode Theme: Bridging Data & Management, Guest Background: Lior''s data and product journey, Role Defined: Data strategist as translator between business and tech, Communication Tactics: Proactive alerts to maintain data trust.
+- Source file: `datatalksclub.github.io/_podcast/data-translator-role-and-data-strategy.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve data strategy, communication, project management, leadership, the listed guests, or the chapter topics above.

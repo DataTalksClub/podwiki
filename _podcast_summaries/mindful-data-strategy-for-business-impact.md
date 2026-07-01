@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=B76J4QkZPWs"
 spotify_url: "https://open.spotify.com/episode/54B0xvUI1eQjXW0s1eqgbI"
 apple_url: "https://podcasts.apple.com/us/podcast/how-to-rebuild-data-trust-mindful-data-strategy-and/id1541710331?i=1000722107501"
 ---
-# Mindful Data Strategy for Business Impact: Wabi-Sabi Approach, Data Trust & Maintenance-Innovation Balance
+
+# Episode: Mindful Data Strategy for Business Impact: Wabi-Sabi Approach, Data Trust & Maintenance-Innovation Balance
 
 ## Original Episode
 
@@ -25,13 +26,29 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you build a data strategy that drives business impact without chasing perfection? In this episode Lior Barak — author of Data Is Like a Plate of Hummus, co-host of the WHAT the Data?! podcast, and founder of Tale About Data — explores a mindful data strategy that accepts imperfection, prioritizes data trust, and balances maintenance with innovation.
+This episode covers Mindful Data Strategy for Business Impact - Wabi-Sabi Approach, Data Trust & Maintenance-Innovation Balance.
+
+## Episode Value
+
+This episode covers Mindful Data Strategy for Business Impact - Wabi-Sabi Approach, Data Trust & Maintenance-Innovation Balance.
+
+Agents should consider this episode when working on data strategy, data governance, data engineering.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Lior Barak]({{ '/people/liorbarak/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- data strategy
+- data governance
+- data engineering
+- product management
+- career transition
 
 ## Chapter Summary
 
@@ -64,3 +81,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 1:00:23 - [Executive ad-hoc requests: elicit intent and quantify expected impact](https://www.youtube.com/watch?v=B76J4QkZPWs&t=3623)
 - 1:02:33 - [Career guidance: choosing analytics, engineering, or product paths](https://www.youtube.com/watch?v=B76J4QkZPWs&t=3753)
 - 1:04:36 - [Closing reflections, resources, and suggested next steps](https://www.youtube.com/watch?v=B76J4QkZPWs&t=3876)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around data strategy, data governance, data engineering, product management, career transition.
+- First pass reading starts with Lior Barak: Background and shift from engineering to product, Startup and platform experience: automating data infrastructure, Product management learning paths for engineers and data scientists, Wabi-sabi applied to data: accepting imperfection and communicating it.
+- Source file: `datatalksclub.github.io/_podcast/mindful-data-strategy-for-business-impact.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve data strategy, data governance, data engineering, product management, the listed guests, or the chapter topics above.

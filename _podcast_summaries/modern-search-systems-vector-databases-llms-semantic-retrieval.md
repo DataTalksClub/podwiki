@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=_fbe1QyJ1PY"
 spotify_url: "https://open.spotify.com/episode/7mUMvxP4Efyeh0lhF5CvT6?si=7qqKrsMfQxaZy435s3XIEA"
 apple_url: "https://podcasts.apple.com/us/podcast/navigating-challenges-and-innovations-in-search/id1541710331?i=1000639476594"
 ---
-# Modern Search Systems: Vector Databases, LLMs and Semantic Retrieval
+
+# Episode: Modern Search Systems: Vector Databases, LLMs and Semantic Retrieval
 
 ## Original Episode
 
@@ -25,13 +26,29 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do modern search systems combine vector databases, LLMs, and semantic retrieval to deliver relevant, reliable results—and when should you adopt each component? In this episode Atita Arora walks through that question from both historical and practical angles. A long-time contributor to information retrieval projects (including Apache OpenNLP and Quepid) and author of posts on vectors in e-commerce and the open-source Chorus implementation, Atita brings hands-on experience plus ongoing research into evaluating.
+This episode covers Modern Search Systems - Vector Databases, LLMs and Semantic Retrieval.
+
+## Episode Value
+
+This episode covers Modern Search Systems - Vector Databases, LLMs and Semantic Retrieval.
+
+Agents should consider this episode when working on NLP, LLMs, MLOps.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Atita Arora]({{ '/people/atitaarora/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- NLP
+- LLMs
+- MLOps
+- machine learning
+- data engineering
 
 ## Chapter Summary
 
@@ -48,10 +65,24 @@ Use these checkpoints to decide whether to open the source transcript.
 - 30:38 - [RAG concepts: retrieval plus generation to reduce LLM hallucinations](https://www.youtube.com/watch?v=_fbe1QyJ1PY&t=1838)
 - 35:49 - [Building a chatbot from podcast transcripts and Whisper](https://www.youtube.com/watch?v=_fbe1QyJ1PY&t=2149)
 - 38:24 - [Ingest strategy: chunking, overlap, embedding models and vectorization](https://www.youtube.com/watch?v=_fbe1QyJ1PY&t=2304)
-- 41:32 - [Orchestration tools: Langchain’s role in RAG pipelines](https://www.youtube.com/watch?v=_fbe1QyJ1PY&t=2492)
+- 41:32 - [Orchestration tools: Langchain's role in RAG pipelines](https://www.youtube.com/watch?v=_fbe1QyJ1PY&t=2492)
 - 42:49 - [Retrieval → augmentation → generation: prompt design and citations](https://www.youtube.com/watch?v=_fbe1QyJ1PY&t=2569)
 - 48:09 - [RAG evaluation: multi-level metrics, offline tests and human-in-the-loop](https://www.youtube.com/watch?v=_fbe1QyJ1PY&t=2889)
 - 50:52 - [Evaluation reading: Human-in-the-Loop and practical methodologies](https://www.youtube.com/watch?v=_fbe1QyJ1PY&t=3052)
 - 52:07 - [Vector databases for ML: session-based recommendations and re-ranking](https://www.youtube.com/watch?v=_fbe1QyJ1PY&t=3127)
 - 54:54 - [Personalization approaches: session-based vs collaborative filtering](https://www.youtube.com/watch?v=_fbe1QyJ1PY&t=3294)
 - 57:50 - [Learning resources: Intro to Information Retrieval, Relevant Search, Vector](https://www.youtube.com/watch?v=_fbe1QyJ1PY&t=3470)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around NLP, LLMs, MLOps, machine learning, data engineering.
+- First pass reading starts with Episode Introduction: search focus and guest overview, Background & career beginnings in information retrieval, Early search stack: Solr, Lucene and the Semantic Web era, NLP and search: matching queries to content.
+- Source file: `datatalksclub.github.io/_podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve NLP, LLMs, MLOps, machine learning, the listed guests, or the chapter topics above.

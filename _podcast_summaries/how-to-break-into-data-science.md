@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=oUycqtMoYr8"
 spotify_url: "https://open.spotify.com/episode/1RSUsWDOBDD4sNDruEbnEY"
 apple_url: "https://podcasts.apple.com/us/podcast/data-scientists-at-work-m%C4%B1sra-turp/id1541710331?i=1000567625873"
 ---
-# Data Science Career Playbook: Job Hunt, Portfolios, DALL·E 2 & Overcoming FOMO
+
+# Episode: Data Science Career Playbook: Job Hunt, Portfolios, DALL·E 2 & Overcoming FOMO
 
 ## Original Episode
 
@@ -25,13 +26,27 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you actually break into data science, build a portfolio that gets interviews, and stay sane while every new AI model vies for your attention? In this episode Mısra Turp — data scientist, content creator, and developer advocate at AssemblyAI (founder of “So you want to be a data scientist?”) — walks through a practical career playbook for job hunting, portfolio building, and coping with FOMO and imposter syndrome.
+This episode covers Data Science Career Playbook - Job Hunt, Portfolios, DALL·E 2 & Overcoming FOMO.
+
+## Episode Value
+
+This episode covers Data Science Career Playbook - Job Hunt, Portfolios, DALL·E 2 & Overcoming FOMO.
+
+Agents should consider this episode when working on data science, career growth, job search.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Mısra Turp]({{ '/people/misraturp/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- data science
+- career growth
+- job search
 
 ## Chapter Summary
 
@@ -59,3 +74,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 58:14 - [Real-World Datasets: Using NYC Open Data and Dirty Data Examples](https://www.youtube.com/watch?v=oUycqtMoYr8&t=3494)
 - 1:01:42 - [Degrees vs Experience: When a Master''s or PhD Matters](https://www.youtube.com/watch?v=oUycqtMoYr8&t=3702)
 - 1:04:28 - [Where to Find Misra Online and Recommended Resources](https://www.youtube.com/watch?v=oUycqtMoYr8&t=3868)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around data science, career growth, job search.
+- First pass reading starts with Episode Introduction, Misra Career Path: From Big Data Engineering to Content Creator, Transition to Developer Advocate and Content Work, Data Scientist Day-to-Day: Explaining the Role to Non-Tech Audiences.
+- Source file: `datatalksclub.github.io/_podcast/how-to-break-into-data-science.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve data science, career growth, job search, the listed guests, or the chapter topics above.

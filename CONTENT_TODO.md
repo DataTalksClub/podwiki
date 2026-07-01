@@ -8,7 +8,7 @@ how-tos, podcast summaries, or people-page expansion.
 
 Follow these rules when adding any page from this backlog.
 
-- Keep `_wiki/` pages as archive-backed reference pages with inline episode
+- Keep `_wiki/` pages as podcast-grounded reference pages with inline episode
   references, tradeoffs, and related pages.
 - Put keyword-targeted editorial pages in `_guides/`, `_comparisons/`,
   `_roadmaps/`, or `_how_tos/`. If the page is only the bare concept, put it in
@@ -99,7 +99,10 @@ Existing pages:
 - `_wiki/ml-platform-engineer-role.md`
 - `_wiki/mlops-engineer.md`
 - `_wiki/analytics-engineering.md` owns the Analytics Engineer role vocabulary.
+- `_guides/data-roles.md`
 - `_guides/data-product-manager.md`
+- `_guides/data-scientist.md`
+- `_guides/product-analyst.md`
 - `_wiki/developer-relations.md` owns the Developer Advocate / DevRel Engineer
   role vocabulary unless a future keyword brief needs a separate role page.
 
@@ -202,11 +205,35 @@ Source hints:
 - `building-scalable-and-reliable-machine-learning-systems.md`
 - `modern-search-systems-vector-databases-llms-semantic-retrieval.md`
 
+## How-Tos
+
+Create how-to pages for procedural workflows where readers need an operating
+sequence rather than a concept definition. Each page should show when to use the
+workflow, the steps, the tradeoffs, and the podcast evidence behind the
+recommendation.
+
+Existing pages:
+
+- `_how_tos/airflow-docker-compose.md`
+- `_how_tos/how-to-build-data-pipelines.md`
+
+Candidate pages:
+
+- Add new how-tos only when the keyword or podcast evidence asks for a concrete
+  procedure. Keep bare concepts in `_wiki/`.
+
+Source hints:
+
+- `modern-data-pipelines-orchestration-ingestion-modeling.md`
+- `dataops-automation-and-reliable-data-pipelines.md`
+- `data-engineering-career-path-and-skills.md`
+- `s24e03-from-notebook-to-production-building-end-to-end-ai-systems.md`
+
 ## Roadmaps
 
 Create roadmap pages that explain learning sequence, project sequence, role
-milestones, and when to stop studying and build. These should be archive-backed,
-not generic course lists.
+milestones, and when to stop studying and build. These should be
+podcast-grounded, not generic course lists.
 
 Existing pages:
 
@@ -265,6 +292,7 @@ Existing pages:
 - `_comparisons/machine-learning-engineer-vs-data-scientist.md`
 - `_comparisons/mlops-vs-dataops.md`
 - `_comparisons/mlops-vs-devops.md`
+- `_comparisons/product-analyst-vs-data-analyst.md`
 - `_comparisons/product-owner-vs-product-manager.md`
 - `_comparisons/rag-vs-fine-tuning.md`
 - `_comparisons/vector-database-vs-search-engine.md`
@@ -312,8 +340,8 @@ Start with this batch when expanding the content set.
   and RAG vs fine-tuning when new podcast evidence appears.
 - Continue improving real `X vs Y` decision pages in `_comparisons/` as new
   podcast evidence appears.
-- Viable audited follow-up: data analyst to analytics engineer as an
-  analyst-specific roadmap page.
+- Improve `_roadmaps/data-analyst-to-analytics-engineer.md` as new evidence
+  appears.
 - Keep `dataops platforms` on `_wiki/dataops-platforms.md`. It links to
   DataOps, DataOps tools, platform engineering, and data engineering platforms.
 - Improve `_wiki/open-source.md` before creating any Open Source editorial

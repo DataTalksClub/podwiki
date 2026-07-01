@@ -152,7 +152,7 @@ role needs product analytics, a narrow algorithm puzzle may miss the point. If
 the role needs production ML, a dashboard-only interview may miss it too.
 [Olga Ivina]({{ '/people/olgaivina/' | relative_url }}) connects hiring
 criteria to role fit in
-[How to Hire Data Scientists]({{ '/podcasts/hiring-for-data-science-jobs-interview-questions-skills.md/' | relative_url }}):
+[How to Hire Data Scientists]({{ '/podcasts/hiring-for-data-science-jobs-interview-questions-skills/' | relative_url }}):
 companies may need mathematical depth or engineering skill. Other roles need
 MLOps awareness, communication, or growth mindset.
 
@@ -239,7 +239,7 @@ interviews as motivation and behavioral checks in
 Technical interviews should test the work the job requires, and Olga Ivina
 describes coding and analytical tasks. She also covers diagnostic questions,
 descriptive statistics, and role-fit choices in
-[How to Hire Data Scientists]({{ '/podcasts/hiring-for-data-science-jobs-interview-questions-skills.md/' | relative_url }}).
+[How to Hire Data Scientists]({{ '/podcasts/hiring-for-data-science-jobs-interview-questions-skills/' | relative_url }}).
 Nick Singh's
 [Ace Data Interviews]({{ '/podcasts/data-interview-behavioral-and-portfolio-prep-guide/' | relative_url }})
 adds behavioral and case preparation. Clarify the goal, explain the metric, and
@@ -296,7 +296,7 @@ already using.
 Interview clarity is part of the same test.
 [Olga Ivina]({{ '/people/olgaivina/' | relative_url }}) connects hiring
 criteria to role fit in
-[How to Hire Data Scientists]({{ '/podcasts/hiring-for-data-science-jobs-interview-questions-skills.md/' | relative_url }}).
+[How to Hire Data Scientists]({{ '/podcasts/hiring-for-data-science-jobs-interview-questions-skills/' | relative_url }}).
 If the recruiter can't explain what each interview stage tests, you have little
 evidence that the interview plan matches the job. They should prepare you for
 the next stage without coaching you into a false profile. They should also give

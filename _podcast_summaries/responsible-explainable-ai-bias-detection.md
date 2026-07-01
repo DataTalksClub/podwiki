@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=8Eb5mG-pC3o"
 spotify_url: "https://open.spotify.com/episode/0xCSjSCG6tTiMSGfUJrMmO"
 apple_url: "https://podcasts.apple.com/us/podcast/responsible-and-explainable-ai-supreet-kaur/id1541710331?i=1000581178150"
 ---
-# Responsible & Explainable AI: Practical Guide to Bias Detection, Fairness & Governance
+
+# Episode: Responsible & Explainable AI: Practical Guide to Bias Detection, Fairness & Governance
 
 ## Original Episode
 
@@ -25,13 +26,30 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you detect bias, enforce fairness, and govern AI systems in production without sacrificing business outcomes? In this episode, Supreet Kaur — AVP on Morgan Stanley’s Data Strategy and Products team, founder of DataBuzz, and mentor at Columbia and Rutgers — walks through a practical roadmap for responsible AI and explainable AI grounded in real-world examples.
+This episode covers Responsible & Explainable AI - Practical Guide to Bias Detection, Fairness & Governance.
+
+## Episode Value
+
+This episode covers Responsible & Explainable AI - Practical Guide to Bias Detection, Fairness & Governance.
+
+Agents should consider this episode when working on responsible AI, explainable AI, bias detection.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Supreet Kaur]({{ '/people/supreetkaur/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- responsible AI
+- explainable AI
+- bias detection
+- fairness
+- governance
+- tools
 
 ## Chapter Summary
 
@@ -62,3 +80,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 52:08 - [Community & Mentorship: DataBuzz Resources and Networking](https://www.youtube.com/watch?v=8Eb5mG-pC3o&t=3128)
 - 53:50 - [Data Career Landscape: Analyst, MLOps, Consultant, and Strategist Roles](https://www.youtube.com/watch?v=8Eb5mG-pC3o&t=3230)
 - 56:44 - [Ethics Training: Professional Responsibility for Data Practitioners](https://www.youtube.com/watch?v=8Eb5mG-pC3o&t=3404)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around responsible AI, explainable AI, bias detection, fairness, governance, tools.
+- First pass reading starts with Episode Introduction: Responsible and Explainable AI, Career Journey: Master''s, Consulting, and Founding DataBuzz, Data Strategy Role: Building AI Products at Morgan Stanley, Responsible AI: Definition, Trust, and Stakeholder Collaboration.
+- Source file: `datatalksclub.github.io/_podcast/responsible-explainable-ai-bias-detection.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve responsible AI, explainable AI, bias detection, fairness, the listed guests, or the chapter topics above.

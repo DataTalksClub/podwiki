@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=o50j_Ndx2Hg"
 spotify_url: "https://open.spotify.com/episode/23VxmAEkKUs1kjaludRQAR"
 apple_url: "https://podcasts.apple.com/us/podcast/humans-in-the-loop-lina-weichbrodt/id1541710331?i=1000530535704"
 ---
-# Master Human-Centered MLOps: Stakeholder Buy-In, Monitoring, Debugging & Incident Response
+
+# Episode: Master Human-Centered MLOps: Stakeholder Buy-In, Monitoring, Debugging & Incident Response
 
 ## Original Episode
 
@@ -25,7 +26,13 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you make MLOps human-centered so stakeholders actually trust models and teams can monitor, debug, and respond to incidents? In this episode, Lina Weichbrodt — a generalist machine learning developer who prototypes data-driven products end-to-end (design, implementation, A/B tests, operations) — walks through practical MLOps strategies that prioritize people as much as pipelines.
+This episode covers Master Human-Centered MLOps - Stakeholder Buy-In, Monitoring, Debugging & Incident Response.
+
+## Episode Value
+
+This episode covers Master Human-Centered MLOps - Stakeholder Buy-In, Monitoring, Debugging & Incident Response.
+
+Agents should consider this episode when working on MLOps, machine learning, production.
 
 ## People
 
@@ -33,12 +40,22 @@ Use these links to connect the episode to guest notes.
 
 - [Lina Weichbrodt]({{ '/people/linaweichbrodt/' | relative_url }})
 
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- MLOps
+- machine learning
+- production
+- tools
+- communication
+
 ## Chapter Summary
 
 Use these checkpoints to decide whether to open the source transcript.
 
-- 0:00 - [Episode Introduction: Humans in the Loop — MLOps & human-centered ML](https://www.youtube.com/watch?v=o50j_Ndx2Hg&t=0)
-- 3:29 - [Guest Career Path: Lina Weichbrodt — business to ML engineering](https://www.youtube.com/watch?v=o50j_Ndx2Hg&t=209)
+- 0:00 - [Episode Introduction: Humans in the Loop - MLOps & human-centered ML](https://www.youtube.com/watch?v=o50j_Ndx2Hg&t=0)
+- 3:29 - [Guest Career Path: Lina Weichbrodt - business to ML engineering](https://www.youtube.com/watch?v=o50j_Ndx2Hg&t=209)
 - 4:50 - [Project Intake Checklist: business case, KPIs, and alternative solutions](https://www.youtube.com/watch?v=o50j_Ndx2Hg&t=290)
 - 9:43 - [Evaluate AI Necessity: quantify alternatives before modeling](https://www.youtube.com/watch?v=o50j_Ndx2Hg&t=583)
 - 10:26 - [Problem Scoping: make business problems specific and UI-visible](https://www.youtube.com/watch?v=o50j_Ndx2Hg&t=626)
@@ -64,3 +81,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 52:39 - [Idea Sourcing: proposing ML projects vs refining stakeholder problems](https://www.youtube.com/watch?v=o50j_Ndx2Hg&t=3159)
 - 54:49 - [Data Literacy: educating teams and community building inside companies](https://www.youtube.com/watch?v=o50j_Ndx2Hg&t=3289)
 - 56:28 - [People Skills & Tactical Hacks: convincing stakeholders and improving data](https://www.youtube.com/watch?v=o50j_Ndx2Hg&t=3388)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around MLOps, machine learning, production, tools, communication.
+- First pass reading starts with Episode Introduction: Humans in the Loop - MLOps & human-centered ML, Guest Career Path: Lina Weichbrodt - business to ML engineering, Project Intake Checklist: business case, KPIs, and alternative solutions, Evaluate AI Necessity: quantify alternatives before modeling.
+- Source file: `datatalksclub.github.io/_podcast/human-centered-mlops-and-model-monitoring.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve MLOps, machine learning, production, tools, the listed guests, or the chapter topics above.

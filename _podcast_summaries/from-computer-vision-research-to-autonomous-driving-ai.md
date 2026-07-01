@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=vK_SxyqIfwk"
 spotify_url: "https://open.spotify.com/episode/0h9eX7m6H2TPqOjUwb3Jw6?si=I4rKrHXpQTmS7cJBMJbUMA"
 apple_url: "https://podcasts.apple.com/us/podcast/lessons-from-applied-ai-tesla-waymo-and-beyond/id1541710331?i=1000731200298"
 ---
-# Applying Computer Vision Research to Building Production-Ready AI Systems for Real-World Deployment
+
+# Episode: Applying Computer Vision Research to Building Production-Ready AI Systems for Real-World Deployment
 
 ## Original Episode
 
@@ -25,13 +26,32 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you take computer vision research out of the lab and turn it into production-ready AI that actually works in the real world? In this episode Aishwarya Jadhav, a Machine Learning Engineer with over four years of industry experience and a Master’s from Carnegie Mellon University, walks through the challenges of applying computer vision research to production systems. Her background spans multimodal LLMs, generative AI, and computer vision, with research experience in multimodal deep learning and text.
+This episode covers Applying Computer Vision Research to Building Production-Ready AI Systems for Real-World Deployment.
+
+## Episode Value
+
+This episode covers Applying Computer Vision Research to Building Production-Ready AI Systems for Real-World Deployment.
+
+Agents should consider this episode when working on computer vision, academia, autonomous driving.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Aishwarya Jadhav]({{ '/people/aishwaryajadhav/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- computer vision
+- academia
+- autonomous driving
+- MLOps
+- LLMs
+- production
+- career growth
+- career transition
 
 ## Chapter Summary
 
@@ -65,3 +85,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 55:25 - [Career Pathways: Skills, Projects, and Entry Routes into Self-Driving AI](https://www.youtube.com/watch?v=vK_SxyqIfwk&t=3325)
 - 56:24 - [Practical Projects & Tools: Vision Apps, LLMs, and Coding Agents](https://www.youtube.com/watch?v=vK_SxyqIfwk&t=3384)
 - 58:35 - [Closing Remarks and Final Advice](https://www.youtube.com/watch?v=vK_SxyqIfwk&t=3515)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around computer vision, academia, autonomous driving, MLOps, LLMs, production.
+- First pass reading starts with Guest Bio & Career Overview: Finance to Self-Driving AI, Morgan Stanley: Big Data Engineering & Transition to ML, Carnegie Mellon: Research Focus & Computer Vision Projects, AI Guide Dog: Mobile Navigation for the Visually Impaired.
+- Source file: `datatalksclub.github.io/_podcast/from-computer-vision-research-to-autonomous-driving-ai.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve computer vision, academia, autonomous driving, MLOps, the listed guests, or the chapter topics above.

@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=HVQ0DZOQcts"
 spotify_url: "https://open.spotify.com/episode/5T1Nm3HvrS9oIMH6C2AWcf"
 apple_url: "https://podcasts.apple.com/us/podcast/the-abcs-of-data-science-danny-ma/id1541710331?i=1000510794953"
 ---
-# Data Science Career Guide: ABC Framework (Analyst, Builder, Consultant) & Transition Tips
+
+# Episode: Data Science Career Guide: ABC Framework (Analyst, Builder, Consultant) & Transition Tips
 
 ## Original Episode
 
@@ -25,13 +26,28 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you pick the right data science path—and actually make the transition? In this episode, Danny Ma, a recovering data scientist now focused on ML and data engineering, walks through his ABC Framework (Analyst, Builder, Consultant) and pragmatic steps for career moves. Danny, who runs the #DataWithDanny community (4,500+ members) and specializes in analytics, supervised ML, data architecture and digital customer experiments, traces his own shift from SQL/SAS/Excel workflows to Python, Kaggle projects and.
+This episode covers Data Science Career Guide - ABC Framework (Analyst, Builder, Consultant) & Transition Tips.
+
+## Episode Value
+
+This episode covers Data Science Career Guide - ABC Framework (Analyst, Builder, Consultant) & Transition Tips.
+
+Agents should consider this episode when working on career transition, data science, machine learning.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Danny Ma]({{ '/people/dannyma/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- career transition
+- data science
+- machine learning
+- data analysis
 
 ## Chapter Summary
 
@@ -61,8 +77,22 @@ Use these checkpoints to decide whether to open the source transcript.
 - 54:48 - [Building a Lean Data Science Team: Roles, Tech Lead & Data Lead](https://www.youtube.com/watch?v=HVQ0DZOQcts&t=3288)
 - 1:01:56 - [Domain Expertise vs Technical Specialization for Career Mobility](https://www.youtube.com/watch?v=HVQ0DZOQcts&t=3716)
 - 1:04:11 - [Breaking In: Project Portfolios, Referrals & Application Strategy](https://www.youtube.com/watch?v=HVQ0DZOQcts&t=3851)
-- 1:07:22 - [Entry Choice: Analyst vs Builder — Trade-offs & Competitive Edge](https://www.youtube.com/watch?v=HVQ0DZOQcts&t=4042)
+- 1:07:22 - [Entry Choice: Analyst vs Builder - Trade-offs & Competitive Edge](https://www.youtube.com/watch?v=HVQ0DZOQcts&t=4042)
 - 1:12:26 - [Bootcamps & Intensives: Benefits, Limits & Realistic Expectations](https://www.youtube.com/watch?v=HVQ0DZOQcts&t=4346)
 - 1:14:37 - [Serious SQL Course: Curriculum, Case Studies & Apprenticeship Model](https://www.youtube.com/watch?v=HVQ0DZOQcts&t=4477)
 - 1:19:05 - [Data Science Roadmap: SQL → Visualization → ML → Deep Learning](https://www.youtube.com/watch?v=HVQ0DZOQcts&t=4745)
 - 1:23:04 - [Advanced Degrees: When Master''s/PhD Matter in Data Science Roles](https://www.youtube.com/watch?v=HVQ0DZOQcts&t=4984)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around career transition, data science, machine learning, data analysis.
+- First pass reading starts with LinkedIn Memes & Creative Editing for Data Audiences, Career Journey: Analytics to Data Science, Transition to Python, Kaggle & Self-Directed Learning, Early Tools: SQL, SAS and Excel Workflows.
+- Source file: `datatalksclub.github.io/_podcast/data-science-career-abc-framework.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve career transition, data science, machine learning, data analysis, the listed guests, or the chapter topics above.

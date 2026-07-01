@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=ByCE1vSrIr8"
 spotify_url: "https://open.spotify.com/episode/58Xe9PCfdz26CVuYKtZWUE"
 apple_url: "https://podcasts.apple.com/us/podcast/building-online-tech-communities-demetrios-brinkmann/id1541710331?i=1000515510103"
 ---
-# MLOps Community Playbook: Launch, Grow & Retain Meetups, Members, and Contributors
+
+# Episode: MLOps Community Playbook: Launch, Grow & Retain Meetups, Members, and Contributors
 
 ## Original Episode
 
@@ -25,13 +26,26 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you launch, grow, and retain an MLOps community that moves from meetups to a sustainable, contributor-led ecosystem? In this episode, Demetrios Brinkmann — who has led the MLOps community since April 2020 and now runs the largest active group with 2,500+ Slack members and 25k YouTube views — walks through a practical community playbook for MLOps meetups, members, and contributors.
+This episode covers MLOps Community Playbook - Launch, Grow & Retain Meetups, Members, and Contributors.
+
+## Episode Value
+
+This episode covers MLOps Community Playbook - Launch, Grow & Retain Meetups, Members, and Contributors.
+
+Agents should consider this episode when working on MLOps, community building.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Demetrios Brinkmann]({{ '/people/demetriosbrinkmann/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- MLOps
+- community building
 
 ## Chapter Summary
 
@@ -61,3 +75,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 1:07:26 - [Sourcing Members: LinkedIn, Reddit, YouTube, and platform-specific channels](https://www.youtube.com/watch?v=ByCE1vSrIr8&t=4046)
 - 1:09:38 - [Final Advice: actionable takeaways for new community builders](https://www.youtube.com/watch?v=ByCE1vSrIr8&t=4178)
 - 1:12:28 - [Get Involved: where to find mlops.community and next steps](https://www.youtube.com/watch?v=ByCE1vSrIr8&t=4348)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around MLOps, community building.
+- First pass reading starts with Origin Story: Launching the MLOps community, Pivot to meetups and turning events into a podcast, Early hosting lessons and interview craft, Founder Background: teaching, sales, and career pivot.
+- Source file: `datatalksclub.github.io/_podcast/mlops-community-building-and-meetups.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve MLOps, community building, the listed guests, or the chapter topics above.

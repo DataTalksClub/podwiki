@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=30tTrozbAkg"
 spotify_url: "https://open.spotify.com/episode/3Hhz5N8ZDvsOPlPP3wxQxq?si=Oz7y_pBrTfeypfYZXubu-g"
 apple_url: "https://podcasts.apple.com/us/podcast/ai-for-ecology-biodiversity-and-conservation-tanya/id1541710331?i=1000653709956"
 ---
-# AI for Ecology, Biodiversity, and Conservation: Computer Vision, Remote Sensing and Citizen Science
+
+# Episode: AI for Ecology, Biodiversity, and Conservation: Computer Vision, Remote Sensing and Citizen Science
 
 ## Original Episode
 
@@ -25,7 +26,13 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How can AI help close critical data gaps in biodiversity monitoring and turn images and sensor data into actionable conservation decisions? In this episode Tanya Berger-Wolf, a computational ecologist, director of TDAI@OSU, and co-founder of the Wildbook project (Wild Me), walks through practical applications of AI for ecology, biodiversity monitoring, and conservation.
+This episode covers AI for Ecology, Biodiversity, and Conservation - Computer Vision, Remote Sensing and Citizen Science.
+
+## Episode Value
+
+This episode covers AI for Ecology, Biodiversity, and Conservation - Computer Vision, Remote Sensing and Citizen Science.
+
+Agents should consider this episode when working on AI, computer vision, remote sensing.
 
 ## People
 
@@ -33,13 +40,23 @@ Use these links to connect the episode to guest notes.
 
 - [Tanya Berger-Wolf]({{ '/people/tanyabergerwolf/' | relative_url }})
 
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- AI
+- computer vision
+- remote sensing
+- MLOps
+- data engineering
+
 ## Chapter Summary
 
 Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=30tTrozbAkg&t=0)
 - 1:10 - [Episode Overview: AI for Ecology, Biodiversity, and Conservation](https://www.youtube.com/watch?v=30tTrozbAkg&t=70)
-- 2:30 - [Guest Introduction: Tanya Berger-Wolf — Computational Ecology & Wildbook](https://www.youtube.com/watch?v=30tTrozbAkg&t=150)
+- 2:30 - [Guest Introduction: Tanya Berger-Wolf - Computational Ecology & Wildbook](https://www.youtube.com/watch?v=30tTrozbAkg&t=150)
 - 4:00 - [Framing the Crisis: Biodiversity Loss and Data Gaps](https://www.youtube.com/watch?v=30tTrozbAkg&t=240)
 - 7:00 - [AI Techniques Overview: Computer Vision, Machine Learning, Remote Sensing](https://www.youtube.com/watch?v=30tTrozbAkg&t=420)
 - 10:30 - [Image-Based Monitoring: Camera Traps, Drone Imagery, and Species ID](https://www.youtube.com/watch?v=30tTrozbAkg&t=630)
@@ -60,3 +77,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 55:30 - [Capacity Building: Training, Tools, and Community Adoption](https://www.youtube.com/watch?v=30tTrozbAkg&t=3330)
 - 58:00 - [Future Directions: Emerging Research, LLMs, and Scaling AI for Conservation](https://www.youtube.com/watch?v=30tTrozbAkg&t=3480)
 - 1:00:30 - [Resources & Further Reading: Biodiversity and AI Report and Tools](https://www.youtube.com/watch?v=30tTrozbAkg&t=3630)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around AI, computer vision, remote sensing, MLOps, data engineering.
+- First pass reading starts with Episode Overview: AI for Ecology, Biodiversity, and Conservation, Guest Introduction: Tanya Berger-Wolf - Computational Ecology & Wildbook, Framing the Crisis: Biodiversity Loss and Data Gaps, AI Techniques Overview: Computer Vision, Machine Learning, Remote Sensing.
+- Source file: `datatalksclub.github.io/_podcast/ai-for-ecology-biodiversity-and-conservation.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve AI, computer vision, remote sensing, MLOps, the listed guests, or the chapter topics above.

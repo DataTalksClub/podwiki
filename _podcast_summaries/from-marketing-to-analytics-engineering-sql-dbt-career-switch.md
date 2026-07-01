@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=GawJ7mG5ElQ"
 spotify_url: "https://open.spotify.com/episode/5VwS6ijaToirTzR7Xd5Phw?si=OsOVLOzBSt2sIgvbRS3krg"
 apple_url: "https://podcasts.apple.com/us/podcast/from-digital-marketing-to-analytics-engineering-nikola/id1541710331?i=1000586740912"
 ---
-# Marketing to Analytics Engineering: DBT, SQL, Data Modeling & Career Playbook
+
+# Episode: Marketing to Analytics Engineering: DBT, SQL, Data Modeling & Career Playbook
 
 ## Original Episode
 
@@ -25,13 +26,28 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you transition from digital marketing into analytics engineering—and master DBT, SQL, and data modeling in the process? In this episode, Nikola Maksimovic shares his complete career transformation journey, from startup marketing roles in London and Berlin to growth marketing at Ecosia, and ultimately his pandemic-driven pivot into BI and analytics engineering. Nikola reveals the step-by-step learning path that worked for him—SQL fundamentals, hands-on BI projects, strategic conversations with internal data.
+This episode covers Marketing to Analytics Engineering - DBT, SQL, Data Modeling & Career Playbook.
+
+## Episode Value
+
+This episode covers Marketing to Analytics Engineering - DBT, SQL, Data Modeling & Career Playbook.
+
+Agents should consider this episode when working on data science, analytics engineering, career transition.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Nikola Maksimovic]({{ '/people/nikolamaksimovic/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- data science
+- analytics engineering
+- career transition
+- tools
 
 ## Chapter Summary
 
@@ -52,15 +68,29 @@ Use these checkpoints to decide whether to open the source transcript.
 - 22:08 - [DBT Implementation: Leading a Migration Project and Data Modeling Learnings](https://www.youtube.com/watch?v=GawJ7mG5ElQ&t=1328)
 - 23:12 - [Looker & LookML Experience: Reporting and Dashboard Building](https://www.youtube.com/watch?v=GawJ7mG5ElQ&t=1392)
 - 24:51 - [Infrastructure Choices: Self-Hosted Tooling vs DBT Cloud](https://www.youtube.com/watch?v=GawJ7mG5ElQ&t=1491)
-- 25:06 - [Role Definition: Analytics Engineer vs Data Analyst — Overlap & Organizational](https://www.youtube.com/watch?v=GawJ7mG5ElQ&t=1506)
+- 25:06 - [Role Definition: Analytics Engineer vs Data Analyst - Overlap & Organizational](https://www.youtube.com/watch?v=GawJ7mG5ElQ&t=1506)
 - 28:40 - [DBT''s Influence: How DBT Shapes the Analytics Engineering Role](https://www.youtube.com/watch?v=GawJ7mG5ElQ&t=1720)
 - 30:28 - [Data Modeling Theory: Wide vs Narrow Tables and Incrementalization Tradeoffs](https://www.youtube.com/watch?v=GawJ7mG5ElQ&t=1828)
 - 33:46 - [Learning Data Modeling: Practical Resources, Blog Posts and Mentorship](https://www.youtube.com/watch?v=GawJ7mG5ElQ&t=2026)
-- 35:30 - [Nontraditional Background: Classics to Data — Just-In-Time Learning and Udemy](https://www.youtube.com/watch?v=GawJ7mG5ElQ&t=2130)
+- 35:30 - [Nontraditional Background: Classics to Data - Just-In-Time Learning and Udemy](https://www.youtube.com/watch?v=GawJ7mG5ElQ&t=2130)
 - 38:27 - [Product Analytics Focus: Growth, Retention, RFM Analysis and NLP Experiments](https://www.youtube.com/watch?v=GawJ7mG5ElQ&t=2307)
 - 39:36 - [Domain Knowledge Advantage: Marketing Funnel, User Journey & Empathy](https://www.youtube.com/watch?v=GawJ7mG5ElQ&t=2376)
 - 41:50 - [Transition Playbook: Excel, SQL, Dashboard Practice and Small Projects](https://www.youtube.com/watch?v=GawJ7mG5ElQ&t=2510)
 - 45:09 - [Mentorship & Sponsorship: Internal Champions, Confidence and Representation](https://www.youtube.com/watch?v=GawJ7mG5ElQ&t=2709)
 - 50:23 - [Networking Channels: LinkedIn, Meetups and DBT Slack for Mentors](https://www.youtube.com/watch?v=GawJ7mG5ElQ&t=3023)
-- 52:10 - [Reading List: Analytics Newsletters & Blogs (DBT roundup, Lenny’s, Locally](https://www.youtube.com/watch?v=GawJ7mG5ElQ&t=3130)
+- 52:10 - [Reading List: Analytics Newsletters & Blogs (DBT roundup, Lenny's, Locally](https://www.youtube.com/watch?v=GawJ7mG5ElQ&t=3130)
 - 53:46 - [Contact & Wrap-Up: Finding Nikola on LinkedIn and Episode Close](https://www.youtube.com/watch?v=GawJ7mG5ElQ&t=3226)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around data science, analytics engineering, career transition, tools.
+- First pass reading starts with Episode Overview: Switching from Marketing to Analytics Engineering, Early Career & Startup Experience: London, Berlin, Movinga, Marketing Role at Ecosia: Generalist Tasks and Responsibility Growth, Performance Marketing: Rapid Feedback Loops and Data-Driven Optimization.
+- Source file: `datatalksclub.github.io/_podcast/from-marketing-to-analytics-engineering-sql-dbt-career-switch.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve data science, analytics engineering, career transition, tools, the listed guests, or the chapter topics above.

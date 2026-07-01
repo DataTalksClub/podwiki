@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=QKWu5-6_6TE"
 spotify_url: "https://open.spotify.com/episode/0UW7fLgm9fqMG64GQwvgIN?si=ZixbzDcZT2mNkVrJjZVbeA"
 apple_url: "https://podcasts.apple.com/us/podcast/career-choices-transitions-and-promotions-in-and-out/id1541710331?i=1000683499310"
 ---
-# From DevOps to Data Engineering: Automation, Open Source & Volunteering for Career Transitions
+
+# Episode: From DevOps to Data Engineering: Automation, Open Source & Volunteering for Career Transitions
 
 ## Original Episode
 
@@ -25,13 +26,30 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you pivot from DevOps to data engineering without starting over? In this episode Agita Jaunzeme — a DevOps/DataOps engineer, manager, community builder and NGO founder — breaks down practical strategies for career transitions that center on automation, open source participation, and volunteering.
+This episode covers From DevOps to Data Engineering - Automation, Open Source & Volunteering for Career Transitions.
+
+## Episode Value
+
+This episode covers From DevOps to Data Engineering - Automation, Open Source & Volunteering for Career Transitions.
+
+Agents should consider this episode when working on open-source, data engineering, software engineering.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Agita Jaunzeme]({{ '/people/agitajaunzeme/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- open-source
+- data engineering
+- software engineering
+- practices
+- career transition
+- DevOps
 
 ## Chapter Summary
 
@@ -66,3 +84,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 55:52 - [Cost Comparison: Off-Grid Life vs. Porto Renting](https://www.youtube.com/watch?v=QKWu5-6_6TE&t=3352)
 - 56:47 - [Unemployment Party: Mastermind Brainstorming Technique](https://www.youtube.com/watch?v=QKWu5-6_6TE&t=3407)
 - 1:00:57 - [Episode Closing & Final Remarks](https://www.youtube.com/watch?v=QKWu5-6_6TE&t=3657)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around open-source, data engineering, software engineering, practices, career transition, DevOps.
+- First pass reading starts with Guest Welcome & Interview Agenda, Career Beginnings: Trade School, Web Design, First Programming, Education & Bootcamp: Computer Science, Accenture, C++, Transition to DevOps: Configuration Management & Early Automation.
+- Source file: `datatalksclub.github.io/_podcast/from-devops-to-data-engineering-automation-open-source-volunteering.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve open-source, data engineering, software engineering, practices, the listed guests, or the chapter topics above.

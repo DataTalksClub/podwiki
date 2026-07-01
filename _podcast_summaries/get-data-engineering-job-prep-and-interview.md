@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=asnt7xlyZXQ"
 spotify_url: "https://open.spotify.com/episode/1SaZ0QXAIhcdH1gfaNoN4Z?si=OvvNFdTpSu2MCCDOWdYgJQ"
 apple_url: "https://podcasts.apple.com/us/podcast/getting-a-data-engineering-job-summary-and-q-a-jeff-katz/id1541710331?i=1000566005592"
 ---
-# Data Engineering Job Prep & Interview Guide: Python, SQL, Portfolio & Job Search Tips
+
+# Episode: Data Engineering Job Prep & Interview Guide: Python, SQL, Portfolio & Job Search Tips
 
 ## Original Episode
 
@@ -25,13 +26,27 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you actually get a data engineering job today — and which skills hiring teams care about most? In this episode, Jeff Katz, a Machine Learning Engineer at AppFolio and longtime instructor/founder of Jigsaw Labs and Flatiron School curriculum lead, distills a webinar on hiring demand into practical advice for job seekers. Drawing on applied AI and data engineering experience plus open-source contributions, Jeff walks through the core data engineering skills employers expect: deep Python and SQL, Docker,.
+This episode covers Data Engineering Job Prep & Interview Guide - Python, SQL, Portfolio & Job Search Tips.
+
+## Episode Value
+
+This episode covers Data Engineering Job Prep & Interview Guide - Python, SQL, Portfolio & Job Search Tips.
+
+Agents should consider this episode when working on data engineering, job search, tools.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Jeff Katz]({{ '/people/jeffkatz/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- data engineering
+- job search
+- tools
 
 ## Chapter Summary
 
@@ -52,8 +67,8 @@ Use these checkpoints to decide whether to open the source transcript.
 - 15:53 - [Job Search Strategy: Apply Broadly and Avoid Self-Filtering](https://www.youtube.com/watch?v=asnt7xlyZXQ&t=953)
 - 16:48 - [Leveraging Non-Coding Experience and Domain Expertise](https://www.youtube.com/watch?v=asnt7xlyZXQ&t=1008)
 - 19:57 - [Role Differentiation: Data Analyst vs Data Engineer](https://www.youtube.com/watch?v=asnt7xlyZXQ&t=1197)
-- 21:56 - [Certifications vs Skills: When Certificates Help and When They Don’t](https://www.youtube.com/watch?v=asnt7xlyZXQ&t=1316)
-- 23:13 - [Master’s Degree Trade-offs: Research Depth vs Applied Learning](https://www.youtube.com/watch?v=asnt7xlyZXQ&t=1393)
+- 21:56 - [Certifications vs Skills: When Certificates Help and When They Don't](https://www.youtube.com/watch?v=asnt7xlyZXQ&t=1316)
+- 23:13 - [Master's Degree Trade-offs: Research Depth vs Applied Learning](https://www.youtube.com/watch?v=asnt7xlyZXQ&t=1393)
 - 27:46 - [Remote Work Reality: Timezones, Legal Constraints, and Standout Candidates](https://www.youtube.com/watch?v=asnt7xlyZXQ&t=1666)
 - 30:06 - [Teaching & Coaching on Resume: Communication and Mentorship Value](https://www.youtube.com/watch?v=asnt7xlyZXQ&t=1806)
 - 32:22 - [OOP Relevance: Patterns for Airflow and Maintainable Code](https://www.youtube.com/watch?v=asnt7xlyZXQ&t=1942)
@@ -64,3 +79,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 43:31 - [Mid-Career Switch: Sales Skills as an Asset in Tech Hiring](https://www.youtube.com/watch?v=asnt7xlyZXQ&t=2611)
 - 46:16 - [Solution Engineer Pathway: Pre-/Post-Sales Roles as Transition Options](https://www.youtube.com/watch?v=asnt7xlyZXQ&t=2776)
 - 47:26 - [Episode Wrap-Up and Further Resources](https://www.youtube.com/watch?v=asnt7xlyZXQ&t=2846)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around data engineering, job search, tools.
+- First pass reading starts with Webinar Recap: Hiring Demand and Skill Gaps, Core Skills & Tools: Python, SQL, Docker, Airflow, Data Warehouses, Python & SQL Depth: Project Volume and Emphasis, Code Quality & OOP: Small Functions, Classes, Tests.
+- Source file: `datatalksclub.github.io/_podcast/get-data-engineering-job-prep-and-interview.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve data engineering, job search, tools, the listed guests, or the chapter topics above.

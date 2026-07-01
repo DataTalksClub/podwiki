@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=YncdlUscUOo"
 spotify_url: "https://open.spotify.com/episode/1yDgx6uNaSQxKTjGU1qtIj?si=g0xQjWmDTRinzxhoYV3sdA"
 apple_url: "https://podcasts.apple.com/us/podcast/knowledge-graphs-and-llms-across-academia-and/id1541710331?i=1000651561079"
 ---
-# Using Knowledge Graphs & LLMs for Automotive R&D: RAG, Graph ML & Crash Simulation
+
+# Episode: Using Knowledge Graphs & LLMs for Automotive R&D: RAG, Graph ML & Crash Simulation
 
 ## Original Episode
 
@@ -25,13 +26,30 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How can knowledge graphs and large language models (LLMs) be combined to accelerate automotive R&D — from crash simulation insights to reproducible reports? In this episode Anahita Pakiman, a data scientist-engineer who moved from mechanical engineering and finite element analysis (FEA) into applied AI and now works as Senior Knowledge Graph-Data Scientist Consultant at brox IT-Solutions, walks through practical strategies and tradeoffs.
+This episode covers Using Knowledge Graphs & LLMs for Automotive R&D - RAG, Graph ML & Crash Simulation.
+
+## Episode Value
+
+This episode covers Using Knowledge Graphs & LLMs for Automotive R&D - RAG, Graph ML & Crash Simulation.
+
+Agents should consider this episode when working on LLMs, knowledge graphs, graph ML.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Anahita Pakiman]({{ '/people/anahitapakiman/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- LLMs
+- knowledge graphs
+- graph ML
+- retrieval-augmented generation
+- embeddings
+- vector databases
 
 ## Chapter Summary
 
@@ -57,3 +75,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 54:18 - [Project Challenges: automating graph generation and scoping the demo](https://www.youtube.com/watch?v=YncdlUscUOo&t=3258)
 - 55:36 - [Deployment & Frontend Issues: Streamlit limits and state management for graph](https://www.youtube.com/watch?v=YncdlUscUOo&t=3336)
 - 57:46 - [Learning Resources: graph ML courses, Jure Leskovec, Graph Conference and](https://www.youtube.com/watch?v=YncdlUscUOo&t=3466)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around LLMs, knowledge graphs, graph ML, retrieval-augmented generation, embeddings, vector databases.
+- First pass reading starts with Episode Introduction, Guest Bio: career path from mechanical engineering to applied AI, Guest Background & Career Transition, Applied Mechanics & Finite Element Analysis (FEA) overview.
+- Source file: `datatalksclub.github.io/_podcast/knowledge-graphs-and-llms-for-automotive-rnd.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve LLMs, knowledge graphs, graph ML, retrieval-augmented generation, the listed guests, or the chapter topics above.

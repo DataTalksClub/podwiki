@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=c6dK1LWpv4g"
 spotify_url: "https://open.spotify.com/episode/3KR6zErxqeDuQ2jo8NDvNx"
 apple_url: "https://podcasts.apple.com/us/podcast/what-data-scientists-dont-mention-in-their-linkedin/id1541710331?i=1000524260842"
 ---
-# Turn Data Science Project Failures into Career Wins: Production Lessons, MLOps Fixes & Framing Failures on LinkedIn
+
+# Episode: Turn Data Science Project Failures into Career Wins: Production Lessons, MLOps Fixes & Framing Failures on LinkedIn
 
 ## Original Episode
 
@@ -25,13 +26,28 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you turn data science project failures into tangible career wins — and how should you talk about them on LinkedIn? In this episode, Yury Kashnitsky, Ph.D. in applied math, Kaggle Master and Senior ML Scientist at Elsevier who also leads the open course mlcourse.ai, walks through real production ML lessons and MLOps fixes learned across academia, startups and industry.
+This episode covers Turn Data Science Project Failures into Career Wins - Production Lessons, MLOps Fixes & Framing Failures on LinkedIn.
+
+## Episode Value
+
+This episode covers Turn Data Science Project Failures into Career Wins - Production Lessons, MLOps Fixes & Framing Failures on LinkedIn.
+
+Agents should consider this episode when working on machine learning, MLOps, career growth.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Yury Kashnitsky]({{ '/people/yurykashnitsky/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- machine learning
+- MLOps
+- career growth
+- communication
 
 ## Chapter Summary
 
@@ -43,7 +59,7 @@ Use these checkpoints to decide whether to open the source transcript.
 - 3:05 - [Career Journey: Aviation, Academia, and Transition to NLP](https://www.youtube.com/watch?v=c6dK1LWpv4g&t=185)
 - 4:58 - [CV Choices: Omitting Hobbies and Personal Details](https://www.youtube.com/watch?v=c6dK1LWpv4g&t=298)
 - 5:35 - [Project Failures Overview: Common Data Science Pitfalls](https://www.youtube.com/watch?v=c6dK1LWpv4g&t=335)
-- 6:22 - [Case Study — Proofreading AI: BERT Regression and Early Termination](https://www.youtube.com/watch?v=c6dK1LWpv4g&t=382)
+- 6:22 - [Case Study - Proofreading AI: BERT Regression and Early Termination](https://www.youtube.com/watch?v=c6dK1LWpv4g&t=382)
 - 11:06 - [Stakeholder Communication: Making the Call to Stop a Project](https://www.youtube.com/watch?v=c6dK1LWpv4g&t=666)
 - 11:31 - [Product Management Gap: Value of a Data Product Manager](https://www.youtube.com/watch?v=c6dK1LWpv4g&t=691)
 - 16:46 - [Customer Development: Rapid Validation vs Building ML First](https://www.youtube.com/watch?v=c6dK1LWpv4g&t=1006)
@@ -65,3 +81,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 52:41 - [Business-Travel Boundaries: Perm Trips and Weekend Work Limits](https://www.youtube.com/watch?v=c6dK1LWpv4g&t=3161)
 - 58:36 - [Closing Thoughts: Embracing Failures and Building Resilience](https://www.youtube.com/watch?v=c6dK1LWpv4g&t=3516)
 - 1:00:24 - [Contact & Resources: Open Course and Social Links](https://www.youtube.com/watch?v=c6dK1LWpv4g&t=3624)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around machine learning, MLOps, career growth, communication.
+- First pass reading starts with Episode Introduction, Episode Theme: Failures and LinkedIn Omissions, Guest Opening: Background Snapshot, Career Journey: Aviation, Academia, and Transition to NLP.
+- Source file: `datatalksclub.github.io/_podcast/data-science-failures-and-mlops-lessons.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve machine learning, MLOps, career growth, communication, the listed guests, or the chapter topics above.

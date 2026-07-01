@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=_xr1_xb736E"
 spotify_url: "https://open.spotify.com/episode/4o52jMRR2cctCD8LuFFLdD?si=tBO_9KkiSWySHu7jaM-McQ"
 apple_url: "https://podcasts.apple.com/us/podcast/staff-ai-engineer-tatiana-gabruseva/id1541710331?i=1000600246792"
 ---
-# Transitioning from Academia to Industry as a Staff AI Engineer: Interview Prep, MLOps & Onboarding
+
+# Episode: Transitioning from Academia to Industry as a Staff AI Engineer: Interview Prep, MLOps & Onboarding
 
 ## Original Episode
 
@@ -25,13 +26,29 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you transition from academia into a Staff AI Engineer role while nailing interview prep, MLOps, and onboarding? In this episode, Tatiana Gabruseva — a computer vision/deep learning engineer, Kaggle Competitions Master, and Senior ML Engineer at Cork University Hospital — walks through her shift from physics and healthcare research into industry engineering leadership.
+This episode covers Transitioning from Academia to Industry as a Staff AI Engineer - Interview Prep, MLOps & Onboarding.
+
+## Episode Value
+
+This episode covers Transitioning from Academia to Industry as a Staff AI Engineer - Interview Prep, MLOps & Onboarding.
+
+Agents should consider this episode when working on machine learning, career transition, MLOps.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Tatiana Gabruseva]({{ '/people/tatianagabruseva/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- machine learning
+- career transition
+- MLOps
+- staff AI engineer
+- career growth
 
 ## Chapter Summary
 
@@ -62,3 +79,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 54:13 - [Advice for academics aiming for staff roles in industry](https://www.youtube.com/watch?v=_xr1_xb736E&t=3253)
 - 57:40 - [Excitement of AI work: generative models, R&D freedom, and measurable impact](https://www.youtube.com/watch?v=_xr1_xb736E&t=3460)
 - 59:45 - [Recommended books: communication, staff engineering, and leadership](https://www.youtube.com/watch?v=_xr1_xb736E&t=3585)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around machine learning, career transition, MLOps, staff AI engineer, career growth.
+- First pass reading starts with Episode kickoff and guest reintroduction, Guest background: physics → healthcare → machine learning, Onboarding shock at LinkedIn and industry mindset shift, Ramping up technical stack as a tech lead (Scala, Spark, Kubernetes).
+- Source file: `datatalksclub.github.io/_podcast/from-academia-to-staff-ai-engineer-interviews-and-career-growth.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve machine learning, career transition, MLOps, staff AI engineer, the listed guests, or the chapter topics above.

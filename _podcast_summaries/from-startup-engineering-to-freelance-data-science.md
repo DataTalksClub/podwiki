@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=-Gj7SaI-QW4"
 spotify_url: "https://open.spotify.com/episode/4ehGduC0p734UtwPr5HANq?si=rEC_XP-4RSKYh0TtSQBtlw"
 apple_url: "https://podcasts.apple.com/us/podcast/lessons-learned-from-freelancing-and-working-in-a/id1541710331?i=1000616311575"
 ---
-# Freelance Data Scientist Playbook: MLOps, Model Monitoring, Upwork & Startup Skills
+
+# Episode: Freelance Data Scientist Playbook: MLOps, Model Monitoring, Upwork & Startup Skills
 
 ## Original Episode
 
@@ -25,13 +26,29 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you transition from startup engineering to a sustainable freelance data science practice while handling MLOps, model monitoring, and client work on Upwork? In this episode, Antonis Stellas — a freelance data scientist at Nanometrisis with a background in applied mathematics, physics and a professional doctorate working on industry consultancy — lays out a practical playbook.
+This episode covers Freelance Data Scientist Playbook - MLOps, Model Monitoring, Upwork & Startup Skills.
+
+## Episode Value
+
+This episode covers Freelance Data Scientist Playbook - MLOps, Model Monitoring, Upwork & Startup Skills.
+
+Agents should consider this episode when working on freelance, startups, career growth.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Antonis Stellas]({{ '/people/antonisstellas/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- freelance
+- startups
+- career growth
+- remote work
+- MLOps
 
 ## Chapter Summary
 
@@ -65,3 +82,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 53:37 - [Example Project: streaming YouTube metrics into BigQuery and Looker](https://www.youtube.com/watch?v=-Gj7SaI-QW4&t=3217)
 - 56:41 - [Portfolio Advice: choose projects you enjoy and prioritize exploration](https://www.youtube.com/watch?v=-Gj7SaI-QW4&t=3401)
 - 58:11 - [Recommended Reading: The Lean Startup, Lean Analytics, Designing ML Systems](https://www.youtube.com/watch?v=-Gj7SaI-QW4&t=3491)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around freelance, startups, career growth, remote work, MLOps.
+- First pass reading starts with Early Education: applied mathematics, physics and nanotechnology, Professional Doctorate: industry projects and consultancy in the Netherlands, Nanometrisis Focus: nanoscale inspection for chips, razors and cosmetics, Career Choice: choosing a startup over a corporation.
+- Source file: `datatalksclub.github.io/_podcast/from-startup-engineering-to-freelance-data-science.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve freelance, startups, career growth, remote work, the listed guests, or the chapter topics above.

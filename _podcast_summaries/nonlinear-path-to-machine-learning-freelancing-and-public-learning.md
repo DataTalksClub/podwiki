@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=5km62e4nDaw"
 spotify_url: "https://open.spotify.com/episode/22Gc1bDecKA33KHAaSF9fx"
 apple_url: "https://podcasts.apple.com/us/podcast/how-to-rebuild-data-trust-mindful-data-strategy-and/id1541710331?i=1000722107501"
 ---
-# From Medicine to Machine Learning: Skill Stacking, Public Learning & Freelance-Driven Career Building
+
+# Episode: From Medicine to Machine Learning: Skill Stacking, Public Learning & Freelance-Driven Career Building
 
 ## Original Episode
 
@@ -25,13 +26,29 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you go from medical school to shipping production-ready healthcare ML—and get paid for it on platforms like Upwork? In this episode, Pastor Soto, a machine learning engineer and mentor who transitioned from medicine and criminology into production ML, walks through the practical steps he used to build a healthcare ML portfolio and freelance career.
+This episode covers From Medicine to Machine Learning - Skill Stacking, Public Learning & Freelance-Driven Career Building.
+
+## Episode Value
+
+This episode covers From Medicine to Machine Learning - Skill Stacking, Public Learning & Freelance-Driven Career Building.
+
+Agents should consider this episode when working on machine learning, data science, data engineering.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Pastor Soto]({{ '/people/pastorsoto/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- machine learning
+- data science
+- data engineering
+- MLOps
+- career transition
 
 ## Chapter Summary
 
@@ -56,3 +73,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 50:53 - [Community Contribution: Mentoring with DeepLearning.AI and Stanford Coding](https://www.youtube.com/watch?v=5km62e4nDaw&t=3053)
 - 57:00 - [Time Management: Productivity Strategies for Medical Students and ML Learners](https://www.youtube.com/watch?v=5km62e4nDaw&t=3420)
 - 1:00:00 - [Final Reflections: Consistency, Career Next Steps, and Motivation](https://www.youtube.com/watch?v=5km62e4nDaw&t=3600)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around machine learning, data science, data engineering, MLOps, career transition.
+- First pass reading starts with Guest Overview: Transition from Medicine and Criminology to Machine Learning, Career Trajectory: Statistician → Data Analyst → Data Engineer, Skill Progression: SPSS, Excel, R, and Transition to Python, Freelancing Beginnings: First Upwork Gigs and Early Projects.
+- Source file: `datatalksclub.github.io/_podcast/nonlinear-path-to-machine-learning-freelancing-and-public-learning.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve machine learning, data science, data engineering, MLOps, the listed guests, or the chapter topics above.

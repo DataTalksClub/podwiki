@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=ekG5zJioyFs"
 spotify_url: "https://open.spotify.com/episode/2mJXd0lSZFPKJA0ZrG9iS2"
 apple_url: "https://podcasts.apple.com/us/podcast/build-a-strong-career-in-data-lavanya-gupta/id1541710331?i=1000706988972"
 ---
-# Applied LLM Research & Career Growth: Long-Context Evaluation, Prototyping & Industry Publishing
+
+# Episode: Applied LLM Research & Career Growth: Long-Context Evaluation, Prototyping & Industry Publishing
 
 ## Original Episode
 
@@ -25,13 +26,29 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you evaluate and prototype long-context LLMs in a real-world setting while advancing a career as an applied researcher? In this episode Lavanya Gupta — a Carnegie Mellon Language Technologies Institute alum and Sr. AI/ML Applied Scientist at JPMorgan Chase’s Machine Learning Center of Excellence — walks through practical strategies for applied LLM research and career growth. With 5+ years of industrial research experience, public talks at WiDS, PyData, TensorFlow User Group and reviewer roles for NeurIPS.
+This episode covers Applied LLM Research & Career Growth - Long-Context Evaluation, Prototyping & Industry Publishing.
+
+## Episode Value
+
+This episode covers Applied LLM Research & Career Growth - Long-Context Evaluation, Prototyping & Industry Publishing.
+
+Agents should consider this episode when working on LLMs, NLP, MLOps.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Lavanya Gupta]({{ '/people/lavanyagupta/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- LLMs
+- NLP
+- MLOps
+- applied research
+- career growth
 
 ## Chapter Summary
 
@@ -43,7 +60,7 @@ Use these checkpoints to decide whether to open the source transcript.
 - 4:55 - [Early Project Case Study: OCR for Organization Charts](https://www.youtube.com/watch?v=ekG5zJioyFs&t=295)
 - 8:43 - [Role Snapshot: LLM Benchmarking at a Financial Institution](https://www.youtube.com/watch?v=ekG5zJioyFs&t=523)
 - 10:15 - [Research Focus: Evaluating Long-Context LLMs](https://www.youtube.com/watch?v=ekG5zJioyFs&t=615)
-- 12:36 - [Empirical Findings: Context Window Performance Droparound 32k–64k](https://www.youtube.com/watch?v=ekG5zJioyFs&t=756)
+- 12:36 - [Empirical Findings: Context Window Performance Droparound 32k-64k](https://www.youtube.com/watch?v=ekG5zJioyFs&t=756)
 - 14:54 - [Practical Approach: Chunking, Retrieval, and Summarization for Large Docs](https://www.youtube.com/watch?v=ekG5zJioyFs&t=894)
 - 15:28 - [Published Work: "Long Context LLMs on Financial Concepts" (EMNLP)](https://www.youtube.com/watch?v=ekG5zJioyFs&t=928)
 - 17:28 - [Industry Research Practices: Publishing from Corporate Teams](https://www.youtube.com/watch?v=ekG5zJioyFs&t=1048)
@@ -60,3 +77,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 54:33 - [Interview Preparation: LeetCode, Conceptual Mastery, and Mock Interviews](https://www.youtube.com/watch?v=ekG5zJioyFs&t=3273)
 - 56:56 - [Project Selection: Industry-Backed Work for Real-World Impact](https://www.youtube.com/watch?v=ekG5zJioyFs&t=3416)
 - 57:46 - [Episode Wrap-Up & Final Career Advice](https://www.youtube.com/watch?v=ekG5zJioyFs&t=3466)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around LLMs, NLP, MLOps, applied research, career growth.
+- First pass reading starts with Episode Introduction & Topic Overview, Career Overview: From Software Engineering to ML & Master''s, Origin of ML Interest: Hackathons and Computer Vision, Early Project Case Study: OCR for Organization Charts.
+- Source file: `datatalksclub.github.io/_podcast/applied-llm-research-and-career-growth-in-practice.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve LLMs, NLP, MLOps, applied research, the listed guests, or the chapter topics above.

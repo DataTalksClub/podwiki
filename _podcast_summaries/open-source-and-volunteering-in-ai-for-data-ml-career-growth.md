@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=aHdaIwOEI8Q"
 spotify_url: "https://open.spotify.com/episode/7tZSSgv1yAlnoMyB4ggQmb?si=AqDaME2QS26usoZjOEWNtQ"
 apple_url: "https://podcasts.apple.com/us/podcast/make-an-impact-through-volunteering-open-source-work/id1541710331?i=1000646627892"
 ---
-# Open Source and Volunteering: Building AI Projects and Career Momentum
+
+# Episode: Open Source and Volunteering: Building AI Projects and Career Momentum
 
 ## Original Episode
 
@@ -25,13 +26,31 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How can volunteering in open source AI projects accelerate your career while delivering tangible community impact? In this episode Sara El-Ateif — Google Developer Expert in Machine Learning, Google PhD Fellow, co-founder of AI Wonder Girls and Evercoach-certified business coach — walks through practical ways to build skills and momentum through volunteering and open source work.
+This episode covers Open Source and Volunteering - Building AI Projects and Career Momentum.
+
+## Episode Value
+
+This episode covers Open Source and Volunteering - Building AI Projects and Career Momentum.
+
+Agents should consider this episode when working on computer vision, machine learning, data engineering.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Sara EL-ATEIF]({{ '/people/saraelateif/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- computer vision
+- machine learning
+- data engineering
+- open-source
+- career development
+- mentorship
+- career growth
 
 ## Chapter Summary
 
@@ -60,3 +79,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 51:21 - [Volunteer Outcomes: Practical Experience, Referrals, and Soft Skills](https://www.youtube.com/watch?v=aHdaIwOEI8Q&t=3081)
 - 56:05 - [Roles for Data Engineers: Data Preparation, Pipelines, and Dashboards](https://www.youtube.com/watch?v=aHdaIwOEI8Q&t=3365)
 - 58:17 - [Opportunity Sources: WIML, Conference Feeds, and Newsletters](https://www.youtube.com/watch?v=aHdaIwOEI8Q&t=3497)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around computer vision, machine learning, data engineering, open-source, career development, mentorship.
+- First pass reading starts with Episode Overview: Volunteering, Open Source & Community Impact, Career Origins: Early AI Interest and Education Path, Academic Focus: Big Data Specialization and Computer Vision, PhD Research: Multimodal Learning for COVID-19 & Medical Imaging.
+- Source file: `datatalksclub.github.io/_podcast/open-source-and-volunteering-in-ai-for-data-ml-career-growth.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve computer vision, machine learning, data engineering, open-source, the listed guests, or the chapter topics above.

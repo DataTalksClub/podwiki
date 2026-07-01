@@ -3,7 +3,7 @@ layout: person
 title: "Olga Ivina"
 summary: "Olga Ivina's DataTalks.Club podcast discussions, organized for topic exploration."
 source_url: "https://datatalks.club/people/olgaivina.html"
-podcast_episodes: ["hiring-for-data-science-jobs-interview-questions-skills.md"]
+podcast_episodes: ["hiring-for-data-science-jobs-interview-questions-skills"]
 github: "olgaivina"
 twitter: "olgaivina"
 linkedin: "olgaivina"
@@ -17,4 +17,4 @@ Olga Ivina leads is a Delivery Data Science Director at Microsoft, where she lea
 
 ## Podcast Discussions
 
-- [How to Hire Data Scientists: Interview Questions, MLOps, AutoML Limits & Inclusive Hiring]({{ '/podcasts/hiring-for-data-science-jobs-interview-questions-skills.md/' | relative_url }}). Discussed: Episode Introduction; Career Beginnings: Applied mathematics, forecasting, and consulting; PhD Research: Air pollution modeling and conformal prediction; Current Role: Leading delivery data science teams and startup support. Related topics: [data science]({{ '/wiki/data-science/' | relative_url }}), [career growth]({{ '/wiki/career-growth/' | relative_url }}), [hiring]({{ '/wiki/hiring/' | relative_url }}), [MLOps]({{ '/wiki/mlops/' | relative_url }}).
+- [How to Hire Data Scientists: Interview Questions, MLOps, AutoML Limits & Inclusive Hiring]({{ '/podcasts/hiring-for-data-science-jobs-interview-questions-skills/' | relative_url }}). Discussed: Episode Introduction; Career Beginnings: Applied mathematics, forecasting, and consulting; PhD Research: Air pollution modeling and conformal prediction; Current Role: Leading delivery data science teams and startup support. Related topics: [data science]({{ '/wiki/data-science/' | relative_url }}), [career growth]({{ '/wiki/career-growth/' | relative_url }}), [hiring]({{ '/wiki/hiring/' | relative_url }}), [MLOps]({{ '/wiki/mlops/' | relative_url }}).

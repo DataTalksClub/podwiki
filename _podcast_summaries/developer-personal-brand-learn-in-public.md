@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=tkBCPqWKCL8"
 spotify_url: "https://open.spotify.com/episode/6uLyKxpVZv0wItCNyGPdAN"
 apple_url: "https://podcasts.apple.com/us/podcast/how-to-market-yourself-without-being-celebrity-shawn/id1541710331?i=1000522670386"
 ---
-# Learn in Public: Personal Branding & Career Marketing for Developers
+
+# Episode: Learn in Public: Personal Branding & Career Marketing for Developers
 
 ## Original Episode
 
@@ -25,13 +26,27 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do developers build visibility, earn promotions, and steer their careers by learning in public? In this episode, Shawn Swyx Wang — Senior Developer Advocate for AWS Amplify, author of The Coding Career Handbook, and former engineer at Netlify and Temporal — walks through a practical framework for personal branding and career marketing for developers. We unpack why self-marketing matters beyond job hunting and the five-part personal marketing framework: brand, domain, value, skills, and channel.
+This episode covers Learn in Public - Personal Branding & Career Marketing for Developers.
+
+## Episode Value
+
+This episode covers Learn in Public - Personal Branding & Career Marketing for Developers.
+
+Agents should consider this episode when working on personal brand, career growth, career transition.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Shawn Swyx Wang]({{ '/people/swyx/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- personal brand
+- career growth
+- career transition
 
 ## Chapter Summary
 
@@ -65,3 +80,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 57:09 - [Internal Content Strategy: applying external marketing tactics inside](https://www.youtube.com/watch?v=tkBCPqWKCL8&t=3429)
 - 59:04 - [Public Speaking: creating reusable talks and practicing communication](https://www.youtube.com/watch?v=tkBCPqWKCL8&t=3544)
 - 1:01:57 - [Book & Resources: The Coding Career Handbook, newsletter, and discount](https://www.youtube.com/watch?v=tkBCPqWKCL8&t=3717)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around personal brand, career growth, career transition.
+- First pass reading starts with Guest Overview: Swyx and the learn in public movement, Career Journey: finance to coding, Netlify, AWS, Temporal, Why Self-Marketing Matters: recognition, promotions, opportunities, Marketing Beyond Job Hunting: open source and internal persuasion.
+- Source file: `datatalksclub.github.io/_podcast/developer-personal-brand-learn-in-public.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve personal brand, career growth, career transition, the listed guests, or the chapter topics above.

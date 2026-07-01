@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=0RsmRjar66E"
 spotify_url: "https://open.spotify.com/episode/5tSLFOh8PGe1NFFz1of9Xe"
 apple_url: "https://podcasts.apple.com/us/podcast/machine-learning-system-design-interview-valerii-babushkin/id1541710331?i=1000551566652"
 ---
-# ML System Design Interviews: Production ML, Fraud Detection, Features, A/B Testing & MLOps
+
+# Episode: ML System Design Interviews: Production ML, Fraud Detection, Features, A/B Testing & MLOps
 
 ## Original Episode
 
@@ -25,13 +26,26 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you approach ML system design interviews that probe production constraints, fraud detection trade-offs, and MLOps realities? In this episode, Valerii Babushkin — Senior Director of Data, Analytics, and AI at BP, Kaggle Competitions Grandmaster, and author of Machine Learning System Design — walks through what interviewers look for and how candidates should structure answers for real-world ML problems.
+This episode covers ML System Design Interviews - Production ML, Fraud Detection, Features, A/B Testing & MLOps.
+
+## Episode Value
+
+This episode covers ML System Design Interviews - Production ML, Fraud Detection, Features, A/B Testing & MLOps.
+
+Agents should consider this episode when working on machine learning, career growth.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Valerii Babushkin]({{ '/people/valeriybabushkin/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- machine learning
+- career growth
 
 ## Chapter Summary
 
@@ -63,3 +77,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 54:07 - [New Grad Expectations: Coding Focus and Limited System Design](https://www.youtube.com/watch?v=0RsmRjar66E&t=3247)
 - 57:23 - [Validating in Production: A/B Tests, Causality, and Human Labels](https://www.youtube.com/watch?v=0RsmRjar66E&t=3443)
 - 59:01 - [Career Path: Moving from Data Science Practice to System Design](https://www.youtube.com/watch?v=0RsmRjar66E&t=3541)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around machine learning, career growth.
+- First pass reading starts with Valerii Background: Career Snapshot and Kaggle Achievements, Blockchain.com Role: Scope, Responsibilities, and Data Ownership, Transition to Meta: User Privacy Work and Large-Scale ML Experience, Hiring Experience: Conducting High-Volume Interviews and Team Leadership.
+- Source file: `datatalksclub.github.io/_podcast/machine-learning-system-design-interview.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve machine learning, career growth, the listed guests, or the chapter topics above.

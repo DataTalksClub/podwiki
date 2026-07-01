@@ -21,7 +21,7 @@ Do not publish maintenance notes, agent instructions, evidence appendixes, guest
 description appendixes, or SEO scaffolding such as `Search Intent` sections.
 Use inline references in the relevant section, like Wikipedia citations.
 Avoid reader-facing scaffold phrases such as "the archive says" or
-"archive-backed." Name the guest, episode, or podcast discussions that support
+"podcast-grounded." Name the guest, episode, or podcast discussions that support
 the claim instead.
 
 When the source episode is known, public content pages should link to the local

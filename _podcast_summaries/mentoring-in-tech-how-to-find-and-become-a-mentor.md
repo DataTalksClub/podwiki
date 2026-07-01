@@ -2,7 +2,7 @@
 layout: podcast_summary
 title: "How to Find a Mentor and Become One: Mentoring Strategies for Tech Careers"
 source_episode: "datatalksclub.github.io/_podcast/mentoring-in-tech-how-to-find-and-become-a-mentor.md.md"
-source_url: "https://datatalks.club/podcast/mentoring-in-tech-how-to-find-and-become-a-mentor.md.html"
+source_url: "https://datatalks.club/podcast/mentoring-in-tech-how-to-find-and-become-a-mentor.html"
 season: 1
 episode: 5
 guests: ["rahuljain"]
@@ -10,24 +10,41 @@ topics: ["mentoring", "career development", "career transition", "leadership", "
 summary_status: source-index
 youtube_url: "https://www.youtube.com/watch?v=LQvwTNQbPg4"
 ---
-# How to Find a Mentor and Become One: Mentoring Strategies for Tech Careers
+
+# Episode: How to Find a Mentor and Become One: Mentoring Strategies for Tech Careers
 
 ## Original Episode
 
 Use these links for the canonical episode and media sources.
 
-- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/mentoring-in-tech-how-to-find-and-become-a-mentor.md.html)
+- [Open the original DataTalks.Club podcast page](https://datatalks.club/podcast/mentoring-in-tech-how-to-find-and-become-a-mentor.html)
 - [Watch on YouTube](https://www.youtube.com/watch?v=LQvwTNQbPg4)
 
 ## Episode Overview
 
-Struggling to find a mentor — or wondering how to become one — in a fast-moving tech career? In this episode, Rahul Jain, a senior solutions engineer and data/AI leader with 15+ years driving enterprise data transformations and a career arc from mining engineering to data engineering and leadership, walks through practical mentoring strategies for tech professionals. We define mentoring (purpose, scope, types), explore early models like Thoughtworks’ sponsorship, and show how to find mentors through networks,.
+This episode covers How to Find a Mentor and Become One - Mentoring Strategies for Tech Careers.
+
+## Episode Value
+
+This episode covers How to Find a Mentor and Become One - Mentoring Strategies for Tech Careers.
+
+Agents should consider this episode when working on mentoring, career development, career transition.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Rahul Jain]({{ '/people/rahuljain/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- mentoring
+- career development
+- career transition
+- leadership
+- data engineering
 
 ## Chapter Summary
 
@@ -54,3 +71,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 52:40 - [Maintaining Development Plans: Review, Visibility, and Follow-through](https://www.youtube.com/watch?v=LQvwTNQbPg4&t=3160)
 - 54:50 - [Managing Overwhelm: Diagnosing Causes and Practical Steps](https://www.youtube.com/watch?v=LQvwTNQbPg4&t=3290)
 - 56:30 - [Audience Q&A Highlights](https://www.youtube.com/watch?v=LQvwTNQbPg4&t=3390)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around mentoring, career development, career transition, leadership, data engineering.
+- First pass reading starts with Episode Introduction, Career Journey: From Mining Engineering to Data Engineering & Leadership, Defining Mentoring: Purpose, Scope, and Types, Early Mentoring Experience: Thoughtworks Model and Sponsorship.
+- Source file: `datatalksclub.github.io/_podcast/mentoring-in-tech-how-to-find-and-become-a-mentor.md.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve mentoring, career development, career transition, leadership, the listed guests, or the chapter topics above.

@@ -136,10 +136,10 @@ learning knowledge, SQL window functions, and coding in
 
 [Olga Ivina]({{ '/people/olgaivina/' | relative_url }}) adds the hiring-manager
 view in
-[her technical-interview chapter at 25:21]({{ '/podcasts/hiring-for-data-science-jobs-interview-questions-skills.md/' | relative_url }}):
+[her technical-interview chapter at 25:21]({{ '/podcasts/hiring-for-data-science-jobs-interview-questions-skills/' | relative_url }}):
 technical checks can use code exercises. They can also use analytical exercises
 and follow-up questions. In
-[the foundational-skills chapter at 31:15]({{ '/podcasts/hiring-for-data-science-jobs-interview-questions-skills.md/' | relative_url }}),
+[the foundational-skills chapter at 31:15]({{ '/podcasts/hiring-for-data-science-jobs-interview-questions-skills/' | relative_url }}),
 she emphasizes descriptive statistics because candidates need to understand data
 before more complex modeling.
 
@@ -206,7 +206,7 @@ technically correct answer useless.
 
 A data scientist interview also helps you decide whether the role fits.
 In
-[Olga Ivina's role-fit chapter at 32:32]({{ '/podcasts/hiring-for-data-science-jobs-interview-questions-skills.md/' | relative_url }}),
+[Olga Ivina's role-fit chapter at 32:32]({{ '/podcasts/hiring-for-data-science-jobs-interview-questions-skills/' | relative_url }}),
 she warns hiring teams to be specific about the work. They may need engineering
 integration, analytics, customer work, or research. As a candidate, ask
 questions that reveal the same thing.

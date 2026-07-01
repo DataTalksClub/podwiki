@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=K0PdQITQzVQ"
 spotify_url: "https://open.spotify.com/episode/3ol91Xt0A6VBbPgFxGh5N6?si=QDcjMCJ7SOG6eJjjYbyEcg"
 apple_url: "https://podcasts.apple.com/us/podcast/doing-software-engineering-in-academia-johanna-bayer/id1541710331?i=1000594351759"
 ---
-# Teaching Open Science & Reproducible Research: Research Software Engineering Practices for Academia
+
+# Episode: Teaching Open Science & Reproducible Research: Research Software Engineering Practices for Academia
 
 ## Original Episode
 
@@ -25,7 +26,13 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you teach reproducible research and practical research software engineering (RSE) skills to neuroimaging students and researchers? In this episode, Johanna Bayer — a psychologist-turned-computational neuroscientist completing a PhD in machine learning for clinical neuroimaging at the University of Melbourne and an open science advocate — walks through concrete approaches for teaching reproducible research. We cover course design (Carpentries-style curricula, Git introductions, and reproducible manuscripts.
+This episode covers Teaching Open Science & Reproducible Research - Research Software Engineering Practices for Academia.
+
+## Episode Value
+
+This episode covers Teaching Open Science & Reproducible Research - Research Software Engineering Practices for Academia.
+
+Agents should consider this episode when working on open science, software engineering, academia.
 
 ## People
 
@@ -33,12 +40,21 @@ Use these links to connect the episode to guest notes.
 
 - [Johanna Bayer]({{ '/people/johannabayer/' | relative_url }})
 
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- open science
+- software engineering
+- academia
+- teaching
+
 ## Chapter Summary
 
 Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=K0PdQITQzVQ&t=0)
-- 1:08 - [Guest Background: Johanna Bayer — Psychology to Machine Learning in Neuroimaging](https://www.youtube.com/watch?v=K0PdQITQzVQ&t=68)
+- 1:08 - [Guest Background: Johanna Bayer - Psychology to Machine Learning in Neuroimaging](https://www.youtube.com/watch?v=K0PdQITQzVQ&t=68)
 - 2:24 - [Academic Journey: Studies in Germany, Zurich and Move to Melbourne](https://www.youtube.com/watch?v=K0PdQITQzVQ&t=144)
 - 5:27 - [Teaching Open Science: Intro to Git, Homework Support and Course Structure](https://www.youtube.com/watch?v=K0PdQITQzVQ&t=327)
 - 7:39 - [Carpentries & Structured Beginner Curriculum for Reproducible Research](https://www.youtube.com/watch?v=K0PdQITQzVQ&t=459)
@@ -58,7 +74,7 @@ Use these checkpoints to decide whether to open the source transcript.
 - 33:04 - [Collaboration & Code Review: Working Alone vs Community Feedback](https://www.youtube.com/watch?v=K0PdQITQzVQ&t=1984)
 - 36:05 - [Benefits of Open Code: Citations, Collaboration and Career Visibility](https://www.youtube.com/watch?v=K0PdQITQzVQ&t=2165)
 - 37:01 - [Data Sharing Reality: "Data Upon Request", Access Controls and Consortia](https://www.youtube.com/watch?v=K0PdQITQzVQ&t=2221)
-- 38:50 - [Project Case Study: Normative Brain Model — Folder Structure & Cookiecutter](https://www.youtube.com/watch?v=K0PdQITQzVQ&t=2330)
+- 38:50 - [Project Case Study: Normative Brain Model - Folder Structure & Cookiecutter](https://www.youtube.com/watch?v=K0PdQITQzVQ&t=2330)
 - 39:27 - [Applied Engineering Practices: Branching, Formatting, Versioning & MLflow](https://www.youtube.com/watch?v=K0PdQITQzVQ&t=2367)
 - 42:22 - [Sensitive Data Practices: De-identification and Controlled Access](https://www.youtube.com/watch?v=K0PdQITQzVQ&t=2542)
 - 45:24 - [Balancing Open Source, Hackathons and Full-Time Research Commitments](https://www.youtube.com/watch?v=K0PdQITQzVQ&t=2724)
@@ -67,3 +83,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 52:22 - [Open Publishing vs Industry IP: Academic Openness and Commercial Concerns](https://www.youtube.com/watch?v=K0PdQITQzVQ&t=3142)
 - 55:12 - [Recommended Resources: The Turing Way, The Carpentries & ML Solutions Handbook](https://www.youtube.com/watch?v=K0PdQITQzVQ&t=3312)
 - 58:03 - [Episode Conclusion and Closing Remarks](https://www.youtube.com/watch?v=K0PdQITQzVQ&t=3483)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around open science, software engineering, academia, teaching.
+- First pass reading starts with Guest Background: Johanna Bayer - Psychology to Machine Learning in Neuroimaging, Academic Journey: Studies in Germany, Zurich and Move to Melbourne, Teaching Open Science: Intro to Git, Homework Support and Course Structure, Carpentries & Structured Beginner Curriculum for Reproducible Research.
+- Source file: `datatalksclub.github.io/_podcast/teaching-reproducible-research-and-open-science-coding-practices-for-academia.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve open science, software engineering, academia, teaching, the listed guests, or the chapter topics above.

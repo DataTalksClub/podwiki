@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=x2AAjqz2XmM"
 spotify_url: "https://open.spotify.com/episode/7c22vqYNuNLKKYEfYGOos8?si=NBFT2e80S6WErW_tDDrijA"
 apple_url: "https://podcasts.apple.com/us/podcast/building-reliable-ai-products-in-the-era-of-gen/id1541710331?i=1000731199709"
 ---
-# Building Agentic AI Systems: Pragmatic Agent Engineering, Tooling, Retrieval & Evaluation
+
+# Episode: Building Agentic AI Systems: Pragmatic Agent Engineering, Tooling, Retrieval & Evaluation
 
 ## Original Episode
 
@@ -25,13 +26,30 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you build reliable, agentic AI systems that balance practical engineering, tooling, retrieval, and robust evaluation? In this episode Ranjitha Kulkarni, Staff Machine Learning Engineer at NeuBird.ai and former engineer on LLM- and agent-powered product features at Dropbox Dash and Microsoft, explores pragmatic approaches to agent design. Drawing on her work in speech recognition, language modeling, assistant evaluation, and publications on voice query reformulation and automatic online evaluation, Ranjitha.
+This episode covers Building Agentic AI Systems - Pragmatic Agent Engineering, Tooling, Retrieval & Evaluation.
+
+## Episode Value
+
+This episode covers Building Agentic AI Systems - Pragmatic Agent Engineering, Tooling, Retrieval & Evaluation.
+
+Agents should consider this episode when working on LLMs, AI, agent engineering.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Ranjitha Kulkarni]({{ '/people/ranjithakulkarni/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- LLMs
+- AI
+- agent engineering
+- retrieval-augmented generation
+- MLOps
+- tools
 
 ## Chapter Summary
 
@@ -66,3 +84,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 56:02 - [Goal-based Evaluation: Outcome Assertions Over Exact Paths](https://www.youtube.com/watch?v=x2AAjqz2XmM&t=3362)
 - 58:11 - [Specialization Challenge: Why Generic Agent Solutions Lag](https://www.youtube.com/watch?v=x2AAjqz2XmM&t=3491)
 - 59:06 - [Closing Thoughts & Future Outlook for Agent Engineering](https://www.youtube.com/watch?v=x2AAjqz2XmM&t=3546)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around LLMs, AI, agent engineering, retrieval-augmented generation, MLOps, tools.
+- First pass reading starts with Event Introduction & Community Links, Early ML Projects: Image Search with OpenCV, Speech Recognition & Language Modeling Experience, Transition to Recommendation Systems at Dropbox.
+- Source file: `datatalksclub.github.io/_podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve LLMs, AI, agent engineering, retrieval-augmented generation, the listed guests, or the chapter topics above.

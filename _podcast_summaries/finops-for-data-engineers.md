@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=7ePp6wuxM5s"
 spotify_url: "https://open.spotify.com/episode/33YZpX7zE6YcBGbQK9Iclp"
 apple_url: "https://podcasts.apple.com/us/podcast/from-supply-chain-management-to-digital-warehousing/id1541710331?i=1000702233986"
 ---
-# FinOps for Data Engineers: Optimize Cloud Costs, BigQuery & Modern Data Stack
+
+# Episode: FinOps for Data Engineers: Optimize Cloud Costs, BigQuery & Modern Data Stack
 
 ## Original Episode
 
@@ -25,13 +26,29 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How can data engineers bring FinOps practices into their day-to-day work to control cloud spend across BigQuery and the modern data stack? In this episode, Eddy Zulkifly — Staff Data Engineer at Kinaxis with a decade of experience building data platforms on Google Cloud, Azure, and AWS — breaks down practical ways to make cost optimization part of platform design and operations.
+This episode covers FinOps for Data Engineers - Optimize Cloud Costs, BigQuery & Modern Data Stack.
+
+## Episode Value
+
+This episode covers FinOps for Data Engineers - Optimize Cloud Costs, BigQuery & Modern Data Stack.
+
+Agents should consider this episode when working on data engineering, finops, modern data stack.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Eddy Zulkifly]({{ '/people/eddyzulkifly/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- data engineering
+- finops
+- modern data stack
+- tools
+- career growth
 
 ## Chapter Summary
 
@@ -58,6 +75,20 @@ Use these checkpoints to decide whether to open the source transcript.
 - 44:41 - [OUCS & Standardizing Cloud Cost Reporting Across AWS/GCP/Azure](https://www.youtube.com/watch?v=7ePp6wuxM5s&t=2681)
 - 46:17 - [FinOps Processes: Parallels with DevOps, DataOps and CI/CD](https://www.youtube.com/watch?v=7ePp6wuxM5s&t=2777)
 - 48:01 - [Staff Data Engineer Responsibilities: Technical & Strategic FinOps Work](https://www.youtube.com/watch?v=7ePp6wuxM5s&t=2881)
-- 50:25 - [Continuous Learning: Georgia Tech Master’s, dbt, Python and Applied Analytics](https://www.youtube.com/watch?v=7ePp6wuxM5s&t=3025)
+- 50:25 - [Continuous Learning: Georgia Tech Master's, dbt, Python and Applied Analytics](https://www.youtube.com/watch?v=7ePp6wuxM5s&t=3025)
 - 56:05 - [Career Advice: Certifications, Mentorship, Community and Time Management](https://www.youtube.com/watch?v=7ePp6wuxM5s&t=3365)
 - 59:32 - [Closing Remarks & Key Takeaways](https://www.youtube.com/watch?v=7ePp6wuxM5s&t=3572)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around data engineering, finops, modern data stack, tools, career growth.
+- First pass reading starts with Guest Introduction: Eddy Zulkifly, Staff Data Engineer at Kinaxis, Career Origins: Industrial Engineering, Supply Chain & Excel Macros, Career Pivot: From Business Analyst to Data Engineering, Analyst Skills as a Foundation for Data Engineering.
+- Source file: `datatalksclub.github.io/_podcast/finops-for-data-engineers.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve data engineering, finops, modern data stack, tools, the listed guests, or the chapter topics above.

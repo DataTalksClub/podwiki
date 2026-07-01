@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=kV0ZDy2UtJA"
 spotify_url: "https://open.spotify.com/episode/6AZ26Q8O4VBkC9YtUNzhab?si=75154323e14d4dca"
 apple_url: "https://podcasts.apple.com/us/podcast/large-hadron-collider-and-mentorship-anastasia-karavdina/id1541710331?i=1000677930293"
 ---
-# From Collider Physics to Data Science: Research Software Engineering, Interview Prep & Mentorship
+
+# Episode: From Collider Physics to Data Science: Research Software Engineering, Interview Prep & Mentorship
 
 ## Original Episode
 
@@ -25,13 +26,30 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you move from collider physics to industry data science while keeping rigorous research software engineering practices, succeeding in interviews, and giving or getting effective mentorship? In this episode Anastasia Karavdina — a particle physicist turned data scientist who worked on Large Hadron Collider experiments and later built AI solutions at Blue Yonder and Kaufland e-commerce — walks through that journey.
+This episode covers From Collider Physics to Data Science - Research Software Engineering, Interview Prep & Mentorship.
+
+## Episode Value
+
+This episode covers From Collider Physics to Data Science - Research Software Engineering, Interview Prep & Mentorship.
+
+Agents should consider this episode when working on machine learning, data science, MLOps.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Anastasia Karavdina]({{ '/people/anastasiakaravdina/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- machine learning
+- data science
+- MLOps
+- software engineering
+- career transition
+- academia
 
 ## Chapter Summary
 
@@ -64,3 +82,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 55:44 - [Mentorship as Career Leverage: Promotions & Leadership Experience](https://www.youtube.com/watch?v=kV0ZDy2UtJA&t=3344)
 - 59:42 - [Finding Mentoring Communities & Platforms (MentorCruise, others)](https://www.youtube.com/watch?v=kV0ZDy2UtJA&t=3582)
 - 1:00:52 - [Episode Wrap-up & Key Takeaways](https://www.youtube.com/watch?v=kV0ZDy2UtJA&t=3652)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around machine learning, data science, MLOps, software engineering, career transition, academia.
+- First pass reading starts with Episode Opening & Guest Introduction, Guest Background Snapshot, Origins: From Novokuznetsk, Siberia, Relocation & Life in Hamburg.
+- Source file: `datatalksclub.github.io/_podcast/from-large-hadron-collider-to-data-science-research-software-engineering.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve machine learning, data science, MLOps, software engineering, the listed guests, or the chapter topics above.

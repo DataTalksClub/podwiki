@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=ZFrcrTtnB1Q"
 spotify_url: "https://open.spotify.com/episode/3CohNIXZdooLYoIyIbr6EF"
 apple_url: "https://podcasts.apple.com/us/podcast/from-biotechnology-to-bioinformatics-software-sebastian/id1541710331?i=1000733347636"
 ---
-# Bioinformatics Workflows in Practice: Sequencing, Metagenomics, and Open-Source Tools
+
+# Episode: Bioinformatics Workflows in Practice: Sequencing, Metagenomics, and Open-Source Tools
 
 ## Original Episode
 
@@ -25,7 +26,13 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you build reproducible, scalable bioinformatics workflows for sequencing and metagenomics using open-source tools? In this episode we explore practical answers with Sebastian Ayala Ruano, a bioinformatics software developer and Master's student in Systems Biology at Maastricht University. Sebastian has contributed to open-source projects such as MicW2Graph, VueGen, and VueCore to simplify multi-omics data analysis and has a background in cheminformatics, peptide discovery, and network-based analysis.
+This episode covers Bioinformatics Workflows in Practice - Sequencing, Metagenomics, and Open-Source Tools.
+
+## Episode Value
+
+This episode covers Bioinformatics Workflows in Practice - Sequencing, Metagenomics, and Open-Source Tools.
+
+Agents should consider this episode when working on bioinformatics, LLMs, MLOps.
 
 ## People
 
@@ -33,13 +40,23 @@ Use these links to connect the episode to guest notes.
 
 - [Sebastian Ayala Ruano]({{ '/people/sebastianayalaruano/' | relative_url }})
 
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- bioinformatics
+- LLMs
+- MLOps
+- open-source
+- tools
+
 ## Chapter Summary
 
 Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=ZFrcrTtnB1Q&t=0)
 - 1:09 - [Career Transition: Biotechnology to Bioinformatics Software](https://www.youtube.com/watch?v=ZFrcrTtnB1Q&t=69)
-- 3:41 - [Master’s Thesis Overview: Wastewater Microbiome Knowledge Graph](https://www.youtube.com/watch?v=ZFrcrTtnB1Q&t=221)
+- 3:41 - [Master's Thesis Overview: Wastewater Microbiome Knowledge Graph](https://www.youtube.com/watch?v=ZFrcrTtnB1Q&t=221)
 - 6:27 - [Bioinformatics Role: Reducing Lab Experiments with Computational Analysis](https://www.youtube.com/watch?v=ZFrcrTtnB1Q&t=387)
 - 8:23 - [Wet Lab vs Dry Lab: Experimental Work vs Computational Pipelines](https://www.youtube.com/watch?v=ZFrcrTtnB1Q&t=503)
 - 11:21 - [Bioinformatics as Data Science: From Sequencing to Analysis](https://www.youtube.com/watch?v=ZFrcrTtnB1Q&t=681)
@@ -48,7 +65,7 @@ Use these checkpoints to decide whether to open the source transcript.
 - 17:56 - [Metagenomics: Environmental Sampling and Abundance Tables](https://www.youtube.com/watch?v=ZFrcrTtnB1Q&t=1076)
 - 19:41 - [Building Microbial Networks: Co-abundance and Association Inference](https://www.youtube.com/watch?v=ZFrcrTtnB1Q&t=1181)
 - 24:31 - [Network Inference Methodology: CC Lasso, Correlations, and Thresholding](https://www.youtube.com/watch?v=ZFrcrTtnB1Q&t=1471)
-- 27:06 - [Molecular Simulations: Protein–Ligand Dynamics and Water Boxes](https://www.youtube.com/watch?v=ZFrcrTtnB1Q&t=1626)
+- 27:06 - [Molecular Simulations: Protein-Ligand Dynamics and Water Boxes](https://www.youtube.com/watch?v=ZFrcrTtnB1Q&t=1626)
 - 29:58 - [Protein Folding Revolution: AlphaFold Impact on Structure Prediction](https://www.youtube.com/watch?v=ZFrcrTtnB1Q&t=1798)
 - 36:20 - [Open-Source Projects Overview: MCW2 Graph, VueGen, and VueCore](https://www.youtube.com/watch?v=ZFrcrTtnB1Q&t=2180)
 - 38:31 - [Knowledge Graph Exploration: Neo4j, Streamlit, and Graph Algorithms](https://www.youtube.com/watch?v=ZFrcrTtnB1Q&t=2311)
@@ -61,3 +78,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 51:53 - [Visualization Workflows: Viewer and Supporting Plotting Libraries](https://www.youtube.com/watch?v=ZFrcrTtnB1Q&t=3113)
 - 53:17 - [Remote Work & Field Life: Working from Ecuador and Nature Notes](https://www.youtube.com/watch?v=ZFrcrTtnB1Q&t=3197)
 - 54:10 - [Episode Wrap-up: Open-Source Encouragement and Closing Remarks](https://www.youtube.com/watch?v=ZFrcrTtnB1Q&t=3250)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around bioinformatics, LLMs, MLOps, open-source, tools.
+- First pass reading starts with Career Transition: Biotechnology to Bioinformatics Software, Master's Thesis Overview: Wastewater Microbiome Knowledge Graph, Bioinformatics Role: Reducing Lab Experiments with Computational Analysis, Wet Lab vs Dry Lab: Experimental Work vs Computational Pipelines.
+- Source file: `datatalksclub.github.io/_podcast/bioinformatics-worflows-tools-and-data-science.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve bioinformatics, LLMs, MLOps, open-source, the listed guests, or the chapter topics above.

@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=0Gqx1LtqRZU"
 spotify_url: "https://open.spotify.com/episode/3LhBOO1UANCGbOwkntZt4j"
 apple_url: "https://podcasts.apple.com/us/podcast/a-b-testing-jakob-graff/id1541710331?i=1000552243668"
 ---
-# Product Analytics & A/B Testing: Causality, Metrics, Power Analysis, A/A Tests
+
+# Episode: Product Analytics & A/B Testing: Causality, Metrics, Power Analysis, A/A Tests
 
 ## Original Episode
 
@@ -25,13 +26,26 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you design product experiments that truly establish causality and avoid costly false conclusions? In this episode, Jakob Graff — Director of Data Science and Data Analytics at diconium, with prior analytics leadership at Inkitt, Babbel, King and a background in econometrics — walks through practical product analytics and A/B testing strategies focused on causality and reliable metrics.
+This episode covers Product Analytics & A/B Testing - Causality, Metrics, Power Analysis, A/A Tests.
+
+## Episode Value
+
+This episode covers Product Analytics & A/B Testing - Causality, Metrics, Power Analysis, A/A Tests.
+
+Agents should consider this episode when working on data science, practices.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Jakob Graff]({{ '/people/jakobgraff/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- data science
+- practices
 
 ## Chapter Summary
 
@@ -42,7 +56,7 @@ Use these checkpoints to decide whether to open the source transcript.
 - 5:11 - [Econometrics to Product Analytics: Causality Emphasis](https://www.youtube.com/watch?v=0Gqx1LtqRZU&t=311)
 - 8:13 - [A/B Testing Explained: Clinical Trials Analogy & Randomization](https://www.youtube.com/watch?v=0Gqx1LtqRZU&t=493)
 - 11:48 - [Experimentation Purpose: Establishing Causality & Controlling Noise](https://www.youtube.com/watch?v=0Gqx1LtqRZU&t=708)
-- 14:27 - [Case Study: Subscription vs Points — Revenue Metric Design](https://www.youtube.com/watch?v=0Gqx1LtqRZU&t=867)
+- 14:27 - [Case Study: Subscription vs Points - Revenue Metric Design](https://www.youtube.com/watch?v=0Gqx1LtqRZU&t=867)
 - 18:06 - [De-risking Features & Building Organizational Learning with Experiments](https://www.youtube.com/watch?v=0Gqx1LtqRZU&t=1086)
 - 23:54 - [Experimentation Platform Choices: Third-Party vs In-House](https://www.youtube.com/watch?v=0Gqx1LtqRZU&t=1434)
 - 24:44 - [Traffic Splitter Implementation, Assignment Tracking & Monitoring](https://www.youtube.com/watch?v=0Gqx1LtqRZU&t=1484)
@@ -57,3 +71,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 59:08 - [Multi-armed Tests (A/B/C/D): Duration, Power, and Multiple Comparisons](https://www.youtube.com/watch?v=0Gqx1LtqRZU&t=3548)
 - 1:02:52 - [Practical Experimentation Tips & Analogies (Pizza Dough)](https://www.youtube.com/watch?v=0Gqx1LtqRZU&t=3772)
 - 1:03:59 - [Hiring, Resources & Contact Information](https://www.youtube.com/watch?v=0Gqx1LtqRZU&t=3839)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around data science, practices.
+- First pass reading starts with Guest Background & Career Transition to Data Science, Econometrics to Product Analytics: Causality Emphasis, A/B Testing Explained: Clinical Trials Analogy & Randomization, Experimentation Purpose: Establishing Causality & Controlling Noise.
+- Source file: `datatalksclub.github.io/_podcast/ab-testing-and-product-experimentation.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve data science, practices, the listed guests, or the chapter topics above.

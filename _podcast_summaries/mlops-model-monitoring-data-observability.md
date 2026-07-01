@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=p1gVaS4Zx5M"
 spotify_url: "https://open.spotify.com/episode/5gz5lnS7onwRUtbcmpOSuU?si=8cbe799f284c4623"
 apple_url: "https://podcasts.apple.com/us/podcast/mlops-architect-danny-leybzon/id1541710331?i=1000575901051"
 ---
-# MLOps Architect Guide: Production Model Monitoring, Data Observability & Tooling
+
+# Episode: MLOps Architect Guide: Production Model Monitoring, Data Observability & Tooling
 
 ## Original Episode
 
@@ -25,13 +26,27 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you keep machine learning models reliable in production — what should you monitor, where do upstream failures originate, and which tooling decisions actually matter? In this episode, Danny Leybzon, MLOps Architect at WhyLabs and computational statistics alum of UCLA, walks through the practical challenges of production model monitoring, data observability, and tooling trade-offs. Drawing on his path from analyst and product roles at Qubole to field engineering at Imply and now advising customers on.
+This episode covers MLOps Architect Guide - Production Model Monitoring, Data Observability & Tooling.
+
+## Episode Value
+
+This episode covers MLOps Architect Guide - Production Model Monitoring, Data Observability & Tooling.
+
+Agents should consider this episode when working on MLOps, tools, data engineering.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Danny Leybzon]({{ '/people/dannyleybzon/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- MLOps
+- tools
+- data engineering
 
 ## Chapter Summary
 
@@ -62,3 +77,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 45:49 - [Career Strategy: Exploration vs exploitation and Thompson sampling analogy](https://www.youtube.com/watch?v=p1gVaS4Zx5M&t=2749)
 - 50:23 - [Skillset Advice: Coding, communication, and being an effective Googler](https://www.youtube.com/watch?v=p1gVaS4Zx5M&t=3023)
 - 55:50 - [WhyLogs vs WhyLabs: Open-source profiling vs SaaS observability](https://www.youtube.com/watch?v=p1gVaS4Zx5M&t=3350)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around MLOps, tools, data engineering.
+- First pass reading starts with Guest Overview: Danny Leybzon, MLOps Architect at WhyLabs, Career Journey: From paralegal ambitions to statistics and machine learning, Prior Role: Field Engineer / Solutions Engineer experience, Role Definition: MLOps Architect as technical-business bridge.
+- Source file: `datatalksclub.github.io/_podcast/mlops-model-monitoring-data-observability.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve MLOps, tools, data engineering, the listed guests, or the chapter topics above.

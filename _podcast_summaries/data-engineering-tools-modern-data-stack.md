@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=t9Z1S3OYnJU"
 spotify_url: "https://open.spotify.com/episode/1AvtwdcAXGGjdJ7fl0Hsuw"
 apple_url: "https://podcasts.apple.com/us/podcast/making-sense-of-data-engineering-acronyms-and/id1541710331?i=1000534990760"
 ---
-# ETL vs ELT & Data Lake vs Warehouse: Airbyte, dbt, CDC for Modern Data Engineering
+
+# Episode: ETL vs ELT & Data Lake vs Warehouse: Airbyte, dbt, CDC for Modern Data Engineering
 
 ## Original Episode
 
@@ -25,13 +26,26 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you decide between ETL and ELT, or when to keep a data lake versus a warehouse—and where do tools like Airbyte, dbt, and CDC fit into a modern data stack? In this episode, Natalie Kwong, Growth Product Manager at Airbyte with prior analytics and ops roles at Harness, KeepTruckin, and AppDynamics, pulls from hands-on experience scaling analytics teams and systems to unpack these trade-offs.
+This episode covers ETL vs ELT & Data Lake vs Warehouse - Airbyte, dbt, CDC for Modern Data Engineering.
+
+## Episode Value
+
+This episode covers ETL vs ELT & Data Lake vs Warehouse - Airbyte, dbt, CDC for Modern Data Engineering.
+
+Agents should consider this episode when working on data engineering, tools.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- data engineering
+- tools
 
 ## Chapter Summary
 
@@ -53,15 +67,29 @@ Use these checkpoints to decide whether to open the source transcript.
 - 21:22 - [Data Quality: Preventing Data Swamps Through Governance](https://www.youtube.com/watch?v=t9Z1S3OYnJU&t=1282)
 - 24:24 - [Warehouse Ingestion vs. Data Lake: Trade-offs and Convergence](https://www.youtube.com/watch?v=t9Z1S3OYnJU&t=1464)
 - 27:39 - [Architecture Decision: When to Maintain a Lake, a Warehouse, or Both](https://www.youtube.com/watch?v=t9Z1S3OYnJU&t=1659)
-- 30:59 - [Orchestration: Airflow’s Role in Scheduling and Running Pipelines](https://www.youtube.com/watch?v=t9Z1S3OYnJU&t=1859)
-- 31:31 - [Airbyte’s Role in the Stack: Reliable E-L and DBT Integration](https://www.youtube.com/watch?v=t9Z1S3OYnJU&t=1891)
+- 30:59 - [Orchestration: Airflow's Role in Scheduling and Running Pipelines](https://www.youtube.com/watch?v=t9Z1S3OYnJU&t=1859)
+- 31:31 - [Airbyte's Role in the Stack: Reliable E-L and DBT Integration](https://www.youtube.com/watch?v=t9Z1S3OYnJU&t=1891)
 - 33:45 - [Modern Analytics Stack: Best-of-Breed Tools and Typical Components](https://www.youtube.com/watch?v=t9Z1S3OYnJU&t=2025)
 - 35:42 - [Operational Reverse Data Flows: Pushing Warehouse Tables Back to Sources](https://www.youtube.com/watch?v=t9Z1S3OYnJU&t=2142)
 - 39:06 - [Low-Code/No-Code Tools: Evolving Data Engineering Roles, Not Replacing Them](https://www.youtube.com/watch?v=t9Z1S3OYnJU&t=2346)
-- 41:30 - [ETL’s Continued Relevance: Large Enterprises and Complex Staging Needs](https://www.youtube.com/watch?v=t9Z1S3OYnJU&t=2490)
+- 41:30 - [ETL's Continued Relevance: Large Enterprises and Complex Staging Needs](https://www.youtube.com/watch?v=t9Z1S3OYnJU&t=2490)
 - 43:02 - [Managing Unused Data: Team Ownership and Regular Cleanup Practices](https://www.youtube.com/watch?v=t9Z1S3OYnJU&t=2582)
 - 43:45 - [Open Source Strategy: Why Airbyte Is Open and the Cloud Offering Model](https://www.youtube.com/watch?v=t9Z1S3OYnJU&t=2625)
 - 45:59 - [CDC Explained: Capturing and Syncing Only Row-Level Changes](https://www.youtube.com/watch?v=t9Z1S3OYnJU&t=2759)
 - 48:26 - [Open-Source Risks: Competition and Licensing (Elasticsearch Example)](https://www.youtube.com/watch?v=t9Z1S3OYnJU&t=2906)
 - 48:58 - [Schema Evolution: Handling Slowly Changing Attributes](https://www.youtube.com/watch?v=t9Z1S3OYnJU&t=2938)
 - 49:32 - [Licensing Considerations: MIT, Cloud Products, and Future Choices](https://www.youtube.com/watch?v=t9Z1S3OYnJU&t=2972)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around data engineering, tools.
+- First pass reading starts with Episode Overview: Decoding Data Engineering Acronyms, Guest Career Journey: From Marketing Ops to Analytics & Growth, Airbyte Overview: ELT Focus and Connector Purpose, ETL Explained: Extract, Transform, Load (Traditional Model).
+- Source file: `datatalksclub.github.io/_podcast/data-engineering-tools-modern-data-stack.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve data engineering, tools, the listed guests, or the chapter topics above.

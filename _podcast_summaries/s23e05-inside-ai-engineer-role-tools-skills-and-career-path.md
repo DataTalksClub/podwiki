@@ -6,13 +6,14 @@ source_url: "https://datatalks.club/podcast/s23e05-inside-ai-engineer-role-tools
 season: 23
 episode: 5
 guests: ["ruslanshchuchkin"]
-topics: []
+topics: ["data science", "ai engineering", "ai engineer", "hiring"]
 summary_status: source-index
 youtube_url: "https://www.youtube.com/watch?v=wIAqcdrKRWc"
 spotify_url: "https://open.spotify.com/episode/5OdUp9K8TVJFzLCrPOwqzi?si=ooBDWTtQQNCu9eDyBrfGIQ"
 apple_url: "https://podcasts.apple.com/us/podcast/inside-the-ai-engineer-role-tools-skills-and-career/id1541710331?i=1000756374194"
 ---
-# Inside the AI Engineer Role: Tools, Skills, and Career Path
+
+# Episode: Inside the AI Engineer Role: Tools, Skills, and Career Path
 
 ## Original Episode
 
@@ -23,11 +24,30 @@ Use these links for the canonical episode and media sources.
 - [Listen on Spotify](https://open.spotify.com/episode/5OdUp9K8TVJFzLCrPOwqzi?si=ooBDWTtQQNCu9eDyBrfGIQ)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/inside-the-ai-engineer-role-tools-skills-and-career/id1541710331?i=1000756374194)
 
+## Episode Overview
+
+This episode covers Inside the AI Engineer Role - Tools, Skills, and Career Path.
+
+## Episode Value
+
+This episode covers Inside the AI Engineer Role - Tools, Skills, and Career Path.
+
+Agents should consider this episode when working on data science, ai engineering, ai engineer.
+
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Ruslan Shchuchkin]({{ '/people/ruslanshchuchkin/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- data science
+- ai engineering
+- ai engineer
+- hiring
 
 ## Chapter Summary
 
@@ -47,3 +67,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 52:28 - [The Future and Longevity of Data Science](https://www.youtube.com/watch?v=wIAqcdrKRWc&t=3148)
 - 57:39 - [Skills over Degrees: The Realities of Hiring](https://www.youtube.com/watch?v=wIAqcdrKRWc&t=3459)
 - 1:03:12 - [Using AI to Learn Instead of Just Coding](https://www.youtube.com/watch?v=wIAqcdrKRWc&t=3792)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around data science, ai engineering, ai engineer, hiring.
+- First pass reading starts with From Account Management to Data Science, Building Branch GPT and Side Project Philosophy, Transitioning to AI Engineering Full-Time, Maximizing Your "Luck Surface Area.
+- Source file: `datatalksclub.github.io/_podcast/s23e05-inside-ai-engineer-role-tools-skills-and-career-path.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve data science, ai engineering, ai engineer, hiring, the listed guests, or the chapter topics above.

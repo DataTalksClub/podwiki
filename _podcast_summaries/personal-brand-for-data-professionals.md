@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=tQRQnz_aHYQ"
 spotify_url: "https://open.spotify.com/episode/61Yv13MISTeP5nOVAZpY88"
 apple_url: "https://podcasts.apple.com/us/podcast/personal-branding-admond-lee-kin-lim/id1541710331?i=1000511761026"
 ---
-# Build a Personal Brand: Publish on LinkedIn/Medium, Grow Audience, Monetize with Online Courses
+
+# Episode: Build a Personal Brand: Publish on LinkedIn/Medium, Grow Audience, Monetize with Online Courses
 
 ## Original Episode
 
@@ -25,13 +26,27 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you build a personal brand that actually attracts an audience and turns into revenue? In this episode, Admond Lee Kin Lim — data scientist, writer, speaker, and Data Science Instructor at Hackwagon Academy — breaks down a practical path from first posts to monetizing with online courses. Drawing on his experience at Micron and as an independent consultant and communicator featured in KDnuggets and Medium, Admond defines personal brand purpose and positioning, then walks through the first steps and mindset.
+This episode covers Build a Personal Brand - Publish on LinkedIn/Medium, Grow Audience, Monetize with Online Courses.
+
+## Episode Value
+
+This episode covers Build a Personal Brand - Publish on LinkedIn/Medium, Grow Audience, Monetize with Online Courses.
+
+Agents should consider this episode when working on personal brand, career growth, monetization.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Admond Lee Kin Lim]({{ '/people/admondleekinlim/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- personal brand
+- career growth
+- monetization
 
 ## Chapter Summary
 
@@ -55,3 +70,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 46:30 - [Measuring Impact: Metrics, Feedback, and Iteration](https://www.youtube.com/watch?v=tQRQnz_aHYQ&t=2790)
 - 48:00 - [Recommended Resources and Toolkits](https://www.youtube.com/watch?v=tQRQnz_aHYQ&t=2880)
 - 49:30 - [Key Takeaways and Actionable Tips](https://www.youtube.com/watch?v=tQRQnz_aHYQ&t=2970)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around personal brand, career growth, monetization.
+- First pass reading starts with Guest Introduction and Career Journey, Personal Brand Defined: Purpose and Positioning, Starting an Online Presence: First Steps and Mindset, Publishing on Medium and LinkedIn: Formats and Best Practices.
+- Source file: `datatalksclub.github.io/_podcast/personal-brand-for-data-professionals.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve personal brand, career growth, monetization, the listed guests, or the chapter topics above.

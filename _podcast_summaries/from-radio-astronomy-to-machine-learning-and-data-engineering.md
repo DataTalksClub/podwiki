@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=b92gwrsVQtg"
 spotify_url: "https://open.spotify.com/episode/0hV7d1zSKO7ykGDZxjXyJ8"
 apple_url: "https://podcasts.apple.com/us/podcast/from-astronomy-to-applied-ml-daniel-egbo/id1541710331?i=1000728601772"
 ---
-# From Radio Astronomy to Applied ML: MEERKAT Data Pipelines, Multi-Wavelength Cross-Matching & Production-Grade ML Systems
+
+# Episode: From Radio Astronomy to Applied ML: MEERKAT Data Pipelines, Multi-Wavelength Cross-Matching & Production-Grade ML Systems
 
 ## Original Episode
 
@@ -25,13 +26,31 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you transform raw radio astronomy observations into reliable, production-grade machine learning systems that enable multi-wavelength science? In this episode we talk with Daniel Egbo — an astrophysicist turned machine learning engineer and AI ambassador (Arize, Tavily) and PhD candidate at the University of Cape Town — about bridging radio astronomy and applied ML. Daniel explains the challenges of working with MEERKAT data pipelines, strategies for multi-wavelength cross-matching, and the engineering.
+This episode covers From Radio Astronomy to Applied ML - MEERKAT Data Pipelines, Multi-Wavelength Cross-Matching & Production-Grade ML Systems.
+
+## Episode Value
+
+This episode covers From Radio Astronomy to Applied ML - MEERKAT Data Pipelines, Multi-Wavelength Cross-Matching & Production-Grade ML Systems.
+
+Agents should consider this episode when working on astroinformatics, MLOps, LLMs.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Daniel Egbo]({{ '/people/danielegbo/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- astroinformatics
+- MLOps
+- LLMs
+- data engineering
+- machine learning
+- academia
+- career transition
 
 ## Chapter Summary
 
@@ -67,3 +86,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 1:00:21 - [Tools & Sponsors: Data Load Tool for Pipelines and Community Support](https://www.youtube.com/watch?v=b92gwrsVQtg&t=3621)
 - 1:01:09 - [Learning Resources: Astropy Tutorials, Course GitHub and YouTube Archive](https://www.youtube.com/watch?v=b92gwrsVQtg&t=3669)
 - 1:02:22 - [Closing Remarks: Encouragement to Share Progress and Course Availability](https://www.youtube.com/watch?v=b92gwrsVQtg&t=3742)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around astroinformatics, MLOps, LLMs, data engineering, machine learning, academia.
+- First pass reading starts with Career Overview: From Nigeria to PhD in Cape Town, MEERKAT and SKA: Radio Telescope Project Overview, Electromagnetic Spectrum: Radio to Gamma Explained, Research Goal: Identifying Radio-Emitting Stars in MEERKAT Data.
+- Source file: `datatalksclub.github.io/_podcast/from-radio-astronomy-to-machine-learning-and-data-engineering.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve astroinformatics, MLOps, LLMs, data engineering, the listed guests, or the chapter topics above.

@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=s-w8_GDgIlU"
 spotify_url: "https://open.spotify.com/episode/2zlqwEOamFD8YVGkf4VsFW"
 apple_url: "https://podcasts.apple.com/us/podcast/launching-a-startup-from-idea-to-first-hire-carmine-paolino/id1541710331?i=1000531945076"
 ---
-# Build a Grocery Retail OS to Cut Supermarket Food Waste & Scale Your Startup
+
+# Episode: Build a Grocery Retail OS to Cut Supermarket Food Waste & Scale Your Startup
 
 ## Original Episode
 
@@ -25,13 +26,30 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you build a grocery retail OS that actually cuts supermarket food waste while scaling a startup? In this episode, Carmine Paolino — CTO and co-founder of FreshFlow and former programmer/researcher in academia and data science — walks through translating technical expertise into a product that solves fresh-product challenges for retailers.
+This episode covers Build a Grocery Retail OS to Cut Supermarket Food Waste & Scale Your Startup.
+
+## Episode Value
+
+This episode covers Build a Grocery Retail OS to Cut Supermarket Food Waste & Scale Your Startup.
+
+Agents should consider this episode when working on startup, founder, leadership.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Carmine Paolino]({{ '/people/carminepaolino/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- startup
+- founder
+- leadership
+- entrepreneurship
+- product management
+- tools
 
 ## Chapter Summary
 
@@ -65,3 +83,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 1:05:07 - [Co-founder Imperative: Form Phase Advice and Team Formation Timing](https://www.youtube.com/watch?v=s-w8_GDgIlU&t=3907)
 - 1:05:57 - [Validating Pre-Existing Ideas: Why EF Helps Even with a Clear Idea](https://www.youtube.com/watch?v=s-w8_GDgIlU&t=3957)
 - 1:07:06 - [Prototype Before Pitch: Banana Ripeness Demo and Early Technical Traction](https://www.youtube.com/watch?v=s-w8_GDgIlU&t=4026)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around startup, founder, leadership, entrepreneurship, product management, tools.
+- First pass reading starts with Episode Introduction & Guest Overview, Early Career: Programming, Academia, and Data Science, FreshFlow Overview: CTO Role and Ordering System Mission, Problem Discovery: Supermarket Fresh-Product Challenges & Edeka Pilot.
+- Source file: `datatalksclub.github.io/_podcast/launch-and-build-retail-startup.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve startup, founder, leadership, entrepreneurship, the listed guests, or the chapter topics above.

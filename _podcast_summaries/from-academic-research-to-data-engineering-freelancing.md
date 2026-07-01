@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=pkcpH5N-GP8"
 spotify_url: "https://open.spotify.com/episode/5HCSIO0mO8Pr5Yv9puZ72R"
 apple_url: "https://podcasts.apple.com/us/podcast/from-simulations-to-freelance-data-engineering-orells/id1541710331?i=1000720245457"
 ---
-# From Academic Research to Lean Data Consulting: MVP Strategy, Problem-First Thinking & Freelance Practice Building
+
+# Episode: From Academic Research to Lean Data Consulting: MVP Strategy, Problem-First Thinking & Freelance Practice Building
 
 ## Original Episode
 
@@ -25,13 +26,31 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you turn academic research and simulation expertise into a lean data consulting practice without getting bogged down in perfect solutions? In this episode we talk with Orell Garten, an electrical engineering graduate who focused on simulation algorithms, left a PhD during COVID, and learned through a government-funded startup program how to translate scientific research into real products.
+This episode covers From Academic Research to Lean Data Consulting - MVP Strategy, Problem-First Thinking & Freelance Practice Building.
+
+## Episode Value
+
+This episode covers From Academic Research to Lean Data Consulting - MVP Strategy, Problem-First Thinking & Freelance Practice Building.
+
+Agents should consider this episode when working on data engineering, academia, AI.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Orell Garten]({{ '/people/orellgarten/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- data engineering
+- academia
+- AI
+- MLOps
+- computer vision
+- freelance
+- career transition
 
 ## Chapter Summary
 
@@ -58,3 +77,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 53:42 - [LLMs for Data Cleaning: Domain Knowledge Limitations](https://www.youtube.com/watch?v=pkcpH5N-GP8&t=3222)
 - 58:29 - [Tech Stack & Systems Thinking: Python, C++, DBT, Docker](https://www.youtube.com/watch?v=pkcpH5N-GP8&t=3509)
 - 1:00:53 - [Manual Data Exploration: Handling Edge Cases Before Automation](https://www.youtube.com/watch?v=pkcpH5N-GP8&t=3653)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around data engineering, academia, AI, MLOps, computer vision, freelance.
+- First pass reading starts with Episode Introduction & Overview, Career Background: Electrical Engineering and Simulation Algorithms, Transition Out of Academia During COVID, Simulation Research: RF and Wave Propagation Modeling.
+- Source file: `datatalksclub.github.io/_podcast/from-academic-research-to-data-engineering-freelancing.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve data engineering, academia, AI, MLOps, the listed guests, or the chapter topics above.

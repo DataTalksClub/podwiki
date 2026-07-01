@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=CpWlBAmD9ok"
 spotify_url: "https://open.spotify.com/episode/7bjORhGzTQoxtbv60mMtzW?si=p6UaBdZJTnGvlwbGb6AsFQ"
 apple_url: "https://podcasts.apple.com/us/podcast/building-a-domestic-risk-assessment-tool-sabina-firtala/id1541710331?i=1000662124309"
 ---
-# Building a Domestic Risk Assessment Tool: Data Cleaning, Risk Scoring Models and Privacy Compliance
+
+# Episode: Building a Domestic Risk Assessment Tool: Data Cleaning, Risk Scoring Models and Privacy Compliance
 
 ## Original Episode
 
@@ -25,13 +26,29 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you build an accurate, privacy-compliant domestic risk assessment tool that frontline teams can actually use? In this episode Sabina Firtala — who leads Frontline''s AI product development and brings experience in data wrangling, model validation, and applied analytics from finance, SaaS, and mission-driven projects — walks through a practical roadmap.
+This episode covers Building a Domestic Risk Assessment Tool - Data Cleaning, Risk Scoring Models and Privacy Compliance.
+
+## Episode Value
+
+This episode covers Building a Domestic Risk Assessment Tool - Data Cleaning, Risk Scoring Models and Privacy Compliance.
+
+Agents should consider this episode when working on data science, machine learning, data engineering.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Sabina Firtala]({{ '/people/sabinafirtala/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- data science
+- machine learning
+- data engineering
+- data governance
+- MLOps
 
 ## Chapter Summary
 
@@ -58,3 +75,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 57:20 - [Open Resources: Documentation, Reproducibility, and Links](https://www.youtube.com/watch?v=CpWlBAmD9ok&t=3440)
 - 1:00:00 - [Lessons Learned and Practical Recommendations](https://www.youtube.com/watch?v=CpWlBAmD9ok&t=3600)
 - 1:02:10 - [Future Directions: Research, Policy, and Product Roadmap](https://www.youtube.com/watch?v=CpWlBAmD9ok&t=3730)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around data science, machine learning, data engineering, data governance, MLOps.
+- First pass reading starts with Episode Overview: Building a Domestic Risk Assessment Tool, Problem Framing: Identifying Risk in Domestic Contexts, Project Scope: Objectives, Users, and Impact Goals, Data Sources: Case Management, Public Records, and Surveys.
+- Source file: `datatalksclub.github.io/_podcast/building-domestic-risk-assessment-tool.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve data science, machine learning, data engineering, data governance, the listed guests, or the chapter topics above.

@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=7jgmIQGMhGE"
 spotify_url: "https://open.spotify.com/episode/6rgBSTPRvgNcJ7ouFyZmbH"
 apple_url: "https://podcasts.apple.com/us/podcast/advancing-big-data-analytics-post-doctoral-research/id1541710331?i=1000543884294"
 ---
-# Master Spatial Big Data Analytics: Nebula Stream Systems, Postdoc Mentoring & PhD Tips
+
+# Episode: Master Spatial Big Data Analytics: Nebula Stream Systems, Postdoc Mentoring & PhD Tips
 
 ## Original Episode
 
@@ -25,13 +26,28 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you master spatial big data analytics while navigating the demands of postdoc research, systems building, and preparing for a PhD? In this episode, Eleni Tzirita-Zacharatou — a postdoctoral researcher at the DIMA Group, TU Berlin, with a PhD from EPFL and award-winning work in data management — breaks down practical approaches to spatial big data analytics (GPS traces, trajectories, satellite imagery) and robust stream processing for IoT. We cover systems-driven research like the Nebula Stream and Agora.
+This episode covers Master Spatial Big Data Analytics - Nebula Stream Systems, Postdoc Mentoring & PhD Tips.
+
+## Episode Value
+
+This episode covers Master Spatial Big Data Analytics - Nebula Stream Systems, Postdoc Mentoring & PhD Tips.
+
+Agents should consider this episode when working on academia, big data analytics, tools.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Eleni Tzirita Zacharatou]({{ '/people/elenitziritazacharatou/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- academia
+- big data analytics
+- tools
+- data engineering
 
 ## Chapter Summary
 
@@ -57,8 +73,22 @@ Use these checkpoints to decide whether to open the source transcript.
 - 41:10 - [Facilitating Cross-Group Collaboration: Physical spaces and informal interactions](https://www.youtube.com/watch?v=7jgmIQGMhGE&t=2470)
 - 44:17 - [Preparing for PhD Applications: Field choice, research quality, and AI/ML](https://www.youtube.com/watch?v=7jgmIQGMhGE&t=2657)
 - 47:06 - [Master''s Thesis Selection: Advertised topics, mentor fit, internships and](https://www.youtube.com/watch?v=7jgmIQGMhGE&t=2826)
-- 52:07 - [Deciding on a PhD: Trial research in Master’s or internships before committing](https://www.youtube.com/watch?v=7jgmIQGMhGE&t=3127)
+- 52:07 - [Deciding on a PhD: Trial research in Master's or internships before committing](https://www.youtube.com/watch?v=7jgmIQGMhGE&t=3127)
 - 54:59 - [PhD Expectations: Publication requirements and top-conference pressure](https://www.youtube.com/watch?v=7jgmIQGMhGE&t=3299)
 - 55:19 - [Increasing Female Participation in CS: Early outreach, role models, institutional](https://www.youtube.com/watch?v=7jgmIQGMhGE&t=3319)
 - 1:00:51 - [Personal Reflections: Stereotypes, belonging, and career persistence](https://www.youtube.com/watch?v=7jgmIQGMhGE&t=3651)
 - 1:01:54 - [Contact and Follow-Up: DIMA page and email for questions](https://www.youtube.com/watch?v=7jgmIQGMhGE&t=3714)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around academia, big data analytics, tools, data engineering.
+- First pass reading starts with Guest Introduction: Eleni Tzirita-Zacharatou, postdoctoral researcher at, Academic Journey: Athens undergrad → EPFL PhD → Berlin postdoc, Spatial Big Data Analytics: Definitions, examples (GPS, trajectories, satellite, Postdoc Role Overview: Research, mentoring, teaching, reviewing, dissemination.
+- Source file: `datatalksclub.github.io/_podcast/big-data-analytics-and-postdoc-research.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve academia, big data analytics, tools, data engineering, the listed guests, or the chapter topics above.

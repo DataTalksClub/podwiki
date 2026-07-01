@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=RJEf6mzxh1w"
 spotify_url: "https://open.spotify.com/episode/0jE1rpmLCYkD3GnUa2E7E3"
 apple_url: "https://podcasts.apple.com/us/podcast/leading-nlp-teams-ivan-bilan/id1541710331?i=1000546053682"
 ---
-# Lead NLP Teams: Hiring, Production Pipelines, MLOps & LLM Tradeoffs (GPT-3, spaCy)
+
+# Episode: Lead NLP Teams: Hiring, Production Pipelines, MLOps & LLM Tradeoffs (GPT-3, spaCy)
 
 ## Original Episode
 
@@ -25,13 +26,32 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you structure an NLP team and build reliable production pipelines while weighing the tradeoffs between GPT-3 and in-house models? In this episode, Ivan Bilan, Engineering Manager at Personio working on Identity and Access Management, walks through practical answers from his transition from linguistics to production NLP and MLOps.
+This episode covers Lead NLP Teams - Hiring, Production Pipelines, MLOps & LLM Tradeoffs (GPT-3, spaCy).
+
+## Episode Value
+
+This episode covers Lead NLP Teams - Hiring, Production Pipelines, MLOps & LLM Tradeoffs (GPT-3, spaCy).
+
+Agents should consider this episode when working on NLP, machine learning, MLOps.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Ivan Bilan]({{ '/people/ivanbilan/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- NLP
+- machine learning
+- MLOps
+- data teams
+- LLMs
+- leadership
+- career growth
+- production
 
 ## Chapter Summary
 
@@ -61,3 +81,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 52:57 - [AI Benchmarking: Human-level Claims, Dataset Limits & Real-world Gaps](https://www.youtube.com/watch?v=RJEf6mzxh1w&t=3177)
 - 53:45 - [Machine Translation State: Google Translate, DeepL, Data Coverage & Language](https://www.youtube.com/watch?v=RJEf6mzxh1w&t=3225)
 - 58:08 - [NLP Pandect & Related Projects: GitHub Resources for NLP, Microservices &](https://www.youtube.com/watch?v=RJEf6mzxh1w&t=3488)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around NLP, machine learning, MLOps, data teams, LLMs, leadership.
+- First pass reading starts with Episode Overview: Leading NLP Teams & Ivan''s Current Role, Personio Role: Identity and Access Management Responsibilities, Career Origins: From Linguistics to Computational NLP, Early Tech Stack: From Perl to Python and Web Scraping.
+- Source file: `datatalksclub.github.io/_podcast/nlp-team-hiring-and-production-mlops.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve NLP, machine learning, MLOps, data teams, the listed guests, or the chapter topics above.

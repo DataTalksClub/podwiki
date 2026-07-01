@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=FQYTb4uWljQ"
 spotify_url: "https://open.spotify.com/episode/05YnfTWbplXwOwicR2doy3"
 apple_url: "https://podcasts.apple.com/us/podcast/feature-stores-cutting-through-the-hype-willem-pienaar/id1541710331?i=1000508782957"
 ---
-# Feature Stores for MLOps: Real-Time Feature Engineering, Feast & Tecton Guide
+
+# Episode: Feature Stores for MLOps: Real-Time Feature Engineering, Feast & Tecton Guide
 
 ## Original Episode
 
@@ -25,13 +26,28 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you reliably build and serve real-time features for production ML without rework, duplication, or training/serving skew? In this episode, Willem Pienaar — engineering lead at Tecton and creator of Feast — walks through what feature stores solve in MLOps and how they enable real-time feature engineering. We define feature stores, compare feature creation vs retrieval (SQL, Python, APIs, on-demand transforms), and illustrate a production real-time fraud detection lookup. Willem separates hype from value,.
+This episode covers Feature Stores for MLOps - Real-Time Feature Engineering, Feast & Tecton Guide.
+
+## Episode Value
+
+This episode covers Feature Stores for MLOps - Real-Time Feature Engineering, Feast & Tecton Guide.
+
+Agents should consider this episode when working on machine learning, MLOps, feature stores.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Willem Pienaar]({{ '/people/willempienaar/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- machine learning
+- MLOps
+- feature stores
+- tools
 
 ## Chapter Summary
 
@@ -58,3 +74,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 52:00 - [Feature Ownership, Governance, and Migration Strategies](https://www.youtube.com/watch?v=FQYTb4uWljQ&t=3120)
 - 54:00 - [Practical Getting Started: feast.dev, Docker Examples, and Learning Resources](https://www.youtube.com/watch?v=FQYTb4uWljQ&t=3240)
 - 56:00 - [Key Takeaways: Where Feature Stores Deliver Business Impact](https://www.youtube.com/watch?v=FQYTb4uWljQ&t=3360)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around machine learning, MLOps, feature stores, tools.
+- First pass reading starts with Episode Introduction: Feature Stores in MLOps, Background: From Mechatronic Engineering to ML Platform Builder, Feature Store Definition and Core ML Problems Addressed, Transformations: From Raw Streams/Warehouses to Features.
+- Source file: `datatalksclub.github.io/_podcast/mlops-feature-stores-feature-stores-feast-tecton.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve machine learning, MLOps, feature stores, tools, the listed guests, or the chapter topics above.

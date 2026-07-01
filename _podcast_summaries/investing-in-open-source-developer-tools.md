@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=7Bg1JQLnCao"
 spotify_url: "https://open.spotify.com/episode/6mHnZ3IswczK46UP3MBp4d?si=KkrbjXmJSaiWbq3d9BzTUQ"
 apple_url: "https://podcasts.apple.com/us/podcast/investing-in-open-source-data-tools-bela-wiertz/id1541710331?i=1000621912675"
 ---
-# Early-Stage Investing in Open Source Developer Tools: Deal Sourcing, Due Diligence & Commercialization Models
+
+# Episode: Early-Stage Investing in Open Source Developer Tools: Deal Sourcing, Due Diligence & Commercialization Models
 
 ## Original Episode
 
@@ -25,7 +26,13 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do early-stage investors evaluate open-source developer tools — and what signals actually predict commercial success? In this episode, Bela Wiertz — who invests in early-stage open-source startups at a German family office focused on Data, AI & Developer Tooling — breaks down the investor playbook for sourcing, evaluating, and funding OSS companies. Drawing from hands-on deal flow and due diligence experience, Bela reveals how investors screen GitHub repositories, conduct developer interviews, and assess.
+This episode covers Early-Stage Investing in Open Source Developer Tools - Deal Sourcing, Due Diligence & Commercialization Models.
+
+## Episode Value
+
+This episode covers Early-Stage Investing in Open Source Developer Tools - Deal Sourcing, Due Diligence & Commercialization Models.
+
+Agents should consider this episode when working on open source, tools, investing.
 
 ## People
 
@@ -33,12 +40,22 @@ Use these links to connect the episode to guest notes.
 
 - [Bela Wiertz]({{ '/people/belawiertz/' | relative_url }})
 
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- open source
+- tools
+- investing
+- fundraising
+- early-stage startups
+
 ## Chapter Summary
 
 Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode Start & Welcome](https://www.youtube.com/watch?v=7Bg1JQLnCao&t=0)
-- 1:15 - [Guest Overview: Bela’s Role at a Family Office](https://www.youtube.com/watch?v=7Bg1JQLnCao&t=75)
+- 1:15 - [Guest Overview: Bela's Role at a Family Office](https://www.youtube.com/watch?v=7Bg1JQLnCao&t=75)
 - 2:40 - [Career Path: From Business Studies to Open Source Investing](https://www.youtube.com/watch?v=7Bg1JQLnCao&t=160)
 - 5:37 - [Commercializing Open Source Communities: Company Builder Insights](https://www.youtube.com/watch?v=7Bg1JQLnCao&t=337)
 - 9:44 - [Why Venture Funding Matters for Early-Stage Startups](https://www.youtube.com/watch?v=7Bg1JQLnCao&t=584)
@@ -46,7 +63,7 @@ Use these checkpoints to decide whether to open the source transcript.
 - 16:40 - [Bottom-Up Distribution: Developer Adoption Feeding Enterprise Sales](https://www.youtube.com/watch?v=7Bg1JQLnCao&t=1000)
 - 18:33 - [Investment Focus: Early-Stage B2B Developer, Data & AI Tooling](https://www.youtube.com/watch?v=7Bg1JQLnCao&t=1113)
 - 19:47 - [Funding Stage Primer: Angels, Pre-Seed, and Seed Explained](https://www.youtube.com/watch?v=7Bg1JQLnCao&t=1187)
-- 22:20 - [Fundraising Strategy: 12–18 Month Runway & Use of Proceeds](https://www.youtube.com/watch?v=7Bg1JQLnCao&t=1340)
+- 22:20 - [Fundraising Strategy: 12-18 Month Runway & Use of Proceeds](https://www.youtube.com/watch?v=7Bg1JQLnCao&t=1340)
 - 23:42 - [Geographic & Sector Focus: Europe and Developer Stack Niches](https://www.youtube.com/watch?v=7Bg1JQLnCao&t=1422)
 - 25:19 - [Investor Types Compared: Angels, VCs, and Family Offices](https://www.youtube.com/watch?v=7Bg1JQLnCao&t=1519)
 - 30:28 - [Check Sizes & Stage Variability: No One-Size-Fits-All](https://www.youtube.com/watch?v=7Bg1JQLnCao&t=1828)
@@ -63,3 +80,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 55:33 - [Open Source Outlook: Paths to Market Leadership and Challenges](https://www.youtube.com/watch?v=7Bg1JQLnCao&t=3333)
 - 57:26 - [Recent Open Source Successes: Hugging Face, Supabase, Kong, Qdrant](https://www.youtube.com/watch?v=7Bg1JQLnCao&t=3446)
 - 1:00:18 - [Recommended Reading & Resources on Investing and Community Building](https://www.youtube.com/watch?v=7Bg1JQLnCao&t=3618)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around open source, tools, investing, fundraising, early-stage startups.
+- First pass reading starts with Episode Start & Welcome, Guest Overview: Bela's Role at a Family Office, Career Path: From Business Studies to Open Source Investing, Commercializing Open Source Communities: Company Builder Insights.
+- Source file: `datatalksclub.github.io/_podcast/investing-in-open-source-developer-tools.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve open source, tools, investing, fundraising, the listed guests, or the chapter topics above.

@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=0Fx5PCoLkf4"
 spotify_url: "https://open.spotify.com/episode/2PcBsHslUVnjXFhC9hv6zk"
 apple_url: "https://podcasts.apple.com/us/podcast/storytime-for-dataops-christopher-bergh/id1541710331?i=1000558399936"
 ---
-# Mastering DataOps: Automation, Observability & CI/CD for Reliable Data Pipelines
+
+# Episode: Mastering DataOps: Automation, Observability & CI/CD for Reliable Data Pipelines
 
 ## Original Episode
 
@@ -25,13 +26,26 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you build reliable data pipelines that move fast without breaking production? In this episode, Christopher Bergh — CEO and Head Chef at DataKitchen, co-author of the DataOps Cookbook and Manifesto, and a 25+-year veteran across research, engineering, analytics, and leadership — walks through practical approaches to mastering DataOps: automation, observability, and CI/CD for dependable data delivery.
+This episode covers Mastering DataOps - Automation, Observability & CI/CD for Reliable Data Pipelines.
+
+## Episode Value
+
+This episode covers Mastering DataOps - Automation, Observability & CI/CD for Reliable Data Pipelines.
+
+Agents should consider this episode when working on dataops, practices.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- dataops
+- practices
 
 ## Chapter Summary
 
@@ -67,3 +81,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 56:40 - [Market context: DataOps vendor landscape and funding trends](https://www.youtube.com/watch?v=0Fx5PCoLkf4&t=3400)
 - 1:00:27 - [Learning resources: DataOps Cookbook, manifesto, courses, and manager guide](https://www.youtube.com/watch?v=0Fx5PCoLkf4&t=3627)
 - 1:01:48 - [Closing remarks: adoption outlook and links to resources](https://www.youtube.com/watch?v=0Fx5PCoLkf4&t=3708)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around dataops, practices.
+- First pass reading starts with Opening banter: "Father of DataOps" anecdote, Chris Bergh background and career pivot to data leadership, Transition: from software engineer to managing data teams; factory metaphor, Factory + Agile: balancing production stability and rapid change.
+- Source file: `datatalksclub.github.io/_podcast/dataops-automation-and-reliable-data-pipelines.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve dataops, practices, the listed guests, or the chapter topics above.

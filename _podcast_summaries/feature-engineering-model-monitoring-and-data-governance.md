@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=pImYf9ML95Q"
 spotify_url: "https://open.spotify.com/episode/4dFbkQI9pF4wUDueZFqxGY"
 apple_url: "https://podcasts.apple.com/us/podcast/building-business-acumen-for-data-professionals-thom-ives/id1541710331?i=1000540181044"
 ---
-# Practical Data Science & ML: Feature Engineering, Model Monitoring, Data Governance & Storytelling
+
+# Episode: Practical Data Science & ML: Feature Engineering, Model Monitoring, Data Governance & Storytelling
 
 ## Original Episode
 
@@ -25,13 +26,28 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you move from models that look good on paper to reliable machine learning in production—while keeping data clean and stakeholders aligned? In this episode Thom Ives, founder of Integrated Machine Learning & AI and a veteran data scientist, walks through practical approaches to feature engineering, model monitoring, data governance, and data storytelling. Thom draws on a career spanning industry roles and mentoring to contrast concept-focused learning versus specialist detail work, and to explain why.
+This episode covers Practical Data Science & ML - Feature Engineering, Model Monitoring, Data Governance & Storytelling.
+
+## Episode Value
+
+This episode covers Practical Data Science & ML - Feature Engineering, Model Monitoring, Data Governance & Storytelling.
+
+Agents should consider this episode when working on data science, machine learning, ai.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Thom Ives]({{ '/people/thomives/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- data science
+- machine learning
+- ai
+- data engineering
 
 ## Chapter Summary
 
@@ -59,3 +75,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 55:49 - [Remote rapport: virtual lunches, video calls, and building camaraderie](https://www.youtube.com/watch?v=pImYf9ML95Q&t=3349)
 - 58:36 - [Integrated ML & AI community: structure, ethos, and free resources](https://www.youtube.com/watch?v=pImYf9ML95Q&t=3516)
 - 1:03:36 - [Joining the Slack community and accessing resources](https://www.youtube.com/watch?v=pImYf9ML95Q&t=3816)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around data science, machine learning, ai, data engineering.
+- First pass reading starts with Episode Introduction & Guest Thom Ives, Concept-focused learning vs. detail specialization, Career journey: naval nuclear program, grad school, early AI, Industry roles: HP, ON Semiconductor, SaaS AI work.
+- Source file: `datatalksclub.github.io/_podcast/feature-engineering-model-monitoring-and-data-governance.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve data science, machine learning, ai, data engineering, the listed guests, or the chapter topics above.

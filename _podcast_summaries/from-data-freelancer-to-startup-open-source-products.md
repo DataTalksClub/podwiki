@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=vOpEQiCsaLw"
 spotify_url: "https://open.spotify.com/episode/7wBmJHSXPHoW0mEIbNDgqr?si=z7klLtveT1ioGi6bg8hR7Q"
 apple_url: "https://podcasts.apple.com/us/podcast/the-entrepreneurship-journey-from-freelancing-to/id1541710331?i=1000638715212"
 ---
-# From Data Freelancer to Startup: Open-Source Products and Bottom-Up Adoption
+
+# Episode: From Data Freelancer to Startup: Open-Source Products and Bottom-Up Adoption
 
 ## Original Episode
 
@@ -25,13 +26,31 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you move from freelancing to building an open-source data company that wins via bottom-up adoption? In this episode Adrian Brudaru — an economics graduate who pivoted to business analysis in Berlin, then spent years freelancing before co-founding a data startup — walks through that transition and the practical tradeoffs he encountered.
+This episode covers From Data Freelancer to Startup - Open-Source Products and Bottom-Up Adoption.
+
+## Episode Value
+
+This episode covers From Data Freelancer to Startup - Open-Source Products and Bottom-Up Adoption.
+
+Agents should consider this episode when working on entrepreneurship, freelance, startups.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- entrepreneurship
+- freelance
+- startups
+- business development
+- leadership
+- career growth
+- consulting
 
 ## Chapter Summary
 
@@ -59,10 +78,24 @@ Use these checkpoints to decide whether to open the source transcript.
 - 37:28 - [Workshop Design: Checkpoints, Live Support, and CodeSpaces](https://www.youtube.com/watch?v=vOpEQiCsaLw&t=2248)
 - 40:50 - [Product Identity: DLT as a Developer-Focused Library](https://www.youtube.com/watch?v=vOpEQiCsaLw&t=2450)
 - 41:23 - [Documentation Investment: When Docs Become Productive Assets](https://www.youtube.com/watch?v=vOpEQiCsaLw&t=2483)
-- 44:00 - [Product–Market Fit Signals: Core Adoption and Removal Test](https://www.youtube.com/watch?v=vOpEQiCsaLw&t=2640)
+- 44:00 - [Product-Market Fit Signals: Core Adoption and Removal Test](https://www.youtube.com/watch?v=vOpEQiCsaLw&t=2640)
 - 47:56 - [Current Focus: Leading Go-to-Market and Bottom-Up Strategy](https://www.youtube.com/watch?v=vOpEQiCsaLw&t=2876)
 - 50:53 - [Ecosystem Partnerships: DocDB Integration and Joint Demos](https://www.youtube.com/watch?v=vOpEQiCsaLw&t=3053)
 - 55:10 - [Roadmap: Paid Complement to the Open-Source Library](https://www.youtube.com/watch?v=vOpEQiCsaLw&t=3310)
 - 57:10 - [Source Generation Experiments: OpenAPI Generators for Pipelines](https://www.youtube.com/watch?v=vOpEQiCsaLw&t=3430)
 - 58:11 - [Positioning vs Platforms: Library-First vs Airbyte/Fivetran](https://www.youtube.com/watch?v=vOpEQiCsaLw&t=3491)
 - 1:00:41 - [Recommended Reading: "From Survival to Thrival" on PMF](https://www.youtube.com/watch?v=vOpEQiCsaLw&t=3641)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around entrepreneurship, freelance, startups, business development, leadership, career growth.
+- First pass reading starts with Episode Overview: Building an Open-Source Data Company, Career Origins: 2012 Berlin Startups and Corporate Exit, Freelancing Experience: Autonomy, Savings, Diverse Projects, From Hourly Billing to Project-Based Work and Subcontracting.
+- Source file: `datatalksclub.github.io/_podcast/from-data-freelancer-to-startup-open-source-products.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve entrepreneurship, freelance, startups, business development, the listed guests, or the chapter topics above.

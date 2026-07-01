@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=B2tzuUg5uZs"
 spotify_url: "https://open.spotify.com/episode/1znRtNRf5IUYcBblJYH53r"
 apple_url: "https://podcasts.apple.com/us/podcast/from-semiconductors-to-machine-learning-a-career-in/id1541710331?i=1000731197034"
 ---
-# From Classical Guitar to Production ML: Nonlinear Career Path Through Semiconductors, Yield Analytics & Community-Driven Learning
+
+# Episode: From Classical Guitar to Production ML: Nonlinear Career Path Through Semiconductors, Yield Analytics & Community-Driven Learning
 
 ## Original Episode
 
@@ -25,13 +26,29 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you move from playing classical guitar to applying machine learning in semiconductor yield analytics? In this episode Dashel Ruiz Perez — a data analyst, ML engineer, and educator — walks us through a nonlinear career path that spans nearly a decade at Microchip Technology and now teaching programming and data skills through ThriveDX. With roles across production, process, yield, and software engineering, Dashel explains how hands-on production experience informs production analytics and ML engineering work.
+This episode covers From Classical Guitar to Production ML - Nonlinear Career Path Through Semiconductors, Yield Analytics & Community-Driven Learning.
+
+## Episode Value
+
+This episode covers From Classical Guitar to Production ML - Nonlinear Career Path Through Semiconductors, Yield Analytics & Community-Driven Learning.
+
+Agents should consider this episode when working on machine learning, MLOps, data science.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Dashel Ruiz Perez]({{ '/people/dashelruizperez/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- machine learning
+- MLOps
+- data science
+- tools
+- career transition
 
 ## Chapter Summary
 
@@ -65,3 +82,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 1:07:36 - [Teaching Ambition: Creating High-Quality Spanish ML Content](https://www.youtube.com/watch?v=B2tzuUg5uZs&t=4056)
 - 1:10:28 - [Upcoming Offerings: AI-for-Developers, React, and LLM Coding](https://www.youtube.com/watch?v=B2tzuUg5uZs&t=4228)
 - 1:12:49 - [Closing Remarks: Course Endorsement and Next Steps](https://www.youtube.com/watch?v=B2tzuUg5uZs&t=4369)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around machine learning, MLOps, data science, tools, career transition.
+- First pass reading starts with Guest Overview: Multidisciplinary Career Snapshot, Career Pivot: From Classical Guitarist to Tech in Portland, Semiconductor Onboarding: Expediter Role and Fab Floor Experience, Fab Data Exposure: Millisecond Tool Logs and Process Telemetry.
+- Source file: `datatalksclub.github.io/_podcast/from-semiconductor-data-to-applied-machine-learning.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve machine learning, MLOps, data science, tools, the listed guests, or the chapter topics above.

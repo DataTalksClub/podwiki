@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=NfAJAr7FvyY&t"
 spotify_url: "https://open.spotify.com/episode/6xsov9a1US8D8w5xKcjkNm"
 apple_url: "https://podcasts.apple.com/us/podcast/competitive-machine-leaning-and-teaching-alexander/id1541710331?i=1000692309866"
 ---
-# From Kaggle Grandmaster to Production ML: Competition Rigor, System Design & Large-Scale Education
+
+# Episode: From Kaggle Grandmaster to Production ML: Competition Rigor, System Design & Large-Scale Education
 
 ## Original Episode
 
@@ -25,13 +26,31 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you take the rigor and creativity that wins Kaggle competitions and turn it into reliable, maintainable production ML? In this episode we explore that question with Alexander Guschin — a Machine Learning Engineer with 10+ years of experience, a Kaggle Grandmaster ranked 5th globally, a leader of DS and SE teams, contributor to open-source ML tools, and instructor to 100K+ students.
+This episode covers From Kaggle Grandmaster to Production ML - Competition Rigor, System Design & Large-Scale Education.
+
+## Episode Value
+
+This episode covers From Kaggle Grandmaster to Production ML - Competition Rigor, System Design & Large-Scale Education.
+
+Agents should consider this episode when working on machine learning, MLOps, data science.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Alexander Guschin]({{ '/people/alexanderguschin/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- machine learning
+- MLOps
+- data science
+- open-source
+- tools
+- teaching
+- career transition
 
 ## Chapter Summary
 
@@ -47,7 +66,7 @@ Use these checkpoints to decide whether to open the source transcript.
 - 17:10 - [Kaggle for Skill Broadening, Domain Exposure & Interviews](https://www.youtube.com/watch?v=NfAJAr7FvyY&t&t=1030)
 - 21:42 - [Competition Preparation: Iteration, Baselines & Infrastructure](https://www.youtube.com/watch?v=NfAJAr7FvyY&t&t=1302)
 - 22:45 - [Applying Competition Experience to Production ML](https://www.youtube.com/watch?v=NfAJAr7FvyY&t&t=1365)
-- 26:18 - [Regional Differences in Kaggle’s Career Value](https://www.youtube.com/watch?v=NfAJAr7FvyY&t&t=1578)
+- 26:18 - [Regional Differences in Kaggle's Career Value](https://www.youtube.com/watch?v=NfAJAr7FvyY&t&t=1578)
 - 29:08 - [Collaboration Strategies: Teamwork vs. Solo Competitions](https://www.youtube.com/watch?v=NfAJAr7FvyY&t&t=1748)
 - 31:30 - [Teaching Teens & Participation in AI Olympiads](https://www.youtube.com/watch?v=NfAJAr7FvyY&t&t=1890)
 - 33:25 - [Transition to Teaching: From Competitor to Instructor](https://www.youtube.com/watch?v=NfAJAr7FvyY&t&t=2005)
@@ -58,7 +77,21 @@ Use these checkpoints to decide whether to open the source transcript.
 - 54:10 - [Online Education at Scale: Coursera Course & 100k Students](https://www.youtube.com/watch?v=NfAJAr7FvyY&t&t=3250)
 - 56:22 - [Teaching Platform Development & Student-Built Software](https://www.youtube.com/watch?v=NfAJAr7FvyY&t&t=3382)
 - 57:35 - [Documentation, Mentorship & Industry Partnerships](https://www.youtube.com/watch?v=NfAJAr7FvyY&t&t=3455)
-- 59:51 - [Demonstrating Kaggle’s Business Value to Managers](https://www.youtube.com/watch?v=NfAJAr7FvyY&t&t=3591)
+- 59:51 - [Demonstrating Kaggle's Business Value to Managers](https://www.youtube.com/watch?v=NfAJAr7FvyY&t&t=3591)
 - 1:01:48 - [Competition Essentials: EDA, Validation & No Single Trick](https://www.youtube.com/watch?v=NfAJAr7FvyY&t&t=3708)
 - 1:03:11 - [Generative AI & AutoML: Productivity vs. Winning Solutions](https://www.youtube.com/watch?v=NfAJAr7FvyY&t&t=3791)
 - 1:05:13 - [Career Reflections: Current Activity and Kaggle Legacy](https://www.youtube.com/watch?v=NfAJAr7FvyY&t&t=3913)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around machine learning, MLOps, data science, open-source, tools, teaching.
+- First pass reading starts with Episode Start, Guest Introduction & Kaggle Grandmaster Credentials, Early Industry Roles & Open-Source Contributions, MLEM Story & Tooling Anecdotes.
+- Source file: `datatalksclub.github.io/_podcast/kaggle-grandmaster-to-production-ml-and-education.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve machine learning, MLOps, data science, open-source, the listed guests, or the chapter topics above.

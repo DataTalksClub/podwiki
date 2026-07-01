@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=ScDIB-3O77A"
 spotify_url: "https://open.spotify.com/episode/0daFpY1z2J4Uop1XdMNsnY"
 apple_url: "https://podcasts.apple.com/us/podcast/building-a-data-science-team-dat-tran/id1541710331?i=1000502061864"
 ---
-# How to Build and Scale ML Teams: Hiring, MLOps & Product-Driven AI for Startups
+
+# Episode: How to Build and Scale ML Teams: Hiring, MLOps & Product-Driven AI for Startups
 
 ## Original Episode
 
@@ -25,13 +26,29 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you build and scale an ML team that delivers product-driven AI without getting bogged down by tech debt or false promises? In this episode, Dat Tran — Partner & CTO at DATANOMIQ and former AI lead at Axel Springer, idealo, and Pivotal — walks through practical strategies for hiring, MLOps, and shaping data teams for startups.
+This episode covers How to Build and Scale ML Teams - Hiring, MLOps & Product-Driven AI for Startups.
+
+## Episode Value
+
+This episode covers How to Build and Scale ML Teams - Hiring, MLOps & Product-Driven AI for Startups.
+
+Agents should consider this episode when working on leadership, team building, machine learning.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Dat Tran]({{ '/people/dattran/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- leadership
+- team building
+- machine learning
+- MLOps
+- startup
 
 ## Chapter Summary
 
@@ -66,3 +83,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 53:35 - [Corporate IT in a Tech Transformation: From Central IT to DevOps](https://www.youtube.com/watch?v=ScDIB-3O77A&t=3215)
 - 54:23 - [Retention Strategies: Competitive Pay, Interesting Work & Autonomy](https://www.youtube.com/watch?v=ScDIB-3O77A&t=3263)
 - 56:40 - [Expectation Management: Educating Leadership on AI Capabilities](https://www.youtube.com/watch?v=ScDIB-3O77A&t=3400)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around leadership, team building, machine learning, MLOps, startup.
+- First pass reading starts with Guest Overview & Career Snapshot, Early Background: Economics, Investment Banking & Early Coding, From VBA Automation to Machine Learning Interest, Accenture & Big Data: Spark, MPP Databases and Early ML Projects.
+- Source file: `datatalksclub.github.io/_podcast/building-data-team.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve leadership, team building, machine learning, MLOps, the listed guests, or the chapter topics above.

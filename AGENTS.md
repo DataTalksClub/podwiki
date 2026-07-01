@@ -41,7 +41,7 @@ source files in `../datatalksclub.github.io/_podcast`.
 Every public page must be grounded, linked, and focused:
 
 - Grounded: every substantive section cites actual podcast discussions. Do not
-  add generic advice unless a podcast discussion or an existing archive-backed
+  add generic advice unless a podcast discussion or an existing podcast-grounded
   page supports it.
 - Linked: make the page link-heavy. Add visible links to related wiki pages,
   people pages, local podcast pages, and grounding evidence in the body, not

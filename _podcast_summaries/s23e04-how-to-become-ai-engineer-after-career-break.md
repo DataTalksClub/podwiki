@@ -6,13 +6,14 @@ source_url: "https://datatalks.club/podcast/s23e04-how-to-become-ai-engineer-aft
 season: 23
 episode: 4
 guests: ["revathyramalingam"]
-topics: []
+topics: ["ai engineer", "career break"]
 summary_status: source-index
 youtube_url: "https://www.youtube.com/watch?v=IwG_JaxC-Y8"
 spotify_url: "https://open.spotify.com/episode/3xC8PZjrrAtYCWspQpI8oT?si=4n7hbBgYS6SKbNYDiy7tvA"
 apple_url: "https://podcasts.apple.com/us/podcast/how-to-become-an-ai-engineer-after-a-career/id1541710331?i=1000755145117"
 ---
-# How to Become an AI Engineer After a Career Break
+
+# Episode: How to Become an AI Engineer After a Career Break
 
 ## Original Episode
 
@@ -23,11 +24,28 @@ Use these links for the canonical episode and media sources.
 - [Listen on Spotify](https://open.spotify.com/episode/3xC8PZjrrAtYCWspQpI8oT?si=4n7hbBgYS6SKbNYDiy7tvA)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/how-to-become-an-ai-engineer-after-a-career/id1541710331?i=1000755145117)
 
+## Episode Overview
+
+This episode covers How to Become an AI Engineer After a Career Break.
+
+## Episode Value
+
+This episode covers How to Become an AI Engineer After a Career Break.
+
+Agents should consider this episode when working on ai engineer, career break.
+
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Revathy Ramalingam]({{ '/people/revathyramalingam/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- ai engineer
+- career break
 
 ## Chapter Summary
 
@@ -40,3 +58,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 28:00 - [The Interview Process: Navigating a 7 Year Career Break.](https://www.youtube.com/watch?v=IwG_JaxC-Y8&t=1680)
 - 33:45 - [Practical Interview Tasks: Building a PDF Q&A Assistant.](https://www.youtube.com/watch?v=IwG_JaxC-Y8&t=2025)
 - 44:30 - [Closing Thoughts: Scaling the Learning Ladder.](https://www.youtube.com/watch?v=IwG_JaxC-Y8&t=2670)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around ai engineer, career break.
+- First pass reading starts with Why Move to AI? Using ChatGPT to Plan a Career Pivot, Learning in Public: The Power of Community Support, Telecom Capstone: Predicting Network Slices with ML, Vibe Coding" & Building Prototypes with AI Dev Tools.
+- Source file: `datatalksclub.github.io/_podcast/s23e04-how-to-become-ai-engineer-after-career-break.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve ai engineer, career break, the listed guests, or the chapter topics above.

@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=su2M058m3Lw"
 spotify_url: "https://open.spotify.com/episode/2c8E0hZ02osih7ljEB6I6f?si=lSPp07r4TgmpGQey0cUjsA"
 apple_url: "https://podcasts.apple.com/us/podcast/the-unwritten-rules-for-success-in-machine-learning/id1541710331?i=1000635206953"
 ---
-# From Software Engineer to VP of Machine Learning: Stakeholder Buy-In, Rapid POCs and Full-Stack Skills
+
+# Episode: From Software Engineer to VP of Machine Learning: Stakeholder Buy-In, Rapid POCs and Full-Stack Skills
 
 ## Original Episode
 
@@ -25,7 +26,13 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you move from a hands-on software engineer to a VP of Machine Learning while getting stakeholders to say “yes,” delivering rapid POCs, and building the full-stack skills teams need? In this episode Jack Blandin walks through that transition. Jack began as a Software Engineer in 2015, shifted into Data Science and Machine Learning in 2017, and has held ML and leadership roles at Fi, Wayfair, Trunk Club, and GoHealth—managing teams of 2 to 15. He’s now VP of Data Science & Machine Learning at Fi, finishing a.
+This episode covers From Software Engineer to VP of Machine Learning - Stakeholder Buy-In, Rapid POCs and Full-Stack Skills.
+
+## Episode Value
+
+This episode covers From Software Engineer to VP of Machine Learning - Stakeholder Buy-In, Rapid POCs and Full-Stack Skills.
+
+Agents should consider this episode when working on machine learning, MLOps, tools.
 
 ## People
 
@@ -33,12 +40,23 @@ Use these links to connect the episode to guest notes.
 
 - [Jack Blandin]({{ '/people/jackblandin/' | relative_url }})
 
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- machine learning
+- MLOps
+- tools
+- career transition
+- leadership
+- software engineering
+
 ## Chapter Summary
 
 Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=su2M058m3Lw&t=0)
-- 0:13 - [Guest Overview: Jack’s career arc from software engineer to VP of ML](https://www.youtube.com/watch?v=su2M058m3Lw&t=13)
+- 0:13 - [Guest Overview: Jack's career arc from software engineer to VP of ML](https://www.youtube.com/watch?v=su2M058m3Lw&t=13)
 - 1:04 - [Career Pivot: Transition from full-stack engineering to data science](https://www.youtube.com/watch?v=su2M058m3Lw&t=64)
 - 2:41 - [Early Leadership: Informal management and promotion at GoHealth](https://www.youtube.com/watch?v=su2M058m3Lw&t=161)
 - 4:47 - [Rapid Advancement: Reflections on moving from IC to manager](https://www.youtube.com/watch?v=su2M058m3Lw&t=287)
@@ -61,3 +79,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 47:58 - [Content & Community: Daily LinkedIn posts and where to follow Jack](https://www.youtube.com/watch?v=su2M058m3Lw&t=2878)
 - 50:37 - [New Venture: Reimagining hiring and recruiting for ML/data roles](https://www.youtube.com/watch?v=su2M058m3Lw&t=3037)
 - 53:02 - [Episode Wrap-Up and Final Remarks](https://www.youtube.com/watch?v=su2M058m3Lw&t=3182)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around machine learning, MLOps, tools, career transition, leadership, software engineering.
+- First pass reading starts with Guest Overview: Jack's career arc from software engineer to VP of ML, Career Pivot: Transition from full-stack engineering to data science, Early Leadership: Informal management and promotion at GoHealth, Rapid Advancement: Reflections on moving from IC to manager.
+- Source file: `datatalksclub.github.io/_podcast/from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve machine learning, MLOps, tools, career transition, the listed guests, or the chapter topics above.

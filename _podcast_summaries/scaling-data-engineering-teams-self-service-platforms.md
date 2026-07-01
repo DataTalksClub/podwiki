@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=acJ6sVqKOUk"
 spotify_url: "https://open.spotify.com/episode/5DkuaYQpbJ13sU9bknFZnk?si=RtQnTHHYQb-ytMEw8J3e8g"
 apple_url: "https://podcasts.apple.com/us/podcast/growing-data-engineering-team-in-a-scale-up-mehdi-ouazza/id1541710331?i=1000577461365"
 ---
-# Scale Data Engineering Teams: Build Self-Service Data Platforms, Hire Senior Engineers & Use Kafka
+
+# Episode: Scale Data Engineering Teams: Build Self-Service Data Platforms, Hire Senior Engineers & Use Kafka
 
 ## Original Episode
 
@@ -25,13 +26,29 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you scale data engineering teams during hypergrowth without sacrificing quality or developer velocity? In this episode, Mehdi OUAZZA — a data engineer and entrepreneur with 7+ years working on streaming and batch pipelines, data modeling, orchestration, infrastructure and analytics — walks through practical approaches to scale data engineering teams, build self-service data platforms, hire senior engineers and adopt Kafka-based event streaming.
+This episode covers Scale Data Engineering Teams - Build Self-Service Data Platforms, Hire Senior Engineers & Use Kafka.
+
+## Episode Value
+
+This episode covers Scale Data Engineering Teams - Build Self-Service Data Platforms, Hire Senior Engineers & Use Kafka.
+
+Agents should consider this episode when working on data engineering, data governance, tools.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Mehdi OUAZZA]({{ '/people/mehdiouazza/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- data engineering
+- data governance
+- tools
+- open-source
+- career development
 
 ## Chapter Summary
 
@@ -60,3 +77,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 57:48 - [Creator spotlight: MehdiO DataTV, DataCreators.club, and content channels](https://www.youtube.com/watch?v=acJ6sVqKOUk&t=3468)
 - 1:00:12 - [Content production: time investment, process improvements, and persistence](https://www.youtube.com/watch?v=acJ6sVqKOUk&t=3612)
 - 1:01:53 - [Video editing tips: multi-take filming, lighting consistency, and tricks](https://www.youtube.com/watch?v=acJ6sVqKOUk&t=3713)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around data engineering, data governance, tools, open-source, career development.
+- First pass reading starts with Episode Introduction: Growing Data Engineering Team & Guest Mehdi, Guest background: BI, on-prem Big Data to staff data engineer (career highlights), Defining scale-up: hypergrowth, funding, hiring surge, speed vs quality, Hypergrowth challenges: product launches, US expansion, operational strain.
+- Source file: `datatalksclub.github.io/_podcast/scaling-data-engineering-teams-self-service-platforms.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve data engineering, data governance, tools, open-source, the listed guests, or the chapter topics above.

@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=xWC1HAfekRk"
 spotify_url: "https://open.spotify.com/episode/7fzBhDrfVfylnBLCJGwUHC?si=3b03d59083804346"
 apple_url: "https://podcasts.apple.com/us/podcast/data-science-for-social-impact-christine-cepelak/id1541710331?i=1000571591865"
 ---
-# Data Science for Public Policy — Ethical AI, Climate Justice & Impact Projects
+
+# Episode: Data Science for Public Policy - Ethical AI, Climate Justice & Impact Projects
 
 ## Original Episode
 
@@ -25,13 +26,28 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How can data science meaningfully shape public policy without becoming a tech-first solution or creating new ethical harms? In this episode, Christine Cepelak, a writer and researcher of tech and social issues who’s studying Data Science for Public Policy and has years of experience managing social programs, walks through the practical realities of data science for public policy. We cover career paths and sector differences, a community organizing case study on electronics recycling, and real-world use cases like.
+This episode covers Data Science for Public Policy - Ethical AI, Climate Justice & Impact Projects.
+
+## Episode Value
+
+This episode covers Data Science for Public Policy - Ethical AI, Climate Justice & Impact Projects.
+
+Agents should consider this episode when working on data science, public policy, ethical AI.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Christine Cepelak]({{ '/people/christinecepelak/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- data science
+- public policy
+- ethical AI
+- social impact
 
 ## Chapter Summary
 
@@ -61,3 +77,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 56:22 - [Community Discussion: Ethics in AI Coffee Chats and Emerging Debates](https://www.youtube.com/watch?v=xWC1HAfekRk&t=3382)
 - 58:06 - [Connect with Christine: Website, LinkedIn & Twitter](https://www.youtube.com/watch?v=xWC1HAfekRk&t=3486)
 - 58:23 - [Episode Wrap-up & Resource Links](https://www.youtube.com/watch?v=xWC1HAfekRk&t=3503)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around data science, public policy, ethical AI, social impact.
+- First pass reading starts with Episode Intro & Guest Christine Cepelak, Career Journey: Program Management to Data Science for Public Policy, Private vs Public Sector: Differences for Data Work, Public Policy Defined: Laws, Governance & Social Impact.
+- Source file: `datatalksclub.github.io/_podcast/data-science-for-public-policy-ethical-ai-social-impact.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve data science, public policy, ethical AI, social impact, the listed guests, or the chapter topics above.

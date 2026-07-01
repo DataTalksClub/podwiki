@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=Z4vOTgzLkJQ"
 spotify_url: "https://open.spotify.com/episode/3zVzlQ0NmAVCtaFQXbqvHE?si=sSZhU-KXRamv2x5YZCDxAg"
 apple_url: "https://podcasts.apple.com/us/podcast/inclusive-data-leadership-coaching-tereza-iofciu/id1541710331?i=1000650865043"
 ---
-# Data Leadership Coaching: Transition to Manager, Stakeholder Skills and Team Impact
+
+# Episode: Data Leadership Coaching: Transition to Manager, Stakeholder Skills and Team Impact
 
 ## Original Episode
 
@@ -25,13 +26,29 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you move from a strong individual contributor into a data leader who can influence stakeholders, grow team impact, and build inclusive practices? In this episode Tereza Iofciu—data science manager, data scientist, data engineer, product manager, coach and community organizer—walks through her transition from a PhD in computer science to leading teams and running data leadership coaching.
+This episode covers Data Leadership Coaching - Transition to Manager, Stakeholder Skills and Team Impact.
+
+## Episode Value
+
+This episode covers Data Leadership Coaching - Transition to Manager, Stakeholder Skills and Team Impact.
+
+Agents should consider this episode when working on leadership, career transition, communication.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Tereza Iofciu]({{ '/people/terezaiofciu/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- leadership
+- career transition
+- communication
+- team building
+- data strategy
 
 ## Chapter Summary
 
@@ -62,3 +79,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 50:23 - [Empathy in Practice: Role perspective-taking for better collaboration](https://www.youtube.com/watch?v=Z4vOTgzLkJQ&t=3023)
 - 53:50 - [Cross-Functional Leadership: Emotional intelligence and people care](https://www.youtube.com/watch?v=Z4vOTgzLkJQ&t=3230)
 - 54:24 - [Inclusive Leadership: Defining inclusion, avoiding exclusivity, and cultural](https://www.youtube.com/watch?v=Z4vOTgzLkJQ&t=3264)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around leadership, career transition, communication, team building, data strategy.
+- First pass reading starts with Episode Introduction & Guest Re-introduction (Inclusive Data Leadership Coaching), Career Journey: From Computer Science PhD to Data Lead and Coach, Transition to Coaching: Stepping back from product responsibility, Career Shift: Challenges of moving from Individual Contributor to Lead.
+- Source file: `datatalksclub.github.io/_podcast/data-leadership-coaching.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve leadership, career transition, communication, team building, the listed guests, or the chapter topics above.

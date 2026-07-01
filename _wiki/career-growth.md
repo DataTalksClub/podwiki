@@ -99,7 +99,7 @@ keeps troubleshooting, platform breadth, and mentoring inside the senior IC
 path (35:23 / 37:37 / 48:37).
 
 In
-[How to Find a Mentor and Become One]({{ '/podcasts/mentoring-in-tech-how-to-find-and-become-a-mentor.md/' | relative_url }}),
+[How to Find a Mentor and Become One]({{ '/podcasts/mentoring-in-tech-how-to-find-and-become-a-mentor/' | relative_url }}),
 [Rahul Jain]({{ '/people/rahuljain/' | relative_url }}) adds a
 people-development layer. Goals and agendas give the relationship structure.
 Listening, boundaries, and follow-through make mentoring a practice rather than
@@ -196,7 +196,7 @@ the reader's takeaway, and the opportunity that evidence made possible (13:00 /
 
 Mentoring is a career-growth practice for both sides of the relationship.
 Rahul Jain's
-[mentoring episode]({{ '/podcasts/mentoring-in-tech-how-to-find-and-become-a-mentor.md/' | relative_url }})
+[mentoring episode]({{ '/podcasts/mentoring-in-tech-how-to-find-and-become-a-mentor/' | relative_url }})
 defines mentoring by purpose and scope, then separates one-off advice from an
 ongoing relationship. Useful sessions need goals and agendas. They also need
 expectations and a decision about what the mentee will do next (6:10 / 12:50 /

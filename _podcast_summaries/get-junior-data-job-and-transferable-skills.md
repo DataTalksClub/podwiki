@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=_U8GrYJvmJM"
 spotify_url: "https://open.spotify.com/episode/3jMRuqU3ZEcSeoizuOU5q1"
 apple_url: "https://podcasts.apple.com/us/podcast/career-coaching-lindsay-mcquade/id1541710331?i=1000550822996"
 ---
-# Land Junior Data Jobs: CVs, Interviews, Transferable Skills & Overcome Imposter Syndrome
+
+# Episode: Land Junior Data Jobs: CVs, Interviews, Transferable Skills & Overcome Imposter Syndrome
 
 ## Original Episode
 
@@ -25,13 +26,25 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-Struggling to land a junior data job—how do you turn non-linear experience into a recruiter-ready CV, prepare for interviews, and push past imposter syndrome? In this episode, Lindsay McQuade, a transformational coach with 20+ years across management consulting, higher education and tech and former Senior Career & Development Coach at SPICED Academy, guides listeners through practical steps for junior data roles. Lindsay draws on her work designing programs for hundreds of learners (SPICED training rated 94% “very.
+This episode covers Land Junior Data Jobs - CVs, Interviews, Transferable Skills & Overcome Imposter Syndrome.
+
+## Episode Value
+
+This episode covers Land Junior Data Jobs - CVs, Interviews, Transferable Skills & Overcome Imposter Syndrome.
+
+Agents should consider this episode when working on career growth.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Lindsay McQuade]({{ '/people/lindsaymcquade/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- career growth
 
 ## Chapter Summary
 
@@ -61,3 +74,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 52:51 - [Internships vs Junior Roles and Creating Hidden Opportunities](https://www.youtube.com/watch?v=_U8GrYJvmJM&t=3171)
 - 55:20 - [Working with Recruiters: When They Help Juniors & Seniors](https://www.youtube.com/watch?v=_U8GrYJvmJM&t=3320)
 - 58:30 - [LinkedIn Networking: Credible Informational Outreach](https://www.youtube.com/watch?v=_U8GrYJvmJM&t=3510)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around career growth.
+- First pass reading starts with Guest Introduction & Career Journey, Spiced Academy Programs Overview (Full-Stack & Data Science), Career Coaching Services: CVs, Interview Prep, Negotiation, Defining Ideal Job Environment & Career Experiments.
+- Source file: `datatalksclub.github.io/_podcast/get-junior-data-job-and-transferable-skills.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve career growth, the listed guests, or the chapter topics above.

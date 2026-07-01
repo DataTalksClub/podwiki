@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=VXQIGHUWeL0"
 spotify_url: "https://open.spotify.com/episode/1z7jdogto8i4Zk6Zh1vDxE?si=KCg2Iq1US0SKwFCKasGqUg"
 apple_url: "https://podcasts.apple.com/us/podcast/using-data-to-create-liveable-cities-rachel-lim/id1541710331?i=1000675373908"
 ---
-# Urban Data Science: Transport Analytics, Sensors and Liveable Cities
+
+# Episode: Urban Data Science: Transport Analytics, Sensors and Liveable Cities
 
 ## Original Episode
 
@@ -25,13 +26,28 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How can cities use transport analytics, sensors and AI to become more liveable? In this episode Rachel Lim, an urban data scientist with a geography background and a master''s in urban data science, walks through practical ways data informs transport planning and placemaking. We cover core data sources—GPS, sensors, fare card systems, ride-hailing logs and computer vision for passenger flow—plus travel demand forecasting, real-time monitoring (including event analytics like F1), and operational responses such as.
+This episode covers Urban Data Science - Transport Analytics, Sensors and Liveable Cities.
+
+## Episode Value
+
+This episode covers Urban Data Science - Transport Analytics, Sensors and Liveable Cities.
+
+Agents should consider this episode when working on data engineering, LLMs, computer vision.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Rachel Lim]({{ '/people/rachellim/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- data engineering
+- LLMs
+- computer vision
+- data science
 
 ## Chapter Summary
 
@@ -45,7 +61,7 @@ Use these checkpoints to decide whether to open the source transcript.
 - 6:47 - [Data Sources for Transport: GPS, sensors, fare cards, ride-hailing](https://www.youtube.com/watch?v=VXQIGHUWeL0&t=407)
 - 7:40 - [Fare Card Systems: tap-in/tap-out travel data mechanics](https://www.youtube.com/watch?v=VXQIGHUWeL0&t=460)
 - 8:20 - [Computer Vision for Passenger Flow where fare data is absent](https://www.youtube.com/watch?v=VXQIGHUWeL0&t=500)
-- 8:55 - [Professional Motivation: internships, World City Summit, master’s study](https://www.youtube.com/watch?v=VXQIGHUWeL0&t=535)
+- 8:55 - [Professional Motivation: internships, World City Summit, master's study](https://www.youtube.com/watch?v=VXQIGHUWeL0&t=535)
 - 11:26 - [Urban Design Principles: walkability, public spaces, human-scale streets](https://www.youtube.com/watch?v=VXQIGHUWeL0&t=686)
 - 13:49 - [Livability Criteria: transport, housing, green space, digital access](https://www.youtube.com/watch?v=VXQIGHUWeL0&t=829)
 - 15:48 - [Singapore Planning Practices: Master Plan and placemaking initiatives](https://www.youtube.com/watch?v=VXQIGHUWeL0&t=948)
@@ -66,3 +82,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 46:00 - [Singapore Open Data Portals: data.gov.sg and DataMall resources](https://www.youtube.com/watch?v=VXQIGHUWeL0&t=2760)
 - 47:05 - [Project Ideas for Learning: car parking and real-time taxi datasets](https://www.youtube.com/watch?v=VXQIGHUWeL0&t=2825)
 - 49:16 - [Recommended Resources: DataTalks.Club, Jane Jacobs, Happy City](https://www.youtube.com/watch?v=VXQIGHUWeL0&t=2956)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around data engineering, LLMs, computer vision, data science.
+- First pass reading starts with Episode Introduction, Guest Introduction: Rachel Lim, urban data scientist, Career Path: Geography to urban informatics and data engineering, Transport Scientist Role: public sector and consultancy applications.
+- Source file: `datatalksclub.github.io/_podcast/urban-data-science.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve data engineering, LLMs, computer vision, data science, the listed guests, or the chapter topics above.

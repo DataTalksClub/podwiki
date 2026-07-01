@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=m45tNY-8gY8"
 spotify_url: "https://open.spotify.com/episode/4jNredXndQ2b2evgfSmD2G?si=gU2kT-zXSX27hDPgLtwMgQ"
 apple_url: "https://podcasts.apple.com/us/podcast/building-machine-learning-products-reem-mahmoud/id1541710331?i=1000649393833"
 ---
-# Production ML Search: Embeddings, Hybrid Architectures and Scalable Indexing
+
+# Episode: Production ML Search: Embeddings, Hybrid Architectures and Scalable Indexing
 
 ## Original Episode
 
@@ -25,13 +26,29 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you move from prototypes to production ML search that scales and stays relevant? In this episode Reem Mahmoud, Director of Data Science at intervu.ai, breaks down practical approaches to building production ML search systems—focusing on embeddings, hybrid architectures, and scalable indexing.
+This episode covers Production ML Search - Embeddings, Hybrid Architectures and Scalable Indexing.
+
+## Episode Value
+
+This episode covers Production ML Search - Embeddings, Hybrid Architectures and Scalable Indexing.
+
+Agents should consider this episode when working on LLMs, NLP, machine learning.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Reem Mahmoud]({{ '/people/reemmahmoud/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- LLMs
+- NLP
+- machine learning
+- MLOps
+- data engineering
 
 ## Chapter Summary
 
@@ -62,3 +79,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 58:17 - [E-commerce Personalization: Prototyping with embeddings and CLIP](https://www.youtube.com/watch?v=m45tNY-8gY8&t=3497)
 - 1:01:25 - [Search Metrics: Business KPIs, A/B tests, and revenue attribution](https://www.youtube.com/watch?v=m45tNY-8gY8&t=3685)
 - 1:03:50 - [Operationalization: Enabling engineers, offline tests, and fast iteration](https://www.youtube.com/watch?v=m45tNY-8gY8&t=3830)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around LLMs, NLP, machine learning, MLOps, data engineering.
+- First pass reading starts with Guest Introduction: Daniel, Superlinked, and VectorHub, Career Journey: Competitive programming, startups, and YouTube Ads, Competitive Programming to Infrastructure: relevance of algorithms, Defining Search: Information retrieval as a decision problem.
+- Source file: `datatalksclub.github.io/_podcast/production-ml-search-vector-search-embeddings-hybrid-search.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve LLMs, NLP, machine learning, MLOps, the listed guests, or the chapter topics above.

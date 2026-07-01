@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=lpjffCOPxlY"
 spotify_url: "https://open.spotify.com/episode/54DufG1ZVj0GMSoWTbJsen?si=d7XNSW2_Tfa4qKJxmFQpIA"
 apple_url: "https://podcasts.apple.com/us/podcast/large-scale-entity-resolution-sonal-goyal/id1541710331?i=1000584270745"
 ---
-# Building an Open-Source ML-Powered Identity Resolution Tool in the Modern Data Stack
+
+# Episode: Building an Open-Source ML-Powered Identity Resolution Tool in the Modern Data Stack
 
 ## Original Episode
 
@@ -25,13 +26,29 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you build an open-source, ML-powered identity resolution tool that becomes the single source of truth in a modern data stack? In this episode Sonal Goyal—founder of Zingg and a 23-year data product veteran—walks through the practical challenges of identity resolution and entity resolution across industries like investment banking, telecom, gaming, and insurance. Sonal explains why ML-powered approaches matter, how an open-source framework like Zingg can fit into your modern data stack, and what it takes to.
+This episode covers Building an Open-Source ML-Powered Identity Resolution Tool in the Modern Data Stack.
+
+## Episode Value
+
+This episode covers Building an Open-Source ML-Powered Identity Resolution Tool in the Modern Data Stack.
+
+Agents should consider this episode when working on machine learning, MLOps, data engineering.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Sonal Goyal]({{ '/people/sonalgoyal/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- machine learning
+- MLOps
+- data engineering
+- open-source
+- product management
 
 ## Chapter Summary
 
@@ -42,7 +59,7 @@ Use these checkpoints to decide whether to open the source transcript.
 - 2:06 - [Career Overview: 24 years in tech, data consulting background](https://www.youtube.com/watch?v=lpjffCOPxlY&t=126)
 - 2:58 - [Origin Story: Consulting projects reveal recurring identity gaps](https://www.youtube.com/watch?v=lpjffCOPxlY&t=178)
 - 4:51 - [Modern Data Stack: Centralized data exposing identity challenges](https://www.youtube.com/watch?v=lpjffCOPxlY&t=291)
-- 5:43 - [Product Overview: Zingg — ML-powered identity resolution](https://www.youtube.com/watch?v=lpjffCOPxlY&t=343)
+- 5:43 - [Product Overview: Zingg - ML-powered identity resolution](https://www.youtube.com/watch?v=lpjffCOPxlY&t=343)
 - 7:14 - [Terminology: Entity resolution vs identity resolution](https://www.youtube.com/watch?v=lpjffCOPxlY&t=434)
 - 7:52 - [Duplicate Detection vs Deduplication: Outcomes and use cases](https://www.youtube.com/watch?v=lpjffCOPxlY&t=472)
 - 9:08 - [Motivation: Recurring duplicate problems across domains](https://www.youtube.com/watch?v=lpjffCOPxlY&t=548)
@@ -60,8 +77,8 @@ Use these checkpoints to decide whether to open the source transcript.
 - 32:59 - [Founder Role: Product, ecosystem integrations, community and hiring](https://www.youtube.com/watch?v=lpjffCOPxlY&t=1979)
 - 35:14 - [Team & Hiring: First developer hire and fully remote setup](https://www.youtube.com/watch?v=lpjffCOPxlY&t=2114)
 - 37:21 - [Scaling Challenge: Recruiting the right engineering talent](https://www.youtube.com/watch?v=lpjffCOPxlY&t=2241)
-- 38:43 - [Prevention Limits: Data governance won’t fully eliminate identity issues](https://www.youtube.com/watch?v=lpjffCOPxlY&t=2323)
-- 40:36 - [Beyond Joins: When fuzzy joins and basic ETL aren’t enough](https://www.youtube.com/watch?v=lpjffCOPxlY&t=2436)
+- 38:43 - [Prevention Limits: Data governance won't fully eliminate identity issues](https://www.youtube.com/watch?v=lpjffCOPxlY&t=2323)
+- 40:36 - [Beyond Joins: When fuzzy joins and basic ETL aren't enough](https://www.youtube.com/watch?v=lpjffCOPxlY&t=2436)
 - 44:25 - [Deterministic Rules vs Probabilistic ML: Trade-offs for accuracy](https://www.youtube.com/watch?v=lpjffCOPxlY&t=2665)
 - 45:50 - [Fraud Use Cases: Identity resolution for AML and fraud detection](https://www.youtube.com/watch?v=lpjffCOPxlY&t=2750)
 - 49:23 - [Graph + ML: Pairwise matching, graph clustering and downstream use](https://www.youtube.com/watch?v=lpjffCOPxlY&t=2963)
@@ -70,3 +87,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 54:11 - [Retrospective: Seeking cofounder earlier and open-sourcing sooner](https://www.youtube.com/watch?v=lpjffCOPxlY&t=3251)
 - 56:07 - [Founder Advice: Validate use cases, distribution channels, and conviction](https://www.youtube.com/watch?v=lpjffCOPxlY&t=3367)
 - 59:26 - [Recommended Reading: Creative Selection on product design](https://www.youtube.com/watch?v=lpjffCOPxlY&t=3566)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around machine learning, MLOps, data engineering, open-source, product management.
+- First pass reading starts with Guest Overview: Sonal Goyal and Zingg identity resolution, Career Overview: 24 years in tech, data consulting background, Origin Story: Consulting projects reveal recurring identity gaps, Modern Data Stack: Centralized data exposing identity challenges.
+- Source file: `datatalksclub.github.io/_podcast/building-open-source-data-product-for-identity-resolution.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve machine learning, MLOps, data engineering, open-source, the listed guests, or the chapter topics above.

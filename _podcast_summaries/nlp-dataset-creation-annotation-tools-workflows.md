@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=QggWydGrWoo"
 spotify_url: "https://open.spotify.com/episode/26K8JrQXKwLpQelo4n4Kdi?si=e2ad35c4941446c4"
 apple_url: "https://podcasts.apple.com/us/podcast/dataset-creation-and-curation-christiaan-swart/id1541710331?i=1000578975804"
 ---
-# Practical Guide to Dataset Creation & Annotation for NLP: Active Learning, Weak Supervision, Tools
+
+# Episode: Practical Guide to Dataset Creation & Annotation for NLP: Active Learning, Weak Supervision, Tools
 
 ## Original Episode
 
@@ -25,13 +26,26 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you create high-quality NLP datasets without breaking the budget? In this episode Christiaan Swart — an NLP practitioner with six years’ experience across email, complaints, pharma, and sales who cofounded Comtura (born from sales call transcription and CRM integration) — walks through practical methods for dataset creation and annotation.
+This episode covers Practical Guide to Dataset Creation & Annotation for NLP - Active Learning, Weak Supervision, Tools.
+
+## Episode Value
+
+This episode covers Practical Guide to Dataset Creation & Annotation for NLP - Active Learning, Weak Supervision, Tools.
+
+Agents should consider this episode when working on NLP, data.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Christiaan Swart]({{ '/people/christiannswart/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- NLP
+- data
 
 ## Chapter Summary
 
@@ -57,3 +71,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 52:34 - [Portfolio Advice: Building career projects via dataset creation](https://www.youtube.com/watch?v=QggWydGrWoo&t=3154)
 - 57:18 - [Quick-start Collection: IPython widgets and Fast.ai for beginners](https://www.youtube.com/watch?v=QggWydGrWoo&t=3438)
 - 58:26 - [Privacy & Multilingual NLP: GDPR, anonymization, and language challenges](https://www.youtube.com/watch?v=QggWydGrWoo&t=3506)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around NLP, data.
+- First pass reading starts with Episode Overview: Dataset creation, curation, and annotation, Guest Background & Career in NLP and bio-NLP, Comtura Origin: Sales call transcription and CRM integration, Dataset Creation Approaches: Automated, manual, and hybrid pipelines.
+- Source file: `datatalksclub.github.io/_podcast/nlp-dataset-creation-annotation-tools-workflows.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve NLP, data, the listed guests, or the chapter topics above.

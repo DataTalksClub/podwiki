@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=YxijEUoDCfw"
 spotify_url: "https://open.spotify.com/episode/7wjKCbCsD4ytuNrE8JrH2B?si=1WPAtw6PSZGVib0qSsoLvA"
 apple_url: "https://podcasts.apple.com/us/podcast/machine-learning-in-marketing-juan-orduz/id1541710331?i=1000564219176"
 ---
-# Asteroid Mining: Using ML & Hyperspectral Spectroscopy to Detect Water for ISRU
+
+# Episode: Asteroid Mining: Using ML & Hyperspectral Spectroscopy to Detect Water for ISRU
 
 ## Original Episode
 
@@ -25,13 +26,26 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How can we reliably detect water on near-Earth asteroids using machine learning and hyperspectral spectroscopy to enable in-situ resource utilization (ISRU)? In this episode Daynan Crull—co-founder of Karman+ and lead of its science and technology effort—walks through the science and engineering needed to find and characterize asteroid water for space missions. Drawing on his background in remote sensing and ML, Daynan explains hyperspectral infrared signatures for water detection, spectral classification.
+This episode covers Asteroid Mining - Using ML & Hyperspectral Spectroscopy to Detect Water for ISRU.
+
+## Episode Value
+
+This episode covers Asteroid Mining - Using ML & Hyperspectral Spectroscopy to Detect Water for ISRU.
+
+Agents should consider this episode when working on machine learning, astronomy.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Daynan Crull]({{ '/people/daynancrull/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- machine learning
+- astronomy
 
 ## Chapter Summary
 
@@ -59,3 +73,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 53:22 - [Sampling & Extraction Methods: Scooping, Surface Interaction & R&D](https://www.youtube.com/watch?v=YxijEUoDCfw&t=3202)
 - 57:16 - [Mathematical Models: Bayesian Frameworks, Thermal Models & Yarkovsky](https://www.youtube.com/watch?v=YxijEUoDCfw&t=3436)
 - 1:00:11 - [Tools & Workflows: Notebooks, Reproducibility & Research Practices](https://www.youtube.com/watch?v=YxijEUoDCfw&t=3611)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around machine learning, astronomy.
+- First pass reading starts with Career & Data Science Pivot: From Astronomy to Asteroid Mining, Cosmology vs. Astronomy: Timescales, Theory & Observation, Machine Learning in Astronomy: Tasks, Signal Processing & Scaling, Gravitational Wave Detection: Signal, Noise & Instrument Glitches.
+- Source file: `datatalksclub.github.io/_podcast/machine-learning-for-asteroid-mining-and-water-detection.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve machine learning, astronomy, the listed guests, or the chapter topics above.

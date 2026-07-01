@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=nCqwZT9zA0M"
 spotify_url: "https://open.spotify.com/episode/0j1eKj9NbK3oAXHXHyaNae?si=M7rw9WixTvWw-BfKPXPwVg"
 apple_url: "https://podcasts.apple.com/us/podcast/datatalks-club-anniversary-interview-alexey-grigorev/id1541710331?i=1000631114088"
 ---
-# Building a Sustainable Data Community: 3 Years of DataTalks.Club Growth and Evolution
+
+# Episode: Building a Sustainable Data Community: 3 Years of DataTalks.Club Growth and Evolution
 
 ## Original Episode
 
@@ -25,7 +26,13 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you build a sustainable data community that endures beyond meetup hype and founder energy? In this episode Alexey Grigorev, founder of DataTalks.Club, and Johanna Bayer, a researcher about to complete her PhD in machine learning for clinical neuroimaging at the University of Melbourne, discuss three years of community growth and evolution.
+This episode covers Building a Sustainable Data Community - 3 Years of DataTalks.Club Growth and Evolution.
+
+## Episode Value
+
+This episode covers Building a Sustainable Data Community - 3 Years of DataTalks.Club Growth and Evolution.
+
+Agents should consider this episode when working on community building, machine learning, data science.
 
 ## People
 
@@ -33,6 +40,16 @@ Use these links to connect the episode to guest notes.
 
 - [Alexey Grigorev]({{ '/people/alexeygrigorev/' | relative_url }})
 - [Johanna Bayer]({{ '/people/johannabayer/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- community building
+- machine learning
+- data science
+- data engineering
+- MLOps
 
 ## Chapter Summary
 
@@ -59,3 +76,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 55:28 - [Backburner Projects: Hackathons, Event Recommender Ideas, and Event Tools](https://www.youtube.com/watch?v=nCqwZT9zA0M&t=3328)
 - 59:19 - [Success Metrics: Newsletter Performance, Active Users, and Sponsors](https://www.youtube.com/watch?v=nCqwZT9zA0M&t=3559)
 - 1:02:06 - [Closing Remarks: Next Steps and Continuing Community Growth](https://www.youtube.com/watch?v=nCqwZT9zA0M&t=3726)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around community building, machine learning, data science, data engineering, MLOps.
+- First pass reading starts with Episode Opening & DataTalks.Club 3rd Anniversary, Career Shift: From Java Developer to Machine Learning & Python, Transition: Full-time on DataTalks.Club; engineering-heavy roles, Sustainability Strategy: Monetization and Sponsorship Focus.
+- Source file: `datatalksclub.github.io/_podcast/datatalksclub-building-sustainable-data-community-3-years-anniversary.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve community building, machine learning, data science, data engineering, the listed guests, or the chapter topics above.

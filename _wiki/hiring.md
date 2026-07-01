@@ -130,7 +130,7 @@ job-description language for gendered or discouraging phrasing
 ([Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }})).
 [Olga Ivina]({{ '/people/olgaivina/' | relative_url }}) discusses inclusive
 job posts, requirement choices, and attracting female data science talent
-([How to Hire Data Scientists]({{ '/podcasts/hiring-for-data-science-jobs-interview-questions-skills.md/' | relative_url }})).
+([How to Hire Data Scientists]({{ '/podcasts/hiring-for-data-science-jobs-interview-questions-skills/' | relative_url }})).
 Tereza Iofciu's warning about "rockstar" wording and overloaded bullet lists
 turns the same issue into a culture signal
 ([Data Science Jobs]({{ '/podcasts/data-science-job-red-flags-and-mismatched-roles/' | relative_url }})).
@@ -188,7 +188,7 @@ also looks for algorithmic understanding, assumptions, and communication.
 Coding tasks, analytical tasks, and objective criteria matter too. She
 separates mathematical depth from engineering skill when the role requires one
 more than the other
-([How to Hire Data Scientists]({{ '/podcasts/hiring-for-data-science-jobs-interview-questions-skills.md/' | relative_url }})).
+([How to Hire Data Scientists]({{ '/podcasts/hiring-for-data-science-jobs-interview-questions-skills/' | relative_url }})).
 
 Manager hiring needs a different evidence set. Katie Bauer says data science
 manager interviews should test team-building judgment and stakeholder
@@ -214,7 +214,7 @@ She also discusses human-in-the-loop judgment and the limits of automation. Her
 distinction between mathematical expertise and engineering skills helps
 employers choose among model researcher, applied data scientist and ML engineer
 roles. Some roles bridge delivery and operations
-([How to Hire Data Scientists]({{ '/podcasts/hiring-for-data-science-jobs-interview-questions-skills.md/' | relative_url }})).
+([How to Hire Data Scientists]({{ '/podcasts/hiring-for-data-science-jobs-interview-questions-skills/' | relative_url }})).
 
 [Ivan Bilan]({{ '/people/ivanbilan/' | relative_url }}) makes the specialist
 version concrete for [NLP]({{ '/wiki/nlp/' | relative_url }}) teams. He

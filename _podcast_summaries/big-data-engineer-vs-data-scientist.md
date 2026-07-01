@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=yg3d1lFd7Uo"
 spotify_url: "https://open.spotify.com/episode/08Mb5JOOo6sWOFgsXILVsj"
 apple_url: "https://podcasts.apple.com/us/podcast/big-data-engineer-vs-data-scientist-roksolana-diachuk/id1541710331?i=1000528386609"
 ---
-# Big Data Engineer vs Data Scientist: Skills, Tools, and Career Paths
+
+# Episode: Big Data Engineer vs Data Scientist: Skills, Tools, and Career Paths
 
 ## Original Episode
 
@@ -25,13 +26,28 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do the day-to-day responsibilities and skill sets really differ between a Big Data Engineer and a Data Scientist—and what should you learn to move between those roles? In this episode, Roksolana Diachuk, a Big Data Engineer at Captify, Women Who Code Kyiv lead and speaker on Scala and Kubernetes, walks through her career transition from backend Java into big data engineering and R&D.
+This episode covers Big Data Engineer vs Data Scientist - Skills, Tools, and Career Paths.
+
+## Episode Value
+
+This episode covers Big Data Engineer vs Data Scientist - Skills, Tools, and Career Paths.
+
+Agents should consider this episode when working on career transition, software engineering, data engineering.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Roksolana Diachuk]({{ '/people/roksolanadiachuk/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- career transition
+- software engineering
+- data engineering
+- data science
 
 ## Chapter Summary
 
@@ -48,7 +64,7 @@ Use these checkpoints to decide whether to open the source transcript.
 - 13:56 - [Data Scientist Scope: Data Cleaning, Feature Engineering, Model Cycle & Deployment](https://www.youtube.com/watch?v=yg3d1lFd7Uo&t=836)
 - 15:32 - [Tool Overlap: Spark & Python vs ML Libraries for Modeling](https://www.youtube.com/watch?v=yg3d1lFd7Uo&t=932)
 - 16:26 - [Collaboration Model: File Interfaces (Parquet) and Team Structures](https://www.youtube.com/watch?v=yg3d1lFd7Uo&t=986)
-- 18:54 - [Case Study: Recommendation System — Streaming and Batch Pipeline Design](https://www.youtube.com/watch?v=yg3d1lFd7Uo&t=1134)
+- 18:54 - [Case Study: Recommendation System - Streaming and Batch Pipeline Design](https://www.youtube.com/watch?v=yg3d1lFd7Uo&t=1134)
 - 22:51 - [Streaming vs Batch Choices: Flink for Streaming, Spark for Batch, Parquet](https://www.youtube.com/watch?v=yg3d1lFd7Uo&t=1371)
 - 23:40 - [ML Deployment Stack: MLflow, Kubeflow, Kubernetes & ML Engineer Roles](https://www.youtube.com/watch?v=yg3d1lFd7Uo&t=1420)
 - 24:49 - [Cross-Skill Expectations: What Data Scientists Should Know About Pipelines](https://www.youtube.com/watch?v=yg3d1lFd7Uo&t=1489)
@@ -67,3 +83,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 58:05 - [Operational Challenges: Deduplication, Historical Reprocessing, Risk Management](https://www.youtube.com/watch?v=yg3d1lFd7Uo&t=3485)
 - 1:00:25 - [Data Versioning & Time Travel: Delta Lake for Reprocessing and Auditing](https://www.youtube.com/watch?v=yg3d1lFd7Uo&t=3625)
 - 1:00:40 - [Learning Recommendations: Coursera Big Data Specialization; Spark & Data](https://www.youtube.com/watch?v=yg3d1lFd7Uo&t=3640)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around career transition, software engineering, data engineering, data science.
+- First pass reading starts with Episode Overview & Guest Introduction, Career Path: From Backend Java to Big Data Engineering (Scala, R&D, Captify), Core Responsibilities: Building ETL Data Pipelines, HDFS/S3, Impala, Performance Focus: Spark Job Optimization & Cluster Resource Planning.
+- Source file: `datatalksclub.github.io/_podcast/big-data-engineer-vs-data-scientist.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve career transition, software engineering, data engineering, data science, the listed guests, or the chapter topics above.

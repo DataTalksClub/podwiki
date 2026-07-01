@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=GHbeXIKnkLQ"
 spotify_url: "https://open.spotify.com/episode/50wIZxjq6goREu9pwXYITP?si=mPW0v5fBQxuBpg622CpCEA"
 apple_url: "https://podcasts.apple.com/us/podcast/datatalks-club-4th-anniversary-ama-podcast-alexey-grigorev/id1541710331?i=1000674473200"
 ---
-# Inside Scaling DataTalks.Club: How We Built Free Data Engineering, MLOps & LLM Courses
+
+# Episode: Inside Scaling DataTalks.Club: How We Built Free Data Engineering, MLOps & LLM Courses
 
 ## Original Episode
 
@@ -25,13 +26,31 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you scale a volunteer-run learning community into a sustainable platform offering free data engineering, MLOps, and LLM courses? In this episode Alexey Grigorev, founder of DataTalks.Club, walks through the origin story of the project, the leap to running it full-time, and the practical tradeoffs of building free data engineering courses at scale.
+This episode covers Inside Scaling DataTalks.Club - How We Built Free Data Engineering, MLOps & LLM Courses.
+
+## Episode Value
+
+This episode covers Inside Scaling DataTalks.Club - How We Built Free Data Engineering, MLOps & LLM Courses.
+
+Agents should consider this episode when working on MLOps, LLMs, data engineering.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Alexey Grigorev]({{ '/people/alexeygrigorev/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- MLOps
+- LLMs
+- data engineering
+- machine learning
+- career transition
+- community building
+- teaching
 
 ## Chapter Summary
 
@@ -67,3 +86,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 58:47 - [Career Advice: Starting in data science now and junior hiring realities](https://www.youtube.com/watch?v=GHbeXIKnkLQ&t=3527)
 - 1:01:10 - [Personal Reads: Book recommendations and current reading](https://www.youtube.com/watch?v=GHbeXIKnkLQ&t=3670)
 - 1:02:41 - [Closing Remarks & Thank You](https://www.youtube.com/watch?v=GHbeXIKnkLQ&t=3761)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around MLOps, LLMs, data engineering, machine learning, career transition, community building.
+- First pass reading starts with Podcast Welcome & AMA Format (community links and live questions), Host Intro: Johanna as special host, Origin Story: Founding DataTalks.Club during COVID, Career Shift: Transition to running DataTalks.Club full-time.
+- Source file: `datatalksclub.github.io/_podcast/datatalksclub-scaling-and-free-courses.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve MLOps, LLMs, data engineering, machine learning, the listed guests, or the chapter topics above.

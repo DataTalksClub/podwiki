@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=pDOwlulDh0c"
 spotify_url: "https://open.spotify.com/episode/5W6lfZVhjIKEmVzBuexfzE?si=0nUHr66eQa6oPVJDb3d0rw"
 apple_url: "https://podcasts.apple.com/us/podcast/bridging-data-science-and-healthcare-eleni-stamatelou/id1541710331?i=1000632040444"
 ---
-# Building Healthcare ML Systems: From Sepsis Prediction to Low-Resource Clinical Deployment
+
+# Episode: Building Healthcare ML Systems: From Sepsis Prediction to Low-Resource Clinical Deployment
 
 ## Original Episode
 
@@ -25,7 +26,13 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you build machine learning systems that can predict sepsis and actually work in low-resource clinical settings? In this episode Eleni Stamatelou, a machine learning researcher and educator focused on using data science to improve healthcare, walks through the technical and practical steps of turning models into deployed clinical tools. With expertise in signal processing, deep learning, and data-driven design, Eleni frames the core challenges of healthcare ML: data quality and preprocessing, model.
+This episode covers Building Healthcare ML Systems - From Sepsis Prediction to Low-Resource Clinical Deployment.
+
+## Episode Value
+
+This episode covers Building Healthcare ML Systems - From Sepsis Prediction to Low-Resource Clinical Deployment.
+
+Agents should consider this episode when working on machine learning, data science, MLOps.
 
 ## People
 
@@ -33,19 +40,30 @@ Use these links to connect the episode to guest notes.
 
 - [Eleni Stamatelou]({{ '/people/elenistamatelou/' | relative_url }})
 
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- machine learning
+- data science
+- MLOps
+- data engineering
+- data governance
+- healthcare
+
 ## Chapter Summary
 
 Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=pDOwlulDh0c&t=0)
-- 0:44 - [Guest Overview: Elena Stamatelou — ML researcher focused on healthcare](https://www.youtube.com/watch?v=pDOwlulDh0c&t=44)
+- 0:44 - [Guest Overview: Elena Stamatelou - ML researcher focused on healthcare](https://www.youtube.com/watch?v=pDOwlulDh0c&t=44)
 - 1:45 - [Education & Early Career: University of Patras, Erasmus, VUB/ULB](https://www.youtube.com/watch?v=pDOwlulDh0c&t=105)
 - 2:45 - [Moving to the Netherlands: Philips Healthcare internship and doctorate in](https://www.youtube.com/watch?v=pDOwlulDh0c&t=165)
 - 4:43 - [Philips Healthcare Projects: C-arm imaging and pregnancy monitoring](https://www.youtube.com/watch?v=pDOwlulDh0c&t=283)
 - 6:48 - [Low-Resource Pediatric Monitoring: Vital-sign system design for Malawi](https://www.youtube.com/watch?v=pDOwlulDh0c&t=408)
 - 7:34 - [Data Collection for Clinical Outcomes: linking sensors to lab results](https://www.youtube.com/watch?v=pDOwlulDh0c&t=454)
 - 9:34 - [Motivation for Healthcare: choosing impact over other engineering paths](https://www.youtube.com/watch?v=pDOwlulDh0c&t=574)
-- 11:03 - [Master’s Thesis: white blood cell image classification for a cell sorter](https://www.youtube.com/watch?v=pDOwlulDh0c&t=663)
+- 11:03 - [Master's Thesis: white blood cell image classification for a cell sorter](https://www.youtube.com/watch?v=pDOwlulDh0c&t=663)
 - 13:13 - [3D Reconstruction Work: multi-view geometry from C-arm images](https://www.youtube.com/watch?v=pDOwlulDh0c&t=793)
 - 15:43 - [Home Monitoring for Pregnancy: smartwatches, weight tracking, and midwife](https://www.youtube.com/watch?v=pDOwlulDh0c&t=943)
 - 18:05 - [Research Orientation: novelty with clinical translation](https://www.youtube.com/watch?v=pDOwlulDh0c&t=1085)
@@ -66,3 +84,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 55:46 - [Skills Transferability: technical skills are sufficient; learn clinical context](https://www.youtube.com/watch?v=pDOwlulDh0c&t=3346)
 - 56:50 - [Job Market & Funding: demand for healthcare data scientists and research](https://www.youtube.com/watch?v=pDOwlulDh0c&t=3410)
 - 58:59 - [Closing Remarks and Resources (publications, GitHub, LinkedIn)](https://www.youtube.com/watch?v=pDOwlulDh0c&t=3539)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around machine learning, data science, MLOps, data engineering, data governance, healthcare.
+- First pass reading starts with Guest Overview: Elena Stamatelou - ML researcher focused on healthcare, Education & Early Career: University of Patras, Erasmus, VUB/ULB, Moving to the Netherlands: Philips Healthcare internship and doctorate in, Philips Healthcare Projects: C-arm imaging and pregnancy monitoring.
+- Source file: `datatalksclub.github.io/_podcast/building-healthcare-machine-learning-systems.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve machine learning, data science, MLOps, data engineering, the listed guests, or the chapter topics above.

@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=GifY8Zn-pnU"
 spotify_url: "https://open.spotify.com/episode/5GOBabz65IRmiMow8FYbr5?si=rx69Xf98QZqGqgpEQgzX2w"
 apple_url: "https://podcasts.apple.com/us/podcast/career-advice-learning-and-featuring-women-in-ml-and/id1541710331?i=1000680294201"
 ---
-# From Biology to ML: Build a Data Science Portfolio with Open-Source, Computer Vision & Transformers
+
+# Episode: From Biology to ML: Build a Data Science Portfolio with Open-Source, Computer Vision & Transformers
 
 ## Original Episode
 
@@ -25,13 +26,29 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you move from a biology background into machine learning and build a data science portfolio that actually gets noticed? In this episode, Isabella Bicalho — a machine learning engineer and data scientist with three years of hands-on AI development and roots in computational research — walks through practical approaches for showcasing skills with open-source, computer vision, and transformer projects.
+This episode covers From Biology to ML - Build a Data Science Portfolio with Open-Source, Computer Vision & Transformers.
+
+## Episode Value
+
+This episode covers From Biology to ML - Build a Data Science Portfolio with Open-Source, Computer Vision & Transformers.
+
+Agents should consider this episode when working on machine learning, computer vision, open-source.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Isabella Bicalho]({{ '/people/isabellabicalho/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- machine learning
+- computer vision
+- open-source
+- bioinformatics
+- career transition
 
 ## Chapter Summary
 
@@ -60,3 +77,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 53:59 - [Data Like Substack: Spotlighting Women in Data and ML](https://www.youtube.com/watch?v=GifY8Zn-pnU&t=3239)
 - 57:27 - [Featured Interviews: Bioinformatics, Fake News Detection, AI Ethics](https://www.youtube.com/watch?v=GifY8Zn-pnU&t=3447)
 - 1:02:16 - [Connecting with Isabella: LinkedIn and Substack Contact Info](https://www.youtube.com/watch?v=GifY8Zn-pnU&t=3736)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around machine learning, computer vision, open-source, bioinformatics, career transition.
+- First pass reading starts with Episode Introduction: Continuous Learning in Data Science (guest Isabella, Career Overview: Transition from Biology to Machine Learning, Statistics as Gateway to Machine Learning; Progression to Transformers, Education: University of Maranhão and University of Marseille.
+- Source file: `datatalksclub.github.io/_podcast/from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve machine learning, computer vision, open-source, bioinformatics, the listed guests, or the chapter topics above.

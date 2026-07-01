@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=IdaZOD46FEw"
 spotify_url: "https://open.spotify.com/episode/64lEB0Wv0a6DfkDi672Ulk"
 apple_url: "https://podcasts.apple.com/us/podcast/chief-data-officer-marco-de-sa/id1541710331?i=1000533326308"
 ---
-# Mastering the Chief Data Officer Role: Build Data Strategy, Org Design & AI
+
+# Episode: Mastering the Chief Data Officer Role: Build Data Strategy, Org Design & AI
 
 ## Original Episode
 
@@ -25,13 +26,31 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you move from head of data to an effective Chief Data Officer who builds strategy, designs the org, and delivers AI? In this episode, Marco De Sa — CDO at OLX Group with prior data leadership roles at Yahoo, Facebook, Twitter, and Spotify — lays out what modern data leadership really requires.
+This episode covers Mastering the Chief Data Officer Role - Build Data Strategy, Org Design & AI.
+
+## Episode Value
+
+This episode covers Mastering the Chief Data Officer Role - Build Data Strategy, Org Design & AI.
+
+Agents should consider this episode when working on data strategy, data governance, AI.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Marco De Sa]({{ '/people/marcodesa/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- data strategy
+- data governance
+- AI
+- leadership
+- career growth
+- communication
+- team building
 
 ## Chapter Summary
 
@@ -63,3 +82,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 54:16 - [OLX Group Challenges: Geographic, Product, and Tech Complexity](https://www.youtube.com/watch?v=IdaZOD46FEw&t=3256)
 - 56:36 - [Interviewing for CDO: Demonstrating Strategic Thinking](https://www.youtube.com/watch?v=IdaZOD46FEw&t=3396)
 - 59:40 - [Overcoming Resistance: Persuasion, Evidence, and Constraints](https://www.youtube.com/watch?v=IdaZOD46FEw&t=3580)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around data strategy, data governance, AI, leadership, career growth, communication.
+- First pass reading starts with Guest Overview: Marco''s Career & Roles, Industry Experience: Yahoo, Facebook, Twitter, Spotify, Transition to OLX Group and CDO Appointment, Chief Data Officer Scope: Data Strategy, Governance, AI.
+- Source file: `datatalksclub.github.io/_podcast/chief-data-officer-data-strategy-and-org-design.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve data strategy, data governance, AI, leadership, the listed guests, or the chapter topics above.

@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=p4wg0Vd2uD4"
 spotify_url: "https://open.spotify.com/episode/1Oh6ewUJ2c1jiVcKxWIwDU"
 apple_url: "https://podcasts.apple.com/us/podcast/product-management-essentials-for-data-professionals/id1541710331?i=1000550093434"
 ---
-# Build & Scale Data Products for AI: Roadmaps, MLOps, Customer Research & Metrics
+
+# Episode: Build & Scale Data Products for AI: Roadmaps, MLOps, Customer Research & Metrics
 
 ## Original Episode
 
@@ -25,13 +26,28 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you move from proofs-of-concept to scalable AI data products that deliver measurable business value? In this episode, Greg Coquillo, a Technology Manager at Amazon who builds AI roadmaps for Private Brands’ product safety and compliance, walks through practical approaches for building and scaling data products, MLOps, customer research, and metrics.
+This episode covers Build & Scale Data Products for AI - Roadmaps, MLOps, Customer Research & Metrics.
+
+## Episode Value
+
+This episode covers Build & Scale Data Products for AI - Roadmaps, MLOps, Customer Research & Metrics.
+
+Agents should consider this episode when working on product management, MLOps, data engineering.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Greg Coquillo]({{ '/people/gregcoquillo/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- product management
+- MLOps
+- data engineering
+- data science
 
 ## Chapter Summary
 
@@ -56,3 +72,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 55:32 - [Operating Without a PM: Identify Customers & Validate Work](https://www.youtube.com/watch?v=p4wg0Vd2uD4&t=3332)
 - 57:44 - [Team Autonomy & Aligning Mental Models for Product Success](https://www.youtube.com/watch?v=p4wg0Vd2uD4&t=3464)
 - 58:42 - [Career Advice: Learn Product Skills on the Job & Follow-up Resources](https://www.youtube.com/watch?v=p4wg0Vd2uD4&t=3522)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around product management, MLOps, data engineering, data science.
+- First pass reading starts with Episode Introduction & Guest Overview, Career Background & Transition to AI Products, Role & Responsibilities of Data Product Managers (Internal vs External), Customer Journey & Domain Knowledge for Data Professionals.
+- Source file: `datatalksclub.github.io/_podcast/building-and-scaling-ai-data-products-with-mlops.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve product management, MLOps, data engineering, data science, the listed guests, or the chapter topics above.

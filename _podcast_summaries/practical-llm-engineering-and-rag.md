@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=eC3RNuI6ow0"
 spotify_url: "https://open.spotify.com/episode/2RD2qXaYa2ZjKjuIE7Aj6O"
 apple_url: "https://podcasts.apple.com/us/podcast/how-to-build-and-evaluate-ai-systems-in-the-age-of/id1541710331?i=1000733350691"
 ---
-# Practical LLM Engineering and RAG: Prompting, Evaluation and Real-World Workflows
+
+# Episode: Practical LLM Engineering and RAG: Prompting, Evaluation and Real-World Workflows
 
 ## Original Episode
 
@@ -25,13 +26,28 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you move from experimentation to reliable, production-ready LLM engineering and retrieval-augmented generation (RAG)? In this episode Hugo Bowne-Anderson — Head of Developer Relations at Outerbounds, longtime data scientist, educator, and host of Vanishing Gradients — walks through practical patterns for building, evaluating, and scaling real-world LLM workflows.
+This episode covers Practical LLM Engineering and RAG - Prompting, Evaluation and Real-World Workflows.
+
+## Episode Value
+
+This episode covers Practical LLM Engineering and RAG - Prompting, Evaluation and Real-World Workflows.
+
+Agents should consider this episode when working on LLMs, NLP, MLOps.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- LLMs
+- NLP
+- MLOps
+- tools
 
 ## Chapter Summary
 
@@ -47,7 +63,7 @@ Use these checkpoints to decide whether to open the source transcript.
 - 9:28 - [Everyday LLM Use Cases: Summaries, Translation, and CSV Workflows](https://www.youtube.com/watch?v=eC3RNuI6ow0&t=568)
 - 11:11 - [Prompting Best Practices: Role Prompts, Structured Output, and Timestamps](https://www.youtube.com/watch?v=eC3RNuI6ow0&t=671)
 - 12:22 - [Transcript Workflows: Gemini, Descript, Loom and Automation Tools](https://www.youtube.com/watch?v=eC3RNuI6ow0&t=742)
-- 13:56 - [Generator–Evaluator Pattern: Automated Quality Control for Outputs](https://www.youtube.com/watch?v=eC3RNuI6ow0&t=836)
+- 13:56 - [Generator-Evaluator Pattern: Automated Quality Control for Outputs](https://www.youtube.com/watch?v=eC3RNuI6ow0&t=836)
 - 17:38 - [Scaling Transcript Pipelines: Automation with GitHub Actions](https://www.youtube.com/watch?v=eC3RNuI6ow0&t=1058)
 - 23:00 - [Evaluation Sets for LLMs: Gold Tests, Size, Cost, and Representativeness](https://www.youtube.com/watch?v=eC3RNuI6ow0&t=1380)
 - 26:43 - [Failure Analysis: Categorizing Errors and Prioritizing Retrieval Fixes](https://www.youtube.com/watch?v=eC3RNuI6ow0&t=1603)
@@ -62,3 +78,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 56:21 - [Four-Step Framework for Agents: Problem, Start Small, Data, Evaluation](https://www.youtube.com/watch?v=eC3RNuI6ow0&t=3381)
 - 57:41 - [Memory Design: Retrieval-Based Memory vs Multi-Turn Conversation Memory](https://www.youtube.com/watch?v=eC3RNuI6ow0&t=3461)
 - 1:00:55 - [Episode Wrap-Up: Key Takeaways, Courses, and Next Steps](https://www.youtube.com/watch?v=eC3RNuI6ow0&t=3655)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around LLMs, NLP, MLOps, tools.
+- First pass reading starts with Podcast Kickoff & Hugo Bowne-Anderson Background, Vanishing Gradients vs High Signal: Podcast Formats & Audiences, From Academia to Industry: Biology Research, Python, and PyData, Early Industry Work: DataCamp Curriculum and Product Roles.
+- Source file: `datatalksclub.github.io/_podcast/practical-llm-engineering-and-rag.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve LLMs, NLP, MLOps, tools, the listed guests, or the chapter topics above.

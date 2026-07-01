@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=gbjoFfrm4iw"
 spotify_url: "https://open.spotify.com/episode/137H2M9qU5lFqb4hLyMBvg?si=b0KXeubVSpa3bfsuZaS6pQ"
 apple_url: "https://podcasts.apple.com/us/podcast/practical-data-privacy-katharine-jarmul/id1541710331?i=1000613701646"
 ---
-# Data Privacy Playbook: Differential Privacy, Federated Learning, PETs & Consent UX
+
+# Episode: Data Privacy Playbook: Differential Privacy, Federated Learning, PETs & Consent UX
 
 ## Original Episode
 
@@ -25,7 +26,13 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How can teams build useful machine learning while respecting user privacy, compliance, and re-identification risk? In this episode, Katharine Jarmul — privacy activist and Principal Data Scientist at ThoughtWorks Germany — walks through a practical Data Privacy Playbook focused on differential privacy, federated learning, privacy-enhancing technologies (PETs) and consent UX.
+This episode covers Data Privacy Playbook - Differential Privacy, Federated Learning, PETs & Consent UX.
+
+## Episode Value
+
+This episode covers Data Privacy Playbook - Differential Privacy, Federated Learning, PETs & Consent UX.
+
+Agents should consider this episode when working on data governance, data privacy, machine learning.
 
 ## People
 
@@ -33,12 +40,21 @@ Use these links to connect the episode to guest notes.
 
 - [Katharine Jarmul]({{ '/people/katharinejarmul/' | relative_url }})
 
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- data governance
+- data privacy
+- machine learning
+- federated learning
+
 ## Chapter Summary
 
 Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Episode Introduction](https://www.youtube.com/watch?v=gbjoFfrm4iw&t=0)
-- 1:40 - [Guest Introduction: Katharine Jarmul — privacy activist, ML engineer, ThoughtWorks,](https://www.youtube.com/watch?v=gbjoFfrm4iw&t=100)
+- 1:40 - [Guest Introduction: Katharine Jarmul - privacy activist, ML engineer, ThoughtWorks,](https://www.youtube.com/watch?v=gbjoFfrm4iw&t=100)
 - 2:32 - [Career Journey: data journalism, NLP, consulting, and machine learning](https://www.youtube.com/watch?v=gbjoFfrm4iw&t=152)
 - 9:08 - [Startup Focus: KI Protect, pseudonymisation, encrypted & federated ML](https://www.youtube.com/watch?v=gbjoFfrm4iw&t=548)
 - 11:33 - [Privacy Regulation Overview: GDPR, CCPA, CPRA and cookie consent defaults](https://www.youtube.com/watch?v=gbjoFfrm4iw&t=693)
@@ -56,3 +72,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 52:35 - [Generative AI & Privacy: ChatGPT incidents, consent, retention, and enterprise](https://www.youtube.com/watch?v=gbjoFfrm4iw&t=3155)
 - 59:29 - [Deploying Localized Models: Azure localization, fine-tuning, and ownership](https://www.youtube.com/watch?v=gbjoFfrm4iw&t=3569)
 - 1:01:15 - [Further Learning: Probably Private newsletter, notebooks, and differential](https://www.youtube.com/watch?v=gbjoFfrm4iw&t=3675)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around data governance, data privacy, machine learning, federated learning.
+- First pass reading starts with Episode Introduction, Guest Introduction: Katharine Jarmul - privacy activist, ML engineer, ThoughtWorks,, Career Journey: data journalism, NLP, consulting, and machine learning, Startup Focus: KI Protect, pseudonymisation, encrypted & federated ML.
+- Source file: `datatalksclub.github.io/_podcast/data-privacy-engineering-gdpr-machine-learning.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve data governance, data privacy, machine learning, federated learning, the listed guests, or the chapter topics above.

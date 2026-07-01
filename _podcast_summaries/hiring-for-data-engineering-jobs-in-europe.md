@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=hylxiu4VGTo"
 spotify_url: "https://open.spotify.com/episode/5ldkzYiHFvJCKoEyfAlvDs?si=WFJzcZ7fRCi1dzwapNGfzA"
 apple_url: "https://podcasts.apple.com/us/podcast/recruiting-data-engineers-nicolas-rassam/id1541710331?i=1000559128813"
 ---
-# Hiring Data Engineers in Europe: Nicolas Rassam on Interviews, Skills & Career Switches
+
+# Episode: Hiring Data Engineers in Europe: Nicolas Rassam on Interviews, Skills & Career Switches
 
 ## Original Episode
 
@@ -25,13 +26,27 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you hire data engineers in Europe today — and what should candidates and hiring managers actually focus on during interviews? In this episode, Nicolas Rassam, a Senior Talent Acquisition Partner at Helsing with 10+ years scaling AI and engineering teams at Onfido and Criteo, walks through the practical realities of hiring data engineers across Europe's competitive, borderless market.
+This episode covers Hiring Data Engineers in Europe - Nicolas Rassam on Interviews, Skills & Career Switches.
+
+## Episode Value
+
+This episode covers Hiring Data Engineers in Europe - Nicolas Rassam on Interviews, Skills & Career Switches.
+
+Agents should consider this episode when working on data engineering, career transition, career growth.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Nicolas Rassam]({{ '/people/nicolasrassam/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- data engineering
+- career transition
+- career growth
 
 ## Chapter Summary
 
@@ -65,3 +80,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 58:05 - [Industry Fit: Domain Knowledge for Regulated Data](https://www.youtube.com/watch?v=hylxiu4VGTo&t=3485)
 - 1:00:59 - [Follow-up Resources: Webinars and Further Reading](https://www.youtube.com/watch?v=hylxiu4VGTo&t=3659)
 - 1:01:38 - [Episode Close and Final Tips](https://www.youtube.com/watch?v=hylxiu4VGTo&t=3698)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around data engineering, career transition, career growth.
+- First pass reading starts with Episode Opening & Guest Welcome, Guest Background and Career Path, Onfido Role & European Hiring Footprint, Roles Recruited: Data, ML & Research Spectrum.
+- Source file: `datatalksclub.github.io/_podcast/hiring-for-data-engineering-jobs-in-europe.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve data engineering, career transition, career growth, the listed guests, or the chapter topics above.

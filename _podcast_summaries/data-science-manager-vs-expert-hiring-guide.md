@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=hFmIgaN-F8Y"
 spotify_url: "https://open.spotify.com/episode/5Ug8YA3hKY9Kr5hVFDqZ77"
 apple_url: "https://podcasts.apple.com/us/podcast/data-science-manager-vs-data-science-expert-barbara/id1541710331?i=1000542496818"
 ---
-# Data Science Manager vs Expert: Hiring Strategy, Skills, Team Building & When to Use ML
+
+# Episode: Data Science Manager vs Expert: Hiring Strategy, Skills, Team Building & When to Use ML
 
 ## Original Episode
 
@@ -25,13 +26,28 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-When should you hire a data science manager versus a deep technical expert, and how do you decide whether machine learning is actually the right solution? In this episode Barbara Sobkowiak — data scientist by training, GIS specialist by education, and manager by passion — walks through her career from GIS → SQL → BI to leading teams, and tackles hiring strategy, role design, and practical ML use cases like mental health monitoring and demand forecasting.
+This episode covers Data Science Manager vs Expert - Hiring Strategy, Skills, Team Building & When to Use ML.
+
+## Episode Value
+
+This episode covers Data Science Manager vs Expert - Hiring Strategy, Skills, Team Building & When to Use ML.
+
+Agents should consider this episode when working on data science, machine learning, leadership.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Barbara Sobkowiak]({{ '/people/barbarasobkowiak/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- data science
+- machine learning
+- leadership
+- team building
 
 ## Chapter Summary
 
@@ -64,3 +80,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 54:31 - [Diversity Spotlight: Women in Data Science and Interview Confidence](https://www.youtube.com/watch?v=hFmIgaN-F8Y&t=3271)
 - 59:03 - [Connect with Guest: Barbara Sobkowiak on LinkedIn](https://www.youtube.com/watch?v=hFmIgaN-F8Y&t=3543)
 - 59:20 - [Career Advice: Find Satisfaction, Mentors, and Networking](https://www.youtube.com/watch?v=hFmIgaN-F8Y&t=3560)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around data science, machine learning, leadership, team building.
+- First pass reading starts with Episode Topic: Data Science Manager vs Data Science Expert, Career Journey: GIS → SQL → BI → Data Science Manager, ML Use Cases: Mental Health Monitoring & Demand Forecasting, Misleading Job Ads: Manager vs Expert Confusion on LinkedIn.
+- Source file: `datatalksclub.github.io/_podcast/data-science-manager-vs-expert-hiring-guide.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve data science, machine learning, leadership, team building, the listed guests, or the chapter topics above.

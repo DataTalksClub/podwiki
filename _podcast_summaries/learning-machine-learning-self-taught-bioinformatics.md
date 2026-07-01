@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=Kc3Puh3UCRQ"
 spotify_url: "https://open.spotify.com/episode/2XdKHrmVuytXd5kzLVSbFn?si=ETbkUdT2Q1yJlKCI-d9Rcg"
 apple_url: "https://podcasts.apple.com/us/podcast/mastering-self-learning-in-machine-learning-aaisha/id1541710331?i=1000607892159"
 ---
-# How to Teach Yourself Bioinformatics & ML: Project-First Learning, Resources, and MLOps
+
+# Episode: How to Teach Yourself Bioinformatics & ML: Project-First Learning, Resources, and MLOps
 
 ## Original Episode
 
@@ -25,7 +26,13 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you teach yourself bioinformatics and machine learning in a way that leads to real projects and deployable models? In this episode, Aaisha Muhammad — a self-taught bioinformatician, machine learning engineer and scientific illustrator from Johannesburg and a Datatalks.Club ML Zoomcamp graduate — walks through a project-first path for learning bioinformatics and ML. We cover prioritization and avoiding FOMO, open curricula like OSSU, skill mapping with ML Zoomcamp, and practical resource evaluation (free vs.
+This episode covers How to Teach Yourself Bioinformatics & ML - Project-First Learning, Resources, and MLOps.
+
+## Episode Value
+
+This episode covers How to Teach Yourself Bioinformatics & ML - Project-First Learning, Resources, and MLOps.
+
+Agents should consider this episode when working on bioinformatics, machine learning, self-learning.
 
 ## People
 
@@ -33,12 +40,20 @@ Use these links to connect the episode to guest notes.
 
 - [Aaisha Muhammad]({{ '/people/aaishamuhammad/' | relative_url }})
 
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- bioinformatics
+- machine learning
+- self-learning
+
 ## Chapter Summary
 
 Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=Kc3Puh3UCRQ&t=0)
-- 1:14 - [Guest Overview: Aaisha — self-taught bioinformatician, ML engineer, scientific](https://www.youtube.com/watch?v=Kc3Puh3UCRQ&t=74)
+- 1:14 - [Guest Overview: Aaisha - self-taught bioinformatician, ML engineer, scientific](https://www.youtube.com/watch?v=Kc3Puh3UCRQ&t=74)
 - 2:17 - [Early Learning & Homeschooling: Python, web development, and flexible study](https://www.youtube.com/watch?v=Kc3Puh3UCRQ&t=137)
 - 8:33 - [Choosing What to Learn: prioritization, filtering, and avoiding FOMO](https://www.youtube.com/watch?v=Kc3Puh3UCRQ&t=513)
 - 9:21 - [Open Curricula: OSSU pathway for bioinformatics](https://www.youtube.com/watch?v=Kc3Puh3UCRQ&t=561)
@@ -63,3 +78,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 56:26 - [Avoiding Burnout: switching topics and juggling parallel projects](https://www.youtube.com/watch?v=Kc3Puh3UCRQ&t=3386)
 - 58:29 - [Recommended Resources: Python for Everybody, ML Zoomcamp, further reading](https://www.youtube.com/watch?v=Kc3Puh3UCRQ&t=3509)
 - 59:53 - [Closing Remarks and Final Thoughts](https://www.youtube.com/watch?v=Kc3Puh3UCRQ&t=3593)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around bioinformatics, machine learning, self-learning.
+- First pass reading starts with Guest Overview: Aaisha - self-taught bioinformatician, ML engineer, scientific, Early Learning & Homeschooling: Python, web development, and flexible study, Choosing What to Learn: prioritization, filtering, and avoiding FOMO, Open Curricula: OSSU pathway for bioinformatics.
+- Source file: `datatalksclub.github.io/_podcast/learning-machine-learning-self-taught-bioinformatics.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve bioinformatics, machine learning, self-learning, the listed guests, or the chapter topics above.

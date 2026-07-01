@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=b6x5zZ3C6sQ"
 spotify_url: "https://open.spotify.com/episode/5Xiuu4jMBCMuwkokXbwhE2?si=nGRQrMUaRNa5EINbtJadBA"
 apple_url: "https://podcasts.apple.com/us/podcast/analytics-for-a-better-world-parvathy-krishnan/id1541710331?i=1000602678901"
 ---
-# Analytics for Nonprofits: Build Data Maturity, Teams, Tools & Optimization Strategies
+
+# Episode: Analytics for Nonprofits: Build Data Maturity, Teams, Tools & Optimization Strategies
 
 ## Original Episode
 
@@ -25,13 +26,28 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How can nonprofits move from basic reporting to optimization using analytics while building the right teams, tools, and governance? In this episode, Parvathy Krishnan, CTO at Analytics for a Better World and professional doctorate in data science, walks through practical steps for building data maturity in the social sector. Drawing on discovery workshops, fellowship pilots (including a waste-collection optimization project in Nairobi), and partnerships with academic and industry groups, Parvathy explains how to.
+This episode covers Analytics for Nonprofits - Build Data Maturity, Teams, Tools & Optimization Strategies.
+
+## Episode Value
+
+This episode covers Analytics for Nonprofits - Build Data Maturity, Teams, Tools & Optimization Strategies.
+
+Agents should consider this episode when working on nonprofit, data maturity, data science.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Parvathy Krishnan]({{ '/people/parvathykrishnan/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- nonprofit
+- data maturity
+- data science
+- analytics
 
 ## Chapter Summary
 
@@ -63,3 +79,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 54:07 - [Organizational Model: Small core team and large extended research network](https://www.youtube.com/watch?v=b6x5zZ3C6sQ&t=3247)
 - 55:38 - [Becoming Data-Driven: Strategy plus investments in people, processes, technology](https://www.youtube.com/watch?v=b6x5zZ3C6sQ&t=3338)
 - 58:22 - [Recommended Reading & Daily Resources: Culture Map, 7 Habits, Towards Data](https://www.youtube.com/watch?v=b6x5zZ3C6sQ&t=3502)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around nonprofit, data maturity, data science, analytics.
+- First pass reading starts with Overview: Analytics for a Better World mission and guest intro, Career Path: From renewable energy to data science and CTO role, CTO Responsibilities: Connecting nonprofits with research and tech capacity, Discovery Workshops: Assessing nonprofit needs and data maturity.
+- Source file: `datatalksclub.github.io/_podcast/data-science-and-analytics-for-nonprofits-tech-for-good.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve nonprofit, data maturity, data science, analytics, the listed guests, or the chapter topics above.

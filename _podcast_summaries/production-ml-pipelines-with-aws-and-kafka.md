@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=IrZPAG6OBqo"
 spotify_url: "https://open.spotify.com/episode/0fFRCAYFCReMxEiq2RDVak"
 apple_url: "https://podcasts.apple.com/us/podcast/build-your-own-data-pipeline-andreas-kretz/id1541710331?i=1000527643914"
 ---
-# From Notebooks to Production: Build Data Pipelines & Deploy ML (AWS, Kafka, Streaming)
+
+# Episode: From Notebooks to Production: Build Data Pipelines & Deploy ML (AWS, Kafka, Streaming)
 
 ## Original Episode
 
@@ -25,7 +26,13 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you move models out of notebooks and into reliable production data pipelines using AWS, Kafka, and streaming architectures? In this episode, Andreas Kretz — the “Plumber of Data Science” — walks through the practical steps engineers and data scientists need to productionize notebooks and deploy ML systems.
+This episode covers From Notebooks to Production - Build Data Pipelines & Deploy ML (AWS, Kafka, Streaming).
+
+## Episode Value
+
+This episode covers From Notebooks to Production - Build Data Pipelines & Deploy ML (AWS, Kafka, Streaming).
+
+Agents should consider this episode when working on data engineering, machine learning, production.
 
 ## People
 
@@ -33,12 +40,21 @@ Use these links to connect the episode to guest notes.
 
 - [Andreas Kretz]({{ '/people/andreaskretz/' | relative_url }})
 
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- data engineering
+- machine learning
+- production
+- tools
+
 ## Chapter Summary
 
 Use these checkpoints to decide whether to open the source transcript.
 
-- 1:56 - [Episode Introduction & Andreas Kretz — "Plumber of Data Science](https://www.youtube.com/watch?v=IrZPAG6OBqo&t=116)
-- 3:19 - [Guest Bio: Andreas’s path from software to big data and data engineering](https://www.youtube.com/watch?v=IrZPAG6OBqo&t=199)
+- 1:56 - [Episode Introduction & Andreas Kretz - "Plumber of Data Science](https://www.youtube.com/watch?v=IrZPAG6OBqo&t=116)
+- 3:19 - [Guest Bio: Andreas's path from software to big data and data engineering](https://www.youtube.com/watch?v=IrZPAG6OBqo&t=199)
 - 5:43 - [Market Trend: Why data engineering demand is rising](https://www.youtube.com/watch?v=IrZPAG6OBqo&t=343)
 - 8:46 - [Hiring Strategy: Hire a data scientist and engineer early](https://www.youtube.com/watch?v=IrZPAG6OBqo&t=526)
 - 9:47 - [Data Scientist Growth: From notebooks to production pipelines](https://www.youtube.com/watch?v=IrZPAG6OBqo&t=587)
@@ -51,7 +67,7 @@ Use these checkpoints to decide whether to open the source transcript.
 - 22:36 - [Processing Frameworks Overview: Spark, Flink, Lambda, Glue, Docker jobs](https://www.youtube.com/watch?v=IrZPAG6OBqo&t=1356)
 - 24:04 - [Data Transformation: Role of SQL and dataframe processing](https://www.youtube.com/watch?v=IrZPAG6OBqo&t=1444)
 - 25:36 - [AWS Example: Parquet on S3 and processing options](https://www.youtube.com/watch?v=IrZPAG6OBqo&t=1536)
-- 27:22 - [Case Study: Car price prediction — data sources and architecture](https://www.youtube.com/watch?v=IrZPAG6OBqo&t=1642)
+- 27:22 - [Case Study: Car price prediction - data sources and architecture](https://www.youtube.com/watch?v=IrZPAG6OBqo&t=1642)
 - 31:33 - [Inference Strategy: Live API calls versus precomputed predictions](https://www.youtube.com/watch?v=IrZPAG6OBqo&t=1893)
 - 34:16 - [Productionizing Notebooks: Dockerized training and model storage on S3](https://www.youtube.com/watch?v=IrZPAG6OBqo&t=2056)
 - 35:46 - [Scheduling Options: Airflow vs CloudWatch/Lambda vs simple schedulers](https://www.youtube.com/watch?v=IrZPAG6OBqo&t=2146)
@@ -66,3 +82,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 54:52 - [Hands-on Projects: Build an e-commerce pipeline; use Kaggle datasets](https://www.youtube.com/watch?v=IrZPAG6OBqo&t=3292)
 - 57:33 - [Learning Advice: Avoid huge datasets; start small and iterate](https://www.youtube.com/watch?v=IrZPAG6OBqo&t=3453)
 - 58:56 - [Convincing Stakeholders: Build a $0 proof-of-concept and quantify ROI](https://www.youtube.com/watch?v=IrZPAG6OBqo&t=3536)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around data engineering, machine learning, production, tools.
+- First pass reading starts with Episode Introduction & Andreas Kretz - "Plumber of Data Science, Guest Bio: Andreas's path from software to big data and data engineering, Market Trend: Why data engineering demand is rising, Hiring Strategy: Hire a data scientist and engineer early.
+- Source file: `datatalksclub.github.io/_podcast/production-ml-pipelines-with-aws-and-kafka.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve data engineering, machine learning, production, tools, the listed guests, or the chapter topics above.

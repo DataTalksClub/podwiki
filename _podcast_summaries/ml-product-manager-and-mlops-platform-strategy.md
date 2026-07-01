@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=PjqjPvHliqg"
 spotify_url: "https://open.spotify.com/episode/7zfH4hagZKwoIWmee0AXBd"
 apple_url: "https://podcasts.apple.com/us/podcast/product-management-for-machine-learning-geo-jolly/id1541710331?i=1000545301034"
 ---
-# Become an ML Product Manager: MLOps Platforms, Observability & Adoption
+
+# Episode: Become an ML Product Manager: MLOps Platforms, Observability & Adoption
 
 ## Original Episode
 
@@ -25,13 +26,29 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you become an ML product manager and build MLOps platforms that teams actually use? In this episode, Geo Jolly, a Technical PM at Glovo with a background from web/dev to data science and product management, walks through the practical skills and decisions that define the role.
+This episode covers Become an ML Product Manager - MLOps Platforms, Observability & Adoption.
+
+## Episode Value
+
+This episode covers Become an ML Product Manager - MLOps Platforms, Observability & Adoption.
+
+Agents should consider this episode when working on product management, machine learning, MLOps.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Geo Jolly]({{ '/people/geojolly/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- product management
+- machine learning
+- MLOps
+- leadership
+- career growth
 
 ## Chapter Summary
 
@@ -66,3 +83,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 57:20 - [ML Quality Assurance: Model validation, shadowing, and release checklists](https://www.youtube.com/watch?v=PjqjPvHliqg&t=3440)
 - 59:52 - [Scrum Master to PM Advice: Leverage Agile skills and learn ML basics](https://www.youtube.com/watch?v=PjqjPvHliqg&t=3592)
 - 1:01:51 - [Final Thoughts: PM demands, scope, and career realities](https://www.youtube.com/watch?v=PjqjPvHliqg&t=3711)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around product management, machine learning, MLOps, leadership, career growth.
+- First pass reading starts with Episode Introduction: Product Management for Machine Learning, Guest Overview: Geo and episode focus on AI Product Manager role, Career Journey: From web/dev to data science to product management, Glovo Role: Leading ML platform strategy and team responsibilities.
+- Source file: `datatalksclub.github.io/_podcast/ml-product-manager-and-mlops-platform-strategy.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve product management, machine learning, MLOps, leadership, the listed guests, or the chapter topics above.

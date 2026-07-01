@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=UX7UShEioKc"
 spotify_url: "https://open.spotify.com/episode/2RLxjkPbUO3FBfFpKPHzls?si=TVveHW7PQcW7yGbOyJsJpg"
 apple_url: "https://podcasts.apple.com/us/podcast/mastering-data-engineering-as-a-remote-worker-jos%C3%A9/id1541710331?i=1000624908396"
 ---
-# Remote Data Engineering Life: Building IoT Platforms, Career Transitions & Newsletter-Driven Personal Growth
+
+# Episode: Remote Data Engineering Life: Building IoT Platforms, Career Transitions & Newsletter-Driven Personal Growth
 
 ## Original Episode
 
@@ -25,13 +26,28 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-What does it take to thrive as a remote data engineer — building IoT platforms, navigating international career moves, and leveraging writing for professional growth? In this episode, José María Sánchez Salas — a computer scientist turned data engineer and newsletter author — shares his journey from Spain to Norway and the realities of remote IoT platform work.
+This episode covers Remote Data Engineering Life - Building IoT Platforms, Career Transitions & Newsletter-Driven Personal Growth.
+
+## Episode Value
+
+This episode covers Remote Data Engineering Life - Building IoT Platforms, Career Transitions & Newsletter-Driven Personal Growth.
+
+Agents should consider this episode when working on data engineering, remote work, personal brand.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [José María Sánchez Salas]({{ '/people/josemaria/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- data engineering
+- remote work
+- personal brand
+- career growth
 
 ## Chapter Summary
 
@@ -40,7 +56,7 @@ Use these checkpoints to decide whether to open the source transcript.
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=UX7UShEioKc&t=0)
 - 1:09 - [Episode Overview & Guest Introduction](https://www.youtube.com/watch?v=UX7UShEioKc&t=69)
 - 1:50 - [Background: Spain to Norway and Career Transition](https://www.youtube.com/watch?v=UX7UShEioKc&t=110)
-- 4:21 - [Relocation Story: Moving for Partner’s Job](https://www.youtube.com/watch?v=UX7UShEioKc&t=261)
+- 4:21 - [Relocation Story: Moving for Partner's Job](https://www.youtube.com/watch?v=UX7UShEioKc&t=261)
 - 5:01 - [Remote Work Routine: Two Focused Work Blocks](https://www.youtube.com/watch?v=UX7UShEioKc&t=301)
 - 7:15 - [Morning Routine & Productivity Habits](https://www.youtube.com/watch?v=UX7UShEioKc&t=435)
 - 8:13 - [Remote-First Hiring Landscape in Norway](https://www.youtube.com/watch?v=UX7UShEioKc&t=493)
@@ -66,3 +82,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 53:31 - [Benefits of Remote Work: Location Flexibility & Time Savings](https://www.youtube.com/watch?v=UX7UShEioKc&t=3211)
 - 55:19 - [Personal Mobility: Partner Contracts and Remote Advantages](https://www.youtube.com/watch?v=UX7UShEioKc&t=3319)
 - 57:12 - [Recommendation: Develop Soft Skills, Especially Communication](https://www.youtube.com/watch?v=UX7UShEioKc&t=3432)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around data engineering, remote work, personal brand, career growth.
+- First pass reading starts with Episode Overview & Guest Introduction, Background: Spain to Norway and Career Transition, Relocation Story: Moving for Partner's Job, Remote Work Routine: Two Focused Work Blocks.
+- Source file: `datatalksclub.github.io/_podcast/remote-data-engineering-work-and-building-iot-platforms.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve data engineering, remote work, personal brand, career growth, the listed guests, or the chapter topics above.

@@ -6,13 +6,14 @@ source_url: "https://datatalks.club/podcast/s23e02-foundations-of-analytics-engi
 season: 23
 episode: 2
 guests: ["juanmanuelperafan"]
-topics: []
+topics: ["data engineering", "analytics engineering", "software engineering", "search"]
 summary_status: source-index
 youtube_url: "https://www.youtube.com/watch?v=HxMIsPrIyGQ"
 spotify_url: "https://open.spotify.com/episode/43rmkdGOEXe166SUfz6ReT?si=e474faeb55204b2a"
 apple_url: "https://podcasts.apple.com/us/podcast/foundations-of-analytics-engineer-role-skills-scope/id1541710331?i=1000751963703"
 ---
-# Foundations of Analytics Engineer Role: Skills, Scope, and Modern Practices
+
+# Episode: Foundations of Analytics Engineer Role: Skills, Scope, and Modern Practices
 
 ## Original Episode
 
@@ -23,17 +24,36 @@ Use these links for the canonical episode and media sources.
 - [Listen on Spotify](https://open.spotify.com/episode/43rmkdGOEXe166SUfz6ReT?si=e474faeb55204b2a)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/foundations-of-analytics-engineer-role-skills-scope/id1541710331?i=1000751963703)
 
+## Episode Overview
+
+This episode covers Foundations of Analytics Engineer Role - Skills, Scope, and Modern Practices.
+
+## Episode Value
+
+This episode covers Foundations of Analytics Engineer Role - Skills, Scope, and Modern Practices.
+
+Agents should consider this episode when working on data engineering, analytics engineering, software engineering.
+
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Juan Manuel Perafan]({{ '/people/juanmanuelperafan/' | relative_url }})
 
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- data engineering
+- analytics engineering
+- software engineering
+- search
+
 ## Chapter Summary
 
 Use these checkpoints to decide whether to open the source transcript.
 
-- 0:00 - [Juan’s psychological research and transition to data](https://www.youtube.com/watch?v=HxMIsPrIyGQ&t=0)
+- 0:00 - [Juan's psychological research and transition to data](https://www.youtube.com/watch?v=HxMIsPrIyGQ&t=0)
 - 4:33 - [Riding the wave: The early days of analytics engineering](https://www.youtube.com/watch?v=HxMIsPrIyGQ&t=273)
 - 7:56 - [Breaking down the gap between analysts and engineers](https://www.youtube.com/watch?v=HxMIsPrIyGQ&t=476)
 - 11:03 - [The art of turning business reality into clean data](https://www.youtube.com/watch?v=HxMIsPrIyGQ&t=663)
@@ -49,3 +69,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 1:11:16 - [Pro-tips for starting your data engineering journey](https://www.youtube.com/watch?v=HxMIsPrIyGQ&t=4276)
 - 1:14:40 - [The big debate: Databricks vs. Snowflake](https://www.youtube.com/watch?v=HxMIsPrIyGQ&t=4480)
 - 1:18:28 - [Why every data professional needs a local community](https://www.youtube.com/watch?v=HxMIsPrIyGQ&t=4708)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around data engineering, analytics engineering, software engineering, search.
+- First pass reading starts with Juan's psychological research and transition to data, Riding the wave: The early days of analytics engineering, Breaking down the gap between analysts and engineers, The art of turning business reality into clean data.
+- Source file: `datatalksclub.github.io/_podcast/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve data engineering, analytics engineering, software engineering, search, the listed guests, or the chapter topics above.

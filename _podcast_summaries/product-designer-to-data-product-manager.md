@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=nt__pVuuC-k"
 spotify_url: "https://open.spotify.com/episode/3NZhd5kgQFpGckyxTQH9bF"
 apple_url: "https://podcasts.apple.com/us/podcast/becoming-a-data-product-manager-sara-menefee/id1541710331?i=1000543165093"
 ---
-# How to Transition from Design to Data Product Manager: SQL, Customer Discovery & Data Quality
+
+# Episode: How to Transition from Design to Data Product Manager: SQL, Customer Discovery & Data Quality
 
 ## Original Episode
 
@@ -25,13 +26,27 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you move from product design into a data product manager role — and which technical and discovery skills will make that transition practical and persuasive? Sara Menefee, a product manager at Meroxa and former product designer at Sora, Checkr, Change.org, and Zendesk, walks through her path and the concrete steps designers can take to become data-focused PMs.
+This episode covers How to Transition from Design to Data Product Manager - SQL, Customer Discovery & Data Quality.
+
+## Episode Value
+
+This episode covers How to Transition from Design to Data Product Manager - SQL, Customer Discovery & Data Quality.
+
+Agents should consider this episode when working on career transition, product design, product management.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Sara Menefee]({{ '/people/saramenefee/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- career transition
+- product design
+- product management
 
 ## Chapter Summary
 
@@ -42,7 +57,7 @@ Use these checkpoints to decide whether to open the source transcript.
 - 4:58 - [Product Design: User Research, Prototyping & UX](https://www.youtube.com/watch?v=nt__pVuuC-k&t=298)
 - 7:04 - [Data Product Management: Customer Discovery & Hypothesis Formation](https://www.youtube.com/watch?v=nt__pVuuC-k&t=424)
 - 11:38 - [Product Lifecycle: Discovery, Planning, Engineering & Launch](https://www.youtube.com/watch?v=nt__pVuuC-k&t=698)
-- 15:10 - [Design Thinking: PM–Designer Collaboration in Ideation](https://www.youtube.com/watch?v=nt__pVuuC-k&t=910)
+- 15:10 - [Design Thinking: PM-Designer Collaboration in Ideation](https://www.youtube.com/watch?v=nt__pVuuC-k&t=910)
 - 16:26 - [Transition Motivation: Moving from Design to Product Management](https://www.youtube.com/watch?v=nt__pVuuC-k&t=986)
 - 19:38 - [Data-focused PM: Data Quality, PII & Compliance Considerations](https://www.youtube.com/watch?v=nt__pVuuC-k&t=1178)
 - 23:00 - [Core Technical Skills: SQL & Data Engineering Fundamentals](https://www.youtube.com/watch?v=nt__pVuuC-k&t=1380)
@@ -59,3 +74,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 56:08 - [Product Documentation: PRDs, Customer Notes & Knowledge Base](https://www.youtube.com/watch?v=nt__pVuuC-k&t=3368)
 - 58:24 - [Idea Flow: Sources, Validation & Backlog Prioritization](https://www.youtube.com/watch?v=nt__pVuuC-k&t=3504)
 - 1:00:40 - [Analytics vs Data Science: Where ML Fits in the PM Role](https://www.youtube.com/watch?v=nt__pVuuC-k&t=3640)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around career transition, product design, product management.
+- First pass reading starts with Career Path: From Technical Support to Product Design, Product Design: User Research, Prototyping & UX, Data Product Management: Customer Discovery & Hypothesis Formation, Product Lifecycle: Discovery, Planning, Engineering & Launch.
+- Source file: `datatalksclub.github.io/_podcast/product-designer-to-data-product-manager.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve career transition, product design, product management, the listed guests, or the chapter topics above.

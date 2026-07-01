@@ -6,13 +6,14 @@ source_url: "https://datatalks.club/podcast/s23e03-future-of-ai-agents.html"
 season: 23
 episode: 3
 guests: ["adityagautam"]
-topics: []
+topics: ["mlops", "search"]
 summary_status: source-index
 youtube_url: "https://www.youtube.com/watch?v=vcm3gRjNY2I"
 spotify_url: "https://open.spotify.com/episode/5EudjtdqzbIlXjeHoL0GUd"
 apple_url: "https://podcasts.apple.com/us/podcast/the-future-of-ai-agents-aditya-gautam/id1541710331?i=1000753680241"
 ---
-# The Future of AI Agents
+
+# Episode: The Future of AI Agents
 
 ## Original Episode
 
@@ -23,17 +24,34 @@ Use these links for the canonical episode and media sources.
 - [Listen on Spotify](https://open.spotify.com/episode/5EudjtdqzbIlXjeHoL0GUd)
 - [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/the-future-of-ai-agents-aditya-gautam/id1541710331?i=1000753680241)
 
+## Episode Overview
+
+This episode covers The Future of AI Agents.
+
+## Episode Value
+
+This episode covers The Future of AI Agents.
+
+Agents should consider this episode when working on mlops, search.
+
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Aditya Gautam]({{ '/people/adityagautam/' | relative_url }})
 
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- mlops
+- search
+
 ## Chapter Summary
 
 Use these checkpoints to decide whether to open the source transcript.
 
-- 0:00 - [Aditya’s from embedded systems to AI](https://www.youtube.com/watch?v=vcm3gRjNY2I&t=0)
+- 0:00 - [Aditya's from embedded systems to AI](https://www.youtube.com/watch?v=vcm3gRjNY2I&t=0)
 - 8:52 - [Enterprise AI research and adoption gaps](https://www.youtube.com/watch?v=vcm3gRjNY2I&t=532)
 - 13:13 - [AI reliability in legal and healthcare](https://www.youtube.com/watch?v=vcm3gRjNY2I&t=793)
 - 19:16 - [Specialized models and agent governance](https://www.youtube.com/watch?v=vcm3gRjNY2I&t=1156)
@@ -44,3 +62,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 50:18 - [Aligning LLM judges with human labels](https://www.youtube.com/watch?v=vcm3gRjNY2I&t=3018)
 - 56:40 - [Agent infrastructure and deployment risks](https://www.youtube.com/watch?v=vcm3gRjNY2I&t=3400)
 - 1:02:35 - [Future of AGI and multimodal agents](https://www.youtube.com/watch?v=vcm3gRjNY2I&t=3755)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around mlops, search.
+- First pass reading starts with Aditya's from embedded systems to AI, Enterprise AI research and adoption gaps, AI reliability in legal and healthcare, Specialized models and agent governance.
+- Source file: `datatalksclub.github.io/_podcast/s23e03-future-of-ai-agents.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve mlops, search, the listed guests, or the chapter topics above.

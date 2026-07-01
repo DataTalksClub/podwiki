@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=jv5W4jXk4P4"
 spotify_url: "https://open.spotify.com/episode/6Hq0ZGPTkDk1h8orfCU78I"
 apple_url: "https://podcasts.apple.com/us/podcast/developer-advocacy-for-data-science-elle-obrien/id1541710331?i=1000506315396"
 ---
-# DevRel for Data Science: Build Community, Create Content, and Grow Your Career
+
+# Episode: DevRel for Data Science: Build Community, Create Content, and Grow Your Career
 
 ## Original Episode
 
@@ -25,7 +26,13 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you practice developer relations for data science while balancing reproducibility, community growth, and content strategy? In this episode, Elle O’Brien — a data scientist at Iterative (working on DVC and CML) and a lecturer at the University of Michigan with a PhD in neuroscience and computational modeling from UW — walks through practical DevRel for data-focused tools and teaching.
+This episode covers DevRel for Data Science - Build Community, Create Content, and Grow Your Career.
+
+## Episode Value
+
+This episode covers DevRel for Data Science - Build Community, Create Content, and Grow Your Career.
+
+Agents should consider this episode when working on developer relations, data science, machine learning.
 
 ## People
 
@@ -33,12 +40,21 @@ Use these links to connect the episode to guest notes.
 
 - [Elle O'Brien]({{ '/people/elleobrien/' | relative_url }})
 
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- developer relations
+- data science
+- machine learning
+- open-source
+
 ## Chapter Summary
 
 Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=jv5W4jXk4P4&t=0)
-- 2:57 - [Introduction: Developer Advocacy for Data Science — Elle O''Brien (Iterative,](https://www.youtube.com/watch?v=jv5W4jXk4P4&t=177)
+- 2:57 - [Introduction: Developer Advocacy for Data Science - Elle O''Brien (Iterative,](https://www.youtube.com/watch?v=jv5W4jXk4P4&t=177)
 - 4:10 - [Background: Neuroscience research, PhD, and computational modeling](https://www.youtube.com/watch?v=jv5W4jXk4P4&t=250)
 - 7:50 - [Teaching focus: Applied Data Science curriculum & research reproducibility](https://www.youtube.com/watch?v=jv5W4jXk4P4&t=470)
 - 9:33 - [Career pivot: Viral StyleGAN project to DevRel role at Iterative](https://www.youtube.com/watch?v=jv5W4jXk4P4&t=573)
@@ -63,3 +79,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 52:06 - [Teaching & DevRel synergy: curriculum design and reusable video content](https://www.youtube.com/watch?v=jv5W4jXk4P4&t=3126)
 - 54:46 - [University plans: recording lectures and open educational resources on YouTube](https://www.youtube.com/watch?v=jv5W4jXk4P4&t=3286)
 - 56:39 - [Closing thoughts: encouraging diverse DevRels and where to follow Elle (Twitter,](https://www.youtube.com/watch?v=jv5W4jXk4P4&t=3399)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around developer relations, data science, machine learning, open-source.
+- First pass reading starts with Background: Neuroscience research, PhD, and computational modeling, Teaching focus: Applied Data Science curriculum & research reproducibility, Career pivot: Viral StyleGAN project to DevRel role at Iterative, Role scope: product work, CML, docs, PRs, videos, and hiring.
+- Source file: `datatalksclub.github.io/_podcast/devrel-data-science-open-source-tools.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve developer relations, data science, machine learning, open-source, the listed guests, or the chapter topics above.

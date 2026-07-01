@@ -8,6 +8,7 @@ import json
 import re
 from collections import Counter
 from pathlib import Path
+from urllib.parse import quote
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -38,6 +39,13 @@ def slugify(value: str) -> str:
     value = value.lower()
     value = re.sub(r"[^a-z0-9]+", "-", value)
     return value.strip("-")
+
+
+def source_slug(path: Path) -> str:
+    slug = path.stem
+    if slug.endswith(".md"):
+        slug = slug[:-3]
+    return slug
 
 
 def clean_value(value: str) -> str:
@@ -130,17 +138,20 @@ def read_pages() -> list[dict[str, object]]:
             meta, body = split_frontmatter(raw)
             if meta.get("redirect_to") or str(meta.get("published", "")).lower() == "false":
                 continue
-            title = str(meta.get("title") or path.stem.replace("-", " ").title())
+            if directory == "_people" and not as_list(meta.get("podcast_episodes")):
+                continue
+            slug = source_slug(path)
+            title = str(meta.get("title") or slug.replace("-", " ").title())
             summary = str(meta.get("summary") or "")
             pages.append(
                 {
-                    "id": node_id(node_type, id_scope, path.stem),
+                    "id": node_id(node_type, id_scope, slug),
                     "type": node_type,
                     "collection": id_scope,
-                    "slug": path.stem,
+                    "slug": slug,
                     "title": title,
                     "label": title,
-                    "url": f"{prefix}{path.stem}/",
+                    "url": f"{prefix}{slug}/",
                     "meta": meta,
                     "body": body,
                     "search": plain_text(" ".join([title, summary])),
@@ -200,8 +211,15 @@ def build_graph() -> dict[str, object]:
             return
         link_weights[(source, target, kind)] += weight
 
+    def wiki_page_for_label(label: str) -> dict[str, object] | None:
+        normalized = re.sub(r"\s+", " ", label).strip()
+        return wiki_title_to_page.get(normalized.lower()) or wiki_slug_to_page.get(slugify(normalized))
+
     def topic_id(label: str) -> str:
         normalized = re.sub(r"\s+", " ", label).strip()
+        wiki_page = wiki_page_for_label(normalized)
+        if wiki_page:
+            return str(wiki_page["id"])
         slug = slugify(normalized)
         topic_labels.setdefault(slug, normalized)
         topic_counts[slug] += 1
@@ -227,13 +245,6 @@ def build_graph() -> dict[str, object]:
                 if str(candidate["collection"]) == collection:
                     return str(candidate["id"])
         return str(candidates[0]["id"])
-
-    def topic_url(slug: str, label: str) -> str:
-        normalized = re.sub(r"\s+", " ", label).strip()
-        wiki_page = wiki_title_to_page.get(normalized.lower()) or wiki_slug_to_page.get(slug)
-        if wiki_page:
-            return str(wiki_page["url"])
-        return "/wiki/"
 
     for page in pages:
         node = {
@@ -272,7 +283,7 @@ def build_graph() -> dict[str, object]:
             add_link(source, f"person:{guest}", "podcast-person", 4)
         for episode in as_list(meta.get("podcast_episodes")):
             add_link(source, f"podcast:{episode}", "person-podcast", 4)
-        for target in markdown_targets(str(page["body"])):
+        for target in sorted(set(markdown_targets(str(page["body"])))):
             add_link(source, target, f"{page_type}-link", 1)
 
     for slug, label in sorted(topic_labels.items()):
@@ -282,7 +293,7 @@ def build_graph() -> dict[str, object]:
                 "type": "topic",
                 "label": label,
                 "title": label,
-                "url": topic_url(slug, label),
+                "url": f"/search.html?q={quote(label)}",
                 "count": topic_counts[slug],
                 "search": label,
             }

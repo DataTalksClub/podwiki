@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=i-pIdekjUow"
 spotify_url: "https://open.spotify.com/episode/6iDyJuhfXibDB6kXFhvaqG?si=urjDGVl6RrWtjVXIAUgOvQ"
 apple_url: "https://podcasts.apple.com/us/podcast/building-scalable-and-reliable-machine-learning/id1541710331?i=1000612813133"
 ---
-# Build Scalable, Reliable ML Systems (MLOps): Design Docs, Data Strategy & Edge Constraints
+
+# Episode: Build Scalable, Reliable ML Systems (MLOps): Design Docs, Data Strategy & Edge Constraints
 
 ## Original Episode
 
@@ -25,13 +26,29 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you design machine learning systems that scale, stay reliable in production, and meet tight edge and mobile constraints? In this episode, Arseny Kravchenko — a seasoned ML engineer focused on computer vision, active in ML since 2015 and a former Kaggle Master — walks through practical MLOps patterns for turning models into production systems.
+This episode covers Build Scalable, Reliable ML Systems (MLOps) - Design Docs, Data Strategy & Edge Constraints.
+
+## Episode Value
+
+This episode covers Build Scalable, Reliable ML Systems (MLOps) - Design Docs, Data Strategy & Edge Constraints.
+
+Agents should consider this episode when working on machine learning, MLOps, data strategy.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Arseny Kravchenko]({{ '/people/arsenykravchenko/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- machine learning
+- MLOps
+- data strategy
+- data engineering
+- system design
 
 ## Chapter Summary
 
@@ -59,3 +76,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 55:48 - [Favorite Chapter: Preliminary Research, Reuse, and External Sources](https://www.youtube.com/watch?v=i-pIdekjUow&t=3348)
 - 58:28 - [Further Learning: System Design Fundamentals & Software Engineering Skills](https://www.youtube.com/watch?v=i-pIdekjUow&t=3508)
 - 1:00:00 - [Book Offer & Giveaway: Discount Code, Twitter Giveaway Winners](https://www.youtube.com/watch?v=i-pIdekjUow&t=3600)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around machine learning, MLOps, data strategy, data engineering, system design.
+- First pass reading starts with Episode Overview: Building Scalable & Reliable Machine Learning Systems, Guest Bio & Startup Experience (deep learning, MLOps, Ntropy, AR, Lyft), Startups: ML Productionization Trade-offs and Decision Ownership, Defining Machine Learning System Design: Goals and Constraints.
+- Source file: `datatalksclub.github.io/_podcast/building-scalable-and-reliable-machine-learning-systems.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve machine learning, MLOps, data strategy, data engineering, the listed guests, or the chapter topics above.

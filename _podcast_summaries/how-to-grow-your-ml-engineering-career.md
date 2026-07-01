@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=cUxZBXQgZaU"
 spotify_url: "https://open.spotify.com/episode/1mDlJi7vfLeJgIZStQ4G90?si=Spd04VwmSh2zZCgZzLIPbA"
 apple_url: "https://podcasts.apple.com/us/podcast/navigating-career-changes-in-machine-learning-chris/id1541710331?i=1000597921745"
 ---
-# How to Grow Your ML Engineering Career: Platform Work, LLM Workflows & Debugging Skills
+
+# Episode: How to Grow Your ML Engineering Career: Platform Work, LLM Workflows & Debugging Skills
 
 ## Original Episode
 
@@ -25,13 +26,29 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you move from web and game development into building machine learning platforms and working with LLMs—and what practical skills carry over? In this episode Krzysztof Szafanek, a seasoned engineer with 17 years across pharma, geo services, gaming and online retail, and currently an ML Platform engineer and internal consultant at Zalando, answers that question through concrete examples and career lessons.
+This episode covers How to Grow Your ML Engineering Career - Platform Work, LLM Workflows & Debugging Skills.
+
+## Episode Value
+
+This episode covers How to Grow Your ML Engineering Career - Platform Work, LLM Workflows & Debugging Skills.
+
+Agents should consider this episode when working on machine learning, career transitions, LLMs.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Krzysztof Szafanek]({{ '/people/krzysztofszafanek/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- machine learning
+- career transitions
+- LLMs
+- hiring
+- career strategy
 
 ## Chapter Summary
 
@@ -59,3 +76,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 54:23 - [Job Market Trends: Specialists vs Generalists in Machine Learning](https://www.youtube.com/watch?v=cUxZBXQgZaU&t=3263)
 - 56:22 - [Prioritization Techniques: To-Do Lists, Deadlines, and Focus](https://www.youtube.com/watch?v=cUxZBXQgZaU&t=3382)
 - 58:11 - [Learning Resources: Books, Documentation, YouTube, and Practical Learning](https://www.youtube.com/watch?v=cUxZBXQgZaU&t=3491)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around machine learning, career transitions, LLMs, hiring, career strategy.
+- First pass reading starts with Career Overview: Web, Game Development, and Python, Mobile & Game Development: HTML5, Objective-C, Swift, and Unity, Career Transitions: Adapting Between Stacks and Roles, Tech Radar & Language Freedom at Zalando.
+- Source file: `datatalksclub.github.io/_podcast/how-to-grow-your-ml-engineering-career.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve machine learning, career transitions, LLMs, hiring, the listed guests, or the chapter topics above.

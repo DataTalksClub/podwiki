@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=ixmTewD5Waw"
 spotify_url: "https://open.spotify.com/episode/1GVuHJzqbcf2BvaLBTgsAL"
 apple_url: "https://podcasts.apple.com/us/podcast/shifting-career-from-analytics-to-data-science-andrada/id1541710331?i=1000517426368"
 ---
-# Career Transition from Analytics to Data Science: Build a Kaggle Notebook Portfolio, Learn Python & Get Hired
+
+# Episode: Career Transition from Analytics to Data Science: Build a Kaggle Notebook Portfolio, Learn Python & Get Hired
 
 ## Original Episode
 
@@ -25,7 +26,13 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you move from analytics into a hireable data science role by building a Kaggle notebook portfolio and learning Python fast? In this episode, Andrada Olteanu — Data Scientist at Endava, Kaggle Notebooks Master, and Z by HP & NVIDIA Data Science Ambassador — walks through her path from a statistics degree and data analyst role at Avon to a master’s in DS and a practical, project-driven transition.
+This episode covers Career Transition from Analytics to Data Science - Build a Kaggle Notebook Portfolio, Learn Python & Get Hired.
+
+## Episode Value
+
+This episode covers Career Transition from Analytics to Data Science - Build a Kaggle Notebook Portfolio, Learn Python & Get Hired.
+
+Agents should consider this episode when working on career transition, analytics, data science.
 
 ## People
 
@@ -33,13 +40,21 @@ Use these links to connect the episode to guest notes.
 
 - [Andrada Olteanu]({{ '/people/andradaolteanu/' | relative_url }})
 
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- career transition
+- analytics
+- data science
+
 ## Chapter Summary
 
 Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction](https://www.youtube.com/watch?v=ixmTewD5Waw&t=0)
 - 1:37 - [Episode Overview: Transitioning from Analytics to Data Science](https://www.youtube.com/watch?v=ixmTewD5Waw&t=97)
-- 2:10 - [Career Path: Statistics Degree → Avon Data Analyst → Master’s → Data Scientist](https://www.youtube.com/watch?v=ixmTewD5Waw&t=130)
+- 2:10 - [Career Path: Statistics Degree → Avon Data Analyst → Master's → Data Scientist](https://www.youtube.com/watch?v=ixmTewD5Waw&t=130)
 - 5:21 - [Recommended Course: Python for Data Science & Machine Learning (Jose Portilla,](https://www.youtube.com/watch?v=ixmTewD5Waw&t=321)
 - 8:18 - [Kaggle Introduction: First Encounters and Community Motivation](https://www.youtube.com/watch?v=ixmTewD5Waw&t=498)
 - 9:43 - [Kaggle Notebooks: Iowa House Prices, Hyperparameter Tuning & Model Improvement](https://www.youtube.com/watch?v=ixmTewD5Waw&t=583)
@@ -52,7 +67,21 @@ Use these checkpoints to decide whether to open the source transcript.
 - 36:41 - [Transferable Analyst Skills: Data Validation, Domain Knowledge & EDA](https://www.youtube.com/watch?v=ixmTewD5Waw&t=2201)
 - 41:49 - [Coding Growth Plan: Learn by Doing Competitions and Reproducing Notebooks](https://www.youtube.com/watch?v=ixmTewD5Waw&t=2509)
 - 45:16 - [Learning Technique: Decompose Notebooks, Reimplement and Debug](https://www.youtube.com/watch?v=ixmTewD5Waw&t=2716)
-- 49:27 - [Master’s Degree Value: Structured Curriculum vs Independent Study](https://www.youtube.com/watch?v=ixmTewD5Waw&t=2967)
+- 49:27 - [Master's Degree Value: Structured Curriculum vs Independent Study](https://www.youtube.com/watch?v=ixmTewD5Waw&t=2967)
 - 52:54 - [Self-Paced Pivot: Udemy, Kaggle and YouTube Path to Data Science in ~1 Year](https://www.youtube.com/watch?v=ixmTewD5Waw&t=3174)
 - 57:01 - [Kaggle Ecosystem: Notebooks, Datasets and Community Discussions](https://www.youtube.com/watch?v=ixmTewD5Waw&t=3421)
 - 1:01:00 - [Networking Strategy: Use LinkedIn & Twitter to Showcase Projects and Build](https://www.youtube.com/watch?v=ixmTewD5Waw&t=3660)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around career transition, analytics, data science.
+- First pass reading starts with Episode Overview: Transitioning from Analytics to Data Science, Career Path: Statistics Degree → Avon Data Analyst → Master's → Data Scientist, Recommended Course: Python for Data Science & Machine Learning (Jose Portilla,, Kaggle Introduction: First Encounters and Community Motivation.
+- Source file: `datatalksclub.github.io/_podcast/analytics-to-data-science-with-kaggle-portfolio.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve career transition, analytics, data science, the listed guests, or the chapter topics above.

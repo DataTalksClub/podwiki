@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=SJuzQ4bcU2c"
 spotify_url: "https://open.spotify.com/episode/42eAhI6F31DZ96Mnq2I4bJ"
 apple_url: "https://podcasts.apple.com/us/podcast/translating-ml-predictions-into-better-real-world-results/id1541710331?i=1000509855317"
 ---
-# Optimize Decisions with ML: Prescriptive & Robust Optimization for Supply Chain and Pricing
+
+# Episode: Optimize Decisions with ML: Prescriptive & Robust Optimization for Supply Chain and Pricing
 
 ## Original Episode
 
@@ -25,13 +26,26 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you turn machine learning predictions into better real-world decisions—especially under uncertainty in supply chains and pricing? In this episode, Dan Becker, Founder & CEO of Decision AI and former Google data scientist and Product Director at DataRobot, walks through prescriptive analytics and decision optimization for practical business impact. With a background that includes top Kaggle performance and contributions to TensorFlow and Keras, Dan explains how to formulate optimization problems, choose.
+This episode covers Optimize Decisions with ML - Prescriptive & Robust Optimization for Supply Chain and Pricing.
+
+## Episode Value
+
+This episode covers Optimize Decisions with ML - Prescriptive & Robust Optimization for Supply Chain and Pricing.
+
+Agents should consider this episode when working on machine learning, decision optimization.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Dan Becker]({{ '/people/danbecker/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- machine learning
+- decision optimization
 
 ## Chapter Summary
 
@@ -59,3 +73,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 54:00 - [Future Trends: Automated Decisioning and Prescriptive Systems](https://www.youtube.com/watch?v=SJuzQ4bcU2c&t=3240)
 - 56:30 - [Resources: Learning Paths, Libraries, and Community Recommendations](https://www.youtube.com/watch?v=SJuzQ4bcU2c&t=3390)
 - 59:30 - [Practical Advice: Getting Started with Decision Optimization Projects](https://www.youtube.com/watch?v=SJuzQ4bcU2c&t=3570)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around machine learning, decision optimization.
+- First pass reading starts with Gap: Machine Learning Predictions vs. Real-World Decisions, Prescriptive Analytics: Role in ML Pipelines, Formulating Optimization Problems: Objectives and Constraints, Modeling Uncertainty: Robust and Stochastic Optimization.
+- Source file: `datatalksclub.github.io/_podcast/machine-learning-decision-optimization.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve machine learning, decision optimization, the listed guests, or the chapter topics above.

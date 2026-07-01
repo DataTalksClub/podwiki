@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=sXU9vMDBjmk"
 spotify_url: "https://open.spotify.com/episode/6S4a85iiRzl7NU1HykXeKT?si=FNoDtj74T2ujQKzKdDWwzA"
 apple_url: "https://podcasts.apple.com/us/podcast/linguistics-and-fairness-tamara-atanasoska/id1541710331?i=1000684411354"
 ---
-# Fairness in AI/ML Engineering: Interpretability, Metrics and Sociotechnical Design
+
+# Episode: Fairness in AI/ML Engineering: Interpretability, Metrics and Sociotechnical Design
 
 ## Original Episode
 
@@ -25,7 +26,13 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you reduce bias in credit scoring models without sacrificing explainability? In this episode, Tamara Atanasoska — an open source software engineer at :probabl.., Fairlearn maintainer, and contributor to scikit-learn and skops with a background in software engineering and computational linguistics — walks through practical approaches to fairness in AI. We dig into a real credit scoring use case, empirical findings on gender disparities, and the societal harms of biased models such as debt and repossession.
+This episode covers Fairness in AI/ML Engineering - Interpretability, Metrics and Sociotechnical Design.
+
+## Episode Value
+
+This episode covers Fairness in AI/ML Engineering - Interpretability, Metrics and Sociotechnical Design.
+
+Agents should consider this episode when working on machine learning, LLMs, open-source.
 
 ## People
 
@@ -33,12 +40,23 @@ Use these links to connect the episode to guest notes.
 
 - [Tamara Atanasoska]({{ '/people/tamaraatanasoska/' | relative_url }})
 
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- machine learning
+- LLMs
+- open-source
+- tools
+- data governance
+- fairness
+
 ## Chapter Summary
 
 Use these checkpoints to decide whether to open the source transcript.
 
 - 0:00 - [Podcast Introduction & Episode Overview](https://www.youtube.com/watch?v=sXU9vMDBjmk&t=0)
-- 2:31 - [Guest Introduction: Tamara’s Open-Source Roles (Fairlearn, scikit-learn,](https://www.youtube.com/watch?v=sXU9vMDBjmk&t=151)
+- 2:31 - [Guest Introduction: Tamara's Open-Source Roles (Fairlearn, scikit-learn,](https://www.youtube.com/watch?v=sXU9vMDBjmk&t=151)
 - 3:18 - [Career Overview: Software Engineering to Computational Linguistics](https://www.youtube.com/watch?v=sXU9vMDBjmk&t=198)
 - 4:37 - [Music Tech Experience: Ableton and Push 2 Instrument Design](https://www.youtube.com/watch?v=sXU9vMDBjmk&t=277)
 - 6:41 - [Device Architecture: Laptop Computation vs Standalone Hardware](https://www.youtube.com/watch?v=sXU9vMDBjmk&t=401)
@@ -70,3 +88,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 56:37 - [Project Updates: Upcoming Fairlearn Release and Maintainer Notes](https://www.youtube.com/watch?v=sXU9vMDBjmk&t=3397)
 - 57:22 - [Practical Quirk: Tokenization Issues Breaking "Fairlearn" in Transcripts](https://www.youtube.com/watch?v=sXU9vMDBjmk&t=3442)
 - 58:14 - [Closing Remarks, Contact Info, and Final Thoughts](https://www.youtube.com/watch?v=sXU9vMDBjmk&t=3494)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around machine learning, LLMs, open-source, tools, data governance, fairness.
+- First pass reading starts with Guest Introduction: Tamara's Open-Source Roles (Fairlearn, scikit-learn,, Career Overview: Software Engineering to Computational Linguistics, Music Tech Experience: Ableton and Push 2 Instrument Design, Device Architecture: Laptop Computation vs Standalone Hardware.
+- Source file: `datatalksclub.github.io/_podcast/fairness-in-ai-ml-engineering.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve machine learning, LLMs, open-source, tools, the listed guests, or the chapter topics above.

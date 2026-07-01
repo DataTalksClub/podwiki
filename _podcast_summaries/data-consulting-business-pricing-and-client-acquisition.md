@@ -12,7 +12,8 @@ youtube_url: "https://www.youtube.com/watch?v=rh_pE35m3vE"
 spotify_url: "https://open.spotify.com/episode/2Y0mKRHq6wVfr25HJ5Ji3Y?si=kUkmMW2AT6-FeRd6SpXWlg"
 apple_url: "https://podcasts.apple.com/us/podcast/starting-a-consultancy-in-the-data-space/id1541710331?i=1000604682286"
 ---
-# Build a Data Consulting Business: Customer Validation, User Interviews & Pricing Strategy
+
+# Episode: Build a Data Consulting Business: Customer Validation, User Interviews & Pricing Strategy
 
 ## Original Episode
 
@@ -25,13 +26,31 @@ Use these links for the canonical episode and media sources.
 
 ## Episode Overview
 
-How do you validate customers, run effective user interviews, and set pricing to build a sustainable data consulting business? In this episode, Aleksander Kruszelnicki — ex-Delivery Hero product manager turned co-founder of leukos, a boutique data analytics agency in Berlin — walks through the practical steps he took shifting from product ideas to a consulting model after early startup failures.
+This episode covers Build a Data Consulting Business - Customer Validation, User Interviews & Pricing Strategy.
+
+## Episode Value
+
+This episode covers Build a Data Consulting Business - Customer Validation, User Interviews & Pricing Strategy.
+
+Agents should consider this episode when working on consulting, entrepreneurship, freelance.
 
 ## People
 
 Use these links to connect the episode to guest notes.
 
 - [Aleksander Kruszelnicki]({{ '/people/aleksanderkruszelnicki/' | relative_url }})
+
+## Key Concepts
+
+Use these concepts for topic routing and graph connections.
+
+- consulting
+- entrepreneurship
+- freelance
+- data strategy
+- business development
+- career growth
+- startups
 
 ## Chapter Summary
 
@@ -59,3 +78,17 @@ Use these checkpoints to decide whether to open the source transcript.
 - 52:38 - [Contract Models: Day Rates vs Project Pricing and Incentives](https://www.youtube.com/watch?v=rh_pE35m3vE&t=3158)
 - 57:58 - [Legal & Administrative: Registering a Consultancy in Germany](https://www.youtube.com/watch?v=rh_pE35m3vE&t=3478)
 - 59:29 - [Recommended Reading: Decision-Making and Interviewing Books](https://www.youtube.com/watch?v=rh_pE35m3vE&t=3569)
+
+## Useful For Agents
+
+Use this section to decide whether to open the full source episode.
+
+- Use for topic routing around consulting, entrepreneurship, freelance, data strategy, business development, career growth.
+- First pass reading starts with Career Journey & Archaeology Origin Story, Data Stack as a Service: Market and Technical Limits, Transition to Consulting: Early Projects and First Customer, Customer Validation Techniques for Pre-Product Ideas.
+- Source file: `datatalksclub.github.io/_podcast/data-consulting-business-pricing-and-client-acquisition.md`.
+
+## Probably Skip If
+
+Skip this episode when the task is outside the episode scope.
+
+- Your task doesn't involve consulting, entrepreneurship, freelance, data strategy, the listed guests, or the chapter topics above.
