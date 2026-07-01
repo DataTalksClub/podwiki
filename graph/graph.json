@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 145,
     "nodes": 1008,
-    "links": 10442
+    "links": 10464
   },
   "nodes": [
     {
@@ -12889,6 +12889,12 @@
     },
     {
       "source": "article:guide:data-analysis",
+      "target": "article:roadmap:data-analyst-to-analytics-engineer",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:guide:data-analysis",
       "target": "person:alicjanotowska",
       "kind": "article-link",
       "weight": 2
@@ -13480,6 +13486,12 @@
       "target": "article:guide:data-product-manager",
       "kind": "article-link",
       "weight": 2
+    },
+    {
+      "source": "article:guide:data-roles",
+      "target": "article:roadmap:data-analyst-to-analytics-engineer",
+      "kind": "article-link",
+      "weight": 4
     },
     {
       "source": "article:guide:data-roles",
@@ -17167,6 +17179,18 @@
     },
     {
       "source": "article:roadmap:data-analyst-to-analytics-engineer",
+      "target": "article:guide:data-analysis",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-analytics-engineer",
+      "target": "article:guide:data-roles",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-analytics-engineer",
       "target": "person:arpitchoudhury",
       "kind": "article-link",
       "weight": 2
@@ -17186,6 +17210,12 @@
     {
       "source": "article:roadmap:data-analyst-to-analytics-engineer",
       "target": "person:juanmanuelperafan",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-analytics-engineer",
+      "target": "person:juanpablo",
       "kind": "article-link",
       "weight": 2
     },
@@ -17211,31 +17241,31 @@
       "source": "article:roadmap:data-analyst-to-analytics-engineer",
       "target": "podcast:analytics-engineer-skills-tools",
       "kind": "article-link",
-      "weight": 2
+      "weight": 8
     },
     {
       "source": "article:roadmap:data-analyst-to-analytics-engineer",
       "target": "podcast:data-engineering-tools-modern-data-stack",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:roadmap:data-analyst-to-analytics-engineer",
       "target": "podcast:data-led-growth-event-tracking-and-reverse-etl",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:roadmap:data-analyst-to-analytics-engineer",
       "target": "podcast:data-team-roles",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:roadmap:data-analyst-to-analytics-engineer",
       "target": "podcast:dataops-automation-and-reliable-data-pipelines",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:roadmap:data-analyst-to-analytics-engineer",
@@ -17245,14 +17275,26 @@
     },
     {
       "source": "article:roadmap:data-analyst-to-analytics-engineer",
+      "target": "podcast:from-math-graduate-to-data-analytics",
+      "kind": "article-link",
+      "weight": 26
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-analytics-engineer",
       "target": "podcast:get-data-analytics-and-data-engineering-job",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:roadmap:data-analyst-to-analytics-engineer",
       "target": "podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices",
       "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-analytics-engineer",
+      "target": "wiki:a-b-testing",
+      "kind": "article-link",
       "weight": 2
     },
     {
@@ -17288,6 +17330,18 @@
     {
       "source": "article:roadmap:data-analyst-to-analytics-engineer",
       "target": "wiki:analytics-engineering-roadmap",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-analytics-engineer",
+      "target": "wiki:business-intelligence",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-analytics-engineer",
+      "target": "wiki:business-intelligence",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -17301,7 +17355,7 @@
       "source": "article:roadmap:data-analyst-to-analytics-engineer",
       "target": "wiki:data-analyst-role",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:roadmap:data-analyst-to-analytics-engineer",
@@ -17325,13 +17379,19 @@
       "source": "article:roadmap:data-analyst-to-analytics-engineer",
       "target": "wiki:data-quality-and-observability",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:roadmap:data-analyst-to-analytics-engineer",
       "target": "wiki:data-quality-and-observability",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-analytics-engineer",
+      "target": "wiki:dataops",
+      "kind": "article-link",
+      "weight": 2
     },
     {
       "source": "article:roadmap:data-analyst-to-analytics-engineer",
@@ -17349,7 +17409,13 @@
       "source": "article:roadmap:data-analyst-to-analytics-engineer",
       "target": "wiki:event-tracking",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-analytics-engineer",
+      "target": "wiki:event-tracking",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "article:roadmap:data-analyst-to-analytics-engineer",
@@ -17371,9 +17437,15 @@
     },
     {
       "source": "article:roadmap:data-analyst-to-analytics-engineer",
+      "target": "wiki:modern-data-stack",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-analytics-engineer",
       "target": "wiki:product-analytics",
       "kind": "article-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "article:roadmap:data-analyst-to-analytics-engineer",
@@ -17385,7 +17457,13 @@
       "source": "article:roadmap:data-analyst-to-analytics-engineer",
       "target": "wiki:tracking-plans",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-analytics-engineer",
+      "target": "wiki:tracking-plans",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "article:roadmap:data-analyst-to-data-engineer",
@@ -37645,6 +37723,12 @@
     },
     {
       "source": "wiki:analytics-engineering",
+      "target": "article:roadmap:data-analyst-to-analytics-engineer",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:analytics-engineering",
       "target": "person:arpitchoudhury",
       "kind": "wiki-link",
       "weight": 2
@@ -37933,6 +38017,12 @@
     },
     {
       "source": "wiki:analytics-engineering-portfolio-projects",
+      "target": "article:roadmap:data-analyst-to-analytics-engineer",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:analytics-engineering-portfolio-projects",
       "target": "person:arpitchoudhury",
       "kind": "wiki-link",
       "weight": 8
@@ -38198,6 +38288,12 @@
     {
       "source": "wiki:analytics-engineering-portfolio-projects",
       "target": "wiki:reverse-etl",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:analytics-engineering-roadmap",
+      "target": "article:roadmap:data-analyst-to-analytics-engineer",
       "kind": "wiki-link",
       "weight": 4
     },
@@ -42898,6 +42994,12 @@
       "target": "wiki:product-analytics",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-analyst-role",
+      "target": "article:roadmap:data-analyst-to-analytics-engineer",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:data-analyst-role",
@@ -50554,6 +50656,12 @@
       "target": "wiki:self-service-data-platforms",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:dbt",
+      "target": "article:roadmap:data-analyst-to-analytics-engineer",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:dbt",
@@ -59281,6 +59389,12 @@
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
+      "target": "article:roadmap:data-analyst-to-analytics-engineer",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:marketing-to-analytics-engineering",
       "target": "person:arpitchoudhury",
       "kind": "wiki-link",
       "weight": 2
@@ -59617,6 +59731,12 @@
     },
     {
       "source": "wiki:metrics",
+      "target": "article:roadmap:data-analyst-to-analytics-engineer",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:metrics",
       "target": "person:adamsroka",
       "kind": "wiki-link",
       "weight": 4
@@ -59719,9 +59839,21 @@
     },
     {
       "source": "wiki:metrics",
+      "target": "wiki:analytics-engineering",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:metrics",
       "target": "wiki:causal-inference",
       "kind": "wiki-link",
       "weight": 4
+    },
+    {
+      "source": "wiki:metrics",
+      "target": "wiki:dashboard-and-metric-layer-project-checklist",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:metrics",

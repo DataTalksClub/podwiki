@@ -60,6 +60,8 @@ analytics engineers then transform it with SQL and dbt-style workflows
 The same definition connects the roadmap to [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }}),
 [Data Analyst vs Analytics Engineer]({{ '/wiki/data-analyst-vs-analytics-engineer/' | relative_url }}),
 [dbt]({{ '/wiki/dbt/' | relative_url }}), and [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).
+The specific analyst transition path is
+[Data Analyst to Analytics Engineer Roadmap]({{ '/roadmaps/data-analyst-to-analytics-engineer/' | relative_url }}).
 
 ## Guest Differences
 
@@ -288,11 +290,12 @@ then let the model reveal the next topic.
 
 ## Related Pages
 
-Use these pages for the role, stack, projects, and adjacent domains.
+These pages cover the role, stack, projects, and adjacent domains.
 
 - [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
 - [Analytics Engineering Portfolio Projects]({{ '/wiki/analytics-engineering-portfolio-projects/' | relative_url }})
 - [Data Analyst vs Analytics Engineer]({{ '/wiki/data-analyst-vs-analytics-engineer/' | relative_url }})
+- [Data Analyst to Analytics Engineer Roadmap]({{ '/roadmaps/data-analyst-to-analytics-engineer/' | relative_url }})
 - [Marketing to Analytics Engineering]({{ '/wiki/marketing-to-analytics-engineering/' | relative_url }})
 - [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
 - [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }})

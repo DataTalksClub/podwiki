@@ -160,7 +160,9 @@ Maksimovic shows how learning dbt can anchor a career move from business or
 marketing work into analytics engineering. That path also needs SQL, BI,
 product context, and modeling practice. See
 [Marketing to Analytics Engineering]({{ '/wiki/marketing-to-analytics-engineering/' | relative_url }})
-for that transition path.
+for that transition path. Analysts using dbt as the bridge into model ownership
+can also use the
+[Data Analyst to Analytics Engineer Roadmap]({{ '/roadmaps/data-analyst-to-analytics-engineer/' | relative_url }}).
 
 Perafan is more careful about tool identity. dbt helps teams practice
 analytics engineering, but dbt alone doesn't make someone an analytics

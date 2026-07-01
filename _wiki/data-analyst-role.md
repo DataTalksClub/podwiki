@@ -174,7 +174,9 @@ control. Tests and DAGs also appear around 4:05-6:49.
 
 For this boundary, start with
 [Data Analyst vs Analytics Engineer]({{ '/wiki/data-analyst-vs-analytics-engineer/' | relative_url }})
-as the adjacent page.
+as the adjacent page. The
+[Data Analyst to Analytics Engineer Roadmap]({{ '/roadmaps/data-analyst-to-analytics-engineer/' | relative_url }})
+covers the transition when analysts want to own reusable models.
 
 The boundary with the
 [data engineer role]({{ '/wiki/data-engineer-role/' | relative_url }}) is
@@ -199,6 +201,7 @@ These pages cover adjacent roles, skills, and career paths.
 
 - [Data Analyst Careers]({{ '/wiki/data-analyst-careers/' | relative_url }})
 - [Data Analyst vs Analytics Engineer]({{ '/wiki/data-analyst-vs-analytics-engineer/' | relative_url }})
+- [Data Analyst to Analytics Engineer Roadmap]({{ '/roadmaps/data-analyst-to-analytics-engineer/' | relative_url }})
 - [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }})
 - [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
 - [Metrics]({{ '/wiki/metrics/' | relative_url }})

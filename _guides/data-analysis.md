@@ -221,8 +221,12 @@ Good project shapes follow the podcast evidence:
 For analysts who want to move toward analytics engineering, add reusable data
 models, tests, and documentation. Perez Mola's role episode ties that direction
 to SQL transformations and version control. It also ties the path to tests and
-dependency graphs around 6:49-10:04. For analysts who want to move toward data
-science, add prediction, evaluation, and experiment interpretation. Then
+dependency graphs around 6:49-10:04. The
+[Data Analyst to Analytics Engineer Roadmap]({{ '/roadmaps/data-analyst-to-analytics-engineer/' | relative_url }})
+turns that move into a learning and project sequence.
+
+For analysts who want to move toward data science, add prediction, evaluation,
+and experiment interpretation. Then
 connect those choices to the
 [Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }}) and
 [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}).

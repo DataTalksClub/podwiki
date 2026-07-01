@@ -19,7 +19,7 @@ projects show more than SQL or a dashboard. They show table grain and modeled
 layers. They include tests, documentation, BI consumption, and the business
 question behind the model.
 
-Use this page with the broader
+This project checklist sits beside the broader
 [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
 role page, the
 [Analytics Engineering Roadmap]({{ '/wiki/analytics-engineering-roadmap/' | relative_url }}),
@@ -99,6 +99,10 @@ testing
 ([7:18-23:12 and 38:27]({{ '/podcasts/from-marketing-to-analytics-engineering-sql-dbt-career-switch/' | relative_url }})).
 That supports portfolios that turn domain knowledge into modeled metrics
 instead of treating domain context as background.
+
+Analysts can use the
+[Data Analyst to Analytics Engineer Roadmap]({{ '/roadmaps/data-analyst-to-analytics-engineer/' | relative_url }})
+to turn dashboard and KPI work into this kind of portfolio.
 
 [Arpit Choudhury]({{ '/people/arpitchoudhury/' | relative_url }}) widens the
 project boundary toward [Data Activation]({{ '/wiki/data-activation/' | relative_url }}).
@@ -318,10 +322,11 @@ for the workflow view.
 
 ## Related Pages
 
-Use these pages for the role, stack, and adjacent portfolio context:
+These pages cover the role, stack, and adjacent portfolio context:
 
 - [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
 - [Analytics Engineering Roadmap]({{ '/wiki/analytics-engineering-roadmap/' | relative_url }})
+- [Data Analyst to Analytics Engineer Roadmap]({{ '/roadmaps/data-analyst-to-analytics-engineer/' | relative_url }})
 - [Data Analyst vs Analytics Engineer]({{ '/wiki/data-analyst-vs-analytics-engineer/' | relative_url }})
 - [Marketing to Analytics Engineering]({{ '/wiki/marketing-to-analytics-engineering/' | relative_url }})
 - [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})

@@ -222,6 +222,9 @@ when you want more software rigor than dashboard work usually offers. The
 [Analytics Engineering Roadmap]({{ '/wiki/analytics-engineering-roadmap/' | relative_url }})
 keeps the sequence practical. Start with SQL and modeling. Then add
 `dbt`-style projects, tests, documentation, and BI consumption.
+The
+[Data Analyst to Analytics Engineer Roadmap]({{ '/roadmaps/data-analyst-to-analytics-engineer/' | relative_url }})
+is the focused transition path for analysts.
 
 If you already write production software and want to move toward models, use
 [Software Engineer to Machine Learning]({{ '/wiki/software-engineer-to-machine-learning/' | relative_url }})
@@ -345,6 +348,9 @@ For analytics engineering, use
 [Analytics Engineering Roadmap]({{ '/wiki/analytics-engineering-roadmap/' | relative_url }}),
 and
 [Analytics Engineering Portfolio Projects]({{ '/wiki/analytics-engineering-portfolio-projects/' | relative_url }}).
+Analysts can use
+[Data Analyst to Analytics Engineer Roadmap]({{ '/roadmaps/data-analyst-to-analytics-engineer/' | relative_url }})
+for the role-specific transition.
 
 For ML engineering, use
 [Machine Learning Engineer Role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }}),
