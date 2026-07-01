@@ -25,7 +25,7 @@ A/B testing is a randomized product experiment. A team assigns comparable users
 or sessions to a control experience and one changed experience. It then compares
 the outcomes on metrics chosen before the test starts.
 
-Guests use A/B testing as the practical bridge between
+A/B testing bridges
 [product analytics]({{ '/wiki/product-analytics/' | relative_url }}),
 [experimentation]({{ '/wiki/experimentation/' | relative_url }}), and
 [causal inference]({{ '/wiki/causal-inference/' | relative_url }}). The test
@@ -45,11 +45,11 @@ change from market noise and seasonality. It also reduces bias from user
 differences. At 11:48, he frames experimentation as a way to establish causality
 under live product conditions.
 
-## Common Definition
+## Randomization and Assignment
 
-A practical definition is narrower than "try two variants and look at a
-dashboard." A useful A/B test has stable assignment and logged exposure. It has
-a control group, a treatment group, a primary metric, and an agreed decision
+A practical A/B test is narrower than "try two variants and look at a
+dashboard." The test needs stable assignment and logged exposure. It needs a
+control group, a treatment group, a primary metric, and an agreed decision
 rule.
 That definition connects directly to
 [A/A Testing]({{ '/wiki/a-a-testing/' | relative_url }}),
@@ -64,10 +64,12 @@ uses [A/A testing at 27:52]({{ '/podcasts/ab-testing-and-product-experimentation
 as the trust check. If two identical groups show a large difference, the
 measurement system needs attention before an A/B result is credible.
 
-## Guest Tradeoffs
+## Operating Contexts
 
-The guests agree that A/B testing is about causal decisions, but they use it in
-different operating contexts.
+A/B testing keeps the same causal structure in product analytics, production
+ML, and causal inference. It also appears in healthcare personalization,
+marketing, and search. The operating context changes what teams must protect,
+measure, and debug.
 
 [Jakob Graff]({{ '/people/jakobgraff/' | relative_url }}) treats the subject as
 a product analytics discipline. In
@@ -108,7 +110,7 @@ he discusses treatment/control design and data pitfalls for uplift. His earlier
 chapters on attribution and media mix modeling show why A/B testing isn't
 always available for every channel, campaign, or customer journey.
 
-[Valerii Babushkin]({{ '/people/valeriybabushkin/' | relative_url }}) treats
+[Valeriy Babushkin]({{ '/people/valeriybabushkin/' | relative_url }}) treats
 A/B tests as part of ML system design. In
 [ML System Design Interviews at 24:28]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }}),
 he puts metrics, baselines, and A/B testing inside the end-to-end ML pipeline.
@@ -123,7 +125,7 @@ names contacts and revenue. Around 1:03:50, he adds offline tests and A/B
 tests. Search teams should treat A/B testing as one part of the evaluation
 loop, not a replacement for relevance diagnostics.
 
-## Experimentation Design
+## Test Design and Rollout
 
 Teams start design by choosing the unit of assignment. Account-level product
 changes often use users, while short-lived experiences can use sessions. Some
@@ -151,14 +153,15 @@ stakeholders trust the result.
 Teams with model-backed products often stage rollout. Rishabh's
 [production ML discussion at 28:42]({{ '/podcasts/production-ml-mlops-and-data-team-building/' | relative_url }})
 uses offline model work, shadow mode, and A/B tests before full rollout.
-Valerii's
+[Valeriy Babushkin]({{ '/people/valeriybabushkin/' | relative_url }})'s
 [system-design discussion at 24:28]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }})
-puts baselines and metrics into the same sequence. Lina Weichbrodt's
+puts baselines and metrics into the same sequence.
+[Lina Weichbrodt]({{ '/people/linaweichbrodt/' | relative_url }})'s
 [model-monitoring discussion at 29:23]({{ '/podcasts/human-centered-mlops-and-model-monitoring/' | relative_url }})
 adds live test sets and small A/B tests as ways to detect model issues before
 they become wider incidents.
 
-## Metrics
+## Metrics and Decision Rules
 
 A/B testing fails when the metric doesn't match the decision. Jakob's
 subscription-versus-points example in
@@ -175,7 +178,7 @@ teams need enough sample size and duration to detect the effect they care about.
 At 37:44, he ties duration planning to statistical power rather than calendar
 convenience.
 
-Guests separate statistical significance from product significance. In
+Jakob separates statistical significance from product significance. In
 [the A/B testing episode at 47:44]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}),
 Jakob explains p-values through an A/A comparison. A passing threshold is only
 part of the decision. The team still needs to ask whether the estimated uplift is
@@ -198,7 +201,7 @@ revenue. In production ML, Rishabh's segment analysis at
 [31:19]({{ '/podcasts/production-ml-mlops-and-data-team-building/' | relative_url }})
 keeps the team from reading only the top-line average.
 
-## Product Analytics
+## Product Analytics Decisions
 
 In product analytics, A/B testing is a decision system, not only a statistics
 exercise. It helps teams decide whether product changes should roll out. Those
@@ -221,8 +224,8 @@ doesn't only answer whether a change worked. It teaches the team which user
 behavior moved and where the effect appeared. It also shows which assumptions
 were wrong.
 
-Other archive examples show the same analytics layer in different products.
-Caitlin Moorman's
+Other product examples use the same analytics layer in different products.
+[Caitlin Moorman]({{ '/people/caitlinmoorman/' | relative_url }})'s
 [Last-Mile Data Delivery discussion at 28:42]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }})
 frames A/B testing reports as decision products for business stakeholders.
 Stefan's

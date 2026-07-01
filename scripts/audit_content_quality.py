@@ -18,6 +18,10 @@ FORBIDDEN_HEADING_RE = re.compile(
     r"Recurring Archive Themes|Maintenance Notes|Agent Maintenance Notes|Guest Experts|Bottom Line)\b",
     re.MULTILINE,
 )
+SCAFFOLD_HEADING_RE = re.compile(
+    r"^## (Common Definition|Guest Tradeoffs|Guest Differences|Guest Disagreements|Guest Emphasis)\b",
+    re.MULTILINE,
+)
 ARCHIVE_HEADING_RE = re.compile(r"^## .*?\bArchive\b.*$", re.MULTILINE)
 ARCHIVE_SCAFFOLDING_RE = re.compile(
     r"\b(?:the archive|The archive|DataTalks\.Club archive|archive-backed|archive's|archive’s)\b"
@@ -63,6 +67,23 @@ def page_paths(folders: list[str]) -> list[Path]:
     return sorted(paths)
 
 
+def selected_page_paths(paths: list[str]) -> list[Path]:
+    selected: list[Path] = []
+    for value in paths:
+        path = (ROOT / value).resolve()
+        if not path.is_file():
+            continue
+        if path.suffix != ".md" or path.name == "README.md":
+            continue
+        if path.parent.name not in PUBLIC_CONTENT_FOLDERS:
+            continue
+        meta = frontmatter(path.read_text(encoding="utf-8"))
+        if meta.get("redirect_to") or meta.get("published", "").lower() == "false":
+            continue
+        selected.append(path)
+    return sorted(set(selected))
+
+
 def link_counts(text: str) -> dict[str, int]:
     counts = {collection: 0 for collection in PUBLIC_COLLECTIONS}
     targets = [match.group(1) for match in LOCAL_LINK_RE.finditer(text)]
@@ -74,12 +95,14 @@ def link_counts(text: str) -> dict[str, int]:
     return counts
 
 
-def audit_file(path: Path) -> dict[str, object]:
+def audit_file(path: Path, strict_scaffold_headings: bool = False) -> dict[str, object]:
     text = path.read_text(encoding="utf-8")
     body = visible_body(text)
     links = link_counts(text)
     is_public_content = path.parent.name in PUBLIC_CONTENT_FOLDERS
     forbidden = FORBIDDEN_HEADING_RE.findall(text)
+    if strict_scaffold_headings:
+        forbidden.extend(SCAFFOLD_HEADING_RE.findall(text))
     archive_headings = ARCHIVE_HEADING_RE.findall(text)
     archive_scaffolding = ARCHIVE_SCAFFOLDING_RE.findall(body)
     generic = body.count(GENERIC_PODCAST_URL)
@@ -108,9 +131,16 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("folders", nargs="*", default=list(DEFAULT_FOLDERS))
     parser.add_argument("--limit", type=int, default=40)
+    parser.add_argument("--paths", nargs="*", help="Audit these specific public Markdown files instead of folders.")
+    parser.add_argument(
+        "--strict-scaffold-headings",
+        action="store_true",
+        help="Also flag older scaffold headings such as Common Definition and Guest Differences.",
+    )
     args = parser.parse_args()
 
-    rows = [audit_file(path) for path in page_paths(args.folders)]
+    paths = selected_page_paths(args.paths) if args.paths else page_paths(args.folders)
+    rows = [audit_file(path, args.strict_scaffold_headings) for path in paths]
     problem_rows = [
         row
         for row in rows

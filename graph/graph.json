@@ -11,7 +11,7 @@
     "persons": 183,
     "topics": 92,
     "nodes": 703,
-    "links": 10830
+    "links": 10842
   },
   "nodes": [
     {
@@ -33351,6 +33351,12 @@
     },
     {
       "source": "wiki:a-a-testing",
+      "target": "person:arpitchoudhury",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:a-a-testing",
       "target": "person:jakobgraff",
       "kind": "wiki-link",
       "weight": 1
@@ -33370,6 +33376,12 @@
     {
       "source": "wiki:a-a-testing",
       "target": "podcast:causal-inference-for-machine-learning",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:a-a-testing",
+      "target": "podcast:data-led-growth-event-tracking-and-reverse-etl",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -33399,15 +33411,15 @@
     },
     {
       "source": "wiki:a-a-testing",
-      "target": "wiki:evaluation",
+      "target": "wiki:event-tracking",
       "kind": "wiki-link",
       "weight": 1
     },
     {
       "source": "wiki:a-a-testing",
       "target": "wiki:event-tracking",
-      "kind": "wiki-link",
-      "weight": 1
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:a-a-testing",
@@ -33453,9 +33465,21 @@
     },
     {
       "source": "wiki:a-a-testing",
+      "target": "wiki:product-analytics",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:a-a-testing",
       "target": "wiki:tracking-plans",
       "kind": "wiki-link",
       "weight": 1
+    },
+    {
+      "source": "wiki:a-a-testing",
+      "target": "wiki:tracking-plans",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:a-b-testing",
@@ -33477,6 +33501,12 @@
     },
     {
       "source": "wiki:a-b-testing",
+      "target": "person:caitlinmoorman",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:a-b-testing",
       "target": "person:danielsvonava",
       "kind": "wiki-link",
       "weight": 1
@@ -33490,6 +33520,12 @@
     {
       "source": "wiki:a-b-testing",
       "target": "person:juanorduz",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:a-b-testing",
+      "target": "person:linaweichbrodt",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -52545,12 +52581,6 @@
     },
     {
       "source": "wiki:experimentation",
-      "target": "article:guide:product-analyst",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:experimentation",
       "target": "person:aleksandermolak",
       "kind": "wiki-link",
       "weight": 1
@@ -52602,6 +52632,12 @@
       "target": "wiki:a-a-testing",
       "kind": "wiki-link",
       "weight": 1
+    },
+    {
+      "source": "wiki:experimentation",
+      "target": "wiki:a-a-testing",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:experimentation",
@@ -52677,6 +52713,12 @@
     },
     {
       "source": "wiki:experimentation",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:experimentation",
       "target": "wiki:metrics",
       "kind": "wiki-link",
       "weight": 1
@@ -52686,6 +52728,12 @@
       "target": "wiki:power-analysis",
       "kind": "wiki-link",
       "weight": 1
+    },
+    {
+      "source": "wiki:experimentation",
+      "target": "wiki:power-analysis",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:experimentation",
@@ -52704,6 +52752,12 @@
       "target": "wiki:production",
       "kind": "wiki-link",
       "weight": 1
+    },
+    {
+      "source": "wiki:experimentation",
+      "target": "wiki:production",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:experimentation-and-causal-inference",
@@ -63519,6 +63573,12 @@
     },
     {
       "source": "wiki:power-analysis",
+      "target": "wiki:a-a-testing",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:power-analysis",
       "target": "wiki:a-b-testing",
       "kind": "wiki-link",
       "weight": 1
@@ -63555,6 +63615,12 @@
     },
     {
       "source": "wiki:power-analysis",
+      "target": "wiki:experimentation",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:power-analysis",
       "target": "wiki:experimentation-and-causal-inference",
       "kind": "wiki-link",
       "weight": 1
@@ -63582,6 +63648,12 @@
       "target": "wiki:product-analytics",
       "kind": "wiki-link",
       "weight": 1
+    },
+    {
+      "source": "wiki:power-analysis",
+      "target": "wiki:product-analytics",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:practices",

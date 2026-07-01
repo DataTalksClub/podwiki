@@ -21,19 +21,27 @@ Follow these rules when adding any page from this backlog.
   link to the canonical DataTalks.Club episode. Do not link public-page evidence
   to the generic podcast archive page.
 - Run `make check` after adding pages so graph and search stay current.
+- For edited public pages, run the content audit with
+  `--strict-scaffold-headings --paths <files...>` so old template headings do
+  not reappear on new work.
 
 ## Current Rewrite Requirements
 
 These notes capture the current cleanup direction and should not be lost.
 
-- Redo wiki pages to follow one structure: opening definition, common
-  definition, where guests differ, concrete topic sections with inline podcast
-  references, and related pages.
+- Redo wiki pages to follow one structure: opening definition, topic-specific
+  sections, concrete differences in how guests apply the topic, inline podcast
+  references, and related pages. Do not expose scaffolding headings such as
+  `Common Definition`, `Guest Differences`, or `Guest Tradeoffs`; use headings
+  that describe the actual subject.
 - Remove public meta sections from wiki and editorial pages. Do not use
   `Contents`, `Search Intent`, `Archive Evidence`, `Episode Evidence`, `Guest
   Descriptions`, `Recurring Archive Themes`, `Maintenance Notes`, or `Agent
-  Maintenance Notes` as reader-facing headings. Do not add visible `Link Map`
-  sections; spread those links through the article body and `Related Pages`.
+  Maintenance Notes` as reader-facing headings. Do not use generic guest
+  scaffolding such as `Common Definition`, `Guest Differences`, `Guest
+  Tradeoffs`, `Guest Disagreements`, or `Guest Emphasis`. Do not add visible
+  `Link Map` sections; spread those links through the article body and
+  `Related Pages`.
 - Ground each substantive section in actual podcast discussions. Put the
   podcast reference next to the claim it supports, like a citation, instead of
   collecting evidence in a separate appendix.
