@@ -11,7 +11,7 @@
     "persons": 183,
     "topics": 92,
     "nodes": 704,
-    "links": 10976
+    "links": 10982
   },
   "nodes": [
     {
@@ -6859,7 +6859,7 @@
       "title": "Security",
       "url": "/wiki/security/",
       "count": 1,
-      "search": "Security Podcast grounded bridge for security in data and AI systems: LLM abuse, data exfiltration, access control, privacy, and secure ML artifacts."
+      "search": "Security Security in data and AI systems: LLM abuse, data exfiltration, access control, privacy, release approval, and secure ML artifacts."
     },
     {
       "id": "wiki:self-service-data-platforms",
@@ -68773,6 +68773,12 @@
     },
     {
       "source": "wiki:search",
+      "target": "article:comparison:graph-rag-vs-vector-rag",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:search",
       "target": "article:comparison:knowledge-graph-vs-vector-search",
       "kind": "wiki-link",
       "weight": 1
@@ -68899,6 +68905,12 @@
     },
     {
       "source": "wiki:search",
+      "target": "wiki:search-and-rag-project-checklist",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:search",
       "target": "wiki:search-rag-and-knowledge-systems",
       "kind": "wiki-link",
       "weight": 1
@@ -68948,6 +68960,12 @@
     {
       "source": "wiki:search-and-rag-project-checklist",
       "target": "article:comparison:vector-database-vs-search-engine",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:search-and-rag-project-checklist",
+      "target": "article:roadmap:llm-rag-production-roadmap",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -69032,6 +69050,18 @@
     {
       "source": "wiki:search-and-rag-project-checklist",
       "target": "podcast:practical-llm-engineering-and-rag",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:search-and-rag-project-checklist",
+      "target": "wiki:agent-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:search-and-rag-project-checklist",
+      "target": "wiki:ai-agents",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -69124,6 +69154,12 @@
       "target": "wiki:search-rag-and-knowledge-systems",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:search-and-rag-project-checklist",
+      "target": "wiki:testing",
+      "kind": "wiki-link",
+      "weight": 1
     },
     {
       "source": "wiki:search-and-rag-project-checklist",

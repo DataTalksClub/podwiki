@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Security"
-summary: "Podcast-grounded bridge for security in data and AI systems: LLM abuse, data exfiltration, access control, privacy, and secure ML artifacts."
+summary: "Security in data and AI systems: LLM abuse, data exfiltration, access control, privacy, release approval, and secure ML artifacts."
 related:
   - AI Red Teaming
   - Responsible AI and Governance
@@ -10,209 +10,173 @@ related:
   - Production
 ---
 
-Security prevents unauthorized access, data leakage, misuse, and unsafe model
-behavior. It also keeps unreviewed changes out of systems that handle data or
-make decisions. DataTalks.Club guests don't describe security as one control.
-They connect it to [data governance]({{ '/wiki/data-governance/' | relative_url }}),
-[privacy engineering]({{ '/wiki/privacy-engineering-for-ml/' | relative_url }}),
-[MLOps]({{ '/wiki/mlops/' | relative_url }}), and
+Security prevents unauthorized access and data leakage. It also reduces misuse,
+unsafe model behavior, and unreviewed changes in systems that handle data or
+make decisions. DataTalks.Club podcast discussions repeatedly touch
+[data governance]({{ '/wiki/data-governance/' | relative_url }}) and
+[privacy engineering]({{ '/wiki/privacy-engineering-for-ml/' | relative_url }}).
+They also touch [MLOps]({{ '/wiki/mlops/' | relative_url }}) and
 [LLM production patterns]({{ '/wiki/llm-production-patterns/' | relative_url }}).
 
+The recurring concerns are who can read data, who can change a model, and what
+can influence an answer. Security also asks how a system might expose private
+information.
+
 [Maria Sukhareva]({{ '/people/mariasukhareva/' | relative_url }}) gives the
-clearest LLM-specific framing in
+clearest LLM-specific account in
 [Hardening Generative AI Chatbots]({{ '/podcasts/generative-ai-chatbots-in-production-security/' | relative_url }}).
-At 9:28, her episode moves into a large chatbot hacking exercise. At 11:38 and
-13:20, she covers hallucinated commitments, prompt injection, and knowledge-base
-exfiltration. That makes chatbot security a system design problem, not only a
-prompt-writing problem.
+At 9:28, she moves into a large chatbot hacking exercise. At 11:38 and 13:20,
+she covers hallucinated commitments, prompt injection, and knowledge-base
+exfiltration. Those examples put chatbot security in the full system around the
+model, not only in prompt wording.
 
-[Bart Vandekerckhove]({{ '/people/bartvandekerckhove/' | relative_url }}) gives
-the access-control framing in
-[Data Governance and Data Access Management]({{ '/podcasts/data-governance-data-access-management/' | relative_url }}).
-At 25:05, he argues that teams should add access controls early when sensitive
-data appears. At 27:49 and 32:08, he ties security to access requests and
-approval reviews. He also covers revocation, time-bound access, and privilege
-creep.
+## Data Access and Permission Review
 
-## Common Definition
-
-The common definition in these episodes is practical. Security keeps useful systems from
-exposing data, making unsafe commitments, or changing without review.
-
-For data teams, that means access management and catalog-aware controls. It also means
-purpose-based requests and revocation. For ML teams, it also means secure
-artifacts and trusted dependencies, plus release approvals and monitoring. For
-LLM teams, it adds prompt injection and retrieval leakage. It also adds output
-validation and human review.
-
-Security crosses several pages because [Governance]({{ '/wiki/governance/' | relative_url }})
-explains policy decisions and [Data Governance]({{ '/wiki/data-governance/' | relative_url }})
-covers ownership and lineage. Data governance also covers classification and
-access-as-code.
-[AI Red Teaming]({{ '/wiki/ai-red-teaming/' | relative_url }}) then covers
-adversarial testing, while [Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }})
-covers safety and accountability when systems affect people.
-
-## Guest Differences
-
-Guests agree that security needs controls around data and behavior, but they
-start from different risks.
-
-Maria starts from user-facing LLM abuse. In
-[Hardening Generative AI Chatbots]({{ '/podcasts/generative-ai-chatbots-in-production-security/' | relative_url }}),
-the 16:15 and 17:00 chapters cover output validation and query analysis. They
-also cover layered defenses and non-LLM classifiers. Her view fits chatbots,
-copilots, and [retrieval-augmented generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
-systems where a malicious or curious user can manipulate the input.
-
-Bart starts from data access. In
+Data security starts with knowing who can use each dataset. Teams also need the
+reason for access and the time when access should expire. In
 [Data Governance and Data Access Management]({{ '/podcasts/data-governance-data-access-management/' | relative_url }}),
-the 29:36 chapter uses a churn-analysis example to show purpose-based access
-requests. The 35:35 chapter covers temporary production debugging access. His
-view fits shared data platforms, [Data Mesh]({{ '/wiki/data-mesh/' | relative_url }}),
-and teams where permissions accumulate faster than people review them.
+[Bart Vandekerckhove]({{ '/people/bartvandekerckhove/' | relative_url }})
+argues at 25:05 that teams should add access controls early when sensitive data
+appears. At 27:49 and 32:08, he ties security to access requests, approval
+reviews, and revocation. He also covers time-bound access and privilege creep.
 
-[Katharine Jarmul]({{ '/people/katharinejarmul/' | relative_url }}) starts from
-privacy harm in
-[Data Privacy Engineering, GDPR, and Machine Learning]({{ '/podcasts/data-privacy-engineering-gdpr-machine-learning/' | relative_url }}).
-At 25:12, she discusses browser history, profiling, and fingerprinting. She
-also covers re-identification. At 33:08 and 40:50, she covers
-privacy-enhancing technologies, federated learning, and differential privacy.
-Her view matters when a system can be technically secure and still collect or
-infer too much about people.
+Bart's access model depends on [data governance]({{ '/wiki/data-governance/' | relative_url }})
+and ownership rather than blanket permissions. It also depends on policy-aware
+tooling. At 11:20, he links cloud consolidation and "Chinese wall" constraints
+to access management. At 29:36, he uses a churn-analysis example to show why
+access requests should state purpose and scope.
 
-[Tamara Atanasoska]({{ '/people/tamaraatanasoska/' | relative_url }}) adds
-software supply-chain risk for ML. In
-[Fairness in AI/ML Engineering]({{ '/podcasts/fairness-in-ai-ml-engineering/' | relative_url }}),
-the 46:20 and 47:16 chapters cover secure model persistence and pickle
-deserialization risk. That places model files, feature pipelines, and serialized
-objects inside the attack surface.
+At 44:55 and 50:08, Bart discusses role explosion and access reviews. He also
+covers alerts, Terraform, and IAM patterns. Those patterns make permission
+changes visible. The same concerns affect [Data Mesh]({{ '/wiki/data-mesh/' | relative_url }})
+when domains share data but retain accountability for sensitive fields.
 
-[Nemanja Radojkovic]({{ '/people/nemanjaradojkovic/' | relative_url }}) starts
-from regulated deployment in
-[MLOps in Finance]({{ '/podcasts/mlops-and-ml-engineering-in-finance/' | relative_url }}).
-At 18:52 and 22:25, he discusses legacy systems and governance. He also covers
-release management and approvals, then connects security to trust. His view
-fits finance and other regulated settings where deployment security includes
-auditable controls and change management.
+Security also includes temporary access for urgent work, which Bart covers at
+35:35 through debugging access in production. The team needs a fast way to
+investigate incidents, but the access should stay scoped, reviewed, and removed
+after the investigation.
 
-## Data, AI, and LLM Security
+At 37:19, Bart brings privacy and security stakeholders into the access
+decision. At 42:20, he links sensitive data in data mesh to masking, filtering,
+and federated governance. Those examples tie security to
+[governance]({{ '/wiki/governance/' | relative_url }}). A data owner, a
+security team, and a data protection officer may each ask for different evidence
+before granting access.
 
-Data security starts with knowing who can use each dataset. The team also needs
-to know the purpose and duration of that access. Bart's
-[Data Governance and Data Access Management]({{ '/podcasts/data-governance-data-access-management/' | relative_url }})
-episode connects that to catalogs, access controls, and access-as-code. At
-11:20, he links cloud consolidation and "Chinese wall" constraints to access
-management.
+## LLM Abuse and Retrieval Leakage
 
-At 44:55 and 50:08, he discusses role explosion, reviews, and
-alerts. He also covers Terraform and IAM patterns. Those controls make
-permission changes visible and reviewable.
-
-AI security adds the model and its surrounding pipeline. Tamara's
-[Fairness in AI/ML Engineering]({{ '/podcasts/fairness-in-ai-ml-engineering/' | relative_url }})
-episode isn't only about fairness. The 46:20 to 47:16 section explains why
-model persistence can become dangerous when teams rely on unsafe serialization.
-That connects [machine learning]({{ '/wiki/machine-learning/' | relative_url }})
-security to normal [software engineering]({{ '/wiki/software-engineering/' | relative_url }})
-practices such as dependency review, artifact provenance, and safer loading
-formats.
-
-LLM security adds prompt and retrieval attacks. Maria's
-[Hardening Generative AI Chatbots]({{ '/podcasts/generative-ai-chatbots-in-production-security/' | relative_url }})
-episode covers data exfiltration through overloaded prompts and knowledge-base
-retrieval at 13:20.
-
-At 16:15 and 17:00, Maria shows why teams need retrieval constraints and query
-analysis. They also need output validation, classifiers, and logging. The model
-can't be the only enforcement point because the input and retrieved passages are
-part of the system.
-
-## Red Teaming
-
-[AI red teaming]({{ '/wiki/ai-red-teaming/' | relative_url }}) is the security
-practice of attacking an AI system before real users do the same thing
-accidentally or on purpose. Maria's episode anchors this page because the 9:28
-chatbot hacking exercise found failures that ordinary product demos miss. The
-tests include prompt injection and attempts to reveal hidden instructions. They
-also include attempts to extract private knowledge-base records or make the
-assistant produce unsafe answers.
-
-Red teaming should feed production controls. In
+LLM security adds risks that ordinary data access controls don't catch. In
 [Hardening Generative AI Chatbots]({{ '/podcasts/generative-ai-chatbots-in-production-security/' | relative_url }}),
-the 18:01 chapter connects hallucinations with user trust and adoption risk.
-The 25:34 chapter covers human-in-the-loop review.
+Maria's chatbot hacking exercise at 9:28 includes prompt injection and attempts
+to reveal hidden instructions. It also includes attempts to extract private
+knowledge-base records or make the assistant produce unsafe answers. At 13:20,
+she focuses on data exfiltration through overloaded prompts and
+[retrieval-augmented generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}).
 
-A red-team finding therefore shouldn't end as a note in a report. It should become a classifier rule,
-retrieval filter, output check, or monitoring signal. Some findings should also
-become a human review path inside the deployed system.
+Maria's 16:15 and 17:00 chapters show why teams need layered controls around
+chatbots, copilots, and RAG systems. Query analysis can block or redirect risky
+inputs before retrieval. Output validation and non-LLM classifiers can catch
+failures after the model responds. Logging and human review add another layer.
 
-## Privacy and Governance
+The model can't be the only enforcement point. User input and retrieved passages
+sit inside the attack surface. Tool calls and the answer renderer do too. For
+adjacent production patterns, see
+[LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
+and [AI Red Teaming]({{ '/wiki/ai-red-teaming/' | relative_url }}).
+
+## Privacy Risk Beyond Access Control
 
 Privacy overlaps with security but doesn't collapse into it. A system can have
-strong access controls and still expose people through profiling or
-re-identification. Katharine's
-[Data Privacy Engineering, GDPR, and Machine Learning]({{ '/podcasts/data-privacy-engineering-gdpr-machine-learning/' | relative_url }})
-episode makes that distinction. At 16:24, she defines privacy through legal,
-social, and technical perspectives. At 22:38, she describes the translation
-work between legal and technical teams.
+strong access controls and still expose people through profiling,
+fingerprinting, or re-identification.
 
-[Katharine Jarmul]({{ '/people/katharinejarmul/' | relative_url }}) shows how
-privacy engineering changes architecture through session-based and ephemeral
-personalization at 30:15. At 33:08, she discusses encrypted ML, federated
-learning, and architecture choices.
+In [Katharine's privacy engineering episode]({{ '/podcasts/data-privacy-engineering-gdpr-machine-learning/' | relative_url }}),
+[Katharine Jarmul]({{ '/people/katharinejarmul/' | relative_url }}) defines
+privacy through legal, social, and technical perspectives at 16:24. At 22:38,
+she describes the translation work between legal and technical teams. At 25:12,
+she discusses browser history and profiling. She also covers fingerprinting and
+re-identification.
 
-At 45:08 and 47:00, she covers anonymization pitfalls and consent. She also
-covers data minimization and workflow practices. These choices connect to
-[Privacy Engineering for ML]({{ '/wiki/privacy-engineering-for-ml/' | relative_url }})
-because the team may need to avoid centralizing data rather than merely locking
-it down after collection.
+At 30:15, Katharine discusses session-based and ephemeral personalization, which
+treats privacy engineering as an architectural choice. At 33:08 and 40:50, she
+covers privacy-enhancing technologies and encrypted ML. She also discusses
+federated learning and differential privacy.
 
-Governance turns privacy and security decisions into repeatable work. Bart's
-[Data Governance and Data Access Management]({{ '/podcasts/data-governance-data-access-management/' | relative_url }})
-episode covers privacy and security stakeholders at 37:19. It also connects
-data mesh and sensitive data to masking, filtering, and federated governance at
-42:20. In practice, a data protection officer and a security team may need
-different evidence before granting access. A data owner may need different
-evidence again.
+At 45:08 and 47:00, Katharine covers anonymization pitfalls, consent, and data
+minimization. These concerns belong with
+[Privacy Engineering for ML]({{ '/wiki/privacy-engineering-for-ml/' | relative_url }}).
+Teams may need to avoid centralizing data rather than collecting it first and
+locking it down later.
 
-## Production Controls
+## Model Artifacts and Software Supply Chain
+
+ML security includes the model file, feature code, dependencies, and loading
+format. In
+[Fairness in AI/ML Engineering]({{ '/podcasts/fairness-in-ai-ml-engineering/' | relative_url }}),
+[Tamara Atanasoska]({{ '/people/tamaraatanasoska/' | relative_url }}) discusses
+secure model persistence and pickle deserialization risk at 46:20 and 47:16.
+Her warning places model files, feature pipelines, and serialized objects inside
+the attack surface.
+
+That supply-chain risk links [machine learning]({{ '/wiki/machine-learning/' | relative_url }})
+security to [software engineering]({{ '/wiki/software-engineering/' | relative_url }}).
+Teams need dependency review, artifact provenance, safer loading formats, and
+release approval for models as well as application code. The same model can be
+accurate in evaluation and unsafe to load if the serialized artifact can run
+untrusted code.
+
+## Regulated Deployment and Trust
 
 Production security means controls survive deployment, staffing changes, and
-model updates. Nemanja's
-[MLOps in Finance]({{ '/podcasts/mlops-and-ml-engineering-in-finance/' | relative_url }})
-episode makes this concrete for finance.
+model updates. In
+[MLOps in Finance]({{ '/podcasts/mlops-and-ml-engineering-in-finance/' | relative_url }}),
+[Nemanja Radojkovic]({{ '/people/nemanjaradojkovic/' | relative_url }})
+discusses regulatory and legacy constraints at 18:52. At 22:25 and 23:39, he
+ties release management, approvals, and DevOps work to ML deployment and trust.
+His account fits finance and other regulated settings where teams need
+auditable controls, change review, and rollback paths before a model reaches
+users.
 
-At 18:52, he discusses regulatory and
-legacy constraints. At 22:25 and 23:39, he connects release management,
-approvals, and DevOps processes to ML deployment. He also connects those
-controls to trust. Security therefore includes how teams review, approve, and
-roll back model changes.
+Production controls also need monitoring and incident routes. Bart's temporary
+debugging-access example at 35:35 covers scoped access during urgent
+investigation. Maria's chatbot security episode adds output monitoring and
+human review for LLM systems.
 
-Production controls also need monitoring and incident paths. Bart's temporary
-debugging-access chapter at 35:35 shows one practical compromise. Teams need a
-fast way to investigate production issues, but that access should be scoped,
-reviewed, and removed. Maria's chatbot episode adds output monitoring and human
-review for LLM systems. The 25:34 chapter covers hybrid review to improve
-accuracy and reduce harm.
+At 18:01, Maria links hallucinations to user trust and adoption risk. At 25:34,
+she covers hybrid review for accuracy and harm reduction. For broader deployment
+design, see
+[Production]({{ '/wiki/production/' | relative_url }}) and
+[MLOps]({{ '/wiki/mlops/' | relative_url }}).
 
-For broader production design, use [Production]({{ '/wiki/production/' | relative_url }})
-and [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }}).
-Security controls should sit next to deployment, testing, and observability.
-They should also sit next to evaluation and rollback. Teams miss the failure
-modes in these episodes when they treat security as a separate checklist after
-the system ships.
+## Red Teaming and Human Review
 
-## Related Pages
+[AI red teaming]({{ '/wiki/ai-red-teaming/' | relative_url }}) tests an AI
+system before real users exploit or accidentally trigger the same failures.
+Maria's 9:28 chatbot hacking exercise found failures that ordinary product demos
+would miss. The failures included prompt injection, hidden-instruction leakage,
+and knowledge-base exfiltration. They also included unsafe answers and
+hallucinated commitments. Her 11:38 chapter shows why a model can create
+business risk by promising something the company didn't intend to offer.
 
-These pages cover the neighboring concepts that security depends on:
+Red-team findings should become deployed controls. Maria's 16:15 and 17:00
+chapters cover classifier rules, retrieval filters, and query checks. They also
+cover output checks and monitoring signals. Her 25:34 chapter adds
+human-in-the-loop review when automation alone can't handle the risk. Human
+review keeps red teaming connected to
+[responsible AI and governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }})
+rather than leaving it as a one-time exercise.
 
-- [AI Red Teaming]({{ '/wiki/ai-red-teaming/' | relative_url }})
-- [Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }})
+## Related Security Topics
+
+Security in the podcast archive sits next to these policy, privacy, evaluation,
+and deployment topics:
+
 - [Data Governance]({{ '/wiki/data-governance/' | relative_url }})
 - [Governance]({{ '/wiki/governance/' | relative_url }})
 - [Privacy Engineering for ML]({{ '/wiki/privacy-engineering-for-ml/' | relative_url }})
-- [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
+- [Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }})
+- [AI Red Teaming]({{ '/wiki/ai-red-teaming/' | relative_url }})
 - [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
+- [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
 - [Production]({{ '/wiki/production/' | relative_url }})
 - [MLOps]({{ '/wiki/mlops/' | relative_url }})

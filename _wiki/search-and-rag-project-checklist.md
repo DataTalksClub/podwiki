@@ -13,114 +13,132 @@ related:
   - Graph RAG vs Vector RAG
 ---
 
-## Definition
+A search or RAG project proves retrieval before generation. A reviewer should
+see the corpus, chunking plan, metadata, and retrieved chunks. The same review
+should show prompt context, citations, evaluation results, and failure labels.
+Those review signals make the project a retrieval system, not only a chat UI.
 
-A search or RAG project proves that retrieval works before generation tries to
-answer. The project should show the corpus, chunking, and metadata. It should
-also show retrieval strategy and prompt context. Citations, evaluation, and
-failure analysis complete the proof.
-
-Use this checklist with
-[Portfolio Projects]({{ '/wiki/portfolio-projects/' | relative_url }}) and
+Pair this checklist with
+[Portfolio Projects]({{ '/wiki/portfolio-projects/' | relative_url }}),
 [RAG Portfolio Projects]({{ '/wiki/rag-portfolio-projects/' | relative_url }}),
-then use
-[Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
-for the base concept. Use
-[Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
-and [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }})
-for adjacent concepts.
+and the base concept in
+[Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}).
+For the surrounding topic map, start with
+[Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }}).
+Use [Information Retrieval]({{ '/wiki/information-retrieval/' | relative_url }})
+and
+[LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }}).
 
-[Atita Arora]({{ '/people/atitaarora/' | relative_url }}) gives the backbone in
+[Atita Arora]({{ '/people/atitaarora/' | relative_url }}) gives the core structure
+in
 [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}).
-At 30:38, she defines retrieval-augmented generation as retrieval plus
-generation. At 35:49, she applies it to podcast transcript question answering.
-At 38:24, she discusses chunking and overlap. She also covers embeddings and
-vectorization.
-
-At 42:49, she connects retrieval and context while also covering prompt design
+At 30:38, she defines RAG as retrieval plus generation. At 35:49, she applies
+that design to podcast transcript question answering. At 38:24, she discusses
+chunking and overlap. At 42:49, she moves from retrieval into prompt context
 and citations.
 
-## Common Definition
-
-Guests describe a strong RAG project as the full retrieval loop. It should show
-the user's query, retrieved chunks, and source metadata. It should also show
-the context given to the model and the answer with citations.
+Her 48:09 evaluation discussion turns those implementation choices into review
+criteria.
 
 [Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }}) adds
-the evaluation standard in
-[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}).
-At 23:00-25:25, he argues for representative gold test sets. At 26:43, he
-recommends ranking and categorizing failures. At 27:38, he connects a
-debuggable MVP to logs and traces.
+the debugging standard in
+[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}):
+at 23:00-25:25, he argues for representative gold test sets. At 26:43, he
+recommends ranking and categorizing failures. At 27:38, he ties a debuggable
+MVP to logs and traces.
 
-[Meryem Arik]({{ '/people/meryemarik/' | relative_url }}) explains why RAG is
-often better than retraining when knowledge changes. In
-[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}),
-she favors information retrieval for changing knowledge at 40:46. She explains
-document indexing and grounding at 42:02.
+## Corpus and Chunking
 
-## Guest Differences
+Choose a corpus where grounding matters. Podcast transcripts, support docs,
+policy documents, and research papers work well. Product manuals and internal
+wiki exports also work.
 
-Atita starts from search architecture. She treats chunking and metadata as core
-work, and embedding, retrieval, and citations are core too.
+The project should show why the corpus needs retrieval and what a citation
+references. For transcript data, cite the episode and guest plus the timestamp
+and nearby speaker context. For documents, cite the title and section plus the
+version and source owner when that metadata exists.
 
-Hugo starts from product debugging. His checklist begins with gold examples and
-failure categories before logs and traces come next.
+Chunking is a design choice, not a cleanup detail. Podcast data can be chunked
+by speaker turn or question. It can also be chunked by chapter or time window.
+Documents can be chunked by heading, section, or a sliding token window.
 
-[Ranjitha Kulkarni]({{ '/people/ranjithakulkarni/' | relative_url }}) starts
-from agent engineering. In
-[Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}),
-she keeps RAG in scope when latency, cost, and source quality are the main
-constraints. Metadata is also part of the constraint set. At 37:39, she separates cases where RAG is enough from
-workflows that need actions and planning.
+Atita's transcript example in
+[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
+uses chunking and overlap at 35:49-42:49. It also uses embeddings, retrieval,
+prompt design, and citations. The same project evidence belongs with
+[Embeddings]({{ '/wiki/embeddings/' | relative_url }}) and
+[Vector Databases]({{ '/wiki/vector-databases/' | relative_url }}).
 
-[Daniel Svonava]({{ '/people/danielsvonava/' | relative_url }}) starts from
-production search. In
-[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}),
-he separates candidate retrieval from ranking at 12:45 and explains embeddings
-at 21:55. At 34:00, he covers hybrid search with filters and recency.
-
-## Corpus And Chunking
-
-Choose a corpus where source grounding matters. Podcast transcripts and support
-docs work well, while policy documents and research papers also work. Product
-manuals or internal wiki exports are useful too.
-
-Chunking is a design choice. Podcast data may chunk by speaker turn or
-question, and it may also chunk by chapter or time window. Documents may chunk
-by heading or section.
-
-Large context windows don't remove this work. [Lavanya Gupta]({{ '/people/lavanyagupta/' | relative_url }}) discusses
-long-context evaluation and degradation in
-[Applied LLM Research and Career Growth]({{ '/podcasts/applied-llm-research-and-career-growth-in-practice/' | relative_url }})
-at 10:15-14:54. Teams still chunk because models can become less reliable as
-context grows.
+Large context windows don't remove chunking decisions.
+[Lavanya Gupta]({{ '/people/lavanyagupta/' | relative_url }}) discusses
+long-context evaluation and degradation at 10:15-14:54 in
+[Applied LLM Research and Career Growth]({{ '/podcasts/applied-llm-research-and-career-growth-in-practice/' | relative_url }}).
+A project can use that evidence to justify testing chunk size, overlap, and
+retrieval count instead of stuffing every source into one prompt.
 
 ## Retrieval Baselines
 
 Build retrieval before generation by starting with keyword search or another
-simple baseline. Then compare vector retrieval and filters. Add hybrid search
-or reranking when the corpus needs them.
+simple baseline. Compare vector retrieval, filters, reranking, and hybrid
+search on the same questions before asking the LLM to write final answers. A
+search-first README can show where keyword search wins, where embeddings win,
+and where metadata filters are required.
 
-Daniel's production-search discussion supports that order. He separates
-candidate retrieval from ranking at 12:45, then explains embeddings at 21:55
-and hybrid search at 34:00.
+[Daniel Svonava]({{ '/people/danielsvonava/' | relative_url }}) supports that
+order in
+[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}).
+He separates candidate retrieval from ranking at 12:45 and explains embeddings
+at 21:55. At 34:00, he covers hybrid search with filters and recency.
 
-Use [Vector Databases]({{ '/wiki/vector-databases/' | relative_url }}),
-[Embeddings]({{ '/wiki/embeddings/' | relative_url }}),
-[Vector Database vs Search Engine]({{ '/comparisons/vector-database-vs-search-engine/' | relative_url }}), and
-[Information Retrieval]({{ '/wiki/information-retrieval/' | relative_url }}).
-Use [Production Search Evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }})
-when the project needs deeper search context.
+Use
+[Vector Database vs Search Engine]({{ '/comparisons/vector-database-vs-search-engine/' | relative_url }})
+when the project compares a standalone vector store with an existing search
+stack. Use
+[Production Search Evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }})
+when relevance metrics or business outcomes matter.
 
-## Evaluation And Traces
+[Meryem Arik]({{ '/people/meryemarik/' | relative_url }}) gives the RAG reason
+for this baseline work in
+[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}).
+At 40:46, she favors retrieval when knowledge changes too often for repeated
+fine-tuning. At 42:02 and 46:42, she describes document indexing, retrieved
+sections, and summarization for grounding. That boundary belongs with
+[RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }})
+and
+[LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }}).
+
+## Context, Citations, and Boundaries
+
+The generated answer should be inspectable. Show the query and retrieved
+chunks, then include scores and source metadata. The trace should also include
+prompt context, answer, and citations. If the system refuses to answer, show
+which missing evidence caused the refusal. If it answers, link each claim to a
+source chunk a reviewer can open.
+
+Atita's RAG discussion at 42:49 in
+[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
+places prompt design and citations after retrieval. The project should preserve
+that order: first prove the retriever found useful context, then prove the
+prompt used it correctly.
+
+[Ranjitha Kulkarni]({{ '/people/ranjithakulkarni/' | relative_url }}) draws the
+boundary between RAG and agents in
+[Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}).
+At 37:39, she separates cases where retrieval is enough from cases that need
+planning, actions, or tool use. A project should stay with RAG when the main
+task is source lookup and grounded answering. Move toward
+[AI Agents]({{ '/wiki/ai-agents/' | relative_url }}) or
+[Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }}) only when
+the task requires API calls, multi-step coordination, or external actions.
+
+## Evaluation and Traces
 
 Create a small gold set. For each question, store expected evidence and
 acceptable answers, then add failure labels and notes about retrieval quality.
+The trace should make it possible to separate retrieval failures from generation
+failures before adding agents, fine-tuning, or prompt complexity.
 
-Log the query and retrieved chunks.
-
-Store these trace fields:
+Store these trace fields with each run:
 
 - scores
 - prompt version
@@ -130,21 +148,29 @@ Store these trace fields:
 - cost
 - feedback
 
+[Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }}) gives
+the core evaluation structure at 23:00-27:38 in
+[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}).
+Representative gold tests make the system measurable. Failure categories tell
+the team whether the next fix belongs in retrieval, prompting, formatting, or
+data preparation. Logs and traces make those decisions reviewable.
+
 Ranjitha extends the same idea to tool and agent workflows at 51:17-57:23 in
 [Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}).
 She covers custom datasets, mocked tools, integration tests, and outcome
 assertions.
+That agent-evaluation evidence belongs with
+[LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }})
+and [Testing]({{ '/wiki/testing/' | relative_url }}).
 
-Separate retrieval failures from generation failures before adding agents,
-fine-tuning, or prompt complexity.
-
-## Graph Or Structured Retrieval
+## Graph or Structured Retrieval
 
 Some projects need more than nearest-neighbor text retrieval. In
 [Knowledge Graphs and LLMs for Automotive R&D]({{ '/podcasts/knowledge-graphs-and-llms-for-automotive-rnd/' | relative_url }}),
 [Anahita Pakiman]({{ '/people/anahitapakiman/' | relative_url }}) connects
 knowledge graphs with LLM grounding at 33:43. At 38:10, she contrasts text
-chunking and embeddings with graph semantics.
+chunking and embeddings with graph semantics. At 39:56, she discusses prompt
+templates that use Cypher-style graph queries for retrieval context.
 
 Use [Graph RAG vs Vector RAG]({{ '/comparisons/graph-rag-vs-vector-rag/' | relative_url }})
 or
@@ -152,17 +178,31 @@ or
 when questions depend on explicit relationships, provenance paths, entities, or
 domain semantics.
 
-## Related Pages
+Graph or structured retrieval changes the portfolio evidence too. A vector RAG
+project should show chunks, embeddings, similarity scores, and citation metadata. A
+graph RAG project should show entity and relationship definitions, query
+results, graph paths, and provenance. Hybrid retrieval should show whether each
+answer part came from semantic search, structured lookup, filters, or reranking.
 
-Use these pages to follow the retrieval and evaluation concepts.
+## Portfolio Review Checklist
 
-- [RAG Portfolio Projects]({{ '/wiki/rag-portfolio-projects/' | relative_url }})
-- [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
-- [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
-- [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }})
-- [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
-- [RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }})
-- [Graph RAG vs Vector RAG]({{ '/comparisons/graph-rag-vs-vector-rag/' | relative_url }})
-- [Vector Databases]({{ '/wiki/vector-databases/' | relative_url }})
-- [Embeddings]({{ '/wiki/embeddings/' | relative_url }})
-- [Information Retrieval]({{ '/wiki/information-retrieval/' | relative_url }})
+A search or RAG project is ready to review when the page, notebook, or README
+shows the corpus and chunking strategy. It should also show the metadata schema
+and retrieval baseline. Reviewers should see retrieval comparisons, prompt
+context, and citation behavior. They should also see the evaluation set,
+failure labels, and traces.
+
+The strongest projects include negative examples such as missing evidence and
+stale chunks. They also show wrong citations, weak filters, high latency, or
+plausible answers that aren't grounded.
+
+A source-cited assistant belongs with
+[RAG Portfolio Projects]({{ '/wiki/rag-portfolio-projects/' | relative_url }}).
+A search-first system belongs with
+[Information Retrieval]({{ '/wiki/information-retrieval/' | relative_url }})
+and
+[Production Search Evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }}).
+A production-minded LLM project should connect retrieval decisions to
+[LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
+and the
+[LLM and RAG Production Roadmap]({{ '/roadmaps/llm-rag-production-roadmap/' | relative_url }}).

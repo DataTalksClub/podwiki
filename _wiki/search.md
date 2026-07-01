@@ -13,82 +13,78 @@ related:
 
 Search is the part of a product or knowledge system that retrieves and ranks
 relevant information for a query or task. DataTalks.Club guests discuss search
-through lexical retrieval and semantic retrieval. They also discuss vector
-search, hybrid search, personalization, and
-[retrieval-augmented generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}).
+through [information retrieval]({{ '/wiki/information-retrieval/' | relative_url }})
+and lexical matching. They then add semantic retrieval and vector search.
+Hybrid search, personalization, and
+[retrieval-augmented generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
+appear as product patterns.
 
-These episodes don't treat search as a single database feature. They treat
-search as an application system. The system needs indexes, candidate
-generation, and ranking. It also needs filters, freshness rules, evaluation,
-and product metrics. Search may need
+The search discussions treat search as an application system rather than a
+single database feature. The system needs indexes, candidate generation,
+ranking, and filters. Freshness rules, evaluation, and product metrics
+determine quality.
+
+Search may need
 [embeddings]({{ '/wiki/embeddings/' | relative_url }}),
 [vector databases]({{ '/wiki/vector-databases/' | relative_url }}), and LLM
-context construction when it supports RAG.
+context construction. In
+[Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }}),
+the same retrieval layer becomes the evidence layer for answers and citations.
+It also supports knowledge workflows.
 
-## Common Definition
+## Retrieval and Ranking
 
-The search episodes converge on a practical definition. Search retrieves
-candidate items, ranks them, and measures whether the result helped the person
-or downstream system.
+Search starts by retrieving candidate items, ranking them, and measuring
+whether the result helped the person or downstream system. In
+[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}),
+[Daniel Svonava]({{ '/people/danielsvonava/' | relative_url }}) frames search
+as an information-retrieval decision problem around 6:20. Around 12:45, he
+separates candidate generation from ranking. A system can retrieve plausible
+results and still rank them badly, so
+[production search evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }})
+has to evaluate both stages.
 
-[Daniel Svonava]({{ '/people/danielsvonava/' | relative_url }}) gives the
-clearest production-search definition in
-[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}).
-Around 6:20, he frames search as an information-retrieval decision problem.
-Around 12:45, he separates candidate generation from ranking. That split
-matters because a system can retrieve plausible results and still rank them
-badly.
-
-[Atita Arora]({{ '/people/atitaarora/' | relative_url }}) gives the clearest
-bridge from classical search to LLM-era retrieval in
+[Atita Arora]({{ '/people/atitaarora/' | relative_url }}) bridges classical
+search and LLM-era retrieval in
 [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}).
 At 4:42 and 9:18, she starts with Solr, Lucene, and NLP-based query matching.
 At 17:01 and 20:27, she moves to vector databases and migration choices. At
-30:38, she connects search to RAG.
+30:38, she makes search the retrieval side of RAG. RAG adds generation,
+citations, and answer evaluation, but the first failure mode is still
+retrieval because the system may not find the right evidence.
 
-This makes search a foundation for
-[Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }}).
-RAG adds generation, citations, and answer evaluation, but the first failure
-mode is still retrieval: the system may not find the right evidence.
-
-## Guest Differences
-
-Daniel's episode emphasizes production relevance. In
-[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}),
-he moves from inverted indexes and Lucene around 11:29-17:40 to dense
+Daniel emphasizes product relevance in
+[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}).
+Around 11:29-17:40, he moves from inverted indexes and Lucene to dense
 representations and hybrid search. He then adds recency, business rules, and
-[A/B testing]({{ '/wiki/a-b-testing/' | relative_url }}). His view treats
-search as a product-ranking system where latency, business metrics, and
-operational iteration matter.
+[A/B testing]({{ '/wiki/a-b-testing/' | relative_url }}).
 
-Atita's episode emphasizes search architecture and retrieval quality. In
+Atita emphasizes architecture choices at 20:27 in
 [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}),
-she starts from information retrieval practice, then compares vectors inside an
-existing search stack with standalone vector databases at 20:27. Her RAG
-discussion at 35:49-48:09 keeps chunking, prompts, citations, and human review
-connected to search quality.
-
-The two views agree on the core point. Vector search and LLMs extend search,
-but they don't remove relevance engineering. Teams still need indexing, ranking,
-filters, and evaluation. Daniel stresses product relevance and iteration. Atita
-stresses the architecture choices that connect classical search, vector search,
-and RAG.
+where she compares vectors inside an existing search stack with a standalone
+vector database. Vector search and LLMs extend search, but they don't remove
+relevance engineering. Teams still need indexing, ranking, filters, and
+evaluation.
 
 ## Lexical, Vector, and Hybrid Search
 
 Lexical search matches query terms against indexed text. It remains useful when
 people need exact terms, filters, auditability, and predictable matching. In
 [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}),
-Atita's discussion of Solr and Lucene around 4:42 anchors modern search in that
-older retrieval stack.
+[Atita]({{ '/people/atitaarora/' | relative_url }}) anchors modern search in
+Solr and Lucene around 4:42, then adds NLP-based query matching at 9:18.
+[NLP]({{ '/wiki/nlp/' | relative_url }}) matters here because query parsing,
+synonyms, normalization, and semantic matching decide which candidates enter
+the ranking stage.
 
 Vector search compares learned representations instead of only matching words.
 In
 [Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}),
-Daniel explains the move from bag-of-words to dense vector representations
-around 11:29. Around 27:21, he describes vector databases as infrastructure for
-embeddings and nearest-neighbor search. That connects search directly to
-[Embeddings]({{ '/wiki/embeddings/' | relative_url }}).
+[Daniel]({{ '/people/danielsvonava/' | relative_url }}) explains the move from
+bag-of-words to dense vector representations around 11:29. Around 27:21, he
+describes vector databases as infrastructure for embeddings and
+nearest-neighbor search, making search a practical use case for
+[embeddings]({{ '/wiki/embeddings/' | relative_url }}).
 
 Hybrid search combines keyword and vector retrieval. Around 34:00 in
 [Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}),
@@ -96,16 +92,15 @@ Daniel discusses combining vector similarity with filters and recency. Around
 39:53-45:11, he adds constraints and time encoding. He also discusses
 normalization and query-time weights.
 
-Those details matter because production search rarely optimizes only semantic
-similarity. It also has to handle inventory and permissions. Freshness,
-popularity, and business rules become ranking inputs too.
+Production search rarely optimizes only semantic similarity, because it also
+ranks against inventory, permissions, and freshness. Popularity and business
+rules may become ranking inputs too.
 
-Use
 [Vector Database vs Search Engine]({{ '/comparisons/vector-database-vs-search-engine/' | relative_url }})
-for the architecture comparison. Use
+compares where vector retrieval belongs in a search stack.
 [Knowledge Graph vs Vector Search]({{ '/comparisons/knowledge-graph-vs-vector-search/' | relative_url }})
-when the retrieval problem depends on explicit relationships rather than only
-text or embedding distance.
+is the sharper comparison when retrieval depends on explicit relationships
+rather than only text or embedding distance.
 
 ## RAG
 
@@ -116,17 +111,18 @@ Atita makes this concrete in
 [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}).
 At 30:38, she introduces retrieval plus generation as a way to reduce
 unsupported LLM answers. At 35:49, she applies the idea to a chatbot over
-podcast transcripts.
-
-At 38:24, she describes chunking, overlap, and embedding model choices before
-vectorization. At 42:49, she connects retrieval to prompt design and citations.
+podcast transcripts. At 38:24, she describes chunking, overlap, and embedding
+model choices before vectorization. At 42:49, she links retrieval to prompt
+design and citations.
 
 RAG fails at retrieval time when chunks are wrong, missing, too broad, or
 missing source metadata. It fails at generation time when the model ignores the
 retrieved evidence, invents unsupported claims, or drops citations. That's why
 [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
 and [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }})
-need to be read together.
+need to be read together. The practical build path in
+[Search and RAG Project Checklist]({{ '/wiki/search-and-rag-project-checklist/' | relative_url }})
+starts with searchable source material before adding answer generation.
 
 ## Vector Databases
 
@@ -147,11 +143,15 @@ covers model versioning and multimodal retrieval. Around 52:35-54:56, he
 discusses vendor selection and when teams might use Lucene or Elasticsearch
 instead of a dedicated vector database.
 
-This is why search pages should link to
-[Vector Databases]({{ '/wiki/vector-databases/' | relative_url }}) without
-treating a vector database as the whole search system. A team still has to
-choose indexes and filters. It also has to choose ranking signals, evaluation
-metrics, and reindexing jobs.
+[Vector Databases]({{ '/wiki/vector-databases/' | relative_url }}) covers
+storage and nearest-neighbor retrieval, but a vector database isn't the whole
+search system. A team still has to choose indexes and filters. It also needs
+ranking signals, evaluation metrics, and reindexing jobs.
+
+When retrieval feeds an LLM,
+[Graph RAG vs Vector RAG]({{ '/comparisons/graph-rag-vs-vector-rag/' | relative_url }})
+marks another boundary. Dense chunks help semantic similarity, while graph
+retrieval helps when relationships define the answer.
 
 ## Evaluation
 
@@ -162,8 +162,8 @@ impact.
 Daniel ties search quality to business metrics in
 [Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}).
 At 1:01:25, he discusses business KPIs, A/B tests, and revenue attribution. At
-1:03:50, he adds offline evaluation and engineering iteration. That connects
-search to [Metrics]({{ '/wiki/metrics/' | relative_url }}) and
+1:03:50, he adds offline evaluation and engineering iteration. Search
+evaluation belongs with [Metrics]({{ '/wiki/metrics/' | relative_url }}) and
 [Production Search Evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }}).
 
 Atita adds RAG-specific evaluation in
@@ -202,16 +202,3 @@ Search therefore sits across
 and [MLOps]({{ '/wiki/mlops/' | relative_url }}). The core question isn't
 which retrieval technology is newest. The question is which search design gives
 the product relevant, explainable, and measurable results.
-
-## Related Pages
-
-Use these pages for the surrounding architecture and evaluation details.
-
-- [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
-- [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
-- [Information Retrieval]({{ '/wiki/information-retrieval/' | relative_url }})
-- [Vector Databases]({{ '/wiki/vector-databases/' | relative_url }})
-- [Embeddings]({{ '/wiki/embeddings/' | relative_url }})
-- [NLP]({{ '/wiki/nlp/' | relative_url }})
-- [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
-- [Production Search Evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }})
