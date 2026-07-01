@@ -56,7 +56,7 @@ These keyword groups already have editorial coverage:
 | Data engineering courses | `_wiki/data-engineering-roadmap.md` | data engineering course, data engineering courses, best data engineering course, free data engineering course |
 | Data engineering bootcamps | `_wiki/data-engineering-roadmap.md` | data engineering bootcamp, data engineer bootcamp |
 | Data engineering roadmaps | `_roadmaps/data-engineer-roadmap.md` | data engineer roadmap |
-| Data pipeline projects | `_guides/data-engineering-pipeline-project.md`, `_how_tos/how-to-build-data-pipelines.md` | build data pipelines, data engineering pipeline project |
+| Data pipeline projects | `_wiki/end-to-end-data-pipeline-project.md`, `_how_tos/how-to-build-data-pipelines.md` | build data pipelines, data engineering pipeline project |
 | Data engineering consulting | `_wiki/freelance.md` | data engineering consulting, data engineering consultant, data engineer consulting, data engineer consultant |
 | Freelance data engineering | `_wiki/freelance.md` | freelance data engineer, data engineering freelance |
 | MLOps core terms | `_wiki/mlops.md`, `_wiki/mlops-roadmap.md`, `_wiki/mlops-tools.md`, `_guides/mlops-frameworks.md`, `_guides/mlops-architecture.md`, `_wiki/mlops-engineer.md` | mlops, what is mlops, mlops course, mlops tools, mlops architecture |

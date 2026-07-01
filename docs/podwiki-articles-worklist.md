@@ -124,8 +124,8 @@ data-engineering-manager/data-engineer-manager cluster was consolidated into
 | how-to-build-data-pipelines | data-pipelines | **keep: procedural how-to in `_how_tos`** |
 | interpretable-machine-learning | interpretability | **done: guide folded into `_wiki/interpretability.md`** |
 | llm-tools | llms | **keep: guide for practical LLM stack selection; crosslink to LLMs and AI Tooling** |
-| machine-learning-for-software-engineers | software-engineer-to-machine-learning | |
-| machine-learning-for-startups | startups | |
+| machine-learning-for-software-engineers | software-engineer-to-machine-learning | **keep: practical software-engineer-to-ML keyword guide linked to canonical wiki page** |
+| machine-learning-for-startups | startups | **keep: practical startup ML guide linked to startup and ML wiki topics** |
 | machine-learning-system-design | machine-learning-system-design | **done: slug collision removed** |
 | mlops-architecture | mlops | **keep: architecture guide; linked from MLOps** |
 | mlops-engineer | mlops-engineer | **done: slug collision merged** |

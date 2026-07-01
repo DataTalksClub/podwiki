@@ -7,7 +7,7 @@
     "persons": 438,
     "topics": 147,
     "nodes": 1011,
-    "links": 10381
+    "links": 10427
   },
   "nodes": [
     {
@@ -355,11 +355,11 @@
       "id": "article:guide:machine-learning-for-software-engineers",
       "type": "article",
       "collection": "guide",
-      "label": "Machine Learning for Software Engineers: A Practical Transition Roadmap",
-      "title": "Machine Learning for Software Engineers: A Practical Transition Roadmap",
+      "label": "Machine Learning for Software Engineers: A Practical Guide",
+      "title": "Machine Learning for Software Engineers: A Practical Guide",
       "url": "/guides/machine-learning-for-software-engineers/",
       "count": 1,
-      "search": "Machine Learning for Software Engineers: A Practical Transition Roadmap A podcast backed roadmap for software engineers moving into machine learning: transferable skills, missing ML and data skills, project sequence, production awareness, and interview evidence.",
+      "search": "Machine Learning for Software Engineers: A Practical Guide A podcast backed roadmap for software engineers moving into machine learning: transferable skills, missing ML and data skills, project sequence, production awareness, and interview evidence.",
       "keyword": "machine learning for software engineers"
     },
     {
@@ -459,7 +459,7 @@
       "url": "/guides/product-analyst/",
       "count": 1,
       "search": "Product Analyst Job Description: Responsibilities, Skills, and Role Boundaries A practical, podcast backed guide to the product analyst role: product analytics responsibilities, event tracking, tracking plans, A/B testing, analytics engineering boundaries, and job description examples.",
-      "keyword": "product analyst"
+      "keyword": "product analyst job description"
     },
     {
       "id": "article:comparison:product-analyst-vs-data-analyst",
@@ -15858,7 +15858,7 @@
       "source": "article:guide:machine-learning-for-software-engineers",
       "target": "podcast:machine-learning-system-design-interview",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:guide:machine-learning-for-software-engineers",
@@ -15886,6 +15886,12 @@
     },
     {
       "source": "article:guide:machine-learning-for-software-engineers",
+      "target": "wiki:ai-engineer-role",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:machine-learning-for-software-engineers",
       "target": "wiki:career-transition",
       "kind": "article-link",
       "weight": 2
@@ -15898,9 +15904,27 @@
     },
     {
       "source": "article:guide:machine-learning-for-software-engineers",
+      "target": "wiki:data-pipelines",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:guide:machine-learning-for-software-engineers",
       "target": "wiki:data-science",
       "kind": "article-link",
       "weight": 2
+    },
+    {
+      "source": "article:guide:machine-learning-for-software-engineers",
+      "target": "wiki:data-science",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:machine-learning-for-software-engineers",
+      "target": "wiki:evaluation",
+      "kind": "article-link",
+      "weight": 4
     },
     {
       "source": "article:guide:machine-learning-for-software-engineers",
@@ -15911,6 +15935,12 @@
     {
       "source": "article:guide:machine-learning-for-software-engineers",
       "target": "wiki:job-search",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:machine-learning-for-software-engineers",
+      "target": "wiki:machine-learning",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -15928,6 +15958,12 @@
     },
     {
       "source": "article:guide:machine-learning-for-software-engineers",
+      "target": "wiki:machine-learning-infrastructure",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:machine-learning-for-software-engineers",
       "target": "wiki:machine-learning-portfolio-projects",
       "kind": "article-link",
       "weight": 4
@@ -15949,6 +15985,12 @@
       "target": "wiki:machine-learning-system-design",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "article:guide:machine-learning-for-software-engineers",
+      "target": "wiki:ml-system-design-documents",
+      "kind": "article-link",
+      "weight": 4
     },
     {
       "source": "article:guide:machine-learning-for-software-engineers",
@@ -15970,6 +16012,24 @@
     },
     {
       "source": "article:guide:machine-learning-for-software-engineers",
+      "target": "wiki:mlops-roadmap",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:machine-learning-for-software-engineers",
+      "target": "wiki:model-monitoring",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:guide:machine-learning-for-software-engineers",
+      "target": "wiki:production-ml-project-checklist",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:guide:machine-learning-for-software-engineers",
       "target": "wiki:software-engineer-to-machine-learning",
       "kind": "article-link",
       "weight": 4
@@ -15977,6 +16037,12 @@
     {
       "source": "article:guide:machine-learning-for-software-engineers",
       "target": "wiki:software-engineer-to-machine-learning",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:machine-learning-for-software-engineers",
+      "target": "wiki:software-engineering",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -16054,97 +16120,157 @@
     },
     {
       "source": "article:guide:machine-learning-for-startups",
-      "target": "wiki:data-product-management",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:machine-learning-for-startups",
-      "target": "wiki:data-product-management",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:machine-learning-for-startups",
-      "target": "wiki:data-strategy",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:machine-learning-for-startups",
-      "target": "wiki:data-strategy",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:machine-learning-for-startups",
-      "target": "wiki:entrepreneurship",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:machine-learning-for-startups",
-      "target": "wiki:entrepreneurship",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:machine-learning-for-startups",
-      "target": "wiki:founder",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:machine-learning-for-startups",
-      "target": "wiki:founder",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:machine-learning-for-startups",
-      "target": "wiki:machine-learning",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:machine-learning-for-startups",
-      "target": "wiki:machine-learning",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:machine-learning-for-startups",
-      "target": "wiki:mlops",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:machine-learning-for-startups",
-      "target": "wiki:mlops",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:machine-learning-for-startups",
-      "target": "wiki:model-monitoring",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:machine-learning-for-startups",
-      "target": "wiki:model-monitoring",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:machine-learning-for-startups",
-      "target": "wiki:open-source",
+      "target": "wiki:data-product-adoption",
       "kind": "article-link",
       "weight": 4
     },
     {
       "source": "article:guide:machine-learning-for-startups",
+      "target": "wiki:data-product-adoption",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:machine-learning-for-startups",
+      "target": "wiki:data-product-management",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:guide:machine-learning-for-startups",
+      "target": "wiki:data-product-management",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:machine-learning-for-startups",
+      "target": "wiki:data-products",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:machine-learning-for-startups",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:guide:machine-learning-for-startups",
+      "target": "wiki:data-strategy",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:guide:machine-learning-for-startups",
+      "target": "wiki:data-strategy",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:machine-learning-for-startups",
+      "target": "wiki:entrepreneurship",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:guide:machine-learning-for-startups",
+      "target": "wiki:entrepreneurship",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:machine-learning-for-startups",
+      "target": "wiki:founder",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:guide:machine-learning-for-startups",
+      "target": "wiki:founder",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:machine-learning-for-startups",
+      "target": "wiki:machine-learning",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:guide:machine-learning-for-startups",
+      "target": "wiki:machine-learning",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:machine-learning-for-startups",
+      "target": "wiki:machine-learning-infrastructure",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:guide:machine-learning-for-startups",
+      "target": "wiki:machine-learning-infrastructure",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:machine-learning-for-startups",
+      "target": "wiki:metrics",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:guide:machine-learning-for-startups",
+      "target": "wiki:mlops",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:guide:machine-learning-for-startups",
+      "target": "wiki:mlops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:machine-learning-for-startups",
+      "target": "wiki:model-monitoring",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:guide:machine-learning-for-startups",
+      "target": "wiki:model-monitoring",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:machine-learning-for-startups",
       "target": "wiki:open-source",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:guide:machine-learning-for-startups",
+      "target": "wiki:open-source",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:machine-learning-for-startups",
+      "target": "wiki:privacy-engineering-for-ml",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:guide:machine-learning-for-startups",
+      "target": "wiki:privacy-engineering-for-ml",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:machine-learning-for-startups",
+      "target": "wiki:product-analytics",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -16152,7 +16278,7 @@
       "source": "article:guide:machine-learning-for-startups",
       "target": "wiki:startup",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:guide:machine-learning-for-startups",
@@ -16164,7 +16290,7 @@
       "source": "article:guide:machine-learning-for-startups",
       "target": "wiki:startups",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:guide:machine-learning-for-startups",
@@ -17050,21 +17176,63 @@
     },
     {
       "source": "article:guide:product-analyst",
-      "target": "podcast:ab-testing-and-product-experimentation",
+      "target": "article:comparison:data-analyst-vs-analytics-engineer",
       "kind": "article-link",
       "weight": 2
     },
     {
       "source": "article:guide:product-analyst",
-      "target": "podcast:data-led-growth-event-tracking-and-reverse-etl",
+      "target": "article:comparison:product-analyst-vs-data-analyst",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:guide:product-analyst",
+      "target": "person:arpitchoudhury",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:guide:product-analyst",
+      "target": "person:jakobgraff",
       "kind": "article-link",
       "weight": 4
     },
     {
       "source": "article:guide:product-analyst",
-      "target": "podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch",
+      "target": "person:juanmanuelperafan",
       "kind": "article-link",
       "weight": 2
+    },
+    {
+      "source": "article:guide:product-analyst",
+      "target": "person:nikolamaksimovic",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:guide:product-analyst",
+      "target": "podcast:ab-testing-and-product-experimentation",
+      "kind": "article-link",
+      "weight": 8
+    },
+    {
+      "source": "article:guide:product-analyst",
+      "target": "podcast:data-led-growth-event-tracking-and-reverse-etl",
+      "kind": "article-link",
+      "weight": 8
+    },
+    {
+      "source": "article:guide:product-analyst",
+      "target": "podcast:data-team-roles",
+      "kind": "article-link",
+      "weight": 8
+    },
+    {
+      "source": "article:guide:product-analyst",
+      "target": "podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch",
+      "kind": "article-link",
+      "weight": 6
     },
     {
       "source": "article:guide:product-analyst",
@@ -17110,6 +17278,18 @@
     },
     {
       "source": "article:guide:product-analyst",
+      "target": "wiki:data-led-growth",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:guide:product-analyst",
+      "target": "wiki:data-led-growth",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:product-analyst",
       "target": "wiki:event-tracking",
       "kind": "article-link",
       "weight": 6
@@ -17117,6 +17297,42 @@
     {
       "source": "article:guide:product-analyst",
       "target": "wiki:event-tracking",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:product-analyst",
+      "target": "wiki:experimentation",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:guide:product-analyst",
+      "target": "wiki:experimentation",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:product-analyst",
+      "target": "wiki:metrics",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:guide:product-analyst",
+      "target": "wiki:metrics",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:product-analyst",
+      "target": "wiki:power-analysis",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:guide:product-analyst",
+      "target": "wiki:power-analysis",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -17143,6 +17359,30 @@
       "target": "wiki:tracking-plans",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "article:guide:solopreneur-data-scientist",
+      "target": "person:admondleekinlim",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:guide:solopreneur-data-scientist",
+      "target": "person:dimitrivisnadi",
+      "kind": "article-link",
+      "weight": 8
+    },
+    {
+      "source": "article:guide:solopreneur-data-scientist",
+      "target": "person:mariannadiachuk",
+      "kind": "article-link",
+      "weight": 8
+    },
+    {
+      "source": "article:guide:solopreneur-data-scientist",
+      "target": "person:noahgift",
+      "kind": "article-link",
+      "weight": 6
     },
     {
       "source": "article:guide:solopreneur-data-scientist",
@@ -17154,7 +17394,7 @@
       "source": "article:guide:solopreneur-data-scientist",
       "target": "podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition",
       "kind": "article-link",
-      "weight": 4
+      "weight": 8
     },
     {
       "source": "article:guide:solopreneur-data-scientist",
@@ -17172,11 +17412,35 @@
       "source": "article:guide:solopreneur-data-scientist",
       "target": "podcast:solopreneur-developer-and-data-professional",
       "kind": "article-link",
-      "weight": 4
+      "weight": 8
     },
     {
       "source": "article:guide:solopreneur-data-scientist",
       "target": "topic:freelance",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:solopreneur-data-scientist",
+      "target": "wiki:career-growth",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:solopreneur-data-scientist",
+      "target": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:guide:solopreneur-data-scientist",
+      "target": "wiki:consultant-or-freelancer-to-data-product-founder",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:solopreneur-data-scientist",
+      "target": "wiki:data-scientist-role",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -17207,6 +17471,18 @@
     {
       "source": "article:guide:solopreneur-data-scientist",
       "target": "wiki:open-source-and-developer-relations",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:solopreneur-data-scientist",
+      "target": "wiki:solopreneur",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:guide:solopreneur-data-scientist",
+      "target": "wiki:solopreneur",
       "kind": "article-wiki",
       "weight": 5
     },
