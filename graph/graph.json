@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 145,
     "nodes": 1009,
-    "links": 10654
+    "links": 10660
   },
   "nodes": [
     {
@@ -8296,7 +8296,7 @@
       "title": "Academic Researcher to Data Science",
       "url": "/wiki/academic-researcher-to-data-science/",
       "count": 1,
-      "search": "Academic Researcher to Data Science Podcast backed transition notes for academic researchers, PhDs, postdocs, and research software practitioners moving into data science through skills translation, production practice, portfolio evidence, and interview framing."
+      "search": "Academic Researcher to Data Science How academic researchers, PhDs, postdocs, and research software practitioners move into data science, applied ML, data engineering, and related industry roles."
     },
     {
       "id": "wiki:agent-engineering",
@@ -8886,7 +8886,7 @@
       "title": "Data Scientist to Machine Learning Engineer",
       "url": "/wiki/data-scientist-to-machine-learning-engineer/",
       "count": 1,
-      "search": "Data Scientist to Machine Learning Engineer Podcast backed transition notes for data scientists moving toward machine learning engineering through software engineering, deployment, monitoring, MLOps, and production ownership."
+      "search": "Data Scientist to Machine Learning Engineer How data scientists move toward machine learning engineering through software engineering, deployment, monitoring, MLOps, and production ownership."
     },
     {
       "id": "wiki:data-strategy",
@@ -9376,7 +9376,7 @@
       "title": "Marketing to Analytics Engineering",
       "url": "/wiki/marketing-to-analytics-engineering/",
       "count": 1,
-      "search": "Marketing to Analytics Engineering Podcast backed transition notes for marketers moving into analytics engineering through SQL, BI, dbt, product analytics, dashboards, and metric ownership."
+      "search": "Marketing to Analytics Engineering How marketers can move into analytics engineering through SQL, BI, dbt, product analytics, dashboards, and metric ownership."
     },
     {
       "id": "wiki:metaflow",
@@ -9666,7 +9666,7 @@
       "title": "Product Designer to Data Product Manager",
       "url": "/wiki/product-designer-to-data-product-manager/",
       "count": 1,
-      "search": "Product Designer to Data Product Manager Podcast backed transition notes for product designers moving into data product management through discovery, SQL, data quality, documentation, portfolio cases, and stakeholder empathy."
+      "search": "Product Designer to Data Product Manager How product designers can move into data product management through discovery, SQL, data quality, documentation, portfolio cases, and stakeholder empathy."
     },
     {
       "id": "wiki:production",
@@ -9716,7 +9716,7 @@
       "title": "QA to ML and Data Engineering",
       "url": "/wiki/qa-to-ml-and-data-engineering/",
       "count": 1,
-      "search": "QA to ML and Data Engineering Podcast backed transition notes for QA engineers moving into machine learning and data engineering through testing discipline, projects, cloud practice, public notes, and interview framing."
+      "search": "QA to ML and Data Engineering Transition notes for QA engineers moving into machine learning or data engineering through testing discipline, projects, cloud practice, public notes, and interview framing."
     },
     {
       "id": "wiki:rag",
@@ -36655,7 +36655,7 @@
       "source": "wiki:academic-researcher-to-data-science",
       "target": "podcast:from-academic-research-to-data-engineering-freelancing",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 10
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
@@ -36667,13 +36667,13 @@
       "source": "wiki:academic-researcher-to-data-science",
       "target": "podcast:from-large-hadron-collider-to-data-science-research-software-engineering",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 8
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
       "target": "podcast:from-radio-astronomy-to-machine-learning-and-data-engineering",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 10
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
@@ -36685,7 +36685,7 @@
       "source": "wiki:academic-researcher-to-data-science",
       "target": "podcast:postdoc-to-data-science-lead-career-transition",
       "kind": "wiki-link",
-      "weight": 34
+      "weight": 32
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
@@ -36733,7 +36733,7 @@
       "source": "wiki:academic-researcher-to-data-science",
       "target": "wiki:career-transitions-in-data",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
@@ -36745,7 +36745,7 @@
       "source": "wiki:academic-researcher-to-data-science",
       "target": "wiki:communication",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
@@ -36775,7 +36775,13 @@
       "source": "wiki:academic-researcher-to-data-science",
       "target": "wiki:data-engineering-portfolio-projects",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
+    },
+    {
+      "source": "wiki:academic-researcher-to-data-science",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
@@ -36811,7 +36817,7 @@
       "source": "wiki:academic-researcher-to-data-science",
       "target": "wiki:data-scientist-role",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
@@ -36882,6 +36888,18 @@
     {
       "source": "wiki:academic-researcher-to-data-science",
       "target": "wiki:open-source-portfolio-evidence",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:academic-researcher-to-data-science",
+      "target": "wiki:open-source-portfolio-evidence",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:academic-researcher-to-data-science",
+      "target": "wiki:portfolio-projects",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -49751,6 +49769,12 @@
     },
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "person:olegnovikov",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
       "target": "person:roksolanadiachuk",
       "kind": "wiki-link",
       "weight": 2
@@ -49777,13 +49801,13 @@
       "source": "wiki:data-scientist-to-machine-learning-engineer",
       "target": "podcast:building-production-ml-platform-and-mlops-team",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
       "target": "podcast:building-scalable-and-reliable-machine-learning-systems",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
@@ -49793,15 +49817,21 @@
     },
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
-      "target": "podcast:data-team-roles",
+      "target": "podcast:data-science-interview-and-cv-guide",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
-      "target": "podcast:from-software-engineer-to-machine-learning",
+      "target": "podcast:data-team-roles",
       "kind": "wiki-link",
       "weight": 4
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "podcast:from-software-engineer-to-machine-learning",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
@@ -49813,7 +49843,7 @@
       "source": "wiki:data-scientist-to-machine-learning-engineer",
       "target": "podcast:machine-learning-engineering-production-best-practices",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 10
     },
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
@@ -59845,37 +59875,37 @@
       "source": "wiki:marketing-to-analytics-engineering",
       "target": "podcast:analytics-engineer-skills-tools",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 8
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
       "target": "podcast:building-and-scaling-data-team",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
       "target": "podcast:data-engineering-tools-modern-data-stack",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 10
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
       "target": "podcast:data-led-growth-event-tracking-and-reverse-etl",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 10
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
       "target": "podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch",
       "kind": "wiki-link",
-      "weight": 32
+      "weight": 44
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
       "target": "podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
@@ -59984,6 +60014,12 @@
       "target": "wiki:data-warehouse",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:marketing-to-analytics-engineering",
+      "target": "wiki:dbt",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
