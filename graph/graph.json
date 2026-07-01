@@ -1,7 +1,7 @@
 {
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
-    "wikis": 201,
+    "wikis": 206,
     "articles": 56,
     "guides": 21,
     "comparisons": 20,
@@ -10,8 +10,8 @@
     "podcasts": 202,
     "persons": 438,
     "topics": 90,
-    "nodes": 987,
-    "links": 11880
+    "nodes": 992,
+    "links": 11979
   },
   "nodes": [
     {
@@ -8081,6 +8081,16 @@
       "search": "Applied Research How DataTalks.Club guests describe applied research as hypothesis driven work that turns uncertain ML ideas into products, reusable systems, and production ready evidence."
     },
     {
+      "id": "wiki:astroinformatics-scientific-data-pipelines",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Astroinformatics and Scientific Data Pipelines",
+      "title": "Astroinformatics and Scientific Data Pipelines",
+      "url": "/wiki/astroinformatics-scientific-data-pipelines/",
+      "count": 1,
+      "search": "Astroinformatics and Scientific Data Pipelines Radio astronomy data pipelines as source detection, catalog cross matching, uncertainty checks, physics based verification, and transferable data engineering practice."
+    },
+    {
       "id": "wiki:bioinformatics-data-science",
       "type": "wiki",
       "collection": "wiki",
@@ -8931,6 +8941,16 @@
       "search": "Founder How DataTalks.Club podcast guests describe founder work in data, AI, MLOps, open source, consulting, indie, and digital health startups."
     },
     {
+      "id": "wiki:freelance-data-and-ml-careers",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Freelance Data and ML Careers",
+      "title": "Freelance Data and ML Careers",
+      "url": "/wiki/freelance-data-and-ml-careers/",
+      "count": 1,
+      "search": "Freelance Data and ML Careers How two DataTalks.Club guests frame freelance data and ML careers through paid learning, public proof, lean MVPs, specialization, and client acquisition."
+    },
+    {
       "id": "wiki:freelance",
       "type": "wiki",
       "collection": "wiki",
@@ -9069,6 +9089,16 @@
       "url": "/wiki/leadership/",
       "count": 1,
       "search": "Leadership How DataTalks.Club podcast guests describe data and AI leadership across manager, senior IC, platform, strategy, hiring, mentoring, stakeholder, and data science manager roles."
+    },
+    {
+      "id": "wiki:learning-in-public-ai-career-switch",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Learning in Public for AI Career Switches",
+      "title": "Learning in Public for AI Career Switches",
+      "url": "/wiki/learning-in-public-ai-career-switch/",
+      "count": 1,
+      "search": "Learning in Public for AI Career Switches How public learning turns course progress, notes, side projects, meetups, and community participation into career infrastructure for AI and ML transitions."
     },
     {
       "id": "wiki:llm-evaluation-workflows",
@@ -9349,6 +9379,16 @@
       "url": "/wiki/nlp/",
       "count": 1,
       "search": "NLP How DataTalks.Club guests discuss natural language processing across language data, annotation, LLMs, speech, search, and production systems."
+    },
+    {
+      "id": "wiki:nontraditional-paths-to-ai-engineering",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Nontraditional Paths to AI Engineering",
+      "title": "Nontraditional Paths to AI Engineering",
+      "url": "/wiki/nontraditional-paths-to-ai-engineering/",
+      "count": 1,
+      "search": "Nontraditional Paths to AI Engineering How people entering AI engineering from career breaks, medicine, criminology, pet health startups, semiconductor work, freelancing, and nonlinear learning paths can turn prior context into credible proof."
     },
     {
       "id": "wiki:notebook-to-production-ai-systems",
@@ -9709,6 +9749,16 @@
       "url": "/wiki/self-service-data-platforms/",
       "count": 1,
       "search": "Self Service Data Platforms How DataTalks.Club podcast guests frame self service data platforms: reusable systems, conventions, contracts, governance, adoption, and team design."
+    },
+    {
+      "id": "wiki:sensor-ml-personal-baselines",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Sensor ML with Personal Baselines",
+      "title": "Sensor ML with Personal Baselines",
+      "url": "/wiki/sensor-ml-personal-baselines/",
+      "count": 1,
+      "search": "Sensor ML with Personal Baselines A portfolio project pattern for sensor machine learning where anomaly detection depends on each subject's long term baseline rather than a global average."
     },
     {
       "id": "wiki:software-engineer-to-machine-learning",
@@ -43531,6 +43581,90 @@
       "weight": 1
     },
     {
+      "source": "wiki:astroinformatics-scientific-data-pipelines",
+      "target": "person:danielegbo",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:astroinformatics-scientific-data-pipelines",
+      "target": "podcast:from-radio-astronomy-to-machine-learning-and-data-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:astroinformatics-scientific-data-pipelines",
+      "target": "wiki:academic-researcher-to-data-science",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:astroinformatics-scientific-data-pipelines",
+      "target": "wiki:academic-researcher-to-data-science",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:astroinformatics-scientific-data-pipelines",
+      "target": "wiki:applied-research",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:astroinformatics-scientific-data-pipelines",
+      "target": "wiki:applied-research",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:astroinformatics-scientific-data-pipelines",
+      "target": "wiki:computer-vision",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:astroinformatics-scientific-data-pipelines",
+      "target": "wiki:computer-vision",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:astroinformatics-scientific-data-pipelines",
+      "target": "wiki:data-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:astroinformatics-scientific-data-pipelines",
+      "target": "wiki:data-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:astroinformatics-scientific-data-pipelines",
+      "target": "wiki:data-pipelines",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:astroinformatics-scientific-data-pipelines",
+      "target": "wiki:data-pipelines",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:astroinformatics-scientific-data-pipelines",
+      "target": "wiki:machine-learning",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:astroinformatics-scientific-data-pipelines",
+      "target": "wiki:machine-learning",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
       "source": "wiki:bioinformatics-data-science",
       "target": "person:sebastianayalaruano",
       "kind": "wiki-link",
@@ -60859,6 +60993,114 @@
       "weight": 1
     },
     {
+      "source": "wiki:freelance-data-and-ml-careers",
+      "target": "person:orellgarten",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:freelance-data-and-ml-careers",
+      "target": "person:pastorsoto",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:freelance-data-and-ml-careers",
+      "target": "podcast:from-academic-research-to-data-engineering-freelancing",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:freelance-data-and-ml-careers",
+      "target": "podcast:nonlinear-path-to-machine-learning-freelancing-and-public-learning",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:freelance-data-and-ml-careers",
+      "target": "wiki:career-growth",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:freelance-data-and-ml-careers",
+      "target": "wiki:career-growth",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:freelance-data-and-ml-careers",
+      "target": "wiki:career-transitions-in-data",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:freelance-data-and-ml-careers",
+      "target": "wiki:career-transitions-in-data",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:freelance-data-and-ml-careers",
+      "target": "wiki:data-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:freelance-data-and-ml-careers",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:freelance-data-and-ml-careers",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:freelance-data-and-ml-careers",
+      "target": "wiki:data-freelancing-strategy",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:freelance-data-and-ml-careers",
+      "target": "wiki:data-freelancing-strategy",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:freelance-data-and-ml-careers",
+      "target": "wiki:freelance",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:freelance-data-and-ml-careers",
+      "target": "wiki:freelance",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:freelance-data-and-ml-careers",
+      "target": "wiki:job-search",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:freelance-data-and-ml-careers",
+      "target": "wiki:job-search",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:freelance-data-and-ml-careers",
+      "target": "wiki:machine-learning",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
       "source": "wiki:game-ai-to-llm-agents",
       "target": "person:micheallanham",
       "kind": "wiki-link",
@@ -63479,6 +63721,192 @@
       "target": "wiki:team-building",
       "kind": "wiki-link",
       "weight": 1
+    },
+    {
+      "source": "wiki:learning-in-public-ai-career-switch",
+      "target": "person:leonidkholkine",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:learning-in-public-ai-career-switch",
+      "target": "person:pastorsoto",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:learning-in-public-ai-career-switch",
+      "target": "person:revathyramalingam",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:learning-in-public-ai-career-switch",
+      "target": "person:ruslanshchuchkin",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:learning-in-public-ai-career-switch",
+      "target": "podcast:nonlinear-path-to-machine-learning-freelancing-and-public-learning",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:learning-in-public-ai-career-switch",
+      "target": "podcast:s23e04-how-to-become-ai-engineer-after-career-break",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:learning-in-public-ai-career-switch",
+      "target": "podcast:s23e05-inside-ai-engineer-role-tools-skills-and-career-path",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:learning-in-public-ai-career-switch",
+      "target": "podcast:s23e09-starting-data-conference-data-makers-fest-story",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:learning-in-public-ai-career-switch",
+      "target": "wiki:ai-engineer-role",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:learning-in-public-ai-career-switch",
+      "target": "wiki:ai-engineer-role",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:learning-in-public-ai-career-switch",
+      "target": "wiki:ai-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:learning-in-public-ai-career-switch",
+      "target": "wiki:ai-engineering-portfolio-projects",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:learning-in-public-ai-career-switch",
+      "target": "wiki:ai-engineering-portfolio-projects",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:learning-in-public-ai-career-switch",
+      "target": "wiki:ai-tooling",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:learning-in-public-ai-career-switch",
+      "target": "wiki:career-growth",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:learning-in-public-ai-career-switch",
+      "target": "wiki:career-growth",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:learning-in-public-ai-career-switch",
+      "target": "wiki:career-transition",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:learning-in-public-ai-career-switch",
+      "target": "wiki:career-transition",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:learning-in-public-ai-career-switch",
+      "target": "wiki:community-building",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:learning-in-public-ai-career-switch",
+      "target": "wiki:community-building",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:learning-in-public-ai-career-switch",
+      "target": "wiki:job-search",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:learning-in-public-ai-career-switch",
+      "target": "wiki:job-search",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:learning-in-public-ai-career-switch",
+      "target": "wiki:machine-learning",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:learning-in-public-ai-career-switch",
+      "target": "wiki:machine-learning-engineer-role",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:learning-in-public-ai-career-switch",
+      "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:learning-in-public-ai-career-switch",
+      "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:learning-in-public-ai-career-switch",
+      "target": "wiki:open-source-portfolio-evidence",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:learning-in-public-ai-career-switch",
+      "target": "wiki:open-source-portfolio-evidence",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:learning-in-public-ai-career-switch",
+      "target": "wiki:rag",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:learning-in-public-ai-career-switch",
+      "target": "wiki:teaching",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:learning-in-public-ai-career-switch",
+      "target": "wiki:teaching",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:llm-evaluation-workflows",
@@ -69701,6 +70129,138 @@
       "target": "wiki:software-engineering",
       "kind": "wiki-link",
       "weight": 1
+    },
+    {
+      "source": "wiki:nontraditional-paths-to-ai-engineering",
+      "target": "person:dashelruizperez",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:nontraditional-paths-to-ai-engineering",
+      "target": "person:pastorsoto",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:nontraditional-paths-to-ai-engineering",
+      "target": "person:revathyramalingam",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:nontraditional-paths-to-ai-engineering",
+      "target": "person:ruslanshchuchkin",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:nontraditional-paths-to-ai-engineering",
+      "target": "person:sofyayulpatova",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:nontraditional-paths-to-ai-engineering",
+      "target": "podcast:from-semiconductor-data-to-applied-machine-learning",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:nontraditional-paths-to-ai-engineering",
+      "target": "podcast:nonlinear-path-to-machine-learning-freelancing-and-public-learning",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:nontraditional-paths-to-ai-engineering",
+      "target": "podcast:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:nontraditional-paths-to-ai-engineering",
+      "target": "podcast:s23e04-how-to-become-ai-engineer-after-career-break",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:nontraditional-paths-to-ai-engineering",
+      "target": "podcast:s23e05-inside-ai-engineer-role-tools-skills-and-career-path",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:nontraditional-paths-to-ai-engineering",
+      "target": "wiki:ai-engineer-role",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:nontraditional-paths-to-ai-engineering",
+      "target": "wiki:ai-engineer-role",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:nontraditional-paths-to-ai-engineering",
+      "target": "wiki:ai-engineering-roadmap",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:nontraditional-paths-to-ai-engineering",
+      "target": "wiki:ai-engineering-roadmap",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:nontraditional-paths-to-ai-engineering",
+      "target": "wiki:career-transitions-in-data",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:nontraditional-paths-to-ai-engineering",
+      "target": "wiki:career-transitions-in-data",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:nontraditional-paths-to-ai-engineering",
+      "target": "wiki:job-search",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:nontraditional-paths-to-ai-engineering",
+      "target": "wiki:job-search",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:nontraditional-paths-to-ai-engineering",
+      "target": "wiki:mlops",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:nontraditional-paths-to-ai-engineering",
+      "target": "wiki:rag",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:nontraditional-paths-to-ai-engineering",
+      "target": "wiki:software-engineer-to-machine-learning",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:nontraditional-paths-to-ai-engineering",
+      "target": "wiki:software-engineer-to-machine-learning",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:notebook-to-production-ai-systems",
@@ -77909,6 +78469,90 @@
       "target": "wiki:streaming",
       "kind": "wiki-link",
       "weight": 1
+    },
+    {
+      "source": "wiki:sensor-ml-personal-baselines",
+      "target": "person:sofyayulpatova",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:sensor-ml-personal-baselines",
+      "target": "podcast:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:sensor-ml-personal-baselines",
+      "target": "wiki:ai-product-feedback-loops",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:sensor-ml-personal-baselines",
+      "target": "wiki:ai-product-feedback-loops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:sensor-ml-personal-baselines",
+      "target": "wiki:data-pipelines",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:sensor-ml-personal-baselines",
+      "target": "wiki:data-pipelines",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:sensor-ml-personal-baselines",
+      "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:sensor-ml-personal-baselines",
+      "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:sensor-ml-personal-baselines",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:sensor-ml-personal-baselines",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:sensor-ml-personal-baselines",
+      "target": "wiki:model-monitoring",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:sensor-ml-personal-baselines",
+      "target": "wiki:model-monitoring",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:sensor-ml-personal-baselines",
+      "target": "wiki:startups",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:sensor-ml-personal-baselines",
+      "target": "wiki:startups",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:software-engineer-to-machine-learning",
