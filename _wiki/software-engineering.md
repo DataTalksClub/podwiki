@@ -18,26 +18,30 @@ and trust. It also makes those systems easier to change and run. In the
 DataTalks.Club podcast discussions, the topic usually appears when data, ML, or
 AI work has to move beyond a notebook or one-person script.
 
-Guests don't treat software engineering as a separate craft that data teams
-borrow occasionally. They treat it as part of the work. Data pipelines need
-version control, tests, deployment paths, and monitoring. ML systems need
-interfaces, model artifacts, reproducible experiments, and release ownership.
-AI products need prompt evaluation, data quality checks, latency controls, and
-maintainable application code.
+Guests treat software engineering as part of data, ML, and AI work rather than
+as a separate craft borrowed at the end. Data pipelines need version control,
+tests, deployment paths, and monitoring. ML systems need interfaces, model
+artifacts, reproducible experiments, and release ownership. AI products need
+prompt evaluation, data quality checks, latency controls, and maintainable
+application code.
 
-That framing is clearest in
+Use
+[Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
+for the architecture layer around model behavior, data, serving, and
+reliability.
+For operating practices after release, use
+[MLOps]({{ '/wiki/mlops/' | relative_url }}),
+[DataOps]({{ '/wiki/dataops/' | relative_url }}), and
+[Production]({{ '/wiki/production/' | relative_url }}).
+
+The clearest starting point is
 [Nadia Nahar]({{ '/people/nadianahar/' | relative_url }})'s
-[Software Engineering for ML]({{ '/podcasts/software-engineering-for-machine-learning/' | relative_url }})
+[Software Engineering for Machine Learning]({{ '/podcasts/software-engineering-for-machine-learning/' | relative_url }})
 episode. At 6:58 and 7:42, she distinguishes ML systems from traditional
 software through uncertainty, data workflows, and monitoring needs. At 10:12,
-she ties the discussion to hidden technical debt. For ML-specific architecture,
-use
-[Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }}).
-For operating practices after release, use
-[MLOps]({{ '/wiki/mlops/' | relative_url }}) and
-[DataOps]({{ '/wiki/dataops/' | relative_url }}).
+she ties the discussion to hidden technical debt.
 
-## Common Definition
+## Engineering Habits for Changing Systems
 
 Across these podcast discussions, software engineering means repeatable
 engineering habits around a changing system. Teams define requirements and
@@ -57,7 +61,7 @@ solve the problem.
 
 [Maria Vechtomova]({{ '/people/mariavechtomova/' | relative_url }}) gives the
 MLOps version in
-[Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }}).
+[Pragmatic MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }}).
 Her 18:41 and 22:23 chapters put version control, CI/CD, and registries in the
 same operating model. Documentation and reproducibility belong there too. So do
 code quality and testing. At 33:24, she recommends moving production logic from
@@ -71,7 +75,7 @@ data. He also covers version control and end-to-end deployment automation. Those
 are software engineering practices applied to data products and analytics
 systems.
 
-## Guest Differences
+## Engineering Entry Points
 
 Guests agree that software engineering lowers operational risk, but they differ
 on where teams should apply it first.
@@ -82,7 +86,7 @@ requirements and team boundary. In
 the 10:54 and 13:52 chapters connect failure to weak requirements, unrealistic
 expectations, and data access. Vocabulary gaps and missing documentation also
 show up as failure causes. Her 36:28 and 56:55 chapters put ML practitioners
-into the full delivery process, from requirements through testing.
+into the full delivery path, from requirements through testing.
 
 [Ben Wilson]({{ '/people/benwilson/' | relative_url }}) starts with code and
 model complexity. In
@@ -97,14 +101,19 @@ starts from the platform boundary in
 At 13:25, he names software engineering fundamentals as part of ML platform
 work. Later, the 38:40 chapter connects developer experience and thin
 abstractions to platform design. The 54:15 chapter adds API schemas and
-prediction logging.
+prediction logging. His platform view overlaps with
+[Platform Engineering]({{ '/wiki/platform-engineering/' | relative_url }})
+because shared infrastructure has to preserve developer autonomy and reliable
+interfaces.
 
 [Mariano Semelman]({{ '/people/marianosemelman/' | relative_url }}) brings the
 same question to end-to-end AI systems in
 [From Notebook to Production]({{ '/podcasts/s24e03-from-notebook-to-production-building-end-to-end-ai-systems/' | relative_url }}).
 His 17:27 and 37:39 chapters focus on ownership and translating business needs
 into ML requirements. The 55:28 chapter discusses the declining role of
-notebooks in production AI systems.
+notebooks in production AI systems, which makes
+[Notebook to Production AI Systems]({{ '/wiki/notebook-to-production-ai-systems/' | relative_url }})
+a close companion topic.
 
 ## Practices for Data Systems
 
@@ -140,7 +149,7 @@ serving behavior need tracking too.
 
 [Maria Vechtomova]({{ '/people/mariavechtomova/' | relative_url }}) connects
 those controls to standardized MLOps in
-[Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }}).
+[Pragmatic MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }}).
 The 16:27 chapter recommends using existing infrastructure such as Kubernetes,
 Git, and CI/CD instead of adding tools for their own sake. The 29:55 chapter
 adds cookie-cutter repositories and standard service accounts. The 56:08
@@ -180,8 +189,8 @@ product engineering side in
 [From Notebook to Production]({{ '/podcasts/s24e03-from-notebook-to-production-building-end-to-end-ai-systems/' | relative_url }}).
 At 31:42, he explains why LLMs aren't always the best solution. At 48:26, he
 walks through application architecture for image-description logic. At 1:02:53,
-he discusses a modern stack with FastAPI, `uv`, and Arize. This connects
-[AI Engineering]({{ '/wiki/ai-engineering/' | relative_url }}) to ordinary
+he discusses a modern stack with FastAPI, `uv`, and Arize.
+[AI Engineering]({{ '/wiki/ai-engineering/' | relative_url }}) includes ordinary
 application engineering rather than only model selection.
 
 ## Production Readiness
@@ -244,9 +253,9 @@ prompt and model changes.
 
 [Maria Vechtomova]({{ '/people/mariavechtomova/' | relative_url }}) describes
 standardized deployment paths in
-[Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }}).
-Her 12:42 chapter covers reusable CI/CD and central infrastructure. Her 18:41
-chapter puts registries and CI/CD into the essential MLOps stack.
+[Pragmatic MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }}),
+where the 12:42 chapter covers reusable CI/CD and central infrastructure. Her
+18:41 chapter puts registries and CI/CD into the essential MLOps stack.
 
 [Simon Stiebellehner]({{ '/people/simonstiebellehner/' | relative_url }})
 connects deployment to platform choices in
@@ -294,25 +303,3 @@ At 19:00, he discusses low-maintenance APIs and ecosystem compatibility. At
 references, examples, and contribution guides. Those practices make a project
 easier to extend, whether the project is public open source or an internal ML
 library.
-
-## Related Pages
-
-Use these DataTalks.Club topic areas with software engineering:
-
-- [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
-  covers model, data, serving, and reliability choices before implementation.
-- [MLOps]({{ '/wiki/mlops/' | relative_url }}) covers experiment tracking,
-  model registries, deployment, monitoring, and ML lifecycle ownership.
-- [DataOps]({{ '/wiki/dataops/' | relative_url }}) covers CI/CD, testing,
-  observability, and deployment discipline for data pipelines.
-- [Production]({{ '/wiki/production/' | relative_url }}) covers release,
-  monitoring, reliability, security, and recovery.
-- [Testing]({{ '/wiki/testing/' | relative_url }}) collects test practices for
-  code and data, plus models, prompts, and pipelines.
-- [Platform Engineering]({{ '/wiki/platform-engineering/' | relative_url }})
-  covers shared infrastructure, developer experience, and thin abstractions.
-- [Notebook to Production AI Systems]({{ '/wiki/notebook-to-production-ai-systems/' | relative_url }})
-  covers the handoff from exploratory AI work to running products.
-- [Open Source and Developer Relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }})
-  covers documentation, contribution guides, maintainership, and public
-  engineering practice.

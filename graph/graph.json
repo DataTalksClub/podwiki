@@ -11,7 +11,7 @@
     "persons": 183,
     "topics": 92,
     "nodes": 704,
-    "links": 10982
+    "links": 10998
   },
   "nodes": [
     {
@@ -39055,6 +39055,12 @@
     },
     {
       "source": "wiki:career-development",
+      "target": "wiki:data-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-development",
       "target": "wiki:data-engineering-portfolio-projects",
       "kind": "wiki-link",
       "weight": 1
@@ -39064,6 +39070,12 @@
       "target": "wiki:data-engineering-portfolio-projects",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:career-development",
+      "target": "wiki:data-science",
+      "kind": "wiki-link",
+      "weight": 1
     },
     {
       "source": "wiki:career-development",
@@ -39100,6 +39112,12 @@
       "target": "wiki:machine-learning-portfolio-projects",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:career-development",
+      "target": "wiki:mlops",
+      "kind": "wiki-link",
+      "weight": 1
     },
     {
       "source": "wiki:career-development",
@@ -70118,12 +70136,6 @@
     {
       "source": "wiki:software-engineering",
       "target": "wiki:open-source-and-developer-relations",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:software-engineering",
-      "target": "wiki:open-source-and-developer-relations",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -70255,6 +70267,24 @@
     },
     {
       "source": "wiki:solopreneur",
+      "target": "wiki:ai",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:solopreneur",
+      "target": "wiki:business-skills-for-data-professionals",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:solopreneur",
+      "target": "wiki:career-growth",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:solopreneur",
       "target": "wiki:consultant-or-freelancer-to-data-product-founder",
       "kind": "wiki-link",
       "weight": 1
@@ -70267,7 +70297,7 @@
     },
     {
       "source": "wiki:solopreneur",
-      "target": "wiki:developer-relations",
+      "target": "wiki:data-science",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -70294,6 +70324,18 @@
       "target": "wiki:freelance",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:solopreneur",
+      "target": "wiki:generative-ai",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:solopreneur",
+      "target": "wiki:llms",
+      "kind": "wiki-link",
+      "weight": 1
     },
     {
       "source": "wiki:solopreneur",
@@ -71899,6 +71941,18 @@
     },
     {
       "source": "wiki:technical-writing",
+      "target": "wiki:data-scientist-role",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:technical-writing",
+      "target": "wiki:developer-experience",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:technical-writing",
       "target": "wiki:developer-relations",
       "kind": "wiki-link",
       "weight": 1
@@ -71911,6 +71965,12 @@
     },
     {
       "source": "wiki:technical-writing",
+      "target": "wiki:documentation",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:technical-writing",
       "target": "wiki:machine-learning",
       "kind": "wiki-link",
       "weight": 1
@@ -71920,6 +71980,12 @@
       "target": "wiki:machine-learning",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:technical-writing",
+      "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "wiki-link",
+      "weight": 1
     },
     {
       "source": "wiki:technical-writing",
@@ -71950,6 +72016,12 @@
       "target": "wiki:open-source-portfolio-evidence",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:technical-writing",
+      "target": "wiki:portfolio-projects",
+      "kind": "wiki-link",
+      "weight": 1
     },
     {
       "source": "wiki:technical-writing",
@@ -72727,7 +72799,13 @@
     },
     {
       "source": "wiki:tracking-plans",
-      "target": "wiki:modern-data-stack",
+      "target": "wiki:experimentation-and-causal-inference",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:tracking-plans",
+      "target": "wiki:metrics",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -72764,6 +72842,12 @@
     {
       "source": "wiki:vector-databases",
       "target": "article:comparison:knowledge-graph-vs-vector-search",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:vector-databases",
+      "target": "article:comparison:rag-vs-fine-tuning",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -72866,6 +72950,18 @@
     {
       "source": "wiki:vector-databases",
       "target": "wiki:production-search-evaluation",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:vector-databases",
+      "target": "wiki:rag",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:vector-databases",
+      "target": "wiki:recommendation-systems",
       "kind": "wiki-link",
       "weight": 1
     },

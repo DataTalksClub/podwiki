@@ -13,189 +13,158 @@ related:
   - Search
 ---
 
-Streaming data systems process events close to the moment they're produced. In
-DataTalks.Club episodes, streaming usually means a producer writes events to
-a broker such as Kafka or Kinesis. SQS and RabbitMQ appear in the same queueing
-family. Consumers then transform those events for storage, dashboards, alerts,
-and online features. The same stream can support fraud decisions or search
-ranking.
+Streaming data systems handle events close to the moment they're produced. In
+DataTalks.Club episodes, streaming usually means a producer writes events to a
+broker such as Kafka or Kinesis. SQS and RabbitMQ appear in the same queueing
+family. Consumers then transform those events for storage and dashboards. Other
+consumers use the same events for alerts, online features, fraud decisions, or
+search ranking.
 
-That makes streaming a design choice inside
-[data pipelines]({{ '/wiki/data-pipelines/' | relative_url }}), not a default
-architecture. These episodes repeatedly tie streaming to
-[batch vs streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }}),
-[DataOps]({{ '/wiki/dataops/' | relative_url }}), schema ownership, and
-[MLOps]({{ '/wiki/mlops/' | relative_url }}). A team chooses streaming when the
-result loses value if it waits for a scheduled batch job.
+The episodes treat streaming as a design choice inside
+[data pipelines]({{ '/wiki/data-pipelines/' | relative_url }}), not as the
+default architecture. Streaming sits beside
+[batch vs streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }})
+and [DataOps]({{ '/wiki/dataops/' | relative_url }}). It also sits beside
+schema ownership, [MLOps]({{ '/wiki/mlops/' | relative_url }}), and
+[search]({{ '/wiki/search/' | relative_url }}) when a delayed result loses
+product value.
 
 [Andreas Kretz]({{ '/people/andreaskretz/' | relative_url }}) gives the
 clearest pipeline-level explanation in
 [From Notebooks to Production]({{ '/podcasts/production-ml-pipelines-with-aws-and-kafka/' | relative_url }}).
 Around 15:11, he uses website click events flowing into Kafka or Kinesis as the
-ingestion example. Around 16:51, he contrasts stream processing with batch
-processing: streaming reacts from the queue, while batch stores data first and
-processes it later.
+ingestion example. Around 16:51, he contrasts stream handling with batch work:
+streaming reacts from the queue, while batch stores data first and handles it
+later.
 
-## Common Definition
+## Pipeline Anatomy
 
-Across these episodes, a streaming system has four practical parts:
+A streaming system in these discussions has four practical parts:
 
 - producers that emit events
 - a broker or queue that buffers events
-- processors that transform, join, validate, or enrich events
+- jobs that transform or enrich events
 - outputs such as storage, online stores, alerts, applications, search indexes,
   or dashboards
 
-Kretz maps those pieces in
-[From Notebooks to Production]({{ '/podcasts/production-ml-pipelines-with-aws-and-kafka/' | relative_url }})
-around 13:25-17:33. He names ingestion and queues. He also names processing
-frameworks, storage, and visualization. Around 12:03, he warns that too many
-tools create extra operations work.
+Kretz maps those pieces around 13:25-17:33 in
+[From Notebooks to Production]({{ '/podcasts/production-ml-pipelines-with-aws-and-kafka/' | relative_url }}).
+Ingestion and queues belong to the same pipeline anatomy. So do compute
+frameworks, storage, and visualization.
 
-That matters because streaming adds
-always-on brokers and consumer jobs. It also adds schema checks, lag
-monitoring, and replay paths.
+Kretz also warns around 12:03 that too many tools create extra operating work.
+That warning matters because streaming adds always-on brokers and consumer
+jobs. It also adds schema checks, lag monitoring, and replay paths. A
+[data engineering platform]({{ '/wiki/data-engineering-platforms/' | relative_url }})
+therefore needs topic naming and ownership. It also needs compatibility rules,
+observability, and conventions for replaying or backfilling data when consumers
+break.
+
+## Latency Boundaries
 
 [Lars Albertsson]({{ '/people/larsalbertsson/' | relative_url }}) gives the
-clearest latency boundary for these discussions in
+clearest latency boundary in
 [DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}).
 Around 42:29, he separates slow reporting, streaming's middle latency window,
-and sub-100-millisecond interactions that need data already in the serving
+and sub-100-millisecond interactions that need data already inside the serving
 application. Streaming can react in seconds or minutes, but it still crosses
-multiple services and often contains internal batching.
+multiple services and often includes internal batching.
 
-That definition keeps streaming connected to
-[data engineering platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}).
-A broker endpoint isn't enough because teams also need topic naming, ownership,
-schemas, and compatibility rules. They need observability and conventions for
-replaying or backfilling data when consumers break.
+Albertsson is also the strongest skeptic of streaming as a default. Around
+41:53-45:19 in
+[DataOps 101]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}),
+he argues that teams can often push batch latency down to minutes or seconds.
+They can still keep explicit dependencies and easier reruns. His view favors
+workflow-oriented batch when the product can tolerate the delay. It keeps
+streaming tied to recoverability rather than tool fashion.
 
-## Guest Differences
-
-Albertsson is the strongest skeptic of streaming as a default. In
-[DataOps 101]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }})
-around 41:53-45:19, he argues that teams can often push batch latency down to
-minutes or seconds. They can do that while keeping explicit dependencies and
-easier reruns. His view favors workflow-oriented batch when the product can
-tolerate the delay.
-
-Kretz treats streaming as one processing mode inside a larger production
-pipeline. In
-[From Notebooks to Production]({{ '/podcasts/production-ml-pipelines-with-aws-and-kafka/' | relative_url }})
-around 18:14-24:44, he says the team should understand the schema, processing
-steps, and desired output before choosing an implementation. The options he
-names include Spark and Flink. He also mentions Lambda, Glue, and Docker jobs.
-
-[Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) adds a modern
+[Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) adds the modern
 data-stack warning in
 [Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}).
-Around 51:19, he says many so-called streaming systems are micro-batches unless
-strict service-level agreements justify Kafka, Flink, or similar
-infrastructure.
+Around 51:19, he says many systems described as streaming are micro-batches
+unless strict service-level agreements justify Kafka, Flink, or
+similar infrastructure. Short batches or micro-batches can reduce latency while
+keeping bounded windows that engineers can test and rerun.
 
-[Mehdi OUAZZA]({{ '/people/mehdiouazza/' | relative_url }}) focuses on the
-organizational cost. In
-[Scaling Data Engineering Teams]({{ '/podcasts/scaling-data-engineering-teams-self-service-platforms/' | relative_url }}),
-he warns around 20:20 that teams shouldn't expect engineers with no Kafka
-experience to design a cluster under scale pressure. Around 23:26, he explains
-why topics and schemas become platform concerns. Registry practice and
-allowed-change rules matter more as the number of producers and consumers
-grows.
+## Kafka and Event Interfaces
 
-## Kafka, Queues, and Event Ingestion
-
-Kafka appears in these episodes as the concrete symbol for event streaming, but
-guests don't treat Kafka as the whole system. Kretz uses Kafka and Kinesis for
-click-event ingestion in
-[From Notebooks to Production]({{ '/podcasts/production-ml-pipelines-with-aws-and-kafka/' | relative_url }})
-around 15:11. Brudaru names Kafka and SQS as common buffers in
-[Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }})
-around 52:31.
+Kafka appears as the concrete symbol for event streaming, but the guests don't
+treat Kafka as the whole system. Kretz uses Kafka and Kinesis for click-event
+ingestion around 15:11 in
+[From Notebooks to Production]({{ '/podcasts/production-ml-pipelines-with-aws-and-kafka/' | relative_url }}).
+Brudaru names Kafka and SQS as common buffers around 52:31 in
+[Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}).
 
 The broker gives producers and consumers a shared event path. A product service
-can publish one event, then consumers can use it for analytics and alerts. The
-same event can also feed ML features or search freshness. That separation is
-valuable only when each consumer can understand the event and recover from late,
-duplicated, malformed, or replayed events.
+can publish one event, then consumers can use it for analytics and alerts.
+Other consumers can use the same event for ML features and search freshness.
+That separation only works when each consumer can understand the event and
+recover from late, duplicated, malformed, or replayed events.
 
-OUAZZA's Kafka discussion in
-[Scaling Data Engineering Teams]({{ '/podcasts/scaling-data-engineering-teams-self-service-platforms/' | relative_url }})
-shows the failure mode. Software engineers may publish Kafka events for
-service-to-service communication while data teams consume the same topics into
-S3, Spark, or a warehouse. Without typed schemas and change rules, each
-producer change can become a downstream parsing failure, data-quality incident,
-or compute-cost problem.
+[Mehdi OUAZZA]({{ '/people/mehdiouazza/' | relative_url }}) shows the failure
+mode in
+[Scaling Data Engineering Teams]({{ '/podcasts/scaling-data-engineering-teams-self-service-platforms/' | relative_url }}).
+Around 20:20, he warns that teams shouldn't expect engineers with no Kafka
+experience to design a cluster under scale pressure. Around 23:26, he explains
+why topics and schemas become platform concerns. Software engineers may publish
+Kafka events for service-to-service communication. Data teams may consume the
+same topics into S3, Spark, or a warehouse.
 
-## Batch, Micro-Batch, and Event Time
-
-The podcast discussions don't frame streaming as the opposite of batch in every case. It
-treats them as latency and recovery choices. Albertsson argues in
-[DataOps 101]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }})
-that batch windows make dependencies explicit: a job knows which upstream data
-and time interval it depends on. Streaming can hide dependencies in event
-arrival order, joins across streams, and synchronization between consumers.
-
-Micro-batching can reduce latency while keeping bounded windows that engineers
-can test and rerun. Brudaru's
-[Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }})
-discussion makes the same point. At 51:19, strict SLAs may justify true
-streaming. Many teams can use short batches or micro-batches instead.
-
-This is why the streaming decision should start with the action that consumes
-the result. Fraud blocking and operational alerts can justify low latency.
-Online features, search freshness, and traffic response can justify it too.
-
-Reports, backfills, training-set construction, and many warehouse models often
-fit batch. The
-[Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }}) page
-covers that broader tradeoff.
-
-
-## Schemas, Contracts, and Ownership
-
-Streaming moves producer mistakes quickly. OUAZZA's
-[Scaling Data Engineering Teams]({{ '/podcasts/scaling-data-engineering-teams-self-service-platforms/' | relative_url }})
-episode gives the strongest warning about Kafka schemas. Around 23:26,
-he describes teams growing from a few topics to hundreds. Once many consumers
-depend on those topics, informal payload changes become expensive to unwind.
-
-His controls are concrete because teams need typed schemas and a schema
-registry. They also need allowed-change rules and a documented schema-change
-process. Those controls make an event stream closer to a shared data product.
-They connect streaming to
+Teams use typed schemas, a schema registry, allowed-change rules, and a
+documented schema-change path to turn an event stream into a shared data
+interface. Without those controls, each producer change can become a downstream
+parsing failure, data-quality incident, or compute-cost problem. The same
+ownership model links streaming to
 [data products]({{ '/wiki/data-products/' | relative_url }}),
 [data mesh]({{ '/wiki/data-mesh/' | relative_url }}),
 [data governance]({{ '/wiki/data-governance/' | relative_url }}), and
 [data quality and observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).
 
-[CDC]({{ '/wiki/cdc/' | relative_url }}) sits next to this problem. Database
-change capture can feed batch jobs, streaming consumers, warehouses, or
-event-driven services. The same ownership question remains. Consumers need to
-know what changed and whether the change is compatible. They also need to know
-how to replay or backfill when the source system changes.
+[CDC]({{ '/wiki/cdc/' | relative_url }}) sits next to this interface problem.
+Database change capture can feed batch jobs, streaming consumers, warehouses,
+or event-driven services. Consumers still need to know what changed, whether
+the change is compatible, and how to replay or backfill when the source system
+changes.
 
-## Stream Processing and Systems Research
+## Batch, Micro-Batch, and Event Time
 
-Stream processing is a systems problem, not only a product integration problem.
-Kretz lists Spark and Flink as processing options in
-[From Notebooks to Production]({{ '/podcasts/production-ml-pipelines-with-aws-and-kafka/' | relative_url }})
-around 18:14-24:44. Brudaru also places Flink beside Kafka, SQS, and
-micro-batching in
-[Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }})
-around 51:19-52:31.
+The podcast discussions frame streaming and batch as latency or recovery
+choices. Albertsson argues in
+[DataOps 101]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }})
+that batch windows make dependencies explicit: a job knows which upstream data
+and time interval it depends on. Streaming can hide dependencies in event
+arrival order, joins across streams, and synchronization between consumers.
+
+The streaming decision starts with the action that consumes the result. Fraud
+blocking and operational alerts can justify low latency. Online features, search
+freshness, and traffic response can justify it too. Reports, backfills,
+training-set construction, and many warehouse models often fit batch. The
+[Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }})
+page covers that broader tradeoff.
+
+## Stream Engines and IoT Research
+
+Kretz lists Spark and Flink as compute options around 18:14-24:44 in
+[From Notebooks to Production]({{ '/podcasts/production-ml-pipelines-with-aws-and-kafka/' | relative_url }}).
+He also mentions Lambda and Glue jobs after saying the team should understand
+the schema, transformation steps, and desired output before choosing an
+implementation. Docker jobs appear in the same implementation discussion.
+Brudaru places Flink beside Kafka and SQS around
+51:19-52:31 in
+[Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}).
+He discusses micro-batching in the same section.
 
 [Eleni Tzirita-Zacharatou]({{ '/people/elenitziritazacharatou/' | relative_url }})
 shows why hard streaming problems remain active research. In
 [Big Data Analytics and Postdoc Research]({{ '/podcasts/big-data-analytics-and-postdoc-research/' | relative_url }}),
 she describes Nebula Stream around 23:08-24:15 as a general-purpose data
 management system for IoT. She also frames it as a research successor line
-after Apache Flink.
-IoT streams force systems to handle distributed data, resource limits, and
-application-specific algorithms at the same time.
+after Apache Flink. IoT streams force systems to handle distributed data,
+resource limits, and application-specific algorithms at the same time.
 
-Those research concerns surface in production too. Teams have to reason about
-event time, late arrivals, stateful joins, and processing guarantees. They also
-have to account for backpressure and the cost of keeping processing
+Those research concerns surface in production systems too. Teams have to reason
+about event time, late arrivals, stateful joins, and delivery guarantees. They
+also have to account for backpressure and the cost of keeping stream
 infrastructure running continuously.
 
 ## Fraud, Feature Stores, and Online ML
@@ -204,37 +173,34 @@ The strongest applied examples combine streaming and batch.
 [Angela Ramirez]({{ '/people/angelaramirez/' | relative_url }}) explains this
 split in
 [Data Engineering for Fraud Prevention]({{ '/podcasts/building-and-scaling-data-engineering-systems-for-fraud-detection/' | relative_url }}).
-Around 8:24, daily batch jobs compute fraud features, while the live
-purchase flow calls a fraud system to decide whether to block a transaction.
-Around 34:46, she returns to the same split: known calculations can be prepared
-ahead of time, while transaction-payload information must be handled almost
+Around 8:24, daily batch jobs compute fraud features, while the live purchase
+flow calls a fraud system to decide whether to block a transaction. Around
+34:46, she returns to the same split: known calculations can be prepared ahead
+of time, while transaction-payload information must be handled almost
 immediately.
 
 [Willem Pienaar]({{ '/people/willempienaar/' | relative_url }}) gives the
 feature-store version in
 [Feature Stores for MLOps]({{ '/podcasts/mlops-feature-stores-feature-stores-feast-tecton/' | relative_url }}).
 He places feature stores between source systems and the production ML
-environment. Those sources can include raw streams and warehouses. They can
-also include lakes.
-Around 45:00, he separates streaming ingestion,
-batch transforms, and training-set construction.
+environment. Those sources can include raw streams, warehouses, and lakes.
+Around 45:00, he separates streaming ingestion, batch transforms, and
+training-set construction.
 
-He also separates serving-time behavior. That separation helps teams avoid
-training-serving skew while still serving low-latency online features.
-
-For [machine learning system design]({{ '/wiki/machine-learning-system-design/' | relative_url }}),
+Pienaar also separates serving-time behavior. That split helps teams avoid
+training-serving skew while still serving low-latency online features. For
+[machine learning system design]({{ '/wiki/machine-learning-system-design/' | relative_url }}),
 the useful question isn't whether all data should stream. It's which features
-can be precomputed and which request-time signals must be handled live. The
-team also has to validate both paths. That connects streaming to
-[MLOps]({{ '/wiki/mlops/' | relative_url }}),
+can be precomputed and which request-time signals must be handled live. Teams
+then validate both paths through [MLOps]({{ '/wiki/mlops/' | relative_url }}),
 [model monitoring]({{ '/wiki/model-monitoring/' | relative_url }}), and
 [machine learning infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }}).
 
-## Search, Freshness, and Ranking Signals
+## Search Freshness and Ranking Signals
 
-Search systems consume streaming ideas when relevance depends on fresh events
-or recent inventory. Current user behavior and changing ranking signals can
-create the same need.
+Search systems use streaming ideas when relevance depends on fresh events and
+recent inventory. Current user behavior or changing ranking signals can create
+the same need.
 
 [Daniel Svonava]({{ '/people/danielsvonava/' | relative_url }}) frames search
 as a production decision problem in
@@ -246,51 +212,50 @@ adds normalization and query-time weights.
 [Atita Arora]({{ '/people/atitaarora/' | relative_url }}) connects modern
 search to personalization and learning-to-rank in
 [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
-around 23:00-30:38. She also connects search to vector databases and RAG.
-Those systems may not require a streaming framework for every update, but they
-often need reliable ingestion, freshness guarantees, and reindexing processes.
+around 23:00-30:38. She also connects search to vector databases and RAG. Those
+systems may not need a streaming framework for every update, but they often
+need reliable ingestion, freshness guarantees, and reindexing paths.
 
-This is where [search]({{ '/wiki/search/' | relative_url }}) overlaps with
-streaming. A search index, vector store, or recommendation candidate store is a
-consumer of product events. The design has to define how fresh results need to
-be and what happens when an event arrives late. It also has to define how
-embeddings or ranking features are recomputed, then how teams evaluate
-relevance after changes.
+A search index, vector store, or recommendation candidate store is a consumer
+of product events. The design has to define how fresh results need to be and
+what happens when an event arrives late. It also has to define how embeddings or
+ranking features are recomputed, then how teams evaluate relevance after
+changes. Use
+[search]({{ '/wiki/search/' | relative_url }}) for the retrieval-specific
+side of that design.
 
-## Operations and Reliability
+## Reliability and Operations
 
 Streaming systems fail differently from scheduled jobs. A batch job can be
 late, missing, or wrong for a fixed window. A stream can lag, duplicate
-messages, process events out of order, or keep running while silently changing
-a metric. Albertsson's
+messages, handle events out of order, or keep running while silently changing a
+metric. Albertsson's
 [DataOps 101]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }})
 discussion is useful because it names the recovery advantage of explicit batch
 windows.
 
 The streaming version of [DataOps]({{ '/wiki/dataops/' | relative_url }}) needs
 lag monitoring and replay strategy. It also needs schema compatibility checks,
-consumer error alerts, and runbooks.
-
-OUAZZA supplies the schema side in
+consumer error alerts, and runbooks. OUAZZA supplies the schema side in
 [Scaling Data Engineering Teams]({{ '/podcasts/scaling-data-engineering-teams-self-service-platforms/' | relative_url }}).
+
 Ramirez adds the production ML side in
 [Data Engineering for Fraud Prevention]({{ '/podcasts/building-and-scaling-data-engineering-systems-for-fraud-detection/' | relative_url }}).
 Around 40:50-48:21, she discusses monitoring and runbooks. She also covers
-schema changes and upstream data problems. Pienaar adds feature
-validation and monitoring in
-[Feature Stores for MLOps]({{ '/podcasts/mlops-feature-stores-feature-stores-feast-tecton/' | relative_url }})
-around 47:30.
+schema changes and upstream data problems. Pienaar adds feature validation and
+monitoring around 47:30 in
+[Feature Stores for MLOps]({{ '/podcasts/mlops-feature-stores-feature-stores-feast-tecton/' | relative_url }}).
 
 The more consumers depend on a stream, the more the stream needs production
-ownership. That means freshness checks, schema checks, and volume checks. It
-also means replay procedures and a way to tell downstream teams when the event
-rules change.
+ownership. Freshness checks, schema checks, and volume checks become part of
+the platform rules. Replay procedures and communication about event-rule
+changes do too.
 
-## Project and Architecture Signals
+## Design Signals
 
 A credible streaming design names the latency requirement before naming the
 tool. Kretz's pipeline anatomy gives the basic structure. Name the producer and
-broker first. Then name the processor, storage, and output
+broker first. Then name the transformation job, storage, and output
 ([From Notebooks to Production]({{ '/podcasts/production-ml-pipelines-with-aws-and-kafka/' | relative_url }}),
 13:25-17:33). Albertsson's comparison then asks whether streaming is truly
 needed or whether a short batch window would be easier to rerun
@@ -306,22 +271,5 @@ The strongest designs explain:
 - checks for lag, freshness, volume, errors, and downstream quality
 - why batch, micro-batch, or CDC alone wouldn't meet the requirement
 
-Those signals keep streaming grounded in the same tradeoffs the podcast guests
-discuss. The design has to explain speed, correctness, recoverability,
-and ownership. It also has to explain product value.
-
-## Related Pages
-
-Use these pages for adjacent latency and platform details, plus data quality,
-ML, and search.
-
-- [Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }})
-- [Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }})
-- [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
-- [CDC]({{ '/wiki/cdc/' | relative_url }})
-- [DataOps]({{ '/wiki/dataops/' | relative_url }})
-- [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
-- [Data Products]({{ '/wiki/data-products/' | relative_url }})
-- [MLOps]({{ '/wiki/mlops/' | relative_url }})
-- [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
-- [Search]({{ '/wiki/search/' | relative_url }})
+Those signals keep streaming grounded in speed and correctness. They also keep
+it grounded in recoverability, ownership, and product value.
