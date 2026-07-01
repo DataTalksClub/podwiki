@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Data Engineering Platforms"
-summary: "How the DataTalks.Club podcast archive defines data engineering platforms: shared ingestion, storage, orchestration, modeling, governance, self-service, reliability, adoption, and cost control."
+summary: "How DataTalks.Club guests define data engineering platforms: shared ingestion, storage, orchestration, modeling, governance, self-service, reliability, adoption, and cost control."
 related:
   - Data Engineering
   - DataOps Platforms
@@ -15,8 +15,8 @@ related:
 
 Data engineering platforms are the shared systems and team practices that move
 data from source systems into reliable analytical uses. They also support
-machine learning and operational workflows. In the DataTalks.Club archive, the
-platform is broader than a warehouse or scheduler. It combines ingestion,
+machine learning and operational workflows. DataTalks.Club guests describe the
+platform as broader than a warehouse or scheduler. It combines ingestion,
 storage, compute, and workflow coordination. Access, monitoring, governance,
 and support practices belong there too.
 
@@ -41,7 +41,7 @@ for the enablement subset.
 
 ## Common Definition
 
-Across the archive, a data engineering platform is a reusable foundation for
+Across these episodes, a data engineering platform is a reusable foundation for
 producing and consuming data. [Lars Albertsson]({{ '/people/larsalbertsson/' | relative_url }})
 breaks the foundation into storage and compute. Workflow engines are part of
 that foundation too. He connects
@@ -57,7 +57,7 @@ evolution and reverse flows appear there too
 ([ETL vs ELT and Modern Data Engineering]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
 3:46-49:32).
 
-The archive also treats the platform as an organizational product. [Mehdi
+Guests also treat the platform as an organizational product. [Mehdi
 OUAZZA]({{ '/people/mehdiouazza/' | relative_url }}) frames the data platform
 role as enablement for self-service and onboarding. He connects that platform
 role to scalability during hypergrowth.
@@ -74,7 +74,7 @@ trusted and discoverable. It must also be interpretable and tied to decisions
 ([Last-Mile Data Delivery]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }}),
 8:48-34:00).
 
-The archive converges on a practical definition. A data engineering platform is
+Those examples support a practical definition. A data engineering platform is
 the shared technical and social layer that lets teams ingest and store data.
 It also gives them ways to transform, govern, observe, and use that data. The
 topic sits between [Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }}),
@@ -212,7 +212,7 @@ when the main question is whether people use the platform output.
 
 ## Reliability, Observability, and DataOps
 
-The archive treats reliability as a platform responsibility because many data
+Guests treat reliability as a platform responsibility because many data
 failures are silent. [Barr Moses]({{ '/people/barrmoses/' | relative_url }})
 distinguishes data observability from application monitoring and names the
 signals a data platform should expose. Those signals include freshness, volume,
@@ -260,9 +260,9 @@ than a maturity ladder
 ([DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}),
 41:53-45:11).
 
-The newer archive repeats that warning. [Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }})
-places streaming beside micro-batching and Kafka, and he also names SQS with
-Flink for specific requirements
+[Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) repeats that
+warning in a newer episode. He places streaming beside micro-batching and
+Kafka, and he also names SQS with Flink for specific requirements
 ([Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}),
 51:19). [Slawomir Tulski]({{ '/people/slawomirtulski/' | relative_url }})
 explicitly warns against the real-time myth and against over-engineered modern
@@ -289,16 +289,18 @@ Reservations and cloud cost modeling complete the FinOps view, while standard
 reporting and accountability matter too. That makes cost part of platform
 ownership alongside reliability and governance.
 
-[Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) and [Slawomir
-Tulski]({{ '/people/slawomirtulski/' | relative_url }}) both argue for
-requirements-led architecture. Iceberg and DuckDB can be right in context.
-Cloud warehouses, Kafka, and Spark can be right too. GitHub Actions and
-catalogs belong in the decision. The archive warns against adopting a large
-platform because the tooling is popular
-([Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}),
-27:40-44:42 and
+[Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) argues for
+requirements-led architecture in
+[Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}),
+27:40-44:42. [Slawomir Tulski]({{ '/people/slawomirtulski/' | relative_url }})
+makes the same point in
 [Data Engineer Career in 2026]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }}),
-25:33-38:01).
+25:33-38:01.
+
+Iceberg and DuckDB can be right in context, and cloud warehouses can be right
+too. Kafka and Spark can also be right when the requirements call for them.
+GitHub Actions and catalogs belong in the decision. Adrian and Slawomir warn
+against adopting a large platform because the tooling is popular.
 
 Use [DuckDB]({{ '/wiki/duckdb/' | relative_url }}),
 [Apache Iceberg]({{ '/wiki/apache-iceberg/' | relative_url }}), and

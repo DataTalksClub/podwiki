@@ -17,8 +17,8 @@ related:
 ---
 
 Analytics engineering builds reliable analytical data models and transformations,
-then adds tests, documentation, and semantic interfaces. In the DataTalks.Club
-archive, it sits between
+then adds tests, documentation, and semantic interfaces. In DataTalks.Club
+episodes, it sits between
 [data engineering platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
 and analytics. Data engineers make data available as a platform. Analytics
 engineers turn that data into reusable business definitions and decision-ready
@@ -36,10 +36,10 @@ software engineering discipline.
 
 ## Common Definition
 
-Across the archive, analytics engineering means owning the modeled analytical
-layer between raw data and users. The common output isn't a one-off query. It's
-a maintained model with clear grain, tested assumptions, documented definitions,
-and a path into BI or operational use.
+DataTalks.Club guests generally use analytics engineering to mean owning the
+modeled analytical layer between raw data and users. The common output isn't a
+one-off query. It's a maintained model with clear grain, tested assumptions,
+documented definitions, and a path into BI or operational use.
 
 Perez Mola places data modeling and dbt tests at the center of the role. She
 also connects the job to Looker, Snowflake, and collaboration. Perafan describes
@@ -47,9 +47,9 @@ the craft as converting messy business reality into safe data systems
 ([Perez Mola]({{ '/podcasts/analytics-engineer-skills-tools/' | relative_url }}),
 [Perafan]({{ '/podcasts/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices/' | relative_url }})).
 
-The archive also agrees that analytics engineering is a response to a team
-bottleneck. Analysts and data scientists need trusted definitions but often lose
-time rebuilding joins and reconciling dashboards. Data engineers may own
+The podcast discussions also frame analytics engineering as a response to a
+team bottleneck. Analysts and data scientists need trusted definitions but often
+lose time rebuilding joins and reconciling dashboards. Data engineers may own
 ingestion, orchestration, cloud infrastructure, and platform reliability.
 Analytics engineers occupy the middle. They use engineering practices to make
 business-facing data reusable
@@ -80,7 +80,7 @@ less useful when it creates a rigid job boundary
 ([Analytics Engineer Skills and Tools]({{ '/podcasts/analytics-engineer-skills-tools/' | relative_url }}),
 [Foundations of the Analytics Engineer Role]({{ '/podcasts/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices/' | relative_url }})).
 
-Guests also differ on tool centrality. dbt is the archive's clearest symbol of
+Guests also differ on tool centrality. dbt is the clearest recurring symbol of
 analytics engineering because it made SQL transformations visible as a DAG. It
 also made them versioned and testable.
 [Nikola Maksimovic]({{ '/people/nikolamaksimovic/' | relative_url }}) adds
@@ -134,12 +134,11 @@ questions, and metrics into modeled tables
 
 ## Role Responsibilities
 
-The archive's practical job description starts with the modeled analytical
-layer. Perez Mola describes building tables or views, maintaining pipelines,
-checking data quality, and supporting Looker users as day-to-day analytics
-engineering work. That responsibility matters because analysts and data
-scientists need stable inputs for dashboards, experiments, forecasts, and
-decision support
+Perez Mola's practical job description starts with the modeled analytical
+layer. She describes building tables or views, maintaining pipelines, checking
+data quality, and supporting Looker users as day-to-day analytics engineering
+work. That responsibility matters because analysts and data scientists need
+stable inputs for dashboards, experiments, forecasts, and decision support
 ([Analytics Engineer Skills and Tools at 4:05-10:04]({{ '/podcasts/analytics-engineer-skills-tools/' | relative_url }})).
 
 The output is stronger than a dashboard. It's a governed model with clear
@@ -226,7 +225,7 @@ activation definitions. Retention and
 experiment exposure definitions often follow.
 
 [Arpit Choudhury]({{ '/people/arpitchoudhury/' | relative_url }}) gives the
-archive's clearest product-data version. A tracking plan records events,
+clearest product-data version. A tracking plan records events,
 properties, types, and owners before instrumentation. Without that plan,
 product analytics inherits inconsistent semantics. So do growth reporting and
 downstream activation
@@ -263,7 +262,7 @@ product analytics, and experiment support came with that migration
 ([Perez Mola at 6:49-11:48 and 30:06-31:09]({{ '/podcasts/analytics-engineer-skills-tools/' | relative_url }}),
 [Maksimovic at 18:34-33:46]({{ '/podcasts/from-marketing-to-analytics-engineering-sql-dbt-career-switch/' | relative_url }})).
 
-The archive doesn't reduce the discipline to dbt. Kwong situates dbt after
+The podcast discussions don't reduce the discipline to dbt. Kwong situates dbt after
 ingestion and storage, alongside Airbyte and warehouses. Orchestration, CDC, and
 schema evolution remain part of the same stack.
 
@@ -316,7 +315,7 @@ environments
 
 ## Business Context and Career Paths
 
-The archive treats business context as an advantage, not a distraction.
+Guests treat business context as an advantage, not a distraction.
 Maksimovic's path from marketing into analytics engineering worked because
 marketing funnels and stakeholder questions gave the technical work a target.
 User journeys and performance feedback loops mattered too.
@@ -340,11 +339,11 @@ or cloud specialization. Streaming and ML platforms are later paths
 [Career Transitions in Data]({{ '/wiki/career-transitions-in-data/' | relative_url }}),
 [Analytics Engineering Roadmap]({{ '/wiki/analytics-engineering-roadmap/' | relative_url }})).
 
-For a learning sequence, the archive puts SQL before tool collecting. A
-candidate should be able to explain table grain and model one source-to-mart
-path. They should add tests and documentation, then expose the model through
-BI. After that, the harder work is handling source changes, metric disputes,
-and event definition disputes.
+For a learning sequence, Perez Mola and Perafan put SQL before tool collecting.
+A candidate should be able to explain table grain and model one source-to-mart
+path. They should add tests and documentation, then expose the model through BI.
+After that, the harder work is handling source changes, metric disputes, and
+event definition disputes.
 
 Python helps with APIs, orchestration, testing, and glue code. The
 analytics-engineering path remains SQL-first in the podcast evidence
@@ -384,10 +383,9 @@ layers, tests, and failure modes. The dashboard or activation surface matters
 too.
 
 For product data projects, include a tracking plan. Show how the same modeled
-event data can support BI or reverse ETL. The podcast archive doesn't
-present the analytics engineer as a tool
-collector. It presents the role as making analytical data safe enough for use
-in decisions and workflows.
+event data can support BI or reverse ETL. These podcast discussions don't
+present the analytics engineer as a tool collector. They present the role as
+making analytical data safe enough for use in decisions and workflows.
 ([Data-Led Growth Stack at 13:34-20:47 and 28:52-37:25]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }}),
 [Dashboard and Metric Layer Project Checklist]({{ '/wiki/dashboard-and-metric-layer-project-checklist/' | relative_url }})).
 

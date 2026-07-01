@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Machine Learning"
-summary: "How the DataTalks.Club podcast archive frames machine learning as applied modeling, evaluation, production design, monitoring, tools, roles, and business tradeoffs."
+summary: "How DataTalks.Club podcast discussions frame machine learning as applied modeling, evaluation, production design, monitoring, tools, roles, and business tradeoffs."
 related:
   - Data Science
   - Machine Learning System Design
@@ -16,10 +16,10 @@ related:
   - AI
 ---
 
-Machine learning is the archive's foundation for systems that learn from data.
+Machine learning is the foundation for systems that learn from data.
 They produce predictions, classifications, rankings, and recommendations. They
-can also support product decisions. The DataTalks.Club archive treats ML as
-more than model choice.
+can also support product decisions. DataTalks.Club guests treat ML as more
+than model choice.
 
 Problem framing and data availability come first, while features and labels
 also belong in the same concept. Evaluation, deployment, monitoring, and
@@ -43,11 +43,11 @@ for LLM applications, RAG, and agents.
 
 ## Common Definition
 
-Across the archive, machine learning means applied modeling in service of a
+Across these episodes, machine learning means applied modeling in service of a
 decision or product behavior. In
-[Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }}),
-[Alexey Grigorev]({{ '/people/alexeygrigorev/' | relative_url }}) separates
-data science, data engineering, and ML engineering work. Around 17:04, the
+[Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }})
+with [the DataTalks.Club host]({{ '/people/alexeygrigorev/' | relative_url }}), the
+discussion separates data science, data engineering, and ML engineering work. Around 17:04, the
 machine learning engineer appears as the role that helps turn models into
 services and production systems. Around 24:55, the episode ties prediction
 quality to a shared product goal rather than to an isolated notebook metric.
@@ -70,8 +70,7 @@ diagrams.
 
 ## Guest Differences
 
-The archive asks more than whether ML is useful because operating cost matters
-too. In
+Guests ask more than whether ML is useful because operating cost matters too. In
 [Practical Machine Learning Engineering for Production]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }}),
 [Ben Wilson]({{ '/people/benwilson/' | relative_url }}) argues for simple
 baselines, maintainable code, and timeboxed proof points before teams invest in
@@ -80,9 +79,10 @@ complex systems. Valerii makes the same boundary an interview skill in
 Candidates should know when a rule or heuristic is better than ML. An existing
 product flow may also be enough.
 
-Guests also differ by organizational lens. Alexey's
+Guests also differ by organizational lens.
 [Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }})
-places ML inside a broader data team. That team includes product managers and
+with [the DataTalks.Club host]({{ '/people/alexeygrigorev/' | relative_url }}) places
+ML inside a broader data team. That team includes product managers and
 analysts. It also includes data scientists, data engineers, and ML engineers.
 
 In
@@ -100,7 +100,7 @@ cost savings. He also asks whether it improves adoption or decision quality.
 
 ## Problem Framing and Baselines
 
-The archive starts ML with the decision instead of the model. In
+DataTalks.Club guests start ML with the decision instead of the model. In
 [CRISP-DM Methodology for Data Science Projects]({{ '/podcasts/crisp-dm/' | relative_url }}),
 the project loop begins with business understanding. It asks whether the
 problem is important and measurable. It also asks whether the work connects to
@@ -112,7 +112,7 @@ Arseny turns the same habit into design-document practice. Around 20:21 and
 29:01, the team defines product scenarios and goals. It also names non-goals
 and assumptions. Metrics and constraints come before implementation.
 
-Baselines are the archive's antidote to model-first thinking. In
+Baselines are the recurring antidote to model-first thinking. In
 [Practical Machine Learning Engineering for Production]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }}),
 the baseline may be SQL or statistics. It can also be an expert rule or a rapid
 prototype. That baseline lets stakeholders judge whether the project deserves
@@ -131,7 +131,7 @@ draws the first boundary. Data engineers make data usable. Data scientists
 frame and evaluate predictive work while ML engineers bring models into
 software systems.
 
-That's why the archive treats the
+That's why these episodes treat the
 [Machine Learning Engineer Role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }})
 as a production-facing extension of ML rather than as a renamed data scientist.
 
@@ -179,7 +179,7 @@ Production validation and human labels are part of the same discussion. Around
 Around 57:23, production validation brings A/B tests, causality, and human
 labels into the same evaluation story.
 
-The broader archive treats
+The broader podcast discussion treats
 [evaluation]({{ '/wiki/evaluation/' | relative_url }}) as a bridge between
 modeling and product impact. In
 [From Analytics to Production ML]({{ '/podcasts/production-ml-mlops-and-data-team-building/' | relative_url }}),
@@ -249,7 +249,7 @@ inputs and predictions, labels, business outcomes, and incident response.
 
 ## Tools and Platforms
 
-The archive doesn't treat ML tools as a ranked shopping list. Tools matter when
+Podcast guests don't treat ML tools as a ranked shopping list. Tools matter when
 they support a workflow. The workflow may involve exploration,
 reproducibility, or feature computation. It may also involve serving,
 monitoring, governance, or collaboration. The
@@ -278,7 +278,7 @@ Trust in ML is partly technical and partly organizational. In
 interpretability as a way to debug models and understand feature effects. The
 episode also shows how teams communicate uncertainty and choose between
 transparent models and post-hoc explanations. SHAP and conformal prediction
-give the archive concrete methods for explaining predictions and expressing
+give these podcast discussions concrete methods for explaining predictions and expressing
 calibrated uncertainty.
 
 Governance extends that trust work beyond a single explanation. In

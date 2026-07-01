@@ -15,11 +15,11 @@ related:
 
 Software engineering turns code into systems that other people can understand
 and trust. It also makes those systems easier to change and run. In the
-DataTalks.Club archive, the topic usually appears when data, ML, or AI work has
-to move beyond a notebook or one-person script.
+DataTalks.Club podcast discussions, the topic usually appears when data, ML, or
+AI work has to move beyond a notebook or one-person script.
 
-The archive doesn't treat software engineering as a separate craft that data
-teams borrow occasionally. It treats it as part of the work. Data pipelines need
+Guests don't treat software engineering as a separate craft that data teams
+borrow occasionally. They treat it as part of the work. Data pipelines need
 version control, tests, deployment paths, and monitoring. ML systems need
 interfaces, model artifacts, reproducible experiments, and release ownership.
 AI products need prompt evaluation, data quality checks, latency controls, and
@@ -39,10 +39,10 @@ For operating practices after release, use
 
 ## Common Definition
 
-Across the podcast archive, software engineering means repeatable engineering
-habits around a changing system. Teams define requirements and structure code
-into modules. They use version control, tests, documentation, and deployment.
-They also need observability and clear ownership.
+Across these podcast discussions, software engineering means repeatable
+engineering habits around a changing system. Teams define requirements and
+structure code into modules. They use version control, tests, documentation,
+and deployment. They also need observability and clear ownership.
 
 In data and ML work, code changes alongside data and model behavior. Prompts,
 business metrics, and users also change.
@@ -110,8 +110,8 @@ notebooks in production AI systems.
 
 Data systems turn software engineering into repeatable change management. A
 pipeline may run as scheduled and still produce data that's late, incomplete, or
-wrong. That's why the archive connects data engineering to tests,
-observability, deployment automation, and recovery.
+wrong. That's why guests connect data engineering to tests, observability,
+deployment automation, and recovery.
 
 [Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }}) frames
 [DataOps]({{ '/wiki/dataops/' | relative_url }}) as a way to reduce fear-driven
@@ -187,8 +187,8 @@ application engineering rather than only model selection.
 ## Production Readiness
 
 A system is production-ready when a team can release it, observe it, explain
-it, and recover from failure. The archive repeatedly pushes against the idea
-that production means only "deployed somewhere."
+it, and recover from failure. Guests repeatedly push against the idea that
+production means only "deployed somewhere."
 
 [Ben Wilson]({{ '/people/benwilson/' | relative_url }}) warns against building
 systems that nobody can maintain in
@@ -208,7 +208,7 @@ constraints. For the broader operating model, see
 
 ## Testing
 
-Testing in this archive covers more than unit tests. Teams test code paths and
+Guests cover more than unit tests in these episodes. Teams test code paths and
 pipeline outputs, plus data assumptions and model behavior. They also test
 prompt outputs and release configuration. Test data has to reflect production
 risks.
@@ -265,8 +265,8 @@ this handoff, see
 ## Maintainability
 
 Maintainability means a team can change the system without relearning the whole
-project from scratch. The archive connects that to simple designs, modular
-code, and documentation. Teams also need shared vocabulary and explicit
+project from scratch. Guests connect that to simple designs, modular code, and
+documentation. Teams also need shared vocabulary and explicit
 ownership.
 
 [Ben Wilson]({{ '/people/benwilson/' | relative_url }}) is the strongest
@@ -297,7 +297,7 @@ library.
 
 ## Related Pages
 
-Software engineering links several archive areas:
+Use these DataTalks.Club topic areas with software engineering:
 
 - [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
   covers model, data, serving, and reliability choices before implementation.

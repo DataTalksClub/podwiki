@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Embeddings"
-summary: "How the podcast archive explains embeddings as representations for semantic search, RAG, recommendations, multimodal retrieval, and language systems."
+summary: "How DataTalks.Club guests explain embeddings as representations for semantic search, RAG, recommendations, multimodal retrieval, and language systems."
 related:
   - Search, RAG, and Knowledge Systems
   - Vector Databases
@@ -14,20 +14,20 @@ Embeddings are numerical representations of text and images, users and products,
 or other objects. They let a system compare meaning or behavior by distance in a
 shared vector space instead of comparing only exact words or hand-written rules.
 
-In the DataTalks.Club archive, embeddings often sit behind
+DataTalks.Club guests often place embeddings behind
 [search]({{ '/wiki/search/' | relative_url }}),
 [vector databases]({{ '/wiki/vector-databases/' | relative_url }}), and
 [retrieval-augmented generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}).
 They also support recommendation systems, multimodal retrieval,
 weak-supervision workflows, and production
 [ML systems]({{ '/wiki/machine-learning-system-design/' | relative_url }}).
-They aren't the whole product. The archive separates embedding generation from
+They aren't the whole product. Guests separate embedding generation from
 storage, ranking, evaluation, and business logic.
 
 ## Common Definition
 
-The strongest archive episodes use embeddings as learned representations for
-search and retrieval.
+Reem, Atita, and Meryem use embeddings as learned representations for search
+and retrieval.
 
 In
 [Production ML Search]({{ '/podcasts/production-ml-search-vector-search-embeddings-hybrid-search/' | relative_url }}),
@@ -117,14 +117,14 @@ freshness, popularity, and business rules.
 Atita makes the architecture choice explicit in
 [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}).
 At 17:01 and 20:27, she compares plug-and-play vector search with vector
-support inside existing search systems. That comparison supports a recurring
-archive claim. Teams should choose embeddings, vector storage, and search
-application behavior separately.
+support inside existing search systems. She uses that comparison to support a
+recurring point in these discussions. Teams should choose embeddings, vector
+storage, and search application behavior separately.
 
 ## RAG and Knowledge Systems
 
-In RAG, embeddings retrieve context for a language model. The archive treats
-RAG as a search problem with generation attached. It isn't only an LLM feature.
+In RAG, embeddings retrieve context for a language model. Guests treat RAG as a
+search problem with generation attached. It isn't only an LLM feature.
 
 Atita's transcript-chatbot example in
 [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
@@ -150,7 +150,7 @@ the chunks preserve the information the answer needs.
 
 ## Recommendations and Multimodal Systems
 
-The archive doesn't limit embeddings to text. In
+Guests don't limit embeddings to text. In
 [Production ML Search]({{ '/podcasts/production-ml-search-vector-search-embeddings-hybrid-search/' | relative_url }}),
 Reem discusses multimodal embeddings at 33:13, including image-text matching
 and CLIP-style representations. At 38:50, she expands the vector beyond raw
@@ -166,7 +166,7 @@ goals decide what users actually see.
 
 ## NLP Tooling and Labeling
 
-Embeddings also appear in the archive as infrastructure for training-data work.
+Guests also discuss embeddings as infrastructure for training-data work.
 In
 [Build Open-Source NLP Tools]({{ '/podcasts/building-open-source-nlp-tool/' | relative_url }}),
 Johannes describes weak supervision and labeling workflows before connecting

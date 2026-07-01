@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Data Scientist Role"
-summary: "Archive-backed definition of the data scientist role: product questions, modeling, experimentation, ambiguity, role boundaries, and supporting episodes."
+summary: "Podcast-grounded definition of the data scientist role: product questions, modeling, experimentation, ambiguity, role boundaries, and supporting episodes."
 related:
   - Data Science
   - Machine Learning
@@ -14,15 +14,15 @@ related:
 ---
 
 A data scientist turns a business, product, or operational question into
-evidence that can change a decision. In the DataTalks.Club archive, that
-evidence may be an analysis or forecast. It may also be an experiment,
+evidence that can change a decision. In DataTalks.Club podcast discussions,
+that evidence may be an analysis or forecast. It may also be an experiment,
 recommendation system, model, or product feature. The role sits between
 [data science]({{ '/wiki/data-science/' | relative_url }}),
 [machine learning]({{ '/wiki/machine-learning/' | relative_url }}),
 [product analytics]({{ '/wiki/product-analytics/' | relative_url }}), and
 [data engineering]({{ '/wiki/data-engineering/' | relative_url }}).
 
-The simplest archive definition comes from
+The simplest podcast definition comes from
 [Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }}).
 In the 11:17 section, the episode separates analysts from data scientists:
 analysts explain what happened, while data scientists predict and help integrate
@@ -32,9 +32,9 @@ evaluation, and product use.
 
 ## Common Definition
 
-Across the archive, the common definition is practical: a data scientist owns
-the reasoning path from problem framing to evidence. The work often begins with
-SQL, data exploration, and feature discovery. It then moves into statistics,
+Guests converge on a practical definition: a data scientist owns the reasoning
+path from problem framing to evidence. The work often begins with SQL, data
+exploration, and feature discovery. It then moves into statistics,
 [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), or
 experimentation when those methods are needed.
 
@@ -62,8 +62,8 @@ Metric design, A/A tests, and power analysis make that evidence usable.
 ## Role Variations
 
 Guests differ mostly on how much engineering and product ownership the title
-should imply. They also differ on the expected statistical depth. The archive
-doesn't treat "data scientist" as a stable job title.
+should imply. They also differ on the expected statistical depth. Guests don't
+treat "data scientist" as a stable job title.
 
 [Tereza Iofciu]({{ '/people/terezaiofciu/' | relative_url }})
 makes role ambiguity the central warning in
@@ -89,7 +89,7 @@ At 37:49 and 43:08, he pushes candidates toward distinctive portfolio projects
 and cross-disciplinary domain expertise instead of interchangeable Kaggle-style
 work.
 
-The archive also separates solo, lead, and transition versions of the role.
+Guests also separate solo, lead, and transition versions of the role.
 [Marianna Diachuk]({{ '/people/mariannadiachuk/' | relative_url }})
 frames the solo data scientist as a mid-senior owner who has to discover
 business problems and check data readiness. She also has to prioritize by
@@ -162,8 +162,8 @@ describes recruiter screening around experience, education, and actual
 responsibilities at 21:32. At 32:40, she warns that buzzwords are weaker than
 clear examples.
 
-Python and practical modeling matter, but the archive values judgment over tool
-lists. A strong data scientist can build a baseline and choose a model. They can
+Python and practical modeling matter, but guests value judgment over tool lists.
+A strong data scientist can build a baseline and choose a model. They can
 evaluate errors and explain why the result matters. Oleg's interview episode
 tests this through business case studies, ML fundamentals, SQL, and coding.
 Marijn's career episode adds the missing piece: domain knowledge can be an
@@ -193,8 +193,8 @@ docs, decision logs, rationales, and clearer READMEs. That links the role to
 [communication]({{ '/wiki/communication/' | relative_url }}), especially when a
 project needs stakeholder buy-in or later handoff.
 
-For career switchers, the archive treats the skill set as a gap-finding problem
-rather than a fixed checklist. In
+For career switchers, guests treat the skill set as a gap-finding problem rather
+than a fixed checklist. In
 [From Project Manager to Data Scientist]({{ '/podcasts/project-manager-to-data-scientist/' | relative_url }}),
 [Ksenia Legostay]({{ '/people/ksenialegostay/' | relative_url }})
 starts from analytics, business KPIs, and planning. She also brings stakeholder

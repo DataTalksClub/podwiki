@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Generative AI"
-summary: "How the podcast archive covers generative AI as applied language, chatbot, agent, coding, and content-generation systems."
+summary: "How DataTalks.Club guests cover generative AI as applied language, chatbot, agent, coding, and content-generation systems."
 related:
   - LLMs
   - LLM Production Patterns
@@ -15,9 +15,9 @@ related:
 
 Generative AI covers systems that produce new outputs from prompts and context.
 Those outputs can be text, code, images, or structured data. They can also be
-summaries, translations, recommendations, or actions. In the DataTalks.Club
-archive, the term mostly appears through [LLMs]({{ '/wiki/llms/' | relative_url }})
-and chatbots. It also appears through
+summaries, translations, recommendations, or actions. DataTalks.Club guests
+mostly discuss the term through [LLMs]({{ '/wiki/llms/' | relative_url }}) and
+chatbots. It also appears through
 [retrieval-augmented generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}),
 coding assistants, workflow automation, and
 [AI agents]({{ '/wiki/ai-agents/' | relative_url }}).
@@ -33,7 +33,7 @@ deterministic software better.
 
 ## Common Definition
 
-The archive's practical definition is narrower than the market term. Guests
+Guests use a practical definition that's narrower than the market term. They
 usually treat generative AI as a product or engineering capability. The system
 uses a model to generate an output. Teams then add retrieval and tooling. They
 also add validation, monitoring, and human review.
@@ -96,7 +96,7 @@ but the surrounding agent design decides how far the system can go.
 
 ## Product Uses
 
-Generative AI works best in the archive when the product gives the model a
+In these episodes, generative AI works best when the product gives the model a
 bounded job and a reviewable output.
 
 Bartosz describes augmented generation and review analysis at 21:46 in
@@ -126,7 +126,7 @@ inconsistent.
 
 ## RAG and Grounding
 
-The archive treats
+Guests treat
 [retrieval-augmented generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
 as the default answer when the model needs changing or private knowledge.
 
@@ -181,7 +181,7 @@ surface.
 
 Maria's
 [Hardening Generative AI Chatbots]({{ '/podcasts/generative-ai-chatbots-in-production-security/' | relative_url }})
-episode is the archive's main reference for this. At 16:15, she recommends
+episode is the main DataTalks.Club reference for this. At 16:15, she recommends
 layered defenses such as output validation and query analysis. At 17:00, she
 uses non-LLM classifiers as a more robust option for some safety checks.
 At 18:01, she connects hallucinations to user trust and adoption risk. At
@@ -190,9 +190,9 @@ rather than a final authority.
 
 This is where generative AI overlaps with
 [Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }}).
-The archive's repeated guidance isn't "add a chatbot and trust it." Teams
-define the task and narrow the permissions. They validate the output, keep
-humans in the right places, and monitor how the system behaves.
+Guests repeatedly warn against "add a chatbot and trust it." Teams define the
+task and narrow the permissions. They validate the output, keep humans in the
+right places, and monitor how the system behaves.
 
 ## Evaluation
 
@@ -222,8 +222,8 @@ agent evaluation.
 
 ## Tools and Agent Workflows
 
-Generative AI tooling in the archive spans IDE assistants, browser extensions,
-Slack assistants, and email assistants. It also includes search tools and agent
+Guests discuss generative AI tooling across IDE assistants, browser extensions,
+Slack assistants, and email assistants. They also cover search tools and agent
 frameworks.
 
 Bartosz discusses coding assistants in

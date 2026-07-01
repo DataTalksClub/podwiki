@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Data Science"
-summary: "How the DataTalks.Club podcast archive frames data science: product-facing modeling, analysis, experimentation, hiring signals, role ambiguity, and the boundary with ML, data engineering, and AI engineering."
+summary: "How DataTalks.Club podcast discussions frame data science: product-facing modeling, analysis, experimentation, hiring signals, role ambiguity, and the boundary with ML, data engineering, and AI engineering."
 related:
   - Data Scientist Role
   - Data Science Careers
@@ -15,16 +15,16 @@ related:
 ---
 
 Data science turns business and product questions into evidence someone can
-use. It also covers operations questions. In the DataTalks.Club archive, that
-evidence may be a SQL analysis or a forecast. It may be a ranking model, an A/B
-test, or a recommender system. It may also be a model-backed service.
+use. It also covers operations questions. On DataTalks.Club, that evidence may
+be a SQL analysis or a forecast. It may be a ranking model, an A/B test, or a
+recommender system. It may also be a model-backed service.
 
 [Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }})
 sets the teaching boundary. Analysts explain what happened, and data scientists
 predict what will happen. They also help put those predictions into a product.
 
-The archive also warns that the boundary moves by company. In some companies, a
-data scientist job means product analytics or
+Several episodes also warn that the boundary moves by company. In some
+companies, a data scientist job means product analytics or
 [machine learning]({{ '/wiki/machine-learning/' | relative_url }}). In others,
 it means
 [experimentation]({{ '/wiki/experimentation-and-causal-inference/' | relative_url }}).
@@ -40,7 +40,7 @@ career paths. When evaluating a specific opening, use
 
 ## Common Definition
 
-Across the podcast archive, practitioners start data science work from a
+Across these podcast discussions, practitioners start data science work from a
 decision and end with a usable answer.
 [CRISP-DM Methodology]({{ '/podcasts/crisp-dm/' | relative_url }}) frames that
 work around business understanding and data preparation. It then moves through
@@ -86,7 +86,7 @@ and platform reliability do too. The dedicated
 page goes deeper into that overlap.
 
 [Tereza Iofciu]({{ '/people/terezaiofciu/' | relative_url }}) gives the
-archive's strongest warning about mismatched titles.
+clearest warning about mismatched titles.
 She recommends checking the team structure and objectives in
 [Data Science Job Red Flags]({{ '/podcasts/data-science-job-red-flags-and-mismatched-roles/' | relative_url }})
 at 20:06 and 23:01.
@@ -96,7 +96,7 @@ candidates tell whether the job is data science or a catch-all data role.
 
 ## Project Framing and Product Decisions
 
-The archive treats data science as a product and decision practice before
+These discussions treat data science as a product and decision practice before
 modeling. In
 [Data Science Leadership]({{ '/podcasts/data-science-leadership-hiring-mlops/' | relative_url }}),
 [Mariano Semelman]({{ '/people/marianosemelman/' | relative_url }}) describes
@@ -106,7 +106,7 @@ experiments. He also connects data science to deployment and the practical
 rules of shipping ML. At 33:36, he recommends starting simple, testing quickly,
 and learning from production use.
 
-The archive often connects analysis with decisions through experimentation. In
+The podcast often connects analysis with decisions through experimentation. In
 [Product Analytics and A/B Testing]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}),
 the 8:13 section explains A/B testing through randomized clinical-trial logic.
 The subscription-versus-points example at 14:27 shows why metric design changes
@@ -153,8 +153,8 @@ instead of treating every entrant as a new graduate.
 
 ## Engineering Awareness and Production Handoff
 
-The podcast archive doesn't require every data scientist to become a platform
-engineer, but it repeatedly values engineering awareness. In
+DataTalks.Club guests don't require every data scientist to become a platform
+engineer, but they repeatedly value engineering awareness. In
 [Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }}),
 data scientists build the model and may expose it through a simple service. In
 [Big Data Engineer vs Data Scientist]({{ '/podcasts/big-data-engineer-vs-data-scientist/' | relative_url }}),
@@ -166,7 +166,7 @@ systems and batch scoring jobs need data contracts and feature availability.
 Model APIs need monitoring and clear owners.
 
 When the question shifts from doing data science to running models, the topic
-changes. The archive routes model operations toward
+changes. These pages route model operations toward
 [MLOps]({{ '/wiki/mlops/' | relative_url }}) and data-flow reliability toward
 [DataOps]({{ '/wiki/dataops/' | relative_url }}). Use
 [MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }})

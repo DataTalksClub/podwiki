@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Scikit-Learn"
-summary: "Archive-grounded guide to scikit-learn as a practical toolkit for classic ML workflows, baselines, experimentation, interpretability, contribution, and production boundaries."
+summary: "DataTalks.Club guide to scikit-learn as a practical toolkit for classic ML workflows, baselines, experimentation, interpretability, contribution, and production boundaries."
 related:
   - Machine Learning Tools
   - Machine Learning
@@ -16,9 +16,9 @@ related:
   - MLOps
 ---
 
-Scikit-learn is the archive's default reference point for classic machine
-learning in Python. It covers tabular data and preprocessing. It also covers
-estimators, pipelines, baselines, and model inspection. It appears alongside
+DataTalks.Club guests use scikit-learn as the default reference point for
+classic machine learning in Python. It covers tabular data and preprocessing. It
+also covers estimators, pipelines, baselines, and model inspection. It appears alongside
 [Machine Learning Tools]({{ '/wiki/machine-learning-tools/' | relative_url }}),
 [Machine Learning]({{ '/wiki/machine-learning/' | relative_url }}), and
 [Data Science]({{ '/wiki/data-science/' | relative_url }}) rather than as a
@@ -38,7 +38,7 @@ serving, or product experimentation independent of a predictive model.
 
 ## Common Definition
 
-Across the archive, scikit-learn means classical ML practice in a familiar
+Across these episodes, scikit-learn means classical ML practice in a familiar
 Python interface. In
 [From Software Engineering to Machine Learning]({{ '/podcasts/from-software-engineer-to-machine-learning/' | relative_url }}),
 [Santiago Valdarrama]({{ '/people/svpino/' | relative_url }}) places it beside
@@ -92,7 +92,7 @@ team. Humans still choose which groups, harms, and tradeoffs matter.
 
 ## Classic ML Workflows and Baselines
 
-Scikit-learn is strongest in the archive when it appears inside a full modeling
+Scikit-learn is strongest in these discussions when it appears inside a full modeling
 workflow. That workflow starts with problem framing and data preparation. It
 then moves through feature work, baseline selection, evaluation, and iteration.
 
@@ -103,7 +103,7 @@ through a real exercise. Learners shouldn't memorize estimators first. They
 should see why a predictive task needs a model and what a baseline does. They
 should also see how the result behaves on held-out data.
 
-That fits the broader archive guidance in
+That fits the broader guidance in
 [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}).
 A credible project names the decision and the data. It also names the features,
 metric, and baseline.
@@ -116,7 +116,7 @@ been enough.
 
 This is also where scikit-learn connects to
 [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }}).
-The archive's production-oriented discussions repeatedly prefer a measurable
+Podcast discussions about production repeatedly prefer a measurable
 baseline before complexity. Scikit-learn fits that discipline because teams can
 compare linear models and tree models first. They can also compare
 preprocessing choices and feature variants before deciding whether a heavier
@@ -149,7 +149,7 @@ workflows.
 
 ## Interpretability and Fairness
 
-Scikit-learn appears in the archive's responsible-AI discussions as an
+Scikit-learn appears in responsible-AI discussions as an
 integration layer for inspection and fairness tools. In
 [Fairness in AI/ML Engineering]({{ '/podcasts/fairness-in-ai-ml-engineering/' | relative_url }}),
 Tamara introduces Fairlearn around 21:31 as a way to compare model performance
@@ -164,7 +164,7 @@ continue to fit scikit-learn as the library evolves. She also encourages users
 to open issues when components fail inside their pipeline.
 
 Use [Interpretability]({{ '/wiki/interpretability/' | relative_url }}) for the
-broader archive treatment of SHAP and partial dependence. It also covers
+broader DataTalks.Club treatment of SHAP and partial dependence. It also covers
 uncertainty, debugging, and stakeholder explanations. Use
 [Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }})
 when the question moves from model inspection to accountability, fairness
@@ -172,7 +172,7 @@ objectives, review process, and human oversight.
 
 ## Production Boundaries and Model Safety
 
-The archive doesn't treat scikit-learn as a complete production platform. It's a
+The podcast discussions don't treat scikit-learn as a complete production platform. It's a
 modeling library that must be connected to data pipelines and experiment
 records. It also needs deployment practices, monitoring, and governance when a model becomes
 operational. That boundary connects scikit-learn to

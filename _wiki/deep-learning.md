@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Deep Learning"
-summary: "Archive-backed guide to deep learning as the neural-network layer of applied AI, covering vision, transformers, labels, production constraints, and portfolio signals."
+summary: "Podcast-backed guide to deep learning as the neural-network layer of applied AI, covering vision, transformers, labels, production constraints, and portfolio signals."
 related:
   - Machine Learning
   - Computer Vision
@@ -16,12 +16,12 @@ related:
 
 Deep learning is the part of
 [machine learning]({{ '/wiki/machine-learning/' | relative_url }}) that uses
-neural networks to learn representations from data. In the DataTalks.Club
-archive, guests use it most often for
+neural networks to learn representations from data. In DataTalks.Club
+episodes, guests use it most often for
 [computer vision]({{ '/wiki/computer-vision/' | relative_url }}) and large
 language models. They also use it for medical imaging, remote sensing, and
 autonomous-driving perception. The topic sits inside
-[AI]({{ '/wiki/ai/' | relative_url }}), but the archive treats it as engineering
+[AI]({{ '/wiki/ai/' | relative_url }}), but guests treat it as engineering
 work rather than a magic model choice.
 
 Guests make a pragmatic case for deep learning when simpler approaches struggle
@@ -44,9 +44,9 @@ These episodes anchor the topic:
 - [AI Engineering: Skill Stack, Agents, LLMOps, and How to Ship AI Products]({{ '/podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products/' | relative_url }}) with [Paul Iusztin]({{ '/people/pauliusztin/' | relative_url }}) for large neural networks in production and the wider AI engineering skill stack.
 - [Optimize Decisions with ML]({{ '/podcasts/machine-learning-decision-optimization/' | relative_url }}) with [Dan Becker]({{ '/people/danbecker/' | relative_url }}) for the boundary between model predictions and the decision systems that consume them.
 
-## Archive Definition
+## Common Definition
 
-Across the archive, deep learning means using neural networks when a model must
+Across these episodes, deep learning means using neural networks when a model must
 learn useful features rather than rely only on hand-built columns. Tatiana's
 career-transition episode ties deep learning to computer vision work. She
 covers Python, ML and DL courses, Kaggle practice, and end-to-end pet projects.
@@ -73,7 +73,7 @@ and serving decide whether that product works.
 
 ## Neural Network Use Cases
 
-Deep learning matters most in the archive when the input is hard to summarize
+Deep learning matters most in these discussions when the input is hard to summarize
 by hand. Vision examples include guide-dog navigation, autonomous-driving
 perception, and traffic gestures. Other examples include malaria mapping from
 satellite data and green-space segmentation. Aishwarya's episode emphasizes the system side of
@@ -101,7 +101,7 @@ where the model is only one part of the shipped product.
 
 ## Simpler Baselines Still Matter
 
-The archive doesn't treat deep learning as the default answer. In
+DataTalks.Club guests don't treat deep learning as the default answer. In
 [Practical Machine Learning Engineering for Production]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }}),
 Ben Wilson argues for maintainable solutions. He explicitly places SQL or
 statistical approaches before deep learning when they solve the business
@@ -125,7 +125,7 @@ the neural model worth its added complexity.
 
 ## Data Quality and Labels
 
-Deep learning work in the archive repeatedly returns to data quality. Marysia's
+Deep learning discussions repeatedly return to data quality. Marysia's
 data-centric AI episode shifts attention from big data to good data. She
 discusses transfer learning, fine-tuning, and a fixed-ResNet data-centric
 competition. She also covers targeted relabeling with model confidence and
@@ -184,7 +184,7 @@ software delivery, evaluation, and product ownership.
 
 ## Career and Project Signals
 
-The archive's career episodes treat deep learning as something to demonstrate
+DataTalks.Club career episodes treat deep learning as something to demonstrate
 through projects, not only credentials. Tatiana recommends end-to-end computer
 vision pet projects with data collection, labeling, deployment, and Docker.
 She also discusses Kaggle, internships, mentors, and interview preparation. Her
@@ -215,7 +215,7 @@ some awareness of how the model would run after the notebook.
 Use [machine learning]({{ '/wiki/machine-learning/' | relative_url }}) for the
 broader modeling discipline and
 [computer vision]({{ '/wiki/computer-vision/' | relative_url }}) for the
-archive's strongest image and sensor examples. Use
+strongest image and sensor examples in these episodes. Use
 [generative AI]({{ '/wiki/generative-ai/' | relative_url }}) and
 [AI engineering]({{ '/wiki/ai-engineering/' | relative_url }}) for transformer
 applications, RAG, agents, and product work. Use

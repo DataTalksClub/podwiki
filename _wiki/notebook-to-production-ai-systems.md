@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Notebook to Production AI Systems"
-summary: "How the podcast archive frames the path from notebooks and experiments to end-to-end AI systems in production."
+summary: "How DataTalks.Club guests frame the path from notebooks and experiments to end-to-end AI systems in production."
 related:
   - Production
   - Machine Learning System Design
@@ -12,7 +12,7 @@ related:
 
 Notebook-to-production AI systems turn exploratory work into reliable
 user-facing behavior. The starting point may be a notebook, model experiment,
-prompt or research prototype. In the DataTalks.Club archive, this transition
+prompt or research prototype. In DataTalks.Club discussions, this transition
 isn't just deployment. It's the move from a promising experiment to a system
 with owners and evaluation. The system also needs monitoring, feedback loops,
 and a way to change safely.
@@ -27,7 +27,7 @@ useful exploration surface, but it isn't the production system.
 
 ## Common Definition
 
-Across the archive, notebook-to-production means end-to-end ownership of the
+Across these episodes, notebook-to-production means end-to-end ownership of the
 decision a model or AI application supports. In
 [From Notebook to Production]({{ '/podcasts/s24e03-from-notebook-to-production-building-end-to-end-ai-systems/' | relative_url }}),
 [Mariano Semelman]({{ '/people/marianosemelman/' | relative_url }}) frames the
@@ -119,7 +119,7 @@ streaming or batch architecture follow
 [data engineering platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}),
 and [batch versus streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }}).
 
-Ben Wilson's production engineering episode gives the archive's clearest warning
+Ben Wilson gives the clearest warning in these discussions
 against shipping notebook-shaped code. Around 6:50-13:19 in
 [Practical Machine Learning Engineering for Production]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }}),
 he connects maintainability to modular code and testable components. He also
@@ -187,7 +187,7 @@ of the production transition rather than later cleanup.
 
 ## Keep Control Where Determinism Helps
 
-The archive doesn't treat "more agentic" as the default production direction.
+Guests don't treat "more agentic" as the default production direction.
 Mariano argues in
 [From Notebook to Production]({{ '/podcasts/s24e03-from-notebook-to-production-building-end-to-end-ai-systems/' | relative_url }})
 that teams can take back control when structured code or rules are better than
@@ -208,8 +208,8 @@ The model can be powerful, but the system still needs explicit control points.
 ## Match Validation to Failure Cost
 
 The final production path depends on what happens when the system fails.
-Aishwarya's autonomous-driving discussion is the most conservative example in
-the archive. Around 29:45-32:43 in
+Among these episodes, Aishwarya gives the most conservative example. Around
+29:45-32:43 in
 [Aishwarya's production computer vision episode]({{ '/podcasts/from-computer-vision-research-to-autonomous-driving-ai/' | relative_url }}),
 she describes validation through simulation and closed tracks. Teams then move
 to on-road testing, large-scale sensor data and labeling. Safety checks plus
@@ -224,7 +224,7 @@ risk. The same is true for a generated ad description, fraud model or support
 chatbot. The path may include a baseline, shadow mode and manual review. It may
 also include a canary release, A/B test, rollback plan or monitoring alerts.
 
-The exact controls differ, but the archive's shared production rule is stable.
+The exact controls differ, but the shared production rule is stable.
 The deployment environment exposes failures the notebook can't.
 
 ## Related Pages

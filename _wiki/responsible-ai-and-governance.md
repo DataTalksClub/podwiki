@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Responsible AI and Governance"
-summary: "Archive-derived patterns for explainability, fairness, privacy, security, human oversight, and accountable AI governance."
+summary: "Podcast-grounded patterns for explainability, fairness, privacy, security, human oversight, and accountable AI governance."
 related:
   - Governance
   - Data Governance
@@ -18,15 +18,15 @@ Responsible AI is the operating discipline for making AI systems accountable.
 It covers the data they use, the decisions they influence, the risks they
 create, and the people who can approve or override them.
 
-In the DataTalks.Club archive, it's
-part of [governance]({{ '/wiki/governance/' | relative_url }}), not a separate
-ethics checklist. It connects [data governance]({{ '/wiki/data-governance/' | relative_url }}),
+DataTalks.Club guests frame responsible AI as part of
+[governance]({{ '/wiki/governance/' | relative_url }}), not a separate ethics
+checklist. It connects [data governance]({{ '/wiki/data-governance/' | relative_url }}),
 [privacy engineering for ML]({{ '/wiki/privacy-engineering-for-ml/' | relative_url }}),
 [security]({{ '/wiki/security/' | relative_url }}), and model evaluation.
 Post-launch [model monitoring]({{ '/wiki/model-monitoring/' | relative_url }})
 is part of the same work.
 
-The archive's clearest starting point is
+The clearest starting point is
 [Supreet Kaur]({{ '/people/supreetkaur/' | relative_url }}) in
 [Responsible and Explainable AI]({{ '/podcasts/responsible-explainable-ai-bias-detection/' | relative_url }}).
 She separates explainable AI from responsible AI. She then ties responsible AI
@@ -38,10 +38,10 @@ access. LLM security and agent evaluation add newer controls.
 
 ## Common Definition
 
-Across the archive, responsible AI means accountable choices across the whole AI
-lifecycle. Teams review the problem framing and data before modeling. They test
-model and product behavior before launch. They keep monitoring once the system
-affects users or business workflows.
+Across these episodes, responsible AI means accountable choices across the
+whole AI lifecycle. Teams review the problem framing and data before modeling.
+They test model and product behavior before launch. They keep monitoring once
+the system affects users or business workflows.
 
 The governed asset isn't only a model file. It also includes training data and
 features, prompts and retrieved context, and policies and interfaces. Logs,
@@ -143,8 +143,8 @@ That framing connects responsible AI to
 and [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }}).
 If a feature improves an internal score but makes the product hard to justify,
 the team may remove it or transform it. It may also monitor the feature more
-closely or require human review. The archive treats those choices as design and
-governance work, not after-the-fact documentation.
+closely or require human review. The podcast discussions treat those choices as
+design and governance work, not after-the-fact documentation.
 
 Release controls make those choices reviewable. Bart's
 [Data Governance and Data Access Management]({{ '/podcasts/data-governance-data-access-management/' | relative_url }})
@@ -160,7 +160,7 @@ the permission should expire.
 
 ## Fairness and Product Judgment
 
-Fairness work in the archive begins with evidence, but it doesn't end with a
+These fairness discussions begin with evidence, but they don't end with a
 metric. Supreet uses skewness, missingness, coverage, and exploratory data
 analysis as early bias checks in
 [Responsible and Explainable AI]({{ '/podcasts/responsible-explainable-ai-bias-detection/' | relative_url }}).
@@ -186,7 +186,7 @@ the metric is evidence for judgment, not the whole judgment.
 
 ## Explanations, Evaluation, and Trust
 
-The archive treats explainability as useful only when it serves an audience.
+These episodes treat explainability as useful only when it serves an audience.
 Supreet's 19:03 and 23:24 chapters in
 [Responsible and Explainable AI]({{ '/podcasts/responsible-explainable-ai-bias-detection/' | relative_url }})
 cover What-If, Skater, and AI Explainability 360. They also cover LIME, SHAP,
@@ -288,7 +288,7 @@ are represented. A feedback loop can teach a model the consequences of its own
 decisions. Monitoring has to include the risk the system creates, not only its
 technical uptime.
 
-The archive favors constrained automation for high-stakes actions. The AI
+These guests favor constrained automation for high-stakes actions. The AI
 system can assist, summarize, recommend, or route work. External validators,
 logs, escalation paths, and human reviewers hold the accountability the model
 can't hold.
@@ -299,7 +299,7 @@ point from the agent side.
 
 ## Related Pages
 
-Continue with these adjacent archive-backed topics:
+Continue with these adjacent podcast-grounded topics:
 
 - [Governance]({{ '/wiki/governance/' | relative_url }})
 - [Data Governance]({{ '/wiki/data-governance/' | relative_url }})

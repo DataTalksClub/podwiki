@@ -18,6 +18,9 @@ FORBIDDEN_HEADING_RE = re.compile(
     r"Recurring Archive Themes|Maintenance Notes|Agent Maintenance Notes|Guest Experts|Bottom Line)\b",
     re.MULTILINE,
 )
+ARCHIVE_SCAFFOLDING_RE = re.compile(
+    r"\b(?:the archive|The archive|DataTalks\.Club archive|archive-backed|archive's|archive’s)\b"
+)
 LOCAL_LINK_RE = re.compile(r"'/([^']+)/' \| relative_url")
 MARKDOWN_LINK_RE = re.compile(r"\[[^\]]+\]\((/[^)#?]+)")
 
@@ -75,14 +78,16 @@ def audit_file(path: Path) -> dict[str, object]:
     body = visible_body(text)
     links = link_counts(text)
     forbidden = FORBIDDEN_HEADING_RE.findall(text)
+    archive_scaffolding = ARCHIVE_SCAFFOLDING_RE.findall(body)
     generic = body.count(GENERIC_PODCAST_URL)
-    score = generic * 3 + len(forbidden) * 10
+    score = generic * 3 + len(forbidden) * 10 + len(archive_scaffolding)
     if path.parts[-2] in PUBLIC_CONTENT_FOLDERS and links["podcasts"] == 0:
         score += 5
     return {
         "path": path.relative_to(ROOT),
         "generic_podcast_links": generic,
         "forbidden_headings": len(forbidden),
+        "archive_scaffolding": len(archive_scaffolding),
         "local_podcast_links": links["podcasts"],
         "wiki_links": links["wiki"],
         "people_links": links["people"],
@@ -104,19 +109,26 @@ def main() -> None:
     problem_rows = [
         row
         for row in rows
-        if row["generic_podcast_links"] or row["forbidden_headings"] or row["local_podcast_links"] == 0
+        if (
+            row["generic_podcast_links"]
+            or row["forbidden_headings"]
+            or row["archive_scaffolding"]
+            or row["local_podcast_links"] == 0
+        )
     ]
 
     print(f"pages: {len(rows)}")
     print(f"problem_pages: {len(problem_rows)}")
     print(f"generic_podcast_links: {sum(int(row['generic_podcast_links']) for row in rows)}")
     print(f"forbidden_headings: {sum(int(row['forbidden_headings']) for row in rows)}")
+    print(f"archive_scaffolding: {sum(int(row['archive_scaffolding']) for row in rows)}")
     print("")
 
     for row in sorted(problem_rows, key=lambda item: (-int(item["score"]), str(item["path"])))[: args.limit]:
         print(
             f"{row['path']}: score={row['score']} "
             f"generic={row['generic_podcast_links']} bad_headings={row['forbidden_headings']} "
+            f"archive_scaffolding={row['archive_scaffolding']} "
             f"podcast_links={row['local_podcast_links']} wiki_links={row['wiki_links']} "
             f"people_links={row['people_links']} guide_links={row['guide_links']} "
             f"comparison_links={row['comparison_links']} roadmap_links={row['roadmap_links']} "

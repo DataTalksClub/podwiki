@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Metaflow"
-summary: "How Metaflow appears in the DataTalks.Club archive as an ML workflow tool, developer-experience case study, and open-source platform boundary."
+summary: "How DataTalks.Club guests discuss Metaflow as an ML workflow tool, developer-experience case study, and open-source platform boundary."
 related:
   - Developer Experience
   - Machine Learning Infrastructure
@@ -10,9 +10,8 @@ related:
   - Open Source and Developer Relations
 ---
 
-The DataTalks.Club archive discusses Metaflow mainly through
-[Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }}) and
-his work at Outerbounds. In
+[Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }})
+grounds DataTalks.Club's Metaflow discussion in his work at Outerbounds. In
 [DevRel Role for Machine Learning]({{ '/podcasts/devrel-open-source-machine-learning/' | relative_url }}),
 Hugo describes Metaflow as a human-centered tool for building full-stack
 [machine learning]({{ '/wiki/machine-learning/' | relative_url }}) applications
@@ -23,11 +22,11 @@ it anchors his discussion of
 and [developer relations]({{ '/wiki/developer-relations/' | relative_url }})
 in ML tooling.
 
-The archive doesn't contain a broad Metaflow tutorial. It focuses on a narrower
-claim: a workflow tool can help data scientists move from exploration toward
-production without forcing them to become Kubernetes specialists. Hugo frames
-Outerbounds' broader goal as helping teams take machine learning from prototype
-to production and improve iteration speed.
+These episodes don't offer a broad Metaflow tutorial. They focus on a
+narrower claim: a workflow tool can help data scientists move from exploration
+toward production without forcing them to become Kubernetes specialists. Hugo
+frames Outerbounds' broader goal as helping teams take machine learning from
+prototype to production and improve iteration speed.
 He also says that not every part of that work has to happen through Metaflow
 ([DevRel Role for Machine Learning]({{ '/podcasts/devrel-open-source-machine-learning/' | relative_url }}),
 13:17).
@@ -59,7 +58,7 @@ Hugo says he recorded an open-source demo of Metaflow and full-stack ML using a
 recent sandbox. He describes the sandbox as a way to show the layers of the ML
 stack and how Metaflow can interoperate with them.
 
-The sandbox links Metaflow to the archive's
+The sandbox links Metaflow to related
 [open-source and developer relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }})
 pages. Hugo later explains that setup for the whole infrastructure stack can
 take days. Educational sandboxes let people spin up an environment quickly and
@@ -78,16 +77,20 @@ collapsing the project into the company. At 13:17, he adds that Outerbounds has
 a managed offering while the broader goal is improving the
 prototype-to-production path.
 
-That separation connects Metaflow to
-[open source]({{ '/wiki/open-source/' | relative_url }}) and
-[contributing]({{ '/wiki/contributing/' | relative_url }}) because Hugo doesn't
-present Metaflow as a closed all-in-one platform. At 52:04, he explicitly
+Hugo doesn't present Metaflow as a closed all-in-one platform or company
+product. That puts Metaflow beside project governance questions. The related
+[open source]({{ '/wiki/open-source/' | relative_url }}) page covers that
+boundary. Its contributor history also keeps
+[contributing]({{ '/wiki/contributing/' | relative_url }}) relevant.
+
+At 52:04, he explicitly
 argues that full-stack ML currently works through interoperable best-of-breed
 tools. He names experiment trackers such as Weights & Biases and Comet, then
-mentions work connecting Parquet, Iceberg, and Metaflow. This is why Metaflow
-belongs next to [experiment tracking]({{ '/wiki/experiment-tracking/' | relative_url }})
-and [data platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
-in the archive: the value comes partly from fitting into the surrounding stack.
+mentions work connecting Parquet, Iceberg, and Metaflow. That puts Metaflow
+beside [experiment tracking]({{ '/wiki/experiment-tracking/' | relative_url }}).
+It also belongs beside
+[data platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}).
+Its value comes partly from fitting into the surrounding stack.
 
 ## Developer Experience
 
@@ -100,7 +103,7 @@ implement the tools. In the same answer, he recalls
 "wisdom layer" around Metaflow and treating that layer as equally important to
 the software.
 
-Hugo's "wisdom layer" gives the clearest archive-backed way to understand
+Hugo's "wisdom layer" gives the clearest podcast-grounded way to understand
 Metaflow's place here. The software matters, and so do examples and docs.
 Sandboxes, talks and user feedback matter too. Hugo makes the same point in
 the 25:17 and 36:27 chapters. In those chapters, he ties developer
@@ -112,7 +115,7 @@ The later
 [Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }})
 episode only mentions Metaflow as part of Hugo's career context. Around 5:27 to
 5:53, Hugo confirms that his Outerbounds DevRel work centered on Metaflow. That
-later episode is useful mainly for scope. By then, Hugo's archive contribution
+later episode is useful mainly for scope. By then, Hugo's podcast contribution
 has moved toward
 [LLM production patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
 and [RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}). It
@@ -121,13 +124,13 @@ doesn't add new Metaflow details, though it also connects to
 
 ## Platform Boundaries
 
-Metaflow has a narrow but useful archive role because it sits between notebooks
-and production handoff. In Hugo's account, it also touches cloud resources,
-schedulers and experiment trackers. His discussion shows why a platform team or
-tool company has to care about education and developer experience, not only
-infrastructure.
+Metaflow has a narrow but useful role in these episodes because it sits between
+notebooks and production handoff. In Hugo's account, it also touches cloud
+resources, schedulers and experiment trackers. His discussion shows why a
+platform team or tool company has to care about education and developer
+experience, not only infrastructure.
 
-In the archive, Metaflow works best as an
+Here, Metaflow works best as an
 [ML infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }})
 example for the path from experiments to production. It also fits the
 [platform engineering]({{ '/wiki/platform-engineering/' | relative_url }})

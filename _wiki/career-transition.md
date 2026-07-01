@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Career Transition"
-summary: "Archive-backed patterns for moving into data, ML, AI engineering, analytics engineering, data engineering, product, and freelance roles."
+summary: "Podcast-grounded patterns for moving into data, ML, AI engineering, analytics engineering, data engineering, product, and freelance roles."
 related:
   - Career Growth
   - Job Search
@@ -10,8 +10,8 @@ related:
   - Open Source and Developer Relations
 ---
 
-Career transition is the archive's term for moving from one professional
-identity into another data or AI role. In the DataTalks.Club interviews, the
+Career transition means moving from one professional identity into another data
+or AI role. In the DataTalks.Club interviews, the
 transition is rarely a clean reset. Guests keep part of their earlier work and
 rename it in the language of the target role. They then turn that experience
 into evidence for roles such as
@@ -22,7 +22,7 @@ Other routes lead toward
 [data engineering]({{ '/wiki/data-engineering/' | relative_url }}) and
 [AI engineering]({{ '/wiki/ai-engineering-roadmap/' | relative_url }}).
 
-The archive treats transition as a proof problem. A transitioner needs a
+DataTalks.Club guests treat transition as a proof problem. A transitioner needs a
 believable story, role-specific skill gaps, and work samples that hiring teams
 can evaluate. The examples cover adjacent business roles, QA, and software.
 They also cover academia, research, and career breaks. That makes this page a
@@ -33,7 +33,7 @@ bridge between
 
 ## Common Definition
 
-Across the archive, a career transition means making prior experience legible
+Across these interviews, a career transition means making prior experience legible
 for a target role. In
 [From Project Manager to Data Scientist]({{ '/podcasts/project-manager-to-data-scientist/' | relative_url }}),
 [Ksenia Legostay]({{ '/people/ksenialegostay/' | relative_url }}) starts from
@@ -42,7 +42,7 @@ through data analysis into ML. Her transition advice is to assess strengths and
 target gaps. She treats programming, statistics, and domain expertise as the
 core skill set behind the data scientist title.
 
-The archive also converges on artifacts over passive study. In
+Guests also favor artifacts over passive study. In
 [From Software Engineering to Machine Learning]({{ '/podcasts/from-software-engineer-to-machine-learning/' | relative_url }}),
 [Santiago Valdarrama]({{ '/people/svpino/' | relative_url }}) frames the move
 as adding ML to an existing software skillset. He pushes candidates to start
@@ -67,7 +67,7 @@ project, and a RAG take-home assignment.
 
 ## Guest Differences
 
-The archive doesn't present one universal route. Formal education helps in
+No guest presents one universal route. Formal education helps in
 some stories and is optional in others. In
 [From Project Manager to Data Scientist]({{ '/podcasts/project-manager-to-data-scientist/' | relative_url }}),
 Ksenia's path includes a degree in data analysis and structured coursework. In
@@ -232,11 +232,11 @@ Good transition evidence usually has four parts:
 - a plain explanation of tradeoffs
 - a link from old experience to new work
 
-That's why the archive favors
+For these routes,
 [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}),
 [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }}),
 and [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
-over tutorial completion alone.
+matter more than tutorial completion alone.
 
 ## Related Pages
 

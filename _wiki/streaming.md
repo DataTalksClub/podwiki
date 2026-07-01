@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Streaming"
-summary: "How the DataTalks.Club archive discusses event streaming with Kafka, real-time pipelines, schemas, feature stores, fraud systems, and search."
+summary: "How DataTalks.Club guests discuss event streaming with Kafka, real-time pipelines, schemas, feature stores, fraud systems, and search."
 related:
   - Data Pipelines
   - Data Engineering Platforms
@@ -14,7 +14,7 @@ related:
 ---
 
 Streaming data systems process events close to the moment they're produced. In
-the DataTalks.Club archive, streaming usually means a producer writes events to
+DataTalks.Club episodes, streaming usually means a producer writes events to
 a broker such as Kafka or Kinesis. SQS and RabbitMQ appear in the same queueing
 family. Consumers then transform those events for storage, dashboards, alerts,
 and online features. The same stream can support fraud decisions or search
@@ -22,7 +22,7 @@ ranking.
 
 That makes streaming a design choice inside
 [data pipelines]({{ '/wiki/data-pipelines/' | relative_url }}), not a default
-architecture. The archive repeatedly ties streaming to
+architecture. These episodes repeatedly tie streaming to
 [batch vs streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }}),
 [DataOps]({{ '/wiki/dataops/' | relative_url }}), schema ownership, and
 [MLOps]({{ '/wiki/mlops/' | relative_url }}). A team chooses streaming when the
@@ -38,7 +38,7 @@ processes it later.
 
 ## Common Definition
 
-Across the archive, a streaming system has four practical parts:
+Across these episodes, a streaming system has four practical parts:
 
 - producers that emit events
 - a broker or queue that buffers events
@@ -57,7 +57,7 @@ always-on brokers and consumer jobs. It also adds schema checks, lag
 monitoring, and replay paths.
 
 [Lars Albertsson]({{ '/people/larsalbertsson/' | relative_url }}) gives the
-archive's most useful latency boundary in
+clearest latency boundary for these discussions in
 [DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}).
 Around 42:29, he separates slow reporting, streaming's middle latency window,
 and sub-100-millisecond interactions that need data already in the serving
@@ -104,7 +104,7 @@ grows.
 
 ## Kafka, Queues, and Event Ingestion
 
-Kafka appears in the archive as the concrete symbol for event streaming, but
+Kafka appears in these episodes as the concrete symbol for event streaming, but
 guests don't treat Kafka as the whole system. Kretz uses Kafka and Kinesis for
 click-event ingestion in
 [From Notebooks to Production]({{ '/podcasts/production-ml-pipelines-with-aws-and-kafka/' | relative_url }})
@@ -128,7 +128,7 @@ or compute-cost problem.
 
 ## Batch, Micro-Batch, and Event Time
 
-The archive doesn't frame streaming as the opposite of batch in every case. It
+The podcast discussions don't frame streaming as the opposite of batch in every case. It
 treats them as latency and recovery choices. Albertsson argues in
 [DataOps 101]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }})
 that batch windows make dependencies explicit: a job knows which upstream data
@@ -155,7 +155,7 @@ covers that broader tradeoff.
 
 Streaming moves producer mistakes quickly. OUAZZA's
 [Scaling Data Engineering Teams]({{ '/podcasts/scaling-data-engineering-teams-self-service-platforms/' | relative_url }})
-episode is the archive's strongest warning about Kafka schemas. Around 23:26,
+episode gives the strongest warning about Kafka schemas. Around 23:26,
 he describes teams growing from a few topics to hundreds. Once many consumers
 depend on those topics, informal payload changes become expensive to unwind.
 
@@ -200,7 +200,7 @@ infrastructure running continuously.
 
 ## Fraud, Feature Stores, and Online ML
 
-The archive's strongest applied examples combine streaming and batch.
+The strongest applied examples combine streaming and batch.
 [Angela Ramirez]({{ '/people/angelaramirez/' | relative_url }}) explains this
 split in
 [Data Engineering for Fraud Prevention]({{ '/podcasts/building-and-scaling-data-engineering-systems-for-fraud-detection/' | relative_url }}).

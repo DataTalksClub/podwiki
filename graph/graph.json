@@ -8506,7 +8506,7 @@
       "title": "Career Transition",
       "url": "/wiki/career-transition/",
       "count": 1,
-      "search": "Career Transition Archive backed patterns for moving into data, ML, AI engineering, analytics engineering, data engineering, product, and freelance roles."
+      "search": "Career Transition Podcast grounded patterns for moving into data, ML, AI engineering, analytics engineering, data engineering, product, and freelance roles."
     },
     {
       "id": "wiki:career-transitions-in-data",
@@ -8716,7 +8716,7 @@
       "title": "Data Engineering Platforms",
       "url": "/wiki/data-engineering-platforms/",
       "count": 1,
-      "search": "Data Engineering Platforms How the DataTalks.Club podcast archive defines data engineering platforms: shared ingestion, storage, orchestration, modeling, governance, self service, reliability, adoption, and cost control."
+      "search": "Data Engineering Platforms How DataTalks.Club guests define data engineering platforms: shared ingestion, storage, orchestration, modeling, governance, self service, reliability, adoption, and cost control."
     },
     {
       "id": "wiki:data-engineering-portfolio-projects",
@@ -8846,7 +8846,7 @@
       "title": "Data Science",
       "url": "/wiki/data-science/",
       "count": 1,
-      "search": "Data Science How the DataTalks.Club podcast archive frames data science: product facing modeling, analysis, experimentation, hiring signals, role ambiguity, and the boundary with ML, data engineering, and AI engineering."
+      "search": "Data Science How DataTalks.Club podcast discussions frame data science: product facing modeling, analysis, experimentation, hiring signals, role ambiguity, and the boundary with ML, data engineering, and AI engineering."
     },
     {
       "id": "wiki:data-science-careers",
@@ -8876,7 +8876,7 @@
       "title": "Data Scientist Role",
       "url": "/wiki/data-scientist-role/",
       "count": 1,
-      "search": "Data Scientist Role Archive backed definition of the data scientist role: product questions, modeling, experimentation, ambiguity, role boundaries, and supporting episodes."
+      "search": "Data Scientist Role Podcast grounded definition of the data scientist role: product questions, modeling, experimentation, ambiguity, role boundaries, and supporting episodes."
     },
     {
       "id": "wiki:data-scientist-to-machine-learning-engineer",
@@ -8976,7 +8976,7 @@
       "title": "Deep Learning",
       "url": "/wiki/deep-learning/",
       "count": 1,
-      "search": "Deep Learning Archive backed guide to deep learning as the neural network layer of applied AI, covering vision, transformers, labels, production constraints, and portfolio signals."
+      "search": "Deep Learning Podcast backed guide to deep learning as the neural network layer of applied AI, covering vision, transformers, labels, production constraints, and portfolio signals."
     },
     {
       "id": "wiki:delta-lake",
@@ -9056,7 +9056,7 @@
       "title": "Embeddings",
       "url": "/wiki/embeddings/",
       "count": 1,
-      "search": "Embeddings How the podcast archive explains embeddings as representations for semantic search, RAG, recommendations, multimodal retrieval, and language systems."
+      "search": "Embeddings How DataTalks.Club guests explain embeddings as representations for semantic search, RAG, recommendations, multimodal retrieval, and language systems."
     },
     {
       "id": "wiki:end-to-end-data-pipeline-project",
@@ -9186,7 +9186,7 @@
       "title": "Generative AI",
       "url": "/wiki/generative-ai/",
       "count": 1,
-      "search": "Generative AI How the podcast archive covers generative AI as applied language, chatbot, agent, coding, and content generation systems."
+      "search": "Generative AI How DataTalks.Club guests cover generative AI as applied language, chatbot, agent, coding, and content generation systems."
     },
     {
       "id": "wiki:gitops-for-data-teams",
@@ -9306,7 +9306,7 @@
       "title": "Machine Learning",
       "url": "/wiki/machine-learning/",
       "count": 1,
-      "search": "Machine Learning How the DataTalks.Club podcast archive frames machine learning as applied modeling, evaluation, production design, monitoring, tools, roles, and business tradeoffs."
+      "search": "Machine Learning How DataTalks.Club podcast discussions frame machine learning as applied modeling, evaluation, production design, monitoring, tools, roles, and business tradeoffs."
     },
     {
       "id": "wiki:machine-learning-engineer-role",
@@ -9376,7 +9376,7 @@
       "title": "Metaflow",
       "url": "/wiki/metaflow/",
       "count": 1,
-      "search": "Metaflow How Metaflow appears in the DataTalks.Club archive as an ML workflow tool, developer experience case study, and open source platform boundary."
+      "search": "Metaflow How DataTalks.Club guests discuss Metaflow as an ML workflow tool, developer experience case study, and open source platform boundary."
     },
     {
       "id": "wiki:metrics",
@@ -9526,7 +9526,7 @@
       "title": "Notebook to Production AI Systems",
       "url": "/wiki/notebook-to-production-ai-systems/",
       "count": 1,
-      "search": "Notebook to Production AI Systems How the podcast archive frames the path from notebooks and experiments to end to end AI systems in production."
+      "search": "Notebook to Production AI Systems How DataTalks.Club guests frame the path from notebooks and experiments to end to end AI systems in production."
     },
     {
       "id": "wiki:open-source",
@@ -9746,7 +9746,7 @@
       "title": "Responsible AI and Governance",
       "url": "/wiki/responsible-ai-and-governance/",
       "count": 1,
-      "search": "Responsible AI and Governance Archive derived patterns for explainability, fairness, privacy, security, human oversight, and accountable AI governance."
+      "search": "Responsible AI and Governance Podcast grounded patterns for explainability, fairness, privacy, security, human oversight, and accountable AI governance."
     },
     {
       "id": "wiki:retrieval-augmented-generation",
@@ -9786,7 +9786,7 @@
       "title": "Scikit-Learn",
       "url": "/wiki/scikit-learn/",
       "count": 1,
-      "search": "Scikit Learn Archive grounded guide to scikit learn as a practical toolkit for classic ML workflows, baselines, experimentation, interpretability, contribution, and production boundaries."
+      "search": "Scikit Learn DataTalks.Club guide to scikit learn as a practical toolkit for classic ML workflows, baselines, experimentation, interpretability, contribution, and production boundaries."
     },
     {
       "id": "wiki:search",
@@ -9907,7 +9907,7 @@
       "title": "Streaming",
       "url": "/wiki/streaming/",
       "count": 1,
-      "search": "Streaming How the DataTalks.Club archive discusses event streaming with Kafka, real time pipelines, schemas, feature stores, fraud systems, and search."
+      "search": "Streaming How DataTalks.Club guests discuss event streaming with Kafka, real time pipelines, schemas, feature stores, fraud systems, and search."
     },
     {
       "id": "wiki:teaching",
@@ -58261,7 +58261,7 @@
       "source": "wiki:machine-learning",
       "target": "person:alexeygrigorev",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:machine-learning",

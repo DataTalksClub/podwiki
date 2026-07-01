@@ -14,8 +14,8 @@ related:
 Privacy engineering for ML is the work of turning privacy obligations into
 system design. It asks what data a product should collect and what data a model
 should see. It also asks who may access that data, how long the team should
-retain it, and which controls apply in production. In the DataTalks.Club
-archive, it sits between [Data Governance]({{ '/wiki/data-governance/' | relative_url }})
+retain it, and which controls apply in production. In these podcast
+discussions, it sits between [Data Governance]({{ '/wiki/data-governance/' | relative_url }})
 and [Security]({{ '/wiki/security/' | relative_url }}). It also connects to
 [Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }}),
 [Machine Learning]({{ '/wiki/machine-learning/' | relative_url }}), and
@@ -23,19 +23,19 @@ and [Security]({{ '/wiki/security/' | relative_url }}). It also connects to
 
 This topic is centered on ML and AI systems, not privacy law in the abstract.
 [Katharine Jarmul]({{ '/people/katharinejarmul/' | relative_url }}) gives the
-most direct archive definition in
+clearest podcast definition in
 [her privacy engineering episode]({{ '/podcasts/data-privacy-engineering-gdpr-machine-learning/' | relative_url }}).
 
 She joins the legal and social sides of privacy with the technical side. Then
-she translates risk into product and architecture requirements. The rest of the
-archive adds the operating machinery. That machinery includes access governance
+she translates risk into product and architecture requirements. Other guests
+add the operating machinery. That machinery includes access governance
 and masking. It also includes data quality checks, LLM deployment choices, and
 security testing.
 
 
 ## Common Definition
 
-Across the archive, privacy engineering isn't a late compliance review. It's
+Across these episodes, privacy engineering isn't a late compliance review. It's
 a design constraint across the full data lifecycle. A team should know why it
 collects data and whether the use case still works with less data. It should
 also know which fields are sensitive, who can access them, and how the model or
@@ -117,7 +117,7 @@ and [Security]({{ '/wiki/security/' | relative_url }}).
 
 ## Data Minimization and Consent
 
-Data minimization is the archive's strongest privacy-engineering habit. The
+In these discussions, teams start privacy engineering by minimizing data. The
 team should first ask whether the product can work with less data. Shorter
 retention, local inference, or a less identifying representation may be enough.
 Katharine's
@@ -174,7 +174,7 @@ she discusses encrypted ML, federated learning, and privacy-aware architecture.
 At 40:50, she introduces differential privacy as a formal way to reason about
 privacy loss.
 
-The archive doesn't imply that every team should begin with advanced PETs.
+Katharine doesn't imply that every team should begin with advanced PETs.
 Katharine recommends clarifying what data is sensitive and what the product
 needs. Teams should then decide who owns the risk. Techniques such as federated
 learning, encrypted computation, differential privacy, or localized deployment
@@ -248,7 +248,7 @@ That places LLM privacy next to
 [LLMs]({{ '/wiki/llms/' | relative_url }}), and
 [AI Red Teaming]({{ '/wiki/ai-red-teaming/' | relative_url }}).
 
-The archive's practical production rule is to include privacy in the
+The guests share the same production rule: include privacy in the
 prototype-to-production decision. Teams should decide where prompts are stored,
 whether user inputs can train future models, and how retrieval permissions are
 enforced. They should also decide what appears in logs and what tests catch
