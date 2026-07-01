@@ -71,7 +71,9 @@ teams should keep the design document alive as the system changes.
 Arseny puts more weight on constraints and early risk. In his scalable systems
 episode at 10:34, mobile and edge ML force teams to design around latency and
 frames per second. They also account for energy use and offline behavior. At
-14:49, he uses early tests to reduce unknown risks. At 37:15, he uses diagrams to
+14:49, he uses early tests to reduce unknown risks. Those latency and size
+constraints drive [Model Optimization]({{ '/wiki/model-optimization/' | relative_url }})
+techniques. At 37:15, he uses diagrams to
 reason about data flow, dependencies, and batch versus real-time paths.
 
 [Nadia Nahar]({{ '/people/nadianahar/' | relative_url }}) approaches the same

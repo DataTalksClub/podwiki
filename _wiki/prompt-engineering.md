@@ -59,7 +59,8 @@ draws that boundary in
 [Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}):
 at 28:17-29:30, she frames context engineering as a deliberate information
 choice. Teams choose what to give the LLM instead of stuffing everything into
-the input.
+the input. That broader practice is covered as
+[Context Engineering]({{ '/wiki/context-engineering/' | relative_url }}).
 
 ## Role Prompts and Task Framing
 

@@ -130,6 +130,8 @@ also mean a remote bare-metal provider or another version of cloud
 ([Post-ChatGPT AI Infrastructure, 51:56-56:53]({{ '/podcasts/ai-infrastructure-hybrid-cloud-on-prem-distributed-training/' | relative_url }})).
 Use [FinOps for Data Engineers]({{ '/wiki/finops-for-data-engineers/' | relative_url }})
 for the broader practice of making those usage and billing tradeoffs visible.
+For LLM-specific cost reduction techniques like prompt compression and caching,
+see [LLM Cost Optimization]({{ '/wiki/llm-cost-optimization/' | relative_url }}).
 
 ## GPU Availability and Utilization
 

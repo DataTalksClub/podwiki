@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 132,
     "nodes": 1154,
-    "links": 13220
+    "links": 13225
   },
   "nodes": [
     {
@@ -47042,6 +47042,12 @@
     },
     {
       "source": "wiki:ai-engineering-roadmap",
+      "target": "article:roadmap:ai-engineer-roadmap",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineering-roadmap",
       "target": "person:adityagautam",
       "kind": "wiki-link",
       "weight": 1
@@ -47729,6 +47735,12 @@
       "target": "wiki:finops-for-data-engineers",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:ai-infrastructure-cost-and-ownership",
+      "target": "wiki:llm-cost-optimization",
+      "kind": "wiki-link",
+      "weight": 1
     },
     {
       "source": "wiki:ai-infrastructure-cost-and-ownership",
@@ -74474,6 +74486,12 @@
     },
     {
       "source": "wiki:machine-learning-system-design",
+      "target": "wiki:model-optimization",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-system-design",
       "target": "wiki:power-analysis",
       "kind": "wiki-link",
       "weight": 1
@@ -83474,6 +83492,12 @@
     },
     {
       "source": "wiki:prompt-engineering",
+      "target": "wiki:context-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:prompt-engineering",
       "target": "wiki:llm-evaluation-workflows",
       "kind": "wiki-link",
       "weight": 1
@@ -84095,6 +84119,12 @@
       "target": "wiki:agent-engineering",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:rag",
+      "target": "wiki:context-engineering",
+      "kind": "wiki-link",
+      "weight": 1
     },
     {
       "source": "wiki:rag",

@@ -81,7 +81,9 @@ shifts. Videos or books may need different boundaries.
 RAG to context engineering in
 [Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}).
 At 29:30-32:48, she argues that long context doesn't remove the need to reduce
-noise. A length-only split is lossy, so the retrieved context should include
+noise. For the deeper treatment, see
+[Context Engineering]({{ '/wiki/context-engineering/' | relative_url }}).
+A length-only split is lossy, so the retrieved context should include
 the source document, the question it answers, and what the system has already
 learned.
 

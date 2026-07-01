@@ -34,6 +34,8 @@ applications in
 7:51-23:19. For the role boundary, use
 [AI Engineer Role]({{ '/wiki/ai-engineer-role/' | relative_url }}). For the
 broader discipline, use [AI Engineering]({{ '/wiki/ai-engineering/' | relative_url }}).
+The editorial [AI Engineer Roadmap]({{ '/roadmaps/ai-engineer-roadmap/' | relative_url }})
+turns this sequence into concrete build stages with portfolio milestones.
 
 ## Roadmap Boundary
 
