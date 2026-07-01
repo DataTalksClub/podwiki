@@ -421,18 +421,63 @@ After that, choose one specialization based on your target role:
 You're ready to apply for junior data engineering roles when you can do most
 of this without following a tutorial step by step:
 
-- write SQL for joins, windows, aggregations, and validation checks
-- write Python that extracts, validates, and loads data
+Start with [Jeff Katz]({{ '/people/jeffkatz/' | relative_url }})'s core-skill
+bar. He covers it in
+[Build a Data Engineering Career]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }})
+and
+[Data Engineering Job Prep and Interview Guide]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }}).
+
+Use that junior bar to check that you can:
+
+- write SQL for joins, windows, aggregations, table grain, and validation
+  checks
+- write Python that extracts, validates, and loads data with readable functions,
+  useful names, and targeted tests
+- explain your code and data model under interview questioning
+
+Then prove you can turn those skills into a pipeline.
+[Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }})
+describes the raw-to-modeled structure in
+[ETL vs ELT and Modern Data Engineering]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}).
+[Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }})
+recommends tool restraint in
+[Modern Data Engineering]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}).
+
+Use those interviews to check that you can:
+
 - explain raw, staging, modeled, and serving layers
 - design a table with a clear grain
+- explain warehouse, lake, and lakehouse tradeoffs at a practical level
+- discuss one cloud storage or warehouse path
+- know when not to use Spark or streaming systems
+
+Make the pipeline operable, not only impressive.
+[Lars Albertsson]({{ '/people/larsalbertsson/' | relative_url }})
+frames the workflow engine, storage, and compute pieces in
+[DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}).
+[Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }})
+connects DataOps to version control, CI/CD, and automated data tests in
+[Mastering DataOps]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }}).
+
+Use that DataOps evidence to check that you can:
+
 - run a pipeline without manual notebook steps
 - add basic orchestration, logs, and rerun behavior
 - test freshness, volume, schema, nulls, uniqueness, and business rules
 - document setup, data dictionaries, tradeoffs, and recovery steps
-- explain warehouse, lake, and lakehouse tradeoffs at a practical level
-- discuss one cloud storage or warehouse path
+
+Finally, make the work reviewable.
+Jeff's interview episode asks for visible Python and SQL depth, readable code,
+and tests.
+[Slawomir Tulski]({{ '/people/slawomirtulski/' | relative_url }}) recommends a
+small end-to-end platform in
+[Data Engineer Career in 2026]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }}).
+
+Use that portfolio evidence to check that you can:
+
 - walk through a portfolio project under interview questioning
-- know when not to use Spark or streaming systems
+- explain the consumer, source, architecture, setup, and tradeoffs
+- describe one failure, rerun, or backfill from your own project
 
 For the full topic map, continue with
 [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})

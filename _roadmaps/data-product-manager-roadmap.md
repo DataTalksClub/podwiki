@@ -117,10 +117,13 @@ feature.
 ## Roadmap Work
 
 A data PM roadmap should name the problem, the user, and the option set. It
-should also name the expected impact, effort, and success metric. Greg's 14:03
-section uses customer journeys. The 41:44 section compares impact, effort, and
-cost. At 47:18-51:11, he describes roadmap work as a prioritization skill that
-ties business needs to measurable data product outcomes.
+should also name the expected impact, effort, and success metric.
+[Greg Coquillo]({{ '/people/gregcoquillo/' | relative_url }}) uses customer
+journeys at 14:03 in
+[Building and Scaling AI Data Products]({{ '/podcasts/building-and-scaling-ai-data-products-with-mlops/' | relative_url }}).
+The 41:44 section compares impact, effort, and cost. At 47:18-51:11, he
+describes roadmap work as a prioritization skill that ties business needs to
+measurable data product outcomes.
 
 [Boyan Angelov]({{ '/people/boyanangelov/' | relative_url }}) adds the
 strategy layer in
@@ -163,9 +166,9 @@ Ownership and self-service platforms matter too.
 ## Portfolio Evidence
 
 A data PM portfolio should show a product decision, not only a screenshot.
-For archive-backed proof, show that you can move from a user problem to a
-roadmap choice, a metric, and an adoption or rollout decision. A credential may
-explain what you studied, but it doesn't replace examples of product judgment.
+Show that you can move from a user problem to a roadmap choice, a metric, and
+an adoption or rollout decision. A credential may explain what you studied, but
+it doesn't replace examples of product judgment.
 
 Good evidence includes:
 
@@ -184,9 +187,11 @@ feasibility, operating artifacts, and
 [A/B tests]({{ '/wiki/a-b-testing/' | relative_url }}) before broad rollout.
 Ioannis ties pilots and monitoring to rollout decisions.
 
-Sara's portfolio advice points in the same direction. At 33:00-37:57 she
-recommends case studies that show the problem and assumptions. They should show
-the method and result too.
+[Sara Menefee]({{ '/people/saramenefee/' | relative_url }}) points in the same
+direction in
+[Product Designer to Data Product Manager]({{ '/podcasts/product-designer-to-data-product-manager/' | relative_url }}).
+At 33:00-37:57 she recommends case studies that show the problem and
+assumptions. They should show the method and result too.
 That makes a data product manager portfolio a stronger signal than a course
 certificate alone. The signal gets stronger when the work also references
 [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }}) and

@@ -163,6 +163,12 @@ Python dependency causing a containerized job failure after an API change around
 ## Add Checks, Logs, And Rerun Behavior
 
 A green Airflow run proves that tasks finished, not that the data is correct.
+[Tomasz Hinc]({{ '/people/tomaszhinc/' | relative_url }}) makes this boundary
+explicit around 1:02:50 in
+[DataOps and GitOps Best Practices]({{ '/podcasts/dataops-and-gitops-best-practices-for-data-teams/' | relative_url }}).
+He describes Airflow jobs that were green while the output had zero rows. Add a
+data check that fails when the output is wrong instead of trusting the Airflow
+UI alone.
 
 Add checks that can fail the run:
 
@@ -173,16 +179,17 @@ Add checks that can fail the run:
 5. Freshness is within the expected window.
 6. Nulls and accepted values match the consumer expectation.
 
-Tomasz makes this boundary explicit around 1:02:50 in the same DataOps and
-GitOps episode. He describes Airflow jobs that were green while the output had
-zero rows. Add a data check that fails when the output is wrong instead of
-trusting the Airflow UI alone.
+Use one deliberate failure in the project by breaking the input path, adding a
+duplicate row, or making a freshness check fail. Show how Airflow records the
+failure and where the log appears. Then show how the DAG reruns after the input
+is fixed.
 
-Use one deliberate failure in the project. Break the input path, add a duplicate
-row, or make a freshness check fail. Then show how Airflow records the failure,
-where the log appears, and how the DAG reruns after the input is fixed. This is
-the portfolio value of local Compose: a reviewer can see recovery behavior, not
-only a successful screenshot.
+Include the failed run alongside
+[Lars Albertsson]({{ '/people/larsalbertsson/' | relative_url }})'s
+workflow-engine discussion around 30:34-35:57 in
+[DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}).
+He puts dependencies, schedules, and retries in the workflow engine, while the
+compute layer does the processing.
 
 ## Know Where Local Compose Stops
 
@@ -219,18 +226,47 @@ Move beyond local Compose when the project needs operational controls:
 
 ## Airflow Docker Compose Setup Checklist
 
-The local project checklist is:
+Use this local project checklist:
 
-1. Name the data product, consumer, and refresh cadence.
-2. Keep one DAG focused on one pipeline.
-3. Put business logic in `src/`, SQL files, dbt models, or separate containers.
-4. Mount `dags/`, `logs/`, `plugins/`, and supporting project code.
-5. Persist logs and metadata long enough to look at failures.
-6. Pin Python, provider, and system dependencies.
-7. Add at least one data check that can fail the run.
-8. Show one retry, rerun, or backfill scenario.
-9. Document the startup steps in the README.
-10. Link back to the production boundary so nobody reads the local stack as a platform.
+1. Name the data product, consumer, and refresh cadence, matching
+   [Santona Tuli]({{ '/people/santonatuli/' | relative_url }})'s emphasis on
+   marts, dashboards, business questions, and persona-driven pipeline design
+   around 43:05 and 52:54 in
+   [Modern Data Pipeline Architecture]({{ '/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/' | relative_url }}).
+2. Keep one DAG focused on one pipeline so Airflow tracks one dependency chain at a time.
+   Lars describes dependency tracking, scheduling, and retries as
+   workflow-engine responsibilities around 30:34-35:57 in
+   [DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}).
+3. Put business logic in `src/`, SQL files, dbt models, or separate containers,
+   following [Jeff Katz]({{ '/people/jeffkatz/' | relative_url }}) on keeping
+   most Airflow project code in normal Python around 55:10 in
+   [Data Engineering Career Path and Skills]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }}).
+4. Mount `dags/`, `logs/`, `plugins/`, and supporting project code, as in
+   [Daniel Egbo]({{ '/people/danielegbo/' | relative_url }})'s local Airflow
+   project around 42:48-46:52 in
+   [From Radio Astronomy to Machine Learning and Data Engineering]({{ '/podcasts/from-radio-astronomy-to-machine-learning-and-data-engineering/' | relative_url }}).
+   His setup included MinIO and Spark. It also included MySQL, environment
+   variables, and the Airflow web server.
+5. Persist logs and metadata long enough to look at failures, because Tomasz
+   treats log reading and troubleshooting as basic operating skills around 44:23
+   in
+   [DataOps and GitOps Best Practices]({{ '/podcasts/dataops-and-gitops-best-practices-for-data-teams/' | relative_url }}).
+6. Pin Python, provider, and system dependencies. Tomasz's dependency example
+   around 1:01:27 shows how an unpinned Python package can break a containerized
+   job after an API change.
+7. Add at least one data check that can fail the run. Tomasz's Airflow example
+   around 1:02:50 shows why green tasks aren't enough.
+8. Show one retry, rerun, or backfill scenario, matching Lars's workflow-engine
+   discussion around 30:34-35:57 in
+   [DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}).
+9. Document the startup steps in the README, so the project keeps the sharing
+   benefit [Gloria Quiceno]({{ '/people/gloriaquiceno/' | relative_url }})
+   describes for Docker around 21:25 in
+   [Get a Data Analytics and Data Engineering Job]({{ '/podcasts/get-data-analytics-and-data-engineering-job/' | relative_url }}).
+10. Link back to the production boundary so readers don't treat the local stack as a platform. [Mehdi OUAZZA]({{ '/people/mehdiouazza/' | relative_url }})
+    puts Airflow inside a broader platform with conventions, playbooks,
+    onboarding, and support paths around 17:22-19:25 in
+    [Scaling Data Engineering Teams]({{ '/podcasts/scaling-data-engineering-teams-self-service-platforms/' | relative_url }}).
 
 When you use the page for interview or portfolio preparation, don't stop at "I
 ran Airflow." Show that one local command starts the pipeline. Show that the

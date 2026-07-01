@@ -220,16 +220,44 @@ side of the pipeline.
 
 This sequence gives a practical starting point:
 
-1. Define the consumer, decision, and freshness need.
-2. Document product events or source agreements before collection.
-3. Write raw data to a warehouse, lake, or lakehouse that fits the data structure.
-4. Apply ingestion guardrails such as deduplication, ordering, masking, and basic validation.
-5. Model entities, relationships, metrics, marts, or features around the consumer's question.
-6. Orchestrate extraction, loading, transformation, tests, and delivery with visible dependencies.
-7. Publish schemas, ownership, and change rules.
-8. Add tests, CI/CD, observability signals, SLAs, and runbooks.
-9. Deliver modeled outputs to dashboards, ML systems, support tools, sales tools, or product experiences.
-10. Review usage, incidents, and stale data so the pipeline keeps matching the workflow it supports.
+1. Define the consumer, decision, and freshness need, using Santona's link
+   between pipeline design, the business question, and the entities that answer it
+   ([pipeline keys and entities at 39:23-43:05]({{ '/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/' | relative_url }})).
+2. Document product events or source agreements before collection, following
+   Arpit's tracking-plan discussion of event names, properties, types, and
+   ownership before instrumentation
+   ([tracking plan ownership at 13:34-23:27]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }})).
+3. Write raw data to a warehouse, lake, or lakehouse that fits the data
+   structure, since Natalie separates raw ingestion from marts and contrasts
+   warehouse and lake use cases
+   ([ELT raw-to-marts split at 17:55-19:26]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})).
+4. Apply ingestion guardrails such as deduplication, ordering, masking, and
+   basic validation, echoing Santona's ingestion-stage protections before
+   human-facing destinations
+   ([ingestion guardrails at 37:10-39:22]({{ '/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/' | relative_url }})).
+5. Model entities, relationships, metrics, marts, or features around the
+   consumer's question, because Santona places modeled business entities between
+   raw ingestion and final answers
+   ([modeled data layers at 39:23-43:05]({{ '/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/' | relative_url }})).
+6. Orchestrate extraction, loading, transformation, tests, and delivery with
+   visible dependencies, as Natalie separates Airflow, Airbyte, and dbt by job
+   responsibility
+   ([Airflow Airbyte and dbt roles at 30:59-33:45]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})).
+7. Publish schemas, ownership, and change rules, using Mehdi's Kafka example
+   where schemas define types and change processes before streams become shared
+   dependencies
+   ([Kafka schema-change rules at 23:26-26:52]({{ '/podcasts/scaling-data-engineering-teams-self-service-platforms/' | relative_url }})).
+8. Add tests, CI/CD, observability signals, SLAs, and runbooks, turning Barr's
+   observability signals into explicit checks and recovery paths
+   ([observability signals at 16:38-19:10]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }})).
+9. Deliver modeled outputs to dashboards, ML systems, support tools, sales
+   tools, or product experiences, following Arpit's collection-to-activation
+   flow
+   ([collection-to-activation flow at 22:50-30:03 and 56:08-1:00:29]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }})).
+10. Review usage, incidents, and stale data so the pipeline keeps matching the
+    workflow it supports, since Barr's SLA framing makes ongoing review part of
+    trust, not cleanup after the fact
+    ([freshness SLAs at 35:24-40:43]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }})).
 
 That sequence isn't a universal stack prescription. Teams start by building the
 smallest pipeline that satisfies the use case. They add

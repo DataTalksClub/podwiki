@@ -18175,31 +18175,31 @@
       "source": "article:how_to:airflow-docker-compose",
       "target": "person:danielegbo",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:how_to:airflow-docker-compose",
       "target": "person:gloriaquiceno",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:how_to:airflow-docker-compose",
       "target": "person:jeffkatz",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:how_to:airflow-docker-compose",
       "target": "person:larsalbertsson",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:how_to:airflow-docker-compose",
       "target": "person:mehdiouazza",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:how_to:airflow-docker-compose",
@@ -18211,19 +18211,19 @@
       "source": "article:how_to:airflow-docker-compose",
       "target": "person:santonatuli",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:how_to:airflow-docker-compose",
       "target": "person:tomaszhinc",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:how_to:airflow-docker-compose",
       "target": "podcast:data-engineering-career-path-and-skills",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:how_to:airflow-docker-compose",
@@ -18235,31 +18235,31 @@
       "source": "article:how_to:airflow-docker-compose",
       "target": "podcast:dataops-and-gitops-best-practices-for-data-teams",
       "kind": "article-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "article:how_to:airflow-docker-compose",
       "target": "podcast:dataops-principles-and-scalable-data-platforms",
       "kind": "article-link",
-      "weight": 2
+      "weight": 8
     },
     {
       "source": "article:how_to:airflow-docker-compose",
       "target": "podcast:from-radio-astronomy-to-machine-learning-and-data-engineering",
       "kind": "article-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "article:how_to:airflow-docker-compose",
       "target": "podcast:get-data-analytics-and-data-engineering-job",
       "kind": "article-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "article:how_to:airflow-docker-compose",
       "target": "podcast:modern-data-pipelines-orchestration-ingestion-modeling",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:how_to:airflow-docker-compose",
@@ -18271,7 +18271,7 @@
       "source": "article:how_to:airflow-docker-compose",
       "target": "podcast:scaling-data-engineering-teams-self-service-platforms",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:how_to:airflow-docker-compose",
@@ -18409,19 +18409,19 @@
       "source": "article:how_to:how-to-build-data-pipelines",
       "target": "podcast:data-engineering-tools-modern-data-stack",
       "kind": "article-link",
-      "weight": 12
+      "weight": 16
     },
     {
       "source": "article:how_to:how-to-build-data-pipelines",
       "target": "podcast:data-led-growth-event-tracking-and-reverse-etl",
       "kind": "article-link",
-      "weight": 6
+      "weight": 10
     },
     {
       "source": "article:how_to:how-to-build-data-pipelines",
       "target": "podcast:data-quality-data-observability-data-reliability",
       "kind": "article-link",
-      "weight": 4
+      "weight": 8
     },
     {
       "source": "article:how_to:how-to-build-data-pipelines",
@@ -18439,13 +18439,13 @@
       "source": "article:how_to:how-to-build-data-pipelines",
       "target": "podcast:modern-data-pipelines-orchestration-ingestion-modeling",
       "kind": "article-link",
-      "weight": 10
+      "weight": 16
     },
     {
       "source": "article:how_to:how-to-build-data-pipelines",
       "target": "podcast:scaling-data-engineering-teams-self-service-platforms",
       "kind": "article-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "article:how_to:how-to-build-data-pipelines",
@@ -19135,25 +19135,25 @@
       "source": "article:roadmap:data-engineer-roadmap",
       "target": "person:adrianbrudaru",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:roadmap:data-engineer-roadmap",
       "target": "person:christopherbergh",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:roadmap:data-engineer-roadmap",
       "target": "person:jeffkatz",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:roadmap:data-engineer-roadmap",
       "target": "person:larsalbertsson",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:roadmap:data-engineer-roadmap",
@@ -19165,49 +19165,49 @@
       "source": "article:roadmap:data-engineer-roadmap",
       "target": "person:nataliekwong",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:roadmap:data-engineer-roadmap",
       "target": "person:slawomirtulski",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:roadmap:data-engineer-roadmap",
       "target": "podcast:data-engineering-career-path-and-skills",
       "kind": "article-link",
-      "weight": 8
+      "weight": 10
     },
     {
       "source": "article:roadmap:data-engineer-roadmap",
       "target": "podcast:data-engineering-tools-modern-data-stack",
       "kind": "article-link",
-      "weight": 6
+      "weight": 8
     },
     {
       "source": "article:roadmap:data-engineer-roadmap",
       "target": "podcast:dataops-automation-and-reliable-data-pipelines",
       "kind": "article-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "article:roadmap:data-engineer-roadmap",
       "target": "podcast:dataops-principles-and-scalable-data-platforms",
       "kind": "article-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "article:roadmap:data-engineer-roadmap",
       "target": "podcast:get-data-engineering-job-prep-and-interview",
       "kind": "article-link",
-      "weight": 10
+      "weight": 12
     },
     {
       "source": "article:roadmap:data-engineer-roadmap",
       "target": "podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for",
       "kind": "article-link",
-      "weight": 6
+      "weight": 8
     },
     {
       "source": "article:roadmap:data-engineer-roadmap",
@@ -19219,7 +19219,7 @@
       "source": "article:roadmap:data-engineer-roadmap",
       "target": "podcast:trends-in-modern-data-engineering",
       "kind": "article-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "article:roadmap:data-engineer-roadmap",
@@ -19453,7 +19453,7 @@
       "source": "article:roadmap:data-product-manager-roadmap",
       "target": "person:gregcoquillo",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:roadmap:data-product-manager-roadmap",
@@ -19471,7 +19471,7 @@
       "source": "article:roadmap:data-product-manager-roadmap",
       "target": "person:saramenefee",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:roadmap:data-product-manager-roadmap",
@@ -19489,7 +19489,7 @@
       "source": "article:roadmap:data-product-manager-roadmap",
       "target": "podcast:building-and-scaling-ai-data-products-with-mlops",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:roadmap:data-product-manager-roadmap",
@@ -19531,7 +19531,7 @@
       "source": "article:roadmap:data-product-manager-roadmap",
       "target": "podcast:product-designer-to-data-product-manager",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:roadmap:data-product-manager-roadmap",
@@ -20233,7 +20233,7 @@
       "source": "article:roadmap:llm-rag-production-roadmap",
       "target": "person:meryemarik",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:roadmap:llm-rag-production-roadmap",
@@ -20263,7 +20263,7 @@
       "source": "article:roadmap:llm-rag-production-roadmap",
       "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
       "kind": "article-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "article:roadmap:llm-rag-production-roadmap",

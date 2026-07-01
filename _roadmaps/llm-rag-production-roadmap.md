@@ -128,10 +128,15 @@ behavior measurable. Human labels matter too.
 
 ## Stage 5: Harden Production
 
-Production work should make cost, latency, and security visible. Meryem's LLM
-deployment episode covers open-source versus API tradeoffs at 16:48 and
-provider drift at 18:46. At 49:44 and 51:35, prototypes and production serving
-become part of the architecture decision. Latency and cost matter there too.
+Production work should make cost, latency, and security visible. At 16:48 and
+18:46 in
+[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}),
+[Meryem Arik]({{ '/people/meryemarik/' | relative_url }}) compares open-source
+and API tradeoffs, then names provider drift as a production risk. At 49:44 and
+51:35 in
+[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}),
+she moves from prototype APIs to production serving choices, including latency
+and cost.
 
 [Bartosz Mikulski]({{ '/people/bartoszmikulski/' | relative_url }}) gives the
 cost-control version in
