@@ -140,7 +140,7 @@ products. She also includes Slack help, pairing, and knowledge bases
 (49:37-56:08 in
 [How to Transition from Design to Data Product Manager]({{ '/podcasts/product-designer-to-data-product-manager/' | relative_url }})).
 That connects the topic to the [data product manager]({{ '/guides/data-product-manager/' | relative_url }})
-and [data product manager role]({{ '/guides/data-product-manager-role/' | relative_url }})
+and [data product manager]({{ '/guides/data-product-manager/' | relative_url }})
 articles.
 
 Hannemann adds a useful distinction for ML-heavy data products. A product owner

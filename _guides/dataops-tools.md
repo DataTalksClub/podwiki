@@ -34,7 +34,7 @@ the tool categories need to become a shared platform layer.
 Use [Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }})
 for the broader tool map across ingestion, orchestration, storage, and
 transformation. That broader map also covers activation and analytics.
-Use [DataOps vs Data Engineering]({{ '/comparisons/dataops-vs-data-engineering/' | relative_url }})
+Use [DataOps]({{ '/wiki/dataops/' | relative_url }})
 when you need the boundary between the operating practice and the engineering
 role.
 

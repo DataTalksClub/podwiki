@@ -109,19 +109,19 @@ data-engineering-manager/data-engineer-manager cluster was consolidated into
 | data-engineering | data-engineering | **done: slug collision removed** |
 | data-engineering-pipeline-project | data-engineering-portfolio-projects | |
 | data-engineering-tools | data-engineering-tools | **done: slug collision merged** |
-| data-observability-for-data-engineering | data-observability | |
+| data-observability-for-data-engineering | data-observability | **keep: practical guide for the data-engineering-specific observability query** |
 | dataops | dataops | **done: slug collision removed** |
-| dataops-tools | dataops | |
-| dataops-vs-data-engineering | dataops | comparison → fold in |
-| data-product-manager | data-product-management | |
-| data-product-manager-role | data-product-management | dup |
+| dataops-tools | dataops | **keep: guide for practical DataOps stack/tool selection** |
+| dataops-vs-data-engineering | dataops | **done: folded into `_wiki/dataops.md`** |
+| data-product-manager | data-product-management | **keep: short role guide linked to canonical wiki page** |
+| data-product-manager-role | data-product-management | **done: duplicate removed; links retargeted to `_guides/data-product-manager.md`** |
 | data-science-for-managers | leadership | **done: consolidated into `_wiki/leadership.md`** |
-| data-scientist-interview | data-scientist-interview-roadmap | |
-| data-scientist | data-scientist-role | |
+| data-scientist-interview | data-scientist-interview-roadmap | **keep: keyword guide; roadmap remains `_wiki/data-scientist-interview-roadmap.md`** |
+| data-scientist | data-scientist-role | **keep: keyword guide linked to canonical role page** |
 | data-scientist-to-data-engineer | career-transition | |
-| designing-machine-learning-systems | machine-learning-system-design | book title |
-| fundamentals-of-data-engineering | data-engineering | book title |
-| how-to-build-data-pipelines | data-pipelines | |
+| designing-machine-learning-systems | machine-learning-system-design | book title; merge/delete in a later pass |
+| fundamentals-of-data-engineering | data-engineering | book title; merge/delete in a later pass |
+| how-to-build-data-pipelines | data-pipelines | **keep: procedural how-to in `_how_tos`** |
 | interpretable-machine-learning | interpretability | |
 | llm-tools | llms | or ai-tooling |
 | machine-learning-for-software-engineers | software-engineer-to-machine-learning | |

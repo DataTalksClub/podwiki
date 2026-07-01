@@ -179,7 +179,7 @@ Good project choices include:
   [Data Observability]({{ '/wiki/data-observability/' | relative_url }}))
 - a backfill and schema-change project that starts with a working pipeline,
   breaks it with late data, and shows detection plus recovery
-  ([DataOps vs Data Engineering]({{ '/comparisons/dataops-vs-data-engineering/' | relative_url }}))
+  ([DataOps]({{ '/wiki/dataops/' | relative_url }}))
 - a warehouse-centered ELT project that uses SQL transformations, tests, docs,
   a BI-ready mart, and a clear consumer
   ([Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }}),

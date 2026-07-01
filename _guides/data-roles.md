@@ -356,7 +356,7 @@ For product paths, start with
 and [Data Products]({{ '/wiki/data-products/' | relative_url }}). Then use
 [Data Product Adoption]({{ '/wiki/data-product-adoption/' | relative_url }})
 and
-[Data Product Manager Role]({{ '/guides/data-product-manager-role/' | relative_url }}).
+[Data Product Manager]({{ '/guides/data-product-manager/' | relative_url }}).
 
 The practical sequence is the same across roles. Choose one target, build one
 project that proves the target responsibility, and write the case study in the

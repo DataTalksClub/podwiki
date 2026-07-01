@@ -2,12 +2,12 @@
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
     "wikis": 179,
-    "articles": 51,
+    "articles": 49,
     "podcasts": 202,
     "persons": 438,
     "topics": 147,
-    "nodes": 1017,
-    "links": 10583
+    "nodes": 1015,
+    "links": 10511
   },
   "nodes": [
     {
@@ -132,6 +132,17 @@
       "keyword": "data observability for data engineering"
     },
     {
+      "id": "article:guide:data-product-manager",
+      "type": "article",
+      "collection": "guide",
+      "label": "Data Product Manager",
+      "title": "Data Product Manager",
+      "url": "/guides/data-product-manager/",
+      "count": 1,
+      "search": "Data Product Manager A podcast grounded definition of the data product manager role: who they serve, what they own, and how they turn data work into adopted products.",
+      "keyword": "data product manager"
+    },
+    {
       "id": "article:roadmap:data-product-manager-roadmap",
       "type": "article",
       "collection": "roadmap",
@@ -141,17 +152,6 @@
       "count": 1,
       "search": "Data Product Manager Roadmap A podcast backed roadmap for data product managers, from discovery and metrics to roadmaps, data quality, adoption, and experimentation.",
       "keyword": "data product manager roadmap"
-    },
-    {
-      "id": "article:guide:data-product-manager",
-      "type": "article",
-      "collection": "guide",
-      "label": "Data Product Manager Role",
-      "title": "Data Product Manager Role",
-      "url": "/guides/data-product-manager/",
-      "count": 1,
-      "search": "Data Product Manager Role A podcast grounded definition of the data product manager role: who they serve, what they own, and how they turn data work into adopted products.",
-      "keyword": "data product manager"
     },
     {
       "id": "article:comparison:data-product-manager-vs-product-manager",
@@ -240,17 +240,6 @@
       "count": 1,
       "search": "DataOps Tools: What Your Stack Should Cover A podcast backed guide to DataOps tool categories for version control, CI/CD, orchestration, testing, observability, lineage, deployment, incident response, and lightweight starts.",
       "keyword": "dataops tools"
-    },
-    {
-      "id": "article:comparison:dataops-vs-data-engineering",
-      "type": "article",
-      "collection": "comparison",
-      "label": "DataOps vs Data Engineering: What Changes in Practice?",
-      "title": "DataOps vs Data Engineering: What Changes in Practice?",
-      "url": "/comparisons/dataops-vs-data-engineering/",
-      "count": 1,
-      "search": "DataOps vs Data Engineering: What Changes in Practice? A podcast grounded comparison of DataOps and data engineering: what each discipline owns, where they overlap, and what changes when teams add DataOps practices.",
-      "keyword": "data ops"
     },
     {
       "id": "article:comparison:delta-lake-vs-apache-iceberg",
@@ -559,17 +548,6 @@
       "count": 1,
       "search": "Solopreneur Data Scientist: A Data and AI Career Guide A podcast backed guide to solopreneur careers for data and AI professionals: what a solopreneur is, how solo data work differs from freelancing, and how to build income without losing focus.",
       "keyword": "solopreneur"
-    },
-    {
-      "id": "article:guide:data-product-manager-role",
-      "type": "article",
-      "collection": "guide",
-      "label": "What Does a Data Product Manager Do?",
-      "title": "What Does a Data Product Manager Do?",
-      "url": "/guides/data-product-manager-role/",
-      "count": 1,
-      "search": "What Does a Data Product Manager Do? A practical explanation of the data product manager role, based on podcast discussions about discovery, metrics, roadmaps, ownership, and data product adoption.",
-      "keyword": "data product management"
     },
     {
       "id": "person:aaishamuhammad",
@@ -7949,7 +7927,7 @@
       "label": "Orchestration",
       "title": "Orchestration",
       "url": "/wiki/",
-      "count": 8,
+      "count": 7,
       "search": "Orchestration"
     },
     {
@@ -10548,13 +10526,7 @@
       "source": "article:comparison:data-product-manager-vs-product-manager",
       "target": "article:guide:data-product-manager",
       "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:comparison:data-product-manager-vs-product-manager",
-      "target": "article:guide:data-product-manager-role",
-      "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:comparison:data-product-manager-vs-product-manager",
@@ -10957,204 +10929,6 @@
       "target": "wiki:self-service-data-platforms",
       "kind": "article-link",
       "weight": 2
-    },
-    {
-      "source": "article:comparison:dataops-vs-data-engineering",
-      "target": "article:comparison:mlops-vs-dataops",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:comparison:dataops-vs-data-engineering",
-      "target": "person:barrmoses",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:comparison:dataops-vs-data-engineering",
-      "target": "person:christopherbergh",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:comparison:dataops-vs-data-engineering",
-      "target": "person:larsalbertsson",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:comparison:dataops-vs-data-engineering",
-      "target": "person:nataliekwong",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:comparison:dataops-vs-data-engineering",
-      "target": "person:tomaszhinc",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:comparison:dataops-vs-data-engineering",
-      "target": "podcast:data-engineering-tools-modern-data-stack",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:comparison:dataops-vs-data-engineering",
-      "target": "podcast:data-quality-data-observability-data-reliability",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:comparison:dataops-vs-data-engineering",
-      "target": "podcast:dataops-and-gitops-best-practices-for-data-teams",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:comparison:dataops-vs-data-engineering",
-      "target": "podcast:dataops-automation-and-reliable-data-pipelines",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:comparison:dataops-vs-data-engineering",
-      "target": "podcast:dataops-for-data-engineering",
-      "kind": "article-link",
-      "weight": 8
-    },
-    {
-      "source": "article:comparison:dataops-vs-data-engineering",
-      "target": "podcast:dataops-principles-and-scalable-data-platforms",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:comparison:dataops-vs-data-engineering",
-      "target": "topic:orchestration",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:comparison:dataops-vs-data-engineering",
-      "target": "wiki:analytics-engineering",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:comparison:dataops-vs-data-engineering",
-      "target": "wiki:ci-cd",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:comparison:dataops-vs-data-engineering",
-      "target": "wiki:ci-cd",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:comparison:dataops-vs-data-engineering",
-      "target": "wiki:data-engineering",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:comparison:dataops-vs-data-engineering",
-      "target": "wiki:data-engineering",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:comparison:dataops-vs-data-engineering",
-      "target": "wiki:data-engineering-platforms",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:comparison:dataops-vs-data-engineering",
-      "target": "wiki:data-engineering-platforms",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:comparison:dataops-vs-data-engineering",
-      "target": "wiki:data-observability",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:comparison:dataops-vs-data-engineering",
-      "target": "wiki:data-pipelines",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:comparison:dataops-vs-data-engineering",
-      "target": "wiki:data-pipelines",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:comparison:dataops-vs-data-engineering",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:comparison:dataops-vs-data-engineering",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:comparison:dataops-vs-data-engineering",
-      "target": "wiki:dataops",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:comparison:dataops-vs-data-engineering",
-      "target": "wiki:dataops",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:comparison:dataops-vs-data-engineering",
-      "target": "wiki:dataops-platforms",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:comparison:dataops-vs-data-engineering",
-      "target": "wiki:dataops-platforms",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:comparison:dataops-vs-data-engineering",
-      "target": "wiki:mlops",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:comparison:dataops-vs-data-engineering",
-      "target": "wiki:mlops",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:comparison:dataops-vs-data-engineering",
-      "target": "wiki:modern-data-stack",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:comparison:dataops-vs-data-engineering",
-      "target": "wiki:orchestration",
-      "kind": "article-link",
-      "weight": 4
     },
     {
       "source": "article:comparison:delta-lake-vs-apache-iceberg",
@@ -12486,13 +12260,7 @@
       "source": "article:comparison:product-owner-vs-product-manager",
       "target": "article:guide:data-product-manager",
       "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:comparison:product-owner-vs-product-manager",
-      "target": "article:guide:data-product-manager-role",
-      "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:comparison:product-owner-vs-product-manager",
@@ -13672,12 +13440,6 @@
     },
     {
       "source": "article:guide:data-engineering-podcast",
-      "target": "article:comparison:dataops-vs-data-engineering",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-podcast",
       "target": "article:guide:fundamentals-of-data-engineering",
       "kind": "article-link",
       "weight": 2
@@ -14034,7 +13796,7 @@
       "source": "article:guide:data-engineering-podcast",
       "target": "wiki:dataops",
       "kind": "article-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "article:guide:data-engineering-podcast",
@@ -14093,12 +13855,6 @@
     {
       "source": "article:guide:data-engineering-podcast",
       "target": "wiki:streaming",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-observability-for-data-engineering",
-      "target": "article:comparison:dataops-vs-data-engineering",
       "kind": "article-link",
       "weight": 2
     },
@@ -14232,7 +13988,7 @@
       "source": "article:guide:data-observability-for-data-engineering",
       "target": "wiki:dataops",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:guide:data-observability-for-data-engineering",
@@ -14278,13 +14034,13 @@
     },
     {
       "source": "article:guide:data-product-manager",
-      "target": "article:comparison:product-owner-vs-product-manager",
+      "target": "article:comparison:data-product-manager-vs-product-manager",
       "kind": "article-link",
       "weight": 2
     },
     {
       "source": "article:guide:data-product-manager",
-      "target": "article:guide:data-product-manager-role",
+      "target": "article:comparison:product-owner-vs-product-manager",
       "kind": "article-link",
       "weight": 2
     },
@@ -14379,188 +14135,8 @@
       "weight": 5
     },
     {
-      "source": "article:guide:data-product-manager-role",
-      "target": "article:comparison:product-owner-vs-product-manager",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-product-manager-role",
-      "target": "person:annahannemann",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:data-product-manager-role",
-      "target": "person:caitlinmoorman",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:data-product-manager-role",
-      "target": "person:geojolly",
-      "kind": "article-link",
-      "weight": 10
-    },
-    {
-      "source": "article:guide:data-product-manager-role",
-      "target": "person:gregcoquillo",
-      "kind": "article-link",
-      "weight": 16
-    },
-    {
-      "source": "article:guide:data-product-manager-role",
-      "target": "person:jakobgraff",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-product-manager-role",
-      "target": "person:liesbethdingemans",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-product-manager-role",
-      "target": "person:lorismarini",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-product-manager-role",
-      "target": "podcast:ab-testing-and-product-experimentation",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-product-manager-role",
-      "target": "podcast:ai-ml-product-design-and-experimentation",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-product-manager-role",
-      "target": "podcast:building-and-scaling-ai-data-products-with-mlops",
-      "kind": "article-link",
-      "weight": 16
-    },
-    {
-      "source": "article:guide:data-product-manager-role",
-      "target": "podcast:building-data-products-product-owner-vs-product-manager",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:data-product-manager-role",
-      "target": "podcast:data-professionals-business-skills-in-saas",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-product-manager-role",
-      "target": "podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-product-manager-role",
-      "target": "podcast:ml-product-manager-and-mlops-platform-strategy",
-      "kind": "article-link",
-      "weight": 10
-    },
-    {
-      "source": "article:guide:data-product-manager-role",
-      "target": "wiki:data-engineering-platforms",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-product-manager-role",
-      "target": "wiki:data-product-adoption",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-product-manager-role",
-      "target": "wiki:data-product-adoption",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-product-manager-role",
-      "target": "wiki:data-product-management",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-product-manager-role",
-      "target": "wiki:data-product-management",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-product-manager-role",
-      "target": "wiki:data-products",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-product-manager-role",
-      "target": "wiki:data-products",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-product-manager-role",
-      "target": "wiki:experimentation-and-causal-inference",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-product-manager-role",
-      "target": "wiki:metrics",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-product-manager-role",
-      "target": "wiki:metrics",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-product-manager-role",
-      "target": "wiki:ml-product-manager-role",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-product-manager-role",
-      "target": "wiki:ml-product-manager-role",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-product-manager-role",
-      "target": "wiki:mlops",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-product-manager-role",
-      "target": "wiki:product-analytics",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-product-manager-role",
-      "target": "wiki:product-analytics",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
       "source": "article:guide:data-roles",
-      "target": "article:guide:data-product-manager-role",
+      "target": "article:guide:data-product-manager",
       "kind": "article-link",
       "weight": 2
     },
@@ -15562,12 +15138,6 @@
     },
     {
       "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "article:comparison:dataops-vs-data-engineering",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
       "target": "article:comparison:mlops-vs-dataops",
       "kind": "article-link",
       "weight": 2
@@ -15834,7 +15404,7 @@
       "source": "article:guide:data-scientist-to-data-engineer",
       "target": "wiki:dataops",
       "kind": "article-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "article:guide:data-scientist-to-data-engineer",
@@ -15899,12 +15469,6 @@
     {
       "source": "article:guide:data-scientist-to-data-engineer",
       "target": "wiki:orchestration",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:dataops-tools",
-      "target": "article:comparison:dataops-vs-data-engineering",
       "kind": "article-link",
       "weight": 2
     },
@@ -16110,7 +15674,7 @@
       "source": "article:guide:dataops-tools",
       "target": "wiki:dataops",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:guide:dataops-tools",
@@ -19318,12 +18882,6 @@
     },
     {
       "source": "article:roadmap:data-analyst-to-data-engineer",
-      "target": "article:comparison:dataops-vs-data-engineering",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:roadmap:data-analyst-to-data-engineer",
       "target": "article:guide:data-engineering-pipeline-project",
       "kind": "article-link",
       "weight": 2
@@ -19554,7 +19112,7 @@
       "source": "article:roadmap:data-analyst-to-data-engineer",
       "target": "wiki:dataops",
       "kind": "article-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "article:roadmap:data-analyst-to-data-engineer",
@@ -48472,12 +48030,6 @@
     },
     {
       "source": "wiki:data-product-management",
-      "target": "article:guide:data-product-manager-role",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:data-product-management",
       "target": "article:roadmap:data-product-manager-roadmap",
       "kind": "wiki-link",
       "weight": 4
@@ -48528,7 +48080,7 @@
       "source": "wiki:data-product-management",
       "target": "podcast:building-and-scaling-ai-data-products-with-mlops",
       "kind": "wiki-link",
-      "weight": 18
+      "weight": 20
     },
     {
       "source": "wiki:data-product-management",
@@ -48708,13 +48260,7 @@
       "source": "wiki:data-products",
       "target": "article:guide:data-product-manager",
       "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:data-products",
-      "target": "article:guide:data-product-manager-role",
-      "kind": "wiki-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "wiki:data-products",
@@ -51456,13 +51002,13 @@
       "source": "wiki:dataops",
       "target": "podcast:data-engineering-tools-modern-data-stack",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "wiki:dataops",
       "target": "podcast:data-quality-data-observability-data-reliability",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 8
     },
     {
       "source": "wiki:dataops",
@@ -51480,13 +51026,13 @@
       "source": "wiki:dataops",
       "target": "podcast:dataops-for-data-engineering",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "wiki:dataops",
       "target": "podcast:dataops-principles-and-scalable-data-platforms",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 10
     },
     {
       "source": "wiki:dataops",
@@ -51528,7 +51074,7 @@
       "source": "wiki:dataops",
       "target": "wiki:data-engineering",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:dataops",

@@ -142,7 +142,7 @@ operational decision.
 For the written synthesis, use these pages:
 
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})
-- [DataOps vs Data Engineering]({{ '/comparisons/dataops-vs-data-engineering/' | relative_url }})
+- [DataOps]({{ '/wiki/dataops/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [Data Observability]({{ '/wiki/data-observability/' | relative_url }})
 

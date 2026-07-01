@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Data Product Manager Role"
+title: "Data Product Manager"
 keyword: "data product manager"
 summary: "A podcast-grounded definition of the data product manager role: who they serve, what they own, and how they turn data work into adopted products."
 search_intent: "Define what a data product manager is, when a team needs one, and how the role differs from analytics, data science, and product owner work."
@@ -124,9 +124,9 @@ layer or a decision-support workflow. In each case, someone has to own the
 product judgment. Without that owner, the team can build technically correct
 dashboards, models, or tables that nobody uses.
 
-For a responsibility-by-responsibility breakdown, read
-[the companion role article]({{ '/guides/data-product-manager-role/' | relative_url }}).
-Use
+Use [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
+for the broader reference page. Use
 [Product Owner vs Product Manager]({{ '/comparisons/product-owner-vs-product-manager/' | relative_url }})
-for the title boundary. For the broader reference page, use
-[Data Product Management]({{ '/wiki/data-product-management/' | relative_url }}).
+for the title boundary, and
+[Data Product Manager vs Product Manager]({{ '/comparisons/data-product-manager-vs-product-manager/' | relative_url }})
+for the closest role comparison.

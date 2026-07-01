@@ -59,8 +59,17 @@ problem. Planning and engineering follow
 
 Coquillo uses the same problem-first rule for AI products. Customer journey
 mapping and domain knowledge come before roadmap commitments. So do interviews,
-documentation review, the Five Whys, and hypothesis testing
+documentation review and the Five Whys. Hypothesis testing belongs there too
 ([14:03-26:25]({{ '/podcasts/building-and-scaling-ai-data-products-with-mlops/' | relative_url }})).
+
+His manufacturing example shows how internal data products can serve several
+teams at the same time. Sales and marketing teams used the work. Finance,
+supply chain, and program teams used it too.
+
+The sales team used curated pipelines and dashboards to build contracts faster.
+Those dashboards combined routing, capacity, and demand data. Pricing,
+competitor, and marketing data belonged in the same product
+([4:24-7:13]({{ '/podcasts/building-and-scaling-ai-data-products-with-mlops/' | relative_url }})).
 
 The common role boundary is ownership of the why and the what. The PM doesn't
 own every technical detail. [Geo Jolly]({{ '/people/geojolly/' | relative_url }})
@@ -206,12 +215,9 @@ stakeholder value matter too
 For a learning path through these responsibilities, use the
 [Data Product Manager Roadmap]({{ '/roadmaps/data-product-manager-roadmap/' | relative_url }}).
 For a role-focused description, use the
-[Data Product Manager Guide]({{ '/guides/data-product-manager/' | relative_url }})
-and
-[Data Product Manager Role]({{ '/guides/data-product-manager-role/' | relative_url }}).
-Those pages build on the same archive structure. They cover discovery, metrics,
-technical literacy, and roadmaps. Adoption and portfolio evidence belong there
-too.
+[Data Product Manager]({{ '/guides/data-product-manager/' | relative_url }}).
+It covers discovery, metrics, and technical literacy. It also covers roadmaps,
+adoption, and portfolio evidence.
 
 ## Metrics, Experiments, and Success Criteria
 
@@ -279,8 +285,7 @@ These pages cover adjacent artifacts, roles, and operating systems:
 - [Data Products]({{ '/wiki/data-products/' | relative_url }})
 - [Data Product Adoption]({{ '/wiki/data-product-adoption/' | relative_url }})
 - [Data Product Manager Roadmap]({{ '/roadmaps/data-product-manager-roadmap/' | relative_url }})
-- [Data Product Manager Guide]({{ '/guides/data-product-manager/' | relative_url }})
-- [Data Product Manager Role]({{ '/guides/data-product-manager-role/' | relative_url }})
+- [Data Product Manager]({{ '/guides/data-product-manager/' | relative_url }})
 - [Data Product Owner vs Data Product Manager]({{ '/comparisons/data-product-owner-vs-data-product-manager/' | relative_url }})
 - [Product Owner vs Product Manager]({{ '/comparisons/product-owner-vs-product-manager/' | relative_url }})
 - [ML Product Manager Role]({{ '/wiki/ml-product-manager-role/' | relative_url }})

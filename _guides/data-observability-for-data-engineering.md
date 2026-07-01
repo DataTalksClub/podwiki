@@ -266,5 +266,5 @@ For adjacent context, use
 [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).
 [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}),
 [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}), and
-[DataOps vs Data Engineering]({{ '/comparisons/dataops-vs-data-engineering/' | relative_url }})
+[DataOps]({{ '/wiki/dataops/' | relative_url }})
 cover the platform and role boundaries.

@@ -273,7 +273,7 @@ then turn the automation into pipeline evidence.
 For reliability context, use
 [DataOps]({{ '/wiki/dataops/' | relative_url }}),
 [Data Observability]({{ '/wiki/data-observability/' | relative_url }}), and
-[DataOps vs Data Engineering]({{ '/comparisons/dataops-vs-data-engineering/' | relative_url }}).
+[DataOps]({{ '/wiki/dataops/' | relative_url }}).
 
 ## Stage 5: Package The Portfolio For Hiring
 

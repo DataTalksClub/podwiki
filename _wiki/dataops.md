@@ -138,6 +138,44 @@ test it with realistic data, and rerun it after failure. They should also be
 able to observe its outputs and fix it without reverse-engineering the whole
 pipeline.
 
+## DataOps vs Data Engineering
+
+[Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}) builds the
+data path from source systems to consumers. [DataOps]({{ '/wiki/dataops/' | relative_url }})
+makes that path reviewable, testable, observable, and recoverable. The
+distinction is build work versus operating discipline, not one job title versus
+another.
+
+Kwong's modern-stack episode shows the engineering side. She covers ETL and
+ELT, dbt-style warehouse modeling, and Airflow orchestration. CDC and schema
+evolution belong in the same engineering discussion
+([3:46-12:39 and 30:59-48:58]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})).
+Those choices define how data moves, where business logic lives, and how
+consumers receive the output.
+
+Bergh's DataOps episodes add the operating layer. Teams use version control and
+CI/CD to review and release pipeline changes. Regression tests and realistic
+test data check those changes before production.
+
+Deployment automation, production monitoring, runbooks, and on-call readiness
+help teams recover
+([30:55-50:29]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }})).
+Albertsson adds the platform version. His version uses self-service, immutable
+pipelines, reproducibility, and workflow engines. Quality automation and lineage
+make the same platform easier to operate
+([7:52-46:52]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }})).
+
+The boundary shows up most clearly during incidents. A data engineer may fix a
+bad transformation or source schema. DataOps practice makes sure the team
+knows who owns the dataset and why the alert fired. The team also needs to know
+how to replay the job and prevent the same silent failure next time.
+
+Moses's observability discussion grounds that difference. A scheduled job can
+succeed while the data is still wrong. Teams need freshness, volume, and
+distribution signals. Schema and lineage signals matter too. SLAs and runbooks
+make those signals operational
+([16:38-41:03]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }})).
+
 ## GitOps and Team Enablement
 
 [Tomasz Hinc]({{ '/people/tomaszhinc/' | relative_url }}) adds the
