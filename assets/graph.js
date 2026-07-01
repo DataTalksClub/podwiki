@@ -12,6 +12,10 @@
     topic: "#0b7285",
     wiki: "#2c573e",
     article: "#2563eb",
+    guide: "#2563eb",
+    comparison: "#7c3aed",
+    roadmap: "#d97706",
+    how_to: "#0b7285",
     podcast: "#d97706",
     person: "#7c3aed",
   };
@@ -19,6 +23,10 @@
     topic: "Topic",
     wiki: "Wiki",
     article: "Content",
+    guide: "Guide",
+    comparison: "Comparison",
+    roadmap: "Roadmap",
+    how_to: "How-To",
     podcast: "Podcast Summary",
     person: "Person",
   };
@@ -64,6 +72,20 @@
 
   function nodeUrl(node) {
     return siteUrl(node.url || `/graph.html#${encodeURIComponent(node.id)}`);
+  }
+
+  function nodeLabel(node) {
+    if (node.type === "article" && node.collection) {
+      return labels[node.collection] || labels.article;
+    }
+    return labels[node.type] || node.type;
+  }
+
+  function nodeColor(node) {
+    if (node.type === "article" && node.collection) {
+      return colors[node.collection] || colors.article;
+    }
+    return colors[node.type] || "#475467";
   }
 
   function graphUrl(node) {
@@ -175,7 +197,7 @@
       const isNeighbor = selectedNeighbors.has(node.id);
       const dim = selected && !isSelected && !isNeighbor;
       ctx.globalAlpha = dim ? 0.25 : 1;
-      ctx.fillStyle = colors[node.type] || "#475467";
+      ctx.fillStyle = nodeColor(node);
       ctx.beginPath();
       ctx.arc(p.x, p.y, isSelected ? r + 4 : r, 0, Math.PI * 2);
       ctx.fill();
@@ -225,7 +247,10 @@
         <p class="muted">Search or click a node to inspect links.</p>
         <dl class="graph-stats">
           <div><dt>Wiki</dt><dd>${counts.wikis || 0}</dd></div>
-          <div><dt>Content</dt><dd>${counts.articles || 0}</dd></div>
+          <div><dt>Guides</dt><dd>${counts.guides || 0}</dd></div>
+          <div><dt>Comparisons</dt><dd>${counts.comparisons || 0}</dd></div>
+          <div><dt>Roadmaps</dt><dd>${counts.roadmaps || 0}</dd></div>
+          <div><dt>How-Tos</dt><dd>${counts.how_tos || 0}</dd></div>
           <div><dt>Podcasts</dt><dd>${counts.podcasts || 0}</dd></div>
           <div><dt>People</dt><dd>${counts.persons || 0}</dd></div>
           <div><dt>Topics</dt><dd>${counts.topics || 0}</dd></div>
@@ -236,7 +261,7 @@
     const related = relatedNodes(node);
     const searchQuery = encodeURIComponent(node.label || node.title || "");
     panel.innerHTML = `
-      <p class="eyebrow">${labels[node.type] || node.type}</p>
+      <p class="eyebrow">${nodeLabel(node)}</p>
       <h2>${escapeHtml(node.title || node.label)}</h2>
       ${node.time ? `<p class="muted">Starts at ${escapeHtml(node.time)}</p>` : ""}
       <div class="graph-actions">
@@ -248,7 +273,7 @@
       <div class="graph-related">
         ${related.map((item) => `
           <button class="related-node" type="button" data-node-id="${escapeHtml(item.id)}">
-            <span>${escapeHtml(labels[item.type] || item.type)}</span>
+            <span>${escapeHtml(nodeLabel(item))}</span>
             ${escapeHtml(item.label)}
           </button>
         `).join("") || '<p class="muted">No linked nodes in the current graph.</p>'}

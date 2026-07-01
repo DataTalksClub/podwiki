@@ -10,6 +10,7 @@ related:
   - Experimentation and Causal Inference
   - Metrics
   - Analytics Engineering
+  - Business Intelligence
   - Data Product Management
   - Data Product Adoption
   - Data Activation
@@ -28,11 +29,13 @@ They also use it for onboarding, support, and lifecycle messaging.
 
 Product managers share this work with analysts and analytics engineers. Data
 engineers and data scientists contribute too.
+When the same definitions become recurring dashboards or executive reporting,
+the neighboring discipline is
+[Business Intelligence]({{ '/wiki/business-intelligence/' | relative_url }}).
 
 In [Data Team Roles]({{ '/podcasts/data-team-roles/' | relative_url }}),
-[Alexey Grigorev]({{ '/people/alexeygrigorev/' | relative_url }}) puts
-analysts next to product managers. The product manager
-keeps the team close to the user. Analysts quantify the problem and later check
+the role discussion puts analysts next to product managers. The product
+manager keeps the team close to the user. Analysts quantify the problem and later check
 whether a shipped feature improved the posting flow or reduced wrong
 categorization
 ([5:47-11:17]({{ '/podcasts/data-team-roles/' | relative_url }})). The later

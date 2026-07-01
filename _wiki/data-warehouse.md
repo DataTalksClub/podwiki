@@ -8,6 +8,7 @@ related:
   - Data Lake
   - Data Warehouse vs Data Lakehouse
   - Analytics Engineering
+  - Business Intelligence
   - dbt
   - ETL vs ELT
   - Data Quality and Observability
@@ -24,6 +25,9 @@ gets data in. [ELT]({{ '/wiki/elt/' | relative_url }}) and
 [dbt]({{ '/wiki/dbt/' | relative_url }}) model it.
 [Analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
 turns repeated analysis into reusable definitions.
+[Business Intelligence]({{ '/wiki/business-intelligence/' | relative_url }})
+then exposes those definitions through dashboards, reports, and recurring
+decision workflows.
 
 [Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) gives the
 clearest warehouse-centered explanation in

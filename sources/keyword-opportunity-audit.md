@@ -61,8 +61,9 @@ These keyword groups already have editorial coverage:
 | Freelance data engineering | `_wiki/freelance.md` | freelance data engineer, data engineering freelance |
 | MLOps core terms | `_wiki/mlops.md`, `_wiki/mlops-roadmap.md`, `_wiki/mlops-tools.md`, `_guides/mlops-frameworks.md`, `_guides/mlops-architecture.md`, `_wiki/mlops-engineer.md` | mlops, what is mlops, mlops course, mlops tools, mlops architecture |
 | DataOps core terms | `_wiki/dataops.md`, `_guides/dataops-tools.md`, `_comparisons/mlops-vs-dataops.md` | dataops, data ops, dataops tools, mlops vs dataops |
-| Machine learning system design | `_wiki/machine-learning-system-design.md`, `_guides/machine-learning-system-design-interview.md`, `_guides/ml-system-design-interview.md` | machine learning system design, ml system design interview, designing machine learning systems |
+| Machine learning system design | `_wiki/machine-learning-system-design.md`, `_guides/machine-learning-system-design-interview.md` | machine learning system design, ml system design interview, designing machine learning systems |
 | LLM system design | `_guides/llm-system-design-interview.md` | llm system design interview |
+| Business Intelligence | `_wiki/business-intelligence.md` | ai powered business intelligence, business intelligence |
 | Machine learning for software engineers | `_guides/machine-learning-for-software-engineers.md`, `_wiki/software-engineer-to-machine-learning.md` | machine learning for software engineers, software engineering machine learning |
 | Machine learning startups | `_guides/machine-learning-for-startups.md` | machine learning for startups |
 | Data scientist interview | `_guides/data-scientist-interview.md` | data scientist interview |
@@ -150,6 +151,9 @@ consolidated into `_wiki/leadership.md`; do not recreate separate guide pages
 for those variants.
 A/B testing should remain wiki concept coverage through `_wiki/a-b-testing.md`
 and the experimentation wiki cluster, not guide or category content.
+AI-powered business intelligence was moved into `_wiki/business-intelligence.md`
+so the AI material supports a durable wiki topic rather than a standalone
+keyword guide.
 
 ## Next Content Step
 

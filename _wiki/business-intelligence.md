@@ -1,23 +1,32 @@
 ---
-layout: article
-title: "AI-Powered Business Intelligence: Practical Workflows, Trust, and Limits"
-keyword: "ai powered business intelligence"
-summary: "A DataTalks.Club podcast-backed guide to AI-powered business intelligence: where LLMs help BI workflows, what governance has to cover, and why trust still depends on product thinking."
-search_intent: "Explain what AI-powered business intelligence means in practice, how teams can use it responsibly, and where governance, data products, RAG, and human review matter."
-related_wiki:
+layout: wiki
+title: "Business Intelligence"
+summary: "How the podcast archive connects business intelligence to metrics, dashboards, data products, governance, product analytics, and AI-assisted analysis."
+related:
+  - Analytics Engineering
+  - Data Warehouse
+  - Metrics
   - Data Products
   - Data Product Adoption
+  - Product Analytics
   - LLM Production Patterns
   - RAG
   - Data Governance
-  - Product Analytics
 ---
 
-A BI tool powered by AI isn't a dashboard with a chatbot bolted on. At its best,
-it helps people ask better questions and find governed data. It can also draft
-first-pass analysis before a human moves from a metric to a decision. At its
-worst, it turns unclear definitions and fragile data pipelines into
-confident-sounding answers.
+Business intelligence turns modeled data into dashboards, metrics, reports, and
+decision workflows. In the DataTalks.Club archive, BI sits between
+[analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
+and [data warehouses]({{ '/wiki/data-warehouse/' | relative_url }}). It also
+sits between [metrics]({{ '/wiki/metrics/' | relative_url }}) and the business
+meetings where people act on the numbers.
+
+The newer BI interface can use AI. A BI tool powered
+by AI isn't a dashboard with a chatbot bolted on. At its best, it helps people
+ask better questions and find governed data. It can also draft first-pass
+analysis before a human moves from a metric to a decision. At its worst, it
+turns unclear definitions and fragile data pipelines into confident-sounding
+answers.
 
 The DataTalks.Club podcast archive points toward a practical middle path. Use AI
 to make BI workflows faster and more conversational.
@@ -30,7 +39,7 @@ Keep the hard requirements that make any analytics product useful:
 - user research
 - clear decision context
 
-## Practical Role
+## Common Definition
 
 The BI layer should reduce the distance between a business question and a usable
 answer.
@@ -58,7 +67,19 @@ start with [data products]({{ '/wiki/data-products/' | relative_url }}). Then
 use [RAG]({{ '/wiki/rag/' | relative_url }}) and
 [LLM production patterns]({{ '/wiki/llm-production-patterns/' | relative_url }}).
 
-## Practical BI Workflows
+## Guest Differences
+
+Guests differ on whether BI is primarily a reporting layer, a product surface,
+or an operating workflow. Natalie Kwong places BI downstream of warehouses,
+marts, and modern-stack transformations in
+[ETL vs ELT and Modern Data Engineering]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}).
+Caitlin Moorman treats last-mile BI as a product adoption problem in
+[Last-Mile Data Delivery]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }}).
+Rachel Lim and Sandra Kublik add the AI interface, where natural-language
+queries and LLM summaries help only when definitions, permissions, and review
+loops already exist.
+
+## BI, Metrics, and Dashboards
 
 The most valuable BI workflows start from repeated decision patterns, not from
 novelty. A sales leader may ask why pipeline conversion dropped. A product
@@ -98,7 +119,7 @@ journeys and experiments easier to study. BI and warehouse models handle broader
 joins and governed reporting. AI can help summarize these views, but the answer
 is only usable when metrics, tracking plans, and experiment design are sound.
 
-## Architecture: Metrics, Retrieval, and Answers
+## AI-Powered Business Intelligence
 
 A practical architecture usually has three layers.
 

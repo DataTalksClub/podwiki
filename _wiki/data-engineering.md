@@ -21,10 +21,8 @@ systems and consumers. Those paths cover ingestion, transformation, monitoring,
 and recovery.
 
 The podcast archive doesn't treat data engineering as a single fixed job. In
-the early role taxonomy,
-[Alexey Grigorev]({{ '/people/alexeygrigorev/' | relative_url }}) says data
-engineers prepare product data for analysts and data scientists. They do that
-without burdening operational systems
+the early role taxonomy, data engineers prepare product data for analysts and
+data scientists. They do that without burdening operational systems
 ([Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }})).
 Later interviews split the work across platform engineering, product-facing
 data engineering, analytics engineering, and DataOps. Recent episodes also add
@@ -40,6 +38,30 @@ For pipeline operating practices, use
 [MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }}). For
 warehouse-side modeling and metric layers, use
 [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }}).
+
+## Listening Path
+
+Use the local podcast pages as the listening layer for this topic. Start with
+[Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }})
+for role boundaries, then use
+[Data Engineering Tools and Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})
+for ETL and ELT. It also covers warehouses, orchestration, and reverse data flows. Add
+[Modern Data Pipeline Architecture]({{ '/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/' | relative_url }})
+when the question is end-to-end pipeline design.
+
+For operations, pair
+[DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }})
+with
+[Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }}).
+For platforms and team scale, use
+[Scaling Data Engineering Teams]({{ '/podcasts/scaling-data-engineering-teams-self-service-platforms/' | relative_url }})
+and
+[DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}).
+For careers, use
+[Data Engineering Career Path and Skills]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }}),
+[Data Engineering Job Prep and Interview Guide]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }}),
+and
+[Data Engineer Career in 2026]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }}).
 
 ## Core Archive Threads
 

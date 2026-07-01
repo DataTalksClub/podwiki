@@ -7,6 +7,7 @@ related:
   - LLM Production Patterns
   - NLP
   - Agent Engineering
+  - Business Intelligence
   - Responsible AI and Governance
 ---
 
@@ -45,8 +46,11 @@ generation and review analysis. At 25:13 and 28:16, he moves from prompt
 examples to evaluation. Formatting, quality, and cost become part of prompt
 work. The model is only one component.
 
-The useful product also needs data pipelines, prompts, and APIs. It also needs
-caching, latency controls, and tests.
+The useful product also needs data pipelines, prompts, and APIs. It needs
+caching, latency controls, and tests too.
+In [Business Intelligence]({{ '/wiki/business-intelligence/' | relative_url }}),
+the same production boundary appears when teams add natural-language querying
+and text-to-SQL. Retrieval and LLM summaries sit on top of governed metrics.
 
 [Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }}) gives
 a similar working definition in

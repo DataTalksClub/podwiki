@@ -48,6 +48,8 @@ archive does through [Valerii Babushkin]({{ '/people/valeriybabushkin/' | relati
 and his
 [ML system design interview]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }})
 discussion uses the same product-first discipline.
+For the classical ML interview version, use
+[Machine Learning System Design Interview]({{ '/guides/machine-learning-system-design-interview/' | relative_url }}).
 
 Then add the LLM-specific work:
 
@@ -343,12 +345,23 @@ Use this structure when practicing an LLM system design interview:
 
 This structure comes from the archive's strongest production threads:
 
-1. Atita on retrieval and citations.
-2. Hugo on evaluation and traces.
-3. Meryem on deployment and RAG-versus-fine-tuning boundaries.
-4. Ranjitha on agents as tool-using systems.
-5. Maria on chatbot security.
-6. Aditya on agent governance.
+1. [Atita Arora's search systems episode]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
+   grounds retrieval and chunking, plus citations and human review.
+2. [Hugo Bowne-Anderson's LLM engineering episode]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }})
+   grounds evaluation, failure analysis, logs, and traces for RAG systems and
+   tool use.
+3. [Meryem Arik's deployment episode]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }})
+   grounds model choice and deployment. It also covers cost, latency, and the
+   boundary between RAG and fine-tuning.
+4. [Ranjitha Kulkarni's agentic AI episode]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }})
+   grounds agents as tool-using systems with memory, retrieval, tests, and
+   outcome-based evaluation.
+5. [Maria Sukhareva's chatbot security episode]({{ '/podcasts/generative-ai-chatbots-in-production-security/' | relative_url }})
+   grounds prompt injection, knowledge-base leakage, layered controls, and
+   human review.
+6. [Aditya Gautam's AI agents episode]({{ '/podcasts/s23e03-future-of-ai-agents/' | relative_url }})
+   grounds enterprise agent governance and labels. LLM judges, lineage, and
+   auditability stay in that same operating frame.
 
 Show that you can keep model behavior and source evidence in the same design
 conversation. Bring product risk and operations into that conversation too.

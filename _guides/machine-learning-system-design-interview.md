@@ -2,6 +2,8 @@
 layout: article
 title: "Machine Learning System Design Interview: A Podcast-Grounded Prep Guide"
 keyword: "machine learning system design interview"
+secondary_keywords:
+  - "ml system design interview"
 search_intent:
   - "Prepare for machine learning system design interview prompts with grounded production examples."
   - "Practice answer structure, fraud detection, recommendation, serving, monitoring, and portfolio evidence."
@@ -27,12 +29,13 @@ page preserves that same archive structure.
 Start with the decision, then work through data and evaluation. Serving,
 operations, and ownership come next.
 
-Use this article when you're preparing for the keyword topic "machine learning
-system design interview." For the broader production discipline, read
+Use this guide when you're preparing for a machine learning system design
+interview or the shorter keyword variant "ML system design interview." For the
+broader production discipline, read
 [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
 and [ML System Design Documents]({{ '/wiki/ml-system-design-documents/' | relative_url }}).
-For the shorter keyword variant, see
-[ML System Design Interview]({{ '/guides/ml-system-design-interview/' | relative_url }}).
+For language-model systems, use
+[LLM System Design Interview]({{ '/guides/llm-system-design-interview/' | relative_url }}).
 
 ## Start With the Decision
 
@@ -104,6 +107,11 @@ because the candidate has to discuss probabilities, thresholds, class
 imbalance, and delayed labels. The same prompt also needs real-time constraints
 and business loss. The answer is incomplete if it ends at "train a classifier."
 
+At 13:58-24:28, the episode turns fraud into an assumption-setting exercise.
+The answer should say what counts as fraud and when labels arrive. It should
+also say what the product does with the score and how the team handles
+asymmetric costs.
+
 [Angela Ramirez]({{ '/people/angelaramirez/' | relative_url }}) adds the
 production data-engineering view in
 [Data Engineering for Fraud Prevention]({{ '/podcasts/building-and-scaling-data-engineering-systems-for-fraud-detection/' | relative_url }}).
@@ -131,6 +139,12 @@ If the score is close to the threshold, explain uncertainty explicitly. The
 product may send the case to a fraud specialist instead of automatically
 blocking the customer. That choice follows Valerii's threshold and loss framing
 and Angela's front-end decisioning discussion.
+
+Valerii's guidance at 20:33 is especially useful in interviews. State your
+assumptions about label delay and let the interviewer steer. Fraud labels that
+arrive in minutes create a different system from labels confirmed days later.
+That one clarification changes the training set, online evaluation, retraining,
+and monitoring.
 
 ## Practice Recommendation and Ranking
 
@@ -183,6 +197,12 @@ reproducibility, deployment, and monitoring. The
 [MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }})
 comparison adds the upstream pipeline boundary.
 
+The baseline belongs in this same part of the answer. Valerii recommends
+starting with a heuristic or simple model around 29:09 in
+[ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }}).
+Arseny's production-system episode gives the reason: without a baseline, the
+team can't tell whether the proposed ML system improves the product.
+
 ## Choose Metrics That Match the Decision
 
 Use one business metric, one or two model metrics, and guardrails. Valerii's
@@ -205,6 +225,13 @@ needs A/B testing or shadow mode. A recommender or fraud system may also need
 staged rollout, backtesting, or human review. That answer connects the model to
 [evaluation]({{ '/wiki/evaluation/' | relative_url }}) rather than treating the
 model score as the final result.
+
+Valerii returns to product validation at 57:23 in
+[ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }}).
+Jakob's product analytics episode makes the A/B testing part concrete.
+[A/B Testing and Product Experimentation]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }})
+covers randomization at 8:13 and assignment tracking at 24:44. It also covers
+power analysis at 37:44.
 
 ## Pick the Serving Path
 

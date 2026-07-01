@@ -10,6 +10,7 @@ related:
   - Career Transitions in Data
   - dbt
   - Metrics
+  - Business Intelligence
   - Event Tracking
   - Tracking Plans
   - Analytics Engineering Portfolio Projects
@@ -54,6 +55,11 @@ Analytics engineers occupy the middle. They use engineering practices to make
 business-facing data reusable
 ([Data Engineering Career Path and Skills]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }}),
 [Modern Data Stack episode]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})).
+
+That reusable layer feeds
+[Business Intelligence]({{ '/wiki/business-intelligence/' | relative_url }})
+when modeled tables and metrics become dashboards, reports, and decision
+workflows.
 
 Santona Tuli adds a pipeline-level version of the same definition. Her modern
 data pipeline discussion puts dbt after ingestion and orchestration. It then

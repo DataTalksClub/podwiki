@@ -178,7 +178,11 @@ def build_graph() -> dict[str, object]:
     pages = read_pages()
     nodes = []
     node_ids = set()
-    title_to_id = {str(page["title"]).lower(): str(page["id"]) for page in pages}
+    title_to_pages: dict[str, list[dict[str, object]]] = {}
+    slug_to_pages: dict[str, list[dict[str, object]]] = {}
+    for page in pages:
+        title_to_pages.setdefault(str(page["title"]).lower(), []).append(page)
+        slug_to_pages.setdefault(str(page["slug"]).lower(), []).append(page)
     topic_labels: dict[str, str] = {}
     topic_counts: Counter[str] = Counter()
     link_weights: Counter[tuple[str, str, str]] = Counter()
@@ -195,8 +199,26 @@ def build_graph() -> dict[str, object]:
         topic_counts[slug] += 1
         return f"topic:{slug}"
 
-    def target_for_label(label: str) -> str:
-        return title_to_id.get(label.lower()) or topic_id(label)
+    def target_for_label(
+        label: str,
+        source_collection: str | None = None,
+        prefer_wiki: bool = False,
+    ) -> str:
+        normalized = re.sub(r"\s+", " ", label).strip()
+        candidates = title_to_pages.get(normalized.lower()) or slug_to_pages.get(slugify(normalized))
+        if not candidates:
+            return topic_id(normalized)
+
+        if prefer_wiki:
+            collection_order = ["wiki", source_collection]
+        else:
+            collection_order = [source_collection, "wiki"]
+        collection_order.extend(["guide", "comparison", "roadmap", "how_to", "podcast", "person"])
+        for collection in [item for item in collection_order if item]:
+            for candidate in candidates:
+                if str(candidate["collection"]) == collection:
+                    return str(candidate["id"])
+        return str(candidates[0]["id"])
 
     for page in pages:
         node = {
@@ -222,10 +244,11 @@ def build_graph() -> dict[str, object]:
         if not isinstance(meta, dict):
             continue
 
+        collection = str(page["collection"])
         for label in as_list(meta.get("related")):
-            add_link(source, target_for_label(label), f"{page_type}-related", 3)
+            add_link(source, target_for_label(label, collection), f"{page_type}-related", 3)
         for label in as_list(meta.get("related_wiki")):
-            add_link(source, target_for_label(label), f"{page_type}-wiki", 5)
+            add_link(source, target_for_label(label, collection, prefer_wiki=True), f"{page_type}-wiki", 5)
         for label in as_list(meta.get("topics")):
             add_link(source, topic_id(label), f"{page_type}-topic", 2)
         for label in as_list(meta.get("expertise")):
@@ -258,11 +281,16 @@ def build_graph() -> dict[str, object]:
     ]
 
     counts = Counter(str(node["type"]) for node in nodes)
+    article_counts = Counter(str(node["collection"]) for node in nodes if node["type"] == "article")
     return {
         "generated_at": "generated-by-scripts/build_graph.py",
         "counts": {
             "wikis": counts["wiki"],
             "articles": counts["article"],
+            "guides": article_counts["guide"],
+            "comparisons": article_counts["comparison"],
+            "roadmaps": article_counts["roadmap"],
+            "how_tos": article_counts["how_to"],
             "podcasts": counts["podcast"],
             "persons": counts["person"],
             "topics": counts["topic"],

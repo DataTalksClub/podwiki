@@ -29,15 +29,17 @@
     }
     status.textContent = `${items.length} results`;
     for (const item of items) {
-      const title = item.level === "segment" && item.segment_title
+      const isSegment = item.level === "segment";
+      const isSection = item.document_type === "section" || item.level === "section";
+      const title = isSegment && item.segment_title
         ? `${item.segment_title}`
-        : item.level === "section" && item.segment_title
+        : isSection && item.segment_title
           ? `${item.segment_title}`
         : item.title;
-      const meta = item.level === "segment"
+      const meta = isSegment
         ? `${item.title} · ${item.time || ""}`
-        : item.level === "section"
-          ? `${item.title} · section`
+        : isSection
+          ? `${item.page_title || item.title} · section`
           : `${String(item.level || "page").replaceAll("_", " ")} page`;
       const el = document.createElement("article");
       el.className = "result";

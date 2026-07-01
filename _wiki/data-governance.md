@@ -7,6 +7,7 @@ related:
   - Data Mesh
   - Data Quality and Observability
   - DataOps
+  - Business Intelligence
   - Security
 ---
 
@@ -34,6 +35,10 @@ the access-management version in
 At 5:20, he defines governance as the activities that create trust in data for
 analysts, data scientists, and customers. This makes governance an operating
 practice, not a documentation project.
+That trust boundary also applies to
+[Business Intelligence]({{ '/wiki/business-intelligence/' | relative_url }}),
+where dashboards, metrics, and AI-assisted answers can expose governed data to
+many more users.
 
 ## Common Definition
 

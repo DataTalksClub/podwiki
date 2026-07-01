@@ -7,6 +7,7 @@ related:
   - Data Engineering Platforms
   - Data Mesh
   - Analytics Engineering
+  - Business Intelligence
   - Data Quality and Observability
 ---
 
@@ -14,6 +15,8 @@ A data product is a maintained output that helps someone make a decision or run
 an operational process. It can be a table, event stream, dashboard, or API. It
 can also be a model, identity-resolution tool, or activation flow. Guests don't
 view it as finished just because data ends up in a warehouse.
+When the maintained output is a dashboard, metric layer, or reporting workflow,
+it overlaps with [Business Intelligence]({{ '/wiki/business-intelligence/' | relative_url }}).
 
 The archive uses two closely related meanings. In
 [Data Mesh Implementation]({{ '/podcasts/data-mesh-architecture-decentralized-data-products/' | relative_url }}),

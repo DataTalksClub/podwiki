@@ -34,10 +34,11 @@ Google has had time to index the pages.)
 
 ## A. DELETE-BRANDED (5) — main site owns these
 
-Status: the four Zoomcamp guide pages were removed from podwiki on 2026-07-01.
-The main DataTalks.Club site owns those course pages. Keep podcast evidence
-about course usage inside role, roadmap, portfolio, and transition pages, and
-link to the official course pages there when useful.
+Status: the four Zoomcamp guide pages and the `data-engineering-podcast` guide
+were removed from podwiki on 2026-07-01. The main DataTalks.Club site owns
+those course and podcast archive pages. Keep podcast evidence about course
+usage inside role, roadmap, portfolio, and transition pages, and link to the
+official course or podcast pages there when useful.
 
 | Slug | Keyword | 301 target |
 |---|---|---|
@@ -81,9 +82,14 @@ data-engineer-consultant · data-engineer-consulting · data-engineering-consult
 data-engineering-consulting · data-engineering-freelance · freelance-data-engineer
  → 301 to `/podwiki/wiki/freelance/`
 
-### B4 → KEEP-NEW interview-prep page (see §D)
-machine-learning-system-design-interview · ml-system-design-interview ·
-llm-system-design-interview  → 301 to the new interview page
+### B4 → KEEP-NEW interview-prep pages (see §D)
+Status: `ml-system-design-interview` was folded into
+`_guides/machine-learning-system-design-interview.md` on 2026-07-01. Keep
+`_guides/llm-system-design-interview.md` as a separate guide because the query
+has distinct LLM/RAG/agent/evaluation intent.
+
+machine-learning-system-design-interview · ml-system-design-interview → canonical
+ML interview guide. llm-system-design-interview → canonical LLM interview guide.
 
 ## C. MERGE→wiki — 1:1 into an existing topic (39)
 
@@ -142,8 +148,9 @@ data-engineering-manager/data-engineer-manager cluster was consolidated into
 
 | New page | Absorbs | Why it's additive |
 |---|---|---|
-| **ML/LLM system-design interview prep** (Q&A format) | B4 (the 3 `*-system-design-interview` articles) | Interview-prep / Q&A format the main site & wiki don't have; backed by exploration search |
-| **AI-powered business intelligence** → new wiki topic `business-intelligence` | ai-powered-business-intelligence | No existing home; genuine concept, link to product-analytics + generative-ai |
+| **ML system-design interview prep** | B4 (`machine-learning-system-design-interview`, `ml-system-design-interview`) | **done: canonical guide is `_guides/machine-learning-system-design-interview.md`; short variant removed** |
+| **LLM system-design interview prep** | B4 (`llm-system-design-interview`) | **keep: distinct guide for RAG, agents, evaluation, safety, latency, and operations** |
+| **Business Intelligence** | ai-powered-business-intelligence | **done: moved into `_wiki/business-intelligence.md` with AI-powered BI as one section** |
 
 ---
 
@@ -151,8 +158,8 @@ data-engineering-manager/data-engineer-manager cluster was consolidated into
 
 - 71 articles → **0 standalone keyword pages.**
 - Surviving content: existing wiki topics (enriched), 2 existing roadmap topics
-  (DE, MLOps), wiki `freelance`, 1 new interview-prep page, 1 new
-  `business-intelligence` topic.
+  (DE, MLOps), wiki `freelance`, canonical ML and LLM interview-prep guides,
+  and the `business-intelligence` wiki topic.
 - The `articles/` collection can then be retired (or repurposed only for the
   KEEP-NEW format), and `articles.md` / nav updated.
 

@@ -10,6 +10,7 @@ related:
   - Agent Engineering
   - AI Engineer Role
   - AI Red Teaming
+  - Business Intelligence
   - Notebook to Production AI Systems
 ---
 
@@ -27,6 +28,12 @@ The important boundary is that the LLM is rarely the whole product.
 to deployment, open-source versus API tradeoffs, fine-tuning, and retrieval in
 [Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}).
 She also discusses cost and latency there.
+
+[Business Intelligence]({{ '/wiki/business-intelligence/' | relative_url }})
+is one place where that boundary matters. The model can help with questions and
+summaries, but the product still depends on governed metrics. It also depends
+on access controls and review.
+
 [Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }})
 turns the same production problem into prompts, RAG, and gold tests in
 [Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}).
