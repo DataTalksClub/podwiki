@@ -20,7 +20,7 @@ Translation can also fit, along with structured extraction and planning.
 They're less useful when they become another inbox to check or another app that
 produces text you can't trust.
 
-The DataTalks.Club podcast archive frames this as an
+DataTalks.Club guests frame this as an
 [AI tooling]({{ '/wiki/ai-tooling/' | relative_url }}) and
 [AI engineering]({{ '/wiki/ai-engineering/' | relative_url }}) problem, not as a
 shopping list. In
@@ -159,7 +159,7 @@ tests at 23:00, failure analysis at 26:43, and logs plus traces at 27:38. For
 personal use, that can be a small note with examples and expected output. Add
 recurring errors and the prompt that produced the best result.
 
-The archive's agent episodes add a useful warning. In
+Guests in the agent episodes add a useful warning. In
 [Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}),
 Ranjitha recommends custom datasets and mocked tools at 51:17 and 53:20. She
 also discusses integration tests, regression tests, and outcome assertions at

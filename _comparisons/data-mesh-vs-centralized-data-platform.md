@@ -49,7 +49,7 @@ when many consumers depend on the same outputs.
 
 ## Common Definition
 
-Across the archive, Data Mesh means decentralizing data-product ownership while
+Across these episodes, Data Mesh means decentralizing data-product ownership while
 keeping shared standards. Zhamak Dehghani starts from enterprise data friction:
 long centralized pipelines delay value because domain context has to move
 through a central queue. Her Data Mesh model gives domains responsibility for
@@ -261,8 +261,8 @@ rollout
 quality expectations, and learn which shared platform capabilities are missing
 before expanding the model.
 
-When domains aren't ready to own product commitments, the archive supports a
-more centralized path. Lars Albertsson's decentralization caution and Mehdi
+When domains aren't ready to own product commitments, Lars Albertsson's
+decentralization caution and Mehdi
 OUAZZA's self-service platform examples both suggest building the paved road
 first. Reproducible workflows and onboarding belong on that path, while
 conventions and schema practices belong there too. Data contracts and support

@@ -28,7 +28,7 @@ search stack with adopting a standalone vector database.
 
 ## Common Definition
 
-The common definition in the archive is practical. A vector database stores
+DataTalks.Club guests define vector databases practically. A vector database stores
 [embeddings]({{ '/wiki/embeddings/' | relative_url }}), indexes them for
 nearest-neighbor lookup, and returns items whose vectors are close to the query
 vector. The query vector may represent text, an image, a user session, or some
@@ -100,7 +100,7 @@ that retrieve products, images, sessions, or recommendations.
 
 ## RAG
 
-RAG is the most visible vector-database use case in the archive, but the guests
+RAG is the most visible vector-database use case in these episodes, but the guests
 don't reduce RAG to vector storage. Atita's podcast-transcript example in
 [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
 uses chunking, overlap, embedding models, and vectorization at 38:24. At 42:49

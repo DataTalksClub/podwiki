@@ -153,7 +153,7 @@ Once the first pipeline runs, learn where data should land and why. Start with
 storage and transformation patterns before memorizing product names.
 
 [Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) gives the clearest
-archive introduction in
+podcast introduction in
 [ETL vs ELT and Modern Data Engineering]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}).
 At 3:46 she explains ETL, at 7:57 she covers ELT's flexibility, and at 10:00
 she discusses transformations from type casting to SQL joins. At 15:30 and
@@ -255,7 +255,7 @@ An interview-ready data engineering portfolio should include:
 - one backfill or rerun story
 - a short explanation of what you would simplify or change next
 
-This matches the hiring advice across the archive. Jeff Katz's
+This matches the hiring advice across these episodes. Jeff Katz's
 [job-prep episode]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }})
 asks for readable code and tests at 2:22. Slawomir Tulski's
 [2026 career episode]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }})
@@ -335,7 +335,7 @@ Add advanced tools only when the constraint is real:
 - Add catalog and lineage tooling when discovery, ownership, and governance
   become the problem.
 
-The archive repeatedly warns against tool-first roadmaps. Adrian Brudaru's
+DataTalks.Club guests repeatedly warn against tool-first roadmaps. Adrian Brudaru's
 [Modern Data Engineering]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }})
 covers Iceberg at 18:17 and DuckDB at 25:58. He covers orchestration choices at
 35:37 and streaming patterns at 51:19. He still returns to requirements and

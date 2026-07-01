@@ -15,7 +15,7 @@ related:
 
 Teams use the modern data stack to collect data and load it into analytical
 storage. They model the data for consumers and keep the flow running after the
-business starts depending on it. In the DataTalks.Club archive, guests usually
+business starts depending on it. DataTalks.Club guests usually
 describe this as warehouse-centered
 [ELT]({{ '/wiki/elt/' | relative_url }}). The stack includes ingestion,
 SQL transformations, orchestration, and BI. It sometimes includes reverse
@@ -145,7 +145,7 @@ for the storage tradeoff.
 ## Transformations
 
 Transformation turns loaded data into usable business entities, metrics,
-features, and marts. In the modern-stack archive, this is where dbt and
+features, and marts. In these modern-stack discussions, this is where dbt and
 analytics engineering enter. Kwong connects transformations to type casting,
 joins, and SQL modeling at 10:00, then links dbt to the emergence of the
 analytics engineer at 12:39.
@@ -186,7 +186,7 @@ Brudaru's 35:37 discussion in
 [Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }})
 compares Airflow, Prefect, and Dagster. He also includes GitHub Actions.
 
-Across the archive, guests choose orchestration for workflows that need
+Across these episodes, guests choose orchestration for workflows that need
 dependency handling and retries. They also need visibility and clear ownership.
 They keep simpler scheduling when the pipeline doesn't justify a full control plane. For the
 Airflow-specific article, see

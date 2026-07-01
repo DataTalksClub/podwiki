@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Product Analytics"
-summary: "How the podcast archive connects product analytics to event tracking, metrics, experimentation, activation, and product decision-making."
+summary: "How DataTalks.Club guests connect product analytics to event tracking, metrics, experimentation, activation, and product decision-making."
 related:
   - Data-Led Growth
   - Event Tracking
@@ -20,7 +20,7 @@ Product analytics studies how people use a product. Teams use it to improve
 activation, retention, and product quality. They also use it to understand
 engagement and monetization.
 
-In the podcast archive, product analytics starts with
+In these podcast discussions, product analytics starts with
 [event tracking]({{ '/wiki/event-tracking/' | relative_url }}) and
 [tracking plans]({{ '/wiki/tracking-plans/' | relative_url }}). Metrics and
 [A/B testing]({{ '/wiki/a-b-testing/' | relative_url }}) make it more
@@ -43,7 +43,7 @@ episodes add the stack, inference, product-management, and adoption layers.
 
 ## Concept Scope
 
-A practical archive-backed definition has five parts:
+A practical definition has five parts:
 
 - Teams define the product question, such as activation drop-off or roadmap
   priority.
@@ -137,7 +137,7 @@ Redshift supported the same work, as did Snowplow and data modeling
 
 ## Product Roles And Ownership
 
-The archive doesn't make one role own product analytics alone. In
+Guests don't make one role own product analytics alone. In
 [Data Team Roles]({{ '/podcasts/data-team-roles/' | relative_url }}), product
 managers prioritize and represent user needs. Analysts quantify the problem,
 define KPIs, explain the data, and evaluate whether a feature worked

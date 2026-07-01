@@ -13,12 +13,12 @@ related:
 ---
 
 Reproducibility means a team can rerun a data result, review it, or explain it
-after the original work has moved on. In the DataTalks.Club podcast archive,
-it's not just a research virtue or a tooling label. It's the operating habit
+after the original work has moved on. DataTalks.Club guests don't treat it as
+just a research virtue or a tooling label. It's the operating habit
 that connects an output to the code, data, environment, and parameters behind
 it. It also preserves the tests, approvals, and people who shaped the result.
 
-The archive uses reproducibility in three connected settings.
+Guests use reproducibility in three connected settings.
 [Johanna Bayer]({{ '/people/johannabayer/' | relative_url }}) describes the
 research version as packaging code and papers. The same workflow preserves data
 and environments so another researcher can recreate the result in

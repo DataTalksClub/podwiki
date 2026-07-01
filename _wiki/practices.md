@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Practices"
-summary: "A bridge page for recurring operating practices in the podcast archive: versioning, testing, documentation, CI/CD, monitoring, ownership, and feedback loops."
+summary: "A bridge page for recurring operating practices in DataTalks.Club episodes: versioning, testing, documentation, CI/CD, monitoring, ownership, and feedback loops."
 related:
   - MLOps
   - DataOps
@@ -12,7 +12,7 @@ related:
 ## Definition and Scope
 
 Practices are the repeatable engineering habits that keep technical work usable
-after the first demo. In the DataTalks.Club podcast archive, this covers
+after the first demo. In DataTalks.Club episodes, this covers
 version control and testing. It also covers CI/CD, documentation, monitoring,
 and ownership. Feedback loops are part of the same practice layer.
 
@@ -37,7 +37,7 @@ Registries and monitoring matter too before model delivery can scale.
 
 ## Common Definition
 
-Across the archive, a practice is useful when it has these properties:
+Across these episodes, a practice is useful when it has these properties:
 
 - It's repeatable, so a team can run it again without relying on memory.
 - It's visible, so other people can review the decision, artifact, or failure.
@@ -75,7 +75,7 @@ and deployment metrics guide the next step.
 
 Nahar emphasizes the socio-technical side. Requirements, team integration, and
 documentation matter because ML products cross several boundaries.
-Accountability matters for the same reason. The archive doesn't give one
+Accountability matters for the same reason. The episodes don't give one
 maturity ladder. It gives a consistent rule: introduce the practice when it
 removes real delivery risk.
 

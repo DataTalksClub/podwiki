@@ -18,7 +18,7 @@ generation and summarization. They also use them for translation, information
 extraction, and retrieval-backed question answering. Other episodes cover
 agents and developer tools.
 
-The archive doesn't treat an LLM as a finished product. Guests usually place
+DataTalks.Club guests don't treat an LLM as a finished product. They usually place
 the model inside a larger system with prompts, data pipelines, and retrieval.
 They also add evaluation, deployment, security checks, and human review. That
 makes LLMs part of [NLP]({{ '/wiki/nlp/' | relative_url }}),
@@ -113,8 +113,8 @@ workflow design from ordinary prompting.
 
 ## RAG and Fine-Tuning
 
-The archive draws a strong line between changing model behavior and adding
-current knowledge.
+Guests draw a strong line between changing model behavior and adding current
+knowledge.
 
 Meryem explains this split in
 [Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}).

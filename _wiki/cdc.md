@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "CDC"
-summary: "Change data capture in the DataTalks.Club archive: when to capture row-level database changes, how CDC compares with batch dumps and streaming, and what teams must operate around schema changes, deletes, and replay."
+summary: "Change data capture in podcast discussions: when to capture row-level database changes, how CDC compares with batch dumps and streaming, and what teams must operate around schema changes, deletes, and replay."
 related:
   - Data Engineering
   - Data Pipelines

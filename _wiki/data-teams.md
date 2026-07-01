@@ -16,8 +16,8 @@ related:
 
 Data teams are the organizational design around data work. They decide who owns
 pipelines and analytical models, who maintains ML systems and metrics, and who
-is accountable for stakeholder and quality commitments. Across the
-DataTalks.Club archive, guests don't treat a data team as one job family. They
+is accountable for stakeholder and quality commitments. DataTalks.Club guests
+don't treat a data team as one job family. They
 describe a coordination model that spans [analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }}),
 [data engineering platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}),
 and [data product management]({{ '/wiki/data-product-management/' | relative_url }}).

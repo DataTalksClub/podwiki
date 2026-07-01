@@ -15,10 +15,10 @@ related:
 Documentation is the written or recorded material that helps another person use
 technical work. It also helps them maintain, evaluate, or extend that work.
 
-The DataTalks.Club archive includes README files and quickstarts, along with
-tutorials, API references, and examples. It also includes contribution guides, design docs,
-and decision logs. Model cards and datasheets belong in the same family as
-runbooks, onboarding notes, and portfolio repo tours.
+DataTalks.Club guests discuss README files and quickstarts, along with
+tutorials, API references, and examples. They also discuss contribution guides,
+design docs, and decision logs. Model cards and datasheets belong in the same
+family as runbooks, onboarding notes, and portfolio repo tours.
 
 The most practical open-source definition comes from
 [Vincent Warmerdam]({{ '/people/vincentwarmerdam/' | relative_url }}) in
@@ -36,7 +36,7 @@ for contribution paths that include docs.
 
 ## Common Definition
 
-Across the archive, documentation is useful when it lowers coordination cost. It
+Across these episodes, documentation is useful when it lowers coordination cost. It
 helps a user run a tool. It helps a teammate understand a decision, an operator
 recover from failure, or a hiring manager look at a project.
 

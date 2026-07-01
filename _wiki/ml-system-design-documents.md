@@ -23,7 +23,7 @@ belong in the same artifact.
 Ownership, monitoring, and fallback behavior do too. It's closer to an
 engineering design review than to a research report.
 
-The DataTalks.Club archive treats these documents as coordination tools for
+DataTalks.Club guests treat these documents as coordination tools for
 [MLOps]({{ '/wiki/mlops/' | relative_url }}),
 [documentation]({{ '/wiki/documentation/' | relative_url }}), and
 [software engineering]({{ '/wiki/software-engineering/' | relative_url }}).
@@ -127,8 +127,8 @@ experts and operations owners need that review surface too.
 
 ## Data Strategy, Baselines, and Evaluation
 
-The archive treats baselines as design work, not as an afterthought. At 55:13,
-Valerii recommends simple baseline solutions. Teams can use them to test
+Valerii treats baselines as design work, not as an afterthought. At 55:13,
+he recommends simple baseline solutions. Teams can use them to test
 hypotheses. They can also iterate before they over-invest
 ([ML System Design Playbook]({{ '/podcasts/ml-system-design/' | relative_url }})).
 

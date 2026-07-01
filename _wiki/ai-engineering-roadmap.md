@@ -14,8 +14,8 @@ related:
 ---
 
 An AI engineering roadmap teaches you to build software around models. It also
-teaches you to prove that the software behaves well enough for real users. In
-the DataTalks.Club archive, the roadmap starts with product and software
+teaches you to prove that the software behaves well enough for real users.
+DataTalks.Club guests start the roadmap with product and software
 ownership. It then adds [LLMs]({{ '/wiki/llms/' | relative_url }}) and
 [retrieval-augmented generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}).
 Later stages add
@@ -37,7 +37,7 @@ broader discipline, use [AI Engineering]({{ '/wiki/ai-engineering/' | relative_u
 
 ## Common Definition
 
-The podcast archive converges on a practical definition. AI engineers build
+Guests converge on a practical definition. AI engineers build
 product software around model behavior by calling models and managing context.
 They build interfaces and APIs, evaluate outputs, and operate the resulting
 product.

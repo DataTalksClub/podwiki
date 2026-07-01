@@ -64,8 +64,8 @@ storage.
 
 ## Lake, Warehouse, and Lakehouse
 
-The archive doesn't frame data lakes as a simple warehouse replacement. Kwong
-argues that data warehouses and data lakes serve different consumers. An
+Kwong and Albertsson don't frame data lakes as a simple warehouse replacement.
+Kwong argues that data warehouses and data lakes serve different consumers. An
 analytics team often works mainly inside the warehouse. The warehouse contains
 BI-facing outputs, SQL models and data marts.
 
@@ -257,7 +257,7 @@ recover it too
 
 [Max Schultze]({{ '/people/maxschultze/' | relative_url }}) and
 [Itai Admi]({{ '/people/itaiadmi/' | relative_url }}) add adjacent people
-context in the archive. Schultze's profile centers on Zalando-scale data lake
+context in DataTalks.Club. Schultze's profile centers on Zalando-scale data lake
 work with Spark, Presto, and Delta Lake. Admi's profile centers on lakeFS and
 object-storage-based lakes. Their profiles reinforce the same architectural
 theme. Large-scale lakes need manageability, versioning, and platform

@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Job Search"
-summary: "Archive-backed tactics for data and AI job search: role targeting, CVs, portfolios, networking, interviews, salary, and red flags."
+summary: "DataTalks.Club guest tactics for data and AI job search: role targeting, CVs, portfolios, networking, interviews, salary, and red flags."
 related:
   - Career Transition
   - Career Growth
@@ -35,7 +35,7 @@ a role, build proof, explain the proof, and evaluate the company.
 
 ## Common Definition
 
-Across the archive, job search means defining target work, gathering evidence
+Across the job-search episodes, job search means defining target work, gathering evidence
 that proves fit, and explaining that evidence in the hiring team's language.
 [Sarah Mestiri]({{ '/people/sarahmestiri/' | relative_url }}) makes the target
 explicit at 14:30 and 20:01 in

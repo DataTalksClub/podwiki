@@ -80,7 +80,7 @@ That context ties the role to
 
 ## Product Manager Ownership
 
-A product manager owns the product decision. In the archive, the PM names the
+A product manager owns the product decision. In these episodes, the PM names the
 customer and understands the pain point. They also set direction and decide how
 the team will know the product worked.
 

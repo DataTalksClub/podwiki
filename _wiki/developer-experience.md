@@ -13,7 +13,7 @@ Developer experience is the practical quality of using a technical system.
 People should be able to understand the system and run a useful workflow. They
 should recover from mistakes and ship work without fighting the platform.
 
-In the DataTalks.Club archive, the topic appears most often in
+DataTalks.Club guests discuss developer experience most often through
 [MLOps]({{ '/wiki/mlops/' | relative_url }}) and
 [ML platforms]({{ '/wiki/ml-platforms/' | relative_url }}). It also crosses
 [platform engineering]({{ '/wiki/platform-engineering/' | relative_url }}),
@@ -150,8 +150,9 @@ marketing role
 ([DevRel Role for Machine Learning]({{ '/podcasts/devrel-open-source-machine-learning/' | relative_url }}),
 18:03 through 51:42).
 
-His Metaflow examples also show why
-[Metaflow]({{ '/wiki/metaflow/' | relative_url }}) matters in this archive.
+Hugo's Metaflow examples also show why
+[Metaflow]({{ '/wiki/metaflow/' | relative_url }}) matters in these
+discussions.
 The tool is discussed through reproducible ML workflows and integrations. It
 also appears through demos and teaching material, not only as a package.
 

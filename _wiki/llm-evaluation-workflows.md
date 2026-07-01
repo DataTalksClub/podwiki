@@ -12,9 +12,9 @@ related:
 LLM evaluation workflows are the repeatable checks teams use before they ship
 prompts, [RAG]({{ '/wiki/rag/' | relative_url }}) pipelines,
 [agents]({{ '/wiki/agent-engineering/' | relative_url }}), and AI product
-behavior. In the DataTalks.Club archive, guests treat evaluation as an
-engineering loop. The loop combines examples, pass criteria, failure analysis,
-and production feedback.
+behavior. DataTalks.Club guests treat evaluation as an engineering loop. The
+loop combines examples, pass criteria, failure analysis, and production
+feedback.
 
 LLM evaluation connects [Evaluation]({{ '/wiki/evaluation/' | relative_url }})
 with [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }}),
@@ -76,8 +76,8 @@ whether the right outcome happened with the right tool calls and parameters.
 
 ## Evaluation Sets
 
-The archive's practical workflow starts with a small gold set drawn from real
-or realistic user tasks. Hugo connects this to prompt iteration in
+The practical workflow in these episodes starts with a small gold set drawn
+from real or realistic user tasks. Hugo connects this to prompt iteration in
 [Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}).
 
 Teams can eyeball early outputs. Reliable software eventually needs cases that

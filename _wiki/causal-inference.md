@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Causal Inference"
-summary: "How the podcast archive explains causal inference as the discipline for reasoning about interventions, counterfactuals, treatment effects, and policy decisions."
+summary: "How podcast guests explain causal inference as the discipline for reasoning about interventions, counterfactuals, treatment effects, and policy decisions."
 related:
   - Experimentation and Causal Inference
   - A/B Testing
@@ -31,8 +31,8 @@ The team needs to know what would have happened under another action.
 
 ## Common Definition
 
-Across the archive, causal inference means decision support under intervention.
-Guests use different vocabulary, but they keep returning to the same structure.
+Guests describe causal inference as decision support under intervention. They
+use different vocabulary, but they keep returning to the same structure.
 
 A causal inference problem needs these pieces:
 

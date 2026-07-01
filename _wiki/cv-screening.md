@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "CV Screening"
-summary: "Archive-backed guide to how data CVs and resumes are screened: responsibilities, keywords, project evidence, recruiter calls, bias reduction, and ATS myths."
+summary: "Podcast-backed guide to how data CVs and resumes are screened: responsibilities, keywords, project evidence, recruiter calls, bias reduction, and ATS myths."
 related:
   - Job Search
   - Hiring
@@ -12,8 +12,8 @@ related:
 ---
 
 CV screening is the first hiring filter after sourcing or application. In the
-DataTalks.Club archive, recruiters and hiring managers use it to decide whether
-a candidate should enter the interview process. It sits between
+DataTalks.Club podcast discussions, recruiters and hiring managers use it to
+decide whether a candidate should enter the interview process. It sits between
 [job descriptions]({{ '/wiki/job-descriptions/' | relative_url }}) and the
 later interview rounds described in
 [Data Scientist Interview Roadmap]({{ '/wiki/data-scientist-interview-roadmap/' | relative_url }}).
@@ -28,7 +28,7 @@ match.
 
 ## Common Definition
 
-The common definition across the archive is simple: CV screening is evidence
+The common definition across these episodes is simple: CV screening is evidence
 matching. The screener asks whether the candidate's written evidence matches the
 job, the team, and the expected level.
 

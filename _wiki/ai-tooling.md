@@ -13,8 +13,9 @@ related:
 ---
 
 AI tooling covers the tools around model access and deployment. It also covers
-retrieval and prompts, agent frameworks, evaluation, and observability. In the
-DataTalks.Club archive, guests rarely treat a model API as the whole product.
+retrieval and prompts, agent frameworks, evaluation, and observability. In
+DataTalks.Club podcast discussions, guests rarely treat a model API as the
+whole product.
 They describe AI tools as a stack around data and context. The stack also
 includes actions, tests, traces, and production ownership.
 
@@ -65,7 +66,7 @@ Podcast anchors:
 
 ## Common Definition
 
-Guests in the archive define AI tooling as services and libraries around the
+Guests define AI tooling as services and libraries around the
 model. Those tools give an LLM useful context and controlled actions. They also
 make behavior measurable.
 

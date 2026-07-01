@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Event Tracking"
-summary: "How the podcast archive describes product event tracking as deliberate instrumentation for analytics, activation, support, sales, and growth workflows."
+summary: "How DataTalks.Club guests describe product event tracking as deliberate instrumentation for analytics, activation, support, sales, and growth workflows."
 related:
   - Tracking Plans
   - Data-Led Growth
@@ -12,14 +12,14 @@ related:
 
 Event tracking records product and customer actions as named events. A team
 adds properties, owners, and collection context to those events. In the
-DataTalks.Club archive, it isn't treated as passive logging. Teams use it for
-[product analytics]({{ '/wiki/product-analytics/' | relative_url }}),
+DataTalks.Club podcast discussions, it isn't treated as passive logging. Teams
+use it for [product analytics]({{ '/wiki/product-analytics/' | relative_url }}),
 [data-led growth]({{ '/wiki/data-led-growth/' | relative_url }}), and
-[data activation]({{ '/wiki/data-activation/' | relative_url }}). Support,
-sales, and lifecycle messaging use the same signals.
+[data activation]({{ '/wiki/data-activation/' | relative_url }}). Support, sales,
+and lifecycle messaging use the same signals.
 
 [Arpit Choudhury]({{ '/people/arpitchoudhury/' | relative_url }}) gives the
-clearest archive framing in
+clearest DataTalks.Club framing in
 [How to Build a Data-Led Growth Stack]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }}).
 
 At 13:34, he starts from tracking plans, where teams document event names and
@@ -32,7 +32,7 @@ sales, and engagement tools. Product experiences use it too.
 
 ## Common Definition
 
-Across the archive, event tracking means turning product behavior into data
+Across these episodes, event tracking means turning product behavior into data
 that other teams can use. A team chooses the actions that matter and names them
 consistently. It also attaches useful properties, chooses capture locations,
 and keeps enough context for analysts and operators to trust the result.
@@ -123,7 +123,7 @@ ordinary product events
 
 For role context, the
 [Product Analyst]({{ '/guides/product-analyst/' | relative_url }}) article
-uses this archive connection. Product analysts often review tracking plans and
+uses this podcast connection. Product analysts often review tracking plans and
 check event semantics. They also build funnels, support experiments, and
 explain whether a metric reflects real product behavior.
 

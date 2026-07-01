@@ -13,7 +13,7 @@ related:
   - Machine Learning System Design
 ---
 
-In the DataTalks.Club archive, guests use reinforcement learning to reason
+DataTalks.Club guests use reinforcement learning to reason
 about agents that act. They also use it to discuss objectives and environments
 where the cost of experimentation matters. Guests rarely treat it as a
 standalone algorithm menu.
@@ -57,8 +57,8 @@ That bridge matters because reinforcement learning and
 language of goals, actions, and feedback. They don't share the same
 implementation default. A reinforcement-learning agent usually learns by
 interacting with an environment. A modern LLM agent may plan, call tools, or
-retrieve context without training a policy through trial and error. The archive
-keeps that distinction visible instead of treating every autonomous workflow as
+retrieve context without training a policy through trial and error. Guests keep
+that distinction visible instead of treating every autonomous workflow as
 reinforcement learning.
 
 Lanham adds the historical arc. At 8:01 in

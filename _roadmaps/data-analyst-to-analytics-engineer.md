@@ -52,7 +52,7 @@ For the wider role map, compare
 
 ## Common Definition
 
-Across the archive, this transition means taking analyst work that used to live
+Guests describe this transition as taking analyst work that used to live
 inside one query or dashboard and making it reusable. The analyst already knows
 the business question. The new work is to define grain, model entities, add
 tests, and document metric logic. Other people can then trust and reuse the

@@ -12,8 +12,8 @@ related:
 ## Definition
 
 A community is a group of practitioners who learn, ask questions, and share
-work. They help each other improve. In the DataTalks.Club podcast archive,
-community isn't only an audience for events or content. It's a working system
+work. They help each other improve. DataTalks.Club guests don't treat
+community as only an audience for events or content. It's a working system
 for feedback and teaching. It also supports contribution, career growth, and
 trust.
 
@@ -149,7 +149,7 @@ anonymity, moderation, and peer support for public technical work.
 
 Community becomes useful when members can move from attendance to contribution.
 
-The archive shows several contribution paths:
+Guests describe several contribution paths across the community episodes:
 
 - Answer questions in Slack or another forum.
 - Mentor course participants or project teams.

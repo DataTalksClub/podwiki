@@ -291,12 +291,12 @@ discusses headless table formats and portable compute options such as DuckDB
 cost engineering time. Access, lineage, and quality controls need operational
 attention too.
 
-Cost can therefore go either way, though the podcast archive doesn't give a
+Cost can therefore go either way, though Brudaru and Larson don't give a
 single warehouse-versus-lakehouse cost formula. A warehouse can be the cheaper
 choice when one managed SQL system serves the consumers and FinOps practices
 control usage. A lakehouse can be the better choice when open storage, multiple
 engines, or long-lived raw history avoids expensive copying or product lock-in.
-The archive supports making that call from requirements rather than from
+Together, they support making that call from requirements rather than from
 architecture labels
 ([Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}),
 44:42 and

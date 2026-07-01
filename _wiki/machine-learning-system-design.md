@@ -136,7 +136,7 @@ major risk for implementation.
 
 ## Baselines and Model Choice
 
-The podcast archive consistently treats baselines as design tools. In Valerii's
+Valerii and Arseny consistently treat baselines as design tools. In Valerii's
 interview episode at 24:28 and 29:09, a baseline clarifies the minimum useful
 comparison. It also helps the candidate show progress without pretending the
 final model is obvious. In the design-doc episode at 55:13, Valerii recommends
@@ -170,7 +170,7 @@ In those systems,
 includes more than cloud deployment. It also includes the runtime where the
 prediction happens.
 
-The archive doesn't treat real-time serving as the mature default. Arseny
+Arseny and Simon don't treat real-time serving as the mature default. Arseny
 compares real-time and batch data flow at 37:15. Simon recommends platform pieces
 only when repeated use cases justify them. He returns to that point at 16:52,
 17:14, 47:08, and 49:19.

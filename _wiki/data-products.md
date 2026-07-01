@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Data Products"
-summary: "How the podcast archive describes data products as owned, discoverable, trustworthy data interfaces with users and guarantees."
+summary: "How DataTalks.Club guests describe data products as owned, discoverable, trustworthy data interfaces with users and guarantees."
 related:
   - Data Product Management
   - Data Engineering Platforms
@@ -19,7 +19,7 @@ view it as finished just because data ends up in a warehouse.
 When the maintained output is a dashboard, metric layer, or reporting workflow,
 it overlaps with [Business Intelligence]({{ '/wiki/business-intelligence/' | relative_url }}).
 
-The archive uses two closely related meanings. In
+DataTalks.Club guests use two closely related meanings. In
 [Data Mesh Implementation]({{ '/podcasts/data-mesh-architecture-decentralized-data-products/' | relative_url }}),
 [Zhamak Dehghani]({{ '/people/zhamakdehghani/' | relative_url }}) describes
 domain-owned data products with discoverability and guarantees around quality,

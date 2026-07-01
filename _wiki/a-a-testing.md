@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "A/A Testing"
-summary: "How the podcast archive uses A/A testing to validate experiment assignment, tracking, and statistical interpretation before A/B tests are trusted."
+summary: "How podcast discussions use A/A testing to validate experiment assignment, tracking, and statistical interpretation before A/B tests are trusted."
 related:
   - A/B Testing
   - Experimentation and Causal Inference
@@ -14,7 +14,7 @@ traffic into two or more groups and shows every group the same product
 experience. Then it checks whether assignment, exposure logging, metrics, and
 analysis behave as if nothing changed.
 
-In the DataTalks.Club archive, A/A testing sits between
+In DataTalks.Club podcast discussions, A/A testing sits between
 [event tracking]({{ '/wiki/event-tracking/' | relative_url }}),
 [product analytics]({{ '/wiki/product-analytics/' | relative_url }}), and
 [A/B testing]({{ '/wiki/a-b-testing/' | relative_url }}). It doesn't answer
@@ -31,8 +31,9 @@ look at randomization, tracking, and analysis before trusting later experiments.
 
 ## Common Definition
 
-A common archive definition is: A/A testing validates the experiment system
-under a no-treatment condition. The expected outcome isn't perfect equality.
+A common definition from these discussions is that A/A testing validates the
+experiment system under a no-treatment condition. The expected outcome isn't
+perfect equality.
 Users still differ, and random noise remains. The system should produce balanced
 assignment, comparable metrics, and explainable variation.
 
@@ -49,7 +50,7 @@ into the same default group.
 
 ## Guest Emphasis
 
-The archive has one direct A/A-testing discussion, so the disagreement is mostly
+The podcast has one direct A/A-testing discussion, so the disagreement is mostly
 about emphasis across adjacent experiment topics.
 
 Jakob treats A/A testing as a trust-building step for

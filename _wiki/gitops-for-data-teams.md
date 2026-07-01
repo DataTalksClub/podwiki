@@ -17,7 +17,7 @@ changes through Git. Cloud resources and permissions become versioned changes
 that another person can review before automation applies them. Deployment paths
 can follow the same route.
 
-In the podcast archive, GitOps sits inside
+In DataTalks.Club podcast discussions, GitOps sits inside
 [DataOps]({{ '/wiki/dataops/' | relative_url }}). It also connects to
 [CI/CD]({{ '/wiki/ci-cd/' | relative_url }}),
 [data governance]({{ '/wiki/data-governance/' | relative_url }}),
@@ -25,7 +25,7 @@ In the podcast archive, GitOps sits inside
 [data engineering platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}).
 
 [Tomasz Hinc]({{ '/people/tomaszhinc/' | relative_url }}) gives the clearest
-archive anchor. He describes GitOps as an enablement model for data teams that
+podcast example. He describes GitOps as an enablement model for data teams that
 need infrastructure without a manual platform-team ticket.
 
 [Bart Vandekerckhove]({{ '/people/bartvandekerckhove/' | relative_url }}) uses
@@ -96,7 +96,7 @@ those foundations consistently.
 
 ## Reviewable Infrastructure
 
-The most concrete GitOps workflow in the archive is Tomasz's Terraform,
+The most concrete GitOps workflow in these discussions is Tomasz's Terraform,
 Terragrunt, and Atlantis example. A person creates a branch, edits
 infrastructure code, and opens a merge request. Atlantis shows the planned
 Terraform change before anything is applied in production
@@ -179,7 +179,7 @@ data change goes wrong.
 
 ## Enablement and Team Design
 
-The archive doesn't frame GitOps as self-service without support. Tomasz says
+Tomasz doesn't frame GitOps as self-service without support. He says
 platform, SRE, security, and DataOps teams should guide and review changes.
 That guidance matters when people first use Terraform, Terragrunt, or Atlantis.
 It also matters around IAM and cloud resources

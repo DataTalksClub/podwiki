@@ -184,8 +184,8 @@ type constraints. Meryem's 40:46-48:01 sections in
 add why that matters in LLM products. Retrieval can handle changing knowledge,
 but teams still need to design indexing and source controls.
 
-The archive therefore treats RAG as search infrastructure plus context
-packaging. Atita's 48:09 RAG evaluation section in
+Taken together, Daniel, Meryem, and Atita treat RAG as search infrastructure
+plus context packaging. Atita's 48:09 RAG evaluation section in
 [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
 separates ingestion choices, retrieval strategy, and answer quality. It also
 adds citation quality, offline tests, and human review. That puts vector-store

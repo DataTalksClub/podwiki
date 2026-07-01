@@ -13,8 +13,8 @@ related:
 ## Definition and Scope
 
 Contributing means doing useful work that improves a project or community for
-other people. In the DataTalks.Club archive, it's code and more than code. It
-also includes documentation, examples, teaching, and community support.
+other people. In DataTalks.Club podcast discussions, it's code and more than
+code. It also includes documentation, examples, teaching, and community support.
 
 [Vincent Warmerdam]({{ '/people/vincentwarmerdam/' | relative_url }}) gives
 the most direct starting point in
@@ -79,7 +79,7 @@ volunteering to practical experience, referrals, and soft skills.
 
 ## Open-Source Contribution Paths
 
-For open-source projects, the archive favors contribution paths that are small
+For open-source projects, the guests favor contribution paths that are small
 enough to review and concrete enough to verify:
 
 - Reproducible issues: include versions, environment, input, expected behavior,

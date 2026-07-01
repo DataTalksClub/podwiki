@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Data Quality and Observability"
-summary: "How the podcast archive frames reliable data systems: tests, freshness, lineage, monitoring, triage, and recovery practices."
+summary: "How DataTalks.Club guests frame reliable data systems: tests, freshness, lineage, monitoring, triage, and recovery practices."
 related:
   - DataOps
   - Data Observability
@@ -48,8 +48,9 @@ models.
 
 ## Common Definition
 
-Across the archive, reliable data teams try to prevent avoidable bad data,
-detect unhealthy data quickly, and make the recovery path obvious. In
+Across these reliability episodes, reliable data teams try to prevent
+avoidable bad data, detect unhealthy data quickly, and make the recovery path
+obvious. In
 [Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }}),
 [Barr Moses]({{ '/people/barrmoses/' | relative_url }}) names freshness and
 volume at 16:38. She also names distribution, schema, and lineage. At 24:31,
@@ -192,7 +193,7 @@ positives by combining data, metadata, lineage, and incident context.
 meet quality here. Teams need ownership, meaning, usage, and priority before
 they can decide whether an anomaly is urgent.
 
-Runbooks matter, but the archive treats them as a step toward automation. At
+Runbooks matter, but Bergh treats them as a step toward automation. At
 34:37 in
 [Mastering DataOps]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }}),
 [Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }}) describes

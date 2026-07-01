@@ -18,7 +18,7 @@ related:
 ---
 
 An MLOps roadmap turns model training into a repeatable production lifecycle.
-In the DataTalks.Club archive, the path starts with reproducible experiments
+DataTalks.Club guests start the path with reproducible experiments
 and grows into deployment and registries. It then adds monitoring, feedback,
 retraining decisions, and platform adoption. Use
 [MLOps]({{ '/wiki/mlops/' | relative_url }}) and
@@ -41,7 +41,7 @@ shared platform work is worth the cost.
 
 ## Common Definition
 
-Across the archive, MLOps readiness means a team can move a model through a
+Across these episodes, MLOps readiness means a team can move a model through a
 repeatable lifecycle. The lifecycle starts with
 [Experiment Tracking]({{ '/wiki/experiment-tracking/' | relative_url }}) and
 [Reproducibility]({{ '/wiki/reproducibility/' | relative_url }}). It then adds
@@ -63,7 +63,7 @@ Around 39:06-44:22, he connects CI, repository structure, and
 parameterization. He also connects testing, data versioning, traceability, and
 experiment capture.
 
-The shared archive definition is therefore technical and organizational. A
+The shared definition is therefore technical and organizational. A
 junior practitioner learns to make one model reproducible and deployable. A
 senior practitioner makes the lifecycle useful to other teams. They measure
 adoption and keep production models monitored.
@@ -281,7 +281,7 @@ and question.
 
 Maria's learning advice in
 [Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }})
-is the most direct archive anchor for MLOps study choices. Around 54:05, she
+is the most direct podcast discussion of MLOps study choices. Around 54:05, she
 recommends hands-on projects and pairing with engineers. Around 56:08, she
 adds ML fundamentals and software engineering. She also adds system design and
 data engineering. That makes an MLOps course useful when it forces end-to-end

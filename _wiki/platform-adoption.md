@@ -12,7 +12,7 @@ related:
 ---
 
 Platform adoption means helping people use shared tools, standards, and
-workflows. In the DataTalks.Club archive, guests don't treat adoption as a
+workflows. DataTalks.Club guests don't treat adoption as a
 launch announcement. They describe it as product and enablement work. Teams
 need to understand real pain and reduce the cost of the standard path. They
 also need to earn trust with quick wins and measure whether people keep using
@@ -213,8 +213,8 @@ and users choosing the standard path without being forced.
 
 ## Failure Modes
 
-The archive's platform adoption warnings are practical. A team can build a
-technically coherent [ML platform]({{ '/wiki/ml-platforms/' | relative_url }})
+Guests warn that a team can build a technically coherent
+[ML platform]({{ '/wiki/ml-platforms/' | relative_url }})
 too early. It may not yet have repeated model work or clear business value
 ([Building Production ML Platforms, 47:08-49:19]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }})).
 It can also build self-service without conventions. Users may then break

@@ -13,10 +13,10 @@ related:
 ---
 
 The consultant-or-freelancer to data product founder path starts when repeated
-client problems become a reusable product idea. The archive doesn't treat this
-as a clean jump from services to software. Guests usually keep consulting,
-workshops, design partners, and public proof while the product is still
-uncertain. Open-source adoption can play the same role.
+client problems become a reusable product idea. DataTalks.Club guests don't
+treat this as a clean jump from services to software. They usually keep
+consulting, workshops, design partners, and public proof while the product is
+still uncertain. Open-source adoption can play the same role.
 
 [Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) gives the
 clearest route in
@@ -34,11 +34,11 @@ when the founder path needs discovery, roadmap, and metrics discipline.
 
 ## Common Definition
 
-Across the archive, this transition means turning repeated market pain into a
-product that can be adopted without custom delivery each time. The founder
-still needs the consulting skill of diagnosing messy client problems. They also
-need product skills. Those skills include discovery, positioning, and pricing.
-Adoption and a business model matter too.
+Across these founder and freelancing episodes, this transition means turning
+repeated market pain into a product that can be adopted without custom delivery
+each time. The founder still needs the consulting skill of diagnosing messy
+client problems. They also need product skills. Those skills include discovery,
+positioning, and pricing. Adoption and a business model matter too.
 
 [Aleksander Kruszelnicki]({{ '/people/aleksanderkruszelnicki/' | relative_url }})
 gives the validation warning in

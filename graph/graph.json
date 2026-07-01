@@ -8266,7 +8266,7 @@
       "title": "A/A Testing",
       "url": "/wiki/a-a-testing/",
       "count": 1,
-      "search": "A/A Testing How the podcast archive uses A/A testing to validate experiment assignment, tracking, and statistical interpretation before A/B tests are trusted."
+      "search": "A/A Testing How podcast discussions use A/A testing to validate experiment assignment, tracking, and statistical interpretation before A/B tests are trusted."
     },
     {
       "id": "wiki:a-b-testing",
@@ -8346,7 +8346,7 @@
       "title": "AI Engineering",
       "url": "/wiki/ai-engineering/",
       "count": 1,
-      "search": "AI Engineering Archive backed guide to AI engineering as the discipline of shipping LLM applications, RAG systems, agents, evaluations, and production AI products."
+      "search": "AI Engineering Podcast grounded guide to AI engineering as the discipline of shipping LLM applications, RAG systems, agents, evaluations, and production AI products."
     },
     {
       "id": "wiki:ai-engineering-roadmap",
@@ -8406,7 +8406,7 @@
       "title": "Analytics Engineering Portfolio Projects",
       "url": "/wiki/analytics-engineering-portfolio-projects/",
       "count": 1,
-      "search": "Analytics Engineering Portfolio Projects Archive backed guidance for analytics engineering portfolio projects that prove SQL modeling, metric ownership, dbt style tests, documentation, BI readiness, and stakeholder judgment."
+      "search": "Analytics Engineering Portfolio Projects Podcast grounded guidance for analytics engineering portfolio projects that prove SQL modeling, metric ownership, dbt style tests, documentation, BI readiness, and stakeholder judgment."
     },
     {
       "id": "wiki:analytics-engineering-roadmap",
@@ -8456,7 +8456,7 @@
       "title": "Business Intelligence",
       "url": "/wiki/business-intelligence/",
       "count": 1,
-      "search": "Business Intelligence How the podcast archive connects business intelligence to metrics, dashboards, data products, governance, product analytics, and AI assisted analysis."
+      "search": "Business Intelligence How podcast discussions connect business intelligence to metrics, dashboards, data products, governance, product analytics, and AI assisted analysis."
     },
     {
       "id": "wiki:business-skills-for-data-professionals",
@@ -8526,7 +8526,7 @@
       "title": "Causal Inference",
       "url": "/wiki/causal-inference/",
       "count": 1,
-      "search": "Causal Inference How the podcast archive explains causal inference as the discipline for reasoning about interventions, counterfactuals, treatment effects, and policy decisions."
+      "search": "Causal Inference How podcast guests explain causal inference as the discipline for reasoning about interventions, counterfactuals, treatment effects, and policy decisions."
     },
     {
       "id": "wiki:cdc",
@@ -8536,7 +8536,7 @@
       "title": "CDC",
       "url": "/wiki/cdc/",
       "count": 1,
-      "search": "CDC Change data capture in the DataTalks.Club archive: when to capture row level database changes, how CDC compares with batch dumps and streaming, and what teams must operate around schema changes, deletes, and replay."
+      "search": "CDC Change data capture in podcast discussions: when to capture row level database changes, how CDC compares with batch dumps and streaming, and what teams must operate around schema changes, deletes, and replay."
     },
     {
       "id": "wiki:ci-cd",
@@ -8616,7 +8616,7 @@
       "title": "Customer Data Platforms",
       "url": "/wiki/customer-data-platforms/",
       "count": 1,
-      "search": "Customer Data Platforms How the podcast archive frames customer data platforms as bundled tools for collecting, segmenting, analyzing, and activating customer data."
+      "search": "Customer Data Platforms How DataTalks.Club guests frame customer data platforms as bundled tools for collecting, segmenting, analyzing, and activating customer data."
     },
     {
       "id": "wiki:cv-screening",
@@ -8626,7 +8626,7 @@
       "title": "CV Screening",
       "url": "/wiki/cv-screening/",
       "count": 1,
-      "search": "CV Screening Archive backed guide to how data CVs and resumes are screened: responsibilities, keywords, project evidence, recruiter calls, bias reduction, and ATS myths."
+      "search": "CV Screening Podcast backed guide to how data CVs and resumes are screened: responsibilities, keywords, project evidence, recruiter calls, bias reduction, and ATS myths."
     },
     {
       "id": "wiki:dashboard-and-metric-layer-project-checklist",
@@ -8726,7 +8726,7 @@
       "title": "Data Engineering Portfolio Projects",
       "url": "/wiki/data-engineering-portfolio-projects/",
       "count": 1,
-      "search": "Data Engineering Portfolio Projects Archive backed guidance for data engineering portfolio projects that prove useful pipelines, SQL and Python depth, modeling, orchestration, quality checks, and operating judgment."
+      "search": "Data Engineering Portfolio Projects Podcast backed guidance for data engineering portfolio projects that prove useful pipelines, SQL and Python depth, modeling, orchestration, quality checks, and operating judgment."
     },
     {
       "id": "wiki:data-engineering-roadmap",
@@ -8826,7 +8826,7 @@
       "title": "Data Products",
       "url": "/wiki/data-products/",
       "count": 1,
-      "search": "Data Products How the podcast archive describes data products as owned, discoverable, trustworthy data interfaces with users and guarantees."
+      "search": "Data Products How DataTalks.Club guests describe data products as owned, discoverable, trustworthy data interfaces with users and guarantees."
     },
     {
       "id": "wiki:data-quality-and-observability",
@@ -8836,7 +8836,7 @@
       "title": "Data Quality and Observability",
       "url": "/wiki/data-quality-and-observability/",
       "count": 1,
-      "search": "Data Quality and Observability How the podcast archive frames reliable data systems: tests, freshness, lineage, monitoring, triage, and recovery practices."
+      "search": "Data Quality and Observability How DataTalks.Club guests frame reliable data systems: tests, freshness, lineage, monitoring, triage, and recovery practices."
     },
     {
       "id": "wiki:data-science",
@@ -9106,7 +9106,7 @@
       "title": "Event Tracking",
       "url": "/wiki/event-tracking/",
       "count": 1,
-      "search": "Event Tracking How the podcast archive describes product event tracking as deliberate instrumentation for analytics, activation, support, sales, and growth workflows."
+      "search": "Event Tracking How DataTalks.Club guests describe product event tracking as deliberate instrumentation for analytics, activation, support, sales, and growth workflows."
     },
     {
       "id": "wiki:evolutionary-algorithms",
@@ -9176,7 +9176,7 @@
       "title": "Freelance Data Engineering and Consulting",
       "url": "/wiki/freelance/",
       "count": 1,
-      "search": "Freelance Data Engineering and Consulting Archive backed guide to freelance data engineering and consulting: finding clients, pricing, scoping, agencies, direct clients, productized consulting, and career transitions."
+      "search": "Freelance Data Engineering and Consulting DataTalks.Club guest guidance for freelance data engineering and consulting: finding clients, pricing, scoping, agencies, direct clients, productized consulting, and career transitions."
     },
     {
       "id": "wiki:generative-ai",
@@ -9216,7 +9216,7 @@
       "title": "Hiring",
       "url": "/wiki/hiring/",
       "count": 1,
-      "search": "Hiring Archive backed patterns for hiring data scientists, analysts, data engineers, ML engineers, managers, and applied AI teams."
+      "search": "Hiring Podcast backed patterns for hiring data scientists, analysts, data engineers, ML engineers, managers, and applied AI teams."
     },
     {
       "id": "wiki:information-retrieval",
@@ -9256,7 +9256,7 @@
       "title": "Job Search",
       "url": "/wiki/job-search/",
       "count": 1,
-      "search": "Job Search Archive backed tactics for data and AI job search: role targeting, CVs, portfolios, networking, interviews, salary, and red flags."
+      "search": "Job Search DataTalks.Club guest tactics for data and AI job search: role targeting, CVs, portfolios, networking, interviews, salary, and red flags."
     },
     {
       "id": "wiki:leadership",
@@ -9416,7 +9416,7 @@
       "title": "ML Product Manager Role",
       "url": "/wiki/ml-product-manager-role/",
       "count": 1,
-      "search": "ML Product Manager Role How the podcast archive defines the technical product manager role for ML platforms and ML enabled data products."
+      "search": "ML Product Manager Role How DataTalks.Club guests define the technical product manager role for ML platforms and ML enabled data products."
     },
     {
       "id": "wiki:ml-system-design-documents",
@@ -9606,7 +9606,7 @@
       "title": "Power Analysis",
       "url": "/wiki/power-analysis/",
       "count": 1,
-      "search": "Power Analysis How the podcast archive uses power analysis to estimate experiment sample size, duration, and detectable effect before teams read A/B test results."
+      "search": "Power Analysis How DataTalks.Club guests use power analysis to estimate experiment sample size, duration, and detectable effect before teams read A/B test results."
     },
     {
       "id": "wiki:practices",
@@ -9616,7 +9616,7 @@
       "title": "Practices",
       "url": "/wiki/practices/",
       "count": 1,
-      "search": "Practices A bridge page for recurring operating practices in the podcast archive: versioning, testing, documentation, CI/CD, monitoring, ownership, and feedback loops."
+      "search": "Practices A bridge page for recurring operating practices in DataTalks.Club episodes: versioning, testing, documentation, CI/CD, monitoring, ownership, and feedback loops."
     },
     {
       "id": "wiki:privacy-engineering-for-ml",
@@ -9636,7 +9636,7 @@
       "title": "Product Analytics",
       "url": "/wiki/product-analytics/",
       "count": 1,
-      "search": "Product Analytics How the podcast archive connects product analytics to event tracking, metrics, experimentation, activation, and product decision making."
+      "search": "Product Analytics How DataTalks.Club guests connect product analytics to event tracking, metrics, experimentation, activation, and product decision making."
     },
     {
       "id": "wiki:product-designer-to-data-product-manager",
@@ -9716,7 +9716,7 @@
       "title": "RAG Portfolio Projects",
       "url": "/wiki/rag-portfolio-projects/",
       "count": 1,
-      "search": "RAG Portfolio Projects Archive backed guidance for RAG portfolio projects that prove retrieval quality, context design, citations, evaluation, failure analysis, and production minded AI engineering."
+      "search": "RAG Portfolio Projects DataTalks.Club guest guidance for RAG portfolio projects that prove retrieval quality, context design, citations, evaluation, failure analysis, and production minded AI engineering."
     },
     {
       "id": "wiki:reinforcement-learning",
@@ -9766,7 +9766,7 @@
       "title": "Reverse ETL",
       "url": "/wiki/reverse-etl/",
       "count": 1,
-      "search": "Reverse ETL How the podcast archive explains reverse ETL as sending modeled warehouse data into sales, marketing, support, analytics, and engagement tools."
+      "search": "Reverse ETL How DataTalks.Club guests explain reverse ETL as sending modeled warehouse data into sales, marketing, support, analytics, and engagement tools."
     },
     {
       "id": "wiki:salary-negotiation",
@@ -9826,7 +9826,7 @@
       "title": "Security",
       "url": "/wiki/security/",
       "count": 1,
-      "search": "Security Archive backed bridge for security in data and AI systems: LLM abuse, data exfiltration, access control, privacy, and secure ML artifacts."
+      "search": "Security Podcast grounded bridge for security in data and AI systems: LLM abuse, data exfiltration, access control, privacy, and secure ML artifacts."
     },
     {
       "id": "wiki:self-service-data-platforms",
@@ -9836,7 +9836,7 @@
       "title": "Self-Service Data Platforms",
       "url": "/wiki/self-service-data-platforms/",
       "count": 1,
-      "search": "Self Service Data Platforms How the DataTalks.Club podcast archive frames self service data platforms: reusable systems, conventions, contracts, governance, adoption, and team design."
+      "search": "Self Service Data Platforms How DataTalks.Club podcast guests frame self service data platforms: reusable systems, conventions, contracts, governance, adoption, and team design."
     },
     {
       "id": "wiki:software-engineer-to-machine-learning",

@@ -293,7 +293,7 @@ tracking and registry integration become shared assets. Deployment paths,
 logging schemas, and monitoring hooks do too. Documentation and support become
 part of the platform.
 
-The archive is consistent on this tradeoff. Simon warns against heavy platform
+Simon and Raphaël are consistent on this tradeoff. Simon warns against heavy platform
 investment before model value exists around 47:08 in
 [Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
 Around 49:19, he favors building minimal platform pieces alongside real use.

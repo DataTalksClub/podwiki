@@ -14,7 +14,7 @@ related:
 Data governance lets a team answer basic questions about its data. The team
 needs to know what data exists, who owns it, who can use it, and what it means.
 It also needs to know whether the data is fit for use. In the DataTalks.Club
-archive, guests don't treat governance as only
+podcast discussions, guests don't treat governance as only
 security or compliance. They connect it to [data engineering platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}),
 [data quality]({{ '/wiki/data-quality-and-observability/' | relative_url }}),
 [privacy engineering]({{ '/wiki/privacy-engineering-for-ml/' | relative_url }}),
@@ -42,11 +42,12 @@ many more users.
 
 ## Common Definition
 
-The common archive definition is practical. Data governance makes data usable
-and safe at the same time. Teams classify data, assign ownership, and document
-meaning. They expose lineage, design access rules, review usage, and measure
-quality. People can then find the right data and judge whether it supports a
-decision without creating avoidable privacy, security or compliance risk.
+The common definition in these episodes is practical. Data governance makes
+data usable and safe at the same time. Teams classify data, assign ownership,
+and document meaning. They expose lineage, design access rules, review usage,
+and measure quality. People can then find the right data and judge whether it
+supports a decision without creating avoidable privacy, security or compliance
+risk.
 
 In [Cloud Data Governance]({{ '/podcasts/cloud-data-governance/' | relative_url }}),
 Jessi and Uri describe governance as people, processes, and tools at 14:04.
@@ -138,7 +139,7 @@ instead of cataloging every field before anyone gets value.
 
 ## Catalogs, Lineage, and Ownership
 
-Catalogs help people find data, but the archive doesn't treat a catalog as the
+Catalogs help people find data, but these guests don't treat a catalog as the
 whole governance program. Jessi and Uri compare tools with spreadsheets at 27:48
 in
 [Cloud Data Governance]({{ '/podcasts/cloud-data-governance/' | relative_url }}).
@@ -168,7 +169,7 @@ questions, approve changes, and fix broken assumptions.
 Access governance decides who can use data, and it records the purpose plus
 duration. Bart's
 [Data Governance and Data Access Management]({{ '/podcasts/data-governance-data-access-management/' | relative_url }})
-episode is the clearest archive anchor for this. At 11:20, he connects cloud
+episode is the clearest podcast example for this. At 11:20, he connects cloud
 consolidation and "Chinese wall" constraints to access management. At 25:05, he
 argues that sensitive data needs access controls early.
 
@@ -194,8 +195,9 @@ roll back.
 
 ## Automation and DataOps
 
-Governance breaks down when every decision becomes a manual queue. The archive
-therefore connects governance to automation and [DataOps]({{ '/wiki/dataops/' | relative_url }}).
+Governance breaks down when every decision becomes a manual queue. These
+episodes therefore connect governance to automation and
+[DataOps]({{ '/wiki/dataops/' | relative_url }}).
 In
 [Cloud Data Governance]({{ '/podcasts/cloud-data-governance/' | relative_url }}),
 Jessi and Uri discuss automation at 48:50 for tagging, requests, and reducing

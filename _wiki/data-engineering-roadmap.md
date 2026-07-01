@@ -16,8 +16,8 @@ related:
 ---
 
 A data engineering roadmap is a sequence for becoming useful with data before
-becoming broad with tools. In the DataTalks.Club archive, you learn SQL and
-Python first. Then you add data modeling, pipeline construction, and operating
+becoming broad with tools. DataTalks.Club guests put SQL and Python first. Then
+you add data modeling, pipeline construction, and operating
 habits. [Jeff Katz]({{ '/people/jeffkatz/' | relative_url }}) puts Python, SQL,
 database concepts, and cloud basics before distributed systems in
 [Data Engineering Career Path and Skills]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }})
@@ -56,10 +56,10 @@ when the roadmap moves from learning tools to operating shared cloud spend.
 
 ## Common Definition
 
-Across the archive, guests converge on one definition. You should become able
-to turn raw inputs into trusted, recoverable data products. Katz starts that
-path with SQL and Python. He then adds database concepts such as OLTP versus
-OLAP and modeling practice
+Across these roadmap and career episodes, guests converge on one definition.
+You should become able to turn raw inputs into trusted, recoverable data
+products. Katz starts that path with SQL and Python. He then adds database
+concepts such as OLTP versus OLAP and modeling practice
 ([Data Engineering Career Path and Skills]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }})
 23:35-26:40 and 44:21-45:14). His job-prep discussion repeats the same hiring
 signal.

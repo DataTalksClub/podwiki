@@ -16,8 +16,8 @@ CI/CD moves changes through a repeatable path in data, ML, and AI systems.
 Teams version code and run automated checks. They produce deployable artifacts
 and observe production behavior.
 
-In the DataTalks.Club archive, guests rarely treat CI/CD as a standalone tool
-choice. They connect it to
+DataTalks.Club guests rarely treat CI/CD as a standalone tool choice. They
+connect it to
 [DataOps]({{ '/wiki/dataops/' | relative_url }}) and
 [MLOps]({{ '/wiki/mlops/' | relative_url }}). They also connect it to
 [testing]({{ '/wiki/testing/' | relative_url }}) and
@@ -31,7 +31,7 @@ rollback.
 
 ## Starting Points
 
-Use these discussions as the core archive path:
+Use these discussions as the core podcast path:
 
 - [Mastering DataOps: Automation, Observability & CI/CD for Reliable Data Pipelines]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }})
   with [Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }})
@@ -67,7 +67,7 @@ serving, monitoring, and platform workflow categories.
 
 ## Shared Meaning
 
-Across the archive, CI/CD means a controlled way to change production data or ML
+Across these discussions, CI/CD means a controlled way to change production data or ML
 systems without relying on manual heroics. In
 [Mastering DataOps]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }}),
 Christopher Bergh lays out a practical sequence at 34:37.

@@ -11,7 +11,7 @@ related:
   - DataOps
 ---
 
-dbt is the archive's clearest example of
+DataTalks.Club guests use dbt as the clearest example of
 [analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
 in practice. Teams write SQL models, run them in a
 [data warehouse]({{ '/wiki/data-warehouse/' | relative_url }}), and treat the
@@ -200,6 +200,6 @@ transformation logic survive beyond one analyst's query.
 Don't expect dbt to solve every data-platform problem. Teams still need
 separate design choices for ingestion, orchestration, and deep profiling. They
 also need observability, streaming, source ownership, and warehouse cost
-control. The archive's strongest dbt episodes all make the same distinction:
+control. The strongest dbt episodes all make the same distinction:
 dbt improves the transformation layer. Reliable analytics still depends on the
 surrounding data platform and team practices.

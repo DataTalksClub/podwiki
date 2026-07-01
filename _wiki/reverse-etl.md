@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Reverse ETL"
-summary: "How the podcast archive explains reverse ETL as sending modeled warehouse data into sales, marketing, support, analytics, and engagement tools."
+summary: "How DataTalks.Club guests explain reverse ETL as sending modeled warehouse data into sales, marketing, support, analytics, and engagement tools."
 related:
   - Data Activation
   - Data-Led Growth
@@ -19,7 +19,7 @@ analytics, and engagement tools are common too. It reverses the usual
 and models data, it sends selected fields back to the systems where people act.
 
 [Arpit Choudhury]({{ '/people/arpitchoudhury/' | relative_url }}) gives the
-clearest archive definition in
+clearest definition in
 [How to Build a Data-Led Growth Stack]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }}).
 At 37:25, he describes reverse ETL, or operational analytics, as sending
 warehouse data into tools such as Salesforce and HubSpot. Intercom, advertising
@@ -130,7 +130,7 @@ cites open-source alternatives, security, and compliance
 
 Reverse ETL depends on the warehouse model because the sync copies modeled
 fields into another system. A bad model can become a bad customer-facing
-action. That's why the archive connects reverse ETL to
+action. That's why Arpit and Natalie connect reverse ETL to
 [analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }}),
 [tracking plans]({{ '/wiki/tracking-plans/' | relative_url }}), and
 [modern data stack]({{ '/wiki/modern-data-stack/' | relative_url }}).

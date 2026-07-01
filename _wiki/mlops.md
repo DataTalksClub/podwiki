@@ -35,7 +35,7 @@ the boundary between model operations and data operations matters. The MLOps
 side adds model artifacts and experiment capture. It also adds drift,
 retraining, and model governance.
 
-The archive has two anchor MLOps episodes.
+Two episodes anchor this MLOps page.
 [Raphaël Hoogvliets]({{ '/people/raphaelhoogvliets/' | relative_url }}) in
 [MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }})
 shows the adoption and reproducibility side.
@@ -50,7 +50,7 @@ constraints, and startup tradeoffs.
 
 ## Common Definition
 
-Across the archive, MLOps means the repeatable path from model development to a
+Across these episodes, MLOps means the repeatable path from model development to a
 maintained production system. In
 [MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}),
 Raphaël covers adoption by product teams around 23:01-36:55. Around

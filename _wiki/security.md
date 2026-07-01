@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Security"
-summary: "Archive-backed bridge for security in data and AI systems: LLM abuse, data exfiltration, access control, privacy, and secure ML artifacts."
+summary: "Podcast-grounded bridge for security in data and AI systems: LLM abuse, data exfiltration, access control, privacy, and secure ML artifacts."
 related:
   - AI Red Teaming
   - Responsible AI and Governance
@@ -12,8 +12,8 @@ related:
 
 Security prevents unauthorized access, data leakage, misuse, and unsafe model
 behavior. It also keeps unreviewed changes out of systems that handle data or
-make decisions. In the DataTalks.Club archive, guests don't describe security
-as one control. They connect it to [data governance]({{ '/wiki/data-governance/' | relative_url }}),
+make decisions. DataTalks.Club guests don't describe security as one control.
+They connect it to [data governance]({{ '/wiki/data-governance/' | relative_url }}),
 [privacy engineering]({{ '/wiki/privacy-engineering-for-ml/' | relative_url }}),
 [MLOps]({{ '/wiki/mlops/' | relative_url }}), and
 [LLM production patterns]({{ '/wiki/llm-production-patterns/' | relative_url }}).
@@ -36,7 +36,7 @@ creep.
 
 ## Common Definition
 
-The common archive definition is practical. Security keeps useful systems from
+The common definition in these episodes is practical. Security keeps useful systems from
 exposing data, making unsafe commitments, or changing without review.
 
 For data teams, that means access management and catalog-aware controls. It also means

@@ -15,7 +15,7 @@ related_wiki:
 ---
 
 Data analysis is the work of turning data into evidence for a decision. In the
-DataTalks.Club archive, analysts first find the right data and check what the
+DataTalks.Club podcast discussions, analysts first find the right data and check what the
 numbers mean. They choose metrics, build dashboards or written readouts, and
 explain what a team should do next. It's close to
 [data analyst work]({{ '/wiki/data-analyst-role/' | relative_url }}), but the

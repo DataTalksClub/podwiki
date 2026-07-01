@@ -13,7 +13,7 @@ related:
 
 Platform engineering is the work of building shared internal systems. Those
 systems help other teams ship technical work without rebuilding the same
-infrastructure in every project. In the DataTalks.Club archive, the closest
+infrastructure in every project. In DataTalks.Club podcast discussions, the closest
 neighbors are [ML platforms]({{ '/wiki/ml-platforms/' | relative_url }}) and
 [MLOps]({{ '/wiki/mlops/' | relative_url }}). The topic also connects to
 [developer experience]({{ '/wiki/developer-experience/' | relative_url }}) and
@@ -99,9 +99,9 @@ platform problem from the buyer and integration side.
 
 ## Platform Ownership
 
-Platform ownership usually sits with a central or enabling team, but the
-archive doesn't describe that team as a command center. It's closer to an
-internal product team with infrastructure responsibility.
+Platform ownership usually sits with a central or enabling team, but guests
+don't describe that team as a command center. It's closer to an internal product
+team with infrastructure responsibility.
 
 Raphaël's Eneco example is explicit. His centralized MLOps team supports
 product teams, collects pain points, and improves the path to production
@@ -185,9 +185,9 @@ turn into a supported product.
 
 ## MLOps and Data Platform Boundaries
 
-Platform engineering crosses both MLOps and data platforms, but the pages
-shouldn't collapse those concepts into one bucket. In the archive,
-[MLOps]({{ '/wiki/mlops/' | relative_url }}) covers model lifecycle work. It
+Platform engineering crosses both MLOps and data platforms, but those concepts
+shouldn't collapse into one bucket. [MLOps]({{ '/wiki/mlops/' | relative_url }})
+covers model lifecycle work. It
 includes experiments, registries, serving, and monitoring. It also includes
 reproducibility and release practice.
 

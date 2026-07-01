@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "ML Product Manager Role"
-summary: "How the podcast archive defines the technical product manager role for ML platforms and ML-enabled data products."
+summary: "How DataTalks.Club guests define the technical product manager role for ML platforms and ML-enabled data products."
 related:
   - Data Product Management
   - ML Platforms
@@ -11,8 +11,8 @@ related:
 ---
 
 An ML product manager owns product judgment for machine-learning systems,
-ML-enabled data products, or shared ML platforms. In the DataTalks.Club
-archive, the role isn't a backlog secretary for data scientists. It's the
+ML-enabled data products, or shared ML platforms. DataTalks.Club guests don't treat
+the role as a backlog secretary for data scientists. It's the
 person who turns a business or user problem into a roadmap. They align
 technical and non-technical stakeholders and keep model, data, and platform
 work tied to measurable outcomes.
@@ -181,9 +181,9 @@ to make tradeoffs visible.
 
 ## Boundary With Product Manager
 
-An ML product manager is still a product manager. The archive's distinction is
-not that ordinary product managers own users while ML product managers own
-technology. Geo and Greg both start from the user problem and the business
+An ML product manager is still a product manager. Geo and Greg show that the
+distinction isn't that ordinary product managers own users while ML product
+managers own technology. They both start from the user problem and the business
 outcome. ML changes the feasibility, reliability, measurement, and adoption
 questions the PM has to manage.
 
@@ -215,8 +215,8 @@ execute. Geo describes roadmap ownership, specs, and stakeholder balancing. He
 also covers backlog grooming with engineers and problem breakdown through
 workshops and interviews
 ([ML platform roadmap ownership and problem breakdown at 9:50-21:06]({{ '/podcasts/ml-product-manager-and-mlops-platform-strategy/' | relative_url }})).
-The archive's product-management lesson is that a PM should avoid jumping from a
-stakeholder request directly to a technical solution.
+A PM should avoid jumping from a stakeholder request directly to a technical
+solution.
 
 Greg turns the same idea into a roadmap structure built around problems and
 possible solutions. Metrics and impact come next. He also adds effort, cost,

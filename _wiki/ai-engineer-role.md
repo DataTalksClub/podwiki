@@ -16,7 +16,7 @@ related:
 ---
 
 An AI engineer builds product software around models. In the DataTalks.Club
-archive, the role is narrower than the whole
+podcast discussions, the role is narrower than the whole
 [AI engineering]({{ '/wiki/ai-engineering/' | relative_url }}) discipline, but
 broader than prompt writing or API calls. It sits near
 [software engineering]({{ '/wiki/software-engineering/' | relative_url }})
@@ -42,7 +42,7 @@ and builds end-to-end systems that people can use
 
 ## Common Definition
 
-The archive converges on a practical definition. An AI engineer translates a
+Guests converge on a practical definition. An AI engineer translates a
 user or business problem into a working AI product. They then keep that product
 measurable and maintainable.
 

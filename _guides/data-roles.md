@@ -14,9 +14,9 @@ related_wiki:
   - Career Transitions in Data
 ---
 
-Data roles are easier to compare by ownership than by title. In the
-DataTalks.Club archive, an analyst explains what happened. A data scientist
-turns ambiguous questions into evidence, experiments, and models.
+Data roles are easier to compare by ownership than by title. In
+DataTalks.Club role discussions, an analyst explains what happened. A data
+scientist turns ambiguous questions into evidence, experiments, and models.
 
 A data engineer makes data reliable enough for other people to use. An
 analytics engineer turns raw data into trusted business models. A machine
@@ -36,7 +36,7 @@ Early teams often need generalists first. Specialists become easier to justify
 as the product and data platform mature.
 
 Choosing a target role means comparing adjacent responsibilities and building
-portfolio evidence that matches the job you want. For deeper archive pages,
+portfolio evidence that matches the job you want. For deeper role pages,
 start with
 [Data Analyst Role]({{ '/wiki/data-analyst-role/' | relative_url }}),
 [Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }}), and
@@ -57,8 +57,8 @@ The role definition episode puts analysts close to product managers because
 analysts know company data. They can also quantify whether the team should
 solve a problem
 ([Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }})).
-The broader archive adds product analytics and experiments to that definition.
-It also adds funnels, cohorts, and dashboard communication
+Podcast discussions on product analytics add experiments to that definition.
+They also add funnels, cohorts, and dashboard communication
 ([Data Analyst Role]({{ '/wiki/data-analyst-role/' | relative_url }}),
 [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }})).
 
@@ -248,8 +248,8 @@ That means a first data hire may do analyst, engineer, scientist, and product
 work in the same month. A mature platform team may split those same
 responsibilities across several people.
 
-For career changers, the archive's repeated advice is to translate prior work
-into role evidence. [Ksenia Legostay]({{ '/people/ksenialegostay/' | relative_url }})
+For career changers, DataTalks.Club guests repeatedly advise translating prior
+work into role evidence. [Ksenia Legostay]({{ '/people/ksenialegostay/' | relative_url }})
 turned project management and KPI work into data science evidence in
 [Project Manager to Data Scientist]({{ '/podcasts/project-manager-to-data-scientist/' | relative_url }}).
 Nikola Maksimovic turned marketing funnels and reporting into analytics

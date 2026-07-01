@@ -15,7 +15,7 @@ related_wiki:
 Data observability for data engineering means checking whether data products are
 still usable, not only whether jobs finished. A pipeline can run successfully
 and still publish stale partitions, missing rows, broken schemas, or shifted
-values. The DataTalks.Club archive frames this as a production reliability
+values. DataTalks.Club guests frame this as a production reliability
 problem for [data engineering]({{ '/wiki/data-engineering/' | relative_url }}),
 [DataOps]({{ '/wiki/dataops/' | relative_url }}), analytics, and ML systems.
 
@@ -34,7 +34,7 @@ asks whether the output still satisfies the consumer expectation.
 
 ## Observability Role
 
-The common definition across the archive is practical. Data observability helps
+DataTalks.Club guests define data observability in practical terms. It helps
 data engineers detect an issue and diagnose the likely cause. It also shows the
 downstream impact before a dashboard user, model owner, or product team finds
 the problem first.

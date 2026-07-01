@@ -18,7 +18,7 @@ related_wiki:
 ---
 
 Moving from data scientist to data engineer is a shift from using data to
-owning the path that makes data usable. In the DataTalks.Club archive,
+owning the path that makes data usable. In DataTalks.Club podcast discussions,
 [data scientists]({{ '/wiki/data-scientist-role/' | relative_url }}) frame
 questions, evaluate models, and explain impact.
 [Data engineers]({{ '/wiki/data-engineer-role/' | relative_url }}) build and
@@ -42,7 +42,7 @@ and
 [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }}).
 
 [Ellen König]({{ '/people/ellenkonig/' | relative_url }}) gives the most direct
-archive example of this move in
+podcast example of this move in
 [How to Become a Data Engineer]({{ '/podcasts/from-software-engineering-data-science-to-data-engineering-leadership/' | relative_url }}).
 At 9:41, she describes data science tasks that are already data engineering
 work. At 13:55, she explains which pipeline, stakeholder, and exploration
@@ -224,7 +224,7 @@ context
 
 ## Choose the Right Target Role
 
-"Data engineer" isn't one job, and the archive separates several targets. They
+"Data engineer" isn't one job, and DataTalks.Club guests separate several targets. They
 include platform data engineering and product-facing data engineering.
 Analytics engineering, streaming, governance, and ML-adjacent pipeline work are
 other targets

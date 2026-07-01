@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "AI Engineering"
-summary: "Archive-backed guide to AI engineering as the discipline of shipping LLM applications, RAG systems, agents, evaluations, and production AI products."
+summary: "Podcast-grounded guide to AI engineering as the discipline of shipping LLM applications, RAG systems, agents, evaluations, and production AI products."
 related:
   - AI Engineer Role
   - AI Engineering Roadmap
@@ -15,7 +15,7 @@ related:
 ---
 
 AI engineering turns foundation models into usable software. In the
-DataTalks.Club archive, guests describe it as product engineering around models
+DataTalks.Club podcast discussions, guests describe it as product engineering around models
 rather than prompt writing alone. [Paul Iusztin]({{ '/people/pauliusztin/' | relative_url }})
 puts full-stack product work and [RAG]({{ '/wiki/rag/' | relative_url }}) in
 one skill stack. He also includes agents, evaluation, and LLMOps in
@@ -210,7 +210,7 @@ for project sequencing.
 
 ## Podcast Starting Points
 
-These episodes give the fastest path into the archive-backed AI engineering
+These episodes give the fastest path into the DataTalks.Club AI engineering
 thread:
 
 - [Paul Iusztin]({{ '/people/pauliusztin/' | relative_url }}) explains the

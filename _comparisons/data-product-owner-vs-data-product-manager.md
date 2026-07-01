@@ -20,8 +20,8 @@ related_wiki:
   - MLOps
 ---
 
-Data product owner and data product manager are often used interchangeably. The
-DataTalks.Club archive suggests a useful split. Start with the decision that
+Data product owner and data product manager are often used interchangeably.
+DataTalks.Club guests suggest a useful split. Start with the decision that
 needs ownership, then map the title around it.
 
 A data product owner usually owns one data product or domain data product. The

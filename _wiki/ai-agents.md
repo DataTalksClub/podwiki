@@ -14,8 +14,8 @@ related:
 ---
 
 AI agents are LLM-backed systems that pursue a goal over time. They often use
-tools, retrieval, memory, and workflow state. In the DataTalks.Club
-archive, guests treat agents as more than chat interfaces.
+tools, retrieval, memory, and workflow state. In DataTalks.Club podcast
+discussions, guests treat agents as more than chat interfaces.
 [Ranjitha Kulkarni]({{ '/people/ranjithakulkarni/' | relative_url }}) ties
 them to autonomy, objectives, orchestration, and tool use. She also adds memory
 and knowledge stores in
@@ -33,7 +33,7 @@ broader production practices live in
 
 ## Starting Points
 
-Start with these archive discussions:
+Start with these podcast discussions:
 
 - [Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}) with [Ranjitha Kulkarni]({{ '/people/ranjithakulkarni/' | relative_url }}) for autonomy, orchestration, tools, memory, and SRE workflows. The same episode covers agentic RAG, MCP-style tool protocols, and goal-based evaluation.
 - [The Future of AI Agents]({{ '/podcasts/s23e03-future-of-ai-agents/' | relative_url }}) with [Aditya Gautam]({{ '/people/adityagautam/' | relative_url }}) for enterprise adoption, specialized models, guardrails, and data lineage. He also covers multi-tenant evaluation, human-label alignment, and deployment risk.
@@ -68,7 +68,7 @@ discusses Slack-style workflow assistants, and at 40:12 he describes agentic
 value through actions, documents, and automation. The agent matters when the
 system changes a workflow, not only when it writes a response.
 
-The archive also treats agents as an extension of normal product engineering.
+These episodes also treat agents as an extension of normal product engineering.
 In
 [Paul's AI engineering episode]({{ '/podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products/' | relative_url }}),
 Paul places agents beside RAG and knowledge management. He also connects them
@@ -224,7 +224,7 @@ For agents, the same retrieval risk can become an action risk. That matters
 when the system can call tools, write data, send messages, or trigger
 workflows.
 
-Across the archive, teams keep agents governed by narrowing tool permissions
+Across these discussions, teams keep agents governed by narrowing tool permissions
 and tracing the data used for each answer or action. They also keep human
 review around high-impact decisions and test failures repeatedly. That connects
 AI agents to [AI Red Teaming]({{ '/wiki/ai-red-teaming/' | relative_url }}),

@@ -25,7 +25,7 @@ the cost signal. They also own orchestration jobs, storage choices, and
 dashboards.
 
 [Eddy Zulkifly]({{ '/people/eddyzulkifly/' | relative_url }}) gives the
-archive's clearest definition in
+clearest DataTalks.Club definition in
 [FinOps for Data Engineers]({{ '/podcasts/finops-for-data-engineers/' | relative_url }}).
 He describes his staff data engineering work as both technical and strategic.
 He builds pipelines and data quality checks, then defines unit economics and
@@ -39,9 +39,10 @@ decisions.
 
 ## Common Definition
 
-The archive defines FinOps as cloud cost management through data engineering
-work. Finance teams care about spend. Data engineers provide usage data,
-tagging, and capacity plans. They also provide cloud architecture and reporting.
+Zulkifly's episode defines FinOps as cloud cost management through data
+engineering work. Finance teams care about spend. Data engineers provide usage
+data, tagging, and capacity plans. They also provide cloud architecture and
+reporting.
 
 At
 [31:40]({{ '/podcasts/finops-for-data-engineers/' | relative_url }}),

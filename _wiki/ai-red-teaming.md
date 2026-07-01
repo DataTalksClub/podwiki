@@ -14,7 +14,7 @@ that an AI product can fail under hostile input. The product might leak data,
 follow a malicious instruction, hallucinate a risky answer, or act outside the
 boundary the team intended.
 
-The DataTalks.Club archive anchors this topic in production systems, not only
+DataTalks.Club guests anchor this topic in production systems, not only
 model benchmarks. In
 [Hardening Generative AI Chatbots]({{ '/podcasts/generative-ai-chatbots-in-production-security/' | relative_url }}),
 [Maria Sukhareva]({{ '/people/mariasukhareva/' | relative_url }}) describes a
@@ -27,7 +27,7 @@ should block. That connects red teaming directly to
 
 ## Common Definition
 
-The common archive definition is practical. AI red teaming means attacking the
+Across the podcast discussions, guests define AI red teaming as attacking the
 deployed AI product before customers, employees, or malicious users discover the
 same failures.
 

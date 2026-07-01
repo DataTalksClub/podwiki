@@ -19,8 +19,8 @@ related_wiki:
   - MLOps
 ---
 
-Product owner and product manager aren't stable titles across companies. In
-the DataTalks.Club archive, the useful split is practical. Look for who owns
+Product owner and product manager aren't stable titles across companies.
+DataTalks.Club guests draw a practical split. Look for who owns
 the product decision. Then look for who protects delivery, manages the roadmap,
 and aligns the data or ML specialists across teams.
 

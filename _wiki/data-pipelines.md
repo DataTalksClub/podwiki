@@ -12,7 +12,7 @@ related:
 ---
 
 Data pipelines move data from source systems into forms that people, products,
-and models can use. In the DataTalks.Club archive, that means more than a
+and models can use. DataTalks.Club guests treat that as more than a
 scheduled job. A pipeline extracts or receives data and stores enough raw
 history to recover. It also transforms data into modeled outputs and publishes
 them. The team then needs a way to test, observe, and rerun the work.
@@ -52,7 +52,7 @@ A useful data pipeline has three responsibilities.
   feature set, search index, model input, or API-facing output. It may also
   sync the result back into an operational system.
 
-The archive keeps returning to the same warning: publication is part of the
+DataTalks.Club guests repeat the same warning: publication is part of the
 pipeline. A table that loads successfully but breaks a dashboard, model, or
 business workflow is still a pipeline failure. [Barr Moses]({{ '/people/barrmoses/' | relative_url }})
 makes that reliability point in
@@ -177,8 +177,9 @@ when sales, marketing, or operations teams need it.
 
 ## Testing, Recovery, and Observability
 
-The podcast archive treats reliable pipelines as operated systems, not as
-scripts that happen to run on a schedule. [Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }})
+DataTalks.Club guests treat reliable pipelines as operated systems, not as
+scripts that happen to run on a schedule.
+[Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }})
 anchors that operating model in
 [Mastering DataOps]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }})
 and

@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "RAG Portfolio Projects"
-summary: "Archive-backed guidance for RAG portfolio projects that prove retrieval quality, context design, citations, evaluation, failure analysis, and production-minded AI engineering."
+summary: "DataTalks.Club guest guidance for RAG portfolio projects that prove retrieval quality, context design, citations, evaluation, failure analysis, and production-minded AI engineering."
 related:
   - Portfolio Projects
   - Retrieval-Augmented Generation
@@ -35,7 +35,7 @@ and the broader
 standard.
 
 [Atita Arora]({{ '/people/atitaarora/' | relative_url }}) gives the clearest
-archive-backed structure in
+portfolio-project structure in
 [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}).
 At 30:38-42:49, she connects retrieval and chunking to context packaging. She
 then brings in vectorization, prompt design, and citations.
@@ -46,7 +46,7 @@ at 23:00-27:38, he ties gold tests and failure categories to traceable logs.
 
 ## Common Definition
 
-Across the podcast archive, guests treat a strong RAG portfolio project as the
+Across the RAG and search episodes, guests treat a strong RAG portfolio project as the
 full retrieval loop, not only a chat UI over files. The project ingests source
 documents and splits them into useful chunks. It keeps source metadata, retrieves
 evidence for a question, and gives that evidence to the model. The answer cites

@@ -17,7 +17,7 @@ A data warehouse is modeled analytical storage. Teams load data from source
 systems and model it into trusted tables. Analysts, BI tools, metrics layers,
 and sometimes operational systems then consume those tables.
 
-In the DataTalks.Club archive, the warehouse usually sits at the center of the
+In DataTalks.Club episodes, the warehouse usually sits at the center of the
 [modern data stack]({{ '/wiki/modern-data-stack/' | relative_url }}). Ingestion
 gets data in. [ELT]({{ '/wiki/elt/' | relative_url }}) and
 [dbt]({{ '/wiki/dbt/' | relative_url }}) model it.
@@ -43,7 +43,7 @@ lakehouse tradeoffs.
 
 ## Starting Points
 
-Use these archive paths to place the warehouse in context:
+Use these topic paths to place the warehouse in context:
 
 - [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}) for the
   stack around warehouse analytics.

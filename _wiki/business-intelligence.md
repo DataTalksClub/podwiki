@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Business Intelligence"
-summary: "How the podcast archive connects business intelligence to metrics, dashboards, data products, governance, product analytics, and AI-assisted analysis."
+summary: "How podcast discussions connect business intelligence to metrics, dashboards, data products, governance, product analytics, and AI-assisted analysis."
 related:
   - Analytics Engineering
   - Data Warehouse
@@ -15,7 +15,7 @@ related:
 ---
 
 Business intelligence turns modeled data into dashboards, metrics, reports, and
-decision workflows. In the DataTalks.Club archive, BI sits between
+decision workflows. In DataTalks.Club podcast discussions, BI sits between
 [analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
 and [data warehouses]({{ '/wiki/data-warehouse/' | relative_url }}). It also
 sits between [metrics]({{ '/wiki/metrics/' | relative_url }}) and the business
@@ -28,8 +28,8 @@ analysis before a human moves from a metric to a decision. At its worst, it
 turns unclear definitions and fragile data pipelines into confident-sounding
 answers.
 
-The DataTalks.Club podcast archive points toward a practical middle path. Use AI
-to make BI workflows faster and more conversational.
+DataTalks.Club guests point toward a practical middle path. Use AI to make BI
+workflows faster and more conversational.
 
 Keep the hard requirements that make any analytics product useful:
 
@@ -270,14 +270,14 @@ A practical first version can be simple:
 6. Require analyst review for high-stakes or externally visible decisions.
 7. Track adoption, wrong-answer reports, time saved, and decisions changed.
 
-This keeps AI-powered business intelligence connected to the archive's broader
+This keeps AI-powered business intelligence connected to the broader podcast
 lessons. BI succeeds when it's a trusted data product adopted inside real
 workflows. It also needs clear access rules and honest evaluation rather than
 hype.
 
 ## Related Topics
 
-Use these archive pages for deeper context:
+Use these pages for deeper context:
 
 - [data products]({{ '/wiki/data-products/' | relative_url }})
 - [data product adoption]({{ '/wiki/data-product-adoption/' | relative_url }})

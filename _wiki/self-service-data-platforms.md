@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Self-Service Data Platforms"
-summary: "How the DataTalks.Club podcast archive frames self-service data platforms: reusable systems, conventions, contracts, governance, adoption, and team design."
+summary: "How DataTalks.Club podcast guests frame self-service data platforms: reusable systems, conventions, contracts, governance, adoption, and team design."
 related:
   - Data Engineering Platforms
   - DataOps Platforms
@@ -14,7 +14,7 @@ related:
 Self-service data platforms are shared systems and operating practices. They
 let analysts, data scientists, software engineers, and domain teams create or
 use data workflows without waiting for bespoke data engineering work each time.
-In the DataTalks.Club archive, self-service isn't "everyone does whatever they
+DataTalks.Club guests don't describe self-service as "everyone does whatever they
 want." It's a designed path through [data engineering platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}),
 [DataOps platforms]({{ '/wiki/dataops-platforms/' | relative_url }}), and
 [data governance]({{ '/wiki/data-governance/' | relative_url }}) that makes
@@ -28,7 +28,7 @@ the main question is rollout, user behavior, and measurement.
 
 ## Common Definition
 
-The archive frames self-service as supported data work for other teams. They
+Guests frame self-service as supported data work for other teams. Those teams
 can use the platform to build and operate that work. They can also consume it
 through supported workflows.
 

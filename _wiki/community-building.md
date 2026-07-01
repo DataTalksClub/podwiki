@@ -12,8 +12,8 @@ related:
 ## Definition
 
 Community building is the work of helping people with a shared technical
-interest keep showing up and helping each other. In the DataTalks.Club archive,
-the topic connects
+interest keep showing up and helping each other. DataTalks.Club guests connect
+the topic to
 [community]({{ '/wiki/community/' | relative_url }}) and online courses. It
 also connects [MLOps]({{ '/wiki/mlops/' | relative_url }}), open-source
 mentoring, and [developer relations]({{ '/wiki/developer-relations/' | relative_url }}).

@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Freelance Data Engineering and Consulting"
-summary: "Archive-backed guide to freelance data engineering and consulting: finding clients, pricing, scoping, agencies, direct clients, productized consulting, and career transitions."
+summary: "DataTalks.Club guest guidance for freelance data engineering and consulting: finding clients, pricing, scoping, agencies, direct clients, productized consulting, and career transitions."
 related:
   - Career Transitions in Data
   - Business Skills for Data Professionals
@@ -398,9 +398,10 @@ client's problem and use short discovery when the problem is vague. Price the
 uncertainty, communicate early, and leave the client with something they can
 operate.
 
-Across the archive, freelance data engineering, data engineering consulting,
-and independent data consulting show the same operating lesson. The technical
-work only succeeds when the business around it also works.
+Across the freelance episodes, guests describe the same operating lesson for
+freelance data engineering, data engineering consulting, and independent data
+consulting. The technical work only succeeds when the business around it also
+works.
 
 ## Related Pages
 

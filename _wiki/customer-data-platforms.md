@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Customer Data Platforms"
-summary: "How the podcast archive frames customer data platforms as bundled tools for collecting, segmenting, analyzing, and activating customer data."
+summary: "How DataTalks.Club guests frame customer data platforms as bundled tools for collecting, segmenting, analyzing, and activating customer data."
 related:
   - Data Activation
   - Reverse ETL
@@ -182,8 +182,8 @@ For a CDP, governance covers several decisions:
 - who can create or activate audiences
 - how teams monitor downstream syncs
 
-The archive doesn't frame CDPs as a substitute for governance. It frames them
-as a place where
+Arpit and Sonal don't frame CDPs as a substitute for governance. They frame
+CDPs as a place where
 [data observability]({{ '/wiki/data-observability/' | relative_url }}),
 [privacy engineering]({{ '/wiki/privacy-engineering-for-ml/' | relative_url }}),
 and ownership become more visible because customer data starts affecting real

@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Data Engineering Portfolio Projects"
-summary: "Archive-backed guidance for data engineering portfolio projects that prove useful pipelines, SQL and Python depth, modeling, orchestration, quality checks, and operating judgment."
+summary: "Podcast-backed guidance for data engineering portfolio projects that prove useful pipelines, SQL and Python depth, modeling, orchestration, quality checks, and operating judgment."
 related:
   - Portfolio Projects
   - Data Engineering
@@ -18,9 +18,9 @@ related:
 ## Definition
 
 A data engineering portfolio project proves that a person can turn source data
-into dependable data products. The archive treats the useful signal as more
-than a tool list. It asks for source understanding with modeled tables. It also
-asks for tests plus recovery behavior
+into dependable data products. DataTalks.Club guests treat the useful signal as
+more than a tool list. They ask for source understanding with modeled tables.
+They also ask for tests plus recovery behavior
 ([Jeff Katz]({{ '/people/jeffkatz/' | relative_url }}) in
 [Data Engineering Job Prep]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }})
 and [Ellen König]({{ '/people/ellenkonig/' | relative_url }}) in
@@ -196,7 +196,7 @@ identity-resolution product
 
 ## Practical Projects
 
-These project categories turn the archive themes into portfolio choices.
+These project categories turn the podcast themes into portfolio choices.
 
 - Batch analytical pipeline: ingest from an API or public dataset. The project
   publishes modeled tables and connects Kwong's mart layers to Tuli's

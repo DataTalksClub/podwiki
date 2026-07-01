@@ -14,7 +14,8 @@ related:
 ---
 
 AI infrastructure covers compute and orchestration. It also covers serving and
-operations behind production AI systems. In the DataTalks.Club archive, it overlaps with
+operations behind production AI systems. In DataTalks.Club podcast discussions,
+it overlaps with
 [Machine Learning Infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }})
 and [MLOps]({{ '/wiki/mlops/' | relative_url }}). AI workloads add pressure
 from GPUs, large-model serving, and distributed training. They also add
@@ -205,7 +206,7 @@ infrastructure tooling.
 
 ## Cost, Efficiency, and Caching
 
-The archive repeatedly ties AI infrastructure to cost. Andrey discusses
+These episodes repeatedly tie AI infrastructure to cost. Andrey discusses
 infrastructure ownership cost and cloud-versus-on-prem limits around 5:27-10:00
 in
 [Post-ChatGPT AI Infrastructure]({{ '/podcasts/ai-infrastructure-hybrid-cloud-on-prem-distributed-training/' | relative_url }}).

@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Hiring"
-summary: "Archive-backed patterns for hiring data scientists, analysts, data engineers, ML engineers, managers, and applied AI teams."
+summary: "Podcast-backed patterns for hiring data scientists, analysts, data engineers, ML engineers, managers, and applied AI teams."
 related:
   - Job Search
   - Career Transition
@@ -13,9 +13,9 @@ related:
 
 Hiring is how data, ML, and AI teams define work and find people who can do it.
 Teams also evaluate evidence and help a new hire succeed. In the
-DataTalks.Club podcast archive, hiring isn't just a recruiter funnel. It's role
-design, team design, and interview design. It continues through compensation
-negotiation, onboarding, and retention.
+DataTalks.Club podcast discussions, hiring isn't just a recruiter funnel. It's
+role design, team design, and interview design. It continues through
+compensation negotiation, onboarding, and retention.
 
 The topic sits next to [Job Search]({{ '/wiki/job-search/' | relative_url }})
 and [CV Screening]({{ '/wiki/cv-screening/' | relative_url }}), but it's
@@ -27,8 +27,8 @@ person they hire.
 
 ## Common Definition
 
-Across the archive, hiring means matching a real team need with candidate
-evidence. [Alicja Notowska]({{ '/people/alicjanotowska/' | relative_url }})
+Across these hiring episodes, hiring means matching a real team need with
+candidate evidence. [Alicja Notowska]({{ '/people/alicjanotowska/' | relative_url }})
 describes data-role hiring as work that starts before interviews. The hiring
 manager works with the recruiter to define the need and write the job
 specification. They align on interviewers and source candidates. They screen
@@ -99,8 +99,9 @@ Alicja Notowska still treats recruiter screens and technical screens as normal
 parts of data hiring. Final rounds also fit when they follow job-spec work and
 hiring-manager calibration
 ([Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }})).
-The archive's practical boundary isn't "test or don't test." It's whether the
-assessment resembles the job and appears at a fair stage of the process.
+The practical boundary in these episodes isn't "test or don't test." It's
+whether the assessment resembles the job and appears at a fair stage of the
+process.
 
 ## Role Design and Job Descriptions
 

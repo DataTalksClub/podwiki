@@ -16,7 +16,7 @@ related:
 
 Open source and developer relations meet when a public technical project needs
 people to understand it and trust it. It also needs people to use it and
-improve it. In the DataTalks.Club archive,
+improve it. In DataTalks.Club episodes,
 [Open Source]({{ '/wiki/open-source/' | relative_url }}) covers public project
 work such as repositories and maintainers. It also covers governance, licensing,
 and business models.
@@ -268,7 +268,7 @@ be a reviewed pull request or a visible portfolio signal
 
 ## Related Pages
 
-These pages cover the adjacent archive topics.
+These pages cover adjacent topics from the same podcast discussions.
 
 - [Open Source]({{ '/wiki/open-source/' | relative_url }})
 - [Developer Relations]({{ '/wiki/developer-relations/' | relative_url }})

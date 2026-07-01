@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Analytics Engineering Portfolio Projects"
-summary: "Archive-backed guidance for analytics engineering portfolio projects that prove SQL modeling, metric ownership, dbt-style tests, documentation, BI readiness, and stakeholder judgment."
+summary: "Podcast-grounded guidance for analytics engineering portfolio projects that prove SQL modeling, metric ownership, dbt-style tests, documentation, BI readiness, and stakeholder judgment."
 related:
   - Portfolio Projects
   - Analytics Engineering
@@ -44,7 +44,7 @@ Engineering discipline then makes the result safer
 
 ## Common Definition
 
-Across the archive, a good analytics engineering portfolio project starts with
+Across these episodes, a good analytics engineering portfolio project starts with
 a repeated business question and ends with a trusted analytical surface. The
 repository should make source assumptions and staging models easy to review. It
 should also show intermediate logic, marts, tests, and docs. The final
@@ -313,9 +313,9 @@ shows how silent failures, schema changes, freshness, and lineage break trust.
 Ownership matters too when teams only look at the final output
 ([13:40-29:00]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }})).
 
-Avoid treating analytics engineering as "SQL plus dashboard." The archive
-returns to software practices and tests, then to docs and lineage. It also
-covers version control, warehouse transformations, and adoption. See
+Avoid treating analytics engineering as "SQL plus dashboard." The podcast
+discussions return to software practices and tests, then to docs and lineage.
+They also cover version control, warehouse transformations, and adoption. See
 [Master Analytics Engineering]({{ '/podcasts/analytics-engineer-skills-tools/' | relative_url }})
 for the role view. See
 [Mastering DataOps]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }})

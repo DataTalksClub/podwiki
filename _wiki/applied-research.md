@@ -14,7 +14,7 @@ related:
 ## Definition
 
 Teams do applied research when they aim research at a practical decision,
-product, or system. In the DataTalks.Club archive, guests use the term for work
+product, or system. DataTalks.Club guests use the term for work
 that still has scientific uncertainty but must produce something a team can use.
 That output may be a dataset, benchmark, or prototype. It may also be a
 modeling approach, validation method, or production design.
@@ -110,7 +110,7 @@ when the main question is whether the approach can be served reliably.
 
 ## Engineering And Reproducibility
 
-The archive repeatedly treats reproducibility as part of applied research, not
+These podcast discussions repeatedly treat reproducibility as part of applied research, not
 as cleanup after the fact. In
 [From Research to Production]({{ '/podcasts/research-to-production-ml-systems-roadmap/' | relative_url }}),
 [Mihail Eric]({{ '/people/mihaileric/' | relative_url }}) says researchers need

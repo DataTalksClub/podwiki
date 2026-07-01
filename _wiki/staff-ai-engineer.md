@@ -16,7 +16,7 @@ related:
 
 A staff AI engineer is a senior individual contributor who turns AI work into
 cross-team product and platform decisions. The role still needs technical depth,
-but the archive doesn't frame it as a title for the person who writes the most
+but the podcast discussions don't frame it as a title for the person who writes the most
 model code.
 
 [Tatiana Gabruseva]({{ '/people/tatianagabruseva/' | relative_url }})
@@ -39,7 +39,7 @@ people managers.
 
 ## Role Scope
 
-Tatiana's episode gives the clearest archive definition. In her horizontal team,
+Tatiana's episode gives the clearest role definition. In her horizontal team,
 roughly half the work involved meetings, alignment, and collaboration with
 internal stakeholders. She analyzed strategy, defined roadmaps, agreed with
 other leaders, and set business and technical goals. She also owned delivery and
@@ -208,8 +208,8 @@ project.
 
 ## Leadership Without People Management
 
-The archive treats staff AI engineering as leadership without requiring a
-manager title. Tatiana's examples include mentoring engineers beyond her team
+Tatiana treats staff AI engineering as leadership without requiring a
+manager title. Her examples include mentoring engineers beyond her team
 and reviewing designs and code. She also joined hiring and promotion committees,
 then aligned with leaders across functions. She describes heavy context
 switching across several projects and many teams

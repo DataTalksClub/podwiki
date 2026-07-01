@@ -23,7 +23,7 @@ warehouse tables. They may also manage orchestration, set up data quality
 checks, support analytics engineers, or turn repeated data work into a
 platform. Those are different hiring problems.
 
-The DataTalks.Club archive repeatedly treats data engineering hiring as role
+DataTalks.Club guests repeatedly treat data engineering hiring as role
 design instead of keyword matching. [Nicolas Rassam]({{ '/people/nicolasrassam/' | relative_url }})
 explains in
 [Hiring Data Engineers in Europe]({{ '/podcasts/hiring-for-data-engineering-jobs-in-europe/' | relative_url }})
@@ -251,7 +251,7 @@ For managers, useful signals include:
 
 The [data engineering portfolio projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
 and [open-source portfolio evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
-pages expand this archive theme. Use them as a review lens. A smaller project
+pages expand this hiring signal. Use them as a review lens. A smaller project
 with clear decisions is often more useful than a huge project that only proves
 the candidate can follow a tutorial.
 

@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Power Analysis"
-summary: "How the podcast archive uses power analysis to estimate experiment sample size, duration, and detectable effect before teams read A/B test results."
+summary: "How DataTalks.Club guests use power analysis to estimate experiment sample size, duration, and detectable effect before teams read A/B test results."
 related:
   - A/B Testing
   - Metrics
@@ -11,14 +11,14 @@ related:
 
 Power analysis estimates how many observations an experiment needs before a team
 can detect a meaningful effect with acceptable error risk. In the
-DataTalks.Club archive, it sits between
+DataTalks.Club podcast discussions, it sits between
 [A/B testing]({{ '/wiki/a-b-testing/' | relative_url }}),
 [metrics]({{ '/wiki/metrics/' | relative_url }}), and
 [product analytics]({{ '/wiki/product-analytics/' | relative_url }}). It turns
 a product question into a sample-size and duration estimate before the team
 looks at results.
 
-[Jakob Graff]({{ '/people/jakobgraff/' | relative_url }}) gives the archive's
+[Jakob Graff]({{ '/people/jakobgraff/' | relative_url }}) gives the podcast's
 clearest definition in
 [Product Analytics and A/B Testing at 37:44]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}).
 The team starts with the improvement it wants to detect, the metric's baseline
@@ -35,7 +35,7 @@ earlier in the same episode, especially the traffic splitter and
 
 ## Common Definition
 
-A common archive definition treats power analysis as a planning step for
+A common definition treats power analysis as a planning step for
 randomized product experiments. The team chooses the smallest effect that would
 change the decision. It estimates the variance or baseline rate of the metric,
 chooses error levels, and calculates the required sample size. Then it turns

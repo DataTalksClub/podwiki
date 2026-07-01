@@ -14,7 +14,7 @@ related:
   - Machine Learning Portfolio Projects
 ---
 
-Teaching in the DataTalks.Club archive is practical education for people trying
+DataTalks.Club guests describe teaching as practical education for people trying
 to do real data, ML, and AI work. Guests rarely describe it as lecture delivery.
 They tie it to curriculum design, mentoring, and project work. Feedback,
 documentation, community support, and public explanation also do real teaching
@@ -63,7 +63,7 @@ office hours, public deadlines, and peer questions help learners keep moving.
 
 ## Build Curriculum From Constraints
 
-The archive's strongest curriculum discussions begin with constraints. Teachers
+The strongest curriculum discussions begin with constraints. Teachers
 need to know the target role, learner background, and employer expectations.
 They also need to account for data access, tools, and available time.
 

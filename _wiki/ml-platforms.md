@@ -14,8 +14,8 @@ related:
 ---
 
 An ML platform is the shared internal product that helps teams move models from
-experiments into reliable production systems. In the DataTalks.Club archive,
-the platform isn't just a cluster or a notebook service. It also isn't a
+experiments into reliable production systems. DataTalks.Club guests don't present
+the platform as just a cluster or a notebook service. It also isn't a
 catalog of MLOps tools. It's the reusable path for training and tracking. It
 also covers registering, deploying, monitoring, and governing models across
 teams.
@@ -36,7 +36,7 @@ stakeholders do too
 
 ## Common Definition
 
-Across the podcast archive, an ML platform is the reusable path from
+Across the podcast discussions, an ML platform is the reusable path from
 experimentation to production. [Simon Stiebellehner]({{ '/people/simonstiebellehner/' | relative_url }})
 starts the platform surface with self-service compute and notebooks. He treats
 [experiment tracking]({{ '/wiki/experiment-tracking/' | relative_url }}) and a
@@ -134,9 +134,9 @@ and support practices do too.
 
 ## Lifecycle Services
 
-The platform service set in the archive is compact and repeated. Experiment
-tracking gives teams run history and helps with collaboration and
-reproducibility. Simon treats it as an early win before moving to a model
+Guests repeatedly name a compact platform service set, starting with experiment
+tracking for run history, collaboration, and reproducibility. Simon treats it as
+an early win before moving to a model
 registry for downstream consumption
 ([Building Production ML Platforms, 29:41-30:32]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }})).
 

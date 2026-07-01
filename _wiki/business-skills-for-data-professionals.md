@@ -13,10 +13,10 @@ related:
 ---
 
 Business skills for data professionals connect technical work to decisions and
-trust. In the DataTalks.Club archive, they include learning the business
-language, defining metrics with stakeholders, and mapping decision owners. They
-also include choosing a pragmatic method and explaining tradeoffs so another
-team can act.
+trust. DataTalks.Club guests describe them as learning the business language,
+defining metrics with stakeholders, and mapping decision owners. They also
+include choosing a pragmatic method and explaining tradeoffs so another team can
+act.
 
 The topic sits closest to [Communication]({{ '/wiki/communication/' | relative_url }})
 and [Metrics]({{ '/wiki/metrics/' | relative_url }}). It also overlaps with
@@ -28,8 +28,8 @@ and [Metrics]({{ '/wiki/metrics/' | relative_url }}). It also overlaps with
 shows up in dashboards and ML projects. It also shapes team management and
 architecture work.
 
-The archive doesn't treat business skill as polish after the dashboard, model,
-or pipeline is finished. [Loris Marini]({{ '/people/lorismarini/' | relative_url }})
+The podcast discussions don't treat business skill as polish after the
+dashboard, model, or pipeline is finished. [Loris Marini]({{ '/people/lorismarini/' | relative_url }})
 frames it as semantic alignment and stakeholder mapping in
 [Business Skills for Data Professionals in SaaS]({{ '/podcasts/data-professionals-business-skills-in-saas/' | relative_url }}).
 [Katie Bauer]({{ '/people/katiebauer/' | relative_url }}) makes it part of
@@ -194,7 +194,7 @@ technical, but the priority comes from business context.
 
 ## Related Pages
 
-Use these pages to follow the adjacent archive themes:
+Use these pages to follow the adjacent themes:
 
 - [Communication]({{ '/wiki/communication/' | relative_url }}) for stakeholder
   translation, storytelling, interviews, and written explanations.
