@@ -26,11 +26,11 @@ for ingestion, storage, orchestration, and platform architecture more broadly.
 Use [Platform Adoption]({{ '/wiki/platform-adoption/' | relative_url }}) when
 the main question is rollout, user behavior, and measurement.
 
-## Common Definition
+## Self-Service as Supported Data Work
 
-Guests frame self-service as supported data work for other teams. Those teams
-can use the platform to build and operate that work. They can also consume it
-through supported workflows.
+Podcast guests frame self-service as supported data work for other teams. The
+platform gives those teams a standard way to build, operate, and consume data
+work without asking a central team to build every pipeline manually.
 
 [Mehdi OUAZZA]({{ '/people/mehdiouazza/' | relative_url }})
 describes the data platform role as serving analysts and data scientists.
@@ -45,17 +45,17 @@ shift to workflow engines and immutable data. Storage, compute, and repeatable
 pipeline definitions sit in the same platform view
 ([DataOps 101 for Scaling Data Platforms, 7:52-30:34]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }})).
 
-The common definition is therefore both technical and organizational because a
-self-service data platform isn't a single tool. It can include Airflow and
-Kafka as well as warehouses, lakes, and catalogs. It combines reusable platform
-primitives and documented conventions.
-Contracts, support channels, access controls, and operating metrics let more
-people use data without turning the platform into a queue for custom work.
+Self-service is both technical and organizational because a data platform isn't
+a single tool. It can include Airflow and Kafka as well as warehouses, lakes,
+and catalogs. It combines reusable platform primitives with documented
+conventions. Contracts, support channels, access controls, and operating
+metrics let more people use data without turning the platform team into a queue
+for custom work.
 
-## Guest Differences
+## Ownership Boundaries Across Teams
 
-Guests differ on the right boundary between central platform ownership and
-domain ownership. [Mehdi OUAZZA]({{ '/people/mehdiouazza/' | relative_url }})
+Guests disagree most on where central platform ownership ends and domain
+ownership begins. [Mehdi OUAZZA]({{ '/people/mehdiouazza/' | relative_url }})
 keeps the center of gravity in a platform team. That team creates Airflow
 practices and Kafka schema rules. It also creates onboarding paths and shared
 services for many internal consumers
@@ -70,13 +70,13 @@ centralizing every pipeline decision
 Use [Data Mesh vs Centralized Data Platform]({{ '/comparisons/data-mesh-vs-centralized-data-platform/' | relative_url }})
 for that ownership comparison.
 
-Maturity boundaries differ too because Lars warns pure self-service takes a
-long time. He recommends embedding analysts with engineering expertise when an
-organization isn't ready for pure analyst-owned pipelines
+Team maturity also changes the boundary because Lars warns pure self-service
+takes a long time. When an organization isn't ready for analyst-owned pipelines, he
+recommends embedding analysts with engineering expertise
 ([DataOps 101 for Scaling Data Platforms, 50:13]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }})).
 
-[Rahul Jain]({{ '/people/16rahuljain/' | relative_url }}) looks at the same
-problem from enterprise platform leadership. As consumer groups grow, the team
+[Rahul Jain]({{ '/people/16rahuljain/' | relative_url }}) describes the same
+boundary from enterprise platform leadership. As consumer groups grow, the team
 must prioritize stakeholders and improve data culture. It also has to expose
 useful data formats, measure quality, and count consumers served
 ([Data Engineering Leadership and Modern Data Platforms, 4:52 and 25:04]({{ '/podcasts/data-engineering-leadership-and-modern-data-platforms/' | relative_url }})).

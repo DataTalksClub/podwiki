@@ -29,9 +29,9 @@ stack version through extraction, loading, transformation, and orchestration in
 [ETL vs ELT and Modern Data Engineering]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}).
 She also brings CDC and reverse data flows into the same discussion.
 
-Read this page for the platform concept. The main questions are which
-capabilities belong in the shared foundation, where guests draw ownership
-boundaries, and how adoption changes the architecture. Use
+The platform question is which capabilities belong in the shared foundation,
+where teams draw ownership boundaries, and how adoption changes the
+architecture. Use
 [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}) for the
 broader discipline. Use [DataOps]({{ '/wiki/dataops/' | relative_url }}) and
 [DataOps Platforms]({{ '/wiki/dataops-platforms/' | relative_url }}) for the
@@ -39,12 +39,11 @@ operating model. Use
 [Self-Service Data Platforms]({{ '/wiki/self-service-data-platforms/' | relative_url }})
 for the enablement subset.
 
-## Common Definition
+## Shared Platform Foundation
 
-Across these episodes, a data engineering platform is a reusable foundation for
-producing and consuming data. [Lars Albertsson]({{ '/people/larsalbertsson/' | relative_url }})
-breaks the foundation into storage and compute. Workflow engines are part of
-that foundation too. He connects
+A data engineering platform gives teams a reusable foundation for producing and
+consuming data. [Lars Albertsson]({{ '/people/larsalbertsson/' | relative_url }})
+breaks the foundation into storage, compute, and workflow engines. He connects
 those primitives to self-service analytics, reproducible pipelines, and lineage
 ([DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}),
 16:42-35:57 and 50:13-1:04:18).
@@ -57,14 +56,11 @@ evolution and reverse flows appear there too
 ([ETL vs ELT and Modern Data Engineering]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
 3:46-49:32).
 
-Guests also treat the platform as an organizational product. [Mehdi
-OUAZZA]({{ '/people/mehdiouazza/' | relative_url }}) frames the data platform
-role as enablement for self-service and onboarding. He connects that platform
-role to scalability during hypergrowth.
-
-Teams reuse Airflow conventions and
-playbooks. In streaming work, they also reuse Kafka schemas and schema
-registries. Contracts make the interface explicit
+[Mehdi OUAZZA]({{ '/people/mehdiouazza/' | relative_url }}) treats the
+platform as an organizational product for self-service and onboarding during
+hypergrowth. Teams reuse Airflow conventions and playbooks. In streaming work,
+they also reuse Kafka schemas and schema registries. Contracts make the
+interface explicit
 ([Scaling Data Engineering Teams and Self-Service Platforms]({{ '/podcasts/scaling-data-engineering-teams-self-service-platforms/' | relative_url }}),
 12:30-23:26).
 
@@ -74,16 +70,15 @@ trusted and discoverable. It must also be interpretable and tied to decisions
 ([Last-Mile Data Delivery]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }}),
 8:48-34:00).
 
-Those examples support a practical definition. A data engineering platform is
-the shared technical and social layer that lets teams ingest and store data.
-It also gives them ways to transform, govern, observe, and use that data. The
-topic sits between [Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }}),
+In practice, a data engineering platform is the shared technical and social
+layer that moves data from source systems into governed, observable, usable
+data products. The topic sits between [Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }}),
 [DataOps]({{ '/wiki/dataops/' | relative_url }}), [Data Products]({{ '/wiki/data-products/' | relative_url }}),
 and [Data Governance]({{ '/wiki/data-governance/' | relative_url }}).
 
-## Differences Among Guests
+## Ownership and Tooling Tradeoffs
 
-Guests differ most on where platform ownership should sit. [Zhamak
+Platform designs differ most on where ownership should sit. [Zhamak
 Dehghani]({{ '/people/zhamakdehghani/' | relative_url }}) argues for
 domain-owned data products with contracts and quality guarantees. Her platform
 boundary also includes metadata and identity. Authorization, self-serve
@@ -100,7 +95,7 @@ reproducibility risks
 [Data Mesh vs Centralized Data Platform]({{ '/comparisons/data-mesh-vs-centralized-data-platform/' | relative_url }})
 for that ownership comparison.
 
-Guests also differ on how much infrastructure a team should buy or build.
+Teams also need to decide how much infrastructure to buy or build.
 [Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) explains the
 best-of-breed modern analytics stack through connectors, dbt, and warehouses.
 She also places Airflow and reverse ETL in the stack

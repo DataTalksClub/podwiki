@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "ML Platforms"
-summary: "Podcast-grounded reference page for shared ML platform systems, internal product strategy, and team enablement."
+summary: "Reference page for shared ML platform systems, internal product strategy, and team enablement."
 related:
   - MLOps
   - Platform Engineering
@@ -14,11 +14,11 @@ related:
 ---
 
 An ML platform is the shared internal product that helps teams move models from
-experiments into reliable production systems. DataTalks.Club guests don't present
-the platform as just a cluster or a notebook service. It also isn't a
-catalog of MLOps tools. It's the reusable path for training and tracking. It
-also covers registering, deploying, monitoring, and governing models across
-teams.
+experiments into reliable production systems. DataTalks.Club interviews frame
+the platform as more than a cluster, a notebook service, or a catalog of MLOps
+tools. The platform gives teams a reusable path for training and tracking. It
+then extends that path to registering, deploying, monitoring, and governing
+models across teams.
 
 That puts ML platforms between
 [MLOps]({{ '/wiki/mlops/' | relative_url }}) and
@@ -34,15 +34,16 @@ stakeholders do too
 ([Building Production ML Platforms, 10:47-31:51]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}),
 [ML Product Manager and MLOps Platform Strategy, 11:24-18:25]({{ '/podcasts/ml-product-manager-and-mlops-platform-strategy/' | relative_url }})).
 
-## Common Definition
+## Reusable Path from Experiment to Production
 
-Across the podcast discussions, an ML platform is the reusable path from
-experimentation to production. [Simon Stiebellehner]({{ '/people/simonstiebellehner/' | relative_url }})
-starts the platform surface with self-service compute and notebooks. He treats
-[experiment tracking]({{ '/wiki/experiment-tracking/' | relative_url }}) and a
-[model registry]({{ '/wiki/model-registry/' | relative_url }}) as early shared
-services. He then extends the platform to batch inference, online serving, and
-orchestration. Metadata, lineage, and governance sit in the same discussion
+ML platforms give teams a reusable path from experimentation to production.
+[Simon Stiebellehner]({{ '/people/simonstiebellehner/' | relative_url }})
+starts that platform surface with self-service compute and notebooks. He
+treats [experiment tracking]({{ '/wiki/experiment-tracking/' | relative_url }})
+and a [model registry]({{ '/wiki/model-registry/' | relative_url }}) as early
+shared services. He then extends the platform to batch inference, online
+serving, and orchestration. Metadata, lineage, and governance sit in the same
+discussion
 ([Building Production ML Platforms, 28:20-45:50]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }})).
 
 [Raphaël Hoogvliets]({{ '/people/raphaelhoogvliets/' | relative_url }})
@@ -65,9 +66,10 @@ That makes an ML platform close to
 [Developer Experience]({{ '/wiki/developer-experience/' | relative_url }}):
 the platform exists to make the supported path easier than a one-off path.
 
-## Guest Differences
+## Platform Boundaries and Investment Timing
 
-Guests differ most on timing, product scope, and infrastructure depth. Simon
+The hardest platform questions are when to invest, how much product surface to
+own, and how deep into infrastructure the team should go. Simon
 argues for platform investment when repeated training, serving, deployment, or
 governance problems appear across teams. He also warns against building a heavy
 platform before the organization has real models and business needs

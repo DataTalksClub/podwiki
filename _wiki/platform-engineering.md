@@ -32,7 +32,7 @@ self-service compute, [experiment tracking]({{ '/wiki/experiment-tracking/' | re
 [model registry]({{ '/wiki/model-registry/' | relative_url }}), and serving.
 At 31:51, he adds orchestration.
 
-## Common Definition
+## Reusable Internal Paths
 
 Across the interviews, platform engineering means making repeated technical
 work reusable. The repeated work can be compute provisioning or a model release
@@ -57,21 +57,23 @@ At 42:31 and 45:10, Raphaël adds data versioning and traceability. He also
 describes a skill mix across data science, SRE, DevOps, and platform
 engineering.
 
-The common definition is therefore narrower than "all infrastructure" and
-broader than a tool portal. A platform gives teams a supported way to do common
-work. It also gives the organization a place to encode standards, security,
-and reliability without turning every project into a custom consulting job.
+DataTalks.Club guests therefore describe platform engineering as narrower than
+"all infrastructure" and broader than a tool portal. A platform gives teams a
+supported way to do common work. It also gives the organization a place to
+encode standards, security, and reliability without turning every project into a
+custom consulting job.
 
-## Guest Differences
+## Build Timing and Product Discipline
 
-Guests differ on when a platform should exist, how productized it should be,
-and how much infrastructure the platform team should own.
+Guests diverge most on timing and product discipline. They differ on when a
+platform should exist, how productized it should be, and how much infrastructure
+the platform team should own.
 
 Simon is cautious about starting too early. In
 [Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}),
 he argues at 47:08 and 49:19 that teams need real models and business value.
-They also need repeated needs before they build heavy platform layers. His view keeps
-[machine learning infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }})
+They also need repeated needs before they build heavy platform layers. Simon
+keeps [machine learning infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }})
 close to actual workflow evidence.
 
 In [MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}),

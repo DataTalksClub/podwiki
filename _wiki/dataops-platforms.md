@@ -38,16 +38,16 @@ workflow engines. He then adds quality automation, lineage, and versioning. The
 same platform has to support self-service without turning every data change
 into an unreviewed one-off.
 
-## Common Definition
+## Reliable Delivery Layer
 
-Across these episodes, a DataOps platform gives teams a standard way to review
-and test data changes. It also helps them deploy, observe, and repair those
-changes. The platform may include a warehouse or lakehouse, plus an
-orchestrator and CI/CD. Test suites and catalogs often sit in the same layer.
-Lineage tools, observability, access workflows, and runbooks belong there too.
+A DataOps platform gives teams a standard path for data changes. Teams review
+and test changes before deployment, then observe and repair them after release.
+The platform may include a warehouse or lakehouse, plus an orchestrator and
+CI/CD. Test suites and catalogs often sit in the same layer. Lineage tools,
+observability, access workflows, and runbooks belong there too.
 
-Data delivery no longer depends on one person's memory of how a pipeline,
-table, or dashboard is supposed to work.
+Data delivery then depends on a supported operating model instead of one
+person's memory of how a pipeline, table, or dashboard is supposed to work.
 
 Albertsson starts from architecture in
 [DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}).
@@ -71,16 +71,17 @@ he adds regression tests and realistic test data around 30:55. He discusses
 deployment automation around 42:39. Production monitoring appears around 50:29,
 and immutability appears around 54:05.
 
-The shared definition is practical. A DataOps platform lets teams ship and
-repair data changes with less manual coordination. A console beside the
-warehouse or scheduler isn't enough unless it improves review, testing, or
-deployment. Ownership, observability, and recovery matter too.
+That makes the platform boundary practical. A console beside the warehouse or
+scheduler isn't enough if it only exposes existing systems. It has to improve
+review and testing. It also has to support deployment, ownership,
+observability, or recovery. The platform is doing DataOps work when it lets
+teams ship and repair data changes with less manual coordination.
 
-## Guest Differences
+## Platform Boundaries and Entry Points
 
-Guests agree that data work needs repeatability and recovery, but they start
-from different failure modes. Albertsson starts from platform primitives such
-as storage, compute, workflow engines, and reproducible data flows. Lineage and
+DataOps platform work often starts from the most painful failure mode in the
+organization. Albertsson starts from platform primitives such as storage,
+compute, workflow engines, and reproducible data flows. Lineage and
 batch-versus-streaming tradeoffs sit in the same discussion
 ([DataOps 101]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}),
 16:42-1:04:18). His version is closest to platform architecture.
