@@ -11,7 +11,7 @@
     "persons": 183,
     "topics": 92,
     "nodes": 704,
-    "links": 10974
+    "links": 10977
   },
   "nodes": [
     {
@@ -6629,7 +6629,7 @@
       "title": "Practices",
       "url": "/wiki/practices/",
       "count": 1,
-      "search": "Practices A bridge page for recurring operating practices in DataTalks.Club episodes: versioning, testing, documentation, CI/CD, monitoring, ownership, and feedback loops."
+      "search": "Practices How DataTalks.Club episodes discuss repeatable engineering habits for technical delivery."
     },
     {
       "id": "wiki:privacy-engineering-for-ml",
@@ -6679,7 +6679,7 @@
       "title": "Production ML Project Checklist",
       "url": "/wiki/production-ml-project-checklist/",
       "count": 1,
-      "search": "Production ML Project Checklist Archive backed checklist for a production ML portfolio project that proves reproducible training, tracked experiments, registry handoff, deployment, monitoring, and rollback criteria."
+      "search": "Production ML Project Checklist Checklist for a production ML portfolio project that proves reproducible training, tracked experiments, registry handoff, deployment, monitoring, and rollback criteria."
     },
     {
       "id": "wiki:production-search-evaluation",
@@ -64399,6 +64399,12 @@
     },
     {
       "source": "wiki:practices",
+      "target": "article:guide:dataops-tools",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:practices",
       "target": "person:bartoszmikulski",
       "kind": "wiki-link",
       "weight": 1
@@ -64507,6 +64513,12 @@
     },
     {
       "source": "wiki:practices",
+      "target": "wiki:data-governance",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:practices",
       "target": "wiki:data-quality-and-observability",
       "kind": "wiki-link",
       "weight": 1
@@ -64525,6 +64537,12 @@
     },
     {
       "source": "wiki:practices",
+      "target": "wiki:developer-experience",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:practices",
       "target": "wiki:documentation",
       "kind": "wiki-link",
       "weight": 1
@@ -64532,12 +64550,6 @@
     {
       "source": "wiki:practices",
       "target": "wiki:experimentation",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:practices",
-      "target": "wiki:experimentation-and-causal-inference",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -64606,12 +64618,6 @@
       "target": "wiki:software-engineering",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:practices",
-      "target": "wiki:testing",
-      "kind": "wiki-link",
-      "weight": 1
     },
     {
       "source": "wiki:privacy-engineering-for-ml",
@@ -65803,6 +65809,12 @@
     },
     {
       "source": "wiki:production-search-evaluation",
+      "target": "article:comparison:knowledge-graph-vs-vector-search",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:production-search-evaluation",
       "target": "article:comparison:rag-vs-fine-tuning",
       "kind": "wiki-link",
       "weight": 1
@@ -65926,6 +65938,12 @@
       "target": "wiki:search",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:production-search-evaluation",
+      "target": "wiki:search-and-rag-project-checklist",
+      "kind": "wiki-link",
+      "weight": 1
     },
     {
       "source": "wiki:production-search-evaluation",

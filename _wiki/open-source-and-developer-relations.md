@@ -12,22 +12,20 @@ related:
   - Open Source Portfolio Evidence
 ---
 
-## Opening Definition
-
 Open source and developer relations meet when a public technical project needs
-people to understand it and trust it. It also needs people to use it and
-improve it. In DataTalks.Club episodes,
-[Open Source]({{ '/wiki/open-source/' | relative_url }}) covers public project
-work such as repositories and maintainers. It also covers governance, licensing,
-and business models.
+developers to understand and trust it before they use or improve it.
+[Open source]({{ '/wiki/open-source/' | relative_url }}) covers public project
+work such as repositories and maintainers. It also covers governance,
+licensing, and business models.
 
-[Developer Relations]({{ '/wiki/developer-relations/' | relative_url }})
-covers education, demos, documentation, and community work. It also covers the
-feedback loops that help developers adopt a tool and tell product teams where
-the tool still hurts.
+[Developer relations]({{ '/wiki/developer-relations/' | relative_url }})
+covers education, demos, and
+[documentation]({{ '/wiki/documentation/' | relative_url }}) alongside
+community work. Together, open source and DevRel help developers get a useful
+result while sending adoption friction back to maintainers and product teams.
 
-[Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }})
-gives the cleanest bridge definition in
+[Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }}) gives
+the clearest bridge definition in
 [DevRel Role for Machine Learning]({{ '/podcasts/devrel-open-source-machine-learning/' | relative_url }}).
 At 10:47, he discusses company support for projects such as Dask and Metaflow.
 At 18:03, he frames DevRel as education, documentation, and a "wisdom layer"
@@ -35,29 +33,27 @@ around tools. At 25:17 and 36:27, he ties developer collaboration to feedback
 loops and dogfooding. He also connects that work to documentation and
 reproducible workflows.
 
-Use [Contributing]({{ '/wiki/contributing/' | relative_url }}) and
-[Documentation]({{ '/wiki/documentation/' | relative_url }}) for the mechanics.
-Use [Developer Experience]({{ '/wiki/developer-experience/' | relative_url }})
-and [Community Building]({{ '/wiki/community-building/' | relative_url }}) for
-adoption and community. Use
+The surrounding topics matter because open-source DevRel isn't only a content
+role. [Contributing]({{ '/wiki/contributing/' | relative_url }}) covers issues,
+pull requests, tests, and review etiquette.
+[Developer experience]({{ '/wiki/developer-experience/' | relative_url }}) and
+[community building]({{ '/wiki/community-building/' | relative_url }}) cover
+adoption, support, and trust. For hiring and career proof,
 [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
-for career evidence. The overlap covers teaching and listening. It also covers
-governance, contributor support, and public use as product signal.
+tracks how public contribution work becomes visible evidence.
 
-## Common Definition
+## Adoption and Feedback
 
 Across the relevant episodes, open-source DevRel reduces the distance between
 curiosity and a useful result. It then routes what developers learn back into
-the project. Hugo's Metaflow discussion connects that feedback loop to
-education and documentation. He also connects it to dogfooding and tutorial
-design
+the project. Hugo's Metaflow discussion ties that feedback loop to education
+and documentation. He also ties it to dogfooding and tutorial design
 ([DevRel Role for Machine Learning]({{ '/podcasts/devrel-open-source-machine-learning/' | relative_url }}),
 18:03 / 25:17 / 36:27 / 43:14).
 
 [Elle O'Brien]({{ '/people/elleobrien/' | relative_url }}) gives the
 data-science version in
 [DevRel for Data Science]({{ '/podcasts/devrel-data-science-open-source-tools/' | relative_url }}).
-
 Her Iterative work spans product work and CML at 12:20. It also includes
 documentation, pull requests, videos, and hiring. At 19:47 and 23:51, she
 connects community work to support and user insight. In that version, DevRel
@@ -77,15 +73,15 @@ he adds governance, plugin boundaries, and maintainer transition. He also adds
 volunteer motivation, CI cost, and business models (10:28 / 14:01 / 18:11 /
 21:51 / 31:42 / 56:19).
 
-In practice, an open-source DevRel program helps the right developers try the
-project and understand its boundaries. It also helps them contribute in ways
-maintainers can review and report friction that product or engineering can act
-on.
+An open-source DevRel program helps the right developers try the project and
+understand its boundaries. It also helps them contribute in ways maintainers
+can review and report friction that product or engineering can act on.
 
-## Guest Differences
+## Education, Community Care, and Project Institutions
 
-Guests agree that DevRel is more than marketing. They place the center of the
-role in different places. Hugo puts DevRel close to engineering and education.
+Guests agree that DevRel is more than marketing, but they place the center of
+the role in different places. Hugo puts DevRel close to engineering and
+education.
 At 22:52, 25:17, and 31:41 in
 [DevRel Role for Machine Learning]({{ '/podcasts/devrel-open-source-machine-learning/' | relative_url }}),
 he links the role to technical alignment and product collaboration. He also
@@ -105,9 +101,8 @@ scikit-learn governance and NumFOCUS at 10:28. He prefers plugins over pushing
 every idea into core at 14:01. He also describes a developer-relations engineer
 role at 41:21.
 
-In that view, open-source DevRel has to respect maintainers and project
-history. It also has to respect the line between company goals and public
-project governance.
+Open-source DevRel has to respect maintainers, project history, and the line
+between company goals and public project governance.
 
 [Will Russell]({{ '/people/willrussell/' | relative_url }}) gives the most
 program-centered version. In
@@ -137,7 +132,7 @@ afterthought. Vincent names README material, guides, API reference, and
 examples in
 [Contribute to Open Source ML]({{ '/podcasts/open-source-ml-contributions/' | relative_url }})
 (22:20). At 24:10, he adds contribution guides and polite interaction norms.
-That connects open-source DevRel directly to
+Open-source DevRel therefore sits directly beside
 [Documentation]({{ '/wiki/documentation/' | relative_url }}) and
 [Technical Writing]({{ '/wiki/technical-writing/' | relative_url }}).
 
@@ -181,7 +176,7 @@ Will's mentorship examples show why onboarding belongs in the same topic. In
 he ties hackathons to Git, teamwork, and project building at 11:46. He then
 discusses mentorship for large repositories at 35:43, pull-request quality at
 39:02, and environment setup with maintainer collaboration at 41:16. Those
-programs can create contributor pipelines only when participants learn the
+programs can create contributor paths only when participants learn the
 project's constraints and review expectations
 ([Community Building]({{ '/wiki/community-building/' | relative_url }})).
 
@@ -261,24 +256,15 @@ and pull-request quality at 39:02. He adds setup support at 41:16 and video
 walkthroughs at 53:40
 ([Developer Advocacy Through Community Impact]({{ '/podcasts/practical-devrel-demofirst-education-and-open-source/' | relative_url }})).
 
-The operating test is whether the work leaves behind useful evidence. Useful
+Useful open-source DevRel leaves behind evidence other people can look at. That
 evidence can be a clearer issue, a better doc, or a working demo. It can also
 be a reviewed pull request or a visible portfolio signal
 ([Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})).
 
-## Related Pages
-
-These pages cover adjacent topics from the same podcast discussions.
-
-- [Open Source]({{ '/wiki/open-source/' | relative_url }})
-- [Developer Relations]({{ '/wiki/developer-relations/' | relative_url }})
-- [Contributing]({{ '/wiki/contributing/' | relative_url }})
-- [Documentation]({{ '/wiki/documentation/' | relative_url }})
-- [Technical Writing]({{ '/wiki/technical-writing/' | relative_url }})
-- [Developer Experience]({{ '/wiki/developer-experience/' | relative_url }})
-- [Community Building]({{ '/wiki/community-building/' | relative_url }})
-- [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
-- [Machine Learning Tools]({{ '/wiki/machine-learning-tools/' | relative_url }})
-- [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
-- [Scikit-Learn]({{ '/wiki/scikit-learn/' | relative_url }})
-- [Metaflow]({{ '/wiki/metaflow/' | relative_url }})
+The same discussions lead into
+[machine learning tools]({{ '/wiki/machine-learning-tools/' | relative_url }}),
+[modern data stack]({{ '/wiki/modern-data-stack/' | relative_url }}),
+[scikit-learn]({{ '/wiki/scikit-learn/' | relative_url }}), and
+[Metaflow]({{ '/wiki/metaflow/' | relative_url }}). Those tool pages cover the
+technical ecosystems that make open-source DevRel useful rather than merely
+promotional.
