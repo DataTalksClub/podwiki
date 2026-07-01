@@ -4,8 +4,7 @@ title: "Machine Learning for Software Engineers: A Practical Guide"
 keyword: "machine learning for software engineers"
 secondary_keywords:
   - "software engineering machine learning"
-summary: "A practical roadmap for software engineers moving into machine learning: transferable skills, missing ML and data skills, project sequence, production awareness, and interview evidence."
-search_intent: "People searching for this term usually know software engineering and want a practical path into ML roles, projects, interviews, and production work."
+summary: "A practical roadmap for software engineers moving into machine learning: transferable skills, missing ML and data skills, project sequence, production awareness, and interview preparation."
 related_wiki:
   - Software Engineer to Machine Learning
   - Software Engineering
@@ -18,6 +17,7 @@ related_wiki:
   - AI Engineer Role
   - MLOps
   - MLOps Roadmap
+  - Developer Experience
   - Job Search
   - Career Transition
 ---
@@ -118,7 +118,10 @@ need deployment, monitoring, and system design.
 Target [MLOps]({{ '/wiki/mlops/' | relative_url }}) or ML platform engineering
 if you prefer shared infrastructure and reproducibility. You also work with
 CI/CD, experiment tracking, model registries, and deployment paths. Developer
-experience belongs in the same work.
+experience belongs in the same work, so pair this path with
+[Machine Learning Infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }})
+and [Developer Experience]({{ '/wiki/developer-experience/' | relative_url }})
+when your projects serve other engineers.
 
 [Simon Stiebellehner]({{ '/people/simonstiebellehner/' | relative_url }})
 connects MLOps to people, procedures, and technology in his
@@ -151,6 +154,17 @@ about moving across web work and game development. He then moves into
 His [SQL and Git advice at 29:00 and 35:23]({{ '/podcasts/how-to-grow-your-ml-engineering-career/' | relative_url }})
 fits with his
 [shell, debugging, problem decomposition, and T-shaped expertise advice at 37:37]({{ '/podcasts/how-to-grow-your-ml-engineering-career/' | relative_url }}).
+
+[Jack Blandin]({{ '/people/jackblandin/' | relative_url }}) moved from
+full-stack engineering into applied ML leadership. In his
+[software engineer to VP of ML interview]({{ '/podcasts/from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership/' | relative_url }}),
+he gives software engineers a practical lesson. ML work keeps asking for
+product context, demos, stakeholder language, and full-stack delivery. Jack
+covers
+[stakeholder communication at 15:25]({{ '/podcasts/from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership/' | relative_url }}),
+[fast POCs at 20:48-28:17]({{ '/podcasts/from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership/' | relative_url }}),
+and
+[full-stack ML at 44:35]({{ '/podcasts/from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership/' | relative_url }}).
 
 ## Project 1: Baseline Model With Real Evaluation
 
@@ -195,7 +209,7 @@ Add the engineering pieces you already know:
 - Docker or a clear local run path
 - a documented fallback or rollback path
 
-This project makes your software background visible as ML evidence. It shows
+This project makes your software background visible in an ML setting. It shows
 that you can move beyond a notebook without pretending to have built a large ML
 platform.
 
@@ -266,11 +280,11 @@ This prepares you for interviews because it forces tradeoffs, and it prevents
 portfolio projects from becoming disconnected notebooks.
 Use [ML System Design Documents]({{ '/wiki/ml-system-design-documents/' | relative_url }})
 and [Production ML Project Checklist]({{ '/wiki/production-ml-project-checklist/' | relative_url }})
-to turn the design into reviewable evidence.
+to turn the design into a reviewable project.
 
 ## Project 5: Mini MLOps Lifecycle
 
-Keep the model simple and focus on lifecycle evidence. Show that you can
+Keep the model simple and focus on lifecycle practice. Show that you can
 reproduce a run and package a model. Then deploy or simulate deployment,
 monitor behavior, and explain the retraining decision.
 
@@ -297,23 +311,56 @@ You don't
 need every platform tool in a junior portfolio. You do need to show why these
 practices exist.
 
+## Stakeholder And Product Judgment
+
+Software engineers often enter ML through APIs, services, batch jobs, and
+platform work. The role widens when the model affects a product
+decision. You need to explain why the prediction is useful, how people will act
+on it, and what risk the team accepts.
+
+[Jack Blandin's applied ML leadership episode]({{ '/podcasts/from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership/' | relative_url }})
+is useful here because he keeps the focus on product understanding. At
+[9:01]({{ '/podcasts/from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership/' | relative_url }}),
+he talks about problem framing and technical context. At
+[15:25]({{ '/podcasts/from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership/' | relative_url }}),
+he shifts to stakeholder language such as customer acquisition cost and KPIs.
+His
+[risk-communication section at 26:15]({{ '/podcasts/from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership/' | relative_url }})
+is a warning against explaining models only through accuracy. His
+[baseline-first section at 28:46]({{ '/podcasts/from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership/' | relative_url }})
+matches Ben Wilson's simplicity advice and gives software engineers a product
+reason to start with heuristics or manual checks.
+
+Use this section of the transition for one portfolio project. Add a short demo
+or decision walkthrough that a non-ML teammate could review. If you build a
+churn model, explain what the sales or success team would do differently. If
+you build a ranking model, explain what product metric could improve and what
+guardrail metric could get worse. Link that work back to
+[Machine Learning]({{ '/wiki/machine-learning/' | relative_url }}),
+[Evaluation]({{ '/wiki/evaluation/' | relative_url }}), and
+[Career Transition]({{ '/wiki/career-transition/' | relative_url }}) so the
+project reads as applied ML, not only software packaging.
+
 ## Production Judgment
 
 Software engineers can overcorrect in two directions. Some build too much
 infrastructure before they understand the data and metric. Others stay in a
 notebook and never show production judgment.
 
-The episodes point to a middle path. Ben Wilson's
+The cited discussions point to a middle path. Ben Wilson's
 [baseline and cost-benefit guidance at 32:03 and 44:23]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }})
 favors simple, maintainable baselines before deep learning. Valerii's
 [metrics, fallback, and distribution-shift design guidance]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }})
 ties operational behavior to the design. Raphaël's
 [reproducibility and monitoring discussion at 51:21]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }})
-shows why lifecycle evidence matters after a model leaves a notebook.
+shows why lifecycle proof matters after a model leaves a notebook. Jack's
+[actionability discussion at 34:09-36:44]({{ '/podcasts/from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership/' | relative_url }})
+adds the product side: a model can score well and still fail if people can't
+act on its output.
 
-Those three episodes also explain the main traps. Ben anchors simplicity and
+Those discussions also explain the main traps. Ben anchors simplicity and
 cost-benefit tradeoffs, while Valerii anchors metrics and fallbacks. Raphaël
-anchors reproducible operations.
+anchors reproducible operations, and Jack anchors product actionability.
 
 - Don't use deep learning when a baseline, SQL query, rule, or tree model
   solves the decision well enough.
@@ -331,7 +378,7 @@ behavior and interfaces matter too. You also care about future data and bad
 incentives from proxy metrics. Sometimes the model should step aside because
 it's uncertain.
 
-## Interview Evidence
+## Interview Stories
 
 Interviewers don't only ask whether you know algorithms. They look for proof
 that you can reason from problem to data to system.
@@ -372,11 +419,12 @@ and what they would learn next.
 ## Six-Month Roadmap
 
 Use this plan if you already write production software and want to synthesize
-four discussions:
+five discussions:
 
 - Santiago's [project-first transition path at 17:25-22:18]({{ '/podcasts/from-software-engineer-to-machine-learning/' | relative_url }})
 - Ben's [maintainability advice at 6:50 and 8:49]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }})
 - Valerii's [ML system-design interview guidance at 13:58-24:28]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }})
+- Jack's [stakeholder and fast-POC guidance at 15:25-28:17]({{ '/podcasts/from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership/' | relative_url }})
 - Raphaël's [MLOps lifecycle practices at 39:06-51:21]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }})
 
 Months 1-2 follow Santiago and Valerii on projects, data, metrics, and leakage.
@@ -398,7 +446,9 @@ and month 6 follows
    the model section.
 3. Month 3: turn the model into a batch job or API. Add validation, tests,
    logging, configuration, and a reproducible run path while you keep the
-   infrastructure small.
+   infrastructure small. Add one product-facing demo or decision walkthrough
+   using Jack's
+   [fast POC guidance at 20:48-28:17]({{ '/podcasts/from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership/' | relative_url }}).
 4. Month 4: write a design doc for a fraud or recommendation system. Search,
    forecasting, or classification also works if you cover goals and labels.
    Add features, baselines, and metrics. Finish with serving mode, monitoring,
@@ -421,7 +471,7 @@ both favor solving concrete pain points before adding platform complexity.
 
 These traps weaken the transition story:
 
-- Studying theory for months without building project evidence.
+- Studying theory for months without building project proof.
 - Treating ML as only model selection.
 - Building a large service before proving the data and metric make sense.
 - Copying a tutorial notebook without changing the problem, data, evaluation,
@@ -429,7 +479,7 @@ These traps weaken the transition story:
 - Reporting one metric without a baseline or error analysis.
 - Ignoring delayed labels, leakage, class imbalance, and feature freshness.
 - Overstating MLOps experience because you used Docker once.
-- Applying to every ML title instead of choosing a role and matching evidence.
+- Applying to every ML title instead of choosing a role and matching projects.
 
 The better path is narrower. Choose a role, build projects that fit that role,
 and make your tradeoffs visible.
@@ -444,16 +494,19 @@ starts from system design, while
 [Raphaël's MLOps lifecycle discussion at 39:06-51:21]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }})
 starts from reproducible operations.
 
-## Related Pages
+## Related Topics
 
-These pages connect the article to related topics:
+Use these pages for the role, project, system design, and operations paths that
+sit next to this guide.
 
 - [Software Engineer to Machine Learning]({{ '/wiki/software-engineer-to-machine-learning/' | relative_url }})
 - [Machine Learning Engineer Role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }})
 - [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
 - [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
 - [Machine Learning System Design Interview]({{ '/guides/machine-learning-system-design-interview/' | relative_url }})
+- [Machine Learning Infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }})
 - [MLOps Roadmap]({{ '/wiki/mlops-roadmap/' | relative_url }})
+- [Developer Experience]({{ '/wiki/developer-experience/' | relative_url }})
 - [Evaluation]({{ '/wiki/evaluation/' | relative_url }})
 - [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }})
 - [Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }})

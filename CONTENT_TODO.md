@@ -350,6 +350,14 @@ Start with this batch when expanding the content set.
   `_wiki/ai-powered-business-intelligence.md`, and improved
   `_guides/machine-learning-for-startups.md`. Future work should extend these
   pages with new episode evidence instead of creating duplicates.
+- The 2026-07-01 follow-up keyword-gap batch added
+  `_comparisons/data-engineering-and-data-science.md`,
+  `_wiki/data-engineering-manager-role.md`,
+  `_wiki/machine-learning-personalization.md`, and
+  `_wiki/search-relevance.md`, and improved
+  `_guides/machine-learning-for-software-engineers.md`. Future work should
+  extend these pages rather than adding duplicate pages for the same keyword
+  families.
 - The weakest public content category is `_how_tos/`. Next high-value how-tos:
   notebook-to-production AI systems, DataOps checks for data pipelines, and RAG
   evaluation workflow. Ground them in the existing notebook-to-production,
