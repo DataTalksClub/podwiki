@@ -1,7 +1,7 @@
 {
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
-    "wikis": 219,
+    "wikis": 222,
     "articles": 61,
     "guides": 22,
     "comparisons": 23,
@@ -9,9 +9,9 @@
     "how_tos": 5,
     "podcasts": 202,
     "persons": 438,
-    "topics": 127,
-    "nodes": 1047,
-    "links": 12882
+    "topics": 126,
+    "nodes": 1049,
+    "links": 12974
   },
   "nodes": [
     {
@@ -7761,15 +7761,6 @@
       "search": "learning to rank"
     },
     {
-      "id": "topic:llmops",
-      "type": "topic",
-      "label": "llmops",
-      "title": "llmops",
-      "url": "/search.html?q=llmops",
-      "count": 1,
-      "search": "llmops"
-    },
-    {
       "id": "topic:management",
       "type": "topic",
       "label": "management",
@@ -8307,6 +8298,16 @@
       "url": "/wiki/ai-agents/",
       "count": 1,
       "search": "AI Agents What DataTalks.Club guests have said about AI agents: autonomy, tool use, memory, RAG boundaries, evaluation, governance, and infrastructure."
+    },
+    {
+      "id": "wiki:ai-coding-tools",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "AI Coding Tools",
+      "title": "AI Coding Tools",
+      "url": "/wiki/ai-coding-tools/",
+      "count": 1,
+      "search": "AI Coding Tools How DataTalks.Club guests use AI powered coding assistants like Cursor, Copilot, and Claude Code, the shift from notebooks to agentic workflows, and what vibe coding means for AI engineering practice."
     },
     {
       "id": "wiki:ai-engineer-role",
@@ -9604,6 +9605,16 @@
       "search": "LLM Production Patterns How DataTalks.Club guests turn LLM demos into production systems with model choice, RAG, agents, and evaluation."
     },
     {
+      "id": "wiki:llmops",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "LLMOps",
+      "title": "LLMOps",
+      "url": "/wiki/llmops/",
+      "count": 1,
+      "search": "LLMOps The operational discipline for deploying, monitoring, evaluating, and maintaining LLM based systems in production: model serving, prompt versioning, evaluation pipelines, drift detection, guardrails, and feedback loops."
+    },
+    {
       "id": "wiki:llms",
       "type": "wiki",
       "collection": "wiki",
@@ -9842,6 +9853,16 @@
       "url": "/wiki/model-monitoring/",
       "count": 1,
       "search": "Model Monitoring How teams watch deployed models, diagnose drift, and assign ownership for production ML behavior."
+    },
+    {
+      "id": "wiki:model-optimization",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Model Optimization",
+      "title": "Model Optimization",
+      "url": "/wiki/model-optimization/",
+      "count": 1,
+      "search": "Model Optimization Techniques for making ML models smaller, faster, and cheaper to serve: quantization, knowledge distillation, pruning, on device inference optimization, and the shift toward smaller task focused LLMs."
     },
     {
       "id": "wiki:model-registry",
@@ -31565,6 +31586,12 @@
     },
     {
       "source": "person:pauliusztin",
+      "target": "wiki:llmops",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:pauliusztin",
       "target": "wiki:rag",
       "kind": "person-link",
       "weight": 1
@@ -40853,12 +40880,6 @@
     },
     {
       "source": "podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products",
-      "target": "topic:llmops",
-      "kind": "podcast-topic",
-      "weight": 2
-    },
-    {
-      "source": "podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products",
       "target": "topic:portfolio",
       "kind": "podcast-topic",
       "weight": 2
@@ -40872,6 +40893,12 @@
     {
       "source": "podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products",
       "target": "wiki:data-science",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products",
+      "target": "wiki:llmops",
       "kind": "podcast-topic",
       "weight": 2
     },
@@ -42095,6 +42122,12 @@
     },
     {
       "source": "wiki:academia",
+      "target": "person:davidbader",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:academia",
       "target": "person:johannabayer",
       "kind": "wiki-link",
       "weight": 1
@@ -42108,6 +42141,12 @@
     {
       "source": "wiki:academia",
       "target": "podcast:big-data-analytics-and-postdoc-research",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:academia",
+      "target": "podcast:building-data-science-programs-and-democratizing-high-performance-computing",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -43686,6 +43725,150 @@
     {
       "source": "wiki:ai-agents",
       "target": "wiki:tools",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-coding-tools",
+      "target": "person:bartoszmikulski",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-coding-tools",
+      "target": "person:hugobowneanderson",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-coding-tools",
+      "target": "person:marianosemelman",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-coding-tools",
+      "target": "person:pauliusztin",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-coding-tools",
+      "target": "person:revathyramalingam",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-coding-tools",
+      "target": "person:ruslanshchuchkin",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-coding-tools",
+      "target": "podcast:practical-llm-engineering-and-rag",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-coding-tools",
+      "target": "podcast:production-ready-ai-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-coding-tools",
+      "target": "podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-coding-tools",
+      "target": "podcast:s23e04-how-to-become-ai-engineer-after-career-break",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-coding-tools",
+      "target": "podcast:s23e05-inside-ai-engineer-role-tools-skills-and-career-path",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-coding-tools",
+      "target": "podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-coding-tools",
+      "target": "wiki:agent-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-coding-tools",
+      "target": "wiki:agent-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-coding-tools",
+      "target": "wiki:ai-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-coding-tools",
+      "target": "wiki:ai-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-coding-tools",
+      "target": "wiki:ai-tooling",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-coding-tools",
+      "target": "wiki:ai-tooling",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-coding-tools",
+      "target": "wiki:production",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-coding-tools",
+      "target": "wiki:production",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-coding-tools",
+      "target": "wiki:prompt-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-coding-tools",
+      "target": "wiki:prompt-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-coding-tools",
+      "target": "wiki:software-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-coding-tools",
+      "target": "wiki:software-engineering",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -47699,6 +47882,12 @@
     },
     {
       "source": "wiki:astroinformatics-scientific-data-pipelines",
+      "target": "podcast:machine-learning-for-asteroid-mining-and-water-detection",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:astroinformatics-scientific-data-pipelines",
       "target": "wiki:academic-researcher-to-data-science",
       "kind": "wiki-link",
       "weight": 1
@@ -48305,6 +48494,12 @@
     },
     {
       "source": "wiki:career-development",
+      "target": "person:ruslanshchuchkin",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-development",
       "target": "person:saraelateif",
       "kind": "wiki-link",
       "weight": 1
@@ -48324,6 +48519,12 @@
     {
       "source": "wiki:career-development",
       "target": "person:tatianagabruseva",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-development",
+      "target": "podcast:biohacking-productivity-for-data-scientists-and-ml-engineers",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -49031,6 +49232,12 @@
     },
     {
       "source": "wiki:career-transitions-in-data",
+      "target": "person:jessicagreene",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
       "target": "person:ksenialegostay",
       "kind": "wiki-link",
       "weight": 1
@@ -49091,6 +49298,12 @@
     },
     {
       "source": "wiki:career-transitions-in-data",
+      "target": "person:xiahebleinagel",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
       "target": "podcast:building-ml-communities-diversity-and-career-growth",
       "kind": "wiki-link",
       "weight": 1
@@ -49145,6 +49358,12 @@
     },
     {
       "source": "wiki:career-transitions-in-data",
+      "target": "podcast:how-to-switch-to-ml-tech-without-experience",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
       "target": "podcast:how-to-transition-into-ml-and-data-engineering-from-qa",
       "kind": "wiki-link",
       "weight": 1
@@ -49170,6 +49389,12 @@
     {
       "source": "wiki:career-transitions-in-data",
       "target": "podcast:project-manager-to-data-scientist",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
+      "target": "podcast:s22e07-reinventing-career-in-tech",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -53052,6 +53277,12 @@
     {
       "source": "wiki:data-engineering",
       "target": "podcast:production-ready-ai-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering",
+      "target": "podcast:remote-data-engineering-work-and-building-iot-platforms",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -67211,6 +67442,12 @@
     },
     {
       "source": "wiki:industrial-ml-applications",
+      "target": "podcast:industrial-data-small-data-production-machine-learning",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:industrial-ml-applications",
       "target": "podcast:s22e08-building-pet-health-tech-ml-sensors-and-dog-behavior-data",
       "kind": "wiki-link",
       "weight": 1
@@ -69670,6 +69907,180 @@
       "weight": 1
     },
     {
+      "source": "wiki:llmops",
+      "target": "person:adityagautam",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llmops",
+      "target": "person:bartoszmikulski",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llmops",
+      "target": "person:hugobowneanderson",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llmops",
+      "target": "person:meryemarik",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llmops",
+      "target": "person:pauliusztin",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llmops",
+      "target": "person:ranjithakulkarni",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llmops",
+      "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llmops",
+      "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llmops",
+      "target": "podcast:practical-llm-engineering-and-rag",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llmops",
+      "target": "podcast:production-ready-ai-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llmops",
+      "target": "podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llmops",
+      "target": "podcast:s23e03-future-of-ai-agents",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llmops",
+      "target": "wiki:agent-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llmops",
+      "target": "wiki:agent-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:llmops",
+      "target": "wiki:ai-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llmops",
+      "target": "wiki:ai-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:llmops",
+      "target": "wiki:caching",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llmops",
+      "target": "wiki:evaluation",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llmops",
+      "target": "wiki:evaluation",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:llmops",
+      "target": "wiki:llm-cost-optimization",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llmops",
+      "target": "wiki:llm-deployment",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llmops",
+      "target": "wiki:llm-deployment",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:llmops",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llmops",
+      "target": "wiki:llm-production-patterns",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llmops",
+      "target": "wiki:llm-production-patterns",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:llmops",
+      "target": "wiki:mlops",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llmops",
+      "target": "wiki:mlops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:llmops",
+      "target": "wiki:model-monitoring",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llmops",
+      "target": "wiki:model-monitoring",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
       "source": "wiki:llms",
       "target": "article:comparison:rag-vs-fine-tuning",
       "kind": "wiki-link",
@@ -71898,6 +72309,12 @@
     {
       "source": "wiki:manufacturing-predictive-maintenance-yield-analytics",
       "target": "podcast:from-semiconductor-data-to-applied-machine-learning",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:manufacturing-predictive-maintenance-yield-analytics",
+      "target": "podcast:industrial-data-small-data-production-machine-learning",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -74912,6 +75329,144 @@
       "target": "wiki:reproducibility",
       "kind": "wiki-link",
       "weight": 1
+    },
+    {
+      "source": "wiki:model-optimization",
+      "target": "person:adityagautam",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:model-optimization",
+      "target": "person:aishwaryajadhav",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:model-optimization",
+      "target": "person:meryemarik",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:model-optimization",
+      "target": "person:micheallanham",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:model-optimization",
+      "target": "person:nasserqadri",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:model-optimization",
+      "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:model-optimization",
+      "target": "podcast:from-computer-vision-research-to-autonomous-driving-ai",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:model-optimization",
+      "target": "podcast:from-game-ai-to-modern-ai-agents",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:model-optimization",
+      "target": "podcast:s23e03-future-of-ai-agents",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:model-optimization",
+      "target": "podcast:s23e07-understanding-ai-engineer-role",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:model-optimization",
+      "target": "wiki:ai-infrastructure",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:model-optimization",
+      "target": "wiki:ai-infrastructure",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:model-optimization",
+      "target": "wiki:llm-cost-optimization",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:model-optimization",
+      "target": "wiki:llm-deployment",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:model-optimization",
+      "target": "wiki:llm-deployment",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:model-optimization",
+      "target": "wiki:llms",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:model-optimization",
+      "target": "wiki:llms",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:model-optimization",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:model-optimization",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:model-optimization",
+      "target": "wiki:mlops",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:model-optimization",
+      "target": "wiki:mlops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:model-optimization",
+      "target": "wiki:production",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:model-optimization",
+      "target": "wiki:production",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:model-registry",
@@ -77964,6 +78519,12 @@
     {
       "source": "wiki:platform-engineering",
       "target": "podcast:mlops-model-monitoring-data-observability",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:platform-engineering",
+      "target": "podcast:remote-data-engineering-work-and-building-iot-platforms",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -86057,6 +86618,12 @@
     },
     {
       "source": "wiki:teaching",
+      "target": "person:davidbader",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:teaching",
       "target": "person:elleobrien",
       "kind": "wiki-link",
       "weight": 1
@@ -86100,6 +86667,12 @@
     {
       "source": "wiki:teaching",
       "target": "person:swyx",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:teaching",
+      "target": "podcast:building-data-science-programs-and-democratizing-high-performance-computing",
       "kind": "wiki-link",
       "weight": 1
     },
