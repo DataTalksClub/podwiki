@@ -3,6 +3,7 @@ layout: wiki
 title: "Machine Learning Portfolio Projects"
 summary: "Archive-backed guidance for choosing machine learning portfolio projects that prove problem framing, baselines, data strategy, evaluation, production awareness, and maintainable code."
 related:
+  - Portfolio Projects
   - Machine Learning
   - Machine Learning System Design
   - MLOps
@@ -21,7 +22,10 @@ not model demos alone. They explain the decision, data, baseline, and
 [evaluation]({{ '/wiki/evaluation/' | relative_url }}). They also show the
 operating boundary that makes the work reviewable.
 
-For applied [data science]({{ '/wiki/data-science/' | relative_url }}),
+Start with the broader
+[Portfolio Projects]({{ '/wiki/portfolio-projects/' | relative_url }}) hub when
+you're choosing between role-specific project types. For applied
+[data science]({{ '/wiki/data-science/' | relative_url }}),
 [machine learning engineer]({{ '/wiki/machine-learning-engineer-role/' | relative_url }}),
 and [job search]({{ '/wiki/job-search/' | relative_url }}) use cases, start
 here. For architecture interview practice, use

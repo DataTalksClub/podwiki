@@ -3,6 +3,7 @@ layout: wiki
 title: "Open Source Portfolio Evidence"
 summary: "Archive-backed guidance for turning open-source issues, pull requests, documentation, demos, and community work into credible portfolio evidence for data, ML, AI, and DevRel roles."
 related:
+  - Portfolio Projects
   - Open Source
   - Open Source and Developer Relations
   - Contributing
@@ -41,7 +42,9 @@ explicit. Open-source projects force code quality closer to professional work
 because pull requests need reliability, tests, and review.
 
 This topic applies when a portfolio needs external review or public
-contribution proof. For project selection, use
+contribution proof. It's part of the broader
+[Portfolio Projects]({{ '/wiki/portfolio-projects/' | relative_url }}) hub. For
+project selection, use
 [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }}),
 [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}),
 or [RAG Portfolio Projects]({{ '/wiki/rag-portfolio-projects/' | relative_url }}).

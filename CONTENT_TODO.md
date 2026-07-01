@@ -173,6 +173,7 @@ and role-specific portfolios.
 
 Existing pages:
 
+- `_wiki/portfolio-projects.md`
 - `_guides/data-scientist-interview.md`
 - `_wiki/open-source-and-developer-relations.md`
 - `_wiki/data-engineering-portfolio-projects.md`
@@ -297,8 +298,11 @@ Start with this batch when expanding the content set.
   engineering, QA to ML/data engineering, academic researcher to data science,
   product designer to data product manager, and data scientist to machine
   learning engineer as the source archive grows.
-- Add portfolio project pages for data engineering, ML engineering, analytics
-  engineering, and RAG.
+- Keep portfolio project coverage connected through `_wiki/portfolio-projects.md`.
+  Existing pages cover data engineering, analytics engineering, machine
+  learning, RAG, open-source evidence, and project checklists. Improve those
+  pages as new podcast evidence appears instead of creating duplicate portfolio
+  pages.
 - Improve roadmap pages for data engineering, AI engineering, MLOps, analytics
   engineering, machine learning engineering, data product management, open
   source contribution, and LLM/RAG production as the archive grows.
@@ -328,8 +332,8 @@ Start with this batch when expanding the content set.
 - Treat Delta Lake as a wiki concept. The editorial comparison now lives in
   `_comparisons/delta-lake-vs-apache-iceberg.md`; keep bare Delta Lake updates
   on `_wiki/delta-lake.md`.
-- Keep A/B testing as wiki coverage, not a separate guide. Current canonical
-  coverage lives in `_wiki/a-b-testing.md`,
+- Keep A/B testing as wiki coverage, not a separate guide or content category.
+  Current canonical coverage lives in `_wiki/a-b-testing.md`,
   `_wiki/experimentation-and-causal-inference.md`, `_wiki/experimentation.md`,
   and `_wiki/power-analysis.md`. Editorial pages such as Product Analyst should
   link back to those wiki pages instead of owning the topic.

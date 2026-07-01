@@ -3,6 +3,7 @@ layout: wiki
 title: "End-to-End Data Pipeline Project"
 summary: "Archive-backed guidance for a data pipeline portfolio project that proves ingestion, modeling, orchestration, quality checks, recovery behavior, and consumer-facing output."
 related:
+  - Portfolio Projects
   - Data Engineering Portfolio Projects
   - Data Pipelines
   - Data Engineering
@@ -20,6 +21,7 @@ tables. It should also show orchestration and quality checks. Recovery behavior
 matters too. Name the consumer and the decision the pipeline supports.
 
 Use this page with
+[Portfolio Projects]({{ '/wiki/portfolio-projects/' | relative_url }}) and
 [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
 when the target role is [data engineering]({{ '/wiki/data-engineering/' | relative_url }}),
 [analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }}),

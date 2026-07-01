@@ -3,6 +3,7 @@ layout: wiki
 title: "Production ML Project Checklist"
 summary: "Archive-backed checklist for a production ML portfolio project that proves reproducible training, tracked experiments, registry handoff, deployment, monitoring, and rollback criteria."
 related:
+  - Portfolio Projects
   - Machine Learning Portfolio Projects
   - MLOps
   - MLOps Roadmap
@@ -21,6 +22,7 @@ show artifact promotion and deployment. It should also show logging,
 monitoring, and a rule for rollback or retraining.
 
 Use this checklist with
+[Portfolio Projects]({{ '/wiki/portfolio-projects/' | relative_url }}) and
 [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
 when the target role is [MLOps]({{ '/wiki/mlops/' | relative_url }}),
 [ML platforms]({{ '/wiki/ml-platforms/' | relative_url }}), or

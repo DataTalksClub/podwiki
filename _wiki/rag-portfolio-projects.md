@@ -3,6 +3,7 @@ layout: wiki
 title: "RAG Portfolio Projects"
 summary: "Archive-backed guidance for RAG portfolio projects that prove retrieval quality, context design, citations, evaluation, failure analysis, and production-minded AI engineering."
 related:
+  - Portfolio Projects
   - Retrieval-Augmented Generation
   - Search and RAG Project Checklist
   - Search, RAG, and Knowledge Systems
@@ -18,7 +19,9 @@ answer. In the README, the builder names the corpus and chunking plan. In the
 demo, the reviewer sees metadata, retrieved context, and citations. The builder
 uses evaluation notes to explain failures.
 
-The topic starts with
+This topic is one branch of the broader
+[Portfolio Projects]({{ '/wiki/portfolio-projects/' | relative_url }}) hub. It
+starts with
 [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
 and
 [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }}).

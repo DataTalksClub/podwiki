@@ -1,7 +1,7 @@
 {
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
-    "wikis": 175,
+    "wikis": 176,
     "articles": 49,
     "guides": 19,
     "comparisons": 19,
@@ -10,8 +10,8 @@
     "podcasts": 202,
     "persons": 438,
     "topics": 145,
-    "nodes": 1009,
-    "links": 10552
+    "nodes": 1010,
+    "links": 10645
   },
   "nodes": [
     {
@@ -9617,6 +9617,16 @@
       "url": "/wiki/platform-engineering/",
       "count": 1,
       "search": "Platform Engineering How DataTalks.Club guests describe internal platform teams and self service platform ownership."
+    },
+    {
+      "id": "wiki:portfolio-projects",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Portfolio Projects",
+      "title": "Portfolio Projects",
+      "url": "/wiki/portfolio-projects/",
+      "count": 1,
+      "search": "Portfolio Projects Archive backed guidance for choosing data, analytics, ML, AI, and open source portfolio projects that prove role fit, practical judgment, public proof, and interview ready ownership."
     },
     {
       "id": "wiki:power-analysis",
@@ -39689,6 +39699,18 @@
     },
     {
       "source": "wiki:analytics-engineering-portfolio-projects",
+      "target": "wiki:portfolio-projects",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:analytics-engineering-portfolio-projects",
+      "target": "wiki:portfolio-projects",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:analytics-engineering-portfolio-projects",
       "target": "wiki:product-analytics",
       "kind": "wiki-link",
       "weight": 4
@@ -46458,6 +46480,18 @@
     {
       "source": "wiki:data-engineering-portfolio-projects",
       "target": "wiki:open-source-portfolio-evidence",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-engineering-portfolio-projects",
+      "target": "wiki:portfolio-projects",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-engineering-portfolio-projects",
+      "target": "wiki:portfolio-projects",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -53494,6 +53528,18 @@
       "weight": 3
     },
     {
+      "source": "wiki:end-to-end-data-pipeline-project",
+      "target": "wiki:portfolio-projects",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:end-to-end-data-pipeline-project",
+      "target": "wiki:portfolio-projects",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
       "source": "wiki:entrepreneurship",
       "target": "article:guide:machine-learning-for-startups",
       "kind": "wiki-link",
@@ -59405,6 +59451,18 @@
     },
     {
       "source": "wiki:machine-learning-portfolio-projects",
+      "target": "wiki:portfolio-projects",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:machine-learning-portfolio-projects",
+      "target": "wiki:portfolio-projects",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:machine-learning-portfolio-projects",
       "target": "wiki:product-analytics",
       "kind": "wiki-link",
       "weight": 2
@@ -64643,6 +64701,18 @@
     },
     {
       "source": "wiki:open-source-portfolio-evidence",
+      "target": "wiki:portfolio-projects",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:open-source-portfolio-evidence",
+      "target": "wiki:portfolio-projects",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:open-source-portfolio-evidence",
       "target": "wiki:rag-portfolio-projects",
       "kind": "wiki-link",
       "weight": 4
@@ -65318,6 +65388,468 @@
       "target": "wiki:technical-writing",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "article:comparison:graph-rag-vs-vector-rag",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "article:comparison:rag-vs-fine-tuning",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "article:roadmap:open-source-contributor-roadmap",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "person:adrianbrudaru",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "person:andradaolteanu",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "person:atitaarora",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "person:benwilson",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "person:ellenkonig",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "person:eugeneyan",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "person:hugobowneanderson",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "person:jeffkatz",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "person:juanmanuelperafan",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "person:lukewhipps",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "person:marianosemelman",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "person:mervenoyan",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "person:nadianahar",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "person:nataliekwong",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "person:nicksingh",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "person:santonatuli",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "person:slawomirtulski",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "person:tatianagabruseva",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "person:valeriybabushkin",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "person:victoriaperezmola",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "person:vincentwarmerdam",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "podcast:analytics-engineer-skills-tools",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "podcast:analytics-to-data-science-with-kaggle-portfolio",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "podcast:data-engineering-tools-modern-data-stack",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "podcast:data-interview-behavioral-and-portfolio-prep-guide",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "podcast:from-software-engineering-data-science-to-data-engineering-leadership",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "podcast:get-data-engineering-job-prep-and-interview",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "podcast:get-data-scientist-job",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "podcast:hugging-face-contributions-and-nlp-portfolio",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "podcast:machine-learning-engineering-production-best-practices",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "podcast:machine-learning-system-design-interview",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "podcast:modern-data-pipelines-orchestration-ingestion-modeling",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "podcast:open-source-ml-contributions",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "podcast:practical-llm-engineering-and-rag",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "podcast:s24e01-competitions-beyond-kaggle-leaderboard",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "podcast:software-engineering-for-machine-learning",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "podcast:technical-writing-for-data-scientists",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "podcast:trends-in-modern-data-engineering",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "wiki:ai-engineering",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "wiki:analytics-engineering",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "wiki:analytics-engineering-portfolio-projects",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "wiki:analytics-engineering-portfolio-projects",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "wiki:career-development",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "wiki:career-development",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "wiki:cv-screening",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "wiki:cv-screening",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "wiki:dashboard-and-metric-layer-project-checklist",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "wiki:dashboard-and-metric-layer-project-checklist",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "wiki:data-engineering",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "wiki:end-to-end-data-pipeline-project",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "wiki:end-to-end-data-pipeline-project",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "wiki:job-search",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "wiki:job-search",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "wiki:machine-learning",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "wiki:mlops",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "wiki:open-source",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "wiki:open-source-portfolio-evidence",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "wiki:open-source-portfolio-evidence",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "wiki:production-ml-project-checklist",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "wiki:production-ml-project-checklist",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "wiki:rag-portfolio-projects",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "wiki:rag-portfolio-projects",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "wiki:search-and-rag-project-checklist",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:portfolio-projects",
+      "target": "wiki:search-and-rag-project-checklist",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:power-analysis",
@@ -66725,6 +67257,18 @@
     },
     {
       "source": "wiki:production-ml-project-checklist",
+      "target": "wiki:portfolio-projects",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:production-ml-project-checklist",
+      "target": "wiki:portfolio-projects",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:production-ml-project-checklist",
       "target": "wiki:production",
       "kind": "wiki-link",
       "weight": 2
@@ -67674,6 +68218,18 @@
     {
       "source": "wiki:rag-portfolio-projects",
       "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:rag-portfolio-projects",
+      "target": "wiki:portfolio-projects",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:rag-portfolio-projects",
+      "target": "wiki:portfolio-projects",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -69558,6 +70114,18 @@
     {
       "source": "wiki:search-and-rag-project-checklist",
       "target": "wiki:llm-production-patterns",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:search-and-rag-project-checklist",
+      "target": "wiki:portfolio-projects",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:search-and-rag-project-checklist",
+      "target": "wiki:portfolio-projects",
       "kind": "wiki-related",
       "weight": 3
     },

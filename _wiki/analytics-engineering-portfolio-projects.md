@@ -3,6 +3,7 @@ layout: wiki
 title: "Analytics Engineering Portfolio Projects"
 summary: "Archive-backed guidance for analytics engineering portfolio projects that prove SQL modeling, metric ownership, dbt-style tests, documentation, BI readiness, and stakeholder judgment."
 related:
+  - Portfolio Projects
   - Analytics Engineering
   - Dashboard and Metric Layer Project Checklist
   - Analytics Engineering Roadmap
@@ -19,7 +20,9 @@ projects show more than SQL or a dashboard. They show table grain and modeled
 layers. They include tests, documentation, BI consumption, and the business
 question behind the model.
 
-This project checklist sits beside the broader
+This project checklist is one branch of the broader
+[Portfolio Projects]({{ '/wiki/portfolio-projects/' | relative_url }}) hub. It
+sits beside the broader
 [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
 role page, the
 [Analytics Engineering Roadmap]({{ '/wiki/analytics-engineering-roadmap/' | relative_url }}),

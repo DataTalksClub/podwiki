@@ -3,6 +3,7 @@ layout: wiki
 title: "Data Engineering Portfolio Projects"
 summary: "Archive-backed guidance for data engineering portfolio projects that prove useful pipelines, SQL and Python depth, modeling, orchestration, quality checks, and operating judgment."
 related:
+  - Portfolio Projects
   - Data Engineering
   - Data Engineering Roadmap
   - End-to-End Data Pipeline Project
@@ -25,7 +26,9 @@ asks for tests plus recovery behavior
 and [Ellen König]({{ '/people/ellenkonig/' | relative_url }}) in
 [How to Become a Data Engineer]({{ '/podcasts/from-software-engineering-data-science-to-data-engineering-leadership/' | relative_url }})).
 
-This topic covers junior and transition portfolios for
+This topic is one branch of the broader
+[Portfolio Projects]({{ '/wiki/portfolio-projects/' | relative_url }}) hub. It
+covers junior and transition portfolios for
 [data engineering]({{ '/wiki/data-engineering/' | relative_url }}) and platform
 data work. It also covers data-science-to-data-engineering moves.
 

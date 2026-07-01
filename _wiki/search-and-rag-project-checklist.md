@@ -3,6 +3,7 @@ layout: wiki
 title: "Search and RAG Project Checklist"
 summary: "Archive-backed checklist for a search or RAG portfolio project that proves retrieval quality, context design, citations, evaluation, tracing, and production tradeoffs."
 related:
+  - Portfolio Projects
   - RAG Portfolio Projects
   - Retrieval-Augmented Generation
   - Search, RAG, and Knowledge Systems
@@ -20,6 +21,7 @@ also show retrieval strategy and prompt context. Citations, evaluation, and
 failure analysis complete the proof.
 
 Use this checklist with
+[Portfolio Projects]({{ '/wiki/portfolio-projects/' | relative_url }}) and
 [RAG Portfolio Projects]({{ '/wiki/rag-portfolio-projects/' | relative_url }}),
 then use
 [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
