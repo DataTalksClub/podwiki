@@ -7,6 +7,7 @@ podcast_episodes: []
 twitter: "niallm"
 linkedin: "niallm"
 ---
+
 # Niall Murphy
 
 ## Background

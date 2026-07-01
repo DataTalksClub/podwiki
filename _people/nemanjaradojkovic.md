@@ -8,6 +8,7 @@ expertise: ["MLOps", "data engineering", "production", "career transition", "too
 podcast_episodes: ["mlops-and-ml-engineering-in-finance", "lean-mlops-for-startups"]
 source_url: "https://datatalks.club/people/nemanjaradojkovic.html"
 ---
+
 ## Background
 
 Nemanja Radojkovic's source bio describes a path from electrical engineering into data science and MLOps, with consulting, teaching, and course-contribution experience.

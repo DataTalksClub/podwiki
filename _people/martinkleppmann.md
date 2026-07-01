@@ -8,6 +8,7 @@ twitter: "martinkl"
 linkedin: "martinkleppmann"
 web: "https://martin.kleppmann.com/"
 ---
+
 # Martin Kleppmann
 
 ## Background

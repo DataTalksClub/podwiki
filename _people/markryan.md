@@ -8,6 +8,7 @@ github: "ryanmark1867"
 twitter: "MarkRyanMkm"
 linkedin: "mark-ryan-31826743"
 ---
+
 # Mark Ryan
 
 ## Background

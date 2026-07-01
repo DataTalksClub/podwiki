@@ -8,6 +8,7 @@ expertise: ["machine learning", "data science", "interpretability", "tools", "pr
 podcast_episodes: ["interpretable-machine-learning"]
 source_url: "https://datatalks.club/people/christophmolnar.html"
 ---
+
 ## Podcast Context
 
 Christoph Molnar gives the archive a focused interpretability reference. His
@@ -24,7 +25,7 @@ rather than generic responsible-AI language.
 
 This episode gives the archive concrete interpretability methods:
 
-- [Interpretable Machine Learning](https://datatalks.club/podcast.html)
+- [Interpretable Machine Learning]({{ '/podcasts/interpretable-machine-learning/' | relative_url }})
   explains why interpretability matters for debugging and trust, while
   preserving the tradeoff with accuracy and model complexity.
 - Christoph explains conformal prediction through calibrated uncertainty,
@@ -65,7 +66,7 @@ Use these existing hubs for follow-up topic work:
   for model choice, debugging, evaluation, and production tradeoffs.
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
   for monitoring and drift concerns that interpretability can help diagnose.
-- [Interpretable Machine Learning]({{ '/guides/interpretable-machine-learning/' | relative_url }})
+- [Interpretability]({{ '/wiki/interpretability/' | relative_url }})
   for the editorial article that already uses this episode as evidence.
 
 ## Source Links
@@ -84,5 +85,7 @@ Use these sources for verification:
   feedback strategy at 44:51.
 
 ## Podcast Discussions
+
+These discussions connect Christoph's episode to local topic pages.
 
 - [Interpretable Machine Learning: SHAP, Conformal Prediction and Model Trust]({{ '/podcasts/interpretable-machine-learning/' | relative_url }}). Related topics: [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [data science]({{ '/wiki/data-science/' | relative_url }}), [practices]({{ '/wiki/practices/' | relative_url }}), [tools]({{ '/wiki/tools/' | relative_url }}), [career transition]({{ '/wiki/career-transition/' | relative_url }}), [interpretability]({{ '/wiki/interpretability/' | relative_url }}).

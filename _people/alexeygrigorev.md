@@ -8,6 +8,7 @@ expertise: ["community building", "data engineering", "MLOps", "LLMs", "machine 
 podcast_episodes: ["data-team-roles", "crisp-dm", "datatalksclub-building-scaling-data-community", "datatalksclub-building-sustainable-data-community-3-years-anniversary", "datatalksclub-scaling-and-free-courses"]
 source_url: "https://datatalks.club/people/alexeygrigorev.html"
 ---
+
 ## Background
 
 Alexey Grigorev is the founder of DataTalks.Club. In the podcast archive he appears both as host and as a subject-matter contributor on how the community, courses, and practical data education have evolved.

@@ -6,6 +6,7 @@ source_url: "https://datatalks.club/people/jamesphoenix.html"
 podcast_episodes: []
 linkedin: "https://www.linkedin.com/in/jamesphoenix/"
 ---
+
 # James Phoenix
 
 ## Background

@@ -6,6 +6,7 @@ source_url: "https://datatalks.club/people/martinpotancok.html"
 podcast_episodes: []
 linkedin: "martinpotancok"
 ---
+
 # Martin Potančok
 
 ## Background

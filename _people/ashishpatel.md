@@ -8,6 +8,7 @@ github: "ashishpatel26"
 twitter: "imashish2604"
 linkedin: "ashishpatel2604"
 ---
+
 # Ashish Patel
 
 ## Background

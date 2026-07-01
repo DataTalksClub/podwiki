@@ -217,6 +217,36 @@ a rule system, a cached recommendation, or a manual review path. The fallback ma
 also turn off an automated decision. The design has to say what the product does
 when the model, feature pipeline, API, or data source is unavailable.
 
+## Design Review Checklist
+
+Before implementation, a design should name the decision the prediction changes.
+It should also name the user affected by it. The review should cover the cost
+of wrong output. Late output belongs there too. So do unavailable or biased
+outputs.
+
+Valerii's interview and design-doc episodes use those questions as a readiness
+test. The team should understand the business problem before it chooses a model
+([ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }}),
+[ML System Design Playbook]({{ '/podcasts/ml-system-design/' | relative_url }})).
+
+The review should also cover:
+
+- goals, non-goals, assumptions, and data owners
+- sources, labels, freshness requirements, leakage risks, and the baseline
+- offline, online, and business metrics
+- guardrails and slices
+
+Serving and operations need the same review. A design should choose batch or
+online serving, then decide whether streaming, edge, or hybrid serving is
+required. It should explain validation and monitoring.
+
+Fallback behavior and rollback belong there too. Retraining triggers and
+ownership belong in the same operating plan.
+
+Arseny's scalable-systems episode adds constraints such as latency, battery,
+frame rate, and runtime limits when the product runs on mobile or edge devices
+([10:34-37:15]({{ '/podcasts/building-scalable-and-reliable-machine-learning-systems/' | relative_url }})).
+
 ## Platform and Ownership
 
 Single projects can start with simple pieces, but repeated ML systems push teams
@@ -253,5 +283,4 @@ These pages expand the system-design decisions above.
 - [Evaluation]({{ '/wiki/evaluation/' | relative_url }})
 - [A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }})
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
-- [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
 - [Machine Learning System Design Interview article]({{ '/guides/machine-learning-system-design-interview/' | relative_url }})

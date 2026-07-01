@@ -7,6 +7,7 @@ podcast_episodes: []
 github: "Denis2054"
 linkedin: "denis-rothman-0b034043"
 ---
+
 # Denis Rothman
 
 ## Background

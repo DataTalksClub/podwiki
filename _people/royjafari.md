@@ -8,6 +8,7 @@ twitter: "JafariRoy"
 linkedin: "roy-jafari-marandi-84077932"
 web: "https://roy-jafari.com/"
 ---
+
 # Roy Jafari
 
 ## Background

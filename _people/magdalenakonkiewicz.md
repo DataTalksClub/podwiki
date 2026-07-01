@@ -8,6 +8,7 @@ twitter: "MagdalenaKonki1"
 linkedin: "magdalena-konkiewicz-644678125"
 web: "https://medium.com/@konkiewicz.m"
 ---
+
 # Magdalena Konkiewicz
 
 ## Background

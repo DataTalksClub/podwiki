@@ -9,6 +9,7 @@ twitter: "smasis"
 linkedin: "smasis"
 web: "https://www.serg.ai/"
 ---
+
 # Serg Masis
 
 ## Background

@@ -8,6 +8,7 @@ github: "ktshannon"
 twitter: "ktshannon"
 linkedin: "ktshannon"
 ---
+
 # Kyle Shannon
 
 ## Background

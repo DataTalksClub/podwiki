@@ -9,6 +9,7 @@ twitter: "Pier_Paolo_28"
 linkedin: "pierpaolo28"
 web: "https://pierpaolo28.github.io/"
 ---
+
 # Pier Paolo Ippolito
 
 ## Background

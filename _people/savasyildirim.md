@@ -7,6 +7,7 @@ podcast_episodes: []
 github: "savasy"
 linkedin: "savasy"
 ---
+
 # Savaş Yıldırım
 
 ## Background

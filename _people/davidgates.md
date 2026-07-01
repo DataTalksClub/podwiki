@@ -7,6 +7,7 @@ podcast_episodes: []
 linkedin: "david-gates-a84750b"
 web: "https://accentswelcome.com"
 ---
+
 # David Gates
 
 ## Background

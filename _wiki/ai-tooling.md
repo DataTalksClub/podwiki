@@ -20,6 +20,10 @@ includes actions, tests, traces, and production ownership.
 
 For the whole role, use the
 [AI Engineer Role]({{ '/wiki/ai-engineer-role/' | relative_url }}). Use
+[LLM Tools]({{ '/guides/llm-tools/' | relative_url }}) for practical stack
+selection around model APIs, RAG, and evaluation. It also covers agents,
+observability, and cost.
+Use
 [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
 for production architecture and
 [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})

@@ -8,6 +8,7 @@ expertise: ["data engineering", "machine learning", "production", "tools"]
 podcast_episodes: ["production-ml-pipelines-with-aws-and-kafka"]
 source_url: "https://datatalks.club/people/andreaskretz.html"
 ---
+
 ## Background
 
 Andreas Kretz describes himself in the source bio as a data engineer and "plumber of data science" who writes and talks about platform architecture, tools, and techniques for modern data science platforms.

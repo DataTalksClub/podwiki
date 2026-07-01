@@ -6,6 +6,7 @@ source_url: "https://datatalks.club/people/douglasgray.html"
 podcast_episodes: []
 linkedin: "doug-gray-06bb4a4"
 ---
+
 # Douglas Gray
 
 ## Background

@@ -8,6 +8,7 @@ expertise: ["machine learning", "software engineering", "communication", "career
 podcast_episodes: ["technical-writing-for-data-scientists", "datatalksclub-building-scaling-data-community"]
 source_url: "https://datatalks.club/people/eugeneyan.html"
 ---
+
 ## Background
 
 Eugene Yan works at the intersection of machine learning and product, with source bio experience at Amazon, Lazada, and uCare.ai. He writes and speaks about data science, ML in production, and career growth.

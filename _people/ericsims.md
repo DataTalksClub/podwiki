@@ -7,6 +7,7 @@ podcast_episodes: []
 github: "EricPostMaster"
 linkedin: "ericsims2"
 ---
+
 # Eric Sims
 
 ## Background

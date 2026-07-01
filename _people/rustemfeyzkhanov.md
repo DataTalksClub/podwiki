@@ -9,6 +9,7 @@ twitter: "ryfeus"
 linkedin: "ryfeus"
 web: "https://www.ryfeus.io/"
 ---
+
 # Rustem Feyzkhanov
 
 ## Background

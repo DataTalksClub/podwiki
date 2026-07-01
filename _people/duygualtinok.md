@@ -8,6 +8,7 @@ github: "DuyguA"
 linkedin: "duygu-altinok-4021389a"
 web: "https://duygua.github.io/"
 ---
+
 # Duygu Altinok
 
 ## Background

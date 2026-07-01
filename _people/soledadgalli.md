@@ -9,6 +9,7 @@ twitter: "Soledad_Galli"
 linkedin: "soledad-galli"
 web: "https://www.trainindata.com/"
 ---
+
 # Soledad Galli
 
 ## Background

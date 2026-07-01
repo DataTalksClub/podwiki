@@ -68,6 +68,14 @@ Analytics engineers may own dbt models and marts. Data engineers may own
 ingestion, storage, orchestration, and recovery. ML engineers may own feature
 jobs, training data, and serving handoffs.
 
+A pipeline usually separates raw, staged, modeled, and serving layers. Raw data
+preserves source behavior for replay and backfills. The staging layer cleans
+names, types, and obvious source-system issues.
+
+The modeled layer represents business entities and facts, plus dimensions and
+metrics. It also represents features. Serving outputs feed marts and dashboards.
+They can also feed feature tables, indexes, APIs, or reverse ETL syncs.
+
 [Jeff Katz]({{ '/people/jeffkatz/' | relative_url }}) keeps the beginner
 version grounded in Python and SQL in
 [Data Engineering Job Prep and Interview Guide]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }})

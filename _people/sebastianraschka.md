@@ -9,6 +9,7 @@ twitter: "rasbt"
 linkedin: "sebastianraschka"
 web: "https://sebastianraschka.com/"
 ---
+
 # Sebastian Raschka
 
 ## Background

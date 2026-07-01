@@ -7,6 +7,7 @@ podcast_episodes: []
 linkedin: "kozodoi"
 web: "https://kozodoi.me/"
 ---
+
 # Nikita Kozodoi
 
 ## Background

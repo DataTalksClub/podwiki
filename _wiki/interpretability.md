@@ -185,6 +185,31 @@ generic explainability in some monitoring contexts. Use this with
 [MLOps]({{ '/wiki/mlops/' | relative_url }}) when the question becomes logging
 profiles, alerts, ownership, and incident response.
 
+## Practical Review
+
+An interpretability review starts with the audience. A model builder may need
+feature effects and leakage clues. A product owner may need decision impact and
+uncertainty. A compliance reviewer may need feature necessity, protected-group
+analysis, and a record of who approved the tradeoff. Polina Mosolova's
+discussion makes that audience split explicit
+([52:39]({{ '/podcasts/building-explainable-and-actionable-ai-ml-systems/' | relative_url }})).
+
+Review the model inputs before choosing an explanation chart. Supreet Kaur
+starts with data-level bias checks, PII handling, and feature necessity
+([11:36-17:20]({{ '/podcasts/responsible-explainable-ai-bias-detection/' | relative_url }})).
+Then decide whether a glass-box model is enough. If not, use a post-hoc method
+such as SHAP or LIME when it answers the question. Use conformal prediction
+when the decision needs explicit uncertainty.
+
+The review should also name fairness and monitoring ownership. Tamara
+Atanasoska's Fairlearn discussion shows that false-positive tradeoffs need
+organizational judgment. False-negative tradeoffs need that judgment too.
+Demographic-parity tradeoffs do as well
+([24:04-31:33]({{ '/podcasts/fairness-in-ai-ml-engineering/' | relative_url }})).
+
+After launch, the team still needs owners for drift and segmentation issues,
+plus contested outcomes and upstream data changes.
+
 ## Related Pages
 
 Use these pages for adjacent ML, governance, monitoring, and article-level
@@ -197,4 +222,3 @@ guidance.
 - [MLOps]({{ '/wiki/mlops/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [Data Governance]({{ '/wiki/data-governance/' | relative_url }})
-- [Interpretable Machine Learning]({{ '/guides/interpretable-machine-learning/' | relative_url }})

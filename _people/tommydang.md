@@ -7,6 +7,7 @@ podcast_episodes: []
 twitter: "TommyDANGerouss"
 linkedin: "dangtommy"
 ---
+
 # Tommy Dang
 
 ## Background

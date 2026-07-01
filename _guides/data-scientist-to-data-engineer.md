@@ -37,7 +37,7 @@ It also means documented assumptions, tests, backfills, and recovery paths
 
 Use this article as a transition guide, then go deeper with
 [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }}),
-[Fundamentals of Data Engineering]({{ '/guides/fundamentals-of-data-engineering/' | relative_url }}),
+[Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}),
 and
 [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }}).
 

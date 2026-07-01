@@ -7,6 +7,7 @@ podcast_episodes: []
 twitter: "mcs1408"
 linkedin: "max-schultze-b11996110"
 ---
+
 # Max Schultze
 
 ## Background

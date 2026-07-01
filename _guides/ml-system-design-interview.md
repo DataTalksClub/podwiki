@@ -27,11 +27,11 @@ appears across the archive's [Machine Learning System Design]({{ '/wiki/machine-
 and [Data Scientist Interview Roadmap]({{ '/wiki/data-scientist-interview-roadmap/' | relative_url }})
 pages.
 
-This guide covers the compact keyword "ml system design interview." For the
+Use this guide for the compact keyword "ml system design interview." For the
 longer keyword, read
 [Machine Learning System Design Interview]({{ '/guides/machine-learning-system-design-interview/' | relative_url }}).
 For production design beyond interviews, use
-[Designing Machine Learning Systems]({{ '/guides/designing-machine-learning-systems/' | relative_url }})
+[Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
 and [ML System Design Documents]({{ '/wiki/ml-system-design-documents/' | relative_url }}).
 
 ## Answer Structure

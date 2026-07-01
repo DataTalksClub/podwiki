@@ -8,6 +8,7 @@ github: "giuseppebonaccorso"
 twitter: "GiuseppeB"
 linkedin: "giuseppebonaccorso"
 ---
+
 # Giuseppe Bonaccorso
 
 ## Background

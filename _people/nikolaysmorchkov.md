@@ -7,6 +7,7 @@ podcast_episodes: []
 linkedin: "nikolay-smorchkov-mba"
 web: "http://www.smorchkov.com/"
 ---
+
 # Nikolay Smorchkov
 
 ## Background

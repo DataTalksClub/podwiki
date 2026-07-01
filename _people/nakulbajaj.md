@@ -6,6 +6,7 @@ source_url: "https://datatalks.club/people/nakulbajaj.html"
 podcast_episodes: []
 linkedin: "nakul-bajaj"
 ---
+
 # Nakul Bajaj
 
 ## Background

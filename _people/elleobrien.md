@@ -8,6 +8,7 @@ expertise: ["developer relations", "data science", "machine learning", "open-sou
 podcast_episodes: ["devrel-data-science-open-source-tools"]
 source_url: "https://datatalks.club/people/elleobrien.html"
 ---
+
 ## Background
 
 Elle O'Brien is a data scientist at Iterative and a lecturer at the University of Michigan School of Information. Her source bio highlights open-source software for machine learning, educational resources, and prior PhD research on speech and hearing.

@@ -9,6 +9,7 @@ twitter: "vijaykiran"
 linkedin: "vijaykiran"
 web: "http://vijaykiran.com/"
 ---
+
 # Vijay Kiran
 
 ## Background

@@ -9,6 +9,7 @@ twitter: "phinance99"
 linkedin: "dsweet99"
 web: "http://www.andamooka.org/~dsweet/"
 ---
+
 # David Sweet
 
 ## Background

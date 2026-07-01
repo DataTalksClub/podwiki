@@ -3,7 +3,6 @@ layout: article
 title: "MLOps Architecture: Production Map for Models, Pipelines, Platforms, and Feedback"
 keyword: "mlops architecture"
 summary: "A podcast-backed MLOps architecture guide covering data inputs, training and feature pipelines, experiment tracking, registries, CI/CD, serving, monitoring, feedback loops, governance, and the tradeoff between simple stacks and shared platforms."
-search_intent: "People searching for mlops architecture usually need a practical system map: which components belong in a production ML lifecycle, how data, training, registry, deployment, monitoring, and governance connect, and when a team should move from a simple project stack to a shared ML platform."
 related_wiki:
   - MLOps
   - MLOps Roadmap
@@ -186,9 +185,8 @@ startup version in
 Around 44:10, he describes a minimal stack with Python, CI/CD orchestration, and
 Dagster. Around 11:54-19:19, he also warns that managed services can accelerate
 a young team while creating migration and lock-in tradeoffs. That matters for
-[MLOps architecture]({{ '/wiki/mlops/' | relative_url }}): the simplest
-repeatable release path usually beats a broad platform that the team can't yet
-operate.
+[MLOps]({{ '/wiki/mlops/' | relative_url }}): the simplest repeatable release
+path usually beats a broad platform that the team can't yet operate.
 
 ## Orchestration and Serving
 

@@ -7,6 +7,7 @@ podcast_episodes: []
 linkedin: "https://www.linkedin.com/in/apurva-misra/"
 web: "https://apurvamisra.com/"
 ---
+
 # Apurva Misra
 
 ## Background

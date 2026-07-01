@@ -8,6 +8,7 @@ github: "alex000kim"
 twitter: "alex000kim"
 linkedin: "alex000kim"
 ---
+
 # Alex Kim
 
 ## Background

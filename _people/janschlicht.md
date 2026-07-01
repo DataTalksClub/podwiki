@@ -7,6 +7,7 @@ podcast_episodes: []
 github: "nfnt"
 linkedin: "jan-schlicht-a17950b7"
 ---
+
 # Jan Schlicht
 
 ## Background

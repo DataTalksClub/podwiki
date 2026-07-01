@@ -9,6 +9,7 @@ twitter: "chipro"
 linkedin: "chiphuyen"
 web: "https://huyenchip.com/"
 ---
+
 # Chip Huyen
 
 ## Background

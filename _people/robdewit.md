@@ -7,6 +7,7 @@ podcast_episodes: []
 linkedin: "rcdewit"
 web: "https://robdewit.nl/"
 ---
+
 # Rob De Wit
 
 ## Background

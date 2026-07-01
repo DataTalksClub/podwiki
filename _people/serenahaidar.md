@@ -7,6 +7,7 @@ podcast_episodes: []
 github: "Serena-github-c"
 linkedin: "serena-haidar"
 ---
+
 # Serena Haidar
 
 ## Background

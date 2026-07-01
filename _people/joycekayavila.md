@@ -6,6 +6,7 @@ source_url: "https://datatalks.club/people/joycekayavila.html"
 podcast_episodes: []
 linkedin: "joycekayavila"
 ---
+
 # Joyce Kay Avila
 
 ## Background

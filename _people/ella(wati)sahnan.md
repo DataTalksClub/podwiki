@@ -6,6 +6,7 @@ source_url: "https://datatalks.club/people/ella(wati)sahnan.html"
 podcast_episodes: []
 linkedin: "wati-sahnan"
 ---
+
 # Ella (Wati) Sahnan
 
 ## Background

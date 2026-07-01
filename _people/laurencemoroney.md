@@ -9,6 +9,7 @@ twitter: "lmoroney"
 linkedin: "laurence-moroney"
 web: "http://www.laurencemoroney.com/"
 ---
+
 # Laurence Moroney
 
 ## Background

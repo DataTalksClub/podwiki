@@ -9,6 +9,7 @@ twitter: "KhuyenTran16"
 linkedin: "khuyen-tran-1401"
 web: "https://khuyentran1476.medium.com/"
 ---
+
 # Khuyen Tran
 
 ## Background

@@ -6,6 +6,7 @@ source_url: "https://datatalks.club/people/alenaastrakhantseva.html"
 podcast_episodes: []
 linkedin: "alenaastra"
 ---
+
 # Alena Astrakhantseva
 
 ## Background

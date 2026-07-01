@@ -60,7 +60,7 @@ def merge_existing_page(target: Path, rendered: str) -> str:
             frontmatter.append(f"{key}: {yaml_list(value)}")
         else:
             frontmatter.append(f"{key}: {yaml_string(value)}")
-    frontmatter.extend(["---", ""])
+    frontmatter.extend(["---", "", ""])
     return "\n".join(frontmatter) + body
 
 

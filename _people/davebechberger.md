@@ -9,6 +9,7 @@ twitter: "bechbd"
 linkedin: "davebechberger"
 web: "http://www.bechberger.com/"
 ---
+
 # Dave Bechberger
 
 ## Background

@@ -8,6 +8,7 @@ github: "avirtuos"
 twitter: "anthonyvirtuoso"
 linkedin: "https://www.linkedin.com/in/avirtuos"
 ---
+
 # Anthony Virtuoso
 
 ## Background

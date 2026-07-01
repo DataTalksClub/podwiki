@@ -8,6 +8,7 @@ expertise: ["AI", "LLMs", "NLP", "MLOps", "production", "AI red teaming", "secur
 podcast_episodes: ["generative-ai-chatbots-in-production-security"]
 source_url: "https://datatalks.club/people/mariasukhareva.html"
 ---
+
 ## Background
 
 Maria Sukhareva is a principal key expert in Artificial Intelligence at Siemens. Her source bio emphasizes more than 15 years in generative AI technologies and turning research into practical, scalable tools.

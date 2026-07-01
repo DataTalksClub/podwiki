@@ -9,6 +9,7 @@ twitter: "prateekvjoshi"
 linkedin: "prateek-joshi-91047b19"
 web: "https://www.prateekj.com/"
 ---
+
 # Prateek Joshi
 
 ## Background

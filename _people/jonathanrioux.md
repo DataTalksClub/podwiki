@@ -8,6 +8,7 @@ github: "jonesberg"
 twitter: "lejonesberg"
 linkedin: "jonathanrx"
 ---
+
 # Jonathan Rioux
 
 ## Background

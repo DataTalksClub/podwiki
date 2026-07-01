@@ -7,6 +7,7 @@ podcast_episodes: []
 twitter: "soumikRakshit96"
 linkedin: "soumikrakshit"
 ---
+
 # Soumik Rakshit
 
 ## Background

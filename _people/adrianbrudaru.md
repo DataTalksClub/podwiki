@@ -8,6 +8,7 @@ expertise: ["data engineering", "data governance", "open-source", "freelance", "
 podcast_episodes: ["freelance-data-engineering-pricing-and-clients", "from-data-freelancer-to-startup-open-source-products", "trends-in-modern-data-engineering"]
 source_url: "https://datatalks.club/people/adrianbrudaru.html"
 ---
+
 ## Podcast Context
 
 Adrian Brudaru is useful in the archive because he returns to the same data

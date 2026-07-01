@@ -8,6 +8,7 @@ github: "rossbrigoli"
 twitter: "rossbrigoli"
 linkedin: "rossbrigoli"
 ---
+
 # Ross Brigoli
 
 ## Background

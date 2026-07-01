@@ -8,6 +8,7 @@ github: "masoodfaisal"
 twitter: "masoodfaisal"
 linkedin: "faisalmas"
 ---
+
 # Faisal Masood
 
 ## Background

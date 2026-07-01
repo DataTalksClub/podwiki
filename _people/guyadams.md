@@ -7,6 +7,7 @@ podcast_episodes: []
 twitter: "guydadams"
 linkedin: "guydadams"
 ---
+
 # Guy Adams
 
 ## Background

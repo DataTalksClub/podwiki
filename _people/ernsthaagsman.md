@@ -6,6 +6,7 @@ source_url: "https://datatalks.club/people/ernsthaagsman.html"
 podcast_episodes: []
 linkedin: "ernsthaagsman"
 ---
+
 # Ernst Haagsman
 
 ## Background

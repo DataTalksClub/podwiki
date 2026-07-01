@@ -8,6 +8,7 @@ twitter: "maximelabonne"
 linkedin: "maxime-labonne"
 web: "https://mlabonne.github.io/blog/"
 ---
+
 # Maxime Labonne
 
 ## Background

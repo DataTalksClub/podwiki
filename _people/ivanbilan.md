@@ -8,6 +8,7 @@ expertise: ["NLP", "MLOps", "LLMs", "leadership", "production", "career growth"]
 podcast_episodes: ["nlp-team-hiring-and-production-mlops"]
 source_url: "https://datatalks.club/people/ivanbilan.html"
 ---
+
 ## Background
 
 Ivan Bilan is an Engineering Manager at Personio working on Identity and Access Management. His source bio notes technical interests in microservices for data-intensive applications, MLOps for NLP, and deep learning research.

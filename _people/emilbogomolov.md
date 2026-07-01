@@ -7,6 +7,7 @@ podcast_episodes: []
 github: "zetyquickly"
 linkedin: "emil-bogomolov"
 ---
+
 # Emil Bogomolov
 
 ## Background

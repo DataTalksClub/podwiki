@@ -7,6 +7,7 @@ podcast_episodes: []
 linkedin: "janna-lipenkova-07137399"
 web: "https://jannalipenkova.com/"
 ---
+
 # Janna Lipenkova
 
 ## Background

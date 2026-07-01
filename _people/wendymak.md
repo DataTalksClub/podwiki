@@ -6,6 +6,7 @@ source_url: "https://datatalks.club/people/wendymak.html"
 podcast_episodes: []
 github: "wwymak"
 ---
+
 # Wendy Mak
 
 ## Background

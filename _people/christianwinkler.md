@@ -7,6 +7,7 @@ podcast_episodes: []
 linkedin: "drchristianwinkler"
 web: "https://datanizing.com/"
 ---
+
 # Christian Winkler
 
 ## Background

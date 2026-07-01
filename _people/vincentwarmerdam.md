@@ -8,6 +8,7 @@ expertise: ["open-source", "machine learning", "data science", "developer relati
 podcast_episodes: ["open-source-ml-contributions", "open-source-ml-tools-strategy-and-business-models"]
 source_url: "https://datatalks.club/people/vincentwarmerdam.html"
 ---
+
 ## Podcast Context
 
 Vincent Warmerdam is one of the archive's clearest voices on practical

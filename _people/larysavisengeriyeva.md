@@ -9,6 +9,7 @@ twitter: "visenger"
 linkedin: "larysavisenger"
 web: "https://ml-ops.org/"
 ---
+
 # Larysa Visengeriyeva
 
 ## Background

@@ -9,6 +9,7 @@ twitter: "electricweegie"
 linkedin: "andymcmahon629"
 web: "https://electricweegie.com/"
 ---
+
 # Andrew McMahon
 
 ## Background

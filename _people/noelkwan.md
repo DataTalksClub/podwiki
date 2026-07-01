@@ -7,6 +7,7 @@ podcast_episodes: []
 github: "kwannoel"
 linkedin: "noelkwan"
 ---
+
 # Noel Kwan
 
 ## Background

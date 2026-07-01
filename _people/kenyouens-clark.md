@@ -9,6 +9,7 @@ twitter: "kycl4rk"
 linkedin: "kycl4rk"
 web: "http://www.kyclark.us/"
 ---
+
 # Ken Youens-Clark
 
 ## Background

@@ -6,6 +6,7 @@ source_url: "https://datatalks.club/people/nathanwang.html"
 podcast_episodes: []
 linkedin: "nathanyinghengwang"
 ---
+
 # Nathan Wang
 
 ## Background

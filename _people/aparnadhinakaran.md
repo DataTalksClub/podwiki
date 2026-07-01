@@ -9,6 +9,7 @@ twitter: "aparnadhinak"
 linkedin: "aparnadhinakaran"
 web: "http://www.aparnadhinakaran.com/"
 ---
+
 # Aparna Dhinakaran
 
 ## Background

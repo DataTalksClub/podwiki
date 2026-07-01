@@ -9,6 +9,7 @@ twitter: "luis_likes_math"
 linkedin: "luisgserrano"
 web: "http://serrano.academy"
 ---
+
 # Luis Serrano
 
 ## Background

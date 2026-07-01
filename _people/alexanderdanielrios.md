@@ -8,6 +8,7 @@ github: "aletbm"
 linkedin: "alexander-daniel-rios"
 web: "https://aletbm.github.io/Portfolio/"
 ---
+
 # Alexander Daniel Rios
 
 ## Background

@@ -8,6 +8,7 @@ github: "ssg"
 twitter: "esesci"
 linkedin: "kapanoglu"
 ---
+
 # Sedat Kapanoglu
 
 ## Background

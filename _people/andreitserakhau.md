@@ -6,6 +6,7 @@ source_url: "https://datatalks.club/people/andreitserakhau.html"
 podcast_episodes: []
 linkedin: "andrei-tserakhau"
 ---
+
 # Andrei Tserakhau
 
 ## Background

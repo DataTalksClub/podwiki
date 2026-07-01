@@ -8,6 +8,7 @@ github: "https://github.com/guoliveira"
 linkedin: "https://www.linkedin.com/in/lgsoliveira/"
 web: "https://medium.com/@lgsoliveira"
 ---
+
 # Luís Oliveira
 
 ## Background

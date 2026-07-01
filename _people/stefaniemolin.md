@@ -8,6 +8,7 @@ github: "stefmolin"
 twitter: "StefanieMolin"
 linkedin: "stefanie-molin"
 ---
+
 # Stefanie Molin
 
 ## Background

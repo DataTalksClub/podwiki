@@ -8,6 +8,7 @@ twitter: "mimoralea"
 linkedin: "mimoralea"
 web: "https://www.youtube.com/c/mimoralea"
 ---
+
 # Miguel Morales
 
 ## Background

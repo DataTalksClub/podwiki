@@ -6,6 +6,7 @@ source_url: "https://datatalks.club/people/delinaivanova.html"
 podcast_episodes: []
 linkedin: "delina-ivanova"
 ---
+
 # Delina Ivanova
 
 ## Background

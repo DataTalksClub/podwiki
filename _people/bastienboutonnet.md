@@ -9,6 +9,7 @@ twitter: "b_superhero"
 linkedin: "bastienboutonnet"
 web: "https://www.bastienboutonnet.com/"
 ---
+
 # Bastien Boutonnet
 
 ## Background

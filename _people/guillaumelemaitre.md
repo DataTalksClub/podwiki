@@ -8,6 +8,7 @@ github: "glemaitre"
 linkedin: "guillaume-lemaitre-b9404939"
 web: "https://glemaitre.github.io/"
 ---
+
 # Guillaume Lemaître
 
 ## Background

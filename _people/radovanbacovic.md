@@ -9,6 +9,7 @@ twitter: "SvenMurtinson"
 linkedin: "radovanbacovic"
 web: "www.bacovic.com"
 ---
+
 # Radovan Bacovic
 
 ## Background

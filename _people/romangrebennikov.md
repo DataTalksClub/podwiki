@@ -9,6 +9,7 @@ twitter: "public_void_grv"
 linkedin: "romangrebennikov"
 web: "https://dfdx.me/"
 ---
+
 # Roman Grebennikov
 
 ## Background

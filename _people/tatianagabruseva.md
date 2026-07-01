@@ -8,6 +8,7 @@ expertise: ["computer vision", "deep learning", "machine learning", "career tran
 podcast_episodes: ["from-physics-to-computer-vision-career-transition", "from-academia-to-staff-ai-engineer-interviews-and-career-growth", "s24e01-competitions-beyond-kaggle-leaderboard"]
 source_url: "https://datatalks.club/people/tatianagabruseva.html"
 ---
+
 ## Background
 
 Tatiana Gabruseva is a Computer Vision and Deep Learning Engineer and Kaggle Competitions Master. Her source bio notes her role as a Senior ML Engineer at Cork University Hospital.

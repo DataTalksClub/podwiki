@@ -8,6 +8,7 @@ github: "vsmolyakov"
 twitter: "vsmolyakov"
 linkedin: "vsmolyakov"
 ---
+
 # Vadim Smolyakov
 
 ## Background

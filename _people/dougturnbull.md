@@ -9,6 +9,7 @@ twitter: "softwaredoug"
 linkedin: "softwaredoug"
 web: "https://softwaredoug.com/"
 ---
+
 # Doug Turnbull
 
 ## Background

@@ -187,6 +187,9 @@ artifact logging, tracking, and GDPR concerns.
 These pages cover adjacent MLOps concepts:
 
 - [ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }})
+- [MLOps Tools]({{ '/wiki/mlops-tools/' | relative_url }})
+- [MLOps Architecture]({{ '/guides/mlops-architecture/' | relative_url }})
+- [MLOps Frameworks]({{ '/guides/mlops-frameworks/' | relative_url }})
 - [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
 - [Model Registry]({{ '/wiki/model-registry/' | relative_url }})
 - [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }})

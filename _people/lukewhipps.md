@@ -8,6 +8,7 @@ expertise: ["data science", "career growth", "job search", "hiring"]
 podcast_episodes: ["get-data-scientist-job", "machine-learning-data-science-interview-prep"]
 source_url: "https://datatalks.club/people/lukewhipps.html"
 ---
+
 ## Background
 
 Luke Whipps is a co-founder of Neural.AI, a recruiting company focused on data scientists and AI professionals. His source bio also notes his experience as a recruiter and host of the AI Game Changer podcast.

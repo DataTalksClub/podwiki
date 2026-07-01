@@ -6,6 +6,7 @@ source_url: "https://datatalks.club/people/itaiadmi.html"
 podcast_episodes: []
 linkedin: "itai-admi"
 ---
+
 # Itai Admi
 
 ## Background

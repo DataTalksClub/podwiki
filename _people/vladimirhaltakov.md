@@ -8,6 +8,7 @@ github: "haltakov"
 twitter: "haltakov"
 linkedin: "haltakov"
 ---
+
 # Vladimir Haltakov
 
 ## Background

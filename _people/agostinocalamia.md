@@ -7,6 +7,7 @@ podcast_episodes: []
 linkedin: "agostino-calamia"
 web: "https://www.agostinocalamia.com/"
 ---
+
 # Agostino Calamia
 
 ## Background

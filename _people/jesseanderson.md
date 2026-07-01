@@ -8,6 +8,7 @@ twitter: "jessetanderson"
 linkedin: "jessetanderson"
 web: "https://www.jesse-anderson.com/"
 ---
+
 # Jesse Anderson
 
 ## Background

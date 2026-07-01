@@ -29,7 +29,7 @@ operations, and ownership come next.
 
 Use this article when you're preparing for the keyword topic "machine learning
 system design interview." For the broader production discipline, read
-[Designing Machine Learning Systems]({{ '/guides/designing-machine-learning-systems/' | relative_url }})
+[Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
 and [ML System Design Documents]({{ '/wiki/ml-system-design-documents/' | relative_url }}).
 For the shorter keyword variant, see
 [ML System Design Interview]({{ '/guides/ml-system-design-interview/' | relative_url }}).

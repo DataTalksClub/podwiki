@@ -6,6 +6,7 @@ source_url: "https://datatalks.club/people/goncalosequeira.html"
 podcast_episodes: []
 linkedin: "gsequeira"
 ---
+
 # Gonçalo Sequeira
 
 ## Background

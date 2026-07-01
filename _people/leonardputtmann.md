@@ -6,6 +6,7 @@ source_url: "https://datatalks.club/people/leonardputtmann.html"
 podcast_episodes: []
 linkedin: "leonard-p%C3%BCttmann-4648231a9"
 ---
+
 # Leonard Püttmann
 
 ## Background

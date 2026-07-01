@@ -8,6 +8,7 @@ github: "JoeReis"
 linkedin: "josephreis"
 web: "https://josephreis.com/"
 ---
+
 # Joe Reis
 
 ## Background

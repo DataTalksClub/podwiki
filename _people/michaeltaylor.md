@@ -6,6 +6,7 @@ source_url: "https://datatalks.club/people/michaeltaylor.html"
 podcast_episodes: []
 linkedin: "https://www.linkedin.com/in/mjt145/"
 ---
+
 # Michael Taylor
 
 ## Background

@@ -69,7 +69,7 @@ CDC, and schema evolution.
 
 For written companions, use
 [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}) and
-[Fundamentals of Data Engineering]({{ '/guides/fundamentals-of-data-engineering/' | relative_url }}).
+[Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}).
 
 ## Tools and Modern Stack
 

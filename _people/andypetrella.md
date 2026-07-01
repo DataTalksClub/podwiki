@@ -9,6 +9,7 @@ twitter: "noootsab"
 linkedin: "andypetrella"
 web: "https://www.kensu.io/"
 ---
+
 # Andy Petrella
 
 ## Background

@@ -9,6 +9,7 @@ twitter: "vincenttatan"
 linkedin: "vincenttatan"
 web: "https://medium.com/@vincentkernn"
 ---
+
 # Vincent Tatan
 
 ## Background

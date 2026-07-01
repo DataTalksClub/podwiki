@@ -6,6 +6,7 @@ source_url: "https://datatalks.club/people/ondrejbothe.html"
 podcast_episodes: []
 linkedin: "obothe"
 ---
+
 # Ondřej Bothe
 
 ## Background

@@ -8,6 +8,7 @@ github: "theleonwei"
 twitter: "theleonwei"
 linkedin: "theleonwei"
 ---
+
 # Leon Wei
 
 ## Background

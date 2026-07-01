@@ -6,6 +6,7 @@ source_url: "https://datatalks.club/people/mariolazo.html"
 podcast_episodes: []
 linkedin: "mariolazo"
 ---
+
 # Mario Lazo
 
 ## Background

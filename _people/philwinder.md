@@ -9,6 +9,7 @@ twitter: "drphilwinder"
 linkedin: "drphilwinder"
 web: "https://winderresearch.com/"
 ---
+
 # Phil Winder
 
 ## Background

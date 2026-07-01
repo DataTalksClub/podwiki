@@ -7,6 +7,7 @@ podcast_episodes: []
 github: "sbakiu"
 linkedin: "sbakiu"
 ---
+
 # Sadik Bakiu
 
 ## Background

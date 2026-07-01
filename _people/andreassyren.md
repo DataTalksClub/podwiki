@@ -6,6 +6,7 @@ source_url: "https://datatalks.club/people/andreassyren.html"
 podcast_episodes: []
 linkedin: "andreassyren"
 ---
+
 # Andreas Syrén
 
 ## Background

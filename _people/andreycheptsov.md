@@ -8,6 +8,7 @@ expertise: ["AI infrastructure", "MLOps", "LLMs", "open-source", "tools"]
 podcast_episodes: ["ai-infrastructure-hybrid-cloud-on-prem-distributed-training"]
 source_url: "https://datatalks.club/people/andreycheptsov.html"
 ---
+
 ## Background
 
 Andrey Cheptsov is founder and CEO of dstack, an open-source alternative to Kubernetes and Slurm for AI infrastructure orchestration. His source bio also notes more than a decade at JetBrains building developer tools.

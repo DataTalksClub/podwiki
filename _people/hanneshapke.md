@@ -9,6 +9,7 @@ twitter: "hanneshapke"
 linkedin: "hanneshapke"
 web: "http://hanneshapke.github.io/"
 ---
+
 # Hannes Hapke
 
 ## Background

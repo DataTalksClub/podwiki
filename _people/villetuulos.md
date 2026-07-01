@@ -8,6 +8,7 @@ github: "tuulos"
 twitter: "vtuulos"
 linkedin: "villetuulos"
 ---
+
 # Ville Tuulos
 
 ## Background

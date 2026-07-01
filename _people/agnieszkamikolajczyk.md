@@ -8,6 +8,7 @@ github: "AgaMiko"
 linkedin: "agnieszkamikolajczyk"
 web: "https://amikolajczyk.netlify.app/"
 ---
+
 # Agnieszka Mikołajczyk
 
 ## Background

@@ -8,6 +8,7 @@ twitter: "ondrejkubera"
 linkedin: "ondrejkubera"
 web: "https://ondrejkubera.com/"
 ---
+
 # Ondřej Kubera
 
 ## Background

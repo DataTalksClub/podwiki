@@ -6,6 +6,7 @@ source_url: "https://datatalks.club/people/helderrussa.html"
 podcast_episodes: []
 linkedin: "hrussa"
 ---
+
 # Hélder Russa
 
 ## Background

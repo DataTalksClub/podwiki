@@ -8,6 +8,7 @@ expertise: ["leadership", "career transition", "communication", "team building",
 podcast_episodes: ["data-science-job-red-flags-and-mismatched-roles", "data-leadership-coaching"]
 source_url: "https://datatalks.club/people/terezaiofciu.html"
 ---
+
 ## Background
 
 Tereza Iofciu is an experienced data practitioner whose source bio spans data science management, data science, data engineering, product management, coaching, teaching, PyLadies Hamburg, and Python Software Foundation community work.

@@ -6,6 +6,7 @@ source_url: "https://datatalks.club/people/davidbednar.html"
 podcast_episodes: []
 linkedin: "davidbednarcz"
 ---
+
 # David Bednar
 
 ## Background

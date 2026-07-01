@@ -8,6 +8,7 @@ github: "sejalv"
 twitter: "sejalv_"
 linkedin: "vaidyasejal"
 ---
+
 # Sejal Vaidya
 
 ## Background

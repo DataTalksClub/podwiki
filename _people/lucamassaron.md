@@ -8,6 +8,7 @@ github: "lmassaron"
 twitter: "lucamassaron"
 linkedin: "lmassaron"
 ---
+
 # Luca Massaron
 
 ## Background

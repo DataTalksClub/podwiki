@@ -7,6 +7,7 @@ podcast_episodes: []
 twitter: "krantiparisa"
 linkedin: "krantiparisa"
 ---
+
 # Kranti K. Parisa
 
 ## Background

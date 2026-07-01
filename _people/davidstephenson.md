@@ -6,6 +6,7 @@ source_url: "https://datatalks.club/people/davidstephenson.html"
 podcast_episodes: []
 linkedin: "dmstephenson"
 ---
+
 # David Stephenson
 
 ## Background

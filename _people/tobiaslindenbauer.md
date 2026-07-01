@@ -6,6 +6,7 @@ source_url: "https://datatalks.club/people/tobiaslindenbauer.html"
 podcast_episodes: []
 linkedin: "tobias-lindenbauer"
 ---
+
 # Tobias Lindenbauer
 
 ## Background

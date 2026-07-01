@@ -2,12 +2,12 @@
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
     "wikis": 179,
-    "articles": 49,
+    "articles": 46,
     "podcasts": 202,
     "persons": 438,
     "topics": 147,
-    "nodes": 1015,
-    "links": 10511
+    "nodes": 1012,
+    "links": 10413
   },
   "nodes": [
     {
@@ -253,17 +253,6 @@
       "keyword": "delta lake vs apache iceberg"
     },
     {
-      "id": "article:guide:designing-machine-learning-systems",
-      "type": "article",
-      "collection": "guide",
-      "label": "Designing Machine Learning Systems: A Practical Archive-Backed Guide",
-      "title": "Designing Machine Learning Systems: A Practical Archive-Backed Guide",
-      "url": "/guides/designing-machine-learning-systems/",
-      "count": 1,
-      "search": "Designing Machine Learning Systems: A Practical Archive Backed Guide A practical guide to designing machine learning systems with podcast backed advice on problem framing, data strategy, baselines, serving, monitoring, ownership, and tradeoffs.",
-      "keyword": "designing machine learning systems"
-    },
-    {
       "id": "article:comparison:etl-vs-elt",
       "type": "article",
       "collection": "comparison",
@@ -273,17 +262,6 @@
       "count": 1,
       "search": "ETL vs ELT A podcast grounded decision guide for choosing transform before load or load before transform pipelines in modern data stacks.",
       "keyword": "etl vs elt"
-    },
-    {
-      "id": "article:guide:fundamentals-of-data-engineering",
-      "type": "article",
-      "collection": "guide",
-      "label": "Fundamentals of Data Engineering: Pipelines, Storage, Quality, and Tradeoffs",
-      "title": "Fundamentals of Data Engineering: Pipelines, Storage, Quality, and Tradeoffs",
-      "url": "/guides/fundamentals-of-data-engineering/",
-      "count": 1,
-      "search": "Fundamentals of Data Engineering: Pipelines, Storage, Quality, and Tradeoffs A podcast backed guide to the durable fundamentals behind data engineering: pipelines, storage, transformations, orchestration, quality, ownership, and architecture tradeoffs.",
-      "keyword": "fundamentals of data engineering"
     },
     {
       "id": "article:roadmap:how-to-become-a-data-engineer-with-no-experience",
@@ -317,17 +295,6 @@
       "count": 1,
       "search": "How to Hire Data Engineers: Role Scope, Interview Signals, and Team Fit A podcast backed guide for managers and founders who need to hire data engineers: when to hire, which profile to hire first, how to write the role, and what to test in interviews.",
       "keyword": "hire data engineers"
-    },
-    {
-      "id": "article:guide:interpretable-machine-learning",
-      "type": "article",
-      "collection": "guide",
-      "label": "Interpretable Machine Learning: How to Build Models People Can Trust",
-      "title": "Interpretable Machine Learning: How to Build Models People Can Trust",
-      "url": "/guides/interpretable-machine-learning/",
-      "count": 1,
-      "search": "Interpretable Machine Learning: How to Build Models People Can Trust A practical guide to interpretable machine learning, explainable AI, SHAP, conformal prediction, fairness checks, governance, and actionability.",
-      "keyword": "interpretable machine learning"
     },
     {
       "id": "article:comparison:knowledge-graph-vs-vector-search",
@@ -13440,12 +13407,6 @@
     },
     {
       "source": "article:guide:data-engineering-podcast",
-      "target": "article:guide:fundamentals-of-data-engineering",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-podcast",
       "target": "person:16rahuljain",
       "kind": "article-link",
       "weight": 2
@@ -13700,7 +13661,7 @@
       "source": "article:guide:data-engineering-podcast",
       "target": "wiki:data-engineering",
       "kind": "article-link",
-      "weight": 6
+      "weight": 8
     },
     {
       "source": "article:guide:data-engineering-podcast",
@@ -15150,12 +15111,6 @@
     },
     {
       "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "article:guide:fundamentals-of-data-engineering",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
       "target": "article:how_to:how-to-build-data-pipelines",
       "kind": "article-link",
       "weight": 2
@@ -15332,7 +15287,7 @@
       "source": "article:guide:data-scientist-to-data-engineer",
       "target": "wiki:data-engineering",
       "kind": "article-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "article:guide:data-scientist-to-data-engineer",
@@ -15713,492 +15668,6 @@
       "weight": 2
     },
     {
-      "source": "article:guide:designing-machine-learning-systems",
-      "target": "article:comparison:mlops-vs-dataops",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:designing-machine-learning-systems",
-      "target": "article:guide:machine-learning-system-design-interview",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:designing-machine-learning-systems",
-      "target": "person:arsenykravchenko",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:designing-machine-learning-systems",
-      "target": "person:benwilson",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:designing-machine-learning-systems",
-      "target": "person:dannyleybzon",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:designing-machine-learning-systems",
-      "target": "person:nadianahar",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:designing-machine-learning-systems",
-      "target": "person:raphaelhoogvliets",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:designing-machine-learning-systems",
-      "target": "person:simonstiebellehner",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:designing-machine-learning-systems",
-      "target": "person:valeriybabushkin",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:designing-machine-learning-systems",
-      "target": "person:willempienaar",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:designing-machine-learning-systems",
-      "target": "podcast:building-production-ml-platform-and-mlops-team",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:designing-machine-learning-systems",
-      "target": "podcast:building-scalable-and-reliable-machine-learning-systems",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:designing-machine-learning-systems",
-      "target": "podcast:machine-learning-engineering-production-best-practices",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:designing-machine-learning-systems",
-      "target": "podcast:machine-learning-system-design-interview",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:designing-machine-learning-systems",
-      "target": "podcast:ml-system-design",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:designing-machine-learning-systems",
-      "target": "podcast:mlops-at-scale-reproducibility-adoption",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:designing-machine-learning-systems",
-      "target": "podcast:mlops-feature-stores-feature-stores-feast-tecton",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:designing-machine-learning-systems",
-      "target": "podcast:mlops-model-monitoring-data-observability",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:designing-machine-learning-systems",
-      "target": "podcast:software-engineering-for-machine-learning",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:designing-machine-learning-systems",
-      "target": "wiki:dataops",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:designing-machine-learning-systems",
-      "target": "wiki:dataops",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:designing-machine-learning-systems",
-      "target": "wiki:machine-learning-engineer-role",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:designing-machine-learning-systems",
-      "target": "wiki:machine-learning-engineer-role",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:designing-machine-learning-systems",
-      "target": "wiki:machine-learning-infrastructure",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:designing-machine-learning-systems",
-      "target": "wiki:machine-learning-system-design",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:designing-machine-learning-systems",
-      "target": "wiki:machine-learning-system-design",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:designing-machine-learning-systems",
-      "target": "wiki:ml-platforms",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:designing-machine-learning-systems",
-      "target": "wiki:ml-platforms",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:designing-machine-learning-systems",
-      "target": "wiki:ml-system-design-documents",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:designing-machine-learning-systems",
-      "target": "wiki:ml-system-design-documents",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:designing-machine-learning-systems",
-      "target": "wiki:mlops",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:designing-machine-learning-systems",
-      "target": "wiki:mlops",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:designing-machine-learning-systems",
-      "target": "wiki:mlops-tools",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:designing-machine-learning-systems",
-      "target": "wiki:model-monitoring",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:designing-machine-learning-systems",
-      "target": "wiki:model-monitoring",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:designing-machine-learning-systems",
-      "target": "wiki:production",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:designing-machine-learning-systems",
-      "target": "wiki:production",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:fundamentals-of-data-engineering",
-      "target": "article:guide:data-engineering-pipeline-project",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:fundamentals-of-data-engineering",
-      "target": "article:how_to:how-to-build-data-pipelines",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:fundamentals-of-data-engineering",
-      "target": "person:adrianbrudaru",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:fundamentals-of-data-engineering",
-      "target": "person:christopherbergh",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:fundamentals-of-data-engineering",
-      "target": "person:ellenkonig",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:fundamentals-of-data-engineering",
-      "target": "person:larsalbertsson",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:fundamentals-of-data-engineering",
-      "target": "person:nataliekwong",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:fundamentals-of-data-engineering",
-      "target": "person:slawomirtulski",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:fundamentals-of-data-engineering",
-      "target": "podcast:data-engineering-tools-modern-data-stack",
-      "kind": "article-link",
-      "weight": 10
-    },
-    {
-      "source": "article:guide:fundamentals-of-data-engineering",
-      "target": "podcast:dataops-for-data-engineering",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:fundamentals-of-data-engineering",
-      "target": "podcast:dataops-principles-and-scalable-data-platforms",
-      "kind": "article-link",
-      "weight": 10
-    },
-    {
-      "source": "article:guide:fundamentals-of-data-engineering",
-      "target": "podcast:from-software-engineering-data-science-to-data-engineering-leadership",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:fundamentals-of-data-engineering",
-      "target": "podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for",
-      "kind": "article-link",
-      "weight": 10
-    },
-    {
-      "source": "article:guide:fundamentals-of-data-engineering",
-      "target": "podcast:trends-in-modern-data-engineering",
-      "kind": "article-link",
-      "weight": 10
-    },
-    {
-      "source": "article:guide:fundamentals-of-data-engineering",
-      "target": "wiki:analytics-engineering",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:fundamentals-of-data-engineering",
-      "target": "wiki:apache-iceberg",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:fundamentals-of-data-engineering",
-      "target": "wiki:batch-vs-streaming",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:fundamentals-of-data-engineering",
-      "target": "wiki:batch-vs-streaming",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:fundamentals-of-data-engineering",
-      "target": "wiki:cdc",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:fundamentals-of-data-engineering",
-      "target": "wiki:data-activation",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:fundamentals-of-data-engineering",
-      "target": "wiki:data-engineer-role",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:fundamentals-of-data-engineering",
-      "target": "wiki:data-engineer-role",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:fundamentals-of-data-engineering",
-      "target": "wiki:data-engineering",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:fundamentals-of-data-engineering",
-      "target": "wiki:data-engineering",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:fundamentals-of-data-engineering",
-      "target": "wiki:data-engineering-platforms",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:fundamentals-of-data-engineering",
-      "target": "wiki:data-engineering-platforms",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:fundamentals-of-data-engineering",
-      "target": "wiki:data-engineering-portfolio-projects",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:fundamentals-of-data-engineering",
-      "target": "wiki:data-engineering-portfolio-projects",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:fundamentals-of-data-engineering",
-      "target": "wiki:data-engineering-roadmap",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:fundamentals-of-data-engineering",
-      "target": "wiki:data-engineering-roadmap",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:fundamentals-of-data-engineering",
-      "target": "wiki:data-lake",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:fundamentals-of-data-engineering",
-      "target": "wiki:data-observability",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:fundamentals-of-data-engineering",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:fundamentals-of-data-engineering",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:fundamentals-of-data-engineering",
-      "target": "wiki:data-warehouse",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:fundamentals-of-data-engineering",
-      "target": "wiki:data-warehouse-vs-data-lakehouse",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:fundamentals-of-data-engineering",
-      "target": "wiki:dataops",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:fundamentals-of-data-engineering",
-      "target": "wiki:dbt",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:fundamentals-of-data-engineering",
-      "target": "wiki:duckdb",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:fundamentals-of-data-engineering",
-      "target": "wiki:etl-vs-elt",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:fundamentals-of-data-engineering",
-      "target": "wiki:modern-data-stack",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:fundamentals-of-data-engineering",
-      "target": "wiki:orchestration",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:fundamentals-of-data-engineering",
-      "target": "wiki:reverse-etl",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:fundamentals-of-data-engineering",
-      "target": "wiki:testing",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
       "source": "article:guide:hire-data-engineers",
       "target": "person:christopherbergh",
       "kind": "article-link",
@@ -16435,114 +15904,6 @@
     {
       "source": "article:guide:hire-data-engineers",
       "target": "wiki:team-building",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:interpretable-machine-learning",
-      "target": "person:christophmolnar",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:interpretable-machine-learning",
-      "target": "person:polinamosolova",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:interpretable-machine-learning",
-      "target": "person:supreetkaur",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:interpretable-machine-learning",
-      "target": "person:tamaraatanasoska",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:interpretable-machine-learning",
-      "target": "podcast:building-explainable-and-actionable-ai-ml-systems",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:interpretable-machine-learning",
-      "target": "podcast:fairness-in-ai-ml-engineering",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:interpretable-machine-learning",
-      "target": "podcast:interpretable-machine-learning",
-      "kind": "article-link",
-      "weight": 10
-    },
-    {
-      "source": "article:guide:interpretable-machine-learning",
-      "target": "podcast:responsible-explainable-ai-bias-detection",
-      "kind": "article-link",
-      "weight": 8
-    },
-    {
-      "source": "article:guide:interpretable-machine-learning",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:interpretable-machine-learning",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:interpretable-machine-learning",
-      "target": "wiki:governance",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:interpretable-machine-learning",
-      "target": "wiki:governance",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:interpretable-machine-learning",
-      "target": "wiki:interpretability",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:interpretable-machine-learning",
-      "target": "wiki:interpretability",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:interpretable-machine-learning",
-      "target": "wiki:model-monitoring",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:interpretable-machine-learning",
-      "target": "wiki:model-monitoring",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:interpretable-machine-learning",
-      "target": "wiki:responsible-ai-and-governance",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:interpretable-machine-learning",
-      "target": "wiki:responsible-ai-and-governance",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -16854,6 +16215,12 @@
     },
     {
       "source": "article:guide:llm-tools",
+      "target": "wiki:ai-tooling",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:llm-tools",
       "target": "wiki:dataops",
       "kind": "article-wiki",
       "weight": 5
@@ -16891,6 +16258,12 @@
     {
       "source": "article:guide:llm-tools",
       "target": "wiki:llm-production-patterns",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:llm-tools",
+      "target": "wiki:llms",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -17400,12 +16773,6 @@
     },
     {
       "source": "article:guide:machine-learning-system-design-interview",
-      "target": "article:guide:designing-machine-learning-systems",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:machine-learning-system-design-interview",
       "target": "article:guide:ml-system-design-interview",
       "kind": "article-link",
       "weight": 2
@@ -17528,7 +16895,7 @@
       "source": "article:guide:machine-learning-system-design-interview",
       "target": "wiki:machine-learning-system-design",
       "kind": "article-link",
-      "weight": 6
+      "weight": 8
     },
     {
       "source": "article:guide:machine-learning-system-design-interview",
@@ -17577,12 +16944,6 @@
       "target": "wiki:production-search-evaluation",
       "kind": "article-link",
       "weight": 4
-    },
-    {
-      "source": "article:guide:ml-system-design-interview",
-      "target": "article:guide:designing-machine-learning-systems",
-      "kind": "article-link",
-      "weight": 2
     },
     {
       "source": "article:guide:ml-system-design-interview",
@@ -17714,7 +17075,7 @@
       "source": "article:guide:ml-system-design-interview",
       "target": "wiki:machine-learning-system-design",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:guide:ml-system-design-interview",
@@ -22398,15 +21759,9 @@
     },
     {
       "source": "person:christophmolnar",
-      "target": "article:guide:interpretable-machine-learning",
-      "kind": "person-link",
-      "weight": 2
-    },
-    {
-      "source": "person:christophmolnar",
       "target": "podcast:interpretable-machine-learning",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:christophmolnar",
@@ -22466,7 +21821,7 @@
       "source": "person:christophmolnar",
       "target": "wiki:interpretability",
       "kind": "person-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "person:christophmolnar",
@@ -38550,6 +37905,12 @@
     },
     {
       "source": "wiki:ai-tooling",
+      "target": "article:guide:llm-tools",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-tooling",
       "target": "person:bartoszmikulski",
       "kind": "wiki-link",
       "weight": 4
@@ -42210,7 +41571,7 @@
     },
     {
       "source": "wiki:community",
-      "target": "wiki:mlops-tools",
+      "target": "wiki:mlops",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -56526,12 +55887,6 @@
     },
     {
       "source": "wiki:interpretability",
-      "target": "article:guide:interpretable-machine-learning",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:interpretability",
       "target": "person:christophmolnar",
       "kind": "wiki-link",
       "weight": 6
@@ -56570,13 +55925,13 @@
       "source": "wiki:interpretability",
       "target": "podcast:building-explainable-and-actionable-ai-ml-systems",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "wiki:interpretability",
       "target": "podcast:fairness-in-ai-ml-engineering",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "wiki:interpretability",
@@ -56600,7 +55955,7 @@
       "source": "wiki:interpretability",
       "target": "podcast:responsible-explainable-ai-bias-detection",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 10
     },
     {
       "source": "wiki:interpretability",
@@ -58302,6 +57657,12 @@
     },
     {
       "source": "wiki:llms",
+      "target": "wiki:ai-tooling",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:llms",
       "target": "wiki:generative-ai",
       "kind": "wiki-link",
       "weight": 4
@@ -59462,19 +58823,19 @@
       "source": "wiki:machine-learning-system-design",
       "target": "podcast:building-scalable-and-reliable-machine-learning-systems",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:machine-learning-system-design",
       "target": "podcast:machine-learning-system-design-interview",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:machine-learning-system-design",
       "target": "podcast:ml-system-design",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:machine-learning-system-design",
@@ -59593,12 +58954,6 @@
     {
       "source": "wiki:machine-learning-system-design",
       "target": "wiki:software-engineering",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:machine-learning-tools",
-      "target": "article:guide:interpretable-machine-learning",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -59780,7 +59135,7 @@
       "source": "wiki:machine-learning-tools",
       "target": "wiki:interpretability",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:machine-learning-tools",
@@ -61206,6 +60561,18 @@
     },
     {
       "source": "wiki:mlops",
+      "target": "article:guide:mlops-architecture",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:mlops",
+      "target": "article:guide:mlops-frameworks",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:mlops",
       "target": "person:dannyleybzon",
       "kind": "wiki-link",
       "weight": 2
@@ -61347,6 +60714,12 @@
       "target": "wiki:ml-platforms",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:mlops",
+      "target": "wiki:mlops-tools",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:mlops",
@@ -61995,6 +61368,12 @@
       "target": "wiki:reproducibility",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:mlops-tools",
+      "target": "article:guide:mlops-frameworks",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:mlops-tools",

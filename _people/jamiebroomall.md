@@ -7,6 +7,7 @@ podcast_episodes: []
 github: "jamie256"
 linkedin: "jamie-broomall-aa60603"
 ---
+
 # Jamie Broomall
 
 ## Background

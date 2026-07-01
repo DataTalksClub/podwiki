@@ -8,6 +8,7 @@ expertise: ["NLP", "LLMs", "MLOps", "machine learning", "data engineering", "sea
 podcast_episodes: ["modern-search-systems-vector-databases-llms-semantic-retrieval"]
 source_url: "https://datatalks.club/people/atitaarora.html"
 ---
+
 ## Podcast Context
 
 Atita Arora is the archive's strongest single-person bridge between classical

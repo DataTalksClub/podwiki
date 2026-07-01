@@ -7,6 +7,7 @@ podcast_episodes: []
 twitter: "AiSimonThompson"
 linkedin: "simon-thompson-025a7"
 ---
+
 # Simon Thompson
 
 ## Background

@@ -6,6 +6,7 @@ source_url: "https://datatalks.club/people/nicholaslotz.html"
 podcast_episodes: []
 linkedin: "nicholaslotz"
 ---
+
 # Nicholas Lotz
 
 ## Background

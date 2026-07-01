@@ -8,6 +8,7 @@ github: "DavidMertz"
 twitter: "mertz_david"
 linkedin: "dmertz"
 ---
+
 # David Mertz
 
 ## Background

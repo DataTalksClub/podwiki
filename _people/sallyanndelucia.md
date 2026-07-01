@@ -7,6 +7,7 @@ podcast_episodes: []
 linkedin: "sally-ann-delucia-59a381172"
 web: "https://arize.com/"
 ---
+
 # Sally-Ann DeLucia
 
 ## Background

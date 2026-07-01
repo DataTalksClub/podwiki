@@ -7,6 +7,7 @@ podcast_episodes: []
 twitter: "mac2bua"
 linkedin: "cristian-javier-martinez-09bb7031"
 ---
+
 # Cristian Martinez
 
 ## Background

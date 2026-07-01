@@ -7,6 +7,7 @@ podcast_episodes: []
 github: "tankudo"
 linkedin: "ankudo"
 ---
+
 # Tatyjana Ankudo
 
 ## Background

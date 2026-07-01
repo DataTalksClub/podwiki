@@ -8,6 +8,7 @@ github: "ad3002"
 linkedin: "akomissarov"
 web: "https://soulnerd.com/"
 ---
+
 # Aleksey Komissarov
 
 ## Background

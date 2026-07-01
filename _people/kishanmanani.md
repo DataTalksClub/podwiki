@@ -7,6 +7,7 @@ podcast_episodes: []
 twitter: "KishManani"
 linkedin: "kishanmanani"
 ---
+
 # Kishan Manani
 
 ## Background

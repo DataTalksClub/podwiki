@@ -7,6 +7,7 @@ podcast_episodes: []
 linkedin: "susanewalsh"
 web: "https://www.theclassificationguru.com/"
 ---
+
 # Susan Walsh
 
 ## Background

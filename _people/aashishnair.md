@@ -6,6 +6,7 @@ source_url: "https://datatalks.club/people/aashishnair.html"
 podcast_episodes: []
 linkedin: "aashish-nair"
 ---
+
 # ​Aashish Nair
 
 ## Background

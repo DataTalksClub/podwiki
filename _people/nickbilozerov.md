@@ -6,6 +6,7 @@ source_url: "https://datatalks.club/people/nickbilozerov.html"
 podcast_episodes: []
 linkedin: "nick-bilozerov"
 ---
+
 # Nick Bilozerov
 
 ## Background

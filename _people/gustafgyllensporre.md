@@ -6,6 +6,7 @@ source_url: "https://datatalks.club/people/gustafgyllensporre.html"
 podcast_episodes: []
 linkedin: "gustaf-g"
 ---
+
 # Gustaf Gyllensporre
 
 ## Background

@@ -7,6 +7,7 @@ podcast_episodes: []
 twitter: "sergboec"
 linkedin: "sergboec"
 ---
+
 # Sergei Boitsov
 
 ## Background

@@ -6,6 +6,7 @@ source_url: "https://datatalks.club/people/jacquespeeters.html"
 podcast_episodes: []
 linkedin: "j4cquespeeters"
 ---
+
 # Jacques Peeters
 
 ## Background

@@ -9,6 +9,7 @@ twitter: "ioannides_alex"
 linkedin: "alexioannides"
 web: "https://alexioannides.com/"
 ---
+
 # Alex Ioannides
 
 ## Background

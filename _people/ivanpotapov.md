@@ -8,6 +8,7 @@ github: "ivan-digital"
 linkedin: "ivan-sur"
 web: "https://blog.ivan.digital/"
 ---
+
 # Ivan Potapov
 
 ## Background

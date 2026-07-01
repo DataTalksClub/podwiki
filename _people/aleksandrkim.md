@@ -7,6 +7,7 @@ podcast_episodes: []
 linkedin: "aleksandrkim"
 web: "https://alexkimds.github.io/"
 ---
+
 # Aleksandr Kim
 
 ## Background

@@ -8,6 +8,7 @@ expertise: ["MLOps", "community building", "meetups", "technical communities"]
 podcast_episodes: ["mlops-community-building-and-meetups"]
 source_url: "https://datatalks.club/people/demetriosbrinkmann.html"
 ---
+
 ## Background
 
 Demetrios Brinkmann leads the MLOps Community. His source bio describes the community as an effort to bring clarity to the operational side of machine learning and notes his interest in ethical issues around emerging technology.

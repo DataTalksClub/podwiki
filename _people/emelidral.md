@@ -7,6 +7,7 @@ podcast_episodes: []
 twitter: "EmeliDral"
 linkedin: "emelidral"
 ---
+
 # Emeli Dral
 
 ## Background

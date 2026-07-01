@@ -6,6 +6,7 @@ source_url: "https://datatalks.club/people/krzysztofograbek.html"
 podcast_episodes: []
 linkedin: "kris-ograbek"
 ---
+
 # Krzysztof Ograbek
 
 ## Background

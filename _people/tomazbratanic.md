@@ -8,6 +8,7 @@ github: "tomasonjo"
 twitter: "tb_tomaz"
 linkedin: "tomaz-bratanic-a58891127"
 ---
+
 # Tomaz Bratanic
 
 ## Background

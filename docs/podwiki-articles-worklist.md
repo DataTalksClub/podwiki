@@ -119,23 +119,23 @@ data-engineering-manager/data-engineer-manager cluster was consolidated into
 | data-scientist-interview | data-scientist-interview-roadmap | **keep: keyword guide; roadmap remains `_wiki/data-scientist-interview-roadmap.md`** |
 | data-scientist | data-scientist-role | **keep: keyword guide linked to canonical role page** |
 | data-scientist-to-data-engineer | career-transition | |
-| designing-machine-learning-systems | machine-learning-system-design | book title; merge/delete in a later pass |
-| fundamentals-of-data-engineering | data-engineering | book title; merge/delete in a later pass |
+| designing-machine-learning-systems | machine-learning-system-design | **done: book-title guide folded into `_wiki/machine-learning-system-design.md`** |
+| fundamentals-of-data-engineering | data-engineering | **done: book-title guide folded into `_wiki/data-engineering.md`, `_wiki/data-pipelines.md`, and `_wiki/data-engineering-roadmap.md`** |
 | how-to-build-data-pipelines | data-pipelines | **keep: procedural how-to in `_how_tos`** |
-| interpretable-machine-learning | interpretability | |
-| llm-tools | llms | or ai-tooling |
+| interpretable-machine-learning | interpretability | **done: guide folded into `_wiki/interpretability.md`** |
+| llm-tools | llms | **keep: guide for practical LLM stack selection; crosslink to LLMs and AI Tooling** |
 | machine-learning-for-software-engineers | software-engineer-to-machine-learning | |
 | machine-learning-for-startups | startups | |
 | machine-learning-system-design | machine-learning-system-design | **done: slug collision removed** |
-| mlops-architecture | mlops | |
+| mlops-architecture | mlops | **keep: architecture guide; linked from MLOps** |
 | mlops-engineer | mlops-engineer | **done: slug collision merged** |
-| mlops-frameworks | mlops-tools | |
+| mlops-frameworks | mlops-tools | **keep: guide for framework/convention selection by failure mode** |
 | mlops | mlops | **done: slug collision removed** |
 | mlops-tools | mlops-tools | **done: slug collision merged** |
 | mlops-vs-dataops | mlops-vs-dataops | **done: comparison lives in `_comparisons/mlops-vs-dataops.md`; removed combined wiki bridge** |
-| product-analyst | product-analytics | or data-analyst-role |
+| product-analyst | product-analytics | **keep: role/job-description guide** |
 | software-engineer-to-machine-learning | software-engineer-to-machine-learning | **done: slug collision removed** |
-| solopreneur-data-scientist | entrepreneurship | |
+| solopreneur-data-scientist | entrepreneurship | **keep: practical data/AI career guide** |
 | MLOps definition keyword variant | mlops | **done: handled by the MLOps wiki page; keep "what is mlops" only as a keyword variant** |
 
 ## D. KEEP-NEW — additive pages to build (2)

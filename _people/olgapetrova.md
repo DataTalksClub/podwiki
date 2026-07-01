@@ -9,6 +9,7 @@ twitter: "0lga_petrova"
 linkedin: "olga-p-petrova"
 web: "https://medium.com/@olgapetrova_92798"
 ---
+
 # Olga Petrova
 
 ## Background

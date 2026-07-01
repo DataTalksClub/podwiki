@@ -141,6 +141,16 @@ useful course starts with SQL, Python, and data modeling. It then makes the
 learner ingest data and keep raw data. It also makes the learner transform
 data into modeled tables, schedule the work, test it, and document a consumer.
 
+The first useful project should include a real failure mode. Ingest data from
+an API, database dump, or file source. Event logs and CDC simulations work too.
+
+Store raw data before transforming it, then create staged and modeled tables
+with a clear grain. Add tests for freshness, schema, row counts, and nulls.
+Uniqueness and business-rule checks belong there too.
+
+Schedule the work and add a runbook for late data and failed jobs. Name the
+consumer who can trust the output.
+
 Kwong's modern-stack episode grounds that sequence through ETL, ELT, marts,
 and orchestration. She also adds CDC and schema evolution
 ([ETL vs ELT and Modern Data Engineering]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})

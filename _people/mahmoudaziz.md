@@ -6,6 +6,7 @@ source_url: "https://datatalks.club/people/mahmoudaziz.html"
 podcast_episodes: []
 linkedin: "mahmoudaziz"
 ---
+
 # Mahmoud AbdelAziz
 
 ## Background

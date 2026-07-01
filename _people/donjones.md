@@ -7,6 +7,7 @@ podcast_episodes: []
 twitter: "concentrateddon"
 web: "http://donjones.com/"
 ---
+
 # Don Jones
 
 ## Background

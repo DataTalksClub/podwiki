@@ -8,6 +8,7 @@ twitter: "fab_clemente"
 linkedin: "fabiana-clemente"
 web: "https://medium.com/@fabiana_clemente"
 ---
+
 # Fabiana Clemente
 
 ## Background

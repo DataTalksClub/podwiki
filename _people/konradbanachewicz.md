@@ -8,6 +8,7 @@ github: "tng-konrad"
 twitter: "tng_konrad"
 linkedin: "konrad-banachewicz-8879572"
 ---
+
 # Konrad Banachewicz
 
 ## Background

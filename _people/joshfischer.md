@@ -8,6 +8,7 @@ github: "joshfischer1108"
 twitter: "joshfischer1108"
 linkedin: "joshfischer1108"
 ---
+
 # Josh Fischer
 
 ## Background

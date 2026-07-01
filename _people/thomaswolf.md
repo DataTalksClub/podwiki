@@ -8,6 +8,7 @@ github: "thomwolf"
 twitter: "Thom_Wolf"
 linkedin: "thomas-wolf-a056857"
 ---
+
 # Thomas Wolf
 
 ## Background

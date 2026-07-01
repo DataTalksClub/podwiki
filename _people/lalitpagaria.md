@@ -8,6 +8,7 @@ github: "lalitpagaria"
 twitter: "pagarialalit"
 linkedin: "lalitpagaria"
 ---
+
 # Lalit Pagaria
 
 ## Background

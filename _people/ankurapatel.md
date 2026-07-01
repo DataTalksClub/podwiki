@@ -8,6 +8,7 @@ github: "aapatel09"
 linkedin: "ankur-patel-b44a4516"
 web: "https://www.ankurapatel.io/"
 ---
+
 # Ankur A. Patel
 
 ## Background

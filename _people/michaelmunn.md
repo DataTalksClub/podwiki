@@ -6,6 +6,7 @@ source_url: "https://datatalks.club/people/michaelmunn.html"
 podcast_episodes: []
 linkedin: "munnm"
 ---
+
 # Michael Munn
 
 ## Background

@@ -8,6 +8,7 @@ github: "ruzarx"
 linkedin: "igor-demidov"
 web: "https://medium.com/@ruzarx"
 ---
+
 # Igor Demidov
 
 ## Background

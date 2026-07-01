@@ -8,6 +8,7 @@ expertise: ["data engineering", "AI", "LLMs", "MLOps", "tools"]
 podcast_episodes: ["production-ready-ai-engineering"]
 source_url: "https://datatalks.club/people/bartoszmikulski.html"
 ---
+
 ## Background
 
 Bartosz Mikulski is an AI and data engineer. His source bio emphasizes productionizing AI projects by building testing infrastructure and fixing issues found by tests, plus teaching and conference speaking.

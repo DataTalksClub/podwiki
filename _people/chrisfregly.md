@@ -8,6 +8,7 @@ twitter: "cfregly"
 linkedin: "cfregly"
 web: "https://www.datascienceonaws.com/"
 ---
+
 # Chris Fregly
 
 ## Background

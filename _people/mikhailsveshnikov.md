@@ -8,6 +8,7 @@ github: "evidently"
 linkedin: "mike0sv"
 web: "https://www.evidentlyai.com/"
 ---
+
 # Mikhail Sveshnikov
 
 ## Background

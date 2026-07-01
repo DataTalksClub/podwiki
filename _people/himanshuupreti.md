@@ -8,6 +8,7 @@ twitter: "himanshu_iitg"
 linkedin: "hupreti"
 web: "https://www.aipalette.com/"
 ---
+
 # Himanshu Upreti
 
 ## Background

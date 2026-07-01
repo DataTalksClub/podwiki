@@ -8,6 +8,7 @@ twitter: "janmzawa"
 linkedin: "jan-zawadzki"
 web: "https://medium.com/@janzawadzki"
 ---
+
 # Jan Zawadzki
 
 ## Background

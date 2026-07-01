@@ -7,6 +7,7 @@ podcast_episodes: []
 twitter: "infuseai"
 linkedin: "daveflynn81"
 ---
+
 # Dave Flynn
 
 ## Background

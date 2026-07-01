@@ -7,6 +7,7 @@ podcast_episodes: []
 github: "stefan-jansen"
 linkedin: "applied-ai"
 ---
+
 # Stefan Jansen
 
 ## Background

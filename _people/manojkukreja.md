@@ -7,6 +7,7 @@ podcast_episodes: []
 github: "mkukreja1"
 linkedin: "manoj-kukreja-cloud-data-architect-and-data-scientist-8225604"
 ---
+
 # Manoj Kukreja
 
 ## Background

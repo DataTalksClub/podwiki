@@ -7,6 +7,7 @@ podcast_episodes: []
 twitter: "jlyaros"
 linkedin: "jessie-yaros"
 ---
+
 # Jessie Yaros
 
 ## Background

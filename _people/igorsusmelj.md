@@ -9,6 +9,7 @@ twitter: "ISusmelj"
 linkedin: "igorsusmelj"
 web: "https://data-annotation.com/"
 ---
+
 # Igor Susmelj
 
 ## Background

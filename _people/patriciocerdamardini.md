@@ -7,6 +7,7 @@ podcast_episodes: []
 twitter: "paxcema"
 linkedin: "paxcema"
 ---
+
 # Patricio Cerda Mardini
 
 ## Background

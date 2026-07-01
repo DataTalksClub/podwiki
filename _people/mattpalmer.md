@@ -7,6 +7,7 @@ podcast_episodes: []
 twitter: "mattppal"
 linkedin: "matt-palmer"
 ---
+
 # Matt Palmer
 
 ## Background

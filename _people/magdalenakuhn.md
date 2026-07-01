@@ -6,6 +6,7 @@ source_url: "https://datatalks.club/people/magdalenakuhn.html"
 podcast_episodes: []
 linkedin: "magdalenadeschner"
 ---
+
 # Magdalena Kuhn
 
 ## Background

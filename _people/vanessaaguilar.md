@@ -8,6 +8,7 @@ github: "Vinesse"
 twitter: "veernacular"
 linkedin: "vanessa-aguilar-b749ab182"
 ---
+
 # Vanessa Aguilar
 
 ## Background

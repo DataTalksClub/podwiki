@@ -6,6 +6,7 @@ source_url: "https://datatalks.club/people/ruimachado.html"
 podcast_episodes: []
 linkedin: "rpmachado"
 ---
+
 # Rui Machado
 
 ## Background

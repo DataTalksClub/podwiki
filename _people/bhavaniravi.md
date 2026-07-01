@@ -6,6 +6,7 @@ source_url: "https://datatalks.club/people/bhavaniravi.html"
 podcast_episodes: []
 linkedin: "bhavanicodes"
 ---
+
 # Bhavani Ravi
 
 ## Background

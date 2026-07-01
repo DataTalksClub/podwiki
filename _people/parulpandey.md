@@ -9,6 +9,7 @@ twitter: "pandeyparul"
 linkedin: "parulpandeyindia"
 web: "https://parulpandey.com/"
 ---
+
 # Parul Pandey
 
 ## Background

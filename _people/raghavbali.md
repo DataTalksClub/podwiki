@@ -8,6 +8,7 @@ github: "raghavbali"
 twitter: "rghv_bali"
 linkedin: "baliraghav"
 ---
+
 # Raghav Bali
 
 ## Background

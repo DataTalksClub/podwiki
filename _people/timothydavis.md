@@ -7,6 +7,7 @@ podcast_episodes: []
 twitter: "vtimd"
 linkedin: "vtimd"
 ---
+
 # Timothy Davis
 
 ## Background

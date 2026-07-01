@@ -9,6 +9,7 @@ twitter: "aaudevart"
 linkedin: "alexia-audevart"
 web: "https://www.datactik.com/"
 ---
+
 # Alexia Audevart
 
 ## Background

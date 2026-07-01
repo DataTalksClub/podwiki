@@ -8,6 +8,7 @@ github: "iamtodor"
 linkedin: "iamtodor"
 web: "https://iamtodor.medium.com/"
 ---
+
 # Illia Todor
 
 ## Background

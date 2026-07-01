@@ -8,6 +8,7 @@ github: "adytiaa/physAI_CFDsim"
 linkedin: "a-seshaditya-7180822a5"
 web: "https://quasi.digital/"
 ---
+
 # Aditya Seshaditya
 
 ## Background

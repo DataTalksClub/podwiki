@@ -8,6 +8,7 @@ github: "denisekgosnell"
 twitter: "denisekgosnell"
 linkedin: "denisekgosnell"
 ---
+
 # Denise Gosnell
 
 ## Background

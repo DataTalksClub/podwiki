@@ -7,6 +7,7 @@ podcast_episodes: []
 github: "AndreSchumacher"
 linkedin: "andreschumacher"
 ---
+
 # Andre Schumacher
 
 ## Background

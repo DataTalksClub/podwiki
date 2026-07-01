@@ -6,6 +6,7 @@ source_url: "https://datatalks.club/people/jonaschristensen.html"
 podcast_episodes: []
 linkedin: "jonas-christensen-2235313"
 ---
+
 # Jonas Christensen
 
 ## Background

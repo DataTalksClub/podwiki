@@ -7,6 +7,7 @@ podcast_episodes: []
 twitter: "ramiroaznar"
 linkedin: "ramiroaznar"
 ---
+
 # Ramiro Aznar
 
 ## Background

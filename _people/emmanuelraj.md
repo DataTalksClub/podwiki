@@ -7,6 +7,7 @@ podcast_episodes: []
 github: "emmanuelraj7"
 linkedin: "emmanuelraj7"
 ---
+
 # Emmanuel Raj
 
 ## Background

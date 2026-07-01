@@ -7,6 +7,7 @@ podcast_episodes: []
 github: "naominguyen7"
 linkedin: "naomi7777"
 ---
+
 # Naomi Nguyen
 
 ## Background

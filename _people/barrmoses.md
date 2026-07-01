@@ -8,6 +8,7 @@ expertise: ["data observability", "MLOps", "data quality", "data reliability"]
 podcast_episodes: ["data-quality-data-observability-data-reliability"]
 source_url: "https://datatalks.club/people/barrmoses.html"
 ---
+
 ## Podcast Context
 
 Barr Moses gives the archive its core early definition of data observability.

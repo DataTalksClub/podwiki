@@ -6,6 +6,7 @@ source_url: "https://datatalks.club/people/nikitabakanchev.html"
 podcast_episodes: []
 linkedin: "bakanchevn"
 ---
+
 # Nik Bakanchev
 
 ## Background

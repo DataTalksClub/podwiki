@@ -9,6 +9,7 @@ twitter: "neal_lathia"
 linkedin: "nlathia"
 web: "https://nlathia.github.io/"
 ---
+
 # Neal Lathia
 
 ## Background

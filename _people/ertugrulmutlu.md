@@ -8,6 +8,7 @@ github: "Ertugrulmutlu"
 linkedin: "ertugrul-mutlu"
 web: "https://ertugrulmutlu.github.io"
 ---
+
 # Ertugrul Mutlu
 
 ## Background

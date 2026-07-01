@@ -6,6 +6,7 @@ source_url: "https://datatalks.club/people/armanjabbari.html"
 podcast_episodes: []
 linkedin: "armanjabbari"
 ---
+
 # Arman Jabbari
 
 ## Background

@@ -8,6 +8,7 @@ github: "thomasnield"
 twitter: "thomasnield76"
 linkedin: "thomasnield"
 ---
+
 # Thomas Nield
 
 ## Background

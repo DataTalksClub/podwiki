@@ -8,6 +8,7 @@ github: "tomekl007"
 twitter: "tomekl007"
 linkedin: "tomaszlelek"
 ---
+
 # Tomasz Lelek
 
 ## Background

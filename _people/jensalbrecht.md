@@ -7,6 +7,7 @@ podcast_episodes: []
 linkedin: "jens-albrecht"
 web: "https://www.amazon.com/Jens-Albrecht/e/B093JK81YB/"
 ---
+
 # Jens Albrecht
 
 ## Background

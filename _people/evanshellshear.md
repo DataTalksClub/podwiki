@@ -6,6 +6,7 @@ source_url: "https://datatalks.club/people/evanshellshear.html"
 podcast_episodes: []
 linkedin: "eshellshear"
 ---
+
 # Evan Shellshear
 
 ## Background

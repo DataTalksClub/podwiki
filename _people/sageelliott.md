@@ -9,6 +9,7 @@ twitter: "sagecodes"
 linkedin: "sageelliott"
 web: "https://sageelliott.com/"
 ---
+
 # Sage Elliott
 
 ## Background

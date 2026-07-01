@@ -9,6 +9,7 @@ twitter: "GantLaborde"
 linkedin: "gant-laborde"
 web: "https://gantlaborde.com/"
 ---
+
 # Gant Laborde
 
 ## Background

@@ -8,6 +8,7 @@ twitter: "ash0ts"
 linkedin: "anish-shah"
 web: "https://wandb.ai/a-sh0ts"
 ---
+
 # Anish Shah
 
 ## Background

@@ -7,6 +7,7 @@ podcast_episodes: []
 github: "kavaivaleri"
 linkedin: "valeriia-kuka"
 ---
+
 # Valeriia Kuka
 
 ## Background

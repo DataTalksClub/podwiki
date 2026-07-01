@@ -6,6 +6,7 @@ source_url: "https://datatalks.club/people/shacharmeir.html"
 podcast_episodes: []
 linkedin: "shacharmeir"
 ---
+
 # Shachar Meir
 
 ## Background

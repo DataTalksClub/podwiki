@@ -6,6 +6,7 @@ source_url: "https://datatalks.club/people/lerakaimashnikova.html"
 podcast_episodes: []
 linkedin: "leracaiman"
 ---
+
 # Lera Kaimashnіkova
 
 ## Background

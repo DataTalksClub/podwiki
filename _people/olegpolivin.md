@@ -8,6 +8,7 @@ github: "olegpolivin"
 linkedin: "polivin"
 web: "https://medium.com/@olegpolivin"
 ---
+
 # Oleg Polivin
 
 ## Background

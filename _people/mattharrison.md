@@ -9,6 +9,7 @@ twitter: "__mharrison__"
 linkedin: "panela"
 web: "https://hairysun.com/"
 ---
+
 # Matt Harrison
 
 ## Background

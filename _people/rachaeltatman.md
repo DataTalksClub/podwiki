@@ -9,6 +9,7 @@ twitter: "rctatman"
 linkedin: "rachael-tatman-500a323a"
 web: "http://www.rctatman.com/"
 ---
+
 # Rachael Tatman
 
 ## Background

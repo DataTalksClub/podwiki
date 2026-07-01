@@ -8,6 +8,7 @@ twitter: "andrewrjones"
 linkedin: "andrewrhysjones"
 web: "https://andrew-jones.com/"
 ---
+
 # Andrew Jones
 
 ## Background

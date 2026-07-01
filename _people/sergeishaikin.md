@@ -6,6 +6,7 @@ source_url: "https://datatalks.club/people/sergeishaikin.html"
 podcast_episodes: []
 linkedin: "sergey-shaykin-88078026"
 ---
+
 # Sergei Shaikin
 
 ## Background

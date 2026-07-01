@@ -7,6 +7,7 @@ podcast_episodes: []
 linkedin: "enginyoyen"
 web: "https://enginyoyen.com/about/"
 ---
+
 # Engin Yöyen
 
 ## Background

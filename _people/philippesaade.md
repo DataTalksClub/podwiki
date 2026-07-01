@@ -6,6 +6,7 @@ source_url: "https://datatalks.club/people/philippesaade.html"
 podcast_episodes: []
 linkedin: "philippesaade1998"
 ---
+
 # Philippe Saadé
 
 ## Background

@@ -34,7 +34,7 @@ orchestration, and deployment infrastructure.
 
 For a broader sequence of what to learn and when, use the
 [MLOps Roadmap]({{ '/wiki/mlops-roadmap/' | relative_url }}). Use this page
-for the tool categories behind the keyword "mlops tools."
+for the tool categories behind practical MLOps stacks.
 
 ## Tool Coverage
 
@@ -232,7 +232,10 @@ sequence. Use [Experiment Tracking]({{ '/wiki/experiment-tracking/' | relative_u
 and [Model Registry]({{ '/wiki/model-registry/' | relative_url }}) for the
 training-to-handoff layer. Use [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }})
 for production behavior and [ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }})
-for the internal product view.
+for the internal product view. Use
+[MLOps Frameworks]({{ '/guides/mlops-frameworks/' | relative_url }}) when the
+question is how to choose conventions, managed services, open-source stacks, or
+platform templates by failure mode.
 
 The strongest podcast path for this keyword:
 

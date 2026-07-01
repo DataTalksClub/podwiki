@@ -8,6 +8,7 @@ github: "jskeet"
 twitter: "jonskeet"
 web: "https://jonskeet.uk/"
 ---
+
 # Jon Skeet
 
 ## Background

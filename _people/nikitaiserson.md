@@ -6,6 +6,7 @@ source_url: "https://datatalks.club/people/nikitaiserson.html"
 podcast_episodes: []
 linkedin: "nikita-iserson"
 ---
+
 # Nikita Iserson
 
 ## Background

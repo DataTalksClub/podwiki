@@ -67,7 +67,7 @@ the 14:02 section covers weekly meetups and content reuse. The 27:25 section
 covers core contributors and advisory groups. Around 50:51 and 1:00:17, the
 episode moves to member connections and the difference between core volunteers
 and broader contributors. This version of community is close to an educational
-and operational system for [MLOps]({{ '/wiki/mlops-tools/' | relative_url }})
+and operational system for [MLOps]({{ '/wiki/mlops/' | relative_url }})
 practitioners.
 
 The AI Guild episode frames community through inclusion, visibility, and

@@ -6,6 +6,7 @@ source_url: "https://datatalks.club/people/tomekjaminski.html"
 podcast_episodes: []
 linkedin: "tomekjaminski"
 ---
+
 # Tomek Jamiński
 
 ## Background
