@@ -136,7 +136,9 @@ Existing pages:
   build page. Keep `_wiki/end-to-end-data-pipeline-project.md` as the canonical
   portfolio-ready pipeline blueprint.
 - `_roadmaps/data-engineer-roadmap.md` owns the main data engineer roadmap.
-- `_guides/software-engineer-to-machine-learning.md`
+- `_wiki/software-engineer-to-machine-learning.md` owns the transition page.
+  `_guides/machine-learning-for-software-engineers.md` owns the software
+  engineer audience guide.
 - `_roadmaps/data-scientist-to-data-engineer.md`
 - `_roadmaps/data-analyst-to-data-engineer.md`
 - `_wiki/academic-researcher-to-data-science.md`
@@ -248,10 +250,12 @@ Existing pages:
 - `_comparisons/data-analyst-vs-analytics-engineer.md`
 - `_comparisons/data-product-manager-vs-product-manager.md`
 - `_comparisons/data-product-owner-vs-data-product-manager.md`
-- `_comparisons/dataops-vs-data-engineering.md`
+- DataOps vs data engineering still needs either a real comparison page or a
+  clear canonical wiki owner.
 - `_comparisons/delta-lake-vs-apache-iceberg.md`
 - `_comparisons/etl-vs-elt.md`
-- `_comparisons/knowledge-graph-vs-vector-search.md`
+- `_comparisons/knowledge-graph-vs-vector-search.md` redirects to the canonical
+  wiki page.
 - `_comparisons/machine-learning-engineer-vs-data-scientist.md`
 - `_comparisons/mlops-vs-dataops.md`
 - `_comparisons/mlops-vs-devops.md`

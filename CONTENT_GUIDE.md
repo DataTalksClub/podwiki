@@ -147,6 +147,11 @@ about the thing. For example, `A/B Testing` belongs in `_wiki/a-b-testing.md`,
 while a role or product guide should link to that page when it uses experiments
 as evidence.
 
+If an editorial page duplicates a canonical wiki page, keep the canonical topic
+in `_wiki/` and turn the duplicate into a redirect with `layout: redirect` and
+`redirect_to:`. Redirect pages should not appear in search, graph, audits, or
+collection indexes.
+
 Do not create editorial pages until the target keyword list is provided.
 
 Required structure once keywords exist:

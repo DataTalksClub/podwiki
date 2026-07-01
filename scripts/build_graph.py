@@ -128,6 +128,8 @@ def read_pages() -> list[dict[str, object]]:
                 continue
             raw = path.read_text(encoding="utf-8")
             meta, body = split_frontmatter(raw)
+            if meta.get("redirect_to") or str(meta.get("published", "")).lower() == "false":
+                continue
             title = str(meta.get("title") or path.stem.replace("-", " ").title())
             summary = str(meta.get("summary") or "")
             pages.append(

@@ -31,10 +31,31 @@ def visible_body(text: str) -> str:
     return body
 
 
+def frontmatter(text: str) -> dict[str, str]:
+    if not text.startswith("---\n"):
+        return {}
+    raw, separator, _ = text[4:].partition("\n---\n")
+    if not separator:
+        return {}
+    meta: dict[str, str] = {}
+    for line in raw.splitlines():
+        if ":" not in line or line.startswith(" "):
+            continue
+        key, value = line.split(":", 1)
+        meta[key.strip()] = value.strip().strip('"').strip("'")
+    return meta
+
+
 def page_paths(folders: list[str]) -> list[Path]:
     paths: list[Path] = []
     for folder in folders:
-        paths.extend(path for path in (ROOT / folder).glob("*.md") if path.name != "README.md")
+        for path in (ROOT / folder).glob("*.md"):
+            if path.name == "README.md":
+                continue
+            meta = frontmatter(path.read_text(encoding="utf-8"))
+            if meta.get("redirect_to") or meta.get("published", "").lower() == "false":
+                continue
+            paths.append(path)
     return sorted(paths)
 
 

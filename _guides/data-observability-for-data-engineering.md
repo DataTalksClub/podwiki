@@ -113,11 +113,11 @@ Data observability should sit where data meaning can change:
 
 It shouldn't wait until a BI dashboard or model output looks wrong.
 
-Kwong's modern stack episode shows those boundaries. At 3:19 she places
-connectors in the extraction and loading layer. At 10:00 she discusses
-warehouse transformations. At 30:59 she places orchestration around scheduled
-pipeline runs. At 35:42 she covers operational reverse data flows from the
-warehouse back to business tools.
+[Natalie Kwong's modern stack episode]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})
+shows those boundaries. At 3:19 she places connectors in the extraction and
+loading layer. At 10:00 she discusses warehouse transformations. At 30:59 she
+places orchestration around scheduled pipeline runs. At 35:42 she covers
+operational reverse data flows from the warehouse back to business tools.
 
 Each boundary can produce a different observability check:
 
@@ -127,13 +127,17 @@ Each boundary can produce a different observability check:
 - segment correctness in reverse ETL
 - fresh inputs for ML or product workflows
 
-Brudaru's 2025 data engineering episode adds current platform context. At
-11:03 he names governance, data quality, and streaming as specialized parts of
-the field. At 35:37 he compares orchestration choices. At 51:19 he discusses
-streaming and micro-batching.
+[Adrian Brudaru's 2025 data engineering episode]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }})
+adds current platform context. At 11:03 he names governance, data quality, and
+streaming as specialized parts of the field. At 35:37 he compares orchestration
+choices. At 51:19 he discusses streaming and micro-batching.
 
 He also names Kafka, SQS, and Flink. Those surfaces need different
 observability thresholds, but each one still has to protect consumer trust.
+Moses's SLA and false-positive discussions keep the threshold tied to consumer
+impact
+([Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }}),
+35:24 and 1:00:27).
 
 ## Ownership And Response
 
@@ -198,7 +202,12 @@ Analytics breaks when metrics change silently. A board report can use a stale
 table, an experiment readout can use incomplete events, and a product team can
 optimize the wrong funnel step. Observability helps data engineers catch the
 broken input before the conversation becomes a debate about whose number is
-right.
+right. That consumer-facing pressure is the same adoption problem Caitlin
+Moorman discusses in
+[Last-Mile Data Delivery]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }}).
+Moses grounds the same risk in silent failures and good-pipeline/bad-data
+cases at 13:40 and 21:57 in
+[Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }}).
 
 ML systems break differently because a model may look worse when features
 arrive late, a join drops rows, labels change, or a source category shifts.
@@ -207,20 +216,40 @@ That connects data observability to
 [model monitoring]({{ '/wiki/model-monitoring/' | relative_url }}), and
 [production]({{ '/wiki/production/' | relative_url }}). Monitoring model
 outputs without monitoring upstream data leaves many root causes hidden.
+Danny Leybzon makes the ML handoff explicit at 27:35 in
+[MLOps Architect Guide]({{ '/podcasts/mlops-model-monitoring-data-observability/' | relative_url }}),
+where diagnosis can move upstream into ETL and data pipelines.
 
-Operational data raises the stakes further because
-[reverse ETL]({{ '/wiki/reverse-etl/' | relative_url }}),
+Operational data raises the stakes further.
+[Reverse ETL]({{ '/wiki/reverse-etl/' | relative_url }}),
 [data activation]({{ '/wiki/data-activation/' | relative_url }}), and lead
-scores can push bad data into customer-facing or revenue-facing workflows.
-Fraud checks, recommendation inputs, and customer-health signals can do the
-same. In those cases data observability is part of product reliability, not
-just analytics hygiene.
+scores can push bad data into customer-facing workflows. Fraud checks,
+recommendation inputs, and customer-health signals can push the same bad inputs
+into revenue-facing decisions. Angela Ramirez's
+[fraud data engineering episode]({{ '/podcasts/building-and-scaling-data-engineering-systems-for-fraud-detection/' | relative_url }})
+shows why data quality matters when features feed operational decisions. In
+those cases data observability is part of product reliability, not just
+analytics hygiene.
+
+Kwong describes reverse-flow delivery at 35:42 in
+[ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}).
+Choudhury describes reverse ETL delivery at 37:25-44:24 in
+[How to Build a Data-Led Growth Stack]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }}).
 
 ## Implementation Path
 
-Start with critical data products instead of every table. Pick the paths where
-wrong or late data would change a business decision, customer experience, ML
-output, or operational workflow.
+Start with critical data products instead of every table. Pick paths where bad
+data would change a business decision or customer experience. Include ML outputs
+and operational workflows when they depend on the same sources.
+
+Barr Moses discusses ownership, SLAs, and runbooks in
+[Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }}).
+He also covers thresholds and alert fatigue.
+Tuli adds consumer-first pipeline design in
+[Modern Data Pipeline Architecture]({{ '/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/' | relative_url }})
+at 39:23-43:05. Bergh adds DataOps playbook guidance in
+[Mastering DataOps]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }})
+at 33:47-34:37.
 
 For a data engineering team, a practical first pass is:
 
@@ -247,19 +276,28 @@ breaks.
 
 Treating orchestration success as data success is the most common failure.
 Airflow or Dagster can report a successful run while a source table is late,
-partial, or structurally different.
+partial, or structurally different. Christopher Bergh's
+[DataOps episode]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }})
+keeps tests, CI/CD, and observability separate for this reason.
 
 Alerting without ownership is another failure. If no one owns the table or SLA,
 the alert becomes background noise. The same happens when the consumer group or
-recovery path is unnamed.
+recovery path is unnamed. Moses covers ownership at 29:00, SLAs at 35:24, and
+runbooks at 41:03 in
+[Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }}).
 
 Checking only the final dashboard is also weak. By then the team has to work
 backward through ingestion, transformation, and warehouse layers under pressure.
 Semantic, activation, and ML layers add more places where the cause can hide.
+Moses's 26:04 diagnosis discussion and 58:51 lineage discussion in
+[Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }})
+support working backward through upstream and downstream assets.
 
 The deeper mistake is ignoring downstream impact. A small anomaly in a critical
 pricing, experimentation, fraud, or customer communication path can matter more
-than a large anomaly in an unused table.
+than a large anomaly in an unused table. Barr's
+[lineage discussion]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }})
+is useful here because it connects incidents to affected consumers.
 
 For adjacent context, use
 [Data Observability]({{ '/wiki/data-observability/' | relative_url }}) and

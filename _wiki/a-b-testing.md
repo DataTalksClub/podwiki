@@ -138,7 +138,7 @@ messaging experiments.
 This topic links closely to
 [Data-Led Growth]({{ '/wiki/data-led-growth/' | relative_url }}),
 [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }}), and the
-[Product Analyst]({{ '/guides/product-analyst/' | relative_url }}) article.
+[Product Analyst]({{ '/guides/product-analyst/' | relative_url }}) guide.
 It also gives
 [data product management]({{ '/wiki/data-product-management/' | relative_url }})
 a measurement discipline for deciding whether a product, data workflow, or

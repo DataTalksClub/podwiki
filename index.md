@@ -63,10 +63,12 @@ and podcast-backed content.
 {% if comparisons.size > 0 %}
 <div class="list">
 {% for item in comparisons limit: 6 %}
+  {% unless item.redirect_to %}
   <a class="row" href="{{ item.url | relative_url }}">
     <strong>{{ item.title }}</strong>
     {% if item.summary %}<span>{{ item.summary }}</span>{% endif %}
   </a>
+  {% endunless %}
 {% endfor %}
 </div>
 {% else %}

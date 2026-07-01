@@ -2,16 +2,16 @@
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
     "wikis": 180,
-    "articles": 42,
+    "articles": 41,
     "guides": 19,
-    "comparisons": 13,
+    "comparisons": 12,
     "roadmaps": 9,
     "how_tos": 1,
     "podcasts": 202,
     "persons": 438,
     "topics": 145,
-    "nodes": 1007,
-    "links": 10352
+    "nodes": 1006,
+    "links": 10329
   },
   "nodes": [
     {
@@ -266,17 +266,6 @@
       "count": 1,
       "search": "How to Hire Data Engineers: Role Scope, Interview Signals, and Team Fit A podcast backed guide for managers and founders who need to hire data engineers: when to hire, which profile to hire first, how to write the role, and what to test in interviews.",
       "keyword": "hire data engineers"
-    },
-    {
-      "id": "article:comparison:knowledge-graph-vs-vector-search",
-      "type": "article",
-      "collection": "comparison",
-      "label": "Knowledge Graph vs Vector Search",
-      "title": "Knowledge Graph vs Vector Search",
-      "url": "/comparisons/knowledge-graph-vs-vector-search/",
-      "count": 1,
-      "search": "Knowledge Graph vs Vector Search A podcast grounded comparison of knowledge graphs and vector search for retrieval, RAG, semantic search, relationship heavy knowledge systems, and production evaluation.",
-      "keyword": "knowledge graph vs vector search"
     },
     {
       "id": "article:roadmap:llm-rag-production-roadmap",
@@ -10043,7 +10032,7 @@
       "source": "article:comparison:data-analyst-vs-analytics-engineer",
       "target": "podcast:analytics-engineer-skills-tools",
       "kind": "article-link",
-      "weight": 4
+      "weight": 14
     },
     {
       "source": "article:comparison:data-analyst-vs-analytics-engineer",
@@ -10061,13 +10050,13 @@
       "source": "article:comparison:data-analyst-vs-analytics-engineer",
       "target": "podcast:data-team-roles",
       "kind": "article-link",
-      "weight": 4
+      "weight": 8
     },
     {
       "source": "article:comparison:data-analyst-vs-analytics-engineer",
       "target": "podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch",
       "kind": "article-link",
-      "weight": 2
+      "weight": 8
     },
     {
       "source": "article:comparison:data-analyst-vs-analytics-engineer",
@@ -10079,7 +10068,7 @@
       "source": "article:comparison:data-analyst-vs-analytics-engineer",
       "target": "podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices",
       "kind": "article-link",
-      "weight": 2
+      "weight": 10
     },
     {
       "source": "article:comparison:data-analyst-vs-analytics-engineer",
@@ -11206,174 +11195,6 @@
     {
       "source": "article:comparison:etl-vs-elt",
       "target": "wiki:reverse-etl",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:comparison:knowledge-graph-vs-vector-search",
-      "target": "person:anahitapakiman",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:comparison:knowledge-graph-vs-vector-search",
-      "target": "person:atitaarora",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:comparison:knowledge-graph-vs-vector-search",
-      "target": "person:ranjithakulkarni",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:comparison:knowledge-graph-vs-vector-search",
-      "target": "person:reemmahmoud",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:comparison:knowledge-graph-vs-vector-search",
-      "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:comparison:knowledge-graph-vs-vector-search",
-      "target": "podcast:knowledge-graphs-and-llms-for-automotive-rnd",
-      "kind": "article-link",
-      "weight": 14
-    },
-    {
-      "source": "article:comparison:knowledge-graph-vs-vector-search",
-      "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
-      "kind": "article-link",
-      "weight": 14
-    },
-    {
-      "source": "article:comparison:knowledge-graph-vs-vector-search",
-      "target": "podcast:production-ml-search-vector-search-embeddings-hybrid-search",
-      "kind": "article-link",
-      "weight": 14
-    },
-    {
-      "source": "article:comparison:knowledge-graph-vs-vector-search",
-      "target": "wiki:agent-engineering",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:comparison:knowledge-graph-vs-vector-search",
-      "target": "wiki:embeddings",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:comparison:knowledge-graph-vs-vector-search",
-      "target": "wiki:embeddings",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:comparison:knowledge-graph-vs-vector-search",
-      "target": "wiki:graph-rag-vs-vector-rag",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:comparison:knowledge-graph-vs-vector-search",
-      "target": "wiki:graph-rag-vs-vector-rag",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:comparison:knowledge-graph-vs-vector-search",
-      "target": "wiki:knowledge-graph-vs-vector-search",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:comparison:knowledge-graph-vs-vector-search",
-      "target": "wiki:knowledge-graph-vs-vector-search",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:comparison:knowledge-graph-vs-vector-search",
-      "target": "wiki:llm-evaluation-workflows",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:comparison:knowledge-graph-vs-vector-search",
-      "target": "wiki:llm-evaluation-workflows",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:comparison:knowledge-graph-vs-vector-search",
-      "target": "wiki:production-search-evaluation",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:comparison:knowledge-graph-vs-vector-search",
-      "target": "wiki:production-search-evaluation",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:comparison:knowledge-graph-vs-vector-search",
-      "target": "wiki:retrieval-augmented-generation",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:comparison:knowledge-graph-vs-vector-search",
-      "target": "wiki:retrieval-augmented-generation",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:comparison:knowledge-graph-vs-vector-search",
-      "target": "wiki:search",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:comparison:knowledge-graph-vs-vector-search",
-      "target": "wiki:search",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:comparison:knowledge-graph-vs-vector-search",
-      "target": "wiki:search-rag-and-knowledge-systems",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:comparison:knowledge-graph-vs-vector-search",
-      "target": "wiki:search-rag-and-knowledge-systems",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:comparison:knowledge-graph-vs-vector-search",
-      "target": "wiki:vector-database-vs-search-engine",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:comparison:knowledge-graph-vs-vector-search",
-      "target": "wiki:vector-databases",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:comparison:knowledge-graph-vs-vector-search",
-      "target": "wiki:vector-databases",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -13083,7 +12904,19 @@
     },
     {
       "source": "article:guide:data-observability-for-data-engineering",
+      "target": "podcast:building-and-scaling-data-engineering-systems-for-fraud-detection",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:guide:data-observability-for-data-engineering",
       "target": "podcast:data-engineering-tools-modern-data-stack",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:guide:data-observability-for-data-engineering",
+      "target": "podcast:data-led-growth-event-tracking-and-reverse-etl",
       "kind": "article-link",
       "weight": 2
     },
@@ -13091,19 +12924,37 @@
       "source": "article:guide:data-observability-for-data-engineering",
       "target": "podcast:data-quality-data-observability-data-reliability",
       "kind": "article-link",
-      "weight": 8
+      "weight": 20
     },
     {
       "source": "article:guide:data-observability-for-data-engineering",
       "target": "podcast:dataops-automation-and-reliable-data-pipelines",
       "kind": "article-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "article:guide:data-observability-for-data-engineering",
       "target": "podcast:dataops-for-data-engineering",
       "kind": "article-link",
-      "weight": 4
+      "weight": 6
+    },
+    {
+      "source": "article:guide:data-observability-for-data-engineering",
+      "target": "podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:guide:data-observability-for-data-engineering",
+      "target": "podcast:mlops-model-monitoring-data-observability",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:guide:data-observability-for-data-engineering",
+      "target": "podcast:modern-data-pipelines-orchestration-ingestion-modeling",
+      "kind": "article-link",
+      "weight": 2
     },
     {
       "source": "article:guide:data-observability-for-data-engineering",
@@ -13115,7 +12966,7 @@
       "source": "article:guide:data-observability-for-data-engineering",
       "target": "podcast:trends-in-modern-data-engineering",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:guide:data-observability-for-data-engineering",
@@ -15311,13 +15162,13 @@
       "source": "article:guide:machine-learning-for-software-engineers",
       "target": "podcast:building-scalable-and-reliable-machine-learning-systems",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:guide:machine-learning-for-software-engineers",
       "target": "podcast:from-software-engineer-to-machine-learning",
       "kind": "article-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "article:guide:machine-learning-for-software-engineers",
@@ -15329,31 +15180,31 @@
       "source": "article:guide:machine-learning-for-software-engineers",
       "target": "podcast:machine-learning-data-science-interview-prep",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:guide:machine-learning-for-software-engineers",
       "target": "podcast:machine-learning-engineering-production-best-practices",
       "kind": "article-link",
-      "weight": 2
+      "weight": 10
     },
     {
       "source": "article:guide:machine-learning-for-software-engineers",
       "target": "podcast:machine-learning-system-design-interview",
       "kind": "article-link",
-      "weight": 4
+      "weight": 10
     },
     {
       "source": "article:guide:machine-learning-for-software-engineers",
       "target": "podcast:mlops-at-scale-reproducibility-adoption",
       "kind": "article-link",
-      "weight": 2
+      "weight": 10
     },
     {
       "source": "article:guide:machine-learning-for-software-engineers",
       "target": "podcast:research-to-production-ml-systems-roadmap",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:guide:machine-learning-for-software-engineers",
@@ -16673,7 +16524,7 @@
       "source": "article:guide:solopreneur-data-scientist",
       "target": "person:mariannadiachuk",
       "kind": "article-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "article:guide:solopreneur-data-scientist",
@@ -16691,25 +16542,25 @@
       "source": "article:guide:solopreneur-data-scientist",
       "target": "podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition",
       "kind": "article-link",
-      "weight": 8
+      "weight": 14
     },
     {
       "source": "article:guide:solopreneur-data-scientist",
       "target": "podcast:personal-brand-for-data-professionals",
       "kind": "article-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "article:guide:solopreneur-data-scientist",
       "target": "podcast:solopreneur-data-scientist",
       "kind": "article-link",
-      "weight": 4
+      "weight": 12
     },
     {
       "source": "article:guide:solopreneur-data-scientist",
       "target": "podcast:solopreneur-developer-and-data-professional",
       "kind": "article-link",
-      "weight": 8
+      "weight": 14
     },
     {
       "source": "article:guide:solopreneur-data-scientist",

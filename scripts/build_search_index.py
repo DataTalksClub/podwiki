@@ -105,6 +105,8 @@ def build_docs() -> list[dict]:
                 continue
             raw = path.read_text(encoding="utf-8")
             meta, body = split_frontmatter(raw)
+            if meta.get("redirect_to") or meta.get("published", "").lower() == "false":
+                continue
             title = meta.get("title") or path.stem.replace("-", " ").title()
             summary = meta.get("summary", "")
             url = f"{prefix}{path.stem}/"

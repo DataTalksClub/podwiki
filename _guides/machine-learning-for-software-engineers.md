@@ -293,11 +293,17 @@ Software engineers can overcorrect in two directions. Some build too much
 infrastructure before they understand the data and metric. Others stay in a
 notebook and never show production judgment.
 
-The archive points to a middle path. Ben Wilson's production episode favors
-simple, maintainable baselines before deep learning. Valerii's system-design
-episode ties metrics, fallbacks, and distribution shift to the design. Raphaël's
-MLOps episode shows why lifecycle evidence matters after a model leaves a
-notebook.
+The episodes point to a middle path. Ben Wilson's
+[production episode]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }})
+favors simple, maintainable baselines before deep learning. Valerii's
+[system-design episode]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }})
+ties metrics, fallbacks, and distribution shift to the design. Raphaël's
+[MLOps episode]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }})
+shows why lifecycle evidence matters after a model leaves a notebook.
+
+Those three episodes also explain the main traps. Ben anchors simplicity and
+cost-benefit tradeoffs, while Valerii anchors metrics and fallbacks. Raphaël
+anchors reproducible operations.
 
 - Don't use deep learning when a baseline, SQL query, rule, or tree model
   solves the decision well enough.
@@ -355,9 +361,23 @@ and what they would learn next.
 
 ## Six-Month Roadmap
 
-Use this plan if you already write production software. It synthesizes the
-project and interview evidence above rather than adding a new uncited
-curriculum.
+Use this plan if you already write production software. It synthesizes
+Santiago's
+[project-first transition path]({{ '/podcasts/from-software-engineer-to-machine-learning/' | relative_url }}),
+Ben's
+[maintainability advice]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }}),
+Valerii's
+[ML system-design interview guidance]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }}),
+and Raphaël's
+[MLOps lifecycle practices]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}).
+
+Months 1-2 follow Santiago and Valerii on projects, data, metrics, and leakage.
+Month 3 follows
+[Research to Production ML Systems]({{ '/podcasts/research-to-production-ml-systems-roadmap/' | relative_url }}).
+Month 4 follows
+[Building Scalable and Reliable Machine Learning Systems]({{ '/podcasts/building-scalable-and-reliable-machine-learning-systems/' | relative_url }}).
+Month 5 follows Raphaël's MLOps episode, and month 6 follows
+[Master Machine Learning and Data Science Interviews]({{ '/podcasts/machine-learning-data-science-interview-prep/' | relative_url }}).
 
 1. Month 1: learn the Python data stack while you build one baseline project.
    Include validation splits and baselines, then add metrics, leakage checks,
@@ -381,8 +401,11 @@ curriculum.
    [Job Search]({{ '/wiki/job-search/' | relative_url }}) to connect each
    project to the work a hiring team actually needs.
 
-If you move faster, don't add more tools by default. Improve the project
-writeups, error analysis, and interview explanations first.
+If you move faster, don't add more tools by default.
+[Ben's production ML episode]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }})
+and
+[Raphaël's MLOps episode]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }})
+both favor solving concrete pain points before adding platform complexity.
 
 ## Failure Modes
 
@@ -401,9 +424,15 @@ These traps weaken the transition story:
 The better path is narrower. Choose a role, build projects that fit that role,
 and make your tradeoffs visible.
 
-The warning comes from the same archive evidence. Santiago starts from
-projects, Ben starts from maintainability and cost-benefit tradeoffs, Valerii
-starts from system design, and Raphaël starts from reproducible operations.
+The warning comes from the same archive evidence.
+[Santiago]({{ '/podcasts/from-software-engineer-to-machine-learning/' | relative_url }})
+starts from projects, and
+[Ben]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }})
+starts from maintainability and cost-benefit tradeoffs.
+[Valerii]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }})
+starts from system design, while
+[Raphaël]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }})
+starts from reproducible operations.
 
 ## Related Pages
 
