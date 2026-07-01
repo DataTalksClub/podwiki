@@ -12,6 +12,8 @@
       {% assign canonical_url = page.source_url %}
     {% elsif page.source_url and page.collection == "people" %}
       {% assign canonical_url = page.source_url %}
+    {% elsif page.source_url and page.collection == "books" %}
+      {% assign canonical_url = page.source_url %}
     {% endif %}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -48,6 +50,7 @@
           <a href="{{ '/roadmaps/' | relative_url }}">Roadmaps</a>
           <a href="{{ '/how-tos/' | relative_url }}">How-Tos</a>
           <a href="{{ '/podcasts/' | relative_url }}">Podcasts</a>
+          <a href="{{ '/books-page/' | relative_url }}">Books</a>
           <a href="{{ '/people/' | relative_url }}">People</a>
           <a href="{{ '/search.html' | relative_url }}">Search</a>
         </nav>

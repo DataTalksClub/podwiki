@@ -21,6 +21,7 @@ and podcast-backed content.
   <a class="button secondary" href="{{ '/roadmaps/' | relative_url }}">Browse roadmaps</a>
   <a class="button secondary" href="{{ '/how-tos/' | relative_url }}">Browse how-tos</a>
   <a class="button secondary" href="{{ '/podcasts/' | relative_url }}">Browse summaries</a>
+  <a class="button secondary" href="{{ '/books-page/' | relative_url }}">Browse books</a>
   <a class="button secondary" href="{{ '/people/' | relative_url }}">Browse people</a>
   <a class="button secondary" href="{{ '/search.html' | relative_url }}">Search content</a>
 </div>
