@@ -12,7 +12,7 @@ related:
 ---
 
 DevOps to data engineering is a move from operating software platforms to
-building and operating data platforms. The archive's clearest transition story
+building and operating data platforms. The clearest podcast transition story
 comes from [Agita Jaunzeme]({{ '/people/agitajaunzeme/' | relative_url }}).
 She connects configuration management and early DevOps automation to community
 work. She also links that route to open-source DataOps work on Versatile Data Kit
@@ -62,9 +62,10 @@ tooling, and processing systems.
 Product data engineers work closer to business use cases. They also handle
 SQL-heavy data work and data products
 ([11:54-21:50]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }})).
-For DevOps and SRE backgrounds, the archive points first toward the platform
-data engineering lane. The same applies to cloud and platform engineers. The fit
-is strongest when the candidate can show data-system proof, not only
+For DevOps and SRE backgrounds, the cited episodes point first toward the
+platform data engineering lane. The same applies to cloud and platform
+engineers. The fit is strongest when the candidate can show data-system proof,
+not only
 infrastructure ownership.
 
 ## Guest Differences
@@ -239,10 +240,10 @@ definitions and warehouse-side transformations
 [Kwong at 12:39-18:47]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
 [Data Analyst vs Analytics Engineer]({{ '/comparisons/data-analyst-vs-analytics-engineer/' | relative_url }})).
 
-The archive's practical advice is to narrow the target before building proof.
-For platform data engineering, build a small data platform and make operability
-visible. For product data engineering or analytics engineering, add SQL
-modeling, metric definitions, and consumer-facing data products
+The practical advice in these episodes is to narrow the target before building
+proof. For platform data engineering, build a small data platform and make
+operability visible. For product data engineering or analytics engineering, add
+SQL modeling, metric definitions, and consumer-facing data products
 ([Tulski at 42:08-1:04:42]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }})).
 
 ## Related Pages

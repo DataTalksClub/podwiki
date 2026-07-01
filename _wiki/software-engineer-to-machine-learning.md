@@ -15,8 +15,8 @@ related:
 Software engineer to machine learning is the transition from building
 deterministic software systems to building systems whose behavior also depends
 on data and models. It also depends on evaluation and feedback. In the
-DataTalks.Club archive, this usually adds ML to an existing engineering base.
-The engineer keeps
+DataTalks.Club podcast discussions, this usually adds ML to an existing
+engineering base. The engineer keeps
 [software engineering]({{ '/wiki/software-engineering/' | relative_url }})
 habits and adds [machine learning]({{ '/wiki/machine-learning/' | relative_url }})
 practice around data, modeling, deployment, and monitoring.
@@ -42,7 +42,7 @@ It also connects to [MLOps]({{ '/wiki/mlops/' | relative_url }}).
 
 ## Common Definition
 
-Across the archive, the common definition is "software engineering plus ML
+Across these episodes, the common definition is "software engineering plus ML
 lifecycle ownership." The engineer's prior strengths still matter. Code and
 debugging transfer into experiments. APIs and services transfer into inference
 paths. Tests remain useful.
@@ -55,10 +55,10 @@ pipelines, modeling, deployment and monitoring. APIs, Docker, and
 cloud providers matter after that
 ([33:10 plus 46:39 plus 49:23]({{ '/podcasts/from-software-engineer-to-machine-learning/' | relative_url }})).
 
-The archive also converges on project-first learning. Santiago argues against
-waiting until every mathematical detail is mastered before building. He tells
-engineers to start projects and share them. He also recommends learning theory
-when the project demands it
+The transition discussions also converge on project-first learning. Santiago
+argues against waiting until every mathematical detail is mastered before
+building. He tells engineers to start projects and share them. He also
+recommends learning theory when the project demands it
 ([17:25-29:05 and 55:10-56:37]({{ '/podcasts/from-software-engineer-to-machine-learning/' | relative_url }})).
 
 Progress for a software engineer means a working model-backed artifact. It

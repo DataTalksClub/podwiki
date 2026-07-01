@@ -11,12 +11,12 @@ related:
   - Reverse ETL
 ---
 
-ETL stands for extract-transform-load in the DataTalks.Club archive. Teams use
-ETL when they pull data from source systems and apply business logic or
+DataTalks.Club guests use ETL to mean extract-transform-load. Teams use ETL
+when they pull data from source systems and apply business logic or
 operational preparation before the destination receives it. They then load the
 curated result into a warehouse or mart.
 [Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) gives the clearest
-archive definition in
+podcast definition in
 [ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}):
 at 3:46-4:30, she breaks ETL into source-specific extraction. She then adds
 organization-specific business logic and destination-specific loading routines.
@@ -29,7 +29,7 @@ comparison. Use the shorter
 when the choice is the question. ETL
 also sits close to [data pipelines]({{ '/wiki/data-pipelines/' | relative_url }})
 and [data engineering platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}).
-The archive connects ETL to [DataOps]({{ '/wiki/dataops/' | relative_url }})
+Guests in these episodes connect ETL to [DataOps]({{ '/wiki/dataops/' | relative_url }})
 and [data quality and observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 because teams have to operate ETL jobs, not only define the acronym.
 
@@ -98,7 +98,7 @@ decision still asks what data a target can receive and expose.
 
 ## Operating ETL Reliably
 
-Albertsson gives the archive's strongest ETL warning: reproducibility.
+Albertsson gives the strongest ETL warning in these episodes: reproducibility.
 [Lars Albertsson]({{ '/people/larsalbertsson/' | relative_url }}) argues for
 immutable inputs and functional transformations in
 [DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}).
@@ -166,7 +166,7 @@ the receiving system consumes the data.
 
 ## Relationship to ELT
 
-The podcast archive doesn't present ETL as obsolete. Guests still explain why
+Guests in these episodes don't present ETL as obsolete. They still explain why
 many analytics stacks moved toward ELT. Kwong argues that transform-before-load
 can be inflexible when business questions change. Teams may need to re-extract
 source data if a new field or model becomes important

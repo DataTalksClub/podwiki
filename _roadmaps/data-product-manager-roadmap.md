@@ -19,9 +19,9 @@ related_wiki:
   - Data Mesh
 ---
 
-A data product manager roadmap starts with user problems, not tool lists. In
-the DataTalks.Club archive, the role owns discovery and roadmaps. It also owns
-adoption and success metrics. The capability may be a
+A data product manager roadmap starts with user problems, not tool lists.
+DataTalks.Club guests describe the role as owning discovery, roadmaps,
+adoption, and success metrics. The capability may be a
 [data product]({{ '/wiki/data-products/' | relative_url }}) or a metric layer.
 It may also be an internal ML platform, a recommender, a dashboard, or an AI
 feature.
@@ -54,9 +54,9 @@ and
 
 ## Common Definition
 
-The archive's common definition is that a data product manager makes data work
-useful for a user. That requires discovery, product judgment, technical
-literacy, and a feedback loop. The PM doesn't need to implement every pipeline,
+DataTalks.Club guests converge on this definition: a data product manager makes
+data work useful for a user. That requires discovery, product judgment,
+technical literacy, and a feedback loop. The PM doesn't need to implement every pipeline,
 model, or dashboard. They do need to explain who the product serves and what
 decision it improves. They also need to define the success metric and the
 constraints.
@@ -84,8 +84,8 @@ interview users and describe the current workflow. They should also write a
 problem statement and form a hypothesis before asking a team to build.
 
 A course, certification, or training program can help structure that study, but
-the archive favors portfolio and on-the-job proof over credential-only proof.
-Sara's 31:40-43:02 transition discussion treats courses and mentoring as useful
+Sara favors portfolio and on-the-job proof over credential-only proof. Her
+31:40-43:02 transition discussion treats courses and mentoring as useful
 support. Her 33:00-37:57 case-study section is more decisive for hiring
 readiness because it turns discovery, tradeoffs, and product judgment into
 portfolio evidence.

@@ -15,11 +15,11 @@ It decides which problems deserve data investment and who owns the work. It
 also decides which platform capabilities the team needs, which data requires
 governance, and how the result will change decisions or workflows.
 
-In the DataTalks.Club archive, data strategy isn't a static plan or a tool
-shopping list. Guests describe it through operating choices. Domain ownership,
-self-service platforms, and governance scope affect the strategy. Event
-tracking, DataOps, vendor selection, and adoption do too. The strategy is real
-only when it helps teams ship trusted
+In these DataTalks.Club discussions, data strategy isn't a static plan or a
+tool shopping list. Guests describe it through operating choices. Domain
+ownership, self-service platforms, and governance scope affect the strategy.
+Event tracking, DataOps, vendor selection, and adoption do too. The strategy is
+real only when it helps teams ship trusted
 [data products]({{ '/wiki/data-products/' | relative_url }}), dependable
 [data engineering platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}),
 and useful business workflows.
@@ -105,9 +105,9 @@ because they protect downstream teams while the company moves quickly.
 
 ## Business Alignment
 
-Business alignment means choosing data work from the problem backward. The
-archive repeatedly warns against starting from a reference architecture and
-then looking for a use case.
+Business alignment means choosing data work from the problem backward.
+DataTalks.Club guests repeatedly warn against starting from a reference
+architecture and then looking for a use case.
 
 Arpit's growth-stack episode makes this visible at the event level. Tracking
 plans at 13:34 force product and data teams to agree on the important events.
@@ -169,8 +169,8 @@ engineering practice instead of an org chart.
 ## Governance and Risk
 
 Governance is part of data strategy when data creates risk, trust problems, or
-coordination cost. The archive doesn't recommend maximal governance for every
-team.
+coordination cost. These podcast discussions don't recommend maximal governance
+for every team.
 
 Jessi and Uri's cloud governance episode is explicit about scope. At 19:40,
 they leave room for minimal governance when the organization doesn't need a
@@ -194,8 +194,8 @@ governance belongs before a model becomes a product dependency.
 
 ## Platform and Tool Choices
 
-Tool choices belong after strategy, not before it. The archive still gives
-clear guidance on which capabilities teams often need.
+Tool choices belong after strategy, not before it. The guests still give clear
+guidance on which capabilities teams often need.
 
 Arpit's episode maps the growth stack from collection through activation. At
 33:41, he discusses event collection tools. At 35:27, he covers warehouse-first

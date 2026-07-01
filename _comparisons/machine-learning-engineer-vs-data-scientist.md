@@ -70,10 +70,10 @@ and [MLOps]({{ '/wiki/mlops/' | relative_url }}). For team design, also use
 ## Data Scientist Fit
 
 Choose a data scientist when the team still has to decide which question to
-answer. In the
-[Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }}) page,
-the archive definition starts from the reasoning path. A data scientist moves
-from a business or product question to evidence that can change a decision.
+answer. Use
+[Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }})
+for the reasoning path. A data scientist moves from a business or product
+question to evidence that can change a decision.
 
 [Roksolana Diachuk]({{ '/people/roksolanadiachuk/' | relative_url }}) gives the
 modeling boundary in
@@ -160,14 +160,14 @@ how the model runs, changes, and fails.
 
 ## Skills and Interview Signals
 
-For data scientists, the archive rewards business framing and SQL. Modeling
-judgment and communication matter too. Oleg's interview episode tests business
-case studies, ML knowledge, SQL, and coding at 32:03 and 36:38. Roksolana's
+For data scientists, DataTalks.Club guests look for business framing and SQL.
+Modeling judgment and communication matter too. Oleg's interview episode tests
+business case studies, ML knowledge, SQL, and coding at 32:03 and 36:38. Roksolana's
 13:56 section adds cleaning, feature engineering, and model iteration. A
 candidate with those examples can show how they turn messy data into a decision.
 
-For machine learning engineers, the archive rewards software discipline and
-production judgment. Ben's 8:49 section makes modular, testable code a
+For machine learning engineers, DataTalks.Club guests look for software
+discipline and production judgment. Ben's 8:49 section makes modular, testable code a
 requirement. Arseny's 29:01 section turns product requirements into metrics,
 non-goals, and assumptions. Simon's 8:11 and 13:25 sections add cloud
 infrastructure, Kubernetes, Terraform, and software engineering for ML

@@ -20,8 +20,8 @@ control, tests, and [CI/CD]({{ '/wiki/ci-cd/' | relative_url }}). It also adds
 [data quality and observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}),
 lineage, ownership, and access controls.
 
-The DataTalks.Club archive doesn't treat a DataOps platform as one vendor
-category. Guests describe it as the practical overlap between
+DataTalks.Club guests don't treat a DataOps platform as one vendor category.
+They describe it as the practical overlap between
 [DataOps]({{ '/wiki/dataops/' | relative_url }}) and
 [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}).
 The platform makes repeatable data work easier for many teams. DataOps
@@ -40,7 +40,7 @@ into an unreviewed one-off.
 
 ## Common Definition
 
-Across the archive, a DataOps platform gives teams a standard way to review
+Across these episodes, a DataOps platform gives teams a standard way to review
 and test data changes. It also helps them deploy, observe, and repair those
 changes. The platform may include a warehouse or lakehouse, plus an
 orchestrator and CI/CD. Test suites and catalogs often sit in the same layer.
@@ -241,7 +241,7 @@ quality checks, and lineage. Recovery accountability belongs in the same path.
 
 ## Tool Stack or Platform
 
-The archive doesn't require a dedicated DataOps vendor before a team can
+These DataOps discussions don't require a dedicated vendor before a team can
 practice DataOps. In
 [Mastering DataOps]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }}),
 Bergh mentions dbt tests, Great Expectations, and SQL tests around 48:25. He

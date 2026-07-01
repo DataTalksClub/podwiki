@@ -12,7 +12,7 @@ related:
 ---
 
 A model registry is the place where a team records which trained model can be
-used next. In the DataTalks.Club archive, it sits after
+used next. DataTalks.Club guests place it after
 [experiment tracking]({{ '/wiki/experiment-tracking/' | relative_url }}) and
 before [deployment]({{ '/wiki/production/' | relative_url }}). A team trains
 and evaluates a model, persists the chosen version, then gives batch jobs or
@@ -21,7 +21,7 @@ walks through that handoff in
 [Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }})
 around 29:41-31:51.
 
-The podcast archive treats the registry as part of
+Guests treat the registry as part of
 [MLOps]({{ '/wiki/mlops/' | relative_url }}), not as a full production system
 on its own. A registry helps only when teams can connect it to experiments,
 deployment paths, runtime dependencies, and monitoring or rollback context.
@@ -150,8 +150,8 @@ batch inference job writes predictions or other data outputs elsewhere.
 Maria's standardized-template example shows the handoff from the service side.
 Around 32:09 in
 [Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }}),
-Alexey describes an online-service template with CI/CD, tags, and a deployable
-`main.py`. The service can get the model from the registry and start serving.
+an online-service template includes CI/CD, tags, and a deployable `main.py`.
+The service can get the model from the registry and start serving.
 That connects model registries to
 [developer experience]({{ '/wiki/developer-experience/' | relative_url }}) and
 [platform engineering]({{ '/wiki/platform-engineering/' | relative_url }}):
@@ -180,8 +180,8 @@ and monitoring together in the core MLOps toolset in
 [MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}).
 Simon adds the logging side in
 [Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
-Around 55:29, Alexey describes unified request, prediction, and response logs so
-teams can run analytics and monitoring across use cases.
+Around 55:29, the discussion covers unified request, prediction, and response
+logs so teams can run analytics and monitoring across use cases.
 
 Rollback tests whether the registry record is useful. Maria's minimum-stack discussion
 in
@@ -209,7 +209,7 @@ connects model registries to
 [security]({{ '/wiki/security/' | relative_url }}), and
 [responsible AI and governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }}).
 
-Data retention is the sharpest registry warning in the archive. Around 45:50 in
+Data retention is the sharpest registry warning in Simon's platform episode. Around 45:50 in
 [Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}),
 Simon contrasts storing pointers or metadata with duplicating full training
 datasets for every model run. Copying large datasets into tool-managed storage
@@ -263,7 +263,7 @@ those fields into a broader release path.
 
 Teams should add a specialized registry when the convention breaks down.
 
-The archive shows these cases:
+A specialized registry makes sense in these cases:
 
 - multiple teams need the same handoff
 - serving code needs stable lookup

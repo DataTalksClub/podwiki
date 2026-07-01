@@ -11,19 +11,19 @@ related:
 ---
 
 Experimentation is the practice of testing a change before a team commits to a
-larger rollout. In the DataTalks.Club archive, teams use it for product
-features and pricing mechanics. They also use it for recommendation models, AI
+larger rollout. DataTalks.Club guests describe teams using it for product
+features and pricing mechanics. They also discuss recommendation models, AI
 interfaces, fraud models, and data product workflows.
 
 The topic is broader than
 [A/B testing]({{ '/wiki/a-b-testing/' | relative_url }}). A randomized
 experiment is the cleanest version, but guests also discuss A/A tests, shadow
 mode, and offline model experiments. Design sprints, proofs of concept,
-lightweight surveys, and button tests appear in the same archive thread. The
-shared goal is to learn before the team spends too much engineering, product,
-or organizational capital.
+lightweight surveys, and button tests appear in the same podcast discussions.
+The shared goal is to learn before the team spends too much engineering,
+product, or organizational capital.
 
-[Jakob Graff]({{ '/people/jakobgraff/' | relative_url }}) gives the archive's
+[Jakob Graff]({{ '/people/jakobgraff/' | relative_url }}) gives the
 clearest product analytics framing in
 [Product Analytics and A/B Testing at 11:48]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}):
 experiments help establish causality under noisy product conditions. At 18:06,
@@ -33,7 +33,7 @@ moved and which assumptions were wrong.
 
 ## Common Definition
 
-A common archive definition treats experimentation as a structured way to turn
+Across these episodes, guests treat experimentation as a structured way to turn
 an uncertain decision into evidence. That evidence can be statistical or
 behavioral. It can also be technical or organizational. In each case, it must
 connect to a decision the team can act on.
@@ -137,7 +137,7 @@ depending on whether the team measures immediate revenue or retention. Points
 usage, conversion, and long-term value can tell different stories too. A useful
 experiment needs one primary decision metric and supporting diagnostic metrics.
 
-The archive separates product metrics from model metrics. Rishabh's ML example
+Guests separate product metrics from model metrics. Rishabh's ML example
 uses offline model work before live validation, but the live decision still
 needs business context. Around 31:19, he connects model experiment analysis to
 uplift, segments, and root causes. This puts experimentation close to

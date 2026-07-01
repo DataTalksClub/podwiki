@@ -18,8 +18,8 @@ Machine learning tools include libraries, services, platforms, and community
 practices. They help people learn from data and train models. They also help
 teams evaluate results, share work, and run models after deployment.
 
-In the DataTalks.Club archive, the strongest discussions don't treat tools as a
-ranked shopping list. Guests usually start from the work. They ask whether
+DataTalks.Club guests don't treat tools as a ranked shopping list. They usually
+start from the work. They ask whether
 someone is learning fundamentals or building a model. They also ask whether the
 work requires preserved experiments, served features, production monitoring, or
 responsible-AI checks.
@@ -70,7 +70,7 @@ experiment safely.
 
 ## Python, Scikit-Learn, and Modeling Libraries
 
-For classic applied ML, the archive keeps returning to Python and
+For classic applied ML, guests keep returning to Python and
 scikit-learn-style interfaces because they make modeling work inspectable,
 teachable, and extensible. Vincent's scikit-learn discussion isn't a generic
 library endorsement.
@@ -235,8 +235,8 @@ tool becomes production-critical.
 
 ## AI Tooling Boundary
 
-Classic ML tools and newer AI tools overlap, but the archive keeps their
-boundaries visible. In
+Classic ML tools and newer AI tools overlap, but Paul and Ranjitha keep that
+boundary visible. In
 [Paul's AI engineering episode]({{ '/podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products/' | relative_url }}),
 [Paul Iusztin]({{ '/people/pauliusztin/' | relative_url }}) places RAG and
 knowledge management in the AI engineering stack. He also places durable

@@ -14,11 +14,11 @@ related:
   - Team Building
 ---
 
-A founder in the DataTalks.Club archive turns uncertainty into company work.
-Guests don't use founder as a generic biography label. They describe founders
-choosing a problem, validating it with users, shaping the product boundary,
-and finding distribution. They also describe hiring only when the business
-demands it and deciding how the company earns money.
+DataTalks.Club guests describe founders as people who turn uncertainty into
+company work. They don't use founder as a generic biography label. They
+describe founders choosing a problem, validating it with users, shaping the
+product boundary, and finding distribution. They also describe hiring only when
+the business demands it and deciding how the company earns money.
 
 For the startup cluster, use [Startup]({{ '/wiki/startup/' | relative_url }})
 for the end-to-end playbook and [Startups]({{ '/wiki/startups/' | relative_url }})
@@ -154,8 +154,8 @@ docs, and communities before enterprise buyers will care.
 
 ## Roles, Hiring, and Runway
 
-Founders in the archive start as generalists because the company has more jobs
-than people. Around 46:32-47:58, Samuylova describes her Evidently role moving
+In these episodes, founders start as generalists because the company has more
+jobs than people. Around 46:32-47:58, Samuylova describes her Evidently role moving
 from user conversations and feedback processing into content. She also handled
 investor conversations, company setup, and open-source evangelism. Evidently's
 open-source path put the founder into content and community. A direct
@@ -216,7 +216,7 @@ scalable company.
 
 ## Indie and Small-Business Paths
 
-Not every founder path in the archive points to a venture-backed company.
+Not every founder path in these episodes points to a venture-backed company.
 [Pauline Clavelloux]({{ '/people/paulineclavelloux/' | relative_url }}) covers
 the indie version. In
 [Indie Hacking and Bootstrapping Side Projects]({{ '/podcasts/data-scientist-and-indie-hacker-bootstrapping-side-projects/' | relative_url }}),

@@ -15,7 +15,7 @@ related:
 
 LLM production patterns are the design choices teams use when a
 [large language model]({{ '/wiki/llms/' | relative_url }}) becomes a product
-feature instead of a demo. In the DataTalks.Club archive, those choices include
+feature instead of a demo. DataTalks.Club guests discuss those choices through
 model serving and [retrieval-augmented generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}).
 They also include [RAG vs fine-tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }}),
 [agent engineering]({{ '/wiki/agent-engineering/' | relative_url }}),
@@ -40,7 +40,7 @@ He adds failure analysis, logs, traces, and tool use in the same episode.
 
 ## Common Definition
 
-Across the archive, guests define production LLM work as system design around
+Across these episodes, guests define production LLM work as system design around
 measurable product behavior. Hugo starts from a small LLM application, then
 adds generator-evaluator checks at 13:56 and representative gold tests at
 23:00. He covers failure analysis at 26:43, logs and traces at 27:38, and tool
@@ -129,8 +129,8 @@ benchmark scores.
 
 ## RAG, Fine-Tuning, and Context
 
-The archive draws a practical boundary between retrieval and fine-tuning.
-Meryem discusses fine-tuning for specialization, domain adaptation, tone, and
+Meryem separates retrieval from fine-tuning in practical terms.
+She discusses fine-tuning for specialization, domain adaptation, tone, and
 format at 26:30-31:38 in
 [Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}).
 At 40:46-46:42, she discusses retrieval for changing knowledge and indexes.

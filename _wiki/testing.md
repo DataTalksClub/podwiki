@@ -15,8 +15,8 @@ Testing in data, ML, and AI systems means checking whether a change preserves
 the behavior that downstream users depend on. The thing under test might be a
 table, a dbt model, a batch pipeline, or a trained model. It can also be a
 retrieval system, a prompt, or an agent that calls external tools. In the
-DataTalks.Club archive, guests use testing as a production practice, not just
-as unit tests around application code.
+DataTalks.Club podcast discussions, guests use testing as a production
+practice, not just as unit tests around application code.
 
 The topic connects [DataOps]({{ '/wiki/dataops/' | relative_url }}) and
 [CI/CD]({{ '/wiki/ci-cd/' | relative_url }}) with
@@ -34,7 +34,7 @@ It also means RAG evals, tool-call tests, and production feedback loops.
 
 ## Common Definition
 
-Across the archive, teams use tests for checks they can define before a known
+Across these episodes, teams use tests for checks they can define before a known
 failure reaches a user. A test may assert that a dbt column isn't null. Another
 test may check that a pipeline produces an expected snapshot or that an agent
 calls the right tool with the right parameters.
@@ -212,8 +212,8 @@ control.
 
 ## Production Readiness
 
-The archive treats production readiness as the point where tests and evaluation
-meet monitoring and ownership. Bergh's "done versus good" discussion in
+These episodes treat production readiness as the point where tests and
+evaluation meet monitoring and ownership. Bergh's "done versus good" discussion in
 [Mastering DataOps]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }})
 gives the operating version. A team should be able to run the system, know when
 something is wrong, make changes safely, and onboard another person into the

@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Career Growth"
-summary: "How the podcast archive frames growth after entering data and AI roles: depth, breadth, visibility, communication, leadership, and senior impact."
+summary: "How DataTalks.Club guests frame growth after entering data and AI roles: depth, breadth, visibility, communication, leadership, and senior impact."
 related:
   - Career Transition
   - Job Search
@@ -14,9 +14,9 @@ related:
 ---
 
 Career growth in data and AI is the expansion of scope and judgment after
-someone can already do useful technical work. In the DataTalks.Club podcast
-archive, it isn't only a promotion ladder. It's the shift from proving baseline
-skill to choosing better problems. It also means diagnosing systems, explaining
+someone can already do useful technical work. In DataTalks.Club podcast
+discussions, it isn't only a promotion ladder. It's the shift from proving
+baseline skill to choosing better problems. It also means diagnosing systems, explaining
 tradeoffs, mentoring others, and leaving evidence that teams can evaluate.
 
 This topic sits between [career transition]({{ '/wiki/career-transition/' | relative_url }}),
@@ -32,7 +32,7 @@ including [open source and developer relations]({{ '/wiki/open-source-and-develo
 
 ## Common Definition
 
-Across the archive, career growth means compounding useful judgment rather than
+Across these episodes, career growth means compounding useful judgment rather than
 collecting more tool names. In
 [How to Grow Your ML Engineering Career]({{ '/podcasts/how-to-grow-your-ml-engineering-career/' | relative_url }}),
 [Krzysztof Szafanek]({{ '/people/krzysztofszafanek/' | relative_url }})
@@ -53,7 +53,7 @@ completion alone (14:30 / 17:52 / 26:28). That makes growth a sequence of cleare
 choices about the next role, the needed evidence, and the signal a team will
 trust.
 
-The archive also treats communication as part of senior technical work.
+DataTalks.Club guests also treat communication as part of senior technical work.
 [Eugene Yan]({{ '/people/eugeneyan/' | relative_url }}) links writing to
 learning and reader targeting in
 [Technical Writing for Data Scientists]({{ '/podcasts/technical-writing-for-data-scientists/' | relative_url }})
@@ -89,9 +89,8 @@ covering publishing platforms and audience growth. He also discusses
 confidence, values, feedback, and monetization (13:00 / 34:00 / 36:30 / 42:00 /
 46:30).
 
-In this archive, personal brand is one mechanism for career growth. It
-doesn't replace technical depth, team trust, or proof that a person can own
-harder work.
+Guests present personal brand as one mechanism for career growth. It doesn't
+replace technical depth, team trust, or proof that a person can own harder work.
 
 The episodes also keep individual-contributor growth separate from management
 growth. Krzysztof's
@@ -105,7 +104,7 @@ In
 people-development layer. Goals and agendas give the relationship structure.
 Listening, boundaries, and follow-through make mentoring a practice rather than
 an informal favor (6:10 / 19:40 / 30:40 / 42:30 / 52:40). Those skills overlap with
-[leadership]({{ '/wiki/leadership/' | relative_url }}), but the archive does
+[leadership]({{ '/wiki/leadership/' | relative_url }}), but Rahul's discussion does
 not collapse mentoring into management or senior IC work.
 
 ## Technical Depth and Transferable Fundamentals

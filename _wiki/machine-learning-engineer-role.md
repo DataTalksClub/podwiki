@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Machine Learning Engineer Role"
-summary: "Archive-backed guide to the machine learning engineer role: production models, serving, maintainability, platform overlap, and boundaries with data science, software engineering, MLOps, and AI engineering."
+summary: "Podcast-grounded guide to the machine learning engineer role: production models, serving, maintainability, platform overlap, and boundaries with data science, software engineering, MLOps, and AI engineering."
 related:
   - Machine Learning
   - Machine Learning System Design
@@ -12,7 +12,7 @@ related:
 ---
 
 A machine learning engineer turns a model into a working software system. In
-the DataTalks.Club archive, the role starts where
+DataTalks.Club podcast discussions, the role starts where
 [machine learning]({{ '/wiki/machine-learning/' | relative_url }}) meets
 [software engineering]({{ '/wiki/software-engineering/' | relative_url }}).
 Models need production code and stable interfaces. They also need deployment
@@ -32,7 +32,7 @@ reliability. Batch scoring overlaps more with
 
 ## Common Definition
 
-Across the archive, the common definition is practical. A machine learning
+Across these episodes, the common definition is practical. A machine learning
 engineer owns the engineering path from a trained model or model idea to a
 maintainable product capability. The job includes model packaging and inference
 interfaces. It also includes data dependencies, tests, deployment,
@@ -151,10 +151,9 @@ Ben's 52:14 section connects iterative delivery to feature engineering and
 testing. Arseny's 31:42 section requires baselines and metrics before the
 system diagram becomes credible.
 
-Infrastructure skill depends on the team. The archive repeatedly mentions
-Docker, cloud services, Kubernetes, and orchestration. Model registries and
-experiment tracking are part of the same production surface. Artifact storage
-and monitoring are there too.
+Infrastructure skill depends on the team. Guests mention Docker and cloud
+services alongside Kubernetes and orchestration. They also bring up model
+registries, experiment tracking, artifact storage, and monitoring.
 
 Simon's 8:11 and 29:41 sections make cloud infrastructure and experiment
 tracking visible platform skills.
@@ -238,6 +237,8 @@ need a clear handoff. The model can produce predictions, but a data path still
 has to move those predictions into a product or operational system.
 
 ## Related Pages
+
+These pages cover the role, adjacent responsibilities, and learning paths.
 
 - [Machine Learning]({{ '/wiki/machine-learning/' | relative_url }})
 - [Machine Learning Engineer Roadmap]({{ '/roadmaps/machine-learning-engineer-roadmap/' | relative_url }})

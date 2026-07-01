@@ -13,7 +13,7 @@ Data observability is the operating practice of noticing unhealthy data and
 finding the source quickly enough to recover. Data may be late or missing. It
 may also be malformed, unexpected, or harmful to downstream users.
 
-In the DataTalks.Club archive, the most direct definition comes from
+On DataTalks.Club, the most direct definition comes from
 [Barr Moses]({{ '/people/barrmoses/' | relative_url }}) in
 [Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }}).
 At 16:38, she names five signals. They're freshness, volume, and distribution.
@@ -23,9 +23,9 @@ At 24:31, Moses separates monitoring from observability. Monitoring tells a
 team that something changed, and observability helps the team diagnose why it
 changed.
 
-Across the archive, guests define data observability as broader than a dashboard.
-It combines checks and metadata. It also combines ownership, routing, and
-recovery habits. It belongs
+Across these episodes, guests define data observability as broader than a
+dashboard. It combines checks and metadata. It also combines ownership, routing,
+and recovery habits. It belongs
 near [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 because the signals are often quality signals.
 
@@ -90,7 +90,7 @@ Schema observability watches table structure by checking columns and types. It
 also checks required fields, producer interfaces, and breaking renames.
 Moses's 19:10 schema-change case study
 in [Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }})
-is the archive's cleanest example. A source can change structure while
+is the clearest podcast example here. A source can change structure while
 downstream consumers miss the notification.
 
 The failure can show up later in a dashboard, product workflow, or model

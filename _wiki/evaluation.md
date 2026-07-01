@@ -12,8 +12,8 @@ related:
 
 Evaluation is the practice of judging whether a model, product change, data
 system, or AI workflow is good enough for the decision it supports. In the
-DataTalks.Club archive, guests treat evaluation as more than a score. They tie
-it to [metrics]({{ '/wiki/metrics/' | relative_url }}),
+DataTalks.Club podcast discussions, guests treat evaluation as more than a
+score. They tie it to [metrics]({{ '/wiki/metrics/' | relative_url }}),
 [experimentation]({{ '/wiki/experimentation/' | relative_url }}),
 [causal inference]({{ '/wiki/causal-inference/' | relative_url }}), and human
 review.
@@ -34,7 +34,7 @@ product impact.
 
 ## Common Definition
 
-Across the podcast archive, evaluation usually means naming the decision that
+Across these episodes, evaluation usually means naming the decision that
 will change and the baseline for comparison. It also means naming the evidence
 that would make the team stop, roll back, or continue.
 
@@ -85,7 +85,7 @@ human-in-the-loop review.
 For supervised machine learning, evaluation starts before deployment. Teams
 need a baseline, a holdout strategy, and a metric that matches the business
 decision. That can be precision and recall for fraud, uplift for targeting, or
-cost-weighted error for operational decisions. The archive repeatedly warns
+cost-weighted error for operational decisions. The guests repeatedly warn
 that the metric alone isn't enough.
 
 [Rishabh Bhargava]({{ '/people/rishabhbhargava/' | relative_url }}) describes
@@ -191,7 +191,7 @@ and decide who responds.
 
 ## Human Review
 
-Human review appears in the archive when automatic metrics can't capture the
+Human review appears in these discussions when automatic metrics can't capture the
 whole task. It shows up in stakeholder demos and user feedback. It also appears
 in RAG quality checks, LLM outputs, and incident investigation.
 

@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Data Analyst Role"
-summary: "Archive-backed guide to the data analyst role: SQL, metrics, dashboards, experiments, stakeholder communication, and boundaries with analytics engineering, data science, and data engineering."
+summary: "DataTalks.Club podcast guide to the data analyst role: SQL, metrics, dashboards, experiments, stakeholder communication, and boundaries with analytics engineering, data science, and data engineering."
 related:
   - Data Analyst Careers
   - Product Analytics
@@ -26,7 +26,7 @@ analyst connects data to a product, operational, or business decision.
 
 ## Common Definition
 
-Across the archive, a data analyst turns company data into reusable evidence for
+Across these discussions, a data analyst turns company data into reusable evidence for
 decisions. In
 [From Analytics to Production ML]({{ '/podcasts/production-ml-mlops-and-data-team-building/' | relative_url }}),
 [Rishabh Bhargava]({{ '/people/rishabhbhargava/' | relative_url }}) describes
@@ -98,7 +98,7 @@ That work can include:
 - analyze launches, experiments, and A/B tests
 - explain caveats and recommendations in language stakeholders can act on
 
-The archive repeatedly shows that analysts need to know how a metric is
+Guests repeatedly show that analysts need to know how a metric is
 created, not only how to plot it. In
 [How to Build a Data-Led Growth Stack]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }}),
 Arpit discusses tracking plans, event properties, and ownership around
@@ -139,10 +139,9 @@ when modeled tables and metric definitions become reusable team assets.
 Statistics matter when the decision depends on uncertainty. Analysts don't need
 every model family, but they need descriptive statistics and sampling basics.
 They also need variance, experiment interpretation, and basic causal caution.
-The archive's analyst examples connect statistics to product decisions, not
-abstract calculation. See
-Rishabh on experiment analysis around 31:19 and Irina on cohort and retention
-analysis around 31:50.
+Rishabh and Irina connect statistics to product decisions, not abstract
+calculation. See Rishabh on experiment analysis around 31:19 and Irina on
+cohort and retention analysis around 31:50.
 
 Communication is part of the role, not a soft add-on. The role-definition
 episode describes analyst documentation as material for management and decision

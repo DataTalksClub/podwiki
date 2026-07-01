@@ -12,8 +12,8 @@ related:
   - Data Governance
 ---
 
-Apache Iceberg appears in the DataTalks.Club archive as a table-format answer
-to a specific [data engineering platform]({{ '/wiki/data-engineering-platforms/' | relative_url }})
+DataTalks.Club guests discuss Apache Iceberg as a table-format answer to a
+specific [data engineering platform]({{ '/wiki/data-engineering-platforms/' | relative_url }})
 problem. Teams want lake-style storage without giving up table behavior,
 metadata, or catalogs. They also want multiple compute paths. [Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }})
 explains Iceberg as a table format over Parquet storage. He then separates
@@ -42,7 +42,7 @@ Related wiki pages:
   [Data Warehouse]({{ '/wiki/data-warehouse/' | relative_url }}) provide the
   older storage vocabulary.
 - [Delta Lake]({{ '/wiki/delta-lake/' | relative_url }}) is the closest named
-  comparison point in the podcast archive.
+  comparison point in the podcast discussions.
 - [DuckDB]({{ '/wiki/duckdb/' | relative_url }}) connects to portable query
   engines and small, cost-aware table-format experiments.
 - [DataOps]({{ '/wiki/dataops/' | relative_url }}),
@@ -74,7 +74,7 @@ Core podcast discussions:
 
 ## Common Definition
 
-In the archive, Iceberg isn't presented as a warehouse replacement.
+In these episodes, Iceberg isn't presented as a warehouse replacement.
 It's a table format that sits above files and below query engines. Brudaru
 anchors the explanation in Parquet storage. He then moves into the layers that
 make the table usable.
@@ -167,8 +167,8 @@ table layer part of a governed platform rather than a pile of files.
 
 ## Comparison With Delta Lake and Hudi
 
-Brudaru gives the archive's direct Delta/Hudi/Iceberg comparison. His 49:42
-chapter compares table formats after earlier chapters on Iceberg and catalogs.
+Brudaru gives the direct Delta/Hudi/Iceberg comparison. His 49:42 chapter
+compares table formats after earlier chapters on Iceberg and catalogs.
 He also discusses headless table formats
 ([Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}),
 18:17-30:31 and 49:42).
@@ -273,7 +273,7 @@ remove the platform work around the table.
 
 ## See Also
 
-Continue with these adjacent archive topics:
+Continue with these adjacent topics:
 
 - [Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})

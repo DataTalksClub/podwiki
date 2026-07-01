@@ -17,9 +17,9 @@ related:
   - Data Strategy
 ---
 
-In the DataTalks.Club archive, a startup isn't just a small company using new
-technology. Guests describe startups as constrained experiments. Founders must
-learn the customer problem, build only enough product to test it, choose a
+DataTalks.Club guests don't describe a startup as just a small company using
+new technology. They describe startups as constrained experiments. Founders
+must learn the customer problem, build only enough product to test it, choose a
 business model, and keep the team alive while evidence changes.
 
 DataTalks.Club guests discuss startup work in data, AI,
@@ -103,8 +103,9 @@ demo. This is the service-to-product path covered more directly in
 
 ## Keep the Early Stack Small
 
-The archive doesn't treat startup speed as permission to ignore engineering.
-It argues for smaller engineering choices that match the stage.
+Nemanja Radojkovic and Carmine Paolino don't treat startup speed as permission
+to ignore engineering. They argue for smaller engineering choices that match
+the stage.
 
 [Nemanja Radojkovic]({{ '/people/nemanjaradojkovic/' | relative_url }}) frames
 this as lean MLOps in
@@ -163,7 +164,7 @@ number.
 
 ## Services Can Become Products
 
-Startup paths in the archive often begin with
+Startup paths in these episodes often begin with
 [freelance]({{ '/wiki/freelance/' | relative_url }}), consulting, or
 [solopreneur]({{ '/wiki/solopreneur/' | relative_url }}) work. Brudaru
 started from data engineering projects where clients repeatedly struggled with

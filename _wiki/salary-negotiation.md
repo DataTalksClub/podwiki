@@ -13,16 +13,17 @@ related:
 
 Salary negotiation is the part of a data or AI career conversation where people
 decide whether the money, level, risk, and work match. In the
-DataTalks.Club archive, it appears in recruiter screens and offer discussions.
-It also appears in job-description transparency and freelance pricing. It
+DataTalks.Club podcast discussions, it appears in recruiter screens and offer
+discussions. It also appears in job-description transparency and freelance
+pricing. It
 connects directly to
 [Job Search]({{ '/wiki/job-search/' | relative_url }}),
 [Hiring]({{ '/wiki/hiring/' | relative_url }}), and
 [Job Descriptions]({{ '/wiki/job-descriptions/' | relative_url }}).
 
-The archive's main definition is practical. Salary negotiation isn't a way to
-extract an arbitrary number. It's a market check, and candidates bring role fit.
-They also bring level, competing options, and evidence of value.
+The main definition in these episodes is practical. Salary negotiation isn't a
+way to extract an arbitrary number. It's a market check, and candidates bring
+role fit. They also bring level, competing options, and evidence of value.
 
 Employers bring salary bands, leveling, budget, and hiring urgency.
 Freelancers add a different calculation because they price risk, unpaid time,
@@ -95,9 +96,8 @@ the final call with a recruiter.
 
 ## Market Signals
 
-The strongest salary signal in the archive is a range tied to evidence. Alicja
-recommends asking how the salary structure and leveling work before giving an
-expectation
+Alicja and Oleg both tie salary expectations to evidence. Alicja recommends
+asking how the salary structure and leveling work before giving an expectation
 ([Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }},
 40:33). The answer tells the candidate whether the company has a real
 compensation system or whether every candidate is negotiating from scratch.

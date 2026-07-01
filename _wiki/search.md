@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Search"
-summary: "How the podcast archive frames search as retrieval, ranking, evaluation, semantic matching, and product relevance."
+summary: "How DataTalks.Club guests frame search as retrieval, ranking, evaluation, semantic matching, and product relevance."
 related:
   - Search, RAG, and Knowledge Systems
   - Retrieval-Augmented Generation
@@ -12,15 +12,15 @@ related:
 ---
 
 Search is the part of a product or knowledge system that retrieves and ranks
-relevant information for a query or task. In the DataTalks.Club archive, search
-covers lexical retrieval and semantic retrieval. It also covers vector search,
-hybrid search, personalization, and
+relevant information for a query or task. DataTalks.Club guests discuss search
+through lexical retrieval and semantic retrieval. They also discuss vector
+search, hybrid search, personalization, and
 [retrieval-augmented generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}).
 
-The archive doesn't treat search as a single database feature. It treats search
-as an application system. The system needs indexes, candidate generation, and
-ranking. It also needs filters, freshness rules, evaluation, and product
-metrics. Search may need
+These episodes don't treat search as a single database feature. They treat
+search as an application system. The system needs indexes, candidate
+generation, and ranking. It also needs filters, freshness rules, evaluation,
+and product metrics. Search may need
 [embeddings]({{ '/wiki/embeddings/' | relative_url }}),
 [vector databases]({{ '/wiki/vector-databases/' | relative_url }}), and LLM
 context construction when it supports RAG.
@@ -39,8 +39,8 @@ Around 12:45, he separates candidate generation from ranking. That split
 matters because a system can retrieve plausible results and still rank them
 badly.
 
-[Atita Arora]({{ '/people/atitaarora/' | relative_url }}) gives the archive's
-clearest bridge from classical search to LLM-era retrieval in
+[Atita Arora]({{ '/people/atitaarora/' | relative_url }}) gives the clearest
+bridge from classical search to LLM-era retrieval in
 [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}).
 At 4:42 and 9:18, she starts with Solr, Lucene, and NLP-based query matching.
 At 17:01 and 20:27, she moves to vector databases and migration choices. At

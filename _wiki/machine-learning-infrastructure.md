@@ -14,18 +14,18 @@ related:
 
 Machine learning infrastructure gives teams the compute and storage they need
 to train models. It also covers orchestration, serving, and monitoring for
-models that keep running after deployment. In the podcast archive, it sits
-behind [ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }}) and
+models that keep running after deployment. DataTalks.Club guests discuss it as
+the foundation behind [ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }}) and
 [MLOps]({{ '/wiki/mlops/' | relative_url }}).
 
 The platform gives data scientists and ML engineers a usable path. The
 infrastructure supplies cloud services, containers, and GPUs. It also supplies
 schedulers, registries, and runtime controls.
 
-The archive doesn't treat infrastructure as a generic tool list. It connects
-it to specific work. Teams need to provision compute and store artifacts. They
-also need to deploy batch and online models, keep dependencies reproducible,
-and operate systems that other teams can use.
+Guests connect infrastructure to specific work instead of treating it as a
+generic tool list. Teams need to provision compute and store artifacts. They
+also need to deploy batch and online models, keep dependencies reproducible, and
+operate systems that other teams can use.
 
 ## Common Definition
 
@@ -175,7 +175,7 @@ developer-experience point is direct. Data scientists shouldn't have to
 assemble the full cloud and workflow stack from scratch
 before they can run a reproducible ML flow.
 
-Kubernetes is useful, but the archive doesn't treat it as a universal answer.
+Kubernetes is useful, but guests don't treat it as a universal answer.
 Andrey Cheptsov discusses Kubernetes limitations for AI workflows and SLURM
 around 47:16 in
 [Post-ChatGPT AI Infrastructure]({{ '/podcasts/ai-infrastructure-hybrid-cloud-on-prem-distributed-training/' | relative_url }}).
@@ -186,7 +186,7 @@ justify heavier orchestration.
 
 ## Serving and Deployment
 
-Serving infrastructure turns trained models into predictions. The archive uses
+Serving infrastructure turns trained models into predictions. Guests use
 two recurring deployment shapes: batch inference and online serving. Simon
 Stiebellehner discusses this split around 31:15 in
 [Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).

@@ -23,15 +23,15 @@ related:
 ---
 
 Open source means public software that other people can use, discuss, and
-improve. In the DataTalks.Club podcast archive, guests usually discuss it
-through data and ML tools. The recurring examples include scikit-learn ecosystem
-libraries and Hugging Face contributions. Guests also discuss Airbyte, DLT,
-Zingg, and Evidently. Other episodes cover terminal UI tools, reproducibility
-tools, and open-source NLP tooling.
+improve. DataTalks.Club guests usually discuss it through data and ML tools.
+The recurring examples include scikit-learn ecosystem libraries and Hugging
+Face contributions. Guests also discuss Airbyte, DLT, Zingg, and Evidently.
+Other episodes cover terminal UI tools, reproducibility tools, and open-source
+NLP tooling.
 
-The archive treats open source as practical rather than ideological. Public code
-isn't enough because useful projects also need docs and examples. They also need
-issue handling, tests, releases, and community norms.
+The podcast discussions treat open source as practical rather than ideological.
+Public code isn't enough because useful projects also need docs and examples.
+They also need issue handling, tests, releases, and community norms.
 
 Those pieces connect open source to
 [contributing]({{ '/wiki/contributing/' | relative_url }}) and
@@ -361,8 +361,8 @@ episode. Open source can help with
 [data engineering]({{ '/wiki/data-engineering/' | relative_url }}) adoption.
 
 The company still has to decide how cloud competitors, support needs, and
-license choices affect the business. That's why the archive separates open
-source as a technical practice from
+license choices affect the business. Those tradeoffs separate open source as a
+technical practice from
 [startup]({{ '/wiki/startup/' | relative_url }}),
 [founder]({{ '/wiki/founder/' | relative_url }}), and
 [entrepreneurship]({{ '/wiki/entrepreneurship/' | relative_url }}) topics.
@@ -441,10 +441,11 @@ For the full adoption, education, and feedback-loop treatment, use
 
 ## Limits
 
-The archive also puts limits around the signal. Open source doesn't prove that
-a tool has product-market fit. It doesn't prove that a contributor can do every
-part of a paid role. It also doesn't remove the need for governance, support,
-security, or licensing decisions. Teams still need commercial strategy.
+These episodes also put limits around the signal. Open source doesn't prove
+that a tool has product-market fit. It doesn't prove that a contributor can do
+every part of a paid role. It also doesn't remove the need for governance,
+support, security, or licensing decisions. Teams still need commercial
+strategy.
 
 Bela's investor discussion makes this explicit. At 32:31 and 36:27 in
 [Early-Stage Investing in Open Source Developer Tools]({{ '/podcasts/investing-in-open-source-developer-tools/' | relative_url }}),

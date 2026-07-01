@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Governance"
-summary: "Archive-backed bridge for governance across data, ML, and AI: ownership, access, review, release controls, compliance, and accountability."
+summary: "Podcast-grounded bridge for governance across data, ML, and AI: ownership, access, review, release controls, compliance, and accountability."
 related:
   - Data Governance
   - Responsible AI and Governance
@@ -15,7 +15,7 @@ Governance is the operating model for accountable choices in data systems, ML
 systems and AI systems. It names owners and policies. It also defines approval
 paths and the evidence teams keep when a system changes.
 
-In the DataTalks.Club archive, governance connects
+In DataTalks.Club podcast discussions, governance connects
 [data governance]({{ '/wiki/data-governance/' | relative_url }}) and
 [security]({{ '/wiki/security/' | relative_url }}). It also connects
 [privacy engineering for ML]({{ '/wiki/privacy-engineering-for-ml/' | relative_url }}),
@@ -23,7 +23,7 @@ In the DataTalks.Club archive, governance connects
 [responsible AI]({{ '/wiki/responsible-ai-and-governance/' | relative_url }})
 rather than living as a separate compliance checklist.
 
-The archive grounds that definition in operational examples.
+The cited guests ground that definition in operational examples.
 [Bart Vandekerckhove]({{ '/people/bartvandekerckhove/' | relative_url }})
 defines data governance through trust and catalogs in
 [Data Governance and Data Access Management]({{ '/podcasts/data-governance-data-access-management/' | relative_url }}).
@@ -48,7 +48,7 @@ adds agent lineage.
 
 ## Common Definition
 
-Across the archive, governance means making data and AI systems usable while
+Across these episodes, governance means making data and AI systems usable while
 keeping risk visible and reviewable. Teams classify important assets, assign
 owners, and encode repeated policies. They preserve metadata and lineage, keep
 human review for judgment calls, and revisit access after systems change.
@@ -200,7 +200,7 @@ keep it.
 
 Bart's
 [Data Governance and Data Access Management]({{ '/podcasts/data-governance-data-access-management/' | relative_url }})
-episode is the clearest archive anchor. He covers purpose-based requests,
+episode is the clearest podcast anchor. He covers purpose-based requests,
 approvals, periodic reviews, and revocation. He also covers production-debugging
 access, masking, and filtering. Role inheritance, alerts, and access-as-code
 finish the control set. That makes governance

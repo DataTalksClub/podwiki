@@ -17,7 +17,7 @@ Teams use data-led growth when product and customer behavior guide growth work.
 That work can improve acquisition and activation. It also supports retention,
 sales, and support.
 
-In the DataTalks.Club archive, the clearest definition comes from
+On DataTalks.Club, the clearest definition comes from
 [Arpit Choudhury]({{ '/people/arpitchoudhury/' | relative_url }}) in
 [How to Build a Data-Led Growth Stack]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }}).
 At 10:45, he defines a data-led professional as someone who knows where data
@@ -36,9 +36,9 @@ accounts, and help customers.
 
 ## Common Definition
 
-Across the archive, teams start data-led growth from a business or product
-question. They define the events needed to answer it and collect those events
-reliably. Then they analyze the data and act on the result.
+Across these podcast discussions, teams start data-led growth from a business
+or product question. They define the events needed to answer it and collect
+those events reliably. Then they analyze the data and act on the result.
 
 Arpit describes this sequence in the growth-stack episode between 22:50 and
 41:30. Teams create a tracking plan, collect events, store the data, and analyze
@@ -104,11 +104,11 @@ usually better for completed actions such as signup. Client-side tracking can
 be useful for intent signals such as button clicks. Without this
 distinction, a growth team may count failed form submissions as real users.
 
-The archive also treats documentation as part of the tracking system, not as
-optional cleanup. At 18:27, Arpit uses fake signups as an anomaly example. If
-the event has the right properties, a team can look at the source and decide
-whether the spike reflects real demand or low-quality traffic. That connects
-data-led growth with
+Arpit also treats documentation as part of the tracking system, not as optional
+cleanup. At 18:27, he uses fake signups as an anomaly example. If the event has
+the right properties, a team can look at the source and decide whether the
+spike reflects real demand or low-quality traffic. That connects data-led
+growth with
 [data quality and observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}),
 [data governance]({{ '/wiki/data-governance/' | relative_url }}), and
 [DataOps]({{ '/wiki/dataops/' | relative_url }}).

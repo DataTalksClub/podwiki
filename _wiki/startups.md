@@ -22,10 +22,11 @@ related:
 ---
 
 DataTalks.Club guests discuss tech startups through concrete company examples.
-In this archive, guests usually use tech startups for data and AI companies.
+In these episodes, guests usually use tech startups for data and AI companies.
 They discuss machine learning companies, MLOps tools, and open-source
-developer-tool startups rather than generic startup advice. The archive covers
-venture-backed MLOps tools, retail AI products, and open-source data products.
+developer-tool startups rather than generic startup advice. The discussions
+cover venture-backed MLOps tools, retail AI products, and open-source data
+products.
 
 It also covers consulting firms, indie products, and early jobs in four-person
 teams. Startup teams have to learn the real workflow and choose a narrow product
@@ -90,7 +91,7 @@ shows the consulting version. Around 4:16-18:01 in
 [Build a Data Consulting Business]({{ '/podcasts/data-consulting-business-pricing-and-client-acquisition/' | relative_url }}),
 his team moved away from a "data stack as a service" idea. Interviews showed
 that clients needed help translating business questions into usable data
-models. Across the archive, startups succeed when the team lets customer
+models. Across these episodes, startups succeed when the team lets customer
 evidence change the product.
 
 ## Startup Types
@@ -132,7 +133,7 @@ describes indie hacking as bootstrapping side products while keeping a day job.
 She covers landing pages, legal setup, payments, and pricing. She also covers
 costs and niche marketing
 ([Indie Hacking and Bootstrapping Side Projects]({{ '/podcasts/data-scientist-and-indie-hacker-bootstrapping-side-projects/' | relative_url }}),
-around 7:23-33:11). The archive doesn't present venture-backed growth as the
+around 7:23-33:11). These episodes don't present venture-backed growth as the
 only startup path.
 
 ## Product Discovery Before Product Polish
