@@ -196,6 +196,16 @@ positioning matters too
 ([Data Freelancing Career Strategy]({{ '/podcasts/data-freelancing-career-strategy-market-demand-and-client-acquisition/' | relative_url }}),
 10:50-1:01:02).
 
+[Aaisha Muhammad]({{ '/people/aaishamuhammad/' | relative_url }}) shows a
+self-directed route in
+[Teaching Yourself Bioinformatics and ML]({{ '/podcasts/learning-machine-learning-self-taught-bioinformatics/' | relative_url }}).
+She built bioinformatics and machine learning skills through the OSSU open
+curriculum and ML Zoomcamp rather than formal study. Project-first learning,
+dataset discovery through PubMed and Google Scholar, and self-imposed deadlines
+turned independent study into a reviewable engineering portfolio. Her story is
+a non-traditional entry model that relies on open curricula, community study
+groups, and deployment practice.
+
 ## Transferable Skills Need Translation
 
 The strongest transition stories keep useful prior skills but rename them for

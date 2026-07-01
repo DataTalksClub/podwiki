@@ -31,6 +31,9 @@ exclude:
   - wiki/
 
 collections:
+  books:
+    output: true
+    permalink: /books/:title/
   podcast_summaries:
     output: true
     permalink: /podcasts/:title/
@@ -93,3 +96,8 @@ defaults:
     values:
       layout: "article"
       content_kind: "how-to"
+  - scope:
+      path: ""
+      type: "books"
+    values:
+      layout: "book_summary"

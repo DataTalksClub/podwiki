@@ -233,3 +233,14 @@ Zhamak's Data Mesh episode makes adoption a product concern. At 34:36, data as
 a product means consumer-first guarantees and KPIs. At 39:36, contracts cover
 quality, service levels, and ownership. The strategy has to describe the
 consumer and the guarantee, not just the pipeline that produces the dataset.
+
+[Parvathy Krishnan]({{ '/people/parvathykrishnan/' | relative_url }}) brings
+the same logic into the nonprofit sector. In
+[Analytics for Nonprofits]({{ '/podcasts/data-science-and-analytics-for-nonprofits-tech-for-good/' | relative_url }}),
+she maps data maturity across people, process, and technology dimensions.
+Discovery workshops assess where a nonprofit actually stands before tools are
+chosen. The episode covers descriptive-to-prescriptive curriculum progression,
+team profiles from analysts to data engineers, and optimization use cases like
+waste-collection routing and healthcare access. The strategy question is the
+same as in private-sector teams: invest in people, processes, and technology
+together, or the data never changes decisions.

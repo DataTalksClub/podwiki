@@ -9,9 +9,9 @@
     "how_tos": 5,
     "podcasts": 202,
     "persons": 438,
-    "topics": 126,
-    "nodes": 1049,
-    "links": 12979
+    "topics": 132,
+    "nodes": 1154,
+    "links": 13217
   },
   "nodes": [
     {
@@ -684,6 +684,996 @@
       "count": 1,
       "search": "Vector Search vs Keyword Search A comparison of keyword search, vector search, and hybrid retrieval for production search, RAG, ranking, filters, and evaluation.",
       "keyword": "vector search vs keyword search"
+    },
+    {
+      "id": "book:20220214-a-visual-introduction-to-deep-learning",
+      "type": "book",
+      "collection": "book",
+      "label": "A Visual Introduction to Deep Learning",
+      "title": "A Visual Introduction to Deep Learning",
+      "url": "/books/20220214-a-visual-introduction-to-deep-learning/",
+      "count": 1,
+      "search": "A Visual Introduction to Deep Learning"
+    },
+    {
+      "id": "book:20211115-ace-the-data-science-interview",
+      "type": "book",
+      "collection": "book",
+      "label": "Ace The Data Science Interview",
+      "title": "Ace The Data Science Interview",
+      "url": "/books/20211115-ace-the-data-science-interview/",
+      "count": 1,
+      "search": "Ace The Data Science Interview"
+    },
+    {
+      "id": "book:20210531-advanced-algorithms-and-data-structures",
+      "type": "book",
+      "collection": "book",
+      "label": "Advanced Algorithms and Data Structures",
+      "title": "Advanced Algorithms and Data Structures",
+      "url": "/books/20210531-advanced-algorithms-and-data-structures/",
+      "count": 1,
+      "search": "Advanced Algorithms and Data Structures"
+    },
+    {
+      "id": "book:20210412-ai-and-machine-learning-for-coders",
+      "type": "book",
+      "collection": "book",
+      "label": "AI and Machine Learning for Coders",
+      "title": "AI and Machine Learning for Coders",
+      "url": "/books/20210412-ai-and-machine-learning-for-coders/",
+      "count": 1,
+      "search": "AI and Machine Learning for Coders"
+    },
+    {
+      "id": "book:20240715-ai-data-privacy-and-protection",
+      "type": "book",
+      "collection": "book",
+      "label": "AI Data Privacy and Protection",
+      "title": "AI Data Privacy and Protection",
+      "url": "/books/20240715-ai-data-privacy-and-protection/",
+      "count": 1,
+      "search": "AI Data Privacy and Protection"
+    },
+    {
+      "id": "book:20220606-ai-powered-business-intelligence",
+      "type": "book",
+      "collection": "book",
+      "label": "AI-Powered Business Intelligence",
+      "title": "AI-Powered Business Intelligence",
+      "url": "/books/20220606-ai-powered-business-intelligence/",
+      "count": 1,
+      "search": "AI Powered Business Intelligence"
+    },
+    {
+      "id": "book:20211101-ai-powered-search",
+      "type": "book",
+      "collection": "book",
+      "label": "AI-Powered Search",
+      "title": "AI-Powered Search",
+      "url": "/books/20211101-ai-powered-search/",
+      "count": 1,
+      "search": "AI Powered Search"
+    },
+    {
+      "id": "book:20231106-analytics-engineering-with-sql-and-dbt",
+      "type": "book",
+      "collection": "book",
+      "label": "Analytics Engineering with SQL and DBT",
+      "title": "Analytics Engineering with SQL and DBT",
+      "url": "/books/20231106-analytics-engineering-with-sql-and-dbt/",
+      "count": 1,
+      "search": "Analytics Engineering with SQL and DBT"
+    },
+    {
+      "id": "book:20210726-applied-natural-language-processing-in-the-enterprise",
+      "type": "book",
+      "collection": "book",
+      "label": "Applied Natural Language Processing in the Enterprise",
+      "title": "Applied Natural Language Processing in the Enterprise",
+      "url": "/books/20210726-applied-natural-language-processing-in-the-enterprise/",
+      "count": 1,
+      "search": "Applied Natural Language Processing in the Enterprise"
+    },
+    {
+      "id": "book:20220509-artificial-intelligence-with-python",
+      "type": "book",
+      "collection": "book",
+      "label": "Artificial Intelligence with Python",
+      "title": "Artificial Intelligence with Python",
+      "url": "/books/20220509-artificial-intelligence-with-python/",
+      "count": 1,
+      "search": "Artificial Intelligence with Python"
+    },
+    {
+      "id": "book:20211018-blueprints-for-text-analytics-using-python",
+      "type": "book",
+      "collection": "book",
+      "label": "Blueprints for Text Analytics Using Python",
+      "title": "Blueprints for Text Analytics Using Python",
+      "url": "/books/20211018-blueprints-for-text-analytics-using-python/",
+      "count": 1,
+      "search": "Blueprints for Text Analytics Using Python"
+    },
+    {
+      "id": "book:20241017-build-large-language-model-from-scratch",
+      "type": "book",
+      "collection": "book",
+      "label": "Build a Large Language Model (From Scratch)",
+      "title": "Build a Large Language Model (From Scratch)",
+      "url": "/books/20241017-build-large-language-model-from-scratch/",
+      "count": 1,
+      "search": "Build a Large Language Model (From Scratch)"
+    },
+    {
+      "id": "book:20210607-building-machine-learning-pipelines",
+      "type": "book",
+      "collection": "book",
+      "label": "Building Machine Learning Pipelines",
+      "title": "Building Machine Learning Pipelines",
+      "url": "/books/20210607-building-machine-learning-pipelines/",
+      "count": 1,
+      "search": "Building Machine Learning Pipelines"
+    },
+    {
+      "id": "book:20211122-building-machine-learning-powered-applications",
+      "type": "book",
+      "collection": "book",
+      "label": "Building Machine Learning Powered Applications",
+      "title": "Building Machine Learning Powered Applications",
+      "url": "/books/20211122-building-machine-learning-powered-applications/",
+      "count": 1,
+      "search": "Building Machine Learning Powered Applications"
+    },
+    {
+      "id": "book:20210823-business-skills-for-data-scientists",
+      "type": "book",
+      "collection": "book",
+      "label": "Business Skills for Data Scientists",
+      "title": "Business Skills for Data Scientists",
+      "url": "/books/20210823-business-skills-for-data-scientists/",
+      "count": 1,
+      "search": "Business Skills for Data Scientists"
+    },
+    {
+      "id": "book:20210621-cleaning-data-for-effective-data-science",
+      "type": "book",
+      "collection": "book",
+      "label": "Cleaning Data for Effective Data Science",
+      "title": "Cleaning Data for Effective Data Science",
+      "url": "/books/20210621-cleaning-data-for-effective-data-science/",
+      "count": 1,
+      "search": "Cleaning Data for Effective Data Science"
+    },
+    {
+      "id": "book:20221107-comet-for-data-science",
+      "type": "book",
+      "collection": "book",
+      "label": "Comet for Data Science",
+      "title": "Comet for Data Science",
+      "url": "/books/20221107-comet-for-data-science/",
+      "count": 1,
+      "search": "Comet for Data Science"
+    },
+    {
+      "id": "book:20240205-creating-intelligent-products",
+      "type": "book",
+      "collection": "book",
+      "label": "Creating Intelligent Products",
+      "title": "Creating Intelligent Products",
+      "url": "/books/20240205-creating-intelligent-products/",
+      "count": 1,
+      "search": "Creating Intelligent Products"
+    },
+    {
+      "id": "book:20211025-data-analysis-with-python-and-pyspark",
+      "type": "book",
+      "collection": "book",
+      "label": "Data Analysis with Python and PySpark",
+      "title": "Data Analysis with Python and PySpark",
+      "url": "/books/20211025-data-analysis-with-python-and-pyspark/",
+      "count": 1,
+      "search": "Data Analysis with Python and PySpark"
+    },
+    {
+      "id": "book:20220801-data-analytics-initiatives",
+      "type": "book",
+      "collection": "book",
+      "label": "Data Analytics Initiatives",
+      "title": "Data Analytics Initiatives",
+      "url": "/books/20220801-data-analytics-initiatives/",
+      "count": 1,
+      "search": "Data Analytics Initiatives"
+    },
+    {
+      "id": "book:20220314-data-engineering-with-apache-spark-delta-lake-and-lakehouse",
+      "type": "book",
+      "collection": "book",
+      "label": "Data Engineering with Apache Spark, Delta Lake, and Lakehouse",
+      "title": "Data Engineering with Apache Spark, Delta Lake, and Lakehouse",
+      "url": "/books/20220314-data-engineering-with-apache-spark-delta-lake-and-lakehouse/",
+      "count": 1,
+      "search": "Data Engineering with Apache Spark, Delta Lake, and Lakehouse"
+    },
+    {
+      "id": "book:20210524-data-governance-the-definitive-guide",
+      "type": "book",
+      "collection": "book",
+      "label": "Data Governance: The Definitive Guide",
+      "title": "Data Governance: The Definitive Guide",
+      "url": "/books/20210524-data-governance-the-definitive-guide/",
+      "count": 1,
+      "search": "Data Governance: The Definitive Guide"
+    },
+    {
+      "id": "book:20210628-data-science-on-aws",
+      "type": "book",
+      "collection": "book",
+      "label": "Data Science on AWS",
+      "title": "Data Science on AWS",
+      "url": "/books/20210628-data-science-on-aws/",
+      "count": 1,
+      "search": "Data Science on AWS"
+    },
+    {
+      "id": "book:20240902-data-storytelling-with-altair-and-ai",
+      "type": "book",
+      "collection": "book",
+      "label": "Data Storytelling with Altair and AI",
+      "title": "Data Storytelling with Altair and AI",
+      "url": "/books/20240902-data-storytelling-with-altair-and-ai/",
+      "count": 1,
+      "search": "Data Storytelling with Altair and AI"
+    },
+    {
+      "id": "book:20210201-data-teams",
+      "type": "book",
+      "collection": "book",
+      "label": "Data Teams",
+      "title": "Data Teams",
+      "url": "/books/20210201-data-teams/",
+      "count": 1,
+      "search": "Data Teams"
+    },
+    {
+      "id": "book:20240408-data-centric-machine-learning-with-python",
+      "type": "book",
+      "collection": "book",
+      "label": "Data-Centric Machine Learning with Python",
+      "title": "Data-Centric Machine Learning with Python",
+      "url": "/books/20240408-data-centric-machine-learning-with-python/",
+      "count": 1,
+      "search": "Data Centric Machine Learning with Python"
+    },
+    {
+      "id": "book:20210315-database-internals",
+      "type": "book",
+      "collection": "book",
+      "label": "Database Internals",
+      "title": "Database Internals",
+      "url": "/books/20210315-database-internals/",
+      "count": 1,
+      "search": "Database Internals"
+    },
+    {
+      "id": "book:20210913-dataops-for-dummies",
+      "type": "book",
+      "collection": "book",
+      "label": "DataOps for Dummies",
+      "title": "DataOps for Dummies",
+      "url": "/books/20210913-dataops-for-dummies/",
+      "count": 1,
+      "search": "DataOps for Dummies"
+    },
+    {
+      "id": "book:20211206-deep-learning-with-fastai-cookbook",
+      "type": "book",
+      "collection": "book",
+      "label": "Deep Learning with fastai Cookbook",
+      "title": "Deep Learning with fastai Cookbook",
+      "url": "/books/20211206-deep-learning-with-fastai-cookbook/",
+      "count": 1,
+      "search": "Deep Learning with fastai Cookbook"
+    },
+    {
+      "id": "book:20210118-deep-learning-structured-data",
+      "type": "book",
+      "collection": "book",
+      "label": "Deep Learning with Structured Data",
+      "title": "Deep Learning with Structured Data",
+      "url": "/books/20210118-deep-learning-structured-data/",
+      "count": 1,
+      "search": "Deep Learning with Structured Data"
+    },
+    {
+      "id": "book:20210308-designing-data-intensive-applications",
+      "type": "book",
+      "collection": "book",
+      "label": "Designing Data-Intensive Applications",
+      "title": "Designing Data-Intensive Applications",
+      "url": "/books/20210308-designing-data-intensive-applications/",
+      "count": 1,
+      "search": "Designing Data Intensive Applications"
+    },
+    {
+      "id": "book:20220627-designing-machine-learning-systems",
+      "type": "book",
+      "collection": "book",
+      "label": "Designing Machine Learning Systems",
+      "title": "Designing Machine Learning Systems",
+      "url": "/books/20220627-designing-machine-learning-systems/",
+      "count": 1,
+      "search": "Designing Machine Learning Systems"
+    },
+    {
+      "id": "book:20240115-distributed-machine-learning-patterns",
+      "type": "book",
+      "collection": "book",
+      "label": "Distributed Machine Learning Patterns",
+      "title": "Distributed Machine Learning Patterns",
+      "url": "/books/20240115-distributed-machine-learning-patterns/",
+      "count": 1,
+      "search": "Distributed Machine Learning Patterns"
+    },
+    {
+      "id": "book:20230807-driving-data-quality-with-data-contracts",
+      "type": "book",
+      "collection": "book",
+      "label": "Driving Data Quality with Data Contracts",
+      "title": "Driving Data Quality with Data Contracts",
+      "url": "/books/20230807-driving-data-quality-with-data-contracts/",
+      "count": 1,
+      "search": "Driving Data Quality with Data Contracts"
+    },
+    {
+      "id": "book:20210927-effective-data-science-infrastructure",
+      "type": "book",
+      "collection": "book",
+      "label": "Effective Data Science Infrastructure",
+      "title": "Effective Data Science Infrastructure",
+      "url": "/books/20210927-effective-data-science-infrastructure/",
+      "count": 1,
+      "search": "Effective Data Science Infrastructure"
+    },
+    {
+      "id": "book:20220131-effective-pandas",
+      "type": "book",
+      "collection": "book",
+      "label": "Effective Pandas",
+      "title": "Effective Pandas",
+      "url": "/books/20220131-effective-pandas/",
+      "count": 1,
+      "search": "Effective Pandas"
+    },
+    {
+      "id": "book:20210705-engineering-mlops",
+      "type": "book",
+      "collection": "book",
+      "label": "Engineering MLOps",
+      "title": "Engineering MLOps",
+      "url": "/books/20210705-engineering-mlops/",
+      "count": 1,
+      "search": "Engineering MLOps"
+    },
+    {
+      "id": "book:20220829-essential-math-for-data-science",
+      "type": "book",
+      "collection": "book",
+      "label": "Essential Math for Data Science",
+      "title": "Essential Math for Data Science",
+      "url": "/books/20220829-essential-math-for-data-science/",
+      "count": 1,
+      "search": "Essential Math for Data Science"
+    },
+    {
+      "id": "book:20220516-everyday-ml-questions",
+      "type": "book",
+      "collection": "book",
+      "label": "Everyday ML Questions",
+      "title": "Everyday ML Questions",
+      "url": "/books/20220516-everyday-ml-questions/",
+      "count": 1,
+      "search": "Everyday ML Questions"
+    },
+    {
+      "id": "book:20220815-fundamentals-of-data-engineering",
+      "type": "book",
+      "collection": "book",
+      "label": "Fundamentals of Data Engineering",
+      "title": "Fundamentals of Data Engineering",
+      "url": "/books/20220815-fundamentals-of-data-engineering/",
+      "count": 1,
+      "search": "Fundamentals of Data Engineering"
+    },
+    {
+      "id": "book:20240429-fundamentals-of-data-observability",
+      "type": "book",
+      "collection": "book",
+      "label": "Fundamentals of Data Observability",
+      "title": "Fundamentals of Data Observability",
+      "url": "/books/20240429-fundamentals-of-data-observability/",
+      "count": 1,
+      "search": "Fundamentals of Data Observability"
+    },
+    {
+      "id": "book:20211108-generative-ai-with-python-and-tensorflow-2",
+      "type": "book",
+      "collection": "book",
+      "label": "Generative AI with Python and TensorFlow 2",
+      "title": "Generative AI with Python and TensorFlow 2",
+      "url": "/books/20211108-generative-ai-with-python-and-tensorflow-2/",
+      "count": 1,
+      "search": "Generative AI with Python and TensorFlow 2"
+    },
+    {
+      "id": "book:20230306-gpt-3",
+      "type": "book",
+      "collection": "book",
+      "label": "GPT-3",
+      "title": "GPT-3",
+      "url": "/books/20230306-gpt-3/",
+      "count": 1,
+      "search": "GPT 3"
+    },
+    {
+      "id": "book:20220926-graph-algorithms-for-data-science",
+      "type": "book",
+      "collection": "book",
+      "label": "Graph Algorithms for Data Science",
+      "title": "Graph Algorithms for Data Science",
+      "url": "/books/20220926-graph-algorithms-for-data-science/",
+      "count": 1,
+      "search": "Graph Algorithms for Data Science"
+    },
+    {
+      "id": "book:20210614-graph-databases-in-action",
+      "type": "book",
+      "collection": "book",
+      "label": "Graph Databases in Action",
+      "title": "Graph Databases in Action",
+      "url": "/books/20210614-graph-databases-in-action/",
+      "count": 1,
+      "search": "Graph Databases in Action"
+    },
+    {
+      "id": "book:20210517-grokking-deep-reinforcement-learning",
+      "type": "book",
+      "collection": "book",
+      "label": "Grokking Deep Reinforcement Learning",
+      "title": "Grokking Deep Reinforcement Learning",
+      "url": "/books/20210517-grokking-deep-reinforcement-learning/",
+      "count": 1,
+      "search": "Grokking Deep Reinforcement Learning"
+    },
+    {
+      "id": "book:20210809-grokking-machine-learning",
+      "type": "book",
+      "collection": "book",
+      "label": "Grokking Machine Learning",
+      "title": "Grokking Machine Learning",
+      "url": "/books/20210809-grokking-machine-learning/",
+      "count": 1,
+      "search": "Grokking Machine Learning"
+    },
+    {
+      "id": "book:20220704-grokking-streaming-systems",
+      "type": "book",
+      "collection": "book",
+      "label": "Grokking Streaming Systems",
+      "title": "Grokking Streaming Systems",
+      "url": "/books/20220704-grokking-streaming-systems/",
+      "count": 1,
+      "search": "Grokking Streaming Systems"
+    },
+    {
+      "id": "book:20220718-hands-on-data-analysis-with-pandas",
+      "type": "book",
+      "collection": "book",
+      "label": "Hands-On Data Analysis with Pandas - Second Edition",
+      "title": "Hands-On Data Analysis with Pandas - Second Edition",
+      "url": "/books/20220718-hands-on-data-analysis-with-pandas/",
+      "count": 1,
+      "search": "Hands On Data Analysis with Pandas Second Edition"
+    },
+    {
+      "id": "book:20220228-hands-on-data-preprocessing-in-python",
+      "type": "book",
+      "collection": "book",
+      "label": "Hands-On Data Preprocessing in Python",
+      "title": "Hands-On Data Preprocessing in Python",
+      "url": "/books/20220228-hands-on-data-preprocessing-in-python/",
+      "count": 1,
+      "search": "Hands On Data Preprocessing in Python"
+    },
+    {
+      "id": "book:20230612-hands-on-time-series-analysis-with-python",
+      "type": "book",
+      "collection": "book",
+      "label": "Hands-on Time Series Analysis with Python",
+      "title": "Hands-on Time Series Analysis with Python",
+      "url": "/books/20230612-hands-on-time-series-analysis-with-python/",
+      "count": 1,
+      "search": "Hands on Time Series Analysis with Python"
+    },
+    {
+      "id": "book:20250922-how-software-fails",
+      "type": "book",
+      "collection": "book",
+      "label": "How Software Fails",
+      "title": "How Software Fails",
+      "url": "/books/20250922-how-software-fails/",
+      "count": 1,
+      "search": "How Software Fails"
+    },
+    {
+      "id": "book:20220411-interpretable-machine-learning",
+      "type": "book",
+      "collection": "book",
+      "label": "Interpretable Machine Learning",
+      "title": "Interpretable Machine Learning",
+      "url": "/books/20220411-interpretable-machine-learning/",
+      "count": 1,
+      "search": "Interpretable Machine Learning"
+    },
+    {
+      "id": "book:20210719-interpretable-machine-learning-with-python",
+      "type": "book",
+      "collection": "book",
+      "label": "Interpretable Machine Learning with Python",
+      "title": "Interpretable Machine Learning with Python",
+      "url": "/books/20210719-interpretable-machine-learning-with-python/",
+      "count": 1,
+      "search": "Interpretable Machine Learning with Python"
+    },
+    {
+      "id": "book:20210329-learning-tensorflow-js",
+      "type": "book",
+      "collection": "book",
+      "label": "Learning Tensorflow.js",
+      "title": "Learning Tensorflow.js",
+      "url": "/books/20210329-learning-tensorflow-js/",
+      "count": 1,
+      "search": "Learning Tensorflow.js"
+    },
+    {
+      "id": "book:20241104-llm-engineer-s-handbook",
+      "type": "book",
+      "collection": "book",
+      "label": "LLM Engineer's Handbook",
+      "title": "LLM Engineer's Handbook",
+      "url": "/books/20241104-llm-engineer-s-handbook/",
+      "count": 1,
+      "search": "LLM Engineer's Handbook"
+    },
+    {
+      "id": "book:20250908-machine-learning-algorithms-in-depth",
+      "type": "book",
+      "collection": "book",
+      "label": "Machine Learning Algorithms in Depth",
+      "title": "Machine Learning Algorithms in Depth",
+      "url": "/books/20250908-machine-learning-algorithms-in-depth/",
+      "count": 1,
+      "search": "Machine Learning Algorithms in Depth"
+    },
+    {
+      "id": "book:20201214-ml-bookcamp",
+      "type": "book",
+      "collection": "book",
+      "label": "Machine Learning Bookcamp",
+      "title": "Machine Learning Bookcamp",
+      "url": "/books/20201214-ml-bookcamp/",
+      "count": 1,
+      "search": "Machine Learning Bookcamp"
+    },
+    {
+      "id": "book:20210208-ml-design-patterns",
+      "type": "book",
+      "collection": "book",
+      "label": "Machine Learning Design Patterns",
+      "title": "Machine Learning Design Patterns",
+      "url": "/books/20210208-ml-design-patterns/",
+      "count": 1,
+      "search": "Machine Learning Design Patterns"
+    },
+    {
+      "id": "book:20210301-ml-engineering",
+      "type": "book",
+      "collection": "book",
+      "label": "Machine Learning Engineering in Action",
+      "title": "Machine Learning Engineering in Action",
+      "url": "/books/20210301-ml-engineering/",
+      "count": 1,
+      "search": "Machine Learning Engineering in Action"
+    },
+    {
+      "id": "book:20220117-machine-learning-engineering-with-python",
+      "type": "book",
+      "collection": "book",
+      "label": "Machine Learning Engineering with Python",
+      "title": "Machine Learning Engineering with Python",
+      "url": "/books/20220117-machine-learning-engineering-with-python/",
+      "count": 1,
+      "search": "Machine Learning Engineering with Python"
+    },
+    {
+      "id": "book:20210222-ml-algotrading-2ed",
+      "type": "book",
+      "collection": "book",
+      "label": "Machine Learning for Algorithmic Trading",
+      "title": "Machine Learning for Algorithmic Trading",
+      "url": "/books/20210222-ml-algotrading-2ed/",
+      "count": 1,
+      "search": "Machine Learning for Algorithmic Trading"
+    },
+    {
+      "id": "book:20250505-machine-learning-for-tabular-data",
+      "type": "book",
+      "collection": "book",
+      "label": "Machine Learning for Tabular Data",
+      "title": "Machine Learning for Tabular Data",
+      "url": "/books/20250505-machine-learning-for-tabular-data/",
+      "count": 1,
+      "search": "Machine Learning for Tabular Data"
+    },
+    {
+      "id": "book:20221107-machine-learning-on-kubernetes",
+      "type": "book",
+      "collection": "book",
+      "label": "Machine Learning on Kubernetes",
+      "title": "Machine Learning on Kubernetes",
+      "url": "/books/20221107-machine-learning-on-kubernetes/",
+      "count": 1,
+      "search": "Machine Learning on Kubernetes"
+    },
+    {
+      "id": "book:20210503-machine-learning-using-tensorflow-cookbook",
+      "type": "book",
+      "collection": "book",
+      "label": "Machine Learning Using TensorFlow Cookbook",
+      "title": "Machine Learning Using TensorFlow Cookbook",
+      "url": "/books/20210503-machine-learning-using-tensorflow-cookbook/",
+      "count": 1,
+      "search": "Machine Learning Using TensorFlow Cookbook"
+    },
+    {
+      "id": "book:20221010-managing-machine-learning-projects",
+      "type": "book",
+      "collection": "book",
+      "label": "Managing Machine Learning Projects",
+      "title": "Managing Machine Learning Projects",
+      "url": "/books/20221010-managing-machine-learning-projects/",
+      "count": 1,
+      "search": "Managing Machine Learning Projects"
+    },
+    {
+      "id": "book:20210125-mastering-ml-algorithms-2ed",
+      "type": "book",
+      "collection": "book",
+      "label": "Mastering Machine Learning Algorithms - Second Edition",
+      "title": "Mastering Machine Learning Algorithms - Second Edition",
+      "url": "/books/20210125-mastering-ml-algorithms-2ed/",
+      "count": 1,
+      "search": "Mastering Machine Learning Algorithms Second Edition"
+    },
+    {
+      "id": "book:20211213-mastering-spacy",
+      "type": "book",
+      "collection": "book",
+      "label": "Mastering spaCy",
+      "title": "Mastering spaCy",
+      "url": "/books/20211213-mastering-spacy/",
+      "count": 1,
+      "search": "Mastering spaCy"
+    },
+    {
+      "id": "book:20211011-mastering-transformers",
+      "type": "book",
+      "collection": "book",
+      "label": "Mastering Transformers",
+      "title": "Mastering Transformers",
+      "url": "/books/20211011-mastering-transformers/",
+      "count": 1,
+      "search": "Mastering Transformers"
+    },
+    {
+      "id": "book:20210215-math-for-programmers",
+      "type": "book",
+      "collection": "book",
+      "label": "Math for Programmers",
+      "title": "Math for Programmers",
+      "url": "/books/20210215-math-for-programmers/",
+      "count": 1,
+      "search": "Math for Programmers"
+    },
+    {
+      "id": "book:20230529-modeling-mindsets",
+      "type": "book",
+      "collection": "book",
+      "label": "Modeling Mindsets",
+      "title": "Modeling Mindsets",
+      "url": "/books/20230529-modeling-mindsets/",
+      "count": 1,
+      "search": "Modeling Mindsets"
+    },
+    {
+      "id": "book:20220425-natural-language-processing-with-transformers",
+      "type": "book",
+      "collection": "book",
+      "label": "Natural Language Processing with Transformers",
+      "title": "Natural Language Processing with Transformers",
+      "url": "/books/20220425-natural-language-processing-with-transformers/",
+      "count": 1,
+      "search": "Natural Language Processing with Transformers"
+    },
+    {
+      "id": "book:20211129-own-your-tech-career",
+      "type": "book",
+      "collection": "book",
+      "label": "Own Your Tech Career",
+      "title": "Own Your Tech Career",
+      "url": "/books/20211129-own-your-tech-career/",
+      "count": 1,
+      "search": "Own Your Tech Career"
+    },
+    {
+      "id": "book:20220523-practical-fairness",
+      "type": "book",
+      "collection": "book",
+      "label": "Practical Fairness",
+      "title": "Practical Fairness",
+      "url": "/books/20220523-practical-fairness/",
+      "count": 1,
+      "search": "Practical Fairness"
+    },
+    {
+      "id": "book:20210830-practical-mlops",
+      "type": "book",
+      "collection": "book",
+      "label": "Practical MLOps",
+      "title": "Practical MLOps",
+      "url": "/books/20210830-practical-mlops/",
+      "count": 1,
+      "search": "Practical MLOps"
+    },
+    {
+      "id": "book:20210802-practical-recommender-systems",
+      "type": "book",
+      "collection": "book",
+      "label": "Practical Recommender Systems",
+      "title": "Practical Recommender Systems",
+      "url": "/books/20210802-practical-recommender-systems/",
+      "count": 1,
+      "search": "Practical Recommender Systems"
+    },
+    {
+      "id": "book:20250728-production-ready-data-science",
+      "type": "book",
+      "collection": "book",
+      "label": "Production‑Ready Data Science",
+      "title": "Production‑Ready Data Science",
+      "url": "/books/20250728-production-ready-data-science/",
+      "count": 1,
+      "search": "Production‑Ready Data Science"
+    },
+    {
+      "id": "book:20240701-prompt-engineering-for-generative-ai",
+      "type": "book",
+      "collection": "book",
+      "label": "Prompt Engineering for Generative AI",
+      "title": "Prompt Engineering for Generative AI",
+      "url": "/books/20240701-prompt-engineering-for-generative-ai/",
+      "count": 1,
+      "search": "Prompt Engineering for Generative AI"
+    },
+    {
+      "id": "book:20210920-python-feature-engineering-cookbook",
+      "type": "book",
+      "collection": "book",
+      "label": "Python Feature Engineering Cookbook",
+      "title": "Python Feature Engineering Cookbook",
+      "url": "/books/20210920-python-feature-engineering-cookbook/",
+      "count": 1,
+      "search": "Python Feature Engineering Cookbook"
+    },
+    {
+      "id": "book:20220620-python-machine-learning-by-example",
+      "type": "book",
+      "collection": "book",
+      "label": "Python Machine Learning By Example",
+      "title": "Python Machine Learning By Example",
+      "url": "/books/20220620-python-machine-learning-by-example/",
+      "count": 1,
+      "search": "Python Machine Learning By Example"
+    },
+    {
+      "id": "book:20210111-reinforcement-learning",
+      "type": "book",
+      "collection": "book",
+      "label": "Reinforcement Learning",
+      "title": "Reinforcement Learning",
+      "url": "/books/20210111-reinforcement-learning/",
+      "count": 1,
+      "search": "Reinforcement Learning"
+    },
+    {
+      "id": "book:20210712-relevant-search",
+      "type": "book",
+      "collection": "book",
+      "label": "Relevant Search",
+      "title": "Relevant Search",
+      "url": "/books/20210712-relevant-search/",
+      "count": 1,
+      "search": "Relevant Search"
+    },
+    {
+      "id": "book:20221121-reliable-machine-learning",
+      "type": "book",
+      "collection": "book",
+      "label": "Reliable Machine Learning",
+      "title": "Reliable Machine Learning",
+      "url": "/books/20221121-reliable-machine-learning/",
+      "count": 1,
+      "search": "Reliable Machine Learning"
+    },
+    {
+      "id": "book:20220328-serverless-analytics-with-amazon-athena",
+      "type": "book",
+      "collection": "book",
+      "label": "Serverless Analytics with Amazon Athena",
+      "title": "Serverless Analytics with Amazon Athena",
+      "url": "/books/20220328-serverless-analytics-with-amazon-athena/",
+      "count": 1,
+      "search": "Serverless Analytics with Amazon Athena"
+    },
+    {
+      "id": "book:20220912-skills-of-successful-software-engineer",
+      "type": "book",
+      "collection": "book",
+      "label": "Skills of a Successful Software Engineer",
+      "title": "Skills of a Successful Software Engineer",
+      "url": "/books/20220912-skills-of-successful-software-engineer/",
+      "count": 1,
+      "search": "Skills of a Successful Software Engineer"
+    },
+    {
+      "id": "book:20230123-snowflake-definitive-guide",
+      "type": "book",
+      "collection": "book",
+      "label": "Snowflake: The Definitive Guide",
+      "title": "Snowflake: The Definitive Guide",
+      "url": "/books/20230123-snowflake-definitive-guide/",
+      "count": 1,
+      "search": "Snowflake: The Definitive Guide"
+    },
+    {
+      "id": "book:20251006-software-development-at-rocket-speed",
+      "type": "book",
+      "collection": "book",
+      "label": "Software Development at Rocket Speed",
+      "title": "Software Development at Rocket Speed",
+      "url": "/books/20251006-software-development-at-rocket-speed/",
+      "count": 1,
+      "search": "Software Development at Rocket Speed"
+    },
+    {
+      "id": "book:20210906-software-mistakes-and-tradeoffs",
+      "type": "book",
+      "collection": "book",
+      "label": "Software Mistakes and Tradeoffs",
+      "title": "Software Mistakes and Tradeoffs",
+      "url": "/books/20210906-software-mistakes-and-tradeoffs/",
+      "count": 1,
+      "search": "Software Mistakes and Tradeoffs"
+    },
+    {
+      "id": "book:20210322-street-coder",
+      "type": "book",
+      "collection": "book",
+      "label": "Street Coder",
+      "title": "Street Coder",
+      "url": "/books/20210322-street-coder/",
+      "count": 1,
+      "search": "Street Coder"
+    },
+    {
+      "id": "book:20210510-the-coding-career-handbook",
+      "type": "book",
+      "collection": "book",
+      "label": "The Coding Career Handbook",
+      "title": "The Coding Career Handbook",
+      "url": "/books/20210510-the-coding-career-handbook/",
+      "count": 1,
+      "search": "The Coding Career Handbook"
+    },
+    {
+      "id": "book:20220919-kaggle-book",
+      "type": "book",
+      "collection": "book",
+      "label": "The Kaggle Book",
+      "title": "The Kaggle Book",
+      "url": "/books/20220919-kaggle-book/",
+      "count": 1,
+      "search": "The Kaggle Book"
+    },
+    {
+      "id": "book:20210405-the-practitioners-guide-to-graph-data",
+      "type": "book",
+      "collection": "book",
+      "label": "The Practitioner's Guide to Graph Data",
+      "title": "The Practitioner's Guide to Graph Data",
+      "url": "/books/20210405-the-practitioners-guide-to-graph-data/",
+      "count": 1,
+      "search": "The Practitioner's Guide to Graph Data"
+    },
+    {
+      "id": "book:20210426-tiny-python-projects",
+      "type": "book",
+      "collection": "book",
+      "label": "Tiny Python Projects",
+      "title": "Tiny Python Projects",
+      "url": "/books/20210426-tiny-python-projects/",
+      "count": 1,
+      "search": "Tiny Python Projects"
+    },
+    {
+      "id": "book:20211004-transfer-learning-in-action",
+      "type": "book",
+      "collection": "book",
+      "label": "Transfer Learning in Action",
+      "title": "Transfer Learning in Action",
+      "url": "/books/20211004-transfer-learning-in-action/",
+      "count": 1,
+      "search": "Transfer Learning in Action"
+    },
+    {
+      "id": "book:20210419-transformers-for-natural-language-processing",
+      "type": "book",
+      "collection": "book",
+      "label": "Transformers for Natural Language Processing",
+      "title": "Transformers for Natural Language Processing",
+      "url": "/books/20210419-transformers-for-natural-language-processing/",
+      "count": 1,
+      "search": "Transformers for Natural Language Processing"
+    },
+    {
+      "id": "book:20210816-tuning-up",
+      "type": "book",
+      "collection": "book",
+      "label": "Tuning Up",
+      "title": "Tuning Up",
+      "url": "/books/20210816-tuning-up/",
+      "count": 1,
+      "search": "Tuning Up"
+    },
+    {
+      "id": "book:20240415-understanding-etl",
+      "type": "book",
+      "collection": "book",
+      "label": "Understanding ETL",
+      "title": "Understanding ETL",
+      "url": "/books/20240415-understanding-etl/",
+      "count": 1,
+      "search": "Understanding ETL"
+    },
+    {
+      "id": "book:20241118-why-data-science-projects-fail-harsh-realities-of-implementing-ai-and-analytics-without-hype-chapman-hall-crc-data-science-series",
+      "type": "book",
+      "collection": "book",
+      "label": "Why Data Science Projects Fail: The Harsh Realities of Implementing AI and Analytics, without the Hype (Chapman & Hall/CRC Data Science Series)",
+      "title": "Why Data Science Projects Fail: The Harsh Realities of Implementing AI and Analytics, without the Hype (Chapman & Hall/CRC Data Science Series)",
+      "url": "/books/20241118-why-data-science-projects-fail-harsh-realities-of-implementing-ai-and-analytics-without-hype-chapman-hall-crc-data-science-series/",
+      "count": 1,
+      "search": "Why Data Science Projects Fail: The Harsh Realities of Implementing AI and Analytics, without the Hype (Chapman & Hall/CRC Data Science Series)"
+    },
+    {
+      "id": "book:_template",
+      "type": "book",
+      "collection": "book",
+      "label": "{{ title }}",
+      "title": "{{ title }}",
+      "url": "/books/_template/",
+      "count": 1,
+      "search": ""
     },
     {
       "id": "person:aaishamuhammad",
@@ -7118,7 +8108,7 @@
       "label": "analytics",
       "title": "analytics",
       "url": "/search.html?q=analytics",
-      "count": 2,
+      "count": 7,
       "search": "analytics"
     },
     {
@@ -7156,6 +8146,15 @@
       "url": "/search.html?q=autonomous%20driving",
       "count": 1,
       "search": "autonomous driving"
+    },
+    {
+      "id": "topic:aws",
+      "type": "topic",
+      "label": "aws",
+      "title": "aws",
+      "url": "/search.html?q=aws",
+      "count": 1,
+      "search": "aws"
     },
     {
       "id": "topic:bayesian-statistics",
@@ -7424,7 +8423,7 @@
       "label": "data quality",
       "title": "data quality",
       "url": "/search.html?q=data%20quality",
-      "count": 2,
+      "count": 3,
       "search": "data quality"
     },
     {
@@ -7599,6 +8598,15 @@
       "search": "fairness"
     },
     {
+      "id": "topic:feature-engineering",
+      "type": "topic",
+      "label": "feature engineering",
+      "title": "feature engineering",
+      "url": "/search.html?q=feature%20engineering",
+      "count": 1,
+      "search": "feature engineering"
+    },
+    {
       "id": "topic:federated-learning",
       "type": "topic",
       "label": "federated learning",
@@ -7658,7 +8666,7 @@
       "label": "graph databases",
       "title": "graph databases",
       "url": "/search.html?q=graph%20databases",
-      "count": 1,
+      "count": 2,
       "search": "graph databases"
     },
     {
@@ -7759,6 +8767,15 @@
       "url": "/search.html?q=learning%20to%20rank",
       "count": 1,
       "search": "learning to rank"
+    },
+    {
+      "id": "topic:llm",
+      "type": "topic",
+      "label": "llm",
+      "title": "llm",
+      "url": "/search.html?q=llm",
+      "count": 1,
+      "search": "llm"
     },
     {
       "id": "topic:management",
@@ -7914,6 +8931,15 @@
       "search": "portfolio"
     },
     {
+      "id": "topic:privacy",
+      "type": "topic",
+      "label": "privacy",
+      "title": "privacy",
+      "url": "/search.html?q=privacy",
+      "count": 1,
+      "search": "privacy"
+    },
+    {
       "id": "topic:probabilistic-programming",
       "type": "topic",
       "label": "probabilistic programming",
@@ -8033,11 +9059,11 @@
     {
       "id": "topic:python",
       "type": "topic",
-      "label": "Python",
-      "title": "Python",
-      "url": "/search.html?q=Python",
-      "count": 1,
-      "search": "Python"
+      "label": "python",
+      "title": "python",
+      "url": "/search.html?q=python",
+      "count": 13,
+      "search": "python"
     },
     {
       "id": "topic:qa",
@@ -8121,13 +9147,22 @@
       "search": "solopreneurship"
     },
     {
+      "id": "topic:spark",
+      "type": "topic",
+      "label": "spark",
+      "title": "spark",
+      "url": "/search.html?q=spark",
+      "count": 2,
+      "search": "spark"
+    },
+    {
       "id": "topic:sql",
       "type": "topic",
-      "label": "SQL",
-      "title": "SQL",
-      "url": "/search.html?q=SQL",
-      "count": 1,
-      "search": "SQL"
+      "label": "sql",
+      "title": "sql",
+      "url": "/search.html?q=sql",
+      "count": 2,
+      "search": "sql"
     },
     {
       "id": "topic:sql-transformations",
@@ -8209,6 +9244,15 @@
       "url": "/search.html?q=technical%20leadership",
       "count": 1,
       "search": "technical leadership"
+    },
+    {
+      "id": "topic:time-series",
+      "type": "topic",
+      "label": "time series",
+      "title": "time series",
+      "url": "/search.html?q=time%20series",
+      "count": 1,
+      "search": "time series"
     },
     {
       "id": "topic:vector-infrastructure",
@@ -24125,6 +25169,1296 @@
       "target": "wiki:technical-writing",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "book:20201214-ml-bookcamp",
+      "target": "person:alexeygrigorev",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20201214-ml-bookcamp",
+      "target": "wiki:machine-learning",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20210111-reinforcement-learning",
+      "target": "person:philwinder",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20210111-reinforcement-learning",
+      "target": "wiki:reinforcement-learning",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20210118-deep-learning-structured-data",
+      "target": "person:markryan",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20210118-deep-learning-structured-data",
+      "target": "wiki:deep-learning",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20210125-mastering-ml-algorithms-2ed",
+      "target": "person:giuseppebonaccorso",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20210125-mastering-ml-algorithms-2ed",
+      "target": "wiki:machine-learning",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20210201-data-teams",
+      "target": "person:jesseanderson",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20210208-ml-design-patterns",
+      "target": "person:michaelmunn",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20210208-ml-design-patterns",
+      "target": "wiki:machine-learning",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20210215-math-for-programmers",
+      "target": "person:paulorland",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20210222-ml-algotrading-2ed",
+      "target": "person:stefanjansen",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20210222-ml-algotrading-2ed",
+      "target": "wiki:machine-learning",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20210301-ml-engineering",
+      "target": "person:benwilson",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20210301-ml-engineering",
+      "target": "wiki:machine-learning",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20210308-designing-data-intensive-applications",
+      "target": "person:martinkleppmann",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20210315-database-internals",
+      "target": "person:alexpetrov",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20210322-street-coder",
+      "target": "person:sedatkapanoglu",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20210329-learning-tensorflow-js",
+      "target": "person:gantlaborde",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20210405-the-practitioners-guide-to-graph-data",
+      "target": "person:denisegosnell",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20210412-ai-and-machine-learning-for-coders",
+      "target": "person:laurencemoroney",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20210412-ai-and-machine-learning-for-coders",
+      "target": "wiki:ai",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20210412-ai-and-machine-learning-for-coders",
+      "target": "wiki:machine-learning",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20210419-transformers-for-natural-language-processing",
+      "target": "person:denisrothman",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20210426-tiny-python-projects",
+      "target": "person:kenyouens-clark",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20210426-tiny-python-projects",
+      "target": "topic:python",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20210503-machine-learning-using-tensorflow-cookbook",
+      "target": "person:alexiaaudevart",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20210503-machine-learning-using-tensorflow-cookbook",
+      "target": "wiki:machine-learning",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20210510-the-coding-career-handbook",
+      "target": "person:swyx",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20210517-grokking-deep-reinforcement-learning",
+      "target": "person:miguelmorales",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20210517-grokking-deep-reinforcement-learning",
+      "target": "wiki:reinforcement-learning",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20210524-data-governance-the-definitive-guide",
+      "target": "person:jessiashdown",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20210524-data-governance-the-definitive-guide",
+      "target": "person:urigilad",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20210524-data-governance-the-definitive-guide",
+      "target": "wiki:data-governance",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20210531-advanced-algorithms-and-data-structures",
+      "target": "person:marcellolarocca",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20210607-building-machine-learning-pipelines",
+      "target": "person:hanneshapke",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20210607-building-machine-learning-pipelines",
+      "target": "wiki:machine-learning",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20210614-graph-databases-in-action",
+      "target": "person:davebechberger",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20210614-graph-databases-in-action",
+      "target": "topic:graph-databases",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20210621-cleaning-data-for-effective-data-science",
+      "target": "person:davidmertz",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20210621-cleaning-data-for-effective-data-science",
+      "target": "wiki:data-science",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20210628-data-science-on-aws",
+      "target": "person:antjebarth",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20210628-data-science-on-aws",
+      "target": "person:chrisfregly",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20210628-data-science-on-aws",
+      "target": "topic:aws",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20210628-data-science-on-aws",
+      "target": "wiki:data-science",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20210705-engineering-mlops",
+      "target": "person:emmanuelraj",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20210705-engineering-mlops",
+      "target": "wiki:mlops",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20210712-relevant-search",
+      "target": "person:dougturnbull",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20210712-relevant-search",
+      "target": "wiki:search",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20210719-interpretable-machine-learning-with-python",
+      "target": "person:sergmasis",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20210719-interpretable-machine-learning-with-python",
+      "target": "topic:python",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20210719-interpretable-machine-learning-with-python",
+      "target": "wiki:machine-learning",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20210726-applied-natural-language-processing-in-the-enterprise",
+      "target": "person:ankurapatel",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20210726-applied-natural-language-processing-in-the-enterprise",
+      "target": "wiki:ai",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20210802-practical-recommender-systems",
+      "target": "person:kimfalk",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20210809-grokking-machine-learning",
+      "target": "person:luisserrano",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20210809-grokking-machine-learning",
+      "target": "wiki:machine-learning",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20210816-tuning-up",
+      "target": "person:davidsweet",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20210823-business-skills-for-data-scientists",
+      "target": "person:davidstephenson",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20210830-practical-mlops",
+      "target": "person:noahgift",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20210830-practical-mlops",
+      "target": "wiki:mlops",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20210906-software-mistakes-and-tradeoffs",
+      "target": "person:jonskeet",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20210906-software-mistakes-and-tradeoffs",
+      "target": "person:tomaszlelek",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20210913-dataops-for-dummies",
+      "target": "person:guyadams",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20210920-python-feature-engineering-cookbook",
+      "target": "person:soledadgalli",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20210920-python-feature-engineering-cookbook",
+      "target": "topic:feature-engineering",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20210920-python-feature-engineering-cookbook",
+      "target": "topic:python",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20210927-effective-data-science-infrastructure",
+      "target": "person:villetuulos",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20210927-effective-data-science-infrastructure",
+      "target": "wiki:data-science",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20211004-transfer-learning-in-action",
+      "target": "person:raghavbali",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20211004-transfer-learning-in-action",
+      "target": "wiki:rag",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20211011-mastering-transformers",
+      "target": "person:meysamasgarichenaghlu",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20211011-mastering-transformers",
+      "target": "person:savasyildirim",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20211018-blueprints-for-text-analytics-using-python",
+      "target": "person:christianwinkler",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20211018-blueprints-for-text-analytics-using-python",
+      "target": "person:jensalbrecht",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20211018-blueprints-for-text-analytics-using-python",
+      "target": "person:sidharthramachandran",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20211018-blueprints-for-text-analytics-using-python",
+      "target": "topic:analytics",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20211018-blueprints-for-text-analytics-using-python",
+      "target": "topic:python",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20211025-data-analysis-with-python-and-pyspark",
+      "target": "person:jonathanrioux",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20211025-data-analysis-with-python-and-pyspark",
+      "target": "topic:python",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20211025-data-analysis-with-python-and-pyspark",
+      "target": "topic:spark",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20211101-ai-powered-search",
+      "target": "person:dougturnbull",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20211101-ai-powered-search",
+      "target": "wiki:ai",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20211101-ai-powered-search",
+      "target": "wiki:search",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20211108-generative-ai-with-python-and-tensorflow-2",
+      "target": "person:raghavbali",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20211108-generative-ai-with-python-and-tensorflow-2",
+      "target": "topic:python",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20211108-generative-ai-with-python-and-tensorflow-2",
+      "target": "wiki:ai",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20211108-generative-ai-with-python-and-tensorflow-2",
+      "target": "wiki:rag",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20211115-ace-the-data-science-interview",
+      "target": "person:kevinhuo",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20211115-ace-the-data-science-interview",
+      "target": "person:nicksingh",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20211115-ace-the-data-science-interview",
+      "target": "wiki:data-science",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20211122-building-machine-learning-powered-applications",
+      "target": "person:emmanuelameisen",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20211122-building-machine-learning-powered-applications",
+      "target": "wiki:machine-learning",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20211129-own-your-tech-career",
+      "target": "person:donjones",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20211206-deep-learning-with-fastai-cookbook",
+      "target": "person:markryan",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20211206-deep-learning-with-fastai-cookbook",
+      "target": "wiki:ai",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20211206-deep-learning-with-fastai-cookbook",
+      "target": "wiki:deep-learning",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20211213-mastering-spacy",
+      "target": "person:duygualtinok",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20220117-machine-learning-engineering-with-python",
+      "target": "person:andrewmcmahon",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20220117-machine-learning-engineering-with-python",
+      "target": "topic:python",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20220117-machine-learning-engineering-with-python",
+      "target": "wiki:machine-learning",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20220131-effective-pandas",
+      "target": "person:mattharrison",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20220214-a-visual-introduction-to-deep-learning",
+      "target": "person:meoramer",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20220214-a-visual-introduction-to-deep-learning",
+      "target": "wiki:deep-learning",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20220228-hands-on-data-preprocessing-in-python",
+      "target": "person:royjafari",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20220228-hands-on-data-preprocessing-in-python",
+      "target": "topic:python",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20220314-data-engineering-with-apache-spark-delta-lake-and-lakehouse",
+      "target": "person:manojkukreja",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20220314-data-engineering-with-apache-spark-delta-lake-and-lakehouse",
+      "target": "topic:spark",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20220314-data-engineering-with-apache-spark-delta-lake-and-lakehouse",
+      "target": "wiki:data-engineering",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20220328-serverless-analytics-with-amazon-athena",
+      "target": "person:anthonyvirtuoso",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20220328-serverless-analytics-with-amazon-athena",
+      "target": "topic:analytics",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20220411-interpretable-machine-learning",
+      "target": "person:christophmolnar",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20220411-interpretable-machine-learning",
+      "target": "wiki:machine-learning",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20220425-natural-language-processing-with-transformers",
+      "target": "person:leandrovonwerra",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20220425-natural-language-processing-with-transformers",
+      "target": "person:lewistunstall",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20220425-natural-language-processing-with-transformers",
+      "target": "person:thomaswolf",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20220509-artificial-intelligence-with-python",
+      "target": "person:prateekjoshi",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20220509-artificial-intelligence-with-python",
+      "target": "topic:python",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20220516-everyday-ml-questions",
+      "target": "person:svpino",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20220516-everyday-ml-questions",
+      "target": "person:vladimirhaltakov",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20220523-practical-fairness",
+      "target": "person:nielsenaileen",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20220523-practical-fairness",
+      "target": "wiki:ai",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20220606-ai-powered-business-intelligence",
+      "target": "person:tobiaszwingmann",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20220606-ai-powered-business-intelligence",
+      "target": "wiki:ai",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20220620-python-machine-learning-by-example",
+      "target": "person:haydenliu",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20220620-python-machine-learning-by-example",
+      "target": "topic:python",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20220620-python-machine-learning-by-example",
+      "target": "wiki:machine-learning",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20220627-designing-machine-learning-systems",
+      "target": "person:chiphuyen",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20220627-designing-machine-learning-systems",
+      "target": "wiki:machine-learning",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20220704-grokking-streaming-systems",
+      "target": "person:joshfischer",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20220704-grokking-streaming-systems",
+      "target": "person:ningwang",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20220704-grokking-streaming-systems",
+      "target": "wiki:streaming",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20220718-hands-on-data-analysis-with-pandas",
+      "target": "person:stefaniemolin",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20220801-data-analytics-initiatives",
+      "target": "person:davidbednar",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20220801-data-analytics-initiatives",
+      "target": "person:martinpotancok",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20220801-data-analytics-initiatives",
+      "target": "person:ondrejbothe",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20220801-data-analytics-initiatives",
+      "target": "person:ondrejkubera",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20220801-data-analytics-initiatives",
+      "target": "topic:analytics",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20220815-fundamentals-of-data-engineering",
+      "target": "person:joereis",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20220815-fundamentals-of-data-engineering",
+      "target": "person:matthewhousley",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20220815-fundamentals-of-data-engineering",
+      "target": "wiki:data-engineering",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20220829-essential-math-for-data-science",
+      "target": "person:thomasnield",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20220829-essential-math-for-data-science",
+      "target": "wiki:data-science",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20220912-skills-of-successful-software-engineer",
+      "target": "person:fernandodoglio",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20220919-kaggle-book",
+      "target": "person:konradbanachewicz",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20220919-kaggle-book",
+      "target": "person:lucamassaron",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20220926-graph-algorithms-for-data-science",
+      "target": "person:tomazbratanic",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20220926-graph-algorithms-for-data-science",
+      "target": "wiki:data-science",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20221010-managing-machine-learning-projects",
+      "target": "person:simonthompson",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20221010-managing-machine-learning-projects",
+      "target": "wiki:machine-learning",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20221107-comet-for-data-science",
+      "target": "person:angelicaloduca",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20221107-comet-for-data-science",
+      "target": "wiki:data-science",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20221107-machine-learning-on-kubernetes",
+      "target": "person:faisalmasood",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20221107-machine-learning-on-kubernetes",
+      "target": "person:rossbrigoli",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20221107-machine-learning-on-kubernetes",
+      "target": "wiki:ai",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20221107-machine-learning-on-kubernetes",
+      "target": "wiki:machine-learning",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20221121-reliable-machine-learning",
+      "target": "person:cathychen",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20221121-reliable-machine-learning",
+      "target": "person:krantik-parisa",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20221121-reliable-machine-learning",
+      "target": "person:niallmurphy",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20221121-reliable-machine-learning",
+      "target": "person:toddunderwood",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20221121-reliable-machine-learning",
+      "target": "wiki:machine-learning",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20230123-snowflake-definitive-guide",
+      "target": "person:joycekayavila",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20230306-gpt-3",
+      "target": "person:sandrakublik",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20230306-gpt-3",
+      "target": "person:shubhamsaboo",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20230529-modeling-mindsets",
+      "target": "person:christophmolnar",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20230612-hands-on-time-series-analysis-with-python",
+      "target": "person:ashishpatel",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20230612-hands-on-time-series-analysis-with-python",
+      "target": "person:vishwasbv",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20230612-hands-on-time-series-analysis-with-python",
+      "target": "topic:python",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20230612-hands-on-time-series-analysis-with-python",
+      "target": "topic:time-series",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20230807-driving-data-quality-with-data-contracts",
+      "target": "person:andrewjones",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20230807-driving-data-quality-with-data-contracts",
+      "target": "topic:data-quality",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20231106-analytics-engineering-with-sql-and-dbt",
+      "target": "person:helderrussa",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20231106-analytics-engineering-with-sql-and-dbt",
+      "target": "person:ruimachado",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20231106-analytics-engineering-with-sql-and-dbt",
+      "target": "topic:analytics",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20231106-analytics-engineering-with-sql-and-dbt",
+      "target": "topic:sql",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20231106-analytics-engineering-with-sql-and-dbt",
+      "target": "wiki:dbt",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20240115-distributed-machine-learning-patterns",
+      "target": "person:yuantang",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20240115-distributed-machine-learning-patterns",
+      "target": "wiki:machine-learning",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20240205-creating-intelligent-products",
+      "target": "person:jannalipenkova",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20240408-data-centric-machine-learning-with-python",
+      "target": "person:jonaschristensen",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20240408-data-centric-machine-learning-with-python",
+      "target": "person:manmohangosada",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20240408-data-centric-machine-learning-with-python",
+      "target": "person:nakulbajaj",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20240408-data-centric-machine-learning-with-python",
+      "target": "topic:python",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20240408-data-centric-machine-learning-with-python",
+      "target": "wiki:machine-learning",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20240415-understanding-etl",
+      "target": "person:mattpalmer",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20240429-fundamentals-of-data-observability",
+      "target": "person:andypetrella",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20240701-prompt-engineering-for-generative-ai",
+      "target": "person:jamesphoenix",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20240701-prompt-engineering-for-generative-ai",
+      "target": "person:michaeltaylor",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20240701-prompt-engineering-for-generative-ai",
+      "target": "wiki:ai",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20240715-ai-data-privacy-and-protection",
+      "target": "person:justinryan",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20240715-ai-data-privacy-and-protection",
+      "target": "person:mariolazo",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20240715-ai-data-privacy-and-protection",
+      "target": "topic:privacy",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20240715-ai-data-privacy-and-protection",
+      "target": "wiki:ai",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20240902-data-storytelling-with-altair-and-ai",
+      "target": "person:angelicaloduca",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20240902-data-storytelling-with-altair-and-ai",
+      "target": "wiki:ai",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20241017-build-large-language-model-from-scratch",
+      "target": "person:sebastianraschka",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20241104-llm-engineer-s-handbook",
+      "target": "person:maximelabonne",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20241104-llm-engineer-s-handbook",
+      "target": "person:pauliusztin",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20241104-llm-engineer-s-handbook",
+      "target": "topic:llm",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20241118-why-data-science-projects-fail-harsh-realities-of-implementing-ai-and-analytics-without-hype-chapman-hall-crc-data-science-series",
+      "target": "person:douglasgray",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20241118-why-data-science-projects-fail-harsh-realities-of-implementing-ai-and-analytics-without-hype-chapman-hall-crc-data-science-series",
+      "target": "person:evanshellshear",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20241118-why-data-science-projects-fail-harsh-realities-of-implementing-ai-and-analytics-without-hype-chapman-hall-crc-data-science-series",
+      "target": "topic:analytics",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20241118-why-data-science-projects-fail-harsh-realities-of-implementing-ai-and-analytics-without-hype-chapman-hall-crc-data-science-series",
+      "target": "wiki:ai",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20241118-why-data-science-projects-fail-harsh-realities-of-implementing-ai-and-analytics-without-hype-chapman-hall-crc-data-science-series",
+      "target": "wiki:data-science",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20250505-machine-learning-for-tabular-data",
+      "target": "person:lucamassaron",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20250505-machine-learning-for-tabular-data",
+      "target": "person:markryan",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20250505-machine-learning-for-tabular-data",
+      "target": "wiki:machine-learning",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20250728-production-ready-data-science",
+      "target": "person:khuyentran",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20250728-production-ready-data-science",
+      "target": "wiki:data-science",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20250908-machine-learning-algorithms-in-depth",
+      "target": "person:vadimsmolyakov",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20250908-machine-learning-algorithms-in-depth",
+      "target": "wiki:machine-learning",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20250922-how-software-fails",
+      "target": "person:enginyoyen",
+      "kind": "book-link",
+      "weight": 1
+    },
+    {
+      "source": "book:20250922-how-software-fails",
+      "target": "wiki:ai",
+      "kind": "book-topic",
+      "weight": 2
+    },
+    {
+      "source": "book:20251006-software-development-at-rocket-speed",
+      "target": "person:nikolaysmorchkov",
+      "kind": "book-link",
+      "weight": 1
     },
     {
       "source": "person:16rahuljain",
@@ -42812,6 +45146,12 @@
     },
     {
       "source": "wiki:agent-engineering",
+      "target": "wiki:agent-ops",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-engineering",
       "target": "wiki:ai-engineer-role",
       "kind": "wiki-link",
       "weight": 1
@@ -43874,6 +46214,12 @@
     },
     {
       "source": "wiki:ai-engineer-role",
+      "target": "article:roadmap:ai-engineer-roadmap",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineer-role",
       "target": "person:bartoszmikulski",
       "kind": "wiki-link",
       "weight": 1
@@ -43959,6 +46305,12 @@
     {
       "source": "wiki:ai-engineer-role",
       "target": "wiki:ai-agents",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineer-role",
+      "target": "wiki:ai-coding-tools",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -44186,6 +46538,12 @@
     },
     {
       "source": "wiki:ai-engineering",
+      "target": "article:roadmap:ai-engineer-roadmap",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineering",
       "target": "person:bartoszmikulski",
       "kind": "wiki-link",
       "weight": 1
@@ -44258,12 +46616,24 @@
     },
     {
       "source": "wiki:ai-engineering",
+      "target": "wiki:agent-ops",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineering",
       "target": "wiki:ai-agents",
       "kind": "wiki-link",
       "weight": 1
     },
     {
       "source": "wiki:ai-engineering",
+      "target": "wiki:ai-coding-tools",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineering",
       "target": "wiki:ai-engineer-role",
       "kind": "wiki-link",
       "weight": 1
@@ -44297,6 +46667,12 @@
       "target": "wiki:ai-infrastructure",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "wiki:context-engineering",
+      "kind": "wiki-link",
+      "weight": 1
     },
     {
       "source": "wiki:ai-engineering",
@@ -46085,6 +48461,12 @@
       "target": "wiki:agent-engineering",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:ai-tooling",
+      "target": "wiki:ai-coding-tools",
+      "kind": "wiki-link",
+      "weight": 1
     },
     {
       "source": "wiki:ai-tooling",
@@ -47966,6 +50348,12 @@
     },
     {
       "source": "wiki:bioinformatics-data-science",
+      "target": "person:aaishamuhammad",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:bioinformatics-data-science",
       "target": "person:sebastianayalaruano",
       "kind": "wiki-link",
       "weight": 1
@@ -47973,6 +50361,12 @@
     {
       "source": "wiki:bioinformatics-data-science",
       "target": "podcast:bioinformatics-worflows-tools-and-data-science",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:bioinformatics-data-science",
+      "target": "podcast:learning-machine-learning-self-taught-bioinformatics",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -48500,6 +50894,12 @@
     },
     {
       "source": "wiki:career-development",
+      "target": "person:rahuljain",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-development",
       "target": "person:ruslanshchuchkin",
       "kind": "wiki-link",
       "weight": 1
@@ -48579,6 +50979,12 @@
     {
       "source": "wiki:career-development",
       "target": "podcast:job-search-strategy-in-tech-projects-skills-cv-networking",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-development",
+      "target": "podcast:mentoring-in-tech-how-to-find-and-become-a-mentor",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -49202,6 +51608,12 @@
     },
     {
       "source": "wiki:career-transitions-in-data",
+      "target": "person:aaishamuhammad",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
       "target": "person:adrianbrudaru",
       "kind": "wiki-link",
       "weight": 1
@@ -49377,6 +51789,12 @@
     {
       "source": "wiki:career-transitions-in-data",
       "target": "podcast:hugging-face-contributions-and-nlp-portfolio",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-transitions-in-data",
+      "target": "podcast:learning-machine-learning-self-taught-bioinformatics",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -59708,6 +62126,12 @@
     },
     {
       "source": "wiki:data-strategy",
+      "target": "person:parvathykrishnan",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-strategy",
       "target": "person:urigilad",
       "kind": "wiki-link",
       "weight": 1
@@ -59733,6 +62157,12 @@
     {
       "source": "wiki:data-strategy",
       "target": "podcast:data-mesh-architecture-decentralized-data-products",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-strategy",
+      "target": "podcast:data-science-and-analytics-for-nonprofits-tech-for-good",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -69740,6 +72170,12 @@
     },
     {
       "source": "wiki:llm-production-patterns",
+      "target": "wiki:agent-ops",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-production-patterns",
       "target": "wiki:ai-engineer-role",
       "kind": "wiki-link",
       "weight": 1
@@ -69807,6 +72243,12 @@
     {
       "source": "wiki:llm-production-patterns",
       "target": "wiki:evaluation",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-production-patterns",
+      "target": "wiki:llm-cost-optimization",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -74096,6 +76538,12 @@
     },
     {
       "source": "wiki:mlops",
+      "target": "wiki:agent-ops",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops",
       "target": "wiki:ci-cd",
       "kind": "wiki-related",
       "weight": 3
@@ -76139,6 +78587,12 @@
       "target": "wiki:agent-engineering",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:multi-agent-systems",
+      "target": "wiki:agent-ops",
+      "kind": "wiki-link",
+      "weight": 1
     },
     {
       "source": "wiki:multi-agent-systems",
@@ -82694,6 +85148,12 @@
     },
     {
       "source": "wiki:responsible-ai-and-governance",
+      "target": "person:sabinafirtala",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:responsible-ai-and-governance",
       "target": "person:supreetkaur",
       "kind": "wiki-link",
       "weight": 1
@@ -82707,6 +85167,12 @@
     {
       "source": "wiki:responsible-ai-and-governance",
       "target": "person:urigilad",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:responsible-ai-and-governance",
+      "target": "podcast:building-domestic-risk-assessment-tool",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -85377,6 +87843,12 @@
     {
       "source": "wiki:software-engineering",
       "target": "podcast:software-engineering-for-machine-learning",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:software-engineering",
+      "target": "wiki:ai-coding-tools",
       "kind": "wiki-link",
       "weight": 1
     },

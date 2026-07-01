@@ -28,6 +28,7 @@ COLLECTIONS = {
     "_roadmaps": ("roadmap", "/roadmaps/"),
     "_how_tos": ("how_to", "/how-tos/"),
     "_podcast_summaries": ("podcast_summary", "/podcasts/"),
+    "_books": ("book", "/books/"),
     "_people": ("person", "/people/"),
 }
 

@@ -43,6 +43,16 @@ Bioinformatics data science sits near
 [data pipelines]({{ '/wiki/data-pipelines/' | relative_url }}). Its biological
 context shapes the data model, validation, and interpretation.
 
+[Aaisha Muhammad]({{ '/people/aaishamuhammad/' | relative_url }}) gives the
+self-taught entry path in
+[Teaching Yourself Bioinformatics and ML]({{ '/podcasts/learning-machine-learning-self-taught-bioinformatics/' | relative_url }}).
+She used the OSSU open curriculum, ML Zoomcamp, and a project-first approach to
+build both bioinformatics and machine learning skills without formal coursework.
+The episode covers resource evaluation, dataset-first project ideation through
+PubMed and Google Scholar, and the transition from notebooks toward Docker and
+deployment. Her capstone work on frog-toxicity prediction shows how a
+self-directed learner can bridge biological questions with ML pipelines.
+
 ## From Sequencing to Analysis
 
 Sequencing is the input side of many bioinformatics workflows. In the 12:35 and

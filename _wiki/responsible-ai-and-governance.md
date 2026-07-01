@@ -150,6 +150,15 @@ literacy to handle new technologies. Her career advice points to volunteer
 projects through Data Science for Social Good and the UN Sustainable Development
 Goals as entry routes for impact-focused data work.
 
+[Sabina Firtala]({{ '/people/sabinafirtala/' | relative_url }}) adds a
+domain-specific risk-scoring case. In
+[Building a Domestic Risk Assessment Tool]({{ '/podcasts/building-domestic-risk-assessment-tool/' | relative_url }}),
+she walks through data cleaning, feature engineering, and risk scoring for a
+frontline social-services tool. The episode connects bias assessment and model
+evaluation to privacy compliance and legal governance. It shows how a
+human-in-the-loop decision support tool must balance accuracy, fairness, and
+privacy before it can reach operational use.
+
 ## Explanations and Review Evidence
 
 Explainability helps responsible AI only when it answers a reviewer's actual

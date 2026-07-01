@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<article class="knowledge-page podcast-summary">
+  <p class="eyebrow">Book of the Week</p>
+  <h1>{{ page.title }}</h1>
+  {% if page.author_names %}
+    <div class="summary-meta">
+      <span>by {{ page.author_names | join: ", " }}</span>
+    </div>
+  {% endif %}
+  {% if page.source_url %}
+    <p class="podcast-source"><a class="button" href="{{ page.source_url }}">Open original DataTalks.Club book page</a></p>
+  {% endif %}
+  {% if page.book_links %}
+    <div class="podcast-platforms">
+      {% for link in page.book_links %}
+        <a href="{{ link.url }}">{{ link.text }}</a>
+      {% endfor %}
+    </div>
+  {% endif %}
+  {% if page.topics %}
+    <div class="meta">
+      {% for topic in page.topics %}
+        <span>{{ topic }}</span>
+      {% endfor %}
+    </div>
+  {% endif %}
+  {{ content }}
+  <section class="graph-connections" data-graph-connections hidden></section>
+</article>
+<script src="{{ '/assets/page-graph.js' | relative_url }}"></script>

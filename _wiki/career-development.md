@@ -202,6 +202,15 @@ exposure for circadian regulation, protein-rich breakfasts for focus, and
 focus to five impactful life goals — including family, sport, nutrition, and
 work output — instead of trying to pursue dozens of interests at once.
 
+[Rahul Jain]({{ '/people/rahuljain/' | relative_url }}) makes mentoring a
+deliberate career-development practice in
+[How to Find a Mentor and Become One]({{ '/podcasts/mentoring-in-tech-how-to-find-and-become-a-mentor/' | relative_url }}).
+He separates one-off advice from ongoing mentoring relationships and gives
+cold-outreach tactics, session preparation, and boundary setting. His discussion
+of paid mentorship, imposter syndrome, and tech-versus-management choices shows
+how mentoring complements internal growth. Mentees benefit from structured
+development plans, while mentors gain pattern recognition and listening skills.
+
 ## Transitions and Transferable Strengths
 
 Transitions work when a person translates existing strengths into the target

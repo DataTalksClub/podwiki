@@ -21,6 +21,7 @@ COLLECTIONS = {
     "_roadmaps": ("article", "/roadmaps/", "roadmap"),
     "_how_tos": ("article", "/how-tos/", "how_to"),
     "_podcast_summaries": ("podcast", "/podcasts/", "podcast"),
+    "_books": ("book", "/books/", "book"),
     "_people": ("person", "/people/", "person"),
 }
 
@@ -31,6 +32,7 @@ TARGET_TYPES = {
     "roadmaps": ("article", "roadmap"),
     "how-tos": ("article", "how_to"),
     "podcasts": ("podcast", "podcast"),
+    "books": ("book", "book"),
     "people": ("person", "person"),
 }
 
