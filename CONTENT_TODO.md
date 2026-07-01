@@ -211,7 +211,6 @@ Existing pages:
 - `_wiki/mlops-roadmap.md`
 - `_wiki/data-scientist-interview-roadmap.md`
 - `_wiki/machine-learning-system-design.md`
-- `_wiki/mlops-and-dataops.md`
 - `_wiki/llm-production-patterns.md`
 - `_wiki/search-rag-and-knowledge-systems.md`
 - `_wiki/dataops-platforms.md`

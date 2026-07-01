@@ -11,7 +11,8 @@ related_wiki:
   - Data Engineering Roadmap
   - Data Engineering Portfolio Projects
   - Data Quality and Observability
-  - MLOps and DataOps
+  - MLOps
+  - DataOps
   - Job Search
 ---
 
@@ -96,7 +97,7 @@ transformations, scheduled scoring tables, and downstream feature data.
 
 That background is useful when a pipeline feeds ML training or batch scoring.
 It also helps with product analytics and monitoring
-([MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }})).
+([MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }})).
 
 Data scientists also bring evaluation habits.
 [Barr Moses]({{ '/people/barrmoses/' | relative_url }}) explains in

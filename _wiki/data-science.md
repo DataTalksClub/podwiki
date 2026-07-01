@@ -49,13 +49,12 @@ the model objective
 back to measurable business value instead of treating the algorithm as the goal.
 The 18:23 checkpoint keeps evaluation tied to the same business question.
 
-[Alexey Grigorev]({{ '/people/alexeygrigorev/' | relative_url }}) makes the
-same point through team roles in
-[Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }}).
-At 11:17, the analyst-versus-data-scientist distinction is practical rather
-than academic. Analysts quantify what happened, while data scientists build
-predictive services. Later, the episode connects data science work to Python
-and SQL. It also names machine learning, Flask, Docker, and simple model
+In
+[Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }}),
+the analyst-versus-data scientist distinction is practical rather than
+academic. At 11:17, analysts quantify what happened, while data scientists
+build predictive services. Later, the episode connects data science work to
+Python and SQL. It also names machine learning, Flask, Docker, and simple model
 services.
 
 Interview discussions reinforce that broad definition. In
@@ -167,9 +166,13 @@ systems and batch scoring jobs need data contracts and feature availability.
 Model APIs need monitoring and clear owners.
 
 When the question shifts from doing data science to running models, the topic
-changes. The archive routes model operations and data flows toward
-[MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }})
-and [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }}).
+changes. The archive routes model operations toward
+[MLOps]({{ '/wiki/mlops/' | relative_url }}) and data-flow reliability toward
+[DataOps]({{ '/wiki/dataops/' | relative_url }}). Use
+[MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }})
+when the boundary matters, and use
+[Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
+for architecture choices.
 
 ## Trust, Interpretability, and Responsible Use
 

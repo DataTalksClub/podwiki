@@ -64,7 +64,7 @@ Use these existing hubs for follow-up topic work:
   for portfolios, public learning, and open-source work as evidence.
 - [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
   for the engineering discipline behind reusable ML tooling.
-- [MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }}) for
+- [MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }}) for
   testing, packaging, CI, and operational discipline around ML projects.
 
 ## Source Links

@@ -500,5 +500,5 @@ These pages cover adjacent concepts and next steps:
 - [CI/CD]({{ '/wiki/ci-cd/' | relative_url }})
 - [Data Observability]({{ '/wiki/data-observability/' | relative_url }})
 - [MLOps Tools]({{ '/wiki/mlops-tools/' | relative_url }})
-- [MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }})
+- [MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }})
 - [Production ML Project Checklist]({{ '/wiki/production-ml-project-checklist/' | relative_url }})

@@ -4,12 +4,11 @@ title: "GitOps for Data Teams"
 summary: "How DataTalks.Club guests describe GitOps, infrastructure as code, access-as-code, and reviewable platform changes for data teams."
 related:
   - DataOps
-  - MLOps and DataOps
+  - MLOps
   - CI/CD
   - Governance
   - Data Governance
   - Security
-  - MLOps
   - Data Engineering Platforms
 ---
 
@@ -194,7 +193,7 @@ provides standardized infrastructure, reusable CI/CD, and authentication.
 Monitoring and templates help product teams avoid rebuilding the same delivery
 machinery
 ([Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }})).
-That connects GitOps to [MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }}):
+That connects GitOps to [MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }}):
 both disciplines use automation and standard paths to make production work less
 fragile.
 
@@ -210,7 +209,7 @@ obvious.
 These pages cover adjacent platform, governance, and delivery topics:
 
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})
-- [MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }})
+- [MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }})
 - [CI/CD]({{ '/wiki/ci-cd/' | relative_url }})
 - [Data Governance]({{ '/wiki/data-governance/' | relative_url }})
 - [Governance]({{ '/wiki/governance/' | relative_url }})

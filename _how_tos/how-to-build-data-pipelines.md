@@ -126,7 +126,7 @@ handle nulls. You still transform features, but the target is model training
 instead of a human-readable business entity
 ([Modern Data Pipeline Architecture]({{ '/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/' | relative_url }}),
 44:57-46:01). That boundary is why pipeline work often touches
-[MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }}).
+[MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }}).
 
 ## Orchestrate The Work, Not The Buzzwords
 

@@ -30,33 +30,23 @@ management.
 
 Use [DataOps]({{ '/wiki/dataops/' | relative_url }}) for the separate
 discipline around data pipelines and analytical delivery. Use
-[MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }}) and
-[MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }}) for the
-boundary between model operations and data operations. The MLOps side adds
-model artifacts and experiment capture. It also adds drift, retraining, and
-model governance.
+[MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }}) when
+the boundary between model operations and data operations matters. The MLOps
+side adds model artifacts and experiment capture. It also adds drift,
+retraining, and model governance.
 
-## Related MLOps Areas
+The archive has two anchor MLOps episodes.
+[Raphaël Hoogvliets]({{ '/people/raphaelhoogvliets/' | relative_url }}) in
+[MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }})
+shows the adoption and reproducibility side.
 
-MLOps connects most directly to these wiki pages:
+[Simon Stiebellehner]({{ '/people/simonstiebellehner/' | relative_url }}) in
+[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }})
+shows the platform path through experiment tracking and registries. He also
+covers serving, orchestration, metadata, and governance.
 
-- [ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }})
-- [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
-- [Model Registry]({{ '/wiki/model-registry/' | relative_url }})
-- [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }})
-- [Experiment Tracking]({{ '/wiki/experiment-tracking/' | relative_url }})
-- [Reproducibility]({{ '/wiki/reproducibility/' | relative_url }})
-- [Production]({{ '/wiki/production/' | relative_url }})
-
-Core podcast interviews include:
-
-- [MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}) with [Raphaël Hoogvliets]({{ '/people/raphaelhoogvliets/' | relative_url }})
-- [Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}) with [Simon Stiebellehner]({{ '/people/simonstiebellehner/' | relative_url }})
-- [Pragmatic MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }}) with [Maria Vechtomova]({{ '/people/mariavechtomova/' | relative_url }})
-- [Mastering MLOps]({{ '/podcasts/mlops-kubeflow-model-monitoring/' | relative_url }}) with [Theofilos Papapanagiotou]({{ '/people/theofilospapapanagiotou/' | relative_url }})
-- [MLOps Architect Guide]({{ '/podcasts/mlops-model-monitoring-data-observability/' | relative_url }}) with [Danny Leybzon]({{ '/people/dannyleybzon/' | relative_url }})
-- [Human-Centered MLOps]({{ '/podcasts/human-centered-mlops-and-model-monitoring/' | relative_url }}) with [Lina Weichbrodt]({{ '/people/linaweichbrodt/' | relative_url }})
-- [MLOps in Finance]({{ '/podcasts/mlops-and-ml-engineering-in-finance/' | relative_url }}) and [Lean MLOps for Startups]({{ '/podcasts/lean-mlops-for-startups/' | relative_url }}) with [Nemanja Radojkovic]({{ '/people/nemanjaradojkovic/' | relative_url }})
+Other episodes add tool standardization, monitoring, regulated finance
+constraints, and startup tradeoffs.
 
 ## Common Definition
 

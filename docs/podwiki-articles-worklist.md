@@ -132,7 +132,7 @@ data-engineering-manager/data-engineer-manager cluster was consolidated into
 | mlops-frameworks | mlops-tools | |
 | mlops | mlops | **done: slug collision removed** |
 | mlops-tools | mlops-tools | **done: slug collision merged** |
-| mlops-vs-dataops | mlops-and-dataops | |
+| mlops-vs-dataops | mlops-vs-dataops | **done: comparison lives in `_comparisons/mlops-vs-dataops.md`; removed combined wiki bridge** |
 | product-analyst | product-analytics | or data-analyst-role |
 | software-engineer-to-machine-learning | software-engineer-to-machine-learning | **done: slug collision removed** |
 | solopreneur-data-scientist | entrepreneurship | |

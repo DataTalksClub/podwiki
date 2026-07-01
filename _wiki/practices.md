@@ -3,9 +3,9 @@ layout: wiki
 title: "Practices"
 summary: "A bridge page for recurring operating practices in the podcast archive: versioning, testing, documentation, CI/CD, monitoring, ownership, and feedback loops."
 related:
-  - MLOps and DataOps
-  - Software Engineering
+  - MLOps
   - DataOps
+  - Software Engineering
   - Production
 ---
 
@@ -205,7 +205,7 @@ comparison pages such as
 
 These pages cover the adjacent concepts and comparisons:
 
-- [MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }})
+- [MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }})
 - [MLOps]({{ '/wiki/mlops/' | relative_url }})
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})
 - [Software Engineering]({{ '/wiki/software-engineering/' | relative_url }})

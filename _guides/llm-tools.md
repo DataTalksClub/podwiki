@@ -9,7 +9,8 @@ related_wiki:
   - Search, RAG, and Knowledge Systems
   - Retrieval-Augmented Generation
   - Agent Engineering
-  - MLOps and DataOps
+  - DataOps
+  - MLOps
   - Responsible AI and Governance
 ---
 

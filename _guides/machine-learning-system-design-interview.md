@@ -178,10 +178,10 @@ Ask these questions out loud:
 
 This is where many candidates show production judgment. A model can look strong
 offline and still fail if the serving system can't compute the same features.
-The [MLOps]({{ '/wiki/mlops/' | relative_url }}) and
-[MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }}) pages connect
-that risk to reproducibility, deployment, upstream pipeline reliability, and
-monitoring.
+[MLOps]({{ '/wiki/mlops/' | relative_url }}) connects that risk to
+reproducibility, deployment, and monitoring. The
+[MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }})
+comparison adds the upstream pipeline boundary.
 
 ## Choose Metrics That Match the Decision
 

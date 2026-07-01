@@ -28,6 +28,11 @@ incidents. A model alert may come from the model artifact or the serving path.
 It may also come from a feature job, a late table, or a schema change. The
 DataTalks.Club podcast discussions treat MLOps and DataOps as related
 reliability practices, but different teams still own different failure modes.
+That split shows up in
+[MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }})
+for model lifecycle practice and
+[DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }})
+for pipeline delivery practice.
 
 ## Quick Comparison
 

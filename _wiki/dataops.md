@@ -5,6 +5,7 @@ summary: "Podcast-grounded reference page for DataOps as the operating disciplin
 related:
   - DataOps Platforms
   - Data Engineering Platforms
+  - Data Engineering Tools
   - Data Quality and Observability
   - Data Observability
   - Data Engineering
@@ -42,22 +43,27 @@ question is about the boundary between model lifecycle work and data delivery
 work. Use [DataOps Platforms]({{ '/wiki/dataops-platforms/' | relative_url }})
 when the question is how DataOps becomes shared platform infrastructure.
 
-## Core Interviews
+## Operating Scope
 
-The strongest DataOps interviews in the archive are
+The archive frames DataOps from two sides: platform architecture and delivery
+practice. In
 [DataOps 101]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}),
-[Mastering DataOps]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }}),
-[DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }}),
-and
-[DataOps and GitOps for Data Teams]({{ '/podcasts/dataops-and-gitops-best-practices-for-data-teams/' | relative_url }}).
-They cover the operating model from two sides: platform architecture and team
-delivery practice.
+Albertsson starts from platform architecture. He covers immutable pipelines,
+reproducibility, workflow engines, and schema automation. Self-service sits in
+the same platform view.
 
-Adjacent interviews fill in the systems DataOps has to operate. In
+In
+[Mastering DataOps]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }})
+and
+[DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }}),
+Bergh starts from delivery practice. He covers version control, tests, and
+CI/CD. Monitoring, runbooks, and on-call readiness complete that operating view.
+
+Other episodes fill in the systems DataOps has to operate. In
 [Data Engineering Tools and Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
 [Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) explains ELT and
-dbt-style transformations. She also covers orchestration, CDC, schema
-evolution, and warehouses. She covers lake architecture too. In
+dbt-style transformations. She also covers orchestration and CDC. Schema
+evolution, warehouses, and lake architecture sit in the same discussion. In
 [Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }}),
 [Barr Moses]({{ '/people/barrmoses/' | relative_url }}) defines the monitoring
 signals DataOps teams use when pipelines silently produce bad data.
@@ -208,6 +214,8 @@ Use these pages for adjacent DataOps topics and the MLOps boundary:
 
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
 - [DataOps Platforms]({{ '/wiki/dataops-platforms/' | relative_url }})
+- [DataOps Tools]({{ '/guides/dataops-tools/' | relative_url }})
+- [Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [Data Observability]({{ '/wiki/data-observability/' | relative_url }})
 - [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }})

@@ -7,7 +7,8 @@ related:
   - Career Transition
   - Career Growth
   - Data Product Management
-  - MLOps and DataOps
+  - MLOps
+  - DataOps
 ---
 
 Hiring is how data, ML, and AI teams define work and find people who can do it.
@@ -206,9 +207,9 @@ problem.
 
 Teams hiring for applied AI should start from the product and operating
 problem, not from the newest model category. Olga Ivina ties modern data
-science skill changes to
-[MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }}). She also
-discusses human-in-the-loop judgment and the limits of automation. Her
+science skill changes to [MLOps]({{ '/wiki/mlops/' | relative_url }}),
+[DataOps]({{ '/wiki/dataops/' | relative_url }}), and production engineering.
+She also discusses human-in-the-loop judgment and the limits of automation. Her
 distinction between mathematical expertise and engineering skills helps
 employers choose among model researcher, applied data scientist and ML engineer
 roles. Some roles bridge delivery and operations
@@ -327,4 +328,4 @@ team-design context.
 - [Leadership]({{ '/wiki/leadership/' | relative_url }})
 - [Career Growth]({{ '/wiki/career-growth/' | relative_url }})
 - [Career Transition]({{ '/wiki/career-transition/' | relative_url }})
-- [MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }})
+- [MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }})

@@ -4,7 +4,8 @@ title: "Analytics Engineering"
 summary: "How DataTalks.Club episodes describe analytics engineering as the discipline of building trusted analytical models, transformations, metric definitions, tests, documentation, and BI-ready data products."
 related:
   - Data Engineering Platforms
-  - MLOps and DataOps
+  - MLOps
+  - DataOps
   - Data Product Management
   - Career Transitions in Data
   - dbt

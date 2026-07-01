@@ -10,7 +10,7 @@ related:
   - Model Monitoring
   - Evaluation
   - MLOps
-  - MLOps and DataOps
+  - DataOps
   - Responsible AI and Governance
   - LLM Production Patterns
   - AI
@@ -33,7 +33,7 @@ when the question is about architecture, serving mode, features, and fallbacks.
 
 Use [MLOps]({{ '/wiki/mlops/' | relative_url }}),
 [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }}), and
-[MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }}) when the
+[MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }}) when the
 model is already moving toward production operations. Use
 [Machine Learning Tools]({{ '/wiki/machine-learning-tools/' | relative_url }})
 for libraries, trackers, platforms, and monitoring tools. Use
@@ -303,7 +303,7 @@ These pages split adjacent ML topics into more focused references.
 - [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }})
 - [Evaluation]({{ '/wiki/evaluation/' | relative_url }})
 - [MLOps]({{ '/wiki/mlops/' | relative_url }})
-- [MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }})
+- [MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }})
 - [Experimentation and Causal Inference]({{ '/wiki/experimentation-and-causal-inference/' | relative_url }})
 - [Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }})
 - [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})

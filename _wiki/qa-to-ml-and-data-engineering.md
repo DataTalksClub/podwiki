@@ -130,8 +130,7 @@ production frame
 
 That version fits QA engineers aiming at
 [Machine Learning Engineer Role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }})
-or [MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }}) work
-rather than notebook-only data science.
+or production data and ML operations rather than notebook-only data science.
 
 ## Transferable QA Evidence
 
@@ -208,8 +207,11 @@ CI/CD are part of the same production frame
 ([production ML engineering episode at 52:14-59:27]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }})).
 
 A QA engineer can use that as a bridge into
-[MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }}) when their
-portfolio proves system ownership rather than only model training.
+[MLOps]({{ '/wiki/mlops/' | relative_url }}) or
+[DataOps]({{ '/wiki/dataops/' | relative_url }}) work when their portfolio
+proves system ownership rather than only model training. The
+[MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }})
+comparison helps separate those two paths.
 
 ## Portfolio and Public Notes
 
@@ -283,6 +285,6 @@ Use these pages for target-role depth and adjacent transition context.
 - [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
 - [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
-- [MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }})
+- [MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }})
 - [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
 - [Job Search]({{ '/wiki/job-search/' | relative_url }})

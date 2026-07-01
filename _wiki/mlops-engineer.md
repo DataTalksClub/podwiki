@@ -63,7 +63,7 @@ The model then has a path to reproduction and promotion. It also has a path to
 serving and monitoring, plus repair when something breaks
 ([Machine Learning Engineer Role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }}),
 [Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }}),
-[MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }})).
+[MLOps]({{ '/wiki/mlops/' | relative_url }})).
 
 ## Responsibilities
 
@@ -174,8 +174,9 @@ storage, transformations, and orchestration. Schemas and freshness are part of
 the same ownership. MLOps engineers use that data foundation for model artifacts
 and serving paths. Monitoring and
 retraining decisions build on the same foundation
-([MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }}),
-[DataOps]({{ '/wiki/dataops/' | relative_url }})).
+([MLOps]({{ '/wiki/mlops/' | relative_url }}),
+[DataOps]({{ '/wiki/dataops/' | relative_url }}), and
+[MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }})).
 
 The boundary with DevOps or SRE is model-specific uncertainty because MLOps
 borrows Git and CI/CD, plus containers and observability. It also uses incident

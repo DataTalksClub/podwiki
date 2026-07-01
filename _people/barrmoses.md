@@ -64,7 +64,7 @@ Use these existing hubs for follow-up topic work:
   for freshness, schema, lineage, and data downtime.
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
   for platform ownership, pipeline contracts, lineage, and downstream impact.
-- [MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }}) for
+- [MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }}) for
   production reliability when models depend on data freshness and quality.
 - [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
   for the consumer-facing trust problem that makes data downtime a product

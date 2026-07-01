@@ -5,7 +5,8 @@ summary: "Archive-backed bridge for governance across data, ML, and AI: ownershi
 related:
   - Data Governance
   - Responsible AI and Governance
-  - MLOps and DataOps
+  - MLOps
+  - DataOps
   - Model Registry
   - Security
 ---
@@ -357,7 +358,7 @@ links cover responsible-AI and LLM operations.
 - [Data Governance]({{ '/wiki/data-governance/' | relative_url }})
 - [Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }})
 - [Privacy Engineering for ML]({{ '/wiki/privacy-engineering-for-ml/' | relative_url }})
-- [MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }})
+- [MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }})
 - [Model Registry]({{ '/wiki/model-registry/' | relative_url }})
 - [Security]({{ '/wiki/security/' | relative_url }})
 - [Self-Service Data Platforms]({{ '/wiki/self-service-data-platforms/' | relative_url }})

@@ -6,7 +6,8 @@ related:
   - Data Engineering Platforms
   - Data Pipelines
   - Modern Data Stack
-  - MLOps and DataOps
+  - MLOps
+  - DataOps
   - Data Quality and Observability
   - Analytics Engineering
   - Data Science
@@ -36,7 +37,7 @@ platform work, use
 [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}).
 For pipeline operating practices, use
 [DataOps]({{ '/wiki/dataops/' | relative_url }}) and
-[MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }}). For
+[MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }}). For
 warehouse-side modeling and metric layers, use
 [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }}).
 
@@ -225,7 +226,7 @@ behavior. That makes DataOps part of the discipline
 Quality work also connects data engineering to ML and AI incidents. A model or
 agent may look broken because an upstream table arrived late. It may also fail
 because a schema changed or a retrieval corpus lost context. Use
-[MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }}) when the
+[MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }}) when the
 incident boundary is between model lifecycle and data delivery
 ([DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }}),
 18:46-26:13 and
@@ -338,7 +339,7 @@ Use these pages for adjacent topics and deeper implementation detail.
 - [Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }})
 - [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})
-- [MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }})
+- [MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
 - [Self-Service Data Platforms]({{ '/wiki/self-service-data-platforms/' | relative_url }})

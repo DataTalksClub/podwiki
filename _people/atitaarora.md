@@ -65,7 +65,7 @@ Use these existing hubs for follow-up topic work:
   applications.
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
   for ingestion, storage, and pipeline choices behind search applications.
-- [MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }}) for
+- [MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }}) for
   operational evaluation, monitoring, and reliability of retrieval systems.
 
 ## Source Links

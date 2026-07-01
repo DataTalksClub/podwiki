@@ -130,6 +130,8 @@ around 6:42. Around 33:47-51:21, he names version control, tests, and CI/CD.
 He also covers runbooks and automation. Later in the same stretch, he discusses
 dbt and Great Expectations alongside SQL tests and end-to-end versioning. Tools
 need a release path and recovery process.
+Use [DataOps Tools]({{ '/guides/dataops-tools/' | relative_url }}) for the
+practical stack categories behind that operating layer.
 
 ## Warehouses, Lakes, And Lakehouses
 

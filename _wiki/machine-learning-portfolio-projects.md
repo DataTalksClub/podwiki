@@ -5,7 +5,8 @@ summary: "Archive-backed guidance for choosing machine learning portfolio projec
 related:
   - Machine Learning
   - Machine Learning System Design
-  - MLOps and DataOps
+  - MLOps
+  - DataOps
   - Production ML Project Checklist
   - Data Science
   - Evaluation
@@ -26,7 +27,7 @@ and [job search]({{ '/wiki/job-search/' | relative_url }}) use cases, start
 here. For architecture interview practice, use
 [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }}).
 For deployment and monitoring context, use
-[MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }}). For a
+[MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }}). For a
 production-aware implementation pass, use
 [Production ML Project Checklist]({{ '/wiki/production-ml-project-checklist/' | relative_url }}).
 
@@ -152,7 +153,7 @@ episode grounds that requirement because she treats ML as part of a larger
 software system, not an isolated experiment. A compact version can include a
 training command, model artifact, and scoring job. It can also include a Docker
 setup, CI check, and monitoring sketch. That connects directly to
-[MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }}) and
+[MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }}) and
 [Production ML Project Checklist]({{ '/wiki/production-ml-project-checklist/' | relative_url }}).
 
 ## Recommendation and Ranking Projects
@@ -267,7 +268,7 @@ These pages cover adjacent role, system, and evaluation context.
 
 - [Machine Learning]({{ '/wiki/machine-learning/' | relative_url }})
 - [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
-- [MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }})
+- [MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }})
 - [Production ML Project Checklist]({{ '/wiki/production-ml-project-checklist/' | relative_url }})
 - [Evaluation]({{ '/wiki/evaluation/' | relative_url }})
 - [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})

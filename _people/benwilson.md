@@ -59,7 +59,7 @@ Use these existing hubs for follow-up topic work:
 
 - [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
   for baselines, evaluation, serving constraints, and fallbacks.
-- [MLOps and DataOps]({{ '/wiki/mlops-and-dataops/' | relative_url }}) for
+- [MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }}) for
   testing, deployment, monitoring, and operational ownership.
 - [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
   for business buy-in, stakeholder fit, and adoption.

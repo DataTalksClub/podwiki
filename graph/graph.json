@@ -1,13 +1,13 @@
 {
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
-    "wikis": 180,
+    "wikis": 179,
     "articles": 52,
     "podcasts": 202,
     "persons": 438,
     "topics": 147,
-    "nodes": 1019,
-    "links": 10633
+    "nodes": 1018,
+    "links": 10625
   },
   "nodes": [
     {
@@ -9536,16 +9536,6 @@
       "search": "MLOps Podcast grounded reference page for MLOps as the operating discipline for production machine learning systems."
     },
     {
-      "id": "wiki:mlops-and-dataops",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "MLOps and DataOps",
-      "title": "MLOps and DataOps",
-      "url": "/wiki/mlops-and-dataops/",
-      "count": 1,
-      "search": "MLOps and DataOps Navigation page separating MLOps and DataOps into distinct concepts and pointing to the comparison article."
-    },
-    {
       "id": "wiki:mlops-engineer",
       "type": "wiki",
       "collection": "wiki",
@@ -12171,7 +12161,7 @@
       "source": "article:comparison:mlops-vs-dataops",
       "target": "podcast:dataops-for-data-engineering",
       "kind": "article-link",
-      "weight": 6
+      "weight": 8
     },
     {
       "source": "article:comparison:mlops-vs-dataops",
@@ -12183,7 +12173,7 @@
       "source": "article:comparison:mlops-vs-dataops",
       "target": "podcast:mlops-at-scale-reproducibility-adoption",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:comparison:mlops-vs-dataops",
@@ -15835,6 +15825,12 @@
     },
     {
       "source": "article:guide:data-scientist-to-data-engineer",
+      "target": "article:comparison:mlops-vs-dataops",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:guide:data-scientist-to-data-engineer",
       "target": "article:guide:data-engineering-pipeline-project",
       "kind": "article-link",
       "weight": 4
@@ -16099,6 +16095,12 @@
     },
     {
       "source": "article:guide:data-scientist-to-data-engineer",
+      "target": "wiki:dataops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:data-scientist-to-data-engineer",
       "target": "wiki:job-descriptions",
       "kind": "article-link",
       "weight": 2
@@ -16135,13 +16137,7 @@
     },
     {
       "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "wiki:mlops-and-dataops",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "wiki:mlops-and-dataops",
+      "target": "wiki:mlops",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -16327,9 +16323,33 @@
     },
     {
       "source": "article:guide:dataops-tools",
+      "target": "wiki:data-engineering-tools",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:guide:dataops-tools",
+      "target": "wiki:data-engineering-tools",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:dataops-tools",
       "target": "wiki:data-governance",
       "kind": "article-link",
       "weight": 2
+    },
+    {
+      "source": "article:guide:dataops-tools",
+      "target": "wiki:data-observability",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:dataops-tools",
+      "target": "wiki:data-pipelines",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "article:guide:dataops-tools",
@@ -16369,7 +16389,7 @@
     },
     {
       "source": "article:guide:dataops-tools",
-      "target": "wiki:mlops-and-dataops",
+      "target": "wiki:modern-data-stack",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -17527,6 +17547,12 @@
     },
     {
       "source": "article:guide:llm-tools",
+      "target": "wiki:dataops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:llm-tools",
       "target": "wiki:embeddings",
       "kind": "article-link",
       "weight": 2
@@ -17569,7 +17595,7 @@
     },
     {
       "source": "article:guide:llm-tools",
-      "target": "wiki:mlops-and-dataops",
+      "target": "wiki:mlops",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -18061,6 +18087,12 @@
     },
     {
       "source": "article:guide:machine-learning-system-design-interview",
+      "target": "article:comparison:mlops-vs-dataops",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:guide:machine-learning-system-design-interview",
       "target": "article:guide:designing-machine-learning-systems",
       "kind": "article-link",
       "weight": 2
@@ -18220,12 +18252,6 @@
       "target": "wiki:mlops",
       "kind": "article-wiki",
       "weight": 5
-    },
-    {
-      "source": "article:guide:machine-learning-system-design-interview",
-      "target": "wiki:mlops-and-dataops",
-      "kind": "article-link",
-      "weight": 2
     },
     {
       "source": "article:guide:machine-learning-system-design-interview",
@@ -19123,6 +19149,12 @@
     },
     {
       "source": "article:how_to:how-to-build-data-pipelines",
+      "target": "article:comparison:mlops-vs-dataops",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how_to:how-to-build-data-pipelines",
       "target": "person:arpitchoudhury",
       "kind": "article-link",
       "weight": 2
@@ -19288,12 +19320,6 @@
       "target": "wiki:dataops",
       "kind": "article-wiki",
       "weight": 5
-    },
-    {
-      "source": "article:how_to:how-to-build-data-pipelines",
-      "target": "wiki:mlops-and-dataops",
-      "kind": "article-link",
-      "weight": 2
     },
     {
       "source": "article:how_to:how-to-build-data-pipelines",
@@ -22447,6 +22473,12 @@
     },
     {
       "source": "person:atitaarora",
+      "target": "article:comparison:mlops-vs-dataops",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:atitaarora",
       "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
       "kind": "person-link",
       "weight": 4
@@ -22531,12 +22563,6 @@
     },
     {
       "source": "person:atitaarora",
-      "target": "wiki:mlops-and-dataops",
-      "kind": "person-link",
-      "weight": 2
-    },
-    {
-      "source": "person:atitaarora",
       "target": "wiki:nlp",
       "kind": "person-link",
       "weight": 2
@@ -22580,6 +22606,12 @@
     {
       "source": "person:barbarasobkowiak",
       "target": "wiki:team-building",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:barrmoses",
+      "target": "article:comparison:mlops-vs-dataops",
       "kind": "person-link",
       "weight": 2
     },
@@ -22646,12 +22678,6 @@
     {
       "source": "person:barrmoses",
       "target": "wiki:mlops",
-      "kind": "person-link",
-      "weight": 2
-    },
-    {
-      "source": "person:barrmoses",
-      "target": "wiki:mlops-and-dataops",
       "kind": "person-link",
       "weight": 2
     },
@@ -22801,6 +22827,12 @@
     },
     {
       "source": "person:benwilson",
+      "target": "article:comparison:mlops-vs-dataops",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:benwilson",
       "target": "podcast:machine-learning-engineering-production-best-practices",
       "kind": "person-link",
       "weight": 2
@@ -22868,12 +22900,6 @@
     {
       "source": "person:benwilson",
       "target": "wiki:machine-learning-system-design",
-      "kind": "person-link",
-      "weight": 2
-    },
-    {
-      "source": "person:benwilson",
-      "target": "wiki:mlops-and-dataops",
       "kind": "person-link",
       "weight": 2
     },
@@ -24199,6 +24225,12 @@
     },
     {
       "source": "person:hugobowneanderson",
+      "target": "article:comparison:mlops-vs-dataops",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:hugobowneanderson",
       "target": "podcast:devrel-open-source-machine-learning",
       "kind": "person-link",
       "weight": 4
@@ -24284,12 +24316,6 @@
     {
       "source": "person:hugobowneanderson",
       "target": "wiki:mlops",
-      "kind": "person-link",
-      "weight": 2
-    },
-    {
-      "source": "person:hugobowneanderson",
-      "target": "wiki:mlops-and-dataops",
       "kind": "person-link",
       "weight": 2
     },
@@ -28537,6 +28563,12 @@
     },
     {
       "source": "person:vincentwarmerdam",
+      "target": "article:comparison:mlops-vs-dataops",
+      "kind": "person-link",
+      "weight": 2
+    },
+    {
+      "source": "person:vincentwarmerdam",
       "target": "podcast:open-source-ml-contributions",
       "kind": "person-link",
       "weight": 4
@@ -28628,12 +28660,6 @@
     {
       "source": "person:vincentwarmerdam",
       "target": "wiki:machine-learning-system-design",
-      "kind": "person-link",
-      "weight": 2
-    },
-    {
-      "source": "person:vincentwarmerdam",
-      "target": "wiki:mlops-and-dataops",
       "kind": "person-link",
       "weight": 2
     },
@@ -39637,6 +39663,12 @@
     },
     {
       "source": "wiki:analytics-engineering",
+      "target": "wiki:dataops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:analytics-engineering",
       "target": "wiki:dbt",
       "kind": "wiki-link",
       "weight": 4
@@ -39691,7 +39723,7 @@
     },
     {
       "source": "wiki:analytics-engineering",
-      "target": "wiki:mlops-and-dataops",
+      "target": "wiki:mlops",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -45679,6 +45711,12 @@
     },
     {
       "source": "wiki:data-engineering",
+      "target": "article:comparison:mlops-vs-dataops",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:data-engineering",
       "target": "person:adrianbrudaru",
       "kind": "wiki-link",
       "weight": 8
@@ -45949,13 +45987,13 @@
     },
     {
       "source": "wiki:data-engineering",
-      "target": "wiki:mlops-and-dataops",
-      "kind": "wiki-link",
-      "weight": 6
+      "target": "wiki:dataops",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:data-engineering",
-      "target": "wiki:mlops-and-dataops",
+      "target": "wiki:mlops",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -47050,6 +47088,12 @@
       "target": "article:comparison:etl-vs-elt",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-engineering-tools",
+      "target": "article:guide:dataops-tools",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:data-engineering-tools",
@@ -49363,7 +49407,7 @@
     },
     {
       "source": "wiki:data-science",
-      "target": "person:alexeygrigorev",
+      "target": "article:comparison:mlops-vs-dataops",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -49531,6 +49575,12 @@
     },
     {
       "source": "wiki:data-science",
+      "target": "wiki:dataops",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-science",
       "target": "wiki:experimentation-and-causal-inference",
       "kind": "wiki-link",
       "weight": 4
@@ -49591,7 +49641,7 @@
     },
     {
       "source": "wiki:data-science",
-      "target": "wiki:mlops-and-dataops",
+      "target": "wiki:mlops",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -51625,6 +51675,12 @@
     },
     {
       "source": "wiki:dataops",
+      "target": "article:guide:dataops-tools",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:dataops",
       "target": "person:barrmoses",
       "kind": "wiki-link",
       "weight": 2
@@ -51675,7 +51731,7 @@
       "source": "wiki:dataops",
       "target": "podcast:dataops-and-gitops-best-practices-for-data-teams",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:dataops",
@@ -51752,6 +51808,18 @@
     {
       "source": "wiki:dataops",
       "target": "wiki:data-engineering-platforms",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dataops",
+      "target": "wiki:data-engineering-tools",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:dataops",
+      "target": "wiki:data-engineering-tools",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -56251,6 +56319,12 @@
     },
     {
       "source": "wiki:gitops-for-data-teams",
+      "target": "article:comparison:mlops-vs-dataops",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:gitops-for-data-teams",
       "target": "person:bartvandekerckhove",
       "kind": "wiki-link",
       "weight": 2
@@ -56389,18 +56463,6 @@
     },
     {
       "source": "wiki:gitops-for-data-teams",
-      "target": "wiki:mlops-and-dataops",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:gitops-for-data-teams",
-      "target": "wiki:mlops-and-dataops",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:gitops-for-data-teams",
       "target": "wiki:platform-adoption",
       "kind": "wiki-link",
       "weight": 4
@@ -56416,6 +56478,12 @@
       "target": "wiki:security",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:governance",
+      "target": "article:comparison:mlops-vs-dataops",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:governance",
@@ -56581,6 +56649,12 @@
     },
     {
       "source": "wiki:governance",
+      "target": "wiki:dataops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:governance",
       "target": "wiki:gitops-for-data-teams",
       "kind": "wiki-link",
       "weight": 4
@@ -56617,13 +56691,7 @@
     },
     {
       "source": "wiki:governance",
-      "target": "wiki:mlops-and-dataops",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:governance",
-      "target": "wiki:mlops-and-dataops",
+      "target": "wiki:mlops",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -56803,6 +56871,12 @@
     },
     {
       "source": "wiki:hiring",
+      "target": "article:comparison:mlops-vs-dataops",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:hiring",
       "target": "person:alicjanotowska",
       "kind": "wiki-link",
       "weight": 2
@@ -56965,6 +57039,18 @@
     },
     {
       "source": "wiki:hiring",
+      "target": "wiki:dataops",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:hiring",
+      "target": "wiki:dataops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:hiring",
       "target": "wiki:job-search",
       "kind": "wiki-link",
       "weight": 4
@@ -56983,13 +57069,13 @@
     },
     {
       "source": "wiki:hiring",
-      "target": "wiki:mlops-and-dataops",
+      "target": "wiki:mlops",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:hiring",
-      "target": "wiki:mlops-and-dataops",
+      "target": "wiki:mlops",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -59059,6 +59145,12 @@
     },
     {
       "source": "wiki:machine-learning",
+      "target": "article:comparison:mlops-vs-dataops",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:machine-learning",
       "target": "person:alexeygrigorev",
       "kind": "wiki-link",
       "weight": 2
@@ -59227,6 +59319,12 @@
     },
     {
       "source": "wiki:machine-learning",
+      "target": "wiki:dataops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:machine-learning",
       "target": "wiki:evaluation",
       "kind": "wiki-link",
       "weight": 4
@@ -59300,18 +59398,6 @@
     {
       "source": "wiki:machine-learning",
       "target": "wiki:mlops",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:machine-learning",
-      "target": "wiki:mlops-and-dataops",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:machine-learning",
-      "target": "wiki:mlops-and-dataops",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -59749,6 +59835,12 @@
     },
     {
       "source": "wiki:machine-learning-portfolio-projects",
+      "target": "article:comparison:mlops-vs-dataops",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:machine-learning-portfolio-projects",
       "target": "article:roadmap:open-source-contributor-roadmap",
       "kind": "wiki-link",
       "weight": 2
@@ -59923,6 +60015,12 @@
     },
     {
       "source": "wiki:machine-learning-portfolio-projects",
+      "target": "wiki:dataops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:machine-learning-portfolio-projects",
       "target": "wiki:evaluation",
       "kind": "wiki-link",
       "weight": 6
@@ -59977,13 +60075,7 @@
     },
     {
       "source": "wiki:machine-learning-portfolio-projects",
-      "target": "wiki:mlops-and-dataops",
-      "kind": "wiki-link",
-      "weight": 6
-    },
-    {
-      "source": "wiki:machine-learning-portfolio-projects",
-      "target": "wiki:mlops-and-dataops",
+      "target": "wiki:mlops",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -61833,25 +61925,25 @@
       "source": "wiki:mlops",
       "target": "person:dannyleybzon",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:mlops",
       "target": "person:linaweichbrodt",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:mlops",
       "target": "person:mariavechtomova",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:mlops",
       "target": "person:nemanjaradojkovic",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:mlops",
@@ -61867,12 +61959,6 @@
     },
     {
       "source": "wiki:mlops",
-      "target": "person:theofilospapapanagiotou",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:mlops",
       "target": "podcast:building-production-ml-platform-and-mlops-team",
       "kind": "wiki-link",
       "weight": 12
@@ -61881,19 +61967,19 @@
       "source": "wiki:mlops",
       "target": "podcast:human-centered-mlops-and-model-monitoring",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:mlops",
       "target": "podcast:lean-mlops-for-startups",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:mlops",
       "target": "podcast:mlops-and-ml-engineering-in-finance",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:mlops",
@@ -61905,19 +61991,19 @@
       "source": "wiki:mlops",
       "target": "podcast:mlops-kubeflow-model-monitoring",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:mlops",
       "target": "podcast:mlops-model-monitoring-data-observability",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:mlops",
       "target": "podcast:pragmatic-and-standardized-mlops",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:mlops",
@@ -61941,7 +62027,7 @@
       "source": "wiki:mlops",
       "target": "wiki:experiment-tracking",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:mlops",
@@ -61959,7 +62045,7 @@
       "source": "wiki:mlops",
       "target": "wiki:machine-learning-system-design",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:mlops",
@@ -61971,7 +62057,7 @@
       "source": "wiki:mlops",
       "target": "wiki:ml-platforms",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:mlops",
@@ -61981,15 +62067,9 @@
     },
     {
       "source": "wiki:mlops",
-      "target": "wiki:mlops-and-dataops",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:mlops",
       "target": "wiki:model-monitoring",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:mlops",
@@ -62001,7 +62081,7 @@
       "source": "wiki:mlops",
       "target": "wiki:model-registry",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:mlops",
@@ -62013,7 +62093,7 @@
       "source": "wiki:mlops",
       "target": "wiki:production",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:mlops",
@@ -62025,7 +62105,7 @@
       "source": "wiki:mlops",
       "target": "wiki:reproducibility",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:mlops",
@@ -62034,146 +62114,8 @@
       "weight": 3
     },
     {
-      "source": "wiki:mlops-and-dataops",
+      "source": "wiki:mlops-engineer",
       "target": "article:comparison:mlops-vs-dataops",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:mlops-and-dataops",
-      "target": "person:christopherbergh",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:mlops-and-dataops",
-      "target": "person:dannyleybzon",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:mlops-and-dataops",
-      "target": "person:larsalbertsson",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:mlops-and-dataops",
-      "target": "person:raphaelhoogvliets",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:mlops-and-dataops",
-      "target": "person:simonstiebellehner",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:mlops-and-dataops",
-      "target": "podcast:building-production-ml-platform-and-mlops-team",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:mlops-and-dataops",
-      "target": "podcast:dataops-automation-and-reliable-data-pipelines",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:mlops-and-dataops",
-      "target": "podcast:dataops-for-data-engineering",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:mlops-and-dataops",
-      "target": "podcast:dataops-principles-and-scalable-data-platforms",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:mlops-and-dataops",
-      "target": "podcast:mlops-at-scale-reproducibility-adoption",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:mlops-and-dataops",
-      "target": "podcast:mlops-model-monitoring-data-observability",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:mlops-and-dataops",
-      "target": "wiki:data-engineering-platforms",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:mlops-and-dataops",
-      "target": "wiki:data-engineering-platforms",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:mlops-and-dataops",
-      "target": "wiki:data-observability",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:mlops-and-dataops",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:mlops-and-dataops",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:mlops-and-dataops",
-      "target": "wiki:dataops",
-      "kind": "wiki-link",
-      "weight": 6
-    },
-    {
-      "source": "wiki:mlops-and-dataops",
-      "target": "wiki:dataops",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:mlops-and-dataops",
-      "target": "wiki:ml-platforms",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:mlops-and-dataops",
-      "target": "wiki:ml-platforms",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:mlops-and-dataops",
-      "target": "wiki:mlops",
-      "kind": "wiki-link",
-      "weight": 6
-    },
-    {
-      "source": "wiki:mlops-and-dataops",
-      "target": "wiki:mlops",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:mlops-and-dataops",
-      "target": "wiki:model-monitoring",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -62361,19 +62303,13 @@
       "source": "wiki:mlops-engineer",
       "target": "wiki:mlops",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 10
     },
     {
       "source": "wiki:mlops-engineer",
       "target": "wiki:mlops",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:mlops-engineer",
-      "target": "wiki:mlops-and-dataops",
-      "kind": "wiki-link",
-      "weight": 4
     },
     {
       "source": "wiki:mlops-engineer",
@@ -62450,6 +62386,12 @@
     {
       "source": "wiki:mlops-engineer",
       "target": "wiki:software-engineering",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:mlops-roadmap",
+      "target": "article:comparison:mlops-vs-dataops",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -62692,12 +62634,6 @@
       "target": "wiki:mlops",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:mlops-roadmap",
-      "target": "wiki:mlops-and-dataops",
-      "kind": "wiki-link",
-      "weight": 2
     },
     {
       "source": "wiki:mlops-roadmap",
@@ -65961,7 +65897,7 @@
       "source": "wiki:practices",
       "target": "article:comparison:mlops-vs-dataops",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:practices",
@@ -66115,13 +66051,7 @@
     },
     {
       "source": "wiki:practices",
-      "target": "wiki:mlops-and-dataops",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:practices",
-      "target": "wiki:mlops-and-dataops",
+      "target": "wiki:mlops",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -67525,6 +67455,12 @@
     },
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
+      "target": "article:comparison:mlops-vs-dataops",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:qa-to-ml-and-data-engineering",
       "target": "person:alvaronavaspeire",
       "kind": "wiki-link",
       "weight": 4
@@ -67651,6 +67587,12 @@
     },
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
+      "target": "wiki:dataops",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:qa-to-ml-and-data-engineering",
       "target": "wiki:job-search",
       "kind": "wiki-link",
       "weight": 6
@@ -67687,9 +67629,9 @@
     },
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
-      "target": "wiki:mlops-and-dataops",
+      "target": "wiki:mlops",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 2
     },
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
@@ -70801,6 +70743,12 @@
     },
     {
       "source": "wiki:software-engineering",
+      "target": "article:comparison:mlops-vs-dataops",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:software-engineering",
       "target": "person:bartoszmikulski",
       "kind": "wiki-link",
       "weight": 4
@@ -70942,12 +70890,6 @@
       "target": "wiki:mlops",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:software-engineering",
-      "target": "wiki:mlops-and-dataops",
-      "kind": "wiki-link",
-      "weight": 2
     },
     {
       "source": "wiki:software-engineering",
@@ -72397,6 +72339,12 @@
     },
     {
       "source": "wiki:team-building",
+      "target": "article:comparison:mlops-vs-dataops",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:team-building",
       "target": "person:16rahuljain",
       "kind": "wiki-link",
       "weight": 2
@@ -72610,12 +72558,6 @@
       "target": "wiki:mlops",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:team-building",
-      "target": "wiki:mlops-and-dataops",
-      "kind": "wiki-link",
-      "weight": 2
     },
     {
       "source": "wiki:team-building",

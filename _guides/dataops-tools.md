@@ -6,9 +6,12 @@ summary: "A podcast-backed guide to DataOps tool categories for version control,
 related_wiki:
   - DataOps
   - DataOps Platforms
-  - MLOps and DataOps
+  - Data Engineering Tools
+  - Data Pipelines
   - Data Quality and Observability
+  - Data Observability
   - Data Engineering Platforms
+  - Modern Data Stack
   - Data Engineering
 ---
 
@@ -28,6 +31,9 @@ For the concept layer, start with [DataOps]({{ '/wiki/dataops/' | relative_url }
 and [MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }}).
 Use [DataOps Platforms]({{ '/wiki/dataops-platforms/' | relative_url }}) when
 the tool categories need to become a shared platform layer.
+Use [Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }})
+for the broader tool map across ingestion, orchestration, storage, and
+transformation. That broader map also covers activation and analytics.
 Use [DataOps vs Data Engineering]({{ '/comparisons/dataops-vs-data-engineering/' | relative_url }})
 when you need the boundary between the operating practice and the engineering
 role.
