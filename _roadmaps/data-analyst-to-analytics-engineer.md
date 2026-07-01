@@ -11,6 +11,7 @@ related_wiki:
   - Analytics Engineering Portfolio Projects
   - dbt
   - Metrics
+  - Data Products
   - Product Analytics
   - Data Quality and Observability
   - Event Tracking
@@ -50,13 +51,16 @@ For the wider role map, compare
 [Data Analysis]({{ '/guides/data-analysis/' | relative_url }}) and
 [Data Roles]({{ '/guides/data-roles/' | relative_url }}).
 
-## Common Definition
+## Move From Answering Questions to Owning Reusable Data
 
 Guests describe this transition as taking analyst work that used to live
 inside one query or dashboard and making it reusable. The analyst already knows
 the business question. The new work is to define grain, model entities, add
 tests, and document metric logic. Other people can then trust and reuse the
-model.
+model. That puts the transition between the
+[data analyst role]({{ '/wiki/data-analyst-role/' | relative_url }}),
+[analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }}),
+and BI-facing [data products]({{ '/wiki/data-products/' | relative_url }}).
 
 In [Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }}),
 the analyst role sits close to company data, KPIs, and dashboards. Reports and
@@ -85,6 +89,36 @@ then applying software-engineering habits so the work becomes reproducible and
 robust
 ([7:56-18:35]({{ '/podcasts/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices/' | relative_url }})).
 
+## Choose the Right Transition Target
+
+Rather than aiming for "more technical analyst work" in general, aim for a
+specific ownership change. Keep analyst judgment over questions, metrics, and
+stakeholders, then add responsibility for the reusable models behind those
+answers.
+
+Choose the target from the work you already do:
+
+- If the current work is mostly dashboard interpretation, start with the
+  [data analyst role]({{ '/wiki/data-analyst-role/' | relative_url }}) and the
+  [Data Analyst vs Analytics Engineer]({{ '/comparisons/data-analyst-vs-analytics-engineer/' | relative_url }})
+  boundary.
+- If the current work already includes shared SQL, Looker, dbt, or metric
+  cleanup, use the
+  [analytics engineering roadmap]({{ '/wiki/analytics-engineering-roadmap/' | relative_url }})
+  as the skills map.
+- If the current work comes from campaign reporting or funnel analysis, the
+  [marketing-to-analytics-engineering]({{ '/wiki/marketing-to-analytics-engineering/' | relative_url }})
+  path is the closest archive example.
+
+[Nikola Maksimovic]({{ '/people/nikolamaksimovic/' | relative_url }}) shows
+why this choice matters in
+[Marketing to Analytics Engineering]({{ '/podcasts/from-marketing-to-analytics-engineering-sql-dbt-career-switch/' | relative_url }}).
+Her work moved through marketing reporting and BI-team collaboration. She then
+added SQL and Looker. Later work included a dbt migration, product analytics,
+and A/B testing. The title mattered less than the growing ownership of modeled
+tables, dashboard definitions, and product metrics
+([7:18-28:40 and 38:27-41:50]({{ '/podcasts/from-marketing-to-analytics-engineering-sql-dbt-career-switch/' | relative_url }})).
+
 ## Analyst Skills That Transfer
 
 The strongest transferable skill isn't tool familiarity alone. Analysts know
@@ -101,12 +135,11 @@ dashboards. It also showed missing skills, but it didn't give him a job. The job
 search took nine months, so the transition needed both skills and visibility
 ([12:06-13:52]({{ '/podcasts/from-math-graduate-to-data-analytics/' | relative_url }})).
 
-[Nikola Maksimovic]({{ '/people/nikolamaksimovic/' | relative_url }}) gives a
-nearby transition in
-[Marketing to Analytics Engineering]({{ '/podcasts/from-marketing-to-analytics-engineering-sql-dbt-career-switch/' | relative_url }}).
-She used business and BI experience to move toward analytics engineering. Her
-work expanded into product support and A/B testing. Data modeling, a dbt
-migration, Looker, and LookML became part of the path
+[Maksimovic's marketing-to-analytics-engineering transition]({{ '/wiki/marketing-to-analytics-engineering/' | relative_url }})
+shows the same transfer from another business role. She used business and BI
+experience to move toward analytics engineering. Her work expanded into product
+support and [A/B testing]({{ '/wiki/a-b-testing/' | relative_url }}). Data
+modeling, a dbt migration, Looker, and LookML became part of the path
 ([8:45-23:12]({{ '/podcasts/from-marketing-to-analytics-engineering-sql-dbt-career-switch/' | relative_url }})).
 
 Those examples show the same rule: keep the analyst context, but move the
@@ -167,7 +200,12 @@ roadmap involves user behavior.
 [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }}) sits next
 to that work. A good analytics-engineering transition project doesn't only show
 a funnel chart. It shows the event grain, identity rules, metric definition,
-and tests. It also shows the dashboard or activation surface.
+and tests.
+
+It also shows the dashboard or activation surface. When a team maintains that
+modeled output for analysts, product managers, or growth tools, it becomes a
+small [data product]({{ '/wiki/data-products/' | relative_url }}) rather than a
+one-off analysis.
 
 ## Prove the Transition With Portfolio Work
 
@@ -188,10 +226,12 @@ Good project choices include:
 - a dashboard query refactored into dbt-style staging, intermediate, and mart
   models
 - a governed metric definition with grain, tests, documentation, and a dashboard
-- a funnel or retention mart built from event data and a tracking plan
+- a funnel, retention, or [A/B testing]({{ '/wiki/a-b-testing/' | relative_url }})
+  mart built from event data and a tracking plan
 - a data quality improvement that explains user impact and the test that catches
   the failure
-- a small semantic layer for one stakeholder decision
+- a small semantic layer or [data product]({{ '/wiki/data-products/' | relative_url }})
+  for one stakeholder decision
 
 [Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }}) grounds
 the reliability side in
@@ -259,7 +299,6 @@ These pages cover the adjacent roles, skills, and portfolio patterns.
 
 - [Data Analyst Role]({{ '/wiki/data-analyst-role/' | relative_url }})
 - [Data Analyst vs Analytics Engineer]({{ '/comparisons/data-analyst-vs-analytics-engineer/' | relative_url }})
-- [Data Analyst vs Analytics Engineer Comparison]({{ '/comparisons/data-analyst-vs-analytics-engineer/' | relative_url }})
 - [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
 - [Analytics Engineering Roadmap]({{ '/wiki/analytics-engineering-roadmap/' | relative_url }})
 - [Analytics Engineering Portfolio Projects]({{ '/wiki/analytics-engineering-portfolio-projects/' | relative_url }})
@@ -269,6 +308,8 @@ These pages cover the adjacent roles, skills, and portfolio patterns.
 - [dbt]({{ '/wiki/dbt/' | relative_url }})
 - [Metrics]({{ '/wiki/metrics/' | relative_url }})
 - [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }})
+- [A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }})
+- [Data Products]({{ '/wiki/data-products/' | relative_url }})
 - [Event Tracking]({{ '/wiki/event-tracking/' | relative_url }})
 - [Tracking Plans]({{ '/wiki/tracking-plans/' | relative_url }})
 - [Business Intelligence]({{ '/wiki/business-intelligence/' | relative_url }})

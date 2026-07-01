@@ -47,19 +47,22 @@ metrics, and delivery tradeoffs.
 Use [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
 for the role definition and
 [Data Product Adoption]({{ '/wiki/data-product-adoption/' | relative_url }})
-for last-mile adoption. The role boundary comparisons are
+for last-mile adoption. Use the
+[Data Product Manager guide]({{ '/guides/data-product-manager/' | relative_url }})
+for the role overview. The role boundary comparisons are
 [Data Product Owner vs Data Product Manager]({{ '/comparisons/data-product-owner-vs-data-product-manager/' | relative_url }})
 and
 [Data Product Manager vs Product Manager]({{ '/comparisons/data-product-manager-vs-product-manager/' | relative_url }}).
+The broader title split is covered in
+[Product Owner vs Product Manager]({{ '/comparisons/product-owner-vs-product-manager/' | relative_url }}).
 
-## Common Definition
+## Role Baseline: Users, Metrics, and Constraints
 
-DataTalks.Club guests converge on this definition: a data product manager makes
-data work useful for a user. That requires discovery, product judgment,
-technical literacy, and a feedback loop. The PM doesn't need to implement every pipeline,
-model, or dashboard. They do need to explain who the product serves and what
-decision it improves. They also need to define the success metric and the
-constraints.
+A data product manager makes data work useful for a user. That requires
+discovery, product judgment, technical literacy, and a feedback loop. The PM
+doesn't need to implement every pipeline, model, or dashboard. They do need to
+explain who the product serves and what decision it improves. They also need to
+define the success metric and the constraints.
 
 [Geo Jolly]({{ '/people/geojolly/' | relative_url }}) gives the internal
 platform version in
@@ -77,7 +80,7 @@ At 20:00, product owner and product manager responsibilities depend on the
 organization. Across both titles, someone still has to make product judgments
 about business priority, release quality, and the user-facing outcome.
 
-## Learning Sequence
+## Skills Roadmap: Discovery, Data Literacy, and Experiments
 
 Start with product discovery and product writing. A data PM should be able to
 interview users and describe the current workflow. They should also write a
@@ -99,13 +102,19 @@ Then add data product literacy:
 - ML and AI product tradeoffs when the product includes a model
 - documentation, PRDs, and knowledge bases
 
-The roadmap should then add product analytics. In
-[A/B Testing and Product Experimentation]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}),
-[Jakob Graff]({{ '/people/jakobgraff/' | relative_url }}) explains
-randomization at 8:13 and metric design at 14:27. At 27:52 and 37:44, he adds
-A/A tests and power analysis. That makes
-[A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }}) a wiki topic inside
-the data PM learning path, not a separate guide category.
+Use [Jakob Graff]({{ '/people/jakobgraff/' | relative_url }})'s
+[A/B Testing and Product Experimentation]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }})
+episode for the product analytics block. He explains randomization at 8:13 and
+metric design at 14:27. He adds A/A tests at 27:52 and power analysis at
+37:44. For this roadmap,
+[A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }}) belongs inside the
+data PM learning path rather than in a separate guide category.
+
+The nearby
+[Product Analyst guide]({{ '/guides/product-analyst/' | relative_url }})
+covers event tracking and experiment readouts. It also covers product metric
+analysis. A data PM should understand those topics well enough to question
+them.
 
 Turn each learning block into a visible work sample. A product analytics
 project should define the event, metric, segment,
@@ -114,7 +123,7 @@ guardrail metrics, and rollout decision. A data product adoption project should
 show how the PM earns trust after shipment, not only how they describe the
 feature.
 
-## Roadmap Work
+## Prioritization and Roadmap Decisions
 
 A data PM roadmap should name the problem, the user, and the option set. It
 should also name the expected impact, effort, and success metric.
@@ -142,7 +151,7 @@ For role boundaries, compare the roadmap responsibilities with
 and
 [Data Product Manager vs Product Manager]({{ '/comparisons/data-product-manager-vs-product-manager/' | relative_url }}).
 
-## Adoption And Trust
+## Adoption, Trust, and Data Contracts
 
 A data product isn't done when the first version ships.
 [Caitlin Moorman]({{ '/people/caitlinmoorman/' | relative_url }}) explains the
@@ -163,12 +172,16 @@ At 31:05 and 34:36, data as a product requires metadata and discoverability.
 At 39:36 and 41:58, contracts and SLAs become part of the product guarantee.
 Ownership and self-service platforms matter too.
 
-## Portfolio Evidence
+## Portfolio Projects and Interview Proof
 
 A data PM portfolio should show a product decision, not only a screenshot.
 Show that you can move from a user problem to a roadmap choice, a metric, and
 an adoption or rollout decision. A credential may explain what you studied, but
-it doesn't replace examples of product judgment.
+it doesn't replace examples of product judgment. Use
+[Portfolio Projects]({{ '/wiki/portfolio-projects/' | relative_url }}) for the
+general project standard and
+[Data Roles]({{ '/guides/data-roles/' | relative_url }}) for the role-specific
+portfolio structure.
 
 Good evidence includes:
 
@@ -206,6 +219,10 @@ These pages cover the concepts and comparisons that sit next to this roadmap:
 - [Data Product Adoption]({{ '/wiki/data-product-adoption/' | relative_url }})
 - [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }})
 - [A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }})
+- [Portfolio Projects]({{ '/wiki/portfolio-projects/' | relative_url }})
+- [Data Product Manager]({{ '/guides/data-product-manager/' | relative_url }})
+- [Product Analyst]({{ '/guides/product-analyst/' | relative_url }})
 - [Data Mesh]({{ '/wiki/data-mesh/' | relative_url }})
+- [Product Owner vs Product Manager]({{ '/comparisons/product-owner-vs-product-manager/' | relative_url }})
 - [Data Product Owner vs Data Product Manager]({{ '/comparisons/data-product-owner-vs-data-product-manager/' | relative_url }})
 - [Data Product Manager vs Product Manager]({{ '/comparisons/data-product-manager-vs-product-manager/' | relative_url }})

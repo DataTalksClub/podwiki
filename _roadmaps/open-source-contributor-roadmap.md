@@ -8,8 +8,11 @@ related_wiki:
   - Open Source
   - Contributing
   - Open Source Portfolio Evidence
+  - Portfolio Projects
   - Documentation
   - Developer Relations
+  - Data Engineering Portfolio Projects
+  - Machine Learning Portfolio Projects
   - Technical Writing
 ---
 
@@ -27,9 +30,12 @@ tests reduce maintainer work. CI, packaging, and pre-commit matter too.
 The broad concept lives in [Open Source]({{ '/wiki/open-source/' | relative_url }}),
 and
 [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
-covers the hiring evidence.
+covers the hiring evidence. Use [Documentation]({{ '/wiki/documentation/' | relative_url }})
+and [Developer Relations]({{ '/wiki/developer-relations/' | relative_url }})
+when the contribution is a guide, demo, workshop, or adoption fix instead of a
+code patch.
 
-## Common Definition
+## Contribution Surfaces
 
 An open-source contributor is someone who helps a public
 project become easier to use and trust. Contributors can also make the project
@@ -44,7 +50,11 @@ points. At 17:37 and 23:26, Spaces demos and GitHub work become portfolio
 signals. At 30:21 and 33:23, large codebases and PR workflow become part of the
 learning path. Tests and rejection are part of it too.
 
-## First Contributions
+The same contribution surface connects to [Contributing]({{ '/wiki/contributing/' | relative_url }}),
+[Open Source]({{ '/wiki/open-source/' | relative_url }}), and
+[Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }}).
+
+## First Reviewable Contributions
 
 Start with a project you can run locally. Open one issue that explains the
 problem and gives reproduction steps. Then choose a small fix or documentation
@@ -65,10 +75,14 @@ The first contribution sequence can be:
 - fix one scoped issue and explain the tradeoff
 - answer a user question with a linkable example
 
-## Documentation And Demos
+## Documentation and Demos as Contribution Work
 
 Documentation isn't a side quest in this roadmap. It's evidence that you can
 understand a user, explain a system, and make a project easier to adopt.
+That's why docs work belongs with [Documentation]({{ '/wiki/documentation/' | relative_url }}),
+[Technical Writing]({{ '/wiki/technical-writing/' | relative_url }}), and
+[Developer Relations]({{ '/wiki/developer-relations/' | relative_url }}), not
+only with README cleanup.
 
 [Eugene Yan]({{ '/people/eugeneyan/' | relative_url }}) connects writing to
 technical credibility in
@@ -84,12 +98,19 @@ At 18:03 and 43:14, education and tutorials should start from audience goals.
 At 25:17 and 36:27, dogfooding and reproducibility create feedback for the
 project.
 
-## Portfolio Evidence
+## Portfolio Proof from Public Work
 
 Open-source work becomes portfolio evidence when an evaluator can see the
-context, review pressure, and result. A merged PR is useful. A clear issue, a
-well-tested rejected PR, or a tutorial that maintainers share can also be
-useful.
+context, review pressure, and result. A merged PR is useful. A clear issue can
+also be useful. So can a well-tested rejected PR or a tutorial that maintainers
+share.
+
+The evidence should point back to
+[Portfolio Projects]({{ '/wiki/portfolio-projects/' | relative_url }}) instead
+of sitting as an unexplained GitHub link. For pipeline work, connect it to
+[Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }}).
+For model or ML-tool work, connect it to
+[Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}).
 
 [Shawn Swyx Wang]({{ '/people/swyx/' | relative_url }}) adds the
 learn-in-public layer in
@@ -108,7 +129,7 @@ experience. In
 Isabella uses social-impact AI and Hugging Face computer-vision work as public
 project evidence.
 
-## Maintainer Awareness
+## Maintainer-Aware Contributions
 
 Later roadmap stages require maintainer empathy. Large projects have release
 cycles, plugin boundaries, CI costs, and governance constraints. In

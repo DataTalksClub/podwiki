@@ -11,7 +11,7 @@
     "persons": 183,
     "topics": 92,
     "nodes": 703,
-    "links": 10842
+    "links": 10872
   },
   "nodes": [
     {
@@ -15771,6 +15771,18 @@
     },
     {
       "source": "article:roadmap:data-analyst-to-analytics-engineer",
+      "target": "wiki:data-products",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-analytics-engineer",
+      "target": "wiki:data-products",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-analytics-engineer",
       "target": "wiki:data-quality-and-observability",
       "kind": "article-link",
       "weight": 1
@@ -16455,6 +16467,30 @@
     },
     {
       "source": "article:roadmap:data-product-manager-roadmap",
+      "target": "article:comparison:product-owner-vs-product-manager",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:data-product-manager-roadmap",
+      "target": "article:guide:data-product-manager",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:data-product-manager-roadmap",
+      "target": "article:guide:data-roles",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:data-product-manager-roadmap",
+      "target": "article:guide:product-analyst",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:data-product-manager-roadmap",
       "target": "person:annahannemann",
       "kind": "article-link",
       "weight": 1
@@ -16630,6 +16666,12 @@
     {
       "source": "article:roadmap:data-product-manager-roadmap",
       "target": "wiki:metrics",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:data-product-manager-roadmap",
+      "target": "wiki:portfolio-projects",
       "kind": "article-link",
       "weight": 1
     },
@@ -17349,6 +17391,18 @@
     },
     {
       "source": "article:roadmap:llm-rag-production-roadmap",
+      "target": "wiki:ai-engineer-role",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:llm-rag-production-roadmap",
+      "target": "wiki:ai-engineer-role",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:llm-rag-production-roadmap",
       "target": "wiki:ai-engineering-roadmap",
       "kind": "article-link",
       "weight": 1
@@ -17391,15 +17445,45 @@
     },
     {
       "source": "article:roadmap:llm-rag-production-roadmap",
+      "target": "wiki:production",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:llm-rag-production-roadmap",
       "target": "wiki:production-search-evaluation",
       "kind": "article-link",
       "weight": 1
     },
     {
       "source": "article:roadmap:llm-rag-production-roadmap",
+      "target": "wiki:production-search-evaluation",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:llm-rag-production-roadmap",
+      "target": "wiki:rag",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:llm-rag-production-roadmap",
+      "target": "wiki:rag",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:llm-rag-production-roadmap",
       "target": "wiki:rag-portfolio-projects",
       "kind": "article-link",
       "weight": 1
+    },
+    {
+      "source": "article:roadmap:llm-rag-production-roadmap",
+      "target": "wiki:rag-portfolio-projects",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "article:roadmap:llm-rag-production-roadmap",
@@ -17415,9 +17499,27 @@
     },
     {
       "source": "article:roadmap:llm-rag-production-roadmap",
+      "target": "wiki:search",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:llm-rag-production-roadmap",
+      "target": "wiki:search",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:llm-rag-production-roadmap",
       "target": "wiki:search-and-rag-project-checklist",
       "kind": "article-link",
       "weight": 1
+    },
+    {
+      "source": "article:roadmap:llm-rag-production-roadmap",
+      "target": "wiki:search-and-rag-project-checklist",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "article:roadmap:llm-rag-production-roadmap",
@@ -17434,6 +17536,36 @@
     {
       "source": "article:roadmap:llm-rag-production-roadmap",
       "target": "wiki:vector-databases",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:machine-learning-engineer-roadmap",
+      "target": "article:comparison:machine-learning-engineer-vs-data-scientist",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:machine-learning-engineer-roadmap",
+      "target": "article:guide:data-observability-for-data-engineering",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:machine-learning-engineer-roadmap",
+      "target": "article:guide:machine-learning-for-software-engineers",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:machine-learning-engineer-roadmap",
+      "target": "article:guide:machine-learning-system-design-interview",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:machine-learning-engineer-roadmap",
+      "target": "article:guide:mlops-architecture",
       "kind": "article-link",
       "weight": 1
     },
@@ -17541,6 +17673,12 @@
     },
     {
       "source": "article:roadmap:machine-learning-engineer-roadmap",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:machine-learning-engineer-roadmap",
       "target": "wiki:data-scientist-to-machine-learning-engineer",
       "kind": "article-link",
       "weight": 1
@@ -17580,6 +17718,12 @@
       "target": "wiki:machine-learning-system-design",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "article:roadmap:machine-learning-engineer-roadmap",
+      "target": "wiki:ml-platforms",
+      "kind": "article-link",
+      "weight": 1
     },
     {
       "source": "article:roadmap:machine-learning-engineer-roadmap",
@@ -17757,6 +17901,18 @@
     },
     {
       "source": "article:roadmap:open-source-contributor-roadmap",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:open-source-contributor-roadmap",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:open-source-contributor-roadmap",
       "target": "wiki:developer-experience",
       "kind": "article-link",
       "weight": 1
@@ -17787,6 +17943,18 @@
     },
     {
       "source": "article:roadmap:open-source-contributor-roadmap",
+      "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:open-source-contributor-roadmap",
+      "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:open-source-contributor-roadmap",
       "target": "wiki:open-source",
       "kind": "article-link",
       "weight": 1
@@ -17812,6 +17980,18 @@
     {
       "source": "article:roadmap:open-source-contributor-roadmap",
       "target": "wiki:open-source-portfolio-evidence",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:open-source-contributor-roadmap",
+      "target": "wiki:portfolio-projects",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:open-source-contributor-roadmap",
+      "target": "wiki:portfolio-projects",
       "kind": "article-wiki",
       "weight": 5
     },
