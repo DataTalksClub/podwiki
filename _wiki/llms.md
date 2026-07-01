@@ -55,6 +55,11 @@ His 34:57 section walks through the traditional NLP pipeline. The team labels
 data, designs the task, tests behavior, and deploys the system. At 38:55, he
 contrasts that pipeline with GPT-3-style prompting, where a model can produce
 useful behavior from a prompt instead of a task-specific training pipeline.
+The
+[GPT-3]({{ '/books/20230306-gpt-3/' | relative_url }})
+book by Sandra Kublik and Shubham Saboo collects the early practitioner stories
+behind that prompt-driven shift, which anchors the same GPT-3 experiments Ivan
+references.
 
 [Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }}) gives
 the builder's definition in

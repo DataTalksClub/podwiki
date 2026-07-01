@@ -23,6 +23,10 @@ The DataTalks.Club discussions place data observability between
 [DataOps]({{ '/wiki/dataops/' | relative_url }}), [MLOps]({{ '/wiki/mlops/' | relative_url }}),
 and [Production]({{ '/wiki/production/' | relative_url }}). The signals often
 detect quality failures.
+Andy Petrella's
+[Fundamentals of Data Observability]({{ '/books/20240429-fundamentals-of-data-observability/' | relative_url }})
+develops the same signal set, Barr defines, into a full reference covering
+metadata collection, anomaly detection, and incident triage.
 
 The work also needs deployment discipline, metadata, and ownership, plus routing
 and recovery habits. In

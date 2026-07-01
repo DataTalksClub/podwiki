@@ -36,6 +36,11 @@ focuses on business language and metric semantics.
 puts communication inside consulting discovery and pricing. [Marijn
 Markus]({{ '/people/marijnmarkus/' | relative_url }}) uses it for influence,
 domain credibility, and differentiation.
+Angelica Lo Duca's
+[Data Storytelling with Altair and AI]({{ '/books/20240902-data-storytelling-with-altair-and-ai/' | relative_url }})
+extends the same evidence-presentation idea into visual narratives: how to use
+Python charting libraries and LLM assistance to turn analysis into a
+communicable story.
 
 ## Decision Translation
 

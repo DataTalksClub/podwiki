@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 132,
     "nodes": 1156,
-    "links": 13312
+    "links": 13331
   },
   "nodes": [
     {
@@ -45442,6 +45442,12 @@
     },
     {
       "source": "wiki:ai",
+      "target": "book:20240205-creating-intelligent-products",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai",
       "target": "person:andreycheptsov",
       "kind": "wiki-link",
       "weight": 1
@@ -51052,6 +51058,12 @@
     },
     {
       "source": "wiki:career-development",
+      "target": "book:20210510-the-coding-career-handbook",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-development",
       "target": "book:20211129-own-your-tech-career",
       "kind": "wiki-link",
       "weight": 1
@@ -52891,6 +52903,12 @@
       "target": "wiki:testing",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:communication",
+      "target": "book:20240902-data-storytelling-with-altair-and-ai",
+      "kind": "wiki-link",
+      "weight": 1
     },
     {
       "source": "wiki:communication",
@@ -60982,6 +61000,12 @@
     },
     {
       "source": "wiki:data-science-project-management",
+      "target": "book:20241118-why-data-science-projects-fail-harsh-realities-of-implementing-ai-and-analytics-without-hype-chapman-hall-crc-data-science-series",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
       "target": "person:adamsroka",
       "kind": "wiki-link",
       "weight": 1
@@ -63268,6 +63292,18 @@
     },
     {
       "source": "wiki:data-warehouse",
+      "target": "book:20210315-database-internals",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-warehouse",
+      "target": "book:20230123-snowflake-definitive-guide",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-warehouse",
       "target": "person:adrianbrudaru",
       "kind": "wiki-link",
       "weight": 1
@@ -64595,6 +64631,12 @@
     {
       "source": "wiki:dbt",
       "target": "wiki:reverse-etl",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:deep-learning",
+      "target": "book:20210118-deep-learning-structured-data",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -70498,6 +70540,12 @@
     },
     {
       "source": "wiki:interpretability",
+      "target": "book:20210719-interpretable-machine-learning-with-python",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:interpretability",
       "target": "book:20220411-interpretable-machine-learning",
       "kind": "wiki-link",
       "weight": 1
@@ -73348,6 +73396,12 @@
     },
     {
       "source": "wiki:machine-learning",
+      "target": "book:20250505-machine-learning-for-tabular-data",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning",
       "target": "person:arsenykravchenko",
       "kind": "wiki-link",
       "weight": 1
@@ -74873,6 +74927,24 @@
     {
       "source": "wiki:machine-learning-system-design",
       "target": "wiki:software-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-tools",
+      "target": "book:20210329-learning-tensorflow-js",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-tools",
+      "target": "book:20210412-ai-and-machine-learning-for-coders",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-tools",
+      "target": "book:20210503-machine-learning-using-tensorflow-cookbook",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -79210,6 +79282,12 @@
     },
     {
       "source": "wiki:nlp",
+      "target": "book:20210419-transformers-for-natural-language-processing",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:nlp",
       "target": "book:20211213-mastering-spacy",
       "kind": "wiki-link",
       "weight": 1
@@ -82300,6 +82378,12 @@
     },
     {
       "source": "wiki:practices",
+      "target": "book:20251006-software-development-at-rocket-speed",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:practices",
       "target": "person:bartoszmikulski",
       "kind": "wiki-link",
       "weight": 1
@@ -83225,6 +83309,12 @@
     {
       "source": "wiki:production",
       "target": "article:comparison:mlops-vs-dataops",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:production",
+      "target": "book:20250728-production-ready-data-science",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -88150,6 +88240,12 @@
     },
     {
       "source": "wiki:software-engineer-to-machine-learning",
+      "target": "book:20250908-machine-learning-algorithms-in-depth",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:software-engineer-to-machine-learning",
       "target": "person:mihaileric",
       "kind": "wiki-link",
       "weight": 1
@@ -88337,6 +88433,24 @@
     {
       "source": "wiki:software-engineering",
       "target": "article:comparison:mlops-vs-dataops",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:software-engineering",
+      "target": "book:20210322-street-coder",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:software-engineering",
+      "target": "book:20210906-software-mistakes-and-tradeoffs",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:software-engineering",
+      "target": "book:20250922-how-software-fails",
       "kind": "wiki-link",
       "weight": 1
     },

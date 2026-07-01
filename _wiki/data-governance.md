@@ -20,6 +20,8 @@ security or compliance. They connect it to [data engineering platforms]({{ '/wik
 [privacy engineering]({{ '/wiki/privacy-engineering-for-ml/' | relative_url }}),
 and the operating model around [DataOps]({{ '/wiki/dataops/' | relative_url }}).
 
+[Data Governance: The Definitive Guide]({{ '/books/20210524-data-governance-the-definitive-guide/' | relative_url }}) by Evren Eryurek, Uri Gilad, and Jessi Ashdown expands on these governance foundations, covering catalogs, classification, access controls, and policy automation.
+
 [Jessi Ashdown]({{ '/people/jessiashdown/' | relative_url }}) and
 [Uri Gilad]({{ '/people/urigilad/' | relative_url }}) make the broadest
 definition in
@@ -35,6 +37,11 @@ the access-management version in
 At 5:20, he defines governance as the activities that create trust in data for
 analysts, data scientists, and customers. In that framing, teams govern data
 through operating practice, not through documentation alone.
+Andrew Jones's
+[Driving Data Quality with Data Contracts]({{ '/books/20230807-driving-data-quality-with-data-contracts/' | relative_url }})
+develops that operating-practice idea into the data-contract pattern, where
+producers and consumers agree on schema and quality obligations before the
+pipeline runs.
 The same trust boundary applies to
 [Business Intelligence]({{ '/wiki/business-intelligence/' | relative_url }}),
 where dashboards, metrics, and AI-assisted answers can expose governed data to

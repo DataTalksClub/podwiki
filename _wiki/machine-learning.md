@@ -39,6 +39,11 @@ for trackers, platforms, and libraries. Use
 [AI]({{ '/wiki/ai/' | relative_url }}) or
 [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
 for LLM applications, RAG, and agents.
+Mark Ryan and Luca Massaron's
+[Machine Learning for Tabular Data]({{ '/books/20250505-machine-learning-for-tabular-data/' | relative_url }})
+covers the classical modeling workflow that anchors much of this discussion:
+feature engineering, gradient-boosted trees, and cross-validation for
+structured business data.
 
 ## Applied Modeling, Not Model Selection
 
@@ -85,6 +90,8 @@ generation from model specifications.
 [Advanced Algorithms and Data Structures]({{ '/books/20210531-advanced-algorithms-and-data-structures/' | relative_url }})
 by Marcello La Rocca covers the algorithmic foundations that underpin
 efficient ML feature engineering and retrieval at scale.
+
+[Machine Learning Design Patterns]({{ '/books/20210208-ml-design-patterns/' | relative_url }}) by Valliappa Lakshmanan, Sara Robinson, and Michael Munn catalogues reusable patterns for data representation, model training, and serving that recur across the production ML episodes below.
 
 DataTalks.Club guests start ML with the decision instead of the model. In
 [CRISP-DM Methodology for Data Science Projects]({{ '/podcasts/crisp-dm/' | relative_url }}),

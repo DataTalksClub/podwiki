@@ -25,6 +25,11 @@ decision it supports. That boundary applies to [MLOps]({{ '/wiki/mlops/' | relat
 [DataOps]({{ '/wiki/dataops/' | relative_url }}), [machine learning system
 design]({{ '/wiki/machine-learning-system-design/' | relative_url }}), and
 [LLM production patterns]({{ '/wiki/llm-production-patterns/' | relative_url }}).
+Khuyen Tran's
+[Production-Ready Data Science]({{ '/books/20250728-production-ready-data-science/' | relative_url }})
+extends the same dependence and ownership ideas: it covers the
+experiment-to-production handoff, testing, reproducibility, and deployment
+templates that turn a notebook into a maintained system.
 
 ## Operational Responsibility
 

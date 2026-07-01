@@ -30,6 +30,8 @@ The recurring design question is where authority should sit. Leaders can
 centralize data work or embed it in product and business domains. They can also
 use a hybrid model with shared standards.
 
+Jesse Anderson's [Data Teams]({{ '/books/20210201-data-teams/' | relative_url }}) Book of the Week expands on these organizational models, covering data science, data engineering, and analytics team structures and how they scale.
+
 [Lisa Cohen]({{ '/people/lisacohen/' | relative_url }}) frames that choice in
 [Designing a Data Science Organization]({{ '/podcasts/data-science-team-structure-and-org-design/' | relative_url }}).
 She compares centralized teams, decentralized teams, and hybrid models.

@@ -39,6 +39,11 @@ distinction in
 At 7:45 he connects modern generative AI work back to statistical rigor. At
 36:15 he frames human-centered design as part of AI delivery. At 42:05 he places
 agents inside normal software engineering discipline.
+Janna Lipenkova's
+[Creating Intelligent Products]({{ '/books/20240205-creating-intelligent-products/' | relative_url }})
+develops the same product-focused view: it treats AI as an end-to-end product
+discipline covering market research, UX, and business model fit, not just model
+development.
 
 ## AI as Product Engineering
 

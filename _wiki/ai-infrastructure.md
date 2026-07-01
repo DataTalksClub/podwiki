@@ -30,6 +30,11 @@ LLM serving side in
 [Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}),
 where model size and compression influence the deployment decision. Latency,
 cost, and hosted API risk matter there too.
+Yuan Tang's
+[Distributed Machine Learning Patterns]({{ '/books/20240115-distributed-machine-learning-patterns/' | relative_url }})
+catalogs the distributed-training architectures that underlie Andrey's GPU and
+scheduling discussion: data parallelism, model parallelism, and parameter-server
+patterns for scaling training across nodes.
 
 ## Production Infrastructure Scope
 

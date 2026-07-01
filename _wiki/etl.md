@@ -20,6 +20,11 @@ podcast definition in
 [ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}):
 at 3:46-4:30, she breaks ETL into source-specific extraction. She then adds
 organization-specific business logic and destination-specific loading routines.
+Matt Palmer's
+[Understanding ETL]({{ '/books/20240415-understanding-etl/' | relative_url }})
+expands on that same extract-transform-load lifecycle: source extraction,
+staging, transformation logic, and loading patterns across batch and
+event-driven pipelines.
 
 This topic covers the transform-before-load side of the pipeline. Use
 [ELT]({{ '/wiki/elt/' | relative_url }}) for load-first warehouse modeling and

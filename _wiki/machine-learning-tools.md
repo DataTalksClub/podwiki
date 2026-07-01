@@ -94,6 +94,8 @@ compatible pieces rather than one monolithic library. It also connects to
 and [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }}),
 where baselines and feature decisions matter more than algorithm novelty.
 
+For deep learning frameworks beyond scikit-learn, [Machine Learning Using TensorFlow Cookbook]({{ '/books/20210503-machine-learning-using-tensorflow-cookbook/' | relative_url }}) by Audevart, Banachewicz, and Massaron covers practical TensorFlow recipes for regression, classification, and neural networks. [Learning TensorFlow.js]({{ '/books/20210329-learning-tensorflow-js/' | relative_url }}) by Gant Laborde brings the same framework to browser and JavaScript environments. For software engineers entering ML, [AI and Machine Learning for Coders]({{ '/books/20210412-ai-and-machine-learning-for-coders/' | relative_url }}) by Laurence Moroney is an accessible entry point using TensorFlow.
+
 [Tamara Atanasoska]({{ '/people/tamaraatanasoska/' | relative_url }}) shows the
 same ecosystem structure from fairness and interpretability work in
 [Fairness in AI/ML Engineering]({{ '/podcasts/fairness-in-ai-ml-engineering/' | relative_url }}).

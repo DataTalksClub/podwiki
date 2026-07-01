@@ -168,6 +168,8 @@ and
 architecture choices about evidence structure. Some systems need similar text or
 images. Others need entities, paths, report structure, or domain relationships.
 
+For the underlying graph database technology, [Graph Databases in Action]({{ '/books/20210614-graph-databases-in-action/' | relative_url }}) by Dave Bechberger and Josh Perryman covers property graph models, query patterns, and when graph storage fits a domain better than relational or vector stores.
+
 ## Evaluation and Operations
 
 Teams need to evaluate the retrieval result and the product outcome separately.

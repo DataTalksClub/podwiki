@@ -59,6 +59,8 @@ also covers stop-loss rules, fees, and discipline after deployment
 ([Ivan Brigida]({{ '/people/ivanbrigida/' | relative_url }}),
 [Algorithmic Trading with Python]({{ '/podcasts/algorithmic-trading-with-python-and-machine-learning/' | relative_url }})).
 
+For a comprehensive reference, Stefan Jansen's [Machine Learning for Algorithmic Trading]({{ '/books/20210222-ml-algotrading-2ed/' | relative_url }}) Book of the Week covers end-to-end market data pipelines, feature engineering, model training, and backtesting in Python.
+
 ## Data Sourcing and Market Data
 
 A Python stock analysis workflow starts with market data sources and a clear

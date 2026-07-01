@@ -31,6 +31,10 @@ In
 the start of an NLP pipeline at 34:57-36:50. His pipeline begins with data
 annotation and data quality. It then moves into task engineering, model
 testing, deployment, and observability.
+[Data-Centric Machine Learning with Python]({{ '/books/20240408-data-centric-machine-learning-with-python/' | relative_url }})
+by Nakul Bajaj, Jonas Christensen, and Manmohan Gosada extends that pipeline
+view: it treats data quality and label improvement as the primary lever for
+model performance, not architecture tuning.
 
 ## Task Framing and Guidebooks
 

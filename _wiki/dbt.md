@@ -31,6 +31,10 @@ in Snowflake, alongside Looker and ingestion tooling. dbt keeps SQL files in a
 code workflow and manages model dependencies. It builds a DAG, runs tests, and
 exposes documentation. DataTalks.Club therefore treats dbt as a practical
 bridge between analytics work and software engineering habits.
+Rui Machado and Helder Russa's
+[Analytics Engineering with SQL and DBT]({{ '/books/20231106-analytics-engineering-with-sql-and-dbt/' | relative_url }})
+covers the same warehouse-side SQL modeling, testing, and DAG-based project
+workflow that Victoria describes here.
 
 ## Warehouse-Side Transformation
 

@@ -135,6 +135,7 @@ Python, tests, modular code, and configuration. They also need packaging, APIs,
 dependency management, and code review. Debugging is part of the same base.
 [Machine Learning Engineering with Python]({{ '/books/20220117-machine-learning-engineering-with-python/' | relative_url }})
 by Andrew McMahon builds on the same production ML engineering practices in Python.
+[Machine Learning Engineering in Action]({{ '/books/20210301-ml-engineering/' | relative_url }}) by Ben Wilson covers the same production discipline from prototype to deployment, including reproducibility and maintainability.
 Ben's 8:49 section makes modular, testable code a production requirement.
 
 In

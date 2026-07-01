@@ -33,6 +33,11 @@ clearest warehouse-centered explanation in
 She contrasts ETL with ELT. She explains why teams may load raw data before
 transforming it. She also places warehouses beside marts and lakes.
 Orchestration, CDC, and reverse flows stay in the same map.
+Joyce Kay Avila's
+[Snowflake: The Definitive Guide]({{ '/books/20230123-snowflake-definitive-guide/' | relative_url }})
+covers the same warehouse platform Kwong references: virtual warehouses,
+cloud-native scaling, data sharing, and the SQL modeling layer that dbt and
+analytics engineering build on.
 
 [Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }})
 updates the boundary in
@@ -89,6 +94,8 @@ warehouse-like behavior and reduce lock-in
 18:17-23:41 and 49:42). Teams choosing between managed warehouse trust and an
 open table-format platform can start with [Data Warehouse vs Data
 Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }}).
+
+For storage engine internals that sit beneath both warehouses and lakehouses, Alex Petrov's [Database Internals]({{ '/books/20210315-database-internals/' | relative_url }}) Book of the Week covers transaction logs, B-trees, replication, and consensus protocols.
 
 Perez Mola and Maksimovic focus less on the storage product and more on the
 modeled layer that users see. Perez Mola treats dbt and tests as role-defining

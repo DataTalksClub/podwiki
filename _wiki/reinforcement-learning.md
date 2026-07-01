@@ -23,6 +23,8 @@ They also use it to show why robotics and autonomous driving need constraints.
 Business teams often choose simpler optimization or experimentation methods
 when they don't have a reliable simulator.
 
+For a structured introduction to the topic, the [Reinforcement Learning]({{ '/books/20210111-reinforcement-learning/' | relative_url }}) Book of the Week by Phil Winder covers industrial applications and the practical boundary between simulated environments and real-world deployment.
+
 Start with
 [Micheal Lanham]({{ '/people/micheallanham/' | relative_url }}) in
 [From Game AI to LLM Agents]({{ '/podcasts/from-game-ai-to-modern-ai-agents/' | relative_url }})

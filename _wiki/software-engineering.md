@@ -40,6 +40,11 @@ The clearest starting point is
 episode. At 6:58 and 7:42, she distinguishes ML systems from traditional
 software through uncertainty, data workflows, and monitoring needs. At 10:12,
 she ties the discussion to hidden technical debt.
+Engin Yoyen's
+[How Software Fails]({{ '/books/20250922-how-software-fails/' | relative_url }})
+collects the same failure patterns from the software side: technical debt,
+communication breakdowns, deadline pressure, and the human and organizational
+factors that undermine even well-architected systems.
 
 ## Engineering Habits for Changing Systems
 
@@ -279,6 +284,8 @@ Maintainability means a team can change the system without relearning the whole
 project from scratch. Guests connect that to simple designs, modular code, and
 documentation. Teams also need shared vocabulary and explicit
 ownership.
+
+[Software Mistakes and Tradeoffs]({{ '/books/20210906-software-mistakes-and-tradeoffs/' | relative_url }}) by Tomasz Lelek and Jon Skeet covers the common pitfalls and architectural tradeoffs that underpin these maintainability decisions. For pragmatic coding habits, [Street Coder]({{ '/books/20210322-street-coder/' | relative_url }}) by Sedat Kapanoglu distills real-world engineering judgment that goes beyond textbook rules.
 
 [Ben Wilson]({{ '/people/benwilson/' | relative_url }}) is the strongest
 maintainability reference. In

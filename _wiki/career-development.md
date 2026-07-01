@@ -118,6 +118,8 @@ At 38:30 and 47:14, unsolicited redesigns, product clones, and case studies
 become visibility signals. Open knowledge projects, collaborative docs, and
 cheat sheets serve the same role.
 
+Swyx's [The Coding Career Handbook]({{ '/books/20210510-the-coding-career-handbook/' | relative_url }}) expands on these themes, covering career leverage, learning in public, and compounding proof of expertise.
+
 [Admond Lee Kin Lim]({{ '/people/admondleekinlim/' | relative_url }}) gives the
 audience-building version in
 [Personal Brand for Data Professionals]({{ '/podcasts/personal-brand-for-data-professionals/' | relative_url }}).

@@ -139,6 +139,8 @@ That standard links the topic to
 [machine learning system design]({{ '/wiki/machine-learning-system-design/' | relative_url }}),
 and [model evaluation]({{ '/wiki/evaluation/' | relative_url }}).
 
+[Deep Learning with Structured Data]({{ '/books/20210118-deep-learning-structured-data/' | relative_url }}) by Mark Ryan is a practitioner reference for applying neural networks to tabular and relational data where simpler models often serve as the baseline.
+
 ## Data, Labels, and Error Analysis
 
 Deep learning episodes repeatedly return to data quality because neural

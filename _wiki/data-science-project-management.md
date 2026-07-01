@@ -40,6 +40,10 @@ DataTalks.Club guests treat data science project management as technical work
 and organizational work. In [CRISP-DM]({{ '/podcasts/crisp-dm/' | relative_url }}),
 teams start by understanding the business and preparing data. They model and
 evaluate next. They deploy when the result is ready to leave analysis.
+[Why Data Science Projects Fail]({{ '/books/20241118-why-data-science-projects-fail-harsh-realities-of-implementing-ai-and-analytics-without-hype-chapman-hall-crc-data-science-series/' | relative_url }})
+by Evan Shellshear and Douglas Gray grounds the same failure modes the podcast
+returns to repeatedly: misaligned business framing, over-scoped pilots, and
+projects that never reach production adoption.
 
 In [From Project Manager to Data Scientist]({{ '/podcasts/project-manager-to-data-scientist/' | relative_url }}),
 [Ksenia Legostay]({{ '/people/ksenialegostay/' | relative_url }}) treats planning

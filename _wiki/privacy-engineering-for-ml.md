@@ -28,6 +28,11 @@ clearest definition in
 At 22:38, she describes privacy engineering as translation between legal,
 social, and technical views. At 30:15 and 47:00, privacy becomes part of normal
 product and architecture work rather than a late compliance check.
+Mario Lazo and Justin Ryan's
+[AI Data Privacy and Protection]({{ '/books/20240715-ai-data-privacy-and-protection/' | relative_url }})
+provides a structured reference for the same legal-to-technical translation:
+data classification, access controls, and privacy-by-design patterns for AI
+systems.
 
 Across these episodes, guests converge on a practical rule. Useful AI systems
 shouldn't create avoidable privacy, security, or compliance risk.

@@ -32,6 +32,11 @@ Use
 [RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }})
 when the decision is whether a system needs better prompts, retrieved context,
 or model adaptation.
+Michael Taylor and James Phoenix's
+[Prompt Engineering for Generative AI]({{ '/books/20240701-prompt-engineering-for-generative-ai/' | relative_url }})
+catalogs the same role, example, and structured-output techniques as a
+practitioner reference, with prompt-testing patterns across image and text
+generation.
 
 ## Prompt and Context Interface
 

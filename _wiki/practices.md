@@ -29,6 +29,11 @@ MLOps version in
 Teams enable reproducible model delivery with shared infrastructure, reusable
 CI/CD, and standard repositories. Registries and monitoring complete that
 baseline.
+Nikolay Smorchkov's
+[Software Development at Rocket Speed]({{ '/books/20251006-software-development-at-rocket-speed/' | relative_url }})
+addresses the same delivery-speed question from the software side: how
+requirements decomposition, estimation, and incremental delivery keep teams
+shipping rather than stuck in analysis.
 
 ## Adoption and Scope
 

@@ -81,6 +81,8 @@ Theofilos makes that lifecycle boundary explicit in
 around 7:28-15:29. He contrasts DevOps with model lifecycle, drift, and
 fairness. He also covers monitoring and retraining triggers.
 
+[Building Machine Learning Pipelines]({{ '/books/20210607-building-machine-learning-pipelines/' | relative_url }}) by Hannes Hapke and Catherine Nelson covers the data and model pipeline automation layer of this lifecycle, from data ingestion and validation through continuous training and deployment.
+
 ## Platform Timing and Tool Boundaries
 
 Guests differ on how much platform to build and how early to build it. In

@@ -40,6 +40,11 @@ For project scope, see
 [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}),
 [Notebook to Production AI Systems]({{ '/wiki/notebook-to-production-ai-systems/' | relative_url }}),
 and [MLOps]({{ '/wiki/mlops/' | relative_url }}).
+Vadim Smolyakov's
+[Machine Learning Algorithms in Depth]({{ '/books/20250908-machine-learning-algorithms-in-depth/' | relative_url }})
+is a useful companion for that algorithm-learning phase of the transition:
+it walks through the math and implementation of core algorithms from linear
+regression through Bayesian methods and deep learning.
 
 ## From Software Reliability to ML Lifecycle
 

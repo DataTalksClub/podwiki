@@ -181,6 +181,8 @@ At 48:01 she explains vector databases through embeddings, indexing, and
 semantic search. Her retrieval discussion belongs next to
 [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }}).
 
+For a practitioner-oriented reference on the transformer architecture behind these models, [Transformers for Natural Language Processing]({{ '/books/20210419-transformers-for-natural-language-processing/' | relative_url }}) by Denis Rothman covers attention mechanisms, fine-tuning, and downstream NLP tasks.
+
 [Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }})
 adds the builder's version in
 [Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}).
