@@ -1,17 +1,17 @@
 {
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
-    "wikis": 178,
-    "articles": 49,
-    "guides": 19,
+    "wikis": 179,
+    "articles": 53,
+    "guides": 20,
     "comparisons": 19,
     "roadmaps": 9,
-    "how_tos": 2,
+    "how_tos": 5,
     "podcasts": 202,
     "persons": 438,
     "topics": 92,
-    "nodes": 959,
-    "links": 11052
+    "nodes": 964,
+    "links": 11273
   },
   "nodes": [
     {
@@ -246,6 +246,17 @@
       "keyword": "data warehouse vs data lakehouse"
     },
     {
+      "id": "article:how_to:dataops-checks-for-data-pipelines",
+      "type": "article",
+      "collection": "how_to",
+      "label": "DataOps Checks for Data Pipelines",
+      "title": "DataOps Checks for Data Pipelines",
+      "url": "/how-tos/dataops-checks-for-data-pipelines/",
+      "count": 1,
+      "search": "DataOps Checks for Data Pipelines A practical checklist for adding DataOps checks to data pipelines: freshness, volume, schema, distribution, uniqueness, business rules, CI/CD, runbooks, and recovery.",
+      "keyword": "dataops checks for data pipelines"
+    },
+    {
       "id": "article:guide:dataops-tools",
       "type": "article",
       "collection": "guide",
@@ -334,6 +345,28 @@
       "keyword": "hire data engineers"
     },
     {
+      "id": "article:how_to:rag-evaluation-workflow",
+      "type": "article",
+      "collection": "how_to",
+      "label": "How to Run a RAG Evaluation Workflow",
+      "title": "How to Run a RAG Evaluation Workflow",
+      "url": "/how-tos/rag-evaluation-workflow/",
+      "count": 1,
+      "search": "How to Run a RAG Evaluation Workflow A practical workflow for evaluating RAG systems with user tasks, gold examples, retrieval checks, answer checks, citations, human review, traces, and production feedback.",
+      "keyword": "rag evaluation workflow"
+    },
+    {
+      "id": "article:how_to:notebook-to-production-ai-systems",
+      "type": "article",
+      "collection": "how_to",
+      "label": "How to Take an AI Notebook to Production",
+      "title": "How to Take an AI Notebook to Production",
+      "url": "/how-tos/notebook-to-production-ai-systems/",
+      "count": 1,
+      "search": "How to Take an AI Notebook to Production A procedural guide for turning an AI or ML notebook into a production system with scoped business requirements, reproducible code, data paths, evaluation, serving, monitoring, and feedback.",
+      "keyword": "notebook to production AI systems"
+    },
+    {
       "id": "article:comparison:knowledge-graph-vs-vector-search",
       "type": "article",
       "collection": "comparison",
@@ -398,6 +431,17 @@
       "count": 1,
       "search": "Machine Learning Engineer vs Data Scientist A podcast grounded role comparison for deciding whether a team needs data science ownership, machine learning engineering ownership, or both.",
       "keyword": "machine learning engineer vs data scientist"
+    },
+    {
+      "id": "article:guide:machine-learning-for-business",
+      "type": "article",
+      "collection": "guide",
+      "label": "Machine Learning for Business: Where ML Helps and Where It Does Not",
+      "title": "Machine Learning for Business: Where ML Helps and Where It Does Not",
+      "url": "/guides/machine-learning-for-business/",
+      "count": 1,
+      "search": "Machine Learning for Business: Where ML Helps and Where It Does Not A podcast backed guide for business leaders and data teams deciding where machine learning can improve decisions, workflows, revenue, cost, risk, and production operations.",
+      "keyword": "machine learning business"
     },
     {
       "id": "article:guide:machine-learning-for-software-engineers",
@@ -8392,6 +8436,16 @@
       "search": "Data Science Careers Archive backed career guidance for data scientist roles: role targeting, CV evidence, portfolio signals, interviews, salary, and ambiguous titles."
     },
     {
+      "id": "wiki:data-science-project-management",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Data Science Project Management",
+      "title": "Data Science Project Management",
+      "url": "/wiki/data-science-project-management/",
+      "count": 1,
+      "search": "Data Science Project Management How DataTalks.Club guests manage data science, analytics, and ML projects through problem framing, scope, stakeholders, baselines, metrics, evaluation, adoption, and production handoff."
+    },
+    {
       "id": "wiki:data-scientist-interview-roadmap",
       "type": "wiki",
       "collection": "wiki",
@@ -16254,6 +16308,360 @@
       "weight": 1
     },
     {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "article:comparison:data-product-manager-vs-product-manager",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "article:comparison:mlops-vs-dataops",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "article:guide:machine-learning-for-startups",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "article:roadmap:data-product-manager-roadmap",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "person:adamsroka",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "person:arsenykravchenko",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "person:benwilson",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "person:caitlinmoorman",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "person:elenasamuylova",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "person:geojolly",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "person:gregcoquillo",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "person:jakobgraff",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "person:linaweichbrodt",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "person:liorbarak",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "person:lorismarini",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "person:nadianahar",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "person:simonstiebellehner",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "person:valeriybabushkin",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "person:vinvashishta",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "person:zhamakdehghani",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "podcast:ab-testing-and-product-experimentation",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "podcast:building-and-scaling-ai-data-products-with-mlops",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "podcast:building-mlops-startup",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "podcast:building-production-ml-platform-and-mlops-team",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "podcast:building-scalable-and-reliable-machine-learning-systems",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "podcast:data-mesh-architecture-decentralized-data-products",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "podcast:data-professionals-business-skills-in-saas",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "podcast:data-translator-role-and-data-strategy",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "podcast:human-centered-mlops-and-model-monitoring",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "podcast:machine-learning-engineering-production-best-practices",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "podcast:machine-learning-system-design-interview",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "podcast:make-money-with-machine-learning-roles-skills",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "podcast:ml-engineering-kpis-and-metrics-strategy",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "podcast:ml-product-manager-and-mlops-platform-strategy",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "podcast:software-engineering-for-machine-learning",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "wiki:a-b-testing",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "wiki:business-skills-for-data-professionals",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "wiki:business-skills-for-data-professionals",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "wiki:data-product-adoption",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "wiki:data-product-adoption",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "wiki:data-product-management",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "wiki:data-product-management",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "wiki:data-products",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "wiki:data-products",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "wiki:evaluation",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "wiki:evaluation",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "wiki:machine-learning",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "wiki:machine-learning",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "wiki:metrics",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "wiki:ml-product-manager-role",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "wiki:ml-product-manager-role",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "wiki:mlops",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "wiki:mlops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "wiki:model-monitoring",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "wiki:production",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "wiki:startups",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
       "source": "article:guide:machine-learning-for-software-engineers",
       "target": "article:guide:machine-learning-system-design-interview",
       "kind": "article-link",
@@ -18024,6 +18432,174 @@
       "weight": 5
     },
     {
+      "source": "article:how_to:dataops-checks-for-data-pipelines",
+      "target": "article:guide:data-observability-for-data-engineering",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:dataops-checks-for-data-pipelines",
+      "target": "article:how_to:airflow-docker-compose",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:dataops-checks-for-data-pipelines",
+      "target": "article:how_to:how-to-build-data-pipelines",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:dataops-checks-for-data-pipelines",
+      "target": "person:barrmoses",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:dataops-checks-for-data-pipelines",
+      "target": "person:christopherbergh",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:dataops-checks-for-data-pipelines",
+      "target": "person:larsalbertsson",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:dataops-checks-for-data-pipelines",
+      "target": "person:santonatuli",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:dataops-checks-for-data-pipelines",
+      "target": "person:tomaszhinc",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:dataops-checks-for-data-pipelines",
+      "target": "podcast:data-quality-data-observability-data-reliability",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:dataops-checks-for-data-pipelines",
+      "target": "podcast:dataops-and-gitops-best-practices-for-data-teams",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:dataops-checks-for-data-pipelines",
+      "target": "podcast:dataops-automation-and-reliable-data-pipelines",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:dataops-checks-for-data-pipelines",
+      "target": "podcast:dataops-for-data-engineering",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:dataops-checks-for-data-pipelines",
+      "target": "podcast:dataops-principles-and-scalable-data-platforms",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:dataops-checks-for-data-pipelines",
+      "target": "podcast:modern-data-pipelines-orchestration-ingestion-modeling",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:dataops-checks-for-data-pipelines",
+      "target": "wiki:analytics-engineering",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:dataops-checks-for-data-pipelines",
+      "target": "wiki:ci-cd",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:dataops-checks-for-data-pipelines",
+      "target": "wiki:ci-cd",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:how_to:dataops-checks-for-data-pipelines",
+      "target": "wiki:data-observability",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:how_to:dataops-checks-for-data-pipelines",
+      "target": "wiki:data-pipelines",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:dataops-checks-for-data-pipelines",
+      "target": "wiki:data-pipelines",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:how_to:dataops-checks-for-data-pipelines",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:dataops-checks-for-data-pipelines",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:how_to:dataops-checks-for-data-pipelines",
+      "target": "wiki:dataops",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:dataops-checks-for-data-pipelines",
+      "target": "wiki:dataops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:how_to:dataops-checks-for-data-pipelines",
+      "target": "wiki:dataops-platforms",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:dataops-checks-for-data-pipelines",
+      "target": "wiki:dataops-platforms",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:how_to:dataops-checks-for-data-pipelines",
+      "target": "wiki:orchestration",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:dataops-checks-for-data-pipelines",
+      "target": "wiki:orchestration",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
       "source": "article:how_to:how-to-build-data-pipelines",
       "target": "article:comparison:batch-vs-streaming",
       "kind": "article-link",
@@ -18226,6 +18802,486 @@
       "target": "wiki:tracking-plans",
       "kind": "article-link",
       "weight": 1
+    },
+    {
+      "source": "article:how_to:notebook-to-production-ai-systems",
+      "target": "article:comparison:batch-vs-streaming",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:notebook-to-production-ai-systems",
+      "target": "article:how_to:airflow-docker-compose",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:notebook-to-production-ai-systems",
+      "target": "article:how_to:how-to-build-data-pipelines",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:notebook-to-production-ai-systems",
+      "target": "article:roadmap:llm-rag-production-roadmap",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:notebook-to-production-ai-systems",
+      "target": "person:andreaskretz",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:notebook-to-production-ai-systems",
+      "target": "person:benwilson",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:notebook-to-production-ai-systems",
+      "target": "person:linaweichbrodt",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:notebook-to-production-ai-systems",
+      "target": "person:marianosemelman",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:notebook-to-production-ai-systems",
+      "target": "person:mihaileric",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:notebook-to-production-ai-systems",
+      "target": "podcast:human-centered-mlops-and-model-monitoring",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:notebook-to-production-ai-systems",
+      "target": "podcast:machine-learning-engineering-production-best-practices",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:notebook-to-production-ai-systems",
+      "target": "podcast:production-ml-pipelines-with-aws-and-kafka",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:notebook-to-production-ai-systems",
+      "target": "podcast:research-to-production-ml-systems-roadmap",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:notebook-to-production-ai-systems",
+      "target": "podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:notebook-to-production-ai-systems",
+      "target": "wiki:a-b-testing",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:notebook-to-production-ai-systems",
+      "target": "wiki:agent-engineering",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:notebook-to-production-ai-systems",
+      "target": "wiki:ai-agents",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:notebook-to-production-ai-systems",
+      "target": "wiki:ai-engineering",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:notebook-to-production-ai-systems",
+      "target": "wiki:ai-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:how_to:notebook-to-production-ai-systems",
+      "target": "wiki:data-pipelines",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:notebook-to-production-ai-systems",
+      "target": "wiki:data-pipelines",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:how_to:notebook-to-production-ai-systems",
+      "target": "wiki:data-product-adoption",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:notebook-to-production-ai-systems",
+      "target": "wiki:data-products",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:notebook-to-production-ai-systems",
+      "target": "wiki:data-products",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:how_to:notebook-to-production-ai-systems",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:notebook-to-production-ai-systems",
+      "target": "wiki:kpis",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:notebook-to-production-ai-systems",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:notebook-to-production-ai-systems",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:how_to:notebook-to-production-ai-systems",
+      "target": "wiki:llm-production-patterns",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:notebook-to-production-ai-systems",
+      "target": "wiki:llm-production-patterns",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:how_to:notebook-to-production-ai-systems",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:notebook-to-production-ai-systems",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:how_to:notebook-to-production-ai-systems",
+      "target": "wiki:metrics",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:notebook-to-production-ai-systems",
+      "target": "wiki:mlops",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:notebook-to-production-ai-systems",
+      "target": "wiki:mlops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:how_to:notebook-to-production-ai-systems",
+      "target": "wiki:model-monitoring",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:notebook-to-production-ai-systems",
+      "target": "wiki:model-monitoring",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:how_to:notebook-to-production-ai-systems",
+      "target": "wiki:notebook-to-production-ai-systems",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:notebook-to-production-ai-systems",
+      "target": "wiki:notebook-to-production-ai-systems",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:how_to:notebook-to-production-ai-systems",
+      "target": "wiki:production",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:notebook-to-production-ai-systems",
+      "target": "wiki:production",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:how_to:notebook-to-production-ai-systems",
+      "target": "wiki:reproducibility",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:notebook-to-production-ai-systems",
+      "target": "wiki:software-engineering",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:notebook-to-production-ai-systems",
+      "target": "wiki:testing",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:rag-evaluation-workflow",
+      "target": "article:comparison:graph-rag-vs-vector-rag",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:rag-evaluation-workflow",
+      "target": "article:comparison:knowledge-graph-vs-vector-search",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:rag-evaluation-workflow",
+      "target": "article:comparison:rag-vs-fine-tuning",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:rag-evaluation-workflow",
+      "target": "article:comparison:vector-database-vs-search-engine",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:rag-evaluation-workflow",
+      "target": "article:roadmap:llm-rag-production-roadmap",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:rag-evaluation-workflow",
+      "target": "person:atitaarora",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:rag-evaluation-workflow",
+      "target": "person:hugobowneanderson",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:rag-evaluation-workflow",
+      "target": "person:meryemarik",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:rag-evaluation-workflow",
+      "target": "person:pauliusztin",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:rag-evaluation-workflow",
+      "target": "person:ranjithakulkarni",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:rag-evaluation-workflow",
+      "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:rag-evaluation-workflow",
+      "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:rag-evaluation-workflow",
+      "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:rag-evaluation-workflow",
+      "target": "podcast:practical-llm-engineering-and-rag",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:rag-evaluation-workflow",
+      "target": "podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:rag-evaluation-workflow",
+      "target": "wiki:agent-engineering",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:rag-evaluation-workflow",
+      "target": "wiki:agent-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:how_to:rag-evaluation-workflow",
+      "target": "wiki:ai-engineer-role",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:rag-evaluation-workflow",
+      "target": "wiki:information-retrieval",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:rag-evaluation-workflow",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:rag-evaluation-workflow",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:how_to:rag-evaluation-workflow",
+      "target": "wiki:llm-production-patterns",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:rag-evaluation-workflow",
+      "target": "wiki:llm-production-patterns",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:how_to:rag-evaluation-workflow",
+      "target": "wiki:mlops",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:rag-evaluation-workflow",
+      "target": "wiki:model-monitoring",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:rag-evaluation-workflow",
+      "target": "wiki:production-search-evaluation",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:rag-evaluation-workflow",
+      "target": "wiki:production-search-evaluation",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:how_to:rag-evaluation-workflow",
+      "target": "wiki:rag",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:rag-evaluation-workflow",
+      "target": "wiki:rag",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:how_to:rag-evaluation-workflow",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:rag-evaluation-workflow",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:how_to:rag-evaluation-workflow",
+      "target": "wiki:search",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:rag-evaluation-workflow",
+      "target": "wiki:search-and-rag-project-checklist",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:rag-evaluation-workflow",
+      "target": "wiki:search-and-rag-project-checklist",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:how_to:rag-evaluation-workflow",
+      "target": "wiki:search-rag-and-knowledge-systems",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:rag-evaluation-workflow",
+      "target": "wiki:search-rag-and-knowledge-systems",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "article:roadmap:data-analyst-to-analytics-engineer",
@@ -50012,6 +51068,330 @@
     {
       "source": "wiki:data-science-careers",
       "target": "wiki:salary-negotiation",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "article:comparison:data-product-owner-vs-data-product-manager",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "article:roadmap:machine-learning-engineer-roadmap",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "person:adamsroka",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "person:annahannemann",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "person:barbarasobkowiak",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "person:caitlinmoorman",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "person:ioannismesionis",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "person:ksenialegostay",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "person:linaweichbrodt",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "person:lorismarini",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "person:rishabhbhargava",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "person:shirmeirlador",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "person:valeriybabushkin",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "podcast:building-data-products-lead-data-scientist",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "podcast:building-data-products-product-owner-vs-product-manager",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "podcast:crisp-dm",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "podcast:data-professionals-business-skills-in-saas",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "podcast:data-science-management-and-agile-machine-learning",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "podcast:data-science-manager-vs-expert-hiring-guide",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "podcast:human-centered-mlops-and-model-monitoring",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "podcast:machine-learning-system-design-interview",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "podcast:ml-engineering-kpis-and-metrics-strategy",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "podcast:ml-system-design",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "podcast:production-ml-mlops-and-data-team-building",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "podcast:project-manager-to-data-scientist",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "wiki:a-b-testing",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "wiki:business-skills-for-data-professionals",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "wiki:business-skills-for-data-professionals",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "wiki:data-product-adoption",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "wiki:data-product-management",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "wiki:data-product-management",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "wiki:data-products",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "wiki:data-science",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "wiki:data-science",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "wiki:data-scientist-role",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "wiki:data-team-lead-role",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "wiki:data-teams",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "wiki:data-teams",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "wiki:evaluation",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "wiki:evaluation",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "wiki:leadership",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "wiki:leadership",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "wiki:metrics",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "wiki:metrics",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "wiki:ml-system-design-documents",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "wiki:mlops",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "wiki:model-monitoring",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "wiki:product-analytics",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "wiki:production",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "wiki:production-ml-project-checklist",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "wiki:production-ml-project-checklist",
       "kind": "wiki-related",
       "weight": 3
     },
