@@ -110,7 +110,7 @@ For deeper tool comparisons, use these pages:
 - [Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }})
 - [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
 - [dbt]({{ '/wiki/dbt/' | relative_url }})
-- [Apache Airflow]({{ '/guides/apache-airflow/' | relative_url }})
+- [Apache Airflow]({{ '/wiki/orchestration/' | relative_url }})
 
 ## DataOps and Quality
 
@@ -331,7 +331,7 @@ Choose the path based on the question you're trying to answer.
 - Choosing tools: listen to
   [Data Engineering Tools and Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
   [Modern Data Engineering]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}),
-  [Apache Airflow]({{ '/guides/apache-airflow/' | relative_url }}), and
+  [Apache Airflow]({{ '/wiki/orchestration/' | relative_url }}), and
   [Data-Led Growth]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }}).
 - Operating pipelines: listen to
   [DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }}),

@@ -41,7 +41,7 @@ cost-aware platform choices.
 
 For the broad topic, start with
 [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}), and use
-[Apache Airflow]({{ '/guides/apache-airflow/' | relative_url }}) for
+[Apache Airflow]({{ '/wiki/orchestration/' | relative_url }}) for
 tool-specific detail. For architecture decisions, use
 [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}) and
 [Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }}).
@@ -207,7 +207,7 @@ nightly warehouse model needs different operating behavior than a large Spark
 job or streaming application.
 
 For the tool-level guide, read
-[Apache Airflow]({{ '/guides/apache-airflow/' | relative_url }}), and use
+[Apache Airflow]({{ '/wiki/orchestration/' | relative_url }}), and use
 [DataOps]({{ '/wiki/dataops/' | relative_url }}) for the broader practice.
 
 ## Quality and Observability Create Trust

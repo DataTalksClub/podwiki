@@ -89,13 +89,15 @@ llm-system-design-interview  → 301 to the new interview page
 
 Status: exact guide/wiki slug collisions were merged into the wiki layer and
 the duplicate guide files were removed on 2026-06-30. Remaining rows in this
-section still need the same merge/delete decision.
+section still need the same merge/delete decision. The Airflow/apache-airflow/
+airflow-docker-compose cluster was consolidated into `_wiki/orchestration.md`
+on 2026-07-01.
 
 | Slug | → wiki topic | Note |
 |---|---|---|
-| airflow | orchestration | |
-| apache-airflow | orchestration | dup of airflow |
-| airflow-docker-compose | orchestration | thin how-to |
+| airflow | orchestration | **done: consolidated into `_wiki/orchestration.md`** |
+| apache-airflow | orchestration | **done: consolidated into `_wiki/orchestration.md`; dup of airflow** |
+| airflow-docker-compose | orchestration | **done: consolidated into `_wiki/orchestration.md`; thin how-to** |
 | analytics-engineer | analytics-engineering | |
 | data-engineering-and-data-science | data-engineer-vs-data-scientist | |
 | data-engineering-certification | data-engineering-certification | **done: slug collision merged** |

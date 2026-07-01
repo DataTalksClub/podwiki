@@ -34,12 +34,13 @@ outputs, and production ML handoffs belong in the same conversation.
 
 This topic covers pipeline design. Use
 [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}) for the transformation
-boundary. [Orchestration]({{ '/wiki/orchestration/' | relative_url }}) and
-[Apache Airflow]({{ '/guides/apache-airflow/' | relative_url }}) cover
-scheduling and dependencies. [DataOps]({{ '/wiki/dataops/' | relative_url }})
-covers reliable delivery practice.
+boundary, while [Orchestration]({{ '/wiki/orchestration/' | relative_url }})
+and [Apache Airflow]({{ '/wiki/orchestration/' | relative_url }}) cover
+scheduling and dependencies. Use
+[DataOps]({{ '/wiki/dataops/' | relative_url }}) for reliable delivery
+practice, and
 [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
-covers shared infrastructure around many pipelines.
+for shared infrastructure around many pipelines.
 
 ## Definition
 
@@ -319,7 +320,7 @@ Use [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}) when the question is
 where transformations should run. Use [CDC]({{ '/wiki/cdc/' | relative_url }})
 when the source data changes incrementally and full reloads are wasteful. Use
 [Orchestration]({{ '/wiki/orchestration/' | relative_url }}) and
-[Apache Airflow]({{ '/guides/apache-airflow/' | relative_url }}) when the
+[Apache Airflow]({{ '/wiki/orchestration/' | relative_url }}) when the
 problem is scheduling, dependencies, retries, or backfills.
 
 Use [DataOps]({{ '/wiki/dataops/' | relative_url }}) when the concern is

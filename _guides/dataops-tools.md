@@ -164,9 +164,7 @@ Around 10:48, he uses Luigi as a data build system. Around 30:34, he names
 storage, compute, and workflow engines as core platform components. Around
 41:53 and 45:11, he separates batch, micro-batch, and streaming tradeoffs.
 
-Use [Orchestration]({{ '/wiki/orchestration/' | relative_url }}),
-[Airflow]({{ '/guides/airflow/' | relative_url }}), and
-[Apache Airflow]({{ '/guides/apache-airflow/' | relative_url }}) when the
+Use [Orchestration]({{ '/wiki/orchestration/' | relative_url }}) when the
 decision is specifically about scheduler choice. DataOps needs orchestration,
 but an orchestrator alone isn't a complete operating model.
 

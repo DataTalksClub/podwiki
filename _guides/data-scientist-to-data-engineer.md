@@ -138,7 +138,7 @@ name the grain and consumer of each important table
 Add orchestration and recovery, because orchestration isn't only scheduling and
 should make dependencies, retries, and reruns visible. Alerts and backfills belong in
 the same operating story
-([Apache Airflow]({{ '/guides/apache-airflow/' | relative_url }})). In
+([Apache Airflow]({{ '/wiki/orchestration/' | relative_url }})). In
 [DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}),
 [Lars Albertsson]({{ '/people/larsalbertsson/' | relative_url }}) frames
 scalable data platforms around storage, compute, and workflow engines. He adds

@@ -40,7 +40,7 @@ describes the workflow-oriented version in
 
 Batch jobs can declare which upstream data is required. They can also declare
 the time window and downstream dependencies. That makes batch natural for
-[Apache Airflow]({{ '/guides/apache-airflow/' | relative_url }}) and warehouse
+[Apache Airflow]({{ '/wiki/orchestration/' | relative_url }}) and warehouse
 transformations in the
 [modern data stack]({{ '/wiki/modern-data-stack/' | relative_url }}). It also
 fits backfills, training datasets, and scheduled scoring.
@@ -271,7 +271,7 @@ These pages connect the comparison to adjacent archive topics.
 - [Streaming]({{ '/wiki/streaming/' | relative_url }})
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})
 - [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
-- [Apache Airflow]({{ '/guides/apache-airflow/' | relative_url }})
+- [Apache Airflow]({{ '/wiki/orchestration/' | relative_url }})
 - [MLOps]({{ '/wiki/mlops/' | relative_url }})
 - [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})

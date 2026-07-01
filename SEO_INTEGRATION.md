@@ -142,5 +142,7 @@ wiki page already owns.
     bootcamp guide variants
   - [x] Consolidate freelance and consulting guide variants into
     `_wiki/freelance.md`
+  - [x] Consolidate Airflow, Apache Airflow, and Airflow Docker Compose
+    variants into `_wiki/orchestration.md`
   - [x] Keep A/B testing as wiki concept coverage, not guide/category content
 - [ ] Resubmit both sitemaps in Google Search Console

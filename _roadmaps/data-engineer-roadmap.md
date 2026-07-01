@@ -383,7 +383,7 @@ is the stack vocabulary for this stage.
 
 Weeks 7-8 cover orchestration through a command or scheduler with dependencies,
 retries, logs, and rerun behavior. Connect the work to
-[Apache Airflow: Workflow Orchestration for Data Pipelines]({{ '/guides/apache-airflow/' | relative_url }})
+[Apache Airflow: Workflow Orchestration for Data Pipelines]({{ '/wiki/orchestration/' | relative_url }})
 and Lars Albertsson's DataOps discussion of workflow engines in
 [DataOps 101]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}).
 

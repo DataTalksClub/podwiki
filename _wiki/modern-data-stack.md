@@ -188,7 +188,7 @@ Across the archive, guests choose orchestration for workflows that need
 dependency handling and retries. They also need visibility and clear ownership.
 They keep simpler scheduling when the pipeline doesn't justify a full control plane. For the
 Airflow-specific article, see
-[Apache Airflow]({{ '/guides/apache-airflow/' | relative_url }}).
+[Apache Airflow]({{ '/wiki/orchestration/' | relative_url }}).
 
 ## Reverse ETL And Activation
 
@@ -262,4 +262,4 @@ These pages cover adjacent tools, practices, and tradeoffs:
 - [Data Activation]({{ '/wiki/data-activation/' | relative_url }})
 - [Data Observability]({{ '/wiki/data-observability/' | relative_url }})
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})
-- [Apache Airflow]({{ '/guides/apache-airflow/' | relative_url }})
+- [Apache Airflow]({{ '/wiki/orchestration/' | relative_url }})

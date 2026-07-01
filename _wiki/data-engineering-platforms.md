@@ -169,7 +169,7 @@ later compares Airflow, Prefect, Dagster, and GitHub Actions. He treats
 them as workflow choices, not as universal platform requirements
 ([Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}),
 35:37). Use [Orchestration]({{ '/wiki/orchestration/' | relative_url }}) and
-[Apache Airflow]({{ '/guides/apache-airflow/' | relative_url }}) for the
+[Apache Airflow]({{ '/wiki/orchestration/' | relative_url }}) for the
 tool-specific boundary.
 
 ## Self-Service, Contracts, and Data Products

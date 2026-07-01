@@ -95,7 +95,7 @@ follow-up."
 
 Add a run path outside a notebook. That can be a CLI command, a Docker Compose
 job, a simple DAG, or
-[Airflow]({{ '/guides/airflow/' | relative_url }}) when the dependencies
+[Airflow]({{ '/wiki/orchestration/' | relative_url }}) when the dependencies
 justify it. [Gloria Quiceno]({{ '/people/gloriaquiceno/' | relative_url }})
 describes Docker and reproducibility at 21:25 in
 [Get a Data Analytics and Data Engineering Job]({{ '/podcasts/get-data-analytics-and-data-engineering-job/' | relative_url }}).

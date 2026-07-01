@@ -186,7 +186,7 @@ For a small project, the orchestrated flow can be:
 6. Publish the serving output.
 7. Write run metadata and logs.
 
-Use [Apache Airflow]({{ '/guides/apache-airflow/' | relative_url }}) when the
+Use [Apache Airflow]({{ '/wiki/orchestration/' | relative_url }}) when the
 project needs:
 
 - dependency visibility
@@ -348,7 +348,6 @@ discussed in the podcast archive.
   [Data Engineering Job Prep and Interview Guide]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }}).
 - Orchestration: the project runs from a command or DAG with dependencies,
   sensible retries, and logs, connecting to
-  [Apache Airflow]({{ '/guides/apache-airflow/' | relative_url }}) and
   [Orchestration]({{ '/wiki/orchestration/' | relative_url }}).
 - Quality: the project checks freshness, volume, schema, uniqueness, nulls,
   relationships, and important distributions, following Barr's
@@ -397,7 +396,7 @@ Use these pages for adjacent project, tool, and role context.
 - [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
 - [Data Engineer Roadmap]({{ '/roadmaps/data-engineer-roadmap/' | relative_url }})
 - [Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }})
-- [Apache Airflow]({{ '/guides/apache-airflow/' | relative_url }})
+- [Apache Airflow]({{ '/wiki/orchestration/' | relative_url }})
 - [Data Observability for Data Engineering]({{ '/guides/data-observability-for-data-engineering/' | relative_url }})
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})
 - [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})

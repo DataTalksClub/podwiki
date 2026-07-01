@@ -181,4 +181,4 @@ These pages cover adjacent roles, practices, and tools.
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
 - [Governance]({{ '/wiki/governance/' | relative_url }})
 - [DataOps Tools]({{ '/guides/dataops-tools/' | relative_url }})
-- [Apache Airflow]({{ '/guides/apache-airflow/' | relative_url }})
+- [Apache Airflow]({{ '/wiki/orchestration/' | relative_url }})

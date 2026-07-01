@@ -139,7 +139,7 @@ Tuli brings the same boundary from her Airflow and pipeline background. Modern
 data pipelines still need orchestration, ingestion, and staging. They also need
 ordering guarantees and recovery outside the transformation project.
 
-Use [Apache Airflow]({{ '/guides/apache-airflow/' | relative_url }}) for the
+Use [Apache Airflow]({{ '/wiki/orchestration/' | relative_url }}) for the
 orchestration-specific tool discussion. In a typical warehouse stack, Airflow
 or another orchestrator coordinates extract-load jobs and dbt runs. It also
 coordinates checks and downstream syncs. dbt owns the transformation graph and
