@@ -246,6 +246,10 @@ Avoid a repository that lists Airflow and Kafka but shows little SQL or Python.
 Katz makes SQL and Python the early hiring signal. Tests and code quality matter
 too
 ([Data Engineering Job Prep]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }})).
+If you use Airflow, make the run path reviewable with an
+[Airflow Docker Compose portfolio project]({{ '/how-tos/airflow-docker-compose/' | relative_url }})
+after the pipeline already has real dependencies. It should also have checks and
+rerun behavior.
 
 Avoid real-time architecture when batch refresh answers the consumer's question.
 Tulski and Brudaru both frame streaming as a requirements choice

@@ -130,12 +130,17 @@ instead of a human-readable business entity
 
 ## Orchestrate The Work, Not The Buzzwords
 
-Orchestration coordinates the jobs that extract and load data, then runs
-transformations, checks, and handoffs. Natalie describes Airflow as an
-orchestrator that schedules work and runs ingestion jobs. Tools such as Airbyte
-focus on the extract-load part, while dbt handles warehouse transformations
+Orchestration coordinates jobs after each pipeline step is clear. Natalie
+describes Airflow as an orchestrator that schedules work and runs ingestion
+jobs. Tools such as Airbyte focus on the extract-load part, while dbt handles
+warehouse transformations
 ([ETL vs ELT and Modern Data Engineering]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
 30:59-33:45).
+
+For a local learning or portfolio setup, use
+[Airflow Docker Compose]({{ '/how-tos/airflow-docker-compose/' | relative_url }})
+to run the scheduler, UI, and metadata database. It also keeps the DAG folder
+and logs in one reviewable environment.
 
 Use the scheduler to make dependencies visible and repeatable, and don't rename
 the whole pipeline after the scheduler.

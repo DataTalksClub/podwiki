@@ -151,10 +151,15 @@ Orchestration coordinates pipeline work after the steps are clear. Kwong places
 Airflow at the scheduling layer beside Airbyte-style ingestion and dbt-style
 transformation
 ([ETL vs ELT and Modern Data Engineering]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
-30:59-33:45). Airflow can run a connector sync, trigger transformations, and
-sequence checks, but it shouldn't hide the business logic inside a tangle of
-tasks. The pipeline remains easier to review when ingestion, transformation,
-checks, and publication each have an explicit role.
+30:59-33:45). Airflow can run a connector sync and trigger transformations. It
+can also sequence checks, but it shouldn't hide the business logic inside a
+tangle of tasks. The pipeline remains easier to review when ingestion,
+transformation, checks, and publication each have an explicit role.
+
+For a local Airflow project, the
+[Airflow Docker Compose local stack]({{ '/how-tos/airflow-docker-compose/' | relative_url }})
+keeps the scheduler, UI, and metadata database visible. It also keeps the DAG
+folder and logs visible.
 
 [Andreas Kretz]({{ '/people/andreaskretz/' | relative_url }}) gives a
 production pipeline anatomy in

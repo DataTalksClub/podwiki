@@ -95,9 +95,10 @@ ML interview guide. llm-system-design-interview → canonical LLM interview guid
 
 Status: exact guide/wiki slug collisions were merged into the wiki layer and
 the duplicate guide files were removed on 2026-06-30. Remaining rows in this
-section still need the same merge/delete decision. The Airflow/apache-airflow/
-airflow-docker-compose cluster was consolidated into `_wiki/orchestration.md`
-on 2026-07-01. The analytics-engineer guide variant was consolidated into
+section still need the same merge/delete decision. The Airflow/apache-airflow
+concept pages were consolidated into `_wiki/orchestration.md` on 2026-07-01,
+while `airflow-docker-compose` now has a standalone procedural how-to in
+`_how_tos/airflow-docker-compose.md`. The analytics-engineer guide variant was consolidated into
 `_wiki/analytics-engineering.md` on 2026-07-01. The
 data-engineering-manager/data-engineer-manager cluster was consolidated into
 `_wiki/leadership.md` on 2026-07-01.
@@ -106,7 +107,7 @@ data-engineering-manager/data-engineer-manager cluster was consolidated into
 |---|---|---|
 | airflow | orchestration | **done: consolidated into `_wiki/orchestration.md`** |
 | apache-airflow | orchestration | **done: consolidated into `_wiki/orchestration.md`; dup of airflow** |
-| airflow-docker-compose | orchestration | **done: consolidated into `_wiki/orchestration.md`; thin how-to** |
+| airflow-docker-compose | orchestration | **done: standalone procedural how-to in `_how_tos/airflow-docker-compose.md`; concept context remains in `_wiki/orchestration.md`** |
 | analytics-engineer | analytics-engineering | **done: consolidated into `_wiki/analytics-engineering.md`** |
 | data-engineering-and-data-science | data-engineer-vs-data-scientist | **done: consolidated into `_comparisons/data-engineer-vs-data-scientist.md`** |
 | data-engineering-certification | data-engineering-certification | **done: slug collision merged** |

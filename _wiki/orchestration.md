@@ -407,7 +407,9 @@ become part of the problem. Run history belongs in that decision too.
 
 Local Docker Compose fits that learning path. Use it to run the Airflow web UI,
 scheduler, and metadata database. Add mounted DAG files, logs, and workers when
-a local project needs them.
+a local project needs them. The
+[Airflow Docker Compose how-to]({{ '/how-tos/airflow-docker-compose/' | relative_url }})
+keeps the local setup workflow separate from this concept page.
 
 Running those pieces locally helps a learner see the scheduler and UI. It also
 shows how task execution, metadata, and logs relate to each other. It's useful

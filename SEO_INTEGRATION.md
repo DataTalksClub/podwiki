@@ -142,8 +142,9 @@ wiki page already owns.
     bootcamp guide variants
   - [x] Consolidate freelance and consulting guide variants into
     `_wiki/freelance.md`
-  - [x] Consolidate Airflow, Apache Airflow, and Airflow Docker Compose
-    variants into `_wiki/orchestration.md`
+  - [x] Consolidate Airflow and Apache Airflow variants into
+    `_wiki/orchestration.md`; keep Airflow Docker Compose as an additive
+    `_how_tos/airflow-docker-compose.md` procedural page
   - [x] Consolidate analytics-engineer into
     `_wiki/analytics-engineering.md`
   - [x] Consolidate data-engineering-manager and data-engineer-manager into

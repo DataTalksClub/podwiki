@@ -2,16 +2,16 @@
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
     "wikis": 181,
-    "articles": 42,
+    "articles": 43,
     "guides": 19,
     "comparisons": 13,
     "roadmaps": 9,
-    "how_tos": 1,
+    "how_tos": 2,
     "podcasts": 202,
     "persons": 438,
     "topics": 145,
-    "nodes": 1008,
-    "links": 10516
+    "nodes": 1009,
+    "links": 10552
   },
   "nodes": [
     {
@@ -24,6 +24,17 @@
       "count": 1,
       "search": "AI Tools for Personal Productivity: Useful Workflows Without the Hype A practical, podcast backed guide to using AI for personal productivity through writing, research, coding, automation, evaluation, privacy checks, and agentic workflows.",
       "keyword": "ai tools for personal productivity"
+    },
+    {
+      "id": "article:how_to:airflow-docker-compose",
+      "type": "article",
+      "collection": "how_to",
+      "label": "Airflow Docker Compose: Local Setup for Data Pipeline Projects",
+      "title": "Airflow Docker Compose: Local Setup for Data Pipeline Projects",
+      "url": "/how-tos/airflow-docker-compose/",
+      "count": 1,
+      "search": "Airflow Docker Compose: Local Setup for Data Pipeline Projects A podcast backed how to for using Docker Compose to run Airflow locally for data pipeline projects, with DAG structure, mounted code, checks, logs, and limits.",
+      "keyword": "airflow docker compose"
     },
     {
       "id": "article:guide:data-analysis",
@@ -16973,8 +16984,194 @@
       "weight": 5
     },
     {
+      "source": "article:how_to:airflow-docker-compose",
+      "target": "article:how_to:how-to-build-data-pipelines",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how_to:airflow-docker-compose",
+      "target": "person:adrianbrudaru",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how_to:airflow-docker-compose",
+      "target": "person:andreaskretz",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how_to:airflow-docker-compose",
+      "target": "person:danielegbo",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how_to:airflow-docker-compose",
+      "target": "person:gloriaquiceno",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how_to:airflow-docker-compose",
+      "target": "person:jeffkatz",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how_to:airflow-docker-compose",
+      "target": "person:larsalbertsson",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how_to:airflow-docker-compose",
+      "target": "person:mehdiouazza",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how_to:airflow-docker-compose",
+      "target": "person:nataliekwong",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how_to:airflow-docker-compose",
+      "target": "person:santonatuli",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how_to:airflow-docker-compose",
+      "target": "person:tomaszhinc",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how_to:airflow-docker-compose",
+      "target": "podcast:data-engineering-career-path-and-skills",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how_to:airflow-docker-compose",
+      "target": "podcast:data-engineering-tools-modern-data-stack",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how_to:airflow-docker-compose",
+      "target": "podcast:dataops-and-gitops-best-practices-for-data-teams",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how_to:airflow-docker-compose",
+      "target": "podcast:dataops-principles-and-scalable-data-platforms",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how_to:airflow-docker-compose",
+      "target": "podcast:from-radio-astronomy-to-machine-learning-and-data-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how_to:airflow-docker-compose",
+      "target": "podcast:get-data-analytics-and-data-engineering-job",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:how_to:airflow-docker-compose",
+      "target": "podcast:modern-data-pipelines-orchestration-ingestion-modeling",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how_to:airflow-docker-compose",
+      "target": "podcast:production-ml-pipelines-with-aws-and-kafka",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how_to:airflow-docker-compose",
+      "target": "podcast:scaling-data-engineering-teams-self-service-platforms",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how_to:airflow-docker-compose",
+      "target": "podcast:trends-in-modern-data-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how_to:airflow-docker-compose",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:how_to:airflow-docker-compose",
+      "target": "wiki:data-engineering-tools",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:how_to:airflow-docker-compose",
+      "target": "wiki:data-pipelines",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:how_to:airflow-docker-compose",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:how_to:airflow-docker-compose",
+      "target": "wiki:dataops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:how_to:airflow-docker-compose",
+      "target": "wiki:end-to-end-data-pipeline-project",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how_to:airflow-docker-compose",
+      "target": "wiki:end-to-end-data-pipeline-project",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:how_to:airflow-docker-compose",
+      "target": "wiki:orchestration",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how_to:airflow-docker-compose",
+      "target": "wiki:orchestration",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
       "source": "article:how_to:how-to-build-data-pipelines",
       "target": "article:comparison:mlops-vs-dataops",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how_to:how-to-build-data-pipelines",
+      "target": "article:how_to:airflow-docker-compose",
       "kind": "article-link",
       "weight": 2
     },
@@ -17731,6 +17928,12 @@
     {
       "source": "article:roadmap:data-analyst-to-data-engineer",
       "target": "wiki:open-source-portfolio-evidence",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-engineer-roadmap",
+      "target": "article:how_to:airflow-docker-compose",
       "kind": "article-link",
       "weight": 2
     },
@@ -45084,6 +45287,12 @@
     },
     {
       "source": "wiki:data-engineering-portfolio-projects",
+      "target": "article:how_to:airflow-docker-compose",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-engineering-portfolio-projects",
       "target": "article:roadmap:data-scientist-to-data-engineer",
       "kind": "wiki-link",
       "weight": 2
@@ -46947,6 +47156,12 @@
       "target": "article:guide:mlops-architecture",
       "kind": "wiki-link",
       "weight": 4
+    },
+    {
+      "source": "wiki:data-pipelines",
+      "target": "article:how_to:airflow-docker-compose",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:data-pipelines",
@@ -52623,6 +52838,12 @@
       "target": "wiki:vector-databases",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:end-to-end-data-pipeline-project",
+      "target": "article:how_to:airflow-docker-compose",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:end-to-end-data-pipeline-project",
@@ -64261,6 +64482,12 @@
     {
       "source": "wiki:open-source-portfolio-evidence",
       "target": "wiki:technical-writing",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:orchestration",
+      "target": "article:how_to:airflow-docker-compose",
       "kind": "wiki-link",
       "weight": 2
     },

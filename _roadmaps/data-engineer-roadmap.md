@@ -201,6 +201,10 @@ in
 at 30:34 he breaks a data platform into storage, compute, and workflow engine.
 At 46:52, he discusses data quality measurements and schema automation as part
 of DataOps maturity.
+Use the
+[Airflow Docker Compose how-to]({{ '/how-tos/airflow-docker-compose/' | relative_url }})
+when you need a local Airflow project that a reviewer can start, break, look
+at, and rerun.
 
 For quality checks, protect the consumer:
 

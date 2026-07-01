@@ -96,7 +96,10 @@ follow-up."
 Add a run path outside a notebook. That can be a CLI command, a Docker Compose
 job, a simple DAG, or
 [Airflow]({{ '/wiki/orchestration/' | relative_url }}) when the dependencies
-justify it. [Gloria Quiceno]({{ '/people/gloriaquiceno/' | relative_url }})
+justify it. Use the
+[Airflow Docker Compose setup]({{ '/how-tos/airflow-docker-compose/' | relative_url }})
+when a local reviewer should look at the Airflow UI, task logs, and rerun
+behavior. [Gloria Quiceno]({{ '/people/gloriaquiceno/' | relative_url }})
 describes Docker and reproducibility at 21:25 in
 [Get a Data Analytics and Data Engineering Job]({{ '/podcasts/get-data-analytics-and-data-engineering-job/' | relative_url }}).
 At 50:15, her Twitter pipeline capstone combines Docker with a project that can
