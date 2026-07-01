@@ -11,7 +11,7 @@
     "persons": 183,
     "topics": 92,
     "nodes": 704,
-    "links": 11040
+    "links": 11049
   },
   "nodes": [
     {
@@ -6039,7 +6039,7 @@
       "title": "ELT",
       "url": "/wiki/elt/",
       "count": 1,
-      "search": "ELT Podcast grounded guide to ELT as a load first data pipeline approach for warehouses, dbt transformations, analytics engineering, orchestration, CDC, quality checks, and governed data marts."
+      "search": "ELT ELT as a load first data pipeline setup for warehouses, dbt transformations, analytics engineering, orchestration, CDC, quality checks, and governed data marts."
     },
     {
       "id": "wiki:embeddings",
@@ -50581,6 +50581,12 @@
     },
     {
       "source": "wiki:developer-experience",
+      "target": "person:vincentwarmerdam",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:developer-experience",
       "target": "person:zhamakdehghani",
       "kind": "wiki-link",
       "weight": 1
@@ -52921,13 +52927,37 @@
     },
     {
       "source": "wiki:evolutionary-algorithms",
+      "target": "person:adamsroka",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:evolutionary-algorithms",
       "target": "person:danbecker",
       "kind": "wiki-link",
       "weight": 1
     },
     {
       "source": "wiki:evolutionary-algorithms",
+      "target": "person:marcellolarocca",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:evolutionary-algorithms",
       "target": "person:micheallanham",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:evolutionary-algorithms",
+      "target": "person:vincentwarmerdam",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:evolutionary-algorithms",
+      "target": "podcast:algorithms-data-structures-for-engineers",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -52940,6 +52970,18 @@
     {
       "source": "wiki:evolutionary-algorithms",
       "target": "podcast:machine-learning-decision-optimization",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:evolutionary-algorithms",
+      "target": "podcast:ml-engineering-kpis-and-metrics-strategy",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:evolutionary-algorithms",
+      "target": "podcast:open-source-ml-contributions",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -52999,12 +53041,6 @@
     },
     {
       "source": "wiki:evolutionary-algorithms",
-      "target": "wiki:llm-production-patterns",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:evolutionary-algorithms",
       "target": "wiki:machine-learning",
       "kind": "wiki-link",
       "weight": 1
@@ -53018,6 +53054,18 @@
     {
       "source": "wiki:evolutionary-algorithms",
       "target": "wiki:multi-agent-systems",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:evolutionary-algorithms",
+      "target": "wiki:open-source",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:evolutionary-algorithms",
+      "target": "wiki:prompt-engineering",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -53737,6 +53785,12 @@
     },
     {
       "source": "wiki:finops-for-data-engineers",
+      "target": "wiki:data-engineering-roadmap",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:finops-for-data-engineers",
       "target": "wiki:data-engineering-tools",
       "kind": "wiki-link",
       "weight": 1
@@ -53812,6 +53866,12 @@
       "target": "wiki:leadership",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:finops-for-data-engineers",
+      "target": "wiki:machine-learning-infrastructure",
+      "kind": "wiki-link",
+      "weight": 1
     },
     {
       "source": "wiki:finops-for-data-engineers",
@@ -61894,12 +61954,6 @@
       "target": "wiki:llm-evaluation-workflows",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:multi-agent-systems",
-      "target": "wiki:llm-production-patterns",
-      "kind": "wiki-link",
-      "weight": 1
     },
     {
       "source": "wiki:multi-agent-systems",

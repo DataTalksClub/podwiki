@@ -24,35 +24,39 @@ reporting task. Data engineers design the pipelines and warehouses that create
 the cost signal. They also own orchestration jobs, storage choices, and
 dashboards.
 
-[Eddy Zulkifly]({{ '/people/eddyzulkifly/' | relative_url }}) gives the
-clearest DataTalks.Club definition in
+[Eddy Zulkifly]({{ '/people/eddyzulkifly/' | relative_url }}) gives the main
+DataTalks.Club treatment in
 [FinOps for Data Engineers]({{ '/podcasts/finops-for-data-engineers/' | relative_url }}).
-He describes his staff data engineering work as both technical and strategic.
-He builds pipelines and data quality checks, then defines unit economics and
-business metrics for cloud cost decisions
+He describes staff data engineering work as both technical and strategic. In
+his examples, data engineers build pipelines and data quality checks. They also
+define unit economics and business metrics for cloud cost decisions
 ([48:01]({{ '/podcasts/finops-for-data-engineers/' | relative_url }})).
-That places FinOps next to
-[data engineering]({{ '/wiki/data-engineering/' | relative_url }}),
-[data engineering platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}),
-and [modern data stack]({{ '/wiki/modern-data-stack/' | relative_url }})
-decisions.
 
-## Common Definition
+FinOps sits beside
+[Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}),
+[Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}),
+[Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}), and
+[Data Warehouse]({{ '/wiki/data-warehouse/' | relative_url }}). It also belongs
+with
+[Platform Engineering]({{ '/wiki/platform-engineering/' | relative_url }})
+because cost behavior comes from the same platform choices that determine
+reliability, ownership, and user-facing data products.
 
-Zulkifly's episode defines FinOps as cloud cost management through data
-engineering work. Finance teams care about spend. Data engineers provide usage
-data, tagging, and capacity plans. They also provide cloud architecture and
-reporting.
+## Cost visibility in data platforms
+
+Zulkifly defines FinOps as cloud cost management through data engineering work.
+Finance teams care about spend. Data engineers provide usage data and tagging.
+They also provide capacity plans, cloud architecture, and reporting.
 
 At
 [31:40]({{ '/podcasts/finops-for-data-engineers/' | relative_url }}),
-Zulkifly explains the SaaS version of the problem. Servers, data centers,
-regional storage, and backups all affect cost. Security requirements and
+Zulkifly explains the SaaS version of cloud cost. Servers, data centers,
+regional storage, and backups all change the bill. Security requirements and
 customer data isolation do too. At
 [34:15]({{ '/podcasts/finops-for-data-engineers/' | relative_url }}),
-he connects FinOps to vendor negotiations and reserved capacity. The team needs
-enough usage history to know what it can commit to before it negotiates with a
-cloud provider.
+he links FinOps to vendor negotiations and reserved capacity. A team needs
+usage history before it can decide what capacity to commit to with a cloud
+provider.
 
 The boundary becomes explicit at
 [41:55]({{ '/podcasts/finops-for-data-engineers/' | relative_url }}):
@@ -67,16 +71,22 @@ cost awareness as senior data engineering judgment in
 He argues against overbuilt real-time platforms when batch or managed systems
 fit the business better
 ([25:33-38:01]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }})).
+
 [Andrey Cheptsov]({{ '/people/andreycheptsov/' | relative_url }}) gives the AI
 infrastructure version in
 [AI Infrastructure]({{ '/podcasts/ai-infrastructure-hybrid-cloud-on-prem-distributed-training/' | relative_url }}),
 where cloud and on-prem GPUs become architecture choices. Teams also have to
-account for distributed training and total cost of ownership.
+account for distributed training and total cost of ownership. Those episodes
+put FinOps near
+[AI Infrastructure]({{ '/wiki/ai-infrastructure/' | relative_url }}),
+[Machine Learning Infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }}),
+and [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
+when cost decisions move from warehouses into compute-heavy platforms.
 
-## Data Platform Fit
+## Warehouse usage and metric trees
 
 FinOps matters in data platforms because cloud warehouses and managed tools can
-hide cost inside normal workflow. A pipeline run or dashboard refresh may look
+hide cost inside ordinary work. A pipeline run or dashboard refresh may look
 small alone. A transformation job, notebook, or reverse ETL sync may look small
 too. Teams see the cost only when they connect usage to product areas and
 teams. Business metrics make the same usage easier to interpret.
@@ -91,13 +101,24 @@ continues at
 digital warehouses change faster than physical warehouses, so teams need
 monitoring and tests to keep the system reliable.
 
-That makes FinOps adjacent to [orchestration]({{ '/wiki/orchestration/' | relative_url }}),
-[data quality and observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}),
-and [data governance]({{ '/wiki/data-governance/' | relative_url }}). The same
-data platform that explains freshness, lineage, and ownership can also explain
-spend.
+The same platform that explains freshness, lineage, and ownership can explain
+spend. Zulkifly's warehouse framing connects FinOps to
+[Orchestration]({{ '/wiki/orchestration/' | relative_url }}),
+[Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}),
+[Data Governance]({{ '/wiki/data-governance/' | relative_url }}), and
+[Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }}).
 
-## Cost Models
+The cost model shouldn't sit apart from the business model. At
+[27:50]({{ '/podcasts/finops-for-data-engineers/' | relative_url }}),
+Zulkifly describes metric trees for a FinOps team. The team identifies cost
+drivers inside the data warehouse and cloud platform. It then turns vague
+business requirements into data specs, metric definitions, pipeline
+frequencies, and assumptions. In those metric definitions, FinOps overlaps with
+[Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
+and [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }}):
+the metric has to explain a decision.
+
+## Capacity models and vendor choices
 
 Data teams need cost models before they can optimize. Zulkifly describes the
 inputs at
@@ -106,28 +127,23 @@ virtual machines create major cost. Sizing depends on expected runtime, RAM,
 and storage. Operating systems, licenses, and cloud-provider discounts affect
 the same decision. At
 [37:53]({{ '/podcasts/finops-for-data-engineers/' | relative_url }}),
-he describes comparing AWS, Azure, and Google Cloud with the same requirement
-set.
+he compares AWS, Azure, and Google Cloud against the same requirement set.
 
-The cost model isn't separate from the business model. At
-[27:50]({{ '/podcasts/finops-for-data-engineers/' | relative_url }}),
-Zulkifly describes metric trees for a FinOps team. The team identifies cost
-drivers inside the data warehouse and cloud platform. It then turns vague
-business requirements into data specs, metric definitions, pipeline
-frequencies, and assumptions. This is where FinOps overlaps with
-[analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
-and [data product management]({{ '/wiki/data-product-management/' | relative_url }}):
-the metric has to explain a decision.
-
-In AI and ML platforms, the same modeling habit moves from warehouses to compute.
+In AI and ML platforms, engineers apply the same modeling habit to compute.
 [AI Infrastructure]({{ '/podcasts/ai-infrastructure-hybrid-cloud-on-prem-distributed-training/' | relative_url }})
-connects cost of ownership to GPU needs, distributed training, cloud usage, and
-on-prem tradeoffs. That belongs on
-[AI Infrastructure]({{ '/wiki/ai-infrastructure/' | relative_url }}) in detail,
-but it reinforces the FinOps habit. Engineers need usage forecasts and
+connects cost of ownership to GPU needs and distributed training. It also
+compares cloud usage with on-prem tradeoffs. Use
+[AI Infrastructure]({{ '/wiki/ai-infrastructure/' | relative_url }}) for that
+larger compute discussion. For FinOps, engineers need usage forecasts and
 architecture options before they can make a cost decision.
 
-## Tagging and Accountability
+Capacity planning also explains why FinOps belongs with
+[Leadership]({{ '/wiki/leadership/' | relative_url }}) and
+[Metrics]({{ '/wiki/metrics/' | relative_url }}). A reservation, cloud
+discount, or on-prem GPU plan isn't only a technical choice. It commits the
+organization to a usage forecast and a definition of value.
+
+## Tagging and accountability
 
 Cost tagging turns cloud usage into a management system. At
 [40:18]({{ '/podcasts/finops-for-data-engineers/' | relative_url }}),
@@ -144,7 +160,15 @@ across AWS, Azure, and Google Cloud. Without that
 standardization, the team can end up reconciling different cloud-provider terms
 instead of comparing costs cleanly.
 
-## DataOps Boundary
+Cost reporting becomes a data engineering problem rather than a spreadsheet
+exercise. The pipeline has to ingest provider data and normalize the terms. It
+also has to preserve ownership tags and expose spend in dashboards for product,
+finance, and infrastructure teams. In
+[Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}),
+shared platforms are valuable when teams can trace ownership, quality, and
+operating impact through the data they already use.
+
+## DataOps boundary
 
 FinOps and [DataOps]({{ '/wiki/dataops/' | relative_url }}) are related, but
 they solve different operating problems. DataOps focuses on reliable data
@@ -155,30 +179,23 @@ capacity.
 At
 [46:17]({{ '/podcasts/finops-for-data-engineers/' | relative_url }}),
 the episode compares FinOps with DevOps, MLOps, and DataOps as operating
-disciplines. Zulkifly agrees that FinOps mirrors some DataOps practices. CI/CD, dataset
-validation, and downstream-dashboard checks help teams see whether a data change
-also changes cost behavior.
+disciplines. Zulkifly agrees that FinOps mirrors some DataOps practices. CI/CD,
+dataset validation, and downstream-dashboard checks help teams see whether a
+data change also changes cost behavior.
 
-That boundary is why FinOps belongs beside
+The boundary is why FinOps belongs beside
 [DataOps vs Data Engineering]({{ '/comparisons/dataops-vs-data-engineering/' | relative_url }})
 and [MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }}),
 not inside them. A platform can be reliable and still too expensive. It can
 also be cheap because it under-serves the business. The FinOps work is to make
 that tradeoff visible.
 
-## Engineering Responsibilities
+## Engineering responsibilities
 
-Data engineers contribute to FinOps through usage data, metric definitions, and
-architecture choices:
-
-- They build the usage data pipeline.
-- They maintain definitions for cost metrics and unit economics.
-- They help platform and infrastructure teams choose architectures that fit
-  usage.
-
-In Zulkifly's role, this work includes pipeline deployment and bug fixing. It
-also includes data quality maintenance, metric definitions, and data products
-for FinOps users
+Data engineers contribute to FinOps through usage pipelines, metric
+definitions, unit economics, and architecture choices. In Zulkifly's role, this
+work includes pipeline deployment and bug fixing. It also includes data quality
+maintenance, metric definitions, and data products for FinOps users
 ([48:01]({{ '/podcasts/finops-for-data-engineers/' | relative_url }})).
 At
 [49:37]({{ '/podcasts/finops-for-data-engineers/' | relative_url }}),
@@ -194,23 +211,11 @@ reliable data systems
 ([6:20-8:18]({{ '/podcasts/finops-for-data-engineers/' | relative_url }}),
 [27:50-29:16]({{ '/podcasts/finops-for-data-engineers/' | relative_url }})).
 
-## Related Pages
-
-Use these pages for adjacent platform, role, and governance context:
-
-- [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }})
-- [Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }})
-- [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
-- [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
-- [Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }})
-- [Data Warehouse]({{ '/wiki/data-warehouse/' | relative_url }})
-- [Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
-- [DataOps]({{ '/wiki/dataops/' | relative_url }})
-- [DataOps vs Data Engineering]({{ '/comparisons/dataops-vs-data-engineering/' | relative_url }})
-- [Orchestration]({{ '/wiki/orchestration/' | relative_url }})
-- [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
-- [Data Governance]({{ '/wiki/data-governance/' | relative_url }})
-- [Platform Engineering]({{ '/wiki/platform-engineering/' | relative_url }})
-- [Metrics]({{ '/wiki/metrics/' | relative_url }})
-- [AI Infrastructure]({{ '/wiki/ai-infrastructure/' | relative_url }})
-- [Leadership]({{ '/wiki/leadership/' | relative_url }})
+For role expectations, FinOps sits inside
+[Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }}) and
+[Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }})
+because cost-aware engineering changes how teams choose schedulers,
+warehouses, and compute services. It also changes how they design dashboards.
+FinOps gives analysts moving into engineering a useful bridge. Business context
+helps them define the cost questions before they build the data system that
+answers them.

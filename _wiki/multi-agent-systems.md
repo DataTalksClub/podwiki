@@ -11,22 +11,32 @@ related:
   - Evolutionary Algorithms
 ---
 
-Multi-agent systems split an agentic task across more than one specialized
-agent. DataTalks.Club guests treat that split as an engineering choice, not as
-the default form of an [AI agent]({{ '/wiki/ai-agents/' | relative_url }}).
-The strongest discussion comes from
+Multi-agent systems split an [AI agent]({{ '/wiki/ai-agents/' | relative_url }})
+task across more than one specialized agent. DataTalks.Club guests treat that
+split as an engineering choice, not as the default structure of agentic
+software.
+The design question is whether a task needs a sequential handoff or a manager
+agent. Some tasks need direct collaboration between agents. In many cases,
+[agent engineering]({{ '/wiki/agent-engineering/' | relative_url }}) with
+bounded tools and tests is enough.
+
+The most explicit taxonomy comes from
 [Micheal Lanham]({{ '/people/micheallanham/' | relative_url }}) in
 [From Game AI to LLM Agents]({{ '/podcasts/from-game-ai-to-modern-ai-agents/' | relative_url }}).
 At 20:57-31:17, he contrasts sequential agent flows, manager-agent
-orchestration, and direct collaboration.
+orchestration, and direct collaboration. Other podcast discussions add the
+production boundaries. [Ranjitha Kulkarni]({{ '/people/ranjithakulkarni/' | relative_url }})
+defines agent tools, memory, and evaluation in
+[Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}).
 
-Start with Lanham's discussion below for collaboration design, and use
-[Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }}) for
-tool-using agents more broadly. Use
-[LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
-for serving decisions and retrieval work.
+[Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }})
+warns against adding memory or agents before the product needs them in
+[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}).
+[Aditya Gautam]({{ '/people/adityagautam/' | relative_url }}) frames
+production agents through governance and evaluation in
+[The Future of AI Agents]({{ '/podcasts/s23e03-future-of-ai-agents/' | relative_url }}).
 
-## Common Definition
+## Coordination Patterns
 
 Lanham describes a sequential flow as an assembly line of agents. One agent
 handles requirements, another plans, and another executes. Each agent passes
@@ -181,7 +191,8 @@ multi-tenant and regulated settings in
 For a multi-agent workflow serving separate customers, he says teams need
 customer-specific golden datasets and LLM judges aligned to human labels. They
 also need red-team stress testing and human review for critical actions such as
-high-value refunds at 43:30-50:18. That connects multi-agent systems to
+high-value refunds at 43:30-50:18. In multi-agent systems, those requirements
+belong with
 [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }})
 and [AI Red Teaming]({{ '/wiki/ai-red-teaming/' | relative_url }}).
 

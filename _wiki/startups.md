@@ -15,51 +15,27 @@ related:
 ---
 
 DataTalks.Club guests discuss tech startups through concrete company examples.
-In these episodes, guests usually use tech startups for data and AI companies.
-They discuss machine learning companies, MLOps tools, and open-source
-developer-tool startups rather than generic startup advice. The discussions
-cover venture-backed MLOps tools, retail AI products, and open-source data
+In these episodes, tech startups usually mean data and AI companies. Guests
+focus on machine learning products, [MLOps]({{ '/wiki/mlops/' | relative_url }})
+tools, and [open-source]({{ '/wiki/open-source/' | relative_url }}) developer
 products.
 
-It also covers consulting firms, indie products, and early jobs in four-person
-teams. Startup teams have to learn the real workflow and choose a narrow product
-boundary. They also have to reach users early and avoid technical scope that
-outruns the business.
+They also cover consulting firms, indie products, and early jobs in
+four-person teams. Across these discussions, startup teams learn the real
+workflow and choose a narrow product boundary. They also have to reach users
+early and avoid technical scope that outruns the business.
 
 [Startup]({{ '/wiki/startup/' | relative_url }}) covers the singular concept and
-the end-to-end founder playbook. The plural startup topic works as a
-cross-episode map of repeated startup lessons. The discussions connect to
-[founder]({{ '/wiki/founder/' | relative_url }}),
+the end-to-end founder playbook. Readers can use the plural topic as a
+cross-episode map of repeated lessons. It links startup discussions to
+[founders]({{ '/wiki/founder/' | relative_url }}),
 [entrepreneurship]({{ '/wiki/entrepreneurship/' | relative_url }}), and
-[open source]({{ '/wiki/open-source/' | relative_url }}). It also connects them
-to [freelance]({{ '/wiki/freelance/' | relative_url }}),
+[open source]({{ '/wiki/open-source/' | relative_url }}). It also keeps
+[freelance]({{ '/wiki/freelance/' | relative_url }}),
 [data product management]({{ '/wiki/data-product-management/' | relative_url }}),
-and [MLOps]({{ '/wiki/mlops/' | relative_url }}).
+and [MLOps]({{ '/wiki/mlops/' | relative_url }}) in view.
 
-[Elena Samuylova]({{ '/people/elenasamuylova/' | relative_url }}) anchors the
-problem-first ML startup thread in
-[How to Build a Successful ML Startup]({{ '/podcasts/building-mlops-startup/' | relative_url }}).
-[Carmine Paolino]({{ '/people/carminepaolino/' | relative_url }}) adds retail
-AI fieldwork in
-[Build a Grocery Retail OS to Cut Supermarket Food Waste]({{ '/podcasts/launch-and-build-retail-startup/' | relative_url }}).
-[Sonal Goyal]({{ '/people/sonalgoyal/' | relative_url }}) shows an open-source
-identity-resolution product in
-[Building an Open-Source ML-Powered Identity Resolution Tool]({{ '/podcasts/building-open-source-data-product-for-identity-resolution/' | relative_url }}).
-
-[Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) covers the move
-from data freelancing into a developer-tool startup in
-[From Data Freelancer to Startup]({{ '/podcasts/from-data-freelancer-to-startup-open-source-products/' | relative_url }}).
-[Nemanja Radojkovic]({{ '/people/nemanjaradojkovic/' | relative_url }}) covers
-small-team MLOps in
-[Lean MLOps for Startups]({{ '/podcasts/lean-mlops-for-startups/' | relative_url }}).
-[Pauline Clavelloux]({{ '/people/paulineclavelloux/' | relative_url }}) covers
-side products funded without outside capital in
-[Indie Hacking and Bootstrapping Side Projects]({{ '/podcasts/data-scientist-and-indie-hacker-bootstrapping-side-projects/' | relative_url }}).
-[Bela Wiertz]({{ '/people/belawiertz/' | relative_url }}) adds the investor
-view on open-source developer-tool companies in
-[Early-Stage Investing in Open Source Developer Tools]({{ '/podcasts/investing-in-open-source-developer-tools/' | relative_url }}).
-
-## Common Definition
+## Problem Discovery and Product Boundaries
 
 Across these episodes, a data or AI startup is a learning system wrapped in a
 business. [Elena Samuylova]({{ '/people/elenasamuylova/' | relative_url }})
@@ -87,50 +63,6 @@ that clients needed help translating business questions into usable data
 models. Across these episodes, startups succeed when the team lets customer
 evidence change the product.
 
-## Startup Types
-
-Guests differ most on company type because the episodes cover different routes.
-Samuylova's Evidently story is about an MLOps infrastructure company. Evidently
-uses open source and cloud paths for adoption, plus enterprise paths for
-monetization. See
-[How to Build a Successful ML Startup]({{ '/podcasts/building-mlops-startup/' | relative_url }})
-around 48:11-56:17.
-
-Paolino's FreshFlow story is a vertical retail AI company with pilots, store
-operations, and domain-specific sales cycles. See
-[Build a Grocery Retail OS to Cut Supermarket Food Waste]({{ '/podcasts/launch-and-build-retail-startup/' | relative_url }})
-around 24:47-36:40.
-
-[Sonal Goyal]({{ '/people/sonalgoyal/' | relative_url }}) and
-[Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) both start from
-repeated data engineering pain, but they package it differently. Goyal turns
-identity resolution into an open-source ML product. She uses AGPL licensing to
-protect the business from simple SaaS rehosting
-([Building an Open-Source ML-Powered Identity Resolution Tool]({{ '/podcasts/building-open-source-data-product-for-identity-resolution/' | relative_url }}),
-around 24:14-31:10).
-
-Brudaru frames DLT as a developer library. The team uses
-workshops and documentation to test the tool. It also uses examples and
-ecosystem partnerships to spread it
-([From Data Freelancer to Startup]({{ '/podcasts/from-data-freelancer-to-startup-open-source-products/' | relative_url }}),
-around 36:00-53:24).
-
-Other guests choose smaller or service-led paths. Kruszelnicki treats consulting
-as the right business after product ideas failed. Customers were ready to pay
-for hands-on translation and delivery
-([Build a Data Consulting Business]({{ '/podcasts/data-consulting-business-pricing-and-client-acquisition/' | relative_url }}),
-around 22:42-30:17).
-
-[Pauline Clavelloux]({{ '/people/paulineclavelloux/' | relative_url }})
-describes indie hacking as bootstrapping side products while keeping a day job.
-She covers landing pages, legal setup, payments, and pricing. She also covers
-costs and niche marketing
-([Indie Hacking and Bootstrapping Side Projects]({{ '/podcasts/data-scientist-and-indie-hacker-bootstrapping-side-projects/' | relative_url }}),
-around 7:23-33:11). These episodes don't present venture-backed growth as the
-only startup path.
-
-## Product Discovery Before Product Polish
-
 Startup discussions keep returning to product discovery because data products
 fail when the team automates the wrong decision. Samuylova describes speaking
 with roughly 50 people before building and more than 100 during early
@@ -143,7 +75,7 @@ Kruszelnicki gives a reusable interview routine for early ideas. Around
 9:08-15:55 in
 [Build a Data Consulting Business]({{ '/podcasts/data-consulting-business-pricing-and-client-acquisition/' | relative_url }}),
 he asks about the customer's current workflow. He also asks about recent
-incidents, consequences, and problem frequency. That moves the conversation
+incidents, consequences, and problem frequency. Those questions move the conversation
 away from "would you buy this?" and toward observable evidence.
 
 Startup discovery therefore overlaps with
@@ -158,6 +90,47 @@ participants built an incremental pipeline with checkpoints, live support, and
 a shared development environment. The exercise taught users, but it also showed
 the startup where Python users understood the abstraction and where the product
 still blocked them.
+
+## Startup Routes
+
+The podcast doesn't present venture-backed growth as the only startup path.
+Samuylova's Evidently story is about an MLOps infrastructure company. Evidently
+uses open source and cloud paths for adoption, plus enterprise paths for
+monetization
+([How to Build a Successful ML Startup]({{ '/podcasts/building-mlops-startup/' | relative_url }}),
+around 48:11-56:17).
+
+Paolino's FreshFlow story is a vertical retail AI company. It has pilots,
+store operations, and domain-specific sales cycles
+([Build a Grocery Retail OS to Cut Supermarket Food Waste]({{ '/podcasts/launch-and-build-retail-startup/' | relative_url }}),
+around 24:47-36:40).
+
+[Sonal Goyal]({{ '/people/sonalgoyal/' | relative_url }}) and
+[Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) both start from
+repeated data engineering pain, but they package it differently. Goyal turns
+identity resolution into an open-source ML product. She uses AGPL licensing to
+protect the business from simple SaaS rehosting
+([Building an Open-Source ML-Powered Identity Resolution Tool]({{ '/podcasts/building-open-source-data-product-for-identity-resolution/' | relative_url }}),
+around 24:14-31:10).
+
+Brudaru frames DLT as a developer library. The team uses workshops and
+documentation to test the tool, then examples and ecosystem partnerships to
+spread it
+([From Data Freelancer to Startup]({{ '/podcasts/from-data-freelancer-to-startup-open-source-products/' | relative_url }}),
+around 36:00-53:24).
+
+Other guests choose smaller or service-led paths. Kruszelnicki treats
+consulting as the right business after product ideas failed. Customers were
+ready to pay for hands-on translation and delivery
+([Build a Data Consulting Business]({{ '/podcasts/data-consulting-business-pricing-and-client-acquisition/' | relative_url }}),
+around 22:42-30:17).
+
+[Pauline Clavelloux]({{ '/people/paulineclavelloux/' | relative_url }})
+describes indie hacking as bootstrapping side products while keeping a day job.
+She covers landing pages, legal setup, payments, and pricing. She also covers
+costs and niche marketing
+([Indie Hacking and Bootstrapping Side Projects]({{ '/podcasts/data-scientist-and-indie-hacker-bootstrapping-side-projects/' | relative_url }}),
+around 7:23-33:11).
 
 ## Technical Scope Stays Stage-Aware
 
@@ -205,7 +178,7 @@ Goyal makes the same argument for Zingg. Around 24:14-29:22 in
 open source helps smaller teams try identity resolution. It also helps the
 company discover use cases across customer, supplier, patient, and product
 records.
-That's why startup distribution belongs with
+Startup distribution belongs with
 [open source]({{ '/wiki/open-source/' | relative_url }}) and
 [open-source developer relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }}).
 Repository adoption, documentation, examples, and community feedback become
@@ -252,26 +225,17 @@ variety. In a four-person team, he had to communicate, learn the business, and
 organize his own work. Around 28:43-35:31, open-source contribution and
 freelance projects became ways to broaden his data work beyond the startup.
 
-For data professionals, a startup can be an employer or client. It can become a
-product lab or future company.
+For data professionals, a startup can be an employer or client. It can also be
+a product lab or future company.
 
-## Related Pages
+Use [startup]({{ '/wiki/startup/' | relative_url }}) and
+[founder]({{ '/wiki/founder/' | relative_url }}) for problem choice and
+validation, plus hiring, funding, and distribution. Use
+[entrepreneurship]({{ '/wiki/entrepreneurship/' | relative_url }}) for
+independent-work paths across products, consulting, and solo work.
 
-Adjacent startup threads split across these pages:
-
-- [Startup]({{ '/wiki/startup/' | relative_url }}) for a tighter startup
-  concept page and founder-oriented playbook.
-- [Founder]({{ '/wiki/founder/' | relative_url }}) for problem choice,
-  validation, hiring, funding, and distribution.
-- [Entrepreneurship]({{ '/wiki/entrepreneurship/' | relative_url }}) for the
-  broader independent-work path across products, consulting, and solo work.
-- [Open Source]({{ '/wiki/open-source/' | relative_url }}) and
-  [Open Source and Developer Relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }})
-  for repository-led adoption, licensing, community, and developer trust.
-- [Freelance]({{ '/wiki/freelance/' | relative_url }}) for service businesses
-  that can reveal product ideas or fund early startup work.
-- [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
-  for discovery, roadmap, adoption, and value framing around data products.
-- [MLOps]({{ '/wiki/mlops/' | relative_url }}) and
-  [MLOps Roadmap]({{ '/wiki/mlops-roadmap/' | relative_url }}) for
-  stage-appropriate production ML practices in startup teams.
+Use [open source]({{ '/wiki/open-source/' | relative_url }}) and
+[open-source developer relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }})
+for repository-led adoption, licensing, community, and developer trust. Use
+[freelance]({{ '/wiki/freelance/' | relative_url }}) for service businesses
+that can reveal product ideas or fund early startup work.

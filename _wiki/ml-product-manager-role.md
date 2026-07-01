@@ -46,7 +46,7 @@ The PM still practices discovery and launch discipline. They also need SQL,
 data quality judgment, documentation habits, and enough lifecycle knowledge to
 ask better technical questions.
 
-## Common Definition
+## Product Ownership for ML Work
 
 Across these episodes, guests converge on one definition. An ML product manager
 is a product manager for model-backed or ML-platform work. They own the user
@@ -72,7 +72,7 @@ His roadmap then moves from problems to possible solutions to metrics. Impact,
 effort, and cost help choose what comes next
 ([AI data product discovery and roadmap metrics at 14:03-47:18]({{ '/podcasts/building-and-scaling-ai-data-products-with-mlops/' | relative_url }})).
 
-This connects ML product management to
+ML product management therefore sits close to
 [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
 because the product may be a model or dashboard. It may also be a workflow,
 platform capability, or data-quality improvement.
@@ -83,20 +83,20 @@ and launch. Data quality, PII, and compliance make those steps credible. SQL
 and data lifecycle knowledge matter too
 ([data product manager discovery and technical fluency at 7:04-26:33]({{ '/podcasts/product-designer-to-data-product-manager/' | relative_url }})).
 
-## Role Variations
+## Platform PM, AI Product PM, and Data PM Variants
 
 Guests differ less on the need for technical literacy and more on the
 center of gravity. Geo centers the role on internal ML platforms. His ML product
 manager writes specs and balances stakeholder requirements. They also groom the
 backlog with engineering, resist solution bias, and manage rollout governance
 ([ML platform roadmap and release governance at 9:50-21:06 and 31:28-35:18]({{ '/podcasts/ml-product-manager-and-mlops-platform-strategy/' | relative_url }})).
-That version looks like product management for
+That platform-centered version looks like product management for
 [Machine Learning Infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }}),
 [Model Registry]({{ '/wiki/model-registry/' | relative_url }}), deployment
 paths, and [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }}).
 
 Greg centers the role on business-value roadmaps for AI and data products.
-Customer research and product sense get more weight. So do manual-process
+Customer research and product sense get more weight. So do manual-workflow
 discovery, MLOps prioritization, and SMART goals. SLAs, data quality, and
 pipeline failures also matter
 ([AI data product research prioritization and metrics at 23:20-55:32]({{ '/podcasts/building-and-scaling-ai-data-products-with-mlops/' | relative_url }})).
@@ -112,7 +112,7 @@ stakeholder education
 This is useful for teams where the ML PM title doesn't exist, but a product
 manager still has to make data and ML tradeoffs.
 
-## Boundary With Data Product Manager
+## Data Product Manager Boundary
 
 The boundary with a data product manager is scope, not craft. Both roles use
 discovery, prioritization, and roadmaps. Both also rely on metrics and adoption
@@ -126,7 +126,7 @@ platform dependency.
 Greg's discussion sits on the boundary. He uses the data product manager frame
 for AI products because the work still starts with customers and business
 problems. The roadmap can still include MLOps, scaling strategies, and
-unscalable manual processes that should become model-assisted workflows
+unscalable manual workflows that should become model-assisted workflows
 ([AI data product roadmap tradeoffs at 35:34-47:18]({{ '/podcasts/building-and-scaling-ai-data-products-with-mlops/' | relative_url }})).
 That's why this role belongs next to both
 [Data Products]({{ '/wiki/data-products/' | relative_url }}) and
@@ -149,7 +149,7 @@ model work, platform work, and data-quality work. Use the data product manager
 label when the product is primarily a data capability and ML is optional or
 downstream.
 
-## Boundary With ML Engineer
+## ML Engineer Boundary
 
 The boundary with a
 [Machine Learning Engineer]({{ '/wiki/machine-learning-engineer-role/' | relative_url }})
@@ -179,7 +179,7 @@ The PM doesn't replace the ML engineer. They should still understand enough of
 [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 to make tradeoffs visible.
 
-## Boundary With Product Manager
+## Product Manager Boundary
 
 An ML product manager is still a product manager. Geo and Greg show that the
 distinction isn't that ordinary product managers own users while ML product
@@ -199,7 +199,7 @@ visible
 Greg's roadmap template also keeps the product-manager boundary clear. The PM
 starts with the business problem, not with "build a model." They consider
 customer pain, impact, and effort. Cost and metric belong in the same decision.
-A model, pipeline, platform investment, or manual process improvement may be
+A model, pipeline, platform investment, or manual workflow improvement may be
 the right next step
 ([AI data product roadmap decisions at 31:45-47:18]({{ '/podcasts/building-and-scaling-ai-data-products-with-mlops/' | relative_url }})).
 
@@ -225,12 +225,12 @@ standardize the platform. A scaling roadmap may turn manual operational work
 into a reliable data or ML workflow
 ([AI data product scaling roadmap at 35:34-47:18]({{ '/podcasts/building-and-scaling-ai-data-products-with-mlops/' | relative_url }})).
 
-Those decisions connect the role to
-[Data Teams]({{ '/wiki/data-teams/' | relative_url }}) because roadmap quality
-depends on engineers, data scientists, analysts, and business owners.
-Governance stakeholders may also influence the roadmap. The PM's job is to make
-those constraints explicit without letting one stakeholder dictate the whole
-product direction.
+Roadmap quality depends on the engineers, data scientists, analysts, and
+business owners in
+[Data Teams]({{ '/wiki/data-teams/' | relative_url }}). Each group affects
+what's feasible and useful. Governance stakeholders may also influence the
+roadmap. The PM's job is to make those constraints explicit without letting one
+stakeholder dictate the whole product direction.
 
 ## Adoption, Quality, and Governance
 
@@ -281,17 +281,3 @@ Greg's episode is useful for data professionals without a formal PM title. They
 can still identify customers and validate needs. They can also align mental
 models inside the team
 ([AI data PM practice without the title at 55:32-58:42]({{ '/podcasts/building-and-scaling-ai-data-products-with-mlops/' | relative_url }})).
-
-## Related Pages
-
-These pages connect ML product management to product, platform, and adoption
-topics.
-
-- [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
-- [Data Products]({{ '/wiki/data-products/' | relative_url }})
-- [ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }})
-- [MLOps]({{ '/wiki/mlops/' | relative_url }})
-- [Platform Adoption]({{ '/wiki/platform-adoption/' | relative_url }})
-- [Data Product Adoption]({{ '/wiki/data-product-adoption/' | relative_url }})
-- [Data Teams]({{ '/wiki/data-teams/' | relative_url }})
-- [Machine Learning Engineer Role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }})
