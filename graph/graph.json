@@ -1,7 +1,7 @@
 {
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
-    "wikis": 192,
+    "wikis": 197,
     "articles": 55,
     "guides": 21,
     "comparisons": 19,
@@ -10,8 +10,8 @@
     "podcasts": 202,
     "persons": 438,
     "topics": 90,
-    "nodes": 977,
-    "links": 11672
+    "nodes": 982,
+    "links": 11814
   },
   "nodes": [
     {
@@ -7950,6 +7950,16 @@
       "search": "AI Infrastructure Compute, GPUs, orchestration, model serving, cost, and operations behind production AI systems."
     },
     {
+      "id": "wiki:ai-infrastructure-cost-and-ownership",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "AI Infrastructure Cost and Ownership",
+      "title": "AI Infrastructure Cost and Ownership",
+      "url": "/wiki/ai-infrastructure-cost-and-ownership/",
+      "count": 1,
+      "search": "AI Infrastructure Cost and Ownership How DataTalks.Club guests reason about cloud, on prem, hybrid, open source, GPU, privacy, control, and operations tradeoffs in AI infrastructure."
+    },
+    {
       "id": "wiki:ai-product-feedback-loops",
       "type": "wiki",
       "collection": "wiki",
@@ -8430,6 +8440,16 @@
       "search": "Data Product Adoption How podcast guests describe getting dashboards, models, analytics tools, and data products into real business decisions."
     },
     {
+      "id": "wiki:data-product-intake-and-prioritization",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Data Product Intake and Prioritization",
+      "title": "Data Product Intake and Prioritization",
+      "url": "/wiki/data-product-intake-and-prioritization/",
+      "count": 1,
+      "search": "Data Product Intake and Prioritization How DataTalks.Club guests turn stakeholder requests into scoped data products through intake, KPI framing, feasibility checks, pilots, and production handoff."
+    },
+    {
       "id": "wiki:data-product-management",
       "type": "wiki",
       "collection": "wiki",
@@ -8618,6 +8638,16 @@
       "url": "/wiki/dataops-engineer-role/",
       "count": 1,
       "search": "DataOps Engineer Role Reference for the DataOps engineer role across ownership, role boundaries, CI/CD, observability, orchestration, quality, and team design."
+    },
+    {
+      "id": "wiki:dataops-operating-model",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "DataOps Operating Model",
+      "title": "DataOps Operating Model",
+      "url": "/wiki/dataops-operating-model/",
+      "count": 1,
+      "search": "DataOps Operating Model How data teams turn DataOps principles into an operating model for releases, tests, observability, ownership, productivity, and day two data operations."
     },
     {
       "id": "wiki:dataops-platforms",
@@ -8900,6 +8930,16 @@
       "search": "Governance How DataTalks.Club guests connect governance across data, ML, and AI systems through ownership, access, review, release controls, privacy, security, and accountability."
     },
     {
+      "id": "wiki:healthcare-ml-validation-and-adoption",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Healthcare ML Validation and Adoption",
+      "title": "Healthcare ML Validation and Adoption",
+      "url": "/wiki/healthcare-ml-validation-and-adoption/",
+      "count": 1,
+      "search": "Healthcare ML Validation and Adoption How DataTalks.Club podcast discussions frame healthcare ML around clinical validation, workflow adoption, explainability, regulation, scarce labels, low resource deployment, monitoring, and feedback."
+    },
+    {
       "id": "wiki:hiring",
       "type": "wiki",
       "collection": "wiki",
@@ -9008,6 +9048,16 @@
       "url": "/wiki/llms/",
       "count": 1,
       "search": "LLMs How DataTalks.Club guests discuss large language models as language, retrieval, agent, evaluation, production, and security components."
+    },
+    {
+      "id": "wiki:long-context-llm-evaluation",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Long-Context LLM Evaluation",
+      "title": "Long-Context LLM Evaluation",
+      "url": "/wiki/long-context-llm-evaluation/",
+      "count": 1,
+      "search": "Long Context LLM Evaluation How DataTalks.Club guests evaluate long context LLMs, and when retrieval, chunking, summarization, or prompt compression beats simply expanding the context window."
     },
     {
       "id": "wiki:machine-learning",
@@ -40988,6 +41038,198 @@
       "weight": 1
     },
     {
+      "source": "wiki:ai-infrastructure-cost-and-ownership",
+      "target": "article:roadmap:lean-mlops-for-startups",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-infrastructure-cost-and-ownership",
+      "target": "person:andreycheptsov",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-infrastructure-cost-and-ownership",
+      "target": "person:nemanjaradojkovic",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-infrastructure-cost-and-ownership",
+      "target": "podcast:ai-infrastructure-hybrid-cloud-on-prem-distributed-training",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-infrastructure-cost-and-ownership",
+      "target": "podcast:lean-mlops-for-startups",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-infrastructure-cost-and-ownership",
+      "target": "podcast:mlops-and-ml-engineering-in-finance",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-infrastructure-cost-and-ownership",
+      "target": "wiki:ai-infrastructure",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-infrastructure-cost-and-ownership",
+      "target": "wiki:ai-infrastructure",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-infrastructure-cost-and-ownership",
+      "target": "wiki:ci-cd",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-infrastructure-cost-and-ownership",
+      "target": "wiki:finops-for-data-engineers",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-infrastructure-cost-and-ownership",
+      "target": "wiki:finops-for-data-engineers",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-infrastructure-cost-and-ownership",
+      "target": "wiki:machine-learning-infrastructure",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-infrastructure-cost-and-ownership",
+      "target": "wiki:machine-learning-infrastructure",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-infrastructure-cost-and-ownership",
+      "target": "wiki:mlops",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-infrastructure-cost-and-ownership",
+      "target": "wiki:mlops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-infrastructure-cost-and-ownership",
+      "target": "wiki:mlops-adoption-at-scale",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-infrastructure-cost-and-ownership",
+      "target": "wiki:mlops-adoption-at-scale",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-infrastructure-cost-and-ownership",
+      "target": "wiki:model-monitoring",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-infrastructure-cost-and-ownership",
+      "target": "wiki:model-registry",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-infrastructure-cost-and-ownership",
+      "target": "wiki:open-source",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-infrastructure-cost-and-ownership",
+      "target": "wiki:open-source",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-infrastructure-cost-and-ownership",
+      "target": "wiki:orchestration",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-infrastructure-cost-and-ownership",
+      "target": "wiki:platform-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-infrastructure-cost-and-ownership",
+      "target": "wiki:platform-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-infrastructure-cost-and-ownership",
+      "target": "wiki:privacy-engineering-for-ml",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-infrastructure-cost-and-ownership",
+      "target": "wiki:privacy-engineering-for-ml",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-infrastructure-cost-and-ownership",
+      "target": "wiki:production",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-infrastructure-cost-and-ownership",
+      "target": "wiki:reproducibility",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-infrastructure-cost-and-ownership",
+      "target": "wiki:security",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-infrastructure-cost-and-ownership",
+      "target": "wiki:security",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-infrastructure-cost-and-ownership",
+      "target": "wiki:startups",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-infrastructure-cost-and-ownership",
+      "target": "wiki:startups",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
       "source": "wiki:ai-product-feedback-loops",
       "target": "person:aishwaryajadhav",
       "kind": "wiki-link",
@@ -51002,6 +51244,180 @@
       "weight": 3
     },
     {
+      "source": "wiki:data-product-intake-and-prioritization",
+      "target": "person:caitlinmoorman",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-intake-and-prioritization",
+      "target": "person:ioannismesionis",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-intake-and-prioritization",
+      "target": "person:liorbarak",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-intake-and-prioritization",
+      "target": "podcast:building-data-products-lead-data-scientist",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-intake-and-prioritization",
+      "target": "podcast:data-translator-role-and-data-strategy",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-intake-and-prioritization",
+      "target": "podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-intake-and-prioritization",
+      "target": "wiki:a-b-testing",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-intake-and-prioritization",
+      "target": "wiki:a-b-testing",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-product-intake-and-prioritization",
+      "target": "wiki:analytics-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-intake-and-prioritization",
+      "target": "wiki:business-intelligence",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-intake-and-prioritization",
+      "target": "wiki:data-governance",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-intake-and-prioritization",
+      "target": "wiki:data-product-adoption",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-intake-and-prioritization",
+      "target": "wiki:data-product-adoption",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-product-intake-and-prioritization",
+      "target": "wiki:data-product-management",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-intake-and-prioritization",
+      "target": "wiki:data-product-management",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-product-intake-and-prioritization",
+      "target": "wiki:data-products",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-intake-and-prioritization",
+      "target": "wiki:data-products",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-product-intake-and-prioritization",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-intake-and-prioritization",
+      "target": "wiki:data-science-project-management",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-intake-and-prioritization",
+      "target": "wiki:data-science-project-management",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-product-intake-and-prioritization",
+      "target": "wiki:evaluation",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-intake-and-prioritization",
+      "target": "wiki:evaluation",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-product-intake-and-prioritization",
+      "target": "wiki:kpis",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-intake-and-prioritization",
+      "target": "wiki:kpis",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-product-intake-and-prioritization",
+      "target": "wiki:metrics",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-intake-and-prioritization",
+      "target": "wiki:metrics",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-product-intake-and-prioritization",
+      "target": "wiki:mlops",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-intake-and-prioritization",
+      "target": "wiki:model-monitoring",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-product-intake-and-prioritization",
+      "target": "wiki:production",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
       "source": "wiki:data-product-management",
       "target": "article:comparison:data-product-owner-vs-data-product-manager",
       "kind": "wiki-link",
@@ -55162,6 +55578,162 @@
     {
       "source": "wiki:dataops-engineer-role",
       "target": "wiki:self-service-data-platforms",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dataops-operating-model",
+      "target": "article:how_to:dataops-checks-for-data-pipelines",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-operating-model",
+      "target": "person:adrianbrudaru",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-operating-model",
+      "target": "person:agitajaunzeme",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-operating-model",
+      "target": "person:christopherbergh",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-operating-model",
+      "target": "podcast:dataops-for-data-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-operating-model",
+      "target": "podcast:from-devops-to-data-engineering-automation-open-source-volunteering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-operating-model",
+      "target": "podcast:trends-in-modern-data-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-operating-model",
+      "target": "wiki:ci-cd",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-operating-model",
+      "target": "wiki:ci-cd",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dataops-operating-model",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-operating-model",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dataops-operating-model",
+      "target": "wiki:data-observability",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-operating-model",
+      "target": "wiki:data-observability",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dataops-operating-model",
+      "target": "wiki:data-pipelines",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-operating-model",
+      "target": "wiki:data-pipelines",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dataops-operating-model",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-operating-model",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dataops-operating-model",
+      "target": "wiki:dataops",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-operating-model",
+      "target": "wiki:dataops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dataops-operating-model",
+      "target": "wiki:developer-experience",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-operating-model",
+      "target": "wiki:devops-to-data-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-operating-model",
+      "target": "wiki:devops-to-data-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dataops-operating-model",
+      "target": "wiki:orchestration",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-operating-model",
+      "target": "wiki:orchestration",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dataops-operating-model",
+      "target": "wiki:testing",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-operating-model",
+      "target": "wiki:testing",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -60578,6 +61150,174 @@
       "weight": 1
     },
     {
+      "source": "wiki:healthcare-ml-validation-and-adoption",
+      "target": "person:elenistamatelou",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:healthcare-ml-validation-and-adoption",
+      "target": "person:mariabruckert",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:healthcare-ml-validation-and-adoption",
+      "target": "person:saraelateif",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:healthcare-ml-validation-and-adoption",
+      "target": "person:stefangudmundsson",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:healthcare-ml-validation-and-adoption",
+      "target": "podcast:ai-in-healthcare-and-digital-therapeutics",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:healthcare-ml-validation-and-adoption",
+      "target": "podcast:building-ai-digital-health-startups",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:healthcare-ml-validation-and-adoption",
+      "target": "podcast:building-healthcare-machine-learning-systems",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:healthcare-ml-validation-and-adoption",
+      "target": "podcast:open-source-and-volunteering-in-ai-for-data-ml-career-growth",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:healthcare-ml-validation-and-adoption",
+      "target": "wiki:computer-vision",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:healthcare-ml-validation-and-adoption",
+      "target": "wiki:computer-vision",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:healthcare-ml-validation-and-adoption",
+      "target": "wiki:data-products",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:healthcare-ml-validation-and-adoption",
+      "target": "wiki:data-products",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:healthcare-ml-validation-and-adoption",
+      "target": "wiki:evaluation",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:healthcare-ml-validation-and-adoption",
+      "target": "wiki:evaluation",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:healthcare-ml-validation-and-adoption",
+      "target": "wiki:industrial-ml-applications",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:healthcare-ml-validation-and-adoption",
+      "target": "wiki:industrial-ml-applications",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:healthcare-ml-validation-and-adoption",
+      "target": "wiki:interpretability",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:healthcare-ml-validation-and-adoption",
+      "target": "wiki:interpretability",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:healthcare-ml-validation-and-adoption",
+      "target": "wiki:machine-learning",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:healthcare-ml-validation-and-adoption",
+      "target": "wiki:machine-learning",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:healthcare-ml-validation-and-adoption",
+      "target": "wiki:mlops",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:healthcare-ml-validation-and-adoption",
+      "target": "wiki:mlops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:healthcare-ml-validation-and-adoption",
+      "target": "wiki:model-monitoring",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:healthcare-ml-validation-and-adoption",
+      "target": "wiki:model-monitoring",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:healthcare-ml-validation-and-adoption",
+      "target": "wiki:production",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:healthcare-ml-validation-and-adoption",
+      "target": "wiki:production",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:healthcare-ml-validation-and-adoption",
+      "target": "wiki:responsible-ai-and-governance",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:healthcare-ml-validation-and-adoption",
+      "target": "wiki:responsible-ai-and-governance",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
       "source": "wiki:hiring",
       "target": "article:comparison:mlops-vs-dataops",
       "kind": "wiki-link",
@@ -63090,6 +63830,168 @@
       "target": "wiki:vector-databases",
       "kind": "wiki-link",
       "weight": 1
+    },
+    {
+      "source": "wiki:long-context-llm-evaluation",
+      "target": "person:atitaarora",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:long-context-llm-evaluation",
+      "target": "person:bartoszmikulski",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:long-context-llm-evaluation",
+      "target": "person:lavanyagupta",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:long-context-llm-evaluation",
+      "target": "person:ranjithakulkarni",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:long-context-llm-evaluation",
+      "target": "podcast:applied-llm-research-and-career-growth-in-practice",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:long-context-llm-evaluation",
+      "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:long-context-llm-evaluation",
+      "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:long-context-llm-evaluation",
+      "target": "podcast:production-ready-ai-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:long-context-llm-evaluation",
+      "target": "wiki:embeddings",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:long-context-llm-evaluation",
+      "target": "wiki:embeddings",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:long-context-llm-evaluation",
+      "target": "wiki:evaluation",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:long-context-llm-evaluation",
+      "target": "wiki:evaluation",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:long-context-llm-evaluation",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:long-context-llm-evaluation",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:long-context-llm-evaluation",
+      "target": "wiki:llm-production-patterns",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:long-context-llm-evaluation",
+      "target": "wiki:llm-production-patterns",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:long-context-llm-evaluation",
+      "target": "wiki:llms",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:long-context-llm-evaluation",
+      "target": "wiki:llms",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:long-context-llm-evaluation",
+      "target": "wiki:prompt-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:long-context-llm-evaluation",
+      "target": "wiki:prompt-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:long-context-llm-evaluation",
+      "target": "wiki:rag",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:long-context-llm-evaluation",
+      "target": "wiki:rag",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:long-context-llm-evaluation",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:long-context-llm-evaluation",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:long-context-llm-evaluation",
+      "target": "wiki:search",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:long-context-llm-evaluation",
+      "target": "wiki:search-rag-and-knowledge-systems",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:long-context-llm-evaluation",
+      "target": "wiki:search-rag-and-knowledge-systems",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:machine-learning",
