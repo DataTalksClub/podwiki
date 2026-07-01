@@ -2,18 +2,29 @@
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
     "wikis": 215,
-    "articles": 60,
+    "articles": 61,
     "guides": 22,
     "comparisons": 23,
-    "roadmaps": 10,
+    "roadmaps": 11,
     "how_tos": 5,
     "podcasts": 202,
     "persons": 438,
-    "topics": 112,
-    "nodes": 1027,
-    "links": 12530
+    "topics": 127,
+    "nodes": 1043,
+    "links": 12778
   },
   "nodes": [
+    {
+      "id": "article:roadmap:ai-engineer-roadmap",
+      "type": "article",
+      "collection": "roadmap",
+      "label": "AI Engineer Roadmap",
+      "title": "AI Engineer Roadmap",
+      "url": "/roadmaps/ai-engineer-roadmap/",
+      "count": 1,
+      "search": "AI Engineer Roadmap A practical roadmap for becoming an AI engineer, from software foundations and LLM calls to RAG, evaluation, agents, and production ownership.",
+      "keyword": "ai engineer roadmap"
+    },
     {
       "id": "article:guide:ai-tools-for-personal-productivity",
       "type": "article",
@@ -1262,7 +1273,7 @@
       "title": "Arseny Kravchenko",
       "url": "/people/arsenykravchenko/",
       "count": 1,
-      "search": "Arseny Kravchenko Arseny Kravchenko's DataTalks.Club podcast discussions, organized for topic exploration."
+      "search": "Arseny Kravchenko Arseny Kravchenko's DataTalks.Club podcast discussion on scalable ML systems, design docs, data strategy, edge constraints, and practical MLOps."
     },
     {
       "id": "person:artemiifrolov",
@@ -1322,7 +1333,7 @@
       "title": "Barr Moses",
       "url": "/people/barrmoses/",
       "count": 1,
-      "search": "Barr Moses Monte Carlo co founder contributing the archive's data observability and data reliability reference for freshness, lineage, schema changes, and downtime prevention."
+      "search": "Barr Moses Monte Carlo co founder whose DataTalks.Club episode defines data downtime, data observability signals, ownership, SLAs, and recovery workflows."
     },
     {
       "id": "person:bartvandekerckhove",
@@ -1442,7 +1453,7 @@
       "title": "Chip Huyen",
       "url": "/people/chiphuyen/",
       "count": 1,
-      "search": "Chip Huyen Chip Huyen's DataTalks.Club profile."
+      "search": "Chip Huyen Chip Huyen's DataTalks.Club profile, connected to guest discussions of ML systems and AI engineering."
     },
     {
       "id": "person:chrisfregly",
@@ -1492,7 +1503,7 @@
       "title": "Christoph Molnar",
       "url": "/people/christophmolnar/",
       "count": 1,
-      "search": "Christoph Molnar Statistician and machine learning practitioner focused on interpretability, model trust, SHAP, and conformal prediction."
+      "search": "Christoph Molnar Christoph Molnar's DataTalks.Club podcast contribution on interpretable machine learning, SHAP, conformal prediction, model trust, and technical writing."
     },
     {
       "id": "person:christopherbergh",
@@ -1562,7 +1573,7 @@
       "title": "Daniel Svonava",
       "url": "/people/danielsvonava/",
       "count": 1,
-      "search": "Daniel Svonava Daniel Svonava's DataTalks.Club podcast discussions, organized for topic exploration."
+      "search": "Daniel Svonava Daniel Svonava's DataTalks.Club discussion of production search systems, dense embeddings, ranking, hybrid retrieval, vector infrastructure, and search evaluation."
     },
     {
       "id": "person:dannyleybzon",
@@ -1572,7 +1583,7 @@
       "title": "Danny Leybzon",
       "url": "/people/dannyleybzon/",
       "count": 1,
-      "search": "Danny Leybzon Danny Leybzon's DataTalks.Club podcast discussions, organized for topic exploration."
+      "search": "Danny Leybzon Danny Leybzon on production model monitoring, data observability, MLOps architecture, and tooling tradeoffs."
     },
     {
       "id": "person:dannyma",
@@ -1772,7 +1783,7 @@
       "title": "Doug Turnbull",
       "url": "/people/dougturnbull/",
       "count": 1,
-      "search": "Doug Turnbull Doug Turnbull's DataTalks.Club profile."
+      "search": "Doug Turnbull Search relevance practitioner connected to DataTalks.Club discussions of search quality, ranking, and retrieval evaluation."
     },
     {
       "id": "person:douglasgray",
@@ -2512,7 +2523,7 @@
       "title": "Joe Reis",
       "url": "/people/joereis/",
       "count": 1,
-      "search": "Joe Reis Joe Reis's DataTalks.Club profile."
+      "search": "Joe Reis Joe Reis's DataTalks.Club profile, centered on his data engineering principles from the Fundamentals of Data Engineering Book of the Week discussion and the podcast episode that recommends the book."
     },
     {
       "id": "person:johannabayer",
@@ -3212,7 +3223,7 @@
       "title": "Martin Kleppmann",
       "url": "/people/martinkleppmann/",
       "count": 1,
-      "search": "Martin Kleppmann Martin Kleppmann's DataTalks.Club profile."
+      "search": "Martin Kleppmann Martin Kleppmann's DataTalks.Club material on reliable data systems, distributed systems, consistency, storage, streaming, and engineering tradeoffs."
     },
     {
       "id": "person:martinpotancok",
@@ -4832,7 +4843,7 @@
       "title": "Valerii Babushkin",
       "url": "/people/valeriybabushkin/",
       "count": 1,
-      "search": "Valerii Babushkin Valerii Babushkin's DataTalks.Club podcast discussions, organized for topic exploration."
+      "search": "Valerii Babushkin Valerii Babushkin's DataTalks.Club discussions on ML system design interviews, design documents, fraud detection, experimentation, monitoring, and production ML tradeoffs."
     },
     {
       "id": "person:valeriiakuka",
@@ -7273,6 +7284,15 @@
       "search": "cloud"
     },
     {
+      "id": "topic:consistency",
+      "type": "topic",
+      "label": "consistency",
+      "title": "consistency",
+      "url": "/search.html?q=consistency",
+      "count": 1,
+      "search": "consistency"
+    },
+    {
       "id": "topic:consulting",
       "type": "topic",
       "label": "consulting",
@@ -7309,6 +7329,15 @@
       "search": "data analytics"
     },
     {
+      "id": "topic:data-architecture",
+      "type": "topic",
+      "label": "data architecture",
+      "title": "data architecture",
+      "url": "/search.html?q=data%20architecture",
+      "count": 1,
+      "search": "data architecture"
+    },
+    {
       "id": "topic:data-compliance",
       "type": "topic",
       "label": "data compliance",
@@ -7325,6 +7354,15 @@
       "url": "/search.html?q=data%20engineering%20education",
       "count": 1,
       "search": "data engineering education"
+    },
+    {
+      "id": "topic:data-engineering-lifecycle",
+      "type": "topic",
+      "label": "data engineering lifecycle",
+      "title": "data engineering lifecycle",
+      "url": "/search.html?q=data%20engineering%20lifecycle",
+      "count": 1,
+      "search": "data engineering lifecycle"
     },
     {
       "id": "topic:data-engineering-reliability",
@@ -7368,7 +7406,7 @@
       "label": "data modeling",
       "title": "data modeling",
       "url": "/search.html?q=data%20modeling",
-      "count": 1,
+      "count": 2,
       "search": "data modeling"
     },
     {
@@ -7408,6 +7446,15 @@
       "search": "data structures"
     },
     {
+      "id": "topic:data-systems",
+      "type": "topic",
+      "label": "data systems",
+      "title": "data systems",
+      "url": "/search.html?q=data%20systems",
+      "count": 1,
+      "search": "data systems"
+    },
+    {
       "id": "topic:data-visualization",
       "type": "topic",
       "label": "data visualization",
@@ -7435,6 +7482,15 @@
       "search": "decision optimization"
     },
     {
+      "id": "topic:dense-embeddings",
+      "type": "topic",
+      "label": "dense embeddings",
+      "title": "dense embeddings",
+      "url": "/search.html?q=dense%20embeddings",
+      "count": 1,
+      "search": "dense embeddings"
+    },
+    {
       "id": "topic:design-thinking",
       "type": "topic",
       "label": "design thinking",
@@ -7451,6 +7507,15 @@
       "url": "/search.html?q=DevOps",
       "count": 1,
       "search": "DevOps"
+    },
+    {
+      "id": "topic:distributed-systems",
+      "type": "topic",
+      "label": "distributed systems",
+      "title": "distributed systems",
+      "url": "/search.html?q=distributed%20systems",
+      "count": 1,
+      "search": "distributed systems"
     },
     {
       "id": "topic:diversity",
@@ -7478,6 +7543,15 @@
       "url": "/search.html?q=education",
       "count": 2,
       "search": "education"
+    },
+    {
+      "id": "topic:elasticsearch",
+      "type": "topic",
+      "label": "Elasticsearch",
+      "title": "Elasticsearch",
+      "url": "/search.html?q=Elasticsearch",
+      "count": 1,
+      "search": "Elasticsearch"
     },
     {
       "id": "topic:elt-and-etl",
@@ -7606,6 +7680,15 @@
       "search": "healthcare"
     },
     {
+      "id": "topic:hybrid-search",
+      "type": "topic",
+      "label": "hybrid search",
+      "title": "hybrid search",
+      "url": "/search.html?q=hybrid%20search",
+      "count": 1,
+      "search": "hybrid search"
+    },
+    {
       "id": "topic:indie-hacking",
       "type": "topic",
       "label": "indie hacking",
@@ -7667,6 +7750,15 @@
       "url": "/search.html?q=last-mile%20data%20delivery",
       "count": 1,
       "search": "last-mile data delivery"
+    },
+    {
+      "id": "topic:learning-to-rank",
+      "type": "topic",
+      "label": "learning to rank",
+      "title": "learning to rank",
+      "url": "/search.html?q=learning%20to%20rank",
+      "count": 1,
+      "search": "learning to rank"
     },
     {
       "id": "topic:llmops",
@@ -7813,6 +7905,15 @@
       "search": "physics"
     },
     {
+      "id": "topic:platform-practices",
+      "type": "topic",
+      "label": "platform practices",
+      "title": "platform practices",
+      "url": "/search.html?q=platform%20practices",
+      "count": 1,
+      "search": "platform practices"
+    },
+    {
       "id": "topic:portfolio",
       "type": "topic",
       "label": "portfolio",
@@ -7867,6 +7968,15 @@
       "search": "product owners"
     },
     {
+      "id": "topic:product-search",
+      "type": "topic",
+      "label": "product search",
+      "title": "product search",
+      "url": "/search.html?q=product%20search",
+      "count": 1,
+      "search": "product search"
+    },
+    {
       "id": "topic:production-data-systems",
       "type": "topic",
       "label": "production data systems",
@@ -7883,6 +7993,15 @@
       "url": "/search.html?q=production%20ML",
       "count": 1,
       "search": "production ML"
+    },
+    {
+      "id": "topic:production-search",
+      "type": "topic",
+      "label": "production search",
+      "title": "production search",
+      "url": "/search.html?q=production%20search",
+      "count": 1,
+      "search": "production search"
     },
     {
       "id": "topic:productivity",
@@ -7966,6 +8085,15 @@
       "search": "responsible AI"
     },
     {
+      "id": "topic:search-evaluation",
+      "type": "topic",
+      "label": "search evaluation",
+      "title": "search evaluation",
+      "url": "/search.html?q=search%20evaluation",
+      "count": 1,
+      "search": "search evaluation"
+    },
+    {
       "id": "topic:self-learning",
       "type": "topic",
       "label": "self-learning",
@@ -8029,6 +8157,15 @@
       "search": "stakeholder workflows"
     },
     {
+      "id": "topic:storage",
+      "type": "topic",
+      "label": "storage",
+      "title": "storage",
+      "url": "/search.html?q=storage",
+      "count": 1,
+      "search": "storage"
+    },
+    {
       "id": "topic:strategy",
       "type": "topic",
       "label": "strategy",
@@ -8081,6 +8218,15 @@
       "url": "/search.html?q=technical%20leadership",
       "count": 1,
       "search": "technical leadership"
+    },
+    {
+      "id": "topic:vector-infrastructure",
+      "type": "topic",
+      "label": "vector infrastructure",
+      "title": "vector infrastructure",
+      "url": "/search.html?q=vector%20infrastructure",
+      "count": 1,
+      "search": "vector infrastructure"
     },
     {
       "id": "wiki:a-a-testing",
@@ -20914,6 +21060,330 @@
       "weight": 5
     },
     {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "article:guide:llm-system-design-interview",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "article:guide:machine-learning-for-software-engineers",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "article:roadmap:llm-rag-production-roadmap",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "article:roadmap:machine-learning-engineer-roadmap",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "person:meryemarik",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "person:nasserqadri",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "person:pauliusztin",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "person:revathyramalingam",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "person:ruslanshchuchkin",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "person:sandrakublik",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "podcast:applied-llm-research-and-career-growth-in-practice",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "podcast:from-game-ai-to-modern-ai-agents",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "podcast:generative-ai-chatbots-in-production-security",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "podcast:practical-llm-engineering-and-rag",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "podcast:practical-llm-use-cases-and-product-patterns",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "podcast:production-ready-ai-engineering",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "podcast:s23e04-how-to-become-ai-engineer-after-career-break",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "podcast:s23e05-inside-ai-engineer-role-tools-skills-and-career-path",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "podcast:s23e07-understanding-ai-engineer-role",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "wiki:agent-engineering",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "wiki:agent-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "wiki:ai-agents",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "wiki:ai-engineer-role",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "wiki:ai-engineer-role",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "wiki:ai-engineering",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "wiki:ai-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "wiki:ai-engineering-portfolio-projects",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "wiki:ai-engineering-portfolio-projects",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "wiki:ai-engineering-roadmap",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "wiki:ai-infrastructure-cost-and-ownership",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "wiki:ai-red-teaming",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "wiki:embeddings",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "wiki:generative-ai",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "wiki:llm-production-patterns",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "wiki:llm-production-patterns",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "wiki:llms",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "wiki:long-context-llm-evaluation",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "wiki:multi-agent-systems",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "wiki:nontraditional-paths-to-ai-engineering",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "wiki:notebook-to-production-ai-systems",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "wiki:notebook-to-production-ai-systems",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "wiki:prompt-engineering",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "wiki:prompt-injection-and-chatbot-risk-management",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "wiki:rag",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "wiki:rag",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "wiki:rag-portfolio-projects",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "wiki:search-rag-and-knowledge-systems",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "wiki:software-engineering",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:roadmap:ai-engineer-roadmap",
+      "target": "wiki:vector-databases",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
       "source": "article:roadmap:data-analyst-to-analytics-engineer",
       "target": "article:comparison:data-analyst-vs-analytics-engineer",
       "kind": "article-link",
@@ -24911,6 +25381,30 @@
     },
     {
       "source": "person:arsenykravchenko",
+      "target": "article:comparison:batch-vs-streaming",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:arsenykravchenko",
+      "target": "article:guide:machine-learning-for-software-engineers",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:arsenykravchenko",
+      "target": "article:guide:mlops-architecture",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:arsenykravchenko",
+      "target": "person:valeriybabushkin",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:arsenykravchenko",
       "target": "podcast:building-scalable-and-reliable-machine-learning-systems",
       "kind": "person-link",
       "weight": 1
@@ -24923,7 +25417,25 @@
     },
     {
       "source": "person:arsenykravchenko",
+      "target": "podcast:ml-system-design",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:arsenykravchenko",
       "target": "wiki:data-engineering",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:arsenykravchenko",
+      "target": "wiki:data-pipelines",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:arsenykravchenko",
+      "target": "wiki:data-quality-and-observability",
       "kind": "person-link",
       "weight": 1
     },
@@ -24941,7 +25453,43 @@
     },
     {
       "source": "person:arsenykravchenko",
+      "target": "wiki:machine-learning-engineer-role",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:arsenykravchenko",
+      "target": "wiki:machine-learning-infrastructure",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:arsenykravchenko",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:arsenykravchenko",
+      "target": "wiki:ml-system-design-documents",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:arsenykravchenko",
       "target": "wiki:mlops",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:arsenykravchenko",
+      "target": "wiki:production",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:arsenykravchenko",
+      "target": "wiki:software-engineering",
       "kind": "person-link",
       "weight": 1
     },
@@ -25085,7 +25633,31 @@
     },
     {
       "source": "person:barrmoses",
-      "target": "article:comparison:mlops-vs-dataops",
+      "target": "article:comparison:model-monitoring-vs-data-observability",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:barrmoses",
+      "target": "article:guide:data-observability-for-data-engineering",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:barrmoses",
+      "target": "article:how_to:dataops-checks-for-data-pipelines",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:barrmoses",
+      "target": "person:christopherbergh",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:barrmoses",
+      "target": "person:larsalbertsson",
       "kind": "person-link",
       "weight": 1
     },
@@ -25145,13 +25717,25 @@
     },
     {
       "source": "person:barrmoses",
+      "target": "wiki:dataops",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:barrmoses",
+      "target": "wiki:dbt",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:barrmoses",
       "target": "wiki:mlops",
       "kind": "person-expertise",
       "weight": 2
     },
     {
       "source": "person:barrmoses",
-      "target": "wiki:mlops",
+      "target": "wiki:testing",
       "kind": "person-link",
       "weight": 1
     },
@@ -25301,7 +25885,43 @@
     },
     {
       "source": "person:benwilson",
+      "target": "article:comparison:machine-learning-engineer-vs-data-scientist",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:benwilson",
       "target": "article:comparison:mlops-vs-dataops",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:benwilson",
+      "target": "article:guide:machine-learning-for-software-engineers",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:benwilson",
+      "target": "article:roadmap:machine-learning-engineer-roadmap",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:benwilson",
+      "target": "person:nadianahar",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:benwilson",
+      "target": "person:simonstiebellehner",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:benwilson",
+      "target": "podcast:building-production-ml-platform-and-mlops-team",
       "kind": "person-link",
       "weight": 1
     },
@@ -25319,21 +25939,15 @@
     },
     {
       "source": "person:benwilson",
+      "target": "podcast:software-engineering-for-machine-learning",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:benwilson",
       "target": "wiki:career-growth",
       "kind": "person-expertise",
       "weight": 2
-    },
-    {
-      "source": "person:benwilson",
-      "target": "wiki:career-growth",
-      "kind": "person-link",
-      "weight": 1
-    },
-    {
-      "source": "person:benwilson",
-      "target": "wiki:career-transitions-in-data",
-      "kind": "person-link",
-      "weight": 1
     },
     {
       "source": "person:benwilson",
@@ -25343,6 +25957,18 @@
     },
     {
       "source": "person:benwilson",
+      "target": "wiki:data-science-for-managers",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:benwilson",
+      "target": "wiki:data-scientist-to-machine-learning-engineer",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:benwilson",
       "target": "wiki:machine-learning",
       "kind": "person-expertise",
       "weight": 2
@@ -25350,6 +25976,18 @@
     {
       "source": "person:benwilson",
       "target": "wiki:machine-learning",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:benwilson",
+      "target": "wiki:machine-learning-engineer-role",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:benwilson",
+      "target": "wiki:machine-learning-portfolio-projects",
       "kind": "person-link",
       "weight": 1
     },
@@ -25367,6 +26005,18 @@
     },
     {
       "source": "person:benwilson",
+      "target": "wiki:mlops",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:benwilson",
+      "target": "wiki:notebook-to-production-ai-systems",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:benwilson",
       "target": "wiki:production",
       "kind": "person-expertise",
       "weight": 2
@@ -25379,9 +26029,27 @@
     },
     {
       "source": "person:benwilson",
+      "target": "wiki:production-ml-project-checklist",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:benwilson",
       "target": "wiki:software-engineering",
       "kind": "person-expertise",
       "weight": 2
+    },
+    {
+      "source": "person:benwilson",
+      "target": "wiki:software-engineering",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:benwilson",
+      "target": "wiki:testing",
+      "kind": "person-link",
+      "weight": 1
     },
     {
       "source": "person:boyanangelov",
@@ -25558,6 +26226,102 @@
       "weight": 1
     },
     {
+      "source": "person:chiphuyen",
+      "target": "person:antonisstellas",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:chiphuyen",
+      "target": "person:pastorsoto",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:chiphuyen",
+      "target": "podcast:from-startup-engineering-to-freelance-data-science",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:chiphuyen",
+      "target": "podcast:nonlinear-path-to-machine-learning-freelancing-and-public-learning",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:chiphuyen",
+      "target": "wiki:ai-engineering",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:chiphuyen",
+      "target": "wiki:ai-engineering-portfolio-projects",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:chiphuyen",
+      "target": "wiki:ai-engineering-roadmap",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:chiphuyen",
+      "target": "wiki:evaluation",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:chiphuyen",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:chiphuyen",
+      "target": "wiki:llm-production-patterns",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:chiphuyen",
+      "target": "wiki:machine-learning-engineer-role",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:chiphuyen",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:chiphuyen",
+      "target": "wiki:mlops",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:chiphuyen",
+      "target": "wiki:model-monitoring",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:chiphuyen",
+      "target": "wiki:notebook-to-production-ai-systems",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:chiphuyen",
+      "target": "wiki:production",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
       "source": "person:christiannswart",
       "target": "podcast:nlp-dataset-creation-annotation-tools-workflows",
       "kind": "person-link",
@@ -25709,6 +26473,24 @@
     },
     {
       "source": "person:christophmolnar",
+      "target": "person:olgaivina",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:christophmolnar",
+      "target": "person:polinamosolova",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:christophmolnar",
+      "target": "person:supreetkaur",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:christophmolnar",
       "target": "podcast:interpretable-machine-learning",
       "kind": "person-link",
       "weight": 1
@@ -25718,12 +26500,6 @@
       "target": "podcast:interpretable-machine-learning",
       "kind": "person-podcast",
       "weight": 4
-    },
-    {
-      "source": "person:christophmolnar",
-      "target": "wiki:career-transition",
-      "kind": "person-link",
-      "weight": 1
     },
     {
       "source": "person:christophmolnar",
@@ -25740,6 +26516,18 @@
     {
       "source": "person:christophmolnar",
       "target": "wiki:data-science",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:christophmolnar",
+      "target": "wiki:data-scientist-role",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:christophmolnar",
+      "target": "wiki:documentation",
       "kind": "person-link",
       "weight": 1
     },
@@ -25775,15 +26563,21 @@
     },
     {
       "source": "person:christophmolnar",
-      "target": "wiki:practices",
-      "kind": "person-expertise",
-      "weight": 2
+      "target": "wiki:machine-learning-tools",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:christophmolnar",
+      "target": "wiki:model-monitoring",
+      "kind": "person-link",
+      "weight": 1
     },
     {
       "source": "person:christophmolnar",
       "target": "wiki:practices",
-      "kind": "person-link",
-      "weight": 1
+      "kind": "person-expertise",
+      "weight": 2
     },
     {
       "source": "person:christophmolnar",
@@ -25793,15 +26587,21 @@
     },
     {
       "source": "person:christophmolnar",
-      "target": "wiki:tools",
-      "kind": "person-expertise",
-      "weight": 2
+      "target": "wiki:scikit-learn",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:christophmolnar",
+      "target": "wiki:technical-writing",
+      "kind": "person-link",
+      "weight": 1
     },
     {
       "source": "person:christophmolnar",
       "target": "wiki:tools",
-      "kind": "person-link",
-      "weight": 1
+      "kind": "person-expertise",
+      "weight": 2
     },
     {
       "source": "person:cjjenkins",
@@ -25943,6 +26743,36 @@
     },
     {
       "source": "person:danielsvonava",
+      "target": "article:comparison:vector-database-vs-search-engine",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:danielsvonava",
+      "target": "article:comparison:vector-search-vs-keyword-search",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:danielsvonava",
+      "target": "article:roadmap:llm-rag-production-roadmap",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:danielsvonava",
+      "target": "person:atitaarora",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:danielsvonava",
+      "target": "person:dougturnbull",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:danielsvonava",
       "target": "podcast:building-production-search-systems",
       "kind": "person-link",
       "weight": 1
@@ -25955,6 +26785,48 @@
     },
     {
       "source": "person:danielsvonava",
+      "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:danielsvonava",
+      "target": "topic:dense-embeddings",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:danielsvonava",
+      "target": "topic:hybrid-search",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:danielsvonava",
+      "target": "topic:production-search",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:danielsvonava",
+      "target": "topic:search-evaluation",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:danielsvonava",
+      "target": "topic:vector-infrastructure",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:danielsvonava",
+      "target": "wiki:a-b-testing",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:danielsvonava",
       "target": "wiki:embeddings",
       "kind": "person-link",
       "weight": 1
@@ -25962,6 +26834,18 @@
     {
       "source": "person:danielsvonava",
       "target": "wiki:information-retrieval",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:danielsvonava",
+      "target": "wiki:information-retrieval",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:danielsvonava",
+      "target": "wiki:metrics",
       "kind": "person-link",
       "weight": 1
     },
@@ -25973,7 +26857,19 @@
     },
     {
       "source": "person:danielsvonava",
-      "target": "wiki:production",
+      "target": "wiki:production-search-evaluation",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:danielsvonava",
+      "target": "wiki:recommendation-systems",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:danielsvonava",
+      "target": "wiki:retrieval-augmented-generation",
       "kind": "person-link",
       "weight": 1
     },
@@ -25985,7 +26881,49 @@
     },
     {
       "source": "person:danielsvonava",
+      "target": "wiki:search-and-rag-project-checklist",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:danielsvonava",
+      "target": "wiki:search-relevance",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:danielsvonava",
       "target": "wiki:vector-databases",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:dannyleybzon",
+      "target": "article:comparison:mlops-vs-dataops",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:dannyleybzon",
+      "target": "article:comparison:mlops-vs-devops",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:dannyleybzon",
+      "target": "article:comparison:model-monitoring-vs-data-observability",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:dannyleybzon",
+      "target": "article:guide:mlops-architecture",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:dannyleybzon",
+      "target": "article:guide:mlops-frameworks",
       "kind": "person-link",
       "weight": 1
     },
@@ -26004,8 +26942,50 @@
     {
       "source": "person:dannyleybzon",
       "target": "wiki:data-engineering",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:dannyleybzon",
+      "target": "wiki:data-engineering",
       "kind": "person-link",
       "weight": 1
+    },
+    {
+      "source": "person:dannyleybzon",
+      "target": "wiki:data-observability",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:dannyleybzon",
+      "target": "wiki:data-observability",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:dannyleybzon",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:dannyleybzon",
+      "target": "wiki:machine-learning",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:dannyleybzon",
+      "target": "wiki:machine-learning-infrastructure",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:dannyleybzon",
+      "target": "wiki:mlops",
+      "kind": "person-expertise",
+      "weight": 2
     },
     {
       "source": "person:dannyleybzon",
@@ -26015,9 +26995,39 @@
     },
     {
       "source": "person:dannyleybzon",
-      "target": "wiki:tools",
+      "target": "wiki:mlops-tools",
       "kind": "person-link",
       "weight": 1
+    },
+    {
+      "source": "person:dannyleybzon",
+      "target": "wiki:model-monitoring",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:dannyleybzon",
+      "target": "wiki:model-monitoring",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:dannyleybzon",
+      "target": "wiki:production",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:dannyleybzon",
+      "target": "wiki:production-ml-project-checklist",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:dannyleybzon",
+      "target": "wiki:tools",
+      "kind": "person-expertise",
+      "weight": 2
     },
     {
       "source": "person:dannyma",
@@ -26274,6 +27284,126 @@
     {
       "source": "person:dimitrivisnadi",
       "target": "wiki:freelance",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:dougturnbull",
+      "target": "article:comparison:vector-database-vs-search-engine",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:dougturnbull",
+      "target": "article:comparison:vector-search-vs-keyword-search",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:dougturnbull",
+      "target": "article:how_to:rag-evaluation-workflow",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:dougturnbull",
+      "target": "person:atitaarora",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:dougturnbull",
+      "target": "person:danielsvonava",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:dougturnbull",
+      "target": "podcast:building-production-search-systems",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:dougturnbull",
+      "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:dougturnbull",
+      "target": "topic:elasticsearch",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:dougturnbull",
+      "target": "topic:learning-to-rank",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:dougturnbull",
+      "target": "topic:product-search",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:dougturnbull",
+      "target": "wiki:a-b-testing",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:dougturnbull",
+      "target": "wiki:information-retrieval",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:dougturnbull",
+      "target": "wiki:information-retrieval",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:dougturnbull",
+      "target": "wiki:metrics",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:dougturnbull",
+      "target": "wiki:production-search-evaluation",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:dougturnbull",
+      "target": "wiki:search",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:dougturnbull",
+      "target": "wiki:search-and-rag-project-checklist",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:dougturnbull",
+      "target": "wiki:search-rag-and-knowledge-systems",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:dougturnbull",
+      "target": "wiki:search-relevance",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:dougturnbull",
+      "target": "wiki:search-relevance",
       "kind": "person-link",
       "weight": 1
     },
@@ -27564,6 +28694,162 @@
     {
       "source": "person:jessicagreene",
       "target": "wiki:machine-learning",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:joereis",
+      "target": "article:comparison:dataops-vs-data-engineering",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:joereis",
+      "target": "article:comparison:mlops-vs-dataops",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:joereis",
+      "target": "person:jeffkatz",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:joereis",
+      "target": "person:matthewhousley",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:joereis",
+      "target": "person:santonatuli",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:joereis",
+      "target": "podcast:data-engineering-career-path-and-skills",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:joereis",
+      "target": "podcast:modern-data-pipelines-orchestration-ingestion-modeling",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:joereis",
+      "target": "topic:data-architecture",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:joereis",
+      "target": "topic:data-engineering-lifecycle",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:joereis",
+      "target": "topic:data-modeling",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:joereis",
+      "target": "topic:platform-practices",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:joereis",
+      "target": "wiki:career-development",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:joereis",
+      "target": "wiki:career-growth",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:joereis",
+      "target": "wiki:career-transitions-in-data",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:joereis",
+      "target": "wiki:data-engineering",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:joereis",
+      "target": "wiki:data-engineering",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:joereis",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:joereis",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:joereis",
+      "target": "wiki:data-engineering-roadmap",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:joereis",
+      "target": "wiki:data-engineering-tools",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:joereis",
+      "target": "wiki:data-governance",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:joereis",
+      "target": "wiki:data-observability",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:joereis",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:joereis",
+      "target": "wiki:dataops",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:joereis",
+      "target": "wiki:mlops",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:joereis",
+      "target": "wiki:self-service-data-platforms",
       "kind": "person-link",
       "weight": 1
     },
@@ -28932,6 +30218,168 @@
     {
       "source": "person:marijnmarkus",
       "target": "wiki:data-science",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:martinkleppmann",
+      "target": "article:comparison:batch-vs-streaming",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:martinkleppmann",
+      "target": "article:how_to:how-to-build-data-pipelines",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:martinkleppmann",
+      "target": "person:angelaramirez",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:martinkleppmann",
+      "target": "person:roksolanadiachuk",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:martinkleppmann",
+      "target": "podcast:big-data-engineer-vs-data-scientist",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:martinkleppmann",
+      "target": "podcast:building-and-scaling-data-engineering-systems-for-fraud-detection",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:martinkleppmann",
+      "target": "podcast:datatalksclub-building-scaling-data-community",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:martinkleppmann",
+      "target": "topic:consistency",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:martinkleppmann",
+      "target": "topic:data-systems",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:martinkleppmann",
+      "target": "topic:distributed-systems",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:martinkleppmann",
+      "target": "topic:storage",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:martinkleppmann",
+      "target": "wiki:cdc",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:martinkleppmann",
+      "target": "wiki:data-engineering",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:martinkleppmann",
+      "target": "wiki:data-engineering",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:martinkleppmann",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:martinkleppmann",
+      "target": "wiki:data-engineering-roadmap",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:martinkleppmann",
+      "target": "wiki:data-governance",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:martinkleppmann",
+      "target": "wiki:data-mesh",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:martinkleppmann",
+      "target": "wiki:data-pipelines",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:martinkleppmann",
+      "target": "wiki:data-products",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:martinkleppmann",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:martinkleppmann",
+      "target": "wiki:data-strategy",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:martinkleppmann",
+      "target": "wiki:modern-data-stack",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:martinkleppmann",
+      "target": "wiki:self-service-data-platforms",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:martinkleppmann",
+      "target": "wiki:software-engineering",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:martinkleppmann",
+      "target": "wiki:streaming",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:martinkleppmann",
+      "target": "wiki:streaming",
       "kind": "person-link",
       "weight": 1
     },
@@ -31631,6 +33079,36 @@
     },
     {
       "source": "person:valeriybabushkin",
+      "target": "article:comparison:model-monitoring-vs-data-observability",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:valeriybabushkin",
+      "target": "article:guide:machine-learning-for-software-engineers",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:valeriybabushkin",
+      "target": "article:guide:machine-learning-system-design-interview",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:valeriybabushkin",
+      "target": "article:guide:mlops-architecture",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:valeriybabushkin",
+      "target": "article:roadmap:machine-learning-engineer-roadmap",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:valeriybabushkin",
       "target": "podcast:machine-learning-system-design-interview",
       "kind": "person-link",
       "weight": 1
@@ -31655,13 +33133,85 @@
     },
     {
       "source": "person:valeriybabushkin",
-      "target": "wiki:career-growth",
+      "target": "wiki:a-b-testing",
       "kind": "person-link",
       "weight": 1
     },
     {
       "source": "person:valeriybabushkin",
-      "target": "wiki:machine-learning",
+      "target": "wiki:causal-inference",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:valeriybabushkin",
+      "target": "wiki:data-pipelines",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:valeriybabushkin",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:valeriybabushkin",
+      "target": "wiki:data-science-project-management",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:valeriybabushkin",
+      "target": "wiki:data-scientist-interview-roadmap",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:valeriybabushkin",
+      "target": "wiki:documentation",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:valeriybabushkin",
+      "target": "wiki:experimentation-and-causal-inference",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:valeriybabushkin",
+      "target": "wiki:leadership",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:valeriybabushkin",
+      "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:valeriybabushkin",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:valeriybabushkin",
+      "target": "wiki:ml-system-design-documents",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:valeriybabushkin",
+      "target": "wiki:mlops",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:valeriybabushkin",
+      "target": "wiki:model-monitoring",
       "kind": "person-link",
       "weight": 1
     },
@@ -32111,6 +33661,42 @@
     },
     {
       "source": "person:zhamakdehghani",
+      "target": "article:comparison:data-mesh-vs-centralized-data-platform",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:zhamakdehghani",
+      "target": "article:comparison:data-product-owner-vs-data-product-manager",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:zhamakdehghani",
+      "target": "article:comparison:product-owner-vs-product-manager",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:zhamakdehghani",
+      "target": "article:roadmap:data-product-manager-roadmap",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:zhamakdehghani",
+      "target": "person:bartvandekerckhove",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:zhamakdehghani",
+      "target": "person:larsalbertsson",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:zhamakdehghani",
       "target": "podcast:data-mesh-architecture-decentralized-data-products",
       "kind": "person-link",
       "weight": 1
@@ -32123,13 +33709,19 @@
     },
     {
       "source": "person:zhamakdehghani",
+      "target": "wiki:data-architect-role",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:zhamakdehghani",
       "target": "wiki:data-engineering",
       "kind": "person-expertise",
       "weight": 2
     },
     {
       "source": "person:zhamakdehghani",
-      "target": "wiki:data-engineering",
+      "target": "wiki:data-engineering-platforms",
       "kind": "person-link",
       "weight": 1
     },
@@ -32166,6 +33758,48 @@
     {
       "source": "person:zhamakdehghani",
       "target": "wiki:data-products",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:zhamakdehghani",
+      "target": "wiki:data-strategy",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:zhamakdehghani",
+      "target": "wiki:data-teams",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:zhamakdehghani",
+      "target": "wiki:dataops",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:zhamakdehghani",
+      "target": "wiki:developer-experience",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:zhamakdehghani",
+      "target": "wiki:governance",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:zhamakdehghani",
+      "target": "wiki:security",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:zhamakdehghani",
+      "target": "wiki:self-service-data-platforms",
       "kind": "person-link",
       "weight": 1
     },
