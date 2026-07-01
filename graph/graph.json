@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 132,
     "nodes": 1156,
-    "links": 13278
+    "links": 13284
   },
   "nodes": [
     {
@@ -14119,6 +14119,12 @@
       "target": "article:comparison:vector-database-vs-search-engine",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "book:20210405-the-practitioners-guide-to-graph-data",
+      "kind": "article-link",
+      "weight": 1
     },
     {
       "source": "article:comparison:knowledge-graph-vs-vector-search",
@@ -59962,6 +59968,12 @@
     },
     {
       "source": "wiki:data-quality-and-observability",
+      "target": "book:20210621-cleaning-data-for-effective-data-science",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-quality-and-observability",
       "target": "person:adrianbrudaru",
       "kind": "wiki-link",
       "weight": 1
@@ -73210,6 +73222,12 @@
     },
     {
       "source": "wiki:machine-learning",
+      "target": "book:20210531-advanced-algorithms-and-data-structures",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning",
       "target": "person:arsenykravchenko",
       "kind": "wiki-link",
       "weight": 1
@@ -73523,6 +73541,12 @@
     {
       "source": "wiki:machine-learning-engineer-role",
       "target": "article:roadmap:machine-learning-engineer-roadmap",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-engineer-role",
+      "target": "book:20220117-machine-learning-engineering-with-python",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -76673,6 +76697,12 @@
     {
       "source": "wiki:mlops",
       "target": "article:guide:mlops-frameworks",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops",
+      "target": "book:20210705-engineering-mlops",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -86693,6 +86723,12 @@
     {
       "source": "wiki:search",
       "target": "article:comparison:vector-database-vs-search-engine",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:search",
+      "target": "book:20210712-relevant-search",
       "kind": "wiki-link",
       "weight": 1
     },

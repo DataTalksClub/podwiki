@@ -56,7 +56,7 @@ constraints, and startup tradeoffs.
 ## Production Model Lifecycle
 
 Across these episodes, MLOps means the repeatable path from model development to a
-maintained production system. In
+maintained production system. [Engineering MLOps]({{ '/books/20210705-engineering-mlops/' | relative_url }}) by Emmanuel Raj structures this same end-to-end MLOps lifecycle, from CI/CD through serving, monitoring, and governance. In
 [MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}),
 Raphaël covers adoption by product teams around 23:01-36:55. Around
 39:06-56:50, he moves into CI, repository structure, and parameterization. He

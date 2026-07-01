@@ -71,6 +71,9 @@ maintenance to data drift and concept drift at 47:30. In
 [Bartosz Mikulski]({{ '/people/bartoszmikulski/' | relative_url }}) starts with
 testing because production AI systems inherit reliability problems from data
 pipelines, prompt inputs, and evaluation checks.
+[Cleaning Data for Effective Data Science]({{ '/books/20210621-cleaning-data-for-effective-data-science/' | relative_url }})
+by David Mertz covers the same data preparation and quality discipline that
+underlies reliable analytics and ML.
 
 ## Failure Modes
 

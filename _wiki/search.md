@@ -35,7 +35,7 @@ It also supports knowledge workflows.
 ## Retrieval and Ranking
 
 Search starts by retrieving candidate items, ranking them, and measuring
-whether the result helped the person or downstream system. In
+whether the result helped the person or downstream system. [Relevant Search]({{ '/books/20210712-relevant-search/' | relative_url }}) by Doug Turnbull and John Berryman covers the same relevance engineering discipline of scoring, ranking, and tuning from the Solr/Elasticsearch era. In
 [Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}),
 [Daniel Svonava]({{ '/people/danielsvonava/' | relative_url }}) frames search
 as an information-retrieval decision problem around 6:20. Around 12:45, he

@@ -82,6 +82,10 @@ generation from model specifications.
 
 ## Problem Framing and Baselines
 
+[Advanced Algorithms and Data Structures]({{ '/books/20210531-advanced-algorithms-and-data-structures/' | relative_url }})
+by Marcello La Rocca covers the algorithmic foundations that underpin
+efficient ML feature engineering and retrieval at scale.
+
 DataTalks.Club guests start ML with the decision instead of the model. In
 [CRISP-DM Methodology for Data Science Projects]({{ '/podcasts/crisp-dm/' | relative_url }}),
 business understanding asks whether the problem is important, measurable, and

@@ -42,6 +42,10 @@ anchors the production vector-search side in
 where vector similarity becomes one signal inside candidate generation and
 ranking. Filters, recency, and business evaluation matter too.
 
+[The Practitioner's Guide to Graph Data]({{ '/books/20210405-the-practitioners-guide-to-graph-data/' | relative_url }})
+by Denise Gosnell gives the graph-data engineering side of this comparison,
+from graph database modeling to query-driven retrieval.
+
 Use vector search when the system must find semantically related passages or
 products. It also fits images, users, or sessions. Use a knowledge graph when
 the answer depends on relationships and paths. It also fits hierarchy,
