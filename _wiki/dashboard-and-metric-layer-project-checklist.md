@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Dashboard and Metric Layer Project Checklist"
-summary: "Archive-backed checklist for a dashboard or metric-layer portfolio project that proves stakeholder decisions, event definitions, metric ownership, tested models, BI consumption, and adoption."
+summary: "Checklist for a dashboard or metric-layer portfolio project that proves stakeholder decisions, event definitions, metric ownership, tested models, BI consumption, and adoption."
 related:
   - Analytics Engineering Portfolio Projects
   - Analytics Engineering
@@ -13,39 +13,56 @@ related:
   - A/B Testing
 ---
 
-## Definition
+## Dashboard Project Definition
 
 A dashboard and metric-layer project proves that analytical data helps people
-make a decision. The project should start with one stakeholder decision. Then
-it should show source definitions, metric grain, and tested transformations.
-It should also show a BI surface and adoption evidence.
+make a specific decision. It starts with one stakeholder decision. Then it
+traces the metric from source events or tables through tested transformations,
+a BI surface, and evidence that people use the result.
 
 Use this checklist with
 [Analytics Engineering Portfolio Projects]({{ '/wiki/analytics-engineering-portfolio-projects/' | relative_url }})
-when the target work is
+when the portfolio target is
 [analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }}),
 [product analytics]({{ '/wiki/product-analytics/' | relative_url }}), or
-[data products]({{ '/wiki/data-products/' | relative_url }}).
+[data products]({{ '/wiki/data-products/' | relative_url }}). You get the
+strongest portfolio signal when the project is more than a chart gallery. It
+needs a metric specification, data lineage, tests, and stakeholder adoption.
 
-[Caitlin Moorman]({{ '/people/caitlinmoorman/' | relative_url }}) gives the
-adoption standard in
+[Caitlin Moorman]({{ '/people/caitlinmoorman/' | relative_url }}) sets that
+adoption bar in
 [Last-Mile Data Delivery]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }}).
-At 8:48, she defines the last mile. At 26:21 and 34:00, she works backward
-from user research and outcomes. At 38:15, she places metrics inside the
-meetings where decisions happen.
+At 8:48, she defines the last mile. At 26:21 and 34:00, she works backward from
+user research and outcomes. At 38:15, she places metrics inside the meetings
+where decisions happen.
 
-## Common Definition
+## Stakeholder Decision and Meeting Use
 
-Guests treat a dashboard as the final surface of a data product. The useful
-proof is the path from events or source tables to tested models, metric
-definitions, dashboard consumption, and stakeholder behavior.
+A strong dashboard project names the decision before it names the chart. A
+growth manager may choose which onboarding experiment to extend. A finance lead
+may decide whether spending is off plan. A product manager may decide which
+activation problem to investigate. The stakeholder should be able to say what
+changes after they read the metric.
 
-[Arpit Choudhury]({{ '/people/arpitchoudhury/' | relative_url }}) gives the
-event path in
-[Data-Led Growth Stack]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }}).
-He covers tracking plans at 13:34 and anomaly investigation at 18:27. He covers
-data flow at 22:50, SaaS event examples at 24:43, warehouse and BI work at
-28:52, and activation at 30:03.
+Caitlin's outcome-first discussion at 34:00 supports this structure because her
+version starts with adoption. People need to find the dashboard, trust it, and
+use it in the meeting where the decision happens. Use
+[Data Product Adoption]({{ '/wiki/data-product-adoption/' | relative_url }})
+and
+[Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
+when the project needs stronger stakeholder framing.
+
+## Metric Specification and Guardrails
+
+The metric layer needs a written specification with these fields:
+
+- metric grain and units
+- owner and refresh cadence
+- dimensions, filters, and caveats
+
+Separate the primary decision metric from diagnostics and guardrails so the
+dashboard doesn't encourage a single number at the expense of product or
+business health.
 
 [Adam Sroka]({{ '/people/adamsroka/' | relative_url }}) gives the metric
 standard in
@@ -54,98 +71,90 @@ At 22:41, he discusses KPI definition. At 28:04, he covers gaming risk. At
 30:30, he covers derived KPIs. At 41:07, he discusses dashboards and
 visibility.
 
-## Guest Differences
-
-For Caitlin, adoption is the starting point. A dashboard fails when people
-can't find it or trust it. It also fails when the meeting workflow never uses it.
-
-Arpit starts from product and growth data. He ties event definitions, warehouse
-transformations and BI into the same system. Reverse ETL belongs there too.
-That makes event
-ownership part of the project.
-
-[Victoria Perez Mola]({{ '/people/victoriaperezmola/' | relative_url }}) and
-[Juan Manuel Perafan]({{ '/people/juanmanuelperafan/' | relative_url }}) start
-from analytics engineering. Victoria connects modeling, data quality, and
-Looker. She also covers dbt docs, DAGs, and tests
-([Master Analytics Engineering]({{ '/podcasts/analytics-engineer-skills-tools/' | relative_url }}),
-4:05-38:53). Juan adds robustness, generic tests, and singular tests. He also
-covers CI, KPI tests, and semantic-layer thinking
-([Foundations of the Analytics Engineer Role]({{ '/podcasts/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices/' | relative_url }}),
-38:41-1:14:40).
-
-## Stakeholder Decision
-
-Start with one named decision. A growth manager or finance lead should be able
-to explain what changes after looking at the metric. A support team, product
-manager, or executive sponsor works too.
-
-Caitlin's outcome-first discussion at 34:00 supports this structure. Use
-[Data Product Adoption]({{ '/wiki/data-product-adoption/' | relative_url }})
-and [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
-when the project needs adoption and stakeholder framing.
-
-## Metric Definitions
-
-The project should define metric grain, units, dimensions, and filters. It
-should also define ownership, refresh cadence, and caveats. Separate primary
-decision metrics from diagnostics and guardrails.
-
-[Jakob Graff]({{ '/people/jakobgraff/' | relative_url }}) gives the
-experimentation guardrails in
+For experimentation-heavy projects,
+[Jakob Graff]({{ '/people/jakobgraff/' | relative_url }}) adds guardrails in
 [A/B Testing and Product Experimentation]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}).
-He covers randomization at 8:13 and causality at 11:48. He covers A/A tests at
-27:52, metric stability at 33:23, and power analysis at 37:44.
+He covers randomization at 8:13, causality at 11:48, and A/A tests at 27:52.
+He also covers metric stability at 33:23 and power analysis at 37:44.
 
 Use [Metrics]({{ '/wiki/metrics/' | relative_url }}),
 [Experimentation]({{ '/wiki/experimentation/' | relative_url }}), and
-[A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }}) for the deeper
-measurement topics.
+[A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }}) when the project needs
+deeper measurement definitions.
 
-## Tested Model Layer
+## Event and Model Lineage
 
-A dashboard-only artifact is weak unless the metrics sit on reusable and
-tested models. Show staging models, intermediate logic, and marts. Also show
-metric definitions, tests, documentation, and lineage.
+The dashboard should show the full path from raw product behavior or source
+tables to reusable models and BI consumption. That path usually starts with a
+tracking plan and source events. It then moves through staging models,
+intermediate business logic, marts, and metric definitions. Documentation and
+lineage make that path inspectable.
+
+[Arpit Choudhury]({{ '/people/arpitchoudhury/' | relative_url }}) gives the
+event path in
+[Data-Led Growth Stack]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }}).
+He covers tracking plans at 13:34 and anomaly investigation at 18:27. He covers
+data flow at 22:50, SaaS event examples at 24:43, warehouse and BI work at
+28:52, and activation at 30:03. In his framing, event definitions and warehouse
+transformations belong to the same growth system as BI and reverse ETL. That
+makes event ownership part of the dashboard project.
 
 [Nikola Maksimovic]({{ '/people/nikolamaksimovic/' | relative_url }}) gives a
-practical version in
+portfolio-scale version in
 [Marketing to Analytics Engineering]({{ '/podcasts/from-marketing-to-analytics-engineering-sql-dbt-career-switch/' | relative_url }}).
 He describes product support and A/B testing at 14:14. He covers data modeling
-at 18:34, Snowplow, dbt, and Looker at 20:34. He covers product analytics at
-38:27.
+at 18:34. At 20:34, he discusses Snowplow, dbt, and Looker. At 38:27, he
+returns to product analytics.
 
-Use [dbt]({{ '/wiki/dbt/' | relative_url }}),
+Use
+[dbt]({{ '/wiki/dbt/' | relative_url }}),
 [Tracking Plans]({{ '/wiki/tracking-plans/' | relative_url }}),
 [Event Tracking]({{ '/wiki/event-tracking/' | relative_url }}), and
 [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
-to connect the model layer to source quality.
+to connect the dashboard back to source quality.
 
-## Trust And Adoption
+## Tests, Documentation, and Semantic Layer Choices
 
-The project should show how errors are detected and how stakeholders learn to
-use the dashboard. Include a usage guide, definition page, warning note, or
-meeting workflow.
+A dashboard-only project is weak when the numbers live only inside BI formulas.
+The project is stronger when the metric sits on reusable models with tests,
+documentation, and a clear semantic-layer boundary. Show generic tests for
+expected data properties, singular tests for business rules, and a CI check
+where the portfolio format allows it.
+
+[Victoria Perez Mola]({{ '/people/victoriaperezmola/' | relative_url }}) and
+[Juan Manuel Perafan]({{ '/people/juanmanuelperafan/' | relative_url }}) give
+the analytics engineering version. Victoria connects modeling, data quality,
+and Looker. She covers dbt docs, DAGs, and tests in
+[Master Analytics Engineering]({{ '/podcasts/analytics-engineer-skills-tools/' | relative_url }})
+from 4:05 to 38:53. Juan adds robustness, generic tests, and singular tests. He
+also covers CI, KPI tests, and semantic-layer thinking in
+[Foundations of the Analytics Engineer Role]({{ '/podcasts/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices/' | relative_url }})
+from 38:41 to 1:14:40.
+
+## BI Surface, Activation, and Adoption Proof
+
+The finished project needs a BI surface, but the dashboard isn't enough.
+Include the dashboard or screenshots, the metric definition page, and a usage
+note for caveats. The project should also show that the dashboard fits a
+recurring business meeting. When the metric triggers operational action, link it
+to
+[Data Activation]({{ '/wiki/data-activation/' | relative_url }}) as well as the
+BI layer.
 
 [Tammy Liang]({{ '/people/tammyliang/' | relative_url }}) gives the team
 version in
 [Building and Scaling a Data Team]({{ '/podcasts/building-and-scaling-data-team/' | relative_url }}).
 She discusses business health dashboards at 7:22 and reporting collaboration at
 8:51. She covers a stack and Notion wiki at 22:32, dbt tests at 40:09, and
-workshops at 49:00.
+workshops at 49:00. Her examples make the adoption checklist practical. The
+team defines the metric, tests the data, documents the dashboard, and teaches
+people how to use it.
 
-## Related Pages
+## Adjacent Dashboard Project Paths
 
-Use these pages to follow the analytics and product context.
-
-- [Analytics Engineering Portfolio Projects]({{ '/wiki/analytics-engineering-portfolio-projects/' | relative_url }})
-- [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
-- [Analytics Engineering Roadmap]({{ '/wiki/analytics-engineering-roadmap/' | relative_url }})
-- [Metrics]({{ '/wiki/metrics/' | relative_url }})
-- [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }})
-- [Event Tracking]({{ '/wiki/event-tracking/' | relative_url }})
-- [Tracking Plans]({{ '/wiki/tracking-plans/' | relative_url }})
-- [Data Activation]({{ '/wiki/data-activation/' | relative_url }})
-- [Data Product Adoption]({{ '/wiki/data-product-adoption/' | relative_url }})
-- [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
-- [A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }})
+For a broader learning path, pair this checklist with the
+[Analytics Engineering Roadmap]({{ '/wiki/analytics-engineering-roadmap/' | relative_url }}).
+For a portfolio page, use
+[Analytics Engineering Portfolio Projects]({{ '/wiki/analytics-engineering-portfolio-projects/' | relative_url }})
+to place the dashboard beside projects for source ingestion and transformation.
+The same hub also connects it to data quality and stakeholder delivery.

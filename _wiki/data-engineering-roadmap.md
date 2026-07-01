@@ -23,12 +23,13 @@ database concepts, and cloud basics before distributed systems in
 [Data Engineering Career Path and Skills]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }})
 23:35-40:42 and 56:46.
 
-Use this roadmap as the practical path through
+Read the page as the practical path through
 [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}), not as a
 catalog of [Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }}).
-For role scope, use [Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }}).
-For proof of skill, use
-[Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }}).
+Use [Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }})
+for job scope and
+[Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
+for proof of skill.
 
 If you already work in analytics, use the
 [Data Analyst to Data Engineer Roadmap]({{ '/roadmaps/data-analyst-to-data-engineer/' | relative_url }}).
@@ -36,8 +37,9 @@ If you already work in data science, use the
 [Data Scientist to Data Engineer Roadmap]({{ '/roadmaps/data-scientist-to-data-engineer/' | relative_url }}).
 Both pages translate existing skills into the data engineering path.
 
-For operating practice, use [DataOps]({{ '/wiki/dataops/' | relative_url }})
-and [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).
+[DataOps]({{ '/wiki/dataops/' | relative_url }}) and
+[Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
+cover the operating practice that turns a working pipeline into a reliable one.
 
 [Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) makes the same
 roadmap point from the modern-stack side. Beginners should learn fundamentals
@@ -54,11 +56,11 @@ defaulting to real-time or cloud-heavy systems
 [FinOps for Data Engineers]({{ '/wiki/finops-for-data-engineers/' | relative_url }})
 when the roadmap moves from learning tools to operating shared cloud spend.
 
-## Common Definition
+## Core Skill Sequence
 
-Across these roadmap and career episodes, guests converge on one definition.
-You should become able to turn raw inputs into trusted, recoverable data
-products. Katz starts that path with SQL and Python. He then adds database
+Across the roadmap and career episodes, data engineering skill means turning
+raw inputs into trusted, recoverable data products. Katz starts that path with
+SQL and Python. He then adds database
 concepts such as OLTP versus OLAP and modeling practice
 ([Data Engineering Career Path and Skills]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }})
 23:35-26:40 and 44:21-45:14). His job-prep discussion repeats the same hiring
@@ -85,7 +87,7 @@ into modeled marts and dashboards. She also covers production ML handoffs
 ([Modern Data Pipeline Architecture]({{ '/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/' | relative_url }})
 10:48-18:44 and 24:57-44:57).
 
-At senior level, you stop adding tools by default and start practicing
+At senior level, engineers stop adding tools by default and start practicing
 architecture judgment. You learn when a simple batch pipeline is enough and
 when streaming is worth the burden. You also learn when platform conventions
 help multiple teams move faster.
@@ -98,7 +100,7 @@ stresses operational burden in
 [Data Engineer Career in 2026]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }})
 25:33-38:01.
 
-## Guest Differences
+## Platform Timing and Role Focus
 
 Guests agree on SQL, Python, and reliable pipelines. They differ on how
 quickly the roadmap should move into platform work.
@@ -136,7 +138,7 @@ Pair that work with
 [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
 and data product ownership.
 
-## Courses, Bootcamps, and Training
+## Courses, Bootcamps, and Training Projects
 
 Courses, bootcamps, and company training are roadmap inputs. They help when
 they create deadlines, feedback, reviewable labs, and a project that another
@@ -149,10 +151,11 @@ Python and SQL come first. Cloud fundamentals and orchestration come next. He
 later describes the beginner balance as mostly Python and SQL, with tools and
 cloud basics added around that core (23:35-40:42 and 56:46).
 
-Use structured learning to move through the same stages as this roadmap. A
-useful course starts with SQL, Python, and data modeling. It then makes the
-learner ingest data and keep raw data. It also makes the learner transform
-data into modeled tables, schedule the work, test it, and document a consumer.
+Courses and cohorts are useful when they follow the same responsibility
+sequence as the roadmap. In a useful course, learners start with SQL, Python,
+and data modeling. They then ingest data and keep raw data. After that, they
+transform it into modeled tables and schedule the work. They also test the
+pipeline and document a consumer.
 
 The first useful project should include a real failure mode. Ingest data from
 an API, database dump, or file source. Event logs and CDC simulations work too.
@@ -184,10 +187,10 @@ networking helping too. Her Twitter data pipeline capstone used Docker
 containers and a Slack bot. Custom projects stand out more than repeated course
 projects (16:14-18:21, 36:20-37:25, and 50:15-53:34).
 
-That makes the project the main output of any training path. Katz's job-prep
-episode warns that many portfolio projects list tools while showing too little
-Python and SQL. He asks for cleaner code with small functions and descriptive
-names. He also asks for useful classes and tests
+That makes a working project the main output of any training path. Katz's
+job-prep episode warns that many portfolio projects list tools while showing
+too little Python and SQL. He asks for cleaner code with small functions and
+descriptive names. He also asks for useful classes and tests
 ([Data Engineering Job Prep and Interview Guide]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }})
 1:49-2:46).
 
@@ -212,7 +215,7 @@ do that before chasing every orchestrator, table format, or vendor trend
 ([Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }})
 41:06-44:42).
 
-## Stage 1: Query and Model Useful Data
+## Query and Model Useful Data
 
 Start with analytical SQL, Python, and database concepts. Katz's curriculum
 puts Python, SQL, and cloud fundamentals at the center. He also uses OLTP
@@ -234,7 +237,7 @@ transformation.
 [Modern Data Pipeline Architecture]({{ '/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/' | relative_url }})
 39:23-43:05).
 
-## Stage 2: Build an End-to-End Batch Pipeline
+## Build an End-to-End Batch Pipeline
 
 Build one batch pipeline before adding streaming or distributed processing. A
 good first pipeline extracts from an API or file source and stores raw data. It
@@ -252,12 +255,12 @@ production ML handoffs
 
 Keep the first stack small enough to finish. Use Python extraction, local
 storage, one query engine, and one scheduler. Brudaru's trends episode supports
-simple, requirement-led tool choice. It also shows where DuckDB, Iceberg, and
-open table formats fit when the project grows
+simple, requirement-led tool choice. He also shows where DuckDB, Iceberg, and
+open table formats fit when data volume or collaboration needs grow
 ([Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }})
 18:17-35:37 and 41:06-44:42).
 
-## Stage 3: Operate the Pipeline Like a Product
+## Operate the Pipeline Like a Data Product
 
 Add tests, CI/CD, observability, and runbooks as soon as the pipeline
 has a consumer. [Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }})
@@ -275,7 +278,7 @@ That work connects [Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }}
 to [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 and [DataOps]({{ '/wiki/dataops/' | relative_url }}).
 
-## Stage 4: Choose Platform Patterns Deliberately
+## Choose Platform Patterns Deliberately
 
 Learn storage and processing as tradeoffs, and treat orchestration and
 streaming the same way. Don't treat managed services as badges.
@@ -296,7 +299,7 @@ ties tool choice to business value, cost, and operational burden
 ([Data Engineer Career in 2026]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }})
 30:56-38:01).
 
-## Stage 5: Specialize by Constraint
+## Specialize by Constraint
 
 Choose a constraint after you can build and operate a basic pipeline:
 
@@ -329,7 +332,7 @@ Choose a constraint after you can build and operate a basic pipeline:
   ([Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }})
   16:40 and 38:02-44:42).
 
-## Project Sequence
+## Portfolio Project Progression
 
 Build projects in this order so each one adds a new responsibility instead of a
 new tool list:
@@ -373,7 +376,7 @@ new tool list:
    [Data Engineer Career in 2026]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }})
    57:35-1:04:42).
 
-## Role Milestones
+## Entry, Mid-Level, and Senior Signals
 
 Entry-level readiness means you can write SQL and Python. You can explain table
 grain, model basic entities, and run one orchestrated job with tests. Katz's
@@ -404,7 +407,7 @@ Ouazza shows the team-scale version through self-service and cross-team impact
 ([Ouazza on scaling teams]({{ '/podcasts/scaling-data-engineering-teams-self-service-platforms/' | relative_url }})
 20:13-23:26 and 50:17-54:31).
 
-## Study-Build Boundary
+## Stop Studying and Start Building
 
 Stop studying and build when you can already write SQL joins plus window
 functions. You should also be able to write Python that reads inputs and writes
@@ -429,9 +432,9 @@ the operational cost. Event contracts can justify it too
 [Data Engineer Career in 2026]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }})
 30:56-38:01).
 
-## Related Pages
+## Adjacent Roadmap Topics
 
-Use these adjacent pages for deeper roadmap work:
+The roadmap continues through these adjacent topics:
 
 - [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }})
 - [Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }})

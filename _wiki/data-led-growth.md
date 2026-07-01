@@ -11,7 +11,7 @@ related:
   - Customer Data Platforms
 ---
 
-## Definition
+## Data-Led Growth As Operating Practice
 
 Teams use data-led growth when product and customer behavior guide growth work.
 That work can improve acquisition and activation. It also supports retention,
@@ -34,11 +34,11 @@ warehouse modeling. They also need
 data reaches the tools where teams send messages, onboard users, prioritize
 accounts, and help customers.
 
-## Common Definition
+## From Growth Question To Data Flow
 
-Across these podcast discussions, teams start data-led growth from a business
-or product question. They define the events needed to answer it and collect
-those events reliably. Then they analyze the data and act on the result.
+Growth teams start from a business or product question. They define the
+events needed to answer it and collect those events reliably. Then they analyze
+the data and act on the result.
 
 Arpit describes this sequence in the growth-stack episode between 22:50 and
 41:30. Teams create a tracking plan, collect events, store the data, and analyze
@@ -55,7 +55,7 @@ small working versions before they invest in a larger system.
 That matches the data-led-growth habit. Choose the question first, then build
 the minimum data flow that can change a decision.
 
-## Guest Differences
+## Growth Stack, Experiments, and Analytics Foundations
 
 Arpit centers the topic on the growth stack. He focuses on tracking plans,
 event ownership, and customer data infrastructure. He also covers warehouses and
@@ -87,7 +87,7 @@ In
 analysts flexible access to raw and modeled data, and downstream syncs can push
 that data back into operational tools.
 
-## Event Tracking
+## Reliable Product Events
 
 Growth teams can't personalize onboarding or measure activation without reliable
 product events. They also need those events to debug funnels. In the
@@ -113,7 +113,7 @@ growth with
 [data governance]({{ '/wiki/data-governance/' | relative_url }}), and
 [DataOps]({{ '/wiki/dataops/' | relative_url }}).
 
-## Product Analytics
+## Behavior Analysis and Experiments
 
 Product analytics turns event data into questions about user behavior.
 Common questions cover activation, funnels, and retention. Teams also use
@@ -142,7 +142,7 @@ Cohorts help teams compare users who started in different weeks, plans,
 channels, or onboarding flows. That makes the analysis useful for activation and
 retention work instead of only giving aggregate usage counts.
 
-## Reverse ETL And Activation
+## Warehouse Activation and Reverse ETL
 
 Activation turns data-led growth into operational behavior. At 30:03 in the
 growth-stack episode, Arpit says teams shouldn't only look at data. They should
@@ -170,7 +170,7 @@ audience creation, and activation for marketers and growth teams. CDPs can help
 early teams move faster. A warehouse-centric stack gives data teams more control
 over transformations, modeling, and governance.
 
-## Product-Led Growth
+## Product-Led Growth Support
 
 Teams often use data-led growth to support product-led growth, but the two
 aren't the same. At 56:08 in the growth-stack episode, Arpit says a product-led
@@ -189,7 +189,7 @@ That connects this topic to
 can be a product or operational experience that changes based on trustworthy
 data, not only a report.
 
-## Team Ownership
+## Ownership Across Product, Engineering, and Data
 
 Teams split data-led growth across several roles. In the growth-stack episode
 at 46:13, Arpit says early startups may start with a backend or frontend
@@ -209,7 +209,7 @@ it moves, how it's modeled, and where it's activated. Without those shared
 responsibilities, the stack can produce dashboards, campaigns, and alerts that
 look precise but reflect the wrong user action.
 
-## Related Pages
+## Adjacent Data-Led Growth Topics
 
 These pages cover the adjacent concepts and implementation choices:
 

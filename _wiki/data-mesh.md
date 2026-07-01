@@ -30,7 +30,7 @@ bottlenecks (7:35-9:56). Her definition connects
 [data governance]({{ '/wiki/data-governance/' | relative_url }}), and
 [DataOps]({{ '/wiki/dataops/' | relative_url }}) into one operating model.
 
-## Common Definition
+## Domain-Owned Products and Shared Standards
 
 Across these DataTalks.Club episodes, Data Mesh means moving ownership closer to
 the people who understand the business domain while keeping interoperability
@@ -41,7 +41,7 @@ exchange between domains in
 publishes an interface that other teams can discover and trust. Other teams can
 then build on that interface.
 
-The common definition has four parts:
+The Data Mesh operating model has four parts:
 
 - Domains own data products and the meaning behind them.
 - Products expose contracts, metadata, quality signals, and support
@@ -63,13 +63,13 @@ self-service enablement, Airflow conventions, and playbooks (12:30-17:22). He
 also covers Kafka schemas at 23:26. The platform side of a mesh makes domain
 ownership realistic through shared tooling.
 
-## Guest Differences
+## Boundaries of Decentralization
 
-Guests mostly agree on the direction of travel, but they differ on when
-decentralization helps. Dehghani argues for Data Mesh when centralized
-architecture creates slow paths to value and one team can't absorb all domain
-context. She also describes adoption through assessment, pilots, and executive
-buy-in rather than a single tooling rollout
+The main boundary question is when decentralization helps more than it adds
+coordination cost. Dehghani argues for Data Mesh when centralized architecture
+creates slow paths to value and one team can't absorb all domain context. She
+also describes adoption through assessment, pilots, and executive buy-in rather
+than a single tooling rollout
 ([Data Mesh Implementation]({{ '/podcasts/data-mesh-architecture-decentralized-data-products/' | relative_url }}),
 57:27).
 
@@ -94,7 +94,7 @@ In that view, a mesh can distribute ownership, but access controls still need
 a shared system. That system covers requests and approvals. It also covers
 reviews, revocation, and purpose-based controls.
 
-## Domain Ownership
+## Domain Ownership and Central Teams
 
 Domain ownership is the first organizational change. Dehghani's Data Mesh
 episode ties ownership to the business domain at 16:34. The team closest to
@@ -106,9 +106,9 @@ expectations, and change management.
 This is why [Data Mesh vs Centralized Data Platform]({{ '/comparisons/data-mesh-vs-centralized-data-platform/' | relative_url }})
 is a real architecture and organization tradeoff. A centralized platform can
 still own storage, compute, workflow engines, and access primitives. It can
-also own shared standards. Data Mesh moves product meaning, prioritization, and consumer
-commitments toward domains. The split works only when the platform makes the
-domain path easier than informal one-off pipelines.
+also own shared standards. Data Mesh moves product meaning, prioritization, and
+consumer commitments toward domains. The split works only when the platform
+makes the domain path easier than informal one-off pipelines.
 
 Domain ownership also changes the role of central data teams. They become
 platform and enablement teams, not ticket queues for every dataset. Mehdi's
@@ -118,16 +118,15 @@ shared conventions in
 (12:30-17:22). The central team still matters, but its value comes from
 reusable capabilities rather than hand-built pipelines for each request.
 
-## Data Products and Contracts
+## Product Interfaces and Contracts
 
 In a mesh, teams coordinate through products. Dehghani describes data as a
 product at 34:36 in
 [Data Mesh Implementation]({{ '/podcasts/data-mesh-architecture-decentralized-data-products/' | relative_url }}).
 Consumers need guarantees around quality, integrity, completeness, and service
 levels. They also need clear ownership, so a raw dataset that nobody supports
-isn't enough. The
-product needs an owner, a useful interface, and enough metadata for consumers
-to judge whether it's fit for use.
+isn't enough. The product needs an owner, a useful interface, and enough
+metadata for consumers to judge whether it's fit for use.
 
 Contracts make those commitments explicit through Dehghani's explanation of
 pipeline decoupling and data contracts at 13:20. She returns to product
@@ -147,7 +146,7 @@ on a product. Producers need a release path that makes schema changes visible
 and reviewable. Without those signals, decentralization simply spreads
 uncertainty across more teams.
 
-## Self-Service Platform
+## Self-Service Platform Layer
 
 Data Mesh depends on a self-service platform because domain teams shouldn't
 become experts in every infrastructure layer. Dehghani makes the self-serve
@@ -167,8 +166,8 @@ This makes Data Mesh closely related to
 [Platform Engineering]({{ '/wiki/platform-engineering/' | relative_url }}) and
 [developer experience]({{ '/wiki/developer-experience/' | relative_url }}).
 The platform should hide repeated infrastructure work while leaving domain
-teams enough autonomy to structure their products. Albertsson's discussion of when
-to split or centralize platform responsibility in
+teams enough autonomy to structure their products. Albertsson's discussion of
+when to split or centralize platform responsibility in
 [DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }})
 (1:03:02) keeps that tradeoff visible.
 
@@ -195,11 +194,10 @@ filtering, and federated governance. Those controls connect the mesh to
 [security]({{ '/wiki/security/' | relative_url }}) as well as
 [data governance]({{ '/wiki/data-governance/' | relative_url }}).
 
-The related governance pages therefore treat catalogs and metadata as
-operational infrastructure rather than paperwork. Consumers need to discover
-products, understand meaning, request access, and judge fitness for use. Domain
-owners need a way to publish metadata and enforce policies without manual
-coordination for every consumer.
+In that governance model, catalogs and metadata are operational infrastructure
+rather than paperwork. Consumers need to discover products, understand meaning,
+request access, and judge fitness for use. Domain owners need a way to publish
+metadata and enforce policies without manual coordination for every consumer.
 
 ## Adoption and Operating Model
 
@@ -221,13 +219,14 @@ the centralized model it replaces.
 Smaller teams can still borrow useful parts without reorganizing around a full
 mesh. They can name owners for important datasets and define product
 interfaces. They can also write contracts, expose quality signals, document
-access rules, and add self-service paths where repeated demand exists. The full Data Mesh
-model becomes more compelling when many domains need autonomy and the central
-data team has become a bottleneck.
+access rules, and add self-service paths where repeated demand exists. The full
+Data Mesh model becomes more compelling when many domains need autonomy and the
+central data team has become a bottleneck.
 
-## Related Pages
+## Adjacent Data Mesh Topics
 
-Use these adjacent pages for the main tradeoffs and implementation details.
+These adjacent pages cover the main tradeoffs and implementation details around
+data product ownership, platform enablement, governance, and operations.
 
 - [Data Mesh vs Centralized Data Platform]({{ '/comparisons/data-mesh-vs-centralized-data-platform/' | relative_url }})
 - [Data Products]({{ '/wiki/data-products/' | relative_url }})
