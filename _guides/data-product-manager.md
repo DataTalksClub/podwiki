@@ -127,6 +127,13 @@ dashboards, models, or tables that nobody uses.
 Use [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
 for the broader reference page. Use
 [Product Owner vs Product Manager]({{ '/comparisons/product-owner-vs-product-manager/' | relative_url }})
-for the title boundary, and
+for the title boundary. Use
 [Data Product Manager vs Product Manager]({{ '/comparisons/data-product-manager-vs-product-manager/' | relative_url }})
 for the closest role comparison.
+
+[Product Designer to Data Product Manager]({{ '/wiki/product-designer-to-data-product-manager/' | relative_url }})
+covers the design-to-data transition.
+[Data Product Manager Roadmap]({{ '/roadmaps/data-product-manager-roadmap/' | relative_url }})
+covers the learning path.
+[Data Product Owner vs Data Product Manager]({{ '/comparisons/data-product-owner-vs-data-product-manager/' | relative_url }})
+covers the data-specific owner boundary.

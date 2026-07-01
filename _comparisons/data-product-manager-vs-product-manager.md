@@ -28,7 +28,7 @@ internal ML platform.
 
 [Sara Menefee]({{ '/people/saramenefee/' | relative_url }}) makes the overlap
 explicit in
-[Product Designer to Data Product Manager]({{ '/podcasts/product-designer-to-data-product-manager/' | relative_url }}).
+[Product Designer to Data Product Manager]({{ '/wiki/product-designer-to-data-product-manager/' | relative_url }}).
 She describes data product management as close to regular product management,
 but applied to data products rather than feature products. Her discovery work
 means talking with data professionals and learning how they turn business
@@ -308,7 +308,7 @@ comparison:
 - [Data Products]({{ '/wiki/data-products/' | relative_url }})
 - [Data Product Adoption]({{ '/wiki/data-product-adoption/' | relative_url }})
 - [Data Product Manager]({{ '/guides/data-product-manager/' | relative_url }})
-- [Data Product Manager]({{ '/guides/data-product-manager/' | relative_url }})
+- [Data Product Owner vs Data Product Manager]({{ '/comparisons/data-product-owner-vs-data-product-manager/' | relative_url }})
 - [Product Owner vs Product Manager]({{ '/comparisons/product-owner-vs-product-manager/' | relative_url }})
 - [ML Product Manager Role]({{ '/wiki/ml-product-manager-role/' | relative_url }})
 - [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }})

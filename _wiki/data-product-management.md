@@ -33,7 +33,7 @@ when the product is an internal technical platform.
 
 [Sara Menefee]({{ '/people/saramenefee/' | relative_url }}) gives the clearest
 transition example in
-[Product Designer to Data Product Manager]({{ '/podcasts/product-designer-to-data-product-manager/' | relative_url }}).
+[Product Designer to Data Product Manager]({{ '/wiki/product-designer-to-data-product-manager/' | relative_url }}).
 She frames data product management as regular product work with data-specific
 literacy. That work includes customer discovery and hypothesis formation.
 Planning, engineering partnership, and launch come next. It also requires SQL
@@ -286,6 +286,8 @@ These pages cover adjacent artifacts, roles, and operating systems:
 - [Data Product Adoption]({{ '/wiki/data-product-adoption/' | relative_url }})
 - [Data Product Manager Roadmap]({{ '/roadmaps/data-product-manager-roadmap/' | relative_url }})
 - [Data Product Manager]({{ '/guides/data-product-manager/' | relative_url }})
+- [Product Designer to Data Product Manager]({{ '/wiki/product-designer-to-data-product-manager/' | relative_url }})
+- [Data Product Manager vs Product Manager]({{ '/comparisons/data-product-manager-vs-product-manager/' | relative_url }})
 - [Data Product Owner vs Data Product Manager]({{ '/comparisons/data-product-owner-vs-data-product-manager/' | relative_url }})
 - [Product Owner vs Product Manager]({{ '/comparisons/product-owner-vs-product-manager/' | relative_url }})
 - [ML Product Manager Role]({{ '/wiki/ml-product-manager-role/' | relative_url }})

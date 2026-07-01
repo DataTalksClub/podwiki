@@ -104,7 +104,7 @@ Other DataTalks.Club episodes use product manager in a broader way.
 
 [Sara Menefee]({{ '/people/saramenefee/' | relative_url }}) starts data product
 management from customer discovery and hypothesis formation in
-[Product Designer to Data Product Manager]({{ '/podcasts/product-designer-to-data-product-manager/' | relative_url }}).
+[Product Designer to Data Product Manager]({{ '/wiki/product-designer-to-data-product-manager/' | relative_url }}).
 She also includes data quality and documentation. [Geo Jolly]({{ '/people/geojolly/' | relative_url }})
 describes a technical PM in
 [ML Product Manager and MLOps Platform Strategy]({{ '/podcasts/ml-product-manager-and-mlops-platform-strategy/' | relative_url }}).
@@ -290,7 +290,7 @@ These pages cover the surrounding roles, topics, and comparisons:
 - [Data Products]({{ '/wiki/data-products/' | relative_url }})
 - [Data Product Adoption]({{ '/wiki/data-product-adoption/' | relative_url }})
 - [Data Product Manager]({{ '/guides/data-product-manager/' | relative_url }})
-- [Data Product Manager]({{ '/guides/data-product-manager/' | relative_url }})
+- [Data Product Owner vs Data Product Manager]({{ '/comparisons/data-product-owner-vs-data-product-manager/' | relative_url }})
 - [Data Product Manager vs Product Manager]({{ '/comparisons/data-product-manager-vs-product-manager/' | relative_url }})
 - [Data Mesh]({{ '/wiki/data-mesh/' | relative_url }})
 - [Data Mesh vs Centralized Data Platform]({{ '/wiki/data-mesh-vs-centralized-data-platform/' | relative_url }})

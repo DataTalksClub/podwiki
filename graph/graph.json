@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 145,
     "nodes": 1008,
-    "links": 10418
+    "links": 10442
   },
   "nodes": [
     {
@@ -10459,6 +10459,12 @@
     },
     {
       "source": "article:comparison:data-product-manager-vs-product-manager",
+      "target": "article:comparison:data-product-owner-vs-data-product-manager",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-product-manager-vs-product-manager",
       "target": "article:comparison:product-owner-vs-product-manager",
       "kind": "article-link",
       "weight": 4
@@ -10467,7 +10473,7 @@
       "source": "article:comparison:data-product-manager-vs-product-manager",
       "target": "article:guide:data-product-manager",
       "kind": "article-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "article:comparison:data-product-manager-vs-product-manager",
@@ -10527,7 +10533,7 @@
       "source": "article:comparison:data-product-manager-vs-product-manager",
       "target": "podcast:product-designer-to-data-product-manager",
       "kind": "article-link",
-      "weight": 12
+      "weight": 10
     },
     {
       "source": "article:comparison:data-product-manager-vs-product-manager",
@@ -10648,6 +10654,12 @@
       "target": "wiki:product-analytics",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "article:comparison:data-product-manager-vs-product-manager",
+      "target": "wiki:product-designer-to-data-product-manager",
+      "kind": "article-link",
+      "weight": 2
     },
     {
       "source": "article:comparison:data-product-manager-vs-product-manager",
@@ -12277,9 +12289,15 @@
     },
     {
       "source": "article:comparison:product-owner-vs-product-manager",
+      "target": "article:comparison:data-product-owner-vs-data-product-manager",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:product-owner-vs-product-manager",
       "target": "article:guide:data-product-manager",
       "kind": "article-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "article:comparison:product-owner-vs-product-manager",
@@ -12339,7 +12357,7 @@
       "source": "article:comparison:product-owner-vs-product-manager",
       "target": "podcast:product-designer-to-data-product-manager",
       "kind": "article-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "article:comparison:product-owner-vs-product-manager",
@@ -12460,6 +12478,12 @@
       "target": "wiki:product-analytics",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "article:comparison:product-owner-vs-product-manager",
+      "target": "wiki:product-designer-to-data-product-manager",
+      "kind": "article-link",
+      "weight": 2
     },
     {
       "source": "article:comparison:rag-vs-fine-tuning",
@@ -13339,7 +13363,19 @@
     },
     {
       "source": "article:guide:data-product-manager",
+      "target": "article:comparison:data-product-owner-vs-data-product-manager",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:guide:data-product-manager",
       "target": "article:comparison:product-owner-vs-product-manager",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:guide:data-product-manager",
+      "target": "article:roadmap:data-product-manager-roadmap",
       "kind": "article-link",
       "weight": 2
     },
@@ -13432,6 +13468,12 @@
       "target": "wiki:product-analytics",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "article:guide:data-product-manager",
+      "target": "wiki:product-designer-to-data-product-manager",
+      "kind": "article-link",
+      "weight": 2
     },
     {
       "source": "article:guide:data-roles",
@@ -46915,6 +46957,18 @@
     },
     {
       "source": "wiki:data-product-adoption",
+      "target": "article:comparison:data-product-manager-vs-product-manager",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-product-adoption",
+      "target": "article:guide:data-product-manager",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-product-adoption",
       "target": "person:adamsroka",
       "kind": "wiki-link",
       "weight": 6
@@ -47059,6 +47113,12 @@
     },
     {
       "source": "wiki:data-product-management",
+      "target": "article:comparison:data-product-manager-vs-product-manager",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-product-management",
       "target": "article:comparison:data-product-owner-vs-data-product-manager",
       "kind": "wiki-link",
       "weight": 4
@@ -47163,7 +47223,7 @@
       "source": "wiki:data-product-management",
       "target": "podcast:product-designer-to-data-product-manager",
       "kind": "wiki-link",
-      "weight": 14
+      "weight": 12
     },
     {
       "source": "wiki:data-product-management",
@@ -47290,6 +47350,12 @@
       "target": "wiki:product-analytics",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-product-management",
+      "target": "wiki:product-designer-to-data-product-manager",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:data-product-management",
@@ -65151,11 +65217,29 @@
       "source": "wiki:product-designer-to-data-product-manager",
       "target": "article:comparison:data-product-manager-vs-product-manager",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
+      "target": "article:comparison:data-product-owner-vs-data-product-manager",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:product-designer-to-data-product-manager",
       "target": "article:comparison:product-owner-vs-product-manager",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
+      "target": "article:guide:data-product-manager",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
+      "target": "article:roadmap:data-product-manager-roadmap",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -65187,7 +65271,7 @@
       "source": "wiki:product-designer-to-data-product-manager",
       "target": "podcast:building-data-products-product-owner-vs-product-manager",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:product-designer-to-data-product-manager",
@@ -65205,19 +65289,19 @@
       "source": "wiki:product-designer-to-data-product-manager",
       "target": "podcast:product-designer-to-data-product-manager",
       "kind": "wiki-link",
-      "weight": 16
+      "weight": 48
     },
     {
       "source": "wiki:product-designer-to-data-product-manager",
       "target": "wiki:a-b-testing",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "wiki:product-designer-to-data-product-manager",
-      "target": "wiki:career-transition",
-      "kind": "wiki-link",
-      "weight": 2
+      "target": "wiki:a-b-testing",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:product-designer-to-data-product-manager",
@@ -65229,16 +65313,40 @@
       "source": "wiki:product-designer-to-data-product-manager",
       "target": "wiki:career-transitions-in-data",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:product-designer-to-data-product-manager",
-      "target": "wiki:data-engineering",
+      "target": "wiki:dashboard-and-metric-layer-project-checklist",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:product-designer-to-data-product-manager",
+      "target": "wiki:data-engineering",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
+      "target": "wiki:data-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
+      "target": "wiki:data-governance",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
       "target": "wiki:data-product-adoption",
       "kind": "wiki-link",
       "weight": 4
@@ -65253,7 +65361,7 @@
       "source": "wiki:product-designer-to-data-product-manager",
       "target": "wiki:data-product-management",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:product-designer-to-data-product-manager",
@@ -65277,7 +65385,7 @@
       "source": "wiki:product-designer-to-data-product-manager",
       "target": "wiki:data-quality-and-observability",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "wiki:product-designer-to-data-product-manager",
@@ -65287,15 +65395,51 @@
     },
     {
       "source": "wiki:product-designer-to-data-product-manager",
+      "target": "wiki:data-warehouse",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
+      "target": "wiki:metrics",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
+      "target": "wiki:ml-platform-engineer-role",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
+      "target": "wiki:modern-data-stack",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
+      "target": "wiki:platform-engineering",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
       "target": "wiki:product-analytics",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 8
     },
     {
       "source": "wiki:product-designer-to-data-product-manager",
       "target": "wiki:product-analytics",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
+      "target": "wiki:tracking-plans",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:production",
