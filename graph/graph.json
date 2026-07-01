@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 145,
     "nodes": 1008,
-    "links": 10464
+    "links": 10490
   },
   "nodes": [
     {
@@ -9539,8 +9539,7 @@
       "title": "Open Source",
       "url": "/wiki/open-source/",
       "count": 1,
-      "search": "Open Source How DataTalks.Club podcast guests discuss open source across ML and data tools, contribution work, governance, licensing, developer relations, and startup distribution.",
-      "keyword": "what is open source"
+      "search": "Open Source How DataTalks.Club podcast guests discuss open source across ML and data tools, contribution work, governance, licensing, developer relations, and startup distribution."
     },
     {
       "id": "wiki:open-source-and-developer-relations",
@@ -63187,9 +63186,15 @@
     },
     {
       "source": "wiki:open-source",
+      "target": "article:roadmap:open-source-contributor-roadmap",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:open-source",
       "target": "person:adrianbrudaru",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:open-source",
@@ -63217,6 +63222,12 @@
     },
     {
       "source": "wiki:open-source",
+      "target": "person:jeffkatz",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:open-source",
       "target": "person:johanneshotter",
       "kind": "wiki-link",
       "weight": 2
@@ -63231,11 +63242,23 @@
       "source": "wiki:open-source",
       "target": "person:nataliekwong",
       "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:open-source",
+      "target": "person:nicksingh",
+      "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:open-source",
       "target": "person:sonalgoyal",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:open-source",
+      "target": "person:swyx",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -63267,7 +63290,7 @@
       "source": "wiki:open-source",
       "target": "podcast:building-open-source-data-product-for-identity-resolution",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "wiki:open-source",
@@ -63279,13 +63302,25 @@
       "source": "wiki:open-source",
       "target": "podcast:data-engineering-tools-modern-data-stack",
       "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:open-source",
+      "target": "podcast:data-interview-behavioral-and-portfolio-prep-guide",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:open-source",
+      "target": "podcast:developer-personal-brand-learn-in-public",
+      "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:open-source",
       "target": "podcast:devrel-data-science-open-source-tools",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:open-source",
@@ -63297,37 +63332,43 @@
       "source": "wiki:open-source",
       "target": "podcast:from-data-freelancer-to-startup-open-source-products",
       "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:open-source",
+      "target": "podcast:get-data-engineering-job-prep-and-interview",
+      "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:open-source",
       "target": "podcast:hugging-face-contributions-and-nlp-portfolio",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 10
     },
     {
       "source": "wiki:open-source",
       "target": "podcast:investing-in-open-source-developer-tools",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "wiki:open-source",
       "target": "podcast:open-source-ml-contributions",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 8
     },
     {
       "source": "wiki:open-source",
       "target": "podcast:open-source-ml-tools-strategy-and-business-models",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 10
     },
     {
       "source": "wiki:open-source",
       "target": "podcast:open-source-turned-into-career-and-startup-creation",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 10
     },
     {
       "source": "wiki:open-source",
@@ -63337,9 +63378,21 @@
     },
     {
       "source": "wiki:open-source",
-      "target": "wiki:community-building",
+      "target": "wiki:cdc",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:open-source",
+      "target": "wiki:ci-cd",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:open-source",
+      "target": "wiki:community-building",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:open-source",
@@ -63363,13 +63416,25 @@
       "source": "wiki:open-source",
       "target": "wiki:data-engineering",
       "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:open-source",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:open-source",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:open-source",
       "target": "wiki:data-engineering-tools",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:open-source",
@@ -63379,9 +63444,15 @@
     },
     {
       "source": "wiki:open-source",
+      "target": "wiki:data-products",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:open-source",
       "target": "wiki:developer-experience",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "wiki:open-source",
@@ -63393,7 +63464,7 @@
       "source": "wiki:open-source",
       "target": "wiki:developer-relations",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "wiki:open-source",
@@ -63415,15 +63486,27 @@
     },
     {
       "source": "wiki:open-source",
-      "target": "wiki:entrepreneurship",
+      "target": "wiki:elt",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:open-source",
       "target": "wiki:entrepreneurship",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:open-source",
+      "target": "wiki:entrepreneurship",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:open-source",
+      "target": "wiki:founder",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:open-source",
@@ -63435,13 +63518,31 @@
       "source": "wiki:open-source",
       "target": "wiki:job-search",
       "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:open-source",
+      "target": "wiki:job-search",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:open-source",
+      "target": "wiki:machine-learning",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:open-source",
+      "target": "wiki:machine-learning-portfolio-projects",
+      "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:open-source",
       "target": "wiki:machine-learning-tools",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:open-source",
@@ -63451,9 +63552,33 @@
     },
     {
       "source": "wiki:open-source",
-      "target": "wiki:open-source-and-developer-relations",
+      "target": "wiki:model-monitoring",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:open-source",
+      "target": "wiki:model-registry",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:open-source",
+      "target": "wiki:modern-data-stack",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:open-source",
+      "target": "wiki:nlp",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:open-source",
+      "target": "wiki:open-source-and-developer-relations",
+      "kind": "wiki-link",
+      "weight": 6
     },
     {
       "source": "wiki:open-source",
@@ -63465,7 +63590,7 @@
       "source": "wiki:open-source",
       "target": "wiki:open-source-portfolio-evidence",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "wiki:open-source",
@@ -63475,13 +63600,25 @@
     },
     {
       "source": "wiki:open-source",
-      "target": "wiki:solopreneur",
+      "target": "wiki:scikit-learn",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:open-source",
+      "target": "wiki:software-engineering",
       "kind": "wiki-link",
       "weight": 4
     },
     {
       "source": "wiki:open-source",
       "target": "wiki:solopreneur",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:open-source",
+      "target": "wiki:solopreneur",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -63489,13 +63626,31 @@
       "source": "wiki:open-source",
       "target": "wiki:startup",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:open-source",
       "target": "wiki:startup",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:open-source",
+      "target": "wiki:technical-writing",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:open-source",
+      "target": "wiki:technical-writing",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:open-source",
+      "target": "wiki:testing",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:open-source",

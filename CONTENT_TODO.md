@@ -315,6 +315,10 @@ Start with this batch when expanding the content set.
   DataOps, DataOps tools, platform engineering, and data engineering platforms.
 - Improve `_wiki/open-source.md` before creating any Open Source editorial
   page. The keyword is a bare concept, so the wiki page should own it.
+  The canonical page was strengthened with contribution, DevRel, data/ML tool,
+  portfolio, licensing, and founder evidence. Future open-source work should
+  extend that page or the linked contributor roadmap, not create a duplicate
+  "what is open source" guide.
 - Keep `data engineering open source projects` covered by `_wiki/open-source.md`,
   `_wiki/open-source-portfolio-evidence.md`,
   `_wiki/data-engineering-portfolio-projects.md`, and
