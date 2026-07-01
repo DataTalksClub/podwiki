@@ -92,7 +92,9 @@ the duplicate guide files were removed on 2026-06-30. Remaining rows in this
 section still need the same merge/delete decision. The Airflow/apache-airflow/
 airflow-docker-compose cluster was consolidated into `_wiki/orchestration.md`
 on 2026-07-01. The analytics-engineer guide variant was consolidated into
-`_wiki/analytics-engineering.md` on 2026-07-01.
+`_wiki/analytics-engineering.md` on 2026-07-01. The
+data-engineering-manager/data-engineer-manager cluster was consolidated into
+`_wiki/leadership.md` on 2026-07-01.
 
 | Slug | → wiki topic | Note |
 |---|---|---|
@@ -102,8 +104,8 @@ on 2026-07-01. The analytics-engineer guide variant was consolidated into
 | analytics-engineer | analytics-engineering | **done: consolidated into `_wiki/analytics-engineering.md`** |
 | data-engineering-and-data-science | data-engineer-vs-data-scientist | |
 | data-engineering-certification | data-engineering-certification | **done: slug collision merged** |
-| data-engineering-manager | leadership | |
-| data-engineer-manager | leadership | dup |
+| data-engineering-manager | leadership | **done: consolidated into `_wiki/leadership.md`** |
+| data-engineer-manager | leadership | **done: consolidated into `_wiki/leadership.md`; dup of data-engineering-manager** |
 | data-engineering | data-engineering | **done: slug collision removed** |
 | data-engineering-pipeline-project | data-engineering-portfolio-projects | |
 | data-engineering-tools | data-engineering-tools | **done: slug collision merged** |

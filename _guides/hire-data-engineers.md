@@ -341,7 +341,7 @@ also show where the company needs standards. That changes the role from extra
 capacity into the beginning of a better data operating model.
 
 If the role grows into a team, pair this guide with
-[Data Engineer Manager]({{ '/guides/data-engineer-manager/' | relative_url }})
+[Data Team Lead Role]({{ '/wiki/data-team-lead-role/' | relative_url }})
 and
 [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }}).
 Then use [DataOps]({{ '/wiki/dataops/' | relative_url }}) and

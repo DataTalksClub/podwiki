@@ -2,12 +2,12 @@
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
     "wikis": 180,
-    "articles": 55,
+    "articles": 53,
     "podcasts": 202,
     "persons": 438,
     "topics": 147,
-    "nodes": 1022,
-    "links": 10693
+    "nodes": 1020,
+    "links": 10634
   },
   "nodes": [
     {
@@ -77,17 +77,6 @@
       "keyword": "data analyst vs analytics engineer"
     },
     {
-      "id": "article:guide:data-engineer-manager",
-      "type": "article",
-      "collection": "guide",
-      "label": "Data Engineer Manager: Responsibilities, Hiring, Team Design, and Career Path",
-      "title": "Data Engineer Manager: Responsibilities, Hiring, Team Design, and Career Path",
-      "url": "/guides/data-engineer-manager/",
-      "count": 1,
-      "search": "Data Engineer Manager: Responsibilities, Hiring, Team Design, and Career Path A podcast grounded guide to the data engineer manager role: what the manager owns, how to design data engineering teams, how to hire, and how to keep platforms reliable.",
-      "keyword": "data engineer manager"
-    },
-    {
       "id": "article:roadmap:data-engineer-roadmap",
       "type": "article",
       "collection": "roadmap",
@@ -119,17 +108,6 @@
       "count": 1,
       "search": "Data Engineering and Data Science: How They Work Together A podcast backed comparison of data engineering and data science: role boundaries, shared work, production handoffs, team ownership, and learning paths.",
       "keyword": "data engineering and data science"
-    },
-    {
-      "id": "article:guide:data-engineering-manager",
-      "type": "article",
-      "collection": "guide",
-      "label": "Data Engineering Manager: Role, Responsibilities, Hiring, and Roadmaps",
-      "title": "Data Engineering Manager: Role, Responsibilities, Hiring, and Roadmaps",
-      "url": "/guides/data-engineering-manager/",
-      "count": 1,
-      "search": "Data Engineering Manager: Role, Responsibilities, Hiring, and Roadmaps A podcast backed guide to the data engineering manager role: platform choices, team design, hiring, stakeholder work, DataOps, quality, and career path.",
-      "keyword": "data engineering manager"
     },
     {
       "id": "article:guide:data-engineering-pipeline-project",
@@ -13737,456 +13715,6 @@
       "weight": 2
     },
     {
-      "source": "article:guide:data-engineer-manager",
-      "target": "article:guide:data-engineering-manager",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-manager",
-      "target": "person:barbarasobkowiak",
-      "kind": "article-link",
-      "weight": 8
-    },
-    {
-      "source": "article:guide:data-engineer-manager",
-      "target": "person:boyanangelov",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-manager",
-      "target": "person:christopherbergh",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:data-engineer-manager",
-      "target": "person:katiebauer",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineer-manager",
-      "target": "person:marianosemelman",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineer-manager",
-      "target": "person:mehdiouazza",
-      "kind": "article-link",
-      "weight": 10
-    },
-    {
-      "source": "article:guide:data-engineer-manager",
-      "target": "person:nicolasrassam",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:data-engineer-manager",
-      "target": "person:slawomirtulski",
-      "kind": "article-link",
-      "weight": 8
-    },
-    {
-      "source": "article:guide:data-engineer-manager",
-      "target": "podcast:data-science-leadership-hiring-mlops",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineer-manager",
-      "target": "podcast:data-science-manager-vs-expert-hiring-guide",
-      "kind": "article-link",
-      "weight": 8
-    },
-    {
-      "source": "article:guide:data-engineer-manager",
-      "target": "podcast:data-strategy-and-dataops-for-ai-powered-products",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-manager",
-      "target": "podcast:dataops-automation-and-reliable-data-pipelines",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-manager",
-      "target": "podcast:dataops-for-data-engineering",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:data-engineer-manager",
-      "target": "podcast:hiring-and-managing-data-science-teams-in-b2b-saas",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineer-manager",
-      "target": "podcast:hiring-for-data-engineering-jobs-in-europe",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:data-engineer-manager",
-      "target": "podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for",
-      "kind": "article-link",
-      "weight": 8
-    },
-    {
-      "source": "article:guide:data-engineer-manager",
-      "target": "podcast:scaling-data-engineering-teams-self-service-platforms",
-      "kind": "article-link",
-      "weight": 10
-    },
-    {
-      "source": "article:guide:data-engineer-manager",
-      "target": "wiki:analytics-engineering",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-manager",
-      "target": "wiki:career-growth",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-manager",
-      "target": "wiki:data-engineer-role",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineer-manager",
-      "target": "wiki:data-engineer-role",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineer-manager",
-      "target": "wiki:data-engineering",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-manager",
-      "target": "wiki:data-engineering",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineer-manager",
-      "target": "wiki:data-engineering-platforms",
-      "kind": "article-link",
-      "weight": 10
-    },
-    {
-      "source": "article:guide:data-engineer-manager",
-      "target": "wiki:data-engineering-platforms",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineer-manager",
-      "target": "wiki:data-product-management",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:data-engineer-manager",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "article-link",
-      "weight": 8
-    },
-    {
-      "source": "article:guide:data-engineer-manager",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineer-manager",
-      "target": "wiki:data-strategy",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:data-engineer-manager",
-      "target": "wiki:data-strategy",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineer-manager",
-      "target": "wiki:dataops",
-      "kind": "article-link",
-      "weight": 10
-    },
-    {
-      "source": "article:guide:data-engineer-manager",
-      "target": "wiki:dataops",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineer-manager",
-      "target": "wiki:hiring",
-      "kind": "article-link",
-      "weight": 8
-    },
-    {
-      "source": "article:guide:data-engineer-manager",
-      "target": "wiki:hiring",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineer-manager",
-      "target": "wiki:leadership",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineer-manager",
-      "target": "wiki:leadership",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-manager",
-      "target": "person:barbarasobkowiak",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-manager",
-      "target": "person:barrmoses",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-manager",
-      "target": "person:christopherbergh",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-manager",
-      "target": "person:katiebauer",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-manager",
-      "target": "person:marianosemelman",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-manager",
-      "target": "person:mehdiouazza",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-manager",
-      "target": "person:nicolasrassam",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-manager",
-      "target": "person:slawomirtulski",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-manager",
-      "target": "podcast:data-quality-data-observability-data-reliability",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-manager",
-      "target": "podcast:data-science-leadership-hiring-mlops",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-manager",
-      "target": "podcast:data-science-manager-vs-expert-hiring-guide",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:data-engineering-manager",
-      "target": "podcast:dataops-for-data-engineering",
-      "kind": "article-link",
-      "weight": 8
-    },
-    {
-      "source": "article:guide:data-engineering-manager",
-      "target": "podcast:hiring-and-managing-data-science-teams-in-b2b-saas",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:data-engineering-manager",
-      "target": "podcast:hiring-for-data-engineering-jobs-in-europe",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-manager",
-      "target": "podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for",
-      "kind": "article-link",
-      "weight": 8
-    },
-    {
-      "source": "article:guide:data-engineering-manager",
-      "target": "podcast:scaling-data-engineering-teams-self-service-platforms",
-      "kind": "article-link",
-      "weight": 12
-    },
-    {
-      "source": "article:guide:data-engineering-manager",
-      "target": "wiki:career-growth",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-manager",
-      "target": "wiki:data-engineer-role",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:data-engineering-manager",
-      "target": "wiki:data-engineer-role",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-manager",
-      "target": "wiki:data-engineering",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:data-engineering-manager",
-      "target": "wiki:data-engineering",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-manager",
-      "target": "wiki:data-engineering-platforms",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:data-engineering-manager",
-      "target": "wiki:data-engineering-platforms",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-manager",
-      "target": "wiki:data-mesh-vs-centralized-data-platform",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-manager",
-      "target": "wiki:data-observability",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-manager",
-      "target": "wiki:data-product-management",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-manager",
-      "target": "wiki:data-product-management",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-manager",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-manager",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-manager",
-      "target": "wiki:data-teams",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-manager",
-      "target": "wiki:data-teams",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-manager",
-      "target": "wiki:dataops",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:data-engineering-manager",
-      "target": "wiki:dataops",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-manager",
-      "target": "wiki:hiring",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:data-engineering-manager",
-      "target": "wiki:hiring",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-engineering-manager",
-      "target": "wiki:leadership",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-engineering-manager",
-      "target": "wiki:self-service-data-platforms",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:data-engineering-manager",
-      "target": "wiki:self-service-data-platforms",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
       "source": "article:guide:data-engineering-pipeline-project",
       "target": "article:guide:data-observability-for-data-engineering",
       "kind": "article-link",
@@ -15730,12 +15258,6 @@
     },
     {
       "source": "article:guide:data-science-for-managers",
-      "target": "article:guide:data-engineer-manager",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-science-for-managers",
       "target": "person:barbarasobkowiak",
       "kind": "article-link",
       "weight": 2
@@ -15858,7 +15380,7 @@
       "source": "article:guide:data-science-for-managers",
       "target": "wiki:leadership",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:guide:data-science-for-managers",
@@ -17524,12 +17046,6 @@
     },
     {
       "source": "article:guide:hire-data-engineers",
-      "target": "article:guide:data-engineer-manager",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:hire-data-engineers",
       "target": "person:christopherbergh",
       "kind": "article-link",
       "weight": 2
@@ -17707,6 +17223,12 @@
       "target": "wiki:data-quality-and-observability",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "article:guide:hire-data-engineers",
+      "target": "wiki:data-team-lead-role",
+      "kind": "article-link",
+      "weight": 2
     },
     {
       "source": "article:guide:hire-data-engineers",
@@ -43210,12 +42732,6 @@
     },
     {
       "source": "wiki:communication",
-      "target": "article:guide:data-engineer-manager",
-      "kind": "wiki-link",
-      "weight": 6
-    },
-    {
-      "source": "wiki:communication",
       "target": "person:admondleekinlim",
       "kind": "wiki-link",
       "weight": 2
@@ -43333,6 +42849,12 @@
       "target": "wiki:data-scientist-role",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:communication",
+      "target": "wiki:data-team-lead-role",
+      "kind": "wiki-link",
+      "weight": 6
     },
     {
       "source": "wiki:communication",
@@ -51598,12 +51120,6 @@
     },
     {
       "source": "wiki:data-teams",
-      "target": "article:guide:data-engineer-manager",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-teams",
       "target": "person:16rahuljain",
       "kind": "wiki-link",
       "weight": 2
@@ -51780,7 +51296,7 @@
       "source": "wiki:data-teams",
       "target": "wiki:data-team-lead-role",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "wiki:data-teams",
@@ -58492,12 +58008,6 @@
     },
     {
       "source": "wiki:leadership",
-      "target": "article:guide:data-engineering-manager",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:leadership",
       "target": "person:16rahuljain",
       "kind": "wiki-link",
       "weight": 2
@@ -58505,6 +58015,18 @@
     {
       "source": "wiki:leadership",
       "target": "person:barbarasobkowiak",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:leadership",
+      "target": "person:barrmoses",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:leadership",
+      "target": "person:christopherbergh",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -58535,6 +58057,18 @@
     {
       "source": "wiki:leadership",
       "target": "person:mehdiouazza",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:leadership",
+      "target": "person:nicolasrassam",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:leadership",
+      "target": "person:slawomirtulski",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -58576,6 +58110,12 @@
     },
     {
       "source": "wiki:leadership",
+      "target": "podcast:data-quality-data-observability-data-reliability",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:leadership",
       "target": "podcast:data-science-leadership-hiring-mlops",
       "kind": "wiki-link",
       "weight": 6
@@ -58585,6 +58125,12 @@
       "target": "podcast:data-science-manager-vs-expert-hiring-guide",
       "kind": "wiki-link",
       "weight": 4
+    },
+    {
+      "source": "wiki:leadership",
+      "target": "podcast:dataops-for-data-engineering",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:leadership",
@@ -58600,7 +58146,25 @@
     },
     {
       "source": "wiki:leadership",
+      "target": "podcast:hiring-for-data-engineering-jobs-in-europe",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:leadership",
+      "target": "podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:leadership",
       "target": "podcast:scaling-data-engineering-teams-self-service-platforms",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:leadership",
+      "target": "wiki:analytics-engineering",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -58612,13 +58176,61 @@
     },
     {
       "source": "wiki:leadership",
-      "target": "wiki:data-engineering-platforms",
+      "target": "wiki:data-engineer-role",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:leadership",
+      "target": "wiki:data-engineer-role",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:leadership",
+      "target": "wiki:data-engineering",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:leadership",
+      "target": "wiki:data-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:leadership",
       "target": "wiki:data-engineering-platforms",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:leadership",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:leadership",
+      "target": "wiki:data-product-management",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:leadership",
+      "target": "wiki:data-product-management",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:leadership",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:leadership",
+      "target": "wiki:data-quality-and-observability",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -58643,6 +58255,18 @@
     {
       "source": "wiki:leadership",
       "target": "wiki:data-teams",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:leadership",
+      "target": "wiki:dataops",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:leadership",
+      "target": "wiki:dataops",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -58650,7 +58274,7 @@
       "source": "wiki:leadership",
       "target": "wiki:hiring",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:leadership",

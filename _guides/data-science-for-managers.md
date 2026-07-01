@@ -329,4 +329,4 @@ From there, use [Data Science]({{ '/wiki/data-science/' | relative_url }}),
 reference pages. [MLOps]({{ '/wiki/mlops/' | relative_url }}) and
 [Hiring]({{ '/wiki/hiring/' | relative_url }}) are useful next steps.
 For adjacent management work in data engineering, see
-[Data Engineer Manager]({{ '/guides/data-engineer-manager/' | relative_url }}).
+[Leadership]({{ '/wiki/leadership/' | relative_url }}).

@@ -146,5 +146,7 @@ wiki page already owns.
     variants into `_wiki/orchestration.md`
   - [x] Consolidate analytics-engineer into
     `_wiki/analytics-engineering.md`
+  - [x] Consolidate data-engineering-manager and data-engineer-manager into
+    `_wiki/leadership.md`
   - [x] Keep A/B testing as wiki concept coverage, not guide/category content
 - [ ] Resubmit both sitemaps in Google Search Console

@@ -7,7 +7,12 @@ related:
   - Hiring
   - Career Growth
   - Data Strategy
+  - Data Engineering
+  - Data Engineer Role
   - Data Engineering Platforms
+  - DataOps
+  - Data Quality and Observability
+  - Data Product Management
 ---
 
 Leaders in the DataTalks.Club podcast archive increase other people's ability
@@ -19,13 +24,14 @@ makes that boundary explicit in
 [Data Leadership Coaching]({{ '/podcasts/data-leadership-coaching/' | relative_url }}):
 people don't need a leadership title to develop leadership skills (about 6:17).
 
-The archive keeps data and AI leadership close to operating work. Guests talk
-about manager and expert paths, team design, hiring, and coaching. They also
-talk about stakeholder translation, platform ownership, and scale. For
-role-specific manager detail, use the
-[data engineering manager article]({{ '/guides/data-engineering-manager/' | relative_url }})
-and the broader [hiring]({{ '/wiki/hiring/' | relative_url }}) page. Here,
-leadership stays cross-role rather than manager-only.
+Across the podcast episodes, guests keep data and AI leadership close to
+operating work. They talk about manager and expert paths. They also cover team
+design and hiring. Coaching, stakeholder translation, platform ownership, and
+scale appear throughout the archive.
+
+For data engineering managers, that means aligning people with priorities and
+connecting platform work to reliability. The manager still needs technical
+judgment, but the job is no longer to personally own every pipeline.
 
 ## Manager and Expert Paths
 
@@ -60,6 +66,62 @@ stakeholders, tradeoffs, and growth (about 25:54).
 Senior IC leadership still exists. Staff-style roles and delegation give people
 more scope without people management. So do cross-functional influence and
 technical leadership (about 18:50).
+
+For data engineering, the same boundary separates a manager from the deepest
+platform specialist. That specialist may focus on streaming, transformation,
+orchestration, or cloud infrastructure. A manager still needs enough technical
+literacy to ask good questions and assign the right decision owner.
+
+The manager's impact comes from team design and hiring. It also comes from
+roadmap tradeoffs, standards, and recovery habits. Deep architecture and niche
+platform work can stay with senior engineers or staff engineers when that's the
+stronger path
+([Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }}),
+[Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})).
+
+## Data Engineering Management
+
+[Rahul Jain]({{ '/people/16rahuljain/' | relative_url }}) gives the archive's
+clearest data engineering leadership discussion in
+[Data Engineering Leadership and Modern Data Platforms]({{ '/podcasts/data-engineering-leadership-and-modern-data-platforms/' | relative_url }}).
+He frames the manager role as servant leadership. That means enabling a
+self-motivated team, setting quality expectations, and supporting career
+growth. It also means keeping the team away from monotonous work. Technical
+credibility still matters because the manager must be able to coach engineers
+and discuss implementation choices when needed (about 7:27, 8:54, 13:15, and
+33:39).
+
+That makes data engineering management an operating role. The manager clarifies
+ownership for orchestration, warehouse work, and streaming. Schema changes and
+governance need owners too, as do cloud cost, data contracts, and incident
+response.
+
+Managers also decide when a one-off pipeline request should become a reusable
+platform path. That synthesis connects Jain's engineering leadership to
+[Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}),
+[DataOps]({{ '/wiki/dataops/' | relative_url }}), and
+[Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).
+
+[Slawomir Tulski]({{ '/people/slawomirtulski/' | relative_url }}) adds the
+role-design boundary in
+[Data Engineer Career in 2026]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }}).
+He separates platform-oriented engineering from product-facing data
+engineering. The platform side emphasizes shared infrastructure, conventions,
+cost-aware systems, and developer experience. Product-facing data engineering
+sits closer to domains and modeled datasets. It also stays close to metrics and
+stakeholder delivery (about 11:54 and 25:33, with the overbuilding point around
+30:56).
+
+For a manager, that distinction decides the roadmap and the hiring brief. A
+team that tries to do both without naming the split can let urgent stakeholder
+requests crowd out reliability work. Platform work can also drift away from
+real users.
+
+The same episode also challenges architecture theater. Tulski's real-time
+discussion asks whether low latency changes the business outcome before the
+team chooses Kafka, Spark, or streaming architecture (about 38:01). That's
+leadership because the manager protects the team from overbuilding. The manager
+still reserves capacity for the systems that make data usable.
 
 ## Team Design and Hiring
 
@@ -97,6 +159,29 @@ staffing choice. The archive's [hiring]({{ '/wiki/hiring/' | relative_url }})
 page expands the same role-design work across data scientists, analysts, and
 data engineers.
 
+[Nicolas Rassam]({{ '/people/nicolasrassam/' | relative_url }}) makes the data
+engineering version concrete in
+[Hiring Data Engineers in Europe]({{ '/podcasts/hiring-for-data-engineering-jobs-in-europe/' | relative_url }}).
+He warns that titles hide relevant experience. Software engineers, BI
+engineers, analysts, and data scientists may have built pipelines or modeled
+data. They may also have handled scale or fixed quality problems (about 18:47
+and 20:57). A data engineering manager should therefore hire for the missing
+capability rather than a vague title.
+
+The hiring brief should name the actual gap. Platform-heavy teams need storage
+and orchestration while access, cloud infrastructure, cost, and standards
+belong in the same brief. Product-facing teams need domain pipelines, data
+products, event definitions, and stakeholder collaboration.
+
+Analytics-engineering work needs SQL modeling, tests, documentation, and
+semantic definitions. BI-ready tables matter too
+([Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }}),
+[Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})).
+Rassam's level discussion gives managers another filter. Juniors show
+fundamentals and task execution, while mid-level engineers show project
+ownership. Senior engineers show tradeoff reasoning, technical influence, and
+business context (about 22:55 and 26:38).
+
 ## Mentorship and Feedback
 
 Several guests describe leadership as creating growth conditions for other
@@ -117,15 +202,10 @@ options rather than treating managerial opinion as objective truth
 about 40:25 and 44:17). His one-on-one discussion also frames mistakes as part
 of a safe learning environment (about 48:13).
 
-[Rahul Jain]({{ '/people/16rahuljain/' | relative_url }}) makes the same point
-from data engineering in
-[Data Engineering Leadership and Modern Data Platforms]({{ '/podcasts/data-engineering-leadership-and-modern-data-platforms/' | relative_url }}).
-He describes servant leadership as enabling a self-motivated team instead of
-micromanaging it. He connects the manager's work to empathy, situational
-awareness, quality standards, and career planning. He also tries to keep the
-team away from monotonous work (about 8:54, 13:15, and 33:39). His version of
-leadership still requires enough technical credibility to coach engineers and
-discuss code-level choices when needed (about 7:27).
+Jain's data engineering leadership episode adds the engineering version of this
+same coaching work. The manager creates standards and career paths while
+leaving room for engineers to own the work. That keeps mentorship connected to
+quality, not only to morale.
 
 ## Stakeholder Work and Product Judgment
 
@@ -162,6 +242,29 @@ His fast proof-of-concept advice keeps ML leadership honest because teams start
 with baselines and demos before larger requests. They then use quick hypothesis
 tests before asking for larger engineering investment (about 20:48, 28:46, and
 31:03).
+
+Data engineering leaders face the same prioritization problem with different
+artifacts.
+
+A roadmap should name value in concrete terms:
+
+- availability and reliability
+- delivery speed and cost
+- governance and downstream trust
+
+For data engineering requests, managers should answer four questions:
+
+- Who consumes the data?
+- What decision or workflow changes?
+- What reliability risk appears?
+- Who owns recovery?
+
+Those questions keep prioritization tied to actual consumers
+([Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}),
+[Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})).
+That keeps platform investment tied to faster onboarding and safer schema
+changes. It also ties work to lower support load, clearer lineage, and fewer
+downstream surprises rather than to the appearance of maturity.
 
 ## Platform Ownership and Scaling
 
@@ -200,6 +303,39 @@ about 35:38, 47:08, and 49:00).
 Her leadership motto is to give project ownership to the people doing the work.
 A growing team can't depend on one leader micromanaging every project (about
 50:52).
+
+## Reliability and DataOps
+
+Reliability is a leadership responsibility because managers set how work is
+reviewed, deployed, monitored, and recovered. [Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }})
+turns this into an operating model in
+[DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }}).
+
+He connects reliable data delivery to automation and observability.
+Productivity, version control, and tests are part of the same operating model.
+He also emphasizes CI/CD and realistic test data. Deployment confidence is part
+of the same discussion (about 15:52 and 30:55, plus 42:39).
+
+Weak processes create fear and hero-driven recovery. They also create turnover
+and avoidable rework (about 13:27 and 34:13, plus 58:15).
+
+[Barr Moses]({{ '/people/barrmoses/' | relative_url }}) gives the observability
+side in
+[Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }}).
+
+She argues that data incidents aren't limited to failed jobs. Teams need
+freshness and volume. They also need distribution and schema visibility.
+Lineage matters because a pipeline can run and still deliver late, incomplete,
+or misleading data (about 16:38 and 19:10, plus 21:57). Her later discussion of
+RACI-style accountability, SLAs, and runbooks makes ownership visible before
+stakeholders discover the problem first (about 29:00 and 35:24, plus 41:03).
+
+For data engineering managers, DataOps is therefore not a separate tool list.
+It's the management habit of defining review, deployment, observability, and
+incident communication. Recovery paths for important datasets and pipelines
+belong in the same habit. For the discipline in more depth, use
+[DataOps]({{ '/wiki/dataops/' | relative_url }}). Here, DataOps is part of
+leadership because the team needs explicit standards and owners.
 
 ## Strategy and Operating Discipline
 

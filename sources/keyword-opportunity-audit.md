@@ -68,6 +68,7 @@ These keyword groups already have editorial coverage:
 | Data scientist interview | `_guides/data-scientist-interview.md` | data scientist interview |
 | Data product roles | `_guides/data-product-manager.md`, `_guides/data-product-manager-role.md`, `_guides/product-analyst.md` | data product manager, data product management, product analyst |
 | Product owner vs product manager | `_comparisons/product-owner-vs-product-manager.md` | data product owner, data science product owner |
+| Data engineering management | `_wiki/leadership.md` | data engineering manager, data engineer manager |
 | Airflow | `_wiki/orchestration.md` | airflow, apache airflow, airflow docker compose |
 | Data Engineering Zoomcamp | main DataTalks.Club course page | data engineering zoomcamp, data-engineering-zoomcamp, dataengineering zoomcamp, data engineer zoomcamp, data engineering zoom camp |
 | MLOps Zoomcamp | main DataTalks.Club course page | mlops zoomcamp, mlops-zoomcamp, mlops zoom camp, datatalks.club mlops zoomcamp |
@@ -144,6 +145,9 @@ Their useful guidance belongs in `_wiki/mlops-roadmap.md`.
 
 The freelance and consulting keyword variants were consolidated into
 `_wiki/freelance.md`; do not recreate separate guide pages for those variants.
+The data-engineering-manager and data-engineer-manager keyword variants were
+consolidated into `_wiki/leadership.md`; do not recreate separate guide pages
+for those variants.
 A/B testing should remain wiki concept coverage through `_wiki/a-b-testing.md`
 and the experimentation wiki cluster, not guide or category content.
 

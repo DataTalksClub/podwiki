@@ -21,7 +21,7 @@ For role context, use [career transitions in data]({{ '/wiki/career-transitions-
 [job search]({{ '/wiki/job-search/' | relative_url }}), and
 [data product management]({{ '/wiki/data-product-management/' | relative_url }}).
 Also use the [data scientist role]({{ '/wiki/data-scientist-role/' | relative_url }}),
-the [data engineer manager]({{ '/guides/data-engineer-manager/' | relative_url }})
+the [data team lead role]({{ '/wiki/data-team-lead-role/' | relative_url }})
 article, and [open-source portfolio evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }}).
 Those pages cover the roles and artifacts. Here, the focus is the
 communication work that makes those roles and artifacts clear.
@@ -144,8 +144,8 @@ scientist role]({{ '/wiki/data-scientist-role/' | relative_url }}), where the
 scientist turns a product or operational question into evidence that changes a
 decision.
 
-Communication also changes as people move into management. The [data engineer
-manager]({{ '/guides/data-engineer-manager/' | relative_url }}) article
+Communication also changes as people move into management. The [data team lead
+role]({{ '/wiki/data-team-lead-role/' | relative_url }}) article
 frames the manager's work around team outcomes, roadmaps, hiring, and
 stakeholder demand. That management version isn't separate from technical
 judgment. The manager still has to explain why a platform request, data
@@ -279,5 +279,5 @@ Use these pages for adjacent role, hiring, transition, and portfolio context.
 - [Job Search]({{ '/wiki/job-search/' | relative_url }})
 - [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
 - [Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }})
-- [Data Engineer Manager]({{ '/guides/data-engineer-manager/' | relative_url }})
+- [Data Team Lead Role]({{ '/wiki/data-team-lead-role/' | relative_url }})
 - [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
