@@ -20,11 +20,11 @@ LLM tools sit around a language model and cover model access, serving,
 retrieval, and prompts. They also cover evaluation and observability, with
 agent frameworks and review workflows beside those pieces.
 
-The DataTalks.Club podcast archive treats them as product infrastructure, not
-as a shopping list. Start from the workflow you want to improve, then add only
-the tools needed to make that workflow reliable.
+DataTalks.Club guests treat them as product infrastructure, not as a shopping
+list. Start from the workflow you want to improve, then add only the tools
+needed to make that workflow reliable.
 
-That framing shows up across the archive. In
+That framing shows up in several interviews. In
 [Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}),
 [Meryem Arik]({{ '/people/meryemarik/' | relative_url }}) ties model choice to
 control and privacy. She also covers fine-tuning and hidden API changes. She
@@ -202,13 +202,24 @@ This order isn't a universal recipe.
 
 The DataTalks.Club LLM episodes show the same structure from several directions:
 
-- Meryem starts with deployment tradeoffs.
-- Hugo starts with evaluation and RAG.
-- Atita starts with search quality.
-- Ranjitha starts with agent workflows.
-- Sandra starts with business use cases and review.
-- Bartosz starts with production engineering constraints.
+- [Meryem Arik]({{ '/people/meryemarik/' | relative_url }}) starts with
+  deployment tradeoffs in
+  [Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}).
+- [Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }})
+  starts with evaluation and RAG in
+  [Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}).
+- [Atita Arora]({{ '/people/atitaarora/' | relative_url }}) starts with
+  search quality in
+  [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}).
+- [Ranjitha Kulkarni]({{ '/people/ranjithakulkarni/' | relative_url }})
+  starts with agent workflows in
+  [Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}).
+- [Sandra Kublik]({{ '/people/sandrakublik/' | relative_url }}) starts with
+  business use cases and review in
+  [LLM Value Creation]({{ '/podcasts/practical-llm-use-cases-and-product-patterns/' | relative_url }}).
+- [Bartosz Mikulski]({{ '/people/bartoszmikulski/' | relative_url }})
+  starts with production engineering constraints in
+  [Production AI Engineering]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }}).
 
-For "llm tools", the article-level answer is direct. Pick tools that make one
-workflow grounded, testable, and observable. Then keep it affordable before you
-add more automation.
+Pick tools that make one workflow grounded, testable, and observable. Keep that
+workflow affordable before you add more automation.

@@ -24,7 +24,7 @@ A product analyst is usually a data analyst whose work sits close to product
 decisions. The work covers user behavior and funnels. It also covers retention
 and experiments.
 
-The DataTalks.Club archive doesn't draw a hard wall between the titles. In
+DataTalks.Club guests don't draw a hard wall between the titles. In
 [Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }}),
 the discussion around 34:35 says teams may call similar work product analyst,
 data analyst, or business analyst. Ask which decision the analyst owns.
@@ -96,7 +96,7 @@ analyst work. He also names analytics engineering and product operations. That
 makes the product analyst a partner to the product team, not only a dashboard
 builder.
 
-Experiments give the archive's clearest product-analyst workload. Jakob's
+Experiments give the clearest product-analyst workload. Jakob's
 A/B testing episode covers randomization around 8:13 and assignment tracking
 around 24:44. It also covers A/A testing around 27:52, metric stability around
 33:23, and
@@ -118,8 +118,8 @@ need close analytic support.
 ## Data Analyst Fit
 
 A data analyst fits when the team needs someone to turn company data into
-evidence for many kinds of decisions. The archive's baseline definition is
-broader than product analytics. In
+evidence for many kinds of decisions. The baseline definition is broader than
+product analytics. In
 [Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }}),
 analysts know what data exists, how to retrieve it, and how to interpret it.
 They build dashboards, define KPIs, write reports for executives, and make
@@ -191,17 +191,24 @@ cross-functional questions.
 
 For product analyst interviews, ask for a product decision case. A strong
 candidate can define the event data and name the primary metric. They can also
-name guardrails, explain the assignment unit for an experiment, and state what
-they would recommend if results are mixed. Jakob's discussion of assignment
-tracking, A/A tests, and power analysis around 24:44-37:44 gives a grounded
-standard.
+name guardrails and explain the assignment unit for an experiment. If results
+are mixed, they can state what they would recommend.
+
+[Jakob Graff]({{ '/people/jakobgraff/' | relative_url }}) gives a grounded standard in
+[Product Analytics and A/B Testing]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}):
+around 24:44-37:44, he covers assignment tracking and A/A tests. He also
+covers metric stability and power analysis.
 
 For data analyst interviews, ask for a business question that moves from raw
 data to a recommendation. A strong candidate can find the right tables, check
-definitions, build the dashboard or analysis, and explain caveats. Caitlin's
-last-mile discussion adds an adoption check. Around 34:00-38:15, she argues
-for starting from the decision and bringing metrics into the meeting where
-people act on them.
+definitions, and build the dashboard or analysis. They can also explain
+caveats.
+
+[Caitlin Moorman]({{ '/people/caitlinmoorman/' | relative_url }}) adds an
+adoption check in
+[Last-Mile Data Delivery]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }}):
+around 34:00-38:15, she argues that analysts should start from the decision.
+They should bring metrics into the meeting where people act on them.
 
 For either role, don't rely on title matching.
 

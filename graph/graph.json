@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 145,
     "nodes": 1006,
-    "links": 10571
+    "links": 10577
   },
   "nodes": [
     {
@@ -13081,13 +13081,13 @@
       "source": "article:comparison:product-analyst-vs-data-analyst",
       "target": "person:caitlinmoorman",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:comparison:product-analyst-vs-data-analyst",
       "target": "person:jakobgraff",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:comparison:product-analyst-vs-data-analyst",
@@ -13099,7 +13099,7 @@
       "source": "article:comparison:product-analyst-vs-data-analyst",
       "target": "podcast:ab-testing-and-product-experimentation",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:comparison:product-analyst-vs-data-analyst",
@@ -13123,7 +13123,7 @@
       "source": "article:comparison:product-analyst-vs-data-analyst",
       "target": "podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:comparison:product-analyst-vs-data-analyst",
@@ -14525,27 +14525,51 @@
     },
     {
       "source": "article:guide:data-product-manager",
+      "target": "person:annahannemann",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:guide:data-product-manager",
+      "target": "person:caitlinmoorman",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:guide:data-product-manager",
+      "target": "person:geojolly",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:guide:data-product-manager",
+      "target": "person:saramenefee",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:guide:data-product-manager",
       "target": "podcast:building-data-products-product-owner-vs-product-manager",
       "kind": "article-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "article:guide:data-product-manager",
       "target": "podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack",
       "kind": "article-link",
-      "weight": 4
+      "weight": 10
     },
     {
       "source": "article:guide:data-product-manager",
       "target": "podcast:ml-product-manager-and-mlops-platform-strategy",
       "kind": "article-link",
-      "weight": 4
+      "weight": 8
     },
     {
       "source": "article:guide:data-product-manager",
       "target": "podcast:product-designer-to-data-product-manager",
       "kind": "article-link",
-      "weight": 4
+      "weight": 8
     },
     {
       "source": "article:guide:data-product-manager",
@@ -16357,73 +16381,73 @@
       "source": "article:guide:llm-tools",
       "target": "person:atitaarora",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:guide:llm-tools",
       "target": "person:bartoszmikulski",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:guide:llm-tools",
       "target": "person:hugobowneanderson",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:guide:llm-tools",
       "target": "person:meryemarik",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:guide:llm-tools",
       "target": "person:ranjithakulkarni",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:guide:llm-tools",
       "target": "person:sandrakublik",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:guide:llm-tools",
       "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
       "kind": "article-link",
-      "weight": 6
+      "weight": 8
     },
     {
       "source": "article:guide:llm-tools",
       "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
       "kind": "article-link",
-      "weight": 6
+      "weight": 8
     },
     {
       "source": "article:guide:llm-tools",
       "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
       "kind": "article-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "article:guide:llm-tools",
       "target": "podcast:practical-llm-engineering-and-rag",
       "kind": "article-link",
-      "weight": 8
+      "weight": 10
     },
     {
       "source": "article:guide:llm-tools",
       "target": "podcast:practical-llm-use-cases-and-product-patterns",
       "kind": "article-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "article:guide:llm-tools",
       "target": "podcast:production-ready-ai-engineering",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:guide:llm-tools",
@@ -17147,6 +17171,12 @@
     },
     {
       "source": "article:guide:machine-learning-system-design-interview",
+      "target": "person:nicksingh",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:guide:machine-learning-system-design-interview",
       "target": "person:simonstiebellehner",
       "kind": "article-link",
       "weight": 2
@@ -17167,7 +17197,7 @@
       "source": "article:guide:machine-learning-system-design-interview",
       "target": "podcast:building-and-scaling-data-engineering-systems-for-fraud-detection",
       "kind": "article-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "article:guide:machine-learning-system-design-interview",
@@ -17189,6 +17219,12 @@
     },
     {
       "source": "article:guide:machine-learning-system-design-interview",
+      "target": "podcast:data-interview-behavioral-and-portfolio-prep-guide",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:guide:machine-learning-system-design-interview",
       "target": "podcast:machine-learning-engineering-production-best-practices",
       "kind": "article-link",
       "weight": 2
@@ -17197,7 +17233,7 @@
       "source": "article:guide:machine-learning-system-design-interview",
       "target": "podcast:machine-learning-system-design-interview",
       "kind": "article-link",
-      "weight": 18
+      "weight": 20
     },
     {
       "source": "article:guide:machine-learning-system-design-interview",

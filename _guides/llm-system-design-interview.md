@@ -17,7 +17,7 @@ related_wiki:
 
 An LLM system design interview isn't a test of whether you can name the latest
 framework. It's a test of whether you can turn a language model into a bounded
-product system. The DataTalks.Club archive keeps returning to that boundary.
+product system. DataTalks.Club guests keep returning to that boundary.
 [Atita Arora]({{ '/people/atitaarora/' | relative_url }}) treats RAG as
 retrieval plus generation with chunking, citations, and review in
 [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}).
@@ -31,10 +31,9 @@ separates ordinary retrieval from agent flows that need tools, memory, and
 outcome-based evaluation in
 [Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}).
 
-For the keyword topic "LLM system design interview," use a repeatable answer
-path.
+When you practice an LLM system design interview, use a repeatable answer path.
 
-Start with these boundaries:
+Start by setting these boundaries:
 
 1. User
 2. Task
@@ -44,10 +43,10 @@ Start with these boundaries:
 
 The broader
 [machine learning system design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
-archive does through [Valerii Babushkin]({{ '/people/valeriybabushkin/' | relative_url }})
-and his
+page follows the same product-first discipline through
+[Valerii Babushkin]({{ '/people/valeriybabushkin/' | relative_url }}) and his
 [ML system design interview]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }})
-discussion uses the same product-first discipline.
+discussion.
 For the classical ML interview version, use
 [Machine Learning System Design Interview]({{ '/guides/machine-learning-system-design-interview/' | relative_url }}).
 
@@ -65,8 +64,9 @@ Then add the LLM-specific work:
 
 A strong answer begins by asking what the system is allowed to do. A policy
 assistant that answers from internal documents is a different product from a
-refund agent that can change account state. The archive makes this distinction
-through [agent engineering]({{ '/wiki/agent-engineering/' | relative_url }}).
+refund agent that can change account state.
+[Agent engineering]({{ '/wiki/agent-engineering/' | relative_url }}) makes
+this distinction explicit.
 
 Ranjitha defines agents around autonomy and objectives in
 [Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }})
@@ -119,7 +119,8 @@ discussion gives that sequence at 30:38-42:49, and the
 page covers the same RAG design in more detail.
 
 This is why "use a vector database" isn't enough for an interview answer.
-The archive treats RAG as search with context packaging, not model memory.
+The RAG episodes treat retrieval as search with context packaging, not model
+memory.
 [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
 ties Atita's transcript RAG example to source provenance and permissions. It
 also ties the example to metadata, citations, and evaluation. Use
@@ -161,8 +162,8 @@ at 27:38 support the same debugging path. So do the source-control concerns in
 Interview prompts often hide a design choice. The system may need retrieval,
 fine-tuning, tools, or an agent.
 
-The archive gives a clear boundary. Meryem frames retrieval as the better fit
-for changing knowledge in
+The interviews give a clear boundary. Meryem frames retrieval as the better
+fit for changing knowledge in
 [Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }})
 at 40:46-46:42. The
 [RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }})
@@ -196,7 +197,7 @@ source quality in scope even when long context or agents are available.
 
 An LLM design is incomplete if it ends at "call the model." Hugo's
 [Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }})
-episode is the clearest archive anchor for evaluation. At 13:56 he describes a
+episode is the clearest evaluation source here. At 13:56 he describes a
 generator-evaluator setup. At 23:00-25:25 he argues for representative gold
 tests.
 
@@ -236,7 +237,7 @@ and guardrails. It also covers lineage and auditability.
 
 ## Treat Safety As System Design
 
-Prompt wording isn't the security layer. The archive's security evidence points
+Prompt wording isn't the security layer. The security episodes point
 toward layered controls around retrieval, tools, and outputs. It also points
 toward logging and human review. [Maria Sukhareva]({{ '/people/mariasukhareva/' | relative_url }})
 grounds this in a chatbot hacking exercise.
@@ -346,7 +347,7 @@ Use this structure when practicing an LLM system design interview:
 9. Define observability, rollout, and rollback. Add ownership and the review
    path.
 
-This structure comes from the archive's strongest production threads:
+This structure comes from these production threads:
 
 1. [Atita Arora's search systems episode]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
    grounds retrieval and chunking, plus citations and human review.
@@ -369,7 +370,9 @@ This structure comes from the archive's strongest production threads:
 Show that you can keep model behavior and source evidence in the same design
 conversation. Bring product risk and operations into that conversation too.
 
-For deeper preparation, use these maintained hubs:
+## Related Pages
+
+Use these pages to go deeper on specific parts of an LLM system design answer:
 
 1. [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}).
 2. [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }}).

@@ -29,9 +29,10 @@ page covers the same interview structure in more detail.
 Start with the decision, then work through data and evaluation. Serving,
 operations, and ownership come next.
 
-Use this guide when you're preparing for a machine learning system design
-interview or the shorter keyword variant "ML system design interview." For the
-broader production discipline, read
+If you're preparing for this round, keep the answer close to the job. Clarify
+the decision and choose a defensible baseline. Then explain the data path and
+how the team would operate the system after launch. For the broader production
+discipline, read
 [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
 and [ML System Design Documents]({{ '/wiki/ml-system-design-documents/' | relative_url }}).
 For language-model systems, use
@@ -100,7 +101,7 @@ Those systems should stay maintainable and business-aligned.
 
 ## Practice Fraud Detection
 
-Fraud detection is the archive's strongest machine learning system design
+Fraud detection is the strongest machine learning system design
 interview prompt. Valerii uses it in
 [ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }})
 because the candidate has to discuss probabilities, thresholds, class
@@ -292,20 +293,46 @@ owner doesn't show how the team protects the product after launch.
 The best preparation isn't only mock whiteboarding, so build one project you can
 explain as a system. The
 [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
-page gives the archive-backed standard. Define the decision, show the data and
+page gives the standard used here. Define the decision, show the data and
 labels, and compare a baseline. Choose metrics and analyze errors. Then sketch
 deployment and explain monitoring plus fallback behavior.
 
-For this interview, a simple project can be strong if it exposes the right
+Valerii connects preparation to shared interview structure in
+[ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }}).
+Around 37:28, he says unfamiliar domains still ask you to gather data, choose
+the metric and loss, and justify the model. They also ask you to decide how
+online and offline pieces work.
+
+Around 38:14, he treats an ML project checklist as useful system-design
+preparation. It covers model coupling, A/B tests, feature choices, and losses.
+It also covers model timing and batch versus online processing.
+
+At 46:09 he adds production checks such as distribution shift and class
+imbalance. He includes monitoring and fallbacks for when the model breaks.
+
+For this interview, a simple project can be strong if it exposes those
 tradeoffs. A fraud-style classifier can include delayed labels and class
 imbalance. Add a threshold, review bucket, and monitoring notes to show more
-system thinking than a notebook with one accuracy number.
+system thinking than a notebook with one accuracy number. That mirrors
+Valerii's fraud prompt and Angela Ramirez's
+[fraud-prevention data engineering episode]({{ '/podcasts/building-and-scaling-data-engineering-systems-for-fraud-detection/' | relative_url }}),
+where feature pipelines and daily batch computation support the model. Her
+episode also covers real-time scoring, runbooks, and data quality checks.
 
 A search or recommendation project can do the same by showing candidate
 generation and ranking metrics. Cold starts, online feedback, and guardrails
 can come from the
 [production search]({{ '/wiki/production-search-evaluation/' | relative_url }})
-archive.
+page.
+
+Prepare the project story as an interview walkthrough, not as a repository tour.
+In
+[Ace Data Interviews]({{ '/podcasts/data-interview-behavioral-and-portfolio-prep-guide/' | relative_url }}),
+[Nick Singh]({{ '/people/nicksingh/' | relative_url }}) uses project
+walkthroughs to test ownership and model choice. He also checks metrics,
+validation, and impact.
+That makes a portfolio project useful for both the ML system design round and
+the broader interview loop.
 
 Before the interview, rehearse the project in the same order as the system
 design answer:

@@ -18,10 +18,25 @@ dashboard, model, metric layer, or platform feature can be built. They ask who
 will use it, which decision it supports, how people will trust it, and how the
 team will know it worked.
 
-That definition matches how DataTalks.Club guests describe
+DataTalks.Club guests ground that definition in product work, not only data
+delivery. [Sara Menefee]({{ '/people/saramenefee/' | relative_url }}) starts
+data product management with customer discovery and hypotheses about user
+problems
+([7:04-11:38]({{ '/podcasts/product-designer-to-data-product-manager/' | relative_url }})).
+
+[Geo Jolly]({{ '/people/geojolly/' | relative_url }}) gives the internal
+platform version. The product manager defines the problem and desired outcome,
+while engineers and technical leads design the solution
+([16:44-21:06]({{ '/podcasts/ml-product-manager-and-mlops-platform-strategy/' | relative_url }})).
+[Caitlin Moorman]({{ '/people/caitlinmoorman/' | relative_url }}) adds the
+adoption test. Data has to reach the meeting, workflow, or person making the
+decision
+([8:48-26:36]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }})).
+
+Those interviews match the reference definition of
 [data product management]({{ '/wiki/data-product-management/' | relative_url }}):
 the work starts with user discovery and ends only when the data product changes
-decisions. It also connects to the broader archive pages on
+decisions. It also connects to related pages on
 [data products]({{ '/wiki/data-products/' | relative_url }}),
 [data product adoption]({{ '/wiki/data-product-adoption/' | relative_url }}),
 [product analytics]({{ '/wiki/product-analytics/' | relative_url }}), and
@@ -29,7 +44,7 @@ decisions. It also connects to the broader archive pages on
 
 ## The Short Definition
 
-A data product manager owns the product judgment around a data capability. Sara
+A data product manager owns the product judgment around a data capability.
 Menefee's episode on moving from product design into data product management
 starts the role with customer discovery and hypothesis formation. She then adds
 market and tooling research before the team commits to a solution
@@ -55,7 +70,7 @@ A data product manager usually owns four questions.
 - What metric proves that the product is working?
 - What tradeoff should the team accept on scope, quality, speed, cost, or risk?
 
-Geo Jolly's ML product management interview gives a platform version of this
+Jolly's ML product management interview gives a platform version of this
 work. At Glovo, he describes leading an internal machine learning platform used
 by data scientists and analysts. His product work includes roadmap direction and
 specifications. He also gathers feedback from data science leads, prioritizes
@@ -71,7 +86,7 @@ validating the problem
 ## Data Products Need Adoption Work
 
 A team hasn't finished the product work if it only ships the data output.
-Caitlin Moorman's last-mile data delivery episode frames the missing work as the
+Moorman's last-mile data delivery episode frames the missing work as the
 gap between making data available and getting teams to change decisions with it.
 People have to find the data, understand it, trust it, and bring it into the
 meeting or workflow where the decision happens
@@ -94,12 +109,13 @@ metrics, guardrails, and rollout decisions.
 
 ## Product Manager, Product Owner, And Domain Owner
 
-The archive doesn't use one universal title for this work. Anna Hannemann's
-episode on product owners in data science shows how companies draw different
-boundaries between product owner, product manager, and domain owner. She
-describes the role as sitting between stakeholders and data scientists or
-developers. The product owner translates requirements, shields the team from
-unrealistic expectations, and decides whether quality is good enough to go live
+Guests don't use one universal title for this work. In [Anna
+Hannemann]({{ '/people/annahannemann/' | relative_url }})'s episode on product
+owners in data science, companies draw different boundaries between product
+owner, product manager, and domain owner. Hannemann describes the role as
+sitting between stakeholders and data scientists or developers. The product
+owner translates requirements, shields the team from unrealistic expectations,
+and decides whether quality is good enough to go live
 ([15:11-21:45]({{ '/podcasts/building-data-products-product-owner-vs-product-manager/' | relative_url }})).
 
 Her examples are deliberately business-led. Operations teams bring problems,
@@ -113,16 +129,27 @@ investments across several use cases
 ## Need Signals
 
 You probably need a data product manager when data work has real users and
-competing priorities. Don't use headcount or tooling maturity as the signal.
-Look for decisions that need an owner. Someone has to choose the user problem,
-the metric, the acceptable release risk, and the way the product will earn trust
-after launch.
+competing priorities. Use decisions as the signal, not headcount or tooling
+maturity. Menefee puts user discovery and success metrics
+inside the data PM role
+([7:04-15:10]({{ '/podcasts/product-designer-to-data-product-manager/' | relative_url }})).
+Jolly puts problem definition, roadmap direction, and outcome ownership in the
+PM role for an internal ML platform
+([6:28-21:06]({{ '/podcasts/ml-product-manager-and-mlops-platform-strategy/' | relative_url }})).
+
+Hannemann shows the release-risk version. A product owner may decide whether a
+model is good enough to go live and explain that quality to stakeholders
+([15:11-21:45]({{ '/podcasts/building-data-products-product-owner-vs-product-manager/' | relative_url }})).
+Moorman adds the adoption version. Someone has to make the data findable,
+understandable, trusted, and useful at the decision point
+([20:02-28:10]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }})).
 
 That can mean a customer-facing recommendation system, an internal MLOps
 platform, or an experimentation dashboard. It can also mean a governed metric
 layer or a decision-support workflow. In each case, someone has to own the
 product judgment. Without that owner, the team can build technically correct
-dashboards, models, or tables that nobody uses.
+dashboards, models, or tables that nobody uses
+([8:48-26:36]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }})).
 
 Use [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
 for the broader reference page. Use
