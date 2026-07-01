@@ -334,6 +334,27 @@ Start with this batch when expanding the content set.
   `.tmp/next-actions-done-datatalks.club.xlsx` currently has the expected tabs
   but only header rows, so replace it with the populated export before creating
   gap-driven pages.
+- The 2026-07-01 five-agent audit reconfirmed that the local workbook has only
+  header rows. Keep using the CSV-backed audit until the populated workbook is
+  available.
+- The strongest remaining CSV-backed content candidates are:
+  `_guides/machine-learning-for-business.md`,
+  `_wiki/data-science-project-management.md`, and
+  `_wiki/algorithmic-trading.md`. Create them only with podcast-grounded
+  evidence and internal links; do not create pages for book/PDF/download,
+  Slack, or generic navigation queries.
+- The weakest public content category is `_how_tos/`. Next high-value how-tos:
+  notebook-to-production AI systems, DataOps checks for data pipelines, and RAG
+  evaluation workflow. Ground them in the existing notebook-to-production,
+  DataOps, LLM/RAG, and agent-evaluation podcast evidence.
+- People pages remain the largest quality backlog. Many are profile imports or
+  thin placeholders. Prioritize pages already linked from wiki, guide, roadmap,
+  and comparison pages, then add podcast contribution summaries, local podcast
+  links, expertise, and concept links.
+- Graph and search generation now includes all public people pages, not only
+  people with `podcast_episodes`, so public person links can resolve in
+  exploration and search. Future people cleanup should improve the page content
+  rather than hiding linked public people from graph/search.
 - Improve the published transition pages for marketing to analytics
   engineering, QA to ML/data engineering, academic researcher to data science,
   product designer to data product manager, and data scientist to machine

@@ -8,10 +8,10 @@
     "roadmaps": 9,
     "how_tos": 2,
     "podcasts": 202,
-    "persons": 183,
+    "persons": 438,
     "topics": 92,
-    "nodes": 704,
-    "links": 11051
+    "nodes": 959,
+    "links": 11052
   },
   "nodes": [
     {
@@ -564,6 +564,16 @@
       "search": "Aaisha Muhammad Aaisha Muhammad's DataTalks.Club podcast discussions, organized for topic exploration."
     },
     {
+      "id": "person:aaronwishnick",
+      "type": "person",
+      "collection": "person",
+      "label": "Aaron Wishnick",
+      "title": "Aaron Wishnick",
+      "url": "/people/aaronwishnick/",
+      "count": 1,
+      "search": "Aaron Wishnick Aaron Wishnick's DataTalks.Club profile."
+    },
+    {
       "id": "person:abouzarabbaspour",
       "type": "person",
       "collection": "person",
@@ -592,6 +602,16 @@
       "url": "/people/adityagautam/",
       "count": 1,
       "search": "Aditya Gautam Aditya Gautam's DataTalks.Club podcast discussions, organized for topic exploration."
+    },
+    {
+      "id": "person:adityaseshaditya",
+      "type": "person",
+      "collection": "person",
+      "label": "Aditya Seshaditya",
+      "title": "Aditya Seshaditya",
+      "url": "/people/adityaseshaditya/",
+      "count": 1,
+      "search": "Aditya Seshaditya Aditya Seshaditya's DataTalks.Club profile."
     },
     {
       "id": "person:admondleekinlim",
@@ -624,6 +644,36 @@
       "search": "Agita Jaunzeme Agita Jaunzeme's DataTalks.Club podcast discussions, organized for topic exploration."
     },
     {
+      "id": "person:agnesvanbelle",
+      "type": "person",
+      "collection": "person",
+      "label": "Agnes van Belle",
+      "title": "Agnes van Belle",
+      "url": "/people/agnesvanbelle/",
+      "count": 1,
+      "search": "Agnes van Belle Agnes van Belle's DataTalks.Club profile."
+    },
+    {
+      "id": "person:agnieszkamikolajczyk",
+      "type": "person",
+      "collection": "person",
+      "label": "Agnieszka Mikołajczyk",
+      "title": "Agnieszka Mikołajczyk",
+      "url": "/people/agnieszkamikolajczyk/",
+      "count": 1,
+      "search": "Agnieszka Mikołajczyk Agnieszka Mikołajczyk's DataTalks.Club profile."
+    },
+    {
+      "id": "person:agostinocalamia",
+      "type": "person",
+      "collection": "person",
+      "label": "Agostino Calamia",
+      "title": "Agostino Calamia",
+      "url": "/people/agostinocalamia/",
+      "count": 1,
+      "search": "Agostino Calamia Agostino Calamia's DataTalks.Club profile."
+    },
+    {
       "id": "person:aishwaryajadhav",
       "type": "person",
       "collection": "person",
@@ -632,6 +682,16 @@
       "url": "/people/aishwaryajadhav/",
       "count": 1,
       "search": "Aishwarya Jadhav Aishwarya Jadhav's DataTalks.Club podcast discussions, organized for topic exploration."
+    },
+    {
+      "id": "person:akeladrissner",
+      "type": "person",
+      "collection": "person",
+      "label": "Akela Drissner",
+      "title": "Akela Drissner",
+      "url": "/people/akeladrissner/",
+      "count": 1,
+      "search": "Akela Drissner Akela Drissner's DataTalks.Club profile."
     },
     {
       "id": "person:aleksanderkruszelnicki",
@@ -652,6 +712,96 @@
       "url": "/people/aleksandermolak/",
       "count": 1,
       "search": "Aleksander Molak Aleksander Molak's DataTalks.Club podcast discussions, organized for topic exploration."
+    },
+    {
+      "id": "person:aleksandrkim",
+      "type": "person",
+      "collection": "person",
+      "label": "Aleksandr Kim",
+      "title": "Aleksandr Kim",
+      "url": "/people/aleksandrkim/",
+      "count": 1,
+      "search": "Aleksandr Kim Aleksandr Kim's DataTalks.Club profile."
+    },
+    {
+      "id": "person:alekseykomissarov",
+      "type": "person",
+      "collection": "person",
+      "label": "Aleksey Komissarov",
+      "title": "Aleksey Komissarov",
+      "url": "/people/alekseykomissarov/",
+      "count": 1,
+      "search": "Aleksey Komissarov Aleksey Komissarov's DataTalks.Club profile."
+    },
+    {
+      "id": "person:alenaastrakhantseva",
+      "type": "person",
+      "collection": "person",
+      "label": "Alena Astrakhantseva",
+      "title": "Alena Astrakhantseva",
+      "url": "/people/alenaastrakhantseva/",
+      "count": 1,
+      "search": "Alena Astrakhantseva Alena Astrakhantseva's DataTalks.Club profile."
+    },
+    {
+      "id": "person:alexchung",
+      "type": "person",
+      "collection": "person",
+      "label": "Alex Chung",
+      "title": "Alex Chung",
+      "url": "/people/alexchung/",
+      "count": 1,
+      "search": "Alex Chung Alex Chung's DataTalks.Club profile."
+    },
+    {
+      "id": "person:alexioannides",
+      "type": "person",
+      "collection": "person",
+      "label": "Alex Ioannides",
+      "title": "Alex Ioannides",
+      "url": "/people/alexioannides/",
+      "count": 1,
+      "search": "Alex Ioannides Alex Ioannides's DataTalks.Club profile."
+    },
+    {
+      "id": "person:alexkim",
+      "type": "person",
+      "collection": "person",
+      "label": "Alex Kim",
+      "title": "Alex Kim",
+      "url": "/people/alexkim/",
+      "count": 1,
+      "search": "Alex Kim Alex Kim's DataTalks.Club profile."
+    },
+    {
+      "id": "person:alexlitvinov",
+      "type": "person",
+      "collection": "person",
+      "label": "Alex Litvinov",
+      "title": "Alex Litvinov",
+      "url": "/people/alexlitvinov/",
+      "count": 1,
+      "search": "Alex Litvinov Alex Litvinov's DataTalks.Club profile."
+    },
+    {
+      "id": "person:alexpetrov",
+      "type": "person",
+      "collection": "person",
+      "label": "Alex Petrov",
+      "title": "Alex Petrov",
+      "url": "/people/alexpetrov/",
+      "count": 1,
+      "search": "Alex Petrov Alex Petrov's DataTalks.Club profile."
+    },
+    {
+      "id": "person:alexanderdanielrios",
+      "type": "person",
+      "collection": "person",
+      "label": "Alexander Daniel Rios",
+      "title": "Alexander Daniel Rios",
+      "url": "/people/alexanderdanielrios/",
+      "count": 1,
+      "search": "Alexander Daniel Rios Alexander Daniel Rios's DataTalks.Club profile."
     },
     {
       "id": "person:alexanderguschin",
@@ -684,6 +834,16 @@
       "search": "Alexey Grigorev Founder of DataTalks.Club and recurring contributor on data teams, MLOps, community building, and open education."
     },
     {
+      "id": "person:alexiaaudevart",
+      "type": "person",
+      "collection": "person",
+      "label": "Alexia Audevart",
+      "title": "Alexia Audevart",
+      "url": "/people/alexiaaudevart/",
+      "count": 1,
+      "search": "Alexia Audevart Alexia Audevart's DataTalks.Club profile."
+    },
+    {
       "id": "person:alicjanotowska",
       "type": "person",
       "collection": "person",
@@ -702,6 +862,16 @@
       "url": "/people/alvaronavaspeire/",
       "count": 1,
       "search": "Alvaro Navas Peire Alvaro Navas Peire's DataTalks.Club podcast discussions, organized for topic exploration."
+    },
+    {
+      "id": "person:amberroberts",
+      "type": "person",
+      "collection": "person",
+      "label": "Amber Roberts",
+      "title": "Amber Roberts",
+      "url": "/people/amberroberts/",
+      "count": 1,
+      "search": "Amber Roberts Amber Roberts's DataTalks.Club profile."
     },
     {
       "id": "person:anahitapakiman",
@@ -734,6 +904,16 @@
       "search": "Andrada Olteanu Andrada Olteanu's DataTalks.Club podcast discussions, organized for topic exploration."
     },
     {
+      "id": "person:andreschumacher",
+      "type": "person",
+      "collection": "person",
+      "label": "Andre Schumacher",
+      "title": "Andre Schumacher",
+      "url": "/people/andreschumacher/",
+      "count": 1,
+      "search": "Andre Schumacher Andre Schumacher's DataTalks.Club profile."
+    },
+    {
       "id": "person:andreaskretz",
       "type": "person",
       "collection": "person",
@@ -742,6 +922,56 @@
       "url": "/people/andreaskretz/",
       "count": 1,
       "search": "Andreas Kretz Data engineer and platform educator contributing practical patterns for production ML pipelines, AWS, Kafka, and modern data science platforms."
+    },
+    {
+      "id": "person:andreassyren",
+      "type": "person",
+      "collection": "person",
+      "label": "Andreas Syrén",
+      "title": "Andreas Syrén",
+      "url": "/people/andreassyren/",
+      "count": 1,
+      "search": "Andreas Syrén Andreas Syrén's DataTalks.Club profile."
+    },
+    {
+      "id": "person:andreeamunteanu",
+      "type": "person",
+      "collection": "person",
+      "label": "Andreea Munteanu",
+      "title": "Andreea Munteanu",
+      "url": "/people/andreeamunteanu/",
+      "count": 1,
+      "search": "Andreea Munteanu Andreea Munteanu's DataTalks.Club profile."
+    },
+    {
+      "id": "person:andreitserakhau",
+      "type": "person",
+      "collection": "person",
+      "label": "Andrei Tserakhau",
+      "title": "Andrei Tserakhau",
+      "url": "/people/andreitserakhau/",
+      "count": 1,
+      "search": "Andrei Tserakhau Andrei Tserakhau's DataTalks.Club profile."
+    },
+    {
+      "id": "person:andrewjones",
+      "type": "person",
+      "collection": "person",
+      "label": "Andrew Jones",
+      "title": "Andrew Jones",
+      "url": "/people/andrewjones/",
+      "count": 1,
+      "search": "Andrew Jones Andrew Jones's DataTalks.Club profile."
+    },
+    {
+      "id": "person:andrewmcmahon",
+      "type": "person",
+      "collection": "person",
+      "label": "Andrew McMahon",
+      "title": "Andrew McMahon",
+      "url": "/people/andrewmcmahon/",
+      "count": 1,
+      "search": "Andrew McMahon Andrew McMahon's DataTalks.Club profile."
     },
     {
       "id": "person:andreycheptsov",
@@ -764,6 +994,16 @@
       "search": "Andrey Shtylenko Andrey Shtylenko's DataTalks.Club podcast discussions, organized for topic exploration."
     },
     {
+      "id": "person:andypetrella",
+      "type": "person",
+      "collection": "person",
+      "label": "Andy Petrella",
+      "title": "Andy Petrella",
+      "url": "/people/andypetrella/",
+      "count": 1,
+      "search": "Andy Petrella Andy Petrella's DataTalks.Club profile."
+    },
+    {
       "id": "person:angelaramirez",
       "type": "person",
       "collection": "person",
@@ -784,6 +1024,26 @@
       "search": "Angelica Lo Duca Angelica Lo Duca's DataTalks.Club podcast discussions, organized for topic exploration."
     },
     {
+      "id": "person:anishshah",
+      "type": "person",
+      "collection": "person",
+      "label": "Anish Shah",
+      "title": "Anish Shah",
+      "url": "/people/anishshah/",
+      "count": 1,
+      "search": "Anish Shah Anish Shah's DataTalks.Club profile."
+    },
+    {
+      "id": "person:ankurapatel",
+      "type": "person",
+      "collection": "person",
+      "label": "Ankur A. Patel",
+      "title": "Ankur A. Patel",
+      "url": "/people/ankurapatel/",
+      "count": 1,
+      "search": "Ankur A. Patel Ankur A. Patel's DataTalks.Club profile."
+    },
+    {
       "id": "person:annahannemann",
       "type": "person",
       "collection": "person",
@@ -792,6 +1052,26 @@
       "url": "/people/annahannemann/",
       "count": 1,
       "search": "Anna Hannemann Anna Hannemann's DataTalks.Club podcast discussions, organized for topic exploration."
+    },
+    {
+      "id": "person:anthonyvirtuoso",
+      "type": "person",
+      "collection": "person",
+      "label": "Anthony Virtuoso",
+      "title": "Anthony Virtuoso",
+      "url": "/people/anthonyvirtuoso/",
+      "count": 1,
+      "search": "Anthony Virtuoso Anthony Virtuoso's DataTalks.Club profile."
+    },
+    {
+      "id": "person:antjebarth",
+      "type": "person",
+      "collection": "person",
+      "label": "Antje Barth",
+      "title": "Antje Barth",
+      "url": "/people/antjebarth/",
+      "count": 1,
+      "search": "Antje Barth Antje Barth's DataTalks.Club profile."
     },
     {
       "id": "person:antonisstellas",
@@ -814,6 +1094,36 @@
       "search": "Anusha Akkina Anusha Akkina's DataTalks.Club podcast discussions, organized for topic exploration."
     },
     {
+      "id": "person:aparnadhinakaran",
+      "type": "person",
+      "collection": "person",
+      "label": "Aparna Dhinakaran",
+      "title": "Aparna Dhinakaran",
+      "url": "/people/aparnadhinakaran/",
+      "count": 1,
+      "search": "Aparna Dhinakaran Aparna Dhinakaran's DataTalks.Club profile."
+    },
+    {
+      "id": "person:apurvamisra",
+      "type": "person",
+      "collection": "person",
+      "label": "Apurva Misra",
+      "title": "Apurva Misra",
+      "url": "/people/apurvamisra/",
+      "count": 1,
+      "search": "Apurva Misra Apurva Misra's DataTalks.Club profile."
+    },
+    {
+      "id": "person:armanjabbari",
+      "type": "person",
+      "collection": "person",
+      "label": "Arman Jabbari",
+      "title": "Arman Jabbari",
+      "url": "/people/armanjabbari/",
+      "count": 1,
+      "search": "Arman Jabbari Arman Jabbari's DataTalks.Club profile."
+    },
+    {
       "id": "person:arpitchoudhury",
       "type": "person",
       "collection": "person",
@@ -834,6 +1144,26 @@
       "search": "Arseny Kravchenko Arseny Kravchenko's DataTalks.Club podcast discussions, organized for topic exploration."
     },
     {
+      "id": "person:artemiifrolov",
+      "type": "person",
+      "collection": "person",
+      "label": "Artemii Frolov",
+      "title": "Artemii Frolov",
+      "url": "/people/artemiifrolov/",
+      "count": 1,
+      "search": "Artemii Frolov Artemii Frolov's DataTalks.Club profile."
+    },
+    {
+      "id": "person:ashishpatel",
+      "type": "person",
+      "collection": "person",
+      "label": "Ashish Patel",
+      "title": "Ashish Patel",
+      "url": "/people/ashishpatel/",
+      "count": 1,
+      "search": "Ashish Patel Ashish Patel's DataTalks.Club profile."
+    },
+    {
       "id": "person:atitaarora",
       "type": "person",
       "collection": "person",
@@ -842,6 +1172,16 @@
       "url": "/people/atitaarora/",
       "count": 1,
       "search": "Atita Arora Information retrieval practitioner connecting vector databases, semantic search, LLMs, embeddings, and open source search evaluation."
+    },
+    {
+      "id": "person:balinhle",
+      "type": "person",
+      "collection": "person",
+      "label": "Ba Linh Le",
+      "title": "Ba Linh Le",
+      "url": "/people/balinhle/",
+      "count": 1,
+      "search": "Ba Linh Le Ba Linh Le's DataTalks.Club profile."
     },
     {
       "id": "person:barbarasobkowiak",
@@ -884,6 +1224,16 @@
       "search": "Bartosz Mikulski AI and data engineer specializing in moving AI projects from demos to production through testing, pipelines, prompt optimization, and caching."
     },
     {
+      "id": "person:bastienboutonnet",
+      "type": "person",
+      "collection": "person",
+      "label": "Bastien Boutonnet",
+      "title": "Bastien Boutonnet",
+      "url": "/people/bastienboutonnet/",
+      "count": 1,
+      "search": "Bastien Boutonnet Bastien Boutonnet's DataTalks.Club profile."
+    },
+    {
       "id": "person:belawiertz",
       "type": "person",
       "collection": "person",
@@ -912,6 +1262,16 @@
       "url": "/people/benwilson/",
       "count": 1,
       "search": "Ben Wilson Databricks solutions architect and ML engineering author focused on maintainable production ML systems."
+    },
+    {
+      "id": "person:bhavaniravi",
+      "type": "person",
+      "collection": "person",
+      "label": "Bhavani Ravi",
+      "title": "Bhavani Ravi",
+      "url": "/people/bhavaniravi/",
+      "count": 1,
+      "search": "Bhavani Ravi Bhavani Ravi's DataTalks.Club profile."
     },
     {
       "id": "person:boyanangelov",
@@ -944,6 +1304,36 @@
       "search": "Carmine Paolino Carmine Paolino's DataTalks.Club podcast discussions, organized for topic exploration."
     },
     {
+      "id": "person:cathychen",
+      "type": "person",
+      "collection": "person",
+      "label": "Cathy Chen",
+      "title": "Cathy Chen",
+      "url": "/people/cathychen/",
+      "count": 1,
+      "search": "Cathy Chen Cathy Chen's DataTalks.Club profile."
+    },
+    {
+      "id": "person:chiphuyen",
+      "type": "person",
+      "collection": "person",
+      "label": "Chip Huyen",
+      "title": "Chip Huyen",
+      "url": "/people/chiphuyen/",
+      "count": 1,
+      "search": "Chip Huyen Chip Huyen's DataTalks.Club profile."
+    },
+    {
+      "id": "person:chrisfregly",
+      "type": "person",
+      "collection": "person",
+      "label": "Chris Fregly",
+      "title": "Chris Fregly",
+      "url": "/people/chrisfregly/",
+      "count": 1,
+      "search": "Chris Fregly Chris Fregly's DataTalks.Club profile."
+    },
+    {
       "id": "person:christiannswart",
       "type": "person",
       "collection": "person",
@@ -952,6 +1342,16 @@
       "url": "/people/christiannswart/",
       "count": 1,
       "search": "Christiaan Swart Christiaan Swart's DataTalks.Club podcast discussions, organized for topic exploration."
+    },
+    {
+      "id": "person:christianwinkler",
+      "type": "person",
+      "collection": "person",
+      "label": "Christian Winkler",
+      "title": "Christian Winkler",
+      "url": "/people/christianwinkler/",
+      "count": 1,
+      "search": "Christian Winkler Christian Winkler's DataTalks.Club profile."
     },
     {
       "id": "person:christinecepelak",
@@ -992,6 +1392,26 @@
       "url": "/people/cjjenkins/",
       "count": 1,
       "search": "CJ Jenkins CJ Jenkins's DataTalks.Club podcast discussions, organized for topic exploration."
+    },
+    {
+      "id": "person:cristianmartinez",
+      "type": "person",
+      "collection": "person",
+      "label": "Cristian Martinez",
+      "title": "Cristian Martinez",
+      "url": "/people/cristianmartinez/",
+      "count": 1,
+      "search": "Cristian Martinez Cristian Martinez's DataTalks.Club profile."
+    },
+    {
+      "id": "person:dalianaliu",
+      "type": "person",
+      "collection": "person",
+      "label": "Daliana Liu",
+      "title": "Daliana Liu",
+      "url": "/people/dalianaliu/",
+      "count": 1,
+      "search": "Daliana Liu Daliana Liu's DataTalks.Club profile."
     },
     {
       "id": "person:danbecker",
@@ -1064,6 +1484,26 @@
       "search": "Dat Tran Dat Tran's DataTalks.Club podcast discussions, organized for topic exploration."
     },
     {
+      "id": "person:davebechberger",
+      "type": "person",
+      "collection": "person",
+      "label": "Dave Bechberger",
+      "title": "Dave Bechberger",
+      "url": "/people/davebechberger/",
+      "count": 1,
+      "search": "Dave Bechberger Dave Bechberger's DataTalks.Club profile."
+    },
+    {
+      "id": "person:daveflynn",
+      "type": "person",
+      "collection": "person",
+      "label": "Dave Flynn",
+      "title": "Dave Flynn",
+      "url": "/people/daveflynn/",
+      "count": 1,
+      "search": "Dave Flynn Dave Flynn's DataTalks.Club profile."
+    },
+    {
       "id": "person:davidbader",
       "type": "person",
       "collection": "person",
@@ -1072,6 +1512,56 @@
       "url": "/people/davidbader/",
       "count": 1,
       "search": "David Bader David Bader's DataTalks.Club podcast discussions, organized for topic exploration."
+    },
+    {
+      "id": "person:davidbednar",
+      "type": "person",
+      "collection": "person",
+      "label": "David Bednar",
+      "title": "David Bednar",
+      "url": "/people/davidbednar/",
+      "count": 1,
+      "search": "David Bednar David Bednar's DataTalks.Club profile."
+    },
+    {
+      "id": "person:davidgates",
+      "type": "person",
+      "collection": "person",
+      "label": "David Gates",
+      "title": "David Gates",
+      "url": "/people/davidgates/",
+      "count": 1,
+      "search": "David Gates David Gates's DataTalks.Club profile."
+    },
+    {
+      "id": "person:davidmertz",
+      "type": "person",
+      "collection": "person",
+      "label": "David Mertz",
+      "title": "David Mertz",
+      "url": "/people/davidmertz/",
+      "count": 1,
+      "search": "David Mertz David Mertz's DataTalks.Club profile."
+    },
+    {
+      "id": "person:davidstephenson",
+      "type": "person",
+      "collection": "person",
+      "label": "David Stephenson",
+      "title": "David Stephenson",
+      "url": "/people/davidstephenson/",
+      "count": 1,
+      "search": "David Stephenson David Stephenson's DataTalks.Club profile."
+    },
+    {
+      "id": "person:davidsweet",
+      "type": "person",
+      "collection": "person",
+      "label": "David Sweet",
+      "title": "David Sweet",
+      "url": "/people/davidsweet/",
+      "count": 1,
+      "search": "David Sweet David Sweet's DataTalks.Club profile."
     },
     {
       "id": "person:daynancrull",
@@ -1084,6 +1574,16 @@
       "search": "Daynan Crull Daynan Crull's DataTalks.Club podcast discussions, organized for topic exploration."
     },
     {
+      "id": "person:delinaivanova",
+      "type": "person",
+      "collection": "person",
+      "label": "Delina Ivanova",
+      "title": "Delina Ivanova",
+      "url": "/people/delinaivanova/",
+      "count": 1,
+      "search": "Delina Ivanova Delina Ivanova's DataTalks.Club profile."
+    },
+    {
       "id": "person:demetriosbrinkmann",
       "type": "person",
       "collection": "person",
@@ -1094,6 +1594,26 @@
       "search": "Demetrios Brinkmann MLOps Community organizer contributing practical lessons on launching, growing, and sustaining technical communities and meetups."
     },
     {
+      "id": "person:denisrothman",
+      "type": "person",
+      "collection": "person",
+      "label": "Denis Rothman",
+      "title": "Denis Rothman",
+      "url": "/people/denisrothman/",
+      "count": 1,
+      "search": "Denis Rothman Denis Rothman's DataTalks.Club profile."
+    },
+    {
+      "id": "person:denisegosnell",
+      "type": "person",
+      "collection": "person",
+      "label": "Denise Gosnell",
+      "title": "Denise Gosnell",
+      "url": "/people/denisegosnell/",
+      "count": 1,
+      "search": "Denise Gosnell Denise Gosnell's DataTalks.Club profile."
+    },
+    {
       "id": "person:dimitrivisnadi",
       "type": "person",
       "collection": "person",
@@ -1102,6 +1622,56 @@
       "url": "/people/dimitrivisnadi/",
       "count": 1,
       "search": "Dimitri Visnadi Dimitri Visnadi's DataTalks.Club podcast discussions, organized for topic exploration."
+    },
+    {
+      "id": "person:dmitrymuzalevskiy",
+      "type": "person",
+      "collection": "person",
+      "label": "Dmitry Muzalevskiy",
+      "title": "Dmitry Muzalevskiy",
+      "url": "/people/dmitrymuzalevskiy/",
+      "count": 1,
+      "search": "Dmitry Muzalevskiy Dmitry Muzalevskiy's DataTalks.Club profile."
+    },
+    {
+      "id": "person:donjones",
+      "type": "person",
+      "collection": "person",
+      "label": "Don Jones",
+      "title": "Don Jones",
+      "url": "/people/donjones/",
+      "count": 1,
+      "search": "Don Jones Don Jones's DataTalks.Club profile."
+    },
+    {
+      "id": "person:dougturnbull",
+      "type": "person",
+      "collection": "person",
+      "label": "Doug Turnbull",
+      "title": "Doug Turnbull",
+      "url": "/people/dougturnbull/",
+      "count": 1,
+      "search": "Doug Turnbull Doug Turnbull's DataTalks.Club profile."
+    },
+    {
+      "id": "person:douglasgray",
+      "type": "person",
+      "collection": "person",
+      "label": "Douglas Gray",
+      "title": "Douglas Gray",
+      "url": "/people/douglasgray/",
+      "count": 1,
+      "search": "Douglas Gray Douglas Gray's DataTalks.Club profile."
+    },
+    {
+      "id": "person:duygualtinok",
+      "type": "person",
+      "collection": "person",
+      "label": "Duygu Altinok",
+      "title": "Duygu Altinok",
+      "url": "/people/duygualtinok/",
+      "count": 1,
+      "search": "Duygu Altinok Duygu Altinok's DataTalks.Club profile."
     },
     {
       "id": "person:daniameira",
@@ -1154,6 +1724,26 @@
       "search": "Eleni Tzirita Zacharatou Eleni Tzirita Zacharatou's DataTalks.Club podcast discussions, organized for topic exploration."
     },
     {
+      "id": "person:eliasnema",
+      "type": "person",
+      "collection": "person",
+      "label": "Elias Nema",
+      "title": "Elias Nema",
+      "url": "/people/eliasnema/",
+      "count": 1,
+      "search": "Elias Nema Elias Nema's DataTalks.Club profile."
+    },
+    {
+      "id": "person:ella(wati)sahnan",
+      "type": "person",
+      "collection": "person",
+      "label": "Ella (Wati) Sahnan",
+      "title": "Ella (Wati) Sahnan",
+      "url": "/people/ella(wati)sahnan/",
+      "count": 1,
+      "search": "Ella (Wati) Sahnan Ella (Wati) Sahnan's DataTalks.Club profile."
+    },
+    {
       "id": "person:elleobrien",
       "type": "person",
       "collection": "person",
@@ -1172,6 +1762,86 @@
       "url": "/people/ellenkonig/",
       "count": 1,
       "search": "Ellen König Ellen König's DataTalks.Club podcast discussions, organized for topic exploration."
+    },
+    {
+      "id": "person:emelidral",
+      "type": "person",
+      "collection": "person",
+      "label": "Emeli Dral",
+      "title": "Emeli Dral",
+      "url": "/people/emelidral/",
+      "count": 1,
+      "search": "Emeli Dral Emeli Dral's DataTalks.Club profile."
+    },
+    {
+      "id": "person:emilbogomolov",
+      "type": "person",
+      "collection": "person",
+      "label": "Emil Bogomolov",
+      "title": "Emil Bogomolov",
+      "url": "/people/emilbogomolov/",
+      "count": 1,
+      "search": "Emil Bogomolov Emil Bogomolov's DataTalks.Club profile."
+    },
+    {
+      "id": "person:emmanuelameisen",
+      "type": "person",
+      "collection": "person",
+      "label": "Emmanuel Ameisen",
+      "title": "Emmanuel Ameisen",
+      "url": "/people/emmanuelameisen/",
+      "count": 1,
+      "search": "Emmanuel Ameisen Emmanuel Ameisen's DataTalks.Club profile."
+    },
+    {
+      "id": "person:emmanuelraj",
+      "type": "person",
+      "collection": "person",
+      "label": "Emmanuel Raj",
+      "title": "Emmanuel Raj",
+      "url": "/people/emmanuelraj/",
+      "count": 1,
+      "search": "Emmanuel Raj Emmanuel Raj's DataTalks.Club profile."
+    },
+    {
+      "id": "person:enginyoyen",
+      "type": "person",
+      "collection": "person",
+      "label": "Engin Yöyen",
+      "title": "Engin Yöyen",
+      "url": "/people/enginyoyen/",
+      "count": 1,
+      "search": "Engin Yöyen Engin Yöyen's DataTalks.Club profile."
+    },
+    {
+      "id": "person:ericsims",
+      "type": "person",
+      "collection": "person",
+      "label": "Eric Sims",
+      "title": "Eric Sims",
+      "url": "/people/ericsims/",
+      "count": 1,
+      "search": "Eric Sims Eric Sims's DataTalks.Club profile."
+    },
+    {
+      "id": "person:ernsthaagsman",
+      "type": "person",
+      "collection": "person",
+      "label": "Ernst Haagsman",
+      "title": "Ernst Haagsman",
+      "url": "/people/ernsthaagsman/",
+      "count": 1,
+      "search": "Ernst Haagsman Ernst Haagsman's DataTalks.Club profile."
+    },
+    {
+      "id": "person:ertugrulmutlu",
+      "type": "person",
+      "collection": "person",
+      "label": "Ertugrul Mutlu",
+      "title": "Ertugrul Mutlu",
+      "url": "/people/ertugrulmutlu/",
+      "count": 1,
+      "search": "Ertugrul Mutlu Ertugrul Mutlu's DataTalks.Club profile."
     },
     {
       "id": "person:erumafzal",
@@ -1194,6 +1864,76 @@
       "search": "Eugene Yan Applied ML practitioner and writer connecting production ML, technical writing, communication, and community learning."
     },
     {
+      "id": "person:evanshellshear",
+      "type": "person",
+      "collection": "person",
+      "label": "Evan Shellshear",
+      "title": "Evan Shellshear",
+      "url": "/people/evanshellshear/",
+      "count": 1,
+      "search": "Evan Shellshear Evan Shellshear's DataTalks.Club profile."
+    },
+    {
+      "id": "person:fabianaclemente",
+      "type": "person",
+      "collection": "person",
+      "label": "Fabiana Clemente",
+      "title": "Fabiana Clemente",
+      "url": "/people/fabianaclemente/",
+      "count": 1,
+      "search": "Fabiana Clemente Fabiana Clemente's DataTalks.Club profile."
+    },
+    {
+      "id": "person:faisalmasood",
+      "type": "person",
+      "collection": "person",
+      "label": "Faisal Masood",
+      "title": "Faisal Masood",
+      "url": "/people/faisalmasood/",
+      "count": 1,
+      "search": "Faisal Masood Faisal Masood's DataTalks.Club profile."
+    },
+    {
+      "id": "person:fernandodoglio",
+      "type": "person",
+      "collection": "person",
+      "label": "Fernando Doglio",
+      "title": "Fernando Doglio",
+      "url": "/people/fernandodoglio/",
+      "count": 1,
+      "search": "Fernando Doglio Fernando Doglio's DataTalks.Club profile."
+    },
+    {
+      "id": "person:filipacastro",
+      "type": "person",
+      "collection": "person",
+      "label": "Filipa Castro",
+      "title": "Filipa Castro",
+      "url": "/people/filipacastro/",
+      "count": 1,
+      "search": "Filipa Castro Filipa Castro's DataTalks.Club profile."
+    },
+    {
+      "id": "person:florianhoenicke",
+      "type": "person",
+      "collection": "person",
+      "label": "Florian Hoenicke",
+      "title": "Florian Hoenicke",
+      "url": "/people/florianhoenicke/",
+      "count": 1,
+      "search": "Florian Hoenicke Florian Hoenicke's DataTalks.Club profile."
+    },
+    {
+      "id": "person:gantlaborde",
+      "type": "person",
+      "collection": "person",
+      "label": "Gant Laborde",
+      "title": "Gant Laborde",
+      "url": "/people/gantlaborde/",
+      "count": 1,
+      "search": "Gant Laborde Gant Laborde's DataTalks.Club profile."
+    },
+    {
       "id": "person:geojolly",
       "type": "person",
       "collection": "person",
@@ -1202,6 +1942,16 @@
       "url": "/people/geojolly/",
       "count": 1,
       "search": "Geo Jolly Geo Jolly's DataTalks.Club podcast discussions, organized for topic exploration."
+    },
+    {
+      "id": "person:giuseppebonaccorso",
+      "type": "person",
+      "collection": "person",
+      "label": "Giuseppe Bonaccorso",
+      "title": "Giuseppe Bonaccorso",
+      "url": "/people/giuseppebonaccorso/",
+      "count": 1,
+      "search": "Giuseppe Bonaccorso Giuseppe Bonaccorso's DataTalks.Club profile."
     },
     {
       "id": "person:gloriaquiceno",
@@ -1214,6 +1964,16 @@
       "search": "Gloria Quiceno Gloria Quiceno's DataTalks.Club podcast discussions, organized for topic exploration."
     },
     {
+      "id": "person:goncalosequeira",
+      "type": "person",
+      "collection": "person",
+      "label": "Gonçalo Sequeira",
+      "title": "Gonçalo Sequeira",
+      "url": "/people/goncalosequeira/",
+      "count": 1,
+      "search": "Gonçalo Sequeira Gonçalo Sequeira's DataTalks.Club profile."
+    },
+    {
       "id": "person:gregcoquillo",
       "type": "person",
       "collection": "person",
@@ -1224,6 +1984,106 @@
       "search": "Greg Coquillo Greg Coquillo's DataTalks.Club podcast discussions, organized for topic exploration."
     },
     {
+      "id": "person:grainnemcknight",
+      "type": "person",
+      "collection": "person",
+      "label": "Gráinne McKnight",
+      "title": "Gráinne McKnight",
+      "url": "/people/grainnemcknight/",
+      "count": 1,
+      "search": "Gráinne McKnight Gráinne McKnight's DataTalks.Club profile."
+    },
+    {
+      "id": "person:guillaumelemaitre",
+      "type": "person",
+      "collection": "person",
+      "label": "Guillaume Lemaître",
+      "title": "Guillaume Lemaître",
+      "url": "/people/guillaumelemaitre/",
+      "count": 1,
+      "search": "Guillaume Lemaître Guillaume Lemaître's DataTalks.Club profile."
+    },
+    {
+      "id": "person:gustafgyllensporre",
+      "type": "person",
+      "collection": "person",
+      "label": "Gustaf Gyllensporre",
+      "title": "Gustaf Gyllensporre",
+      "url": "/people/gustafgyllensporre/",
+      "count": 1,
+      "search": "Gustaf Gyllensporre Gustaf Gyllensporre's DataTalks.Club profile."
+    },
+    {
+      "id": "person:guyadams",
+      "type": "person",
+      "collection": "person",
+      "label": "Guy Adams",
+      "title": "Guy Adams",
+      "url": "/people/guyadams/",
+      "count": 1,
+      "search": "Guy Adams Guy Adams's DataTalks.Club profile."
+    },
+    {
+      "id": "person:hagopdippel",
+      "type": "person",
+      "collection": "person",
+      "label": "Hagop Dippel",
+      "title": "Hagop Dippel",
+      "url": "/people/hagopdippel/",
+      "count": 1,
+      "search": "Hagop Dippel Hagop Dippel's DataTalks.Club profile."
+    },
+    {
+      "id": "person:hanneshapke",
+      "type": "person",
+      "collection": "person",
+      "label": "Hannes Hapke",
+      "title": "Hannes Hapke",
+      "url": "/people/hanneshapke/",
+      "count": 1,
+      "search": "Hannes Hapke Hannes Hapke's DataTalks.Club profile."
+    },
+    {
+      "id": "person:haydenliu",
+      "type": "person",
+      "collection": "person",
+      "label": "Hayden Liu",
+      "title": "Hayden Liu",
+      "url": "/people/haydenliu/",
+      "count": 1,
+      "search": "Hayden Liu Hayden Liu's DataTalks.Club profile."
+    },
+    {
+      "id": "person:haziqasajid",
+      "type": "person",
+      "collection": "person",
+      "label": "Haziqa Sajid",
+      "title": "Haziqa Sajid",
+      "url": "/people/haziqasajid/",
+      "count": 1,
+      "search": "Haziqa Sajid Haziqa Sajid's DataTalks.Club profile."
+    },
+    {
+      "id": "person:hibajamal",
+      "type": "person",
+      "collection": "person",
+      "label": "Hiba Jamal",
+      "title": "Hiba Jamal",
+      "url": "/people/hibajamal/",
+      "count": 1,
+      "search": "Hiba Jamal Hiba Jamal's DataTalks.Club profile."
+    },
+    {
+      "id": "person:himanshuupreti",
+      "type": "person",
+      "collection": "person",
+      "label": "Himanshu Upreti",
+      "title": "Himanshu Upreti",
+      "url": "/people/himanshuupreti/",
+      "count": 1,
+      "search": "Himanshu Upreti Himanshu Upreti's DataTalks.Club profile."
+    },
+    {
       "id": "person:hugobowneanderson",
       "type": "person",
       "collection": "person",
@@ -1232,6 +2092,66 @@
       "url": "/people/hugobowneanderson/",
       "count": 1,
       "search": "Hugo Bowne Anderson Developer relations leader and educator connecting ML infrastructure, open source ecosystems, practical LLM engineering, and RAG workflows."
+    },
+    {
+      "id": "person:helderrussa",
+      "type": "person",
+      "collection": "person",
+      "label": "Hélder Russa",
+      "title": "Hélder Russa",
+      "url": "/people/helderrussa/",
+      "count": 1,
+      "search": "Hélder Russa Hélder Russa's DataTalks.Club profile."
+    },
+    {
+      "id": "person:igordemidov",
+      "type": "person",
+      "collection": "person",
+      "label": "Igor Demidov",
+      "title": "Igor Demidov",
+      "url": "/people/igordemidov/",
+      "count": 1,
+      "search": "Igor Demidov Igor Demidov's DataTalks.Club profile."
+    },
+    {
+      "id": "person:igorsusmelj",
+      "type": "person",
+      "collection": "person",
+      "label": "Igor Susmelj",
+      "title": "Igor Susmelj",
+      "url": "/people/igorsusmelj/",
+      "count": 1,
+      "search": "Igor Susmelj Igor Susmelj's DataTalks.Club profile."
+    },
+    {
+      "id": "person:iliaivanov",
+      "type": "person",
+      "collection": "person",
+      "label": "Ilia Ivanov",
+      "title": "Ilia Ivanov",
+      "url": "/people/iliaivanov/",
+      "count": 1,
+      "search": "Ilia Ivanov Ilia Ivanov's DataTalks.Club profile."
+    },
+    {
+      "id": "person:illiatodor",
+      "type": "person",
+      "collection": "person",
+      "label": "Illia Todor",
+      "title": "Illia Todor",
+      "url": "/people/illiatodor/",
+      "count": 1,
+      "search": "Illia Todor Illia Todor's DataTalks.Club profile."
+    },
+    {
+      "id": "person:ilyaboytsov",
+      "type": "person",
+      "collection": "person",
+      "label": "Ilya Boytsov",
+      "title": "Ilya Boytsov",
+      "url": "/people/ilyaboytsov/",
+      "count": 1,
+      "search": "Ilya Boytsov Ilya Boytsov's DataTalks.Club profile."
     },
     {
       "id": "person:ioannismesionis",
@@ -1264,6 +2184,16 @@
       "search": "Isabella Bicalho Isabella Bicalho's DataTalks.Club podcast discussions, organized for topic exploration."
     },
     {
+      "id": "person:itaiadmi",
+      "type": "person",
+      "collection": "person",
+      "label": "Itai Admi",
+      "title": "Itai Admi",
+      "url": "/people/itaiadmi/",
+      "count": 1,
+      "search": "Itai Admi Itai Admi's DataTalks.Club profile."
+    },
+    {
       "id": "person:ivanbilan",
       "type": "person",
       "collection": "person",
@@ -1284,6 +2214,16 @@
       "search": "Ivan Brigida Ivan Brigida's DataTalks.Club podcast discussions, organized for topic exploration."
     },
     {
+      "id": "person:ivanpotapov",
+      "type": "person",
+      "collection": "person",
+      "label": "Ivan Potapov",
+      "title": "Ivan Potapov",
+      "url": "/people/ivanpotapov/",
+      "count": 1,
+      "search": "Ivan Potapov Ivan Potapov's DataTalks.Club profile."
+    },
+    {
       "id": "person:jackblandin",
       "type": "person",
       "collection": "person",
@@ -1294,6 +2234,16 @@
       "search": "Jack Blandin Jack Blandin's DataTalks.Club podcast discussions, organized for topic exploration."
     },
     {
+      "id": "person:jacquespeeters",
+      "type": "person",
+      "collection": "person",
+      "label": "Jacques Peeters",
+      "title": "Jacques Peeters",
+      "url": "/people/jacquespeeters/",
+      "count": 1,
+      "search": "Jacques Peeters Jacques Peeters's DataTalks.Club profile."
+    },
+    {
       "id": "person:jakobgraff",
       "type": "person",
       "collection": "person",
@@ -1302,6 +2252,66 @@
       "url": "/people/jakobgraff/",
       "count": 1,
       "search": "Jakob Graff Jakob Graff's DataTalks.Club podcast discussions, organized for topic exploration."
+    },
+    {
+      "id": "person:jamesphoenix",
+      "type": "person",
+      "collection": "person",
+      "label": "James Phoenix",
+      "title": "James Phoenix",
+      "url": "/people/jamesphoenix/",
+      "count": 1,
+      "search": "James Phoenix James Phoenix's DataTalks.Club profile."
+    },
+    {
+      "id": "person:jamiebroomall",
+      "type": "person",
+      "collection": "person",
+      "label": "Jamie Broomall",
+      "title": "Jamie Broomall",
+      "url": "/people/jamiebroomall/",
+      "count": 1,
+      "search": "Jamie Broomall Jamie Broomall's DataTalks.Club profile."
+    },
+    {
+      "id": "person:janschlicht",
+      "type": "person",
+      "collection": "person",
+      "label": "Jan Schlicht",
+      "title": "Jan Schlicht",
+      "url": "/people/janschlicht/",
+      "count": 1,
+      "search": "Jan Schlicht Jan Schlicht's DataTalks.Club profile."
+    },
+    {
+      "id": "person:janzawadzki",
+      "type": "person",
+      "collection": "person",
+      "label": "Jan Zawadzki",
+      "title": "Jan Zawadzki",
+      "url": "/people/janzawadzki/",
+      "count": 1,
+      "search": "Jan Zawadzki Jan Zawadzki's DataTalks.Club profile."
+    },
+    {
+      "id": "person:jannalipenkova",
+      "type": "person",
+      "collection": "person",
+      "label": "Janna Lipenkova",
+      "title": "Janna Lipenkova",
+      "url": "/people/jannalipenkova/",
+      "count": 1,
+      "search": "Janna Lipenkova Janna Lipenkova's DataTalks.Club profile."
+    },
+    {
+      "id": "person:jeanineharb",
+      "type": "person",
+      "collection": "person",
+      "label": "Jeanine Harb",
+      "title": "Jeanine Harb",
+      "url": "/people/jeanineharb/",
+      "count": 1,
+      "search": "Jeanine Harb Jeanine Harb's DataTalks.Club profile."
     },
     {
       "id": "person:jeffkatz",
@@ -1324,6 +2334,26 @@
       "search": "Jekaterina Kokatjuhha Jekaterina Kokatjuhha's DataTalks.Club podcast discussions, organized for topic exploration."
     },
     {
+      "id": "person:jensalbrecht",
+      "type": "person",
+      "collection": "person",
+      "label": "Jens Albrecht",
+      "title": "Jens Albrecht",
+      "url": "/people/jensalbrecht/",
+      "count": 1,
+      "search": "Jens Albrecht Jens Albrecht's DataTalks.Club profile."
+    },
+    {
+      "id": "person:jesseanderson",
+      "type": "person",
+      "collection": "person",
+      "label": "Jesse Anderson",
+      "title": "Jesse Anderson",
+      "url": "/people/jesseanderson/",
+      "count": 1,
+      "search": "Jesse Anderson Jesse Anderson's DataTalks.Club profile."
+    },
+    {
       "id": "person:jessiashdown",
       "type": "person",
       "collection": "person",
@@ -1342,6 +2372,26 @@
       "url": "/people/jessicagreene/",
       "count": 1,
       "search": "Jessica Greene Jessica Greene's DataTalks.Club podcast discussions, organized for topic exploration."
+    },
+    {
+      "id": "person:jessieyaros",
+      "type": "person",
+      "collection": "person",
+      "label": "Jessie Yaros",
+      "title": "Jessie Yaros",
+      "url": "/people/jessieyaros/",
+      "count": 1,
+      "search": "Jessie Yaros Jessie Yaros's DataTalks.Club profile."
+    },
+    {
+      "id": "person:joereis",
+      "type": "person",
+      "collection": "person",
+      "label": "Joe Reis",
+      "title": "Joe Reis",
+      "url": "/people/joereis/",
+      "count": 1,
+      "search": "Joe Reis Joe Reis's DataTalks.Club profile."
     },
     {
       "id": "person:johannabayer",
@@ -1364,6 +2414,76 @@
       "search": "Johannes Hötter Johannes Hötter's DataTalks.Club podcast discussions, organized for topic exploration."
     },
     {
+      "id": "person:jonskeet",
+      "type": "person",
+      "collection": "person",
+      "label": "Jon Skeet",
+      "title": "Jon Skeet",
+      "url": "/people/jonskeet/",
+      "count": 1,
+      "search": "Jon Skeet Jon Skeet's DataTalks.Club profile."
+    },
+    {
+      "id": "person:jonaschristensen",
+      "type": "person",
+      "collection": "person",
+      "label": "Jonas Christensen",
+      "title": "Jonas Christensen",
+      "url": "/people/jonaschristensen/",
+      "count": 1,
+      "search": "Jonas Christensen Jonas Christensen's DataTalks.Club profile."
+    },
+    {
+      "id": "person:jonathanrioux",
+      "type": "person",
+      "collection": "person",
+      "label": "Jonathan Rioux",
+      "title": "Jonathan Rioux",
+      "url": "/people/jonathanrioux/",
+      "count": 1,
+      "search": "Jonathan Rioux Jonathan Rioux's DataTalks.Club profile."
+    },
+    {
+      "id": "person:jordanpeck",
+      "type": "person",
+      "collection": "person",
+      "label": "Jordan Peck",
+      "title": "Jordan Peck",
+      "url": "/people/jordanpeck/",
+      "count": 1,
+      "search": "Jordan Peck Jordan Peck's DataTalks.Club profile."
+    },
+    {
+      "id": "person:joshfischer",
+      "type": "person",
+      "collection": "person",
+      "label": "Josh Fischer",
+      "title": "Josh Fischer",
+      "url": "/people/joshfischer/",
+      "count": 1,
+      "search": "Josh Fischer Josh Fischer's DataTalks.Club profile."
+    },
+    {
+      "id": "person:joshreini",
+      "type": "person",
+      "collection": "person",
+      "label": "Josh Reini",
+      "title": "Josh Reini",
+      "url": "/people/joshreini/",
+      "count": 1,
+      "search": "Josh Reini Josh Reini's DataTalks.Club profile."
+    },
+    {
+      "id": "person:joshtobin",
+      "type": "person",
+      "collection": "person",
+      "label": "Josh Tobin",
+      "title": "Josh Tobin",
+      "url": "/people/joshtobin/",
+      "count": 1,
+      "search": "Josh Tobin Josh Tobin's DataTalks.Club profile."
+    },
+    {
       "id": "person:josemaria",
       "type": "person",
       "collection": "person",
@@ -1372,6 +2492,16 @@
       "url": "/people/josemaria/",
       "count": 1,
       "search": "José María Sánchez Salas José María Sánchez Salas's DataTalks.Club podcast discussions, organized for topic exploration."
+    },
+    {
+      "id": "person:joycekayavila",
+      "type": "person",
+      "collection": "person",
+      "label": "Joyce Kay Avila",
+      "title": "Joyce Kay Avila",
+      "url": "/people/joycekayavila/",
+      "count": 1,
+      "search": "Joyce Kay Avila Joyce Kay Avila's DataTalks.Club profile."
     },
     {
       "id": "person:juanmanuelperafan",
@@ -1404,6 +2534,26 @@
       "search": "Juan Pablo Juan Pablo's DataTalks.Club podcast discussions, organized for topic exploration."
     },
     {
+      "id": "person:juliaostheimer",
+      "type": "person",
+      "collection": "person",
+      "label": "Julia Ostheimer",
+      "title": "Julia Ostheimer",
+      "url": "/people/juliaostheimer/",
+      "count": 1,
+      "search": "Julia Ostheimer Julia Ostheimer's DataTalks.Club profile."
+    },
+    {
+      "id": "person:justinryan",
+      "type": "person",
+      "collection": "person",
+      "label": "Justin Ryan",
+      "title": "Justin Ryan",
+      "url": "/people/justinryan/",
+      "count": 1,
+      "search": "Justin Ryan Justin Ryan's DataTalks.Club profile."
+    },
+    {
       "id": "person:katarzynaforemniak",
       "type": "person",
       "collection": "person",
@@ -1412,6 +2562,16 @@
       "url": "/people/katarzynaforemniak/",
       "count": 1,
       "search": "Katarzyna Foremniak Katarzyna Foremniak's DataTalks.Club podcast discussions, organized for topic exploration."
+    },
+    {
+      "id": "person:kateogochukwunwankwo",
+      "type": "person",
+      "collection": "person",
+      "label": "Kate Ogochukwu Nwankwo",
+      "title": "Kate Ogochukwu Nwankwo",
+      "url": "/people/kateogochukwunwankwo/",
+      "count": 1,
+      "search": "Kate Ogochukwu Nwankwo Kate Ogochukwu Nwankwo's DataTalks.Club profile."
     },
     {
       "id": "person:katharinejarmul",
@@ -1434,6 +2594,86 @@
       "search": "Katie Bauer Katie Bauer's DataTalks.Club podcast discussions, organized for topic exploration."
     },
     {
+      "id": "person:kenyouens-clark",
+      "type": "person",
+      "collection": "person",
+      "label": "Ken Youens-Clark",
+      "title": "Ken Youens-Clark",
+      "url": "/people/kenyouens-clark/",
+      "count": 1,
+      "search": "Ken Youens Clark Ken Youens Clark's DataTalks.Club profile."
+    },
+    {
+      "id": "person:kevinhuo",
+      "type": "person",
+      "collection": "person",
+      "label": "Kevin Huo",
+      "title": "Kevin Huo",
+      "url": "/people/kevinhuo/",
+      "count": 1,
+      "search": "Kevin Huo Kevin Huo's DataTalks.Club profile."
+    },
+    {
+      "id": "person:khuyentran",
+      "type": "person",
+      "collection": "person",
+      "label": "Khuyen Tran",
+      "title": "Khuyen Tran",
+      "url": "/people/khuyentran/",
+      "count": 1,
+      "search": "Khuyen Tran Khuyen Tran's DataTalks.Club profile."
+    },
+    {
+      "id": "person:kimfalk",
+      "type": "person",
+      "collection": "person",
+      "label": "Kim Falk",
+      "title": "Kim Falk",
+      "url": "/people/kimfalk/",
+      "count": 1,
+      "search": "Kim Falk Kim Falk's DataTalks.Club profile."
+    },
+    {
+      "id": "person:kishanmanani",
+      "type": "person",
+      "collection": "person",
+      "label": "Kishan Manani",
+      "title": "Kishan Manani",
+      "url": "/people/kishanmanani/",
+      "count": 1,
+      "search": "Kishan Manani Kishan Manani's DataTalks.Club profile."
+    },
+    {
+      "id": "person:konradbanachewicz",
+      "type": "person",
+      "collection": "person",
+      "label": "Konrad Banachewicz",
+      "title": "Konrad Banachewicz",
+      "url": "/people/konradbanachewicz/",
+      "count": 1,
+      "search": "Konrad Banachewicz Konrad Banachewicz's DataTalks.Club profile."
+    },
+    {
+      "id": "person:krantik-parisa",
+      "type": "person",
+      "collection": "person",
+      "label": "Kranti K. Parisa",
+      "title": "Kranti K. Parisa",
+      "url": "/people/krantik-parisa/",
+      "count": 1,
+      "search": "Kranti K. Parisa Kranti K. Parisa's DataTalks.Club profile."
+    },
+    {
+      "id": "person:krzysztofograbek",
+      "type": "person",
+      "collection": "person",
+      "label": "Krzysztof Ograbek",
+      "title": "Krzysztof Ograbek",
+      "url": "/people/krzysztofograbek/",
+      "count": 1,
+      "search": "Krzysztof Ograbek Krzysztof Ograbek's DataTalks.Club profile."
+    },
+    {
       "id": "person:krzysztofszafanek",
       "type": "person",
       "collection": "person",
@@ -1454,6 +2694,26 @@
       "search": "Ksenia Legostay Ksenia Legostay's DataTalks.Club podcast discussions, organized for topic exploration."
     },
     {
+      "id": "person:kyleshannon",
+      "type": "person",
+      "collection": "person",
+      "label": "Kyle Shannon",
+      "title": "Kyle Shannon",
+      "url": "/people/kyleshannon/",
+      "count": 1,
+      "search": "Kyle Shannon Kyle Shannon's DataTalks.Club profile."
+    },
+    {
+      "id": "person:lalitpagaria",
+      "type": "person",
+      "collection": "person",
+      "label": "Lalit Pagaria",
+      "title": "Lalit Pagaria",
+      "url": "/people/lalitpagaria/",
+      "count": 1,
+      "search": "Lalit Pagaria Lalit Pagaria's DataTalks.Club profile."
+    },
+    {
       "id": "person:larsalbertsson",
       "type": "person",
       "collection": "person",
@@ -1462,6 +2722,26 @@
       "url": "/people/larsalbertsson/",
       "count": 1,
       "search": "Lars Albertsson Data engineering founder and speaker contributing DataOps patterns for scalable platforms, immutable pipelines, and self service data work."
+    },
+    {
+      "id": "person:larysavisengeriyeva",
+      "type": "person",
+      "collection": "person",
+      "label": "Larysa Visengeriyeva",
+      "title": "Larysa Visengeriyeva",
+      "url": "/people/larysavisengeriyeva/",
+      "count": 1,
+      "search": "Larysa Visengeriyeva Larysa Visengeriyeva's DataTalks.Club profile."
+    },
+    {
+      "id": "person:laurencemoroney",
+      "type": "person",
+      "collection": "person",
+      "label": "Laurence Moroney",
+      "title": "Laurence Moroney",
+      "url": "/people/laurencemoroney/",
+      "count": 1,
+      "search": "Laurence Moroney Laurence Moroney's DataTalks.Club profile."
     },
     {
       "id": "person:lavanyagupta",
@@ -1474,6 +2754,36 @@
       "search": "Lavanya Gupta Applied AI/ML researcher connecting long context LLM evaluation, industry publishing, prototyping, and career growth."
     },
     {
+      "id": "person:leandrovonwerra",
+      "type": "person",
+      "collection": "person",
+      "label": "Leandro von Werra",
+      "title": "Leandro von Werra",
+      "url": "/people/leandrovonwerra/",
+      "count": 1,
+      "search": "Leandro von Werra Leandro von Werra's DataTalks.Club profile."
+    },
+    {
+      "id": "person:leonwei",
+      "type": "person",
+      "collection": "person",
+      "label": "Leon Wei",
+      "title": "Leon Wei",
+      "url": "/people/leonwei/",
+      "count": 1,
+      "search": "Leon Wei Leon Wei's DataTalks.Club profile."
+    },
+    {
+      "id": "person:leonardputtmann",
+      "type": "person",
+      "collection": "person",
+      "label": "Leonard Püttmann",
+      "title": "Leonard Püttmann",
+      "url": "/people/leonardputtmann/",
+      "count": 1,
+      "search": "Leonard Püttmann Leonard Püttmann's DataTalks.Club profile."
+    },
+    {
       "id": "person:leonidkholkine",
       "type": "person",
       "collection": "person",
@@ -1482,6 +2792,26 @@
       "url": "/people/leonidkholkine/",
       "count": 1,
       "search": "Leonid Kholkine Leonid Kholkine's DataTalks.Club podcast discussions, organized for topic exploration."
+    },
+    {
+      "id": "person:lerakaimashnikova",
+      "type": "person",
+      "collection": "person",
+      "label": "Lera Kaimashnіkova",
+      "title": "Lera Kaimashnіkova",
+      "url": "/people/lerakaimashnikova/",
+      "count": 1,
+      "search": "Lera Kaimashnіkova Lera Kaimashnіkova's DataTalks.Club profile."
+    },
+    {
+      "id": "person:lewistunstall",
+      "type": "person",
+      "collection": "person",
+      "label": "Lewis Tunstall",
+      "title": "Lewis Tunstall",
+      "url": "/people/lewistunstall/",
+      "count": 1,
+      "search": "Lewis Tunstall Lewis Tunstall's DataTalks.Club profile."
     },
     {
       "id": "person:liesbethdingemans",
@@ -1554,6 +2884,26 @@
       "search": "Loïc Magnien Loïc Magnien's DataTalks.Club podcast discussions, organized for topic exploration."
     },
     {
+      "id": "person:lucamassaron",
+      "type": "person",
+      "collection": "person",
+      "label": "Luca Massaron",
+      "title": "Luca Massaron",
+      "url": "/people/lucamassaron/",
+      "count": 1,
+      "search": "Luca Massaron Luca Massaron's DataTalks.Club profile."
+    },
+    {
+      "id": "person:luisserrano",
+      "type": "person",
+      "collection": "person",
+      "label": "Luis Serrano",
+      "title": "Luis Serrano",
+      "url": "/people/luisserrano/",
+      "count": 1,
+      "search": "Luis Serrano Luis Serrano's DataTalks.Club profile."
+    },
+    {
       "id": "person:lukewhipps",
       "type": "person",
       "collection": "person",
@@ -1562,6 +2912,76 @@
       "url": "/people/lukewhipps/",
       "count": 1,
       "search": "Luke Whipps AI recruiter and podcast host contributing practical guidance on data science job search, resumes, portfolios, interviews, and hiring signals."
+    },
+    {
+      "id": "person:luisoliveira",
+      "type": "person",
+      "collection": "person",
+      "label": "Luís Oliveira",
+      "title": "Luís Oliveira",
+      "url": "/people/luisoliveira/",
+      "count": 1,
+      "search": "Luís Oliveira Luís Oliveira's DataTalks.Club profile."
+    },
+    {
+      "id": "person:madihakhalid",
+      "type": "person",
+      "collection": "person",
+      "label": "Madiha Khalid",
+      "title": "Madiha Khalid",
+      "url": "/people/madihakhalid/",
+      "count": 1,
+      "search": "Madiha Khalid Madiha Khalid's DataTalks.Club profile."
+    },
+    {
+      "id": "person:magdalenakonkiewicz",
+      "type": "person",
+      "collection": "person",
+      "label": "Magdalena Konkiewicz",
+      "title": "Magdalena Konkiewicz",
+      "url": "/people/magdalenakonkiewicz/",
+      "count": 1,
+      "search": "Magdalena Konkiewicz Magdalena Konkiewicz's DataTalks.Club profile."
+    },
+    {
+      "id": "person:magdalenakuhn",
+      "type": "person",
+      "collection": "person",
+      "label": "Magdalena Kuhn",
+      "title": "Magdalena Kuhn",
+      "url": "/people/magdalenakuhn/",
+      "count": 1,
+      "search": "Magdalena Kuhn Magdalena Kuhn's DataTalks.Club profile."
+    },
+    {
+      "id": "person:mahmoudaziz",
+      "type": "person",
+      "collection": "person",
+      "label": "Mahmoud AbdelAziz",
+      "title": "Mahmoud AbdelAziz",
+      "url": "/people/mahmoudaziz/",
+      "count": 1,
+      "search": "Mahmoud AbdelAziz Mahmoud AbdelAziz's DataTalks.Club profile."
+    },
+    {
+      "id": "person:manmohangosada",
+      "type": "person",
+      "collection": "person",
+      "label": "Manmohan Gosada",
+      "title": "Manmohan Gosada",
+      "url": "/people/manmohangosada/",
+      "count": 1,
+      "search": "Manmohan Gosada Manmohan Gosada's DataTalks.Club profile."
+    },
+    {
+      "id": "person:manojkukreja",
+      "type": "person",
+      "collection": "person",
+      "label": "Manoj Kukreja",
+      "title": "Manoj Kukreja",
+      "url": "/people/manojkukreja/",
+      "count": 1,
+      "search": "Manoj Kukreja Manoj Kukreja's DataTalks.Club profile."
     },
     {
       "id": "person:marcellolarocca",
@@ -1644,6 +3064,66 @@
       "search": "Marijn Markus Marijn Markus's DataTalks.Club podcast discussions, organized for topic exploration."
     },
     {
+      "id": "person:mariolazo",
+      "type": "person",
+      "collection": "person",
+      "label": "Mario Lazo",
+      "title": "Mario Lazo",
+      "url": "/people/mariolazo/",
+      "count": 1,
+      "search": "Mario Lazo Mario Lazo's DataTalks.Club profile."
+    },
+    {
+      "id": "person:markryan",
+      "type": "person",
+      "collection": "person",
+      "label": "Mark Ryan",
+      "title": "Mark Ryan",
+      "url": "/people/markryan/",
+      "count": 1,
+      "search": "Mark Ryan Mark Ryan's DataTalks.Club profile."
+    },
+    {
+      "id": "person:martinkleppmann",
+      "type": "person",
+      "collection": "person",
+      "label": "Martin Kleppmann",
+      "title": "Martin Kleppmann",
+      "url": "/people/martinkleppmann/",
+      "count": 1,
+      "search": "Martin Kleppmann Martin Kleppmann's DataTalks.Club profile."
+    },
+    {
+      "id": "person:martinpotancok",
+      "type": "person",
+      "collection": "person",
+      "label": "Martin Potančok",
+      "title": "Martin Potančok",
+      "url": "/people/martinpotancok/",
+      "count": 1,
+      "search": "Martin Potančok Martin Potančok's DataTalks.Club profile."
+    },
+    {
+      "id": "person:maryjanedykeman",
+      "type": "person",
+      "collection": "person",
+      "label": "Mary Jane Dykeman",
+      "title": "Mary Jane Dykeman",
+      "url": "/people/maryjanedykeman/",
+      "count": 1,
+      "search": "Mary Jane Dykeman Mary Jane Dykeman's DataTalks.Club profile."
+    },
+    {
+      "id": "person:maryamramezanibartsch",
+      "type": "person",
+      "collection": "person",
+      "label": "Maryam Ramezani-Bartsch",
+      "title": "Maryam Ramezani-Bartsch",
+      "url": "/people/maryamramezanibartsch/",
+      "count": 1,
+      "search": "Maryam Ramezani Bartsch Maryam Ramezani Bartsch's DataTalks.Club profile."
+    },
+    {
       "id": "person:marysiawinkels",
       "type": "person",
       "collection": "person",
@@ -1652,6 +3132,66 @@
       "url": "/people/marysiawinkels/",
       "count": 1,
       "search": "Marysia Winkels Marysia Winkels's DataTalks.Club podcast discussions, organized for topic exploration."
+    },
+    {
+      "id": "person:mattharrison",
+      "type": "person",
+      "collection": "person",
+      "label": "Matt Harrison",
+      "title": "Matt Harrison",
+      "url": "/people/mattharrison/",
+      "count": 1,
+      "search": "Matt Harrison Matt Harrison's DataTalks.Club profile."
+    },
+    {
+      "id": "person:mattpalmer",
+      "type": "person",
+      "collection": "person",
+      "label": "Matt Palmer",
+      "title": "Matt Palmer",
+      "url": "/people/mattpalmer/",
+      "count": 1,
+      "search": "Matt Palmer Matt Palmer's DataTalks.Club profile."
+    },
+    {
+      "id": "person:matthewhousley",
+      "type": "person",
+      "collection": "person",
+      "label": "Matthew Housley",
+      "title": "Matthew Housley",
+      "url": "/people/matthewhousley/",
+      "count": 1,
+      "search": "Matthew Housley Matthew Housley's DataTalks.Club profile."
+    },
+    {
+      "id": "person:maxschultze",
+      "type": "person",
+      "collection": "person",
+      "label": "Max Schultze",
+      "title": "Max Schultze",
+      "url": "/people/maxschultze/",
+      "count": 1,
+      "search": "Max Schultze Max Schultze's DataTalks.Club profile."
+    },
+    {
+      "id": "person:maximlukichev",
+      "type": "person",
+      "collection": "person",
+      "label": "Maxim Lukichev",
+      "title": "Maxim Lukichev",
+      "url": "/people/maximlukichev/",
+      "count": 1,
+      "search": "Maxim Lukichev Maxim Lukichev's DataTalks.Club profile."
+    },
+    {
+      "id": "person:maximelabonne",
+      "type": "person",
+      "collection": "person",
+      "label": "Maxime Labonne",
+      "title": "Maxime Labonne",
+      "url": "/people/maximelabonne/",
+      "count": 1,
+      "search": "Maxime Labonne Maxime Labonne's DataTalks.Club profile."
     },
     {
       "id": "person:mehdiouazza",
@@ -1674,6 +3214,16 @@
       "search": "Meor Amer Meor Amer's DataTalks.Club podcast discussions, organized for topic exploration."
     },
     {
+      "id": "person:mereltheisen",
+      "type": "person",
+      "collection": "person",
+      "label": "Merel Theisen",
+      "title": "Merel Theisen",
+      "url": "/people/mereltheisen/",
+      "count": 1,
+      "search": "Merel Theisen Merel Theisen's DataTalks.Club profile."
+    },
+    {
       "id": "person:mervenoyan",
       "type": "person",
       "collection": "person",
@@ -1694,6 +3244,36 @@
       "search": "Meryem Arik LLM startup founder focused on deployable language models, fine tuning, retrieval, open source models, and production tradeoffs."
     },
     {
+      "id": "person:meysamasgarichenaghlu",
+      "type": "person",
+      "collection": "person",
+      "label": "Meysam Asgari-Chenaghlu",
+      "title": "Meysam Asgari-Chenaghlu",
+      "url": "/people/meysamasgarichenaghlu/",
+      "count": 1,
+      "search": "Meysam Asgari Chenaghlu Meysam Asgari Chenaghlu's DataTalks.Club profile."
+    },
+    {
+      "id": "person:michaelmunn",
+      "type": "person",
+      "collection": "person",
+      "label": "Michael Munn",
+      "title": "Michael Munn",
+      "url": "/people/michaelmunn/",
+      "count": 1,
+      "search": "Michael Munn Michael Munn's DataTalks.Club profile."
+    },
+    {
+      "id": "person:michaeltaylor",
+      "type": "person",
+      "collection": "person",
+      "label": "Michael Taylor",
+      "title": "Michael Taylor",
+      "url": "/people/michaeltaylor/",
+      "count": 1,
+      "search": "Michael Taylor Michael Taylor's DataTalks.Club profile."
+    },
+    {
       "id": "person:micheallanham",
       "type": "person",
       "collection": "person",
@@ -1702,6 +3282,16 @@
       "url": "/people/micheallanham/",
       "count": 1,
       "search": "Micheal Lanham Micheal Lanham's DataTalks.Club podcast discussions, organized for topic exploration."
+    },
+    {
+      "id": "person:miguelmorales",
+      "type": "person",
+      "collection": "person",
+      "label": "Miguel Morales",
+      "title": "Miguel Morales",
+      "url": "/people/miguelmorales/",
+      "count": 1,
+      "search": "Miguel Morales Miguel Morales's DataTalks.Club profile."
     },
     {
       "id": "person:mihaileric",
@@ -1714,6 +3304,16 @@
       "search": "Mihail Eric Mihail Eric's DataTalks.Club podcast discussions, organized for topic exploration."
     },
     {
+      "id": "person:mikhailsveshnikov",
+      "type": "person",
+      "collection": "person",
+      "label": "Mikhail Sveshnikov",
+      "title": "Mikhail Sveshnikov",
+      "url": "/people/mikhailsveshnikov/",
+      "count": 1,
+      "search": "Mikhail Sveshnikov Mikhail Sveshnikov's DataTalks.Club profile."
+    },
+    {
       "id": "person:mikiobraun",
       "type": "person",
       "collection": "person",
@@ -1722,6 +3322,16 @@
       "url": "/people/mikiobraun/",
       "count": 1,
       "search": "Mikio Braun Mikio Braun's DataTalks.Club podcast discussions, organized for topic exploration."
+    },
+    {
+      "id": "person:moeinforoughi",
+      "type": "person",
+      "collection": "person",
+      "label": "Moein Foroughi",
+      "title": "Moein Foroughi",
+      "url": "/people/moeinforoughi/",
+      "count": 1,
+      "search": "Moein Foroughi Moein Foroughi's DataTalks.Club profile."
     },
     {
       "id": "person:misraturp",
@@ -1744,6 +3354,26 @@
       "search": "Nadia Nahar Nadia Nahar's DataTalks.Club podcast discussions, organized for topic exploration."
     },
     {
+      "id": "person:nakulbajaj",
+      "type": "person",
+      "collection": "person",
+      "label": "Nakul Bajaj",
+      "title": "Nakul Bajaj",
+      "url": "/people/nakulbajaj/",
+      "count": 1,
+      "search": "Nakul Bajaj Nakul Bajaj's DataTalks.Club profile."
+    },
+    {
+      "id": "person:naominguyen",
+      "type": "person",
+      "collection": "person",
+      "label": "Naomi Nguyen",
+      "title": "Naomi Nguyen",
+      "url": "/people/naominguyen/",
+      "count": 1,
+      "search": "Naomi Nguyen Naomi Nguyen's DataTalks.Club profile."
+    },
+    {
       "id": "person:nasserqadri",
       "type": "person",
       "collection": "person",
@@ -1752,6 +3382,16 @@
       "url": "/people/nasserqadri/",
       "count": 1,
       "search": "Nasser Qadri Nasser Qadri's DataTalks.Club podcast discussions, organized for topic exploration."
+    },
+    {
+      "id": "person:nastasiasaby",
+      "type": "person",
+      "collection": "person",
+      "label": "Nastasia Saby",
+      "title": "Nastasia Saby",
+      "url": "/people/nastasiasaby/",
+      "count": 1,
+      "search": "Nastasia Saby Nastasia Saby's DataTalks.Club profile."
     },
     {
       "id": "person:nataliekwong",
@@ -1764,6 +3404,36 @@
       "search": "Natalie Kwong Natalie Kwong's DataTalks.Club podcast discussions, organized for topic exploration."
     },
     {
+      "id": "person:nataliyaportman",
+      "type": "person",
+      "collection": "person",
+      "label": "Nataliya Portman",
+      "title": "Nataliya Portman",
+      "url": "/people/nataliyaportman/",
+      "count": 1,
+      "search": "Nataliya Portman Nataliya Portman's DataTalks.Club profile."
+    },
+    {
+      "id": "person:nathanwang",
+      "type": "person",
+      "collection": "person",
+      "label": "Nathan Wang",
+      "title": "Nathan Wang",
+      "url": "/people/nathanwang/",
+      "count": 1,
+      "search": "Nathan Wang Nathan Wang's DataTalks.Club profile."
+    },
+    {
+      "id": "person:neallathia",
+      "type": "person",
+      "collection": "person",
+      "label": "Neal Lathia",
+      "title": "Neal Lathia",
+      "url": "/people/neallathia/",
+      "count": 1,
+      "search": "Neal Lathia Neal Lathia's DataTalks.Club profile."
+    },
+    {
       "id": "person:nemanjaradojkovic",
       "type": "person",
       "collection": "person",
@@ -1772,6 +3442,36 @@
       "url": "/people/nemanjaradojkovic/",
       "count": 1,
       "search": "Nemanja Radojkovic MLOps engineer and teacher connecting regulated finance deployments, startup scale MLOps, data engineering, and career transition."
+    },
+    {
+      "id": "person:niallmurphy",
+      "type": "person",
+      "collection": "person",
+      "label": "Niall Murphy",
+      "title": "Niall Murphy",
+      "url": "/people/niallmurphy/",
+      "count": 1,
+      "search": "Niall Murphy Niall Murphy's DataTalks.Club profile."
+    },
+    {
+      "id": "person:nicholaslotz",
+      "type": "person",
+      "collection": "person",
+      "label": "Nicholas Lotz",
+      "title": "Nicholas Lotz",
+      "url": "/people/nicholaslotz/",
+      "count": 1,
+      "search": "Nicholas Lotz Nicholas Lotz's DataTalks.Club profile."
+    },
+    {
+      "id": "person:nickbilozerov",
+      "type": "person",
+      "collection": "person",
+      "label": "Nick Bilozerov",
+      "title": "Nick Bilozerov",
+      "url": "/people/nickbilozerov/",
+      "count": 1,
+      "search": "Nick Bilozerov Nick Bilozerov's DataTalks.Club profile."
     },
     {
       "id": "person:nicksingh",
@@ -1794,6 +3494,56 @@
       "search": "Nicolas Rassam Nicolas Rassam's DataTalks.Club podcast discussions, organized for topic exploration."
     },
     {
+      "id": "person:nielsenaileen",
+      "type": "person",
+      "collection": "person",
+      "label": "Nielsen Aileen",
+      "title": "Nielsen Aileen",
+      "url": "/people/nielsenaileen/",
+      "count": 1,
+      "search": "Nielsen Aileen Nielsen Aileen's DataTalks.Club profile."
+    },
+    {
+      "id": "person:nikbakanchev",
+      "type": "person",
+      "collection": "person",
+      "label": "Nik Bakanchev",
+      "title": "Nik Bakanchev",
+      "url": "/people/nikbakanchev/",
+      "count": 1,
+      "search": "Nik Bakanchev Nik Bakanchev's DataTalks.Club profile."
+    },
+    {
+      "id": "person:nikitabakanchev",
+      "type": "person",
+      "collection": "person",
+      "label": "Nik Bakanchev",
+      "title": "Nik Bakanchev",
+      "url": "/people/nikitabakanchev/",
+      "count": 1,
+      "search": "Nik Bakanchev Nik Bakanchev's DataTalks.Club profile."
+    },
+    {
+      "id": "person:nikitaiserson",
+      "type": "person",
+      "collection": "person",
+      "label": "Nikita Iserson",
+      "title": "Nikita Iserson",
+      "url": "/people/nikitaiserson/",
+      "count": 1,
+      "search": "Nikita Iserson Nikita Iserson's DataTalks.Club profile."
+    },
+    {
+      "id": "person:nikitakozodoi",
+      "type": "person",
+      "collection": "person",
+      "label": "Nikita Kozodoi",
+      "title": "Nikita Kozodoi",
+      "url": "/people/nikitakozodoi/",
+      "count": 1,
+      "search": "Nikita Kozodoi Nikita Kozodoi's DataTalks.Club profile."
+    },
+    {
       "id": "person:nikolamaksimovic",
       "type": "person",
       "collection": "person",
@@ -1802,6 +3552,36 @@
       "url": "/people/nikolamaksimovic/",
       "count": 1,
       "search": "Nikola Maksimovic Nikola Maksimovic's DataTalks.Club podcast discussions, organized for topic exploration."
+    },
+    {
+      "id": "person:nikolaysmorchkov",
+      "type": "person",
+      "collection": "person",
+      "label": "Nikolay Smorchkov",
+      "title": "Nikolay Smorchkov",
+      "url": "/people/nikolaysmorchkov/",
+      "count": 1,
+      "search": "Nikolay Smorchkov Nikolay Smorchkov's DataTalks.Club profile."
+    },
+    {
+      "id": "person:ningwang",
+      "type": "person",
+      "collection": "person",
+      "label": "Ning Wang",
+      "title": "Ning Wang",
+      "url": "/people/ningwang/",
+      "count": 1,
+      "search": "Ning Wang Ning Wang's DataTalks.Club profile."
+    },
+    {
+      "id": "person:nishantmohan",
+      "type": "person",
+      "collection": "person",
+      "label": "Nishant Mohan",
+      "title": "Nishant Mohan",
+      "url": "/people/nishantmohan/",
+      "count": 1,
+      "search": "Nishant Mohan Nishant Mohan's DataTalks.Club profile."
     },
     {
       "id": "person:noahgift",
@@ -1814,6 +3594,26 @@
       "search": "Noah Gift Noah Gift's DataTalks.Club podcast discussions, organized for topic exploration."
     },
     {
+      "id": "person:noelkwan",
+      "type": "person",
+      "collection": "person",
+      "label": "Noel Kwan",
+      "title": "Noel Kwan",
+      "url": "/people/noelkwan/",
+      "count": 1,
+      "search": "Noel Kwan Noel Kwan's DataTalks.Club profile."
+    },
+    {
+      "id": "person:nourkaressli",
+      "type": "person",
+      "collection": "person",
+      "label": "Nour Karessli",
+      "title": "Nour Karessli",
+      "url": "/people/nourkaressli/",
+      "count": 1,
+      "search": "Nour Karessli Nour Karessli's DataTalks.Club profile."
+    },
+    {
       "id": "person:olegnovikov",
       "type": "person",
       "collection": "person",
@@ -1822,6 +3622,16 @@
       "url": "/people/olegnovikov/",
       "count": 1,
       "search": "Oleg Novikov Oleg Novikov's DataTalks.Club podcast discussions, organized for topic exploration."
+    },
+    {
+      "id": "person:olegpolivin",
+      "type": "person",
+      "collection": "person",
+      "label": "Oleg Polivin",
+      "title": "Oleg Polivin",
+      "url": "/people/olegpolivin/",
+      "count": 1,
+      "search": "Oleg Polivin Oleg Polivin's DataTalks.Club profile."
     },
     {
       "id": "person:olgaivina",
@@ -1834,6 +3644,36 @@
       "search": "Olga Ivina Olga Ivina's DataTalks.Club podcast discussions, organized for topic exploration."
     },
     {
+      "id": "person:olgapetrova",
+      "type": "person",
+      "collection": "person",
+      "label": "Olga Petrova",
+      "title": "Olga Petrova",
+      "url": "/people/olgapetrova/",
+      "count": 1,
+      "search": "Olga Petrova Olga Petrova's DataTalks.Club profile."
+    },
+    {
+      "id": "person:ondrejbothe",
+      "type": "person",
+      "collection": "person",
+      "label": "Ondřej Bothe",
+      "title": "Ondřej Bothe",
+      "url": "/people/ondrejbothe/",
+      "count": 1,
+      "search": "Ondřej Bothe Ondřej Bothe's DataTalks.Club profile."
+    },
+    {
+      "id": "person:ondrejkubera",
+      "type": "person",
+      "collection": "person",
+      "label": "Ondřej Kubera",
+      "title": "Ondřej Kubera",
+      "url": "/people/ondrejkubera/",
+      "count": 1,
+      "search": "Ondřej Kubera Ondřej Kubera's DataTalks.Club profile."
+    },
+    {
       "id": "person:orellgarten",
       "type": "person",
       "collection": "person",
@@ -1842,6 +3682,36 @@
       "url": "/people/orellgarten/",
       "count": 1,
       "search": "Orell Garten Orell Garten's DataTalks.Club podcast discussions, organized for topic exploration."
+    },
+    {
+      "id": "person:orlandohohmeier",
+      "type": "person",
+      "collection": "person",
+      "label": "Orlando Hohmeier",
+      "title": "Orlando Hohmeier",
+      "url": "/people/orlandohohmeier/",
+      "count": 1,
+      "search": "Orlando Hohmeier Orlando Hohmeier's DataTalks.Club profile."
+    },
+    {
+      "id": "person:padmachitturi",
+      "type": "person",
+      "collection": "person",
+      "label": "Padma Chitturi",
+      "title": "Padma Chitturi",
+      "url": "/people/padmachitturi/",
+      "count": 1,
+      "search": "Padma Chitturi Padma Chitturi's DataTalks.Club profile."
+    },
+    {
+      "id": "person:parulpandey",
+      "type": "person",
+      "collection": "person",
+      "label": "Parul Pandey",
+      "title": "Parul Pandey",
+      "url": "/people/parulpandey/",
+      "count": 1,
+      "search": "Parul Pandey Parul Pandey's DataTalks.Club profile."
     },
     {
       "id": "person:parvathykrishnan",
@@ -1864,6 +3734,16 @@
       "search": "Pastor Soto Pastor Soto's DataTalks.Club podcast discussions, organized for topic exploration."
     },
     {
+      "id": "person:patriciocerdamardini",
+      "type": "person",
+      "collection": "person",
+      "label": "Patricio Cerda Mardini",
+      "title": "Patricio Cerda Mardini",
+      "url": "/people/patriciocerdamardini/",
+      "count": 1,
+      "search": "Patricio Cerda Mardini Patricio Cerda Mardini's DataTalks.Club profile."
+    },
+    {
       "id": "person:pauliusztin",
       "type": "person",
       "collection": "person",
@@ -1872,6 +3752,16 @@
       "url": "/people/pauliusztin/",
       "count": 1,
       "search": "Paul Iusztin Paul Iusztin's DataTalks.Club podcast discussions, organized for topic exploration."
+    },
+    {
+      "id": "person:paulorland",
+      "type": "person",
+      "collection": "person",
+      "label": "Paul Orland",
+      "title": "Paul Orland",
+      "url": "/people/paulorland/",
+      "count": 1,
+      "search": "Paul Orland Paul Orland's DataTalks.Club profile."
     },
     {
       "id": "person:paulineclavelloux",
@@ -1884,6 +3774,46 @@
       "search": "Pauline Clavelloux Pauline Clavelloux's DataTalks.Club podcast discussions, organized for topic exploration."
     },
     {
+      "id": "person:pavelchernetsov",
+      "type": "person",
+      "collection": "person",
+      "label": "Pavel Chernetsov",
+      "title": "Pavel Chernetsov",
+      "url": "/people/pavelchernetsov/",
+      "count": 1,
+      "search": "Pavel Chernetsov Pavel Chernetsov's DataTalks.Club profile."
+    },
+    {
+      "id": "person:philwinder",
+      "type": "person",
+      "collection": "person",
+      "label": "Phil Winder",
+      "title": "Phil Winder",
+      "url": "/people/philwinder/",
+      "count": 1,
+      "search": "Phil Winder Phil Winder's DataTalks.Club profile."
+    },
+    {
+      "id": "person:philippesaade",
+      "type": "person",
+      "collection": "person",
+      "label": "Philippe Saadé",
+      "title": "Philippe Saadé",
+      "url": "/people/philippesaade/",
+      "count": 1,
+      "search": "Philippe Saadé Philippe Saadé's DataTalks.Club profile."
+    },
+    {
+      "id": "person:pierpaoloippolito",
+      "type": "person",
+      "collection": "person",
+      "label": "Pier Paolo Ippolito",
+      "title": "Pier Paolo Ippolito",
+      "url": "/people/pierpaoloippolito/",
+      "count": 1,
+      "search": "Pier Paolo Ippolito Pier Paolo Ippolito's DataTalks.Club profile."
+    },
+    {
       "id": "person:polinamosolova",
       "type": "person",
       "collection": "person",
@@ -1894,6 +3824,36 @@
       "search": "Polina Mosolova Polina Mosolova's DataTalks.Club podcast discussions, organized for topic exploration."
     },
     {
+      "id": "person:prasoonshukla",
+      "type": "person",
+      "collection": "person",
+      "label": "Prasoon Shukla",
+      "title": "Prasoon Shukla",
+      "url": "/people/prasoonshukla/",
+      "count": 1,
+      "search": "Prasoon Shukla Prasoon Shukla's DataTalks.Club profile."
+    },
+    {
+      "id": "person:prateekjoshi",
+      "type": "person",
+      "collection": "person",
+      "label": "Prateek Joshi",
+      "title": "Prateek Joshi",
+      "url": "/people/prateekjoshi/",
+      "count": 1,
+      "search": "Prateek Joshi Prateek Joshi's DataTalks.Club profile."
+    },
+    {
+      "id": "person:rachaeltatman",
+      "type": "person",
+      "collection": "person",
+      "label": "Rachael Tatman",
+      "title": "Rachael Tatman",
+      "url": "/people/rachaeltatman/",
+      "count": 1,
+      "search": "Rachael Tatman Rachael Tatman's DataTalks.Club profile."
+    },
+    {
       "id": "person:rachellim",
       "type": "person",
       "collection": "person",
@@ -1902,6 +3862,26 @@
       "url": "/people/rachellim/",
       "count": 1,
       "search": "Rachel Lim Rachel Lim's DataTalks.Club podcast discussions, organized for topic exploration."
+    },
+    {
+      "id": "person:radovanbacovic",
+      "type": "person",
+      "collection": "person",
+      "label": "Radovan Bacovic",
+      "title": "Radovan Bacovic",
+      "url": "/people/radovanbacovic/",
+      "count": 1,
+      "search": "Radovan Bacovic Radovan Bacovic's DataTalks.Club profile."
+    },
+    {
+      "id": "person:raghavbali",
+      "type": "person",
+      "collection": "person",
+      "label": "Raghav Bali",
+      "title": "Raghav Bali",
+      "url": "/people/raghavbali/",
+      "count": 1,
+      "search": "Raghav Bali Raghav Bali's DataTalks.Club profile."
     },
     {
       "id": "person:16rahuljain",
@@ -1922,6 +3902,16 @@
       "url": "/people/rahuljain/",
       "count": 1,
       "search": "Rahul Jain Rahul Jain's DataTalks.Club podcast discussions, organized for topic exploration."
+    },
+    {
+      "id": "person:ramiroaznar",
+      "type": "person",
+      "collection": "person",
+      "label": "Ramiro Aznar",
+      "title": "Ramiro Aznar",
+      "url": "/people/ramiroaznar/",
+      "count": 1,
+      "search": "Ramiro Aznar Ramiro Aznar's DataTalks.Club profile."
     },
     {
       "id": "person:ranjithakulkarni",
@@ -1964,6 +3954,16 @@
       "search": "Revathy Ramalingam Revathy Ramalingam's DataTalks.Club podcast discussions, organized for topic exploration."
     },
     {
+      "id": "person:rileensinha",
+      "type": "person",
+      "collection": "person",
+      "label": "Rileen Sinha",
+      "title": "Rileen Sinha",
+      "url": "/people/rileensinha/",
+      "count": 1,
+      "search": "Rileen Sinha Rileen Sinha's DataTalks.Club profile."
+    },
+    {
       "id": "person:rishabhbhargava",
       "type": "person",
       "collection": "person",
@@ -1972,6 +3972,16 @@
       "url": "/people/rishabhbhargava/",
       "count": 1,
       "search": "Rishabh Bhargava Rishabh Bhargava's DataTalks.Club podcast discussions, organized for topic exploration."
+    },
+    {
+      "id": "person:robdewit",
+      "type": "person",
+      "collection": "person",
+      "label": "Rob De Wit",
+      "title": "Rob De Wit",
+      "url": "/people/robdewit/",
+      "count": 1,
+      "search": "Rob De Wit Rob De Wit's DataTalks.Club profile."
     },
     {
       "id": "person:robzinkov",
@@ -1994,6 +4004,16 @@
       "search": "Roksolana Diachuk Roksolana Diachuk's DataTalks.Club podcast discussions, organized for topic exploration."
     },
     {
+      "id": "person:romangrebennikov",
+      "type": "person",
+      "collection": "person",
+      "label": "Roman Grebennikov",
+      "title": "Roman Grebennikov",
+      "url": "/people/romangrebennikov/",
+      "count": 1,
+      "search": "Roman Grebennikov Roman Grebennikov's DataTalks.Club profile."
+    },
+    {
       "id": "person:rosonaeldred",
       "type": "person",
       "collection": "person",
@@ -2004,6 +4024,36 @@
       "search": "Rosona Eldred Rosona Eldred's DataTalks.Club podcast discussions, organized for topic exploration."
     },
     {
+      "id": "person:rossbrigoli",
+      "type": "person",
+      "collection": "person",
+      "label": "Ross Brigoli",
+      "title": "Ross Brigoli",
+      "url": "/people/rossbrigoli/",
+      "count": 1,
+      "search": "Ross Brigoli Ross Brigoli's DataTalks.Club profile."
+    },
+    {
+      "id": "person:royjafari",
+      "type": "person",
+      "collection": "person",
+      "label": "Roy Jafari",
+      "title": "Roy Jafari",
+      "url": "/people/royjafari/",
+      "count": 1,
+      "search": "Roy Jafari Roy Jafari's DataTalks.Club profile."
+    },
+    {
+      "id": "person:ruimachado",
+      "type": "person",
+      "collection": "person",
+      "label": "Rui Machado",
+      "title": "Rui Machado",
+      "url": "/people/ruimachado/",
+      "count": 1,
+      "search": "Rui Machado Rui Machado's DataTalks.Club profile."
+    },
+    {
       "id": "person:ruslanshchuchkin",
       "type": "person",
       "collection": "person",
@@ -2012,6 +4062,16 @@
       "url": "/people/ruslanshchuchkin/",
       "count": 1,
       "search": "Ruslan Shchuchkin Ruslan Shchuchkin's DataTalks.Club podcast discussions, organized for topic exploration."
+    },
+    {
+      "id": "person:rustemfeyzkhanov",
+      "type": "person",
+      "collection": "person",
+      "label": "Rustem Feyzkhanov",
+      "title": "Rustem Feyzkhanov",
+      "url": "/people/rustemfeyzkhanov/",
+      "count": 1,
+      "search": "Rustem Feyzkhanov Rustem Feyzkhanov's DataTalks.Club profile."
     },
     {
       "id": "person:sabinafirtala",
@@ -2032,6 +4092,36 @@
       "url": "/people/sadatanwar/",
       "count": 1,
       "search": "Sadat Anwar Sadat Anwar's DataTalks.Club podcast discussions, organized for topic exploration."
+    },
+    {
+      "id": "person:sadikbakiu",
+      "type": "person",
+      "collection": "person",
+      "label": "Sadik Bakiu",
+      "title": "Sadik Bakiu",
+      "url": "/people/sadikbakiu/",
+      "count": 1,
+      "search": "Sadik Bakiu Sadik Bakiu's DataTalks.Club profile."
+    },
+    {
+      "id": "person:sageelliott",
+      "type": "person",
+      "collection": "person",
+      "label": "Sage Elliott",
+      "title": "Sage Elliott",
+      "url": "/people/sageelliott/",
+      "count": 1,
+      "search": "Sage Elliott Sage Elliott's DataTalks.Club profile."
+    },
+    {
+      "id": "person:sallyanndelucia",
+      "type": "person",
+      "collection": "person",
+      "label": "Sally-Ann DeLucia",
+      "title": "Sally-Ann DeLucia",
+      "url": "/people/sallyanndelucia/",
+      "count": 1,
+      "search": "Sally Ann DeLucia Sally Ann DeLucia's DataTalks.Club profile."
     },
     {
       "id": "person:sandrakublik",
@@ -2084,6 +4174,16 @@
       "search": "Sara Menefee Sara Menefee's DataTalks.Club podcast discussions, organized for topic exploration."
     },
     {
+      "id": "person:sararobinson",
+      "type": "person",
+      "collection": "person",
+      "label": "Sara Robinson",
+      "title": "Sara Robinson",
+      "url": "/people/sararobinson/",
+      "count": 1,
+      "search": "Sara Robinson Sara Robinson's DataTalks.Club profile."
+    },
+    {
       "id": "person:sarahmestiri",
       "type": "person",
       "collection": "person",
@@ -2094,6 +4194,36 @@
       "search": "Sarah Mestiri Sarah Mestiri's DataTalks.Club podcast discussions, organized for topic exploration."
     },
     {
+      "id": "person:sauravmaheshkar",
+      "type": "person",
+      "collection": "person",
+      "label": "Saurav Maheshkar",
+      "title": "Saurav Maheshkar",
+      "url": "/people/sauravmaheshkar/",
+      "count": 1,
+      "search": "Saurav Maheshkar Saurav Maheshkar's DataTalks.Club profile."
+    },
+    {
+      "id": "person:savasyildirim",
+      "type": "person",
+      "collection": "person",
+      "label": "Savaş Yıldırım",
+      "title": "Savaş Yıldırım",
+      "url": "/people/savasyildirim/",
+      "count": 1,
+      "search": "Savaş Yıldırım Savaş Yıldırım's DataTalks.Club profile."
+    },
+    {
+      "id": "person:seansheng",
+      "type": "person",
+      "collection": "person",
+      "label": "Sean Sheng",
+      "title": "Sean Sheng",
+      "url": "/people/seansheng/",
+      "count": 1,
+      "search": "Sean Sheng Sean Sheng's DataTalks.Club profile."
+    },
+    {
       "id": "person:sebastianayalaruano",
       "type": "person",
       "collection": "person",
@@ -2102,6 +4232,86 @@
       "url": "/people/sebastianayalaruano/",
       "count": 1,
       "search": "Sebastian Ayala Ruano Sebastian Ayala Ruano's DataTalks.Club podcast discussions, organized for topic exploration."
+    },
+    {
+      "id": "person:sebastianraschka",
+      "type": "person",
+      "collection": "person",
+      "label": "Sebastian Raschka",
+      "title": "Sebastian Raschka",
+      "url": "/people/sebastianraschka/",
+      "count": 1,
+      "search": "Sebastian Raschka Sebastian Raschka's DataTalks.Club profile."
+    },
+    {
+      "id": "person:sedatkapanoglu",
+      "type": "person",
+      "collection": "person",
+      "label": "Sedat Kapanoglu",
+      "title": "Sedat Kapanoglu",
+      "url": "/people/sedatkapanoglu/",
+      "count": 1,
+      "search": "Sedat Kapanoglu Sedat Kapanoglu's DataTalks.Club profile."
+    },
+    {
+      "id": "person:sejalvaidya",
+      "type": "person",
+      "collection": "person",
+      "label": "Sejal Vaidya",
+      "title": "Sejal Vaidya",
+      "url": "/people/sejalvaidya/",
+      "count": 1,
+      "search": "Sejal Vaidya Sejal Vaidya's DataTalks.Club profile."
+    },
+    {
+      "id": "person:serenahaidar",
+      "type": "person",
+      "collection": "person",
+      "label": "Serena Haidar",
+      "title": "Serena Haidar",
+      "url": "/people/serenahaidar/",
+      "count": 1,
+      "search": "Serena Haidar Serena Haidar's DataTalks.Club profile."
+    },
+    {
+      "id": "person:sergmasis",
+      "type": "person",
+      "collection": "person",
+      "label": "Serg Masis",
+      "title": "Serg Masis",
+      "url": "/people/sergmasis/",
+      "count": 1,
+      "search": "Serg Masis Serg Masis's DataTalks.Club profile."
+    },
+    {
+      "id": "person:sergeiboitsov",
+      "type": "person",
+      "collection": "person",
+      "label": "Sergei Boitsov",
+      "title": "Sergei Boitsov",
+      "url": "/people/sergeiboitsov/",
+      "count": 1,
+      "search": "Sergei Boitsov Sergei Boitsov's DataTalks.Club profile."
+    },
+    {
+      "id": "person:sergeishaikin",
+      "type": "person",
+      "collection": "person",
+      "label": "Sergei Shaikin",
+      "title": "Sergei Shaikin",
+      "url": "/people/sergeishaikin/",
+      "count": 1,
+      "search": "Sergei Shaikin Sergei Shaikin's DataTalks.Club profile."
+    },
+    {
+      "id": "person:shacharmeir",
+      "type": "person",
+      "collection": "person",
+      "label": "Shachar Meir",
+      "title": "Shachar Meir",
+      "url": "/people/shacharmeir/",
+      "count": 1,
+      "search": "Shachar Meir Shachar Meir's DataTalks.Club profile."
     },
     {
       "id": "person:swyx",
@@ -2124,6 +4334,26 @@
       "search": "Shir Meir Lador Shir Meir Lador's DataTalks.Club podcast discussions, organized for topic exploration."
     },
     {
+      "id": "person:shubhamsaboo",
+      "type": "person",
+      "collection": "person",
+      "label": "Shubham Saboo",
+      "title": "Shubham Saboo",
+      "url": "/people/shubhamsaboo/",
+      "count": 1,
+      "search": "Shubham Saboo Shubham Saboo's DataTalks.Club profile."
+    },
+    {
+      "id": "person:sidharthramachandran",
+      "type": "person",
+      "collection": "person",
+      "label": "Sidharth Ramachandran",
+      "title": "Sidharth Ramachandran",
+      "url": "/people/sidharthramachandran/",
+      "count": 1,
+      "search": "Sidharth Ramachandran Sidharth Ramachandran's DataTalks.Club profile."
+    },
+    {
       "id": "person:simonstiebellehner",
       "type": "person",
       "collection": "person",
@@ -2132,6 +4362,26 @@
       "url": "/people/simonstiebellehner/",
       "count": 1,
       "search": "Simon Stiebellehner Simon Stiebellehner's DataTalks.Club podcast discussions, organized for topic exploration."
+    },
+    {
+      "id": "person:simonthompson",
+      "type": "person",
+      "collection": "person",
+      "label": "Simon Thompson",
+      "title": "Simon Thompson",
+      "url": "/people/simonthompson/",
+      "count": 1,
+      "search": "Simon Thompson Simon Thompson's DataTalks.Club profile."
+    },
+    {
+      "id": "person:sivanbiham",
+      "type": "person",
+      "collection": "person",
+      "label": "Sivan Biham",
+      "title": "Sivan Biham",
+      "url": "/people/sivanbiham/",
+      "count": 1,
+      "search": "Sivan Biham Sivan Biham's DataTalks.Club profile."
     },
     {
       "id": "person:slawomirtulski",
@@ -2154,6 +4404,16 @@
       "search": "Sofya Yulpatova Sofya Yulpatova's DataTalks.Club podcast discussions, organized for topic exploration."
     },
     {
+      "id": "person:soledadgalli",
+      "type": "person",
+      "collection": "person",
+      "label": "Soledad Galli",
+      "title": "Soledad Galli",
+      "url": "/people/soledadgalli/",
+      "count": 1,
+      "search": "Soledad Galli Soledad Galli's DataTalks.Club profile."
+    },
+    {
       "id": "person:sonalgoyal",
       "type": "person",
       "collection": "person",
@@ -2162,6 +4422,26 @@
       "url": "/people/sonalgoyal/",
       "count": 1,
       "search": "Sonal Goyal Sonal Goyal's DataTalks.Club podcast discussions, organized for topic exploration."
+    },
+    {
+      "id": "person:soumikrakshit",
+      "type": "person",
+      "collection": "person",
+      "label": "Soumik Rakshit",
+      "title": "Soumik Rakshit",
+      "url": "/people/soumikrakshit/",
+      "count": 1,
+      "search": "Soumik Rakshit Soumik Rakshit's DataTalks.Club profile."
+    },
+    {
+      "id": "person:srivathsancanchi",
+      "type": "person",
+      "collection": "person",
+      "label": "Srivathsan Canchi",
+      "title": "Srivathsan Canchi",
+      "url": "/people/srivathsancanchi/",
+      "count": 1,
+      "search": "Srivathsan Canchi Srivathsan Canchi's DataTalks.Club profile."
     },
     {
       "id": "person:stefangudmundsson",
@@ -2174,6 +4454,26 @@
       "search": "Stefan Gudmundsson Stefan Gudmundsson's DataTalks.Club podcast discussions, organized for topic exploration."
     },
     {
+      "id": "person:stefanjansen",
+      "type": "person",
+      "collection": "person",
+      "label": "Stefan Jansen",
+      "title": "Stefan Jansen",
+      "url": "/people/stefanjansen/",
+      "count": 1,
+      "search": "Stefan Jansen Stefan Jansen's DataTalks.Club profile."
+    },
+    {
+      "id": "person:stefaniemolin",
+      "type": "person",
+      "collection": "person",
+      "label": "Stefanie Molin",
+      "title": "Stefanie Molin",
+      "url": "/people/stefaniemolin/",
+      "count": 1,
+      "search": "Stefanie Molin Stefanie Molin's DataTalks.Club profile."
+    },
+    {
       "id": "person:supreetkaur",
       "type": "person",
       "collection": "person",
@@ -2182,6 +4482,16 @@
       "url": "/people/supreetkaur/",
       "count": 1,
       "search": "Supreet Kaur Supreet Kaur's DataTalks.Club podcast discussions, organized for topic exploration."
+    },
+    {
+      "id": "person:susanwalsh",
+      "type": "person",
+      "collection": "person",
+      "label": "Susan Walsh",
+      "title": "Susan Walsh",
+      "url": "/people/susanwalsh/",
+      "count": 1,
+      "search": "Susan Walsh Susan Walsh's DataTalks.Club profile."
     },
     {
       "id": "person:tamaraatanasoska",
@@ -2224,6 +4534,16 @@
       "search": "Tatiana Gabruseva Computer vision and deep learning engineer connecting Kaggle practice, academia to industry transition, and staff level AI career growth."
     },
     {
+      "id": "person:tatyjanaankudo",
+      "type": "person",
+      "collection": "person",
+      "label": "Tatyjana Ankudo",
+      "title": "Tatyjana Ankudo",
+      "url": "/people/tatyjanaankudo/",
+      "count": 1,
+      "search": "Tatyjana Ankudo Tatyjana Ankudo's DataTalks.Club profile."
+    },
+    {
       "id": "person:terezaiofciu",
       "type": "person",
       "collection": "person",
@@ -2254,6 +4574,66 @@
       "search": "Thom Ives Thom Ives's DataTalks.Club podcast discussions, organized for topic exploration."
     },
     {
+      "id": "person:thomasnield",
+      "type": "person",
+      "collection": "person",
+      "label": "Thomas Nield",
+      "title": "Thomas Nield",
+      "url": "/people/thomasnield/",
+      "count": 1,
+      "search": "Thomas Nield Thomas Nield's DataTalks.Club profile."
+    },
+    {
+      "id": "person:thomaswolf",
+      "type": "person",
+      "collection": "person",
+      "label": "Thomas Wolf",
+      "title": "Thomas Wolf",
+      "url": "/people/thomaswolf/",
+      "count": 1,
+      "search": "Thomas Wolf Thomas Wolf's DataTalks.Club profile."
+    },
+    {
+      "id": "person:timothydavis",
+      "type": "person",
+      "collection": "person",
+      "label": "Timothy Davis",
+      "title": "Timothy Davis",
+      "url": "/people/timothydavis/",
+      "count": 1,
+      "search": "Timothy Davis Timothy Davis's DataTalks.Club profile."
+    },
+    {
+      "id": "person:tobiaslindenbauer",
+      "type": "person",
+      "collection": "person",
+      "label": "Tobias Lindenbauer",
+      "title": "Tobias Lindenbauer",
+      "url": "/people/tobiaslindenbauer/",
+      "count": 1,
+      "search": "Tobias Lindenbauer Tobias Lindenbauer's DataTalks.Club profile."
+    },
+    {
+      "id": "person:tobiaszwingmann",
+      "type": "person",
+      "collection": "person",
+      "label": "Tobias Zwingmann",
+      "title": "Tobias Zwingmann",
+      "url": "/people/tobiaszwingmann/",
+      "count": 1,
+      "search": "Tobias Zwingmann Tobias Zwingmann's DataTalks.Club profile."
+    },
+    {
+      "id": "person:toddunderwood",
+      "type": "person",
+      "collection": "person",
+      "label": "Todd Underwood",
+      "title": "Todd Underwood",
+      "url": "/people/toddunderwood/",
+      "count": 1,
+      "search": "Todd Underwood Todd Underwood's DataTalks.Club profile."
+    },
+    {
       "id": "person:tomaszhinc",
       "type": "person",
       "collection": "person",
@@ -2262,6 +4642,46 @@
       "url": "/people/tomaszhinc/",
       "count": 1,
       "search": "Tomasz Hinc Tomasz Hinc's DataTalks.Club podcast discussions, organized for topic exploration."
+    },
+    {
+      "id": "person:tomaszlelek",
+      "type": "person",
+      "collection": "person",
+      "label": "Tomasz Lelek",
+      "title": "Tomasz Lelek",
+      "url": "/people/tomaszlelek/",
+      "count": 1,
+      "search": "Tomasz Lelek Tomasz Lelek's DataTalks.Club profile."
+    },
+    {
+      "id": "person:tomazbratanic",
+      "type": "person",
+      "collection": "person",
+      "label": "Tomaz Bratanic",
+      "title": "Tomaz Bratanic",
+      "url": "/people/tomazbratanic/",
+      "count": 1,
+      "search": "Tomaz Bratanic Tomaz Bratanic's DataTalks.Club profile."
+    },
+    {
+      "id": "person:tomekjaminski",
+      "type": "person",
+      "collection": "person",
+      "label": "Tomek Jamiński",
+      "title": "Tomek Jamiński",
+      "url": "/people/tomekjaminski/",
+      "count": 1,
+      "search": "Tomek Jamiński Tomek Jamiński's DataTalks.Club profile."
+    },
+    {
+      "id": "person:tommydang",
+      "type": "person",
+      "collection": "person",
+      "label": "Tommy Dang",
+      "title": "Tommy Dang",
+      "url": "/people/tommydang/",
+      "count": 1,
+      "search": "Tommy Dang Tommy Dang's DataTalks.Club profile."
     },
     {
       "id": "person:urigilad",
@@ -2274,6 +4694,16 @@
       "search": "Uri Gilad Uri Gilad's DataTalks.Club podcast discussions, organized for topic exploration."
     },
     {
+      "id": "person:vadimsmolyakov",
+      "type": "person",
+      "collection": "person",
+      "label": "Vadim Smolyakov",
+      "title": "Vadim Smolyakov",
+      "url": "/people/vadimsmolyakov/",
+      "count": 1,
+      "search": "Vadim Smolyakov Vadim Smolyakov's DataTalks.Club profile."
+    },
+    {
       "id": "person:valeriybabushkin",
       "type": "person",
       "collection": "person",
@@ -2282,6 +4712,26 @@
       "url": "/people/valeriybabushkin/",
       "count": 1,
       "search": "Valerii Babushkin Valerii Babushkin's DataTalks.Club podcast discussions, organized for topic exploration."
+    },
+    {
+      "id": "person:valeriiakuka",
+      "type": "person",
+      "collection": "person",
+      "label": "Valeriia Kuka",
+      "title": "Valeriia Kuka",
+      "url": "/people/valeriiakuka/",
+      "count": 1,
+      "search": "Valeriia Kuka Valeriia Kuka's DataTalks.Club profile."
+    },
+    {
+      "id": "person:vanessaaguilar",
+      "type": "person",
+      "collection": "person",
+      "label": "Vanessa Aguilar",
+      "title": "Vanessa Aguilar",
+      "url": "/people/vanessaaguilar/",
+      "count": 1,
+      "search": "Vanessa Aguilar Vanessa Aguilar's DataTalks.Club profile."
     },
     {
       "id": "person:verenaweber",
@@ -2304,6 +4754,26 @@
       "search": "Victoria Perez Mola Victoria Perez Mola's DataTalks.Club podcast discussions, organized for topic exploration."
     },
     {
+      "id": "person:vijaykiran",
+      "type": "person",
+      "collection": "person",
+      "label": "Vijay Kiran",
+      "title": "Vijay Kiran",
+      "url": "/people/vijaykiran/",
+      "count": 1,
+      "search": "Vijay Kiran Vijay Kiran's DataTalks.Club profile."
+    },
+    {
+      "id": "person:villetuulos",
+      "type": "person",
+      "collection": "person",
+      "label": "Ville Tuulos",
+      "title": "Ville Tuulos",
+      "url": "/people/villetuulos/",
+      "count": 1,
+      "search": "Ville Tuulos Ville Tuulos's DataTalks.Club profile."
+    },
+    {
       "id": "person:vinvashishta",
       "type": "person",
       "collection": "person",
@@ -2314,6 +4784,16 @@
       "search": "Vin Vashishta Vin Vashishta's DataTalks.Club podcast discussions, organized for topic exploration."
     },
     {
+      "id": "person:vincenttatan",
+      "type": "person",
+      "collection": "person",
+      "label": "Vincent Tatan",
+      "title": "Vincent Tatan",
+      "url": "/people/vincenttatan/",
+      "count": 1,
+      "search": "Vincent Tatan Vincent Tatan's DataTalks.Club profile."
+    },
+    {
       "id": "person:vincentwarmerdam",
       "type": "person",
       "collection": "person",
@@ -2322,6 +4802,46 @@
       "url": "/people/vincentwarmerdam/",
       "count": 1,
       "search": "Vincent Warmerdam Research advocate and open source ML educator known for practical tooling, scikit learn contribution guidance, and explainable demos."
+    },
+    {
+      "id": "person:violettamishechkina",
+      "type": "person",
+      "collection": "person",
+      "label": "Violetta Mishechkina",
+      "title": "Violetta Mishechkina",
+      "url": "/people/violettamishechkina/",
+      "count": 1,
+      "search": "Violetta Mishechkina Violetta Mishechkina's DataTalks.Club profile."
+    },
+    {
+      "id": "person:vishwasbv",
+      "type": "person",
+      "collection": "person",
+      "label": "Vishwas BV",
+      "title": "Vishwas BV",
+      "url": "/people/vishwasbv/",
+      "count": 1,
+      "search": "Vishwas BV Vishwas BV's DataTalks.Club profile."
+    },
+    {
+      "id": "person:vladimirhaltakov",
+      "type": "person",
+      "collection": "person",
+      "label": "Vladimir Haltakov",
+      "title": "Vladimir Haltakov",
+      "url": "/people/vladimirhaltakov/",
+      "count": 1,
+      "search": "Vladimir Haltakov Vladimir Haltakov's DataTalks.Club profile."
+    },
+    {
+      "id": "person:wendymak",
+      "type": "person",
+      "collection": "person",
+      "label": "Wendy Mak",
+      "title": "Wendy Mak",
+      "url": "/people/wendymak/",
+      "count": 1,
+      "search": "Wendy Mak Wendy Mak's DataTalks.Club profile."
     },
     {
       "id": "person:willmcgugan",
@@ -2364,6 +4884,26 @@
       "search": "Xia He Bleinagel Xia He Bleinagel's DataTalks.Club podcast discussions, organized for topic exploration."
     },
     {
+      "id": "person:yuantang",
+      "type": "person",
+      "collection": "person",
+      "label": "Yuan Tang",
+      "title": "Yuan Tang",
+      "url": "/people/yuantang/",
+      "count": 1,
+      "search": "Yuan Tang Yuan Tang's DataTalks.Club profile."
+    },
+    {
+      "id": "person:yuliapavlova",
+      "type": "person",
+      "collection": "person",
+      "label": "Yulia Pavlova",
+      "title": "Yulia Pavlova",
+      "url": "/people/yuliapavlova/",
+      "count": 1,
+      "search": "Yulia Pavlova Yulia Pavlova's DataTalks.Club profile."
+    },
+    {
       "id": "person:yurykashnitsky",
       "type": "person",
       "collection": "person",
@@ -2382,6 +4922,16 @@
       "url": "/people/zhamakdehghani/",
       "count": 1,
       "search": "Zhamak Dehghani Founder of data mesh contributing decentralized data architecture, data products, contracts, and federated governance."
+    },
+    {
+      "id": "person:aashishnair",
+      "type": "person",
+      "collection": "person",
+      "label": "​Aashish Nair",
+      "title": "​Aashish Nair",
+      "url": "/people/aashishnair/",
+      "count": 1,
+      "search": "​Aashish Nair ​Aashish Nair's DataTalks.Club profile."
     },
     {
       "id": "podcast:data-interview-behavioral-and-portfolio-prep-guide",
@@ -59060,6 +61610,12 @@
     {
       "source": "wiki:metaflow",
       "target": "person:hugobowneanderson",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:metaflow",
+      "target": "person:villetuulos",
       "kind": "wiki-link",
       "weight": 1
     },

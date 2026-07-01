@@ -187,9 +187,28 @@ those gap suggestions separately from the Ubersuggest keyword backlog. Until
 that file is available locally, do not use the headers-only workbook as a source
 for content decisions.
 
-The strongest remaining CSV backlog item is the newsletter cluster
-(`machine-learning-newsletter` / `dtc-newsletter`), but it is conditional and
-not recommended for podwiki unless it becomes community-content or
-owned-channel content with real DataTalks.Club asset links. The broad Tech
-Startups keyword now belongs to the startup wiki cluster rather than a separate
-generic guide.
+The 2026-07-01 follow-up audit confirmed that the local workbook still contains
+only headers. The strongest remaining CSV-backed candidates are now:
+
+1. `machine learning business`, `machine learning for small business`, and
+   related variants. Candidate: `_guides/machine-learning-for-business.md`,
+   grounded in data products, ML strategy, startup, adoption, metrics, and
+   production ML episodes.
+2. `data science project management`, `project management for data science`,
+   `data science project manager`, and related variants. Candidate:
+   `_wiki/data-science-project-management.md`, grounded in stakeholder planning,
+   scope, KPIs, delivery, and analytics/ML project evidence.
+3. `data science stock market`, `data analytics stock market`, `python stock
+   analysis`, and related variants. Candidate: `_wiki/algorithmic-trading.md`,
+   grounded in the algorithmic-trading episode and written as educational
+   synthesis, not financial advice.
+
+Improve existing pages rather than creating new ones for data events,
+podcast-discovery queries, Tavily, and Relevant Search. Keep ignoring book/PDF,
+free-download, Slack, DataQuest, and generic navigation rows.
+
+The newsletter cluster (`machine-learning-newsletter` / `dtc-newsletter`)
+remains conditional and is not recommended for podwiki unless it becomes
+community-content or owned-channel content with real DataTalks.Club asset links.
+The broad Tech Startups keyword belongs to the startup wiki cluster rather than
+a separate generic guide.

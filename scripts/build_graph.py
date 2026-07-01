@@ -138,8 +138,6 @@ def read_pages() -> list[dict[str, object]]:
             meta, body = split_frontmatter(raw)
             if meta.get("redirect_to") or str(meta.get("published", "")).lower() == "false":
                 continue
-            if directory == "_people" and not as_list(meta.get("podcast_episodes")):
-                continue
             slug = source_slug(path)
             title = str(meta.get("title") or slug.replace("-", " ").title())
             summary = str(meta.get("summary") or "")
