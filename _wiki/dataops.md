@@ -53,6 +53,10 @@ operating model around data changes. Version control, tests, and CI/CD guide
 release work. Observability, ownership, and recovery keep pipelines and data
 products reliable after release.
 
+[DataOps for Dummies]({{ '/books/20210913-dataops-for-dummies/' | relative_url }})
+by Justin Mullen and Guy Adams gives a short overview of the same operating
+discipline.
+
 ## Repeatable Data Delivery
 
 DataOps makes data delivery repeatable and recoverable. In everyday data ops

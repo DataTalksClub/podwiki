@@ -38,6 +38,11 @@ beside this page. For the direct format comparison, use
 
 ## Lakehouse Table Layer
 
+The lakehouse stack is covered end to end in
+[Data Engineering with Apache Spark, Delta Lake, and Lakehouse]({{ '/books/20220314-data-engineering-with-apache-spark-delta-lake-and-lakehouse/' | relative_url }})
+by Manoj Kukreja, which treats Delta Lake as the table format above Spark and
+open storage.
+
 Delta Lake belongs to the table layer of a lakehouse. In Brudaru's layer model,
 files and compute aren't enough. Catalogs and metadata sit around the table
 format too, alongside access and lineage

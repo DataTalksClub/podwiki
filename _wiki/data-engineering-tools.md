@@ -38,6 +38,11 @@ as concepts.
 
 ## Stack Map
 
+For Spark-based processing in particular,
+[Data Analysis with Python and PySpark]({{ '/books/20211025-data-analysis-with-python-and-pyspark/' | relative_url }})
+by Jonathan Rioux is a practical reference for the transformation and analysis
+layer.
+
 Most teams combine tools from these categories:
 
 - ingestion and connectors for SaaS apps, databases, APIs, events, files, and

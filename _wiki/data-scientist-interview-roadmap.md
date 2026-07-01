@@ -36,6 +36,10 @@ It also connects to [Job Search]({{ '/wiki/job-search/' | relative_url }}) and
 doesn't start with a generic question bank. It starts by deciding which role
 you're interviewing for. Then it turns your CV and projects into evidence.
 
+[Ace The Data Science Interview]({{ '/books/20211115-ace-the-data-science-interview/' | relative_url }})
+by Nick Singh and Kevin Huo is a structured question bank organized around
+that same role-first approach.
+
 Case practice, technical drills, stories, and offer talks support that role.
 
 ## Role Fit, Written Evidence, and Interview Performance

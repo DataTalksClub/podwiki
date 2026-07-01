@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 132,
     "nodes": 1156,
-    "links": 13284
+    "links": 13312
   },
   "nodes": [
     {
@@ -47512,6 +47512,12 @@
     },
     {
       "source": "wiki:ai-infrastructure",
+      "target": "book:20240115-distributed-machine-learning-patterns",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-infrastructure",
       "target": "person:andreycheptsov",
       "kind": "wiki-link",
       "weight": 1
@@ -48670,6 +48676,12 @@
     },
     {
       "source": "wiki:algorithmic-trading",
+      "target": "book:20210222-ml-algotrading-2ed",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:algorithmic-trading",
       "target": "person:ivanbrigida",
       "kind": "wiki-link",
       "weight": 1
@@ -49571,6 +49583,12 @@
     {
       "source": "wiki:analytics-engineering-roadmap",
       "target": "wiki:reverse-etl",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:annotation-quality-workflows",
+      "target": "book:20240408-data-centric-machine-learning-with-python",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -51029,6 +51047,12 @@
     {
       "source": "wiki:caching",
       "target": "wiki:retrieval-augmented-generation",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:career-development",
+      "target": "book:20211129-own-your-tech-career",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -57646,6 +57670,12 @@
     },
     {
       "source": "wiki:data-engineering-tools",
+      "target": "book:20211025-data-analysis-with-python-and-pyspark",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-tools",
       "target": "person:adrianbrudaru",
       "kind": "wiki-link",
       "weight": 1
@@ -58055,6 +58085,18 @@
     {
       "source": "wiki:data-governance",
       "target": "article:comparison:data-mesh-vs-centralized-data-platform",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-governance",
+      "target": "book:20210524-data-governance-the-definitive-guide",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-governance",
+      "target": "book:20230807-driving-data-quality-with-data-contracts",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -58715,6 +58757,12 @@
     {
       "source": "wiki:data-observability",
       "target": "article:guide:dataops-tools",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-observability",
+      "target": "book:20240429-fundamentals-of-data-observability",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -61432,6 +61480,12 @@
     },
     {
       "source": "wiki:data-scientist-interview-roadmap",
+      "target": "book:20211115-ace-the-data-science-interview",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-interview-roadmap",
       "target": "person:alicjanotowska",
       "kind": "wiki-link",
       "weight": 1
@@ -62710,6 +62764,12 @@
     },
     {
       "source": "wiki:data-teams",
+      "target": "book:20210201-data-teams",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-teams",
       "target": "person:16rahuljain",
       "kind": "wiki-link",
       "weight": 1
@@ -63461,6 +63521,12 @@
     {
       "source": "wiki:dataops",
       "target": "article:guide:dataops-tools",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops",
+      "target": "book:20210913-dataops-for-dummies",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -64330,6 +64396,12 @@
     },
     {
       "source": "wiki:dbt",
+      "target": "book:20231106-analytics-engineering-with-sql-and-dbt",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dbt",
       "target": "person:adrianbrudaru",
       "kind": "wiki-link",
       "weight": 1
@@ -64523,6 +64595,12 @@
     {
       "source": "wiki:dbt",
       "target": "wiki:reverse-etl",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:deep-learning",
+      "target": "book:20220214-a-visual-introduction-to-deep-learning",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -64781,6 +64859,12 @@
     {
       "source": "wiki:delta-lake",
       "target": "article:comparison:delta-lake-vs-apache-iceberg",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:delta-lake",
+      "target": "book:20220314-data-engineering-with-apache-spark-delta-lake-and-lakehouse",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -66796,6 +66880,12 @@
     },
     {
       "source": "wiki:etl",
+      "target": "book:20240415-understanding-etl",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:etl",
       "target": "person:16rahuljain",
       "kind": "wiki-link",
       "weight": 1
@@ -68063,6 +68153,12 @@
     {
       "source": "wiki:experimentation-and-causal-inference",
       "target": "wiki:production",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:feature-stores",
+      "target": "book:20210920-python-feature-engineering-cookbook",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -70399,6 +70495,18 @@
       "target": "wiki:vector-databases",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:interpretability",
+      "target": "book:20220411-interpretable-machine-learning",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:interpretability",
+      "target": "book:20230529-modeling-mindsets",
+      "kind": "wiki-link",
+      "weight": 1
     },
     {
       "source": "wiki:interpretability",
@@ -72790,6 +72898,12 @@
     },
     {
       "source": "wiki:llms",
+      "target": "book:20230306-gpt-3",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llms",
       "target": "book:20241017-build-large-language-model-from-scratch",
       "kind": "wiki-link",
       "weight": 1
@@ -73222,6 +73336,12 @@
     },
     {
       "source": "wiki:machine-learning",
+      "target": "book:20210208-ml-design-patterns",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning",
       "target": "book:20210531-advanced-algorithms-and-data-structures",
       "kind": "wiki-link",
       "weight": 1
@@ -73546,6 +73666,12 @@
     },
     {
       "source": "wiki:machine-learning-engineer-role",
+      "target": "book:20210301-ml-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-engineer-role",
       "target": "book:20220117-machine-learning-engineering-with-python",
       "kind": "wiki-link",
       "weight": 1
@@ -73757,6 +73883,12 @@
     {
       "source": "wiki:machine-learning-infrastructure",
       "target": "article:comparison:batch-vs-streaming",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-infrastructure",
+      "target": "book:20210927-effective-data-science-infrastructure",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -79078,6 +79210,18 @@
     },
     {
       "source": "wiki:nlp",
+      "target": "book:20211213-mastering-spacy",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:nlp",
+      "target": "book:20220425-natural-language-processing-with-transformers",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:nlp",
       "target": "person:christiannswart",
       "kind": "wiki-link",
       "weight": 1
@@ -82372,6 +82516,12 @@
     },
     {
       "source": "wiki:privacy-engineering-for-ml",
+      "target": "book:20240715-ai-data-privacy-and-protection",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:privacy-engineering-for-ml",
       "target": "person:bartvandekerckhove",
       "kind": "wiki-link",
       "weight": 1
@@ -83741,6 +83891,12 @@
     {
       "source": "wiki:prompt-engineering",
       "target": "article:guide:llm-system-design-interview",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:prompt-engineering",
+      "target": "book:20240701-prompt-engineering-for-generative-ai",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -85141,6 +85297,12 @@
       "target": "wiki:vector-databases",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:reinforcement-learning",
+      "target": "book:20210111-reinforcement-learning",
+      "kind": "wiki-link",
+      "weight": 1
     },
     {
       "source": "wiki:reinforcement-learning",
@@ -86729,6 +86891,12 @@
     {
       "source": "wiki:search",
       "target": "book:20210712-relevant-search",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:search",
+      "target": "book:20211101-ai-powered-search",
       "kind": "wiki-link",
       "weight": 1
     },

@@ -33,6 +33,10 @@ He also adds batch inference, online serving, and orchestration. Infrastructure
 is therefore broader than model serving but narrower than the whole platform
 product.
 
+[Effective Data Science Infrastructure]({{ '/books/20210927-effective-data-science-infrastructure/' | relative_url }})
+by Ville Tuulos covers the same compute, orchestration, and serving layers
+from the data science side, built around his Metaflow experience.
+
 [Raphaël Hoogvliets]({{ '/people/raphaelhoogvliets/' | relative_url }})
 adds release and reproducibility concerns in
 [MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}).

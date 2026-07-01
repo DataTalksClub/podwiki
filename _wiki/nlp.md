@@ -72,6 +72,10 @@ examples. She also links it to Streamlit, Gradio, and Hugging Face Spaces. For
 career and portfolio work, NLP is a set of reproducible projects that other
 people can run.
 
+[Mastering spaCy]({{ '/books/20211213-mastering-spacy/' | relative_url }})
+by Duygu Altinok is a practical reference for the spaCy NLP library that Merve
+recommends as a learning entry point.
+
 ## Role Boundaries and Failure Modes
 
 Guests agree that NLP works on language data, but they stress different
@@ -144,6 +148,11 @@ Merve describes dataset scripts, CI learning, and contributor onboarding at
 skill more clearly than a notebook that no one can reproduce.
 
 ## Transformers and LLMs
+
+The transformer architecture behind this shift is covered in depth by
+[Natural Language Processing with Transformers]({{ '/books/20220425-natural-language-processing-with-transformers/' | relative_url }})
+by Leandro von Werra, Lewis Tunstall, and Thomas Wolf, built around the
+Hugging Face library that recurring NLP episodes rely on.
 
 LLMs change the interface to NLP. DataTalks.Club guests still treat them as a
 continuation of language-system work rather than a replacement for it. Ivan's

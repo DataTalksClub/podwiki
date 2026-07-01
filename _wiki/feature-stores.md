@@ -27,6 +27,9 @@ The DataTalks.Club discussions place feature stores inside
 [MLOps]({{ '/wiki/mlops/' | relative_url }}),
 [ML platforms]({{ '/wiki/ml-platforms/' | relative_url }}), and
 [machine learning infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }}).
+ [Python Feature Engineering Cookbook]({{ '/books/20210920-python-feature-engineering-cookbook/' | relative_url }})
+ by Soledad Galli covers the upstream engineering of the features that flow
+ into a store like this.
 They aren't a generic replacement for a
 [data warehouse]({{ '/wiki/data-warehouse/' | relative_url }}),
 [data lake]({{ '/wiki/data-lake/' | relative_url }}), catalog, or

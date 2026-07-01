@@ -32,6 +32,10 @@ The strongest podcast examples pair model choice with
 [MLOps]({{ '/wiki/mlops/' | relative_url }}), and
 [production]({{ '/wiki/production/' | relative_url }}) decisions.
 
+[A Visual Introduction to Deep Learning]({{ '/books/20220214-a-visual-introduction-to-deep-learning/' | relative_url }})
+by Meor Amer is an accessible primer on how neural networks learn from image,
+text, and sensor data before the engineering tradeoffs set in.
+
 ## Neural Models as Applied Perception
 
 [Tatiana Gabruseva]({{ '/people/tatianagabruseva/' | relative_url }}) frames

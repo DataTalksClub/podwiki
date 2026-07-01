@@ -26,6 +26,9 @@ Across these discussions, a certificate, title, or social profile is weak
 unless it shows role-relevant work. A stronger career record includes project
 evidence and feedback. It also includes communication, referrals, and judgment.
 Hiring teams, managers, mentors, and communities can evaluate the same record.
+[Own Your Tech Career]({{ '/books/20211129-own-your-tech-career/' | relative_url }})
+by Don Jones covers the same ownership mindset for developers moving from
+individual contribution to deliberate career direction.
 
 ## Role Direction Before Skill Collection
 

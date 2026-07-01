@@ -21,6 +21,13 @@ episode. At 9:27, he uses SHAP to show how feature effects can expose leakage,
 bad data collection, or shortcuts a model learned. At 20:27, he adds conformal
 prediction as a way to return calibrated prediction sets or intervals instead
 of a single overconfident answer.
+Molnar's
+[Interpretable Machine Learning]({{ '/books/20220411-interpretable-machine-learning/' | relative_url }})
+book is the canonical reference for these methods, and his
+[Modeling Mindsets]({{ '/books/20230529-modeling-mindsets/' | relative_url }})
+expands on the same themes: it traces how the statistical, machine learning,
+Bayesian, and causal modeling traditions each frame interpretability and model
+assumptions differently.
 
 The wider product and governance version appears in
 [Supreet Kaur]({{ '/people/supreetkaur/' | relative_url }})'s
@@ -45,6 +52,8 @@ reviewer enough evidence to question the model.
 
 Some models are interpretable by design, while teams explain other models with
 SHAP or LIME. They may also use surrogate models or partial dependence.
+
+For a practical Python reference, [Interpretable Machine Learning with Python]({{ '/books/20210719-interpretable-machine-learning-with-python/' | relative_url }}) by Serg Masis covers SHAP, LIME, counterfactual explanations, and the debugging workflows guests describe below.
 
 Polina makes this boundary explicit in
 [Build Explainable and Actionable AI/ML Systems]({{ '/podcasts/building-explainable-and-actionable-ai-ml-systems/' | relative_url }}).
