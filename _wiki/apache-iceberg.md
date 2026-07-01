@@ -3,7 +3,6 @@ layout: wiki
 title: "Apache Iceberg"
 summary: "How DataTalks.Club podcast guests place Apache Iceberg inside lakehouse architecture, open table formats, catalogs, Parquet storage, Delta Lake and Hudi comparisons, DLT support, and data engineering platform design."
 related:
-  - Data Warehouse vs Data Lakehouse
   - Data Engineering Platforms
   - Data Lake
   - Delta Lake
@@ -24,7 +23,7 @@ storage and compute from access, metadata, and lineage in the same discussion
 18:17-23:41).
 
 Apache Iceberg belongs in the
-[data warehouse vs data lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }})
+[data warehouse vs data lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
 conversation. Use [Data Lake]({{ '/wiki/data-lake/' | relative_url }}) for the
 broader storage concept. Use [Delta Lake]({{ '/wiki/delta-lake/' | relative_url }})
 for the adjacent table format and
@@ -35,7 +34,7 @@ warehouse-centered ELT stack that Iceberg is often compared against.
 
 Related wiki pages:
 
-- [Data Warehouse vs Data Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }})
+- [Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
   places Iceberg in the open-storage lakehouse tradeoff.
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
   covers storage and compute choices, plus workflow, access, and support
@@ -87,7 +86,7 @@ Lineage and catalogs matter too
 18:17-23:41).
 
 This connects Iceberg to the
-[lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }})
+[lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
 idea rather than to a single vendor product. [Lars Albertsson]({{ '/people/larsalbertsson/' | relative_url }})
 describes the lakehouse as warehouse features layered onto a data lake after
 he has already separated raw storage, aggregates, and object storage. He also
@@ -277,7 +276,7 @@ remove the platform work around the table.
 
 Continue with these adjacent archive topics:
 
-- [Data Warehouse vs Data Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }})
+- [Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
 - [Data Lake]({{ '/wiki/data-lake/' | relative_url }})
 - [Delta Lake]({{ '/wiki/delta-lake/' | relative_url }})

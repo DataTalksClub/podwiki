@@ -95,7 +95,7 @@ She warns that lakes and warehouses can become swamps. That happens when teams
 store unused or poorly governed data that people can't trust
 ([ETL vs ELT and Modern Data Engineering]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
 19:50-28:07). For that comparison, use
-[Data Warehouse vs Data Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }}).
+[Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }}).
 
 ## Model Data Into Useful Outputs
 

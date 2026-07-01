@@ -131,6 +131,7 @@ data:
 - ingestion and transformation code
 - orchestration definitions
 - warehouse, lake, or lakehouse configuration
+  ([Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }}))
 - dbt or SQL model changes
 - infrastructure changes
 - batch model jobs and feature pipelines

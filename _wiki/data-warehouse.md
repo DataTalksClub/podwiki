@@ -6,7 +6,6 @@ related:
   - Data Engineering Platforms
   - Modern Data Stack
   - Data Lake
-  - Data Warehouse vs Data Lakehouse
   - Analytics Engineering
   - Business Intelligence
   - dbt
@@ -52,7 +51,7 @@ Use these archive paths to place the warehouse in context:
 - [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}) for the load-first
   versus transform-first tradeoff.
 - [Data Lake]({{ '/wiki/data-lake/' | relative_url }}) and
-  [Data Warehouse vs Data Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }})
+  [Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
   for storage boundaries.
 - [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
   and [dbt]({{ '/wiki/dbt/' | relative_url }}) for warehouse-side modeling,
@@ -134,7 +133,7 @@ Teams can combine open storage with
 warehouse-like behavior and reduce lock-in
 ([Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}),
 18:17-23:41 and 49:42). Use
-[Data Warehouse vs Data Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }})
+[Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
 when the question is whether trust should live in a managed warehouse or in an
 open table-format platform.
 

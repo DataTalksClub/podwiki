@@ -182,9 +182,12 @@ tooling perspective in
 He credits dbt with changing how people think about data engineering by
 reducing boilerplate and improving project quality, while also noting
 alternatives such as SQLMesh. His broader advice is requirements-led tool
-selection. dbt is influential, but it's one choice in a changing ecosystem of
-warehouses and lakehouse formats. Teams also choose catalogs, orchestrators,
-and local-first tools.
+selection.
+
+dbt is influential, but teams still choose storage layers and catalog tools
+around it. Use
+[Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
+for the warehouse and lakehouse boundary.
 
 ## Practical Takeaways
 

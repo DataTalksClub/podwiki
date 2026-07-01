@@ -155,7 +155,7 @@ updates that discussion with Iceberg and Delta Lake. He also covers catalogs,
 metadata, and lineage. Headless table formats are part of the same update
 ([Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}),
 18:17-30:31 and 49:42). Use
-[Data Warehouse vs Data Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }})
+[Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
 and [Apache Iceberg]({{ '/wiki/apache-iceberg/' | relative_url }}) for those
 storage patterns.
 
@@ -332,5 +332,5 @@ Use these pages for adjacent platform, governance, and delivery topics.
 - [Data Governance]({{ '/wiki/data-governance/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }})
-- [Data Warehouse vs Data Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }})
+- [Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
 - [Data Mesh vs Centralized Data Platform]({{ '/wiki/data-mesh-vs-centralized-data-platform/' | relative_url }})

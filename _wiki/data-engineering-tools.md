@@ -162,7 +162,7 @@ Iceberg.
 Those tools matter when a team wants open storage, multiple compute engines,
 better cost control, or less vendor lock-in. They also add platform complexity,
 so compare them with
-[Data Warehouse vs Data Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }}),
+[Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }}),
 [Apache Iceberg]({{ '/wiki/apache-iceberg/' | relative_url }}), and
 [Delta Lake]({{ '/wiki/delta-lake/' | relative_url }}).
 
@@ -312,7 +312,7 @@ Use these pages to go deeper into the main tool categories:
 - [Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }})
 - [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }})
 - [Orchestration]({{ '/wiki/orchestration/' | relative_url }})
-- [Data Warehouse vs Data Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }})
+- [Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
 - [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [Reverse ETL]({{ '/wiki/reverse-etl/' | relative_url }})

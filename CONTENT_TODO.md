@@ -251,6 +251,7 @@ Existing pages:
 - `_comparisons/data-product-manager-vs-product-manager.md`
 - `_comparisons/data-product-owner-vs-data-product-manager.md`
 - `_comparisons/dataops-vs-data-engineering.md`
+- `_comparisons/data-warehouse-vs-data-lakehouse.md`
 - `_comparisons/delta-lake-vs-apache-iceberg.md`
 - `_comparisons/etl-vs-elt.md`
 - `_comparisons/graph-rag-vs-vector-rag.md`
@@ -268,9 +269,8 @@ Candidate pages:
 - Move remaining real comparison pages from `_wiki/` to `_comparisons/`, update
   internal links to the comparison URLs, and leave wiki redirects where the old
   URLs have been exposed.
-- Remaining migration candidates: `_wiki/batch-vs-streaming.md`,
-  `_wiki/data-warehouse-vs-data-lakehouse.md`,
-  and `_wiki/data-mesh-vs-centralized-data-platform.md`.
+- Remaining migration candidates: `_wiki/batch-vs-streaming.md` and
+  `_wiki/data-mesh-vs-centralized-data-platform.md`.
 - Keep `_comparisons/data-engineer-vs-data-scientist.md` as the canonical
   comparison page. Put role and concept material in `_wiki/data-engineer-role.md`
   and `_wiki/data-scientist-role.md`, not in a duplicate wiki comparison page.
@@ -304,7 +304,7 @@ Start with this batch when expanding the content set.
 - Improve the existing comparison pages for data analyst vs analytics engineer
   and RAG vs fine-tuning when new podcast evidence appears.
 - Continue migrating real `X vs Y` decision pages into `_comparisons/`; batch
-  vs streaming and data warehouse vs data lakehouse are still pending.
+  vs streaming and data mesh vs centralized data platform are still pending.
 - Viable audited follow-up: data analyst to analytics engineer as an
   analyst-specific roadmap page.
 - Keep `dataops platforms` on `_wiki/dataops-platforms.md`. It links to

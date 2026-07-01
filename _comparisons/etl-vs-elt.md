@@ -22,6 +22,8 @@ ETL and ELT answer one pipeline decision: the team has to choose where
 transformation happens. In ETL, the team extracts data, transforms it, and loads
 the prepared result. In ELT, the team extracts data, loads it first, and
 transforms it later inside the warehouse or lakehouse.
+That storage choice connects ETL and ELT to
+[Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }}).
 
 The DataTalks.Club archive treats the choice as an ownership and risk decision,
 not a tool slogan. [Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }})

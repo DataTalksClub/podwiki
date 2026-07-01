@@ -139,7 +139,7 @@ Brudaru explains Apache Iceberg as a table format over Parquet at 18:17 in
 At 21:27, he separates storage, compute, and access through the catalog
 discussion. He also includes metadata and lineage. See
 [Data Warehouse]({{ '/wiki/data-warehouse/' | relative_url }}) and
-[Data Warehouse vs Data Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }})
+[Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
 for the storage tradeoff.
 
 ## Transformations
@@ -263,7 +263,7 @@ These pages cover adjacent tools, practices, and tradeoffs:
 - [dbt]({{ '/wiki/dbt/' | relative_url }})
 - [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
 - [Data Warehouse]({{ '/wiki/data-warehouse/' | relative_url }})
-- [Data Warehouse vs Data Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }})
+- [Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
 - [FinOps for Data Engineers]({{ '/wiki/finops-for-data-engineers/' | relative_url }})
 - [Orchestration]({{ '/wiki/orchestration/' | relative_url }})
 - [Reverse ETL]({{ '/wiki/reverse-etl/' | relative_url }})

@@ -5,7 +5,6 @@ summary: "How DataTalks.Club podcast discussions place Delta Lake in lakehouse t
 related:
   - Apache Iceberg
   - Data Lake
-  - Data Warehouse vs Data Lakehouse
   - Data Engineering Platforms
   - Modern Data Stack
   - DataOps
@@ -26,7 +25,7 @@ comparison. This topic covers the Delta Lake side of the lakehouse discussion.
 Treat the Iceberg page as the deeper archive-backed explanation of open table
 formats, catalogs, metadata, and vendor lock-in. Use
 [Data Lake]({{ '/wiki/data-lake/' | relative_url }}) for the storage layer and
-[Data Warehouse vs Data Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }})
+[Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
 for the architecture tradeoff.
 
 For the dedicated side-by-side decision page, use
@@ -162,7 +161,7 @@ format doesn't decide dataset ownership. It also doesn't decide access rights
 or downstream trust.
 
 This is also why the warehouse-versus-lakehouse decision should start from the
-consumer and operating model. A [data warehouse vs data lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }})
+consumer and operating model. A [data warehouse vs data lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
 choice isn't mainly a brand choice. It's a choice about where storage,
 compute, trust, and access should live. Brudaru's requirements-led guidance
 and Albertsson's platform chapters both support that reading
@@ -193,7 +192,7 @@ Continue with these adjacent archive topics:
 - [Delta Lake vs Apache Iceberg]({{ '/comparisons/delta-lake-vs-apache-iceberg/' | relative_url }})
 - [Apache Iceberg]({{ '/wiki/apache-iceberg/' | relative_url }})
 - [Data Lake]({{ '/wiki/data-lake/' | relative_url }})
-- [Data Warehouse vs Data Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }})
+- [Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})
 - [Data Governance]({{ '/wiki/data-governance/' | relative_url }})

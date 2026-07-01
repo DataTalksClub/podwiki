@@ -10,7 +10,6 @@ related_wiki:
   - Delta Lake
   - Apache Iceberg
   - Data Lake
-  - Data Warehouse vs Data Lakehouse
   - Data Engineering Platforms
   - Data Governance
   - DataOps
@@ -43,7 +42,7 @@ Use [Delta Lake]({{ '/wiki/delta-lake/' | relative_url }}) for the archive's
 Delta-specific topic page. Use
 [Apache Iceberg]({{ '/wiki/apache-iceberg/' | relative_url }}) for the deeper
 Iceberg and catalog discussion. Use
-[Data Warehouse vs Data Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }})
+[Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
 when the real decision is warehouse-centered analytics versus open lakehouse
 storage.
 
@@ -222,7 +221,7 @@ These pages provide the surrounding archive context:
 - [Delta Lake]({{ '/wiki/delta-lake/' | relative_url }})
 - [Apache Iceberg]({{ '/wiki/apache-iceberg/' | relative_url }})
 - [Data Lake]({{ '/wiki/data-lake/' | relative_url }})
-- [Data Warehouse vs Data Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }})
+- [Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
 - [Data Governance]({{ '/wiki/data-governance/' | relative_url }})
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})

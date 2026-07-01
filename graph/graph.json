@@ -1,17 +1,17 @@
 {
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
-    "wikis": 178,
-    "articles": 46,
+    "wikis": 177,
+    "articles": 47,
     "guides": 19,
-    "comparisons": 16,
+    "comparisons": 17,
     "roadmaps": 9,
     "how_tos": 2,
     "podcasts": 202,
     "persons": 438,
     "topics": 145,
     "nodes": 1009,
-    "links": 10554
+    "links": 10551
   },
   "nodes": [
     {
@@ -211,6 +211,17 @@
       "count": 1,
       "search": "Data Scientist: Role, Skills, Career Path, and Interview Signals A podcast backed guide to what a data scientist does, how the role changes by company, which skills matter, and how to prepare for hiring.",
       "keyword": "data scientist"
+    },
+    {
+      "id": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "type": "article",
+      "collection": "comparison",
+      "label": "Data Warehouse vs Data Lakehouse",
+      "title": "Data Warehouse vs Data Lakehouse",
+      "url": "/comparisons/data-warehouse-vs-data-lakehouse/",
+      "count": 1,
+      "search": "Data Warehouse vs Data Lakehouse How DataTalks.Club podcast guests compare warehouse centered analytics with lakehouse architectures built from object storage, table formats, catalogs, compute engines, and governance.",
+      "keyword": "data warehouse vs data lakehouse"
     },
     {
       "id": "article:guide:dataops-tools",
@@ -8926,16 +8937,6 @@
       "search": "Data Warehouse Podcast backed notes on data warehouses as modeled analytical storage for ELT, dbt, BI, governance, cost control, and activation."
     },
     {
-      "id": "wiki:data-warehouse-vs-data-lakehouse",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "Data Warehouse vs Data Lakehouse",
-      "title": "Data Warehouse vs Data Lakehouse",
-      "url": "/wiki/data-warehouse-vs-data-lakehouse/",
-      "count": 1,
-      "search": "Data Warehouse vs Data Lakehouse A podcast grounded comparison of warehouse centered analytics and lakehouse architectures built from object storage, table formats, catalogs, compute engines, and governance."
-    },
-    {
       "id": "wiki:data-led-growth",
       "type": "wiki",
       "collection": "wiki",
@@ -10897,6 +10898,204 @@
       "weight": 2
     },
     {
+      "source": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "target": "person:adrianbrudaru",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "target": "person:arpitchoudhury",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "target": "person:eddyzulkifly",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "target": "person:larsalbertsson",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "target": "person:nataliekwong",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "target": "person:santonatuli",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "target": "podcast:data-engineering-tools-modern-data-stack",
+      "kind": "article-link",
+      "weight": 20
+    },
+    {
+      "source": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "target": "podcast:data-led-growth-event-tracking-and-reverse-etl",
+      "kind": "article-link",
+      "weight": 8
+    },
+    {
+      "source": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "target": "podcast:dataops-principles-and-scalable-data-platforms",
+      "kind": "article-link",
+      "weight": 14
+    },
+    {
+      "source": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "target": "podcast:finops-for-data-engineers",
+      "kind": "article-link",
+      "weight": 10
+    },
+    {
+      "source": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "target": "podcast:modern-data-pipelines-orchestration-ingestion-modeling",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "target": "podcast:trends-in-modern-data-engineering",
+      "kind": "article-link",
+      "weight": 22
+    },
+    {
+      "source": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "target": "wiki:analytics-engineering",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "target": "wiki:analytics-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "target": "wiki:apache-iceberg",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "target": "wiki:apache-iceberg",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "target": "wiki:data-activation",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "target": "wiki:data-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "target": "wiki:data-lake",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "target": "wiki:data-lake",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "target": "wiki:data-warehouse",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "target": "wiki:data-warehouse",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "target": "wiki:dataops",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "target": "wiki:dataops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "target": "wiki:delta-lake",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "target": "wiki:finops-for-data-engineers",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "target": "wiki:modern-data-stack",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "target": "wiki:modern-data-stack",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "target": "wiki:product-analytics",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:dataops-vs-data-engineering",
+      "target": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
       "source": "article:comparison:dataops-vs-data-engineering",
       "target": "article:comparison:mlops-vs-dataops",
       "kind": "article-link",
@@ -11126,6 +11325,12 @@
     },
     {
       "source": "article:comparison:delta-lake-vs-apache-iceberg",
+      "target": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:delta-lake-vs-apache-iceberg",
       "target": "person:adrianbrudaru",
       "kind": "article-link",
       "weight": 2
@@ -11234,18 +11439,6 @@
     },
     {
       "source": "article:comparison:delta-lake-vs-apache-iceberg",
-      "target": "wiki:data-warehouse-vs-data-lakehouse",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:comparison:delta-lake-vs-apache-iceberg",
-      "target": "wiki:data-warehouse-vs-data-lakehouse",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:comparison:delta-lake-vs-apache-iceberg",
       "target": "wiki:dataops",
       "kind": "article-link",
       "weight": 6
@@ -11301,6 +11494,12 @@
     {
       "source": "article:comparison:delta-lake-vs-apache-iceberg",
       "target": "wiki:orchestration",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:etl-vs-elt",
+      "target": "article:comparison:data-warehouse-vs-data-lakehouse",
       "kind": "article-link",
       "weight": 2
     },
@@ -14930,6 +15129,12 @@
     },
     {
       "source": "article:guide:dataops-tools",
+      "target": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:guide:dataops-tools",
       "target": "article:comparison:dataops-vs-data-engineering",
       "kind": "article-link",
       "weight": 2
@@ -17606,6 +17811,12 @@
     },
     {
       "source": "article:how_to:how-to-build-data-pipelines",
+      "target": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how_to:how-to-build-data-pipelines",
       "target": "article:comparison:mlops-vs-dataops",
       "kind": "article-link",
       "weight": 2
@@ -17765,12 +17976,6 @@
       "target": "wiki:data-quality-and-observability",
       "kind": "article-wiki",
       "weight": 5
-    },
-    {
-      "source": "article:how_to:how-to-build-data-pipelines",
-      "target": "wiki:data-warehouse-vs-data-lakehouse",
-      "kind": "article-link",
-      "weight": 2
     },
     {
       "source": "article:how_to:how-to-build-data-pipelines",
@@ -18374,6 +18579,12 @@
     },
     {
       "source": "article:roadmap:data-engineer-roadmap",
+      "target": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-engineer-roadmap",
       "target": "article:how_to:airflow-docker-compose",
       "kind": "article-link",
       "weight": 2
@@ -18585,12 +18796,6 @@
     {
       "source": "article:roadmap:data-engineer-roadmap",
       "target": "wiki:data-warehouse",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:roadmap:data-engineer-roadmap",
-      "target": "wiki:data-warehouse-vs-data-lakehouse",
       "kind": "article-link",
       "weight": 2
     },
@@ -39266,6 +39471,12 @@
     },
     {
       "source": "wiki:apache-iceberg",
+      "target": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "kind": "wiki-link",
+      "weight": 8
+    },
+    {
+      "source": "wiki:apache-iceberg",
       "target": "article:comparison:delta-lake-vs-apache-iceberg",
       "kind": "wiki-link",
       "weight": 4
@@ -39359,18 +39570,6 @@
       "target": "wiki:data-warehouse",
       "kind": "wiki-link",
       "weight": 2
-    },
-    {
-      "source": "wiki:apache-iceberg",
-      "target": "wiki:data-warehouse-vs-data-lakehouse",
-      "kind": "wiki-link",
-      "weight": 8
-    },
-    {
-      "source": "wiki:apache-iceberg",
-      "target": "wiki:data-warehouse-vs-data-lakehouse",
-      "kind": "wiki-related",
-      "weight": 3
     },
     {
       "source": "wiki:apache-iceberg",
@@ -44150,6 +44349,12 @@
     },
     {
       "source": "wiki:data-architect-role",
+      "target": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-architect-role",
       "target": "person:16rahuljain",
       "kind": "wiki-link",
       "weight": 2
@@ -44325,18 +44530,6 @@
     {
       "source": "wiki:data-architect-role",
       "target": "wiki:data-teams",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:data-architect-role",
-      "target": "wiki:data-warehouse-vs-data-lakehouse",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:data-architect-role",
-      "target": "wiki:data-warehouse-vs-data-lakehouse",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -45410,6 +45603,12 @@
     },
     {
       "source": "wiki:data-engineering-platforms",
+      "target": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-engineering-platforms",
       "target": "person:16rahuljain",
       "kind": "wiki-link",
       "weight": 4
@@ -45644,12 +45843,6 @@
     },
     {
       "source": "wiki:data-engineering-platforms",
-      "target": "wiki:data-warehouse-vs-data-lakehouse",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:data-engineering-platforms",
       "target": "wiki:dataops",
       "kind": "wiki-link",
       "weight": 8
@@ -45723,6 +45916,12 @@
     {
       "source": "wiki:data-engineering-platforms",
       "target": "wiki:streaming",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-engineering-portfolio-projects",
+      "target": "article:comparison:data-warehouse-vs-data-lakehouse",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -45971,12 +46170,6 @@
       "target": "wiki:data-quality-and-observability",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:data-engineering-portfolio-projects",
-      "target": "wiki:data-warehouse-vs-data-lakehouse",
-      "kind": "wiki-link",
-      "weight": 2
     },
     {
       "source": "wiki:data-engineering-portfolio-projects",
@@ -46322,6 +46515,12 @@
     },
     {
       "source": "wiki:data-engineering-tools",
+      "target": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-engineering-tools",
       "target": "article:guide:dataops-tools",
       "kind": "wiki-link",
       "weight": 2
@@ -46529,12 +46728,6 @@
       "target": "wiki:data-warehouse",
       "kind": "wiki-link",
       "weight": 2
-    },
-    {
-      "source": "wiki:data-engineering-tools",
-      "target": "wiki:data-warehouse-vs-data-lakehouse",
-      "kind": "wiki-link",
-      "weight": 4
     },
     {
       "source": "wiki:data-engineering-tools",
@@ -46784,6 +46977,12 @@
     },
     {
       "source": "wiki:data-lake",
+      "target": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-lake",
       "target": "person:adrianbrudaru",
       "kind": "wiki-link",
       "weight": 6
@@ -46887,18 +47086,6 @@
     {
       "source": "wiki:data-lake",
       "target": "wiki:data-warehouse",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:data-lake",
-      "target": "wiki:data-warehouse-vs-data-lakehouse",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:data-lake",
-      "target": "wiki:data-warehouse-vs-data-lakehouse",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -50528,6 +50715,12 @@
     },
     {
       "source": "wiki:data-warehouse",
+      "target": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-warehouse",
       "target": "article:guide:data-observability-for-data-engineering",
       "kind": "wiki-link",
       "weight": 2
@@ -50726,18 +50919,6 @@
     },
     {
       "source": "wiki:data-warehouse",
-      "target": "wiki:data-warehouse-vs-data-lakehouse",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:data-warehouse",
-      "target": "wiki:data-warehouse-vs-data-lakehouse",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:data-warehouse",
       "target": "wiki:dbt",
       "kind": "wiki-link",
       "weight": 4
@@ -50789,198 +50970,6 @@
       "target": "wiki:reverse-etl",
       "kind": "wiki-link",
       "weight": 2
-    },
-    {
-      "source": "wiki:data-warehouse-vs-data-lakehouse",
-      "target": "person:adrianbrudaru",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:data-warehouse-vs-data-lakehouse",
-      "target": "person:arpitchoudhury",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-warehouse-vs-data-lakehouse",
-      "target": "person:eddyzulkifly",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-warehouse-vs-data-lakehouse",
-      "target": "person:larsalbertsson",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:data-warehouse-vs-data-lakehouse",
-      "target": "person:nataliekwong",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:data-warehouse-vs-data-lakehouse",
-      "target": "person:santonatuli",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-warehouse-vs-data-lakehouse",
-      "target": "podcast:data-engineering-tools-modern-data-stack",
-      "kind": "wiki-link",
-      "weight": 20
-    },
-    {
-      "source": "wiki:data-warehouse-vs-data-lakehouse",
-      "target": "podcast:data-led-growth-event-tracking-and-reverse-etl",
-      "kind": "wiki-link",
-      "weight": 8
-    },
-    {
-      "source": "wiki:data-warehouse-vs-data-lakehouse",
-      "target": "podcast:dataops-principles-and-scalable-data-platforms",
-      "kind": "wiki-link",
-      "weight": 14
-    },
-    {
-      "source": "wiki:data-warehouse-vs-data-lakehouse",
-      "target": "podcast:finops-for-data-engineers",
-      "kind": "wiki-link",
-      "weight": 10
-    },
-    {
-      "source": "wiki:data-warehouse-vs-data-lakehouse",
-      "target": "podcast:modern-data-pipelines-orchestration-ingestion-modeling",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:data-warehouse-vs-data-lakehouse",
-      "target": "podcast:trends-in-modern-data-engineering",
-      "kind": "wiki-link",
-      "weight": 22
-    },
-    {
-      "source": "wiki:data-warehouse-vs-data-lakehouse",
-      "target": "wiki:analytics-engineering",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:data-warehouse-vs-data-lakehouse",
-      "target": "wiki:analytics-engineering",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:data-warehouse-vs-data-lakehouse",
-      "target": "wiki:apache-iceberg",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:data-warehouse-vs-data-lakehouse",
-      "target": "wiki:apache-iceberg",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:data-warehouse-vs-data-lakehouse",
-      "target": "wiki:data-activation",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:data-warehouse-vs-data-lakehouse",
-      "target": "wiki:data-engineering",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:data-warehouse-vs-data-lakehouse",
-      "target": "wiki:data-engineering-platforms",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:data-warehouse-vs-data-lakehouse",
-      "target": "wiki:data-engineering-platforms",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:data-warehouse-vs-data-lakehouse",
-      "target": "wiki:data-lake",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:data-warehouse-vs-data-lakehouse",
-      "target": "wiki:data-lake",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:data-warehouse-vs-data-lakehouse",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:data-warehouse-vs-data-lakehouse",
-      "target": "wiki:data-warehouse",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:data-warehouse-vs-data-lakehouse",
-      "target": "wiki:data-warehouse",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:data-warehouse-vs-data-lakehouse",
-      "target": "wiki:dataops",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:data-warehouse-vs-data-lakehouse",
-      "target": "wiki:dataops",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:data-warehouse-vs-data-lakehouse",
-      "target": "wiki:delta-lake",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-warehouse-vs-data-lakehouse",
-      "target": "wiki:finops-for-data-engineers",
-      "kind": "wiki-link",
-      "weight": 6
-    },
-    {
-      "source": "wiki:data-warehouse-vs-data-lakehouse",
-      "target": "wiki:modern-data-stack",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:data-warehouse-vs-data-lakehouse",
-      "target": "wiki:modern-data-stack",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:data-warehouse-vs-data-lakehouse",
-      "target": "wiki:product-analytics",
-      "kind": "wiki-link",
-      "weight": 4
     },
     {
       "source": "wiki:dataops",
@@ -51440,6 +51429,12 @@
     },
     {
       "source": "wiki:dbt",
+      "target": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:dbt",
       "target": "article:roadmap:data-analyst-to-analytics-engineer",
       "kind": "wiki-link",
       "weight": 2
@@ -51842,6 +51837,12 @@
     },
     {
       "source": "wiki:delta-lake",
+      "target": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:delta-lake",
       "target": "article:comparison:delta-lake-vs-apache-iceberg",
       "kind": "wiki-link",
       "weight": 4
@@ -51927,18 +51928,6 @@
     {
       "source": "wiki:delta-lake",
       "target": "wiki:data-lake",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:delta-lake",
-      "target": "wiki:data-warehouse-vs-data-lakehouse",
-      "kind": "wiki-link",
-      "weight": 6
-    },
-    {
-      "source": "wiki:delta-lake",
-      "target": "wiki:data-warehouse-vs-data-lakehouse",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -52796,6 +52785,12 @@
     },
     {
       "source": "wiki:duckdb",
+      "target": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:duckdb",
       "target": "person:adrianbrudaru",
       "kind": "wiki-link",
       "weight": 4
@@ -52899,18 +52894,6 @@
     {
       "source": "wiki:duckdb",
       "target": "wiki:data-pipelines",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:duckdb",
-      "target": "wiki:data-warehouse-vs-data-lakehouse",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:duckdb",
-      "target": "wiki:data-warehouse-vs-data-lakehouse",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -53816,6 +53799,12 @@
     },
     {
       "source": "wiki:etl-vs-elt",
+      "target": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:etl-vs-elt",
       "target": "article:comparison:etl-vs-elt",
       "kind": "wiki-link",
       "weight": 4
@@ -53967,12 +53956,6 @@
     {
       "source": "wiki:etl-vs-elt",
       "target": "wiki:data-warehouse",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:etl-vs-elt",
-      "target": "wiki:data-warehouse-vs-data-lakehouse",
       "kind": "wiki-link",
       "weight": 4
     },
@@ -55124,6 +55107,12 @@
     },
     {
       "source": "wiki:finops-for-data-engineers",
+      "target": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:finops-for-data-engineers",
       "target": "article:comparison:dataops-vs-data-engineering",
       "kind": "wiki-link",
       "weight": 4
@@ -55271,12 +55260,6 @@
       "target": "wiki:data-warehouse",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:finops-for-data-engineers",
-      "target": "wiki:data-warehouse-vs-data-lakehouse",
-      "kind": "wiki-link",
-      "weight": 2
     },
     {
       "source": "wiki:finops-for-data-engineers",
@@ -62858,6 +62841,12 @@
     },
     {
       "source": "wiki:modern-data-stack",
+      "target": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:modern-data-stack",
       "target": "person:adrianbrudaru",
       "kind": "wiki-link",
       "weight": 2
@@ -62999,12 +62988,6 @@
       "target": "wiki:data-warehouse",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:modern-data-stack",
-      "target": "wiki:data-warehouse-vs-data-lakehouse",
-      "kind": "wiki-link",
-      "weight": 4
     },
     {
       "source": "wiki:modern-data-stack",

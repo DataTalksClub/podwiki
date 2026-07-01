@@ -19,7 +19,7 @@ destination. ELT means extract, load, transform. The pipeline loads raw or
 lightly processed data first, then transforms it in a
 [data warehouse]({{ '/wiki/data-warehouse/' | relative_url }}),
 [data lake]({{ '/wiki/data-lake/' | relative_url }}), or
-[lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }})
+[lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
 layer.
 
 The DataTalks.Club archive treats ETL vs ELT as a boundary decision inside
@@ -293,6 +293,6 @@ and activation.
 - [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
 - [dbt]({{ '/wiki/dbt/' | relative_url }})
 - [Data Warehouse]({{ '/wiki/data-warehouse/' | relative_url }})
-- [Data Warehouse vs Data Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }})
+- [Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [Reverse ETL]({{ '/wiki/reverse-etl/' | relative_url }})

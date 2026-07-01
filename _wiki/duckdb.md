@@ -6,7 +6,6 @@ related:
   - Data Engineering Platforms
   - Apache Iceberg
   - Data Lake
-  - Data Warehouse vs Data Lakehouse
   - Modern Data Stack
   - Data Engineering Portfolio Projects
   - Data Pipelines
@@ -25,7 +24,7 @@ This places DuckDB inside the
 conversation, not only beside laptop analytics. It also belongs beside
 [Apache Iceberg]({{ '/wiki/apache-iceberg/' | relative_url }}),
 [Data Lake]({{ '/wiki/data-lake/' | relative_url }}), and the
-[Data Warehouse vs Data Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }})
+[Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
 comparison. The archive discusses it as a portable access layer over files,
 lakes, and table-format experiments.
 
@@ -184,7 +183,7 @@ DuckDB is a poor default when the real requirement is shared platform
 operation. If many teams need governed access and lineage, the work belongs
 closer to
 [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
-and [Data Warehouse vs Data Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }}).
+and [Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }}).
 The same is true when teams need catalog discovery, role-based permissions, and
 BI integration.
 

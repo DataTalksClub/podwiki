@@ -55,6 +55,7 @@ path:
 
 - source ingestion
 - warehouse, lake, or lakehouse storage
+  ([Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }}))
 - transformation logic and data models
 - orchestration and dependency design
 - interfaces for analysts, data scientists, product systems, or AI systems

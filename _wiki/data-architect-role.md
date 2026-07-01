@@ -8,7 +8,6 @@ related:
   - Analytics Engineering
   - Data Teams
   - Data Quality and Observability
-  - Data Warehouse vs Data Lakehouse
   - Data Mesh
   - Data Governance
   - Leadership
@@ -52,7 +51,7 @@ name consumption-ready data. The same discussion connects those layers to
 quality expectations and consumer needs
 ([data architect episode at 29:56-36:00]({{ '/podcasts/from-iot-data-engineering-to-leading-data-architect/' | relative_url }})).
 That connects the role to
-[Data Warehouse vs Data Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }}).
+[Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }}).
 
 [Zhamak Dehghani]({{ '/people/zhamakdehghani/' | relative_url }}) extends the
 definition through [Data Mesh]({{ '/wiki/data-mesh/' | relative_url }}). Her
@@ -177,7 +176,7 @@ These pages cover adjacent roles, systems, and operating concerns.
 - [Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }})
 - [Data Teams]({{ '/wiki/data-teams/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
-- [Data Warehouse vs Data Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }})
+- [Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
 - [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
 - [Data Mesh]({{ '/wiki/data-mesh/' | relative_url }})

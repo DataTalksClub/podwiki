@@ -218,7 +218,7 @@ These project categories turn the archive themes into portfolio choices.
 - Cost-aware local lakehouse: use local files with Parquet and DuckDB. Add a
   cost note before adding Spark or Kafka
   ([Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }})
-  and [Data Warehouse vs Data Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }})).
+  and [Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})).
 - Open-source data contribution: choose one inspectable contribution. It can be
   a connector fix, docs example, test case, or reproducible issue.
 

@@ -5,7 +5,6 @@ summary: "How DataTalks.Club podcast guests use data lake as raw, flexible stora
 related:
   - Data Engineering Platforms
   - Data Warehouse
-  - Data Warehouse vs Data Lakehouse
   - Apache Iceberg
   - Delta Lake
   - Modern Data Stack
@@ -86,7 +85,7 @@ lakehouse can also be the first durable landing zone
 ([ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
 7:57-18:47).
 
-Teams enter the [data warehouse vs data lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }})
+Teams enter the [data warehouse vs data lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
 comparison when they want warehouse-like behavior on lake storage. Albertsson
 describes a lakehouse as something that technically looks like a data lake. It
 adds interactive exploration and warehouse-style use
@@ -292,7 +291,7 @@ These episodes anchor the page:
 
 Use [Data Warehouse]({{ '/wiki/data-warehouse/' | relative_url }}) for the
 warehouse side of the storage vocabulary. Use
-[Data Warehouse vs Data Lakehouse]({{ '/wiki/data-warehouse-vs-data-lakehouse/' | relative_url }})
+[Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
 for the architecture tradeoff. Use
 [Apache Iceberg]({{ '/wiki/apache-iceberg/' | relative_url }}) and
 [Delta Lake]({{ '/wiki/delta-lake/' | relative_url }}) for table-format
