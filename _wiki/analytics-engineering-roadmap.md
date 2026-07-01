@@ -32,7 +32,7 @@ makes data resemble it. The role then applies software-engineering rigor so the
 models are testable and robust
 ([foundations episode at 11:03-18:35]({{ '/podcasts/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices/' | relative_url }})).
 
-## Common Definition
+## Modeled Layer Ownership
 
 Across these episodes, analytics engineering readiness means you can own the
 modeled layer between raw data and decisions. A dashboard alone isn't enough.
@@ -56,13 +56,13 @@ work inside ELT. Data is loaded into the warehouse first, and analysts or
 analytics engineers then transform it with SQL and dbt-style workflows
 ([modern stack episode at 7:57-15:30]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})).
 
-The same definition connects the roadmap to [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }}),
+This ownership model connects the roadmap to [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }}),
 [Data Analyst vs Analytics Engineer]({{ '/comparisons/data-analyst-vs-analytics-engineer/' | relative_url }}),
 [dbt]({{ '/wiki/dbt/' | relative_url }}), and [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).
 The specific analyst transition path is
 [Data Analyst to Analytics Engineer Roadmap]({{ '/roadmaps/data-analyst-to-analytics-engineer/' | relative_url }}).
 
-## Guest Differences
+## Role Boundaries and Tool Choices
 
 Guests differ on role boundaries and tool boundaries. [Victoria Perez
 Mola]({{ '/people/victoriaperezmola/' | relative_url }}) puts SQL, data
@@ -158,7 +158,7 @@ and tracking plans to warehouse transforms, BI, and [reverse ETL]({{ '/wiki/reve
 Teams can then return modeled data to sales, support, marketing, or engagement tools
 ([data-led growth episode at 13:34-38:20]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }})).
 
-## Project Sequence
+## Portfolio Project Sequence
 
 Build projects in the same order that DataTalks.Club guests describe the work
 becoming more durable.
@@ -287,9 +287,10 @@ mind
 The practical boundary is simple: learn enough to build the next reliable model,
 then let the model reveal the next topic.
 
-## Related Pages
+## Adjacent Analytics Engineering Paths
 
-These pages cover the role, stack, projects, and adjacent domains.
+The roadmap intersects with role definition, project evidence, stack context,
+and adjacent domains.
 
 - [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
 - [Analytics Engineering Portfolio Projects]({{ '/wiki/analytics-engineering-portfolio-projects/' | relative_url }})

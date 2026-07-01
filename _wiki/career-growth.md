@@ -30,7 +30,7 @@ The public-work side connects to
 [developer relations]({{ '/wiki/developer-relations/' | relative_url }}),
 including [open source and developer relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }}).
 
-## Common Definition
+## Growth as Compounding Judgment
 
 Across these episodes, career growth means compounding useful judgment rather than
 collecting more tool names. In
@@ -67,7 +67,7 @@ He argues for reducing technical overload and translating metrics into
 narrative. Executive presentations should lead with recommendations before
 details (12:54 / 30:57 / 39:55).
 
-## Guest Differences
+## Visibility, Brand, and Senior Paths
 
 Guests agree that visibility helps, but they differ on what kind of visibility
 matters. [Shawn Swyx Wang]({{ '/people/swyx/' | relative_url }}) argues in
@@ -188,8 +188,8 @@ Admond's
 adds the publishing system around that work. LinkedIn, Medium, audience
 feedback, and monetization can matter.
 
-The strongest career signal is still specific. It shows the problem explained,
-the reader's takeaway, and the opportunity that evidence made possible (13:00 /
+Strong career signals stay specific. They show the problem, the reader's
+takeaway, and the opportunity that the published work made possible (13:00 /
 34:00 / 46:30).
 
 ## Mentoring and Leadership Through Others
@@ -241,18 +241,21 @@ and [community building]({{ '/wiki/community-building/' | relative_url }}).
 It also connects to role-specific project pages such as
 [machine learning portfolio projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}).
 
-## Related Pages
+## Adjacent Career Topics
 
-Use these pages for adjacent questions and deeper role-specific detail.
-
-- [Career Transition]({{ '/wiki/career-transition/' | relative_url }})
-- [Career Development]({{ '/wiki/career-development/' | relative_url }})
-- [Job Search]({{ '/wiki/job-search/' | relative_url }})
-- [Hiring]({{ '/wiki/hiring/' | relative_url }})
-- [Machine Learning Engineer Role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }})
-- [MLOps]({{ '/wiki/mlops/' | relative_url }})
-- [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
-- [Technical Writing]({{ '/wiki/technical-writing/' | relative_url }})
-- [Developer Relations]({{ '/wiki/developer-relations/' | relative_url }})
-- [Open Source and Developer Relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }})
-- [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
+Career growth usually follows a
+[career transition]({{ '/wiki/career-transition/' | relative_url }}) or broader
+[career development]({{ '/wiki/career-development/' | relative_url }}) question,
+then turns into concrete evidence for
+[job search]({{ '/wiki/job-search/' | relative_url }}) and
+[hiring]({{ '/wiki/hiring/' | relative_url }}). Role-specific growth depends on
+the expectations around the
+[machine learning engineer role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }}),
+[MLOps]({{ '/wiki/mlops/' | relative_url }}), and
+[machine learning system design]({{ '/wiki/machine-learning-system-design/' | relative_url }}).
+Public proof connects this topic to
+[technical writing]({{ '/wiki/technical-writing/' | relative_url }}),
+[developer relations]({{ '/wiki/developer-relations/' | relative_url }}),
+[open source and developer relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }}),
+and
+[open source portfolio evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }}).

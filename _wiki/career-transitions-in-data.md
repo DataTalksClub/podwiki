@@ -51,15 +51,15 @@ show deployed ML projects and end-to-end data platforms. Public GitHub work and
 open-source contributions help too.
 
 Freelancers need client-facing offers and trust signals. Because proof changes
-by role, use this hub with
+by role, candidates need the broad framing from
 [career transition]({{ '/wiki/career-transition/' | relative_url }}) and
-[job search]({{ '/wiki/job-search/' | relative_url }}). Role pages and
-portfolio pages supply the target-specific evidence.
+[job search]({{ '/wiki/job-search/' | relative_url }}) alongside
+target-specific role and portfolio evidence.
 
-## Common Definition
+## Reframing Prior Work as Data Evidence
 
-Across these episodes, a data career transition means translating previous work
-into the language, artifacts, and responsibilities of a target data role.
+Across these episodes, people move into data roles by translating previous work
+into the language, artifacts, and responsibilities of a target role.
 [Ksenia Legostay's]({{ '/people/ksenialegostay/' | relative_url }}) route from
 project management into data science starts with customer-centric and
 KPI-driven work. It then moves through analytics, ML coursework, and CRISP-DM
@@ -90,7 +90,7 @@ Docker and cloud providers
 ([Software Engineering to Machine Learning]({{ '/podcasts/from-software-engineer-to-machine-learning/' | relative_url }}),
 17:25-49:23).
 
-That's why this page links software-to-ML transitions to
+Software-to-ML transitions therefore connect to
 [MLOps]({{ '/wiki/mlops/' | relative_url }}),
 [machine learning infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }}),
 and [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}).
@@ -118,12 +118,12 @@ easy to evaluate. Case interviews test the same fit through scenarios
 [Ace Data Interviews]({{ '/podcasts/data-interview-behavioral-and-portfolio-prep-guide/' | relative_url }}),
 8:58-45:30).
 
-## Guest Disagreements
+## Entry Routes Depend on Starting Position
 
-Guests differ on the best starting point. Some routes begin with formal study,
-while others begin with internal mobility or public projects. Community
-participation can also be the bridge. Freelance routes begin with
-market-facing client work. [Ksenia Legostay]({{ '/people/ksenialegostay/' | relative_url }})
+DataTalks.Club guests don't treat the first step as standard. Some start
+through formal study or internal mobility, while others start through public
+projects or community work. Freelancers start with market-facing client work.
+[Ksenia Legostay]({{ '/people/ksenialegostay/' | relative_url }})
 includes formal data-analysis study and a part-time learning plan in her route
 ([Project Manager to Data Scientist]({{ '/podcasts/project-manager-to-data-scientist/' | relative_url }}),
 11:10 and 54:09).
@@ -290,8 +290,8 @@ walkthroughs should show ownership, impact, business context, and defensible
 technical claims. He puts those signals before case interviews and
 product-sense questions
 ([Ace Data Interviews]({{ '/podcasts/data-interview-behavioral-and-portfolio-prep-guide/' | relative_url }}),
-25:13-45:30). These episodes explain why the page treats transition as both a
-skills problem and a communication problem.
+25:13-45:30). These episodes show why candidates have to treat a transition as
+both a skills problem and a communication problem.
 
 ## Internal Mobility and Community Routes
 
@@ -405,28 +405,37 @@ subscription-style relationships matter. Notice-period planning matters too
 14:13-1:01:02). These episodes make [Freelance]({{ '/wiki/freelance/' | relative_url }})
 part of career transitions rather than a separate business topic.
 
-## Related Pages
+## Role Pathways and Portfolio Signals
 
-These pages connect the transition category to roles, hiring, and portfolio
-proof.
+Career transitions in data connect role choice, hiring proof, and portfolio
+evidence. The broad transition and hiring hubs are
+[Career Transition]({{ '/wiki/career-transition/' | relative_url }}),
+[Job Search]({{ '/wiki/job-search/' | relative_url }}),
+[Career Growth]({{ '/wiki/career-growth/' | relative_url }}), and
+[Hiring]({{ '/wiki/hiring/' | relative_url }}).
 
-- [Career Transition]({{ '/wiki/career-transition/' | relative_url }})
-- [Job Search]({{ '/wiki/job-search/' | relative_url }})
-- [Career Growth]({{ '/wiki/career-growth/' | relative_url }})
-- [Hiring]({{ '/wiki/hiring/' | relative_url }})
+Candidates then need target-role proof:
+
 - [Data Analyst Role]({{ '/wiki/data-analyst-role/' | relative_url }})
-- [Data Analyst to Analytics Engineer Roadmap]({{ '/roadmaps/data-analyst-to-analytics-engineer/' | relative_url }})
 - [Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }})
 - [Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }})
 - [Machine Learning Engineer Role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }})
 - [AI Engineer Role]({{ '/wiki/ai-engineer-role/' | relative_url }})
 - [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
+
+For named source-to-target moves, start from the transition that matches the
+candidate's previous identity:
+
+- [Data Analyst to Analytics Engineer Roadmap]({{ '/roadmaps/data-analyst-to-analytics-engineer/' | relative_url }})
 - [Academic Researcher to Data Science]({{ '/wiki/academic-researcher-to-data-science/' | relative_url }})
 - [Software Engineer to Machine Learning]({{ '/wiki/software-engineer-to-machine-learning/' | relative_url }})
 - [DevOps to Data Engineering]({{ '/wiki/devops-to-data-engineering/' | relative_url }})
 - [Product Designer to Data Product Manager]({{ '/wiki/product-designer-to-data-product-manager/' | relative_url }})
 - [Data Scientist to Machine Learning Engineer]({{ '/wiki/data-scientist-to-machine-learning-engineer/' | relative_url }})
 - [Consultant or Freelancer to Data Product Founder]({{ '/wiki/consultant-or-freelancer-to-data-product-founder/' | relative_url }})
+
+For project evidence that makes the transition believable in interviews:
+
 - [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
 - [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
 - [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})

@@ -33,38 +33,41 @@ for retrieval systems. Use
 tool-using agents and [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }})
 for evaluation design.
 
-## Starting Points
+## Tooling Stack Map
 
-Core wiki pages:
+AI tooling starts with [LLMs]({{ '/wiki/llms/' | relative_url }}) and general
+[Tools]({{ '/wiki/tools/' | relative_url }}), but the podcast discussions place
+most of the engineering work around the model boundary. Teams structure model
+inputs with [Prompt Engineering]({{ '/wiki/prompt-engineering/' | relative_url }})
+and attach outside knowledge with
+[Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}).
+[Vector Databases]({{ '/wiki/vector-databases/' | relative_url }}) and
+[Embeddings]({{ '/wiki/embeddings/' | relative_url }}) support that retrieval
+layer. Agent frameworks, evaluation tools, monitoring, and deployment systems
+then turn the model call into an owned product.
 
-- [Tools]({{ '/wiki/tools/' | relative_url }})
-- [LLMs]({{ '/wiki/llms/' | relative_url }})
-- [Prompt Engineering]({{ '/wiki/prompt-engineering/' | relative_url }})
-- [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
-- [RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }})
-- [Vector Databases]({{ '/wiki/vector-databases/' | relative_url }})
-- [Embeddings]({{ '/wiki/embeddings/' | relative_url }})
-- [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }})
-- [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }})
-- [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }})
-- [MLOps Tools]({{ '/wiki/mlops-tools/' | relative_url }})
-- [Open Source and Developer Relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }})
+[Paul Iusztin]({{ '/people/pauliusztin/' | relative_url }}) presents that full
+stack in
+[his AI engineering episode]({{ '/podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products/' | relative_url }}).
+[Bartosz Mikulski]({{ '/people/bartoszmikulski/' | relative_url }}) connects it
+to production data workflows in
+[Production AI Engineering]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }}).
+[Meryem Arik]({{ '/people/meryemarik/' | relative_url }}) anchors model
+serving and retrieval choices in
+[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}).
 
-Adjacent articles:
+[Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }}) focuses
+on iterative testing in
+[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}).
+[Ranjitha Kulkarni]({{ '/people/ranjithakulkarni/' | relative_url }})
+extends AI tooling to agents in
+[Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}).
+[Vincent Warmerdam]({{ '/people/vincentwarmerdam/' | relative_url }})
+uses [Open Source ML Tools]({{ '/podcasts/open-source-ml-tools-strategy-and-business-models/' | relative_url }})
+to show how maintainers, documentation, plugins, and business models affect the
+tools teams rely on.
 
-- [MLOps Tools]({{ '/wiki/mlops-tools/' | relative_url }})
-- [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
-
-Podcast anchors:
-
-- [AI Engineering: Skill Stack, Agents, LLMOps, and How to Ship AI Products]({{ '/podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products/' | relative_url }}) with [Paul Iusztin]({{ '/people/pauliusztin/' | relative_url }})
-- [Production AI Engineering]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }}) with [Bartosz Mikulski]({{ '/people/bartoszmikulski/' | relative_url }})
-- [Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}) with [Meryem Arik]({{ '/people/meryemarik/' | relative_url }})
-- [Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}) with [Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }})
-- [Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}) with [Ranjitha Kulkarni]({{ '/people/ranjithakulkarni/' | relative_url }})
-- [Open Source ML Tools]({{ '/podcasts/open-source-ml-tools-strategy-and-business-models/' | relative_url }}) with [Vincent Warmerdam]({{ '/people/vincentwarmerdam/' | relative_url }})
-
-## Common Definition
+## Tools Around the Model
 
 Guests define AI tooling as services and libraries around the
 model. Those tools give an LLM useful context and controlled actions. They also
@@ -86,7 +89,7 @@ at 13:56. He introduces gold test sets at 23:00, then brings in failure
 analysis, logs, and traces at 26:43-27:38. Tools are useful when they shorten
 that loop.
 
-## Guest Differences
+## Build, Buy, and Framework Boundaries
 
 Guests differ on how much of the stack teams should buy, borrow, or build.
 [Meryem Arik]({{ '/people/meryemarik/' | relative_url }}) compares API models
@@ -132,10 +135,14 @@ design.
 RAG tools appear when teams need fresh or private knowledge without retraining
 the model. Meryem makes this boundary explicit at 40:46 in
 [Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}).
+
 Retrieval handles changing knowledge, while fine-tuning is better suited to
 specialized behavior, domain adaptation, or tone. At 42:02-48:01 she covers
 grounding answers with indexed documents and retrieval-augmented responses. She
-also covers embeddings and vector databases.
+also covers embeddings and vector databases. That distinction is the same
+decision boundary covered in
+[RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }}).
+
 
 Hugo turns RAG tooling into an iteration cycle in
 [Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}).
@@ -254,9 +261,9 @@ at 48:31. At 53:47 and 56:19, he covers funding and training. He also covers
 consulting and partnerships as sustainability mechanisms. That makes [Open Source and Developer Relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }})
 part of the AI tooling story.
 
-## See Also
+## Neighboring Tooling Areas
 
-These related pages cover the neighboring tooling areas:
+AI tooling overlaps with several adjacent system concerns:
 
 - [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }}) for model, RAG, agent, and deployment patterns.
 - [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }}) for gold sets, failure analysis, judges, and agent tests.
