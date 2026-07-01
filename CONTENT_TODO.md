@@ -383,6 +383,9 @@ Start with this batch when expanding the content set.
   thin placeholders. Prioritize pages already linked from wiki, guide, roadmap,
   and comparison pages, then add podcast contribution summaries, local podcast
   links, expertise, and concept links.
+- Curated people pages should use `curated: true` in frontmatter. The people
+  sync script preserves those contribution-focused bodies and does not append
+  generated `Podcast Discussions` sections to them.
 - Graph and search generation now includes all public people pages, not only
   people with `podcast_episodes`, so public person links can resolve in
   exploration and search. Future people cleanup should improve the page content

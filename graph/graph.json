@@ -9,9 +9,9 @@
     "how_tos": 5,
     "podcasts": 202,
     "persons": 438,
-    "topics": 90,
-    "nodes": 1005,
-    "links": 12392
+    "topics": 100,
+    "nodes": 1015,
+    "links": 12467
   },
   "nodes": [
     {
@@ -4872,7 +4872,7 @@
       "title": "Victoria Perez Mola",
       "url": "/people/victoriaperezmola/",
       "count": 1,
-      "search": "Victoria Perez Mola Victoria Perez Mola's DataTalks.Club podcast discussions, organized for topic exploration."
+      "search": "Victoria Perez Mola Victoria Perez Mola's DataTalks.Club discussion of analytics engineering, dbt, SQL modeling, data quality, and BI reporting."
     },
     {
       "id": "person:vijaykiran",
@@ -7291,6 +7291,15 @@
       "search": "data compliance"
     },
     {
+      "id": "topic:data-integration",
+      "type": "topic",
+      "label": "data integration",
+      "title": "data integration",
+      "url": "/search.html?q=data%20integration",
+      "count": 1,
+      "search": "data integration"
+    },
+    {
       "id": "topic:data-journalism",
       "type": "topic",
       "label": "data journalism",
@@ -7309,6 +7318,15 @@
       "search": "data maturity"
     },
     {
+      "id": "topic:data-modeling",
+      "type": "topic",
+      "label": "data modeling",
+      "title": "data modeling",
+      "url": "/search.html?q=data%20modeling",
+      "count": 1,
+      "search": "data modeling"
+    },
+    {
       "id": "topic:data-privacy",
       "type": "topic",
       "label": "data privacy",
@@ -7323,7 +7341,7 @@
       "label": "data quality",
       "title": "data quality",
       "url": "/search.html?q=data%20quality",
-      "count": 1,
+      "count": 2,
       "search": "data quality"
     },
     {
@@ -7415,6 +7433,15 @@
       "url": "/search.html?q=education",
       "count": 2,
       "search": "education"
+    },
+    {
+      "id": "topic:elt-and-etl",
+      "type": "topic",
+      "label": "ELT and ETL",
+      "title": "ELT and ETL",
+      "url": "/search.html?q=ELT%20and%20ETL",
+      "count": 1,
+      "search": "ELT and ETL"
     },
     {
       "id": "topic:ethical-ai",
@@ -7570,6 +7597,15 @@
       "search": "investing"
     },
     {
+      "id": "topic:kafka",
+      "type": "topic",
+      "label": "Kafka",
+      "title": "Kafka",
+      "url": "/search.html?q=Kafka",
+      "count": 1,
+      "search": "Kafka"
+    },
+    {
       "id": "topic:knowledge-graphs",
       "type": "topic",
       "label": "knowledge graphs",
@@ -7631,6 +7667,33 @@
       "url": "/search.html?q=mentorship",
       "count": 3,
       "search": "mentorship"
+    },
+    {
+      "id": "topic:ml-platform-engineering",
+      "type": "topic",
+      "label": "ML platform engineering",
+      "title": "ML platform engineering",
+      "url": "/search.html?q=ML%20platform%20engineering",
+      "count": 1,
+      "search": "ML platform engineering"
+    },
+    {
+      "id": "topic:ml-teams",
+      "type": "topic",
+      "label": "ML teams",
+      "title": "ML teams",
+      "url": "/search.html?q=ML%20teams",
+      "count": 1,
+      "search": "ML teams"
+    },
+    {
+      "id": "topic:model-governance",
+      "type": "topic",
+      "label": "model governance",
+      "title": "model governance",
+      "url": "/search.html?q=model%20governance",
+      "count": 1,
+      "search": "model governance"
     },
     {
       "id": "topic:monetization",
@@ -7741,6 +7804,15 @@
       "search": "product owners"
     },
     {
+      "id": "topic:production-ml",
+      "type": "topic",
+      "label": "production ML",
+      "title": "production ML",
+      "url": "/search.html?q=production%20ML",
+      "count": 1,
+      "search": "production ML"
+    },
+    {
       "id": "topic:productivity",
       "type": "topic",
       "label": "productivity",
@@ -7849,6 +7921,15 @@
       "search": "solopreneurship"
     },
     {
+      "id": "topic:sql-transformations",
+      "type": "topic",
+      "label": "SQL transformations",
+      "title": "SQL transformations",
+      "url": "/search.html?q=SQL%20transformations",
+      "count": 1,
+      "search": "SQL transformations"
+    },
+    {
       "id": "topic:strategy",
       "type": "topic",
       "label": "strategy",
@@ -7883,6 +7964,15 @@
       "url": "/search.html?q=technical%20communities",
       "count": 1,
       "search": "technical communities"
+    },
+    {
+      "id": "topic:technical-leadership",
+      "type": "topic",
+      "label": "technical leadership",
+      "title": "technical leadership",
+      "url": "/search.html?q=technical%20leadership",
+      "count": 1,
+      "search": "technical leadership"
     },
     {
       "id": "wiki:a-a-testing",
@@ -24641,7 +24731,61 @@
     },
     {
       "source": "person:arpitchoudhury",
-      "target": "wiki:data-engineering",
+      "target": "wiki:analytics-engineering",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:arpitchoudhury",
+      "target": "wiki:data-activation",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:arpitchoudhury",
+      "target": "wiki:data-led-growth",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:arpitchoudhury",
+      "target": "wiki:data-products",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:arpitchoudhury",
+      "target": "wiki:event-tracking",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:arpitchoudhury",
+      "target": "wiki:experimentation",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:arpitchoudhury",
+      "target": "wiki:product-analytics",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:arpitchoudhury",
+      "target": "wiki:product-analytics",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:arpitchoudhury",
+      "target": "wiki:reverse-etl",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:arpitchoudhury",
+      "target": "wiki:reverse-etl",
       "kind": "person-link",
       "weight": 1
     },
@@ -24650,6 +24794,12 @@
       "target": "wiki:tools",
       "kind": "person-link",
       "weight": 1
+    },
+    {
+      "source": "person:arpitchoudhury",
+      "target": "wiki:tracking-plans",
+      "kind": "person-expertise",
+      "weight": 2
     },
     {
       "source": "person:arsenykravchenko",
@@ -27371,6 +27521,42 @@
     },
     {
       "source": "person:larsalbertsson",
+      "target": "article:comparison:batch-vs-streaming",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:larsalbertsson",
+      "target": "article:comparison:data-mesh-vs-centralized-data-platform",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:larsalbertsson",
+      "target": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:larsalbertsson",
+      "target": "article:comparison:dataops-vs-data-engineering",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:larsalbertsson",
+      "target": "article:comparison:etl-vs-elt",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:larsalbertsson",
+      "target": "article:comparison:mlops-vs-dataops",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:larsalbertsson",
       "target": "podcast:dataops-principles-and-scalable-data-platforms",
       "kind": "person-link",
       "weight": 1
@@ -27395,6 +27581,30 @@
     },
     {
       "source": "person:larsalbertsson",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:larsalbertsson",
+      "target": "wiki:data-mesh",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:larsalbertsson",
+      "target": "wiki:data-pipelines",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:larsalbertsson",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:larsalbertsson",
       "target": "wiki:data-strategy",
       "kind": "person-expertise",
       "weight": 2
@@ -27419,6 +27629,18 @@
     },
     {
       "source": "person:larsalbertsson",
+      "target": "wiki:dataops-platforms",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:larsalbertsson",
+      "target": "wiki:delta-lake",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:larsalbertsson",
       "target": "wiki:mlops",
       "kind": "person-expertise",
       "weight": 2
@@ -27431,6 +27653,12 @@
     },
     {
       "source": "person:larsalbertsson",
+      "target": "wiki:orchestration",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:larsalbertsson",
       "target": "wiki:production",
       "kind": "person-expertise",
       "weight": 2
@@ -27438,6 +27666,12 @@
     {
       "source": "person:larsalbertsson",
       "target": "wiki:production",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:larsalbertsson",
+      "target": "wiki:self-service-data-platforms",
       "kind": "person-link",
       "weight": 1
     },
@@ -28313,9 +28547,27 @@
     },
     {
       "source": "person:mehdiouazza",
+      "target": "topic:kafka",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:mehdiouazza",
+      "target": "topic:technical-leadership",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:mehdiouazza",
       "target": "wiki:career-development",
       "kind": "person-link",
       "weight": 1
+    },
+    {
+      "source": "person:mehdiouazza",
+      "target": "wiki:data-engineering",
+      "kind": "person-expertise",
+      "weight": 2
     },
     {
       "source": "person:mehdiouazza",
@@ -28325,19 +28577,61 @@
     },
     {
       "source": "person:mehdiouazza",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:mehdiouazza",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:mehdiouazza",
+      "target": "wiki:data-governance",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:mehdiouazza",
       "target": "wiki:data-governance",
       "kind": "person-link",
       "weight": 1
     },
     {
       "source": "person:mehdiouazza",
-      "target": "wiki:open-source",
+      "target": "wiki:dataops",
       "kind": "person-link",
       "weight": 1
     },
     {
       "source": "person:mehdiouazza",
-      "target": "wiki:tools",
+      "target": "wiki:leadership",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:mehdiouazza",
+      "target": "wiki:platform-adoption",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:mehdiouazza",
+      "target": "wiki:self-service-data-platforms",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:mehdiouazza",
+      "target": "wiki:self-service-data-platforms",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:mehdiouazza",
+      "target": "wiki:streaming",
       "kind": "person-link",
       "weight": 1
     },
@@ -28685,6 +28979,18 @@
     },
     {
       "source": "person:nataliekwong",
+      "target": "article:comparison:data-analyst-vs-analytics-engineer",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:nataliekwong",
+      "target": "article:comparison:etl-vs-elt",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:nataliekwong",
       "target": "podcast:data-engineering-tools-modern-data-stack",
       "kind": "person-link",
       "weight": 1
@@ -28697,7 +29003,91 @@
     },
     {
       "source": "person:nataliekwong",
+      "target": "topic:data-integration",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:nataliekwong",
+      "target": "topic:elt-and-etl",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:nataliekwong",
+      "target": "wiki:analytics-engineering",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:nataliekwong",
+      "target": "wiki:analytics-engineering",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:nataliekwong",
+      "target": "wiki:cdc",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:nataliekwong",
+      "target": "wiki:cdc",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:nataliekwong",
       "target": "wiki:data-engineering",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:nataliekwong",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:nataliekwong",
+      "target": "wiki:data-engineering-tools",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:nataliekwong",
+      "target": "wiki:elt",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:nataliekwong",
+      "target": "wiki:etl",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:nataliekwong",
+      "target": "wiki:modern-data-stack",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:nataliekwong",
+      "target": "wiki:modern-data-stack",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:nataliekwong",
+      "target": "wiki:orchestration",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:nataliekwong",
+      "target": "wiki:reverse-etl",
       "kind": "person-link",
       "weight": 1
     },
@@ -29987,7 +30377,37 @@
     },
     {
       "source": "person:simonstiebellehner",
-      "target": "wiki:career-growth",
+      "target": "topic:ml-platform-engineering",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:simonstiebellehner",
+      "target": "topic:ml-teams",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:simonstiebellehner",
+      "target": "topic:model-governance",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:simonstiebellehner",
+      "target": "topic:production-ml",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:simonstiebellehner",
+      "target": "wiki:data-teams",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:simonstiebellehner",
+      "target": "wiki:experiment-tracking",
       "kind": "person-link",
       "weight": 1
     },
@@ -29999,13 +30419,61 @@
     },
     {
       "source": "person:simonstiebellehner",
-      "target": "wiki:machine-learning",
+      "target": "wiki:machine-learning-engineer-role",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:simonstiebellehner",
+      "target": "wiki:ml-platforms",
       "kind": "person-link",
       "weight": 1
     },
     {
       "source": "person:simonstiebellehner",
       "target": "wiki:mlops",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:simonstiebellehner",
+      "target": "wiki:mlops",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:simonstiebellehner",
+      "target": "wiki:mlops-roadmap",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:simonstiebellehner",
+      "target": "wiki:mlops-tools",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:simonstiebellehner",
+      "target": "wiki:model-monitoring",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:simonstiebellehner",
+      "target": "wiki:model-registry",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:simonstiebellehner",
+      "target": "wiki:orchestration",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:simonstiebellehner",
+      "target": "wiki:production",
       "kind": "person-link",
       "weight": 1
     },
@@ -30761,6 +31229,12 @@
     },
     {
       "source": "person:victoriaperezmola",
+      "target": "article:comparison:data-analyst-vs-analytics-engineer",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:victoriaperezmola",
       "target": "podcast:analytics-engineer-skills-tools",
       "kind": "person-link",
       "weight": 1
@@ -30773,7 +31247,73 @@
     },
     {
       "source": "person:victoriaperezmola",
+      "target": "topic:data-modeling",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:victoriaperezmola",
+      "target": "topic:data-quality",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:victoriaperezmola",
+      "target": "topic:sql-transformations",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:victoriaperezmola",
       "target": "wiki:analytics-engineering",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:victoriaperezmola",
+      "target": "wiki:analytics-engineering",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:victoriaperezmola",
+      "target": "wiki:business-intelligence",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:victoriaperezmola",
+      "target": "wiki:business-intelligence",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:victoriaperezmola",
+      "target": "wiki:data-pipelines",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:victoriaperezmola",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:victoriaperezmola",
+      "target": "wiki:dbt",
+      "kind": "person-expertise",
+      "weight": 2
+    },
+    {
+      "source": "person:victoriaperezmola",
+      "target": "wiki:dbt",
+      "kind": "person-link",
+      "weight": 1
+    },
+    {
+      "source": "person:victoriaperezmola",
+      "target": "wiki:metrics",
       "kind": "person-link",
       "weight": 1
     },

@@ -50,7 +50,11 @@ def merge_existing_page(target: Path, rendered: str) -> str:
         elif key in {"layout", "title", "summary"} and not meta.get(key):
             meta[key] = value
 
-    if "## Podcast Discussions" not in body and "## Podcast Discussions" in generated_body:
+    if (
+        not meta.get("curated")
+        and "## Podcast Discussions" not in body
+        and "## Podcast Discussions" in generated_body
+    ):
         discussion = generated_body.split("## Podcast Discussions", 1)[1].strip()
         body = body.rstrip() + "\n\n## Podcast Discussions\n\n" + discussion + "\n"
 
