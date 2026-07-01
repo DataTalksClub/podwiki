@@ -41,9 +41,10 @@ Lineage and catalogs matter too
 ([Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}),
 18:17-23:41).
 
-This connects Iceberg to the
+Iceberg fits the
 [lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
-idea rather than to a single vendor product. [Lars Albertsson]({{ '/people/larsalbertsson/' | relative_url }})
+idea when teams need table behavior on lake storage instead of a single
+vendor-owned surface. [Lars Albertsson]({{ '/people/larsalbertsson/' | relative_url }})
 describes the lakehouse as warehouse features layered onto a data lake after
 he has already separated raw storage, aggregates, and object storage. He also
 covers ingress, egress, and self-service SQL
@@ -108,12 +109,13 @@ The catalog is the next boundary. Brudaru's catalog chapter names metadata and
 lineage as part of the same layer. It includes AWS Glue and peer tools as
 examples
 ([Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}),
-21:27-23:41). That connects Iceberg to
+21:27-23:41).
+
+Those catalog responsibilities put Iceberg beside
 [Data Governance]({{ '/wiki/data-governance/' | relative_url }}) and
-[Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
-because the table format doesn't answer who may access a table. It also
-doesn't answer whether a table is fresh or how downstream consumers discover
-lineage.
+[Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).
+The table format doesn't answer who may access a table. It also doesn't show
+whether the table is fresh or how downstream consumers discover lineage.
 
 Albertsson's DataOps episode explains why this metadata work matters. His
 platform chapters place object storage beside governance, ingress, and egress.

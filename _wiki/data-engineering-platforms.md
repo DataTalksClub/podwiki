@@ -132,9 +132,11 @@ uses ETL and ELT to explain the boundary. Extraction and loading bring source
 data into a warehouse or lake. Transformations produce modeled layers,
 downstream data marts, and other outputs
 ([ETL vs ELT and Modern Data Engineering]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
-3:46-18:47). That connects the page to [ELT]({{ '/wiki/elt/' | relative_url }}),
+3:46-18:47). The same platform boundary explains why
+[ELT]({{ '/wiki/elt/' | relative_url }}),
 [Data Warehouse]({{ '/wiki/data-warehouse/' | relative_url }}), and
-[Data Lake]({{ '/wiki/data-lake/' | relative_url }}).
+[Data Lake]({{ '/wiki/data-lake/' | relative_url }}) decisions affect shared
+data engineering work.
 
 Storage choices become platform choices when multiple consumers depend on the
 same data. [Lars Albertsson]({{ '/people/larsalbertsson/' | relative_url }})
@@ -229,8 +231,8 @@ quality practices
 adds the delivery loop of tests, CI/CD, and observability in the DataOps
 episodes. He also links DataOps to deployment confidence and recovery
 ([DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }}),
-15:52-54:05). That's the operating link between this page and
-[DataOps]({{ '/wiki/dataops/' | relative_url }}).
+15:52-54:05). [DataOps]({{ '/wiki/dataops/' | relative_url }}) covers that
+delivery discipline in more detail.
 
 [Rahul Jain]({{ '/people/16rahuljain/' | relative_url }}) shows what reliability
 looks like from platform leadership. His platform work includes quality
@@ -238,9 +240,9 @@ metrics, reconciliation, and GDPR strategies. It also includes dynamic masking,
 role-based access control, and data lineage. He closes with an end-to-end
 pipeline view from ingestion through exposure and monitoring
 ([Data Engineering Leadership and Modern Data Platforms]({{ '/podcasts/data-engineering-leadership-and-modern-data-platforms/' | relative_url }}),
-25:04-30:50 and 57:29). That connects platform reliability to
-[Data Governance]({{ '/wiki/data-governance/' | relative_url }}) as well as
-observability.
+25:04-30:50 and 57:29). Platform reliability therefore includes
+[Data Governance]({{ '/wiki/data-governance/' | relative_url }}) controls as
+well as observability.
 
 ## Batch, Streaming, and Latency
 

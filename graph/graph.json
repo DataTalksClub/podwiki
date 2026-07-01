@@ -11,7 +11,7 @@
     "persons": 183,
     "topics": 92,
     "nodes": 704,
-    "links": 11049
+    "links": 11051
   },
   "nodes": [
     {
@@ -45253,6 +45253,12 @@
     },
     {
       "source": "wiki:data-lake",
+      "target": "article:comparison:data-mesh-vs-centralized-data-platform",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-lake",
       "target": "article:comparison:data-warehouse-vs-data-lakehouse",
       "kind": "wiki-link",
       "weight": 1
@@ -45346,6 +45352,12 @@
       "target": "wiki:data-governance",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-lake",
+      "target": "wiki:data-mesh",
+      "kind": "wiki-link",
+      "weight": 1
     },
     {
       "source": "wiki:data-lake",

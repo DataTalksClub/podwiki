@@ -22,11 +22,11 @@ multi-agent support systems and workflow automation.
 The clearest definition comes from
 [Ranjitha Kulkarni]({{ '/people/ranjithakulkarni/' | relative_url }}) in
 [Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}).
-At 11:00, she frames an agent around autonomy and objectives, then connects the
-definition to LLM reasoning. At 12:31, she adds orchestration and tool use.
-She also adds memory and knowledge stores.
+At 11:00, she frames an agent around autonomy and objectives. She ties that
+definition to LLM reasoning. At 12:31, she adds orchestration and tool use. She
+also adds memory and knowledge stores.
 
-That puts agent engineering next to
+Agent engineering therefore sits next to
 [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }}),
 [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}),
 and [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }}).
@@ -54,7 +54,7 @@ makes the same progression. His 44:26 section starts with chunking and
 embeddings for quick RAG wins. At 50:19, he discusses when teams should add
 tool calls and agent behavior.
 
-This way of defining agents connects agent engineering to the
+Paul's episode places agent engineering inside the
 [AI Engineer Role]({{ '/wiki/ai-engineer-role/' | relative_url }}). In
 [Paul Iusztin's AI engineering episode]({{ '/podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products/' | relative_url }}),
 [Paul Iusztin]({{ '/people/pauliusztin/' | relative_url }}) places agents
@@ -62,11 +62,11 @@ inside a broader AI product stack. His 22:29 chapter covers the full-stack AI
 engineer skill set. His 29:12 chapter emphasizes RAG and knowledge management.
 The 42:28 chapter moves from techniques to shipping AI products.
 
-## Starting Points for Agent Work
+## Reliability, Adoption, and Governance
 
-Guests agree that agents need tool use, context, and evaluation, but they start
-from different engineering pressures. Each guest treats a different constraint
-as the first thing to solve.
+Guests agree that agents need tool use, context, and evaluation. They differ on
+the first design constraint. It may be operational reliability, adoption path,
+orchestration style, or enterprise governance.
 
 [Ranjitha Kulkarni]({{ '/people/ranjithakulkarni/' | relative_url }}) starts
 from production workflows. Her
@@ -92,9 +92,9 @@ in OpenAI Agent SDK and MCP integration.
 [Aditya Gautam]({{ '/people/adityagautam/' | relative_url }}) starts from
 enterprise risk. In
 [The Future of AI Agents]({{ '/podcasts/s23e03-future-of-ai-agents/' | relative_url }}),
-the 19:16 section connects specialized models with agent governance. At 30:26,
-he discusses guardrails and data lineage. At 43:30 and 50:18, he connects
-evaluation to multi-tenancy, scale, and alignment with human labels.
+the 19:16 section links specialized models to agent governance. At 30:26, he
+discusses guardrails and data lineage. At 43:30 and 50:18, he ties evaluation
+to multi-tenancy, scale, and alignment with human labels.
 
 ## Agent Design
 
@@ -125,9 +125,9 @@ noisy context and unsafe actions. Good tools expose constrained actions, typed
 inputs, traceable outputs, and enforceable permissions.
 
 Ranjitha's 18:23 section covers prompts, SDKs, and tool wrappers, while the
-24:59 section discusses integration abstractions for diverse tools. At 48:00, she connects
-agent marketplaces and MCP-style protocols to the problem of making tools
-discoverable and callable. These are [Tools]({{ '/wiki/tools/' | relative_url }})
+24:59 section discusses integration abstractions for diverse tools. At 48:00,
+she links agent marketplaces and MCP-style protocols to the problem of making
+tools discoverable and callable. These are [Tools]({{ '/wiki/tools/' | relative_url }})
 questions, but the agent page keeps the workflow-specific part. Tools should
 match the decisions the agent is allowed to make.
 
@@ -169,10 +169,10 @@ engineering. A support assistant may need durable customer facts and ticket
 history, while a coding agent may need repository context and task state. A
 short conversation memory isn't enough for either system.
 
-Paul's 29:12 chapter connects RAG and knowledge management to the AI engineer
+Paul's 29:12 chapter links RAG and knowledge management to the AI engineer
 skill stack. That link matters because many agent failures are knowledge-system
 failures. If the source documents lack metadata, ownership, or a refresh
-process, the agent will act on weak context.
+cadence, the agent will act on weak context.
 
 ## Evaluation and Testing
 
@@ -183,7 +183,7 @@ because multiple valid tool-call paths may exist.
 Ranjitha's 51:17 section recommends custom datasets and system benchmarks. At
 53:20, she discusses mocked tools, integration tests, and regression tests. At
 56:02, she emphasizes goal-based evaluation and outcome assertions over exact
-paths. That framing connects directly to
+paths. Those evaluation choices belong with
 [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }})
 and [Testing]({{ '/wiki/testing/' | relative_url }}).
 
@@ -214,15 +214,15 @@ in legal and healthcare settings. The 30:26 section links guardrails and data
 lineage to Agent MLOps. At 36:55, he discusses user feedback loops. At 56:40,
 he names infrastructure and deployment risks.
 
-These discussions connect agent engineering to
+These discussions place agent engineering beside
 [Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }})
 and [Production]({{ '/wiki/production/' | relative_url }}).
 
 Bartosz's production AI episode adds cost and performance mechanics through
-prompt evaluation and cost tradeoffs at 28:16. At 30:00 and 31:45, he connects
-prompt compression and caching to model efficiency. These techniques aren't
-agent-specific, but agents make them more important because every extra step can
-add tokens, latency, and failure modes.
+prompt evaluation and cost tradeoffs at 28:16. At 30:00 and 31:45, he treats
+prompt compression and caching as model-efficiency tools. These techniques
+aren't agent-specific, but agents make them more important because every extra
+step can add tokens, latency, and failure modes.
 
 Generic agent products miss details that live in each task. Ranjitha's 58:11
 section says teams need specific integrations, context, datasets, and

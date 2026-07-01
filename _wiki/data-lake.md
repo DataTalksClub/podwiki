@@ -13,13 +13,13 @@ related:
 ---
 
 DataTalks.Club guests use data lake to mean broad analytical storage for raw
-or lightly processed data. It can hold structured tables and click events. It
+or lightly staged data. It can hold structured tables and click events. It
 can also hold logs and files, images and video, IoT payloads, and long-lived
 history. Teams use that flexibility to keep source detail before they know
 every downstream question.
 
 That flexibility creates the main risk. The team needs ownership, catalogs,
-quality checks, access rules and reproducible processing. Without those
+quality checks, access rules and reproducible transformations. Without those
 controls, a lake becomes a place where people dump data and stop trusting it.
 
 [Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }})
@@ -123,7 +123,7 @@ what it means and whether it's still useful
 Albertsson makes the same point from the platform side. Dumping every dataset
 into S3 and calling it a lake is easy. Getting value from the lake requires
 control and governance. He also distinguishes retained raw data from the
-processed datasets people actually consume
+curated datasets people actually consume
 ([DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}),
 23:29-28:22).
 
@@ -170,7 +170,7 @@ shared folder with more storage.
 
 Table formats sit between raw object storage and analytical use. Brudaru
 explains Iceberg as a table format over files. It gives teams database-like
-table behavior without hiding lake storage. He connects that design to Parquet
+table behavior without hiding lake storage. He ties that design to Parquet
 storage and reduced vendor lock-in.
 
 He then discusses catalogs as the layer that maps data to compute and manages
@@ -222,71 +222,39 @@ access controls, lineage, owners and quality signals. The lake stores data,
 while governance tells people what the data is, whether they may use it, and
 who can fix it.
 
-## Guest Perspectives
+## Team Boundaries and Tool Selection
 
-[Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) gives the
-analytics-stack view. She's comfortable keeping both a warehouse and a lake
-when they serve different users. Her data lake explanation helps teams choose
-between structured warehouse consumption and flexible raw storage
-([ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
-15:30-27:39).
-
-[Lars Albertsson]({{ '/people/larsalbertsson/' | relative_url }}) gives the
-DataOps platform view. His lake depends on immutable raw data, functional
-transforms, workflow engines, governance and self-service. He's also cautious
-about decentralization before teams have a strong sharing culture and
-governance model
+A lake's team boundary matters as much as its storage layer. Albertsson is
+cautious about decentralizing ownership before teams have a strong sharing
+culture and governance model. In his framing, a lake sits inside a platform with
+ingestion and workflow engines. It also needs self-service SQL, lineage and
+versioning
 ([DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}),
-16:42-35:57 and 57:46-1:03:02).
+16:42-35:57 and 57:46-1:03:02). The same boundary makes
+[data mesh]({{ '/wiki/data-mesh/' | relative_url }}) and
+[data mesh vs centralized data platform]({{ '/comparisons/data-mesh-vs-centralized-data-platform/' | relative_url }})
+lake questions when ownership moves closer to domain teams.
 
-[Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) gives the
-modern open-table-format view. He separates storage and compute from access,
-metadata and lineage. His guidance pushes teams away from buying a label.
-Instead, teams should name catalog needs and cost. They should also name
-lock-in and interoperability requirements
+Brudaru's table-format discussion adds the tool-selection boundary. A team
+should name catalog needs and cost before choosing Iceberg, Delta Lake, or
+another table layer. It should also name lock-in and interoperability
+requirements. His split separates storage and compute from access, metadata and
+lineage. That keeps the choice grounded in architecture rather than in the
+lakehouse label
 ([Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}),
 14:32-23:41 and 44:42-49:42).
 
-[Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }}) gives
-the value-stream view. He treats "we're building a data lake" as incomplete
-unless someone can name who gets value. Teams also need to show how they'll
-deliver and test the pipeline. They need to show how they'll observe and
-recover it too
+Bergh adds the delivery boundary. A lake initiative needs a named consumer and
+recovery plan. Storage migration isn't enough. It also needs tests and
+observability.
+
+His [DataOps]({{ '/wiki/dataops/' | relative_url }}) view places the lake inside
+a larger value stream. Engineers, governance staff, analysts and business users
+all participate
 ([Mastering DataOps]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }}),
-28:14-37:13).
+28:14-37:13 and 51:21).
 
-[Max Schultze]({{ '/people/maxschultze/' | relative_url }}) and
-[Itai Admi]({{ '/people/itaiadmi/' | relative_url }}) add adjacent people
-context in DataTalks.Club. Schultze's profile centers on Zalando-scale data lake
-work with Spark, Presto, and Delta Lake. Admi's profile centers on lakeFS and
-object-storage-based lakes. Their profiles reinforce the same architectural
-theme. Large-scale lakes need manageability, versioning, and platform
-discipline.
-
-## Useful Episodes
-
-These episodes anchor the page:
-
-- [ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})
-  with [Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) defines
-  data lakes, data swamps, lake versus warehouse tradeoffs, and when teams may
-  keep both.
-- [DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }})
-  with [Lars Albertsson]({{ '/people/larsalbertsson/' | relative_url }})
-  connects data lakes to immutability and object storage. It also connects
-  lakes to governance, workflow engines and self-service SQL. Lineage,
-  versioning and lakehouse architecture matter there too.
-- [Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }})
-  with [Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) updates
-  the lake discussion through Iceberg and Delta Lake. It also covers catalogs,
-  headless table formats, DuckDB and requirements-led tool selection.
-- [Mastering DataOps]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }})
-  with [Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }})
-  warns against storage-first lake projects and ties reliable lake usage to
-  value streams and tests. Automation, observability and versioned governance
-  belong in that same operating model.
-
-## Adjacent Topics
+## Related Pages
 
 Use [Data Warehouse]({{ '/wiki/data-warehouse/' | relative_url }}) for the
 warehouse side of the storage vocabulary. Use

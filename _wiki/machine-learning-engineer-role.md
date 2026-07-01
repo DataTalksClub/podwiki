@@ -58,7 +58,7 @@ At 31:42 and 37:15, the work becomes a solution blueprint. Engineers define
 baselines, metrics, and pipeline components. They also document data strategy,
 system diagrams, dependencies, and the batch-versus-real-time decision.
 
-That connects the role to
+These design choices put the role close to
 [machine learning system design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
 and [machine learning infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }}).
 
@@ -116,10 +116,11 @@ application logs, model inputs, outputs, and quality signals. It also needs
 drift checks, data freshness checks, and incident paths.
 
 Simon's 54:15 section discusses unified prediction schemas for monitoring and
-analytics. That connects the role to
+analytics. Those schemas make
 [model monitoring]({{ '/wiki/model-monitoring/' | relative_url }}),
 [data observability]({{ '/wiki/data-observability/' | relative_url }}), and
-[production]({{ '/wiki/production/' | relative_url }}).
+[production]({{ '/wiki/production/' | relative_url }}) part of the role's
+day-to-day work.
 
 They also reduce project risk before a team commits to a heavy implementation.
 Ben's 29:06 and 32:03 sections describe rapid prototypes, timeboxed

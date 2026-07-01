@@ -163,7 +163,7 @@ folder and logs visible.
 production pipeline anatomy in
 [From Notebooks to Production]({{ '/podcasts/production-ml-pipelines-with-aws-and-kafka/' | relative_url }})
 at 13:25. His sequence starts with ingestion and buffering. It then moves to
-processing, storage, and visualization. He also discusses SQL or dataframe
+transforms, storage, and visualization. He also discusses SQL or dataframe
 transforms, Airflow or simpler schedulers, and model-serving options. His
 practical advice around 41:06 is to start simple and add Airflow, Kubernetes,
 or heavier infrastructure when the dependencies justify it.
@@ -247,7 +247,7 @@ CDC sits between full reloads and event streaming. It can keep a warehouse or
 lake current with row-level changes without forcing every downstream consumer
 to operate as a streaming application. It still needs checkpoints, schema
 handling, deduplication, and recovery. Treat CDC as an ingestion strategy that
-feeds a pipeline. Then decide separately whether the downstream processing is
+feeds a pipeline. Then decide separately whether the downstream work is
 batch, micro-batch, streaming, or request-time serving.
 
 ## Platform Conventions
@@ -281,50 +281,61 @@ production
 systems need a repeatable path from data and prompts or features into
 production behavior.
 
-## Guest Perspectives
+## Design Tradeoffs
 
-Guests mostly agree on the pipeline lifecycle, but they focus on different
-failure modes.
+DataTalks.Club discussions converge on the same pipeline lifecycle, but design
+pressure changes by use case. Kwong's
+[modern stack discussion]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})
+puts the extraction and loading boundary first. That makes
+[ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }}) a pipeline
+decision rather than only a tooling label.
 
-Kwong starts from stack boundaries. Her pipeline view is about where extraction
-and loading sit in a modern analytics stack. It also covers transformation,
-orchestration, CDC, and reverse data flows. Her strongest warning is that architecture choices
-change who can safely transform data and how much flexibility analysts get.
+Tuli's
+[architecture walkthrough]({{ '/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/' | relative_url }})
+starts with ingestion choices before ordering, deduplication, and PII masking.
+Modeling and marts come later, followed by dashboards and ML handoffs.
+Together, those episodes show how storage choices and early data
+handling decide who can change the pipeline safely.
 
-Tuli starts from end-to-end pipeline architecture. She ties ingestion and
-orchestration to modeling, marts, dashboards, and ML handoffs. Her strongest
-warning is that preprocessing choices such as ordering, deduplication, and PII
-masking affect everything downstream.
+Reliability changes the tradeoff from job status to output usefulness. Bergh's
+[DataOps]({{ '/wiki/dataops/' | relative_url }})
+interviews on
+[Mastering DataOps]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }})
+and [DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }})
+frame reliable pipeline delivery around version control and tests as team
+practice. They also rely on CI/CD, observability, and recovery runbooks in
+production.
 
-Bergh starts from DataOps, so his pipeline view asks whether the team can
-review and test changes. The team also needs to deploy safely, observe the
-system, and recover without hero work. His strongest warning is that fragile
-delivery habits create production errors and burnout even when the tools are
-modern.
+Moses's
+[data observability discussion]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }})
+adds the downstream view because a green run can still publish stale, partial,
+shifted, or schema-breaking data. Use
+[Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
+for freshness, volume, or distribution signals. Schema plus lineage helps show
+which consumers may break and where the cause sits.
 
-Moses starts from invisible data failure. Her pipeline view asks whether the
-team can detect data downtime before a stakeholder or model consumer finds it.
-Her strongest warning is that a green pipeline run can still publish stale,
-partial, shifted, or schema-breaking data.
+Production pipelines also differ by latency and ownership. Kretz's
+[notebook-to-production episode]({{ '/podcasts/production-ml-pipelines-with-aws-and-kafka/' | relative_url }})
+starts with ingestion plus buffering before transforms and storage.
+Visualization and serving come next, and his practical line is to keep the
+first production version simple enough to operate. Ramirez's
+[fraud-prevention pipeline]({{ '/podcasts/building-and-scaling-data-engineering-systems-for-fraud-detection/' | relative_url }})
+uses daily feature jobs beside live checkout decisions, so
+[Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }})
+depends on the decision that consumes the data.
 
-Kretz starts from productionizing notebooks. His pipeline anatomy starts with
-ingestion and buffering, then moves to processing and storage. Teams then
-visualize or serve the output, and the first production version should stay
-simple enough to operate.
+Mehdi OUAZZA's
+[team-scaling discussion]({{ '/podcasts/scaling-data-engineering-teams-self-service-platforms/' | relative_url }})
+adds self-service onboarding and Airflow standards. He also covers Kafka
+schemas and producer-consumer agreements, which link individual pipelines to
+[Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}).
 
-Ramirez starts from fraud prevention. Her pipeline view combines batch feature
-jobs with live decisioning, model monitoring, debugging, and runbooks. Her
-strongest warning is that pipeline design has to follow the timing of the
-business decision.
-
-Mehdi OUAZZA starts from scale-up teams. He makes pipelines reusable through
-self-service platforms, Airflow conventions, Kafka schema agreements, and
-onboarding.
-
-Jeff Katz starts from skill depth and hiring, so his pipeline view keeps the
-foundation practical. Python and SQL are the base. Maintainable pipeline work
-still needs Docker and Airflow. It also needs warehouses, small functions,
-classes, and tests.
+Katz's
+[job-prep discussion]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }})
+keeps the foundation concrete by making Python and SQL the base. Docker and
+Airflow support day-to-day work beside warehouses and tests, while small
+functions plus classes make pipeline code easier for another engineer to
+maintain.
 
 ## Adjacent Topics
 

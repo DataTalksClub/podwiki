@@ -63,12 +63,17 @@ platform. [Raphaël Hoogvliets]({{ '/people/raphaelhoogvliets/' | relative_url }
 places it beside the other operating parts of an MLOps platform in
 [MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}).
 
-Those parts include version control and CI/CD, plus containerization,
-experiment tracking, and serving. Monitoring, compute, and package registries
-belong in the same toolset. This connects the registry to
-[CI/CD]({{ '/wiki/ci-cd/' | relative_url }}),
-[model monitoring]({{ '/wiki/model-monitoring/' | relative_url }}), and
-[machine learning infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }}).
+Raphaël's surrounding toolset includes:
+
+- version control and CI/CD
+- containerization, experiment tracking, and serving
+- monitoring, compute, and package registries
+
+A registry stores release context for
+[CI/CD]({{ '/wiki/ci-cd/' | relative_url }}), runtime context for
+[machine learning infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }}),
+and incident context for
+[model monitoring]({{ '/wiki/model-monitoring/' | relative_url }}).
 
 ## Formality and Tooling Choices
 
@@ -152,7 +157,7 @@ Around 32:09 in
 [Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }}),
 an online-service template includes CI/CD, tags, and a deployable `main.py`.
 The service can get the model from the registry and start serving.
-That connects model registries to
+The service template makes the registry part of
 [developer experience]({{ '/wiki/developer-experience/' | relative_url }}) and
 [platform engineering]({{ '/wiki/platform-engineering/' | relative_url }}):
 the registry should reduce custom handoff work between training and serving.
@@ -203,8 +208,8 @@ Registry metadata can become governance evidence. Simon's fintech and fraud
 examples in
 [Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }})
 show why some model releases need auditability and explainability. They may
-also need fairness checks and evidence for why a decision happened. That
-connects model registries to
+also need fairness checks and evidence for why a decision happened. For those
+releases, registry records sit beside
 [data governance]({{ '/wiki/data-governance/' | relative_url }}),
 [security]({{ '/wiki/security/' | relative_url }}), and
 [responsible AI and governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }}).

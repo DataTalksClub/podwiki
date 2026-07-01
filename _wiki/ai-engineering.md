@@ -71,16 +71,19 @@ responsibility.
 
 ## Core System Pieces
 
-AI engineers repeatedly work with the application and model layers. They also
-handle context and evaluation. They also handle data pipelines, deployment, and
-operations. Paul groups RAG and knowledge management with agents. He also
-includes evaluation and LLMOps in his shipping
-chapters at 29:12 and 42:28
+AI engineers repeatedly work with the application and model layers. They handle
+context and evaluation beside data pipelines, deployment, and operations. Paul
+groups RAG and knowledge management with agents. He also includes evaluation and
+LLMOps in his shipping chapters at 29:12 and 42:28
 ([Paul Iusztin episode]({{ '/podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products/' | relative_url }})).
 
-Bartosz adds tested data pipelines at 9:05 and 11:47. He returns to prompt
-mechanics at 25:13, 28:16, 30:00, and 31:45
+Bartosz focuses on data-pipeline tests at 9:05 and 11:47 before returning to
+prompt mechanics at 25:13 and 28:16. He then covers compression and caching at
+30:00 and 31:45
 ([Production AI Engineering]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }})).
+Nasser adds orchestration at 45:50, then discusses latency at 56:10 and
+fine-tuning at 1:01:20
+([Understanding the AI Engineer Role]({{ '/podcasts/s23e07-understanding-ai-engineer-role/' | relative_url }})).
 
 AI engineering is broader than [LLM tools]({{ '/guides/llm-tools/' | relative_url }})
 or a framework choice. The engineer has to choose where to put knowledge and
@@ -188,13 +191,13 @@ The same operational work runs through [MLOps]({{ '/wiki/mlops/' | relative_url 
 
 ## Career and Learning Signals
 
-Guests point toward project evidence rather than credentials alone. Paul places
-AI engineering learning in shipped projects during his generalist-edge chapter
-at 32:17 and portfolio chapter at 54:05
+Guests point toward project evidence rather than credentials alone. Paul ties
+AI engineering learning to shipped projects in his generalist-edge chapter at
+32:17. He returns to portfolio work at 54:05
 ([Paul Iusztin episode]({{ '/podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products/' | relative_url }})).
-Ruslan makes the same argument through side projects, local community work,
-daily-life project ideas, and hiring signals. He also discusses using AI to
-learn at 1:03:12
+Ruslan makes the same argument through side projects and local community work.
+He then moves to daily-life project ideas at 48:48, hiring signals at 57:39,
+and using AI to learn at 1:03:12
 ([Inside the AI Engineer Role]({{ '/podcasts/s23e05-inside-ai-engineer-role-tools-skills-and-career-path/' | relative_url }})).
 
 For a learner, that means a strong AI engineering portfolio should show more
@@ -207,49 +210,3 @@ Use [AI Engineering Roadmap]({{ '/wiki/ai-engineering-roadmap/' | relative_url }
 [RAG Portfolio Projects]({{ '/wiki/rag-portfolio-projects/' | relative_url }}),
 and [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
 for project sequencing.
-
-## Podcast Starting Points
-
-These episodes give the fastest path into the DataTalks.Club AI engineering
-thread:
-
-- [Paul Iusztin]({{ '/people/pauliusztin/' | relative_url }}) explains the
-  broad skill stack in
-  [Paul's AI engineering episode]({{ '/podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products/' | relative_url }}),
-  with 22:29 covering the full-stack skill stack. Use 29:12 for RAG, 42:28 for
-  shipping pillars, and 54:05 for portfolio work.
-- [Ruslan Shchuchkin]({{ '/people/ruslanshchuchkin/' | relative_url }}) focuses
-  on the role and product discovery in
-  [Inside the AI Engineer Role]({{ '/podcasts/s23e05-inside-ai-engineer-role-tools-skills-and-career-path/' | relative_url }}).
-  Start with 7:51 for BranchGPT, 19:40 for the role, 48:48 for project ideas,
-  and 57:39 for hiring signals.
-- [Nasser Qadri]({{ '/people/nasserqadri/' | relative_url }}) covers statistical
-  rigor and role boundaries in
-  [Understanding the AI Engineer Role]({{ '/podcasts/s23e07-understanding-ai-engineer-role/' | relative_url }}).
-  Start with 7:45 for evaluation and 42:05 for agents. Then use 45:50 for
-  orchestration, 56:10 for latency, and 1:01:20 for fine-tuning.
-- [Bartosz Mikulski]({{ '/people/bartoszmikulski/' | relative_url }}) covers
-  production AI through data tests and prompt evaluation in
-  [Production AI Engineering]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }}).
-  Start with 9:05 for data trust and 11:47 for tests. Then use 28:16 for
-  prompt evaluation, 30:00 for compression, and 31:45 for caching.
-- [Mariano Semelman]({{ '/people/marianosemelman/' | relative_url }}) shows how
-  notebook work becomes an end-to-end AI system in
-  [From Notebook to Production]({{ '/podcasts/s24e03-from-notebook-to-production-building-end-to-end-ai-systems/' | relative_url }}).
-  Start with 17:27 for ownership and 37:39 for requirements. Then use 41:28 for
-  feedback, 55:28 for production code, and 1:02:53 for tooling.
-
-## See Also
-
-These pages extend the AI engineering topic into role and roadmap work. They
-also cover retrieval, agents, evaluation, and deployment.
-
-Start with these related pages:
-
-- [AI Engineer Role]({{ '/wiki/ai-engineer-role/' | relative_url }})
-- [AI Engineering Roadmap]({{ '/wiki/ai-engineering-roadmap/' | relative_url }})
-- [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
-- [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
-- [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }})
-- [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }})
-- [Notebook to Production AI Systems]({{ '/wiki/notebook-to-production-ai-systems/' | relative_url }})
