@@ -117,7 +117,15 @@ def as_list(value: object) -> list[str]:
 
 def metadata_text(meta: dict[str, object], level: str) -> str:
     fields = ["keyword", "collection", "source_episode"]
-    list_fields = ["topics", "guests", "related", "related_wiki", "expertise", "podcast_episodes"]
+    list_fields = [
+        "secondary_keywords",
+        "topics",
+        "guests",
+        "related",
+        "related_wiki",
+        "expertise",
+        "podcast_episodes",
+    ]
     parts = [level]
     for field in fields:
         value = meta.get(field)

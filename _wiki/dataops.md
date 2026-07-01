@@ -1,7 +1,12 @@
 ---
 layout: wiki
 title: "DataOps"
-summary: "Reference page for DataOps as the operating discipline for reliable data pipelines, analytics workflows, and data platforms."
+keyword: "what is dataops"
+secondary_keywords:
+  - what is data ops
+  - dataops
+  - data ops
+summary: "DataOps, also searched as data ops, as the operating discipline for reliable data pipelines, analytics workflows, and data platforms."
 related:
   - DataOps Platforms
   - Data Engineering Platforms
@@ -15,10 +20,10 @@ related:
   - MLOps
 ---
 
-DataOps is the operating discipline for reliable data delivery. Teams use it
-to review and test data pipelines, then deploy, monitor, and repair those
-pipelines. The same habits apply to analytics workflows and shared data
-platforms.
+DataOps, sometimes written as data ops, is the operating discipline for
+reliable data delivery. Teams use it to review and test data pipelines, then
+deploy, monitor, and repair those pipelines. The same habits apply to analytics
+workflows and shared data platforms.
 
 The term sits beside [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }})
 and [MLOps]({{ '/wiki/mlops/' | relative_url }}), but it doesn't replace
@@ -42,11 +47,17 @@ adds the platform version in
 DataOps aligns people and platform design so data teams can scale without
 losing reproducibility.
 
+DataOps isn't a new job title or a synonym for
+[Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}). It's the
+operating model around data changes. Version control, tests, and CI/CD guide
+release work. Observability, ownership, and recovery keep pipelines and data
+products reliable after release.
+
 ## Repeatable Data Delivery
 
-DataOps makes data delivery repeatable and recoverable. Teams do that by
-reviewing pipeline code, transformation logic, orchestration definitions, and
-infrastructure changes before release.
+DataOps makes data delivery repeatable and recoverable. In everyday data ops
+work, teams review pipeline code and transformation logic before release. They
+also review orchestration definitions and infrastructure changes.
 
 Teams test those changes before release. Then they deploy through CI/CD and
 monitor the resulting outputs. Those outputs include tables and dashboards.
@@ -177,7 +188,7 @@ paths leaves teams reacting to incidents one by one.
 For the monitoring layer, see
 [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 and [Data Observability]({{ '/wiki/data-observability/' | relative_url }}).
-For the tooling layer that connects checks, alerts, and runbooks, see
+For the tooling layer across checks, alerts, and runbooks, see
 [DataOps Tools]({{ '/guides/dataops-tools/' | relative_url }}).
 
 ## Platform and Self-Service

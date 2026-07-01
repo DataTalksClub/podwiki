@@ -1,8 +1,12 @@
 ---
 layout: article
-title: "Data Science Recruiter: How Headhunters Evaluate Data Scientist Candidates"
+title: "Data Science Recruiter and Headhunter: How They Evaluate Data Scientist Candidates"
 keyword: "data science recruiter"
-summary: "A podcast-backed guide to data science recruiters and headhunters: how they screen candidates, where they help, where they can't substitute for role clarity, and how candidates can prepare."
+secondary_keywords:
+  - "data science headhunter"
+  - "data scientist headhunter"
+  - "data scientist recruiter"
+summary: "A guide to data science recruiters and headhunters: how they screen candidates, where they help, where they can't substitute for role clarity, and how candidates can prepare."
 search_intent: "People searching for data science headhunter, data scientist headhunter, or data science recruiter want to understand how recruiters find and evaluate data science candidates, how to work with them, what signals matter in CVs and interviews, and how companies should define roles before starting a search."
 related_wiki:
   - Hiring
@@ -16,9 +20,12 @@ related_wiki:
 ---
 
 A data science recruiter helps a company turn a vague talent need into a real
-candidate search. A data science headhunter does the more active version of the
-work. They map the market, contact people who aren't applying, and help both
-sides decide whether the role is a fit.
+candidate search. A data science headhunter does the active-search version of
+that work. They map the market, contact people who aren't applying, and help
+both sides decide whether the role is a fit. Candidates may hear the same work
+called data scientist recruiter or data scientist headhunter. The useful test
+is whether this person can explain the role, the market, and the evidence the
+hiring team will trust.
 
 DataTalks.Club guests treat recruiting as more than keyword matching. In
 [Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }}),
@@ -96,9 +103,10 @@ and the broader
 [Data Science Careers]({{ '/wiki/data-science-careers/' | relative_url }})
 page uses the same role-targeting logic.
 
-## Headhunter Value
+## Data Science Headhunter Value
 
-A headhunter is useful when the market is hard to see from inside the company.
+A data science headhunter is useful when the market is hard to see from inside
+the company.
 Luke Whipps puts role definition and market guidance before headhunting and
 shortlists. Interview preparation, feedback, and negotiation also belong in the
 headhunter's work in
@@ -254,7 +262,7 @@ pairs salary signals, transparency with recruiters, and trust in
 A recruiter can help with negotiation, but the candidate still needs to know
 their market, priorities, and alternatives.
 
-## Choosing a Data Science Recruiter
+## Choosing a Data Science Recruiter or Headhunter
 
 For a company, the useful data science recruiter asks about the problem before
 asking for a keyword list.
@@ -270,7 +278,7 @@ The recruiter should ask about team structure, technical depth, and seniority.
 They should also discuss salary range, interview plan, and tradeoffs, and they
 should be willing to say when the market won't support the spec.
 
-For a company choosing a headhunter,
+For a company choosing a data science headhunter,
 [Luke Whipps]({{ '/people/lukewhipps/' | relative_url }}) gives a practical
 benchmark in
 [Land Data Scientist Roles]({{ '/podcasts/get-data-scientist-job/' | relative_url }}).
@@ -281,7 +289,7 @@ evidence they use before outreach. They should also explain how they keep
 feedback moving between the hiring manager and the candidate.
 
 For a candidate, the useful data scientist headhunter can explain the role
-beyond the title.
+beyond the title before you spend time on the interview sequence.
 [Tereza Iofciu]({{ '/people/terezaiofciu/' | relative_url }}) warns in
 [Data Science Jobs]({{ '/podcasts/data-science-job-red-flags-and-mismatched-roles/' | relative_url }})
 that a data scientist title can hide data engineering or dashboarding. It can

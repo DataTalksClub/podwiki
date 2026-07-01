@@ -1,9 +1,18 @@
 ---
 layout: wiki
 title: "Data Engineering Consulting"
+keyword: "data engineer consulting"
+secondary_keywords:
+  - "data engineer consultant"
+  - "data engineering consultant"
+  - "freelancing data engineer"
+  - "freelance data engineering"
+  - "freelance data engineers"
+  - "data engineer freelance"
 summary: "How DataTalks.Club guests describe data engineering consulting, data engineer consultants, and freelance data engineering: client problems, discovery, scoping, pricing, delivery, and product paths."
 related:
   - Data Engineering
+  - Data Engineer Role
   - Freelance
   - Data Freelancing Strategy
   - Data Engineering Platforms
@@ -12,12 +21,17 @@ related:
 ---
 
 Data engineering consulting is independent or external data engineering work.
-The consultant helps a client turn messy sources, unclear questions, and
-unfinished infrastructure into usable data systems. In the DataTalks.Club
-interviews, the job isn't only building pipelines. It also includes deciding
-which data problem deserves investment. The consultant makes the first useful
-version small enough to learn from and leaves enough context for a team to
-operate it.
+A data engineering consultant or data engineer consultant helps a client turn
+messy sources, unclear questions, and unfinished infrastructure into usable
+data systems. Data engineer consulting can mean a discovery spike, a warehouse
+rescue, an industrial integration, or a longer fractional role.
+
+In the DataTalks.Club interviews, the job isn't only building pipelines. It
+also includes deciding which data problem deserves investment. The consultant
+makes the first useful version small enough to learn from and leaves enough
+context for a team to operate it. Freelance data engineering describes the same
+work when the emphasis is the independent business of finding clients, pricing
+risk, controlling scope, and earning repeat work.
 
 For the broader career and business path, use
 [Freelance Data Engineering and Consulting]({{ '/wiki/freelance/' | relative_url }})
@@ -42,6 +56,11 @@ stakeholders to agree on what to measure took months
 Consultants should expect the client to ask for a pipeline while the work
 still depends on business definitions. The consultant often has to expose the
 owners and consumers that make the pipeline useful.
+
+For a freelancing data engineer, this distinction changes the sales
+conversation. Brudaru's examples make the buyer problem concrete before the
+tool choice. Legacy cleanup, Airflow adoption, warehouse delivery, and metric
+alignment can all sit inside one client relationship.
 
 [Aleksander Kruszelnicki]({{ '/people/aleksanderkruszelnicki/' | relative_url }})
 reaches the same conclusion from a consultancy-building story. His team first
@@ -186,7 +205,8 @@ problems that already have demand. For a data engineer consultant, the
 specialty needs to be technically credible and legible to buyers. Examples
 include first warehouse builds and industrial data integration. Other examples
 include dbt model cleanup, ingestion reliability, and fractional data
-leadership.
+leadership. Freelance data engineers can use those examples to describe a
+clear offer instead of selling "data help" as a broad category.
 
 ## Reusable Assets and Product Paths
 

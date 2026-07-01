@@ -358,6 +358,13 @@ Start with this batch when expanding the content set.
   `_guides/machine-learning-for-software-engineers.md`. Future work should
   extend these pages rather than adding duplicate pages for the same keyword
   families.
+- The 2026-07-01 keyword-alias improvement batch strengthened
+  `_guides/data-engineering-courses.md`,
+  `_wiki/data-engineering-consulting.md`,
+  `_guides/data-science-recruiter.md`,
+  `_guides/machine-learning-for-software-engineers.md`, and
+  `_wiki/dataops.md` for existing Ubersuggest variants. Future work should
+  extend these pages instead of creating duplicate pages for those variants.
 - The weakest public content category is `_how_tos/`. Next high-value how-tos:
   notebook-to-production AI systems, DataOps checks for data pipelines, and RAG
   evaluation workflow. Ground them in the existing notebook-to-production,

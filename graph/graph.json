@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 90,
     "nodes": 1005,
-    "links": 12378
+    "links": 12379
   },
   "nodes": [
     {
@@ -154,7 +154,7 @@
       "title": "Data Engineering Courses: How to Choose a Course, Bootcamp, or Free Cohort",
       "url": "/guides/data-engineering-courses/",
       "count": 1,
-      "search": "Data Engineering Courses: How to Choose a Course, Bootcamp, or Free Cohort A practical guide to evaluating data engineering courses, bootcamps, and free cohorts by curriculum sequence, feedback, projects, and job ready evidence.",
+      "search": "Data Engineering Courses: How to Choose a Course, Bootcamp, or Free Cohort A practical guide to evaluating data engineering courses, bootcamps, free cohorts, and training programs by curriculum sequence, feedback, projects, and job ready evidence.",
       "keyword": "data engineering courses"
     },
     {
@@ -238,11 +238,11 @@
       "id": "article:guide:data-science-recruiter",
       "type": "article",
       "collection": "guide",
-      "label": "Data Science Recruiter: How Headhunters Evaluate Data Scientist Candidates",
-      "title": "Data Science Recruiter: How Headhunters Evaluate Data Scientist Candidates",
+      "label": "Data Science Recruiter and Headhunter: How They Evaluate Data Scientist Candidates",
+      "title": "Data Science Recruiter and Headhunter: How They Evaluate Data Scientist Candidates",
       "url": "/guides/data-science-recruiter/",
       "count": 1,
-      "search": "Data Science Recruiter: How Headhunters Evaluate Data Scientist Candidates A podcast backed guide to data science recruiters and headhunters: how they screen candidates, where they help, where they can't substitute for role clarity, and how candidates can prepare.",
+      "search": "Data Science Recruiter and Headhunter: How They Evaluate Data Scientist Candidates A guide to data science recruiters and headhunters: how they screen candidates, where they help, where they can't substitute for role clarity, and how candidates can prepare.",
       "keyword": "data science recruiter"
     },
     {
@@ -506,7 +506,7 @@
       "title": "Machine Learning for Software Engineers: A Practical Guide",
       "url": "/guides/machine-learning-for-software-engineers/",
       "count": 1,
-      "search": "Machine Learning for Software Engineers: A Practical Guide A practical roadmap for software engineers moving into machine learning: transferable skills, missing ML and data skills, project sequence, production awareness, and interview preparation.",
+      "search": "Machine Learning for Software Engineers: A Practical Guide A practical roadmap for software engineers moving into machine learning in software engineering and software development: transferable skills, missing ML and data skills, project sequence, production awareness, and interview preparation.",
       "keyword": "machine learning for software engineers"
     },
     {
@@ -8452,7 +8452,8 @@
       "title": "Data Engineering Consulting",
       "url": "/wiki/data-engineering-consulting/",
       "count": 1,
-      "search": "Data Engineering Consulting How DataTalks.Club guests describe data engineering consulting, data engineer consultants, and freelance data engineering: client problems, discovery, scoping, pricing, delivery, and product paths."
+      "search": "Data Engineering Consulting How DataTalks.Club guests describe data engineering consulting, data engineer consultants, and freelance data engineering: client problems, discovery, scoping, pricing, delivery, and product paths.",
+      "keyword": "data engineer consulting"
     },
     {
       "id": "wiki:data-engineering-manager-role",
@@ -8773,7 +8774,8 @@
       "title": "DataOps",
       "url": "/wiki/dataops/",
       "count": 1,
-      "search": "DataOps Reference page for DataOps as the operating discipline for reliable data pipelines, analytics workflows, and data platforms."
+      "search": "DataOps DataOps, also searched as data ops, as the operating discipline for reliable data pipelines, analytics workflows, and data platforms.",
+      "keyword": "what is dataops"
     },
     {
       "id": "wiki:dataops-engineer-role",
@@ -50470,6 +50472,12 @@
       "target": "wiki:career-transitions-in-data",
       "kind": "wiki-link",
       "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-consulting",
+      "target": "wiki:data-engineer-role",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:data-engineering-consulting",
