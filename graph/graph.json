@@ -1,17 +1,17 @@
 {
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
-    "wikis": 206,
-    "articles": 56,
+    "wikis": 209,
+    "articles": 58,
     "guides": 21,
-    "comparisons": 20,
+    "comparisons": 22,
     "roadmaps": 10,
     "how_tos": 5,
     "podcasts": 202,
     "persons": 438,
     "topics": 90,
-    "nodes": 992,
-    "links": 11979
+    "nodes": 997,
+    "links": 12065
   },
   "nodes": [
     {
@@ -554,6 +554,17 @@
       "keyword": "mlops vs devops"
     },
     {
+      "id": "article:comparison:model-monitoring-vs-data-observability",
+      "type": "article",
+      "collection": "comparison",
+      "label": "Model Monitoring vs Data Observability",
+      "title": "Model Monitoring vs Data Observability",
+      "url": "/comparisons/model-monitoring-vs-data-observability/",
+      "count": 1,
+      "search": "Model Monitoring vs Data Observability Comparison of model monitoring and data observability: what each watches, where upstream data quality and profiling overlap, and how MLOps and DataOps teams divide incident response.",
+      "keyword": "model monitoring vs data observability"
+    },
+    {
       "id": "article:roadmap:open-source-contributor-roadmap",
       "type": "article",
       "collection": "roadmap",
@@ -629,6 +640,17 @@
       "count": 1,
       "search": "Vector Database vs Search Engine How DataTalks.Club podcast guests compare dedicated vector databases with search engines for semantic retrieval, hybrid search, RAG, product search, and production relevance.",
       "keyword": "vector database vs search engine"
+    },
+    {
+      "id": "article:comparison:vector-search-vs-keyword-search",
+      "type": "article",
+      "collection": "comparison",
+      "label": "Vector Search vs Keyword Search",
+      "title": "Vector Search vs Keyword Search",
+      "url": "/comparisons/vector-search-vs-keyword-search/",
+      "count": 1,
+      "search": "Vector Search vs Keyword Search A comparison of keyword search, vector search, and hybrid retrieval for production search, RAG, ranking, filters, and evaluation.",
+      "keyword": "vector search vs keyword search"
     },
     {
       "id": "person:aaishamuhammad",
@@ -8051,6 +8073,16 @@
       "search": "Analytics Engineering Roadmap How DataTalks.Club guests describe analytics engineering: SQL modeling, dbt style workflows, metric ownership, stakeholder trust, and the move from dashboards to governed analytical products."
     },
     {
+      "id": "wiki:annotation-quality-workflows",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Annotation Quality Workflows",
+      "title": "Annotation Quality Workflows",
+      "url": "/wiki/annotation-quality-workflows/",
+      "count": 1,
+      "search": "Annotation Quality Workflows How DataTalks.Club guests turn annotation from one off labeling into a measurable NLP data workflow with guidebooks, human baselines, model assistance, agreement checks, privacy controls, and production feedback."
+    },
+    {
       "id": "wiki:apache-airflow",
       "type": "wiki",
       "collection": "wiki",
@@ -9201,6 +9233,16 @@
       "search": "Machine Learning Tools A podcast grounded guide to choosing machine learning tools across modeling, learning, experimentation, feature work, MLOps, monitoring, fairness, open source, platforms, and AI tooling boundaries."
     },
     {
+      "id": "wiki:manufacturing-predictive-maintenance-yield-analytics",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Manufacturing Predictive Maintenance and Yield Analytics",
+      "title": "Manufacturing Predictive Maintenance and Yield Analytics",
+      "url": "/wiki/manufacturing-predictive-maintenance-yield-analytics/",
+      "count": 1,
+      "search": "Manufacturing Predictive Maintenance and Yield Analytics How semiconductor manufacturing ML turns fab telemetry, tool logs, and wafers at risk calculations into yield decisions that engineers can explain and use in production."
+    },
+    {
       "id": "wiki:marketing-to-analytics-engineering",
       "type": "wiki",
       "collection": "wiki",
@@ -9349,6 +9391,16 @@
       "url": "/wiki/model-registry/",
       "count": 1,
       "search": "Model Registry Reference page for model registries as the handoff point between training, deployment, reproducibility, monitoring, and governance."
+    },
+    {
+      "id": "wiki:modern-data-engineering-trends",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Modern Data Engineering Trends",
+      "title": "Modern Data Engineering Trends",
+      "url": "/wiki/modern-data-engineering-trends/",
+      "count": 1,
+      "search": "Modern Data Engineering Trends How DataTalks.Club podcast guests describe modern data engineering trends: specialization, governance, quality, DataOps, AI convergence, open lakehouse formats, streaming pragmatism, and FinOps pressure."
     },
     {
       "id": "wiki:modern-data-stack",
@@ -13149,6 +13201,102 @@
       "weight": 1
     },
     {
+      "source": "article:comparison:model-monitoring-vs-data-observability",
+      "target": "person:christopherbergh",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:comparison:model-monitoring-vs-data-observability",
+      "target": "person:dannyleybzon",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:comparison:model-monitoring-vs-data-observability",
+      "target": "person:stefangudmundsson",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:comparison:model-monitoring-vs-data-observability",
+      "target": "podcast:ai-in-healthcare-and-digital-therapeutics",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:comparison:model-monitoring-vs-data-observability",
+      "target": "podcast:dataops-automation-and-reliable-data-pipelines",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:comparison:model-monitoring-vs-data-observability",
+      "target": "podcast:mlops-model-monitoring-data-observability",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:comparison:model-monitoring-vs-data-observability",
+      "target": "wiki:data-observability",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:comparison:model-monitoring-vs-data-observability",
+      "target": "wiki:data-observability",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:model-monitoring-vs-data-observability",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:comparison:model-monitoring-vs-data-observability",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:model-monitoring-vs-data-observability",
+      "target": "wiki:dataops",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:comparison:model-monitoring-vs-data-observability",
+      "target": "wiki:dataops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:model-monitoring-vs-data-observability",
+      "target": "wiki:mlops",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:comparison:model-monitoring-vs-data-observability",
+      "target": "wiki:mlops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:model-monitoring-vs-data-observability",
+      "target": "wiki:model-monitoring",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:comparison:model-monitoring-vs-data-observability",
+      "target": "wiki:model-monitoring",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
       "source": "article:comparison:product-analyst-vs-data-analyst",
       "target": "article:comparison:data-analyst-vs-analytics-engineer",
       "kind": "article-link",
@@ -13906,6 +14054,108 @@
     },
     {
       "source": "article:comparison:vector-database-vs-search-engine",
+      "target": "wiki:vector-databases",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:vector-search-vs-keyword-search",
+      "target": "article:comparison:vector-database-vs-search-engine",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:comparison:vector-search-vs-keyword-search",
+      "target": "person:atitaarora",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:comparison:vector-search-vs-keyword-search",
+      "target": "person:danielsvonava",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:comparison:vector-search-vs-keyword-search",
+      "target": "person:reemmahmoud",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:comparison:vector-search-vs-keyword-search",
+      "target": "podcast:building-production-search-systems",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:comparison:vector-search-vs-keyword-search",
+      "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:comparison:vector-search-vs-keyword-search",
+      "target": "podcast:production-ml-search-vector-search-embeddings-hybrid-search",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:comparison:vector-search-vs-keyword-search",
+      "target": "wiki:embeddings",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:comparison:vector-search-vs-keyword-search",
+      "target": "wiki:embeddings",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:vector-search-vs-keyword-search",
+      "target": "wiki:information-retrieval",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:comparison:vector-search-vs-keyword-search",
+      "target": "wiki:information-retrieval",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:vector-search-vs-keyword-search",
+      "target": "wiki:production-search-evaluation",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:comparison:vector-search-vs-keyword-search",
+      "target": "wiki:production-search-evaluation",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:vector-search-vs-keyword-search",
+      "target": "wiki:search",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:comparison:vector-search-vs-keyword-search",
+      "target": "wiki:search",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:vector-search-vs-keyword-search",
+      "target": "wiki:vector-databases",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:comparison:vector-search-vs-keyword-search",
       "target": "wiki:vector-databases",
       "kind": "article-wiki",
       "weight": 5
@@ -42933,6 +43183,90 @@
       "weight": 1
     },
     {
+      "source": "wiki:annotation-quality-workflows",
+      "target": "person:christiannswart",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:annotation-quality-workflows",
+      "target": "person:ivanbilan",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:annotation-quality-workflows",
+      "target": "podcast:nlp-dataset-creation-annotation-tools-workflows",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:annotation-quality-workflows",
+      "target": "podcast:nlp-team-hiring-and-production-mlops",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:annotation-quality-workflows",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:annotation-quality-workflows",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:annotation-quality-workflows",
+      "target": "wiki:evaluation",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:annotation-quality-workflows",
+      "target": "wiki:evaluation",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:annotation-quality-workflows",
+      "target": "wiki:mlops",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:annotation-quality-workflows",
+      "target": "wiki:mlops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:annotation-quality-workflows",
+      "target": "wiki:nlp",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:annotation-quality-workflows",
+      "target": "wiki:nlp",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:annotation-quality-workflows",
+      "target": "wiki:testing",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:annotation-quality-workflows",
+      "target": "wiki:testing",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
       "source": "wiki:apache-airflow",
       "target": "article:comparison:batch-vs-streaming",
       "kind": "wiki-link",
@@ -66405,6 +66739,90 @@
       "weight": 3
     },
     {
+      "source": "wiki:manufacturing-predictive-maintenance-yield-analytics",
+      "target": "person:dashelruizperez",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:manufacturing-predictive-maintenance-yield-analytics",
+      "target": "podcast:from-semiconductor-data-to-applied-machine-learning",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:manufacturing-predictive-maintenance-yield-analytics",
+      "target": "wiki:data-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:manufacturing-predictive-maintenance-yield-analytics",
+      "target": "wiki:data-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:manufacturing-predictive-maintenance-yield-analytics",
+      "target": "wiki:industrial-ml-applications",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:manufacturing-predictive-maintenance-yield-analytics",
+      "target": "wiki:industrial-ml-applications",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:manufacturing-predictive-maintenance-yield-analytics",
+      "target": "wiki:interpretability",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:manufacturing-predictive-maintenance-yield-analytics",
+      "target": "wiki:interpretability",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:manufacturing-predictive-maintenance-yield-analytics",
+      "target": "wiki:machine-learning",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:manufacturing-predictive-maintenance-yield-analytics",
+      "target": "wiki:machine-learning",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:manufacturing-predictive-maintenance-yield-analytics",
+      "target": "wiki:model-monitoring",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:manufacturing-predictive-maintenance-yield-analytics",
+      "target": "wiki:model-monitoring",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:manufacturing-predictive-maintenance-yield-analytics",
+      "target": "wiki:production",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:manufacturing-predictive-maintenance-yield-analytics",
+      "target": "wiki:production",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
       "source": "wiki:marketing-to-analytics-engineering",
       "target": "article:comparison:data-analyst-vs-analytics-engineer",
       "kind": "wiki-link",
@@ -69535,6 +69953,156 @@
       "target": "wiki:security",
       "kind": "wiki-link",
       "weight": 1
+    },
+    {
+      "source": "wiki:modern-data-engineering-trends",
+      "target": "person:adrianbrudaru",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:modern-data-engineering-trends",
+      "target": "person:christopherbergh",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:modern-data-engineering-trends",
+      "target": "person:eddyzulkifly",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:modern-data-engineering-trends",
+      "target": "podcast:dataops-for-data-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:modern-data-engineering-trends",
+      "target": "podcast:finops-for-data-engineers",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:modern-data-engineering-trends",
+      "target": "podcast:trends-in-modern-data-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:modern-data-engineering-trends",
+      "target": "wiki:apache-iceberg",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:modern-data-engineering-trends",
+      "target": "wiki:apache-iceberg",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:modern-data-engineering-trends",
+      "target": "wiki:data-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:modern-data-engineering-trends",
+      "target": "wiki:data-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:modern-data-engineering-trends",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:modern-data-engineering-trends",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:modern-data-engineering-trends",
+      "target": "wiki:data-governance",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:modern-data-engineering-trends",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:modern-data-engineering-trends",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:modern-data-engineering-trends",
+      "target": "wiki:dataops",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:modern-data-engineering-trends",
+      "target": "wiki:dataops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:modern-data-engineering-trends",
+      "target": "wiki:finops-for-data-engineers",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:modern-data-engineering-trends",
+      "target": "wiki:finops-for-data-engineers",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:modern-data-engineering-trends",
+      "target": "wiki:modern-data-stack",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:modern-data-engineering-trends",
+      "target": "wiki:modern-data-stack",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:modern-data-engineering-trends",
+      "target": "wiki:open-source",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:modern-data-engineering-trends",
+      "target": "wiki:open-source",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:modern-data-engineering-trends",
+      "target": "wiki:streaming",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:modern-data-engineering-trends",
+      "target": "wiki:streaming",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:modern-data-stack",
