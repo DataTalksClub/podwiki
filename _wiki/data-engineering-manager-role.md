@@ -1,7 +1,8 @@
 ---
 layout: wiki
 title: "Data Engineering Manager Role"
-summary: "The data engineering manager role across team scope, platform ownership, hiring, stakeholder work, architecture, reliability, and boundaries with nearby data leadership roles."
+keyword: "data engineering manager"
+summary: "The data engineering manager role, also searched as data engineer manager, across team scope, platform ownership, hiring, stakeholder work, architecture, reliability, and boundaries with nearby data leadership roles."
 related:
   - Data Engineering
   - Data Engineer Role
