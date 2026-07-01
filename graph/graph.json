@@ -1,7 +1,7 @@
 {
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
-    "wikis": 215,
+    "wikis": 219,
     "articles": 61,
     "guides": 22,
     "comparisons": 23,
@@ -10,8 +10,8 @@
     "podcasts": 202,
     "persons": 438,
     "topics": 127,
-    "nodes": 1043,
-    "links": 12778
+    "nodes": 1047,
+    "links": 12882
   },
   "nodes": [
     {
@@ -8279,6 +8279,16 @@
       "search": "Agent Engineering How DataTalks.Club guests define AI agents and engineer them through workflow design, tools, retrieval, evaluation, guardrails, and production constraints."
     },
     {
+      "id": "wiki:agent-ops",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Agent Ops",
+      "title": "Agent Ops",
+      "url": "/wiki/agent-ops/",
+      "count": 1,
+      "search": "Agent Ops AgentOps: orchestration, guardrails, data lineage, deployment risks, and monitoring for AI agents in production."
+    },
+    {
       "id": "wiki:ai",
       "type": "wiki",
       "collection": "wiki",
@@ -8668,6 +8678,16 @@
       "url": "/wiki/consultant-or-freelancer-to-data-product-founder/",
       "count": 1,
       "search": "Consultant or Freelancer to Data Product Founder How podcast guests turn repeated consulting and freelance data problems into reusable data products, open source products, and startup paths."
+    },
+    {
+      "id": "wiki:context-engineering",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Context Engineering",
+      "title": "Context Engineering",
+      "url": "/wiki/context-engineering/",
+      "count": 1,
+      "search": "Context Engineering Designing effective LLM inputs: chunking strategies, metadata, wrappers, context windows, and context rot, grounded in DataTalks.Club podcast discussions."
     },
     {
       "id": "wiki:contributing",
@@ -9542,6 +9562,26 @@
       "url": "/wiki/learning-in-public-ai-career-switch/",
       "count": 1,
       "search": "Learning in Public for AI Career Switches How public learning turns course progress, notes, side projects, meetups, and community participation into career infrastructure for AI and ML transitions."
+    },
+    {
+      "id": "wiki:llm-cost-optimization",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "LLM Cost Optimization",
+      "title": "LLM Cost Optimization",
+      "url": "/wiki/llm-cost-optimization/",
+      "count": 1,
+      "search": "LLM Cost Optimization Token optimization, prompt compression, prompt caching, model size tradeoffs, and cost aware engineering for production LLM systems."
+    },
+    {
+      "id": "wiki:llm-deployment",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "LLM Deployment",
+      "title": "LLM Deployment",
+      "url": "/wiki/llm-deployment/",
+      "count": 1,
+      "search": "LLM Deployment Deploying LLMs in production: open source vs API models, serving challenges, model compression, inference optimization, model drift, and API risk."
     },
     {
       "id": "wiki:llm-evaluation-workflows",
@@ -42846,6 +42886,156 @@
       "weight": 3
     },
     {
+      "source": "wiki:agent-ops",
+      "target": "person:adityagautam",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-ops",
+      "target": "person:hugobowneanderson",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-ops",
+      "target": "person:micheallanham",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-ops",
+      "target": "person:nasserqadri",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-ops",
+      "target": "person:ranjithakulkarni",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-ops",
+      "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-ops",
+      "target": "podcast:from-game-ai-to-modern-ai-agents",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-ops",
+      "target": "podcast:practical-llm-engineering-and-rag",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-ops",
+      "target": "podcast:s23e03-future-of-ai-agents",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-ops",
+      "target": "podcast:s23e07-understanding-ai-engineer-role",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-ops",
+      "target": "wiki:agent-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-ops",
+      "target": "wiki:agent-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:agent-ops",
+      "target": "wiki:ai-agents",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-ops",
+      "target": "wiki:ai-agents",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:agent-ops",
+      "target": "wiki:ai-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:agent-ops",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-ops",
+      "target": "wiki:llm-production-patterns",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-ops",
+      "target": "wiki:llm-production-patterns",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:agent-ops",
+      "target": "wiki:mlops",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-ops",
+      "target": "wiki:mlops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:agent-ops",
+      "target": "wiki:multi-agent-systems",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-ops",
+      "target": "wiki:multi-agent-systems",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:agent-ops",
+      "target": "wiki:production",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-ops",
+      "target": "wiki:rag",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-ops",
+      "target": "wiki:responsible-ai-and-governance",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
       "source": "wiki:ai",
       "target": "person:andreycheptsov",
       "kind": "wiki-link",
@@ -50772,6 +50962,132 @@
       "weight": 3
     },
     {
+      "source": "wiki:context-engineering",
+      "target": "person:hugobowneanderson",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:context-engineering",
+      "target": "person:lavanyagupta",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:context-engineering",
+      "target": "person:ranjithakulkarni",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:context-engineering",
+      "target": "podcast:applied-llm-research-and-career-growth-in-practice",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:context-engineering",
+      "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:context-engineering",
+      "target": "podcast:practical-llm-engineering-and-rag",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:context-engineering",
+      "target": "wiki:agent-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:context-engineering",
+      "target": "wiki:agent-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:context-engineering",
+      "target": "wiki:ai-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:context-engineering",
+      "target": "wiki:embeddings",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:context-engineering",
+      "target": "wiki:embeddings",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:context-engineering",
+      "target": "wiki:llm-production-patterns",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:context-engineering",
+      "target": "wiki:llm-production-patterns",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:context-engineering",
+      "target": "wiki:llms",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:context-engineering",
+      "target": "wiki:long-context-llm-evaluation",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:context-engineering",
+      "target": "wiki:prompt-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:context-engineering",
+      "target": "wiki:prompt-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:context-engineering",
+      "target": "wiki:rag",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:context-engineering",
+      "target": "wiki:rag",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:context-engineering",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:context-engineering",
+      "target": "wiki:search-rag-and-knowledge-systems",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
       "source": "wiki:contributing",
       "target": "person:elleobrien",
       "kind": "wiki-link",
@@ -57817,6 +58133,12 @@
     },
     {
       "source": "wiki:data-science-project-management",
+      "target": "person:yurykashnitsky",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
       "target": "podcast:building-data-products-lead-data-scientist",
       "kind": "wiki-link",
       "weight": 1
@@ -57836,6 +58158,12 @@
     {
       "source": "wiki:data-science-project-management",
       "target": "podcast:data-professionals-business-skills-in-saas",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "podcast:data-science-failures-and-mlops-lessons",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -68532,6 +68860,288 @@
       "weight": 3
     },
     {
+      "source": "wiki:llm-cost-optimization",
+      "target": "person:bartoszmikulski",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-cost-optimization",
+      "target": "person:hugobowneanderson",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-cost-optimization",
+      "target": "person:meryemarik",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-cost-optimization",
+      "target": "person:micheallanham",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-cost-optimization",
+      "target": "person:sandrakublik",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-cost-optimization",
+      "target": "person:slawomirtulski",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-cost-optimization",
+      "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-cost-optimization",
+      "target": "podcast:from-game-ai-to-modern-ai-agents",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-cost-optimization",
+      "target": "podcast:practical-llm-engineering-and-rag",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-cost-optimization",
+      "target": "podcast:practical-llm-use-cases-and-product-patterns",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-cost-optimization",
+      "target": "podcast:production-ready-ai-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-cost-optimization",
+      "target": "podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-cost-optimization",
+      "target": "wiki:ai-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-cost-optimization",
+      "target": "wiki:ai-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:llm-cost-optimization",
+      "target": "wiki:ai-infrastructure-cost-and-ownership",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-cost-optimization",
+      "target": "wiki:ai-infrastructure-cost-and-ownership",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:llm-cost-optimization",
+      "target": "wiki:caching",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-cost-optimization",
+      "target": "wiki:context-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-cost-optimization",
+      "target": "wiki:llm-deployment",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-cost-optimization",
+      "target": "wiki:llm-deployment",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:llm-cost-optimization",
+      "target": "wiki:llm-production-patterns",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-cost-optimization",
+      "target": "wiki:llm-production-patterns",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:llm-cost-optimization",
+      "target": "wiki:prompt-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-cost-optimization",
+      "target": "wiki:prompt-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:llm-deployment",
+      "target": "article:comparison:rag-vs-fine-tuning",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-deployment",
+      "target": "article:comparison:rag-vs-fine-tuning",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:llm-deployment",
+      "target": "person:bartoszmikulski",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-deployment",
+      "target": "person:meryemarik",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-deployment",
+      "target": "person:micheallanham",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-deployment",
+      "target": "person:nasserqadri",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-deployment",
+      "target": "person:sandrakublik",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-deployment",
+      "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-deployment",
+      "target": "podcast:from-game-ai-to-modern-ai-agents",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-deployment",
+      "target": "podcast:practical-llm-use-cases-and-product-patterns",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-deployment",
+      "target": "podcast:production-ready-ai-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-deployment",
+      "target": "podcast:s23e07-understanding-ai-engineer-role",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-deployment",
+      "target": "wiki:ai-infrastructure",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-deployment",
+      "target": "wiki:ai-infrastructure",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:llm-deployment",
+      "target": "wiki:generative-ai",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-deployment",
+      "target": "wiki:generative-ai",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:llm-deployment",
+      "target": "wiki:llm-production-patterns",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-deployment",
+      "target": "wiki:llm-production-patterns",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:llm-deployment",
+      "target": "wiki:llms",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-deployment",
+      "target": "wiki:llms",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:llm-deployment",
+      "target": "wiki:mlops",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-deployment",
+      "target": "wiki:production",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-deployment",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
       "source": "wiki:llm-evaluation-workflows",
       "target": "article:comparison:rag-vs-fine-tuning",
       "kind": "wiki-link",
@@ -69541,6 +70151,12 @@
     },
     {
       "source": "wiki:machine-learning",
+      "target": "person:robzinkov",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning",
       "target": "person:simonstiebellehner",
       "kind": "wiki-link",
       "weight": 1
@@ -69560,6 +70176,12 @@
     {
       "source": "wiki:machine-learning",
       "target": "podcast:ab-testing-and-product-experimentation",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning",
+      "target": "podcast:bayesian-modeling-workflows-and-tools",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -69626,6 +70248,12 @@
     {
       "source": "wiki:machine-learning",
       "target": "podcast:software-engineering-for-machine-learning",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning",
+      "target": "wiki:a-b-testing",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -72967,7 +73595,19 @@
     },
     {
       "source": "wiki:mlops",
+      "target": "person:yurykashnitsky",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops",
       "target": "podcast:building-production-ml-platform-and-mlops-team",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:mlops",
+      "target": "podcast:data-science-failures-and-mlops-lessons",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -79057,6 +79697,12 @@
     },
     {
       "source": "wiki:production",
+      "target": "person:yurykashnitsky",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:production",
       "target": "podcast:building-data-products-lead-data-scientist",
       "kind": "wiki-link",
       "weight": 1
@@ -79076,6 +79722,12 @@
     {
       "source": "wiki:production",
       "target": "podcast:building-scalable-and-reliable-machine-learning-systems",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:production",
+      "target": "podcast:data-science-failures-and-mlops-lessons",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -81421,6 +82073,12 @@
     },
     {
       "source": "wiki:responsible-ai-and-governance",
+      "target": "person:christinecepelak",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:responsible-ai-and-governance",
       "target": "person:christophmolnar",
       "kind": "wiki-link",
       "weight": 1
@@ -81476,6 +82134,12 @@
     {
       "source": "wiki:responsible-ai-and-governance",
       "target": "podcast:data-privacy-engineering-gdpr-machine-learning",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:responsible-ai-and-governance",
+      "target": "podcast:data-science-for-public-policy-ethical-ai-social-impact",
       "kind": "wiki-link",
       "weight": 1
     },
