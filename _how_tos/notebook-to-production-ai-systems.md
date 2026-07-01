@@ -2,6 +2,12 @@
 layout: article
 title: "How to Take an AI Notebook to Production"
 keyword: "notebook to production AI systems"
+secondary_keywords:
+  - "AI notebook to production"
+  - "ML notebook to production"
+  - "Jupyter notebook to production"
+  - "productionize machine learning notebook"
+  - "notebook to production workflow"
 summary: "A procedural guide for turning an AI or ML notebook into a production system with scoped business requirements, reproducible code, data paths, evaluation, serving, monitoring, and feedback."
 search_intent: "Help readers searching for notebook to production AI systems understand the practical sequence for moving an AI or ML notebook into production, using DataTalks.Club podcast evidence."
 related_wiki:
@@ -19,9 +25,10 @@ related_wiki:
 
 When you take an AI or ML notebook to production, don't start by copying cells
 into a service. Start with the decision the system supports. Then make the data
-and code paths explicit. Do the same for evaluation, serving, and feedback.
+path explicit and extract the code people need to reuse. Add evaluation gates,
+choose the serving path, and close the release with monitoring and feedback.
 
-The broader topic lives in
+Use this sequence with
 [Notebook to Production AI Systems]({{ '/wiki/notebook-to-production-ai-systems/' | relative_url }}),
 [Production]({{ '/wiki/production/' | relative_url }}),
 [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }}),
@@ -60,7 +67,7 @@ alternative solutions and problem specificity before modeling. Around
 those conversations to define success and failure before any production code
 exists.
 
-Write a one-page production brief:
+Write a one-page production brief before you extract code:
 
 1. Who uses the output?
 2. What decision, workflow, or product action changes because of it?
@@ -75,7 +82,7 @@ Keep that brief next to
 [Data Product Adoption]({{ '/wiki/data-product-adoption/' | relative_url }})
 while you scope the work.
 
-## Replace Notebook State With A Reproducible Project
+## Extract Notebook Code Into A Reproducible Project
 
 Move the notebook into a project that another person can run without your
 memory. Keep the notebook if it helps exploration, but move reusable code into
@@ -126,6 +133,18 @@ This structure connects the notebook to
 [Testing]({{ '/wiki/testing/' | relative_url }}), and
 [Reproducibility]({{ '/wiki/reproducibility/' | relative_url }}). Rerun the
 system from known inputs and check the output, test result, or failure.
+
+Extract code in this order:
+
+1. Move constants, credentials, paths, thresholds, and model names into
+   configuration, and keep secrets out of the notebook and the repository.
+2. Turn cleaning, feature, prompt, retrieval, and post-processing cells into
+   functions with typed inputs and outputs.
+3. Add tests for the transformations before you change their behavior.
+4. Add a command, scheduled job, worker, or API endpoint that calls the same
+   functions the tests call.
+5. Keep the notebook as an example or experiment log only after the production
+   path runs without notebook state.
 
 ## Build The Data And Feature Path
 
@@ -209,6 +228,13 @@ and the
 If the system uses retrieval, test retrieval quality separately from answer
 generation so failures don't hide behind one aggregate score.
 
+[Paul Iusztin]({{ '/people/pauliusztin/' | relative_url }}) adds the
+AI-engineering version in
+[Production AI Engineering]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }}).
+His discussion ties data trust, integration tests, prompt evaluation, and cost
+checks to production AI readiness. Use that episode when the notebook contains
+prompts, agents, or model calls that need tests beyond offline accuracy.
+
 ## Package Serving Around The Product Boundary
 
 Choose serving after you know who needs the output and how quickly they need it.
@@ -240,6 +266,14 @@ Keep control boundaries explicit:
 4. Add timeouts, retries, and fallbacks before the first user-facing launch.
 5. Decide whether users see confidence, citations, explanations, or manual
    review states.
+
+[Meryem Arik]({{ '/people/meryemarik/' | relative_url }}) gives the LLM serving
+tradeoff in
+[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}).
+Her discussion compares fine-tuning and retrieval with hosted APIs and
+open-source models. It also covers latency, cost, and drift. Use that framing
+when the notebook result can ship as retrieval, a prompt chain, a tuned model,
+or an external API call.
 
 Mariano's caution around 31:42-37:39 matters here too: if structured code or a
 rule solves the problem, don't hide that logic inside a model call. That advice
@@ -297,9 +331,9 @@ Use this sequence when you turn a notebook into a system:
    owner, and rollback owner.
 2. Decide whether the first production version needs ML, an LLM, retrieval,
    rules, SQL, or a human workflow.
-3. Move reusable notebook code into modules with tests and configuration.
-4. Build a repeatable data path from raw inputs to features, prompts,
+3. Build a repeatable data path from raw inputs to features, prompts,
    embeddings, training rows, or serving inputs.
+4. Move reusable notebook code into modules with tests and configuration.
 5. Add a baseline and evaluation cases before changing model or prompt
    complexity.
 6. Choose batch, API, queue, or scheduled serving based on freshness, latency,

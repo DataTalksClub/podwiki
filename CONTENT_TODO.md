@@ -365,10 +365,20 @@ Start with this batch when expanding the content set.
   `_guides/machine-learning-for-software-engineers.md`, and
   `_wiki/dataops.md` for existing Ubersuggest variants. Future work should
   extend these pages instead of creating duplicate pages for those variants.
-- The weakest public content category is `_how_tos/`. Next high-value how-tos:
-  notebook-to-production AI systems, DataOps checks for data pipelines, and RAG
-  evaluation workflow. Ground them in the existing notebook-to-production,
-  DataOps, LLM/RAG, and agent-evaluation podcast evidence.
+- The 2026-07-01 six-page quality batch strengthened
+  `_guides/machine-learning-for-business.md`,
+  `_wiki/data-science-project-management.md`,
+  `_wiki/algorithmic-trading.md`,
+  `_how_tos/notebook-to-production-ai-systems.md`,
+  `_how_tos/dataops-checks-for-data-pipelines.md`, and
+  `_how_tos/rag-evaluation-workflow.md`. Future work should add fresh podcast
+  evidence or narrow subpages only when a new keyword cluster has distinct
+  intent.
+- Keep improving `_how_tos/` when a keyword cluster asks for a concrete
+  operating sequence. The notebook-to-production, DataOps checks, and RAG
+  evaluation workflows were strengthened on 2026-07-01; future how-tos should
+  cover distinct procedures or add new podcast evidence to those canonical
+  pages.
 - People pages remain the largest quality backlog. Many are profile imports or
   thin placeholders. Prioritize pages already linked from wiki, guide, roadmap,
   and comparison pages, then add podcast contribution summaries, local podcast

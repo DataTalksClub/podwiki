@@ -2,6 +2,12 @@
 layout: article
 title: "How to Run a RAG Evaluation Workflow"
 keyword: "rag evaluation workflow"
+secondary_keywords:
+  - "rag evaluation"
+  - "rag eval"
+  - "rag evaluation framework"
+  - "llm rag evaluation"
+  - "retrieval augmented generation evaluation"
 summary: "A practical workflow for evaluating RAG systems with user tasks, gold examples, retrieval checks, answer checks, citations, human review, traces, and production feedback."
 search_intent: "Help readers who search for a RAG evaluation workflow understand how to test retrieval, answer grounding, citations, human review, logs, and production feedback using DataTalks.Club podcast evidence."
 related_wiki:
@@ -15,14 +21,16 @@ related_wiki:
   - Agent Engineering
 ---
 
-When you evaluate RAG, separate retrieval from generation:
+When you run a RAG evaluation workflow, separate retrieval from generation:
 
 1. The retriever found the evidence the user needed.
 2. The model used that evidence to produce a correct, useful, and cited answer.
 
-Run the workflow as an engineering cycle. Start with user tasks and gold
+This is the practical core of RAG eval. Start with user tasks and gold
 examples, then test retrieval and answers. Review failures, add traces, and
-feed production behavior back into the next eval set.
+feed production behavior back into the next eval set. The same sequence applies
+whether the team calls it RAG evaluation, retrieval-augmented generation
+evaluation, or search evaluation for an LLM product.
 
 [Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }})
 frames the workflow as practical LLM engineering in

@@ -2,6 +2,13 @@
 layout: wiki
 title: "Algorithmic Trading"
 summary: "How DataTalks.Club discussions frame algorithmic trading as a Python, data science, and machine learning workflow for market data, backtesting, walk-forward validation, risk controls, and deployment."
+keyword: "algorithmic trading"
+secondary_keywords:
+  - "data science stock market"
+  - "data analytics stock market"
+  - "python stock analysis"
+  - "stock market analysis with Python"
+  - "educational stock market analysis"
 related:
   - Machine Learning
   - Data Science
@@ -17,10 +24,10 @@ Algorithmic trading uses code to turn market data and trading rules into
 repeatable buy, sell, or hold decisions. Some systems also use
 [machine learning]({{ '/wiki/machine-learning/' | relative_url }}) predictions. In
 [Algorithmic Trading with Python]({{ '/podcasts/algorithmic-trading-with-python-and-machine-learning/' | relative_url }}),
-[Ivan Brigida]({{ '/people/ivanbrigida/' | relative_url }}) frames stock market
-analysis with Python as an end-to-end workflow. You source data and prepare
-features. Then you test a strategy, manage risk, evaluate costs, and choose
-how much automation belongs in deployment.
+[Ivan Brigida]({{ '/people/ivanbrigida/' | relative_url }}) treats stock market
+analysis with Python as an end-to-end data project. You collect market data and
+prepare features. Then you define a trading rule, backtest it, add risk and
+cost controls, and decide how much automation belongs in deployment.
 
 Read this as educational synthesis, not trading advice. Ivan places
 algorithmic trading near [Data Science]({{ '/wiki/data-science/' | relative_url }})
@@ -31,7 +38,7 @@ needs scheduling, monitoring, and operational ownership, which puts it near
 [MLOps]({{ '/wiki/mlops/' | relative_url }})
 ([Algorithmic Trading with Python]({{ '/podcasts/algorithmic-trading-with-python-and-machine-learning/' | relative_url }})).
 
-## Definition
+## Trading Rules and Automation
 
 Ivan defines algorithmic trading more broadly than a model that predicts stock
 movement. The working system has to handle data access and OHLCV records. It
@@ -52,7 +59,7 @@ also covers stop-loss rules, fees, and discipline after deployment
 ([Ivan Brigida]({{ '/people/ivanbrigida/' | relative_url }}),
 [Algorithmic Trading with Python]({{ '/podcasts/algorithmic-trading-with-python-and-machine-learning/' | relative_url }})).
 
-## Market Data
+## Data Sourcing and Market Data
 
 A Python stock analysis workflow starts with market data sources and a clear
 record format. Ivan names Yahoo, Quandl, and Polygon as common
@@ -74,8 +81,38 @@ preserve timestamps. Each price and indicator needs an availability time.
 Prediction inputs need the same timestamp discipline
 ([Algorithmic Trading with Python]({{ '/podcasts/algorithmic-trading-with-python-and-machine-learning/' | relative_url }})).
 
-A feature leaks future data when it uses information from after decision time
+For an educational stock market analysis project, learners should ask what data
+they would have known at the moment of the simulated trade. Ivan discusses free
+APIs, paid APIs, and unstable limits, so the first modeling constraint is data
+sourcing
 ([Algorithmic Trading with Python]({{ '/podcasts/algorithmic-trading-with-python-and-machine-learning/' | relative_url }})).
+
+## Feature Design for Stock Analysis
+
+Ivan's feature examples start from OHLCV and add time-window statistics. A
+learner might ask whether a stock grew across recent windows. They can also add
+features for large drawdowns or mean reversion. Those features turn raw stock
+market data into rows a
+[machine learning]({{ '/wiki/machine-learning/' | relative_url }}) model can use
+([Algorithmic Trading with Python]({{ '/podcasts/algorithmic-trading-with-python-and-machine-learning/' | relative_url }})).
+
+The target matters as much as the feature set. Ivan describes binary targets
+such as whether a stock grows more than 0% or more than 5% over the next week.
+A 5% threshold can create a harder and less balanced classification problem. It
+also lines up better with a trade that must beat costs
+([Algorithmic Trading with Python]({{ '/podcasts/algorithmic-trading-with-python-and-machine-learning/' | relative_url }})).
+
+This is where [data science]({{ '/wiki/data-science/' | relative_url }}) habits
+matter. The analyst has to write down the prediction horizon and target. They
+also need feature availability time and a selection rule before comparing model
+families.
+
+Ivan names logistic regression and XGBoost while also discussing neural
+networks and handcrafted indicators. Feature importance then helps the team
+debug strong features. They can separate plausible signals from leakage and
+misleading shortcuts
+([Ivan Brigida]({{ '/people/ivanbrigida/' | relative_url }}),
+[Algorithmic Trading with Python]({{ '/podcasts/algorithmic-trading-with-python-and-machine-learning/' | relative_url }})).
 
 ## Backtesting Without Leakage
 
@@ -88,8 +125,17 @@ calculating indicators with future prices, or selecting rules after looking at
 the full history. Avoid leakage by making each simulated decision use only data
 available before that decision.
 
-Evaluation also has to match the trade. Ivan discusses ROI, precision, and the
-impact of trading fees, so a high classifier score isn't enough
+Backtesting also has to simulate the full strategy instead of only the model
+score. Ivan combines the prediction with a stock selection rule and a holding
+period. He also includes position size, exit rule, and fees. A backtest that
+omits these parts can answer the wrong question. It may show whether the model
+had predictive signal, not whether the trade would have survived realistic
+costs and losses
+([Algorithmic Trading with Python]({{ '/podcasts/algorithmic-trading-with-python-and-machine-learning/' | relative_url }})).
+
+[Evaluation]({{ '/wiki/evaluation/' | relative_url }}) also has to match the
+trade. Ivan discusses ROI, precision, and the impact of trading fees, so a high
+classifier score isn't enough
 ([Algorithmic Trading with Python]({{ '/podcasts/algorithmic-trading-with-python-and-machine-learning/' | relative_url }})).
 A model can predict many small moves correctly and still fail after fees,
 slippage, and position sizing. For this reason, algorithmic trading evaluation
@@ -101,8 +147,8 @@ finance-specific cost assumptions
 ## Walk-Forward Simulation
 
 Ivan uses walk-forward simulation to make the backtest behave more like a live
-strategy. In his weekly version, you train or update on past data and predict
-the next period. Then you apply selection rules and advance the window
+strategy. In his weekly version, he trains on past data and predicts the next
+period. Then he applies selection rules and advances the window
 ([Algorithmic Trading with Python]({{ '/podcasts/algorithmic-trading-with-python-and-machine-learning/' | relative_url }})).
 The model development then follows the chronological order a real trading
 system would face
@@ -117,7 +163,13 @@ and evaluation period. Only then should the team try logistic regression,
 XGBoost, neural networks, or handcrafted indicators
 ([Algorithmic Trading with Python]({{ '/podcasts/algorithmic-trading-with-python-and-machine-learning/' | relative_url }})).
 
-## Risk Management
+Walk-forward validation also makes model tuning harder to fool yourself with.
+Ivan describes holding out the latest one or two years and avoiding training,
+testing, or hyperparameter tuning on that period. That constraint keeps the
+simulation closer to the future operating path a live system would face
+([Algorithmic Trading with Python]({{ '/podcasts/algorithmic-trading-with-python-and-machine-learning/' | relative_url }})).
+
+## Risk and Cost Controls
 
 Ivan treats risk management as part of the strategy, not as a final dashboard.
 His examples include stop-loss thresholds and position sizing, then later tie
@@ -136,7 +188,14 @@ separate topic after [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_
 or deployment
 ([Algorithmic Trading with Python]({{ '/podcasts/algorithmic-trading-with-python-and-machine-learning/' | relative_url }})).
 
-## Execution and Operations
+Ivan's fee example puts cost control inside the trade. A small trade can pay
+fees on both entry and exit. The strategy has to earn enough to clear those
+fees before it produces positive ROI. That pushes the analyst to minimize
+unnecessary trades, track net returns, and compare the result with simpler
+alternatives
+([Algorithmic Trading with Python]({{ '/podcasts/algorithmic-trading-with-python-and-machine-learning/' | relative_url }})).
+
+## Deployment and Monitoring
 
 A trading strategy becomes an operational system when code has to run on a
 schedule, call APIs, choose positions, and place or prepare orders. Ivan names
@@ -152,9 +211,14 @@ In the episode, partial automation is a design choice and execution sits next
 to discipline. A person may still review signals, but the strategy needs rules
 that reduce emotional trading after the backtest is finished
 ([Algorithmic Trading with Python]({{ '/podcasts/algorithmic-trading-with-python-and-machine-learning/' | relative_url }})).
-For production-minded teams, that means logging predictions and inputs. They
-also log orders, fees, and skipped trades so monitoring can explain what
-happened later
+
+For production-minded teams, [MLOps]({{ '/wiki/mlops/' | relative_url }}) and
+[model monitoring]({{ '/wiki/model-monitoring/' | relative_url }}) add
+operational checks. Teams verify that the data arrived and the feature job ran.
+They also check the model version, intended order, and realized costs. They need
+logs for predictions, inputs, and orders. They also need records of fees,
+skipped trades, and manual overrides so monitoring can explain what happened
+later
 ([Algorithmic Trading with Python]({{ '/podcasts/algorithmic-trading-with-python-and-machine-learning/' | relative_url }})).
 
 ## Machine Learning Use
@@ -184,8 +248,9 @@ habit of turning models into decisions someone can review
 
 Ivan describes mostly workflow failures, not exotic math failures. A project
 can use unreliable adjusted prices or leak future data. It can also optimize a
-rule after seeing the full history or ignore fees. It can overvalue ROI or
-automate execution before the strategy has risk controls
+rule after seeing the full history or ignore fees. A team can overvalue ROI,
+chase accuracy instead of precision on the profitable class, and automate too
+early. The strategy needs risk controls before execution becomes automatic
 ([Algorithmic Trading with Python]({{ '/podcasts/algorithmic-trading-with-python-and-machine-learning/' | relative_url }})).
 
 A conservative backtest should make the historical simulation look like the

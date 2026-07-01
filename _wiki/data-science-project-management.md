@@ -2,10 +2,18 @@
 layout: wiki
 title: "Data Science Project Management"
 summary: "How DataTalks.Club guests manage data science, analytics, and ML projects through problem framing, scope, stakeholders, baselines, metrics, evaluation, adoption, and production handoff."
+keyword: "data science project management"
+secondary_keywords:
+  - "project management for data science"
+  - "data science project manager"
+  - "managing data science projects"
+  - "data science project planning"
+  - "machine learning project management"
 related:
   - Data Science
   - Business Skills for Data Professionals
   - Data Product Management
+  - Data Science for Managers
   - Machine Learning System Design
   - Evaluation
   - Metrics
@@ -16,15 +24,17 @@ related:
 
 Data science project management is the operating discipline that turns an
 ambiguous business, analytics, or machine learning request into useful shipped
-work. It covers problem framing and stakeholder alignment. It also covers data
-access, baselines, and metrics. Delivery cadence, evaluation, adoption, and
-production handoff belong in the same management work.
+work. A data science project manager or data lead turns the decision into a
+measurable target. They keep the smallest useful version explicit, plan the
+shipping path, and name the handoff owner.
 
-It sits between [Data Science]({{ '/wiki/data-science/' | relative_url }}),
+The practice draws from [Data Science]({{ '/wiki/data-science/' | relative_url }}),
 [Business Skills for Data Professionals]({{ '/wiki/business-skills-for-data-professionals/' | relative_url }}),
 [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }}), and
 [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }}).
-It also depends on [Leadership]({{ '/wiki/leadership/' | relative_url }}).
+It also depends on [Leadership]({{ '/wiki/leadership/' | relative_url }}) and
+[Data Science for Managers]({{ '/wiki/data-science-for-managers/' | relative_url }}),
+because the work combines technical uncertainty with team coordination.
 
 DataTalks.Club guests treat data science project management as technical work
 and organizational work. In [CRISP-DM]({{ '/podcasts/crisp-dm/' | relative_url }}),
@@ -36,13 +46,14 @@ In [From Project Manager to Data Scientist]({{ '/podcasts/project-manager-to-dat
 and stakeholder communication as useful after the work moves into analytics and
 machine learning. KPI work stays useful too.
 
-## Decision, Evidence, and Delivery
+## Project Lifecycle
 
-Across the podcast episodes, managing a data science project means keeping the
-decision, evidence, and delivery path aligned. The manager or lead asks what
-business objective the work serves. They also ask whether the problem is
-measurable, what data exists, which baseline is good enough, and how the result
-will be used.
+Across the podcast episodes, guests mostly agree that project management for
+data science starts before modeling and ends after the first analysis or model
+result. The manager or lead asks what business objective the work serves and
+whether the problem is measurable. They also ask what data exists, which
+baseline is good enough, how the result will be used, and what operational
+owner receives the handoff.
 In [CRISP-DM]({{ '/podcasts/crisp-dm/' | relative_url }}), the 13:25 section
 frames the problem as important, measurable, and connected to a way to measure
 success. The 17:05 and 18:23 sections keep baselines, evaluation, and business
@@ -60,7 +71,7 @@ That project structure links data science management to [Data Products]({{ '/wik
 [Data Product Adoption]({{ '/wiki/data-product-adoption/' | relative_url }}),
 [Evaluation]({{ '/wiki/evaluation/' | relative_url }}), and [Metrics]({{ '/wiki/metrics/' | relative_url }}).
 
-## Different Management Risks
+## Risk Emphasis
 
 The guests don't disagree that data science projects need structure. They focus
 on different risks.
@@ -97,12 +108,14 @@ time.
 ## Framing and Scope
 
 The first management task is to turn a request into a decision. A request for a
-forecast, dashboard, model, or segmentation usually hides several questions.
-The manager has to ask who will act, what will change, what cost matters, and
-what answer would be good enough. In [CRISP-DM]({{ '/podcasts/crisp-dm/' | relative_url }}), the 7:55,
-10:58, and 13:25 sections move from an online classified-site example to
-measurable problem size and success criteria. That's the project-management
-moment before modeling starts.
+forecast or dashboard usually hides more than one question. So does a request
+for a model or segmentation. The manager has to identify who will act, what
+will change, what cost matters, and what answer would be good enough.
+
+In [CRISP-DM]({{ '/podcasts/crisp-dm/' | relative_url }}), the 7:55, 10:58, and
+13:25 sections move from an online classified-site example to measurable
+problem size and success criteria. Project planning starts there, before anyone
+chooses a model.
 
 Project managers should include non-goals and a smallest useful path. [Valeriy
 Babushkin]({{ '/people/valeriybabushkin/' | relative_url }}) makes that explicit
@@ -122,7 +135,9 @@ than a model
 ([44:48-53:09]({{ '/podcasts/building-data-products-product-owner-vs-product-manager/' | relative_url }})).
 Use [Data Product Owner vs Data Product Manager]({{ '/comparisons/data-product-owner-vs-data-product-manager/' | relative_url }})
 when the scope question is about who owns the delivery and product
-decision.
+decision. For a role-focused learning path, the
+[Machine Learning Engineer Roadmap]({{ '/roadmaps/machine-learning-engineer-roadmap/' | relative_url }})
+shows how this scope work connects to production ML responsibilities.
 
 ## Stakeholders and Decision Rights
 
@@ -139,8 +154,8 @@ weekly embedded meetings and stakeholder observation before formal intake
 Later, the team invites stakeholders to demos rather than daily stand-ups. They
 also simplify technical results for non-technical audiences
 ([35:38-41:33]({{ '/podcasts/building-data-products-lead-data-scientist/' | relative_url }})).
-This keeps stakeholders close to direction and feedback while the delivery team
-keeps space for exploration and technical work.
+The demos keep stakeholders close to direction and feedback while the delivery
+team keeps space for exploration and technical work.
 
 For managers, decision rights are part of team design. [Barbara
 Sobkowiak]({{ '/people/barbarasobkowiak/' | relative_url }}) separates data
@@ -198,7 +213,7 @@ That matches the [Machine Learning System Design]({{ '/wiki/machine-learning-sys
 habit of writing goals, non-goals, assumptions, and data paths before the work
 becomes expensive. Serving constraints and monitoring belong in the same design.
 
-Project managers should keep the delivery unit small enough to learn.
+A project manager keeps the delivery unit small enough to learn.
 
 A useful increment might be a small validation or delivery milestone:
 
@@ -249,17 +264,3 @@ That handoff links [MLOps]({{ '/wiki/mlops/' | relative_url }}),
 [Production]({{ '/wiki/production/' | relative_url }}). A project is unfinished
 if nobody knows what happens when the metric moves, the input data changes, or
 the model stops helping the user.
-
-## Related Pages
-
-These pages cover the neighboring practices and role boundaries.
-
-- [Data Science]({{ '/wiki/data-science/' | relative_url }})
-- [Business Skills for Data Professionals]({{ '/wiki/business-skills-for-data-professionals/' | relative_url }})
-- [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
-- [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
-- [Evaluation]({{ '/wiki/evaluation/' | relative_url }})
-- [Metrics]({{ '/wiki/metrics/' | relative_url }})
-- [Data Product Adoption]({{ '/wiki/data-product-adoption/' | relative_url }})
-- [Data Product Owner vs Data Product Manager]({{ '/comparisons/data-product-owner-vs-data-product-manager/' | relative_url }})
-- [Machine Learning Engineer Roadmap]({{ '/roadmaps/machine-learning-engineer-roadmap/' | relative_url }})

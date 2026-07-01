@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 90,
     "nodes": 1005,
-    "links": 12379
+    "links": 12392
   },
   "nodes": [
     {
@@ -495,7 +495,7 @@
       "title": "Machine Learning for Business: Where ML Helps and Where It Does Not",
       "url": "/guides/machine-learning-for-business/",
       "count": 1,
-      "search": "Machine Learning for Business: Where ML Helps and Where It Does Not A podcast backed guide for business leaders and data teams deciding where machine learning can improve decisions, workflows, revenue, cost, risk, and production operations.",
+      "search": "Machine Learning for Business: Where ML Helps and Where It Does Not A guide for business leaders and data teams deciding where machine learning can improve decisions, workflows, revenue, cost, risk, and production operations.",
       "keyword": "machine learning business"
     },
     {
@@ -8072,7 +8072,8 @@
       "title": "Algorithmic Trading",
       "url": "/wiki/algorithmic-trading/",
       "count": 1,
-      "search": "Algorithmic Trading How DataTalks.Club discussions frame algorithmic trading as a Python, data science, and machine learning workflow for market data, backtesting, walk forward validation, risk controls, and deployment."
+      "search": "Algorithmic Trading How DataTalks.Club discussions frame algorithmic trading as a Python, data science, and machine learning workflow for market data, backtesting, walk forward validation, risk controls, and deployment.",
+      "keyword": "algorithmic trading"
     },
     {
       "id": "wiki:analytics-engineering",
@@ -8654,7 +8655,8 @@
       "title": "Data Science Project Management",
       "url": "/wiki/data-science-project-management/",
       "count": 1,
-      "search": "Data Science Project Management How DataTalks.Club guests manage data science, analytics, and ML projects through problem framing, scope, stakeholders, baselines, metrics, evaluation, adoption, and production handoff."
+      "search": "Data Science Project Management How DataTalks.Club guests manage data science, analytics, and ML projects through problem framing, scope, stakeholders, baselines, metrics, evaluation, adoption, and production handoff.",
+      "keyword": "data science project management"
     },
     {
       "id": "wiki:data-scientist-cv-and-portfolio",
@@ -17691,6 +17693,12 @@
     },
     {
       "source": "article:guide:machine-learning-for-business",
+      "target": "person:vincentwarmerdam",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
       "target": "person:vinvashishta",
       "kind": "article-link",
       "weight": 1
@@ -17793,6 +17801,12 @@
     },
     {
       "source": "article:guide:machine-learning-for-business",
+      "target": "podcast:open-source-ml-tools-strategy-and-business-models",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
       "target": "podcast:software-engineering-for-machine-learning",
       "kind": "article-link",
       "weight": 1
@@ -17853,6 +17867,18 @@
     },
     {
       "source": "article:guide:machine-learning-for-business",
+      "target": "wiki:data-strategy",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "wiki:data-strategy",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
       "target": "wiki:evaluation",
       "kind": "article-link",
       "weight": 1
@@ -17890,6 +17916,12 @@
     {
       "source": "article:guide:machine-learning-for-business",
       "target": "wiki:metrics",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "wiki:metrics",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -17920,6 +17952,18 @@
     {
       "source": "article:guide:machine-learning-for-business",
       "target": "wiki:model-monitoring",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "wiki:open-source",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-business",
+      "target": "wiki:open-source",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -20217,7 +20261,25 @@
     },
     {
       "source": "article:how_to:notebook-to-production-ai-systems",
+      "target": "person:meryemarik",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:notebook-to-production-ai-systems",
       "target": "person:mihaileric",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:notebook-to-production-ai-systems",
+      "target": "person:pauliusztin",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:notebook-to-production-ai-systems",
+      "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
       "kind": "article-link",
       "weight": 1
     },
@@ -20236,6 +20298,12 @@
     {
       "source": "article:how_to:notebook-to-production-ai-systems",
       "target": "podcast:production-ml-pipelines-with-aws-and-kafka",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:how_to:notebook-to-production-ai-systems",
+      "target": "podcast:production-ready-ai-engineering",
       "kind": "article-link",
       "weight": 1
     },
@@ -55216,6 +55284,18 @@
     {
       "source": "wiki:data-science-project-management",
       "target": "wiki:data-science",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "wiki:data-science-for-managers",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-project-management",
+      "target": "wiki:data-science-for-managers",
       "kind": "wiki-related",
       "weight": 3
     },
