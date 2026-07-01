@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 145,
     "nodes": 1009,
-    "links": 10653
+    "links": 10654
   },
   "nodes": [
     {
@@ -209,7 +209,7 @@
       "title": "Data Scientist Interview Prep: What to Practice Before the First Call",
       "url": "/guides/data-scientist-interview/",
       "count": 1,
-      "search": "Data Scientist Interview Prep: What to Practice Before the First Call A podcast backed guide to data scientist interview preparation, covering role targeting, CV evidence, recruiter screens, technical rounds, case studies, project stories, and offer questions.",
+      "search": "Data Scientist Interview Prep: What to Practice Before the First Call A practical guide to data scientist interview preparation, covering role targeting, CV evidence, recruiter screens, technical rounds, case studies, project stories, and offer questions.",
       "keyword": "data scientist interview"
     },
     {
@@ -407,7 +407,7 @@
       "title": "Machine Learning for Software Engineers: A Practical Guide",
       "url": "/guides/machine-learning-for-software-engineers/",
       "count": 1,
-      "search": "Machine Learning for Software Engineers: A Practical Guide A podcast backed roadmap for software engineers moving into machine learning: transferable skills, missing ML and data skills, project sequence, production awareness, and interview evidence.",
+      "search": "Machine Learning for Software Engineers: A Practical Guide A practical roadmap for software engineers moving into machine learning: transferable skills, missing ML and data skills, project sequence, production awareness, and interview evidence.",
       "keyword": "machine learning for software engineers"
     },
     {
@@ -8946,7 +8946,7 @@
       "title": "DataOps",
       "url": "/wiki/dataops/",
       "count": 1,
-      "search": "DataOps Podcast grounded reference page for DataOps as the operating discipline for reliable data pipelines, analytics workflows, and data platforms."
+      "search": "DataOps Reference page for DataOps as the operating discipline for reliable data pipelines, analytics workflows, and data platforms."
     },
     {
       "id": "wiki:dataops-platforms",
@@ -15403,49 +15403,49 @@
       "source": "article:guide:data-scientist-interview",
       "target": "person:lukewhipps",
       "kind": "article-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "article:guide:data-scientist-interview",
       "target": "person:nicksingh",
       "kind": "article-link",
-      "weight": 8
+      "weight": 4
     },
     {
       "source": "article:guide:data-scientist-interview",
       "target": "person:olegnovikov",
       "kind": "article-link",
-      "weight": 16
+      "weight": 10
     },
     {
       "source": "article:guide:data-scientist-interview",
       "target": "person:olgaivina",
       "kind": "article-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "article:guide:data-scientist-interview",
       "target": "podcast:data-interview-behavioral-and-portfolio-prep-guide",
       "kind": "article-link",
-      "weight": 6
+      "weight": 12
     },
     {
       "source": "article:guide:data-scientist-interview",
       "target": "podcast:data-science-interview-and-cv-guide",
       "kind": "article-link",
-      "weight": 14
+      "weight": 22
     },
     {
       "source": "article:guide:data-scientist-interview",
       "target": "podcast:hiring-for-data-science-jobs-interview-questions-skills.md",
       "kind": "article-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "article:guide:data-scientist-interview",
       "target": "podcast:machine-learning-data-science-interview-prep",
       "kind": "article-link",
-      "weight": 6
+      "weight": 8
     },
     {
       "source": "article:guide:data-scientist-interview",
@@ -16537,7 +16537,7 @@
       "source": "article:guide:machine-learning-for-software-engineers",
       "target": "podcast:building-production-ml-platform-and-mlops-team",
       "kind": "article-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "article:guide:machine-learning-for-software-engineers",
@@ -16549,13 +16549,13 @@
       "source": "article:guide:machine-learning-for-software-engineers",
       "target": "podcast:from-software-engineer-to-machine-learning",
       "kind": "article-link",
-      "weight": 6
+      "weight": 12
     },
     {
       "source": "article:guide:machine-learning-for-software-engineers",
       "target": "podcast:how-to-grow-your-ml-engineering-career",
       "kind": "article-link",
-      "weight": 2
+      "weight": 8
     },
     {
       "source": "article:guide:machine-learning-for-software-engineers",
@@ -16567,31 +16567,31 @@
       "source": "article:guide:machine-learning-for-software-engineers",
       "target": "podcast:machine-learning-engineering-production-best-practices",
       "kind": "article-link",
-      "weight": 10
+      "weight": 12
     },
     {
       "source": "article:guide:machine-learning-for-software-engineers",
       "target": "podcast:machine-learning-system-design-interview",
       "kind": "article-link",
-      "weight": 10
+      "weight": 12
     },
     {
       "source": "article:guide:machine-learning-for-software-engineers",
       "target": "podcast:mlops-at-scale-reproducibility-adoption",
       "kind": "article-link",
-      "weight": 10
+      "weight": 18
     },
     {
       "source": "article:guide:machine-learning-for-software-engineers",
       "target": "podcast:research-to-production-ml-systems-roadmap",
       "kind": "article-link",
-      "weight": 4
+      "weight": 8
     },
     {
       "source": "article:guide:machine-learning-for-software-engineers",
       "target": "podcast:software-engineering-for-machine-learning",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:guide:machine-learning-for-software-engineers",
@@ -16781,12 +16781,6 @@
     },
     {
       "source": "article:guide:machine-learning-for-startups",
-      "target": "person:mariabruckert",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:machine-learning-for-startups",
       "target": "person:marianosemelman",
       "kind": "article-link",
       "weight": 2
@@ -16801,37 +16795,37 @@
       "source": "article:guide:machine-learning-for-startups",
       "target": "podcast:building-ai-digital-health-startups",
       "kind": "article-link",
-      "weight": 6
+      "weight": 16
     },
     {
       "source": "article:guide:machine-learning-for-startups",
       "target": "podcast:building-data-team",
       "kind": "article-link",
-      "weight": 6
+      "weight": 8
     },
     {
       "source": "article:guide:machine-learning-for-startups",
       "target": "podcast:building-mlops-startup",
       "kind": "article-link",
-      "weight": 14
+      "weight": 32
     },
     {
       "source": "article:guide:machine-learning-for-startups",
       "target": "podcast:data-science-leadership-hiring-mlops",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:guide:machine-learning-for-startups",
       "target": "podcast:launch-and-build-retail-startup",
       "kind": "article-link",
-      "weight": 6
+      "weight": 12
     },
     {
       "source": "article:guide:machine-learning-for-startups",
       "target": "podcast:lean-mlops-for-startups",
       "kind": "article-link",
-      "weight": 6
+      "weight": 20
     },
     {
       "source": "article:guide:machine-learning-for-startups",
@@ -50881,7 +50875,7 @@
       "source": "wiki:dataops",
       "target": "article:comparison:mlops-vs-dataops",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "wiki:dataops",
@@ -50915,6 +50909,12 @@
     },
     {
       "source": "wiki:dataops",
+      "target": "person:mehdiouazza",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:dataops",
       "target": "person:nataliekwong",
       "kind": "wiki-link",
       "weight": 2
@@ -50929,13 +50929,13 @@
       "source": "wiki:dataops",
       "target": "podcast:data-engineering-tools-modern-data-stack",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 8
     },
     {
       "source": "wiki:dataops",
       "target": "podcast:data-quality-data-observability-data-reliability",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 10
     },
     {
       "source": "wiki:dataops",
@@ -50947,19 +50947,19 @@
       "source": "wiki:dataops",
       "target": "podcast:dataops-automation-and-reliable-data-pipelines",
       "kind": "wiki-link",
-      "weight": 10
+      "weight": 12
     },
     {
       "source": "wiki:dataops",
       "target": "podcast:dataops-for-data-engineering",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 10
     },
     {
       "source": "wiki:dataops",
       "target": "podcast:dataops-principles-and-scalable-data-platforms",
       "kind": "wiki-link",
-      "weight": 10
+      "weight": 16
     },
     {
       "source": "wiki:dataops",
@@ -50969,7 +50969,7 @@
     },
     {
       "source": "wiki:dataops",
-      "target": "wiki:analytics-engineering",
+      "target": "podcast:scaling-data-engineering-teams-self-service-platforms",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -51086,6 +51086,12 @@
       "target": "wiki:orchestration",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:dataops",
+      "target": "wiki:self-service-data-platforms",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:dataops-platforms",
