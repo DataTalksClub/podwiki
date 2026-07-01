@@ -24,8 +24,16 @@ related:
 
 Open source means public software that other people can use, discuss, and
 improve. DataTalks.Club guests usually discuss it through data and ML tools.
-The recurring examples include scikit-learn ecosystem libraries and Hugging
-Face contributions. Guests also discuss Airbyte, DLT, Zingg, and Evidently.
+[Vincent Warmerdam's contribution episode]({{ '/podcasts/open-source-ml-contributions/' | relative_url }})
+covers scikit-learn ecosystem libraries, and
+[Merve Noyan's NLP portfolio episode]({{ '/podcasts/hugging-face-contributions-and-nlp-portfolio/' | relative_url }})
+covers Hugging Face work.
+[Natalie Kwong's modern data stack episode]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})
+covers Airbyte,
+[Adrian Brudaru's founder episode]({{ '/podcasts/from-data-freelancer-to-startup-open-source-products/' | relative_url }})
+covers DLT, and
+[Elena Samuylova's MLOps startup episode]({{ '/podcasts/building-mlops-startup/' | relative_url }})
+covers Evidently.
 Other episodes cover terminal UI tools, reproducibility tools, and open-source
 NLP tooling.
 
@@ -51,7 +59,7 @@ For hiring evidence, use
 For open-source adoption work, use
 [Open Source and Developer Relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }}).
 
-## Common Definition
+## Reusable Project Work
 
 [Vincent Warmerdam]({{ '/people/vincentwarmerdam/' | relative_url }}) gives a
 practical definition in
@@ -61,7 +69,11 @@ At 9:30, he frames open source through pragmatism and reciprocity. At 13:10 and
 include `whatlies`, `clumper`, `memo`, and scikit-lego.
 
 The important point isn't that every idea becomes a famous package. The author
-solves a real problem first, then makes the solution reusable.
+solves a real problem first, then makes the solution reusable. That connects
+open source to [contributing]({{ '/wiki/contributing/' | relative_url }}),
+[documentation]({{ '/wiki/documentation/' | relative_url }}), and the
+[Open Source Contributor Roadmap]({{ '/roadmaps/open-source-contributor-roadmap/' | relative_url }})
+more than to repository publishing alone.
 
 [Will McGugan]({{ '/people/willmcgugan/' | relative_url }}) gives a similar
 builder-centered definition in
@@ -81,29 +93,41 @@ the main project. That links open source to
 and [software engineering]({{ '/wiki/software-engineering/' | relative_url }}),
 not only to public repositories.
 
-## Guest Differences
+## Contribution, Adoption, and Company Lenses
 
-Guests agree that open source should be useful, but each guest emphasizes a
-different part of the system.
+Guests agree that open source should be useful, but they focus on different
+parts of the system.
 Vincent focuses on small libraries, maintainability, and project boundaries. In
 [Open Source ML Tools]({{ '/podcasts/open-source-ml-tools-strategy-and-business-models/' | relative_url }}),
 he moves from scikit-learn governance at 10:28 to plugin strategy at 14:01. He
 then covers maintainer transition at 18:11, volunteer motivation at 21:51, and
-CI costs at 31:42. His version treats open source as an operating system for
-shared software, not only a publishing format.
+CI costs at 31:42.
+
+His version treats open source as an operating system for shared software, not
+only a publishing format. That view sits close to
+[machine learning tools]({{ '/wiki/machine-learning-tools/' | relative_url }}),
+[tools]({{ '/wiki/tools/' | relative_url }}), and project
+[governance](#governance-and-project-boundaries).
 
 [Merve Noyan]({{ '/people/mervenoyan/' | relative_url }}) focuses on public
 contribution work and portfolio evidence through Hugging Face in
 [Contribute to Hugging Face and Build an NLP Portfolio]({{ '/podcasts/hugging-face-contributions-and-nlp-portfolio/' | relative_url }}).
 At 6:30 and 10:31, contribution sprints and good-first issues make the first
 step less ambiguous. At 17:37 and 51:12, Spaces and Streamlit or Gradio demos
-turn model work into something other people can look at.
+turn model work into something other people can look at. Her version links
+directly to
+[Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
+and [machine learning portfolio projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}).
 
 [Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }}) focuses
 on education, feedback, and company support around projects such as Metaflow in
 [DevRel Role for Machine Learning]({{ '/podcasts/devrel-open-source-machine-learning/' | relative_url }}).
 At 18:03, he frames DevRel as education and documentation around tools. At
 25:17 and 36:27, he connects collaboration, dogfooding, and developer feedback.
+That puts his Metaflow examples next to
+[developer relations]({{ '/wiki/developer-relations/' | relative_url }}),
+[documentation]({{ '/wiki/documentation/' | relative_url }}), and
+[Open Source and Developer Relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }}).
 
 Founders and investors add a different lens. [Elena
 Samuylova]({{ '/people/elenasamuylova/' | relative_url }}) uses Evidently to
@@ -111,7 +135,8 @@ explain open core, cloud, and on-prem adoption in
 [How to Build a Successful ML Startup]({{ '/podcasts/building-mlops-startup/' | relative_url }}).
 Her sequence starts before the repository. She covers customer discovery at
 42:15, Evidently validation at 43:59, and founder work around content and
-community at 46:32.
+community at 46:32. Use [startup]({{ '/wiki/startup/' | relative_url }}) and
+[founder]({{ '/wiki/founder/' | relative_url }}) for that operating lens.
 
 [Sonal Goyal]({{ '/people/sonalgoyal/' | relative_url }}) uses Zingg to explain
 why open source can be both giving back and distribution in
@@ -125,10 +150,14 @@ developer-tool go-to-market in
 [Early-Stage Investing in Open Source Developer Tools]({{ '/podcasts/investing-in-open-source-developer-tools/' | relative_url }}).
 At 39:01, he warns that GitHub stars need interpretation. Active users,
 engagement, and problem validity matter more than vanity metrics.
+For startup distribution, that investor lens pairs open source with
+[startup]({{ '/wiki/startup/' | relative_url }}) work and
+[open-source portfolio evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
+rather than vanity metrics.
 
-The disagreements aren't contradictions because they describe different parts of
-the same system. Public engineering work, community maintenance, company
-incentives, and developer adoption all matter.
+These lenses aren't contradictions because they describe different parts of the
+same system. Public engineering work, community maintenance, company incentives,
+and developer adoption all matter.
 
 ## Data and ML Tool Ecosystems
 
@@ -259,8 +288,12 @@ therefore treats open source as a strong signal, not a universal requirement.
 
 For the focused career page, see
 [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
-and [job search]({{ '/wiki/job-search/' | relative_url }}). For an ordered
-learning path, use the
+and [job search]({{ '/wiki/job-search/' | relative_url }}). For portfolio
+framing, use
+[data engineering portfolio projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
+and
+[machine learning portfolio projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}).
+For an ordered learning path, use the
 [Open Source Contributor Roadmap]({{ '/roadmaps/open-source-contributor-roadmap/' | relative_url }}).
 
 ## Community, Onboarding, and Maintainer Load
@@ -476,6 +509,10 @@ These pages cover adjacent contribution, adoption, tool, and company paths.
   [Documentation]({{ '/wiki/documentation/' | relative_url }}), and
   [Technical Writing]({{ '/wiki/technical-writing/' | relative_url }}) cover
   the working habits behind that evidence.
+  [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
+  and
+  [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
+  cover the project framing around open-source work samples.
 - Data and ML tools:
   [Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }}),
   [Machine Learning Tools]({{ '/wiki/machine-learning-tools/' | relative_url }}),

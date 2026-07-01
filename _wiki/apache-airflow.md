@@ -12,6 +12,9 @@ related:
   - dbt
   - ETL
   - ELT
+  - ETL vs ELT
+  - Batch vs Streaming
+  - Data Engineering Portfolio Projects
   - Modern Data Stack
 ---
 
@@ -24,11 +27,11 @@ historical work. Guests mention Airflow most often around
 [data engineering platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}),
 and the [modern data stack]({{ '/wiki/modern-data-stack/' | relative_url }}).
 
-The common definition is practical. Airflow coordinates work, but it shouldn't
-contain all the work. The ingestion tool or warehouse job should still own the
-transformation logic. So should the Spark job, dbt project, feature pipeline,
-or Python module. Airflow owns the schedule, dependency graph, run state, and
-visibility around those steps.
+Guests usually treat Airflow as coordination infrastructure, not as the place
+where all pipeline logic should live. The ingestion tool or warehouse job
+should still own the transformation logic. So should the Spark job, dbt project,
+feature pipeline, or Python module. Airflow owns the schedule, dependency
+graph, run state, and visibility around those steps.
 
 [Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) gives the
 clearest tool boundary in
@@ -40,12 +43,11 @@ warehouse-side SQL transformations. That makes Airflow adjacent to
 [ELT]({{ '/wiki/elt/' | relative_url }}), and the
 [ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }}) decision.
 
-## Common Definition
+## Scheduling and Dependency State
 
 Airflow is useful when a workflow needs more than a timer. A team usually
-chooses it when several tasks must run in order. It also fits when failures
-need visible logs, retries and reruns matter, or a group needs shared run
-history.
+chooses it when several tasks must run in order. It also fits when failures need
+visible logs, retries and reruns matter, or a group needs shared run history.
 
 The DAG describes the order, and the scheduler decides which task instances can
 run. The metadata database stores DAG runs and task state. It also stores
@@ -59,16 +61,18 @@ platform. Around 31:18-35:57, he explains that the workflow engine tracks
 dependencies and schedules work when data arrives. It can also run on a timer
 and retry after late data or transient failures.
 
-That definition keeps Airflow inside
-[orchestration]({{ '/wiki/orchestration/' | relative_url }}). It also keeps the
-boundary with [data quality and observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
-clear. A green DAG run proves that tasks finished. It doesn't prove the data is
-fresh, complete, valid, or useful.
+In Albertsson's framing, Airflow stays inside
+[orchestration]({{ '/wiki/orchestration/' | relative_url }}). Teams still need
+[data quality and observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
+because a green DAG run proves that tasks finished. It doesn't prove the data
+is fresh, complete, valid, or useful.
 
-## Guest Tradeoffs
+## Platform Cost and Simpler Alternatives
 
-Guests agree that Airflow is a strong reference point for orchestration, but
-they differ on when the operating cost is justified.
+Airflow is the common reference point for orchestration, but the interviews do
+not treat it as the default answer for every scheduled job. Teams should ask
+whether the workflow needs shared run state, dependency control, recovery, and a
+team-facing operating surface.
 
 Natalie uses Airflow as the scheduler around a modern analytics stack. Her
 example separates Airflow from Airbyte and dbt, so the tool choice doesn't
@@ -144,7 +148,7 @@ He describes Airflow jobs that were green while zero records were inserted.
 The run status looked successful, but the data product was wrong. Teams should
 add edge-case checks and data assertions before they trust the result.
 
-That boundary matters for
+Teams need this boundary when they add
 [data observability]({{ '/wiki/data-observability/' | relative_url }}) and
 [DataOps tools]({{ '/guides/dataops-tools/' | relative_url }}), because the
 orchestrator can preserve task state and logs. Observability tells the team
@@ -163,15 +167,17 @@ Albertsson connects this to batch processing and recovery in
 [DataOps 101]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}).
 Around 45:11, he contrasts batch and streaming through explicit dependency
 management. Batch workflows are easier to rerun when the team can name the
-inputs and dependencies. That makes Airflow a natural fit for batch pipelines
-with backfills.
+inputs and dependencies. Airflow fits batch pipelines with backfills especially
+well, while [Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }})
+covers the broader processing tradeoff.
 
 Machine learning pipelines use the same structure. In
 [Building Production ML Platforms at 31:15]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}),
 [Simon Stiebellehner]({{ '/people/simonstiebellehner/' | relative_url }})
 separates batch inference from online serving. Batch inference often uses a
 workflow orchestrator such as Airflow or SageMaker Pipelines to load data,
-preprocess it, run the model, and write predictions. That places Airflow near
+preprocess it, run the model, and write predictions. Teams using Airflow this
+way also connect it to
 [MLOps]({{ '/wiki/mlops/' | relative_url }}),
 [ML platforms]({{ '/wiki/ml-platforms/' | relative_url }}), and
 [machine learning infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }}).

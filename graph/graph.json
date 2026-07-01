@@ -11,7 +11,7 @@
     "persons": 183,
     "topics": 92,
     "nodes": 703,
-    "links": 10880
+    "links": 10896
   },
   "nodes": [
     {
@@ -9315,9 +9315,21 @@
     },
     {
       "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "article:comparison:graph-rag-vs-vector-rag",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
       "target": "article:comparison:vector-database-vs-search-engine",
       "kind": "article-link",
       "weight": 1
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "article:comparison:vector-database-vs-search-engine",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "article:comparison:knowledge-graph-vs-vector-search",
@@ -9399,6 +9411,12 @@
     },
     {
       "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "wiki:agent-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
       "target": "wiki:embeddings",
       "kind": "article-link",
       "weight": 1
@@ -9423,9 +9441,33 @@
     },
     {
       "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
       "target": "wiki:production-search-evaluation",
       "kind": "article-link",
       "weight": 1
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "wiki:production-search-evaluation",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "wiki:rag",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "wiki:rag",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "article:comparison:knowledge-graph-vs-vector-search",
@@ -37707,9 +37749,21 @@
     },
     {
       "source": "wiki:apache-airflow",
+      "target": "article:comparison:batch-vs-streaming",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:apache-airflow",
       "target": "article:comparison:etl-vs-elt",
       "kind": "wiki-link",
       "weight": 1
+    },
+    {
+      "source": "wiki:apache-airflow",
+      "target": "article:comparison:etl-vs-elt",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:apache-airflow",
@@ -37848,6 +37902,12 @@
       "target": "wiki:data-engineering-portfolio-projects",
       "kind": "wiki-link",
       "weight": 1
+    },
+    {
+      "source": "wiki:apache-airflow",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:apache-airflow",
@@ -66417,6 +66477,12 @@
     },
     {
       "source": "wiki:recommendation-systems",
+      "target": "person:annahannemann",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:recommendation-systems",
       "target": "person:atitaarora",
       "kind": "wiki-link",
       "weight": 1
@@ -66460,6 +66526,12 @@
     {
       "source": "wiki:recommendation-systems",
       "target": "podcast:big-data-engineer-vs-data-scientist",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:recommendation-systems",
+      "target": "podcast:building-data-products-product-owner-vs-product-manager",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -66525,6 +66597,12 @@
     },
     {
       "source": "wiki:recommendation-systems",
+      "target": "wiki:data-pipelines",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:recommendation-systems",
       "target": "wiki:data-product-management",
       "kind": "wiki-link",
       "weight": 1
@@ -66534,6 +66612,12 @@
       "target": "wiki:data-products",
       "kind": "wiki-link",
       "weight": 1
+    },
+    {
+      "source": "wiki:recommendation-systems",
+      "target": "wiki:data-products",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:recommendation-systems",
@@ -66558,6 +66642,12 @@
       "target": "wiki:evaluation",
       "kind": "wiki-link",
       "weight": 1
+    },
+    {
+      "source": "wiki:recommendation-systems",
+      "target": "wiki:evaluation",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:recommendation-systems",
@@ -66615,6 +66705,12 @@
     },
     {
       "source": "wiki:recommendation-systems",
+      "target": "wiki:model-monitoring",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:recommendation-systems",
       "target": "wiki:model-registry",
       "kind": "wiki-link",
       "weight": 1
@@ -66627,9 +66723,9 @@
     },
     {
       "source": "wiki:recommendation-systems",
-      "target": "wiki:production",
-      "kind": "wiki-link",
-      "weight": 1
+      "target": "wiki:product-analytics",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:recommendation-systems",

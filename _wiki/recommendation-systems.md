@@ -9,18 +9,36 @@ related:
   - Production Search Evaluation
   - Vector Databases
   - Embeddings
+  - Data Pipelines
   - Data Engineering Platforms
   - MLOps
+  - Model Monitoring
+  - Evaluation
+  - Product Analytics
+  - Data Products
 ---
 
 Recommendation systems choose what to show to a person in a product context.
-The choice may be an item, action, content card, or next step. In
-DataTalks.Club discussions, the topic sits near
-[machine learning system design]({{ '/wiki/machine-learning-system-design/' | relative_url }}),
-[search]({{ '/wiki/search/' | relative_url }}), and
-[embeddings]({{ '/wiki/embeddings/' | relative_url }}). It also connects to
+The recommendation may be an item or content card. It may also be an action or
+next step.
+
+In DataTalks.Club discussions, the topic uses
+[machine learning system design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
+vocabulary. It shares retrieval and ranking problems with
+[search]({{ '/wiki/search/' | relative_url }}). It also borrows measurement
+discipline from
+[production search evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }}).
+
+Modern recommenders also use
+[embeddings]({{ '/wiki/embeddings/' | relative_url }}) and
+[vector databases]({{ '/wiki/vector-databases/' | relative_url }}) when a team
+retrieves similar items before ranking them. Teams need
+[data pipelines]({{ '/wiki/data-pipelines/' | relative_url }}) so the model can
+learn from behavior. They use
 [A/B testing]({{ '/wiki/a-b-testing/' | relative_url }}) and
-[MLOps]({{ '/wiki/mlops/' | relative_url }}).
+[product analytics]({{ '/wiki/product-analytics/' | relative_url }}) to prove
+that the ranked output helped. [MLOps]({{ '/wiki/mlops/' | relative_url }})
+covers the release and retraining path.
 
 Guests treat a recommender as a system that needs data pipelines, candidate
 generation, and ranking. It also needs product constraints, evaluation, and
@@ -42,16 +60,14 @@ the healthcare version, where recommendations are personalized interventions
 that need experimentation and safety review
 ([AI in Healthcare and Digital Therapeutics at 35:39]({{ '/podcasts/ai-in-healthcare-and-digital-therapeutics/' | relative_url }})).
 
-## Common Definition
+## Ranked Product Decisions
 
-Across these episodes, a recommendation system turns behavioral data into
-ranked suggestions. Item data and context data also matter. The system may
-suggest a movie, product, brand, or article.
-
-It may also suggest an exercise,
-route, or next action. Teams need to know what they can recommend and whom they
-recommend to. They also need freshness rules and an outcome that proves the
-recommendation helped.
+A recommendation system turns behavioral data, item data, and context into a
+ranked product decision. The output may be a movie, product, brand, or article.
+In other domains, it may be an exercise, route, or next action. Teams need to
+know what they can recommend and whom they recommend to. They also need to know
+which signals must stay fresh and which outcome proves that the recommendation
+helped.
 
 Roksolana gives the data-platform definition. In
 [Big Data Engineer vs Data Scientist at 19:18]({{ '/podcasts/big-data-engineer-vs-data-scientist/' | relative_url }}),
@@ -80,9 +96,11 @@ Around
 he uses personalization to show why behavioral data, content, and user context
 usually meet in the ranking step.
 
-## Guest Disagreements
+## System Boundaries and Product Intent
 
-Guests differ on which part of the system they stress.
+The guests differ less on the definition than on the boundary they start from.
+Some start from data movement, some from retrieval and ranking, and some from
+the product outcome the recommendation should change.
 
 [Roksolana Diachuk]({{ '/people/roksolanadiachuk/' | relative_url }}) starts
 from the data engineering boundary. Her recommender example depends on events and
@@ -95,6 +113,10 @@ ranking architecture. He treats recommender systems and personalized search as
 neighboring problems. Both need candidate generation, ranking, contextual
 signals, and business metrics
 ([Building Search Systems at 12:45 and 21:55]({{ '/podcasts/building-production-search-systems/' | relative_url }})).
+That view ties recommender design to
+[Search]({{ '/wiki/search/' | relative_url }}),
+[Embeddings]({{ '/wiki/embeddings/' | relative_url }}), and
+[Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }}).
 
 [Atita Arora]({{ '/people/atitaarora/' | relative_url }}) starts from modern
 retrieval infrastructure. In
@@ -104,11 +126,13 @@ she discusses vector databases for session-based recommendations. At
 she contrasts that with collaborative filtering. She describes recommendations
 that update from clicks during the current session.
 
-[Abouzar Abbaspour]({{ '/people/abouzarabbaspour/' | relative_url }}) and
-[Stefan Gudmundsson]({{ '/people/stefangudmundsson/' | relative_url }}) center
-product intent. Abouzar's theme-park system recommended the next best move for
-each group. The product goal was to reduce waiting time and redistribute
-visitors
+[Abouzar Abbaspour]({{ '/people/abouzarabbaspour/' | relative_url }}) centers
+product intent in a theme-park setting, while
+[Stefan Gudmundsson]({{ '/people/stefangudmundsson/' | relative_url }}) does the
+same in healthcare. Abouzar's theme-park system recommended the next best move
+for each group. The product goal was to reduce waiting time and redistribute
+visitors. The system joined prediction with an operational
+[data product]({{ '/wiki/data-products/' | relative_url }})
 ([Theme Park Crowd Modeling at 12:59]({{ '/podcasts/theme-park-crowd-modeling-to-tesla-full-stack-data-engineering/' | relative_url }})).
 
 Stefan's healthcare example recommends content and exercises. It also recommends
@@ -118,9 +142,10 @@ maximizing similarity to past preferences
 
 ## Candidate Generation, Ranking, and Retrieval
 
-Recommendation systems share much of their structure with production search. A
-team needs to find plausible items quickly. It then ranks them using signals
-that match the product decision.
+Recommendation systems share much of their structure with
+[production search]({{ '/wiki/search/' | relative_url }}). A team needs to find
+plausible items quickly. It then ranks them using signals that match the product
+decision.
 [Daniel Svonava]({{ '/people/danielsvonava/' | relative_url }})'s
 candidate-generation and ranking split at
 [12:45]({{ '/podcasts/building-production-search-systems/' | relative_url }})
@@ -234,6 +259,9 @@ model, then used A/B tests and saw a 2-3 percent transaction lift from
 recommendations. The same story also included training and data gathering. The
 team also handled production hosting and a retraining job, so the result wasn't
 only a model comparison.
+At that point, recommendation systems become
+[machine learning system design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
+problems rather than only modeling problems.
 
 Stefan gives the staged-experimentation version. In
 [AI in Healthcare and Digital Therapeutics at 39:57]({{ '/podcasts/ai-in-healthcare-and-digital-therapeutics/' | relative_url }}),
@@ -251,7 +279,8 @@ he argues that teams get more support when recommender or search metrics connect
 to business performance. At
 [1:03:50]({{ '/podcasts/building-production-search-systems/' | relative_url }}),
 he adds offline tests, A/B tests, and engineer-facing metrics for faster
-iteration. Use [metrics]({{ '/wiki/metrics/' | relative_url }}),
+iteration. Use [evaluation]({{ '/wiki/evaluation/' | relative_url }}),
+[metrics]({{ '/wiki/metrics/' | relative_url }}),
 [experimentation and causal inference]({{ '/wiki/experimentation-and-causal-inference/' | relative_url }}),
 and [A/B testing]({{ '/wiki/a-b-testing/' | relative_url }}) for the surrounding
 measurement discipline.
@@ -312,6 +341,19 @@ fit into standard monitoring tools. At
 she mentions personalization and loyalty programs as common retail problems
 across brands.
 
+[Anna Hannemann]({{ '/people/annahannemann/' | relative_url }}) adds the product
+ownership version in
+[Building Data Products at Scale at 22:08]({{ '/podcasts/building-data-products-product-owner-vs-product-manager/' | relative_url }}).
+Her METRO recommender discussion uses API-first design and scaling as the
+operating frame. At
+[30:01]({{ '/podcasts/building-data-products-product-owner-vs-product-manager/' | relative_url }}),
+she connects production ML hiring to data scientists, machine learning
+engineers, and MLOps. At
+[34:53]({{ '/podcasts/building-data-products-product-owner-vs-product-manager/' | relative_url }}),
+she discusses collaborative filtering and Word2Vec variants. That makes the
+recommender a [data product]({{ '/wiki/data-products/' | relative_url }}) with
+an API, owners, metrics, and production staffing.
+
 Teams may start a recommender as a notebook or a small batch job. They may also
 start with a search-ranking tweak. They turn it into shared infrastructure when
 several product surfaces need the same events and features.
@@ -320,7 +362,7 @@ When teams need shared models and experiments, the recommender connects back to
 [MLOps]({{ '/wiki/mlops/' | relative_url }}) and
 [machine learning infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }}).
 It also connects to [model registry]({{ '/wiki/model-registry/' | relative_url }})
-and [production]({{ '/wiki/production/' | relative_url }}).
+and [model monitoring]({{ '/wiki/model-monitoring/' | relative_url }}).
 
 ## Related Pages
 
@@ -337,3 +379,6 @@ details.
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
 - [MLOps]({{ '/wiki/mlops/' | relative_url }})
 - [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }})
+- [Evaluation]({{ '/wiki/evaluation/' | relative_url }})
+- [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }})
+- [Data Products]({{ '/wiki/data-products/' | relative_url }})

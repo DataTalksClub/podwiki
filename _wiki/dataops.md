@@ -30,7 +30,7 @@ boundary matters most when a model incident may have started in data delivery.
 See
 [MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }}) and
 [DataOps vs Data Engineering]({{ '/comparisons/dataops-vs-data-engineering/' | relative_url }})
-for the full comparisons.
+when the boundary question is ownership, not tool choice.
 
 [Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }}) gives a
 practical definition in
@@ -42,12 +42,11 @@ adds the platform version in
 DataOps aligns people and platform design so data teams can scale without
 losing reproducibility.
 
-## Common Definition
+## Repeatable Data Delivery
 
-Across the DataTalks.Club podcast discussions, DataOps means making data
-delivery repeatable and recoverable. It also makes delivery observable. Teams
-put pipeline code under review. They do the same for transformation logic and
-infrastructure changes.
+DataOps makes data delivery repeatable and recoverable. Teams do that by
+reviewing pipeline code, transformation logic, orchestration definitions, and
+infrastructure changes before release.
 
 Teams test those changes before release. Then they deploy through CI/CD and
 monitor the resulting outputs. Those outputs include tables and dashboards.
@@ -55,7 +54,7 @@ They may also include features or data products.
 
 Bergh connects DataOps to version control and tests in
 [Mastering DataOps at 33:47]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }}).
-CI/CD belongs in the same delivery path.
+That path connects directly to [CI/CD]({{ '/wiki/ci-cd/' | relative_url }}).
 He adds automated playbooks and runbook thinking at
 [34:37 in the same episode]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }}).
 
@@ -74,9 +73,10 @@ At
 [16:38 in that episode]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }}),
 she names freshness, volume, and distribution as core observability signals.
 Schema and lineage explain where the failure came from. Ownership, SLAs, and
-runbooks turn those signals into operational recovery work.
+runbooks connect [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
+to operational recovery work.
 
-## Points of Disagreement
+## Platform, Delivery, and GitOps Entry Points
 
 Guests mostly agree on the reliability goal, but they start from different
 failure modes.
@@ -114,6 +114,9 @@ habits first. A growing platform team may start with workflow engines and
 self-service conventions, while an infrastructure-heavy team may need GitOps
 for data access and environments. Across all three versions, teams still check
 whether data changes can be reviewed and tested, then observed and recovered.
+For stack choices behind those entry points, see
+[DataOps Tools]({{ '/guides/dataops-tools/' | relative_url }}) and
+[DataOps Platforms]({{ '/wiki/dataops-platforms/' | relative_url }}).
 
 ## Pipeline Delivery and CI/CD
 
@@ -174,6 +177,8 @@ paths leaves teams reacting to incidents one by one.
 For the monitoring layer, see
 [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 and [Data Observability]({{ '/wiki/data-observability/' | relative_url }}).
+For the tooling layer that connects checks, alerts, and runbooks, see
+[DataOps Tools]({{ '/guides/dataops-tools/' | relative_url }}).
 
 ## Platform and Self-Service
 
@@ -195,11 +200,11 @@ An Airflow cluster alone doesn't create a platform. Teams also need naming
 conventions and sequencing rules. Schema contracts, onboarding habits, and
 playbooks make the supported path clearer.
 
-Use [DataOps Platforms]({{ '/wiki/dataops-platforms/' | relative_url }}) when
-the question is how these practices become shared infrastructure. Use
+[DataOps Platforms]({{ '/wiki/dataops-platforms/' | relative_url }}) covers the
+shared infrastructure version of these practices.
 [Self-Service Data Platforms]({{ '/wiki/self-service-data-platforms/' | relative_url }})
-when the main question is how analysts and data scientists get a safer path.
-Software engineers and domain teams may need that path too.
+covers the safer path for analysts, data scientists, software engineers, and
+domain teams.
 
 ## DataOps vs Data Engineering
 
@@ -208,9 +213,9 @@ covers the full boundary. Data engineering builds the data path, and DataOps
 makes changes to that path safer to review and run. It also makes those
 changes easier to observe and recover.
 
-Kwong's modern-stack discussion shows the engineering side. She covers ETL,
-ELT, and dbt-style warehouse modeling alongside Airflow orchestration. CDC and
-schema evolution appear in the same discussion:
+Kwong's modern-stack discussion shows the [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }})
+side. She covers ETL, ELT, and dbt-style warehouse modeling alongside Airflow
+orchestration. CDC and schema evolution appear in the same discussion:
 [ETL vs ELT and the Modern Data Stack at 3:46-12:39 and 30:59-48:58]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}).
 Those choices define how data moves, where business logic lives, and how
 consumers receive the output.
@@ -251,14 +256,12 @@ a missing label.
 DataOps responders investigate data delivery. MLOps responders investigate the
 model lifecycle.
 
-Use
-[MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }}) when
-the question is ownership during production ML incidents.
+The ownership version of that production ML boundary belongs in
+[MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }}).
 
 ## Related Pages
 
-These pages cover the adjacent practices, platform topics, and comparison
-boundaries:
+Adjacent practices, platform topics, and comparison boundaries:
 
 - [DataOps Platforms]({{ '/wiki/dataops-platforms/' | relative_url }})
 - [DataOps Tools]({{ '/guides/dataops-tools/' | relative_url }})
