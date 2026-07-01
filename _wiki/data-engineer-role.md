@@ -62,6 +62,10 @@ operations around tracking and reverse ETL. This connects the role to
 [analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }}),
 [DataOps]({{ '/wiki/dataops/' | relative_url }}), and
 [data engineering platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}).
+Use
+[DataOps vs Data Engineering]({{ '/comparisons/dataops-vs-data-engineering/' | relative_url }})
+when separating the role from the operating practices a team applies to
+pipelines.
 
 In the scale-up setting,
 [Mehdi OUAZZA]({{ '/people/mehdiouazza/' | relative_url }}) describes data
@@ -214,6 +218,15 @@ because employers can look at the pipeline work.
 
 ## Boundaries with Nearby Roles
 
+The boundary with [DataOps]({{ '/wiki/dataops/' | relative_url }}) isn't a job
+title split. Data engineers build and maintain pipelines, datasets,
+orchestration, and platforms.
+
+DataOps names the review and testing practices used to operate that work
+reliably. It also covers deployment, observability, and recovery. The full
+comparison lives in
+[DataOps vs Data Engineering]({{ '/comparisons/dataops-vs-data-engineering/' | relative_url }}).
+
 The boundary with a
 [data scientist]({{ '/wiki/data-scientist-role/' | relative_url }}) is about
 ownership. Data engineers own reliable data movement, storage, transformation,
@@ -266,4 +279,5 @@ Use these pages for adjacent role, tooling, platform, and transition context.
 - [Data Engineer vs Data Scientist]({{ '/wiki/data-engineer-vs-data-scientist/' | relative_url }})
 - [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})
+- [DataOps vs Data Engineering]({{ '/comparisons/dataops-vs-data-engineering/' | relative_url }})
 - [DevOps to Data Engineering]({{ '/wiki/devops-to-data-engineering/' | relative_url }})

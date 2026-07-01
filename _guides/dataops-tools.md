@@ -28,15 +28,17 @@ and production analytics. Teams use DataOps tools to shorten the distance
 from change review to tests, deployments, alerts, and fixes.
 
 For the concept layer, start with [DataOps]({{ '/wiki/dataops/' | relative_url }})
-and [MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }}).
+and
+[DataOps vs Data Engineering]({{ '/comparisons/dataops-vs-data-engineering/' | relative_url }})
+when the question is operating practice versus engineering work. Use
+[MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }})
+when the boundary is model lifecycle versus data delivery.
+
 Use [DataOps Platforms]({{ '/wiki/dataops-platforms/' | relative_url }}) when
 the tool categories need to become a shared platform layer.
 Use [Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }})
 for the broader tool map across ingestion, orchestration, storage, and
 transformation. That broader map also covers activation and analytics.
-Use [DataOps]({{ '/wiki/dataops/' | relative_url }})
-when you need the boundary between the operating practice and the engineering
-role.
 
 ## Core Coverage
 

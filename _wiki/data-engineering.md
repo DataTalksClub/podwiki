@@ -35,7 +35,9 @@ platform work, use
 [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}).
 For pipeline operating practices, use
 [DataOps]({{ '/wiki/dataops/' | relative_url }}) and
-[MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }}). For
+[DataOps vs Data Engineering]({{ '/comparisons/dataops-vs-data-engineering/' | relative_url }}).
+Use [MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }})
+when the incident boundary is between model lifecycle and data delivery. For
 warehouse-side modeling and metric layers, use
 [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }}).
 
@@ -92,6 +94,9 @@ The operating thread links data engineering to platform work, quality, and
 cost. [Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }})
 frames DataOps as tests, CI/CD, observability, and recovery for data teams
 ([DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }})).
+Use
+[DataOps vs Data Engineering]({{ '/comparisons/dataops-vs-data-engineering/' | relative_url }})
+for that operating boundary.
 [Slawomir Tulski]({{ '/people/slawomirtulski/' | relative_url }}) adds the
 2026 career split between platform data engineers, product data engineers, and
 AI-aware specialists
@@ -239,8 +244,9 @@ ownership matter too
 
 [Christopher Bergh's]({{ '/people/christopherbergh/' | relative_url }})
 DataOps episodes turn those signals into operating practice. Data engineering
-teams need tests and CI/CD. They also need observability and recovery
-behavior. That makes DataOps part of the discipline
+teams need tests, CI/CD, observability, and recovery behavior.
+[DataOps vs Data Engineering]({{ '/comparisons/dataops-vs-data-engineering/' | relative_url }})
+separates that operating layer from the broader engineering discipline
 ([DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }}),
 15:52-18:46 and 30:55-54:05 and
 [DataOps]({{ '/wiki/dataops/' | relative_url }})).
@@ -361,6 +367,7 @@ Use these pages for adjacent topics and deeper implementation detail.
 - [Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }})
 - [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})
+- [DataOps vs Data Engineering]({{ '/comparisons/dataops-vs-data-engineering/' | relative_url }})
 - [MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})

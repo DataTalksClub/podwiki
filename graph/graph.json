@@ -2,16 +2,16 @@
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
     "wikis": 180,
-    "articles": 41,
+    "articles": 42,
     "guides": 19,
-    "comparisons": 12,
+    "comparisons": 13,
     "roadmaps": 9,
     "how_tos": 1,
     "podcasts": 202,
     "persons": 438,
     "topics": 145,
-    "nodes": 1006,
-    "links": 10329
+    "nodes": 1007,
+    "links": 10372
   },
   "nodes": [
     {
@@ -211,6 +211,17 @@
       "count": 1,
       "search": "DataOps Tools: What Your Stack Should Cover A podcast backed guide to DataOps tool categories for version control, CI/CD, orchestration, testing, observability, lineage, deployment, incident response, and lightweight starts.",
       "keyword": "dataops tools"
+    },
+    {
+      "id": "article:comparison:dataops-vs-data-engineering",
+      "type": "article",
+      "collection": "comparison",
+      "label": "DataOps vs Data Engineering",
+      "title": "DataOps vs Data Engineering",
+      "url": "/comparisons/dataops-vs-data-engineering/",
+      "count": 1,
+      "search": "DataOps vs Data Engineering Podcast grounded comparison of DataOps and data engineering: what each owns, where they overlap, and how teams should separate pipeline building from pipeline operating discipline.",
+      "keyword": "dataops vs data engineering"
     },
     {
       "id": "article:comparison:delta-lake-vs-apache-iceberg",
@@ -10851,6 +10862,234 @@
       "weight": 2
     },
     {
+      "source": "article:comparison:dataops-vs-data-engineering",
+      "target": "article:comparison:mlops-vs-dataops",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:dataops-vs-data-engineering",
+      "target": "article:guide:dataops-tools",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:dataops-vs-data-engineering",
+      "target": "person:barrmoses",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:dataops-vs-data-engineering",
+      "target": "person:christopherbergh",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:dataops-vs-data-engineering",
+      "target": "person:larsalbertsson",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:dataops-vs-data-engineering",
+      "target": "person:mehdiouazza",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:dataops-vs-data-engineering",
+      "target": "person:nataliekwong",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:dataops-vs-data-engineering",
+      "target": "person:santonatuli",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:dataops-vs-data-engineering",
+      "target": "person:slawomirtulski",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:dataops-vs-data-engineering",
+      "target": "person:tomaszhinc",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:dataops-vs-data-engineering",
+      "target": "podcast:data-engineering-tools-modern-data-stack",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:dataops-vs-data-engineering",
+      "target": "podcast:data-quality-data-observability-data-reliability",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:dataops-vs-data-engineering",
+      "target": "podcast:dataops-and-gitops-best-practices-for-data-teams",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:dataops-vs-data-engineering",
+      "target": "podcast:dataops-automation-and-reliable-data-pipelines",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:comparison:dataops-vs-data-engineering",
+      "target": "podcast:dataops-for-data-engineering",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:dataops-vs-data-engineering",
+      "target": "podcast:dataops-principles-and-scalable-data-platforms",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:dataops-vs-data-engineering",
+      "target": "podcast:modern-data-pipelines-orchestration-ingestion-modeling",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:dataops-vs-data-engineering",
+      "target": "podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:dataops-vs-data-engineering",
+      "target": "podcast:scaling-data-engineering-teams-self-service-platforms",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:dataops-vs-data-engineering",
+      "target": "wiki:ci-cd",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:dataops-vs-data-engineering",
+      "target": "wiki:ci-cd",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:dataops-vs-data-engineering",
+      "target": "wiki:data-engineer-role",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:dataops-vs-data-engineering",
+      "target": "wiki:data-engineer-role",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:dataops-vs-data-engineering",
+      "target": "wiki:data-engineering",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:dataops-vs-data-engineering",
+      "target": "wiki:data-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:dataops-vs-data-engineering",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:dataops-vs-data-engineering",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:dataops-vs-data-engineering",
+      "target": "wiki:data-engineering-tools",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:dataops-vs-data-engineering",
+      "target": "wiki:data-engineering-tools",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:dataops-vs-data-engineering",
+      "target": "wiki:data-observability",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:dataops-vs-data-engineering",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:dataops-vs-data-engineering",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:dataops-vs-data-engineering",
+      "target": "wiki:dataops",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:dataops-vs-data-engineering",
+      "target": "wiki:dataops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:dataops-vs-data-engineering",
+      "target": "wiki:dataops-platforms",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:dataops-vs-data-engineering",
+      "target": "wiki:dataops-platforms",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:dataops-vs-data-engineering",
+      "target": "wiki:orchestration",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:dataops-vs-data-engineering",
+      "target": "wiki:orchestration",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
       "source": "article:comparison:delta-lake-vs-apache-iceberg",
       "target": "person:adrianbrudaru",
       "kind": "article-link",
@@ -11395,6 +11634,12 @@
       "target": "wiki:software-engineering",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "article:comparison:mlops-vs-dataops",
+      "target": "article:comparison:dataops-vs-data-engineering",
+      "kind": "article-link",
+      "weight": 4
     },
     {
       "source": "article:comparison:mlops-vs-dataops",
@@ -14176,6 +14421,12 @@
     },
     {
       "source": "article:guide:dataops-tools",
+      "target": "article:comparison:dataops-vs-data-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:guide:dataops-tools",
       "target": "article:comparison:mlops-vs-dataops",
       "kind": "article-link",
       "weight": 2
@@ -14376,7 +14627,7 @@
       "source": "article:guide:dataops-tools",
       "target": "wiki:dataops",
       "kind": "article-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "article:guide:dataops-tools",
@@ -43204,6 +43455,12 @@
     },
     {
       "source": "wiki:data-engineer-role",
+      "target": "article:comparison:dataops-vs-data-engineering",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:data-engineer-role",
       "target": "article:roadmap:data-scientist-to-data-engineer",
       "kind": "wiki-link",
       "weight": 2
@@ -43398,7 +43655,7 @@
       "source": "wiki:data-engineer-role",
       "target": "wiki:dataops",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 10
     },
     {
       "source": "wiki:data-engineer-role",
@@ -43729,6 +43986,12 @@
       "target": "wiki:software-engineering",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:data-engineering",
+      "target": "article:comparison:dataops-vs-data-engineering",
+      "kind": "wiki-link",
+      "weight": 8
     },
     {
       "source": "wiki:data-engineering",
@@ -49723,6 +49986,12 @@
       "target": "wiki:product-analytics",
       "kind": "wiki-link",
       "weight": 4
+    },
+    {
+      "source": "wiki:dataops",
+      "target": "article:comparison:dataops-vs-data-engineering",
+      "kind": "wiki-link",
+      "weight": 6
     },
     {
       "source": "wiki:dataops",

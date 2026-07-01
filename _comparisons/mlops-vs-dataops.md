@@ -22,6 +22,10 @@ governance, and model ownership too.
 Use [DataOps]({{ '/wiki/dataops/' | relative_url }}) for data delivery. It
 covers ingestion and transformations, plus analytics workflows, tests, and
 CI/CD. It also covers observability, orchestration, and recovery.
+Use
+[DataOps vs Data Engineering]({{ '/comparisons/dataops-vs-data-engineering/' | relative_url }})
+when the question is the boundary between the data engineering role and the
+operating practice around data pipelines.
 
 Production models depend on production data, so teams need the boundary during
 incidents. A model alert may come from the model artifact or the serving path.
@@ -213,3 +217,4 @@ These pages cover the adjacent concepts behind the comparison:
 - [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [Production]({{ '/wiki/production/' | relative_url }})
+- [DataOps vs Data Engineering]({{ '/comparisons/dataops-vs-data-engineering/' | relative_url }})

@@ -250,8 +250,7 @@ Existing pages:
 - `_comparisons/data-analyst-vs-analytics-engineer.md`
 - `_comparisons/data-product-manager-vs-product-manager.md`
 - `_comparisons/data-product-owner-vs-data-product-manager.md`
-- DataOps vs data engineering still needs either a real comparison page or a
-  clear canonical wiki owner.
+- `_comparisons/dataops-vs-data-engineering.md`
 - `_comparisons/delta-lake-vs-apache-iceberg.md`
 - `_comparisons/etl-vs-elt.md`
 - `_comparisons/knowledge-graph-vs-vector-search.md` redirects to the canonical

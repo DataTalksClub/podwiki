@@ -40,7 +40,11 @@ Use [MLOps]({{ '/wiki/mlops/' | relative_url }}) for production machine
 learning systems. Use
 [MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }}) when the
 question is about the boundary between model lifecycle work and data delivery
-work. Use [DataOps Platforms]({{ '/wiki/dataops-platforms/' | relative_url }})
+work. Use
+[DataOps vs Data Engineering]({{ '/comparisons/dataops-vs-data-engineering/' | relative_url }})
+when the question is whether the team needs pipeline-building ownership or a
+stronger operating discipline. Use
+[DataOps Platforms]({{ '/wiki/dataops-platforms/' | relative_url }})
 when the question is how DataOps becomes shared platform infrastructure.
 
 ## Operating Scope
@@ -139,6 +143,9 @@ able to observe its outputs and fix it without reverse-engineering the whole
 pipeline.
 
 ## DataOps vs Data Engineering
+
+[DataOps vs Data Engineering]({{ '/comparisons/dataops-vs-data-engineering/' | relative_url }})
+covers the full boundary, while this page gives the reference definition.
 
 [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}) builds the
 data path from source systems to consumers. [DataOps]({{ '/wiki/dataops/' | relative_url }})
@@ -262,3 +269,4 @@ Use these pages for adjacent DataOps topics and the MLOps boundary:
 - [CI/CD]({{ '/wiki/ci-cd/' | relative_url }})
 - [MLOps]({{ '/wiki/mlops/' | relative_url }})
 - [MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }})
+- [DataOps vs Data Engineering]({{ '/comparisons/dataops-vs-data-engineering/' | relative_url }})
