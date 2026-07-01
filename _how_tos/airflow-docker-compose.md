@@ -2,7 +2,7 @@
 layout: article
 title: "Airflow Docker Compose: Local Setup for Data Pipeline Projects"
 keyword: "airflow docker compose"
-summary: "A podcast-backed how-to for using Docker Compose to run Airflow locally for data pipeline projects, with DAG structure, mounted code, checks, logs, and limits."
+summary: "A practical setup for running Airflow locally with Docker Compose for data pipeline projects, with DAG structure, mounted code, checks, logs, and limits."
 search_intent: "People searching for airflow docker compose usually want a practical local setup for learning or portfolio data pipelines, plus guidance on what belongs in Airflow versus Python, SQL, dbt, or other pipeline code."
 related_wiki:
   - Orchestration
@@ -20,18 +20,18 @@ a laptop. It can also start the metadata database, DAG folder, and logs. That
 makes the setup useful for learning, DAG development, teaching, and portfolio
 review.
 
-Use this how-to for the local setup workflow, and use
+The local setup workflow sits under
 [Orchestration and Airflow]({{ '/wiki/orchestration/' | relative_url }}) for
-the concept. For the broader pipeline build sequence, use
+the concept. The broader pipeline build sequence lives in
 [How to Build Data Pipelines]({{ '/how-tos/how-to-build-data-pipelines/' | relative_url }})
 and [End-to-End Data Pipeline Project]({{ '/wiki/end-to-end-data-pipeline-project/' | relative_url }}).
 
-[Daniel Egbo]({{ '/people/danielegbo/' | relative_url }}) gives the strongest
-archive example in
+[Daniel Egbo]({{ '/people/danielegbo/' | relative_url }}) gives concrete
+Airflow-in-Compose evidence in
 [From Radio Astronomy to Machine Learning and Data Engineering]({{ '/podcasts/from-radio-astronomy-to-machine-learning-and-data-engineering/' | relative_url }}).
-Around 42:48-46:52, he discusses course projects with Airflow. The local
-services include MinIO, Spark, and MySQL. He also covers a warehouse path and
-Compose setup. He covers environment variables and the Airflow web server too.
+At 42:48-46:52, he discusses course projects with Airflow. The local services
+include MinIO, Spark, and MySQL. He also covers a warehouse path, Compose setup,
+environment variables, and the Airflow web server.
 
 [Gloria Quiceno]({{ '/people/gloriaquiceno/' | relative_url }}) adds the
 reproducibility reason. At 21:25 in
@@ -71,6 +71,12 @@ learning and exploration. Use the
 for the exact file and version-specific commands. Don't treat the official
 quick-start Compose file as a production deployment because it doesn't provide
 production security guarantees.
+
+Daniel's local Airflow project shows why these runtime pieces matter in a
+learning setup. His Compose stack included Airflow plus local services such as
+MinIO, Spark, and MySQL. The setup also exposed environment variables and the
+Airflow web server
+([42:48-46:52]({{ '/podcasts/from-radio-astronomy-to-machine-learning-and-data-engineering/' | relative_url }})).
 
 For a portfolio project, keep the setup visible and boring:
 
@@ -211,7 +217,7 @@ Move beyond local Compose when the project needs operational controls:
 
 ## Airflow Docker Compose Setup Checklist
 
-Use this checklist for a local project:
+The local project checklist is:
 
 1. Name the data product, consumer, and refresh cadence.
 2. Keep one DAG focused on one pipeline.

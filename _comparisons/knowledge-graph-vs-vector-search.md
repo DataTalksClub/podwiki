@@ -264,15 +264,14 @@ For vector search, check retrieval, ranking, and citations before answer
 quality. For a graph, check entity extraction, relation correctness, and
 traversal behavior before answer quality and provenance.
 
-Use
 [Production Search Evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }})
-for retrieval and ranking checks. Use
+covers retrieval and ranking checks.
 [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }})
-when the retrieved context feeds an LLM.
+covers systems where retrieved context feeds an LLM.
 
 ## Related Pages
 
-Use these pages for the surrounding search, RAG, and evaluation topics:
+The comparison connects to these search, RAG, and evaluation topics:
 
 - [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
 - [Graph RAG vs Vector RAG]({{ '/comparisons/graph-rag-vs-vector-rag/' | relative_url }})

@@ -30,19 +30,20 @@ gives the graph side in
 [Knowledge Graphs and LLMs for Automotive R&D]({{ '/podcasts/knowledge-graphs-and-llms-for-automotive-rnd/' | relative_url }})
 at 33:43-39:56.
 
-DataTalks.Club guests treat both as complementary retrieval designs inside
+DataTalks.Club guests treat both approaches as complementary retrieval designs inside
 [retrieval-augmented generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
 and the broader
 [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
-stack. Use [RAG]({{ '/wiki/rag/' | relative_url }}) for implementation mechanics
-and [Knowledge Graph vs Vector Search]({{ '/comparisons/knowledge-graph-vs-vector-search/' | relative_url }})
-for the lower-level storage and retrieval comparison. The question is what
+stack. [RAG]({{ '/wiki/rag/' | relative_url }}) covers implementation mechanics,
+while
+[Knowledge Graph vs Vector Search]({{ '/comparisons/knowledge-graph-vs-vector-search/' | relative_url }})
+covers the lower-level storage and retrieval comparison. The question is what
 context reaches the LLM.
 
 ## Common Definition
 
-The archive converges on a simple contrast. Vector RAG starts from a query,
-embeds it, and places nearby chunks or records into the prompt.
+The common contrast starts with the retrieval unit. Vector RAG starts from a
+query, embeds it, and places nearby chunks or records into the prompt.
 
 [Atita Arora]({{ '/people/atitaarora/' | relative_url }}) uses a
 podcast-transcript chatbot as the clearest example in
@@ -101,16 +102,16 @@ single nearest-neighbor lookup and toward hybrid retrieval.
 ## Vector RAG Fits Fuzzy Text Retrieval
 
 Vector RAG is strongest when users may ask the same thing many ways. Podcast
-transcripts are a good archive example: a question like "how do I move from
+transcripts show the problem clearly: a question like "how do I move from
 analytics to data science?" may not share exact words with the best segment.
 Atita's transcript-chatbot example retrieves by semantic similarity and then
 asks the LLM to answer from those chunks
 ([Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}),
 38:24-42:49).
 
-Embeddings alone aren't enough, so the archive repeatedly ties vector RAG
-quality to chunk boundaries and overlap. Source metadata, citation behavior,
-and retrieval evaluation matter too. In the same episode, Atita discusses
+Embeddings alone aren't enough because Atita ties vector RAG quality to chunk
+boundaries and overlap. Source metadata, citation behavior, and retrieval
+evaluation matter too. In the same episode, she discusses
 prompt design and references at 42:49. At 48:09, she separates RAG evaluation
 into multiple levels. That connects vector RAG to
 [LLM evaluation workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }})
@@ -143,11 +144,10 @@ nodes and edges before using them as trusted retrieval context
 
 ## Hybrid Design Is Usually the Real Choice
 
-Across the archive, guests route by failure mode. If the system misses
-semantically related passages, improve vector retrieval and chunking. Then
-check embeddings, reranking, and metadata filters. If it loses entity
-relationships or order, add graph modeling or graph lookup. Do the same when it
-loses constraints, lineage, or provenance.
+Route by failure mode: if the system misses semantically related passages,
+improve vector retrieval and chunking. Then check embeddings, reranking, and
+metadata filters. If it loses entity relationships or order, add graph modeling
+or graph lookup. Do the same when it loses constraints, lineage, or provenance.
 
 If it returns plausible but irrelevant results, add filters and ranking
 weights. Recency and popularity can become retrieval signals too
@@ -158,7 +158,7 @@ covers that lower-level retrieval-stack boundary.
 A mature RAG system can use both: vector search finds candidate documents, and
 graph traversal adds related entities. It can also add validated facts,
 dependency paths, or provenance. The prompt can then include text evidence and
-structured context. This is why the archive connects
+structured context. That design connects
 [vector databases]({{ '/wiki/vector-databases/' | relative_url }}),
 [embeddings]({{ '/wiki/embeddings/' | relative_url }}), and
 [knowledge graph vs vector search]({{ '/comparisons/knowledge-graph-vs-vector-search/' | relative_url }}).

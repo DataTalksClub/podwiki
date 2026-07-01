@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 145,
     "nodes": 1010,
-    "links": 10706
+    "links": 10707
   },
   "nodes": [
     {
@@ -33,7 +33,7 @@
       "title": "Airflow Docker Compose: Local Setup for Data Pipeline Projects",
       "url": "/how-tos/airflow-docker-compose/",
       "count": 1,
-      "search": "Airflow Docker Compose: Local Setup for Data Pipeline Projects A podcast backed how to for using Docker Compose to run Airflow locally for data pipeline projects, with DAG structure, mounted code, checks, logs, and limits.",
+      "search": "Airflow Docker Compose: Local Setup for Data Pipeline Projects A practical setup for running Airflow locally with Docker Compose for data pipeline projects, with DAG structure, mounted code, checks, logs, and limits.",
       "keyword": "airflow docker compose"
     },
     {
@@ -77,7 +77,7 @@
       "title": "Data Analyst to Data Engineer Roadmap",
       "url": "/roadmaps/data-analyst-to-data-engineer/",
       "count": 1,
-      "search": "Data Analyst to Data Engineer Roadmap A podcast backed roadmap for data analysts moving into data engineering: transferable analyst strengths, missing backend and cloud skills, portfolio projects, and interview positioning.",
+      "search": "Data Analyst to Data Engineer Roadmap A practical roadmap for data analysts moving into data engineering: transferable analyst strengths, missing backend and cloud skills, portfolio projects, and interview positioning.",
       "keyword": "data analyst to data engineer"
     },
     {
@@ -308,7 +308,7 @@
       "title": "How to Become a Data Engineer With No Experience",
       "url": "/roadmaps/how-to-become-a-data-engineer-with-no-experience/",
       "count": 1,
-      "search": "How to Become a Data Engineer With No Experience A podcast backed transition guide for becoming a data engineer without prior data engineering experience: first skills, projects, portfolio proof, timelines, interviews, and adjacent role paths.",
+      "search": "How to Become a Data Engineer With No Experience A practical transition guide for becoming a data engineer without prior data engineering experience: first skills, projects, portfolio proof, timelines, interviews, and adjacent role paths.",
       "keyword": "how to become a data engineer with no experience"
     },
     {
@@ -18179,7 +18179,7 @@
       "source": "article:how_to:airflow-docker-compose",
       "target": "podcast:from-radio-astronomy-to-machine-learning-and-data-engineering",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:how_to:airflow-docker-compose",
@@ -18765,6 +18765,12 @@
     },
     {
       "source": "article:roadmap:data-analyst-to-data-engineer",
+      "target": "article:comparison:data-analyst-vs-analytics-engineer",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-data-engineer",
       "target": "article:roadmap:data-engineer-roadmap",
       "kind": "article-link",
       "weight": 4
@@ -18891,12 +18897,6 @@
     },
     {
       "source": "article:roadmap:data-analyst-to-data-engineer",
-      "target": "wiki:data-analyst-vs-analytics-engineer",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:roadmap:data-analyst-to-data-engineer",
       "target": "wiki:data-engineer-role",
       "kind": "article-link",
       "weight": 4
@@ -18989,7 +18989,7 @@
       "source": "article:roadmap:data-analyst-to-data-engineer",
       "target": "wiki:dataops",
       "kind": "article-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "article:roadmap:data-analyst-to-data-engineer",
@@ -19030,6 +19030,12 @@
     {
       "source": "article:roadmap:data-analyst-to-data-engineer",
       "target": "wiki:open-source-portfolio-evidence",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-analyst-to-data-engineer",
+      "target": "wiki:orchestration",
       "kind": "article-link",
       "weight": 2
     },
@@ -19899,6 +19905,12 @@
     },
     {
       "source": "article:roadmap:how-to-become-a-data-engineer-with-no-experience",
+      "target": "article:comparison:data-engineer-vs-data-scientist",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:how-to-become-a-data-engineer-with-no-experience",
       "target": "article:roadmap:data-engineer-roadmap",
       "kind": "article-link",
       "weight": 2
@@ -19949,7 +19961,7 @@
       "source": "article:roadmap:how-to-become-a-data-engineer-with-no-experience",
       "target": "podcast:from-devops-to-data-engineering-automation-open-source-volunteering",
       "kind": "article-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "article:roadmap:how-to-become-a-data-engineer-with-no-experience",
@@ -20016,12 +20028,6 @@
       "target": "wiki:data-engineer-role",
       "kind": "article-wiki",
       "weight": 5
-    },
-    {
-      "source": "article:roadmap:how-to-become-a-data-engineer-with-no-experience",
-      "target": "wiki:data-engineer-vs-data-scientist",
-      "kind": "article-link",
-      "weight": 2
     },
     {
       "source": "article:roadmap:how-to-become-a-data-engineer-with-no-experience",

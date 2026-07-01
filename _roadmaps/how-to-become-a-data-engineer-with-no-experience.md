@@ -2,7 +2,7 @@
 layout: article
 title: "How to Become a Data Engineer With No Experience"
 keyword: "how to become a data engineer with no experience"
-summary: "A podcast-backed transition guide for becoming a data engineer without prior data engineering experience: first skills, projects, portfolio proof, timelines, interviews, and adjacent-role paths."
+summary: "A practical transition guide for becoming a data engineer without prior data engineering experience: first skills, projects, portfolio proof, timelines, interviews, and adjacent-role paths."
 search_intent: "People searching for how to become a data engineer with no experience want a practical beginner path: which skills to learn first, what portfolio project proves readiness, how to explain adjacent experience, and how to prepare for interviews."
 related_wiki:
   - Data Engineer Role
@@ -23,7 +23,7 @@ That evidence usually includes:
 - clear documentation
 - an interview story that explains what you can own
 
-The DataTalks.Club archive is practical about this route. In
+DataTalks.Club guests are practical about this route. In
 [Build a Data Engineering Career]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }}),
 [Jeff Katz]({{ '/people/jeffkatz/' | relative_url }}) puts Python and SQL at
 the center of a junior path at 23:35. He then adds cloud fundamentals and
@@ -36,10 +36,10 @@ learner side. Her path included bootcamp study and volunteer work. It also
 included Docker, Airflow, and AWS. She later used a custom capstone and tracked
 job search to explain the transition.
 
-Use this article as the keyword-focused path. For the broader reference layer,
-use [Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }}) and
+For role scope and a broader skill map, read
+[Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }}) and
 [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }}).
-Then connect your project to
+The project evidence should connect to
 [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
 and
 [Career Transitions in Data]({{ '/wiki/career-transitions-in-data/' | relative_url }}).
@@ -174,7 +174,8 @@ adjacent version in
 Her discussion connects career transitions to automation, open-source
 participation, and volunteering. "Experience" can come from inspected work,
 community work, and process ownership. It doesn't have to come only from a
-previous data engineer title.
+previous data engineer title
+([5:22-9:20, 14:29-21:03, and 36:25-40:23]({{ '/podcasts/from-devops-to-data-engineering-automation-open-source-volunteering/' | relative_url }})).
 
 ## Choose Your Transition Path
 
@@ -333,7 +334,7 @@ A software engineer may also need data-quality thinking, while a true tech
 beginner needs a longer runway. SQL and Python arrive together with Git, the
 command line, and debugging.
 
-The archive gives calibration, not a guarantee. In
+Gloria's job-search story gives calibration, not a guarantee. In
 [Gloria Quiceno's data engineering job story]({{ '/podcasts/get-data-analytics-and-data-engineering-job/' | relative_url }}),
 [Gloria Quiceno]({{ '/people/gloriaquiceno/' | relative_url }}) describes the
 job search after bootcamp at 16:14. At 22:57, she discusses about 130 tracked
@@ -360,13 +361,13 @@ apply, because interviews reveal which gaps matter most.
 
 ## Related Resources
 
-Use these pages for the deeper wiki and article layer behind this guide:
+The beginner path connects to these roadmap, portfolio, and job-search topics:
 
 - [Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }})
 - [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
 - [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
 - [Career Transitions in Data]({{ '/wiki/career-transitions-in-data/' | relative_url }})
 - [Job Search]({{ '/wiki/job-search/' | relative_url }})
-- [Data Engineer vs Data Scientist]({{ '/wiki/data-engineer-vs-data-scientist/' | relative_url }})
+- [Data Engineer vs Data Scientist]({{ '/comparisons/data-engineer-vs-data-scientist/' | relative_url }})
 - [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
 - [Data Engineer Roadmap]({{ '/roadmaps/data-engineer-roadmap/' | relative_url }})

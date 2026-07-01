@@ -2,7 +2,7 @@
 layout: article
 title: "Data Analyst to Data Engineer Roadmap"
 keyword: "data analyst to data engineer"
-summary: "A podcast-backed roadmap for data analysts moving into data engineering: transferable analyst strengths, missing backend and cloud skills, portfolio projects, and interview positioning."
+summary: "A practical roadmap for data analysts moving into data engineering: transferable analyst strengths, missing backend and cloud skills, portfolio projects, and interview positioning."
 search_intent: "People searching for data analyst to data engineer want a practical transition path: which analyst skills transfer, what engineering gaps to close, what projects prove readiness, and how to explain the move in interviews."
 related_wiki:
   - Data Analyst Role
@@ -31,7 +31,7 @@ The data engineering move adds backend work:
 Those responsibilities sit inside the
 [Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }}).
 
-The DataTalks.Club archive gives a direct answer about this transition.
+Jeff Katz gives a direct answer about this transition.
 [Jeff Katz]({{ '/people/jeffkatz/' | relative_url }}) answers the analyst-to-data
 engineer question at 40:42-41:41 in
 [Build a Data Engineering Career]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }}).
@@ -43,10 +43,11 @@ tools such as Fivetran and dbt are easier to learn than the deeper work behind
 staging and integration. Marts, common table expressions, and modular SQL matter
 too.
 
-Use this page as the transition roadmap. For the broader learning sequence, use
+This roadmap focuses on the analyst-to-engineer transition. The broader
+learning sequence is covered in
 [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
 and [Data Engineer Roadmap]({{ '/roadmaps/data-engineer-roadmap/' | relative_url }}).
-For proof of readiness, use
+Proof of readiness belongs in
 [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }}).
 
 ## Translate The Analyst Advantage
@@ -147,13 +148,13 @@ Practice with analyst-friendly material:
 [Nikola Maksimovic]({{ '/people/nikolamaksimovic/' | relative_url }}) gives the
 internal-mobility version in
 [Marketing to Analytics Engineering]({{ '/podcasts/from-marketing-to-analytics-engineering-sql-dbt-career-switch/' | relative_url }}).
-At 9:53-11:02, his BI team named SQL, pipeline understanding, and Python
-familiarity as the skills needed to move closer to the data team. At 41:50, he
+At 9:53-11:02, her BI team named SQL, pipeline understanding, and Python
+familiarity as the skills needed to move closer to the data team. At 41:50, she
 recommends practicing SQL against real team queries when possible because local
 style, data models, and business context matter more than isolated exercises.
 
 For adjacent role context, use
-[Data Analyst vs Analytics Engineer]({{ '/wiki/data-analyst-vs-analytics-engineer/' | relative_url }})
+[Data Analyst vs Analytics Engineer]({{ '/comparisons/data-analyst-vs-analytics-engineer/' | relative_url }})
 and
 [Analytics Engineering Portfolio Projects]({{ '/wiki/analytics-engineering-portfolio-projects/' | relative_url }}).
 For modeling context, use [dbt]({{ '/wiki/dbt/' | relative_url }}) and
@@ -273,7 +274,7 @@ then turn the automation into pipeline evidence.
 For reliability context, use
 [DataOps]({{ '/wiki/dataops/' | relative_url }}),
 [Data Observability]({{ '/wiki/data-observability/' | relative_url }}), and
-[DataOps]({{ '/wiki/dataops/' | relative_url }}).
+[Orchestration]({{ '/wiki/orchestration/' | relative_url }}).
 
 ## Stage 5: Package The Portfolio For Hiring
 
@@ -359,11 +360,11 @@ Your job is to make the strongest relevant evidence visible.
 
 ## Related Pages
 
-Use these pages to continue the transition:
+The roadmap connects to these transition, role, and portfolio topics:
 
 - [Data Analyst Role]({{ '/wiki/data-analyst-role/' | relative_url }})
 - [Data Analyst Careers]({{ '/wiki/data-analyst-careers/' | relative_url }})
-- [Data Analyst vs Analytics Engineer]({{ '/wiki/data-analyst-vs-analytics-engineer/' | relative_url }})
+- [Data Analyst vs Analytics Engineer]({{ '/comparisons/data-analyst-vs-analytics-engineer/' | relative_url }})
 - [Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }})
 - [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }})
 - [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
