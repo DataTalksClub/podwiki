@@ -272,9 +272,8 @@ Existing pages:
 Candidate pages:
 
 - Improve existing comparison pages as new interviews add evidence.
-- Move remaining real comparison pages from `_wiki/` to `_comparisons/`, update
-  internal links to the comparison URLs, and leave wiki redirects where the old
-  URLs have been exposed.
+- Remaining real comparison pages were moved from `_wiki/` to `_comparisons/`
+  on 2026-07-01. The old wiki URLs now redirect to the comparison URLs.
 - No known `X vs Y` migration candidates remain in `_wiki/`.
 - Keep `_comparisons/data-engineer-vs-data-scientist.md` as the canonical
   comparison page. Put role and concept material in `_wiki/data-engineer-role.md`

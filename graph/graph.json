@@ -1,7 +1,7 @@
 {
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
-    "wikis": 175,
+    "wikis": 171,
     "articles": 49,
     "guides": 19,
     "comparisons": 19,
@@ -10,8 +10,8 @@
     "podcasts": 202,
     "persons": 438,
     "topics": 145,
-    "nodes": 1009,
-    "links": 10660
+    "nodes": 1005,
+    "links": 10515
   },
   "nodes": [
     {
@@ -88,7 +88,7 @@
       "title": "Data Analyst vs Analytics Engineer",
       "url": "/comparisons/data-analyst-vs-analytics-engineer/",
       "count": 1,
-      "search": "Data Analyst vs Analytics Engineer A podcast grounded role comparison for deciding whether a team needs analyst ownership, analytics engineering ownership, or both.",
+      "search": "Data Analyst vs Analytics Engineer A role comparison for deciding whether a team needs analyst ownership, analytics engineering ownership, or both.",
       "keyword": "data analyst vs analytics engineer"
     },
     {
@@ -286,7 +286,7 @@
       "title": "ETL vs ELT",
       "url": "/comparisons/etl-vs-elt/",
       "count": 1,
-      "search": "ETL vs ELT A podcast grounded decision guide for choosing transform before load or load before transform pipelines in modern data stacks.",
+      "search": "ETL vs ELT A decision guide for choosing transform before load or load before transform pipelines in modern data stacks.",
       "keyword": "etl vs elt"
     },
     {
@@ -473,7 +473,7 @@
       "title": "MLOps vs DevOps",
       "url": "/comparisons/mlops-vs-devops/",
       "count": 1,
-      "search": "MLOps vs DevOps Podcast grounded comparison of MLOps and DevOps: shared software delivery practices, ML specific lifecycle risks, monitoring boundaries, and team responsibilities.",
+      "search": "MLOps vs DevOps Comparison of MLOps and DevOps: shared software delivery practices, ML specific lifecycle risks, monitoring boundaries, and team responsibilities.",
       "keyword": "mlops vs devops"
     },
     {
@@ -528,7 +528,7 @@
       "title": "RAG vs Fine-Tuning",
       "url": "/comparisons/rag-vs-fine-tuning/",
       "count": 1,
-      "search": "RAG vs Fine Tuning A podcast grounded decision guide for choosing retrieval, model adaptation, or both in production LLM systems.",
+      "search": "RAG vs Fine Tuning A decision guide for choosing retrieval, model adaptation, or both in production LLM systems.",
       "keyword": "rag vs fine tuning"
     },
     {
@@ -8659,16 +8659,6 @@
       "search": "Data Analyst Role Archive backed guide to the data analyst role: SQL, metrics, dashboards, experiments, stakeholder communication, and boundaries with analytics engineering, data science, and data engineering."
     },
     {
-      "id": "wiki:data-analyst-vs-analytics-engineer",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "Data Analyst vs Analytics Engineer",
-      "title": "Data Analyst vs Analytics Engineer",
-      "url": "/wiki/data-analyst-vs-analytics-engineer/",
-      "count": 1,
-      "search": "Data Analyst vs Analytics Engineer A podcast backed comparison of the data analyst and analytics engineer role boundary: decisions, dashboards, reusable models, dbt, data quality, and team ownership."
-    },
-    {
       "id": "wiki:data-architect-role",
       "type": "wiki",
       "collection": "wiki",
@@ -9089,16 +9079,6 @@
       "search": "ETL Podcast grounded guide to extract transform load pipelines, ETL fit, staging, data quality, lineage, and modern platform work."
     },
     {
-      "id": "wiki:etl-vs-elt",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "ETL vs ELT",
-      "title": "ETL vs ELT",
-      "url": "/wiki/etl-vs-elt/",
-      "count": 1,
-      "search": "ETL vs ELT A podcast grounded comparison of transform before load and load before transform pipeline choices in modern data platforms."
-    },
-    {
       "id": "wiki:evaluation",
       "type": "wiki",
       "collection": "wiki",
@@ -9479,16 +9459,6 @@
       "search": "MLOps Tools A practical, podcast grounded guide to MLOps tools for experiment tracking, model registries, CI/CD, deployment, monitoring, platform workflows, and stack selection."
     },
     {
-      "id": "wiki:mlops-vs-devops",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "MLOps vs DevOps",
-      "title": "MLOps vs DevOps",
-      "url": "/wiki/mlops-vs-devops/",
-      "count": 1,
-      "search": "MLOps vs DevOps A podcast backed comparison of DevOps and MLOps operating models."
-    },
-    {
       "id": "wiki:model-monitoring",
       "type": "wiki",
       "collection": "wiki",
@@ -9737,16 +9707,6 @@
       "url": "/wiki/rag-portfolio-projects/",
       "count": 1,
       "search": "RAG Portfolio Projects Archive backed guidance for RAG portfolio projects that prove retrieval quality, context design, citations, evaluation, failure analysis, and production minded AI engineering."
-    },
-    {
-      "id": "wiki:rag-vs-fine-tuning",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "RAG vs Fine-Tuning",
-      "title": "RAG vs Fine-Tuning",
-      "url": "/wiki/rag-vs-fine-tuning/",
-      "count": 1,
-      "search": "RAG vs Fine Tuning A podcast backed comparison for deciding when an LLM system should retrieve external context, adapt model behavior, or combine both."
     },
     {
       "id": "wiki:reinforcement-learning",
@@ -10285,7 +10245,7 @@
       "source": "article:comparison:data-analyst-vs-analytics-engineer",
       "target": "article:roadmap:data-analyst-to-analytics-engineer",
       "kind": "article-link",
-      "weight": 6
+      "weight": 8
     },
     {
       "source": "article:comparison:data-analyst-vs-analytics-engineer",
@@ -10297,7 +10257,7 @@
       "source": "article:comparison:data-analyst-vs-analytics-engineer",
       "target": "person:arpitchoudhury",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:comparison:data-analyst-vs-analytics-engineer",
@@ -10327,13 +10287,13 @@
       "source": "article:comparison:data-analyst-vs-analytics-engineer",
       "target": "podcast:analytics-engineer-skills-tools",
       "kind": "article-link",
-      "weight": 14
+      "weight": 22
     },
     {
       "source": "article:comparison:data-analyst-vs-analytics-engineer",
       "target": "podcast:data-led-growth-event-tracking-and-reverse-etl",
       "kind": "article-link",
-      "weight": 4
+      "weight": 8
     },
     {
       "source": "article:comparison:data-analyst-vs-analytics-engineer",
@@ -10345,13 +10305,13 @@
       "source": "article:comparison:data-analyst-vs-analytics-engineer",
       "target": "podcast:data-team-roles",
       "kind": "article-link",
-      "weight": 8
+      "weight": 12
     },
     {
       "source": "article:comparison:data-analyst-vs-analytics-engineer",
       "target": "podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch",
       "kind": "article-link",
-      "weight": 8
+      "weight": 12
     },
     {
       "source": "article:comparison:data-analyst-vs-analytics-engineer",
@@ -10363,7 +10323,7 @@
       "source": "article:comparison:data-analyst-vs-analytics-engineer",
       "target": "podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices",
       "kind": "article-link",
-      "weight": 10
+      "weight": 16
     },
     {
       "source": "article:comparison:data-analyst-vs-analytics-engineer",
@@ -10387,7 +10347,7 @@
       "source": "article:comparison:data-analyst-vs-analytics-engineer",
       "target": "wiki:analytics-engineering-portfolio-projects",
       "kind": "article-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "article:comparison:data-analyst-vs-analytics-engineer",
@@ -10409,6 +10369,12 @@
     },
     {
       "source": "article:comparison:data-analyst-vs-analytics-engineer",
+      "target": "wiki:dashboard-and-metric-layer-project-checklist",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:data-analyst-vs-analytics-engineer",
       "target": "wiki:data-activation",
       "kind": "article-link",
       "weight": 2
@@ -10417,7 +10383,7 @@
       "source": "article:comparison:data-analyst-vs-analytics-engineer",
       "target": "wiki:data-analyst-careers",
       "kind": "article-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "article:comparison:data-analyst-vs-analytics-engineer",
@@ -10439,15 +10405,9 @@
     },
     {
       "source": "article:comparison:data-analyst-vs-analytics-engineer",
-      "target": "wiki:data-analyst-vs-analytics-engineer",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:comparison:data-analyst-vs-analytics-engineer",
       "target": "wiki:data-led-growth",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:comparison:data-analyst-vs-analytics-engineer",
@@ -10459,7 +10419,7 @@
       "source": "article:comparison:data-analyst-vs-analytics-engineer",
       "target": "wiki:data-products",
       "kind": "article-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "article:comparison:data-analyst-vs-analytics-engineer",
@@ -10513,7 +10473,7 @@
       "source": "article:comparison:data-analyst-vs-analytics-engineer",
       "target": "wiki:modern-data-stack",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:comparison:data-analyst-vs-analytics-engineer",
@@ -11945,6 +11905,12 @@
     },
     {
       "source": "article:comparison:etl-vs-elt",
+      "target": "person:juanmanuelperafan",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:etl-vs-elt",
       "target": "person:larsalbertsson",
       "kind": "article-link",
       "weight": 2
@@ -11965,19 +11931,19 @@
       "source": "article:comparison:etl-vs-elt",
       "target": "person:victoriaperezmola",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:comparison:etl-vs-elt",
       "target": "podcast:analytics-engineer-skills-tools",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:comparison:etl-vs-elt",
       "target": "podcast:data-engineering-tools-modern-data-stack",
       "kind": "article-link",
-      "weight": 10
+      "weight": 22
     },
     {
       "source": "article:comparison:etl-vs-elt",
@@ -11989,7 +11955,7 @@
       "source": "article:comparison:etl-vs-elt",
       "target": "podcast:dataops-principles-and-scalable-data-platforms",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:comparison:etl-vs-elt",
@@ -11999,15 +11965,57 @@
     },
     {
       "source": "article:comparison:etl-vs-elt",
+      "target": "podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:etl-vs-elt",
       "target": "wiki:analytics-engineering",
       "kind": "article-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "article:comparison:etl-vs-elt",
       "target": "wiki:analytics-engineering",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "article:comparison:etl-vs-elt",
+      "target": "wiki:data-activation",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:etl-vs-elt",
+      "target": "wiki:data-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:etl-vs-elt",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:etl-vs-elt",
+      "target": "wiki:data-governance",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:etl-vs-elt",
+      "target": "wiki:data-lake",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:etl-vs-elt",
+      "target": "wiki:data-observability",
+      "kind": "article-link",
+      "weight": 2
     },
     {
       "source": "article:comparison:etl-vs-elt",
@@ -12023,9 +12031,21 @@
     },
     {
       "source": "article:comparison:etl-vs-elt",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:etl-vs-elt",
+      "target": "wiki:data-warehouse",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:etl-vs-elt",
       "target": "wiki:dataops",
       "kind": "article-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "article:comparison:etl-vs-elt",
@@ -12037,7 +12057,7 @@
       "source": "article:comparison:etl-vs-elt",
       "target": "wiki:dbt",
       "kind": "article-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "article:comparison:etl-vs-elt",
@@ -12071,9 +12091,9 @@
     },
     {
       "source": "article:comparison:etl-vs-elt",
-      "target": "wiki:etl-vs-elt",
-      "kind": "article-wiki",
-      "weight": 5
+      "target": "wiki:gitops-for-data-teams",
+      "kind": "article-link",
+      "weight": 2
     },
     {
       "source": "article:comparison:etl-vs-elt",
@@ -12091,7 +12111,7 @@
       "source": "article:comparison:etl-vs-elt",
       "target": "wiki:reverse-etl",
       "kind": "article-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "article:comparison:etl-vs-elt",
@@ -12743,6 +12763,12 @@
     },
     {
       "source": "article:comparison:mlops-vs-devops",
+      "target": "person:christopherbergh",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
       "target": "person:dannyleybzon",
       "kind": "article-link",
       "weight": 2
@@ -12787,7 +12813,13 @@
       "source": "article:comparison:mlops-vs-devops",
       "target": "podcast:building-production-ml-platform-and-mlops-team",
       "kind": "article-link",
-      "weight": 4
+      "weight": 10
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "podcast:dataops-for-data-engineering",
+      "kind": "article-link",
+      "weight": 2
     },
     {
       "source": "article:comparison:mlops-vs-devops",
@@ -12805,19 +12837,19 @@
       "source": "article:comparison:mlops-vs-devops",
       "target": "podcast:mlops-at-scale-reproducibility-adoption",
       "kind": "article-link",
-      "weight": 6
+      "weight": 8
     },
     {
       "source": "article:comparison:mlops-vs-devops",
       "target": "podcast:mlops-kubeflow-model-monitoring",
       "kind": "article-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "article:comparison:mlops-vs-devops",
       "target": "podcast:mlops-model-monitoring-data-observability",
       "kind": "article-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "article:comparison:mlops-vs-devops",
@@ -12835,7 +12867,7 @@
       "source": "article:comparison:mlops-vs-devops",
       "target": "wiki:ci-cd",
       "kind": "article-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "article:comparison:mlops-vs-devops",
@@ -12857,9 +12889,21 @@
     },
     {
       "source": "article:comparison:mlops-vs-devops",
-      "target": "wiki:experiment-tracking",
+      "target": "wiki:dataops",
       "kind": "article-link",
       "weight": 4
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "wiki:dataops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "wiki:experiment-tracking",
+      "kind": "article-link",
+      "weight": 6
     },
     {
       "source": "article:comparison:mlops-vs-devops",
@@ -12871,61 +12915,79 @@
       "source": "article:comparison:mlops-vs-devops",
       "target": "wiki:machine-learning-infrastructure",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "wiki:machine-learning-infrastructure",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "article:comparison:mlops-vs-devops",
       "target": "wiki:ml-platforms",
       "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "wiki:ml-platforms",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "wiki:mlops",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "wiki:mlops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "wiki:mlops-engineer",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "wiki:mlops-engineer",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "wiki:model-monitoring",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "wiki:model-monitoring",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "wiki:model-registry",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "wiki:model-registry",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:mlops-vs-devops",
+      "target": "wiki:notebook-to-production-ai-systems",
+      "kind": "article-link",
       "weight": 2
-    },
-    {
-      "source": "article:comparison:mlops-vs-devops",
-      "target": "wiki:mlops",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:comparison:mlops-vs-devops",
-      "target": "wiki:mlops",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:comparison:mlops-vs-devops",
-      "target": "wiki:mlops-engineer",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:comparison:mlops-vs-devops",
-      "target": "wiki:mlops-engineer",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:comparison:mlops-vs-devops",
-      "target": "wiki:model-monitoring",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:comparison:mlops-vs-devops",
-      "target": "wiki:model-monitoring",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:comparison:mlops-vs-devops",
-      "target": "wiki:model-registry",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:comparison:mlops-vs-devops",
-      "target": "wiki:model-registry",
-      "kind": "article-wiki",
-      "weight": 5
     },
     {
       "source": "article:comparison:mlops-vs-devops",
@@ -12955,7 +13017,7 @@
       "source": "article:comparison:mlops-vs-devops",
       "target": "wiki:reproducibility",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:comparison:mlops-vs-devops",
@@ -13415,12 +13477,6 @@
     },
     {
       "source": "article:comparison:rag-vs-fine-tuning",
-      "target": "person:atitaarora",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:comparison:rag-vs-fine-tuning",
       "target": "person:hugobowneanderson",
       "kind": "article-link",
       "weight": 2
@@ -13439,31 +13495,43 @@
     },
     {
       "source": "article:comparison:rag-vs-fine-tuning",
-      "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:comparison:rag-vs-fine-tuning",
-      "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
-      "kind": "article-link",
-      "weight": 8
-    },
-    {
-      "source": "article:comparison:rag-vs-fine-tuning",
-      "target": "podcast:knowledge-graphs-and-llms-for-automotive-rnd",
+      "target": "person:reemmahmoud",
       "kind": "article-link",
       "weight": 2
     },
     {
       "source": "article:comparison:rag-vs-fine-tuning",
+      "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
+      "kind": "article-link",
+      "weight": 8
+    },
+    {
+      "source": "article:comparison:rag-vs-fine-tuning",
+      "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
+      "kind": "article-link",
+      "weight": 18
+    },
+    {
+      "source": "article:comparison:rag-vs-fine-tuning",
+      "target": "podcast:knowledge-graphs-and-llms-for-automotive-rnd",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:rag-vs-fine-tuning",
       "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
       "kind": "article-link",
-      "weight": 6
+      "weight": 12
     },
     {
       "source": "article:comparison:rag-vs-fine-tuning",
       "target": "podcast:practical-llm-engineering-and-rag",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:rag-vs-fine-tuning",
+      "target": "podcast:production-ml-search-vector-search-embeddings-hybrid-search",
       "kind": "article-link",
       "weight": 2
     },
@@ -13471,7 +13539,7 @@
       "source": "article:comparison:rag-vs-fine-tuning",
       "target": "wiki:agent-engineering",
       "kind": "article-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "article:comparison:rag-vs-fine-tuning",
@@ -13483,13 +13551,13 @@
       "source": "article:comparison:rag-vs-fine-tuning",
       "target": "wiki:embeddings",
       "kind": "article-link",
-      "weight": 2
+      "weight": 6
     },
     {
       "source": "article:comparison:rag-vs-fine-tuning",
-      "target": "wiki:evaluation",
-      "kind": "article-link",
-      "weight": 2
+      "target": "wiki:embeddings",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "article:comparison:rag-vs-fine-tuning",
@@ -13531,7 +13599,7 @@
       "source": "article:comparison:rag-vs-fine-tuning",
       "target": "wiki:prompt-engineering",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:comparison:rag-vs-fine-tuning",
@@ -13541,7 +13609,13 @@
     },
     {
       "source": "article:comparison:rag-vs-fine-tuning",
-      "target": "wiki:rag-vs-fine-tuning",
+      "target": "wiki:rag",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:rag-vs-fine-tuning",
+      "target": "wiki:rag",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -13573,7 +13647,13 @@
       "source": "article:comparison:rag-vs-fine-tuning",
       "target": "wiki:vector-databases",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:rag-vs-fine-tuning",
+      "target": "wiki:vector-databases",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "article:comparison:vector-database-vs-search-engine",
@@ -14124,12 +14204,6 @@
     {
       "source": "article:guide:data-analysis",
       "target": "wiki:data-analyst-role",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:data-analysis",
-      "target": "wiki:data-analyst-vs-analytics-engineer",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -18606,12 +18680,6 @@
     {
       "source": "article:roadmap:data-analyst-to-analytics-engineer",
       "target": "wiki:data-analyst-role",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:roadmap:data-analyst-to-analytics-engineer",
-      "target": "wiki:data-analyst-vs-analytics-engineer",
       "kind": "article-wiki",
       "weight": 5
     },
@@ -39641,12 +39709,6 @@
     },
     {
       "source": "wiki:analytics-engineering-portfolio-projects",
-      "target": "wiki:data-analyst-vs-analytics-engineer",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:analytics-engineering-portfolio-projects",
       "target": "wiki:data-engineering-portfolio-projects",
       "kind": "wiki-link",
       "weight": 4
@@ -39866,12 +39928,6 @@
       "target": "wiki:data-activation",
       "kind": "wiki-link",
       "weight": 6
-    },
-    {
-      "source": "wiki:analytics-engineering-roadmap",
-      "target": "wiki:data-analyst-vs-analytics-engineer",
-      "kind": "wiki-related",
-      "weight": 3
     },
     {
       "source": "wiki:analytics-engineering-roadmap",
@@ -40116,12 +40172,6 @@
     {
       "source": "wiki:apache-iceberg",
       "target": "wiki:duckdb",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:apache-iceberg",
-      "target": "wiki:etl-vs-elt",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -42086,12 +42136,6 @@
       "target": "wiki:etl",
       "kind": "wiki-link",
       "weight": 2
-    },
-    {
-      "source": "wiki:cdc",
-      "target": "wiki:etl-vs-elt",
-      "kind": "wiki-related",
-      "weight": 3
     },
     {
       "source": "wiki:cdc",
@@ -44159,12 +44203,6 @@
     },
     {
       "source": "wiki:data-analyst-careers",
-      "target": "wiki:data-analyst-vs-analytics-engineer",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:data-analyst-careers",
       "target": "wiki:data-engineer-role",
       "kind": "wiki-link",
       "weight": 2
@@ -44339,12 +44377,6 @@
     },
     {
       "source": "wiki:data-analyst-role",
-      "target": "wiki:data-analyst-vs-analytics-engineer",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:data-analyst-role",
       "target": "wiki:data-engineer-role",
       "kind": "wiki-link",
       "weight": 2
@@ -44396,222 +44428,6 @@
       "target": "wiki:product-analytics",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:data-analyst-vs-analytics-engineer",
-      "target": "article:roadmap:data-analyst-to-analytics-engineer",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:data-analyst-vs-analytics-engineer",
-      "target": "person:alexeygrigorev",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-analyst-vs-analytics-engineer",
-      "target": "person:arpitchoudhury",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-analyst-vs-analytics-engineer",
-      "target": "person:juanmanuelperafan",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-analyst-vs-analytics-engineer",
-      "target": "person:nikolamaksimovic",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-analyst-vs-analytics-engineer",
-      "target": "person:victoriaperezmola",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-analyst-vs-analytics-engineer",
-      "target": "podcast:analytics-engineer-skills-tools",
-      "kind": "wiki-link",
-      "weight": 18
-    },
-    {
-      "source": "wiki:data-analyst-vs-analytics-engineer",
-      "target": "podcast:data-led-growth-event-tracking-and-reverse-etl",
-      "kind": "wiki-link",
-      "weight": 8
-    },
-    {
-      "source": "wiki:data-analyst-vs-analytics-engineer",
-      "target": "podcast:data-team-roles",
-      "kind": "wiki-link",
-      "weight": 10
-    },
-    {
-      "source": "wiki:data-analyst-vs-analytics-engineer",
-      "target": "podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch",
-      "kind": "wiki-link",
-      "weight": 12
-    },
-    {
-      "source": "wiki:data-analyst-vs-analytics-engineer",
-      "target": "podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices",
-      "kind": "wiki-link",
-      "weight": 10
-    },
-    {
-      "source": "wiki:data-analyst-vs-analytics-engineer",
-      "target": "wiki:a-b-testing",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-analyst-vs-analytics-engineer",
-      "target": "wiki:analytics-engineering",
-      "kind": "wiki-link",
-      "weight": 6
-    },
-    {
-      "source": "wiki:data-analyst-vs-analytics-engineer",
-      "target": "wiki:analytics-engineering",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:data-analyst-vs-analytics-engineer",
-      "target": "wiki:analytics-engineering-portfolio-projects",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:data-analyst-vs-analytics-engineer",
-      "target": "wiki:analytics-engineering-roadmap",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:data-analyst-vs-analytics-engineer",
-      "target": "wiki:dashboard-and-metric-layer-project-checklist",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-analyst-vs-analytics-engineer",
-      "target": "wiki:data-activation",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:data-analyst-vs-analytics-engineer",
-      "target": "wiki:data-analyst-careers",
-      "kind": "wiki-link",
-      "weight": 6
-    },
-    {
-      "source": "wiki:data-analyst-vs-analytics-engineer",
-      "target": "wiki:data-analyst-careers",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:data-analyst-vs-analytics-engineer",
-      "target": "wiki:data-analyst-role",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:data-analyst-vs-analytics-engineer",
-      "target": "wiki:data-analyst-role",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:data-analyst-vs-analytics-engineer",
-      "target": "wiki:data-led-growth",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-analyst-vs-analytics-engineer",
-      "target": "wiki:data-products",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:data-analyst-vs-analytics-engineer",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:data-analyst-vs-analytics-engineer",
-      "target": "wiki:dbt",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:data-analyst-vs-analytics-engineer",
-      "target": "wiki:dbt",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:data-analyst-vs-analytics-engineer",
-      "target": "wiki:event-tracking",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:data-analyst-vs-analytics-engineer",
-      "target": "wiki:experimentation-and-causal-inference",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-analyst-vs-analytics-engineer",
-      "target": "wiki:marketing-to-analytics-engineering",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:data-analyst-vs-analytics-engineer",
-      "target": "wiki:metrics",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:data-analyst-vs-analytics-engineer",
-      "target": "wiki:metrics",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:data-analyst-vs-analytics-engineer",
-      "target": "wiki:modern-data-stack",
-      "kind": "wiki-link",
-      "weight": 6
-    },
-    {
-      "source": "wiki:data-analyst-vs-analytics-engineer",
-      "target": "wiki:product-analytics",
-      "kind": "wiki-link",
-      "weight": 6
-    },
-    {
-      "source": "wiki:data-analyst-vs-analytics-engineer",
-      "target": "wiki:product-analytics",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:data-analyst-vs-analytics-engineer",
-      "target": "wiki:reverse-etl",
-      "kind": "wiki-link",
-      "weight": 2
     },
     {
       "source": "wiki:data-architect-role",
@@ -46769,12 +46585,6 @@
     },
     {
       "source": "wiki:data-engineering-tools",
-      "target": "wiki:etl-vs-elt",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:data-engineering-tools",
       "target": "wiki:modern-data-stack",
       "kind": "wiki-link",
       "weight": 4
@@ -47130,12 +46940,6 @@
     {
       "source": "wiki:data-lake",
       "target": "wiki:delta-lake",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:data-lake",
-      "target": "wiki:etl-vs-elt",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -47802,12 +47606,6 @@
     {
       "source": "wiki:data-pipelines",
       "target": "wiki:dataops",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:data-pipelines",
-      "target": "wiki:etl-vs-elt",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -50867,12 +50665,6 @@
     },
     {
       "source": "wiki:data-warehouse",
-      "target": "wiki:etl-vs-elt",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:data-warehouse",
       "target": "wiki:finops-for-data-engineers",
       "kind": "wiki-link",
       "weight": 4
@@ -52487,12 +52279,6 @@
     },
     {
       "source": "wiki:devops-to-data-engineering",
-      "target": "wiki:mlops-vs-devops",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:devops-to-data-engineering",
       "target": "wiki:modern-data-stack",
       "kind": "wiki-link",
       "weight": 4
@@ -53016,12 +52802,6 @@
     {
       "source": "wiki:elt",
       "target": "wiki:etl",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:elt",
-      "target": "wiki:etl-vs-elt",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -53711,252 +53491,12 @@
     },
     {
       "source": "wiki:etl",
-      "target": "wiki:etl-vs-elt",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:etl",
       "target": "wiki:reverse-etl",
       "kind": "wiki-link",
       "weight": 2
     },
     {
       "source": "wiki:etl",
-      "target": "wiki:reverse-etl",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:etl-vs-elt",
-      "target": "article:comparison:data-warehouse-vs-data-lakehouse",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:etl-vs-elt",
-      "target": "article:comparison:etl-vs-elt",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:etl-vs-elt",
-      "target": "person:arpitchoudhury",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:etl-vs-elt",
-      "target": "person:juanmanuelperafan",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:etl-vs-elt",
-      "target": "person:larsalbertsson",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:etl-vs-elt",
-      "target": "person:nataliekwong",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:etl-vs-elt",
-      "target": "person:santonatuli",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:etl-vs-elt",
-      "target": "person:victoriaperezmola",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:etl-vs-elt",
-      "target": "podcast:analytics-engineer-skills-tools",
-      "kind": "wiki-link",
-      "weight": 8
-    },
-    {
-      "source": "wiki:etl-vs-elt",
-      "target": "podcast:data-engineering-tools-modern-data-stack",
-      "kind": "wiki-link",
-      "weight": 30
-    },
-    {
-      "source": "wiki:etl-vs-elt",
-      "target": "podcast:data-led-growth-event-tracking-and-reverse-etl",
-      "kind": "wiki-link",
-      "weight": 6
-    },
-    {
-      "source": "wiki:etl-vs-elt",
-      "target": "podcast:dataops-principles-and-scalable-data-platforms",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:etl-vs-elt",
-      "target": "podcast:modern-data-pipelines-orchestration-ingestion-modeling",
-      "kind": "wiki-link",
-      "weight": 8
-    },
-    {
-      "source": "wiki:etl-vs-elt",
-      "target": "podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:etl-vs-elt",
-      "target": "wiki:analytics-engineering",
-      "kind": "wiki-link",
-      "weight": 6
-    },
-    {
-      "source": "wiki:etl-vs-elt",
-      "target": "wiki:analytics-engineering",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:etl-vs-elt",
-      "target": "wiki:data-activation",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:etl-vs-elt",
-      "target": "wiki:data-engineering",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:etl-vs-elt",
-      "target": "wiki:data-engineering",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:etl-vs-elt",
-      "target": "wiki:data-engineering-platforms",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:etl-vs-elt",
-      "target": "wiki:data-engineering-platforms",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:etl-vs-elt",
-      "target": "wiki:data-governance",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:etl-vs-elt",
-      "target": "wiki:data-lake",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:etl-vs-elt",
-      "target": "wiki:data-observability",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:etl-vs-elt",
-      "target": "wiki:data-pipelines",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:etl-vs-elt",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:etl-vs-elt",
-      "target": "wiki:data-warehouse",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:etl-vs-elt",
-      "target": "wiki:dataops",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:etl-vs-elt",
-      "target": "wiki:dbt",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:etl-vs-elt",
-      "target": "wiki:dbt",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:etl-vs-elt",
-      "target": "wiki:elt",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:etl-vs-elt",
-      "target": "wiki:elt",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:etl-vs-elt",
-      "target": "wiki:etl",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:etl-vs-elt",
-      "target": "wiki:etl",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:etl-vs-elt",
-      "target": "wiki:gitops-for-data-teams",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:etl-vs-elt",
-      "target": "wiki:modern-data-stack",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:etl-vs-elt",
-      "target": "wiki:modern-data-stack",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:etl-vs-elt",
-      "target": "wiki:reverse-etl",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:etl-vs-elt",
       "target": "wiki:reverse-etl",
       "kind": "wiki-related",
       "weight": 3
@@ -57707,12 +57247,6 @@
     },
     {
       "source": "wiki:llm-evaluation-workflows",
-      "target": "wiki:rag-vs-fine-tuning",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:llm-evaluation-workflows",
       "target": "wiki:responsible-ai-and-governance",
       "kind": "wiki-link",
       "weight": 4
@@ -58055,12 +57589,6 @@
     },
     {
       "source": "wiki:llm-production-patterns",
-      "target": "wiki:rag-vs-fine-tuning",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:llm-production-patterns",
       "target": "wiki:responsible-ai-and-governance",
       "kind": "wiki-link",
       "weight": 4
@@ -58322,12 +57850,6 @@
       "target": "wiki:rag",
       "kind": "wiki-link",
       "weight": 2
-    },
-    {
-      "source": "wiki:llms",
-      "target": "wiki:rag-vs-fine-tuning",
-      "kind": "wiki-related",
-      "weight": 3
     },
     {
       "source": "wiki:llms",
@@ -62208,222 +61730,6 @@
     {
       "source": "wiki:mlops-tools",
       "target": "wiki:model-registry",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:mlops-vs-devops",
-      "target": "article:guide:mlops-architecture",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:mlops-vs-devops",
-      "target": "person:christopherbergh",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:mlops-vs-devops",
-      "target": "person:dannyleybzon",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:mlops-vs-devops",
-      "target": "person:mariavechtomova",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:mlops-vs-devops",
-      "target": "person:raphaelhoogvliets",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:mlops-vs-devops",
-      "target": "person:simonstiebellehner",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:mlops-vs-devops",
-      "target": "person:theofilospapapanagiotou",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:mlops-vs-devops",
-      "target": "podcast:building-production-ml-platform-and-mlops-team",
-      "kind": "wiki-link",
-      "weight": 16
-    },
-    {
-      "source": "wiki:mlops-vs-devops",
-      "target": "podcast:dataops-for-data-engineering",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:mlops-vs-devops",
-      "target": "podcast:mlops-at-scale-reproducibility-adoption",
-      "kind": "wiki-link",
-      "weight": 16
-    },
-    {
-      "source": "wiki:mlops-vs-devops",
-      "target": "podcast:mlops-kubeflow-model-monitoring",
-      "kind": "wiki-link",
-      "weight": 12
-    },
-    {
-      "source": "wiki:mlops-vs-devops",
-      "target": "podcast:mlops-model-monitoring-data-observability",
-      "kind": "wiki-link",
-      "weight": 6
-    },
-    {
-      "source": "wiki:mlops-vs-devops",
-      "target": "podcast:pragmatic-and-standardized-mlops",
-      "kind": "wiki-link",
-      "weight": 14
-    },
-    {
-      "source": "wiki:mlops-vs-devops",
-      "target": "wiki:ci-cd",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:mlops-vs-devops",
-      "target": "wiki:data-observability",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:mlops-vs-devops",
-      "target": "wiki:dataops",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:mlops-vs-devops",
-      "target": "wiki:experiment-tracking",
-      "kind": "wiki-link",
-      "weight": 6
-    },
-    {
-      "source": "wiki:mlops-vs-devops",
-      "target": "wiki:machine-learning-infrastructure",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:mlops-vs-devops",
-      "target": "wiki:ml-platforms",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:mlops-vs-devops",
-      "target": "wiki:mlops",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:mlops-vs-devops",
-      "target": "wiki:mlops",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:mlops-vs-devops",
-      "target": "wiki:mlops-engineer",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:mlops-vs-devops",
-      "target": "wiki:mlops-tools",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:mlops-vs-devops",
-      "target": "wiki:model-monitoring",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:mlops-vs-devops",
-      "target": "wiki:model-monitoring",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:mlops-vs-devops",
-      "target": "wiki:model-registry",
-      "kind": "wiki-link",
-      "weight": 6
-    },
-    {
-      "source": "wiki:mlops-vs-devops",
-      "target": "wiki:notebook-to-production-ai-systems",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:mlops-vs-devops",
-      "target": "wiki:platform-engineering",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:mlops-vs-devops",
-      "target": "wiki:platform-engineering",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:mlops-vs-devops",
-      "target": "wiki:production",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:mlops-vs-devops",
-      "target": "wiki:production",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:mlops-vs-devops",
-      "target": "wiki:reproducibility",
-      "kind": "wiki-link",
-      "weight": 6
-    },
-    {
-      "source": "wiki:mlops-vs-devops",
-      "target": "wiki:reproducibility",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:mlops-vs-devops",
-      "target": "wiki:software-engineer-to-machine-learning",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:mlops-vs-devops",
-      "target": "wiki:software-engineering",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:mlops-vs-devops",
-      "target": "wiki:software-engineering",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -67433,6 +66739,12 @@
     },
     {
       "source": "wiki:prompt-engineering",
+      "target": "article:comparison:rag-vs-fine-tuning",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:prompt-engineering",
       "target": "article:guide:llm-system-design-interview",
       "kind": "wiki-link",
       "weight": 2
@@ -67592,12 +66904,6 @@
       "target": "wiki:production-search-evaluation",
       "kind": "wiki-link",
       "weight": 2
-    },
-    {
-      "source": "wiki:prompt-engineering",
-      "target": "wiki:rag-vs-fine-tuning",
-      "kind": "wiki-related",
-      "weight": 3
     },
     {
       "source": "wiki:prompt-engineering",
@@ -68057,12 +67363,6 @@
     },
     {
       "source": "wiki:rag",
-      "target": "wiki:rag-vs-fine-tuning",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:rag",
       "target": "wiki:responsible-ai-and-governance",
       "kind": "wiki-link",
       "weight": 2
@@ -68360,210 +67660,6 @@
       "target": "wiki:vector-databases",
       "kind": "wiki-link",
       "weight": 4
-    },
-    {
-      "source": "wiki:rag-vs-fine-tuning",
-      "target": "article:comparison:graph-rag-vs-vector-rag",
-      "kind": "wiki-link",
-      "weight": 6
-    },
-    {
-      "source": "wiki:rag-vs-fine-tuning",
-      "target": "article:comparison:knowledge-graph-vs-vector-search",
-      "kind": "wiki-link",
-      "weight": 6
-    },
-    {
-      "source": "wiki:rag-vs-fine-tuning",
-      "target": "person:anahitapakiman",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:rag-vs-fine-tuning",
-      "target": "person:atitaarora",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:rag-vs-fine-tuning",
-      "target": "person:hugobowneanderson",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:rag-vs-fine-tuning",
-      "target": "person:meryemarik",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:rag-vs-fine-tuning",
-      "target": "person:ranjithakulkarni",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:rag-vs-fine-tuning",
-      "target": "person:reemmahmoud",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:rag-vs-fine-tuning",
-      "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
-      "kind": "wiki-link",
-      "weight": 10
-    },
-    {
-      "source": "wiki:rag-vs-fine-tuning",
-      "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
-      "kind": "wiki-link",
-      "weight": 18
-    },
-    {
-      "source": "wiki:rag-vs-fine-tuning",
-      "target": "podcast:knowledge-graphs-and-llms-for-automotive-rnd",
-      "kind": "wiki-link",
-      "weight": 6
-    },
-    {
-      "source": "wiki:rag-vs-fine-tuning",
-      "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
-      "kind": "wiki-link",
-      "weight": 10
-    },
-    {
-      "source": "wiki:rag-vs-fine-tuning",
-      "target": "podcast:practical-llm-engineering-and-rag",
-      "kind": "wiki-link",
-      "weight": 8
-    },
-    {
-      "source": "wiki:rag-vs-fine-tuning",
-      "target": "podcast:production-ml-search-vector-search-embeddings-hybrid-search",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:rag-vs-fine-tuning",
-      "target": "wiki:agent-engineering",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:rag-vs-fine-tuning",
-      "target": "wiki:ai-agents",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:rag-vs-fine-tuning",
-      "target": "wiki:ai-infrastructure",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:rag-vs-fine-tuning",
-      "target": "wiki:embeddings",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:rag-vs-fine-tuning",
-      "target": "wiki:embeddings",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:rag-vs-fine-tuning",
-      "target": "wiki:evaluation",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:rag-vs-fine-tuning",
-      "target": "wiki:information-retrieval",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:rag-vs-fine-tuning",
-      "target": "wiki:llm-evaluation-workflows",
-      "kind": "wiki-link",
-      "weight": 6
-    },
-    {
-      "source": "wiki:rag-vs-fine-tuning",
-      "target": "wiki:llm-evaluation-workflows",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:rag-vs-fine-tuning",
-      "target": "wiki:llm-production-patterns",
-      "kind": "wiki-link",
-      "weight": 6
-    },
-    {
-      "source": "wiki:rag-vs-fine-tuning",
-      "target": "wiki:llm-production-patterns",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:rag-vs-fine-tuning",
-      "target": "wiki:mlops",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:rag-vs-fine-tuning",
-      "target": "wiki:production-search-evaluation",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:rag-vs-fine-tuning",
-      "target": "wiki:prompt-engineering",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:rag-vs-fine-tuning",
-      "target": "wiki:retrieval-augmented-generation",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:rag-vs-fine-tuning",
-      "target": "wiki:retrieval-augmented-generation",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:rag-vs-fine-tuning",
-      "target": "wiki:search-rag-and-knowledge-systems",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:rag-vs-fine-tuning",
-      "target": "wiki:search-rag-and-knowledge-systems",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:rag-vs-fine-tuning",
-      "target": "wiki:vector-databases",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:rag-vs-fine-tuning",
-      "target": "wiki:vector-databases",
-      "kind": "wiki-related",
-      "weight": 3
     },
     {
       "source": "wiki:reinforcement-learning",
@@ -70988,12 +70084,6 @@
       "target": "wiki:mlops-roadmap",
       "kind": "wiki-link",
       "weight": 2
-    },
-    {
-      "source": "wiki:software-engineer-to-machine-learning",
-      "target": "wiki:mlops-vs-devops",
-      "kind": "wiki-related",
-      "weight": 3
     },
     {
       "source": "wiki:software-engineer-to-machine-learning",

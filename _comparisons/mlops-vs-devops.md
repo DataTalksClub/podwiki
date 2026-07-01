@@ -5,11 +5,13 @@ keyword: "mlops vs devops"
 secondary_keywords:
   - devops vs mlops
   - difference between mlops and devops
-summary: "Podcast-grounded comparison of MLOps and DevOps: shared software delivery practices, ML-specific lifecycle risks, monitoring boundaries, and team responsibilities."
+summary: "Comparison of MLOps and DevOps: shared software delivery practices, ML-specific lifecycle risks, monitoring boundaries, and team responsibilities."
 related_wiki:
   - MLOps
   - Software Engineering
   - Platform Engineering
+  - ML Platforms
+  - Machine Learning Infrastructure
   - Production
   - CI/CD
   - Reproducibility
@@ -17,6 +19,7 @@ related_wiki:
   - Model Registry
   - Model Monitoring
   - Data Observability
+  - DataOps
   - MLOps Engineer
 ---
 
@@ -29,7 +32,7 @@ data-dependent model behavior, so teams also track experiment history, model
 artifacts, and feature data. Monitoring, retraining, and governance come with
 that work.
 
-The DataTalks.Club archive treats MLOps as an extension of
+MLOps works best as an extension of
 [software engineering]({{ '/wiki/software-engineering/' | relative_url }}) and
 [platform engineering]({{ '/wiki/platform-engineering/' | relative_url }}), not
 as a replacement for DevOps. [Santiago Valdarrama]({{ '/people/svpino/' | relative_url }})
@@ -82,6 +85,15 @@ Teams still need Git, tests and CI/CD. They also need package management and
 deployment automation. Logs, dashboards and rollback paths complete the
 delivery base.
 
+[Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }})
+connects this inheritance to [DataOps]({{ '/wiki/dataops/' | relative_url }})
+in
+[DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }}).
+Around 13:27-15:52, he ties DevOps culture to automation and observability.
+Around 30:55-54:05, he adds [CI/CD]({{ '/wiki/ci-cd/' | relative_url }})
+and regression tests. Version control, deployment automation, production
+monitoring, and recovery sit in the same practice.
+
 [Maria Vechtomova]({{ '/people/mariavechtomova/' | relative_url }})
 argues for this pragmatic overlap in
 [Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }}).
@@ -129,6 +141,14 @@ Around 30:32, he covers the [model registry]({{ '/wiki/model-registry/' | relati
 Around 31:15-31:51, he separates batch inference, online serving, and
 orchestration.
 
+Simon extends that path to metadata, lineage, artifact logging, and tracking
+around 42:48-45:50 in
+[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
+That makes [reproducibility]({{ '/wiki/reproducibility/' | relative_url }}),
+[experiment tracking]({{ '/wiki/experiment-tracking/' | relative_url }}), and
+[model registries]({{ '/wiki/model-registry/' | relative_url }}) operating
+concerns rather than optional documentation.
+
 MLOps also adds model-specific monitoring. DevOps monitoring can show that a
 service is available and fast, but a healthy endpoint can still return bad
 predictions. Theofilos covers drift and fairness in
@@ -166,6 +186,14 @@ That puts MLOps beside
 [ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }}),
 [Machine Learning Infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }}),
 and [MLOps Engineer]({{ '/wiki/mlops-engineer/' | relative_url }}).
+
+Simon also frames central MLOps work as enablement rather than ownership
+removal. Around 16:52-20:04 in
+[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}),
+he links build-vs-buy and platform scope to repeated team needs. Around
+28:20-54:15, the platform starts with experiment tracking and registries. It
+then covers serving plus orchestration. Metadata, lineage, and logging come
+into scope too.
 
 Nadia's research explains why ownership can't be a simple handoff from data
 scientist to software engineer. In
@@ -244,6 +272,33 @@ That means experiments, training data, model artifacts and serving. It also
 means monitoring and feedback. Retraining, governance and model ownership
 belong there too.
 
+Ask what must be recreated. If the answer is code and dependencies, the work is
+mostly DevOps. Configuration and infrastructure usually stay in that same
+frame.
+
+If the answer includes data snapshots and feature definitions, the work needs
+MLOps controls. Training runs and experiments belong there too. Metrics, model
+artifacts, and approval history also matter.
+
+Raphaël draws this reproducibility boundary in
+[MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }})
+around 42:31-44:22. Simon links it to metadata and lineage in
+[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }})
+around 42:48-45:50.
+
+Ask what can fail silently. If uptime and logs cover the risk, the monitoring
+problem is mostly DevOps. Deployment status and error rates stay in that same
+view. If the team also needs input distributions and prediction distributions,
+the monitoring problem is MLOps. Fairness checks, data profiles, and retraining
+triggers belong there too.
+
+Theofilos covers drift and retraining in
+[Mastering MLOps]({{ '/podcasts/mlops-kubeflow-model-monitoring/' | relative_url }})
+around 11:17-14:44. Danny connects model monitoring to upstream
+data-pipeline diagnosis in
+[MLOps Architect Guide]({{ '/podcasts/mlops-model-monitoring-data-observability/' | relative_url }})
+around 27:35-34:25.
+
 Use both terms when a production ML system depends on a software service. A
 fraud model API or recommender system still needs DevOps discipline. So does a
 batch scoring workflow or LLM-backed feature. The same system also needs MLOps
@@ -256,14 +311,17 @@ These pages cover the operating models and production concepts behind the
 comparison:
 
 - [MLOps]({{ '/wiki/mlops/' | relative_url }})
-- [MLOps vs DevOps]({{ '/comparisons/mlops-vs-devops/' | relative_url }})
 - [Software Engineering]({{ '/wiki/software-engineering/' | relative_url }})
 - [Platform Engineering]({{ '/wiki/platform-engineering/' | relative_url }})
+- [ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }})
+- [Machine Learning Infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }})
 - [CI/CD]({{ '/wiki/ci-cd/' | relative_url }})
 - [Reproducibility]({{ '/wiki/reproducibility/' | relative_url }})
 - [Experiment Tracking]({{ '/wiki/experiment-tracking/' | relative_url }})
 - [Model Registry]({{ '/wiki/model-registry/' | relative_url }})
 - [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }})
 - [Data Observability]({{ '/wiki/data-observability/' | relative_url }})
+- [DataOps]({{ '/wiki/dataops/' | relative_url }})
 - [MLOps Engineer]({{ '/wiki/mlops-engineer/' | relative_url }})
 - [Software Engineer to Machine Learning]({{ '/wiki/software-engineer-to-machine-learning/' | relative_url }})
+- [Notebook to Production AI Systems]({{ '/wiki/notebook-to-production-ai-systems/' | relative_url }})

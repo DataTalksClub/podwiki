@@ -5,7 +5,6 @@ summary: "A practical DataTalks.Club guide to RAG implementation choices and bou
 related:
   - Retrieval-Augmented Generation
   - Search, RAG, and Knowledge Systems
-  - RAG vs Fine-Tuning
   - Vector Databases
   - LLM Evaluation Workflows
   - Agent Engineering

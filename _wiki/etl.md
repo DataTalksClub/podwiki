@@ -3,7 +3,6 @@ layout: wiki
 title: "ETL"
 summary: "Podcast-grounded guide to extract-transform-load pipelines, ETL fit, staging, data quality, lineage, and modern platform work."
 related:
-  - ETL vs ELT
   - ELT
   - Data Pipelines
   - Data Engineering Platforms

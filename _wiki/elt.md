@@ -3,7 +3,6 @@ layout: wiki
 title: "ELT"
 summary: "Podcast-grounded guide to ELT as a load-first data pipeline approach for warehouses, dbt transformations, analytics engineering, orchestration, CDC, quality checks, and governed data marts."
 related:
-  - ETL vs ELT
   - ETL
   - Modern Data Stack
   - Data Warehouse

@@ -3,7 +3,6 @@ layout: wiki
 title: "Data Pipelines"
 summary: "Podcast-grounded guide to data pipelines as movement, transformation, publication, and operations across ingestion, orchestration, testing, recovery, batch, streaming, CDC, and ML handoffs."
 related:
-  - ETL vs ELT
   - CDC
   - Orchestration
   - DataOps

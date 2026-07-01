@@ -6,7 +6,6 @@ summary: "A podcast-backed roadmap for analysts moving into analytics engineerin
 search_intent: "People searching for data analyst to analytics engineer usually want a practical transition path: which analyst skills transfer, what modeling and dbt skills to add, and what project evidence proves readiness."
 related_wiki:
   - Data Analyst Role
-  - Data Analyst vs Analytics Engineer
   - Analytics Engineering
   - Analytics Engineering Roadmap
   - Analytics Engineering Portfolio Projects

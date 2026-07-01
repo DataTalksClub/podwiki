@@ -5,7 +5,6 @@ summary: "How DataTalks.Club guests turn LLM demos into production systems with 
 related:
   - LLMs
   - Retrieval-Augmented Generation
-  - RAG vs Fine-Tuning
   - LLM Evaluation Workflows
   - Agent Engineering
   - AI Engineer Role

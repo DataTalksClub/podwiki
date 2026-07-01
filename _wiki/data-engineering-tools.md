@@ -6,7 +6,6 @@ related:
   - Data Engineering
   - Data Engineering Platforms
   - Modern Data Stack
-  - ETL vs ELT
   - Data Quality and Observability
   - DataOps
   - Analytics Engineering

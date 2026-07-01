@@ -4,7 +4,6 @@ title: "Data Analyst Role"
 summary: "Archive-backed guide to the data analyst role: SQL, metrics, dashboards, experiments, stakeholder communication, and boundaries with analytics engineering, data science, and data engineering."
 related:
   - Data Analyst Careers
-  - Data Analyst vs Analytics Engineer
   - Product Analytics
   - Analytics Engineering
   - Metrics

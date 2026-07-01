@@ -5,7 +5,6 @@ summary: "A podcast-backed roadmap for analytics engineering: SQL modeling, dbt-
 related:
   - Analytics Engineering
   - Analytics Engineering Portfolio Projects
-  - Data Analyst vs Analytics Engineer
   - Marketing to Analytics Engineering
   - Modern Data Stack
   - Product Analytics

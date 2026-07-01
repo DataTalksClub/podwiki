@@ -6,7 +6,6 @@ related:
   - AI Tooling
   - LLM Production Patterns
   - Retrieval-Augmented Generation
-  - RAG vs Fine-Tuning
   - LLM Evaluation Workflows
   - Agent Engineering
   - Generative AI

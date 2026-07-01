@@ -7,7 +7,6 @@ related:
   - LLM Production Patterns
   - LLM Evaluation Workflows
   - Retrieval-Augmented Generation
-  - RAG vs Fine-Tuning
   - Agent Engineering
   - AI Red Teaming
   - AI Tooling
@@ -28,10 +27,15 @@ developer tools around prompts. The narrower prompt question is what the model
 sees and how the team constrains the answer. It also covers how they test prompt
 changes and when they stop trying to solve the problem with wording alone.
 
+Use
+[RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }})
+when the decision is whether a system needs better prompts, retrieved context,
+or model adaptation.
+
 ## Common Definition
 
-The archive's practical definition is closest to "give the model the right job
-and evidence, plus the right target format." In
+Guests usually define the work as giving the model the right job and evidence,
+plus the right target format. In
 [Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}),
 [Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }})
 starts with a role and objective, then adds examples and heuristics at 11:11. In his

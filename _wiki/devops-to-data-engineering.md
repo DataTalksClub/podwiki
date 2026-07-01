@@ -8,7 +8,6 @@ related:
   - DataOps
   - Data Engineering Platforms
   - Data Quality and Observability
-  - MLOps vs DevOps
   - Open Source Portfolio Evidence
 ---
 

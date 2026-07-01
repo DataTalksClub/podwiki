@@ -83,7 +83,7 @@ These keyword groups already have editorial coverage:
 | Data Science Recruiter | `_guides/data-science-recruiter.md` | data science headhunter, data scientist headhunter |
 | AI Tools for Personal Productivity | `_guides/ai-tools-for-personal-productivity.md` | ai tools for personal productivity, ai for personal productivity |
 | Delta Lake vs Apache Iceberg | `_comparisons/delta-lake-vs-apache-iceberg.md` | delta lake, delta lake vs apache iceberg, apache iceberg vs delta lake |
-| ETL vs ELT | `_comparisons/etl-vs-elt.md`, `_wiki/etl-vs-elt.md` | etl vs elt, elt vs etl, etl and elt |
+| ETL vs ELT | `_comparisons/etl-vs-elt.md`; old wiki URL redirects | etl vs elt, elt vs etl, etl and elt |
 | DataOps Platforms | `_wiki/dataops-platforms.md` | dataops platforms |
 | A/B Testing | `_wiki/a-b-testing.md`, `_wiki/experimentation-and-causal-inference.md`, `_wiki/experimentation.md`, `_wiki/power-analysis.md` | a/b testing podcast, ab testing, product experimentation |
 | Open Source | `_wiki/open-source.md`, `_wiki/open-source-portfolio-evidence.md`, `_roadmaps/open-source-contributor-roadmap.md` | what is open source, data engineering open source projects, open source entity resolution |

@@ -10,7 +10,6 @@ related_wiki:
   - Product Analytics
   - Metrics
   - Experimentation
-  - Data Analyst vs Analytics Engineer
   - Analytics Engineering
   - Data Products
 ---

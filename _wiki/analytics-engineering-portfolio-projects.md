@@ -7,7 +7,6 @@ related:
   - Analytics Engineering
   - Dashboard and Metric Layer Project Checklist
   - Analytics Engineering Roadmap
-  - Data Analyst vs Analytics Engineer
   - Data Engineering Portfolio Projects
   - Product Analytics
   - Data Quality and Observability

@@ -4,7 +4,6 @@ title: "Data Analyst Careers"
 summary: "A podcast-grounded career page for data analyst paths, entry points, portfolio evidence, hiring signals, and transitions into analytics engineering, data science, and data engineering."
 related:
   - Data Analyst Role
-  - Data Analyst vs Analytics Engineer
   - Product Analytics
   - Job Search
   - CV Screening

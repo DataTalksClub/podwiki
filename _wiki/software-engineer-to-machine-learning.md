@@ -9,7 +9,6 @@ related:
   - Machine Learning Engineer Role
   - Machine Learning Portfolio Projects
   - MLOps
-  - MLOps vs DevOps
   - Notebook to Production AI Systems
 ---
 

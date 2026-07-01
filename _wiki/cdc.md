@@ -6,7 +6,6 @@ related:
   - Data Engineering
   - Data Pipelines
   - Modern Data Stack
-  - ETL vs ELT
   - Streaming
   - DataOps
   - Data Engineering Platforms

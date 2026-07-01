@@ -9,7 +9,6 @@ related:
   - Analytics Engineering
   - Business Intelligence
   - dbt
-  - ETL vs ELT
   - Data Quality and Observability
   - Data Governance
 ---

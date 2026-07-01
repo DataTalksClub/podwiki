@@ -6,7 +6,6 @@ related:
   - Evaluation
   - Retrieval-Augmented Generation
   - RAG
-  - RAG vs Fine-Tuning
   - LLM Production Patterns
 ---
 

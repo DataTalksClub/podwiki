@@ -9,7 +9,6 @@ related:
   - Delta Lake
   - Modern Data Stack
   - DataOps
-  - ETL vs ELT
   - Data Governance
 ---
 
