@@ -25,17 +25,17 @@ A/B testing is a randomized product experiment. A team assigns comparable users
 or sessions to a control experience and one changed experience. It then compares
 the outcomes on metrics chosen before the test starts.
 
-In the DataTalks.Club archive, A/B testing is the practical bridge between
+Guests use A/B testing as the practical bridge between
 [product analytics]({{ '/wiki/product-analytics/' | relative_url }}),
 [experimentation]({{ '/wiki/experimentation/' | relative_url }}), and
-[causal inference]({{ '/wiki/causal-inference/' | relative_url }}). It turns a
-product question into a rollout decision, which is why it also matters for
-[data product management]({{ '/wiki/data-product-management/' | relative_url }}).
+[causal inference]({{ '/wiki/causal-inference/' | relative_url }}). The test
+turns a product question into a rollout decision, which is why it also matters
+for [data product management]({{ '/wiki/data-product-management/' | relative_url }}).
 Teams also use A/B tests in
 [machine learning system design]({{ '/wiki/machine-learning-system-design/' | relative_url }}),
 [data products]({{ '/wiki/data-products/' | relative_url }}), and
 [production search evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }})
-when teams need online evidence before rollout.
+when they need online evidence before rollout.
 
 [Jakob Graff]({{ '/people/jakobgraff/' | relative_url }}) gives the core
 definition in
@@ -47,7 +47,7 @@ under live product conditions.
 
 ## Common Definition
 
-A common archive definition is narrower than "try two variants and look at a
+A practical definition is narrower than "try two variants and look at a
 dashboard." A useful A/B test has stable assignment and logged exposure. It has
 a control group, a treatment group, a primary metric, and an agreed decision
 rule.
@@ -64,7 +64,7 @@ uses [A/A testing at 27:52]({{ '/podcasts/ab-testing-and-product-experimentation
 as the trust check. If two identical groups show a large difference, the
 measurement system needs attention before an A/B result is credible.
 
-## Guest Differences
+## Guest Tradeoffs
 
 The guests agree that A/B testing is about causal decisions, but they use it in
 different operating contexts.
@@ -175,7 +175,7 @@ teams need enough sample size and duration to detect the effect they care about.
 At 37:44, he ties duration planning to statistical power rather than calendar
 convenience.
 
-The archive separates statistical significance from product significance. In
+Guests separate statistical significance from product significance. In
 [the A/B testing episode at 47:44]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}),
 Jakob explains p-values through an A/A comparison. A passing threshold is only
 part of the decision. The team still needs to ask whether the estimated uplift is
@@ -277,7 +277,7 @@ causal inference handle many decisions outside that clean setup.
 ## Related Pages
 
 These pages cover the adjacent concepts used throughout the A/B testing
-archive:
+episodes:
 
 - [Experimentation]({{ '/wiki/experimentation/' | relative_url }})
 - [A/A Testing]({{ '/wiki/a-a-testing/' | relative_url }})

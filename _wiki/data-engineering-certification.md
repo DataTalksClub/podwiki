@@ -186,7 +186,7 @@ You still need to understand the categories behind those platforms:
 - [data warehouses]({{ '/wiki/data-warehouse/' | relative_url }})
 - [data lakes]({{ '/wiki/data-lake/' | relative_url }})
 - [dbt]({{ '/wiki/dbt/' | relative_url }})
-- [Apache Airflow]({{ '/wiki/orchestration/' | relative_url }})
+- [Apache Airflow]({{ '/wiki/apache-airflow/' | relative_url }})
 
 [Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) gives that
 vocabulary in

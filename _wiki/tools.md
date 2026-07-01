@@ -162,7 +162,7 @@ That stack view links directly to these graph nodes:
 
 For article coverage, see
 [Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }})
-and [Apache Airflow]({{ '/wiki/orchestration/' | relative_url }}).
+and [Apache Airflow]({{ '/wiki/apache-airflow/' | relative_url }}).
 
 ## MLOps and ML Platform Tools
 

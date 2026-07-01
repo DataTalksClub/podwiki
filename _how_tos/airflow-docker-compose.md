@@ -5,6 +5,7 @@ keyword: "airflow docker compose"
 summary: "A practical setup for running Airflow locally with Docker Compose for data pipeline projects, with DAG structure, mounted code, checks, logs, and limits."
 search_intent: "People searching for airflow docker compose usually want a practical local setup for learning or portfolio data pipelines, plus guidance on what belongs in Airflow versus Python, SQL, dbt, or other pipeline code."
 related_wiki:
+  - Apache Airflow
   - Orchestration
   - Data Pipelines
   - Data Engineering Tools
@@ -21,8 +22,9 @@ makes the setup useful for learning, DAG development, teaching, and portfolio
 review.
 
 The local setup workflow sits under
-[Orchestration and Airflow]({{ '/wiki/orchestration/' | relative_url }}) for
-the concept. The broader pipeline build sequence lives in
+[Apache Airflow]({{ '/wiki/apache-airflow/' | relative_url }}) for the tool
+concept and [orchestration]({{ '/wiki/orchestration/' | relative_url }}) for
+the broader control-plane structure. The broader pipeline build sequence lives in
 [How to Build Data Pipelines]({{ '/how-tos/how-to-build-data-pipelines/' | relative_url }})
 and [End-to-End Data Pipeline Project]({{ '/wiki/end-to-end-data-pipeline-project/' | relative_url }}).
 

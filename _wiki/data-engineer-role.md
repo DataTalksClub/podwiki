@@ -150,9 +150,8 @@ Orchestration is part of the role when jobs depend on each other or run on a
 schedule. Airflow appears in Jeff's interview guide at 1:20 as a practical
 skill signal. It also appears in the broader project content as a tool for
 recurring data pipelines. See
-[Apache Airflow]({{ '/wiki/orchestration/' | relative_url }}) and
-[Airflow]({{ '/wiki/orchestration/' | relative_url }}) for the tool-specific
-discussion.
+[Apache Airflow]({{ '/wiki/apache-airflow/' | relative_url }}) for the
+tool-specific discussion.
 
 Data engineers also own operational quality. Roksolana's 39:09 and 43:37
 sections connect the role to monitoring, schema descriptions, documentation,

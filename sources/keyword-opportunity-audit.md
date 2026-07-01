@@ -71,7 +71,7 @@ These keyword groups already have editorial coverage:
 | Data product roles | `_guides/data-product-manager.md`, `_wiki/data-product-management.md`, `_guides/product-analyst.md` | data product manager, data product management, product analyst |
 | Product owner vs product manager | `_comparisons/product-owner-vs-product-manager.md` | data product owner, data science product owner |
 | Data engineering management | `_wiki/leadership.md` | data engineering manager, data engineer manager |
-| Airflow | `_wiki/orchestration.md`, `_how_tos/airflow-docker-compose.md` | airflow, apache airflow, airflow docker compose |
+| Airflow | `_wiki/apache-airflow.md`, `_wiki/orchestration.md`, `_how_tos/airflow-docker-compose.md` | airflow, apache airflow, airflow docker compose |
 | Data Engineering Zoomcamp | main DataTalks.Club course page | data engineering zoomcamp, data-engineering-zoomcamp, dataengineering zoomcamp, data engineer zoomcamp, data engineering zoom camp |
 | MLOps Zoomcamp | main DataTalks.Club course page | mlops zoomcamp, mlops-zoomcamp, mlops zoom camp, datatalks.club mlops zoomcamp |
 | Machine Learning Zoomcamp | main DataTalks.Club course page | machine learning zoomcamp, ml zoomcamp, machine learning zoomcamp reddit |
@@ -134,6 +134,7 @@ main DataTalks.Club site owns those course queries.
 14. `_wiki/founder.md`
 15. `_wiki/entrepreneurship.md`
 16. `_guides/machine-learning-for-startups.md`
+17. `_wiki/apache-airflow.md`
 
 The duplicate data engineering course, courses, bootcamp, and training guide
 variants were later removed. Their useful guidance belongs in

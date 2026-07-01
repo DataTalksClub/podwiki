@@ -3,6 +3,7 @@ layout: wiki
 title: "Orchestration and Airflow"
 summary: "Podcast-grounded guide to orchestration and Airflow across schedules, DAGs, dependencies, retries, backfills, platform conventions, batch inference, and ETL boundaries."
 related:
+  - Apache Airflow
   - Data Pipelines
   - Data Engineering Platforms
   - DataOps
@@ -25,13 +26,16 @@ that the workflow engine defines dependencies and schedules work when data
 arrives or on a timer. It retries when late data, transient infrastructure, or
 bugs break a run.
 
-That makes orchestration broader than Airflow. Airflow is a common
-orchestrator, but the archive also discusses Luigi, Prefect, and Dagster.
-GitHub Actions appears in the same group. Cloud schedulers and AWS Batch appear
-there too. So do SageMaker Pipelines, Kubeflow Pipelines, and CI/CD pipelines.
+That makes orchestration broader than
+[Apache Airflow]({{ '/wiki/apache-airflow/' | relative_url }}). Airflow is a
+common orchestrator, but guests also discuss Luigi, Prefect, and Dagster. GitHub
+Actions appears in the same group. Cloud schedulers and AWS Batch appear there
+too. So do SageMaker Pipelines, Kubeflow Pipelines, and CI/CD pipelines.
 
 Airflow earns its place when a team needs shared run history, dependency state,
-retries, and backfills for recurring workflows. It's often too much when one
+retries, and backfills for recurring workflows. Use
+[Apache Airflow]({{ '/wiki/apache-airflow/' | relative_url }}) for the
+Airflow-specific tool boundary and DAG design. It's often too much when one
 small script can run from cron, a cloud scheduler, or GitHub Actions. Teams
 should treat that choice as part of [data engineering platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
 and [DataOps]({{ '/wiki/dataops/' | relative_url }}). It also belongs with
@@ -198,8 +202,7 @@ depend on each other and how the team recovers from missed or failed work.
 ## Backfills and Reruns
 
 Backfills turn orchestration from "run today's job" into "recompute a historical
-window correctly." The DataTalks.Club archive discusses this most clearly in
-feature platforms.
+window correctly." Guests discuss this most clearly in feature platforms.
 
 In
 [Feature Stores for MLOps]({{ '/podcasts/mlops-feature-stores-feature-stores-feast-tecton/' | relative_url }}),
@@ -223,7 +226,7 @@ consumers changed.
 
 ## Tool Choices
 
-Airflow remains the common reference point in the archive. Kwong uses it as an
+Airflow remains the common reference point. Kwong uses it as an
 orchestrator around Airbyte and dbt
 ([ETL vs ELT and Modern Data Engineering]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
 30:59-35:42). Albertsson compares Luigi and Airflow as workflow orchestrators

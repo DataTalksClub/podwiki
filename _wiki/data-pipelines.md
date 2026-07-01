@@ -33,7 +33,7 @@ outputs, and production ML handoffs belong in the same conversation.
 This topic covers pipeline design. Use
 [ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }}) for the transformation
 boundary, while [Orchestration]({{ '/wiki/orchestration/' | relative_url }})
-and [Apache Airflow]({{ '/wiki/orchestration/' | relative_url }}) cover
+and [Apache Airflow]({{ '/wiki/apache-airflow/' | relative_url }}) cover
 scheduling and dependencies. Use
 [DataOps]({{ '/wiki/dataops/' | relative_url }}) for reliable delivery
 practice, and
@@ -331,7 +331,7 @@ Use [ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }}) when the quest
 where transformations should run. Use [CDC]({{ '/wiki/cdc/' | relative_url }})
 when the source data changes incrementally and full reloads are wasteful. Use
 [Orchestration]({{ '/wiki/orchestration/' | relative_url }}) and
-[Apache Airflow]({{ '/wiki/orchestration/' | relative_url }}) when the
+[Apache Airflow]({{ '/wiki/apache-airflow/' | relative_url }}) when the
 problem is scheduling, dependencies, retries, or backfills.
 
 Use [DataOps]({{ '/wiki/dataops/' | relative_url }}) when the concern is

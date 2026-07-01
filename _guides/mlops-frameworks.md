@@ -95,7 +95,7 @@ For the narrower definitions, use
 
 Orchestration frameworks coordinate training, validation, batch inference, and
 feature generation. They coordinate retraining and recurring checks too. Some
-teams use a data orchestrator such as [Airflow]({{ '/wiki/orchestration/' | relative_url }}).
+teams use a data orchestrator such as [Airflow]({{ '/wiki/apache-airflow/' | relative_url }}).
 
 Others use managed ML pipelines or a platform-specific workflow engine. Smaller
 teams often begin with CI/CD jobs. They move to a workflow engine after retries,

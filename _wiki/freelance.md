@@ -23,7 +23,7 @@ direct data engineering version in
 [Freelance Data Engineering Playbook]({{ '/podcasts/freelance-data-engineering-pricing-and-clients/' | relative_url }}).
 He moved from startup and corporate work into freelancing through a recruiter.
 His projects included legacy cleanup,
-[Airflow]({{ '/wiki/orchestration/' | relative_url }}) implementation, data
+[Airflow]({{ '/wiki/apache-airflow/' | relative_url }}) implementation, data
 science work, and a warehouse build that later led to hiring an internal data
 team.
 

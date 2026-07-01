@@ -208,8 +208,7 @@ them. Airflow appears at 17:22, but the lesson is broader than orchestration.
 Reusable templates, playbooks, and naming practices help engineers onboard
 quickly and keep pipelines understandable. Kafka schemas and contracts at 23:26
 serve the same purpose for event-driven systems. See
-[Apache Airflow]({{ '/wiki/orchestration/' | relative_url }}),
-[Airflow]({{ '/wiki/orchestration/' | relative_url }}), and
+[Apache Airflow]({{ '/wiki/apache-airflow/' | relative_url }}) and
 [streaming]({{ '/wiki/streaming/' | relative_url }}) for tool-specific pages.
 
 [Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) gives the

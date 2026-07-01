@@ -96,7 +96,7 @@ follow-up."
 
 Add a run path outside a notebook. That can be a CLI command, a Docker Compose
 job, a simple DAG, or
-[Airflow]({{ '/wiki/orchestration/' | relative_url }}) when the dependencies
+[Airflow]({{ '/wiki/apache-airflow/' | relative_url }}) when the dependencies
 justify it. Use the
 [Airflow Docker Compose setup]({{ '/how-tos/airflow-docker-compose/' | relative_url }})
 when a local reviewer should look at the Airflow UI, task logs, and rerun

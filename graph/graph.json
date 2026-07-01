@@ -1,7 +1,7 @@
 {
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
-    "wikis": 171,
+    "wikis": 172,
     "articles": 49,
     "guides": 19,
     "comparisons": 19,
@@ -10,8 +10,8 @@
     "podcasts": 202,
     "persons": 438,
     "topics": 145,
-    "nodes": 1005,
-    "links": 10515
+    "nodes": 1006,
+    "links": 10571
   },
   "nodes": [
     {
@@ -8419,6 +8419,16 @@
       "search": "Analytics Engineering Roadmap A podcast backed roadmap for analytics engineering: SQL modeling, dbt style workflows, metric ownership, stakeholder trust, and the move from dashboards to governed analytical products."
     },
     {
+      "id": "wiki:apache-airflow",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Apache Airflow",
+      "title": "Apache Airflow",
+      "url": "/wiki/apache-airflow/",
+      "count": 1,
+      "search": "Apache Airflow How podcast guests use Apache Airflow for scheduled data workflows, DAGs, dependencies, retries, backfills, and the platform work around orchestration."
+    },
+    {
       "id": "wiki:apache-iceberg",
       "type": "wiki",
       "collection": "wiki",
@@ -10069,6 +10079,12 @@
     },
     {
       "source": "article:comparison:batch-vs-streaming",
+      "target": "wiki:apache-airflow",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:batch-vs-streaming",
       "target": "wiki:data-engineering",
       "kind": "article-link",
       "weight": 2
@@ -10202,12 +10218,6 @@
     {
       "source": "article:comparison:batch-vs-streaming",
       "target": "wiki:modern-data-stack",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:comparison:batch-vs-streaming",
-      "target": "wiki:orchestration",
       "kind": "article-link",
       "weight": 4
     },
@@ -17647,6 +17657,12 @@
     },
     {
       "source": "article:guide:mlops-frameworks",
+      "target": "wiki:apache-airflow",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:guide:mlops-frameworks",
       "target": "wiki:ci-cd",
       "kind": "article-link",
       "weight": 2
@@ -17752,12 +17768,6 @@
       "target": "wiki:model-registry",
       "kind": "article-wiki",
       "weight": 5
-    },
-    {
-      "source": "article:guide:mlops-frameworks",
-      "target": "wiki:orchestration",
-      "kind": "article-link",
-      "weight": 2
     },
     {
       "source": "article:guide:mlops-frameworks",
@@ -18232,6 +18242,18 @@
       "target": "podcast:trends-in-modern-data-engineering",
       "kind": "article-link",
       "weight": 2
+    },
+    {
+      "source": "article:how_to:airflow-docker-compose",
+      "target": "wiki:apache-airflow",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how_to:airflow-docker-compose",
+      "target": "wiki:apache-airflow",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "article:how_to:airflow-docker-compose",
@@ -19741,6 +19763,12 @@
     },
     {
       "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "wiki:apache-airflow",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
       "target": "wiki:career-transitions-in-data",
       "kind": "article-link",
       "weight": 4
@@ -19904,12 +19932,6 @@
     {
       "source": "article:roadmap:data-scientist-to-data-engineer",
       "target": "wiki:modern-data-stack",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:roadmap:data-scientist-to-data-engineer",
-      "target": "wiki:orchestration",
       "kind": "article-link",
       "weight": 2
     },
@@ -40026,6 +40048,288 @@
       "weight": 2
     },
     {
+      "source": "wiki:apache-airflow",
+      "target": "article:comparison:batch-vs-streaming",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:apache-airflow",
+      "target": "article:comparison:etl-vs-elt",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:apache-airflow",
+      "target": "article:guide:dataops-tools",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:apache-airflow",
+      "target": "article:how_to:airflow-docker-compose",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:apache-airflow",
+      "target": "person:adrianbrudaru",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:apache-airflow",
+      "target": "person:andreaskretz",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:apache-airflow",
+      "target": "person:danielegbo",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:apache-airflow",
+      "target": "person:jeffkatz",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:apache-airflow",
+      "target": "person:larsalbertsson",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:apache-airflow",
+      "target": "person:mehdiouazza",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:apache-airflow",
+      "target": "person:nataliekwong",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:apache-airflow",
+      "target": "person:simonstiebellehner",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:apache-airflow",
+      "target": "person:tomaszhinc",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:apache-airflow",
+      "target": "podcast:building-production-ml-platform-and-mlops-team",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:apache-airflow",
+      "target": "podcast:data-engineering-career-path-and-skills",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:apache-airflow",
+      "target": "podcast:data-engineering-tools-modern-data-stack",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:apache-airflow",
+      "target": "podcast:dataops-and-gitops-best-practices-for-data-teams",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:apache-airflow",
+      "target": "podcast:dataops-principles-and-scalable-data-platforms",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:apache-airflow",
+      "target": "podcast:from-radio-astronomy-to-machine-learning-and-data-engineering",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:apache-airflow",
+      "target": "podcast:production-ml-pipelines-with-aws-and-kafka",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:apache-airflow",
+      "target": "podcast:scaling-data-engineering-teams-self-service-platforms",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:apache-airflow",
+      "target": "podcast:trends-in-modern-data-engineering",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:apache-airflow",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:apache-airflow",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:apache-airflow",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:apache-airflow",
+      "target": "wiki:data-engineering-tools",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:apache-airflow",
+      "target": "wiki:data-engineering-tools",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:apache-airflow",
+      "target": "wiki:data-observability",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:apache-airflow",
+      "target": "wiki:data-pipelines",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:apache-airflow",
+      "target": "wiki:data-pipelines",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:apache-airflow",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:apache-airflow",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:apache-airflow",
+      "target": "wiki:dataops",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:apache-airflow",
+      "target": "wiki:dataops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:apache-airflow",
+      "target": "wiki:dbt",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:apache-airflow",
+      "target": "wiki:dbt",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:apache-airflow",
+      "target": "wiki:elt",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:apache-airflow",
+      "target": "wiki:elt",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:apache-airflow",
+      "target": "wiki:etl",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:apache-airflow",
+      "target": "wiki:etl",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:apache-airflow",
+      "target": "wiki:machine-learning-infrastructure",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:apache-airflow",
+      "target": "wiki:ml-platforms",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:apache-airflow",
+      "target": "wiki:mlops",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:apache-airflow",
+      "target": "wiki:modern-data-stack",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:apache-airflow",
+      "target": "wiki:modern-data-stack",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:apache-airflow",
+      "target": "wiki:orchestration",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:apache-airflow",
+      "target": "wiki:orchestration",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
       "source": "wiki:apache-iceberg",
       "target": "article:comparison:data-warehouse-vs-data-lakehouse",
       "kind": "wiki-link",
@@ -44779,6 +45083,12 @@
     },
     {
       "source": "wiki:data-engineer-role",
+      "target": "wiki:apache-airflow",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-engineer-role",
       "target": "wiki:data-engineering",
       "kind": "wiki-link",
       "weight": 4
@@ -44890,12 +45200,6 @@
       "target": "wiki:mlops-tools",
       "kind": "wiki-link",
       "weight": 2
-    },
-    {
-      "source": "wiki:data-engineer-role",
-      "target": "wiki:orchestration",
-      "kind": "wiki-link",
-      "weight": 4
     },
     {
       "source": "wiki:data-engineer-role",
@@ -45301,6 +45605,12 @@
     },
     {
       "source": "wiki:data-engineering-certification",
+      "target": "wiki:apache-airflow",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-engineering-certification",
       "target": "wiki:cv-screening",
       "kind": "wiki-link",
       "weight": 2
@@ -45412,12 +45722,6 @@
       "target": "wiki:open-source-portfolio-evidence",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:data-engineering-certification",
-      "target": "wiki:orchestration",
-      "kind": "wiki-link",
-      "weight": 2
     },
     {
       "source": "wiki:data-engineering-platforms",
@@ -45571,6 +45875,12 @@
     },
     {
       "source": "wiki:data-engineering-platforms",
+      "target": "wiki:apache-airflow",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-engineering-platforms",
       "target": "wiki:apache-iceberg",
       "kind": "wiki-link",
       "weight": 4
@@ -45711,7 +46021,7 @@
       "source": "wiki:data-engineering-platforms",
       "target": "wiki:orchestration",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 2
     },
     {
       "source": "wiki:data-engineering-platforms",
@@ -47335,6 +47645,12 @@
     },
     {
       "source": "wiki:data-observability",
+      "target": "wiki:apache-airflow",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-observability",
       "target": "wiki:data-engineering",
       "kind": "wiki-link",
       "weight": 4
@@ -47390,12 +47706,6 @@
     {
       "source": "wiki:data-observability",
       "target": "wiki:mlops-tools",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:data-observability",
-      "target": "wiki:orchestration",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -47563,6 +47873,12 @@
     },
     {
       "source": "wiki:data-pipelines",
+      "target": "wiki:apache-airflow",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-pipelines",
       "target": "wiki:cdc",
       "kind": "wiki-link",
       "weight": 6
@@ -47625,7 +47941,7 @@
       "source": "wiki:data-pipelines",
       "target": "wiki:orchestration",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 4
     },
     {
       "source": "wiki:data-pipelines",
@@ -49915,6 +50231,12 @@
     },
     {
       "source": "wiki:data-strategy",
+      "target": "wiki:apache-airflow",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-strategy",
       "target": "wiki:data-activation",
       "kind": "wiki-link",
       "weight": 4
@@ -50008,12 +50330,6 @@
       "target": "wiki:mlops",
       "kind": "wiki-link",
       "weight": 2
-    },
-    {
-      "source": "wiki:data-strategy",
-      "target": "wiki:orchestration",
-      "kind": "wiki-link",
-      "weight": 4
     },
     {
       "source": "wiki:data-strategy",
@@ -51271,6 +51587,12 @@
     },
     {
       "source": "wiki:dbt",
+      "target": "wiki:apache-airflow",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:dbt",
       "target": "wiki:ci-cd",
       "kind": "wiki-link",
       "weight": 2
@@ -51346,12 +51668,6 @@
       "target": "wiki:modern-data-stack",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:dbt",
-      "target": "wiki:orchestration",
-      "kind": "wiki-link",
-      "weight": 2
     },
     {
       "source": "wiki:deep-learning",
@@ -52735,6 +53051,12 @@
     },
     {
       "source": "wiki:elt",
+      "target": "wiki:apache-airflow",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:elt",
       "target": "wiki:cdc",
       "kind": "wiki-link",
       "weight": 2
@@ -52816,12 +53138,6 @@
       "target": "wiki:modern-data-stack",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:elt",
-      "target": "wiki:orchestration",
-      "kind": "wiki-link",
-      "weight": 2
     },
     {
       "source": "wiki:embeddings",
@@ -53089,6 +53405,12 @@
     },
     {
       "source": "wiki:end-to-end-data-pipeline-project",
+      "target": "wiki:apache-airflow",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:end-to-end-data-pipeline-project",
       "target": "wiki:data-engineering",
       "kind": "wiki-link",
       "weight": 2
@@ -53169,7 +53491,7 @@
       "source": "wiki:end-to-end-data-pipeline-project",
       "target": "wiki:orchestration",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 4
     },
     {
       "source": "wiki:end-to-end-data-pipeline-project",
@@ -55075,6 +55397,12 @@
     },
     {
       "source": "wiki:freelance",
+      "target": "wiki:apache-airflow",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:freelance",
       "target": "wiki:business-skills-for-data-professionals",
       "kind": "wiki-link",
       "weight": 4
@@ -55136,12 +55464,6 @@
     {
       "source": "wiki:freelance",
       "target": "wiki:data-quality-and-observability",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:freelance",
-      "target": "wiki:orchestration",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -62251,6 +62573,12 @@
     },
     {
       "source": "wiki:modern-data-stack",
+      "target": "wiki:apache-airflow",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:modern-data-stack",
       "target": "wiki:data-activation",
       "kind": "wiki-link",
       "weight": 6
@@ -62349,7 +62677,7 @@
       "source": "wiki:modern-data-stack",
       "target": "wiki:orchestration",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 2
     },
     {
       "source": "wiki:modern-data-stack",
@@ -64108,6 +64436,18 @@
       "target": "podcast:trends-in-modern-data-engineering",
       "kind": "wiki-link",
       "weight": 6
+    },
+    {
+      "source": "wiki:orchestration",
+      "target": "wiki:apache-airflow",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:orchestration",
+      "target": "wiki:apache-airflow",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:orchestration",
@@ -72517,6 +72857,12 @@
     },
     {
       "source": "wiki:tools",
+      "target": "wiki:apache-airflow",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:tools",
       "target": "wiki:ci-cd",
       "kind": "wiki-link",
       "weight": 2
@@ -72693,7 +73039,7 @@
       "source": "wiki:tools",
       "target": "wiki:orchestration",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 6
     },
     {
       "source": "wiki:tools",

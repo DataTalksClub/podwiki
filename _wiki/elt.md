@@ -109,7 +109,7 @@ Snowflake runs the queries in her example stack, while Looker consumes the
 modeled result. This is the
 archive's clearest link between ELT and [analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }}).
 
-[Airflow]({{ '/wiki/orchestration/' | relative_url }}) belongs at the scheduling
+[Airflow]({{ '/wiki/apache-airflow/' | relative_url }}) belongs at the scheduling
 and dependency boundary. Kwong says Airflow is an orchestrator that can run
 Airbyte jobs. It isn't the transformation layer
 ([modern stack episode at 30:59-31:31]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})).
