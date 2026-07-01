@@ -10,206 +10,205 @@ related:
   - Experimentation
 ---
 
-Event tracking records product and customer actions as named events. A team
-adds properties, owners, and collection context to those events. In the
-DataTalks.Club podcast discussions, it isn't treated as passive logging. Teams
-use it for [product analytics]({{ '/wiki/product-analytics/' | relative_url }}),
-[data-led growth]({{ '/wiki/data-led-growth/' | relative_url }}), and
-[data activation]({{ '/wiki/data-activation/' | relative_url }}). Support, sales,
-and lifecycle messaging use the same signals.
+Event tracking records product and customer actions as named events. Teams add
+properties, owners, and collection context to those events. In DataTalks.Club
+discussions, teams use those events for
+[product analytics]({{ '/wiki/product-analytics/' | relative_url }}) and
+[data-led growth]({{ '/wiki/data-led-growth/' | relative_url }}). They also use
+them for [data activation]({{ '/wiki/data-activation/' | relative_url }}) and
+[A/B testing]({{ '/wiki/a-b-testing/' | relative_url }}).
+
+The same events can feed dashboards and experiments. They can also feed support
+views, sales prioritization, onboarding messages, and personalized product
+experiences.
 
 [Arpit Choudhury]({{ '/people/arpitchoudhury/' | relative_url }}) gives the
-clearest DataTalks.Club framing in
+clearest product-growth framing in
 [How to Build a Data-Led Growth Stack]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }}).
+At 13:34, he starts with
+[tracking plans]({{ '/wiki/tracking-plans/' | relative_url }}). Teams document
+event names and properties before engineers instrument the product. They also
+document data types, ownership, and semantics. At 22:50, he puts events in a
+flow from collection to storage and analysis.
 
-At 13:34, he starts from tracking plans, where teams document event names and
-properties. They also record data types, ownership, and semantics before they
-implement instrumentation.
+At 30:03, event data reaches support and sales as well as engagement tools and
+product experiences.
 
-At 22:50, he places events inside a flow from collection to storage and
-analysis. At 30:03, the same event data leaves dashboards and reaches support,
-sales, and engagement tools. Product experiences use it too.
+[Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) gives the
+warehouse-centered view in
+[ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}).
+Her discussion of raw storage, warehouse layers, transformations, and
+guardrails explains why product events need clear definitions after collection
+too. Her operational reverse data flow discussion extends the same idea to
+business tools. [Jakob Graff]({{ '/people/jakobgraff/' | relative_url }}) adds
+the experiment boundary in
+[Product Analytics and A/B Testing]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}).
 
-## Common Definition
+Event tracking can describe behavior, but causal product decisions also need
+randomization and assignment tracking. They also need stable metrics, A/A
+tests, and power analysis.
 
-Across these episodes, event tracking means turning product behavior into data
-that other teams can use. A team chooses the actions that matter and names them
-consistently. It also attaches useful properties, chooses capture locations,
-and keeps enough context for analysts and operators to trust the result.
+## Instrumentation Rules
 
-Arpit's SaaS examples include signup, email verification, project creation, and
-invitations. Task creation, client creation, and invoice creation appear in the
-same discussion
+Event tracking starts with deciding which product actions matter. Arpit's SaaS
+examples include signup, email verification, and project creation. He also
+names teammate invitations, task creation, client creation, and invoice creation
 ([data-led growth at 23:27-27:00]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }})).
 
-Those examples show why event tracking sits before
-[tracking plans]({{ '/wiki/tracking-plans/' | relative_url }}),
-funnels, activation, and reverse ETL. A `signup` event can mean a clicked
-button, a submitted form, an email verification, or a completed user record.
-Teams need to document the meaning before they use the metric in a dashboard or
-customer workflow.
+Those examples show why `signup` can't remain a vague label. It can mean a
+button click, a submitted form, an email verification, or a completed user
+record. Teams need to define the meaning before they use the metric in a
+dashboard or funnel. They also need the definition before the event feeds a
+segment, experiment, or customer workflow.
 
-[Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) gives the data
-engineering side in
-[ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}).
-She describes raw data storage, warehouse layers, transformations, and
-governance. She also covers operational reverse data flows.
+At 13:34-16:01, Arpit treats the tracking plan as the control point and
+recommends documenting event names and properties. Teams also document data
+types, semantics, owners, and implementation context. The plan lets analysts ask
+where an event came from and what behavior it represents.
 
-Her discussion at 17:55-24:24 explains why teams need guardrails around
-ingested data before they build downstream analytics. At 35:42-39:06, she
-connects modeled warehouse data to operational tools. Event tracking provides
-one source for that warehouse-centered path.
+It also gives engineers a place to confirm capture location and naming.
+Engineers can also check feasibility and data-quality implications before
+instrumentation ships
+([tracking-plan discussion]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }})).
 
-## Guest Differences
+Arpit separates planning from tooling. At 20:47-22:50, he mentions Avo,
+Iteratively, and TrackPlan as collaborative tracking-plan tools. Engineers still
+implement the events. Product and growth teams define the behavior they need to
+measure. Engineers confirm where each event fires and whether the event should
+be client-side, server-side, or both.
 
-Arpit starts from product and growth. He cares about whether product teams,
-growth teams, support, and sales can act on behavior data. His event tracking
-discussion leads naturally into product analytics, CDPs, reverse ETL, and
-personalized onboarding
-([data-led growth at 7:21-9:46 and 30:03-41:30]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }})).
+## Client-Side and Server-Side Events
 
-Natalie starts from platform design. She doesn't focus on product event
-taxonomy, but her modern-stack discussion explains what happens after teams
-collect data. Raw ingestion and warehouse layers matter. So do dbt
-transformations, data marts, governance, and cleanup
-([modern data stack at 15:30-21:22 and 43:02-45:59]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})).
+At 27:00, Arpit compares client-side and server-side events because capture
+location changes the meaning of an event. Client-side events fit attempts,
+clicks, page interactions, and user-interface behavior. Server-side events fit
+completed business actions such as successful signup or project creation
+([data-led growth at 27:00]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }})).
+Many teams need both, but they shouldn't treat both as the same source of truth.
 
-[Jakob Graff]({{ '/people/jakobgraff/' | relative_url }}) adds the measurement
-boundary in
-[the A/B testing episode]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}).
-For experiments, tracking the event isn't enough. Teams also need assignment
-tracking, A/A tests, stable metrics, and power analysis before they can trust a
-product result
-([A/B testing at 8:13-37:44]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }})).
+Arpit's fake-signup example at 18:27 shows the debugging value of that
+distinction. When a signup metric spikes, the team needs to trace which event
+source fired. The team also needs to know whether the signal reflects real
+users, automated accounts, a front-end attempt, or a completed account record
+([anomaly investigation]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }})).
+Without source context, teams can argue about the dashboard while the product,
+growth, and engineering owners look at different meanings of the same event
+name.
 
-## Tracking Plans
+## Product Analytics and Experiments
 
-[Tracking plans]({{ '/wiki/tracking-plans/' | relative_url }}) are the control
-point for event tracking. Arpit recommends documenting event names, properties,
-data types, and semantics before engineers instrument the product. Teams also
-record owners and implementation context. That plan gives analysts a way to ask
-where an event came from and what behavior it represents
-([data-led growth at 13:34-16:01]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }})).
-
-The same episode uses anomaly investigation to show why this matters. At 18:27,
-Arpit discusses fake signup spikes and source tracing. A team can't debug that
-kind of spike if it doesn't know which event source fired. It also needs to know
-whether the event was client-side or server-side and which product action it
-represented.
-
-Arpit also separates planning from implementation. At 20:47-22:50, he mentions
-Avo, Iteratively, and TrackPlan as collaborative tracking-plan tools. The
-events still need engineering implementation. Product and growth teams can
-define what they need. Engineers confirm feasibility, naming, capture location,
-and data quality implications.
-
-## Product Analytics
-
-Product analytics depends on event tracking because funnels and cohorts start
-from product behavior. Retention and activation metrics do too. Arpit places
-product analytics after collection and storage. Events flow into warehouses,
-product analytics tools, and BI tools. Teams then ask questions about
+[Product analytics]({{ '/wiki/product-analytics/' | relative_url }}) depends on
+event tracking because funnels and cohorts start from behavior data. Retention
+curves, activation metrics, and engagement analysis do too. At 22:50-30:03,
+Arpit places product analytics after collection and storage. Events flow into
+warehouses, product analytics tools, and BI tools. Teams then analyze
 acquisition, activation, retention, and engagement
-([data-led growth at 22:50-30:03]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }})).
+([collection-to-analysis flow]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }})).
 
-This is also where
-[Product Analytics]({{ '/wiki/product-analytics/' | relative_url }}) connects
-to [A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }}). Jakob's
-experimentation episode shows that event tracking can describe behavior, but
-causal product decisions need experiment design. Assignment events, exposure
-events, outcome metrics, and segment definitions all need the same care as
-ordinary product events
-([A/B testing at 14:27-44:39]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }})).
+Product analysts often work at that boundary. The
+[Product Analyst]({{ '/guides/product-analyst/' | relative_url }}) guide links
+tracking plans with funnels, experiments, and product behavior. A product
+analyst may review event semantics, check whether a funnel step reflects the
+intended behavior, and explain a metric change. Users may have changed
+behavior, or instrumentation may have changed.
 
-For role context, the
-[Product Analyst]({{ '/guides/product-analyst/' | relative_url }}) article
-uses this podcast connection. Product analysts often review tracking plans and
-check event semantics. They also build funnels, support experiments, and
-explain whether a metric reflects real product behavior.
+Jakob's A/B testing discussion adds a stricter measurement standard because at
+14:27-44:39 he covers randomization and assignment tracking. He also covers
+monitoring, stable metrics, power analysis, and distribution checks
+([A/B testing episode]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }})).
 
-## Data Quality
+Ordinary event tracking can tell a team what users did, but experimentation
+needs assignment events and exposure events. It also needs outcome events and
+segment definitions that stay stable enough to support causal claims. For the
+broader measurement topic, see
+[experimentation and causal inference]({{ '/wiki/experimentation-and-causal-inference/' | relative_url }}).
 
-Event data fails when teams capture too much or name events inconsistently.
-Missing ownership creates the same problem. Arpit recommends trimming the first
-event list instead of tracking everything in one batch. The first pass should
-cover the journey points needed for acquisition, activation, and retention
+## Warehouse Modeling and Data Quality
+
+Event tracking doesn't end at collection. Natalie explains the downstream
+side of the stack in the modern-data-stack episode. At 17:55-21:22, she covers
+raw storage and ingestion guardrails. She also covers data lakes and
+governance. At 15:30-18:47 she separates raw data from warehouse layers, data
+marts, and transformations
+([modern stack discussion]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})).
+
+Those layers matter for event tracking because product events often become
+modeled tables and funnel marts. They also become BI datasets and activation
+inputs.
+
+Arpit makes the event-quality problem concrete before the data reaches those
+layers. He recommends trimming the first event list instead of tracking
+everything in one batch. The first implementation should cover the journey
+points needed for acquisition, activation, and retention
 ([data-led growth at 23:27-24:43]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }})).
+Too many loosely named events create duplicate meanings, missing owners, and
+unused data. Too few events leave analysts unable to explain where users drop
+off.
 
-Capture location also affects quality because Arpit compares client-side and
-server-side events at 27:00. Client-side events are useful for attempts,
-clicks, page interactions, and UI behavior. Server-side events are stronger for
-completed business actions such as successful signup or project creation. Many
-teams need both, but they shouldn't treat both as the same source of truth.
-
-At 17:55-21:22, Natalie's modern-stack episode adds downstream controls around
-raw storage, guardrails, and governance. Without those controls, teams may store
-events that nobody trusts because the definitions, freshness, or structure may
-be unclear. This connects event tracking to
+Natalie's governance and cleanup discussion at 43:02-45:59 extends that quality
+work after ingestion. Teams need guardrails around definitions and freshness.
+They also need clear structure and ownership before they trust event data in
+recurring analysis
+([modern data stack at 43:02-45:59]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})).
+That puts event tracking near
 [data quality and observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}),
-[data observability]({{ '/wiki/data-observability/' | relative_url }}), and
-[data governance]({{ '/wiki/data-governance/' | relative_url }}).
+[data observability]({{ '/wiki/data-observability/' | relative_url }}),
+[data governance]({{ '/wiki/data-governance/' | relative_url }}), and
+[modern data stack]({{ '/wiki/modern-data-stack/' | relative_url }}) work.
 
-## Reverse ETL And Activation
+## Activation and Reverse ETL
 
 Event tracking becomes more valuable when teams use events outside analytics
-tools. Arpit describes activation as making event data available in support,
-sales, engagement, and product experiences. A support agent can see customer
-usage. A sales team can prioritize product-qualified accounts. A growth team
-can personalize onboarding or lifecycle messages
+tools. Arpit describes activation as making product and customer data available
+in support, sales, engagement, and product experiences. A support agent can see
+customer usage. A sales team can prioritize product-qualified accounts. A
+growth team can personalize onboarding or lifecycle messages
 ([data-led growth at 30:03-33:41]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }})).
 
 [Reverse ETL]({{ '/wiki/reverse-etl/' | relative_url }}) is one activation
 route. At 35:27-38:20, Arpit places reverse ETL after warehouse storage and
 transformation. He names Census, Hightouch, and Grouparoo as examples. Natalie
-gives the engineering version at 35:42-39:06 in the modern-stack episode.
-Teams push modeled warehouse tables back into source systems or business tools
-instead of writing custom scripts for each destination.
+gives the engineering version at 35:42-39:06 in the modern-stack episode. Teams
+push modeled warehouse tables back into source systems or business tools
+instead of writing custom scripts for each destination
+([warehouse reverse flows]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})).
 
 [Customer data platforms]({{ '/wiki/customer-data-platforms/' | relative_url }})
 are another route. Arpit frames CDPs as bundled systems for collection,
-segmentation, and activation at 38:20-41:30. The warehouse-centric route gives
-analytics teams more control over transformations and definitions. The bundled
-route can be faster for marketing and growth teams, but it can hide modeling
-and governance decisions.
+segmentation, and activation at 38:20-41:30
+([CDP tradeoffs]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }})).
+The warehouse-centric route gives analytics and data engineering teams more
+control over transformations and definitions. The bundled route can be faster
+for marketing and growth teams, but it can hide modeling and governance
+decisions that still affect customer-facing actions.
 
-## Governance
+## Ownership and Change Control
 
-Event tracking needs governance because bad events don't stay in one dashboard.
-They can reach experiments and sales workflows. Support tools, lifecycle
-messaging, and product experiences can depend on them too. Arpit's
-team-composition section at 46:13-56:08 names data engineers, analysts,
-analytics engineers, and product operations. He also emphasizes
+Event definitions need owners because bad events rarely stay in one dashboard.
+They can reach experiments, sales workflows, and support tools. They can also
+reach lifecycle messaging and product experiences.
+
+At 46:13-56:08, Arpit names data engineers and analysts in the data-led growth
+stack. He also names analytics engineers and product operations. He emphasizes
 documentation and data literacy because event definitions have to survive
-handoffs.
+handoffs
+([team structure and literacy]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }})).
 
-Teams start governance with the tracking plan, then continue it through storage
-and modeling. Ownership, cleanup, and review matter too. Natalie makes that
-continuation explicit when she discusses raw data guardrails and governance
-around data lakes. She also recommends regular cleanup of unused data
-([modern data stack at 17:55-21:22 and 43:02-43:45]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})).
+Teams start governance with the tracking plan and continue it through storage,
+modeling, and activation. They need to know who can add an event and who
+reviews its name and properties. They also need to know who receives a
+notification when the meaning changes. Without that change path, a team can
+instrument quickly while breaking funnels and experiments. It can also break
+support views or reverse ETL destinations.
 
-Teams need to know who can change an event. They also need a reviewer and a
-notification path when the meaning changes. Without that change path, a team
-can ship instrumentation quickly but still break funnels or experiments. It can
-also break support views or reverse ETL destinations.
+The practical boundary between guests is useful. Arpit starts from product and
+growth teams that need behavior data they can act on. Natalie starts from
+platform design and warehouse controls. Jakob starts from causal measurement.
 
-## Related Pages
-
-These pages cover the concepts that event tracking depends on or feeds:
-
-- [Tracking Plans]({{ '/wiki/tracking-plans/' | relative_url }}) for event
-  names, properties, data types, and owners.
-- [Data-Led Growth]({{ '/wiki/data-led-growth/' | relative_url }}) for the
-  growth-stack framing around product data, personalization, and activation.
-- [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }}) for
-  funnels, cohorts, retention, and engagement analysis.
-- [Data Activation]({{ '/wiki/data-activation/' | relative_url }}) for
-  operational workflows that use trusted event and customer data.
-- [Reverse ETL]({{ '/wiki/reverse-etl/' | relative_url }}) for pushing modeled
-  warehouse data into business tools.
-- [Customer Data Platforms]({{ '/wiki/customer-data-platforms/' | relative_url }})
-  for bundled collection, segmentation, and activation.
-- [A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }}) for experiment
-  events, assignment tracking, and metric interpretation.
-- [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}) for
-  ingestion, transformations, and warehouse-centered activation.
+Together, those discussions put event tracking at the junction of
+[tracking plans]({{ '/wiki/tracking-plans/' | relative_url }}) and
+[product analytics]({{ '/wiki/product-analytics/' | relative_url }}). They also
+tie it to [data activation]({{ '/wiki/data-activation/' | relative_url }}) and
+[reverse ETL]({{ '/wiki/reverse-etl/' | relative_url }}).
+[Experimentation]({{ '/wiki/experimentation-and-causal-inference/' | relative_url }})
+belongs in the same measurement surface.

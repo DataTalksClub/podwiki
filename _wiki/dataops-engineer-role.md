@@ -39,7 +39,7 @@ role-shaped version in
 There, DataOps sits closer to support and communication than to writing every
 pipeline. Onboarding and monitoring belong there too.
 
-## Common Definition
+## Operating Definition
 
 Bergh, Hinc, and Albertsson converge on a role that helps data teams change
 pipelines without depending on heroics or tribal knowledge. The job combines
@@ -64,7 +64,7 @@ DataOps aligns workflows, enablement, and people. At
 storage and compute sit beside workflow engines. Quality automation and schema
 automation turn DataOps from individual habit into shared infrastructure.
 
-## Guest Disagreements
+## Role Boundary Debates
 
 Guests agree on reliable data delivery, but they differ on whether DataOps is
 a dedicated role. Some treat it as a platform capability or as a practice every
@@ -87,7 +87,7 @@ Bergh's version is less title-bound. In
 DataOps reduces production errors, deployment cycle time, and team toil. In
 [DataOps for Data Engineering at 50:29]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }}),
 he recommends starting from production monitoring because real incidents reveal
-which process gaps matter. In that framing, a data engineer, analytics
+which operating gaps matter. In that framing, a data engineer, analytics
 engineer, or team lead can apply DataOps practice before the company hires a
 separate DataOps engineer.
 
@@ -122,7 +122,7 @@ Ownership also includes handoff quality. Bergh connects replaceability,
 documentation, and lower on-call burden in
 [Mastering DataOps at 38:01]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }}).
 A DataOps engineer should leave pipelines easier for another person to review,
-rerun, and debug. That connects the role to
+rerun, and debug. Those responsibilities put the role close to
 [data quality and observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}),
 [orchestration]({{ '/wiki/orchestration/' | relative_url }}), and
 [data pipelines]({{ '/wiki/data-pipelines/' | relative_url }}).
@@ -272,7 +272,7 @@ In a small team, DataOps is usually a practice shared by data engineers,
 analytics engineers, or platform-minded individual contributors. Bergh's
 starting advice in
 [DataOps for Data Engineering at 58:34]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }})
-points individual contributors toward practical process improvements before a
+points individual contributors toward practical delivery improvements before a
 company creates a formal role. The title matters less than whether the team can
 review and test data changes. Teams also need to deploy, monitor, and recover
 those changes without relying on one person's memory.

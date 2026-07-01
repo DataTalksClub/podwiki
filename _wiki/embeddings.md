@@ -15,140 +15,109 @@ or other objects. They let a system compare meaning or behavior by distance in a
 shared vector space instead of comparing only exact words or hand-written rules.
 
 DataTalks.Club guests often place embeddings behind
-[search]({{ '/wiki/search/' | relative_url }}),
-[vector databases]({{ '/wiki/vector-databases/' | relative_url }}), and
-[retrieval-augmented generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}).
-They also support recommendation systems, multimodal retrieval,
-weak-supervision workflows, and production
-[ML systems]({{ '/wiki/machine-learning-system-design/' | relative_url }}).
-They aren't the whole product. Guests separate embedding generation from
-storage, ranking, evaluation, and business logic.
-
-## Common Definition
-
-Reem, Atita, and Meryem use embeddings as learned representations for search
-and retrieval.
+[search]({{ '/wiki/search/' | relative_url }}) and
+[vector databases]({{ '/wiki/vector-databases/' | relative_url }}). They also
+appear in
+[retrieval-augmented generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
+systems. Recommendation systems and multimodal retrieval use them too.
 
 In
-[Production ML Search]({{ '/podcasts/production-ml-search-vector-search-embeddings-hybrid-search/' | relative_url }}),
-[Reem Mahmoud]({{ '/people/reemmahmoud/' | relative_url }}) maps the concept to
-vector search. At 21:55, she explains that queries and searchable items can be
-mapped into the same representation space. That shared space lets a system
-retrieve items with similar meaning even when the words differ.
+weak-supervision workflows and production
+[ML systems]({{ '/wiki/machine-learning-system-design/' | relative_url }}),
+they're a representation layer, not the whole product. Guests separate
+embedding generation from storage and ranking. They also separate evaluation,
+citations, and business logic.
 
-[Atita Arora]({{ '/people/atitaarora/' | relative_url }}) gives the same idea a
-retrieval-system frame in
+## Representation Space
+
+[Reem Mahmoud]({{ '/people/reemmahmoud/' | relative_url }}) maps embeddings to
+vector search in
+[Production ML Search]({{ '/podcasts/production-ml-search-vector-search-embeddings-hybrid-search/' | relative_url }}).
+At 21:55, she explains that queries and searchable items can be mapped into the
+same representation space. Retrieval can then find items with similar meaning
+even when the words differ. At 29:00, she separates vector compute from vector
+storage. The embedding model stays distinct from the database that stores and
+searches vectors.
+
+[Atita Arora]({{ '/people/atitaarora/' | relative_url }}) gives the same
+representation idea a retrieval-system frame in
 [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}).
-At 38:24, she walks through transcript ingestion for RAG. The system splits
-documents into chunks, chooses overlap, creates embeddings, and stores vectors
-for retrieval.
-
-The example separates three responsibilities. The embedding model creates the
-representation, and the
+At 38:24, her transcript chatbot example creates chunks with overlap, embeds
+them, and stores vectors for retrieval. The embedding model creates the
+representation. The
 [vector database]({{ '/wiki/vector-databases/' | relative_url }}) retrieves
-nearby vectors. The application still needs prompts, citations, and evaluation.
+nearby vectors. The application still needs prompts, references, and evaluation.
 
 [Meryem Arik]({{ '/people/meryemarik/' | relative_url }}) connects embeddings
 to production LLM systems in
 [Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}).
 At 48:01, she describes vector databases through embeddings, indexing, and
-semantic search. Her surrounding discussion distinguishes retrieval from
-fine-tuning. Retrieval fits changing knowledge, while fine-tuning changes model
-behavior or style.
+semantic search. In the surrounding discussion, retrieval fits changing
+knowledge, while fine-tuning changes model behavior or style. The same boundary
+is expanded in
+[RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }}).
 
-## Guest Differences
+## Semantic Search
 
-Guests agree on the representation idea, but each guest stresses another risk.
-Reem's production-search discussion focuses on product ranking. Around
-29:00 in
-[Production ML Search]({{ '/podcasts/production-ml-search-vector-search-embeddings-hybrid-search/' | relative_url }}),
-she separates vector compute from vector storage. Around 34:00-45:11, she adds
-filters and recency. She also adds popularity, metadata, behavior, and
-query-time weights.
+Keyword matching can be too brittle when users express the same intent with
+different language. Reem describes keyword-search challenges around 20:02 in
+[Production ML Search]({{ '/podcasts/production-ml-search-vector-search-embeddings-hybrid-search/' | relative_url }}).
+At 21:55, she introduces vector search as a way to match queries and documents
+through shared representations. That keeps embeddings inside the larger
+[information retrieval]({{ '/wiki/information-retrieval/' | relative_url }})
+system. Vector search changes candidate generation, but it doesn't replace
+ranking.
 
-Her view treats embeddings as one signal inside a
-[production search evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }})
-problem.
+Reem separates candidate generation from ML ranking at 12:45 and returns to
+operational search metrics at 1:01:25. A vector match can find plausible
+candidates. The product still has to decide which result belongs first. It also
+has to trade semantic similarity against freshness and popularity.
 
-Atita's view starts from information retrieval. In
-[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}),
-she moves from Solr and Lucene to vector databases, LLMs, and RAG. At 20:27 she
-frames the architecture choice as a migration decision: add vectors to an
-existing search stack or introduce a dedicated vector database. See
-[Vector Database vs Search Engine]({{ '/comparisons/vector-database-vs-search-engine/' | relative_url }})
-for that architecture boundary. At 48:09, she
-pushes evaluation beyond nearest-neighbor retrieval into generated answer
-quality, citations, and human review.
-
-[Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }}) starts
-from practical LLM workflows. In
-[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}),
-he says around 44:26 that RAG can be a quick business win. That happens when
-the chunking and embedding setup fits the problem. At 48:20, he focuses on
-chunking strategy.
-Fixed-size chunks, sliding windows, and context quality determine what the
-embedding model can retrieve.
-
-[Johannes Hötter]({{ '/people/johanneshotter/' | relative_url }}) uses
-embeddings from an NLP tooling perspective. In
-[Build Open-Source NLP Tools]({{ '/podcasts/building-open-source-nlp-tool/' | relative_url }}),
-the 17:34 section places Hugging Face, embeddings, and data management inside
-weak-supervision and labeling workflows. That keeps embeddings connected to
-[NLP]({{ '/wiki/nlp/' | relative_url }}) data work, not only chatbots.
-
-## Search and Semantic Retrieval
-
-Keyword matching can become too brittle for search teams.
-
-In
-[Production ML Search]({{ '/podcasts/production-ml-search-vector-search-embeddings-hybrid-search/' | relative_url }}),
-Reem describes keyword search challenges around 20:02. At 21:55, she introduces
-vector search as a way to match queries and documents through shared
-representations. That doesn't remove classical
-[information retrieval]({{ '/wiki/information-retrieval/' | relative_url }}).
-It changes what candidate generation can do.
-
-The search stack still needs ranking. Reem separates candidate generation from
-ML ranking at 12:45 and returns to operational search metrics at 1:01:25. A
-vector match can find plausible candidates. The product still has to decide
-which result belongs first. It also has to trade semantic similarity against
-freshness, popularity, and business rules.
+Metadata, behavior, query-time weights, and business rules also matter. Her 34:00-45:11
+discussion of filters and recency makes embeddings one signal inside
+[production search evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }}),
+not a substitute for product ranking.
 
 Atita makes the architecture choice explicit in
 [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}).
-At 17:01 and 20:27, she compares plug-and-play vector search with vector
-support inside existing search systems. She uses that comparison to support a
-recurring point in these discussions. Teams should choose embeddings, vector
-storage, and search application behavior separately.
+At 17:01 and 20:27, she compares plug-and-play vector search with vector support
+inside existing search systems. That decision is the same boundary covered in
+[Vector Database vs Search Engine]({{ '/comparisons/vector-database-vs-search-engine/' | relative_url }}).
+Teams can choose the embedding model, vector storage, and search application
+behavior as separate design decisions.
 
-## RAG and Knowledge Systems
+## RAG Systems
 
-In RAG, embeddings retrieve context for a language model. Guests treat RAG as a
-search problem with generation attached. It isn't only an LLM feature.
-
-Atita's transcript-chatbot example in
+In [RAG]({{ '/wiki/rag/' | relative_url }}), embeddings retrieve context for a
+language model. Atita's transcript-chatbot example in
 [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
 starts at 35:49 and becomes concrete at 38:24. The system chunks transcripts
-and sets overlap. It embeds chunks, retrieves the relevant passages, and then
-generates an answer with references.
+with overlap, embeds them, and retrieves relevant passages. It then generates
+an answer with references. At 48:09, she extends evaluation beyond
+nearest-neighbor retrieval into generated answer quality, citation quality, and
+human review.
 
 Meryem's production discussion adds the update path. In
 [Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}),
 she compares retrieval with retraining around 40:46-42:02. Retrieval fits
-systems that need current or proprietary knowledge. The team can re-ingest,
+systems that need current or proprietary knowledge. A team can re-ingest,
 re-embed, and re-index documents instead of fine-tuning the model every time
-facts change. That's the same distinction used on
-[RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }}).
+facts change.
 
-Hugo's RAG workflow gives the builder's version of the same idea. Around 44:26
-in
-[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}),
-he presents chunking and embeddings as a practical first step for useful LLM
-systems. Around 48:20, he warns that chunk boundaries and context rot determine
-whether retrieval gives the model the right evidence. Embeddings help only if
-the chunks preserve the information the answer needs.
+[Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }}) gives
+the builder's version in
+[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}).
+Around 44:26, he presents chunking and embeddings as a practical first step for
+useful LLM systems.
 
-## Recommendations and Multimodal Systems
+Around 48:20, he focuses on chunking strategy. Fixed-size chunks, sliding
+windows, and context quality determine what the embedding model can retrieve.
+Embeddings help only when the chunks preserve the information an answer needs.
+The broader
+[Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
+page treats retrieval as search with generation attached.
+
+## Recommendations and Multimodal Retrieval
 
 Guests don't limit embeddings to text. In
 [Production ML Search]({{ '/podcasts/production-ml-search-vector-search-embeddings-hybrid-search/' | relative_url }}),
@@ -157,70 +126,53 @@ and CLIP-style representations. At 38:50, she expands the vector beyond raw
 text or image content by adding metadata, behavior, and popularity. At 58:17,
 she uses e-commerce personalization as a concrete example.
 
-Atita also connects vectors to recommendation use cases in
+Atita connects vectors to recommendation use cases in
 [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}).
 Around 52:07, she discusses vector databases for ML systems beyond RAG,
-including session-based recommendations and re-ranking. The same split appears
-again. Embeddings retrieve candidates, while ranking, constraints, and product
-goals decide what users actually see.
+including session-based recommendations and re-ranking. The same separation
+appears again. Embeddings retrieve candidates, while ranking, constraints, and
+product goals decide what users actually see.
 
-## NLP Tooling and Labeling
+## NLP Data Work
 
-Guests also discuss embeddings as infrastructure for training-data work.
+[Johannes Hötter]({{ '/people/johanneshotter/' | relative_url }}) uses
+embeddings from an [NLP]({{ '/wiki/nlp/' | relative_url }}) tooling perspective.
 In
 [Build Open-Source NLP Tools]({{ '/podcasts/building-open-source-nlp-tool/' | relative_url }}),
-Johannes describes weak supervision and labeling workflows before connecting
-Hugging Face, embeddings, and data management at 17:34. This work goes beyond
-retrieval. Embeddings help teams look at text, cluster similar examples, build
-heuristics, and manage messy labels.
+he describes weak supervision and labeling workflows before connecting Hugging
+Face, embeddings, and data management at 17:34. Embeddings can help teams look
+at text, cluster similar examples, build heuristics, and manage messy labels
+before a production search system exists.
 
-That makes embeddings part of the wider [NLP]({{ '/wiki/nlp/' | relative_url }})
-workflow, and a team may use them before production search exists. Common uses
-include data exploration, active learning, weak supervision, and error analysis.
-The representation still needs governance. If labels, source documents, or
-model versions change, the embeddings and downstream checks may need to change
-too.
+This data-work framing makes embedding versioning part of model governance. If
+labels, source documents, or model versions change, the stored vectors and
+downstream checks may need to change too. Public search, RAG, and labeling use
+embeddings differently. They share the same representation risk: a vector only
+helps if it preserves the distinction the downstream task needs.
 
-## Evaluation and Production Tradeoffs
+## Production Evaluation
 
-Embeddings create operational work because Reem separates embedding generation
-from vector storage at 29:00 in
-[Production ML Search]({{ '/podcasts/production-ml-search-vector-search-embeddings-hybrid-search/' | relative_url }}).
-That split affects model versioning and query-vector compatibility. Teams also
-have to plan batch reindexing, latency, and rollback. A vector database can
-store and retrieve vectors, but it can't repair stale embeddings or a mismatch
-between document and query encoders.
+Embeddings create operational work because vector search has multiple moving
+parts. Reem's 29:00 split between embedding generation and vector storage in
+[Production ML Search]({{ '/podcasts/production-ml-search-vector-search-embeddings-hybrid-search/' | relative_url }})
+affects model versioning and query-vector compatibility. It also affects batch
+reindexing, latency, and rollback. A vector database can store and retrieve
+vectors, but it can't repair stale embeddings or a mismatch between document
+and query encoders.
 
-Because evaluation has to match the product, search teams test retrieval,
-ranking, and product outcomes separately. Reem ties this to business KPIs and
-A/B tests around 1:01:25. For RAG, Atita adds answer quality and citation
-quality around 48:09 in
+Evaluation has to match the product. Reem ties search quality to business KPIs
+and A/B tests around 1:01:25. Atita adds answer quality, citation quality, and
+human review for RAG around 48:09 in
 [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}).
-She also adds human review.
-
-For LLM workflows, Hugo adds gold evaluation sets and failure analysis. Around
-23:00-27:38, he also covers logs and traces in
-[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}).
+Hugo adds gold evaluation sets and failure analysis for LLM workflows. His
+23:00-27:38 discussion in
+[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }})
+covers logs and traces.
 
 Nearest-neighbor matches are candidate evidence, not proof. A retrieved passage
 can be wrong, stale, incomplete, or irrelevant to the user's real task. The
 production system needs provenance, citations, feedback loops, and regression
-tests. Use
-[LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }})
-for LLM-specific checks and
+tests. [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }})
+covers LLM-specific checks, while
 [Production Search Evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }})
-for retrieval and ranking checks.
-
-## Related Pages
-
-Use these pages for the surrounding architecture and evaluation details.
-
-- [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
-- [Vector Databases]({{ '/wiki/vector-databases/' | relative_url }})
-- [Search]({{ '/wiki/search/' | relative_url }})
-- [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
-- [NLP]({{ '/wiki/nlp/' | relative_url }})
-- [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
-- [RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }})
-- [Production Search Evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }})
-- [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }})
+covers retrieval and ranking checks.

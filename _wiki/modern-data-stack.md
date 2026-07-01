@@ -13,13 +13,13 @@ related:
   - Data Observability
 ---
 
-Teams use the modern data stack to collect data and load it into analytical
-storage. They model the data for consumers and keep the flow running after the
-business starts depending on it. DataTalks.Club guests usually
-describe this as warehouse-centered
-[ELT]({{ '/wiki/elt/' | relative_url }}). The stack includes ingestion,
-SQL transformations, orchestration, and BI. It sometimes includes reverse
-flows into business tools.
+Teams use the modern data stack to collect and load data into analytical
+storage. They model it for consumers and keep the flow running after the
+business depends on it. DataTalks.Club guests usually describe this as
+warehouse-centered [ELT]({{ '/wiki/elt/' | relative_url }}). The stack includes
+ingestion and SQL transformations. It also includes
+[orchestration]({{ '/wiki/orchestration/' | relative_url }}), BI, and sometimes
+reverse flows into business tools.
 
 [Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) gives the
 clearest stack-level introduction in
@@ -32,45 +32,53 @@ Later in the same episode, she places data marts and lakes next to
 warehouses. She also adds orchestration, Airbyte-style loading, CDC, and
 reverse ETL.
 
-## Common Definition
+The same map reaches [data warehouses]({{ '/wiki/data-warehouse/' | relative_url }}),
+[data engineering tools]({{ '/wiki/data-engineering-tools/' | relative_url }}),
+and [DataOps]({{ '/wiki/dataops/' | relative_url }}). It also covers
+[reverse ETL]({{ '/wiki/reverse-etl/' | relative_url }}),
+[data activation]({{ '/wiki/data-activation/' | relative_url }}), and
+[data observability]({{ '/wiki/data-observability/' | relative_url }}).
+
+## Stack Boundaries
 
 Across the interviews, guests use a practical definition rather than a
-brand-specific one. Teams first identify source systems. Then they move data
-into a warehouse, lake, or lakehouse. They transform it into trusted models and
-schedule the jobs.
-
-Finally, they expose the result to dashboards and analysts. The same data may
-also serve product teams, models, or operational systems.
+brand-specific one. Teams identify source systems and move data into a
+warehouse, lake, or lakehouse. They transform it into trusted models and
+schedule the jobs. They expose the result to dashboards and analysts. The same
+data may also serve product teams, models, or operational systems.
 
 Kwong's 33:45 discussion names the typical modern analytics stack as
 best-of-breed tools rather than one monolith. [Arpit Choudhury]({{ '/people/arpitchoudhury/' | relative_url }})
-describes the growth version of the same flow in
+describes the growth version in
 [How to Build a Data-Led Growth Stack]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }}).
-Teams collect events, store them, analyze them, and activate them in business
-tools (22:50-41:30).
+Teams collect events, store them, and analyze them. They also activate the
+results in business tools (22:50-41:30).
 
 [Eddy Zulkifly]({{ '/people/eddyzulkifly/' | relative_url }}) adds the
 cost-aware engineering version in
 [FinOps for Data Engineers]({{ '/podcasts/finops-for-data-engineers/' | relative_url }}).
 At 21:57-24:34, he frames ELT, dbt, and BigQuery as parts of a digital
-warehouse. He also includes orchestration, monitoring, and tests. Teams have
-to run all of it economically. Use
+warehouse. He places orchestration, monitoring, and tests in the same operating
+picture. Teams then need
 [FinOps for Data Engineers]({{ '/wiki/finops-for-data-engineers/' | relative_url }})
-for the cloud-cost layer.
+practices because tool choice also creates cloud usage, SaaS spend, and
+ownership questions.
 
-This makes the modern data stack adjacent to
+The modern data stack sits next to
 [data engineering platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}).
-A stack is the set of tools. A platform adds conventions, ownership, and
-access paths. It also adds deployment habits and support paths so teams can
-use those tools reliably.
+A stack names the tools. A platform adds conventions, ownership, access paths,
+and deployment habits. It also adds support paths so teams can use those tools
+reliably.
 
-## Guest Differences
+## Tooling Choices and Constraints
 
 Guests agree on the broad flow, but they focus on different constraints.
+
 Kwong starts with the move from ETL to ELT. Her version centers on faster
-iteration, warehouse-side transformation, and analyst autonomy. She still
-keeps governance in view, especially when she discusses data swamps at 21:22
-and unused data ownership at 43:02.
+iteration, warehouse-side transformation, and analyst autonomy. She still keeps
+governance in view. At 21:22, she discusses data swamps. At 43:02, she discusses
+unused data ownership in
+[ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}).
 
 [Santona Tuli]({{ '/people/santonatuli/' | relative_url }}) starts from
 pipeline design in
@@ -101,10 +109,10 @@ separating reliable loading from warehouse-side modeling.
 Teams also decide how much source detail to preserve during ingestion. Kwong's
 ELT discussion argues for loading first when teams need flexibility (7:57-10:00 in
 [ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})).
-That choice helps when business logic changes later.
-That connects directly to [ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }}).
-ETL can still fit large enterprises or complex staging needs, which Kwong
-covers at 41:30.
+The same choice matters in the [ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }})
+tradeoff because loading first preserves flexibility when business logic
+changes later. ETL can still fit large enterprises or complex staging needs,
+which Kwong covers at 41:30.
 
 Tuli adds the pipeline-engineering view. At 10:48 in
 [Modern Data Pipeline Architecture]({{ '/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/' | relative_url }}),
@@ -114,7 +122,7 @@ ingestion concerns such as deduplication, ordering guarantees, and PII masking.
 Those concerns determine whether a simple connector is enough or whether the
 team needs a stronger pipeline engine.
 
-## Warehouses And Lakehouses
+## Warehouses and Lakehouses
 
 The warehouse is the default center of the stack in the older modern-stack
 interviews. Kwong describes warehouses, marts, and data lakes at 15:30-27:39 in
@@ -137,10 +145,11 @@ Tuli discusses staging and lakehouse architecture at 32:57 in
 Brudaru explains Apache Iceberg as a table format over Parquet at 18:17 in
 [Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}).
 At 21:27, he separates storage, compute, and access through the catalog
-discussion. He also includes metadata and lineage. See
-[Data Warehouse]({{ '/wiki/data-warehouse/' | relative_url }}) and
+discussion. He also includes metadata and lineage. The storage tradeoff sits
+between [Data Warehouse]({{ '/wiki/data-warehouse/' | relative_url }}) and
 [Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
-for the storage tradeoff.
+because teams choose between warehouse-first modeling, lakehouse table formats,
+and mixed architectures.
 
 ## Transformations
 
@@ -188,11 +197,11 @@ compares Airflow, Prefect, and Dagster. He also includes GitHub Actions.
 
 Across these episodes, guests choose orchestration for workflows that need
 dependency handling and retries. They also need visibility and clear ownership.
-They keep simpler scheduling when the pipeline doesn't justify a full control plane. For the
-Airflow-specific article, see
+They keep simpler scheduling when the pipeline doesn't justify a full control
+plane. The Airflow-specific details live in
 [Apache Airflow]({{ '/wiki/apache-airflow/' | relative_url }}).
 
-## Reverse ETL And Activation
+## Reverse ETL and Activation
 
 Modern data stack discussions often stop at dashboards, but several episodes
 extend the stack into operational systems. Kwong introduces reverse data flows
@@ -216,7 +225,7 @@ a dashboard can also power lifecycle messaging, sales routing, onboarding, or
 support context. That makes ownership and quality more important because a bad
 sync can change a customer-facing workflow.
 
-## Observability And Cost
+## Observability and Cost
 
 Teams create risk when they move data quickly but can't tell whether it's
 healthy. [Barr Moses]({{ '/people/barrmoses/' | relative_url }})
@@ -231,10 +240,10 @@ says something changed, and observability helps the team diagnose why.
 
 Teams need those signals across modern-stack tools. Ingestion jobs,
 transformations, orchestration runs, and reverse ETL syncs all need checks that
-match their consumers. See
+match their consumers.
 [Data Observability]({{ '/wiki/data-observability/' | relative_url }}) and
 [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
-for the operating layer.
+cover the operating layer in more detail.
 
 Cost is another operating constraint.
 [FinOps for Data Engineers]({{ '/wiki/finops-for-data-engineers/' | relative_url }})
@@ -251,23 +260,3 @@ standardized reporting.
 Warehouse-first stacks can shift complexity into compute, storage, and
 managed-tool bills. Teams need ownership for cost just as much as they need
 ownership for schemas and SLAs.
-
-## Related Pages
-
-These pages cover adjacent tools, practices, and tradeoffs:
-
-- [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
-- [Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }})
-- [ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }})
-- [ELT]({{ '/wiki/elt/' | relative_url }})
-- [dbt]({{ '/wiki/dbt/' | relative_url }})
-- [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
-- [Data Warehouse]({{ '/wiki/data-warehouse/' | relative_url }})
-- [Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
-- [FinOps for Data Engineers]({{ '/wiki/finops-for-data-engineers/' | relative_url }})
-- [Orchestration]({{ '/wiki/orchestration/' | relative_url }})
-- [Reverse ETL]({{ '/wiki/reverse-etl/' | relative_url }})
-- [Data Activation]({{ '/wiki/data-activation/' | relative_url }})
-- [Data Observability]({{ '/wiki/data-observability/' | relative_url }})
-- [DataOps]({{ '/wiki/dataops/' | relative_url }})
-- [Apache Airflow]({{ '/wiki/apache-airflow/' | relative_url }})

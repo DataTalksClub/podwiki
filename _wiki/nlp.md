@@ -11,30 +11,37 @@ related:
 ---
 
 Natural language processing (NLP) is the part of machine learning that works
-with language data. DataTalks.Club guests discuss text and speech. They also
-discuss documents, dialogue, and translation.
+with language data. In the DataTalks.Club podcast, that language data includes
+text and speech as well as documents, dialogue, and translation. Guests treat
+NLP as the work of turning language into useful software, not only training a
+model.
 
-In DataTalks.Club interviews, guests rarely treat NLP as only model training.
-They connect it to data collection and annotation. They also connect it to
-linguistics, deployment, and evaluation. User safety and product constraints
-matter too.
+Guests repeatedly put NLP next to data collection and annotation. They also tie
+it to linguistics, deployment, and evaluation. User safety and product
+constraints matter too. In
+[NLP Dataset Creation]({{ '/podcasts/nlp-dataset-creation-annotation-tools-workflows/' | relative_url }}),
+[Christiaan Swart]({{ '/people/christiannswart/' | relative_url }}) starts
+from label definitions and annotation guides. In
+[Hardening Generative AI Chatbots]({{ '/podcasts/generative-ai-chatbots-in-production-security/' | relative_url }}),
+[Maria Sukhareva]({{ '/people/mariasukhareva/' | relative_url }}) starts from
+prompt injection, hallucinations, and output validation.
 
-The podcast discussions also connect older NLP work to modern
+Podcast discussions tie older NLP work to modern
 [LLMs]({{ '/wiki/llms/' | relative_url }}),
 [embeddings]({{ '/wiki/embeddings/' | relative_url }}), and
 [RAG]({{ '/wiki/rag/' | relative_url }}). In
 [Lead NLP Teams]({{ '/podcasts/nlp-team-hiring-and-production-mlops/' | relative_url }}),
 [Ivan Bilan]({{ '/people/ivanbilan/' | relative_url }}) describes NLP teams
-as production teams at 14:07-16:45, not only research groups. That framing
-continues through later episodes on
+as production teams at 14:07-16:45, not only research groups. Later episodes
+use the same production frame for
 [LLM production patterns]({{ '/wiki/llm-production-patterns/' | relative_url }}),
 search, speech recognition, and chatbot safety.
 
-## Common Definition
+## Language Systems and Roles
 
 Across the interviews, NLP means turning language data into useful software.
 Some episodes cover text classification, information extraction, and document
-processing. Others cover search, translation, and chatbots. Speech recognition
+analysis. Others cover search, translation, and chatbots. Speech recognition
 and LLM-powered assistants also appear across these episodes.
 
 Ivan's definition in
@@ -46,7 +53,7 @@ deployment. At
 [ML engineering]({{ '/wiki/machine-learning-engineer-role/' | relative_url }})
 through inference optimization, deployment, and
 [MLOps]({{ '/wiki/mlops/' | relative_url }}). At 34:57 he turns the definition
-into a pipeline of annotation, task engineering, testing, and production work.
+into a chain of annotation, task engineering, testing, and production work.
 
 [Christiaan Swart]({{ '/people/christiannswart/' | relative_url }}) gives the
 data-side definition in
@@ -65,7 +72,7 @@ examples. She also links it to Streamlit, Gradio, and Hugging Face Spaces. For
 career and portfolio work, NLP is a set of reproducible projects that other
 people can run.
 
-## Guest Differences
+## Role Boundaries and Failure Modes
 
 Guests agree that NLP works on language data, but they stress different
 failure modes.
@@ -91,7 +98,8 @@ tooling for messy text data. In
 [Build Open-Source NLP Tools]({{ '/podcasts/building-open-source-nlp-tool/' | relative_url }}),
 the 10:14 section discusses text metadata and messy labels. At 13:22-17:34 he
 combines ChatGPT as a labeling heuristic with active learning and crowd labels.
-He also brings in Hugging Face, embeddings, and data management. His view
+He also brings in Hugging Face, [embeddings]({{ '/wiki/embeddings/' | relative_url }}),
+and data management. His view
 centers the workflow around weak supervision and developer control.
 
 [Maria Sukhareva]({{ '/people/mariasukhareva/' | relative_url }}) focuses on
@@ -128,8 +136,8 @@ He also covers programmatic heuristics. Johannes shows the tooling version in
 at 6:33 and 18:33. Refinery and Bricks help teams combine heuristics rather
 than hand-label every example.
 
-This connects NLP to [open source]({{ '/wiki/open-source/' | relative_url }})
-and portfolio work. In
+NLP portfolio work often starts from [open source]({{ '/wiki/open-source/' | relative_url }})
+datasets and demos. In
 [Contribute to Hugging Face and Build an NLP Portfolio]({{ '/podcasts/hugging-face-contributions-and-nlp-portfolio/' | relative_url }}),
 Merve describes dataset scripts, CI learning, and contributor onboarding at
 8:13-10:31. For people learning NLP, a dataset contribution can show practical
@@ -161,7 +169,10 @@ Retrieval keeps language systems grounded in changing knowledge. Meryem
 contrasts retrieval with retraining at 40:46-42:02 in
 [Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}).
 At 48:01 she explains vector databases through embeddings, indexing, and
-semantic search. [Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }})
+semantic search. Her retrieval discussion belongs next to
+[Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }}).
+
+[Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }})
 adds the builder's version in
 [Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}).
 At 44:26-48:20 he focuses on chunking, embeddings, and context quality.
@@ -192,7 +203,7 @@ At 15:25-23:19 she explains why phonetics, morpho-syntax, accents, and speech
 disorders matter for automatic speech recognition. At 27:31-30:53 she explains
 why standard speech datasets and deployment settings can fail for atypical
 speech. At 40:17-47:28 she discusses transfer learning and limited data. She
-also covers transcription, LLM post-processing, and contextual language models.
+also covers transcription, LLM post-correction, and contextual language models.
 
 Maria's
 [Hardening Generative AI Chatbots]({{ '/podcasts/generative-ai-chatbots-in-production-security/' | relative_url }})
@@ -207,7 +218,7 @@ expertise becomes client work in
 [Launching a Freelance Generative AI Business]({{ '/podcasts/practical-generative-ai-consulting-from-expertise-to-impact/' | relative_url }}).
 At 23:11-27:47 she discusses a model-in-the-loop annotation study, annotation
 outcomes, and evaluation. At 47:51 she explains why generative AI appealed to
-her as an NLP-focused consultant. This connects NLP to
+her as an NLP-focused consultant. Her episode places NLP inside
 [freelance]({{ '/wiki/freelance/' | relative_url }}) and practical AI adoption,
 not only research.
 
@@ -239,15 +250,3 @@ robust alternatives for some decisions.
 Maria gives a direct NLP production lesson.
 Choose the narrowest language system that can do the job safely. Then evaluate
 it against the failure modes the product will face.
-
-## Related Pages
-
-Use these pages for the surrounding model, retrieval, and production details.
-
-- [LLMs]({{ '/wiki/llms/' | relative_url }})
-- [Embeddings]({{ '/wiki/embeddings/' | relative_url }})
-- [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
-- [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
-- [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }})
-- [Open Source]({{ '/wiki/open-source/' | relative_url }})
-- [MLOps]({{ '/wiki/mlops/' | relative_url }})

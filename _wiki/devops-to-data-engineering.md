@@ -12,36 +12,28 @@ related:
 ---
 
 DevOps to data engineering is a move from operating software platforms to
-building and operating data platforms. The clearest podcast transition story
-comes from [Agita Jaunzeme]({{ '/people/agitajaunzeme/' | relative_url }}).
-She connects configuration management and early DevOps automation to community
-work. She also links that route to open-source DataOps work on Versatile Data Kit
+building and operating data platforms. [Agita Jaunzeme]({{ '/people/agitajaunzeme/' | relative_url }})
+gives the strongest transition story in the podcast archive. She moved from
+configuration management and early DevOps automation into open-source DataOps
+work on Versatile Data Kit
 ([5:22-9:20]({{ '/podcasts/from-devops-to-data-engineering-automation-open-source-volunteering/' | relative_url }})).
 
 The transition sits near [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }})
-and [DataOps]({{ '/wiki/dataops/' | relative_url }}), and it also overlaps with
+and [DataOps]({{ '/wiki/dataops/' | relative_url }}), with overlap in
 [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}).
-That overlap doesn't make the transition automatic.
+Those overlaps help, but DevOps experience becomes data engineering evidence
+only when it shows data delivery. Repeatable ingestion, tested transformations,
+and scheduled pipelines show one side of that evidence. Recovery paths,
+cost-aware cloud choices, and [Data Observability]({{ '/wiki/data-observability/' | relative_url }})
+show the operations side.
 
-DevOps experience transfers when it becomes evidence of data delivery rather
-than only service uptime. That evidence can include repeatable ingestion, tested
-transformations, and scheduled pipelines. It can also include recovery paths,
-cost-aware cloud choices, and data observability.
+## DevOps Skills That Transfer
 
-Agita grounds the automation version
-([14:29-21:03]({{ '/podcasts/from-devops-to-data-engineering-automation-open-source-volunteering/' | relative_url }})),
-and Bergh grounds the DataOps version
-([15:52-30:55]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }})).
-Moses grounds the data-observability version
-([16:38-41:03]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }})).
-
-## Common Definition
-
-Across the cited episodes, DevOps-to-data-engineering work means taking the
-automation, reliability, and platform habits from DevOps and applying them to
-data pipelines. Jaunzeme's career story starts with configuration management
-and scripts that removed repetitive manual work. She treats the important skill
-as spotting repeated operational work and turning it into a maintained process
+The podcast episodes converge on one practical definition. DevOps-to-data
+engineering work applies automation, reliability, and platform habits to data
+pipelines. Jaunzeme's career story starts with configuration management and
+scripts that removed repetitive manual work. She treats the important skill as
+spotting repeated operational work and turning it into a maintained workflow
 ([5:22 and 14:29]({{ '/podcasts/from-devops-to-data-engineering-automation-open-source-volunteering/' | relative_url }})).
 
 [Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }}) gives the
@@ -57,26 +49,22 @@ data engineering.
 [Slawomir Tulski]({{ '/people/slawomirtulski/' | relative_url }}) defines the
 target role more sharply by separating platform data engineers from product
 data engineers. Platform engineers build shared warehouses, infrastructure,
-tooling, and processing systems.
-
-Product data engineers work closer to business use cases. They also handle
-SQL-heavy data work and data products
+tooling, and processing systems. Product data engineers work closer to business
+use cases, SQL-heavy data work, and data products
 ([11:54-21:50]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }})).
-For DevOps and SRE backgrounds, the cited episodes point first toward the
-platform data engineering lane. The same applies to cloud and platform
-engineers. The fit is strongest when the candidate can show data-system proof,
-not only
-infrastructure ownership.
 
-## Guest Differences
+The cited episodes point DevOps and SRE readers first toward the platform data
+engineering lane. Cloud engineers and platform engineers fit there too.
+Candidates need to show data-system proof, not only infrastructure ownership.
 
-Guests differ on whether to frame the move as a personal transition or as a
-target-role fit. Jaunzeme emphasizes transferable problem solving, automation,
-and documentation. She also emphasizes volunteer leadership, open source, and
+## Career Story and Hiring Bar
+
+Jaunzeme frames the move as transferable problem solving, automation, and
+documentation. She also emphasizes volunteer leadership, open source, and
 community routes back into corporate technical work
 ([19:16-40:23]({{ '/podcasts/from-devops-to-data-engineering-automation-open-source-volunteering/' | relative_url }})).
-Her episode is useful when the candidate needs to turn nonlinear experience
-into a credible data engineering story.
+Her episode is useful when a candidate needs to turn nonlinear experience into a
+credible data engineering story.
 
 Tulski focuses on what the market expects after the transition. He emphasizes
 specialization, SQL, and cloud exposure. He also emphasizes cost awareness and
@@ -94,10 +82,9 @@ She also covers data marts, orchestration, CDC, and reverse data flows
 For a DevOps candidate, that episode names the data-specific surface area, but
 it shouldn't become a checklist of tools to install.
 
-Bergh and [Barr Moses]({{ '/people/barrmoses/' | relative_url }}) differ from
-the role-focused episodes because they start from failure modes. Bergh starts
-with deployment fear and rework. He also covers regression risk and weak
-recovery in data work
+Bergh and [Barr Moses]({{ '/people/barrmoses/' | relative_url }}) start from
+failure modes. Bergh starts with deployment fear, rework, regression risk, and
+weak recovery in data work
 ([13:27-18:46]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }})).
 
 Moses starts with data downtime, silent failures, and schema changes. He then
@@ -106,7 +93,7 @@ connects lineage, ownership, SLAs, and runbooks to data reliability
 Together they show that DevOps monitoring knowledge transfers only after the
 candidate expands it from service health into [Data Observability]({{ '/wiki/data-observability/' | relative_url }}).
 
-## Transferable DevOps Work
+## Platform Habits in Data Work
 
 Automation transfers when it acts on data delivery, and Jaunzeme's scripting
 story shows the career signal. She found repetitive manual work, automated it,
@@ -126,9 +113,9 @@ cloud engineering and processing engines. Cost awareness becomes a competitive
 advantage because cloud data systems can become expensive when teams overbuild
 them
 ([11:54-30:56]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }})).
-That connects the transition to [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
-and [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}),
-but the strongest signal is judgment about scope.
+The transition belongs near [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
+and [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}), but
+the strongest signal is judgment about scope.
 
 Observability transfers when service metrics turn into data-health signals.
 Moses traces data observability back to DevOps observability, then explains why
@@ -141,9 +128,9 @@ Bergh adds the production habit. Watch real systems, use monitoring to drive
 change, and make failures easier to diagnose
 ([50:29-54:05]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }})).
 
-Documentation and process habits transfer when they make data work easier to
-handoff. Jaunzeme describes applying corporate documentation and agile practices
-in volunteer organizations
+Documentation habits transfer when they make data work easier to hand off.
+Jaunzeme describes applying corporate documentation and agile practices in
+volunteer organizations
 ([21:03-25:07]({{ '/podcasts/from-devops-to-data-engineering-automation-open-source-volunteering/' | relative_url }})).
 Bergh links runbooks, documentation, automated playbooks, and replaceability to
 lower on-call pressure in data teams
@@ -168,8 +155,11 @@ covers freshness, lineage, ownership, and data SLAs
 ([13:40-35:24]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }})).
 Bergh adds regression tests and realistic test data for analytics workflows
 ([30:55-34:13]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }})).
-That gap makes [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
-central to this transition.
+
+[Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
+is central to this transition because pipeline health includes freshness and
+volume. It also includes distribution, schema, and lineage, not only job
+success.
 
 Real-time infrastructure doesn't automatically prove senior data engineering.
 Tulski warns that streaming engines, Spark clusters, cloud warehouses, and
@@ -191,8 +181,9 @@ The practical transition starts by turning infrastructure evidence into data
 evidence. A DevOps script becomes stronger when it ingests data and stores raw
 inputs. It should also transform those inputs into useful tables, report
 failures, and support a rerun or backfill path. This follows Jaunzeme's
-automation route and Tulski's advice to build around a concrete platform problem
-([Agita at 14:29-19:16]({{ '/podcasts/from-devops-to-data-engineering-automation-open-source-volunteering/' | relative_url }}),
+automation route and Tulski's advice to build around a concrete platform
+problem
+([Jaunzeme at 14:29-19:16]({{ '/podcasts/from-devops-to-data-engineering-automation-open-source-volunteering/' | relative_url }}),
 [Tulski at 57:35-1:04:42]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }})).
 
 Build the first project as a small data platform rather than a tutorial clone.
@@ -246,9 +237,10 @@ operability visible. For product data engineering or analytics engineering, add
 SQL modeling, metric definitions, and consumer-facing data products
 ([Tulski at 42:08-1:04:42]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }})).
 
-## Related Pages
+## Nearby Topics
 
-These pages cover the nearby role, stack, portfolio, and reliability topics.
+The transition is easiest to compare against nearby role, stack, portfolio, and
+reliability topics.
 
 - [Career Transition]({{ '/wiki/career-transition/' | relative_url }})
 - [Career Transitions in Data]({{ '/wiki/career-transitions-in-data/' | relative_url }})

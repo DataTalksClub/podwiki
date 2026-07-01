@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "End-to-End Data Pipeline Project"
-summary: "Archive-backed guidance for a data pipeline portfolio project that proves ingestion, modeling, orchestration, quality checks, recovery behavior, and consumer-facing output."
+summary: "A DataTalks.Club podcast-backed blueprint for a data pipeline portfolio project that proves ingestion, modeling, orchestration, quality checks, recovery behavior, and consumer-facing output."
 related:
   - Portfolio Projects
   - Data Engineering Portfolio Projects
@@ -13,40 +13,37 @@ related:
   - Modern Data Stack
 ---
 
-## Definition
-
 An end-to-end data pipeline project proves that a person can move data from a
-source to a trusted output. The project should show ingestion and modeled
-tables. It should also show orchestration and quality checks. Recovery behavior
-matters too. Name the consumer and the decision the pipeline supports.
+source to a trusted output. A strong version captures raw source data and
+builds modeled tables. It also shows orchestration and quality checks. Recovery
+behavior, the consumer, and the supported decision should be visible too.
 
-Use this page with
+Use this page with the broader
 [Portfolio Projects]({{ '/wiki/portfolio-projects/' | relative_url }}) and
 [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
-when the target role is [data engineering]({{ '/wiki/data-engineering/' | relative_url }}),
-[analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }}),
-or backend data work.
+when the target role is
+[data engineering]({{ '/wiki/data-engineering/' | relative_url }}). It also
+helps with
+[analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
+or backend data work. For pipeline mechanics, read
+[Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }}) and
+[Orchestration]({{ '/wiki/orchestration/' | relative_url }}). For operations,
+read [DataOps]({{ '/wiki/dataops/' | relative_url }}) and
+[Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).
 
 [Santona Tuli]({{ '/people/santonatuli/' | relative_url }}) gives the clearest
 pipeline structure in
 [Modern Data Pipeline Architecture]({{ '/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/' | relative_url }}).
-Her discussion moves from ingestion preprocessing at 37:10 to transformation
-and modeling at 39:23. At 43:05, she connects marts and dashboards to the
-people who use the data.
-
-## Common Definition
-
-Guests describe a useful pipeline project as a small system with visible
-engineering choices. It starts with a real source. It keeps raw data separate
-from modeled data. It publishes one trusted output, then shows tests and rerun
-behavior.
+At 37:10, she moves from ingestion prep into source handling. At 39:23, she
+covers transformation and modeling. At 43:05, marts and dashboards lead back
+to the people who use the data.
 
 [Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) gives the
-modern-stack version in
+modern-stack boundary in
 [ETL, ELT, and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}).
 She separates ETL and ELT at 3:46 and 7:57. She then discusses transformations
-at 10:00, marts versus warehouses at 15:30, raw ingestion guardrails at 17:55,
-and orchestration at 30:59.
+at 10:00 and marts versus warehouses at 15:30. Raw ingestion guardrails follow
+at 17:55, with orchestration at 30:59.
 
 [Jeff Katz]({{ '/people/jeffkatz/' | relative_url }}) gives the hiring
 standard in
@@ -55,44 +52,64 @@ At 1:49, he warns that many projects list tools but show too little Python and
 SQL. At 2:22, he asks for professional code quality, tests, and clear
 structure.
 
-## Guest Differences
+## Source and Consumer
 
-Santona's architecture discussion emphasizes source handling and business
-entities, then connects relationships, marts, and dashboards to persona-driven
-design.
+A useful project starts with one changing source and one consumer. An API or
+public file drop can work. A permitted scrape, database export, or event sample
+can work too. The source should expose real behavior such as pagination, late
+files, or missing fields. Duplicate records and schema drift are useful failure
+cases.
 
-Natalie starts with stack boundaries. She separates ingestion from
-transformation and orchestration, then covers marts, CDC, and reverse data
-flows. That helps a project explain where each tool fits.
+The consumer might be an analyst or dashboard. It might also be a model table,
+alert, or operational user.
 
-Jeff's hiring view is practical. In
+Tuli's architecture episode supports this consumer-first structure. Her 39:23
+modeling discussion covers entities, relationships, and business meaning. Her
+43:05 dashboard discussion ties marts to user personas
+([Modern Data Pipeline Architecture]({{ '/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/' | relative_url }})).
+Kwong adds the stack boundary. Raw ingestion guardrails at 17:55 and
+orchestration at 30:59 help explain where each tool belongs
+([ETL, ELT, and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})).
+
+For portfolio review, the source and consumer should appear in the README and
+in the data model. The reviewer should know the update cadence, the expected
+grain, and the decision the serving table supports. Good examples include
+"active users this week", "orders needing follow-up", "products with stale
+inventory", or "events ready for a model training table".
+
+## Raw, Modeled, and Serving Layers
+
+Keep raw data separate from modeled data. Then create staging models and one or
+two serving tables with explicit grain. With that split, a reviewer can look at
+the source copy, cleanup logic, and consumer-facing output without guessing
+where a row changed.
+
+Kwong's ETL and ELT discussion gives the vocabulary for this split. At 3:46 and
+7:57, she distinguishes transform-before-load from load-before-transform. At
+10:00, transformations become their own layer. At 15:30, she separates marts
+from warehouses
+([ETL, ELT, and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})).
+Use [ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }}) when the
+project needs that tradeoff, and use
+[Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}) for stack
+boundaries.
+
+In the 37:10-43:05 sequence, Tuli adds the data-modeling standard. She moves
+from ingestion prep and transformations into business entities. Relationships,
+marts, and dashboards follow
+([Modern Data Pipeline Architecture]({{ '/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/' | relative_url }})).
+For an end-to-end portfolio, show keys and deduplication rules. Also show table
+grain and the business mapping behind the serving table.
+
+Katz keeps the modeling layer tied to hiring. In
+[Data Engineering Job Prep]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }}),
+he warns at 1:49 that tool lists don't prove readiness when SQL and Python are
+thin. At 2:22, he asks for readable code, tests, and structure. In
 [Build a Data Engineering Career]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }}),
-he centers SQL plus Python. Cloud fundamentals, backend ETL, and testing matter
-too. At 38:05, he explains why juniors can often skip Spark and Kafka at first.
-Kubernetes can wait too.
+he centers SQL plus Python and explains at 38:05 why juniors can often postpone
+Spark, Kafka, and Kubernetes.
 
-[Barr Moses]({{ '/people/barrmoses/' | relative_url }}) and
-[Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }}) start
-from operational failure. Barr's
-[Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }})
-covers freshness, volume, and distribution at 16:38. She also covers schema and
-lineage.
-Christopher's
-[DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }})
-connects CI/CD, regression tests, and test data at 30:55-54:05. He also
-connects deployment automation and data versioning.
-
-## Project Build
-
-Start with one changing source. An API or public file drop is enough, and an
-event export also works. The project should show source behavior such as
-pagination, late files, missing fields, or duplicate records. Schema drift is a
-useful failure case too.
-
-Load the source into a raw layer. Then create staging models and one or two
-serving tables with explicit grain. The serving table should answer a real
-question, such as "which users are active this week" or "which orders need
-follow-up."
+## Orchestration and Reruns
 
 Add a run path outside a notebook. That can be a CLI command, a Docker Compose
 job, a simple DAG, or
@@ -106,7 +123,16 @@ describes Docker and reproducibility at 21:25 in
 At 50:15, her Twitter pipeline capstone combines Docker with a project that can
 be explained and run.
 
-## Quality And Recovery
+A reviewer should be able to run the pipeline, look at a failed task, and rerun
+the job without private instructions. Kwong's 30:59 orchestration discussion
+places scheduling around the modern stack
+([ETL, ELT, and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})).
+Use [Orchestration]({{ '/wiki/orchestration/' | relative_url }}) for the
+dependency model and
+[How to Build Data Pipelines]({{ '/how-tos/how-to-build-data-pipelines/' | relative_url }})
+for an implementation path.
+
+## Quality and Recovery
 
 Add these checks before adding more tools:
 
@@ -117,7 +143,15 @@ Add these checks before adding more tools:
 - schema checks
 - freshness checks
 
-Barr's observability pillars at 16:38 map directly to this part of the project.
+[Barr Moses]({{ '/people/barrmoses/' | relative_url }}) maps those checks to
+operating risk in
+[Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }}).
+At 16:38, she covers freshness and volume. She also covers distribution,
+schema, and lineage. At 21:57 and 26:04, good pipelines can still deliver bad
+data.
+
+Logs and lineage then matter for root-cause analysis. At 29:00 and 35:24,
+ownership and SLAs turn signals into action.
 
 The repository should show at least one failure case, such as a duplicate batch
 or late partition. A missing field or partial API response also works, as does a
@@ -126,34 +160,13 @@ duplicate serving-grain row. Use
 and [DataOps]({{ '/wiki/dataops/' | relative_url }}) for the wider operating
 context.
 
-Prefer batch for a first end-to-end project unless a low-latency decision
-requires streaming. This is the real-time myth at 38:01 in
-[Data Engineer Career in 2026]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }}).
-He also warns against overbuilt modern stacks at 30:56 and gives portfolio
-framing advice at 57:35.
-
-Use [Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }})
-when the project needs the tradeoff. Use
-[Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}) for stack
-boundaries and [Orchestration]({{ '/wiki/orchestration/' | relative_url }}) for
-scheduling.
-
-## Reviewer Checklist
-
-A reviewer should be able to understand the project without a private
-walkthrough. In the README, name the consumer and the decision the data
-supports. Also name the source data and the expected update cadence. Show the
-table grain, setup steps, one command to run the pipeline, and the checks that
-can fail the run.
-
-This follows Jeff's hiring advice in
-[Data Engineering Job Prep]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }}).
-At 1:49, he warns against projects that list tools but show too little Python
-and SQL. At 2:22, he asks for code that another engineer can read, test, and
-discuss. Christopher Bergh's
-[DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }})
-adds the operating side. Tests, repeatable delivery, and recovery belong in the
-project, not only in a diagram.
+[Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }}) adds the
+DataOps side in
+[DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }}).
+At 30:55-54:05, he covers CI/CD pipelines and regression tests. He also covers
+realistic test data, deployment automation, and data versioning. Reviewers get
+stronger evidence when tests run in CI and the README explains how to recover
+from a bad load.
 
 Use the README to document common failure cases:
 
@@ -163,10 +176,47 @@ Use the README to document common failure cases:
 - a batch partially loads
 - a downstream table fails a check
 
-Each case should reference a test or log message. It can also reference a
-quarantine table, skipped merge, backfill command, or runbook step.
+Each case should reference a test, log message, or runbook step. It can also
+reference a quarantine table, skipped merge, or backfill command.
 
-## Interview Story
+## Stack Boundaries
+
+Prefer batch for a first end-to-end project unless a low-latency decision
+requires streaming. [Slawomir Tulski]({{ '/people/slawomirtulski/' | relative_url }})
+calls this the real-time myth at 38:01 in
+[Data Engineer Career in 2026]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }}).
+At 30:56, he warns against overbuilt modern stacks. At 57:35 and 1:04:42, he
+frames portfolio work around side projects and end-to-end platforms.
+
+Use [Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }})
+when the project needs the tradeoff. Use
+[Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}) for stack
+boundaries and [Orchestration]({{ '/wiki/orchestration/' | relative_url }}) for
+scheduling.
+
+Katz gives a similar boundary from the hiring side. His
+[Build a Data Engineering Career]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }})
+discussion keeps SQL and Python ahead of large distributed systems for junior
+candidates. Cloud basics, backend ETL, and testing come before those systems
+too. In the README, say why the project doesn't use Spark or Kafka. Also say
+why Kubernetes isn't needed for the source size, latency, and review goal.
+
+## Reviewer Walkthrough
+
+A reviewer should be able to understand the project without a private
+walkthrough. In the README, name the consumer and the decision the data
+supports. Also name the source data and the expected update cadence. Show the
+table grain and setup steps. Include one command to run the pipeline and the
+checks that can fail the run.
+
+This follows Jeff's hiring advice in
+[Data Engineering Job Prep]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }}).
+At 1:49, he warns against projects that list tools but show too little Python
+and SQL. At 2:22, he asks for code that another engineer can read, test, and
+discuss. Christopher Bergh's
+[DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }})
+adds the operating side. Tests, repeatable delivery, and recovery belong in the
+project, not only in a diagram.
 
 Prepare a short walkthrough in the same order an engineer would use to debug or
 extend the system:
@@ -180,25 +230,12 @@ extend the system:
 7. Explain one bug or tradeoff that changed the design.
 8. Name the next improvement without pretending the project is a full platform.
 
-That story maps to Jeff's interview formats around 7:46 in
+Use Katz's interview formats around 7:46 in
 [Data Engineering Job Prep]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }}),
-including SQL screens, Python problems, and take-home projects. It also matches
+including SQL screens, Python problems, and take-home projects. The same order
+matches
 [Gloria Quiceno's]({{ '/people/gloriaquiceno/' | relative_url }}) advice in
 [Get a Data Analytics and Data Engineering Job]({{ '/podcasts/get-data-analytics-and-data-engineering-job/' | relative_url }}).
 At 51:42, she explains that repeated course projects are weaker than custom
 projects. Custom projects work better when the candidate can explain the data
 and the choices behind the work.
-
-## Related Pages
-
-Use these pages to follow the project and its adjacent concepts.
-
-- [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
-- [How to Build Data Pipelines]({{ '/how-tos/how-to-build-data-pipelines/' | relative_url }})
-- [Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }})
-- [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
-- [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
-- [DataOps]({{ '/wiki/dataops/' | relative_url }})
-- [Orchestration]({{ '/wiki/orchestration/' | relative_url }})
-- [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
-- [Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }})

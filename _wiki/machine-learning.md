@@ -16,295 +16,254 @@ related:
   - AI
 ---
 
-Machine learning is the foundation for systems that learn from data.
-They produce predictions, classifications, rankings, and recommendations. They
-can also support product decisions. DataTalks.Club guests treat ML as more
-than model choice.
+Machine learning turns data into predictions and classifications. It also
+powers rankings and recommendations that a product or team can use.
+DataTalks.Club guests usually describe it as applied modeling inside a larger
+decision. Teams choose the problem and check the data. They define labels and
+metrics, compare against a baseline, and decide whether the model belongs in a
+production system.
 
-Problem framing and data availability come first, while features and labels
-also belong in the same concept. Evaluation, deployment, monitoring, and
-ownership do too.
-
-Use this hub for classic applied ML. Use
-[Data Science]({{ '/wiki/data-science/' | relative_url }}) for the broader
-practice around analysis, experiments, stakeholder work, and modeling. Use
+Use this page for classic applied ML. Use
+[Data Science]({{ '/wiki/data-science/' | relative_url }}) for the broader work
+around analysis, experiments, and stakeholder work. Use
 [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
-when the question is about architecture, serving mode, features, and fallbacks.
+for architecture, serving modes, fallbacks, and design documents. When models
+already need release or ownership paths, use
+[MLOps]({{ '/wiki/mlops/' | relative_url }}) and
+[Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }}). Use
+[MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }}) when
+the operations boundary matters.
 
-Use [MLOps]({{ '/wiki/mlops/' | relative_url }}),
-[Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }}), and
-[MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }}) when the
-model is already moving toward production operations. Use
-[Machine Learning Tools]({{ '/wiki/machine-learning-tools/' | relative_url }})
-for libraries, trackers, platforms, and monitoring tools. Use
-[AI]({{ '/wiki/ai/' | relative_url }}) and
+Use [Machine Learning Tools]({{ '/wiki/machine-learning-tools/' | relative_url }})
+for trackers, platforms, and libraries. Use
+[AI]({{ '/wiki/ai/' | relative_url }}) or
 [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
 for LLM applications, RAG, and agents.
 
-## Common Definition
+## Applied Modeling, Not Model Selection
 
-Across these episodes, machine learning means applied modeling in service of a
-decision or product behavior. In
-[Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }})
-with [the DataTalks.Club host]({{ '/people/alexeygrigorev/' | relative_url }}), the
-discussion separates data science, data engineering, and ML engineering work. Around 17:04, the
-machine learning engineer appears as the role that helps turn models into
-services and production systems. Around 24:55, the episode ties prediction
-quality to a shared product goal rather than to an isolated notebook metric.
+The podcast archive treats ML as a decision discipline before it treats ML as
+algorithm choice. In
+[Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }}),
+the discussion separates data science, data engineering, and ML engineering
+work.
+Around 17:04, the
+machine learning engineer helps turn models into services and production
+systems. Around 24:55, the episode ties prediction quality to a shared product
+goal rather than to a notebook metric.
 
 [CRISP-DM Methodology for Data Science Projects]({{ '/podcasts/crisp-dm/' | relative_url }})
-adds the project loop. Teams begin with business understanding and data
-preparation. They then move through modeling, evaluation, and deployment.
+gives the project sequence behind that definition. Teams start with business
+understanding and data preparation. They then move through modeling,
+evaluation, and deployment. The model sits inside the project rather than
+replacing the project.
 
-The same definition becomes more concrete in
+[Valeriy Babushkin]({{ '/people/valeriybabushkin/' | relative_url }}) makes the
+same definition concrete in
 [ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }}).
-[Valerii Babushkin]({{ '/people/valeriybabushkin/' | relative_url }}) uses
-fraud detection and recommendation examples to connect labels and features. He
-also connects metrics with baselines and serving choices. Monitoring, fallback
-planning, and production validation round out the design.
-
-[Build Scalable, Reliable ML Systems]({{ '/podcasts/building-scalable-and-reliable-machine-learning-systems/' | relative_url }})
-extends this framing. [Arseny Kravchenko]({{ '/people/arsenykravchenko/' | relative_url }})
-reinforces the same point through goals, constraints, data strategy, and system
-diagrams.
-
-## Guest Differences
-
-Guests ask more than whether ML is useful because operating cost matters too. In
-[Practical Machine Learning Engineering for Production]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }}),
-[Ben Wilson]({{ '/people/benwilson/' | relative_url }}) argues for simple
-baselines, maintainable code, and timeboxed proof points before teams invest in
-complex systems. Valerii makes the same boundary an interview skill in
-[ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }}).
-Candidates should know when a rule or heuristic is better than ML. An existing
-product flow may also be enough.
-
-Guests also differ by organizational lens.
-[Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }})
-with [the DataTalks.Club host]({{ '/people/alexeygrigorev/' | relative_url }}) places
-ML inside a broader data team. That team includes product managers and
-analysts. It also includes data scientists, data engineers, and ML engineers.
-
-In
-[From Analytics to Production ML]({{ '/podcasts/production-ml-mlops-and-data-team-building/' | relative_url }}),
-[Rishabh Bhargava]({{ '/people/rishabhbhargava/' | relative_url }}) contrasts
-analytics with production ML through outputs and timescales. Dashboards and
-reports answer questions, while production ML creates prediction APIs with
-service-level expectations.
-
-In
-[Monetize Machine Learning]({{ '/podcasts/make-money-with-machine-learning-roles-skills/' | relative_url }}),
-[Vin Vashishta]({{ '/people/vinvashishta/' | relative_url }}) pushes the
-boundary toward product strategy. He asks whether a model creates revenue or
-cost savings. He also asks whether it improves adoption or decision quality.
+His fraud detection and recommendation examples connect labels, features, and
+metrics to baselines and serving choices. They also add monitoring, fallbacks,
+and production validation. In
+[Build Scalable, Reliable ML Systems]({{ '/podcasts/building-scalable-and-reliable-machine-learning-systems/' | relative_url }}),
+[Arseny Kravchenko]({{ '/people/arsenykravchenko/' | relative_url }}) uses goals
+and constraints to keep modeling tied to the system the team needs to run. Data
+strategy and system diagrams serve the same purpose.
 
 ## Problem Framing and Baselines
 
 DataTalks.Club guests start ML with the decision instead of the model. In
 [CRISP-DM Methodology for Data Science Projects]({{ '/podcasts/crisp-dm/' | relative_url }}),
-the project loop begins with business understanding. It asks whether the
-problem is important and measurable. It also asks whether the work connects to
-a clear objective before modeling.
+business understanding asks whether the problem is important, measurable, and
+connected to a clear objective before modeling starts.
 
-In
-[Build Scalable, Reliable ML Systems]({{ '/podcasts/building-scalable-and-reliable-machine-learning-systems/' | relative_url }}),
-Arseny turns the same habit into design-document practice. Around 20:21 and
-29:01, the team defines product scenarios and goals. It also names non-goals
-and assumptions. Metrics and constraints come before implementation.
+Arseny turns the same habit into design-document practice in
+[Build Scalable, Reliable ML Systems]({{ '/podcasts/building-scalable-and-reliable-machine-learning-systems/' | relative_url }}).
+Around 20:21 and 29:01, the team defines product scenarios, goals, and
+non-goals. It also names assumptions, metrics, and constraints before
+implementation.
 
-Baselines are the recurring antidote to model-first thinking. In
-[Practical Machine Learning Engineering for Production]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }}),
-the baseline may be SQL or statistics. It can also be an expert rule or a rapid
-prototype. That baseline lets stakeholders judge whether the project deserves
-more investment.
+Baselines keep teams from treating ML as the default answer.
+[Ben Wilson]({{ '/people/benwilson/' | relative_url }}) argues for simple
+baselines in
+[Practical ML Engineering]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }}).
+He also stresses maintainable code and timeboxed proof points before teams
+invest in complex systems. The baseline may be SQL, statistics, an
+expert rule, or a rapid prototype.
 
-In
-[ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }}),
-Valerii uses baselines around 24:28 and 29:09. They compare model lift and help
-avoid overengineering a product decision that doesn't need ML.
-
-## Roles and Ownership
-
-Machine learning work changes as it moves from exploration to production.
-[Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }})
-draws the first boundary. Data engineers make data usable. Data scientists
-frame and evaluate predictive work while ML engineers bring models into
-software systems.
-
-That's why these episodes treat the
-[Machine Learning Engineer Role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }})
-as a production-facing extension of ML rather than as a renamed data scientist.
-
-Rishabh's
-[From Analytics to Production ML]({{ '/podcasts/production-ml-mlops-and-data-team-building/' | relative_url }})
-adds a team-building view. Around 10:48 and 13:48, he distinguishes analytics
-from ML by the goal of the work and the output that users consume. Around
-55:41, he describes a data-team hiring sequence that usually needs data
-engineering and analysis foundations before production ML can scale.
-
-Vin's
-[Monetize Machine Learning]({{ '/podcasts/make-money-with-machine-learning-roles-skills/' | relative_url }})
-adds role specialization around 20:15 and 1:14:14. Teams may need research and
-product management. They may also need architecture skills to turn ML from a
-technical project into a business capability.
+Valeriy uses baselines around 24:28 and
+29:09 in
+[ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }}).
+They compare model lift and avoid overengineering a product decision that does
+not need ML.
 
 ## Data, Features, and Labels
 
-Data isn't a preprocessing detail in these discussions because it's part of the
-ML system. [ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }})
-uses fraud detection and recommendation examples to surface class imbalance and
-labeling. It also covers feature engineering, delayed feedback, and
-serving-time feature availability.
-[Build Scalable, Reliable ML Systems]({{ '/podcasts/building-scalable-and-reliable-machine-learning-systems/' | relative_url }})
-adds data availability, system diagrams, and real-time versus batch flow as
-design questions.
+Data belongs inside the ML system rather than in a separate data-cleaning
+bucket. Valeriy uses fraud detection and recommendation examples in
+[ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }}).
+The examples surface class imbalance and labeling. He also covers feature
+engineering, delayed feedback, and serving-time feature availability.
 
-This is also where ML overlaps with
+In
+[Build Scalable, Reliable ML Systems]({{ '/podcasts/building-scalable-and-reliable-machine-learning-systems/' | relative_url }}),
+Arseny adds data availability and system diagrams. He also treats real-time
+versus batch data flow as a design question.
+
+ML overlaps here with
 [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}) and
-[MLOps]({{ '/wiki/mlops/' | relative_url }}). In
+[DataOps]({{ '/wiki/dataops/' | relative_url }}). It also overlaps with
+[MLOps]({{ '/wiki/mlops/' | relative_url }}) when the model moves toward
+release. In
 [Software Engineering for ML]({{ '/podcasts/software-engineering-for-machine-learning/' | relative_url }}),
-[Nadia Nahar]({{ '/people/nadianahar/' | relative_url }}) treats data access,
-unmet requirements, and documentation gaps as reasons ML products fail.
-Deployment gaps are part of the same failure mode. Treat feature freshness and
-label quality as model-design constraints. Privacy and pipeline ownership
-belong there too.
+[Nadia Nahar]({{ '/people/nadianahar/' | relative_url }}) treats data access and
+unmet requirements as reasons ML products fail. Documentation and deployment
+gaps create the same risk.
 
-## Evaluation and Experiments
+Feature freshness and label quality belong in the model design.
+Privacy constraints and pipeline ownership belong there too because they change
+what the model can learn and what it can serve.
 
-Offline metrics are necessary but not decisive. In
+## Evaluation and Product Validation
+
+Offline metrics matter, but they don't settle whether an ML system helps the
+product. In
 [ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }}),
-Valerii connects model metrics to business alignment and A/B testing.
-Production validation and human labels are part of the same discussion. Around
-40:11, goals and proxy metrics connect ML quality to long-term product health.
-Around 57:23, production validation brings A/B tests, causality, and human
-labels into the same evaluation story.
+Valeriy connects model metrics to business alignment and A/B testing. He also
+brings in production validation and human labels. Around 40:11, goals and proxy
+metrics connect ML quality to long-term product health. Around 57:23, production validation brings
+A/B tests, causality, and human labels into the same evaluation story.
 
-The broader podcast discussion treats
-[evaluation]({{ '/wiki/evaluation/' | relative_url }}) as a bridge between
-modeling and product impact. In
+[Evaluation]({{ '/wiki/evaluation/' | relative_url }}) links modeling to product
+impact. In
 [From Analytics to Production ML]({{ '/podcasts/production-ml-mlops-and-data-team-building/' | relative_url }}),
-Rishabh links model experiments, A/B testing, and shadow mode around 28:42. He
-then adds segmentation, uplift, and root-cause investigation around 31:19. In
+[Rishabh Bhargava]({{ '/people/rishabhbhargava/' | relative_url }}) connects
+model experiments, A/B testing, and shadow mode around 28:42. Around 31:19, he
+adds segmentation, uplift, and root-cause investigation. In
 [Product Analytics and A/B Testing]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}),
-[Jakob Graff]({{ '/people/jakobgraff/' | relative_url }}) adds randomization
-and assignment tracking. He also adds A/A tests, metric choice, power analysis,
-and test duration.
+[Jakob Graff]({{ '/people/jakobgraff/' | relative_url }}) adds randomization,
+assignment tracking, and A/A tests. He also covers metric choice, power
+analysis, and test duration.
 
-For ML teams, evaluation should connect model metrics with
-product outcomes. Latency, support burden, fairness, and rollback risk belong
-in the same check.
+Those topics connect ML evaluation to
+[Experimentation and Causal Inference]({{ '/wiki/experimentation-and-causal-inference/' | relative_url }})
+when the team needs causal evidence rather than offline accuracy alone.
+
+## Roles and Ownership
+
+ML ownership changes as work moves from exploration to production.
+[Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }})
+draws the first boundary. Data engineers make data usable. Data scientists
+frame and evaluate predictive work. ML engineers bring models into software
+systems.
+
+The
+[Machine Learning Engineer Role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }})
+is a production-facing extension of ML, not a renamed data scientist.
+
+Rishabh adds the team-building view in
+[From Analytics to Production ML]({{ '/podcasts/production-ml-mlops-and-data-team-building/' | relative_url }}).
+Around 10:48 and 13:48, he distinguishes analytics from ML by the goal of the
+work and the output users consume. Dashboards and reports answer questions,
+while production ML creates prediction APIs with service-level expectations.
+Around 55:41, he describes a hiring sequence where data engineering and
+analysis foundations usually come before production ML can scale.
+
+[Vin Vashishta]({{ '/people/vinvashishta/' | relative_url }}) adds the product
+strategy boundary in
+[Monetize Machine Learning]({{ '/podcasts/make-money-with-machine-learning-roles-skills/' | relative_url }}).
+Around 20:15 and 1:14:14, he argues that teams may need research, product
+management, and architecture skills. Those skills help turn ML from a technical
+project into a business capability. A model should create revenue, reduce cost,
+improve adoption, or improve decision quality.
 
 ## Production Engineering and Operations
 
-Production ML is software engineering plus uncertainty. In
+Production ML is software engineering with changing data and uncertain
+requirements. In
 [Software Engineering for ML]({{ '/podcasts/software-engineering-for-machine-learning/' | relative_url }}),
-the uncertainty comes from changing data and unclear requirements. Monitoring
-needs, poor documentation, and software delivery gaps add more risk.
+Nadia traces ML product failures to unclear requirements and data access gaps.
+Monitoring needs, weak documentation, and delivery gaps add more failure modes.
 
-In
-[Practical Machine Learning Engineering for Production]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }}),
-that becomes everyday engineering practice. Teams need modular code, testable
-components, and maintainability. Stakeholder buy-in and iterative MVPs matter
-too.
+Ben's
+[Practical Machine Learning Engineering for Production]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }})
+turns that risk into engineering practice. Teams need modular code, testable
+components, and maintainability. They also need stakeholder buy-in and
+iterative MVPs before they can operate larger systems.
 
-Operations become explicit in
-[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}),
-where [Simon Stiebellehner]({{ '/people/simonstiebellehner/' | relative_url }})
-defines MLOps through people, processes, and technology around 4:42. Around
-21:03-31:51, he walks from exploration to training and evaluation. Experiment
-tracking and model registries come next. Deployment patterns and orchestration
-complete that operating path.
+[Simon Stiebellehner]({{ '/people/simonstiebellehner/' | relative_url }}) makes
+operations explicit in
+[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
+Around 4:42, he defines MLOps through people, repeatable work, and technology.
+Around 21:03-31:51, he walks from exploration to training and evaluation.
+Experiment tracking, model registries, deployment patterns, and orchestration
+come next.
 
-Around 42:48-45:50, metadata and lineage become
-part of the platform design. Artifact logging and governance do too.
+Around 42:48-45:50, metadata and lineage become part of the
+platform design. Artifact logging and governance do too.
 
 That operating scope is why
 [MLOps]({{ '/wiki/mlops/' | relative_url }}) and
 [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
-are separate pages. The model is still machine learning, but the production
-discipline needs its own vocabulary for reproducibility and serving. It also
-needs vocabulary for monitoring, rollback, retraining, and ownership.
+need separate pages even though both start from the same model.
 
 ## Monitoring and Feedback
 
-Monitoring is a machine learning concern because a deployed model can change
-behavior even when the code and artifact stay fixed. In
+Monitoring is an ML concern because a deployed model can change behavior even
+when the code and model artifact stay fixed. In
 [ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }}),
-Valerii includes monitoring, distribution shift, and fallbacks in production
+Valeriy includes monitoring, distribution shift, and fallbacks in production
 robustness around 46:02. In
 [Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}),
 Simon adds unified prediction schemas for logging requests, predictions, and
 responses around 54:15.
 
-[How to Build a Successful ML Startup]({{ '/podcasts/building-mlops-startup/' | relative_url }})
-shows why this became a product category.
-[Elena Samuylova]({{ '/people/elenasamuylova/' | relative_url }}) describes
-validating model monitoring as a business around 43:59 after seeing teams
-struggle to understand production model behavior.
+[Elena Samuylova]({{ '/people/elenasamuylova/' | relative_url }}) explains why
+monitoring became a product category in
+[How to Build a Successful ML Startup]({{ '/podcasts/building-mlops-startup/' | relative_url }}).
+Around 43:59, she describes validating model monitoring as a business after
+seeing teams struggle to understand production model behavior. The
+[Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }}) page covers
+the investigation signals in more depth. Teams watch inputs, predictions,
+and labels. They also watch business outcomes, incidents, and response paths.
 
-That evidence belongs with
-[Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }}) because model
-teams need signals that someone can actually investigate. Those signals include
-inputs and predictions, labels, business outcomes, and incident response.
+## Tools, Platforms, and Build-or-Buy
 
-## Tools and Platforms
-
-Podcast guests don't treat ML tools as a ranked shopping list. Tools matter when
-they support a workflow. The workflow may involve exploration,
-reproducibility, or feature computation. It may also involve serving,
-monitoring, governance, or collaboration. The
+Podcast guests treat ML tools as support for real work, not as a ranked
+shopping list. A tool may help with exploration, reproducibility, feature
+computation, and serving. It may also help with monitoring, governance, or
+collaboration. The
 [Machine Learning Tools]({{ '/wiki/machine-learning-tools/' | relative_url }})
-page covers that tool-selection layer in more detail.
+page covers that tool-selection layer.
 
 Simon gives the clearest platform example in
 [Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
 Around 34:01, he argues for stitching together existing SaaS, open-source tools,
 and self-hosted tools rather than building everything from scratch. Around 47:08
-and 49:19, he cautions that teams should build platform pieces in parallel with
-real use. They shouldn't build before the business has models ready to operate.
+and 49:19, he cautions that teams should build platform pieces alongside real
+use, not before the business has models ready to operate.
 
-Vin's
-[Monetize Machine Learning]({{ '/podcasts/make-money-with-machine-learning-roles-skills/' | relative_url }})
-adds the business version of that build-or-buy question around 54:50 and 58:04.
-Architecture choices should account for platform vision and cost. Production
-constraints and cloud choices belong there too, along with MLOps and vendor
-tradeoffs.
+Vin adds the business version of that build-or-buy question in
+[Monetize Machine Learning]({{ '/podcasts/make-money-with-machine-learning-roles-skills/' | relative_url }}).
+Around 54:50 and 58:04, architecture choices account for platform vision, cost,
+and production constraints. Cloud choices, MLOps, and vendor tradeoffs belong
+in the same decision.
 
 ## Trust, Interpretability, and Governance
 
-Trust in ML is partly technical and partly organizational. In
+Teams need to know what a model can and can't support before they automate a
+decision. In
 [Interpretable Machine Learning]({{ '/podcasts/interpretable-machine-learning/' | relative_url }}),
 [Christoph Molnar]({{ '/people/christophmolnar/' | relative_url }}) presents
 interpretability as a way to debug models and understand feature effects. The
-episode also shows how teams communicate uncertainty and choose between
-transparent models and post-hoc explanations. SHAP and conformal prediction
-give these podcast discussions concrete methods for explaining predictions and expressing
-calibrated uncertainty.
+episode also covers uncertainty communication, transparent models, and post-hoc
+explanations. SHAP and conformal prediction give the discussion concrete
+methods.
 
 Governance extends that trust work beyond a single explanation. In
 [Software Engineering for ML]({{ '/podcasts/software-engineering-for-machine-learning/' | relative_url }}),
-Nadia connects model cards and datasheets to responsible ML products. She also
-connects checklists and explainability requirements to that work.
-
-The related
+Nadia connects model cards, datasheets, and checklists to responsible ML
+products. Explainability requirements belong in that work too. For deeper
+treatment of fairness, privacy, and security, use
 [Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }})
-page covers deeper discussion of fairness, privacy, security, and human
-oversight. The ML-specific point is narrower. Teams need to know what the model
-can and can't support before automating a decision.
-
-## Related Pages
-
-These pages split adjacent ML topics into more focused references.
-
-- [Data Science]({{ '/wiki/data-science/' | relative_url }})
-- [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
-- [Machine Learning Engineer Role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }})
-- [Machine Learning Tools]({{ '/wiki/machine-learning-tools/' | relative_url }})
-- [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }})
-- [Evaluation]({{ '/wiki/evaluation/' | relative_url }})
-- [MLOps]({{ '/wiki/mlops/' | relative_url }})
-- [MLOps vs DataOps]({{ '/comparisons/mlops-vs-dataops/' | relative_url }})
-- [Experimentation and Causal Inference]({{ '/wiki/experimentation-and-causal-inference/' | relative_url }})
-- [Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }})
-- [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
-- [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
+and [Interpretability]({{ '/wiki/interpretability/' | relative_url }}). Human
+oversight belongs in that same governance discussion.
