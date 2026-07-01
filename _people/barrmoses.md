@@ -6,7 +6,7 @@ person_id: "barrmoses"
 summary: "Monte Carlo co-founder whose DataTalks.Club episode defines data downtime, data observability signals, ownership, SLAs, and recovery workflows."
 expertise: ["data observability", "MLOps", "data quality", "data reliability"]
 podcast_episodes: ["data-quality-data-observability-data-reliability"]
-curated: true
+curated: "true"
 source_url: "https://datatalks.club/people/barrmoses.html"
 ---
 

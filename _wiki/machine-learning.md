@@ -69,6 +69,17 @@ and production validation. In
 and constraints to keep modeling tied to the system the team needs to run. Data
 strategy and system diagrams serve the same purpose.
 
+[Rob Zinkov]({{ '/people/robzinkov/' | relative_url }}) pushes in a different
+direction: probabilistic and [Bayesian modeling]({{ '/wiki/a-b-testing/' | relative_url }})
+as a composable alternative to the scikit-learn model-selection mindset. In
+[Bayesian Modeling Workflows and Tools]({{ '/podcasts/bayesian-modeling-workflows-and-tools/' | relative_url }}),
+he argues that the distribution-in/distribution-out structure of Bayesian
+inference makes analysis incrementally extensible — you can add data and
+variables to an existing posterior rather than starting over. He contrasts this
+with frequentist point estimates that often require throwing away prior work, and
+connects it to probabilistic programming languages that automate sampler
+generation from model specifications.
+
 ## Problem Framing and Baselines
 
 DataTalks.Club guests start ML with the decision instead of the model. In

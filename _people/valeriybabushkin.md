@@ -1,12 +1,12 @@
 ---
-layout: person
+layout: "person"
 title: "Valerii Babushkin"
 summary: "Valerii Babushkin's DataTalks.Club discussions on ML system design interviews, design documents, fraud detection, experimentation, monitoring, and production ML tradeoffs."
 source_url: "https://datatalks.club/people/valeriybabushkin.html"
 podcast_episodes: ["machine-learning-system-design-interview", "ml-system-design"]
 github: "VENHEADs"
 linkedin: "venheads"
-curated: true
+curated: "true"
 ---
 
 # Valerii Babushkin

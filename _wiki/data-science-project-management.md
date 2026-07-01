@@ -105,6 +105,15 @@ and [Data Team Lead Role]({{ '/wiki/data-team-lead-role/' | relative_url }}).
 The project manager protects learning speed and delivery discipline at the same
 time.
 
+[Yury Kashnitsky]({{ '/people/yurykashnitsky/' | relative_url }}) makes the
+failure case concrete. After a BERT-based proofreading classifier reached only
+60% precision and was prematurely advertised internally, he convened all
+stakeholders and recommended dropping the project rather than burning months on
+an under-resourced team. He argues that customer development and rapid
+validation should precede ML work, and that interview candidates should ask
+whether a company has active revenue-producing ML in production
+([Data Science Failures and MLOps Lessons]({{ '/podcasts/data-science-failures-and-mlops-lessons/' | relative_url }})).
+
 ## Framing and Scope
 
 The first management task is to turn a request into a decision. A request for a

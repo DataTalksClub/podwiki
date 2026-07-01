@@ -138,6 +138,19 @@ Daniel's path also gives a practical route for an
 The route keeps domain judgment and adds reusable code, orchestration, storage
 and production-style project habits.
 
+[Daynan]({{ '/people/daynancrull/' | relative_url }}) extends astroinformatics
+into asteroid characterization and resource detection. In
+[Machine Learning for Asteroid Mining and Water Detection]({{ '/podcasts/machine-learning-for-asteroid-mining-and-water-detection/' | relative_url }}),
+he describes using hyperspectral spectroscopy and infrared signatures to
+identify water on near-Earth asteroids. The team combines photometry, light
+curves, and polarimetry as features, and uses a Bayesian framework to fuse
+independent models for albedo, orbital elements, and spectral classification
+into an evolving posterior over asteroid properties. Ground truth is scarce:
+returned samples and meteorite analogs are the main validation anchors, which
+makes this a small-data science problem despite large imagery volumes. Open
+datasets from the Minor Planet Center, JPL Horizons, and NEOWISE feed orbit
+linking and synthetic-tracking pipelines.
+
 ## Related Pages
 
 These pages cover the adjacent pipeline, research, role, and ML topics.

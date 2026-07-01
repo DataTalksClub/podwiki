@@ -1,5 +1,5 @@
 ---
-layout: person
+layout: "person"
 title: "Danny Leybzon"
 summary: "Danny Leybzon on production model monitoring, data observability, MLOps architecture, and tooling tradeoffs."
 source_url: "https://datatalks.club/people/dannyleybzon.html"
@@ -9,7 +9,7 @@ github: "dleybz"
 twitter: "dleybz"
 linkedin: "dleybz"
 web: "http://web.dleybz.co/"
-curated: true
+curated: "true"
 ---
 
 # Danny Leybzon

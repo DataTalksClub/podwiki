@@ -117,6 +117,15 @@ experiments and model artifacts. They also need approval and deployment.
 Teams need serving and monitoring after deployment. Once the model runs, teams
 need feedback and retraining decisions.
 
+The same lifecycle includes the decision to stop. [Yury Kashnitsky]({{ '/people/yurykashnitsky/' | relative_url }})
+describes killing a proofreading-AI project after a BERT regressor reached only
+60% precision. He gathered stakeholders, recommended third-party tools, and
+avoided months of wasted effort. The same episode documents how SSH deploys
+without CI/CD created constant production crashes, and how serving-layer latency
+forced a re-ranking scope reduction — infrastructure, not model quality, can be
+the real bottleneck
+([Data Science Failures and MLOps Lessons]({{ '/podcasts/data-science-failures-and-mlops-lessons/' | relative_url }})).
+
 The
 [Model Registry]({{ '/wiki/model-registry/' | relative_url }}) and
 [Experiment Tracking]({{ '/wiki/experiment-tracking/' | relative_url }}) pages

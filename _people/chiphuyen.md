@@ -8,7 +8,7 @@ github: "chiphuyen"
 twitter: "chipro"
 linkedin: "chiphuyen"
 web: "https://huyenchip.com/"
-curated: true
+curated: "true"
 ---
 
 # Chip Huyen

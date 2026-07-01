@@ -163,6 +163,17 @@ dev tools and take-home RAG-style assignments add current proof
 ([Career Break to AI Engineer]({{ '/podcasts/s23e04-how-to-become-ai-engineer-after-career-break/' | relative_url }}),
 0:00-44:30).
 
+[Jessica Greene]({{ '/people/jessicagreene/' | relative_url }}) adds the
+community-driven entry route. In
+[How to Switch to ML Tech Without Experience]({{ '/podcasts/how-to-switch-to-ml-tech-without-experience/' | relative_url }}),
+she describes going from film and coffee roasting to ML through Codecademy,
+Andrew Ng's course, and FreeCodeCamp, supported by a German Bildungsgutschein.
+PyLadies meetups and Rails Girls Summer of Code provided structured pair
+programming and mentorship. Community organizing at those events created
+networking, leadership, and management skills that directly led to her
+internship at Ecosia. She also emphasizes public speaking as a career
+accelerator — start small, do dry runs, and craft a personal edge.
+
 Freelance transitions add a different disagreement. The proof isn't only
 technical competence because the buyer also needs a reason to trust the person.
 [Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) discusses
@@ -332,6 +343,16 @@ networks and visible practice described in
 [Community Building]({{ '/wiki/community-building/' | relative_url }}). It also
 uses the advocacy covered by [Career Growth]({{ '/wiki/career-growth/' | relative_url }})
 and [Developer Relations]({{ '/wiki/developer-relations/' | relative_url }}).
+
+[Xia He Bleinagel]({{ '/people/xiahebleinagel/' | relative_url }}) gives a
+career-break-to-leadership version. In
+[Reinventing a Career in Tech]({{ '/podcasts/s22e07-reinventing-career-in-tech/' | relative_url }}),
+she describes going from full-time parent to head of data and cloud through a
+second master's in data science, frequent job changes to gain experience, and
+internal community building — she started a cross-team data knowledge group
+that positioned her to step into the head-of-data role when it opened. Her
+story shows how career-break transitions can compound into leadership roles
+when technical skills meet visible internal initiative.
 
 ## Choosing the Target Role
 

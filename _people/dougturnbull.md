@@ -5,7 +5,7 @@ summary: "Search relevance practitioner connected to DataTalks.Club discussions 
 source_url: "https://datatalks.club/people/dougturnbull.html"
 podcast_episodes: []
 expertise: ["search relevance", "information retrieval", "learning to rank", "Elasticsearch", "product search"]
-curated: true
+curated: "true"
 github: "softwaredoug"
 twitter: "softwaredoug"
 linkedin: "softwaredoug"

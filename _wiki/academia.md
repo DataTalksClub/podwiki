@@ -181,6 +181,17 @@ Mihail's advice for researchers is concrete at 44:36-51:28. Deploy something,
 learn how another engineer reviews and runs it, and make the experimental
 assumptions visible enough for others to reproduce or challenge.
 
+[David Bader]({{ '/people/davidbader/' | relative_url }}) shows the
+institution-building side of academic data science. In
+[Building Data Science Programs and Democratizing HPC]({{ '/podcasts/building-data-science-programs-and-democratizing-high-performance-computing/' | relative_url }}),
+he describes founding the School of Computational Science and Engineering at
+Georgia Tech and the NJIT Institute for Data Science. He connects curriculum
+design to regional workforce alignment, academic ranks (assistant through
+distinguished professor), and the PhD-to-postdoc-to-faculty pathway. His
+Arkouda project democratizes supercomputing: users call Python functions in
+Jupyter notebooks while a Chapel compiler backend runs on HPC clusters — making
+massive-scale analytics accessible without requiring users to be HPC experts.
+
 ## Hiring and Interview Translation
 
 Academic outputs don't automatically become hiring signals. Publications and

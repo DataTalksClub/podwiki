@@ -63,6 +63,15 @@ supported way to do common work. It also gives the organization a place to
 encode standards, security, and reliability without turning every project into a
 custom consulting job.
 
+[José Figueiredo]({{ '/people/josemaria/' | relative_url }}) brings the
+same pattern into the IoT domain. In
+[Remote Data Engineering and IoT Platforms]({{ '/podcasts/remote-data-engineering-work-and-building-iot-platforms/' | relative_url }}),
+he describes building an "operating system for sensors" — a platform layer that
+standardizes sensor onboarding, real-time processing, storage, and data
+delivery to internal stakeholders. The platform handles remote diagnostics and
+context for sensor data, turning raw signals into business value through a
+shared pipeline rather than ad-hoc per-project integrations.
+
 ## Build Timing and Product Discipline
 
 Guests diverge most on timing and product discipline. They differ on when a

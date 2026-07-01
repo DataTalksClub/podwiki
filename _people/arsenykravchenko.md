@@ -1,5 +1,5 @@
 ---
-layout: person
+layout: "person"
 title: "Arseny Kravchenko"
 summary: "Arseny Kravchenko's DataTalks.Club podcast discussion on scalable ML systems, design docs, data strategy, edge constraints, and practical MLOps."
 source_url: "https://datatalks.club/people/arsenykravchenko.html"
@@ -7,7 +7,7 @@ podcast_episodes: ["building-scalable-and-reliable-machine-learning-systems"]
 github: "arsenyinfo"
 linkedin: "arsenyinfo"
 web: "https://arseny.info/"
-curated: true
+curated: "true"
 ---
 
 # Arseny Kravchenko

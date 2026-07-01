@@ -139,6 +139,17 @@ human-in-the-loop review inside system design. This places fairness beside
 Metrics provide evidence, while product, domain, and risk owners decide what the
 evidence permits.
 
+[Christine Cepelak]({{ '/people/christinecepelak/' | relative_url }}) extends
+responsible AI into the public-policy domain. In
+[Data Science for Public Policy]({{ '/podcasts/data-science-for-public-policy-ethical-ai-social-impact/' | relative_url }}),
+she frames ethics as the gap between what is legal and what is right — printer
+e-waste contaminating communities is not a crime, but it is an ethical failure
+data science can help expose. She also connects the EU AI Act and social-scoring
+risks to data science practice, arguing that public-sector teams need ethical
+literacy to handle new technologies. Her career advice points to volunteer
+projects through Data Science for Social Good and the UN Sustainable Development
+Goals as entry routes for impact-focused data work.
+
 ## Explanations and Review Evidence
 
 Explainability helps responsible AI only when it answers a reviewer's actual

@@ -157,6 +157,14 @@ design constraints because a model may be accurate but too slow or too
 expensive. It may also be too large for the target environment. Either case is a
 production failure.
 
+[Yury Kashnitsky]({{ '/people/yurykashnitsky/' | relative_url }}) gives a
+concrete example: after a gradient boosting model failed to beat a CTR heuristic
+baseline, the team discovered the bottleneck was in the serving infrastructure,
+not the model. Reducing the re-ranking scope fixed the latency problem. The same
+episode also documents the cost of skipping CI/CD — SSH-based deploys meant every
+syntax error crashed production until a manual revert
+([Data Science Failures and MLOps Lessons]({{ '/podcasts/data-science-failures-and-mlops-lessons/' | relative_url }})).
+
 [Ben Wilson]({{ '/people/benwilson/' | relative_url }}) treats cost as a reason
 to avoid unnecessary model complexity in
 [Practical Machine Learning Engineering for Production]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }}).

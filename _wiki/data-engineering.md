@@ -236,3 +236,14 @@ Those skills get stronger when paired with cloud, Python, and cost discipline
 [Data Analyst Careers]({{ '/wiki/data-analyst-careers/' | relative_url }})
 or [Data Science]({{ '/wiki/data-science/' | relative_url }}). The role often
 sits between business questions, analytical modeling, and production systems.
+
+[José Figueiredo]({{ '/people/josemaria/' | relative_url }}) adds the
+IoT and remote-work dimension. In
+[Remote Data Engineering and IoT Platforms]({{ '/podcasts/remote-data-engineering-work-and-building-iot-platforms/' | relative_url }}),
+he describes building an "operating system" for sensor data: a platform that
+handles how data comes in, how it is stored, and how it flows out to internal
+stakeholders. His ETL process starts with exploration — understanding what is
+inside the data and why the pipeline exists — before writing code. He also shows
+how a data engineering newsletter doubles as personal branding and
+communication practice, and how remote work in Norway constrains the hiring
+market to a few cities despite a remote-first setup.

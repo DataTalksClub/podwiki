@@ -178,6 +178,18 @@ That's the safety-critical version of the same [evaluation]({{ '/wiki/evaluation
 principle. Offline model quality isn't enough when the model acts in a physical
 world.
 
+[Rosona]({{ '/people/rosonaeldred/' | relative_url }}) broadens the industrial
+data picture beyond semiconductors. In
+[Industrial Data and Small-Data Production ML]({{ '/podcasts/industrial-data-small-data-production-machine-learning/' | relative_url }}),
+she describes paint and chemical production where ingredients, infrared spectra,
+and material properties form a "tiny data" regime. Neural nets rarely fit: the
+answer is statistical methods, transfer learning, and domain experts who hold
+tacit knowledge beyond the CSV. She splits industrial data into R&D experiments
+(small, reformulation-driven) and full-scale production (high-volume, streaming,
+real-time alerts), and explains how regulatory and sustainability tracking
+creates new data gaps that force product redevelopment with small historical
+datasets.
+
 ## Monitoring, Drift, and Safety
 
 Industrial ML monitoring has to watch both model behavior and the operating

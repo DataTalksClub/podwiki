@@ -99,6 +99,15 @@ Around 50:10, the episode discusses dual evaluation across model quality
 and technical execution. Competition-style learning becomes useful when the
 curriculum also teaches maintainable systems and collaboration.
 
+[David Bader]({{ '/people/davidbader/' | relative_url }}) brings curriculum
+design to the university-program scale. In
+[Building Data Science Programs]({{ '/podcasts/building-data-science-programs-and-democratizing-high-performance-computing/' | relative_url }}),
+he describes founding data science schools and degree programs at Georgia Tech
+and NJIT. His approach aligns curricula with regional workforce needs and
+industry partnerships (NSF, Accenture, NVIDIA). He treats the research lab like
+a startup that ships open-source code — Arkouda — rather than only publishing
+papers, and emphasizes mentoring from high school through PhD students.
+
 ## Use Feedback and Mentoring as Teaching Infrastructure
 
 Teaching in these episodes depends on feedback. Jeff says around 3:56 that

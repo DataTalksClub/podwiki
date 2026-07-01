@@ -7,7 +7,7 @@ summary: "Christoph Molnar's DataTalks.Club podcast contribution on interpretabl
 expertise: ["machine learning", "data science", "interpretability", "tools", "practices"]
 podcast_episodes: ["interpretable-machine-learning"]
 source_url: "https://datatalks.club/people/christophmolnar.html"
-curated: true
+curated: "true"
 ---
 
 Christoph Molnar is a statistician, machine learning practitioner, and

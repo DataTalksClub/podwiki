@@ -6,7 +6,7 @@ person_id: "zhamakdehghani"
 summary: "Founder of data mesh contributing decentralized data architecture, data products, contracts, and federated governance."
 expertise: ["data mesh", "data engineering", "data products", "data governance"]
 podcast_episodes: ["data-mesh-architecture-decentralized-data-products"]
-curated: true
+curated: "true"
 source_url: "https://datatalks.club/people/zhamakdehghani.html"
 ---
 

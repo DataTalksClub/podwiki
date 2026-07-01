@@ -193,6 +193,15 @@ At 19:12, explainable AI and sensitive findings turn technical work into a
 communication problem. Seniority requires judgment about when and how to
 challenge a decision.
 
+[Ruslan Shchuchkin]({{ '/people/ruslanshchuchkin/' | relative_url }}) connects
+sustainable career development to behavioral habits. In
+[Biohacking for Data Scientists]({{ '/podcasts/biohacking-productivity-for-data-scientists-and-ml-engineers/' | relative_url }}),
+he frames productivity as affordable behavioral biohacking: morning light
+exposure for circadian regulation, protein-rich breakfasts for focus, and
+90-minute sleep cycles for alarm timing. His prioritization framework narrows
+focus to five impactful life goals — including family, sport, nutrition, and
+work output — instead of trying to pursue dozens of interests at once.
+
 ## Transitions and Transferable Strengths
 
 Transitions work when a person translates existing strengths into the target

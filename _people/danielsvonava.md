@@ -1,11 +1,11 @@
 ---
-layout: person
+layout: "person"
 title: "Daniel Svonava"
 summary: "Daniel Svonava's DataTalks.Club discussion of production search systems, dense embeddings, ranking, hybrid retrieval, vector infrastructure, and search evaluation."
 source_url: "https://datatalks.club/people/danielsvonava.html"
 podcast_episodes: ["building-production-search-systems"]
 expertise: ["production search", "information retrieval", "dense embeddings", "hybrid search", "vector infrastructure", "search evaluation"]
-curated: true
+curated: "true"
 github: "svonava"
 linkedin: "svonava"
 ---

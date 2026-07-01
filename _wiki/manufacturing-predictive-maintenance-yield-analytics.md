@@ -132,6 +132,17 @@ context for a choice. They can run a qual, watch a tool or wait because
 processing has stopped
 ([18:38-20:40, 23:29-29:06, 41:08-43:38]({{ '/podcasts/from-semiconductor-data-to-applied-machine-learning/' | relative_url }})).
 
+[Rosona]({{ '/people/rosonaeldred/' | relative_url }}) extends these patterns to
+chemical and coating production in
+[Industrial Data and Small-Data Production ML]({{ '/podcasts/industrial-data-small-data-production-machine-learning/' | relative_url }}).
+She describes quality control as monitoring input-output ratios — one kilo in,
+one kilo out — and flagging anomalies that trigger a technician visit. Her
+discussion of packing-peanut and blue-paint production shows that predictive
+maintenance in process industries depends more on fixed sensor placement and
+batch traceability than on internet-scale data volume. The regulatory layer adds
+sustainability and compliance tracking, which can force reformulation using
+small historical experiment data.
+
 ## Related Pages
 
 These pages give the surrounding vocabulary for Dashel's semiconductor example.

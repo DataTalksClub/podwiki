@@ -10,7 +10,7 @@ expertise: ["distributed systems", "data engineering", "data systems", "streamin
 twitter: "martinkl"
 linkedin: "martinkleppmann"
 web: "https://martin.kleppmann.com/"
-curated: true
+curated: "true"
 ---
 
 Martin Kleppmann is a distributed-systems researcher at the University of

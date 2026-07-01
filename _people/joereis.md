@@ -7,7 +7,7 @@ podcast_episodes: []
 github: "JoeReis"
 linkedin: "josephreis"
 web: "https://josephreis.com/"
-curated: true
+curated: "true"
 expertise: ["data engineering", "data architecture", "data engineering lifecycle", "data modeling", "platform practices", "career development"]
 ---
 

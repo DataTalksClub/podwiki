@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 126,
     "nodes": 1049,
-    "links": 12974
+    "links": 12979
   },
   "nodes": [
     {
@@ -47876,6 +47876,12 @@
     },
     {
       "source": "wiki:astroinformatics-scientific-data-pipelines",
+      "target": "person:daynancrull",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:astroinformatics-scientific-data-pipelines",
       "target": "podcast:from-radio-astronomy-to-machine-learning-and-data-engineering",
       "kind": "wiki-link",
       "weight": 1
@@ -53169,6 +53175,12 @@
     {
       "source": "wiki:data-engineering",
       "target": "person:jeffkatz",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering",
+      "target": "person:josemaria",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -67424,6 +67436,12 @@
     },
     {
       "source": "wiki:industrial-ml-applications",
+      "target": "person:rosonaeldred",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:industrial-ml-applications",
       "target": "person:sofyayulpatova",
       "kind": "wiki-link",
       "weight": 1
@@ -72303,6 +72321,12 @@
     {
       "source": "wiki:manufacturing-predictive-maintenance-yield-analytics",
       "target": "person:dashelruizperez",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:manufacturing-predictive-maintenance-yield-analytics",
+      "target": "person:rosonaeldred",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -78477,6 +78501,12 @@
     {
       "source": "wiki:platform-engineering",
       "target": "person:hugobowneanderson",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:platform-engineering",
+      "target": "person:josemaria",
       "kind": "wiki-link",
       "weight": 1
     },

@@ -7,7 +7,7 @@ summary: "Databricks solutions architect and ML engineering author focused on ma
 expertise: ["machine learning", "production", "career growth", "MLOps", "software engineering"]
 podcast_episodes: ["machine-learning-engineering-production-best-practices"]
 source_url: "https://datatalks.club/people/benwilson.html"
-curated: true
+curated: "true"
 ---
 
 Ben Wilson asks how
