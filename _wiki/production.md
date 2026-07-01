@@ -117,7 +117,7 @@ separates deployment options in the 31:15 chapter of
 [Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
 He discusses batch inference, online serving, orchestration, and production
 workflows. That maps production to
-[batch vs streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }}) choices.
+[batch vs streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }}) choices.
 A nightly scoring job, a real-time API, and a feature pipeline need different
 reliability controls.
 
@@ -266,7 +266,7 @@ roles that production systems depend on.
 - [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
 - [AI Red Teaming]({{ '/wiki/ai-red-teaming/' | relative_url }})
 - [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
-- [Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }})
+- [Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }})
 - [Testing]({{ '/wiki/testing/' | relative_url }})
 - [Caching]({{ '/wiki/caching/' | relative_url }})
 - [Software Engineering]({{ '/wiki/software-engineering/' | relative_url }})

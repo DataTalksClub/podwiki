@@ -308,7 +308,7 @@ Build in this order:
 5. Add one platform tradeoff only when the project needs it. Compare warehouse
    versus lakehouse or batch versus streaming. Airflow versus a simpler
    scheduler also works, as does managed service versus local stack
-   ([Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }}),
+   ([Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }}),
    [Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }})).
 
 This path keeps the keyword promise honest. A data scientist becomes a credible

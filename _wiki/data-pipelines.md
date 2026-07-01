@@ -9,7 +9,6 @@ related:
   - DataOps
   - Data Quality and Observability
   - Data Engineering Platforms
-  - Batch vs Streaming
   - MLOps
 ---
 
@@ -140,7 +139,7 @@ shows the fraud-prevention version in
 [Data Engineering for Fraud Prevention]({{ '/podcasts/building-and-scaling-data-engineering-systems-for-fraud-detection/' | relative_url }}).
 Daily jobs compute stable fraud features, while live transaction signals feed
 real-time decisions at checkout. That hybrid design appears around 8:24 and
-34:46. Use [Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }})
+34:46. Use [Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }})
 for the latency decision and
 [ML pipelines]({{ '/guides/mlops-architecture/' | relative_url }}) for the
 larger model lifecycle.
@@ -221,7 +220,7 @@ production outcomes.
 
 ## Batch, Streaming, and CDC
 
-[Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }}) is a
+[Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }}) is a
 latency and operating decision. Kretz introduces events and queues around 15:11
 in
 [From Notebooks to Production]({{ '/podcasts/production-ml-pipelines-with-aws-and-kafka/' | relative_url }}),
@@ -347,7 +346,7 @@ Use
 [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
 when the same conventions have to support many teams and many pipelines.
 
-Use [Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }}) when
+Use [Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }}) when
 latency and replay drive the design. It also covers cost and operations. Use
 [MLOps]({{ '/wiki/mlops/' | relative_url }}) and
 [ML pipelines]({{ '/guides/mlops-architecture/' | relative_url }}) when the

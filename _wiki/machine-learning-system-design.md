@@ -127,7 +127,7 @@ architecture. Many production systems fail when the team can't compute the right
 features at prediction time. That concern connects ML system design to
 [data engineering platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}),
 [data quality and observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}),
-and [batch versus streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }}).
+and [batch versus streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }}).
 
 Nadia's episode adds a software-engineering warning. At 10:54 and 29:42, she
 names data access, unmet requirements, and deployment failures as common reasons

@@ -163,7 +163,7 @@ a few Kafka topics to hundreds quickly. His recommendation is to define typed
 schemas and schema registry usage. Teams should also define allowed changes and
 a schema-change process before downstream teams depend on the stream
 ([Scaling Data Engineering Teams]({{ '/podcasts/scaling-data-engineering-teams-self-service-platforms/' | relative_url }}),
-23:26-26:52). Use [Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }})
+23:26-26:52). Use [Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }})
 when the main decision is latency.
 
 ## Add Tests, Observability, And Recovery

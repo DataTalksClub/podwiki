@@ -10,7 +10,6 @@ related:
   - DataOps
   - Orchestration
   - Modern Data Stack
-  - Batch vs Streaming
 ---
 
 ## Definition
@@ -131,7 +130,7 @@ requires streaming. This is the real-time myth at 38:01 in
 He also warns against overbuilt modern stacks at 30:56 and gives portfolio
 framing advice at 57:35.
 
-Use [Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }})
+Use [Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }})
 when the project needs the tradeoff. Use
 [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}) for stack
 boundaries and [Orchestration]({{ '/wiki/orchestration/' | relative_url }}) for
@@ -200,4 +199,4 @@ Use these pages to follow the project and its adjacent concepts.
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})
 - [Orchestration]({{ '/wiki/orchestration/' | relative_url }})
 - [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
-- [Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }})
+- [Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }})

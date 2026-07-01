@@ -145,7 +145,7 @@ Teams should choose between batch scoring and streaming features. They should
 also decide whether the system needs online serving or offline analysis. Those
 decisions tie ML design docs to
 [data pipelines]({{ '/wiki/data-pipelines/' | relative_url }}),
-[batch versus streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }}), and
+[batch versus streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }}), and
 [data quality and observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).
 
 Evaluation belongs in the same written artifact because model quality and

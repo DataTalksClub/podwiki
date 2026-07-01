@@ -327,7 +327,9 @@ Add advanced tools only when the constraint is real:
 - Add Spark for distributed processing, large-data transformations, or
   Spark-specific job experience.
 - Add Kafka when delayed answers lose value and event ordering, replay, or late
-  events become central.
+  events become central, using
+  [Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }})
+  to decide whether the latency need justifies streaming.
 - Add Kubernetes when deployment and platform ownership are part of the role.
 - Add Iceberg, Delta Lake, or a catalog when lakehouse metadata and schema
   evolution become the problem.

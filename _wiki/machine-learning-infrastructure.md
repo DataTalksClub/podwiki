@@ -164,7 +164,7 @@ He connects them to production workflows.
 
 That orchestration work connects ML infrastructure to
 [Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }}) and
-[Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }}).
+[Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }}).
 Some models need scheduled batch scoring. Others need online inference or
 streaming features.
 

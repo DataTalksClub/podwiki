@@ -7,7 +7,6 @@ related:
   - Data Engineering Platforms
   - DataOps
   - Modern Data Stack
-  - Batch vs Streaming
   - ML Platforms
   - Data Quality and Observability
 ---
@@ -192,7 +191,7 @@ Batch processing is where this model is most explicit. Around 45:11,
 Albertsson distinguishes batch from streaming by the programmer's ability to
 name batches and dependencies directly. That explicit dependency management
 makes batch workflows more forgiving when a team needs reruns, retries, or
-recovery. Use [Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }})
+recovery. Use [Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }})
 for the latency tradeoff. Use orchestration when the main question is how runs
 depend on each other and how the team recovers from missed or failed work.
 

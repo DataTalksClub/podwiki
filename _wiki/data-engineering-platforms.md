@@ -11,7 +11,6 @@ related:
   - Data Products
   - Data Governance
   - Data Quality and Observability
-  - Batch vs Streaming
 ---
 
 Data engineering platforms are the shared systems and team practices that move
@@ -269,7 +268,7 @@ Flink for specific requirements
 explicitly warns against the real-time myth and against over-engineered modern
 data stacks
 ([Data Engineer Career in 2026]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }}),
-30:56-38:01). Use [Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }})
+30:56-38:01). Use [Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }})
 and [Streaming]({{ '/wiki/streaming/' | relative_url }}) when latency is the
 main design question.
 
@@ -331,6 +330,6 @@ Use these pages for adjacent platform, governance, and delivery topics.
 - [Data Product Adoption]({{ '/wiki/data-product-adoption/' | relative_url }})
 - [Data Governance]({{ '/wiki/data-governance/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
-- [Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }})
+- [Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }})
 - [Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
 - [Data Mesh vs Centralized Data Platform]({{ '/wiki/data-mesh-vs-centralized-data-platform/' | relative_url }})

@@ -3,7 +3,6 @@ layout: wiki
 title: "Streaming"
 summary: "How the DataTalks.Club archive discusses event streaming with Kafka, real-time pipelines, schemas, feature stores, fraud systems, and search."
 related:
-  - Batch vs Streaming
   - Data Pipelines
   - Data Engineering Platforms
   - CDC
@@ -24,7 +23,7 @@ ranking.
 That makes streaming a design choice inside
 [data pipelines]({{ '/wiki/data-pipelines/' | relative_url }}), not a default
 architecture. The archive repeatedly ties streaming to
-[batch vs streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }}),
+[batch vs streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }}),
 [DataOps]({{ '/wiki/dataops/' | relative_url }}), schema ownership, and
 [MLOps]({{ '/wiki/mlops/' | relative_url }}). A team chooses streaming when the
 result loses value if it waits for a scheduled batch job.
@@ -148,7 +147,7 @@ Online features, search freshness, and traffic response can justify it too.
 
 Reports, backfills, training-set construction, and many warehouse models often
 fit batch. The
-[Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }}) page
+[Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }}) page
 covers that broader tradeoff.
 
 
@@ -316,7 +315,7 @@ and ownership. It also has to explain product value.
 Use these pages for adjacent latency and platform details, plus data quality,
 ML, and search.
 
-- [Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }})
+- [Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }})
 - [Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }})
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
 - [CDC]({{ '/wiki/cdc/' | relative_url }})

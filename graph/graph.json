@@ -1,10 +1,10 @@
 {
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
-    "wikis": 177,
-    "articles": 47,
+    "wikis": 176,
+    "articles": 48,
     "guides": 19,
-    "comparisons": 17,
+    "comparisons": 18,
     "roadmaps": 9,
     "how_tos": 2,
     "podcasts": 202,
@@ -35,6 +35,17 @@
       "count": 1,
       "search": "Airflow Docker Compose: Local Setup for Data Pipeline Projects A podcast backed how to for using Docker Compose to run Airflow locally for data pipeline projects, with DAG structure, mounted code, checks, logs, and limits.",
       "keyword": "airflow docker compose"
+    },
+    {
+      "id": "article:comparison:batch-vs-streaming",
+      "type": "article",
+      "collection": "comparison",
+      "label": "Batch vs Streaming",
+      "title": "Batch vs Streaming",
+      "url": "/comparisons/batch-vs-streaming/",
+      "count": 1,
+      "search": "Batch vs Streaming How DataTalks.Club podcast guests compare batch and streaming data processing through latency, operations, contracts, cost, ML serving, and product decision tradeoffs.",
+      "keyword": "batch vs streaming"
     },
     {
       "id": "article:guide:data-analysis",
@@ -8417,16 +8428,6 @@
       "search": "Applied Research How DataTalks.Club guests describe applied research as hypothesis driven work that turns uncertain ML ideas into products, reusable systems, and production ready evidence."
     },
     {
-      "id": "wiki:batch-vs-streaming",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "Batch vs Streaming",
-      "title": "Batch vs Streaming",
-      "url": "/wiki/batch-vs-streaming/",
-      "count": 1,
-      "search": "Batch vs Streaming A podcast backed comparison of batch and streaming data processing through latency, operations, contracts, cost, ML serving, and product decision tradeoffs."
-    },
-    {
       "id": "wiki:business-intelligence",
       "type": "wiki",
       "collection": "wiki",
@@ -10009,6 +10010,264 @@
     }
   ],
   "links": [
+    {
+      "source": "article:comparison:batch-vs-streaming",
+      "target": "person:adrianbrudaru",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:batch-vs-streaming",
+      "target": "person:andreaskretz",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:batch-vs-streaming",
+      "target": "person:angelaramirez",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:batch-vs-streaming",
+      "target": "person:larsalbertsson",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:batch-vs-streaming",
+      "target": "person:mehdiouazza",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:batch-vs-streaming",
+      "target": "person:santonatuli",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:batch-vs-streaming",
+      "target": "person:simonstiebellehner",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:batch-vs-streaming",
+      "target": "person:willempienaar",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:batch-vs-streaming",
+      "target": "podcast:building-and-scaling-data-engineering-systems-for-fraud-detection",
+      "kind": "article-link",
+      "weight": 10
+    },
+    {
+      "source": "article:comparison:batch-vs-streaming",
+      "target": "podcast:building-production-ml-platform-and-mlops-team",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:comparison:batch-vs-streaming",
+      "target": "podcast:dataops-principles-and-scalable-data-platforms",
+      "kind": "article-link",
+      "weight": 14
+    },
+    {
+      "source": "article:comparison:batch-vs-streaming",
+      "target": "podcast:mlops-feature-stores-feature-stores-feast-tecton",
+      "kind": "article-link",
+      "weight": 10
+    },
+    {
+      "source": "article:comparison:batch-vs-streaming",
+      "target": "podcast:modern-data-pipelines-orchestration-ingestion-modeling",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:batch-vs-streaming",
+      "target": "podcast:production-ml-pipelines-with-aws-and-kafka",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:batch-vs-streaming",
+      "target": "podcast:scaling-data-engineering-teams-self-service-platforms",
+      "kind": "article-link",
+      "weight": 8
+    },
+    {
+      "source": "article:comparison:batch-vs-streaming",
+      "target": "podcast:trends-in-modern-data-engineering",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:comparison:batch-vs-streaming",
+      "target": "wiki:data-engineering",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:batch-vs-streaming",
+      "target": "wiki:data-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:batch-vs-streaming",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:batch-vs-streaming",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:batch-vs-streaming",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:batch-vs-streaming",
+      "target": "wiki:data-governance",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:batch-vs-streaming",
+      "target": "wiki:data-mesh",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:batch-vs-streaming",
+      "target": "wiki:data-pipelines",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:batch-vs-streaming",
+      "target": "wiki:data-pipelines",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:batch-vs-streaming",
+      "target": "wiki:data-products",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:batch-vs-streaming",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:comparison:batch-vs-streaming",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:batch-vs-streaming",
+      "target": "wiki:dataops",
+      "kind": "article-link",
+      "weight": 8
+    },
+    {
+      "source": "article:comparison:batch-vs-streaming",
+      "target": "wiki:dataops",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:batch-vs-streaming",
+      "target": "wiki:event-tracking",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:batch-vs-streaming",
+      "target": "wiki:experiment-tracking",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:batch-vs-streaming",
+      "target": "wiki:machine-learning-infrastructure",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:batch-vs-streaming",
+      "target": "wiki:machine-learning-infrastructure",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:batch-vs-streaming",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:comparison:batch-vs-streaming",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:batch-vs-streaming",
+      "target": "wiki:mlops",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:batch-vs-streaming",
+      "target": "wiki:model-registry",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:batch-vs-streaming",
+      "target": "wiki:modern-data-stack",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:batch-vs-streaming",
+      "target": "wiki:orchestration",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:batch-vs-streaming",
+      "target": "wiki:orchestration",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:batch-vs-streaming",
+      "target": "wiki:streaming",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:batch-vs-streaming",
+      "target": "wiki:streaming",
+      "kind": "article-wiki",
+      "weight": 5
+    },
     {
       "source": "article:comparison:data-analyst-vs-analytics-engineer",
       "target": "article:guide:data-roles",
@@ -17811,6 +18070,12 @@
     },
     {
       "source": "article:how_to:how-to-build-data-pipelines",
+      "target": "article:comparison:batch-vs-streaming",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:how_to:how-to-build-data-pipelines",
       "target": "article:comparison:data-warehouse-vs-data-lakehouse",
       "kind": "article-link",
       "weight": 2
@@ -17908,12 +18173,6 @@
     {
       "source": "article:how_to:how-to-build-data-pipelines",
       "target": "wiki:analytics-engineering",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:how_to:how-to-build-data-pipelines",
-      "target": "wiki:batch-vs-streaming",
       "kind": "article-link",
       "weight": 2
     },
@@ -18579,6 +18838,12 @@
     },
     {
       "source": "article:roadmap:data-engineer-roadmap",
+      "target": "article:comparison:batch-vs-streaming",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-engineer-roadmap",
       "target": "article:comparison:data-warehouse-vs-data-lakehouse",
       "kind": "article-link",
       "weight": 2
@@ -19083,6 +19348,12 @@
     },
     {
       "source": "article:roadmap:data-scientist-to-data-engineer",
+      "target": "article:comparison:batch-vs-streaming",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:roadmap:data-scientist-to-data-engineer",
       "target": "article:comparison:mlops-vs-dataops",
       "kind": "article-link",
       "weight": 2
@@ -19240,12 +19511,6 @@
     {
       "source": "article:roadmap:data-scientist-to-data-engineer",
       "target": "wiki:analytics-engineering-portfolio-projects",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:roadmap:data-scientist-to-data-engineer",
-      "target": "wiki:batch-vs-streaming",
       "kind": "article-link",
       "weight": 2
     },
@@ -39830,240 +40095,6 @@
       "weight": 2
     },
     {
-      "source": "wiki:batch-vs-streaming",
-      "target": "person:adrianbrudaru",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:batch-vs-streaming",
-      "target": "person:andreaskretz",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:batch-vs-streaming",
-      "target": "person:angelaramirez",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:batch-vs-streaming",
-      "target": "person:larsalbertsson",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:batch-vs-streaming",
-      "target": "person:mehdiouazza",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:batch-vs-streaming",
-      "target": "person:santonatuli",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:batch-vs-streaming",
-      "target": "person:simonstiebellehner",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:batch-vs-streaming",
-      "target": "person:willempienaar",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:batch-vs-streaming",
-      "target": "podcast:building-and-scaling-data-engineering-systems-for-fraud-detection",
-      "kind": "wiki-link",
-      "weight": 10
-    },
-    {
-      "source": "wiki:batch-vs-streaming",
-      "target": "podcast:building-production-ml-platform-and-mlops-team",
-      "kind": "wiki-link",
-      "weight": 6
-    },
-    {
-      "source": "wiki:batch-vs-streaming",
-      "target": "podcast:dataops-principles-and-scalable-data-platforms",
-      "kind": "wiki-link",
-      "weight": 14
-    },
-    {
-      "source": "wiki:batch-vs-streaming",
-      "target": "podcast:mlops-feature-stores-feature-stores-feast-tecton",
-      "kind": "wiki-link",
-      "weight": 10
-    },
-    {
-      "source": "wiki:batch-vs-streaming",
-      "target": "podcast:modern-data-pipelines-orchestration-ingestion-modeling",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:batch-vs-streaming",
-      "target": "podcast:production-ml-pipelines-with-aws-and-kafka",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:batch-vs-streaming",
-      "target": "podcast:scaling-data-engineering-teams-self-service-platforms",
-      "kind": "wiki-link",
-      "weight": 8
-    },
-    {
-      "source": "wiki:batch-vs-streaming",
-      "target": "podcast:trends-in-modern-data-engineering",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:batch-vs-streaming",
-      "target": "wiki:data-engineering",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:batch-vs-streaming",
-      "target": "wiki:data-engineering",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:batch-vs-streaming",
-      "target": "wiki:data-engineering-platforms",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:batch-vs-streaming",
-      "target": "wiki:data-engineering-platforms",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:batch-vs-streaming",
-      "target": "wiki:data-engineering-portfolio-projects",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:batch-vs-streaming",
-      "target": "wiki:data-governance",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:batch-vs-streaming",
-      "target": "wiki:data-mesh",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:batch-vs-streaming",
-      "target": "wiki:data-pipelines",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:batch-vs-streaming",
-      "target": "wiki:data-products",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:batch-vs-streaming",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "wiki-link",
-      "weight": 6
-    },
-    {
-      "source": "wiki:batch-vs-streaming",
-      "target": "wiki:dataops",
-      "kind": "wiki-link",
-      "weight": 8
-    },
-    {
-      "source": "wiki:batch-vs-streaming",
-      "target": "wiki:dataops",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:batch-vs-streaming",
-      "target": "wiki:event-tracking",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:batch-vs-streaming",
-      "target": "wiki:experiment-tracking",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:batch-vs-streaming",
-      "target": "wiki:machine-learning-infrastructure",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:batch-vs-streaming",
-      "target": "wiki:machine-learning-system-design",
-      "kind": "wiki-link",
-      "weight": 6
-    },
-    {
-      "source": "wiki:batch-vs-streaming",
-      "target": "wiki:machine-learning-system-design",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:batch-vs-streaming",
-      "target": "wiki:mlops",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:batch-vs-streaming",
-      "target": "wiki:model-registry",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:batch-vs-streaming",
-      "target": "wiki:modern-data-stack",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:batch-vs-streaming",
-      "target": "wiki:orchestration",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:batch-vs-streaming",
-      "target": "wiki:streaming",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:batch-vs-streaming",
-      "target": "wiki:streaming",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
       "source": "wiki:business-intelligence",
       "target": "podcast:data-engineering-tools-modern-data-stack",
       "kind": "wiki-link",
@@ -44829,6 +44860,12 @@
     },
     {
       "source": "wiki:data-engineer-vs-data-scientist",
+      "target": "article:comparison:batch-vs-streaming",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:data-engineer-vs-data-scientist",
       "target": "article:comparison:data-engineer-vs-data-scientist",
       "kind": "wiki-link",
       "weight": 6
@@ -44892,12 +44929,6 @@
       "target": "wiki:analytics-engineering",
       "kind": "wiki-link",
       "weight": 4
-    },
-    {
-      "source": "wiki:data-engineer-vs-data-scientist",
-      "target": "wiki:batch-vs-streaming",
-      "kind": "wiki-link",
-      "weight": 6
     },
     {
       "source": "wiki:data-engineer-vs-data-scientist",
@@ -45603,6 +45634,12 @@
     },
     {
       "source": "wiki:data-engineering-platforms",
+      "target": "article:comparison:batch-vs-streaming",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:data-engineering-platforms",
       "target": "article:comparison:data-warehouse-vs-data-lakehouse",
       "kind": "wiki-link",
       "weight": 4
@@ -45744,18 +45781,6 @@
       "target": "wiki:apache-iceberg",
       "kind": "wiki-link",
       "weight": 4
-    },
-    {
-      "source": "wiki:data-engineering-platforms",
-      "target": "wiki:batch-vs-streaming",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:data-engineering-platforms",
-      "target": "wiki:batch-vs-streaming",
-      "kind": "wiki-related",
-      "weight": 3
     },
     {
       "source": "wiki:data-engineering-platforms",
@@ -45921,6 +45946,12 @@
     },
     {
       "source": "wiki:data-engineering-portfolio-projects",
+      "target": "article:comparison:batch-vs-streaming",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:data-engineering-portfolio-projects",
       "target": "article:comparison:data-warehouse-vs-data-lakehouse",
       "kind": "wiki-link",
       "weight": 2
@@ -46080,12 +46111,6 @@
       "target": "wiki:analytics-engineering-portfolio-projects",
       "kind": "wiki-link",
       "weight": 4
-    },
-    {
-      "source": "wiki:data-engineering-portfolio-projects",
-      "target": "wiki:batch-vs-streaming",
-      "kind": "wiki-link",
-      "weight": 6
     },
     {
       "source": "wiki:data-engineering-portfolio-projects",
@@ -47781,6 +47806,12 @@
     },
     {
       "source": "wiki:data-pipelines",
+      "target": "article:comparison:batch-vs-streaming",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:data-pipelines",
       "target": "article:guide:mlops-architecture",
       "kind": "wiki-link",
       "weight": 4
@@ -47916,18 +47947,6 @@
       "target": "podcast:scaling-data-engineering-teams-self-service-platforms",
       "kind": "wiki-link",
       "weight": 4
-    },
-    {
-      "source": "wiki:data-pipelines",
-      "target": "wiki:batch-vs-streaming",
-      "kind": "wiki-link",
-      "weight": 6
-    },
-    {
-      "source": "wiki:data-pipelines",
-      "target": "wiki:batch-vs-streaming",
-      "kind": "wiki-related",
-      "weight": 3
     },
     {
       "source": "wiki:data-pipelines",
@@ -53271,6 +53290,12 @@
     },
     {
       "source": "wiki:end-to-end-data-pipeline-project",
+      "target": "article:comparison:batch-vs-streaming",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:end-to-end-data-pipeline-project",
       "target": "article:how_to:airflow-docker-compose",
       "kind": "wiki-link",
       "weight": 2
@@ -53370,18 +53395,6 @@
       "target": "wiki:analytics-engineering",
       "kind": "wiki-link",
       "weight": 2
-    },
-    {
-      "source": "wiki:end-to-end-data-pipeline-project",
-      "target": "wiki:batch-vs-streaming",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:end-to-end-data-pipeline-project",
-      "target": "wiki:batch-vs-streaming",
-      "kind": "wiki-related",
-      "weight": 3
     },
     {
       "source": "wiki:end-to-end-data-pipeline-project",
@@ -58947,6 +58960,12 @@
     },
     {
       "source": "wiki:machine-learning-infrastructure",
+      "target": "article:comparison:batch-vs-streaming",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:machine-learning-infrastructure",
       "target": "person:andreaskretz",
       "kind": "wiki-link",
       "weight": 2
@@ -59010,12 +59029,6 @@
       "target": "wiki:ai-infrastructure",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:machine-learning-infrastructure",
-      "target": "wiki:batch-vs-streaming",
-      "kind": "wiki-link",
-      "weight": 2
     },
     {
       "source": "wiki:machine-learning-infrastructure",
@@ -59409,6 +59422,12 @@
     },
     {
       "source": "wiki:machine-learning-system-design",
+      "target": "article:comparison:batch-vs-streaming",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:machine-learning-system-design",
       "target": "article:guide:machine-learning-system-design-interview",
       "kind": "wiki-link",
       "weight": 2
@@ -59502,12 +59521,6 @@
       "target": "wiki:a-b-testing",
       "kind": "wiki-link",
       "weight": 4
-    },
-    {
-      "source": "wiki:machine-learning-system-design",
-      "target": "wiki:batch-vs-streaming",
-      "kind": "wiki-link",
-      "weight": 2
     },
     {
       "source": "wiki:machine-learning-system-design",
@@ -61065,6 +61078,12 @@
     },
     {
       "source": "wiki:ml-system-design-documents",
+      "target": "article:comparison:batch-vs-streaming",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ml-system-design-documents",
       "target": "article:guide:mlops-architecture",
       "kind": "wiki-link",
       "weight": 2
@@ -61104,12 +61123,6 @@
       "target": "podcast:software-engineering-for-machine-learning",
       "kind": "wiki-link",
       "weight": 6
-    },
-    {
-      "source": "wiki:ml-system-design-documents",
-      "target": "wiki:batch-vs-streaming",
-      "kind": "wiki-link",
-      "weight": 2
     },
     {
       "source": "wiki:ml-system-design-documents",
@@ -63435,6 +63448,12 @@
     },
     {
       "source": "wiki:notebook-to-production-ai-systems",
+      "target": "article:comparison:batch-vs-streaming",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:notebook-to-production-ai-systems",
       "target": "person:aishwaryajadhav",
       "kind": "wiki-link",
       "weight": 2
@@ -63564,12 +63583,6 @@
       "target": "wiki:ai-engineering",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:notebook-to-production-ai-systems",
-      "target": "wiki:batch-vs-streaming",
-      "kind": "wiki-link",
-      "weight": 2
     },
     {
       "source": "wiki:notebook-to-production-ai-systems",
@@ -64635,6 +64648,12 @@
     },
     {
       "source": "wiki:orchestration",
+      "target": "article:comparison:batch-vs-streaming",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:orchestration",
       "target": "article:how_to:airflow-docker-compose",
       "kind": "wiki-link",
       "weight": 2
@@ -64770,18 +64789,6 @@
       "target": "podcast:trends-in-modern-data-engineering",
       "kind": "wiki-link",
       "weight": 6
-    },
-    {
-      "source": "wiki:orchestration",
-      "target": "wiki:batch-vs-streaming",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:orchestration",
-      "target": "wiki:batch-vs-streaming",
-      "kind": "wiki-related",
-      "weight": 3
     },
     {
       "source": "wiki:orchestration",
@@ -66243,6 +66250,12 @@
     },
     {
       "source": "wiki:production",
+      "target": "article:comparison:batch-vs-streaming",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:production",
       "target": "article:comparison:mlops-vs-dataops",
       "kind": "wiki-link",
       "weight": 2
@@ -66382,12 +66395,6 @@
     {
       "source": "wiki:production",
       "target": "wiki:ai-red-teaming",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:production",
-      "target": "wiki:batch-vs-streaming",
       "kind": "wiki-link",
       "weight": 4
     },
@@ -71463,6 +71470,12 @@
     },
     {
       "source": "wiki:streaming",
+      "target": "article:comparison:batch-vs-streaming",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:streaming",
       "target": "person:adrianbrudaru",
       "kind": "wiki-link",
       "weight": 2
@@ -71568,18 +71581,6 @@
       "target": "podcast:trends-in-modern-data-engineering",
       "kind": "wiki-link",
       "weight": 8
-    },
-    {
-      "source": "wiki:streaming",
-      "target": "wiki:batch-vs-streaming",
-      "kind": "wiki-link",
-      "weight": 6
-    },
-    {
-      "source": "wiki:streaming",
-      "target": "wiki:batch-vs-streaming",
-      "kind": "wiki-related",
-      "weight": 3
     },
     {
       "source": "wiki:streaming",

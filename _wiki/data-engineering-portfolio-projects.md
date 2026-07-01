@@ -61,7 +61,7 @@ Architecture choices come from
 [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}),
 [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}), and
 [CDC]({{ '/wiki/cdc/' | relative_url }}). They also come from
-[Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }}) and
+[Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }}) and
 [Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }}).
 Public contribution proof connects this page to
 [Open Source]({{ '/wiki/open-source/' | relative_url }}),
@@ -254,7 +254,7 @@ rerun behavior.
 Avoid real-time architecture when batch refresh answers the consumer's question.
 Tulski and Brudaru both frame streaming as a requirements choice
 ([Data Engineer Career in 2026]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }})
-and [Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }})).
+and [Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }})).
 
 Avoid notebook-only pipelines with no rerun path. König and Bergh both connect
 credible data engineering work to testing, automation, and operational
@@ -290,7 +290,7 @@ Use these pages to follow the role, architecture, and portfolio-adjacent topics:
 - [Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }})
 - [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }})
 - [CDC]({{ '/wiki/cdc/' | relative_url }})
-- [Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }})
+- [Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }})
 - [Analytics Engineering Portfolio Projects]({{ '/wiki/analytics-engineering-portfolio-projects/' | relative_url }})
 - [Open Source]({{ '/wiki/open-source/' | relative_url }})
 - [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})

@@ -117,7 +117,7 @@ streaming or batch architecture follow
 9:47-25:36). That framing links notebook-to-production work to
 [data pipelines]({{ '/wiki/data-pipelines/' | relative_url }}),
 [data engineering platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}),
-and [batch versus streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }}).
+and [batch versus streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }}).
 
 Ben Wilson's production engineering episode gives the archive's clearest warning
 against shipping notebook-shaped code. Around 6:50-13:19 in

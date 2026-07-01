@@ -47,7 +47,7 @@ role boundary through [Data Engineering]({{ '/wiki/data-engineering/' | relative
 and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).
 Engineering-heavy cases connect to
 [Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }}) and
-[Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }}). Title
+[Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }}). Title
 ambiguity connects to [Job Descriptions]({{ '/wiki/job-descriptions/' | relative_url }})
 and [Hiring]({{ '/wiki/hiring/' | relative_url }}).
 
@@ -212,7 +212,7 @@ deployment, and monitoring. Grigorev's 40:10 batch-scoring example and
 Stiebellehner's 31:15 deployment section both support this split
 ([Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }}),
 [Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}),
-[Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }})).
+[Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }})).
 
 For online prediction services, the boundary moves away from pure data
 engineering. Machine learning engineers usually own serving, APIs, and latency.
@@ -308,7 +308,7 @@ Use these pages for adjacent role boundaries, tools, and career paths.
 - [Machine Learning Infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }})
-- [Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }})
+- [Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }})
 - [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
 - [Job Descriptions]({{ '/wiki/job-descriptions/' | relative_url }})
 - [Data Engineer vs Data Scientist comparison]({{ '/comparisons/data-engineer-vs-data-scientist/' | relative_url }})
