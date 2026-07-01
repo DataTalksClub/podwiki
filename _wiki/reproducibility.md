@@ -52,13 +52,13 @@ The exact capture mechanism changes by domain, but the podcast discussions
 converge on the same standard. A reproducible team can explain how a result was
 produced. It can also identify what must be rerun, reviewed, or changed.
 
-## Common Definition
+## The Reproducibility Record
 
-Across the podcast discussions, reproducibility means a team can recover the
-path from input to result. The result may be a paper figure or analytics table.
-It may also be a model artifact, dashboard, or prediction. The common requirement is that
-someone other than the original author can look at the assumptions, rerun the
-work, or explain why the result changed.
+Across these discussions, a reproducible team can recover the path from input
+to result. The result may be a paper figure or analytics table. It may also be
+a model artifact, dashboard, or prediction. Someone other than the original
+author can look at the assumptions, rerun the work, or explain why the result
+changed.
 
 [Johanna Bayer]({{ '/people/johannabayer/' | relative_url }}) gives the
 research definition in
@@ -87,10 +87,10 @@ versions helps teams reverse-engineer what happened. He also makes maturity
 part of the definition. Smaller teams may not need full data versioning on day
 one, but work with regulation or customer-facing decisions may need it earlier.
 
-## Different Emphases
+## Domain Priorities
 
-Guests differ most on scope and timing because some start from teaching, while
-others start from operations or platform risk.
+Guests differ most on scope and timing. Some start from teaching, while others
+start from operations or platform risk.
 
 Bayer and O'Brien start from teaching.
 Researchers and junior data scientists need Git, data management,
@@ -124,8 +124,8 @@ where to spend the next unit of effort. A research lab may need tests and a
 reproducible paper template. A data platform may need immutable raw inputs and
 workflow orchestration.
 
-An ML platform may need experiment tracking first. As
-model risk grows, it may also need data versioning, dependency management, and
+An ML platform may need experiment tracking first. As model risk grows, the
+same platform may also need data versioning, dependency management, and
 lineage.
 
 ## Research and Teaching
@@ -240,10 +240,10 @@ past states, but personal data requires separation and governance. Full
 database dumps preserve more history than mutable tables, yet they also require
 clear handling for GDPR and change capture.
 
-## Capture Set
+## Risk-Based Capture
 
-The episodes support a practical capture set rather than a universal tool
-checklist.
+The guests describe a risk-based capture set rather than one universal tool
+stack.
 
 - Code and workflow definitions, including reports, transformations, model
   code, infrastructure code, and orchestration dependencies

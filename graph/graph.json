@@ -6129,7 +6129,7 @@
       "title": "Experiment Tracking",
       "url": "/wiki/experiment-tracking/",
       "count": 1,
-      "search": "Experiment Tracking Podcast grounded reference page for experiment tracking as run history, reproducibility practice, and ML platform capability."
+      "search": "Experiment Tracking Experiment tracking as run history, reproducibility practice, and ML platform capability."
     },
     {
       "id": "wiki:experimentation",
@@ -6479,7 +6479,7 @@
       "title": "Model Monitoring",
       "url": "/wiki/model-monitoring/",
       "count": 1,
-      "search": "Model Monitoring Podcast grounded reference page for watching deployed models, diagnosing drift, and assigning ownership for production ML behavior."
+      "search": "Model Monitoring How teams watch deployed models, diagnose drift, and assign ownership for production ML behavior."
     },
     {
       "id": "wiki:model-registry",
@@ -6489,7 +6489,7 @@
       "title": "Model Registry",
       "url": "/wiki/model-registry/",
       "count": 1,
-      "search": "Model Registry Podcast grounded reference page for model registries as the handoff point between training, deployment, reproducibility, monitoring, and governance."
+      "search": "Model Registry Reference page for model registries as the handoff point between training, deployment, reproducibility, monitoring, and governance."
     },
     {
       "id": "wiki:modern-data-stack",

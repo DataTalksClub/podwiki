@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Experiment Tracking"
-summary: "Podcast-grounded reference page for experiment tracking as run history, reproducibility practice, and ML platform capability."
+summary: "Experiment tracking as run history, reproducibility practice, and ML platform capability."
 related:
   - MLOps
   - ML Platforms
@@ -20,20 +20,20 @@ usually includes code version, parameters, metrics, and artifacts. It can also
 include environment details, data references, and notes about the modeling
 decision.
 
-In DataTalks.Club podcast discussions, experiment tracking sits between exploratory
+Guests place experiment tracking between exploratory
 [machine learning]({{ '/wiki/machine-learning/' | relative_url }}) work and
 production [MLOps]({{ '/wiki/mlops/' | relative_url }}). It isn't the same as a
-[model registry]({{ '/wiki/model-registry/' | relative_url }}), but guests often
-discuss the two together because a useful run eventually needs an artifact
-handoff path. [Simon Stiebellehner]({{ '/people/simonstiebellehner/' | relative_url }})
-places experiment trackers before registries, serving, orchestration, and
+[model registry]({{ '/wiki/model-registry/' | relative_url }}), but the two
+often appear together because a useful run eventually needs an artifact handoff
+path. [Simon Stiebellehner]({{ '/people/simonstiebellehner/' | relative_url }})
+puts experiment trackers before registries, serving, orchestration, and
 governance in
 [Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }})
 at 29:41-31:51.
 
-Use this topic for experiment tracking in ML and AI work. The center is run
-capture, reproducibility, team memory, and platform integration. It doesn't
-cover general product
+Experiment tracking for ML and AI work centers on run capture and
+reproducibility. It also preserves team memory and connects runs to the wider
+platform. It doesn't cover general product
 [A/B testing]({{ '/wiki/a-b-testing/' | relative_url }}) or broader
 [experimentation]({{ '/wiki/experimentation/' | relative_url }}). For adjacent
 topics, use
@@ -42,7 +42,7 @@ topics, use
 behavior. Use [Reproducibility]({{ '/wiki/reproducibility/' | relative_url }})
 for the wider recovery problem across code, data, environments, and outputs.
 
-## Common Definition
+## Shared Run History
 
 Guests describe experiment tracking as moving run history out of private
 memory. It turns local notebooks and ad hoc spreadsheets into a shared record.
@@ -74,11 +74,11 @@ departed employee's laptop. At 42:54-44:46, he ties reproducibility to
 traceability, data versioning, and legal context. Sector requirements determine
 how heavy the practice must become.
 
-## Guest Differences
+## Adoption Timing
 
-Guests mostly differ on when to add tracking. Simon starts early because
-tracking gives teams a quick reproducibility and collaboration win before the
-full release path
+Guests mostly differ on when teams should add tracking. Simon starts early
+because tracking gives teams a quick reproducibility and collaboration win
+before the full release path
 ([Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }})
 at 29:41-30:58).
 
@@ -195,9 +195,9 @@ have to change every habit in one step
 ([DevRel Role for Machine Learning]({{ '/podcasts/devrel-open-source-machine-learning/' | relative_url }})
 at 13:52, 36:27, and 52:04).
 
-The practical question is therefore not "which tracker is fashionable?" The
-question is what record the team needs. That record should connect to code and
-data. It should also connect to artifacts, serving, monitoring, and governance.
+Teams therefore need to ask what record they need, not which tracker is
+fashionable. That record should connect to code and data. It should also
+connect to artifacts, serving, monitoring, and governance.
 
 ## Related Pages
 

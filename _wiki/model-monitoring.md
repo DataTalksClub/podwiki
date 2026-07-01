@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Model Monitoring"
-summary: "Podcast-grounded reference page for watching deployed models, diagnosing drift, and assigning ownership for production ML behavior."
+summary: "How teams watch deployed models, diagnose drift, and assign ownership for production ML behavior."
 related:
   - MLOps
   - Data Observability
@@ -13,9 +13,9 @@ related:
 ---
 
 Model monitoring is the practice of watching a deployed model and the
-production system around it. Teams watch the input data, predictions, service
-health, and response path. They ask whether the model still behaves well after
-deployment and whether the right team knows when to investigate.
+production system around it. Teams track input data, predictions, service
+health, and response paths. Those signals show whether the model still behaves
+well after deployment and whether the right team knows when to investigate.
 
 The DataTalks.Club interviews treat model monitoring as part of
 [MLOps]({{ '/wiki/mlops/' | relative_url }}), not as a dashboard bolted onto
@@ -27,14 +27,14 @@ production monitoring around 25:04 and connects it to upstream
 That framing matters because a model can degrade when the model artifact is
 unchanged but the data, features, labels, or serving path changed.
 
-## Common Definition
+## Production Signals
 
-Across the podcast discussions, model monitoring means tracking production
-signals that tell a team whether a model still works for its intended use.
-Teams usually track input distributions and prediction distributions. They
-also track service errors, latency, and business outcomes. They may track user
-or stakeholder feedback too. The common definition also includes the ability to
-diagnose a problem after an alert fires.
+Model monitoring starts with production signals that tell a team whether a
+model still works for its intended use. Teams usually track input distributions
+and prediction distributions. They also track service errors, latency, and
+business outcomes. They may track user or stakeholder feedback too. The
+monitoring system needs to help the team diagnose a problem after an alert
+fires.
 
 [Thom Ives]({{ '/people/thomives/' | relative_url }}) gives the data-science
 version in
@@ -53,10 +53,10 @@ and feature drift. Around 49:28, she adds logging, feature stores, and
 reproducibility. Her version makes monitoring useful only when teams can debug
 and respond.
 
-## Guest Differences
+## Monitoring Priorities
 
-Guests agree that production models need monitoring, but they start from
-different problems. Danny Leybzon starts from production pain. Around
+Guests agree that production models need monitoring, but they prioritize
+different operating problems. Danny Leybzon starts from production pain. Around
 28:59 in
 [MLOps Architect Guide]({{ '/podcasts/mlops-model-monitoring-data-observability/' | relative_url }}),
 he distinguishes teams that already have production models from teams still
@@ -173,11 +173,10 @@ chapters add the human test. Around 39:26 in
 she discusses post-mortem evidence and investigation steps. Around 42:03, she
 turns post-mortems into action items and workflow changes.
 
-The practical rule from the interviews is to alert on signals that someone can
-act on. For model teams, those signals usually include input quality and
-prediction distribution. They also include service health and label-backed
-performance. They may include business impact or a stakeholder complaint path
-too.
+Teams should alert on signals that someone can act on. For model teams, those
+signals usually include input quality and prediction distribution. They also
+include service health and label-backed performance. They may include business
+impact or a stakeholder complaint path too.
 
 ## Ownership
 

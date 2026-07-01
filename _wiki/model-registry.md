@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Model Registry"
-summary: "Podcast-grounded reference page for model registries as the handoff point between training, deployment, reproducibility, monitoring, and governance."
+summary: "Reference page for model registries as the handoff point between training, deployment, reproducibility, monitoring, and governance."
 related:
   - MLOps
   - ML Platforms
@@ -11,8 +11,8 @@ related:
   - Machine Learning Infrastructure
 ---
 
-A model registry is the place where a team records which trained model can be
-used next. DataTalks.Club guests place it after
+A model registry records which trained model a team can use next. DataTalks.Club
+guests place it after
 [experiment tracking]({{ '/wiki/experiment-tracking/' | relative_url }}) and
 before [deployment]({{ '/wiki/production/' | relative_url }}). A team trains
 and evaluates a model, persists the chosen version, then gives batch jobs or
@@ -21,7 +21,7 @@ walks through that handoff in
 [Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }})
 around 29:41-31:51.
 
-Guests treat the registry as part of
+The registry is part of
 [MLOps]({{ '/wiki/mlops/' | relative_url }}), not as a full production system
 on its own. A registry helps only when teams can connect it to experiments,
 deployment paths, runtime dependencies, and monitoring or rollback context.
@@ -33,7 +33,7 @@ lighter version in
 She says Artifactory, S3, MLflow, or another store can serve the registry role
 if teams can find the model later and reproduce why it exists.
 
-## Common Definition
+## Registry Scope and Metadata
 
 A model registry is the durable record for a model that has moved beyond a
 single experiment. It stores the model file or a pointer to it. It also records
@@ -70,10 +70,10 @@ belong in the same toolset. This connects the registry to
 [model monitoring]({{ '/wiki/model-monitoring/' | relative_url }}), and
 [machine learning infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }}).
 
-## Guest Tradeoffs
+## Formality and Tooling Choices
 
-Guests differ most on how formal the registry needs to be. Simon describes a
-platform version where experiment tracking, model registry, and metadata store
+The main design question is how formal the registry needs to be. Simon describes
+a platform version where experiment tracking, model registry, and metadata store
 often arrive together in MLOps tooling. Around 30:32-30:58 in
 [Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}),
 he agrees that MLflow-style tools and Weights & Biases-style tools often package
@@ -241,7 +241,7 @@ They can avoid a full platform when one standalone registry or tracking service
 would solve the current problem
 ([Lean MLOps for Startups]({{ '/podcasts/lean-mlops-for-startups/' | relative_url }})).
 
-A minimum registry record grounded in these episodes includes:
+Across these examples, a minimum registry record includes:
 
 - artifact location
 - model version and owner
@@ -261,9 +261,10 @@ in
 The staged [MLOps Roadmap]({{ '/wiki/mlops-roadmap/' | relative_url }}) expands
 those fields into a broader release path.
 
-Teams should add a specialized registry when the convention breaks down.
+A simple convention should become a specialized registry when the handoff breaks
+down.
 
-A specialized registry makes sense in these cases:
+Teams usually reach that point when:
 
 - multiple teams need the same handoff
 - serving code needs stable lookup

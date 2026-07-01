@@ -32,11 +32,11 @@ same idea to production ML in
 at 28:42. Offline experiments, shadow mode, and A/B tests bridge model work to
 product impact.
 
-## Common Definition
+## Decision, Baseline, and Evidence
 
-Across these episodes, evaluation usually means naming the decision that
-will change and the baseline for comparison. It also means naming the evidence
-that would make the team stop, roll back, or continue.
+Across these episodes, evaluation starts by naming the decision that will
+change and the baseline for comparison. It also names the evidence that would
+make the team stop, roll back, or continue.
 
 [Jakob Graff]({{ '/people/jakobgraff/' | relative_url }}) gives the clearest
 product version in
@@ -56,13 +56,14 @@ at 32:40 and 33:14. A causal model needs refutation tests and estimator checks,
 but the final policy comparison still uses a business metric. That separates
 predictive accuracy from the action decision.
 
-## Guest Differences
+## Evaluation by System Type
 
-Guests differ on where evaluation should start. Product analytics guests start
-from user behavior, randomization, and product metrics. ML engineering guests
-start from model behavior, baselines, and production constraints. LLM guests
-start from task-specific examples, retrieval quality, and answer faithfulness.
-They also account for cost, latency, and human review.
+The podcast archive doesn't present evaluation as one universal checklist.
+Product analytics guests start from user behavior, randomization, and product
+metrics. ML engineering guests start from model behavior, baselines, and
+production constraints. LLM guests start from task-specific examples, retrieval
+quality, and answer faithfulness. They also account for cost, latency, and
+human review.
 
 The difference reflects the system under test. In
 [KPI Design & Metrics Strategy]({{ '/podcasts/ml-engineering-kpis-and-metrics-strategy/' | relative_url }})
