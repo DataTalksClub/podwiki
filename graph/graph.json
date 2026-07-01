@@ -1,17 +1,17 @@
 {
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
-    "wikis": 209,
-    "articles": 58,
-    "guides": 21,
+    "wikis": 212,
+    "articles": 59,
+    "guides": 22,
     "comparisons": 22,
     "roadmaps": 10,
     "how_tos": 5,
     "podcasts": 202,
     "persons": 438,
     "topics": 90,
-    "nodes": 997,
-    "links": 12065
+    "nodes": 1001,
+    "links": 12231
   },
   "nodes": [
     {
@@ -134,6 +134,17 @@
       "count": 1,
       "search": "Data Engineer vs Data Scientist A comparison for deciding whether a team needs data engineering ownership, data science ownership, or both, and how the two roles work together.",
       "keyword": "data engineer vs data scientist"
+    },
+    {
+      "id": "article:guide:data-engineering-courses",
+      "type": "article",
+      "collection": "guide",
+      "label": "Data Engineering Courses: How to Choose a Course, Bootcamp, or Free Cohort",
+      "title": "Data Engineering Courses: How to Choose a Course, Bootcamp, or Free Cohort",
+      "url": "/guides/data-engineering-courses/",
+      "count": 1,
+      "search": "Data Engineering Courses: How to Choose a Course, Bootcamp, or Free Cohort A practical guide to evaluating data engineering courses, bootcamps, and free cohorts by curriculum sequence, feedback, projects, and job ready evidence.",
+      "keyword": "data engineering courses"
     },
     {
       "id": "article:comparison:data-mesh-vs-centralized-data-platform",
@@ -8033,6 +8044,16 @@
       "search": "AI Tooling How DataTalks.Club podcast guests choose and operate AI tooling for model APIs, open source LLMs, RAG, prompts, agents, evaluation, observability, and deployment."
     },
     {
+      "id": "wiki:ai-powered-business-intelligence",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "AI-Powered Business Intelligence",
+      "title": "AI-Powered Business Intelligence",
+      "url": "/wiki/ai-powered-business-intelligence/",
+      "count": 1,
+      "search": "AI Powered Business Intelligence How AI powered business intelligence changes dashboards, analytics, semantic layers, governance, and decision support without replacing trusted metrics and data products."
+    },
+    {
       "id": "wiki:algorithmic-trading",
       "type": "wiki",
       "collection": "wiki",
@@ -8413,6 +8434,16 @@
       "search": "Data Engineering Certification A podcast backed guide to deciding whether a data engineering certification is useful, how to evaluate certificate programs, and what project and interview evidence employers still need."
     },
     {
+      "id": "wiki:data-engineering-consulting",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Data Engineering Consulting",
+      "title": "Data Engineering Consulting",
+      "url": "/wiki/data-engineering-consulting/",
+      "count": 1,
+      "search": "Data Engineering Consulting How DataTalks.Club guests describe data engineering consulting, data engineer consultants, and freelance data engineering: client problems, discovery, scoping, pricing, delivery, and product paths."
+    },
+    {
       "id": "wiki:data-engineering-platforms",
       "type": "wiki",
       "collection": "wiki",
@@ -8581,6 +8612,16 @@
       "url": "/wiki/data-science-careers/",
       "count": 1,
       "search": "Data Science Careers Archive backed career guidance for data scientist roles: role targeting, CV evidence, portfolio signals, interviews, salary, and ambiguous titles."
+    },
+    {
+      "id": "wiki:data-science-for-managers",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Data Science for Managers",
+      "title": "Data Science for Managers",
+      "url": "/wiki/data-science-for-managers/",
+      "count": 1,
+      "search": "Data Science for Managers How managers can hire, scope, support, and evaluate data science work using lessons from DataTalks.Club podcast discussions."
     },
     {
       "id": "wiki:data-science-project-management",
@@ -14767,6 +14808,246 @@
       "weight": 1
     },
     {
+      "source": "article:guide:data-engineering-courses",
+      "target": "article:comparison:etl-vs-elt",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:data-engineering-courses",
+      "target": "article:how_to:airflow-docker-compose",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:data-engineering-courses",
+      "target": "article:roadmap:data-analyst-to-data-engineer",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:data-engineering-courses",
+      "target": "article:roadmap:data-engineer-roadmap",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:data-engineering-courses",
+      "target": "article:roadmap:data-scientist-to-data-engineer",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:data-engineering-courses",
+      "target": "article:roadmap:how-to-become-a-data-engineer-with-no-experience",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:data-engineering-courses",
+      "target": "person:alexeygrigorev",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:data-engineering-courses",
+      "target": "person:gloriaquiceno",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:data-engineering-courses",
+      "target": "person:jeffkatz",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:data-engineering-courses",
+      "target": "person:johannabayer",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:data-engineering-courses",
+      "target": "person:nataliekwong",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:data-engineering-courses",
+      "target": "person:orellgarten",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:data-engineering-courses",
+      "target": "podcast:data-engineering-career-path-and-skills",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:data-engineering-courses",
+      "target": "podcast:data-engineering-tools-modern-data-stack",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:data-engineering-courses",
+      "target": "podcast:datatalksclub-building-sustainable-data-community-3-years-anniversary",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:data-engineering-courses",
+      "target": "podcast:datatalksclub-scaling-and-free-courses",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:data-engineering-courses",
+      "target": "podcast:from-academic-research-to-data-engineering-freelancing",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:data-engineering-courses",
+      "target": "podcast:get-data-analytics-and-data-engineering-job",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:data-engineering-courses",
+      "target": "wiki:career-transitions-in-data",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:data-engineering-courses",
+      "target": "wiki:community-building",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:data-engineering-courses",
+      "target": "wiki:data-engineer-role",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:data-engineering-courses",
+      "target": "wiki:data-engineer-role",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:data-engineering-courses",
+      "target": "wiki:data-engineering",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:data-engineering-courses",
+      "target": "wiki:data-engineering-certification",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:data-engineering-courses",
+      "target": "wiki:data-engineering-certification",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:data-engineering-courses",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:data-engineering-courses",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:data-engineering-courses",
+      "target": "wiki:data-engineering-roadmap",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:data-engineering-courses",
+      "target": "wiki:data-engineering-roadmap",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:data-engineering-courses",
+      "target": "wiki:data-engineering-tools",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:data-engineering-courses",
+      "target": "wiki:data-pipelines",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:data-engineering-courses",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:data-engineering-courses",
+      "target": "wiki:dataops",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:data-engineering-courses",
+      "target": "wiki:end-to-end-data-pipeline-project",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:data-engineering-courses",
+      "target": "wiki:job-search",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:data-engineering-courses",
+      "target": "wiki:job-search",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:data-engineering-courses",
+      "target": "wiki:modern-data-stack",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:data-engineering-courses",
+      "target": "wiki:modern-data-stack",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:guide:data-engineering-courses",
+      "target": "wiki:teaching",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:data-engineering-courses",
+      "target": "wiki:teaching",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
       "source": "article:guide:data-observability-for-data-engineering",
       "target": "person:adrianbrudaru",
       "kind": "article-link",
@@ -17702,6 +17983,18 @@
     },
     {
       "source": "article:guide:machine-learning-for-startups",
+      "target": "article:guide:machine-learning-for-business",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-startups",
+      "target": "article:roadmap:lean-mlops-for-startups",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-startups",
       "target": "person:carminepaolino",
       "kind": "article-link",
       "weight": 1
@@ -17720,6 +18013,18 @@
     },
     {
       "source": "article:guide:machine-learning-for-startups",
+      "target": "person:mariabruckert",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-startups",
+      "target": "person:mariannadiachuk",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-startups",
       "target": "person:marianosemelman",
       "kind": "article-link",
       "weight": 1
@@ -17727,6 +18032,18 @@
     {
       "source": "article:guide:machine-learning-for-startups",
       "target": "person:nemanjaradojkovic",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-startups",
+      "target": "person:paulineclavelloux",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-startups",
+      "target": "person:vinvashishta",
       "kind": "article-link",
       "weight": 1
     },
@@ -17756,6 +18073,12 @@
     },
     {
       "source": "article:guide:machine-learning-for-startups",
+      "target": "podcast:data-scientist-and-indie-hacker-bootstrapping-side-projects",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-startups",
       "target": "podcast:launch-and-build-retail-startup",
       "kind": "article-link",
       "weight": 1
@@ -17763,6 +18086,18 @@
     {
       "source": "article:guide:machine-learning-for-startups",
       "target": "podcast:lean-mlops-for-startups",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-startups",
+      "target": "podcast:make-money-with-machine-learning-roles-skills",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:guide:machine-learning-for-startups",
+      "target": "podcast:solopreneur-data-scientist",
       "kind": "article-link",
       "weight": 1
     },
@@ -41755,6 +42090,240 @@
       "weight": 3
     },
     {
+      "source": "wiki:ai-powered-business-intelligence",
+      "target": "person:adrianbrudaru",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-powered-business-intelligence",
+      "target": "person:arpitchoudhury",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-powered-business-intelligence",
+      "target": "person:bartoszmikulski",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-powered-business-intelligence",
+      "target": "person:boyanangelov",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-powered-business-intelligence",
+      "target": "person:ioannismesionis",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-powered-business-intelligence",
+      "target": "person:liorbarak",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-powered-business-intelligence",
+      "target": "person:stefangudmundsson",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-powered-business-intelligence",
+      "target": "podcast:ai-in-healthcare-and-digital-therapeutics",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-powered-business-intelligence",
+      "target": "podcast:building-data-products-lead-data-scientist",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-powered-business-intelligence",
+      "target": "podcast:data-led-growth-event-tracking-and-reverse-etl",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-powered-business-intelligence",
+      "target": "podcast:data-strategy-and-dataops-for-ai-powered-products",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-powered-business-intelligence",
+      "target": "podcast:mindful-data-strategy-for-business-impact",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-powered-business-intelligence",
+      "target": "podcast:production-ready-ai-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-powered-business-intelligence",
+      "target": "podcast:trends-in-modern-data-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-powered-business-intelligence",
+      "target": "wiki:ai-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-powered-business-intelligence",
+      "target": "wiki:ai-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-powered-business-intelligence",
+      "target": "wiki:analytics-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-powered-business-intelligence",
+      "target": "wiki:analytics-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-powered-business-intelligence",
+      "target": "wiki:business-intelligence",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-powered-business-intelligence",
+      "target": "wiki:business-intelligence",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-powered-business-intelligence",
+      "target": "wiki:dashboard-and-metric-layer-project-checklist",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-powered-business-intelligence",
+      "target": "wiki:data-activation",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-powered-business-intelligence",
+      "target": "wiki:data-activation",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-powered-business-intelligence",
+      "target": "wiki:data-governance",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-powered-business-intelligence",
+      "target": "wiki:data-governance",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-powered-business-intelligence",
+      "target": "wiki:data-led-growth",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-powered-business-intelligence",
+      "target": "wiki:data-led-growth",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-powered-business-intelligence",
+      "target": "wiki:data-products",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-powered-business-intelligence",
+      "target": "wiki:data-products",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-powered-business-intelligence",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-powered-business-intelligence",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-powered-business-intelligence",
+      "target": "wiki:data-strategy",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-powered-business-intelligence",
+      "target": "wiki:dataops",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-powered-business-intelligence",
+      "target": "wiki:dataops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-powered-business-intelligence",
+      "target": "wiki:event-tracking",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-powered-business-intelligence",
+      "target": "wiki:llm-production-patterns",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-powered-business-intelligence",
+      "target": "wiki:metrics",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-powered-business-intelligence",
+      "target": "wiki:metrics",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai-powered-business-intelligence",
+      "target": "wiki:tracking-plans",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
       "source": "wiki:ai-product-feedback-loops",
       "target": "person:aishwaryajadhav",
       "kind": "wiki-link",
@@ -49537,6 +50106,192 @@
       "weight": 3
     },
     {
+      "source": "wiki:data-engineering-consulting",
+      "target": "person:adrianbrudaru",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-consulting",
+      "target": "person:aleksanderkruszelnicki",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-consulting",
+      "target": "person:dimitrivisnadi",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-consulting",
+      "target": "person:mikiobraun",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-consulting",
+      "target": "person:orellgarten",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-consulting",
+      "target": "person:sonalgoyal",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-consulting",
+      "target": "podcast:building-open-source-data-product-for-identity-resolution",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-consulting",
+      "target": "podcast:data-consulting-business-pricing-and-client-acquisition",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-consulting",
+      "target": "podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-consulting",
+      "target": "podcast:freelance-data-engineering-pricing-and-clients",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-consulting",
+      "target": "podcast:freelancing-in-machine-learning",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-consulting",
+      "target": "podcast:from-academic-research-to-data-engineering-freelancing",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-consulting",
+      "target": "wiki:apache-airflow",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-consulting",
+      "target": "wiki:career-transitions-in-data",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-consulting",
+      "target": "wiki:data-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-consulting",
+      "target": "wiki:data-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-engineering-consulting",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-consulting",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-engineering-consulting",
+      "target": "wiki:data-freelancing-strategy",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-consulting",
+      "target": "wiki:data-freelancing-strategy",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-engineering-consulting",
+      "target": "wiki:data-product-management",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-consulting",
+      "target": "wiki:data-product-management",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-engineering-consulting",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-consulting",
+      "target": "wiki:dataops",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-consulting",
+      "target": "wiki:freelance",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-consulting",
+      "target": "wiki:freelance",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-engineering-consulting",
+      "target": "wiki:machine-learning",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-consulting",
+      "target": "wiki:ml-consulting-proposals",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-consulting",
+      "target": "wiki:open-source",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-consulting",
+      "target": "wiki:startups",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-consulting",
+      "target": "wiki:startups",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
       "source": "wiki:data-engineering-platforms",
       "target": "article:comparison:batch-vs-streaming",
       "kind": "wiki-link",
@@ -53457,6 +54212,288 @@
     {
       "source": "wiki:data-science-careers",
       "target": "wiki:salary-negotiation",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "article:comparison:machine-learning-engineer-vs-data-scientist",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "article:comparison:product-analyst-vs-data-analyst",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "article:guide:data-science-recruiter",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "article:guide:machine-learning-for-business",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "person:alicjanotowska",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "person:barbarasobkowiak",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "person:benwilson",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "person:dattran",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "person:katiebauer",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "person:shirmeirlador",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "podcast:building-data-team",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "podcast:data-science-management-and-agile-machine-learning",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "podcast:data-science-manager-vs-expert-hiring-guide",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "podcast:hiring-and-managing-data-science-teams-in-b2b-saas",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "podcast:hiring-data-scientists-and-analysts",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "podcast:machine-learning-engineering-production-best-practices",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "wiki:a-b-testing",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "wiki:analytics-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "wiki:business-skills-for-data-professionals",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "wiki:business-skills-for-data-professionals",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "wiki:cv-screening",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "wiki:data-product-intake-and-prioritization",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "wiki:data-science",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "wiki:data-science",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "wiki:data-science-project-management",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "wiki:data-science-project-management",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "wiki:data-scientist-role",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "wiki:data-team-lead-role",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "wiki:data-teams",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "wiki:data-teams",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "wiki:evaluation",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "wiki:evaluation",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "wiki:hiring",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "wiki:hiring",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "wiki:job-descriptions",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "wiki:leadership",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "wiki:machine-learning",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "wiki:machine-learning-engineer-role",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "wiki:metrics",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "wiki:metrics",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "wiki:mlops",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "wiki:model-monitoring",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "wiki:production-ml-project-checklist",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "wiki:production-ml-project-checklist",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "wiki:team-building",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-science-for-managers",
+      "target": "wiki:team-building",
       "kind": "wiki-related",
       "weight": 3
     },

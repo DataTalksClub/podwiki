@@ -343,6 +343,13 @@ Start with this batch when expanding the content set.
   `_wiki/algorithmic-trading.md`. Create them only with podcast-grounded
   evidence and internal links; do not create pages for book/PDF/download,
   Slack, or generic navigation queries.
+- The 2026-07-01 five-agent keyword-gap batch added
+  `_guides/data-engineering-courses.md`,
+  `_wiki/data-engineering-consulting.md`,
+  `_wiki/data-science-for-managers.md`, and
+  `_wiki/ai-powered-business-intelligence.md`, and improved
+  `_guides/machine-learning-for-startups.md`. Future work should extend these
+  pages with new episode evidence instead of creating duplicates.
 - The weakest public content category is `_how_tos/`. Next high-value how-tos:
   notebook-to-production AI systems, DataOps checks for data pipelines, and RAG
   evaluation workflow. Ground them in the existing notebook-to-production,
