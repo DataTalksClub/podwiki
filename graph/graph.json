@@ -11,7 +11,7 @@
     "persons": 183,
     "topics": 92,
     "nodes": 704,
-    "links": 10977
+    "links": 10976
   },
   "nodes": [
     {
@@ -6769,7 +6769,7 @@
       "title": "Responsible AI and Governance",
       "url": "/wiki/responsible-ai-and-governance/",
       "count": 1,
-      "search": "Responsible AI and Governance Podcast grounded patterns for explainability, fairness, privacy, security, human oversight, and accountable AI governance."
+      "search": "Responsible AI and Governance Practices for explainability, fairness, privacy, security, human oversight, and accountable AI governance."
     },
     {
       "id": "wiki:retrieval-augmented-generation",
@@ -65497,6 +65497,12 @@
     },
     {
       "source": "wiki:production",
+      "target": "wiki:experiment-tracking",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:production",
       "target": "wiki:llm-production-patterns",
       "kind": "wiki-link",
       "weight": 1
@@ -66404,12 +66410,6 @@
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
       "target": "wiki:mlops",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:qa-to-ml-and-data-engineering",
-      "target": "wiki:open-source-portfolio-evidence",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -67855,12 +67855,6 @@
     },
     {
       "source": "wiki:retrieval-augmented-generation",
-      "target": "article:guide:llm-system-design-interview",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:retrieval-augmented-generation",
       "target": "person:anahitapakiman",
       "kind": "wiki-link",
       "weight": 1
@@ -68012,12 +68006,6 @@
     {
       "source": "wiki:retrieval-augmented-generation",
       "target": "wiki:search-rag-and-knowledge-systems",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:retrieval-augmented-generation",
-      "target": "wiki:search-rag-and-knowledge-systems",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -68138,6 +68126,12 @@
     {
       "source": "wiki:reverse-etl",
       "target": "wiki:elt",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:reverse-etl",
+      "target": "wiki:etl",
       "kind": "wiki-link",
       "weight": 1
     },
