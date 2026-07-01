@@ -32,13 +32,15 @@ for the reusable artifact. Use
 [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
 when the founder path needs discovery, roadmap, and metrics discipline.
 
-## Common Definition
+## From Client Problems to Repeatable Products
 
-Across these founder and freelancing episodes, this transition means turning
-repeated market pain into a product that can be adopted without custom delivery
-each time. The founder still needs the consulting skill of diagnosing messy
-client problems. They also need product skills. Those skills include discovery,
-positioning, and pricing. Adoption and a business model matter too.
+The founder and freelancing episodes describe a specific transition. Consultants
+become data product founders when they turn repeated market pain into something
+clients can adopt without a custom delivery project each time. The founder still
+needs the consulting skill of diagnosing messy client problems, but that skill
+is no longer enough. They also need discovery, positioning, and pricing.
+Adoption signals and a business model matter as soon as the offer moves beyond
+custom services.
 
 [Aleksander Kruszelnicki]({{ '/people/aleksanderkruszelnicki/' | relative_url }})
 gives the validation warning in
@@ -54,10 +56,11 @@ At 10:50 and 23:51, expertise matters when it's tied to market problems. At
 32:48, the path can stay a lifestyle business. It can also become an agency or
 move toward product.
 
-## Guest Differences
+## Choosing a Founder Route
 
-Guests differ on how much service revenue should remain. Adrian uses consulting
-revenue and workshops to reduce risk while validating a product. In
+Guests differ on how much service revenue should remain while a product is still
+uncertain. Adrian uses consulting revenue and workshops to reduce risk while
+validating a product. In
 [Freelance Data Engineering]({{ '/podcasts/freelance-data-engineering-pricing-and-clients/' | relative_url }}),
 he discusses pricing models at 18:12 and client acquisition at 27:45. At 31:43
 and 46:17, spikes, scope documents, and reusable portfolio assets appear. At
@@ -78,9 +81,10 @@ bootstrapped or no-code. At 39:25, productizing services becomes a founder
 path. At 48:11 and 51:48, open core, cloud monetization, and bottom-up adoption
 define the go-to-market route.
 
-## Validation Sequence
+## Validating Before the Build
 
-The transition should be staged:
+The transition works best when the founder treats services as evidence before
+turning them into software:
 
 - notice the repeated client problem
 - write the problem in the client's language
@@ -98,9 +102,10 @@ evidence, and rates define the offer. At 41:59 and 51:42, network conversations
 and events support client acquisition. LinkedIn, referrals, and content appear
 at 52:34.
 
-## Product Discipline
+## Product Discipline After the First Offer
 
-The product side needs the same discipline as any data product. In
+Once the offer starts to look reusable, the founder needs the same discipline as
+any [data product]({{ '/wiki/data-products/' | relative_url }}). In
 [Building and Scaling AI Data Products]({{ '/podcasts/building-and-scaling-ai-data-products-with-mlops/' | relative_url }}),
 [Greg Coquillo]({{ '/people/gregcoquillo/' | relative_url }}) covers customer
 research at 18:01 and Five Whys at 20:28. At 23:20 and 41:44, he covers
@@ -122,7 +127,7 @@ correct products still fail. User research belongs in that diagnosis. At 39:32
 and 41:18, low-fidelity prototypes and measurable wins help the founder test
 adoption before scaling.
 
-## Related Pages
+## Adjacent Service and Product Topics
 
 These pages cover the service, product, and founder topics around this
 transition:

@@ -13,7 +13,7 @@ related:
 
 CV screening is the first hiring filter after sourcing or application. In the
 DataTalks.Club podcast discussions, recruiters and hiring managers use it to
-decide whether a candidate should enter the interview process. It sits between
+ decide whether a candidate should enter interviews. It sits between
 [job descriptions]({{ '/wiki/job-descriptions/' | relative_url }}) and the
 later interview rounds described in
 [Data Scientist Interview Roadmap]({{ '/wiki/data-scientist-interview-roadmap/' | relative_url }}).
@@ -26,11 +26,11 @@ Employer-side funnel design belongs to [Hiring]({{ '/wiki/hiring/' | relative_ur
 but the two topics meet here because the CV is where both sides first test the
 match.
 
-## Common Definition
+## Evidence Matching Against the Role
 
-The common definition across these episodes is simple: CV screening is evidence
-matching. The screener asks whether the candidate's written evidence matches the
-job, the team, and the expected level.
+Across the podcast discussions, CV screening works as evidence matching. The
+screener asks whether the candidate's written evidence matches the job, the
+team, and the expected level.
 
 [Alicja Notowska]({{ '/people/alicjanotowska/' | relative_url }}) gives the
 recruiter-side version at 21:32 in
@@ -40,21 +40,21 @@ checks profiles for matching keywords, experience, education, and concrete
 responsibilities. The strongest signal isn't a title. It's evidence of what the
 person personally did.
 
-[Oleg Novikov]({{ '/people/olegnovikov/' | relative_url }}) gives the
+[Oleg Novikov]({{ '/people/olegnovikov/' | relative_url }}) describes the
 candidate-side version at 18:28 and 25:51 in
 [Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }}).
 He frames the CV as a landing page for the next hiring step. The reader should
 see the relevant contribution quickly, without unrelated detail hiding the
 match.
 
-[Luke Whipps]({{ '/people/lukewhipps/' | relative_url }}) adds the market-map
-version in
+[Luke Whipps]({{ '/people/lukewhipps/' | relative_url }}) explains the
+market-map version in
 [Land Data Scientist Roles]({{ '/podcasts/get-data-scientist-job/' | relative_url }}).
 At 7:35-11:59, he starts with role definition and candidate longlists. At
 14:07-27:19, the CV screen checks industry and use-case fit. It also checks
 projects, business impact, and the candidate's career story.
 
-## Guest Differences
+## Role and Market Weighting
 
 Guests agree that the CV should prove fit, but they weight the signals
 differently by role and market.
@@ -88,7 +88,7 @@ template rejection as a weaker explanation than candidates often assume.
 Candidates should still write for fast human scanning and simple software
 parsing.
 
-## Screening Signals
+## Signals Recruiters Look For
 
 Personal contribution is the strongest signal. Alicja gives the recruiter
 version in
@@ -141,7 +141,7 @@ around 28:41-35:49 in
 [Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }}):
 irrelevant personal information doesn't prove job fit and can introduce bias.
 
-## Portfolio Evidence
+## Portfolio Evidence for Screenable Claims
 
 Portfolio evidence matters most when the candidate lacks direct role history or
 when the project proves a skill the CV claims. For data science candidates, Oleg
@@ -176,7 +176,7 @@ covers applied ML evidence.
 covers public work such as issues, pull requests, documentation updates, and
 maintained tools.
 
-## Recruiter Screen After the CV
+## From CV Screen to Recruiter Call
 
 The first recruiter call usually tests the claims that survived the CV screen.
 Alicja says at 36:08 in
@@ -200,22 +200,34 @@ questions. Specific bullets create useful conversations about
 [career transition]({{ '/wiki/career-transition/' | relative_url }}), role fit,
 technical depth, and next interview steps.
 
-## See Also
+## Hiring and Portfolio Connections
 
-These pages connect CV screening to the rest of the hiring and portfolio graph.
+CV screening sits inside the broader
+[job search]({{ '/wiki/job-search/' | relative_url }}) path. Candidates use
+it when they target roles and write applications. It also shapes networking
+conversations and the path toward offers.
 
-- [Job Search]({{ '/wiki/job-search/' | relative_url }}) for the full
-  candidate-side process around targeting, applications, networking, and offers.
-- [Hiring]({{ '/wiki/hiring/' | relative_url }}) for recruiter and
-  hiring-manager process design.
-- [Job Descriptions]({{ '/wiki/job-descriptions/' | relative_url }}) for the
-  requirements that CVs are screened against.
-- [Data Scientist Interview Roadmap]({{ '/wiki/data-scientist-interview-roadmap/' | relative_url }})
-  for the interview stages after the CV screen.
-- [Data Science Careers]({{ '/wiki/data-science-careers/' | relative_url }}) and
-  [Data Analyst Careers]({{ '/wiki/data-analyst-careers/' | relative_url }}) for
-  role-specific career context.
-- [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }}),
-  [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}),
-  and [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
-  for project evidence that can make a CV screenable.
+Employers handle the same screen through
+[hiring]({{ '/wiki/hiring/' | relative_url }}). Recruiters and hiring managers
+decide which signals move someone from an application or sourced profile into
+interviews.
+
+The screen depends on
+[job descriptions]({{ '/wiki/job-descriptions/' | relative_url }}) because those
+requirements define the keywords, responsibilities, seniority signals, and
+domain evidence the recruiter checks. After the screen, the candidate enters the
+interview path described in the
+[Data Scientist Interview Roadmap]({{ '/wiki/data-scientist-interview-roadmap/' | relative_url }}).
+Role pages such as
+[Data Science Careers]({{ '/wiki/data-science-careers/' | relative_url }}) and
+[Data Analyst Careers]({{ '/wiki/data-analyst-careers/' | relative_url }}) give
+the career context behind those role-specific screens.
+
+Project evidence is the main bridge between CV screening and portfolios.
+[Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
+shows how pipeline work can prove data engineering fit.
+[Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
+shows how applied ML projects can support data science claims.
+[Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
+covers public contribution evidence such as issues, pull requests,
+documentation updates, and maintained tools.

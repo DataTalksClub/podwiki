@@ -11,7 +11,7 @@
     "persons": 183,
     "topics": 92,
     "nodes": 703,
-    "links": 10926
+    "links": 10928
   },
   "nodes": [
     {
@@ -41766,6 +41766,18 @@
       "target": "wiki:data-quality-and-observability",
       "kind": "wiki-link",
       "weight": 1
+    },
+    {
+      "source": "wiki:customer-data-platforms",
+      "target": "wiki:entity-resolution",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:customer-data-platforms",
+      "target": "wiki:entity-resolution",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:customer-data-platforms",

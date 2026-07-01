@@ -32,7 +32,7 @@ moves the role beyond traditional governance and reporting. The CDO should help
 the company design future products and collect useful data in an ethical,
 responsible, and safe way.
 
-## Common Definition
+## Executive Data Mandate
 
 Across the relevant DataTalks.Club discussions, the CDO owns how data helps the
 company make decisions and build products. The role also prepares the company
@@ -68,7 +68,7 @@ leadership job. Data leaders have to manage context and craft standards. They
 also have to manage product partnership
 ([6:27-30:52]({{ '/podcasts/data-science-team-structure-and-org-design/' | relative_url }})).
 
-## Guest Disagreements
+## Role Boundaries by Company Stage
 
 Guests differ less on whether senior data leaders need business impact and more
 on where the role boundary sits.
@@ -82,9 +82,10 @@ The CDO owns the cross-company view. They work with the executive team on how
 data can drive the business
 ([CDO vs VP of Data, 20:17-23:34]({{ '/podcasts/chief-data-officer-data-strategy-and-org-design/' | relative_url }})).
 
-Tammy's episode starts from the practical pressure on an early data leader. The
-leader has to decide which report to repair and which data source to integrate.
-They also decide which hire comes first and how to make teams trust dashboards
+Tammy's episode starts from the practical pressure on an early data leader. In
+that setting, the leader chooses which report to repair and which data source
+to integrate. They also decide which hire comes first and how to make teams
+trust dashboards
 ([Building and Leading Data Teams, 7:22-29:20]({{ '/podcasts/building-and-scaling-data-team/' | relative_url }})).
 That role may include a chief title, but its day-to-day boundary is closer to
 building the first reliable [data team]({{ '/wiki/data-teams/' | relative_url }}).
@@ -132,9 +133,10 @@ governance.
 In a smaller company, a VP or head of data may own a broader context. A titled
 CDO elsewhere may own less
 ([multiple VPs and reporting lines, 24:55-27:01]({{ '/podcasts/chief-data-officer-data-strategy-and-org-design/' | relative_url }})).
-The useful distinction is scope, not title.
-For role navigation around the adjacent titles, use the
-[data roles guide]({{ '/guides/data-roles/' | relative_url }}).
+The useful distinction is scope, not title. The
+[data roles guide]({{ '/guides/data-roles/' | relative_url }}) places that
+distinction next to analyst, engineer, and scientist roles. It also covers team
+lead, head of data, and VP of Data.
 
 ## Strategy, Org Design, and Accountability
 
@@ -166,8 +168,8 @@ to judge progress
 ## Governance, Culture, and Accessibility
 
 Marco includes governance in the CDO scope, but he doesn't frame the role as a
-compliance office alone. The CDO has to connect governance with data usability,
-product development and AI. It also has to serve business value
+compliance office alone. The CDO has to connect governance with data usability
+and product development. They also connect it with AI and business value
 ([traditional responsibilities vs modern expectations, 7:17-10:19]({{ '/podcasts/chief-data-officer-data-strategy-and-org-design/' | relative_url }})).
 That puts the CDO close to [data governance]({{ '/wiki/data-governance/' | relative_url }})
 without making governance the only job.
@@ -242,16 +244,16 @@ disagreement and describe the problem. The leader should test the hypothesis
 with evidence and stay open to a better solution
 ([persuasion and constraints, 59:40-1:01:43]({{ '/podcasts/chief-data-officer-data-strategy-and-org-design/' | relative_url }})).
 
-## Related Pages
+## Related Leadership and Data Topics
 
-These pages cover the surrounding leadership, strategy, governance, and AI
-topics:
-
-- [Leadership]({{ '/wiki/leadership/' | relative_url }})
-- [Data Strategy]({{ '/wiki/data-strategy/' | relative_url }})
-- [Data Governance]({{ '/wiki/data-governance/' | relative_url }})
-- [Data Team Lead Role]({{ '/wiki/data-team-lead-role/' | relative_url }})
-- [Data Teams]({{ '/wiki/data-teams/' | relative_url }})
-- [Team Building]({{ '/wiki/team-building/' | relative_url }})
-- [Communication]({{ '/wiki/communication/' | relative_url }})
-- [AI]({{ '/wiki/ai/' | relative_url }})
+The CDO role connects [leadership]({{ '/wiki/leadership/' | relative_url }}),
+[data strategy]({{ '/wiki/data-strategy/' | relative_url }}), and
+[data governance]({{ '/wiki/data-governance/' | relative_url }}). Readers
+comparing role levels can use the
+[data team lead role]({{ '/wiki/data-team-lead-role/' | relative_url }}) and
+[data roles guide]({{ '/guides/data-roles/' | relative_url }}). CDOs rely on
+[data teams]({{ '/wiki/data-teams/' | relative_url }}),
+[team building]({{ '/wiki/team-building/' | relative_url }}), and
+[communication]({{ '/wiki/communication/' | relative_url }}) to turn executive
+strategy into operating habits. Their future data strategy also connects to
+[AI]({{ '/wiki/ai/' | relative_url }}).

@@ -8,9 +8,10 @@ related:
   - Data-Led Growth
   - Product Analytics
   - Event Tracking
+  - Entity Resolution
 ---
 
-## Definition and Scope
+## Customer Profile and Activation Layer
 
 A customer data platform, or CDP, collects customer events and profile data. It
 joins those records around customers or accounts and makes the result available
@@ -40,11 +41,11 @@ near [product analytics]({{ '/wiki/product-analytics/' | relative_url }}),
 isn't just storage. Teams buy or build it to collect, unify, segment, and
 activate customer data.
 
-## Common Definition
+## Bundled Collection, Segmentation, and Activation
 
-Across the relevant episodes, a CDP gives business teams a customer data layer
-they can use without assembling every part of the stack themselves. Arpit's
-growth-stack sequence starts with a
+A CDP gives business teams a customer data layer they can use without
+assembling every part of the stack themselves. Arpit's growth-stack sequence
+starts with a
 [tracking plan]({{ '/wiki/tracking-plans/' | relative_url }}) at 13:34. It then
 moves to collection and storage at 22:50, analysis at 28:52, activation at
 30:03, and CDPs at 38:20.
@@ -63,7 +64,7 @@ analysts and engineers a controlled place to model data. A reverse ETL tool
 sends warehouse-modeled data back to operational tools. A CDP can include parts
 of all three, but the bundle is the product.
 
-## Guest Differences
+## Growth Speed Versus Identity Depth
 
 Arpit frames CDPs from the growth team's side. At 39:54 in the
 [data-led growth episode]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }}),
@@ -80,13 +81,13 @@ refer to the same real-world customer. At 24:32, she says CDPs and master data
 management systems sometimes include identity-resolution capabilities. A
 dedicated identity-resolution tool can go deeper than that bundled capability.
 
-The disagreement is mostly about where the hard problem lives. Arpit's CDP
-discussion centers on speed, activation, and tool selection. Sonal's episode
-shows why the profile inside the CDP can be hard. Simple joins break when
-records are duplicated, identifiers are weak, matches are fuzzy, or teams need a
-customer 360 view.
+The boundary question is where the hard problem lives. Arpit's CDP discussion
+centers on speed, activation, and tool selection. Sonal's episode shows why the
+profile inside the CDP can be hard. Simple joins break when records are
+duplicated, identifiers are weak, matches are fuzzy, or teams need a
+[customer 360]({{ '/wiki/entity-resolution/' | relative_url }}) view.
 
-## Event Tracking
+## Event Quality and Tracking Plans
 
 A CDP is only as useful as the events flowing into it. At 13:34 in the
 [data-led growth episode]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }}),
@@ -111,7 +112,7 @@ server-side event can wait until the user is actually added to the database. If
 a CDP uses the wrong event as the basis for an audience, marketing and support
 teams may act on behavior that never happened.
 
-## Identity and Profile Data
+## Identity Resolution and Customer 360
 
 CDPs promise a useful customer profile, but a profile isn't the same thing as a
 trusted identity. Sonal's
@@ -125,7 +126,10 @@ At 8:02, Sonal separates deduplication from customer 360. Deduplication may
 merge or remove duplicate records, while customer 360 keeps enough linked
 records to complete the story. That distinction is important for CDPs because
 marketers, support teams, and product teams often need a full history, not just
-one clean row.
+one clean row. It also connects CDPs to
+[entity resolution]({{ '/wiki/entity-resolution/' | relative_url }}), where the
+same matching problem can apply to suppliers and products. It can also apply to
+accounts, locations, and other entities.
 
 At 40:36 and 44:25, Sonal also warns that teams often can't join real-world
 customer data by one reliable identifier. Email, name, address, and KYC fields
@@ -136,7 +140,7 @@ It also connects CDPs to
 [data products]({{ '/wiki/data-products/' | relative_url }}) when audiences
 drive money movement, compliance, or customer outreach.
 
-## Reverse ETL and Activation
+## Warehouse-Centered Activation and Reverse ETL
 
 CDPs and reverse ETL solve nearby problems in different shapes. At 37:25 in the
 [data-led growth episode]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }}),
@@ -159,14 +163,16 @@ signals in their CRM. Marketing and engagement tools can send personalized
 emails or onboarding messages. If the CDP profile or warehouse model is wrong,
 those mistakes reach customers and customer-facing teams directly.
 
-## Governance and Privacy
+## Governance for Activated Customer Data
 
 CDPs make customer data easier to use, so teams need stronger governance around
-the same data. At 18:27 in the data-led growth episode, Arpit discusses anomaly
-investigation and source awareness. Teams need to trace where an event came
-from before trusting it in a dashboard or activation tool. At 51:40, he connects
-self-serve analytics with documentation and data literacy, which are necessary
-when non-engineering teams work directly with customer data.
+the same data. At 18:27 in the
+[data-led growth episode]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }}),
+Arpit discusses anomaly investigation and source awareness. Teams need to trace
+where an event came from before trusting it in a dashboard or activation tool.
+At 51:40, he connects self-serve analytics with documentation and data
+literacy, which are necessary when non-engineering teams work directly with
+customer data.
 
 Sonal's identity-resolution episode adds privacy and correctness risk. At
 45:50, she discusses fraud and KYC scenarios where different records for the
@@ -189,10 +195,10 @@ CDPs as a place where
 and ownership become more visible because customer data starts affecting real
 interactions.
 
-## Related Pages
+## Adjacent Stack Topics
 
-Use these adjacent pages to follow the CDP discussion into specific stack,
-activation, and governance choices.
+CDP decisions usually depend on event collection and warehouse modeling. They
+also depend on operational syncs, identity matching, and governance.
 
 - [Data Activation]({{ '/wiki/data-activation/' | relative_url }})
 - [Reverse ETL]({{ '/wiki/reverse-etl/' | relative_url }})
@@ -200,6 +206,7 @@ activation, and governance choices.
 - [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }})
 - [Event Tracking]({{ '/wiki/event-tracking/' | relative_url }})
 - [Tracking Plans]({{ '/wiki/tracking-plans/' | relative_url }})
+- [Entity Resolution]({{ '/wiki/entity-resolution/' | relative_url }})
 - [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
 - [Data Governance]({{ '/wiki/data-governance/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})

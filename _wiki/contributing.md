@@ -10,7 +10,7 @@ related:
   - Practices
 ---
 
-## Definition and Scope
+## Contributions That Help Other People
 
 Contributing means doing useful work that improves a project or community for
 other people. In DataTalks.Club podcast discussions, it's code and more than
@@ -21,36 +21,36 @@ the most direct starting point in
 [Contribute to Open Source ML]({{ '/podcasts/open-source-ml-contributions/' | relative_url }}).
 Around 25:50 he treats a clear, reproducible issue as a real contribution.
 Around 27:40 he connects first code pull requests to tests, CI, packaging, and
-pre-commit. That makes contribution a practical part of
+pre-commit. Vincent treats contribution as a practical part of
 [open source]({{ '/wiki/open-source/' | relative_url }}) and
 [software engineering]({{ '/wiki/software-engineering/' | relative_url }}),
 not a separate prestige activity.
 
-## Common Definition
+## Small Work That Reduces Maintainer Load
 
 A useful contribution reduces work for maintainers or helps users succeed. In
 Vincent's
 [Contribute to Open Source ML]({{ '/podcasts/open-source-ml-contributions/' | relative_url }})
-episode, the path starts with using the tool and noticing friction. The next
-step is a small scoped improvement. The work can be a README change or API
-example. It can also be a contribution note or narrow pull request.
+episode, contributors start by using the tool and noticing friction. They can
+then make a small, scoped improvement. Common first contributions include
+README changes, API examples, contribution notes, and narrow pull requests.
 
 Around 22:20 he names README material, guides, and examples as part of the
 work. Around 24:10 he links contribution guides with polite
 interaction.
 
-The same definition appears from the maintainer side in
+Vincent also describes contribution from the maintainer side in
 [Open Source ML Tools]({{ '/podcasts/open-source-ml-tools-strategy-and-business-models/' | relative_url }}).
 Vincent discusses contributor growth around 16:43 and maintainer handoff around
-18:11. Around 23:29, open-source work becomes a hiring signal. The common
-thread is maintainability. A change that's easy to review and test is more
-valuable than a large feature that arrives without context.
+18:11. Around 23:29, he treats open-source work as a hiring signal.
+Maintainers value work they can review, test, and hand off more than a large
+feature that arrives without context.
 
-## Guest Differences
+## Entry Points Through Sprints, Mentorship, and Volunteering
 
-Guests differ mostly on the best entry point. Vincent emphasizes maintainer
-fit: start small and reproduce the problem before asking maintainers to review
-something large.
+The podcast guests describe different ways to start contributing. Vincent
+emphasizes maintainer fit: start small and reproduce the problem before asking
+maintainers to review something large.
 
 In
 [Contribute to Hugging Face and Build an NLP Portfolio]({{ '/podcasts/hugging-face-contributions-and-nlp-portfolio/' | relative_url }}),
@@ -77,7 +77,7 @@ Around 23:44 she compares collaboration models. Around 48:42 she discusses
 pitching relevant skills for volunteer projects. Around 51:21 she connects
 volunteering to practical experience, referrals, and soft skills.
 
-## Open-Source Contribution Paths
+## Reviewable Open-Source Contributions
 
 For open-source projects, the guests favor contribution paths that are small
 enough to review and concrete enough to verify:
@@ -105,7 +105,7 @@ enough to review and concrete enough to verify:
   [Open Source ML Tools]({{ '/podcasts/open-source-ml-tools-strategy-and-business-models/' | relative_url }})
   shows why this work matters for project sustainability.
 
-## Community Contribution
+## Community and Volunteer Contributions
 
 Community contribution is the non-repository side of the same idea. It helps
 other people learn, ship, or stay engaged. This comes up in
@@ -119,21 +119,21 @@ The episode covers these community formats around 24:38 and 55:07:
 - live coding
 - office hours
 
-Around 42:49, community participation becomes career advice about joining
-communities, answering questions, and finding mentors.
+Around 42:49, the episode frames community participation as career advice about
+joining communities, answering questions, and finding mentors.
 
-This makes [community building]({{ '/wiki/community-building/' | relative_url }})
+[Community building]({{ '/wiki/community-building/' | relative_url }}) can be
 a contribution path, not only a background activity. Answering questions in
 Slack and mentoring learners can create practical proof. So can reviewing
-projects, joining Project of the Week, or organizing office hours. The proof
-works like a small pull request when the work is visible and useful.
+projects, joining Project of the Week, or organizing office hours. Visible,
+useful community work can play the same evidence role as a small pull request.
 
 Sara's volunteer project discussion around 51:21 in
 [Open Source and Volunteering]({{ '/podcasts/open-source-and-volunteering-in-ai-for-data-ml-career-growth/' | relative_url }})
 adds another version. Group projects can build referrals and collaboration
 evidence when contributors take clear roles.
 
-## Documentation and Teaching
+## Documentation and Teaching Contributions
 
 Documentation and teaching count because they lower the cost of adoption.
 [Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }})
@@ -148,12 +148,12 @@ outlines for tutorials.
 from a data science tool perspective in
 [DevRel for Data Science]({{ '/podcasts/devrel-data-science-open-source-tools/' | relative_url }}).
 Around 12:20 she describes product work and docs as part of the DevRel scope.
-The same segment covers PRs, videos, and hiring. Around 52:06 and 54:46, she connects teaching and
-curriculum design with reusable videos and open educational resources. These
-are contribution formats when they help users understand a tool, reproduce a
-workflow, or avoid common mistakes.
+Elle also discusses PRs, videos, and hiring in the same segment. Around 52:06
+and 54:46, she connects teaching and curriculum design with reusable videos and
+open educational resources. These are contribution formats when they help users
+understand a tool, reproduce a way of working, or avoid common mistakes.
 
-## Career Proof
+## Contribution as Career Evidence
 
 Contribution becomes career proof when another person can look at the work and
 see judgment. Merve's Hugging Face episode connects open-source experience to
@@ -163,7 +163,7 @@ Vincent makes a similar point around 23:29 in
 [Open Source ML Tools]({{ '/podcasts/open-source-ml-tools-strategy-and-business-models/' | relative_url }}),
 where open-source work demonstrates quality.
 
-The proof is stronger when it's specific:
+Contributors make this evidence stronger when they can reference specific work:
 
 - one issue with a clean reproduction
 - one merged pull request with tests
@@ -178,9 +178,9 @@ for this hiring focus. Connect contribution work to
 [data engineering portfolio projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
 when the work needs to prove employability.
 
-## Related Pages
+## Contribution Across Open Source, Community, and Careers
 
-Use these pages for the topics that sit next to contribution work.
+Contribution work connects to several archive topics:
 
 - [Open Source and Developer Relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }})
 - [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
