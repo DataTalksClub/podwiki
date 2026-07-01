@@ -98,6 +98,8 @@ Existing pages:
 - `_wiki/machine-learning-engineer-role.md`
 - `_wiki/ml-platform-engineer-role.md`
 - `_wiki/mlops-engineer.md`
+- `_wiki/chief-data-officer-role.md`
+- `_wiki/dataops-engineer-role.md`
 - `_wiki/analytics-engineering.md` owns the Analytics Engineer role vocabulary.
 - `_guides/data-roles.md`
 - `_guides/data-product-manager.md`
@@ -355,10 +357,10 @@ Start with this batch when expanding the content set.
   `_wiki/data-engineering-portfolio-projects.md`, and
   `_roadmaps/open-source-contributor-roadmap.md` unless a future brief asks for
   a narrower project guide.
-- Treat `open source entity resolution` as wiki coverage unless more interviews
-  make it a broader topic. Use Zingg/Sonal Goyal evidence inside Open Source,
-  Data Engineering Tools, and portfolio pages before creating a standalone
-  `_wiki/entity-resolution.md`.
+- Keep `open source entity resolution` covered by `_wiki/entity-resolution.md`
+  and linked supporting pages such as Open Source, Data Engineering Tools, and
+  portfolio pages. Extend the entity-resolution wiki page when more interviews
+  add matching, identity, or customer-360 evidence.
 - Treat Delta Lake as a wiki concept. The editorial comparison now lives in
   `_comparisons/delta-lake-vs-apache-iceberg.md`; keep bare Delta Lake updates
   on `_wiki/delta-lake.md`.

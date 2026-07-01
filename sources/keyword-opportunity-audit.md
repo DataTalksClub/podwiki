@@ -92,8 +92,13 @@ These keyword groups already have editorial coverage:
 | Delta Lake vs Apache Iceberg | `_comparisons/delta-lake-vs-apache-iceberg.md` | delta lake, delta lake vs apache iceberg, apache iceberg vs delta lake |
 | ETL vs ELT | `_comparisons/etl-vs-elt.md`; old wiki URL redirects | etl vs elt, elt vs etl, etl and elt |
 | DataOps Platforms | `_wiki/dataops-platforms.md` | dataops platforms |
+| DataOps Engineer Role | `_wiki/dataops-engineer-role.md`, `_comparisons/dataops-vs-data-engineering.md`, `_comparisons/mlops-vs-dataops.md` | data ops engineer, dataops engineer, dataops engineer vs data engineer |
+| Chief Data Officer Role | `_wiki/chief-data-officer-role.md`, `_wiki/leadership.md`, `_wiki/data-team-lead-role.md` | chief data officer skills, chief data officer interview questions |
 | A/B Testing | `_wiki/a-b-testing.md`, `_wiki/experimentation-and-causal-inference.md`, `_wiki/experimentation.md`, `_wiki/power-analysis.md` | a/b testing podcast, ab testing, product experimentation |
-| Open Source | `_wiki/open-source.md`, `_wiki/open-source-portfolio-evidence.md`, `_roadmaps/open-source-contributor-roadmap.md` | what is open source, data engineering open source projects, open source entity resolution |
+| Recommendation Systems | `_wiki/recommendation-systems.md`, `_wiki/search.md`, `_wiki/vector-databases.md`, `_wiki/machine-learning-system-design.md` | machine learning personalization, personalization machine, practical recommender systems |
+| Entity Resolution | `_wiki/entity-resolution.md`, `_wiki/open-source.md`, `_wiki/open-source-portfolio-evidence.md` | open source entity resolution, entity resolution use cases, identity resolution vs entity resolution, zingg entity resolution |
+| RFM Analysis | `_wiki/rfm-analysis.md`, `_wiki/product-analytics.md`, `_wiki/analytics-engineering.md` | rfm analysis, rfm segmentation, rfm analysis for customer segmentation |
+| Open Source | `_wiki/open-source.md`, `_wiki/open-source-portfolio-evidence.md`, `_roadmaps/open-source-contributor-roadmap.md` | what is open source, data engineering open source projects |
 | Tech Startups | `_wiki/startups.md`, `_wiki/startup.md`, `_wiki/founder.md`, `_wiki/entrepreneurship.md`, `_guides/machine-learning-for-startups.md` | tech startups, machine learning startup, machine learning for startups, startup machine learning, ml startups |
 
 ## Conditional CSV Items
@@ -117,8 +122,7 @@ separate site strategy:
 - Book/PDF/free-download queries: `ace the data science interview pdf`,
   `build a large language model from scratch`, `grokking machine learning`,
   `natural language processing with transformers`
-- Unclear or unrelated terms: `download"`, `scale"`, `rfm analysis`,
-  `rfm segmentation`, `faang`
+- Unclear or unrelated terms: `download"`, `scale"`, `faang`
 - Owned-channel terms without a current podwiki archive angle:
   `machine-learning-newsletter`, `machine learning newsletter`,
   `machine learnings newsletter`, `dtc newsletter`. Reconsider only if
@@ -149,6 +153,11 @@ main DataTalks.Club site owns those course queries.
 16. `_wiki/entrepreneurship.md`
 17. `_guides/machine-learning-for-startups.md`
 18. `_wiki/apache-airflow.md`
+19. `_wiki/recommendation-systems.md`
+20. `_wiki/entity-resolution.md`
+21. `_wiki/rfm-analysis.md`
+22. `_wiki/chief-data-officer-role.md`
+23. `_wiki/dataops-engineer-role.md`
 
 The duplicate data engineering course, courses, bootcamp, and training guide
 variants were later removed. Their useful guidance belongs in

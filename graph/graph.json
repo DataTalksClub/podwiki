@@ -1,7 +1,7 @@
 {
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
-    "wikis": 172,
+    "wikis": 177,
     "articles": 49,
     "guides": 19,
     "comparisons": 19,
@@ -10,8 +10,8 @@
     "podcasts": 202,
     "persons": 183,
     "topics": 92,
-    "nodes": 698,
-    "links": 10620
+    "nodes": 703,
+    "links": 10795
   },
   "nodes": [
     {
@@ -5512,6 +5512,16 @@
       "search": "CDC Change data capture in podcast discussions: when to capture row level database changes, how CDC compares with batch dumps and streaming, and what teams must operate around schema changes, deletes, and replay."
     },
     {
+      "id": "wiki:chief-data-officer-role",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Chief Data Officer Role",
+      "title": "Chief Data Officer Role",
+      "url": "/wiki/chief-data-officer-role/",
+      "count": 1,
+      "search": "Chief Data Officer Role How DataTalks.Club guests describe the Chief Data Officer role across data strategy, executive scope, org design, governance, AI, communication, and career progression."
+    },
+    {
       "id": "wiki:ci-cd",
       "type": "wiki",
       "collection": "wiki",
@@ -5922,6 +5932,16 @@
       "search": "DataOps Reference page for DataOps as the operating discipline for reliable data pipelines, analytics workflows, and data platforms."
     },
     {
+      "id": "wiki:dataops-engineer-role",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "DataOps Engineer Role",
+      "title": "DataOps Engineer Role",
+      "url": "/wiki/dataops-engineer-role/",
+      "count": 1,
+      "search": "DataOps Engineer Role Reference for the DataOps engineer role across ownership, role boundaries, CI/CD, observability, orchestration, quality, and team design."
+    },
+    {
       "id": "wiki:dataops-platforms",
       "type": "wiki",
       "collection": "wiki",
@@ -6040,6 +6060,16 @@
       "url": "/wiki/end-to-end-data-pipeline-project/",
       "count": 1,
       "search": "End to End Data Pipeline Project Archive backed guidance for a data pipeline portfolio project that proves ingestion, modeling, orchestration, quality checks, recovery behavior, and consumer facing output."
+    },
+    {
+      "id": "wiki:entity-resolution",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Entity Resolution",
+      "title": "Entity Resolution",
+      "url": "/wiki/entity-resolution/",
+      "count": 1,
+      "search": "Entity Resolution How DataTalks.Club podcast discussions explain entity resolution, identity resolution, matching, record linkage, and the data product tradeoffs behind trusted customer, supplier, fraud, and public data views."
     },
     {
       "id": "wiki:entrepreneurship",
@@ -6692,6 +6722,16 @@
       "search": "RAG Portfolio Projects DataTalks.Club guest guidance for RAG portfolio projects that prove retrieval quality, context design, citations, evaluation, failure analysis, and production minded AI engineering."
     },
     {
+      "id": "wiki:recommendation-systems",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Recommendation Systems",
+      "title": "Recommendation Systems",
+      "url": "/wiki/recommendation-systems/",
+      "count": 1,
+      "search": "Recommendation Systems How DataTalks.Club guests discuss recommendation systems as data, ranking, personalization, experimentation, and production operations work."
+    },
+    {
       "id": "wiki:reinforcement-learning",
       "type": "wiki",
       "collection": "wiki",
@@ -6740,6 +6780,16 @@
       "url": "/wiki/reverse-etl/",
       "count": 1,
       "search": "Reverse ETL How DataTalks.Club guests explain reverse ETL as sending modeled warehouse data into sales, marketing, support, analytics, and engagement tools."
+    },
+    {
+      "id": "wiki:rfm-analysis",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "RFM Analysis",
+      "title": "RFM Analysis",
+      "url": "/wiki/rfm-analysis/",
+      "count": 1,
+      "search": "RFM Analysis How DataTalks.Club podcast discussions place recency, frequency, and monetary analysis inside customer segmentation, retention, analytics engineering, product analytics, and warehouse modeling."
     },
     {
       "id": "wiki:salary-negotiation",
@@ -39750,6 +39800,186 @@
       "weight": 3
     },
     {
+      "source": "wiki:chief-data-officer-role",
+      "target": "article:guide:data-roles",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:chief-data-officer-role",
+      "target": "person:alexanderhendorf",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:chief-data-officer-role",
+      "target": "person:bartvandekerckhove",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:chief-data-officer-role",
+      "target": "person:jessiashdown",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:chief-data-officer-role",
+      "target": "person:lisacohen",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:chief-data-officer-role",
+      "target": "person:marcodesa",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:chief-data-officer-role",
+      "target": "person:tammyliang",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:chief-data-officer-role",
+      "target": "person:urigilad",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:chief-data-officer-role",
+      "target": "podcast:building-and-scaling-data-team",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:chief-data-officer-role",
+      "target": "podcast:chief-data-officer-data-strategy-and-org-design",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:chief-data-officer-role",
+      "target": "podcast:cloud-data-governance",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:chief-data-officer-role",
+      "target": "podcast:data-governance-data-access-management",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:chief-data-officer-role",
+      "target": "podcast:data-science-team-structure-and-org-design",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:chief-data-officer-role",
+      "target": "podcast:scaling-enterprise-ai-mlops-data-first-strategy",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:chief-data-officer-role",
+      "target": "wiki:ai",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:chief-data-officer-role",
+      "target": "wiki:ai",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:chief-data-officer-role",
+      "target": "wiki:communication",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:chief-data-officer-role",
+      "target": "wiki:communication",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:chief-data-officer-role",
+      "target": "wiki:data-governance",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:chief-data-officer-role",
+      "target": "wiki:data-governance",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:chief-data-officer-role",
+      "target": "wiki:data-strategy",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:chief-data-officer-role",
+      "target": "wiki:data-strategy",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:chief-data-officer-role",
+      "target": "wiki:data-team-lead-role",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:chief-data-officer-role",
+      "target": "wiki:data-team-lead-role",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:chief-data-officer-role",
+      "target": "wiki:data-teams",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:chief-data-officer-role",
+      "target": "wiki:data-teams",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:chief-data-officer-role",
+      "target": "wiki:leadership",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:chief-data-officer-role",
+      "target": "wiki:leadership",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:chief-data-officer-role",
+      "target": "wiki:team-building",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:chief-data-officer-role",
+      "target": "wiki:team-building",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
       "source": "wiki:ci-cd",
       "target": "person:christopherbergh",
       "kind": "wiki-link",
@@ -48504,6 +48734,246 @@
       "weight": 1
     },
     {
+      "source": "wiki:dataops-engineer-role",
+      "target": "article:comparison:dataops-vs-data-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-engineer-role",
+      "target": "article:comparison:mlops-vs-dataops",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-engineer-role",
+      "target": "person:barrmoses",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-engineer-role",
+      "target": "person:christopherbergh",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-engineer-role",
+      "target": "person:dannyleybzon",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-engineer-role",
+      "target": "person:larsalbertsson",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-engineer-role",
+      "target": "person:mehdiouazza",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-engineer-role",
+      "target": "person:santonatuli",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-engineer-role",
+      "target": "person:tomaszhinc",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-engineer-role",
+      "target": "podcast:data-quality-data-observability-data-reliability",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-engineer-role",
+      "target": "podcast:dataops-and-gitops-best-practices-for-data-teams",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-engineer-role",
+      "target": "podcast:dataops-automation-and-reliable-data-pipelines",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-engineer-role",
+      "target": "podcast:dataops-for-data-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-engineer-role",
+      "target": "podcast:dataops-principles-and-scalable-data-platforms",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-engineer-role",
+      "target": "podcast:mlops-model-monitoring-data-observability",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-engineer-role",
+      "target": "podcast:modern-data-pipelines-orchestration-ingestion-modeling",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-engineer-role",
+      "target": "podcast:scaling-data-engineering-teams-self-service-platforms",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-engineer-role",
+      "target": "wiki:ci-cd",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-engineer-role",
+      "target": "wiki:ci-cd",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dataops-engineer-role",
+      "target": "wiki:data-engineer-role",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-engineer-role",
+      "target": "wiki:data-engineer-role",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dataops-engineer-role",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-engineer-role",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dataops-engineer-role",
+      "target": "wiki:data-observability",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-engineer-role",
+      "target": "wiki:data-observability",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dataops-engineer-role",
+      "target": "wiki:data-pipelines",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-engineer-role",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-engineer-role",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dataops-engineer-role",
+      "target": "wiki:dataops",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-engineer-role",
+      "target": "wiki:dataops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dataops-engineer-role",
+      "target": "wiki:dataops-platforms",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-engineer-role",
+      "target": "wiki:dataops-platforms",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dataops-engineer-role",
+      "target": "wiki:mlops-engineer",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-engineer-role",
+      "target": "wiki:mlops-engineer",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dataops-engineer-role",
+      "target": "wiki:orchestration",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-engineer-role",
+      "target": "wiki:orchestration",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dataops-engineer-role",
+      "target": "wiki:platform-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-engineer-role",
+      "target": "wiki:platform-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dataops-engineer-role",
+      "target": "wiki:self-service-data-platforms",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:dataops-engineer-role",
+      "target": "wiki:self-service-data-platforms",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
       "source": "wiki:dataops-platforms",
       "target": "article:comparison:etl-vs-elt",
       "kind": "wiki-link",
@@ -50780,6 +51250,162 @@
     {
       "source": "wiki:end-to-end-data-pipeline-project",
       "target": "wiki:portfolio-projects",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:entity-resolution",
+      "target": "article:guide:data-observability-for-data-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:entity-resolution",
+      "target": "article:how_to:how-to-build-data-pipelines",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:entity-resolution",
+      "target": "person:arpitchoudhury",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:entity-resolution",
+      "target": "person:sonalgoyal",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:entity-resolution",
+      "target": "podcast:building-open-source-data-product-for-identity-resolution",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:entity-resolution",
+      "target": "podcast:data-led-growth-event-tracking-and-reverse-etl",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:entity-resolution",
+      "target": "wiki:customer-data-platforms",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:entity-resolution",
+      "target": "wiki:customer-data-platforms",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:entity-resolution",
+      "target": "wiki:data-activation",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:entity-resolution",
+      "target": "wiki:data-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:entity-resolution",
+      "target": "wiki:data-engineering-tools",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:entity-resolution",
+      "target": "wiki:data-engineering-tools",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:entity-resolution",
+      "target": "wiki:data-governance",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:entity-resolution",
+      "target": "wiki:data-governance",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:entity-resolution",
+      "target": "wiki:data-products",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:entity-resolution",
+      "target": "wiki:data-products",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:entity-resolution",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:entity-resolution",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:entity-resolution",
+      "target": "wiki:machine-learning",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:entity-resolution",
+      "target": "wiki:modern-data-stack",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:entity-resolution",
+      "target": "wiki:modern-data-stack",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:entity-resolution",
+      "target": "wiki:open-source",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:entity-resolution",
+      "target": "wiki:open-source",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:entity-resolution",
+      "target": "wiki:open-source-portfolio-evidence",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:entity-resolution",
+      "target": "wiki:startups",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:entity-resolution",
+      "target": "wiki:startups",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -65268,6 +65894,270 @@
       "weight": 1
     },
     {
+      "source": "wiki:recommendation-systems",
+      "target": "article:comparison:batch-vs-streaming",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:recommendation-systems",
+      "target": "person:abouzarabbaspour",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:recommendation-systems",
+      "target": "person:atitaarora",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:recommendation-systems",
+      "target": "person:danielsvonava",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:recommendation-systems",
+      "target": "person:mariavechtomova",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:recommendation-systems",
+      "target": "person:roksolanadiachuk",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:recommendation-systems",
+      "target": "person:sadatanwar",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:recommendation-systems",
+      "target": "person:stefangudmundsson",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:recommendation-systems",
+      "target": "podcast:ai-in-healthcare-and-digital-therapeutics",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:recommendation-systems",
+      "target": "podcast:big-data-engineer-vs-data-scientist",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:recommendation-systems",
+      "target": "podcast:building-production-search-systems",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:recommendation-systems",
+      "target": "podcast:from-software-engineering-to-leading-data-science-teams",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:recommendation-systems",
+      "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:recommendation-systems",
+      "target": "podcast:pragmatic-and-standardized-mlops",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:recommendation-systems",
+      "target": "podcast:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:recommendation-systems",
+      "target": "wiki:a-b-testing",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:recommendation-systems",
+      "target": "wiki:a-b-testing",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:recommendation-systems",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:recommendation-systems",
+      "target": "wiki:data-engineering-platforms",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:recommendation-systems",
+      "target": "wiki:data-pipelines",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:recommendation-systems",
+      "target": "wiki:data-product-management",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:recommendation-systems",
+      "target": "wiki:data-products",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:recommendation-systems",
+      "target": "wiki:data-quality-and-observability",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:recommendation-systems",
+      "target": "wiki:embeddings",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:recommendation-systems",
+      "target": "wiki:embeddings",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:recommendation-systems",
+      "target": "wiki:evaluation",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:recommendation-systems",
+      "target": "wiki:experimentation-and-causal-inference",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:recommendation-systems",
+      "target": "wiki:information-retrieval",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:recommendation-systems",
+      "target": "wiki:machine-learning-infrastructure",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:recommendation-systems",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:recommendation-systems",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:recommendation-systems",
+      "target": "wiki:metrics",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:recommendation-systems",
+      "target": "wiki:mlops",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:recommendation-systems",
+      "target": "wiki:mlops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:recommendation-systems",
+      "target": "wiki:model-monitoring",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:recommendation-systems",
+      "target": "wiki:model-registry",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:recommendation-systems",
+      "target": "wiki:product-analytics",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:recommendation-systems",
+      "target": "wiki:production",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:recommendation-systems",
+      "target": "wiki:production-search-evaluation",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:recommendation-systems",
+      "target": "wiki:production-search-evaluation",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:recommendation-systems",
+      "target": "wiki:search",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:recommendation-systems",
+      "target": "wiki:search",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:recommendation-systems",
+      "target": "wiki:vector-databases",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:recommendation-systems",
+      "target": "wiki:vector-databases",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
       "source": "wiki:reinforcement-learning",
       "target": "person:adamsroka",
       "kind": "wiki-link",
@@ -66214,6 +67104,216 @@
       "target": "wiki:tracking-plans",
       "kind": "wiki-link",
       "weight": 1
+    },
+    {
+      "source": "wiki:rfm-analysis",
+      "target": "person:arpitchoudhury",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:rfm-analysis",
+      "target": "person:jakobgraff",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:rfm-analysis",
+      "target": "person:juanorduz",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:rfm-analysis",
+      "target": "person:nikolamaksimovic",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:rfm-analysis",
+      "target": "podcast:ab-testing-and-product-experimentation",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:rfm-analysis",
+      "target": "podcast:data-led-growth-event-tracking-and-reverse-etl",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:rfm-analysis",
+      "target": "podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:rfm-analysis",
+      "target": "podcast:machine-learning-in-marketing-attribution-marketing-mix-modeling",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:rfm-analysis",
+      "target": "wiki:a-b-testing",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:rfm-analysis",
+      "target": "wiki:a-b-testing",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:rfm-analysis",
+      "target": "wiki:analytics-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:rfm-analysis",
+      "target": "wiki:analytics-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:rfm-analysis",
+      "target": "wiki:business-intelligence",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:rfm-analysis",
+      "target": "wiki:data-activation",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:rfm-analysis",
+      "target": "wiki:data-activation",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:rfm-analysis",
+      "target": "wiki:data-led-growth",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:rfm-analysis",
+      "target": "wiki:data-led-growth",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:rfm-analysis",
+      "target": "wiki:data-warehouse",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:rfm-analysis",
+      "target": "wiki:data-warehouse",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:rfm-analysis",
+      "target": "wiki:dbt",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:rfm-analysis",
+      "target": "wiki:dbt",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:rfm-analysis",
+      "target": "wiki:event-tracking",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:rfm-analysis",
+      "target": "wiki:event-tracking",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:rfm-analysis",
+      "target": "wiki:experimentation",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:rfm-analysis",
+      "target": "wiki:experimentation-and-causal-inference",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:rfm-analysis",
+      "target": "wiki:marketing-to-analytics-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:rfm-analysis",
+      "target": "wiki:marketing-to-analytics-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:rfm-analysis",
+      "target": "wiki:metrics",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:rfm-analysis",
+      "target": "wiki:metrics",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:rfm-analysis",
+      "target": "wiki:product-analytics",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:rfm-analysis",
+      "target": "wiki:product-analytics",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:rfm-analysis",
+      "target": "wiki:reverse-etl",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:rfm-analysis",
+      "target": "wiki:reverse-etl",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:rfm-analysis",
+      "target": "wiki:tracking-plans",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:rfm-analysis",
+      "target": "wiki:tracking-plans",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:salary-negotiation",

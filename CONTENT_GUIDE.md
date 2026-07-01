@@ -42,7 +42,8 @@ Required structure:
    the most important related wiki pages.
 2. Common definition: what the podcast archive converges on, with inline
    episode links.
-3. Where guests differ: disagreements, boundary differences, or tradeoffs, with
+3. Guest disagreements: boundary differences, tradeoffs, or places where guests
+   focus on different parts of the topic, with
    inline episode links.
 4. Topic sections: concrete subtopics with podcast references inside the
    section where the claim appears.
@@ -52,13 +53,13 @@ Do not publish a separate link map or evidence appendix. Put links where they
 help the claim: related wiki pages in definitions, people links where a guest's
 argument appears, and local podcast links next to the discussion they support.
 Do not use reader-facing headings with "Archive" in the name. Use
-`Common Definition`, `Where Guests Differ`, and concrete topic headings instead.
+`Common Definition`, `Guest Disagreements`, and concrete topic headings instead.
 
 Use these reader-facing headings where they fit:
 
 ```markdown
 ## Common Definition
-## Where Guests Differ
+## Guest Disagreements
 ## <Concrete Topic Section>
 ## Related Pages
 ```
