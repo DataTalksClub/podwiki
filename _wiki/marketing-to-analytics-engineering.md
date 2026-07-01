@@ -42,7 +42,7 @@ Funnel intuition becomes
 ([Maksimovic's dbt migration and modeling discussion at 18:34-33:46]({{ '/podcasts/from-marketing-to-analytics-engineering-sql-dbt-career-switch/' | relative_url }}),
 [Choudhury's tracking-plan and growth-stack discussion at 13:34-30:03]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }})).
 
-## Common Definition
+## Turn Marketing Questions Into Shared Data Products
 
 Marketing to analytics engineering means using marketing domain knowledge as an
 entry point into governed analytical data. The person moving roles learns to
@@ -69,12 +69,12 @@ and the broader [Data Analyst to Analytics Engineer Roadmap]({{ '/roadmaps/data-
 Marketing gives the person questions and metric meaning. Analytics engineering
 adds model ownership, quality checks, and shared analytical assets.
 
-## Guest Disagreements
+## Navigate Role Boundaries and Tool Choices
 
-Guests differ on how formal the role boundary should be. Maksimovic's team did
-not start with a clean analytics-engineer title. The work overlapped BI
-analyst, data analyst, and analytics-engineer responsibilities because the team
-was small
+The role boundary is often negotiated through the work before it appears as a
+clean job title. Maksimovic's team didn't start with a clean
+analytics-engineer title. The work overlapped BI analyst, data analyst, and
+analytics-engineer responsibilities because the team was small
 ([Maksimovic's analyst-versus-analytics-engineer discussion at 25:06-28:40]({{ '/podcasts/from-marketing-to-analytics-engineering-sql-dbt-career-switch/' | relative_url }})).
 
 [Juan Manuel Perafan]({{ '/people/juanmanuelperafan/' | relative_url }})
@@ -86,9 +86,10 @@ He also treats team-role splits as an organizational choice, not a universal
 rule
 ([Perafan's team-role split discussion at 26:53-30:35]({{ '/podcasts/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices/' | relative_url }})).
 
-Guests also differ on tool centrality. Maksimovic says dbt strongly shaped the
-analytics-engineering title, but she still separates the role from the tool.
-Data modeling theory matters more than simply using dbt
+Tool choice is part of that boundary, but it shouldn't define the transition.
+Maksimovic says dbt strongly shaped the analytics-engineering title, but she
+still separates the role from the tool. Data modeling theory matters more than
+simply using dbt
 ([Maksimovic's dbt influence and modeling-theory discussion at 28:40-33:46]({{ '/podcasts/from-marketing-to-analytics-engineering-sql-dbt-career-switch/' | relative_url }})).
 
 [Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) places dbt inside

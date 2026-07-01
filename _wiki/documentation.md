@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Documentation"
-summary: "Podcast-grounded reference on documentation as adoption infrastructure, team memory, operational practice, onboarding support, portfolio evidence, and open-source maintenance."
+summary: "How documentation supports adoption, team memory, operations, onboarding, portfolio evidence, and open-source maintenance in data and ML work."
 related:
   - Technical Writing
   - Developer Relations
@@ -10,7 +10,7 @@ related:
   - Open Source and Developer Relations
 ---
 
-## Definition and Scope
+## Documentation in Data and ML Work
 
 Documentation is the written or recorded material that helps another person use
 technical work. It also helps them maintain, evaluate, or extend that work.
@@ -34,7 +34,7 @@ writing workflow, [Developer Relations]({{ '/wiki/developer-relations/' | relati
 for demos and tool adoption, and [Contributing]({{ '/wiki/contributing/' | relative_url }})
 for contribution paths that include docs.
 
-## Common Definition
+## Documentation as Coordination Infrastructure
 
 Across these episodes, documentation is useful when it lowers coordination cost. It
 helps a user run a tool. It helps a teammate understand a decision, an operator
@@ -48,16 +48,15 @@ docs. At 54:00, he adds decision logs, rationales, and team memory. At 56:30,
 he recommends portfolio READMEs, quickstarts, and repo tours so another person
 can understand the work without private context.
 
-[Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }}) gives
-the adoption version in
+[Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }}) explains
+the adoption role in
 [DevRel Role for Machine Learning]({{ '/podcasts/devrel-open-source-machine-learning/' | relative_url }}).
 At 18:03, he defines DevRel through education, documentation, and a "wisdom
 layer" around tools. At 25:17, he connects documentation feedback with
-dogfooding and developer collaboration. Documentation isn't just text after
-the product ships. It's one way a team discovers where the product is hard to
-use.
+dogfooding and developer collaboration. Documentation isn't only text after
+the product ships. Teams also use it to find where the product is hard to use.
 
-## Guest Differences
+## Readers and Use Cases
 
 Guests agree that documentation makes technical work easier to use, but they
 focus on different readers.
@@ -109,8 +108,8 @@ That connects documentation to [software engineering]({{ '/wiki/software-enginee
 [MLOps]({{ '/wiki/mlops/' | relative_url }}), and
 [machine learning system design]({{ '/wiki/machine-learning-system-design/' | relative_url }}).
 
-For analytics and data products, documentation appears as part of trusted
-models. The
+For analytics and data products, teams document the models they expect others
+to trust. The
 [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
 page links dbt-style modeling to tests, docs, lineage, and business
 definitions. Those docs help users understand metrics and model dependencies.
@@ -126,8 +125,8 @@ evaluation. They also include serving, monitoring, fallbacks, and ownership.
 
 ## Runbooks and Operational Memory
 
-Runbooks turn documentation into an operating practice. They explain what to
-check, who owns the system, how to recover, and when to escalate.
+Runbooks make documentation part of operations. They explain what to check, who
+owns the system, how to recover, and when to escalate.
 
 [Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }}) gives the
 clearest operational version in
@@ -159,7 +158,7 @@ need the same context.
 Without the rationale, a future teammate may repeat an old debate or undo a
 constraint that still matters.
 
-Portfolio documentation uses the same idea for a public reader. Eugene's 56:30
+Portfolio documentation uses the same reader-focused logic. Eugene's 56:30
 chapter recommends a clear README, quickstart, and repo tour. Those artifacts
 also show up in
 [data engineering portfolio projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }}),
@@ -185,14 +184,14 @@ include adjacent tools such as Docker, Postgres, and Git. That matters because
 onboarding rarely depends on one product only. Users need the surrounding setup
 too.
 
-This is where documentation overlaps with
+These examples connect documentation to
 [developer relations]({{ '/wiki/developer-relations/' | relative_url }}),
 [community building]({{ '/wiki/community-building/' | relative_url }}), and
 [technical writing]({{ '/wiki/technical-writing/' | relative_url }}). Docs and
 demos help users move from curiosity to a first successful result. Workshops,
 office hours, and examples can do the same.
 
-## Open-Source Docs
+## Open-Source Contribution Paths
 
 Open-source documentation has two audiences: users trying to solve a problem
 and contributors trying to help the project. Vincent's open-source ML episode
@@ -208,9 +207,8 @@ episode. Around 35:43 and 39:02, he discusses mentorship and pull request
 quality. He also covers Git skills and onboarding into large repositories.
 Around 41:16, he adds environment setup and maintainer collaboration.
 
-Good open-source docs should include setup steps, contribution expectations,
-and examples. They should give newcomers enough context to avoid wasting
-maintainer time.
+Good open-source docs include setup steps, contribution expectations, and
+examples. They give newcomers enough context to avoid wasting maintainer time.
 
 This is why documentation belongs with
 [open source]({{ '/wiki/open-source/' | relative_url }}),

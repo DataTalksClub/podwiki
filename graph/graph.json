@@ -11,7 +11,7 @@
     "persons": 183,
     "topics": 92,
     "nodes": 703,
-    "links": 10927
+    "links": 10926
   },
   "nodes": [
     {
@@ -5339,7 +5339,7 @@
       "title": "AI Infrastructure",
       "url": "/wiki/ai-infrastructure/",
       "count": 1,
-      "search": "AI Infrastructure Podcast grounded reference page for compute, GPUs, orchestration, model serving, cost, and operations behind production AI systems."
+      "search": "AI Infrastructure Compute, GPUs, orchestration, model serving, cost, and operations behind production AI systems."
     },
     {
       "id": "wiki:ai-red-teaming",
@@ -6019,7 +6019,7 @@
       "title": "Documentation",
       "url": "/wiki/documentation/",
       "count": 1,
-      "search": "Documentation Podcast grounded reference on documentation as adoption infrastructure, team memory, operational practice, onboarding support, portfolio evidence, and open source maintenance."
+      "search": "Documentation How documentation supports adoption, team memory, operations, onboarding, portfolio evidence, and open source maintenance in data and ML work."
     },
     {
       "id": "wiki:duckdb",
@@ -6869,7 +6869,7 @@
       "title": "Software Engineer to Machine Learning",
       "url": "/wiki/software-engineer-to-machine-learning/",
       "count": 1,
-      "search": "Software Engineer to Machine Learning Podcast backed transition notes for software engineers moving into machine learning through project work, ML evaluation, production systems, MLOps, and role targeting."
+      "search": "Software Engineer to Machine Learning A transition path for software engineers moving into machine learning through project work, ML evaluation, production systems, MLOps, and role targeting."
     },
     {
       "id": "wiki:software-engineering",
@@ -38212,12 +38212,6 @@
     {
       "source": "wiki:apache-iceberg",
       "target": "wiki:data-quality-and-observability",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:apache-iceberg",
-      "target": "wiki:data-warehouse",
       "kind": "wiki-link",
       "weight": 1
     },

@@ -25,11 +25,11 @@ should block. That connects red teaming directly to
 [LLMs]({{ '/wiki/llms/' | relative_url }}), and
 [generative AI]({{ '/wiki/generative-ai/' | relative_url }}).
 
-## Common Definition
+## Adversarial Test Scope
 
-Across the podcast discussions, guests define AI red teaming as attacking the
-deployed AI product before customers, employees, or malicious users discover the
-same failures.
+DataTalks.Club guests define AI red teaming as attacking the deployed AI
+product before customers, employees, or malicious users discover the same
+failures.
 
 For a chatbot, the test target includes the prompt and retrieved documents. It
 also includes output filters, the user interface, and the handoff path. Maria's
@@ -52,7 +52,7 @@ golden datasets and LLM judges. He also brings in human labels and scale. Red
 teaming fits that same engineering discipline because adversarial examples
 become evaluation cases the next version must pass.
 
-## Guest Differences
+## Risk Lenses Across Chatbots, Agents, and Governance
 
 Guests agree that AI systems need adversarial testing, but they start from
 different risks.
@@ -71,9 +71,8 @@ the 13:13 chapter discusses reliability in legal and healthcare settings. The
 56:40 chapter covers deployment risks. His framing pushes red teaming toward
 [agent engineering]({{ '/wiki/agent-engineering/' | relative_url }}).
 
-The team has to test whether someone can game the agent or trigger the wrong
-tool. It also has to test guardrail bypasses and failures that only appear at
-scale.
+Teams have to test whether someone can game the agent, trigger the wrong tool,
+bypass a guardrail, or create failures that only appear at scale.
 
 [Supreet Kaur]({{ '/people/supreetkaur/' | relative_url }}) starts from
 responsible AI and governance. In
@@ -83,7 +82,7 @@ she distinguishes explainable AI from responsible AI at 8:20. At 14:39 and
 product owners, subject matter experts, and compliance. Her view matters when
 red-team findings require policy decisions, not only technical filters.
 
-## LLM Red Teaming
+## Prompt Injection and Unsafe Outputs
 
 LLM red teaming tests whether a system can keep its instructions, data, and
 output boundaries under hostile input. In Maria's chatbot episode, the 9:28
@@ -107,7 +106,7 @@ safety and adoption. The red-team question isn't only whether the answer is
 wrong. It's whether the wrong answer creates a commitment, recommendation, or
 action that the product owner can't accept.
 
-## Security Testing
+## Security Testing for AI Behavior
 
 AI red teaming overlaps with security testing, but it adds model behavior and
 retrieval behavior to the normal attack surface. A web security test may check
@@ -128,7 +127,7 @@ teaming split. Security covers access controls, privacy, secure model
 artifacts, and deployment approvals. AI red teaming asks whether the AI behavior
 still respects those controls when the user tries to manipulate the system.
 
-## Evaluation
+## Regression Evaluation for Red-Team Cases
 
 Red-team cases should become part of the evaluation set. A team can start with
 failures found in a live exercise. It can then preserve them as regression tests
@@ -169,7 +168,7 @@ unsafe recommendation, add refusal criteria and human review. If an agent called
 the wrong tool, add permission checks, tool mocks in tests, and traces that make
 the failure reviewable.
 
-## Governance
+## Risk Acceptance and Human Oversight
 
 Governance decides which failures are unacceptable and who can approve the
 tradeoff. Supreet's
@@ -191,9 +190,9 @@ For broader policy and accountability, use
 teaming supplies evidence for those pages. It produces concrete failures,
 concrete controls, and a record of which risks the team accepted.
 
-## Related Pages
+## Adjacent AI Safety Topics
 
-Continue with these related pages:
+AI red teaming sits closest to these DataTalks.Club topic pages:
 
 - [Security]({{ '/wiki/security/' | relative_url }})
 - [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }})

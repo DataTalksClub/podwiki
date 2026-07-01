@@ -29,50 +29,7 @@ for the adjacent table format and
 [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}) for the
 warehouse-centered ELT stack that Iceberg is often compared against.
 
-## Starting Points
-
-Related wiki pages:
-
-- [Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
-  places Iceberg in the open-storage lakehouse tradeoff.
-- [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
-  covers storage and compute choices, plus workflow, access, and support
-  responsibilities.
-- [Data Lake]({{ '/wiki/data-lake/' | relative_url }}) and
-  [Data Warehouse]({{ '/wiki/data-warehouse/' | relative_url }}) provide the
-  older storage vocabulary.
-- [Delta Lake]({{ '/wiki/delta-lake/' | relative_url }}) is the closest named
-  comparison point in the podcast discussions.
-- [DuckDB]({{ '/wiki/duckdb/' | relative_url }}) connects to portable query
-  engines and small, cost-aware table-format experiments.
-- [DataOps]({{ '/wiki/dataops/' | relative_url }}),
-  [Data Governance]({{ '/wiki/data-governance/' | relative_url }}), and
-  [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
-  cover the operating practices that keep lakehouse tables trustworthy.
-- [ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }}) and
-  [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}) cover
-  the ingestion and transformation choices around the storage layer.
-
-Core podcast discussions:
-
-- [Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }})
-  with [Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) is the
-  main Iceberg episode. It covers 2025 Iceberg adoption at 16:40, Iceberg as a
-  table format over Parquet at 18:17, and catalogs and metadata at
-  21:27-23:41. It also covers headless table formats and DLT support at 30:31,
-  plus the Delta/Hudi/Iceberg comparison at 49:42.
-- [ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})
-  with [Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) gives the
-  warehouse, lake, and governance context. She covers data lakes at 19:50 and
-  data swamps at 21:22. She also covers when teams keep a lake, warehouse, or
-  both at 27:39.
-- [DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }})
-  with [Lars Albertsson]({{ '/people/larsalbertsson/' | relative_url }}) gives
-  the platform context. He covers object storage, governance, and self-service
-  SQL at 21:29-30:34. He then covers storage and compute components, lineage,
-  versioning, and lakehouse architecture from 30:34 through 1:07:52.
-
-## Common Definition
+## Table Format for Lakehouse Storage
 
 In these episodes, Iceberg isn't presented as a warehouse replacement.
 It's a table format that sits above files and below query engines. Brudaru
@@ -107,7 +64,7 @@ operation is part of the same discussion
 [DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}),
 1:04:18-1:07:52).
 
-## Guest Differences
+## Table Format, Governance, and Platform Views
 
 [Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) treats Iceberg
 as part of a 2025 shift toward open, decomposed data platforms. He criticizes
@@ -271,7 +228,7 @@ documentation. Iceberg
 changes where table metadata lives and how engines can share data. It doesn't
 remove the platform work around the table.
 
-## See Also
+## Related Pages
 
 Continue with these adjacent topics:
 

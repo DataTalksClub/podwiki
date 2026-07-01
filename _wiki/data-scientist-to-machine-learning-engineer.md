@@ -45,7 +45,7 @@ and [MLOps]({{ '/wiki/mlops/' | relative_url }}). For a side-by-side boundary
 view, use
 [Machine Learning Engineer vs Data Scientist]({{ '/comparisons/machine-learning-engineer-vs-data-scientist/' | relative_url }}).
 
-## Common Definition
+## Role Shift
 
 Data scientists moving into machine learning engineering usually keep their
 data intuition and problem framing. They also keep feature reasoning and
@@ -72,13 +72,13 @@ DevOps practice as gaps. Testing, CLI use, clean code, and Git matter too.
 Docker and production-minded software foundations matter as well
 ([Ellen Koenig's data-science-to-engineering transition discussion at 9:41-28:54]({{ '/podcasts/from-software-engineering-data-science-to-data-engineering-leadership/' | relative_url }})).
 
-For machine learning engineering specifically, Ben turns those foundations into
+For machine learning engineering specifically, Ben turns these foundations into
 model delivery. He discusses rapid prototypes, timeboxed experiments,
 cost-benefit tradeoffs, and iterative sprints. MVPs, feature engineering, and
-testing belong in the same delivery path
+testing belong in the same path from experiment to production
 ([Ben Wilson's idea-to-production and agile-for-ML discussion at 29:06-57:38]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }})).
 
-## Guest Disagreements
+## Moving Role Boundaries
 
 Guests agree that the transition requires more engineering ownership, although
 they put the boundary in different places. Ben's version points toward product
@@ -111,8 +111,8 @@ embedded collaboration and full-stack data scientists. Code reviews and
 deployed end-to-end systems also belong in that version
 ([Mihail Eric's embedded-team and full-stack-data-scientist discussion at 34:20-46:57]({{ '/podcasts/research-to-production-ml-systems-roadmap/' | relative_url }})).
 
-For a data scientist, the practical question is which responsibility is missing
-from current work. For product ML delivery, use the
+For a data scientist planning the move, the practical question is which
+responsibility is missing from current work. For product ML delivery, use the
 [Machine Learning Engineer Roadmap]({{ '/roadmaps/machine-learning-engineer-roadmap/' | relative_url }}).
 For pipeline depth, use the
 [Data Scientist to Data Engineer]({{ '/roadmaps/data-scientist-to-data-engineer/' | relative_url }})

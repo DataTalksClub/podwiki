@@ -39,13 +39,13 @@ RFM is more than a marketing label because teams can model customer behavior
 from it. Product and growth teams can use it when deciding who needs support,
 incentives, onboarding, or deeper investigation.
 
-## Common Definition
+## Behavior Segmentation
 
 In Maksimovic's direct RFM example, the method turns customer actions into
-reusable recency, frequency, and value features. The related retention,
-experimentation, and growth-stack discussions show how teams should interpret or
-test those segments after they're built. The work starts with observable
-behavior and ends with a stakeholder choice, not just a ranked customer list.
+reusable recency, frequency, and value features. Retention, experimentation, and
+growth-stack discussions then show how teams interpret or test those segments
+after they're built. RFM starts with observable behavior and ends with a
+stakeholder choice, not just a ranked customer list.
 
 [Nikola Maksimovic]({{ '/people/nikolamaksimovic/' | relative_url }}) gives the
 clearest direct RFM reference in the podcast discussions. His team ran "a big
@@ -71,12 +71,12 @@ RFM is a simpler segmentation form of that question: recent high-frequency
 customers and formerly high-value inactive customers shouldn't be treated as
 the same population.
 
-## Guest Disagreements
+## Segments, Causality, and Intervention
 
-Guests differ on how far to take RFM before moving to more causal or predictive
-methods. Maksimovic's example treats RFM as an analytics and product insight
-project. The team compared options, presented findings, and used the work beside
-product analytics and KPI decisions
+Podcast guests draw the boundary around RFM in different places. Maksimovic's
+example treats RFM as an analytics and product insight project. The team
+compared options, presented findings, and used the work beside product analytics
+and KPI decisions
 ([14:14-18:34 and 38:27-41:50]({{ '/podcasts/from-marketing-to-analytics-engineering-sql-dbt-career-switch/' | relative_url }})).
 That's the right scope when stakeholders need a shared segmentation language
 and a reusable customer mart.
@@ -89,8 +89,8 @@ to uplift modeling and treatment-control design. Costs and long-term retention
 matter in that design
 ([29:13-34:12]({{ '/podcasts/machine-learning-in-marketing-attribution-marketing-mix-modeling/' | relative_url }})).
 
-In that frame, RFM can be a baseline segmenter or feature set. It shouldn't
-substitute for an experiment when the question is whether an intervention caused
+In that framing, RFM can be a baseline segmenter or feature set. It can't
+replace an experiment when the team needs to know whether an intervention caused
 the return.
 
 [Jakob Graff]({{ '/people/jakobgraff/' | relative_url }}) adds the product
@@ -125,8 +125,8 @@ Those choices connect RFM to [dbt]({{ '/wiki/dbt/' | relative_url }}) and
 connect it to
 [business intelligence]({{ '/wiki/business-intelligence/' | relative_url }}).
 
-These links matter because RFM is only reusable when teams agree on the same
-customer/account/user grain. They also need shared event and value definitions.
+Teams can reuse RFM only when they agree on the same customer/account/user
+grain. They also need shared event and value definitions.
 
 Maksimovic's team used Snowplow for tracking and dbt for transformation. The
 same stack used Looker for reporting. Redshift/S3 handled analytical storage.
@@ -141,8 +141,9 @@ support campaign readouts or customer lists.
 [Arpit Choudhury]({{ '/people/arpitchoudhury/' | relative_url }}) gives the
 growth-stack version. He says a warehouse stores large structured data where
 teams create models, clean data, and analyze it in BI. He also describes
-warehouse-centric product analytics and reverse ETL. Teams can send cleaned
-warehouse data to sales and marketing tools, or to support and engagement tools
+warehouse-centric product analytics and
+[reverse ETL]({{ '/wiki/reverse-etl/' | relative_url }}). Teams can send
+cleaned warehouse data to sales, marketing, support, and engagement tools
 ([35:56-41:30]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }})).
 
 For RFM, start by building the segment in the warehouse and exposing it to BI
@@ -223,8 +224,10 @@ as well as product analytics. The method is easy for stakeholders to understand,
 but the implementation depends on analytical modeling.
 
 Choudhury extends that stakeholder path beyond dashboards. Once event or product
-data is available in activation tools, teams can use it for email, support, and
-sales. They can also use it for engagement and personalized product experiences.
+data is available through
+[data activation]({{ '/wiki/data-activation/' | relative_url }}), teams can use
+it for email, support, and sales. They can also use it for engagement and
+personalized product experiences.
 
 He gives examples where support sees what users did in the product. Sales can
 reach accounts with meaningful product activity. Engagement teams can personalize

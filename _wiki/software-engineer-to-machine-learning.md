@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Software Engineer to Machine Learning"
-summary: "Podcast-backed transition notes for software engineers moving into machine learning through project work, ML evaluation, production systems, MLOps, and role targeting."
+summary: "A transition path for software engineers moving into machine learning through project work, ML evaluation, production systems, MLOps, and role targeting."
 related:
   - Career Transition
   - Software Engineering
@@ -33,19 +33,20 @@ larger software system. That system needs requirements, data workflows,
 monitoring, and documentation. Testing and team alignment matter too
 ([6:58-13:52]({{ '/podcasts/software-engineering-for-machine-learning/' | relative_url }})).
 
-That makes this page a sibling of
-[Career Transition]({{ '/wiki/career-transition/' | relative_url }}),
-[Machine Learning Engineer Role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }}),
+For adjacent transition context, see
+[Career Transition]({{ '/wiki/career-transition/' | relative_url }}) and
+[Machine Learning Engineer Role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }}).
+For project scope, see
 [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}),
-and [Notebook to Production AI Systems]({{ '/wiki/notebook-to-production-ai-systems/' | relative_url }}).
-It also connects to [MLOps]({{ '/wiki/mlops/' | relative_url }}).
+[Notebook to Production AI Systems]({{ '/wiki/notebook-to-production-ai-systems/' | relative_url }}),
+and [MLOps]({{ '/wiki/mlops/' | relative_url }}).
 
-## Common Definition
+## From Software Reliability to ML Lifecycle
 
-Across these episodes, the common definition is "software engineering plus ML
-lifecycle ownership." The engineer's prior strengths still matter. Code and
-debugging transfer into experiments. APIs and services transfer into inference
-paths. Tests remain useful.
+In these discussions, the move from software engineering to machine learning is
+less a career reset than an expansion of ownership. The engineer's prior
+strengths still matter. Code and debugging transfer into experiments. APIs and
+services transfer into inference paths. Tests remain useful.
 
 Containers, cloud, and monitoring become useful when
 the target system includes a model.
@@ -78,11 +79,12 @@ That's why the transition usually targets
 [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
 before it targets research-heavy roles.
 
-## Guest Differences
+## Transition Routes
 
-Guests differ on the most natural first destination. Santiago's path is the
-hands-on ML engineering route, with practical ML tools and project work before
-deployment. APIs, Docker, cloud, and monitoring appear in the same roadmap
+The first destination depends on the engineer's background and target role.
+Santiago's path is the hands-on ML engineering route, with practical ML tools
+and project work before deployment. APIs, Docker, cloud, and monitoring appear
+in the same roadmap
 ([42:08-51:21]({{ '/podcasts/from-software-engineer-to-machine-learning/' | relative_url }})).
 That route fits backend, full-stack, and application engineers who want to ship
 model-backed product features.

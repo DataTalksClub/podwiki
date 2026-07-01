@@ -9,7 +9,7 @@ related:
   - Career Growth
 ---
 
-## Definition
+## Community as Shared Practice
 
 Community building is the work of helping people with a shared technical
 interest keep showing up and helping each other. DataTalks.Club guests connect
@@ -26,20 +26,21 @@ separates an audience from a community. A founder can publish talks, but a
 community starts to matter when members answer each other and propose
 initiatives without waiting for the founder.
 
-## Common Definition
+## Niche, Cadence, Safety, and Contribution
 
-Across the community episodes, the common definition has four parts. A group
-needs a clear niche, a repeatable format, a safe place to participate, and
-visible paths from attendee to contributor.
+The community episodes return to four recurring requirements. A group needs a
+clear niche, a repeatable format, a safe place to participate, and visible
+paths from attendee to contributor.
 
 [the DataTalks.Club founder]({{ '/people/alexeygrigorev/' | relative_url }})
 describes the niche and format side in
 [DataTalks.Club Behind the Scenes]({{ '/podcasts/datatalksclub-building-scaling-data-community/' | relative_url }}).
 At 9:36, he explains why DataTalks.Club started. At 10:05, he ties early
-forums and a landing page into a lightweight launch path. He also covers first
-events.
+forums and a landing page into a lightweight launch path. At 20:22, he covers
+planning and scheduling, including Eventbrite and automation.
 
-At 20:22, he covers planning and scheduling, plus Eventbrite and automation.
+The early community work isn't only promotion. It's the repeated operational
+work that makes people know when and where to participate.
 
 [the founder]({{ '/people/alexeygrigorev/' | relative_url }}) and
 [the anniversary interviewer]({{ '/people/johannabayer/' | relative_url }})
@@ -55,33 +56,33 @@ learners move through
 [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), and
 [MLOps]({{ '/wiki/mlops/' | relative_url }}) material.
 
-## Guest Differences
+## Different Centers of Gravity
 
-Guests agree that community work needs consistency, but they place the center
-of gravity in different places.
+The guests agree that community work needs consistency, but they use different
+systems for sustaining that consistency.
 
 [Demetrios Brinkmann]({{ '/people/demetriosbrinkmann/' | relative_url }})
 emphasizes member activation in
 [MLOps Community Playbook]({{ '/podcasts/mlops-community-building-and-meetups/' | relative_url }}).
 At 10:41, he discusses speaker recruiting, and at 27:25 he covers advisory
 groups. At 50:51 and 55:04, he moves into member connections and sprints. His
-version of community building is an operating system for peer-to-peer
-participation.
+version of community building gives members structured ways to meet, propose
+work, and become responsible for parts of the community.
 
 [the DataTalks.Club founder]({{ '/people/alexeygrigorev/' | relative_url }})
 emphasizes course scale and durable learning in
 [Inside Scaling DataTalks.Club]({{ '/podcasts/datatalksclub-scaling-and-free-courses/' | relative_url }}).
 At 8:13, he connects organic growth of Data Engineering Zoomcamp to the
 free-to-learn mission at 12:04. At 26:43, he discusses course-platform work,
-and at 36:37 he discusses community longevity. In this framing, the community
-is a learning platform, an events program, and a network of people who teach.
+and at 36:37 he discusses community longevity. DataTalks.Club treats community
+as a learning platform, an events program, and a network of people who teach.
 
 [Will Russell]({{ '/people/willrussell/' | relative_url }}) centers community
 building on developer enablement in
 [Developer Advocacy Through Community Impact]({{ '/podcasts/practical-devrel-demofirst-education-and-open-source/' | relative_url }}).
 At 11:46, he connects hackathons to Git, teamwork, and project building. At
-35:43, he explains the mentorship model for contributing to large repositories.
-That makes the episode useful for
+35:43, he explains the mentorship model for contributing to large repositories,
+which links community building to
 [open source]({{ '/wiki/open-source/' | relative_url }}) and
 [contributing]({{ '/wiki/contributing/' | relative_url }}).
 
@@ -103,9 +104,8 @@ links the course portfolio at 5:07 to product work behind scaled courses at
 [teaching]({{ '/wiki/teaching/' | relative_url }}),
 [data engineering learning paths]({{ '/wiki/data-engineering-roadmap/' | relative_url }}),
 and course design.
-A course can attract people. The community makes the course easier to finish
-because learners can ask questions and see other people working through the
-same material.
+A course can attract people, but the community helps learners finish because
+they can ask questions and see other people working through the same material.
 
 ## Community Operations
 
@@ -143,8 +143,7 @@ bridge in
 [Developer Advocacy Through Community Impact]({{ '/podcasts/practical-devrel-demofirst-education-and-open-source/' | relative_url }}).
 At 12:16, he describes open-source education programs as a path to full-time
 developer advocacy. At 39:02, he discusses pull-request quality and Git skills.
-At 49:14, he frames developer advocacy through documentation, demos, and
-outreach.
+At 49:14, he connects developer advocacy to documentation, demos, and outreach.
 
 The same logic applies to DataTalks.Club formats. In
 [DataTalks.Club Behind the Scenes]({{ '/podcasts/datatalksclub-building-scaling-data-community/' | relative_url }}),
@@ -182,7 +181,7 @@ Week participants at 51:38. At 53:46, he mentions competitions and future
 hackathons. Community building becomes easier to sustain when participation has
 specific forms.
 
-## Related Pages
+## Adjacent Community Topics
 
 For the broader concept, see
 [Community]({{ '/wiki/community/' | relative_url }}). For company-backed

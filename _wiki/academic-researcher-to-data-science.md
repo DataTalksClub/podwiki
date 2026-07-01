@@ -42,20 +42,21 @@ That places the topic inside
 [Career Transitions in Data]({{ '/wiki/career-transitions-in-data/' | relative_url }}),
 and [Notebook to Production AI Systems]({{ '/wiki/notebook-to-production-ai-systems/' | relative_url }}).
 
-## Common Definition
+## Turning Research Work into Industry Evidence
 
-Academic researchers have to prove that their research already contains useful
-data work and that they can learn the missing industry stack. They also need to
-map the story to a specific role.
+Academic researchers usually don't need to discard their research history. They
+need to show that the research already contains useful data work. They also need
+to name the missing industry stack honestly and map the story to a specific
+role.
 
 CJ rewrote a six-page academic CV into a skills-first resume. She moved
 education and publications out of the lead position. She then used recruiter
 feedback and LinkedIn skill terms across about 14 iterations
 ([CV rewrite discussion at 17:14-22:46]({{ '/podcasts/postdoc-to-data-science-lead-career-transition/' | relative_url }})).
 
-Guests describe translation rather than reinvention. For CJ, translation starts
-with genomics text files and Bash processing. It also includes data cleaning,
-statistics, and generalized linear models
+The shared move is translation rather than reinvention. For CJ, translation
+starts with genomics text files and Bash processing. It also includes data
+cleaning, statistics, and generalized linear models
 ([genomics and GLM discussion at 3:16-6:10]({{ '/podcasts/postdoc-to-data-science-lead-career-transition/' | relative_url }})).
 
 [Anastasia Karavdina]({{ '/people/anastasiakaravdina/' | relative_url }})
@@ -76,10 +77,10 @@ need reproducibility, code review, and deployment. They also need engineering
 habits that turn models into maintainable systems
 ([research-to-production discussion at 23:32-39:08 and 44:36-46:57]({{ '/podcasts/research-to-production-ml-systems-roadmap/' | relative_url }})).
 
-## Guest Disagreements
+## Data Science, Data Engineering, or Applied ML
 
-Guests disagree less about whether academic work transfers and more about which
-industry role the work should target. CJ's path fits the
+The role target depends on which part of the research work gives the clearest
+industry signal. CJ's path fits the
 [data scientist role]({{ '/wiki/data-scientist-role/' | relative_url }}) because
 her research background maps to statistics, experiments, and credit-risk
 modeling
@@ -89,13 +90,13 @@ toward applied ML and data engineering because MEERKAT work depends on source
 detection, catalog cross-matching, and curated datasets. His later project work
 adds cloud notebooks, Spark, and warehouse pipelines
 ([radio-astronomy-to-data-engineering discussion at 10:39-26:58 and 42:48-45:15]({{ '/podcasts/from-radio-astronomy-to-machine-learning-and-data-engineering/' | relative_url }})).
-That boundary connects to
+The boundary between these targets connects to
 [Data Engineer vs Data Scientist]({{ '/comparisons/data-engineer-vs-data-scientist/' | relative_url }})
 and
 [Machine Learning Engineer vs Data Scientist]({{ '/comparisons/machine-learning-engineer-vs-data-scientist/' | relative_url }}).
 
-Some guests focus on consulting or open-source proof instead of the classic
-data-scientist funnel. [Orell Garten]({{ '/people/orellgarten/' | relative_url }})
+Some transitions point toward consulting or open-source proof instead of the
+classic data-scientist funnel. [Orell Garten]({{ '/people/orellgarten/' | relative_url }})
 turns simulation research into problem discovery and MVP feedback. Custom ETL
 and industrial data integration matter in that path
 ([research-to-consulting discussion at 9:42-23:00 and 34:22-43:27]({{ '/podcasts/from-academic-research-to-data-engineering-freelancing/' | relative_url }})).

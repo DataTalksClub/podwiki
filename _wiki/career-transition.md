@@ -31,7 +31,7 @@ bridge between
 [Job Search]({{ '/wiki/job-search/' | relative_url }}), and
 [Hiring]({{ '/wiki/hiring/' | relative_url }}).
 
-## Common Definition
+## Making Prior Experience Legible
 
 Across these interviews, a career transition means making prior experience legible
 for a target role. In
@@ -65,7 +65,7 @@ returns from a seven-year break by reusing software and telecom experience in
 an ML capstone. Her hiring evidence includes a GitHub portfolio, a deployed
 project, and a RAG take-home assignment.
 
-## Guest Differences
+## Routes Differ by Starting Point
 
 No guest presents one universal route. Formal education helps in
 some stories and is optional in others. In
@@ -238,9 +238,10 @@ For these routes,
 and [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
 matter more than tutorial completion alone.
 
-## Related Pages
+## Adjacent Routes
 
-Use these pages for adjacent routes, hiring context, and portfolio evidence:
+Career transition overlaps with role-specific paths, hiring signals, and
+portfolio evidence:
 
 - [Career Transitions in Data]({{ '/wiki/career-transitions-in-data/' | relative_url }})
 - [Career Growth]({{ '/wiki/career-growth/' | relative_url }})

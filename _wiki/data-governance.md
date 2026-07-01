@@ -33,29 +33,29 @@ remove that data.
 the access-management version in
 [Data Governance and Data Access Management]({{ '/podcasts/data-governance-data-access-management/' | relative_url }}).
 At 5:20, he defines governance as the activities that create trust in data for
-analysts, data scientists, and customers. This makes governance an operating
-practice, not a documentation project.
-That trust boundary also applies to
+analysts, data scientists, and customers. In that framing, teams govern data
+through operating practice, not through documentation alone.
+The same trust boundary applies to
 [Business Intelligence]({{ '/wiki/business-intelligence/' | relative_url }}),
 where dashboards, metrics, and AI-assisted answers can expose governed data to
 many more users.
 
-## Common Definition
+## Usable Data With Controlled Risk
 
-The common definition in these episodes is practical. Data governance makes
-data usable and safe at the same time. Teams classify data, assign ownership,
-and document meaning. They expose lineage, design access rules, review usage,
-and measure quality. People can then find the right data and judge whether it
-supports a decision without creating avoidable privacy, security or compliance
-risk.
+Across these episodes, data governance means making data usable and safe at the
+same time. Teams classify data, assign ownership, and document meaning. They
+expose lineage, design access rules, review usage, and measure quality. People
+can then find the right data and judge whether it supports a decision without
+creating avoidable privacy, security, or compliance risk.
 
 In [Cloud Data Governance]({{ '/podcasts/cloud-data-governance/' | relative_url }}),
 Jessi and Uri describe governance as people, processes, and tools at 14:04.
 At 15:33, they move from that definition into classification and policy. At
 23:00, they say the team should start with the reason for governance.
 
-Regulation and privacy are common reasons. Exfiltration risk, analytics
-enablement, trust, and cost control can matter too. That connects governance to
+Regulation and privacy are common reasons to govern data. Exfiltration risk,
+analytics enablement, trust, and cost control can matter too. That connects
+governance to
 [data strategy]({{ '/wiki/data-strategy/' | relative_url }})
 because the right controls depend on why the data matters.
 
@@ -64,14 +64,14 @@ In [Data Governance and Data Access Management]({{ '/podcasts/data-governance-da
 he separates catalogs, dictionaries, and lineage at 8:58. He then moves into
 access controls at 11:20 and ownership models at 13:34.
 
-At 27:49, Bart covers the access process from request to approval, review, and
+At 27:49, Bart covers the access path from request to approval, review, and
 revocation. For him, governance becomes real when people can request access for
 a stated purpose and the team can later review or remove that access.
 
-## Guest Differences
+## Inventory, Access, Domain, and Privacy Starting Points
 
-Guests agree that governance should create trust, but they start from different
-failure modes.
+The podcast discussions converge on trust, but each guest reaches it from a
+different data governance failure mode.
 
 Jessi Ashdown and Uri Gilad start with the inventory problem. Their cloud
 governance episode asks what data exists and where it lives. It also asks how
@@ -96,8 +96,8 @@ systems and informal permission handling no longer works.
 different organizational problem in
 [Data Mesh Implementation]({{ '/podcasts/data-mesh-architecture-decentralized-data-products/' | relative_url }}).
 At 49:25, she describes federated governance as shared policies with automated
-enforcement across domain-owned data products. This view keeps governance close
-to [Data Mesh]({{ '/wiki/data-mesh/' | relative_url }}). Domains can own data
+enforcement across domain-owned data products. That places governance close to
+[Data Mesh]({{ '/wiki/data-mesh/' | relative_url }}). Domains can own data
 products, but shared primitives still cover identity and authorization. They
 also cover metadata, retention, and validation.
 
@@ -110,8 +110,8 @@ boundary toward privacy risk in
 [Data Privacy Engineering, GDPR, and Machine Learning]({{ '/podcasts/data-privacy-engineering-gdpr-machine-learning/' | relative_url }}).
 At 22:38, she discusses the translation work between legal and technical teams.
 At 47:00, she connects privacy to consent, data minimization, and workflow
-practices. Her framing matters when governance choices decide whether data
-should be collected or centralized at all.
+practices. Her privacy framing matters when a team uses governance to decide
+whether data should be collected or centralized at all.
 
 ## Inventory, Classification, and Policy
 
@@ -258,7 +258,7 @@ oversight. That belongs on
 but it also matters here. Teams still need to review governed data when they use it to
 make or automate decisions about people.
 
-## Related Pages
+## Related Data Governance Topics
 
 Use these pages for adjacent governance concepts:
 

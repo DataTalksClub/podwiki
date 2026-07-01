@@ -36,23 +36,24 @@ title boundary, use
 and
 [Data Product Owner vs Data Product Manager]({{ '/comparisons/data-product-owner-vs-data-product-manager/' | relative_url }}).
 
+## From Design Discovery to Data Product Ownership
+
 Sara's design background mattered because product design already included
-requirements, user research, and user testing. It also included customer
-expectations, interface work, and iteration. In
-[Sara Menefee's product-design description at 5:23]({{ '/podcasts/product-designer-to-data-product-manager/' | relative_url }}),
-she says strong product designers care deeply about solving customer problems.
+requirements and research. It also covered user testing plus customer
+expectations and interface iteration.
+[Sara Menefee's product-design description at 5:23]({{ '/podcasts/product-designer-to-data-product-manager/' | relative_url }})
+says strong product designers care deeply about solving customer problems.
 That becomes a bridge into data PM work when the customer is a data
-professional. The product can be a data platform, dashboard, workflow, or
+professional. The product might be a data platform, dashboard, workflow, or
 data-backed application.
 
-## Common Definition
-
-Product designer to data product manager means using design discovery as the
-entry point into data-product ownership. The designer already knows how to ask
-about user pain. They can prototype a direction and test whether a proposed
-experience solves a problem. In the data PM role, they connect that discovery
-to data lifecycle decisions. They also account for quality constraints,
-metrics, and engineering tradeoffs.
+The transition starts by using design discovery as the entry point into
+data-product ownership. The designer already knows how to ask about user pain.
+They can prototype a direction and test whether a proposed experience solves a
+problem.
+In the data PM role, that discovery has to connect to data lifecycle decisions.
+It also has to account for quality constraints, metrics, and engineering
+tradeoffs.
 
 Sara defines data PM work in
 [her customer-discovery explanation at 7:09]({{ '/podcasts/product-designer-to-data-product-manager/' | relative_url }}):
@@ -84,12 +85,14 @@ connect the role to
 [data engineering]({{ '/wiki/data-engineering/' | relative_url }}), and
 [data governance]({{ '/wiki/data-governance/' | relative_url }}).
 
-## Guest Disagreements
+## Choose the Right Center of Gravity
 
-Guests agree that data product managers need discovery and technical literacy,
-but they put the center of gravity in different places. Sara centers empathy
-and customer development. Other guests focus on internal platforms, adoption,
-role boundaries, or roadmap discipline.
+The DataTalks.Club discussions agree that data product managers need discovery
+and technical literacy. They differ on where the center of gravity belongs.
+Sara centers empathy and customer development. Other guests focus on internal
+platforms, adoption, role boundaries, or roadmap discipline. Product designers
+can use that difference to identify which version of data PM work the target
+team needs before shaping the portfolio or first role.
 
 Sara centers discovery and empathy. At
 [Sara Menefee's traits discussion at 24:44]({{ '/podcasts/product-designer-to-data-product-manager/' | relative_url }}),

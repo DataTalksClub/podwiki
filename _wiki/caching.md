@@ -12,9 +12,9 @@ related:
 
 Caching is the reuse of already computed work so an AI or data system can avoid
 doing the same expensive step on every request. In the DataTalks.Club podcast
-discussions, the clearest example is prompt caching for LLM systems. Teams reuse the stable
-part of a prompt or model computation so repeated calls can cost less and
-respond faster. That sits beside
+discussions, the clearest example is prompt caching for LLM systems. When many
+calls share the same prompt prefix or model computation, teams can reduce
+per-request cost and latency. Guests discuss caching alongside
 [prompt engineering]({{ '/wiki/prompt-engineering/' | relative_url }}),
 [LLM production patterns]({{ '/wiki/llm-production-patterns/' | relative_url }}),
 and [AI infrastructure]({{ '/wiki/ai-infrastructure/' | relative_url }}).
@@ -23,36 +23,12 @@ and [AI infrastructure]({{ '/wiki/ai-infrastructure/' | relative_url }}).
 main podcast discussion in
 [Production AI Engineering]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }}).
 At 28:16-31:45, he moves from examples and prompt evaluation to prompt
-compression and prompt caching. The sequence matters: caching isn't a magic
-quality fix. Teams can use it after they understand which prompt content helps.
+compression and prompt caching. He treats caching as a later efficiency tactic,
+not a magic quality fix. Teams can use it after they understand which prompt content helps.
 They also need to know which examples justify their token cost and what the
 expected output should look like.
 
-## Starting Points
-
-Start with these podcast discussions:
-
-- [Production AI Engineering]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }})
-  with [Bartosz Mikulski]({{ '/people/bartoszmikulski/' | relative_url }}) for
-  prompt examples and evaluation, then compression and prompt caching at
-  25:13-33:29.
-- [Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }})
-  with [Meryem Arik]({{ '/people/meryemarik/' | relative_url }}) for model
-  compression and serving efficiency at 25:26, then hardware, latency, and cost
-  at 51:35-52:57.
-- [Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }})
-  with [Ranjitha Kulkarni]({{ '/people/ranjithakulkarni/' | relative_url }})
-  for context engineering and RAG preprocessing at 28:17-36:41. Her 30:27
-  chapter names latency and cost.
-
-For adjacent synthesis, use
-[AI Engineering]({{ '/wiki/ai-engineering/' | relative_url }}) and
-[AI Tooling]({{ '/wiki/ai-tooling/' | relative_url }}). Use
-[Production]({{ '/wiki/production/' | relative_url }}) and the article on
-[LLM tools]({{ '/guides/llm-tools/' | relative_url }}) for the operational
-side.
-
-## Common Definition
+## Reusing Stable Computation
 
 DataTalks.Club guests use caching as an efficiency tactic, not as a separate AI
 discipline. Teams cache when the same stable input appears across requests. The
@@ -77,6 +53,23 @@ memory.
 Bartosz supports the product-level technique, but he doesn't claim one universal
 provider implementation.
 
+Two adjacent podcast discussions place caching inside broader production
+decisions. In
+[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}),
+[Meryem Arik]({{ '/people/meryemarik/' | relative_url }}) discusses model
+compression and serving efficiency at 25:26. At 51:35-52:57, she turns to
+hardware, latency, and cost.
+
+In
+[Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}),
+[Ranjitha Kulkarni]({{ '/people/ranjithakulkarni/' | relative_url }}) explains
+context engineering and RAG preprocessing at 28:17-36:41. Her 30:27 chapter
+names latency and cost as reasons to reduce context before an LLM call. Together,
+these episodes connect caching to [AI engineering]({{ '/wiki/ai-engineering/' | relative_url }}),
+[AI tooling]({{ '/wiki/ai-tooling/' | relative_url }}), and
+[production]({{ '/wiki/production/' | relative_url }}) work rather than to a
+standalone cache layer.
+
 ## Prompt Caching and Model Efficiency
 
 Prompt caching matters when many requests share a long prefix. Coding assistants
@@ -87,8 +80,9 @@ also cost less
 ([Production AI Engineering]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }}),
 31:45-33:29).
 
-This connects directly to [AI engineering]({{ '/wiki/ai-engineering/' | relative_url }})
-because the engineer chooses prompt structure, examples, and context boundaries.
+Prompt caching connects directly to
+[AI engineering]({{ '/wiki/ai-engineering/' | relative_url }}) because the
+engineer chooses prompt structure, examples, and context boundaries.
 At 25:13-28:16 in
 [Production AI Engineering]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }}),
 Bartosz explains in-context learning through examples and JSON formatting. At
@@ -108,7 +102,7 @@ Caching needs a prompt or context layout that creates reusable prefixes.
 
 Caching belongs in the application and serving path around the model.
 
-It can sit in three layers:
+Teams use it in three layers:
 
 - [AI tooling]({{ '/wiki/ai-tooling/' | relative_url }}) when a team uses
   provider prompt caching or prompt templates.
@@ -142,15 +136,15 @@ and wrappers. They can then cache stable retrieval results or stable context
 blocks when the product can tolerate their freshness rules.
 
 For data systems, Bartosz's testing sequence implies a guardrail: cache only
-after correctness is visible. He starts the same production AI episode with data trust,
-snapshot tests, integration tests, and testing tools at 9:05-13:14. That order
-keeps caching from hiding bad inputs.
+after correctness is visible. He starts the same production AI episode with data
+trust, snapshot tests, integration tests, and testing tools at 9:05-13:14. Teams
+that test first are less likely to let caching hide bad inputs.
 
 If a data pipeline or AI feature caches intermediate results, teams still need
 tests around the source data. They also need monitoring for the cached value and
 the decision that consumes it.
 
-## Guest Tradeoffs
+## Optimization Tradeoffs Across Layers
 
 Guests agree that efficiency work must serve the product rather than the
 benchmark. Bartosz starts from prompt behavior and evaluation. Meryem starts
@@ -188,20 +182,21 @@ stabilizes common paths. Without a freshness rule, the same cache can serve
 stale or wrong context.
 
 Bartosz, Ranjitha, and Meryem support a practical rule: make cost and latency
-visible before optimizing. Bartosz ties prompt examples to cost at 29:33 and evaluation at
-30:00 in
+visible before optimizing. Bartosz ties prompt examples to cost at 29:33 and
+evaluation at 30:00 in
 [Production AI Engineering]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }}).
 Ranjitha ties long context to latency, cost, and noisy outputs at 30:27 in
 [Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}).
 Meryem ties deployment choices to hardware, cost, and performance at 51:35 in
 [Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}).
 
-That makes caching a production control rather than a shortcut. A useful cache
-has a clear unit of reuse, a freshness boundary, and evaluation that shows the
-cached path still produces acceptable results. Without those, caching can make a
-bad AI system cheaper and faster without making it more dependable.
+Together, these discussions treat caching as a production control rather than a
+shortcut. A useful cache has a clear unit of reuse, a freshness boundary, and
+evaluation that shows the cached path still produces acceptable results. Without
+those, caching can make a bad AI system cheaper and faster without making it
+more dependable.
 
-## See Also
+## Related Pages
 
 These pages extend the caching discussion into production LLM systems, tooling,
 and infrastructure:

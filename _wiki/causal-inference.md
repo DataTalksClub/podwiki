@@ -11,15 +11,14 @@ related:
   - Machine Learning
 ---
 
-## Definition
+## Interventions and Counterfactuals
 
-Causal inference is the practice of estimating what changes because a team
-intervenes. The intervention can be a product launch, a marketing campaign, or a
-pricing change. It can also be a recommender update, a churn treatment, or a
-policy change. It's different from ordinary
-[machine learning]({{ '/wiki/machine-learning/' | relative_url }}) prediction
-because the model result can change the behavior that creates the next data
-point.
+Causal inference estimates what would change if a team intervened. The
+intervention can be a product launch, a marketing campaign, or a pricing
+change. It can also be a recommender update, a churn treatment, or a policy
+change. That makes causal inference different from ordinary
+[machine learning]({{ '/wiki/machine-learning/' | relative_url }}) prediction:
+the model result can change the behavior that creates the next data point.
 
 In
 [Causal Inference for Real-World ML]({{ '/podcasts/causal-inference-for-machine-learning/' | relative_url }}),
@@ -29,10 +28,18 @@ causation. Around 12:41 and 15:36, he uses prediction, marketing, and
 recommendation examples to show why a team often needs a counterfactual answer.
 The team needs to know what would have happened under another action.
 
-## Common Definition
+Causal inference therefore sits next to
+[experimentation and causal inference]({{ '/wiki/experimentation-and-causal-inference/' | relative_url }}),
+[A/B testing]({{ '/wiki/a-b-testing/' | relative_url }}), and
+[product analytics]({{ '/wiki/product-analytics/' | relative_url }}). Each
+field has to separate a change caused by the team from the baseline that would
+have happened anyway.
 
-Guests describe causal inference as decision support under intervention. They
-use different vocabulary, but they keep returning to the same structure.
+## Treatment Effects and Decision Support
+
+Molak, Graff, and Orduz describe causal inference as decision support under
+intervention. They use different vocabulary, but they keep returning to the
+same structure.
 
 A causal inference problem needs these pieces:
 
@@ -57,10 +64,10 @@ randomly assign people, expose one group to the change, keep another as control,
 and compare outcomes. Around 11:48, he frames the goal as causality in a noisy
 product environment.
 
-## Guest Disagreements
+## Practice Boundaries
 
-The guests mostly agree on the goal, but they differ on where causal inference
-should start.
+The guests mostly agree that causal inference should support a decision, but
+they start from different operating constraints.
 
 Molak starts from causal structure. Around 26:16 in the causal ML episode, he
 explains that unconfoundedness can come from randomized treatment assignment or
@@ -88,7 +95,7 @@ Around 16:02 and 23:16, she discusses parallel experiments, proofs of concept,
 and design sprints. These aren't always causal estimates, but they reduce
 uncertainty before a team invests in a full AI or ML product.
 
-## Observational Data
+## Observational Data and Confounding
 
 Observational data is useful when a randomized experiment is unavailable. It's
 also useful when randomization would be expensive, unethical, or too slow. It
@@ -110,7 +117,7 @@ before converting. Around 10:18, he describes multi-channel journeys. Around
 quality of user-level tracking data. That pushes teams toward aggregate models,
 stronger assumptions, and clearer communication with stakeholders.
 
-## Experimentation
+## Randomized Product Experiments
 
 Teams get cleaner causal evidence from randomized experimentation when the
 product and ethics allow it. Randomization makes treatment independent of user
@@ -134,7 +141,7 @@ test with broken assignment or unclear triggering can still produce a p-value.
 The same is true for a test with a proxy metric that nobody trusts, but it
 won't settle the rollout decision.
 
-## Machine Learning Decisions
+## Treatment-Aware Machine Learning
 
 Causal inference changes ML work when the model output triggers an action. A
 churn model predicts who may leave, while an uplift model asks who stays because
@@ -158,13 +165,13 @@ A/B tests, causality, and human labels. This is where
 [machine learning system design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
 meet causal thinking.
 
-## Product Decisions
+## Product Decisions Under Uncertainty
 
 Product teams use causal inference when they need to know whether a feature or
 policy caused an outcome. Pricing changes, onboarding steps, and AI behaviors
-raise the same question. This overlaps with
-[product analytics]({{ '/wiki/product-analytics/' | relative_url }}) because the
-work depends on event tracking and metric definitions. It also depends on
+raise the same question. Product teams also need
+[product analytics]({{ '/wiki/product-analytics/' | relative_url }}) because
+causal claims depend on event tracking and metric definitions. Teams also need
 cohorts, guardrails, and stakeholder decisions.
 
 Graff's episode shows the controlled product experiment path. Teams define the

@@ -25,8 +25,8 @@ engineering into industry data science in
 [From Collider Physics to Data Science]({{ '/podcasts/from-large-hadron-collider-to-data-science-research-software-engineering/' | relative_url }})
 at 11:15-24:31.
 
-The recurring question in these episodes is translation. Academic researchers often use
-[machine learning]({{ '/wiki/machine-learning/' | relative_url }}),
+The recurring question in these episodes is translation. Academic researchers
+often use [machine learning]({{ '/wiki/machine-learning/' | relative_url }}),
 [data engineering]({{ '/wiki/data-engineering/' | relative_url }}), and
 [software engineering]({{ '/wiki/software-engineering/' | relative_url }})
 before those names appear on a resume. Industry teams then need the evidence in
@@ -39,10 +39,10 @@ That's why this page overlaps with
 [Career Transition]({{ '/wiki/career-transition/' | relative_url }}), and
 [Notebook to Production AI Systems]({{ '/wiki/notebook-to-production-ai-systems/' | relative_url }}).
 
-## Common Definition
+## Academic Training as Data Practice
 
 Across these episodes, academia trains research judgment and data practice. It
-isn't just a credential. Guests describe messy data and experiments as the
+isn't only a credential. Guests describe messy data and experiments as the
 substance of the work. They also describe literature review, coding practice,
 and written collaboration.
 
@@ -56,11 +56,10 @@ frames Eleni Tzirita Zacharatou's postdoc work through research, mentoring,
 teaching, and reviewing at 5:56-11:33. She connects systems work to industry
 engagement at 23:08-28:30.
 
-The common bridge to industry is evidence translation. Research skill becomes
-easier to evaluate when it appears as a skills-first resume or reusable code.
-It can also appear as a deployed model, project story, interview example, or
-business context. CJ
-discusses rewriting a CV around skills and keywords at 17:14-20:40 in
+Research skill becomes easier to evaluate outside academia when it appears as a
+skills-first resume or reusable code. It can also appear as a deployed model,
+project story, interview example, or business context. CJ discusses rewriting a
+CV around skills and keywords at 17:14-20:40 in
 [From Postdoc to Data Science Lead]({{ '/podcasts/postdoc-to-data-science-lead-career-transition/' | relative_url }}).
 
 Tatiana Gabruseva makes the senior version of the same argument in
@@ -68,9 +67,9 @@ Tatiana Gabruseva makes the senior version of the same argument in
 At 14:41-25:30, she translates academic leadership and grants into industry
 impact. She also uses applied projects as evidence.
 
-## Guest Differences
+## Paths Through and Out of Academia
 
-Guests don't agree that leaving academia is the only useful outcome.
+The podcast discussions don't treat leaving academia as the only useful outcome.
 [Johanna Bayer]({{ '/people/johannabayer/' | relative_url }}) focuses on making
 academic work more reproducible. Her episode covers Git, beginner curricula,
 reproducible manuscripts, and research software engineering. It also covers
@@ -87,7 +86,8 @@ covered in
 at 2:19-9:42 and 19:34-23:00.
 
 The boundary isn't "academic rigor versus practical work." The question is
-whether the work has been converted into the expectations of its target setting.
+whether researchers convert the work into the expectations of its target
+setting.
 
 For research groups, Johanna's discussion points toward reproducible code,
 shareable methods, and safer collaboration.
