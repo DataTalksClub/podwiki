@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import sys
 from pathlib import Path
 from urllib.parse import parse_qs
@@ -54,6 +55,43 @@ def query_from_event(event: dict) -> str:
     return ""
 
 
+def normalize(value: object) -> str:
+    text = re.sub(r"[^a-z0-9]+", " ", str(value).lower())
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def all_tokens_match(tokens: list[str], value: str) -> bool:
+    return bool(tokens) and all(token in value for token in tokens)
+
+
+def rerank_results(query: str, results: list[dict]) -> list[dict]:
+    phrase = normalize(query)
+    tokens = [token for token in phrase.split() if len(token) > 1]
+
+    def bonus(result: dict) -> float:
+        title = normalize(result.get("title", ""))
+        segment_title = normalize(result.get("segment_title", ""))
+        related_terms = normalize(result.get("related_terms", ""))
+        document_type = str(result.get("document_type", ""))
+
+        value = 0.0
+        if phrase and phrase in title:
+            value += 200.0
+        if phrase and phrase in segment_title:
+            value += 120.0
+        if phrase and phrase in related_terms:
+            value += 80.0
+        if all_tokens_match(tokens, title):
+            value += 70.0
+        if all_tokens_match(tokens, related_terms):
+            value += 35.0
+        if document_type == "page" and all_tokens_match(tokens, f"{title} {related_terms}"):
+            value += 20.0
+        return value
+
+    return sorted(results, key=lambda item: (bonus(item), float(item.get("score", 0.0))), reverse=True)
+
+
 def lambda_handler(event: dict, context: object) -> dict:
     path = (event.get("rawPath") or event.get("path") or "/").rstrip("/")
     method = (
@@ -87,4 +125,5 @@ def lambda_handler(event: dict, context: object) -> dict:
         boost_dict={"title": 4.0, "segment_title": 3.0, "text": 1.0},
         num_results=20,
     )
+    results = rerank_results(query, results)
     return response(200, {"query": query, "results": results})
