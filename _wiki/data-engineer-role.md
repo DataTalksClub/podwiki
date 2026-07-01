@@ -277,3 +277,4 @@ and role boundaries.
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})
 - [DataOps vs Data Engineering]({{ '/comparisons/dataops-vs-data-engineering/' | relative_url }})
 - [DevOps to Data Engineering]({{ '/wiki/devops-to-data-engineering/' | relative_url }})
+- [Fundamentals of Data Engineering]({{ '/books/20220815-fundamentals-of-data-engineering/' | relative_url }})

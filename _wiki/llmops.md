@@ -111,7 +111,7 @@ At 30:00 Bartosz introduces prompt compression, creating a shorter prompt that
 does the same thing by dropping parts of words or reducing token count. At 31:45
 he discusses prompt caching, where providers like Anthropic cache the shared
 beginning of prompts so you do not resend the entire codebase every time. This
-makes coding tasks cheaper. These techniques connect to
+makes coding tasks cheaper. The [LLM Engineer's Handbook]({{ '/books/20241104-llm-engineer-s-handbook/' | relative_url }}) by Paul Iusztin and Maxime Labonne structures this same LLMOps stack end to end. These techniques connect to
 [LLM Cost Optimization]({{ '/wiki/llm-cost-optimization/' | relative_url }}) and
 [Caching]({{ '/wiki/caching/' | relative_url }}).
 

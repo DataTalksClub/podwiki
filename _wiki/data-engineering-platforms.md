@@ -146,6 +146,10 @@ discussion
 ([DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}),
 21:29-30:34 and 1:07:52).
 
+[Designing Data-Intensive Applications]({{ '/books/20210308-designing-data-intensive-applications/' | relative_url }})
+by Martin Kleppmann grounds these same storage and platform tradeoffs in the
+underlying distributed-systems principles.
+
 [Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }})
 updates that discussion with Iceberg and Delta Lake. He also covers catalogs,
 metadata, and lineage. Headless table formats are part of the same update

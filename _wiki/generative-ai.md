@@ -28,6 +28,9 @@ At 10:24, she separates generative models from non-generative models, and at
 generation tasks. That framing matters because not every AI product needs a
 generator. Some problems still fit classifiers, retrieval systems, or
 deterministic software better.
+[Build a Large Language Model (From Scratch)]({{ '/books/20241017-build-large-language-model-from-scratch/' | relative_url }})
+by Sebastian Raschka shows the internals of the transformer architectures that
+power these generative models.
 
 ## From Model Output to Product Systems
 

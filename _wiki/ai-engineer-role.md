@@ -68,6 +68,9 @@ Those concerns put the role beside
 [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}),
 [AI Tooling]({{ '/wiki/ai-tooling/' | relative_url }}), and
 [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }}).
+The [LLM Engineer's Handbook]({{ '/books/20241104-llm-engineer-s-handbook/' | relative_url }})
+by Paul Iusztin and Maxime Labonne lays out the same end-to-end AI engineering
+skill stack, from data pipelines through RAG, agents, and LLMOps.
 
 ## Moving Role Boundary
 

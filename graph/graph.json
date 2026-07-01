@@ -1,7 +1,7 @@
 {
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
-    "wikis": 222,
+    "wikis": 224,
     "articles": 61,
     "guides": 22,
     "comparisons": 23,
@@ -10,8 +10,8 @@
     "podcasts": 202,
     "persons": 438,
     "topics": 132,
-    "nodes": 1154,
-    "links": 13225
+    "nodes": 1156,
+    "links": 13278
   },
   "nodes": [
     {
@@ -9555,6 +9555,16 @@
       "search": "Astroinformatics and Scientific Data Pipelines Radio astronomy data pipelines as source detection, catalog cross matching, uncertainty checks, physics based verification, and transferable data engineering practice."
     },
     {
+      "id": "wiki:autonomous-driving-ai",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Autonomous Driving AI",
+      "title": "Autonomous Driving AI",
+      "url": "/wiki/autonomous-driving-ai/",
+      "count": 1,
+      "search": "Autonomous Driving AI How DataTalks.Club guests describe the autonomous driving AI pipeline: sensor tradeoffs, perception models, on vehicle inference, model compression, validation methodology, staged deployment, and the boundary between perception and reinforcement learning."
+    },
+    {
       "id": "wiki:bioinformatics-data-science",
       "type": "wiki",
       "collection": "wiki",
@@ -10947,6 +10957,16 @@
       "url": "/wiki/multi-agent-systems/",
       "count": 1,
       "search": "Multi Agent Systems How DataTalks.Club guests discuss multi agent systems through sequential flows, manager agent orchestration, peer collaboration, tool use, memory, evaluation, and guardrails."
+    },
+    {
+      "id": "wiki:multimodal-llms",
+      "type": "wiki",
+      "collection": "wiki",
+      "label": "Multimodal LLMs",
+      "title": "Multimodal LLMs",
+      "url": "/wiki/multimodal-llms/",
+      "count": 1,
+      "search": "Multimodal LLMs How DataTalks.Club guests discuss large language models that process text, images, video, and audio: architectures like CLIP, cross modal embeddings, autonomous driving applications, multimodal agent futures, and the deployment and evaluation challenges of running multimodal systems in production."
     },
     {
       "id": "wiki:nlp",
@@ -46220,6 +46240,12 @@
     },
     {
       "source": "wiki:ai-engineer-role",
+      "target": "book:20241104-llm-engineer-s-handbook",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineer-role",
       "target": "person:bartoszmikulski",
       "kind": "wiki-link",
       "weight": 1
@@ -46539,6 +46565,12 @@
     {
       "source": "wiki:ai-engineering",
       "target": "article:roadmap:ai-engineer-roadmap",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineering",
+      "target": "book:20241104-llm-engineer-s-handbook",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -50361,6 +50393,126 @@
     {
       "source": "wiki:astroinformatics-scientific-data-pipelines",
       "target": "wiki:machine-learning",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:autonomous-driving-ai",
+      "target": "person:aishwaryajadhav",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:autonomous-driving-ai",
+      "target": "person:pauliusztin",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:autonomous-driving-ai",
+      "target": "podcast:from-computer-vision-research-to-autonomous-driving-ai",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:autonomous-driving-ai",
+      "target": "podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:autonomous-driving-ai",
+      "target": "wiki:ai-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:autonomous-driving-ai",
+      "target": "wiki:ai-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:autonomous-driving-ai",
+      "target": "wiki:career-transition",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:autonomous-driving-ai",
+      "target": "wiki:computer-vision",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:autonomous-driving-ai",
+      "target": "wiki:computer-vision",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:autonomous-driving-ai",
+      "target": "wiki:deep-learning",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:autonomous-driving-ai",
+      "target": "wiki:deep-learning",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:autonomous-driving-ai",
+      "target": "wiki:llmops",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:autonomous-driving-ai",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:autonomous-driving-ai",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:autonomous-driving-ai",
+      "target": "wiki:model-optimization",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:autonomous-driving-ai",
+      "target": "wiki:model-optimization",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:autonomous-driving-ai",
+      "target": "wiki:multimodal-llms",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:autonomous-driving-ai",
+      "target": "wiki:multimodal-llms",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:autonomous-driving-ai",
+      "target": "wiki:production",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:autonomous-driving-ai",
+      "target": "wiki:production",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -55310,6 +55462,12 @@
     },
     {
       "source": "wiki:data-engineer-role",
+      "target": "book:20220815-fundamentals-of-data-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineer-role",
       "target": "person:16rahuljain",
       "kind": "wiki-link",
       "weight": 1
@@ -55575,6 +55733,12 @@
     {
       "source": "wiki:data-engineering",
       "target": "article:comparison:mlops-vs-dataops",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering",
+      "target": "book:20220815-fundamentals-of-data-engineering",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -56541,6 +56705,12 @@
     {
       "source": "wiki:data-engineering-platforms",
       "target": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-platforms",
+      "target": "book:20210308-designing-data-intensive-applications",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -58707,6 +58877,12 @@
     {
       "source": "wiki:data-pipelines",
       "target": "article:how_to:airflow-docker-compose",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-pipelines",
+      "target": "book:20220815-fundamentals-of-data-engineering",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -68834,6 +69010,12 @@
     },
     {
       "source": "wiki:generative-ai",
+      "target": "book:20241017-build-large-language-model-from-scratch",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:generative-ai",
       "target": "person:bartoszmikulski",
       "kind": "wiki-link",
       "weight": 1
@@ -72038,6 +72220,12 @@
     },
     {
       "source": "wiki:llm-production-patterns",
+      "target": "book:20241104-llm-engineer-s-handbook",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-production-patterns",
       "target": "person:adityagautam",
       "kind": "wiki-link",
       "weight": 1
@@ -72392,6 +72580,12 @@
     },
     {
       "source": "wiki:llmops",
+      "target": "book:20241104-llm-engineer-s-handbook",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llmops",
       "target": "person:adityagautam",
       "kind": "wiki-link",
       "weight": 1
@@ -72579,6 +72773,12 @@
     {
       "source": "wiki:llms",
       "target": "article:guide:llm-tools",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llms",
+      "target": "book:20241017-build-large-language-model-from-scratch",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -78707,6 +78907,144 @@
       "target": "wiki:tools",
       "kind": "wiki-link",
       "weight": 1
+    },
+    {
+      "source": "wiki:multimodal-llms",
+      "target": "person:adityagautam",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:multimodal-llms",
+      "target": "person:aishwaryajadhav",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:multimodal-llms",
+      "target": "person:danielsvonava",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:multimodal-llms",
+      "target": "podcast:from-computer-vision-research-to-autonomous-driving-ai",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:multimodal-llms",
+      "target": "podcast:production-ml-search-vector-search-embeddings-hybrid-search",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:multimodal-llms",
+      "target": "podcast:s23e03-future-of-ai-agents",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:multimodal-llms",
+      "target": "wiki:ai-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:multimodal-llms",
+      "target": "wiki:ai-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:multimodal-llms",
+      "target": "wiki:autonomous-driving-ai",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:multimodal-llms",
+      "target": "wiki:autonomous-driving-ai",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:multimodal-llms",
+      "target": "wiki:computer-vision",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:multimodal-llms",
+      "target": "wiki:computer-vision",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:multimodal-llms",
+      "target": "wiki:embeddings",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:multimodal-llms",
+      "target": "wiki:embeddings",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:multimodal-llms",
+      "target": "wiki:generative-ai",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:multimodal-llms",
+      "target": "wiki:generative-ai",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:multimodal-llms",
+      "target": "wiki:llms",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:multimodal-llms",
+      "target": "wiki:llms",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:multimodal-llms",
+      "target": "wiki:model-optimization",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:multimodal-llms",
+      "target": "wiki:production",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:multimodal-llms",
+      "target": "wiki:search",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:multimodal-llms",
+      "target": "wiki:vector-databases",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:multimodal-llms",
+      "target": "wiki:vector-databases",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:nlp",

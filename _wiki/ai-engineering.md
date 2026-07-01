@@ -91,7 +91,7 @@ fine-tuning at 1:01:20
 AI engineering is broader than [LLM tools]({{ '/guides/llm-tools/' | relative_url }})
 or a framework choice. The engineer has to choose where to put knowledge and
 which model behavior to trust. They also need to look at failures and operate
-the feature after launch. For related production work, see
+the feature after launch. The [LLM Engineer's Handbook]({{ '/books/20241104-llm-engineer-s-handbook/' | relative_url }}) by Paul Iusztin and Maxime Labonne covers the same production stack, from RAG ingestion to LLMOps and deployment. For related production work, see
 [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }}),
 [AI Infrastructure]({{ '/wiki/ai-infrastructure/' | relative_url }}), and
 [MLOps Architecture]({{ '/guides/mlops-architecture/' | relative_url }}).

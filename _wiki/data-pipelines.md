@@ -337,6 +337,10 @@ Airflow support day-to-day work beside warehouses and tests, while small
 functions plus classes make pipeline code easier for another engineer to
 maintain.
 
+[Fundamentals of Data Engineering]({{ '/books/20220815-fundamentals-of-data-engineering/' | relative_url }})
+by Joe Reis and Matthew Housley frames this same pipeline lifecycle —
+ingestion, transformation, serving — across data system generations.
+
 ## Adjacent Topics
 
 Use [ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }}) when the question is

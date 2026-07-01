@@ -37,6 +37,9 @@ The practical definition across the podcast is simple: an LLM is a general
 language model that teams can prompt for many language tasks. Teams then adapt
 it with context, examples, and retrieval. They can also use fine-tuning or
 tools when prompting isn't enough.
+[Build a Large Language Model (From Scratch)]({{ '/books/20241017-build-large-language-model-from-scratch/' | relative_url }})
+by Sebastian Raschka walks through implementing a transformer-based model
+from the ground up, which grounds the same capabilities discussed below.
 
 [Meryem Arik]({{ '/people/meryemarik/' | relative_url }}) gives the most direct
 production definition in

@@ -33,6 +33,9 @@ infrastructure
 ([Data Engineer Career in 2026]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }}),
 11:54-17:29). [Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }})
 adds the AI-ready data thread at 16:40-23:41.
+[Fundamentals of Data Engineering]({{ '/books/20220815-fundamentals-of-data-engineering/' | relative_url }})
+by Joe Reis and Matthew Housley expands this same lifecycle and generation
+model for data systems into a full reference.
 
 ## Role Boundaries
 
