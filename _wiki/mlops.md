@@ -4,11 +4,16 @@ title: "MLOps"
 summary: "Podcast-grounded reference page for MLOps as the operating discipline for production machine learning systems."
 related:
   - ML Platforms
+  - MLOps Roadmap
+  - MLOps Tools
+  - MLOps Engineer
   - Machine Learning System Design
   - Model Registry
   - Model Monitoring
   - Experiment Tracking
   - Reproducibility
+  - Machine Learning Infrastructure
+  - CI/CD
   - Production
   - DataOps
 ---
@@ -35,7 +40,7 @@ the boundary between model operations and data operations matters. The MLOps
 side adds model artifacts and experiment capture. It also adds drift,
 retraining, and model governance.
 
-Two episodes anchor this MLOps page.
+The production-platform thread appears most clearly in two sources.
 [Raphaël Hoogvliets]({{ '/people/raphaelhoogvliets/' | relative_url }}) in
 [MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }})
 shows the adoption and reproducibility side.
@@ -48,7 +53,7 @@ covers serving, orchestration, metadata, and governance.
 Other episodes add tool standardization, monitoring, regulated finance
 constraints, and startup tradeoffs.
 
-## Common Definition
+## Production Model Lifecycle
 
 Across these episodes, MLOps means the repeatable path from model development to a
 maintained production system. In
@@ -76,7 +81,7 @@ Theofilos makes that lifecycle boundary explicit in
 around 7:28-15:29. He contrasts DevOps with model lifecycle, drift, and
 fairness. He also covers monitoring and retraining triggers.
 
-## Guest Tradeoffs
+## Platform Timing and Tool Boundaries
 
 Guests differ on how much platform to build and how early to build it. In
 [Lean MLOps for Startups]({{ '/podcasts/lean-mlops-for-startups/' | relative_url }}),

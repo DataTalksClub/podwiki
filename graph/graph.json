@@ -11,7 +11,7 @@
     "persons": 183,
     "topics": 92,
     "nodes": 703,
-    "links": 10896
+    "links": 10927
   },
   "nodes": [
     {
@@ -34875,18 +34875,6 @@
     },
     {
       "source": "wiki:ai",
-      "target": "article:guide:llm-system-design-interview",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai",
-      "target": "article:guide:llm-tools",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai",
       "target": "person:andreycheptsov",
       "kind": "wiki-link",
       "weight": 1
@@ -34900,6 +34888,12 @@
     {
       "source": "wiki:ai",
       "target": "person:bartoszmikulski",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai",
+      "target": "person:gregcoquillo",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -34960,6 +34954,12 @@
     {
       "source": "wiki:ai",
       "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai",
+      "target": "podcast:building-and-scaling-ai-data-products-with-mlops",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -35031,6 +35031,12 @@
     },
     {
       "source": "wiki:ai",
+      "target": "wiki:ai-agents",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai",
       "target": "wiki:ai-engineer-role",
       "kind": "wiki-link",
       "weight": 1
@@ -35085,6 +35091,24 @@
     },
     {
       "source": "wiki:ai",
+      "target": "wiki:data-product-management",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai",
+      "target": "wiki:data-products",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai",
+      "target": "wiki:data-products",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai",
       "target": "wiki:data-quality-and-observability",
       "kind": "wiki-link",
       "weight": 1
@@ -35103,6 +35127,18 @@
     },
     {
       "source": "wiki:ai",
+      "target": "wiki:evaluation",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai",
+      "target": "wiki:evaluation",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai",
       "target": "wiki:generative-ai",
       "kind": "wiki-link",
       "weight": 1
@@ -35115,7 +35151,25 @@
     },
     {
       "source": "wiki:ai",
+      "target": "wiki:governance",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai",
+      "target": "wiki:governance",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:ai",
       "target": "wiki:llm-evaluation-workflows",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai",
+      "target": "wiki:llm-production-patterns",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -35184,6 +35238,24 @@
       "target": "wiki:production",
       "kind": "wiki-link",
       "weight": 1
+    },
+    {
+      "source": "wiki:ai",
+      "target": "wiki:production-search-evaluation",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai",
+      "target": "wiki:prompt-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai",
+      "target": "wiki:prompt-engineering",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:ai",
@@ -56421,6 +56493,18 @@
     },
     {
       "source": "wiki:llms",
+      "target": "wiki:ai",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llms",
+      "target": "wiki:ai",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:llms",
       "target": "wiki:ai-agents",
       "kind": "wiki-link",
       "weight": 1
@@ -56430,6 +56514,12 @@
       "target": "wiki:ai-engineering",
       "kind": "wiki-link",
       "weight": 1
+    },
+    {
+      "source": "wiki:llms",
+      "target": "wiki:ai-engineering",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:llms",
@@ -57693,6 +57783,12 @@
     },
     {
       "source": "wiki:machine-learning-system-design",
+      "target": "wiki:a-b-testing",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:machine-learning-system-design",
       "target": "wiki:data-engineering-platforms",
       "kind": "wiki-link",
       "weight": 1
@@ -57708,6 +57804,18 @@
       "target": "wiki:evaluation",
       "kind": "wiki-link",
       "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-system-design",
+      "target": "wiki:evaluation",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:machine-learning-system-design",
+      "target": "wiki:experiment-tracking",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:machine-learning-system-design",
@@ -57780,6 +57888,24 @@
       "target": "wiki:power-analysis",
       "kind": "wiki-link",
       "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-system-design",
+      "target": "wiki:production-ml-project-checklist",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:machine-learning-system-design",
+      "target": "wiki:recommendation-systems",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:machine-learning-system-design",
+      "target": "wiki:search",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:machine-learning-system-design",
@@ -59571,6 +59697,12 @@
     },
     {
       "source": "wiki:mlops",
+      "target": "wiki:ci-cd",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:mlops",
       "target": "wiki:data-quality-and-observability",
       "kind": "wiki-link",
       "weight": 1
@@ -59607,6 +59739,12 @@
     },
     {
       "source": "wiki:mlops",
+      "target": "wiki:machine-learning-infrastructure",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:mlops",
       "target": "wiki:machine-learning-system-design",
       "kind": "wiki-link",
       "weight": 1
@@ -59626,6 +59764,18 @@
     {
       "source": "wiki:mlops",
       "target": "wiki:ml-platforms",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:mlops",
+      "target": "wiki:mlops-engineer",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:mlops",
+      "target": "wiki:mlops-roadmap",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -59634,6 +59784,12 @@
       "target": "wiki:mlops-tools",
       "kind": "wiki-link",
       "weight": 1
+    },
+    {
+      "source": "wiki:mlops",
+      "target": "wiki:mlops-tools",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:mlops",
@@ -68685,6 +68841,12 @@
     },
     {
       "source": "wiki:search-rag-and-knowledge-systems",
+      "target": "article:comparison:graph-rag-vs-vector-rag",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:search-rag-and-knowledge-systems",
       "target": "article:comparison:knowledge-graph-vs-vector-search",
       "kind": "wiki-link",
       "weight": 1
@@ -68799,6 +68961,12 @@
     },
     {
       "source": "wiki:search-rag-and-knowledge-systems",
+      "target": "wiki:agent-engineering",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:search-rag-and-knowledge-systems",
       "target": "wiki:ai-agents",
       "kind": "wiki-link",
       "weight": 1
@@ -68811,15 +68979,33 @@
     },
     {
       "source": "wiki:search-rag-and-knowledge-systems",
+      "target": "wiki:embeddings",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:search-rag-and-knowledge-systems",
       "target": "wiki:information-retrieval",
       "kind": "wiki-link",
       "weight": 1
     },
     {
       "source": "wiki:search-rag-and-knowledge-systems",
+      "target": "wiki:information-retrieval",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:search-rag-and-knowledge-systems",
       "target": "wiki:llm-evaluation-workflows",
       "kind": "wiki-link",
       "weight": 1
+    },
+    {
+      "source": "wiki:search-rag-and-knowledge-systems",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:search-rag-and-knowledge-systems",

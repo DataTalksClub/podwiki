@@ -3,6 +3,8 @@ layout: wiki
 title: "LLMs"
 summary: "How DataTalks.Club guests discuss large language models as language, retrieval, agent, evaluation, production, and security components."
 related:
+  - AI
+  - AI Engineering
   - AI Tooling
   - LLM Production Patterns
   - Retrieval-Augmented Generation
@@ -18,19 +20,23 @@ generation and summarization. They also use them for translation, information
 extraction, and retrieval-backed question answering. Other episodes cover
 agents and developer tools.
 
-DataTalks.Club guests don't treat an LLM as a finished product. They usually place
-the model inside a larger system with prompts, data pipelines, and retrieval.
-They also add evaluation, deployment, security checks, and human review. That
-makes LLMs part of [NLP]({{ '/wiki/nlp/' | relative_url }}),
+DataTalks.Club guests don't treat an LLM as a finished product. They usually
+place the model inside a larger system with prompts and retrieval. Data
+pipelines and evaluation belong there too. So do deployment, security checks,
+and human review.
+
+That places LLMs near [AI]({{ '/wiki/ai/' | relative_url }})
+and [NLP]({{ '/wiki/nlp/' | relative_url }}). It also links them to
 [generative AI]({{ '/wiki/generative-ai/' | relative_url }}),
 [agent engineering]({{ '/wiki/agent-engineering/' | relative_url }}), and
 [LLM production patterns]({{ '/wiki/llm-production-patterns/' | relative_url }}).
 
-## Common Definition
+## Language Model Capabilities
 
-The common definition across the podcast is practical. An LLM is a general
-language model that can be prompted for many language tasks. Teams then adapt it
-with context, examples, and retrieval. They can also use fine-tuning or tools.
+The practical definition across the podcast is simple: an LLM is a general
+language model that teams can prompt for many language tasks. Teams then adapt
+it with context, examples, and retrieval. They can also use fine-tuning or
+tools when prompting isn't enough.
 
 [Meryem Arik]({{ '/people/meryemarik/' | relative_url }}) gives the most direct
 production definition in
@@ -54,9 +60,10 @@ At 9:28, he lists everyday uses such as summaries, translation, and CSV
 workflows. At 11:11, he moves from the model to prompting practice: role
 prompts. He also covers structured output and timestamps.
 
-## Guest Differences
+## Deployment, Research, and Safety Boundaries
 
-Guests agree that LLMs are useful, but they differ on the first risk to solve.
+Guests agree that LLMs are useful, but they start from different failure modes.
+That changes which boundary they draw first.
 
 Meryem starts from deployment choice. In
 [Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}),
@@ -173,7 +180,7 @@ for evaluation patterns and
 [Production Search Evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }})
 for retrieval quality when RAG depends on search.
 
-## Production
+## Serving, Cost, and Operations
 
 Production LLM systems need normal software and ML operations. Teams have to
 plan deployment, latency control, and cost control. They also need monitoring,

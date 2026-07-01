@@ -5,9 +5,14 @@ summary: "How DataTalks.Club podcast guests connect retrieval, RAG, knowledge gr
 related:
   - Retrieval-Augmented Generation
   - Search
+  - Information Retrieval
   - Vector Databases
+  - Embeddings
+  - Graph RAG vs Vector RAG
   - Knowledge Graph vs Vector Search
   - LLM Production Patterns
+  - LLM Evaluation Workflows
+  - Agent Engineering
 ---
 
 Search, RAG, and knowledge systems are the retrieval layer behind many useful
@@ -39,7 +44,7 @@ The central podcast discussions cover search and RAG. They also cover vector
 retrieval, graph retrieval, production boundaries, and
 [agent engineering]({{ '/wiki/agent-engineering/' | relative_url }}).
 
-## Common Definition
+## Retrieval, Ranking, and Context
 
 Across these episodes, search and RAG systems are built around one common
 mechanism. They retrieve candidate information, decide what belongs in front of
@@ -72,7 +77,7 @@ constraints connect vector databases to
 and [MLOps]({{ '/wiki/mlops/' | relative_url }}). Embedding models, indexes,
 ranking weights, and user behavior all change over time.
 
-## Different Guest Frames
+## Search, Graph, and Agent Boundaries
 
 Atita starts from the search stack. In
 [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}),
