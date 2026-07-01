@@ -15,11 +15,11 @@ related:
   - Data Warehouse
 ---
 
-Marketing to analytics engineering means turning marketing questions into
-modeled data that other teams can reuse. The marketer already knows why
-acquisition, conversion, retention, and experiments matter. The move into
+Marketing to analytics engineering is the move from using campaign and funnel
+metrics to owning reusable analytical data products. The marketer already knows
+why acquisition, conversion, retention, and experiments matter. The
 [analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
-adds SQL models, tested transformations, metric definitions, and BI-ready
+side adds SQL models, tested transformations, metric definitions, and BI-ready
 tables.
 
 [Nikola Maksimovic]({{ '/people/nikolamaksimovic/' | relative_url }}) gives the
@@ -33,18 +33,19 @@ testing support
 ([Maksimovic's product analytics and funnel-knowledge discussion at 38:27-41:50]({{ '/podcasts/from-marketing-to-analytics-engineering-sql-dbt-career-switch/' | relative_url }})).
 
 The transition isn't just a move from "business" to "technical" work.
-Marketing knowledge stays valuable because it supplies the acquisition funnel,
-user-journey context, and campaign pressure. Analytics engineering changes the
-output. A repeated campaign report becomes a maintained model. Funnel intuition
-becomes [product analytics]({{ '/wiki/product-analytics/' | relative_url }}) or
+Marketing knowledge stays valuable because it supplies acquisition-funnel
+context, user-journey context, and campaign pressure. Analytics engineering
+changes the output. A repeated campaign report becomes a maintained model.
+Funnel intuition becomes
+[product analytics]({{ '/wiki/product-analytics/' | relative_url }}) or
 [data-led growth]({{ '/wiki/data-led-growth/' | relative_url }}) work
 ([Maksimovic's dbt migration and modeling discussion at 18:34-33:46]({{ '/podcasts/from-marketing-to-analytics-engineering-sql-dbt-career-switch/' | relative_url }}),
 [Choudhury's tracking-plan and growth-stack discussion at 13:34-30:03]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }})).
 
 ## Common Definition
 
-Marketing to analytics engineering means using marketing domain knowledge as
-an entry point into governed analytical data. The person moving roles learns to
+Marketing to analytics engineering means using marketing domain knowledge as an
+entry point into governed analytical data. The person moving roles learns to
 turn marketing questions into reusable tables, documented metrics, tests, and
 dashboards that other teams can trust.
 
@@ -68,7 +69,7 @@ and the broader [Data Analyst to Analytics Engineer Roadmap]({{ '/roadmaps/data-
 Marketing gives the person questions and metric meaning. Analytics engineering
 adds model ownership, quality checks, and shared analytical assets.
 
-## Role Boundaries and Tradeoffs
+## Guest Disagreements
 
 Guests differ on how formal the role boundary should be. Maksimovic's team did
 not start with a clean analytics-engineer title. The work overlapped BI
@@ -78,8 +79,8 @@ was small
 
 [Juan Manuel Perafan]({{ '/people/juanmanuelperafan/' | relative_url }})
 pushes against defining analytics engineering only as a role between analyst
-and engineer. He starts from messy business reality. Then he connects that work
-to safer data systems and software engineering practice
+and engineer. He starts from messy business reality, then connects that work to
+safer data systems and software engineering practice
 ([Perafan's business-reality and clean-data discussion at 7:56-16:25]({{ '/podcasts/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices/' | relative_url }})).
 He also treats team-role splits as an organizational choice, not a universal
 rule
@@ -102,9 +103,11 @@ CDC and schema evolution belong to the same system
 
 [Arpit Choudhury]({{ '/people/arpitchoudhury/' | relative_url }}) adds a
 growth-data boundary. In his data-led-growth episode, marketing-adjacent data
-work extends beyond dashboards. It includes event tracking and tracking plans.
-It also includes BI and warehouse transformations. Customer data platforms and
-[reverse ETL]({{ '/wiki/reverse-etl/' | relative_url }}) extend the same work
+work extends beyond dashboards. It includes
+[event tracking]({{ '/wiki/event-tracking/' | relative_url }}) and
+[tracking plans]({{ '/wiki/tracking-plans/' | relative_url }}). It also includes
+BI and warehouse transformations. Customer data platforms and
+[reverse ETL]({{ '/wiki/reverse-etl/' | relative_url }}) extend that work
 ([Choudhury's tracking-plan and warehouse-flow discussion at 13:34-30:03]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }})).
 
 He treats reverse ETL and CDPs as separate tradeoff choices for activating that
@@ -158,9 +161,9 @@ data becomes stakeholder reporting
 She also warns that generic SQL exercises leave a gap. Reading real BI-team SQL
 that builds main tables is stronger practice when a company can share it.
 
-Maksimovic's dbt migration made model ownership the next step because it
-covered transformations and model organization. It also covered
-wide-versus-narrow tables and incrementalization tradeoffs
+Maksimovic's [dbt]({{ '/wiki/dbt/' | relative_url }}) migration made model
+ownership the next step. It covered transformations, model organization,
+wide-versus-narrow tables, and incrementalization tradeoffs
 ([Maksimovic's dbt migration and modeling tradeoffs discussion at 18:34-33:46]({{ '/podcasts/from-marketing-to-analytics-engineering-sql-dbt-career-switch/' | relative_url }})).
 
 Perez Mola ties the role to Looker and Snowflake. She also names dbt tests and
@@ -189,9 +192,9 @@ was part of the same work
 [Maksimovic's growth, retention, and RFM discussion at 38:27-39:36]({{ '/podcasts/from-marketing-to-analytics-engineering-sql-dbt-career-switch/' | relative_url }})).
 
 That makes [A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }}) and
-[Experimentation]({{ '/wiki/experimentation/' | relative_url }}) direct
-adjacent topics for this transition.
-Choudhury's growth-stack episode shows why this work needs reliable event
+[Experiment Tracking]({{ '/wiki/experiment-tracking/' | relative_url }})
+direct adjacent topics for this transition. Choudhury's growth-stack episode
+shows why this work needs reliable event
 names and properties. It also needs source context and owners. Warehouse
 storage, BI, and activation tools matter too, not only a campaign dashboard
 ([Choudhury's tracking-plan and data-flow discussion at 13:34-30:03]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }})).
@@ -207,13 +210,14 @@ the answer reusable and trustworthy.
 
 Maksimovic used internal proof instead of jumping directly from marketing into
 an external analytics-engineering role. Marketing reporting and the Looker
-migration showed the transition in the same organization. BI-team conversations,
-BI projects, and product analytics work also mattered
+migration showed the transition in the same organization. BI-team
+conversations, BI projects, and product analytics work also mattered
 ([Maksimovic's BI pathway and side-project discussion at 7:18-14:14]({{ '/podcasts/from-marketing-to-analytics-engineering-sql-dbt-career-switch/' | relative_url }}),
 [Maksimovic's Looker reporting discussion at 23:12-24:51]({{ '/podcasts/from-marketing-to-analytics-engineering-sql-dbt-career-switch/' | relative_url }})).
 
 An external [analytics-engineering portfolio]({{ '/wiki/analytics-engineering-portfolio-projects/' | relative_url }})
-should make the same evidence visible.
+should make the same evidence visible, especially for readers following a
+[career transition]({{ '/wiki/career-transition/' | relative_url }}) path.
 
 Project examples include:
 
@@ -221,7 +225,7 @@ Project examples include:
 - a web acquisition funnel model
 - a retention or RFM model
 - an A/B testing readout
-- a dbt migration from duplicated dashboard SQL
+- a [dbt]({{ '/wiki/dbt/' | relative_url }}) migration from duplicated dashboard SQL
 - a reverse-ETL segment project
 
 These projects fit the transition when they define the grain and document

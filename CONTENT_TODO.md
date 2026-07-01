@@ -330,6 +330,9 @@ Start with this batch when expanding the content set.
   engineering, QA to ML/data engineering, academic researcher to data science,
   product designer to data product manager, and data scientist to machine
   learning engineer as the source archive grows.
+  These five pages were realigned to the current grounded wiki structure on
+  2026-07-01; future work should add new episode evidence rather than rewrite
+  the same structure again.
 - Keep portfolio project coverage connected through `_wiki/portfolio-projects.md`.
   Existing pages cover data engineering, analytics engineering, machine
   learning, RAG, open-source evidence, and project checklists. Improve those

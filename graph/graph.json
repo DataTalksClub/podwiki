@@ -11,7 +11,7 @@
     "persons": 183,
     "topics": 92,
     "nodes": 703,
-    "links": 10795
+    "links": 10819
   },
   "nodes": [
     {
@@ -5269,7 +5269,7 @@
       "title": "Academic Researcher to Data Science",
       "url": "/wiki/academic-researcher-to-data-science/",
       "count": 1,
-      "search": "Academic Researcher to Data Science How academic researchers, PhDs, postdocs, and research software practitioners move into data science, applied ML, data engineering, and related industry roles."
+      "search": "Academic Researcher to Data Science How academic researchers, PhDs, postdocs, and research software practitioners translate research work into data science, applied ML, data engineering, and related industry roles."
     },
     {
       "id": "wiki:agent-engineering",
@@ -33975,6 +33975,48 @@
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
+      "target": "article:comparison:data-engineer-vs-data-scientist",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:academic-researcher-to-data-science",
+      "target": "article:comparison:machine-learning-engineer-vs-data-scientist",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:academic-researcher-to-data-science",
+      "target": "article:guide:data-scientist",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:academic-researcher-to-data-science",
+      "target": "article:guide:data-scientist-interview",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:academic-researcher-to-data-science",
+      "target": "article:roadmap:data-engineer-roadmap",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:academic-researcher-to-data-science",
+      "target": "article:roadmap:machine-learning-engineer-roadmap",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:academic-researcher-to-data-science",
+      "target": "article:roadmap:open-source-contributor-roadmap",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:academic-researcher-to-data-science",
       "target": "person:anastasiakaravdina",
       "kind": "wiki-link",
       "weight": 1
@@ -34054,6 +34096,12 @@
     {
       "source": "wiki:academic-researcher-to-data-science",
       "target": "podcast:from-large-hadron-collider-to-data-science-research-software-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:academic-researcher-to-data-science",
+      "target": "podcast:from-physics-to-computer-vision-career-transition",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -34239,6 +34287,12 @@
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
+      "target": "wiki:leadership",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:academic-researcher-to-data-science",
       "target": "wiki:machine-learning",
       "kind": "wiki-link",
       "weight": 1
@@ -34258,6 +34312,12 @@
     {
       "source": "wiki:academic-researcher-to-data-science",
       "target": "wiki:machine-learning-system-design",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:academic-researcher-to-data-science",
+      "target": "wiki:mlops",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -34299,7 +34359,25 @@
     },
     {
       "source": "wiki:academic-researcher-to-data-science",
+      "target": "wiki:reproducibility",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:academic-researcher-to-data-science",
+      "target": "wiki:software-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:academic-researcher-to-data-science",
       "target": "wiki:staff-ai-engineer",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:academic-researcher-to-data-science",
+      "target": "wiki:team-building",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -47343,7 +47421,31 @@
     },
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "article:comparison:data-engineer-vs-data-scientist",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
       "target": "article:comparison:machine-learning-engineer-vs-data-scientist",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "article:guide:machine-learning-system-design-interview",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "article:guide:mlops-architecture",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "article:roadmap:data-scientist-to-data-engineer",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -47604,6 +47706,12 @@
       "target": "wiki:model-registry",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-scientist-to-machine-learning-engineer",
+      "target": "wiki:portfolio-projects",
+      "kind": "wiki-link",
+      "weight": 1
     },
     {
       "source": "wiki:data-scientist-to-machine-learning-engineer",
@@ -57777,7 +57885,7 @@
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",
-      "target": "wiki:experimentation",
+      "target": "wiki:experiment-tracking",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -64059,6 +64167,18 @@
     },
     {
       "source": "wiki:product-designer-to-data-product-manager",
+      "target": "article:guide:data-roles",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
+      "target": "article:guide:product-analyst",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:product-designer-to-data-product-manager",
       "target": "article:roadmap:data-product-manager-roadmap",
       "kind": "wiki-link",
       "weight": 1
@@ -65158,6 +65278,30 @@
     {
       "source": "wiki:qa-to-ml-and-data-engineering",
       "target": "article:comparison:mlops-vs-dataops",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:qa-to-ml-and-data-engineering",
+      "target": "article:guide:data-roles",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:qa-to-ml-and-data-engineering",
+      "target": "article:guide:machine-learning-for-software-engineers",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:qa-to-ml-and-data-engineering",
+      "target": "article:roadmap:data-engineer-roadmap",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:qa-to-ml-and-data-engineering",
+      "target": "article:roadmap:machine-learning-engineer-roadmap",
       "kind": "wiki-link",
       "weight": 1
     },

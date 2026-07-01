@@ -21,9 +21,9 @@ related:
 
 Data scientist to machine learning engineer is a transition from analysis and
 model development toward production ownership. The destination isn't only more
-advanced modeling. It's stronger modeling judgment inside software engineering
-for model-backed systems. That means modular code and tests. It also means
-deployment, monitoring, serving choices, and operational tradeoffs.
+advanced modeling. It's stronger modeling judgment inside software-engineered
+systems. That means modular code and tests. It also means deployment habits,
+monitoring, serving choices, and operational tradeoff judgment.
 
 [Danny Ma]({{ '/people/dannyma/' | relative_url }}) gives the career framing
 through his ABC model. His builder path moves data science toward ML
@@ -36,23 +36,26 @@ testable components. He also argues for simple, maintainable solutions before
 complex models
 ([Ben Wilson's maintainable-code and simplicity discussion at 8:49-13:19 and 44:23-52:14]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }})).
 
-This transition sits between
-[Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }}),
-[Machine Learning Engineer Role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }}),
-[Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }}),
-and [MLOps]({{ '/wiki/mlops/' | relative_url }}).
+As a topic, this transition sits between the
+[Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }}) and
+[Machine Learning Engineer Role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }}).
+It also draws on
+[Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
+and [MLOps]({{ '/wiki/mlops/' | relative_url }}). For a side-by-side boundary
+view, use
+[Machine Learning Engineer vs Data Scientist]({{ '/comparisons/machine-learning-engineer-vs-data-scientist/' | relative_url }}).
 
 ## Common Definition
 
 Data scientists moving into machine learning engineering usually keep their
-data intuition, feature reasoning, evaluation, and problem framing. They add
-software foundations and production habits so a model can run as part of a
-service or a scheduled pipeline. In
+data intuition and problem framing. They also keep feature reasoning and
+evaluation. They add software foundations and production habits so a model can
+run as part of a service or a scheduled pipeline. In
 [Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }}),
-machine learning engineers help data scientists scale model-backed services
-and apply engineering practices. The same discussion separates online serving
-from batch scoring
-([Data Team Roles' machine-learning-engineer role boundary at 17:04-20:54 and serving discussion at 38:52-43:24]({{ '/podcasts/data-team-roles/' | relative_url }})).
+machine learning engineers help data scientists scale model-backed services and
+apply engineering practices. The same discussion separates online serving from
+batch scoring
+([machine-learning-engineer role boundary at 17:04-20:54 and serving discussion at 38:52-43:24]({{ '/podcasts/data-team-roles/' | relative_url }})).
 
 [Mihail Eric]({{ '/people/mihaileric/' | relative_url }}) gives the
 research-to-production version of the same shift. He defines ML engineering
@@ -75,12 +78,12 @@ cost-benefit tradeoffs, and iterative sprints. MVPs, feature engineering, and
 testing belong in the same delivery path
 ([Ben Wilson's idea-to-production and agile-for-ML discussion at 29:06-57:38]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }})).
 
-## Role Tradeoffs
+## Guest Disagreements
 
-Guests differ on whether the transition should point toward product ML,
-platform work, data engineering, or a full-stack data scientist role. Ben's
-version is product ML. The model-backed system has to be maintainable,
-testable, and explainable to the people who depend on it
+Guests agree that the transition requires more engineering ownership, although
+they put the boundary in different places. Ben's version points toward product
+ML, where the model-backed system has to be maintainable and testable. It also
+has to be explainable to the people who depend on it
 ([Ben Wilson's maintainability and explainability discussion at 21:39-29:06]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }})).
 
 [Roksolana Diachuk]({{ '/people/roksolanadiachuk/' | relative_url }}) gives the
@@ -89,6 +92,10 @@ puts data cleaning, feature engineering, the model cycle, and some deployment
 on the data scientist side. It then moves MLflow, Kubeflow, Kubernetes, and
 pipeline infrastructure toward ML engineering and MLOps
 ([Roksolana Diachuk's data-scientist and ML-engineering boundary discussion at 13:56-24:49]({{ '/podcasts/big-data-engineer-vs-data-scientist/' | relative_url }})).
+That boundary also connects to
+[Data Engineer vs Data Scientist]({{ '/comparisons/data-engineer-vs-data-scientist/' | relative_url }})
+when the transition is about pipelines and infrastructure rather than
+model serving.
 
 [Simon Stiebellehner]({{ '/people/simonstiebellehner/' | relative_url }})
 pushes the transition toward platform work. His ML platform episode covers
@@ -103,15 +110,20 @@ Mihail's version makes role boundaries more fluid in strong teams. He describes
 embedded collaboration and full-stack data scientists. Code reviews and
 deployed end-to-end systems also belong in that version
 ([Mihail Eric's embedded-team and full-stack-data-scientist discussion at 34:20-46:57]({{ '/podcasts/research-to-production-ml-systems-roadmap/' | relative_url }})).
-For a data scientist, the practical question is which responsibility is missing
-from current work. The likely gaps are product ML delivery, platform ownership,
-pipeline depth, and end-to-end deployment.
 
-## Skill Gaps To Close
+For a data scientist, the practical question is which responsibility is missing
+from current work. For product ML delivery, use the
+[Machine Learning Engineer Roadmap]({{ '/roadmaps/machine-learning-engineer-roadmap/' | relative_url }}).
+For pipeline depth, use the
+[Data Scientist to Data Engineer]({{ '/roadmaps/data-scientist-to-data-engineer/' | relative_url }})
+roadmap. For platform or deployment ownership, use
+[MLOps]({{ '/wiki/mlops/' | relative_url }}).
+
+## Software, Deployment, and System Design Gaps
 
 The first gap is software engineering. Data scientists making this transition
-need modular Python, tests, and package structure. Configuration, code review,
-and collaboration habits matter too. Ben's refactoring discussion treats
+need modular Python and package structure. Tests matter too. Configuration,
+code review, and collaboration habits matter as well. Ben's refactoring discussion treats
 maintainability as the first production requirement
 ([Ben Wilson's refactoring discussion at 8:49-10:35]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }})).
 
@@ -124,7 +136,10 @@ describes ML engineering skills through data pipelines, modeling and
 deployment. Monitoring, APIs, Docker, and cloud providers complete that surface
 ([Santiago Valdarrama's ML engineering skills discussion at 46:39-51:21]({{ '/podcasts/from-software-engineer-to-machine-learning/' | relative_url }})).
 Data scientists moving into ML engineering need the same production surface
-even if they already know modeling.
+even if they already know modeling. This is where
+[Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }}) and
+[MLOps Architecture]({{ '/guides/mlops-architecture/' | relative_url }}) turn
+from background topics into delivery requirements.
 
 The third gap is system design. A model has to fit latency, freshness, and
 batch or online serving. Failure handling and monitoring needs matter too.
@@ -144,6 +159,8 @@ batch-versus-real-time choices come next
 For a transitioning data scientist, model intuition has to become written
 design decisions with explicit
 [ML System Design Documents]({{ '/wiki/ml-system-design-documents/' | relative_url }}).
+The interview version of the same practice is covered in
+[Machine Learning System Design Interview]({{ '/guides/machine-learning-system-design-interview/' | relative_url }}).
 
 ## Concrete Transition Moves
 
@@ -166,6 +183,10 @@ Simon's platform discussion adds experiment tracking and a model registry. It
 also covers batch inference and online serving. Orchestration, metadata, and
 lineage belong in the same production surface
 ([Simon Stiebellehner's tracking registry serving and lineage discussion at 29:41-45:50]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }})).
+That makes [Experiment Tracking]({{ '/wiki/experiment-tracking/' | relative_url }}),
+[Model Registry]({{ '/wiki/model-registry/' | relative_url }}), and
+[Reproducibility]({{ '/wiki/reproducibility/' | relative_url }}) part of the
+transition evidence, not optional tool decoration.
 
 [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
 treats this as production-aware portfolio evidence. The
@@ -175,7 +196,7 @@ training, tracked runs, an artifact or registry record, and batch or online
 serving. Input validation, logs, monitoring signals, and rollback criteria
 complete the review.
 
-## Portfolio And Interview Evidence
+## Portfolio and Interview Evidence
 
 A stronger transition portfolio pairs one working model with one
 production-readiness artifact. That artifact can be a design document or
@@ -208,7 +229,7 @@ Strong transition projects include:
 
 These projects should link modeling decisions to product or operational needs.
 That's the main difference between this transition and a general
-[data science portfolio]({{ '/wiki/data-scientist-role/' | relative_url }}).
+[data science portfolio]({{ '/wiki/portfolio-projects/' | relative_url }}).
 Use the
 [Machine Learning Engineer Roadmap]({{ '/roadmaps/machine-learning-engineer-roadmap/' | relative_url }})
 for sequencing when the project work exposes gaps in Python, system design,

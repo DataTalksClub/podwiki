@@ -17,39 +17,44 @@ related:
 ---
 
 Product designer to data product manager is a transition from designing user
-experiences to owning data-backed product decisions. The clearest example is
-[Sara Menefee]({{ '/people/saramenefee/' | relative_url }}), who moved from
-technical support and product design into product management at Meroxa. Her
-episode ties the transition to user research, customer discovery, data quality,
-and SQL. It also ties the transition to documentation and empathy for data teams
+experiences to owning data product discovery through delivery, adoption, and
+measurement. [Sara Menefee]({{ '/people/saramenefee/' | relative_url }})
+shows the path clearly. She moved from technical support and product design
+into product management at Meroxa. Her episode connects user research and
+customer discovery to SQL, data quality, documentation, and empathy for data teams
 ([Sara Menefee's transition path at 1:27-28:30]({{ '/podcasts/product-designer-to-data-product-manager/' | relative_url }})).
 
-The transition isn't "designer learns SQL and becomes technical." Instead, a
-designer turns discovery and prototyping into data-product ownership. User
-empathy and case-study thinking matter too. That ownership then needs
+The move is broader than learning SQL because a designer keeps customer
+research, prototyping, and usability judgment. They also add lifecycle and
+quality literacy, privacy awareness, metrics, and engineering coordination.
+That puts the transition inside
 [data product management]({{ '/wiki/data-product-management/' | relative_url }}),
 [data products]({{ '/wiki/data-products/' | relative_url }}), and
-[product analytics]({{ '/wiki/product-analytics/' | relative_url }}) literacy.
+[product analytics]({{ '/wiki/product-analytics/' | relative_url }}). For the
+title boundary, use
+[Data Product Manager vs Product Manager]({{ '/comparisons/data-product-manager-vs-product-manager/' | relative_url }})
+and
+[Data Product Owner vs Data Product Manager]({{ '/comparisons/data-product-owner-vs-data-product-manager/' | relative_url }}).
 
-Sara's design background mattered because product design already included user
-research and customer expectations. Iteration was part of the work too. User
-testing and interface work are part of that practice. In
+Sara's design background mattered because product design already included
+requirements, user research, and user testing. It also included customer
+expectations, interface work, and iteration. In
 [Sara Menefee's product-design description at 5:23]({{ '/podcasts/product-designer-to-data-product-manager/' | relative_url }}),
 she says strong product designers care deeply about solving customer problems.
-
-That becomes the bridge into data PM work when the customer is a data
-professional. The product might be a data platform or dashboard. It might also
-be a workflow or data-backed application.
+That becomes a bridge into data PM work when the customer is a data
+professional. The product can be a data platform, dashboard, workflow, or
+data-backed application.
 
 ## Common Definition
 
 Product designer to data product manager means using design discovery as the
 entry point into data-product ownership. The designer already knows how to ask
-about user pain, prototype a direction, and test whether a proposed experience
-solves a problem. The new work connects that discovery to data lifecycle
-decisions, quality constraints, metrics, and engineering tradeoffs.
+about user pain. They can prototype a direction and test whether a proposed
+experience solves a problem. In the data PM role, they connect that discovery
+to data lifecycle decisions. They also account for quality constraints,
+metrics, and engineering tradeoffs.
 
-Sara defines the data PM work in
+Sara defines data PM work in
 [her customer-discovery explanation at 7:09]({{ '/podcasts/product-designer-to-data-product-manager/' | relative_url }}):
 she talks with data professionals about responsibilities and problems. They
 also discuss workarounds, requirements, and tooling. She then aligns internal
@@ -64,26 +69,27 @@ success metrics. It continues through demos, implementation surprises, launch,
 and go-to-market coordination
 ([Sara Menefee's product lifecycle discussion at 11:51-15:03]({{ '/podcasts/product-designer-to-data-product-manager/' | relative_url }})).
 The transition becomes real when the designer wants ownership across that whole
-loop, not only the early discovery and interface stages.
+product lifecycle, not only the early discovery and interface stages.
 
-Data makes the role more demanding. At
+Data adds constraints that interface design alone doesn't cover. At
 [Sara Menefee's data-quality discussion at 19:44]({{ '/podcasts/product-designer-to-data-product-manager/' | relative_url }}),
 Sara says people across roles make decisions with data. Non-data teams often
 lack access or know-how.
 
 In HR data, the data PM also has to think about PII and compliance. Storage
 and security matter too. Correctness and human-entered data create another
-layer of risk, especially when the work spans multiple sources. Those risks
+layer of risk, especially when the work spans multiple sources. Those concerns
 connect the role to
 [data quality and observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}),
 [data engineering]({{ '/wiki/data-engineering/' | relative_url }}), and
 [data governance]({{ '/wiki/data-governance/' | relative_url }}).
 
-## Role Tradeoffs
+## Guest Disagreements
 
-Guests differ on the center of gravity for data product management. Some center
-discovery and adoption. Others center technical coordination or internal
-platform work.
+Guests agree that data product managers need discovery and technical literacy,
+but they put the center of gravity in different places. Sara centers empathy
+and customer development. Other guests focus on internal platforms, adoption,
+role boundaries, or roadmap discipline.
 
 Sara centers discovery and empathy. At
 [Sara Menefee's traits discussion at 24:44]({{ '/podcasts/product-designer-to-data-product-manager/' | relative_url }}),
@@ -129,8 +135,8 @@ when the title boundary is the main question.
 is the closer comparison when the question is ownership of data products
 inside data teams.
 
-[Greg Coquillo]({{ '/people/gregcoquillo/' | relative_url }}) adds the roadmap
-version in
+[Greg Coquillo]({{ '/people/gregcoquillo/' | relative_url }}) emphasizes
+roadmap discipline in
 [Building and Scaling AI Data Products with MLOps]({{ '/podcasts/building-and-scaling-ai-data-products-with-mlops/' | relative_url }}).
 His data product manager starts from customer journeys and business-partner
 interviews. Five Whys and hypothesis testing come before roadmap options. For
@@ -138,7 +144,9 @@ product designers, the next skill is translating discovery into impact and
 effort
 ([Greg Coquillo's discovery and roadmap discussion at 14:03-51:11]({{ '/podcasts/building-and-scaling-ai-data-products-with-mlops/' | relative_url }})).
 
-Cost, SMART goals, and operating metrics belong in that same roadmap work.
+Cost, SMART goals, and operating metrics belong in that same roadmap work. Use
+[Data Product Manager Roadmap]({{ '/roadmaps/data-product-manager-roadmap/' | relative_url }})
+for the learning path version.
 Those metrics can include pipeline failures, SLAs, and data quality
 ([Greg Coquillo's operating-metrics discussion at 47:18-55:32]({{ '/podcasts/building-and-scaling-ai-data-products-with-mlops/' | relative_url }})).
 
@@ -180,7 +188,9 @@ notes, recorded notes, and weekly product updates. Customer-note databases can
 help engineers build empathy.
 
 A designer moving into data product management should show that they can turn
-interviews into durable product context, not only mockups.
+interviews into durable product context, not only mockups. That same evidence
+also helps when mapping the transition against broader
+[data roles]({{ '/guides/data-roles/' | relative_url }}).
 
 ## Add Data Lifecycle and Quality Literacy
 
@@ -199,7 +209,7 @@ Sara references sources, transformations, and warehouses. Data lakes and data
 applications are part of the same context too.
 
 She also says data isn't only for analysis because it can power applications
-and infrastructure. Use
+and infrastructure. The technical context sits near
 [modern data stack]({{ '/wiki/modern-data-stack/' | relative_url }}),
 [data warehouse]({{ '/wiki/data-warehouse/' | relative_url }}), and
 [data engineering platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}).
@@ -273,7 +283,9 @@ references are
 [Dashboard and Metric Layer Project Checklist]({{ '/wiki/dashboard-and-metric-layer-project-checklist/' | relative_url }}),
 [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }}),
 [Tracking Plans]({{ '/wiki/tracking-plans/' | relative_url }}), and
-[A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }}).
+[A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }}). For a product
+analytics-specific portfolio focus, use
+[Product Analyst]({{ '/guides/product-analyst/' | relative_url }}).
 
 ## Find Sponsorship, Mentorship, and First PM Scope
 
@@ -327,9 +339,11 @@ These pages cover adjacent role, product, and analytics topics.
 - [Data Products]({{ '/wiki/data-products/' | relative_url }})
 - [Data Product Adoption]({{ '/wiki/data-product-adoption/' | relative_url }})
 - [Data Product Manager]({{ '/guides/data-product-manager/' | relative_url }})
+- [Data Roles]({{ '/guides/data-roles/' | relative_url }})
 - [Data Product Manager Roadmap]({{ '/roadmaps/data-product-manager-roadmap/' | relative_url }})
 - [ML Product Manager Role]({{ '/wiki/ml-product-manager-role/' | relative_url }})
 - [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }})
+- [Product Analyst]({{ '/guides/product-analyst/' | relative_url }})
 - [A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }})
 - [Experimentation and Causal Inference]({{ '/wiki/experimentation-and-causal-inference/' | relative_url }})
 - [Tracking Plans]({{ '/wiki/tracking-plans/' | relative_url }})
