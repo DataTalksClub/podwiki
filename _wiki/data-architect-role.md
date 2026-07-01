@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Data Architect Role"
-summary: "Podcast-backed definition of the data architect role: end-to-end data ownership, modeling, cloud adaptation, stakeholder alignment, reusable patterns, and boundaries with data engineering leadership."
+summary: "The data architect role across end-to-end data ownership, modeling, cloud adaptation, stakeholder alignment, reusable patterns, and leadership boundaries."
 related:
   - Data Engineering
   - Data Engineering Platforms
@@ -23,9 +23,10 @@ and stakeholder discovery. Technical leadership belongs in the same role.
 
 [Loic Magnien]({{ '/people/loicmagnien/' | relative_url }}) gives the clearest
 role example. His path moves from sensor-data aggregation and ETL automation
-into cloud adaptation, analytics modeling, reusable pipeline templates, and
-team alignment
-([data architect episode at 1:45-27:20]({{ '/podcasts/from-iot-data-engineering-to-leading-data-architect/' | relative_url }})).
+into cloud adaptation and analytics modeling. It also includes reusable
+pipeline templates and team alignment
+([From IoT Data Engineering to Data Architecture - career path
+1:45-27:20]({{ '/podcasts/from-iot-data-engineering-to-leading-data-architect/' | relative_url }})).
 The title is less about drawing diagrams and more about keeping the data system
 coherent as more teams consume it.
 
@@ -36,7 +37,8 @@ Loic describes architecture work through seniority and end-to-end ownership. He
 also puts modeling in the role. The architect has to understand how data
 arrives and how teams transform it. They also need to know how departments
 consume that data and where quality expectations belong
-([data architect episode at 22:47-36:00]({{ '/podcasts/from-iot-data-engineering-to-leading-data-architect/' | relative_url }})).
+([IoT to Data Architecture - ownership and modeling
+22:47-36:00]({{ '/podcasts/from-iot-data-engineering-to-leading-data-architect/' | relative_url }})).
 
 That puts the role near
 [data engineering platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
@@ -49,7 +51,8 @@ Loic's lakehouse discussion gives one concrete structure. Bronze, silver, and
 gold layers give the team a shared language for raw and refined data. They also
 name consumption-ready data. The same discussion connects those layers to
 quality expectations and consumer needs
-([data architect episode at 29:56-36:00]({{ '/podcasts/from-iot-data-engineering-to-leading-data-architect/' | relative_url }})).
+([From IoT Data Engineering to Data Architecture - lakehouse layers and quality
+29:56-36:00]({{ '/podcasts/from-iot-data-engineering-to-leading-data-architect/' | relative_url }})).
 That connects the role to
 [Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }}).
 
@@ -60,16 +63,18 @@ products.
 
 Metadata, discoverability, and quality guarantees belong in that design.
 Self-serve platforms and federated governance do too
-([data mesh episode at 13:20-53:02]({{ '/podcasts/data-mesh-architecture-decentralized-data-products/' | relative_url }})).
+([Data Mesh Implementation - contracts and federated governance
+13:20-53:02]({{ '/podcasts/data-mesh-architecture-decentralized-data-products/' | relative_url }})).
 That version differs from a centralized architecture team. It still asks who
 owns the data product and which guarantees make it usable by others.
 
-## Guest Differences
+## Points of Disagreement
 
 Guests differ on how close the architect should stay to implementation.
 Loic's role still includes proofs of concept, demos, and technical scouting. He
 uses one-on-ones, demos, and hands-on work to stay close to delivery
-([data architect episode at 37:10-50:45]({{ '/podcasts/from-iot-data-engineering-to-leading-data-architect/' | relative_url }})).
+([From IoT Data Engineering to Data Architecture - hands-on role balance
+37:10-50:45]({{ '/podcasts/from-iot-data-engineering-to-leading-data-architect/' | relative_url }})).
 
 That differs from a pure governance interpretation of architecture. In these
 interviews, the useful architect doesn't leave implementation to other people
@@ -81,24 +86,28 @@ than an individual pipeline owner.
 side of the same boundary. His data engineering leadership discussion ties
 technical credibility to stakeholder prioritization, quality standards, access
 controls, and lineage. Data culture belongs in the same leadership discussion
-([data engineering leadership episode]({{ '/podcasts/data-engineering-leadership-and-modern-data-platforms/' | relative_url }})).
+([Data Engineering Leadership - prioritization quality and lineage
+4:52-30:50]({{ '/podcasts/data-engineering-leadership-and-modern-data-platforms/' | relative_url }})).
 That version overlaps with a data engineering manager. The architect is more
 focused on system structure and durable technical choices.
 
-Guests also differ on centralization. Zhamak argues for domain-owned data
-products with federated governance, while platform-oriented episodes keep more
-authority in central platform teams. That central version fits teams where
+Centralization is another difference: Zhamak argues for domain-owned data
+products, but platform-oriented episodes keep more authority in central teams.
+That central version fits teams where
 reproducibility, governance, or onboarding are still weak
-([data mesh episode]({{ '/podcasts/data-mesh-architecture-decentralized-data-products/' | relative_url }}),
-[data platform principles episode]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }})).
+([Data Mesh - domain ownership
+16:34-53:02]({{ '/podcasts/data-mesh-architecture-decentralized-data-products/' | relative_url }}),
+[DataOps 101 - platform split
+30:34-1:04:18]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }})).
 
 ## Modeling and Consumer Alignment
 
 Data architecture work starts with how people will use the data. Loic's
-analytics-modeling discussion names dimensions, facts, metrics, and stakeholder
-discovery. He also describes core models that support multiple consumers and
-departments
-([data architect episode at 32:58-36:00]({{ '/podcasts/from-iot-data-engineering-to-leading-data-architect/' | relative_url }})).
+analytics-modeling discussion names dimensions and facts. It also covers
+metrics and stakeholder discovery. He describes core models that support
+multiple consumers and departments
+([From IoT Data Engineering to Data Architecture - analytics modeling
+32:58-36:00]({{ '/podcasts/from-iot-data-engineering-to-leading-data-architect/' | relative_url }})).
 
 This makes the architect a partner to
 [analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
@@ -110,17 +119,19 @@ maintain it, and business users need to trust the definitions.
 matters for scaling teams. Her data team starts with business health
 monitoring and dashboards. The team then grows toward a warehouse and
 forecasting. Governance repairs, dbt tests, and adoption workshops follow
-([data team episode at 7:22-49:00]({{ '/podcasts/building-and-scaling-data-team/' | relative_url }})).
+([How to Build and Scale a Data Team - governance and adoption
+7:22-49:00]({{ '/podcasts/building-and-scaling-data-team/' | relative_url }})).
 The architect's modeling choices become visible when the team has to repair
 trust or support new decision workflows.
 
 ## Reusable Structures
 
 Architects create reusable structures where repeated work would otherwise
-diverge. Loic discusses proof-of-concept pipelines, reusable ingestion work,
-transformation work, and datamart templates. He also names the tradeoff between
-reusable components and project-specific solutions
-([data architect episode at 53:28-59:34]({{ '/podcasts/from-iot-data-engineering-to-leading-data-architect/' | relative_url }})).
+diverge. Loic discusses proof-of-concept pipelines and reusable ingestion work.
+He also covers transformation work and datamart templates. He names the tradeoff
+between reusable components and project-specific solutions
+([From IoT Data Engineering to Data Architecture - templates and reuse
+53:28-59:34]({{ '/podcasts/from-iot-data-engineering-to-leading-data-architect/' | relative_url }})).
 
 That tradeoff connects the role to
 [self-service data platforms]({{ '/wiki/self-service-data-platforms/' | relative_url }})
@@ -133,7 +144,8 @@ requirements.
 point from scale-up data engineering. An Airflow cluster alone isn't a
 platform. Teams also need naming conventions and sequencing rules. Templates,
 playbooks, and operating habits matter too
-([scale-up data engineering episode]({{ '/podcasts/scaling-data-engineering-teams-self-service-platforms/' | relative_url }})).
+([Scale Data Engineering Teams - Airflow and platform conventions
+17:22-20:13]({{ '/podcasts/scaling-data-engineering-teams-self-service-platforms/' | relative_url }})).
 A data architect helps decide which conventions become shared architecture.
 
 Governance belongs in the same architecture discussion. Access and lineage
@@ -141,18 +153,21 @@ affect whether data can be reused safely. Classification and catalogs matter
 too.
 
 Ownership and review complete the control layer. Revocation, masking, and
-automation belong there as well
-([data governance episode]({{ '/podcasts/data-governance-data-access-management/' | relative_url }}),
-[cloud governance episode]({{ '/podcasts/cloud-data-governance/' | relative_url }})).
+automation also belong there
+([Access Management - reviews and masking
+8:58-46:42]({{ '/podcasts/data-governance-data-access-management/' | relative_url }}),
+[Cloud Governance - policies and catalogs
+14:04-54:37]({{ '/podcasts/cloud-data-governance/' | relative_url }})).
 That connects the role to [Governance]({{ '/wiki/governance/' | relative_url }})
 and [Data Governance]({{ '/wiki/data-governance/' | relative_url }}).
 
 ## Skills and Boundaries
 
 A data architect needs enough engineering depth to evaluate cloud and
-orchestration choices. Loic names Python, Azure, IoT adaptation, and ETL
-scripting as part of his path. Cloud fundamentals matter too
-([data architect episode at 7:21-21:01]({{ '/podcasts/from-iot-data-engineering-to-leading-data-architect/' | relative_url }})).
+orchestration choices. Loic names Python and Azure. He also names IoT
+adaptation and ETL scripting as part of his path. Cloud fundamentals matter too
+([From IoT Data Engineering to Data Architecture - ETL and cloud skills
+7:21-21:01]({{ '/podcasts/from-iot-data-engineering-to-leading-data-architect/' | relative_url }})).
 The role also needs stakeholder discovery and prioritization because models and
 templates only matter when teams adopt them.
 
@@ -169,6 +184,8 @@ execution cadence. A data architect may influence those choices, but the core
 job is the structure and quality of the data system.
 
 ## Related Pages
+
+Adjacent role boundaries and architecture topics include:
 
 - [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }})
 - [Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }})

@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 145,
     "nodes": 1009,
-    "links": 10652
+    "links": 10653
   },
   "nodes": [
     {
@@ -8336,7 +8336,7 @@
       "title": "AI Engineer Role",
       "url": "/wiki/ai-engineer-role/",
       "count": 1,
-      "search": "AI Engineer Role Archive backed guide to the AI engineer role, including definition, responsibilities, disagreements, skills, boundaries, and podcast examples."
+      "search": "AI Engineer Role The AI engineer role across product software, RAG, agents, evaluation, production reliability, and role boundaries."
     },
     {
       "id": "wiki:ai-engineering",
@@ -8676,7 +8676,7 @@
       "title": "Data Architect Role",
       "url": "/wiki/data-architect-role/",
       "count": 1,
-      "search": "Data Architect Role Podcast backed definition of the data architect role: end to end data ownership, modeling, cloud adaptation, stakeholder alignment, reusable patterns, and boundaries with data engineering leadership."
+      "search": "Data Architect Role The data architect role across end to end data ownership, modeling, cloud adaptation, stakeholder alignment, reusable patterns, and leadership boundaries."
     },
     {
       "id": "wiki:data-engineer-role",
@@ -8906,7 +8906,7 @@
       "title": "Data Team Lead Role",
       "url": "/wiki/data-team-lead-role/",
       "count": 1,
-      "search": "Data Team Lead Role Podcast backed definition of the data team lead and head of data role: hiring order, team design, stakeholder adoption, quality standards, trust repair, and leadership boundaries."
+      "search": "Data Team Lead Role The data team lead and head of data role across hiring order, team design, stakeholder adoption, quality standards, trust repair, and leadership boundaries."
     },
     {
       "id": "wiki:data-teams",
@@ -9406,7 +9406,7 @@
       "title": "ML Platform Engineer Role",
       "url": "/wiki/ml-platform-engineer-role/",
       "count": 1,
-      "search": "ML Platform Engineer Role Podcast backed definition of the ML platform engineer role: internal ML platforms, developer experience, MLOps services, infrastructure tradeoffs, and boundaries with MLOps and ML engineering."
+      "search": "ML Platform Engineer Role The ML platform engineer role across internal ML platforms, developer experience, MLOps services, infrastructure tradeoffs, and role boundaries."
     },
     {
       "id": "wiki:ml-platforms",
@@ -37681,7 +37681,7 @@
       "source": "wiki:ai-engineer-role",
       "target": "person:nasserqadri",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "wiki:ai-engineer-role",
@@ -37705,7 +37705,7 @@
       "source": "wiki:ai-engineer-role",
       "target": "person:ruslanshchuchkin",
       "kind": "wiki-link",
-      "weight": 6
+      "weight": 8
     },
     {
       "source": "wiki:ai-engineer-role",
@@ -60450,6 +60450,12 @@
     {
       "source": "wiki:ml-platform-engineer-role",
       "target": "person:simonstiebellehner",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ml-platform-engineer-role",
+      "target": "person:willempienaar",
       "kind": "wiki-link",
       "weight": 2
     },
