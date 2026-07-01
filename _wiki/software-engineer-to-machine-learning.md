@@ -46,6 +46,8 @@ is a useful companion for that algorithm-learning phase of the transition:
 it walks through the math and implementation of core algorithms from linear
 regression through Bayesian methods and deep learning.
 
+[Math for Programmers]({{ '/books/20210215-math-for-programmers/' | relative_url }}) by Paul Orland is a gentler on-ramp to the same mathematical foundations, building linear algebra, calculus, and probability through code rather than proofs.
+
 ## From Software Reliability to ML Lifecycle
 
 In these discussions, the move from software engineering to machine learning is

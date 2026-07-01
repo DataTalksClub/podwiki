@@ -36,6 +36,8 @@ catalogs the distributed-training architectures that underlie Andrey's GPU and
 scheduling discussion: data parallelism, model parallelism, and parameter-server
 patterns for scaling training across nodes.
 
+For cloud-native ML infrastructure, [Data Science on AWS]({{ '/books/20210628-data-science-on-aws/' | relative_url }}) by Chris Fregly and Antje Barth covers the AWS-side implementation of these same compute, storage, and serving layers, from SageMaker through deployment pipelines.
+
 ## Production Infrastructure Scope
 
 Across these episodes, teams use AI infrastructure to train and adapt AI
