@@ -47,31 +47,34 @@ They also need [DataOps]({{ '/wiki/dataops/' | relative_url }}) and
 [Self-Service Data Platforms]({{ '/wiki/self-service-data-platforms/' | relative_url }})
 when many consumers depend on the same outputs.
 
-## Common Definition
+## Model Assignment
 
-Across these episodes, Data Mesh means decentralizing data-product ownership while
-keeping shared standards. Zhamak Dehghani starts from enterprise data friction:
-long centralized pipelines delay value because domain context has to move
-through a central queue. Her Data Mesh model gives domains responsibility for
-producer and consumer commitments. Self-serve platform capabilities and
-federated governance keep the products interoperable
+[Data Mesh]({{ '/wiki/data-mesh/' | relative_url }}) decentralizes
+data-product ownership while keeping shared standards. Zhamak Dehghani starts
+from enterprise data friction: long centralized pipelines delay value because
+domain context has to move through a central queue. Her Data Mesh model gives
+domains responsibility for producer and consumer commitments. Self-serve
+platform capabilities and federated governance keep the products interoperable
 ([Data Mesh Implementation]({{ '/podcasts/data-mesh-architecture-decentralized-data-products/' | relative_url }}),
 7:35 and 16:34, plus 41:58 and 49:25).
 
-A centralized data platform means a shared data or platform team owns more of
-the common path. Lars Albertsson describes the platform through storage and
+A centralized data platform assigns more of the common path to a shared data or
+platform team. Lars Albertsson describes the platform through storage and
 compute. Workflow engines and self-service SQL belong in the same platform
 model. He also connects the platform to reproducible pipelines. Lineage and
 versioning sit there too
 ([DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}),
 28:22-35:57 and 1:04:18).
 
-In that model, the shared team can centralize infrastructure mechanisms and
-quality checks. Governance controls can stay in the same shared path.
+In that model, the shared team centralizes infrastructure mechanisms, quality
+checks, and more of the governance path. The domain team may still explain
+business meaning, but the central team owns more implementation work and
+operating responsibility.
 
-The common ground is that both models need reliable product interfaces. Zhamak
-ties data products to metadata and quality expectations. Service levels and
-ownership decisions are part of the same interface
+Both models need a reliable product interface, and Zhamak ties
+[Data Products]({{ '/wiki/data-products/' | relative_url }}) to metadata and
+quality expectations. She puts service levels and ownership decisions in that
+same interface
 ([Data Mesh Implementation]({{ '/podcasts/data-mesh-architecture-decentralized-data-products/' | relative_url }}),
 31:05-39:36).
 
@@ -82,18 +85,21 @@ created value
 ([Last-Mile Data Delivery]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }}),
 8:48-34:00).
 
-## Guest Differences
+## Boundary Movement
 
 Zhamak Dehghani puts the center of gravity in domain ownership. Her Data Mesh
 discussion argues that the teams closest to a business domain should own the
-data products they publish. Those products include contracts, metadata, and
-quality signals. They also include service levels and consumer support
+data products they publish. Those products include contracts and metadata. They
+also include quality signals, service levels, and consumer support
 ([Data Mesh Implementation]({{ '/podcasts/data-mesh-architecture-decentralized-data-products/' | relative_url }}),
 13:20-39:36).
 
 She still keeps a strong shared layer through self-serve
 platforms, identity, and authorization. Platform federation and automated
-governance remain shared concerns
+governance remain shared concerns. That keeps
+[Self-Service Data Platforms]({{ '/wiki/self-service-data-platforms/' | relative_url }})
+and [Platform Engineering]({{ '/wiki/platform-engineering/' | relative_url }})
+inside the Data Mesh decision rather than outside it
 ([Data Mesh Implementation]({{ '/podcasts/data-mesh-architecture-decentralized-data-products/' | relative_url }}),
 41:58-53:02).
 
@@ -107,8 +113,8 @@ distribute platform responsibility
 
 [Mehdi OUAZZA]({{ '/people/mehdiouazza/' | relative_url }}) approaches the same
 boundary from scale-up platform work. His self-service platform depends on
-onboarding and Airflow conventions. Playbooks, senior engineering judgment,
-and Kafka schemas belong to the same path. Schema registry practice and data
+onboarding and Airflow conventions. Playbooks, senior engineering judgment, and
+Kafka schemas belong to the same path. Schema registry practice and data
 contracts make that path explicit
 ([Scaling Data Engineering Teams and Self-Service Platforms]({{ '/podcasts/scaling-data-engineering-teams-self-service-platforms/' | relative_url }}),
 12:30-23:26). That supports domain autonomy only when the shared platform gives
@@ -123,7 +129,7 @@ to the same control set
 8:58-42:20). In his framing, a mesh can distribute ownership, but sensitive
 data still needs shared control processes.
 
-## Ownership and Accountability
+## Ownership: Domain Meaning or Shared Execution
 
 The strongest case for Data Mesh appears when the bottleneck is domain meaning.
 Zhamak Dehghani's domain-ownership section moves accountability toward teams
@@ -158,7 +164,14 @@ needs discoverability and trust. It also needs interpretation and a named owner
 [Last-Mile Data Delivery]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }}),
 24:13-34:00).
 
-## Platform and Self-Service
+Move meaning, quality expectations, prioritization, and consumer support to
+domains when those domains can maintain the
+[Data Products]({{ '/wiki/data-products/' | relative_url }}) they publish.
+Keep execution centralized when the main risk is duplicated platform work,
+uneven [DataOps]({{ '/wiki/dataops/' | relative_url }}) practice, or missing
+lineage and versioning discipline.
+
+## Platform: Shared Capabilities or Domain Autonomy
 
 Data Mesh doesn't remove the platform. Zhamak Dehghani makes self-serve data
 platforms a pillar of the model, then adds platform federation and shared
@@ -196,7 +209,7 @@ Consumer commitments, prioritization, and support belong with that ownership
 and [Platform Adoption]({{ '/wiki/platform-adoption/' | relative_url }}) for the
 shared-platform side of the same boundary.
 
-## Governance and Access
+## Governance: Federated Policy or Central Control
 
 Data Mesh uses federated governance rather than absent governance because shared
 policies and automation remain necessary. Zhamak Dehghani covers that control
@@ -229,7 +242,14 @@ processes so they know whom to ask
 ([Data Governance and Data Access Management]({{ '/podcasts/data-governance-data-access-management/' | relative_url }}),
 8:58-42:20).
 
-## Reliability and Operating Discipline
+Use [Data Governance]({{ '/wiki/data-governance/' | relative_url }}) as the
+boundary check. If access approvals, masking, and revocation still depend on
+manual coordination, a centralized or strongly federated control path is safer.
+The same applies when lineage and retention are still handled manually. If
+those controls are automated and visible in the platform, domains can own more
+of the product surface without creating separate policy systems.
+
+## Reliability: Product Commitments or Operating Discipline
 
 When reliability practices are still uneven, Lars Albertsson's caution favors
 building the shared operating discipline first. He ties scalable platforms to
@@ -251,7 +271,13 @@ for the trust layer. A central team can own most of those practices, or the
 organization can split them between central platform capabilities and domain
 product commitments.
 
-## Adoption and Maturity
+The reliability boundary depends on who can respond when data breaks. A mesh
+works when domain owners can explain the data, maintain quality signals, and
+support consumers. A centralized platform fits when incident response,
+deployment conventions, and reproducible changes still need one disciplined
+operating path.
+
+## Adoption: Pilot Domains Before Reorgs
 
 Don't start the comparison with a reorg. Zhamak Dehghani's adoption section
 emphasizes assessment, pilots, and executive buy-in rather than a blanket
@@ -285,6 +311,13 @@ Validate the choice through actual consumer
 adoption, as Caitlin Moorman argues in the last-mile data delivery episode
 ([Last-Mile Data Delivery]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }}),
 24:13-41:18).
+
+[Platform Adoption]({{ '/wiki/platform-adoption/' | relative_url }}) is the
+practical test. A Data Mesh pilot should prove that domain teams can publish and
+support useful data products. A centralized platform pilot should prove that the
+shared team can reduce waiting time without hiding business context from
+consumers. In both cases, people need to find and trust the data before they can
+interpret and use it.
 
 ## Related Pages
 

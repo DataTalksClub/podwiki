@@ -14,9 +14,11 @@ related_wiki:
   - Streaming
   - DataOps
   - Orchestration
+  - Apache Airflow
   - Machine Learning System Design
   - Machine Learning Infrastructure
   - Data Quality and Observability
+  - Data Engineering Portfolio Projects
 ---
 
 Batch processing handles bounded chunks of data. In these episodes, that
@@ -24,11 +26,14 @@ includes scheduled warehouse jobs and backfills. It also includes training set
 creation and batch inference.
 
 Streaming processing handles events as they arrive from queues, brokers, or
-production services. In the DataTalks.Club podcast discussions, the comparison connects to
-[data pipelines]({{ '/wiki/data-pipelines/' | relative_url }}),
+production services. That makes batch vs streaming a pipeline design question,
+not only a tool choice. It connects directly to
+[data pipelines]({{ '/wiki/data-pipelines/' | relative_url }}) and
+[streaming]({{ '/wiki/streaming/' | relative_url }}). It also sits near
 [data engineering platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}),
-and [DataOps]({{ '/wiki/dataops/' | relative_url }}). It also connects to
-[machine learning system design]({{ '/wiki/machine-learning-system-design/' | relative_url }}).
+[DataOps]({{ '/wiki/dataops/' | relative_url }}), and
+[machine learning system design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
+when the pipeline feeds a model-backed product.
 
 [Andreas Kretz]({{ '/people/andreaskretz/' | relative_url }}) gives the cleanest
 pipeline vocabulary in
@@ -40,11 +45,11 @@ That framing keeps batch vs streaming away from tool fashion. The useful
 questions are latency, dependencies, and operating cost. They also include
 replay, ownership, and the action that consumes the result.
 
-## Common Definition
+## Choose by Latency and Dependencies
 
-Across these episodes, batch is the default when the consumer can wait. It also
-fits teams that benefit from explicit dependencies. [Lars Albertsson]({{ '/people/larsalbertsson/' | relative_url }})
-describes the workflow-oriented version in
+Batch is the default when the consumer can wait, and it fits teams that benefit
+from explicit dependencies. [Lars Albertsson]({{ '/people/larsalbertsson/' | relative_url }})
+describes this workflow-oriented version in
 [DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}).
 
 Batch jobs can declare which upstream data is required. They can also declare
@@ -52,7 +57,9 @@ the time window and downstream dependencies. That makes batch natural for
 [Apache Airflow]({{ '/wiki/apache-airflow/' | relative_url }}) and warehouse
 transformations in the
 [modern data stack]({{ '/wiki/modern-data-stack/' | relative_url }}). It also
-fits backfills, training datasets, and scheduled scoring.
+fits backfills, training datasets, and scheduled scoring. Use
+[Orchestration]({{ '/wiki/orchestration/' | relative_url }}) for the broader
+scheduling and dependency model behind those jobs.
 
 Streaming fits cases where a delayed result changes the product outcome. Lars
 separates slow reporting, the middle streaming window, and
@@ -68,16 +75,16 @@ shows the MLOps version in
 where offline stores support training and online stores serve low-latency
 features.
 
-The common decision rule is therefore not "batch is old" or "streaming is
-modern." It's to name the downstream action and the maximum useful latency. The
-team then chooses among scheduled jobs, micro-batches, streaming jobs, and
-in-request logic. [Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }})
+The decision isn't "batch is old" or "streaming is modern." Name the downstream
+action and the maximum useful latency. The team then chooses among scheduled
+jobs, micro-batches, streaming jobs, and in-request logic.
+[Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }})
 supports the SLA side of that decision in
 [Trends in Modern Data Engineering]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}).
 In that episode, he warns that much so-called streaming is micro-batching unless
 strict SLAs justify tools such as Kafka or Flink.
 
-## Guest Differences
+## Practitioner Boundaries
 
 [Lars Albertsson]({{ '/people/larsalbertsson/' | relative_url }}) is the most
 skeptical of streaming as a default. In
@@ -87,8 +94,8 @@ management is less explicit than in workflow-orchestrated batch. He also argues
 that batch latency can often be pushed into minute-level, and sometimes
 second-level, windows before a team needs a full stream-processing architecture.
 
-[Andreas Kretz]({{ '/people/andreaskretz/' | relative_url }}) is more
-architecture-neutral. His
+[Andreas Kretz]({{ '/people/andreaskretz/' | relative_url }}) treats the choice
+as architecture-neutral. His
 [production ML pipeline episode]({{ '/podcasts/production-ml-pipelines-with-aws-and-kafka/' | relative_url }})
 maps ingestion, queues, and storage. It also maps processing frameworks such as
 Spark and Flink, plus orchestration options. His contribution is vocabulary:
@@ -119,7 +126,9 @@ and low-latency feature retrieval.
 adds a platform-maturity warning in
 [Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
 Teams should decide whether a model is consumed by a downstream service or only
-by a batch job before investing in online serving infrastructure.
+by a batch job before investing in online serving infrastructure. That's the
+same deployment boundary covered in
+[Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }}).
 
 ## Latency and Product Action
 
@@ -148,7 +157,7 @@ the logic belongs in the user-facing application path. It shouldn't be a
 separate streaming pipeline
 ([DataOps 101]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }})).
 
-## Operational Model
+## Operating Batch and Streaming Pipelines
 
 Batch operations use schedules and dependency graphs. In batch pipelines,
 retries, checks, and reruns are normal operating work. [Santona Tuli]({{ '/people/santonatuli/' | relative_url }}) explains in
@@ -225,7 +234,7 @@ streaming only when the use case explains the cost
 ([Trends in Modern Data Engineering]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}),
 44:42 and 51:19). Use
 [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
-for project examples.
+for project examples that show reviewers why the latency requirement exists.
 
 ## ML Features and Serving
 
@@ -250,10 +259,10 @@ dbt, and validation may be enough. That connects batch vs streaming to
 
 ## Hybrid Designs
 
-The strongest DataTalks.Club examples aren't pure batch or pure streaming. They
-split the system by stability and latency. Historical features, backfills, and
-training sets are computed in batch. Current context, event-triggered actions,
-and low-latency retrieval live in streaming or online paths. Angela's
+The strongest DataTalks.Club examples aren't pure batch or pure streaming.
+Teams split the system by stability and latency. Historical features, backfills,
+and training sets are computed in batch. Current context, event-triggered
+actions, and low-latency retrieval live in streaming or online paths. Angela's
 [fraud prevention design]({{ '/podcasts/building-and-scaling-data-engineering-systems-for-fraud-detection/' | relative_url }}),
 Willem's
 [feature-store design]({{ '/podcasts/mlops-feature-stores-feature-stores-feast-tecton/' | relative_url }}),
@@ -274,15 +283,18 @@ online serving may be justified. A hybrid feature path may also fit.
 
 ## Related Pages
 
-These pages connect the comparison to adjacent data topics.
+Read these pages for the surrounding pipeline, operations, ML, and portfolio
+context:
 
 - [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }})
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
 - [Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }})
 - [Streaming]({{ '/wiki/streaming/' | relative_url }})
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})
+- [Orchestration]({{ '/wiki/orchestration/' | relative_url }})
 - [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
 - [Apache Airflow]({{ '/wiki/apache-airflow/' | relative_url }})
 - [MLOps]({{ '/wiki/mlops/' | relative_url }})
 - [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
+- [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})

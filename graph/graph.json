@@ -11,7 +11,7 @@
     "persons": 183,
     "topics": 92,
     "nodes": 703,
-    "links": 10872
+    "links": 10880
   },
   "nodes": [
     {
@@ -7107,6 +7107,12 @@
     },
     {
       "source": "article:comparison:batch-vs-streaming",
+      "target": "wiki:apache-airflow",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:batch-vs-streaming",
       "target": "wiki:data-engineering",
       "kind": "article-link",
       "weight": 1
@@ -7134,6 +7140,12 @@
       "target": "wiki:data-engineering-portfolio-projects",
       "kind": "article-link",
       "weight": 1
+    },
+    {
+      "source": "article:comparison:batch-vs-streaming",
+      "target": "wiki:data-engineering-portfolio-projects",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "article:comparison:batch-vs-streaming",
@@ -7240,6 +7252,12 @@
     {
       "source": "article:comparison:batch-vs-streaming",
       "target": "wiki:modern-data-stack",
+      "kind": "article-link",
+      "weight": 1
+    },
+    {
+      "source": "article:comparison:batch-vs-streaming",
+      "target": "wiki:orchestration",
       "kind": "article-link",
       "weight": 1
     },
@@ -8493,9 +8511,21 @@
     },
     {
       "source": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "target": "wiki:delta-lake",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:data-warehouse-vs-data-lakehouse",
       "target": "wiki:finops-for-data-engineers",
       "kind": "article-link",
       "weight": 1
+    },
+    {
+      "source": "article:comparison:data-warehouse-vs-data-lakehouse",
+      "target": "wiki:finops-for-data-engineers",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "article:comparison:data-warehouse-vs-data-lakehouse",
@@ -9159,6 +9189,12 @@
     },
     {
       "source": "article:comparison:graph-rag-vs-vector-rag",
+      "target": "article:comparison:knowledge-graph-vs-vector-search",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:graph-rag-vs-vector-rag",
       "target": "article:comparison:vector-database-vs-search-engine",
       "kind": "article-link",
       "weight": 1
@@ -9219,6 +9255,12 @@
     },
     {
       "source": "article:comparison:graph-rag-vs-vector-rag",
+      "target": "wiki:rag",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:graph-rag-vs-vector-rag",
       "target": "wiki:retrieval-augmented-generation",
       "kind": "article-link",
       "weight": 1
@@ -9234,6 +9276,12 @@
       "target": "wiki:search-and-rag-project-checklist",
       "kind": "article-link",
       "weight": 1
+    },
+    {
+      "source": "article:comparison:graph-rag-vs-vector-rag",
+      "target": "wiki:search-and-rag-project-checklist",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "article:comparison:graph-rag-vs-vector-rag",

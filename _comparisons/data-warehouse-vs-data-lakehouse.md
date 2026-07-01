@@ -14,8 +14,10 @@ related_wiki:
   - Data Warehouse
   - Data Lake
   - Apache Iceberg
+  - Delta Lake
   - Analytics Engineering
   - DataOps
+  - FinOps for Data Engineers
 ---
 
 A [data warehouse]({{ '/wiki/data-warehouse/' | relative_url }}) is modeled
@@ -60,111 +62,119 @@ controls are part of the same
 [data engineering platform]({{ '/wiki/data-engineering-platforms/' | relative_url }})
 and [DataOps]({{ '/wiki/dataops/' | relative_url }}) responsibility.
 
-## Common Definition
+## Decision Boundary
 
-The strongest warehouse-first episodes define the warehouse around trusted
-analytics. Kwong's modern-stack episode connects
-warehouse-side transformations with data marts and dbt. Orchestration and
-reverse ETL are part of the same operating flow
+Choose a warehouse when the first consumers are analysts and BI teams. It also
+fits finance stakeholders or operational tools that need governed SQL tables.
+Kwong's modern-stack episode connects warehouse-side transformations with data
+marts plus dbt-style work. She keeps orchestration and reverse ETL in the same
+stack
 ([ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
 15:30-18:47 and 30:59-35:42).
 
-[Arpit Choudhury]({{ '/people/arpitchoudhury/' | relative_url }})
-uses the same structure for growth data. His flow starts with event collection
-and warehouse storage before moving into dbt transformations, BI, and
-[data activation]({{ '/wiki/data-activation/' | relative_url }}) through
-reverse ETL
+[Arpit Choudhury]({{ '/people/arpitchoudhury/' | relative_url }}) uses the same
+warehouse-first path for growth data. He starts with event collection and
+warehouse storage. He then moves into dbt transformations, BI, and
+[data activation]({{ '/wiki/data-activation/' | relative_url }}) through reverse ETL
 ([Data-Led Growth Stack]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }}),
 22:50-41:30).
 
-That definition favors a warehouse when the team needs consistent modeled
-tables and SQL access more than direct control over open files. Dashboards,
-metrics, and customer or product activation belong on that side too. It also
-fits [analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
-work, where tests and documentation sit close to BI-facing warehouse tables.
+That boundary favors the [data warehouse]({{ '/wiki/data-warehouse/' | relative_url }})
+when consistent modeled tables and SQL access matter more than direct control
+over files. Dashboards, metrics, and customer tables fit this side. Product
+activation and
+[analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
+fit too because tests and documentation stay close to BI-facing tables.
 
-The strongest lakehouse episodes define the lakehouse around open storage and
-shared platform layers. Albertsson starts from object storage and raw data. He then adds
-compute, workflow engines, and governance before naming self-service SQL and
-lakehouse architecture
+Choose a lakehouse when the platform must keep raw and modeled data in open
+storage or serve more than one compute engine. It also fits when the team needs
+to reduce dependence on one vendor runtime. [Lars Albertsson]({{ '/people/larsalbertsson/' | relative_url }})
+starts from object storage and raw data. He then adds compute and workflow
+engines. Governance and self-service SQL come before lakehouse architecture
 ([DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}),
 23:29-35:57 and 1:07:52).
 
-Brudaru's Iceberg discussion adds the modern table format version. Files and
-tables are separate from compute engines, while catalogs and metadata become
-explicit platform layers. Access and lineage do too
+[Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) adds the table
+format version of that boundary. In his [Apache Iceberg]({{ '/wiki/apache-iceberg/' | relative_url }})
+discussion, files and tables are separate from compute engines. Catalogs,
+metadata, and access become explicit platform layers. Lineage does too
 ([Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}),
-18:17-30:31).
+18:17-30:31). He later compares [Delta Lake]({{ '/wiki/delta-lake/' | relative_url }}),
+Hudi, and Iceberg.
 
-That definition favors a lakehouse when raw and modeled data need to live on
-open storage. It also fits when more than one engine must read the same tables.
-Spark-style processing and vendor lock-in concerns make the case stronger.
-ML workloads can fit here when they need shared open tables rather than only
-BI-facing models.
+The lakehouse decision includes the table format and catalog. It also includes
+cost and operating model, not only the storage bucket (49:42 and 44:42).
 
-Kwong explicitly leaves room for teams to keep both systems. The split depends
-on users and data shapes
+The same organization can keep both systems. Kwong leaves room for a lake, a
+warehouse, or both depending on users and data shapes
 ([ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
-24:24-27:39).
+24:24-27:39). Treat the boundary as a consumer and operating-model question.
+Ask who reads the data, which engines need it, who owns governance, and where
+[FinOps]({{ '/wiki/finops-for-data-engineers/' | relative_url }}) visibility
+lives.
 
-## Guest Differences
+## Practitioner Decision Lines
 
-[Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) frames the
-choice from the analytics stack. Her warehouse argument is strongest when ELT
-lets teams load first and transform later in the warehouse. Analysts can then
-use SQL and dbt-style workflows without rebuilding extraction code
+[Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) draws the line
+from the [modern data stack]({{ '/wiki/modern-data-stack/' | relative_url }}).
+Her warehouse case is strongest when ELT lets teams load first and transform
+later in the warehouse. Analysts can use SQL and dbt-style workflows without
+rebuilding extraction code
 ([ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
-7:57-18:47). She's not anti-lake because the same episode defines lakes for
-files, logs, and media. It also warns that unmanaged lakes become data swamps
-without governance and ownership (19:50-24:24).
+7:57-18:47). The same episode still defines lakes for files, logs, and media.
+It also warns that unmanaged lakes become data swamps without governance and
+ownership (19:50-24:24).
 
-[Lars Albertsson]({{ '/people/larsalbertsson/' | relative_url }}) starts from
-platform operations rather than BI consumption. His warehouse/lake distinction
-is tied to raw data, aggregates, and use cases. Object storage, ingress,
-and egress are part of the same platform view. Self-service SQL belongs there
-too
+Albertsson draws the line from platform operations rather than BI consumption.
+His warehouse/lake distinction depends on raw data, aggregates, and use cases.
+Object storage and self-service SQL sit inside the same
+[DataOps]({{ '/wiki/dataops/' | relative_url }}) platform view
 ([DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}),
-21:29-30:34). He then brings in immutable pipeline design, reproducibility,
-lineage, and versioning as the operating disciplines that keep lakehouse-style
-platforms usable (16:42-21:29 and 1:04:18-1:07:52).
+21:29-30:34). Ingress and egress belong there too. He then brings in immutable
+pipeline design, reproducibility, lineage, and versioning as the operating
+disciplines that keep lakehouse-style platforms usable (16:42-21:29 and
+1:04:18-1:07:52).
 
-[Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) is more
-skeptical of buying a packaged stack without decomposing the layers. His 2025
-discussion separates storage and compute. It also separates access, metadata,
-and lineage. Later it compares Delta Lake, Hudi, and Iceberg
+Brudaru draws the line by decomposing packaged stacks into layers. His 2025
+discussion separates storage from compute. It also separates access from
+metadata, and treats lineage as another platform layer. He then compares Delta
+Lake, Hudi, and Iceberg
 ([Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}),
 21:27-23:41 and 49:42).
 
-His requirements-led tool guidance makes the
-lakehouse decision a catalog and cost question. Lock-in and operating model
-matter too, not only the table-format choice (44:42).
+His requirements-led tool guidance makes the lakehouse choice a catalog and
+cost decision. Lock-in and operating model matter too, not the brand alone
+(44:42).
 
-[Santona Tuli]({{ '/people/santonatuli/' | relative_url }}) treats the choice
-as pipeline- and persona-specific. She compares Snowflake, Databricks, and
+[Santona Tuli]({{ '/people/santonatuli/' | relative_url }}) draws the line from
+the pipeline and the consuming persona. She compares Snowflake, Databricks, and
 Upsolver before discussing build-vs-buy choices. Staging and lakehouse patterns
 come next
 ([Modern Data Pipeline Architecture]({{ '/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/' | relative_url }}),
-29:16-37:10). Her ingestion sections name the early platform work.
-Deduplication, ordering guarantees, and PII masking may need to happen before
-data becomes useful for analytics or ML (37:10).
+29:16-37:10).
 
-[Eddy Zulkifly]({{ '/people/eddyzulkifly/' | relative_url }}) adds the cost
-dimension. His FinOps discussion places BigQuery and dbt inside a digital
-warehouse. Orchestration, monitoring, and tests belong there too. He then moves
-into reservation planning and storage tiers. Tagging, cost reporting, and
-accountability come next
+Her ingestion sections make the early platform work visible. Teams may need
+deduplication and ordering guarantees before data becomes useful for analytics
+or ML. PII masking may need to happen before that point too (37:10).
+
+[Eddy Zulkifly]({{ '/people/eddyzulkifly/' | relative_url }}) draws the line
+through cost accountability. His [FinOps for Data Engineers]({{ '/wiki/finops-for-data-engineers/' | relative_url }})
+discussion places BigQuery and dbt inside a digital warehouse. Orchestration,
+monitoring, and tests sit nearby. He then moves into reservation planning and
+storage tiers. Tagging, cost reporting, and accountability come next
 ([FinOps for Data Engineers]({{ '/podcasts/finops-for-data-engineers/' | relative_url }}),
 21:57-24:34 and 31:40-46:17).
 
-That makes cost management a design requirement for both warehouse and
-lakehouse paths.
+Teams need cost management on both warehouse and lakehouse paths.
 
 ## Consumer Workflow
 
-Warehouses are strongest when the consumer workflow is SQL analytics and BI.
-They also fit [product analytics]({{ '/wiki/product-analytics/' | relative_url }})
-and activation. Kwong ties warehouse-side transformation to analyst autonomy
-and data marts. dbt is part of that same flow
+Warehouses fit consumer workflows where people start from SQL, dashboards,
+metrics, and modeled business entities. They also fit
+[product analytics]({{ '/wiki/product-analytics/' | relative_url }}) and
+activation when teams need governed customer or account tables. Kwong ties
+warehouse-side transformation to analyst autonomy and data marts. dbt is part
+of that same flow
 ([ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
 10:00-18:47).
 
@@ -173,9 +183,9 @@ same discussion includes Redshift, BI, and reverse ETL
 ([Data-Led Growth Stack]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }}),
 28:52-41:30).
 
-Lakehouses are strongest when the consumer workflow spans raw files and large
-events. Open table storage and ML pipelines fit here too. Spark-style
-processing and multiple SQL or compute engines also belong on this side.
+Lakehouses fit consumer workflows where teams need raw files, large events, or
+open table storage. ML pipelines and several compute engines reading the same
+tables also belong on this side.
 
 Albertsson names storage, compute, and workflow engines as core platform
 components. He then discusses Spark, Flink, and containers. The same comparison
@@ -193,14 +203,14 @@ belong on the lake side of that distinction
 ([ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
 19:50-27:39).
 
-The episodes support a split where teams keep raw events and long-lived history
-in lake-style storage while Finance, growth, BI, and activation consume
-warehouse-modeled tables.
+Use the consumer handoff as the boundary. Teams can keep raw events and
+long-lived history in lake-style storage while Finance, growth, BI, and
+activation consume warehouse-modeled tables.
 
 ## Storage and Table Layer
 
-A warehouse hides most storage details behind the analytical database. That's
-useful when the main interface is modeled tables, permissions, BI, and SQL
+A warehouse hides most storage details behind the analytical database. That
+helps when the main interface is modeled tables, permissions, BI, and SQL
 transformations. Kwong's warehouse discussion keeps marts, transformations, and
 orchestration close to the same analytical destination
 ([ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
@@ -211,30 +221,30 @@ customer data
 28:52-37:25).
 
 A lakehouse exposes the storage and table layer as part of the architecture.
-Brudaru explains Iceberg as a table format over Parquet-style storage, then
-separates storage and compute. Access, metadata, and lineage are separate
-layers too
+Brudaru explains [Apache Iceberg]({{ '/wiki/apache-iceberg/' | relative_url }})
+as a table format over Parquet-style storage, then separates storage and
+compute. Access, metadata, and lineage are separate layers too
 ([Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}),
 18:17-23:41).
 
-That separation is powerful only if the team also operates a catalog and
-permissions. Quality checks, ownership paths, and lineage are part of the same
-work. Albertsson and Brudaru draw the same boundary. Without catalog, lineage,
-and operating ownership, the team has storage plus a table format. It doesn't
-have a usable lakehouse.
+That separation helps only if the team also operates a catalog and permissions.
+Quality checks, ownership paths, and lineage are part of the same work.
+Albertsson and Brudaru draw the same boundary. Without catalog, lineage, and
+operating ownership, the team has storage plus a table format. It doesn't have
+a usable lakehouse.
 
 Tuli's pipeline discussion shows how the boundary affects design. Her staging
 and lakehouse section places Snowflake, Databricks, and Upsolver in a
 build-vs-buy conversation. It then connects staging to transformations,
 entities, and foreign keys. Data marts that feed dashboards sit downstream
 ([Modern Data Pipeline Architecture]({{ '/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/' | relative_url }}),
-29:16-44:57). The storage choice is therefore connected to ingestion and
-modeling design, not isolated from it.
+29:16-44:57). The storage choice is connected to ingestion and modeling design,
+not isolated from it.
 
 ## Governance and Trust
 
-Warehouse trust usually comes from a smaller number of managed surfaces.
-The warehouse keeps modeled schemas and permissions close together. Tests, BI
+Warehouse trust usually comes from a smaller number of managed surfaces. The
+warehouse keeps modeled schemas and permissions close together. Tests, BI
 semantics, and dbt-style documentation sit in the same operating layer. Kwong
 connects warehouse-side transformation to dbt and
 analytics engineering
@@ -244,11 +254,11 @@ adoption requirements for growth data teams
 ([Data-Led Growth Stack]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }}),
 51:40-53:48).
 
-Lakehouse trust has more moving parts because governance spans object storage
-and catalogs. Compute engines and downstream consumers add more surfaces.
-Albertsson's DataOps framing keeps governance close to object storage and raw
-dumps. It also ties trust to ingress, egress, and versioning. Lineage matters
-too
+Lakehouse trust has more moving parts because governance spans object storage,
+catalogs, compute engines, and downstream consumers. Albertsson's
+[DataOps]({{ '/wiki/dataops/' | relative_url }}) framing keeps governance close
+to object storage and raw dumps. It also ties trust to ingress, egress, and
+versioning. Lineage matters too
 ([DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}),
 23:29-28:22 and 1:04:18-1:07:52).
 
@@ -259,9 +269,9 @@ lineage explicit parts of the platform rather than background details
 
 Both paths need [data quality and observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}),
 but the trust work concentrates in different places. In a warehouse-centered
-stack, tests and documentation often live around SQL models and BI-facing
-tables. In a lakehouse, the team also has to govern the table format and
-catalog. Raw storage and multiple access paths need control too.
+stack, teams usually test SQL models and document BI-facing tables. In a
+lakehouse, they also govern the table format and catalog. Raw storage and
+multiple access paths need control too.
 
 ## Cost and Lock-In
 
@@ -291,13 +301,14 @@ discusses headless table formats and portable compute options such as DuckDB
 cost engineering time. Access, lineage, and quality controls need operational
 attention too.
 
-Cost can therefore go either way, though Brudaru and Larson don't give a
-single warehouse-versus-lakehouse cost formula. A warehouse can be the cheaper
-choice when one managed SQL system serves the consumers and FinOps practices
+Cost can go either way, though Brudaru and Albertsson don't give a single
+warehouse-versus-lakehouse cost formula. A warehouse can be the cheaper choice
+when one managed SQL system serves the consumers and
+[FinOps]({{ '/wiki/finops-for-data-engineers/' | relative_url }}) practices
 control usage. A lakehouse can be the better choice when open storage, multiple
 engines, or long-lived raw history avoids expensive copying or product lock-in.
-Together, they support making that call from requirements rather than from
-architecture labels
+Together, the episodes support making that call from requirements rather than
+from architecture labels
 ([Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}),
 44:42 and
 [FinOps for Data Engineers]({{ '/podcasts/finops-for-data-engineers/' | relative_url }}),
@@ -322,9 +333,8 @@ Orchestration and
 40:18-46:17).
 
 A stronger lakehouse trigger is a concrete need for open storage and multiple
-compute engines. Raw-file retention and Spark-style processing make the case
-stronger. Lower vendor lock-in can do the same. ML workloads strengthen the
-case when they need shared open tables or Spark-style processing.
+compute engines. Raw-file retention, Spark-style processing, lower vendor
+lock-in, and shared ML tables strengthen the case.
 
 Albertsson's platform discussion places storage, compute, and workflow engines
 in the same architecture decision. Spark, Flink, and managed services belong
@@ -365,8 +375,8 @@ FinOps framing adds the cost side
 
 ## Related Pages
 
-Use these adjacent pages for the storage, platform, and analytics vocabulary
-around the comparison.
+Use these adjacent pages for the storage, platform, governance, and cost
+vocabulary around the comparison.
 
 - [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})

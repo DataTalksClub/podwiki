@@ -20,9 +20,9 @@ A [vector database]({{ '/wiki/vector-databases/' | relative_url }}) stores
 [embeddings]({{ '/wiki/embeddings/' | relative_url }}) and retrieves nearby
 vectors. A [search engine]({{ '/wiki/search/' | relative_url }}) indexes text
 and fields, while also handling filters, metadata, and ranking signals. Modern
-search engines may also store vectors. That makes the DataTalks.Club comparison
-less "vector database or search engine" and more "which part of the retrieval
-stack should own semantic matching?"
+search engines may also store vectors. The practical comparison is less
+"vector database or search engine" and more "which part of the retrieval stack
+should own semantic matching?"
 
 [Atita Arora]({{ '/people/atitaarora/' | relative_url }}) frames the choice as
 a migration from Solr and Lucene toward semantic retrieval. In
@@ -43,27 +43,31 @@ and [Graph RAG vs Vector RAG]({{ '/comparisons/graph-rag-vs-vector-rag/' | relat
 cover explicit relationships. Those comparisons fit cases where similar
 documents, products, images, or chunks aren't enough.
 
-## Common Definition
+## Semantic Retrieval Ownership
 
 A vector database stores learned representations and retrieves nearest
-neighbors. A search engine is a broader relevance system for indexing,
-filtering, ranking, and serving results.
-Atita's
+neighbors. A search engine is a broader relevance system for indexing text and
+fields. It also filters results, ranks candidates, and serves the final result
+set.
+
+[Atita Arora]({{ '/people/atitaarora/' | relative_url }}) supports the
+dedicated-vector-database path at 17:01 in
 [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
-episode supports the dedicated-vector-database path at 17:01 when teams want
-plug-and-play semantic search around embeddings. It also keeps existing search
-infrastructure in scope at 20:27.
+when teams want semantic search around embeddings. At 20:27 she keeps existing
+search infrastructure in scope. Search teams may already run Solr, Lucene,
+Elasticsearch, or OpenSearch.
 
-Daniel's
-[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }})
-episode makes the same split operational. He keeps inverted indexes and ranking
-central at 12:45-20:02. Vector databases store embeddings and support
-nearest-neighbor search at 27:21.
+[Daniel Svonava]({{ '/people/danielsvonava/' | relative_url }}) makes the same
+split operational in
+[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}).
+He keeps inverted indexes and ranking central at 12:45-20:02. At 27:21, vector
+databases store embeddings and support nearest-neighbor search, but they don't
+replace the rest of the relevance system.
 
-Use a dedicated vector database when semantic nearest-neighbor retrieval needs a
-separate retrieval path or fast iteration. Keep the existing search engine
-central when it already owns exact matching, filters, and metadata. Search
-engines often own ranking and freshness too.
+Use a dedicated vector database when semantic nearest-neighbor retrieval needs
+a separate retrieval path or fast iteration. Keep the existing search engine
+central when it already owns exact matching and filters. It may also own
+metadata, ranking, and freshness.
 
 Combine them when semantic recall matters but results still need lexical
 matching, metadata constraints, or business rules. Daniel's hybrid-search
@@ -82,7 +86,7 @@ improve production outcomes, which connects the choice to
 and Daniel's business-metric discussion at 1:01:25-1:03:50 in
 [Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}).
 
-## Guest Differences
+## Retrieval Stack Boundaries
 
 Atita starts from search migration. Her
 [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
@@ -210,8 +214,8 @@ reranking. That connects the comparison to
 where the retrieved item may be an image or product. It may also be a session
 or recommendation candidate rather than a document chunk. The search engine
 side still matters when the product experience depends on filters, metadata,
-and current item state. It also matters when ranking rules and measurable relevance drive the
-experience.
+and current item state. It also matters when ranking rules and measurable
+relevance drive the experience.
 
 ## Operations and Migration
 
@@ -235,7 +239,7 @@ operational question isn't which label is newer. It's which component should
 own semantic retrieval without breaking ranking, filters, monitoring, and
 iteration speed.
 
-## Evaluation Questions
+## Evaluation Criteria
 
 Evaluate the vector database path by checking whether semantic candidates
 contain the evidence or records the task needs. Product and image retrieval
@@ -255,9 +259,10 @@ vector-database-versus-search-engine decision should be validated through
 [Production Search Evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }}),
 not through infrastructure preference alone.
 
-## Related Pages
+## Related Retrieval Pages
 
-These pages cover neighboring retrieval, RAG, and evaluation topics:
+These pages cover the retrieval, RAG, and evaluation choices around this
+comparison:
 
 - [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
 - [Search]({{ '/wiki/search/' | relative_url }})
