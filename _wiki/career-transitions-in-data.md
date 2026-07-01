@@ -220,7 +220,7 @@ role-specific interview preparation matter as well
 1:15-13:32 and 47:39-56:11). These routes connect to
 [Software Engineer to Machine Learning]({{ '/wiki/software-engineer-to-machine-learning/' | relative_url }}),
 [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}), and
-[MLOps vs DevOps]({{ '/wiki/mlops-vs-devops/' | relative_url }}).
+[MLOps vs DevOps]({{ '/comparisons/mlops-vs-devops/' | relative_url }}).
 
 Academic transitions require the same translation but often start with stronger
 statistics and domain-data evidence.

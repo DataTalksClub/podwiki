@@ -75,6 +75,13 @@ Do not use these headings in public pages:
 Wiki pages should not target arbitrary SEO keywords. They should be comprehensive
 knowledge pages built from the podcast archive.
 
+## Stub Pages
+
+Stub wiki pages are allowed only when a topic link already exists and the page
+prevents a broken reader path. Mark them with `stub: true` in frontmatter, link
+to at least one existing hub page, and keep the body short. Replace the stub with
+podcast-grounded synthesis when the topic becomes important enough to cover.
+
 ## Podcast Summaries
 
 Podcast summaries live in `_podcast_summaries/`. They are not replacement podcast

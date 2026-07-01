@@ -120,7 +120,7 @@ deployment. In
 she draws the boundary between retrieval for changing knowledge and
 fine-tuning for behavior, style, or task adaptation at 40:46-46:42. That
 boundary anchors
-[RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }}).
+[RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }}).
 
 ## Search-First Architecture
 
@@ -259,7 +259,7 @@ Use RAG when the system mostly answers from a changing knowledge base and needs
 sources, citations, or reviewable evidence. Meryem's
 [Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }})
 discussion at 40:46-46:42 supports retrieval for changing knowledge, while
-[RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }}) captures
+[RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }}) captures
 the boundary with model adaptation.
 
 Use agents for planning and tool calls when the workflow needs API queries,
@@ -331,7 +331,7 @@ Meryem covers changing knowledge as a reason to prefer retrieval at
 These pages cover the neighboring retrieval, search, and LLM topics.
 
 - [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
-- [RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }})
+- [RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }})
 - [RAG Portfolio Projects]({{ '/wiki/rag-portfolio-projects/' | relative_url }})
 - [Search]({{ '/wiki/search/' | relative_url }})
 - [Information Retrieval]({{ '/wiki/information-retrieval/' | relative_url }})

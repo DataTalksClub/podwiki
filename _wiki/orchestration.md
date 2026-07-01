@@ -49,7 +49,7 @@ around 30:59-32:11, she places Airflow at the scheduling and orchestration
 layer. Airbyte handles extract-load work, while dbt handles warehouse-side SQL
 transformations once the data is present. Her discussion connects orchestration
 to [ETL]({{ '/wiki/etl/' | relative_url }}),
-[ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}), [dbt]({{ '/wiki/dbt/' | relative_url }}),
+[ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }}), [dbt]({{ '/wiki/dbt/' | relative_url }}),
 and the [modern data stack]({{ '/wiki/modern-data-stack/' | relative_url }}).
 
 Albertsson makes the same boundary from the platform side. In his DataOps

@@ -238,7 +238,7 @@ closer to modeled business data and metrics. They also require stakeholder
 definitions and warehouse-side transformations
 ([Tulski at 11:54-17:29]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }}),
 [Kwong at 12:39-18:47]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
-[Data Analyst vs Analytics Engineer]({{ '/wiki/data-analyst-vs-analytics-engineer/' | relative_url }})).
+[Data Analyst vs Analytics Engineer]({{ '/comparisons/data-analyst-vs-analytics-engineer/' | relative_url }})).
 
 The archive's practical advice is to narrow the target before building proof.
 For platform data engineering, build a small data platform and make operability
@@ -260,5 +260,5 @@ These pages cover the nearby role, stack, portfolio, and reliability topics.
 - [Data Observability]({{ '/wiki/data-observability/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
-- [MLOps vs DevOps]({{ '/wiki/mlops-vs-devops/' | relative_url }})
+- [MLOps vs DevOps]({{ '/comparisons/mlops-vs-devops/' | relative_url }})
 - [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})

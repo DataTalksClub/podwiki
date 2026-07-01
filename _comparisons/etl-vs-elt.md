@@ -33,8 +33,8 @@ She explains ETL at 3:46 and uses customer acquisition cost as a
 transform-before-load example at 6:37. She explains ELT's flexibility at 7:57,
 then connects ELT to dbt and analyst autonomy at 12:39.
 
-For the full archive-backed reference, use
-[ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}). Use
+For deeper pipeline context, use
+[ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }}). Use
 [ETL]({{ '/wiki/etl/' | relative_url }}) for transform-before-load pipelines and
 [ELT]({{ '/wiki/elt/' | relative_url }}) for load-first warehouse modeling.
 
@@ -161,7 +161,7 @@ hide source detail that future teams will need.
 
 These pages cover the deeper topic nodes behind the decision:
 
-- [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }})
+- [ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }})
 - [ETL]({{ '/wiki/etl/' | relative_url }})
 - [ELT]({{ '/wiki/elt/' | relative_url }})
 - [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})

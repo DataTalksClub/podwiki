@@ -70,7 +70,7 @@ correctly. It should state what one row means, which joins preserve the grain,
 and which caveats stakeholders should know.
 
 [Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) places the same
-work inside [ETL and ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}). Data
+work inside [ETL and ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }}). Data
 arrives first, and analysts or analytics engineers then transform it with SQL and
 dbt and publish data marts or consumption tables
 ([7:57-18:47 and 31:31]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})).
@@ -252,7 +252,7 @@ add dimensional choices and a concise dashboard or query notebook.
 Junior candidates can win with a smaller project when the grain definitions and
 tests are strong. Docs and SQL explanations can matter more than a broad stack
 that hides the modeling decisions. Connect the writeup to
-[Data Analyst vs Analytics Engineer]({{ '/wiki/data-analyst-vs-analytics-engineer/' | relative_url }})
+[Data Analyst vs Analytics Engineer]({{ '/comparisons/data-analyst-vs-analytics-engineer/' | relative_url }})
 when the project explains the move from interpreting a dashboard to owning
 reusable analytical models.
 
@@ -330,7 +330,7 @@ These pages cover the role, stack, and adjacent portfolio context:
 - [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
 - [Analytics Engineering Roadmap]({{ '/wiki/analytics-engineering-roadmap/' | relative_url }})
 - [Data Analyst to Analytics Engineer Roadmap]({{ '/roadmaps/data-analyst-to-analytics-engineer/' | relative_url }})
-- [Data Analyst vs Analytics Engineer]({{ '/wiki/data-analyst-vs-analytics-engineer/' | relative_url }})
+- [Data Analyst vs Analytics Engineer]({{ '/comparisons/data-analyst-vs-analytics-engineer/' | relative_url }})
 - [Marketing to Analytics Engineering]({{ '/wiki/marketing-to-analytics-engineering/' | relative_url }})
 - [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
 - [Dashboard and Metric Layer Project Checklist]({{ '/wiki/dashboard-and-metric-layer-project-checklist/' | relative_url }})
@@ -340,7 +340,7 @@ These pages cover the role, stack, and adjacent portfolio context:
 - [Data Activation]({{ '/wiki/data-activation/' | relative_url }})
 - [Reverse ETL]({{ '/wiki/reverse-etl/' | relative_url }})
 - [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
-- [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }})
+- [ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }})
 - [dbt]({{ '/wiki/dbt/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})

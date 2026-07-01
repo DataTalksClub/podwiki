@@ -102,7 +102,7 @@ Teams also decide how much source detail to preserve during ingestion. Kwong's
 ELT discussion argues for loading first when teams need flexibility (7:57-10:00 in
 [ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})).
 That choice helps when business logic changes later.
-That connects directly to [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}).
+That connects directly to [ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }}).
 ETL can still fit large enterprises or complex staging needs, which Kwong
 covers at 41:30.
 
@@ -258,7 +258,7 @@ These pages cover adjacent tools, practices, and tradeoffs:
 
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
 - [Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }})
-- [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }})
+- [ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }})
 - [ELT]({{ '/wiki/elt/' | relative_url }})
 - [dbt]({{ '/wiki/dbt/' | relative_url }})
 - [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})

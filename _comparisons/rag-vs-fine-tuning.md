@@ -30,8 +30,8 @@ At 26:30, she connects fine-tuning to specialization and domain adaptation.
 At 40:46-46:42, she explains why teams should retrieve over changing
 documentation instead of continuously retraining the model.
 
-For the full archive reference, use
-[RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }}). Use
+For the broader production context, use
+[RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }}). Use
 [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
 for RAG mechanics and
 [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }})
@@ -180,7 +180,7 @@ outcome-based checks belong there too
 
 These pages cover the surrounding retrieval, adaptation, and production topics:
 
-- [RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }})
+- [RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }})
 - [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
 - [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
 - [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})

@@ -112,7 +112,7 @@ from production LLM deployment. In
 she argues at 40:46-46:42 that retrieval is often better than repeated
 fine-tuning when knowledge changes. At 48:01, she describes vector databases as
 an indexing and semantic-search layer. Her boundary connects this page to
-[RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }}) and
+[RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }}) and
 [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }}).
 
 The vector database is useful because it updates the knowledge path. It doesn't
@@ -264,7 +264,7 @@ These pages cover neighboring retrieval, RAG, and evaluation topics:
 - [Vector Databases]({{ '/wiki/vector-databases/' | relative_url }})
 - [Embeddings]({{ '/wiki/embeddings/' | relative_url }})
 - [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
-- [RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }})
+- [RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }})
 - [Production Search Evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }})
 - [Knowledge Graph vs Vector Search]({{ '/comparisons/knowledge-graph-vs-vector-search/' | relative_url }})
 - [Graph RAG vs Vector RAG]({{ '/comparisons/graph-rag-vs-vector-rag/' | relative_url }})

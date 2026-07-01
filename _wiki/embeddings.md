@@ -138,7 +138,7 @@ she compares retrieval with retraining around 40:46-42:02. Retrieval fits
 systems that need current or proprietary knowledge. The team can re-ingest,
 re-embed, and re-index documents instead of fine-tuning the model every time
 facts change. That's the same distinction used on
-[RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }}).
+[RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }}).
 
 Hugo's RAG workflow gives the builder's version of the same idea. Around 44:26
 in
@@ -221,6 +221,6 @@ Use these pages for the surrounding architecture and evaluation details.
 - [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
 - [NLP]({{ '/wiki/nlp/' | relative_url }})
 - [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
-- [RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }})
+- [RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }})
 - [Production Search Evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }})
 - [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }})

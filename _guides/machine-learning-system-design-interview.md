@@ -24,7 +24,7 @@ idea into a product system. In
 round around assumptions and baselines. He then connects labels and metrics to
 A/B tests, monitoring, fallbacks, and MLOps ownership. The maintained
 [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
-page preserves that same archive structure.
+page covers the same interview structure in more detail.
 
 Start with the decision, then work through data and evaluation. Serving,
 operations, and ownership come next.

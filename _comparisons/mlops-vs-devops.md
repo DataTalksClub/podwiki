@@ -256,7 +256,7 @@ These pages cover the operating models and production concepts behind the
 comparison:
 
 - [MLOps]({{ '/wiki/mlops/' | relative_url }})
-- [MLOps vs DevOps]({{ '/wiki/mlops-vs-devops/' | relative_url }})
+- [MLOps vs DevOps]({{ '/comparisons/mlops-vs-devops/' | relative_url }})
 - [Software Engineering]({{ '/wiki/software-engineering/' | relative_url }})
 - [Platform Engineering]({{ '/wiki/platform-engineering/' | relative_url }})
 - [CI/CD]({{ '/wiki/ci-cd/' | relative_url }})

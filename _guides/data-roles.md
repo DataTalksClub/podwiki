@@ -152,7 +152,7 @@ reliability.
 Roksolana Diachuk places data cleaning and feature engineering near data
 science. Model cycles sit there too. ETL and storage stay closer to data
 engineering, along with Spark optimization, monitoring, and schema changes
-([Data Engineer vs Data Scientist]({{ '/wiki/data-engineer-vs-data-scientist/' | relative_url }})).
+([Data Engineer vs Data Scientist]({{ '/comparisons/data-engineer-vs-data-scientist/' | relative_url }})).
 
 Data analyst versus analytics engineer is a split between interpreting
 questions and maintaining reusable analytical assets. Analysts answer product
@@ -166,7 +166,7 @@ shows the overlap in
 Marketing reporting and SQL can sit on the path from analyst-like work into
 analytics engineering. Looker, product analytics, `dbt`, and A/B testing can
 join the same path
-([Data Analyst vs Analytics Engineer]({{ '/wiki/data-analyst-vs-analytics-engineer/' | relative_url }})).
+([Data Analyst vs Analytics Engineer]({{ '/comparisons/data-analyst-vs-analytics-engineer/' | relative_url }})).
 
 Data engineer versus analytics engineer is a split between platform paths and
 business-facing models. Data engineers tend to own ingestion and orchestration.

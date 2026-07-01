@@ -31,7 +31,7 @@ often. Source detail stays available. Analysts can write new SQL
 transformations. Data engineers don't need to re-extract a source every time a
 new field or question appears.
 
-Use [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }})
+Use [ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }})
 for the full reference comparison and [ETL]({{ '/wiki/etl/' | relative_url }})
 for the transform-before-load side. Use the shorter
 [ETL vs ELT decision guide]({{ '/comparisons/etl-vs-elt/' | relative_url }})

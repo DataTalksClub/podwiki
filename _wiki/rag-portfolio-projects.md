@@ -248,7 +248,7 @@ model drift. At 49:44-51:35, she compares hosted APIs with open-source serving
 and covers latency, cost, and hardware. Deployment tradeoffs belong in the same
 review. These constraints connect the project to
 [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
-and [RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }}).
+and [RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }}).
 
 Ranjitha's RAG reality check at 29:30-37:39 in
 [Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }})
@@ -265,7 +265,7 @@ These pages cover the concepts and project standards around RAG portfolio work.
 - [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }}) for retrieval architecture and knowledge-system tradeoffs.
 - [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }}) for gold sets, traces, and failure analysis.
 - [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }}) for deployment, latency, cost, observability, and model-risk context.
-- [RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }}) for deciding whether changing knowledge belongs in retrieval or model adaptation.
+- [RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }}) for deciding whether changing knowledge belongs in retrieval or model adaptation.
 - [Vector Databases]({{ '/wiki/vector-databases/' | relative_url }}) and [Embeddings]({{ '/wiki/embeddings/' | relative_url }}) for retrieval infrastructure choices.
 - [Graph RAG vs Vector RAG]({{ '/comparisons/graph-rag-vs-vector-rag/' | relative_url }}) for projects where relationships matter as much as text similarity.
 - [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}) for the broader project-evidence standard.

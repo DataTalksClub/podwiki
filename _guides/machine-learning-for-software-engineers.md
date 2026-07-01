@@ -424,7 +424,7 @@ These traps weaken the transition story:
 The better path is narrower. Choose a role, build projects that fit that role,
 and make your tradeoffs visible.
 
-The warning comes from the same archive evidence.
+The same warning appears across the linked episodes.
 [Santiago]({{ '/podcasts/from-software-engineer-to-machine-learning/' | relative_url }})
 starts from projects, and
 [Ben]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }})

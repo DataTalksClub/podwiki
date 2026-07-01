@@ -152,7 +152,7 @@ Looker in
 [Master Analytics Engineering]({{ '/podcasts/analytics-engineer-skills-tools/' | relative_url }})
 around 4:05-10:04. She also explains the overlap with analysts around
 14:34-16:54. The
-[Data Analyst vs Analytics Engineer]({{ '/wiki/data-analyst-vs-analytics-engineer/' | relative_url }})
+[Data Analyst vs Analytics Engineer]({{ '/comparisons/data-analyst-vs-analytics-engineer/' | relative_url }})
 page gives the practical boundary. Analysts own decision support. Analytics
 engineers own reusable and tested analytical models.
 

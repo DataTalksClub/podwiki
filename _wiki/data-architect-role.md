@@ -170,8 +170,6 @@ job is the structure and quality of the data system.
 
 ## Related Pages
 
-These pages cover adjacent roles, systems, and operating concerns.
-
 - [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }})
 - [Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }})
 - [Data Teams]({{ '/wiki/data-teams/' | relative_url }})

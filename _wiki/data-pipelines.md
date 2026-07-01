@@ -32,7 +32,7 @@ ingestion and orchestration come before modeling. Transformation, analytics
 outputs, and production ML handoffs belong in the same conversation.
 
 This topic covers pipeline design. Use
-[ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}) for the transformation
+[ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }}) for the transformation
 boundary, while [Orchestration]({{ '/wiki/orchestration/' | relative_url }})
 and [Apache Airflow]({{ '/wiki/orchestration/' | relative_url }}) cover
 scheduling and dependencies. Use
@@ -328,7 +328,7 @@ classes, and tests.
 
 ## Adjacent Topics
 
-Use [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}) when the question is
+Use [ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }}) when the question is
 where transformations should run. Use [CDC]({{ '/wiki/cdc/' | relative_url }})
 when the source data changes incrementally and full reloads are wasteful. Use
 [Orchestration]({{ '/wiki/orchestration/' | relative_url }}) and

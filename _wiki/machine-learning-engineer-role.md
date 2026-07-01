@@ -239,9 +239,6 @@ has to move those predictions into a product or operational system.
 
 ## Related Pages
 
-Use these pages for adjacent roles, production work, projects, and interview
-preparation.
-
 - [Machine Learning]({{ '/wiki/machine-learning/' | relative_url }})
 - [Machine Learning Engineer Roadmap]({{ '/roadmaps/machine-learning-engineer-roadmap/' | relative_url }})
 - [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})

@@ -92,7 +92,7 @@ uses the older ML vocabulary of validation sets at 40:16-41:39. That framing is
 useful for data scientists moving into AI engineering. Even when the base model
 comes from a provider, the product team still owns representative cases and
 data splits. It also owns labels and acceptance criteria. Use
-[RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }}) when the
+[RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }}) when the
 eval result is deciding whether to change prompts and retrieval or change model
 behavior through fine-tuning.
 
@@ -208,7 +208,7 @@ Continue with these related pages:
 - [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
 - [RAG]({{ '/wiki/rag/' | relative_url }})
 - [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
-- [RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }})
+- [RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }})
 - [Production Search Evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }})
 - [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }})
 - [Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }})

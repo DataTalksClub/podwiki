@@ -48,7 +48,7 @@ Use these archive paths to place the warehouse in context:
 
 - [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}) for the
   stack around warehouse analytics.
-- [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}) for the load-first
+- [ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }}) for the load-first
   versus transform-first tradeoff.
 - [Data Lake]({{ '/wiki/data-lake/' | relative_url }}) and
   [Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})

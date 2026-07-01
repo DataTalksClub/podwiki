@@ -40,7 +40,7 @@ Core wiki pages:
 - [LLMs]({{ '/wiki/llms/' | relative_url }})
 - [Prompt Engineering]({{ '/wiki/prompt-engineering/' | relative_url }})
 - [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
-- [RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }})
+- [RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }})
 - [Vector Databases]({{ '/wiki/vector-databases/' | relative_url }})
 - [Embeddings]({{ '/wiki/embeddings/' | relative_url }})
 - [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }})

@@ -84,7 +84,7 @@ data from sources such as ads APIs into warehouses such as Snowflake. Around
 instead of reloading a whole source each time. That makes CDC useful when
 database changes matter and full reloads are too slow or too expensive.
 
-The [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}) choice shapes the
+The [ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }}) choice shapes the
 rest of the stack. ETL transforms before loading, which can fit compliance,
 source constraints, or large enterprise staging needs. Kwong still gives ETL a
 place around 41:30 when enterprise systems need complex staging. ELT loads
@@ -311,7 +311,7 @@ The main tool categories connect to these pages:
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
 - [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
 - [Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }})
-- [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }})
+- [ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }})
 - [Orchestration]({{ '/wiki/orchestration/' | relative_url }})
 - [Data Warehouse vs Data Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }})
 - [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})

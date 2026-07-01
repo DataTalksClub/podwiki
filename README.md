@@ -91,6 +91,9 @@ Check generated internal links after a build:
 python scripts/check_links.py
 ```
 
+The GitHub Pages workflow runs the same link check on each push to `main` with
+the deployed `/podwiki` base URL.
+
 ## Search Lambda
 
 Build the packed Zerosearch artifact:

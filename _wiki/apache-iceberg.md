@@ -50,7 +50,7 @@ Related wiki pages:
   [Data Governance]({{ '/wiki/data-governance/' | relative_url }}), and
   [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
   cover the operating practices that keep lakehouse tables trustworthy.
-- [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}) and
+- [ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }}) and
   [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}) cover
   the ingestion and transformation choices around the storage layer.
 
@@ -261,7 +261,7 @@ same split
 ([Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}),
 18:17-23:41).
 
-That puts Iceberg beside [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}).
+That puts Iceberg beside [ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }}).
 It also belongs beside [DataOps]({{ '/wiki/dataops/' | relative_url }}) and
 [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}) rather
 than above them.
@@ -283,7 +283,7 @@ Continue with these adjacent archive topics:
 - [Delta Lake vs Apache Iceberg]({{ '/comparisons/delta-lake-vs-apache-iceberg/' | relative_url }})
 - [DuckDB]({{ '/wiki/duckdb/' | relative_url }})
 - [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
-- [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }})
+- [ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }})
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})
 - [Data Governance]({{ '/wiki/data-governance/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})

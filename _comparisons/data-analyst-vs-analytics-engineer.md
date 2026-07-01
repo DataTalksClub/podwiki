@@ -36,8 +36,8 @@ At 4:05-10:04, she describes data modeling and pipelines. She also covers data
 quality, Looker, and `dbt`. Tests, documentation, and dependency graphs come
 with that workflow.
 
-For the archive reference page, use
-[Data Analyst vs Analytics Engineer]({{ '/wiki/data-analyst-vs-analytics-engineer/' | relative_url }}).
+For the detailed role-boundary comparison, use
+[Data Analyst vs Analytics Engineer]({{ '/comparisons/data-analyst-vs-analytics-engineer/' | relative_url }}).
 For the two role hubs, use
 [Data Analyst Role]({{ '/wiki/data-analyst-role/' | relative_url }}) and
 [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }}).
@@ -324,7 +324,7 @@ behind the comparison:
 - [Data Analyst Role]({{ '/wiki/data-analyst-role/' | relative_url }})
 - [Data Analyst Careers]({{ '/wiki/data-analyst-careers/' | relative_url }})
 - [Data Analyst to Analytics Engineer Roadmap]({{ '/roadmaps/data-analyst-to-analytics-engineer/' | relative_url }})
-- [Data Analyst vs Analytics Engineer]({{ '/wiki/data-analyst-vs-analytics-engineer/' | relative_url }})
+- [Data Analyst vs Analytics Engineer]({{ '/comparisons/data-analyst-vs-analytics-engineer/' | relative_url }})
 - [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
 - [Data Roles Guide]({{ '/guides/data-roles/' | relative_url }})
 - [Analytics Engineering Roadmap]({{ '/wiki/analytics-engineering-roadmap/' | relative_url }})

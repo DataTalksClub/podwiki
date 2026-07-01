@@ -18,7 +18,7 @@ LLM production patterns are the design choices teams use when a
 [large language model]({{ '/wiki/llms/' | relative_url }}) becomes a product
 feature instead of a demo. In the DataTalks.Club archive, those choices include
 model serving and [retrieval-augmented generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}).
-They also include [RAG vs fine-tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }}),
+They also include [RAG vs fine-tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }}),
 [agent engineering]({{ '/wiki/agent-engineering/' | relative_url }}),
 evaluation, and security. Cost, latency, and ownership stay part of the same
 production question.
@@ -288,7 +288,7 @@ They also cover evaluation, agents, governance, and project ideas:
 - [LLM and RAG Production Roadmap]({{ '/roadmaps/llm-rag-production-roadmap/' | relative_url }})
 - [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
 - [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
-- [RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }})
+- [RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }})
 - [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }})
 - [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }})
 - [AI Engineer Role]({{ '/wiki/ai-engineer-role/' | relative_url }})

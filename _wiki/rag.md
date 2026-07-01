@@ -21,7 +21,7 @@ Use this common-name page for practical RAG implementation choices around
 retrieval chunks, [embeddings]({{ '/wiki/embeddings/' | relative_url }}), and
 [vector databases]({{ '/wiki/vector-databases/' | relative_url }}). It also
 covers citation and evaluation choices, plus security and graph variants. For
-the boundary with [fine-tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }})
+the boundary with [fine-tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }})
 and [agents]({{ '/wiki/agent-engineering/' | relative_url }}), continue to the
 final section.
 
@@ -189,7 +189,7 @@ answers, while fine-tuning fits style and tone. It also fits domain adaptation
 and repeated task behavior
 ([Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}),
 26:30-31:38 and 40:46-46:42). Use
-[RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }}) for that
+[RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }}) for that
 comparison.
 
 Long context also doesn't make RAG disappear. [Lavanya Gupta]({{ '/people/lavanyagupta/' | relative_url }})

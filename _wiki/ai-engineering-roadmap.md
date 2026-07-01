@@ -195,7 +195,7 @@ human-in-the-loop evaluation in
 A good roadmap project at this stage includes ingestion, chunking, and
 metadata. It also includes embeddings, retrieval, citations, and retrieval
 failure analysis. Compare the choices through
-[RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }}),
+[RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }}),
 [Search and RAG Project Checklist]({{ '/wiki/search-and-rag-project-checklist/' | relative_url }}),
 and [RAG Portfolio Projects]({{ '/wiki/rag-portfolio-projects/' | relative_url }}).
 
@@ -378,7 +378,7 @@ Continue with these roadmap and reference pages:
 - [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
 - [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
 - [RAG Portfolio Projects]({{ '/wiki/rag-portfolio-projects/' | relative_url }})
-- [RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }})
+- [RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }})
 - [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }})
 - [AI Agents]({{ '/wiki/ai-agents/' | relative_url }})
 - [Multi-Agent Systems]({{ '/wiki/multi-agent-systems/' | relative_url }})

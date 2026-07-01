@@ -65,7 +65,7 @@ adds the technical edge in
 data scientists clean data and prepare features. They iterate on models, and
 they understand deployment inputs and outputs well enough to collaborate with
 data engineers. That's why the role overlaps with
-[Data Engineer vs Data Scientist]({{ '/wiki/data-engineer-vs-data-scientist/' | relative_url }})
+[Data Engineer vs Data Scientist]({{ '/comparisons/data-engineer-vs-data-scientist/' | relative_url }})
 and [MLOps]({{ '/wiki/mlops/' | relative_url }}) without becoming the same job.
 
 ## Core Responsibilities
@@ -163,7 +163,7 @@ Roksolana Diachuk's
 episode puts feature work and model cycles near the data scientist boundary.
 Deployment awareness is on that boundary too. ETL and Spark performance sit
 closer to engineering. Storage, monitoring, and schema work do as well
-([Data Engineer vs Data Scientist]({{ '/wiki/data-engineer-vs-data-scientist/' | relative_url }})).
+([Data Engineer vs Data Scientist]({{ '/comparisons/data-engineer-vs-data-scientist/' | relative_url }})).
 
 The boundary with machine learning engineering appears when models go to
 production. Oleg Novikov's
@@ -263,7 +263,7 @@ Ask who owns data pipelines and model deployment, then ask who owns monitoring,
 dashboards, and production incidents. Roksolana Diachuk's
 [Big Data Engineer vs Data Scientist]({{ '/podcasts/big-data-engineer-vs-data-scientist/' | relative_url }})
 episode shows why these boundaries affect the daily work.
-[Data Engineer vs Data Scientist]({{ '/wiki/data-engineer-vs-data-scientist/' | relative_url }})
+[Data Engineer vs Data Scientist]({{ '/comparisons/data-engineer-vs-data-scientist/' | relative_url }})
 is the deeper role-boundary reference.
 
 ## Go Deeper
@@ -275,6 +275,6 @@ Use these archive-backed pages for the next step:
 - [Data Science Careers]({{ '/wiki/data-science-careers/' | relative_url }})
 - [Data Scientist Interview Roadmap]({{ '/wiki/data-scientist-interview-roadmap/' | relative_url }})
 - [Data Scientist Interview]({{ '/guides/data-scientist-interview/' | relative_url }})
-- [Data Engineer vs Data Scientist]({{ '/wiki/data-engineer-vs-data-scientist/' | relative_url }})
+- [Data Engineer vs Data Scientist]({{ '/comparisons/data-engineer-vs-data-scientist/' | relative_url }})
 - [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
 - [Job Search]({{ '/wiki/job-search/' | relative_url }})

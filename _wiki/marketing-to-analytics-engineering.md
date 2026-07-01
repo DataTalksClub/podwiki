@@ -59,7 +59,7 @@ and she emphasizes collaboration
 ([analytics-engineer skills episode at 4:05-11:48 and 33:02-36:44]({{ '/podcasts/analytics-engineer-skills-tools/' | relative_url }})).
 
 That role definition puts the transition next to
-[Data Analyst vs Analytics Engineer]({{ '/wiki/data-analyst-vs-analytics-engineer/' | relative_url }})
+[Data Analyst vs Analytics Engineer]({{ '/comparisons/data-analyst-vs-analytics-engineer/' | relative_url }})
 and the [Analytics Engineering Roadmap]({{ '/wiki/analytics-engineering-roadmap/' | relative_url }}).
 The broader analyst path is covered in
 [Data Analyst to Analytics Engineer Roadmap]({{ '/roadmaps/data-analyst-to-analytics-engineer/' | relative_url }}).
@@ -244,7 +244,7 @@ on:
 - [Data Analyst to Analytics Engineer Roadmap]({{ '/roadmaps/data-analyst-to-analytics-engineer/' | relative_url }})
 - [Analytics Engineering Portfolio Projects]({{ '/wiki/analytics-engineering-portfolio-projects/' | relative_url }})
 - [Dashboard and Metric Layer Project Checklist]({{ '/wiki/dashboard-and-metric-layer-project-checklist/' | relative_url }})
-- [Data Analyst vs Analytics Engineer]({{ '/wiki/data-analyst-vs-analytics-engineer/' | relative_url }})
+- [Data Analyst vs Analytics Engineer]({{ '/comparisons/data-analyst-vs-analytics-engineer/' | relative_url }})
 - [Business Intelligence]({{ '/wiki/business-intelligence/' | relative_url }})
 - [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }})
 - [A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }})

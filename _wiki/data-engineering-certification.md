@@ -181,7 +181,7 @@ Certification programs often use platform names to sound job-ready.
 You still need to understand the categories behind those platforms:
 
 - [data pipelines]({{ '/wiki/data-pipelines/' | relative_url }})
-- [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }})
+- [ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }})
 - [modern data stack]({{ '/wiki/modern-data-stack/' | relative_url }})
 - [data warehouses]({{ '/wiki/data-warehouse/' | relative_url }})
 - [data lakes]({{ '/wiki/data-lake/' | relative_url }})

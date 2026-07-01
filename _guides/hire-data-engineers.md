@@ -314,7 +314,7 @@ be the better first hire. If both are broken, choose a senior generalist or
 split the roadmap into two roles.
 
 The [analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
-and [data analyst vs analytics engineer]({{ '/wiki/data-analyst-vs-analytics-engineer/' | relative_url }})
+and [data analyst vs analytics engineer]({{ '/comparisons/data-analyst-vs-analytics-engineer/' | relative_url }})
 pages give a deeper comparison.
 
 ## Support the Hire After the Offer

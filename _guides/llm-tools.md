@@ -40,7 +40,7 @@ In
 [Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}),
 [Ranjitha Kulkarni]({{ '/people/ranjithakulkarni/' | relative_url }}) adds
 tools, memory, and knowledge stores. She also adds context engineering and
-agent tests. For the reference version of the archive synthesis, use
+agent tests. For the broader production patterns, use
 [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }}).
 
 ## Start With The Job, Not The Framework
@@ -85,7 +85,7 @@ Use that split when you choose between an API, a hosted open-source endpoint, or
 self-hosting. Model ownership matters when the feature handles private data or
 regulated workflows. It also matters when behavior must stay stable across
 releases. If the feature is still a low-risk prototype, an API may buy speed.
-Use [RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }}) for
+Use [RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }}) for
 the deeper adaptation decision, because model choice usually sits beside the
 choice to retrieve current knowledge or adapt model behavior.
 

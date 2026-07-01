@@ -236,7 +236,7 @@ structure with open data. Show a consumer-driven data path, not a generic stack
 diagram.
 
 Use [Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }}),
-[ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}), and
+[ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }}), and
 [End-to-End Data Pipeline Project]({{ '/wiki/end-to-end-data-pipeline-project/' | relative_url }})
 for implementation patterns.
 

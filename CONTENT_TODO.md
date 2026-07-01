@@ -72,6 +72,9 @@ These notes capture the current cleanup direction and should not be lost.
 - Name concept pages by the concept, not by "What is ..." phrasing. Use
   `Open Source`, `MLOps`, or `DataOps` as page names; keep "what is" only as a
   keyword variant in frontmatter or audit notes.
+- Keep stub pages temporary. A stub may exist only to satisfy an existing link,
+  must use `stub: true`, must point to an existing hub page, and should be
+  replaced with podcast-grounded synthesis when the topic becomes important.
 
 ## Roles
 

@@ -203,10 +203,10 @@ A model, pipeline, platform investment, or manual process improvement may be
 the right next step
 ([31:45-47:18]({{ '/podcasts/building-and-scaling-ai-data-products-with-mlops/' | relative_url }})).
 
-For title-level comparisons, see
 [Data Product Manager vs Product Manager]({{ '/comparisons/data-product-manager-vs-product-manager/' | relative_url }})
 and
-[Product Owner vs Product Manager]({{ '/comparisons/product-owner-vs-product-manager/' | relative_url }}).
+[Product Owner vs Product Manager]({{ '/comparisons/product-owner-vs-product-manager/' | relative_url }})
+separate the title boundaries.
 
 ## Roadmaps and Backlog Decisions
 
@@ -281,7 +281,8 @@ aligning mental models inside the team
 
 ## Related Pages
 
-These pages cover adjacent roles, systems, and operating practices.
+These pages connect ML product management to product, platform, and adoption
+topics.
 
 - [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
 - [Data Products]({{ '/wiki/data-products/' | relative_url }})

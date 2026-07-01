@@ -302,7 +302,7 @@ Good project examples include:
 Look for the analyst's ability to connect product behavior and data quality.
 The recommendation should also show statistical reasoning.
 
-Use the podcast archive to ground the portfolio evidence:
+Strong portfolio examples can draw on these podcast examples:
 
 - An experiment readout should show assignment, metric choice, and power
   reasoning from

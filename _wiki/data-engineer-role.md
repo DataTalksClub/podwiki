@@ -236,8 +236,8 @@ experimentation, and decision quality. At 13:56, Roksolana puts data cleaning
 and feature engineering on the data science side.
 
 The 4:26 and 6:38 sections keep ETL, storage, and Spark performance on the
-engineering side. The full comparison lives in
-[Data Engineer vs Data Scientist]({{ '/wiki/data-engineer-vs-data-scientist/' | relative_url }}).
+engineering side
+([Data Engineer vs Data Scientist]({{ '/comparisons/data-engineer-vs-data-scientist/' | relative_url }})).
 
 The boundary with
 [analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
@@ -270,14 +270,15 @@ production controls around AI products.
 
 ## Related Pages
 
-Use these pages for adjacent role, tooling, platform, and transition context.
+These pages connect the data engineer role to adjacent platforms and role
+boundaries.
 
 - [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }})
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
 - [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
 - [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
 - [Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }})
-- [Data Engineer vs Data Scientist]({{ '/wiki/data-engineer-vs-data-scientist/' | relative_url }})
+- [Data Engineer vs Data Scientist]({{ '/comparisons/data-engineer-vs-data-scientist/' | relative_url }})
 - [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})
 - [DataOps vs Data Engineering]({{ '/comparisons/dataops-vs-data-engineering/' | relative_url }})

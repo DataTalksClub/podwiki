@@ -86,7 +86,7 @@ Teams can index the knowledge base, retrieve the relevant section, and ground
 the answer in documentation. That avoids repeatedly fine-tuning the model on
 changing facts.
 That boundary connects this page to
-[RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }}).
+[RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }}).
 
 [Ranjitha Kulkarni]({{ '/people/ranjithakulkarni/' | relative_url }}) treats
 retrieval as one tool inside agentic systems. In

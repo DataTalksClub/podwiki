@@ -32,7 +32,7 @@ bridge between analytics work and software engineering habits.
 ## Warehouse-Side Transformation
 
 dbt belongs most naturally to warehouse-side transformation in the
-[ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}) discussion.
+[ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }}) discussion.
 [Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) explains that
 move in
 [ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}).

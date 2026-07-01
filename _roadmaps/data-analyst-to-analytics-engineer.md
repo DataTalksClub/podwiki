@@ -43,7 +43,7 @@ question, interpretation, dashboard, and recommendation. An
 [analytics engineer]({{ '/wiki/analytics-engineering/' | relative_url }}) owns
 the reusable model layer that makes those answers safer to repeat. The role
 boundary is covered in
-[Data Analyst vs Analytics Engineer]({{ '/wiki/data-analyst-vs-analytics-engineer/' | relative_url }}).
+[Data Analyst vs Analytics Engineer]({{ '/comparisons/data-analyst-vs-analytics-engineer/' | relative_url }}).
 
 The broader skill sequence lives in
 [Analytics Engineering Roadmap]({{ '/wiki/analytics-engineering-roadmap/' | relative_url }}).
@@ -259,7 +259,7 @@ understand the work without reverse-engineering the code.
 These pages cover the adjacent roles, skills, and portfolio patterns.
 
 - [Data Analyst Role]({{ '/wiki/data-analyst-role/' | relative_url }})
-- [Data Analyst vs Analytics Engineer]({{ '/wiki/data-analyst-vs-analytics-engineer/' | relative_url }})
+- [Data Analyst vs Analytics Engineer]({{ '/comparisons/data-analyst-vs-analytics-engineer/' | relative_url }})
 - [Data Analyst vs Analytics Engineer Comparison]({{ '/comparisons/data-analyst-vs-analytics-engineer/' | relative_url }})
 - [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
 - [Analytics Engineering Roadmap]({{ '/wiki/analytics-engineering-roadmap/' | relative_url }})

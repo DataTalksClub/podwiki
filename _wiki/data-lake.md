@@ -75,7 +75,7 @@ Events and application data may need that too
 ([ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
 24:24-27:39).
 
-That makes [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}) part of the
+That makes [ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }}) part of the
 same decision. ELT loads source data first. The team then transforms it in an
 analytical destination.
 
@@ -298,7 +298,7 @@ for the architecture tradeoff. Use
 choices over lake storage.
 
 Use [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}) and
-[ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}) for ingestion and
+[ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }}) for ingestion and
 transformation boundaries. Use
 [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}),
 [DataOps]({{ '/wiki/dataops/' | relative_url }}), and

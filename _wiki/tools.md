@@ -155,7 +155,7 @@ That stack view links directly to these graph nodes:
 
 - [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
 - [ETL]({{ '/wiki/etl/' | relative_url }})
-- [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }})
+- [ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }})
 - [dbt]({{ '/wiki/dbt/' | relative_url }})
 - [Data Lake]({{ '/wiki/data-lake/' | relative_url }})
 - [Data Warehouse]({{ '/wiki/data-warehouse/' | relative_url }})

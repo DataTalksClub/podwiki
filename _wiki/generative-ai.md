@@ -145,7 +145,7 @@ Hugo gives the product-building version in
 At 44:26, he frames RAG as a quick path to business wins. At 48:20, he compares
 chunking strategies such as fixed length and sliding windows. At 50:19, he
 draws the boundary between RAG and agent tool calls. Use
-[RAG vs fine-tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }}) for that
+[RAG vs fine-tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }}) for that
 tradeoff in more detail.
 
 ## Production Engineering
@@ -256,7 +256,7 @@ often.
 - [NLP]({{ '/wiki/nlp/' | relative_url }})
 - [Prompt Engineering]({{ '/wiki/prompt-engineering/' | relative_url }})
 - [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
-- [RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }})
+- [RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }})
 - [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
 - [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }})
 - [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }})

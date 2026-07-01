@@ -82,7 +82,7 @@ pipeline knowledge to collaborate with engineers.
 
 ETL, storage, and Spark performance sit closer to data engineering. Schema work
 and platform reliability do too. The dedicated
-[Data Engineer vs Data Scientist]({{ '/wiki/data-engineer-vs-data-scientist/' | relative_url }})
+[Data Engineer vs Data Scientist]({{ '/comparisons/data-engineer-vs-data-scientist/' | relative_url }})
 page goes deeper into that overlap.
 
 [Tereza Iofciu]({{ '/people/terezaiofciu/' | relative_url }}) gives the

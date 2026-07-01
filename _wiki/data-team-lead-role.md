@@ -147,8 +147,6 @@ teams, one person may hold both responsibilities.
 
 ## Related Pages
 
-These pages cover adjacent roles, operating concerns, and team systems.
-
 - [Data Teams]({{ '/wiki/data-teams/' | relative_url }})
 - [Leadership]({{ '/wiki/leadership/' | relative_url }})
 - [Team Building]({{ '/wiki/team-building/' | relative_url }})

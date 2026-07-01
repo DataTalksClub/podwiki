@@ -33,7 +33,7 @@ deleted rows as part of the value.
 CDC isn't a replacement for [ETL]({{ '/wiki/etl/' | relative_url }}),
 [ELT]({{ '/wiki/elt/' | relative_url }}), or [streaming]({{ '/wiki/streaming/' | relative_url }}).
 It's an ingestion technique that can feed any of them. Use
-[ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}) for the transformation
+[ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }}) for the transformation
 boundary. Use [DataOps]({{ '/wiki/dataops/' | relative_url }}) and
 [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
 for the reliability and platform work around the feed.

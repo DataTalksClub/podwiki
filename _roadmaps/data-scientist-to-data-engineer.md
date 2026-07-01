@@ -24,7 +24,7 @@ questions, evaluate models, and explain impact.
 [Data engineers]({{ '/wiki/data-engineer-role/' | relative_url }}) build and
 operate data paths. Those paths cover ingestion and storage. They also cover
 transformations, access, orchestration, and quality checks
-([Data Engineer vs Data Scientist]({{ '/wiki/data-engineer-vs-data-scientist/' | relative_url }})).
+([Data Engineer vs Data Scientist]({{ '/comparisons/data-engineer-vs-data-scientist/' | relative_url }})).
 
 That overlap is why the transition is realistic. A data scientist already knows
 how messy inputs affect analysis and modeling. That includes missing values and
@@ -100,7 +100,7 @@ load, configure, log, and run from the command line
 ([Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})).
 
 Feature thinking is another advantage. The
-[Data Engineer vs Data Scientist]({{ '/wiki/data-engineer-vs-data-scientist/' | relative_url }})
+[Data Engineer vs Data Scientist]({{ '/comparisons/data-engineer-vs-data-scientist/' | relative_url }})
 boundary page treats feature work as shared. Data scientists may create
 features during exploration. Data engineers productionize repeatable
 transformations, scheduled scoring tables, and downstream feature data.
@@ -270,7 +270,7 @@ Use a concrete narrative:
    ([Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})).
 4. You understand where exploration ends, where production data ownership
    begins, and how to collaborate across the boundary
-   ([Data Engineer vs Data Scientist]({{ '/wiki/data-engineer-vs-data-scientist/' | relative_url }})).
+   ([Data Engineer vs Data Scientist]({{ '/comparisons/data-engineer-vs-data-scientist/' | relative_url }})).
 
 Prepare examples around failures: "The source renamed a field, so I added a
 schema check." Then add: "I documented the backfill path." That story is

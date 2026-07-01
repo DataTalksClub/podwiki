@@ -113,7 +113,7 @@ recruiting view in
 Around 54:09-59:30, she treats analyst titles as ambiguous. A "data analyst"
 role can mean BI reporting, business analysis, product analytics, or light data
 science depending on the company. That's why the page
-[Data Analyst vs Analytics Engineer]({{ '/wiki/data-analyst-vs-analytics-engineer/' | relative_url }})
+[Data Analyst vs Analytics Engineer]({{ '/comparisons/data-analyst-vs-analytics-engineer/' | relative_url }})
 is a career page too: candidates need to read the responsibilities, not only
 the title.
 
@@ -220,7 +220,7 @@ Use these pages for adjacent role boundaries, hiring context, and next career
 steps.
 
 - [Data Analyst Role]({{ '/wiki/data-analyst-role/' | relative_url }})
-- [Data Analyst vs Analytics Engineer]({{ '/wiki/data-analyst-vs-analytics-engineer/' | relative_url }})
+- [Data Analyst vs Analytics Engineer]({{ '/comparisons/data-analyst-vs-analytics-engineer/' | relative_url }})
 - [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }})
 - [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
 - [Career Transitions in Data]({{ '/wiki/career-transitions-in-data/' | relative_url }})

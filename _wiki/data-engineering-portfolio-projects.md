@@ -62,7 +62,7 @@ covers learning order and project sequence. A project usually sits inside
 
 Architecture choices come from
 [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}),
-[ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}), and
+[ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }}), and
 [CDC]({{ '/wiki/cdc/' | relative_url }}). They also come from
 [Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }}) and
 [Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }}).
@@ -131,7 +131,7 @@ A strong repository makes five things inspectable:
 - Modeled layers: separate raw data from serving tables. Kwong's data-mart
   discussion and Tuli's modeling section make table grain visible
   ([ETL vs ELT]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})
-  and [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }})).
+  and [ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }})).
 - Reliability: include freshness and schema checks. Moses connects those
   signals to ownership and root-cause analysis
   ([Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }})
@@ -291,12 +291,12 @@ Use these pages to follow the role, architecture, and portfolio-adjacent topics:
 - [GitOps for Data Teams]({{ '/wiki/gitops-for-data-teams/' | relative_url }})
 - [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
 - [Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }})
-- [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }})
+- [ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }})
 - [CDC]({{ '/wiki/cdc/' | relative_url }})
 - [Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }})
 - [Analytics Engineering Portfolio Projects]({{ '/wiki/analytics-engineering-portfolio-projects/' | relative_url }})
 - [Open Source]({{ '/wiki/open-source/' | relative_url }})
 - [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
 - [Open Source Contributor Roadmap]({{ '/roadmaps/open-source-contributor-roadmap/' | relative_url }})
-- [Data Engineer vs Data Scientist]({{ '/wiki/data-engineer-vs-data-scientist/' | relative_url }})
+- [Data Engineer vs Data Scientist]({{ '/comparisons/data-engineer-vs-data-scientist/' | relative_url }})
 - [Job Search]({{ '/wiki/job-search/' | relative_url }})

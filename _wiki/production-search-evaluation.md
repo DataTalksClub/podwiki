@@ -162,7 +162,7 @@ retrieved context, and refusal behavior. Formatting and user feedback belong in
 the same review.
 
 This is also why
-[RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }}) is an
+[RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }}) is an
 evaluation question. If the failure is missing or stale knowledge, retrieval
 and source preparation are likely the right levers. If the failure is behavior
 or style, the fix may belong in prompting or fine-tuning. Formatting and task

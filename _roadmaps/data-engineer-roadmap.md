@@ -171,7 +171,7 @@ choice:
 - what would become expensive, slow, or hard to maintain at larger scale
 
 For deeper reading, connect this stage to
-[ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}) and
+[ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }}) and
 [ELT]({{ '/wiki/elt/' | relative_url }}). Then add
 [Data Lake]({{ '/wiki/data-lake/' | relative_url }}),
 [Data Warehouse vs Lakehouse]({{ '/comparisons/data-warehouse-vs-data-lakehouse/' | relative_url }}),

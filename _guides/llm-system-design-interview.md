@@ -116,7 +116,7 @@ Atita's
 [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
 discussion gives that sequence at 30:38-42:49, and the
 [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
-page maintains the archive-backed version of this design.
+page covers the same RAG design in more detail.
 
 This is why "use a vector database" isn't enough for an interview answer.
 The archive treats RAG as search with context packaging, not model memory.
@@ -165,7 +165,7 @@ The archive gives a clear boundary. Meryem frames retrieval as the better fit
 for changing knowledge in
 [Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }})
 at 40:46-46:42. The
-[RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }})
+[RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }})
 page keeps fine-tuning for behavior, style, or specialized task performance.
 Those are cases where prompting and retrieval don't solve the problem.
 

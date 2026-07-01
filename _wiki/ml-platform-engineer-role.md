@@ -154,8 +154,6 @@ Platform engineers own the paved paths that many such capabilities use.
 
 ## Related Pages
 
-These pages cover adjacent roles, platform services, and operating concerns.
-
 - [ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }})
 - [MLOps]({{ '/wiki/mlops/' | relative_url }})
 - [MLOps Engineer]({{ '/wiki/mlops-engineer/' | relative_url }})

@@ -161,7 +161,7 @@ Use these pages to follow the retrieval and evaluation concepts.
 - [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
 - [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }})
 - [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
-- [RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }})
+- [RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }})
 - [Graph RAG vs Vector RAG]({{ '/comparisons/graph-rag-vs-vector-rag/' | relative_url }})
 - [Vector Databases]({{ '/wiki/vector-databases/' | relative_url }})
 - [Embeddings]({{ '/wiki/embeddings/' | relative_url }})

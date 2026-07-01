@@ -45,7 +45,7 @@ At 13:56, she ties data science to data cleaning and feature engineering. She
 also covers model cycles and deployment awareness. That episode keeps data
 science connected to upstream pipelines and downstream use. This is why the
 role overlaps with
-[Data Engineer vs Data Scientist]({{ '/wiki/data-engineer-vs-data-scientist/' | relative_url }})
+[Data Engineer vs Data Scientist]({{ '/comparisons/data-engineer-vs-data-scientist/' | relative_url }})
 and [MLOps]({{ '/wiki/mlops/' | relative_url }}).
 
 Product-facing episodes define the role through decisions rather than only
@@ -238,12 +238,13 @@ analysis.
 
 ## Related Pages
 
-Use these pages for adjacent roles, projects, interviews, and boundaries.
+These pages connect the data scientist role to adjacent roles and project
+patterns.
 
 - [Data Science]({{ '/wiki/data-science/' | relative_url }})
 - [Data Science Careers]({{ '/wiki/data-science-careers/' | relative_url }})
 - [Data Scientist Interview Roadmap]({{ '/wiki/data-scientist-interview-roadmap/' | relative_url }})
-- [Data Engineer vs Data Scientist]({{ '/wiki/data-engineer-vs-data-scientist/' | relative_url }})
+- [Data Engineer vs Data Scientist]({{ '/comparisons/data-engineer-vs-data-scientist/' | relative_url }})
 - [Machine Learning Engineer vs Data Scientist]({{ '/comparisons/machine-learning-engineer-vs-data-scientist/' | relative_url }})
 - [Machine Learning]({{ '/wiki/machine-learning/' | relative_url }})
 - [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
