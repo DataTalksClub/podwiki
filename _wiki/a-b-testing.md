@@ -172,8 +172,8 @@ decision and supporting metrics for diagnosis.
 
 Metric stability matters as much as metric relevance. At
 [33:23 in the A/B testing episode]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}),
-Jakob discusses noise, seasonality, and business cycles. That connects A/B
-testing to [Power Analysis]({{ '/wiki/power-analysis/' | relative_url }}):
+Jakob discusses noise, seasonality, and business cycles. A/B testing depends
+on [Power Analysis]({{ '/wiki/power-analysis/' | relative_url }}) because
 teams need enough sample size and duration to detect the effect they care about.
 At 37:44, he ties duration planning to statistical power rather than calendar
 convenience.

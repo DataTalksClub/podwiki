@@ -55,7 +55,8 @@ product-growth version in
 [How to Build a Data-Led Growth Stack]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }}).
 At 22:50, the stack moves from collection to storage, analysis, and activation.
 At 46:13, data engineers sit with analysts, analytics engineers, and product
-operations around tracking and reverse ETL. This connects the role to
+operations around tracking and reverse ETL. In that setting, the role overlaps
+with
 [analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }}),
 [DataOps]({{ '/wiki/dataops/' | relative_url }}), and
 [data engineering platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}).
@@ -80,7 +81,7 @@ and [DataOps]({{ '/wiki/dataops/' | relative_url }}).
 Guests agree on the core work more than they agree on the job title. The
 episodes use "data engineer" for platform builders, big-data engineers,
 product-facing data engineers, and analytics-adjacent engineers. A hiring
-process has to say which version it means.
+screen has to say which version it means.
 
 The split becomes explicit in
 [Data Engineer Career in 2026]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }}).

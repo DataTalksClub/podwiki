@@ -107,8 +107,8 @@ distinction, a growth team may count failed form submissions as real users.
 Arpit also treats documentation as part of the tracking system, not as optional
 cleanup. At 18:27, he uses fake signups as an anomaly example. If the event has
 the right properties, a team can look at the source and decide whether the
-spike reflects real demand or low-quality traffic. That connects data-led
-growth with
+spike reflects real demand or low-quality traffic. Growth teams therefore depend
+on
 [data quality and observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}),
 [data governance]({{ '/wiki/data-governance/' | relative_url }}), and
 [DataOps]({{ '/wiki/dataops/' | relative_url }}).
@@ -184,10 +184,9 @@ tasks. Once the team knows whether an account reached that point, it can change
 the next product prompt or email. It can also change the sales touch or support
 response.
 
-That connects this topic to
-[data products]({{ '/wiki/data-products/' | relative_url }}). A useful output
-can be a product or operational experience that changes based on trustworthy
-data, not only a report.
+This is also a [data products]({{ '/wiki/data-products/' | relative_url }})
+problem. A useful output can be a product or operational experience that changes
+based on trustworthy data, not only a report.
 
 ## Ownership Across Product, Engineering, and Data
 

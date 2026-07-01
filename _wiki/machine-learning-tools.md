@@ -205,10 +205,9 @@ positives, false negatives, and demographic parity in context. Around
 31:33-37:13, she
 adds that responsible decisions need domain experts and humans in the loop.
 
-That connects tool choice to
-[Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }}),
-[Interpretability]({{ '/wiki/interpretability/' | relative_url }}), and the
-[interpretability]({{ '/wiki/interpretability/' | relative_url }}).
+Those choices belong with
+[Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }})
+and [Interpretability]({{ '/wiki/interpretability/' | relative_url }}).
 
 ## Open-Source Tools and Contribution Paths
 
@@ -218,7 +217,7 @@ evidence. Vincent's scikit-lego story in
 shows how that works. Around 16:43-23:44, he explains how reusable
 scikit-learn components and corporate training became visible proof of his
 work. Contributor growth, benchmarks, tests, and maintenance quality mattered
-too. That connects ML tools to
+too. Open-source ML tools are part of
 [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
 and [Open Source and Developer Relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }}).
 

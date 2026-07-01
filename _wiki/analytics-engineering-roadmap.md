@@ -259,7 +259,7 @@ describes sending warehouse data back to support, sales, and engagement tools.
 He also names the team split across data engineers, analysts, analytics
 engineers, and product operations
 ([data-led growth episode at 30:03-51:40]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }})).
-This connects the roadmap to [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
+For analytics engineers, that path points toward [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
 and [Data Activation]({{ '/wiki/data-activation/' | relative_url }}).
 
 ## Study-Build Boundary

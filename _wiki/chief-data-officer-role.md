@@ -154,7 +154,7 @@ Marco describes the job as building the right teams, then giving them context
 and resources. The CDO then articulates a single strategy from the information
 those teams hold
 ([delegation and org design, 11:40-13:47]({{ '/podcasts/chief-data-officer-data-strategy-and-org-design/' | relative_url }})).
-That connects the CDO role to
+The CDO role therefore depends on
 [team building]({{ '/wiki/team-building/' | relative_url }}) and
 [communication]({{ '/wiki/communication/' | relative_url }}).
 

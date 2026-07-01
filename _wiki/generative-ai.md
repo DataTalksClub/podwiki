@@ -101,7 +101,7 @@ bounded job and a reviewable output.
 Bartosz describes augmented generation and review analysis at 21:46 in
 [Production AI Engineering]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }}).
 Those use cases fit internal tools because the model drafts or classifies
-within an existing business process. At 56:17, he says teams use AI-assisted
+within an existing business workflow. At 56:17, he says teams use AI-assisted
 writing to draft and rewrite while preserving voice. The model doesn't replace
 the person who owns the final text.
 
@@ -200,12 +200,12 @@ test cases and failure categories. They also add monitoring and review.
 
 Hugo describes this shift in
 [Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}).
-At 13:56, the generator-evaluator check uses one model or process to look at
+At 13:56, the generator-evaluator check uses one model or evaluator to look at
 another output. At 23:00, he discusses gold evaluation sets and their cost. He
 also covers set size and representativeness. At 26:43, he categorizes failures so teams can decide
 whether to fix retrieval, prompts, data or product scope.
 
-This connects directly to
+Those practices are covered in more depth in
 [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }}).
 
 Meryem makes the same point in

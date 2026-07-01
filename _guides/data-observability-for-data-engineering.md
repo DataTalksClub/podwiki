@@ -51,7 +51,7 @@ operating model in
 [DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }}).
 At 15:52 he groups automation, observability, and productivity as core DataOps
 practices. At 50:29 he argues for starting with production monitoring because
-real incidents show where the delivery process needs to change.
+real incidents show where the delivery workflow needs to change.
 
 For data engineers, observability isn't a dashboard at the end of the stack. It
 belongs in ingestion and transformation work. It also supports serving,
@@ -155,7 +155,7 @@ row-count anomaly on an unused scratch table.
 
 Bergh's
 [Mastering DataOps]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }})
-episode turns that ownership into process. At 33:47 he lists practical steps
+episode turns that ownership into operating practice. At 33:47 he lists practical steps
 for healthier pipelines, including version control, tests, and CI/CD. At 34:37
 he argues for moving from manual runbooks to automated playbooks. At 38:01 he
 links documentation and handoffs to lower on-call pressure.
@@ -211,7 +211,7 @@ cases at 13:40 and 21:57 in
 
 ML systems break differently because a model may look worse when features
 arrive late, a join drops rows, labels change, or a source category shifts.
-That connects data observability to
+Those failure modes make data observability part of
 [MLOps]({{ '/wiki/mlops/' | relative_url }}),
 [model monitoring]({{ '/wiki/model-monitoring/' | relative_url }}), and
 [production]({{ '/wiki/production/' | relative_url }}). Monitoring model

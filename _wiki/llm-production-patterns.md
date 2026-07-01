@@ -121,9 +121,9 @@ product version of the same tradeoff in
 [Practical LLM Use Cases]({{ '/podcasts/practical-llm-use-cases-and-product-patterns/' | relative_url }}).
 At 32:28-35:28, she discusses model, architecture, and integration decisions
 for LLM applications. She also names cost and latency. Proprietary-data and IP
-concerns appear in the same discussion. That connects model choice to
+concerns appear in the same discussion. Model choice therefore depends on
 [AI infrastructure]({{ '/wiki/ai-infrastructure/' | relative_url }}) and
-[data governance]({{ '/wiki/data-governance/' | relative_url }}), not only to
+[data governance]({{ '/wiki/data-governance/' | relative_url }}), not only on
 benchmark scores.
 
 ## RAG, Fine-Tuning, and Context
@@ -232,7 +232,8 @@ Data exfiltration through prompt overload and knowledge-base retrieval appears
 at 13:20.
 
 Maria discusses layered defenses at 16:15-17:00, including output validation,
-query analysis, and non-LLM classifiers. That connects LLM production to
+query analysis, and non-LLM classifiers. These controls put LLM production in
+the same operational space as
 [AI red teaming]({{ '/wiki/ai-red-teaming/' | relative_url }}) and
 [security]({{ '/wiki/security/' | relative_url }}). She also discusses
 moderation support and human review for higher-risk outputs at 25:34 in

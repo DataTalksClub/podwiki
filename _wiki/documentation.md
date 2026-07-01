@@ -101,10 +101,10 @@ Nadia's
 episode is the strongest ML-system reference. At 10:12, she frames ML products
 through hidden technical debt. At 29:42, she discusses failure modes such as
 unmet requirements, poor data, and deployment issues. Her 39:05 chapter puts
-documentation next to workshops and shared vocabularies. It also connects docs
-to engineering remedies.
+documentation next to workshops and shared vocabularies. She treats docs as
+part of engineering remediation.
 
-That connects documentation to [software engineering]({{ '/wiki/software-engineering/' | relative_url }}),
+For ML systems, documentation supports [software engineering]({{ '/wiki/software-engineering/' | relative_url }}),
 [MLOps]({{ '/wiki/mlops/' | relative_url }}), and
 [machine learning system design]({{ '/wiki/machine-learning-system-design/' | relative_url }}).
 

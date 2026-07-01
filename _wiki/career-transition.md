@@ -141,7 +141,7 @@ software-to-ML as adding machine learning to an existing engineering skillset in
 The roadmap starts with coding, problem analysis, and real projects. It then
 adds Python data tools such as NumPy, Pandas, and scikit-learn. The engineering
 side includes data pipelines and deployment. It also includes monitoring, APIs,
-Docker, and cloud providers. That connects directly to
+Docker, and cloud providers. Those production habits point directly toward
 [MLOps]({{ '/wiki/mlops/' | relative_url }}) and
 [Machine Learning Infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }}).
 

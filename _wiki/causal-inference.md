@@ -52,8 +52,8 @@ A causal inference problem needs these pieces:
 Molak makes this explicit in the causal ML episode. Around 18:15, he connects
 counterfactuals to Judea Pearl's intervention view. Around 24:24, he introduces
 conditional average treatment effect, or CATE. CATE estimates how much the
-treatment changes the outcome for a given person or segment. That connects
-causal inference with [metrics]({{ '/wiki/metrics/' | relative_url }}) because
+treatment changes the outcome for a given person or segment. CATE makes
+causal inference depend on [metrics]({{ '/wiki/metrics/' | relative_url }}):
 the outcome has to match the product or business decision.
 
 [Jakob Graff]({{ '/people/jakobgraff/' | relative_url }}) gives the randomized

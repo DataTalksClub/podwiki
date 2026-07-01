@@ -162,7 +162,7 @@ execution. He also names operational pieces such as traces and data pipelines
 ([AI engineering skill stack]({{ '/podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products/' | relative_url }}),
 42:28-51:11).
 
-That connects staff AI engineering to
+Staff AI engineering therefore overlaps with
 [AI agents]({{ '/wiki/ai-agents/' | relative_url }}),
 [LLM evaluation workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }}),
 and [production search evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }}).

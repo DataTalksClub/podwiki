@@ -169,7 +169,7 @@ Open-source guests add a maintainer perspective. In
 [Will McGugan]({{ '/people/willmcgugan/' | relative_url }}) links community
 channels such as Discourse and Discord to contribution around 49:37. Around
 46:00, the episode covers GitHub projects, pull request review, and releases.
-This connects community to
+In open source, community work becomes visible through
 [contributing]({{ '/wiki/contributing/' | relative_url }}) and
 [open-source portfolio evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }}).
 

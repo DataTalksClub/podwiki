@@ -98,8 +98,8 @@ Elle's
 [DevRel for Data Science]({{ '/podcasts/devrel-data-science-open-source-tools/' | relative_url }})
 adds the data-science version of the same structure. At 7:50, she discusses
 applied data science teaching and reproducibility. At 52:06, she links teaching
-with DevRel through curriculum design and reusable video content. That connects
-DevRel directly to
+with DevRel through curriculum design and reusable video content. In these
+episodes, DevRel depends on the same audience-aware practice used in
 [technical writing]({{ '/wiki/technical-writing/' | relative_url }}) and
 [documentation]({{ '/wiki/documentation/' | relative_url }}). DevRel goes
 beyond publishing docs because developers still need to succeed with the tool in

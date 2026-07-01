@@ -218,7 +218,7 @@ even more when the team needs niche technology such as streaming.
 As the organization grows, general data engineering work may split into platform
 and warehouse roles. Streaming and services may become separate roles too
 ([20:13 and 50:17-54:55]({{ '/podcasts/scaling-data-engineering-teams-self-service-platforms/' | relative_url }})).
-That connects team building to [DataOps]({{ '/wiki/dataops/' | relative_url }}),
+Those team splits affect the operating model for [DataOps]({{ '/wiki/dataops/' | relative_url }}),
 [self-service data platforms]({{ '/wiki/self-service-data-platforms/' | relative_url }}),
 and [platform adoption]({{ '/wiki/platform-adoption/' | relative_url }}).
 

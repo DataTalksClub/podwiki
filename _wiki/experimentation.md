@@ -189,12 +189,11 @@ the same episode, Jakob frames tests as feature de-risking and learning. A
 failed test can still help a product team if it reveals a bad assumption. It can
 also surface a weak segment or a metric that doesn't behave as expected.
 
-This connects experimentation to
+That learning role makes experimentation part of
 [data-led growth]({{ '/wiki/data-led-growth/' | relative_url }}) and
 [data product management]({{ '/wiki/data-product-management/' | relative_url }}).
-It also connects to the
-[Data Product Manager]({{ '/guides/data-product-manager/' | relative_url }})
-article.
+The same product-facing responsibilities appear in the
+[Data Product Manager]({{ '/guides/data-product-manager/' | relative_url }}) article.
 
 ## Randomization and Causal Boundaries
 

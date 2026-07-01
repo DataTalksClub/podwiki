@@ -224,7 +224,7 @@ academic and startup timelines at 16:05. He then returns to manual extraction,
 CSVs, and local analysis. Weekly feedback and edge-case exploration come before
 automation at 39:00-43:27 and 1:00:53 in
 [From Academic Research to Lean Data Consulting]({{ '/podcasts/from-academic-research-to-data-engineering-freelancing/' | relative_url }}).
-That connects academia to
+Orell's example links academic research habits with
 [Freelance]({{ '/wiki/freelance/' | relative_url }}),
 [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}), and
 [Startups]({{ '/wiki/startups/' | relative_url }}).

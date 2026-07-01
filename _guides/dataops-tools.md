@@ -124,7 +124,8 @@ and applies it after approval.
 The exact tools can vary, but infrastructure should stay declarative and
 reviewable. It should also stay reproducible and auditable.
 
-This connects DataOps to [CI/CD]({{ '/wiki/ci-cd/' | relative_url }}) and
+For data teams, that GitOps way of working belongs with
+[CI/CD]({{ '/wiki/ci-cd/' | relative_url }}) and
 [platform engineering]({{ '/wiki/platform-engineering/' | relative_url }}).
 Data teams need a paved path for changes, not a private script on someone's
 laptop.

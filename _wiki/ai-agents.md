@@ -227,8 +227,9 @@ workflows.
 
 Across these discussions, teams keep agents governed by narrowing tool permissions
 and tracing the data used for each answer or action. They also keep human
-review around high-impact decisions and test failures repeatedly. That connects
-AI agents to [AI Red Teaming]({{ '/wiki/ai-red-teaming/' | relative_url }}),
+review around high-impact decisions and test failures repeatedly. Practical
+agent work therefore draws on
+[AI Red Teaming]({{ '/wiki/ai-red-teaming/' | relative_url }}),
 [Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }}),
 [Data Governance]({{ '/wiki/data-governance/' | relative_url }}), and
 [Production]({{ '/wiki/production/' | relative_url }}).

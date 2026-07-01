@@ -107,9 +107,9 @@ assumptions the team can challenge.
 
 Good requirements also say when not to use ML. Valeriy's interview episode at
 52:25 treats "avoid ML" as a real design outcome when a heuristic, rule, or
-existing product behavior is enough. That connects the page to
-[machine learning]({{ '/wiki/machine-learning/' | relative_url }}) as a tool
-choice, not a default answer.
+existing product behavior is enough. In that framing,
+[machine learning]({{ '/wiki/machine-learning/' | relative_url }}) is a tool
+choice rather than a default answer.
 
 Teams improve requirements when they write them down. Valeriy's design-doc
 episode at 7:06 and 8:39 compares a design document to a blueprint. It makes
@@ -196,9 +196,10 @@ analysis.
 Those topics matter when an ML system affects user-facing decisions and the team
 needs causal evidence, not just offline accuracy.
 
-This connects the page to [evaluation]({{ '/wiki/evaluation/' | relative_url }}),
-[experimentation]({{ '/wiki/experimentation/' | relative_url }}),
-[A/B testing]({{ '/wiki/a-b-testing/' | relative_url }}), and
+For ML systems, those choices sit beside
+[evaluation]({{ '/wiki/evaluation/' | relative_url }}) and
+[experimentation]({{ '/wiki/experimentation/' | relative_url }}). They also
+inform [A/B testing]({{ '/wiki/a-b-testing/' | relative_url }}) and
 [power analysis]({{ '/wiki/power-analysis/' | relative_url }}).
 
 ## Monitoring, Drift, and Fallbacks

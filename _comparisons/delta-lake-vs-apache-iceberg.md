@@ -84,7 +84,7 @@ Iceberg also fits when catalogs and metadata are part of the platform design.
 Brudaru's layer model separates storage and compute from access, metadata, and
 lineage
 ([21:27-23:41]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }})).
-That connects Iceberg to
+For Iceberg teams, that metadata layer brings in
 [Data Governance]({{ '/wiki/data-governance/' | relative_url }}),
 [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}),
 and [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}).

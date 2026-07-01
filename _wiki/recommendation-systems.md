@@ -78,8 +78,8 @@ pipelines prepare the data. At
 she separates streaming updates from historical batch data.
 
 Flink and Spark can each play a part, while Parquet and S3 appear with databases
-in her example. That connects recommendation
-systems to [data pipelines]({{ '/wiki/data-pipelines/' | relative_url }}),
+in her example. Production recommendation systems depend on
+[data pipelines]({{ '/wiki/data-pipelines/' | relative_url }}),
 [data engineering platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}),
 and [batch versus streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }}).
 
@@ -168,8 +168,8 @@ discussion adds the session-based version. In
 she says recommendations can update per session based on clicks rather than
 being precomputed once per user. At
 [56:44]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}),
-she treats context as the important signal. This connects
-recommendation systems to [vector databases]({{ '/wiki/vector-databases/' | relative_url }}),
+she treats context as the important signal. Session context brings
+recommendation systems close to [vector databases]({{ '/wiki/vector-databases/' | relative_url }}),
 [production search evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }}),
 and [information retrieval]({{ '/wiki/information-retrieval/' | relative_url }}).
 

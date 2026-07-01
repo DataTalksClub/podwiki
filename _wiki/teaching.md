@@ -122,8 +122,9 @@ own community episode adds the same structure. Events, office hours, answered
 questions, and mentors make learning more durable than a course watched
 alone.
 
-That connects teaching directly to [Community]({{ '/wiki/community/' | relative_url }})
-and [Community Building]({{ '/wiki/community-building/' | relative_url }}).
+Teaching in those episodes is community work, so it belongs with
+[Community]({{ '/wiki/community/' | relative_url }}) and
+[Community Building]({{ '/wiki/community-building/' | relative_url }}).
 
 ## Teach Reproducibility, Documentation, and Open Work
 

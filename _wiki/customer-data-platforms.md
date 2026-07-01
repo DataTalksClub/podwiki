@@ -93,7 +93,7 @@ A CDP is only as useful as the events flowing into it. At 13:34 in the
 [data-led growth episode]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }}),
 Arpit starts with the tracking plan. Teams should document the events they want
 to collect, the event properties, the user properties, and the account or
-organization properties. That connects CDPs directly to
+organization properties. CDPs depend on
 [event tracking]({{ '/wiki/event-tracking/' | relative_url }}) and
 [tracking plans]({{ '/wiki/tracking-plans/' | relative_url }}).
 

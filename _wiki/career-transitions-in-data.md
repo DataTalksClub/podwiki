@@ -323,14 +323,15 @@ confidence after a career break
 11:00).
 
 [Dânia Meira's]({{ '/people/daniameira/' | relative_url }})
-community-building episode shows the broader mechanism. Networks and
-visibility help people see possible roles, while mentoring, panels and diverse
-talent pools help people step into leadership
+community-building episode shows how networks and visibility help people see
+possible roles. Mentoring, panels, and diverse talent pools help people step
+into leadership
 ([Building ML Communities]({{ '/podcasts/building-ml-communities-diversity-and-career-growth/' | relative_url }}),
-19:51-43:21). This connects transition work to
-[Community Building]({{ '/wiki/community-building/' | relative_url }}),
-[Career Growth]({{ '/wiki/career-growth/' | relative_url }}), and
-[Developer Relations]({{ '/wiki/developer-relations/' | relative_url }}).
+19:51-43:21). For career changers, transition work often depends on the
+networks and visible practice described in
+[Community Building]({{ '/wiki/community-building/' | relative_url }}). It also
+uses the advocacy covered by [Career Growth]({{ '/wiki/career-growth/' | relative_url }})
+and [Developer Relations]({{ '/wiki/developer-relations/' | relative_url }}).
 
 ## Choosing the Target Role
 

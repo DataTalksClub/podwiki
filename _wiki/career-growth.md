@@ -178,7 +178,7 @@ Speaking makes the same evidence live in a room. Ben Taylor's
 warns against talks that overload the audience with technical detail. He
 recommends tailoring the message, translating data work into narrative, and
 keeping the technical appendix ready when presenting to executives (12:54 /
-30:57 / 39:55). That connects career growth to
+30:57 / 39:55). Career growth here depends on
 [developer relations]({{ '/wiki/developer-relations/' | relative_url }}) and
 [communication]({{ '/wiki/communication/' | relative_url }}), especially for
 people whose work must influence users, executives, or open-source communities.
@@ -234,8 +234,8 @@ Swyx's
 [Learn in Public]({{ '/podcasts/developer-personal-brand-learn-in-public/' | relative_url }})
 extends portfolio evidence into public learning. Choose a domain and validate a
 niche through meetups. Share honest progress and build open knowledge projects
-that are useful to others (18:43 / 22:32 / 23:53 / 47:14). That connects career
-growth to [open source]({{ '/wiki/open-source/' | relative_url }}),
+that are useful to others (18:43 / 22:32 / 23:53 / 47:14). This form of career
+growth uses [open source]({{ '/wiki/open-source/' | relative_url }}),
 [open source portfolio evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }}),
 and [community building]({{ '/wiki/community-building/' | relative_url }}).
 It also connects to role-specific project pages such as

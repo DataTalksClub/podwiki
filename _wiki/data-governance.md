@@ -49,13 +49,13 @@ can then find the right data and judge whether it supports a decision without
 creating avoidable privacy, security, or compliance risk.
 
 In [Cloud Data Governance]({{ '/podcasts/cloud-data-governance/' | relative_url }}),
-Jessi and Uri describe governance as people, processes, and tools at 14:04.
+Jessi and Uri describe governance as people, procedures, and tools at 14:04.
 At 15:33, they move from that definition into classification and policy. At
 23:00, they say the team should start with the reason for governance.
 
 Regulation and privacy are common reasons to govern data. Exfiltration risk,
-analytics enablement, trust, and cost control can matter too. That connects
-governance to
+analytics enablement, trust, and cost control can matter too. Those reasons put
+governance inside
 [data strategy]({{ '/wiki/data-strategy/' | relative_url }})
 because the right controls depend on why the data matters.
 
@@ -173,7 +173,7 @@ episode is the clearest podcast example for this. At 11:20, he connects cloud
 consolidation and "Chinese wall" constraints to access management. At 25:05, he
 argues that sensitive data needs access controls early.
 
-At 27:49, Bart names the core process: teams request and approve access, then
+At 27:49, Bart names the core access path: teams request and approve access, then
 review and revoke it later.
 
 A purpose-based access request turns the request into a governance decision. In
@@ -215,7 +215,7 @@ tags, sensitive-data labels, and retention classes. Access review reminders and
 revocation rules also fit.
 
 Automation doesn't remove judgment because Jessi and Uri still put data
-stewards, producers, and decision makers in the process at 33:03 of
+stewards, producers, and decision makers in the review at 33:03 of
 [Cloud Data Governance]({{ '/podcasts/cloud-data-governance/' | relative_url }}).
 Bart also separates privacy and security stakeholders at 37:19. A data
 protection officer, a security team, and a domain owner may all care about the

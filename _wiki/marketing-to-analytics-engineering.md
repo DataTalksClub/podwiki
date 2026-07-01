@@ -140,8 +140,8 @@ role
 
 Her first reusable data work was marketing reporting during the
 Tableau-to-Looker migration. It also included brand-campaign measurement and
-dashboard work while she was still close to marketing. That connects the
-transition to [Business Intelligence]({{ '/wiki/business-intelligence/' | relative_url }})
+dashboard work while she was still close to marketing. The transition grew
+through [Business Intelligence]({{ '/wiki/business-intelligence/' | relative_url }})
 and the
 [Dashboard and Metric Layer Project Checklist]({{ '/wiki/dashboard-and-metric-layer-project-checklist/' | relative_url }}),
 not only to analytics-engineering titles.

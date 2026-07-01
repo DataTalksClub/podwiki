@@ -330,9 +330,9 @@ another vague request for the data team.
 Sara also says data product management can include data science and ML. She
 hadn't yet reached that stage in her own role
 ([Sara Menefee's analytics-and-ML role boundary at 1:00:40-1:01:34]({{ '/podcasts/product-designer-to-data-product-manager/' | relative_url }})).
-That connects this transition to
-[ML Product Manager Role]({{ '/wiki/ml-product-manager-role/' | relative_url }})
-when the product surface moves beyond analytics and data engineering.
+When the product surface moves beyond analytics and data engineering, this
+transition can lead toward the
+[ML Product Manager Role]({{ '/wiki/ml-product-manager-role/' | relative_url }}).
 
 ## Related Pages
 

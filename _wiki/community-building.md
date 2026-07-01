@@ -100,7 +100,7 @@ course contributors, or speakers.
 
 [Inside Scaling DataTalks.Club]({{ '/podcasts/datatalksclub-scaling-and-free-courses/' | relative_url }})
 links the course portfolio at 5:07 to product work behind scaled courses at
-26:43. That connects community building to
+26:43. In that discussion, community building includes
 [teaching]({{ '/wiki/teaching/' | relative_url }}),
 [data engineering learning paths]({{ '/wiki/data-engineering-roadmap/' | relative_url }}),
 and course design.

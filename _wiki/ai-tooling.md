@@ -125,7 +125,7 @@ need evaluation and release checks as part of the tooling decision.
 The same episode separates prototyping from production. At 49:44, Meryem
 describes when GPT-style APIs are useful for prototyping and when open-source
 models become attractive. At 51:35, latency and cost move the choice from model
-quality into deployment engineering. That connects model tooling to
+quality into deployment engineering. At that point, model tooling becomes
 [MLOps]({{ '/wiki/mlops/' | relative_url }}) and
 [MLOps Tools]({{ '/wiki/mlops-tools/' | relative_url }}), not only to prompt
 design.

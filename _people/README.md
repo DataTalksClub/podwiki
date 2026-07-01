@@ -9,11 +9,13 @@ guests and contributors.
 
 ## Source Policy
 
+Use these source rules for every people page:
+
 - The source person record lives in `../datatalksclub.github.io/_people/<person_id>.md`.
 - Podcast participation comes from `../datatalksclub.github.io/_podcast/<episode_slug>.md` frontmatter.
-- Do not copy full transcripts into these pages.
+- Don't copy full transcripts into these pages.
 - Use podcast frontmatter and transcript snippets only for compact synthesis and source-grounded links.
-- Public podcast links should point to local podcast pages, such as
+- Public podcast links should use local podcast pages, such as
   `{{ '/podcasts/<episode_slug>/' | relative_url }}`. Local podcast pages link
   to the original DataTalks.Club episode.
 
@@ -34,7 +36,7 @@ podcast_episodes: ["episode-slug"]
 ```
 
 People pages are primarily about podcast content, not biographies. Include just
-enough background to explain why the guest's claims matter, then focus on what
+enough background to explain why the guest's claims matter. Then focus on what
 they argued, explained, contrasted, or demonstrated in the archive.
 
 Use these body sections:
@@ -47,10 +49,3 @@ Use these body sections:
 - `## Concepts Connected`: concept links using `/wiki/<slug>/` paths when the
   topic exists.
 - `## Source Links`: local source person and podcast files for verification.
-
-## Maintenance Notes
-
-- Keep pages concise enough for agent lookup, but synthesize why the person's
-  podcast contribution matters across the archive.
-- Prefer durable concepts over keyword stuffing.
-- If a page becomes a major synthesis artifact, link it from the relevant topic or insight page in a separate wiki-maintenance pass.

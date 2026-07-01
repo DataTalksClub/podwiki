@@ -104,9 +104,12 @@ Keywords help the profile appear in sourcing, but they need surrounding
 evidence. At 25:56, Alicja describes searches for machine learning and AI. She
 also uses ML, deep learning, algorithms, and role-specific must-haves. At 32:40,
 she warns that buzzwords without responsibilities can pass the first text match
-and then fail the first interview. That connects CV screening to
-[Job Descriptions]({{ '/wiki/job-descriptions/' | relative_url }}): the keyword
-should come from the job, but the CV must explain the work behind it.
+and then fail the first interview.
+
+In
+[Job Descriptions]({{ '/wiki/job-descriptions/' | relative_url }}), the keyword
+should come from the job. In CV screening, the CV must explain the work behind
+the keyword.
 
 For data engineering CVs, Nicolas looks for a smaller number of tools that the
 candidate truly used. At 31:16 in

@@ -195,8 +195,8 @@ content.
 At 11:38-15:12, Maria explains the failure mode. A bot may have instructions not
 to reveal confidential information, and another layer may check the output.
 Users can still overload the prompt, use dense characters, craft API requests,
-or otherwise distract the model from the original restriction. This connects
-prompt engineering directly to
+or otherwise distract the model from the original restriction. Prompt
+engineering therefore has a direct boundary with
 [AI Red Teaming]({{ '/wiki/ai-red-teaming/' | relative_url }}) and
 [Security]({{ '/wiki/security/' | relative_url }}). A secure system needs query
 analysis, output validation, retrieval controls, and human review where the

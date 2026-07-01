@@ -175,9 +175,9 @@ behavior can matter more than a narrow skill checklist.
 
 Samuylova gives the hiring threshold from the other side. Around 57:06, she
 says to hire when real users, real features, or real demand create the need.
-Don't hire because the founder wrote a long feature list. This connects
-founder work to [team building]({{ '/wiki/team-building/' | relative_url }}),
-but the founder decision is timing under risk.
+Don't hire because the founder wrote a long feature list. For founders,
+[team building]({{ '/wiki/team-building/' | relative_url }}) is a timing
+decision under risk.
 
 Founders can create runway from more than venture funding. Brudaru describes
 savings, consulting revenue, and design partners around 31:08-36:00. He also

@@ -121,7 +121,7 @@ adaptation fit fine-tuning. At 18:46 and 49:44-51:35, production readiness
 depends on model drift, latency, and cost. Privacy and hosting choices matter
 too.
 
-That connects RAG portfolio work to
+RAG portfolio work should therefore cover
 [RAG vs Fine-Tuning]({{ '/comparisons/rag-vs-fine-tuning/' | relative_url }})
 and
 [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }}).

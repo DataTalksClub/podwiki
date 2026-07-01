@@ -184,8 +184,8 @@ In that structure, the data leader protects craft quality and documentation.
 The data leader also protects peer review and career growth. That matters even
 when a dotted-line stakeholder drives daily priorities
 ([Hiring and Managing Data Science Teams in B2B SaaS]({{ '/podcasts/hiring-and-managing-data-science-teams-in-b2b-saas/' | relative_url }}),
-about 8:33 and 11:58). That connects leadership to
-[data teams]({{ '/wiki/data-teams/' | relative_url }}) rather than to one title.
+about 8:33 and 11:58). In this example, leadership is about
+[data teams]({{ '/wiki/data-teams/' | relative_url }}), not one title.
 
 [Tammy Liang]({{ '/people/tammyliang/' | relative_url }}) shows the first-team
 version in
@@ -329,7 +329,7 @@ of impressive capabilities (about 9:50, 15:19, 31:28, and 57:20).
 
 For data science and ML projects, useful stakeholder communication usually names:
 
-- the current process
+- the current workflow
 - the decision or workflow that should improve
 - the baseline and success metric
 - the guardrail metric
@@ -409,11 +409,11 @@ be trusted after launch
 Good data leadership includes the ability to slow down an ML request.
 [Barbara Sobkowiak]({{ '/people/barbarasobkowiak/' | relative_url }})
 describes stakeholders asking for AI or ML because they expect "magic." Her
-response is managerial. Clarify the current process and check the data. Compare
+response is managerial. Clarify the current workflow and check the data. Compare
 against a baseline.
 
 Then decide whether a moving average or rule already solves the problem. A
-dashboard or process change may be enough too
+dashboard or workflow change may be enough too
 ([Data Science Manager vs Expert]({{ '/podcasts/data-science-manager-vs-expert-hiring-guide/' | relative_url }}),
 about 42:05 and 43:04).
 
@@ -519,7 +519,7 @@ Productivity, version control, and tests are part of the same operating model.
 He also emphasizes CI/CD and realistic test data. Deployment confidence is part
 of the same discussion (about 15:52 and 30:55, plus 42:39).
 
-Weak processes create fear and hero-driven recovery. They also create turnover
+Weak operating habits create fear and hero-driven recovery. They also create turnover
 and avoidable rework (about 13:27 and 34:13, plus 58:15).
 
 [Barr Moses]({{ '/people/barrmoses/' | relative_url }}) gives the observability
@@ -561,7 +561,8 @@ executive. The leader then articulates a single vision across those teams
 of data is more attached to specific strategy components, though the exact split
 depends on the organization (about 20:17 and 24:55).
 
-That connects leadership to [data strategy]({{ '/wiki/data-strategy/' | relative_url }}) and
+Leadership in these examples sits inside
+[data strategy]({{ '/wiki/data-strategy/' | relative_url }}) and
 [data teams]({{ '/wiki/data-teams/' | relative_url }}), and it pushes manager
 literacy upward into strategy. De Sa works backward from goals, governance,
 platforms, and AI investment. Geo does the same at product scope by turning ML

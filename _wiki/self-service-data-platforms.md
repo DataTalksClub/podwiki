@@ -94,9 +94,8 @@ source-to-consumer path. Mehdi frames the platform as an enablement layer. The
 team provides tools and services. It also provides onboarding and scalable
 approaches so other teams can do more data work directly
 ([Scaling Data Engineering Teams and Self-Service Platforms, 12:30]({{ '/podcasts/scaling-data-engineering-teams-self-service-platforms/' | relative_url }})).
-That connects to [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}),
-where the platform is a shared product surface rather than a pile of isolated
-pipelines.
+In this framing, [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
+are shared product surfaces rather than piles of isolated pipelines.
 
 Use-case pipelines still remain because Mehdi says platform work can coexist
 with use-case delivery. His common balance is about half and half

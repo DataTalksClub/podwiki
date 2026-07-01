@@ -121,8 +121,9 @@ walkthroughs as interview evidence in
 Luke gives the resume version at 19:50. Nick gives the interview walkthrough
 version at 25:13, 27:50, 31:06, and 37:18.
 
-This connects portfolio work to [job search]({{ '/wiki/job-search/' | relative_url }})
-and [CV screening]({{ '/wiki/cv-screening/' | relative_url }}).
+Portfolio work becomes part of [job search]({{ '/wiki/job-search/' | relative_url }})
+and [CV screening]({{ '/wiki/cv-screening/' | relative_url }}) when it gives
+hiring teams concrete evidence to review.
 
 End-to-end proof beats notebook-only proof. [Santona Tuli]({{ '/people/santonatuli/' | relative_url }})
 shows how a pipeline moves from ingestion to transformation, modeled outputs,

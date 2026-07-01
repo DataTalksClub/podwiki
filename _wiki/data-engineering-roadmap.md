@@ -228,7 +228,7 @@ and common interview formats
 
 Practice by turning raw product data or public data into tables with documented
 grain. Join source data, handle nulls, and explain why a dashboard number
-changes when the grain changes. This connects the roadmap to
+changes when the grain changes. That practice overlaps with
 [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
 because both guests place marts and BI-facing tables after ingestion and
 transformation.

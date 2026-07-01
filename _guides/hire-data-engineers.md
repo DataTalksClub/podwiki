@@ -32,7 +32,7 @@ from analytics or data science. Look for evidence that they have built data
 systems and can explain the problem they solved.
 
 For the level, they need enough SQL and Python, plus cloud and pipeline
-judgment. That connects directly to
+judgment. The same criteria keep the role tied to
 [hiring]({{ '/wiki/hiring/' | relative_url }}),
 [data engineering]({{ '/wiki/data-engineering/' | relative_url }}), and the
 [data engineer role]({{ '/wiki/data-engineer-role/' | relative_url }}).

@@ -20,10 +20,10 @@ model benchmarks. In
 [Maria Sukhareva]({{ '/people/mariasukhareva/' | relative_url }}) describes a
 large chatbot hacking exercise at 9:28. Participants tried to make a restricted
 assistant reveal hidden knowledge-base content and produce answers the product
-should block. That connects red teaming directly to
-[security]({{ '/wiki/security/' | relative_url }}),
-[LLMs]({{ '/wiki/llms/' | relative_url }}), and
-[generative AI]({{ '/wiki/generative-ai/' | relative_url }}).
+should block. In that example, red teaming tests
+[security]({{ '/wiki/security/' | relative_url }}) failures in
+[LLMs]({{ '/wiki/llms/' | relative_url }}) and
+[generative AI]({{ '/wiki/generative-ai/' | relative_url }}) products.
 
 ## Adversarial Test Scope
 
@@ -140,7 +140,7 @@ multi-tenancy and scale. At 50:18, he discusses aligning LLM judges with human
 labels. Red-team cases need the same discipline because a judge can miss the
 risk if it only scores helpfulness or semantic similarity.
 
-This connects red teaming to
+Red-team work therefore depends on
 [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }})
 and [Evaluation]({{ '/wiki/evaluation/' | relative_url }}). The evaluation
 should verify whether the system refuses, routes to review, limits retrieval,

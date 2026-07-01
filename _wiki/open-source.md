@@ -69,8 +69,9 @@ At 9:30, he frames open source through pragmatism and reciprocity. At 13:10 and
 include `whatlies`, `clumper`, `memo`, and scikit-lego.
 
 The important point isn't that every idea becomes a famous package. The author
-solves a real problem first, then makes the solution reusable. That connects
-open source to [contributing]({{ '/wiki/contributing/' | relative_url }}),
+solves a real problem first, then makes the solution reusable. In Warmerdam's
+examples, open source is about
+[contributing]({{ '/wiki/contributing/' | relative_url }}),
 [documentation]({{ '/wiki/documentation/' | relative_url }}), and the
 [Open Source Contributor Roadmap]({{ '/roadmaps/open-source-contributor-roadmap/' | relative_url }})
 more than to repository publishing alone.
