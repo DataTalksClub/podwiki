@@ -218,6 +218,10 @@ These discussions place agent engineering beside
 [Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }})
 and [Production]({{ '/wiki/production/' | relative_url }}).
 
+The operational discipline of monitoring, governing, and deploying agents in
+production is covered as
+[Agent Ops]({{ '/wiki/agent-ops/' | relative_url }}).
+
 Bartosz's production AI episode adds cost and performance mechanics through
 prompt evaluation and cost tradeoffs at 28:16. At 30:00 and 31:45, he treats
 prompt compression and caching as model-efficiency tools. These techniques
@@ -244,3 +248,4 @@ constraints around agent systems.
 - [Tools]({{ '/wiki/tools/' | relative_url }})
 - [Production]({{ '/wiki/production/' | relative_url }})
 - [Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }})
+- [Agent Ops]({{ '/wiki/agent-ops/' | relative_url }})

@@ -221,6 +221,10 @@ ground truth for the LLM judge and a way to detect drift
 [Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }})
 rather than a separate prompt-engineering concern.
 
+The broader production discipline of deploying, monitoring, and governing
+agents is covered as
+[Agent Ops]({{ '/wiki/agent-ops/' | relative_url }}).
+
 ## Use Cases and Limits
 
 Guests add agents only when the workflow demands them. Hugo says a working RAG

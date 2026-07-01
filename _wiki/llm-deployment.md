@@ -72,6 +72,10 @@ Most businesses deploy on smaller GPUs or CPUs, not state-of-the-art hardware.
 With good inference techniques, self-hosted models achieve comparable speeds for
 much lower prices.
 
+For the broader set of techniques that make models smaller, faster, and
+cheaper to serve, see
+[Model Optimization]({{ '/wiki/model-optimization/' | relative_url }}).
+
 ## Model Drift and API Risk
 
 Model drift is a production risk specific to API-based models. Meryem's 18:46

@@ -71,7 +71,9 @@ the 16:48 section compares open-source and API models through control, privacy,
 and fine-tuning. At 18:46, she adds model-drift risk when an API provider
 changes behavior behind the scenes. Her framing makes LLM adoption an
 [AI infrastructure]({{ '/wiki/ai-infrastructure/' | relative_url }}) and
-[production]({{ '/wiki/production/' | relative_url }}) decision.
+[production]({{ '/wiki/production/' | relative_url }}) decision. Making models
+smaller and faster for deployment is the practice of
+[Model Optimization]({{ '/wiki/model-optimization/' | relative_url }}).
 
 Ivan starts from NLP team design. In
 [Lead NLP Teams]({{ '/podcasts/nlp-team-hiring-and-production-mlops/' | relative_url }}),

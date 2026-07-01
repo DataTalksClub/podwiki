@@ -191,7 +191,9 @@ At 31:42, he explains why LLMs aren't always the best solution. At 48:26, he
 walks through application architecture for image-description logic. At 1:02:53,
 he discusses a modern stack with FastAPI, `uv`, and Arize.
 [AI Engineering]({{ '/wiki/ai-engineering/' | relative_url }}) includes ordinary
-application engineering rather than only model selection.
+application engineering rather than only model selection. AI engineers also
+build with [AI Coding Tools]({{ '/wiki/ai-coding-tools/' | relative_url }})
+that integrate LLMs into the development workflow.
 
 ## Production Readiness
 

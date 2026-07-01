@@ -246,6 +246,7 @@ She covers editorial curation in the same section. Aditya adds auditability,
 guardrails, lineage, and compliance for enterprise agents at 30:26 in
 [The Future of AI Agents]({{ '/podcasts/s23e03-future-of-ai-agents/' | relative_url }}).
 Those enterprise controls place production LLM work next to
+[Agent Ops]({{ '/wiki/agent-ops/' | relative_url }}) and
 [responsible AI and governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }}).
 
 ## Cost, Latency, and Operability
@@ -275,6 +276,9 @@ and [data engineering]({{ '/wiki/data-engineering/' | relative_url }}) topic,
 not only a prompt-writing topic. Teams need these production choices because
 they expose the parts that fail or slow down. They also expose data leaks,
 costly calls, and behavior the team can't evaluate.
+
+For the specific techniques that reduce LLM spend, see
+[LLM Cost Optimization]({{ '/wiki/llm-cost-optimization/' | relative_url }}).
 
 ## Related Pages
 

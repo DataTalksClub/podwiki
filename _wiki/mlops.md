@@ -196,6 +196,10 @@ approval path, and monitoring path. Simon covers the same governance trail aroun
 where metadata and lineage influence the platform design. He also covers
 artifact logging, tracking, and GDPR concerns.
 
+As agents enter production, MLOps practices extend into
+[Agent Ops]({{ '/wiki/agent-ops/' | relative_url }}), which applies monitoring,
+drift detection, and governance to autonomous tool-using systems.
+
 ## Related Pages
 
 These pages cover adjacent MLOps concepts:

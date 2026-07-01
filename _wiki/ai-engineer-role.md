@@ -81,6 +81,9 @@ Ruslan emphasizes product discovery and tool fluency. The AI engineer watches
 the fast-moving tooling landscape, understands product needs, and turns useful
 ideas into applications
 ([product discovery and tool fluency at 19:40-23:19]({{ '/podcasts/s23e05-inside-ai-engineer-role-tools-skills-and-career-path/' | relative_url }})).
+Tool fluency increasingly includes
+[AI Coding Tools]({{ '/wiki/ai-coding-tools/' | relative_url }}) that change
+how AI engineers write and maintain product code.
 
 Nasser draws the boundary through background and organization type. He notes
 that the industry often uses "AI engineer" to mean generative AI engineer.
@@ -212,6 +215,7 @@ has to explain the choices
 ([side projects and hiring signals at 48:48-57:39]({{ '/podcasts/s23e05-inside-ai-engineer-role-tools-skills-and-career-path/' | relative_url }})).
 Project planning links naturally to the
 [AI Engineering Roadmap]({{ '/wiki/ai-engineering-roadmap/' | relative_url }}),
+[AI Engineer Roadmap]({{ '/roadmaps/ai-engineer-roadmap/' | relative_url }}),
 [RAG Portfolio Projects]({{ '/wiki/rag-portfolio-projects/' | relative_url }}),
 and [machine learning portfolio projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}).
 

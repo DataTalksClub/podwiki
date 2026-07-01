@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 132,
     "nodes": 1154,
-    "links": 13217
+    "links": 13220
   },
   "nodes": [
     {
@@ -47624,6 +47624,12 @@
     },
     {
       "source": "wiki:ai-infrastructure",
+      "target": "wiki:model-optimization",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:ai-infrastructure",
       "target": "wiki:model-registry",
       "kind": "wiki-link",
       "weight": 1
@@ -71816,6 +71822,12 @@
     },
     {
       "source": "wiki:llm-deployment",
+      "target": "wiki:model-optimization",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llm-deployment",
       "target": "wiki:production",
       "kind": "wiki-link",
       "weight": 1
@@ -72729,6 +72741,12 @@
     {
       "source": "wiki:llms",
       "target": "wiki:mlops",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:llms",
+      "target": "wiki:model-optimization",
       "kind": "wiki-link",
       "weight": 1
     },

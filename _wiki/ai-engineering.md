@@ -46,6 +46,9 @@ includes evaluation and deployment in that path
 [software engineering]({{ '/wiki/software-engineering/' | relative_url }}),
 [machine learning engineering]({{ '/wiki/machine-learning-engineer-role/' | relative_url }}),
 and [data engineering]({{ '/wiki/data-engineer-role/' | relative_url }}).
+AI engineers increasingly build with
+[AI Coding Tools]({{ '/wiki/ai-coding-tools/' | relative_url }}) like Cursor
+and Claude Code, which change how product code is written and maintained.
 
 [Ruslan Shchuchkin]({{ '/people/ruslanshchuchkin/' | relative_url }}) gives the
 same ownership a product-builder flavor in
@@ -114,7 +117,8 @@ products at 42:28
 Ruslan's BranchGPT example also shows context management as part of the product
 rather than a hidden implementation detail
 ([Inside the AI Engineer Role]({{ '/podcasts/s23e05-inside-ai-engineer-role-tools-skills-and-career-path/' | relative_url }}),
-7:51-10:41).
+7:51-10:41). That context management work is the practice of
+[Context Engineering]({{ '/wiki/context-engineering/' | relative_url }}).
 
 For deeper retrieval and knowledge-system work, start with
 [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
@@ -167,7 +171,9 @@ latency limits, and outcome tests. Use
 [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }}),
 [AI Agents]({{ '/wiki/ai-agents/' | relative_url }}), and
 [Multi-Agent Systems]({{ '/wiki/multi-agent-systems/' | relative_url }}) for
-deeper agent-specific work.
+deeper agent-specific work. Running agents in production adds monitoring,
+governance, and evaluation concerns covered under
+[Agent Ops]({{ '/wiki/agent-ops/' | relative_url }}).
 
 ## Data Pipelines and Deployment
 
@@ -209,4 +215,6 @@ quality and model choice are also useful tradeoffs.
 Use [AI Engineering Roadmap]({{ '/wiki/ai-engineering-roadmap/' | relative_url }}),
 [RAG Portfolio Projects]({{ '/wiki/rag-portfolio-projects/' | relative_url }}),
 and [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
-for project sequencing.
+for project sequencing. The
+[AI Engineer Roadmap]({{ '/roadmaps/ai-engineer-roadmap/' | relative_url }})
+turns that sequencing into concrete build stages with portfolio milestones.

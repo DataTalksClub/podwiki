@@ -102,7 +102,8 @@ covers fine-tuning, API drift, latency, and hardware cost.
 tool choice through production data workflows in
 [Production AI Engineering]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }}).
 His 33:42 chapter compares open-source model and assistant tools. The 42:05 and
-44:38 chapters cover coding-assistant workflows.
+44:38 chapters cover coding-assistant workflows, which are covered in depth as
+[AI Coding Tools]({{ '/wiki/ai-coding-tools/' | relative_url }}).
 
 [Ranjitha Kulkarni]({{ '/people/ranjithakulkarni/' | relative_url }}) draws a
 different boundary for agent frameworks. In

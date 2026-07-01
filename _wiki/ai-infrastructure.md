@@ -167,6 +167,9 @@ inference optimization
 16:48-25:26). Her later prototype-versus-production section adds latency, cost,
 self-hosting performance, and hardware choices (49:44-51:35).
 
+Those model size and compression decisions are covered in depth as
+[Model Optimization]({{ '/wiki/model-optimization/' | relative_url }}).
+
 The same boundary appears in ML platform language. Simon separates batch
 inference from online serving around 31:15 in
 [Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
