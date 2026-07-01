@@ -338,6 +338,8 @@ Start with this batch when expanding the content set.
   learning, RAG, open-source evidence, and project checklists. Improve those
   pages as new podcast evidence appears instead of creating duplicate portfolio
   pages.
+  The hub and five role-specific portfolio pages were realigned to the current
+  grounded wiki structure on 2026-07-01.
 - Improve roadmap pages for data engineering, AI engineering, MLOps, analytics
   engineering, machine learning engineering, data product management, open
   source contribution, and LLM/RAG production as the archive grows.

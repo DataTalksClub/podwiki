@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Open Source Portfolio Evidence"
-summary: "Guidance for turning open-source issues, pull requests, documentation, demos, and community work into credible portfolio evidence for data, ML, AI, and DevRel roles."
+summary: "How open-source issues, pull requests, documentation, demos, and community work become credible portfolio proof for data, ML, AI, and DevRel roles."
 related:
   - Portfolio Projects
   - Open Source
@@ -16,209 +16,176 @@ related:
   - Machine Learning Portfolio Projects
 ---
 
-## Definition and Scope
-
-Open-source portfolio evidence is public proof that a person can do useful
-technical work inside a real project. It's stronger than a private tutorial
-repo because it exposes the work to users and maintainers. It also exposes
-review norms, issue discussion, and documentation needs. Tests and CI become
-visible too. So do packaging and community feedback
-([Contributing]({{ '/wiki/contributing/' | relative_url }}),
-[Documentation]({{ '/wiki/documentation/' | relative_url }}),
-[Developer Experience]({{ '/wiki/developer-experience/' | relative_url }})).
-
-DataTalks.Club guests treat this evidence as career proof when the
-artifact is specific and inspectable. In
+Open-source portfolio evidence is public proof that someone can improve a real
+technical project with other people watching. In
 [Contribute to Open Source ML]({{ '/podcasts/open-source-ml-contributions/' | relative_url }}),
-[Vincent Warmerdam]({{ '/people/vincentwarmerdam/' | relative_url }}) presents
-open-source work as more than code. Useful issues and documentation matter.
-Tests and packaging matter too. Contribution etiquette, small projects, and
-maintainer conversations also count.
-
-In
+[Vincent Warmerdam]({{ '/people/vincentwarmerdam/' | relative_url }}) treats
+reproducible issues and documentation as valid contribution work. Tests,
+packaging, and maintainer etiquette count too. In
 [Data Engineering Job Prep]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }}),
-[Jeff Katz]({{ '/people/jeffkatz/' | relative_url }}) makes the hiring version
-explicit. Open-source projects force code quality closer to professional work
-because pull requests need reliability, tests, and review.
+[Jeff Katz]({{ '/people/jeffkatz/' | relative_url }}) connects open-source
+projects to hiring proof because review pressure exposes Python and SQL. It
+also exposes testing and code-structure habits.
 
-This topic applies when a portfolio needs external review or public
-contribution proof. It belongs inside the broader
-[Portfolio Projects]({{ '/wiki/portfolio-projects/' | relative_url }}) hub. For
-project selection, the adjacent paths are
+Open-source portfolio evidence belongs inside the broader
+[Portfolio Projects]({{ '/wiki/portfolio-projects/' | relative_url }}) topic.
+It's most useful when a portfolio needs evidence beyond a private tutorial repo.
+That evidence can come from issue discussion, pull-request review, docs changes,
+and tests. Examples, community feedback, and adoption work can count too.
+
+Use
 [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }}),
 [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}),
-or [RAG Portfolio Projects]({{ '/wiki/rag-portfolio-projects/' | relative_url }}).
-Open-source adoption and community strategy connect to
-[Open Source]({{ '/wiki/open-source/' | relative_url }}),
-[Open Source and Developer Relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }}),
-or the contributor path in
+[RAG Portfolio Projects]({{ '/wiki/rag-portfolio-projects/' | relative_url }})
+for role-specific project selection. Use
+[Open Source]({{ '/wiki/open-source/' | relative_url }}) and the
 [Open Source Contributor Roadmap]({{ '/roadmaps/open-source-contributor-roadmap/' | relative_url }}).
+
+## Reviewable Public Work
+
+Strong open-source portfolio evidence combines work in public with context and a
+clear role signal. Public work can be a reproducible issue or pull request.
+Documentation pages can work too.
+
+Example notebooks and demos can work too, and so can packages, release notes,
+or blog posts. Community answers can work when they help someone use the
+project.
+
+Public context comes from maintainer comments and review changes. Test results,
+user feedback, or a clear explanation of what the contribution fixed can also
+provide that context.
+
+Vincent gives the clearest contributor standard in
+[Contribute to Open Source ML]({{ '/podcasts/open-source-ml-contributions/' | relative_url }}).
+At 37:40, he names README material and guides as important project surfaces. He
+also names API reference and examples around 38:36 and 39:58. At 40:38 and
+41:28, he adds contribution guides and polite issue-list interaction. Around
+27:12 and 28:00, he treats a reproducible issue as a valid first contribution.
+
+At 28:40, he explains how code pull requests bring tests into view. Around
+29:55, CI, packaging, and pre-commit hooks also enter the contribution.
+
+Jeff gives the hiring standard in
+[Data Engineering Job Prep]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }}).
+Around 1:49, he warns that many portfolios list the right tools while showing
+too little Python and SQL. Around 2:22, he looks for professional code
+structure. He wants small functions, classes, descriptive names, and tests.
+Around 2:46, he recommends personal and open-source projects because review
+pressure makes the work closer to professional practice.
+
+Data-tool episodes show where those signals appear in practice. [Natalie
+Kwong]({{ '/people/nataliekwong/' | relative_url }}) describes Airbyte's
+connector ecosystem for the long tail of business tools at 43:45 in
+[ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}).
+[Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) explains how
+DLT used workshops and documentation to validate a Python-first pipeline library
+in
+[From Data Freelancer to Startup]({{ '/podcasts/from-data-freelancer-to-startup-open-source-products/' | relative_url }}).
+[Sonal Goyal]({{ '/people/sonalgoyal/' | relative_url }}) shows how Zingg made
+identity resolution, licensing, community feedback, and integrations visible in
+[Building an Open-Source Identity Resolution Tool]({{ '/podcasts/building-open-source-data-product-for-identity-resolution/' | relative_url }}).
+
+Open-source portfolio evidence is therefore narrower than "I use open source"
+and broader than "I merged a feature." The strongest proof shows that someone
+made a project easier to use, maintain, evaluate, or trust.
+
+## Review Signals
+
+Guests agree that public proof matters, but they don't value the same signal
+first. Vincent starts from maintainer load. In
+[Contribute to Open Source ML]({{ '/podcasts/open-source-ml-contributions/' | relative_url }}),
+he recommends reproducible issues and small fixes around 27:12, 28:00, and
+30:51. Around 32:48, he recommends discussion before large features. Around
+16:02, he warns against publishing a package to PyPI before a project has
+enough tests, examples, and maintenance clarity.
+
+Jeff's employability lens appears in
+[Data Engineering Job Prep]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }}),
+where he wants repositories that prove Python and SQL. He also wants Docker,
+Airflow, code organization, and tests (1:49 / 2:22 / 2:46). For him,
+open-source work is useful because maintainers and teams impose reliability
+expectations that a private tutorial repo may not.
+
+[Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }}) starts
+from [developer relations]({{ '/wiki/developer-relations/' | relative_url }})
+and [developer experience]({{ '/wiki/developer-experience/' | relative_url }}).
+In
+[DevRel Role for Machine Learning]({{ '/podcasts/devrel-open-source-machine-learning/' | relative_url }}),
+he frames DevRel through education, documentation, and dogfooding. Community
+building and product feedback belong in that work too.
+
+At 54:31, he recommends a presentable GitHub repository. He also recommends blog
+posts, meetup talks, and small experiments with DevRel work. That makes demos
+and tutorials credible when they reduce developer friction.
+
+[Bela Wiertz]({{ '/people/belawiertz/' | relative_url }}) evaluates open source
+from the outside. In
+[Early-Stage Investing in Open Source Developer Tools]({{ '/podcasts/investing-in-open-source-developer-tools/' | relative_url }}),
+he weighs team, market need, and community understanding. He also weighs active
+engagement and the path from value creation to value capture (32:31 / 40:41).
+For a portfolio, stars and badges are weak proof unless candidates also show who
+used the work and what feedback appeared. They should also explain why the
+project mattered.
+
+[Shawn Swyx Wang]({{ '/people/swyx/' | relative_url }}) starts from visibility
+and narrative. In
+[Learn in Public]({{ '/podcasts/developer-personal-brand-learn-in-public/' | relative_url }}),
+he connects open-source work and self-marketing to recognition at 6:16 and 8:33.
+At 23:53, learning in public means showing honest progress, corrections, and
+earned expertise. Public work becomes stronger when readers can see iteration,
+not only finished polish.
 
 ## Public Contribution Signals
 
 [Open Source]({{ '/wiki/open-source/' | relative_url }}) gives the broader
-project and licensing context, while
-[Open Source and Developer Relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }})
-connects public work to documentation, demos, and feedback loops. Governance
-belongs in that same adoption context.
-The visible work usually appears through
+project and licensing context. [Open Source and Developer
+Relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }})
+connects public work to documentation and demos. It also connects community
+education with product feedback.
+
+Vincent's contribution guidance in
+[Contribute to Open Source ML]({{ '/podcasts/open-source-ml-contributions/' | relative_url }})
+grounds the day-to-day signals. Useful issues and contribution guides count.
+Docs, tests, packaging, and polite maintainer interaction count too.
+
+The visible work often appears through
 [contributing]({{ '/wiki/contributing/' | relative_url }}),
 [documentation]({{ '/wiki/documentation/' | relative_url }}), and
 [technical writing]({{ '/wiki/technical-writing/' | relative_url }}). It can
-also show up through [developer relations]({{ '/wiki/developer-relations/' | relative_url }})
-and [developer experience]({{ '/wiki/developer-experience/' | relative_url }})
-when demos, first-run friction, user feedback, and community education become
-part of the contribution.
+also appear through demos, first-run fixes, community answers, and tutorials
+when they help developers use a project. Hugo connects those activities to
+DevRel, education, dogfooding, and feedback in
+[DevRel Role for Machine Learning]({{ '/podcasts/devrel-open-source-machine-learning/' | relative_url }})
+(18:03 / 25:17 / 31:41).
 
-[Vincent Warmerdam]({{ '/people/vincentwarmerdam/' | relative_url }}) gives the
-maintainer-side standard in
-[Contribute to Open Source ML]({{ '/podcasts/open-source-ml-contributions/' | relative_url }}).
-He values reproducible issues, small fixes, docs, and tests.
-[Jeff Katz]({{ '/people/jeffkatz/' | relative_url }})
-adds the hiring side in
-[Data Engineering Job Prep]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }}).
-Open-source work can prove Python, SQL, Docker, and code quality when the
-repository is inspectable.
-
-Data engineering tool episodes add project-specific examples. [Natalie
-Kwong]({{ '/people/nataliekwong/' | relative_url }}) uses Airbyte's connector
-ecosystem and open-source/cloud path in
-[ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}).
-[Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) uses DLT docs,
-workshops, product-market-fit learning, and bottom-up developer adoption in
-[From Data Freelancer to Startup]({{ '/podcasts/from-data-freelancer-to-startup-open-source-products/' | relative_url }}).
-[Sonal Goyal]({{ '/people/sonalgoyal/' | relative_url }}) uses Zingg,
-entity-resolution product strategy, licensing, and community strategy in
-[Building an Open-Source Identity Resolution Tool]({{ '/podcasts/building-open-source-data-product-for-identity-resolution/' | relative_url }}).
-
-The career-facing episodes show how to present that work. [Hugo
-Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }}) connects
-GitHub portfolios, blog posts, meetup talks, and documentation in
-[DevRel Role for Machine Learning]({{ '/podcasts/devrel-open-source-machine-learning/' | relative_url }}).
-[Bela Wiertz]({{ '/people/belawiertz/' | relative_url }}) looks at what
-external observers can infer from repositories, community engagement, and
-commercialization plans in
-[Early-Stage Investing in Open Source Developer Tools]({{ '/podcasts/investing-in-open-source-developer-tools/' | relative_url }}).
-[Shawn Swyx Wang]({{ '/people/swyx/' | relative_url }}) connects public
-learning and open-source knowledge to a durable career signal in
-[Learn in Public]({{ '/podcasts/developer-personal-brand-learn-in-public/' | relative_url }}).
-[Nick Singh]({{ '/people/nicksingh/' | relative_url }}) covers project
-walkthroughs, ownership checks, impact framing, and defensible technical claims
-in [Ace Data Interviews]({{ '/podcasts/data-interview-behavioral-and-portfolio-prep-guide/' | relative_url }}).
-
-## Common Definition
-
-Strong open-source portfolio evidence combines public work
-with public context and a clear role signal. The public work can be an issue or
-pull request. It can also be a documentation page or example notebook.
-
-A demo, package, release note, or blog post can work too. Maintainer comments
-and community discussion show how the work handled feedback. The explanation
-connects the contribution to a role signal that an interviewer can evaluate.
-
-Vincent gives the clearest contribution standard. At 22:20 in
-[Contribute to Open Source ML]({{ '/podcasts/open-source-ml-contributions/' | relative_url }}),
-he names README material, guides, and API reference as the project
-surface. At 24:10, he adds contribution guides and polite issue-list
-interaction. At 25:50, he treats a reproducible issue as a valid first
-contribution.
-
-Vincent's 27:40 code pull request prep includes tests, CI, packaging, and
-pre-commit hooks.
-
-Jeff gives the hiring standard. In
-[Data Engineering Job Prep]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }}),
-he warns around 1:49 that many portfolios list the right tools while showing too
-little Python and SQL. Around 2:22, he adds professional code structure. That
-means small functions, classes, descriptive names, and tests. Around 2:46, he
-recommends personal and open-source projects because review pressure makes the
-code more reliable and closer to professional practice.
-
-The data-engineering episodes add concrete project settings. In
-[ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
-[Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) explains
-Airbyte's connector ecosystem at 43:45. It existed for the long tail of
-business tools.
-
-In
-[From Data Freelancer to Startup]({{ '/podcasts/from-data-freelancer-to-startup-open-source-products/' | relative_url }}),
-[Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) shows how DLT
-used workshops and documentation to validate a Python-first pipeline library.
-Developer adoption became part of that validation.
-
-In
-[Building an Open-Source Identity Resolution Tool]({{ '/podcasts/building-open-source-data-product-for-identity-resolution/' | relative_url }}),
-[Sonal Goyal]({{ '/people/sonalgoyal/' | relative_url }}) shows the product
-side through Zingg. Identity resolution and open-source distribution become
-visible. So do licensing choices, community feedback, and ecosystem
-integrations.
-
-That makes open-source portfolio evidence narrower than "I use open source" and
-broader than "I merged a feature." The useful proof is public work that makes a
-project easier to use or maintain. It can also make a project easier to
-evaluate or trust.
-
-## Guest Differences
-
-Guests agree that public proof matters, but they value different signals.
-Vincent starts from maintainer load. A good contributor keeps scope small and
-files useful issues. They ask before building a large feature and show tests or
-docs where the change needs them
-([Contribute to Open Source ML]({{ '/podcasts/open-source-ml-contributions/' | relative_url }}),
-25:50 / 27:40).
-
-He also warns against publishing a package too early. A GitHub repo can be
-useful before a project is mature enough for PyPI.
-
-Jeff starts from employability, and he wants a repository to prove fundamentals.
-Python and SQL matter most for data engineering. Open source helps because
-professional teams and maintainers enforce reliability. They also enforce
-testing, CI/CD, and GitHub workflow
-([Data Engineering Job Prep]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }}),
-1:49 / 2:46).
-
-Hugo starts from DevRel and developer experience. In
-[DevRel Role for Machine Learning]({{ '/podcasts/devrel-open-source-machine-learning/' | relative_url }}),
-he frames DevRel through education, documentation, and community building.
-Technical fluency and product feedback also belong in that loop.
-At 54:31, his career advice is practical.
-
-Make the GitHub repository presentable. Write blog posts, speak at meetups, and
-experiment with DevRel work. That makes demos and tutorials valid evidence when
-they reduce adoption friction.
-
-Bela looks at open source from the outside-in. In
-[Early-Stage Investing in Open Source Developer Tools]({{ '/podcasts/investing-in-open-source-developer-tools/' | relative_url }}),
-he says stars alone are a weak signal. Around 32:31 and 40:41, he weighs team
-and market need. He also weighs community understanding and active engagement.
-He also looks for a
-plan to move from value creation to value capture.
-
-For a portfolio, this becomes a warning: don't treat stars or badges as proof by
-themselves. Show who used the work, what feedback appeared, and why the project
-mattered.
-
-Swyx starts from visibility and narrative. In
-[Learn in Public]({{ '/podcasts/developer-personal-brand-learn-in-public/' | relative_url }}),
-he connects open-source work and self-marketing to recognition at 6:16 and 8:33.
-At 23:53, learning in public means honest progress, correction, and earned
-expertise. Public work becomes stronger when it shows iteration and
-learning, not only finished polish.
+The career-facing episodes explain how to make those signals legible. Hugo
+links GitHub portfolios with blog posts and meetups in
+[DevRel Role for Machine Learning]({{ '/podcasts/devrel-open-source-machine-learning/' | relative_url }})
+(54:31). Swyx links public learning, corrections, and reusable knowledge to
+recognition in
+[Learn in Public]({{ '/podcasts/developer-personal-brand-learn-in-public/' | relative_url }})
+(23:53 / 47:14). [Nick Singh]({{ '/people/nicksingh/' | relative_url }})
+adds the interview version in
+[Ace Data Interviews]({{ '/podcasts/data-interview-behavioral-and-portfolio-prep-guide/' | relative_url }}).
+Project walkthroughs test ownership, impact framing, and defensible technical
+claims there (25:13 / 27:50 / 37:18).
 
 ## Contribution Paths
 
-A reproducible issue gives a beginner a strong first contribution. Vincent
-recommends using a tool and finding a confusing error or failure. Then open a
-clear GitHub issue with a reproduction and suggested direction
+A reproducible issue can be a strong first contribution. Vincent recommends
+using a tool and finding a confusing error or failure. Then open a clear GitHub
+issue with a reproduction and suggested direction
 ([Contribute to Open Source ML]({{ '/podcasts/open-source-ml-contributions/' | relative_url }}),
-25:50). For a data or ML portfolio, include the environment and versions. Add
-sample data or a minimal script, then explain expected behavior, actual
-behavior, and why the failure affects a user.
+27:12 and 28:00).
 
-Documentation is also portfolio evidence. Vincent's documentation checklist at
-22:20 includes README, guides, API reference, and examples. Hugo's DevRel
-discussion at 18:03 and 25:17 places documentation inside the same loop as
-education, dogfooding, and product feedback
+For a data or ML portfolio, include the environment and versions. Add sample
+data or a minimal script. Explain expected behavior, actual behavior, and why
+the failure affects a developer using the project.
+
+Documentation is also portfolio evidence. Vincent's documentation checklist
+starts at 37:40 and continues through 39:58. It covers README material, guides,
+API reference, and examples. Hugo's DevRel discussion at 18:03 and 25:17 places
+documentation in the same work as education, dogfooding, and product feedback
 ([DevRel Role for Machine Learning]({{ '/podcasts/devrel-open-source-machine-learning/' | relative_url }})).
 A strong documentation PR shows that the contributor understood the tool well
 enough to make the first run, common failure, or advanced use case clearer.
@@ -239,7 +206,7 @@ pre-commit hooks, and CI.
 He recommends smaller projects when large libraries have heavy traffic and
 governance constraints
 ([Contribute to Open Source ML]({{ '/podcasts/open-source-ml-contributions/' | relative_url }}),
-27:40). For portfolio use, link the issue and pull request. Include tests, CI
+30:51). For portfolio use, link the issue and pull request. Include tests, CI
 results, and maintainer feedback.
 
 Airbyte gives a connector-specific version of this path. Around 44:12 Natalie
@@ -383,7 +350,7 @@ story matter too.
 The open-source episodes value useful work in context, not plain
 GitHub presence
 ([Contribute to Open Source ML]({{ '/podcasts/open-source-ml-contributions/' | relative_url }}),
-25:50 / 27:40).
+27:12 / 28:00 / 30:51).
 
 Avoid over-selling stars, badges, or tool names. Bela's investor discussion
 explicitly separates GitHub stars from active engagement and community value
@@ -395,7 +362,7 @@ Avoid large unsolicited feature PRs. Vincent recommends discussing ideas with
 maintainers before investing in a major change. This matters most in large
 projects with governance and long-term maintenance concerns
 ([Contribute to Open Source ML]({{ '/podcasts/open-source-ml-contributions/' | relative_url }}),
-27:40).
+32:48).
 
 Avoid project stories that can't survive a walkthrough. Nick's interview
 episode warns that project questions test ownership, context, and defensible

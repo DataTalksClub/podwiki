@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Analytics Engineering Portfolio Projects"
-summary: "Podcast-grounded guidance for analytics engineering portfolio projects that prove SQL modeling, metric ownership, dbt-style tests, documentation, BI readiness, and stakeholder judgment."
+summary: "Guidance for analytics engineering portfolio projects that prove SQL modeling, metric ownership, dbt-style tests, documentation, BI readiness, and stakeholder judgment."
 related:
   - Portfolio Projects
   - Analytics Engineering
@@ -13,11 +13,18 @@ related:
   - Job Search
 ---
 
-An analytics engineering portfolio project should prove that you can turn messy
-source data into reusable models and shared metric definitions. The strongest
-projects show more than SQL or a dashboard. They show table grain and modeled
-layers. They include tests, documentation, BI consumption, and the business
-question behind the model.
+An analytics engineering portfolio project is evidence that a candidate can turn
+messy source data into reusable models. It also shows shared metric definitions
+and a trusted analytical surface.
+
+The strongest projects go beyond SQL or a dashboard because they explain table
+grain and modeled layers. They add tests and BI consumption around those
+definitions. They also show the business question behind the model.
+
+[Victoria Perez Mola]({{ '/people/victoriaperezmola/' | relative_url }})
+describes analytics engineering as daily work around data modeling, data
+quality, dbt transformations, and Looker exposure
+([4:05-10:04]({{ '/podcasts/analytics-engineer-skills-tools/' | relative_url }})).
 
 This project checklist is one branch of the broader
 [Portfolio Projects]({{ '/wiki/portfolio-projects/' | relative_url }}) hub. It
@@ -30,19 +37,12 @@ and the implementation-focused
 For ingestion, orchestration, and platform-heavy work, use
 [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }}).
 
-The DataTalks.Club analytics-engineering episodes set the portfolio bar.
-[Victoria Perez Mola]({{ '/people/victoriaperezmola/' | relative_url }})
-describes daily work around data modeling and data quality. Her episode also
-ties the work to pipelines and Looker. It covers dbt transformations, tests,
-documentation, and dependency graphs
-([Master Analytics Engineering at 4:05-10:04]({{ '/podcasts/analytics-engineer-skills-tools/' | relative_url }})).
-
 [Juan Manuel Perafan]({{ '/people/juanmanuelperafan/' | relative_url }})
-adds that analytics engineering should make business reality match the data.
-Engineering discipline then makes the result safer
+adds the second half of the definition: the model should make business reality
+match the data. Engineering discipline should make that representation safer
 ([Foundations of the Analytics Engineer Role at 11:03 and 46:34]({{ '/podcasts/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices/' | relative_url }})).
 
-## Common Definition
+## Reviewable Analytics Project
 
 Across these episodes, a good analytics engineering portfolio project starts with
 a repeated business question and ends with a trusted analytical surface. The
@@ -77,10 +77,14 @@ That favors projects that show source assumptions and warehouse-side
 transformations, even when the portfolio isn't a full data-engineering
 project.
 
-## Guest Differences
+## Review Signals
 
-Guests differ on whether the portfolio should sell a distinct job title or a
-way of working. [Victoria Perez Mola]({{ '/people/victoriaperezmola/' | relative_url }})
+Guests don't disagree that modeling matters, but they place the portfolio
+boundary differently. For some guests, the proof is a distinct
+analytics-engineer role. For others, it's business modeling,
+career-transition evidence, or activation work.
+
+[Victoria Perez Mola]({{ '/people/victoriaperezmola/' | relative_url }})
 describes a recognizable analytics-engineer role with modeling and quality.
 Looker and dbt are part of that role. So is collaboration with analysts, data
 scientists, and backend engineers
@@ -120,11 +124,11 @@ meaning, and downstream consequences.
 
 A metric mart and dashboard project is the clearest portfolio option because it
 connects [Metrics]({{ '/wiki/metrics/' | relative_url }}), modeled tables, and
-a visible consumption surface. Pick a domain with repeated decisions, such as
-ecommerce orders or subscription health. Marketing spend, product usage,
-logistics, and finance also work. Build source models before staging tables,
-facts, dimensions, and metric definitions. Then add tests and one documented
-dashboard that uses only the modeled layer.
+a visible consumption surface. Pick a domain with repeated decisions. Useful
+domains include marketing funnels, product usage, business-health reporting,
+and finance reporting. Build source models before staging tables, facts,
+dimensions, and metric definitions. Then add tests and one documented dashboard
+that uses only the modeled layer.
 
 This mirrors [Victoria Perez Mola]({{ '/people/victoriaperezmola/' | relative_url }})
 on modeling and Looker exposure
@@ -246,7 +250,10 @@ database modeling practice
 
 The concrete artifact can be a small warehouse model over a sample
 transactional database. Show OLTP-to-OLAP modeling and window functions. Then
-add dimensional choices and a concise dashboard or query notebook.
+add dimensional choices and a concise dashboard or query notebook. The
+[Data Analysis]({{ '/guides/data-analysis/' | relative_url }}) guide covers the
+analyst-facing side of this evidence, while this page keeps the focus on
+reusable modeling and handoff.
 
 Junior candidates can win with a smaller project when the grain definitions and
 tests are strong. Docs and SQL explanations can matter more than a broad stack
@@ -295,11 +302,11 @@ Looker exposure, not in isolated charts
 
 Avoid a dbt repository with many models but no business definitions, tests,
 owners, or BI consumer. [Juan Manuel Perafan]({{ '/people/juanmanuelperafan/' | relative_url }})
-argues that the work should map business reality and make the data safer.
+argues that the work should map business reality and make the data safer
+([11:03 and 46:34]({{ '/podcasts/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices/' | relative_url }})).
 [Tammy Liang]({{ '/people/tammyliang/' | relative_url }}) shows that adoption,
 documentation, and trust matter after the models exist
-([Foundations episode]({{ '/podcasts/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices/' | relative_url }}),
-[Building and Scaling a Data Team]({{ '/podcasts/building-and-scaling-data-team/' | relative_url }})).
+([22:32 and 49:00]({{ '/podcasts/building-and-scaling-data-team/' | relative_url }})).
 
 Avoid copying a public template without explaining grain, joins, slowly
 changing attributes, or incremental logic. [Nikola Maksimovic]({{ '/people/nikolamaksimovic/' | relative_url }})
@@ -316,9 +323,9 @@ Ownership matters too when teams only look at the final output
 Avoid treating analytics engineering as "SQL plus dashboard." The podcast
 discussions return to software practices and tests, then to docs and lineage.
 They also cover version control, warehouse transformations, and adoption. See
-[Master Analytics Engineering]({{ '/podcasts/analytics-engineer-skills-tools/' | relative_url }})
+[Victoria Perez Mola on dbt tests, documentation, and role fit]({{ '/podcasts/analytics-engineer-skills-tools/' | relative_url }})
 for the role view. See
-[Mastering DataOps]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }})
+[Christopher Bergh on DataOps automation and reliable pipelines]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }})
 and [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
 for the workflow view.
 
@@ -329,6 +336,7 @@ These pages cover the role, stack, and adjacent portfolio context:
 - [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
 - [Analytics Engineering Roadmap]({{ '/wiki/analytics-engineering-roadmap/' | relative_url }})
 - [Data Analyst to Analytics Engineer Roadmap]({{ '/roadmaps/data-analyst-to-analytics-engineer/' | relative_url }})
+- [Data Analysis]({{ '/guides/data-analysis/' | relative_url }})
 - [Data Analyst vs Analytics Engineer]({{ '/comparisons/data-analyst-vs-analytics-engineer/' | relative_url }})
 - [Marketing to Analytics Engineering]({{ '/wiki/marketing-to-analytics-engineering/' | relative_url }})
 - [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
@@ -342,6 +350,7 @@ These pages cover the role, stack, and adjacent portfolio context:
 - [ETL vs ELT]({{ '/comparisons/etl-vs-elt/' | relative_url }})
 - [dbt]({{ '/wiki/dbt/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
+- [Data Observability for Data Engineering]({{ '/guides/data-observability-for-data-engineering/' | relative_url }})
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})
 - [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
 - [Job Search]({{ '/wiki/job-search/' | relative_url }})

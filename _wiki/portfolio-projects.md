@@ -38,46 +38,44 @@ engineering version. In
 and
 [How to Become a Data Engineer]({{ '/podcasts/from-software-engineering-data-science-to-data-engineering-leadership/' | relative_url }}),
 they connect project evidence to fundamentals and clean code. They also connect
-it to domain work and reviewable pipelines
-([Data Engineering Job Prep]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }}),
-1:49 / 2:22 / 2:46.
-[How to Become a Data Engineer]({{ '/podcasts/from-software-engineering-data-science-to-data-engineering-leadership/' | relative_url }}),
-41:29 / 44:00).
+it to domain work and reviewable pipelines.
+Use the data engineering job-prep clips at
+[1:49, 2:22, and 2:46]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }}).
+Use the transition clips at
+[41:29 and 44:00]({{ '/podcasts/from-software-engineering-data-science-to-data-engineering-leadership/' | relative_url }}).
 
 [Victoria Perez Mola]({{ '/people/victoriaperezmola/' | relative_url }}) and
 [Juan Manuel Perafan]({{ '/people/juanmanuelperafan/' | relative_url }}) ground
 the analytics engineering version. Their episodes connect portfolio evidence to
 SQL modeling, data quality, and documentation. They also connect it to business
-reality and BI consumption
-([Master Analytics Engineering]({{ '/podcasts/analytics-engineer-skills-tools/' | relative_url }})
-and
-[Foundations of the Analytics Engineer Role]({{ '/podcasts/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices/' | relative_url }}),
-40:42 / 42:05 and 12:09 / 1:08:24).
+reality and BI consumption.
+Use the analytics-engineering skills clips at
+[40:42 and 42:05]({{ '/podcasts/analytics-engineer-skills-tools/' | relative_url }}).
+Use the foundations clips at
+[12:09 and 1:08:24]({{ '/podcasts/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices/' | relative_url }}).
 
-[Valerii Babushkin]({{ '/people/valeriybabushkin/' | relative_url }}) grounds
+[Valeriy Babushkin]({{ '/people/valeriybabushkin/' | relative_url }}) grounds
 the machine learning version through baselines, validation, and production
 robustness. [Ben Wilson]({{ '/people/benwilson/' | relative_url }}) and
 [Nadia Nahar]({{ '/people/nadianahar/' | relative_url }}) add maintainable code
 and tests. They also add serving boundaries, monitoring, and software
-integration
-([Machine Learning System Design Interview]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }}),
-24:28 / 37:59.
-[Practical Machine Learning Engineering for Production]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }}),
-52:14.
-[Software Engineering for ML]({{ '/podcasts/software-engineering-for-machine-learning/' | relative_url }}),
-24:03 / 36:28).
+integration. Use the system-design interview clips at
+[24:28 and 37:59]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }}),
+the production-ML clip at
+[52:14]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }}),
+and the software-engineering clips at
+[24:03 and 36:28]({{ '/podcasts/software-engineering-for-machine-learning/' | relative_url }}).
 
 [Atita Arora]({{ '/people/atitaarora/' | relative_url }}) and
 [Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }}) ground
 the RAG version. Their episodes make chunking, retrieval evidence, citations,
 and gold tests part of the project. Failure labels and traces aren't optional
-polish
-([Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
-and
-[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}),
-38:24 / 42:49 / 48:09 and 26:43 / 44:26).
+polish. Use the modern-search clips at
+[38:24, 42:49, and 48:09]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}).
+Use the practical-RAG clips at
+[26:43 and 44:26]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}).
 
-## Common Definition
+## Reviewable Project Standard
 
 A strong portfolio project makes the work reviewable by naming the consumer or
 decision. It shows the input data and the transformation or modeling path. It
@@ -141,7 +139,7 @@ Those episodes support
 [End-to-End Data Pipeline Project]({{ '/wiki/end-to-end-data-pipeline-project/' | relative_url }})
 as the concrete data-pipeline blueprint.
 
-## Choosing A Project Type
+## Choosing a Project Type
 
 Choose [data engineering]({{ '/wiki/data-engineering/' | relative_url }}) when
 the project should prove ingestion, modeling, orchestration, and recovery. The
@@ -171,7 +169,7 @@ covers metric-centered portfolio evidence.
 Choose [machine learning]({{ '/wiki/machine-learning/' | relative_url }}) when
 the project should prove problem framing and data strategy. It also needs
 baselines, evaluation, and software boundaries.
-[Valerii Babushkin]({{ '/people/valeriybabushkin/' | relative_url }}) anchors this
+[Valeriy Babushkin]({{ '/people/valeriybabushkin/' | relative_url }}) anchors this
 in baselines and validation. He also covers features, labels, and production
 robustness
 ([Machine Learning System Design Interview]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }}),
@@ -253,7 +251,7 @@ show citations, logs, and failure analysis.
 [Search and RAG Project Checklist]({{ '/wiki/search-and-rag-project-checklist/' | relative_url }})
 covers those review points.
 
-## Public Proof And Open Source
+## Public Proof and Open Source
 
 Open-source work is portfolio evidence when review pressure is visible. Issues,
 docs, tests, and demos can be stronger than a private tutorial repository. Pull
@@ -295,7 +293,7 @@ and the longer arc connects to [Career Development]({{ '/wiki/career-development
 [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
 covers projects discussed as system design examples.
 
-## Guest Differences
+## Role-Specific Review Signals
 
 Guests differ on which proof matters most because each role values a different
 signal. [Jeff Katz]({{ '/people/jeffkatz/' | relative_url }}) asks for Python
@@ -315,7 +313,7 @@ models to business reality
 [Foundations of the Analytics Engineer Role]({{ '/podcasts/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices/' | relative_url }}),
 12:09 / 1:08:24).
 
-[Valerii Babushkin]({{ '/people/valeriybabushkin/' | relative_url }}) asks for
+[Valeriy Babushkin]({{ '/people/valeriybabushkin/' | relative_url }}) asks for
 baselines and validation. [Ben Wilson]({{ '/people/benwilson/' | relative_url }})
 and [Nadia Nahar]({{ '/people/nadianahar/' | relative_url }}) add production
 and software boundaries

@@ -11,7 +11,7 @@
     "persons": 183,
     "topics": 92,
     "nodes": 703,
-    "links": 10819
+    "links": 10830
   },
   "nodes": [
     {
@@ -5379,7 +5379,7 @@
       "title": "Analytics Engineering Portfolio Projects",
       "url": "/wiki/analytics-engineering-portfolio-projects/",
       "count": 1,
-      "search": "Analytics Engineering Portfolio Projects Podcast grounded guidance for analytics engineering portfolio projects that prove SQL modeling, metric ownership, dbt style tests, documentation, BI readiness, and stakeholder judgment."
+      "search": "Analytics Engineering Portfolio Projects Guidance for analytics engineering portfolio projects that prove SQL modeling, metric ownership, dbt style tests, documentation, BI readiness, and stakeholder judgment."
     },
     {
       "id": "wiki:analytics-engineering-roadmap",
@@ -6339,7 +6339,7 @@
       "title": "Machine Learning Portfolio Projects",
       "url": "/wiki/machine-learning-portfolio-projects/",
       "count": 1,
-      "search": "Machine Learning Portfolio Projects Podcast grounded guidance for choosing machine learning portfolio projects that prove problem framing, baselines, data strategy, evaluation, production awareness, and maintainable code."
+      "search": "Machine Learning Portfolio Projects Guidance for choosing machine learning portfolio projects that prove problem framing, baselines, data strategy, evaluation, production awareness, and maintainable code."
     },
     {
       "id": "wiki:machine-learning-system-design",
@@ -6559,7 +6559,7 @@
       "title": "Open Source Portfolio Evidence",
       "url": "/wiki/open-source-portfolio-evidence/",
       "count": 1,
-      "search": "Open Source Portfolio Evidence Guidance for turning open source issues, pull requests, documentation, demos, and community work into credible portfolio evidence for data, ML, AI, and DevRel roles."
+      "search": "Open Source Portfolio Evidence How open source issues, pull requests, documentation, demos, and community work become credible portfolio proof for data, ML, AI, and DevRel roles."
     },
     {
       "id": "wiki:orchestration",
@@ -36945,6 +36945,18 @@
     },
     {
       "source": "wiki:analytics-engineering-portfolio-projects",
+      "target": "article:guide:data-analysis",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:analytics-engineering-portfolio-projects",
+      "target": "article:guide:data-observability-for-data-engineering",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:analytics-engineering-portfolio-projects",
       "target": "article:roadmap:data-analyst-to-analytics-engineer",
       "kind": "wiki-link",
       "weight": 1
@@ -43641,12 +43653,6 @@
     },
     {
       "source": "wiki:data-engineering-portfolio-projects",
-      "target": "article:comparison:data-engineer-vs-data-scientist",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-engineering-portfolio-projects",
       "target": "article:comparison:data-warehouse-vs-data-lakehouse",
       "kind": "wiki-link",
       "weight": 1
@@ -43665,6 +43671,18 @@
     },
     {
       "source": "wiki:data-engineering-portfolio-projects",
+      "target": "article:how_to:how-to-build-data-pipelines",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-portfolio-projects",
+      "target": "article:roadmap:data-engineer-roadmap",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-portfolio-projects",
       "target": "article:roadmap:data-scientist-to-data-engineer",
       "kind": "wiki-link",
       "weight": 1
@@ -43678,6 +43696,12 @@
     {
       "source": "wiki:data-engineering-portfolio-projects",
       "target": "person:adrianbrudaru",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-portfolio-projects",
+      "target": "person:arpitchoudhury",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -43852,20 +43876,8 @@
     {
       "source": "wiki:data-engineering-portfolio-projects",
       "target": "wiki:data-engineering-tools",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-engineering-portfolio-projects",
-      "target": "wiki:data-engineering-tools",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:data-engineering-portfolio-projects",
-      "target": "wiki:data-observability",
-      "kind": "wiki-link",
-      "weight": 1
     },
     {
       "source": "wiki:data-engineering-portfolio-projects",
@@ -43923,12 +43935,6 @@
     },
     {
       "source": "wiki:data-engineering-portfolio-projects",
-      "target": "wiki:gitops-for-data-teams",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-engineering-portfolio-projects",
       "target": "wiki:job-search",
       "kind": "wiki-link",
       "weight": 1
@@ -43942,12 +43948,6 @@
     {
       "source": "wiki:data-engineering-portfolio-projects",
       "target": "wiki:open-source",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:data-engineering-portfolio-projects",
-      "target": "wiki:open-source",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -43974,6 +43974,18 @@
       "target": "wiki:portfolio-projects",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:data-engineering-portfolio-projects",
+      "target": "wiki:reverse-etl",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:data-engineering-portfolio-projects",
+      "target": "wiki:tracking-plans",
+      "kind": "wiki-link",
+      "weight": 1
     },
     {
       "source": "wiki:data-engineering-roadmap",
@@ -56913,6 +56925,12 @@
     },
     {
       "source": "wiki:machine-learning-portfolio-projects",
+      "target": "article:roadmap:machine-learning-engineer-roadmap",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-portfolio-projects",
       "target": "article:roadmap:open-source-contributor-roadmap",
       "kind": "wiki-link",
       "weight": 1
@@ -57075,6 +57093,12 @@
     },
     {
       "source": "wiki:machine-learning-portfolio-projects",
+      "target": "wiki:computer-vision",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-portfolio-projects",
       "target": "wiki:data-science",
       "kind": "wiki-link",
       "weight": 1
@@ -57147,6 +57171,18 @@
     },
     {
       "source": "wiki:machine-learning-portfolio-projects",
+      "target": "wiki:ml-system-design-documents",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-portfolio-projects",
+      "target": "wiki:ml-system-design-documents",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:machine-learning-portfolio-projects",
       "target": "wiki:mlops",
       "kind": "wiki-related",
       "weight": 3
@@ -57195,7 +57231,19 @@
     },
     {
       "source": "wiki:machine-learning-portfolio-projects",
+      "target": "wiki:recommendation-systems",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-portfolio-projects",
       "target": "wiki:search-and-rag-project-checklist",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:machine-learning-portfolio-projects",
+      "target": "wiki:technical-writing",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -65805,6 +65853,18 @@
     },
     {
       "source": "wiki:rag-portfolio-projects",
+      "target": "article:guide:llm-system-design-interview",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:rag-portfolio-projects",
+      "target": "article:roadmap:llm-rag-production-roadmap",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:rag-portfolio-projects",
       "target": "person:anahitapakiman",
       "kind": "wiki-link",
       "weight": 1
@@ -65994,6 +66054,12 @@
       "target": "wiki:portfolio-projects",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:rag-portfolio-projects",
+      "target": "wiki:production-search-evaluation",
+      "kind": "wiki-link",
+      "weight": 1
     },
     {
       "source": "wiki:rag-portfolio-projects",
