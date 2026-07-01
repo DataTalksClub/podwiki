@@ -309,7 +309,7 @@ as business reality turned into clean data and stronger workflows.
 That boundary matters when you hire data engineers. If source systems, storage,
 or orchestration are unstable, hire for data engineering first. If raw data
 already arrives reliably but analysts can't trust metrics or models, an
-[analytics engineer]({{ '/guides/analytics-engineer/' | relative_url }}) may
+[analytics engineer]({{ '/wiki/analytics-engineering/' | relative_url }}) may
 be the better first hire. If both are broken, choose a senior generalist or
 split the roadmap into two roles.
 

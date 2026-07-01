@@ -91,14 +91,15 @@ Status: exact guide/wiki slug collisions were merged into the wiki layer and
 the duplicate guide files were removed on 2026-06-30. Remaining rows in this
 section still need the same merge/delete decision. The Airflow/apache-airflow/
 airflow-docker-compose cluster was consolidated into `_wiki/orchestration.md`
-on 2026-07-01.
+on 2026-07-01. The analytics-engineer guide variant was consolidated into
+`_wiki/analytics-engineering.md` on 2026-07-01.
 
 | Slug | → wiki topic | Note |
 |---|---|---|
 | airflow | orchestration | **done: consolidated into `_wiki/orchestration.md`** |
 | apache-airflow | orchestration | **done: consolidated into `_wiki/orchestration.md`; dup of airflow** |
 | airflow-docker-compose | orchestration | **done: consolidated into `_wiki/orchestration.md`; thin how-to** |
-| analytics-engineer | analytics-engineering | |
+| analytics-engineer | analytics-engineering | **done: consolidated into `_wiki/analytics-engineering.md`** |
 | data-engineering-and-data-science | data-engineer-vs-data-scientist | |
 | data-engineering-certification | data-engineering-certification | **done: slug collision merged** |
 | data-engineering-manager | leadership | |

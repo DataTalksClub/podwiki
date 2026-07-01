@@ -95,7 +95,7 @@ Existing pages:
 - `_wiki/machine-learning-engineer-role.md`
 - `_wiki/ml-platform-engineer-role.md`
 - `_wiki/mlops-engineer.md`
-- `_guides/analytics-engineer.md`
+- `_wiki/analytics-engineering.md` owns the Analytics Engineer role vocabulary.
 - `_guides/data-product-manager-role.md`
 - `_wiki/developer-relations.md` owns the Developer Advocate / DevRel Engineer
   role vocabulary unless a future keyword brief needs a separate role page.

@@ -4,7 +4,7 @@ How `DataTalksClub/podwiki` (served at `datatalks.club/podwiki/`) should be
 integrated with the main site (`datatalksclub.github.io`, served at
 `datatalks.club/`) for maximum SEO benefit.
 
-_Last updated: 2026-06-30._
+_Last updated: 2026-07-01._
 
 Status note: this analysis was written before the category split in commit
 `473dd0e`, which retired the public `_articles/` collection and moved
@@ -144,5 +144,7 @@ wiki page already owns.
     `_wiki/freelance.md`
   - [x] Consolidate Airflow, Apache Airflow, and Airflow Docker Compose
     variants into `_wiki/orchestration.md`
+  - [x] Consolidate analytics-engineer into
+    `_wiki/analytics-engineering.md`
   - [x] Keep A/B testing as wiki concept coverage, not guide/category content
 - [ ] Resubmit both sitemaps in Google Search Console

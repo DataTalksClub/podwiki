@@ -2,12 +2,12 @@
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
     "wikis": 180,
-    "articles": 56,
+    "articles": 55,
     "podcasts": 202,
     "persons": 438,
     "topics": 147,
-    "nodes": 1023,
-    "links": 10726
+    "nodes": 1022,
+    "links": 10693
   },
   "nodes": [
     {
@@ -31,17 +31,6 @@
       "count": 1,
       "search": "AI Powered Business Intelligence: Practical Workflows, Trust, and Limits A DataTalks.Club podcast backed guide to AI powered business intelligence: where LLMs help BI workflows, what governance has to cover, and why trust still depends on product thinking.",
       "keyword": "ai powered business intelligence"
-    },
-    {
-      "id": "article:guide:analytics-engineer",
-      "type": "article",
-      "collection": "guide",
-      "label": "Analytics Engineer: Role, Skills, Tools, and Career Path",
-      "title": "Analytics Engineer: Role, Skills, Tools, and Career Path",
-      "url": "/guides/analytics-engineer/",
-      "count": 1,
-      "search": "Analytics Engineer: Role, Skills, Tools, and Career Path A podcast backed guide to reusable analytics model ownership, metric and event definitions, dbt style testing, portfolio proof, and the analytics engineer career path.",
-      "keyword": "analytics engineer"
     },
     {
       "id": "article:guide:data-analysis",
@@ -8487,7 +8476,7 @@
       "title": "Analytics Engineering",
       "url": "/wiki/analytics-engineering/",
       "count": 1,
-      "search": "Analytics Engineering How DataTalks.Club episodes describe analytics engineering as the discipline of building trusted analytical models, transformations, tests, documentation, and BI ready data products."
+      "search": "Analytics Engineering How DataTalks.Club episodes describe analytics engineering as the discipline of building trusted analytical models, transformations, metric definitions, tests, documentation, and BI ready data products."
     },
     {
       "id": "wiki:analytics-engineering-portfolio-projects",
@@ -10155,7 +10144,7 @@
   "links": [
     {
       "source": "article:comparison:data-analyst-vs-analytics-engineer",
-      "target": "article:guide:analytics-engineer",
+      "target": "article:guide:data-roles",
       "kind": "article-link",
       "weight": 2
     },
@@ -13484,258 +13473,6 @@
       "weight": 2
     },
     {
-      "source": "article:guide:analytics-engineer",
-      "target": "article:comparison:data-analyst-vs-analytics-engineer",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:analytics-engineer",
-      "target": "article:comparison:etl-vs-elt",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:analytics-engineer",
-      "target": "person:arpitchoudhury",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:analytics-engineer",
-      "target": "person:christopherbergh",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:analytics-engineer",
-      "target": "person:juanmanuelperafan",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:analytics-engineer",
-      "target": "person:nataliekwong",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:analytics-engineer",
-      "target": "person:nikolamaksimovic",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:analytics-engineer",
-      "target": "person:victoriaperezmola",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:analytics-engineer",
-      "target": "podcast:analytics-engineer-skills-tools",
-      "kind": "article-link",
-      "weight": 18
-    },
-    {
-      "source": "article:guide:analytics-engineer",
-      "target": "podcast:data-engineering-tools-modern-data-stack",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:analytics-engineer",
-      "target": "podcast:data-led-growth-event-tracking-and-reverse-etl",
-      "kind": "article-link",
-      "weight": 6
-    },
-    {
-      "source": "article:guide:analytics-engineer",
-      "target": "podcast:dataops-automation-and-reliable-data-pipelines",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:analytics-engineer",
-      "target": "podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch",
-      "kind": "article-link",
-      "weight": 10
-    },
-    {
-      "source": "article:guide:analytics-engineer",
-      "target": "podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices",
-      "kind": "article-link",
-      "weight": 14
-    },
-    {
-      "source": "article:guide:analytics-engineer",
-      "target": "wiki:analytics-engineering",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:analytics-engineer",
-      "target": "wiki:analytics-engineering",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:analytics-engineer",
-      "target": "wiki:analytics-engineering-portfolio-projects",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:analytics-engineer",
-      "target": "wiki:analytics-engineering-portfolio-projects",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:analytics-engineer",
-      "target": "wiki:analytics-engineering-roadmap",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:guide:analytics-engineer",
-      "target": "wiki:analytics-engineering-roadmap",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:analytics-engineer",
-      "target": "wiki:dashboard-and-metric-layer-project-checklist",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:analytics-engineer",
-      "target": "wiki:data-analyst-vs-analytics-engineer",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:analytics-engineer",
-      "target": "wiki:data-engineering-platforms",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:analytics-engineer",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:analytics-engineer",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:analytics-engineer",
-      "target": "wiki:dataops",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:analytics-engineer",
-      "target": "wiki:dbt",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:analytics-engineer",
-      "target": "wiki:dbt",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:analytics-engineer",
-      "target": "wiki:elt",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:analytics-engineer",
-      "target": "wiki:event-tracking",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:analytics-engineer",
-      "target": "wiki:event-tracking",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:analytics-engineer",
-      "target": "wiki:marketing-to-analytics-engineering",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:analytics-engineer",
-      "target": "wiki:marketing-to-analytics-engineering",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:analytics-engineer",
-      "target": "wiki:metrics",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:analytics-engineer",
-      "target": "wiki:metrics",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:analytics-engineer",
-      "target": "wiki:modern-data-stack",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:analytics-engineer",
-      "target": "wiki:modern-data-stack",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:analytics-engineer",
-      "target": "wiki:product-analytics",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:analytics-engineer",
-      "target": "wiki:reverse-etl",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:analytics-engineer",
-      "target": "wiki:reverse-etl",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:guide:analytics-engineer",
-      "target": "wiki:tracking-plans",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:analytics-engineer",
-      "target": "wiki:tracking-plans",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
       "source": "article:guide:data-analysis",
       "target": "article:comparison:data-analyst-vs-analytics-engineer",
       "kind": "article-wiki",
@@ -16749,12 +16486,6 @@
     },
     {
       "source": "article:guide:data-scientist-to-data-engineer",
-      "target": "article:guide:analytics-engineer",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:data-scientist-to-data-engineer",
       "target": "article:guide:data-engineering-pipeline-project",
       "kind": "article-link",
       "weight": 4
@@ -16902,6 +16633,12 @@
       "target": "wiki:analytics-engineering",
       "kind": "article-link",
       "weight": 4
+    },
+    {
+      "source": "article:guide:data-scientist-to-data-engineer",
+      "target": "wiki:analytics-engineering-portfolio-projects",
+      "kind": "article-link",
+      "weight": 2
     },
     {
       "source": "article:guide:data-scientist-to-data-engineer",
@@ -17787,12 +17524,6 @@
     },
     {
       "source": "article:guide:hire-data-engineers",
-      "target": "article:guide:analytics-engineer",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:guide:hire-data-engineers",
       "target": "article:guide:data-engineer-manager",
       "kind": "article-link",
       "weight": 2
@@ -17897,7 +17628,7 @@
       "source": "article:guide:hire-data-engineers",
       "target": "wiki:analytics-engineering",
       "kind": "article-link",
-      "weight": 2
+      "weight": 4
     },
     {
       "source": "article:guide:hire-data-engineers",
@@ -40353,7 +40084,7 @@
     },
     {
       "source": "wiki:analytics-engineering",
-      "target": "article:guide:analytics-engineer",
+      "target": "person:arpitchoudhury",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -40379,7 +40110,7 @@
       "source": "wiki:analytics-engineering",
       "target": "podcast:analytics-engineer-skills-tools",
       "kind": "wiki-link",
-      "weight": 12
+      "weight": 22
     },
     {
       "source": "wiki:analytics-engineering",
@@ -40397,13 +40128,13 @@
       "source": "wiki:analytics-engineering",
       "target": "podcast:data-engineering-tools-modern-data-stack",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 10
     },
     {
       "source": "wiki:analytics-engineering",
       "target": "podcast:data-led-growth-event-tracking-and-reverse-etl",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 10
     },
     {
       "source": "wiki:analytics-engineering",
@@ -40421,7 +40152,7 @@
       "source": "wiki:analytics-engineering",
       "target": "podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 10
     },
     {
       "source": "wiki:analytics-engineering",
@@ -40445,19 +40176,25 @@
       "source": "wiki:analytics-engineering",
       "target": "podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices",
       "kind": "wiki-link",
-      "weight": 8
+      "weight": 18
     },
     {
       "source": "wiki:analytics-engineering",
       "target": "wiki:analytics-engineering-portfolio-projects",
       "kind": "wiki-link",
-      "weight": 2
+      "weight": 4
+    },
+    {
+      "source": "wiki:analytics-engineering",
+      "target": "wiki:analytics-engineering-portfolio-projects",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:analytics-engineering",
       "target": "wiki:analytics-engineering-roadmap",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "wiki:analytics-engineering",
@@ -40470,6 +40207,12 @@
       "target": "wiki:career-transitions-in-data",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:analytics-engineering",
+      "target": "wiki:dashboard-and-metric-layer-project-checklist",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:analytics-engineering",
@@ -40505,7 +40248,7 @@
       "source": "wiki:analytics-engineering",
       "target": "wiki:data-quality-and-observability",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 6
     },
     {
       "source": "wiki:analytics-engineering",
@@ -40521,6 +40264,36 @@
     },
     {
       "source": "wiki:analytics-engineering",
+      "target": "wiki:dbt",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:analytics-engineering",
+      "target": "wiki:dbt",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:analytics-engineering",
+      "target": "wiki:documentation",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:analytics-engineering",
+      "target": "wiki:event-tracking",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:analytics-engineering",
+      "target": "wiki:event-tracking",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:analytics-engineering",
       "target": "wiki:machine-learning-engineer-role",
       "kind": "wiki-link",
       "weight": 2
@@ -40530,6 +40303,18 @@
       "target": "wiki:marketing-to-analytics-engineering",
       "kind": "wiki-link",
       "weight": 4
+    },
+    {
+      "source": "wiki:analytics-engineering",
+      "target": "wiki:metrics",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:analytics-engineering",
+      "target": "wiki:metrics",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:analytics-engineering",
@@ -40548,6 +40333,24 @@
       "target": "wiki:product-analytics",
       "kind": "wiki-link",
       "weight": 4
+    },
+    {
+      "source": "wiki:analytics-engineering",
+      "target": "wiki:reverse-etl",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:analytics-engineering",
+      "target": "wiki:tracking-plans",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:analytics-engineering",
+      "target": "wiki:tracking-plans",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:analytics-engineering-portfolio-projects",
@@ -40824,12 +40627,6 @@
       "target": "article:comparison:data-analyst-vs-analytics-engineer",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:analytics-engineering-roadmap",
-      "target": "article:guide:analytics-engineer",
-      "kind": "wiki-link",
-      "weight": 2
     },
     {
       "source": "wiki:analytics-engineering-roadmap",
@@ -61098,12 +60895,6 @@
       "target": "wiki:responsible-ai-and-governance",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:marketing-to-analytics-engineering",
-      "target": "article:guide:analytics-engineer",
-      "kind": "wiki-link",
-      "weight": 2
     },
     {
       "source": "wiki:marketing-to-analytics-engineering",

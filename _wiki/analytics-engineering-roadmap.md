@@ -301,4 +301,3 @@ Use these pages for the role, stack, projects, and adjacent domains.
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
 - [Data Activation]({{ '/wiki/data-activation/' | relative_url }})
-- [Analytics Engineer article]({{ '/guides/analytics-engineer/' | relative_url }})

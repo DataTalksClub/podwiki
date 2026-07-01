@@ -182,7 +182,7 @@ Good project choices include:
 - a warehouse-centered ELT project that uses SQL transformations, tests, docs,
   a BI-ready mart, and a clear consumer
   ([Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }}),
-  [Analytics Engineer]({{ '/guides/analytics-engineer/' | relative_url }}))
+  [Analytics Engineering Portfolio Projects]({{ '/wiki/analytics-engineering-portfolio-projects/' | relative_url }}))
 
 The project should include a README and setup steps. Add an architecture
 sketch and data dictionary, plus tests and orchestration notes. Include a small

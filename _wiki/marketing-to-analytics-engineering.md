@@ -225,4 +225,3 @@ on:
 - [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [Career Transition]({{ '/wiki/career-transition/' | relative_url }})
-- [Analytics Engineer article]({{ '/guides/analytics-engineer/' | relative_url }})
