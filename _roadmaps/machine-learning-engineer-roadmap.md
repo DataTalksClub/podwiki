@@ -2,7 +2,7 @@
 layout: article
 title: "Machine Learning Engineer Roadmap"
 keyword: "machine learning engineer roadmap"
-summary: "A podcast-backed roadmap for becoming a machine learning engineer, from problem framing and baselines to production ML systems, monitoring, and MLOps."
+summary: "A roadmap for becoming a machine learning engineer, from problem framing and baselines to production ML systems, monitoring, and MLOps."
 search_intent: "People searching for a machine learning engineer roadmap usually need a practical sequence of skills, projects, and production milestones that show job readiness."
 related_wiki:
   - Machine Learning Engineer Role
@@ -16,9 +16,8 @@ related_wiki:
 A machine learning engineer roadmap should lead to one visible result. Build a
 model-backed system that can be tested, deployed, monitored, and changed. In
 [Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }}),
-[Alexey Grigorev]({{ '/people/alexeygrigorev/' | relative_url }}) describes the
-role around production engineering for ML systems. The 17:04 and 40:10 sections
-separate model work from online and batch serving.
+the role is framed around production engineering for ML systems. The 17:04 and
+40:10 sections separate model work from online and batch serving.
 
 That makes this roadmap different from a data science study plan. It still
 needs modeling, metrics, and data understanding. It also needs
@@ -26,14 +25,14 @@ needs modeling, metrics, and data understanding. It also needs
 APIs and deployment. It also needs
 [MLOps]({{ '/wiki/mlops/' | relative_url }}) and
 [model monitoring]({{ '/wiki/model-monitoring/' | relative_url }}).
-Use [Machine Learning Engineer Role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }})
-for the role boundary and
+[Machine Learning Engineer Role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }})
+covers the role boundary, and
 [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
-for project ideas.
+covers project ideas.
 
 ## Common Definition
 
-Across the archive, a machine learning engineer turns model work into usable
+A machine learning engineer turns model work into usable
 software. That means the model is only one part of the job. The system also
 needs input data, validation, inference code, and a serving path. It needs logs,
 tests, and a way to recover from failures.
@@ -78,7 +77,7 @@ the business objective.
 
 ## Project Sequence
 
-The first portfolio project should prove that you can finish an ML loop. Use a
+The first portfolio project should prove that you can finish an ML loop. Pick a
 small tabular, search, or ranking problem. A forecasting problem works too.
 Define the decision the model supports, keep the model simple enough to
 explain, and document the baseline and error cases.
@@ -99,7 +98,7 @@ Use this progression:
 - one design document that explains metrics, tradeoffs, and failure modes
 - one monitoring pass that covers drift, logs, incidents, and rollback
 
-For the artifact checklist, use
+The artifact checklist lives in
 [Production ML Project Checklist]({{ '/wiki/production-ml-project-checklist/' | relative_url }})
 and [ML System Design Documents]({{ '/wiki/ml-system-design-documents/' | relative_url }}).
 
@@ -164,8 +163,7 @@ auditable.
 
 ## Related Pages
 
-These pages cover the role, projects, and production topics that sit next to
-this roadmap:
+Adjacent role, project, and production topics:
 
 - [Machine Learning Engineer Role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }})
 - [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})

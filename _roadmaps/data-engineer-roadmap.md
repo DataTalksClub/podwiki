@@ -2,7 +2,7 @@
 layout: article
 title: "Data Engineer Roadmap: From Fundamentals to Job-Ready Projects"
 keyword: "data engineer roadmap"
-summary: "A practical, podcast-backed data engineer roadmap from SQL and Python fundamentals to pipelines, orchestration, DataOps, portfolio projects, and interviews."
+summary: "A practical data engineer roadmap from SQL and Python fundamentals to pipelines, orchestration, DataOps, portfolio projects, and interviews."
 search_intent: "People searching for a data engineer roadmap want a practical sequence of skills, projects, tools, and interview preparation that can turn study into job-ready proof."
 related_wiki:
   - Data Engineer Role
@@ -24,7 +24,7 @@ storage.
 The next layer is modeling and orchestration. The final layer is quality
 checks, documentation, cloud basics, and interview-ready projects.
 
-The DataTalks.Club podcast archive is consistent on this point. In
+DataTalks.Club guests are consistent on this point. In
 [Build a Data Engineering Career]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }}),
 [Jeff Katz]({{ '/people/jeffkatz/' | relative_url }}) names the junior core at
 23:35: Python and SQL, plus cloud fundamentals and orchestration. At 38:05 and
@@ -35,9 +35,9 @@ postponing Spark, Kafka, and Kubernetes. In
 modern version at 41:06. Learn SQL and Python, capture business requirements,
 and build a portfolio before chasing a vendor checklist.
 
-Use this article as the keyword-focused path, and use
+This roadmap gives the practical learning sequence, while
 [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
-for the archive-level reference.
+covers the broader reference.
 For the role scope, start with
 [Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }}) and
 [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}).
@@ -71,10 +71,9 @@ Match the path to your starting point:
 - If you're closer to software or DevOps, build toward ingestion,
   orchestration, testing, cloud deployment, and platform operations.
 
-Use
 [Career Transitions in Data]({{ '/wiki/career-transitions-in-data/' | relative_url }})
-and [Job Search]({{ '/wiki/job-search/' | relative_url }}) to connect the
-roadmap to your background.
+and [Job Search]({{ '/wiki/job-search/' | relative_url }}) connect the roadmap
+to your background.
 
 ## Stage 1: SQL, Python, And Modeling
 

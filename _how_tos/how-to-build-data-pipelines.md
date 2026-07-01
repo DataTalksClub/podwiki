@@ -2,7 +2,7 @@
 layout: article
 title: "How to Build Data Pipelines That People Can Trust"
 keyword: "build data pipelines"
-summary: "A podcast-backed guide to building data pipelines with ingestion, transformation, orchestration, contracts, testing, observability, and last-mile activation."
+summary: "A guide to building data pipelines with ingestion, transformation, orchestration, contracts, testing, observability, and last-mile activation."
 search_intent: "Help readers who search for how to build data pipelines understand the practical build sequence, tradeoffs, and reliability practices using DataTalks.Club podcast evidence."
 related_wiki:
   - Data Engineering Platforms
@@ -18,8 +18,8 @@ event definitions. Add ingestion and storage. Then add transformation and
 orchestration. Finish with quality checks, observability, and last-mile
 delivery.
 
-That order shows up across the DataTalks.Club archive. In the modern pipeline
-episode, [Santona Tuli]({{ '/people/santonatuli/' | relative_url }}) describes
+That order shows up in the modern pipeline episode, where
+[Santona Tuli]({{ '/people/santonatuli/' | relative_url }}) describes
 pipeline design as a sequence. Data starts with raw arrival, then moves to
 cleaned ingestion and modeled business entities. The pipeline finally produces
 answers for dashboards or ML systems
@@ -60,7 +60,7 @@ If teams use vague event names in
 create operational risk. That risk grows when teams use the same events for
 funnels, experiments, or reverse ETL.
 
-Use this first-pass brief before you pick tools:
+Start with this brief before you pick tools:
 
 1. Who uses the output?
 2. What decision, model, dashboard, or operational action depends on it?
@@ -142,7 +142,7 @@ For a local learning or portfolio setup, use
 to run the scheduler, UI, and metadata database. It also keeps the DAG folder
 and logs in one reviewable environment.
 
-Use the scheduler to make dependencies visible and repeatable, and don't rename
+Make dependencies visible and repeatable, and don't rename
 the whole pipeline after the scheduler.
 
 At team scale, orchestration needs conventions. In the scale-up episode,
@@ -163,8 +163,8 @@ a few Kafka topics to hundreds quickly. His recommendation is to define typed
 schemas and schema registry usage. Teams should also define allowed changes and
 a schema-change process before downstream teams depend on the stream
 ([Scaling Data Engineering Teams]({{ '/podcasts/scaling-data-engineering-teams-self-service-platforms/' | relative_url }}),
-23:26-26:52). Use [Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }})
-when the main decision is latency.
+23:26-26:52). [Batch vs Streaming]({{ '/comparisons/batch-vs-streaming/' | relative_url }})
+covers the latency decision.
 
 ## Add Tests, Observability, And Recovery
 
@@ -223,13 +223,13 @@ Salespeople or marketers can then act on lead scores and other modeled outputs
 35:42-38:36). Arpit names the same operational-analytics path and connects it
 to tools such as Census, Hightouch, and Grouparoo
 ([How to Build a Data-Led Growth Stack]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }}),
-37:25-44:24). Use [Data Activation]({{ '/wiki/data-activation/' | relative_url }})
-and [Reverse ETL]({{ '/wiki/reverse-etl/' | relative_url }}) for the delivery
+37:25-44:24). [Data Activation]({{ '/wiki/data-activation/' | relative_url }})
+and [Reverse ETL]({{ '/wiki/reverse-etl/' | relative_url }}) cover the delivery
 side of the pipeline.
 
-## A Podcast-Backed Build Sequence
+## Build Sequence
 
-Use this sequence when you need a practical starting point:
+This sequence gives a practical starting point:
 
 1. Define the consumer, decision, and freshness need.
 2. Document product events or source agreements before collection.
@@ -242,7 +242,7 @@ Use this sequence when you need a practical starting point:
 9. Deliver modeled outputs to dashboards, ML systems, support tools, sales tools, or product experiences.
 10. Review usage, incidents, and stale data so the pipeline keeps matching the workflow it supports.
 
-That sequence isn't a universal stack prescription. Across the episodes, teams
-start by building the smallest pipeline that satisfies the use case. They add
+That sequence isn't a universal stack prescription. Teams start by building the
+smallest pipeline that satisfies the use case. They add
 platform conventions, automation, and observability as more people and systems
 depend on it.

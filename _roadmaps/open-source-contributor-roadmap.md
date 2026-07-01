@@ -2,7 +2,7 @@
 layout: article
 title: "Open Source Contributor Roadmap"
 keyword: "open source contributor roadmap"
-summary: "A podcast-backed roadmap for becoming an open-source contributor through issues, docs, tests, demos, maintainer collaboration, and portfolio evidence."
+summary: "A roadmap for becoming an open-source contributor through issues, docs, tests, demos, maintainer collaboration, and portfolio evidence."
 search_intent: "People searching for an open source contributor roadmap usually need a practical path from first issue to credible public contribution evidence."
 related_wiki:
   - Open Source
@@ -24,14 +24,14 @@ At 22:20 and 24:10, contribution quality includes documentation, contribution
 guides, and polite interaction. At 25:50 and 27:40, reproducible issues and
 tests reduce maintainer work. CI, packaging, and pre-commit matter too.
 
-Use [Open Source]({{ '/wiki/open-source/' | relative_url }}) for the broad
-concept and
+The broad concept lives in [Open Source]({{ '/wiki/open-source/' | relative_url }}),
+and
 [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
-for hiring evidence.
+covers the hiring evidence.
 
 ## Common Definition
 
-Across the archive, an open-source contributor is someone who helps a public
+An open-source contributor is someone who helps a public
 project become easier to use and trust. Contributors can also make the project
 easier to explain or maintain. That definition is wider than code commits. It
 includes documentation, examples, onboarding, and support. Demos and community
@@ -123,8 +123,7 @@ join.
 
 ## Related Pages
 
-These pages cover the contribution, portfolio, and community topics around this
-roadmap:
+Adjacent contribution, portfolio, and community topics:
 
 - [Open Source]({{ '/wiki/open-source/' | relative_url }})
 - [Contributing]({{ '/wiki/contributing/' | relative_url }})

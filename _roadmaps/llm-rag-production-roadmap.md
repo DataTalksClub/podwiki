@@ -2,7 +2,7 @@
 layout: article
 title: "LLM and RAG Production Roadmap"
 keyword: "llm rag production roadmap"
-summary: "A podcast-backed roadmap for building LLM and RAG systems from bounded workflows to retrieval, evaluation, agents, security, cost, and monitoring."
+summary: "A roadmap for building LLM and RAG systems from bounded workflows to retrieval, evaluation, agents, security, cost, and monitoring."
 search_intent: "People searching for an LLM or RAG production roadmap usually need a practical build sequence for retrieval, evaluation, agents, and production controls."
 related_wiki:
   - LLM Production Patterns
@@ -25,14 +25,15 @@ At 22:29, the stack includes normal engineering work. At 29:12, RAG and
 knowledge management enter the build path. At 42:28, the topic becomes shipping
 AI products, not only building demos.
 
-Use [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
-for the production reference and
+The production reference is
+[LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }}),
+and
 [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
-for retrieval architecture.
+covers retrieval architecture.
 
 ## Common Definition
 
-Across the archive, production LLM work is software engineering plus model
+Production LLM work is software engineering plus model
 behavior management. The system must answer a real user task. It must also
 explain where answers came from and fail in observable ways. Cost, latency,
 privacy, and safety limits still apply.
@@ -100,10 +101,10 @@ and ranking. At 16:45 and 30:22, chunking, ingestion, and embedding versioning
 affect later evaluations. At 34:00 and 52:35, hybrid search and vector database
 tradeoffs become system choices.
 
-Use [Production Search Evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }}),
+[Production Search Evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }}),
 [Vector Databases]({{ '/wiki/vector-databases/' | relative_url }}), and
 [Search and RAG Project Checklist]({{ '/wiki/search-and-rag-project-checklist/' | relative_url }})
-to keep retrieval work testable.
+keep retrieval work testable.
 
 ## Stage 4: Add Agents Only For Action
 
@@ -147,7 +148,7 @@ of a layered defense.
 
 ## Related Pages
 
-These pages cover the production systems around this roadmap:
+Adjacent production-system topics:
 
 - [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
 - [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
