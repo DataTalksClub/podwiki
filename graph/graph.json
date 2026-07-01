@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 145,
     "nodes": 1008,
-    "links": 10490
+    "links": 10516
   },
   "nodes": [
     {
@@ -34836,9 +34836,21 @@
     },
     {
       "source": "wiki:a-b-testing",
+      "target": "person:danielsvonava",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:a-b-testing",
       "target": "person:jakobgraff",
       "kind": "wiki-link",
       "weight": 4
+    },
+    {
+      "source": "wiki:a-b-testing",
+      "target": "person:juanorduz",
+      "kind": "wiki-link",
+      "weight": 2
     },
     {
       "source": "wiki:a-b-testing",
@@ -34848,9 +34860,33 @@
     },
     {
       "source": "wiki:a-b-testing",
+      "target": "person:stefangudmundsson",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:a-b-testing",
+      "target": "person:valeriybabushkin",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:a-b-testing",
       "target": "podcast:ab-testing-and-product-experimentation",
       "kind": "wiki-link",
-      "weight": 20
+      "weight": 24
+    },
+    {
+      "source": "wiki:a-b-testing",
+      "target": "podcast:ai-in-healthcare-and-digital-therapeutics",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:a-b-testing",
+      "target": "podcast:building-production-search-systems",
+      "kind": "wiki-link",
+      "weight": 6
     },
     {
       "source": "wiki:a-b-testing",
@@ -34860,9 +34896,33 @@
     },
     {
       "source": "wiki:a-b-testing",
-      "target": "podcast:production-ml-mlops-and-data-team-building",
+      "target": "podcast:human-centered-mlops-and-model-monitoring",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:a-b-testing",
+      "target": "podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:a-b-testing",
+      "target": "podcast:machine-learning-in-marketing-attribution-marketing-mix-modeling",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:a-b-testing",
+      "target": "podcast:machine-learning-system-design-interview",
       "kind": "wiki-link",
       "weight": 4
+    },
+    {
+      "source": "wiki:a-b-testing",
+      "target": "podcast:production-ml-mlops-and-data-team-building",
+      "kind": "wiki-link",
+      "weight": 8
     },
     {
       "source": "wiki:a-b-testing",
@@ -34903,6 +34963,18 @@
     {
       "source": "wiki:a-b-testing",
       "target": "wiki:data-product-management",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:a-b-testing",
+      "target": "wiki:data-products",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:a-b-testing",
+      "target": "wiki:data-products",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -34958,7 +35030,13 @@
       "source": "wiki:a-b-testing",
       "target": "wiki:machine-learning-system-design",
       "kind": "wiki-link",
-      "weight": 4
+      "weight": 6
+    },
+    {
+      "source": "wiki:a-b-testing",
+      "target": "wiki:machine-learning-system-design",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:a-b-testing",
@@ -34969,6 +35047,18 @@
     {
       "source": "wiki:a-b-testing",
       "target": "wiki:metrics",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:a-b-testing",
+      "target": "wiki:model-monitoring",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:a-b-testing",
+      "target": "wiki:model-monitoring",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -35005,6 +35095,30 @@
     {
       "source": "wiki:a-b-testing",
       "target": "wiki:production",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:a-b-testing",
+      "target": "wiki:production-search-evaluation",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:a-b-testing",
+      "target": "wiki:production-search-evaluation",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:a-b-testing",
+      "target": "wiki:search",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:a-b-testing",
+      "target": "wiki:search",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -47583,6 +47697,18 @@
       "target": "podcast:scaling-data-engineering-teams-self-service-platforms",
       "kind": "wiki-link",
       "weight": 2
+    },
+    {
+      "source": "wiki:data-products",
+      "target": "wiki:a-b-testing",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:data-products",
+      "target": "wiki:a-b-testing",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:data-products",
@@ -62010,6 +62136,18 @@
     },
     {
       "source": "wiki:model-monitoring",
+      "target": "wiki:a-b-testing",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:model-monitoring",
+      "target": "wiki:a-b-testing",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:model-monitoring",
       "target": "wiki:data-governance",
       "kind": "wiki-link",
       "weight": 2
@@ -66252,6 +66390,12 @@
     },
     {
       "source": "wiki:production-search-evaluation",
+      "target": "wiki:a-b-testing",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:production-search-evaluation",
       "target": "wiki:embeddings",
       "kind": "wiki-link",
       "weight": 2
@@ -68751,6 +68895,18 @@
       "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
       "kind": "wiki-link",
       "weight": 14
+    },
+    {
+      "source": "wiki:search",
+      "target": "wiki:a-b-testing",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:search",
+      "target": "wiki:a-b-testing",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:search",

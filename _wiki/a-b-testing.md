@@ -14,6 +14,11 @@ related:
   - Data Product Management
   - Evaluation
   - Production
+  - Machine Learning System Design
+  - Model Monitoring
+  - Production Search Evaluation
+  - Data Products
+  - Search
 ---
 
 A/B testing is a randomized product experiment. A team assigns comparable users
@@ -26,6 +31,11 @@ In the DataTalks.Club archive, A/B testing is the practical bridge between
 [causal inference]({{ '/wiki/causal-inference/' | relative_url }}). It turns a
 product question into a rollout decision, which is why it also matters for
 [data product management]({{ '/wiki/data-product-management/' | relative_url }}).
+Teams also use A/B tests in
+[machine learning system design]({{ '/wiki/machine-learning-system-design/' | relative_url }}),
+[data products]({{ '/wiki/data-products/' | relative_url }}), and
+[production search evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }})
+when teams need online evidence before rollout.
 
 [Jakob Graff]({{ '/people/jakobgraff/' | relative_url }}) gives the core
 definition in
@@ -54,7 +64,7 @@ uses [A/A testing at 27:52]({{ '/podcasts/ab-testing-and-product-experimentation
 as the trust check. If two identical groups show a large difference, the
 measurement system needs attention before an A/B result is credible.
 
-## Guest Perspectives
+## Guest Differences
 
 The guests agree that A/B testing is about causal decisions, but they use it in
 different operating contexts.
@@ -83,6 +93,36 @@ uses A/B testing as a validation baseline for causal models and incremental
 rollouts. His concern is what to do when experiments are impossible, incomplete,
 or too expensive.
 
+[Stefan Gudmundsson]({{ '/people/stefangudmundsson/' | relative_url }}) uses
+A/B testing in a higher-risk personalization context. In
+[AI in Healthcare and Digital Therapeutics at 39:57]({{ '/podcasts/ai-in-healthcare-and-digital-therapeutics/' | relative_url }}),
+he connects A/B testing to segmentation and iterative personalization. At
+43:00, the discussion moves to variant availability and measurement. His frame
+adds patient safety, privacy, and responsible experimentation to the usual
+product-growth concerns.
+
+[Juan Orduz]({{ '/people/juanorduz/' | relative_url }}) brings the marketing
+measurement boundary. In
+[Marketing Data Science at 30:54]({{ '/podcasts/machine-learning-in-marketing-attribution-marketing-mix-modeling/' | relative_url }}),
+he discusses treatment/control design and data pitfalls for uplift. His earlier
+chapters on attribution and media mix modeling show why A/B testing isn't
+always available for every channel, campaign, or customer journey.
+
+[Valerii Babushkin]({{ '/people/valeriybabushkin/' | relative_url }}) treats
+A/B tests as part of ML system design. In
+[ML System Design Interviews at 24:28]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }}),
+he puts metrics, baselines, and A/B testing inside the end-to-end ML pipeline.
+At 57:23, he connects production validation to A/B tests, causality, and human
+labels.
+
+[Daniel Svonava]({{ '/people/danielsvonava/' | relative_url }}) brings the
+search and retrieval version. In
+[Building Search Systems at 1:01:25]({{ '/podcasts/building-production-search-systems/' | relative_url }}),
+he connects search changes to business KPIs such as clicks and orders. He also
+names contacts and revenue. Around 1:03:50, he adds offline tests and A/B
+tests. Search teams should treat A/B testing as one part of the evaluation
+loop, not a replacement for relevance diagnostics.
+
 ## Experimentation Design
 
 Teams start design by choosing the unit of assignment. Account-level product
@@ -90,6 +130,9 @@ changes often use users, while short-lived experiences can use sessions. Some
 production ML systems use traffic or requests. This is why
 [event tracking]({{ '/wiki/event-tracking/' | relative_url }}) is adjacent: the
 treatment exposure must be logged at the same level the analysis will use.
+Jakob's traffic-splitting discussion at
+[24:44]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }})
+grounds that rule in assignment tracking rather than dashboard reporting.
 
 In
 [Product Analytics and A/B Testing at 30:05]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}),
@@ -104,6 +147,16 @@ Jakob compares third-party and in-house experimentation platforms. The important
 capabilities are traffic splitting, stable assignment, and exposure logging.
 Teams also need metric monitoring and a way to debug the test before
 stakeholders trust the result.
+
+Teams with model-backed products often stage rollout. Rishabh's
+[production ML discussion at 28:42]({{ '/podcasts/production-ml-mlops-and-data-team-building/' | relative_url }})
+uses offline model work, shadow mode, and A/B tests before full rollout.
+Valerii's
+[system-design discussion at 24:28]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }})
+puts baselines and metrics into the same sequence. Lina Weichbrodt's
+[model-monitoring discussion at 29:23]({{ '/podcasts/human-centered-mlops-and-model-monitoring/' | relative_url }})
+adds live test sets and small A/B tests as ways to detect model issues before
+they become wider incidents.
 
 ## Metrics
 
@@ -128,6 +181,23 @@ Jakob explains p-values through an A/A comparison. A passing threshold is only
 part of the decision. The team still needs to ask whether the estimated uplift is
 large enough and worth the implementation cost.
 
+Jakob also separates the test result from the statistical procedure. Around
+[40:23]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}),
+he discusses choosing tests for different metric distributions. Around 44:39,
+he moves into distribution checks. Around 51:55, he compares frequentist and
+Bayesian framing. Teams should choose a statistical method that fits the metric
+and the decision, not only one that produces a familiar number.
+
+Guardrail metrics keep A/B tests from improving one number while damaging the
+product. In healthcare personalization, Stefan's
+[privacy and ethics discussion at 31:41]({{ '/podcasts/ai-in-healthcare-and-digital-therapeutics/' | relative_url }})
+puts patient trust beside engagement. In search, Daniel's
+[business-KPI discussion at 1:01:25]({{ '/podcasts/building-production-search-systems/' | relative_url }})
+connects relevance work to clicks and contacts. He also names orders and
+revenue. In production ML, Rishabh's segment analysis at
+[31:19]({{ '/podcasts/production-ml-mlops-and-data-team-building/' | relative_url }})
+keeps the team from reading only the top-line average.
+
 ## Product Analytics
 
 In product analytics, A/B testing is a decision system, not only a statistics
@@ -150,6 +220,18 @@ frames experiments as feature de-risking and organizational learning. A test
 doesn't only answer whether a change worked. It teaches the team which user
 behavior moved and where the effect appeared. It also shows which assumptions
 were wrong.
+
+Other archive examples show the same analytics layer in different products.
+Caitlin Moorman's
+[Last-Mile Data Delivery discussion at 28:42]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }})
+frames A/B testing reports as decision products for business stakeholders.
+Stefan's
+[personalization chapter at 39:57]({{ '/podcasts/ai-in-healthcare-and-digital-therapeutics/' | relative_url }})
+uses A/B tests for segmentation and iteration. Juan's
+[uplift discussion at 30:54]({{ '/podcasts/machine-learning-in-marketing-attribution-marketing-mix-modeling/' | relative_url }})
+connects product analytics to marketing interventions. Daniel's
+[search evaluation discussion at 1:03:50]({{ '/podcasts/building-production-search-systems/' | relative_url }})
+puts online experiments beside offline search tests.
 
 Rishabh's production ML example adds another analytics responsibility. In
 [From Analytics to Production ML at 31:19]({{ '/podcasts/production-ml-mlops-and-data-team-building/' | relative_url }}),
@@ -184,6 +266,14 @@ page to
 [Experimentation and Causal Inference]({{ '/wiki/experimentation-and-causal-inference/' | relative_url }})
 and [Causal Inference]({{ '/wiki/causal-inference/' | relative_url }}).
 
+Marketing measurement shows the same boundary from another direction. Juan's
+[attribution discussion at 10:18]({{ '/podcasts/machine-learning-in-marketing-attribution-marketing-mix-modeling/' | relative_url }})
+starts with multi-channel journeys and ambiguity. His media mix modeling and
+time-series counterfactual chapters at 13:36 and 14:58 cover cases where
+random assignment is hard or unavailable. A/B testing remains the clean
+evidence source when the team can randomize. Attribution, uplift modeling, and
+causal inference handle many decisions outside that clean setup.
+
 ## Related Pages
 
 These pages cover the adjacent concepts used throughout the A/B testing
@@ -200,6 +290,10 @@ archive:
 - [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
 - [Evaluation]({{ '/wiki/evaluation/' | relative_url }})
 - [Production]({{ '/wiki/production/' | relative_url }})
+- [Data Products]({{ '/wiki/data-products/' | relative_url }})
+- [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }})
+- [Production Search Evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }})
+- [Search]({{ '/wiki/search/' | relative_url }})
 - [Product Analyst]({{ '/guides/product-analyst/' | relative_url }})
 - [Data Product Manager Roadmap]({{ '/roadmaps/data-product-manager-roadmap/' | relative_url }})
 - [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})

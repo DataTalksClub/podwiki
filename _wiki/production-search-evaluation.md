@@ -8,6 +8,7 @@ related:
   - Information Retrieval
   - Vector Database vs Search Engine
   - Evaluation
+  - A/B Testing
 ---
 
 Production search evaluation is the practice of proving that a search or

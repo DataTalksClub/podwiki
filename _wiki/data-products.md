@@ -9,10 +9,11 @@ related:
   - Analytics Engineering
   - Business Intelligence
   - Data Quality and Observability
+  - A/B Testing
 ---
 
 A data product is a maintained output that helps someone make a decision or run
-an operational process. It can be a table, event stream, dashboard, or API. It
+an operational workflow. It can be a table, event stream, dashboard, or API. It
 can also be a model, identity-resolution tool, or activation flow. Guests don't
 view it as finished just because data ends up in a warehouse.
 When the maintained output is a dashboard, metric layer, or reporting workflow,
@@ -98,7 +99,8 @@ product often includes production ML and a business domain owner.
 products through an operating model. In
 [Building Data Products at Scale]({{ '/podcasts/building-data-products-lead-data-scientist/' | relative_url }}),
 he describes intake, Definition of Done, and KPIs. He also includes fail-fast
-checks, pilots, A/B tests, and production rollout (14:00-27:25).
+checks, pilots, [A/B tests]({{ '/wiki/a-b-testing/' | relative_url }}), and
+production rollout (14:00-27:25).
 That version is
 closest to [MLOps]({{ '/wiki/mlops/' | relative_url }}) and
 [product analytics]({{ '/wiki/product-analytics/' | relative_url }}), because
@@ -157,7 +159,7 @@ operating cost.
 ## Platform Implications
 
 Data products need platform support because each team shouldn't rebuild the
-same ingestion and orchestration patterns. Access, testing, and deployment also
+same ingestion and orchestration templates. Access, testing, and deployment also
 need shared paths. In
 [Scale Data Engineering Teams]({{ '/podcasts/scaling-data-engineering-teams-self-service-platforms/' | relative_url }}),
 [Mehdi OUAZZA]({{ '/people/mehdiouazza/' | relative_url }}) describes the data
@@ -167,7 +169,7 @@ conventions, playbooks, templates, and best practices around them (17:22).
 
 This platform view matters for data products because producers need paved paths.
 If every new product needs a custom Airflow setup, custom access handling, and a
-custom release process, domain ownership becomes too expensive. Mehdi's
+custom release path, domain ownership becomes too expensive. Mehdi's
 platform/use-case split around 52:55 also explains why data teams divide time
 between reusable capabilities and product-specific pipelines.
 
@@ -202,7 +204,7 @@ low-fidelity prototypes and measure whether the product changes behavior
 [Last-Mile Data Delivery]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }})).
 That keeps a data product from becoming a polished dashboard nobody uses.
 
-Mesionis adds a validation process for ML and analytics products. His team uses
+Mesionis adds a validation sequence for ML and analytics products. His team uses
 intake, KPIs, and Definition of Done before rollout. Pilots and A/B tests also
 belong before rollout.
 Stakeholder demos and monitoring plans continue the work afterward

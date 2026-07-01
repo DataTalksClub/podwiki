@@ -8,6 +8,7 @@ related:
   - Vector Databases
   - Embeddings
   - NLP
+  - A/B Testing
 ---
 
 Search is the part of a product or knowledge system that retrieves and ranks
@@ -56,8 +57,9 @@ Daniel's episode emphasizes production relevance. In
 [Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}),
 he moves from inverted indexes and Lucene around 11:29-17:40 to dense
 representations and hybrid search. He then adds recency, business rules, and
-A/B testing. His view treats search as a product-ranking system where latency,
-business metrics, and operational iteration matter.
+[A/B testing]({{ '/wiki/a-b-testing/' | relative_url }}). His view treats
+search as a product-ranking system where latency, business metrics, and
+operational iteration matter.
 
 Atita's episode emphasizes search architecture and retrieval quality. In
 [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}),
@@ -149,7 +151,7 @@ This is why search pages should link to
 [Vector Databases]({{ '/wiki/vector-databases/' | relative_url }}) without
 treating a vector database as the whole search system. A team still has to
 choose indexes and filters. It also has to choose ranking signals, evaluation
-metrics, and reindexing processes.
+metrics, and reindexing jobs.
 
 ## Evaluation
 
@@ -196,7 +198,7 @@ retrieval and ranking problem.
 
 Search therefore sits across
 [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }}),
-[LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }}),
+[LLM production work]({{ '/wiki/llm-production-patterns/' | relative_url }}),
 and [MLOps]({{ '/wiki/mlops/' | relative_url }}). The core question isn't
 which retrieval technology is newest. The question is which search design gives
 the product relevant, explainable, and measurable results.

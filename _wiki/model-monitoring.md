@@ -9,6 +9,7 @@ related:
   - Model Registry
   - Machine Learning Infrastructure
   - Production
+  - A/B Testing
 ---
 
 Model monitoring is the practice of watching a deployed model and the
@@ -123,7 +124,8 @@ business KPIs, or small experiments may provide earlier signals.
 Lina Weichbrodt's discussion is useful here because she ties monitoring to
 real response paths. Around 29:23 in
 [Human-Centered MLOps and Model Monitoring]({{ '/podcasts/human-centered-mlops-and-model-monitoring/' | relative_url }}),
-she covers live test sets and small A/B tests. Around 36:41, she adds user
+she covers live test sets and small
+[A/B tests]({{ '/wiki/a-b-testing/' | relative_url }}). Around 36:41, she adds user
 feedback channels and internal bug reports. Around 38:20, she discusses
 prioritizing widespread user complaints. Those signals matter when labels are
 late or incomplete.
@@ -169,7 +171,7 @@ people stop trusting the monitoring system. Lina Weichbrodt's incident-response
 chapters add the human test. Around 39:26 in
 [Human-Centered MLOps and Model Monitoring]({{ '/podcasts/human-centered-mlops-and-model-monitoring/' | relative_url }}),
 she discusses post-mortem evidence and investigation steps. Around 42:03, she
-turns post-mortems into action items and process changes.
+turns post-mortems into action items and workflow changes.
 
 The practical rule from the interviews is to alert on signals that someone can
 act on. For model teams, those signals usually include input quality and
