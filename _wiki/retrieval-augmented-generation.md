@@ -128,7 +128,9 @@ infrastructure. At 20:27 she compares putting vectors into an existing search
 stack with using a standalone vector database.
 
 That decision depends on the current search system, migration risk, and
-operational maturity. Filters and ranking requirements matter as well.
+operational maturity. Filters and ranking requirements matter as well. Use
+[Vector Database vs Search Engine]({{ '/comparisons/vector-database-vs-search-engine/' | relative_url }})
+when the RAG design choice is a retrieval-stack choice.
 
 [Production ML Search]({{ '/podcasts/production-ml-search-vector-search-embeddings-hybrid-search/' | relative_url }})
 adds the broader search architecture. At 21:55 the episode explains vector

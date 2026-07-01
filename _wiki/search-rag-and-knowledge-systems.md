@@ -196,7 +196,7 @@ then moves to vector compute at 29:00, hybrid search at 34:00, and operational
 search metrics at 1:01:25.
 
 This is why
-[Vector Database vs Search Engine]({{ '/wiki/vector-database-vs-search-engine/' | relative_url }})
+[Vector Database vs Search Engine]({{ '/comparisons/vector-database-vs-search-engine/' | relative_url }})
 is an architecture decision. It isn't a slogan about newer tools replacing
 older search engines. A vector database can retrieve nearest neighbors. The
 knowledge system still decides which metadata is mandatory, which signals are
@@ -337,7 +337,7 @@ These pages cover the neighboring retrieval, search, and LLM topics.
 - [Information Retrieval]({{ '/wiki/information-retrieval/' | relative_url }})
 - [Embeddings]({{ '/wiki/embeddings/' | relative_url }})
 - [Vector Databases]({{ '/wiki/vector-databases/' | relative_url }})
-- [Vector Database vs Search Engine]({{ '/wiki/vector-database-vs-search-engine/' | relative_url }})
+- [Vector Database vs Search Engine]({{ '/comparisons/vector-database-vs-search-engine/' | relative_url }})
 - [Knowledge Graph vs Vector Search]({{ '/comparisons/knowledge-graph-vs-vector-search/' | relative_url }})
 - [Graph RAG vs Vector RAG]({{ '/comparisons/graph-rag-vs-vector-rag/' | relative_url }})
 - [Production Search Evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }})

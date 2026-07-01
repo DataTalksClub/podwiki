@@ -171,7 +171,7 @@ Daniel recommends postponing signal weights until query time when possible. A
 landing page and a category page may need different weights over the same
 indexed data. A personalized page may need different weights again.
 
-The same boundary appears in [Vector Database vs Search Engine]({{ '/wiki/vector-database-vs-search-engine/' | relative_url }}).
+The same boundary appears in [Vector Database vs Search Engine]({{ '/comparisons/vector-database-vs-search-engine/' | relative_url }}).
 A vector database can return nearest neighbors, but an information retrieval
 system still has to decide which filters are mandatory. It also has to decide
 which signals should be soft ranking features, which reranker to run, and how

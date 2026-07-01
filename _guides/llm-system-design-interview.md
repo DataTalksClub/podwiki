@@ -122,7 +122,10 @@ This is why "use a vector database" isn't enough for an interview answer.
 The archive treats RAG as search with context packaging, not model memory.
 [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
 ties Atita's transcript RAG example to source provenance and permissions. It
-also ties the example to metadata, citations, and evaluation.
+also ties the example to metadata, citations, and evaluation. Use
+[Vector Database vs Search Engine]({{ '/comparisons/vector-database-vs-search-engine/' | relative_url }})
+when the design question is whether semantic retrieval belongs in a dedicated
+vector store or the existing search stack.
 
 For product search, [Daniel Svonava]({{ '/people/danielsvonava/' | relative_url }})
 separates retrieval from ranking in

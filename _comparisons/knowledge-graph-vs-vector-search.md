@@ -44,7 +44,7 @@ This comparison is about the retrieval substrate: explicit relationships versus
 embedding similarity.
 [Graph RAG vs Vector RAG]({{ '/comparisons/graph-rag-vs-vector-rag/' | relative_url }})
 covers the next layer, where the question is what context to give an LLM.
-[Vector Database vs Search Engine]({{ '/wiki/vector-database-vs-search-engine/' | relative_url }})
+[Vector Database vs Search Engine]({{ '/comparisons/vector-database-vs-search-engine/' | relative_url }})
 covers whether vector retrieval belongs in a dedicated vector store or an
 existing [search]({{ '/wiki/search/' | relative_url }}) stack.
 
@@ -277,7 +277,7 @@ Use these pages for the surrounding search, RAG, and evaluation topics:
 - [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
 - [Graph RAG vs Vector RAG]({{ '/comparisons/graph-rag-vs-vector-rag/' | relative_url }})
 - [Vector Databases]({{ '/wiki/vector-databases/' | relative_url }})
-- [Vector Database vs Search Engine]({{ '/wiki/vector-database-vs-search-engine/' | relative_url }})
+- [Vector Database vs Search Engine]({{ '/comparisons/vector-database-vs-search-engine/' | relative_url }})
 - [Embeddings]({{ '/wiki/embeddings/' | relative_url }})
 - [Search]({{ '/wiki/search/' | relative_url }})
 - [Information Retrieval]({{ '/wiki/information-retrieval/' | relative_url }})

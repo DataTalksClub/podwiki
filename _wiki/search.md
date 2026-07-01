@@ -101,7 +101,7 @@ similarity. It also has to handle inventory and permissions. Freshness,
 popularity, and business rules become ranking inputs too.
 
 Use
-[Vector Database vs Search Engine]({{ '/wiki/vector-database-vs-search-engine/' | relative_url }})
+[Vector Database vs Search Engine]({{ '/comparisons/vector-database-vs-search-engine/' | relative_url }})
 for the architecture comparison. Use
 [Knowledge Graph vs Vector Search]({{ '/comparisons/knowledge-graph-vs-vector-search/' | relative_url }})
 when the retrieval problem depends on explicit relationships rather than only

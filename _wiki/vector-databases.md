@@ -182,7 +182,7 @@ separate from a legacy search stack.
 The useful question isn't whether vector databases are better than search
 engines. The useful question is which part of the retrieval system needs a
 specialized vector index. That comparison belongs with
-[Vector Database vs Search Engine]({{ '/wiki/vector-database-vs-search-engine/' | relative_url }}).
+[Vector Database vs Search Engine]({{ '/comparisons/vector-database-vs-search-engine/' | relative_url }}).
 
 ## Related Pages
 
@@ -195,5 +195,5 @@ Use these pages for the adjacent retrieval, search, and LLM topics.
 - [LLMs]({{ '/wiki/llms/' | relative_url }})
 - [Information Retrieval]({{ '/wiki/information-retrieval/' | relative_url }})
 - [Production Search Evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }})
-- [Vector Database vs Search Engine]({{ '/wiki/vector-database-vs-search-engine/' | relative_url }})
+- [Vector Database vs Search Engine]({{ '/comparisons/vector-database-vs-search-engine/' | relative_url }})
 - [Knowledge Graph vs Vector Search]({{ '/comparisons/knowledge-graph-vs-vector-search/' | relative_url }})

@@ -103,7 +103,7 @@ helps the model answer from documentation, but the application still owns source
 selection and permissions. It also owns citations and evaluation.
 
 For the storage choice, use
-[Vector Database vs Search Engine]({{ '/wiki/vector-database-vs-search-engine/' | relative_url }})
+[Vector Database vs Search Engine]({{ '/comparisons/vector-database-vs-search-engine/' | relative_url }})
 and [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }}).
 Those pages connect RAG to indexing, ranking, filters, and metadata. They also
 keep freshness and product metrics in view.

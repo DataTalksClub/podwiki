@@ -6,7 +6,6 @@ related:
   - Search
   - Search, RAG, and Knowledge Systems
   - Information Retrieval
-  - Vector Database vs Search Engine
   - Evaluation
   - A/B Testing
 ---
@@ -123,7 +122,7 @@ for ordinary relevance evaluation. Daniel covers dense representations,
 embedding pipelines, vector storage, and multimodal retrieval at 11:29-33:13 in
 [Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}).
 Those sections connect vector retrieval to
-[Vector Database vs Search Engine]({{ '/wiki/vector-database-vs-search-engine/' | relative_url }}).
+[Vector Database vs Search Engine]({{ '/comparisons/vector-database-vs-search-engine/' | relative_url }}).
 Nearest-neighbor search is only part of the production system.
 
 Hybrid search is where evaluation becomes a tradeoff exercise. In
@@ -259,7 +258,7 @@ topics:
 - [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
 - [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
 - [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }})
-- [Vector Database vs Search Engine]({{ '/wiki/vector-database-vs-search-engine/' | relative_url }})
+- [Vector Database vs Search Engine]({{ '/comparisons/vector-database-vs-search-engine/' | relative_url }})
 - [Evaluation]({{ '/wiki/evaluation/' | relative_url }})
 - [A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }})
 - [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }})

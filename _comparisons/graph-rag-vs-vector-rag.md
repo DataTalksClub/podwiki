@@ -152,7 +152,8 @@ loses constraints, lineage, or provenance.
 If it returns plausible but irrelevant results, add filters and ranking
 weights. Recency and popularity can become retrieval signals too
 ([Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}),
-34:00-45:11).
+34:00-45:11). [Vector Database vs Search Engine]({{ '/comparisons/vector-database-vs-search-engine/' | relative_url }})
+covers that lower-level retrieval-stack boundary.
 
 A mature RAG system can use both: vector search finds candidate documents, and
 graph traversal adds related entities. It can also add validated facts,

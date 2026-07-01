@@ -260,6 +260,7 @@ Existing pages:
 - `_comparisons/mlops-vs-devops.md`
 - `_comparisons/product-owner-vs-product-manager.md`
 - `_comparisons/rag-vs-fine-tuning.md`
+- `_comparisons/vector-database-vs-search-engine.md`
 
 Candidate pages:
 
@@ -269,8 +270,7 @@ Candidate pages:
   URLs have been exposed.
 - Remaining migration candidates: `_wiki/batch-vs-streaming.md`,
   `_wiki/data-warehouse-vs-data-lakehouse.md`,
-  `_wiki/data-mesh-vs-centralized-data-platform.md`, and
-  `_wiki/vector-database-vs-search-engine.md`.
+  and `_wiki/data-mesh-vs-centralized-data-platform.md`.
 - Keep `_comparisons/data-engineer-vs-data-scientist.md` as the canonical
   comparison page. Put role and concept material in `_wiki/data-engineer-role.md`
   and `_wiki/data-scientist-role.md`, not in a duplicate wiki comparison page.

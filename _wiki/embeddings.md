@@ -74,7 +74,9 @@ Atita's view starts from information retrieval. In
 [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}),
 she moves from Solr and Lucene to vector databases, LLMs, and RAG. At 20:27 she
 frames the architecture choice as a migration decision: add vectors to an
-existing search stack or introduce a dedicated vector database. At 48:09, she
+existing search stack or introduce a dedicated vector database. See
+[Vector Database vs Search Engine]({{ '/comparisons/vector-database-vs-search-engine/' | relative_url }})
+for that architecture boundary. At 48:09, she
 pushes evaluation beyond nearest-neighbor retrieval into generated answer
 quality, citations, and human review.
 

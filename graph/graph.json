@@ -1,17 +1,17 @@
 {
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
-    "wikis": 179,
-    "articles": 45,
+    "wikis": 178,
+    "articles": 46,
     "guides": 19,
-    "comparisons": 15,
+    "comparisons": 16,
     "roadmaps": 9,
     "how_tos": 2,
     "podcasts": 202,
     "persons": 438,
     "topics": 145,
     "nodes": 1009,
-    "links": 10550
+    "links": 10554
   },
   "nodes": [
     {
@@ -508,6 +508,17 @@
       "count": 1,
       "search": "Solopreneur Data Scientist: A Data and AI Career Guide A podcast backed guide to solopreneur careers for data and AI professionals: what a solopreneur is, how solo data work differs from freelancing, and how to build income without losing focus.",
       "keyword": "solopreneur"
+    },
+    {
+      "id": "article:comparison:vector-database-vs-search-engine",
+      "type": "article",
+      "collection": "comparison",
+      "label": "Vector Database vs Search Engine",
+      "title": "Vector Database vs Search Engine",
+      "url": "/comparisons/vector-database-vs-search-engine/",
+      "count": 1,
+      "search": "Vector Database vs Search Engine How DataTalks.Club podcast guests compare dedicated vector databases with search engines for semantic retrieval, hybrid search, RAG, product search, and production relevance.",
+      "keyword": "vector database vs search engine"
     },
     {
       "id": "person:aaishamuhammad",
@@ -9986,16 +9997,6 @@
       "search": "Tracking Plans How the podcast archive frames tracking plans as shared event instrumentation rules for product, growth, analytics, and engineering teams."
     },
     {
-      "id": "wiki:vector-database-vs-search-engine",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "Vector Database vs Search Engine",
-      "title": "Vector Database vs Search Engine",
-      "url": "/wiki/vector-database-vs-search-engine/",
-      "count": 1,
-      "search": "Vector Database vs Search Engine A podcast grounded comparison of dedicated vector databases and search engines for semantic retrieval, hybrid search, RAG, product search, and operational relevance."
-    },
-    {
       "id": "wiki:vector-databases",
       "type": "wiki",
       "collection": "wiki",
@@ -11479,6 +11480,12 @@
     },
     {
       "source": "article:comparison:graph-rag-vs-vector-rag",
+      "target": "article:comparison:vector-database-vs-search-engine",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:graph-rag-vs-vector-rag",
       "target": "person:anahitapakiman",
       "kind": "article-link",
       "weight": 4
@@ -11578,6 +11585,12 @@
       "target": "article:comparison:graph-rag-vs-vector-rag",
       "kind": "article-link",
       "weight": 8
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "article:comparison:vector-database-vs-search-engine",
+      "kind": "article-link",
+      "weight": 4
     },
     {
       "source": "article:comparison:knowledge-graph-vs-vector-search",
@@ -11722,12 +11735,6 @@
       "target": "wiki:search-rag-and-knowledge-systems",
       "kind": "article-wiki",
       "weight": 5
-    },
-    {
-      "source": "article:comparison:knowledge-graph-vs-vector-search",
-      "target": "wiki:vector-database-vs-search-engine",
-      "kind": "article-link",
-      "weight": 4
     },
     {
       "source": "article:comparison:knowledge-graph-vs-vector-search",
@@ -12958,6 +12965,162 @@
       "target": "wiki:vector-databases",
       "kind": "article-link",
       "weight": 2
+    },
+    {
+      "source": "article:comparison:vector-database-vs-search-engine",
+      "target": "article:comparison:graph-rag-vs-vector-rag",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:vector-database-vs-search-engine",
+      "target": "article:comparison:knowledge-graph-vs-vector-search",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:comparison:vector-database-vs-search-engine",
+      "target": "person:anahitapakiman",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:vector-database-vs-search-engine",
+      "target": "person:atitaarora",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:vector-database-vs-search-engine",
+      "target": "person:danielsvonava",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:vector-database-vs-search-engine",
+      "target": "person:meryemarik",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:vector-database-vs-search-engine",
+      "target": "podcast:building-production-search-systems",
+      "kind": "article-link",
+      "weight": 26
+    },
+    {
+      "source": "article:comparison:vector-database-vs-search-engine",
+      "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:vector-database-vs-search-engine",
+      "target": "podcast:knowledge-graphs-and-llms-for-automotive-rnd",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:vector-database-vs-search-engine",
+      "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
+      "kind": "article-link",
+      "weight": 18
+    },
+    {
+      "source": "article:comparison:vector-database-vs-search-engine",
+      "target": "wiki:embeddings",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:vector-database-vs-search-engine",
+      "target": "wiki:embeddings",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:vector-database-vs-search-engine",
+      "target": "wiki:information-retrieval",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:vector-database-vs-search-engine",
+      "target": "wiki:llm-production-patterns",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:vector-database-vs-search-engine",
+      "target": "wiki:machine-learning",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:vector-database-vs-search-engine",
+      "target": "wiki:production-search-evaluation",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:comparison:vector-database-vs-search-engine",
+      "target": "wiki:production-search-evaluation",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:vector-database-vs-search-engine",
+      "target": "wiki:rag-vs-fine-tuning",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:vector-database-vs-search-engine",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:vector-database-vs-search-engine",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:vector-database-vs-search-engine",
+      "target": "wiki:search",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:vector-database-vs-search-engine",
+      "target": "wiki:search",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:vector-database-vs-search-engine",
+      "target": "wiki:search-rag-and-knowledge-systems",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:vector-database-vs-search-engine",
+      "target": "wiki:search-rag-and-knowledge-systems",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:vector-database-vs-search-engine",
+      "target": "wiki:vector-databases",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:vector-database-vs-search-engine",
+      "target": "wiki:vector-databases",
+      "kind": "article-wiki",
+      "weight": 5
     },
     {
       "source": "article:guide:ai-tools-for-personal-productivity",
@@ -15250,6 +15413,12 @@
       "target": "wiki:team-building",
       "kind": "article-wiki",
       "weight": 5
+    },
+    {
+      "source": "article:guide:llm-system-design-interview",
+      "target": "article:comparison:vector-database-vs-search-engine",
+      "kind": "article-link",
+      "weight": 2
     },
     {
       "source": "article:guide:llm-system-design-interview",
@@ -52963,6 +53132,12 @@
     },
     {
       "source": "wiki:embeddings",
+      "target": "article:comparison:vector-database-vs-search-engine",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:embeddings",
       "target": "person:atitaarora",
       "kind": "wiki-link",
       "weight": 2
@@ -56383,6 +56558,12 @@
     },
     {
       "source": "wiki:information-retrieval",
+      "target": "article:comparison:vector-database-vs-search-engine",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:information-retrieval",
       "target": "person:atitaarora",
       "kind": "wiki-link",
       "weight": 2
@@ -56512,12 +56693,6 @@
       "target": "wiki:search-rag-and-knowledge-systems",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:information-retrieval",
-      "target": "wiki:vector-database-vs-search-engine",
-      "kind": "wiki-link",
-      "weight": 2
     },
     {
       "source": "wiki:information-retrieval",
@@ -66565,6 +66740,12 @@
     },
     {
       "source": "wiki:production-search-evaluation",
+      "target": "article:comparison:vector-database-vs-search-engine",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:production-search-evaluation",
       "target": "person:atitaarora",
       "kind": "wiki-link",
       "weight": 2
@@ -66692,18 +66873,6 @@
     {
       "source": "wiki:production-search-evaluation",
       "target": "wiki:search-rag-and-knowledge-systems",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:production-search-evaluation",
-      "target": "wiki:vector-database-vs-search-engine",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:production-search-evaluation",
-      "target": "wiki:vector-database-vs-search-engine",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -67117,6 +67286,12 @@
     },
     {
       "source": "wiki:rag",
+      "target": "article:comparison:vector-database-vs-search-engine",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:rag",
       "target": "article:guide:llm-system-design-interview",
       "kind": "wiki-link",
       "weight": 2
@@ -67298,12 +67473,6 @@
     {
       "source": "wiki:rag",
       "target": "wiki:security",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:rag",
-      "target": "wiki:vector-database-vs-search-engine",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -68371,6 +68540,12 @@
     },
     {
       "source": "wiki:retrieval-augmented-generation",
+      "target": "article:comparison:vector-database-vs-search-engine",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:retrieval-augmented-generation",
       "target": "article:guide:llm-system-design-interview",
       "kind": "wiki-link",
       "weight": 2
@@ -69097,6 +69272,12 @@
     },
     {
       "source": "wiki:search",
+      "target": "article:comparison:vector-database-vs-search-engine",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:search",
       "target": "person:atitaarora",
       "kind": "wiki-link",
       "weight": 2
@@ -69223,12 +69404,6 @@
     },
     {
       "source": "wiki:search",
-      "target": "wiki:vector-database-vs-search-engine",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:search",
       "target": "wiki:vector-databases",
       "kind": "wiki-link",
       "weight": 6
@@ -69254,6 +69429,12 @@
     {
       "source": "wiki:search-and-rag-project-checklist",
       "target": "article:comparison:knowledge-graph-vs-vector-search",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:search-and-rag-project-checklist",
+      "target": "article:comparison:vector-database-vs-search-engine",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -69457,6 +69638,12 @@
     },
     {
       "source": "wiki:search-rag-and-knowledge-systems",
+      "target": "article:comparison:vector-database-vs-search-engine",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:search-rag-and-knowledge-systems",
       "target": "person:anahitapakiman",
       "kind": "wiki-link",
       "weight": 2
@@ -69628,12 +69815,6 @@
       "target": "wiki:search",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:search-rag-and-knowledge-systems",
-      "target": "wiki:vector-database-vs-search-engine",
-      "kind": "wiki-link",
-      "weight": 4
     },
     {
       "source": "wiki:search-rag-and-knowledge-systems",
@@ -73002,162 +73183,6 @@
       "weight": 2
     },
     {
-      "source": "wiki:vector-database-vs-search-engine",
-      "target": "article:comparison:graph-rag-vs-vector-rag",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:vector-database-vs-search-engine",
-      "target": "article:comparison:knowledge-graph-vs-vector-search",
-      "kind": "wiki-link",
-      "weight": 6
-    },
-    {
-      "source": "wiki:vector-database-vs-search-engine",
-      "target": "person:anahitapakiman",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:vector-database-vs-search-engine",
-      "target": "person:atitaarora",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:vector-database-vs-search-engine",
-      "target": "person:danielsvonava",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:vector-database-vs-search-engine",
-      "target": "person:meryemarik",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:vector-database-vs-search-engine",
-      "target": "podcast:building-production-search-systems",
-      "kind": "wiki-link",
-      "weight": 26
-    },
-    {
-      "source": "wiki:vector-database-vs-search-engine",
-      "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:vector-database-vs-search-engine",
-      "target": "podcast:knowledge-graphs-and-llms-for-automotive-rnd",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:vector-database-vs-search-engine",
-      "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
-      "kind": "wiki-link",
-      "weight": 18
-    },
-    {
-      "source": "wiki:vector-database-vs-search-engine",
-      "target": "wiki:embeddings",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:vector-database-vs-search-engine",
-      "target": "wiki:embeddings",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:vector-database-vs-search-engine",
-      "target": "wiki:information-retrieval",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:vector-database-vs-search-engine",
-      "target": "wiki:llm-production-patterns",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:vector-database-vs-search-engine",
-      "target": "wiki:machine-learning",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:vector-database-vs-search-engine",
-      "target": "wiki:production-search-evaluation",
-      "kind": "wiki-link",
-      "weight": 6
-    },
-    {
-      "source": "wiki:vector-database-vs-search-engine",
-      "target": "wiki:production-search-evaluation",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:vector-database-vs-search-engine",
-      "target": "wiki:rag-vs-fine-tuning",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:vector-database-vs-search-engine",
-      "target": "wiki:retrieval-augmented-generation",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:vector-database-vs-search-engine",
-      "target": "wiki:retrieval-augmented-generation",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:vector-database-vs-search-engine",
-      "target": "wiki:search",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:vector-database-vs-search-engine",
-      "target": "wiki:search",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:vector-database-vs-search-engine",
-      "target": "wiki:search-rag-and-knowledge-systems",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:vector-database-vs-search-engine",
-      "target": "wiki:search-rag-and-knowledge-systems",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:vector-database-vs-search-engine",
-      "target": "wiki:vector-databases",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:vector-database-vs-search-engine",
-      "target": "wiki:vector-databases",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
       "source": "wiki:vector-databases",
       "target": "article:comparison:graph-rag-vs-vector-rag",
       "kind": "wiki-link",
@@ -73166,6 +73191,12 @@
     {
       "source": "wiki:vector-databases",
       "target": "article:comparison:knowledge-graph-vs-vector-search",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:vector-databases",
+      "target": "article:comparison:vector-database-vs-search-engine",
       "kind": "wiki-link",
       "weight": 4
     },
@@ -73300,12 +73331,6 @@
       "target": "wiki:search-rag-and-knowledge-systems",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:vector-databases",
-      "target": "wiki:vector-database-vs-search-engine",
-      "kind": "wiki-link",
-      "weight": 4
     }
   ]
 }

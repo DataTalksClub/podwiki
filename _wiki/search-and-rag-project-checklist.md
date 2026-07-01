@@ -105,7 +105,8 @@ candidate retrieval from ranking at 12:45, then explains embeddings at 21:55
 and hybrid search at 34:00.
 
 Use [Vector Databases]({{ '/wiki/vector-databases/' | relative_url }}),
-[Embeddings]({{ '/wiki/embeddings/' | relative_url }}) and
+[Embeddings]({{ '/wiki/embeddings/' | relative_url }}),
+[Vector Database vs Search Engine]({{ '/comparisons/vector-database-vs-search-engine/' | relative_url }}), and
 [Information Retrieval]({{ '/wiki/information-retrieval/' | relative_url }}).
 Use [Production Search Evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }})
 when the project needs deeper search context.
