@@ -34,25 +34,25 @@ stack. The workflow examples include SQL tests and DAGs. In
 describes the role as translating business reality into clean data systems with
 software engineering discipline.
 
-## Common Definition
+## Modeled Analytical Layer
 
-DataTalks.Club guests generally use analytics engineering to mean owning the
-modeled analytical layer between raw data and users. The common output isn't a
-one-off query. It's a maintained model with clear grain, tested assumptions,
+In the DataTalks.Club discussions, analytics engineers own the modeled
+analytical layer between raw data and the people using it. They don't stop at a
+one-off query. They maintain models with clear grain, tested assumptions,
 documented definitions, and a path into BI or operational use.
 
-Perez Mola places data modeling and dbt tests at the center of the role. She
-also connects the job to Looker, Snowflake, and collaboration. Perafan describes
-the craft as converting messy business reality into safe data systems
+Perez Mola puts data modeling and dbt tests at the center of the job. She also
+connects analytics engineering to Looker, Snowflake, and collaboration. Perafan
+describes the same work as converting messy business reality into safer data
+systems
 ([Perez Mola]({{ '/podcasts/analytics-engineer-skills-tools/' | relative_url }}),
 [Perafan]({{ '/podcasts/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices/' | relative_url }})).
 
-The podcast discussions also frame analytics engineering as a response to a
-team bottleneck. Analysts and data scientists need trusted definitions but often
-lose time rebuilding joins and reconciling dashboards. Data engineers may own
-ingestion, orchestration, cloud infrastructure, and platform reliability.
-Analytics engineers occupy the middle. They use engineering practices to make
-business-facing data reusable
+Several episodes explain the role through the team bottleneck it removes.
+Analysts and data scientists need trusted definitions, but they can lose time
+rebuilding joins and reconciling dashboards. Data engineers often own ingestion,
+orchestration, cloud infrastructure, and platform reliability. Analytics
+engineers work between those groups by making business-facing data reusable
 ([Data Engineering Career Path and Skills]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }}),
 [Modern Data Stack episode]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})).
 
@@ -61,28 +61,27 @@ That reusable layer feeds
 when modeled tables and metrics become dashboards, reports, and decision
 workflows.
 
-Santona Tuli adds a pipeline-level version of the same definition. Her modern
-data pipeline discussion puts dbt after ingestion and orchestration. It then
-ties modeled marts to dashboards and business questions at 24:57, 39:23, and
-43:05
+Santona Tuli adds the pipeline view. Her modern data pipeline discussion puts
+dbt after ingestion and orchestration. It then ties modeled marts to dashboards
+and business questions at 24:57, 39:23, and 43:05
 ([Modern Data Pipeline Architecture]({{ '/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/' | relative_url }}),
 [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})).
 
-## Guest Differences
+## Separate Role or Shared Practice
 
-Guests differ most on whether analytics engineering is a separate role. It can
-also be a practice inside adjacent roles. Perez Mola describes a bridge role
-that overlaps with analysts, data engineers, BI developers, and platform teams.
-Perafan is more explicit that many tasks predate the title.
+Guests draw the role boundary differently depending on the team. Perez Mola
+describes a bridge role that overlaps with analysts, data engineers, BI
+developers, and platform teams. Perafan is more explicit that many analytics
+engineering tasks existed before teams gave them a separate title.
 
-The name is useful when it clarifies ownership of modeling and testing. It's
-less useful when it creates a rigid job boundary
+The title helps when it clarifies who owns modeling and testing. It's less
+useful as a rigid job boundary
 ([Analytics Engineer Skills and Tools]({{ '/podcasts/analytics-engineer-skills-tools/' | relative_url }}),
 [Foundations of the Analytics Engineer Role]({{ '/podcasts/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices/' | relative_url }})).
 
-Guests also differ on tool centrality. dbt is the clearest recurring symbol of
-analytics engineering because it made SQL transformations visible as a DAG. It
-also made them versioned and testable.
+The same flexibility shows up in tool choices. dbt is the clearest recurring
+symbol of analytics engineering because it made SQL transformations visible as a
+DAG, versioned, and testable.
 [Nikola Maksimovic]({{ '/people/nikolamaksimovic/' | relative_url }}) adds
 Looker migration, product analytics, A/B testing, and table design.
 
@@ -91,7 +90,7 @@ warehouses. She also connects it to orchestration, CDC, and reverse data flows
 ([Maksimovic]({{ '/podcasts/from-marketing-to-analytics-engineering-sql-dbt-career-switch/' | relative_url }}),
 [Kwong]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})).
 
-Team size changes the boundary. In Tammy Liang's small-team story, early
+Team size can move the boundary again. In Tammy Liang's small-team story, early
 analytics work started with business-health monitoring and dashboard adoption.
 It later included a warehouse, dbt, Data Studio, and Notion documentation. Tests
 and forecasting support followed. That work crossed analyst and engineer

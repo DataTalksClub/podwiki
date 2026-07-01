@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Machine Learning Engineer Role"
-summary: "Podcast-grounded guide to the machine learning engineer role: production models, serving, maintainability, platform overlap, and boundaries with data science, software engineering, MLOps, and AI engineering."
+summary: "Guide to the machine learning engineer role: production models, serving, maintainability, platform overlap, and boundaries with data science, software engineering, MLOps, and AI engineering."
 related:
   - Machine Learning
   - Machine Learning System Design
@@ -30,14 +30,13 @@ reliability. Batch scoring overlaps more with
 [data engineering]({{ '/wiki/data-engineering/' | relative_url }}) and
 [DataOps]({{ '/wiki/dataops/' | relative_url }}).
 
-## Common Definition
+## From Models to Production Systems
 
-Across these episodes, the common definition is practical. A machine learning
-engineer owns the engineering path from a trained model or model idea to a
-maintainable product capability. The job includes model packaging and inference
-interfaces. It also includes data dependencies, tests, deployment,
-observability. It also requires collaboration with the people who own the
-product decision.
+A machine learning engineer owns the path from model work to production use.
+That means turning a trained model or model idea into a maintainable product
+capability. The job includes model packaging and inference interfaces.
+It also includes data dependencies, tests, deployment, and observability. The
+role requires close work with the people who own the product decision.
 
 [Ben Wilson]({{ '/people/benwilson/' | relative_url }}) gives the clearest
 maintainability version of the role in
@@ -63,26 +62,26 @@ That connects the role to
 [machine learning system design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
 and [machine learning infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }}).
 
-## Guest Differences
+## Production Surfaces the Role Can Own
 
-Guests agree that machine learning engineers need software discipline, but they
-differ on which production surface defines the job.
+The guests agree that machine learning engineers need software discipline, but
+they attach the role to different production surfaces.
 
-The role episode centers the product service. In that version, the machine
-learning engineer turns predictions into something users or internal teams can
-use. That framing is close to product engineering. The model has to sit behind
-a service, endpoint, batch job, or application workflow.
+[Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }})
+centers the product service. In that version, the machine learning engineer
+turns predictions into something users or internal teams can use. The model has
+to sit behind a service, endpoint, batch job, or application workflow.
 
 Ben's production episode centers maintainability. His 10:35 and 36:13 sections
 warn against overcomplicated systems and emotional attachment to hard-to-maintain
-solutions. In that framing, a strong machine learning engineer is the person
-who can remove complexity, not only add a more advanced model.
+solutions. A strong machine learning engineer can remove complexity, not only
+add a more advanced model.
 
 Arseny's system-design episode centers design under constraints. The 10:34
 section covers edge and mobile limits such as latency, frames per second, and
 energy use. The 29:01 section turns product requirements into metrics,
-non-goals, and assumptions. This version of the role looks like applied systems
-engineering for model-backed products.
+non-goals, and assumptions. Here the role looks like applied systems engineering
+for model-backed products.
 
 [Simon Stiebellehner]({{ '/people/simonstiebellehner/' | relative_url }})
 pushes the role toward platforms in

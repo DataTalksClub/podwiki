@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Data Engineer Role"
-summary: "Archive-backed guide to what data engineers do, where the role starts and ends, and how DataTalks.Club guests describe data engineering work in practice."
+summary: "What data engineers do, where the role starts and ends, and how DataTalks.Club guests describe data engineering work in practice."
 related:
   - Data Engineering
   - Data Engineering Platforms
@@ -13,35 +13,32 @@ related:
   - Data Engineering Portfolio Projects
 ---
 
-A data engineer builds and operates the systems that make data available for
-analytics and data science work. Those systems also support machine learning
-and product workflows. In the DataTalks.Club podcast discussions, the role
-covers data ingestion and storage. It also covers transformation and
-orchestration. Access, monitoring, and documentation are part of the job too.
+A data engineer builds and operates the systems that make data usable for
+analytics and data science. Those systems also support machine learning and
+product work. In DataTalks.Club podcast discussions, guests describe the role
+through data movement and transformation. They also treat orchestration,
+access, monitoring, and documentation as part of the job.
 
-Data engineers need
-enough engineering judgment to decide when a team needs a full data platform
-and when a smaller pipeline is enough.
+The same role also requires engineering judgment. A data engineer has to know
+when a team needs a full platform and when a smaller pipeline is enough.
 
-An early role definition comes from
-[Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }}).
-At 13:58, data engineers are defined as the people who make user-generated data
-available in a usable form for analysts and data scientists. That framing keeps
-the role close to
+[Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }})
+sets the baseline at 13:58. Data engineers make user-generated data available
+in a usable form for analysts and data scientists. This keeps the role close to
 [data engineering]({{ '/wiki/data-engineering/' | relative_url }}), but it also
-connects it to [data scientist work]({{ '/wiki/data-scientist-role/' | relative_url }}),
+connects it to
+[data scientist work]({{ '/wiki/data-scientist-role/' | relative_url }}),
 [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), and
-[MLOps]({{ '/wiki/mlops/' | relative_url }}).
+[MLOps]({{ '/wiki/mlops/' | relative_url }}). Guests return to the same
+practical point. Dashboards, notebooks, models, and activation systems all
+depend on someone making data reliable before it reaches them.
 
-## Common Definition
+## Data Pipelines and Shared Data Products
 
-The common definition across the episodes is practical. A data engineer owns
-reliable data movement and the reusable data structures that downstream teams
-depend on. The role begins before a dashboard, notebook, or model exists.
-
-Data engineers collect data from product systems, files, and APIs. They also
-collect event streams and third-party data. They then store and transform that
-data. They also test and document it so other teams can use it without
+Data engineers own reliable data movement and the reusable data structures that
+downstream teams depend on. They collect data from product systems and files.
+They also handle APIs, event streams, and third-party services. They store and
+transform that data, then test and document it so other teams can use it without
 reverse-engineering every source system.
 
 In
@@ -80,10 +77,10 @@ and [DataOps]({{ '/wiki/dataops/' | relative_url }}).
 
 ## Role Variants
 
-Guests disagree less about the core work and more about the job title. The
+Guests agree on the core work more than they agree on the job title. The
 episodes use "data engineer" for platform builders, big-data engineers,
 product-facing data engineers, and analytics-adjacent engineers. A hiring
-process needs to say which version it means.
+process has to say which version it means.
 
 The split becomes explicit in
 [Data Engineer Career in 2026]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }}).
@@ -131,12 +128,9 @@ themselves from repeated support work.
 
 Data engineers make data dependable before other teams use it. They build
 ingestion from applications, databases, files, and APIs. They also handle event
-streams and vendor systems.
-
-They choose storage paths such as warehouses,
+streams and vendor systems. They choose storage paths such as warehouses,
 lakes, lakehouses, or operational stores. They transform raw events and source
-tables into stable datasets. Those datasets need names, schemas, ownership,
-and documentation.
+tables into stable datasets with names, schemas, ownership, and documentation.
 
 The role episode ties this work to team flow. In
 [Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }}),
@@ -220,11 +214,9 @@ because employers can look at the pipeline work.
 
 The boundary with [DataOps]({{ '/wiki/dataops/' | relative_url }}) isn't a job
 title split. Data engineers build and maintain pipelines, datasets,
-orchestration, and platforms.
-
-DataOps names the review and testing practices used to operate that work
-reliably. It also covers deployment, observability, and recovery. The full
-comparison lives in
+orchestration, and platforms. DataOps names the review and testing practices
+teams use to operate that work reliably. It also covers deployment,
+observability, and recovery. The full comparison lives in
 [DataOps vs Data Engineering]({{ '/comparisons/dataops-vs-data-engineering/' | relative_url }}).
 
 The boundary with a
@@ -234,8 +226,10 @@ and pipeline operations. Data scientists own modeling, feature reasoning,
 experimentation, and decision quality. At 13:56, Roksolana puts data cleaning
 and feature engineering on the data science side.
 
-The 4:26 and 6:38 sections keep ETL, storage, and Spark performance on the
-engineering side
+In
+[Big Data Engineer vs Data Scientist]({{ '/podcasts/big-data-engineer-vs-data-scientist/' | relative_url }}),
+Roksolana keeps ETL and storage on the engineering side at 4:26. At 6:38, she
+adds Spark performance to the same side
 ([Data Engineer vs Data Scientist]({{ '/comparisons/data-engineer-vs-data-scientist/' | relative_url }})).
 
 The boundary with
@@ -269,8 +263,8 @@ production controls around AI products.
 
 ## Related Pages
 
-These pages connect the data engineer role to adjacent platforms and role
-boundaries.
+These pages connect the data engineer role to adjacent platforms, career paths,
+and role boundaries.
 
 - [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }})
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})

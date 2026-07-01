@@ -5669,7 +5669,7 @@
       "title": "Data Engineer Role",
       "url": "/wiki/data-engineer-role/",
       "count": 1,
-      "search": "Data Engineer Role Archive backed guide to what data engineers do, where the role starts and ends, and how DataTalks.Club guests describe data engineering work in practice."
+      "search": "Data Engineer Role What data engineers do, where the role starts and ends, and how DataTalks.Club guests describe data engineering work in practice."
     },
     {
       "id": "wiki:data-engineering",
@@ -5859,7 +5859,7 @@
       "title": "Data Scientist Role",
       "url": "/wiki/data-scientist-role/",
       "count": 1,
-      "search": "Data Scientist Role Podcast grounded definition of the data scientist role: product questions, modeling, experimentation, ambiguity, role boundaries, and supporting episodes."
+      "search": "Data Scientist Role DataTalks.Club podcast view of the data scientist role: product questions, modeling, experimentation, ambiguity, role boundaries, and supporting episodes."
     },
     {
       "id": "wiki:data-scientist-to-machine-learning-engineer",
@@ -6319,7 +6319,7 @@
       "title": "Machine Learning Engineer Role",
       "url": "/wiki/machine-learning-engineer-role/",
       "count": 1,
-      "search": "Machine Learning Engineer Role Podcast grounded guide to the machine learning engineer role: production models, serving, maintainability, platform overlap, and boundaries with data science, software engineering, MLOps, and AI engineering."
+      "search": "Machine Learning Engineer Role Guide to the machine learning engineer role: production models, serving, maintainability, platform overlap, and boundaries with data science, software engineering, MLOps, and AI engineering."
     },
     {
       "id": "wiki:machine-learning-infrastructure",

@@ -10,8 +10,6 @@ related:
   - Experimentation
 ---
 
-## Definition
-
 A data analyst helps a team understand what happened, why it happened, and what
 decision should follow. In DataTalks.Club discussions, the technical base is
 SQL and dashboards. The decision work uses metrics, product context, experiment
@@ -24,10 +22,10 @@ problems and checks whether a shipped feature improved user behavior around
 7:51-10:39. That framing makes the role broader than report production. The
 analyst connects data to a product, operational, or business decision.
 
-## Common Definition
+## From Dashboards to Decisions
 
-Across these discussions, a data analyst turns company data into reusable evidence for
-decisions. In
+Across these discussions, a data analyst turns company data into reusable
+evidence for decisions. In
 [From Analytics to Production ML]({{ '/podcasts/production-ml-mlops-and-data-team-building/' | relative_url }}),
 [Rishabh Bhargava]({{ '/people/rishabhbhargava/' | relative_url }}) describes
 analysts as people who build dashboards and reports around 18:39-24:23. They
@@ -48,14 +46,15 @@ At 46:13, he separates analyst work from data engineering and product
 operations. He also names analytics engineering as a neighboring role. That
 split shows why analysts need both source awareness and stakeholder context.
 
-## Role Disagreements
+## Boundary Choices in Teams
 
 Guests agree that analysts work with metrics and decisions, but they draw the
 role boundary differently.
 
-In the role-definition episode, the analyst sits close to the product manager.
-The product manager owns the product direction. The analyst quantifies the
-problem and helps decide whether the work deserves team time. In
+In [Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }}),
+the analyst sits close to the product manager. The product manager owns the
+product direction. The analyst quantifies the problem and helps decide whether
+the work deserves team time. In
 [From Analytics to Production ML]({{ '/podcasts/production-ml-mlops-and-data-team-building/' | relative_url }}),
 Rishabh extends the boundary toward experimentation. Around 31:19-33:30, he
 describes analysts helping explain uplift, segment differences, and root causes
@@ -83,7 +82,7 @@ an overlap between data analyst and analytics engineer work around 25:06. That
 overlap appears when dashboard logic, metric definitions, and transformation
 code need stronger ownership.
 
-## Responsibilities
+## Decision-Support Responsibilities
 
 The analyst's core responsibility is decision support.
 
@@ -113,7 +112,7 @@ the role to uplift and root-cause analysis. The related
 statistical because analysts also define success metrics and important
 segments. They then explain mixed results to product stakeholders.
 
-## Skills
+## Skill Stack
 
 The skill stack is practical and communication-heavy.
 
@@ -143,13 +142,14 @@ Rishabh and Irina connect statistics to product decisions, not abstract
 calculation. See Rishabh on experiment analysis around 31:19 and Irina on
 cohort and retention analysis around 31:50.
 
-Communication is part of the role, not a soft add-on. The role-definition
-episode describes analyst documentation as material for management and decision
-makers around 18:17-19:08. Alicja's hiring episode reinforces this from the
-candidate side: around 28:41-32:40, she emphasizes clear responsibilities,
-dates, and practical examples over vague buzzwords.
+Communication is part of the role, not a soft add-on.
+[Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }})
+describes analyst documentation as material for management and decision makers
+around 18:17-19:08. Alicja's hiring episode reinforces this from the candidate
+side: around 28:41-32:40, she emphasizes clear responsibilities, dates, and
+practical examples over vague buzzwords.
 
-## Boundaries
+## Adjacent Roles
 
 The boundary with the
 [data scientist role]({{ '/wiki/data-scientist-role/' | relative_url }}) is
@@ -177,13 +177,16 @@ covers the transition when analysts want to own reusable models.
 
 The boundary with the
 [data engineer role]({{ '/wiki/data-engineer-role/' | relative_url }}) is
-about data paths and operations. Data engineers build ingestion, storage,
-orchestration, and platform systems. Analysts use those systems to interpret
-the business. In the role-definition episode, data engineers appear after the
-analyst discussion as the people who make the needed data usable around 13:58.
-Arpit's growth-stack episode gives the operating version of the same boundary
-when teams split tracking, warehousing, analysis, and activation work
-around 46:13.
+about data paths and operations. Data engineers build ingestion and storage
+systems. They also own orchestration and platform work. Analysts use those
+systems to interpret the business.
+
+In
+[Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }}),
+data engineers appear after the analyst discussion as the people who make the
+needed data usable around 13:58. Arpit's growth-stack episode gives the
+operating version of the same boundary when teams split tracking, warehousing,
+analysis, and activation work around 46:13.
 
 The boundary with product management is about ownership of the decision.
 Product managers own product direction and prioritization. Analysts provide

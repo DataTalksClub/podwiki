@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Data Scientist Role"
-summary: "Podcast-grounded definition of the data scientist role: product questions, modeling, experimentation, ambiguity, role boundaries, and supporting episodes."
+summary: "DataTalks.Club podcast view of the data scientist role: product questions, modeling, experimentation, ambiguity, role boundaries, and supporting episodes."
 related:
   - Data Science
   - Machine Learning
@@ -14,27 +14,27 @@ related:
 ---
 
 A data scientist turns a business, product, or operational question into
-evidence that can change a decision. In DataTalks.Club podcast discussions,
-that evidence may be an analysis or forecast. It may also be an experiment,
-recommendation system, model, or product feature. The role sits between
+evidence that can change a decision. Across DataTalks.Club discussions, that
+evidence may be an analysis or a forecast. It may also be an experiment, a
+recommendation system, a model, or a product feature. The role sits between
 [data science]({{ '/wiki/data-science/' | relative_url }}),
 [machine learning]({{ '/wiki/machine-learning/' | relative_url }}),
 [product analytics]({{ '/wiki/product-analytics/' | relative_url }}), and
 [data engineering]({{ '/wiki/data-engineering/' | relative_url }}).
 
-The simplest podcast definition comes from
-[Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }}).
+[Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }})
+gives a useful baseline.
 In the 11:17 section, the episode separates analysts from data scientists:
 analysts explain what happened, while data scientists predict and help integrate
-predictions into products. That makes the role broader than model training. The
-scientist must connect the question and data. They must also connect the method,
-evaluation, and product use.
+predictions into products. In that framing, data scientists do more than train
+models. They must connect the question and data. They must also connect the
+method, evaluation, and product use.
 
-## Common Definition
+## From Questions To Evidence
 
-Guests converge on a practical definition: a data scientist owns the reasoning
-path from problem framing to evidence. The work often begins with SQL, data
-exploration, and feature discovery. It then moves into statistics,
+Guests usually define the data scientist by the path from problem framing to
+evidence. Data scientists often begin with SQL, data exploration, and feature
+discovery. They then move into statistics,
 [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), or
 experimentation when those methods are needed.
 
@@ -42,9 +42,9 @@ experimentation when those methods are needed.
 describes the modeling side in
 [Big Data Engineer vs Data Scientist]({{ '/podcasts/big-data-engineer-vs-data-scientist/' | relative_url }}).
 At 13:56, she ties data science to data cleaning and feature engineering. She
-also covers model cycles and deployment awareness. That episode keeps data
-science connected to upstream pipelines and downstream use. This is why the
-role overlaps with
+also covers model cycles and deployment awareness. Her framing keeps data
+science connected to upstream pipelines and downstream use. Data scientists
+therefore work near
 [Data Engineer vs Data Scientist]({{ '/comparisons/data-engineer-vs-data-scientist/' | relative_url }})
 and [MLOps]({{ '/wiki/mlops/' | relative_url }}).
 
@@ -57,13 +57,13 @@ starts case-study preparation from business goals and evaluation metrics at
 [Product Analytics and A/B Testing]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}),
 [Jakob Graff]({{ '/people/jakobgraff/' | relative_url }})
 shows how randomized experiments turn product questions into causal evidence.
-Metric design, A/A tests, and power analysis make that evidence usable.
+He uses metric design, A/A tests, and power analysis to make that evidence
+usable.
 
-## Role Variations
+## Team-Dependent Role Versions
 
-Guests differ mostly on how much engineering and product ownership the title
-should imply. They also differ on the expected statistical depth. Guests don't
-treat "data scientist" as a stable job title.
+Guests put different weight on engineering, product ownership, and statistical
+depth. They don't treat "data scientist" as a stable job title.
 
 [Tereza Iofciu]({{ '/people/terezaiofciu/' | relative_url }})
 makes role ambiguity the central warning in
@@ -77,9 +77,8 @@ analytics work, platform work, a first-data-hire job, or an undefined mix.
 looks at the same problem from recruiting in
 [Land Data Scientist Roles]({{ '/podcasts/get-data-scientist-job/' | relative_url }}).
 At 16:15, 19:50, and 25:04, he emphasizes industry fit and concrete projects.
-He also emphasizes business impact. That framing treats the role as use-case
-dependent. Fraud and marketing roles reward different evidence from forecasting,
-search, or recommendations roles.
+He also emphasizes business impact. Fraud and marketing roles reward different
+evidence from forecasting, search, or recommendations roles.
 
 [Marijn Markus]({{ '/people/marijnmarkus/' | relative_url }})
 argues for another kind of differentiation in
@@ -99,28 +98,28 @@ feasibility and impact, then educate the company in
 [Ioannis Mesionis]({{ '/people/ioannismesionis/' | relative_url }})
 describes a lead data scientist operating model in
 [Building Data Products at Scale]({{ '/podcasts/building-data-products-lead-data-scientist/' | relative_url }}).
-The operating model includes embedded stakeholder meetings and a single intake
+His operating model includes embedded stakeholder meetings and a single intake
 path. It also uses definition-of-done templates, pilot tests, and monitoring.
-These examples make senior data science less about isolated modeling and more
-about product intake, delivery, and organizational trust.
+In his version, senior data scientists spend less time on isolated modeling and
+more time on product intake, delivery, and organizational trust.
 
-## Responsibilities
+## Core Responsibilities
 
 Data scientists usually own the question before they own the model. In practice,
 that means defining the decision and stakeholder. It also means naming the
 constraint and success metric. They also check whether the available data can
 support the question.
 
-The case-study sections in
+In
 [Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }})
-make this explicit by moving from business goals to metrics. Only then does the
-interview test ML, SQL, and coding.
+Oleg makes this explicit by moving from business goals to metrics. Only then
+does the interview test ML, SQL, and coding.
 
 They then explore data and define features while evaluating assumptions and
 choosing a method. In
 [Big Data Engineer vs Data Scientist]({{ '/podcasts/big-data-engineer-vs-data-scientist/' | relative_url }}),
-the 13:56 section places cleaning, feature preparation, and model iteration on
-the data scientist side. The 24:49 section adds that data scientists should
+at 13:56 Roksolana places cleaning, feature preparation, and model iteration on
+the data scientist side. At 24:49, she adds that data scientists should
 understand pipeline inputs and outputs well enough to collaborate with data
 engineers.
 
@@ -130,15 +129,16 @@ metric definition changes how a product experiment is interpreted. In
 [Interpretable Machine Learning]({{ '/podcasts/interpretable-machine-learning/' | relative_url }}),
 [Christoph Molnar]({{ '/people/christophmolnar/' | relative_url }})
 connects explanations, conformal prediction, and model trust to the way
-stakeholders understand model behavior. These discussions connect the role to
-[interpretability]({{ '/wiki/interpretability/' | relative_url }}) and
+stakeholders understand model behavior. Together, Jakob and Christoph connect
+the role to [interpretability]({{ '/wiki/interpretability/' | relative_url }}) and
 [responsible AI]({{ '/wiki/responsible-ai-and-governance/' | relative_url }}).
 
 In smaller companies, a data scientist may also prototype a service, batch job,
-or dashboard until a dedicated engineer can harden it. The first role episode
+or dashboard until a dedicated engineer can harden it.
+[Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }})
 names Python, SQL, Flask, and Docker after the analyst-versus-scientist
 distinction. Roksolana's episode adds reproducibility and code quality at
-46:14. That becomes the handoff point into
+46:14. At that point, the role meets
 [machine learning infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }})
 and [MLOps tools]({{ '/wiki/mlops-tools/' | relative_url }}).
 
@@ -152,7 +152,7 @@ Ioannis's lead data scientist episode shows a more mature version. The data
 scientist helps structure intake, success criteria, and pilots. They also help
 with rollout and monitoring so marketing teams know what's being built and why.
 
-## Skills
+## Skills the Role Needs
 
 Data scientists need SQL and data literacy because most data science work starts
 by finding, joining, and checking data. In
@@ -194,14 +194,17 @@ docs, decision logs, rationales, and clearer READMEs. That links the role to
 project needs stakeholder buy-in or later handoff.
 
 For career switchers, guests treat the skill set as a gap-finding problem rather
-than a fixed checklist. In
+than a fixed checklist.
+
+In
 [From Project Manager to Data Scientist]({{ '/podcasts/project-manager-to-data-scientist/' | relative_url }}),
 [Ksenia Legostay]({{ '/people/ksenialegostay/' | relative_url }})
 starts from analytics, business KPIs, and planning. She also brings stakeholder
-communication. She then adds programming, statistics, and domain expertise. The
-production side adds Git, testing, Docker, and deployment readiness.
+communication. She then adds programming and statistics. Domain expertise also
+matters. For production work, she adds Git and testing plus Docker and
+deployment readiness.
 
-## Boundaries with Nearby Roles
+## Boundaries With Nearby Roles
 
 The boundary with a
 [data analyst]({{ '/wiki/data-analyst-role/' | relative_url }}) is fuzzy. A data
@@ -238,8 +241,7 @@ analysis.
 
 ## Related Pages
 
-These pages connect the data scientist role to adjacent roles and project
-patterns.
+Continue with adjacent roles, career paths, and project patterns:
 
 - [Data Science]({{ '/wiki/data-science/' | relative_url }})
 - [Data Science Careers]({{ '/wiki/data-science-careers/' | relative_url }})
