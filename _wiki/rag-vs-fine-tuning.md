@@ -113,8 +113,8 @@ in
 [Knowledge Graphs and LLMs for Automotive R&D]({{ '/podcasts/knowledge-graphs-and-llms-for-automotive-rnd/' | relative_url }}),
 she contrasts chunks in a vector database with graph relationships and Cypher
 queries. That distinction belongs near
-[Graph RAG vs Vector RAG]({{ '/wiki/graph-rag-vs-vector-rag/' | relative_url }})
-and [Knowledge Graph vs Vector Search]({{ '/wiki/knowledge-graph-vs-vector-search/' | relative_url }}),
+[Graph RAG vs Vector RAG]({{ '/comparisons/graph-rag-vs-vector-rag/' | relative_url }})
+and [Knowledge Graph vs Vector Search]({{ '/comparisons/knowledge-graph-vs-vector-search/' | relative_url }}),
 not inside the fine-tuning bucket.
 
 ## Knowledge Freshness and Source Grounding
@@ -205,9 +205,9 @@ Anahita's automotive R&D discussion adds another boundary. At 40:23 in
 she separates embeddings/RAG from transfer learning and fine-tuning.
 Around 38:10-39:56, she also shows why retrieval may need graph relationships
 rather than only vector chunks. Use
-[Graph RAG vs Vector RAG]({{ '/wiki/graph-rag-vs-vector-rag/' | relative_url }})
+[Graph RAG vs Vector RAG]({{ '/comparisons/graph-rag-vs-vector-rag/' | relative_url }})
 or
-[Knowledge Graph vs Vector Search]({{ '/wiki/knowledge-graph-vs-vector-search/' | relative_url }})
+[Knowledge Graph vs Vector Search]({{ '/comparisons/knowledge-graph-vs-vector-search/' | relative_url }})
 when relationships, paths, or provenance are part of the answer.
 
 ## Production Constraints
@@ -267,5 +267,5 @@ These pages cover the surrounding retrieval, adaptation, and production topics:
 - [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }}) connects RAG to search, vector retrieval, knowledge graphs, and evaluation.
 - [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }}) covers the deployment, serving, latency, cost, and reliability context around both choices.
 - [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }}) covers gold sets and failure analysis for deciding whether to fix retrieval, prompts, data, or model behavior.
-- [Graph RAG vs Vector RAG]({{ '/wiki/graph-rag-vs-vector-rag/' | relative_url }}) and [Knowledge Graph vs Vector Search]({{ '/wiki/knowledge-graph-vs-vector-search/' | relative_url }}) cover retrieval cases where relationships matter.
+- [Graph RAG vs Vector RAG]({{ '/comparisons/graph-rag-vs-vector-rag/' | relative_url }}) and [Knowledge Graph vs Vector Search]({{ '/comparisons/knowledge-graph-vs-vector-search/' | relative_url }}) cover retrieval cases where relationships matter.
 - [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }}) and [AI Agents]({{ '/wiki/ai-agents/' | relative_url }}) cover the escalation path when retrieval is only one tool in a workflow.

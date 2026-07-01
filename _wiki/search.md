@@ -103,7 +103,7 @@ popularity, and business rules become ranking inputs too.
 Use
 [Vector Database vs Search Engine]({{ '/wiki/vector-database-vs-search-engine/' | relative_url }})
 for the architecture comparison. Use
-[Knowledge Graph vs Vector Search]({{ '/wiki/knowledge-graph-vs-vector-search/' | relative_url }})
+[Knowledge Graph vs Vector Search]({{ '/comparisons/knowledge-graph-vs-vector-search/' | relative_url }})
 when the retrieval problem depends on explicit relationships rather than only
 text or embedding distance.
 

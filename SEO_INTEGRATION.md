@@ -98,8 +98,9 @@ consolidated into topics.
 2. **Replace "articles/" — see §5.** Collapse the keyword swarm into topics and
    a small number of genuinely additive formats.
 3. **One canonical owner per query.** Branded/course terms (zoomcamps) →
-   main site always wins. Concept terms → podwiki wiki topic wins. Never two
-   live competitors for the same query.
+   main site always wins. Concept terms → podwiki wiki topic wins. Comparison
+   and decision queries → `_comparisons/` wins. Never two live competitors for
+   the same query.
 
 ## 5. What to have instead of `articles/`
 
@@ -113,8 +114,9 @@ blog and wiki don't already cover:
   engineer") that link OUT to topics + episodes. Additive, not a keyword clone.
 - **Q&A / "ask the archive".** Question-shaped pages backed by exploration
   search — a format the main site lacks entirely.
-- **Comparison / "vs" pages** (e.g. `mlops-vs-dataops`) — keep these where the
-  comparison is real and link to both topic hubs; drop the rest.
+- **Comparison / "vs" pages** (e.g. `mlops-vs-dataops`) — keep these in
+  `_comparisons/` where the comparison is real and link to both topic hubs;
+  drop the rest.
 
 Net: 71 keyword articles → a handful of roadmaps/Q&A/comparison pages + the rest
 absorbed into topics. Each remaining page must target a query no main-site or

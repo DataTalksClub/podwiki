@@ -119,7 +119,7 @@ data-engineering-manager/data-engineer-manager cluster was consolidated into
 | data-observability-for-data-engineering | data-observability | **keep: practical guide for the data-engineering-specific observability query** |
 | dataops | dataops | **done: slug collision removed** |
 | dataops-tools | dataops | **keep: guide for practical DataOps stack/tool selection** |
-| dataops-vs-data-engineering | dataops | **done: folded into `_wiki/dataops.md`** |
+| dataops-vs-data-engineering | dataops | **done: comparison lives in `_comparisons/dataops-vs-data-engineering.md`; concept context remains in `_wiki/dataops.md`** |
 | data-product-manager | data-product-management | **keep: short role guide linked to canonical wiki page** |
 | data-product-manager-role | data-product-management | **done: duplicate removed; links retargeted to `_guides/data-product-manager.md`** |
 | data-science-for-managers | leadership | **done: consolidated into `_wiki/leadership.md`** |

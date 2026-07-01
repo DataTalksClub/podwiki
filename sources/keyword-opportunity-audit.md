@@ -60,7 +60,7 @@ These keyword groups already have editorial coverage:
 | Data engineering consulting | `_wiki/freelance.md` | data engineering consulting, data engineering consultant, data engineer consulting, data engineer consultant |
 | Freelance data engineering | `_wiki/freelance.md` | freelance data engineer, data engineering freelance |
 | MLOps core terms | `_wiki/mlops.md`, `_wiki/mlops-roadmap.md`, `_wiki/mlops-tools.md`, `_guides/mlops-frameworks.md`, `_guides/mlops-architecture.md`, `_wiki/mlops-engineer.md` | mlops, what is mlops, mlops course, mlops tools, mlops architecture |
-| DataOps core terms | `_wiki/dataops.md`, `_guides/dataops-tools.md`, `_comparisons/mlops-vs-dataops.md` | dataops, data ops, dataops tools, mlops vs dataops |
+| DataOps core terms | `_wiki/dataops.md`, `_guides/dataops-tools.md`, `_comparisons/mlops-vs-dataops.md`, `_comparisons/dataops-vs-data-engineering.md` | dataops, data ops, dataops tools, mlops vs dataops, dataops vs data engineering |
 | Machine learning system design | `_wiki/machine-learning-system-design.md`, `_guides/machine-learning-system-design-interview.md` | machine learning system design, ml system design interview, designing machine learning systems |
 | LLM system design | `_guides/llm-system-design-interview.md` | llm system design interview |
 | Business Intelligence | `_wiki/business-intelligence.md` | ai powered business intelligence, business intelligence |

@@ -203,7 +203,7 @@ Cypher-driven retrieval.
 At 42:42-47:10, she discusses trust and hallucination, plus verification limits
 and paper parsing. She also covers graph visualization, PageRank, and references.
 
-A strong [Graph RAG vs Vector RAG]({{ '/wiki/graph-rag-vs-vector-rag/' | relative_url }})
+A strong [Graph RAG vs Vector RAG]({{ '/comparisons/graph-rag-vs-vector-rag/' | relative_url }})
 portfolio project tests both retrieval paths against the same questions. It can
 show text similarity for passages and graph traversal for relationships. It
 should also show when the answer needs to say the evidence is insufficient.
@@ -264,6 +264,6 @@ These pages cover the concepts and project standards around RAG portfolio work.
 - [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }}) for deployment, latency, cost, observability, and model-risk context.
 - [RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }}) for deciding whether changing knowledge belongs in retrieval or model adaptation.
 - [Vector Databases]({{ '/wiki/vector-databases/' | relative_url }}) and [Embeddings]({{ '/wiki/embeddings/' | relative_url }}) for retrieval infrastructure choices.
-- [Graph RAG vs Vector RAG]({{ '/wiki/graph-rag-vs-vector-rag/' | relative_url }}) for projects where relationships matter as much as text similarity.
+- [Graph RAG vs Vector RAG]({{ '/comparisons/graph-rag-vs-vector-rag/' | relative_url }}) for projects where relationships matter as much as text similarity.
 - [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}) for the broader project-evidence standard.
 - [Career Transition]({{ '/wiki/career-transition/' | relative_url }}) and [Job Search]({{ '/wiki/job-search/' | relative_url }}) for turning the project into hiring evidence.

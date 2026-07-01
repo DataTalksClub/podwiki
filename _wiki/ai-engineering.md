@@ -117,7 +117,7 @@ For deeper retrieval and knowledge-system work, start with
 [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
 and [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}).
 Then compare [RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }})
-and [Graph RAG vs Vector RAG]({{ '/wiki/graph-rag-vs-vector-rag/' | relative_url }}).
+and [Graph RAG vs Vector RAG]({{ '/comparisons/graph-rag-vs-vector-rag/' | relative_url }}).
 Use retrieval when a product needs grounded, changing, or auditable knowledge.
 Then evaluate retrieval and generation together rather than treating the prompt
 as the whole system.

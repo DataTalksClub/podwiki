@@ -146,7 +146,7 @@ At 33:43 she connects knowledge graphs with LLM grounding and RAG. At 38:10 she
 contrasts text chunking, embeddings, vector databases, and graph semantics. At
 39:56 she discusses prompt templates and Cypher-driven retrieval. That evidence
 belongs near
-[Graph RAG vs Vector RAG]({{ '/wiki/graph-rag-vs-vector-rag/' | relative_url }}).
+[Graph RAG vs Vector RAG]({{ '/comparisons/graph-rag-vs-vector-rag/' | relative_url }}).
 
 Some domains need nearest-neighbor text chunks, while others need explicit
 relationships.
@@ -234,5 +234,5 @@ Use these pages for the adjacent concepts this page links through.
 - [Embeddings]({{ '/wiki/embeddings/' | relative_url }}) covers representation choices, and [Vector Databases]({{ '/wiki/vector-databases/' | relative_url }}) covers indexing choices.
 - [RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }}) separates changing knowledge from model behavior changes.
 - [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }}) covers the point where retrieval becomes one tool inside an action-oriented workflow.
-- [Graph RAG vs Vector RAG]({{ '/wiki/graph-rag-vs-vector-rag/' | relative_url }}) covers domains where explicit relationships matter as much as text similarity.
+- [Graph RAG vs Vector RAG]({{ '/comparisons/graph-rag-vs-vector-rag/' | relative_url }}) covers domains where explicit relationships matter as much as text similarity.
 - [LLM System Design Interview]({{ '/guides/llm-system-design-interview/' | relative_url }}) turns these RAG tradeoffs into an interview-ready design path.

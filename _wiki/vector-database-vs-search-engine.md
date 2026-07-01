@@ -33,8 +33,8 @@ he separates candidate retrieval from ranking at 12:45. He separates vector
 storage from vector compute at 27:21-33:13 and adds hybrid constraints at
 34:00-45:11.
 
-Use [Knowledge Graph vs Vector Search]({{ '/wiki/knowledge-graph-vs-vector-search/' | relative_url }})
-or [Graph RAG vs Vector RAG]({{ '/wiki/graph-rag-vs-vector-rag/' | relative_url }})
+Use [Knowledge Graph vs Vector Search]({{ '/comparisons/knowledge-graph-vs-vector-search/' | relative_url }})
+or [Graph RAG vs Vector RAG]({{ '/comparisons/graph-rag-vs-vector-rag/' | relative_url }})
 when the hard part is explicit relationships. They fit cases where similar
 documents, products, images, or chunks aren't enough.
 
@@ -119,7 +119,7 @@ retrieval boundary. In
 she contrasts chunks in a vector database with graph semantics around
 38:10-39:56. Her episode doesn't decide between search engines and vector
 databases directly. It shows when relationship-heavy retrieval may need a
-[knowledge graph]({{ '/wiki/knowledge-graph-vs-vector-search/' | relative_url }}) instead of
+[knowledge graph]({{ '/comparisons/knowledge-graph-vs-vector-search/' | relative_url }}) instead of
 only nearest-neighbor chunks.
 
 ## Retrieval and Ranking
@@ -262,6 +262,6 @@ Use these pages for neighboring retrieval, RAG, and evaluation topics.
 - [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
 - [RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }})
 - [Production Search Evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }})
-- [Knowledge Graph vs Vector Search]({{ '/wiki/knowledge-graph-vs-vector-search/' | relative_url }})
-- [Graph RAG vs Vector RAG]({{ '/wiki/graph-rag-vs-vector-rag/' | relative_url }})
+- [Knowledge Graph vs Vector Search]({{ '/comparisons/knowledge-graph-vs-vector-search/' | relative_url }})
+- [Graph RAG vs Vector RAG]({{ '/comparisons/graph-rag-vs-vector-rag/' | relative_url }})
 - [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})

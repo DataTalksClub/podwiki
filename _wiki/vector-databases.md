@@ -77,7 +77,7 @@ structured-knowledge contrast in
 [Knowledge Graphs and LLMs for Automotive R&D]({{ '/podcasts/knowledge-graphs-and-llms-for-automotive-rnd/' | relative_url }}).
 At 38:10 she contrasts text chunking, embeddings, vector databases, and
 knowledge graph semantics. Her point matters for
-[Knowledge Graph vs Vector Search]({{ '/wiki/knowledge-graph-vs-vector-search/' | relative_url }}):
+[Knowledge Graph vs Vector Search]({{ '/comparisons/knowledge-graph-vs-vector-search/' | relative_url }}):
 nearest-neighbor retrieval finds similar chunks, while a graph can preserve
 explicit relationships and typed paths.
 
@@ -119,7 +119,7 @@ Anahita's 33:43 and 39:56 chapters in
 [Knowledge Graphs and LLMs for Automotive R&D]({{ '/podcasts/knowledge-graphs-and-llms-for-automotive-rnd/' | relative_url }})
 show a different RAG design. She combines LLM grounding with knowledge graphs
 and Cypher-driven retrieval. This makes
-[Graph RAG vs Vector RAG]({{ '/wiki/graph-rag-vs-vector-rag/' | relative_url }})
+[Graph RAG vs Vector RAG]({{ '/comparisons/graph-rag-vs-vector-rag/' | relative_url }})
 a separate design choice, not just a tooling preference.
 
 ## Production Search
@@ -196,4 +196,4 @@ Use these pages for the adjacent retrieval, search, and LLM topics.
 - [Information Retrieval]({{ '/wiki/information-retrieval/' | relative_url }})
 - [Production Search Evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }})
 - [Vector Database vs Search Engine]({{ '/wiki/vector-database-vs-search-engine/' | relative_url }})
-- [Knowledge Graph vs Vector Search]({{ '/wiki/knowledge-graph-vs-vector-search/' | relative_url }})
+- [Knowledge Graph vs Vector Search]({{ '/comparisons/knowledge-graph-vs-vector-search/' | relative_url }})

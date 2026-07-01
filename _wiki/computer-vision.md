@@ -166,7 +166,7 @@ Teams also account for recency, popularity, and business metrics.
 This connects computer vision to
 [vector databases]({{ '/wiki/vector-databases/' | relative_url }}). It also
 connects vision work to
-[knowledge graph vs vector search]({{ '/wiki/knowledge-graph-vs-vector-search/' | relative_url }})
+[knowledge graph vs vector search]({{ '/comparisons/knowledge-graph-vs-vector-search/' | relative_url }})
 and
 [production search evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }}).
 

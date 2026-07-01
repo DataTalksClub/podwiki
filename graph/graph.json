@@ -1,17 +1,17 @@
 {
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
-    "wikis": 181,
-    "articles": 43,
+    "wikis": 179,
+    "articles": 45,
     "guides": 19,
-    "comparisons": 13,
+    "comparisons": 15,
     "roadmaps": 9,
     "how_tos": 2,
     "podcasts": 202,
     "persons": 438,
     "topics": 145,
     "nodes": 1009,
-    "links": 10552
+    "links": 10550
   },
   "nodes": [
     {
@@ -257,6 +257,17 @@
       "keyword": "etl vs elt"
     },
     {
+      "id": "article:comparison:graph-rag-vs-vector-rag",
+      "type": "article",
+      "collection": "comparison",
+      "label": "Graph RAG vs Vector RAG",
+      "title": "Graph RAG vs Vector RAG",
+      "url": "/comparisons/graph-rag-vs-vector-rag/",
+      "count": 1,
+      "search": "Graph RAG vs Vector RAG How the podcast archive compares graph driven retrieval with vector driven retrieval for grounded LLM systems.",
+      "keyword": "graph rag vs vector rag"
+    },
+    {
       "id": "article:roadmap:how-to-become-a-data-engineer-with-no-experience",
       "type": "article",
       "collection": "roadmap",
@@ -288,6 +299,17 @@
       "count": 1,
       "search": "How to Hire Data Engineers: Role Scope, Interview Signals, and Team Fit A podcast backed guide for managers and founders who need to hire data engineers: when to hire, which profile to hire first, how to write the role, and what to test in interviews.",
       "keyword": "hire data engineers"
+    },
+    {
+      "id": "article:comparison:knowledge-graph-vs-vector-search",
+      "type": "article",
+      "collection": "comparison",
+      "label": "Knowledge Graph vs Vector Search",
+      "title": "Knowledge Graph vs Vector Search",
+      "url": "/comparisons/knowledge-graph-vs-vector-search/",
+      "count": 1,
+      "search": "Knowledge Graph vs Vector Search How DataTalks.Club podcast guests compare explicit graph relationships with embedding based retrieval for search, RAG, and domain knowledge systems.",
+      "keyword": "knowledge graph vs vector search"
     },
     {
       "id": "article:roadmap:llm-rag-production-roadmap",
@@ -9193,16 +9215,6 @@
       "search": "Governance Archive backed bridge for governance across data, ML, and AI: ownership, access, review, release controls, compliance, and accountability."
     },
     {
-      "id": "wiki:graph-rag-vs-vector-rag",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "Graph RAG vs Vector RAG",
-      "title": "Graph RAG vs Vector RAG",
-      "url": "/wiki/graph-rag-vs-vector-rag/",
-      "count": 1,
-      "search": "Graph RAG vs Vector RAG How the podcast archive compares graph driven retrieval with vector driven retrieval for grounded LLM systems."
-    },
-    {
       "id": "wiki:hiring",
       "type": "wiki",
       "collection": "wiki",
@@ -9251,16 +9263,6 @@
       "url": "/wiki/job-search/",
       "count": 1,
       "search": "Job Search Archive backed tactics for data and AI job search: role targeting, CVs, portfolios, networking, interviews, salary, and red flags."
-    },
-    {
-      "id": "wiki:knowledge-graph-vs-vector-search",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "Knowledge Graph vs Vector Search",
-      "title": "Knowledge Graph vs Vector Search",
-      "url": "/wiki/knowledge-graph-vs-vector-search/",
-      "count": 1,
-      "search": "Knowledge Graph vs Vector Search How DataTalks.Club podcast guests compare explicit graph relationships with embedding based retrieval for search, RAG, and domain knowledge systems."
     },
     {
       "id": "wiki:leadership",
@@ -11470,6 +11472,276 @@
       "weight": 5
     },
     {
+      "source": "article:comparison:graph-rag-vs-vector-rag",
+      "target": "article:comparison:knowledge-graph-vs-vector-search",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:comparison:graph-rag-vs-vector-rag",
+      "target": "person:anahitapakiman",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:graph-rag-vs-vector-rag",
+      "target": "person:atitaarora",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:graph-rag-vs-vector-rag",
+      "target": "podcast:building-production-search-systems",
+      "kind": "article-link",
+      "weight": 8
+    },
+    {
+      "source": "article:comparison:graph-rag-vs-vector-rag",
+      "target": "podcast:knowledge-graphs-and-llms-for-automotive-rnd",
+      "kind": "article-link",
+      "weight": 14
+    },
+    {
+      "source": "article:comparison:graph-rag-vs-vector-rag",
+      "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
+      "kind": "article-link",
+      "weight": 10
+    },
+    {
+      "source": "article:comparison:graph-rag-vs-vector-rag",
+      "target": "wiki:embeddings",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:comparison:graph-rag-vs-vector-rag",
+      "target": "wiki:embeddings",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:graph-rag-vs-vector-rag",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:graph-rag-vs-vector-rag",
+      "target": "wiki:rag",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:graph-rag-vs-vector-rag",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:graph-rag-vs-vector-rag",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:graph-rag-vs-vector-rag",
+      "target": "wiki:search-and-rag-project-checklist",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:graph-rag-vs-vector-rag",
+      "target": "wiki:search-rag-and-knowledge-systems",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:graph-rag-vs-vector-rag",
+      "target": "wiki:search-rag-and-knowledge-systems",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:graph-rag-vs-vector-rag",
+      "target": "wiki:vector-databases",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:comparison:graph-rag-vs-vector-rag",
+      "target": "wiki:vector-databases",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "article:comparison:graph-rag-vs-vector-rag",
+      "kind": "article-link",
+      "weight": 8
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "person:anahitapakiman",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "person:atitaarora",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "person:danielsvonava",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "person:hugobowneanderson",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "person:meryemarik",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "person:ranjithakulkarni",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "podcast:building-production-search-systems",
+      "kind": "article-link",
+      "weight": 18
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "podcast:knowledge-graphs-and-llms-for-automotive-rnd",
+      "kind": "article-link",
+      "weight": 20
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
+      "kind": "article-link",
+      "weight": 14
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "podcast:practical-llm-engineering-and-rag",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "wiki:agent-engineering",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "wiki:embeddings",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "wiki:embeddings",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "wiki:information-retrieval",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "wiki:llm-evaluation-workflows",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "wiki:production-search-evaluation",
+      "kind": "article-link",
+      "weight": 6
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "wiki:search",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "wiki:search",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "wiki:search-rag-and-knowledge-systems",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "wiki:search-rag-and-knowledge-systems",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "wiki:vector-database-vs-search-engine",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "wiki:vector-databases",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:knowledge-graph-vs-vector-search",
+      "target": "wiki:vector-databases",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
       "source": "article:comparison:machine-learning-engineer-vs-data-scientist",
       "target": "person:arsenykravchenko",
       "kind": "article-link",
@@ -12497,6 +12769,24 @@
     },
     {
       "source": "article:comparison:rag-vs-fine-tuning",
+      "target": "article:comparison:graph-rag-vs-vector-rag",
+      "kind": "article-link",
+      "weight": 4
+    },
+    {
+      "source": "article:comparison:rag-vs-fine-tuning",
+      "target": "article:comparison:graph-rag-vs-vector-rag",
+      "kind": "article-wiki",
+      "weight": 5
+    },
+    {
+      "source": "article:comparison:rag-vs-fine-tuning",
+      "target": "article:comparison:knowledge-graph-vs-vector-search",
+      "kind": "article-link",
+      "weight": 2
+    },
+    {
+      "source": "article:comparison:rag-vs-fine-tuning",
       "target": "person:anahitapakiman",
       "kind": "article-link",
       "weight": 2
@@ -12576,24 +12866,6 @@
     {
       "source": "article:comparison:rag-vs-fine-tuning",
       "target": "wiki:evaluation",
-      "kind": "article-link",
-      "weight": 2
-    },
-    {
-      "source": "article:comparison:rag-vs-fine-tuning",
-      "target": "wiki:graph-rag-vs-vector-rag",
-      "kind": "article-link",
-      "weight": 4
-    },
-    {
-      "source": "article:comparison:rag-vs-fine-tuning",
-      "target": "wiki:graph-rag-vs-vector-rag",
-      "kind": "article-wiki",
-      "weight": 5
-    },
-    {
-      "source": "article:comparison:rag-vs-fine-tuning",
-      "target": "wiki:knowledge-graph-vs-vector-search",
       "kind": "article-link",
       "weight": 2
     },
@@ -36827,6 +37099,12 @@
     },
     {
       "source": "wiki:ai-engineering",
+      "target": "article:comparison:graph-rag-vs-vector-rag",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:ai-engineering",
       "target": "article:guide:llm-tools",
       "kind": "wiki-link",
       "weight": 2
@@ -36990,12 +37268,6 @@
     {
       "source": "wiki:ai-engineering",
       "target": "wiki:evaluation",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:ai-engineering",
-      "target": "wiki:graph-rag-vs-vector-rag",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -41837,6 +42109,12 @@
     },
     {
       "source": "wiki:computer-vision",
+      "target": "article:comparison:knowledge-graph-vs-vector-search",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:computer-vision",
       "target": "person:aishwaryajadhav",
       "kind": "wiki-link",
       "weight": 6
@@ -41960,12 +42238,6 @@
       "target": "wiki:embeddings",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:computer-vision",
-      "target": "wiki:knowledge-graph-vs-vector-search",
-      "kind": "wiki-link",
-      "weight": 2
     },
     {
       "source": "wiki:computer-vision",
@@ -55888,114 +56160,6 @@
       "weight": 4
     },
     {
-      "source": "wiki:graph-rag-vs-vector-rag",
-      "target": "person:anahitapakiman",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:graph-rag-vs-vector-rag",
-      "target": "person:atitaarora",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:graph-rag-vs-vector-rag",
-      "target": "podcast:knowledge-graphs-and-llms-for-automotive-rnd",
-      "kind": "wiki-link",
-      "weight": 12
-    },
-    {
-      "source": "wiki:graph-rag-vs-vector-rag",
-      "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
-      "kind": "wiki-link",
-      "weight": 8
-    },
-    {
-      "source": "wiki:graph-rag-vs-vector-rag",
-      "target": "podcast:production-ml-search-vector-search-embeddings-hybrid-search",
-      "kind": "wiki-link",
-      "weight": 8
-    },
-    {
-      "source": "wiki:graph-rag-vs-vector-rag",
-      "target": "wiki:embeddings",
-      "kind": "wiki-link",
-      "weight": 6
-    },
-    {
-      "source": "wiki:graph-rag-vs-vector-rag",
-      "target": "wiki:embeddings",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:graph-rag-vs-vector-rag",
-      "target": "wiki:knowledge-graph-vs-vector-search",
-      "kind": "wiki-link",
-      "weight": 6
-    },
-    {
-      "source": "wiki:graph-rag-vs-vector-rag",
-      "target": "wiki:knowledge-graph-vs-vector-search",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:graph-rag-vs-vector-rag",
-      "target": "wiki:llm-evaluation-workflows",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:graph-rag-vs-vector-rag",
-      "target": "wiki:rag",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:graph-rag-vs-vector-rag",
-      "target": "wiki:retrieval-augmented-generation",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:graph-rag-vs-vector-rag",
-      "target": "wiki:retrieval-augmented-generation",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:graph-rag-vs-vector-rag",
-      "target": "wiki:search-and-rag-project-checklist",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:graph-rag-vs-vector-rag",
-      "target": "wiki:search-rag-and-knowledge-systems",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:graph-rag-vs-vector-rag",
-      "target": "wiki:search-rag-and-knowledge-systems",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:graph-rag-vs-vector-rag",
-      "target": "wiki:vector-databases",
-      "kind": "wiki-link",
-      "weight": 6
-    },
-    {
-      "source": "wiki:graph-rag-vs-vector-rag",
-      "target": "wiki:vector-databases",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
       "source": "wiki:hiring",
       "target": "article:comparison:mlops-vs-dataops",
       "kind": "wiki-link",
@@ -56900,180 +57064,6 @@
       "target": "wiki:open-source-portfolio-evidence",
       "kind": "wiki-link",
       "weight": 2
-    },
-    {
-      "source": "wiki:knowledge-graph-vs-vector-search",
-      "target": "person:anahitapakiman",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:knowledge-graph-vs-vector-search",
-      "target": "person:atitaarora",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:knowledge-graph-vs-vector-search",
-      "target": "person:hugobowneanderson",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:knowledge-graph-vs-vector-search",
-      "target": "person:meryemarik",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:knowledge-graph-vs-vector-search",
-      "target": "person:ranjithakulkarni",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:knowledge-graph-vs-vector-search",
-      "target": "person:reemmahmoud",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:knowledge-graph-vs-vector-search",
-      "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:knowledge-graph-vs-vector-search",
-      "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:knowledge-graph-vs-vector-search",
-      "target": "podcast:knowledge-graphs-and-llms-for-automotive-rnd",
-      "kind": "wiki-link",
-      "weight": 20
-    },
-    {
-      "source": "wiki:knowledge-graph-vs-vector-search",
-      "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
-      "kind": "wiki-link",
-      "weight": 14
-    },
-    {
-      "source": "wiki:knowledge-graph-vs-vector-search",
-      "target": "podcast:practical-llm-engineering-and-rag",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:knowledge-graph-vs-vector-search",
-      "target": "podcast:production-ml-search-vector-search-embeddings-hybrid-search",
-      "kind": "wiki-link",
-      "weight": 18
-    },
-    {
-      "source": "wiki:knowledge-graph-vs-vector-search",
-      "target": "wiki:agent-engineering",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:knowledge-graph-vs-vector-search",
-      "target": "wiki:embeddings",
-      "kind": "wiki-link",
-      "weight": 6
-    },
-    {
-      "source": "wiki:knowledge-graph-vs-vector-search",
-      "target": "wiki:embeddings",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:knowledge-graph-vs-vector-search",
-      "target": "wiki:graph-rag-vs-vector-rag",
-      "kind": "wiki-link",
-      "weight": 8
-    },
-    {
-      "source": "wiki:knowledge-graph-vs-vector-search",
-      "target": "wiki:graph-rag-vs-vector-rag",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:knowledge-graph-vs-vector-search",
-      "target": "wiki:information-retrieval",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:knowledge-graph-vs-vector-search",
-      "target": "wiki:llm-evaluation-workflows",
-      "kind": "wiki-link",
-      "weight": 6
-    },
-    {
-      "source": "wiki:knowledge-graph-vs-vector-search",
-      "target": "wiki:production-search-evaluation",
-      "kind": "wiki-link",
-      "weight": 6
-    },
-    {
-      "source": "wiki:knowledge-graph-vs-vector-search",
-      "target": "wiki:retrieval-augmented-generation",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:knowledge-graph-vs-vector-search",
-      "target": "wiki:retrieval-augmented-generation",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:knowledge-graph-vs-vector-search",
-      "target": "wiki:search",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:knowledge-graph-vs-vector-search",
-      "target": "wiki:search",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:knowledge-graph-vs-vector-search",
-      "target": "wiki:search-rag-and-knowledge-systems",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:knowledge-graph-vs-vector-search",
-      "target": "wiki:search-rag-and-knowledge-systems",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:knowledge-graph-vs-vector-search",
-      "target": "wiki:vector-database-vs-search-engine",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:knowledge-graph-vs-vector-search",
-      "target": "wiki:vector-databases",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:knowledge-graph-vs-vector-search",
-      "target": "wiki:vector-databases",
-      "kind": "wiki-related",
-      "weight": 3
     },
     {
       "source": "wiki:leadership",
@@ -67115,6 +67105,18 @@
     },
     {
       "source": "wiki:rag",
+      "target": "article:comparison:graph-rag-vs-vector-rag",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:rag",
+      "target": "article:comparison:knowledge-graph-vs-vector-search",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:rag",
       "target": "article:guide:llm-system-design-interview",
       "kind": "wiki-link",
       "weight": 2
@@ -67223,19 +67225,7 @@
     },
     {
       "source": "wiki:rag",
-      "target": "wiki:graph-rag-vs-vector-rag",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:rag",
       "target": "wiki:information-retrieval",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:rag",
-      "target": "wiki:knowledge-graph-vs-vector-search",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -67328,6 +67318,12 @@
       "target": "wiki:vector-databases",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:rag-portfolio-projects",
+      "target": "article:comparison:graph-rag-vs-vector-rag",
+      "kind": "wiki-link",
+      "weight": 4
     },
     {
       "source": "wiki:rag-portfolio-projects",
@@ -67463,12 +67459,6 @@
     },
     {
       "source": "wiki:rag-portfolio-projects",
-      "target": "wiki:graph-rag-vs-vector-rag",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:rag-portfolio-projects",
       "target": "wiki:information-retrieval",
       "kind": "wiki-link",
       "weight": 2
@@ -67562,6 +67552,18 @@
       "target": "wiki:vector-databases",
       "kind": "wiki-link",
       "weight": 4
+    },
+    {
+      "source": "wiki:rag-vs-fine-tuning",
+      "target": "article:comparison:graph-rag-vs-vector-rag",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:rag-vs-fine-tuning",
+      "target": "article:comparison:knowledge-graph-vs-vector-search",
+      "kind": "wiki-link",
+      "weight": 6
     },
     {
       "source": "wiki:rag-vs-fine-tuning",
@@ -67673,21 +67675,9 @@
     },
     {
       "source": "wiki:rag-vs-fine-tuning",
-      "target": "wiki:graph-rag-vs-vector-rag",
-      "kind": "wiki-link",
-      "weight": 6
-    },
-    {
-      "source": "wiki:rag-vs-fine-tuning",
       "target": "wiki:information-retrieval",
       "kind": "wiki-link",
       "weight": 2
-    },
-    {
-      "source": "wiki:rag-vs-fine-tuning",
-      "target": "wiki:knowledge-graph-vs-vector-search",
-      "kind": "wiki-link",
-      "weight": 6
     },
     {
       "source": "wiki:rag-vs-fine-tuning",
@@ -68375,6 +68365,12 @@
     },
     {
       "source": "wiki:retrieval-augmented-generation",
+      "target": "article:comparison:graph-rag-vs-vector-rag",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:retrieval-augmented-generation",
       "target": "article:guide:llm-system-design-interview",
       "kind": "wiki-link",
       "weight": 2
@@ -68480,12 +68476,6 @@
       "target": "wiki:embeddings",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:retrieval-augmented-generation",
-      "target": "wiki:graph-rag-vs-vector-rag",
-      "kind": "wiki-link",
-      "weight": 4
     },
     {
       "source": "wiki:retrieval-augmented-generation",
@@ -69101,6 +69091,12 @@
     },
     {
       "source": "wiki:search",
+      "target": "article:comparison:knowledge-graph-vs-vector-search",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:search",
       "target": "person:atitaarora",
       "kind": "wiki-link",
       "weight": 2
@@ -69150,12 +69146,6 @@
     {
       "source": "wiki:search",
       "target": "wiki:information-retrieval",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:search",
-      "target": "wiki:knowledge-graph-vs-vector-search",
       "kind": "wiki-link",
       "weight": 2
     },
@@ -69251,6 +69241,24 @@
     },
     {
       "source": "wiki:search-and-rag-project-checklist",
+      "target": "article:comparison:graph-rag-vs-vector-rag",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:search-and-rag-project-checklist",
+      "target": "article:comparison:graph-rag-vs-vector-rag",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:search-and-rag-project-checklist",
+      "target": "article:comparison:knowledge-graph-vs-vector-search",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:search-and-rag-project-checklist",
       "target": "person:anahitapakiman",
       "kind": "wiki-link",
       "weight": 2
@@ -69341,27 +69349,9 @@
     },
     {
       "source": "wiki:search-and-rag-project-checklist",
-      "target": "wiki:graph-rag-vs-vector-rag",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:search-and-rag-project-checklist",
-      "target": "wiki:graph-rag-vs-vector-rag",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:search-and-rag-project-checklist",
       "target": "wiki:information-retrieval",
       "kind": "wiki-link",
       "weight": 4
-    },
-    {
-      "source": "wiki:search-and-rag-project-checklist",
-      "target": "wiki:knowledge-graph-vs-vector-search",
-      "kind": "wiki-link",
-      "weight": 2
     },
     {
       "source": "wiki:search-and-rag-project-checklist",
@@ -69444,6 +69434,24 @@
     {
       "source": "wiki:search-and-rag-project-checklist",
       "target": "wiki:vector-databases",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:search-rag-and-knowledge-systems",
+      "target": "article:comparison:graph-rag-vs-vector-rag",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:search-rag-and-knowledge-systems",
+      "target": "article:comparison:knowledge-graph-vs-vector-search",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:search-rag-and-knowledge-systems",
+      "target": "article:comparison:knowledge-graph-vs-vector-search",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -69551,27 +69559,9 @@
     },
     {
       "source": "wiki:search-rag-and-knowledge-systems",
-      "target": "wiki:graph-rag-vs-vector-rag",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:search-rag-and-knowledge-systems",
       "target": "wiki:information-retrieval",
       "kind": "wiki-link",
       "weight": 6
-    },
-    {
-      "source": "wiki:search-rag-and-knowledge-systems",
-      "target": "wiki:knowledge-graph-vs-vector-search",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:search-rag-and-knowledge-systems",
-      "target": "wiki:knowledge-graph-vs-vector-search",
-      "kind": "wiki-related",
-      "weight": 3
     },
     {
       "source": "wiki:search-rag-and-knowledge-systems",
@@ -73013,6 +73003,18 @@
     },
     {
       "source": "wiki:vector-database-vs-search-engine",
+      "target": "article:comparison:graph-rag-vs-vector-rag",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:vector-database-vs-search-engine",
+      "target": "article:comparison:knowledge-graph-vs-vector-search",
+      "kind": "wiki-link",
+      "weight": 6
+    },
+    {
+      "source": "wiki:vector-database-vs-search-engine",
       "target": "person:anahitapakiman",
       "kind": "wiki-link",
       "weight": 2
@@ -73073,21 +73075,9 @@
     },
     {
       "source": "wiki:vector-database-vs-search-engine",
-      "target": "wiki:graph-rag-vs-vector-rag",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:vector-database-vs-search-engine",
       "target": "wiki:information-retrieval",
       "kind": "wiki-link",
       "weight": 2
-    },
-    {
-      "source": "wiki:vector-database-vs-search-engine",
-      "target": "wiki:knowledge-graph-vs-vector-search",
-      "kind": "wiki-link",
-      "weight": 6
     },
     {
       "source": "wiki:vector-database-vs-search-engine",
@@ -73169,6 +73159,18 @@
     },
     {
       "source": "wiki:vector-databases",
+      "target": "article:comparison:graph-rag-vs-vector-rag",
+      "kind": "wiki-link",
+      "weight": 2
+    },
+    {
+      "source": "wiki:vector-databases",
+      "target": "article:comparison:knowledge-graph-vs-vector-search",
+      "kind": "wiki-link",
+      "weight": 4
+    },
+    {
+      "source": "wiki:vector-databases",
       "target": "person:anahitapakiman",
       "kind": "wiki-link",
       "weight": 2
@@ -73229,19 +73231,7 @@
     },
     {
       "source": "wiki:vector-databases",
-      "target": "wiki:graph-rag-vs-vector-rag",
-      "kind": "wiki-link",
-      "weight": 2
-    },
-    {
-      "source": "wiki:vector-databases",
       "target": "wiki:information-retrieval",
-      "kind": "wiki-link",
-      "weight": 4
-    },
-    {
-      "source": "wiki:vector-databases",
-      "target": "wiki:knowledge-graph-vs-vector-search",
       "kind": "wiki-link",
       "weight": 4
     },

@@ -176,8 +176,8 @@ order, parent-child links, simulation relationships, and domain semantics.
 Anahita also warns at 42:42 that LLM-extracted graph knowledge still needs
 verification, so teams still have to construct and validate the graph.
 
-Use [Graph RAG vs Vector RAG]({{ '/wiki/graph-rag-vs-vector-rag/' | relative_url }})
-and [Knowledge Graph vs Vector Search]({{ '/wiki/knowledge-graph-vs-vector-search/' | relative_url }})
+Use [Graph RAG vs Vector RAG]({{ '/comparisons/graph-rag-vs-vector-rag/' | relative_url }})
+and [Knowledge Graph vs Vector Search]({{ '/comparisons/knowledge-graph-vs-vector-search/' | relative_url }})
 when the model may need similar passages or structured relationships. Those
 pages also cover designs that use both.
 

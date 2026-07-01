@@ -253,30 +253,27 @@ Existing pages:
 - `_comparisons/dataops-vs-data-engineering.md`
 - `_comparisons/delta-lake-vs-apache-iceberg.md`
 - `_comparisons/etl-vs-elt.md`
-- `_comparisons/knowledge-graph-vs-vector-search.md` redirects to the canonical
-  wiki page.
+- `_comparisons/graph-rag-vs-vector-rag.md`
+- `_comparisons/knowledge-graph-vs-vector-search.md`
 - `_comparisons/machine-learning-engineer-vs-data-scientist.md`
 - `_comparisons/mlops-vs-dataops.md`
 - `_comparisons/mlops-vs-devops.md`
 - `_comparisons/product-owner-vs-product-manager.md`
 - `_comparisons/rag-vs-fine-tuning.md`
-- `_wiki/batch-vs-streaming.md` owns the canonical batch vs streaming decision.
-- `_wiki/data-warehouse-vs-data-lakehouse.md` owns the canonical warehouse vs
-  lakehouse decision.
-- `_wiki/data-mesh-vs-centralized-data-platform.md` owns the canonical data mesh
-  vs centralized platform decision unless a separate editorial comparison is
-  needed.
-- `_wiki/vector-database-vs-search-engine.md` owns the canonical vector database
-  vs search engine decision unless a separate editorial comparison is needed.
-- `_wiki/knowledge-graph-vs-vector-search.md` owns the canonical knowledge graph
-  vs vector search decision unless a separate editorial comparison is needed.
 
 Candidate pages:
 
-- Improve existing comparison pages as new interviews add evidence. Keep
-  `_comparisons/data-engineer-vs-data-scientist.md` as the short
-  decision-oriented page for the exact role query, and keep
-  `_wiki/data-engineer-vs-data-scientist.md` as the canonical reference page.
+- Improve existing comparison pages as new interviews add evidence.
+- Move remaining real comparison pages from `_wiki/` to `_comparisons/`, update
+  internal links to the comparison URLs, and leave wiki redirects where the old
+  URLs have been exposed.
+- Remaining migration candidates: `_wiki/batch-vs-streaming.md`,
+  `_wiki/data-warehouse-vs-data-lakehouse.md`,
+  `_wiki/data-mesh-vs-centralized-data-platform.md`, and
+  `_wiki/vector-database-vs-search-engine.md`.
+- Keep `_comparisons/data-engineer-vs-data-scientist.md` as the canonical
+  comparison page. Put role and concept material in `_wiki/data-engineer-role.md`
+  and `_wiki/data-scientist-role.md`, not in a duplicate wiki comparison page.
 
 Source hints:
 
@@ -306,9 +303,8 @@ Start with this batch when expanding the content set.
   source contribution, and LLM/RAG production as the archive grows.
 - Improve the existing comparison pages for data analyst vs analytics engineer
   and RAG vs fine-tuning when new podcast evidence appears.
-- Keep batch vs streaming and data warehouse vs data lakehouse as wiki-owned
-  decision pages unless a new keyword brief requires a very short editorial
-  page that points back to the canonical wiki page.
+- Continue migrating real `X vs Y` decision pages into `_comparisons/`; batch
+  vs streaming and data warehouse vs data lakehouse are still pending.
 - Viable audited follow-up: data analyst to analytics engineer as an
   analyst-specific roadmap page.
 - Keep `dataops platforms` on `_wiki/dataops-platforms.md`. It links to

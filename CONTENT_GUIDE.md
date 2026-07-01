@@ -147,7 +147,13 @@ about the thing. For example, `A/B Testing` belongs in `_wiki/a-b-testing.md`,
 while a role or product guide should link to that page when it uses experiments
 as evidence.
 
-If an editorial page duplicates a canonical wiki page, keep the canonical topic
+`X vs Y` pages are different. They are comparison and decision pages, so their
+canonical public URL belongs in `_comparisons/`, even when the old page started
+as a wiki page. Link the comparison back to both underlying wiki topic hubs
+where those concepts exist. If an old wiki URL has been exposed, keep it as a
+`layout: redirect` page that points to the comparison URL.
+
+If an editorial page duplicates a bare concept page, keep the canonical topic
 in `_wiki/` and turn the duplicate into a redirect with `layout: redirect` and
 `redirect_to:`. Redirect pages should not appear in search, graph, audits, or
 collection indexes.

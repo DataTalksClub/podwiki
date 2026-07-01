@@ -74,7 +74,7 @@ workflows that need actions and planning.
 
 [Daniel Svonava]({{ '/people/danielsvonava/' | relative_url }}) starts from
 production search. In
-[Production ML Search]({{ '/podcasts/building-production-search-systems/' | relative_url }}),
+[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}),
 he separates candidate retrieval from ranking at 12:45 and explains embeddings
 at 21:55. At 34:00, he covers hybrid search with filters and recency.
 
@@ -143,9 +143,9 @@ Some projects need more than nearest-neighbor text retrieval. In
 knowledge graphs with LLM grounding at 33:43. At 38:10, she contrasts text
 chunking and embeddings with graph semantics.
 
-Use [Graph RAG vs Vector RAG]({{ '/wiki/graph-rag-vs-vector-rag/' | relative_url }})
+Use [Graph RAG vs Vector RAG]({{ '/comparisons/graph-rag-vs-vector-rag/' | relative_url }})
 or
-[Knowledge Graph vs Vector Search]({{ '/wiki/knowledge-graph-vs-vector-search/' | relative_url }})
+[Knowledge Graph vs Vector Search]({{ '/comparisons/knowledge-graph-vs-vector-search/' | relative_url }})
 when questions depend on explicit relationships, provenance paths, entities, or
 domain semantics.
 
@@ -159,7 +159,7 @@ Use these pages to follow the retrieval and evaluation concepts.
 - [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }})
 - [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
 - [RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }})
-- [Graph RAG vs Vector RAG]({{ '/wiki/graph-rag-vs-vector-rag/' | relative_url }})
+- [Graph RAG vs Vector RAG]({{ '/comparisons/graph-rag-vs-vector-rag/' | relative_url }})
 - [Vector Databases]({{ '/wiki/vector-databases/' | relative_url }})
 - [Embeddings]({{ '/wiki/embeddings/' | relative_url }})
 - [Information Retrieval]({{ '/wiki/information-retrieval/' | relative_url }})
