@@ -11,9 +11,9 @@ related:
 LLM evaluation workflows are the repeatable checks teams use before they ship
 prompts, [[retrieval-augmented-generation|RAG]] pipelines,
 [[agent-engineering|agents]], and AI product
-behavior. DataTalks.Club guests treat evaluation as engineering work. Teams
-collect examples, define pass criteria, and review failures. They feed
-production behavior back into the next test set.
+behavior. Evaluation is engineering work: teams collect examples, define pass
+criteria, and review failures, then feed production behavior back into the next
+test set.
 
 LLM evaluation connects [[Evaluation]]
 with [[LLM Production Patterns]],
@@ -31,52 +31,44 @@ representative examples, define what a good answer or action looks like, and
 run the system. They look at failures and keep the eval set fresh as the
 product changes.
 
-[[person:hugobowneanderson|Hugo Bowne-Anderson]]
-anchors the builder version in
-[[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]].
-At 13:56, he describes generator-evaluator checks. At 23:00-25:25, he argues
-for representative gold tests that are still cheap enough to run often. Teams
-can eyeball early outputs, but reliable software eventually needs examples that
-cover real user tasks, expected formats, and known failure modes.
+Generator-evaluator checks are one approach; representative gold tests should
+still be cheap enough to run often. Teams can eyeball early outputs, but
+reliable software eventually needs examples that cover real user tasks, expected
+formats, and known failure modes
+([[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]).
 
-[[person:pauliusztin|Paul Iusztin]] puts the same work
-inside the AI engineer skill stack in
-[[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products|his AI engineering episode]].
-At 38:41-41:39, evaluation appears with human review and correctness
-measurement. Paul also uses validation sets, data splits, and statistics. [[person:nasserqadri|Nasser Qadri]]
-keeps that rigor in
-[[podcast:s23e07-understanding-ai-engineer-role|Understanding the AI Engineer Role]]
-at 7:45-7:55. Precision, recall, accuracy, and careful measurement still matter
-even when the product uses generative models or agents.
+The same work sits inside the AI engineer skill stack, where evaluation appears
+with human review and correctness measurement, alongside validation sets, data
+splits, and statistics
+([[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products|AI Engineering Skill Stack]]).
+Precision, recall, accuracy, and careful measurement still matter even when the
+product uses generative models or agents
+([[podcast:s23e07-understanding-ai-engineer-role|Understanding the AI Engineer Role]]).
 
 Large eval sets slow iteration because every prompt, retrieval change, or model
-change becomes more expensive to check. Hugo's 24:18-25:25 discussion in
-[[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]
-therefore treats size as a cost and coverage tradeoff. The set should be large
-enough to avoid overfitting to a few examples, but small enough that teams
-actually run it. Use
+change becomes more expensive to check. Set size is a cost and coverage
+tradeoff: large enough to avoid overfitting to a few examples, but small enough
+that teams actually run it
+([[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]).
+Use
 [[rag-vs-fine-tuning|RAG vs Fine-Tuning]] when the
 eval result is deciding whether to change prompts and retrieval or change model
 behavior through fine-tuning.
 
 ## Cheap Checks Before LLM Judges
 
-Guests differ most on what should judge the system and where to spend money.
-Hugo's
-[[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]
-discussion at 24:39-24:59 is cost-aware. Simple assertions, structured output,
-regular expressions, and string matching can be enough when the expected
-behavior is easy to check. Cheaper models and spreadsheets can also keep
-iteration affordable. Save LLM-as-judge calls for cases where deterministic
-checks are too brittle.
+Practitioners differ most on what should judge the system and where to spend
+money. A cost-aware approach uses simple assertions, structured output, regular
+expressions, and string matching when the expected behavior is easy to check.
+Cheaper models and spreadsheets can also keep iteration affordable. Save
+LLM-as-judge calls for cases where deterministic checks are too brittle
+([[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]).
 
-[[person:adityagautam|Aditya Gautam]] is more explicit
-about LLM judges in enterprise agent settings. In
-[[podcast:s23e03-future-of-ai-agents|The Future of AI Agents]],
-he describes golden datasets, pass thresholds, and LLM judges trained against
-human labels at 46:19-50:18. Red teaming and guardrails appear in the same
-discussion. He also warns that judges can be biased, so teams must validate the
-judge instead of treating it as an oracle.
+In enterprise agent settings, LLM judges are more explicit: golden datasets,
+pass thresholds, and LLM judges trained against human labels, with red teaming
+and guardrails in the same workflow
+([[podcast:s23e03-future-of-ai-agents|The Future of AI Agents]]). Judges can be
+biased, so teams must validate the judge instead of treating it as an oracle.
 
 ## Human Review and Failure Analysis
 
@@ -85,43 +77,36 @@ Common failure types include unsupported answers, missing citations, and wrong
 tone. Unsafe advice, stale knowledge, broken formatting, and tool misuse also
 belong in the taxonomy.
 
-Hugo's spreadsheet-style failure
-analysis at 26:43-27:20 in
-[[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]
-shows how teams can categorize failures and rank the largest error classes.
-They avoid spending engineering time on minor formatting if the major problem is
-retrieval quality. This keeps [[Testing]]
-and [[Evaluation]] close together:
-tests catch repeatable failures, while review discovers which failures matter.
+Spreadsheet-style failure analysis lets teams categorize failures and rank the
+largest error classes, so they avoid spending engineering time on minor
+formatting when the major problem is retrieval quality
+([[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]).
+This keeps [[Testing]] and [[Evaluation]] close together: tests catch repeatable
+failures, while review discovers which failures matter.
 
 Teams use automated checks to make that review repeatable. Deterministic checks
 can validate JSON schema, exact fields, and required citations. They can also
 check forbidden strings, SQL syntax, tool parameters, and regular expressions.
 
-Other checks need semantic judgment. Aditya's
-[[podcast:s23e03-future-of-ai-agents|Future of AI Agents]]
-discussion at 46:19-48:11 shows the LLM-judge version, but it also implies a
-second eval problem. Teams must compare automated judgments against human labels
-and watch for judge bias.
+Other checks need semantic judgment. The LLM-judge version raises a second eval
+problem: teams must compare automated judgments against human labels and watch
+for judge bias
+([[podcast:s23e03-future-of-ai-agents|The Future of AI Agents]]).
 
 ## RAG Evaluation
 
 RAG evaluation has to separate retrieval failures from generation failures. A
 bad answer can come from missing source documents, poor chunking, or weak
 embeddings. It can also come from loose metadata filters, stale indexes, prompt
-wording, or a model that ignores the retrieved evidence. Hugo's
-failure-analysis example at
-26:43-27:20 in
-[[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]
-asks where the next fix belongs before adding more architecture.
+wording, or a model that ignores the retrieved evidence. Failure analysis asks
+where the next fix belongs before adding more architecture
+([[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]).
 
-[[person:atitaarora|Atita Arora]] gives the search-side
-version in
-[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]].
-At 38:24-48:09, she connects chunk size, overlap, and embedding choice.
+The search-side version connects chunk size, overlap, and embedding choice.
 Retrieval strategy, answer quality, and citations belong in the same evaluation
-workflow. Human-in-the-loop evaluation belongs there too. LLM eval is therefore
-part of
+workflow, as does human-in-the-loop evaluation
+([[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]]).
+LLM eval is therefore part of
 [[retrieval-augmented-generation|Retrieval-Augmented Generation]]
 and [[Production Search Evaluation]],
 not only model scoring.
@@ -134,48 +119,44 @@ generation.
 
 ## Agent and Tool Evaluation
 
-Agent evaluation adds software behavior to answer quality. [[person:ranjithakulkarni|Ranjitha Kulkarni]]
-says public benchmarks such as SQuAD evaluate model capability, not the deployed
-system
-([[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]],
-51:17-51:42). Teams therefore need custom datasets that represent user goals,
-tool constraints, and product workflows.
+Agent evaluation adds software behavior to answer quality. Public benchmarks
+such as SQuAD evaluate model capability, not the deployed system
+([[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]).
+Teams therefore need custom datasets that represent user goals, tool
+constraints, and product workflows.
 
-Her agent testing workflow is close to ordinary
+Agent testing is close to ordinary
 [[testing]] and
-[[orchestration]]. Mock external
+[[orchestration]]: mock external
 tools, assert outputs, check tool names and parameters, and keep integration
-tests for the real systems. At 56:02-57:23 in
-[[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]],
-the calendar-agent example shows why outcome assertions matter more than exact
-trace matching. Several valid action paths can create the same correct invite.
+tests for the real systems. A calendar-agent example shows why outcome
+assertions matter more than exact trace matching, since several valid action
+paths can create the same correct invite
+([[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]).
 
 ## Production Feedback and Traces
 
-Offline eval sets decay unless production behavior feeds them. Aditya describes
-explicit feedback, such as thumbs up or thumbs down. He also describes implicit
-feedback, such as a user repeating or reframing a query after a bad answer
-([[podcast:s23e03-future-of-ai-agents|The Future of AI Agents]],
-38:49-42:20). Those signals can become synthetic data, human labeling work, or
-new gold cases. They can also lead to updated prompts, fine-tuning examples, or
-new guardrail tests.
+Offline eval sets decay unless production behavior feeds them. Explicit feedback
+includes thumbs up or thumbs down; implicit feedback includes a user repeating
+or reframing a query after a bad answer
+([[podcast:s23e03-future-of-ai-agents|The Future of AI Agents]]). Those signals
+can become synthetic data, human labeling work, or new gold cases, and can lead
+to updated prompts, fine-tuning examples, or new guardrail tests.
 
-Production feedback also needs traces. Hugo discusses logs and traces at 27:38
-in
-[[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]].
-The team has to reconstruct whether the wrong output came from retrieval or
-context packaging. The problem can also come from tool use or generation. This
-puts LLM evaluation next to [[Model Monitoring]]
+Production feedback also needs traces. Logs and traces let the team reconstruct
+whether the wrong output came from retrieval, context packaging, tool use, or
+generation
+([[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]).
+This puts LLM evaluation next to [[Model Monitoring]]
 and [[LLM Production Patterns]]
 instead of leaving it as an offline score.
 
 ## Governance and Guardrails
 
-High-risk LLM workflows need more than accuracy checks. Aditya's enterprise
-agent discussion at 30:00-32:27 in
-[[podcast:s23e03-future-of-ai-agents|The Future of AI Agents]]
-adds logging, auditability, data lineage, and guardrails. Compliance also
-matters for sensitive settings such as healthcare and finance. Evaluation in
+High-risk LLM workflows need more than accuracy checks. Enterprise agents add
+logging, auditability, data lineage, and guardrails, and compliance matters for
+sensitive settings such as healthcare and finance
+([[podcast:s23e03-future-of-ai-agents|The Future of AI Agents]]). Evaluation in
 those settings belongs with
 [[Responsible AI and Governance]].
 

@@ -22,20 +22,17 @@ They also include [[rag-vs-fine-tuning|RAG vs fine-tuning]],
 evaluation, and security. Cost, latency, and ownership stay part of the same
 production question.
 
-DataTalks.Club guests repeatedly treat the LLM as a product component, not the
-whole system.
-[[person:meryemarik|Meryem Arik]] ties LLM production
-to deployment and model ownership in
-[[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]].
-She also discusses fine-tuning, retrieval, cost, and latency there. In
-[[business intelligence]],
-the model can help with questions and summaries. The product still depends on
-governed metrics, access controls, and review.
+An LLM is a product component, not the whole system. In production it ties to
+deployment and model ownership alongside fine-tuning, retrieval, cost, and
+latency
+([[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]]).
+In [[business intelligence]],
+the model can help with questions and summaries, but the product still depends
+on governed metrics, access controls, and review.
 
-[[person:hugobowneanderson|Hugo Bowne-Anderson]]
-turns the same production problem into prompts, RAG, and gold tests in
-[[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]].
-He adds failure analysis, logs, traces, and tool use in the same episode.
+The same production problem breaks down into prompts, RAG, and gold tests, plus
+failure analysis, logs, traces, and tool use
+([[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]]).
 
 ## Production System Boundary
 

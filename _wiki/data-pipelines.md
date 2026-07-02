@@ -12,23 +12,21 @@ related:
 ---
 
 Data pipelines move data from source systems into forms that people, products,
-and models can use. DataTalks.Club guests treat that as more than a
-scheduled job. A pipeline extracts or receives data and stores enough raw
-history to recover. It also transforms data into modeled outputs and publishes
-them. The team then needs a way to test, observe, and rerun the work.
+and models can use. A pipeline is more than a scheduled job: it extracts or
+receives data and stores enough raw history to recover, transforms data into
+modeled outputs and publishes them, and gives the team a way to test, observe,
+and rerun the work.
 
-[[person:nataliekwong|Natalie Kwong]] gives the modern
-analytics version in
-[[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and Modern Data Engineering]].
-She separates extraction and loading from warehouse-side transformation. She
-then connects that approach to data marts and data lakes. Orchestration,
-[[CDC]], and reverse data flows sit around
-those storage choices.
+The modern analytics version separates extraction and loading from warehouse-side
+transformation, then connects that approach to data marts and data lakes.
+Orchestration, [[CDC]], and reverse data flows
+sit around those storage choices
+([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and Modern Data Engineering]]).
 
-[[person:santonatuli|Santona Tuli]] expands the same map in
-[[podcast:modern-data-pipelines-orchestration-ingestion-modeling|Modern Data Pipeline Architecture]]:
-ingestion and orchestration come before modeling. Transformation, analytics
-outputs, and production ML handoffs belong in the same conversation.
+The same map extends further: ingestion and orchestration come before modeling,
+and transformation, analytics outputs, and production ML handoffs belong in the
+same conversation
+([[podcast:modern-data-pipelines-orchestration-ingestion-modeling|Modern Data Pipeline Architecture]]).
 
 This topic covers pipeline design. Use
 [[ETL vs ELT]] for the transformation
@@ -52,14 +50,12 @@ A useful data pipeline has three responsibilities.
   feature set, search index, model input, or API-facing output. It may also
   sync the result back into an operational system.
 
-DataTalks.Club guests repeat the same warning: publication is part of the
-pipeline. A table that loads successfully but breaks a dashboard, model, or
-business workflow is still a pipeline failure. [[person:barrmoses|Barr Moses]]
-makes that reliability point in
-[[podcast:data-quality-data-observability-data-reliability|Data Observability Explained]]:
-at 21:57, the discussion separates a successful engineering job from useful
-data. Teams use freshness, volume, and distribution to see whether the output
-still works. They also use schema and lineage for downstream impact.
+Publication is part of the pipeline. A table that loads successfully but breaks
+a dashboard, model, or business workflow is still a pipeline failure. A
+successful engineering job is not the same as useful data: teams use freshness,
+volume, and distribution to see whether the output still works, and schema and
+lineage for downstream impact
+([[podcast:data-quality-data-observability-data-reliability|Data Observability Explained]]).
 
 That definition also explains why pipeline work touches several roles.
 Analytics engineers may own dbt models and marts. Data engineers may own
@@ -74,39 +70,35 @@ The modeled layer represents business entities and facts, plus dimensions and
 metrics. It also represents features. Serving outputs feed marts and dashboards.
 They can also feed feature tables, indexes, APIs, or reverse ETL syncs.
 
-[[person:jeffkatz|Jeff Katz]] keeps the beginner
-version grounded in Python and SQL in
-[[podcast:get-data-engineering-job-prep-and-interview|Data Engineering Job Prep and Interview Guide]]
-around 1:20-2:22. He also names Docker, Airflow, and data warehouses. The
-tools matter because a pipeline has to be readable, testable, and maintainable
-by another engineer.
+The beginner version stays grounded in Python and SQL, plus Docker, Airflow, and
+data warehouses
+([[podcast:get-data-engineering-job-prep-and-interview|Data Engineering Job Prep and Interview Guide]]).
+The tools matter because a pipeline has to be readable, testable, and
+maintainable by another engineer.
 
 ## Ingestion and Change Capture
 
 Ingestion starts the pipeline, but it doesn't decide the whole architecture.
-Kwong's Airbyte discussion places extraction and loading before warehouse-side
-transformation. Teams can keep raw data close to the destination. They can move
-business logic into SQL models when that fits the organization
-([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and Modern Data Engineering]],
-3:46-18:47).
+Extraction and loading can come before warehouse-side transformation: teams keep
+raw data close to the destination and move business logic into SQL models when
+that fits the organization
+([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and Modern Data Engineering]]).
 
 The same episode also shows why teams can't treat ingestion as an afterthought:
 raw storage needs guardrails. Warehouses and lakes have different strengths,
 and schema evolution changes downstream assumptions.
 
 [[CDC]] is one ingestion technique, not a
-separate pipeline type. At 45:59, Kwong defines it as capturing changed rows
-instead of copying the whole source table again. The first load gives the
-destination a baseline. Later syncs move inserts, updates, and deletes so the
-destination stays current without rewriting everything
-([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and Modern Data Engineering]],
-45:59-49:32).
+separate pipeline type. It captures changed rows instead of copying the whole
+source table again: the first load gives the destination a baseline, and later
+syncs move inserts, updates, and deletes so the destination stays current
+without rewriting everything
+([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and Modern Data Engineering]]).
 
-Santona Tuli adds deduplication, ordering guarantees, and PII masking close to
-ingestion. Those checks protect later
-models and marts from source-system noise
-([[podcast:modern-data-pipelines-orchestration-ingestion-modeling|Modern Data Pipeline Architecture]],
-37:10-39:23). This is where pipeline design crosses into governance. If the
+Deduplication, ordering guarantees, and PII masking sit close to ingestion.
+Those checks protect later models and marts from source-system noise
+([[podcast:modern-data-pipelines-orchestration-ingestion-modeling|Modern Data Pipeline Architecture]]).
+This is where pipeline design crosses into governance. If the
 source sends duplicate or out-of-order records, the transformation layer may
 still run, but the output may no longer represent the business event correctly.
 
@@ -114,42 +106,39 @@ still run, but the output may no longer represent the business event correctly.
 
 Transformation turns stored data into outputs downstream consumers can
 understand. In analytics pipelines, that often means SQL models and joins.
-It can also mean type conversions, business metrics, and marts. Kwong uses
-customer acquisition cost and warehouse transformations to explain why ELT can
-give analysts more autonomy. That works when the raw data is already in the
-warehouse
-([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and Modern Data Engineering]],
-6:37-12:39).
+It can also mean type conversions, business metrics, and marts. Customer
+acquisition cost and warehouse transformations show why ELT can give analysts
+more autonomy once the raw data is already in the warehouse
+([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and Modern Data Engineering]]).
 
-Tuli frames modeling as the point where engineers translate entities,
-relationships, foreign keys, and business questions into outputs. Her
-discussion moves from ingestion into modeled marts and dashboards. It then
-moves into ML-specific feature engineering, training, and serving
-([[podcast:modern-data-pipelines-orchestration-ingestion-modeling|Modern Data Pipeline Architecture]],
-39:23-47:57). That progression matters because the same upstream data can feed
-different publication paths.
+Modeling is the point where engineers translate entities, relationships, foreign
+keys, and business questions into outputs. The work moves from ingestion into
+modeled marts and dashboards, then into ML-specific feature engineering,
+training, and serving
+([[podcast:modern-data-pipelines-orchestration-ingestion-modeling|Modern Data Pipeline Architecture]]).
+That progression matters because the same upstream data can feed different
+publication paths.
 
 A dashboard may need one freshness target. A feature store or model-training
 job may need a different structure and auditability level.
 
 For ML and AI systems, transformation includes feature engineering and
-production handoffs. [[person:angelaramirez|Angela Ramirez]]
-shows the fraud-prevention version in
-[[podcast:building-and-scaling-data-engineering-systems-for-fraud-detection|Data Engineering for Fraud Prevention]].
-Daily jobs compute stable fraud features, while live transaction signals feed
-real-time decisions at checkout. That hybrid design appears around 8:24 and
-34:46. Use [[Batch vs Streaming]]
+production handoffs. In a fraud-prevention pipeline, daily jobs compute stable
+fraud features while live transaction signals feed real-time decisions at
+checkout
+([[podcast:building-and-scaling-data-engineering-systems-for-fraud-detection|Data Engineering for Fraud Prevention]]).
+Use [[Batch vs Streaming]]
 for the latency decision and
 [[mlops-architecture|ML pipelines]] for the
 larger model lifecycle.
 
 ## Orchestration and Publication
 
-Orchestration coordinates pipeline work after the steps are clear. Kwong places
-Airflow at the scheduling layer beside Airbyte-style ingestion and dbt-style
+Orchestration coordinates pipeline work after the steps are clear. Airflow sits
+at the scheduling layer beside Airbyte-style ingestion and dbt-style
 transformation
-([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and Modern Data Engineering]],
-30:59-33:45). Airflow can run a connector sync and trigger transformations. It
+([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and Modern Data Engineering]]).
+Airflow can run a connector sync and trigger transformations. It
 can also sequence checks, but it shouldn't hide the business logic inside a
 tangle of tasks. The pipeline remains easier to review when ingestion,
 transformation, checks, and publication each have an explicit role.
@@ -159,21 +148,20 @@ For a local Airflow project, DataTalks.Club's
 keeps the scheduler, UI, and metadata database visible. It also keeps the DAG
 folder and logs visible.
 
-[[person:andreaskretz|Andreas Kretz]] gives a
-production pipeline anatomy in
-[[podcast:production-ml-pipelines-with-aws-and-kafka|From Notebooks to Production]]
-at 13:25. His sequence starts with ingestion and buffering. It then moves to
-transforms, storage, and visualization. He also discusses SQL or dataframe
-transforms, Airflow or simpler schedulers, and model-serving options. His
-practical advice around 41:06 is to start simple and add Airflow, Kubernetes,
-or heavier infrastructure when the dependencies justify it.
+A production pipeline anatomy starts with ingestion and buffering, then moves to
+transforms, storage, and visualization, covering SQL or dataframe transforms,
+Airflow or simpler schedulers, and model-serving options
+([[podcast:production-ml-pipelines-with-aws-and-kafka|From Notebooks to Production]]).
+The practical advice is to start simple and add Airflow, Kubernetes, or heavier
+infrastructure when the dependencies justify it.
 
 Publication closes the pipeline, whether the output is a warehouse table, mart,
 or dashboard. It can also be a model artifact, feature set, prediction API, or
 reverse data flow back into an operational system.
-Kwong's reverse data flow discussion around 35:42 shows that the pipeline may
-not end inside the warehouse. It may send modeled data back to business tools
-when sales, marketing, or operations teams need it.
+Reverse data flows show that the pipeline may not end inside the warehouse: it
+may send modeled data back to business tools when sales, marketing, or
+operations teams need it
+([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and Modern Data Engineering]]).
 
 ## Testing, Recovery, and Observability
 

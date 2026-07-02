@@ -20,23 +20,22 @@ predict an error. The model has to fit an
 where wafers and tools define part of the context. Quals, engineers, and
 production staff define the operating constraints.
 
-[[person:dashelruizperez|Dashel Ruiz Perez]] describes
-this from semiconductor production work at Microchip in
-[[podcast:from-semiconductor-data-to-applied-machine-learning|From Semiconductor Data to Applied Machine Learning]].
-His example starts on the fab floor and moves through yield analytics and
-[[data engineering]]. It ends
-with a practical boundary. A prediction is useful only if supervisors and
-engineers can understand it and act on it in
+This pattern comes from semiconductor production work at Microchip
+([[person:dashelruizperez|Dashel Ruiz Perez]],
+[[podcast:from-semiconductor-data-to-applied-machine-learning|From Semiconductor Data to Applied Machine Learning]]).
+The example starts on the fab floor and moves through yield analytics and
+[[data engineering]] to a practical boundary. A prediction is useful only if
+supervisors and engineers can understand it and act on it in
 [[production]]
 ([[podcast:from-semiconductor-data-to-applied-machine-learning|4:49-5:49, 18:07-20:40, 23:29-29:06, 37:29-43:38]]).
 
 ## Fab Telemetry
 
-Dashel's semiconductor example begins with physical tool behavior rather than a
-modeling technique. He explains that chip processes run in large fab tools.
-Engineers look at tool log files when they run experiments or diagnose issues.
-Those logs include tool identity and process steps. They also record pressure,
-gas amounts, and other details at millisecond resolution.
+The semiconductor example begins with physical tool behavior rather than a
+modeling technique. Chip processes run in large fab tools, and engineers look at
+tool log files when they run experiments or diagnose issues. Those logs include
+tool identity and process steps. They also record pressure, gas amounts, and
+other details at millisecond resolution.
 
 That creates far more data than a technician can comfortably review by hand
 ([[podcast:from-semiconductor-data-to-applied-machine-learning|8:49-11:06]]).
@@ -52,45 +51,42 @@ more context for interpreting the logs, not just access to files
 
 ## Yield Analytics
 
-Yield analytics in Dashel's account depended on getting cross-area data into a
-usable format. In his yield role, he cleaned production data with Python and
-put it into an Oracle database. He also wrote small PL/SQL applications so his
-supervisor could access the results. He describes yield work as needing a
-whole-fab view of failures, passes, source areas, and production contacts who
-could answer follow-up questions
+Yield analytics depended on getting cross-area data into a usable format. The
+yield role involved cleaning production data with Python and loading it into an
+Oracle database, plus writing small PL/SQL applications so a supervisor could
+access the results. Yield work needs a whole-fab view of failures, passes,
+source areas, and production contacts who could answer follow-up questions
 ([[podcast:from-semiconductor-data-to-applied-machine-learning|18:07-20:40]]).
 
 The work is close to [[data engineering]]
 inside a manufacturing process. A single clean training table wasn't the main
-asset. Dashel needed to know where data lived and how tools mapped to fab
-areas. He also had to make answers reachable for the people requesting them.
+asset; knowing where data lived, how tools mapped to fab areas, and how to make
+answers reachable for the people requesting them mattered more.
 
-He says that production roles, technician roles, and engineering work let him
-know where to go. Those roles also taught him whom to ask when a yield request
-arrived
+Production roles, technician roles, and engineering work teach where to go and
+whom to ask when a yield request arrives
 ([[podcast:from-semiconductor-data-to-applied-machine-learning|19:11-20:40]]).
 
 ## Wafers at Risk
 
-Dashel asked whether a fab could estimate when a tool should be checked. The
-fab needed to act before the normal schedule allowed too many wafers to be
-exposed to risk. Tools had weekly, biweekly, or monthly qualification checks
-called quals. Dashel questioned whether the schedule should depend on the
-number of wafers processed rather than elapsed time
+A fab can estimate when a tool should be checked, acting before the normal
+schedule allows too many wafers to be exposed to risk. Tools had weekly,
+biweekly, or monthly qualification checks called quals. The open question was
+whether the schedule should depend on the number of wafers processed rather than
+elapsed time
 ([[podcast:from-semiconductor-data-to-applied-machine-learning|21:39-23:29]]).
 
-His "wafers at risk" project counted wafer process steps across the production
-database for the whole fab, then calculated risk by tool and area. Once he had
-those counts, he wanted to project how many wafers would be at risk if the fab
-kept running at the current pace. A useful forecast could tell engineers to run
-quals earlier, for example after ten days instead of fifteen, reducing waste and
-improving yield
+A "wafers at risk" project counted wafer process steps across the production
+database for the whole fab, then calculated risk by tool and area. Those counts
+project how many wafers would be at risk if the fab kept running at the current
+pace. A useful forecast could tell engineers to run quals earlier, for example
+after ten days instead of fifteen, reducing waste and improving yield
 ([[podcast:from-semiconductor-data-to-applied-machine-learning|23:29-25:16]]).
 
-Dashel's later description shows the decision target. The goal wasn't an
-abstract accuracy score, but a way to tell engineers that a tool might have a
-probable issue within a window. They could then monitor the tool and plan a
-check between roughly three and twelve days if measurements stayed in range
+The decision target wasn't an abstract accuracy score, but a way to tell
+engineers that a tool might have a probable issue within a window. They could
+then monitor the tool and plan a check between roughly three and twelve days if
+measurements stayed in range
 ([[podcast:from-semiconductor-data-to-applied-machine-learning|27:55-29:06]]).
 Use [[model monitoring]] for the
 broader production work where teams keep watching model inputs, predictions,
@@ -98,30 +94,29 @@ and business outcomes after deployment.
 
 ## Explainability
 
-The manufacturing constraint in Dashel's story is that a better number isn't
-enough. He remembers running algorithms such as Bayesian methods and random
-forests. After tweaks, accuracy moved from around 65% to around 85%. He still
-couldn't use the result because he couldn't explain the steps to his supervisor
+The manufacturing constraint is that a better number isn't enough. Algorithms
+such as Bayesian methods and random forests moved accuracy from around 65% to
+around 85% after tweaks, but the result still couldn't be used because the steps
+couldn't be explained to a supervisor
 ([[podcast:from-semiconductor-data-to-applied-machine-learning|25:16-26:08]]).
 
 In a fab, practical [[interpretability]]
 supports maintenance or yield decisions. The explanation needs to cover the
 tool, the window, the risk level, and the action an engineer should take.
-Dashel's answer was to keep learning analytics and ML so he could make better
-predictions. They also needed to be explainable enough for the people
+Predictions need to be both better and explainable enough for the people
 responsible for the tools
 ([[podcast:from-semiconductor-data-to-applied-machine-learning|25:35-28:33]]).
 
 ## Production Use
 
-In the same episode, Dashel contrasts notebook results with systems other
-people can use. His examples include Flask and REST APIs. They also include
-simple authentication, cloud deployment, and containers.
+Notebook results contrast with systems other people can use, built with tools
+such as Flask and REST APIs, simple authentication, cloud deployment, and
+containers
+([[podcast:from-semiconductor-data-to-applied-machine-learning|From Semiconductor Data to Applied Machine Learning]]).
 
 Access mattered because someone should be able to send data and get a result.
-He ties this back to Microchip by recalling that his supervisor didn't only care
-that a prediction existed. The supervisor needed to know how to get the data and
-result
+At Microchip, the supervisor didn't only care that a prediction existed; they
+needed to know how to get the data and result
 ([[podcast:from-semiconductor-data-to-applied-machine-learning|37:29-43:38]]).
 
 For manufacturing predictive maintenance, the path from telemetry to impact
@@ -132,16 +127,16 @@ context for a choice. They can run a qual, watch a tool or wait because
 processing has stopped
 ([[podcast:from-semiconductor-data-to-applied-machine-learning|18:38-20:40, 23:29-29:06, 41:08-43:38]]).
 
-[[person:rosonaeldred|Rosona]] extends these patterns to
-chemical and coating production in
-[[podcast:industrial-data-small-data-production-machine-learning|Industrial Data and Small-Data Production ML]].
-She describes quality control as monitoring input-output ratios — one kilo in,
-one kilo out — and flagging anomalies that trigger a technician visit. Her
-discussion of packing-peanut and blue-paint production shows that predictive
-maintenance in process industries depends more on fixed sensor placement and
-batch traceability than on internet-scale data volume. The regulatory layer adds
-sustainability and compliance tracking, which can force reformulation using
-small historical experiment data.
+These patterns extend to chemical and coating production
+([[person:rosonaeldred|Rosona]],
+[[podcast:industrial-data-small-data-production-machine-learning|Industrial Data and Small-Data Production ML]]).
+Quality control here monitors input-output ratios — one kilo in, one kilo out —
+and flags anomalies that trigger a technician visit. Packing-peanut and
+blue-paint production show that predictive maintenance in process industries
+depends more on fixed sensor placement and batch traceability than on
+internet-scale data volume. The regulatory layer adds sustainability and
+compliance tracking, which can force reformulation using small historical
+experiment data.
 
 ## Related Pages
 

@@ -1,3 +1,6 @@
+RUSTKYLL_PYPI_VERSION ?= 0.5.1
+RUSTKYLL ?= $(if $(wildcard .bin/rustkyll),./.bin/rustkyll,uvx --no-config --from rustkyll==$(RUSTKYLL_PYPI_VERSION) rustkyll)
+
 .PHONY: help sources graph index lambda-package build serve links wiki-links duplicates content-audit keyword-gap clean check
 
 help:
@@ -22,11 +25,11 @@ lambda-package: index ## Prepare the minimal SAM CodeUri directory
 	python scripts/prepare_lambda_package.py
 
 build: ## Build the static site (uses committed graph/search data; run 'make graph' after source/content changes)
-	uvx rustkyll build
+	$(RUSTKYLL) build
 	python scripts/prune_sitemap.py
 
 serve: ## Serve the static site locally (uses committed graph/search data; run 'make graph' after source/content changes)
-	uvx rustkyll serve --no-watch
+	$(RUSTKYLL) serve --no-watch
 
 wiki-links: ## Fast source-level wiki link check (no build)
 	python scripts/check_wiki_links.py

@@ -26,15 +26,10 @@ governance]({{ '/wiki/data-governance/' | relative_url }}). The warehouse may
 hold the records, but a business still has to decide which rows describe the
 same outside reality.
 
-[[person:sonalgoyal|Sonal Goyal]] gives the clearest
-definition in
-[[podcast:building-open-source-data-product-for-identity-resolution|Building an Open-Source Identity Resolution Tool]].
-At [[podcast:building-open-source-data-product-for-identity-resolution|5:47]],
-she defines identity resolution as deciding whether several warehouse records
-refer to the same real-world customer. At
-[[podcast:building-open-source-data-product-for-identity-resolution|7:20]],
-she broadens the idea into entity resolution. The same matching problem can
-apply to employees, addresses, and locations.
+Identity resolution decides whether several warehouse records refer to the same
+real-world customer; broadened into entity resolution, the same matching problem
+applies to employees, addresses, and locations
+([[podcast:building-open-source-data-product-for-identity-resolution|Building an Open-Source Identity Resolution Tool]]).
 
 It can also apply to products or events. The same logic covers suppliers,
 healthcare providers, patients, and donors.
@@ -50,56 +45,47 @@ and [[data engineering tools]].
 
 ## Terminology and Boundaries
 
-[[person:sonalgoyal|Sonal Goyal]] uses a direct
-definition in the identity-resolution episode. Teams link records that refer to
-the same real-world entity, then decide how the business should consume that
-linked view.
+Teams link records that refer to the same real-world entity, then decide how the
+business should consume that linked view
+([[podcast:building-open-source-data-product-for-identity-resolution|Building an Open-Source Identity Resolution Tool]]).
 
-[[person:sonalgoyal|Sonal]] separates the technical
-linking problem from the downstream action. At
-[[podcast:building-open-source-data-product-for-identity-resolution|8:02]] in the
-[[podcast:building-open-source-data-product-for-identity-resolution|identity-resolution episode]],
-she says duplicate detection is part of the work, but deduplication is only one
-way to consume the result. A team may merge or purge duplicate records. It may
-also keep the linked records because a customer 360 or supplier 360 needs the
-full history.
+The technical linking problem is separate from the downstream action. Duplicate
+detection is part of the work, but deduplication is only one way to consume the
+result. A team may merge or purge duplicate records, or keep the linked records
+because a customer 360 or supplier 360 needs the full history
+([[podcast:building-open-source-data-product-for-identity-resolution|Building an Open-Source Identity Resolution Tool]]).
 
-She places record linkage and entity matching near the same problem family. She
-also includes entity disambiguation. At
-[[podcast:building-open-source-data-product-for-identity-resolution|13:38]],
-she describes those terms as flavors of the same broader task. Customer systems
-often say identity resolution. Classic data integration often says record
-linkage, while NLP-adjacent work may say entity disambiguation.
+Record linkage, entity matching, and entity disambiguation are flavors of the
+same broader task. Customer systems often say identity resolution, classic data
+integration often says record linkage, and NLP-adjacent work may say entity
+disambiguation
+([[podcast:building-open-source-data-product-for-identity-resolution|Building an Open-Source Identity Resolution Tool]]).
 
 The boundary with [customer data
 platforms]({{ '/wiki/customer-data-platforms/' | relative_url }}) is practical
-rather than absolute. In the [data-led growth
-episode](https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html),
-[[person:arpitchoudhury|Arpit Choudhury]] frames CDPs as
-bundled systems for tracking, segmenting, and activating customer data. Sonal
-says at
-[[podcast:building-open-source-data-product-for-identity-resolution|24:32]]
-that CDPs and master data management systems may include identity-resolution
-features. A dedicated entity-resolution tool can go deeper on large-scale
-matching, probabilistic models, and non-customer entities.
+rather than absolute. CDPs are bundled systems for tracking, segmenting, and
+activating customer data ([data-led growth
+episode](https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html)).
+CDPs and master data management systems may include identity-resolution
+features, but a dedicated entity-resolution tool can go deeper on large-scale
+matching, probabilistic models, and non-customer entities
+([[podcast:building-open-source-data-product-for-identity-resolution|Building an Open-Source Identity Resolution Tool]]).
 
 ## Entity and Identity Resolution
 
 Identity resolution is the customer- or person-centered version of entity
-resolution. Sonal's first example is a customer who appears five times in a
-warehouse because records arrived from offline channels and online stores.
-Surveys, ticketing systems, and other interactions add more versions
-([[podcast:building-open-source-data-product-for-identity-resolution|5:47]]).
+resolution. A customer may appear five times in a warehouse because records
+arrived from offline channels and online stores; surveys, ticketing systems, and
+other interactions add more versions
+([[podcast:building-open-source-data-product-for-identity-resolution|Building an Open-Source Identity Resolution Tool]]).
 If the company counts those rows as five customers, it distorts lifetime value
 and personalization. It can also distort anti-money-laundering and
 know-your-customer workflows.
 
-Entity resolution generalizes the same question beyond people. At
-[[podcast:building-open-source-data-product-for-identity-resolution|7:20]]
-and [[podcast:building-open-source-data-product-for-identity-resolution|11:09]],
-[[person:sonalgoyal|Sonal Goyal]] first names suppliers
-and vendors. She then adds products and B2B accounts. Locations, patients,
-donors, and healthcare providers appear in the same discussion.
+Entity resolution generalizes the same question beyond people: suppliers and
+vendors, products and B2B accounts, and locations, patients, donors, and
+healthcare providers
+([[podcast:building-open-source-data-product-for-identity-resolution|Building an Open-Source Identity Resolution Tool]]).
 
 Those examples matter because they turn the topic from a marketing-data problem
 into a broader [[data-products|data product]]
@@ -108,50 +94,45 @@ be as important as a trusted customer profile.
 
 The distinction also explains why deduplication is too narrow. Deduplication
 may create one clean row, while entity resolution may preserve multiple rows and
-add a resolved identity or cluster. Downstream systems can keep context instead
-of flattening it away. At
-[[podcast:building-open-source-data-product-for-identity-resolution|8:02]],
-Sonal uses customer 360 and supplier 360 as examples where linked records
-complete the story instead of disappearing into one canonical record.
+add a resolved identity or cluster, so downstream systems can keep context
+instead of flattening it away. Customer 360 and supplier 360 are examples where
+linked records complete the story instead of disappearing into one canonical
+record
+([[podcast:building-open-source-data-product-for-identity-resolution|Building an Open-Source Identity Resolution Tool]]).
 
 ## Matching, Blocking, and Scale
 
 Entity resolution becomes expensive when the system doesn't know which records
-to compare. [[person:sonalgoyal|Sonal Goyal]] describes
-the scaling problem at
-[[podcast:building-open-source-data-product-for-identity-resolution|14:35]]:
-an all-pairs comparison grows too fast. A few million records can become
-impractical. Useful tools avoid all-pairs comparison without missing likely
-matches.
+to compare. An all-pairs comparison grows too fast, and a few million records
+can become impractical, so useful tools avoid all-pairs comparison without
+missing likely matches
+([[podcast:building-open-source-data-product-for-identity-resolution|Building an Open-Source Identity Resolution Tool]]).
 
-Zingg combines model training with blocking and distributed execution. At
-[[podcast:building-open-source-data-product-for-identity-resolution|18:35]],
-Sonal explains that users label selected pairs as matches or non-matches. The
-tool then refines the model and runs it at larger scale. At
-[[podcast:building-open-source-data-product-for-identity-resolution|14:35]],
-she says the model learns how to create comparison buckets. The system then
-compares plausible candidates instead of every record against every other record.
+Zingg combines model training with blocking and distributed execution. Users
+label selected pairs as matches or non-matches; the tool then refines the model
+and runs it at larger scale. The model learns how to create comparison buckets,
+so the system compares plausible candidates instead of every record against
+every other record
+([[podcast:building-open-source-data-product-for-identity-resolution|Building an Open-Source Identity Resolution Tool]]).
 
-This is where entity resolution differs from a fuzzy join in an ETL tool. At
-[[podcast:building-open-source-data-product-for-identity-resolution|41:29]],
-Sonal says exact joins are fine when the identifier is trusted and consistent.
-When identifiers vary across systems, teams still need to decide thresholds and
-candidate generation. They also need to handle transitive matches and scale.
+This is where entity resolution differs from a fuzzy join in an ETL tool. Exact
+joins are fine when the identifier is trusted and consistent, but when
+identifiers vary across systems, teams still need to decide thresholds and
+candidate generation, and handle transitive matches and scale
+([[podcast:building-open-source-data-product-for-identity-resolution|Building an Open-Source Identity Resolution Tool]]).
 
-Names, addresses, emails, and KYC fields can all vary. At
-[[podcast:building-open-source-data-product-for-identity-resolution|49:39]],
-Sonal also describes the output as a graph of records that belong together.
-Teams can consume that output as a table or graph.
+Names, addresses, emails, and KYC fields can all vary. The output is a graph of
+records that belong together, and teams can consume it as a table or graph
+([[podcast:building-open-source-data-product-for-identity-resolution|Building an Open-Source Identity Resolution Tool]]).
 
 ## Modern Data Stack Fit
 
 Entity resolution often appears after teams have already solved ingestion and
-storage. At 4:51 in the
-[[podcast:building-open-source-data-product-for-identity-resolution|identity-resolution episode]],
-Sonal says modern data stack practices make extraction and transformation more
-standard. They also make warehouses and lakes more standard places to load
-data. Once data arrives in one place, teams start asking whether the people and
-products inside that data are real duplicates. They ask the same question about
+storage. Modern data stack practices make extraction and transformation more
+standard, and warehouses and lakes more standard places to load data
+([[podcast:building-open-source-data-product-for-identity-resolution|Building an Open-Source Identity Resolution Tool]]).
+Once data arrives in one place, teams start asking whether the people and
+products inside that data are real duplicates, and the same question about
 suppliers and accounts.
 
 This places entity resolution downstream of many [data engineering
@@ -164,40 +145,36 @@ linked entity can become an
 operational data product.
 
 The integration surface matters because entity resolution has to run inside
-the tools teams already use. At
-[[podcast:building-open-source-data-product-for-identity-resolution|18:35]]
-and [[podcast:building-open-source-data-product-for-identity-resolution|20:46]],
-Sonal describes Zingg using Spark distribution and building a Snowflake-native
-implementation. She also describes a Python interface plus integrations with
-Databricks notebooks and dbt. Those choices put entity resolution inside
-existing data pipelines rather than beside them as a separate manual cleanup
-project. That makes it a practical fit for
-[[how to build data pipelines]]
+the tools teams already use. Zingg uses Spark distribution and a Snowflake-native
+implementation, plus a Python interface and integrations with Databricks
+notebooks and dbt
+([[podcast:building-open-source-data-product-for-identity-resolution|Building an Open-Source Identity Resolution Tool]]).
+Those choices put entity resolution inside existing data pipelines rather than
+beside them as a separate manual cleanup project. That makes it a practical fit
+for [[how to build data pipelines]]
 when identity work becomes part of production pipeline design.
 
 ## Open Source Product Strategy
 
-Sonal's episode also treats entity resolution as a product and
+Entity resolution is also a product and
 [[open-source|open-source]] strategy. Zingg came
 from repeated consulting problems, then took about 18 months to reach a public
 release
-([[podcast:building-open-source-data-product-for-identity-resolution|23:00]]).
+([[podcast:building-open-source-data-product-for-identity-resolution|Building an Open-Source Identity Resolution Tool]]).
 The open-source choice was partly personal, but it was also a distribution
 decision.
 
-At [[podcast:building-open-source-data-product-for-identity-resolution|24:32]],
-Sonal says CDPs and master data management systems can be expensive and can
-include weaker forms of identity resolution. Open source made it possible for
-more companies to try a dedicated tool. At
-[[podcast:building-open-source-data-product-for-identity-resolution|25:25]]
-and [[podcast:building-open-source-data-product-for-identity-resolution|31:10]],
-she also says open source helped Zingg discover more use cases than direct sales
-alone would have found.
+CDPs and master data management systems can be expensive and can include weaker
+forms of identity resolution, so open source made it possible for more companies
+to try a dedicated tool. Open source also helped Zingg discover more use cases
+than direct sales alone would have found
+([[podcast:building-open-source-data-product-for-identity-resolution|Building an Open-Source Identity Resolution Tool]]).
 
-Around [[podcast:building-open-source-data-product-for-identity-resolution|27:00-31:10]],
-Sonal explains why Zingg used AGPL. Companies can use it internally or build
-solutions around it, but a provider can't simply repackage it as a closed SaaS
-without satisfying the license. Entity-resolution tooling therefore belongs in
+Zingg used AGPL: companies can use it internally or build solutions around it,
+but a provider can't simply repackage it as a closed SaaS without satisfying the
+license
+([[podcast:building-open-source-data-product-for-identity-resolution|Building an Open-Source Identity Resolution Tool]]).
+Entity-resolution tooling therefore belongs in
 broader [[open-source-portfolio-evidence|open-source portfolio evidence]]
 and [[startups]] discussions.
 
@@ -206,21 +183,18 @@ Integrations, license, and market validation matter too.
 
 ## Customer, Supplier, Fraud, and Public-Data Use Cases
 
-Customer and supplier 360 are the simplest use cases. At
-[[podcast:building-open-source-data-product-for-identity-resolution|5:47]]
-and [[podcast:building-open-source-data-product-for-identity-resolution|8:02]],
-Sonal uses customer records, lifetime value, and personalization to explain why
-a company needs to know which records belong together. She also names customer
-360 and supplier 360. The same logic applies when procurement and sales systems
-describe the same external party in different ways. Support, billing, and
-marketing systems can add more versions
-([[podcast:building-open-source-data-product-for-identity-resolution|39:11]]).
+Customer and supplier 360 are the simplest use cases. Customer records, lifetime
+value, and personalization explain why a company needs to know which records
+belong together, and the same logic applies when procurement and sales systems
+describe the same external party in different ways; support, billing, and
+marketing systems add more versions
+([[podcast:building-open-source-data-product-for-identity-resolution|Building an Open-Source Identity Resolution Tool]]).
 
-Fraud and compliance are higher-stakes versions of the same problem. At
-[[podcast:building-open-source-data-product-for-identity-resolution|46:08]],
-Sonal explains that people can create multiple accounts with slightly different
-names and addresses. They may also use different KYC identifiers. If the system
-treats them as separate people, teams misread the flow of money.
+Fraud and compliance are higher-stakes versions of the same problem. People can
+create multiple accounts with slightly different names and addresses, and use
+different KYC identifiers; if the system treats them as separate people, teams
+misread the flow of money
+([[podcast:building-open-source-data-product-for-identity-resolution|Building an Open-Source Identity Resolution Tool]]).
 
 Fraud and AML systems get a clearer graph to analyze when the identity layer
 resolves those accounts. The topic overlaps with [data quality and
@@ -228,17 +202,16 @@ observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 because matching errors can affect investigations, compliance work, and
 customer actions.
 
-The fraud discussion also shows why graph outputs matter. At
-[[podcast:building-open-source-data-product-for-identity-resolution|49:39]],
-Sonal says Zingg does pairwise matching, then uses graph algorithms to find the
-network of records that belong together. Fraud systems can lay transaction data
-over that resolved identity graph for downstream analysis.
+Graph outputs also matter here. Zingg does pairwise matching, then uses graph
+algorithms to find the network of records that belong together, and fraud
+systems can lay transaction data over that resolved identity graph for
+downstream analysis
+([[podcast:building-open-source-data-product-for-identity-resolution|Building an Open-Source Identity Resolution Tool]]).
 
-[[person:sonalgoyal|Sonal Goyal]]'s public-data example
-shows the non-enterprise side. At
-[[podcast:building-open-source-data-product-for-identity-resolution|52:23]],
-she describes North Carolina campaign donor and recipient data where donors and
-recipients appeared in different forms across historical and online records.
+A public-data example shows the non-enterprise side: North Carolina campaign
+donor and recipient data, where donors and recipients appeared in different
+forms across historical and online records
+([[podcast:building-open-source-data-product-for-identity-resolution|Building an Open-Source Identity Resolution Tool]]).
 Once the project resolved those entities, voters and analysts could more easily
 analyze spending and affiliations. The same mechanism that supports customer
 analytics can support public-interest data when the entities are donors or

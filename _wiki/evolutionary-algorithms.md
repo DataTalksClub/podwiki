@@ -10,73 +10,59 @@ related:
   - Evaluation
 ---
 
-In DataTalks.Club podcast discussions, evolutionary algorithms are search
-methods for trying many candidate solutions when the target can be scored but
-not directly derived. [[person:micheallanham|Micheal Lanham]]
-gives the strongest thread. His examples cover game AI, numerical optimization,
-and evolutionary deep learning. He also discusses prompt search and modern
+Evolutionary algorithms are search methods for trying many candidate solutions
+when the target can be scored but not directly derived. They span game AI,
+numerical optimization, evolutionary deep learning, prompt search, and modern
 [[agent-engineering|AI agents]]
-([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]],
-1:07-14:09).
+([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]]).
 
-Lanham places evolutionary algorithms near
+Evolutionary algorithms sit near
 [[machine learning]],
 [[deep learning]], and
 [[reinforcement learning]].
-The shared structure is search under feedback. Teams define a fitness signal,
-generate candidate solutions, and keep stronger candidates. They mutate or
-combine those candidates until the result converges or the compute budget runs
-out
-([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]],
-11:30-13:44).
+The shared structure is search under feedback: define a fitness signal, generate
+candidate solutions, keep stronger candidates, and mutate or combine them until
+the result converges or the compute budget runs out
+([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]]).
 
 ## Search Mechanics
 
-Lanham frames genetic algorithms as a type of evolutionary algorithm. The
-interview describes a population of candidates, a fitness function, a mutation
-function, and sometimes a pairing function for combining parents. Fitter
-candidates reproduce, random mutations create new variants, and the search
-continues until convergence or resource limits
-([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]],
-11:30-12:59).
+Genetic algorithms are a type of evolutionary algorithm, built from a population
+of candidates, a fitness function, a mutation function, and sometimes a pairing
+function for combining parents. Fitter candidates reproduce, random mutations
+create new variants, and the search continues until convergence or resource
+limits
+([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]]).
 
-The practical tradeoff is compute. Lanham says evolutionary algorithms became
-popular across many applications because they can explore many possible
-solutions with few hard constraints. He also calls them computationally
-intensive. Around 2006, he says, researchers treated them as a possible path to
-intelligence. Later [[deep learning]]
+The practical tradeoff is compute. Evolutionary algorithms became popular across
+many applications because they explore many possible solutions with few hard
+constraints, but they are computationally intensive. Around 2006 researchers
+treated them as a possible path to intelligence; later
+[[deep learning]]
 frameworks became dominant
-([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]],
-13:21-13:44).
+([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]]).
 
 ## Game AI and Industry Optimization
 
-Lanham starts with game-like environments rather than a generic algorithm
-catalog. In early academic work, his team built a game for testing children's
-executive function. They then used simple neural networks and evolutionary
-algorithms to create test sequences and analyze player data
-([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]],
-2:36-2:55).
+Game-like environments come before any generic algorithm catalog. Early academic
+work built a game for testing children's executive function, then used simple
+neural networks and evolutionary algorithms to create test sequences and analyze
+player data
+([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]]).
 
 The method belongs to a simulated interaction. The team can try candidate tests,
 collect behavior, and compare outcomes.
 
-The industrial example is more direct optimization. After oil-and-gas product
-work, Lanham returned to consulting and used evolutionary algorithms for
-numerical analysis related to pipeline corrosion. He says the methods could
-adapt faster and handle data efficiently in that setting. Their compute cost
-and weaker fit with the frameworks that boosted deep learning helped push them
-aside
-([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]],
-4:19-5:01).
+The industrial example is more direct optimization: after oil-and-gas product
+work, evolutionary algorithms handled numerical analysis related to pipeline
+corrosion, adapting faster and handling data efficiently. Their compute cost and
+weaker fit with the frameworks that boosted deep learning helped push them aside
+([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]]).
 
-[[person:marcellolarocca|Marcello La Rocca]] places
-evolutionary algorithms in a broader algorithms-and-optimization toolkit. In
-his algorithms episode, he covers graphs and evolutionary algorithms. For
-optimization, he names random sampling and gradient descent. He also names
-simulated annealing and genetic algorithms for permutation problems
-([[podcast:algorithms-data-structures-for-engineers|Practical Algorithms for Engineers]],
-25:04-26:19).
+A broader algorithms-and-optimization toolkit places evolutionary algorithms
+alongside graphs, and for optimization names random sampling, gradient descent,
+simulated annealing, and genetic algorithms for permutation problems
+([[podcast:algorithms-data-structures-for-engineers|Practical Algorithms for Engineers]]).
 
 The combined picture is narrow but useful: evolutionary algorithms aren't a
 replacement for mainstream
@@ -85,20 +71,19 @@ for cases where teams can score candidates and afford repeated trials.
 
 ## Evolutionary Deep Learning
 
-Lanham later wrote "Evolutionary Deep Learning," and he summarizes the idea in
-the episode as combining deep learning with evolutionary algorithms. The
-concrete uses he names are hyperparameter search and network architecture
-modification, especially for convolutional neural networks
-([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]],
-9:09-9:29). In the podcast discussion, evolutionary algorithms belong to model
-selection and architecture tuning rather than everyday supervised modeling.
+The book "Evolutionary Deep Learning" by
+[[person:micheallanham|Micheal Lanham]]
+combines deep learning with evolutionary algorithms, with concrete uses in
+hyperparameter search and network architecture modification, especially for
+convolutional neural networks
+([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]]).
+Evolutionary algorithms belong to model selection and architecture tuning rather
+than everyday supervised modeling.
 
-Lanham separates weight training from design search. A CNN learns from data,
-while an evolutionary method searches over architecture variants or
-hyperparameters. He says these approaches can work well, but he warns that
-they're computationally intensive
-([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]],
-9:09-9:29).
+Weight training is separate from design search: a CNN learns from data, while an
+evolutionary method searches over architecture variants or hyperparameters.
+These approaches can work well, but they are computationally intensive
+([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]]).
 
 That makes [[evaluation]]
 part of the design problem. Teams need baselines and deployment constraints
@@ -107,18 +92,17 @@ need a clear decision the model supports.
 
 ## Prompt Search and Generative AI
 
-Lanham's most modern example is prompt engineering. He says recent work applies
-evolutionary algorithms to prompts for LLMs and agents. The system generates
-prompt variants, scores the results, and evolves toward prompts that perform
-better
-([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]],
-14:09-14:28). He describes this as promising because LLM behavior is complex
-and prompt variants can produce unexpected outputs.
+The most modern example is prompt engineering. Evolutionary algorithms apply to
+prompts for LLMs and agents: the system generates prompt variants, scores the
+results, and evolves toward prompts that perform better
+([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]]).
+This is promising because LLM behavior is complex and prompt variants can produce
+unexpected outputs.
 
-Lanham also says prompt search can be computationally expensive. He agrees that
-one small example repo may take about a week
-([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]],
-14:59-15:23). His example belongs with the broader
+Prompt search can be computationally expensive; one small example repo may take
+about a week
+([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]]).
+It belongs with the broader
 [[prompt engineering]] and
 [[LLM evaluation workflows]]
 pages. Prompt evolution needs a scoring method, and the compute cost has to buy
@@ -126,72 +110,59 @@ better behavior.
 
 ## APIs and Tooling
 
-[[person:vincentwarmerdam|Vincent Warmerdam]] gives a
-clear API-design example. In his open-source ML episode, he says EVOL started
-as an evolutionary algorithm library built to simplify genetic algorithms. He
-describes those algorithms as often becoming nested `for` loops. EVOL used
+EVOL is an API-design example: an evolutionary algorithm library built to
+simplify genetic algorithms, which often become nested `for` loops. It used
 population and evolution objects with a functional API so the algorithm was
 easier to use
-([[podcast:open-source-ml-contributions|Contribute to Open Source ML]],
-17:02-18:12).
+([[podcast:open-source-ml-contributions|Contribute to Open Source ML]]).
 
-Warmerdam's point is about [[open-source|open-source]]
-tool design, not a new theory of evolutionary search. The example shows why
-API design matters for algorithm families that involve populations, scoring,
-mutation, and repeated generations. A clearer API can make the search easier to
-maintain even when the underlying method remains compute-heavy.
+The point is about [[open-source|open-source]]
+tool design, not a new theory of evolutionary search. It shows why API design
+matters for algorithm families that involve populations, scoring, mutation, and
+repeated generations. A clearer API can make the search easier to maintain even
+when the underlying method remains compute-heavy.
 
 ## Optimization and Decision Systems
 
-[[person:danbecker|Dan Becker]] doesn't focus on
-evolutionary algorithms in his decision-optimization episode, but his framing
-helps set the boundary around optimization work. He argues that a model's
-`.predict` answers "what will happen," while a decision function answers "what
-should I do about it." His examples include airline pricing and fraud review
-thresholds. He also discusses business rules that combine predicted
-probabilities with value or cost
-([[podcast:machine-learning-decision-optimization|Optimize Decisions with ML]],
-5:11-18:52, 21:06-25:00).
+Decision optimization sets the boundary around this work. A model's `.predict`
+answers "what will happen," while a decision function answers "what should I do
+about it," across cases like airline pricing and fraud review thresholds, with
+business rules that combine predicted probabilities with value or cost
+([[podcast:machine-learning-decision-optimization|Optimize Decisions with ML]]).
 
-Lanham's examples sit on Becker's boundary. Evolutionary search can propose or
-tune candidates, but the team still needs a fitness function, simulator, or
-evaluation target. Becker makes the same point from the decision side. Teams
-often need to simulate different decision rules and propagate outcomes over
-time. They also need domain knowledge rather than a supervised model that tries
-to optimize the whole business objective
-([[podcast:machine-learning-decision-optimization|Optimize Decisions with ML]],
-19:19-31:53).
+Evolutionary search sits on that boundary: it can propose or tune candidates,
+but the team still needs a fitness function, simulator, or evaluation target.
+The same holds from the decision side, where teams simulate different decision
+rules, propagate outcomes over time, and rely on domain knowledge rather than a
+supervised model that tries to optimize the whole business objective
+([[podcast:machine-learning-decision-optimization|Optimize Decisions with ML]]).
 
-[[person:adamsroka|Adam Sroka]] gives a cautionary
-engineering example from laser-system design. He says he started with genetic
-algorithms, then tried simple [[reinforcement learning]]
-around 2014. The search produced interesting ideas. Some were impractical to
+A cautionary engineering example comes from laser-system design: genetic
+algorithms first, then simple [[reinforcement learning]]
+around 2014. The search produced interesting ideas, but some were impractical to
 manufacture because the problem was poorly formulated outside the simulation
-([[podcast:ml-engineering-kpis-and-metrics-strategy|KPI Design and Metrics Strategy]],
-5:00-5:15).
+([[podcast:ml-engineering-kpis-and-metrics-strategy|KPI Design and Metrics Strategy]]).
 
 Search methods can optimize the wrong target when the simulator leaves out
-constraints, business objectives, or real-world costs. Sroka's example gives
-Becker's decision-optimization boundary a physical engineering case.
+constraints, business objectives, or real-world costs. That laser-system example
+gives the decision-optimization boundary a physical engineering case.
 
 ## Connection to Agent Systems
 
-Lanham's episode also links evolutionary thinking to current
-[[agent engineering]]. He teaches
-agents through minimal task decomposition first. He then distinguishes
+Evolutionary thinking also links to current
+[[agent engineering]]. Agents can be
+taught through minimal task decomposition first, then by distinguishing
 sequential flows from manager-agent orchestration and collaborative multi-agent
-designs
-([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]],
-20:57-31:17). At 27:45, he compares collaborative agents that iterate and
-refine solutions to evolutionary algorithms.
+designs, with collaborative agents that iterate and refine solutions compared to
+evolutionary algorithms
+([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]]).
 
 The comparison should stay modest. The episode doesn't say every
 [[multi-agent-systems|multi-agent system]] is an
 evolutionary algorithm. It says collaboration can resemble evolutionary search
 when agents generate candidate outputs, exchange feedback, and refine a result.
 
-Lanham applies that comparison to complex problems. In those problems, the
-input and desired output are known but the path is detailed
-([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]],
-26:25-29:35). Teams still need a scoring target, a stopping rule, and a compute
-budget.
+That comparison applies to complex problems where the input and desired output
+are known but the path is detailed
+([[podcast:from-game-ai-to-modern-ai-agents|From Game AI to LLM Agents]]).
+Teams still need a scoring target, a stopping rule, and a compute budget.

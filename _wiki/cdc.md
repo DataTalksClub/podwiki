@@ -19,13 +19,12 @@ ingestion. Teams choose it when a warehouse, lake, or
 [[modern data stack]] needs
 fresher source data without paying the cost of a full reload.
 
-[[person:nataliekwong|Natalie Kwong]] gives the
-connector-centered definition in
-[[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and Modern Data Engineering at 45:59-48:30]].
-After an initial sync, an Airbyte-style connector captures changed records and
-updates the destination with those changes. Her marketplace example is
-practical. If only 10% of rows changed, CDC avoids reading and writing the other
-90%. It also includes deleted rows that an append-only sync might miss.
+One connector-centered definition: after an initial sync, an Airbyte-style
+connector captures changed records and updates the destination with those
+changes ([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and Modern Data Engineering]]).
+In a marketplace example, if only 10% of rows changed, CDC avoids reading and
+writing the other 90%. It also includes deleted rows that an append-only sync
+might miss.
 
 CDC isn't a replacement for [[ETL]],
 [[ELT]], or
@@ -37,48 +36,41 @@ cover the reliability work around the feed.
 
 ## Captured Rows
 
-Kwong frames CDC as row-level movement that captures changed rows from inserts
-and updates as well as deletions. In
-the [[podcast:data-engineering-tools-modern-data-stack|47:26 marketplace-listing chapter]],
-sellers change titles or prices. The data team wants those changed listing
-records rather than another copy of all active listings. The destination can
-apply the changes to current-state tables or store history.
+CDC is row-level movement that captures changed rows from inserts and updates as
+well as deletions. When sellers change marketplace listing titles or prices, the
+data team wants those changed listing records rather than another copy of all
+active listings ([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and Modern Data Engineering]]).
+The destination can apply the changes to current-state tables or store history.
 
-[[person:larsalbertsson|Lars Albertsson]] describes a
-lower-level version in
-[[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms at 1:06:01-1:07:52]].
-He places CDC next to full database dumps, application change events, database
-change tables, and Kafka. In that platform view, CDC translates a database
-transaction log into a Kafka stream so downstream systems receive detailed
-change events instead of periodic snapshots.
+A lower-level version places CDC next to full database dumps, application change
+events, database change tables, and Kafka. In that platform view, CDC translates
+a database transaction log into a Kafka stream so downstream systems receive
+detailed change events instead of periodic snapshots
+([[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]]).
 
-The two views converge on the same boundary, but their emphasis differs. Kwong
-emphasizes analytics connectors in the
-[[modern data stack]], with CDC
-centered on cloud cost and sync speed. She also covers deletes and schema
-growth.
-Albertsson emphasizes [[DataOps]],
-immutability, dependency management, and the platform cost of streaming. CDC is
-valuable in both settings because mutable source systems make repeated full
-copies expensive and can hide changes between dumps.
+The two views converge on the same boundary, but their emphasis differs.
+[[person:nataliekwong|Kwong]] emphasizes analytics connectors in the
+[[modern data stack]], with CDC centered on cloud cost and sync speed, deletes,
+and schema growth. [[person:larsalbertsson|Albertsson]] emphasizes
+[[DataOps]], immutability, dependency management, and the platform cost of
+streaming. CDC is valuable in both settings because mutable source systems make
+repeated full copies expensive and can hide changes between dumps.
 
 ## Fit Against Reloads, Batch, and Streaming
 
 CDC fits when the source is mutable and the table is large enough that full
 reloads are wasteful. It also fits when downstream consumers need changes
-before the next large batch can reasonably finish. Kwong's
-[[podcast:data-engineering-tools-modern-data-stack|45:59 CDC discussion]]
-names speed and cloud cost as the immediate gains. A full reload may still be
-simpler for small or low-value tables, one-off backfills, or sources that don't
-expose reliable change signals.
+before the next large batch can reasonably finish. The immediate gains are speed
+and cloud cost ([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and Modern Data Engineering]]).
+A full reload may still be simpler for small or low-value tables, one-off
+backfills, or sources that don't expose reliable change signals.
 
-Albertsson's
-[[podcast:dataops-principles-and-scalable-data-platforms|41:53-45:19 batch-versus-streaming discussion]]
-keeps CDC from becoming a blanket "stream everything" recommendation. He argues
-that many analytics and reporting cases can wait for batch, including short
-micro-batches. Batch orchestration gives engineers explicit dependencies and
-easier recovery. Streaming helps in the middle latency window, such as fraud
-detection, but it costs more to operate.
+CDC is not a blanket "stream everything" recommendation. Many analytics and
+reporting cases can wait for batch, including short micro-batches, and batch
+orchestration gives engineers explicit dependencies and easier recovery.
+Streaming helps in the middle latency window, such as fraud detection, but it
+costs more to operate
+([[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]]).
 
 CDC is a middle choice rather than a default. A team can capture database
 changes continuously and still land them into batch-oriented tables or warehouse
@@ -96,40 +88,39 @@ That state may be a transaction-log position or a source cursor. It may also be
 an offset in a stream or a destination-side checkpoint. Without it, retries can
 duplicate rows or skip changes.
 
-Albertsson's [[DataOps]] lesson is that
-mutable databases are hard to reason about unless the platform preserves
-history. In
-[[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 at 16:42-20:12]],
-he argues for immutable datasets and functional transformations because repeated
-runs against mutable data can produce different results. CDC helps when it
-captures the changes between dumps. The destination still needs an append-only
-history or careful merge logic if analysts must reproduce past results.
+A [[DataOps]] lesson is that mutable databases are hard to reason about unless
+the platform preserves history. Immutable datasets and functional
+transformations matter because repeated runs against mutable data can produce
+different results
+([[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]]).
+CDC helps when it captures the changes between dumps. The destination still needs
+an append-only history or careful merge logic if analysts must reproduce past
+results.
 
-CDC feeds need the same platform controls that Albertsson puts under DataOps.
+CDC feeds need the same platform controls that fall under [[DataOps]].
 The first controls are lag monitoring and alerts for stopped connectors.
 Row-count tests and deleted-record checks cover data quality. Backfill runbooks
 cover recovery.
 
-His
-[[podcast:dataops-principles-and-scalable-data-platforms|46:52 maturity discussion]]
-adds schema management automation and data quality measurements. Those checks
-matter when CDC is the feed that keeps warehouse tables current.
+Platform maturity adds schema management automation and data quality
+measurements
+([[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]]).
+Those checks matter when CDC is the feed that keeps warehouse tables current.
 
 ## Schema, Deletes, and Idempotency
 
-CDC solves row movement, not every modeling problem. Kwong's
-[[podcast:data-engineering-tools-modern-data-stack|48:58-49:32 schema-evolution discussion]]
-explains that business systems keep adding fields as teams collect new
-information. A Salesforce checkbox or picklist can become a new warehouse
-column. CDC pipelines have to handle those source changes without silently
-dropping fields or breaking downstream models.
+CDC solves row movement, not every modeling problem. Business systems keep adding
+fields as teams collect new information, and a Salesforce checkbox or picklist
+can become a new warehouse column
+([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and Modern Data Engineering]]).
+CDC pipelines have to handle those source changes without silently dropping
+fields or breaking downstream models.
 
-Kwong calls out delete handling at
-[[podcast:data-engineering-tools-modern-data-stack|48:30 in the CDC example]].
-A pipeline that only upserts changed records can leave stale rows in the
-destination unless it sends delete markers. Downstream models can apply those
-markers to current tables or retain them in historical logs for replay and
-audit.
+Delete handling matters too: a pipeline that only upserts changed records can
+leave stale rows in the destination unless it sends delete markers
+([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and Modern Data Engineering]]).
+Downstream models can apply those markers to current tables or retain them in
+historical logs for replay and audit.
 
 Idempotency is the practical rule behind retries and replays. If a CDC job
 runs the same event twice, the destination should end in the same state as if it
@@ -141,8 +132,8 @@ as reliability work rather than a connector checkbox.
 ## Project Signals
 
 For [[data engineering portfolio projects]],
-CDC is useful only if the project shows the hard parts that Kwong and
-Albertsson describe. A credible project includes an initial load and incremental
+CDC is useful only if the project shows the hard parts described here. A credible
+project includes an initial load and incremental
 changes. It also includes deletes, schema changes, retries, and a backfill
 story. The writeup should explain why CDC was a better fit than a full reload or
 scheduled batch job for that source.

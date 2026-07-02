@@ -14,20 +14,17 @@ related:
 ---
 
 A data scientist interview roadmap is a role-specific preparation path from job
-targeting to final offer. In DataTalks.Club interview episodes, prep starts with the
-work behind the title. "Data scientist" can mean product analytics,
-experimentation, or forecasting. It can also mean machine learning or
-production ML.
+targeting to final offer. Prep starts with the work behind the title: "data
+scientist" can mean product analytics, experimentation, forecasting, machine
+learning, or production ML.
 
-[[person:olegnovikov|Oleg Novikov]] makes one split
-explicit. He contrasts product data science with
+One split is product data science versus
 [[machine-learning-engineer-role|machine learning engineering]]
-in [[podcast:data-science-interview-and-cv-guide|Data Science Interview Guide]].
+([[podcast:data-science-interview-and-cv-guide|Data Science Interview Guide]]).
 
-[[person:lukewhipps|Luke Whipps]] explains in
-[[podcast:get-data-scientist-job|Land Data Scientist Roles]]
-that recruiters screen for industry fit and use-case fit. They also look for
-projects, business impact, and career narrative.
+Recruiters screen for industry fit and use-case fit, and look for projects,
+business impact, and career narrative
+([[podcast:get-data-scientist-job|Land Data Scientist Roles]]).
 
 Use this roadmap with
 [[Data Scientist Role]] and
@@ -45,41 +42,32 @@ Case practice, technical drills, stories, and offer talks support that role.
 
 ## Role Fit, Written Evidence, and Interview Performance
 
-Guests describe data scientist interview preparation as building role-specific
-proof. The first proof is role fit. Luke's recruiter workflow in
-[[podcast:get-data-scientist-job|Land Data Scientist Roles]]
-starts from role definition and market guidance. It then moves through
-shortlists, interview preparation, feedback, and offer negotiation. Oleg's
-funnel in
-[[podcast:data-science-interview-and-cv-guide|Data Science Interview Guide]]
-then narrows the candidate side into recruiter screen, take-home work, and
-interview rounds.
+Data scientist interview preparation builds role-specific proof. The first proof
+is role fit. A recruiter workflow starts from role definition and market
+guidance, then moves through shortlists, interview preparation, feedback, and
+offer negotiation
+([[podcast:get-data-scientist-job|Land Data Scientist Roles]]).
+The candidate-side funnel narrows into recruiter screen, take-home work, and
+interview rounds
+([[podcast:data-science-interview-and-cv-guide|Data Science Interview Guide]]).
 
-The second proof is written evidence, and [[person:alicjanotowska|Alicja
-Notowska]] describes profile
-screens around experience and education. She also looks for responsibilities,
-keywords, and clear examples in
-[[podcast:hiring-data-scientists-and-analysts|Hiring Data Scientists and Analysts]].
-That matches Oleg's advice to treat the CV like a landing page and make
-personal contribution visible in
-[[podcast:data-science-interview-and-cv-guide|Data Science Interview Guide]].
+The second proof is written evidence. Profile screens center on experience and
+education, plus responsibilities, keywords, and clear examples
+([[podcast:hiring-data-scientists-and-analysts|Hiring Data Scientists and Analysts]]).
+The CV should read like a landing page that makes personal contribution visible
+([[podcast:data-science-interview-and-cv-guide|Data Science Interview Guide]]).
 
-The third proof is interview performance. Luke's later episode,
-[[podcast:machine-learning-data-science-interview-prep|Master Machine Learning and Data Science Interviews]],
-separates recruiter screening from intro interviews. It also covers technical
-components, expectation alignment, and fundamentals-first practice. [[person:nicksingh|Nick
-Singh]] adds the behavioral and
-portfolio layer in
-[[podcast:data-interview-behavioral-and-portfolio-prep-guide|Ace Data Interviews]].
+The third proof is interview performance. Recruiter screening is separate from
+intro interviews, and technical components, expectation alignment, and
+fundamentals-first practice each get their own attention
+([[podcast:machine-learning-data-science-interview-prep|Master Machine Learning and Data Science Interviews]]).
+A behavioral and portfolio layer adds story grids and STAR structure, project
+walkthroughs, product-sense cases, and company research
+([[podcast:data-interview-behavioral-and-portfolio-prep-guide|Ace Data Interviews]]).
 
-His prep covers story grids and STAR structure. It also covers project
-walkthroughs, product-sense cases, and company research.
-
-For ML-heavy roles, [[person:valeriybabushkin|Valerii
-Babushkin]] adds assumptions
-and baselines. Labels and validation also matter, while serving, monitoring,
-and fallbacks appear in
-[[podcast:machine-learning-system-design-interview|ML System Design Interviews]].
+For ML-heavy roles, assumptions and baselines, labels and validation, and
+serving, monitoring, and fallbacks all matter
+([[podcast:machine-learning-system-design-interview|ML System Design Interviews]]).
 
 ## Recruiter, Candidate, and ML-Heavy Prep
 

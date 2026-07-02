@@ -23,13 +23,11 @@ It also depends on [[metrics]],
 [[a-b-testing|A/B testing]], latency, and
 freshness. Permissions and cost matter too.
 
-[[person:danielsvonava|Daniel Svonava]] gives the
-most direct framing in
-[[podcast:building-production-search-systems|Building Production Search Systems]].
-At 6:20, he treats search as a decision problem. From a large set of
-information, the system has to isolate the pieces that matter for the current
-query. At 12:45, he splits production search into candidate generation and
-ranking. Use that split as the working model for relevance.
+Search is a decision problem: from a large set of information, the system has to
+isolate the pieces that matter for the current query. Production search splits
+into candidate generation and ranking, and that split is the working model for
+relevance
+([[podcast:building-production-search-systems|Building Production Search Systems]]).
 
 ## Working Definition
 

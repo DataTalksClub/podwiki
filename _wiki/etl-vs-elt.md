@@ -28,13 +28,11 @@ transform then happens inside a
 [[data-warehouse-vs-data-lakehouse|lakehouse]].
 
 The practical choice is about ownership, risk, and future modeling flexibility.
-[[person:nataliekwong|Natalie Kwong]] defines ETL and
-ELT in
-[[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]]:
-ETL organizes source data before loading it at 3:46-6:37. ELT preserves source
-detail and moves transformation into warehouse-side SQL and
-[[dbt]] workflows at 7:57-12:39. That choice
-also affects [[analytics engineering]],
+ETL organizes source data before loading it, while ELT preserves source detail
+and moves transformation into warehouse-side SQL and
+[[dbt]] workflows
+([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]]).
+That choice also affects [[analytics engineering]],
 [[DataOps]], and downstream
 [[reverse ETL]].
 
@@ -58,90 +56,75 @@ The difference changes who can safely change business logic:
 - Both need [[DataOps]] practices because
   either path can fail without versioned code, tests, lineage, and ownership.
 
-[[person:larsalbertsson|Lars Albertsson]] makes the
-reproducibility risk explicit in
-[[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]].
-At 20:12-21:29, he warns that mutable ETL results can differ across runs when
-inputs change. At 1:04:18, he ties active datasets to code and versioning, with
-lineage as the audit path.
+Mutable ETL results can differ across runs when inputs change, so active
+datasets should be tied to code and versioning with lineage as the audit path
+([[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]]).
 
 ## ETL Fit
 
-Choose ETL when the target shouldn't receive broad raw data. Kwong's customer
-acquisition cost example joins CRM data with ad-spend data. The reporting layer
-then consumes the prepared result
-([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]],
-6:37). That's a good fit when the target expects a prepared metric or mart
-rather than source-level detail.
+Choose ETL when the target shouldn't receive broad raw data. A customer
+acquisition cost example joins CRM data with ad-spend data, and the reporting
+layer consumes the prepared result
+([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]]).
+That's a good fit when the target expects a prepared metric or mart rather than
+source-level detail.
 
-ETL also fits when preprocessing reduces risk before storage.
-[[person:santonatuli|Santona Tuli]] describes
-ingestion-stage deduplication, ordering guarantees, and PII masking in
-[[podcast:modern-data-pipelines-orchestration-ingestion-modeling|Modern Data Pipeline Architecture]],
-37:10. Those steps change what downstream tables can expose. They may belong
-before data reaches a human-facing warehouse or lakehouse layer.
+ETL also fits when preprocessing reduces risk before storage. Ingestion-stage
+deduplication, ordering guarantees, and PII masking change what downstream
+tables can expose
+([[podcast:modern-data-pipelines-orchestration-ingestion-modeling|Modern Data Pipeline Architecture]]).
+They may belong before data reaches a human-facing warehouse or lakehouse layer.
 
-ETL remains useful in large enterprises and complex staging environments.
-Kwong says established enterprise workflows and heavy staging needs can keep ETL
-relevant
-([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]],
-41:30).
+ETL remains useful in large enterprises and complex staging environments, where
+established enterprise workflows and heavy staging needs keep it relevant
+([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]]).
 The right question is whether the transform protects the target or only hides
 useful source detail from future modeling work.
 
 ## ELT Fit
 
-Choose ELT when questions or source fields change often. Kwong says ELT keeps
-source detail available for later transformation work. Analysts and analytics
-engineers can add new models when the business question changes
-([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]],
-7:57-12:39). That's why ELT sits close to
+Choose ELT when questions or source fields change often. ELT keeps source detail
+available for later transformation work, so analysts and analytics engineers can
+add new models when the business question changes
+([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]]).
+That's why ELT sits close to
 [[analytics engineering]] and
 [[dbt]].
 
-[[person:victoriaperezmola|Victoria Perez Mola]] shows
-the operating side of ELT in
-[[podcast:analytics-engineer-skills-tools|Analytics Engineer Skills and Tools]].
-At 4:05-10:04, she puts dbt and SQL models inside the analytics engineering
-workflow. The same operating context includes tests and DAGs alongside Snowflake
-and Looker. ELT works only when the team maintains the warehouse-side transform
-like production code.
+The operating side of ELT puts dbt and SQL models inside the analytics
+engineering workflow, with tests and DAGs alongside Snowflake and Looker
+([[podcast:analytics-engineer-skills-tools|Analytics Engineer Skills and Tools]]).
+ELT works only when the team maintains the warehouse-side transform like
+production code.
 
-ELT also fits activation and growth stacks. [[person:arpitchoudhury|Arpit Choudhury]]
-describes a growth stack that starts with event collection and warehouse
-storage. It then adds BI and
-[[reverse ETL]] in his
-[[podcast:data-led-growth-event-tracking-and-reverse-etl|Data-Led Growth, Event Tracking, and Reverse ETL]]
-discussion at 22:50-41:30.
+ELT also fits activation and growth stacks. A growth stack starts with event
+collection and warehouse storage, then adds BI and
+[[reverse ETL]]
+([[podcast:data-led-growth-event-tracking-and-reverse-etl|Data-Led Growth, Event Tracking, and Reverse ETL]]).
 In that setup, the modeled warehouse layer has to be trusted because it may
-drive support context and sales routing. It may also drive customer messaging or
-onboarding.
+drive support context, sales routing, customer messaging, or onboarding.
 
-ELT isn't complete when raw data arrives because Kwong separates raw ingestion
-from consumer-facing data marts. She says raw forms usually need cleaning
-before business users should rely on them
-([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]],
-15:30-18:47). ELT still needs governed models, tests, and quality checks. It
-also needs documentation and ownership.
+ELT isn't complete when raw data arrives. Raw ingestion is separate from
+consumer-facing data marts, and raw forms usually need cleaning before business
+users should rely on them
+([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]]).
+ELT still needs governed models, tests, quality checks, documentation, and
+ownership.
 
 ## Transformation Boundary
 
 Focus on the transform boundary. ETL makes business meaning durable before or
-during the destination load. Kwong's customer acquisition cost example is a
-curated result. It combines CRM and advertising data before the business
-consumes it
-([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]],
-6:37).
+during the destination load. The customer acquisition cost example is a curated
+result that combines CRM and advertising data before the business consumes it
+([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]]).
 
 ELT writes raw or lightly processed records first, and SQL models create
-business meaning later. Those models handle joins and type casting. They also
-build marts and other warehouse-side modeling work
-([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]],
-10:00-12:39). Tuli uses a similar split between ingestion or staging and later
-modeling. Teams prepare entities and mappings, then prepare marts and
-use-case-specific tables in
-[[podcast:modern-data-pipelines-orchestration-ingestion-modeling|Modern Data Pipeline Architecture]],
-32:57-43:05.
+business meaning later, handling joins, type casting, marts, and other
+warehouse-side modeling work
+([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]]).
+A similar split runs between ingestion or staging and later modeling: teams
+prepare entities and mappings, then marts and use-case-specific tables
+([[podcast:modern-data-pipelines-orchestration-ingestion-modeling|Modern Data Pipeline Architecture]]).
 
 That boundary is why ETL often fits curated operational payloads, while ELT
 often fits broad analytical reuse. If the transformation defines what the
@@ -150,19 +133,17 @@ mostly analytical interpretation, load source detail and model it under review.
 
 ## Tool Boundaries
 
-Don't map ETL vs ELT directly to one vendor, because Kwong separates
-orchestration from loading and transformation. Airflow schedules jobs, while
-Airbyte handles extract-load work and dbt handles warehouse transformations
-after data arrives
-([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]],
-30:59-33:45).
+Don't map ETL vs ELT directly to one vendor. Orchestration is separate from
+loading and transformation: Airflow schedules jobs, Airbyte handles extract-load
+work, and dbt handles warehouse transformations after data arrives
+([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]]).
 
-Tuli gives the same boundary from a pipeline-authoring view. At 10:48 in
-[[podcast:modern-data-pipelines-orchestration-ingestion-modeling|Modern Data Pipeline Architecture]],
-she contrasts ingestion-focused pipeline authoring with dbt-style modeling.
-At 39:23-43:05, she moves from transformation and data modeling into marts and
-dashboards. Metrics sit in that same business-facing layer. That split is often
-the real ETL-versus-ELT boundary.
+The same boundary appears from a pipeline-authoring view, contrasting
+ingestion-focused pipeline authoring with dbt-style modeling and moving from
+transformation and data modeling into marts and dashboards
+([[podcast:modern-data-pipelines-orchestration-ingestion-modeling|Modern Data Pipeline Architecture]]).
+Metrics sit in that same business-facing layer, and that split is often the real
+ETL-versus-ELT boundary.
 
 The orchestrator doesn't decide the acronym. A pipeline can use Airflow,
 Prefect, Dagster, or another scheduler and still be ETL or ELT. The team still
@@ -174,98 +155,81 @@ path.
 ETL often keeps transformation close to
 [[data engineering]], ingestion,
 or platform jobs. ELT often moves repeatable analytical logic into SQL models
-owned by analytics engineers, analysts, or mixed data teams. Kwong connects that
-shift to analyst autonomy and dbt in
-[[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]],
-12:39.
+owned by analytics engineers, analysts, or mixed data teams, a shift tied to
+analyst autonomy and dbt
+([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]]).
 
-[[person:victoriaperezmola|Victoria Perez Mola]]
-describes dbt as SQL transformations with version control and tests. She also
-describes scheduled runs and dependency graphs in
-[[podcast:analytics-engineer-skills-tools|Analytics Engineer Skills and Tools]],
-6:49-10:04. [[person:juanmanuelperafan|Juan Manuel Perafan]]
-adds the organizational reason in
-[[podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices|Foundations of the Analytics Engineer Role]],
-11:03 and 46:34. He frames analytics engineering as the work of turning messy
-business reality into cleaner data systems with software engineering rigor.
+dbt is SQL transformations with version control, tests, scheduled runs, and
+dependency graphs
+([[podcast:analytics-engineer-skills-tools|Analytics Engineer Skills and Tools]]).
+The organizational reason is that analytics engineering turns messy business
+reality into cleaner data systems with software engineering rigor
+([[podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices|Foundations of the Analytics Engineer Role]]).
 
-ELT shouldn't mean "load everything and sort it out later." Kwong warns that
-unmanaged raw zones can become data swamps. She later returns to ownership when
-teams collect unused data
-([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]],
-21:22 and 43:02). That ties ELT to
+ELT shouldn't mean "load everything and sort it out later." Unmanaged raw zones
+can become data swamps, and ownership matters when teams collect unused data
+([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]]).
+That ties ELT to
 [[data governance]],
 [[data-quality-and-observability|data observability]], and
 [[GitOps for data teams]],
 not only faster modeling.
 
-Albertsson's DataOps rule applies to both designs. Keep active outputs defined
-in code and make transformation history traceable
-([[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]],
-1:04:18). Whether a team says ETL or ELT, unclear lineage creates the same
-failure mode. Consumers can't tell which transformation created a dataset, why
-it changed, or whether a rerun should reproduce the same result.
+The same DataOps rule applies to both designs: keep active outputs defined in
+code and make transformation history traceable
+([[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]]).
+Whether a team says ETL or ELT, unclear lineage creates the same failure mode.
+Consumers can't tell which transformation created a dataset, why it changed, or
+whether a rerun should reproduce the same result.
 
 ## Downstream Activation
 
 The comparison matters more when transformed data leaves analytics and changes
-customer-facing work. Choudhury's growth stack moves from collection and
-storage to BI. It then moves to reverse ETL and operational analytics tools
-such as Census and Hightouch. Grouparoo appears in the same tool category in
-[[podcast:data-led-growth-event-tracking-and-reverse-etl|Data-Led Growth, Event Tracking, and Reverse ETL]],
-28:52-37:25.
+customer-facing work. A growth stack moves from collection and storage to BI,
+then to reverse ETL and operational analytics tools such as Census, Hightouch,
+and Grouparoo
+([[podcast:data-led-growth-event-tracking-and-reverse-etl|Data-Led Growth, Event Tracking, and Reverse ETL]]).
 
 A metric or segment is no longer only a dashboard definition at that point. It
 can drive support context, sales routing, engagement campaigns, or onboarding.
-Kwong also includes reverse data flows in the modern stack
-([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]],
-35:42). That makes ELT quality visible outside the warehouse. A warehouse model
-that's good enough for exploration may still fail when used for
+The modern stack also includes reverse data flows
+([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]]),
+which makes ELT quality visible outside the warehouse. A warehouse model that's
+good enough for exploration may still fail when used for
 [[data activation]].
 
 ## Decision Checklist
 
 Start from the target and the failure mode.
 
-- Use ETL if the target must receive curated data before storage.
-  [[person:nataliekwong|Natalie Kwong]] shows the CAC
-  transform-before-load case in
-  [[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]]
-  at 6:37.
-- Use ETL if pre-load validation protects compliance or operational constraints
-  because [[person:santonatuli|Santona Tuli]] puts
-  ingestion-stage deduplication together with ordering guarantees and PII
-  masking in
-  [[podcast:modern-data-pipelines-orchestration-ingestion-modeling|Modern Data Pipeline Architecture]]
-  at 37:10.
-- Use ELT if future business questions require raw source detail.
-  Kwong ties load-first design to flexible warehouse-side SQL models in
-  [[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]]
-  at 7:57-12:39.
+- Use ETL if the target must receive curated data before storage. The CAC
+  transform-before-load case shows the pattern
+  ([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]]).
+- Use ETL if pre-load validation protects compliance or operational
+  constraints; ingestion-stage deduplication, ordering guarantees, and PII
+  masking belong there
+  ([[podcast:modern-data-pipelines-orchestration-ingestion-modeling|Modern Data Pipeline Architecture]]).
+- Use ELT if future business questions require raw source detail; load-first
+  design keeps flexible warehouse-side SQL models available
+  ([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]]).
 - Use ELT when analytics engineers or analysts own the transformation layer.
-  They need tested models and documented dependencies.
-  [[person:victoriaperezmola|Victoria Perez Mola]]
-  covers dbt tests and DAGs at 6:49-10:04 in
-  [[podcast:analytics-engineer-skills-tools|Analytics Engineer Skills and Tools]].
-  [[person:juanmanuelperafan|Juan Manuel Perafan]]
-  covers software engineering rigor at 11:03 and 46:34 in
-  [[podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices|Foundations of the Analytics Engineer Role]].
-- Use either pipeline choice only when owners can trace lineage and run quality checks.
-  [[person:larsalbertsson|Lars Albertsson]] links
-  active datasets to versioned code and lineage at 1:04:18 in
-  [[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]].
-  [[person:arpitchoudhury|Arpit Choudhury]]
-  shows why warehouse quality matters at 28:52-37:25 in
-  [[podcast:data-led-growth-event-tracking-and-reverse-etl|Data-Led Growth, Event Tracking, and Reverse ETL]].
+  They need tested models and documented dependencies, with dbt tests and DAGs
+  ([[podcast:analytics-engineer-skills-tools|Analytics Engineer Skills and Tools]])
+  and software engineering rigor
+  ([[podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices|Foundations of the Analytics Engineer Role]]).
+- Use either pipeline choice only when owners can trace lineage and run quality
+  checks. Active datasets link to versioned code and lineage
+  ([[podcast:dataops-principles-and-scalable-data-platforms|DataOps 101 for Scaling Data Platforms]]),
+  and warehouse quality matters once data drives activation
+  ([[podcast:data-led-growth-event-tracking-and-reverse-etl|Data-Led Growth, Event Tracking, and Reverse ETL]]).
 
-Transform early when the target needs protection, as Kwong and Tuli show in
-curated-metric and ingestion-control examples. Load first when the team needs
-future modeling flexibility. Keep governance explicit because Kwong warns that
-unmanaged raw zones can become data swamps
-([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]],
-21:22 and 43:02). Don't use ELT as a reason to postpone ownership, lineage, or
-quality checks. Don't use ETL as a reason to hide source detail that future
-teams will need.
+Transform early when the target needs protection, as the curated-metric and
+ingestion-control examples show. Load first when the team needs future modeling
+flexibility. Keep governance explicit, because unmanaged raw zones can become
+data swamps
+([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]]).
+Don't use ELT as a reason to postpone ownership, lineage, or quality checks.
+Don't use ETL as a reason to hide source detail that future teams will need.
 
 ## Related Pages
 
@@ -281,4 +245,3 @@ These pages cover the deeper topic nodes behind the decision:
 - [[DataOps]]
 - [[Data Quality and Observability]]
 - [[Reverse ETL]]
-

@@ -11,6 +11,11 @@ permalink: /wiki/
 {% assign c_guide = 0 %}{% assign c_comparison = 0 %}{% assign c_roadmap = 0 %}{% assign c_howto = 0 %}{% assign c_transition = 0 %}
 {%- for item in pages -%}
   {%- unless item.redirect_to -%}
+    {%- assign L = item.title | slice: 0 | upcase -%}
+    {%- assign letter_token = "|" | append: L | append: "|" -%}
+    {%- unless page_letters contains letter_token -%}
+      {%- assign page_letters = page_letters | append: letter_token -%}
+    {%- endunless -%}
     {% assign c_total = c_total | plus: 1 %}
     {%- if item.tags -%}
       {%- for t in item.tags -%}
@@ -51,7 +56,7 @@ permalink: /wiki/
   </div>
   <nav class="wiki-az" aria-label="Jump to letter">
     {% assign alphabet = "A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z" | split: "," %}
-    {% for L in alphabet %}<a href="#letter-{{ L }}" data-letter="{{ L }}">{{ L }}</a>{% endfor %}
+    {% for L in alphabet %}{% assign letter_token = "|" | append: L | append: "|" %}{% if page_letters contains letter_token %}<a href="#letter-{{ L }}" data-letter="{{ L }}">{{ L }}</a>{% endif %}{% endfor %}
   </nav>
 </div>
 

@@ -21,16 +21,14 @@ ingestion and SQL transformations. It also includes
 [[orchestration]], BI, and sometimes
 reverse flows into business tools.
 
-[[person:nataliekwong|Natalie Kwong]] gives the
-clearest stack-level introduction in
-[[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]].
-She explains ETL and ELT at 3:46-7:57. At 10:00-12:39, she connects
+The clearest stack-level introduction covers ETL and ELT, and connects
 warehouse-side transformation to analyst autonomy,
 [[dbt]], and
-[[analytics engineering]].
-Later in the same episode, she places data marts and lakes next to
-warehouses. She also adds orchestration, Airbyte-style loading, CDC, and
-reverse ETL.
+[[analytics engineering]]
+([[person:nataliekwong|Natalie Kwong]],
+[[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]]).
+The same episode places data marts and lakes next to warehouses, and adds
+orchestration, Airbyte-style loading, CDC, and reverse ETL.
 
 The same map reaches [[data-warehouse|data warehouses]],
 [[data engineering tools]],
@@ -47,19 +45,20 @@ warehouse, lake, or lakehouse. They transform it into trusted models and
 schedule the jobs. They expose the result to dashboards and analysts. The same
 data may also serve product teams, models, or operational systems.
 
-Kwong's 33:45 discussion names the typical modern analytics stack as
-best-of-breed tools rather than one monolith. [[person:arpitchoudhury|Arpit Choudhury]]
-describes the growth version in
-[[podcast:data-led-growth-event-tracking-and-reverse-etl|How to Build a Data-Led Growth Stack]].
-Teams collect events, store them, and analyze them. They also activate the
-results in business tools (22:50-41:30).
+The typical modern analytics stack is best-of-breed tools rather than one
+monolith
+([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]]).
+In the growth version, teams collect events, store them, analyze them, and
+activate the results in business tools
+([[person:arpitchoudhury|Arpit Choudhury]],
+[[podcast:data-led-growth-event-tracking-and-reverse-etl|How to Build a Data-Led Growth Stack]]).
 
-[[person:eddyzulkifly|Eddy Zulkifly]] adds the
-cost-aware engineering version in
-[[podcast:finops-for-data-engineers|FinOps for Data Engineers]].
-At 21:57-24:34, he frames ELT, dbt, and BigQuery as parts of a digital
-warehouse. He places orchestration, monitoring, and tests in the same operating
-picture. Teams then need
+In the cost-aware engineering version, ELT, dbt, and BigQuery are parts of a
+digital warehouse, with orchestration, monitoring, and tests in the same
+operating picture
+([[person:eddyzulkifly|Eddy Zulkifly]],
+[[podcast:finops-for-data-engineers|FinOps for Data Engineers]]). Teams then
+need
 [[FinOps for Data Engineers]]
 practices because tool choice also creates cloud usage, SaaS spend, and
 ownership questions.
@@ -74,79 +73,82 @@ reliably.
 
 Guests agree on the broad flow, but they focus on different constraints.
 
-Kwong starts with the move from ETL to ELT. Her version centers on faster
-iteration, warehouse-side transformation, and analyst autonomy. She still keeps
-governance in view. At 21:22, she discusses data swamps. At 43:02, she discusses
-unused data ownership in
-[[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]].
+The move from ETL to ELT centers on faster iteration, warehouse-side
+transformation, and analyst autonomy, while keeping governance in view through
+data swamps and unused data ownership
+([[person:nataliekwong|Natalie Kwong]],
+[[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]]).
 
-[[person:santonatuli|Santona Tuli]] starts from
-pipeline design in
-[[podcast:modern-data-pipelines-orchestration-ingestion-modeling|Modern Data Pipeline Architecture]].
-She compares analytics and ML pipelines at 13:25, then treats tooling choices
-as a result of the use case rather than a fixed stack. Her 29:16 chapter
-compares Upsolver, Snowflake, Databricks, and build-vs-buy decisions. At 52:54,
-she returns to persona-driven pipeline design.
+From pipeline design, analytics and ML pipelines get compared, tooling choices
+follow the use case rather than a fixed stack, and Upsolver, Snowflake,
+Databricks, and build-vs-buy decisions weigh against persona-driven pipeline
+design
+([[person:santonatuli|Santona Tuli]],
+[[podcast:modern-data-pipelines-orchestration-ingestion-modeling|Modern Data Pipeline Architecture]]).
 
-[[person:adrianbrudaru|Adrian Brudaru]] is more
-skeptical of the label. In
-[[podcast:trends-in-modern-data-engineering|Modern Data Engineering Trends]],
-he critiques vendor-packaged modern data stacks at 14:32 and argues for
-requirements-led tool choice at 44:42. His discussion covers Iceberg,
-catalogs, DuckDB, and orchestration. He also covers streaming. Those choices
-show why a team may need a warehouse stack, an open lakehouse stack, or a
-smaller local-first stack.
+A more skeptical take critiques vendor-packaged modern data stacks and argues
+for requirements-led tool choice across Iceberg, catalogs, DuckDB,
+orchestration, and streaming
+([[person:adrianbrudaru|Adrian Brudaru]],
+[[podcast:trends-in-modern-data-engineering|Modern Data Engineering Trends]]).
+Those choices show why a team may need a warehouse stack, an open lakehouse
+stack, or a smaller local-first stack.
 
 ## Ingestion
 
 Ingestion moves data from product databases and SaaS tools into analytical
-storage. It also moves events, files, and operational data. In the
-modern-stack episode,
-Kwong frames Airbyte as the extract-load part of the flow at 3:19. She returns
-to raw ingestion layers at 17:55. At 31:31, she places Airbyte next to dbt by
-separating reliable loading from warehouse-side modeling.
-
-Teams also decide how much source detail to preserve during ingestion. Kwong's
-ELT discussion argues for loading first when teams need flexibility (7:57-10:00 in
+storage. It also moves events, files, and operational data. Airbyte is the
+extract-load part of the flow, with raw ingestion layers placed next to dbt by
+separating reliable loading from warehouse-side modeling
+([[person:nataliekwong|Natalie Kwong]],
 [[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]]).
+
+Teams also decide how much source detail to preserve during ingestion. Loading
+first helps when teams need flexibility
+([[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]]).
 The same choice matters in the [[ETL vs ELT]]
 tradeoff because loading first preserves flexibility when business logic
-changes later. ETL can still fit large enterprises or complex staging needs,
-which Kwong covers at 41:30.
+changes later. ETL can still fit large enterprises or complex staging needs.
 
-Tuli adds the pipeline-engineering view. At 10:48 in
-[[podcast:modern-data-pipelines-orchestration-ingestion-modeling|Modern Data Pipeline Architecture]],
-she compares Upsolver and dbt by separating ingestion-focused pipeline
-authoring from transformation-focused modeling. At 37:10, she adds practical
-ingestion concerns such as deduplication, ordering guarantees, and PII masking.
+The pipeline-engineering view compares Upsolver and dbt by separating
+ingestion-focused pipeline authoring from transformation-focused modeling, and
+adds practical ingestion concerns such as deduplication, ordering guarantees,
+and PII masking
+([[person:santonatuli|Santona Tuli]],
+[[podcast:modern-data-pipelines-orchestration-ingestion-modeling|Modern Data Pipeline Architecture]]).
 Those concerns determine whether a simple connector is enough or whether the
 team needs a stronger pipeline engine.
 
 ## Warehouses and Lakehouses
 
 The warehouse is the default center of the stack in the older modern-stack
-interviews. Kwong describes warehouses, marts, and data lakes at 15:30-27:39 in
-[[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]].
-Her version separates raw or broad storage from modeled consumption layers.
+interviews. Warehouses, marts, and data lakes separate raw or broad storage from
+modeled consumption layers
+([[person:nataliekwong|Natalie Kwong]],
+[[podcast:data-engineering-tools-modern-data-stack|ETL vs ELT and the Modern Data Stack]]).
 The important design question is where teams transform data and how consumers
 use it.
 
-Choudhury's growth-stack episode keeps the warehouse at the center too. At
-28:52-35:27, he connects warehouses, dbt, and BI analysis. He also names
-Snowflake, BigQuery, Redshift, and warehouse-first analytics. That flow supports
+The growth-stack version keeps the warehouse at the center too, connecting
+warehouses, dbt, and BI analysis, and naming Snowflake, BigQuery, Redshift, and
+warehouse-first analytics
+([[person:arpitchoudhury|Arpit Choudhury]],
+[[podcast:data-led-growth-event-tracking-and-reverse-etl|How to Build a Data-Led Growth Stack]]).
+That flow supports
 [[product analytics]] and
 [[data activation]] because the
 same modeled customer data can drive analysis and downstream tools.
 
-Tuli and Brudaru broaden the storage discussion toward lakehouse designs.
-Tuli discusses staging and lakehouse architecture at 32:57 in
-[[podcast:modern-data-pipelines-orchestration-ingestion-modeling|Modern Data Pipeline Architecture]].
+Others broaden the storage discussion toward lakehouse designs. Staging and
+lakehouse architecture come up on the pipeline side
+([[person:santonatuli|Santona Tuli]],
+[[podcast:modern-data-pipelines-orchestration-ingestion-modeling|Modern Data Pipeline Architecture]]).
 
-Brudaru explains Apache Iceberg as a table format over Parquet at 18:17 in
-[[podcast:trends-in-modern-data-engineering|Modern Data Engineering Trends]].
-At 21:27, he separates storage, compute, and access through the catalog
-discussion. He also includes metadata and lineage. The storage tradeoff sits
-between [[Data Warehouse]] and
+Apache Iceberg is a table format over Parquet, and the catalog separates
+storage, compute, and access, including metadata and lineage
+([[person:adrianbrudaru|Adrian Brudaru]],
+[[podcast:trends-in-modern-data-engineering|Modern Data Engineering Trends]]).
+The storage tradeoff sits between [[Data Warehouse]] and
 [[Data Warehouse vs Data Lakehouse]]
 because teams choose between warehouse-first modeling, lakehouse table formats,
 and mixed architectures.

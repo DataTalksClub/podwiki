@@ -35,14 +35,13 @@ to repeat. In small teams, the same person may do both. In larger teams,
 DataOps becomes a cross-team enablement and reliability role.
 
 [[person:christopherbergh|Christopher Bergh]] frames
-the practical target in
-[[podcast:dataops-for-data-engineering|15:52|DataOps for Data Engineering]]:
-automation, observability, and productivity belong together.
+the practical target: automation, observability, and productivity belong
+together
+[[podcast:dataops-for-data-engineering|DataOps for Data Engineering]].
 [[person:tomaszhinc|Tomasz Hinc]] gives the
-role-shaped version in
-[[podcast:dataops-and-gitops-best-practices-for-data-teams|40:44|DataOps and GitOps for Data Teams]],
-where DataOps sits closer to support, communication, onboarding, and monitoring
-than to writing every pipeline.
+role-shaped version, where DataOps sits closer to support, communication,
+onboarding, and monitoring than to writing every pipeline
+[[podcast:dataops-and-gitops-best-practices-for-data-teams|DataOps and GitOps for Data Teams]].
 
 ## What the Role Delivers
 
@@ -76,9 +75,10 @@ The sharpest role question in the archive is whether DataOps deserves a
 dedicated title at all. Guests agree on the reliability goal but split on the
 staffing answer, and the split is the most useful thing on this page.
 
-Hinc gives the clearest dedicated-role version. In
-[[podcast:dataops-and-gitops-best-practices-for-data-teams|DataOps and GitOps for Data Teams at 40:44-43:36]],
-he separates pipeline coding from cross-team support. Data engineers spend more
+Hinc gives the dedicated-role version, separating pipeline coding from
+cross-team support
+[[podcast:dataops-and-gitops-best-practices-for-data-teams|DataOps and GitOps for Data Teams]].
+Data engineers spend more
 time building pipelines and checks; the DataOps person spends more time helping
 teams onboard, troubleshoot, understand monitoring, and work across Slack, Zoom,
 and review flows. That version is close to
@@ -86,12 +86,13 @@ and review flows. That version is close to
 [[self-service-data-platforms|self-service data platforms]],
 but with a data-specific operating surface.
 
-Bergh's version is deliberately less title-bound. In
-[[podcast:dataops-automation-and-reliable-data-pipelines|Mastering DataOps at 6:42 and 7:22]],
-DataOps reduces production errors, deployment cycle time, and team toil, and in
-[[podcast:dataops-for-data-engineering|50:29|DataOps for Data Engineering]]
-he recommends starting from production monitoring because real incidents reveal
-which operating gaps matter. In that framing a data engineer, analytics
+Bergh's version is deliberately less title-bound: DataOps reduces production
+errors, deployment cycle time, and team toil
+[[podcast:dataops-automation-and-reliable-data-pipelines|Mastering DataOps]],
+and starting from production monitoring reveals which operating gaps matter,
+because real incidents surface them
+[[podcast:dataops-for-data-engineering|DataOps for Data Engineering]]. In that
+framing a data engineer, analytics
 engineer, or team lead can apply DataOps practice long before the company hires
 a separate DataOps engineer.
 

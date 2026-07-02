@@ -163,16 +163,16 @@ dev tools and take-home RAG-style assignments add current proof
 ([[podcast:s23e04-how-to-become-ai-engineer-after-career-break|Career Break to AI Engineer]],
 0:00-44:30).
 
-[[person:jessicagreene|Jessica Greene]] adds the
-community-driven entry route. In
-[[podcast:how-to-switch-to-ml-tech-without-experience|How to Switch to ML Tech Without Experience]],
-she describes going from film and coffee roasting to ML through Codecademy,
-Andrew Ng's course, and FreeCodeCamp, supported by a German Bildungsgutschein.
+A community-driven entry route runs from film and coffee roasting into ML
+through Codecademy, Andrew Ng's course, and FreeCodeCamp, supported by a German
+Bildungsgutschein
+([[person:jessicagreene|Jessica Greene]],
+[[podcast:how-to-switch-to-ml-tech-without-experience|How to Switch to ML Tech Without Experience]]).
 PyLadies meetups and Rails Girls Summer of Code provided structured pair
 programming and mentorship. Community organizing at those events created
-networking, leadership, and management skills that directly led to her
-internship at Ecosia. She also emphasizes public speaking as a career
-accelerator — start small, do dry runs, and craft a personal edge.
+networking, leadership, and management skills that led directly to an
+internship at Ecosia. Public speaking works as a career accelerator — start
+small, do dry runs, and craft a personal edge.
 
 Freelance transitions add a different disagreement. The proof isn't only
 technical competence because the buyer also needs a reason to trust the person.
@@ -290,7 +290,7 @@ current proof
 15:37-33:45).
 
 In
-[[podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for|Data Engineer Career in 2026 at 57:35-1:04:42]],
+[[podcast:s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for|Data Engineer Career in 2026]],
 [[person:slawomirtulski|Slawomir Tulski]] favors
 end-to-end projects for data-engineering portfolios. A strong project includes
 ingestion and storage. It also includes modeling and serving, with a useful

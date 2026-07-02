@@ -11,61 +11,48 @@ related:
 ---
 
 Caching is the reuse of already computed work so an AI or data system can avoid
-doing the same expensive step on every request. In the DataTalks.Club podcast
-discussions, the clearest example is prompt caching for LLM systems. When many
-calls share the same prompt prefix or model computation, teams can reduce
-per-request cost and latency. Guests discuss caching alongside
+doing the same expensive step on every request. The clearest example is prompt
+caching for LLM systems: when many calls share the same prompt prefix or model
+computation, teams can reduce per-request cost and latency. Caching sits
+alongside
 [[prompt engineering]],
 [[LLM production patterns]],
 and [[AI infrastructure]].
 
-[[person:bartoszmikulski|Bartosz Mikulski]] gives the
-main podcast discussion in
-[[podcast:production-ready-ai-engineering|Production AI Engineering]].
-At 28:16-31:45, he moves from examples and prompt evaluation to prompt
-compression and prompt caching. He treats caching as a later efficiency tactic,
-not a magic quality fix. Teams can use it after they understand which prompt content helps.
-They also need to know which examples justify their token cost and what the
-expected output should look like.
+Prompt evaluation leads into prompt compression and prompt caching, which is a
+later efficiency tactic, not a magic quality fix. Teams can use it after they
+understand which prompt content helps, which examples justify their token cost,
+and what the expected output should look like
+([[podcast:production-ready-ai-engineering|Production AI Engineering]]).
 
 ## Reusing Stable Computation
 
-DataTalks.Club guests use caching as an efficiency tactic, not as a separate AI
-discipline. Teams cache when the same stable input appears across requests. The
-reused input may be a retrieval result, model state, or prompt prefix. Teams do
-this to reduce repeated computation while preserving the behavior that tests and
-evaluation already approved.
+Caching is an efficiency tactic, not a separate AI discipline. Teams cache when
+the same stable input appears across requests, whether a retrieval result, model
+state, or prompt prefix, to reduce repeated computation while preserving the
+behavior that tests and evaluation already approved.
 
-The LLM version appears at 29:33 in
-[[podcast:production-ready-ai-engineering|Production AI Engineering]],
-where bigger prompts cost more because each extra example adds tokens. At
-30:00, Bartosz recommends collecting evaluation data and stopping when more
-examples no longer improve results. At 31:04, prompt compression and prompt
-caching split into different tactics. Compression creates a shorter prompt with
-the same intended behavior, while caching reuses work for repeated prompt parts.
+Bigger prompts cost more because each extra example adds tokens, so evaluation
+data is collected and example-adding stops when results no longer improve. Prompt
+compression and prompt caching are different tactics: compression creates a
+shorter prompt with the same intended behavior, while caching reuses work for
+repeated prompt parts
+([[podcast:production-ready-ai-engineering|Production AI Engineering]]).
 
-At 31:45-33:29, the example is provider-side prompt caching that avoids sending
-or paying for the same large codebase context on every coding request. Bartosz
-recalls attention-value caching as a possible implementation detail. He then
-says readers should check provider documentation rather than rely on their
-memory.
+One example is provider-side prompt caching that avoids sending or paying for the
+same large codebase context on every coding request. Attention-value caching is
+a possible implementation detail, but provider documentation is the authority
+rather than memory; the product-level technique holds without one universal
+provider implementation
+([[podcast:production-ready-ai-engineering|Production AI Engineering]]).
 
-Bartosz supports the product-level technique, but he doesn't claim one universal
-provider implementation.
-
-Two adjacent podcast discussions place caching inside broader production
-decisions. In
-[[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]],
-[[person:meryemarik|Meryem Arik]] discusses model
-compression and serving efficiency at 25:26. At 51:35-52:57, she turns to
-hardware, latency, and cost.
-
-In
-[[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]],
-[[person:ranjithakulkarni|Ranjitha Kulkarni]] explains
-context engineering and RAG preprocessing at 28:17-36:41. Her 30:27 chapter
-names latency and cost as reasons to reduce context before an LLM call. Together,
-these episodes connect caching to [[AI engineering]],
+Two adjacent discussions place caching inside broader production decisions. Model
+compression and serving efficiency connect to hardware, latency, and cost
+([[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]]).
+Context engineering and RAG preprocessing name latency and cost as reasons to
+reduce context before an LLM call
+([[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]).
+Together, these connect caching to [[AI engineering]],
 [[AI tooling]], and
 [[production]] work rather than to a
 standalone cache layer.
@@ -73,36 +60,30 @@ standalone cache layer.
 ## Prompt Caching and Model Efficiency
 
 Prompt caching matters when many requests share a long prefix. Coding assistants
-are the example in the Bartosz discussion: the same project context may appear
-again and again, while the final instruction changes. If the provider or serving
-layer can reuse the stable prefix, the request may need less processing. It may
-also cost less
-([[podcast:production-ready-ai-engineering|Production AI Engineering]],
-31:45-33:29).
+are the example: the same project context may appear again and again while the
+final instruction changes, and if the provider or serving layer can reuse the
+stable prefix, the request may need less processing and cost less
+([[podcast:production-ready-ai-engineering|Production AI Engineering]]).
 
 Prompt caching connects directly to
 [[AI engineering]] because the
-engineer chooses prompt structure, examples, and context boundaries.
-At 25:13-28:16 in
-[[podcast:production-ready-ai-engineering|Production AI Engineering]],
-Bartosz explains in-context learning through examples and JSON formatting. At
-28:16-30:00, he ties those examples to evaluation and cost. A cache-friendly
-prompt still has to be a good prompt: repeated wrong context only makes wrong
-behavior cheaper to repeat.
+engineer chooses prompt structure, examples, and context boundaries. In-context
+learning through examples and JSON formatting ties to evaluation and cost
+([[podcast:production-ready-ai-engineering|Production AI Engineering]]).
+A cache-friendly prompt still has to be a good prompt: repeated wrong context
+only makes wrong behavior cheaper to repeat.
 
-Prompt compression is a neighboring tactic, but Bartosz treats it as different
-from caching. Compression changes the prompt so it uses fewer tokens. Caching
-keeps the useful shared part stable enough to reuse. Both belong in the same
-cost-control conversation, but they create different engineering constraints.
-
-Compression needs evaluation to prove that the shorter prompt still works.
-Caching needs a prompt or context layout that creates reusable prefixes.
+Prompt compression is a neighboring but different tactic. Compression changes the
+prompt so it uses fewer tokens; caching keeps the useful shared part stable
+enough to reuse. Both belong in the same cost-control conversation but create
+different engineering constraints: compression needs evaluation to prove the
+shorter prompt still works, while caching needs a prompt or context layout that
+creates reusable prefixes.
 
 ## System Placement
 
-Caching belongs in the application and serving path around the model.
-
-Teams use it in three layers:
+Caching belongs in the application and serving path around the model, across
+three layers:
 
 - [[AI tooling]] when a team uses
   provider prompt caching or prompt templates.
@@ -111,90 +92,79 @@ Teams use it in three layers:
 - [[Production]] when cached results
   affect reliability, freshness, rollback, or user-facing latency.
 
-Meryem Arik's deployment episode supports that placement even though it isn't
-primarily a caching episode. At 25:26 in
-[[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]],
-she describes serving large models as difficult and connects model compression
-to needing fewer GPUs. At 51:35-52:57, she compares API speed with self-hosted
-models. She also compares hardware choices, cost, privacy, and long-term
-performance.
-
-Caching is one request-level tool in that serving-efficiency problem.
-Compression, faster inference servers, and hardware choices sit beside it.
+The deployment view supports that placement: serving large models is difficult,
+model compression connects to needing fewer GPUs, and API speed compares against
+self-hosted models on hardware choices, cost, privacy, and long-term performance
+([[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]]).
+Caching is one request-level tool in that serving-efficiency problem, beside
+compression, faster inference servers, and hardware choices.
 
 Caching also belongs near [[retrieval-augmented-generation|RAG]] and
 [[retrieval-augmented-generation|retrieval-augmented generation]]
-because retrieved context can dominate prompt size and latency. Ranjitha
-Kulkarni doesn't frame her 29:30-32:48 discussion as caching. Her context
-engineering section gives the architectural reason caching often appears in RAG
-systems.
-
-Stuffing too much context into the model increases latency, cost, and noise
+because retrieved context can dominate prompt size and latency. Context
+engineering gives the architectural reason caching often appears in RAG systems:
+stuffing too much context into the model increases latency, cost, and noise
 ([[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]).
-Teams first reduce and structure context with retrieval, chunking, metadata,
-and wrappers. They can then cache stable retrieval results or stable context
-blocks when the product can tolerate their freshness rules.
+Teams first reduce and structure context with retrieval, chunking, metadata, and
+wrappers, then cache stable retrieval results or stable context blocks when the
+product can tolerate their freshness rules.
 
-For data systems, Bartosz's testing sequence implies a guardrail: cache only
-after correctness is visible. He starts the same production AI episode with data
-trust, snapshot tests, integration tests, and testing tools at 9:05-13:14. Teams
-that test first are less likely to let caching hide bad inputs.
-
-If a data pipeline or AI feature caches intermediate results, teams still need
-tests around the source data. They also need monitoring for the cached value and
-the decision that consumes it.
+For data systems, the testing sequence implies a guardrail: cache only after
+correctness is visible. Production AI starts with data trust, snapshot tests,
+integration tests, and testing tools
+([[podcast:production-ready-ai-engineering|Production AI Engineering]]),
+and teams that test first are less likely to let caching hide bad inputs. If a
+data pipeline or AI feature caches intermediate results, teams still need tests
+around the source data and monitoring for the cached value and the decision that
+consumes it.
 
 ## Optimization Tradeoffs Across Layers
 
-Guests agree that efficiency work must serve the product rather than the
-benchmark. Bartosz starts from prompt behavior and evaluation. Meryem starts
-from serving and deployment control. Ranjitha starts from context quality and
-workflow architecture. They all connect efficiency to latency, cost, and
-reliability, but they optimize different layers.
+Efficiency work must serve the product rather than the benchmark. Three views
+start from different layers: prompt behavior and evaluation, serving and
+deployment control, and context quality and workflow architecture. All connect
+efficiency to latency, cost, and reliability, but optimize different layers.
 
-Bartosz's tradeoff is prompt quality versus repeated token spend. At 30:00 in
-[[podcast:production-ready-ai-engineering|Production AI Engineering]],
-he says teams should gather evaluation data and stop adding examples when
-quality stops improving. Caching helps after that point because the team has
-identified reusable prompt content that improves the result.
+The first tradeoff is prompt quality versus repeated token spend: gather
+evaluation data and stop adding examples when quality stops improving. Caching
+helps after that point, once reusable prompt content that improves the result is
+identified
+([[podcast:production-ready-ai-engineering|Production AI Engineering]]).
 
-Meryem's tradeoff is speed of adoption versus long-term control. Teams can move
-quickly with hosted APIs, but open-source or self-hosted models become
-important when cost and privacy matter. They also matter when teams need
-different performance or hardware choices
-([[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]],
-51:35-52:57). In that framing, caching isn't the first decision. It's one
-optimization among several once a team knows where the model runs.
+The second tradeoff is speed of adoption versus long-term control. Teams can move
+quickly with hosted APIs, but open-source or self-hosted models become important
+when cost, privacy, performance, or hardware choices matter
+([[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]]).
+In that framing, caching isn't the first decision; it's one optimization among
+several once a team knows where the model runs.
 
-Ranjitha's tradeoff is context quantity versus context usefulness. At 30:27 in
-[[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]],
-she names latency, cost, and garbage-in/garbage-out as reasons not to overload
-the LLM context. Caching and retrieval meet here. Caching a large noisy context
-is less useful than preprocessing and caching the smaller context the model can
-reliably use.
+The third tradeoff is context quantity versus context usefulness: latency, cost,
+and garbage-in/garbage-out are reasons not to overload the LLM context
+([[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]).
+Caching and retrieval meet here, because caching a large noisy context is less
+useful than preprocessing and caching the smaller context the model can reliably
+use.
 
 ## Latency, Cost, and Reliability
 
-Caching can lower latency when a system reuses work instead of recomputing it.
-It can lower cost because repeated LLM context and repeated model processing
-can dominate per-request spend. It can improve reliability when a cache
-stabilizes common paths. Without a freshness rule, the same cache can serve
-stale or wrong context.
+Caching can lower latency when a system reuses work instead of recomputing it. It
+can lower cost because repeated LLM context and repeated model processing can
+dominate per-request spend. It can improve reliability when a cache stabilizes
+common paths, but without a freshness rule the same cache can serve stale or
+wrong context.
 
-Bartosz, Ranjitha, and Meryem support a practical rule: make cost and latency
-visible before optimizing. Bartosz ties prompt examples to cost at 29:33 and
-evaluation at 30:00 in
-[[podcast:production-ready-ai-engineering|Production AI Engineering]].
-Ranjitha ties long context to latency, cost, and noisy outputs at 30:27 in
-[[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]].
-Meryem ties deployment choices to hardware, cost, and performance at 51:35 in
-[[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]].
+The practical rule is to make cost and latency visible before optimizing. Prompt
+examples tie to cost and evaluation
+([[podcast:production-ready-ai-engineering|Production AI Engineering]]);
+long context ties to latency, cost, and noisy outputs
+([[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]);
+and deployment choices tie to hardware, cost, and performance
+([[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]]).
 
-Together, these discussions treat caching as a production control rather than a
-shortcut. A useful cache has a clear unit of reuse, a freshness boundary, and
-evaluation that shows the cached path still produces acceptable results. Without
-those, caching can make a bad AI system cheaper and faster without making it
-more dependable.
+Together these treat caching as a production control rather than a shortcut. A
+useful cache has a clear unit of reuse, a freshness boundary, and evaluation that
+shows the cached path still produces acceptable results. Without those, caching
+can make a bad AI system cheaper and faster without making it more dependable.
 
 ## Related Pages
 
@@ -208,3 +178,4 @@ and infrastructure:
 - [[Production]]
 - [[Prompt Engineering]]
 - [[LLM Tools]]
+</content>

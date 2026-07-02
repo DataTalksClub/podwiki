@@ -21,8 +21,7 @@ The strongest projects go beyond SQL or a dashboard because they explain table
 grain and modeled layers. They add tests and BI consumption around those
 definitions. They also show the business question behind the model.
 
-[[person:victoriaperezmola|Victoria Perez Mola]]
-describes analytics engineering as daily work around data modeling, data
+Analytics engineering is daily work around data modeling, data
 quality, dbt transformations, and Looker exposure
 ([[podcast:analytics-engineer-skills-tools|4:05-10:04]]).
 
@@ -37,9 +36,8 @@ and the implementation-focused
 For ingestion, orchestration, and platform-heavy work, use
 [[Data Engineering Portfolio Projects]].
 
-[[person:juanmanuelperafan|Juan Manuel Perafan]]
-adds the second half of the definition: the model should make business reality
-match the data. Engineering discipline should make that representation safer
+The model should make business reality
+match the data, and engineering discipline should make that representation safer
 ([[podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices|Foundations of the Analytics Engineer Role at 11:03 and 46:34]]).
 
 ## Reviewable Analytics Project
@@ -51,25 +49,22 @@ should also show intermediate logic, marts, tests, and docs. The final
 analytical surface should be a dashboard or query layer that consumes shared
 models.
 
-[[person:victoriaperezmola|Victoria Perez Mola]]
-grounds the role in SQL models that analysts and data scientists can use.
+The role is grounded in SQL models that analysts and data scientists can use.
 Looker is the consumption layer, and dbt is the transformation layer
 ([[podcast:analytics-engineer-skills-tools|4:05-8:59]]).
 That makes a dashboard-only project weak unless the dashboard sits on reusable
 models. It also makes a dbt-only project weak unless the models answer a
 business question and expose definitions to consumers.
 
-[[person:juanmanuelperafan|Juan Manuel Perafan]]
-pushes the definition beyond "between analyst and engineer." He frames the work
-as making data reflect business reality. He then adds robustness and
+The work reaches beyond the gap "between analyst and engineer": it means making
+data reflect business reality, with robustness and
 software-engineering discipline
 ([[podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices|7:56-16:25 and 46:34]]).
 A portfolio should therefore explain why the model represents the business
 correctly. It should state what one row means, which joins preserve the grain,
 and which caveats stakeholders should know.
 
-[[person:nataliekwong|Natalie Kwong]] places the same
-work inside [[etl-vs-elt|ETL and ELT]]. Data
+The same work sits inside [[etl-vs-elt|ETL and ELT]]. Data
 arrives first, and analysts or analytics engineers then transform it with SQL and
 dbt and publish data marts or consumption tables
 ([[podcast:data-engineering-tools-modern-data-stack|7:57-18:47 and 31:31]]).

@@ -32,17 +32,12 @@ The data engineering move adds backend work:
 Those responsibilities sit inside the
 [[Data Engineer Role]].
 
-Jeff Katz gives a direct answer about this transition.
-[[person:jeffkatz|Jeff Katz]] answers the analyst-to-data
-engineer question at 40:42-41:41 in
-[[podcast:data-engineering-career-path-and-skills|Build a Data Engineering Career]].
-
-His answer isn't "learn every data tool."
-For analysts and BI professionals, he says the main gaps are backend
-engineering and cloud computing. Python is the other main gap. He also says
-tools such as Fivetran and dbt are easier to learn than the deeper work behind
-staging and integration. Marts, common table expressions, and modular SQL matter
-too.
+For analysts and BI professionals, the main gaps are backend engineering and
+cloud computing, with Python as the other main gap
+([[podcast:data-engineering-career-path-and-skills|Build a Data Engineering Career]]).
+The answer isn't "learn every data tool." Tools such as Fivetran and dbt are
+easier to learn than the deeper work behind staging and integration. Marts,
+common table expressions, and modular SQL matter too.
 
 This roadmap focuses on the analyst-to-engineer transition. The broader
 learning sequence is covered in

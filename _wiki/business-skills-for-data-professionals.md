@@ -13,44 +13,40 @@ related:
 ---
 
 Business skills for data professionals connect technical work to decisions and
-trust. On DataTalks.Club, the skill is less about polishing a finished chart
-than about learning the business language early enough to guide the analysis or
-model. The same skill also guides team habits and shared data models. It sits
-close to [[Communication]],
+trust. The skill is less about polishing a finished chart than about learning
+the business language early enough to guide the analysis or model. The same
+skill also guides team habits and shared data models. It sits close to
+[[Communication]],
 [[Metrics]], [[Product Analytics]],
 and [[Data Strategy]].
 
-[[person:lorismarini|Loris Marini]] gives the
-individual-contributor version in
-[[podcast:data-professionals-business-skills-in-saas|Business Skills for Data Professionals in SaaS]].
-He tells data professionals to learn what stakeholders mean by core words. They
-also need to map who owns decisions and choose the simplest analysis that can
-move the business.
+The individual-contributor version centers on learning what stakeholders mean by
+core words, mapping who owns decisions, and choosing the simplest analysis that
+can move the business
+([[person:lorismarini|Loris Marini]],
+[[podcast:data-professionals-business-skills-in-saas|Business Skills for Data Professionals in SaaS]]).
 
-[[person:katiebauer|Katie Bauer]]
-adds the management version in
-[[podcast:hiring-and-managing-data-science-teams-in-b2b-saas|Hiring and Managing Data Science Teams in B2B SaaS]].
-For her, business skill includes team design and mentorship. It also includes
-maintainability and stakeholder conversations.
+The management version adds team design, mentorship, maintainability, and
+stakeholder conversations
+([[person:katiebauer|Katie Bauer]],
+[[podcast:hiring-and-managing-data-science-teams-in-b2b-saas|Hiring and Managing Data Science Teams in B2B SaaS]]).
 [[book:20210823-business-skills-for-data-scientists|Business Skills for Data Scientists]]
 by David Stephenson expands the same stakeholder and communication practices into a structured playbook for analytics teams.
 
-[[person:loicmagnien|Loïc Magnien]]
-extends the topic into the
-[[data architect role]] in
-[[podcast:from-iot-data-engineering-to-leading-data-architect|From IoT Data Engineering to Leading Data Architect]].
-Architects turn department needs into shared models for finance and supply
-chain. Sales, analysts, and engineers can use the same models.
+In the [[data architect role]], architects turn department needs into shared
+models for finance and supply chain, so sales, analysts, and engineers can use
+the same models
+([[person:loicmagnien|Loïc Magnien]],
+[[podcast:from-iot-data-engineering-to-leading-data-architect|From IoT Data Engineering to Leading Data Architect]]).
 
 ## Shared Meaning Before Metrics
 
-Metric work fails when a team shares a dashboard but not a definition. Loris
-starts from the meaning of words such as "customer" and "good usage" before he
-gets to lead indicators, stickiness, churn, and lifetime value. At 12:19 and
-15:46 in
-[[podcast:data-professionals-business-skills-in-saas|Business Skills for Data Professionals in SaaS]],
-he treats metric work as cross-functional semantic alignment. At 18:00, the
-same point becomes a context question, not only a query-writing question.
+Metric work fails when a team shares a dashboard but not a definition. The
+meaning of words such as "customer" and "good usage" comes before lead
+indicators, stickiness, churn, and lifetime value. Metric work is
+cross-functional semantic alignment, and a context question as much as a
+query-writing question
+([[podcast:data-professionals-business-skills-in-saas|Business Skills for Data Professionals in SaaS]]).
 
 For [[Metrics]] and
 [[Product Analytics]], a data
@@ -60,25 +56,22 @@ numerically correct and still fail if teams attach different meanings to the
 same word. Sales and marketing may read one meaning from a dashboard. Customer
 success, finance, product, and data teams may read another.
 
-Loïc shows the architecture version at 32:58 and 36:00 in
-[[podcast:from-iot-data-engineering-to-leading-data-architect|From IoT Data Engineering to Leading Data Architect]].
-Stakeholder discovery feeds analytics modeling, and core models serve several
-consumers. The architect has to decide whether a definition belongs in one
-report or in a shared model that many teams reuse.
+In the architecture version, stakeholder discovery feeds analytics modeling, and
+core models serve several consumers
+([[podcast:from-iot-data-engineering-to-leading-data-architect|From IoT Data Engineering to Leading Data Architect]]).
+The architect has to decide whether a definition belongs in one report or in a
+shared model that many teams reuse.
 
 ## Stakeholder Trust
 
-Trust starts before the presentation. At 25:53 and 27:55 in
-[[podcast:data-professionals-business-skills-in-saas|Business Skills for Data Professionals in SaaS]],
-Loris ties trust to active listening, business literacy, and explicit
-stakeholder mapping. At 35:20, he recommends recording names, roles, and
-context. At 37:51, he recommends joining meetings where teams use their
-business language in real decisions.
+Trust starts before the presentation. It rests on active listening, business
+literacy, and explicit stakeholder mapping: recording names, roles, and context,
+and joining meetings where teams use their business language in real decisions
+([[podcast:data-professionals-business-skills-in-saas|Business Skills for Data Professionals in SaaS]]).
 
-Katie turns the same habit into
-[[Career Growth]] advice. At 34:16 in
-[[podcast:hiring-and-managing-data-science-teams-in-b2b-saas|Hiring and Managing Data Science Teams in B2B SaaS]],
-she recommends prepared conversations with product managers and senior leaders.
+The same habit becomes [[Career Growth]] advice: prepared conversations with
+product managers and senior leaders
+([[podcast:hiring-and-managing-data-science-teams-in-b2b-saas|Hiring and Managing Data Science Teams in B2B SaaS]]).
 The data professional should learn their priorities, understand what worries
 them, and study the role before the meeting. They're learning how the company
 decides, not collecting contacts.
@@ -91,31 +84,28 @@ room.
 
 ## Method Choice
 
-Business skill also means matching the method to the decision. Loris discusses
-production ML and marketing automation in
-[[podcast:data-professionals-business-skills-in-saas|Business Skills for Data Professionals in SaaS]],
-then returns to a simpler rule. Diagnose the business problem first, then use
-the smallest tool that answers it. For some decisions, a conversation or pivot
-table may matter more than a model. Exploratory analysis or storytelling may
-matter more too.
+Business skill also means matching the method to the decision. Even alongside
+production ML and marketing automation, a simpler rule holds: diagnose the
+business problem first, then use the smallest tool that answers it
+([[podcast:data-professionals-business-skills-in-saas|Business Skills for Data Professionals in SaaS]]).
+For some decisions, a conversation or pivot table may matter more than a model,
+and exploratory analysis or storytelling may matter more too.
 
-Katie adds a boundary for [[Data Teams]].
-At 11:58 in
-[[podcast:hiring-and-managing-data-science-teams-in-b2b-saas|Hiring and Managing Data Science Teams in B2B SaaS]],
-she names maintainability, documentation, and peer review as part of analytics
-craft. One-off analysis can stay lightweight, but shared assets need enough
-quality for handover, onboarding, and team growth.
+A boundary for [[Data Teams]] names maintainability, documentation, and peer
+review as part of analytics craft
+([[podcast:hiring-and-managing-data-science-teams-in-b2b-saas|Hiring and Managing Data Science Teams in B2B SaaS]]).
+One-off analysis can stay lightweight, but shared assets need enough quality for
+handover, onboarding, and team growth.
 
 ## Team and Management Judgment
 
 Business skills change when the data professional manages the work of others.
-At 8:33 in
-[[podcast:hiring-and-managing-data-science-teams-in-b2b-saas|Hiring and Managing Data Science Teams in B2B SaaS]],
-Katie describes data science managers working through matrix organizations and
-cross-functional teams. She also covers hiring across product analytics,
-analytics engineering, marketing science, and data science. Managers then coach
-juniors to practice stakeholder conversations rather than leaving that skill to
-chance.
+Data science managers work through matrix organizations and cross-functional
+teams, hiring across product analytics, analytics engineering, marketing science,
+and data science
+([[podcast:hiring-and-managing-data-science-teams-in-b2b-saas|Hiring and Managing Data Science Teams in B2B SaaS]]).
+Managers then coach juniors to practice stakeholder conversations rather than
+leaving that skill to chance.
 
 For managers, business skill belongs with
 [[Leadership]] and
@@ -127,12 +117,11 @@ because they slow down the next teammate and weaken trust in the team's output.
 ## Architecture and Strategy
 
 At senior levels, business skill moves from one analysis or model into shared
-foundations. Loïc describes the architect role as senior, end-to-end ownership
-at 22:47 in
-[[podcast:from-iot-data-engineering-to-leading-data-architect|From IoT Data Engineering to Leading Data Architect]].
-At 29:56, lakehouse layering separates raw, cleaned, and business-facing data.
-At 32:58 and 36:00, analytics modeling and core models help several departments
-work from the same foundation.
+foundations. The architect role is senior, end-to-end ownership
+([[podcast:from-iot-data-engineering-to-leading-data-architect|From IoT Data Engineering to Leading Data Architect]]).
+Lakehouse layering separates raw, cleaned, and business-facing data, and
+analytics modeling and core models help several departments work from the same
+foundation.
 
 Those choices belong to [[Data Strategy]]
 because architects decide which stakeholder needs deserve custom work. They

@@ -24,14 +24,13 @@ The platform team isn't only an infrastructure team. It owns paved paths and
 templates along with tooling integrations and documentation. It also owns
 support models and operating standards.
 
-In
-[[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]],
-[[person:simonstiebellehner|Simon Stiebellehner]]
-connects platform work to cloud infrastructure, Kubernetes, and Terraform at
-8:11. At 10:47, he starts from data science workflows. He then moves into
-self-service compute, [[experiment tracking]],
-[[model registry]], and serving.
-At 31:51, he adds orchestration.
+Platform work spans cloud infrastructure, Kubernetes, and Terraform, and it
+starts from data science workflows before moving into self-service compute,
+[[experiment tracking]],
+[[model registry]], serving, and
+orchestration
+([[person:simonstiebellehner|Simon Stiebellehner]] in
+[[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
 
 ## Reusable Internal Paths
 
@@ -40,38 +39,34 @@ work reusable. The repeated work can be compute provisioning or a model release
 path. It can also be observability setup, repository standards, or a reliable
 path for publishing data products.
 
-Simon gives the clearest ML-platform version. In
-[[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]],
-he describes platform work as an answer to repeated deployment and governance
-problems. At 16:52 and 17:14, he frames build-versus-buy and standardization
-as responses to team-level repetition. At 20:04, he also leaves room for
-incremental SaaS components instead of a single large internal platform.
+Platform work answers repeated deployment and governance problems, with
+build-versus-buy and standardization as responses to team-level repetition.
+There is also room for incremental SaaS components instead of a single large
+internal platform
+([[person:simonstiebellehner|Simon Stiebellehner]] in
+[[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
 
-[[person:raphaelhoogvliets|Raphaël Hoogvliets]]
-describes the same idea through a centralized enabling team in
-[[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]].
-At 23:01 and 25:20, his MLOps team supports product teams and ML engineers. At
-39:06, that support becomes concrete through CI and repository structure. He
-also names parameterization and tests.
+The same idea appears through a centralized enabling team: an MLOps team
+supports product teams and ML engineers, and that support becomes concrete
+through CI, repository structure, parameterization, and tests. Data versioning
+and traceability come next, drawing on a skill mix across data science, SRE,
+DevOps, and platform engineering
+([[person:raphaelhoogvliets|Raphaël Hoogvliets]] in
+[[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]).
 
-At 42:31 and 45:10, Raphaël adds data versioning and traceability. He also
-describes a skill mix across data science, SRE, DevOps, and platform
-engineering.
+Platform engineering is therefore narrower than "all infrastructure" and broader
+than a tool portal. A platform gives teams a supported way to do common work. It
+also gives the organization a place to encode standards, security, and
+reliability without turning every project into a custom consulting job.
 
-DataTalks.Club guests therefore describe platform engineering as narrower than
-"all infrastructure" and broader than a tool portal. A platform gives teams a
-supported way to do common work. It also gives the organization a place to
-encode standards, security, and reliability without turning every project into a
-custom consulting job.
-
-[[person:josemaria|José Figueiredo]] brings the
-same pattern into the IoT domain. In
-[[podcast:remote-data-engineering-work-and-building-iot-platforms|Remote Data Engineering and IoT Platforms]],
-he describes building an "operating system for sensors" — a platform layer that
-standardizes sensor onboarding, real-time processing, storage, and data
-delivery to internal stakeholders. The platform handles remote diagnostics and
-context for sensor data, turning raw signals into business value through a
-shared pipeline rather than ad-hoc per-project integrations.
+The same pattern appears in the IoT domain as an "operating system for
+sensors" — a platform layer that standardizes sensor onboarding, real-time
+processing, storage, and data delivery to internal stakeholders. It handles
+remote diagnostics and context for sensor data, turning raw signals into
+business value through a shared pipeline rather than ad-hoc per-project
+integrations
+([[person:josemaria|José Figueiredo]] in
+[[podcast:remote-data-engineering-work-and-building-iot-platforms|Remote Data Engineering and IoT Platforms]]).
 
 ## Build Timing and Product Discipline
 
@@ -79,35 +74,33 @@ Guests diverge most on timing and product discipline. They differ on when a
 platform should exist, how productized it should be, and how much infrastructure
 the platform team should own.
 
-Simon is cautious about starting too early. In
-[[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]],
-he argues at 47:08 and 49:19 that teams need real models and business value.
-They also need repeated needs before they build heavy platform layers. Simon
-keeps [[machine learning infrastructure]]
-close to actual workflow evidence.
+One caution is against starting too early: teams need real models, business
+value, and repeated needs before they build heavy platform layers, keeping
+[[machine learning infrastructure]]
+close to actual workflow evidence
+([[person:simonstiebellehner|Simon Stiebellehner]] in
+[[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
 
-In [[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]],
-Raphaël starts from adoption and connects platform success to feedback loops at
-27:56. At 32:46, he moves to pain-point discovery and quick wins. At 36:55, he
-adds value measurement. His platform team earns standards by solving visible
-problems first.
+A contrasting emphasis starts from adoption and ties platform success to
+feedback loops, pain-point discovery, quick wins, and value measurement. The
+platform team earns standards by solving visible problems first
+([[person:raphaelhoogvliets|Raphaël Hoogvliets]] in
+[[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]).
 
-[[person:geojolly|Geo Jolly]] puts the internal
-product-management lens on the same work. In
-[[podcast:ml-product-manager-and-mlops-platform-strategy|ML Product Manager and MLOps Platform Strategy]],
-he discusses internal platform users as customers at 11:24 and usability costs
-at 13:44. At 16:44, he moves to outcome-driven problem definition. He returns
-to user research for internal platforms at 55:44, which makes
+An internal product-management lens treats internal platform users as customers,
+weighs usability costs, and moves to outcome-driven problem definition and user
+research for internal platforms. That makes
 [[platform adoption]] a product
-problem, not only an engineering rollout.
+problem, not only an engineering rollout
+([[person:geojolly|Geo Jolly]] in
+[[podcast:ml-product-manager-and-mlops-platform-strategy|ML Product Manager and MLOps Platform Strategy]]).
 
-[[person:dannyleybzon|Danny Leybzon]] adds the
-tooling and integration boundary. In
-[[podcast:mlops-model-monitoring-data-observability|MLOps Architect Guide]],
-he frames the MLOps architect as a technical-business bridge at 8:11 and
-discusses tooling tradeoffs at 10:32. At 34:25 and 36:47, he moves into
-build-versus-buy decisions and platform-agnostic integrations. That's the
-platform problem from the buyer and integration side.
+The tooling and integration boundary casts the MLOps architect as a
+technical-business bridge, weighing tooling tradeoffs, build-versus-buy
+decisions, and platform-agnostic integrations. That's the platform problem from
+the buyer and integration side
+([[person:dannyleybzon|Danny Leybzon]] in
+[[podcast:mlops-model-monitoring-data-observability|MLOps Architect Guide]]).
 
 ## Platform Ownership
 

@@ -22,133 +22,128 @@ evaluation, monitoring, and ownership after release.
 [[book:20220627-designing-machine-learning-systems|Designing Machine Learning Systems]]
 by Chip Huyen is the canonical reference for this discipline: it covers the full stack from problem framing and data engineering through serving, monitoring, and continuous improvement.
 
-In [[podcast:machine-learning-system-design-interview|ML System Design Interviews]]
-[[person:valeriybabushkin|Valeriy Babushkin]] connects
-fraud detection, recommendations, feature work, and metrics. He also treats A/B
-tests, monitoring, fallbacks, and MLOps roles as design choices. In
-[[podcast:building-scalable-and-reliable-machine-learning-systems|Building Scalable and Reliable Machine Learning Systems]]
-[[person:arsenykravchenko|Arseny Kravchenko]] defines the
-same work through goals, constraints, data flow, and trade-offs. That framing
-matters when the system must run on mobile or edge devices.
+Fraud detection, recommendations, feature work, and metrics connect as design
+choices alongside A/B tests, monitoring, fallbacks, and MLOps roles
+([[podcast:machine-learning-system-design-interview|ML System Design Interviews]]).
+The same work can be defined through goals, constraints, data flow, and
+trade-offs, which matters when the system must run on mobile or edge devices
+([[podcast:building-scalable-and-reliable-machine-learning-systems|Building Scalable and Reliable Machine Learning Systems]]).
 
 ## Product Decision and Operating Boundary
 
-The practical definition across the episodes starts with the decision and ends
-with an operable system. Teams don't design a fraud model or recommender by
-choosing a model class first. The same holds for pricing, search, and computer
-vision. They first name the product decision and users. Then they name the
-failure cost, baseline, and path from data to prediction.
+The practical definition starts with the decision and ends with an operable
+system. A fraud model or recommender isn't designed by choosing a model class
+first; the same holds for pricing, search, and computer vision. Teams first name
+the product decision and users, then the failure cost, baseline, and path from
+data to prediction.
 
-Valeriy's interview episode makes this explicit at 13:58 and 16:43. The fraud
-example turns into questions about probabilities and loss functions. It also
-raises real-time requirements and class imbalance.
-
-Arseny's episode adds the same framing at 7:54, 20:21, and 29:01. A team writes
-goals and non-goals first. It then writes assumptions, metrics, and a solution
-blueprint.
+The fraud example turns into questions about probabilities and loss functions,
+real-time requirements, and class imbalance
+([[podcast:machine-learning-system-design-interview|ML System Design Interviews]]).
+The same framing writes goals and non-goals first, then assumptions, metrics, and
+a solution blueprint
+([[podcast:building-scalable-and-reliable-machine-learning-systems|Building Scalable and Reliable Machine Learning Systems]]).
 
 The term overlaps with [[MLOps]], but it isn't
 identical. Machine learning system design decides what system should exist and
 which constraints matter.
 
 MLOps covers repeatable operating practices for deployment and reproducibility,
-plus monitoring, retraining, and adoption. In
-[[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]
-[[person:raphaelhoogvliets|Raphael Hoogvliets]] describes
-those concerns through CI/CD, data versioning, containers, and adoption work.
+plus monitoring, retraining, and adoption, expressed through CI/CD, data
+versioning, containers, and adoption work
+([[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]).
 
 ## Interview, Delivery, and Platform Angles
 
-Valeriy treats system design as both an interview skill and a production habit.
-In the interview episode at 20:33 and 24:28, he focuses on communication and
-assumptions. He also covers baselines, metrics, and A/B testing. Interviewers
-need to see how a candidate reasons through ambiguity.
+System design is both an interview skill and a production habit. As an interview
+skill it centers on communication, assumptions, baselines, metrics, and A/B
+testing, and interviewers need to see how a candidate reasons through ambiguity
+([[podcast:machine-learning-system-design-interview|ML System Design Interviews]]).
 
-In
-[[podcast:ml-system-design|ML System Design Playbook]],
-he shifts from interviews to delivery. At 7:06 and 14:36, he argues that design
-documents help projects fail early and align stakeholders. At 19:01, he says
-teams should keep the design document alive as the system changes.
+On the delivery side, design documents help projects fail early and align
+stakeholders, and the document should stay alive as the system changes
+([[podcast:ml-system-design|ML System Design Playbook]]).
 
-Arseny puts more weight on constraints and early risk. In his scalable systems
-episode at 10:34, mobile and edge ML force teams to design around latency and
-frames per second. They also account for energy use and offline behavior. At
-14:49, he uses early tests to reduce unknown risks. Those latency and size
-constraints drive [[Model Optimization]]
-techniques. At 37:15, he uses diagrams to
-reason about data flow, dependencies, and batch versus real-time paths.
+Constraints and early risk carry more weight for edge systems: mobile and edge ML
+force teams to design around latency, frames per second, energy use, and offline
+behavior; early tests reduce unknown risks; and diagrams reason about data flow,
+dependencies, and batch-versus-real-time paths
+([[podcast:building-scalable-and-reliable-machine-learning-systems|Building Scalable and Reliable Machine Learning Systems]]).
+Those latency and size constraints drive [[Model Optimization]]
+techniques.
 
-[[person:nadianahar|Nadia Nahar]] approaches the same
-topic through software engineering. In
-[[podcast:software-engineering-for-machine-learning|Software Engineering for ML]],
-she frames ML products as software systems with added uncertainty. At 10:54 and
-29:42, the recurring problems are poor requirements and unrealistic expectations.
-She also names data access and deployment gaps.
-
-At 39:05, she moves the remedy toward shared vocabulary, documentation, and
-engineering habits. That makes
+Through a software-engineering lens, ML products are software systems with added
+uncertainty; recurring problems are poor requirements, unrealistic expectations,
+data access, and deployment gaps, with the remedy in shared vocabulary,
+documentation, and engineering habits
+([[podcast:software-engineering-for-machine-learning|Software Engineering for ML]]).
+That makes
 [[software engineering]] part of
 ML system design, not a separate afterthought.
 
-[[person:simonstiebellehner|Simon Stiebellehner]] and
-Raphael focus on repeated design problems. In
-[[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]],
-Simon connects experiment tracking and model registries to platform design. He
-also covers batch inference and online serving. He includes orchestration,
-metadata, and lineage.
-
-Raphael's MLOps episode at 23:01 and 27:56 adds adoption
-and developer experience. At 51:21, he adds model serving and monitoring.
+Repeated design problems push toward platform capabilities: experiment tracking
+and model registries, batch inference and online serving, orchestration,
+metadata, and lineage
+([[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]),
+plus adoption, developer experience, model serving, and monitoring
+([[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]).
 
 ## Requirements and Constraints
 
-An ML system design starts by naming the decision, users, and failure cost. In
-Valeriy's fraud-detection discussion at 13:58, a design has to account for false
-positives and false negatives. It also has to account for real-time decisions and
-manual review. In Arseny's
-episode at 29:01, goals and non-goals turn vague requirements into metrics and
-assumptions the team can challenge.
+An ML system design starts by naming the decision, users, and failure cost. Fraud
+detection has to account for false positives, false negatives, real-time
+decisions, and manual review
+([[podcast:machine-learning-system-design-interview|ML System Design Interviews]]),
+and goals and non-goals turn vague requirements into metrics and assumptions the
+team can challenge
+([[podcast:building-scalable-and-reliable-machine-learning-systems|Building Scalable and Reliable Machine Learning Systems]]).
 
-Good requirements also say when not to use ML. Valeriy's interview episode at
-52:25 treats "avoid ML" as a real design outcome when a heuristic, rule, or
-existing product behavior is enough. In that framing,
+Good requirements also say when not to use ML. "Avoid ML" is a real design
+outcome when a heuristic, rule, or existing product behavior is enough
+([[podcast:machine-learning-system-design-interview|ML System Design Interviews]]).
+In that framing,
 [[machine learning]] is a tool
 choice rather than a default answer.
 
-Teams improve requirements when they write them down. Valeriy's design-doc
-episode at 7:06 and 8:39 compares a design document to a blueprint. It makes
-weak assumptions visible before a team spends months building. This is why
+Writing requirements down improves them. A design document works like a blueprint,
+making weak assumptions visible before a team spends months building
+([[podcast:ml-system-design|ML System Design Playbook]]).
+This is why
 [[ML system design documents]]
 matter for production systems.
 
 ## Data, Labels, and Features
 
-Data strategy is part of the system design, not a downstream task. Arseny's
-episode at 32:37 covers data availability, processing, features, and data lakes
-before the design reaches model architecture. Valeriy's interview episode at
-16:43 and 44:11 turns the same idea into practical questions about labels, class
-imbalance, model selection, and validation.
+Data strategy is part of the system design, not a downstream task. Data
+availability, processing, features, and data lakes come before the design reaches
+model architecture
+([[podcast:building-scalable-and-reliable-machine-learning-systems|Building Scalable and Reliable Machine Learning Systems]]),
+and the same idea turns into practical questions about labels, class imbalance,
+model selection, and validation
+([[podcast:machine-learning-system-design-interview|ML System Design Interviews]]).
 
 Feature design also decides whether training and serving can stay consistent.
-At 47:52 in Valeriy's interview episode, features matter more than model
-architecture. Many production systems fail when the team can't compute the right
-features at prediction time. That concern connects ML system design to
+Features matter more than model architecture, and many production systems fail
+when the team can't compute the right features at prediction time
+([[podcast:machine-learning-system-design-interview|ML System Design Interviews]]).
+That concern connects ML system design to
 [[data engineering platforms]],
 [[data quality and observability]],
 and [[batch-vs-streaming|batch versus streaming]].
 
-Nadia's episode adds a software-engineering warning. At 10:54 and 29:42, she
-names data access, unmet requirements, and deployment failures as common reasons
-ML products stall. A design that ignores data ownership or data quality leaves a
-major risk for implementation.
+Data access, unmet requirements, and deployment failures are common reasons ML
+products stall
+([[podcast:software-engineering-for-machine-learning|Software Engineering for ML]]).
+A design that ignores data ownership or data quality leaves a major risk for
+implementation.
 
 ## Baselines and Model Choice
 
-Valeriy and Arseny consistently treat baselines as design tools. In Valeriy's
-interview episode at 24:28 and 29:09, a baseline clarifies the minimum useful
-comparison. It also helps the candidate show progress without pretending the
-final model is obvious. In the design-doc episode at 55:13, Valeriy recommends
-simple baselines to validate hypotheses quickly.
+Baselines are design tools. A baseline clarifies the minimum useful comparison
+and helps a candidate show progress without pretending the final model is obvious
+([[podcast:machine-learning-system-design-interview|ML System Design Interviews]]);
+simple baselines validate hypotheses quickly
+([[podcast:ml-system-design|ML System Design Playbook]]).
 
 Model choice comes after that baseline. A team may choose a rule or a linear
 model. It may also choose a tree model or an embedding system. A recommender,
@@ -156,10 +151,10 @@ ranking model, or deep model may be enough for other cases.
 For a dedicated reference on ranking and recommendation, [[book:20210802-practical-recommender-systems|Practical Recommender Systems]]
 by Kim Falk covers the data, algorithms, and evaluation patterns behind recommender design choices.
 
-The team can only make that choice after it understands the decision, data, and
-latency. It must also understand evaluation and failure cost. This is why
-Valeriy's episode separates practical ML decisions from research-level detail at
-31:58.
+The team can only make that choice after it understands the decision, data,
+latency, evaluation, and failure cost. This is why practical ML decisions stay
+separate from research-level detail
+([[podcast:machine-learning-system-design-interview|ML System Design Interviews]]).
 
 ## Serving and Runtime Architecture
 
@@ -167,38 +162,39 @@ Serving mode changes the system because batch scoring and online APIs create
 different reliability requirements. Streaming features, edge inference, and human
 review paths add more constraints.
 
-Valeriy's interview episode at 50:57 connects serving models and embeddings with
-MLOps roles. Simon's platform episode at 31:15 and 31:51 separates batch
-inference, online serving, orchestration, and production workflows.
+Serving models and embeddings connect with MLOps roles
+([[podcast:machine-learning-system-design-interview|ML System Design Interviews]]),
+and platform work separates batch inference, online serving, orchestration, and
+production workflows
+([[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
 
-Arseny's episode gives the clearest constraint-driven example. At 10:34, edge and
-mobile ML force teams to account for latency and frames per second. They also
-have to account for energy use, model size, offline behavior, and runtime
-choices.
+The clearest constraint-driven example is edge and mobile ML, which forces teams
+to account for latency, frames per second, energy use, model size, offline
+behavior, and runtime choices
+([[podcast:building-scalable-and-reliable-machine-learning-systems|Building Scalable and Reliable Machine Learning Systems]]).
 In those systems,
 [[machine learning infrastructure]]
 includes more than cloud deployment. It also includes the runtime where the
 prediction happens.
 
-Arseny and Simon don't treat real-time serving as the mature default. Arseny
-compares real-time and batch data flow at 37:15. Simon recommends platform pieces
-only when repeated use cases justify them. He returns to that point at 16:52,
-17:14, 47:08, and 49:19.
+Real-time serving is not the mature default: real-time and batch data flow are
+compared as alternatives
+([[podcast:building-scalable-and-reliable-machine-learning-systems|Building Scalable and Reliable Machine Learning Systems]]),
+and platform pieces are justified only when repeated use cases warrant them
+([[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
 
 ## Evaluation and Product Validation
 
-Offline metrics don't complete the evaluation design. Valeriy's interview
-episode at 24:28 and 40:11 connects metrics, baselines, business alignment, and
-proxy metrics. At 57:23, he connects production validation to A/B testing,
-causality, and human labels. The model may score well offline and still fail if
-it harms the product metric or increases manual-review load.
+Offline metrics don't complete the evaluation design. Metrics, baselines,
+business alignment, and proxy metrics connect together, and production validation
+rests on A/B testing, causality, and human labels
+([[podcast:machine-learning-system-design-interview|ML System Design Interviews]]).
+The model may score well offline and still fail if it harms the product metric or
+increases manual-review load.
 
-[[person:jakobgraff|Jakob Graff]] gives the product
-experimentation background in
-[[podcast:ab-testing-and-product-experimentation|Product Analytics and A/B Testing]].
-At 8:13 and 24:44, he covers randomization and assignment tracking. At 27:52, he
-covers A/A tests. At 33:23 and 37:44, he covers metric selection and power
-analysis.
+The product-experimentation background covers randomization and assignment
+tracking, A/A tests, metric selection, and power analysis
+([[podcast:ab-testing-and-product-experimentation|Product Analytics and A/B Testing]]).
 Those topics matter when an ML system affects user-facing decisions and the team
 needs causal evidence, not just offline accuracy.
 
@@ -211,15 +207,17 @@ inform [[a-b-testing|A/B testing]] and
 ## Monitoring, Drift, and Fallbacks
 
 Monitoring belongs in the design because ML systems change when data, users, or
-upstream systems change. Valeriy's interview episode at 46:02 covers monitoring,
-distribution shift, and fallbacks as part of production robustness. In the
-design-doc episode at 47:46, he separates data drift, concept drift, and
-prediction drift. At 51:59, he links fallbacks to redundancy, simple baselines,
-and serving reliability.
+upstream systems change. Monitoring, distribution shift, and fallbacks are part
+of production robustness
+([[podcast:machine-learning-system-design-interview|ML System Design Interviews]]),
+and data drift, concept drift, and prediction drift are distinct, with fallbacks
+tied to redundancy, simple baselines, and serving reliability
+([[podcast:ml-system-design|ML System Design Playbook]]).
 
-Raphael's MLOps episode adds the operating side by covering traceability and
-experiment capture at 42:31, then model registry, serving and monitoring at
-51:21. Those topics explain why ML system design has to name who responds when
+On the operating side, traceability, experiment capture, model registry, serving,
+and monitoring round out the toolset
+([[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]).
+Those topics explain why ML system design has to name who responds when
 [[model monitoring]] shows drift,
 latency issues, or a broken upstream feed.
 
@@ -235,8 +233,8 @@ It should also name the user affected by it. The review should cover the cost
 of wrong output. Late output belongs there too. So do unavailable or biased
 outputs.
 
-Valeriy's interview and design-doc episodes use those questions as a readiness
-test. The team should understand the business problem before it chooses a model
+Those questions work as a readiness test: the team should understand the business
+problem before it chooses a model
 ([[podcast:machine-learning-system-design-interview|ML System Design Interviews]],
 [[podcast:ml-system-design|ML System Design Playbook]]).
 
@@ -254,33 +252,34 @@ required. It should explain validation and monitoring.
 Fallback behavior and rollback belong there too. Retraining triggers and
 ownership belong in the same operating plan.
 
-Arseny's scalable-systems episode adds constraints such as latency, battery,
-frame rate, and runtime limits when the product runs on mobile or edge devices
-([[podcast:building-scalable-and-reliable-machine-learning-systems|10:34-37:15]]).
+The review adds constraints such as latency, battery, frame rate, and runtime
+limits when the product runs on mobile or edge devices
+([[podcast:building-scalable-and-reliable-machine-learning-systems|Building Scalable and Reliable Machine Learning Systems]]).
 
 ## Platform and Ownership
 
 Single projects can start with simple pieces, but repeated ML systems push teams
-toward shared platform capabilities. Simon's platform episode covers experiment
-tracking and model registry at 29:41 and 30:32. At 31:15, he covers serving.
+toward shared platform capabilities: experiment tracking, model registry,
+serving, metadata, lineage, and unified prediction logging
+([[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]).
+Teams use these tools to reduce repeated design work when many systems need the
+same guarantees.
 
-At 42:48 and 54:15, Simon covers metadata, lineage, and unified prediction
-logging. Teams use these tools to reduce repeated design work when many systems
-need the same guarantees.
+Ownership is the other platform question. Accountability, responsibility areas,
+and bus-factor risk belong in the design
+([[podcast:ml-system-design|ML System Design Playbook]]);
+team structures and involving ML practitioners from requirements through testing
+matter too
+([[podcast:software-engineering-for-machine-learning|Software Engineering for ML]]);
+and platform teams use evangelists, technical leads, support models, and user
+feedback
+([[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]).
 
-Ownership is the other platform question. Valeriy's design-doc episode at 24:37
-and 31:59 covers accountability, responsibility areas, and bus-factor risk.
-Nadia's episode at 36:28 and 56:55 discusses team structures and involving ML
-practitioners from requirements through testing. Raphael's episode at 16:58 and
-23:01 shows how platform teams use evangelists and technical leads. At 27:56, he
-adds support models and feedback from users.
-
-These episodes mostly complement each other. Valeriy and Arseny focus on one
-system's design, while Simon and Raphael focus on shared
-[[MLOps tools]] and platform adoption.
-Teams need those tools once many systems repeat the same needs. Nadia explains
-why both fail when teams don't align around requirements, vocabulary,
-documentation, and responsibility.
+These angles complement each other. One-system design and shared
+[[MLOps tools]] and platform adoption
+are two sides of the same discipline: teams need shared tools once many systems
+repeat the same needs, and both fail when teams don't align around requirements,
+vocabulary, documentation, and responsibility.
 
 ## Related Pages
 

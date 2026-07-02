@@ -16,14 +16,10 @@ AI agents in production. It applies the lessons of
 specific to autonomous tool use, multi-step reasoning, and the non-deterministic
 behavior of LLM-backed systems.
 
-[[person:nasserqadri|Nasser Qadri]] names the field
-explicitly in
-Understanding the AI Engineer
-Role](https://datatalks.club/podcast/s23e07-understanding-ai-engineer-role.html).
-At 54:03, he says "this field of agent ops will continue to evolve," drawing a
-direct parallel to how data science matured into MLOps. He sees the same
-trajectory for agents: from experimentation to engineering rigor, with
-monitoring and evaluation becoming standard practice.
+The field of agent ops "will continue to evolve," a direct parallel to how data
+science matured into MLOps. The trajectory runs from experimentation to
+engineering rigor, with monitoring and evaluation becoming standard practice
+([Understanding the AI Engineer Role](https://datatalks.club/podcast/s23e07-understanding-ai-engineer-role.html)).
 
 Agent Ops builds on
 [[Agent Engineering]],
@@ -32,113 +28,99 @@ and [[agent-engineering|AI Agents]].
 
 ## Orchestration and the Rise of Agent Ops
 
-Nasser's 45:02 section identifies orchestration as a core AI engineer skill
-that distinguishes agent work from simple API calls. Agents must decide when to
-invoke tools, how to route decisions between tools or sub-agents, and how to
-incorporate evaluation feedback into improvements. His 46:40 section recommends
-starting with one orchestration framework and developing depth before
-experimenting with alternatives, using a gym analogy: start with one exercise
-before trying all fifteen.
+Orchestration is a core AI engineer skill that distinguishes agent work from
+simple API calls. Agents must decide when to invoke tools, how to route decisions
+between tools or sub-agents, and how to incorporate evaluation feedback into
+improvements. Starting with one orchestration framework and developing depth
+before experimenting with alternatives works better than sampling many at once,
+like a gym routine that starts with one exercise before trying all fifteen
+([Understanding the AI Engineer Role](https://datatalks.club/podcast/s23e07-understanding-ai-engineer-role.html)).
 
-His 53:22 section connects agent ops to the data science lineage. He describes
-how MLOps brought monitoring of data drift and concept drift to machine learning
-models, and expects the same to happen with agents. The field "oscillates"
-between being a statistical exercise and an engineering exercise, and agent ops
-is where those two modes meet.
+Agent ops descends from the data science lineage. MLOps brought monitoring of
+data drift and concept drift to machine learning models, and agents follow the
+same path. The field "oscillates" between being a statistical exercise and an
+engineering exercise, and agent ops is where those two modes meet
+([Understanding the AI Engineer Role](https://datatalks.club/podcast/s23e07-understanding-ai-engineer-role.html)).
 
 ## Guardrails and Data Lineage
 
-[[person:adityagautam|Aditya Gautam]] provides the
-strongest governance perspective in
-[The Future of AI
-Agents](https://datatalks.club/podcast/s23e03-future-of-ai-agents.html). His
-30:26 section links guardrails and data lineage to what he calls Agent MLOps.
-He explains that sensitive industries like healthcare and legal require
-handcrafted automation with a human in the loop to ensure correctness. Even
-with sophisticated [[retrieval-augmented-generation|RAG]] and vector
-databases, "this is a field where you cannot mess up."
+Guardrails and data lineage form part of what is called Agent MLOps. Sensitive
+industries like healthcare and legal require handcrafted automation with a human
+in the loop to ensure correctness. Even with sophisticated
+[[retrieval-augmented-generation|RAG]] and vector databases, "this is a field
+where you cannot mess up"
+([The Future of AI Agents](https://datatalks.club/podcast/s23e03-future-of-ai-agents.html)).
 
-His 47:16 section covers guardrails for agent actions. For an airline customer
-service agent, guardrails might require a human in the loop for refunds above a
-certain amount. He recommends red teaming for stress-testing in adverse
-scenarios and building guardrails around sensitive tool calls like Stripe API
-payments. Performance thresholds determine whether an agent can deploy, but
-edge cases still route to a human queue.
+Guardrails constrain agent actions. For an airline customer service agent,
+guardrails might require a human in the loop for refunds above a certain amount.
+Red teaming stress-tests adverse scenarios, and guardrails wrap sensitive tool
+calls like Stripe API payments. Performance thresholds determine whether an
+agent can deploy, but edge cases still route to a human queue
+([The Future of AI Agents](https://datatalks.club/podcast/s23e03-future-of-ai-agents.html)).
 
 ## Agent Infrastructure and Deployment Risks
 
-Aditya's 56:40 section covers infrastructure and deployment risks. He discusses
-Kubernetes for agent deployment, noting that every agent is "basically a
-simplistic microservice with a fancy non-deterministic LLM." He sees no reason
-agent deployment cannot use Kubernetes, though GPU and CPU workload mixing may
-require separate services. He also warns about over-reliance on agents: "do not
-be too reliant on agents. They might get consciousness at certain point in
-time."
+Kubernetes suits agent deployment, since every agent is "basically a simplistic
+microservice with a fancy non-deterministic LLM." Nothing prevents agent
+deployment on Kubernetes, though GPU and CPU workload mixing may require separate
+services. Over-reliance on agents is a risk: "do not be too reliant on agents.
+They might get consciousness at certain point in time"
+([The Future of AI Agents](https://datatalks.club/podcast/s23e03-future-of-ai-agents.html)).
 
-His broader point at 59:37 is about the ground truth problem. Even if an LLM-as-
-judge reaches high accuracy, you still need human-in-the-loop sampling. Without
-it, you have no way to detect bias that replicates in production over time. He
-would never have agents operating completely autonomously, regardless of their
-measured accuracy.
+The ground truth problem remains. Even if an LLM-as-judge reaches high accuracy,
+human-in-the-loop sampling is still needed; without it, there is no way to detect
+bias that replicates in production over time. Agents should never operate
+completely autonomously, regardless of their measured accuracy
+([The Future of AI Agents](https://datatalks.club/podcast/s23e03-future-of-ai-agents.html)).
 
 ## Evaluation Strategy for Agents
 
-[[person:ranjithakulkarni|Ranjitha Kulkarni]] covers
-agent evaluation in
-[Building Agentic AI
-Systems](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html).
-Her 51:17 section recommends custom datasets and system benchmarks over public
-benchmarks like SQuAD, which evaluate model capability rather than system
-quality. Her 53:20 section treats agent testing like software engineering
-testing: mocked tools, integration tests, and regression tests with 200-300 test
-cases for a calendar agent.
+Custom datasets and system benchmarks beat public benchmarks like SQuAD, which
+evaluate model capability rather than system quality. Agent testing mirrors
+software engineering testing: mocked tools, integration tests, and regression
+tests with 200-300 test cases for a calendar agent
+([Building Agentic AI Systems](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html)).
 
-Her 56:02 section emphasizes goal-based evaluation. Rather than checking the
-exact tool-call path, evaluation focuses on whether the goal was achieved. For
-example, finding a skip-level manager directly or by traversing an org chart are
-both valid approaches. The assertion checks the outcome, not the path. This is
-a key distinction from traditional software testing.
+Goal-based evaluation checks whether the goal was achieved rather than the exact
+tool-call path. Finding a skip-level manager directly or by traversing an org
+chart are both valid approaches; the assertion checks the outcome, not the path.
+This is a key distinction from traditional software testing
+([Building Agentic AI Systems](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html)).
 
-[[person:hugobowneanderson|Hugo Bowne-Anderson]] adds
-the generator-evaluator pattern in
-[Practical LLM Engineering and
-RAG](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html).
-His 13:56 section introduces a loop where one model generates output and another
-evaluates it, scoring pass or fail with feedback. His 23:00 section covers gold
-test sets, cost, and representativeness. His 26:43 section uses failure analysis
-to decide whether retrieval needs to change. These evaluation habits become more
-important when systems start calling tools and taking actions.
+The generator-evaluator pattern runs a loop where one model generates output and
+another evaluates it, scoring pass or fail with feedback. Gold test sets, cost,
+and representativeness shape the evaluation set, and failure analysis decides
+whether retrieval needs to change. These evaluation habits become more important
+when systems start calling tools and taking actions
+([Practical LLM Engineering and RAG](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html)).
 
 ## Aligning LLM Judges with Human Labels
 
-Aditya's 50:18 section covers aligning LLM judges with human labels. In a
-multi-tenancy scenario, each customer needs a golden dataset, and evaluation
-must reach more than 95% accuracy, with critical cases at 100%. An LLM-as-judge
-is fine-tuned on human data within the use case, but may have bias. To manage
-this, the judge's correlation with human annotators should stay above 90-95%.
-Sampling from production traffic and sending it to human annotators is how teams
-understand gaps and detect drift.
+Aligning LLM judges with human labels matters at scale. In a multi-tenancy
+scenario, each customer needs a golden dataset, and evaluation must reach more
+than 95% accuracy, with critical cases at 100%. An LLM-as-judge fine-tuned on
+human data within the use case may still carry bias, so the judge's correlation
+with human annotators should stay above 90-95%. Sampling from production traffic
+and sending it to human annotators is how teams understand gaps and detect drift
+([The Future of AI Agents](https://datatalks.club/podcast/s23e03-future-of-ai-agents.html)).
 
 ## Evaluation and Monitoring Tools
 
-[[person:micheallanham|Micheal Lanham]] connects
-evaluation to production monitoring in
-[From Game AI to LLM
-Agents](https://datatalks.club/podcast/from-game-ai-to-modern-ai-agents.html).
-His 57:39 section recommends building evaluation pipelines and using tools like
-Arize Phoenix to monitor LLM communication and prompts. He frames this as
-applying data science techniques for success metrics: controlling variables and
-explaining agent behavior for production applications. For a broader comparison
-of open-source and free options such as Arize Phoenix, LangSmith, DeepEval, and
-Ragas, see
+Evaluation connects to production monitoring. Evaluation pipelines and tools like
+Arize Phoenix monitor LLM communication and prompts, applying data science
+techniques for success metrics: controlling variables and explaining agent
+behavior for production applications
+([From Game AI to LLM Agents](https://datatalks.club/podcast/from-game-ai-to-modern-ai-agents.html)).
+For a broader comparison of open-source and free options such as Arize Phoenix,
+LangSmith, DeepEval, and Ragas, see
 [Open Source and Free AI Agent Evaluation Tools](https://datatalks.club/blog/open-source-free-ai-agent-evaluation-tools.html).
 
-Aditya's 43:30 section adds the enterprise scale version. He discusses feedback
-intelligence tools that analyze production logs to identify where users are
-frustrated, feed that into evaluations, and support fine-tuning. He compares
-this to how cloud providers made databases easier through managed services like
-MongoDB and Redis. Agent evaluation infrastructure is becoming a similar
-standardized layer.
+At enterprise scale, feedback intelligence tools analyze production logs to
+identify where users are frustrated, feed that into evaluations, and support
+fine-tuning, much as cloud providers made databases easier through managed
+services like MongoDB and Redis. Agent evaluation infrastructure is becoming a
+similar standardized layer
+([The Future of AI Agents](https://datatalks.club/podcast/s23e03-future-of-ai-agents.html)).
 
 ## Related Pages
 

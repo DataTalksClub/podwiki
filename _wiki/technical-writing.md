@@ -24,14 +24,13 @@ Across those forms, the writer serves a concrete reader. The reader may need to
 understand the work or run the project. They may also need to review a decision
 or continue independently.
 
-The strongest writing-specific discussion is
-[[podcast:technical-writing-for-data-scientists|Technical Writing for Data Scientists]].
-[[person:eugeneyan|Eugene Yan]] starts from early blog
-posts and meetups at 6:00, then frames writing as learning, sharing, and being
-useful to future readers at 9:30. At 14:00, he narrows the audience from
-"everyone" to a peer, future teammate, or hiring manager. At 16:30, he treats
-writing like a product because reader experience determines whether the article
-works.
+The strongest writing-specific discussion starts from early blog posts and
+meetups and frames writing as learning, sharing, and being useful to future
+readers. It narrows the audience from "everyone" to a peer, future teammate, or
+hiring manager, and treats writing like a product because reader experience
+determines whether the article works
+([[person:eugeneyan|Eugene Yan]],
+[[podcast:technical-writing-for-data-scientists|Technical Writing for Data Scientists]]).
 
 Use this page for technical writing as a
 [[data science]] and
@@ -52,20 +51,18 @@ understand a tradeoff or decide what to try next. Structure and examples make
 the explanation usable rather than merely polished. Code, screenshots, and
 diagrams can add the context a reader needs.
 
-[[person:angelicaloduca|Angelica Lo Duca]] makes that
-boundary explicit in
-[[podcast:data-journalism-python-visualization-storytelling|Practical Data Journalism]].
-At 7:43 and 8:01, she defines data journalism as data-driven news and
-general-audience storytelling. At 24:35, she separates technical writing as a
-how-to form built around clarity and audience. At 40:47, she structures
-articles around the problem, the solution, and the result. She adds code
-repositories when the reader needs to reproduce the work.
+Data journalism is data-driven news and general-audience storytelling, while
+technical writing is a how-to form built around clarity and audience. A how-to
+article is structured around the problem, the solution, and the result, adding
+code repositories when the reader needs to reproduce the work
+([[person:angelicaloduca|Angelica Lo Duca]],
+[[podcast:data-journalism-python-visualization-storytelling|Practical Data Journalism]]).
 
-[[person:hugobowneanderson|Hugo Bowne-Anderson]] applies
-the same reader-first standard to tutorials in
-[[podcast:devrel-open-source-machine-learning|DevRel Role for Machine Learning]].
-At 43:14, he starts tutorial design with audience and goals. Technical writing
-therefore sits beside [[communication]]
+The same reader-first standard applies to tutorials: tutorial design starts
+with audience and goals
+([[person:hugobowneanderson|Hugo Bowne-Anderson]],
+[[podcast:devrel-open-source-machine-learning|DevRel Role for Machine Learning]]).
+Technical writing therefore sits beside [[communication]]
 and [[developer experience]].
 The writer has to know what the reader is trying to accomplish before deciding
 how much setup belongs in the piece. Code, context, and conceptual explanation
@@ -73,12 +70,11 @@ depend on that reader.
 
 ## Audience, Outline, and Cadence
 
-Eugene gives the clearest reusable writing workflow in
-[[podcast:technical-writing-for-data-scientists|Technical Writing for Data Scientists]].
-At 20:00, he describes a weekly cadence. At 25:00, he starts with an outline so
-ideas can be selected, ordered, and tested before drafting. At 29:00, he talks
-about time budget and avoiding endless editing. At 33:00, he discusses idea
-sources and topic prioritization, while 37:00 covers titles and article length.
+The clearest reusable writing workflow uses a weekly cadence and starts with an
+outline so ideas can be selected, ordered, and tested before drafting. It sets
+a time budget to avoid endless editing and covers idea sources, topic
+prioritization, titles, and article length
+([[podcast:technical-writing-for-data-scientists|Technical Writing for Data Scientists]]).
 
 The method matters for technical topics because the audience determines the
 level of detail. A
@@ -87,17 +83,17 @@ dataset assumptions, baselines, evaluation, and code. A platform engineer may
 need interfaces, failure modes, and operational notes. A hiring manager may care
 more about scope, tradeoffs, ownership, and impact.
 
-Eugene's 14:00 audience chapter is therefore a writing rule and a career rule.
-A technical article gives stronger evidence when the reader can see the choice
-it supports.
+Choosing the audience is therefore both a writing rule and a career rule: a
+technical article gives stronger evidence when the reader can see the choice it
+supports.
 
-Eugene treats consistency as a craft habit and, at 41:00, argues for starting
-despite friction. At 43:30, he compares blogging platforms. His examples include
-Medium, Substack, WordPress, and Jekyll on GitHub Pages. At 46:00, he describes
-morning writing reps and weekend deep work. At 48:30, he discusses distribution
-through Twitter and LinkedIn, which makes writing part of
+Consistency is a craft habit, and starting despite friction matters. Blogging
+platforms include Medium, Substack, WordPress, and Jekyll on GitHub Pages; a
+routine can mix morning writing reps with weekend deep work. Distribution
+through Twitter and LinkedIn makes writing part of
 [[career growth]] without reducing it
-to personal branding.
+to personal branding
+([[podcast:technical-writing-for-data-scientists|Technical Writing for Data Scientists]]).
 
 ## Technical Writing for Data and ML
 
@@ -108,13 +104,11 @@ reader should be able to tell whether the article is about exploration or a
 model. They should also see when it's about a pipeline, production system, or
 business decision.
 
-At 56:30 in
-[[podcast:technical-writing-for-data-scientists|Technical Writing for Data Scientists]],
-Eugene turns the guidance toward portfolios. He recommends a README and
-quickstart, plus a repo tour. Those artifacts should let
-another person understand the project without private context. The same guidance
-also fits [[portfolio projects]].
-It appears again in
+For portfolios, the guidance recommends a README, a quickstart, and a repo tour
+so another person can understand the project without private context
+([[podcast:technical-writing-for-data-scientists|Technical Writing for Data Scientists]]).
+The same guidance fits [[portfolio projects]],
+and appears again in
 [[machine learning portfolio projects]]
 and [[open source portfolio evidence]].
 
@@ -122,20 +116,20 @@ A polished article with no technical choices is weak evidence. A plain README
 can be stronger when it names the problem, shows the run path, and explains
 tradeoffs.
 
-Tool education has the same requirement. In
-[[podcast:practical-devrel-demofirst-education-and-open-source|Developer Advocacy Through Community Impact]],
-[[person:willrussell|Will Russell]] describes Learn with
-Kestra at 57:22. His examples include Docker, Postgres, and Git. A reader often
-needs the surrounding setup as much as the main product.
+Tool education has the same requirement. Learn with Kestra draws on examples
+like Docker, Postgres, and Git, because a reader often needs the surrounding
+setup as much as the main product
+([[person:willrussell|Will Russell]],
+[[podcast:practical-devrel-demofirst-education-and-open-source|Developer Advocacy Through Community Impact]]).
 
 ## Documentation and Team Memory
 
-Technical writing also lives inside teams. In Eugene's episode, the 51:00
-chapter covers writing at work through press releases, working-backwards
-documents, and design docs. The 54:00 chapter discusses decision logs,
-rationales, and team memory. That makes writing part of
+Technical writing also lives inside teams. Writing at work spans press releases,
+working-backwards documents, design docs, decision logs, rationales, and team
+memory, which makes it part of
 [[software engineering]],
-not only a public-content habit.
+not only a public-content habit
+([[podcast:technical-writing-for-data-scientists|Technical Writing for Data Scientists]]).
 
 Internal writing solves a different problem from blog posts. A design doc helps
 reviewers understand the proposed choice before the team commits. A decision log
@@ -144,23 +138,21 @@ someone operate or reproduce the project later. These documents matter in data
 work because pipelines, models, dashboards, and metrics often outlive the person
 who first built them.
 
-The open-source documentation checklist from
-[[person:vincentwarmerdam|Vincent Warmerdam]] maps well
-to internal projects too. In
-[[podcast:open-source-ml-contributions|Contribute to Open Source ML]],
-the 22:20 chapter names README material and guides. It also names API reference
-and examples.
+An open-source documentation checklist maps well to internal projects too,
+naming README material, guides, API reference, and examples
+([[person:vincentwarmerdam|Vincent Warmerdam]],
+[[podcast:open-source-ml-contributions|Contribute to Open Source ML]]).
 For an internal [[machine learning]]
 or data platform, the same structure helps a teammate move from "what's this?"
 to "how do I use it safely?"
 
 ## Public Learning and Career Proof
 
-Public writing can make career growth visible, but guests don't reduce it to
-personal branding. Eugene's 9:30 chapter connects writing to learning and
-sharing. The 56:30 chapter covers portfolio READMEs, quickstarts, and repo
-tours. A hiring reader can use that material to judge clarity, scope, and
-ownership.
+Public writing can make career growth visible without reducing it to personal
+branding. Writing connects to learning and sharing, and portfolio READMEs,
+quickstarts, and repo tours give a hiring reader material to judge clarity,
+scope, and ownership
+([[podcast:technical-writing-for-data-scientists|Technical Writing for Data Scientists]]).
 
 Technical writing belongs with
 [[career growth]] and
@@ -170,51 +162,48 @@ should also show the tradeoffs. The same is true for a tool integration that
 shows the code path and result. A polished article with no technical choices
 gives less evidence than a plain README that lets someone run the project.
 
-Vincent makes public proof concrete in two open-source episodes. In
-[[podcast:open-source-ml-tools-strategy-and-business-models|Open Source ML Tools]],
-the 23:29 chapter discusses open-source work as a hiring signal. At 27:24, he
-connects video production with communication practice. In
-[[podcast:open-source-ml-contributions|Contribute to Open Source ML]],
-the 34:00 chapter links talks and blogs to career growth. He also names meetups
-and open-source visibility.
+Public proof is concrete across two open-source episodes. Open-source work is a
+hiring signal, and video production doubles as communication practice
+([[podcast:open-source-ml-tools-strategy-and-business-models|Open Source ML Tools]]).
+Talks, blogs, meetups, and open-source visibility all link to career growth
+([[podcast:open-source-ml-contributions|Contribute to Open Source ML]]).
 
 ## Tutorials, Demos, and DevRel
 
 Technical writing overlaps with DevRel, open source, and marketing because all
-three use public explanation. A useful piece should still help the reader
-succeed technically. In
-[[podcast:devrel-open-source-machine-learning|DevRel Role for Machine Learning]],
-Hugo names technical fluency, writing, and community building as core
-[[developer relations]] skills
-at 31:41. At 37:21, he discusses writing improvement through practice,
-collaboration, and editorial feedback.
+three use public explanation, and a useful piece should still help the reader
+succeed technically. Technical fluency, writing, and community building are core
+[[developer relations]] skills, and
+writing improves through practice, collaboration, and editorial feedback
+([[person:hugobowneanderson|Hugo Bowne-Anderson]],
+[[podcast:devrel-open-source-machine-learning|DevRel Role for Machine Learning]]).
 
-At 46:09 and 48:43, he discusses writing goals and media choices. A blog post,
-talk, video, or conference session can all work when the format matches the goal
-and audience.
+Writing goals and media choices come next: a blog post, talk, video, or
+conference session can all work when the format matches the goal and audience
+([[podcast:devrel-open-source-machine-learning|DevRel Role for Machine Learning]]).
 
-Will's demo-first episode shows the same boundary from practice. In
-[[podcast:practical-devrel-demofirst-education-and-open-source|Developer Advocacy Through Community Impact]],
-the 49:14 chapter ties developer advocacy to documentation, demos, and outreach.
-At 51:49, he describes a flow that starts with bullet points and demos. Writers
-then help turn the material into public teaching.
+A demo-first practice shows the same boundary: developer advocacy ties to
+documentation, demos, and outreach, and a flow that starts with bullet points
+and demos lets writers turn the material into public teaching
+([[person:willrussell|Will Russell]],
+[[podcast:practical-devrel-demofirst-education-and-open-source|Developer Advocacy Through Community Impact]]).
 
-At 53:40, he explains video strategy through a defined goal and useful pacing.
-He also recommends complete walkthroughs. At 54:30, he uses a
-workflow-notification demo to show how a tutorial can teach a specific product
-behavior.
+Video strategy needs a defined goal, useful pacing, and complete walkthroughs,
+and a workflow-notification demo shows how a tutorial can teach a specific
+product behavior
+([[podcast:practical-devrel-demofirst-education-and-open-source|Developer Advocacy Through Community Impact]]).
 
 ## Open-Source Contribution Writing
 
-Open-source writing adds maintainer trust. In
-[[podcast:open-source-ml-contributions|Contribute to Open Source ML]],
-Vincent treats documentation as part of
-[[open source]] stewardship. At 22:20,
-he covers README material and guides. He also covers API reference and examples.
+Open-source writing adds maintainer trust, treating documentation as part of
+[[open source]] stewardship: README
+material, guides, API reference, and examples
+([[podcast:open-source-ml-contributions|Contribute to Open Source ML]]).
 
-At 24:10, he covers contribution guides and respectful interaction. At 25:50, he
-treats a clear reproducible issue as a valuable first contribution.
-At 27:40, he adds tests and packaging, plus CI and pre-commit hooks.
+Contribution guides and respectful interaction matter, a clear reproducible
+issue is a valuable first contribution, and tests, packaging, CI, and
+pre-commit hooks round out the work
+([[podcast:open-source-ml-contributions|Contribute to Open Source ML]]).
 
 The open-source version of technical writing isn't limited to docs pages. It
 includes issue reports and contribution guides. It also includes examples, API

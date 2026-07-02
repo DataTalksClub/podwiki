@@ -25,37 +25,37 @@ promise, how to write scope down, and when to avoid selling a model.
 
 Sometimes the useful answer is a dashboard, workshop, feasibility study, or
 mentoring engagement.
-[[person:mikiobraun|Mikio Braun]] anchors the proposal
-mechanics in
-[[podcast:freelancing-in-machine-learning|Freelancing in Machine Learning]].
-[[person:vinvashishta|Vin Vashishta]] adds the business
-case and feasibility-gate view in
-[[podcast:make-money-with-machine-learning-roles-skills|Monetizing Machine Learning]].
-[[person:mariannadiachuk|Marianna Diachuk]] adds the
-startup-readiness and prototype discipline in
-[[podcast:solopreneur-data-scientist|Introducing Data Science in Startups]].
+Proposal mechanics are anchored in
+[[podcast:freelancing-in-machine-learning|Freelancing in Machine Learning]]
+([[person:mikiobraun|Mikio Braun]]). The business case and feasibility-gate
+view come from
+[[podcast:make-money-with-machine-learning-roles-skills|Monetizing Machine Learning]]
+([[person:vinvashishta|Vin Vashishta]]). Startup-readiness and prototype
+discipline come from
+[[podcast:solopreneur-data-scientist|Introducing Data Science in Startups]]
+([[person:mariannadiachuk|Marianna Diachuk]]).
 
 ## Proposal Definition
 
 Across these episodes, a strong ML consulting proposal is a decision document,
-not merely a model spec. Around 6:23 in
-[[podcast:freelancing-in-machine-learning|Freelancing in Machine Learning]],
-Braun describes starting from a technical problem and asking what the real
-problem is. That question often uncovers organizational and product work behind
-the ML request.
+not merely a model spec. It starts from a technical problem and asks what the
+real problem is
+([[podcast:freelancing-in-machine-learning|Freelancing in Machine Learning]]).
+That question often uncovers organizational and product work behind the ML
+request.
 
-Around 43:28-48:39 in
-[[podcast:make-money-with-machine-learning-roles-skills|Monetizing Machine Learning]],
-Vashishta describes the ML product manager as the person who translates user
-needs and strategy into a business case. The same proposal has to stay legible
-to research, architecture, and funding stakeholders. For outside consultants,
-the proposal should frame the problem before it names the model.
+The ML product manager translates user needs and strategy into a business case
+([[podcast:make-money-with-machine-learning-roles-skills|Monetizing Machine Learning]]).
+The same proposal has to stay legible to research, architecture, and funding
+stakeholders. For outside consultants, the proposal should frame the problem
+before it names the model.
 
-The proposal should also define what evidence would justify moving forward. In
-[[podcast:solopreneur-data-scientist|Introducing Data Science in Startups]],
-Diachuk says around 34:41 that teams should ask how they'll measure whether a
-solution works before the work begins. Around 55:43 she recommends silent-mode
-or A/B-style rollout before exposing all users to a risky model. That puts
+The proposal should also define what evidence would justify moving forward.
+Teams should ask how they'll measure whether a solution works before the work
+begins, and use silent-mode or A/B-style rollout before exposing all users to a
+risky model
+([[podcast:solopreneur-data-scientist|Introducing Data Science in Startups]]).
+That puts
 [[metrics]],
 [[data product management]],
 and [[model monitoring]] inside
@@ -63,25 +63,20 @@ proposal thinking before delivery.
 
 ## Different Buyer Risks
 
-The guests agree on problem-first scoping, but they focus on different buyer
-risks. Braun's concern is trust and scope alignment before a paid engagement.
-Around 19:09-23:40 in
-[[podcast:freelancing-in-machine-learning|Freelancing in Machine Learning]],
-he describes unpaid intro meetings and trust building. He also describes problem
-discovery and a written summary that clients can comment on.
+Guests agree on problem-first scoping but focus on different buyer risks. One
+emphasis is trust and scope alignment before a paid engagement: unpaid intro
+meetings, trust building, problem discovery, and a written summary that clients
+can comment on
+([[podcast:freelancing-in-machine-learning|Freelancing in Machine Learning]]).
 
-Vashishta focuses on executive
-value and funding gates. Around 46:49-51:20 in
-[[podcast:make-money-with-machine-learning-roles-skills|Monetizing Machine Learning]],
-the decision is whether more research, architecture, or production investment
-is justified by the business case.
+Another emphasis is executive value and funding gates: whether more research,
+architecture, or production investment is justified by the business case
+([[podcast:make-money-with-machine-learning-roles-skills|Monetizing Machine Learning]]).
 
-Diachuk focuses on readiness and execution
-constraints. Around 8:42-10:52 in
-[[podcast:solopreneur-data-scientist|Introducing Data Science in Startups]],
-she warns that missing support can force the data scientist into prerequisite
-work instead of ML. Pipelines, infrastructure, and analysts are part of that
-support.
+A third emphasis is readiness and execution constraints: missing support can
+force the data scientist into prerequisite work instead of ML, since pipelines,
+infrastructure, and analysts are part of that support
+([[podcast:solopreneur-data-scientist|Introducing Data Science in Startups]]).
 
 Those emphases change the proposal. A mentoring proposal may sell access to a
 senior ML practitioner and team judgment. A feasibility proposal may sell a
@@ -92,25 +87,24 @@ proposal may need architecture, monitoring, and ROI assumptions up front.
 ## Discovery Call
 
 The discovery call has two jobs: qualify whether the consultant can help and
-test whether the client is asking for a solution too early. Braun says around
-19:52-20:15 in
-[[podcast:freelancing-in-machine-learning|Freelancing in Machine Learning]]
-that there may be several unpaid meetings before a decision. Trust and fit
-matter when the engagement may last weeks or months. Around 21:37-21:59, he
-separates what clients want from what they need. A client may ask for deep
-learning while the useful answer could be a simpler model.
+test whether the client is asking for a solution too early. There may be several
+unpaid meetings before a decision, and trust and fit matter when the engagement
+may last weeks or months
+([[podcast:freelancing-in-machine-learning|Freelancing in Machine Learning]]).
+Separating what clients want from what they need matters too: a client may ask
+for deep learning while the useful answer could be a simpler model.
 
 A good discovery call asks for the workflow and the decision. It should also
-identify the user, data owner, business consequence, and current workaround.
-Vashishta's ML product management discussion around 44:10-47:45 in
-[[podcast:make-money-with-machine-learning-roles-skills|Monetizing Machine Learning]]
-supports that translation layer. Users often can't express requirements in ML
-terms, and executives care about revenue, cost savings, and strategy.
+identify the user, data owner, business consequence, and current workaround. ML
+product management supports that translation layer
+([[podcast:make-money-with-machine-learning-roles-skills|Monetizing Machine Learning]]):
+users often can't express requirements in ML terms, and executives care about
+revenue, cost savings, and strategy.
 
 The consultant has to translate both directions before proposing work.
 
 For startup clients, discovery must also test whether the organization knows
-what it expects from data science. Diachuk recommends asking about four things
+what it expects from data science, asking about four things
 ([[podcast:solopreneur-data-scientist|50:38-55:00]]).
 
 The questions are:
@@ -128,11 +122,10 @@ before ML scope. It may also need
 ## Data Access and Feasibility
 
 ML feasibility starts with data access, data meaning, and organizational
-readiness. Diachuk says around 8:42-10:52 in
-[[podcast:solopreneur-data-scientist|Introducing Data Science in Startups]]
-that companies should ideally have pipelines, infrastructure, supporting
-engineers or DevOps, and analysts. Without usable data, the consultant can't
-honestly sell a model-focused project.
+readiness. Companies should ideally have pipelines, infrastructure, supporting
+engineers or DevOps, and analysts
+([[podcast:solopreneur-data-scientist|Introducing Data Science in Startups]]).
+Without usable data, the consultant can't honestly sell a model-focused project.
 
 The proposal should name the required inputs before it names an algorithm:
 
@@ -142,19 +135,18 @@ The proposal should name the required inputs before it names an algorithm:
 - analytics baselines
 
 Feasibility also includes whether ML is a better intervention than a simpler
-one. Around 28:35 in
-[[podcast:solopreneur-data-scientist|Introducing Data Science in Startups]],
-Diachuk recommends starting with exploratory analysis. Then the consultant can
-check whether a dashboard, query, or simpler analytics step solves the problem.
-That belongs in ML consulting proposals because it gives the client a cheaper path when
+one. Starting with exploratory analysis lets the consultant check whether a
+dashboard, query, or simpler analytics step solves the problem
+([[podcast:solopreneur-data-scientist|Introducing Data Science in Startups]]).
+That belongs in ML consulting proposals because it gives the client a cheaper
+path when
 [[machine learning]] is premature.
 
-Vashishta adds the funding-gate version. Around 48:59-51:20 in
-[[podcast:make-money-with-machine-learning-roles-skills|Monetizing Machine Learning]],
-he describes a proposal that receives limited exploratory funding, then returns
-as a feasibility study. The ML architect then evaluates production path,
-support burden, infrastructure, and cost. A consultant can use the same
-structure.
+The funding-gate version has a proposal that receives limited exploratory
+funding, then returns as a feasibility study
+([[podcast:make-money-with-machine-learning-roles-skills|Monetizing Machine Learning]]).
+The ML architect then evaluates production path, support burden, infrastructure,
+and cost. A consultant can use the same structure.
 
 Phase one should answer whether the work can succeed and whether the client
 should fund the next phase. It shouldn't pretend the whole production system is

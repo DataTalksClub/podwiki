@@ -41,25 +41,23 @@ not a separate social-media habit.
 
 ## Visible Course Progress
 
-ML Zoomcamp gave Pastor a public structure for practice. At 27:27, he describes
-joining Slack and working through videos. He also submitted homework, watched
-the leaderboard, and posted each week. The important shift came at 30:20. He
-moved from "I'm learning this" posts toward explanations of concepts such as ROC
+ML Zoomcamp gave Pastor a public structure for practice. A structured course
+path meant joining Slack, working through videos, submitting homework, watching
+the leaderboard, and posting each week. The important shift came when he moved
+from "I'm learning this" posts toward explanations of concepts such as ROC
 curves and classifier evaluation.
 
-He says that reframing helped him treat the material as something he could
-explain professionally. He wasn't only consuming it as a student
+That reframing helped him treat the material as something he could explain
+professionally rather than only consume as a student
 ([[podcast:nonlinear-path-to-machine-learning-freelancing-and-public-learning|Pastor Soto in From Medicine to Machine Learning]]).
 
-The same mechanism appears in Revathy's career-break path. At 11:00, she
-describes DataTalks.Club's structure as video modules, homework, and a public
-posting nudge. She says the public posting was a major plus. At 11:43, she
-references a telecom capstone that drew comments and questions from someone at
-Nokia.
+The same mechanism appears in Revathy's career-break path. DataTalks.Club's
+structure combined video modules, homework, and a public posting nudge, and the
+public posting was a major plus. A telecom capstone drew comments and questions
+from someone at Nokia.
 
-At 12:45-13:29, she says community tutorials and GitHub workflows helped her
-learning curve after years away from the industry. Active Slack engagement
-helped too
+Community tutorials and GitHub workflows eased her learning curve after years
+away from the industry, and active Slack engagement helped too
 ([[podcast:s23e04-how-to-become-ai-engineer-after-career-break|Revathy Ramalingam in How to Become an AI Engineer After a Career Break]]).
 
 For switchers, public progress works when it exposes practice and feedback. It

@@ -25,12 +25,10 @@ or clinical nudge. It sits between
 
 Personalization isn't only a model choice. Teams need reliable user events and
 a clear product decision. They also need safety and privacy constraints, plus
-evaluation that proves the personalized experience helped.
-[[person:stefangudmundsson|Stefan Gudmundsson]] makes
-that concrete in
-[[podcast:ai-in-healthcare-and-digital-therapeutics|AI in Healthcare and Digital Therapeutics]],
-where personalization depends on data pipelines and dashboards. It also depends
-on experiment capabilities, privacy safeguards, and medical-risk review.
+evaluation that proves the personalized experience helped. Personalization
+depends on data pipelines and dashboards, and also on experiment capabilities,
+privacy safeguards, and medical-risk review
+([[podcast:ai-in-healthcare-and-digital-therapeutics|AI in Healthcare and Digital Therapeutics]]).
 
 ## Working Definition
 
@@ -41,40 +39,33 @@ learned ranking.
 Simple segmentation may be enough when the product has too little data for a
 heavier model.
 
-[[person:danielsvonava|Daniel Svonava]] gives the
-architecture boundary in
-[[podcast:building-production-search-systems|Building Search Systems]].
-At 12:45, he separates candidate generation from ranking. At 21:55, he moves
-that search structure into personalization requirements.
+Candidate generation is separate from ranking, and that same search structure
+carries into personalization requirements
+([[podcast:building-production-search-systems|Building Search Systems]]).
 
 That split is useful for recommender systems because a team first narrows
 possible items. It then ranks them with context, freshness, popularity, and
 business constraints.
 
-[[person:atitaarora|Atita Arora]] gives the session
-version in
-[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]].
-At 52:07 and 54:54, she contrasts session-based recommendations with
-collaborative filtering. Session-aware personalization can react to the current
-click path, while collaborative filtering relies more on accumulated user-item
-signals.
+Session-based recommendations contrast with collaborative filtering:
+session-aware personalization can react to the current click path, while
+collaborative filtering relies more on accumulated user-item signals
+([[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]]).
 
 ## Product and Healthcare Boundaries
 
 Personalization changes meaning by domain. In ecommerce or search, the system
 may optimize relevance and conversion. It may also optimize contact rate or
-revenue. Daniel's 34:00 discussion in
-[[podcast:building-production-search-systems|Building Search Systems]]
-shows why ranking needs filters and recency. It also needs popularity and
-product constraints, not only vector similarity.
+revenue. Ranking needs filters and recency, and it needs popularity and
+product constraints, not only vector similarity
+([[podcast:building-production-search-systems|Building Search Systems]]).
 
-Healthcare personalization needs a stricter boundary. Stefan describes Sidekick
-Health as digital therapeutics with an agenda: the system nudges people toward
-healthier behavior, not just toward more engagement. At 35:39-39:57 in
-[[podcast:ai-in-healthcare-and-digital-therapeutics|AI in Healthcare and Digital Therapeutics]],
-he discusses agenda-driven recommender systems, segmentation, and A/B testing.
-At 51:55, he adds safeguards for recommendations that could be unsafe for
-specific medical groups.
+Healthcare personalization needs a stricter boundary. Sidekick Health is
+digital therapeutics with an agenda: the system nudges people toward
+healthier behavior, not just toward more engagement. Agenda-driven recommender
+systems combine segmentation and A/B testing with safeguards for
+recommendations that could be unsafe for specific medical groups
+([[podcast:ai-in-healthcare-and-digital-therapeutics|AI in Healthcare and Digital Therapeutics]]).
 
 That healthcare boundary sits close to
 [[Healthcare ML Validation and Adoption]].
@@ -85,21 +76,18 @@ when the suggestion can affect care.
 
 ## User Context and Activation
 
-Personalization needs usable context before it needs advanced modeling.
-[[person:arpitchoudhury|Arpit Choudhury]] frames this
-from the growth stack in
-[[podcast:data-led-growth-event-tracking-and-reverse-etl|How to Build a Data-Led Growth Stack]].
+Personalization needs usable context before it needs advanced modeling. Tracking
+plans, event properties, and source context, along with the split between
+client-side and server-side collection, decide whether a team can trust an
+activation metric or user segment
+([[podcast:data-led-growth-event-tracking-and-reverse-etl|How to Build a Data-Led Growth Stack]]).
 
-At 13:34-28:52, he covers tracking plans, event properties, and source context.
-He also separates client-side and server-side collection. Those details decide
-whether a team can trust an activation metric or user segment.
-
-At 30:03-37:25 in the same episode, Arpit explains data activation and reverse
-ETL. Product event data can flow to support, sales, marketing, and engagement
-tools. At 56:08, he ties activation events to personalized onboarding in
-product-led growth. A recommendation model may not be necessary yet. A reliable
-activation event can already change the next email, support response, or product
-prompt.
+Data activation and reverse ETL let product event data flow to support, sales,
+marketing, and engagement tools, and activation events tie into personalized
+onboarding in product-led growth
+([[podcast:data-led-growth-event-tracking-and-reverse-etl|How to Build a Data-Led Growth Stack]]).
+A recommendation model may not be necessary yet. A reliable activation event can
+already change the next email, support response, or product prompt.
 
 This is why ML personalization belongs near
 [[data-led-growth|data-led growth]],
@@ -110,32 +98,26 @@ on ambiguous events can personalize the wrong behavior with more confidence.
 ## Ranking, Embeddings, and Retrieval
 
 Recommendation and personalization systems often share infrastructure with
-search. Daniel's
-[[podcast:building-production-search-systems|Building Search Systems]]
-episode covers embeddings, vector databases, and hybrid search. It also covers
-custom ranking models and query-time weights.
+search. Embeddings, vector databases, and hybrid search sit alongside custom
+ranking models and query-time weights
+([[podcast:building-production-search-systems|Building Search Systems]]).
+Multiple embeddings can cover titles, content, images, and behavioral signals,
+and late-binding query weights matter when the same item catalog serves
+different product contexts
+([[podcast:building-production-search-systems|Building Search Systems]]).
 
-At 38:11, he discusses using multiple embeddings for titles and content. He
-also discusses images and behavioral signals. At 45:11, he
-describes late-binding query weights, which matters when the same item catalog
-serves different product contexts.
-
-[[person:reemmahmoud|Reem Mahmoud]] covers a related
-production-search path in
-[[podcast:production-ml-search-vector-search-embeddings-hybrid-search|Production ML Search]].
-That discussion includes hybrid search and behavior signals. It also covers
+A related production-search path covers hybrid search and behavior signals, plus
 popularity, context-specific weighting, ecommerce personalization, and business
-KPIs. Use it
-with [[production search evaluation]]
+KPIs ([[podcast:production-ml-search-vector-search-embeddings-hybrid-search|Production ML Search]]).
+Use it with [[production search evaluation]]
 when the personalization problem looks like ranking a catalog rather than
 choosing a standalone prediction.
 
 [[Vector databases]] can help
 retrieve candidates, images, sessions, or similar products. They don't replace
-ranking, filtering, evaluation, or product constraints. Atita's recommendation
-discussion at 52:07 in
-[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]]
-keeps vector retrieval beside session context and re-ranking.
+ranking, filtering, evaluation, or product constraints. Vector retrieval belongs
+beside session context and re-ranking
+([[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]]).
 
 ## Evaluation and Experimentation
 
@@ -144,40 +126,34 @@ team compare candidate retrieval and ranking features. They can also compare
 embeddings, segments, and fallbacks. Online experiments show whether the
 personalized experience changed the product outcome under real traffic.
 
-[[person:jakobgraff|Jakob Graff]] gives the experiment
-discipline in
-[[podcast:ab-testing-and-product-experimentation|Product Analytics and A/B Testing]].
-At 24:44, he focuses on traffic splitting, assignment tracking, and monitoring.
-At 33:23, he discusses metric stability and seasonality. Those checks matter
-for personalization because a top-line uplift can hide assignment bugs,
-segment-level harm, or noisy metrics.
+Experiment discipline covers traffic splitting, assignment tracking, and
+monitoring, along with metric stability and seasonality
+([[podcast:ab-testing-and-product-experimentation|Product Analytics and A/B Testing]]).
+Those checks matter for personalization because a top-line uplift can hide
+assignment bugs, segment-level harm, or noisy metrics.
 
-[[person:ioannismesionis|Ioannis Mesionis]] adds the
-data product operating model in
-[[podcast:building-data-products-lead-data-scientist|Building Data Products at Scale]].
-At 17:37, his team defines KPIs, success criteria, and fail-fast checks before
-build work. At 25:17-27:25, pilots, A/B tests, and production rollout decide
-whether a model or analytics product should keep moving. That makes
-personalization a [[data-products|data product]]
+In the data product operating model, KPIs, success criteria, and fail-fast
+checks come before build work, and pilots, A/B tests, and production rollout
+decide whether a model or analytics product should keep moving
+([[podcast:building-data-products-lead-data-scientist|Building Data Products at Scale]]).
+That makes personalization a [[data-products|data product]]
 with users, metrics, and owners.
 
 ## Privacy and Safety
 
 Personalization often pushes teams to collect more user history than they need.
-[[person:katharinejarmul|Katharine Jarmul]] gives the
-privacy engineering boundary in
-[[podcast:data-privacy-engineering-gdpr-machine-learning|Data Privacy Engineering, GDPR, and Machine Learning]].
-At 30:15, she discusses session-based personalization as a lower-retention
-design option. At 33:08 and 40:50, she covers privacy-enhancing technologies
-and differential privacy. Her practical point comes earlier: decide what data
-the product needs and what risk the team is accepting.
+Session-based personalization is a lower-retention design option, and
+privacy-enhancing technologies and differential privacy extend the toolkit; the
+practical starting point is deciding what data the product needs and what risk
+the team is accepting
+([[podcast:data-privacy-engineering-gdpr-machine-learning|Data Privacy Engineering, GDPR, and Machine Learning]]).
 
-Stefan adds the healthcare version in
-[[podcast:ai-in-healthcare-and-digital-therapeutics|AI in Healthcare and Digital Therapeutics]].
-At 31:41, he discusses GDPR and HIPAA. He also discusses de-identification and
-empathy. At 51:55, he separates safe app experimentation from recommendations
-that require medical review. In high-impact domains, teams should define the
-guardrail path before they build a larger model.
+In the healthcare version, GDPR and HIPAA sit alongside de-identification and
+empathy, and safe app experimentation is separate from recommendations that
+require medical review
+([[podcast:ai-in-healthcare-and-digital-therapeutics|AI in Healthcare and Digital Therapeutics]]).
+In high-impact domains, teams should define the guardrail path before they build
+a larger model.
 
 ## Monitoring and Ownership
 
@@ -189,17 +165,14 @@ It should watch input distributions and prediction distributions. It should also
 watch ranking distributions, service health, business outcomes, and user
 feedback where the product allows it.
 
-[[person:linaweichbrodt|Lina Weichbrodt]] gives the
-human-centered monitoring approach in
-[[podcast:human-centered-mlops-and-model-monitoring|Human-Centered MLOps and Model Monitoring]].
-Around 29:23, she discusses live test sets and small A/B tests. Around 36:41,
-she adds user feedback and internal bug reports. That matters for
-personalization because the worst failures may first appear as complaints,
-support tickets, or unexplained segment drops.
+A human-centered monitoring approach combines live test sets and small A/B tests
+with user feedback and internal bug reports
+([[podcast:human-centered-mlops-and-model-monitoring|Human-Centered MLOps and Model Monitoring]]).
+That matters for personalization because the worst failures may first appear as
+complaints, support tickets, or unexplained segment drops.
 
-Ioannis gives a lighter operational example in
-[[podcast:building-data-products-lead-data-scientist|Building Data Products at Scale]].
-At 53:33-55:11, he discusses monitoring with Evidently, dashboards, and alerts.
+A lighter operational example uses monitoring with Evidently, dashboards, and
+alerts ([[podcast:building-data-products-lead-data-scientist|Building Data Products at Scale]]).
 These systems need the same ownership rule as other production ML systems. The
 platform can provide monitoring tools, but a product owner or model owner must
 decide what a bad alert means for users.
@@ -207,21 +180,20 @@ decide what a bad alert means for users.
 ## Analytics Before Models
 
 Several discussions warn against starting with complex ML before the product
-has a reliable measurement base. Stefan's healthcare episode puts data
-pipelines and dashboards before advanced recommender models. It also puts
-experimentation capabilities and variant availability first
-([[podcast:ai-in-healthcare-and-digital-therapeutics|27:02, 39:57, and 43:00]]).
-His sequence starts with A/B tests and segmentation, then moves toward
+has a reliable measurement base. Data pipelines and dashboards come before
+advanced recommender models, and experimentation capabilities and variant
+availability come first
+([[podcast:ai-in-healthcare-and-digital-therapeutics|AI in Healthcare and Digital Therapeutics]]).
+That sequence starts with A/B tests and segmentation, then moves toward
 clustering or collaborative filtering when the team has enough data and
 confidence.
 
-Arpit's growth-stack episode makes the same point from product analytics. If a
-team can personalize onboarding from a well-defined activation event, it may not
-need a model yet
-([[podcast:data-led-growth-event-tracking-and-reverse-etl|56:08]]).
-Ioannis adds the operating version. The intake and Definition of Done should
-decide whether the work is analytics, data science, or production ML
-([[podcast:building-data-products-lead-data-scientist|21:12]]).
+Product analytics makes the same point: if a team can personalize onboarding
+from a well-defined activation event, it may not need a model yet
+([[podcast:data-led-growth-event-tracking-and-reverse-etl|How to Build a Data-Led Growth Stack]]).
+The intake and Definition of Done should decide whether the work is analytics,
+data science, or production ML
+([[podcast:building-data-products-lead-data-scientist|Building Data Products at Scale]]).
 
 Use simpler analytics when the team mostly needs trustworthy events, segments,
 dashboards, or reverse ETL. Move toward ML personalization when the product has

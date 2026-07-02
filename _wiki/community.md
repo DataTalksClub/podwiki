@@ -16,33 +16,28 @@ and help each other improve. DataTalks.Club podcast guests use the term for a
 working system of feedback and teaching. They also connect community to
 contribution, visibility, and trust, not only to events or content.
 
-The
-[[podcast:datatalksclub-building-scaling-data-community|DataTalks.Club Behind the Scenes]]
-episode covers early forums and homepage work at 10:05. Around 24:38, the
-discussion turns to recurring programs such as Open Source Spotlight and Book
-of the Week. Around 55:07, it moves to live coding and office hours.
-[[person:demetriosbrinkmann|Demetrios Brinkmann]]
-draws the same boundary in
+Early forums and homepage work, recurring programs such as Open Source Spotlight
+and Book of the Week, and live coding and office hours all sit under community
+work
+([[podcast:datatalksclub-building-scaling-data-community|DataTalks.Club Behind the Scenes]]).
+The same boundary appears in the
 [[podcast:mlops-community-building-and-meetups|MLOps Community Playbook]]
-around 24:57 and 55:04. Community strengthens when members talk to each other,
-not only when organizers broadcast.
+([[person:demetriosbrinkmann|Demetrios Brinkmann]]): community strengthens when
+members talk to each other, not only when organizers broadcast.
 
 ## Participation Over Audience
 
-Podcast guests define community by participation. Members join events and ask
-questions in Slack, while others write notes, submit pull requests, and mentor
-newcomers. Some present projects or reuse what they learn at work.
+Community is defined by participation. Members join events and ask questions in
+Slack, while others write notes, submit pull requests, and mentor newcomers.
+Some present projects or reuse what they learn at work.
 
-DataTalks.Club's anniversary episodes show community through this practical
-work. In
-[[podcast:datatalksclub-building-sustainable-data-community-3-years-anniversary|Building a Sustainable Data Community]],
-the 14:56 section connects Slack engagement, teaching assistants, and webinar
-contributions. Around 20:23, Project of the Week and competitions become
-portfolio work. In
-[[podcast:datatalksclub-scaling-and-free-courses|Inside Scaling DataTalks.Club]],
-the 36:37 section links longevity to active engagement and
-self-organization. Around 51:38, members can become podcast guests, mentor in
-Slack, or join Project of the Week.
+Anniversary episodes show community through practical work. Slack engagement,
+teaching assistants, and webinar contributions connect together, and Project of
+the Week and competitions become portfolio work
+([[podcast:datatalksclub-building-sustainable-data-community-3-years-anniversary|Building a Sustainable Data Community]]).
+Longevity links to active engagement and self-organization, with members
+becoming podcast guests, mentoring in Slack, or joining Project of the Week
+([[podcast:datatalksclub-scaling-and-free-courses|Inside Scaling DataTalks.Club]]).
 
 A newsletter list or video channel can bring people in, but the community work
 starts when members can answer, contribute, and disagree. This is why community
@@ -53,63 +48,54 @@ connects to [[community building]],
 
 ## Community as an Operating Practice
 
-Guests share the participation model, but they describe different jobs
-community does for practitioners and organizers.
+The participation model is shared, but community does different jobs for
+practitioners and organizers.
 
-Demetrios treats community as an operating practice for
-[[MLOps]] practitioners. In
-[[podcast:mlops-community-building-and-meetups|MLOps Community Playbook]],
-the 14:02 section covers weekly meetups and content reuse. The 27:25 section
-covers core contributors and advisory groups. Around 50:51 and 1:00:17, the
-episode separates the work of core volunteers from broader member
-participation.
+Community works as an operating practice for [[MLOps]]
+practitioners: weekly meetups and content reuse, core contributors and advisory
+groups, and a separation between the work of core volunteers and broader member
+participation
+([[podcast:mlops-community-building-and-meetups|MLOps Community Playbook]],
+[[person:demetriosbrinkmann|Demetrios Brinkmann]]).
 
-The AI Guild episode frames community through inclusion, visibility, and
-psychological safety. In
-[[podcast:building-ml-communities-diversity-and-career-growth|How to Build and Scale a Data Science Community]],
-the 11:17 section explains how women-focused meetups grew into a broader
-support network. Around 27:19 and 31:24,
-[[person:daniameira|Dânia Meira]] connects diversity to
-leadership, product fit, and market reach. Her discussion places community
-inside [[data science]] career
-support, not only event programming.
+Another framing centers inclusion, visibility, and psychological safety.
+Women-focused meetups grew into a broader support network, and diversity
+connects to leadership, product fit, and market reach
+([[podcast:building-ml-communities-diversity-and-career-growth|How to Build and Scale a Data Science Community]],
+[[person:daniameira|Dânia Meira]]). That places community inside
+[[data science]] career support, not only
+event programming.
 
-Developer relations guests put community closer to product feedback and
-technical education. In
-[[podcast:devrel-data-science-open-source-tools|DevRel for Data Science]],
-[[person:elleobrien|Elle O'Brien]] ties DevRel work to
-documentation and pull requests around 12:20, then adds video production and
-support. Around 19:47, the episode discusses community management. Around
-23:51, community feedback becomes product signal. This links community to
+Developer relations places community closer to product feedback and technical
+education. DevRel work ties to documentation and pull requests, then video
+production and support, community management, and community feedback becoming
+product signal
+([[podcast:devrel-data-science-open-source-tools|DevRel for Data Science]],
+[[person:elleobrien|Elle O'Brien]]). This links community to
 [[developer relations]] and
 [[technical writing]].
 
 ## Formats for Shared Practice
 
-DataTalks.Club uses live events and office hours for scheduled work. Courses
-and competitions add guided practice. Slack, podcasts, and project showcases
-keep participation visible between events. In
-[[podcast:datatalksclub-building-scaling-data-community|DataTalks.Club Behind the Scenes]],
-the 20:22 section covers event planning and automation. The 24:38 section
-lists Open Source Spotlight, Minis, and Book of the Week.
+Live events and office hours handle scheduled work, courses and competitions add
+guided practice, and Slack, podcasts, and project showcases keep participation
+visible between events. Event planning and automation, plus Open Source
+Spotlight, Minis, and Book of the Week, fill out the format mix
+([[podcast:datatalksclub-building-scaling-data-community|DataTalks.Club Behind the Scenes]]).
 
-[[podcast:mlops-community-building-and-meetups|MLOps Community Playbook]]
-uses a similar mix. Weekly meetups become edited clips, podcast material,
-YouTube content, and follow-up discussion. Around 40:36, Demetrios discusses
-retention through multiple formats rather than simple gamification. Around
-45:45, he adds surveys and feedback cadence so organizers can hear what
-members need.
+A similar mix turns weekly meetups into edited clips, podcast material, YouTube
+content, and follow-up discussion
+([[podcast:mlops-community-building-and-meetups|MLOps Community Playbook]]).
+Retention comes through multiple formats rather than simple gamification, with
+surveys and a feedback cadence so organizers can hear what members need.
 
-Hackathons and conferences give members a more compressed version of the same
-practice. In
-[[podcast:practical-devrel-demofirst-education-and-open-source|Developer Advocacy Through Community Impact]],
-[[person:willrussell|Will Russell]] explains around
-11:46 how hackathons teach Git, teamwork, and project building. Around 23:18,
-the conversation covers online hackathon formats and office hours. Around
-25:26, it covers judging matrices and categories. Dânia's
-[[podcast:building-ml-communities-diversity-and-career-growth|data science community episode]]
-adds dinners and panels around 15:21, then workshops and the Datalift Summit
-around 16:45 and 1:00:42.
+Hackathons and conferences give members a compressed version of the same
+practice. Hackathons teach Git, teamwork, and project building, alongside online
+hackathon formats, office hours, and judging matrices and categories
+([[podcast:practical-devrel-demofirst-education-and-open-source|Developer Advocacy Through Community Impact]],
+[[person:willrussell|Will Russell]]). Dinners, panels, workshops, and the
+Datalift Summit add more compressed formats
+([[podcast:building-ml-communities-diversity-and-career-growth|data science community episode]]).
 
 ## Moderation, Safety, and Trust
 

@@ -20,13 +20,11 @@ tutorials, API references, and examples. They also discuss contribution guides,
 design docs, and decision logs. Model cards and datasheets belong in the same
 family as runbooks, onboarding notes, and portfolio repo tours.
 
-The most practical open-source definition comes from
-[[person:vincentwarmerdam|Vincent Warmerdam]] in
-[[podcast:open-source-ml-contributions|Contribute to Open Source ML]].
-At 22:20, he lists README material, guides, and API reference as project
-essentials. Examples matter too. At 24:10, he connects contribution guides with
-community etiquette. At 25:50, he treats reproducible issues and small
-documentation fixes as real contributions.
+[[person:vincentwarmerdam|Vincent Warmerdam]] frames the open-source essentials
+in [[podcast:open-source-ml-contributions|Contribute to Open Source ML]]: README
+material, guides, API reference, and examples. Contribution guides connect with
+community etiquette, and reproducible issues and small documentation fixes count
+as real contributions.
 
 This topic covers documentation as a project and team practice. Use
 [[Technical Writing]] for the
@@ -40,55 +38,47 @@ Across these episodes, documentation is useful when it lowers coordination cost.
 helps a user run a tool. It helps a teammate understand a decision, an operator
 recover from failure, or a hiring manager look at a project.
 
-[[person:eugeneyan|Eugene Yan]] expands the definition
-in
+[[person:eugeneyan|Eugene Yan]] expands the definition in
 [[podcast:technical-writing-for-data-scientists|Technical Writing for Data Scientists]].
-At 51:00, he discusses working-backwards documents, press releases, and design
-docs. At 54:00, he adds decision logs, rationales, and team memory. At 56:30,
-he recommends portfolio READMEs, quickstarts, and repo tours so another person
-can understand the work without private context.
+Working-backwards documents, press releases, and design docs sit alongside
+decision logs, rationales, and team memory. Portfolio READMEs, quickstarts, and
+repo tours let another person understand the work without private context.
 
-[[person:hugobowneanderson|Hugo Bowne-Anderson]] explains
-the adoption role in
+[[person:hugobowneanderson|Hugo Bowne-Anderson]] covers the adoption role in
 [[podcast:devrel-open-source-machine-learning|DevRel Role for Machine Learning]].
-At 18:03, he defines DevRel through education, documentation, and a "wisdom
-layer" around tools. At 25:17, he connects documentation feedback with
-dogfooding and developer collaboration. Documentation isn't only text after
-the product ships. Teams also use it to find where the product is hard to use.
+DevRel works through education, documentation, and a "wisdom layer" around tools,
+and documentation feedback connects with dogfooding and developer collaboration.
+Documentation isn't only text after the product ships; teams also use it to find
+where the product is hard to use.
 
 ## Readers and Use Cases
 
 Guests agree that documentation makes technical work easier to use, but they
 focus on different readers.
 
-Vincent focuses on open-source users and maintainers. In
-[[podcast:open-source-ml-contributions|Contribute to Open Source ML]],
-docs explain the project and set contribution expectations. They also reduce
-maintainer load. Around 27:40, he links first code pull requests to tests, CI,
-and packaging. He also names pre-commit, which makes documentation part of the
-review system.
+Vincent focuses on open-source users and maintainers. Docs explain the project,
+set contribution expectations, and reduce maintainer load. First code pull
+requests link to tests, CI, and packaging, and pre-commit makes documentation
+part of the review system
+[[podcast:open-source-ml-contributions|Contribute to Open Source ML]].
 
-Eugene focuses on future teammates and future readers. In
-[[podcast:technical-writing-for-data-scientists|Technical Writing for Data Scientists]],
-the 14:00 chapter starts from audience choice. The 25:00 chapter uses an
-outline-first method, and the 54:00 chapter treats decision records as a way to
-keep reasoning available after the meeting ends.
+Eugene focuses on future teammates and future readers. The approach starts from
+audience choice, uses an outline-first method, and treats decision records as a
+way to keep reasoning available after the meeting ends
+[[podcast:technical-writing-for-data-scientists|Technical Writing for Data Scientists]].
 
-Hugo and [[person:willrussell|Will Russell]] focus on
-developers trying to adopt tools. Hugo's 43:14 chapter says tutorials should
-start from audience and goals. In
-[[podcast:practical-devrel-demofirst-education-and-open-source|Developer Advocacy Through Community Impact]],
-Will describes developer advocacy through documentation, demos, and outreach at
-49:14. At 51:49, he describes a content workflow based on bullet points, demos,
-and collaboration with writers.
+Hugo and [[person:willrussell|Will Russell]] focus on developers trying to adopt
+tools. For Hugo, tutorials should start from audience and goals. Will covers
+developer advocacy through documentation, demos, and outreach, with a content
+workflow based on bullet points, demos, and collaboration with writers
+[[podcast:practical-devrel-demofirst-education-and-open-source|Developer Advocacy Through Community Impact]].
 
-[[person:nadianahar|Nadia Nahar]] adds a software
-engineering and accountability lens in
+[[person:nadianahar|Nadia Nahar]] adds a software engineering and accountability
+lens in
 [[podcast:software-engineering-for-machine-learning|Software Engineering for ML]].
-At 13:52, documentation appears with shared vocabulary and expectation setting.
-At 42:47, model cards and datasheets become documentation for ML products.
-Factsheets and checklists belong there too. They aren't just communication
-material.
+Documentation appears with shared vocabulary and expectation setting. Model
+cards, datasheets, factsheets, and checklists are documentation for ML products,
+not just communication material.
 
 ## Docs for Data and ML Systems
 
@@ -96,13 +86,12 @@ Data and ML systems need documentation because their behavior depends on data
 and requirements. Ownership and operating context matter too. Code alone rarely
 shows those assumptions.
 
-Nadia's
+The
 [[podcast:software-engineering-for-machine-learning|Software Engineering for ML]]
-episode is the strongest ML-system reference. At 10:12, she frames ML products
-through hidden technical debt. At 29:42, she discusses failure modes such as
-unmet requirements, poor data, and deployment issues. Her 39:05 chapter puts
-documentation next to workshops and shared vocabularies. She treats docs as
-part of engineering remediation.
+episode is the strongest ML-system reference. ML products carry hidden technical
+debt, and failure modes include unmet requirements, poor data, and deployment
+issues. Documentation sits next to workshops and shared vocabularies as part of
+engineering remediation.
 
 For ML systems, documentation supports [[software engineering]],
 [[MLOps]], and
@@ -128,13 +117,11 @@ evaluation. They also include serving, monitoring, fallbacks, and ownership.
 Runbooks make documentation part of operations. They explain what to check, who
 owns the system, how to recover, and when to escalate.
 
-[[person:christopherbergh|Christopher Bergh]] gives the
-clearest operational version in
+[[person:christopherbergh|Christopher Bergh]] gives the operational version in
 [[podcast:dataops-automation-and-reliable-data-pipelines|Mastering DataOps]].
-At 33:47, he lists version control, tests, and CI/CD as practical steps for
-healthier data pipelines. At 34:37, he moves from runbooks to automated
-playbooks. At 38:01, he connects handoffs and documentation to replaceability.
-He also connects them to reduced on-call load.
+Version control, tests, and CI/CD are practical steps for healthier data
+pipelines, and runbooks extend into automated playbooks. Handoffs and
+documentation connect to replaceability and reduced on-call load.
 
 That makes runbooks part of [[DataOps]]
 and [[data-quality-and-observability|data observability]], not

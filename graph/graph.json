@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 135,
     "nodes": 1146,
-    "links": 5239
+    "links": 5234
   },
   "nodes": [
     {
@@ -30294,6 +30294,12 @@
     },
     {
       "source": "wiki:agent-ops",
+      "target": "podcast:s23e07-understanding-ai-engineer-role",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:agent-ops",
       "target": "wiki:agent-engineering",
       "kind": "wiki-related",
       "weight": 3
@@ -31173,30 +31179,6 @@
       "target": "wiki:product-analytics",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:analytics-engineering-roadmap",
-      "target": "person:arpitchoudhury",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:analytics-engineering-roadmap",
-      "target": "person:juanmanuelperafan",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:analytics-engineering-roadmap",
-      "target": "person:nikolamaksimovic",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:analytics-engineering-roadmap",
-      "target": "person:victoriaperezmola",
-      "kind": "wiki-link",
-      "weight": 1
     },
     {
       "source": "wiki:analytics-engineering-roadmap",
@@ -39708,12 +39690,6 @@
     },
     {
       "source": "wiki:model-monitoring-vs-data-observability",
-      "target": "podcast:mlops-model-monitoring-data-observability",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:model-monitoring-vs-data-observability",
       "target": "wiki:data-quality-and-observability",
       "kind": "wiki-wiki",
       "weight": 5
@@ -40131,12 +40107,6 @@
       "target": "wiki:production",
       "kind": "wiki-wiki",
       "weight": 5
-    },
-    {
-      "source": "wiki:open-source",
-      "target": "person:elenasamuylova",
-      "kind": "wiki-link",
-      "weight": 1
     },
     {
       "source": "wiki:open-source",

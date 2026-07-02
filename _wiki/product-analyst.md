@@ -23,34 +23,30 @@ related_wiki:
 ---
 
 A product analyst helps product teams understand how users move through a
-product. They identify where the experience breaks down and whether the product
-captures that behavior correctly. In
-[[podcast:data-led-growth-event-tracking-and-reverse-etl|the Data-Led Growth episode]],
-[[person:arpitchoudhury|Arpit Choudhury]] ties that
-work to a defined event set at 13:34-18:27. That event set covers event names,
-properties, owners and capture locations. Product analysts combine
+product, identify where the experience breaks down, and check whether the product
+captures that behavior correctly. That work rests on a defined event set covering
+event names, properties, owners, and capture locations
+([[podcast:data-led-growth-event-tracking-and-reverse-etl|Data-Led Growth]]).
+Product analysts combine
 [[product analytics]] and
 [[event tracking]], then extend
-into metric definition, dashboarding and experiment analysis with stakeholders.
+into metric definition, dashboarding, and experiment analysis with stakeholders.
 
 Product analysts go beyond dashboards because they define the question and
 check whether the data can answer it. They analyze user behavior, explain the
-tradeoffs, and help the team decide what to do next. For experiments,
-[[person:jakobgraff|Jakob Graff]] frames A/B testing as
-causal measurement under noisy live conditions in
-[[podcast:ab-testing-and-product-experimentation|A/B Testing and Product Experimentation]]
-at 8:13-14:27. He then connects assignment tracking, metric stability, and
-power to trustworthy product decisions at 24:44-40:23.
+tradeoffs, and help the team decide what to do next. A/B testing works as causal
+measurement under noisy live conditions, with assignment tracking, metric
+stability, and power connecting to trustworthy product decisions
+([[podcast:ab-testing-and-product-experimentation|A/B Testing and Product Experimentation]]).
 
 ## Product Analyst Responsibilities
 
-A product analyst turns product behavior into decisions. In
-[[podcast:data-led-growth-event-tracking-and-reverse-etl|the Data-Led Growth episode]],
-[[person:arpitchoudhury|Arpit Choudhury]] explains at
-13:34-18:27 that teams need a defined event set before they can trust funnels
-or activation workflows. That event set covers names, properties, owners, and
-capture locations. Instrumentation review is therefore part of a product
-analyst's work. Engineers may still implement the events.
+A product analyst turns product behavior into decisions. Teams need a defined
+event set — names, properties, owners, and capture locations — before they can
+trust funnels or activation workflows
+([[podcast:data-led-growth-event-tracking-and-reverse-etl|Data-Led Growth]]).
+Instrumentation review is therefore part of a product analyst's work, even when
+engineers implement the events.
 
 Typical responsibilities include:
 
@@ -67,16 +63,14 @@ Typical responsibilities include:
 - Explain findings in plain language so product, design, engineering, growth,
   and leadership teams can act on them.
 
-Arpit's same episode connects those responsibilities to the wider product-data
-system. At 22:50-41:30, he moves from collection into storage, analysis, and
-activation. At 46:13-56:08, he places several teams around the same tracking
-and activation work. The group includes data engineers, analysts, analytics
-engineers, and product operations.
+The same episode connects those responsibilities to the wider product-data
+system, moving from collection into storage, analysis, and activation, and
+placing several teams around the same tracking and activation work: data
+engineers, analysts, analytics engineers, and product operations
+([[podcast:data-led-growth-event-tracking-and-reverse-etl|Data-Led Growth]]).
 
-For experiments,
-[[person:jakobgraff|Jakob Graff]] covers assignment,
-metric stability, and power at 24:44-40:23 in
-[[podcast:ab-testing-and-product-experimentation|A/B Testing and Product Experimentation]].
+For experiments, that work extends to assignment, metric stability, and power
+([[podcast:ab-testing-and-product-experimentation|A/B Testing and Product Experimentation]]).
 
 This overlaps with the broader
 [[data analyst role]], but the
@@ -90,7 +84,7 @@ The role summary should describe product decisions, not only reporting. A
 product analyst partners with cross-functional teams to measure user behavior
 and define product metrics. The role analyzes experiments and turns product
 data into recommendations. That scope matches the analyst work in
-[[podcast:data-team-roles|Data Team Roles Explained at 7:51-11:17]].
+[[podcast:data-team-roles|Data Team Roles Explained]].
 
 The segment also covers KPI dashboards, problem sizing, and A/B-test
 evaluation.
@@ -127,17 +121,16 @@ The skills list should include:
 The event-tracking episode is especially useful for this template because it
 shows why a product analyst must care about the source of a number. A signup
 event can mean a button click, a submitted form, an email verification, or a
-created account. Arpit's 23:27-28:52 discussion of event definitions and event
-properties grounds that distinction. Without that semantic clarity, funnel
-analysis becomes misleading.
+created account; event definitions and properties ground that distinction, and
+without that semantic clarity funnel analysis becomes misleading
+([[podcast:data-led-growth-event-tracking-and-reverse-etl|Data-Led Growth]]).
 
 ## Event Tracking and Tracking Plans
 
-Product analysts don't usually write all production instrumentation code. They
-should still help decide what needs to be captured. In
-[[podcast:data-led-growth-event-tracking-and-reverse-etl|the Data-Led Growth episode]],
-teams use the tracking plan to align product and growth teams with analytics
-and engineering at 13:34-18:27.
+Product analysts don't usually write all production instrumentation code, but
+they should help decide what needs to be captured. Teams use the tracking plan to
+align product and growth teams with analytics and engineering
+([[podcast:data-led-growth-event-tracking-and-reverse-etl|Data-Led Growth]]).
 
 It records event names, properties, data types, and semantics. It also names
 implementation ownership, which makes later analysis trustworthy.
@@ -155,9 +148,9 @@ or experiment goes live:
 - The downstream dashboard, experiment, lifecycle message, support workflow, or
   sales workflow that depends on it.
 
-Arpit's 23:27-28:52 discussion grounds the event examples and capture details.
-His 30:03-33:41 discussion connects the same events to downstream support,
-sales, lifecycle, and messaging workflows.
+Event examples and capture details ground these checks, and the same events
+connect to downstream support, sales, lifecycle, and messaging workflows
+([[podcast:data-led-growth-event-tracking-and-reverse-etl|Data-Led Growth]]).
 
 This is where [[event tracking]]
 and [[tracking plans]] become role
@@ -167,17 +160,15 @@ problem.
 
 ## A/B Testing and Product Experimentation
 
-Product analysts often support experiment design and own experiment readouts. In
-[[podcast:ab-testing-and-product-experimentation|A/B Testing and Product Experimentation]],
-[[person:jakobgraff|Jakob Graff]] frames A/B testing
-as a way to establish causality under noisy live conditions. At 8:13-14:27, he
-uses randomization to separate product effects from background noise. At
-24:44-27:52, he covers assignment tracking. At 27:52-30:05, he uses A/A tests
-as a trust check.
+Product analysts often support experiment design and own experiment readouts.
+A/B testing establishes causality under noisy live conditions: randomization
+separates product effects from background noise, assignment tracking records who
+saw what, and A/A tests act as a trust check
+([[podcast:ab-testing-and-product-experimentation|A/B Testing and Product Experimentation]]).
 
 Metric stability and
-[[power analysis]] show up at
-33:23-40:23.
+[[power analysis]] complete the setup
+([[podcast:ab-testing-and-product-experimentation|A/B Testing and Product Experimentation]]).
 
 That changes the product analyst job description because the analyst isn't only
 checking whether a variant "won."
@@ -193,7 +184,8 @@ The analyst should help the team define the decision before the test starts:
   result.
 - Segments that need diagnosis after the topline readout.
 
-For first tests, Jakob favors a narrow setup at 30:05-33:23:
+For first tests, a narrow setup works best
+([[podcast:ab-testing-and-product-experimentation|A/B Testing and Product Experimentation]]):
 
 - two groups
 - a primary metric chosen before launch
@@ -213,43 +205,35 @@ experiments. It also covers stakeholder work and recommendations. The product
 analyst applies that toolkit to product journeys, activation, retention, and
 engagement. Feature usage and experimentation become central parts of the role.
 
-The title boundary isn't stable across companies. In
-[[podcast:data-team-roles|34:35|Data Team Roles Explained]],
-the discussion separates product analyst, data analyst, and business analyst
-labels by the work each company assigns.
+The title boundary isn't stable across companies; product analyst, data analyst,
+and business analyst labels separate by the work each company assigns
+([[podcast:data-team-roles|Data Team Roles Explained]]).
 
 The boundary with
 [[analytics engineering]]
-depends on team size. In
-[[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch|From Marketing to Analytics Engineering]],
-[[person:nikolamaksimovic|Nikola Maksimovic]]
-describes work around SQL, BI, and dbt migration. At 14:14-18:34, he connects
-analytics engineering with product support and A/B testing. At 23:12-24:51, he
-describes Looker and dashboard work. At 25:06-28:40, he shows why analyst and
-analytics-engineer boundaries can blur.
+depends on team size. Analytics engineering work spans SQL, BI, and dbt
+migration, connects to product support and A/B testing, and includes Looker and
+dashboard work — which is why analyst and analytics-engineer boundaries can blur
+([[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch|From Marketing to Analytics Engineering]]).
 
-Data modeling and domain knowledge matter in the same discussion. That episode
-shows why the analyst and analytics engineer boundary can blur. Analysts need
+Data modeling and domain knowledge matter in the same discussion: analysts need
 usable models, and analytics engineers need to understand the product
 definitions those models encode.
 
-In
-[[podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices|Foundations of the Analytics Engineer Role]],
-[[person:juanmanuelperafan|Juan Manuel Perafan]]
-describes analytics engineering as bridging analysts and engineers at
-7:10-8:42. At 11:03-13:18, he turns business reality into cleaner, tested data.
-A product analyst shouldn't be expected to own the full transformation platform. The
-analyst should still know when a repeated query belongs in a modeled analytics
-layer. The same applies to an inconsistent dashboard definition or fragile
-metric.
+Analytics engineering bridges analysts and engineers, turning business reality
+into cleaner, tested data
+([[podcast:s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices|Foundations of the Analytics Engineer Role]]).
+A product analyst shouldn't be expected to own the full transformation platform,
+but should know when a repeated query belongs in a modeled analytics layer — the
+same applies to an inconsistent dashboard definition or a fragile metric.
 
 The boundary with product management is different because product managers own
-product direction. They also own prioritization and delivery tradeoffs. Product
-analysts explain what the data says. They also assess whether the data is
-trustworthy, which segments are affected, and what uncertainty remains.
-In [[podcast:data-team-roles|Data Team Roles Explained at 5:47-10:21]],
-product managers own prioritization and product tradeoffs, while analysts help
-quantify the problem and evaluate changes.
+product direction, prioritization, and delivery tradeoffs. Product analysts
+explain what the data says, and assess whether the data is trustworthy, which
+segments are affected, and what uncertainty remains. Product managers own
+prioritization and product tradeoffs, while analysts help quantify the problem
+and evaluate changes
+([[podcast:data-team-roles|Data Team Roles Explained]]).
 
 ## Skills That Make a Product Analyst Effective
 
@@ -267,21 +251,21 @@ The DataTalks.Club episodes show a practical stack for product analysts:
 - Domain knowledge from marketing, growth, product, support, sales, or the
   product's industry.
 
-Domain knowledge isn't a soft extra. The marketing-to-analytics-engineering
-episode shows how knowledge of funnels, user journeys, and performance
-marketing can become an advantage in analytics work. For product analysts, that
-same advantage applies to onboarding and lifecycle behavior. It can also apply
-to pricing, marketplace dynamics, content discovery, or any other product domain
-where metric movement needs context.
+Domain knowledge isn't a soft extra. Knowledge of funnels, user journeys, and
+performance marketing can become an advantage in analytics work
+([[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch|From Marketing to Analytics Engineering]]).
+For product analysts, that same advantage applies to onboarding and lifecycle
+behavior, and to pricing, marketplace dynamics, content discovery, or any other
+product domain where metric movement needs context.
 
-This skill mix appears across four episode families. The
-[[podcast:data-team-roles|Data Team Roles episode at 7:51-11:17]]
+This skill mix appears across four episodes.
+[[podcast:data-team-roles|Data Team Roles Explained]]
 grounds analyst and product-manager collaboration.
-The [[podcast:data-led-growth-event-tracking-and-reverse-etl|Data-Led Growth episode at 13:34-28:52]]
+[[podcast:data-led-growth-event-tracking-and-reverse-etl|Data-Led Growth]]
 grounds tracking and event semantics.
-[[podcast:ab-testing-and-product-experimentation|A/B Testing at 24:44-40:23]]
+[[podcast:ab-testing-and-product-experimentation|A/B Testing and Product Experimentation]]
 grounds experiment interpretation.
-[[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch|Marketing to Analytics Engineering at 38:27-41:50]]
+[[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch|From Marketing to Analytics Engineering]]
 grounds product analytics context.
 
 ## Hiring Signals and Portfolio Projects
@@ -311,18 +295,16 @@ Good project examples include:
 Look for the analyst's ability to connect product behavior and data quality.
 The recommendation should also show statistical reasoning.
 
-Strong portfolio examples can draw on these podcast examples:
+Strong portfolio examples can draw on these episodes:
 
 - An experiment readout should show assignment, metric choice, and power
-  reasoning from
-  [[podcast:ab-testing-and-product-experimentation|A/B Testing at 24:44-37:44]].
-- A tracking-plan review should use Arpit's Data-Led Growth
-  [[podcast:data-led-growth-event-tracking-and-reverse-etl|episode]]
-  at 13:34-28:52 for event definitions and ownership.
-- Nikola's transition discussion at 41:50-45:09 in
-  [[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch|From Marketing to Analytics Engineering]]
-  adds a practical project signal: use a real business question and explain the
-  data choices behind the work.
+  reasoning
+  ([[podcast:ab-testing-and-product-experimentation|A/B Testing and Product Experimentation]]).
+- A tracking-plan review should use event definitions and ownership from
+  [[podcast:data-led-growth-event-tracking-and-reverse-etl|Data-Led Growth]].
+- A practical project signal is to use a real business question and explain the
+  data choices behind the work
+  ([[podcast:from-marketing-to-analytics-engineering-sql-dbt-career-switch|From Marketing to Analytics Engineering]]).
 
 ## Related Pages
 

@@ -21,12 +21,10 @@ An open-source contributor roadmap should start with useful work that a
 maintainer can review. That work may be code, docs, or tests. It can also be a
 reproducible issue, a demo, a forum answer, or a tutorial.
 
-[[person:vincentwarmerdam|Vincent Warmerdam]] gives
-the practical version in
-[[podcast:open-source-ml-contributions|Contribute to Open Source ML]].
-At 22:20 and 24:10, contribution quality includes documentation, contribution
-guides, and polite interaction. At 25:50 and 27:40, reproducible issues and
-tests reduce maintainer work. CI, packaging, and pre-commit matter too.
+Contribution quality includes documentation, contribution guides, and polite
+interaction. Reproducible issues and tests reduce maintainer work, and CI,
+packaging, and pre-commit matter too
+([[person:vincentwarmerdam|Vincent Warmerdam]], [[podcast:open-source-ml-contributions|Contribute to Open Source ML]]).
 
 The broad concept lives in [[Open Source]],
 and
@@ -44,12 +42,10 @@ easier to explain or maintain. That definition is wider than code commits. It
 includes documentation, examples, onboarding, and support. Demos and community
 feedback count too.
 
-[[person:mervenoyan|Merve Noyan]] shows this in
-[[podcast:hugging-face-contributions-and-nlp-portfolio|Hugging Face Contributions and NLP Portfolio]].
-At 10:31 and 25:09, good-first issues, docs, and non-code work are valid entry
-points. At 17:37 and 23:26, Spaces demos and GitHub work become portfolio
-signals. At 30:21 and 33:23, large codebases and PR workflow become part of the
-learning path. Tests and rejection are part of it too.
+Good-first issues, docs, and non-code work are valid entry points. Spaces demos
+and GitHub work become portfolio signals, and large codebases and PR
+workflow—along with tests and rejection—become part of the learning path
+([[person:mervenoyan|Merve Noyan]], [[podcast:hugging-face-contributions-and-nlp-portfolio|Hugging Face Contributions and NLP Portfolio]]).
 
 The same contribution surface connects to [[Contributing]],
 [[Open Source]], and
@@ -61,12 +57,10 @@ Start with a project you can run locally. Open one issue that explains the
 problem and gives reproduction steps. Then choose a small fix or documentation
 change. The first goal is to show that you can follow project norms.
 
-[[person:willrussell|Will Russell]] makes onboarding
-concrete in
-[[podcast:practical-devrel-demofirst-education-and-open-source|Demo-First DevRel and Open Source Education]].
-At 39:02 and 41:16, PR quality and Git skills matter. Environment setup and
-maintainer collaboration matter too. At 49:14 and 57:22, docs and demos help
-users finish a real task. Docker, Postgres, and Git tutorials do the same.
+PR quality and Git skills matter, and so do environment setup and maintainer
+collaboration. Docs and demos help users finish a real task, as do Docker,
+Postgres, and Git tutorials
+([[person:willrussell|Will Russell]], [[podcast:practical-devrel-demofirst-education-and-open-source|Demo-First DevRel and Open Source Education]]).
 
 The first contribution sequence can be:
 
@@ -85,19 +79,13 @@ That's why docs work belongs with [[Documentation]],
 [[Developer Relations]], not
 only with README cleanup.
 
-[[person:eugeneyan|Eugene Yan]] connects writing to
-technical credibility in
-[[podcast:technical-writing-for-data-scientists|Technical Writing for Data Scientists]].
-At 14:00 and 25:00, writing starts with audience and outline. At 51:00, 54:00,
-and 56:30, design docs and decision logs become career evidence. README files,
-quickstarts, and repo tours count too.
+Writing starts with audience and outline. Design docs and decision logs become
+career evidence, and README files, quickstarts, and repo tours count too
+([[person:eugeneyan|Eugene Yan]], [[podcast:technical-writing-for-data-scientists|Technical Writing for Data Scientists]]).
 
-[[person:hugobowneanderson|Hugo Bowne-Anderson]] gives
-the DevRel version in
-[[podcast:devrel-open-source-machine-learning|DevRel for Machine Learning and Open Source]].
-At 18:03 and 43:14, education and tutorials should start from audience goals.
-At 25:17 and 36:27, dogfooding and reproducibility create feedback for the
-project.
+Education and tutorials should start from audience goals, while dogfooding and
+reproducibility create feedback for the project
+([[person:hugobowneanderson|Hugo Bowne-Anderson]], [[podcast:devrel-open-source-machine-learning|DevRel for Machine Learning and Open Source]]).
 
 ## Portfolio Proof from Public Work
 
@@ -113,22 +101,19 @@ of sitting as an unexplained GitHub link. For pipeline work, connect it to
 For model or ML-tool work, connect it to
 [[Machine Learning Portfolio Projects]].
 
-[[person:swyx|Shawn Swyx Wang]] adds the
-learn-in-public layer in
-[[podcast:developer-personal-brand-learn-in-public|Developer Personal Brand and Learn in Public]].
-At 23:53 and 25:54, public progress and corrections make work discoverable. An
-owned blog helps too. At 47:14 and 51:10, collaborative docs and cheat sheets
-help others evaluate what happened. Demos and brag documents help too.
+Public progress and corrections make work discoverable, and an owned blog helps
+too. Collaborative docs and cheat sheets help others evaluate what happened, as
+do demos and brag documents
+([[person:swyx|Shawn Swyx Wang]], [[podcast:developer-personal-brand-learn-in-public|Developer Personal Brand and Learn in Public]]).
 
 [[person:saraelateif|Sara El-Ateif]] and
 [[person:isabellabicalho|Isabella Bicalho]] show the
-career-switcher path. In
-[[podcast:open-source-and-volunteering-in-ai-for-data-ml-career-growth|Open Source and Volunteering in AI]],
-Sara connects collaboration, referrals, and beginner roles to practical
-experience. In
-[[podcast:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers|Biology to Machine Learning]],
-Isabella uses social-impact AI and Hugging Face computer-vision work as public
-project evidence.
+career-switcher path. For Sara, collaboration, referrals, and beginner roles
+connect to practical experience
+([[podcast:open-source-and-volunteering-in-ai-for-data-ml-career-growth|Open Source and Volunteering in AI]]).
+Isabella's social-impact AI and Hugging Face computer-vision work serve as
+public project evidence
+([[podcast:from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers|Biology to Machine Learning]]).
 
 ## Maintainer-Aware Contributions
 

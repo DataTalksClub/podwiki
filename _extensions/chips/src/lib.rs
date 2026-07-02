@@ -364,18 +364,32 @@ fn tag_name(s: &str) -> String {
         .to_ascii_lowercase()
 }
 
-/// Slugify a target for a main-site URL: trim, lowercase, whitespace -> dashes.
-/// Targets in the wiki are already slugs, so this is normally the identity.
+/// Slugify a target for a URL path: lowercase ASCII alphanumerics, collapse all
+/// other runs to one dash, and trim edge dashes. Targets in typed podcast,
+/// person, and book chips are already slugs, so this is normally the identity
+/// there; for wiki chips it prevents title targets such as `A/B Testing` from
+/// becoming invalid paths.
 fn slugify(target: &str) -> String {
-    target
-        .trim()
-        .chars()
-        .map(|c| if c.is_whitespace() { '-' } else { c.to_ascii_lowercase() })
-        .collect()
+    let mut slug = String::with_capacity(target.len());
+    let mut pending_dash = false;
+
+    for c in target.trim().chars() {
+        if c.is_ascii_alphanumeric() {
+            if pending_dash && !slug.is_empty() {
+                slug.push('-');
+            }
+            slug.push(c.to_ascii_lowercase());
+            pending_dash = false;
+        } else {
+            pending_dash = true;
+        }
+    }
+
+    slug
 }
 
 /// Render a single token's normalized inner text (no brackets) to chip markup.
-fn render_chip<F>(inner: &str, baseurl: &str, resolve: &F, warnings: &mut Vec<String>) -> String
+fn render_chip<F>(inner: &str, baseurl: &str, _resolve: &F, warnings: &mut Vec<String>) -> String
 where
     F: Fn(&str) -> Option<String>,
 {
@@ -428,10 +442,20 @@ where
 
     let original = format!("[[{inner}]]");
 
-    // Build the href. Only `wiki` is resolved via the host (internal page);
-    // person/podcast/book always link out to the main site, built from the slug.
+    // Build the href. Wiki chips intentionally use the wiki permalink pattern
+    // directly instead of the host's global resolver: podcast summaries and wiki
+    // pages can share slugs, and the global resolver may return `/podcasts/...`
+    // for an untyped wiki token. Link checking catches any genuinely missing
+    // wiki target.
     let href_opt: Option<String> = match chip_type {
-        ChipType::Wiki => resolve(target).map(|url| format!("{baseurl}{url}")),
+        ChipType::Wiki => {
+            let slug = slugify(target);
+            if slug.is_empty() {
+                None
+            } else {
+                Some(format!("{baseurl}/wiki/{slug}/"))
+            }
+        }
         ChipType::Person => Some(format!("{MAIN_SITE}/people/{}.html", slugify(target))),
         ChipType::Podcast => Some(format!("{MAIN_SITE}/podcast/{}.html", slugify(target))),
         ChipType::Book => Some(format!("{MAIN_SITE}/books/{}.html", slugify(target))),
@@ -707,17 +731,13 @@ mod tests {
     }
 
     #[test]
-    fn unresolved_wiki_becomes_broken_link_and_warns() {
+    fn wiki_missing_target_renders_wiki_url_for_link_checker() {
         let (html, warns) = run("<p>[[does-not-exist]]</p>");
         assert!(
-            html.contains("<span class=\"broken-link\">does not exist</span>"),
+            html.contains("href=\"/wiki/does-not-exist/\""),
             "got: {html}"
         );
-        assert_eq!(warns.len(), 1);
-        assert!(
-            warns[0].contains("chips: unresolved [[does-not-exist]]"),
-            "warns: {warns:?}"
-        );
+        assert!(warns.is_empty(), "warns: {warns:?}");
     }
 
     #[test]
