@@ -775,3 +775,65 @@ code {
   padding: 0.15rem 0.5rem;
   border-radius: 3px;
 }
+
+/* Nav dropdown */
+.nav-dropdown {
+  position: relative;
+}
+
+.nav-dropdown-trigger {
+  background: transparent;
+  border: none;
+  color: var(--text);
+  font: inherit;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0;
+  line-height: 1.35;
+}
+
+.nav-dropdown-trigger::after {
+  content: " \25BE";
+  font-size: 0.7em;
+  opacity: 0.6;
+}
+
+.nav-dropdown-trigger:hover,
+.nav-dropdown-trigger:focus {
+  color: var(--accent-strong);
+}
+
+.nav-dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #fff;
+  border: 1px solid var(--border, #d0d0d0);
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  min-width: 200px;
+  padding: 0.4rem 0;
+  z-index: 100;
+}
+
+.nav-dropdown-menu a {
+  display: block;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.nav-dropdown-menu a:hover {
+  background: var(--bg-alt, #f4f4f4);
+  color: var(--accent-strong);
+}
+
+.nav-dropdown.open .nav-dropdown-menu {
+  display: block;
+}
+
+.nav-dropdown.open .nav-dropdown-trigger {
+  color: var(--accent-strong);
+}

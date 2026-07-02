@@ -45,13 +45,18 @@
         <nav class="site-nav" aria-label="Primary navigation">
           <a href="{{ '/graph.html' | relative_url }}">Graph</a>
           <a href="{{ '/wiki/' | relative_url }}">Wiki</a>
-          <a href="{{ '/guides-page/' | relative_url }}">Guides</a>
-          <a href="{{ '/comparisons-page/' | relative_url }}">Comparisons</a>
-          <a href="{{ '/roadmaps-page/' | relative_url }}">Roadmaps</a>
-          <a href="{{ '/how-tos-page/' | relative_url }}">How-Tos</a>
+          <div class="nav-dropdown">
+            <button class="nav-dropdown-trigger" aria-haspopup="true" aria-expanded="false">Special Pages</button>
+            <div class="nav-dropdown-menu">
+              <a href="{{ '/special-pages/' | relative_url }}">All Special Pages</a>
+              <a href="{{ '/guides-page/' | relative_url }}">Guides</a>
+              <a href="{{ '/comparisons-page/' | relative_url }}">Comparisons</a>
+              <a href="{{ '/roadmaps-page/' | relative_url }}">Roadmaps</a>
+              <a href="{{ '/how-tos-page/' | relative_url }}">How-Tos</a>
+            </div>
+          </div>
           <a href="{{ '/podcasts/' | relative_url }}">Podcasts</a>
           <a href="{{ '/books-page/' | relative_url }}">Books</a>
-          <a href="{{ '/special-pages/' | relative_url }}">Special Pages</a>
           <a href="{{ '/people/' | relative_url }}">People</a>
           <a href="{{ '/search.html' | relative_url }}">Search</a>
         </nav>
@@ -60,5 +65,22 @@
     <main class="page">
       {{ content }}
     </main>
+    <script>
+      document.querySelectorAll('.nav-dropdown').forEach(function(dd) {
+        var trigger = dd.querySelector('.nav-dropdown-trigger');
+        trigger.addEventListener('click', function(e) {
+          e.preventDefault();
+          var isOpen = dd.classList.contains('open');
+          document.querySelectorAll('.nav-dropdown.open').forEach(function(o) { o.classList.remove('open'); });
+          if (!isOpen) dd.classList.add('open');
+          trigger.setAttribute('aria-expanded', !isOpen);
+        });
+      });
+      document.addEventListener('click', function(e) {
+        if (!e.target.closest('.nav-dropdown')) {
+          document.querySelectorAll('.nav-dropdown.open').forEach(function(o) { o.classList.remove('open'); });
+        }
+      });
+    </script>
   </body>
 </html>
