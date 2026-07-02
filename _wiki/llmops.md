@@ -10,6 +10,9 @@ related:
   - Agent Engineering
   - Evaluation
   - LLM Deployment
+  - DataOps
+  - GitOps for Data Teams
+  - MLOps vs DevOps
 ---
 
 LLMOps is the operational discipline for deploying, monitoring, evaluating, and

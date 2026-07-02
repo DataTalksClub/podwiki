@@ -11,7 +11,7 @@
     "persons": 438,
     "topics": 135,
     "nodes": 1147,
-    "links": 5255
+    "links": 5266
   },
   "nodes": [
     {
@@ -35200,7 +35200,25 @@
     },
     {
       "source": "wiki:dataops",
+      "target": "wiki:gitops-for-data-teams",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dataops",
+      "target": "wiki:llmops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dataops",
       "target": "wiki:mlops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:dataops",
+      "target": "wiki:mlops-vs-devops",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -36718,7 +36736,19 @@
     },
     {
       "source": "wiki:gitops-for-data-teams",
+      "target": "wiki:llmops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:gitops-for-data-teams",
       "target": "wiki:mlops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:gitops-for-data-teams",
+      "target": "wiki:mlops-vs-devops",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -37888,7 +37918,19 @@
     },
     {
       "source": "wiki:llmops",
+      "target": "wiki:dataops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:llmops",
       "target": "wiki:evaluation",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:llmops",
+      "target": "wiki:gitops-for-data-teams",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -37907,6 +37949,12 @@
     {
       "source": "wiki:llmops",
       "target": "wiki:mlops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:llmops",
+      "target": "wiki:mlops-vs-devops",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -39184,6 +39232,18 @@
     },
     {
       "source": "wiki:mlops",
+      "target": "wiki:gitops-for-data-teams",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:mlops",
+      "target": "wiki:llmops",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:mlops",
       "target": "wiki:machine-learning-infrastructure",
       "kind": "wiki-related",
       "weight": 3
@@ -39215,6 +39275,12 @@
     {
       "source": "wiki:mlops",
       "target": "wiki:mlops-tools",
+      "kind": "wiki-related",
+      "weight": 3
+    },
+    {
+      "source": "wiki:mlops",
+      "target": "wiki:mlops-vs-devops",
       "kind": "wiki-related",
       "weight": 3
     },

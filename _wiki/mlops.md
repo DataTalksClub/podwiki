@@ -16,6 +16,9 @@ related:
   - CI/CD
   - Production
   - DataOps
+  - LLMOps
+  - GitOps for Data Teams
+  - MLOps vs DevOps
 ---
 
 MLOps is the operating discipline for machine learning systems after they leave

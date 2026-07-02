@@ -10,6 +10,8 @@ related:
   - Data Governance
   - Security
   - Data Engineering Platforms
+  - LLMOps
+  - MLOps vs DevOps
 ---
 
 GitOps for data teams means moving operational data-platform changes through

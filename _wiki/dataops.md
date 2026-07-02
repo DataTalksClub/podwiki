@@ -13,6 +13,9 @@ related:
   - Orchestration
   - CI/CD
   - MLOps
+  - LLMOps
+  - GitOps for Data Teams
+  - MLOps vs DevOps
 ---
 
 For the authoritative, plain-language definition of the term, see the
