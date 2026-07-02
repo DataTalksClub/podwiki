@@ -30,7 +30,10 @@ observe and recover them. A data engineer may do DataOps work, but the two
 terms don't mean the same thing.
 
 The distinction matters when a team asks whether it needs a data engineer or a
-better operating model. Some teams need both.
+better operating model. Some teams need both. For a plain-language comparison of
+DataOps with data engineering and data science, see
+[DataOps: Similarities and Differences with Data Engineering and Data Science](https://datatalks.club/blog/dataops-similarities-and-differences-with-data-engineering-and-data-science.html).
+This page adds the podcast-grounded version of that boundary.
 
 [Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) grounds the
 engineering side in ETL, ELT, and orchestration in

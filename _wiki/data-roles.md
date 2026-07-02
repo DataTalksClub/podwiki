@@ -26,7 +26,9 @@ which data capability should exist and how success will be measured.
 
 The boundaries move by company size and maturity. The role overview in
 [Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }})
-separates the team flow.
+separates the team flow, and DataTalks.Club's companion
+[Data Team Roles Explained write-up](https://datatalks.club/blog/data-roles.html)
+is the canonical role-by-role reference for that breakdown.
 Product managers stay close to users, analysts quantify problems and KPIs, and
 data scientists predict and evaluate. Data engineers prepare usable data, while
 machine learning engineers help scale model-backed services.

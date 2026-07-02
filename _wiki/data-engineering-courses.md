@@ -146,6 +146,12 @@ deadlines. They also need community help, project requirements, and a path from
 coursework to portfolio evidence. Free doesn't mean casual. It means the
 learner must supply more self-management.
 
+For a side-by-side comparison of specific free and paid programs, with
+platforms, tech stacks, and certificates, see DataTalks.Club's
+[guide to free data engineering courses](https://datatalks.club/blog/free-data-engineering-courses.html).
+This page focuses on how to judge and use a course; that guide catalogs the
+options.
+
 The DataTalksClub course model appears in
 [Inside Scaling DataTalksClub]({{ '/podcasts/datatalksclub-scaling-and-free-courses/' | relative_url }})
 with the [DataTalksClub founder]({{ '/people/alexeygrigorev/' | relative_url }}).

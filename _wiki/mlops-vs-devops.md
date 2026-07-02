@@ -77,7 +77,11 @@ draws the direct line in
 Around 7:28-15:29, he contrasts DevOps with the model lifecycle and data
 drift. Fairness and monitoring are part of the same boundary. He also covers
 retraining triggers. His point isn't that DevOps stops mattering, but that ML
-changes what a release means after the service is already running.
+changes what a release means after the service is already running. For a
+structured editorial walkthrough of the workflow, monitoring, team, and
+maturity-model differences, see DataTalks.Club's
+[DevOps vs MLOps](https://datatalks.club/blog/devops-and-mlops-same-thing.html)
+overview.
 
 ## Shared Practices
 

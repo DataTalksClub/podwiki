@@ -21,7 +21,9 @@ related:
 MLOps is the operating discipline for machine learning systems after they leave
 experimentation. It starts with reproducible training and model artifacts. It
 continues through deployment and serving. It also covers monitoring,
-retraining, governance, and ownership.
+retraining, governance, and ownership. For a plain-language overview of the
+same lifecycle, see DataTalks.Club's
+[MLOps in 10 Minutes](https://datatalks.club/blog/mlops-10-minutes.html).
 
 In
 [Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}),
@@ -208,7 +210,6 @@ These pages cover adjacent MLOps concepts:
 
 - [ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }})
 - [MLOps Tools]({{ '/wiki/mlops-tools/' | relative_url }})
-- [MLOps Architecture]({{ '/wiki/mlops-architecture/' | relative_url }})
 - [MLOps Architecture]({{ '/wiki/mlops-architecture/' | relative_url }})
 - [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
 - [Model Registry]({{ '/wiki/model-registry/' | relative_url }})

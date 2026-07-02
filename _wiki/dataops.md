@@ -22,7 +22,10 @@ related:
 DataOps, sometimes written as data ops, is the operating discipline for
 reliable data delivery. Teams use it to review and test data pipelines, then
 deploy, monitor, and repair those pipelines. The same habits apply to analytics
-workflows and shared data platforms.
+workflows and shared data platforms. For a plain-language overview of the
+concept, see
+[What is DataOps exactly?](https://datatalks.club/blog/what-dataops-exactly.html).
+This page focuses on how DataTalks.Club podcast guests define and practice it.
 
 The term sits beside [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }})
 and [MLOps]({{ '/wiki/mlops/' | relative_url }}), but it doesn't replace

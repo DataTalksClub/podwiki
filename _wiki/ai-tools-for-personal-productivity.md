@@ -24,7 +24,10 @@ produces text you can't trust.
 DataTalks.Club guests frame this as an
 [AI tooling]({{ '/wiki/ai-tooling/' | relative_url }}) and
 [AI engineering]({{ '/wiki/ai-engineering/' | relative_url }}) problem, not as a
-shopping list. In
+shopping list. A DataTalks.Club community survey on
+[how professionals use AI tools for personal productivity](https://datatalks.club/blog/ai-tools-for-personal-productivity.html)
+found daily use concentrated in coding, research, and drafting, which is the
+same set of repeated workflows this guide focuses on. In
 [Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}),
 [Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }})
 discusses summaries and translation. He also covers CSV work and transcript

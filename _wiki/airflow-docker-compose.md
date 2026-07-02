@@ -104,15 +104,14 @@ Use these folders deliberately:
 4. Persist `logs/` so failed task runs remain visible after a restart.
 5. Keep tests outside Airflow so they can run without the scheduler.
 
-The local startup sequence should be easy to explain:
-
-1. Download or copy the official Compose file for the Airflow version you use.
-2. Create `dags/`, `logs/`, `plugins/`, and project-code folders.
-3. Set the local Airflow user ID in `.env` when the host needs it.
-4. Initialize Airflow metadata and the first user.
-5. Start the stack.
-6. Open the Airflow UI and trigger one DAG.
-7. Look at task logs and the output table, file, or dashboard input.
+DataTalks.Club already documents the exact local startup sequence: pulling the
+official Compose file, creating the `dags/`, `logs/`, and `plugins/` folders,
+setting the Airflow user ID, initializing the metadata database, and starting
+the stack. Follow
+[How to Setup a Lightweight Local Version for Airflow](https://datatalks.club/blog/how-to-setup-lightweight-local-version-for-airflow.html)
+for those steps and for a LocalExecutor Compose file that runs lighter on a
+laptop. Once the stack is up, open the Airflow UI, trigger one DAG, and read the
+task logs against the output it produced.
 
 ## Keep DAGs Thin
 

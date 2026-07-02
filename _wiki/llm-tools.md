@@ -23,7 +23,10 @@ agent frameworks and review workflows beside those pieces.
 
 DataTalks.Club guests treat them as product infrastructure, not as a shopping
 list. Start from the workflow you want to improve, then add only the tools
-needed to make that workflow reliable.
+needed to make that workflow reliable. For a snapshot of what teams actually
+adopt across managed APIs, self-hosting, integration frameworks, and
+observability, see the community survey on
+[how professionals use LLM tools and frameworks](https://datatalks.club/blog/how-do-professionals-use-llm-tools-and-frameworks.html).
 
 That framing shows up in several interviews. In
 [Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}),

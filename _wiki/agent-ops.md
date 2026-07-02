@@ -128,7 +128,10 @@ Agents]({{ '/podcasts/from-game-ai-to-modern-ai-agents/' | relative_url }}).
 His 57:39 section recommends building evaluation pipelines and using tools like
 Arize Phoenix to monitor LLM communication and prompts. He frames this as
 applying data science techniques for success metrics: controlling variables and
-explaining agent behavior for production applications.
+explaining agent behavior for production applications. For a broader comparison
+of open-source and free options such as Arize Phoenix, LangSmith, DeepEval, and
+Ragas, see
+[Open Source and Free AI Agent Evaluation Tools](https://datatalks.club/blog/open-source-free-ai-agent-evaluation-tools.html).
 
 Aditya's 43:30 section adds the enterprise scale version. He discusses feedback
 intelligence tools that analyze production logs to identify where users are
