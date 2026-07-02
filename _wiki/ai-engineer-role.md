@@ -6,7 +6,7 @@ related:
   - AI Engineering
   - AI Engineering Roadmap
   - LLM Production Patterns
-  - RAG
+  - Retrieval-Augmented Generation
   - Agent Engineering
   - LLM Evaluation Workflows
   - AI Infrastructure
@@ -28,7 +28,7 @@ scratch.
 [Paul Iusztin]({{ '/people/pauliusztin/' | relative_url }}) frames AI
 engineering as end-to-end product building, with a skill stack that covers data
 gathering and application code. It also covers deployment, agents,
-[RAG]({{ '/wiki/rag/' | relative_url }}), and
+[RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}), and
 [LLMOps]({{ '/wiki/llm-production-patterns/' | relative_url }})
 ([Paul's skill-stack episode at 22:29 and 42:28]({{ '/podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products/' | relative_url }})).
 [Ruslan Shchuchkin]({{ '/people/ruslanshchuchkin/' | relative_url }}) describes
@@ -266,7 +266,7 @@ The nearby role, systems, and production topics are:
 - [AI Engineering Roadmap]({{ '/wiki/ai-engineering-roadmap/' | relative_url }})
 - [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
 - [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }})
-- [RAG]({{ '/wiki/rag/' | relative_url }})
+- [RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
 - [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
 - [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
 - [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }})

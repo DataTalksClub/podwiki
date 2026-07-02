@@ -79,7 +79,7 @@ For staff AI engineering, those archetypes map to different AI surfaces. A deep
 specialist may own recommendation quality, computer vision, or retrieval. They
 may also own model evaluation or LLM serving. A horizontal advisor may help
 several teams choose
-between [RAG]({{ '/wiki/rag/' | relative_url }}), fine-tuning, agents, and
+between [RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}), fine-tuning, agents, and
 non-AI product logic. A hands-on multiplier may build examples, review
 architecture, and teach teams how to use
 [LLMOps]({{ '/wiki/llm-production-patterns/' | relative_url }}) and

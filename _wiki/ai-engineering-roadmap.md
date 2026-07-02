@@ -7,7 +7,7 @@ related:
   - AI Engineering
   - AI Engineer Role
   - LLM Production Patterns
-  - RAG
+  - Retrieval-Augmented Generation
   - Agent Engineering
   - LLM Evaluation Workflows
   - AI Infrastructure
@@ -25,7 +25,7 @@ Later stages add
 production operation.
 
 [Paul Iusztin]({{ '/people/pauliusztin/' | relative_url }}) puts full-stack
-product work and [RAG]({{ '/wiki/rag/' | relative_url }}) in one skill stack.
+product work and [RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}) in one skill stack.
 He also includes agents, evaluation, and LLMOps in
 [his AI engineering episode]({{ '/podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products/' | relative_url }}),
 especially 22:29-42:28. [Ruslan Shchuchkin]({{ '/people/ruslanshchuchkin/' | relative_url }})
@@ -179,7 +179,7 @@ evaluation mechanics.
 
 ## Stage 4: Add Retrieval When Knowledge Is the Bottleneck
 
-Add [RAG]({{ '/wiki/rag/' | relative_url }}) when the product needs changing
+Add [RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}) when the product needs changing
 knowledge, private documents, citations, or auditable source context. Paul puts
 RAG and knowledge management inside the AI engineer stack at 29:12 in
 [his skill-stack episode]({{ '/podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products/' | relative_url }}).
@@ -383,7 +383,7 @@ Continue with these roadmap and reference pages:
 - [Prompt Engineering]({{ '/wiki/prompt-engineering/' | relative_url }})
 - [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }})
 - [Evaluation]({{ '/wiki/evaluation/' | relative_url }})
-- [RAG]({{ '/wiki/rag/' | relative_url }})
+- [RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
 - [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
 - [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
 - [RAG Portfolio Projects]({{ '/wiki/rag-portfolio-projects/' | relative_url }})

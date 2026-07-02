@@ -98,7 +98,7 @@ and [Information Retrieval]({{ '/wiki/information-retrieval/' | relative_url }})
 
 ## RAG and Context Retrieval
 
-[RAG]({{ '/wiki/rag/' | relative_url }}) is the most visible vector-database use
+[RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}) is the most visible vector-database use
 case in these episodes, but the guests don't reduce RAG to vector storage.
 Atita's podcast-transcript example in
 [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})

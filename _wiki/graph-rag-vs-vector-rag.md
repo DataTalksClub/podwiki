@@ -9,7 +9,6 @@ secondary_keywords:
   - graph retrieval augmented generation vs vector retrieval augmented generation
 summary: "How the podcast archive compares graph-driven retrieval with vector-driven retrieval for grounded LLM systems."
 related_wiki:
-  - RAG
   - Retrieval-Augmented Generation
   - Search, RAG, and Knowledge Systems
   - Vector Databases
@@ -38,7 +37,7 @@ DataTalks.Club guests treat both approaches as complementary retrieval designs i
 [retrieval-augmented generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
 and the broader
 [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
-stack. [RAG]({{ '/wiki/rag/' | relative_url }}) covers implementation mechanics,
+stack. [RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}) covers implementation mechanics,
 while
 [Knowledge Graph vs Vector Search]({{ '/wiki/knowledge-graph-vs-vector-search/' | relative_url }})
 covers the lower-level storage and retrieval comparison. The question is what
@@ -183,7 +182,7 @@ validated facts, dependency paths, or provenance. The prompt can then include
 text evidence and structured context.
 
 Use
-[RAG]({{ '/wiki/rag/' | relative_url }}) and
+[RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}) and
 [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
 for the wider retrieval architecture. Use
 [vector databases]({{ '/wiki/vector-databases/' | relative_url }}),
@@ -244,7 +243,7 @@ nearest-neighbor result isn't enough.
 
 These pages cover the surrounding retrieval, search, and LLM-system topics:
 
-- [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}) and [RAG]({{ '/wiki/rag/' | relative_url }}) cover broader RAG structure, chunking, citations, and evaluation.
+- [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}) and [RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}) cover broader RAG structure, chunking, citations, and evaluation.
 - [Knowledge Graph vs Vector Search]({{ '/wiki/knowledge-graph-vs-vector-search/' | relative_url }}) compares the retrieval substrates behind this LLM context choice.
 - [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }}) connects graph RAG and vector RAG to classical search and production retrieval.
 - [Vector Databases]({{ '/wiki/vector-databases/' | relative_url }}) and [Embeddings]({{ '/wiki/embeddings/' | relative_url }}) cover the vector side of the architecture.

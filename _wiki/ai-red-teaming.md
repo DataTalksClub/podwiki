@@ -95,7 +95,7 @@ Prompt injection is one failure mode. A user can add instructions that compete
 with the system prompt or ask the model to ignore the product rules. Documents
 retrieved by the system can also include hostile text. That's why the problem
 belongs near
-[RAG]({{ '/wiki/rag/' | relative_url }}) and
+[RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}) and
 [embeddings]({{ '/wiki/embeddings/' | relative_url }}), not only near prompt
 writing. Maria's 13:20 data-exfiltration chapter ties that risk to overloaded
 prompts and knowledge-base retrieval.

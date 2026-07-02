@@ -5,12 +5,11 @@ summary: "Practical podcast-backed workflows for evaluating LLM, RAG, and agent 
 related:
   - Evaluation
   - Retrieval-Augmented Generation
-  - RAG
   - LLM Production Patterns
 ---
 
 LLM evaluation workflows are the repeatable checks teams use before they ship
-prompts, [RAG]({{ '/wiki/rag/' | relative_url }}) pipelines,
+prompts, [RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}) pipelines,
 [agents]({{ '/wiki/agent-engineering/' | relative_url }}), and AI product
 behavior. DataTalks.Club guests treat evaluation as engineering work. Teams
 collect examples, define pass criteria, and review failures. They feed

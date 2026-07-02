@@ -40,7 +40,7 @@ AI capability.
 [Paul Iusztin]({{ '/people/pauliusztin/' | relative_url }})
 defines the role through full-stack ownership, where UI and backend work
 matter. Database design and agent work matter too.
-[RAG]({{ '/wiki/rag/' | relative_url }}), deployment, and
+[RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}), deployment, and
 [LLMOps]({{ '/wiki/llm-production-patterns/' | relative_url }}) belong in the
 shipping path
 ([Paul, 22:29-30:51]({{ '/podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products/' | relative_url }})).

@@ -139,7 +139,7 @@ At 48:09 she adds human-in-the-loop evaluation.
 
 That makes [search]({{ '/wiki/search/' | relative_url }}) and
 [embeddings]({{ '/wiki/embeddings/' | relative_url }}) central AI topics.
-[RAG]({{ '/wiki/rag/' | relative_url }}) and
+[RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}) and
 [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
 cover the broader architecture. In
 [Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}),
@@ -257,7 +257,7 @@ Use these pages for narrower AI topics and implementation details.
 
 - [AI Engineering]({{ '/wiki/ai-engineering/' | relative_url }}) and [AI Engineer Role]({{ '/wiki/ai-engineer-role/' | relative_url }}) cover the builder role and skill stack.
 - [Generative AI]({{ '/wiki/generative-ai/' | relative_url }}), [LLMs]({{ '/wiki/llms/' | relative_url }}), and [Prompt Engineering]({{ '/wiki/prompt-engineering/' | relative_url }}) cover model behavior and generated outputs.
-- [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}), [RAG]({{ '/wiki/rag/' | relative_url }}), and [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }}) cover context and retrieval.
+- [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}), [RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}), and [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }}) cover context and retrieval.
 - [AI Agents]({{ '/wiki/agent-engineering/' | relative_url }}), [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }}), and [Multi-Agent Systems]({{ '/wiki/multi-agent-systems/' | relative_url }}) cover action-oriented AI systems.
 - [Data Products]({{ '/wiki/data-products/' | relative_url }}), [MLOps]({{ '/wiki/mlops/' | relative_url }}), and [Production]({{ '/wiki/production/' | relative_url }}) cover delivery and operations.
 - [Evaluation]({{ '/wiki/evaluation/' | relative_url }}), [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }}), and [Production Search Evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }}) cover measurement.

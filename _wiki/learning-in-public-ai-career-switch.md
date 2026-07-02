@@ -88,7 +88,7 @@ and learning reinforcement became one workflow
 
 This workflow matters for AI career switches because the tool stack changes
 quickly. A learner may study [AI tooling]({{ '/wiki/ai-tooling/' | relative_url }})
-and [RAG]({{ '/wiki/rag/' | relative_url }}). They may also study deployment or
+and [RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}). They may also study deployment or
 evaluation in short bursts.
 
 Public notes can turn those bursts into reusable proof. They become concept

@@ -4,7 +4,7 @@ title: "Context Engineering"
 summary: "Designing effective LLM inputs: chunking strategies, metadata, wrappers, context windows, and context rot, grounded in DataTalks.Club podcast discussions."
 related:
   - Agent Engineering
-  - RAG
+  - Retrieval-Augmented Generation
   - LLM Production Patterns
   - Prompt Engineering
   - Embeddings
@@ -29,7 +29,7 @@ engineering as a subfield of prompt engineering focused on being "more deliberat
 about what information you give the LLM rather than stuffing everything in."
 
 The topic sits at the intersection of
-[RAG]({{ '/wiki/rag/' | relative_url }}),
+[RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}),
 [Embeddings]({{ '/wiki/embeddings/' | relative_url }}), and
 [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }}). Every
 retrieval pipeline, agent memory design, and production prompt strategy touches
@@ -116,7 +116,7 @@ A key context engineering decision is whether to retrieve at all. Hugo's 44:26
 section gives a practical example. An edtech company wanted an all-purpose AI
 tutor, but their support tickets revealed that 20% were simple questions like
 "which class is this lesson in?" A simple
-[RAG]({{ '/wiki/rag/' | relative_url }}) bot with good chunking and embeddings
+[RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}) bot with good chunking and embeddings
 could solve one in five support tickets immediately. That is less flashy than a
 moonshot tutor but delivers real business value. The lesson is that context
 engineering should match the actual information need, not the aspirational one.
@@ -132,7 +132,7 @@ orchestration.
 ## Related Pages
 
 - [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }})
-- [RAG]({{ '/wiki/rag/' | relative_url }})
+- [RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
 - [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
 - [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
 - [Prompt Engineering]({{ '/wiki/prompt-engineering/' | relative_url }})

@@ -79,7 +79,7 @@ showed it the next day
 ([Revathy's interview path, 28:00-34:43]({{ '/podcasts/s23e04-how-to-become-ai-engineer-after-career-break/' | relative_url }})).
 For someone returning after a break, the proof wasn't a certificate alone. It
 was a portfolio, a running service, and a take-home that resembled
-[RAG]({{ '/wiki/rag/' | relative_url }}) work.
+[RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}) work.
 
 Dashel makes the same point from ML and MLOps by contrasting notebook-only work
 with packaged services. His examples include Flask applications, REST APIs,

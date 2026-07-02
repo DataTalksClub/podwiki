@@ -122,7 +122,7 @@ semantically relevant and still unusable because the person isn't allowed to
 see it. The result may also be stale or violate a business rule. For
 retrieval-heavy LLM systems, use
 [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
-and [RAG]({{ '/wiki/rag/' | relative_url }}) to keep search constraints visible
+and [RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}) to keep search constraints visible
 before generation.
 
 ## Metrics, Offline Tests, And A/B Testing
@@ -194,7 +194,7 @@ Use these pages for the neighboring parts of the search relevance stack.
   [Embeddings]({{ '/wiki/embeddings/' | relative_url }}) cover vector
   retrieval mechanics.
 - [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
-  and [RAG]({{ '/wiki/rag/' | relative_url }}) cover retrieval for LLM
+  and [RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}) cover retrieval for LLM
   products.
 - [A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }}),
   [Experimentation]({{ '/wiki/experimentation/' | relative_url }}), and

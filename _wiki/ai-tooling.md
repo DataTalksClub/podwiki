@@ -181,7 +181,7 @@ Ranjitha uses the term context engineering in
 At 21:21 she focuses on designing effective LLM inputs. At 32:48 she adds
 chunking, metadata, and wrappers. That makes context tooling a bridge between
 [Prompt Engineering]({{ '/wiki/prompt-engineering/' | relative_url }}),
-[RAG]({{ '/wiki/rag/' | relative_url }}), and
+[RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}), and
 [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }}).
 
 ## Agent Frameworks and Tool Protocols

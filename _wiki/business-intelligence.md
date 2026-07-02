@@ -10,7 +10,7 @@ related:
   - Data Product Adoption
   - Product Analytics
   - LLM Production Patterns
-  - RAG
+  - Retrieval-Augmented Generation
   - Data Governance
 ---
 
@@ -54,7 +54,7 @@ That's the useful structure for AI-powered business intelligence. The interface
 gets easier, but the underlying BI system still depends on modeled data and
 metadata. It also depends on permissions and domain knowledge. The related
 foundations are [data products]({{ '/wiki/data-products/' | relative_url }}) and
-[RAG]({{ '/wiki/rag/' | relative_url }}), with
+[RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}), with
 [LLM production patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
 for review and guardrails.
 
@@ -123,7 +123,7 @@ Teams usually build AI-powered BI around three layers.
    and human escalation when the question is ambiguous.
 
 This is where [data products]({{ '/wiki/data-products/' | relative_url }}) and
-[RAG]({{ '/wiki/rag/' | relative_url }}) meet. RAG can ground an answer in
+[RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}) meet. RAG can ground an answer in
 business definitions and metric documentation. It can also use dashboard notes
 and previous analysis. It shouldn't be treated as a guarantee that the final
 answer is true.
@@ -279,6 +279,6 @@ Use these pages for deeper context:
 - [data products]({{ '/wiki/data-products/' | relative_url }})
 - [data product adoption]({{ '/wiki/data-product-adoption/' | relative_url }})
 - [LLM production patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
-- [RAG]({{ '/wiki/rag/' | relative_url }})
+- [RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
 - [data governance]({{ '/wiki/data-governance/' | relative_url }})
 - [product analytics]({{ '/wiki/product-analytics/' | relative_url }})

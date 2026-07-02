@@ -7,7 +7,6 @@ summary: "A roadmap for building LLM and RAG systems from bounded workflows to r
 search_intent: "People searching for an LLM or RAG production roadmap usually need a practical build sequence for retrieval, evaluation, agents, and production controls."
 related_wiki:
   - LLM Production Patterns
-  - RAG
   - Retrieval-Augmented Generation
   - Search
   - Search, RAG, and Knowledge Systems
@@ -91,7 +90,7 @@ and the
 
 ## Add RAG For Changing Knowledge
 
-[RAG]({{ '/wiki/rag/' | relative_url }}) is useful when the answer depends on
+[RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}) is useful when the answer depends on
 external, changing, or inspectable knowledge. Don't describe it as model memory.
 It's a retrieval and context-packaging system.
 
@@ -188,7 +187,7 @@ for monitoring controls.
 Adjacent production-system topics:
 
 - [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
-- [RAG]({{ '/wiki/rag/' | relative_url }})
+- [RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
 - [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
 - [Search]({{ '/wiki/search/' | relative_url }})
 - [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})

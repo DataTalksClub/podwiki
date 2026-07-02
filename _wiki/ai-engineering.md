@@ -17,7 +17,7 @@ related:
 AI engineering turns foundation models into usable software. In the
 DataTalks.Club podcast discussions, guests describe it as product engineering around models
 rather than prompt writing alone. [Paul Iusztin]({{ '/people/pauliusztin/' | relative_url }})
-puts full-stack product work and [RAG]({{ '/wiki/rag/' | relative_url }}) in
+puts full-stack product work and [RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}) in
 one skill stack. He also includes agents, evaluation, and LLMOps in
 [Paul's AI engineering episode]({{ '/podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products/' | relative_url }}),
 especially at 22:29 and 42:28.

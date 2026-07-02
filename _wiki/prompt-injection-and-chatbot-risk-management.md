@@ -8,7 +8,7 @@ related:
   - LLM Production Patterns
   - Prompt Engineering
   - Responsible AI and Governance
-  - RAG
+  - Retrieval-Augmented Generation
   - LLM Evaluation Workflows
   - Data Governance
 ---
@@ -19,7 +19,7 @@ manipulated or made to leak data. It also covers commitments the product owner
 didn't intend. The topic sits near
 [security]({{ '/wiki/security/' | relative_url }}) and
 [prompt engineering]({{ '/wiki/prompt-engineering/' | relative_url }}). It also
-belongs with [RAG]({{ '/wiki/rag/' | relative_url }}),
+belongs with [RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}),
 [AI red teaming]({{ '/wiki/ai-red-teaming/' | relative_url }}), and
 [responsible AI and governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }}).
 
@@ -221,6 +221,6 @@ retrieval, and governance.
 - [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
 - [Prompt Engineering]({{ '/wiki/prompt-engineering/' | relative_url }})
 - [Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }})
-- [RAG]({{ '/wiki/rag/' | relative_url }})
+- [RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
 - [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }})
 - [Data Governance]({{ '/wiki/data-governance/' | relative_url }})

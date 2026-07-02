@@ -122,7 +122,7 @@ performance.
 Caching is one request-level tool in that serving-efficiency problem.
 Compression, faster inference servers, and hardware choices sit beside it.
 
-Caching also belongs near [RAG]({{ '/wiki/rag/' | relative_url }}) and
+Caching also belongs near [RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}) and
 [retrieval-augmented generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
 because retrieved context can dominate prompt size and latency. Ranjitha
 Kulkarni doesn't frame her 29:30-32:48 discussion as caching. Her context

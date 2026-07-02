@@ -29,7 +29,7 @@ prompt injection, hallucinations, and output validation.
 Podcast discussions tie older NLP work to modern
 [LLMs]({{ '/wiki/llms/' | relative_url }}),
 [embeddings]({{ '/wiki/embeddings/' | relative_url }}), and
-[RAG]({{ '/wiki/rag/' | relative_url }}). In
+[RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}). In
 [Lead NLP Teams]({{ '/podcasts/nlp-team-hiring-and-production-mlops/' | relative_url }}),
 [Ivan Bilan]({{ '/people/ivanbilan/' | relative_url }}) describes NLP teams
 as production teams at 14:07-16:45, not only research groups. Later episodes

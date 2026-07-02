@@ -153,7 +153,7 @@ failure.
 
 Some systems need evaluation sets rather than pass/fail data checks. For ML or
 search applications, teams ask whether the system performs well enough against
-representative cases and a meaningful baseline. [RAG]({{ '/wiki/rag/' | relative_url }}),
+representative cases and a meaningful baseline. [RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}),
 [retrieval-augmented generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}),
 and LLM applications need the same question with language-specific checks.
 

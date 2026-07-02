@@ -9,7 +9,6 @@ secondary_keywords:
   - retrieval augmented generation vs fine tuning
 summary: "A decision guide for choosing retrieval, model adaptation, or both in production LLM systems."
 related_wiki:
-  - RAG
   - Retrieval-Augmented Generation
   - Search, RAG, and Knowledge Systems
   - LLM Production Patterns
@@ -22,7 +21,7 @@ related_wiki:
 ---
 
 RAG and fine-tuning change different parts of an LLM system.
-[RAG]({{ '/wiki/rag/' | relative_url }}) changes the context the model sees at
+[RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}) changes the context the model sees at
 answer time. Fine-tuning changes model behavior through examples, weights, or
 adapters.
 
@@ -244,7 +243,7 @@ tools, and generation interact.
 The surrounding topics cover retrieval mechanics, production operations, and
 evaluation:
 
-- [RAG]({{ '/wiki/rag/' | relative_url }})
+- [RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
 - [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
 - [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
 - [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})

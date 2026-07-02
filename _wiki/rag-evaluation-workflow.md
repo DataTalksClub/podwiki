@@ -12,7 +12,6 @@ secondary_keywords:
 summary: "A practical workflow for evaluating RAG systems with user tasks, gold examples, retrieval checks, answer checks, citations, human review, traces, and production feedback."
 search_intent: "Help readers who search for a RAG evaluation workflow understand how to test retrieval, answer grounding, citations, human review, logs, and production feedback using DataTalks.Club podcast evidence."
 related_wiki:
-  - RAG
   - Retrieval-Augmented Generation
   - LLM Evaluation Workflows
   - Search, RAG, and Knowledge Systems
@@ -137,7 +136,7 @@ For each gold example, record:
 5. Whether citations can reference a useful source, not only an opaque vector id.
 
 This is the retrieval side of
-[RAG]({{ '/wiki/rag/' | relative_url }}),
+[RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}),
 [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}),
 [Search]({{ '/wiki/search/' | relative_url }}), and
 [Information Retrieval]({{ '/wiki/information-retrieval/' | relative_url }}).

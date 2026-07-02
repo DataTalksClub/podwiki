@@ -149,6 +149,7 @@ At 33:43, she connects knowledge graphs with LLM grounding and RAG. At 38:10,
 she contrasts text chunking and embeddings with graph semantics. At 39:56, she
 discusses prompt templates and Cypher-driven retrieval. Those examples belong with
 [Graph RAG vs Vector RAG]({{ '/wiki/graph-rag-vs-vector-rag/' | relative_url }})
+and [Knowledge Graph vs Vector Search]({{ '/wiki/knowledge-graph-vs-vector-search/' | relative_url }})
 because some domains need nearest-neighbor text chunks while others need
 explicit relationships.
 

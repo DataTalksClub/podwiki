@@ -22,7 +22,7 @@ That production lens leads to a practical split. API models are useful for fast 
 
 ## Fine-Tuning, RAG, and Changing Knowledge
 
-Meryem's most useful distinction is between what belongs in the model weights and what should stay in a retrievable knowledge source. For [RAG]({{ '/wiki/rag/' | relative_url }}) and [RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }}), her contribution is concrete. Fine-tuning is strong for specialization, domain language, task labels, and tone. Retrieval is often better when the answer depends on documentation that changes over time.
+Meryem's most useful distinction is between what belongs in the model weights and what should stay in a retrievable knowledge source. For [RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}) and [RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }}), her contribution is concrete. Fine-tuning is strong for specialization, domain language, task labels, and tone. Retrieval is often better when the answer depends on documentation that changes over time.
 
 In the customer-support example from the episode, she prefers retrieval over repeatedly retraining the model when product documentation changes. Cost matters, but so does grounding. Retrieval grounds the answer in current documentation and reduces hallucination risk. It lets the model rephrase or summarize the retrieved passage instead of inventing a plausible answer from stale weights.
 

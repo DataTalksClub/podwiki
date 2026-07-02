@@ -249,7 +249,7 @@ at 9:28, she connects overloaded prompts and knowledge-base retrieval to
 hidden-content extraction at 13:20. The
 [AI Red Teaming]({{ '/wiki/ai-red-teaming/' | relative_url }}) page keeps those
 attack patterns close to [security]({{ '/wiki/security/' | relative_url }})
-and [RAG]({{ '/wiki/rag/' | relative_url }}).
+and [RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}).
 
 For an LLM system design interview, name the threat model:
 

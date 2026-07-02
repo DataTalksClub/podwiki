@@ -88,7 +88,7 @@ behavior as separate design decisions.
 
 ## RAG Systems
 
-In [RAG]({{ '/wiki/rag/' | relative_url }}), embeddings retrieve context for a
+In [RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}), embeddings retrieve context for a
 language model. Atita's transcript-chatbot example in
 [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
 starts at 35:49 and becomes concrete at 38:24. The system chunks transcripts

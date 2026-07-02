@@ -141,7 +141,7 @@ For manager-agent orchestration, the manager often needs requirements and
 state. It may also need summaries, while the worker agent needs task-specific
 inputs and tool results.
 
-Ranjitha also treats [RAG]({{ '/wiki/rag/' | relative_url }}) as one tool an
+Ranjitha also treats [RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}) as one tool an
 agent can choose, not the whole system. She says agents move beyond a fixed
 retrieval workflow by deciding when to use search or tables. They can also
 choose MongoDB queries and other tools

@@ -57,7 +57,7 @@ retrieved context. They also define permissions, evaluation, observability, and
 fallback behavior.
 
 Ranjitha and Hugo also keep a strong boundary between
-[RAG]({{ '/wiki/rag/' | relative_url }}) and agents. In Ranjitha's episode, the
+[RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}) and agents. In Ranjitha's episode, the
 37:39 section separates cases where retrieval is enough from cases that need an
 agent. At 36:11, she describes retrieval as one tool an agent can call.
 
@@ -273,7 +273,7 @@ constraints around agent systems.
 - [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
 - [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
 - [RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }})
-- [RAG]({{ '/wiki/rag/' | relative_url }})
+- [RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
 - [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }})
 - [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
 - [Tools]({{ '/wiki/tools/' | relative_url }})

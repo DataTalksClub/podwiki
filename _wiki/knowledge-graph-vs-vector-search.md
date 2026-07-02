@@ -11,7 +11,6 @@ summary: "How DataTalks.Club podcast guests compare explicit graph relationships
 related_wiki:
   - Search, RAG, and Knowledge Systems
   - Search
-  - RAG
   - Retrieval-Augmented Generation
   - Vector Databases
   - Embeddings
@@ -60,7 +59,7 @@ retrieval choices package context for an LLM. [Vector Database vs Search
 Engine]({{ '/wiki/vector-database-vs-search-engine/' | relative_url }})
 covers whether vector retrieval belongs in a dedicated vector store or an
 existing [search]({{ '/wiki/search/' | relative_url }}) stack.
-[RAG]({{ '/wiki/rag/' | relative_url }}) and
+[RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}) and
 [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
 cover the broader answer-generation design.
 
@@ -262,7 +261,7 @@ Use these pages for the surrounding retrieval, search, and LLM-system decisions:
 
 - [Graph RAG vs Vector RAG]({{ '/wiki/graph-rag-vs-vector-rag/' | relative_url }}) for LLM context packaging.
 - [Vector Database vs Search Engine]({{ '/wiki/vector-database-vs-search-engine/' | relative_url }}) for retrieval-stack ownership.
-- [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }}), [Search]({{ '/wiki/search/' | relative_url }}), [RAG]({{ '/wiki/rag/' | relative_url }}), and [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}) for the broader architecture.
+- [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }}), [Search]({{ '/wiki/search/' | relative_url }}), [RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}), and [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}) for the broader architecture.
 - [Vector Databases]({{ '/wiki/vector-databases/' | relative_url }}) and [Embeddings]({{ '/wiki/embeddings/' | relative_url }}) for the vector side.
 - [Production Search Evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }}) and [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }}) for evaluation.
 - [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }}) for systems where retrieval becomes one tool inside a multi-step agent.

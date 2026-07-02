@@ -55,7 +55,7 @@ Agents]({{ '/podcasts/s23e03-future-of-ai-agents/' | relative_url }}). His
 30:26 section links guardrails and data lineage to what he calls Agent MLOps.
 He explains that sensitive industries like healthcare and legal require
 handcrafted automation with a human in the loop to ensure correctness. Even
-with sophisticated [RAG]({{ '/wiki/rag/' | relative_url }}) and vector
+with sophisticated [RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}) and vector
 databases, "this is a field where you cannot mess up."
 
 His 47:16 section covers guardrails for agent actions. For an airline customer

@@ -7,7 +7,6 @@ related:
   - Evaluation
   - LLM Evaluation Workflows
   - Retrieval-Augmented Generation
-  - RAG
   - LLM Production Patterns
   - Search, RAG, and Knowledge Systems
   - Embeddings
@@ -83,7 +82,7 @@ large window is available. Her view keeps long context inside
 not outside normal engineering tradeoffs.
 
 [Atita Arora]({{ '/people/atitaarora/' | relative_url }}) starts from
-[search]({{ '/wiki/search/' | relative_url }}) and [RAG]({{ '/wiki/rag/' | relative_url }}).
+[search]({{ '/wiki/search/' | relative_url }}) and [RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}).
 In
 [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}),
 she argues that RAG quality depends on chunking and overlap. It also depends on
@@ -171,7 +170,7 @@ whether to change the model, retrieval pipeline, chunking rule, or prompt.
 ## Retrieval, Chunking, and Summarization
 
 Retrieval beats blind expansion when the task needs a small amount of evidence
-from a large corpus. Atita defines [RAG]({{ '/wiki/rag/' | relative_url }}) as
+from a large corpus. Atita defines [RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}) as
 retrieval plus generation at 30:51 in
 [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}).
 
