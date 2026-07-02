@@ -23,6 +23,30 @@ from zerosearch import Index
 
 INDEX_PATH = Path(os.environ.get("SEARCH_INDEX_PATH", "artifacts/search/search-index.zsx"))
 _INDEX: Index | None = None
+_STEM = None
+
+
+def stemmer():
+    """Word stemmer matching the loaded index (no-op if the index is unstemmed).
+
+    Reranking compares the query against fields with substring/token matching, so
+    it must stem the same way the index tokenized, or a query like ``startups``
+    would rerank differently from its retrieval-equivalent ``startup``.
+    """
+    global _STEM
+    if _STEM is None:
+        name = getattr(index(), "_stemmer_name", None)
+        try:
+            from stemlite import get_stemmer
+            _STEM = get_stemmer(name)
+        except Exception:
+            _STEM = lambda word: word
+    return _STEM
+
+
+def stem_text(value: object) -> str:
+    stem = stemmer()
+    return " ".join(stem(token) for token in normalize(value).split())
 
 
 def index() -> Index:
@@ -71,13 +95,13 @@ def all_tokens_match(tokens: list[str], value: str) -> bool:
 
 
 def rerank_results(query: str, results: list[dict]) -> list[dict]:
-    phrase = normalize(query)
+    phrase = stem_text(query)
     tokens = [token for token in phrase.split() if len(token) > 1]
 
     def bonus(result: dict) -> float:
-        title = normalize(result.get("title", ""))
-        segment_title = normalize(result.get("segment_title", ""))
-        related_terms = normalize(result.get("related_terms", ""))
+        title = stem_text(result.get("title", ""))
+        segment_title = stem_text(result.get("segment_title", ""))
+        related_terms = stem_text(result.get("related_terms", ""))
         document_type = str(result.get("document_type", ""))
 
         value = 0.0
