@@ -27,7 +27,7 @@ Search may need
 [[embeddings]],
 [[vector databases]], and LLM
 context construction. In
-[[search-rag-and-knowledge-systems|Search, RAG, and Knowledge Systems]],
+[[retrieval-augmented-generation|Retrieval-Augmented Generation]],
 the same retrieval layer becomes the evidence layer for answers and citations.
 It also supports knowledge workflows.
 

@@ -77,7 +77,7 @@ show why this combination is common. Vector similarity is only one signal
 beside constraints, recency, normalization, and query-time weights.
 
 This comparison belongs inside
-[[search-rag-and-knowledge-systems|Search, RAG, and Knowledge Systems]],
+[[retrieval-augmented-generation|Retrieval-Augmented Generation]],
 not a replacement story where vector search simply supersedes classical
 [[information retrieval]].
 The architecture should improve retrieval and ranking together. It also has to

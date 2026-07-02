@@ -64,7 +64,7 @@ Learners need more than a list of tools. You learn
 [[software engineering]]
 because AI products still need services, storage, tests, and deployment. You
 also learn [[prompt engineering]]
-and [[search-rag-and-knowledge-systems|Search, RAG, and Knowledge Systems]].
+and [[retrieval-augmented-generation|Retrieval-Augmented Generation]].
 Then add [[LLM Production Patterns]]
 and [[MLOps]].
 

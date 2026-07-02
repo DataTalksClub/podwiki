@@ -156,7 +156,7 @@ through RAG, knowledge graphs, or another retrieval layer
 ([[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products|29:12-30:51]]).
 For deeper retrieval criteria, use
 [[RAG Portfolio Projects]]
-and [[search-rag-and-knowledge-systems|Search, RAG, and Knowledge Systems]].
+and [[retrieval-augmented-generation|Retrieval-Augmented Generation]].
 
 ## PDF Q&A and RAG Assistants
 

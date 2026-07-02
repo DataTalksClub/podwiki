@@ -144,7 +144,7 @@ and overlap, and connects retrieval to prompt design and citations. Embeddings
 and vectorization appear there too. At 48:09, she connects RAG to
 multi-level metrics, offline tests, and human-in-the-loop evaluation. This is
 why production RAG belongs with
-[[search-rag-and-knowledge-systems|search, RAG, and knowledge systems]]
+[[retrieval-augmented-generation|retrieval-augmented generation]]
 and [[production search evaluation]].
 
 Context engineering sits between prompting and autonomous agents. In

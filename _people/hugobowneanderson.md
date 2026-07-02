@@ -65,7 +65,7 @@ Use these existing hubs for follow-up topic work:
   for DevRel, open-source governance, and developer experience.
 - [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
   for evaluation, logging, traces, and structured output.
-- [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
+- [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
   for retrieval, chunking, grounding, and transcript-based RAG examples.
 - [MLOps vs DataOps]({{ '/wiki/mlops-vs-dataops/' | relative_url }}) for the
   operational bridge between ML tooling, reproducibility, and production AI.

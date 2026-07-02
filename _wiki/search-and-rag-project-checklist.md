@@ -23,7 +23,7 @@ Pair this checklist with
 and the base concept in
 [[retrieval-augmented-generation|Retrieval-Augmented Generation]].
 For the surrounding topic map, start with
-[[search-rag-and-knowledge-systems|Search, RAG, and Knowledge Systems]].
+[[retrieval-augmented-generation|Retrieval-Augmented Generation]].
 Use [[Information Retrieval]]
 and
 [[LLM Evaluation Workflows]].

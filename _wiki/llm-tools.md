@@ -9,7 +9,6 @@ related_wiki:
   - AI Tooling
   - LLM Production Patterns
   - LLM Evaluation Workflows
-  - Search, RAG, and Knowledge Systems
   - Retrieval-Augmented Generation
   - Agent Engineering
   - DataOps

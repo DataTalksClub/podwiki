@@ -45,7 +45,7 @@ version in
 At 38:24-48:09, she moves from chunking and embeddings to prompt context,
 citations, and offline tests. She also includes human-in-the-loop evaluation.
 That makes RAG evaluation part of
-[[search-rag-and-knowledge-systems|Search, RAG, and Knowledge Systems]]
+[[retrieval-augmented-generation|Retrieval-Augmented Generation]]
 and
 [[Production Search Evaluation]],
 not only an answer-scoring exercise.

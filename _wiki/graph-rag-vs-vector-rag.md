@@ -35,7 +35,7 @@ at 33:43-39:56.
 DataTalks.Club guests treat both approaches as complementary retrieval designs inside
 [[retrieval-augmented-generation|retrieval-augmented generation]]
 and the broader
-[[search-rag-and-knowledge-systems|Search, RAG, and Knowledge Systems]]
+[[Search]]
 stack. [[retrieval-augmented-generation|RAG]] covers implementation mechanics,
 while
 [[Knowledge Graph vs Vector Search]]
@@ -182,7 +182,7 @@ text evidence and structured context.
 
 Use
 [[retrieval-augmented-generation|RAG]] and
-[[search-rag-and-knowledge-systems|Search, RAG, and Knowledge Systems]]
+[[Search]]
 for the wider retrieval architecture. Use
 [[vector databases]],
 [[embeddings]], and

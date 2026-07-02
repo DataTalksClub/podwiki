@@ -38,7 +38,7 @@ broader
 standard. For architecture and review criteria, use
 [[retrieval-augmented-generation|Retrieval-Augmented Generation]]
 with
-[[search-rag-and-knowledge-systems|Search, RAG, and Knowledge Systems]]
+[[retrieval-augmented-generation|Retrieval-Augmented Generation]]
 and the
 [[Search and RAG Project Checklist]].
 Use

@@ -26,7 +26,7 @@ too.
 A RAG product may look like an LLM application. The search episodes often treat
 quality as a retrieval question before it becomes a generation question.
 For the broader map, use
-[[search-rag-and-knowledge-systems|Search, RAG, and Knowledge Systems]].
+[[retrieval-augmented-generation|Retrieval-Augmented Generation]].
 
 ## Measurement Scope
 
@@ -245,7 +245,7 @@ depends on evidence.
 Use [[Search]] and
 [[Information Retrieval]] for
 the retrieval foundations behind this page. Use
-[[search-rag-and-knowledge-systems|Search, RAG, and Knowledge Systems]]
+[[retrieval-augmented-generation|Retrieval-Augmented Generation]]
 for the wider knowledge-system map.
 
 When the search system returns generated answers, move to

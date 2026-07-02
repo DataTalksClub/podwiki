@@ -121,7 +121,7 @@ page covers the same RAG design in more detail.
 This is why "use a vector database" isn't enough for an interview answer.
 The RAG episodes treat retrieval as search with context packaging, not model
 memory.
-[[search-rag-and-knowledge-systems|Search, RAG, and Knowledge Systems]]
+[[retrieval-augmented-generation|Retrieval-Augmented Generation]]
 ties Atita's transcript RAG example to source provenance and permissions. It
 also ties the example to metadata, citations, and evaluation. Use
 [[Vector Database vs Search Engine]]

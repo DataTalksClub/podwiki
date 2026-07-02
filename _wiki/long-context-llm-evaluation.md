@@ -123,7 +123,7 @@ adds the prompt-design version. More examples or more context can help until
 the evaluation curve flattens. After that, extra tokens add cost without
 quality gain.
 
-For [[search-rag-and-knowledge-systems|search, RAG, and knowledge systems]],
+For [[retrieval-augmented-generation|retrieval-augmented generation]],
 long context may reduce the need for extremely small chunks in some cases. It
 doesn't remove source selection. Atita's transcript-chatbot example still
 chooses chunk size, overlap, and number of retrieved chunks before generation.

@@ -8,7 +8,7 @@ related:
   - Production Search Evaluation
   - Vector Databases
   - Embeddings
-  - Search RAG and Knowledge Systems
+  - Retrieval-Augmented Generation
   - LLM Evaluation Workflows
   - A/B Testing
   - Metrics
@@ -121,8 +121,7 @@ Metadata and access rules belong in the same discussion. A result can be
 semantically relevant and still unusable because the person isn't allowed to
 see it. The result may also be stale or violate a business rule. For
 retrieval-heavy LLM systems, use
-[[search-rag-and-knowledge-systems|Search, RAG, and Knowledge Systems]]
-and [[retrieval-augmented-generation|RAG]] to keep search constraints visible
+[[retrieval-augmented-generation|Retrieval-Augmented Generation]] to keep search constraints visible
 before generation.
 
 ## Metrics, Offline Tests, And A/B Testing

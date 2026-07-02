@@ -78,7 +78,7 @@ metrics before a team can say whether results improved.
 For implementation-oriented follow-up, use
 [RAG Evaluation Workflow]({{ '/wiki/rag-evaluation-workflow/' | relative_url }})
 for measurement steps. Use
-[Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
+[Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
 and [Search and RAG Project Checklist]({{ '/wiki/search-and-rag-project-checklist/' | relative_url }})
 for architecture and build sequencing.
 For a production-search companion to Atita's episode,

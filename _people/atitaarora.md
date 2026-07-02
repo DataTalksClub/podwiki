@@ -59,7 +59,7 @@ These claims are reusable in future topic pages:
 
 Use these existing hubs for follow-up topic work:
 
-- [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
+- [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
   for vector search, RAG architecture, grounding, and evaluation.
 - [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
   for evaluation, failure analysis, and production constraints around LLM

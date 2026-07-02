@@ -140,7 +140,7 @@ multiple data sources, dynamic planning, and multiple API integrations
 ([[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|RAG versus agents at 29:30-37:39]]).
 Those choices place the role beside
 [[agent-engineering|AI Agents]] and
-[[search-rag-and-knowledge-systems|Search, RAG, and Knowledge Systems]].
+[[retrieval-augmented-generation|Retrieval-Augmented Generation]].
 
 ## Evaluation and Production Reliability
 

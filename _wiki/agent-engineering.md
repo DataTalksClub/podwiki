@@ -173,7 +173,7 @@ retrieval backends. She also covers chunking, metadata, and wrappers so
 retrieved information fits the agent's job.
 
 For the broader retrieval architecture, see
-[[search-rag-and-knowledge-systems|Search, RAG, and Knowledge Systems]].
+[[retrieval-augmented-generation|Retrieval-Augmented Generation]].
 
 Hugo's 48:20 section compares chunking strategies, including fixed length and
 sliding windows. His 57:41 section distinguishes retrieval-based memory from

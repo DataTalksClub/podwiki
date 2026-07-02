@@ -91,8 +91,8 @@ serving as metadata around a text chunk
 Teams choose architecture around the unit they retrieve, because vector search
 retrieves nearby chunks and records. Those records can represent products,
 images, users, or sessions. A graph retrieves nodes and edges, then returns
-neighborhoods, paths, or query results. [Search, RAG, and Knowledge
-Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }}) puts
+neighborhoods, paths, or query results. [Retrieval-Augmented
+Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}) puts
 both choices inside the broader search and knowledge-system stack.
 
 ## Question Fit
@@ -260,7 +260,7 @@ Use these pages for the surrounding retrieval, search, and LLM-system decisions:
 
 - [[Graph RAG vs Vector RAG]] for LLM context packaging.
 - [[Vector Database vs Search Engine]] for retrieval-stack ownership.
-- [[search-rag-and-knowledge-systems|Search, RAG, and Knowledge Systems]], [[Search]], [[retrieval-augmented-generation|RAG]], and [[retrieval-augmented-generation|Retrieval-Augmented Generation]] for the broader architecture.
+- [[Search]] and [[retrieval-augmented-generation|Retrieval-Augmented Generation]] for the broader architecture.
 - [[Vector Databases]] and [[Embeddings]] for the vector side.
 - [[Production Search Evaluation]] and [[LLM Evaluation Workflows]] for evaluation.
 - [[Agent Engineering]] for systems where retrieval becomes one tool inside a multi-step agent.

@@ -31,7 +31,7 @@ For product search systems and user-facing relevance, start with
 answer quality after retrieval, use
 [[retrieval-augmented-generation|Retrieval-Augmented Generation]].
 For the broader map across retrieval systems and LLM applications, use
-[[search-rag-and-knowledge-systems|Search, RAG, and Knowledge Systems]].
+[[retrieval-augmented-generation|Retrieval-Augmented Generation]].
 
 ## Candidate Generation and Ranking
 

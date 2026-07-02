@@ -113,7 +113,7 @@ Around 48:20, he focuses on chunking strategy. Fixed-size chunks, sliding
 windows, and context quality determine what the embedding model can retrieve.
 Embeddings help only when the chunks preserve the information an answer needs.
 The broader
-[[search-rag-and-knowledge-systems|Search, RAG, and Knowledge Systems]]
+[[retrieval-augmented-generation|Retrieval-Augmented Generation]]
 page treats retrieval as search with generation attached.
 
 ## Recommendations and Multimodal Retrieval

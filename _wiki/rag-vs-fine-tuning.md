@@ -90,7 +90,7 @@ learning and fine-tuning retrain or adapt layers on another dataset.
 
 The systems boundary matters because the same user complaint can require
 different fixes. Missing source context belongs with
-[[search-rag-and-knowledge-systems|Search, RAG, and Knowledge Systems]].
+[[retrieval-augmented-generation|Retrieval-Augmented Generation]].
 Unstable answer style or repeated formatting mistakes may need fine-tuning,
 prompt instructions, or task-specific examples. Missing workflow execution may
 need

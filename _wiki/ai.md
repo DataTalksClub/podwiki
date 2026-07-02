@@ -139,9 +139,8 @@ At 48:09 she adds human-in-the-loop evaluation.
 
 That makes [[search]] and
 [[embeddings]] central AI topics.
-[[retrieval-augmented-generation|RAG]] and
-[[search-rag-and-knowledge-systems|Search, RAG, and Knowledge Systems]]
-cover the broader architecture. In
+[[retrieval-augmented-generation|RAG]]
+covers the broader architecture. In
 [[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]],
 [[person:ranjithakulkarni|Ranjitha Kulkarni]] adds the
 operational side. At 29:30 and 31:38, RAG systems inherit latency, cost, and
@@ -257,7 +256,7 @@ Use these pages for narrower AI topics and implementation details.
 
 - [[AI Engineering]] and [[AI Engineer Role]] cover the builder role and skill stack.
 - [[Generative AI]], [[LLMs]], and [[Prompt Engineering]] cover model behavior and generated outputs.
-- [[retrieval-augmented-generation|Retrieval-Augmented Generation]], [[retrieval-augmented-generation|RAG]], and [[search-rag-and-knowledge-systems|Search, RAG, and Knowledge Systems]] cover context and retrieval.
+- [[retrieval-augmented-generation|Retrieval-Augmented Generation]] and [[retrieval-augmented-generation|RAG]] cover context and retrieval.
 - [[agent-engineering|AI Agents]], [[Agent Engineering]], and [[multi-agent-systems|Multi-Agent Systems]] cover action-oriented AI systems.
 - [[Data Products]], [[MLOps]], and [[Production]] cover delivery and operations.
 - [[Evaluation]], [[LLM Evaluation Workflows]], and [[Production Search Evaluation]] cover measurement.

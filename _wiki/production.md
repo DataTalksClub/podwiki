@@ -117,7 +117,7 @@ point for search systems in
 [[podcast:building-production-search-systems|Building Production Search Systems]].
 The 1:01:25 and 1:03:50 chapters separate business impact from operational
 metrics, then cover A/B testing and offline evaluation. A
-[[search-rag-and-knowledge-systems|search and RAG system]]
+[[retrieval-augmented-generation|search and RAG system]]
 can look technically healthy while relevance gets worse, so monitoring has to
 include user-facing quality.
 

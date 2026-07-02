@@ -121,8 +121,7 @@ rather than a hidden implementation detail
 [[Context Engineering]].
 
 For deeper retrieval and knowledge-system work, start with
-[[search-rag-and-knowledge-systems|Search, RAG, and Knowledge Systems]]
-and [[retrieval-augmented-generation|Retrieval-Augmented Generation]].
+[[retrieval-augmented-generation|Retrieval-Augmented Generation]].
 Then compare [[rag-vs-fine-tuning|RAG vs Fine-Tuning]]
 and [[Graph RAG vs Vector RAG]].
 Use retrieval when a product needs grounded, changing, or auditable knowledge.

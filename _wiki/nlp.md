@@ -179,7 +179,7 @@ contrasts retrieval with retraining at 40:46-42:02 in
 [[podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api|Deploying LLMs in Production]].
 At 48:01 she explains vector databases through embeddings, indexing, and
 semantic search. Her retrieval discussion belongs next to
-[[search-rag-and-knowledge-systems|Search, RAG, and Knowledge Systems]].
+[[retrieval-augmented-generation|Retrieval-Augmented Generation]].
 
 For a practitioner-oriented reference on the transformer architecture behind these models, [[book:20210419-transformers-for-natural-language-processing|Transformers for Natural Language Processing]] by Denis Rothman covers attention mechanisms, fine-tuning, and downstream NLP tasks.
 For deploying NLP systems inside organizations, [[book:20210726-applied-natural-language-processing-in-the-enterprise|Applied Natural Language Processing in the Enterprise]]

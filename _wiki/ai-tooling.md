@@ -27,7 +27,7 @@ observability, and cost.
 Use
 [[LLM Production Patterns]]
 for production architecture and
-[[search-rag-and-knowledge-systems|Search, RAG, and Knowledge Systems]]
+[[retrieval-augmented-generation|Retrieval-Augmented Generation]]
 for retrieval systems. Use
 [[Agent Engineering]] for
 tool-using agents and [[LLM Evaluation Workflows]]
@@ -151,7 +151,7 @@ At 44:26 he recommends quick business wins with chunking and embeddings. At
 48:20 he compares fixed-length chunks, sliding windows, and context rot. Those
 choices sit next to [[Vector Databases]]
 and [[Embeddings]]. They also connect to
-[[search-rag-and-knowledge-systems|Search, RAG, and Knowledge Systems]].
+[[retrieval-augmented-generation|Retrieval-Augmented Generation]].
 
 Ranjitha adds the production caution. In
 [[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]],

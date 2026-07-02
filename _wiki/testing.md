@@ -170,7 +170,7 @@ Failure analysis turns evaluation into engineering work. At 26:43 in the same
 episode, Bowne-Anderson recommends categorizing errors and ranking the largest
 failure classes. If most failures come from retrieval, teams should fix
 retrieval before polishing formatting. Testing for these systems belongs with
-[[search-rag-and-knowledge-systems|search, RAG, and knowledge systems]]
+[[retrieval-augmented-generation|retrieval-augmented generation]]
 and [[production search evaluation]].
 
 ## Agent and Tool Tests

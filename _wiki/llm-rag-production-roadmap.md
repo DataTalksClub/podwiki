@@ -36,7 +36,7 @@ for production design and
 [[AI Engineer Role]] for the role
 boundary.
 Use
-[[search-rag-and-knowledge-systems|Search, RAG, and Knowledge Systems]]
+[[retrieval-augmented-generation|Retrieval-Augmented Generation]]
 for retrieval architecture.
 [[LLM Evaluation Workflows]]
 covers the tests that keep a RAG system from becoming a demo with no regression

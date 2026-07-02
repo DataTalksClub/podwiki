@@ -22,7 +22,7 @@ A vector database isn't the full search product because it only stores vectors,
 indexes them, and returns candidate items. The surrounding system still handles
 ingestion, chunking, metadata filters, and reranking. It also handles
 citations, permissions, and evaluation. That boundary appears throughout
-[[search-rag-and-knowledge-systems|Search, RAG, and Knowledge Systems]]
+[[retrieval-augmented-generation|Retrieval-Augmented Generation]]
 and matters for
 [[Vector Database vs Search Engine]].
 
