@@ -285,6 +285,12 @@
   font-weight: 600;
 }
 
+.graph-open-page {
+  margin-left: 0.8rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
 /* subtle secondary button to re-seed the home ego-graph */
 .graph-reroll {
   min-height: 0;
@@ -303,10 +309,9 @@
   background: var(--panel);
 }
 
-/* the ego-graph embedded on the home page sits near the top, not after
-   a long article, so it needs less breathing room above it */
+/* The home-page ego graph sits after the primary navigation blocks. */
 .home-graph {
-  margin-top: 1.5rem;
+  margin-top: 3rem;
 }
 
 /* Accessible / crawlable fallback: the full grouped connection list. */
@@ -350,6 +355,10 @@
 }
 
 .graph-connection {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0.5rem;
+  align-items: center;
   padding: 0.4rem 0.65rem;
   border: 1px solid var(--line);
   border-radius: 0.4rem;
@@ -360,10 +369,36 @@
 }
 
 .graph-connection:hover,
-.graph-connection:focus {
+.graph-connection:focus-within {
   border-color: var(--accent);
   box-shadow: var(--shadow);
+}
+
+.graph-connection-main {
+  min-width: 0;
+  color: var(--link);
   text-decoration: none;
+}
+
+.graph-connection-main:hover,
+.graph-connection-main:focus {
+  color: var(--link-hover);
+  text-decoration: underline;
+}
+
+.graph-connection-page {
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.graph-connection-page:hover,
+.graph-connection-page:focus {
+  color: var(--link-hover);
+  text-decoration: underline;
 }
 
 /* ---- Responsive ------------------------------------------- */

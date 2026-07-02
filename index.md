@@ -28,8 +28,6 @@ title: Podcast Wiki
   <input name="q" type="search" aria-label="Search the wiki" placeholder="Search RAG, career transitions, feature stores..." />
 </form>
 
-<section class="home-graph graph-connections" data-graph-connections data-graph-random hidden></section>
-
 {% if c_total > 0 %}
 
 {%- comment -%} ---------- Explore by format ---------- {%- endcomment -%}
@@ -106,5 +104,7 @@ title: Podcast Wiki
 {% endif %}
 
 <p class="home-more">Also see the <a href="{{ '/special-pages/' | relative_url }}">special pages</a>.</p>
+
+<section class="home-graph graph-connections" data-graph-connections data-graph-random hidden></section>
 
 <script src="{{ '/assets/page-graph.js' | relative_url }}"></script>

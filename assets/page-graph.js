@@ -90,6 +90,9 @@
   function graphUrl(node) {
     return siteUrl(`/graph.html#${encodeURIComponent(node.id)}`);
   }
+  function hasPageUrl(node) {
+    return Boolean(node && node.url);
+  }
 
   function currentNode(graph) {
     const current = normalizePath(window.location.pathname);
@@ -184,10 +187,10 @@
         random
           ? `Starting from <strong>${escapeHtml(
               center.label || center.title
-            )}</strong> — hover a connection, click to open it, or show another topic.`
+            )}</strong> — hover a connection, click to explore it in the full graph, or show another topic.`
           : `See how <strong>${escapeHtml(
               center.label || center.title
-            )}</strong> connects to other pages. Hover to focus a link, click to open it.`
+            )}</strong> connects to other pages. Hover to focus a link, click to explore it in the full graph.`
       }</p>
       <div class="graph-embed" data-embed>
         <canvas class="graph-embed-canvas" role="img" aria-label="Connection graph for ${escapeHtml(
@@ -199,7 +202,11 @@
           random
             ? `<button type="button" class="graph-reroll" data-graph-reroll>Show another topic &rarr;</button> `
             : ""
-        }<a href="${escapeHtml(graphUrl(center))}">Open in the full graph &rarr;</a>
+        }<a href="${escapeHtml(graphUrl(center))}">Open in the full graph &rarr;</a>${
+          hasPageUrl(center)
+            ? ` <a class="graph-open-page" href="${escapeHtml(nodeUrl(center))}">Open page</a>`
+            : ""
+        }
       </p>
       <details class="graph-embed-fallback">
         <summary>All ${linked.length} connection${linked.length === 1 ? "" : "s"}</summary>
@@ -212,9 +219,15 @@
               ${items
                 .map(
                   (item) => `
-                <a class="graph-connection" href="${escapeHtml(nodeUrl(item))}">${escapeHtml(
+                <span class="graph-connection">
+                  <a class="graph-connection-main" href="${escapeHtml(graphUrl(item))}">${escapeHtml(
                     item.label || item.title
-                  )}</a>`
+                  )}</a>${
+                    hasPageUrl(item)
+                      ? `<a class="graph-connection-page" href="${escapeHtml(nodeUrl(item))}">Open page</a>`
+                      : ""
+                  }
+                </span>`
                 )
                 .join("")}
             </div>
@@ -471,7 +484,7 @@
       const rect = canvas.getBoundingClientRect();
       const hit = pick(event.clientX - rect.left, event.clientY - rect.top);
       if (!hit || hit.center) return; // clicking the centre does nothing
-      window.location.href = nodeUrl(hit.node);
+      window.location.href = graphUrl(hit.node);
     });
 
     let resizeTimer = null;

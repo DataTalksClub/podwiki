@@ -528,28 +528,45 @@ button:focus,
 }
 
 .graph-connection {
-  display: block;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0.5rem;
+  align-items: center;
   padding: 0.6rem 0.7rem;
   border: 1px solid var(--line);
   border-radius: 0.25rem;
   background: var(--panel);
+}
+
+.graph-connection:hover,
+.graph-connection:focus-within {
+  border-color: var(--line-strong);
+}
+
+.graph-connection-main {
   color: var(--link);
   text-decoration: none;
 }
 
-.graph-connection:hover,
-.graph-connection:focus {
-  border-color: var(--line-strong);
+.graph-connection-main:hover,
+.graph-connection-main:focus {
+  color: var(--link-hover);
   text-decoration: underline;
 }
 
-.graph-connection span {
-  display: block;
+.graph-connection-page {
   color: var(--muted);
   font-size: 0.82rem;
   font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.graph-connection-page:hover,
+.graph-connection-page:focus {
+  color: var(--link-hover);
+  text-decoration: underline;
 }
 
 .graph-open {
@@ -1159,4 +1176,3 @@ code {
   padding: 0.15rem 0.5rem;
   border-radius: 3px;
 }
-
