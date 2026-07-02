@@ -1,44 +1,49 @@
-/* Entity chips (wiki prose). Loaded after site.css. Colours match the graph legend.
-   Rendered client-side by assets/entity-chips.js from entity links. */
+/* Entity chips in wiki prose. Colours match the graph legend. Subtle by design:
+   a small type-coloured dot + coloured label, faint hover tint — no loud pills.
+   (Interim renderer: assets/entity-chips.js. Target: build-time rustkyll `chips` extension.) */
 
 .chip {
   --chip: #64748b;
-  display: inline-flex;
-  align-items: baseline;
-  gap: 0.3em;
-  padding: 0.02em 0.5em 0.06em;
-  border: 1px solid color-mix(in srgb, var(--chip) 45%, var(--line));
-  border-radius: 999px;
-  background: color-mix(in srgb, var(--chip) 9%, var(--panel));
+  display: inline;
   color: var(--chip);
   font-weight: 600;
-  font-size: 0.94em;
-  line-height: 1.4;
   text-decoration: none;
-  white-space: normal;
+  border-radius: 0.3em;
+  padding: 0 0.12em;
+  transition: background-color 0.12s ease;
+}
+
+.chip::before {
+  content: "";
+  display: inline-block;
+  width: 0.4em;
+  height: 0.4em;
+  margin-right: 0.3em;
+  border-radius: 50%;
+  background: var(--chip);
+  vertical-align: 0.09em;
+  opacity: 0.85;
 }
 
 .chip:hover,
 .chip:focus {
-  border-color: var(--chip);
-  background: color-mix(in srgb, var(--chip) 16%, var(--panel));
   color: var(--chip);
+  background: color-mix(in srgb, var(--chip) 12%, transparent);
   text-decoration: none;
 }
 
-.chip .chip-ic {
-  font-size: 0.82em;
+.chip .chip-time {
+  margin-left: 0.3em;
+  color: var(--chip);
+  font-weight: 700;
+  font-size: 0.9em;
+  font-variant-numeric: tabular-nums;
   opacity: 0.9;
 }
 
-.chip .chip-time {
-  padding: 0 0.4em;
-  border-radius: 999px;
-  background: color-mix(in srgb, var(--chip) 18%, var(--panel));
-  color: var(--chip);
-  font-size: 0.82em;
-  font-weight: 700;
-  font-variant-numeric: tabular-nums;
+.chip .chip-time::before {
+  content: "· ";
+  opacity: 0.55;
 }
 
 /* per-type accent (matches graph node colours) */

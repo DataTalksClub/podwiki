@@ -1,2 +1,331 @@
 /* Page-specific styles (content). Loaded after site.css so these rules win.
    Owned by the content designer agent. Use the site CSS variables; do not hardcode colors. */
+
+/* ============================================================
+   Wiki reading pages (layouts: wiki, article)
+   Goal: a well-crafted encyclopedia article — comfortable measure,
+   clear hierarchy, calm on-brand panels. Light + dark, responsive.
+   ============================================================ */
+
+/* ---- Reading column & vertical rhythm --------------------- */
+/* Narrow the measure from the site default so body prose lands in the
+   ~70-78 character comfort zone for Alegreya Sans at 1.125rem. */
+.knowledge-page {
+  max-width: 43rem;
+}
+
+.knowledge-page > p,
+.knowledge-page > ul,
+.knowledge-page > ol {
+  margin-bottom: 1.2rem;
+  line-height: 1.62;
+}
+
+.knowledge-page > ul,
+.knowledge-page > ol {
+  padding-left: 1.35rem;
+}
+
+.knowledge-page li + li {
+  margin-top: 0.35rem;
+}
+
+.knowledge-page li {
+  line-height: 1.6;
+}
+
+.knowledge-page li::marker {
+  color: var(--muted);
+}
+
+.knowledge-page ol > li::marker {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+/* ---- Article header block (eyebrow / h1 / lede) ----------- */
+.knowledge-page .eyebrow {
+  margin-bottom: 0.6rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: var(--muted);
+}
+
+.knowledge-page > h1 {
+  margin-bottom: 0.85rem;
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+}
+
+.lede {
+  max-width: 38rem;
+  margin: 0 auto;
+  font-size: 1.24rem;
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--muted);
+  text-wrap: pretty;
+}
+
+/* Space after the header group before body prose / panel begins. */
+.lede {
+  margin-bottom: 2rem;
+}
+
+/* First body paragraph gets a touch more presence as the lead-in. */
+.crosslink-panel + p,
+.lede + p {
+  margin-top: 0;
+}
+
+/* ---- Related Wiki Pages panel ----------------------------- */
+/* Recolour off the off-brand lavender tint onto a calm, on-brand
+   surface; soften corners; present links as an even pill cluster. */
+.crosslink-panel {
+  margin: 0 0 2.5rem;
+  padding: 1.15rem 1.3rem 1.3rem;
+  border: 1px solid var(--line);
+  border-radius: 0.7rem;
+  background: var(--panel-soft);
+}
+
+.crosslink-panel h2 {
+  margin: 0 0 0.85rem;
+  font-family: "Alegreya Sans", "Segoe UI", system-ui, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  text-align: center;
+}
+
+.crosslink-panel .meta {
+  gap: 0.5rem;
+}
+
+.crosslink-panel .meta a {
+  padding: 0.32rem 0.75rem;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  background: var(--panel);
+  font-size: 0.95rem;
+  line-height: 1.3;
+  transition: border-color 0.12s ease, color 0.12s ease, background 0.12s ease;
+}
+
+.crosslink-panel .meta a:hover,
+.crosslink-panel .meta a:focus {
+  border-color: var(--accent);
+  color: var(--link-hover);
+  background: var(--panel);
+  text-decoration: none;
+}
+
+/* ---- Tag chip row (.meta directly under the header) ------- */
+.knowledge-page > .meta {
+  margin: 0 0 2rem;
+}
+
+.knowledge-page > .meta span {
+  padding: 0.28rem 0.7rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--panel-soft);
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/* ---- Body typography: headings, links, emphasis ----------- */
+.knowledge-page h2 {
+  border-color: var(--line-strong);
+  letter-spacing: -0.005em;
+}
+
+.knowledge-page h3 {
+  margin-top: 2.25rem;
+  color: var(--heading);
+}
+
+.knowledge-page strong {
+  color: var(--heading);
+  font-weight: 700;
+}
+
+/* ---- Blockquotes ------------------------------------------ */
+.knowledge-page blockquote {
+  margin: 1.6rem 0;
+  padding: 0.9rem 1.25rem;
+  border-left: 3px solid var(--accent);
+  border-radius: 0 0.4rem 0.4rem 0;
+  background: var(--panel-soft);
+  color: var(--text);
+  font-style: italic;
+}
+
+.knowledge-page blockquote p {
+  line-height: 1.55;
+}
+
+/* ---- Inline code & code blocks ---------------------------- */
+.knowledge-page :not(pre) > code {
+  padding: 0.1em 0.4em;
+  border: 1px solid var(--line);
+  border-radius: 0.3rem;
+  background: var(--panel-soft);
+  font-size: 0.9em;
+}
+
+.knowledge-page pre {
+  margin: 1.5rem 0;
+  padding: 1rem 1.15rem;
+  border: 1px solid var(--line);
+  border-radius: 0.5rem;
+  background: var(--panel-soft);
+  overflow-x: auto;
+  line-height: 1.5;
+}
+
+.knowledge-page pre code {
+  padding: 0;
+  border: 0;
+  background: none;
+  font-size: 0.92em;
+}
+
+/* ---- Tables ----------------------------------------------- */
+.knowledge-page table {
+  margin: 1.6rem 0;
+  border: 1px solid var(--line);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  font-size: 0.98rem;
+}
+
+.knowledge-page th,
+.knowledge-page td {
+  padding: 0.6rem 0.8rem;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.knowledge-page thead th {
+  background: var(--panel-soft);
+  font-family: "Raleway", "Segoe UI", system-ui, sans-serif;
+  font-weight: 600;
+  text-align: left;
+}
+
+.knowledge-page tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.knowledge-page tbody tr:nth-child(even) td {
+  background: color-mix(in srgb, var(--panel-soft) 55%, transparent);
+}
+
+/* ---- "See Also in the Graph" (populated by page-graph.js) --- */
+/* page-graph.js fills this element but leaves the [hidden] attribute in
+   place; reveal it only once it actually has rendered content so an empty
+   node stays hidden. Then give it room and an on-brand card treatment. */
+.graph-connections:not(:empty) {
+  display: block;
+}
+
+.graph-connections {
+  margin-top: 3.25rem;
+  padding: 1.35rem 1.5rem 1.5rem;
+  border: 1px solid var(--line);
+  border-radius: 0.7rem;
+  background: var(--panel-soft);
+}
+
+.graph-connections > h2 {
+  margin: 0 0 1.1rem;
+  padding-bottom: 0.85rem;
+  border-bottom: 1px solid var(--line);
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.graph-connection-group {
+  margin-top: 1.25rem;
+}
+
+.graph-connection-group:first-of-type {
+  margin-top: 0;
+}
+
+.graph-connection-group h3 {
+  margin: 0 0 0.55rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.09em;
+}
+
+.graph-connection-list {
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  display: grid;
+  gap: 0.5rem;
+}
+
+.graph-connection {
+  padding: 0.6rem 0.8rem;
+  border-radius: 0.45rem;
+  line-height: 1.35;
+  transition: border-color 0.12s ease, box-shadow 0.12s ease;
+}
+
+.graph-connection:hover,
+.graph-connection:focus {
+  border-color: var(--accent);
+  box-shadow: var(--shadow);
+  text-decoration: none;
+}
+
+/* The group heading already names the type, so the per-card type label
+   (rendered by page-graph.js) is redundant here — hide it for calmer cards. */
+.graph-connection span {
+  display: none;
+}
+
+.graph-open {
+  margin-top: 1.35rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+}
+
+.graph-open a {
+  font-weight: 600;
+}
+
+/* ---- Responsive ------------------------------------------- */
+@media (max-width: 600px) {
+  .lede {
+    font-size: 1.12rem;
+  }
+
+  .crosslink-panel,
+  .graph-connections {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 0.6rem;
+  }
+
+  .crosslink-panel .meta {
+    justify-content: center;
+  }
+
+  .graph-connection-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 1200px) {
+  .knowledge-page {
+    max-width: 44rem;
+  }
+}

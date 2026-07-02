@@ -17,10 +17,12 @@ permalink: /special-pages/
   <button class="tag-btn" data-tag="how-to">How-Tos</button>
 </div>
 
+<p class="filter-count" id="filter-count"></p>
+
 <div class="grid" id="special-grid">
   {% assign items = site.wiki | sort: "title" %}
   {% for item in items %}
-    {% if item.tags and item.redirect_to == nil %}
+    {% if item.tags.size > 0 and item.redirect_to == nil %}
     <a class="card special-card"
        href="{{ item.url | relative_url }}"
        data-tags="{{ item.tags | join: ',' }}">
@@ -38,21 +40,27 @@ permalink: /special-pages/
 (function() {
   var buttons = document.querySelectorAll('.tag-btn');
   var cards = document.querySelectorAll('.special-card');
+  var count = document.getElementById('filter-count');
+
+  function apply(tag) {
+    var shown = 0;
+    cards.forEach(function(card) {
+      var tags = card.getAttribute('data-tags');
+      var match = tag === 'all' || (tags && tags.split(',').map(function(t){return t.trim();}).indexOf(tag) !== -1);
+      card.style.display = match ? '' : 'none';
+      if (match) shown++;
+    });
+    if (count) count.textContent = shown + (shown === 1 ? ' page' : ' pages');
+  }
 
   buttons.forEach(function(btn) {
     btn.addEventListener('click', function() {
-      var tag = btn.getAttribute('data-tag');
       buttons.forEach(function(b) { b.classList.remove('active'); });
       btn.classList.add('active');
-      cards.forEach(function(card) {
-        var tags = card.getAttribute('data-tags');
-        if (tag === 'all' || (tags && tags.split(',').map(function(t){return t.trim();}).indexOf(tag) !== -1)) {
-          card.style.display = '';
-        } else {
-          card.style.display = 'none';
-        }
-      });
+      apply(btn.getAttribute('data-tag'));
     });
   });
+
+  apply('all');
 })();
 </script>

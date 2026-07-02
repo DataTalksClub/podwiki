@@ -1,2 +1,380 @@
 /* Page-specific styles (listings). Loaded after site.css so these rules win.
    Owned by the listings designer agent. Use the site CSS variables; do not hardcode colors. */
+
+/* ---------- Wiki index ---------- */
+
+.wiki-hero {
+  text-align: center;
+  margin-bottom: 1.75rem;
+}
+
+.wiki-hero h1 {
+  margin-bottom: 0.5rem;
+}
+
+.wiki-lede {
+  max-width: 44rem;
+  margin: 0 auto;
+  color: var(--muted);
+  font-size: 1.12rem;
+  line-height: 1.5;
+}
+
+/* ---- Sticky control bar (search + tag filters + A–Z jump) ---- */
+
+.wiki-controls {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  margin: 0 0 1.25rem;
+  padding: 0.9rem 0 0.75rem;
+  background: color-mix(in srgb, var(--bg) 90%, transparent);
+  backdrop-filter: saturate(1.4) blur(8px);
+  -webkit-backdrop-filter: saturate(1.4) blur(8px);
+  border-bottom: 1px solid var(--line);
+}
+
+.wiki-controls-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+/* search box */
+.wiki-search {
+  position: relative;
+  flex: 1 1 20rem;
+  min-width: 0;
+}
+
+.wiki-search-icon {
+  position: absolute;
+  left: 0.85rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1.05rem;
+  height: 1.05rem;
+  color: var(--muted);
+  pointer-events: none;
+}
+
+#wiki-filter {
+  width: 100%;
+  padding: 0.7rem 2.4rem 0.7rem 2.55rem;
+  border: 1px solid var(--line-strong);
+  border-radius: 0.6rem;
+  background: var(--panel);
+  color: var(--text);
+  font-family: "Alegreya Sans", "Segoe UI", system-ui, sans-serif;
+  font-size: 1.02rem;
+  line-height: 1.3;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+#wiki-filter::placeholder {
+  color: var(--muted);
+}
+
+#wiki-filter:focus {
+  outline: none;
+  border-color: var(--link);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--link) 25%, transparent);
+}
+
+/* native search clear button is hidden in favour of our own */
+#wiki-filter::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.wiki-search-clear {
+  position: absolute;
+  right: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.6rem;
+  height: 1.6rem;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--muted);
+  font-size: 1.25rem;
+  line-height: 1;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.wiki-search-clear:hover {
+  background: var(--panel-soft);
+  color: var(--heading);
+}
+
+/* tag filter pills */
+.wiki-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.wiki-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.42rem 0.85rem;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  background: var(--panel);
+  color: var(--text);
+  font-family: "Alegreya Sans", "Segoe UI", system-ui, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1;
+  cursor: pointer;
+  transition: border-color 0.15s ease, background 0.15s ease, color 0.15s ease;
+}
+
+.wiki-tag:hover {
+  border-color: var(--link);
+  color: var(--link);
+}
+
+.wiki-tag.is-active {
+  background: var(--btn-bg);
+  border-color: var(--btn-bg);
+  color: #fff;
+}
+
+.wiki-tag.is-active:hover {
+  background: var(--btn-bg-hover);
+  border-color: var(--btn-bg-hover);
+  color: #fff;
+}
+
+.wiki-tag-count {
+  margin-left: 0.4rem;
+  font-weight: 700;
+  opacity: 0.6;
+}
+
+/* A–Z jump bar */
+.wiki-az {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.15rem;
+  margin-top: 0.7rem;
+}
+
+.wiki-az a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.7rem;
+  height: 1.7rem;
+  padding: 0 0.15rem;
+  border-radius: 0.35rem;
+  color: var(--link);
+  font-family: "Raleway", "Segoe UI", system-ui, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.12s ease, color 0.12s ease;
+}
+
+.wiki-az a:hover {
+  background: var(--panel-tint);
+  color: var(--link-hover);
+  text-decoration: none;
+}
+
+.wiki-az a.is-disabled {
+  color: var(--muted);
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+/* result count */
+.wiki-count {
+  margin: 0 0 1.25rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.wiki-count b {
+  color: var(--heading);
+  font-weight: 700;
+}
+
+/* ---- Sections + letter headings ---- */
+
+.wiki-section[hidden] {
+  display: none;
+}
+
+.wiki-letter {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 2.1rem 0 1rem;
+  padding: 0;
+  border-top: none;
+  font-size: 1.4rem;
+  scroll-margin-top: 5.5rem;
+}
+
+.wiki-letter-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.1rem;
+  height: 2.1rem;
+  border-radius: 0.55rem;
+  border: 1px solid var(--line);
+  background: var(--panel-tint);
+  color: var(--heading);
+  font-family: "Raleway", "Segoe UI", system-ui, sans-serif;
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.wiki-letter::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--line);
+}
+
+/* ---- Card grid ---- */
+
+.wiki-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  gap: 0.75rem;
+}
+
+.wiki-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  padding: 0.8rem 0.95rem 0.85rem;
+  border: 1px solid var(--line);
+  border-radius: 0.5rem;
+  background: var(--panel);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+.wiki-card:hover,
+.wiki-card:focus-visible {
+  border-color: var(--link);
+  box-shadow: var(--shadow);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+.wiki-card[hidden] {
+  display: none;
+}
+
+.wiki-card-title {
+  color: var(--heading);
+  font-family: "Raleway", "Segoe UI", system-ui, sans-serif;
+  font-size: 1.02rem;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.wiki-card:hover .wiki-card-title,
+.wiki-card:focus-visible .wiki-card-title {
+  color: var(--link);
+}
+
+.wiki-card-summary {
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.wiki-card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-top: 0.15rem;
+}
+
+.wiki-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.12rem 0.5rem;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--panel-soft);
+  color: var(--muted);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/* empty state */
+.wiki-empty {
+  margin: 2.5rem auto;
+  padding: 2rem 1rem;
+  max-width: 34rem;
+  text-align: center;
+  color: var(--muted);
+  border: 1px dashed var(--line-strong);
+  border-radius: 0.6rem;
+}
+
+.wiki-empty[hidden] {
+  display: none;
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 768px) {
+  .wiki-controls {
+    position: static;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    padding-top: 0;
+    border-bottom: none;
+  }
+
+  .wiki-controls-row {
+    gap: 0.6rem;
+  }
+
+  .wiki-tags {
+    width: 100%;
+  }
+
+  .wiki-az {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+    padding-bottom: 0.25rem;
+  }
+
+  .wiki-az::-webkit-scrollbar {
+    display: none;
+  }
+
+  .wiki-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .wiki-lede {
+    font-size: 1.02rem;
+  }
+}

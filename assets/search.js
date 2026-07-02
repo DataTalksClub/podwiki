@@ -6,6 +6,7 @@
   const apiUrl = (window.PODWIKI_SEARCH_API || "").trim();
   const baseUrl = (window.PODWIKI_BASE_URL || "").replace(/\/$/, "");
   let localDocs = null;
+  let lastTerms = [];
 
   function siteUrl(path) {
     if (!path || /^https?:\/\//i.test(path)) return path;
@@ -21,35 +22,96 @@
       .replaceAll('"', "&quot;");
   }
 
-  function render(items) {
+  function setStatus(text, state) {
+    status.textContent = text;
+    if (state) status.setAttribute("data-state", state);
+    else status.removeAttribute("data-state");
+  }
+
+  function highlight(escaped, terms) {
+    if (!terms || !terms.length) return escaped;
+    const pattern = terms
+      .filter(Boolean)
+      .map((t) => t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"))
+      .join("|");
+    if (!pattern) return escaped;
+    return escaped.replace(new RegExp(`(${pattern})`, "gi"), "<mark>$1</mark>");
+  }
+
+  function badgeFor(item) {
+    if (item.level === "segment") return "Segment";
+    if (item.document_type === "section" || item.level === "section") return "Section";
+    return String(item.level || "page").replaceAll("_", " ");
+  }
+
+  function metaFor(item) {
+    const isSegment = item.level === "segment";
+    const isSection = item.document_type === "section" || item.level === "section";
+    if (isSegment) {
+      return [item.title, item.time].filter(Boolean).join(" · ");
+    }
+    if (isSection) {
+      return item.page_title && item.page_title !== item.segment_title ? item.page_title : "";
+    }
+    return "";
+  }
+
+  function titleFor(item) {
+    const isSegment = item.level === "segment";
+    const isSection = item.document_type === "section" || item.level === "section";
+    if ((isSegment || isSection) && item.segment_title) return item.segment_title;
+    return item.title;
+  }
+
+  function showEmpty(query) {
+    results.innerHTML = `
+      <div class="search-empty">
+        <strong>No matches for “${escapeHtml(query)}”</strong>
+        <span>Try a broader term, or browse the <a href="${escapeHtml(siteUrl("/wiki/"))}">wiki topics</a>.</span>
+      </div>`;
+  }
+
+  function showSkeletons(n) {
+    let html = "";
+    for (let i = 0; i < n; i++) {
+      html += `
+        <article class="result is-skeleton" aria-hidden="true">
+          <span class="sk sk-title"></span>
+          <span class="sk sk-meta"></span>
+          <span class="sk sk-line"></span>
+          <span class="sk sk-line short"></span>
+        </article>`;
+    }
+    results.innerHTML = html;
+  }
+
+  function render(items, query) {
     results.innerHTML = "";
     if (!items.length) {
-      status.textContent = "No results.";
+      setStatus("No results", "empty");
+      showEmpty(query);
       return;
     }
-    status.textContent = `${items.length} results`;
+    setStatus(`${items.length} result${items.length === 1 ? "" : "s"}`, "ok");
+    const frag = document.createDocumentFragment();
     for (const item of items) {
-      const isSegment = item.level === "segment";
-      const isSection = item.document_type === "section" || item.level === "section";
-      const title = isSegment && item.segment_title
-        ? `${item.segment_title}`
-        : isSection && item.segment_title
-          ? `${item.segment_title}`
-        : item.title;
-      const meta = isSegment
-        ? `${item.title} · ${item.time || ""}`
-        : isSection
-          ? `${item.page_title || item.title} · section`
-          : `${String(item.level || "page").replaceAll("_", " ")} page`;
+      const title = highlight(escapeHtml(titleFor(item)), lastTerms);
+      const meta = metaFor(item);
+      const snippet = (item.text || "").slice(0, 320);
+      const snippetHtml = highlight(escapeHtml(snippet), lastTerms) + (item.text && item.text.length > 320 ? "…" : "");
       const el = document.createElement("article");
       el.className = "result";
       el.innerHTML = `
-        <h2><a href="${escapeHtml(siteUrl(item.url))}">${escapeHtml(title)}</a></h2>
-        <div class="result-meta">${escapeHtml(meta)}</div>
-        <p>${escapeHtml((item.text || "").slice(0, 320))}</p>
+        <h2><a href="${escapeHtml(siteUrl(item.url))}">${title}</a></h2>
+        <div class="result-meta">
+          <span class="result-badge">${escapeHtml(badgeFor(item))}</span>
+          ${meta ? `<span class="result-meta-text">${escapeHtml(meta)}</span>` : ""}
+        </div>
+        <p>${snippetHtml}</p>
       `;
-      results.appendChild(el);
+      frag.appendChild(el);
     }
+    results.appendChild(frag);
   }
 
   function scoreDoc(doc, terms) {
@@ -93,30 +155,35 @@
 
   async function runSearch() {
     const query = input.value.trim();
-    if (!query) return;
-    status.textContent = "Searching...";
-    results.innerHTML = "";
+    if (!query) {
+      setStatus("");
+      results.innerHTML = "";
+      return;
+    }
+    lastTerms = query.toLowerCase().split(/[^a-z0-9_.#+-]+/).filter(Boolean);
+    setStatus("Searching…", "loading");
+    showSkeletons(4);
     const params = new URLSearchParams(window.location.search);
     params.set("q", query);
     history.replaceState(null, "", `${window.location.pathname}?${params.toString()}`);
     try {
       if (!apiUrl) {
-        render(await localSearch(query));
+        render(await localSearch(query), query);
         return;
       }
 
       try {
-        render(await remoteSearch(query));
+        render(await remoteSearch(query), query);
       } catch (remoteErr) {
-        status.textContent = "Search API unavailable; trying local search...";
         const items = await localSearch(query);
-        render(items);
-        status.textContent = items.length
-          ? `${items.length} local results; remote search unavailable.`
-          : "No local results; remote search unavailable.";
+        render(items, query);
+        if (items.length) {
+          setStatus(`${items.length} result${items.length === 1 ? "" : "s"} (offline index)`, "ok");
+        }
       }
     } catch (err) {
-      status.textContent = `Search failed: ${err.message}`;
+      results.innerHTML = "";
+      setStatus(`Search failed: ${err.message}`, "error");
     }
   }
 

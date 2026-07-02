@@ -26,26 +26,41 @@ format — every page grounded in real episodes.</p>
 {% assign roadmaps = site.wiki | where_exp: "item", "item.tags contains 'roadmap'" %}
 {% assign howtos = site.wiki | where_exp: "item", "item.tags contains 'how-to'" %}
 
-<div class="list">
-  <a class="row" href="{{ '/wiki/' | relative_url }}">
-    <strong>Wiki topics</strong>
-    <span>Evidence-backed topic pages synthesized from the archive</span>
+<div class="format-list">
+  <a class="format-item" href="{{ '/wiki/' | relative_url }}">
+    <span class="format-text">
+      <strong>Wiki topics</strong>
+      <span>Evidence-backed topic pages synthesized from the archive</span>
+    </span>
+    <span class="format-arrow" aria-hidden="true">&rarr;</span>
   </a>
-  <a class="row" href="{{ '/guides-page/' | relative_url }}">
-    <strong>Guides</strong>
-    <span>Practical, podcast-grounded walkthroughs</span>
+  <a class="format-item" href="{{ '/guides-page/' | relative_url }}">
+    <span class="format-text">
+      <strong>Guides</strong>
+      <span>Practical, podcast-grounded walkthroughs</span>
+    </span>
+    <span class="format-arrow" aria-hidden="true">&rarr;</span>
   </a>
-  <a class="row" href="{{ '/comparisons-page/' | relative_url }}">
-    <strong>Comparisons</strong>
-    <span>Side-by-side tools, roles, and architectures</span>
+  <a class="format-item" href="{{ '/comparisons-page/' | relative_url }}">
+    <span class="format-text">
+      <strong>Comparisons</strong>
+      <span>Side-by-side tools, roles, and architectures</span>
+    </span>
+    <span class="format-arrow" aria-hidden="true">&rarr;</span>
   </a>
-  <a class="row" href="{{ '/roadmaps-page/' | relative_url }}">
-    <strong>Roadmaps</strong>
-    <span>Step-by-step learning paths</span>
+  <a class="format-item" href="{{ '/roadmaps-page/' | relative_url }}">
+    <span class="format-text">
+      <strong>Roadmaps</strong>
+      <span>Step-by-step learning paths</span>
+    </span>
+    <span class="format-arrow" aria-hidden="true">&rarr;</span>
   </a>
-  <a class="row" href="{{ '/how-tos-page/' | relative_url }}">
-    <strong>How-tos</strong>
-    <span>Task-focused, answer-first pages</span>
+  <a class="format-item" href="{{ '/how-tos-page/' | relative_url }}">
+    <span class="format-text">
+      <strong>How-tos</strong>
+      <span>Task-focused, answer-first pages</span>
+    </span>
+    <span class="format-arrow" aria-hidden="true">&rarr;</span>
   </a>
 </div>
 
