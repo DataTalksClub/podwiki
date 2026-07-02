@@ -168,6 +168,16 @@ connect to DataOps. Another person should be able to review a data change,
 test it, and deploy it. They should also be able to observe its outputs and
 rerun it after failure without reverse-engineering the whole pipeline.
 
+A practical way to make that concrete is to require every change to a pipeline,
+dbt model, notebook-turned-job, or infrastructure definition to pass four gates:
+reviewable (owner, consumer impact, and expected output are visible), testable
+(regression tests and realistic test data exercise the code and data
+assumptions), deployable (an automated path rather than a manual checklist), and
+observable (freshness, schema, lineage, and downstream behavior stay visible
+after release). Bergh ties this supported path to the whole team using it, so
+newer members can change production without relying on private knowledge
+([DataOps for Data Engineering at 30:55-46:27]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }})).
+
 ## Observability and Recovery
 
 DataOps depends on observability, but it covers more than monitoring. A
