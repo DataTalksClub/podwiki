@@ -29,7 +29,7 @@ monitoring and evaluation becoming standard practice.
 Agent Ops builds on
 [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }}),
 [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }}),
-and [AI Agents]({{ '/wiki/ai-agents/' | relative_url }}).
+and [AI Agents]({{ '/wiki/agent-engineering/' | relative_url }}).
 
 ## Orchestration and the Rise of Agent Ops
 
@@ -141,7 +141,7 @@ standardized layer.
 ## Related Pages
 
 - [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }})
-- [AI Agents]({{ '/wiki/ai-agents/' | relative_url }})
+- [AI Agents]({{ '/wiki/agent-engineering/' | relative_url }})
 - [Multi-Agent Systems]({{ '/wiki/multi-agent-systems/' | relative_url }})
 - [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
 - [MLOps]({{ '/wiki/mlops/' | relative_url }})

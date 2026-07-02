@@ -16,7 +16,7 @@ methods for trying many candidate solutions when the target can be scored but
 not directly derived. [Micheal Lanham]({{ '/people/micheallanham/' | relative_url }})
 gives the strongest thread. His examples cover game AI, numerical optimization,
 and evolutionary deep learning. He also discusses prompt search and modern
-[AI agents]({{ '/wiki/ai-agents/' | relative_url }})
+[AI agents]({{ '/wiki/agent-engineering/' | relative_url }})
 ([From Game AI to LLM Agents]({{ '/podcasts/from-game-ai-to-modern-ai-agents/' | relative_url }}),
 1:07-14:09).
 

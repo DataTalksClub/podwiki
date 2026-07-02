@@ -12,6 +12,8 @@ related:
   - Analytics Engineering
   - Software Engineer to Machine Learning
   - Academic Researcher to Data Science
+  - Staff AI Engineer
+  - Academia
 ---
 
 Career transitions in data are moves from one working identity into another
@@ -251,6 +253,18 @@ part of the same research bridge. Her later gaps were deployment, APIs, Docker
 and Python production practice
 ([Postdoc to Data Science Lead]({{ '/podcasts/postdoc-to-data-science-lead-career-transition/' | relative_url }}),
 1:28-6:10).
+Senior academic transitions add a leadership boundary.
+[Tatiana Gabruseva]({{ '/people/tatianagabruseva/' | relative_url }})'s route
+in
+[From Academia to Staff AI Engineer]({{ '/podcasts/from-academia-to-staff-ai-engineer-interviews-and-career-growth/' | relative_url }})
+shows that physics and healthcare research became a base for ML leadership, but
+the industry move still required onboarding into Scala, Spark, and Kubernetes.
+It also required large-scale recommender systems, quarterly planning, faster
+decisions, and referrals. The hiring side required coding prep, ML design
+practice, system design, mock interviews, and mentorship. That's why
+[Staff AI Engineer]({{ '/wiki/staff-ai-engineer/' | relative_url }}) and
+[Academia]({{ '/wiki/academia/' | relative_url }}) are adjacent pages rather
+than synonyms.
 
 Don't treat publications as useless. Industry teams need to see the skills and
 artifacts behind the research. For the deeper route, read
@@ -299,6 +313,22 @@ public demos add more signals
 and [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }}).
 
 Interview story is part of the proof, not a separate soft layer.
+[Oleg Novikov]({{ '/people/olegnovikov/' | relative_url }}) frames the CV as a
+landing page and asks candidates to show personal contribution. He treats
+take-home projects and behavioral stories as part of the same funnel. Case
+studies, SQL, coding and role targeting matter too
+([Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }}),
+13:24-39:10).
+[Nick Singh]({{ '/people/nicksingh/' | relative_url }}) adds that project
+walkthroughs should show ownership, impact, business context, and defensible
+technical claims. He puts those signals before case interviews and
+product-sense questions
+([Ace Data Interviews]({{ '/podcasts/data-interview-behavioral-and-portfolio-prep-guide/' | relative_url }}),
+25:13-45:30). These episodes show why candidates have to treat a transition as
+both a skills problem and a communication problem.
+Good transition evidence usually has four parts: a role-shaped problem, a
+reproducible artifact, a plain explanation of tradeoffs, and a link from old
+experience to new work.
 [Oleg Novikov]({{ '/people/olegnovikov/' | relative_url }}) frames the CV as a
 landing page and asks candidates to show personal contribution. He treats
 take-home projects and behavioral stories as part of the same funnel. Case
@@ -441,10 +471,10 @@ part of career transitions rather than a separate business topic.
 
 Career transitions in data connect role choice, hiring proof, and portfolio
 evidence. The broad transition and hiring hubs are
-[Career Transition]({{ '/wiki/career-transition/' | relative_url }}),
 [Job Search]({{ '/wiki/job-search/' | relative_url }}),
 [Career Growth]({{ '/wiki/career-growth/' | relative_url }}), and
 [Hiring]({{ '/wiki/hiring/' | relative_url }}).
+  - [Career Transition]({{ '/wiki/career-transition/' | relative_url }})
 
 Candidates then need target-role proof:
 

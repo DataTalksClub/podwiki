@@ -44,7 +44,7 @@ to separate perception from behavior in robotics and self-driving systems.
 
 [Ranjitha Kulkarni]({{ '/people/ranjithakulkarni/' | relative_url }}) gives the
 cleanest bridge between older reinforcement-learning agents and current
-[AI agents]({{ '/wiki/ai-agents/' | relative_url }}). In
+[AI agents]({{ '/wiki/agent-engineering/' | relative_url }}). In
 [Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}),
 the conversation compares current agent language with reinforcement-learning
 courses from the early 2010s. At 12:01, Ranjitha says the older agent was
@@ -192,7 +192,7 @@ For the broader machine-learning context, use
 [Machine Learning]({{ '/wiki/machine-learning/' | relative_url }}). For
 production agents that use LLMs and tools, use
 [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }}) and
-[AI Agents]({{ '/wiki/ai-agents/' | relative_url }}). Those pages also cover
+[AI Agents]({{ '/wiki/agent-engineering/' | relative_url }}). Those pages also cover
 retrieval and memory. For game-derived agent design and collaboration
 structures, use
 [Multi-Agent Systems]({{ '/wiki/multi-agent-systems/' | relative_url }}) and

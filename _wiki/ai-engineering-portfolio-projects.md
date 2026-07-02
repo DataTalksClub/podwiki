@@ -217,7 +217,7 @@ and context management come next
 ([Inside the AI Engineer Role, 20:36-21:37]({{ '/podcasts/s23e05-inside-ai-engineer-role-tools-skills-and-career-path/' | relative_url }})).
 For architecture vocabulary, connect the project to
 [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }}) and
-[AI Agents]({{ '/wiki/ai-agents/' | relative_url }}).
+[AI Agents]({{ '/wiki/agent-engineering/' | relative_url }}).
 
 ## Evaluation, Deployment, and Feedback
 

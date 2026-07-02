@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: "Agent Engineering"
-summary: "How DataTalks.Club guests define AI agents and engineer them through workflow design, tools, retrieval, evaluation, guardrails, and production constraints."
+summary: "How DataTalks.Club guests define AI agents and engineer them through workflow design, tools, retrieval, evaluation, guardrails, security, and production constraints."
 related:
   - AI Engineer Role
   - AI Engineering Roadmap
@@ -9,6 +9,9 @@ related:
   - Retrieval-Augmented Generation
   - LLM Evaluation Workflows
   - Search, RAG, and Knowledge Systems
+  - Multi-Agent Systems
+  - AI Red Teaming
+  - Responsible AI and Governance
   - Tools
 ---
 
@@ -30,6 +33,17 @@ Agent engineering therefore sits next to
 [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }}),
 [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}),
 and [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }}).
+
+## Key Agent Episodes
+
+The agent discussions in the podcast cluster around six recurring threads:
+
+- [Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}) with [Ranjitha Kulkarni]({{ '/people/ranjithakulkarni/' | relative_url }}) for autonomy, orchestration, tools, memory, and SRE workflows. The same episode covers agentic RAG, MCP-style tool protocols, and goal-based evaluation.
+- [The Future of AI Agents]({{ '/podcasts/s23e03-future-of-ai-agents/' | relative_url }}) with [Aditya Gautam]({{ '/people/adityagautam/' | relative_url }}) for enterprise adoption, specialized models, guardrails, and data lineage. He also covers multi-tenant evaluation, human-label alignment, and deployment risk.
+- [From Game AI to LLM Agents]({{ '/podcasts/from-game-ai-to-modern-ai-agents/' | relative_url }}) with [Micheal Lanham]({{ '/people/micheallanham/' | relative_url }}) for the lineage from game AI and multi-agent systems to LLM agents. He also covers task decomposition, orchestration designs, SDKs, MCP integration, coding agents, and monitoring.
+- [Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}) with [Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }}) for generator-evaluator loops, embedded workflow assistants, and RAG-to-agent progression. His examples include email assistants, agent memory, and small-start evaluation.
+- [AI Engineering: Skill Stack, Agents, LLMOps, and How to Ship AI Products]({{ '/podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products/' | relative_url }}) with [Paul Iusztin]({{ '/people/pauliusztin/' | relative_url }}) for agents inside the wider AI engineering skill stack.
+- [Hardening Generative AI Chatbots]({{ '/podcasts/generative-ai-chatbots-in-production-security/' | relative_url }}) with [Maria Sukhareva]({{ '/people/mariasukhareva/' | relative_url }}) for security risks that become sharper when an LLM can retrieve data or take actions.
 
 ## Agents as Workflow Actors
 
@@ -214,6 +228,22 @@ in legal and healthcare settings. The 30:26 section links guardrails and data
 lineage to Agent MLOps. At 36:55, he discusses user feedback loops. At 56:40,
 he names infrastructure and deployment risks.
 
+Those controls overlap with security work from
+[Hardening Generative AI Chatbots]({{ '/podcasts/generative-ai-chatbots-in-production-security/' | relative_url }}).
+At 13:20 in that episode,
+[Maria Sukhareva]({{ '/people/mariasukhareva/' | relative_url }}) discusses
+prompt overload and knowledge-base retrieval attacks. For agents, the same
+retrieval risk can become an action risk. That matters when the system can call
+tools, write data, send messages, or trigger workflows. Across these
+discussions, teams keep agents governed by narrowing tool permissions and
+tracing the data used for each answer or action. They also keep human review
+around high-impact decisions and test failures repeatedly. Practical agent work
+therefore draws on
+[AI Red Teaming]({{ '/wiki/ai-red-teaming/' | relative_url }}),
+[Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }}),
+[Data Governance]({{ '/wiki/data-governance/' | relative_url }}), and
+[Production]({{ '/wiki/production/' | relative_url }}).
+
 These discussions place agent engineering beside
 [Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }})
 and [Production]({{ '/wiki/production/' | relative_url }}).
@@ -242,6 +272,7 @@ constraints around agent systems.
 - [AI Engineering Roadmap]({{ '/wiki/ai-engineering-roadmap/' | relative_url }})
 - [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
 - [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
+- [RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }})
 - [RAG]({{ '/wiki/rag/' | relative_url }})
 - [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }})
 - [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})

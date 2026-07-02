@@ -280,7 +280,7 @@ Mariano's caution around 31:42-37:39 matters here too: if structured code or a
 rule solves the problem, don't hide that logic inside a model call. That advice
 is useful when you work with
 [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }}),
-[AI Agents]({{ '/wiki/ai-agents/' | relative_url }}), and
+[AI Agents]({{ '/wiki/agent-engineering/' | relative_url }}), and
 [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }}).
 Don't make them default answers to every product problem.
 

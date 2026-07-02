@@ -127,7 +127,7 @@ boundary between RAG and agents in
 At 37:39, she separates cases where retrieval is enough from cases that need
 planning, actions, or tool use. A project should stay with RAG when the main
 task is source lookup and grounded answering. Move toward
-[AI Agents]({{ '/wiki/ai-agents/' | relative_url }}) or
+[AI Agents]({{ '/wiki/agent-engineering/' | relative_url }}) or
 [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }}) only when
 the task requires API calls, multi-step coordination, or external actions.
 

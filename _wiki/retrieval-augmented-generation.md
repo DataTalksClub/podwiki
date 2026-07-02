@@ -173,7 +173,7 @@ Ranjitha expands the evaluation problem for agentic RAG. In
 she argues at 51:17 that teams need custom datasets and system benchmarks, not
 only public model benchmarks. At 53:20, she discusses tests that mock tools and
 check integration behavior. That applies when retrieval is one tool inside a
-larger [AI agent]({{ '/wiki/ai-agents/' | relative_url }}) workflow.
+larger [AI agent]({{ '/wiki/agent-engineering/' | relative_url }}) workflow.
 
 ## Production Constraints
 

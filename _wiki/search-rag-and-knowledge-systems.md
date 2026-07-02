@@ -255,7 +255,7 @@ agent. In
 she argues at 51:17-54:19 that teams need their own representative datasets,
 integration tests, and mocked tools. They also need outcome checks. That
 connects retrieval systems to
-[AI agents]({{ '/wiki/ai-agents/' | relative_url }}) when the system does more
+[AI agents]({{ '/wiki/agent-engineering/' | relative_url }}) when the system does more
 than answer from a document set.
 
 ## Production Boundaries

@@ -163,7 +163,7 @@ execution. He also names operational pieces such as traces and data pipelines
 42:28-51:11).
 
 Staff AI engineering therefore overlaps with
-[AI agents]({{ '/wiki/ai-agents/' | relative_url }}),
+[AI agents]({{ '/wiki/agent-engineering/' | relative_url }}),
 [LLM evaluation workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }}),
 and [production search evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }}).
 
@@ -301,7 +301,7 @@ These related pages cover the adjacent role, production, and platform topics:
   for model choice and retrieval. It also covers agents and evaluation, plus
   cost and latency.
 - [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }}) and
-  [AI Agents]({{ '/wiki/ai-agents/' | relative_url }}) for tool-using AI
+  [AI Agents]({{ '/wiki/agent-engineering/' | relative_url }}) for tool-using AI
   systems.
 - [MLOps]({{ '/wiki/mlops/' | relative_url }}) and
   [ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }}) for deployment,

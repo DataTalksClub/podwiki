@@ -217,7 +217,7 @@ when a simpler workflow works
 ([From Game AI to Modern AI Agents]({{ '/podcasts/from-game-ai-to-modern-ai-agents/' | relative_url }}),
 20:57-33:25). For this stage, use
 [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }}),
-[AI Agents]({{ '/wiki/ai-agents/' | relative_url }}), and
+[AI Agents]({{ '/wiki/agent-engineering/' | relative_url }}), and
 [Multi-Agent Systems]({{ '/wiki/multi-agent-systems/' | relative_url }}).
 
 An agent project should show tool contracts, typed inputs, and permissions. It
@@ -389,7 +389,7 @@ Continue with these roadmap and reference pages:
 - [RAG Portfolio Projects]({{ '/wiki/rag-portfolio-projects/' | relative_url }})
 - [RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }})
 - [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }})
-- [AI Agents]({{ '/wiki/ai-agents/' | relative_url }})
+- [AI Agents]({{ '/wiki/agent-engineering/' | relative_url }})
 - [Multi-Agent Systems]({{ '/wiki/multi-agent-systems/' | relative_url }})
 - [AI Infrastructure]({{ '/wiki/ai-infrastructure/' | relative_url }})
 - [AI Red Teaming]({{ '/wiki/ai-red-teaming/' | relative_url }})

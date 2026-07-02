@@ -114,7 +114,7 @@ that can run Python or Java. By the time teams want monitoring, they usually
 already chose an inference architecture. Danny can still help during later
 architectural reviews. He has broad exposure to many tools, even when the
 customer has deeper experience with a single stack. Use this part of the
-episode with [MLOps Frameworks]({{ '/wiki/mlops-frameworks/' | relative_url }}) and
+episode with [MLOps Architecture]({{ '/wiki/mlops-architecture/' | relative_url }}) and
 [Machine Learning Infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }}).
 
 ## Fairness, Bias, and Segmentation

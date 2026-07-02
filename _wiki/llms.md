@@ -125,7 +125,7 @@ that boundary in
 [Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}).
 At 11:00, she connects agents to autonomy, objectives, and LLMs. At 12:31, she
 adds tools, memory, and knowledge stores. That's why the
-[AI agents]({{ '/wiki/ai-agents/' | relative_url }}) page separates agent
+[AI agents]({{ '/wiki/agent-engineering/' | relative_url }}) page separates agent
 workflow design from ordinary prompting.
 
 ## RAG and Fine-Tuning
@@ -257,7 +257,7 @@ These pages cover the surrounding techniques, roles, and production concerns.
 - [RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }})
 - [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }})
 - [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }})
-- [AI Agents]({{ '/wiki/ai-agents/' | relative_url }})
+- [AI Agents]({{ '/wiki/agent-engineering/' | relative_url }})
 - [Prompt Engineering]({{ '/wiki/prompt-engineering/' | relative_url }})
 - [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
 - [Vector Databases]({{ '/wiki/vector-databases/' | relative_url }})

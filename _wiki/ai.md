@@ -28,7 +28,7 @@ In older conversations that often means
 [LLMs]({{ '/wiki/llms/' | relative_url }}),
 [generative AI]({{ '/wiki/generative-ai/' | relative_url }}),
 [retrieval-augmented generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}),
-and [AI agents]({{ '/wiki/ai-agents/' | relative_url }}).
+and [AI agents]({{ '/wiki/agent-engineering/' | relative_url }}).
 
 The useful boundary in the podcast isn't "does it call a model?" It's whether
 the system changes a workflow and can be evaluated, operated, secured, and
@@ -150,7 +150,7 @@ agent rather than the whole system.
 
 ## Agents and Action-Oriented AI
 
-[AI agents]({{ '/wiki/ai-agents/' | relative_url }}) extend AI systems from
+[AI agents]({{ '/wiki/agent-engineering/' | relative_url }}) extend AI systems from
 answer generation into planning and tool use. They also add memory and action.
 
 In
@@ -258,7 +258,7 @@ Use these pages for narrower AI topics and implementation details.
 - [AI Engineering]({{ '/wiki/ai-engineering/' | relative_url }}) and [AI Engineer Role]({{ '/wiki/ai-engineer-role/' | relative_url }}) cover the builder role and skill stack.
 - [Generative AI]({{ '/wiki/generative-ai/' | relative_url }}), [LLMs]({{ '/wiki/llms/' | relative_url }}), and [Prompt Engineering]({{ '/wiki/prompt-engineering/' | relative_url }}) cover model behavior and generated outputs.
 - [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}), [RAG]({{ '/wiki/rag/' | relative_url }}), and [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }}) cover context and retrieval.
-- [AI Agents]({{ '/wiki/ai-agents/' | relative_url }}), [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }}), and [Multi-Agent Systems]({{ '/wiki/multi-agent-systems/' | relative_url }}) cover action-oriented AI systems.
+- [AI Agents]({{ '/wiki/agent-engineering/' | relative_url }}), [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }}), and [Multi-Agent Systems]({{ '/wiki/multi-agent-systems/' | relative_url }}) cover action-oriented AI systems.
 - [Data Products]({{ '/wiki/data-products/' | relative_url }}), [MLOps]({{ '/wiki/mlops/' | relative_url }}), and [Production]({{ '/wiki/production/' | relative_url }}) cover delivery and operations.
 - [Evaluation]({{ '/wiki/evaluation/' | relative_url }}), [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }}), and [Production Search Evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }}) cover measurement.
 - [AI Infrastructure]({{ '/wiki/ai-infrastructure/' | relative_url }}) and [Machine Learning Infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }}) cover compute, orchestration, and deployment choices.

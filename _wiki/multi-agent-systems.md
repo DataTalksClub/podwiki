@@ -11,7 +11,7 @@ related:
   - Evolutionary Algorithms
 ---
 
-Multi-agent systems split an [AI agent]({{ '/wiki/ai-agents/' | relative_url }})
+Multi-agent systems split an [AI agent]({{ '/wiki/agent-engineering/' | relative_url }})
 task across more than one specialized agent. DataTalks.Club guests treat that
 split as an engineering choice, not as the default structure of agentic
 software.

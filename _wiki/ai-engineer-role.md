@@ -139,7 +139,7 @@ works when teams need to reduce a large search space. Agents fit problems with
 multiple data sources, dynamic planning, and multiple API integrations
 ([RAG versus agents at 29:30-37:39]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }})).
 Those choices place the role beside
-[AI Agents]({{ '/wiki/ai-agents/' | relative_url }}) and
+[AI Agents]({{ '/wiki/agent-engineering/' | relative_url }}) and
 [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }}).
 
 ## Evaluation and Production Reliability
@@ -270,7 +270,7 @@ The nearby role, systems, and production topics are:
 - [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
 - [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }})
 - [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }})
-- [AI Agents]({{ '/wiki/ai-agents/' | relative_url }})
+- [AI Agents]({{ '/wiki/agent-engineering/' | relative_url }})
 - [AI Tooling]({{ '/wiki/ai-tooling/' | relative_url }})
 - [AI Infrastructure]({{ '/wiki/ai-infrastructure/' | relative_url }})
 - [MLOps]({{ '/wiki/mlops/' | relative_url }})

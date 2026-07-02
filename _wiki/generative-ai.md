@@ -18,7 +18,7 @@ mostly discuss the term through [LLMs]({{ '/wiki/llms/' | relative_url }}) and
 chatbots. It also appears through
 [retrieval-augmented generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}),
 coding assistants, workflow automation, and
-[AI agents]({{ '/wiki/ai-agents/' | relative_url }}).
+[AI agents]({{ '/wiki/agent-engineering/' | relative_url }}).
 
 [Meryem Arik]({{ '/people/meryemarik/' | relative_url }}) gives the clearest
 model-level distinction in

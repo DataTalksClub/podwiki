@@ -184,7 +184,7 @@ understanding.
 
 For agent-heavy projects, connect the writeup to
 [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }}) and
-[AI Agents]({{ '/wiki/ai-agents/' | relative_url }}). Show the task harness and
+[AI Agents]({{ '/wiki/agent-engineering/' | relative_url }}). Show the task harness and
 tool permissions. Include the submission budget, regression tests, and failure
 cases. A competition can then prove evaluation design for an agentic system, not only
 prompting skill.

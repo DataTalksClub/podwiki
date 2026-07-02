@@ -211,7 +211,7 @@ Feedback, failure class, and next fix turn
 into visible project evidence rather than a claim in the README.
 
 Ranjitha extends the same idea when retrieval becomes one tool inside a larger
-[AI agent]({{ '/wiki/ai-agents/' | relative_url }}) workflow. Her agent
+[AI agent]({{ '/wiki/agent-engineering/' | relative_url }}) workflow. Her agent
 evaluation discussion at 51:17-57:23 in
 [Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }})
 supports custom datasets, mocked tools, integration tests, and outcome

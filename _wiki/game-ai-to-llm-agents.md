@@ -12,7 +12,7 @@ related:
 ---
 
 Game AI to LLM agents links older game and simulation ideas to modern
-[AI agents]({{ '/wiki/ai-agents/' | relative_url }}). It also brings search
+[AI agents]({{ '/wiki/agent-engineering/' | relative_url }}). It also brings search
 and optimization ideas into agent workflows. The grounding episode is
 [From Game AI to LLM Agents]({{ '/podcasts/from-game-ai-to-modern-ai-agents/' | relative_url }}).
 In it,
@@ -184,7 +184,7 @@ monitoring tools such as Arize Phoenix
 
 That's the durable lesson of the game-AI-to-agent bridge. Games and RL supply
 useful mental models for action and feedback, while evolutionary algorithms add
-a search lens. Modern [LLM agents]({{ '/wiki/ai-agents/' | relative_url }}) add
+a search lens. Modern [LLM agents]({{ '/wiki/agent-engineering/' | relative_url }}) add
 language, tools, orchestration, and support workflows. The engineering problem
 is to keep the system small enough to evaluate while still giving it enough
 coordination, tooling, and feedback to act usefully.

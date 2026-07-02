@@ -189,7 +189,7 @@ His 42:28-54:05 discussion puts AI assistants, RAG, and agents inside durable
 workflows. Queues, retries, and traces make those systems debuggable. Retrieval
 and monitoring add more control. The model
 can generate or reason, but [agent engineering]({{ '/wiki/agent-engineering/' | relative_url }}),
-[AI agents]({{ '/wiki/ai-agents/' | relative_url }}), and
+[AI agents]({{ '/wiki/agent-engineering/' | relative_url }}), and
 [LLM production patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
 still need explicit control points.
 

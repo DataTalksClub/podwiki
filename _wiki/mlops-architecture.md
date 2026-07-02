@@ -243,6 +243,16 @@ A drift alert may mean the data pipeline broke. It may also mean the business
 changed or the model needs retraining. The feedback loop should route evidence
 to someone who can choose the right response.
 
+
+
+[Lina Weichbrodt]({{ '/people/linaweichbrodt/' | relative_url }}) adds the
+human-centered side in
+[Human-Centered MLOps]({{ '/podcasts/human-centered-mlops-and-model-monitoring/' | relative_url }}).
+Around 29:23, the episode discusses live test sets and small A/B tests for
+monitoring. Around 32:11 and 36:41, it moves into root-cause debugging and
+feedback channels. A monitoring architecture is stronger when it supports
+incident response, not only dashboards.
+
 For the data side of the same problem, see
 [Data Observability]({{ '/wiki/data-observability/' | relative_url }}) and
 [DataOps]({{ '/wiki/dataops/' | relative_url }}).
@@ -278,6 +288,31 @@ For adjacent pages, use
 [Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }}),
 and [Privacy Engineering for ML]({{ '/wiki/privacy-engineering-for-ml/' | relative_url }}).
 
+## Feature Platforms
+
+Feature platforms manage the data used by models. A feature store can provide
+offline training data and online low-latency feature serving. It can also
+provide point-in-time correctness, feature reuse, feature definitions, and
+monitoring around feature freshness or distributions.
+
+[Willem Pienaar]({{ '/people/willempienaar/' | relative_url }}) defines the
+core problem around 6:30 in
+[Feature Stores for MLOps]({{ '/podcasts/mlops-feature-stores-feature-stores-feast-tecton/' | relative_url }}).
+He then separates transformations and retrieval between 11:00 and 14:30. He
+also covers on-demand computation. Around 16:30, he uses real-time fraud
+detection to show why online feature lookup matters.
+
+Around 36:30, he breaks the platform into a transform engine and storage.
+Serving, registry, and monitoring complete that architecture.
+
+Use a feature platform when teams repeatedly rebuild the same features or
+struggle with training-serving skew. It also helps when teams need
+low-latency online features or a shared way to publish feature semantics and
+ownership. Avoid it when simple batch scoring, warehouse tables, dbt models,
+and validation checks already solve the problem. Willem makes that boundary
+explicit around 40:00, where the episode distinguishes online tabular use cases
+from overkill scenarios.
+
 ## Simple Stack or Shared Platform
 
 Start with a reproducible path for one model. A small architecture can use Git
@@ -311,8 +346,38 @@ security, and future portability.
 
 Use [Platform Adoption]({{ '/wiki/platform-adoption/' | relative_url }}),
 [Developer Experience]({{ '/wiki/developer-experience/' | relative_url }}), and
-[MLOps Frameworks]({{ '/wiki/mlops-frameworks/' | relative_url }}) when the
+[MLOps Architecture]({{ '/wiki/mlops-architecture/' | relative_url }}) when the
 main risk is whether teams will use the architecture.
+
+## Choosing a Framework Sequence
+
+Start from the failure mode instead of the framework name.
+
+1. If experiments can't be recovered, add tracking, artifact storage, data
+   references, and dependency discipline.
+2. If models can't be handed off, add a registry convention and one deployment
+   path.
+3. If training or batch inference is hard to coordinate, add orchestration.
+4. If serving is fragile, standardize packaging, validation, logging, and
+   rollback.
+5. If production behavior is invisible, add monitoring and connect it to data
+   observability.
+6. If features are duplicated or inconsistent, evaluate a feature platform.
+7. If every project repeats the same setup, create templates and CI/CD
+   workflows.
+8. If the organization is regulated or high-risk, add governance metadata,
+   approvals, lineage, and audit trails early.
+
+[Geo Jolly]({{ '/people/geojolly/' | relative_url }}) adds the product lens in
+[ML Product Manager and MLOps Platform Strategy]({{ '/podcasts/ml-product-manager-and-mlops-platform-strategy/' | relative_url }}).
+Around 8:41, the episode discusses in-house MLOps platform strategy and vendor
+evaluation. Around 18:25, it connects observability and KPIs to platform impact.
+Use that as the standard for framework selection. Choose tools and conventions
+that make teams faster, safer, and more measurable.
+
+Build toward a platform only after repeated work or operational risk justifies
+it. Use the smallest framework the team can apply consistently while still
+shipping and maintaining reliable models.
 
 ## Architecture Checklist
 

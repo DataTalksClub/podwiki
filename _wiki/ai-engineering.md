@@ -169,7 +169,7 @@ Guests treat agents as software systems, not as magic prompts. An AI engineer
 has to define tool contracts and permissions. They also define retries, traces,
 latency limits, and outcome tests. Use
 [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }}),
-[AI Agents]({{ '/wiki/ai-agents/' | relative_url }}), and
+[AI Agents]({{ '/wiki/agent-engineering/' | relative_url }}), and
 [Multi-Agent Systems]({{ '/wiki/multi-agent-systems/' | relative_url }}) for
 deeper agent-specific work. Running agents in production adds monitoring,
 governance, and evaluation concerns covered under

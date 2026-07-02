@@ -242,6 +242,27 @@ analysis.
 ## Related Pages
 
 Continue with adjacent roles, career paths, and project patterns:
+## Questions to Ask Before Taking a Data Scientist Job
+
+Ask what decisions the team expects the data scientist to improve, and ask how
+success will be measured. That keeps the role tied to business or product
+outcomes, which is the same framing used in
+[CRISP-DM Methodology]({{ '/podcasts/crisp-dm/' | relative_url }}) and
+[Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }}).
+
+Ask whether the team needs product analytics or experimentation. Then ask
+whether it needs applied ML, research, data engineering support, or a mix.
+[Tereza Iofciu]({{ '/people/terezaiofciu/' | relative_url }})'s
+[Data Science Jobs]({{ '/podcasts/data-science-job-red-flags-and-mismatched-roles/' | relative_url }})
+episode is the clearest reminder that title clarity isn't enough. Team
+maturity, data access, and role ownership matter.
+
+Ask who owns data pipelines and model deployment, then ask who owns monitoring,
+dashboards, and production incidents. [Roksolana Diachuk]({{ '/people/roksolanadiachuk/' | relative_url }})'s
+[Big Data Engineer vs Data Scientist]({{ '/podcasts/big-data-engineer-vs-data-scientist/' | relative_url }})
+episode shows why these boundaries affect the daily work.
+[Data Engineer vs Data Scientist]({{ '/wiki/data-engineer-vs-data-scientist/' | relative_url }})
+is the deeper role-boundary reference.
 
 - [Data Science]({{ '/wiki/data-science/' | relative_url }})
 - [Data Science Careers]({{ '/wiki/data-science-careers/' | relative_url }})
@@ -256,4 +277,4 @@ Continue with adjacent roles, career paths, and project patterns:
 - [Technical Writing]({{ '/wiki/technical-writing/' | relative_url }})
 - [Data Engineer vs Data Scientist comparison]({{ '/wiki/data-engineer-vs-data-scientist/' | relative_url }})
 - [Data Scientist Interview Prep]({{ '/wiki/data-scientist-interview/' | relative_url }})
-- [Data Scientist Guide]({{ '/wiki/data-scientist/' | relative_url }})
+- [Data Science]({{ '/wiki/data-science/' | relative_url }})

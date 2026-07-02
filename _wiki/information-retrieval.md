@@ -211,7 +211,7 @@ retrieval or agent system. Teams need their own representative datasets,
 integration tests, mocked tools, and assertions over outcomes. That applies
 when retrieval is one step inside
 [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }}) or
-[AI Agents]({{ '/wiki/ai-agents/' | relative_url }}), not a standalone search
+[AI Agents]({{ '/wiki/agent-engineering/' | relative_url }}), not a standalone search
 endpoint.
 
 ## System Boundaries
