@@ -21,11 +21,11 @@ index: graph ## Build the zerosearch artifact used by Lambda (STEMMER=porter to 
 lambda-package: index ## Prepare the minimal SAM CodeUri directory
 	python scripts/prepare_lambda_package.py
 
-build: graph ## Build the static site
+build: ## Build the static site (uses committed graph/search data; run 'make graph' after source/content changes)
 	uvx rustkyll build
 	python scripts/prune_sitemap.py
 
-serve: graph ## Serve the static site locally
+serve: ## Serve the static site locally (uses committed graph/search data; run 'make graph' after source/content changes)
 	uvx rustkyll serve --no-watch
 
 wiki-links: ## Fast source-level wiki link check (no build)
