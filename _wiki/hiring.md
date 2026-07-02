@@ -15,7 +15,9 @@ Data and AI teams hire by defining work and finding people who can do it.
 They also evaluate evidence and help a new hire succeed. In DataTalks.Club
 podcast discussions, hiring isn't only a recruiter funnel. It includes role
 design, team design, and interview design. It also includes offer negotiation,
-onboarding, and retention.
+onboarding, and retention. For a recruiter's walkthrough of that end-to-end
+funnel, see DataTalks.Club's
+[The Hiring Process for Data Professionals](https://datatalks.club/blog/hiring-process-for-data-professionals.html).
 
 The topic sits next to [Job Search]({{ '/wiki/job-search/' | relative_url }})
 and [CV Screening]({{ '/wiki/cv-screening/' | relative_url }}), but it's

@@ -20,6 +20,8 @@ pipeline changes safer to review and test. It also makes them easier to
 deploy, observe, and recover across teams. It sits beside [DataOps]({{ '/wiki/dataops/' | relative_url }}),
 [DataOps Platforms]({{ '/wiki/dataops-platforms/' | relative_url }}), and
 [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}).
+For the underlying practice this role delivers, see the DataTalks.Club article
+[What is DataOps exactly?](https://datatalks.club/blog/what-dataops-exactly.html).
 
 The role isn't just another name for a
 [data engineer]({{ '/wiki/data-engineer-role/' | relative_url }}). Data
