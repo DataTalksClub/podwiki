@@ -23,14 +23,6 @@
     roadmap: "Roadmap",
     how_to: "How-To",
   };
-  const groupLabels = {
-    wiki: "Wiki",
-    article: "Guides and Editorial Pages",
-    podcast: "Podcast Summaries",
-    person: "People",
-    book: "Books",
-    topic: "Topic Tags",
-  };
   const LEGEND = [
     ["wiki", "Wiki"],
     ["topic", "Topic"],
@@ -165,16 +157,6 @@
     return out;
   }
 
-  function groupNodes(nodes) {
-    const groups = new Map();
-    for (const item of nodes) {
-      const group = groups.get(item.type) || [];
-      if (group.length < 6) group.push(item);
-      groups.set(item.type, group);
-    }
-    return Array.from(groups.entries()).sort((a, b) => typeRank(a[0]) - typeRank(b[0]));
-  }
-
   // ---- the interactive ego-graph ------------------------------
   function buildEgo(root, center, linked, degreeById, opts) {
     const allShown = diverseNeighbors(linked, CANVAS_MAX);
@@ -208,35 +190,6 @@
             : ""
         }
       </p>
-      <details class="graph-embed-fallback">
-        <summary>All ${linked.length} connection${linked.length === 1 ? "" : "s"}</summary>
-        ${groupNodes(linked)
-          .map(
-            ([type, items]) => `
-          <section class="graph-connection-group">
-            <h3>${escapeHtml(groupLabels[type] || labels[type] || type)}</h3>
-            <div class="graph-connection-list">
-              ${items
-                .map(
-                  (item) => `
-                <span class="graph-connection">
-                  <button type="button" class="graph-connection-main" data-graph-explore="${escapeHtml(
-                    item.id
-                  )}">${escapeHtml(
-                    item.label || item.title
-                  )}</button>${
-                    hasPageUrl(item)
-                      ? `<a class="graph-connection-page" href="${escapeHtml(nodeUrl(item))}">Open page</a>`
-                      : ""
-                  }
-                </span>`
-                )
-                .join("")}
-            </div>
-          </section>`
-          )
-          .join("")}
-      </details>
     `;
 
     if (random && opts.onReroll) {
@@ -248,17 +201,6 @@
         });
       }
     }
-    if (opts && opts.onExplore) {
-      const linkedById = new Map(linked.map((item) => [item.id, item]));
-      root.querySelectorAll("[data-graph-explore]").forEach((button) => {
-        button.addEventListener("click", (event) => {
-          event.preventDefault();
-          const next = linkedById.get(button.getAttribute("data-graph-explore"));
-          if (next) opts.onExplore(next);
-        });
-      });
-    }
-
     const canvas = root.querySelector(".graph-embed-canvas");
     const ctx = canvas.getContext("2d");
 

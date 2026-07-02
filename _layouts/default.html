@@ -130,8 +130,7 @@
     <header class="site-header">
       <div class="site-container">
         <div class="site-title">
-          <a class="brand" href="{{ '/' | relative_url }}">DataTalks.Club</a>
-          <a class="site-eyebrow" href="{{ '/' | relative_url }}">Podcast Wiki</a>
+          <a class="brand" href="https://datatalks.club/">DataTalks.Club</a>
           <button class="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch to dark mode" aria-pressed="false">
             <svg class="theme-toggle-icon theme-toggle-icon-light" viewBox="0 0 24 24" aria-hidden="true">
               <circle cx="12" cy="12" r="4"></circle>
@@ -149,11 +148,32 @@
             </svg>
           </button>
         </div>
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a href="https://datatalks.club/articles.html">Articles</a>
+          <a href="https://datatalks.club/slack.html">Slack</a>
+          <a href="https://datatalks.club/events.html">Events</a>
+          <a href="https://datatalks.club/podcast.html">Podcast</a>
+          <a class="is-active" href="{{ '/' | relative_url }}" aria-current="location">Wiki</a>
+          <a href="https://datatalks.club/books.html">Books</a>
+          <a href="https://datatalks.club/blog/guide-to-free-online-courses-at-datatalks-club.html">Courses</a>
+        </nav>
+        <a class="site-eyebrow" href="{{ '/' | relative_url }}">Podcast Wiki</a>
       </div>
     </header>
     <main class="page">
       {{ content }}
     </main>
+    <footer class="site-footer">
+      <div class="site-container site-footer-container">
+        <hr>
+        <p>
+          DataTalks.Club.
+          Hosted on <a href="https://github.com/DataTalksClub/podwiki" target="_blank" rel="noopener">GitHub Pages</a>.
+          Built with <a href="https://github.com/alexeygrigorev/rustkyll" target="_blank" rel="noopener">Rustkyll</a>.
+          We use cookies.
+        </p>
+      </div>
+    </footer>
     <script src="{{ '/assets/theme.js' | relative_url }}"></script>
   </body>
 </html>
