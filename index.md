@@ -3,10 +3,29 @@ layout: default
 title: Podcast Wiki
 ---
 
-# DataTalks.Club Podcast Wiki
+{% assign pages = site.wiki | sort_natural: "title" %}
 
-<p class="lede">Explore the DataTalks.Club podcast archive by topic, guest, and
-format — every page grounded in real episodes.</p>
+{%- comment -%} Count total + tagged topics for the format tiles {%- endcomment -%}
+{% assign c_total = 0 %}
+{% assign c_guide = 0 %}{% assign c_comparison = 0 %}{% assign c_roadmap = 0 %}{% assign c_howto = 0 %}
+{%- for item in pages -%}
+  {%- unless item.redirect_to -%}
+    {% assign c_total = c_total | plus: 1 %}
+    {%- if item.tags -%}
+      {%- for t in item.tags -%}
+        {%- if t == "guide" -%}{% assign c_guide = c_guide | plus: 1 %}{%- endif -%}
+        {%- if t == "comparison" -%}{% assign c_comparison = c_comparison | plus: 1 %}{%- endif -%}
+        {%- if t == "roadmap" -%}{% assign c_roadmap = c_roadmap | plus: 1 %}{%- endif -%}
+        {%- if t == "how-to" -%}{% assign c_howto = c_howto | plus: 1 %}{%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
+  {%- endunless -%}
+{%- endfor -%}
+
+<div class="wiki-hero">
+  <h1>DataTalks.Club Podcast Wiki</h1>
+  <p class="wiki-lede">Evidence-backed guides synthesized from the DataTalks.Club podcast archive — {{ c_total }} topic hubs on data, ML, and AI, grounded in what practitioners actually said.</p>
+</div>
 
 <form class="home-search" action="{{ '/search.html' | relative_url }}" method="get">
   <input name="q" type="search" placeholder="Search RAG, career transitions, feature stores..." />
@@ -14,68 +33,82 @@ format — every page grounded in real episodes.</p>
 </form>
 
 <div class="quick-actions">
-  <a class="button" href="{{ '/wiki/' | relative_url }}">Read the wiki</a>
+  <a class="button" href="{{ '/wiki/' | relative_url }}">Browse the catalog</a>
   <a class="button secondary" href="{{ '/graph.html' | relative_url }}">Open the graph</a>
-  <a class="button secondary" href="{{ '/search.html' | relative_url }}">Search</a>
+  <a class="button secondary" href="{{ '/special-pages/' | relative_url }}">Special pages</a>
 </div>
 
-## Explore by format
+{% if c_total > 0 %}
 
-{% assign guides = site.wiki | where_exp: "item", "item.tags contains 'guide'" %}
-{% assign comparisons = site.wiki | where_exp: "item", "item.tags contains 'comparison'" %}
-{% assign roadmaps = site.wiki | where_exp: "item", "item.tags contains 'roadmap'" %}
-{% assign howtos = site.wiki | where_exp: "item", "item.tags contains 'how-to'" %}
-
-<div class="format-list">
-  <a class="format-item" href="{{ '/wiki/' | relative_url }}">
-    <span class="format-text">
-      <strong>Wiki topics</strong>
-      <span>Evidence-backed topic pages synthesized from the archive</span>
-    </span>
-    <span class="format-arrow" aria-hidden="true">&rarr;</span>
+{%- comment -%} ---------- Explore by format ---------- {%- endcomment -%}
+<h2 class="wiki-section-head">Explore by format</h2>
+<div class="wiki-formats">
+  {% if c_guide > 0 %}
+  <a class="wiki-format" href="{{ '/guides-page/' | relative_url }}">
+    <span class="wiki-format-count">{{ c_guide }}</span>
+    <span class="wiki-format-name">Guides</span>
+    <span class="wiki-format-desc">Practical, keyword-driven walkthroughs of a topic.</span>
   </a>
-  <a class="format-item" href="{{ '/guides-page/' | relative_url }}">
-    <span class="format-text">
-      <strong>Guides</strong>
-      <span>Practical, podcast-grounded walkthroughs</span>
-    </span>
-    <span class="format-arrow" aria-hidden="true">&rarr;</span>
+  {% endif %}
+  {% if c_comparison > 0 %}
+  <a class="wiki-format" href="{{ '/comparisons-page/' | relative_url }}">
+    <span class="wiki-format-count">{{ c_comparison }}</span>
+    <span class="wiki-format-name">Comparisons</span>
+    <span class="wiki-format-desc">Head-to-head breakdowns to help you choose.</span>
   </a>
-  <a class="format-item" href="{{ '/comparisons-page/' | relative_url }}">
-    <span class="format-text">
-      <strong>Comparisons</strong>
-      <span>Side-by-side tools, roles, and architectures</span>
-    </span>
-    <span class="format-arrow" aria-hidden="true">&rarr;</span>
+  {% endif %}
+  {% if c_roadmap > 0 %}
+  <a class="wiki-format" href="{{ '/roadmaps-page/' | relative_url }}">
+    <span class="wiki-format-count">{{ c_roadmap }}</span>
+    <span class="wiki-format-name">Roadmaps</span>
+    <span class="wiki-format-desc">Step-by-step paths to learn or level up a skill.</span>
   </a>
-  <a class="format-item" href="{{ '/roadmaps-page/' | relative_url }}">
-    <span class="format-text">
-      <strong>Roadmaps</strong>
-      <span>Step-by-step learning paths</span>
-    </span>
-    <span class="format-arrow" aria-hidden="true">&rarr;</span>
+  {% endif %}
+  {% if c_howto > 0 %}
+  <a class="wiki-format" href="{{ '/how-tos-page/' | relative_url }}">
+    <span class="wiki-format-count">{{ c_howto }}</span>
+    <span class="wiki-format-name">How-tos</span>
+    <span class="wiki-format-desc">Task-focused checklists and project recipes.</span>
   </a>
-  <a class="format-item" href="{{ '/how-tos-page/' | relative_url }}">
-    <span class="format-text">
-      <strong>How-tos</strong>
-      <span>Task-focused, answer-first pages</span>
-    </span>
-    <span class="format-arrow" aria-hidden="true">&rarr;</span>
-  </a>
+  {% endif %}
 </div>
 
-## Start exploring
-
-{% assign wiki_pages = site.wiki | sort: "title" %}
-<div class="grid">
-{% for item in wiki_pages limit: 9 %}
-  {% unless item.redirect_to %}
-  <a class="card" href="{{ item.url | relative_url }}">
-    <strong>{{ item.title }}</strong>
-    {% if item.summary %}<span>{{ item.summary }}</span>{% endif %}
-  </a>
-  {% endunless %}
-{% endfor %}
+{%- comment -%} ---------- Start here: curated foundational hubs ---------- {%- endcomment -%}
+{% assign featured_slugs = "retrieval-augmented-generation,llms,mlops,machine-learning,data-engineering,feature-stores,experimentation,vector-databases" | split: "," %}
+{%- capture featured_cards -%}
+{%- for slug in featured_slugs -%}
+  {%- capture target -%}/wiki/{{ slug }}/{%- endcapture -%}
+  {%- for item in pages -%}
+    {%- unless item.redirect_to -%}
+      {%- assign item_path = item.url | remove_first: site.baseurl -%}
+      {%- if item_path == target -%}
+      <a class="wiki-card" href="{{ item.url | relative_url }}">
+        <span class="wiki-card-title">{{ item.title }}</span>
+        {% if item.summary %}<span class="wiki-card-summary">{{ item.summary }}</span>{% endif %}
+      </a>
+      {%- endif -%}
+    {%- endunless -%}
+  {%- endfor -%}
+{%- endfor -%}
+{%- endcapture -%}
+{% assign featured_cards = featured_cards | strip %}
+{% if featured_cards != "" %}
+<h2 class="wiki-section-head">Start here</h2>
+<p class="wiki-section-lede">Foundational topic hubs that anchor the rest of the wiki.</p>
+<div class="wiki-grid">
+{{ featured_cards }}
 </div>
+{% endif %}
 
-<p class="graph-open"><a class="button secondary" href="{{ '/wiki/' | relative_url }}">Browse all wiki topics →</a></p>
+{%- comment -%} ---------- Browse the full catalog ---------- {%- endcomment -%}
+<a class="wiki-catalog-cta" href="{{ '/wiki/' | relative_url }}">
+  <span class="wiki-catalog-cta-text">
+    <span class="wiki-catalog-cta-title">Browse the full catalog</span>
+    <span class="wiki-catalog-cta-sub">Search, filter by type, and jump A–Z across all {{ c_total }} topics.</span>
+  </span>
+  <span class="wiki-catalog-cta-arrow" aria-hidden="true">&rarr;</span>
+</a>
+
+{% else %}
+<p class="muted">Wiki pages are being drafted from the archive analysis.</p>
+{% endif %}

@@ -59,9 +59,6 @@ ai-tools-for-personal-productivity:
 ai:
   published: "2026-06-29"
   modified: "2026-07-02"
-airflow-docker-compose:
-  published: "2026-06-29"
-  modified: "2026-07-02"
 algorithmic-trading:
   published: "2026-07-01"
   modified: "2026-07-02"
@@ -208,9 +205,6 @@ data-engineering-certification:
   modified: "2026-07-02"
 data-engineering-consulting:
   published: "2026-07-01"
-  modified: "2026-07-02"
-data-engineering-courses:
-  published: "2026-06-29"
   modified: "2026-07-02"
 data-engineering-manager-role:
   published: "2026-07-01"

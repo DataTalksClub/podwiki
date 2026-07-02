@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Podcast Wiki
+title: Wiki Catalog
 permalink: /wiki/
 ---
 
@@ -25,8 +25,9 @@ permalink: /wiki/
 {%- endfor -%}
 
 <div class="wiki-hero">
-  <h1>Podcast Wiki</h1>
-  <p class="wiki-lede">Comprehensive, evidence-backed guides synthesized from the DataTalks.Club podcast archive. Search, filter by type, or jump to a letter.</p>
+  <p class="wiki-back"><a href="{{ '/' | relative_url }}">&larr; Home</a></p>
+  <h1>Wiki Catalog</h1>
+  <p class="wiki-lede">Browse all {{ c_total }} topics — search, filter by type, or jump to a letter.</p>
 </div>
 
 {% if c_total > 0 %}
