@@ -213,6 +213,55 @@ def cross_site_report(pages: list[Page], posts: list[Page], threshold: float,
     return findings
 
 
+def _content_tokens(text: str) -> list[str]:
+    stop = set("the a an and or of to in for on with vs is are how what your you "
+               "this that as be it its from by at data".split())
+    return [t for t in __import__("re").findall(r"[a-z0-9]+", text.lower())
+            if len(t) > 2 and t not in stop]
+
+
+def overlap_report(pages: list[Page], min_pct: float) -> list[dict]:
+    """Pairwise content-overlap %, so pages read as 'A and B are 32% duplicated'.
+
+    Uses 5-gram shingle containment (verbatim-passage reuse) and token Jaccard
+    (vocabulary overlap); reports the higher of the two as the duplication %.
+    """
+    shings, tokens = {}, {}
+    for p in pages:
+        toks = _content_tokens(p.text)
+        tokens[p.id] = set(toks)
+        shings[p.id] = {tuple(toks[i:i + 5]) for i in range(len(toks) - 4)} if len(toks) >= 5 else set()
+    findings = []
+    ids = [p.id for p in pages]
+    by_id = {p.id: p for p in pages}
+    for i in range(len(ids)):
+        for j in range(i + 1, len(ids)):
+            a, b = ids[i], ids[j]
+            sa, sb = shings[a], shings[b]
+            ta, tb = tokens[a], tokens[b]
+            shingle_cont = len(sa & sb) / min(len(sa), len(sb)) if sa and sb else 0.0
+            token_jac = len(ta & tb) / len(ta | tb) if ta and tb else 0.0
+            pct = round(100 * max(shingle_cont, token_jac), 1)
+            if pct >= min_pct:
+                findings.append({
+                    "pct": pct,
+                    "shingle_pct": round(100 * shingle_cont, 1),
+                    "token_pct": round(100 * token_jac, 1),
+                    "a": {"id": a, "path": str(by_id[a].path.relative_to(ROOT))},
+                    "b": {"id": b, "path": str(by_id[b].path.relative_to(ROOT))},
+                })
+    findings.sort(key=lambda f: f["pct"], reverse=True)
+    return findings
+
+
+def print_overlap(findings: list[dict], min_pct: float) -> None:
+    print(f"\n=== CONTENT OVERLAP >= {min_pct}% ({len(findings)} pairs) ===")
+    for f in findings:
+        print(f"\n{f['pct']}% duplicated (verbatim {f['shingle_pct']}% / vocab {f['token_pct']}%)")
+        print(f"  A  {f['a']['path']}")
+        print(f"  B  {f['b']['path']}")
+
+
 def print_internal(findings: list[dict]) -> None:
     print(f"\n=== INTERNAL near-duplicate pairs ({len(findings)}) ===")
     for f in findings:
@@ -231,19 +280,29 @@ def print_cross(findings: list[dict]) -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--internal", action="store_true", help="only internal wiki dedup")
+    parser.add_argument("--internal", action="store_true", help="only internal wiki BM25 dedup")
     parser.add_argument("--cross-site", action="store_true", help="only cross-site overlap")
+    parser.add_argument("--overlap", action="store_true",
+                        help="pairwise content-overlap %% report (e.g. 'A and B are 30%% duplicated')")
     parser.add_argument("--threshold", type=float, default=6.0)
     parser.add_argument("--cross-threshold", type=float, default=5.0)
+    parser.add_argument("--min-pct", type=float, default=25.0, help="min overlap %% to report")
     parser.add_argument("--top-k", type=int, default=6)
     parser.add_argument("--json", type=Path, default=None)
     args = parser.parse_args()
 
-    run_internal = args.internal or not args.cross_site
-    run_cross = args.cross_site or not args.internal
+    # --overlap is standalone; otherwise internal+cross run by default.
+    run_overlap = args.overlap
+    run_internal = args.internal or not (args.cross_site or args.overlap)
+    run_cross = args.cross_site or not (args.internal or args.overlap)
 
     pages = load_pages(ROOT, PODWIKI_COLLECTIONS)
     payload: dict[str, object] = {}
+
+    if run_overlap:
+        ov = overlap_report(pages, args.min_pct)
+        payload["overlap"] = ov
+        print_overlap(ov, args.min_pct)
 
     if run_internal:
         internal = internal_report(pages, args.threshold, args.top_k)

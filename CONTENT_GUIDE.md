@@ -31,10 +31,46 @@ podcast page links to the original
 `https://datatalks.club/podcast.html` only when the specific episode slug is not
 known yet.
 
+## Grounding Sources
+
+We repurpose our own content. We do not invent, and we do not add facts that no
+guest or author actually shared with us. Every claim on a public page must trace
+to one of two sources:
+
+1. The DataTalks.Club **podcast archive** — what a guest said in an interview
+   (`../datatalksclub.github.io/_podcast`, summarized in `_podcast_summaries/`).
+2. **Books** — what a book author shared in a podcast interview, or the
+   `_books/` summaries we already hold. Use only the ideas the author actually
+   discussed; do not extract new material from the book itself.
+
+The borderline is simple: if a podcast guest or a book author shared something
+about the topic, we can write it. Otherwise we do not. This is why the wiki is a
+repurposing artifact, not a general encyclopedia — if the archive can't ground a
+page, the page does not belong here.
+
+## Books
+
+The main DataTalks.Club site owns the **book landing pages** (the book
+conversation pages). Do not create competing per-book pages on the wiki — a
+reader looking for a specific book should reach the main site's page, not a
+duplicate here.
+
+On the wiki, books show up two ways:
+
+- **Grouped by topic.** When a book author was a guest and other guests touched
+  the same topic, group those contributions under the topic hub and refer out.
+  The wiki's value is the cross-guest synthesis, not a book summary.
+- **A dedicated book or tips page only when grounded and non-competing.** If
+  podcast guests recommend books, or a book author shared concrete tips in an
+  interview, a page built from what they actually said can make sense — as long
+  as it does not cannibalize the main site's book landing page. Download/PDF
+  queries are not a reason to create a page; link those intents to the main site.
+
 ## Wiki Pages
 
 Wiki pages live in `_wiki/` and are archive-derived reference pages. They should
-answer: "What has the DataTalks.Club podcast collectively taught about this topic?"
+answer: "What have DataTalks.Club podcast guests and book authors collectively
+shared about this topic?"
 
 Required structure:
 

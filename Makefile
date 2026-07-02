@@ -1,4 +1,4 @@
-.PHONY: help sources graph index lambda-package build serve links wiki-links duplicates content-audit clean check
+.PHONY: help sources graph index lambda-package build serve links wiki-links duplicates content-audit keyword-gap clean check
 
 help:
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "  %-12s %s\n", $$1, $$2}'
@@ -41,3 +41,6 @@ check: lambda-package links ## Build search index/package, static HTML, and link
 
 clean: ## Remove generated build artifacts
 	rm -rf _site .rustkyll-manifest.json artifacts lambda_package
+
+keyword-gap: ## Cluster an Ubersuggest CSV and find groundable, non-overlapping gaps
+	python scripts/keyword_gap.py $(CSV)
