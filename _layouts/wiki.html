@@ -28,5 +28,9 @@ layout: default
   {% endif %}
   {{ content }}
   <section class="graph-connections" data-graph-connections hidden></section>
+  {% assign wiki_slug = page.url | replace: '/wiki/', '' | replace: '/', '' %}
+  <footer class="page-edit">
+    <a href="https://github.com/DataTalksClub/podwiki/edit/main/_wiki/{{ wiki_slug }}.md" target="_blank" rel="noopener">Edit this page on GitHub</a>
+  </footer>
 </article>
 <script src="{{ '/assets/page-graph.js' | relative_url }}"></script>
