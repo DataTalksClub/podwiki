@@ -3,7 +3,7 @@ layout: wiki
 title: "Career Growth"
 summary: "How DataTalks.Club guests frame growth after entering data and AI roles: depth, breadth, visibility, communication, leadership, and senior impact."
 related:
-  - Career Transition
+  - Career Transitions in Data
   - Job Search
   - Hiring
   - Machine Learning Engineer Role
@@ -19,7 +19,7 @@ discussions, it isn't only a promotion ladder. It's the shift from proving
 baseline skill to choosing better problems. It also means diagnosing systems, explaining
 tradeoffs, mentoring others, and leaving evidence that teams can evaluate.
 
-This topic sits between [career transition]({{ '/wiki/career-transition/' | relative_url }}),
+This topic sits between [career transition]({{ '/wiki/career-transitions-in-data/' | relative_url }}),
 [job search]({{ '/wiki/job-search/' | relative_url }}), and
 [hiring]({{ '/wiki/hiring/' | relative_url }}). The technical side connects to
 the [machine learning engineer role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }}),
@@ -201,7 +201,7 @@ defines mentoring by purpose and scope, then separates one-off advice from an
 ongoing relationship. Useful sessions need goals and agendas. They also need
 expectations and a decision about what the mentee will do next (6:10 / 12:50 /
 16:30 / 19:40 / 22:30). For someone navigating a
-[career transition]({{ '/wiki/career-transition/' | relative_url }}) or
+[career transition]({{ '/wiki/career-transitions-in-data/' | relative_url }}) or
 [career development]({{ '/wiki/career-development/' | relative_url }}),
 mentoring makes the path more structured.
 
@@ -244,7 +244,7 @@ It also connects to role-specific project pages such as
 ## Adjacent Career Topics
 
 Career growth usually follows a
-[career transition]({{ '/wiki/career-transition/' | relative_url }}) or broader
+[career transition]({{ '/wiki/career-transitions-in-data/' | relative_url }}) or broader
 [career development]({{ '/wiki/career-development/' | relative_url }}) question,
 then turns into concrete evidence for
 [job search]({{ '/wiki/job-search/' | relative_url }}) and

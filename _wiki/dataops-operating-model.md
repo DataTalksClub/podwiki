@@ -7,7 +7,6 @@ related:
   - CI/CD
   - Testing
   - Data Quality and Observability
-  - Data Observability
   - Data Pipelines
   - DevOps to Data Engineering
   - Data Engineering Platforms

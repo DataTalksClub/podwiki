@@ -216,7 +216,7 @@ Choose the role by the work you want to own every week:
   [data science careers]({{ '/wiki/data-science-careers/' | relative_url }}) with
   the [data scientist role]({{ '/wiki/data-scientist-role/' | relative_url }}).
 - If you like systems, data movement, and reliability, use the
-  [data engineering roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }}).
+  [data engineering roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }}).
 
 If you like SQL and business meaning, analytics engineering is a strong target
 when you want more software rigor than dashboard work usually offers. The
@@ -342,7 +342,7 @@ and [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-p
 
 For data engineering, use
 [Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }}),
-[Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }}),
+[Data Engineering Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }}),
 and [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }}).
 For analytics engineering, use
 [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }}),

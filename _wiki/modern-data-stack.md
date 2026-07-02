@@ -10,7 +10,7 @@ related:
   - Data Warehouse
   - Reverse ETL
   - Data Activation
-  - Data Observability
+  - Data Quality and Observability
 ---
 
 Teams use the modern data stack to collect and load data into analytical

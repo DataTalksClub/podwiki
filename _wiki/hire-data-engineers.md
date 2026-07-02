@@ -344,7 +344,7 @@ capacity into the beginning of a better data operating model.
 If the role grows into a team, pair this guide with
 [Data Team Lead Role]({{ '/wiki/data-team-lead-role/' | relative_url }})
 and
-[Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }}).
+[Data Engineering Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }}).
 Then use [DataOps]({{ '/wiki/dataops/' | relative_url }}) and
 [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).
 Don't hire for every tool. Hire someone who can make data useful, reliable,

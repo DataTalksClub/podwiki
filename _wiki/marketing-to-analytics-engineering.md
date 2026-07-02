@@ -4,7 +4,7 @@ tags: ["transition"]
 title: "Marketing to Analytics Engineering"
 summary: "How marketers can move into analytics engineering through SQL, BI, dbt, product analytics, dashboards, and metric ownership."
 related:
-  - Career Transition
+  - Career Transitions in Data
   - Analytics Engineering
   - Analytics Engineering Roadmap
   - Product Analytics
@@ -219,7 +219,7 @@ conversations, BI projects, and product analytics work also mattered
 
 An external [analytics-engineering portfolio]({{ '/wiki/analytics-engineering-portfolio-projects/' | relative_url }})
 should make the same evidence visible, especially for readers following a
-[career transition]({{ '/wiki/career-transition/' | relative_url }}) path.
+[career transition]({{ '/wiki/career-transitions-in-data/' | relative_url }}) path.
 
 Project examples include:
 
@@ -283,4 +283,4 @@ on:
 - [Metrics]({{ '/wiki/metrics/' | relative_url }})
 - [Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
-- [Career Transition]({{ '/wiki/career-transition/' | relative_url }})
+- [Career Transition]({{ '/wiki/career-transitions-in-data/' | relative_url }})

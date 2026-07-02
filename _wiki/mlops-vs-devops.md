@@ -19,7 +19,7 @@ related_wiki:
   - Experiment Tracking
   - Model Registry
   - Model Monitoring
-  - Data Observability
+  - Data Quality and Observability
   - DataOps
   - MLOps Engineer
 ---

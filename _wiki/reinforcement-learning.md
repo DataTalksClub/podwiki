@@ -4,7 +4,6 @@ title: "Reinforcement Learning"
 summary: "How DataTalks.Club podcast guests discuss reinforcement learning through agents, rewards, simulators, games, robotics, autonomous driving, optimization, and practical limits."
 related:
   - Machine Learning
-  - AI Agents
   - Agent Engineering
   - Multi-Agent Systems
   - Evolutionary Algorithms

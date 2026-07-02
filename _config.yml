@@ -43,18 +43,6 @@ collections:
   wiki:
     output: true
     permalink: /wiki/:title/
-  guides:
-    output: true
-    permalink: /guides/:title/
-  comparisons:
-    output: true
-    permalink: /comparisons/:title/
-  roadmaps:
-    output: true
-    permalink: /roadmaps/:title/
-  how_tos:
-    output: true
-    permalink: /how-tos/:title/
 
 defaults:
   - scope:
@@ -72,30 +60,6 @@ defaults:
       type: "wiki"
     values:
       layout: "wiki"
-  - scope:
-      path: ""
-      type: "guides"
-    values:
-      layout: "article"
-      content_kind: "guide"
-  - scope:
-      path: ""
-      type: "comparisons"
-    values:
-      layout: "article"
-      content_kind: "comparison"
-  - scope:
-      path: ""
-      type: "roadmaps"
-    values:
-      layout: "article"
-      content_kind: "roadmap"
-  - scope:
-      path: ""
-      type: "how_tos"
-    values:
-      layout: "article"
-      content_kind: "how-to"
   - scope:
       path: ""
       type: "books"

@@ -345,5 +345,5 @@ These pages cover adjacent role, system, and evaluation context.
 - [Recommendation Systems]({{ '/wiki/recommendation-systems/' | relative_url }})
 - [Computer Vision]({{ '/wiki/computer-vision/' | relative_url }})
 - [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
-- [Career Transition]({{ '/wiki/career-transition/' | relative_url }})
+- [Career Transition]({{ '/wiki/career-transitions-in-data/' | relative_url }})
 - [Job Search]({{ '/wiki/job-search/' | relative_url }})

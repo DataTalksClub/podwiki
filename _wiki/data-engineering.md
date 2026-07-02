@@ -213,7 +213,7 @@ He recommends Python, SQL, and data modeling before advanced distributed
 systems. He also presents dbt and Snowflake as early exposure to production
 data work
 ([Data Engineering Career Path and Skills]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }}),
-23:35-45:14). The [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
+23:35-45:14). The [Data Engineering Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }})
 and [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
 turn that skill sequence into practice paths.
 

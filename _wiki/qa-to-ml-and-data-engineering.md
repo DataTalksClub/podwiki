@@ -4,7 +4,6 @@ tags: ["transition"]
 title: "QA to ML and Data Engineering"
 summary: "Transition notes for QA engineers moving into machine learning or data engineering through testing discipline, projects, cloud practice, public notes, and interview framing."
 related:
-  - Career Transition
   - Career Transitions in Data
   - Testing
   - Machine Learning
@@ -31,7 +30,7 @@ learning and role-shaped projects with cloud practice and public notes. His
 interview framing connects testing discipline to the target role
 ([Alvaro's structured learning, projects, and interview prep at 13:32-45:28]({{ '/podcasts/how-to-transition-into-ml-and-data-engineering-from-qa/' | relative_url }})).
 That places the page inside
-[Career Transition]({{ '/wiki/career-transition/' | relative_url }}),
+[Career Transition]({{ '/wiki/career-transitions-in-data/' | relative_url }}),
 [Career Transitions in Data]({{ '/wiki/career-transitions-in-data/' | relative_url }}),
 [Testing]({{ '/wiki/testing/' | relative_url }}), and
 [Job Search]({{ '/wiki/job-search/' | relative_url }}).
@@ -130,7 +129,7 @@ Jeff adds Python/SQL depth and warehouse fundamentals. He also adds Docker and
 Airflow. Clean code, tests, portfolio projects, and technical interview formats
 matter too.
 This version of the transition points toward the
-[Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
+[Data Engineering Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }})
 and [Data Engineer Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }})
 rather than model research
 ([Jeff's data-engineering job-prep scope at 1:20-9:41]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }})).

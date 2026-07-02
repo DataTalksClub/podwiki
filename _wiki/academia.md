@@ -3,7 +3,7 @@ layout: wiki
 title: "Academia"
 summary: "How DataTalks.Club podcast discussions connect academic research, PhDs, postdocs, open science, research software, and transitions into data and AI industry roles."
 related:
-  - Career Transition
+  - Career Transitions in Data
   - Career Growth
   - Job Search
   - Hiring
@@ -36,7 +36,7 @@ too.
 
 That's why this page overlaps with
 [Academic Researcher to Data Science]({{ '/wiki/academic-researcher-to-data-science/' | relative_url }}),
-[Career Transition]({{ '/wiki/career-transition/' | relative_url }}), and
+[Career Transition]({{ '/wiki/career-transitions-in-data/' | relative_url }}), and
 [Notebook to Production AI Systems]({{ '/wiki/notebook-to-production-ai-systems/' | relative_url }}).
 
 ## Academic Training as Data Practice
@@ -268,7 +268,7 @@ and trial research before committing to a PhD.
 Continue through these pages for narrower podcast-backed views:
 
 - [Academic Researcher to Data Science]({{ '/wiki/academic-researcher-to-data-science/' | relative_url }})
-- [Career Transition]({{ '/wiki/career-transition/' | relative_url }})
+- [Career Transition]({{ '/wiki/career-transitions-in-data/' | relative_url }})
 - [Career Growth]({{ '/wiki/career-growth/' | relative_url }})
 - [Job Search]({{ '/wiki/job-search/' | relative_url }})
 - [Hiring]({{ '/wiki/hiring/' | relative_url }})

@@ -6,7 +6,6 @@ related:
   - Machine Learning
   - Deep Learning
   - Reinforcement Learning
-  - AI Agents
   - Agent Engineering
   - Evaluation
 ---

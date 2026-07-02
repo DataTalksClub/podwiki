@@ -3,7 +3,7 @@ layout: wiki
 title: "Job Search"
 summary: "DataTalks.Club guest tactics for data and AI job search: role targeting, CVs, portfolios, networking, interviews, salary, and red flags."
 related:
-  - Career Transition
+  - Career Transitions in Data
   - Career Growth
   - Hiring
   - Academia
@@ -12,7 +12,7 @@ related:
 
 Job search is the candidate-side work of choosing a data, analytics, ML, or AI
 role and proving fit. It links
-[career transition]({{ '/wiki/career-transition/' | relative_url }}),
+[career transition]({{ '/wiki/career-transitions-in-data/' | relative_url }}),
 [career growth]({{ '/wiki/career-growth/' | relative_url }}),
 [CV screening]({{ '/wiki/cv-screening/' | relative_url }}), and
 [job descriptions]({{ '/wiki/job-descriptions/' | relative_url }}). A good
@@ -81,7 +81,7 @@ unfocused volume weakens CV tailoring, interview preparation, and networking.
 Lindsay makes the middle path explicit for juniors at 30:37 in
 [Land Junior Data Jobs]({{ '/podcasts/get-junior-data-job-and-transferable-skills/' | relative_url }}).
 She recommends enough applications to get market signal and enough tailoring to
-learn from each attempt. That balance sits between [career transition]({{ '/wiki/career-transition/' | relative_url }})
+learn from each attempt. That balance sits between [career transition]({{ '/wiki/career-transitions-in-data/' | relative_url }})
 and [hiring]({{ '/wiki/hiring/' | relative_url }}), because the candidate has
 to learn how recruiters and teams describe fit.
 
@@ -210,7 +210,7 @@ Oleg gives PhD and cold-start candidates a project, synthetic-data, and
 blogging path at 45:46 in
 [Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }}).
 For fuller transition routes, use
-[Career Transition]({{ '/wiki/career-transition/' | relative_url }}),
+[Career Transition]({{ '/wiki/career-transitions-in-data/' | relative_url }}),
 [Career Transitions in Data]({{ '/wiki/career-transitions-in-data/' | relative_url }}),
 and [Academia]({{ '/wiki/academia/' | relative_url }}).
 

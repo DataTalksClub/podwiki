@@ -9,7 +9,7 @@ related_wiki:
   - Data Analyst Role
   - Data Analyst Careers
   - Data Engineer Role
-  - Data Engineering Roadmap
+  - Data Engineer Roadmap
   - Data Engineering Portfolio Projects
   - Analytics Engineering
   - Data Pipelines
@@ -46,7 +46,7 @@ too.
 
 This roadmap focuses on the analyst-to-engineer transition. The broader
 learning sequence is covered in
-[Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
+[Data Engineering Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }})
 and [Data Engineer Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }}).
 Proof of readiness belongs in
 [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }}).
@@ -368,7 +368,7 @@ The roadmap connects to these transition, role, and portfolio topics:
 - [Data Analyst vs Analytics Engineer]({{ '/wiki/data-analyst-vs-analytics-engineer/' | relative_url }})
 - [Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }})
 - [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }})
-- [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
+- [Data Engineering Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }})
 - [Data Engineer Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }})
 - [How to Become a Data Engineer With No Experience]({{ '/wiki/how-to-become-a-data-engineer-with-no-experience/' | relative_url }})
 - [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})

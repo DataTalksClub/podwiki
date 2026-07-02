@@ -12,7 +12,6 @@ related:
   - Data Engineering Platforms
   - Data Engineering Tools
   - Data Quality and Observability
-  - Data Observability
   - Data Engineering
   - Analytics Engineering
   - Orchestration

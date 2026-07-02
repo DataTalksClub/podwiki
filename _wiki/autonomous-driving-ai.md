@@ -233,7 +233,7 @@ computer vision, getting hands-on experience with data and simulation, and
 learning about safety-critical systems because reliability is key in this field.
 These entry points connect to the broader
 [AI engineering]({{ '/wiki/ai-engineering/' | relative_url }}) and
-[career transition]({{ '/wiki/career-transition/' | relative_url }}) discussions
+[career transition]({{ '/wiki/career-transitions-in-data/' | relative_url }}) discussions
 in the podcast.
 
 Paul's career arc at 7:08 offers another route. His deep learning work on

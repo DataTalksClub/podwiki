@@ -4,7 +4,7 @@ title: "Hiring"
 summary: "Podcast-backed patterns for hiring data scientists, analysts, data engineers, ML engineers, managers, and applied AI teams."
 related:
   - Job Search
-  - Career Transition
+  - Career Transitions in Data
   - Career Growth
   - Data Product Management
   - MLOps
@@ -173,7 +173,7 @@ are true must-haves
 ([Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }})).
 
 Hiring mirrors
-[Career Transition]({{ '/wiki/career-transition/' | relative_url }}) because
+[Career Transition]({{ '/wiki/career-transitions-in-data/' | relative_url }}) because
 employers need evidence of relevant work. Candidates need to make transferable
 work easy to recognize.
 

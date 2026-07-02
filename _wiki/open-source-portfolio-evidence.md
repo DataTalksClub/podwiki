@@ -384,7 +384,7 @@ Adjacent role, contribution, and portfolio topics:
 - [Developer Experience]({{ '/wiki/developer-experience/' | relative_url }})
 - [Job Search]({{ '/wiki/job-search/' | relative_url }})
 - [CV Screening]({{ '/wiki/cv-screening/' | relative_url }})
-- [Career Transition]({{ '/wiki/career-transition/' | relative_url }})
+- [Career Transition]({{ '/wiki/career-transitions-in-data/' | relative_url }})
 - [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
 - [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
 - [RAG Portfolio Projects]({{ '/wiki/rag-portfolio-projects/' | relative_url }})

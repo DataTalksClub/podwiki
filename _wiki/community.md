@@ -198,7 +198,7 @@ In
 for Docker and Postgres around 57:22. He also covers Git and workflow
 orchestration.
 These examples connect community with
-[data engineering learning paths]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
+[data engineering learning paths]({{ '/wiki/data-engineer-roadmap/' | relative_url }})
 and [teaching]({{ '/wiki/teaching/' | relative_url }}).
 
 ## Public Work Through Events and Open Source

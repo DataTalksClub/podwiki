@@ -4,7 +4,7 @@ title: "Model Monitoring"
 summary: "How teams watch deployed models, diagnose drift, and assign ownership for production ML behavior."
 related:
   - MLOps
-  - Data Observability
+  - Data Quality and Observability
   - ML Platforms
   - Model Registry
   - Machine Learning Infrastructure

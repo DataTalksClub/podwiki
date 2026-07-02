@@ -10,7 +10,6 @@ related:
   - Platform Engineering
   - MLOps Engineer
   - Data Quality and Observability
-  - Data Observability
   - Orchestration
   - CI/CD
   - Self-Service Data Platforms

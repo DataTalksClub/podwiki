@@ -10,7 +10,6 @@ related_wiki:
   - Data Engineering Tools
   - Data Pipelines
   - Data Quality and Observability
-  - Data Observability
   - Data Engineering Platforms
   - Modern Data Stack
   - Data Engineering

@@ -179,7 +179,7 @@ Portfolio work can also come from non-traditional experience. Ksenia's episode
 uses work data and BI practice as an entry point around 32:43. Juan Pablo talks
 about nonprofit projects around 38:12. Those examples are useful for people who
 are aiming for an analyst job without a previous analyst title, especially in
-[Career Transition]({{ '/wiki/career-transition/' | relative_url }}) paths.
+[Career Transition]({{ '/wiki/career-transitions-in-data/' | relative_url }}) paths.
 
 ## Hiring Signals
 

@@ -5,22 +5,25 @@ layout: default
 <article class="knowledge-page article-page">
   {% assign content_kind = page.content_kind %}
   {% if content_kind == nil %}
-    {% case page.collection %}
-    {% when "comparisons" %}
+    {% if page.tags contains "comparison" %}
       {% assign content_kind = "comparison" %}
-    {% when "roadmaps" %}
+    {% elsif page.tags contains "roadmap" %}
       {% assign content_kind = "roadmap" %}
-    {% when "how_tos" %}
+    {% elsif page.tags contains "transition" %}
+      {% assign content_kind = "transition" %}
+    {% elsif page.tags contains "how-to" %}
       {% assign content_kind = "how-to" %}
     {% else %}
       {% assign content_kind = "guide" %}
-    {% endcase %}
+    {% endif %}
   {% endif %}
   {% assign content_label = "Guide" %}
   {% if content_kind == "comparison" %}
     {% assign content_label = "Comparison" %}
   {% elsif content_kind == "roadmap" %}
     {% assign content_label = "Roadmap" %}
+  {% elsif content_kind == "transition" %}
+    {% assign content_label = "Career Transition" %}
   {% elsif content_kind == "how-to" %}
     {% assign content_label = "How-To" %}
   {% endif %}

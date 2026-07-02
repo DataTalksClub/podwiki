@@ -7,8 +7,8 @@ related:
   - Documentation
   - Technical Writing
   - Developer Relations
-  - Data Engineering Roadmap
-  - Career Transition
+  - Data Engineer Roadmap
+  - Career Transitions in Data
   - Open Source Portfolio Evidence
   - Data Engineering Portfolio Projects
   - Machine Learning Portfolio Projects
@@ -20,7 +20,7 @@ They tie it to curriculum design, mentoring, and project work. Feedback,
 documentation, community support, and public explanation also do real teaching
 work.
 
-For role-specific study paths, use the [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }}),
+For role-specific study paths, use the [Data Engineering Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }}),
 [AI Engineering Roadmap]({{ '/wiki/ai-engineering-roadmap/' | relative_url }}),
 and [MLOps Roadmap]({{ '/wiki/mlops-roadmap/' | relative_url }}). For public
 work that proves skill, use [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }}),
@@ -39,7 +39,7 @@ fundamentals as the core skills for junior data engineers.
 Around 38:05, Jeff explains why his junior curriculum drops Spark, Kafka, and
 Kubernetes early. Learners need interviewable fundamentals before platform
 breadth. That same episode connects teaching to
-[career transition]({{ '/wiki/career-transition/' | relative_url }}) because the
+[career transition]({{ '/wiki/career-transitions-in-data/' | relative_url }}) because the
 curriculum exists to move students from study into hired work.
 
 [Erum Afzal]({{ '/people/erumafzal/' | relative_url }}) gives the community-scale
@@ -73,7 +73,7 @@ labs, and reinforcement cycles.
 
 Around 56:46, Jeff says most junior data engineering course time should stay on
 Python and SQL. Tools get a smaller share.
-That guidance fits the [data engineering roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
+That guidance fits the [data engineering roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }})
 because a roadmap should sequence skills, not collect every current tool.
 
 [Irina Brudaru]({{ '/people/irinabrudaru/' | relative_url }}) adds a domain
@@ -247,7 +247,7 @@ Use these adjacent pages for deeper work:
 - [Developer Relations]({{ '/wiki/developer-relations/' | relative_url }}) and
   [Open Source and Developer Relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }})
   for teaching users through demos, docs, videos, and product feedback.
-- [Career Transition]({{ '/wiki/career-transition/' | relative_url }}) and
+- [Career Transition]({{ '/wiki/career-transitions-in-data/' | relative_url }}) and
   [Career Transitions in Data]({{ '/wiki/career-transitions-in-data/' | relative_url }})
   for moving from study into data, ML, AI engineering, and analytics roles.
 - [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }}),

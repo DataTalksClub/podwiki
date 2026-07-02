@@ -80,7 +80,7 @@ account for distributed training and total cost of ownership. Those episodes
 put FinOps near
 [AI Infrastructure]({{ '/wiki/ai-infrastructure/' | relative_url }}),
 [Machine Learning Infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }}),
-and [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
+and [Data Engineering Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }})
 when cost decisions move from warehouses into compute-heavy platforms.
 
 ## Warehouse usage and metric trees

@@ -3,7 +3,6 @@ layout: wiki
 title: "Multi-Agent Systems"
 summary: "How DataTalks.Club guests discuss multi-agent systems through sequential flows, manager-agent orchestration, peer collaboration, tool use, memory, evaluation, and guardrails."
 related:
-  - AI Agents
   - Agent Engineering
   - LLM Production Patterns
   - LLM Evaluation Workflows

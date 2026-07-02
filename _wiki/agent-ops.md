@@ -4,7 +4,6 @@ title: "Agent Ops"
 summary: "AgentOps: orchestration, guardrails, data lineage, deployment risks, and monitoring for AI agents in production."
 related:
   - Agent Engineering
-  - AI Agents
   - Multi-Agent Systems
   - LLM Production Patterns
   - MLOps

@@ -6,7 +6,6 @@ keyword: "model monitoring vs data observability"
 summary: "Comparison of model monitoring and data observability: what each watches, where upstream data quality and profiling overlap, and how MLOps and DataOps teams divide incident response."
 related_wiki:
   - Model Monitoring
-  - Data Observability
   - Data Quality and Observability
   - MLOps
   - DataOps
@@ -17,7 +16,7 @@ deployed model and the production system around it. It asks whether predictions,
 input features, service behavior, and model performance still match the use case
 after deployment.
 
-[Data observability]({{ '/wiki/data-observability/' | relative_url }}) watches
+[Data observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}) watches
 the health of the data path that feeds analytics and products. Models may depend
 on that path too. It asks whether data is fresh and complete. It also asks
 whether schema, distribution, and lineage still make sense.
@@ -246,7 +245,7 @@ upstream system changed. It also shows impact and recovery paths.
 Read the underlying topic pages for more detail:
 
 - [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }})
-- [Data Observability]({{ '/wiki/data-observability/' | relative_url }})
+- [Data Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
 - [MLOps]({{ '/wiki/mlops/' | relative_url }})
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})

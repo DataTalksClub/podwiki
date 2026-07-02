@@ -18,7 +18,7 @@ search_intent: "People searching for data engineer courses, data engineering cou
 related_wiki:
   - Data Engineering
   - Data Engineer Role
-  - Data Engineering Roadmap
+  - Data Engineer Roadmap
   - Data Engineering Certification
   - Data Engineering Portfolio Projects
   - Data Engineering Tools
@@ -55,7 +55,7 @@ Use this page with the main learning paths:
 
 - [Data Engineer Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }})
 - [How to Become a Data Engineer With No Experience]({{ '/wiki/how-to-become-a-data-engineer-with-no-experience/' | relative_url }})
-- [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
+- [Data Engineering Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }})
 
 If you're comparing data engineer courses, a data engineer bootcamp, or a free
 cohort, filter each option by curriculum sequence. Then check the feedback and

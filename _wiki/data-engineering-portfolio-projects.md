@@ -5,7 +5,7 @@ summary: "Podcast-backed guidance for data engineering portfolio projects that p
 related:
   - Portfolio Projects
   - Data Engineering
-  - Data Engineering Roadmap
+  - Data Engineer Roadmap
   - End-to-End Data Pipeline Project
   - Data Pipelines
   - Data Quality and Observability
@@ -35,7 +35,7 @@ topic sits next to
 For a build blueprint, use
 [End-to-End Data Pipeline Project]({{ '/wiki/end-to-end-data-pipeline-project/' | relative_url }}).
 For learning order, use
-[Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
+[Data Engineering Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }})
 or the broader
 [Data Engineer Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }}).
 
@@ -354,7 +354,7 @@ Use these pages to follow the role, architecture, and portfolio routes:
 - [Portfolio Projects]({{ '/wiki/portfolio-projects/' | relative_url }})
 - [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }})
 - [Data Engineer Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }})
-- [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
+- [Data Engineering Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }})
 - [End-to-End Data Pipeline Project]({{ '/wiki/end-to-end-data-pipeline-project/' | relative_url }})
 - [How to Build Data Pipelines]({{ '/wiki/how-to-build-data-pipelines/' | relative_url }})
 - [Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }})

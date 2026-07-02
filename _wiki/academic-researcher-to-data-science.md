@@ -5,7 +5,6 @@ title: "Academic Researcher to Data Science"
 summary: "How academic researchers, PhDs, postdocs, and research software practitioners translate research work into data science, applied ML, data engineering, and related industry roles."
 related:
   - Academia
-  - Career Transition
   - Career Transitions in Data
   - Data Science
   - Data Scientist Role
@@ -133,7 +132,7 @@ wanted to see whether she knew the modeling concepts
 That version of the transition maps to
 [Data Science Careers]({{ '/wiki/data-science-careers/' | relative_url }}),
 [Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }}), and
-the [Data Scientist Guide]({{ '/wiki/data-scientist/' | relative_url }}).
+the [Data Scientist Guide]({{ '/wiki/data-scientist-role/' | relative_url }}).
 
 Researchers whose work centers on pipelines, instruments, or large scientific
 datasets may have a stronger path through data engineering or ML engineering.
@@ -268,7 +267,7 @@ and [Staff AI Engineer]({{ '/wiki/staff-ai-engineer/' | relative_url }}).
 Use these pages for adjacent roles, portfolios, interviews, and learning paths.
 
 - [Academia]({{ '/wiki/academia/' | relative_url }})
-- [Career Transition]({{ '/wiki/career-transition/' | relative_url }})
+- [Career Transition]({{ '/wiki/career-transitions-in-data/' | relative_url }})
 - [Career Transitions in Data]({{ '/wiki/career-transitions-in-data/' | relative_url }})
 - [Data Science]({{ '/wiki/data-science/' | relative_url }})
 - [Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }})
@@ -280,7 +279,7 @@ Use these pages for adjacent roles, portfolios, interviews, and learning paths.
 - [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
 - [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
 - [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
-- [Data Scientist Guide]({{ '/wiki/data-scientist/' | relative_url }})
+- [Data Scientist Guide]({{ '/wiki/data-scientist-role/' | relative_url }})
 - [Data Scientist Interview Guide]({{ '/wiki/data-scientist-interview/' | relative_url }})
 - [Data Engineer Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }})
 - [Machine Learning Engineer Roadmap]({{ '/wiki/machine-learning-engineer-roadmap/' | relative_url }})

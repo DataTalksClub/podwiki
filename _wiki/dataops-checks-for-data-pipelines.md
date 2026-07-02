@@ -16,7 +16,6 @@ related_wiki:
   - Data Quality and Observability
   - DataOps Platforms
   - Data Pipelines
-  - Data Observability
   - CI/CD
   - Orchestration
 ---

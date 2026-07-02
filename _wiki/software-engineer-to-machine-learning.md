@@ -4,7 +4,7 @@ tags: ["transition"]
 title: "Software Engineer to Machine Learning"
 summary: "A transition path for software engineers moving into machine learning through project work, ML evaluation, production systems, MLOps, and role targeting."
 related:
-  - Career Transition
+  - Career Transitions in Data
   - Software Engineering
   - Machine Learning
   - Machine Learning Engineer Role
@@ -35,7 +35,7 @@ monitoring, and documentation. Testing and team alignment matter too
 ([6:58-13:52]({{ '/podcasts/software-engineering-for-machine-learning/' | relative_url }})).
 
 For adjacent transition context, see
-[Career Transition]({{ '/wiki/career-transition/' | relative_url }}) and
+[Career Transition]({{ '/wiki/career-transitions-in-data/' | relative_url }}) and
 [Machine Learning Engineer Role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }}).
 For project scope, see
 [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}),
@@ -336,7 +336,7 @@ with researchers matters too
 
 Use these pages for adjacent roles, practices, and transition evidence.
 
-- [Career Transition]({{ '/wiki/career-transition/' | relative_url }})
+- [Career Transition]({{ '/wiki/career-transitions-in-data/' | relative_url }})
 - [Software Engineering]({{ '/wiki/software-engineering/' | relative_url }})
 - [Machine Learning]({{ '/wiki/machine-learning/' | relative_url }})
 - [Machine Learning Engineer Role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }})

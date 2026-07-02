@@ -1,4 +1,4 @@
-.PHONY: help sources graph index lambda-package build serve links content-audit clean check
+.PHONY: help sources graph index lambda-package build serve links wiki-links duplicates content-audit clean check
 
 help:
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "  %-12s %s\n", $$1, $$2}'
@@ -24,6 +24,12 @@ build: graph ## Build the static site
 
 serve: graph ## Serve the static site locally
 	uvx rustkyll serve --no-watch
+
+wiki-links: ## Fast source-level wiki link check (no build)
+	python scripts/check_wiki_links.py
+
+duplicates: ## Report near-duplicate wiki pages and main-site cannibalization
+	python scripts/find_duplicates.py
 
 links: build ## Check generated internal links
 	python scripts/check_links.py

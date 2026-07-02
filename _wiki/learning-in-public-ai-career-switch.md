@@ -9,7 +9,7 @@ related:
   - Job Search
   - Teaching
   - AI Engineer Role
-  - Career Transition
+  - Career Transitions in Data
   - Machine Learning Portfolio Projects
   - AI Engineering Portfolio Projects
 ---
@@ -34,7 +34,7 @@ community engagement, ML Zoomcamp projects, and AI Dev Tools projects to restart
 after a seven-year career break. Her GitHub evidence then became part of the
 hiring conversation
 ([her career-break discussion at 11:00-30:34]({{ '/podcasts/s23e04-how-to-become-ai-engineer-after-career-break/' | relative_url }})).
-The topic sits inside [career transition]({{ '/wiki/career-transition/' | relative_url }}),
+The topic sits inside [career transition]({{ '/wiki/career-transitions-in-data/' | relative_url }}),
 [job search]({{ '/wiki/job-search/' | relative_url }}), and
 [open-source portfolio evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }}),
 not a separate social-media habit.

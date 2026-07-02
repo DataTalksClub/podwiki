@@ -5,7 +5,7 @@ summary: "A podcast-backed guide to deciding whether a data engineering certific
 related:
   - Data Engineering
   - Data Engineer Role
-  - Data Engineering Roadmap
+  - Data Engineer Roadmap
   - Data Engineering Portfolio Projects
   - Job Search
   - Open Source Portfolio Evidence
@@ -21,7 +21,7 @@ data quality problems, and explain the tradeoffs in your project.
 The DataTalks.Club podcast archive treats certificates as supporting evidence.
 Use a certificate as a study plan that leads to a reviewable project. Don't use
 it as a substitute for the project. For the broader learning sequence, use the
-[Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
+[Data Engineering Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }})
 and
 [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }}).
 
@@ -131,7 +131,7 @@ Evaluate a certification program by this order:
 7. Advanced tools only when the project creates a real need.
 
 For the longer learning path, compare this page with the
-[Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }}).
+[Data Engineering Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }}).
 
 ## Prefer Project-Based Certificates
 
@@ -222,7 +222,7 @@ Different certificates solve different problems.
 
 A course certificate helps when it proves that you finished assignments and
 built a project. It helps less when it only marks attendance. Compare the
-[Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
+[Data Engineering Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }})
 when you need course-specific criteria.
 
 A cloud or vendor certificate helps when your target jobs mention that
@@ -235,7 +235,7 @@ A bootcamp or cohort certificate helps when the program gives structure and
 feedback. It should also give peer review, interview practice, and a capstone
 you can customize.
 It's weaker when every student leaves with the same template project. Use
-[Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
+[Data Engineering Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }})
 for the bootcamp version of this decision.
 
 Open-source work isn't a certification, but it can be stronger evidence. In

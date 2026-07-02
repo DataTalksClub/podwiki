@@ -277,7 +277,7 @@ restart. The RAG project still needs the same evidence bar as the search and
 LLM engineering episodes. Show corpus choice, chunking plan, retrieval
 baselines, and citations. Show tests, logs, and deployment boundaries too. Pair
 this project type with
-[Career Transition]({{ '/wiki/career-transition/' | relative_url }}) and
+[Career Transition]({{ '/wiki/career-transitions-in-data/' | relative_url }}) and
 [Job Search]({{ '/wiki/job-search/' | relative_url }}) when the page is used
 for hiring preparation.
 
@@ -330,4 +330,4 @@ These pages cover the concepts and project standards around RAG portfolio work.
 - [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }}) for projects where retrieval becomes one tool inside a multi-step system.
 - [Graph RAG vs Vector RAG]({{ '/wiki/graph-rag-vs-vector-rag/' | relative_url }}) for projects where relationships matter as much as text similarity.
 - [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}) for the broader project-evidence standard.
-- [Career Transition]({{ '/wiki/career-transition/' | relative_url }}) and [Job Search]({{ '/wiki/job-search/' | relative_url }}) for turning the project into hiring evidence.
+- [Career Transition]({{ '/wiki/career-transitions-in-data/' | relative_url }}) and [Job Search]({{ '/wiki/job-search/' | relative_url }}) for turning the project into hiring evidence.

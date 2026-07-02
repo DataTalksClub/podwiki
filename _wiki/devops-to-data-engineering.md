@@ -4,7 +4,7 @@ tags: ["transition"]
 title: "DevOps to Data Engineering"
 summary: "Podcast-backed transition notes for DevOps, SRE, cloud, and platform engineers moving into data engineering through automation, DataOps, pipelines, cloud platforms, and portfolio proof."
 related:
-  - Career Transition
+  - Career Transitions in Data
   - Data Engineering
   - DataOps
   - Data Engineering Platforms
@@ -192,7 +192,7 @@ Tulski's portfolio advice includes DuckDB, dbt, Superset, and orchestration. He
 also expects the candidate's own extensions around a specific problem
 ([57:35-1:04:42]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }})).
 That makes [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
-and the [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
+and the [Data Engineering Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }})
 natural next pages.
 
 Add DataOps evidence before adding exotic tooling. A DevOps-to-data project
@@ -243,10 +243,10 @@ SQL modeling, metric definitions, and consumer-facing data products
 The transition is easiest to compare against nearby role, stack, portfolio, and
 reliability topics.
 
-- [Career Transition]({{ '/wiki/career-transition/' | relative_url }})
+- [Career Transition]({{ '/wiki/career-transitions-in-data/' | relative_url }})
 - [Career Transitions in Data]({{ '/wiki/career-transitions-in-data/' | relative_url }})
 - [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }})
-- [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
+- [Data Engineering Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }})
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
 - [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
 - [DataOps]({{ '/wiki/dataops/' | relative_url }})

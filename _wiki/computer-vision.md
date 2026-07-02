@@ -11,7 +11,7 @@ related:
   - Notebook to Production AI Systems
   - Embeddings
   - Vector Databases
-  - Career Transition
+  - Career Transitions in Data
 ---
 
 Computer vision sits inside [AI]({{ '/wiki/ai/' | relative_url }}) and
@@ -205,7 +205,7 @@ They should also see the baseline and metric. Error analysis,
 deployment path, and operating constraints need to be visible too. The broader
 portfolio standard lives in
 [machine learning portfolio projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
-and [career transition]({{ '/wiki/career-transition/' | relative_url }}).
+and [career transition]({{ '/wiki/career-transitions-in-data/' | relative_url }}).
 
 ## Related Pages
 

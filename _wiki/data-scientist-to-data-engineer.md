@@ -10,7 +10,7 @@ related_wiki:
   - Data Engineer vs Data Scientist
   - Data Engineer Role
   - Data Engineering
-  - Data Engineering Roadmap
+  - Data Engineer Roadmap
   - Data Engineering Portfolio Projects
   - Data Quality and Observability
   - MLOps
@@ -37,7 +37,7 @@ also means tests, backfills, and recovery paths
 ([Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})).
 
 Use this roadmap as a transition guide, then go deeper with
-[Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }}),
+[Data Engineering Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }}),
 [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}),
 and
 [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }}).
@@ -98,7 +98,7 @@ same path.
 For a data scientist, that means turning exploration code into reusable
 workflows. The workflows should extract and validate data. They should also
 load, configure, log, and run from the command line
-([Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})).
+([Data Engineering Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }})).
 
 Feature thinking is another advantage. The
 [Data Engineer vs Data Scientist]({{ '/wiki/data-engineer-vs-data-scientist/' | relative_url }})
@@ -296,7 +296,7 @@ Build in this order:
 
 1. Strengthen SQL around table grain, window functions, date logic,
    incremental models, validation queries, and marts
-   ([Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})).
+   ([Data Engineering Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }})).
 2. Turn Python notebooks into scripts or packages that extract, validate, load,
    log, configure, and test data
    ([Build a Data Engineering Career]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }})).

@@ -7,7 +7,7 @@ summary: "A practical transition guide for becoming a data engineer without prio
 search_intent: "People searching for how to become a data engineer with no experience want a practical beginner path: which skills to learn first, what portfolio project proves readiness, how to explain adjacent experience, and how to prepare for interviews."
 related_wiki:
   - Data Engineer Role
-  - Data Engineering Roadmap
+  - Data Engineer Roadmap
   - Data Engineering Portfolio Projects
   - Career Transitions in Data
   - Job Search
@@ -39,7 +39,7 @@ job search to explain the transition.
 
 For role scope and a broader skill map, read
 [Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }}) and
-[Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }}).
+[Data Engineering Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }}).
 The project evidence should connect to
 [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
 and
@@ -70,7 +70,7 @@ Your first target should prove that you can:
 - document setup, table meaning, consumer needs, tradeoffs, and recovery steps
 
 This maps to the
-[Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
+[Data Engineering Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }})
 without pretending that a beginner must master every production platform before
 applying.
 
@@ -365,7 +365,7 @@ apply, because interviews reveal which gaps matter most.
 The beginner path connects to these roadmap, portfolio, and job-search topics:
 
 - [Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }})
-- [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
+- [Data Engineering Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }})
 - [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
 - [Career Transitions in Data]({{ '/wiki/career-transitions-in-data/' | relative_url }})
 - [Job Search]({{ '/wiki/job-search/' | relative_url }})

@@ -11,7 +11,7 @@ related:
   - Data Products
   - Evaluation
   - Governance
-  - AI Agents
+  - Agent Engineering
   - Prompt Engineering
   - Responsible AI and Governance
 ---

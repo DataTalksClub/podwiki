@@ -26,7 +26,7 @@ related_wiki:
   - MLOps Roadmap
   - Developer Experience
   - Job Search
-  - Career Transition
+  - Career Transitions in Data
 ---
 
 Software engineers moving into machine learning don't need to throw away their
@@ -351,7 +351,7 @@ you build a ranking model, explain what product metric could improve and what
 guardrail metric could get worse. Link that work back to
 [Machine Learning]({{ '/wiki/machine-learning/' | relative_url }}),
 [Evaluation]({{ '/wiki/evaluation/' | relative_url }}), and
-[Career Transition]({{ '/wiki/career-transition/' | relative_url }}) so the
+[Career Transition]({{ '/wiki/career-transitions-in-data/' | relative_url }}) so the
 project reads as applied ML, not only software packaging.
 
 ## Production Judgment
@@ -525,5 +525,5 @@ sit next to this guide.
 - [Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }})
 - [Production ML Project Checklist]({{ '/wiki/production-ml-project-checklist/' | relative_url }})
 - [ML System Design Documents]({{ '/wiki/ml-system-design-documents/' | relative_url }})
-- [Career Transition]({{ '/wiki/career-transition/' | relative_url }})
+- [Career Transition]({{ '/wiki/career-transitions-in-data/' | relative_url }})
 

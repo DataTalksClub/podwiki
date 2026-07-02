@@ -8,7 +8,7 @@ related:
   - Data Engineer vs Data Scientist
   - Analytics Engineering
   - DataOps
-  - Data Engineering Roadmap
+  - Data Engineer Roadmap
   - Self-Service Data Platforms
   - Data Engineering Portfolio Projects
 ---
@@ -90,7 +90,7 @@ describes a data identity crisis between platform engineering and
 product-facing data engineering. Platform data engineers build shared
 infrastructure, standards, and reliability. Product data engineers work closer
 to domains, metrics, stakeholders, and data products. That distinction matters
-for [data engineering roadmaps]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
+for [data engineering roadmaps]({{ '/wiki/data-engineer-roadmap/' | relative_url }})
 because the two paths reward different projects and interview evidence.
 
 Roksolana's episode puts the role closer to distributed systems and large-scale
@@ -109,7 +109,7 @@ programs can delay Spark, Kafka, and Kubernetes until the core is solid. In
 [Data Engineering Job Prep and Interview Guide]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }}),
 the 1:20 section adds Docker, Airflow, and warehouses as visible hiring
 signals. That version of the role is close to
-[data engineering learning paths]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
+[data engineering learning paths]({{ '/wiki/data-engineer-roadmap/' | relative_url }})
 and [data engineering portfolio projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }}).
 
 For data scientists, the transition version of this entry path is the
@@ -269,7 +269,7 @@ and role boundaries.
 
 - [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }})
 - [Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
-- [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
+- [Data Engineering Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }})
 - [Data Engineering Portfolio Projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
 - [Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }})
 - [Data Engineer vs Data Scientist]({{ '/wiki/data-engineer-vs-data-scientist/' | relative_url }})
