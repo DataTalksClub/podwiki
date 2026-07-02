@@ -38,7 +38,7 @@ Agents should consider this episode when working on career transition, product d
 
 Use these links to connect the episode to guest notes.
 
-- [Sara Menefee]({{ '/people/saramenefee/' | relative_url }})
+- [Sara Menefee](https://datatalks.club/people/saramenefee.html)
 
 ## Key Concepts
 

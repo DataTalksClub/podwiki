@@ -28,7 +28,7 @@ behavior. The handoff matters most when a model, metric, or data product needs
 both reliable inputs and clear interpretation.
 
 Start with
-[Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }}).
+[Data Team Roles Explained](https://datatalks.club/podcast/data-team-roles.html).
 At 11:17, the episode separates data scientists from analysts through
 prediction and product integration. At 13:58, data engineers appear as the
 people who make product data usable without burdening production systems. At
@@ -73,22 +73,22 @@ Choose data engineering when a team can't trust the supply of data. Late data,
 slow data, and expensive data point toward data engineering ownership.
 The same is true for undocumented tables, schema drift, and hard reprocessing.
 
-[Roksolana Diachuk]({{ '/people/roksolanadiachuk/' | relative_url }}) gives the
+[Roksolana Diachuk](https://datatalks.club/people/roksolanadiachuk.html) gives the
 direct comparison in
-[Big Data Engineer vs Data Scientist]({{ '/podcasts/big-data-engineer-vs-data-scientist/' | relative_url }}).
+[Big Data Engineer vs Data Scientist](https://datatalks.club/podcast/big-data-engineer-vs-data-scientist.html).
 At 4:26 and 6:38, data engineering includes ETL and HDFS or S3. At 7:18,
 Impala, Spark optimization, and cluster resources belong there too. At 39:09
 and 43:37, monitoring and schema governance enter the same work.
 
-[Jeff Katz]({{ '/people/jeffkatz/' | relative_url }}) gives the junior-skill
+[Jeff Katz](https://datatalks.club/people/jeffkatz.html) gives the junior-skill
 version in
-[Build a Data Engineering Career]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }}).
+[Build a Data Engineering Career](https://datatalks.club/podcast/data-engineering-career-path-and-skills.html).
 At 23:35, the foundation is Python, SQL, and cloud fundamentals. Orchestration
 belongs in that foundation too. At 44:21 and 45:14, SQL depth and data modeling
 matter before a candidate chases every distributed system tool.
 
 Portfolio evidence should show a working data path. In
-[Data Engineering Job Prep]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }}),
+[Data Engineering Job Prep](https://datatalks.club/podcast/get-data-engineering-job-prep-and-interview.html),
 Jeff asks for Python, SQL, and Docker around 1:20 and 2:22. Airflow and
 warehouses appear around 2:46 and 7:46. He also asks for code quality, tests,
 and working pipelines.
@@ -106,16 +106,16 @@ deployment awareness and pipeline input-output literacy appear in the same
 role. That doesn't make the data scientist the pipeline owner. It means the
 data scientist needs enough engineering literacy to collaborate.
 
-[Oleg Novikov]({{ '/people/olegnovikov/' | relative_url }}) gives the interview
+[Oleg Novikov](https://datatalks.club/people/olegnovikov.html) gives the interview
 version in
-[Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }}).
+[Data Science Interview Guide](https://datatalks.club/podcast/data-science-interview-and-cv-guide.html).
 At 15:29, he separates product data science from
 machine-learning-engineering-heavy roles. At 32:03 and 36:38, interviews test
 business goals, metrics, and ML knowledge. SQL and coding still matter.
 
-[Ksenia Legostay]({{ '/people/ksenialegostay/' | relative_url }}) shows the
+[Ksenia Legostay](https://datatalks.club/people/ksenialegostay.html) shows the
 transition path in
-[Project Manager to Data Scientist]({{ '/podcasts/project-manager-to-data-scientist/' | relative_url }}).
+[Project Manager to Data Scientist](https://datatalks.club/podcast/project-manager-to-data-scientist.html).
 At 7:30 and 13:00, her path combines programming and statistics. At 30:20 and
 41:07, domain expertise, CRISP-DM framing, and production awareness appear in
 the same transition.
@@ -129,9 +129,9 @@ batch-versus-streaming choices. At 22:51 and 23:40, feature pipelines, MLflow,
 and Kubeflow appear in the same example. Kubernetes and ML engineer handoffs
 appear there too.
 
-[Simon Stiebellehner]({{ '/people/simonstiebellehner/' | relative_url }})
+[Simon Stiebellehner](https://datatalks.club/people/simonstiebellehner.html)
 shows the platform version in
-[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
+[Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html).
 At 21:03, he names the data science path from exploration to training and
 evaluation. At 29:41 and 30:32, experiment tracking and a model registry make
 that work reproducible. At 31:15 and 54:15, batch inference, online serving,
@@ -160,15 +160,15 @@ Jeff's interview-prep episode covers SQL and Python at 7:46 and 9:41.
 Take-homes, database concepts, and Airflow appear later in the same path.
 Candidates also need object-oriented code and project explanation.
 
-[Nicolas Rassam]({{ '/people/nicolasrassam/' | relative_url }}) adds cloud
+[Nicolas Rassam](https://datatalks.club/people/nicolasrassam.html) adds cloud
 fundamentals and project storytelling in
-[Hiring Data Engineers in Europe]({{ '/podcasts/hiring-for-data-engineering-jobs-in-europe/' | relative_url }})
+[Hiring Data Engineers in Europe](https://datatalks.club/podcast/hiring-for-data-engineering-jobs-in-europe.html)
 at 31:16 and 39:41. At 44:35 and 54:25, he adds portfolio or GitHub evidence.
 At 55:53 and 58:05, he adds domain fit.
 
-[Slawomir Tulski]({{ '/people/slawomirtulski/' | relative_url }}) adds a newer
+[Slawomir Tulski](https://datatalks.club/people/slawomirtulski.html) adds a newer
 data-engineering split in
-[Data Engineer Career in 2026]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }}).
+[Data Engineer Career in 2026](https://datatalks.club/podcast/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for.html).
 At 11:54, platform data engineering and product-facing data engineering need
 different evidence. At 25:33-30:56, cost awareness and avoiding overbuilt
 platforms become senior signals.
@@ -178,9 +178,9 @@ episode asks candidates to tailor the story to the role spectrum. Product data
 science, ML-heavy data science, and analytics-heavy data science don't test the
 same evidence.
 
-[Tereza Iofciu]({{ '/people/terezaiofciu/' | relative_url }}) gives the title
+[Tereza Iofciu](https://datatalks.club/people/terezaiofciu.html) gives the title
 warning in
-[Data Science Job Red Flags]({{ '/podcasts/data-science-job-red-flags-and-mismatched-roles/' | relative_url }}).
+[Data Science Job Red Flags](https://datatalks.club/podcast/data-science-job-red-flags-and-mismatched-roles.html).
 At 20:06 and 23:01, she recommends checking team structure and objectives
 before trusting the job title. At 27:18 and 30:20, responsibilities, data
 infrastructure, and analytics or engineering support matter too.

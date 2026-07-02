@@ -19,5 +19,5 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Vadim Smolyakov]({ '/people/vadimsmolyakov/' | relative_url }).
+[Vadim Smolyakov](https://datatalks.club/people/vadimsmolyakov.html).
 

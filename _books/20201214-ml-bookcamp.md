@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Alexey Grigorev]({ '/people/alexeygrigorev/' | relative_url }).
+[Alexey Grigorev](https://datatalks.club/people/alexeygrigorev.html).
 
 ## Discussion Archive
 

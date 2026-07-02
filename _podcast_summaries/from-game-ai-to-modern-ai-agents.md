@@ -38,7 +38,7 @@ Agents should consider this episode when working on LLMs, AI, machine learning.
 
 Use these links to connect the episode to guest notes.
 
-- [Micheal Lanham]({{ '/people/micheallanham/' | relative_url }})
+- [Micheal Lanham](https://datatalks.club/people/micheallanham.html)
 
 ## Key Concepts
 

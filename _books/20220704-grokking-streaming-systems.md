@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Josh Fischer]({ '/people/joshfischer/' | relative_url }), [Ning Wang]({ '/people/ningwang/' | relative_url }).
+[Josh Fischer](https://datatalks.club/people/joshfischer.html), [Ning Wang](https://datatalks.club/people/ningwang.html).
 
 ## Discussion Archive
 

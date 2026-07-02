@@ -38,7 +38,7 @@ Agents should consider this episode when working on data engineering, MLOps, fra
 
 Use these links to connect the episode to guest notes.
 
-- [Angela Ramirez]({{ '/people/angelaramirez/' | relative_url }})
+- [Angela Ramirez](https://datatalks.club/people/angelaramirez.html)
 
 ## Key Concepts
 

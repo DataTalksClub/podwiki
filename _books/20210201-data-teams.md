@@ -19,7 +19,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Jesse Anderson]({ '/people/jesseanderson/' | relative_url }).
+[Jesse Anderson](https://datatalks.club/people/jesseanderson.html).
 
 ## Discussion Archive
 

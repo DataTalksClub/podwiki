@@ -25,8 +25,8 @@ understand the work or run the project. They may also need to review a decision
 or continue independently.
 
 The strongest writing-specific discussion is
-[Technical Writing for Data Scientists]({{ '/podcasts/technical-writing-for-data-scientists/' | relative_url }}).
-[Eugene Yan]({{ '/people/eugeneyan/' | relative_url }}) starts from early blog
+[Technical Writing for Data Scientists](https://datatalks.club/podcast/technical-writing-for-data-scientists.html).
+[Eugene Yan](https://datatalks.club/people/eugeneyan.html) starts from early blog
 posts and meetups at 6:00, then frames writing as learning, sharing, and being
 useful to future readers at 9:30. At 14:00, he narrows the audience from
 "everyone" to a peer, future teammate, or hiring manager. At 16:30, he treats
@@ -52,18 +52,18 @@ understand a tradeoff or decide what to try next. Structure and examples make
 the explanation usable rather than merely polished. Code, screenshots, and
 diagrams can add the context a reader needs.
 
-[Angelica Lo Duca]({{ '/people/angelicaloduca/' | relative_url }}) makes that
+[Angelica Lo Duca](https://datatalks.club/people/angelicaloduca.html) makes that
 boundary explicit in
-[Practical Data Journalism]({{ '/podcasts/data-journalism-python-visualization-storytelling/' | relative_url }}).
+[Practical Data Journalism](https://datatalks.club/podcast/data-journalism-python-visualization-storytelling.html).
 At 7:43 and 8:01, she defines data journalism as data-driven news and
 general-audience storytelling. At 24:35, she separates technical writing as a
 how-to form built around clarity and audience. At 40:47, she structures
 articles around the problem, the solution, and the result. She adds code
 repositories when the reader needs to reproduce the work.
 
-[Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }}) applies
+[Hugo Bowne-Anderson](https://datatalks.club/people/hugobowneanderson.html) applies
 the same reader-first standard to tutorials in
-[DevRel Role for Machine Learning]({{ '/podcasts/devrel-open-source-machine-learning/' | relative_url }}).
+[DevRel Role for Machine Learning](https://datatalks.club/podcast/devrel-open-source-machine-learning.html).
 At 43:14, he starts tutorial design with audience and goals. Technical writing
 therefore sits beside [communication]({{ '/wiki/communication/' | relative_url }})
 and [developer experience]({{ '/wiki/developer-experience/' | relative_url }}).
@@ -74,7 +74,7 @@ depend on that reader.
 ## Audience, Outline, and Cadence
 
 Eugene gives the clearest reusable writing workflow in
-[Technical Writing for Data Scientists]({{ '/podcasts/technical-writing-for-data-scientists/' | relative_url }}).
+[Technical Writing for Data Scientists](https://datatalks.club/podcast/technical-writing-for-data-scientists.html).
 At 20:00, he describes a weekly cadence. At 25:00, he starts with an outline so
 ideas can be selected, ordered, and tested before drafting. At 29:00, he talks
 about time budget and avoiding endless editing. At 33:00, he discusses idea
@@ -109,7 +109,7 @@ model. They should also see when it's about a pipeline, production system, or
 business decision.
 
 At 56:30 in
-[Technical Writing for Data Scientists]({{ '/podcasts/technical-writing-for-data-scientists/' | relative_url }}),
+[Technical Writing for Data Scientists](https://datatalks.club/podcast/technical-writing-for-data-scientists.html),
 Eugene turns the guidance toward portfolios. He recommends a README and
 quickstart, plus a repo tour. Those artifacts should let
 another person understand the project without private context. The same guidance
@@ -123,8 +123,8 @@ can be stronger when it names the problem, shows the run path, and explains
 tradeoffs.
 
 Tool education has the same requirement. In
-[Developer Advocacy Through Community Impact]({{ '/podcasts/practical-devrel-demofirst-education-and-open-source/' | relative_url }}),
-[Will Russell]({{ '/people/willrussell/' | relative_url }}) describes Learn with
+[Developer Advocacy Through Community Impact](https://datatalks.club/podcast/practical-devrel-demofirst-education-and-open-source.html),
+[Will Russell](https://datatalks.club/people/willrussell.html) describes Learn with
 Kestra at 57:22. His examples include Docker, Postgres, and Git. A reader often
 needs the surrounding setup as much as the main product.
 
@@ -145,9 +145,9 @@ work because pipelines, models, dashboards, and metrics often outlive the person
 who first built them.
 
 The open-source documentation checklist from
-[Vincent Warmerdam]({{ '/people/vincentwarmerdam/' | relative_url }}) maps well
+[Vincent Warmerdam](https://datatalks.club/people/vincentwarmerdam.html) maps well
 to internal projects too. In
-[Contribute to Open Source ML]({{ '/podcasts/open-source-ml-contributions/' | relative_url }}),
+[Contribute to Open Source ML](https://datatalks.club/podcast/open-source-ml-contributions.html),
 the 22:20 chapter names README material and guides. It also names API reference
 and examples.
 For an internal [machine learning]({{ '/wiki/machine-learning/' | relative_url }})
@@ -171,10 +171,10 @@ shows the code path and result. A polished article with no technical choices
 gives less evidence than a plain README that lets someone run the project.
 
 Vincent makes public proof concrete in two open-source episodes. In
-[Open Source ML Tools]({{ '/podcasts/open-source-ml-tools-strategy-and-business-models/' | relative_url }}),
+[Open Source ML Tools](https://datatalks.club/podcast/open-source-ml-tools-strategy-and-business-models.html),
 the 23:29 chapter discusses open-source work as a hiring signal. At 27:24, he
 connects video production with communication practice. In
-[Contribute to Open Source ML]({{ '/podcasts/open-source-ml-contributions/' | relative_url }}),
+[Contribute to Open Source ML](https://datatalks.club/podcast/open-source-ml-contributions.html),
 the 34:00 chapter links talks and blogs to career growth. He also names meetups
 and open-source visibility.
 
@@ -183,7 +183,7 @@ and open-source visibility.
 Technical writing overlaps with DevRel, open source, and marketing because all
 three use public explanation. A useful piece should still help the reader
 succeed technically. In
-[DevRel Role for Machine Learning]({{ '/podcasts/devrel-open-source-machine-learning/' | relative_url }}),
+[DevRel Role for Machine Learning](https://datatalks.club/podcast/devrel-open-source-machine-learning.html),
 Hugo names technical fluency, writing, and community building as core
 [developer relations]({{ '/wiki/developer-relations/' | relative_url }}) skills
 at 31:41. At 37:21, he discusses writing improvement through practice,
@@ -194,7 +194,7 @@ talk, video, or conference session can all work when the format matches the goal
 and audience.
 
 Will's demo-first episode shows the same boundary from practice. In
-[Developer Advocacy Through Community Impact]({{ '/podcasts/practical-devrel-demofirst-education-and-open-source/' | relative_url }}),
+[Developer Advocacy Through Community Impact](https://datatalks.club/podcast/practical-devrel-demofirst-education-and-open-source.html),
 the 49:14 chapter ties developer advocacy to documentation, demos, and outreach.
 At 51:49, he describes a flow that starts with bullet points and demos. Writers
 then help turn the material into public teaching.
@@ -207,7 +207,7 @@ behavior.
 ## Open-Source Contribution Writing
 
 Open-source writing adds maintainer trust. In
-[Contribute to Open Source ML]({{ '/podcasts/open-source-ml-contributions/' | relative_url }}),
+[Contribute to Open Source ML](https://datatalks.club/podcast/open-source-ml-contributions.html),
 Vincent treats documentation as part of
 [open source]({{ '/wiki/open-source/' | relative_url }}) stewardship. At 22:20,
 he covers README material and guides. He also covers API reference and examples.

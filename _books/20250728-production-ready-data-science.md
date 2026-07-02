@@ -19,5 +19,5 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Khuyen Tran]({ '/people/khuyentran/' | relative_url }).
+[Khuyen Tran](https://datatalks.club/people/khuyentran.html).
 

@@ -38,7 +38,7 @@ Agents should consider this episode when working on data science, career develop
 
 Use these links to connect the episode to guest notes.
 
-- [Katie Bauer]({{ '/people/katiebauer/' | relative_url }})
+- [Katie Bauer](https://datatalks.club/people/katiebauer.html)
 
 ## Key Concepts
 

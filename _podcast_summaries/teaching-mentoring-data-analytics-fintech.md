@@ -38,7 +38,7 @@ Agents should consider this episode when working on data analytics, fintech, men
 
 Use these links to connect the episode to guest notes.
 
-- [Irina Brudaru]({{ '/people/irinabrudaru/' | relative_url }})
+- [Irina Brudaru](https://datatalks.club/people/irinabrudaru.html)
 
 ## Key Concepts
 

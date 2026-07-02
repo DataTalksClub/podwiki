@@ -15,7 +15,7 @@ Bartosz Mikulski is an AI and data engineer. His source bio emphasizes productio
 
 ## Podcast Contributions
 
-- [Production AI Engineering]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }}) adds implementation detail around production data pipelines, prompt optimization, caching, latency, cost, and testing for AI systems.
+- [Production AI Engineering](https://datatalks.club/podcast/production-ready-ai-engineering.html) adds implementation detail around production data pipelines, prompt optimization, caching, latency, cost, and testing for AI systems.
 
 ## Concepts Connected
 
@@ -30,4 +30,4 @@ Bartosz Mikulski is an AI and data engineer. His source bio emphasizes productio
 
 ## Podcast Discussions
 
-- [Production AI Engineering: Data Pipelines, Prompt Optimization and Caching]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }}). Related topics: [data engineering]({{ '/wiki/data-engineering/' | relative_url }}), [AI]({{ '/wiki/ai/' | relative_url }}), [LLMs]({{ '/wiki/llms/' | relative_url }}), [MLOps]({{ '/wiki/mlops/' | relative_url }}), [tools]({{ '/wiki/tools/' | relative_url }}).
+- [Production AI Engineering: Data Pipelines, Prompt Optimization and Caching](https://datatalks.club/podcast/production-ready-ai-engineering.html). Related topics: [data engineering]({{ '/wiki/data-engineering/' | relative_url }}), [AI]({{ '/wiki/ai/' | relative_url }}), [LLMs]({{ '/wiki/llms/' | relative_url }}), [MLOps]({{ '/wiki/mlops/' | relative_url }}), [tools]({{ '/wiki/tools/' | relative_url }}).

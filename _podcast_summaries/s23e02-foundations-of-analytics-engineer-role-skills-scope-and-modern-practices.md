@@ -38,7 +38,7 @@ Agents should consider this episode when working on data engineering, analytics 
 
 Use these links to connect the episode to guest notes.
 
-- [Juan Manuel Perafan]({{ '/people/juanmanuelperafan/' | relative_url }})
+- [Juan Manuel Perafan](https://datatalks.club/people/juanmanuelperafan.html)
 
 ## Key Concepts
 

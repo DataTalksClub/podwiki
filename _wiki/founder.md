@@ -34,9 +34,9 @@ covers the service-to-product path.
 
 ## Problem Selection
 
-[Elena Samuylova]({{ '/people/elenasamuylova/' | relative_url }}) gives the
+[Elena Samuylova](https://datatalks.club/people/elenasamuylova.html) gives the
 clearest warning in
-[How to Build a Successful ML Startup]({{ '/podcasts/building-mlops-startup/' | relative_url }}).
+[How to Build a Successful ML Startup](https://datatalks.club/podcast/building-mlops-startup.html).
 Around 7:23, she warns technical founders. Don't start with the wish to build a
 machine learning startup. Start with a painful workflow. Then ask whether
 [machine learning]({{ '/wiki/machine-learning/' | relative_url }}) is the right
@@ -46,18 +46,18 @@ In her grocery-store example, a team may think the problem is forecasting.
 Customer conversations may reveal that the store can't collect basic inventory
 data yet.
 
-[Carmine Paolino]({{ '/people/carminepaolino/' | relative_url }}) shows the
+[Carmine Paolino](https://datatalks.club/people/carminepaolino.html) shows the
 same move in retail. In
-[Build a Grocery Retail OS to Cut Supermarket Food Waste]({{ '/podcasts/launch-and-build-retail-startup/' | relative_url }}),
+[Build a Grocery Retail OS to Cut Supermarket Food Waste](https://datatalks.club/podcast/launch-and-build-retail-startup.html),
 FreshFlow started with a computer-vision idea, then watched fresh-product
 managers work in supermarkets. Around 5:46-13:16, Paolino describes shelf
 checks and stockroom counts as part of ordering. Weather, local events, and the
 fear of empty shelves also shaped the order. Around 24:47, the product moved
 toward a broader retail operating system because store work set the boundary.
 
-[Maria Bruckert]({{ '/people/mariabruckert/' | relative_url }}) adds the
+[Maria Bruckert](https://datatalks.club/people/mariabruckert.html) adds the
 regulated-market version in
-[Building Digital Health Startups]({{ '/podcasts/building-ai-digital-health-startups/' | relative_url }}).
+[Building Digital Health Startups](https://datatalks.club/podcast/building-ai-digital-health-startups.html).
 SQIN began with healthcare as a domain that needed technology help. Around
 2:05-6:11 and 12:20-24:08, she describes industry immersion, cold outreach, and
 accelerators. The founders also used clinical meetings and conversations with
@@ -76,9 +76,9 @@ failures that no one noticed. Evidently validated
 [model monitoring]({{ '/wiki/model-monitoring/' | relative_url }}) as a
 business problem because practitioners kept naming the same operational pain.
 
-[Sonal Goyal]({{ '/people/sonalgoyal/' | relative_url }}) gives the
+[Sonal Goyal](https://datatalks.club/people/sonalgoyal.html) gives the
 consulting-to-product version in
-[Building an Open-Source ML-Powered Identity Resolution Tool]({{ '/podcasts/building-open-source-data-product-for-identity-resolution/' | relative_url }}).
+[Building an Open-Source ML-Powered Identity Resolution Tool](https://datatalks.club/podcast/building-open-source-data-product-for-identity-resolution.html).
 Around 2:58 and 11:09, she traces Zingg to repeated identity-resolution
 problems across customer and supplier records. She also saw the gap in patient
 records and product catalogs. Around 21:51 and 23:00, proof-of-concept work
@@ -86,9 +86,9 @@ turned into a full-time product build and then a public release. The founder
 signal was repetition: several clients exposed the same gap in the modern data
 stack.
 
-[Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) validates
+[Adrian Brudaru](https://datatalks.club/people/adrianbrudaru.html) validates
 through teaching in
-[From Data Freelancer to Startup]({{ '/podcasts/from-data-freelancer-to-startup-open-source-products/' | relative_url }}).
+[From Data Freelancer to Startup](https://datatalks.club/podcast/from-data-freelancer-to-startup-open-source-products.html).
 Around 36:00-42:01, the DLT team ran a three-day workshop where about 60 Python
 users built an incremental pipeline. The team added checkpoints, live support,
 and a shared Codespaces setup. Participants learned the tool, and the founders
@@ -135,9 +135,9 @@ and AGPL licensing as part of the business model. The founder has to decide
 what stays public, what protects the company, and how users move from
 open-source adoption to a sustainable product.
 
-[Bela Wiertz]({{ '/people/belawiertz/' | relative_url }}) gives the investor
+[Bela Wiertz](https://datatalks.club/people/belawiertz.html) gives the investor
 view in
-[Early-Stage Investing in Open Source Developer Tools]({{ '/podcasts/investing-in-open-source-developer-tools/' | relative_url }}).
+[Early-Stage Investing in Open Source Developer Tools](https://datatalks.club/podcast/investing-in-open-source-developer-tools.html).
 Around 13:42-16:40, he frames open source as community-driven distribution and
 bottom-up developer adoption. Around 32:31-39:01, he says investors still look
 at the team and market need. They also check commercialization, user
@@ -193,7 +193,7 @@ Founders decide how value turns into revenue. Samuylova's Evidently model lets
 engineers and data scientists adopt the open-source tool first. Enterprises
 then pay for security, reliability, and scale. They may also pay for hosting,
 on-premise options, or a responsible vendor once the product matters in production
-([51:48-56:38]({{ '/podcasts/building-mlops-startup/' | relative_url }})).
+([51:48-56:38](https://datatalks.club/podcast/building-mlops-startup.html)).
 
 Brudaru separates open-source adoption from the paid product. Around 55:10 in
 the DLT episode, the team was still doing user research before building a paid
@@ -216,9 +216,9 @@ scalable company.
 ## Indie and Small-Business Paths
 
 Not every founder path in these episodes points to a venture-backed company.
-[Pauline Clavelloux]({{ '/people/paulineclavelloux/' | relative_url }}) covers
+[Pauline Clavelloux](https://datatalks.club/people/paulineclavelloux.html) covers
 the indie version. In
-[Indie Hacking and Bootstrapping Side Projects]({{ '/podcasts/data-scientist-and-indie-hacker-bootstrapping-side-projects/' | relative_url }}),
+[Indie Hacking and Bootstrapping Side Projects](https://datatalks.club/podcast/data-scientist-and-indie-hacker-bootstrapping-side-projects.html),
 around 7:23-18:45, she describes bootstrapping while keeping a day job. She
 splits time and builds crypto alerts from her own trading need. She also covers
 company setup, landing pages, legal work, and payments.

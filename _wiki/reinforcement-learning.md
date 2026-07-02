@@ -22,29 +22,29 @@ They also use it to show why robotics and autonomous driving need constraints.
 Business teams often choose simpler optimization or experimentation methods
 when they don't have a reliable simulator.
 
-For a structured introduction to the topic, the [Reinforcement Learning]({{ '/books/20210111-reinforcement-learning/' | relative_url }}) Book of the Week by Phil Winder covers industrial applications and the practical boundary between simulated environments and real-world deployment.
-[Grokking Deep Reinforcement Learning]({{ '/books/20210517-grokking-deep-reinforcement-learning/' | relative_url }})
+For a structured introduction to the topic, the [Reinforcement Learning](https://datatalks.club/books/20210111-reinforcement-learning.html) Book of the Week by Phil Winder covers industrial applications and the practical boundary between simulated environments and real-world deployment.
+[Grokking Deep Reinforcement Learning](https://datatalks.club/books/20210517-grokking-deep-reinforcement-learning.html)
 by Miguel Morales is a complementary learning path: it builds intuition for Q-learning, policy gradients, and actor-critic methods through annotated code and visual walkthroughs.
 
 Start with
-[Micheal Lanham]({{ '/people/micheallanham/' | relative_url }}) in
-[From Game AI to LLM Agents]({{ '/podcasts/from-game-ai-to-modern-ai-agents/' | relative_url }})
+[Micheal Lanham](https://datatalks.club/people/micheallanham.html) in
+[From Game AI to LLM Agents](https://datatalks.club/podcast/from-game-ai-to-modern-ai-agents.html)
 for the historical path from game AI and reinforcement learning to modern
 agents. Pair that with
-[Dan Becker]({{ '/people/danbecker/' | relative_url }}) in
-[Optimize Decisions with ML]({{ '/podcasts/machine-learning-decision-optimization/' | relative_url }})
+[Dan Becker](https://datatalks.club/people/danbecker.html) in
+[Optimize Decisions with ML](https://datatalks.club/podcast/machine-learning-decision-optimization.html)
 for the practical boundary. Reinforcement learning needs an environment where
 you can try actions and observe outcomes. For deployed physical systems, use
-[Aishwarya Jadhav]({{ '/people/aishwaryajadhav/' | relative_url }}) in
-[Applying Computer Vision Research]({{ '/podcasts/from-computer-vision-research-to-autonomous-driving-ai/' | relative_url }})
+[Aishwarya Jadhav](https://datatalks.club/people/aishwaryajadhav.html) in
+[Applying Computer Vision Research](https://datatalks.club/podcast/from-computer-vision-research-to-autonomous-driving-ai.html)
 to separate perception from behavior in robotics and self-driving systems.
 
 ## Agents, Objectives, and Modern Agent Language
 
-[Ranjitha Kulkarni]({{ '/people/ranjithakulkarni/' | relative_url }}) gives the
+[Ranjitha Kulkarni](https://datatalks.club/people/ranjithakulkarni.html) gives the
 cleanest bridge between older reinforcement-learning agents and current
 [AI agents]({{ '/wiki/agent-engineering/' | relative_url }}). In
-[Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}),
+[Building Agentic AI Systems](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html),
 the conversation compares current agent language with reinforcement-learning
 courses from the early 2010s. At 12:01, Ranjitha says the older agent was
 tasked with completing a goal or objective. Teams tuned it to improve
@@ -65,7 +65,7 @@ that distinction visible instead of treating every autonomous workflow as
 reinforcement learning.
 
 Lanham adds the historical arc. At 8:01 in
-[From Game AI to LLM Agents]({{ '/podcasts/from-game-ai-to-modern-ai-agents/' | relative_url }}),
+[From Game AI to LLM Agents](https://datatalks.club/podcast/from-game-ai-to-modern-ai-agents.html),
 he describes moving from sound design and waveform work into reinforcement
 learning. He names the University of Alberta as an important research center.
 
@@ -79,7 +79,7 @@ agents that act inside a constrained world.
 ## Simulators Decide What Is Feasible
 
 Becker sets the strongest practical boundary for reinforcement learning. In
-[Optimize Decisions with ML]({{ '/podcasts/machine-learning-decision-optimization/' | relative_url }}),
+[Optimize Decisions with ML](https://datatalks.club/podcast/machine-learning-decision-optimization.html),
 he contrasts prediction with deciding what to do next. At 21:58, he describes
 reinforcement learning as optimizing an objective in a complex environment. He
 also says the best-known breakthroughs, including game systems such as AlphaGo
@@ -97,9 +97,9 @@ A deployed system may contain predictions and rules. It may also include
 constraints and a simulator-like evaluation layer even when no reinforcement
 learner is trained.
 
-[Adam Sroka]({{ '/people/adamsroka/' | relative_url }}) makes the same
+[Adam Sroka](https://datatalks.club/people/adamsroka.html) makes the same
 constraint concrete from the metrics side. In
-[KPI Design and Metrics Strategy]({{ '/podcasts/ml-engineering-kpis-and-metrics-strategy/' | relative_url }}),
+[KPI Design and Metrics Strategy](https://datatalks.club/podcast/ml-engineering-kpis-and-metrics-strategy.html),
 he says at 56:35 that reinforcement learning is useful when a team has a good,
 cheap simulator. He adds that this case is rare. When historical data is useful
 and the team's actions don't strongly change the world, he uses backtesting as
@@ -112,7 +112,7 @@ decision evaluation rather than treating it as a universal optimizer.
 
 Sroka's laser-design story shows why reward design isn't separate from
 measurement. At 2:22 in
-[KPI Design and Metrics Strategy]({{ '/podcasts/ml-engineering-kpis-and-metrics-strategy/' | relative_url }}),
+[KPI Design and Metrics Strategy](https://datatalks.club/podcast/ml-engineering-kpis-and-metrics-strategy.html),
 he says he used reinforcement learning while designing laser components during
 his computational physics doctorate. At 9:00, he explains the setup. He had
 ray-tracing software and MATLAB automation, then attached a rudimentary
@@ -130,9 +130,9 @@ reinforcement learner can search for a system that hits those thresholds.
 The harder problem is comparing many acceptable solutions and weighting the
 metrics into a merit function.
 
-[Loris Marini]({{ '/people/lorismarini/' | relative_url }}) adds a second
+[Loris Marini](https://datatalks.club/people/lorismarini.html) adds a second
 research example in
-[Practical Skills for Data Professionals in SaaS]({{ '/podcasts/data-professionals-business-skills-in-saas/' | relative_url }}).
+[Practical Skills for Data Professionals in SaaS](https://datatalks.club/podcast/data-professionals-business-skills-in-saas.html).
 At 8:30, he describes using reinforcement learning for a hard optimization
 problem. Actors took competing actions until a network converged to a
 near-optimal solution in a small number of iterations.
@@ -145,7 +145,7 @@ learn from.
 ## Robotics and Autonomous Driving Need Constraints
 
 Jadhav separates the perception and behavior parts of autonomous systems. In
-[Applying Computer Vision Research]({{ '/podcasts/from-computer-vision-research-to-autonomous-driving-ai/' | relative_url }}),
+[Applying Computer Vision Research](https://datatalks.club/podcast/from-computer-vision-research-to-autonomous-driving-ai.html),
 she says at 45:37 that her first interaction with reinforcement learning was
 through college robotics. Reinforcement learning remains important in robotics.
 At 45:55, she defines the split. Computer vision helps the agent understand the
@@ -171,8 +171,8 @@ staged validation before it can act around people.
 
 Guests also describe simpler methods when the problem only needs a
 limited version of reinforcement-learning thinking. In
-[MLOps Architect Guide]({{ '/podcasts/mlops-model-monitoring-data-observability/' | relative_url }}),
-[Danny Leybzon]({{ '/people/dannyleybzon/' | relative_url }}) discusses the
+[MLOps Architect Guide](https://datatalks.club/podcast/mlops-model-monitoring-data-observability.html),
+[Danny Leybzon](https://datatalks.club/people/dannyleybzon.html) discusses the
 explore-exploit tradeoff at 45:49. He brings up Thompson sampling for the
 multi-armed bandit problem and calls it much simpler to implement than a full
 reinforcement-learning neural network.

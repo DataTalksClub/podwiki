@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Luis Serrano]({ '/people/luisserrano/' | relative_url }).
+[Luis Serrano](https://datatalks.club/people/luisserrano.html).
 
 ## Discussion Archive
 

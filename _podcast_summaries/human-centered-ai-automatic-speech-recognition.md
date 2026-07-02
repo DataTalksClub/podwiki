@@ -38,7 +38,7 @@ Agents should consider this episode when working on AI, NLP, LLMs.
 
 Use these links to connect the episode to guest notes.
 
-- [Katarzyna Foremniak]({{ '/people/katarzynaforemniak/' | relative_url }})
+- [Katarzyna Foremniak](https://datatalks.club/people/katarzynaforemniak.html)
 
 ## Key Concepts
 

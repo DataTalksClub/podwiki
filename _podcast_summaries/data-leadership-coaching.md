@@ -38,7 +38,7 @@ Agents should consider this episode when working on leadership, career transitio
 
 Use these links to connect the episode to guest notes.
 
-- [Tereza Iofciu]({{ '/people/terezaiofciu/' | relative_url }})
+- [Tereza Iofciu](https://datatalks.club/people/terezaiofciu.html)
 
 ## Key Concepts
 

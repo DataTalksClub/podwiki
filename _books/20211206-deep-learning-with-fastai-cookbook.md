@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Mark Ryan]({ '/people/markryan/' | relative_url }).
+[Mark Ryan](https://datatalks.club/people/markryan.html).
 
 ## Discussion Archive
 

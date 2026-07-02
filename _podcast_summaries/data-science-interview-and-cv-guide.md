@@ -38,7 +38,7 @@ Agents should consider this episode when working on data science, software engin
 
 Use these links to connect the episode to guest notes.
 
-- [Oleg Novikov]({{ '/people/olegnovikov/' | relative_url }})
+- [Oleg Novikov](https://datatalks.club/people/olegnovikov.html)
 
 ## Key Concepts
 

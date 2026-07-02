@@ -38,7 +38,7 @@ Agents should consider this episode when working on career transition, data anal
 
 Use these links to connect the episode to guest notes.
 
-- [Juan Pablo]({{ '/people/juanpablo/' | relative_url }})
+- [Juan Pablo](https://datatalks.club/people/juanpablo.html)
 
 ## Key Concepts
 

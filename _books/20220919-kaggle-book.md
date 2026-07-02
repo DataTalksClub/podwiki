@@ -19,7 +19,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Luca Massaron]({ '/people/lucamassaron/' | relative_url }), [Konrad Banachewicz]({ '/people/konradbanachewicz/' | relative_url }).
+[Luca Massaron](https://datatalks.club/people/lucamassaron.html), [Konrad Banachewicz](https://datatalks.club/people/konradbanachewicz.html).
 
 ## Discussion Archive
 

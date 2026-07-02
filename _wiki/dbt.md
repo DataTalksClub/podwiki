@@ -23,16 +23,16 @@ That project
 tracks dependencies and version control. It also keeps tests, documentation,
 and macros with the SQL models.
 
-[Victoria Perez Mola]({{ '/people/victoriaperezmola/' | relative_url }})
+[Victoria Perez Mola](https://datatalks.club/people/victoriaperezmola.html)
 gives the most direct explanation in
-[Analytics Engineer Skills and Tools at 6:49-10:04]({{ '/podcasts/analytics-engineer-skills-tools/' | relative_url }}).
+[Analytics Engineer Skills and Tools at 6:49-10:04](https://datatalks.club/podcast/analytics-engineer-skills-tools.html).
 She describes dbt as the tool her team uses for modeling data after it arrives
 in Snowflake, alongside Looker and ingestion tooling. dbt keeps SQL files in a
 code workflow and manages model dependencies. It builds a DAG, runs tests, and
 exposes documentation. DataTalks.Club therefore treats dbt as a practical
 bridge between analytics work and software engineering habits.
 Rui Machado and Helder Russa's
-[Analytics Engineering with SQL and DBT]({{ '/books/20231106-analytics-engineering-with-sql-and-dbt/' | relative_url }})
+[Analytics Engineering with SQL and DBT](https://datatalks.club/books/20231106-analytics-engineering-with-sql-and-dbt.html)
 covers the same warehouse-side SQL modeling, testing, and DAG-based project
 workflow that Victoria describes here.
 
@@ -40,9 +40,9 @@ workflow that Victoria describes here.
 
 dbt belongs most naturally to warehouse-side transformation in the
 [ETL vs ELT]({{ '/wiki/etl-vs-elt/' | relative_url }}) discussion.
-[Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) explains that
+[Natalie Kwong](https://datatalks.club/people/nataliekwong.html) explains that
 move in
-[ETL vs ELT and the Modern Data Stack at 7:57-12:39]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}).
+[ETL vs ELT and the Modern Data Stack at 7:57-12:39](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html).
 She contrasts transforming before load with loading first and transforming in
 analytical storage. ELT gives analysts and analytics engineers more room to
 adjust business logic after raw data is available.
@@ -54,9 +54,9 @@ data marts. She also places it near orchestration, CDC, and reverse data flows
 ([Modern Data Stack]({{ '/wiki/modern-data-stack/' | relative_url }}),
 [Reverse ETL]({{ '/wiki/reverse-etl/' | relative_url }})).
 
-[Santona Tuli]({{ '/people/santonatuli/' | relative_url }}) draws the same
+[Santona Tuli](https://datatalks.club/people/santonatuli.html) draws the same
 boundary from the pipeline side in
-[Modern Data Pipeline Architecture at 10:48 and 24:57]({{ '/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/' | relative_url }}).
+[Modern Data Pipeline Architecture at 10:48 and 24:57](https://datatalks.club/podcast/modern-data-pipelines-orchestration-ingestion-modeling.html).
 Her Upsolver comparison separates ingestion-focused pipeline authoring from
 dbt-style SQL modeling. dbt can author transformations, but another system
 still loads data, handles streaming or ordering guarantees, and may provide the
@@ -68,11 +68,11 @@ Perez Mola centers dbt on workflow because SQL models live in files. Teams can
 review changes in Git and see how a model changed over time. dbt resolves
 dependencies between models and renders the DAG. Teams can see what a change
 will affect before it reaches dashboards or downstream tables
-([Analytics Engineer Skills and Tools at 6:49-10:04]({{ '/podcasts/analytics-engineer-skills-tools/' | relative_url }})).
+([Analytics Engineer Skills and Tools at 6:49-10:04](https://datatalks.club/podcast/analytics-engineer-skills-tools.html)).
 
-[Nikola Maksimovic]({{ '/people/nikolamaksimovic/' | relative_url }}) shows the
+[Nikola Maksimovic](https://datatalks.club/people/nikolamaksimovic.html) shows the
 implementation side in
-[From Marketing to Analytics Engineering at 18:34-22:08]({{ '/podcasts/from-marketing-to-analytics-engineering-sql-dbt-career-switch/' | relative_url }}).
+[From Marketing to Analytics Engineering at 18:34-22:08](https://datatalks.club/podcast/from-marketing-to-analytics-engineering-sql-dbt-career-switch.html).
 His transition from marketing into BI and analytics engineering included a dbt
 migration and data modeling. It also included Looker work, product analytics,
 and A/B testing support.
@@ -82,9 +82,9 @@ out of scattered reports and into modeled transformation layers. His later
 discussion of wide and narrow tables at 30:28 keeps the focus on model design,
 not tool adoption alone.
 
-[Juan Manuel Perafan]({{ '/people/juanmanuelperafan/' | relative_url }})
+[Juan Manuel Perafan](https://datatalks.club/people/juanmanuelperafan.html)
 pushes the same point in
-[Foundations of the Analytics Engineer Role at 11:03 and 49:50-55:42]({{ '/podcasts/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices/' | relative_url }}).
+[Foundations of the Analytics Engineer Role at 11:03 and 49:50-55:42](https://datatalks.club/podcast/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices.html).
 He treats dbt as one way to put analytics engineering into practice, not as the
 definition of the job. The craft is still translating business reality into
 clean data systems. dbt helps when the team needs those systems to be tested,
@@ -99,7 +99,7 @@ SQL tests.
 A dbt test is a query: if the query returns failing rows, dbt can
 warn or error. Her team checks sources before building dependent models. Bad
 source data shouldn't silently flow into the modeled layer
-([Analytics Engineer Skills and Tools at 38:53]({{ '/podcasts/analytics-engineer-skills-tools/' | relative_url }})).
+([Analytics Engineer Skills and Tools at 38:53](https://datatalks.club/podcast/analytics-engineer-skills-tools.html)).
 
 Those tests put dbt close to
 [data quality and observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).
@@ -115,15 +115,15 @@ checking with automated tests for SQL logic and data assumptions.
 
 He describes generic tests and singular SQL tests as ways to make analytics
 work safer. Unit-test style checks belong in the same testing conversation
-([Foundations of the Analytics Engineer Role at 38:41-46:34]({{ '/podcasts/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices/' | relative_url }})).
+([Foundations of the Analytics Engineer Role at 38:41-46:34](https://datatalks.club/podcast/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices.html)).
 His argument lines up with
 [CI/CD]({{ '/wiki/ci-cd/' | relative_url }}) and
 [DataOps]({{ '/wiki/dataops/' | relative_url }}): tests should run before bad
 changes reach consumers, not only after a stakeholder reports a broken metric.
 
-[Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }}) puts the
+[Christopher Bergh](https://datatalks.club/people/christopherbergh.html) puts the
 same testing habit inside a broader DataOps operating model in
-[Mastering DataOps at 33:47 and 48:25]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }}).
+[Mastering DataOps at 33:47 and 48:25](https://datatalks.club/podcast/dataops-automation-and-reliable-data-pipelines.html).
 He names version control and automated tests among the ways data teams reduce
 fragile releases. CI/CD, SQL tests, and dbt belong in that same toolkit.
 
@@ -135,7 +135,7 @@ also record tags and custom metadata.
 
 dbt docs can show model code, generated documentation, and dependencies. Before
 changing a table, an analytics engineer can look at what depends on it
-([Analytics Engineer Skills and Tools at 50:46]({{ '/podcasts/analytics-engineer-skills-tools/' | relative_url }})).
+([Analytics Engineer Skills and Tools at 50:46](https://datatalks.club/podcast/analytics-engineer-skills-tools.html)).
 
 Perez Mola also marks a limit by distinguishing documentation from data
 profiling. dbt can document models and expose lineage, but it isn't the main
@@ -151,7 +151,7 @@ Macros let teams reuse transformation logic instead of copying SQL across
 models. Perez Mola compares dbt macros to user-defined functions in SQL
 systems. Her example is practical: standardizing city names or similar repeated
 cleanup logic across tables
-([Analytics Engineer Skills and Tools at 36:44]({{ '/podcasts/analytics-engineer-skills-tools/' | relative_url }})).
+([Analytics Engineer Skills and Tools at 36:44](https://datatalks.club/podcast/analytics-engineer-skills-tools.html)).
 
 Macros remove repeated transformation code, but they don't eliminate the need
 for clear modeling. Maksimovic's dbt migration story keeps the focus on table
@@ -167,12 +167,12 @@ dbt builds a model DAG, but that doesn't make it the whole orchestrator for a
 data platform. Perez Mola notes that dbt Cloud can schedule runs. Kwong places
 Airflow around the broader flow of ingestion and transformation at
 30:59-31:31 in
-[ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}).
+[ETL vs ELT and the Modern Data Stack](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html).
 
 Tuli brings the same boundary from her Airflow and pipeline background. Modern
 data pipelines still need orchestration, ingestion, and staging. They also need
 ordering guarantees and recovery outside the transformation project
-([Modern Data Pipeline Architecture at 7:08-13:25 and 37:10]({{ '/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/' | relative_url }})).
+([Modern Data Pipeline Architecture at 7:08-13:25 and 37:10](https://datatalks.club/podcast/modern-data-pipelines-orchestration-ingestion-modeling.html)).
 
 Use [Apache Airflow]({{ '/wiki/apache-airflow/' | relative_url }}) for the
 orchestration-specific tool discussion. In a typical warehouse stack, Airflow
@@ -188,7 +188,7 @@ Guests agree that dbt made SQL transformation more engineerable, but they don't
 treat it as the whole discipline.
 
 Perez Mola links dbt closely to the rise of analytics engineering at 30:06 in
-[Analytics Engineer Skills and Tools]({{ '/podcasts/analytics-engineer-skills-tools/' | relative_url }}).
+[Analytics Engineer Skills and Tools](https://datatalks.club/podcast/analytics-engineer-skills-tools.html).
 She presents it as the everyday tool for modeling, tests, DAGs, and docs.
 Maksimovic shows how learning dbt can anchor a career move from business or
 marketing work into analytics engineering. That path still requires SQL, BI,
@@ -201,14 +201,14 @@ can also use the
 [Data Analyst to Analytics Engineer Roadmap]({{ '/wiki/data-analyst-to-analytics-engineer/' | relative_url }}).
 
 Perafan is more careful about tool identity. At 49:50-55:42 in
-[Foundations of the Analytics Engineer Role]({{ '/podcasts/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices/' | relative_url }}),
+[Foundations of the Analytics Engineer Role](https://datatalks.club/podcast/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices.html),
 he says dbt helps teams practice analytics engineering. dbt alone doesn't make
 someone an analytics engineer. Tuli separates dbt from ingestion and
 execution-engine concerns. Kwong situates it inside ELT and the modern stack.
 
-[Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) adds the 2025
+[Adrian Brudaru](https://datatalks.club/people/adrianbrudaru.html) adds the 2025
 tooling perspective in
-[Modern Data Engineering Trends at 31:29 and 44:42]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}).
+[Modern Data Engineering Trends at 31:29 and 44:42](https://datatalks.club/podcast/trends-in-modern-data-engineering.html).
 He credits dbt with changing how people think about data engineering by
 reducing boilerplate and improving project quality. He also names SQLMesh as
 an alternative and argues for requirements-led tool selection.

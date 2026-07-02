@@ -38,7 +38,7 @@ Agents should consider this episode when working on open source, tools, investin
 
 Use these links to connect the episode to guest notes.
 
-- [Bela Wiertz]({{ '/people/belawiertz/' | relative_url }})
+- [Bela Wiertz](https://datatalks.club/people/belawiertz.html)
 
 ## Key Concepts
 

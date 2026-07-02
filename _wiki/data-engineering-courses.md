@@ -38,15 +38,15 @@ should also include modeled data, repeatable runs, quality checks, and a clear
 explanation of who uses the output.
 
 In
-[Build a Data Engineering Career]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }}),
-[Jeff Katz]({{ '/people/jeffkatz/' | relative_url }}) describes a bootcamp
+[Build a Data Engineering Career](https://datatalks.club/podcast/data-engineering-career-path-and-skills.html),
+[Jeff Katz](https://datatalks.club/people/jeffkatz.html) describes a bootcamp
 curriculum built around employer validation and repeated labs. The same
 discussion centers Python and SQL. It also covers cloud basics and
 orchestration.
 
 In
-[Gloria Quiceno's data engineering job story]({{ '/podcasts/get-data-analytics-and-data-engineering-job/' | relative_url }}),
-[Gloria Quiceno]({{ '/people/gloriaquiceno/' | relative_url }}) shows the
+[Gloria Quiceno's data engineering job story](https://datatalks.club/podcast/get-data-analytics-and-data-engineering-job.html),
+[Gloria Quiceno](https://datatalks.club/people/gloriaquiceno.html) shows the
 learner side. A bootcamp helped her with Python and Docker. Airflow, AWS, and
 networking also mattered. The stronger signal was a custom capstone pipeline
 she could explain in interviews.
@@ -71,7 +71,7 @@ transformation, orchestration, quality checks, and documentation. Tools matter,
 but they should appear because the project needs them.
 
 Jeff Katz gives the clearest benchmark in
-[Build a Data Engineering Career]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }}).
+[Build a Data Engineering Career](https://datatalks.club/podcast/data-engineering-career-path-and-skills.html).
 At 23:35, he names Python and SQL as core junior skills. He also adds cloud
 fundamentals and orchestration. Around 38:05, he explains why a junior
 curriculum can postpone Spark, Kafka, and Kubernetes. Around 56:46, he frames
@@ -107,7 +107,7 @@ for realistic labs, career support, and interview practice. It's weaker when it
 sells the certificate as the main outcome.
 
 Jeff Katz's bootcamp discussion gives a useful buyer checklist. Around 9:58 in
-[Build a Data Engineering Career]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }}),
+[Build a Data Engineering Career](https://datatalks.club/podcast/data-engineering-career-path-and-skills.html),
 he describes curriculum development through market research and employer
 validation. Around 11:44, he talks about syllabi, labs, and reinforcement
 cycles. Around 16:58-20:18, the discussion covers affordability and part-time
@@ -124,9 +124,9 @@ Before you pay, check for these promises:
 - internships, employer projects, nonprofit work, or community projects as
   experience bridges
 
-[Gloria Quiceno]({{ '/people/gloriaquiceno/' | relative_url }}) gives the
+[Gloria Quiceno](https://datatalks.club/people/gloriaquiceno.html) gives the
 career-change reality check in
-[Get a Data Analytics and Data Engineering Job]({{ '/podcasts/get-data-analytics-and-data-engineering-job/' | relative_url }}).
+[Get a Data Analytics and Data Engineering Job](https://datatalks.club/podcast/get-data-analytics-and-data-engineering-job.html).
 At 16:14, she discusses the job search after graduating. At 22:57, she explains
 how she tracked roughly 130 applications. At 27:55, she covers interview
 hurdles such as live coding and take-home challenges. A bootcamp helps most
@@ -153,8 +153,8 @@ This page focuses on how to judge and use a course; that guide catalogs the
 options.
 
 The DataTalksClub course model appears in
-[Inside Scaling DataTalksClub]({{ '/podcasts/datatalksclub-scaling-and-free-courses/' | relative_url }})
-with the [DataTalksClub founder]({{ '/people/alexeygrigorev/' | relative_url }}).
+[Inside Scaling DataTalksClub](https://datatalks.club/podcast/datatalksclub-scaling-and-free-courses.html)
+with the [DataTalksClub founder](https://datatalks.club/people/alexeygrigorev.html).
 At 5:07, the discussion covers the course portfolio across machine learning and
 data engineering. It also covers MLOps, LLMs, and stock analytics.
 
@@ -163,9 +163,9 @@ At 8:13, the Data Engineering Zoomcamp's growth is tied to word of mouth. At
 learner outcomes and community support.
 
 The three-year community discussion adds the operating model. In
-[Building a Sustainable Data Community]({{ '/podcasts/datatalksclub-building-sustainable-data-community-3-years-anniversary/' | relative_url }}),
-[Johanna Bayer]({{ '/people/johannabayer/' | relative_url }}) and the
-[DataTalksClub founder]({{ '/people/alexeygrigorev/' | relative_url }}) cover
+[Building a Sustainable Data Community](https://datatalks.club/podcast/datatalksclub-building-sustainable-data-community-3-years-anniversary.html),
+[Johanna Bayer](https://datatalks.club/people/johannabayer.html) and the
+[DataTalksClub founder](https://datatalks.club/people/alexeygrigorev.html) cover
 Slack participation and TAs around 14:56-20:23. They also cover webinars,
 Project of the Week, competitions, and portfolio outcomes.
 
@@ -199,7 +199,7 @@ pipeline. A stronger project changes the source or consumer. It can also change
 the data model, failure mode, or operating story.
 
 Gloria's capstone is a good standard. Around 50:15 in
-[Get a Data Analytics and Data Engineering Job]({{ '/podcasts/get-data-analytics-and-data-engineering-job/' | relative_url }}),
+[Get a Data Analytics and Data Engineering Job](https://datatalks.club/podcast/get-data-analytics-and-data-engineering-job.html),
 she discusses a Twitter data pipeline with Docker containers and a Slack bot.
 Around 51:42, she explains why custom projects stand out. Around 53:34, she
 adds data quality concerns such as bot detection, cleaning, and sentiment bias.
@@ -216,9 +216,9 @@ A course or bootcamp project should leave you with:
 - tests or checks for freshness, schema, counts, nulls, uniqueness, and joins
 - setup docs plus a data dictionary and a short runbook for failures
 
-[Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) helps evaluate
+[Natalie Kwong](https://datatalks.club/people/nataliekwong.html) helps evaluate
 the architecture choices in
-[ETL vs ELT and Modern Data Engineering]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}).
+[ETL vs ELT and Modern Data Engineering](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html).
 At 3:46, she explains ETL, and at 7:57 she discusses ELT flexibility. At 15:30
 and 17:55, she separates data marts from warehouses and ingestion layers.
 
@@ -248,9 +248,9 @@ A useful course teaches four decisions:
 - how the workflow fails
 - which consumer needs the output
 
-[Orell Garten]({{ '/people/orellgarten/' | relative_url }}) gives that
+[Orell Garten](https://datatalks.club/people/orellgarten.html) gives that
 problem-first version in
-[From Academic Research to Data Engineering Freelancing]({{ '/podcasts/from-academic-research-to-data-engineering-freelancing/' | relative_url }}).
+[From Academic Research to Data Engineering Freelancing](https://datatalks.club/podcast/from-academic-research-to-data-engineering-freelancing.html).
 At 9:42, he discusses the lesson of problem-first versus technology-first
 thinking. Around 13:20, he describes minimal viable data work. Around 39:00,
 he discusses manual extraction, CSVs, and local analysis as part of an MVP

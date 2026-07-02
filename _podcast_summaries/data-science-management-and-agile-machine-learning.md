@@ -38,7 +38,7 @@ Agents should consider this episode when working on management, machine learning
 
 Use these links to connect the episode to guest notes.
 
-- [Shir Meir Lador]({{ '/people/shirmeirlador/' | relative_url }})
+- [Shir Meir Lador](https://datatalks.club/people/shirmeirlador.html)
 
 ## Key Concepts
 

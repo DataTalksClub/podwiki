@@ -18,9 +18,9 @@ work changed the business. In the DataTalks.Club discussions, KPIs aren't just
 dashboard numbers. They're decision metrics with an owner, a time window, a
 known audience, and a behavior they're meant to influence.
 
-[Adam Sroka]({{ '/people/adamsroka/' | relative_url }}) gives the most direct
+[Adam Sroka](https://datatalks.club/people/adamsroka.html) gives the most direct
 KPI treatment in
-[KPI Design and Metrics Strategy]({{ '/podcasts/ml-engineering-kpis-and-metrics-strategy/' | relative_url }}).
+[KPI Design and Metrics Strategy](https://datatalks.club/podcast/ml-engineering-kpis-and-metrics-strategy.html).
 He starts from merit functions and comparable units at 12:06-16:51, then
 defines KPIs as top-down executive decision metrics at 22:41-25:56. Other
 episodes show where KPI work meets [data strategy]({{ '/wiki/data-strategy/' | relative_url }}),
@@ -32,7 +32,7 @@ episodes show where KPI work meets [data strategy]({{ '/wiki/data-strategy/' | r
 
 In Sroka's sales pipeline example, weighted revenue becomes a KPI because it
 helps executives compare lead quality with likely conversion and expected value
-([22:41-25:56]({{ '/podcasts/ml-engineering-kpis-and-metrics-strategy/' | relative_url }})).
+([22:41-25:56](https://datatalks.club/podcast/ml-engineering-kpis-and-metrics-strategy.html)).
 The same episode discusses units and comparability at 16:51. Those units matter
 when teams compare revenue, cost, risk, and time saved. A metric without a
 shared unit can still describe a system, but it's weak as a KPI because it can't
@@ -50,15 +50,15 @@ leadership choices, not a detached reporting exercise.
 The strongest KPI discussions treat alignment as a design constraint.
 Sroka argues that KPIs should follow top-down business priorities, then become
 visible enough that teams can use them in day-to-day decisions
-([22:41-25:56 and 41:07-44:59]({{ '/podcasts/ml-engineering-kpis-and-metrics-strategy/' | relative_url }})).
+([22:41-25:56 and 41:07-44:59](https://datatalks.club/podcast/ml-engineering-kpis-and-metrics-strategy.html)).
 He later discusses a North Star metric at 44:59-46:34 as a single guiding
 indicator for strategy. Not every team needs one universal number. A KPI still
 has to say what direction matters when choices compete.
 
-[Lior Barak]({{ '/people/liorbarak/' | relative_url }}) makes a similar
+[Lior Barak](https://datatalks.club/people/liorbarak.html) makes a similar
 alignment argument from the [data strategy]({{ '/wiki/data-strategy/' | relative_url }})
 side. In
-[Mindful Data Strategy for Business Impact]({{ '/podcasts/mindful-data-strategy-for-business-impact/' | relative_url }}),
+[Mindful Data Strategy for Business Impact](https://datatalks.club/podcast/mindful-data-strategy-for-business-impact.html),
 Barak uses core KPI diagnosis at 20:50-23:26. It shows how dashboard
 inaccuracies force teams to look at ingestion and SQL logic. The same diagnosis
 also covers lineage and ownership.
@@ -108,16 +108,16 @@ ownership, and user feedback loops, which also links KPI work to
 
 For data and ML teams, Sroka argues that model performance should be translated
 into a business-facing unit such as money or time saved
-([51:12-56:35]({{ '/podcasts/ml-engineering-kpis-and-metrics-strategy/' | relative_url }})).
+([51:12-56:35](https://datatalks.club/podcast/ml-engineering-kpis-and-metrics-strategy.html)).
 That claim is central to [data product management]({{ '/wiki/data-product-management/' | relative_url }})
 and [machine learning system design]({{ '/wiki/machine-learning-system-design/' | relative_url }}).
 In those systems, accuracy and AUC matter most when the team can say which KPI
 they protect or improve. Latency and pipeline freshness need the same business
 link.
 
-[Lina Weichbrodt]({{ '/people/linaweichbrodt/' | relative_url }}) makes the
+[Lina Weichbrodt](https://datatalks.club/people/linaweichbrodt.html) makes the
 same point during project intake in
-[Human-Centered MLOps]({{ '/podcasts/human-centered-mlops-and-model-monitoring/' | relative_url }}).
+[Human-Centered MLOps](https://datatalks.club/podcast/human-centered-mlops-and-model-monitoring.html).
 At 4:50-10:26, she starts with the business case, KPIs, and alternatives before
 modeling. At 18:29-24:34, stakeholder fears become mitigations, service levels,
 and impact assessment. KPI design therefore happens before model selection, and
@@ -134,7 +134,7 @@ longer meeting the standard users expect.
 Weichbrodt's MLOps episode turns those signals into operating practice. Service
 levels and impact assessment appear at 24:34, post-mortems at 27:14-42:03, and
 feature drift plus data monitoring at 46:28-49:28
-([Human-Centered MLOps]({{ '/podcasts/human-centered-mlops-and-model-monitoring/' | relative_url }})).
+([Human-Centered MLOps](https://datatalks.club/podcast/human-centered-mlops-and-model-monitoring.html)).
 For [production]({{ '/wiki/production/' | relative_url }}) systems, KPI
 movement should trigger investigation, user communication, or rollback work. A
 KPI that nobody can act on is only a status label.
@@ -142,21 +142,21 @@ KPI that nobody can act on is only a status label.
 ## Experimentation and Search Impact
 
 KPIs also decide whether experiments and search changes ship.
-[Jakob Graff]({{ '/people/jakobgraff/' | relative_url }}) explains in
-[Product Analytics and A/B Testing]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }})
+[Jakob Graff](https://datatalks.club/people/jakobgraff.html) explains in
+[Product Analytics and A/B Testing](https://datatalks.club/podcast/ab-testing-and-product-experimentation.html)
 that a product experiment can imply different choices. The choice changes when
 the primary metric is revenue or conversion. It changes again when the team
 prioritizes retention or long-term value
-([14:27-18:06]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }})).
+([14:27-18:06](https://datatalks.club/podcast/ab-testing-and-product-experimentation.html)).
 
 At 30:05-40:23, Graff warns about too many primary metrics and noisy metrics.
 He also covers seasonality and underpowered tests. KPI choice therefore belongs
 before [power analysis]({{ '/wiki/power-analysis/' | relative_url }}) and
 rollout decisions, not after a dashboard is already built.
 
-[Daniel Svonava]({{ '/people/danielsvonava/' | relative_url }}) gives the
+[Daniel Svonava](https://datatalks.club/people/danielsvonava.html) gives the
 search-system version in
-[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}).
+[Building Search Systems](https://datatalks.club/podcast/building-production-search-systems.html).
 At 1:01:25, he ties search impact to business metrics, A/B tests, and revenue.
 At 1:03:50, he separates operational metrics from offline evaluation. Search
 KPIs therefore bridge [information retrieval]({{ '/wiki/information-retrieval/' | relative_url }}),

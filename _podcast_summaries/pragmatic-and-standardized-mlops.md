@@ -38,7 +38,7 @@ Agents should consider this episode when working on MLOps.
 
 Use these links to connect the episode to guest notes.
 
-- [Maria Vechtomova]({{ '/people/mariavechtomova/' | relative_url }})
+- [Maria Vechtomova](https://datatalks.club/people/mariavechtomova.html)
 
 ## Key Concepts
 

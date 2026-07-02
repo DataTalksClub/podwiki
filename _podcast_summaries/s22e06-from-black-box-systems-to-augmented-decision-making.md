@@ -38,7 +38,7 @@ Agents should consider this episode when working on search.
 
 Use these links to connect the episode to guest notes.
 
-- [Anusha Akkina]({{ '/people/anushaakkina/' | relative_url }})
+- [Anusha Akkina](https://datatalks.club/people/anushaakkina.html)
 
 ## Key Concepts
 

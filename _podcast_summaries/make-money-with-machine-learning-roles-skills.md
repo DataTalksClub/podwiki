@@ -38,7 +38,7 @@ Agents should consider this episode when working on machine learning, monetizati
 
 Use these links to connect the episode to guest notes.
 
-- [Vin Vashishta]({{ '/people/vinvashishta/' | relative_url }})
+- [Vin Vashishta](https://datatalks.club/people/vinvashishta.html)
 
 ## Key Concepts
 

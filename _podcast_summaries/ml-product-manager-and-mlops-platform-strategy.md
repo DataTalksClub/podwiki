@@ -38,7 +38,7 @@ Agents should consider this episode when working on product management, machine 
 
 Use these links to connect the episode to guest notes.
 
-- [Geo Jolly]({{ '/people/geojolly/' | relative_url }})
+- [Geo Jolly](https://datatalks.club/people/geojolly.html)
 
 ## Key Concepts
 

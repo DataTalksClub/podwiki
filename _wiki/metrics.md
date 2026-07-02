@@ -23,15 +23,15 @@ also overlaps with [A/B testing]({{ '/wiki/a-b-testing/' | relative_url }}),
 [causal inference]({{ '/wiki/causal-inference/' | relative_url }}),
 [model monitoring]({{ '/wiki/model-monitoring/' | relative_url }}), and
 [data product management]({{ '/wiki/data-product-management/' | relative_url }}).
-[Adam Sroka]({{ '/people/adamsroka/' | relative_url }}) frames KPI design as a
+[Adam Sroka](https://datatalks.club/people/adamsroka.html) frames KPI design as a
 cost-and-impact comparison in
-[KPI Design & Metrics Strategy at 12:06-30:30]({{ '/podcasts/ml-engineering-kpis-and-metrics-strategy/' | relative_url }}).
-[Jakob Graff]({{ '/people/jakobgraff/' | relative_url }}) shows why an
+[KPI Design & Metrics Strategy at 12:06-30:30](https://datatalks.club/podcast/ml-engineering-kpis-and-metrics-strategy.html).
+[Jakob Graff](https://datatalks.club/people/jakobgraff.html) shows why an
 experiment metric has to match the rollout decision in
-[Product Analytics & A/B Testing at 14:27-37:44]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}).
-[Lina Weichbrodt]({{ '/people/linaweichbrodt/' | relative_url }}) ties KPIs,
+[Product Analytics & A/B Testing at 14:27-37:44](https://datatalks.club/podcast/ab-testing-and-product-experimentation.html).
+[Lina Weichbrodt](https://datatalks.club/people/linaweichbrodt.html) ties KPIs,
 service levels, feedback, and feature drift together in
-[Human-Centered MLOps and Model Monitoring at 4:50-29:23 and 46:28-49:28]({{ '/podcasts/human-centered-mlops-and-model-monitoring/' | relative_url }}).
+[Human-Centered MLOps and Model Monitoring at 4:50-29:23 and 46:28-49:28](https://datatalks.club/podcast/human-centered-mlops-and-model-monitoring.html).
 
 ## Metrics as Decision Rules
 
@@ -41,7 +41,7 @@ account-level monthly revenue. Another may use user-level daily conversion. A
 third may use a delayed label after a support case closes.
 
 Sroka makes this practical in
-[KPI Design & Metrics Strategy at 12:06-30:30]({{ '/podcasts/ml-engineering-kpis-and-metrics-strategy/' | relative_url }}).
+[KPI Design & Metrics Strategy at 12:06-30:30](https://datatalks.club/podcast/ml-engineering-kpis-and-metrics-strategy.html).
 He moves from "measurement matters" into merit functions and comparable units.
 He also covers sales pipeline metrics, professional services metrics, vanity
 metrics, and competing KPIs.
@@ -50,7 +50,7 @@ A revenue KPI can be valid. So can an operational burn-down, margin-aware
 composite, or safety threshold. They don't answer the same question.
 
 Graff gives the experimentation version of the same rule. In
-[Product Analytics & A/B Testing at 14:27-18:06]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}),
+[Product Analytics & A/B Testing at 14:27-18:06](https://datatalks.club/podcast/ab-testing-and-product-experimentation.html),
 a subscription-versus-points change can look different under revenue per user
 than under conversion. Retention and long-term value can favor a different
 rollout choice. The metric is part of the product choice, not a reporting
@@ -64,20 +64,20 @@ unstable or underpowered metric can't support the launch decision.
 Metrics fail in different ways depending on the system. Sroka's KPI discussion
 warns that teams can optimize easy numbers that don't change ROI. They can also
 design KPIs that people can game
-([22:41-37:19]({{ '/podcasts/ml-engineering-kpis-and-metrics-strategy/' | relative_url }})).
+([22:41-37:19](https://datatalks.club/podcast/ml-engineering-kpis-and-metrics-strategy.html)).
 That risk belongs with [data product management]({{ '/wiki/data-product-management/' | relative_url }})
 because roadmap and prioritization decisions can drift toward visible activity
 instead of impact.
 
 Graff worries about statistical reliability. He warns against noisy metrics,
 too many primary metrics, seasonality, and underpowered experiments in
-[Product Analytics & A/B Testing at 30:05-40:23]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}).
+[Product Analytics & A/B Testing at 30:05-40:23](https://datatalks.club/podcast/ab-testing-and-product-experimentation.html).
 For an [A/B test]({{ '/wiki/a-b-testing/' | relative_url }}), the metric fails
 when it can't support a causal rollout decision.
 
-[Aleksander Molak]({{ '/people/aleksandermolak/' | relative_url }}) adds an
+[Aleksander Molak](https://datatalks.club/people/aleksandermolak.html) adds an
 intervention boundary in
-[Causal Inference for Real-World ML at 32:40-43:25]({{ '/podcasts/causal-inference-for-machine-learning/' | relative_url }}).
+[Causal Inference for Real-World ML at 32:40-43:25](https://datatalks.club/podcast/causal-inference-for-machine-learning.html).
 A model can predict an outcome well and still be the wrong tool for deciding who
 receives a treatment, discount, recommendation, or marketing message. Teams
 need policy metrics, refutation tests, and sometimes A/B validation before they
@@ -87,7 +87,7 @@ Weichbrodt adds the operational failure mode. A metric is weak when nobody can
 respond to it. Her MLOps discussion ties project intake and KPIs to stakeholder
 fears. It also covers service levels, post-mortems, monitoring signals, and
 recovery work
-([4:50-29:23]({{ '/podcasts/human-centered-mlops-and-model-monitoring/' | relative_url }})).
+([4:50-29:23](https://datatalks.club/podcast/human-centered-mlops-and-model-monitoring.html)).
 That places metric ownership next to
 [MLOps]({{ '/wiki/mlops/' | relative_url }}) and
 [production]({{ '/wiki/production/' | relative_url }}), not only dashboard
@@ -106,10 +106,10 @@ Graff's monetization example shows why product teams choose the metric before
 interpreting an experiment. One change can support one conclusion under
 short-term revenue and another under conversion, retention, or customer lifetime
 value
-([14:27-18:06]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }})).
+([14:27-18:06](https://datatalks.club/podcast/ab-testing-and-product-experimentation.html)).
 He also covers assignment tracking, A/A tests, and traffic splitting before
 statistical tests
-([24:44-30:05]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }})).
+([24:44-30:05](https://datatalks.club/podcast/ab-testing-and-product-experimentation.html)).
 Those checks make product metrics trustworthy enough for experiments rather than
 post-hoc storytelling.
 
@@ -120,14 +120,14 @@ user experience. They can also catch revenue cannibalization.
 
 Graff recommends simple first tests and warns against many primary metrics
 because the decision becomes unclear
-([30:05-33:23]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }})).
+([30:05-33:23](https://datatalks.club/podcast/ab-testing-and-product-experimentation.html)).
 He then links metric stability and seasonality to sample size. Test duration
 also shapes whether an uplift number is believable
-([33:23-40:23]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }})).
+([33:23-40:23](https://datatalks.club/podcast/ab-testing-and-product-experimentation.html)).
 
 Metric distributions also affect the statistical test. Graff discusses
 histograms and tails in
-[Product Analytics & A/B Testing at 40:23-59:08]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}).
+[Product Analytics & A/B Testing at 40:23-59:08](https://datatalks.club/podcast/ab-testing-and-product-experimentation.html).
 He also covers nonparametric options, p-values, Bayesian intervals, and multiple
 comparisons. That's where experiment metrics meet
 [A/A testing]({{ '/wiki/a-a-testing/' | relative_url }}),
@@ -142,26 +142,26 @@ and ranking quality need that context. So do calibration, uplift, latency, and
 cost. A higher offline score matters only
 when it improves the decision the system supports.
 
-[Arseny Kravchenko]({{ '/people/arsenykravchenko/' | relative_url }})
+[Arseny Kravchenko](https://datatalks.club/people/arsenykravchenko.html)
 describes [machine learning system design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
 as problem-first work in
-[Building Scalable and Reliable Machine Learning Systems at 29:01-32:37]({{ '/podcasts/building-scalable-and-reliable-machine-learning-systems/' | relative_url }}).
+[Building Scalable and Reliable Machine Learning Systems at 29:01-32:37](https://datatalks.club/podcast/building-scalable-and-reliable-machine-learning-systems.html).
 He places goals, non-goals, assumptions, and baselines before implementation
 detail. Metrics, data strategy, and pipeline components come next. Teams define
 the product scenario first. They then choose offline and online metrics before
 they design serving and monitoring around those metrics.
 
-[Rishabh Bhargava]({{ '/people/rishabhbhargava/' | relative_url }}) connects ML
+[Rishabh Bhargava](https://datatalks.club/people/rishabhbhargava.html) connects ML
 metrics to live business analysis in
-[From Analytics to Production ML at 28:42-32:47]({{ '/podcasts/production-ml-mlops-and-data-team-building/' | relative_url }}).
+[From Analytics to Production ML at 28:42-32:47](https://datatalks.club/podcast/production-ml-mlops-and-data-team-building.html).
 He discusses model experiments, A/B testing, and shadow mode. He then connects
 segmentation, uplift, and root-cause analysis to live results. The model metric
 isn't enough. Analysts still need to explain which segments moved and whether
 the model changed the business outcome.
 
-[Ben Wilson]({{ '/people/benwilson/' | relative_url }}) adds a cost-benefit
+[Ben Wilson](https://datatalks.club/people/benwilson.html) adds a cost-benefit
 constraint in
-[Machine Learning Engineering Best Practices at 32:03-55:41]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }}).
+[Machine Learning Engineering Best Practices at 32:03-55:41](https://datatalks.club/podcast/machine-learning-engineering-production-best-practices.html).
 He emphasizes timeboxed bake-offs, simple baselines, feature engineering, and
 testing. ML teams should compare model metrics against maintainability, cloud
 cost, and delivery risk instead of treating a higher offline score as the only
@@ -179,7 +179,7 @@ Weichbrodt's episode is the clearest monitoring anchor. She starts project
 intake with business cases and KPIs, then moves to stakeholder fears and service
 levels. She also covers incident response and live test sets. Small A/B tests,
 feature drift, logs, and reproducibility sit in the same discussion
-([4:50-29:23 and 46:28-49:28]({{ '/podcasts/human-centered-mlops-and-model-monitoring/' | relative_url }})).
+([4:50-29:23 and 46:28-49:28](https://datatalks.club/podcast/human-centered-mlops-and-model-monitoring.html)).
 Her framing links [model monitoring]({{ '/wiki/model-monitoring/' | relative_url }})
 to both [MLOps]({{ '/wiki/mlops/' | relative_url }}) and
 [production]({{ '/wiki/production/' | relative_url }}).
@@ -188,7 +188,7 @@ Monitoring metrics should also name who acts because a latency alert differs
 from a feature-drift alert. A user complaint also differs from a business KPI
 moving in the wrong direction. Weichbrodt's post-mortem sections tie metric movement
 to facts, investigation steps, action items, and operating changes
-([27:14-42:03]({{ '/podcasts/human-centered-mlops-and-model-monitoring/' | relative_url }})).
+([27:14-42:03](https://datatalks.club/podcast/human-centered-mlops-and-model-monitoring.html)).
 
 ## Business Metrics and Data Product Impact
 
@@ -203,7 +203,7 @@ explain why a technically correct dashboard, model, or pipeline deserves
 continued investment.
 
 Sroka's KPI episode is the strongest business-metrics discussion. In
-[KPI Design & Metrics Strategy at 15:11-51:12]({{ '/podcasts/ml-engineering-kpis-and-metrics-strategy/' | relative_url }}),
+[KPI Design & Metrics Strategy at 15:11-51:12](https://datatalks.club/podcast/ml-engineering-kpis-and-metrics-strategy.html),
 he covers merit functions, project prioritization, and comparable units. He also
 covers sales pipeline metrics, professional services metrics, and top-down KPI
 alignment. Competing KPIs and composite metrics appear in the same discussion.
@@ -211,13 +211,13 @@ alignment. Competing KPIs and composite metrics appear in the same discussion.
 Workshop design and dashboard visibility also matter in Sroka's framing. So do
 North Star metrics, threshold metrics, health metrics, and data team metrics.
 Later, he links data-team work to pound-value or time-saved estimates
-([51:12-56:35]({{ '/podcasts/ml-engineering-kpis-and-metrics-strategy/' | relative_url }})).
+([51:12-56:35](https://datatalks.club/podcast/ml-engineering-kpis-and-metrics-strategy.html)).
 That matters for [data product management]({{ '/wiki/data-product-management/' | relative_url }})
 because the impact story has to survive prioritization, funding, and adoption
 decisions.
 
 Molak adds that business metrics aren't automatically causal metrics. In
-[Causal Inference for Real-World ML at 32:40-43:25]({{ '/podcasts/causal-inference-for-machine-learning/' | relative_url }}),
+[Causal Inference for Real-World ML at 32:40-43:25](https://datatalks.club/podcast/causal-inference-for-machine-learning.html),
 teams compare policies on the same business metric. They still need estimator
 checks and sometimes experimental validation before trusting the intervention
 claim.

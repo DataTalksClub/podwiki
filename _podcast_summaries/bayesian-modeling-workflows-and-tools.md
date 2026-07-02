@@ -38,7 +38,7 @@ Agents should consider this episode when working on probabilistic programming, b
 
 Use these links to connect the episode to guest notes.
 
-- [Rob Zinkov]({{ '/people/robzinkov/' | relative_url }})
+- [Rob Zinkov](https://datatalks.club/people/robzinkov.html)
 
 ## Key Concepts
 

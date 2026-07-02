@@ -163,7 +163,7 @@ def render_person(slug: str, person: dict[str, object], episodes: list[dict[str,
             topics = topic_links(discussion_topics(episode))
             topic_text = f" Related topics: {', '.join(topics)}." if topics else ""
             lines.append(
-                f"- [{episode_title}]({{{{ '/podcasts/{episode_slug}/' | relative_url }}}})."
+                f"- [{episode_title}](https://datatalks.club/podcast/{episode_slug}.html)."
                 f"{summary_sentence}{topic_text}"
             )
 

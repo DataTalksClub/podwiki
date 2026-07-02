@@ -38,7 +38,7 @@ Agents should consider this episode when working on machine learning, computer v
 
 Use these links to connect the episode to guest notes.
 
-- [Isabella Bicalho]({{ '/people/isabellabicalho/' | relative_url }})
+- [Isabella Bicalho](https://datatalks.club/people/isabellabicalho.html)
 
 ## Key Concepts
 

@@ -38,7 +38,7 @@ Agents should consider this episode when working on machine learning, leadership
 
 Use these links to connect the episode to guest notes.
 
-- [Adam Sroka]({{ '/people/adamsroka/' | relative_url }})
+- [Adam Sroka](https://datatalks.club/people/adamsroka.html)
 
 ## Key Concepts
 

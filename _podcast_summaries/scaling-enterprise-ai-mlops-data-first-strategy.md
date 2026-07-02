@@ -38,7 +38,7 @@ Agents should consider this episode when working on MLOps, AI, machine learning.
 
 Use these links to connect the episode to guest notes.
 
-- [Alexander Hendorf]({{ '/people/alexanderhendorf/' | relative_url }})
+- [Alexander Hendorf](https://datatalks.club/people/alexanderhendorf.html)
 
 ## Key Concepts
 

@@ -38,7 +38,7 @@ Agents should consider this episode when working on MLOps, data science, machine
 
 Use these links to connect the episode to guest notes.
 
-- [Raphaël Hoogvliets]({{ '/people/raphaelhoogvliets/' | relative_url }})
+- [Raphaël Hoogvliets](https://datatalks.club/people/raphaelhoogvliets.html)
 
 ## Key Concepts
 

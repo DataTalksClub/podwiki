@@ -38,7 +38,7 @@ Agents should consider this episode when working on astroinformatics, MLOps, LLM
 
 Use these links to connect the episode to guest notes.
 
-- [Daniel Egbo]({{ '/people/danielegbo/' | relative_url }})
+- [Daniel Egbo](https://datatalks.club/people/danielegbo.html)
 
 ## Key Concepts
 

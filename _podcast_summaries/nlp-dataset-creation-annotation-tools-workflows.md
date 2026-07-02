@@ -38,7 +38,7 @@ Agents should consider this episode when working on NLP, data.
 
 Use these links to connect the episode to guest notes.
 
-- [Christiaan Swart]({{ '/people/christiannswart/' | relative_url }})
+- [Christiaan Swart](https://datatalks.club/people/christiannswart.html)
 
 ## Key Concepts
 

@@ -34,7 +34,7 @@ Agents should consider this episode when working on mentoring, career developmen
 
 Use these links to connect the episode to guest notes.
 
-- [Rahul Jain]({{ '/people/rahuljain/' | relative_url }})
+- [Rahul Jain](https://datatalks.club/people/rahuljain.html)
 
 ## Key Concepts
 

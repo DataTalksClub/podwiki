@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Prateek Joshi]({ '/people/prateekjoshi/' | relative_url }).
+[Prateek Joshi](https://datatalks.club/people/prateekjoshi.html).
 
 ## Discussion Archive
 

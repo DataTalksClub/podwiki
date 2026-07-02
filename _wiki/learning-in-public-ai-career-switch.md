@@ -24,16 +24,16 @@ and conference participation. That work supports a move toward
 data roles.
 
 The strongest examples pair public visibility with concrete artifacts. [Pastor
-Soto]({{ '/people/pastorsoto/' | relative_url }}) used ML Zoomcamp progress and
+Soto](https://datatalks.club/people/pastorsoto.html) used ML Zoomcamp progress and
 posts while moving from medicine and freelance statistics into machine learning.
 His capstones and community mentoring made the switch easier to evaluate
-([his public-learning discussion at 27:27-51:52]({{ '/podcasts/nonlinear-path-to-machine-learning-freelancing-and-public-learning/' | relative_url }})).
+([his public-learning discussion at 27:27-51:52](https://datatalks.club/podcast/nonlinear-path-to-machine-learning-freelancing-and-public-learning.html)).
 
-[Revathy Ramalingam]({{ '/people/revathyramalingam/' | relative_url }}) used
+[Revathy Ramalingam](https://datatalks.club/people/revathyramalingam.html) used
 community engagement, ML Zoomcamp projects, and AI Dev Tools projects to restart
 after a seven-year career break. Her GitHub evidence then became part of the
 hiring conversation
-([her career-break discussion at 11:00-30:34]({{ '/podcasts/s23e04-how-to-become-ai-engineer-after-career-break/' | relative_url }})).
+([her career-break discussion at 11:00-30:34](https://datatalks.club/podcast/s23e04-how-to-become-ai-engineer-after-career-break.html)).
 The topic sits inside [career transition]({{ '/wiki/career-transitions-in-data/' | relative_url }}),
 [job search]({{ '/wiki/job-search/' | relative_url }}), and
 [open-source portfolio evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }}),
@@ -49,7 +49,7 @@ curves and classifier evaluation.
 
 He says that reframing helped him treat the material as something he could
 explain professionally. He wasn't only consuming it as a student
-([Pastor Soto in From Medicine to Machine Learning]({{ '/podcasts/nonlinear-path-to-machine-learning-freelancing-and-public-learning/' | relative_url }})).
+([Pastor Soto in From Medicine to Machine Learning](https://datatalks.club/podcast/nonlinear-path-to-machine-learning-freelancing-and-public-learning.html)).
 
 The same mechanism appears in Revathy's career-break path. At 11:00, she
 describes DataTalks.Club's structure as video modules, homework, and a public
@@ -60,7 +60,7 @@ Nokia.
 At 12:45-13:29, she says community tutorials and GitHub workflows helped her
 learning curve after years away from the industry. Active Slack engagement
 helped too
-([Revathy Ramalingam in How to Become an AI Engineer After a Career Break]({{ '/podcasts/s23e04-how-to-become-ai-engineer-after-career-break/' | relative_url }})).
+([Revathy Ramalingam in How to Become an AI Engineer After a Career Break](https://datatalks.club/podcast/s23e04-how-to-become-ai-engineer-after-career-break.html)).
 
 For switchers, public progress works when it exposes practice and feedback. It
 should also show artifact growth. It's weaker when it only says that a course
@@ -84,7 +84,7 @@ The need to publish improved the notes because he had to prepare something clear
 enough to share. The exchange frames publishing as a forcing function for
 double-checking. Pastor says note taking, audience growth, recruiter visibility,
 and learning reinforcement became one workflow
-([Pastor's notes and posting workflow]({{ '/podcasts/nonlinear-path-to-machine-learning-freelancing-and-public-learning/' | relative_url }})).
+([Pastor's notes and posting workflow](https://datatalks.club/podcast/nonlinear-path-to-machine-learning-freelancing-and-public-learning.html)).
 
 This workflow matters for AI career switches because the tool stack changes
 quickly. A learner may study [AI tooling]({{ '/wiki/ai-tooling/' | relative_url }})
@@ -105,7 +105,7 @@ working systems. Pastor's ML Zoomcamp capstones became proof he could do more
 than model training. At 47:48, he says he still shares those projects when
 recruiters ask for proof of work. They include step-by-step AWS deployment and
 position him as someone who can handle cloud and ML engineering work
-([Pastor's capstone-project discussion]({{ '/podcasts/nonlinear-path-to-machine-learning-freelancing-and-public-learning/' | relative_url }})).
+([Pastor's capstone-project discussion](https://datatalks.club/podcast/nonlinear-path-to-machine-learning-freelancing-and-public-learning.html)).
 
 Revathy's interview path shows the same route for a career-break switcher. At
 28:00, she says she shared her GitHub profile and was scheduled after the
@@ -116,10 +116,10 @@ prediction project. She explained the dataset, ran the project locally, and
 showed a REST web service URL. At 33:45-34:06, she says an AI email-course
 project helped her handle a PDF Q&A assistant task. She could reuse the
 retrieval work
-([Revathy's interview-project discussion]({{ '/podcasts/s23e04-how-to-become-ai-engineer-after-career-break/' | relative_url }})).
+([Revathy's interview-project discussion](https://datatalks.club/podcast/s23e04-how-to-become-ai-engineer-after-career-break.html)).
 
 
-[Ruslan Shchuchkin]({{ '/people/ruslanshchuchkin/' | relative_url }}) extends
+[Ruslan Shchuchkin](https://datatalks.club/people/ruslanshchuchkin.html) extends
 the project route into the modern [AI engineer role]({{ '/wiki/ai-engineer-role/' | relative_url }}).
 At 7:51-8:38, his BranchGPT side project required a web app, backend, and
 context management. It also required end-to-end product thinking.
@@ -128,7 +128,7 @@ At 14:15, he recommends fun AI side projects because they can become resume
 evidence even when they're not monetized. At 42:40-43:39, he frames repeated
 small projects as a way to learn app development and deployment. They can also
 teach payments, product messaging, and business components over time
-([Ruslan's side-project discussion]({{ '/podcasts/s23e05-inside-ai-engineer-role-tools-skills-and-career-path/' | relative_url }})).
+([Ruslan's side-project discussion](https://datatalks.club/podcast/s23e05-inside-ai-engineer-role-tools-skills-and-career-path.html)).
 
 
 This is where learning in public overlaps with
@@ -149,7 +149,7 @@ with DeepLearning.AI plus Stanford Coding Place.
 
 Mentoring and community work can produce freelance, full-time, and interview
 opportunities
-([Pastor's recruiter and mentoring discussion]({{ '/podcasts/nonlinear-path-to-machine-learning-freelancing-and-public-learning/' | relative_url }})).
+([Pastor's recruiter and mentoring discussion](https://datatalks.club/podcast/nonlinear-path-to-machine-learning-freelancing-and-public-learning.html)).
 
 Revathy's version is more support-oriented. At 12:03-13:29, she says community
 answers and shared tutorials made it easier to restart after a long break.
@@ -159,7 +159,7 @@ the first interview.
 
 For her, public participation wasn't only broadcasting progress. It was access
 to peers who made the return less isolated
-([Revathy's community discussion]({{ '/podcasts/s23e04-how-to-become-ai-engineer-after-career-break/' | relative_url }})).
+([Revathy's community discussion](https://datatalks.club/podcast/s23e04-how-to-become-ai-engineer-after-career-break.html)).
 
 
 Ruslan gives the meetup version. At 29:49, he says meetups help him learn what
@@ -167,7 +167,7 @@ people actually use because trusted personal experience filters the noise of AI
 news. At 33:28-36:50, he describes launching an AI Side Hustlers Club with a
 lean format. People gather around projects, show work, ask what others used,
 and avoid waiting for a perfect venue or presentation
-([Ruslan's meetup discussion]({{ '/podcasts/s23e05-inside-ai-engineer-role-tools-skills-and-career-path/' | relative_url }})).
+([Ruslan's meetup discussion](https://datatalks.club/podcast/s23e05-inside-ai-engineer-role-tools-skills-and-career-path.html)).
 That places learning in public inside
 [community building]({{ '/wiki/community-building/' | relative_url }}) and
 [career growth]({{ '/wiki/career-growth/' | relative_url }}), not only inside
@@ -175,13 +175,13 @@ individual branding.
 
 ## Events Turn Visibility Into Trust
 
-[Leonid Kholkine]({{ '/people/leonidkholkine/' | relative_url }}) shows the
+[Leonid Kholkine](https://datatalks.club/people/leonidkholkine.html) shows the
 larger-community path. In the Data Makers Fest episode, he describes years of
 student leadership and meetups. He also covers DSPT events, World Data League,
 Data Lead Club, and Data Makers Fest as work that brought practitioners
 together. At 18:31-19:19, he says conference and community organizing helped
 with his job. People get to know you, see your work, and see how you work
-([Leonid's community-organizing discussion]({{ '/podcasts/s23e09-starting-data-conference-data-makers-fest-story/' | relative_url }})).
+([Leonid's community-organizing discussion](https://datatalks.club/podcast/s23e09-starting-data-conference-data-makers-fest-story.html)).
 
 It differs from Pastor's posting and Revathy's portfolio interview. Organizing
 and helping at events make reliability visible over time. Speaking and attending
@@ -189,7 +189,7 @@ can do the same when they create useful professional conversations. Leonid also
 argues at 58:35-1:03:05 that junior data scientists can benefit from
 conferences. Speakers are open to discussion, diverse talks broaden perspective,
 and talking to speakers can close understanding gaps
-([Leonid on junior participation at Data Makers Fest]({{ '/podcasts/s23e09-starting-data-conference-data-makers-fest-story/' | relative_url }})).
+([Leonid on junior participation at Data Makers Fest](https://datatalks.club/podcast/s23e09-starting-data-conference-data-makers-fest-story.html)).
 
 For an AI career switch, events are most useful when paired with concrete work.
 Bring a project to discuss, ask a question, host a meetup, or write a talk
@@ -212,16 +212,16 @@ interviews, and in conference conversations.
 
 The risk is confusing visibility with evidence. Pastor's LinkedIn posts worked
 because they were tied to homework, capstones, deployment, and mentoring
-([27:27-51:52]({{ '/podcasts/nonlinear-path-to-machine-learning-freelancing-and-public-learning/' | relative_url }})).
+([27:27-51:52](https://datatalks.club/podcast/nonlinear-path-to-machine-learning-freelancing-and-public-learning.html)).
 Revathy's public learning worked because it led to GitHub projects, a telecom
 capstone, a working prototype, and interview demonstrations
-([11:00-34:06]({{ '/podcasts/s23e04-how-to-become-ai-engineer-after-career-break/' | relative_url }})).
+([11:00-34:06](https://datatalks.club/podcast/s23e04-how-to-become-ai-engineer-after-career-break.html)).
 Ruslan's side projects work because they produce small shipped products and
 stories about product, backend, deployment, and AI-system choices
-([7:51-47:49]({{ '/podcasts/s23e05-inside-ai-engineer-role-tools-skills-and-career-path/' | relative_url }})).
+([7:51-47:49](https://datatalks.club/podcast/s23e05-inside-ai-engineer-role-tools-skills-and-career-path.html)).
 Leonid's event work matters because people can observe sustained contribution
 and community reliability
-([18:31-19:19]({{ '/podcasts/s23e09-starting-data-conference-data-makers-fest-story/' | relative_url }})).
+([18:31-19:19](https://datatalks.club/podcast/s23e09-starting-data-conference-data-makers-fest-story.html)).
 
 Learning in public is therefore not a replacement for skill building. It's the
 system that makes skill building visible and reviewable.

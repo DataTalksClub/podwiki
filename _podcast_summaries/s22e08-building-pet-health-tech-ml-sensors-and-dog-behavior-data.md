@@ -38,7 +38,7 @@ Agents should consider this episode when working on career growth, machine learn
 
 Use these links to connect the episode to guest notes.
 
-- [Sofya Yulpatova]({{ '/people/sofyayulpatova/' | relative_url }})
+- [Sofya Yulpatova](https://datatalks.club/people/sofyayulpatova.html)
 
 ## Key Concepts
 

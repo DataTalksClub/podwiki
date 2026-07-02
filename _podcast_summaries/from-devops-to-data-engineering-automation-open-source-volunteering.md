@@ -38,7 +38,7 @@ Agents should consider this episode when working on open-source, data engineerin
 
 Use these links to connect the episode to guest notes.
 
-- [Agita Jaunzeme]({{ '/people/agitajaunzeme/' | relative_url }})
+- [Agita Jaunzeme](https://datatalks.club/people/agitajaunzeme.html)
 
 ## Key Concepts
 

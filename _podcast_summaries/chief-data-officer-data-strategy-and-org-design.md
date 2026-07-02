@@ -38,7 +38,7 @@ Agents should consider this episode when working on data strategy, data governan
 
 Use these links to connect the episode to guest notes.
 
-- [Marco De Sa]({{ '/people/marcodesa/' | relative_url }})
+- [Marco De Sa](https://datatalks.club/people/marcodesa.html)
 
 ## Key Concepts
 

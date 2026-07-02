@@ -140,7 +140,7 @@ def metadata_text(meta: dict[str, object], level: str) -> str:
     return " ".join(parts)
 
 
-def section_docs(body: str, base: dict, url: str) -> list[dict]:
+def section_docs(body: str, base: dict, url: str, external: bool = False) -> list[dict]:
     docs = []
     matches = list(re.finditer(r"^(#{2,3})\s+(.+?)\s*$", body, flags=re.M))
     for index, match in enumerate(matches):
@@ -151,6 +151,9 @@ def section_docs(body: str, base: dict, url: str) -> list[dict]:
         if not heading or len(text) < 80:
             continue
         anchor = slugify(heading)
+        # External (main-site) pages do not share our local heading anchors, so
+        # link the section back to the canonical page without a fragment.
+        section_url = url if external else f"{url}#{anchor}"
         docs.append(
             {
                 **base,
@@ -159,7 +162,7 @@ def section_docs(body: str, base: dict, url: str) -> list[dict]:
                 "page_title": base["title"],
                 "title": f"{heading} - {base['title']}",
                 "segment_title": heading,
-                "url": f"{url}#{anchor}",
+                "url": section_url,
                 "text": text,
             }
         )
@@ -182,7 +185,11 @@ def build_docs() -> list[dict]:
             slug = source_slug(path)
             title = str(meta.get("title") or slug.replace("-", " ").title())
             summary = str(meta.get("summary") or "")
-            url = f"{prefix}{slug}/"
+            # podcast/book/person pages are not published locally; point search
+            # results at the canonical main-site URL from front matter.
+            canonical = str(meta.get("source_url") or "").strip()
+            external = level in {"podcast_summary", "book", "person"} and bool(canonical)
+            url = canonical if external else f"{prefix}{slug}/"
             related_terms = metadata_text(meta, level)
             base = {
                 "id": f"{level}:{slug}",
@@ -201,7 +208,7 @@ def build_docs() -> list[dict]:
                     "text": plain_text(" ".join([title, summary, related_terms, body])),
                 }
             )
-            docs.extend(section_docs(body, base, url))
+            docs.extend(section_docs(body, base, url, external=external))
     return docs
 
 

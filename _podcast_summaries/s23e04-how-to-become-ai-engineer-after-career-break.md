@@ -38,7 +38,7 @@ Agents should consider this episode when working on ai engineer, career break.
 
 Use these links to connect the episode to guest notes.
 
-- [Revathy Ramalingam]({{ '/people/revathyramalingam/' | relative_url }})
+- [Revathy Ramalingam](https://datatalks.club/people/revathyramalingam.html)
 
 ## Key Concepts
 

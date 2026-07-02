@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Nakul Bajaj]({ '/people/nakulbajaj/' | relative_url }), [Jonas Christensen]({ '/people/jonaschristensen/' | relative_url }), [Manmohan Gosada]({ '/people/manmohangosada/' | relative_url }).
+[Nakul Bajaj](https://datatalks.club/people/nakulbajaj.html), [Jonas Christensen](https://datatalks.club/people/jonaschristensen.html), [Manmohan Gosada](https://datatalks.club/people/manmohangosada.html).
 
 ## Discussion Archive
 

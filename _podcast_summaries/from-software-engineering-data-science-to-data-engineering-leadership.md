@@ -38,7 +38,7 @@ Agents should consider this episode when working on data science, data engineeri
 
 Use these links to connect the episode to guest notes.
 
-- [Ellen König]({{ '/people/ellenkonig/' | relative_url }})
+- [Ellen König](https://datatalks.club/people/ellenkonig.html)
 
 ## Key Concepts
 

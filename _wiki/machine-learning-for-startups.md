@@ -42,23 +42,23 @@ The founders in these episodes test customers, trust, and distribution before
 they scale modeling. Several [startups]({{ '/wiki/startups/' | relative_url }})
 episodes use that product-first order.
 
-[Elena Samuylova]({{ '/people/elenasamuylova/' | relative_url }}) describes
+[Elena Samuylova](https://datatalks.club/people/elenasamuylova.html) describes
 ML startup ideas as
-[problem-first work at 7:23]({{ '/podcasts/building-mlops-startup/' | relative_url }}).
+[problem-first work at 7:23](https://datatalks.club/podcast/building-mlops-startup.html).
 She returns to
-[customer discovery and product-market fit signals at 42:15]({{ '/podcasts/building-mlops-startup/' | relative_url }}).
+[customer discovery and product-market fit signals at 42:15](https://datatalks.club/podcast/building-mlops-startup.html).
 For the broader revenue and operating model question, use
 [Machine Learning for Business]({{ '/wiki/machine-learning-for-business/' | relative_url }})
 alongside this startup-specific guide.
 
-[Carmine Paolino]({{ '/people/carminepaolino/' | relative_url }})
+[Carmine Paolino](https://datatalks.club/people/carminepaolino.html)
 grounds the same idea in grocery retail. FreshFlow shadowed store teams and did
 customer research through
-[fresh-product problem discovery at 5:46]({{ '/podcasts/launch-and-build-retail-startup/' | relative_url }})
+[fresh-product problem discovery at 5:46](https://datatalks.club/podcast/launch-and-build-retail-startup.html)
 and
-[store-team shadowing at 7:13]({{ '/podcasts/launch-and-build-retail-startup/' | relative_url }}).
+[store-team shadowing at 7:13](https://datatalks.club/podcast/launch-and-build-retail-startup.html).
 The team then narrowed the product from a computer vision idea into
-[an ordering system at 24:47]({{ '/podcasts/launch-and-build-retail-startup/' | relative_url }}).
+[an ordering system at 24:47](https://datatalks.club/podcast/launch-and-build-retail-startup.html).
 
 ## Start With the Workflow, Not the Model
 
@@ -67,20 +67,20 @@ Treat that as [data product management]({{ '/wiki/data-product-management/' | re
 before modeling. The team needs to know who uses the output, what changes in
 their work, and which signal proves the change helped.
 
-[Maria Bruckert]({{ '/people/mariabruckert/' | relative_url }}) says SQIN
+[Maria Bruckert](https://datatalks.club/people/mariabruckert.html) says SQIN
 began with industry immersion and MVP work. The team had to work around
 healthcare constraints before treating AI diagnosis as a product capability.
 
 She describes an
-[AR lipstick try-on MVP at 12:55]({{ '/podcasts/building-ai-digital-health-startups/' | relative_url }})
+[AR lipstick try-on MVP at 12:55](https://datatalks.club/podcast/building-ai-digital-health-startups.html)
 that collected engagement and skin health signals before SQIN moved deeper into
 diagnosis and telemedicine.
 
-[Dat Tran]({{ '/people/dattran/' | relative_url }}) makes the same point from
+[Dat Tran](https://datatalks.club/people/dattran.html) makes the same point from
 team-building work in
-[Priceloop's white-box AI pricing product at 23:19]({{ '/podcasts/building-data-team/' | relative_url }}).
+[Priceloop's white-box AI pricing product at 23:19](https://datatalks.club/podcast/building-data-team.html).
 He emphasizes
-[augmenting pricing managers at 24:52]({{ '/podcasts/building-data-team/' | relative_url }})
+[augmenting pricing managers at 24:52](https://datatalks.club/podcast/building-data-team.html)
 rather than replacing them. For startup ML, define the human decision your
 model supports before you hire around algorithms or infrastructure.
 
@@ -89,21 +89,21 @@ model supports before you hire around algorithms or infrastructure.
 Early teams can often validate demand with a manual service, a rule-based
 prototype, a dashboard, or a lightweight model. Samuylova explicitly covers
 no-code MVPs and service productization in
-[no-code MVP advice at 38:08]({{ '/podcasts/building-mlops-startup/' | relative_url }})
+[no-code MVP advice at 38:08](https://datatalks.club/podcast/building-mlops-startup.html)
 and
-[service productization at 39:25]({{ '/podcasts/building-mlops-startup/' | relative_url }}).
+[service productization at 39:25](https://datatalks.club/podcast/building-mlops-startup.html).
 That advice fits ML startups because a trained model is rarely the fastest way
 to learn whether customers will pay, share data, or change behavior.
 
-[Pauline Clavelloux]({{ '/people/paulineclavelloux/' | relative_url }}) gives
+[Pauline Clavelloux](https://datatalks.club/people/paulineclavelloux.html) gives
 the bootstrapped side-project version in
-[Indie Hacking and Bootstrapping Side Projects]({{ '/podcasts/data-scientist-and-indie-hacker-bootstrapping-side-projects/' | relative_url }}).
+[Indie Hacking and Bootstrapping Side Projects](https://datatalks.club/podcast/data-scientist-and-indie-hacker-bootstrapping-side-projects.html).
 She frames indie hacking as
-[building without external funding at 7:23]({{ '/podcasts/data-scientist-and-indie-hacker-bootstrapping-side-projects/' | relative_url }})
+[building without external funding at 7:23](https://datatalks.club/podcast/data-scientist-and-indie-hacker-bootstrapping-side-projects.html)
 and uses concrete product work to validate ideas. Her examples range from
-[landing pages, legal setup, and payments at 15:09]({{ '/podcasts/data-scientist-and-indie-hacker-bootstrapping-side-projects/' | relative_url }})
+[landing pages, legal setup, and payments at 15:09](https://datatalks.club/podcast/data-scientist-and-indie-hacker-bootstrapping-side-projects.html)
 to
-[launch channels and early sales at 28:41]({{ '/podcasts/data-scientist-and-indie-hacker-bootstrapping-side-projects/' | relative_url }}).
+[launch channels and early sales at 28:41](https://datatalks.club/podcast/data-scientist-and-indie-hacker-bootstrapping-side-projects.html).
 For a small ML product, those checks can matter before model quality because
 they test whether the team can reach buyers at all.
 
@@ -111,9 +111,9 @@ Paolino's FreshFlow story shows why the first version can be deliberately
 small. After customer discovery, the team moved from a computer vision app
 toward a grocery ordering system. Pilots with Volg and Edeka then gave the team
 real retail operations to learn from. That path runs from
-[the computer-vision-to-ordering pivot at 24:47]({{ '/podcasts/launch-and-build-retail-startup/' | relative_url }})
+[the computer-vision-to-ordering pivot at 24:47](https://datatalks.club/podcast/launch-and-build-retail-startup.html)
 to
-[Volg and Edeka pilot work at 33:24]({{ '/podcasts/launch-and-build-retail-startup/' | relative_url }}).
+[Volg and Edeka pilot work at 33:24](https://datatalks.club/podcast/launch-and-build-retail-startup.html).
 The model idea became valuable only after the startup understood the retailer's
 fresh-product problem, sales cycle, and roadmap toward a broader retail OS.
 
@@ -126,17 +126,17 @@ using the product. That makes ML startup validation close to
 and [metrics]({{ '/wiki/metrics/' | relative_url }}), not only model quality.
 
 Samuylova discusses
-[interview counts and product-market fit signals at 42:15]({{ '/podcasts/building-mlops-startup/' | relative_url }}).
+[interview counts and product-market fit signals at 42:15](https://datatalks.club/podcast/building-mlops-startup.html).
 She then explains how Evidently validated model monitoring as
-[a business opportunity at 43:59]({{ '/podcasts/building-mlops-startup/' | relative_url }}).
+[a business opportunity at 43:59](https://datatalks.club/podcast/building-mlops-startup.html).
 
-[Vin Vashishta]({{ '/people/vinvashishta/' | relative_url }}) adds the
+[Vin Vashishta](https://datatalks.club/people/vinvashishta.html) adds the
 business-metric version in
-[Monetize Machine Learning]({{ '/podcasts/make-money-with-machine-learning-roles-skills/' | relative_url }}).
+[Monetize Machine Learning](https://datatalks.club/podcast/make-money-with-machine-learning-roles-skills.html).
 He translates ML work into
-[ARR and MRR at 12:07]({{ '/podcasts/make-money-with-machine-learning-roles-skills/' | relative_url }})
+[ARR and MRR at 12:07](https://datatalks.club/podcast/make-money-with-machine-learning-roles-skills.html)
 and compares revenue with
-[cost-savings business models at 15:59]({{ '/podcasts/make-money-with-machine-learning-roles-skills/' | relative_url }}).
+[cost-savings business models at 15:59](https://datatalks.club/podcast/make-money-with-machine-learning-roles-skills.html).
 That framing keeps startup ML tied to a business model rather than an offline
 model score.
 
@@ -144,15 +144,15 @@ model score.
 
 Lean startup ML still needs [MLOps]({{ '/wiki/mlops/' | relative_url }}), but
 it needs the amount that protects learning without slowing it down.
-[Nemanja Radojkovic]({{ '/people/nemanjaradojkovic/' | relative_url }})
+[Nemanja Radojkovic](https://datatalks.club/people/nemanjaradojkovic.html)
 argues for
-[a SaaS-first MVP stack at 11:54]({{ '/podcasts/lean-mlops-for-startups/' | relative_url }}).
+[a SaaS-first MVP stack at 11:54](https://datatalks.club/podcast/lean-mlops-for-startups.html).
 He then walks through
-[cloud credits and migration friction at 12:54]({{ '/podcasts/lean-mlops-for-startups/' | relative_url }})
+[cloud credits and migration friction at 12:54](https://datatalks.club/podcast/lean-mlops-for-startups.html)
 and
-[vendor lock-in tradeoffs at 19:19]({{ '/podcasts/lean-mlops-for-startups/' | relative_url }}).
+[vendor lock-in tradeoffs at 19:19](https://datatalks.club/podcast/lean-mlops-for-startups.html).
 His
-[minimal stack discussion at 44:10]({{ '/podcasts/lean-mlops-for-startups/' | relative_url }})
+[minimal stack discussion at 44:10](https://datatalks.club/podcast/lean-mlops-for-startups.html)
 includes Python, CI/CD, orchestration, and Dagster rather than a custom
 platform.
 
@@ -168,14 +168,14 @@ It means sequencing enough discipline for the stage:
 
 Startups usually don't need to build a full ML platform before they have
 repeatable users. Radojkovic's
-[technical debt discussion at 40:01]({{ '/podcasts/lean-mlops-for-startups/' | relative_url }})
+[technical debt discussion at 40:01](https://datatalks.club/podcast/lean-mlops-for-startups.html)
 is useful here. Teams can take shortcuts, but they need to record the debt,
 understand the security implications, and know which shortcuts will block later
 migration.
 
 FreshFlow faced the same stack tradeoff. Paolino describes Kubeflow challenges
 and
-[the move toward managed cloud choices at 53:09]({{ '/podcasts/launch-and-build-retail-startup/' | relative_url }}).
+[the move toward managed cloud choices at 53:09](https://datatalks.club/podcast/launch-and-build-retail-startup.html).
 For an early CTO, managed services can be the practical choice because the
 startup needs customer learning more than infrastructure ownership.
 
@@ -193,12 +193,12 @@ handle ethics and sensitive user messaging.
 
 Bruckert links those constraints to product design in three places. Community
 reach helped
-[bootstrap datasets at 29:43]({{ '/podcasts/building-ai-digital-health-startups/' | relative_url }}).
+[bootstrap datasets at 29:43](https://datatalks.club/podcast/building-ai-digital-health-startups.html).
 User support became
-[a feedback channel at 38:05]({{ '/podcasts/building-ai-digital-health-startups/' | relative_url }}).
+[a feedback channel at 38:05](https://datatalks.club/podcast/building-ai-digital-health-startups.html).
 Inclusive UX mattered because the AI handled skin health rather than a low-risk
 consumer recommendation
-([ethics and sensitive AI messaging at 24:08]({{ '/podcasts/building-ai-digital-health-startups/' | relative_url }})).
+([ethics and sensitive AI messaging at 24:08](https://datatalks.club/podcast/building-ai-digital-health-startups.html)).
 For startup ML in sensitive domains, trust and
 [privacy engineering for ML]({{ '/wiki/privacy-engineering-for-ml/' | relative_url }})
 belong in the product design from the beginning.
@@ -206,9 +206,9 @@ belong in the product design from the beginning.
 Samuylova adds the developer-tools version of the same data problem. In the
 Evidently discussion, she covers data safety and on-premise deployment. She
 also covers the work needed to persuade clients to share data through
-[value demonstrations at 53:09]({{ '/podcasts/building-mlops-startup/' | relative_url }})
+[value demonstrations at 53:09](https://datatalks.club/podcast/building-mlops-startup.html)
 and
-[on-premise deployment options at 56:17]({{ '/podcasts/building-mlops-startup/' | relative_url }}).
+[on-premise deployment options at 56:17](https://datatalks.club/podcast/building-mlops-startup.html).
 For B2B ML startups, the data strategy is part of sales and trust, not only a
 technical pipeline.
 
@@ -218,36 +218,36 @@ Startup ML teams usually need generalists before specialists. Tran says early
 hiring should match prototype and MVP uncertainty. Cross-functional roles
 matter, and T-shaped engineers are useful before the team shifts toward
 specialists. He grounds that shift in
-[startup hiring under prototype uncertainty at 28:57]({{ '/podcasts/building-data-team/' | relative_url }})
+[startup hiring under prototype uncertainty at 28:57](https://datatalks.club/podcast/building-data-team.html)
 and
-[mid-stage specialization at 33:35]({{ '/podcasts/building-data-team/' | relative_url }}).
+[mid-stage specialization at 33:35](https://datatalks.club/podcast/building-data-team.html).
 For ML startups, hiring is [team building]({{ '/wiki/team-building/' | relative_url }})
 rather than a fixed list of job titles.
 
 Radojkovic describes the same constraint from the MLOps side. Startups create
-[end-to-end ownership at 27:30]({{ '/podcasts/lean-mlops-for-startups/' | relative_url }})
+[end-to-end ownership at 27:30](https://datatalks.club/podcast/lean-mlops-for-startups.html)
 because fewer people cover more of the product and infrastructure surface. He
 then frames
-[the startup learning-curve tradeoff at 35:48]({{ '/podcasts/lean-mlops-for-startups/' | relative_url }}).
+[the startup learning-curve tradeoff at 35:48](https://datatalks.club/podcast/lean-mlops-for-startups.html).
 That's productive when the team has enough senior judgment. It's risky when
 junior people have no mentorship, which is why he later recommends pairing and
 mentorship for
-[early-career engineers at 43:12]({{ '/podcasts/lean-mlops-for-startups/' | relative_url }}).
+[early-career engineers at 43:12](https://datatalks.club/podcast/lean-mlops-for-startups.html).
 
 Samuylova adds another hiring boundary for founders. Bring in domain or
 technical expertise when the current team can't validate or deliver the product
 safely
-([domain or technical help at 40:13]({{ '/podcasts/building-mlops-startup/' | relative_url }})).
+([domain or technical help at 40:13](https://datatalks.club/podcast/building-mlops-startup.html)).
 Missing expertise can break the product before model accuracy becomes the main
 issue in healthcare, finance, pricing, or infrastructure tools.
 
-[Marianna Diachuk]({{ '/people/mariannadiachuk/' | relative_url }}) shows the
+[Marianna Diachuk](https://datatalks.club/people/mariannadiachuk.html) shows the
 single-data-scientist version of that ownership problem in
-[Introducing Data Science in Startups]({{ '/podcasts/solopreneur-data-scientist/' | relative_url }}).
+[Introducing Data Science in Startups](https://datatalks.club/podcast/solopreneur-data-scientist.html).
 She recommends checking for
-[pipelines, engineers, and analytics readiness at 8:13]({{ '/podcasts/solopreneur-data-scientist/' | relative_url }})
+[pipelines, engineers, and analytics readiness at 8:13](https://datatalks.club/podcast/solopreneur-data-scientist.html)
 before a startup expects one data scientist to deliver production ML. Her
-[first-quarter roadmap at 24:07]({{ '/podcasts/solopreneur-data-scientist/' | relative_url }})
+[first-quarter roadmap at 24:07](https://datatalks.club/podcast/solopreneur-data-scientist.html)
 includes pipelines and methodology. It also includes deployment and A/B testing,
 which is closer to product ownership than isolated modeling.
 
@@ -255,17 +255,17 @@ which is closer to product ownership than isolated modeling.
 
 Once customers rely on a model, [model monitoring]({{ '/wiki/model-monitoring/' | relative_url }})
 becomes part of the product promise. Samuylova's Evidently story centers on
-[validating model monitoring as a business at 43:59]({{ '/podcasts/building-mlops-startup/' | relative_url }}).
+[validating model monitoring as a business at 43:59](https://datatalks.club/podcast/building-mlops-startup.html).
 The company then used [open source]({{ '/wiki/open-source/' | relative_url }}),
-[bottom-up adoption at 51:48]({{ '/podcasts/building-mlops-startup/' | relative_url }}),
+[bottom-up adoption at 51:48](https://datatalks.club/podcast/building-mlops-startup.html),
 and
-[on-premise options at 56:17]({{ '/podcasts/building-mlops-startup/' | relative_url }})
+[on-premise options at 56:17](https://datatalks.club/podcast/building-mlops-startup.html)
 to reach teams that needed to watch model behavior.
 
 Radojkovic gives the startup-scale version through
-[observability choices such as Logfire, Prometheus/Grafana, and Streamlit at 45:55]({{ '/podcasts/lean-mlops-for-startups/' | relative_url }}).
+[observability choices such as Logfire, Prometheus/Grafana, and Streamlit at 45:55](https://datatalks.club/podcast/lean-mlops-for-startups.html).
 He treats reliability as part of
-[data quality, lineage, and the extra unpredictability of LLM systems at 55:43]({{ '/podcasts/lean-mlops-for-startups/' | relative_url }}).
+[data quality, lineage, and the extra unpredictability of LLM systems at 55:43](https://datatalks.club/podcast/lean-mlops-for-startups.html).
 
 Monitoring should follow the failure modes customers will notice:
 
@@ -282,11 +282,11 @@ jobs are product failures too, not only internal engineering issues.
 
 In product-led ML teams, monitoring also supports prioritization.
 
-[Mariano Semelman]({{ '/people/marianosemelman/' | relative_url }}) ties data
+[Mariano Semelman](https://datatalks.club/people/marianosemelman.html) ties data
 science work to user impact and experiments in
-[a product-first discussion at 29:29]({{ '/podcasts/data-science-leadership-hiring-mlops/' | relative_url }}).
+[a product-first discussion at 29:29](https://datatalks.club/podcast/data-science-leadership-hiring-mlops.html).
 He ties that work to deployment, fail-fast iteration, and
-[where modeling time delivers impact at 36:50]({{ '/podcasts/data-science-leadership-hiring-mlops/' | relative_url }}).
+[where modeling time delivers impact at 36:50](https://datatalks.club/podcast/data-science-leadership-hiring-mlops.html).
 Startup teams should spend modeling time where the next improvement changes a
 product metric or customer workflow, not where it only improves an offline
 score.
@@ -294,26 +294,26 @@ score.
 ## Use Stricter Rules in Regulated or Sensitive Domains
 
 Digital health shows why some startups need more rigor earlier. Bruckert covers
-[healthcare data gaps and rural access at 5:07]({{ '/podcasts/building-ai-digital-health-startups/' | relative_url }})
+[healthcare data gaps and rural access at 5:07](https://datatalks.club/podcast/building-ai-digital-health-startups.html)
 and
-[legacy infrastructure at 6:11]({{ '/podcasts/building-ai-digital-health-startups/' | relative_url }}).
+[legacy infrastructure at 6:11](https://datatalks.club/podcast/building-ai-digital-health-startups.html).
 She also covers
-[ethics and sensitive AI messaging at 24:08]({{ '/podcasts/building-ai-digital-health-startups/' | relative_url }}).
+[ethics and sensitive AI messaging at 24:08](https://datatalks.club/podcast/building-ai-digital-health-startups.html).
 Later in the same episode, she discusses
-[investor credibility at 43:44]({{ '/podcasts/building-ai-digital-health-startups/' | relative_url }}).
+[investor credibility at 43:44](https://datatalks.club/podcast/building-ai-digital-health-startups.html).
 
 In that setting, a rough MVP can test a workflow. The product still has to
 respect clinical trust, inclusive UX, and data constraints from the beginning.
 
 Infrastructure and developer-tool startups face a different version of the same
 rule. Samuylova separates
-[vertical AI products from MLOps infrastructure at 21:34]({{ '/podcasts/building-mlops-startup/' | relative_url }}).
+[vertical AI products from MLOps infrastructure at 21:34](https://datatalks.club/podcast/building-mlops-startup.html).
 She explains
-[developer-tools adoption and open source strategy at 24:33]({{ '/podcasts/building-mlops-startup/' | relative_url }}),
+[developer-tools adoption and open source strategy at 24:33](https://datatalks.club/podcast/building-mlops-startup.html),
 covers
-[licensing risks at 49:29]({{ '/podcasts/building-mlops-startup/' | relative_url }}),
+[licensing risks at 49:29](https://datatalks.club/podcast/building-mlops-startup.html),
 and describes
-[bottom-up adoption at 51:48]({{ '/podcasts/building-mlops-startup/' | relative_url }}).
+[bottom-up adoption at 51:48](https://datatalks.club/podcast/building-mlops-startup.html).
 
 An [open-source]({{ '/wiki/open-source/' | relative_url }}) ML tool can reduce
 adoption friction, but it also forces the founders to think about community and

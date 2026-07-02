@@ -24,17 +24,17 @@ production question.
 
 DataTalks.Club guests repeatedly treat the LLM as a product component, not the
 whole system.
-[Meryem Arik]({{ '/people/meryemarik/' | relative_url }}) ties LLM production
+[Meryem Arik](https://datatalks.club/people/meryemarik.html) ties LLM production
 to deployment and model ownership in
-[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}).
+[Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html).
 She also discusses fine-tuning, retrieval, cost, and latency there. In
 [business intelligence]({{ '/wiki/business-intelligence/' | relative_url }}),
 the model can help with questions and summaries. The product still depends on
 governed metrics, access controls, and review.
 
-[Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }})
+[Hugo Bowne-Anderson](https://datatalks.club/people/hugobowneanderson.html)
 turns the same production problem into prompts, RAG, and gold tests in
-[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}).
+[Practical LLM Engineering and RAG](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html).
 He adds failure analysis, logs, traces, and tool use in the same episode.
 
 ## Production System Boundary
@@ -44,19 +44,19 @@ product behavior. Hugo starts from a small LLM application, then adds
 generator-evaluator checks at 13:56 and representative gold tests at 23:00. He
 covers failure analysis at 26:43, logs and traces at 27:38, and tool use or
 agents at 44:26-56:21 in
-[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}).
+[Practical LLM Engineering and RAG](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html).
 That makes [LLM evaluation workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }})
 part of production design rather than a final audit.
 
-[Paul Iusztin]({{ '/people/pauliusztin/' | relative_url }}) places RAG and
+[Paul Iusztin](https://datatalks.club/people/pauliusztin.html) places RAG and
 agents inside one AI engineering skill stack at 29:12-46:31 in
-[his AI engineering episode]({{ '/podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products/' | relative_url }}).
+[his AI engineering episode](https://datatalks.club/podcast/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products.html).
 LLMOps and product shipping sit in that same stack. He also includes queues,
 retries, traces, and monitoring in that shipping discussion.
 
-[Mariano Semelman]({{ '/people/marianosemelman/' | relative_url }}) keeps the
+[Mariano Semelman](https://datatalks.club/people/marianosemelman.html) keeps the
 same product boundary in
-[From Notebook to Production]({{ '/podcasts/s24e03-from-notebook-to-production-building-end-to-end-ai-systems/' | relative_url }}).
+[From Notebook to Production](https://datatalks.club/podcast/s24e03-from-notebook-to-production-building-end-to-end-ai-systems.html).
 Requirements and data still matter at 17:27-21:12. Deployment, monitoring, and
 feedback matter at 41:28-49:55.
 
@@ -72,7 +72,7 @@ where the next fix belongs.
 
 Guests differ on the constraint they treat as the first production problem.
 Meryem starts with the serving boundary. In
-[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}),
+[Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html),
 she compares open-source models with hosted APIs at 16:48-25:26. She connects
 that choice to control and privacy. Provider drift appears there too.
 
@@ -81,27 +81,27 @@ She also covers fine-tuning, compression, and inference optimization through
 
 Hugo starts with builder iteration. He treats prompts and structured outputs as
 parts of a testable system in
-[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }})
+[Practical LLM Engineering and RAG](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html)
 at 13:56-27:38. RAG and tools appear in the same testable system at
 44:26-56:21.
 
-[Ranjitha Kulkarni]({{ '/people/ranjithakulkarni/' | relative_url }})
+[Ranjitha Kulkarni](https://datatalks.club/people/ranjithakulkarni.html)
 starts from agentic workflows. Context engineering and tools appear with memory in
-[Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }})
+[Building Agentic AI Systems](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html)
 at 21:21-37:39. Ranjitha adds mocked tool tests, integration tests, and
 outcome assertions at 51:17-57:23.
 
-[Aditya Gautam]({{ '/people/adityagautam/' | relative_url }}) starts from
+[Aditya Gautam](https://datatalks.club/people/adityagautam.html) starts from
 enterprise reliability. In
-[The Future of AI Agents]({{ '/podcasts/s23e03-future-of-ai-agents/' | relative_url }}),
+[The Future of AI Agents](https://datatalks.club/podcast/s23e03-future-of-ai-agents.html),
 he ties agents to guardrails and lineage. He also discusses feedback and
 multi-tenancy. Golden datasets, thresholds, and LLM judges appear in the same
 section at 30:26-50:18.
 
-[Maria Sukhareva]({{ '/people/mariasukhareva/' | relative_url }}) starts from
+[Maria Sukhareva](https://datatalks.club/people/mariasukhareva.html) starts from
 adversarial trust. Prompt injection and data exfiltration come before output
 validation and non-LLM classifiers in
-[Hardening Generative AI Chatbots]({{ '/podcasts/generative-ai-chatbots-in-production-security/' | relative_url }})
+[Hardening Generative AI Chatbots](https://datatalks.club/podcast/generative-ai-chatbots-in-production-security.html)
 at 9:28-17:00.
 
 ## Model Choice and Serving
@@ -109,16 +109,16 @@ at 9:28-17:00.
 Teams first choose a serving boundary. They may use a hosted API or a
 self-hosted open-source model. They may also use a fine-tuned model or a mix.
 Meryem anchors that decision in
-[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}).
+[Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html).
 
 At 16:48-25:26, she links model-source choices to control and privacy. She
 also covers model size, compression, and inference optimization. At
 49:44-51:35, she separates prototype convenience from production choices around
 self-hosting. Hardware, latency, and cost also affect that choice.
 
-[Sandra Kublik]({{ '/people/sandrakublik/' | relative_url }}) gives the
+[Sandra Kublik](https://datatalks.club/people/sandrakublik.html) gives the
 product version of the same tradeoff in
-[Practical LLM Use Cases]({{ '/podcasts/practical-llm-use-cases-and-product-patterns/' | relative_url }}).
+[Practical LLM Use Cases](https://datatalks.club/podcast/practical-llm-use-cases-and-product-patterns.html).
 At 32:28-35:28, she discusses model, architecture, and integration decisions
 for LLM applications. She also names cost and latency. Proprietary-data and IP
 concerns appear in the same discussion. Model choice therefore depends on
@@ -131,13 +131,13 @@ benchmark scores.
 Meryem separates retrieval from fine-tuning in practical terms.
 She discusses fine-tuning for specialization, domain adaptation, tone, and
 format at 26:30-31:38 in
-[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}).
+[Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html).
 At 40:46-46:42, she discusses retrieval for changing knowledge and indexes.
 She also covers grounded responses and summarizers there.
 
-[Atita Arora]({{ '/people/atitaarora/' | relative_url }}) adds the search
+[Atita Arora](https://datatalks.club/people/atitaarora.html) adds the search
 engineering version in
-[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}).
+[Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html).
 
 At 30:38-42:49, she describes RAG as retrieval plus generation, covers chunking
 and overlap, and connects retrieval to prompt design and citations. Embeddings
@@ -148,14 +148,14 @@ why production RAG belongs with
 and [production search evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }}).
 
 Context engineering sits between prompting and autonomous agents. In
-[Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }})
+[Building Agentic AI Systems](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html)
 Ranjitha names context engineering at 21:21. She then names noisy context,
 chunking, metadata, and wrappers at 29:30-32:48.
 Latency, cost, and garbage-in-garbage-out appear in the same discussion.
 
-[Lavanya Gupta]({{ '/people/lavanyagupta/' | relative_url }})
+[Lavanya Gupta](https://datatalks.club/people/lavanyagupta.html)
 adds the long-context case in
-[Applied LLM Research]({{ '/podcasts/applied-llm-research-and-career-growth-in-practice/' | relative_url }}):
+[Applied LLM Research](https://datatalks.club/podcast/applied-llm-research-and-career-growth-in-practice.html):
 her 10:15-14:54 discussion covers financial long-context evaluation. Large
 context windows still need task-specific evaluation. Retrieval or summarization
 can still matter there.
@@ -165,7 +165,7 @@ can still matter there.
 Agents fit cases where the LLM must plan or call tools. They also fit cases
 where the system must use memory or take action beyond retrieving context. Ranjitha
 defines agents around autonomy and objectives at 11:00-12:31 in
-[Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}).
+[Building Agentic AI Systems](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html).
 She includes orchestration, tools, memory, and knowledge stores. She then
 separates retrieval as one tool from cases that need planning or action at
 36:11-37:39.
@@ -174,12 +174,12 @@ Tool use becomes production work when teams constrain and test the callable
 interfaces. Ranjitha discusses SDKs and tool wrappers at 18:23-24:59.
 Integration abstractions appear there too. She then adds mocked tools and
 integration tests at 51:17-57:23 in
-[Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}).
+[Building Agentic AI Systems](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html).
 Regression tests and outcome assertions appear in the same section.
 
-[Micheal Lanham]({{ '/people/micheallanham/' | relative_url }}) adds a
+[Micheal Lanham](https://datatalks.club/people/micheallanham.html) adds a
 minimalist agent-design boundary in
-[From Game AI to LLM Agents]({{ '/podcasts/from-game-ai-to-modern-ai-agents/' | relative_url }}).
+[From Game AI to LLM Agents](https://datatalks.club/podcast/from-game-ai-to-modern-ai-agents.html).
 Task decomposition and sequential workflows appear at 20:57-23:48.
 Manager-agent orchestration appears at 23:48-33:25, along with Agent SDKs and
 MCP-style integrations.
@@ -196,7 +196,7 @@ rollback paths.
 
 Production LLM systems need evaluation before launch and feedback after launch.
 Hugo gives the base workflow in
-[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }})
+[Practical LLM Engineering and RAG](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html)
 at 13:56-27:38. He covers generator-evaluator checks, structured checks, gold
 tests, and failure categories. Logs and traces appear at 27:38, where the team
 needs to know whether the next fix belongs in retrieval or prompting. The fix
@@ -204,18 +204,18 @@ may also belong in data preparation, formatting, or product scope.
 
 Agent systems extend evaluation into software behavior. Ranjitha argues for
 custom datasets, system benchmarks, mocked tools, and integration tests in
-[Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }})
+[Building Agentic AI Systems](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html)
 at 51:17-57:23. Regression tests and outcome-based assertions appear there too.
 
 Aditya adds the enterprise layer in
-[The Future of AI Agents]({{ '/podcasts/s23e03-future-of-ai-agents/' | relative_url }})
+[The Future of AI Agents](https://datatalks.club/podcast/s23e03-future-of-ai-agents.html)
 at 38:49-50:18. He covers golden datasets, thresholds, and LLM judges aligned
 with human labels. Feedback loops, multi-tenancy, and scale also become
 operating requirements there.
 
 Feedback can also be a product signal. Mariano discusses explicit and implicit
 feedback loops at 41:28 in
-[From Notebook to Production]({{ '/podcasts/s24e03-from-notebook-to-production-building-end-to-end-ai-systems/' | relative_url }}).
+[From Notebook to Production](https://datatalks.club/podcast/s24e03-from-notebook-to-production-building-end-to-end-ai-systems.html).
 At 47:22-58:45, he shows how generated media for e-commerce sellers used
 customer requirements and factuality checks. That example links LLM production
 to [model monitoring]({{ '/wiki/model-monitoring/' | relative_url }}) and
@@ -226,7 +226,7 @@ to [model monitoring]({{ '/wiki/model-monitoring/' | relative_url }}) and
 Production LLM systems need controls around user input and retrieved context.
 They also need controls around generated output and tool calls. Maria describes
 a large-scale hacking exercise at 9:28 in
-[Hardening Generative AI Chatbots]({{ '/podcasts/generative-ai-chatbots-in-production-security/' | relative_url }}).
+[Hardening Generative AI Chatbots](https://datatalks.club/podcast/generative-ai-chatbots-in-production-security.html).
 She then covers legal and financial exposure from hallucinations at 11:38.
 Data exfiltration through prompt overload and knowledge-base retrieval appears
 at 13:20.
@@ -237,14 +237,14 @@ the same operational space as
 [AI red teaming]({{ '/wiki/ai-red-teaming/' | relative_url }}) and
 [security]({{ '/wiki/security/' | relative_url }}). She also discusses
 moderation support and human review for higher-risk outputs at 25:34 in
-[Hardening Generative AI Chatbots]({{ '/podcasts/generative-ai-chatbots-in-production-security/' | relative_url }}).
+[Hardening Generative AI Chatbots](https://datatalks.club/podcast/generative-ai-chatbots-in-production-security.html).
 
 Human review also appears in product risk. Sandra discusses hallucinations and
 brand safety at 23:29 in
-[Practical LLM Use Cases]({{ '/podcasts/practical-llm-use-cases-and-product-patterns/' | relative_url }}).
+[Practical LLM Use Cases](https://datatalks.club/podcast/practical-llm-use-cases-and-product-patterns.html).
 She covers editorial curation in the same section. Aditya adds auditability,
 guardrails, lineage, and compliance for enterprise agents at 30:26 in
-[The Future of AI Agents]({{ '/podcasts/s23e03-future-of-ai-agents/' | relative_url }}).
+[The Future of AI Agents](https://datatalks.club/podcast/s23e03-future-of-ai-agents.html).
 Those enterprise controls place production LLM work next to
 [Agent Ops]({{ '/wiki/agent-ops/' | relative_url }}) and
 [responsible AI and governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }}).
@@ -255,17 +255,17 @@ Cost and latency affect the design because prompts and retrieved context add
 runtime and model spend. Judge calls, tool calls, and retries add more.
 Multi-step agents add more runtime and spend. Meryem covers serving efficiency
 and compression at 25:26 and 51:35 in
-[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}).
+[Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html).
 She also covers hardware, latency, and cost in the same serving discussion.
 
 Ranjitha adds the RAG and agent version at 29:30 in
-[Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}).
+[Building Agentic AI Systems](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html).
 Retrieval quality and context quality affect whether the system is usable.
 Latency and cost affect that decision too.
 
-[Bartosz Mikulski]({{ '/people/bartoszmikulski/' | relative_url }}) contributes
+[Bartosz Mikulski](https://datatalks.club/people/bartoszmikulski.html) contributes
 the application-engineering view in
-[Production AI Engineering]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }}).
+[Production AI Engineering](https://datatalks.club/podcast/production-ready-ai-engineering.html).
 At 28:16-31:45, he connects prompt evaluation and prompt compression to model
 efficiency. Caching appears in the same section. At 41:04-47:19, he discusses
 backend AI integrations and browser extension architecture. Search assistants
@@ -301,4 +301,4 @@ They also cover evaluation, agents, governance, and project ideas:
 - [Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }})
 - [RAG Portfolio Projects]({{ '/wiki/rag-portfolio-projects/' | relative_url }})
 - [LLM System Design Interview]({{ '/wiki/llm-system-design-interview/' | relative_url }})
-- [LLM Engineer's Handbook]({{ '/books/20241104-llm-engineer-s-handbook/' | relative_url }})
+- [LLM Engineer's Handbook](https://datatalks.club/books/20241104-llm-engineer-s-handbook.html)

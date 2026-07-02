@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Phil Winder]({ '/people/philwinder/' | relative_url }).
+[Phil Winder](https://datatalks.club/people/philwinder.html).
 
 ## Discussion Archive
 

@@ -29,9 +29,9 @@ Use [Information Retrieval]({{ '/wiki/information-retrieval/' | relative_url }})
 and
 [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }}).
 
-[Atita Arora]({{ '/people/atitaarora/' | relative_url }}) gives the core structure
+[Atita Arora](https://datatalks.club/people/atitaarora.html) gives the core structure
 in
-[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}).
+[Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html).
 At 30:38, she defines RAG as retrieval plus generation. At 35:49, she applies
 that design to podcast transcript question answering. At 38:24, she discusses
 chunking and overlap. At 42:49, she moves from retrieval into prompt context
@@ -40,9 +40,9 @@ and citations.
 Her 48:09 evaluation discussion turns those implementation choices into review
 criteria.
 
-[Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }}) adds
+[Hugo Bowne-Anderson](https://datatalks.club/people/hugobowneanderson.html) adds
 the debugging standard in
-[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}):
+[Practical LLM Engineering and RAG](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html):
 at 23:00-25:25, he argues for representative gold test sets. At 26:43, he
 recommends ranking and categorizing failures. At 27:38, he ties a debuggable
 MVP to logs and traces.
@@ -63,16 +63,16 @@ by speaker turn or question. It can also be chunked by chapter or time window.
 Documents can be chunked by heading, section, or a sliding token window.
 
 Atita's transcript example in
-[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
+[Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html)
 uses chunking and overlap at 35:49-42:49. It also uses embeddings, retrieval,
 prompt design, and citations. The same project evidence belongs with
 [Embeddings]({{ '/wiki/embeddings/' | relative_url }}) and
 [Vector Databases]({{ '/wiki/vector-databases/' | relative_url }}).
 
 Large context windows don't remove chunking decisions.
-[Lavanya Gupta]({{ '/people/lavanyagupta/' | relative_url }}) discusses
+[Lavanya Gupta](https://datatalks.club/people/lavanyagupta.html) discusses
 long-context evaluation and degradation at 10:15-14:54 in
-[Applied LLM Research and Career Growth]({{ '/podcasts/applied-llm-research-and-career-growth-in-practice/' | relative_url }}).
+[Applied LLM Research and Career Growth](https://datatalks.club/podcast/applied-llm-research-and-career-growth-in-practice.html).
 A project can use that evidence to justify testing chunk size, overlap, and
 retrieval count instead of stuffing every source into one prompt.
 
@@ -84,9 +84,9 @@ search on the same questions before asking the LLM to write final answers. A
 search-first README can show where keyword search wins, where embeddings win,
 and where metadata filters are required.
 
-[Daniel Svonava]({{ '/people/danielsvonava/' | relative_url }}) supports that
+[Daniel Svonava](https://datatalks.club/people/danielsvonava.html) supports that
 order in
-[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}).
+[Building Search Systems](https://datatalks.club/podcast/building-production-search-systems.html).
 He separates candidate retrieval from ranking at 12:45 and explains embeddings
 at 21:55. At 34:00, he covers hybrid search with filters and recency.
 
@@ -97,9 +97,9 @@ stack. Use
 [Production Search Evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }})
 when relevance metrics or business outcomes matter.
 
-[Meryem Arik]({{ '/people/meryemarik/' | relative_url }}) gives the RAG reason
+[Meryem Arik](https://datatalks.club/people/meryemarik.html) gives the RAG reason
 for this baseline work in
-[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}).
+[Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html).
 At 40:46, she favors retrieval when knowledge changes too often for repeated
 fine-tuning. At 42:02 and 46:42, she describes document indexing, retrieved
 sections, and summarization for grounding. That boundary belongs with
@@ -116,14 +116,14 @@ which missing evidence caused the refusal. If it answers, link each claim to a
 source chunk a reviewer can open.
 
 Atita's RAG discussion at 42:49 in
-[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
+[Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html)
 places prompt design and citations after retrieval. The project should preserve
 that order: first prove the retriever found useful context, then prove the
 prompt used it correctly.
 
-[Ranjitha Kulkarni]({{ '/people/ranjithakulkarni/' | relative_url }}) draws the
+[Ranjitha Kulkarni](https://datatalks.club/people/ranjithakulkarni.html) draws the
 boundary between RAG and agents in
-[Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}).
+[Building Agentic AI Systems](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html).
 At 37:39, she separates cases where retrieval is enough from cases that need
 planning, actions, or tool use. A project should stay with RAG when the main
 task is source lookup and grounded answering. Move toward
@@ -148,15 +148,15 @@ Store these trace fields with each run:
 - cost
 - feedback
 
-[Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }}) gives
+[Hugo Bowne-Anderson](https://datatalks.club/people/hugobowneanderson.html) gives
 the core evaluation structure at 23:00-27:38 in
-[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}).
+[Practical LLM Engineering and RAG](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html).
 Representative gold tests make the system measurable. Failure categories tell
 the team whether the next fix belongs in retrieval, prompting, formatting, or
 data preparation. Logs and traces make those decisions reviewable.
 
 Ranjitha extends the same idea to tool and agent workflows at 51:17-57:23 in
-[Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}).
+[Building Agentic AI Systems](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html).
 She covers custom datasets, mocked tools, integration tests, and outcome
 assertions.
 That agent-evaluation evidence belongs with
@@ -166,8 +166,8 @@ and [Testing]({{ '/wiki/testing/' | relative_url }}).
 ## Graph or Structured Retrieval
 
 Some projects need more than nearest-neighbor text retrieval. In
-[Knowledge Graphs and LLMs for Automotive R&D]({{ '/podcasts/knowledge-graphs-and-llms-for-automotive-rnd/' | relative_url }}),
-[Anahita Pakiman]({{ '/people/anahitapakiman/' | relative_url }}) connects
+[Knowledge Graphs and LLMs for Automotive R&D](https://datatalks.club/podcast/knowledge-graphs-and-llms-for-automotive-rnd.html),
+[Anahita Pakiman](https://datatalks.club/people/anahitapakiman.html) connects
 knowledge graphs with LLM grounding at 33:43. At 38:10, she contrasts text
 chunking and embeddings with graph semantics. At 39:56, she discusses prompt
 templates that use Cypher-style graph queries for retrieval context.

@@ -21,22 +21,22 @@ and [MLOps]({{ '/wiki/mlops/' | relative_url }}). AI workloads add pressure
 from GPUs, large-model serving, and distributed training. They also add
 retrieval-heavy applications and cost-sensitive inference.
 
-[Andrey Cheptsov]({{ '/people/andreycheptsov/' | relative_url }}) frames AI
+[Andrey Cheptsov](https://datatalks.club/people/andreycheptsov.html) frames AI
 infrastructure through post-ChatGPT cloud costs and on-prem GPU ownership. He
 also discusses distributed training in
-[Post-ChatGPT AI Infrastructure]({{ '/podcasts/ai-infrastructure-hybrid-cloud-on-prem-distributed-training/' | relative_url }}).
-[Meryem Arik]({{ '/people/meryemarik/' | relative_url }}) adds the production
+[Post-ChatGPT AI Infrastructure](https://datatalks.club/podcast/ai-infrastructure-hybrid-cloud-on-prem-distributed-training.html).
+[Meryem Arik](https://datatalks.club/people/meryemarik.html) adds the production
 LLM serving side in
-[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}),
+[Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html),
 where model size and compression influence the deployment decision. Latency,
 cost, and hosted API risk matter there too.
 Yuan Tang's
-[Distributed Machine Learning Patterns]({{ '/books/20240115-distributed-machine-learning-patterns/' | relative_url }})
+[Distributed Machine Learning Patterns](https://datatalks.club/books/20240115-distributed-machine-learning-patterns.html)
 catalogs the distributed-training architectures that underlie Andrey's GPU and
 scheduling discussion: data parallelism, model parallelism, and parameter-server
 patterns for scaling training across nodes.
 
-For cloud-native ML infrastructure, [Data Science on AWS]({{ '/books/20210628-data-science-on-aws/' | relative_url }}) by Chris Fregly and Antje Barth covers the AWS-side implementation of these same compute, storage, and serving layers, from SageMaker through deployment pipelines.
+For cloud-native ML infrastructure, [Data Science on AWS](https://datatalks.club/books/20210628-data-science-on-aws.html) by Chris Fregly and Antje Barth covers the AWS-side implementation of these same compute, storage, and serving layers, from SageMaker through deployment pipelines.
 
 ## Production Infrastructure Scope
 
@@ -46,12 +46,12 @@ production. Andrey Cheptsov makes the AI-specific version explicit. After
 ChatGPT, teams began caring more about infrastructure cost of ownership and
 cloud-to-on-prem tradeoffs. He then ties that work to GPU capacity, distributed
 training, and AI workload schedulers
-([Post-ChatGPT AI Infrastructure]({{ '/podcasts/ai-infrastructure-hybrid-cloud-on-prem-distributed-training/' | relative_url }}),
+([Post-ChatGPT AI Infrastructure](https://datatalks.club/podcast/ai-infrastructure-hybrid-cloud-on-prem-distributed-training.html),
 5:27-10:00 and 30:16-34:46).
 
 Simon and Raphaël define the overlapping ML layer. In
-[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}),
-[Simon Stiebellehner]({{ '/people/simonstiebellehner/' | relative_url }})
+[Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html),
+[Simon Stiebellehner](https://datatalks.club/people/simonstiebellehner.html)
 places cloud infrastructure and Kubernetes inside the platform discussion. He
 also names Terraform and notebooks.
 
@@ -62,8 +62,8 @@ batch inference, online serving, and orchestration. That places
 governance inside the infrastructure boundary (8:11-10:47 and 28:20-35:26).
 
 In
-[MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}),
-[Raphaël Hoogvliets]({{ '/people/raphaelhoogvliets/' | relative_url }})
+[MLOps at Scale](https://datatalks.club/podcast/mlops-at-scale-reproducibility-adoption.html),
+[Raphaël Hoogvliets](https://datatalks.club/people/raphaelhoogvliets.html)
 adds CI/CD, reproducibility, and package registries. He also discusses serving
 and monitoring. Containers, Kubernetes, and Databricks appear as pieces that
 keep models deployed and maintained (39:06-42:31 and 51:21-57:56).
@@ -72,12 +72,12 @@ For LLM systems, infrastructure also includes the serving and data path around
 the model. Meryem Arik ties open-source and API choices to control, privacy,
 model drift, and serving optimization. She also ties them to latency, cost, and
 hardware
-([Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}),
-16:48-25:26 and 49:44-51:35). [Bartosz Mikulski]({{ '/people/bartoszmikulski/' | relative_url }})
+([Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html),
+16:48-25:26 and 49:44-51:35). [Bartosz Mikulski](https://datatalks.club/people/bartoszmikulski.html)
 adds production AI engineering concerns around data pipeline testing, Spark
 choices, and preprocessing for fine-tuning data. He also covers prompt
 evaluation, token optimization, and prompt caching
-([Production AI Engineering]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }}),
+([Production AI Engineering](https://datatalks.club/podcast/production-ready-ai-engineering.html),
 9:05-18:38 and 28:16-31:45).
 
 ## Infrastructure Priorities
@@ -90,14 +90,14 @@ PyTorch and NCCL.
 
 Communication bottlenecks, DeepSpeed, Kubernetes, and SLURM appear next. He
 then covers GPU coordination and bare-metal provisioning
-([Post-ChatGPT AI Infrastructure]({{ '/podcasts/ai-infrastructure-hybrid-cloud-on-prem-distributed-training/' | relative_url }}),
+([Post-ChatGPT AI Infrastructure](https://datatalks.club/podcast/ai-infrastructure-hybrid-cloud-on-prem-distributed-training.html),
 8:25-10:00, 34:46-37:35, and 47:16-56:53).
 
 Simon starts from the platform product. He argues that teams should understand
 data science workflows and notebooks before standardizing too much
 infrastructure. He also ties platform work to deployment blockers, governance
 constraints, and developer experience
-([Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }})).
+([Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html)).
 Simon discusses this at 6:55-10:47, 16:52-20:04, and 38:40-45:50. Use
 [Platform Engineering]({{ '/wiki/platform-engineering/' | relative_url }}) and
 [Developer Experience]({{ '/wiki/developer-experience/' | relative_url }}) for
@@ -107,7 +107,7 @@ Raphaël starts from adoption and operating discipline. His MLOps team supports
 product teams, collects pain points, and measures value. The team prioritizes
 CI/CD and reproducibility. It also prioritizes serving and monitoring before
 chasing a complete tool stack
-([MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}),
+([MLOps at Scale](https://datatalks.club/podcast/mlops-at-scale-reproducibility-adoption.html),
 23:01-36:55 and 48:41-57:56).
 
 Meryem starts from deployability and control.
@@ -115,7 +115,7 @@ Teams choose among hosted APIs, compressed open-source models, and fine-tuning.
 They also choose between retrieval and self-hosting.
 
 Privacy and drift matter, and latency, cost, and hardware matter too.
-[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }})
+[Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html)
 covers this at 16:48-18:46, 23:37-26:30, and 49:44-51:35.
 
 ## Compute, GPUs, and Cloud Boundaries
@@ -123,18 +123,18 @@ covers this at 16:48-18:46, 23:37-26:30, and 49:44-51:35.
 AI infrastructure compute work starts with where jobs run and how much they
 cost to keep running. Andrey anchors that question in ownership cost and
 cloud-versus-on-prem choices around 5:27-10:00 in
-[Post-ChatGPT AI Infrastructure]({{ '/podcasts/ai-infrastructure-hybrid-cloud-on-prem-distributed-training/' | relative_url }}).
+[Post-ChatGPT AI Infrastructure](https://datatalks.club/podcast/ai-infrastructure-hybrid-cloud-on-prem-distributed-training.html).
 He later narrows the issue to GPU requirements and distributed training
 bottlenecks around 30:16-34:46. Around 54:31-56:53, he turns the same theme
 into practical on-prem GPU coordination and bare-metal provisioning.
 
 The platform view is broader but still compute-centered. Simon names cloud
 infrastructure and Kubernetes as core platform skills in
-[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }})
+[Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html)
 (8:11). He also covers Terraform and self-service compute around 28:20.
 
 Raphaël adds Docker, Kubernetes, and Databricks tradeoffs in
-[MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }})
+[MLOps at Scale](https://datatalks.club/podcast/mlops-at-scale-reproducibility-adoption.html)
 (56:50). Together, these episodes imply a practical boundary. Small and
 standardized workloads can often live on managed platforms. GPU-heavy training
 and serving push teams toward scheduling, utilization, and hardware ownership
@@ -146,7 +146,7 @@ AI orchestration covers more than pipeline scheduling because it also covers
 multi-GPU training jobs and resource contention. Model-serving workloads and
 shared compute access matter too. Andrey discusses PyTorch, NCCL, and
 communication bottlenecks around 34:46 in
-[Post-ChatGPT AI Infrastructure]({{ '/podcasts/ai-infrastructure-hybrid-cloud-on-prem-distributed-training/' | relative_url }}),
+[Post-ChatGPT AI Infrastructure](https://datatalks.club/podcast/ai-infrastructure-hybrid-cloud-on-prem-distributed-training.html),
 then discusses optimization strategies and DeepSpeed around 37:35. Around
 47:16-50:59, he contrasts Kubernetes, SLURM-like scheduling, and smaller
 alternatives for AI workflows.
@@ -154,10 +154,10 @@ alternatives for AI workflows.
 Classic MLOps orchestration still matters because AI systems depend on data,
 training, evaluation, and deployment workflows. Simon covers Airflow and
 pipelines around 31:51 in
-[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
+[Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html).
 Raphaël covers CI, repository structure, parameterization, and testing around
 39:06 in
-[MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}).
+[MLOps at Scale](https://datatalks.club/podcast/mlops-at-scale-reproducibility-adoption.html).
 He then covers reproducibility, dependency management, and package registries
 through 53:08. That puts AI infrastructure close to
 [Orchestration]({{ '/wiki/orchestration/' | relative_url }}),
@@ -170,7 +170,7 @@ Model serving is where users encounter AI infrastructure. Meryem's discussion
 of open-source versus API models connects serving to control, privacy, and
 hidden API drift. It also connects serving to model size, compression, and
 inference optimization
-([Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}),
+([Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html),
 16:48-25:26). Her later prototype-versus-production section adds latency, cost,
 self-hosting performance, and hardware choices (49:44-51:35).
 
@@ -179,12 +179,12 @@ Those model size and compression decisions are covered in depth as
 
 The same boundary appears in ML platform language. Simon separates batch
 inference from online serving around 31:15 in
-[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
+[Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html).
 Raphaël includes serving and monitoring in the MLOps toolset around 51:21 in
-[MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}).
+[MLOps at Scale](https://datatalks.club/podcast/mlops-at-scale-reproducibility-adoption.html).
 
 Bartosz adds an application-engineering example around 41:04 in
-[Production AI Engineering]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }}).
+[Production AI Engineering](https://datatalks.club/podcast/production-ready-ai-engineering.html).
 His Chrome extension discussion uses backend AI integration instead of putting
 all AI behavior in the client. Those discussions connect serving to
 [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
@@ -196,7 +196,7 @@ infrastructure tooling.
 These episodes repeatedly tie AI infrastructure to cost. Andrey discusses
 infrastructure ownership cost and cloud-versus-on-prem limits around 5:27-10:00
 in
-[Post-ChatGPT AI Infrastructure]({{ '/podcasts/ai-infrastructure-hybrid-cloud-on-prem-distributed-training/' | relative_url }}).
+[Post-ChatGPT AI Infrastructure](https://datatalks.club/podcast/ai-infrastructure-hybrid-cloud-on-prem-distributed-training.html).
 His distributed-training sections then make efficiency a technical issue.
 Communication bottlenecks and GPU coordination determine whether more hardware
 actually helps. DeepSpeed-style optimization appears in the same discussion
@@ -206,9 +206,9 @@ Meryem turns cost into a serving decision. API models may be convenient for
 prototypes, but self-hosted or optimized open-source models can matter in
 production. Privacy and latency drive that choice. Cost and hardware control
 drive it too
-([Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}),
+([Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html),
 49:44-51:35). Bartosz adds request-level efficiency in
-[Production AI Engineering]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }}).
+[Production AI Engineering](https://datatalks.club/podcast/production-ready-ai-engineering.html).
 
 Around 28:16-31:45, Bartosz discusses prompt evaluation and prompt compression,
 then adds token optimization and prompt caching. That makes
@@ -221,13 +221,13 @@ AI infrastructure must expose logs and metrics, plus lineage and ownership
 signals. Teams need those signals to keep systems running after launch. Raphaël
 defines the core MLOps challenge as keeping models deployed, monitored, and
 maintained around 1:01:58 in
-[MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}).
+[MLOps at Scale](https://datatalks.club/podcast/mlops-at-scale-reproducibility-adoption.html).
 Earlier in that episode, he connects reproducibility to data versioning,
 traceability, and experiment capture. Dependency management appears in the same
 chapter range (42:31-53:08).
 
 Simon adds the governance side. In
-[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}),
+[Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html),
 metadata and lineage appear around 39:54-45:50. GDPR and security appear there
 too. Compliance and API design appear around 54:15. The episode also covers
 unified prediction logging there.
@@ -235,7 +235,7 @@ unified prediction logging there.
 Those concerns make observability a design requirement rather than a dashboard
 added after deployment. For AI workloads, Andrey's GPU-utilization and on-prem
 coordination themes extend observability to infrastructure usage and contention
-([Post-ChatGPT AI Infrastructure]({{ '/podcasts/ai-infrastructure-hybrid-cloud-on-prem-distributed-training/' | relative_url }}),
+([Post-ChatGPT AI Infrastructure](https://datatalks.club/podcast/ai-infrastructure-hybrid-cloud-on-prem-distributed-training.html),
 54:31-56:53).
 
 ## Relationship to MLOps and AI Engineering
@@ -249,10 +249,10 @@ It also covers fine-tuning, agents, and application integrations.
 
 The episodes make the distinction visible. Simon's platform discussion
 describes the shared foundation for models and teams
-([Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}),
+([Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html),
 16:52-20:04 and 34:01-38:40). Raphaël explains the operating model for
 adoption, CI/CD, and reproducibility
-([MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}),
+([MLOps at Scale](https://datatalks.club/podcast/mlops-at-scale-reproducibility-adoption.html),
 23:01-27:56 and 39:06-42:31). He also connects that operating model to
 deployment and monitoring.
 
@@ -260,9 +260,9 @@ Meryem and Bartosz show the AI engineering layer, where teams choose between
 APIs and open-source models. They also choose between retrieval and
 fine-tuning. Prompt optimization and caching appear in the same layer. Backend
 integration appears there too
-([Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}),
+([Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html),
 40:46-51:35.
-[Production AI Engineering]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }})
+[Production AI Engineering](https://datatalks.club/podcast/production-ready-ai-engineering.html)
 adds the Bartosz examples at
 18:38-31:45 and 41:04).
 

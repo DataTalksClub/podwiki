@@ -13,7 +13,7 @@ curated: "true"
 Christoph Molnar is a statistician, machine learning practitioner, and
 technical author whose work centers on making machine learning easier to
 understand. In
-[Interpretable Machine Learning]({{ '/podcasts/interpretable-machine-learning/' | relative_url }}),
+[Interpretable Machine Learning](https://datatalks.club/podcast/interpretable-machine-learning.html),
 he discusses
 [interpretability]({{ '/wiki/interpretability/' | relative_url }}),
 [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), and
@@ -25,7 +25,7 @@ connected to real modeling work.
 
 Christoph frames interpretability as a working tool, not only a
 stakeholder-facing chart. Around 7:50 in
-[Interpretable Machine Learning]({{ '/podcasts/interpretable-machine-learning/' | relative_url }}),
+[Interpretable Machine Learning](https://datatalks.club/podcast/interpretable-machine-learning.html),
 he traces his interest back to statistics: he was used to thinking about the
 data-generating mechanism and understandable models. When he moved toward more
 complex machine learning models, some of that understanding disappeared.
@@ -46,7 +46,7 @@ mistake.
 
 Christoph's SHAP discussion is strongest when he treats the method as one tool
 inside a broader review. At 23:44 in
-[Interpretable Machine Learning]({{ '/podcasts/interpretable-machine-learning/' | relative_url }}),
+[Interpretable Machine Learning](https://datatalks.club/podcast/interpretable-machine-learning.html),
 he describes writing "Interpreting Machine Learning Models with SHAP." SHAP was
 popular with readers and versatile enough to deserve a deeper Python-focused
 treatment. He also says SHAP isn't intuitive, which is why
@@ -59,8 +59,8 @@ claims. A SHAP plot can help a practitioner look at feature effects. The team
 still has to decide what question the explanation answers and what action
 follows.
 
-[Polina Mosolova]({{ '/people/polinamosolova/' | relative_url }}) and
-[Supreet Kaur]({{ '/people/supreetkaur/' | relative_url }}) cover adjacent
+[Polina Mosolova](https://datatalks.club/people/polinamosolova.html) and
+[Supreet Kaur](https://datatalks.club/people/supreetkaur.html) cover adjacent
 explainability and governance questions in their own episodes, while Christoph
 gives the method-level SHAP discussion.
 
@@ -68,7 +68,7 @@ gives the method-level SHAP discussion.
 
 Christoph uses conformal prediction to move model trust beyond a single score
 or label. At 20:27 in
-[Interpretable Machine Learning]({{ '/podcasts/interpretable-machine-learning/' | relative_url }}),
+[Interpretable Machine Learning](https://datatalks.club/podcast/interpretable-machine-learning.html),
 he explains conformal prediction as a way to calibrate model uncertainty. A
 classifier can return a set of possible classes with a probability guarantee
 instead of only one class. A regression model can return calibrated intervals
@@ -82,14 +82,14 @@ prediction set changes the decision. A wide interval or ambiguous class set may
 need more review, more data, or a safer fallback.
 
 For another conformal prediction reference, use
-[Olga Ivina]({{ '/people/olgaivina/' | relative_url }}), whose
+[Olga Ivina](https://datatalks.club/people/olgaivina.html), whose
 DataTalks.Club discussion mentions conformal prediction in air-pollution
 research.
 
 ## Explanation Language Has Limits
 
 At 26:17 in
-[Interpretable Machine Learning]({{ '/podcasts/interpretable-machine-learning/' | relative_url }}),
+[Interpretable Machine Learning](https://datatalks.club/podcast/interpretable-machine-learning.html),
 Christoph discusses the blurry boundary between explainable AI and
 interpretable machine learning. He says he uses both terms as keywords because
 practitioners use them with heavy overlap, but he's careful about the word
@@ -115,7 +115,7 @@ competitions after a long writing stretch. He wanted to keep contact with messy
 data, modeling choices, and real evaluation problems.
 
 His logbook practice at 36:21 in
-[Interpretable Machine Learning]({{ '/podcasts/interpretable-machine-learning/' | relative_url }})
+[Interpretable Machine Learning](https://datatalks.club/podcast/interpretable-machine-learning.html)
 connects writing back to modeling. He uses short Obsidian notes to record what
 he tried, where he got stuck, and what an experiment showed. His notes belong
 beside
@@ -135,7 +135,7 @@ test their understanding, and create public proof of work.
 
 These pages continue the themes Christoph covers in the episode.
 
-- [Interpretable Machine Learning: SHAP, Conformal Prediction and Model Trust]({{ '/podcasts/interpretable-machine-learning/' | relative_url }})
+- [Interpretable Machine Learning: SHAP, Conformal Prediction and Model Trust](https://datatalks.club/podcast/interpretable-machine-learning.html)
 - [Interpretability]({{ '/wiki/interpretability/' | relative_url }})
 - [Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }})
 - [Machine Learning]({{ '/wiki/machine-learning/' | relative_url }})

@@ -38,7 +38,7 @@ Agents should consider this episode when working on team building, data teams, d
 
 Use these links to connect the episode to guest notes.
 
-- [Tammy Liang]({{ '/people/tammyliang/' | relative_url }})
+- [Tammy Liang](https://datatalks.club/people/tammyliang.html)
 
 ## Key Concepts
 

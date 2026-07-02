@@ -18,4 +18,4 @@ Chris Swart has 6 years of experience delivering Natural Language Processing (NL
 
 ## Podcast Discussions
 
-- [Practical Guide to Dataset Creation & Annotation for NLP: Active Learning, Weak Supervision, Tools]({{ '/podcasts/nlp-dataset-creation-annotation-tools-workflows/' | relative_url }}). Discussed: Episode Overview: Dataset creation, curation, and annotation; Guest Background & Career in NLP and bio-NLP; Comtura Origin: Sales call transcription and CRM integration; Dataset Creation Approaches: Automated, manual, and hybrid pipelines. Related topics: [NLP]({{ '/wiki/nlp/' | relative_url }}), data.
+- [Practical Guide to Dataset Creation & Annotation for NLP: Active Learning, Weak Supervision, Tools](https://datatalks.club/podcast/nlp-dataset-creation-annotation-tools-workflows.html). Discussed: Episode Overview: Dataset creation, curation, and annotation; Guest Background & Career in NLP and bio-NLP; Comtura Origin: Sales call transcription and CRM integration; Dataset Creation Approaches: Automated, manual, and hybrid pipelines. Related topics: [NLP]({{ '/wiki/nlp/' | relative_url }}), data.

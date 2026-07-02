@@ -17,9 +17,9 @@ web: "https://softwaredoug.com/"
 Doug Turnbull is a search relevance practitioner known for Relevant Search and
 his public writing as `softwaredoug`. DataTalks.Club hasn't published a local
 podcast interview with Doug. The strongest podcast connection is that
-[Atita Arora]({{ '/people/atitaarora/' | relative_url }}) recommends Relevant
+[Atita Arora](https://datatalks.club/people/atitaarora.html) recommends Relevant
 Search in
-[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
+[Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html)
 at 58:01. The same exchange notes Doug's prior DataTalks.Club talk at 58:51.
 
 The surrounding podcast treatment runs through
@@ -31,7 +31,7 @@ The surrounding podcast treatment runs through
 
 Atita's episode explains why Doug's relevance work belongs in the search
 curriculum. Around 11:29-13:33 in
-[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}),
+[Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html),
 she describes work at Lucidworks and OpenSource Connections. That work taught
 her that good search needs a measurable definition tied to business KPIs. At
 58:01, she recommends Relevant Search because it teaches the thought process behind
@@ -49,7 +49,7 @@ to [A/B testing]({{ '/wiki/a-b-testing/' | relative_url }}) and
 ## Classical Search Still Matters In Vector Systems
 
 The same
-[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
+[Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html)
 discussion starts from Solr and Lucene before moving into vector databases. It
 also covers Elasticsearch and OpenSearch. At 17:01-20:27, Atita frames vector
 adoption as a use-case decision. Teams can add vector retrieval to an existing
@@ -70,7 +70,7 @@ Atita's RAG section at 30:38-48:09 keeps returning to evaluation. In a real
 system, teams need separate checks for retrieval quality and generated-answer
 quality. They also need citation checks, offline tests, human review, and
 business KPIs
-([Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})).
+([Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html)).
 That's the same reason Doug's search-relevance work remains relevant to LLM
 and RAG products. A search product needs judgments, test cases, and product
 metrics before a team can say whether results improved.
@@ -82,16 +82,16 @@ for measurement steps. Use
 and [Search and RAG Project Checklist]({{ '/wiki/search-and-rag-project-checklist/' | relative_url }})
 for architecture and build sequencing.
 For a production-search companion to Atita's episode,
-[Daniel Svonava]({{ '/people/danielsvonava/' | relative_url }}) covers
+[Daniel Svonava](https://datatalks.club/people/danielsvonava.html) covers
 candidate generation and ranking in
-[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}).
+[Building Search Systems](https://datatalks.club/podcast/building-production-search-systems.html).
 He also covers hybrid search, vector infrastructure, and business metrics.
 
 ## Search Product Design
 
 Doug's DataTalks.Club-facing role fits a broader search product design path:
 
-- [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
+- [Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html)
   references Relevant Search as a learning resource after discussing Lucene,
   vector databases, RAG, and evaluation.
 - [Search Relevance]({{ '/wiki/search-relevance/' | relative_url }}) turns that

@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Miguel Morales]({ '/people/miguelmorales/' | relative_url }).
+[Miguel Morales](https://datatalks.club/people/miguelmorales.html).
 
 ## Discussion Archive
 

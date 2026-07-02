@@ -35,19 +35,19 @@ DataOps with data engineering and data science, see
 [DataOps: Similarities and Differences with Data Engineering and Data Science](https://datatalks.club/blog/dataops-similarities-and-differences-with-data-engineering-and-data-science.html).
 This page adds the podcast-grounded version of that boundary.
 
-[Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) grounds the
+[Natalie Kwong](https://datatalks.club/people/nataliekwong.html) grounds the
 engineering side in ETL, ELT, and orchestration in
-[ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}).
+[ETL vs ELT and the Modern Data Stack](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html).
 She also covers CDC and warehouse work.
-[Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }}) grounds
+[Christopher Bergh](https://datatalks.club/people/christopherbergh.html) grounds
 the DataOps side in version control, tests, CI/CD, and observability in
-[Mastering DataOps]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }})
+[Mastering DataOps](https://datatalks.club/podcast/dataops-automation-and-reliable-data-pipelines.html)
 and
-[DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }}).
+[DataOps for Data Engineering](https://datatalks.club/podcast/dataops-for-data-engineering.html).
 
-[Tomasz Hinc]({{ '/people/tomaszhinc/' | relative_url }}) gives the direct
+[Tomasz Hinc](https://datatalks.club/people/tomaszhinc.html) gives the direct
 boundary at 40:44 in
-[DataOps and GitOps for Data Teams]({{ '/podcasts/dataops-and-gitops-best-practices-for-data-teams/' | relative_url }}):
+[DataOps and GitOps for Data Teams](https://datatalks.club/podcast/dataops-and-gitops-best-practices-for-data-teams.html):
 data engineering is closer to pipeline coding and quality-check implementation.
 DataOps is closer to support and communication. It also covers onboarding,
 monitoring, and cross-team enablement.
@@ -85,22 +85,22 @@ need to choose storage or model events into reliable tables.
 
 Kwong's modern-stack episode gives the concrete vocabulary. She explains ETL at
 3:46 and ELT at 7:57 in
-[ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}).
+[ETL vs ELT and the Modern Data Stack](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html).
 At 30:59, she places Airflow around scheduled pipeline runs. At 45:59, she
 discusses CDC as a way to sync row-level changes.
 
-[Santona Tuli]({{ '/people/santonatuli/' | relative_url }}) adds the pipeline
+[Santona Tuli](https://datatalks.club/people/santonatuli.html) adds the pipeline
 architecture version in
-[Modern Data Pipeline Architecture]({{ '/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/' | relative_url }}).
+[Modern Data Pipeline Architecture](https://datatalks.club/podcast/modern-data-pipelines-orchestration-ingestion-modeling.html).
 At 13:25, she compares ML pipelines with analytics pipelines. At 39:23-43:05,
 she moves from transformation and data modeling into marts, dashboards, and
 metrics.
 Those are data engineering design choices before they become DataOps operating
 concerns.
 
-[Slawomir Tulski]({{ '/people/slawomirtulski/' | relative_url }}) makes the
+[Slawomir Tulski](https://datatalks.club/people/slawomirtulski.html) makes the
 role split explicit in
-[Data Engineer Career in 2026]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }}).
+[Data Engineer Career in 2026](https://datatalks.club/podcast/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for.html).
 At 11:54-17:29, he separates platform data engineers from product-facing data
 engineers. Platform data engineers build shared infrastructure and standards,
 while product data engineers work closer to domain use cases and data products.
@@ -117,22 +117,22 @@ without breakage. DataOps asks whether a pipeline change can move from review
 to production and recovery without depending on one person's memory.
 
 Bergh describes the practical DataOps target at 6:42 in
-[Mastering DataOps]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }}).
+[Mastering DataOps](https://datatalks.club/podcast/dataops-automation-and-reliable-data-pipelines.html).
 Teams should reduce errors, shorten deployment cycles, and improve team
 productivity. At 33:47, he covers version control, tests, and CI/CD. At 34:37,
 he moves toward automated playbooks.
 
 In
-[DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }}),
+[DataOps for Data Engineering](https://datatalks.club/podcast/dataops-for-data-engineering.html),
 Bergh applies the same discipline to modern data engineering teams. At 15:52,
 he ties DataOps to automation, observability, and productivity. At 30:55, he
 covers CI/CD pipelines, regression tests, and test data. At 42:39 and 50:29,
 deployment automation and production monitoring become part of the operating
 surface.
 
-[Lars Albertsson]({{ '/people/larsalbertsson/' | relative_url }}) gives the
+[Lars Albertsson](https://datatalks.club/people/larsalbertsson.html) gives the
 platform version in
-[DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}).
+[DataOps 101 for Scaling Data Platforms](https://datatalks.club/podcast/dataops-principles-and-scalable-data-platforms.html).
 At 11:50, he defines DataOps through enablement, workflows, and people
 alignment. At 16:42 and 20:12, immutable pipeline architecture and
 reproducibility become the main operating concerns. At 46:52, he adds quality
@@ -144,7 +144,7 @@ question is tool categories. Use
 question is how operating practices become shared infrastructure.
 
 Hinc gives a more team-facing version at 40:44-43:36 in
-[DataOps and GitOps for Data Teams]({{ '/podcasts/dataops-and-gitops-best-practices-for-data-teams/' | relative_url }}).
+[DataOps and GitOps for Data Teams](https://datatalks.club/podcast/dataops-and-gitops-best-practices-for-data-teams.html).
 He puts DataOps closer to support, communication, and onboarding. Monitoring
 and cross-team education belong there too. That doesn't remove engineering
 work. It explains why
@@ -165,9 +165,9 @@ That shared surface includes
 and [data observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).
 It also includes ownership and documentation.
 
-[Barr Moses]({{ '/people/barrmoses/' | relative_url }}) shows why the operating
+[Barr Moses](https://datatalks.club/people/barrmoses.html) shows why the operating
 layer matters in
-[Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }}).
+[Data Observability Explained](https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html).
 At 21:57, she describes the good-pipeline, bad-data problem. At 26:04, she
 connects root-cause analysis to logs and lineage. At 29:00, ownership turns
 signals into action. At 35:24, SLAs do the same.
@@ -188,10 +188,10 @@ whether lineage showed affected dashboards, models, or activation workflows. It
 also asks who owned the dataset and which runbook should have been used.
 
 Bergh's 38:01 discussion in
-[Mastering DataOps]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }})
+[Mastering DataOps](https://datatalks.club/podcast/dataops-automation-and-reliable-data-pipelines.html)
 connects replaceability to handoffs, documentation, and lower on-call burden.
 Moses's 38:14 and 1:00:27 sections in
-[Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }})
+[Data Observability Explained](https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html)
 connect alert thresholds and false-positive reduction to operational trust.
 
 A team that only hires another data engineer may build more pipelines without
@@ -207,8 +207,8 @@ runbooks.
 
 Growing teams should separate the conversations even when the people overlap.
 In
-[Scaling Data Engineering Teams]({{ '/podcasts/scaling-data-engineering-teams-self-service-platforms/' | relative_url }}),
-[Mehdi Ouazza]({{ '/people/mehdiouazza/' | relative_url }}) shows why an
+[Scaling Data Engineering Teams](https://datatalks.club/podcast/scaling-data-engineering-teams-self-service-platforms.html),
+[Mehdi Ouazza](https://datatalks.club/people/mehdiouazza.html) shows why an
 Airflow cluster alone isn't a platform. Around 12:30-23:26, teams need naming
 conventions and sequencing rules. They also need schema contracts and
 onboarding habits.

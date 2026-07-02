@@ -38,7 +38,7 @@ Agents should consider this episode when working on data engineering, career gro
 
 Use these links to connect the episode to guest notes.
 
-- [Rahul Jain]({{ '/people/16rahuljain/' | relative_url }})
+- [Rahul Jain](https://datatalks.club/people/16rahuljain.html)
 
 ## Key Concepts
 

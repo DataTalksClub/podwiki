@@ -38,7 +38,7 @@ Agents should consider this episode when working on machine learning, AI, MLOps.
 
 Use these links to connect the episode to guest notes.
 
-- [Polina Mosolova]({{ '/people/polinamosolova/' | relative_url }})
+- [Polina Mosolova](https://datatalks.club/people/polinamosolova.html)
 
 ## Key Concepts
 

@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Giuseppe Bonaccorso]({ '/people/giuseppebonaccorso/' | relative_url }).
+[Giuseppe Bonaccorso](https://datatalks.club/people/giuseppebonaccorso.html).
 
 ## Discussion Archive
 

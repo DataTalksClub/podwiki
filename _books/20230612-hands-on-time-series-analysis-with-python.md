@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Ashish Patel]({ '/people/ashishpatel/' | relative_url }), [Vishwas BV]({ '/people/vishwasbv/' | relative_url }).
+[Ashish Patel](https://datatalks.club/people/ashishpatel.html), [Vishwas BV](https://datatalks.club/people/vishwasbv.html).
 
 ## Discussion Archive
 

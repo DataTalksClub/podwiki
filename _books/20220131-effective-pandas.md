@@ -19,7 +19,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Matt Harrison]({ '/people/mattharrison/' | relative_url }).
+[Matt Harrison](https://datatalks.club/people/mattharrison.html).
 
 ## Discussion Archive
 

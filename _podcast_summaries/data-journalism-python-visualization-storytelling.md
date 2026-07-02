@@ -38,7 +38,7 @@ Agents should consider this episode when working on data journalism, data scienc
 
 Use these links to connect the episode to guest notes.
 
-- [Angelica Lo Duca]({{ '/people/angelicaloduca/' | relative_url }})
+- [Angelica Lo Duca](https://datatalks.club/people/angelicaloduca.html)
 
 ## Key Concepts
 

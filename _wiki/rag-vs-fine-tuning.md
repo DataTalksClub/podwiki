@@ -31,9 +31,9 @@ when the model lacks current, reviewable source context. Use fine-tuning when
 examples show a stable gap in tone, domain language, task behavior, or output
 format.
 
-[Meryem Arik]({{ '/people/meryemarik/' | relative_url }}) draws that boundary
+[Meryem Arik](https://datatalks.club/people/meryemarik.html) draws that boundary
 in
-[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}).
+[Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html).
 Her 26:30-31:38 discussion ties fine-tuning to specialization and task format.
 Her 40:46-46:42 documentation example argues for retrieval when knowledge
 changes.
@@ -46,7 +46,7 @@ reports. The system can update an index instead of retraining every time the
 source changes.
 
 Atita Arora's
-[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
+[Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html)
 walkthrough at 30:38-48:09 shows retrieval plus generation in practice. The
 system chunks source material and creates
 [embeddings]({{ '/wiki/embeddings/' | relative_url }}). It retrieves relevant
@@ -57,7 +57,7 @@ desired behavior. Tone and domain vocabulary can fit this side. The same goes
 for structured outputs, routing, and repeated extraction tasks when
 [prompt engineering]({{ '/wiki/prompt-engineering/' | relative_url }}) and
 retrieval have already been measured and still miss. Meryem's
-[fine-tuning examples in Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }})
+[fine-tuning examples in Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html)
 at 26:30-31:38 are about specialization, domain adaptation, tone, and
 task-specific formats rather than source freshness.
 
@@ -74,18 +74,18 @@ RAG grounds an answer at runtime. A system retrieves source material and puts
 it into the model context. It then asks the model to answer from it.
 
 In
-[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}),
+[Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html),
 Atita Arora defines RAG at 30:38. At 38:24-42:49, she turns it into
 implementation work. Teams chunk transcripts and choose overlap. Then they
 embed chunks, retrieve relevant context, and provide references.
 
 Fine-tuning adapts the model so future outputs follow examples more closely.
 In
-[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}),
+[Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html),
 Meryem connects fine-tuning to specialization and domain phrases at
 26:30-31:38. She also ties it to tone and output formats.
-[Anahita Pakiman]({{ '/people/anahitapakiman/' | relative_url }}) draws a similar boundary in
-[Knowledge Graphs and LLMs for Automotive R&D]({{ '/podcasts/knowledge-graphs-and-llms-for-automotive-rnd/' | relative_url }})
+[Anahita Pakiman](https://datatalks.club/people/anahitapakiman.html) draws a similar boundary in
+[Knowledge Graphs and LLMs for Automotive R&D](https://datatalks.club/podcast/knowledge-graphs-and-llms-for-automotive-rnd.html)
 at 40:23: embeddings over existing content belong closer to RAG. Transfer
 learning and fine-tuning retrain or adapt layers on another dataset.
 
@@ -102,14 +102,14 @@ retrieval becomes one tool inside a larger system.
 
 Choose RAG when users ask questions over visible, changing knowledge. Meryem's
 documentation discussion in
-[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }})
+[Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html)
 at 40:46-46:42 grounds the choice in source truth and update cost. Re-indexing
 documents is usually more practical than repeatedly fine-tuning on changed
 content.
 
 RAG also fits when answers need citations or freshness. It handles permissions
 and source review better than model memory. Atita's transcript chatbot in
-[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
+[Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html)
 at 35:49-48:09 preserves source units and chooses chunk boundaries. It embeds
 the chunks and retrieves relevant context. It also returns citations.
 
@@ -121,9 +121,9 @@ belong there too, not as follow-up implementation details.
 
 RAG is weaker when the product needs planning, actions, or multi-tool
 execution.
-[Ranjitha Kulkarni]({{ '/people/ranjithakulkarni/' | relative_url }}) pushes
+[Ranjitha Kulkarni](https://datatalks.club/people/ranjithakulkarni.html) pushes
 back on "RAG is dead" in
-[Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }})
+[Building Agentic AI Systems](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html)
 at 29:30-32:48, but she also names latency and cost as real limits. Noisy
 context, metadata constraints, and garbage-in-garbage-out matter too. At
 36:11-37:39, she treats retrieval as a tool that can shrink a search space
@@ -132,7 +132,7 @@ inside an agentic workflow.
 ## Choose Fine-Tuning For Behavior
 
 Choose fine-tuning when examples show a stable behavioral gap. Meryem's
-[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }})
+[Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html)
 examples at 26:30-31:38 include conversational tone, domain-specific language,
 and task formats for consistent responses. This fits style transfer and
 structured output. It can also fit classification-like behavior, routing,
@@ -142,13 +142,13 @@ the gap.
 Fine-tuning is weaker as a freshness mechanism. Meryem contrasts continuous
 retraining with re-embedding and retrieving updated documentation in the
 40:46-46:42 section of
-[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}).
+[Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html).
 If users must look at the source or cite the paragraph, retrieval is the better
 starting point. The same applies when permissions matter or the answer must
 change after a document update.
 
 Once a team trains or serves a model variant, it owns a production artifact. In
-[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}),
+[Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html),
 Meryem connects model choice to open-source control and privacy at 16:48-23:12.
 She also covers hosted API drift and production impact. At 49:44-51:35, she
 adds latency and cost. That moves fine-tuning work into
@@ -159,26 +159,26 @@ leaving it as a notebook experiment.
 ## Debug Retrieval Before Blaming The Model
 
 Many "model quality" complaints are retrieval or ranking problems. In
-[Production ML Search]({{ '/podcasts/production-ml-search-vector-search-embeddings-hybrid-search/' | relative_url }}),
-[Reem Mahmoud]({{ '/people/reemmahmoud/' | relative_url }}) separates candidate
+[Production ML Search](https://datatalks.club/podcast/production-ml-search-vector-search-embeddings-hybrid-search.html),
+[Reem Mahmoud](https://datatalks.club/people/reemmahmoud.html) separates candidate
 generation from ranking at 12:45. At 21:55-45:11, she shows how vector
 similarity and filters decide what a search system returns. She also covers
 recency, popularity, and weights. In RAG, those choices decide what evidence
 reaches the LLM.
 
-[Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }}) gives
+[Hugo Bowne-Anderson](https://datatalks.club/people/hugobowneanderson.html) gives
 the evaluation workflow in
-[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}):
+[Practical LLM Engineering and RAG](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html):
 at 23:00-27:38 he recommends representative gold tests, logs, and traces.
 Failure analysis then sorts errors into retrieval, generation, formatting, or
 data preparation. If the wrong chunks were retrieved, model fine-tuning isn't
 the first fix.
 
 Context design also matters because Ranjitha's
-[Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }})
+[Building Agentic AI Systems](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html)
 discussion at 29:30-32:48 shows noisy context, metadata, and chunking limits.
 Atita's
-[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
+[Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html)
 implementation at 38:24-48:09 shows why chunk size and overlap need joint
 design with embedding choice. Prompt assembly, citations, and feedback loops
 need the same treatment.
@@ -189,14 +189,14 @@ Use both approaches when the model lacks current facts and needs consistent
 behavior. In that setup, retrieval supplies current context. The adaptation
 layer controls tone, format, or domain task. Meryem separates style from source
 knowledge in
-[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }})
+[Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html)
 at 40:46-46:42. Atita shows the retrieval side of the same architecture in
-[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
+[Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html)
 at 38:24-48:09.
 
 Some systems need a richer retrieval layer instead of fine-tuning. Anahita's
 automotive R&D discussion in
-[Knowledge Graphs and LLMs for Automotive R&D]({{ '/podcasts/knowledge-graphs-and-llms-for-automotive-rnd/' | relative_url }})
+[Knowledge Graphs and LLMs for Automotive R&D](https://datatalks.club/podcast/knowledge-graphs-and-llms-for-automotive-rnd.html)
 at 38:10-39:56 contrasts vector chunks with graph relationships and Cypher
 queries. Use
 [Graph RAG vs Vector RAG]({{ '/wiki/graph-rag-vs-vector-rag/' | relative_url }})
@@ -207,7 +207,7 @@ when relationships, paths, or provenance are part of the answer.
 When retrieval is only one action in a larger product, compare this page with
 [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }}).
 Ranjitha's
-[Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }})
+[Building Agentic AI Systems](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html)
 discussion at 36:11-37:39 treats retrieval as one tool among others. Her
 51:17-57:23 testing section adds mocked tools and custom datasets. It also adds
 regression tests and outcome-based checks.
@@ -219,22 +219,22 @@ ingested the right documents and chunked them correctly. Then check whether it
 embedded the right units, retrieved the right passages, and cited them. Atita
 separates ingestion,
 retrieval strategy, model choice, and end-to-end feedback in
-[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
+[Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html)
 at 48:09.
 
 Evaluate fine-tuning by checking whether the model variant improves the target
 behavior without regressions. Meryem's
-[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }})
+[Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html)
 evaluation discussion at 53:34-56:39 covers gold-standard examples,
 output-driven evaluation, and benchmark choices. The team should compare the
 tuned model with the base model and measure latency, cost, quality, and
 operational risk.
 
 Evaluate combined systems by separating the layers. Hugo's
-[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }})
+[Practical LLM Engineering and RAG](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html)
 failure-analysis workflow at 26:43 makes teams locate the source of the error
 before changing the model. Ranjitha's
-[Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }})
+[Building Agentic AI Systems](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html)
 testing discussion at 51:17-57:23 extends that idea to systems where retrieval,
 tools, and generation interact.
 

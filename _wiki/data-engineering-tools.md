@@ -18,16 +18,16 @@ analytics, operations, and machine learning work. The useful question isn't
 need to make reliable, and who depends on it?"
 
 In
-[ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
-[Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) grounds that point
+[ETL vs ELT and the Modern Data Stack](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html),
+[Natalie Kwong](https://datatalks.club/people/nataliekwong.html) grounds that point
 in the basic stack. She starts with ingestion, warehouse loading, and dbt-style
 transformation.
 She also covers orchestration, lake storage, change data capture, and reverse
 data flows.
 
 In
-[Modern Data Engineering]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}),
-[Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) adds a newer
+[Modern Data Engineering](https://datatalks.club/podcast/trends-in-modern-data-engineering.html),
+[Adrian Brudaru](https://datatalks.club/people/adrianbrudaru.html) adds a newer
 view. He covers open table formats, catalogs, and DuckDB. He also covers
 AI-assisted pipeline work, streaming, and more careful vendor choices. Those
 tool choices sit next to
@@ -39,10 +39,10 @@ as concepts.
 ## Stack Map
 
 For Spark-based processing in particular,
-[Data Analysis with Python and PySpark]({{ '/books/20211025-data-analysis-with-python-and-pyspark/' | relative_url }})
+[Data Analysis with Python and PySpark](https://datatalks.club/books/20211025-data-analysis-with-python-and-pyspark.html)
 by Jonathan Rioux is a practical reference for the transformation and analysis
 layer.
-For everyday pandas-based analysis work, [Effective Pandas]({{ '/books/20220131-effective-pandas/' | relative_url }})
+For everyday pandas-based analysis work, [Effective Pandas](https://datatalks.club/books/20220131-effective-pandas.html)
 by Matt Harrison is a practitioner reference for the idioms and patterns that keep data analysis code maintainable.
 
 Most teams combine tools from these categories:
@@ -60,17 +60,17 @@ Most teams combine tools from these categories:
   the outputs
 
 You rarely need every category in one buildout. In
-[the modern data stack episode]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
+[the modern data stack episode](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html),
 Kwong starts with extraction, loading, and warehouse-side transformations. At
 roughly 30:59-35:42, she adds Airflow, dbt, and reverse data flows.
 Brudaru warns against vendor-led tool collection around 44:42 in
-[Modern Data Engineering]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}).
+[Modern Data Engineering](https://datatalks.club/podcast/trends-in-modern-data-engineering.html).
 In that discussion, he says teams should choose tools after they understand the
 business requirement, team skills, and operating cost.
 
 Katz's career guidance gives the same ordering. In
-[Build a Data Engineering Career]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }}),
-[Jeff Katz]({{ '/people/jeffkatz/' | relative_url }}) treats Python, SQL, and
+[Build a Data Engineering Career](https://datatalks.club/podcast/data-engineering-career-path-and-skills.html),
+[Jeff Katz](https://datatalks.club/people/jeffkatz.html) treats Python, SQL, and
 cloud basics as core skills. He adds orchestration before advanced tools.
 Around 38:05 and 56:46, he explains why junior programs shouldn't over-index
 on Spark, Kafka, and Kubernetes before students can write and reason about
@@ -83,7 +83,7 @@ lake, lakehouse, or staging area. They include managed connectors, Python
 ingestion libraries, event collection tools, and change data capture systems.
 
 In
-[ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}):
+[ETL vs ELT and the Modern Data Stack](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html):
 Kwong uses Airbyte to explain the ingestion layer around 3:19. The tool moves
 data from sources such as ads APIs into warehouses such as Snowflake. Around
 45:59, she explains change data capture as syncing only row-level changes
@@ -99,8 +99,8 @@ room to model in SQL. Around 7:57 and 18:47, Kwong connects ELT to flexibility,
 warehouse-side transformations, and faster iteration.
 
 Product event ingestion adds another requirement: a tracking plan. In
-[Data-Led Growth, Event Tracking, and Reverse ETL]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }}),
-[Arpit Choudhury]({{ '/people/arpitchoudhury/' | relative_url }}) spends
+[Data-Led Growth, Event Tracking, and Reverse ETL](https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html),
+[Arpit Choudhury](https://datatalks.club/people/arpitchoudhury.html) spends
 13:34-22:47 on event naming and properties. He also covers ownership and
 collection before connecting storage and activation. For product data, a
 connector alone doesn't solve the problem. Teams need to know which events
@@ -112,15 +112,15 @@ Orchestration tools coordinate jobs by scheduling ingestion and triggering
 transformations. They manage dependencies and retries, and they support
 backfills and alerts.
 Kwong places Airflow in that role around 30:59 in
-[the modern data stack episode]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}).
+[the modern data stack episode](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html).
 Brudaru updates the tool landscape around 35:37 in
-[Modern Data Engineering]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}),
+[Modern Data Engineering](https://datatalks.club/podcast/trends-in-modern-data-engineering.html),
 where he compares Airflow, Prefect, and Dagster. He also discusses GitHub
 Actions.
 
 Orchestration becomes more important as team size and failure cost grow. In
-[Scale Data Engineering Teams]({{ '/podcasts/scaling-data-engineering-teams-self-service-platforms/' | relative_url }}),
-[Mehdi OUAZZA]({{ '/people/mehdiouazza/' | relative_url }}) explains that a
+[Scale Data Engineering Teams](https://datatalks.club/podcast/scaling-data-engineering-teams-self-service-platforms.html),
+[Mehdi OUAZZA](https://datatalks.club/people/mehdiouazza.html) explains that a
 scale-up data platform needs self-service onboarding and Airflow. Around
 12:30-17:22, he adds conventions, playbooks, and best practices. Around 23:26,
 he moves from batch coordination to Kafka, schema registry, and data contracts
@@ -129,8 +129,8 @@ producers, more consumers, and more ways to break each other.
 
 [DataOps]({{ '/wiki/dataops/' | relative_url }}) is the operating layer around
 those tools. In
-[Mastering DataOps]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }}),
-[Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }}) frames
+[Mastering DataOps](https://datatalks.club/podcast/dataops-automation-and-reliable-data-pipelines.html),
+[Christopher Bergh](https://datatalks.club/people/christopherbergh.html) frames
 the problem as error reduction and deployment cycle time as well as team productivity
 around 6:42. Around 33:47-51:21, he names version control, tests, and CI/CD.
 
@@ -145,7 +145,7 @@ practical stack categories behind that operating layer.
 Warehouses fit teams that need governed SQL analytics, BI, marts, and
 warehouse-side transformation. Kwong ties warehouses to ELT, data marts,
 dbt-style modeling, and reverse data flows in
-[ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})
+[ETL vs ELT and the Modern Data Stack](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html)
 around 15:30-35:42. Many analytics-heavy teams follow this route. They load raw
 data, transform it into documented models, and serve BI or operational syncs
 from trusted tables.
@@ -159,7 +159,7 @@ basic split.
 
 Lakehouses add table behavior and transaction semantics on top of open storage.
 Brudaru focuses on that newer layer in
-[Modern Data Engineering]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}).
+[Modern Data Engineering](https://datatalks.club/podcast/trends-in-modern-data-engineering.html).
 
 Around 18:17-30:31, he explains Apache Iceberg, Parquet storage, and catalogs.
 He also covers metadata and lineage. The same segment discusses DuckDB, Delta
@@ -181,10 +181,10 @@ means SQL transformations in the warehouse or lakehouse.
 
 Kwong links ELT to dbt and the rise of the analytics engineer around
 12:39-18:47 in
-[ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}).
+[ETL vs ELT and the Modern Data Stack](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html).
 In
-[Master Analytics Engineering]({{ '/podcasts/analytics-engineer-skills-tools/' | relative_url }}),
-[Victoria Perez Mola]({{ '/people/victoriaperezmola/' | relative_url }})
+[Master Analytics Engineering](https://datatalks.club/podcast/analytics-engineer-skills-tools.html),
+[Victoria Perez Mola](https://datatalks.club/people/victoriaperezmola.html)
 describes the role from the other side. Around 4:05-10:04, she covers data
 modeling and pipelines. She also covers data quality and Looker. In the same
 discussion, she explains SQL transformations and version control.
@@ -198,7 +198,7 @@ and [dbt]({{ '/wiki/dbt/' | relative_url }}), not only with platform
 engineering. dbt is valuable when it makes business definitions reviewable,
 testable, documented, and reusable. It's less useful if a team treats it as a
 brand name for scattered SQL. Brudaru makes the same point around 31:29 in
-[Modern Data Engineering]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}),
+[Modern Data Engineering](https://datatalks.club/podcast/trends-in-modern-data-engineering.html),
 where he discusses dbt's influence and alternatives such as SQLMesh.
 
 ## Quality, Observability, And Governance
@@ -209,8 +209,8 @@ as soon as people make decisions, send customer segments, train models, or run
 operations from the data.
 
 In
-[Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }}),
-[Barr Moses]({{ '/people/barrmoses/' | relative_url }}) explains why data teams
+[Data Observability Explained](https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html),
+[Barr Moses](https://datatalks.club/people/barrmoses.html) explains why data teams
 often find out about problems from executives, customers, or business users
 around 4:35-6:56. Around 16:38, she lays out five observability pillars. They
 cover freshness and volume, distribution and schema, plus lineage. Around
@@ -226,13 +226,13 @@ helps the team decide whether a dashboard, reverse ETL sync, or ML feature
 pipeline can still be trusted.
 
 DataOps episodes add the delivery discipline through
-[Mastering DataOps]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }}),
+[Mastering DataOps](https://datatalks.club/podcast/dataops-automation-and-reliable-data-pipelines.html),
 where Bergh discusses observability, monitoring, and tests. He also covers CI/CD and
 end-to-end versioning.
 
 In
-[DataOps and GitOps for Data Teams]({{ '/podcasts/dataops-and-gitops-best-practices-for-data-teams/' | relative_url }}),
-[Tomasz Hinc]({{ '/people/tomaszhinc/' | relative_url }}) shows the platform
+[DataOps and GitOps for Data Teams](https://datatalks.club/podcast/dataops-and-gitops-best-practices-for-data-teams.html),
+[Tomasz Hinc](https://datatalks.club/people/tomaszhinc.html) shows the platform
 side around 12:40-26:21. He covers Terraform, Terragrunt, Atlantis, and GitOps.
 He also covers onboarding, secrets, and IAM. Around 1:01:27-1:02:28, he adds
 fixed versions, Docker, and pragmatic checks.
@@ -247,7 +247,7 @@ category turns analysis into action, but it also turns analytics definitions
 into operational dependencies.
 
 Choudhury gives a concrete activation example in
-[the Data-Led Growth episode]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }}).
+[the Data-Led Growth episode](https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html).
 Around 28:52-37:25, he walks through warehouses and dbt. He connects them to BI
 and product analytics. He also covers warehouse-centric tools and reverse ETL
 products such as Census, Hightouch, and Grouparoo.
@@ -257,7 +257,7 @@ stacks. He also discusses buy-vs-build tradeoffs and the team roles around
 data-led growth.
 
 Kwong also covers operational reverse data flows around 35:42 in
-[ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}).
+[ETL vs ELT and the Modern Data Stack](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html).
 Teams add reverse ETL when sales, support, marketing, or product teams need
 trusted segments inside their tools. They may also need lifecycle signals,
 product-qualified accounts, or customer context. Use
@@ -299,12 +299,12 @@ Start with the business use case, then choose the tools.
 
 The episodes converge on the same rule. Katz starts with SQL, Python, cloud
 basics, and orchestration before tool sprawl in
-[Build a Data Engineering Career]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }}).
+[Build a Data Engineering Career](https://datatalks.club/podcast/data-engineering-career-path-and-skills.html).
 Kwong starts with the movement of data and the ETL/ELT tradeoff in
-[the modern data stack episode]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}).
+[the modern data stack episode](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html).
 Brudaru pushes teams to choose tools only after understanding requirements and
 operating cost in
-[Modern Data Engineering]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}).
+[Modern Data Engineering](https://datatalks.club/podcast/trends-in-modern-data-engineering.html).
 Bergh and Moses add the reliability layer through
 [DataOps]({{ '/wiki/dataops/' | relative_url }}) and
 [data observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).

@@ -36,6 +36,22 @@ TARGET_TYPES = {
     "people": ("person", "person"),
 }
 
+# podcast/person/book pages are not published locally; wiki bodies link straight
+# to the canonical main-site URL. Map those canonical URLs back to node ids so
+# the graph edges survive. Note the singular `/podcast/` path on the main site.
+CANONICAL_URL_RE = re.compile(
+    r"https?://(?:www\.)?datatalks\.club/(podcast|people|books)/([^/#?\"'\s]+?)\.html",
+    re.IGNORECASE,
+)
+CANONICAL_TYPES = {
+    "podcast": ("podcast", "podcast"),
+    "people": ("person", "person"),
+    "books": ("book", "book"),
+}
+
+# Collections that resolve to the canonical main-site URL instead of a local page.
+CANONICAL_NODE_TYPES = {"podcast", "person", "book"}
+
 
 def slugify(value: str) -> str:
     value = value.lower()
@@ -143,6 +159,11 @@ def read_pages() -> list[dict[str, object]]:
             slug = source_slug(path)
             title = str(meta.get("title") or slug.replace("-", " ").title())
             summary = str(meta.get("summary") or "")
+            canonical = str(meta.get("source_url") or "").strip()
+            if node_type in CANONICAL_NODE_TYPES and canonical:
+                url = canonical
+            else:
+                url = f"{prefix}{slug}/"
             pages.append(
                 {
                     "id": node_id(node_type, id_scope, slug),
@@ -151,7 +172,7 @@ def read_pages() -> list[dict[str, object]]:
                     "slug": slug,
                     "title": title,
                     "label": title,
-                    "url": f"{prefix}{slug}/",
+                    "url": url,
                     "meta": meta,
                     "body": body,
                     "search": plain_text(" ".join([title, summary])),
@@ -162,6 +183,10 @@ def read_pages() -> list[dict[str, object]]:
 
 def collection_target(path: str) -> str | None:
     path = path.strip()
+    canonical = CANONICAL_URL_RE.search(path)
+    if canonical:
+        node_type, id_scope = CANONICAL_TYPES[canonical.group(1).lower()]
+        return node_id(node_type, id_scope, canonical.group(2))
     public_paths = "|".join(re.escape(name) for name in TARGET_TYPES)
     liquid_match = re.search(rf"'(/(?:{public_paths})/[^']+)'", path)
     if liquid_match:

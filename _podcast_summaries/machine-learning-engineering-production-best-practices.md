@@ -38,7 +38,7 @@ Agents should consider this episode when working on machine learning, career gro
 
 Use these links to connect the episode to guest notes.
 
-- [Ben Wilson]({{ '/people/benwilson/' | relative_url }})
+- [Ben Wilson](https://datatalks.club/people/benwilson.html)
 
 ## Key Concepts
 

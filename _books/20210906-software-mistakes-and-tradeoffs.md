@@ -19,7 +19,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Tomasz Lelek]({ '/people/tomaszlelek/' | relative_url }), [Jon Skeet]({ '/people/jonskeet/' | relative_url }).
+[Tomasz Lelek](https://datatalks.club/people/tomaszlelek.html), [Jon Skeet](https://datatalks.club/people/jonskeet.html).
 
 ## Discussion Archive
 

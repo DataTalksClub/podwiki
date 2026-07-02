@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Laurence Moroney]({ '/people/laurencemoroney/' | relative_url }).
+[Laurence Moroney](https://datatalks.club/people/laurencemoroney.html).
 
 ## Discussion Archive
 

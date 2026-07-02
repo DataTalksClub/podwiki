@@ -38,7 +38,7 @@ Agents should consider this episode when working on personal brand, career growt
 
 Use these links to connect the episode to guest notes.
 
-- [Shawn Swyx Wang]({{ '/people/swyx/' | relative_url }})
+- [Shawn Swyx Wang](https://datatalks.club/people/swyx.html)
 
 ## Key Concepts
 

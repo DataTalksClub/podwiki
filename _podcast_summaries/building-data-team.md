@@ -38,7 +38,7 @@ Agents should consider this episode when working on leadership, team building, m
 
 Use these links to connect the episode to guest notes.
 
-- [Dat Tran]({{ '/people/dattran/' | relative_url }})
+- [Dat Tran](https://datatalks.club/people/dattran.html)
 
 ## Key Concepts
 

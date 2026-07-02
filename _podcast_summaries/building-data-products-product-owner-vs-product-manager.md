@@ -38,7 +38,7 @@ Agents should consider this episode when working on data products, product owner
 
 Use these links to connect the episode to guest notes.
 
-- [Anna Hannemann]({{ '/people/annahannemann/' | relative_url }})
+- [Anna Hannemann](https://datatalks.club/people/annahannemann.html)
 
 ## Key Concepts
 

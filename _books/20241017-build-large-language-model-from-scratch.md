@@ -19,7 +19,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Sebastian Raschka]({ '/people/sebastianraschka/' | relative_url }).
+[Sebastian Raschka](https://datatalks.club/people/sebastianraschka.html).
 
 ## Discussion Archive
 

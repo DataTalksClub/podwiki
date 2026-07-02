@@ -25,9 +25,9 @@ They also need [security]({{ '/wiki/security/' | relative_url }}), evaluation,
 and [model monitoring]({{ '/wiki/model-monitoring/' | relative_url }}) to review
 a model or LLM product after it reaches users.
 
-[Supreet Kaur]({{ '/people/supreetkaur/' | relative_url }}) gives the clearest
+[Supreet Kaur](https://datatalks.club/people/supreetkaur.html) gives the clearest
 definition in
-[Responsible and Explainable AI]({{ '/podcasts/responsible-explainable-ai-bias-detection/' | relative_url }}):
+[Responsible and Explainable AI](https://datatalks.club/podcast/responsible-explainable-ai-bias-detection.html):
 at 4:43 she frames responsible AI around trust and stakeholder collaboration.
 At 8:20 she separates explainable AI from the wider governance discipline. Her
 discussion ties responsible AI to PII handling and feature necessity. It also
@@ -55,7 +55,7 @@ The team has to decide whether to collect the feature at all. If it keeps the
 feature, it may mask or transform it. The team may also monitor it more closely.
 At 27:38, product owners and subject matter experts share that decision.
 Compliance teams and leaders also have a say instead of leaving it only to data scientists
-([Responsible and Explainable AI]({{ '/podcasts/responsible-explainable-ai-bias-detection/' | relative_url }})).
+([Responsible and Explainable AI](https://datatalks.club/podcast/responsible-explainable-ai-bias-detection.html)).
 
 That's why responsible AI belongs beside
 [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}),
@@ -65,7 +65,7 @@ If a feature improves an internal score but makes the product hard to justify,
 the team may remove it or transform it. It may also add human review or monitor
 the feature with stricter drift checks. The podcast discussions treat those
 choices as design and governance work, not paperwork after launch.
-For a practitioner reference on these bias and fairness tradeoffs, [Practical Fairness]({{ '/books/20220523-practical-fairness/' | relative_url }})
+For a practitioner reference on these bias and fairness tradeoffs, [Practical Fairness](https://datatalks.club/books/20220523-practical-fairness.html)
 by Nielsen Aileen covers the measurement and mitigation techniques behind real-world fairness checks.
 
 ## Data Access and Privacy Boundaries
@@ -74,8 +74,8 @@ Responsible AI depends on enforceable data controls because models inherit data
 risk. They may train on sensitive data, retrieve it, log it, or expose it.
 
 In
-[Data Governance and Data Access Management]({{ '/podcasts/data-governance-data-access-management/' | relative_url }}),
-[Bart Vandekerckhove]({{ '/people/bartvandekerckhove/' | relative_url }})
+[Data Governance and Data Access Management](https://datatalks.club/podcast/data-governance-data-access-management.html),
+[Bart Vandekerckhove](https://datatalks.club/people/bartvandekerckhove.html)
 turns trust in data into catalogs and purpose-based requests. Approvals,
 reviews, and revocation make the controls auditable. Masking and access-as-code
 make them enforceable.
@@ -85,10 +85,10 @@ time-bound access and revocation. At 42:20 and 46:42 he connects masking,
 filtering, active metadata, and automated tagging to data mesh and DataOps
 settings.
 
-[Jessi Ashdown]({{ '/people/jessiashdown/' | relative_url }}) and
-[Uri Gilad]({{ '/people/urigilad/' | relative_url }}) add cloud governance
+[Jessi Ashdown](https://datatalks.club/people/jessiashdown.html) and
+[Uri Gilad](https://datatalks.club/people/urigilad.html) add cloud governance
 machinery in
-[Cloud Data Governance]({{ '/podcasts/cloud-data-governance/' | relative_url }}).
+[Cloud Data Governance](https://datatalks.club/podcast/cloud-data-governance.html).
 Their discussion covers data classification, taxonomies, and data stewards. It
 also covers retention, freshness, purpose-based access, and request workflows.
 
@@ -99,9 +99,9 @@ minimum viable governance that can grow as risk grows.
 Privacy engineering narrows the same question to collection and consent. It
 also covers retention and exposure.
 
-[Katharine Jarmul]({{ '/people/katharinejarmul/' | relative_url }}) makes this
+[Katharine Jarmul](https://datatalks.club/people/katharinejarmul.html) makes this
 privacy boundary explicit in
-[Data Privacy Engineering, GDPR, and Machine Learning]({{ '/podcasts/data-privacy-engineering-gdpr-machine-learning/' | relative_url }}).
+[Data Privacy Engineering, GDPR, and Machine Learning](https://datatalks.club/podcast/data-privacy-engineering-gdpr-machine-learning.html).
 At 16:24, she connects legal, social, and technical definitions of privacy. At
 22:38, she describes privacy engineering as translation between legal and
 technical teams.
@@ -117,13 +117,13 @@ slogans into data science work.
 The fairness episodes begin with evidence, but they don't end with a metric.
 Supreet's responsible-AI discussion uses data-level checks to find missingness
 and skew. It also checks undercoverage and biased feature use before model training
-([Responsible and Explainable AI]({{ '/podcasts/responsible-explainable-ai-bias-detection/' | relative_url }}),
+([Responsible and Explainable AI](https://datatalks.club/podcast/responsible-explainable-ai-bias-detection.html),
 11:36 and 12:48). At 24:22 she places fairness beside profitability, which
 forces a launch decision instead of a detached model report.
 
-[Tamara Atanasoska]({{ '/people/tamaraatanasoska/' | relative_url }}) makes the
+[Tamara Atanasoska](https://datatalks.club/people/tamaraatanasoska.html) makes the
 same point from fairness tooling and sociotechnical design. In
-[Fairness in AI/ML Engineering]({{ '/podcasts/fairness-in-ai-ml-engineering/' | relative_url }}),
+[Fairness in AI/ML Engineering](https://datatalks.club/podcast/fairness-in-ai-ml-engineering.html),
 the credit-scoring discussion at 14:52 links model bias to downstream harms
 such as debt and repossession. At 21:31, Fairlearn-style group fairness tools
 help visualize and mitigate disparities. At 24:04 and 26:21, the team still has
@@ -141,9 +141,9 @@ human-in-the-loop review inside system design. This places fairness beside
 Metrics provide evidence, while product, domain, and risk owners decide what the
 evidence permits.
 
-[Christine Cepelak]({{ '/people/christinecepelak/' | relative_url }}) extends
+[Christine Cepelak](https://datatalks.club/people/christinecepelak.html) extends
 responsible AI into the public-policy domain. In
-[Data Science for Public Policy]({{ '/podcasts/data-science-for-public-policy-ethical-ai-social-impact/' | relative_url }}),
+[Data Science for Public Policy](https://datatalks.club/podcast/data-science-for-public-policy-ethical-ai-social-impact.html),
 she frames ethics as the gap between what is legal and what is right — printer
 e-waste contaminating communities is not a crime, but it is an ethical failure
 data science can help expose. She also connects the EU AI Act and social-scoring
@@ -152,9 +152,9 @@ literacy to handle new technologies. Her career advice points to volunteer
 projects through Data Science for Social Good and the UN Sustainable Development
 Goals as entry routes for impact-focused data work.
 
-[Sabina Firtala]({{ '/people/sabinafirtala/' | relative_url }}) adds a
+[Sabina Firtala](https://datatalks.club/people/sabinafirtala.html) adds a
 domain-specific risk-scoring case. In
-[Building a Domestic Risk Assessment Tool]({{ '/podcasts/building-domestic-risk-assessment-tool/' | relative_url }}),
+[Building a Domestic Risk Assessment Tool](https://datatalks.club/podcast/building-domestic-risk-assessment-tool.html),
 she walks through data cleaning, feature engineering, and risk scoring for a
 frontline social-services tool. The episode connects bias assessment and model
 evaluation to privacy compliance and legal governance. It shows how a
@@ -166,15 +166,15 @@ privacy before it can reach operational use.
 Explainability helps responsible AI only when it answers a reviewer's actual
 question. Supreet covers What-If, Skater, and AI Explainability 360 at 19:03.
 At 23:24, she covers LIME, SHAP, and surrogate models
-([Responsible and Explainable AI]({{ '/podcasts/responsible-explainable-ai-bias-detection/' | relative_url }})).
+([Responsible and Explainable AI](https://datatalks.club/podcast/responsible-explainable-ai-bias-detection.html)).
 Her later chapters on accuracy versus interpretability and human oversight keep
 the explanation tied to operational decisions. The team identifies who needs to
 understand the model, what choice they need to make, and what action follows
 when the model looks wrong.
 
-[Christoph Molnar]({{ '/people/christophmolnar/' | relative_url }}) supplies
+[Christoph Molnar](https://datatalks.club/people/christophmolnar.html) supplies
 the deeper modeling view in
-[Interpretable Machine Learning]({{ '/podcasts/interpretable-machine-learning/' | relative_url }}).
+[Interpretable Machine Learning](https://datatalks.club/podcast/interpretable-machine-learning.html).
 At 9:27, he frames SHAP as a way to debug models, not only as a chart for
 stakeholders. At 20:27, conformal prediction adds calibrated uncertainty and
 prediction sets. At 23:44 and 26:17, SHAP details and terminology boundaries
@@ -196,8 +196,8 @@ evidence. Human labels and production feedback complete that evidence.
 
 LLM products add a security layer to responsible AI because the system may
 retrieve private context, generate harmful output, or act through tools. In
-[Hardening Generative AI Chatbots]({{ '/podcasts/generative-ai-chatbots-in-production-security/' | relative_url }}),
-[Maria Sukhareva]({{ '/people/mariasukhareva/' | relative_url }}) shows why
+[Hardening Generative AI Chatbots](https://datatalks.club/podcast/generative-ai-chatbots-in-production-security.html),
+[Maria Sukhareva](https://datatalks.club/people/mariasukhareva.html) shows why
 prompt wording isn't a control. The 9:28 hacking exercise and 13:20
 data-exfiltration chapter test whether a chatbot can be pushed into revealing
 hidden knowledge-base content. The 11:38 and 18:01 chapters connect
@@ -214,8 +214,8 @@ responsible AI to
 [LLM production]({{ '/wiki/llm-production-patterns/' | relative_url }}).
 
 Agents widen the control surface further. In
-[The Future of AI Agents]({{ '/podcasts/s23e03-future-of-ai-agents/' | relative_url }}),
-[Aditya Gautam]({{ '/people/adityagautam/' | relative_url }}) uses legal and
+[The Future of AI Agents](https://datatalks.club/podcast/s23e03-future-of-ai-agents.html),
+[Aditya Gautam](https://datatalks.club/people/adityagautam.html) uses legal and
 healthcare reliability as high-stakes examples at 13:13.
 
 At 19:16, specialized models and agent governance enter the discussion. At
@@ -230,7 +230,7 @@ engineering details behind those controls.
 Responsible AI isn't finished at launch. Supreet's 35:28 chapter covers
 human-in-the-loop oversight, and the 37:31 chapter covers drift and feedback
 loops
-([Responsible and Explainable AI]({{ '/podcasts/responsible-explainable-ai-bias-detection/' | relative_url }})).
+([Responsible and Explainable AI](https://datatalks.club/podcast/responsible-explainable-ai-bias-detection.html)).
 Teams document assumptions before launch, test behavior during release, and
 watch for population shifts after launch.
 

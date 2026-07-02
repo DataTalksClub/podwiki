@@ -24,7 +24,7 @@ practice also appears in [product analytics]({{ '/wiki/product-analytics/' | rel
 and [analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }}).
 It also appears in experimentation and data leadership.
 
-In [Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }}),
+In [Data Team Roles Explained](https://datatalks.club/podcast/data-team-roles.html),
 the analyst knows what company data exists. They retrieve it and define KPIs.
 They also build dashboards, quantify product problems, and check whether
 shipped work changed user behavior around 7:51-10:39. That makes data analysis
@@ -38,17 +38,17 @@ asks who will act on the result and which metric will change the decision. It
 also asks which data is trustworthy enough to use and which caveats need to be
 visible.
 
-[Caitlin Moorman]({{ '/people/caitlinmoorman/' | relative_url }}) makes this
+[Caitlin Moorman](https://datatalks.club/people/caitlinmoorman.html) makes this
 point in
-[Last-Mile Data Delivery]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }}).
+[Last-Mile Data Delivery](https://datatalks.club/podcast/last-mile-data-delivery-and-data-product-adoption-modern-data-stack.html).
 She argues for outcome-first analytics around 34:00, then connects metrics to
 real meetings and decisions around 38:15. A dashboard that nobody trusts or
 uses isn't finished analysis.
 
 That outcome-first view also explains why analysts spend time on source data.
-[Arpit Choudhury]({{ '/people/arpitchoudhury/' | relative_url }}) shows the
+[Arpit Choudhury](https://datatalks.club/people/arpitchoudhury.html) shows the
 product analytics version in
-[How to Build a Data-Led Growth Stack]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }}).
+[How to Build a Data-Led Growth Stack](https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html).
 He starts with tracking plans, event names, event properties, and ownership
 around 13:34-18:27. He then follows events through storage, transformation, BI,
 and activation around 22:50-41:30. A funnel or retention chart is only useful
@@ -68,29 +68,29 @@ they can explain what happened. They use SQL to join data, filter records,
 aggregate rows, and check assumptions.
 
 In
-[Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }}),
+[Data Team Roles Explained](https://datatalks.club/podcast/data-team-roles.html),
 SQL and dashboarding sit next to KPI definition and product problem sizing.
 
 In
-[Designing FinTech Data Analytics Curriculum]({{ '/podcasts/teaching-mentoring-data-analytics-fintech/' | relative_url }}),
-[Irina Brudaru]({{ '/people/irinabrudaru/' | relative_url }}) names SQL and
+[Designing FinTech Data Analytics Curriculum](https://datatalks.club/podcast/teaching-mentoring-data-analytics-fintech.html),
+[Irina Brudaru](https://datatalks.club/people/irinabrudaru.html) names SQL and
 data visualization as analyst fundamentals around 58:08. Cohort analysis and
 retention metrics appear earlier around 31:50.
 
 Metrics are the bridge between data and action. The
 [Metrics]({{ '/wiki/metrics/' | relative_url }}) wiki page defines them as
 decision rules expressed as numbers. That's more useful than treating metrics
-as dashboard fields. [Jakob Graff]({{ '/people/jakobgraff/' | relative_url }})
+as dashboard fields. [Jakob Graff](https://datatalks.club/people/jakobgraff.html)
 shows why in
-[Product Analytics and A/B Testing]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}):
+[Product Analytics and A/B Testing](https://datatalks.club/podcast/ab-testing-and-product-experimentation.html):
 a subscription-versus-points experiment can tell different stories. The
 interpretation changes when the team measures revenue, conversion, retention,
 or long-term value around 14:27-18:06.
 
 Analysts often deliver dashboards, but they shouldn't stop there.
-[Tammy Liang]({{ '/people/tammyliang/' | relative_url }}) describes building
+[Tammy Liang](https://datatalks.club/people/tammyliang.html) describes building
 business health dashboards first in
-[Building and Scaling a Data Team]({{ '/podcasts/building-and-scaling-data-team/' | relative_url }})
+[Building and Scaling a Data Team](https://datatalks.club/podcast/building-and-scaling-data-team.html)
 around 7:22. The team then had to streamline reporting and build trust. They
 also had to handle spreadsheet culture and support adoption around 8:51-10:06.
 
@@ -109,7 +109,7 @@ growth-stack episode shows why analysis starts before the dashboard. Teams need
 event definitions and properties before they can trust funnels. They also need
 source context and ownership before they can trust activation metrics or anomaly
 investigations
-([data-led growth at 13:34-30:03]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }})).
+([data-led growth at 13:34-30:03](https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html)).
 
 Experiments ask whether the change caused the metric movement.
 Jakob's A/B testing episode moves from product analytics into causality. He
@@ -136,8 +136,8 @@ and modeling. They also tend to own model-backed product decisions
 ([Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }})).
 
 In
-[From Analytics to Production ML]({{ '/podcasts/production-ml-mlops-and-data-team-building/' | relative_url }}),
-[Rishabh Bhargava]({{ '/people/rishabhbhargava/' | relative_url }}) describes
+[From Analytics to Production ML](https://datatalks.club/podcast/production-ml-mlops-and-data-team-building.html),
+[Rishabh Bhargava](https://datatalks.club/people/rishabhbhargava.html) describes
 analysts as people who build dashboards and reports. They also write ad hoc
 queries and recommendations around 18:39-24:23. He then connects analysts to experiment
 uplift, segment differences, and root-cause analysis around 31:19-33:30.
@@ -146,10 +146,10 @@ Analytics engineering is another neighboring role. Analysts own the question,
 interpretation, and recommendation, while analytics engineers own reusable
 models and BI-ready data layers. They also own tests and documentation.
 
-[Victoria Perez Mola]({{ '/people/victoriaperezmola/' | relative_url }})
+[Victoria Perez Mola](https://datatalks.club/people/victoriaperezmola.html)
 grounds analytics engineering in data modeling, pipelines, data quality, and
 Looker in
-[Master Analytics Engineering]({{ '/podcasts/analytics-engineer-skills-tools/' | relative_url }})
+[Master Analytics Engineering](https://datatalks.club/podcast/analytics-engineer-skills-tools.html)
 around 4:05-10:04. She also explains the overlap with analysts around
 14:34-16:54. The
 [Data Analyst vs Analytics Engineer]({{ '/wiki/data-analyst-vs-analytics-engineer/' | relative_url }})
@@ -157,12 +157,12 @@ page gives the practical boundary. Analysts own decision support. Analytics
 engineers own reusable and tested analytical models.
 
 Small teams often blur those boundaries.
-[Nikola Maksimovic]({{ '/people/nikolamaksimovic/' | relative_url }})
+[Nikola Maksimovic](https://datatalks.club/people/nikolamaksimovic.html)
 describes an analytics engineering role that included product support and
 A/B testing. The same role included Looker dashboards, `dbt`, and data
 modeling. It also included growth analysis, retention analysis, and RFM
 analysis
-([marketing to analytics engineering at 14:14-39:36]({{ '/podcasts/from-marketing-to-analytics-engineering-sql-dbt-career-switch/' | relative_url }})).
+([marketing to analytics engineering at 14:14-39:36](https://datatalks.club/podcast/from-marketing-to-analytics-engineering-sql-dbt-career-switch.html)).
 
 For a learner or hiring manager, the title matters less than the ownership.
 Ask which decision, model, metric, or data product the person improves.
@@ -171,23 +171,23 @@ Ask which decision, model, metric, or data product the person improves.
 
 Data analysis becomes useful when someone can understand it and act on it.
 That requires writing, visualization, and stakeholder communication. In
-[Practical Data Journalism]({{ '/podcasts/data-journalism-python-visualization-storytelling/' | relative_url }}),
-[Angelica Lo Duca]({{ '/people/angelicaloduca/' | relative_url }}) distinguishes
+[Practical Data Journalism](https://datatalks.club/podcast/data-journalism-python-visualization-storytelling.html),
+[Angelica Lo Duca](https://datatalks.club/people/angelicaloduca.html) distinguishes
 data journalism from broader data science around 8:01. She then moves into
 data sourcing, storytelling, and visualization. Around 36:20, she recommends
 one concept per chart and tables when they're clearer.
 
 The same communication standard appears in hiring and team discussions.
-[Alicja Notowska]({{ '/people/alicjanotowska/' | relative_url }}) says in
-[Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }})
+[Alicja Notowska](https://datatalks.club/people/alicjanotowska.html) says in
+[Hiring Data Scientists and Analysts](https://datatalks.club/podcast/hiring-data-scientists-and-analysts.html)
 that candidates should show clear responsibilities, dates, and practical
 examples around 28:41-32:40. Around 54:09-59:30, she also warns that data
 analyst titles are ambiguous. A resume or portfolio needs to explain the actual
 analysis work, not just list tools.
 
-[Katie Bauer]({{ '/people/katiebauer/' | relative_url }}) brings the team
+[Katie Bauer](https://datatalks.club/people/katiebauer.html) brings the team
 quality view in
-[Hiring and Managing Data Science Teams]({{ '/podcasts/hiring-and-managing-data-science-teams-in-b2b-saas/' | relative_url }}).
+[Hiring and Managing Data Science Teams](https://datatalks.club/podcast/hiring-and-managing-data-science-teams-in-b2b-saas.html).
 Around 11:58, she connects analytics craft to maintainability, documentation,
 and peer review. Around 34:16, she discusses stakeholder conversations with PMs
 and senior leaders. Analysts need statistical care and social trust. People
@@ -207,16 +207,16 @@ Good project shapes follow the podcast evidence:
 
 - a product funnel or cohort analysis with a tracking plan, based on Arpit's
   event-tracking and warehouse flow
-  ([data-led growth at 13:34-30:03]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }}))
+  ([data-led growth at 13:34-30:03](https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html))
 - an experiment readout with a primary metric, guardrails, assignment checks,
   and power discussion, based on Jakob's A/B testing workflow
-  ([A/B testing at 24:44-40:23]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}))
+  ([A/B testing at 24:44-40:23](https://datatalks.club/podcast/ab-testing-and-product-experimentation.html))
 - a business health dashboard with definitions, monitoring checks, and adoption
   notes, based on Tammy's data team buildout
-  ([building a data team at 7:22-10:06 and 40:09-41:42]({{ '/podcasts/building-and-scaling-data-team/' | relative_url }}))
+  ([building a data team at 7:22-10:06 and 40:09-41:42](https://datatalks.club/podcast/building-and-scaling-data-team.html))
 - a written analysis or data story that gives each chart a single point and
   explains the data source, based on Angelica's data journalism workflow
-  ([data journalism at 29:19-40:47]({{ '/podcasts/data-journalism-python-visualization-storytelling/' | relative_url }}))
+  ([data journalism at 29:19-40:47](https://datatalks.club/podcast/data-journalism-python-visualization-storytelling.html))
 
 For analysts who want to move toward analytics engineering, add reusable data
 models, tests, and documentation. Perez Mola's role episode ties that direction

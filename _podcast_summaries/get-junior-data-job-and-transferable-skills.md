@@ -38,7 +38,7 @@ Agents should consider this episode when working on career growth.
 
 Use these links to connect the episode to guest notes.
 
-- [Lindsay McQuade]({{ '/people/lindsaymcquade/' | relative_url }})
+- [Lindsay McQuade](https://datatalks.club/people/lindsaymcquade.html)
 
 ## Key Concepts
 

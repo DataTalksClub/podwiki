@@ -38,7 +38,7 @@ Agents should consider this episode when working on indie hacking, bootstrapping
 
 Use these links to connect the episode to guest notes.
 
-- [Pauline Clavelloux]({{ '/people/paulineclavelloux/' | relative_url }})
+- [Pauline Clavelloux](https://datatalks.club/people/paulineclavelloux.html)
 
 ## Key Concepts
 

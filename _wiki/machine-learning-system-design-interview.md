@@ -20,8 +20,8 @@ related_wiki:
 
 A machine learning system design interview tests whether you can turn a model
 idea into a product system. In
-[ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }}),
-[Valerii Babushkin]({{ '/people/valeriybabushkin/' | relative_url }}) frames the
+[ML System Design Interviews](https://datatalks.club/podcast/machine-learning-system-design-interview.html),
+[Valerii Babushkin](https://datatalks.club/people/valeriybabushkin.html) frames the
 round around assumptions and baselines. He then connects labels and metrics to
 A/B tests, monitoring, fallbacks, and MLOps ownership. The maintained
 [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
@@ -43,15 +43,15 @@ For language-model systems, use
 
 Open with the business or product decision, not the model family. Valerii's
 fraud example in
-[ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }})
+[ML System Design Interviews](https://datatalks.club/podcast/machine-learning-system-design-interview.html)
 turns the same prediction into different actions. The product may block a
 transaction, approve it, warn someone, or send the case to review. Those actions
 change the cost of false positives and false negatives. They also change the
 latency target, thresholding plan, and human-review path.
 
-[Arseny Kravchenko]({{ '/people/arsenykravchenko/' | relative_url }}) gives the
+[Arseny Kravchenko](https://datatalks.club/people/arsenykravchenko.html) gives the
 production version in
-[Building Scalable and Reliable Machine Learning Systems]({{ '/podcasts/building-scalable-and-reliable-machine-learning-systems/' | relative_url }}).
+[Building Scalable and Reliable Machine Learning Systems](https://datatalks.club/podcast/building-scalable-and-reliable-machine-learning-systems.html).
 He starts designs with goals and non-goals. He also writes assumptions,
 constraints, and metrics before model architecture. That habit helps in
 interviews because it shows the interviewer what problem you're solving before
@@ -94,9 +94,9 @@ hub:
 That sequence keeps you from jumping straight to XGBoost or embeddings. It also
 keeps deep learning behind the product need. Use feature stores only when the
 feature path requires them.
-[Ben Wilson]({{ '/people/benwilson/' | relative_url }}) makes the same
+[Ben Wilson](https://datatalks.club/people/benwilson.html) makes the same
 simplicity argument in
-[Practical Machine Learning Engineering for Production]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }}):
+[Practical Machine Learning Engineering for Production](https://datatalks.club/podcast/machine-learning-engineering-production-best-practices.html):
 teams should prefer modular systems and prove value before adding complexity.
 Those systems should stay maintainable and business-aligned.
 
@@ -104,7 +104,7 @@ Those systems should stay maintainable and business-aligned.
 
 Fraud detection is the strongest machine learning system design
 interview prompt. Valerii uses it in
-[ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }})
+[ML System Design Interviews](https://datatalks.club/podcast/machine-learning-system-design-interview.html)
 because the candidate has to discuss probabilities, thresholds, class
 imbalance, and delayed labels. The same prompt also needs real-time constraints
 and business loss. The answer is incomplete if it ends at "train a classifier."
@@ -114,9 +114,9 @@ The answer should say what counts as fraud and when labels arrive. It should
 also say what the product does with the score and how the team handles
 asymmetric costs.
 
-[Angela Ramirez]({{ '/people/angelaramirez/' | relative_url }}) adds the
+[Angela Ramirez](https://datatalks.club/people/angelaramirez.html) adds the
 production data-engineering view in
-[Data Engineering for Fraud Prevention]({{ '/podcasts/building-and-scaling-data-engineering-systems-for-fraud-detection/' | relative_url }}).
+[Data Engineering for Fraud Prevention](https://datatalks.club/podcast/building-and-scaling-data-engineering-systems-for-fraud-detection.html).
 Her episode covers retail fraud use cases, feature pipelines, daily batch
 computation, and real-time scoring. She also covers graph features, monitoring,
 runbooks, and data quality checks. That makes fraud a good prompt for testing
@@ -153,14 +153,14 @@ and monitoring.
 Recommendation prompts test whether you define the product surface before the
 ranking model. Valerii contrasts nearby points of interest with personalized
 recommendations in
-[ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }}).
+[ML System Design Interviews](https://datatalks.club/podcast/machine-learning-system-design-interview.html).
 A nearby-place system can start from location, popularity, and simple rules. A
 personalized feed needs user history, item features, and candidate generation.
 It also needs ranking, cold-start handling, and feedback.
 
-[Daniel Svonava]({{ '/people/danielsvonava/' | relative_url }}) gives the search
+[Daniel Svonava](https://datatalks.club/people/danielsvonava.html) gives the search
 and ranking version in
-[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}).
+[Building Search Systems](https://datatalks.club/podcast/building-production-search-systems.html).
 He separates candidate generation from ranking. He also covers hybrid
 retrieval, filters, and recency. His business metrics, A/B tests, and
 operational metrics apply when an interviewer asks you to rank products and
@@ -177,10 +177,10 @@ page keeps that distinction visible for search and ranking systems.
 
 Good interview answers treat data as part of the system. Valerii's interview
 episode connects labels, class imbalance, feature tradeoffs, and validation in
-[ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }}).
+[ML System Design Interviews](https://datatalks.club/podcast/machine-learning-system-design-interview.html).
 Arseny's episode adds data availability, processing, and feature needs. He also
 discusses data lakes and system diagrams in
-[Building Scalable and Reliable Machine Learning Systems]({{ '/podcasts/building-scalable-and-reliable-machine-learning-systems/' | relative_url }}).
+[Building Scalable and Reliable Machine Learning Systems](https://datatalks.club/podcast/building-scalable-and-reliable-machine-learning-systems.html).
 
 Ask these questions out loud:
 
@@ -201,7 +201,7 @@ comparison adds the upstream pipeline boundary.
 
 The baseline belongs in this same part of the answer. Valerii recommends
 starting with a heuristic or simple model around 29:09 in
-[ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }}).
+[ML System Design Interviews](https://datatalks.club/podcast/machine-learning-system-design-interview.html).
 Arseny's production-system episode gives the reason: without a baseline, the
 team can't tell whether the proposed ML system improves the product.
 
@@ -209,13 +209,13 @@ team can't tell whether the proposed ML system improves the product.
 
 Use one business metric, one or two model metrics, and guardrails. Valerii's
 fraud discussion in
-[ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }})
+[ML System Design Interviews](https://datatalks.club/podcast/machine-learning-system-design-interview.html)
 shows why accuracy is too weak for imbalanced, high-cost decisions. You may
 need precision, recall, and calibration. You may also need expected loss, review
 load, and slice-level checks.
 
 For ranking or search, Daniel's
-[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }})
+[Building Search Systems](https://datatalks.club/podcast/building-production-search-systems.html)
 episode ties relevance work to business metrics and A/B testing. It also covers
 offline evaluation and operational metrics. For broader ML systems, the
 [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
@@ -229,26 +229,26 @@ staged rollout, backtesting, or human review. That answer connects the model to
 model score as the final result.
 
 Valerii returns to product validation at 57:23 in
-[ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }}).
+[ML System Design Interviews](https://datatalks.club/podcast/machine-learning-system-design-interview.html).
 Jakob's product analytics episode makes the A/B testing part concrete.
-[A/B Testing and Product Experimentation]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }})
+[A/B Testing and Product Experimentation](https://datatalks.club/podcast/ab-testing-and-product-experimentation.html)
 covers randomization at 8:13 and assignment tracking at 24:44. It also covers
 power analysis at 37:44.
 
 ## Pick the Serving Path
 
 Serving mode should follow the decision. In
-[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}),
-[Simon Stiebellehner]({{ '/people/simonstiebellehner/' | relative_url }})
+[Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html),
+[Simon Stiebellehner](https://datatalks.club/people/simonstiebellehner.html)
 separates batch inference from online serving. Batch inference often fits a
 scheduled scoring job. Online serving needs latency budgets and API contracts.
 It also needs prediction logging, rollback, and operational support.
 
 For fraud, Angela's
-[Data Engineering for Fraud Prevention]({{ '/podcasts/building-and-scaling-data-engineering-systems-for-fraud-detection/' | relative_url }})
+[Data Engineering for Fraud Prevention](https://datatalks.club/podcast/building-and-scaling-data-engineering-systems-for-fraud-detection.html)
 episode shows a hybrid design: daily feature computation plus instant scoring
 when the transaction happens. For mobile or edge ML, Arseny's
-[scalable systems episode]({{ '/podcasts/building-scalable-and-reliable-machine-learning-systems/' | relative_url }})
+[scalable systems episode](https://datatalks.club/podcast/building-scalable-and-reliable-machine-learning-systems.html)
 adds latency and frame rate. It also adds energy use, model size, and offline
 behavior.
 
@@ -261,11 +261,11 @@ failure mode, and monitoring plan.
 ## Monitor and Define Fallbacks
 
 Monitoring is part of the answer, not a final add-on. Valerii's
-[ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }})
+[ML System Design Interviews](https://datatalks.club/podcast/machine-learning-system-design-interview.html)
 discussion includes monitoring, distribution shift, and fallbacks. It also
-includes serving and MLOps roles. [Danny Leybzon]({{ '/people/dannyleybzon/' | relative_url }})
+includes serving and MLOps roles. [Danny Leybzon](https://datatalks.club/people/dannyleybzon.html)
 adds the upstream view in
-[MLOps Architect Guide]({{ '/podcasts/mlops-model-monitoring-data-observability/' | relative_url }}).
+[MLOps Architect Guide](https://datatalks.club/podcast/mlops-model-monitoring-data-observability.html).
 
 Model problems can start in ETL jobs or schemas. They can also start in
 transformations, source systems, or data profiles.
@@ -299,7 +299,7 @@ labels, and compare a baseline. Choose metrics and analyze errors. Then sketch
 deployment and explain monitoring plus fallback behavior.
 
 Valerii connects preparation to shared interview structure in
-[ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }}).
+[ML System Design Interviews](https://datatalks.club/podcast/machine-learning-system-design-interview.html).
 Around 37:28, he says unfamiliar domains still ask you to gather data, choose
 the metric and loss, and justify the model. They also ask you to decide how
 online and offline pieces work.
@@ -316,7 +316,7 @@ tradeoffs. A fraud-style classifier can include delayed labels and class
 imbalance. Add a threshold, review bucket, and monitoring notes to show more
 system thinking than a notebook with one accuracy number. That mirrors
 Valerii's fraud prompt and Angela Ramirez's
-[fraud-prevention data engineering episode]({{ '/podcasts/building-and-scaling-data-engineering-systems-for-fraud-detection/' | relative_url }}),
+[fraud-prevention data engineering episode](https://datatalks.club/podcast/building-and-scaling-data-engineering-systems-for-fraud-detection.html),
 where feature pipelines and daily batch computation support the model. Her
 episode also covers real-time scoring, runbooks, and data quality checks.
 
@@ -328,8 +328,8 @@ page.
 
 Prepare the project story as an interview walkthrough, not as a repository tour.
 In
-[Ace Data Interviews]({{ '/podcasts/data-interview-behavioral-and-portfolio-prep-guide/' | relative_url }}),
-[Nick Singh]({{ '/people/nicksingh/' | relative_url }}) uses project
+[Ace Data Interviews](https://datatalks.club/podcast/data-interview-behavioral-and-portfolio-prep-guide.html),
+[Nick Singh](https://datatalks.club/people/nicksingh.html) uses project
 walkthroughs to test ownership and model choice. He also checks metrics,
 validation, and impact.
 That makes a portfolio project useful for both the ML system design round and

@@ -38,7 +38,7 @@ Agents should consider this episode when working on data engineering, remote wor
 
 Use these links to connect the episode to guest notes.
 
-- [José María Sánchez Salas]({{ '/people/josemaria/' | relative_url }})
+- [José María Sánchez Salas](https://datatalks.club/people/josemaria.html)
 
 ## Key Concepts
 

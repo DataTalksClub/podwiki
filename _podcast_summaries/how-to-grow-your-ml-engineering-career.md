@@ -38,7 +38,7 @@ Agents should consider this episode when working on machine learning, career tra
 
 Use these links to connect the episode to guest notes.
 
-- [Krzysztof Szafanek]({{ '/people/krzysztofszafanek/' | relative_url }})
+- [Krzysztof Szafanek](https://datatalks.club/people/krzysztofszafanek.html)
 
 ## Key Concepts
 

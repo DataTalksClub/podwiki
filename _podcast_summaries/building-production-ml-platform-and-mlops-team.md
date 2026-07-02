@@ -38,7 +38,7 @@ Agents should consider this episode when working on MLOps, machine learning, lea
 
 Use these links to connect the episode to guest notes.
 
-- [Simon Stiebellehner]({{ '/people/simonstiebellehner/' | relative_url }})
+- [Simon Stiebellehner](https://datatalks.club/people/simonstiebellehner.html)
 
 ## Key Concepts
 

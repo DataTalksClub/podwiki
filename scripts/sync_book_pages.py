@@ -162,7 +162,7 @@ def render_page(
         for aslug in author_slugs:
             label = person_label(aslug, people)
             author_links.append(
-                f"[{label}]({{ '/people/{aslug}/' | relative_url }})"
+                f"[{label}](https://datatalks.club/people/{aslug}.html)"
             )
         lines.append(", ".join(author_links) + ".")
         lines.append("")

@@ -19,7 +19,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Don Jones]({ '/people/donjones/' | relative_url }).
+[Don Jones](https://datatalks.club/people/donjones.html).
 
 ## Discussion Archive
 

@@ -26,9 +26,9 @@ or clinical nudge. It sits between
 Personalization isn't only a model choice. Teams need reliable user events and
 a clear product decision. They also need safety and privacy constraints, plus
 evaluation that proves the personalized experience helped.
-[Stefan Gudmundsson]({{ '/people/stefangudmundsson/' | relative_url }}) makes
+[Stefan Gudmundsson](https://datatalks.club/people/stefangudmundsson.html) makes
 that concrete in
-[AI in Healthcare and Digital Therapeutics]({{ '/podcasts/ai-in-healthcare-and-digital-therapeutics/' | relative_url }}),
+[AI in Healthcare and Digital Therapeutics](https://datatalks.club/podcast/ai-in-healthcare-and-digital-therapeutics.html),
 where personalization depends on data pipelines and dashboards. It also depends
 on experiment capabilities, privacy safeguards, and medical-risk review.
 
@@ -41,9 +41,9 @@ learned ranking.
 Simple segmentation may be enough when the product has too little data for a
 heavier model.
 
-[Daniel Svonava]({{ '/people/danielsvonava/' | relative_url }}) gives the
+[Daniel Svonava](https://datatalks.club/people/danielsvonava.html) gives the
 architecture boundary in
-[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}).
+[Building Search Systems](https://datatalks.club/podcast/building-production-search-systems.html).
 At 12:45, he separates candidate generation from ranking. At 21:55, he moves
 that search structure into personalization requirements.
 
@@ -51,9 +51,9 @@ That split is useful for recommender systems because a team first narrows
 possible items. It then ranks them with context, freshness, popularity, and
 business constraints.
 
-[Atita Arora]({{ '/people/atitaarora/' | relative_url }}) gives the session
+[Atita Arora](https://datatalks.club/people/atitaarora.html) gives the session
 version in
-[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}).
+[Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html).
 At 52:07 and 54:54, she contrasts session-based recommendations with
 collaborative filtering. Session-aware personalization can react to the current
 click path, while collaborative filtering relies more on accumulated user-item
@@ -64,14 +64,14 @@ signals.
 Personalization changes meaning by domain. In ecommerce or search, the system
 may optimize relevance and conversion. It may also optimize contact rate or
 revenue. Daniel's 34:00 discussion in
-[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }})
+[Building Search Systems](https://datatalks.club/podcast/building-production-search-systems.html)
 shows why ranking needs filters and recency. It also needs popularity and
 product constraints, not only vector similarity.
 
 Healthcare personalization needs a stricter boundary. Stefan describes Sidekick
 Health as digital therapeutics with an agenda: the system nudges people toward
 healthier behavior, not just toward more engagement. At 35:39-39:57 in
-[AI in Healthcare and Digital Therapeutics]({{ '/podcasts/ai-in-healthcare-and-digital-therapeutics/' | relative_url }}),
+[AI in Healthcare and Digital Therapeutics](https://datatalks.club/podcast/ai-in-healthcare-and-digital-therapeutics.html),
 he discusses agenda-driven recommender systems, segmentation, and A/B testing.
 At 51:55, he adds safeguards for recommendations that could be unsafe for
 specific medical groups.
@@ -86,9 +86,9 @@ when the suggestion can affect care.
 ## User Context and Activation
 
 Personalization needs usable context before it needs advanced modeling.
-[Arpit Choudhury]({{ '/people/arpitchoudhury/' | relative_url }}) frames this
+[Arpit Choudhury](https://datatalks.club/people/arpitchoudhury.html) frames this
 from the growth stack in
-[How to Build a Data-Led Growth Stack]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }}).
+[How to Build a Data-Led Growth Stack](https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html).
 
 At 13:34-28:52, he covers tracking plans, event properties, and source context.
 He also separates client-side and server-side collection. Those details decide
@@ -111,7 +111,7 @@ on ambiguous events can personalize the wrong behavior with more confidence.
 
 Recommendation and personalization systems often share infrastructure with
 search. Daniel's
-[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }})
+[Building Search Systems](https://datatalks.club/podcast/building-production-search-systems.html)
 episode covers embeddings, vector databases, and hybrid search. It also covers
 custom ranking models and query-time weights.
 
@@ -120,9 +120,9 @@ also discusses images and behavioral signals. At 45:11, he
 describes late-binding query weights, which matters when the same item catalog
 serves different product contexts.
 
-[Reem Mahmoud]({{ '/people/reemmahmoud/' | relative_url }}) covers a related
+[Reem Mahmoud](https://datatalks.club/people/reemmahmoud.html) covers a related
 production-search path in
-[Production ML Search]({{ '/podcasts/production-ml-search-vector-search-embeddings-hybrid-search/' | relative_url }}).
+[Production ML Search](https://datatalks.club/podcast/production-ml-search-vector-search-embeddings-hybrid-search.html).
 That discussion includes hybrid search and behavior signals. It also covers
 popularity, context-specific weighting, ecommerce personalization, and business
 KPIs. Use it
@@ -134,7 +134,7 @@ choosing a standalone prediction.
 retrieve candidates, images, sessions, or similar products. They don't replace
 ranking, filtering, evaluation, or product constraints. Atita's recommendation
 discussion at 52:07 in
-[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
+[Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html)
 keeps vector retrieval beside session context and re-ranking.
 
 ## Evaluation and Experimentation
@@ -144,17 +144,17 @@ team compare candidate retrieval and ranking features. They can also compare
 embeddings, segments, and fallbacks. Online experiments show whether the
 personalized experience changed the product outcome under real traffic.
 
-[Jakob Graff]({{ '/people/jakobgraff/' | relative_url }}) gives the experiment
+[Jakob Graff](https://datatalks.club/people/jakobgraff.html) gives the experiment
 discipline in
-[Product Analytics and A/B Testing]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}).
+[Product Analytics and A/B Testing](https://datatalks.club/podcast/ab-testing-and-product-experimentation.html).
 At 24:44, he focuses on traffic splitting, assignment tracking, and monitoring.
 At 33:23, he discusses metric stability and seasonality. Those checks matter
 for personalization because a top-line uplift can hide assignment bugs,
 segment-level harm, or noisy metrics.
 
-[Ioannis Mesionis]({{ '/people/ioannismesionis/' | relative_url }}) adds the
+[Ioannis Mesionis](https://datatalks.club/people/ioannismesionis.html) adds the
 data product operating model in
-[Building Data Products at Scale]({{ '/podcasts/building-data-products-lead-data-scientist/' | relative_url }}).
+[Building Data Products at Scale](https://datatalks.club/podcast/building-data-products-lead-data-scientist.html).
 At 17:37, his team defines KPIs, success criteria, and fail-fast checks before
 build work. At 25:17-27:25, pilots, A/B tests, and production rollout decide
 whether a model or analytics product should keep moving. That makes
@@ -164,16 +164,16 @@ with users, metrics, and owners.
 ## Privacy and Safety
 
 Personalization often pushes teams to collect more user history than they need.
-[Katharine Jarmul]({{ '/people/katharinejarmul/' | relative_url }}) gives the
+[Katharine Jarmul](https://datatalks.club/people/katharinejarmul.html) gives the
 privacy engineering boundary in
-[Data Privacy Engineering, GDPR, and Machine Learning]({{ '/podcasts/data-privacy-engineering-gdpr-machine-learning/' | relative_url }}).
+[Data Privacy Engineering, GDPR, and Machine Learning](https://datatalks.club/podcast/data-privacy-engineering-gdpr-machine-learning.html).
 At 30:15, she discusses session-based personalization as a lower-retention
 design option. At 33:08 and 40:50, she covers privacy-enhancing technologies
 and differential privacy. Her practical point comes earlier: decide what data
 the product needs and what risk the team is accepting.
 
 Stefan adds the healthcare version in
-[AI in Healthcare and Digital Therapeutics]({{ '/podcasts/ai-in-healthcare-and-digital-therapeutics/' | relative_url }}).
+[AI in Healthcare and Digital Therapeutics](https://datatalks.club/podcast/ai-in-healthcare-and-digital-therapeutics.html).
 At 31:41, he discusses GDPR and HIPAA. He also discusses de-identification and
 empathy. At 51:55, he separates safe app experimentation from recommendations
 that require medical review. In high-impact domains, teams should define the
@@ -189,16 +189,16 @@ It should watch input distributions and prediction distributions. It should also
 watch ranking distributions, service health, business outcomes, and user
 feedback where the product allows it.
 
-[Lina Weichbrodt]({{ '/people/linaweichbrodt/' | relative_url }}) gives the
+[Lina Weichbrodt](https://datatalks.club/people/linaweichbrodt.html) gives the
 human-centered monitoring approach in
-[Human-Centered MLOps and Model Monitoring]({{ '/podcasts/human-centered-mlops-and-model-monitoring/' | relative_url }}).
+[Human-Centered MLOps and Model Monitoring](https://datatalks.club/podcast/human-centered-mlops-and-model-monitoring.html).
 Around 29:23, she discusses live test sets and small A/B tests. Around 36:41,
 she adds user feedback and internal bug reports. That matters for
 personalization because the worst failures may first appear as complaints,
 support tickets, or unexplained segment drops.
 
 Ioannis gives a lighter operational example in
-[Building Data Products at Scale]({{ '/podcasts/building-data-products-lead-data-scientist/' | relative_url }}).
+[Building Data Products at Scale](https://datatalks.club/podcast/building-data-products-lead-data-scientist.html).
 At 53:33-55:11, he discusses monitoring with Evidently, dashboards, and alerts.
 These systems need the same ownership rule as other production ML systems. The
 platform can provide monitoring tools, but a product owner or model owner must
@@ -210,7 +210,7 @@ Several discussions warn against starting with complex ML before the product
 has a reliable measurement base. Stefan's healthcare episode puts data
 pipelines and dashboards before advanced recommender models. It also puts
 experimentation capabilities and variant availability first
-([27:02, 39:57, and 43:00]({{ '/podcasts/ai-in-healthcare-and-digital-therapeutics/' | relative_url }})).
+([27:02, 39:57, and 43:00](https://datatalks.club/podcast/ai-in-healthcare-and-digital-therapeutics.html)).
 His sequence starts with A/B tests and segmentation, then moves toward
 clustering or collaborative filtering when the team has enough data and
 confidence.
@@ -218,10 +218,10 @@ confidence.
 Arpit's growth-stack episode makes the same point from product analytics. If a
 team can personalize onboarding from a well-defined activation event, it may not
 need a model yet
-([56:08]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }})).
+([56:08](https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html)).
 Ioannis adds the operating version. The intake and Definition of Done should
 decide whether the work is analytics, data science, or production ML
-([21:12]({{ '/podcasts/building-data-products-lead-data-scientist/' | relative_url }})).
+([21:12](https://datatalks.club/podcast/building-data-products-lead-data-scientist.html)).
 
 Use simpler analytics when the team mostly needs trustworthy events, segments,
 dashboards, or reverse ETL. Move toward ML personalization when the product has

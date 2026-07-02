@@ -25,12 +25,12 @@ retrieves entities and typed relationships from a knowledge graph. It can also
 retrieve paths, neighborhoods, and structured facts before the model writes an
 answer.
 
-[Atita Arora]({{ '/people/atitaarora/' | relative_url }}) gives the vector RAG
+[Atita Arora](https://datatalks.club/people/atitaarora.html) gives the vector RAG
 side in
-[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
-at 38:24-42:49. [Anahita Pakiman]({{ '/people/anahitapakiman/' | relative_url }})
+[Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html)
+at 38:24-42:49. [Anahita Pakiman](https://datatalks.club/people/anahitapakiman.html)
 gives the graph side in
-[Knowledge Graphs and LLMs for Automotive R&D]({{ '/podcasts/knowledge-graphs-and-llms-for-automotive-rnd/' | relative_url }})
+[Knowledge Graphs and LLMs for Automotive R&D](https://datatalks.club/podcast/knowledge-graphs-and-llms-for-automotive-rnd.html)
 at 33:43-39:56.
 
 DataTalks.Club guests treat both approaches as complementary retrieval designs inside
@@ -57,9 +57,9 @@ query and places nearby chunks or records into the prompt. That puts
 center of the implementation. The retrieval layer still needs chunking,
 metadata, citations, and evaluation.
 
-[Atita Arora]({{ '/people/atitaarora/' | relative_url }}) uses a
+[Atita Arora](https://datatalks.club/people/atitaarora.html) uses a
 podcast-transcript chatbot as the clearest example in
-[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}).
+[Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html).
 At 30:38 she defines RAG as retrieval plus generation. At 38:24-42:49, the
 pipeline chunks transcripts and chooses overlap. It embeds the chunks,
 retrieves relevant pieces, and asks the LLM to answer with prompt instructions
@@ -67,9 +67,9 @@ and citations.
 
 Graph RAG starts from modeled relationships, so teams can retrieve entities and
 edges. They can also retrieve paths, neighborhoods, or query results.
-[Anahita Pakiman]({{ '/people/anahitapakiman/' | relative_url }}) connects
+[Anahita Pakiman](https://datatalks.club/people/anahitapakiman.html) connects
 knowledge graphs with LLM grounding at 33:43 in
-[Knowledge Graphs and LLMs for Automotive R&D]({{ '/podcasts/knowledge-graphs-and-llms-for-automotive-rnd/' | relative_url }}).
+[Knowledge Graphs and LLMs for Automotive R&D](https://datatalks.club/podcast/knowledge-graphs-and-llms-for-automotive-rnd.html).
 
 At 38:10 she contrasts text chunks in a vector database with graph semantics.
 The graph can preserve chapters, containment, and parent-child links. It can
@@ -86,7 +86,7 @@ neighborhoods, and facts.
 ## Text Similarity, Relationships, or Both
 
 Atita's vector RAG framing starts from user-facing retrieval quality. In
-[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}),
+[Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html),
 she emphasizes chunk size, overlap, and embedding models at 38:24-48:09. She
 also covers retrieval count and prompt context. References, offline checks, and
 human-in-the-loop evaluation matter too.
@@ -102,7 +102,7 @@ examples need relationships between simulations and chapters. They also need
 links across reports, parts, and engineering concepts.
 
 At 15:58-20:32 in
-[Knowledge Graphs and LLMs for Automotive R&D]({{ '/podcasts/knowledge-graphs-and-llms-for-automotive-rnd/' | relative_url }}),
+[Knowledge Graphs and LLMs for Automotive R&D](https://datatalks.club/podcast/knowledge-graphs-and-llms-for-automotive-rnd.html),
 knowledge graphs support semantic reporting and simulation comparison. They
 also support clustering and load-path detection. Around 42:42, she warns that
 LLM-extracted graph content still needs verification. Graph RAG adds modeling
@@ -111,7 +111,7 @@ the answer fails because the system loses relationships, order, constraints, or
 traceable facts.
 
 Production-search discussions add a third pressure: relevance in a product.
-[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }})
+[Building Search Systems](https://datatalks.club/podcast/building-production-search-systems.html)
 shows that vector similarity often has to work with filters, recency, and
 popularity at 34:00-45:11. Metadata, behavior, and query-time weights matter
 too. That doesn't make the system graph RAG, but it pushes teams away from a
@@ -127,7 +127,7 @@ transcripts show the problem clearly: a question like "how do I move from
 analytics to data science?" may not share exact words with the best segment.
 Atita's transcript-chatbot example retrieves by semantic similarity and then
 asks the LLM to answer from those chunks
-([Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}),
+([Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html),
 38:24-42:49).
 
 Embeddings alone aren't enough because Atita ties vector RAG quality to chunk
@@ -148,7 +148,7 @@ Graph RAG is strongest when the relationship is part of the answer. Anahita's
 book example represents chapter containment and chapter order in a graph. In
 the automotive setting, teams can model simulations and parts. They can also
 model reports, finite-element-analysis concepts, and engineering relationships
-([Knowledge Graphs and LLMs for Automotive R&D]({{ '/podcasts/knowledge-graphs-and-llms-for-automotive-rnd/' | relative_url }}),
+([Knowledge Graphs and LLMs for Automotive R&D](https://datatalks.club/podcast/knowledge-graphs-and-llms-for-automotive-rnd.html),
 15:58-20:32 and 38:10-39:56).
 
 With graph structure, teams can make prompts more precise. Instead of
@@ -161,7 +161,7 @@ Graph RAG pays an upfront structure cost. Teams define entities and relations
 while building ingestion rules and keeping provenance plus validation.
 Anahita's 42:42 warning matters here. Teams must still verify LLM-generated
 nodes and edges before using them as trusted retrieval context
-([Knowledge Graphs and LLMs for Automotive R&D]({{ '/podcasts/knowledge-graphs-and-llms-for-automotive-rnd/' | relative_url }})).
+([Knowledge Graphs and LLMs for Automotive R&D](https://datatalks.club/podcast/knowledge-graphs-and-llms-for-automotive-rnd.html)).
 
 ## Hybrid Retrieval Fits Mixed Failure Modes
 
@@ -172,7 +172,7 @@ or graph lookup. Do the same when it loses constraints, lineage, or provenance.
 
 If it returns plausible but irrelevant results, add filters and ranking
 weights. Recency and popularity can become retrieval signals too
-([Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}),
+([Building Search Systems](https://datatalks.club/podcast/building-production-search-systems.html),
 34:00-45:11). [Vector Database vs Search Engine]({{ '/wiki/vector-database-vs-search-engine/' | relative_url }})
 covers that lower-level retrieval-stack boundary.
 
@@ -196,7 +196,7 @@ In vector RAG, teams package passages and records. They can package objects
 too, and they often retrieve a text chunk with source metadata. Daniel shows that
 vectors can represent products and users. They can also represent images or
 sessions when the embedding model captures useful signals
-([Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}),
+([Building Search Systems](https://datatalks.club/podcast/building-production-search-systems.html),
 21:55 and 33:13). For LLM answers, teams still need to package readable
 evidence and citations.
 
@@ -206,7 +206,7 @@ neighborhoods or query results too.
 
 Anahita's Cypher-driven examples use graph
 queries for structured context, not only nearest text chunks
-([Knowledge Graphs and LLMs for Automotive R&D]({{ '/podcasts/knowledge-graphs-and-llms-for-automotive-rnd/' | relative_url }}),
+([Knowledge Graphs and LLMs for Automotive R&D](https://datatalks.club/podcast/knowledge-graphs-and-llms-for-automotive-rnd.html),
 39:56). That makes graph RAG useful when the answer depends on hierarchy or
 dependency. It also helps with containment and explainable paths.
 
@@ -224,16 +224,16 @@ representative questions.
 Atita's evaluation discussion around 48:09 separates embedding choice and
 ingestion. It also separates retrieval strategy, answer quality, and
 end-to-end user feedback
-([Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})).
+([Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html)).
 
 For graph RAG, look at whether the graph facts are correct, current, and
 traceable. Anahita's caution around 42:42 is important. If an LLM extracted the
 graph, the team still needs to validate it. Otherwise, the system may only move
 hallucination from the answer layer into the retrieval layer
-([Knowledge Graphs and LLMs for Automotive R&D]({{ '/podcasts/knowledge-graphs-and-llms-for-automotive-rnd/' | relative_url }})).
+([Knowledge Graphs and LLMs for Automotive R&D](https://datatalks.club/podcast/knowledge-graphs-and-llms-for-automotive-rnd.html)).
 
 Production search adds product-level evaluation. In
-[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}),
+[Building Search Systems](https://datatalks.club/podcast/building-production-search-systems.html),
 the 12:45 candidate-generation discussion and the 34:00 hybrid-search section
 make the same point. Teams should judge retrieval by relevance, latency,
 filters, and ranking quality. User behavior matters too. A plausible

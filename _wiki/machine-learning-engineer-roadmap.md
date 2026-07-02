@@ -17,7 +17,7 @@ related_wiki:
 A machine learning engineer roadmap should lead to a model-backed system that
 you can test and deploy. You should also be able to monitor it and change it
 when source data or serving constraints change. In
-[Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }}),
+[Data Team Roles Explained](https://datatalks.club/podcast/data-team-roles.html),
 the 17:04 and 40:10 sections separate model work from online and batch serving.
 That split makes this path different from a data science study plan.
 
@@ -43,9 +43,9 @@ A machine learning engineer turns model work into usable software. The model is
 only one part of the job. You also need input data, validation, and inference
 code. Add a serving path, logs, tests, and a recovery plan for model failures.
 
-[Ben Wilson]({{ '/people/benwilson/' | relative_url }}) gives the production
+[Ben Wilson](https://datatalks.club/people/benwilson.html) gives the production
 version in
-[Practical Machine Learning Engineering for Production]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }}).
+[Practical Machine Learning Engineering for Production](https://datatalks.club/podcast/machine-learning-engineering-production-best-practices.html).
 At 6:50 and 8:49, he connects production ML to maintainability, modular code,
 and tests. At 44:23, he argues for SQL or statistics before deep learning when
 that solves the problem. Start with simple systems that work. A baseline with
@@ -64,8 +64,8 @@ decision.
 
 Start with Python, SQL, and ML fundamentals, then move quickly into projects.
 In
-[Software Engineer to Machine Learning]({{ '/podcasts/from-software-engineer-to-machine-learning/' | relative_url }}),
-[Santiago Valdarrama]({{ '/people/svpino/' | relative_url }}) recommends
+[Software Engineer to Machine Learning](https://datatalks.club/podcast/from-software-engineer-to-machine-learning.html),
+[Santiago Valdarrama](https://datatalks.club/people/svpino.html) recommends
 projects early at 17:25. At 33:10, he names Python with NumPy, pandas, and
 scikit-learn as practical foundations. At 46:39 and 49:23, he expands the path
 to data pipelines, deployment, and monitoring. APIs, Docker, and cloud basics
@@ -80,7 +80,7 @@ Learn these pieces in order:
 - add tests, logging, and deployment notes
 - monitor drift, quality, and business impact
 
-[CRISP-DM]({{ '/podcasts/crisp-dm/' | relative_url }}) gives the project
+[CRISP-DM](https://datatalks.club/podcast/crisp-dm.html) gives the project
 sequence behind that list. The 13:25 section starts with a measurable business
 problem, and the 17:05 and 18:23 sections connect baselines and evaluation to
 the business objective. For a software-heavy starting point, pair this stage
@@ -97,9 +97,9 @@ search, ranking, or forecasting problem. Define the decision the model
 supports, keep the model simple enough to explain, and document the baseline
 and error cases.
 
-[Arseny Kravchenko]({{ '/people/arsenykravchenko/' | relative_url }}) turns
+[Arseny Kravchenko](https://datatalks.club/people/arsenykravchenko.html) turns
 this into system design in
-[Build Scalable, Reliable ML Systems]({{ '/podcasts/building-scalable-and-reliable-machine-learning-systems/' | relative_url }}).
+[Build Scalable, Reliable ML Systems](https://datatalks.club/podcast/building-scalable-and-reliable-machine-learning-systems.html).
 At 7:54 and 20:21, he starts with goals, constraints, and a design document.
 At 29:01 and 31:42, the design includes metrics, baselines, and data strategy.
 At 37:15, it also includes diagrams, dependencies, and a
@@ -123,8 +123,8 @@ and
 
 Interview readiness comes from being able to explain the system, not from
 memorizing every model family. In
-[Machine Learning System Design Interview]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }}),
-[Valeriy Babushkin]({{ '/people/valeriybabushkin/' | relative_url }}) separates
+[Machine Learning System Design Interview](https://datatalks.club/podcast/machine-learning-system-design-interview.html),
+[Valeriy Babushkin](https://datatalks.club/people/valeriybabushkin.html) separates
 software system design from ML system design at 13:58. The ML version adds
 labels, class imbalance, validation, and baselines. It also adds monitoring,
 shift, fallbacks, and serving boundaries.
@@ -148,8 +148,8 @@ Practice explaining:
 ## Stage 4: Add Reproducibility and Platform Habits
 
 After one deployed model, repeatability becomes the next milestone. In
-[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}),
-[Simon Stiebellehner]({{ '/people/simonstiebellehner/' | relative_url }})
+[Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html),
+[Simon Stiebellehner](https://datatalks.club/people/simonstiebellehner.html)
 describes the platform layer. At 29:41 and 30:32, experiment tracking and model
 registries appear. At 31:15, batch and online serving become a platform
 decision.
@@ -157,9 +157,9 @@ decision.
 At 42:48 and 54:15, metadata and lineage support monitoring, while prediction
 logging supports debugging.
 
-[Raphael Hoogvliets]({{ '/people/raphaelhoogvliets/' | relative_url }}) gives
+[Raphael Hoogvliets](https://datatalks.club/people/raphaelhoogvliets.html) gives
 the team-scale version in
-[MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}).
+[MLOps at Scale](https://datatalks.club/podcast/mlops-at-scale-reproducibility-adoption.html).
 The 39:06 and 42:31 sections focus on CI, testing, repo structure, and
 reproducibility. The 23:01 and 27:56 sections add adoption and developer
 experience.
@@ -184,9 +184,9 @@ Production ML work doesn't stop at deployment. You need alerts and debugging
 data, plus incident habits and business-facing metrics. Those signals help the
 team decide whether to retrain, roll back, or leave the model alone.
 
-[Lina Weichbrodt]({{ '/people/linaweichbrodt/' | relative_url }}) gives the
+[Lina Weichbrodt](https://datatalks.club/people/linaweichbrodt.html) gives the
 incident side in
-[Human-Centered MLOps and Model Monitoring]({{ '/podcasts/human-centered-mlops-and-model-monitoring/' | relative_url }}).
+[Human-Centered MLOps and Model Monitoring](https://datatalks.club/podcast/human-centered-mlops-and-model-monitoring.html).
 At 24:34 and 27:14, incident prep and postmortems become part of production ML.
 At 46:28 and 49:28, feature drift, logging, and reproducibility make the system
 auditable.

@@ -38,7 +38,7 @@ Agents should consider this episode when working on data science, machine learni
 
 Use these links to connect the episode to guest notes.
 
-- [Nick Singh]({{ '/people/nicksingh/' | relative_url }})
+- [Nick Singh](https://datatalks.club/people/nicksingh.html)
 
 ## Key Concepts
 

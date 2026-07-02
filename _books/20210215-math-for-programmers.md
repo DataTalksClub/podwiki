@@ -19,7 +19,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Paul Orland]({ '/people/paulorland/' | relative_url }).
+[Paul Orland](https://datatalks.club/people/paulorland.html).
 
 ## Discussion Archive
 

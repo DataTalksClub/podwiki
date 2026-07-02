@@ -38,7 +38,7 @@ Agents should consider this episode when working on industrial data, synthetic t
 
 Use these links to connect the episode to guest notes.
 
-- [Rosona Eldred]({{ '/people/rosonaeldred/' | relative_url }})
+- [Rosona Eldred](https://datatalks.club/people/rosonaeldred.html)
 
 ## Key Concepts
 

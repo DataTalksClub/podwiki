@@ -15,4 +15,4 @@ Aditya Gautam is an AI researcher and engineer whose work spans industrial innov
 
 ## Podcast Discussions
 
-- [The Future of AI Agents]({{ '/podcasts/s23e03-future-of-ai-agents/' | relative_url }}). Discussed: Aditya’s from embedded systems to AI; Enterprise AI research and adoption gaps; AI reliability in legal and healthcare; Specialized models and agent governance. Related topics: [mlops]({{ '/wiki/mlops/' | relative_url }}), [search]({{ '/wiki/search/' | relative_url }}), aditya embedded systems, embedded systems ai, enterprise ai research, ai research adoption.
+- [The Future of AI Agents](https://datatalks.club/podcast/s23e03-future-of-ai-agents.html). Discussed: Aditya’s from embedded systems to AI; Enterprise AI research and adoption gaps; AI reliability in legal and healthcare; Specialized models and agent governance. Related topics: [mlops]({{ '/wiki/mlops/' | relative_url }}), [search]({{ '/wiki/search/' | relative_url }}), aditya embedded systems, embedded systems ai, enterprise ai research, ai research adoption.

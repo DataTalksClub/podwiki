@@ -34,8 +34,8 @@ The most concrete multimodal architecture discussed in the podcast is CLIP
 and images into a shared vector space.
 
 In
-[Production ML Search: Embeddings, Hybrid Architectures and Scalable Indexing]({{ '/podcasts/production-ml-search-vector-search-embeddings-hybrid-search/' | relative_url }}),
-[Daniel Svonava]({{ '/people/danielsvonava/' | relative_url }}) explains CLIP at
+[Production ML Search: Embeddings, Hybrid Architectures and Scalable Indexing](https://datatalks.club/podcast/production-ml-search-vector-search-embeddings-hybrid-search.html),
+[Daniel Svonava](https://datatalks.club/people/danielsvonava.html) explains CLIP at
 33:11. The model turns text into vectors and images into vectors in such a way
 that you can use text to look for images. Writing "black cat" returns images of
 black cats. This is cross-modal retrieval: the query and the target live in
@@ -76,9 +76,9 @@ multimodal retrieval systems.
 
 ## Multimodal LLMs in Autonomous Driving
 
-[Aishwarya Jadhav]({{ '/people/aishwaryajadhav/' | relative_url }}) addresses
+[Aishwarya Jadhav](https://datatalks.club/people/aishwaryajadhav.html) addresses
 multimodal LLMs in the context of self-driving in
-[Lessons from Applied AI: Tesla, Waymo, and Beyond]({{ '/podcasts/from-computer-vision-research-to-autonomous-driving-ai/' | relative_url }}).
+[Lessons from Applied AI: Tesla, Waymo, and Beyond](https://datatalks.club/podcast/from-computer-vision-research-to-autonomous-driving-ai.html).
 
 At 52:53, she notes that there have been many attempts to use multimodal LLMs
 for autonomous driving. Some companies are using them for end-to-end
@@ -101,9 +101,9 @@ of running large models under hard latency constraints.
 
 ## Visual Language Models and Agent Infrastructure
 
-[Aditya Gautam]({{ '/people/adityagautam/' | relative_url }}) discusses the
+[Aditya Gautam](https://datatalks.club/people/adityagautam.html) discusses the
 multimodal shift in the context of AI agents in
-[The Future of AI Agents]({{ '/podcasts/s23e03-future-of-ai-agents/' | relative_url }}).
+[The Future of AI Agents](https://datatalks.club/podcast/s23e03-future-of-ai-agents.html).
 
 At 21:57, he describes a shift away from text-only interactions. Infrastructure
 tooling is getting better, and there is a multimodality shift where visual

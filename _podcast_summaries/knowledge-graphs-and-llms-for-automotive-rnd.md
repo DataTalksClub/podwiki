@@ -38,7 +38,7 @@ Agents should consider this episode when working on LLMs, knowledge graphs, grap
 
 Use these links to connect the episode to guest notes.
 
-- [Anahita Pakiman]({{ '/people/anahitapakiman/' | relative_url }})
+- [Anahita Pakiman](https://datatalks.club/people/anahitapakiman.html)
 
 ## Key Concepts
 

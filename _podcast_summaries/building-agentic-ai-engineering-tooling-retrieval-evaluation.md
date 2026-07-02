@@ -38,7 +38,7 @@ Agents should consider this episode when working on LLMs, AI, agent engineering.
 
 Use these links to connect the episode to guest notes.
 
-- [Ranjitha Kulkarni]({{ '/people/ranjithakulkarni/' | relative_url }})
+- [Ranjitha Kulkarni](https://datatalks.club/people/ranjithakulkarni.html)
 
 ## Key Concepts
 

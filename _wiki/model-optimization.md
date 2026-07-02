@@ -26,8 +26,8 @@ The topic connects to
 ## On-Vehicle Inference Constraints
 
 In
-[From Computer Vision Research to Autonomous Driving AI]({{ '/podcasts/from-computer-vision-research-to-autonomous-driving-ai/' | relative_url }}),
-[Aishwarya Jadhav]({{ '/people/aishwaryajadhav/' | relative_url }}) describes the
+[From Computer Vision Research to Autonomous Driving AI](https://datatalks.club/podcast/from-computer-vision-research-to-autonomous-driving-ai.html),
+[Aishwarya Jadhav](https://datatalks.club/people/aishwaryajadhav.html) describes the
 extreme performance constraints of on-vehicle inference. At 22:17 she explains
 that models running on a car must process camera feeds with near-zero latency.
 You cannot wait seconds for an LLM to decide whether a pedestrian is in view.
@@ -44,8 +44,8 @@ out every few weeks and major updates taking longer.
 ## When to Prioritize Distillation and Fine-Tuning
 
 In
-[Understanding the AI Engineer Role]({{ '/podcasts/s23e07-understanding-ai-engineer-role/' | relative_url }}),
-[Nasser Qadri]({{ '/people/nasserqadri/' | relative_url }}) places model
+[Understanding the AI Engineer Role](https://datatalks.club/podcast/s23e07-understanding-ai-engineer-role.html),
+[Nasser Qadri](https://datatalks.club/people/nasserqadri.html) places model
 optimization in the context of AI engineering career decisions. At 1:00:25 he
 explains that fine-tuning and distillation are more than theory: they are active
 practice. As you start to productionize what you build, or want lower latency,
@@ -67,8 +67,8 @@ Once you deploy to a self-driving car, you need to learn about distillation.
 ## Serving Challenges: Model Size and Compression
 
 In
-[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}),
-[Meryem Arik]({{ '/people/meryemarik/' | relative_url }}) frames model compression
+[Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html),
+[Meryem Arik](https://datatalks.club/people/meryemarik.html) frames model compression
 as a deployment necessity. At 25:26 she discusses serving challenges around model
 size, compression, and inference optimization. Her company TitanML focuses on
 making LLMs smaller and cheaper to deploy. At 49:57 she explains that while
@@ -86,8 +86,8 @@ models avoids this risk.
 ## Local Models and Smaller Task-Focused LLMs
 
 In
-[From Game AI to Modern AI Agents]({{ '/podcasts/from-game-ai-to-modern-ai-agents/' | relative_url }}),
-[Micheal Lanham]({{ '/people/micheallanham/' | relative_url }}) discusses the trend
+[From Game AI to Modern AI Agents](https://datatalks.club/podcast/from-game-ai-to-modern-ai-agents.html),
+[Micheal Lanham](https://datatalks.club/people/micheallanham.html) discusses the trend
 toward running LLMs locally on private GPUs. At 45:40 he explains that paying for
 hosted models and bandwidth gets expensive, and GPUs are becoming affordable
 enough for people to run models themselves.
@@ -103,8 +103,8 @@ to [LLMs]({{ '/wiki/llms/' | relative_url }}) and
 ## Specialized Models for Cost and ROI
 
 In
-[The Future of AI Agents]({{ '/podcasts/s23e03-future-of-ai-agents/' | relative_url }}),
-[Aditya Gautam]({{ '/people/adityagautam/' | relative_url }}) connects model
+[The Future of AI Agents](https://datatalks.club/podcast/s23e03-future-of-ai-agents.html),
+[Aditya Gautam](https://datatalks.club/people/adityagautam.html) connects model
 optimization to enterprise economics. At 24:02 he explains that rather than paying
 high costs and latency with a general-purpose LLM API, enterprises understand they
 need to fine-tune models. They bring them to a smaller scale to save cost and

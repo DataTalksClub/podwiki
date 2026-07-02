@@ -38,7 +38,7 @@ Agents should consider this episode when working on LLMs.
 
 Use these links to connect the episode to guest notes.
 
-- [Sandra Kublik]({{ '/people/sandrakublik/' | relative_url }})
+- [Sandra Kublik](https://datatalks.club/people/sandrakublik.html)
 
 ## Key Concepts
 

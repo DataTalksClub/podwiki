@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Yuan Tang]({ '/people/yuantang/' | relative_url }).
+[Yuan Tang](https://datatalks.club/people/yuantang.html).
 
 ## Discussion Archive
 

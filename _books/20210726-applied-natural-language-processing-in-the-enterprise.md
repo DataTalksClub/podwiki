@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Ankur A. Patel]({ '/people/ankurapatel/' | relative_url }), [Ajay Uppili Arasanipalai]({ '/people/Ajay Uppili Arasanipalai/' | relative_url }).
+[Ankur A. Patel](https://datatalks.club/people/ankurapatel.html), [Ajay Uppili Arasanipalai](https://datatalks.club/people/Ajay Uppili Arasanipalai.html).
 
 ## Discussion Archive
 

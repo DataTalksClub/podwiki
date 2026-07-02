@@ -38,7 +38,7 @@ Agents should consider this episode when working on data strategy, dataops, AI.
 
 Use these links to connect the episode to guest notes.
 
-- [Boyan Angelov]({{ '/people/boyanangelov/' | relative_url }})
+- [Boyan Angelov](https://datatalks.club/people/boyanangelov.html)
 
 ## Key Concepts
 

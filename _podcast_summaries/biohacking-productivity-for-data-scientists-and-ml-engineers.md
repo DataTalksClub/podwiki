@@ -38,7 +38,7 @@ Agents should consider this episode when working on biohacking, productivity.
 
 Use these links to connect the episode to guest notes.
 
-- [Ruslan Shchuchkin]({{ '/people/ruslanshchuchkin/' | relative_url }})
+- [Ruslan Shchuchkin](https://datatalks.club/people/ruslanshchuchkin.html)
 
 ## Key Concepts
 

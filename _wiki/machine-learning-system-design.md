@@ -19,15 +19,15 @@ Machine learning system design decides how an ML system should support a product
 or business decision before teams commit to a model. A design names the decision
 and data. It also names labels and the feature path. Then it names serving,
 evaluation, monitoring, and ownership after release.
-[Designing Machine Learning Systems]({{ '/books/20220627-designing-machine-learning-systems/' | relative_url }})
+[Designing Machine Learning Systems](https://datatalks.club/books/20220627-designing-machine-learning-systems.html)
 by Chip Huyen is the canonical reference for this discipline: it covers the full stack from problem framing and data engineering through serving, monitoring, and continuous improvement.
 
-In [ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }})
-[Valeriy Babushkin]({{ '/people/valeriybabushkin/' | relative_url }}) connects
+In [ML System Design Interviews](https://datatalks.club/podcast/machine-learning-system-design-interview.html)
+[Valeriy Babushkin](https://datatalks.club/people/valeriybabushkin.html) connects
 fraud detection, recommendations, feature work, and metrics. He also treats A/B
 tests, monitoring, fallbacks, and MLOps roles as design choices. In
-[Building Scalable and Reliable Machine Learning Systems]({{ '/podcasts/building-scalable-and-reliable-machine-learning-systems/' | relative_url }})
-[Arseny Kravchenko]({{ '/people/arsenykravchenko/' | relative_url }}) defines the
+[Building Scalable and Reliable Machine Learning Systems](https://datatalks.club/podcast/building-scalable-and-reliable-machine-learning-systems.html)
+[Arseny Kravchenko](https://datatalks.club/people/arsenykravchenko.html) defines the
 same work through goals, constraints, data flow, and trade-offs. That framing
 matters when the system must run on mobile or edge devices.
 
@@ -53,8 +53,8 @@ which constraints matter.
 
 MLOps covers repeatable operating practices for deployment and reproducibility,
 plus monitoring, retraining, and adoption. In
-[MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }})
-[Raphael Hoogvliets]({{ '/people/raphaelhoogvliets/' | relative_url }}) describes
+[MLOps at Scale](https://datatalks.club/podcast/mlops-at-scale-reproducibility-adoption.html)
+[Raphael Hoogvliets](https://datatalks.club/people/raphaelhoogvliets.html) describes
 those concerns through CI/CD, data versioning, containers, and adoption work.
 
 ## Interview, Delivery, and Platform Angles
@@ -65,7 +65,7 @@ assumptions. He also covers baselines, metrics, and A/B testing. Interviewers
 need to see how a candidate reasons through ambiguity.
 
 In
-[ML System Design Playbook]({{ '/podcasts/ml-system-design/' | relative_url }}),
+[ML System Design Playbook](https://datatalks.club/podcast/ml-system-design.html),
 he shifts from interviews to delivery. At 7:06 and 14:36, he argues that design
 documents help projects fail early and align stakeholders. At 19:01, he says
 teams should keep the design document alive as the system changes.
@@ -78,9 +78,9 @@ constraints drive [Model Optimization]({{ '/wiki/model-optimization/' | relative
 techniques. At 37:15, he uses diagrams to
 reason about data flow, dependencies, and batch versus real-time paths.
 
-[Nadia Nahar]({{ '/people/nadianahar/' | relative_url }}) approaches the same
+[Nadia Nahar](https://datatalks.club/people/nadianahar.html) approaches the same
 topic through software engineering. In
-[Software Engineering for ML]({{ '/podcasts/software-engineering-for-machine-learning/' | relative_url }}),
+[Software Engineering for ML](https://datatalks.club/podcast/software-engineering-for-machine-learning.html),
 she frames ML products as software systems with added uncertainty. At 10:54 and
 29:42, the recurring problems are poor requirements and unrealistic expectations.
 She also names data access and deployment gaps.
@@ -90,9 +90,9 @@ engineering habits. That makes
 [software engineering]({{ '/wiki/software-engineering/' | relative_url }}) part of
 ML system design, not a separate afterthought.
 
-[Simon Stiebellehner]({{ '/people/simonstiebellehner/' | relative_url }}) and
+[Simon Stiebellehner](https://datatalks.club/people/simonstiebellehner.html) and
 Raphael focus on repeated design problems. In
-[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}),
+[Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html),
 Simon connects experiment tracking and model registries to platform design. He
 also covers batch inference and online serving. He includes orchestration,
 metadata, and lineage.
@@ -153,7 +153,7 @@ simple baselines to validate hypotheses quickly.
 Model choice comes after that baseline. A team may choose a rule or a linear
 model. It may also choose a tree model or an embedding system. A recommender,
 ranking model, or deep model may be enough for other cases.
-For a dedicated reference on ranking and recommendation, [Practical Recommender Systems]({{ '/books/20210802-practical-recommender-systems/' | relative_url }})
+For a dedicated reference on ranking and recommendation, [Practical Recommender Systems](https://datatalks.club/books/20210802-practical-recommender-systems.html)
 by Kim Falk covers the data, algorithms, and evaluation patterns behind recommender design choices.
 
 The team can only make that choice after it understands the decision, data, and
@@ -193,9 +193,9 @@ proxy metrics. At 57:23, he connects production validation to A/B testing,
 causality, and human labels. The model may score well offline and still fail if
 it harms the product metric or increases manual-review load.
 
-[Jakob Graff]({{ '/people/jakobgraff/' | relative_url }}) gives the product
+[Jakob Graff](https://datatalks.club/people/jakobgraff.html) gives the product
 experimentation background in
-[Product Analytics and A/B Testing]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}).
+[Product Analytics and A/B Testing](https://datatalks.club/podcast/ab-testing-and-product-experimentation.html).
 At 8:13 and 24:44, he covers randomization and assignment tracking. At 27:52, he
 covers A/A tests. At 33:23 and 37:44, he covers metric selection and power
 analysis.
@@ -237,8 +237,8 @@ outputs.
 
 Valeriy's interview and design-doc episodes use those questions as a readiness
 test. The team should understand the business problem before it chooses a model
-([ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }}),
-[ML System Design Playbook]({{ '/podcasts/ml-system-design/' | relative_url }})).
+([ML System Design Interviews](https://datatalks.club/podcast/machine-learning-system-design-interview.html),
+[ML System Design Playbook](https://datatalks.club/podcast/ml-system-design.html)).
 
 The review should also cover:
 
@@ -256,7 +256,7 @@ ownership belong in the same operating plan.
 
 Arseny's scalable-systems episode adds constraints such as latency, battery,
 frame rate, and runtime limits when the product runs on mobile or edge devices
-([10:34-37:15]({{ '/podcasts/building-scalable-and-reliable-machine-learning-systems/' | relative_url }})).
+([10:34-37:15](https://datatalks.club/podcast/building-scalable-and-reliable-machine-learning-systems.html)).
 
 ## Platform and Ownership
 

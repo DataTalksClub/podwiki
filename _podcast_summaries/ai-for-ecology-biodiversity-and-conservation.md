@@ -38,7 +38,7 @@ Agents should consider this episode when working on AI, computer vision, remote 
 
 Use these links to connect the episode to guest notes.
 
-- [Tanya Berger-Wolf]({{ '/people/tanyabergerwolf/' | relative_url }})
+- [Tanya Berger-Wolf](https://datatalks.club/people/tanyabergerwolf.html)
 
 ## Key Concepts
 

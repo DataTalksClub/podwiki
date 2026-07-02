@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Stefan Jansen]({ '/people/stefanjansen/' | relative_url }).
+[Stefan Jansen](https://datatalks.club/people/stefanjansen.html).
 
 ## Discussion Archive
 

@@ -19,9 +19,9 @@ treat this as a clean jump from services to software. They usually keep
 consulting, workshops, design partners, and public proof while the product is
 still uncertain. Open-source adoption can play the same role.
 
-[Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) gives the
+[Adrian Brudaru](https://datatalks.club/people/adrianbrudaru.html) gives the
 clearest route in
-[From Data Freelancer to Startup and Open-Source Products]({{ '/podcasts/from-data-freelancer-to-startup-open-source-products/' | relative_url }}).
+[From Data Freelancer to Startup and Open-Source Products](https://datatalks.club/podcast/from-data-freelancer-to-startup-open-source-products.html).
 At 4:03, the path starts with freelancing. At 12:31 and 13:42, he chooses
 product over agency growth after seeing recurring stakeholder and alignment
 problems. At 31:08 and 36:00, savings, consulting revenue, and workshops make
@@ -43,16 +43,16 @@ is no longer enough. They also need discovery, positioning, and pricing.
 Adoption signals and a business model matter as soon as the offer moves beyond
 custom services.
 
-[Aleksander Kruszelnicki]({{ '/people/aleksanderkruszelnicki/' | relative_url }})
+[Aleksander Kruszelnicki](https://datatalks.club/people/aleksanderkruszelnicki.html)
 gives the validation warning in
-[Data Consulting Business]({{ '/podcasts/data-consulting-business-pricing-and-client-acquisition/' | relative_url }}).
+[Data Consulting Business](https://datatalks.club/podcast/data-consulting-business-pricing-and-client-acquisition.html).
 At 9:08 and 12:53, customer validation and user interviews come before build
 work. At 18:01, premature product building becomes a lesson. At 21:39, the
 value may be data modeling and shared definitions, not only infrastructure.
 
-[Dimitri Visnadi]({{ '/people/dimitrivisnadi/' | relative_url }}) adds the
+[Dimitri Visnadi](https://datatalks.club/people/dimitrivisnadi.html) adds the
 market-positioning version in
-[Data Freelancing Career Strategy]({{ '/podcasts/data-freelancing-career-strategy-market-demand-and-client-acquisition/' | relative_url }}).
+[Data Freelancing Career Strategy](https://datatalks.club/podcast/data-freelancing-career-strategy-market-demand-and-client-acquisition.html).
 At 10:50 and 23:51, expertise matters when it's tied to market problems. At
 32:48, the path can stay a lifestyle business. It can also become an agency or
 move toward product.
@@ -62,21 +62,21 @@ move toward product.
 Guests differ on how much service revenue should remain while a product is still
 uncertain. Adrian uses consulting revenue and workshops to reduce risk while
 validating a product. In
-[Freelance Data Engineering]({{ '/podcasts/freelance-data-engineering-pricing-and-clients/' | relative_url }}),
+[Freelance Data Engineering](https://datatalks.club/podcast/freelance-data-engineering-pricing-and-clients.html),
 he discusses pricing models at 18:12 and client acquisition at 27:45. At 31:43
 and 46:17, spikes, scope documents, and reusable portfolio assets appear. At
 44:28, the service path starts turning toward product.
 
-[Sonal Goyal]({{ '/people/sonalgoyal/' | relative_url }}) takes the
+[Sonal Goyal](https://datatalks.club/people/sonalgoyal.html) takes the
 open-source data product route in
-[Building an Open-Source Data Product for Identity Resolution]({{ '/podcasts/building-open-source-data-product-for-identity-resolution/' | relative_url }}).
+[Building an Open-Source Data Product for Identity Resolution](https://datatalks.club/podcast/building-open-source-data-product-for-identity-resolution.html).
 At 2:58 and 21:51, consulting projects reveal recurring identity-resolution
 gaps. At 23:00 and 24:14, proof-of-concept work turns into public release and
 open-source adoption. At 27:00, licensing becomes part of the business model.
 
-[Elena Samuylova]({{ '/people/elenasamuylova/' | relative_url }}) gives the ML
+[Elena Samuylova](https://datatalks.club/people/elenasamuylova.html) gives the ML
 startup version in
-[Building an MLOps Startup]({{ '/podcasts/building-mlops-startup/' | relative_url }}).
+[Building an MLOps Startup](https://datatalks.club/podcast/building-mlops-startup.html).
 At 7:23, the advice is problem-first. At 34:06 and 38:08, MVPs can be
 bootstrapped or no-code. At 39:25, productizing services becomes a founder
 path. At 48:11 and 51:48, open core, cloud monetization, and bottom-up adoption
@@ -95,9 +95,9 @@ turning them into software:
 - publish docs, demos, or an open-source core when adoption needs trust
 - measure paid demand, activation, retention, and support load
 
-[Verena Weber]({{ '/people/verenaweber/' | relative_url }}) shows the
+[Verena Weber](https://datatalks.club/people/verenaweber.html) shows the
 consulting-to-offer version in
-[Practical Generative AI Consulting]({{ '/podcasts/practical-generative-ai-consulting-from-expertise-to-impact/' | relative_url }}).
+[Practical Generative AI Consulting](https://datatalks.club/podcast/practical-generative-ai-consulting-from-expertise-to-impact.html).
 At 32:07, workshops and use-case discovery come first. At 39:03, a pitch deck,
 evidence, and rates define the offer. At 41:59 and 51:42, network conversations
 and events support client acquisition. LinkedIn, referrals, and content appear
@@ -107,22 +107,22 @@ at 52:34.
 
 Once the offer starts to look reusable, the founder needs the same discipline as
 any [data product]({{ '/wiki/data-products/' | relative_url }}). In
-[Building and Scaling AI Data Products]({{ '/podcasts/building-and-scaling-ai-data-products-with-mlops/' | relative_url }}),
-[Greg Coquillo]({{ '/people/gregcoquillo/' | relative_url }}) covers customer
+[Building and Scaling AI Data Products](https://datatalks.club/podcast/building-and-scaling-ai-data-products-with-mlops.html),
+[Greg Coquillo](https://datatalks.club/people/gregcoquillo.html) covers customer
 research at 18:01 and Five Whys at 20:28. At 23:20 and 41:44, he covers
 hypothesis testing plus impact and effort prioritization. Roadmap structure
 appears at 47:18, and success metrics appear at 51:11.
 
-[Sara Menefee]({{ '/people/saramenefee/' | relative_url }}) adds product
+[Sara Menefee](https://datatalks.club/people/saramenefee.html) adds product
 writing and data constraints in
-[Product Designer to Data Product Manager]({{ '/podcasts/product-designer-to-data-product-manager/' | relative_url }}).
+[Product Designer to Data Product Manager](https://datatalks.club/podcast/product-designer-to-data-product-manager.html).
 At 19:38 and 23:00, quality, PII, and compliance matter. SQL and data
 engineering basics matter too. At 35:51 and 56:08, case studies, PRDs, and
 knowledge bases make the work easier to evaluate.
 
-[Caitlin Moorman]({{ '/people/caitlinmoorman/' | relative_url }}) adds
+[Caitlin Moorman](https://datatalks.club/people/caitlinmoorman.html) adds
 adoption in
-[Last-Mile Data Delivery]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }}).
+[Last-Mile Data Delivery](https://datatalks.club/podcast/last-mile-data-delivery-and-data-product-adoption-modern-data-stack.html).
 At 24:13 and 26:21, trust, usability, and data quality explain why technically
 correct products still fail. User research belongs in that diagnosis. At 39:32
 and 41:18, low-fidelity prototypes and measurable wins help the founder test

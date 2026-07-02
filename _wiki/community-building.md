@@ -18,9 +18,9 @@ the topic to
 also connects [MLOps]({{ '/wiki/mlops/' | relative_url }}), open-source
 mentoring, and [developer relations]({{ '/wiki/developer-relations/' | relative_url }}).
 
-[Demetrios Brinkmann]({{ '/people/demetriosbrinkmann/' | relative_url }})
+[Demetrios Brinkmann](https://datatalks.club/people/demetriosbrinkmann.html)
 gives the most direct definition in
-[MLOps Community Playbook]({{ '/podcasts/mlops-community-building-and-meetups/' | relative_url }}).
+[MLOps Community Playbook](https://datatalks.club/podcast/mlops-community-building-and-meetups.html).
 At 14:02, he describes weekly events and a content cadence. At 24:57, he
 separates an audience from a community. A founder can publish talks, but a
 community starts to matter when members answer each other and propose
@@ -32,9 +32,9 @@ The community episodes return to four recurring requirements. A group needs a
 clear niche, a repeatable format, a safe place to participate, and visible
 paths from attendee to contributor.
 
-[the DataTalks.Club founder]({{ '/people/alexeygrigorev/' | relative_url }})
+[the DataTalks.Club founder](https://datatalks.club/people/alexeygrigorev.html)
 describes the niche and format side in
-[DataTalks.Club Behind the Scenes]({{ '/podcasts/datatalksclub-building-scaling-data-community/' | relative_url }}).
+[DataTalks.Club Behind the Scenes](https://datatalks.club/podcast/datatalksclub-building-scaling-data-community.html).
 At 9:36, he explains why DataTalks.Club started. At 10:05, he ties early
 forums and a landing page into a lightweight launch path. At 20:22, he covers
 planning and scheduling, including Eventbrite and automation.
@@ -42,10 +42,10 @@ planning and scheduling, including Eventbrite and automation.
 The early community work isn't only promotion. It's the repeated operational
 work that makes people know when and where to participate.
 
-[the founder]({{ '/people/alexeygrigorev/' | relative_url }}) and
-[the anniversary interviewer]({{ '/people/johannabayer/' | relative_url }})
+[the founder](https://datatalks.club/people/alexeygrigorev.html) and
+[the anniversary interviewer](https://datatalks.club/people/johannabayer.html)
 revisit the same work in
-[Building a Sustainable Data Community]({{ '/podcasts/datatalksclub-building-sustainable-data-community-3-years-anniversary/' | relative_url }}).
+[Building a Sustainable Data Community](https://datatalks.club/podcast/datatalksclub-building-sustainable-data-community-3-years-anniversary.html).
 At 6:03, they discuss community and marketing roles. At 14:56, they cover Slack
 engagement, teaching assistants, and webinar contributions. The community
 includes the course catalog and the people around it.
@@ -61,25 +61,25 @@ learners move through
 The guests agree that community work needs consistency, but they use different
 systems for sustaining that consistency.
 
-[Demetrios Brinkmann]({{ '/people/demetriosbrinkmann/' | relative_url }})
+[Demetrios Brinkmann](https://datatalks.club/people/demetriosbrinkmann.html)
 emphasizes member activation in
-[MLOps Community Playbook]({{ '/podcasts/mlops-community-building-and-meetups/' | relative_url }}).
+[MLOps Community Playbook](https://datatalks.club/podcast/mlops-community-building-and-meetups.html).
 At 10:41, he discusses speaker recruiting, and at 27:25 he covers advisory
 groups. At 50:51 and 55:04, he moves into member connections and sprints. His
 version of community building gives members structured ways to meet, propose
 work, and become responsible for parts of the community.
 
-[the DataTalks.Club founder]({{ '/people/alexeygrigorev/' | relative_url }})
+[the DataTalks.Club founder](https://datatalks.club/people/alexeygrigorev.html)
 emphasizes course scale and durable learning in
-[Inside Scaling DataTalks.Club]({{ '/podcasts/datatalksclub-scaling-and-free-courses/' | relative_url }}).
+[Inside Scaling DataTalks.Club](https://datatalks.club/podcast/datatalksclub-scaling-and-free-courses.html).
 At 8:13, he connects organic growth of Data Engineering Zoomcamp to the
 free-to-learn mission at 12:04. At 26:43, he discusses course-platform work,
 and at 36:37 he discusses community longevity. DataTalks.Club treats community
 as a learning platform, an events program, and a network of people who teach.
 
-[Will Russell]({{ '/people/willrussell/' | relative_url }}) centers community
+[Will Russell](https://datatalks.club/people/willrussell.html) centers community
 building on developer enablement in
-[Developer Advocacy Through Community Impact]({{ '/podcasts/practical-devrel-demofirst-education-and-open-source/' | relative_url }}).
+[Developer Advocacy Through Community Impact](https://datatalks.club/podcast/practical-devrel-demofirst-education-and-open-source.html).
 At 11:46, he connects hackathons to Git, teamwork, and project building. At
 35:43, he explains the mentorship model for contributing to large repositories,
 which links community building to
@@ -91,14 +91,14 @@ which links community building to
 Teaching gives community building a concrete reason to exist. Members return
 because they have projects, deadlines, office hours, and mentors.
 
-[the DataTalks.Club founder]({{ '/people/alexeygrigorev/' | relative_url }})
+[the DataTalks.Club founder](https://datatalks.club/people/alexeygrigorev.html)
 describes Open Source Spotlight, Minis, and Book of the Week in
-[DataTalks.Club Behind the Scenes]({{ '/podcasts/datatalksclub-building-scaling-data-community/' | relative_url }})
+[DataTalks.Club Behind the Scenes](https://datatalks.club/podcast/datatalksclub-building-scaling-data-community.html)
 at 24:38. At 55:07, he adds live coding and office hours. These formats give
 learners smaller ways to participate before they become teaching assistants,
 course contributors, or speakers.
 
-[Inside Scaling DataTalks.Club]({{ '/podcasts/datatalksclub-scaling-and-free-courses/' | relative_url }})
+[Inside Scaling DataTalks.Club](https://datatalks.club/podcast/datatalksclub-scaling-and-free-courses.html)
 links the course portfolio at 5:07 to product work behind scaled courses at
 26:43. In that discussion, community building includes
 [teaching]({{ '/wiki/teaching/' | relative_url }}),
@@ -113,20 +113,20 @@ Community operations cover scheduling, promotion, moderation, and volunteer
 coordination. The work is less visible than events, but guests treat it as
 necessary infrastructure.
 
-[Demetrios Brinkmann]({{ '/people/demetriosbrinkmann/' | relative_url }})
+[Demetrios Brinkmann](https://datatalks.club/people/demetriosbrinkmann.html)
 explains the acquisition and retention loop in
-[MLOps Community Playbook]({{ '/podcasts/mlops-community-building-and-meetups/' | relative_url }}).
+[MLOps Community Playbook](https://datatalks.club/podcast/mlops-community-building-and-meetups.html).
 At 13:09, he mentions LinkedIn outreach and cold messages. At 18:21, he marks
 growth milestones. At 40:36, he discusses retention through giveaways,
 multi-format content, and avoiding shallow gamification. At 45:45, he brings
 in customer-development habits such as surveys and recurring feedback.
 
 Moderation is part of the same operating work. In
-[MLOps Community Playbook]({{ '/podcasts/mlops-community-building-and-meetups/' | relative_url }}),
+[MLOps Community Playbook](https://datatalks.club/podcast/mlops-community-building-and-meetups.html),
 Demetrios discusses vendors, spam, and a code of conduct at 20:50. In
-[Building a Sustainable Data Community]({{ '/podcasts/datatalksclub-building-sustainable-data-community-3-years-anniversary/' | relative_url }}),
-[the founder]({{ '/people/alexeygrigorev/' | relative_url }}) and
-[the interviewer]({{ '/people/johannabayer/' | relative_url }}) return to niche
+[Building a Sustainable Data Community](https://datatalks.club/podcast/datatalksclub-building-sustainable-data-community-3-years-anniversary.html),
+[the founder](https://datatalks.club/people/alexeygrigorev.html) and
+[the interviewer](https://datatalks.club/people/johannabayer.html) return to niche
 selection and moderation at 23:18. At 45:48, they discuss unsolicited messages
 and member safety. Growth without safety and
 boundaries can make the community worse for the members it's supposed to help.
@@ -138,15 +138,15 @@ Community building overlaps with
 when a group organizes around tools, contributions, demos, and technical
 education.
 
-[Will Russell]({{ '/people/willrussell/' | relative_url }}) gives the clearest
+[Will Russell](https://datatalks.club/people/willrussell.html) gives the clearest
 bridge in
-[Developer Advocacy Through Community Impact]({{ '/podcasts/practical-devrel-demofirst-education-and-open-source/' | relative_url }}).
+[Developer Advocacy Through Community Impact](https://datatalks.club/podcast/practical-devrel-demofirst-education-and-open-source.html).
 At 12:16, he describes open-source education programs as a path to full-time
 developer advocacy. At 39:02, he discusses pull-request quality and Git skills.
 At 49:14, he connects developer advocacy to documentation, demos, and outreach.
 
 The same logic applies to DataTalks.Club formats. In
-[DataTalks.Club Behind the Scenes]({{ '/podcasts/datatalksclub-building-scaling-data-community/' | relative_url }}),
+[DataTalks.Club Behind the Scenes](https://datatalks.club/podcast/datatalksclub-building-scaling-data-community.html),
 Open Source Spotlight at 24:38 gives maintainers a place to explain their work.
 It also gives members a low-pressure path into technical tools and projects.
 
@@ -156,16 +156,16 @@ Events work when they lead to the next useful action. A talk can lead to a
 Slack thread, office hours, a project submission, or a pull request. It can also
 lead to a teaching assistant role or a new event organized by a member.
 
-[Demetrios Brinkmann]({{ '/people/demetriosbrinkmann/' | relative_url }})
+[Demetrios Brinkmann](https://datatalks.club/people/demetriosbrinkmann.html)
 lays out this progression in
-[MLOps Community Playbook]({{ '/podcasts/mlops-community-building-and-meetups/' | relative_url }}).
+[MLOps Community Playbook](https://datatalks.club/podcast/mlops-community-building-and-meetups.html).
 At 1:28 and 2:06, the MLOps community begins with meetups and a podcast-like
 event format. By 27:25, the focus shifts to core contributors and advisory
 groups. By 1:00:17, the work includes core volunteers and broader contributors.
 
-[Will Russell]({{ '/people/willrussell/' | relative_url }}) gives the event
+[Will Russell](https://datatalks.club/people/willrussell.html) gives the event
 version in
-[Developer Advocacy Through Community Impact]({{ '/podcasts/practical-devrel-demofirst-education-and-open-source/' | relative_url }}).
+[Developer Advocacy Through Community Impact](https://datatalks.club/podcast/practical-devrel-demofirst-education-and-open-source.html).
 At 16:04, he discusses organizing hackathons as leadership and coordination
 practice. At 23:18, he describes online hackathon formats and office hours.
 At 25:26 and 26:14, he covers judging matrices and sponsor-driven categories.
@@ -173,9 +173,9 @@ A good event gives participants a bounded challenge, feedback, and a public
 reason to finish.
 
 DataTalks.Club uses similar contributor paths. In
-[Building a Sustainable Data Community]({{ '/podcasts/datatalksclub-building-sustainable-data-community-3-years-anniversary/' | relative_url }}),
+[Building a Sustainable Data Community](https://datatalks.club/podcast/datatalksclub-building-sustainable-data-community-3-years-anniversary.html),
 Project of the Week, competitions, and portfolios appear at 20:23. In
-[Inside Scaling DataTalks.Club]({{ '/podcasts/datatalksclub-scaling-and-free-courses/' | relative_url }}),
+[Inside Scaling DataTalks.Club](https://datatalks.club/podcast/datatalksclub-scaling-and-free-courses.html),
 the founder asks people to help as guests, Slack mentors, and Project of the
 Week participants at 51:38. At 53:46, he mentions competitions and future
 hackathons. Community building becomes easier to sustain when participation has

@@ -38,7 +38,7 @@ Agents should consider this episode when working on MLOps, machine learning, pro
 
 Use these links to connect the episode to guest notes.
 
-- [Theofilos Papapanagiotou]({{ '/people/theofilospapapanagiotou/' | relative_url }})
+- [Theofilos Papapanagiotou](https://datatalks.club/people/theofilospapapanagiotou.html)
 
 ## Key Concepts
 

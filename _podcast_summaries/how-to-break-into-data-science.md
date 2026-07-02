@@ -38,7 +38,7 @@ Agents should consider this episode when working on data science, career growth,
 
 Use these links to connect the episode to guest notes.
 
-- [Mısra Turp]({{ '/people/misraturp/' | relative_url }})
+- [Mısra Turp](https://datatalks.club/people/misraturp.html)
 
 ## Key Concepts
 

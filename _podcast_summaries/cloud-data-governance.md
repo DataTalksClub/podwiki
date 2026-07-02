@@ -38,8 +38,8 @@ Agents should consider this episode when working on data governance, data compli
 
 Use these links to connect the episode to guest notes.
 
-- [Jessi Ashdown]({{ '/people/jessiashdown/' | relative_url }})
-- [Uri Gilad]({{ '/people/urigilad/' | relative_url }})
+- [Jessi Ashdown](https://datatalks.club/people/jessiashdown.html)
+- [Uri Gilad](https://datatalks.club/people/urigilad.html)
 
 ## Key Concepts
 

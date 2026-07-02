@@ -38,7 +38,7 @@ Agents should consider this episode when working on startup, founder, leadership
 
 Use these links to connect the episode to guest notes.
 
-- [Carmine Paolino]({{ '/people/carminepaolino/' | relative_url }})
+- [Carmine Paolino](https://datatalks.club/people/carminepaolino.html)
 
 ## Key Concepts
 

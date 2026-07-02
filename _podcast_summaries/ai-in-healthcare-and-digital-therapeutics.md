@@ -38,7 +38,7 @@ Agents should consider this episode when working on machine learning, healthcare
 
 Use these links to connect the episode to guest notes.
 
-- [Stefan Gudmundsson]({{ '/people/stefangudmundsson/' | relative_url }})
+- [Stefan Gudmundsson](https://datatalks.club/people/stefangudmundsson.html)
 
 ## Key Concepts
 

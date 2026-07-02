@@ -28,8 +28,8 @@ developer environments.
 ## The Cursor Workflow
 
 Several guests describe Cursor as their primary coding assistant. In
-[Production AI Engineering]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }}),
-[Bartosz Mikulski]({{ '/people/bartoszmikulski/' | relative_url }}) explains at
+[Production AI Engineering](https://datatalks.club/podcast/production-ready-ai-engineering.html),
+[Bartosz Mikulski](https://datatalks.club/people/bartoszmikulski.html) explains at
 42:05 that he uses Cursor as a paid product for all his work. He recommends it
 for anyone coding professionally. Cursor does not generate an entire application
 from one prompt, but it helps a lot with smaller functions. If you write the
@@ -43,8 +43,8 @@ commands. He sticks with Cursor because he already pays for it and has not found
 a significantly better alternative.
 
 In
-[Inside the AI Engineer Role]({{ '/podcasts/s23e05-inside-ai-engineer-role-tools-skills-and-career-path/' | relative_url }}),
-[Ruslan Shchuchkin]({{ '/people/ruslanshchuchkin/' | relative_url }}) recommends
+[Inside the AI Engineer Role](https://datatalks.club/podcast/s23e05-inside-ai-engineer-role-tools-skills-and-career-path.html),
+[Ruslan Shchuchkin](https://datatalks.club/people/ruslanshchuchkin.html) recommends
 Cursor for non-coders because it is more visual. At 1:02:16 he notes that for
 coders, specialized tools give you a lot for twenty dollars a month. Alexey
 adds that GitHub Copilot at ten dollars a month provides way more than ten
@@ -54,8 +54,8 @@ dollars in value.
 
 The shift from notebooks to agentic coding tools changes how AI engineers
 organize their work. In
-[From Notebook to Production]({{ '/podcasts/s24e03-from-notebook-to-production-building-end-to-end-ai-systems/' | relative_url }}),
-[Mariano Semelman]({{ '/people/marianosemelman/' | relative_url }}) explains at
+[From Notebook to Production](https://datatalks.club/podcast/s24e03-from-notebook-to-production-building-end-to-end-ai-systems.html),
+[Mariano Semelman](https://datatalks.club/people/marianosemelman.html) explains at
 54:23 that creating Streamlit applications or CLI tools has become super cheap.
 You can quickly create a Streamlit app for exploring a new model instead of
 relying on notebooks. At 55:28 he argues that notebooks are becoming less
@@ -73,15 +73,15 @@ Python notebooks in about an hour.
 
 Vibe coding is the practice of building applications by prompting AI tools
 rather than writing code manually. In
-[How to Become an AI Engineer After a Career Break]({{ '/podcasts/s23e04-how-to-become-ai-engineer-after-career-break/' | relative_url }}),
-[Revathy Ramalingam]({{ '/people/revathyramalingam/' | relative_url }}) describes
+[How to Become an AI Engineer After a Career Break](https://datatalks.club/podcast/s23e04-how-to-become-ai-engineer-after-career-break.html),
+[Revathy Ramalingam](https://datatalks.club/people/revathyramalingam.html) describes
 at 22:15 how her AI Dev Tools bootcamp taught vibe coding. You start with Lovable
 to create a UI, give a prompt to create a front end, back end, and database, and
 then integrate them. She built a project called Vigilance AI this way and says
 it gave her the confidence to convert an idea into a working project.
 
 Ruslan discusses vibe coding in
-[Inside the AI Engineer Role]({{ '/podcasts/s23e05-inside-ai-engineer-role-tools-skills-and-career-path/' | relative_url }})
+[Inside the AI Engineer Role](https://datatalks.club/podcast/s23e05-inside-ai-engineer-role-tools-skills-and-career-path.html)
 at 1:03:37. He warns that the natural tendency is to let the AI write code
 without understanding it. For production systems, he insists on understanding
 every single line. For personal projects, he sometimes does not go as deep. His
@@ -105,8 +105,8 @@ of spending time carefully phrasing the request himself.
 ## Embedded Agents in IDEs and Workflows
 
 In
-[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}),
-[Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }}) discusses
+[Practical LLM Engineering and RAG](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html),
+[Hugo Bowne-Anderson](https://datatalks.club/people/hugobowneanderson.html) discusses
 embedded agents at 33:14. He describes using Cursor and Devon in Slack, where
 you can tag an assistant to update documentation or perform tasks directly.
 Bringing agentic systems into normal interfaces will become common. At 35:13 he
@@ -124,15 +124,15 @@ fine-tuning for multiplayer conversations.
 ## Learning with AI Instead of Just Coding
 
 A recurring theme is that coding tools double as learning tools. In
-[From Notebook to Production]({{ '/podcasts/s24e03-from-notebook-to-production-building-end-to-end-ai-systems/' | relative_url }}),
+[From Notebook to Production](https://datatalks.club/podcast/s24e03-from-notebook-to-production-building-end-to-end-ai-systems.html),
 Mariano describes at 52:30 how notebooks have become a place for quick
 exploration or reports, while the main pipeline runs as a CLI tool built with
 agentic coding. The combination of LLMs and coding agents lets him build
 Streamlit apps for reproducibility that used to require notebooks.
 
 In
-[AI Engineering: Skill Stack, Agents, LLMOps, and How to Ship AI Products]({{ '/podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products/' | relative_url }}),
-[Paul Iusztin]({{ '/people/pauliusztin/' | relative_url }}) describes at 32:17
+[AI Engineering: Skill Stack, Agents, LLMOps, and How to Ship AI Products](https://datatalks.club/podcast/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products.html),
+[Paul Iusztin](https://datatalks.club/people/pauliusztin.html) describes at 32:17
 how he reads everything that AI generates. Since he started using Claude, he
 knows a lot more TypeScript and SQL because he is exposed to so many more code
 elements. He cares more about how the code should look and scale than about

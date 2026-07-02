@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Thomas Nield]({ '/people/thomasnield/' | relative_url }).
+[Thomas Nield](https://datatalks.club/people/thomasnield.html).
 
 ## Discussion Archive
 

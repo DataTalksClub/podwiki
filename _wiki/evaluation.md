@@ -22,13 +22,13 @@ The practical definition is direct. Compare the system against a baseline with
 a metric that maps to a real decision. Then keep checking whether that judgment
 holds in production.
 
-[Adam Sroka]({{ '/people/adamsroka/' | relative_url }})
+[Adam Sroka](https://datatalks.club/people/adamsroka.html)
 frames metric work as top-down alignment with executive decisions in
-[KPI Design & Metrics Strategy]({{ '/podcasts/ml-engineering-kpis-and-metrics-strategy/' | relative_url }})
+[KPI Design & Metrics Strategy](https://datatalks.club/podcast/ml-engineering-kpis-and-metrics-strategy.html)
 at 22:41. He warns against vanity metrics at 26:07 and KPI gaming at 28:04.
-[Rishabh Bhargava]({{ '/people/rishabhbhargava/' | relative_url }}) extends the
+[Rishabh Bhargava](https://datatalks.club/people/rishabhbhargava.html) extends the
 same idea to production ML in
-[From Analytics to Production ML]({{ '/podcasts/production-ml-mlops-and-data-team-building/' | relative_url }})
+[From Analytics to Production ML](https://datatalks.club/podcast/production-ml-mlops-and-data-team-building.html)
 at 28:42. Offline experiments, shadow mode, and A/B tests bridge model work to
 product impact.
 
@@ -38,9 +38,9 @@ Across these episodes, evaluation starts by naming the decision that will
 change and the baseline for comparison. It also names the evidence that would
 make the team stop, roll back, or continue.
 
-[Jakob Graff]({{ '/people/jakobgraff/' | relative_url }}) gives the clearest
+[Jakob Graff](https://datatalks.club/people/jakobgraff.html) gives the clearest
 product version in
-[Product Analytics & A/B Testing]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }})
+[Product Analytics & A/B Testing](https://datatalks.club/podcast/ab-testing-and-product-experimentation.html)
 at 8:13 and 11:48. Teams use randomized experiments to decide whether a product
 change caused an outcome, but metric choice shapes the conclusion. At 33:23 and
 37:44, he ties that conclusion to metric stability, seasonality, and power
@@ -49,9 +49,9 @@ analysis. Those concerns connect directly to
 [A/A Testing]({{ '/wiki/a-a-testing/' | relative_url }}), and
 [Power Analysis]({{ '/wiki/power-analysis/' | relative_url }}).
 
-[Aleksander Molak]({{ '/people/aleksandermolak/' | relative_url }}) gives the
+[Aleksander Molak](https://datatalks.club/people/aleksandermolak.html) gives the
 causal version in
-[Causal Inference for Real-World ML]({{ '/podcasts/causal-inference-for-machine-learning/' | relative_url }})
+[Causal Inference for Real-World ML](https://datatalks.club/podcast/causal-inference-for-machine-learning.html)
 at 32:40 and 33:14. A causal model needs refutation tests and estimator checks,
 but the final policy comparison still uses a business metric. That separates
 predictive accuracy from the action decision.
@@ -66,18 +66,18 @@ quality, and answer faithfulness. They also account for cost, latency, and
 human review.
 
 The difference reflects the system under test. In
-[KPI Design & Metrics Strategy]({{ '/podcasts/ml-engineering-kpis-and-metrics-strategy/' | relative_url }})
-at 51:12, [Adam Sroka]({{ '/people/adamsroka/' | relative_url }}) says data
+[KPI Design & Metrics Strategy](https://datatalks.club/podcast/ml-engineering-kpis-and-metrics-strategy.html)
+at 51:12, [Adam Sroka](https://datatalks.club/people/adamsroka.html) says data
 teams need to translate model performance into money, saved time, or another
 decision metric. In
-[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }})
-at 53:34 and 56:39, [Meryem Arik]({{ '/people/meryemarik/' | relative_url }})
+[Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html)
+at 53:34 and 56:39, [Meryem Arik](https://datatalks.club/people/meryemarik.html)
 talks about gold-standard examples and output-driven evaluation. She also
 separates classification metrics, generative metrics, and human judgment.
 
 In
-[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
-at 48:09, [Atita Arora]({{ '/people/atitaarora/' | relative_url }}) describes
+[Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html)
+at 48:09, [Atita Arora](https://datatalks.club/people/atitaarora.html) describes
 RAG evaluation through multiple metric levels, offline tests, and
 human-in-the-loop review.
 
@@ -89,17 +89,17 @@ decision. That can be precision and recall for fraud, uplift for targeting, or
 cost-weighted error for operational decisions. The guests repeatedly warn
 that the metric alone isn't enough.
 
-[Rishabh Bhargava]({{ '/people/rishabhbhargava/' | relative_url }}) describes
+[Rishabh Bhargava](https://datatalks.club/people/rishabhbhargava.html) describes
 ML work as experimental in
-[From Analytics to Production ML]({{ '/podcasts/production-ml-mlops-and-data-team-building/' | relative_url }})
+[From Analytics to Production ML](https://datatalks.club/podcast/production-ml-mlops-and-data-team-building.html)
 at 28:42. Teams can use shadow mode and A/B tests before a model fully controls
 a user-facing workflow. At 31:19, he adds segment analysis and root-cause
 investigation: a model can improve the average and still fail for a customer
 segment that matters.
 
-[Aleksander Molak]({{ '/people/aleksandermolak/' | relative_url }}) adds a
+[Aleksander Molak](https://datatalks.club/people/aleksandermolak.html) adds a
 different boundary in
-[Causal Inference for Real-World ML]({{ '/podcasts/causal-inference-for-machine-learning/' | relative_url }})
+[Causal Inference for Real-World ML](https://datatalks.club/podcast/causal-inference-for-machine-learning.html)
 at 12:41. Predictive ML often assumes the future looks like the training data,
 but decisions change the system. At 43:25, he points back to A/B testing as a
 validation baseline for causal models. That's why [machine learning]({{ '/wiki/machine-learning/' | relative_url }})
@@ -113,16 +113,16 @@ labels and accuracy-style metrics. Generative use cases need examples, rubric
 checks, human review, and failure analysis because the output can be fluent and
 wrong at the same time.
 
-[Meryem Arik]({{ '/people/meryemarik/' | relative_url }}) makes this split in
-[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }})
+[Meryem Arik](https://datatalks.club/people/meryemarik.html) makes this split in
+[Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html)
 at 53:34 and 56:39. She connects data quality, gold-standard examples, and
 human evaluation to production LLM choices. At 18:46, she also flags model
 drift and hidden API changes, which means evaluation needs to keep running
 after launch.
 
 RAG evaluation adds retrieval to the problem. In
-[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
-at 42:49, [Atita Arora]({{ '/people/atitaarora/' | relative_url }}) frames RAG
+[Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html)
+at 42:49, [Atita Arora](https://datatalks.club/people/atitaarora.html) frames RAG
 as retrieval, augmentation, and generation. She also includes prompt design and
 citations. At 48:09 and 50:52, she discusses offline tests and human review for
 RAG systems.
@@ -132,8 +132,8 @@ Evaluation connects RAG to [retrieval-augmented generation]({{ '/wiki/retrieval-
 [vector databases]({{ '/wiki/vector-databases/' | relative_url }}).
 
 Agentic systems add tool calls and goal completion. In
-[Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }})
-at 51:17, [Ranjitha Kulkarni]({{ '/people/ranjithakulkarni/' | relative_url }})
+[Building Agentic AI Systems](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html)
+at 51:17, [Ranjitha Kulkarni](https://datatalks.club/people/ranjithakulkarni.html)
 recommends custom datasets and system benchmarks. At 53:20 and 56:02, she
 separates tool-mocking and integration tests from regression tests. She also
 uses goal-based assertions.
@@ -147,18 +147,18 @@ the goal instead of matching every intermediate step.
 Product evaluation asks whether a change improved user or business outcomes.
 Metric design is part of the evaluation system, not a reporting step at the end.
 
-[Jakob Graff]({{ '/people/jakobgraff/' | relative_url }}) uses product
+[Jakob Graff](https://datatalks.club/people/jakobgraff.html) uses product
 experiments to connect causality, metric design, and product decisions in
-[Product Analytics & A/B Testing]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }})
+[Product Analytics & A/B Testing](https://datatalks.club/podcast/ab-testing-and-product-experimentation.html)
 at 14:27 and 18:06. He also discusses A/A tests at 27:52 to validate
 randomization and instrumentation before teams trust an experiment platform.
 These details connect product evaluation to [product analytics]({{ '/wiki/product-analytics/' | relative_url }}),
 [experimentation]({{ '/wiki/experimentation/' | relative_url }}), and
 [metrics]({{ '/wiki/metrics/' | relative_url }}).
 
-[Adam Sroka]({{ '/people/adamsroka/' | relative_url }}) adds a strategic layer
+[Adam Sroka](https://datatalks.club/people/adamsroka.html) adds a strategic layer
 in
-[KPI Design & Metrics Strategy]({{ '/podcasts/ml-engineering-kpis-and-metrics-strategy/' | relative_url }})
+[KPI Design & Metrics Strategy](https://datatalks.club/podcast/ml-engineering-kpis-and-metrics-strategy.html)
 at 37:19 and 41:07. Teams need review cadence, dashboards, and executive
 communication, not only a mathematically valid metric. At 46:34 and 48:48, he
 also separates threshold metrics and health metrics from north-star goals. A
@@ -176,15 +176,15 @@ pipelines. This is where
 of evaluation.
 
 In
-[MLOps Architect Guide]({{ '/podcasts/mlops-model-monitoring-data-observability/' | relative_url }})
-at 25:04 and 27:35, [Danny Leybzon]({{ '/people/dannyleybzon/' | relative_url }})
+[MLOps Architect Guide](https://datatalks.club/podcast/mlops-model-monitoring-data-observability.html)
+at 25:04 and 27:35, [Danny Leybzon](https://datatalks.club/people/dannyleybzon.html)
 focuses on production model monitoring and upstream root causes. His discussion
 of data profiling at 31:50 shows why production evaluation often starts with
 input data and pipeline behavior before the team blames the model.
 
-[Lina Weichbrodt]({{ '/people/linaweichbrodt/' | relative_url }}) connects
+[Lina Weichbrodt](https://datatalks.club/people/linaweichbrodt.html) connects
 monitoring to incident response in
-[Master Human-Centered MLOps]({{ '/podcasts/human-centered-mlops-and-model-monitoring/' | relative_url }})
+[Master Human-Centered MLOps](https://datatalks.club/podcast/human-centered-mlops-and-model-monitoring.html)
 at 24:34 and 27:14. She also discusses live test sets and small A/B tests at
 29:23, then input distribution and feature drift at 46:28. Teams turn
 evaluation into an operating practice when they define failure, watch for it,
@@ -196,22 +196,22 @@ Human review appears in these discussions when automatic metrics can't capture t
 whole task. It shows up in stakeholder demos and user feedback. It also appears
 in RAG quality checks, LLM outputs, and incident investigation.
 
-[Lina Weichbrodt]({{ '/people/linaweichbrodt/' | relative_url }}) emphasizes
+[Lina Weichbrodt](https://datatalks.club/people/linaweichbrodt.html) emphasizes
 stakeholder trust in
-[Master Human-Centered MLOps]({{ '/podcasts/human-centered-mlops-and-model-monitoring/' | relative_url }})
+[Master Human-Centered MLOps](https://datatalks.club/podcast/human-centered-mlops-and-model-monitoring.html)
 at 12:22, 15:07, and 22:36. A demo or report isn't enough if the people who
 own the workflow can't see how the model behaves. At 36:41 and 50:30, she
 adds user feedback channels and direct user testing as signals that automated
 monitoring can miss.
 
-[Atita Arora]({{ '/people/atitaarora/' | relative_url }}) and
-[Meryem Arik]({{ '/people/meryemarik/' | relative_url }}) make the same point
+[Atita Arora](https://datatalks.club/people/atitaarora.html) and
+[Meryem Arik](https://datatalks.club/people/meryemarik.html) make the same point
 for LLM systems.
 
 In
-[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
+[Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html)
 at 48:09 and 50:52, RAG evaluation includes human-in-the-loop review. In
-[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }})
+[Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html)
 at 56:39, generative evaluation includes human judgment because automatic
 metrics alone don't prove answer quality. Reviewers still need to judge whether
 the answer is useful, grounded, and safe.

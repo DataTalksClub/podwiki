@@ -38,7 +38,7 @@ Agents should consider this episode when working on data engineering, academia, 
 
 Use these links to connect the episode to guest notes.
 
-- [Orell Garten]({{ '/people/orellgarten/' | relative_url }})
+- [Orell Garten](https://datatalks.club/people/orellgarten.html)
 
 ## Key Concepts
 

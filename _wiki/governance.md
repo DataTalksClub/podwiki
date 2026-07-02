@@ -16,16 +16,16 @@ systems. It names owners and usage rights. It sets review rules and records
 evidence after access, data, or model changes.
 
 DataTalks.Club guests describe governance as practical engineering and product
-work, not a standalone compliance checklist. [Jessi Ashdown]({{ '/people/jessiashdown/' | relative_url }})
-and [Uri Gilad]({{ '/people/urigilad/' | relative_url }}) tie cloud governance
+work, not a standalone compliance checklist. [Jessi Ashdown](https://datatalks.club/people/jessiashdown.html)
+and [Uri Gilad](https://datatalks.club/people/urigilad.html) tie cloud governance
 to classification and catalogs in
-[Cloud Data Governance]({{ '/podcasts/cloud-data-governance/' | relative_url }})
+[Cloud Data Governance](https://datatalks.club/podcast/cloud-data-governance.html)
 at 14:04 and 15:33. At 23:00, they add the reason for governance before the
 policy design.
 
-[Bart Vandekerckhove]({{ '/people/bartvandekerckhove/' | relative_url }})
+[Bart Vandekerckhove](https://datatalks.club/people/bartvandekerckhove.html)
 grounds the access side in catalogs and dictionaries at 8:58 in
-[Data Governance and Data Access Management]({{ '/podcasts/data-governance-data-access-management/' | relative_url }}).
+[Data Governance and Data Access Management](https://datatalks.club/podcast/data-governance-data-access-management.html).
 He adds lineage in the same chapter. At 27:49 and 32:08, his episode covers
 purpose-based requests, reviews, and revocation. At 42:20 and 50:08, it covers
 masking and access-as-code.
@@ -48,7 +48,7 @@ access or model behavior after systems change.
 
 Data governance starts with datasets, tables, derived metrics, and catalogs.
 Business glossaries and lineage make the inventory usable. In
-[Cloud Data Governance]({{ '/podcasts/cloud-data-governance/' | relative_url }}),
+[Cloud Data Governance](https://datatalks.club/podcast/cloud-data-governance.html),
 Jessi and Uri start from the inventory problem. At 6:40 and 7:47, they argue
 that a company can't secure or reuse data confidently if it doesn't know what
 data it has.
@@ -59,7 +59,7 @@ purpose-based access.
 
 
 Bart reaches the same trust goal from a different failure mode. In
-[Data Governance and Data Access Management]({{ '/podcasts/data-governance-data-access-management/' | relative_url }}),
+[Data Governance and Data Access Management](https://datatalks.club/podcast/data-governance-data-access-management.html),
 he describes older centralized governance at 6:52, then focuses on request
 paths and approvals. He also covers time-bound permissions, privilege creep,
 and revocation. That version is strongest when sensitive data already lives in shared cloud systems
@@ -67,10 +67,10 @@ and informal permission handling no longer works.
 
 ML governance adds datasets, features, experiments, and models. It also covers
 prediction schemas, artifacts, environments, and monitoring signals.
-[Simon Stiebellehner]({{ '/people/simonstiebellehner/' | relative_url }})
+[Simon Stiebellehner](https://datatalks.club/people/simonstiebellehner.html)
 links experiment tracking, [model registries]({{ '/wiki/model-registry/' | relative_url }}),
 metadata, and lineage in
-[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
+[Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html).
 He also covers artifact logging, GDPR-aware dataset storage, and unified
 prediction schemas.
 Those controls make a [machine learning platform]({{ '/wiki/ml-platforms/' | relative_url }})
@@ -80,25 +80,25 @@ supported a deployed model.
 AI product governance adds prompts, retrieved context, and outputs. Guardrail
 results, evaluation labels, feedback, and human override points become part of
 the record too.
-[Supreet Kaur]({{ '/people/supreetkaur/' | relative_url }}) places feature
+[Supreet Kaur](https://datatalks.club/people/supreetkaur.html) places feature
 necessity, PII handling, compliance input, and fairness checks in the same
 operating model in
-[Responsible and Explainable AI]({{ '/podcasts/responsible-explainable-ai-bias-detection/' | relative_url }}).
+[Responsible and Explainable AI](https://datatalks.club/podcast/responsible-explainable-ai-bias-detection.html).
 Her episode also covers interpretability, drift, and human oversight.
 
-[Maria Sukhareva]({{ '/people/mariasukhareva/' | relative_url }}) adds prompt
+[Maria Sukhareva](https://datatalks.club/people/mariasukhareva.html) adds prompt
 injection, knowledge-base exfiltration, output validation, and query analysis in
-[Hardening Generative AI Chatbots]({{ '/podcasts/generative-ai-chatbots-in-production-security/' | relative_url }}).
-[Aditya Gautam]({{ '/people/adityagautam/' | relative_url }}) extends the
+[Hardening Generative AI Chatbots](https://datatalks.club/podcast/generative-ai-chatbots-in-production-security.html).
+[Aditya Gautam](https://datatalks.club/people/adityagautam.html) extends the
 surface to agent guardrails, lineage, multi-tenant evaluations, and human-label
-alignment in [The Future of AI Agents]({{ '/podcasts/s23e03-future-of-ai-agents/' | relative_url }}).
+alignment in [The Future of AI Agents](https://datatalks.club/podcast/s23e03-future-of-ai-agents.html).
 
 ## Inventory and Ownership
 
 Governance starts with inventory because teams can't secure or reuse unknown
 data. They also can't retain or delete it deliberately. Jessi and Uri describe
 taxonomy, classification, catalogs, and lineage in
-[Cloud Data Governance]({{ '/podcasts/cloud-data-governance/' | relative_url }}).
+[Cloud Data Governance](https://datatalks.club/podcast/cloud-data-governance.html).
 They also cover retention, freshness, purpose-based access, and minimum viable
 governance.
 
@@ -109,10 +109,10 @@ making them rely on private knowledge.
 
 Ownership turns metadata into accountability. Bart separates data teams from
 governance teams at 13:34 in
-[Data Governance and Data Access Management]({{ '/podcasts/data-governance-data-access-management/' | relative_url }}),
-then discusses domain ownership models. [Zhamak Dehghani]({{ '/people/zhamakdehghani/' | relative_url }})
+[Data Governance and Data Access Management](https://datatalks.club/podcast/data-governance-data-access-management.html),
+then discusses domain ownership models. [Zhamak Dehghani](https://datatalks.club/people/zhamakdehghani.html)
 gives the domain-owned version in
-[Data Mesh Implementation]({{ '/podcasts/data-mesh-architecture-decentralized-data-products/' | relative_url }}).
+[Data Mesh Implementation](https://datatalks.club/podcast/data-mesh-architecture-decentralized-data-products.html).
 
 At 16:34 and 39:36, she links domain ownership to data product contracts,
 service levels, and quality expectations. At 49:25 and 53:02, she names
@@ -130,7 +130,7 @@ and validation let decentralized products behave as part of one system.
 
 Quality evidence belongs in the same ownership model. Jessi and Uri discuss
 trust signals, source quality, and measurable checks at 34:59 in
-[Cloud Data Governance]({{ '/podcasts/cloud-data-governance/' | relative_url }}).
+[Cloud Data Governance](https://datatalks.club/podcast/cloud-data-governance.html).
 Consumers need freshness, schemas, volume, and lineage before they use a
 dataset for a metric. Owners and known limits matter when the same data feeds a
 model or an operational decision.
@@ -141,7 +141,7 @@ Those checks make governance part of
 
 Access governance decides who can use data and why they need it. It also sets
 how long they keep access. Bart's
-[Data Governance and Data Access Management]({{ '/podcasts/data-governance-data-access-management/' | relative_url }})
+[Data Governance and Data Access Management](https://datatalks.club/podcast/data-governance-data-access-management.html)
 episode is the clearest podcast anchor. At 27:49, he covers access requests and
 approvals. He also covers review and revocation.
 
@@ -165,15 +165,15 @@ controls into reviewable configuration instead of one-off permission changes.
 
 Automation matters because manual governance becomes a queue. Jessi and Uri
 discuss automation for tagging, requests, and reduced manual effort at 48:50 in
-[Cloud Data Governance]({{ '/podcasts/cloud-data-governance/' | relative_url }}).
+[Cloud Data Governance](https://datatalks.club/podcast/cloud-data-governance.html).
 They still include data stewards, producers, and decision makers at 33:03, so
 automation routes repeated checks without replacing judgment.
 
 Privacy changes the access question. Teams need to ask whether data should be
 collected or centralized at all. They also need retention and exposure rules.
-[Katharine Jarmul]({{ '/people/katharinejarmul/' | relative_url }})
+[Katharine Jarmul](https://datatalks.club/people/katharinejarmul.html)
 connects GDPR and CCPA/CPRA to consent UX in
-[Data Privacy Engineering, GDPR, and Machine Learning]({{ '/podcasts/data-privacy-engineering-gdpr-machine-learning/' | relative_url }})
+[Data Privacy Engineering, GDPR, and Machine Learning](https://datatalks.club/podcast/data-privacy-engineering-gdpr-machine-learning.html)
 at 11:33 and 47:00.
 
 At 22:38, she discusses privacy-risk translation, and at 25:12 she covers
@@ -187,7 +187,7 @@ enough.
 ## ML Release Controls
 
 ML governance adds release evidence. At 4:42 in
-[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}),
+[Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html),
 Simon defines MLOps as people, practices, and technology. He then ties
 self-service compute, experiment tracking, and model registries into the
 platform. He also covers orchestration, metadata, and lineage.
@@ -200,10 +200,10 @@ monitored.
 
 
 In regulated organizations, teams make the approval path more explicit.
-[Nemanja Radojkovic]({{ '/people/nemanjaradojkovic/' | relative_url }}) connects
+[Nemanja Radojkovic](https://datatalks.club/people/nemanjaradojkovic.html) connects
 finance use cases, legacy systems, and regulatory constraints
 in
-[MLOps in Finance]({{ '/podcasts/mlops-and-ml-engineering-in-finance/' | relative_url }}).
+[MLOps in Finance](https://datatalks.club/podcast/mlops-and-ml-engineering-in-finance.html).
 He also covers CI/CD, approvals, and release management. On-premises platforms,
 dev/test/prod separation, and monitoring add more constraints. Model registries
 and minimal viable MLOps complete the practical path.
@@ -212,9 +212,9 @@ His discussion at 18:52 and 22:25 shows why release paths differ. A bank, a
 startup, and a temporary tactical setup can all be valid while requiring
 different evidence and approval points.
 
-[Geo Jolly]({{ '/people/geojolly/' | relative_url }}) frames the same release
+[Geo Jolly](https://datatalks.club/people/geojolly.html) frames the same release
 surface through platform product work in
-[ML Product Manager and MLOps Platform Strategy]({{ '/podcasts/ml-product-manager-and-mlops-platform-strategy/' | relative_url }}).
+[ML Product Manager and MLOps Platform Strategy](https://datatalks.club/podcast/ml-product-manager-and-mlops-platform-strategy.html).
 Roadmap choices and stakeholder balance influence whether teams adopt the
 governed path. Rollout timing and compliance matter too. Quality assurance,
 shadowing, and release checklists also guide adoption. ROI and platform
@@ -230,7 +230,7 @@ surface.
 ## Responsible AI Review
 
 Responsible AI turns governance toward model impact. At 4:43 in
-[Responsible and Explainable AI]({{ '/podcasts/responsible-explainable-ai-bias-detection/' | relative_url }}),
+[Responsible and Explainable AI](https://datatalks.club/podcast/responsible-explainable-ai-bias-detection.html),
 Supreet defines the trust problem around AI decisions. At 8:20, she separates
 explainable AI from the broader responsible-AI discipline. Before model
 training, she includes skewness, missingness, and coverage.
@@ -252,12 +252,12 @@ Fairness and explainability evidence should influence launch, monitoring, and
 override decisions.
 
 Governance also needs evidence that the explanation fits the audience.
-[Christoph Molnar]({{ '/people/christophmolnar/' | relative_url }}) treats
+[Christoph Molnar](https://datatalks.club/people/christophmolnar.html) treats
 interpretability as model debugging and uncertainty evidence in
-[Interpretable Machine Learning]({{ '/podcasts/interpretable-machine-learning/' | relative_url }})
-at 9:27, 20:27, and 23:44. [Tamara Atanasoska]({{ '/people/tamaraatanasoska/' | relative_url }})
+[Interpretable Machine Learning](https://datatalks.club/podcast/interpretable-machine-learning.html)
+at 9:27, 20:27, and 23:44. [Tamara Atanasoska](https://datatalks.club/people/tamaraatanasoska.html)
 shows why fairness metrics still require product and domain judgment in
-[Fairness in AI/ML Engineering]({{ '/podcasts/fairness-in-ai-ml-engineering/' | relative_url }})
+[Fairness in AI/ML Engineering](https://datatalks.club/podcast/fairness-in-ai-ml-engineering.html)
 at 21:31, 24:04, and 28:52. Her 31:33 and 37:13 chapters add organizational
 responsibility and human review. A fairness dashboard or a SHAP value
 becomes governance evidence only when someone
@@ -267,7 +267,7 @@ uses it to decide, monitor, or override a system.
 
 Generative AI widens governance from model release to interaction safety and
 retrieval exposure. Maria's
-[Hardening Generative AI Chatbots]({{ '/podcasts/generative-ai-chatbots-in-production-security/' | relative_url }})
+[Hardening Generative AI Chatbots](https://datatalks.club/podcast/generative-ai-chatbots-in-production-security.html)
 episode covers chatbot hacking and prompt injection. It also covers
 hallucinations, legal exposure, financial exposure, and knowledge-base
 exfiltration.
@@ -284,7 +284,7 @@ a live interaction with retrieved context, not only a stored model file.
 
 Agents add autonomy and memory, plus tools and multi-step execution.
 Aditya's
-[The Future of AI Agents]({{ '/podcasts/s23e03-future-of-ai-agents/' | relative_url }})
+[The Future of AI Agents](https://datatalks.club/podcast/s23e03-future-of-ai-agents.html)
 episode discusses reliability in legal and healthcare settings, specialized
 models, guardrails, and lineage. It also covers compliance and feedback.
 Multi-tenant evaluations and LLM judges appear at 30:26 and 43:30. Deployment

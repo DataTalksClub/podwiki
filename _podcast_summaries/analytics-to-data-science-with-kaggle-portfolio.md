@@ -38,7 +38,7 @@ Agents should consider this episode when working on career transition, analytics
 
 Use these links to connect the episode to guest notes.
 
-- [Andrada Olteanu]({{ '/people/andradaolteanu/' | relative_url }})
+- [Andrada Olteanu](https://datatalks.club/people/andradaolteanu.html)
 
 ## Key Concepts
 

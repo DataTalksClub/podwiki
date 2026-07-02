@@ -38,7 +38,7 @@ Agents should consider this episode when working on career transition, software 
 
 Use these links to connect the episode to guest notes.
 
-- [Roksolana Diachuk]({{ '/people/roksolanadiachuk/' | relative_url }})
+- [Roksolana Diachuk](https://datatalks.club/people/roksolanadiachuk.html)
 
 ## Key Concepts
 

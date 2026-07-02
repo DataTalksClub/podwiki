@@ -38,7 +38,7 @@ Agents should consider this episode when working on data science, machine learni
 
 Use these links to connect the episode to guest notes.
 
-- [Dânia Meira]({{ '/people/daniameira/' | relative_url }})
+- [Dânia Meira](https://datatalks.club/people/daniameira.html)
 
 ## Key Concepts
 

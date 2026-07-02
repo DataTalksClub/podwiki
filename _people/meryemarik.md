@@ -12,7 +12,7 @@ curated: "true"
 
 ## Background
 
-Meryem Arik is co-founder of TitanML, an NLP development platform focused on deployable language models. Her DataTalks.Club contribution is useful because she treats [LLMs]({{ '/wiki/llms/' | relative_url }}) as production systems, not only as demos. In [Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}), the recurring question is how teams make models cheaper and more controllable. She also focuses on reliability after the demo works.
+Meryem Arik is co-founder of TitanML, an NLP development platform focused on deployable language models. Her DataTalks.Club contribution is useful because she treats [LLMs]({{ '/wiki/llms/' | relative_url }}) as production systems, not only as demos. In [Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html), the recurring question is how teams make models cheaper and more controllable. She also focuses on reliability after the demo works.
 
 ## Deploying LLMs as Production Systems
 

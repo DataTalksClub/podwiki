@@ -25,7 +25,7 @@ builders to check, log, evaluate, and ship.
 
 These episodes connect ecosystem work with hands-on AI engineering:
 
-- [DevRel Role for Machine Learning]({{ '/podcasts/devrel-open-source-machine-learning/' | relative_url }})
+- [DevRel Role for Machine Learning](https://datatalks.club/podcast/devrel-open-source-machine-learning.html)
   gives the archive a concrete model for developer relations in ML tooling.
   Hugo describes DevRel through education, documentation, community work,
   and dogfooding. He also calls it a "wisdom layer" around Metaflow and
@@ -34,7 +34,7 @@ These episodes connect ecosystem work with hands-on AI engineering:
   distinguishes a company helping a project from a company owning every part of
   a community. He also explains why technical fluency, writing, and community
   building matter together.
-- [Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }})
+- [Practical LLM Engineering and RAG](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html)
   adds an implementation-oriented view of LLM work. He covers structured
   prompts, transcript automation, generator-evaluator checks, and evaluation
   sets. He also covers failure analysis, logs, and traces. The episode then
@@ -86,9 +86,9 @@ Use these sources for verification:
   evaluation sets at 23:00, logging and traces at 27:38, RAG prioritization at
   44:26, and agent framework at 56:21.
 - Existing summary:
-  [DevRel Role for Machine Learning]({{ '/podcasts/devrel-open-source-machine-learning/' | relative_url }})
+  [DevRel Role for Machine Learning](https://datatalks.club/podcast/devrel-open-source-machine-learning.html)
 
 ## Podcast Discussions
 
-- [DevRel Role for Machine Learning: ML Ecosystems, Open-Source Governance & Developer Experience with Metaflow]({{ '/podcasts/devrel-open-source-machine-learning/' | relative_url }}). Related topics: [developer relations]({{ '/wiki/developer-relations/' | relative_url }}), [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [open-source]({{ '/wiki/open-source/' | relative_url }}).
-- [Practical LLM Engineering and RAG: Prompting, Evaluation and Real-World Workflows]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}). Related topics: [LLMs]({{ '/wiki/llms/' | relative_url }}), [NLP]({{ '/wiki/nlp/' | relative_url }}), [MLOps]({{ '/wiki/mlops/' | relative_url }}), [tools]({{ '/wiki/tools/' | relative_url }}).
+- [DevRel Role for Machine Learning: ML Ecosystems, Open-Source Governance & Developer Experience with Metaflow](https://datatalks.club/podcast/devrel-open-source-machine-learning.html). Related topics: [developer relations]({{ '/wiki/developer-relations/' | relative_url }}), [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [open-source]({{ '/wiki/open-source/' | relative_url }}).
+- [Practical LLM Engineering and RAG: Prompting, Evaluation and Real-World Workflows](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html). Related topics: [LLMs]({{ '/wiki/llms/' | relative_url }}), [NLP]({{ '/wiki/nlp/' | relative_url }}), [MLOps]({{ '/wiki/mlops/' | relative_url }}), [tools]({{ '/wiki/tools/' | relative_url }}).

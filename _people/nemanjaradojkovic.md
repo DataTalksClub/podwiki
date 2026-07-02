@@ -15,8 +15,8 @@ Nemanja Radojkovic's source bio describes a path from electrical engineering int
 
 ## Podcast Contributions
 
-- [MLOps in Finance]({{ '/podcasts/mlops-and-ml-engineering-in-finance/' | relative_url }}) contributes regulated deployment, CI/CD, monitoring, and model governance lessons.
-- [Lean MLOps for Startups]({{ '/podcasts/lean-mlops-for-startups/' | relative_url }}) contrasts that with a lighter SaaS-first startup stack, MVP constraints, and vendor lock-in tradeoffs.
+- [MLOps in Finance](https://datatalks.club/podcast/mlops-and-ml-engineering-in-finance.html) contributes regulated deployment, CI/CD, monitoring, and model governance lessons.
+- [Lean MLOps for Startups](https://datatalks.club/podcast/lean-mlops-for-startups.html) contrasts that with a lighter SaaS-first startup stack, MVP constraints, and vendor lock-in tradeoffs.
 
 ## Concepts Connected
 
@@ -31,5 +31,5 @@ Nemanja Radojkovic's source bio describes a path from electrical engineering int
 
 ## Podcast Discussions
 
-- [Lean MLOps for Startups: SaaS-First MVP Stack, Avoid Vendor Lock-In & Manage Tech Debt]({{ '/podcasts/lean-mlops-for-startups/' | relative_url }}). Related topics: [MLOps]({{ '/wiki/mlops/' | relative_url }}), [data engineering]({{ '/wiki/data-engineering/' | relative_url }}), [tools]({{ '/wiki/tools/' | relative_url }}), [production]({{ '/wiki/production/' | relative_url }}), [career transition]({{ '/wiki/career-transitions-in-data/' | relative_url }}), [startups]({{ '/wiki/startups/' | relative_url }}).
-- [MLOps in Finance: Regulated Deployment, CI/CD and Model Governance]({{ '/podcasts/mlops-and-ml-engineering-in-finance/' | relative_url }}). Related topics: [MLOps]({{ '/wiki/mlops/' | relative_url }}), [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [data engineering]({{ '/wiki/data-engineering/' | relative_url }}), [production]({{ '/wiki/production/' | relative_url }}), [career transition]({{ '/wiki/career-transitions-in-data/' | relative_url }}).
+- [Lean MLOps for Startups: SaaS-First MVP Stack, Avoid Vendor Lock-In & Manage Tech Debt](https://datatalks.club/podcast/lean-mlops-for-startups.html). Related topics: [MLOps]({{ '/wiki/mlops/' | relative_url }}), [data engineering]({{ '/wiki/data-engineering/' | relative_url }}), [tools]({{ '/wiki/tools/' | relative_url }}), [production]({{ '/wiki/production/' | relative_url }}), [career transition]({{ '/wiki/career-transitions-in-data/' | relative_url }}), [startups]({{ '/wiki/startups/' | relative_url }}).
+- [MLOps in Finance: Regulated Deployment, CI/CD and Model Governance](https://datatalks.club/podcast/mlops-and-ml-engineering-in-finance.html). Related topics: [MLOps]({{ '/wiki/mlops/' | relative_url }}), [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [data engineering]({{ '/wiki/data-engineering/' | relative_url }}), [production]({{ '/wiki/production/' | relative_url }}), [career transition]({{ '/wiki/career-transitions-in-data/' | relative_url }}).

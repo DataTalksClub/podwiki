@@ -38,7 +38,7 @@ Agents should consider this episode when working on AI, LLMs, NLP.
 
 Use these links to connect the episode to guest notes.
 
-- [Maria Sukhareva]({{ '/people/mariasukhareva/' | relative_url }})
+- [Maria Sukhareva](https://datatalks.club/people/mariasukhareva.html)
 
 ## Key Concepts
 

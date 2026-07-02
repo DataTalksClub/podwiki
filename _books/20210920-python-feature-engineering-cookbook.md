@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Soledad Galli]({ '/people/soledadgalli/' | relative_url }).
+[Soledad Galli](https://datatalks.club/people/soledadgalli.html).
 
 ## Discussion Archive
 

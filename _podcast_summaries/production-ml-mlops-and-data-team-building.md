@@ -38,7 +38,7 @@ Agents should consider this episode when working on machine learning, production
 
 Use these links to connect the episode to guest notes.
 
-- [Rishabh Bhargava]({{ '/people/rishabhbhargava/' | relative_url }})
+- [Rishabh Bhargava](https://datatalks.club/people/rishabhbhargava.html)
 
 ## Key Concepts
 

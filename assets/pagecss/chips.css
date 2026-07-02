@@ -1,0 +1,53 @@
+/* Entity chips (wiki prose). Loaded after site.css. Colours match the graph legend.
+   Rendered client-side by assets/entity-chips.js from entity links. */
+
+.chip {
+  --chip: #64748b;
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.3em;
+  padding: 0.02em 0.5em 0.06em;
+  border: 1px solid color-mix(in srgb, var(--chip) 45%, var(--line));
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--chip) 9%, var(--panel));
+  color: var(--chip);
+  font-weight: 600;
+  font-size: 0.94em;
+  line-height: 1.4;
+  text-decoration: none;
+  white-space: normal;
+}
+
+.chip:hover,
+.chip:focus {
+  border-color: var(--chip);
+  background: color-mix(in srgb, var(--chip) 16%, var(--panel));
+  color: var(--chip);
+  text-decoration: none;
+}
+
+.chip .chip-ic {
+  font-size: 0.82em;
+  opacity: 0.9;
+}
+
+.chip .chip-time {
+  padding: 0 0.4em;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--chip) 18%, var(--panel));
+  color: var(--chip);
+  font-size: 0.82em;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+/* per-type accent (matches graph node colours) */
+.chip--wiki { --chip: #2c573e; }
+.chip--podcast { --chip: #b26a04; }
+.chip--person { --chip: #7c3aed; }
+.chip--book { --chip: #2563eb; }
+
+html.dark .chip--wiki { --chip: #8ed8ad; }
+html.dark .chip--podcast { --chip: #e0a34b; }
+html.dark .chip--person { --chip: #c4a2f5; }
+html.dark .chip--book { --chip: #7fb0ff; }

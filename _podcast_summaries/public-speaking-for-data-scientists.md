@@ -38,7 +38,7 @@ Agents should consider this episode when working on developer relations, public 
 
 Use these links to connect the episode to guest notes.
 
-- [Ben Taylor]({{ '/people/bentaylor/' | relative_url }})
+- [Ben Taylor](https://datatalks.club/people/bentaylor.html)
 
 ## Key Concepts
 

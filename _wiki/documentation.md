@@ -21,8 +21,8 @@ design docs, and decision logs. Model cards and datasheets belong in the same
 family as runbooks, onboarding notes, and portfolio repo tours.
 
 The most practical open-source definition comes from
-[Vincent Warmerdam]({{ '/people/vincentwarmerdam/' | relative_url }}) in
-[Contribute to Open Source ML]({{ '/podcasts/open-source-ml-contributions/' | relative_url }}).
+[Vincent Warmerdam](https://datatalks.club/people/vincentwarmerdam.html) in
+[Contribute to Open Source ML](https://datatalks.club/podcast/open-source-ml-contributions.html).
 At 22:20, he lists README material, guides, and API reference as project
 essentials. Examples matter too. At 24:10, he connects contribution guides with
 community etiquette. At 25:50, he treats reproducible issues and small
@@ -40,17 +40,17 @@ Across these episodes, documentation is useful when it lowers coordination cost.
 helps a user run a tool. It helps a teammate understand a decision, an operator
 recover from failure, or a hiring manager look at a project.
 
-[Eugene Yan]({{ '/people/eugeneyan/' | relative_url }}) expands the definition
+[Eugene Yan](https://datatalks.club/people/eugeneyan.html) expands the definition
 in
-[Technical Writing for Data Scientists]({{ '/podcasts/technical-writing-for-data-scientists/' | relative_url }}).
+[Technical Writing for Data Scientists](https://datatalks.club/podcast/technical-writing-for-data-scientists.html).
 At 51:00, he discusses working-backwards documents, press releases, and design
 docs. At 54:00, he adds decision logs, rationales, and team memory. At 56:30,
 he recommends portfolio READMEs, quickstarts, and repo tours so another person
 can understand the work without private context.
 
-[Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }}) explains
+[Hugo Bowne-Anderson](https://datatalks.club/people/hugobowneanderson.html) explains
 the adoption role in
-[DevRel Role for Machine Learning]({{ '/podcasts/devrel-open-source-machine-learning/' | relative_url }}).
+[DevRel Role for Machine Learning](https://datatalks.club/podcast/devrel-open-source-machine-learning.html).
 At 18:03, he defines DevRel through education, documentation, and a "wisdom
 layer" around tools. At 25:17, he connects documentation feedback with
 dogfooding and developer collaboration. Documentation isn't only text after
@@ -62,29 +62,29 @@ Guests agree that documentation makes technical work easier to use, but they
 focus on different readers.
 
 Vincent focuses on open-source users and maintainers. In
-[Contribute to Open Source ML]({{ '/podcasts/open-source-ml-contributions/' | relative_url }}),
+[Contribute to Open Source ML](https://datatalks.club/podcast/open-source-ml-contributions.html),
 docs explain the project and set contribution expectations. They also reduce
 maintainer load. Around 27:40, he links first code pull requests to tests, CI,
 and packaging. He also names pre-commit, which makes documentation part of the
 review system.
 
 Eugene focuses on future teammates and future readers. In
-[Technical Writing for Data Scientists]({{ '/podcasts/technical-writing-for-data-scientists/' | relative_url }}),
+[Technical Writing for Data Scientists](https://datatalks.club/podcast/technical-writing-for-data-scientists.html),
 the 14:00 chapter starts from audience choice. The 25:00 chapter uses an
 outline-first method, and the 54:00 chapter treats decision records as a way to
 keep reasoning available after the meeting ends.
 
-Hugo and [Will Russell]({{ '/people/willrussell/' | relative_url }}) focus on
+Hugo and [Will Russell](https://datatalks.club/people/willrussell.html) focus on
 developers trying to adopt tools. Hugo's 43:14 chapter says tutorials should
 start from audience and goals. In
-[Developer Advocacy Through Community Impact]({{ '/podcasts/practical-devrel-demofirst-education-and-open-source/' | relative_url }}),
+[Developer Advocacy Through Community Impact](https://datatalks.club/podcast/practical-devrel-demofirst-education-and-open-source.html),
 Will describes developer advocacy through documentation, demos, and outreach at
 49:14. At 51:49, he describes a content workflow based on bullet points, demos,
 and collaboration with writers.
 
-[Nadia Nahar]({{ '/people/nadianahar/' | relative_url }}) adds a software
+[Nadia Nahar](https://datatalks.club/people/nadianahar.html) adds a software
 engineering and accountability lens in
-[Software Engineering for ML]({{ '/podcasts/software-engineering-for-machine-learning/' | relative_url }}).
+[Software Engineering for ML](https://datatalks.club/podcast/software-engineering-for-machine-learning.html).
 At 13:52, documentation appears with shared vocabulary and expectation setting.
 At 42:47, model cards and datasheets become documentation for ML products.
 Factsheets and checklists belong there too. They aren't just communication
@@ -97,7 +97,7 @@ and requirements. Ownership and operating context matter too. Code alone rarely
 shows those assumptions.
 
 Nadia's
-[Software Engineering for ML]({{ '/podcasts/software-engineering-for-machine-learning/' | relative_url }})
+[Software Engineering for ML](https://datatalks.club/podcast/software-engineering-for-machine-learning.html)
 episode is the strongest ML-system reference. At 10:12, she frames ML products
 through hidden technical debt. At 29:42, she discusses failure modes such as
 unmet requirements, poor data, and deployment issues. Her 39:05 chapter puts
@@ -128,9 +128,9 @@ evaluation. They also include serving, monitoring, fallbacks, and ownership.
 Runbooks make documentation part of operations. They explain what to check, who
 owns the system, how to recover, and when to escalate.
 
-[Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }}) gives the
+[Christopher Bergh](https://datatalks.club/people/christopherbergh.html) gives the
 clearest operational version in
-[Mastering DataOps]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }}).
+[Mastering DataOps](https://datatalks.club/podcast/dataops-automation-and-reliable-data-pipelines.html).
 At 33:47, he lists version control, tests, and CI/CD as practical steps for
 healthier data pipelines. At 34:37, he moves from runbooks to automated
 playbooks. At 38:01, he connects handoffs and documentation to replaceability.
@@ -146,7 +146,7 @@ and owners. Rollback options and tradeoffs matter too.
 
 Technical writing becomes documentation when it preserves a decision or makes a
 workflow reproducible. Eugene's
-[Technical Writing for Data Scientists]({{ '/podcasts/technical-writing-for-data-scientists/' | relative_url }})
+[Technical Writing for Data Scientists](https://datatalks.club/podcast/technical-writing-for-data-scientists.html)
 episode links public writing and workplace writing. At 20:00, he describes a
 repeatable writing cadence. At 25:00, he starts from an outline. At 51:00 and
 54:00, the same habits apply to design docs, rationales, and decision logs.
@@ -171,13 +171,13 @@ verification path.
 
 Documentation is part of [developer experience]({{ '/wiki/developer-experience/' | relative_url }})
 because first use is often where adoption fails. Hugo's
-[DevRel Role for Machine Learning]({{ '/podcasts/devrel-open-source-machine-learning/' | relative_url }})
+[DevRel Role for Machine Learning](https://datatalks.club/podcast/devrel-open-source-machine-learning.html)
 episode makes that explicit. At 36:27, he connects teaching reproducibility to
 dogfooding and simplified workflows. At 43:14, he discusses tutorial structure
 through audience and goals.
 
 Will's
-[Developer Advocacy Through Community Impact]({{ '/podcasts/practical-devrel-demofirst-education-and-open-source/' | relative_url }})
+[Developer Advocacy Through Community Impact](https://datatalks.club/podcast/practical-devrel-demofirst-education-and-open-source.html)
 episode adds the demo side. At 53:40, he recommends videos with a clear goal,
 useful pace, and full walkthroughs. At 57:22, his "Learn with Kestra" examples
 include adjacent tools such as Docker, Postgres, and Git. That matters because
@@ -202,7 +202,7 @@ At 24:10, he covers contribution guides and polite interaction. At 25:50, he
 treats reproducible issues and docs fixes as contribution paths.
 
 Will gives the mentorship side in
-[Developer Advocacy Through Community Impact]({{ '/podcasts/practical-devrel-demofirst-education-and-open-source/' | relative_url }})
+[Developer Advocacy Through Community Impact](https://datatalks.club/podcast/practical-devrel-demofirst-education-and-open-source.html)
 episode. Around 35:43 and 39:02, he discusses mentorship and pull request
 quality. He also covers Git skills and onboarding into large repositories.
 Around 41:16, he adds environment setup and maintainer collaboration.

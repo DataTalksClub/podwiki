@@ -28,9 +28,9 @@ and data boundaries, use
 [Machine Learning Infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }})
 and [DataOps]({{ '/wiki/dataops/' | relative_url }}).
 
-[Simon Stiebellehner]({{ '/people/simonstiebellehner/' | relative_url }})
+[Simon Stiebellehner](https://datatalks.club/people/simonstiebellehner.html)
 describes MLOps as a mix of people, operating habits, and technology at 4:42 in
-[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
+[Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html).
 A practical roadmap starts with a reproducible run and a shipped model. It then
 grows toward production observation, failure response, and a deliberate choice
 about when shared platform work is worth the cost.
@@ -47,14 +47,14 @@ layer is artifact handoff and deployment.
 operational decisions become necessary when production signals start to matter.
 
 Simon lays out the early technical sequence in
-[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
+[Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html).
 He covers experiment tracking around 29:41 and model registries around 30:32.
 Batch and online serving appear around 31:15-31:51. Metadata, lineage, and
 prediction logging appear between 42:48 and 54:15.
 
-[Raphael Hoogvliets]({{ '/people/raphaelhoogvliets/' | relative_url }}) adds
+[Raphael Hoogvliets](https://datatalks.club/people/raphaelhoogvliets.html) adds
 the adoption layer in
-[MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}).
+[MLOps at Scale](https://datatalks.club/podcast/mlops-at-scale-reproducibility-adoption.html).
 Around 23:01, he describes a central MLOps team as an enabling platform team.
 Around 39:06-44:22, he covers CI and repository structure. He also discusses
 parameterization and testing, along with data versioning, traceability, and
@@ -67,16 +67,16 @@ models observable.
 
 Raphael makes that senior responsibility explicit around
 27:56-36:55 in
-[MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}),
+[MLOps at Scale](https://datatalks.club/podcast/mlops-at-scale-reproducibility-adoption.html),
 where developer experience and pain points drive the platform agenda. Quick
 wins and impact tracking matter in the same discussion.
 
 ## Standardization Timing
 
 The main roadmap tradeoff is how much shared platform work to add.
-[Maria Vechtomova]({{ '/people/mariavechtomova/' | relative_url }})
+[Maria Vechtomova](https://datatalks.club/people/mariavechtomova.html)
 argues for pragmatic standardization in
-[Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }}).
+[Pragmatic and Standardized MLOps](https://datatalks.club/podcast/pragmatic-and-standardized-mlops.html).
 Around 16:27-22:23, she recommends using existing infrastructure such as
 Kubernetes and Git before adding more tools. She still names CI/CD and
 registries as useful foundations.
@@ -85,27 +85,27 @@ Around 29:55-35:21, she shifts from tool choice to developer experience
 through cookie-cutter repositories and service principals. She also discusses
 Databricks conventions, DevOps buy-in, and reusable standards.
 
-[Nemanja Radojkovic]({{ '/people/nemanjaradojkovic/' | relative_url }}) draws
+[Nemanja Radojkovic](https://datatalks.club/people/nemanjaradojkovic.html) draws
 a leaner early-stage boundary in
-[Lean MLOps for Startups]({{ '/podcasts/lean-mlops-for-startups/' | relative_url }}).
+[Lean MLOps for Startups](https://datatalks.club/podcast/lean-mlops-for-startups.html).
 Around 7:54-21:35, he frames startup MLOps as a shoestring strategy built on
 SaaS-first choices and cloud credits. He also uses managed services and fast
 MVP stacks while weighing migration friction, lock-in, and future flexibility.
 In a regulated finance setting, he moves earlier toward release governance and
 approvals. He adds dev/test/prod separation, monitoring, and interim registry
 patterns around 22:25-35:57 in
-[MLOps in Finance]({{ '/podcasts/mlops-and-ml-engineering-in-finance/' | relative_url }}).
+[MLOps in Finance](https://datatalks.club/podcast/mlops-and-ml-engineering-in-finance.html).
 
 Monitoring specialists place the center of gravity closer to production
 behavior. In
-[MLOps Architect Guide]({{ '/podcasts/mlops-model-monitoring-data-observability/' | relative_url }}),
-[Danny Leybzon]({{ '/people/dannyleybzon/' | relative_url }}) prioritizes
+[MLOps Architect Guide](https://datatalks.club/podcast/mlops-model-monitoring-data-observability.html),
+[Danny Leybzon](https://datatalks.club/people/dannyleybzon.html) prioritizes
 production and model monitoring around 25:04. Around 27:35, he ties model
 failures to ETL jobs, data pipelines, and upstream root causes.
 
 In
-[Human-Centered MLOps and Model Monitoring]({{ '/podcasts/human-centered-mlops-and-model-monitoring/' | relative_url }}),
-[Lina Weichbrodt]({{ '/people/linaweichbrodt/' | relative_url }}) starts from
+[Human-Centered MLOps and Model Monitoring](https://datatalks.club/podcast/human-centered-mlops-and-model-monitoring.html),
+[Lina Weichbrodt](https://datatalks.club/people/linaweichbrodt.html) starts from
 stakeholder trust and response habits. Around 24:34-49:28, she covers service
 levels and post-mortems. She also covers live test sets and small A/B tests.
 Feature drift, logging, and reproducibility appear in the same production
@@ -123,16 +123,16 @@ This is the practical base for
 
 Simon presents experiment tracking as an early win for reproducibility and
 collaboration around 29:41 in
-[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
+[Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html).
 Raphael gives the team-scale version around 39:06-44:22 in
-[MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}).
+[MLOps at Scale](https://datatalks.club/podcast/mlops-at-scale-reproducibility-adoption.html).
 Repository structure, CI, parameterization, and testing keep ML knowledge from
 staying on one laptop. Data versioning, traceability, and experiment capture do
 the same for run history.
 
 Don't turn this stage into tool collecting. Maria warns about MLOps landscape
 overload around 14:45 in
-[Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }}).
+[Pragmatic and Standardized MLOps](https://datatalks.club/podcast/pragmatic-and-standardized-mlops.html).
 The next stage is ready when you can recover the code and environment. You
 should also recover the data reference, parameters, metric, and model artifact
 for a run.
@@ -145,16 +145,16 @@ path, and a rollback note. Use this stage to learn the handoff from training
 code to prediction code before designing a full platform.
 
 Simon separates batch inference from online serving around 31:15 in
-[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
+[Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html).
 He then connects those paths to orchestration around 31:51 and unified
 prediction schemas around 54:15. Maria adds the engineering boundary around
 33:24 in
-[Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }}).
+[Pragmatic and Standardized MLOps](https://datatalks.club/podcast/pragmatic-and-standardized-mlops.html).
 Move production logic out of notebooks, then put it into packages and CI/CD.
 
-Keep the infrastructure boring while you learn this handoff. [Ben Wilson]({{ '/people/benwilson/' | relative_url }})
+Keep the infrastructure boring while you learn this handoff. [Ben Wilson](https://datatalks.club/people/benwilson.html)
 argues for maintainability over novelty around 6:50-13:19 in
-[Practical Machine Learning Engineering for Production]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }}).
+[Practical Machine Learning Engineering for Production](https://datatalks.club/podcast/machine-learning-engineering-production-best-practices.html).
 Around 44:23, he argues for simple solutions before complex ones. A container,
 scheduled job, or managed serving option is enough if it exposes release and
 runtime questions. It should also expose logging and rollback questions.
@@ -165,10 +165,10 @@ After one model runs, add a registry or registry-like convention. Track the
 model artifact, owner, training-data reference, and evaluation metric. Also
 track approval status, deployment target, and rollback path. Simon places model
 persistence for downstream consumption around 30:32 in
-[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
+[Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html).
 
 Maria shows the lighter implementation boundary around 20:49 in
-[Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }}).
+[Pragmatic and Standardized MLOps](https://datatalks.club/podcast/pragmatic-and-standardized-mlops.html).
 Artifactory, S3, MLflow, or another artifact store can work when the team keeps
 traceability.
 
@@ -177,10 +177,10 @@ and latency. Then add one business or proxy outcome.
 
 Danny ties production model monitoring to upstream data failures around 27:35
 in
-[MLOps Architect Guide]({{ '/podcasts/mlops-model-monitoring-data-observability/' | relative_url }}).
+[MLOps Architect Guide](https://datatalks.club/podcast/mlops-model-monitoring-data-observability.html).
 Lina adds live test sets, small A/B tests, stakeholder impact, and
 post-mortems around 24:34-49:28 in
-[Human-Centered MLOps and Model Monitoring]({{ '/podcasts/human-centered-mlops-and-model-monitoring/' | relative_url }}).
+[Human-Centered MLOps and Model Monitoring](https://datatalks.club/podcast/human-centered-mlops-and-model-monitoring.html).
 She also covers feature drift, logging, and reproducibility.
 
 Don't automate retraining before you decide which signal justifies retraining.
@@ -188,7 +188,7 @@ Also decide who approves it and how the candidate model is compared with the
 current model. That approval boundary matters most in regulated settings, where
 Nemanja describes release governance, approvals, and trust-building around
 22:25-23:39 in
-[MLOps in Finance]({{ '/podcasts/mlops-and-ml-engineering-in-finance/' | relative_url }}).
+[MLOps in Finance](https://datatalks.club/podcast/mlops-and-ml-engineering-in-finance.html).
 
 ## Turn Repeated Work Into a Platform
 
@@ -201,11 +201,11 @@ friction for product teams. The adjacent reference pages are
 [ML Platform Engineer Role]({{ '/wiki/ml-platform-engineer-role/' | relative_url }}).
 
 Raphael describes this adoption path around 23:01-36:55 in
-[MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}).
+[MLOps at Scale](https://datatalks.club/podcast/mlops-at-scale-reproducibility-adoption.html).
 A central team supports product teams, gathers pain points, delivers quick
 wins, and measures value through deployment frequency and impact. Simon gives a
 platform trigger around 16:52-20:04 in
-[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
+[Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html).
 Standardization becomes compelling when repeated deployment and tracking
 problems appear across teams. Serving and governance problems can create the
 same pressure.
@@ -213,12 +213,12 @@ same pressure.
 Developer experience is part of the platform skill set. Maria discusses
 cookie-cutter repositories, service principals, and Databricks conventions
 around 29:55-35:21 in
-[Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }}).
+[Pragmatic and Standardized MLOps](https://datatalks.club/podcast/pragmatic-and-standardized-mlops.html).
 She also discusses DevOps buy-in and reusable standards.
 The platform should help teams ship and operate models. If it only ships tools
 that teams don't adopt, it hasn't solved the roadmap problem Raphael
 describes around 27:56-36:55 in
-[MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}).
+[MLOps at Scale](https://datatalks.club/podcast/mlops-at-scale-reproducibility-adoption.html).
 
 ## Specialize by Constraint
 
@@ -229,36 +229,36 @@ In regulated MLOps, validation, approvals, and release governance matter early.
 Teams also need dev/test/prod separation, monitoring, auditability, and risk
 controls. Nemanja
 covers those finance constraints around 18:52-35:57 in
-[MLOps in Finance]({{ '/podcasts/mlops-and-ml-engineering-in-finance/' | relative_url }}).
+[MLOps in Finance](https://datatalks.club/podcast/mlops-and-ml-engineering-in-finance.html).
 
 Startup MLOps puts minimal stacks, SaaS choices, and rapid MVP delivery first.
 It still needs portability, technical debt awareness, and security. Nemanja covers
 this around 7:54-21:35 and 37:54-48:11 in
-[Lean MLOps for Startups]({{ '/podcasts/lean-mlops-for-startups/' | relative_url }}).
+[Lean MLOps for Startups](https://datatalks.club/podcast/lean-mlops-for-startups.html).
 
 Platform MLOps starts with internal users, templates, CI/CD, and serving modes.
 It then adds support models, adoption metrics, and governance. Raphael and
 Simon anchor that path in
-[MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }})
+[MLOps at Scale](https://datatalks.club/podcast/mlops-at-scale-reproducibility-adoption.html)
 and
-[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
+[Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html).
 
 Monitoring and observability work starts with drift, data quality, and feature
 logging. It then adds incident response and upstream root causes. Danny and
 Lina anchor that path in
-[MLOps Architect Guide]({{ '/podcasts/mlops-model-monitoring-data-observability/' | relative_url }})
+[MLOps Architect Guide](https://datatalks.club/podcast/mlops-model-monitoring-data-observability.html)
 and
-[Human-Centered MLOps and Model Monitoring]({{ '/podcasts/human-centered-mlops-and-model-monitoring/' | relative_url }}).
+[Human-Centered MLOps and Model Monitoring](https://datatalks.club/podcast/human-centered-mlops-and-model-monitoring.html).
 
 Feature-platform MLOps focuses on online features, training-serving skew,
 materialization, and serving. It also needs validation, registry, and
-monitoring. [Willem Pienaar]({{ '/people/willempienaar/' | relative_url }})
+monitoring. [Willem Pienaar](https://datatalks.club/people/willempienaar.html)
 explains where feature stores matter around 6:30-28:00 and 36:30-52:00 in
-[Feature Stores for MLOps]({{ '/podcasts/mlops-feature-stores-feature-stores-feast-tecton/' | relative_url }}).
+[Feature Stores for MLOps](https://datatalks.club/podcast/mlops-feature-stores-feature-stores-feast-tecton.html).
 
 LLMOps can be a later specialization, but it shouldn't replace the core model
 lifecycle. Maria discusses LLM pilots and hype around 42:53-45:44 in
-[Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }}).
+[Pragmatic and Standardized MLOps](https://datatalks.club/podcast/pragmatic-and-standardized-mlops.html).
 She also covers cost, GPU constraints, and multilingual limits.
 
 The same roadmap still needs reproducible configuration, deployment,
@@ -276,7 +276,7 @@ evidence should still be a working model lifecycle that another person can run
 and question.
 
 Maria's learning advice in
-[Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }})
+[Pragmatic and Standardized MLOps](https://datatalks.club/podcast/pragmatic-and-standardized-mlops.html)
 is the most direct podcast discussion of MLOps study choices. Around 54:05, she
 recommends hands-on projects and pairing with engineers. Around 56:08, she
 adds ML fundamentals and software engineering. She also adds system design and
@@ -292,15 +292,15 @@ add batch or online inference and CI/CD before registry handoff, monitoring,
 and operating notes.
 
 Simon's sequence in
-[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }})
+[Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html)
 supports that order. He covers experiment tracking around 29:41 and registries
 around 30:32. Batch and online serving appear around 31:15-31:51. Metadata and
 lineage appear around 42:48-54:15.
 
 Certifications are useful when they organize study or teach a named platform,
-but they should point back to evidence. [Jeff Katz]({{ '/people/jeffkatz/' | relative_url }})
+but they should point back to evidence. [Jeff Katz](https://datatalks.club/people/jeffkatz.html)
 answers a certification question in
-[Data Engineering Job Prep and Interview Guide]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }})
+[Data Engineering Job Prep and Interview Guide](https://datatalks.club/podcast/get-data-engineering-job-prep-and-interview.html)
 around 21:56 by returning to Python and SQL. He also references GitHub and
 practical ETL work. Around 37:49, he treats cloud certificate prep as useful
 for fundamentals, not as a replacement for skill. For MLOps, a credential
@@ -314,9 +314,9 @@ base that MLOps depends on. It should teach problem framing, labels, features,
 and baselines before adding deployment and monitoring. It should also teach
 metrics, evaluation, and error analysis.
 
-[Valerii Babushkin]({{ '/people/valeriybabushkin/' | relative_url }})
+[Valerii Babushkin](https://datatalks.club/people/valeriybabushkin.html)
 shows that order in
-[Machine Learning System Design Interview]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }}).
+[Machine Learning System Design Interview](https://datatalks.club/podcast/machine-learning-system-design-interview.html).
 Fraud detection and recommendation examples move from labels and imbalance into
 metrics and baselines. The same discussion adds A/B testing, monitoring,
 distribution shift, and fallbacks. A bootcamp that skips this
@@ -343,32 +343,32 @@ Build projects in the order that exposes the lifecycle:
   data reference with metrics, and save parameters plus artifacts in a
   reproducibility note. This practices Simon's experiment tracking discussion
   around 29:41 and metadata discussion around 42:48 in
-  [Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
+  [Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html).
 - Batch inference pipeline: include scheduled predictions, input checks,
   prediction output, run history, and a rollback note. This follows the batch
   path Simon separates from online serving around 31:15 in
-  [Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
+  [Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html).
 - Online service: include API serving, schema validation, and model artifact
   lookup, then add request and response logging plus latency checks. Write
   deployment notes that combine Maria's package-and-CI/CD advice around 33:24 in
-  [Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }})
+  [Pragmatic and Standardized MLOps](https://datatalks.club/podcast/pragmatic-and-standardized-mlops.html)
   with Simon's unified prediction schema around 54:15.
 - Monitoring dashboard and response path: track input quality and prediction
   distribution together with errors and latency. Then add one business or proxy
   metric and use Danny's production framing around 25:04-27:35 in
-  [MLOps Architect Guide]({{ '/podcasts/mlops-model-monitoring-data-observability/' | relative_url }})
+  [MLOps Architect Guide](https://datatalks.club/podcast/mlops-model-monitoring-data-observability.html)
   for the monitoring side. Use Lina's post-mortem and monitoring chapters
   around 24:34-49:28 in
-  [Human-Centered MLOps and Model Monitoring]({{ '/podcasts/human-centered-mlops-and-model-monitoring/' | relative_url }}).
+  [Human-Centered MLOps and Model Monitoring](https://datatalks.club/podcast/human-centered-mlops-and-model-monitoring.html).
 - Mini-platform: include a repository template, CI, a registry convention, a
   deployment guide, and a monitoring hook. Add an adoption note explaining
   which team pain it solves. This mirrors Raphael's pain-point and quick-win adoption
   strategy around 27:56-36:55 in
-  [MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}).
+  [MLOps at Scale](https://datatalks.club/podcast/mlops-at-scale-reproducibility-adoption.html).
 
 One finished lifecycle is stronger than five disconnected tool demos. Ben's
 production ML advice in
-[Practical Machine Learning Engineering for Production]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }})
+[Practical Machine Learning Engineering for Production](https://datatalks.club/podcast/machine-learning-engineering-production-best-practices.html)
 repeatedly favors maintainable systems, cross-functional trust, and
 cost-benefit tradeoffs over novelty.
 
@@ -398,15 +398,15 @@ A course, certification, or bootcamp project should include:
 - operating notes for ownership, failure modes, fallback behavior, and rollback
 - operating notes for retraining criteria, known limits, and future work
 
-Portfolio and hiring discussions set a similar bar. [Slawomir Tulski]({{ '/people/slawomirtulski/' | relative_url }}) discusses
+Portfolio and hiring discussions set a similar bar. [Slawomir Tulski](https://datatalks.club/people/slawomirtulski.html) discusses
 side-project framing around 57:35 in
-[Data Engineer Career in 2026]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }}).
+[Data Engineer Career in 2026](https://datatalks.club/podcast/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for.html).
 Around 1:04:42, he points toward end-to-end platform projects as stronger
 proof. For MLOps, a working training-to-monitoring path is stronger evidence
 than a list of tools.
 
 Ben gives the engineering bar in
-[Practical Machine Learning Engineering for Production]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }}).
+[Practical Machine Learning Engineering for Production](https://datatalks.club/podcast/machine-learning-engineering-production-best-practices.html).
 Around 8:49, he talks about refactoring hard-to-follow data science code into
 smaller pieces that teams can maintain. Around 32:03, he discusses timeboxed
 experiments and cost-benefit tradeoffs. Around 44:23, he recommends simpler
@@ -419,7 +419,7 @@ design episode ties features, labels, and baselines to metrics. It also adds
 monitoring and fallbacks.
 
 Maria's MLOps episode adds Git and CI/CD, plus registries and deployment in
-[Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }}).
+[Pragmatic and Standardized MLOps](https://datatalks.club/podcast/pragmatic-and-standardized-mlops.html).
 Monitoring, code quality, and testing belong there too. Simon and Raphael add
 the platform path when repeated projects need shared standards, developer
 experience, and adoption work. The portfolio standard is to finish one
@@ -432,28 +432,28 @@ Entry-level readiness means you can reproduce runs and package inference code.
 You can log predictions, explain training metrics, compare them with production
 behavior, and debug a failed run. That aligns with Maria's minimum maturity
 base around 18:41-24:01 in
-[Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }})
+[Pragmatic and Standardized MLOps](https://datatalks.club/podcast/pragmatic-and-standardized-mlops.html)
 and Nemanja's beginner stack advice around 45:04-56:19 in
-[MLOps in Finance]({{ '/podcasts/mlops-and-ml-engineering-in-finance/' | relative_url }}).
+[MLOps in Finance](https://datatalks.club/podcast/mlops-and-ml-engineering-in-finance.html).
 
 Mid-level readiness means you can own deployment, monitoring, and registry
 usage. You can also own CI/CD and retraining decisions. You can communicate with data scientists,
 product teams, and business stakeholders. Danny frames the MLOps architect role
 as a technical-business bridge around 8:11-10:32 in
-[MLOps Architect Guide]({{ '/podcasts/mlops-model-monitoring-data-observability/' | relative_url }}).
+[MLOps Architect Guide](https://datatalks.club/podcast/mlops-model-monitoring-data-observability.html).
 Lina shows why stakeholder engagement, service levels, post-mortems, and
 feedback channels belong in production ML work around 12:22-27:14 in
-[Human-Centered MLOps and Model Monitoring]({{ '/podcasts/human-centered-mlops-and-model-monitoring/' | relative_url }}).
+[Human-Centered MLOps and Model Monitoring](https://datatalks.club/podcast/human-centered-mlops-and-model-monitoring.html).
 
 Senior readiness means you can design adoption paths and choose build-versus-buy
 boundaries. You can create platform standards and support regulated or
 high-risk systems and measure whether MLOps work improves deployment speed.
 Raphael covers adoption strategy and quick wins around 27:56-36:55 in
-[MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}).
+[MLOps at Scale](https://datatalks.club/podcast/mlops-at-scale-reproducibility-adoption.html).
 He also covers deployment frequency and impact tracking.
 
 Simon adds build-versus-buy and platform triggers around 16:52-20:04 in
-[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
+[Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html).
 Around 42:48-49:19, he adds metadata and lineage. Simon also covers governance
 in that episode.
 
@@ -465,7 +465,7 @@ and load model artifacts. Define one offline metric and one production signal.
 Maria
 recommends hands-on projects, fundamentals, and tool-agnostic end-to-end
 stitching around 39:29-57:14 in
-[Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }}).
+[Pragmatic and Standardized MLOps](https://datatalks.club/podcast/pragmatic-and-standardized-mlops.html).
 
 Don't wait until you know every MLOps platform. Build the smallest lifecycle
 that works, then study the next tool when the project exposes the problem that
@@ -473,9 +473,9 @@ tool solves.
 
 Raphael recommends prioritizing CI/CD and tangible pain points
 around 48:41 in
-[MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}).
+[MLOps at Scale](https://datatalks.club/podcast/mlops-at-scale-reproducibility-adoption.html).
 Nemanja makes the same point for startups around 44:10-49:00 in
-[Lean MLOps for Startups]({{ '/podcasts/lean-mlops-for-startups/' | relative_url }}).
+[Lean MLOps for Startups](https://datatalks.club/podcast/lean-mlops-for-startups.html).
 Python and CI/CD matter before broad platform breadth. Orchestration and
 observability matter too, along with foundational tools.
 

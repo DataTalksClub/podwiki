@@ -38,7 +38,7 @@ Agents should consider this episode when working on data science, machine learni
 
 Use these links to connect the episode to guest notes.
 
-- [Sabina Firtala]({{ '/people/sabinafirtala/' | relative_url }})
+- [Sabina Firtala](https://datatalks.club/people/sabinafirtala.html)
 
 ## Key Concepts
 

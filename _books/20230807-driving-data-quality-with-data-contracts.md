@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Andrew Jones]({ '/people/andrewjones/' | relative_url }).
+[Andrew Jones](https://datatalks.club/people/andrewjones.html).
 
 ## Discussion Archive
 

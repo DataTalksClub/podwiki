@@ -38,7 +38,7 @@ Agents should consider this episode when working on consulting, entrepreneurship
 
 Use these links to connect the episode to guest notes.
 
-- [Aleksander Kruszelnicki]({{ '/people/aleksanderkruszelnicki/' | relative_url }})
+- [Aleksander Kruszelnicki](https://datatalks.club/people/aleksanderkruszelnicki.html)
 
 ## Key Concepts
 

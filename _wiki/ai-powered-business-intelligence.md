@@ -35,18 +35,18 @@ operating discipline.
 
 The strongest BI use cases start with a decision that someone already needs to
 make.
-[Actionable Data Strategy and DataOps for AI-Powered Products]({{ '/podcasts/data-strategy-and-dataops-for-ai-powered-products/' | relative_url }})
+[Actionable Data Strategy and DataOps for AI-Powered Products](https://datatalks.club/podcast/data-strategy-and-dataops-for-ai-powered-products.html)
 is the clearest strategy source here.
-[Boyan Angelov]({{ '/people/boyanangelov/' | relative_url }}) defines data
+[Boyan Angelov](https://datatalks.club/people/boyanangelov.html) defines data
 strategy as an actionable plan tied to business goals, feasibility, delivery,
 and measurement. His discussion covers use-case prioritization at 13:28,
 impact assessment at 18:22, BI distinctions at 27:18, and baseline measurement
 at 55:32. For AI-powered BI, that sequence matters because a chatbot can't
 rescue a vague business question or an unmeasured initiative.
 
-[Lior Barak]({{ '/people/liorbarak/' | relative_url }}) makes the same point
+[Lior Barak](https://datatalks.club/people/liorbarak.html) makes the same point
 from the trust side in
-[Mindful Data Strategy for Business Impact]({{ '/podcasts/mindful-data-strategy-for-business-impact/' | relative_url }}).
+[Mindful Data Strategy for Business Impact](https://datatalks.club/podcast/mindful-data-strategy-for-business-impact.html).
 From 20:50 to 23:26, he walks through core KPI diagnosis and dashboard
 inaccuracies. He also covers ingestion issues, SQL logic, and lineage checks.
 
@@ -61,7 +61,7 @@ For a broader operating frame, use
 [Dashboard and Metric Layer Project Checklist]({{ '/wiki/dashboard-and-metric-layer-project-checklist/' | relative_url }}).
 Those pages keep AI-powered BI close to business questions instead of treating
 it as a separate interface project.
-[AI-Powered Business Intelligence]({{ '/books/20220606-ai-powered-business-intelligence/' | relative_url }})
+[AI-Powered Business Intelligence](https://datatalks.club/books/20220606-ai-powered-business-intelligence.html)
 by Tobias Zwingmann expands this same use-case-first approach: it covers where generative AI usefully augments BI workflows and where governed metrics must stay the foundation.
 
 ## Dashboards, Metrics, and Semantic Layers
@@ -75,9 +75,9 @@ issue.
 The team needs shared definitions for revenue, churn, active users, and
 conversion. Cost, cohort, and other decision terms need the same treatment.
 
-[Arpit Choudhury]({{ '/people/arpitchoudhury/' | relative_url }}) gives the
+[Arpit Choudhury](https://datatalks.club/people/arpitchoudhury.html) gives the
 event-data version in
-[How to Build a Data-Led Growth Stack]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }}).
+[How to Build a Data-Led Growth Stack](https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html).
 At 13:34, he covers tracking plans with events, properties, and ownership. At
 18:27, he uses anomaly investigation to show why teams need to trace where
 events came from. At 28:52, the same data flow reaches warehouse transformation
@@ -87,9 +87,9 @@ An AI assistant that summarizes a funnel or drafts a SQL query needs those
 event definitions as grounding. Without them, it may count the wrong user
 action with polished language.
 
-[Ioannis Mesionis]({{ '/people/ioannismesionis/' | relative_url }}) adds an
+[Ioannis Mesionis](https://datatalks.club/people/ioannismesionis.html) adds an
 analytics-product operating model in
-[Building Data Products at Scale]({{ '/podcasts/building-data-products-lead-data-scientist/' | relative_url }}).
+[Building Data Products at Scale](https://datatalks.club/podcast/building-data-products-lead-data-scientist.html).
 From 14:00 to 20:54, his team uses a single intake path and Definition of Done.
 They also use KPIs, success criteria, and fail-fast checks. From 25:17 to
 55:11, he describes pilots and A/B testing. He also covers production rollout
@@ -114,15 +114,15 @@ or generate a reviewable SQL query. It can also help analysts write clearer
 business explanations.
 
 Boyan's episode gives a modest version of that value.
-[Actionable Data Strategy and DataOps for AI-Powered Products]({{ '/podcasts/data-strategy-and-dataops-for-ai-powered-products/' | relative_url }})
+[Actionable Data Strategy and DataOps for AI-Powered Products](https://datatalks.club/podcast/data-strategy-and-dataops-for-ai-powered-products.html)
 covers GPT as a writing co-pilot, outline helper, and data-strategy ideation
 aid from 43:46 to 52:44.
 That's close to BI work because analysts often need to turn a metric change
 into an executive explanation or a prioritized next step.
 
-[Bartosz Mikulski]({{ '/people/bartoszmikulski/' | relative_url }}) gives the
+[Bartosz Mikulski](https://datatalks.club/people/bartoszmikulski.html) gives the
 production AI boundary in
-[Production AI Engineering]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }}).
+[Production AI Engineering](https://datatalks.club/podcast/production-ready-ai-engineering.html).
 He starts with data trust and pipeline testing at 9:05 and 11:47.
 
 From 25:13 to 31:45, he moves to prompt evaluation, compression, and caching.
@@ -133,9 +133,9 @@ The AI feature is part of the BI product. It's not a shortcut
 around [AI Engineering]({{ '/wiki/ai-engineering/' | relative_url }})
 or [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }}).
 
-[Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) extends the
+[Adrian Brudaru](https://datatalks.club/people/adrianbrudaru.html) extends the
 platform view in
-[Trends in Modern Data Engineering]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}).
+[Trends in Modern Data Engineering](https://datatalks.club/podcast/trends-in-modern-data-engineering.html).
 He discusses metadata, catalogs, access, and lineage at 21:27 and 23:41. He
 also describes AI engineering convergence for data engineers at 38:02 and
 AI-driven code generation at 56:15. AI can make BI interfaces easier to use,
@@ -153,14 +153,14 @@ also show sources and filters. Joins, caveats, and denied-access reasons should
 be visible too.
 
 Lior's dashboard reliability discussion is the strongest BI warning. In
-[Mindful Data Strategy for Business Impact]({{ '/podcasts/mindful-data-strategy-for-business-impact/' | relative_url }}),
+[Mindful Data Strategy for Business Impact](https://datatalks.club/podcast/mindful-data-strategy-for-business-impact.html),
 he describes a data trust crisis at 9:48 and generative AI hallucination risk
 at 11:47. At 14:09, he covers data quality trade-offs. He later proposes a
 traffic-light system for dashboard reliability at 30:47 and a feedback path
 with analysts at 33:18. An AI summary shouldn't hide a yellow or red dashboard
 status behind a confident paragraph.
 
-[Production AI Engineering]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }})
+[Production AI Engineering](https://datatalks.club/podcast/production-ready-ai-engineering.html)
 gives Bartosz's testing controls. At 9:05, he explains why tests prevent the
 familiar "this number doesn't look correct" failure. From 11:47 to 17:10, he
 covers snapshot tests and integration tests. He also covers Great Expectations
@@ -184,7 +184,7 @@ better questions, or reduce analyst follow-up without lowering decision
 quality.
 
 Ioannis describes that rollout discipline in
-[Building Data Products at Scale]({{ '/podcasts/building-data-products-lead-data-scientist/' | relative_url }}).
+[Building Data Products at Scale](https://datatalks.club/podcast/building-data-products-lead-data-scientist.html).
 He covers stakeholder collaboration at 8:32, Definition of Done and KPIs at
 17:37, and GDPR plus feasibility at 20:54. He then covers pilots and A/B
 testing at 25:17, followed by stakeholder demos at 40:49.
@@ -193,9 +193,9 @@ Teams adding AI to BI can reuse the same rollout sequence. Choose a decision
 flow and define success. Then test with a narrow group, monitor usage, and keep
 analysts in the review path.
 
-[Stefan Gudmundsson]({{ '/people/stefangudmundsson/' | relative_url }}) gives
+[Stefan Gudmundsson](https://datatalks.club/people/stefangudmundsson.html) gives
 a useful healthcare example in
-[AI in Healthcare and Digital Therapeutics]({{ '/podcasts/ai-in-healthcare-and-digital-therapeutics/' | relative_url }}).
+[AI in Healthcare and Digital Therapeutics](https://datatalks.club/podcast/ai-in-healthcare-and-digital-therapeutics.html).
 He discusses data culture, metrics, and buy-in at 19:27. Responsible
 experimentation appears in the same section. At 27:02, he puts data pipelines
 and dashboards before personalization. Experimentation capabilities come before
@@ -236,11 +236,11 @@ The common failure modes are predictable:
 
 These risks appear across the candidate episodes. Lior warns about
 hallucinations and dashboard trust in
-[Mindful Data Strategy for Business Impact]({{ '/podcasts/mindful-data-strategy-for-business-impact/' | relative_url }})
+[Mindful Data Strategy for Business Impact](https://datatalks.club/podcast/mindful-data-strategy-for-business-impact.html)
 at 11:47 and 20:50. Bartosz starts production AI from data trust and tests in
-[Production AI Engineering]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }})
+[Production AI Engineering](https://datatalks.club/podcast/production-ready-ai-engineering.html)
 at 9:05 and 11:47. Adrian's metadata and lineage discussion in
-[Trends in Modern Data Engineering]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }})
+[Trends in Modern Data Engineering](https://datatalks.club/podcast/trends-in-modern-data-engineering.html)
 at 21:27 explains why an answer needs clear context. Stefan's healthcare
 discussion adds privacy, ethics, and safeguards at 31:41 and 51:55.
 

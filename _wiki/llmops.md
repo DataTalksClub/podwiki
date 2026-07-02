@@ -28,8 +28,8 @@ The topic sits at the intersection of
 ## Technical Pillars for Shipping AI Products
 
 In
-[AI Engineering: Skill Stack, Agents, LLMOps, and How to Ship AI Products]({{ '/podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products/' | relative_url }}),
-[Paul Iusztin]({{ '/people/pauliusztin/' | relative_url }}) frames LLMOps as part
+[AI Engineering: Skill Stack, Agents, LLMOps, and How to Ship AI Products](https://datatalks.club/podcast/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products.html),
+[Paul Iusztin](https://datatalks.club/people/pauliusztin.html) frames LLMOps as part
 of the core skills for AI engineers. At 42:28 he names creating and evaluating
 agents, building data pipelines for RAG ingestion, and knowing how to make data
 available to agents. At 46:31 he recommends LLMOps tools like Arize Phoenix for
@@ -47,8 +47,8 @@ orchestrators for data and agents, one tool can handle both.
 ## Agent MLOps: Guardrails and Data Lineage
 
 In
-[The Future of AI Agents]({{ '/podcasts/s23e03-future-of-ai-agents/' | relative_url }}),
-[Aditya Gautam]({{ '/people/adityagautam/' | relative_url }}) connects agent
+[The Future of AI Agents](https://datatalks.club/podcast/s23e03-future-of-ai-agents.html),
+[Aditya Gautam](https://datatalks.club/people/adityagautam.html) connects agent
 governance directly to MLOps. At 30:26 he links guardrails and data lineage to
 what he calls Agent MLOps. He explains that companies need to understand what
 each agent is doing and how user data is processed. You need to ensure retention
@@ -66,8 +66,8 @@ machines.
 ## Monitoring and Debuggable MVPs
 
 In
-[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}),
-[Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }}) covers
+[Practical LLM Engineering and RAG](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html),
+[Hugo Bowne-Anderson](https://datatalks.club/people/hugobowneanderson.html) covers
 monitoring practices that make LLM systems debuggable. At 13:56 he introduces
 the generator-evaluator loop for automated quality control, where one model
 generates output and another evaluates it with pass/fail scoring. At 23:00 he
@@ -83,8 +83,8 @@ is really happening before adding complexity.
 ## Evaluation Strategy and Testing Agents
 
 In
-[Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}),
-[Ranjitha Kulkarni]({{ '/people/ranjithakulkarni/' | relative_url }}) treats
+[Building Agentic AI Systems](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html),
+[Ranjitha Kulkarni](https://datatalks.club/people/ranjithakulkarni.html) treats
 evaluation as a core LLMOps practice. At 51:17 she recommends custom datasets and
 system benchmarks over public benchmarks like SQuAD, which evaluate model
 capability rather than your specific system. At 53:20 she discusses mocking tools,
@@ -100,8 +100,8 @@ This connects to [Evaluation]({{ '/wiki/evaluation/' | relative_url }}) and
 ## Prompt Caching, Compression, and Cost Optimization
 
 In
-[Production AI Engineering]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }}),
-[Bartosz Mikulski]({{ '/people/bartoszmikulski/' | relative_url }}) discusses
+[Production AI Engineering](https://datatalks.club/podcast/production-ready-ai-engineering.html),
+[Bartosz Mikulski](https://datatalks.club/people/bartoszmikulski.html) discusses
 prompt evaluation and cost tradeoffs at 28:16. He recommends gathering data from
 tests: prepare an evaluation dataset with inputs and expected outputs, then
 measure how well the model performs. At some point, adding more examples stops
@@ -111,14 +111,14 @@ At 30:00 Bartosz introduces prompt compression, creating a shorter prompt that
 does the same thing by dropping parts of words or reducing token count. At 31:45
 he discusses prompt caching, where providers like Anthropic cache the shared
 beginning of prompts so you do not resend the entire codebase every time. This
-makes coding tasks cheaper. The [LLM Engineer's Handbook]({{ '/books/20241104-llm-engineer-s-handbook/' | relative_url }}) by Paul Iusztin and Maxime Labonne structures this same LLMOps stack end to end. These techniques connect to
+makes coding tasks cheaper. The [LLM Engineer's Handbook](https://datatalks.club/books/20241104-llm-engineer-s-handbook.html) by Paul Iusztin and Maxime Labonne structures this same LLMOps stack end to end. These techniques connect to
 [LLM Cost Optimization]({{ '/wiki/llm-cost-optimization/' | relative_url }}) and
 [Caching]({{ '/wiki/caching/' | relative_url }}).
 
 ## Feedback Loops and Human-in-the-Loop
 
 Aditya covers feedback collection as an LLMOps practice in
-[The Future of AI Agents]({{ '/podcasts/s23e03-future-of-ai-agents/' | relative_url }}).
+[The Future of AI Agents](https://datatalks.club/podcast/s23e03-future-of-ai-agents.html).
 At 36:55 he discusses user feedback loops, where implicit signals like repeated
 queries or reframed questions indicate frustration. Companies collect these gaps
 from bad user feedback, generate synthetic data or use human labeling teams, and
@@ -135,8 +135,8 @@ ground truth.
 ## Open-Source Models and Production Deployment
 
 In
-[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}),
-[Meryem Arik]({{ '/people/meryemarik/' | relative_url }}) frames the deployment
+[Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html),
+[Meryem Arik](https://datatalks.club/people/meryemarik.html) frames the deployment
 choice between API and open-source models as a core LLMOps decision. At 49:57 she
 recommends using API-based models like GPT-3.5 or GPT-4 for prototyping because
 you can get to demos within a day or two. In the long term, businesses move to

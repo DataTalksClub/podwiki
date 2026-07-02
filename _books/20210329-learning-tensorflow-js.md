@@ -19,7 +19,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Gant Laborde]({ '/people/gantlaborde/' | relative_url }).
+[Gant Laborde](https://datatalks.club/people/gantlaborde.html).
 
 ## Discussion Archive
 

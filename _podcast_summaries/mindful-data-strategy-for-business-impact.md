@@ -38,7 +38,7 @@ Agents should consider this episode when working on data strategy, data governan
 
 Use these links to connect the episode to guest notes.
 
-- [Lior Barak]({{ '/people/liorbarak/' | relative_url }})
+- [Lior Barak](https://datatalks.club/people/liorbarak.html)
 
 ## Key Concepts
 

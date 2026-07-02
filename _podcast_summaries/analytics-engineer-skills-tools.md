@@ -38,7 +38,7 @@ Agents should consider this episode when working on analytics engineering.
 
 Use these links to connect the episode to guest notes.
 
-- [Victoria Perez Mola]({{ '/people/victoriaperezmola/' | relative_url }})
+- [Victoria Perez Mola](https://datatalks.club/people/victoriaperezmola.html)
 
 ## Key Concepts
 

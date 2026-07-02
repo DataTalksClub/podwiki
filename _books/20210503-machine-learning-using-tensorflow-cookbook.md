@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Alexia Audevart]({ '/people/alexiaaudevart/' | relative_url }), [Konrad Banachewicz]({ '/people/Konrad Banachewicz/' | relative_url }), [Luca Massaron]({ '/people/Luca Massaron/' | relative_url }).
+[Alexia Audevart](https://datatalks.club/people/alexiaaudevart.html), [Konrad Banachewicz](https://datatalks.club/people/Konrad Banachewicz.html), [Luca Massaron](https://datatalks.club/people/Luca Massaron.html).
 
 ## Discussion Archive
 

@@ -16,4 +16,4 @@ Revathy Ramalingam is a Senior Software Engineer and AI Engineer at a healthcare
 
 ## Podcast Discussions
 
-- [How to Become an AI Engineer After a Career Break]({{ '/podcasts/s23e04-how-to-become-ai-engineer-after-career-break/' | relative_url }}). Discussed: Why Move to AI? Using ChatGPT to Plan a Career Pivot; Learning in Public: The Power of Community Support; Telecom Capstone: Predicting Network Slices with ML; Vibe Coding" & Building Prototypes with AI Dev Tools. Related topics: ai engineer, career break, move ai using, ai using chatgpt, using chatgpt plan, chatgpt plan career.
+- [How to Become an AI Engineer After a Career Break](https://datatalks.club/podcast/s23e04-how-to-become-ai-engineer-after-career-break.html). Discussed: Why Move to AI? Using ChatGPT to Plan a Career Pivot; Learning in Public: The Power of Community Support; Telecom Capstone: Predicting Network Slices with ML; Vibe Coding" & Building Prototypes with AI Dev Tools. Related topics: ai engineer, career break, move ai using, ai using chatgpt, using chatgpt plan, chatgpt plan career.

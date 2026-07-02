@@ -38,7 +38,7 @@ Agents should consider this episode when working on machine learning, MLOps, dat
 
 Use these links to connect the episode to guest notes.
 
-- [Abouzarabbaspour]({{ '/people/abouzarabbaspour/' | relative_url }})
+- [Abouzarabbaspour](https://datatalks.club/people/abouzarabbaspour.html)
 
 ## Key Concepts
 

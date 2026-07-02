@@ -24,8 +24,8 @@ templates along with tooling integrations and documentation. It also owns
 support models and operating standards.
 
 In
-[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}),
-[Simon Stiebellehner]({{ '/people/simonstiebellehner/' | relative_url }})
+[Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html),
+[Simon Stiebellehner](https://datatalks.club/people/simonstiebellehner.html)
 connects platform work to cloud infrastructure, Kubernetes, and Terraform at
 8:11. At 10:47, he starts from data science workflows. He then moves into
 self-service compute, [experiment tracking]({{ '/wiki/experiment-tracking/' | relative_url }}),
@@ -40,15 +40,15 @@ path. It can also be observability setup, repository standards, or a reliable
 path for publishing data products.
 
 Simon gives the clearest ML-platform version. In
-[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}),
+[Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html),
 he describes platform work as an answer to repeated deployment and governance
 problems. At 16:52 and 17:14, he frames build-versus-buy and standardization
 as responses to team-level repetition. At 20:04, he also leaves room for
 incremental SaaS components instead of a single large internal platform.
 
-[Raphaël Hoogvliets]({{ '/people/raphaelhoogvliets/' | relative_url }})
+[Raphaël Hoogvliets](https://datatalks.club/people/raphaelhoogvliets.html)
 describes the same idea through a centralized enabling team in
-[MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}).
+[MLOps at Scale](https://datatalks.club/podcast/mlops-at-scale-reproducibility-adoption.html).
 At 23:01 and 25:20, his MLOps team supports product teams and ML engineers. At
 39:06, that support becomes concrete through CI and repository structure. He
 also names parameterization and tests.
@@ -63,9 +63,9 @@ supported way to do common work. It also gives the organization a place to
 encode standards, security, and reliability without turning every project into a
 custom consulting job.
 
-[José Figueiredo]({{ '/people/josemaria/' | relative_url }}) brings the
+[José Figueiredo](https://datatalks.club/people/josemaria.html) brings the
 same pattern into the IoT domain. In
-[Remote Data Engineering and IoT Platforms]({{ '/podcasts/remote-data-engineering-work-and-building-iot-platforms/' | relative_url }}),
+[Remote Data Engineering and IoT Platforms](https://datatalks.club/podcast/remote-data-engineering-work-and-building-iot-platforms.html),
 he describes building an "operating system for sensors" — a platform layer that
 standardizes sensor onboarding, real-time processing, storage, and data
 delivery to internal stakeholders. The platform handles remote diagnostics and
@@ -79,30 +79,30 @@ platform should exist, how productized it should be, and how much infrastructure
 the platform team should own.
 
 Simon is cautious about starting too early. In
-[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}),
+[Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html),
 he argues at 47:08 and 49:19 that teams need real models and business value.
 They also need repeated needs before they build heavy platform layers. Simon
 keeps [machine learning infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }})
 close to actual workflow evidence.
 
-In [MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}),
+In [MLOps at Scale](https://datatalks.club/podcast/mlops-at-scale-reproducibility-adoption.html),
 Raphaël starts from adoption and connects platform success to feedback loops at
 27:56. At 32:46, he moves to pain-point discovery and quick wins. At 36:55, he
 adds value measurement. His platform team earns standards by solving visible
 problems first.
 
-[Geo Jolly]({{ '/people/geojolly/' | relative_url }}) puts the internal
+[Geo Jolly](https://datatalks.club/people/geojolly.html) puts the internal
 product-management lens on the same work. In
-[ML Product Manager and MLOps Platform Strategy]({{ '/podcasts/ml-product-manager-and-mlops-platform-strategy/' | relative_url }}),
+[ML Product Manager and MLOps Platform Strategy](https://datatalks.club/podcast/ml-product-manager-and-mlops-platform-strategy.html),
 he discusses internal platform users as customers at 11:24 and usability costs
 at 13:44. At 16:44, he moves to outcome-driven problem definition. He returns
 to user research for internal platforms at 55:44, which makes
 [platform adoption]({{ '/wiki/platform-adoption/' | relative_url }}) a product
 problem, not only an engineering rollout.
 
-[Danny Leybzon]({{ '/people/dannyleybzon/' | relative_url }}) adds the
+[Danny Leybzon](https://datatalks.club/people/dannyleybzon.html) adds the
 tooling and integration boundary. In
-[MLOps Architect Guide]({{ '/podcasts/mlops-model-monitoring-data-observability/' | relative_url }}),
+[MLOps Architect Guide](https://datatalks.club/podcast/mlops-model-monitoring-data-observability.html),
 he frames the MLOps architect as a technical-business bridge at 8:11 and
 discusses tooling tradeoffs at 10:32. At 34:25 and 36:47, he moves into
 build-versus-buy decisions and platform-agnostic integrations. That's the
@@ -116,13 +116,13 @@ team with infrastructure responsibility.
 
 Raphaël's Eneco example is explicit. His centralized MLOps team supports
 product teams, collects pain points, and improves the path to production
-([MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}),
+([MLOps at Scale](https://datatalks.club/podcast/mlops-at-scale-reproducibility-adoption.html),
 23:01 through 36:55). That team owns shared practices, but product teams still
 own their ML use cases.
 
 Simon makes ownership dependent on workload and operational burden. At 13:50
 and 15:34 in
-[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}),
+[Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html),
 he discusses specialist versus generalist skill balance, team size, and
 on-call. Platform ownership therefore includes support capacity. A service that
 teams rely on in production needs owners who can maintain it.
@@ -130,7 +130,7 @@ teams rely on in production needs owners who can maintain it.
 Geo's episode shows why ownership also needs roadmap discipline. Internal
 platform teams balance stakeholders and backlog, while compliance and rollout
 governance sit with adoption. He covers those responsibilities throughout
-[ML Product Manager and MLOps Platform Strategy]({{ '/podcasts/ml-product-manager-and-mlops-platform-strategy/' | relative_url }})
+[ML Product Manager and MLOps Platform Strategy](https://datatalks.club/podcast/ml-product-manager-and-mlops-platform-strategy.html)
 from 9:50 through 35:18. Without that product discipline, platform work can
 become a pile of useful infrastructure that nobody adopts consistently.
 
@@ -142,15 +142,15 @@ engineer. The platform is working when that user can complete the standard path
 without learning every infrastructure detail first.
 
 Simon starts platform design from data science workflows. At 10:47 in
-[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}),
+[Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html),
 he talks about understanding how data scientists work with notebooks. At 38:40,
 he discusses thin abstraction layers over cloud providers. The useful layer
 doesn't hide everything. It removes unnecessary friction while preserving the
 cloud choices that matter.
 
-[Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }})
+[Hugo Bowne-Anderson](https://datatalks.club/people/hugobowneanderson.html)
 extends the same idea through education and tool adoption in
-[DevRel Role for Machine Learning]({{ '/podcasts/devrel-open-source-machine-learning/' | relative_url }}).
+[DevRel Role for Machine Learning](https://datatalks.club/podcast/devrel-open-source-machine-learning.html).
 At 13:52, he discusses Metaflow integrations with AWS, Kubernetes, and Argo. At
 18:03, he defines DevRel around education, documentation, and a wisdom layer.
 
@@ -172,11 +172,11 @@ while staying inside approved paths. In Simon's ML-platform episode,
 self-service starts with compute provisioning at 28:20. It continues through
 experiment tracking at 29:41 and model registry at 30:32. At 31:15 and 31:51,
 he moves to batch and online deployment plus orchestration
-([Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }})).
+([Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html)).
 
 Self-service doesn't mean no support. Raphaël's team still helps product
 teams, gathers feedback, and delivers quick wins
-([MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}),
+([MLOps at Scale](https://datatalks.club/podcast/mlops-at-scale-reproducibility-adoption.html),
 25:20 through 36:55). The better definition is "supported autonomy." Teams
 can move without opening tickets for routine work, and the platform team can
 focus on reusable improvements instead of one-off fixes.
@@ -208,13 +208,13 @@ governance, access, and shared data products.
 Simon and Raphaël sit mostly on the ML side. Simon's platform path includes
 experiment tracking, model registry, serving, and orchestration. Metadata,
 lineage, and governance belong there too
-([Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}),
+([Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html),
 29:41 through 45:50). Raphaël's path starts with CI and repository structure.
 It then adds parameterization, tests, traceability, and package registries.
 
 The same episode also covers Docker and Kubernetes. Databricks, serving, and
 monitoring are part of that platform path too
-([MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}),
+([MLOps at Scale](https://datatalks.club/podcast/mlops-at-scale-reproducibility-adoption.html),
 39:06 through 56:50).
 
 Data platform pages use the same platform-engineering logic for a different
@@ -231,7 +231,7 @@ platform engineers need to think about on-call and observability. They also need
 dependency management, release paths, and incident response.
 
 Simon brings reliability into the team-design discussion at 15:34 in
-[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}),
+[Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html),
 where on-call and operational support affect staffing. Later, at 39:54 through
 45:50, he connects platform design to regulatory constraints and metadata.
 Lineage, artifact logging, and governance make
@@ -241,14 +241,14 @@ Raphaël makes reliability part of adoption. Teams need CI, tests, and
 traceability before production ML can be repeatable. Data versioning and
 reproducibility belong in the same path. Package registries and containers also
 belong there, along with serving and monitoring
-([MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}),
+([MLOps at Scale](https://datatalks.club/podcast/mlops-at-scale-reproducibility-adoption.html),
 39:06 through 1:01:58). Those practices connect platform engineering to
 [model monitoring]({{ '/wiki/model-monitoring/' | relative_url }}),
 [reproducibility]({{ '/wiki/reproducibility/' | relative_url }}), and
 [production]({{ '/wiki/production/' | relative_url }}).
 
 Danny adds the operational monitoring focus. At 27:35 and 30:39 in
-[MLOps Architect Guide]({{ '/podcasts/mlops-model-monitoring-data-observability/' | relative_url }}),
+[MLOps Architect Guide](https://datatalks.club/podcast/mlops-model-monitoring-data-observability.html),
 he connects model observability to upstream ETL and the shift from "why
 monitor" to "how to monitor." At 31:50 and 36:47, he discusses profiling
 architecture and platform-agnostic integrations. Platform reliability therefore

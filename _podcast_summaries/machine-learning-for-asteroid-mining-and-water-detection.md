@@ -38,7 +38,7 @@ Agents should consider this episode when working on machine learning, astronomy.
 
 Use these links to connect the episode to guest notes.
 
-- [Daynan Crull]({{ '/people/daynancrull/' | relative_url }})
+- [Daynan Crull](https://datatalks.club/people/daynancrull.html)
 
 ## Key Concepts
 

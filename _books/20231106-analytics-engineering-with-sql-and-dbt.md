@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Rui Machado]({ '/people/ruimachado/' | relative_url }), [Hélder Russa]({ '/people/helderrussa/' | relative_url }).
+[Rui Machado](https://datatalks.club/people/ruimachado.html), [Hélder Russa](https://datatalks.club/people/helderrussa.html).
 
 ## Discussion Archive
 

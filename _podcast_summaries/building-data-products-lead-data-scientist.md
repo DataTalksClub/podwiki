@@ -38,7 +38,7 @@ Agents should consider this episode when working on MLOps, machine learning, dat
 
 Use these links to connect the episode to guest notes.
 
-- [Ioannis Mesionis]({{ '/people/ioannismesionis/' | relative_url }})
+- [Ioannis Mesionis](https://datatalks.club/people/ioannismesionis.html)
 
 ## Key Concepts
 

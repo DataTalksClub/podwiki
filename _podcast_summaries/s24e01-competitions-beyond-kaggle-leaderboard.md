@@ -38,7 +38,7 @@ Agents should consider this episode when working on machine learning, portfolio,
 
 Use these links to connect the episode to guest notes.
 
-- [Tatiana Gabruseva]({{ '/people/tatianagabruseva/' | relative_url }})
+- [Tatiana Gabruseva](https://datatalks.club/people/tatianagabruseva.html)
 
 ## Key Concepts
 

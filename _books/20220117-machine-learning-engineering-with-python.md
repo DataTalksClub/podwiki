@@ -19,5 +19,5 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Andrew McMahon]({ '/people/andrewmcmahon/' | relative_url }).
+[Andrew McMahon](https://datatalks.club/people/andrewmcmahon.html).
 

@@ -40,7 +40,7 @@ metrics or a text-to-SQL assistant. It can also include semantic search over
 documentation or an analyst copilot that drafts a first explanation before
 human review.
 
-[Rachel Lim's]({{ '/people/rachellim/' | relative_url }}) discussion of urban
+[Rachel Lim's](https://datatalks.club/people/rachellim.html) discussion of urban
 data science gives a concrete version of this workflow. In transport analytics,
 teams combine fare-card records with sensors and GPS. They also use computer
 vision, historical data, and real-time APIs.
@@ -48,7 +48,7 @@ vision, historical data, and real-time APIs.
 Later in the episode, she describes natural-language access and text-to-SQL. She
 also describes metadata, vector databases, RAG, and prompt engineering. Query
 restrictions make the interface safer
-([Urban Data Science, 27:59-35:18]({{ '/podcasts/urban-data-science/' | relative_url }})).
+([Urban Data Science, 27:59-35:18](https://datatalks.club/podcast/urban-data-science.html)).
 
 That's the useful structure for AI-powered business intelligence. The interface
 gets easier, but the underlying BI system still depends on modeled data and
@@ -60,14 +60,14 @@ for review and guardrails.
 
 ## Reporting Layer, Product Surface, and Operating Routine
 
-Guests place BI in three overlapping positions. [Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) places BI downstream of
+Guests place BI in three overlapping positions. [Natalie Kwong](https://datatalks.club/people/nataliekwong.html) places BI downstream of
 warehouses, marts, and modern-stack transformations in
-[ETL vs ELT and Modern Data Engineering]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}).
-[Caitlin Moorman]({{ '/people/caitlinmoorman/' | relative_url }}) treats
+[ETL vs ELT and Modern Data Engineering](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html).
+[Caitlin Moorman](https://datatalks.club/people/caitlinmoorman.html) treats
 last-mile BI as a product adoption problem in
-[Last-Mile Data Delivery]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }}).
-[Rachel Lim]({{ '/people/rachellim/' | relative_url }}) and
-[Sandra Kublik]({{ '/people/sandrakublik/' | relative_url }}) add the AI
+[Last-Mile Data Delivery](https://datatalks.club/podcast/last-mile-data-delivery-and-data-product-adoption-modern-data-stack.html).
+[Rachel Lim](https://datatalks.club/people/rachellim.html) and
+[Sandra Kublik](https://datatalks.club/people/sandrakublik.html) add the AI
 interface, where natural-language queries and LLM summaries help only when
 definitions, permissions, and human review already exist.
 
@@ -82,19 +82,19 @@ AI helps only if the system can find the right metric and explain the
 definition. It also has to identify caveats and route uncertain answers back to
 an analyst.
 
-[Caitlin Moorman's]({{ '/people/caitlinmoorman/' | relative_url }}) last-mile
+[Caitlin Moorman's](https://datatalks.club/people/caitlinmoorman.html) last-mile
 data delivery episode is the strongest reminder that BI adoption is product
 work. She argues that teams should start from the decision they want to enable.
 Then they map metrics into real meetings, prototype quickly, and prove impact
 with narrow wins
-([last-mile data delivery, 34:00-45:35]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }})).
+([last-mile data delivery, 34:00-45:35](https://datatalks.club/podcast/last-mile-data-delivery-and-data-product-adoption-modern-data-stack.html)).
 
 Those same principles apply when AI is added to BI. A conversational interface
 doesn't remove the need for discoverability or interpretability. It also
 doesn't remove the need for trust and decision context
-([last-mile data delivery, 20:02-26:36]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }})).
+([last-mile data delivery, 20:02-26:36](https://datatalks.club/podcast/last-mile-data-delivery-and-data-product-adoption-modern-data-stack.html)).
 
-[Anusha Akkina]({{ '/people/anushaakkina/' | relative_url }}) describes another
+[Anusha Akkina](https://datatalks.club/people/anushaakkina.html) describes another
 useful workflow in her finance episode. Finance teams often work around rigid
 ERP systems with spreadsheets and local business logic. They also rely on tribal
 knowledge. Her discussion covers strategic finance and spreadsheet dependency.
@@ -103,7 +103,7 @@ It also covers user research and real-time decision insights.
 For AI-assisted BI, the practical takeaway is direct. The system has to meet
 people inside existing finance workflows instead of assuming a clean data
 environment
-([From Black-Box Systems to Augmented Decision-Making, 17:15-47:24]({{ '/podcasts/s22e06-from-black-box-systems-to-augmented-decision-making/' | relative_url }})).
+([From Black-Box Systems to Augmented Decision-Making, 17:15-47:24](https://datatalks.club/podcast/s22e06-from-black-box-systems-to-augmented-decision-making.html)).
 
 For product teams, AI-powered BI also overlaps with
 [product analytics]({{ '/wiki/product-analytics/' | relative_url }}). Product
@@ -128,11 +128,11 @@ business definitions and metric documentation. It can also use dashboard notes
 and previous analysis. It shouldn't be treated as a guarantee that the final
 answer is true.
 
-[Sandra Kublik's]({{ '/people/sandrakublik/' | relative_url }}) LLM product
+[Sandra Kublik's](https://datatalks.club/people/sandrakublik.html) LLM product
 discussion keeps the same caution. Useful LLM applications need
 human-in-the-loop review for hallucinations and brand safety. Teams also need
 controls for latency, data risk, cost, and model-choice tradeoffs
-([Practical LLM Use Cases 23:29-40:21]({{ '/podcasts/practical-llm-use-cases-and-product-patterns/' | relative_url }})).
+([Practical LLM Use Cases 23:29-40:21](https://datatalks.club/podcast/practical-llm-use-cases-and-product-patterns.html)).
 
 In BI, the system should show where an answer came from:
 
@@ -148,15 +148,15 @@ to spread unreviewed analysis.
 Governance isn't a blocker to AI-powered BI because it makes broader access safe
 enough to allow.
 
-[Bart Vandekerckhove's]({{ '/people/bartvandekerckhove/' | relative_url }})
+[Bart Vandekerckhove's](https://datatalks.club/people/bartvandekerckhove.html)
 data access management episode frames governance as trust in data, not just
 compliance. He covers catalogs and dictionaries. He also covers lineage and data
 access management. Ownership appears as a core concern.
 
 He covers approval workflows, access reviews, revocation, and masking.
 Filtering, active metadata, and access-as-code appear in the same discussion
-([Data Governance and Data Access Management 5:20-14:47]({{ '/podcasts/data-governance-data-access-management/' | relative_url }}),
-[27:49-50:08]({{ '/podcasts/data-governance-data-access-management/' | relative_url }})).
+([Data Governance and Data Access Management 5:20-14:47](https://datatalks.club/podcast/data-governance-data-access-management.html),
+[27:49-50:08](https://datatalks.club/podcast/data-governance-data-access-management.html)).
 
 For BI powered by AI, a chatbot shouldn't become a side door around permissions.
 The assistant needs to inherit the user's access and respect sensitive fields.
@@ -182,11 +182,11 @@ hide uncertainty, or summarize a dashboard without understanding the business
 context.
 
 That's why [data product adoption]({{ '/wiki/data-product-adoption/' | relative_url }})
-matters. [Caitlin Moorman's]({{ '/people/caitlinmoorman/' | relative_url }})
+matters. [Caitlin Moorman's](https://datatalks.club/people/caitlinmoorman.html)
 adoption guidance starts with the intended decision and works backward through
 user research and prototypes. It also includes meeting rituals and impact
 measurement
-([last-mile data delivery, 26:21-40:53]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }})).
+([last-mile data delivery, 26:21-40:53](https://datatalks.club/podcast/last-mile-data-delivery-and-data-product-adoption-modern-data-stack.html)).
 
 Teams building AI-powered BI should do the same by watching how people use
 answers. Sales and finance workflows matter alongside product and operations
@@ -224,14 +224,14 @@ Several limits are predictable:
 - Cost and latency can make interactive BI worse if the AI layer is added to
   every question without prioritization.
 
-[Sandra Kublik's]({{ '/people/sandrakublik/' | relative_url }}) LLM episode is
+[Sandra Kublik's](https://datatalks.club/people/sandrakublik.html) LLM episode is
 useful here because it frames LLMs as product components with tradeoffs, not
 magic.
 
 Model choice and embeddings matter alongside prompt iteration and fine-tuning.
 Teams also have to consider proprietary APIs, open-source models, IP concerns,
 and data risk. Latency and cost matter too
-([Practical LLM Use Cases, 32:28-40:21]({{ '/podcasts/practical-llm-use-cases-and-product-patterns/' | relative_url }})).
+([Practical LLM Use Cases, 32:28-40:21](https://datatalks.club/podcast/practical-llm-use-cases-and-product-patterns.html)).
 The [LLM production patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
 page extends the same point. Evaluation, observability, guardrails, and human
 review are production infrastructure.
@@ -243,7 +243,7 @@ recurring meeting or analysis where the data is already mostly trusted and the
 business value is visible. Moorman's last-mile guidance supports that narrow
 start. Begin with a decision, prototype around real meetings, and use adoption
 evidence before expanding
-([last-mile data delivery, 34:00-45:35]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }})).
+([last-mile data delivery, 34:00-45:35](https://datatalks.club/podcast/last-mile-data-delivery-and-data-product-adoption-modern-data-stack.html)).
 
 Good candidates include:
 
@@ -270,7 +270,7 @@ decisions. Kublik's LLM product cautions add the AI-specific constraint. Teams
 still need review and evaluation. They also need latency controls, cost
 awareness, and data-risk controls before a generated answer should influence a
 high-stakes decision
-([Practical LLM Use Cases, 32:28-40:21]({{ '/podcasts/practical-llm-use-cases-and-product-patterns/' | relative_url }})).
+([Practical LLM Use Cases, 32:28-40:21](https://datatalks.club/podcast/practical-llm-use-cases-and-product-patterns.html)).
 
 ## Related Topics
 

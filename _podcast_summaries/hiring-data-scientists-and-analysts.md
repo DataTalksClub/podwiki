@@ -38,7 +38,7 @@ Agents should consider this episode when working on data science, data analytics
 
 Use these links to connect the episode to guest notes.
 
-- [Alicja Notowska]({{ '/people/alicjanotowska/' | relative_url }})
+- [Alicja Notowska](https://datatalks.club/people/alicjanotowska.html)
 
 ## Key Concepts
 

@@ -17,7 +17,7 @@ Martin Kleppmann is a distributed-systems researcher at the University of
 Cambridge. He's also the author of Designing Data-Intensive Applications. In
 DataTalks.Club, his main contribution is the
 [Designing Data-Intensive Applications Book of the Week AMA](https://datatalks.club/books/20210308-designing-data-intensive-applications.html).
-[DataTalks.Club Behind the Scenes]({{ '/podcasts/datatalksclub-building-scaling-data-community/' | relative_url }})
+[DataTalks.Club Behind the Scenes](https://datatalks.club/podcast/datatalksclub-building-scaling-data-community.html)
 later describes that AMA as one of the community's most notable guest moments.
 
 His answers keep data engineering close to engineering judgment. Teams should
@@ -64,8 +64,8 @@ resource in Angela Ramirez's fraud-detection episode. Angela points listeners
 toward data-engineering overview material and the book.
 
 The conversation also notes that a third reading would still surface more detail
-([Build and Scale Data Engineering Systems for Fraud Detection]({{ '/podcasts/building-and-scaling-data-engineering-systems-for-fraud-detection/' | relative_url }}),
-1:00:17-1:01:12). [Angela Ramirez]({{ '/people/angelaramirez/' | relative_url }})
+([Build and Scale Data Engineering Systems for Fraud Detection](https://datatalks.club/podcast/building-and-scaling-data-engineering-systems-for-fraud-detection.html),
+1:00:17-1:01:12). [Angela Ramirez](https://datatalks.club/people/angelaramirez.html)
 discusses batch features, real-time scoring, and graph databases in that
 episode. She also covers dashboards and production debugging. The recommendation
 sits in a concrete
@@ -155,10 +155,10 @@ more.
 
 DataTalks.Club returns to the book as a learning reference in career
 conversations. In
-[Big Data Engineer vs Data Scientist]({{ '/podcasts/big-data-engineer-vs-data-scientist/' | relative_url }}),
+[Big Data Engineer vs Data Scientist](https://datatalks.club/podcast/big-data-engineer-vs-data-scientist.html),
 the discussion identifies Martin as the author of Designing Data-Intensive
 Applications. That happens after
-[Roksolana Diachuk]({{ '/people/roksolanadiachuk/' | relative_url }}) mentions
+[Roksolana Diachuk](https://datatalks.club/people/roksolanadiachuk.html) mentions
 data-intensive systems books during a resource discussion (1:01:56-1:02:22).
 
 The recurring approach is clear. Martin's DataTalks.Club footprint is less

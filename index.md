@@ -5,8 +5,8 @@ title: Podcast Wiki
 
 # DataTalks.Club Podcast Wiki
 
-Explore DataTalks.Club podcast episodes by topic, guest, transcript segment,
-and podcast-backed content.
+<p class="lede">Explore the DataTalks.Club podcast archive by topic, guest, and
+format — every page grounded in real episodes.</p>
 
 <form class="home-search" action="{{ '/search.html' | relative_url }}" method="get">
   <input name="q" type="search" placeholder="Search RAG, career transitions, feature stores..." />
@@ -14,25 +14,46 @@ and podcast-backed content.
 </form>
 
 <div class="quick-actions">
-  <a class="button" href="{{ '/graph.html' | relative_url }}">Open podcast graph</a>
-  <a class="button secondary" href="{{ '/wiki/' | relative_url }}">Read wiki</a>
-  <a class="button secondary" href="{{ '/guides-page/' | relative_url }}">Browse guides</a>
-  <a class="button secondary" href="{{ '/comparisons-page/' | relative_url }}">Browse comparisons</a>
-  <a class="button secondary" href="{{ '/roadmaps-page/' | relative_url }}">Browse roadmaps</a>
-  <a class="button secondary" href="{{ '/how-tos-page/' | relative_url }}">Browse how-tos</a>
-  <a class="button secondary" href="{{ '/podcasts/' | relative_url }}">Browse summaries</a>
-  <a class="button secondary" href="{{ '/books-page/' | relative_url }}">Browse books</a>
-  <a class="button" href="{{ '/special-pages/' | relative_url }}">Browse special pages</a>
-  <a class="button secondary" href="{{ '/people/' | relative_url }}">Browse people</a>
-  <a class="button secondary" href="{{ '/search.html' | relative_url }}">Search content</a>
+  <a class="button" href="{{ '/wiki/' | relative_url }}">Read the wiki</a>
+  <a class="button secondary" href="{{ '/graph.html' | relative_url }}">Open the graph</a>
+  <a class="button secondary" href="{{ '/search.html' | relative_url }}">Search</a>
 </div>
 
-## Wiki
+## Explore by format
+
+{% assign guides = site.wiki | where_exp: "item", "item.tags contains 'guide'" %}
+{% assign comparisons = site.wiki | where_exp: "item", "item.tags contains 'comparison'" %}
+{% assign roadmaps = site.wiki | where_exp: "item", "item.tags contains 'roadmap'" %}
+{% assign howtos = site.wiki | where_exp: "item", "item.tags contains 'how-to'" %}
+
+<div class="list">
+  <a class="row" href="{{ '/wiki/' | relative_url }}">
+    <strong>Wiki topics</strong>
+    <span>Evidence-backed topic pages synthesized from the archive</span>
+  </a>
+  <a class="row" href="{{ '/guides-page/' | relative_url }}">
+    <strong>Guides</strong>
+    <span>Practical, podcast-grounded walkthroughs</span>
+  </a>
+  <a class="row" href="{{ '/comparisons-page/' | relative_url }}">
+    <strong>Comparisons</strong>
+    <span>Side-by-side tools, roles, and architectures</span>
+  </a>
+  <a class="row" href="{{ '/roadmaps-page/' | relative_url }}">
+    <strong>Roadmaps</strong>
+    <span>Step-by-step learning paths</span>
+  </a>
+  <a class="row" href="{{ '/how-tos-page/' | relative_url }}">
+    <strong>How-tos</strong>
+    <span>Task-focused, answer-first pages</span>
+  </a>
+</div>
+
+## Start exploring
 
 {% assign wiki_pages = site.wiki | sort: "title" %}
-{% if wiki_pages.size > 0 %}
 <div class="grid">
-{% for item in wiki_pages %}
+{% for item in wiki_pages limit: 9 %}
   {% unless item.redirect_to %}
   <a class="card" href="{{ item.url | relative_url }}">
     <strong>{{ item.title }}</strong>
@@ -41,72 +62,5 @@ and podcast-backed content.
   {% endunless %}
 {% endfor %}
 </div>
-{% else %}
-<p class="muted">Wiki pages are being drafted from archive evidence.</p>
-{% endif %}
 
-## Guides
-
-{% assign guides = site.wiki  | sort: "title" %}
-{% if guides.size > 0 %}
-<div class="list">
-{% for item in guides limit: 8 %}
-  <a class="row" href="{{ item.url | relative_url }}">
-    <strong>{{ item.title }}</strong>
-    {% if item.summary %}<span>{{ item.summary }}</span>{% endif %}
-  </a>
-{% endfor %}
-</div>
-{% else %}
-<p class="muted">Guides are being grouped from podcast-backed editorial pages.</p>
-{% endif %}
-
-## Comparisons
-
-{% assign comparisons = site.wiki  | sort: "title" %}
-{% if comparisons.size > 0 %}
-<div class="list">
-{% for item in comparisons limit: 6 %}
-  {% unless item.redirect_to %}
-  <a class="row" href="{{ item.url | relative_url }}">
-    <strong>{{ item.title }}</strong>
-    {% if item.summary %}<span>{{ item.summary }}</span>{% endif %}
-  </a>
-  {% endunless %}
-{% endfor %}
-</div>
-{% else %}
-<p class="muted">Comparison pages are being grouped from archive-backed pages.</p>
-{% endif %}
-
-## Roadmaps
-
-{% assign roadmaps = site.wiki  | sort: "title" %}
-{% if roadmaps.size > 0 %}
-<div class="list">
-{% for item in roadmaps limit: 6 %}
-  <a class="row" href="{{ item.url | relative_url }}">
-    <strong>{{ item.title }}</strong>
-    {% if item.summary %}<span>{{ item.summary }}</span>{% endif %}
-  </a>
-{% endfor %}
-</div>
-{% else %}
-<p class="muted">Roadmaps are being grouped from archive-backed pages.</p>
-{% endif %}
-
-## How-Tos
-
-{% assign howtos = site.wiki  | sort: "title" %}
-{% if howtos.size > 0 %}
-<div class="list">
-{% for item in howtos limit: 6 %}
-  <a class="row" href="{{ item.url | relative_url }}">
-    <strong>{{ item.title }}</strong>
-    {% if item.summary %}<span>{{ item.summary }}</span>{% endif %}
-  </a>
-{% endfor %}
-</div>
-{% else %}
-<p class="muted">How-tos are being grouped from archive-backed pages.</p>
-{% endif %}
+<p class="graph-open"><a class="button secondary" href="{{ '/wiki/' | relative_url }}">Browse all wiki topics →</a></p>

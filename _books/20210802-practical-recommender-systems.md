@@ -19,7 +19,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Kim Falk]({ '/people/kimfalk/' | relative_url }).
+[Kim Falk](https://datatalks.club/people/kimfalk.html).
 
 ## Discussion Archive
 

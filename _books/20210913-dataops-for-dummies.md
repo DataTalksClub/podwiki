@@ -19,7 +19,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Justin Mullen]({ '/people/Justin Mullen/' | relative_url }), [Guy Adams]({ '/people/guyadams/' | relative_url }).
+[Justin Mullen](https://datatalks.club/people/Justin Mullen.html), [Guy Adams](https://datatalks.club/people/guyadams.html).
 
 ## Discussion Archive
 

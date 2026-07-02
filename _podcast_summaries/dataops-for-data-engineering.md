@@ -38,7 +38,7 @@ Agents should consider this episode when working on DataOps, MLOps, data enginee
 
 Use these links to connect the episode to guest notes.
 
-- [Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }})
+- [Christopher Bergh](https://datatalks.club/people/christopherbergh.html)
 
 ## Key Concepts
 

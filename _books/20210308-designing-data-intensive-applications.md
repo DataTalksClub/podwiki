@@ -19,7 +19,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Martin Kleppmann]({ '/people/martinkleppmann/' | relative_url }).
+[Martin Kleppmann](https://datatalks.club/people/martinkleppmann.html).
 
 ## Discussion Archive
 

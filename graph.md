@@ -6,31 +6,28 @@ permalink: /graph.html
 
 # Podcast Graph
 
-Explore how wiki pages, guides, comparisons, roadmaps, how-tos, people, topics,
-and podcast summaries connect
-across the DataTalks.Club podcast archive.
+Start from any page and explore what it connects to across the DataTalks.Club
+podcast archive — wiki topics, guides, comparisons, roadmaps, how-tos, people,
+topics, podcasts, and books. Click any connection to move to it and keep
+exploring.
 
 <section class="graph-controls" aria-label="Graph controls">
-  <label class="graph-search">
-    <span>Find</span>
-    <input id="graph-search" type="search" placeholder="LLMs, feature stores, RAG..." autocomplete="off" />
-  </label>
-  <div class="graph-toggles" aria-label="Visible node types">
-    <label><input class="graph-type" type="checkbox" value="topic" checked /> Topics</label>
-    <label><input class="graph-type" type="checkbox" value="wiki" checked /> Wiki</label>
-    <label><input class="graph-type" type="checkbox" value="article" checked /> Content</label>
-    <label><input class="graph-type" type="checkbox" value="podcast" checked /> Podcasts</label>
-    <label><input class="graph-type" type="checkbox" value="person" checked /> People</label>
+  <div class="graph-search">
+    <span>Find a starting point</span>
+    <input id="graph-search" type="search" placeholder="LLMs, feature stores, a guest's name..." autocomplete="off" aria-expanded="false" aria-haspopup="listbox" />
+    <ul id="graph-search-results" class="graph-search-results" role="listbox" hidden></ul>
   </div>
-  <button id="graph-reset" type="button">Reset</button>
+  <button id="graph-random" type="button">Show me a random page</button>
 </section>
+
+<nav id="graph-trail" class="graph-trail" aria-label="Exploration trail"></nav>
 
 <section class="graph-shell">
   <div class="graph-stage">
     <canvas id="podcast-graph-canvas" width="1100" height="720"></canvas>
   </div>
   <aside class="graph-panel" id="graph-panel">
-    <p class="muted">Search or click a node to inspect links.</p>
+    <p class="muted">Loading the graph…</p>
   </aside>
 </section>
 

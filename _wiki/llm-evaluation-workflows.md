@@ -31,27 +31,27 @@ representative examples, define what a good answer or action looks like, and
 run the system. They look at failures and keep the eval set fresh as the
 product changes.
 
-[Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }})
+[Hugo Bowne-Anderson](https://datatalks.club/people/hugobowneanderson.html)
 anchors the builder version in
-[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}).
+[Practical LLM Engineering and RAG](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html).
 At 13:56, he describes generator-evaluator checks. At 23:00-25:25, he argues
 for representative gold tests that are still cheap enough to run often. Teams
 can eyeball early outputs, but reliable software eventually needs examples that
 cover real user tasks, expected formats, and known failure modes.
 
-[Paul Iusztin]({{ '/people/pauliusztin/' | relative_url }}) puts the same work
+[Paul Iusztin](https://datatalks.club/people/pauliusztin.html) puts the same work
 inside the AI engineer skill stack in
-[his AI engineering episode]({{ '/podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products/' | relative_url }}).
+[his AI engineering episode](https://datatalks.club/podcast/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products.html).
 At 38:41-41:39, evaluation appears with human review and correctness
-measurement. Paul also uses validation sets, data splits, and statistics. [Nasser Qadri]({{ '/people/nasserqadri/' | relative_url }})
+measurement. Paul also uses validation sets, data splits, and statistics. [Nasser Qadri](https://datatalks.club/people/nasserqadri.html)
 keeps that rigor in
-[Understanding the AI Engineer Role]({{ '/podcasts/s23e07-understanding-ai-engineer-role/' | relative_url }})
+[Understanding the AI Engineer Role](https://datatalks.club/podcast/s23e07-understanding-ai-engineer-role.html)
 at 7:45-7:55. Precision, recall, accuracy, and careful measurement still matter
 even when the product uses generative models or agents.
 
 Large eval sets slow iteration because every prompt, retrieval change, or model
 change becomes more expensive to check. Hugo's 24:18-25:25 discussion in
-[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }})
+[Practical LLM Engineering and RAG](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html)
 therefore treats size as a cost and coverage tradeoff. The set should be large
 enough to avoid overfitting to a few examples, but small enough that teams
 actually run it. Use
@@ -63,16 +63,16 @@ behavior through fine-tuning.
 
 Guests differ most on what should judge the system and where to spend money.
 Hugo's
-[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }})
+[Practical LLM Engineering and RAG](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html)
 discussion at 24:39-24:59 is cost-aware. Simple assertions, structured output,
 regular expressions, and string matching can be enough when the expected
 behavior is easy to check. Cheaper models and spreadsheets can also keep
 iteration affordable. Save LLM-as-judge calls for cases where deterministic
 checks are too brittle.
 
-[Aditya Gautam]({{ '/people/adityagautam/' | relative_url }}) is more explicit
+[Aditya Gautam](https://datatalks.club/people/adityagautam.html) is more explicit
 about LLM judges in enterprise agent settings. In
-[The Future of AI Agents]({{ '/podcasts/s23e03-future-of-ai-agents/' | relative_url }}),
+[The Future of AI Agents](https://datatalks.club/podcast/s23e03-future-of-ai-agents.html),
 he describes golden datasets, pass thresholds, and LLM judges trained against
 human labels at 46:19-50:18. Red teaming and guardrails appear in the same
 discussion. He also warns that judges can be biased, so teams must validate the
@@ -87,7 +87,7 @@ belong in the taxonomy.
 
 Hugo's spreadsheet-style failure
 analysis at 26:43-27:20 in
-[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }})
+[Practical LLM Engineering and RAG](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html)
 shows how teams can categorize failures and rank the largest error classes.
 They avoid spending engineering time on minor formatting if the major problem is
 retrieval quality. This keeps [Testing]({{ '/wiki/testing/' | relative_url }})
@@ -99,7 +99,7 @@ can validate JSON schema, exact fields, and required citations. They can also
 check forbidden strings, SQL syntax, tool parameters, and regular expressions.
 
 Other checks need semantic judgment. Aditya's
-[Future of AI Agents]({{ '/podcasts/s23e03-future-of-ai-agents/' | relative_url }})
+[Future of AI Agents](https://datatalks.club/podcast/s23e03-future-of-ai-agents.html)
 discussion at 46:19-48:11 shows the LLM-judge version, but it also implies a
 second eval problem. Teams must compare automated judgments against human labels
 and watch for judge bias.
@@ -112,12 +112,12 @@ embeddings. It can also come from loose metadata filters, stale indexes, prompt
 wording, or a model that ignores the retrieved evidence. Hugo's
 failure-analysis example at
 26:43-27:20 in
-[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }})
+[Practical LLM Engineering and RAG](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html)
 asks where the next fix belongs before adding more architecture.
 
-[Atita Arora]({{ '/people/atitaarora/' | relative_url }}) gives the search-side
+[Atita Arora](https://datatalks.club/people/atitaarora.html) gives the search-side
 version in
-[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}).
+[Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html).
 At 38:24-48:09, she connects chunk size, overlap, and embedding choice.
 Retrieval strategy, answer quality, and citations belong in the same evaluation
 workflow. Human-in-the-loop evaluation belongs there too. LLM eval is therefore
@@ -134,10 +134,10 @@ generation.
 
 ## Agent and Tool Evaluation
 
-Agent evaluation adds software behavior to answer quality. [Ranjitha Kulkarni]({{ '/people/ranjithakulkarni/' | relative_url }})
+Agent evaluation adds software behavior to answer quality. [Ranjitha Kulkarni](https://datatalks.club/people/ranjithakulkarni.html)
 says public benchmarks such as SQuAD evaluate model capability, not the deployed
 system
-([Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}),
+([Building Agentic AI Systems](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html),
 51:17-51:42). Teams therefore need custom datasets that represent user goals,
 tool constraints, and product workflows.
 
@@ -146,7 +146,7 @@ Her agent testing workflow is close to ordinary
 [orchestration]({{ '/wiki/orchestration/' | relative_url }}). Mock external
 tools, assert outputs, check tool names and parameters, and keep integration
 tests for the real systems. At 56:02-57:23 in
-[Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}),
+[Building Agentic AI Systems](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html),
 the calendar-agent example shows why outcome assertions matter more than exact
 trace matching. Several valid action paths can create the same correct invite.
 
@@ -155,14 +155,14 @@ trace matching. Several valid action paths can create the same correct invite.
 Offline eval sets decay unless production behavior feeds them. Aditya describes
 explicit feedback, such as thumbs up or thumbs down. He also describes implicit
 feedback, such as a user repeating or reframing a query after a bad answer
-([The Future of AI Agents]({{ '/podcasts/s23e03-future-of-ai-agents/' | relative_url }}),
+([The Future of AI Agents](https://datatalks.club/podcast/s23e03-future-of-ai-agents.html),
 38:49-42:20). Those signals can become synthetic data, human labeling work, or
 new gold cases. They can also lead to updated prompts, fine-tuning examples, or
 new guardrail tests.
 
 Production feedback also needs traces. Hugo discusses logs and traces at 27:38
 in
-[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}).
+[Practical LLM Engineering and RAG](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html).
 The team has to reconstruct whether the wrong output came from retrieval or
 context packaging. The problem can also come from tool use or generation. This
 puts LLM evaluation next to [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }})
@@ -173,7 +173,7 @@ instead of leaving it as an offline score.
 
 High-risk LLM workflows need more than accuracy checks. Aditya's enterprise
 agent discussion at 30:00-32:27 in
-[The Future of AI Agents]({{ '/podcasts/s23e03-future-of-ai-agents/' | relative_url }})
+[The Future of AI Agents](https://datatalks.club/podcast/s23e03-future-of-ai-agents.html)
 adds logging, auditability, data lineage, and guardrails. Compliance also
 matters for sensitive settings such as healthcare and finance. Evaluation in
 those settings belongs with

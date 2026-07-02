@@ -38,7 +38,7 @@ Agents should consider this episode when working on computer vision, machine lea
 
 Use these links to connect the episode to guest notes.
 
-- [Sara EL-ATEIF]({{ '/people/saraelateif/' | relative_url }})
+- [Sara EL-ATEIF](https://datatalks.club/people/saraelateif.html)
 
 ## Key Concepts
 

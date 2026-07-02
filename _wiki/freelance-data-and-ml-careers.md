@@ -12,17 +12,17 @@ related:
 ---
 
 Freelance data and ML careers combine technical work with practice-building.
-[Orell Garten]({{ '/people/orellgarten/' | relative_url }}) shows the
+[Orell Garten](https://datatalks.club/people/orellgarten.html) shows the
 consultant path in DataTalks.Club. He moved from research and startup work into
 focused data-engineering services. Small useful deliveries helped him win trust
-([From Academic Research to Lean Data Consulting]({{ '/podcasts/from-academic-research-to-data-engineering-freelancing/' | relative_url }}),
+([From Academic Research to Lean Data Consulting](https://datatalks.club/podcast/from-academic-research-to-data-engineering-freelancing.html),
 19:34-25:02).
 
-[Pastor Soto]({{ '/people/pastorsoto/' | relative_url }}) shows a
+[Pastor Soto](https://datatalks.club/people/pastorsoto.html) shows a
 learning-and-visibility path. He started with small remote data
 projects and learned under deadline pressure. Public ML projects and community
 work then helped him attract interviews and freelance opportunities
-([From Medicine to Machine Learning]({{ '/podcasts/nonlinear-path-to-machine-learning-freelancing-and-public-learning/' | relative_url }}),
+([From Medicine to Machine Learning](https://datatalks.club/podcast/nonlinear-path-to-machine-learning-freelancing-and-public-learning.html),
 4:37-10:21 and 27:27-52:44).
 
 Use [Freelance Data Engineering and Consulting]({{ '/wiki/freelance/' | relative_url }}),
@@ -37,16 +37,16 @@ keeps delivery close to feedback.
 
 Orell's first freelance signal came through a contact from his startup period.
 Around 21:24 in
-[From Academic Research to Lean Data Consulting]({{ '/podcasts/from-academic-research-to-data-engineering-freelancing/' | relative_url }}),
+[From Academic Research to Lean Data Consulting](https://datatalks.club/podcast/from-academic-research-to-data-engineering-freelancing.html),
 he says a previous contact returned with a small paid consulting request. The
 project mattered because it proved that his startup and data-platform skills had
 market value even after the company didn't work out. He then focused on quality
 delivery. Networking, LinkedIn sharing, and referrals became part of the same
 practice
-([Orell Garten]({{ '/people/orellgarten/' | relative_url }})).
+([Orell Garten](https://datatalks.club/people/orellgarten.html)).
 
 Pastor's proof began smaller and earlier. Around 6:05 in
-[From Medicine to Machine Learning]({{ '/podcasts/nonlinear-path-to-machine-learning-freelancing-and-public-learning/' | relative_url }}),
+[From Medicine to Machine Learning](https://datatalks.club/podcast/nonlinear-path-to-machine-learning-freelancing-and-public-learning.html),
 he describes signing up for Upwork. His first small payment came from helping
 with a statistics problem. Around 7:12-10:21, he explains how those projects
 pushed him from SPSS into Excel and R. Later client work demanded Python.
@@ -55,13 +55,13 @@ For a transition into [machine learning]({{ '/wiki/machine-learning/' | relative
 or [data engineering]({{ '/wiki/data-engineering/' | relative_url }}),
 the proof wasn't a credential alone. It was evidence that he could learn under
 deadline and deliver something useful
-([Pastor Soto]({{ '/people/pastorsoto/' | relative_url }})).
+([Pastor Soto](https://datatalks.club/people/pastorsoto.html)).
 
 ## Learning by Doing Has Different Risk Profiles
 
 Pastor frames early freelancing as a high-pressure learning environment. Around
 9:39-10:21 in
-[From Medicine to Machine Learning]({{ '/podcasts/nonlinear-path-to-machine-learning-freelancing-and-public-learning/' | relative_url }}),
+[From Medicine to Machine Learning](https://datatalks.club/podcast/nonlinear-path-to-machine-learning-freelancing-and-public-learning.html),
 he says people often asked him to take projects he didn't yet know how to do.
 He learned quickly on the job. That worked for him because the projects
 created motivating deadlines. He was able to succeed in most of them.
@@ -71,7 +71,7 @@ nights. The work required constant skill acquisition.
 
 Orell's learning habit is more conservative once a client is involved. Around
 46:43-53:03 in
-[From Academic Research to Lean Data Consulting]({{ '/podcasts/from-academic-research-to-data-engineering-freelancing/' | relative_url }}),
+[From Academic Research to Lean Data Consulting](https://datatalks.club/podcast/from-academic-research-to-data-engineering-freelancing.html),
 he separates client value from personal experimentation. As a freelancer, he
 keeps new-technology experiments on his own time. He uses tutorials and small
 rebuilds to learn tools such as DuckDB. He also prefers something that works
@@ -85,7 +85,7 @@ unfocused exploration.
 
 Both episodes treat client acquisition as its own skill, not as an automatic
 side effect of technical competence. Orell is explicit around 55:46 in
-[From Academic Research to Lean Data Consulting]({{ '/podcasts/from-academic-research-to-data-engineering-freelancing/' | relative_url }}):
+[From Academic Research to Lean Data Consulting](https://datatalks.club/podcast/from-academic-research-to-data-engineering-freelancing.html):
 most people already have skills from full-time work. Acquiring clients is a
 different skill set for them.
 
@@ -93,11 +93,11 @@ Around 30:50-32:47, Orell describes mentioning that he's self-employed when
 relevant. He also used recruiters for early freelance projects and relied on
 momentum once work started. Around 57:47, he adds that networking can be
 exhausting for introverts. Avoiding it still makes client acquisition harder
-([Orell Garten]({{ '/people/orellgarten/' | relative_url }})).
+([Orell Garten](https://datatalks.club/people/orellgarten.html)).
 
 Pastor's acquisition path moves from a marketplace to public reputation. Around
 41:03-46:43 in
-[From Medicine to Machine Learning]({{ '/podcasts/nonlinear-path-to-machine-learning-freelancing-and-public-learning/' | relative_url }}),
+[From Medicine to Machine Learning](https://datatalks.club/podcast/nonlinear-path-to-machine-learning-freelancing-and-public-learning.html),
 he says Upwork became harder after the pandemic. He opened LinkedIn and began
 posting course notes and ML explanations. Around 50:53-52:44, he says community
 participation and mentoring helped create new opportunities. Posts about
@@ -112,7 +112,7 @@ than a one-time application tactic.
 
 Orell's freelance delivery starts with the smallest useful look at the
 data. Around 34:35-36:24 in
-[From Academic Research to Lean Data Consulting]({{ '/podcasts/from-academic-research-to-data-engineering-freelancing/' | relative_url }}),
+[From Academic Research to Lean Data Consulting](https://datatalks.club/podcast/from-academic-research-to-data-engineering-freelancing.html),
 he defines his specialty as software-side data engineering for industrial
 clients. The work includes pipelines, data preparation, custom integration, and
 transformations for machines and formats that don't arrive cleanly. Some clients
@@ -123,7 +123,7 @@ In the second case, a CSV can be enough for a first step if it exposes what's
 possible and what's broken.
 
 The MVP workflow becomes concrete around 39:00-42:16 in the same
-[Orell Garten episode]({{ '/podcasts/from-academic-research-to-data-engineering-freelancing/' | relative_url }}).
+[Orell Garten episode](https://datatalks.club/podcast/from-academic-research-to-data-engineering-freelancing.html).
 He starts by inspecting schemas and documenting the data. Then he pulls a small
 time slice locally and uses simple scripts to find a problem or insight before
 automating ingestion. Around 1:00:59, he adds that manual filtering or
@@ -140,7 +140,7 @@ before showing a large platform.
 Orell ties overengineering directly to premature infrastructure. Build before
 understanding the client problem and infrastructure may support too many
 imagined use cases
-([From Academic Research to Lean Data Consulting]({{ '/podcasts/from-academic-research-to-data-engineering-freelancing/' | relative_url }})
+([From Academic Research to Lean Data Consulting](https://datatalks.club/podcast/from-academic-research-to-data-engineering-freelancing.html)
 at 42:58).
 
 Around 43:34-45:58, he describes regular client meetings as a forcing function
@@ -160,7 +160,7 @@ work.
 
 Orell's offer is legible because it names the kind of data work he does. Around
 34:35 in
-[From Academic Research to Lean Data Consulting]({{ '/podcasts/from-academic-research-to-data-engineering-freelancing/' | relative_url }}),
+[From Academic Research to Lean Data Consulting](https://datatalks.club/podcast/from-academic-research-to-data-engineering-freelancing.html),
 he says he focuses on software-side data engineering rather than dashboarding or
 Power BI. Many of his clients work in industrial settings where machines,
 formats, and vendor variants require custom integration. Around 53:54, he also
@@ -170,7 +170,7 @@ for the business.
 
 Pastor's specialization is more identity-and-portfolio driven. Around
 47:48-49:30 in
-[From Medicine to Machine Learning]({{ '/podcasts/nonlinear-path-to-machine-learning-freelancing-and-public-learning/' | relative_url }}),
+[From Medicine to Machine Learning](https://datatalks.club/podcast/nonlinear-path-to-machine-learning-freelancing-and-public-learning.html),
 he explains that healthcare ML capstones helped make sense of his combined
 medical and data background. The examples used skin cancer and pneumonia data.
 The projects were dockerized and deployed on AWS. They were also reusable as
@@ -185,7 +185,7 @@ visible technical artifacts.
 
 Pastor's public-learning system is practical rather than decorative. Around
 28:04-31:39 in
-[From Medicine to Machine Learning]({{ '/podcasts/nonlinear-path-to-machine-learning-freelancing-and-public-learning/' | relative_url }}),
+[From Medicine to Machine Learning](https://datatalks.club/podcast/nonlinear-path-to-machine-learning-freelancing-and-public-learning.html),
 he says leaderboard participation pushed him to post weekly. It also pushed him
 to frame posts as explanations, not just "I'm learning" updates. Explaining
 topics such as ROC curves helped him appear as someone with professional
@@ -193,7 +193,7 @@ insight. Around 32:50-34:32, recruiters reached out based on LinkedIn posts even
 though he wasn't actively looking.
 
 The workflow also improved learning. Around 44:15-46:43 in the same
-[Pastor Soto episode]({{ '/podcasts/nonlinear-path-to-machine-learning-freelancing-and-public-learning/' | relative_url }}),
+[Pastor Soto episode](https://datatalks.club/podcast/nonlinear-path-to-machine-learning-freelancing-and-public-learning.html),
 he describes using Notion or Google Docs notes. He turned one video or concept
 into several posts and double-checked material before publishing. That made
 notes, posting, recruiter visibility, and learning reinforcement part of one

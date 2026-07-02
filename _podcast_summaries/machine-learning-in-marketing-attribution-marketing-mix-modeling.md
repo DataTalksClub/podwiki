@@ -38,7 +38,7 @@ Agents should consider this episode when working on marketing, machine learning.
 
 Use these links to connect the episode to guest notes.
 
-- [Juan Orduz]({{ '/people/juanorduz/' | relative_url }})
+- [Juan Orduz](https://datatalks.club/people/juanorduz.html)
 
 ## Key Concepts
 

@@ -19,7 +19,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Denise Gosnell]({ '/people/denisegosnell/' | relative_url }).
+[Denise Gosnell](https://datatalks.club/people/denisegosnell.html).
 
 ## Discussion Archive
 

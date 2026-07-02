@@ -15,7 +15,7 @@ Lavanya Gupta is a Carnegie Mellon Language Technologies Institute alum and Seni
 
 ## Podcast Contributions
 
-- [Applied LLM Research and Career Growth]({{ '/podcasts/applied-llm-research-and-career-growth-in-practice/' | relative_url }}) gives the archive evidence on long-context LLM evaluation, rapid prototyping, industry research publication, and using communication to advance an applied research career.
+- [Applied LLM Research and Career Growth](https://datatalks.club/podcast/applied-llm-research-and-career-growth-in-practice.html) gives the archive evidence on long-context LLM evaluation, rapid prototyping, industry research publication, and using communication to advance an applied research career.
 
 ## Concepts Connected
 
@@ -31,4 +31,4 @@ Lavanya Gupta is a Carnegie Mellon Language Technologies Institute alum and Seni
 
 ## Podcast Discussions
 
-- [Applied LLM Research & Career Growth: Long-Context Evaluation, Prototyping & Industry Publishing]({{ '/podcasts/applied-llm-research-and-career-growth-in-practice/' | relative_url }}). Related topics: [LLMs]({{ '/wiki/llms/' | relative_url }}), [NLP]({{ '/wiki/nlp/' | relative_url }}), [MLOps]({{ '/wiki/mlops/' | relative_url }}), [applied research]({{ '/wiki/applied-research/' | relative_url }}), [career growth]({{ '/wiki/career-growth/' | relative_url }}).
+- [Applied LLM Research & Career Growth: Long-Context Evaluation, Prototyping & Industry Publishing](https://datatalks.club/podcast/applied-llm-research-and-career-growth-in-practice.html). Related topics: [LLMs]({{ '/wiki/llms/' | relative_url }}), [NLP]({{ '/wiki/nlp/' | relative_url }}), [MLOps]({{ '/wiki/mlops/' | relative_url }}), [applied research]({{ '/wiki/applied-research/' | relative_url }}), [career growth]({{ '/wiki/career-growth/' | relative_url }}).

@@ -38,7 +38,7 @@ Agents should consider this episode when working on data science, practices.
 
 Use these links to connect the episode to guest notes.
 
-- [Jakob Graff]({{ '/people/jakobgraff/' | relative_url }})
+- [Jakob Graff](https://datatalks.club/people/jakobgraff.html)
 
 ## Key Concepts
 

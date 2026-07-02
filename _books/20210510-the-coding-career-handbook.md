@@ -19,7 +19,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Shawn Swyx Wang]({ '/people/swyx/' | relative_url }).
+[Shawn Swyx Wang](https://datatalks.club/people/swyx.html).
 
 ## Discussion Archive
 

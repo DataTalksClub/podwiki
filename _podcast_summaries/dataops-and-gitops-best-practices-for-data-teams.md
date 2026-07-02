@@ -38,7 +38,7 @@ Agents should consider this episode when working on DataOps, GitOps, data teams.
 
 Use these links to connect the episode to guest notes.
 
-- [Tomasz Hinc]({{ '/people/tomaszhinc/' | relative_url }})
+- [Tomasz Hinc](https://datatalks.club/people/tomaszhinc.html)
 
 ## Key Concepts
 

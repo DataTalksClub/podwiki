@@ -38,7 +38,7 @@ Agents should consider this episode when working on causal inference, LLMs, mach
 
 Use these links to connect the episode to guest notes.
 
-- [Aleksander Molak]({{ '/people/aleksandermolak/' | relative_url }})
+- [Aleksander Molak](https://datatalks.club/people/aleksandermolak.html)
 
 ## Key Concepts
 

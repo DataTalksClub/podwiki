@@ -38,7 +38,7 @@ Agents should consider this episode when working on data science, startups, care
 
 Use these links to connect the episode to guest notes.
 
-- [Marianna Diachuk]({{ '/people/mariannadiachuk/' | relative_url }})
+- [Marianna Diachuk](https://datatalks.club/people/mariannadiachuk.html)
 
 ## Key Concepts
 

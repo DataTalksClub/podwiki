@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[David Mertz]({ '/people/davidmertz/' | relative_url }).
+[David Mertz](https://datatalks.club/people/davidmertz.html).
 
 ## Discussion Archive
 

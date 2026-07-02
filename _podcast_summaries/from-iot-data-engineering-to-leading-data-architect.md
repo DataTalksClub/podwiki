@@ -38,7 +38,7 @@ Agents should consider this episode when working on data engineering, career tra
 
 Use these links to connect the episode to guest notes.
 
-- [Loïc Magnien]({{ '/people/loicmagnien/' | relative_url }})
+- [Loïc Magnien](https://datatalks.club/people/loicmagnien.html)
 
 ## Key Concepts
 

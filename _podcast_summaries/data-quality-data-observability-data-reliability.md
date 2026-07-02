@@ -38,7 +38,7 @@ Agents should consider this episode when working on MLOps, data observability.
 
 Use these links to connect the episode to guest notes.
 
-- [Barr Moses]({{ '/people/barrmoses/' | relative_url }})
+- [Barr Moses](https://datatalks.club/people/barrmoses.html)
 
 ## Key Concepts
 

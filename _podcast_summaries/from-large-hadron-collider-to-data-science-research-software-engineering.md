@@ -38,7 +38,7 @@ Agents should consider this episode when working on machine learning, data scien
 
 Use these links to connect the episode to guest notes.
 
-- [Anastasia Karavdina]({{ '/people/anastasiakaravdina/' | relative_url }})
+- [Anastasia Karavdina](https://datatalks.club/people/anastasiakaravdina.html)
 
 ## Key Concepts
 

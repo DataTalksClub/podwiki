@@ -15,17 +15,17 @@ related:
 Autonomous driving AI applies machine learning, computer vision, and sensor
 fusion to make a vehicle perceive its surroundings, predict the behavior of
 other agents, and plan safe motion. DataTalks.Club guests who have worked at
-[Tesla]({{ '/podcasts/from-computer-vision-research-to-autonomous-driving-ai/' | relative_url }})
+[Tesla](https://datatalks.club/podcast/from-computer-vision-research-to-autonomous-driving-ai.html)
 and
-[Waymo]({{ '/podcasts/from-computer-vision-research-to-autonomous-driving-ai/' | relative_url }})
+[Waymo](https://datatalks.club/podcast/from-computer-vision-research-to-autonomous-driving-ai.html)
 describe it as an engineering discipline rather than a single model. The vehicle
 runs a stack of perception, prediction, and planning systems, each validated and
 released in stages.
 
 The clearest end-to-end account comes from
-[Aishwarya Jadhav]({{ '/people/aishwaryajadhav/' | relative_url }}), a Machine
+[Aishwarya Jadhav](https://datatalks.club/people/aishwaryajadhav.html), a Machine
 Learning Engineer at Waymo and former Tesla Autopilot team member, in
-[Lessons from Applied AI: Tesla, Waymo, and Beyond]({{ '/podcasts/from-computer-vision-research-to-autonomous-driving-ai/' | relative_url }}).
+[Lessons from Applied AI: Tesla, Waymo, and Beyond](https://datatalks.club/podcast/from-computer-vision-research-to-autonomous-driving-ai.html).
 Her career moved from finance data engineering at Morgan Stanley, through
 [computer vision]({{ '/wiki/computer-vision/' | relative_url }}) research at
 Carnegie Mellon, into perception and video understanding at Tesla, and then to
@@ -35,9 +35,9 @@ AI next to
 [model optimization]({{ '/wiki/model-optimization/' | relative_url }}), and
 [production]({{ '/wiki/production/' | relative_url }}) ML systems.
 
-[Paul Iusztin]({{ '/people/pauliusztin/' | relative_url }}) adds an earlier-career
+[Paul Iusztin](https://datatalks.club/people/pauliusztin.html) adds an earlier-career
 perspective. In
-[AI Engineering: Skill Stack, Agents, LLMOps, and How to Ship AI Products]({{ '/podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products/' | relative_url }}),
+[AI Engineering: Skill Stack, Agents, LLMOps, and How to Ship AI Products](https://datatalks.club/podcast/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products.html),
 he describes his first AI research job doing deep learning on autonomous driving
 from day zero: 3D object detection, 3D tracking, and fusing multimodal data from
 images, radar, and LiDAR. That background shaped his later move into

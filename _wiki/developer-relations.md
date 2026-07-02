@@ -22,8 +22,8 @@ connects [open source]({{ '/wiki/open-source/' | relative_url }}), product
 feedback, and [community building]({{ '/wiki/community-building/' | relative_url }}).
 
 The clearest definition comes from
-[Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }}) in
-[DevRel Role for Machine Learning]({{ '/podcasts/devrel-open-source-machine-learning/' | relative_url }}).
+[Hugo Bowne-Anderson](https://datatalks.club/people/hugobowneanderson.html) in
+[DevRel Role for Machine Learning](https://datatalks.club/podcast/devrel-open-source-machine-learning.html).
 At 18:03, he describes DevRel around education, documentation, and a "wisdom
 layer" around tools. At 25:17, he connects the role to dogfooding and developer
 collaboration. He also names documentation feedback and routing user friction
@@ -36,8 +36,8 @@ people learn the tool deeply and turn that knowledge into reproducible examples.
 They help developers get their first useful result, then bring confusing parts
 back to product and engineering.
 
-[Elle O'Brien]({{ '/people/elleobrien/' | relative_url }}) shows this model in
-[DevRel for Data Science]({{ '/podcasts/devrel-data-science-open-source-tools/' | relative_url }}).
+[Elle O'Brien](https://datatalks.club/people/elleobrien.html) shows this model in
+[DevRel for Data Science](https://datatalks.club/podcast/devrel-data-science-open-source-tools.html).
 At 12:20, her role at Iterative spans product work, CML, and documentation. It
 also includes pull requests, videos, and hiring. At 19:47, she describes the
 daily reality through content creation, community management, and support. At
@@ -71,17 +71,17 @@ that don't show up in a pure
 [developer experience]({{ '/wiki/developer-experience/' | relative_url }})
 definition.
 
-[Vincent Warmerdam]({{ '/people/vincentwarmerdam/' | relative_url }}) pushes the
+[Vincent Warmerdam](https://datatalks.club/people/vincentwarmerdam.html) pushes the
 role closer to open-source engineering. In
-[Open Source ML Tools]({{ '/podcasts/open-source-ml-tools-strategy-and-business-models/' | relative_url }}),
+[Open Source ML Tools](https://datatalks.club/podcast/open-source-ml-tools-strategy-and-business-models.html),
 the 38:22 chapter covers combining DevRel with core development
 responsibilities. At 41:21, he describes a developer-relations engineer role at
 :probabl. At 42:20, he connects that role to interactive scikit-learn content
 and videos.
 
-[Will Russell]({{ '/people/willrussell/' | relative_url }}) gives a more
+[Will Russell](https://datatalks.club/people/willrussell.html) gives a more
 demo-first version in
-[Developer Advocacy Through Community Impact]({{ '/podcasts/practical-devrel-demofirst-education-and-open-source/' | relative_url }}).
+[Developer Advocacy Through Community Impact](https://datatalks.club/podcast/practical-devrel-demofirst-education-and-open-source.html).
 At 49:14, he describes developer advocacy at Kestra through documentation,
 demos, and outreach. At 51:49, he explains how he starts with bullet points,
 builds demos, and collaborates with writers.
@@ -89,13 +89,13 @@ builds demos, and collaborates with writers.
 ## Education, Tutorials, and Documentation
 
 DevRel people turn internal product knowledge into public learning paths. In
-[DevRel Role for Machine Learning]({{ '/podcasts/devrel-open-source-machine-learning/' | relative_url }}),
+[DevRel Role for Machine Learning](https://datatalks.club/podcast/devrel-open-source-machine-learning.html),
 Hugo's 18:03 definition places education and documentation at the center of the
 job. In the 43:14 chapter, he argues that tutorials should start from audience
 and goals, not from the feature a team wants to announce.
 
 Elle's
-[DevRel for Data Science]({{ '/podcasts/devrel-data-science-open-source-tools/' | relative_url }})
+[DevRel for Data Science](https://datatalks.club/podcast/devrel-data-science-open-source-tools.html)
 adds the data-science version of the same structure. At 7:50, she discusses
 applied data science teaching and reproducibility. At 52:06, she links teaching
 with DevRel through curriculum design and reusable video content. In these
@@ -105,9 +105,9 @@ episodes, DevRel depends on the same audience-aware practice used in
 beyond publishing docs because developers still need to succeed with the tool in
 a real context.
 
-[Eugene Yan]({{ '/people/eugeneyan/' | relative_url }}) gives the writing side
+[Eugene Yan](https://datatalks.club/people/eugeneyan.html) gives the writing side
 of this work in
-[Technical Writing for Data Scientists]({{ '/podcasts/technical-writing-for-data-scientists/' | relative_url }}).
+[Technical Writing for Data Scientists](https://datatalks.club/podcast/technical-writing-for-data-scientists.html).
 At 14:00, he talks about choosing readers, peers, and future teammates. At
 54:00, he treats technical documentation as decision logs, rationales, and team
 memory. DevRel uses the same writing muscles, but it points them toward external
@@ -120,7 +120,7 @@ weak when it only sells the feature. It helps when it reduces setup uncertainty,
 shows the tool in context, and exposes the tradeoffs a real user will hit.
 
 Will's
-[Developer Advocacy Through Community Impact]({{ '/podcasts/practical-devrel-demofirst-education-and-open-source/' | relative_url }})
+[Developer Advocacy Through Community Impact](https://datatalks.club/podcast/practical-devrel-demofirst-education-and-open-source.html)
 episode gives the strongest demo reference. At 53:40, he explains a video
 strategy built around a clear goal and a useful pace. He also argues for full
 walkthroughs. At 54:30, he uses an "after execution" notification as a concrete
@@ -131,7 +131,7 @@ Postgres. He includes Git too because developer adoption often depends on the
 surrounding work, not only the main product.
 
 Hugo's
-[DevRel Role for Machine Learning]({{ '/podcasts/devrel-open-source-machine-learning/' | relative_url }})
+[DevRel Role for Machine Learning](https://datatalks.club/podcast/devrel-open-source-machine-learning.html)
 episode gives the ML infrastructure version. The 2:14 chapter uses a Metaflow
 sandbox demo, and the 36:27 chapter connects teaching reproducibility with
 dogfooding and simplified workflows. Those examples belong with
@@ -144,8 +144,8 @@ because each demo also tests the tool's developer experience.
 
 DevRel often runs through public communities, but it isn't the same job as
 general community management. In
-[MLOps Community Playbook]({{ '/podcasts/mlops-community-building-and-meetups/' | relative_url }}),
-[Demetrios Brinkmann]({{ '/people/demetriosbrinkmann/' | relative_url }})
+[MLOps Community Playbook](https://datatalks.club/podcast/mlops-community-building-and-meetups.html),
+[Demetrios Brinkmann](https://datatalks.club/people/demetriosbrinkmann.html)
 focuses on launching, growing, and retaining a community. At 24:57, he describes
 the shift from founder-led activity to peer-to-peer participation. At 55:04, he
 discusses sprints, autonomy, and many-to-many engagement.
@@ -156,8 +156,8 @@ builders.
 
 Open-source DevRel has an extra constraint because the project community must
 keep its own credibility. In
-[ETL vs ELT & Data Lake vs Warehouse]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
-[Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) explains Airbyte's
+[ETL vs ELT & Data Lake vs Warehouse](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html),
+[Natalie Kwong](https://datatalks.club/people/nataliekwong.html) explains Airbyte's
 open-source plus cloud model at 43:45. At 48:26, she discusses competition and
 licensing risk.
 
@@ -178,10 +178,10 @@ repos.
 
 DevRel teams get more from metrics when they track developer progress, not only
 audience size. In
-[DevRel for Data Science]({{ '/podcasts/devrel-data-science-open-source-tools/' | relative_url }}),
+[DevRel for Data Science](https://datatalks.club/podcast/devrel-data-science-open-source-tools.html),
 Elle's 26:01 chapter covers community signals and analytics. At 48:06, she
 contrasts audience growth with sustainable strategies. In
-[DevRel Role for Machine Learning]({{ '/podcasts/devrel-open-source-machine-learning/' | relative_url }}),
+[DevRel Role for Machine Learning](https://datatalks.club/podcast/devrel-open-source-machine-learning.html),
 Hugo's 46:09 chapter separates content goals such as awareness, support, and
 open-source strategy.
 
@@ -196,7 +196,7 @@ to a working project or a clearer issue. A better doc page or a product fix
 matters too.
 
 Community teams measure a different center of gravity. In
-[MLOps Community Playbook]({{ '/podcasts/mlops-community-building-and-meetups/' | relative_url }}),
+[MLOps Community Playbook](https://datatalks.club/podcast/mlops-community-building-and-meetups.html),
 Demetrios discusses membership milestones at 18:21, surveys and feedback cadence
 at 45:45, and member connections at 50:51. Those metrics measure community
 health. DevRel can borrow them, but it still needs product-facing signals that
@@ -205,15 +205,15 @@ tell engineering where developers get stuck.
 ## Boundaries with Marketing and Community Work
 
 DevRel overlaps with marketing because both care about reaching developers. In
-[DevRel Role for Machine Learning]({{ '/podcasts/devrel-open-source-machine-learning/' | relative_url }}),
+[DevRel Role for Machine Learning](https://datatalks.club/podcast/devrel-open-source-machine-learning.html),
 Hugo makes that overlap explicit at 27:17 when he discusses SEO and audience
 targeting. He also covers content strategy. DevRel has to protect credibility
 because practitioners should be able to reproduce the demo and look at the code.
 They should also be able to connect what they learned to real work.
 
-[Ben Taylor]({{ '/people/bentaylor/' | relative_url }}) shows the evangelism
+[Ben Taylor](https://datatalks.club/people/bentaylor.html) shows the evangelism
 side in
-[Public Speaking for Data Scientists]({{ '/podcasts/public-speaking-for-data-scientists/' | relative_url }}).
+[Public Speaking for Data Scientists](https://datatalks.club/podcast/public-speaking-for-data-scientists.html).
 At 6:04, he discusses AI evangelism, positioning, and messaging strategy. At
 21:55, he recommends one to three clear takeaways and calls to action. DevRel
 can use that skill, but it doesn't replace the technical feedback loop.

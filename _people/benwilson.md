@@ -13,7 +13,7 @@ curated: "true"
 Ben Wilson asks how
 [machine learning]({{ '/wiki/machine-learning/' | relative_url }}) stays useful
 after the first working prototype. In
-[Practical Machine Learning Engineering for Production]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }}),
+[Practical Machine Learning Engineering for Production](https://datatalks.club/podcast/machine-learning-engineering-production-best-practices.html),
 he tells production ML teams to optimize for maintainability and business fit.
 They should also keep operational burden low before they choose a more advanced
 model.
@@ -33,7 +33,7 @@ Ben starts his production argument with the internal customer's problem. The
 model class comes later. At 6:50, he says teams often chase the "shiny thing."
 They should first ask what problem the business needs solved and who will
 maintain the solution afterward. Read that discussion in
-[Practical Machine Learning Engineering for Production]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }})
+[Practical Machine Learning Engineering for Production](https://datatalks.club/podcast/machine-learning-engineering-production-best-practices.html)
 alongside
 [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
 and the
@@ -123,12 +123,12 @@ ingest to prediction. That makes his guidance a practical bridge between
 ## Related Production ML Voices
 
 Ben's maintainability-first view pairs naturally with
-[Nadia Nahar]({{ '/people/nadianahar/' | relative_url }}). Her
-[Software Engineering for Machine Learning]({{ '/podcasts/software-engineering-for-machine-learning/' | relative_url }})
+[Nadia Nahar](https://datatalks.club/people/nadianahar.html). Her
+[Software Engineering for Machine Learning](https://datatalks.club/podcast/software-engineering-for-machine-learning.html)
 episode covers requirements, documentation, hidden technical debt, and team
 alignment. Ben's view also pairs with
-[Simon Stiebellehner]({{ '/people/simonstiebellehner/' | relative_url }}). His
-[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }})
+[Simon Stiebellehner](https://datatalks.club/people/simonstiebellehner.html). His
+[Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html)
 episode turns production ML into platform practices such as experiment
 tracking, model registries, serving choices, and prediction logging.
 

@@ -38,8 +38,8 @@ Agents should consider this episode when working on community building, machine 
 
 Use these links to connect the episode to guest notes.
 
-- [Eugene Yan]({{ '/people/eugeneyan/' | relative_url }})
-- [Alexey Grigorev]({{ '/people/alexeygrigorev/' | relative_url }})
+- [Eugene Yan](https://datatalks.club/people/eugeneyan.html)
+- [Alexey Grigorev](https://datatalks.club/people/alexeygrigorev.html)
 
 ## Key Concepts
 

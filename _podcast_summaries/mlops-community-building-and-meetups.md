@@ -38,7 +38,7 @@ Agents should consider this episode when working on MLOps, community building.
 
 Use these links to connect the episode to guest notes.
 
-- [Demetrios Brinkmann]({{ '/people/demetriosbrinkmann/' | relative_url }})
+- [Demetrios Brinkmann](https://datatalks.club/people/demetriosbrinkmann.html)
 
 ## Key Concepts
 

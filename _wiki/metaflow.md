@@ -10,9 +10,9 @@ related:
   - Open Source and Developer Relations
 ---
 
-[Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }})
+[Hugo Bowne-Anderson](https://datatalks.club/people/hugobowneanderson.html)
 grounds DataTalks.Club's Metaflow discussion in his work at Outerbounds. In
-[DevRel Role for Machine Learning]({{ '/podcasts/devrel-open-source-machine-learning/' | relative_url }}),
+[DevRel Role for Machine Learning](https://datatalks.club/podcast/devrel-open-source-machine-learning.html),
 Hugo describes Metaflow as a human-centered tool for building full-stack
 [machine learning]({{ '/wiki/machine-learning/' | relative_url }}) applications
 and software at 2:54. He uses Metaflow less as a feature checklist. Instead,
@@ -28,7 +28,7 @@ toward production without forcing them to become Kubernetes specialists. Hugo
 frames Outerbounds' broader goal as helping teams take machine learning from
 prototype to production and improve iteration speed.
 He also says that not every part of that work has to happen through Metaflow
-([DevRel Role for Machine Learning]({{ '/podcasts/devrel-open-source-machine-learning/' | relative_url }}),
+([DevRel Role for Machine Learning](https://datatalks.club/podcast/devrel-open-source-machine-learning.html),
 13:17).
 
 ## Workflow Tooling and Production Paths
@@ -38,7 +38,7 @@ production [MLOps]({{ '/wiki/mlops/' | relative_url }}). He says Outerbounds
 works on "full-stack machine learning". Outerbounds wants scientists to focus
 on data, modeling and productionization instead of configuring YAML and
 Kubernetes clusters
-([DevRel Role for Machine Learning]({{ '/podcasts/devrel-open-source-machine-learning/' | relative_url }}),
+([DevRel Role for Machine Learning](https://datatalks.club/podcast/devrel-open-source-machine-learning.html),
 3:46).
 
 In the same episode, Hugo connects Metaflow to cloud and scheduler
@@ -53,7 +53,7 @@ treating it as only a Python library.
 ## Sandboxes and Demonstrations
 
 Metaflow also appears as a demo vehicle. At 2:14 in
-[DevRel Role for Machine Learning]({{ '/podcasts/devrel-open-source-machine-learning/' | relative_url }}),
+[DevRel Role for Machine Learning](https://datatalks.club/podcast/devrel-open-source-machine-learning.html),
 Hugo says he recorded an open-source demo of Metaflow and full-stack ML using a
 recent sandbox. He describes the sandbox as a way to show the layers of the ML
 stack and how Metaflow can interoperate with them.
@@ -63,7 +63,7 @@ The sandbox links Metaflow to related
 pages. Hugo later explains that setup for the whole infrastructure stack can
 take days. Educational sandboxes let people spin up an environment quickly and
 learn the concepts first
-([DevRel Role for Machine Learning]({{ '/podcasts/devrel-open-source-machine-learning/' | relative_url }}),
+([DevRel Role for Machine Learning](https://datatalks.club/podcast/devrel-open-source-machine-learning.html),
 18:07). In this framing, Metaflow isn't only the workflow engine. It's also
 part of a teaching surface for reproducible ML workflows.
 
@@ -99,7 +99,7 @@ he says scientists who know data and modeling still need help with compute and
 orchestration, plus code and model versioning. He describes DevRel as giving
 those practitioners the information and resources they need to learn and
 implement the tools. In the same answer, he recalls
-[Ville Tuulos]({{ '/people/villetuulos/' | relative_url }}) describing a
+[Ville Tuulos](https://datatalks.club/people/villetuulos.html) describing a
 "wisdom layer" around Metaflow and treating that layer as equally important to
 the software.
 
@@ -109,10 +109,10 @@ Sandboxes, talks and user feedback matter too. Hugo makes the same point in
 the 25:17 and 36:27 chapters. In those chapters, he ties developer
 collaboration, dogfooding and reproducibility to the quality of the tool and
 its documentation
-([DevRel Role for Machine Learning]({{ '/podcasts/devrel-open-source-machine-learning/' | relative_url }})).
+([DevRel Role for Machine Learning](https://datatalks.club/podcast/devrel-open-source-machine-learning.html)).
 
 The later
-[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }})
+[Practical LLM Engineering and RAG](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html)
 episode only mentions Metaflow as part of Hugo's career context. Around 5:27 to
 5:53, Hugo confirms that his Outerbounds DevRel work centered on Metaflow. That
 later episode is useful mainly for scope. By then, Hugo's podcast contribution

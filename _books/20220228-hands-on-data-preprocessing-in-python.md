@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Roy Jafari]({ '/people/royjafari/' | relative_url }).
+[Roy Jafari](https://datatalks.club/people/royjafari.html).
 
 ## Discussion Archive
 

@@ -18,5 +18,5 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Alex Petrov]({ '/people/alexpetrov/' | relative_url }).
+[Alex Petrov](https://datatalks.club/people/alexpetrov.html).
 

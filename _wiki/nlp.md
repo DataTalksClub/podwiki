@@ -19,19 +19,19 @@ model.
 Guests repeatedly put NLP next to data collection and annotation. They also tie
 it to linguistics, deployment, and evaluation. User safety and product
 constraints matter too. In
-[NLP Dataset Creation]({{ '/podcasts/nlp-dataset-creation-annotation-tools-workflows/' | relative_url }}),
-[Christiaan Swart]({{ '/people/christiannswart/' | relative_url }}) starts
+[NLP Dataset Creation](https://datatalks.club/podcast/nlp-dataset-creation-annotation-tools-workflows.html),
+[Christiaan Swart](https://datatalks.club/people/christiannswart.html) starts
 from label definitions and annotation guides. In
-[Hardening Generative AI Chatbots]({{ '/podcasts/generative-ai-chatbots-in-production-security/' | relative_url }}),
-[Maria Sukhareva]({{ '/people/mariasukhareva/' | relative_url }}) starts from
+[Hardening Generative AI Chatbots](https://datatalks.club/podcast/generative-ai-chatbots-in-production-security.html),
+[Maria Sukhareva](https://datatalks.club/people/mariasukhareva.html) starts from
 prompt injection, hallucinations, and output validation.
 
 Podcast discussions tie older NLP work to modern
 [LLMs]({{ '/wiki/llms/' | relative_url }}),
 [embeddings]({{ '/wiki/embeddings/' | relative_url }}), and
 [RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}). In
-[Lead NLP Teams]({{ '/podcasts/nlp-team-hiring-and-production-mlops/' | relative_url }}),
-[Ivan Bilan]({{ '/people/ivanbilan/' | relative_url }}) describes NLP teams
+[Lead NLP Teams](https://datatalks.club/podcast/nlp-team-hiring-and-production-mlops.html),
+[Ivan Bilan](https://datatalks.club/people/ivanbilan.html) describes NLP teams
 as production teams at 14:07-16:45, not only research groups. Later episodes
 use the same production frame for
 [LLM production patterns]({{ '/wiki/llm-production-patterns/' | relative_url }}),
@@ -45,7 +45,7 @@ analysis. Others cover search, translation, and chatbots. Speech recognition
 and LLM-powered assistants also appear across these episodes.
 
 Ivan's definition in
-[Lead NLP Teams]({{ '/podcasts/nlp-team-hiring-and-production-mlops/' | relative_url }})
+[Lead NLP Teams](https://datatalks.club/podcast/nlp-team-hiring-and-production-mlops.html)
 is role-oriented. At 16:45 he says NLP engineers need skills such as
 tokenization and linguistic judgment. They also need task framing and model
 deployment. At
@@ -55,24 +55,24 @@ through inference optimization, deployment, and
 [MLOps]({{ '/wiki/mlops/' | relative_url }}). At 34:57 he turns the definition
 into a chain of annotation, task engineering, testing, and production work.
 
-[Christiaan Swart]({{ '/people/christiannswart/' | relative_url }}) gives the
+[Christiaan Swart](https://datatalks.club/people/christiannswart.html) gives the
 data-side definition in
-[NLP Dataset Creation]({{ '/podcasts/nlp-dataset-creation-annotation-tools-workflows/' | relative_url }}).
+[NLP Dataset Creation](https://datatalks.club/podcast/nlp-dataset-creation-annotation-tools-workflows.html).
 At 6:51 he compares automated, manual, and hybrid dataset creation. At 18:36
 and 20:57 he makes annotation guides and model-assisted labeling part of the
 system. In that view, an NLP project starts before model training because the
 team has to define what the labels mean.
 
-[Merve Noyan]({{ '/people/mervenoyan/' | relative_url }}) gives the ecosystem
+[Merve Noyan](https://datatalks.club/people/mervenoyan.html) gives the ecosystem
 definition in
-[Contribute to Hugging Face and Build an NLP Portfolio]({{ '/podcasts/hugging-face-contributions-and-nlp-portfolio/' | relative_url }}).
+[Contribute to Hugging Face and Build an NLP Portfolio](https://datatalks.club/podcast/hugging-face-contributions-and-nlp-portfolio.html).
 At 12:46 she explains the Hugging Face Hub through tasks, models, datasets,
 and demos. At 38:02 and 51:12 she links NLP learning to spaCy and Keras
 examples. She also links it to Streamlit, Gradio, and Hugging Face Spaces. For
 career and portfolio work, NLP is a set of reproducible projects that other
 people can run.
 
-[Mastering spaCy]({{ '/books/20211213-mastering-spacy/' | relative_url }})
+[Mastering spaCy](https://datatalks.club/books/20211213-mastering-spacy.html)
 by Duygu Altinok is a practical reference for the spaCy NLP library that Merve
 recommends as a learning entry point.
 
@@ -82,7 +82,7 @@ Guests agree that NLP works on language data, but they stress different
 failure modes.
 
 Ivan focuses on team structure and production ownership. In
-[Lead NLP Teams]({{ '/podcasts/nlp-team-hiring-and-production-mlops/' | relative_url }}),
+[Lead NLP Teams](https://datatalks.club/podcast/nlp-team-hiring-and-production-mlops.html),
 the 14:07 section compares centralized NLP teams with cross-disciplinary
 product teams. At 30:11 he argues that teams need NLP specialists when task
 complexity, data needs, and feature engineering justify the hire. His view
@@ -90,25 +90,25 @@ centers the role boundary between general ML skill and specialized language
 expertise.
 
 Christiaan focuses on label quality and annotation economics. In
-[NLP Dataset Creation]({{ '/podcasts/nlp-dataset-creation-annotation-tools-workflows/' | relative_url }}),
+[NLP Dataset Creation](https://datatalks.club/podcast/nlp-dataset-creation-annotation-tools-workflows.html),
 the 37:42 section uses inter-annotator agreement, throughput, and fatigue as
 quality signals. At 42:51-48:24 he adds active learning, distant supervision,
 and weak supervision. His view centers the dataset: teams can waste model
 effort if they skip label definitions and expert review. They also need
 annotation tooling.
 
-[Johannes Hötter]({{ '/people/johanneshotter/' | relative_url }}) focuses on
+[Johannes Hötter](https://datatalks.club/people/johanneshotter.html) focuses on
 tooling for messy text data. In
-[Build Open-Source NLP Tools]({{ '/podcasts/building-open-source-nlp-tool/' | relative_url }}),
+[Build Open-Source NLP Tools](https://datatalks.club/podcast/building-open-source-nlp-tool.html),
 the 10:14 section discusses text metadata and messy labels. At 13:22-17:34 he
 combines ChatGPT as a labeling heuristic with active learning and crowd labels.
 He also brings in Hugging Face, [embeddings]({{ '/wiki/embeddings/' | relative_url }}),
 and data management. His view
 centers the workflow around weak supervision and developer control.
 
-[Maria Sukhareva]({{ '/people/mariasukhareva/' | relative_url }}) focuses on
+[Maria Sukhareva](https://datatalks.club/people/mariasukhareva.html) focuses on
 trust and safety. In
-[Hardening Generative AI Chatbots]({{ '/podcasts/generative-ai-chatbots-in-production-security/' | relative_url }}),
+[Hardening Generative AI Chatbots](https://datatalks.club/podcast/generative-ai-chatbots-in-production-security.html),
 the 9:28-18:01 sections cover prompt injection, data exfiltration, and
 hallucinations. They also cover output validation, query analysis, and non-LLM
 classifiers.
@@ -118,7 +118,7 @@ fail in ways that a narrower classifier may avoid.
 ## Datasets and Annotation
 
 In
-[NLP Dataset Creation]({{ '/podcasts/nlp-dataset-creation-annotation-tools-workflows/' | relative_url }}),
+[NLP Dataset Creation](https://datatalks.club/podcast/nlp-dataset-creation-annotation-tools-workflows.html),
 Christiaan makes task definition the start of NLP data work. At 9:02, he
 starts with stakeholder alignment so the team knows which language decisions
 matter. At 18:36, the annotation
@@ -134,15 +134,15 @@ model trained on poorly defined labels inherits those problems.
 
 Both Christiaan and Johannes discuss weak supervision. Christiaan covers
 distant supervision and Snorkel-style labeling functions at 44:57-48:24 in
-[NLP Dataset Creation]({{ '/podcasts/nlp-dataset-creation-annotation-tools-workflows/' | relative_url }}).
+[NLP Dataset Creation](https://datatalks.club/podcast/nlp-dataset-creation-annotation-tools-workflows.html).
 He also covers programmatic heuristics. Johannes shows the tooling version in
-[Build Open-Source NLP Tools]({{ '/podcasts/building-open-source-nlp-tool/' | relative_url }}),
+[Build Open-Source NLP Tools](https://datatalks.club/podcast/building-open-source-nlp-tool.html),
 at 6:33 and 18:33. Refinery and Bricks help teams combine heuristics rather
 than hand-label every example.
 
 NLP portfolio work often starts from [open source]({{ '/wiki/open-source/' | relative_url }})
 datasets and demos. In
-[Contribute to Hugging Face and Build an NLP Portfolio]({{ '/podcasts/hugging-face-contributions-and-nlp-portfolio/' | relative_url }}),
+[Contribute to Hugging Face and Build an NLP Portfolio](https://datatalks.club/podcast/hugging-face-contributions-and-nlp-portfolio.html),
 Merve describes dataset scripts, CI learning, and contributor onboarding at
 8:13-10:31. For people learning NLP, a dataset contribution can show practical
 skill more clearly than a notebook that no one can reproduce.
@@ -150,22 +150,22 @@ skill more clearly than a notebook that no one can reproduce.
 ## Transformers and LLMs
 
 The transformer architecture behind this shift is covered in depth by
-[Natural Language Processing with Transformers]({{ '/books/20220425-natural-language-processing-with-transformers/' | relative_url }})
+[Natural Language Processing with Transformers](https://datatalks.club/books/20220425-natural-language-processing-with-transformers.html)
 by Leandro von Werra, Lewis Tunstall, and Thomas Wolf, built around the
 Hugging Face library that recurring NLP episodes rely on.
 
 LLMs change the interface to NLP. DataTalks.Club guests still treat them as a
 continuation of language-system work rather than a replacement for it. Ivan's
-[Lead NLP Teams]({{ '/podcasts/nlp-team-hiring-and-production-mlops/' | relative_url }})
+[Lead NLP Teams](https://datatalks.club/podcast/nlp-team-hiring-and-production-mlops.html)
 episode already makes this transition visible. At 38:55, he discusses GPT-3
 and prompting as ways to simplify some NLP applications.
 
 At 43:05-46:10, Ivan describes cost and control tradeoffs before moving to
 bias and privacy. He also discusses MVP strategy and open-source alternatives.
 
-[Meryem Arik]({{ '/people/meryemarik/' | relative_url }}) gives a later
+[Meryem Arik](https://datatalks.club/people/meryemarik.html) gives a later
 production view in
-[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}).
+[Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html).
 At 10:24 she distinguishes generative and non-generative models and introduces
 transformers. At 13:45-18:46 she compares open-source models with API models.
 She also covers control, privacy, fine-tuning, and hidden API model drift. Her
@@ -176,24 +176,24 @@ versioning constraints.
 
 Retrieval keeps language systems grounded in changing knowledge. Meryem
 contrasts retrieval with retraining at 40:46-42:02 in
-[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}).
+[Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html).
 At 48:01 she explains vector databases through embeddings, indexing, and
 semantic search. Her retrieval discussion belongs next to
 [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }}).
 
-For a practitioner-oriented reference on the transformer architecture behind these models, [Transformers for Natural Language Processing]({{ '/books/20210419-transformers-for-natural-language-processing/' | relative_url }}) by Denis Rothman covers attention mechanisms, fine-tuning, and downstream NLP tasks.
-For deploying NLP systems inside organizations, [Applied Natural Language Processing in the Enterprise]({{ '/books/20210726-applied-natural-language-processing-in-the-enterprise/' | relative_url }})
-by Ankur A. Patel and Ajay Uppili Arasanipalai covers practical NLP pipelines from data labeling through production deployment. [Blueprints for Text Analytics Using Python]({{ '/books/20211018-blueprints-for-text-analytics-using-python/' | relative_url }})
+For a practitioner-oriented reference on the transformer architecture behind these models, [Transformers for Natural Language Processing](https://datatalks.club/books/20210419-transformers-for-natural-language-processing.html) by Denis Rothman covers attention mechanisms, fine-tuning, and downstream NLP tasks.
+For deploying NLP systems inside organizations, [Applied Natural Language Processing in the Enterprise](https://datatalks.club/books/20210726-applied-natural-language-processing-in-the-enterprise.html)
+by Ankur A. Patel and Ajay Uppili Arasanipalai covers practical NLP pipelines from data labeling through production deployment. [Blueprints for Text Analytics Using Python](https://datatalks.club/books/20211018-blueprints-for-text-analytics-using-python.html)
 by Jens Albrecht, Sidharth Ramachandran, and Christian Winkler provides reusable blueprint patterns for text-mining workflows.
 
-[Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }})
+[Hugo Bowne-Anderson](https://datatalks.club/people/hugobowneanderson.html)
 adds the builder's version in
-[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}).
+[Practical LLM Engineering and RAG](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html).
 At 44:26-48:20 he focuses on chunking, embeddings, and context quality.
 
 Long-context models add another tradeoff. In
-[Applied LLM Research and Career Growth]({{ '/podcasts/applied-llm-research-and-career-growth-in-practice/' | relative_url }}),
-[Lavanya Gupta]({{ '/people/lavanyagupta/' | relative_url }}) discusses
+[Applied LLM Research and Career Growth](https://datatalks.club/podcast/applied-llm-research-and-career-growth-in-practice.html),
+[Lavanya Gupta](https://datatalks.club/people/lavanyagupta.html) discusses
 long-context evaluation at 10:15-15:28. She covers performance drop around
 large context windows. She also discusses chunking, retrieval, summarization,
 and industry publishing. That puts NLP evaluation into the same family as
@@ -204,15 +204,15 @@ teams need task-specific evidence, not only larger context windows.
 
 The NLP examples in these episodes include more than text classification. Ivan
 covers chatbot UX and conversational designers at 26:19 in
-[Lead NLP Teams]({{ '/podcasts/nlp-team-hiring-and-production-mlops/' | relative_url }}).
+[Lead NLP Teams](https://datatalks.club/podcast/nlp-team-hiring-and-production-mlops.html).
 At 28:38 he discusses parsing, information extraction, and multilingual needs.
 Christiaan's dataset episode starts from sales-call transcription and CRM
 integration at 5:12. Spoken language becomes structured business data only
 after transcription, labeling, and integration work.
 
-[Katarzyna Foremniak]({{ '/people/katarzynaforemniak/' | relative_url }})
+[Katarzyna Foremniak](https://datatalks.club/people/katarzynaforemniak.html)
 extends NLP into speech in
-[Human-Centered Speech Recognition]({{ '/podcasts/human-centered-ai-automatic-speech-recognition/' | relative_url }}).
+[Human-Centered Speech Recognition](https://datatalks.club/podcast/human-centered-ai-automatic-speech-recognition.html).
 At 15:25-23:19 she explains why phonetics, morpho-syntax, accents, and speech
 disorders matter for automatic speech recognition. At 27:31-30:53 she explains
 why standard speech datasets and deployment settings can fail for atypical
@@ -220,16 +220,16 @@ speech. At 40:17-47:28 she discusses transfer learning and limited data. She
 also covers transcription, LLM post-correction, and contextual language models.
 
 Maria's
-[Hardening Generative AI Chatbots]({{ '/podcasts/generative-ai-chatbots-in-production-security/' | relative_url }})
+[Hardening Generative AI Chatbots](https://datatalks.club/podcast/generative-ai-chatbots-in-production-security.html)
 episode adds translation and multilingual work. At 29:53-32:28 she discusses
 AI-augmented translation and controlled machine translation with ChatGPT. At
 53:01-56:52 she connects multilingual models to low-resource languages,
 orthography, historical corpora, and data quality. Those examples show why
 language coverage and writing systems still matter after LLM adoption.
 
-[Verena Weber]({{ '/people/verenaweber/' | relative_url }}) shows how NLP
+[Verena Weber](https://datatalks.club/people/verenaweber.html) shows how NLP
 expertise becomes client work in
-[Launching a Freelance Generative AI Business]({{ '/podcasts/practical-generative-ai-consulting-from-expertise-to-impact/' | relative_url }}).
+[Launching a Freelance Generative AI Business](https://datatalks.club/podcast/practical-generative-ai-consulting-from-expertise-to-impact.html).
 At 23:11-27:47 she discusses a model-in-the-loop annotation study, annotation
 outcomes, and evaluation. At 47:51 she explains why generative AI appealed to
 her as an NLP-focused consultant. Her episode places NLP inside
@@ -240,23 +240,23 @@ not only research.
 
 Production NLP needs more than a model endpoint. Ivan links NLP engineering to
 inference optimization, deployment, and MLOps at 24:36 in
-[Lead NLP Teams]({{ '/podcasts/nlp-team-hiring-and-production-mlops/' | relative_url }}).
+[Lead NLP Teams](https://datatalks.club/podcast/nlp-team-hiring-and-production-mlops.html).
 At 34:57 he includes testing and production in the NLP pipeline. That keeps
 NLP connected to [production]({{ '/wiki/production/' | relative_url }}) and
 [software engineering]({{ '/wiki/software-engineering/' | relative_url }}).
 
 Evaluation changes with the task. Christiaan's
-[NLP Dataset Creation]({{ '/podcasts/nlp-dataset-creation-annotation-tools-workflows/' | relative_url }})
+[NLP Dataset Creation](https://datatalks.club/podcast/nlp-dataset-creation-annotation-tools-workflows.html)
 episode uses inter-annotator agreement and human baselines for dataset quality.
 Meryem uses gold-standard examples and output-driven evaluation at 53:34-56:39
 in
-[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}).
+[Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html).
 Hugo uses evaluation sets, failure analysis, logs, and traces at 23:00-27:38
 in
-[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}).
+[Practical LLM Engineering and RAG](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html).
 
 Security and reliability add another layer. Maria's
-[Hardening Generative AI Chatbots]({{ '/podcasts/generative-ai-chatbots-in-production-security/' | relative_url }})
+[Hardening Generative AI Chatbots](https://datatalks.club/podcast/generative-ai-chatbots-in-production-security.html)
 episode shows why teams need query analysis, output validation, layered
 defenses, and human review. At 17:00 she also presents non-LLM classifiers as
 robust alternatives for some decisions.

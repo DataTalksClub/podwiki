@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Jens Albrecht]({ '/people/jensalbrecht/' | relative_url }), [Sidharth Ramachandran]({ '/people/sidharthramachandran/' | relative_url }), [Christian Winkler]({ '/people/christianwinkler/' | relative_url }).
+[Jens Albrecht](https://datatalks.club/people/jensalbrecht.html), [Sidharth Ramachandran](https://datatalks.club/people/sidharthramachandran.html), [Christian Winkler](https://datatalks.club/people/christianwinkler.html).
 
 ## Discussion Archive
 

@@ -38,7 +38,7 @@ Agents should consider this episode when working on job search, career growth, h
 
 Use these links to connect the episode to guest notes.
 
-- [Luke Whipps]({{ '/people/lukewhipps/' | relative_url }})
+- [Luke Whipps](https://datatalks.club/people/lukewhipps.html)
 
 ## Key Concepts
 

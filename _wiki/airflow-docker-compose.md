@@ -29,16 +29,16 @@ the broader control-plane structure. The broader pipeline build sequence lives i
 [How to Build Data Pipelines]({{ '/wiki/how-to-build-data-pipelines/' | relative_url }})
 and [End-to-End Data Pipeline Project]({{ '/wiki/end-to-end-data-pipeline-project/' | relative_url }}).
 
-[Daniel Egbo]({{ '/people/danielegbo/' | relative_url }}) gives concrete
+[Daniel Egbo](https://datatalks.club/people/danielegbo.html) gives concrete
 Airflow-in-Compose evidence in
-[From Radio Astronomy to Machine Learning and Data Engineering]({{ '/podcasts/from-radio-astronomy-to-machine-learning-and-data-engineering/' | relative_url }}).
+[From Radio Astronomy to Machine Learning and Data Engineering](https://datatalks.club/podcast/from-radio-astronomy-to-machine-learning-and-data-engineering.html).
 At 42:48-46:52, he discusses course projects with Airflow. The local services
 include MinIO, Spark, and MySQL. He also covers a warehouse path, Compose setup,
 environment variables, and the Airflow web server.
 
-[Gloria Quiceno]({{ '/people/gloriaquiceno/' | relative_url }}) adds the
+[Gloria Quiceno](https://datatalks.club/people/gloriaquiceno.html) adds the
 reproducibility reason. At 21:25 in
-[Get a Data Analytics and Data Engineering Job]({{ '/podcasts/get-data-analytics-and-data-engineering-job/' | relative_url }}),
+[Get a Data Analytics and Data Engineering Job](https://datatalks.club/podcast/get-data-analytics-and-data-engineering-job.html),
 she explains how Docker made scripts easier to share and run across machines.
 
 ## Start With A Local Airflow Use Case
@@ -48,13 +48,13 @@ source and a raw output. It also has one transformation, one check, and one
 published result.
 Airflow should coordinate those steps after the work is already clear.
 
-[Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) gives the tool
+[Natalie Kwong](https://datatalks.club/people/nataliekwong.html) gives the tool
 boundary in
-[ETL vs ELT and Modern Data Engineering at 30:59]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}).
+[ETL vs ELT and Modern Data Engineering at 30:59](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html).
 Airflow schedules and orchestrates work. Airbyte handles extract-load work, and
-dbt handles warehouse transformations. [Santona Tuli]({{ '/people/santonatuli/' | relative_url }})
+dbt handles warehouse transformations. [Santona Tuli](https://datatalks.club/people/santonatuli.html)
 names Airflow, Prefect, Dagster, and Mage as orchestration choices at 26:43 in
-[Modern Data Pipeline Architecture]({{ '/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/' | relative_url }}).
+[Modern Data Pipeline Architecture](https://datatalks.club/podcast/modern-data-pipelines-orchestration-ingestion-modeling.html).
 The important decision is how the workflow is broken up, not which scheduler
 name appears in the README.
 
@@ -79,7 +79,7 @@ Daniel's local Airflow project shows why these runtime pieces matter in a
 learning setup. His Compose stack included Airflow plus local services such as
 MinIO, Spark, and MySQL. The setup also exposed environment variables and the
 Airflow web server
-([42:48-46:52]({{ '/podcasts/from-radio-astronomy-to-machine-learning-and-data-engineering/' | relative_url }})).
+([42:48-46:52](https://datatalks.club/podcast/from-radio-astronomy-to-machine-learning-and-data-engineering.html)).
 
 For a portfolio project, keep the setup visible and boring:
 
@@ -119,17 +119,17 @@ Airflow DAG files should describe order and ownership. They should also describe
 retries, parameters, and calls into real work. They shouldn't contain most
 extraction, transformation, or validation logic.
 
-[Lars Albertsson]({{ '/people/larsalbertsson/' | relative_url }}) gives the
+[Lars Albertsson](https://datatalks.club/people/larsalbertsson.html) gives the
 platform version in
-[DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}).
+[DataOps 101 for Scaling Data Platforms](https://datatalks.club/podcast/dataops-principles-and-scalable-data-platforms.html).
 Around 30:34-35:57, he places a workflow engine next to storage and compute. The
 engine tracks dependencies and schedules work. It retries after late data,
 transient infrastructure failures, or bugs. The compute layer does the real
 processing.
 
-[Jeff Katz]({{ '/people/jeffkatz/' | relative_url }}) makes the same point for
+[Jeff Katz](https://datatalks.club/people/jeffkatz.html) makes the same point for
 learners in
-[Data Engineering Career Path and Skills]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }}).
+[Data Engineering Career Path and Skills](https://datatalks.club/podcast/data-engineering-career-path-and-skills.html).
 Around 55:10, he says good Airflow code keeps most logic in normal Python
 instead of relying on Airflow for everything. In a Compose project, that means
 the DAG should call tested modules, SQL, or dbt commands. It can also call
@@ -149,23 +149,23 @@ Not every project needs all of those services. Use Compose when the project
 needs to show how orchestration connects the runtime pieces.
 
 Gloria's capstone gives a simpler version. Around 50:15 in
-[Get a Data Analytics and Data Engineering Job]({{ '/podcasts/get-data-analytics-and-data-engineering-job/' | relative_url }}),
+[Get a Data Analytics and Data Engineering Job](https://datatalks.club/podcast/get-data-analytics-and-data-engineering-job.html),
 she discusses a Twitter data pipeline with Docker containers and Slack delivery.
 That kind of project can use Airflow later when the run path needs scheduling,
 dependency state, retries, or backfills.
 
 Pin dependency versions in the image or requirements file. In
-[DataOps and GitOps Best Practices]({{ '/podcasts/dataops-and-gitops-best-practices-for-data-teams/' | relative_url }}),
-[Tomasz Hinc]({{ '/people/tomaszhinc/' | relative_url }}) describes an unpinned
+[DataOps and GitOps Best Practices](https://datatalks.club/podcast/dataops-and-gitops-best-practices-for-data-teams.html),
+[Tomasz Hinc](https://datatalks.club/people/tomaszhinc.html) describes an unpinned
 Python dependency causing a containerized job failure after an API change around
 1:01:27. Local Compose should reduce dependency surprises, not hide them.
 
 ## Add Checks, Logs, And Rerun Behavior
 
 A green Airflow run proves that tasks finished, not that the data is correct.
-[Tomasz Hinc]({{ '/people/tomaszhinc/' | relative_url }}) makes this boundary
+[Tomasz Hinc](https://datatalks.club/people/tomaszhinc.html) makes this boundary
 explicit around 1:02:50 in
-[DataOps and GitOps Best Practices]({{ '/podcasts/dataops-and-gitops-best-practices-for-data-teams/' | relative_url }}).
+[DataOps and GitOps Best Practices](https://datatalks.club/podcast/dataops-and-gitops-best-practices-for-data-teams.html).
 He describes Airflow jobs that were green while the output had zero rows. Add a
 data check that fails when the output is wrong instead of trusting the Airflow
 UI alone.
@@ -185,9 +185,9 @@ failure and where the log appears. Then show how the DAG reruns after the input
 is fixed.
 
 Include the failed run alongside
-[Lars Albertsson]({{ '/people/larsalbertsson/' | relative_url }})'s
+[Lars Albertsson](https://datatalks.club/people/larsalbertsson.html)'s
 workflow-engine discussion around 30:34-35:57 in
-[DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}).
+[DataOps 101 for Scaling Data Platforms](https://datatalks.club/podcast/dataops-principles-and-scalable-data-platforms.html).
 He puts dependencies, schedules, and retries in the workflow engine, while the
 compute layer does the processing.
 
@@ -196,22 +196,22 @@ compute layer does the processing.
 Docker Compose isn't a production Airflow platform. It's a local environment
 for learning, development, and repeatable review.
 
-[Mehdi OUAZZA]({{ '/people/mehdiouazza/' | relative_url }}) gives the platform
+[Mehdi OUAZZA](https://datatalks.club/people/mehdiouazza.html) gives the platform
 boundary in
-[Scaling Data Engineering Teams]({{ '/podcasts/scaling-data-engineering-teams-self-service-platforms/' | relative_url }}).
+[Scaling Data Engineering Teams](https://datatalks.club/podcast/scaling-data-engineering-teams-self-service-platforms.html).
 Around 17:22-19:25, he says an Airflow cluster is only one part of a platform.
 Teams also need naming conventions and sequence rules. They need playbooks,
 onboarding, and support paths too. A local Compose file is further from
 production than that.
 
 Avoid Airflow when one simpler scheduler would make the project clearer.
-[Andreas Kretz]({{ '/people/andreaskretz/' | relative_url }}) compares Airflow
+[Andreas Kretz](https://datatalks.club/people/andreaskretz.html) compares Airflow
 with CloudWatch and Lambda around 35:46 in
-[From Notebooks to Production]({{ '/podcasts/production-ml-pipelines-with-aws-and-kafka/' | relative_url }}).
+[From Notebooks to Production](https://datatalks.club/podcast/production-ml-pipelines-with-aws-and-kafka.html).
 Around 41:06, he recommends starting simple and moving toward Airflow or
-Kubernetes when the workflow needs more control. [Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }})
+Kubernetes when the workflow needs more control. [Adrian Brudaru](https://datatalks.club/people/adrianbrudaru.html)
 makes the same point around 35:37-37:08 in
-[Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}):
+[Modern Data Engineering Trends](https://datatalks.club/podcast/trends-in-modern-data-engineering.html):
 GitHub Actions can be enough for simple workflows.
 
 Move beyond local Compose when the project needs operational controls:
@@ -229,28 +229,28 @@ Move beyond local Compose when the project needs operational controls:
 Use this local project checklist:
 
 1. Name the data product, consumer, and refresh cadence, matching
-   [Santona Tuli]({{ '/people/santonatuli/' | relative_url }})'s emphasis on
+   [Santona Tuli](https://datatalks.club/people/santonatuli.html)'s emphasis on
    marts, dashboards, business questions, and persona-driven pipeline design
    around 43:05 and 52:54 in
-   [Modern Data Pipeline Architecture]({{ '/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/' | relative_url }}).
+   [Modern Data Pipeline Architecture](https://datatalks.club/podcast/modern-data-pipelines-orchestration-ingestion-modeling.html).
 2. Keep one DAG focused on one pipeline so Airflow tracks one dependency chain at a time.
    Lars describes dependency tracking, scheduling, and retries as
    workflow-engine responsibilities around 30:34-35:57 in
-   [DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}).
+   [DataOps 101 for Scaling Data Platforms](https://datatalks.club/podcast/dataops-principles-and-scalable-data-platforms.html).
 3. Put business logic in `src/`, SQL files, dbt models, or separate containers,
-   following [Jeff Katz]({{ '/people/jeffkatz/' | relative_url }}) on keeping
+   following [Jeff Katz](https://datatalks.club/people/jeffkatz.html) on keeping
    most Airflow project code in normal Python around 55:10 in
-   [Data Engineering Career Path and Skills]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }}).
+   [Data Engineering Career Path and Skills](https://datatalks.club/podcast/data-engineering-career-path-and-skills.html).
 4. Mount `dags/`, `logs/`, `plugins/`, and supporting project code, as in
-   [Daniel Egbo]({{ '/people/danielegbo/' | relative_url }})'s local Airflow
+   [Daniel Egbo](https://datatalks.club/people/danielegbo.html)'s local Airflow
    project around 42:48-46:52 in
-   [From Radio Astronomy to Machine Learning and Data Engineering]({{ '/podcasts/from-radio-astronomy-to-machine-learning-and-data-engineering/' | relative_url }}).
+   [From Radio Astronomy to Machine Learning and Data Engineering](https://datatalks.club/podcast/from-radio-astronomy-to-machine-learning-and-data-engineering.html).
    His setup included MinIO and Spark. It also included MySQL, environment
    variables, and the Airflow web server.
 5. Persist logs and metadata long enough to look at failures, because Tomasz
    treats log reading and troubleshooting as basic operating skills around 44:23
    in
-   [DataOps and GitOps Best Practices]({{ '/podcasts/dataops-and-gitops-best-practices-for-data-teams/' | relative_url }}).
+   [DataOps and GitOps Best Practices](https://datatalks.club/podcast/dataops-and-gitops-best-practices-for-data-teams.html).
 6. Pin Python, provider, and system dependencies. Tomasz's dependency example
    around 1:01:27 shows how an unpinned Python package can break a containerized
    job after an API change.
@@ -258,15 +258,15 @@ Use this local project checklist:
    around 1:02:50 shows why green tasks aren't enough.
 8. Show one retry, rerun, or backfill scenario, matching Lars's workflow-engine
    discussion around 30:34-35:57 in
-   [DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}).
+   [DataOps 101 for Scaling Data Platforms](https://datatalks.club/podcast/dataops-principles-and-scalable-data-platforms.html).
 9. Document the startup steps in the README, so the project keeps the sharing
-   benefit [Gloria Quiceno]({{ '/people/gloriaquiceno/' | relative_url }})
+   benefit [Gloria Quiceno](https://datatalks.club/people/gloriaquiceno.html)
    describes for Docker around 21:25 in
-   [Get a Data Analytics and Data Engineering Job]({{ '/podcasts/get-data-analytics-and-data-engineering-job/' | relative_url }}).
-10. Link back to the production boundary so readers don't treat the local stack as a platform. [Mehdi OUAZZA]({{ '/people/mehdiouazza/' | relative_url }})
+   [Get a Data Analytics and Data Engineering Job](https://datatalks.club/podcast/get-data-analytics-and-data-engineering-job.html).
+10. Link back to the production boundary so readers don't treat the local stack as a platform. [Mehdi OUAZZA](https://datatalks.club/people/mehdiouazza.html)
     puts Airflow inside a broader platform with conventions, playbooks,
     onboarding, and support paths around 17:22-19:25 in
-    [Scaling Data Engineering Teams]({{ '/podcasts/scaling-data-engineering-teams-self-service-platforms/' | relative_url }}).
+    [Scaling Data Engineering Teams](https://datatalks.club/podcast/scaling-data-engineering-teams-self-service-platforms.html).
 
 When you use the page for interview or portfolio preparation, don't stop at "I
 ran Airflow." Show that one local command starts the pipeline. Show that the

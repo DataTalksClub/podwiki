@@ -20,7 +20,7 @@ paths, monitoring, rollback plans, and enough data awareness to fail
 predictably.
 
 The early role framing comes from
-[Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }}).
+[Data Team Roles Explained](https://datatalks.club/podcast/data-team-roles.html).
 At 17:04, machine learning engineers are defined as the people who help data
 scientists scale model-backed services and apply engineering practices.
 
@@ -38,9 +38,9 @@ capability. The job includes model packaging and inference interfaces.
 It also includes data dependencies, tests, deployment, and observability. The
 role requires close work with the people who own the product decision.
 
-[Ben Wilson]({{ '/people/benwilson/' | relative_url }}) gives the clearest
+[Ben Wilson](https://datatalks.club/people/benwilson.html) gives the clearest
 maintainability version of the role in
-[Practical Machine Learning Engineering for Production]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }}).
+[Practical Machine Learning Engineering for Production](https://datatalks.club/podcast/machine-learning-engineering-production-best-practices.html).
 At 8:49, the episode moves from monolithic data science code to modular,
 testable components. At 44:23, Ben argues for solving with SQL or statistics
 before using deep learning. That makes the role less about novelty and more
@@ -49,8 +49,8 @@ simplest model-backed system that can be tested, explained, operated, and
 changed.
 
 The system-design version is tied to
-[Arseny Kravchenko]({{ '/people/arsenykravchenko/' | relative_url }}) and
-[Build Scalable, Reliable ML Systems]({{ '/podcasts/building-scalable-and-reliable-machine-learning-systems/' | relative_url }}).
+[Arseny Kravchenko](https://datatalks.club/people/arsenykravchenko.html) and
+[Build Scalable, Reliable ML Systems](https://datatalks.club/podcast/building-scalable-and-reliable-machine-learning-systems.html).
 At 7:54 and 20:21, the practical sequence is goals, constraints, and then a
 design document before solution work.
 
@@ -67,7 +67,7 @@ and [machine learning infrastructure]({{ '/wiki/machine-learning-infrastructure/
 The guests agree that machine learning engineers need software discipline, but
 they attach the role to different production surfaces.
 
-[Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }})
+[Data Team Roles Explained](https://datatalks.club/podcast/data-team-roles.html)
 centers the product service. In that version, the machine learning engineer
 turns predictions into something users or internal teams can use. The model has
 to sit behind a service, endpoint, batch job, or application workflow.
@@ -83,9 +83,9 @@ energy use. The 29:01 section turns product requirements into metrics,
 non-goals, and assumptions. Here the role looks like applied systems engineering
 for model-backed products.
 
-[Simon Stiebellehner]({{ '/people/simonstiebellehner/' | relative_url }})
+[Simon Stiebellehner](https://datatalks.club/people/simonstiebellehner.html)
 pushes the role toward platforms in
-[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
+[Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html).
 At 8:11 and 13:25, the platform skill set includes cloud infrastructure,
 Kubernetes, and Terraform. Software engineering is part of that same skill set.
 At 29:41 and 30:32, experiment tracking and model registries connect to the
@@ -104,7 +104,7 @@ inference or online serving. It may also need streaming inference, edge
 deployment, or a simpler scheduled job.
 
 Serving decisions aren't only infrastructure choices. In
-[Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }}),
+[Data Team Roles Explained](https://datatalks.club/podcast/data-team-roles.html),
 the 40:10 section makes batch scoring a shared surface with data engineering.
 In Simon's platform episode, the 31:15 section puts batch inference and online
 serving inside the platform discussion. The same decision affects latency and
@@ -133,14 +133,14 @@ before building the full system.
 Software engineering is the durable base. Machine learning engineers need
 Python, tests, modular code, and configuration. They also need packaging, APIs,
 dependency management, and code review. Debugging is part of the same base.
-[Machine Learning Engineering with Python]({{ '/books/20220117-machine-learning-engineering-with-python/' | relative_url }})
+[Machine Learning Engineering with Python](https://datatalks.club/books/20220117-machine-learning-engineering-with-python.html)
 by Andrew McMahon builds on the same production ML engineering practices in Python.
-[Machine Learning Engineering in Action]({{ '/books/20210301-ml-engineering/' | relative_url }}) by Ben Wilson covers the same production discipline from prototype to deployment, including reproducibility and maintainability.
+[Machine Learning Engineering in Action](https://datatalks.club/books/20210301-ml-engineering.html) by Ben Wilson covers the same production discipline from prototype to deployment, including reproducibility and maintainability.
 Ben's 8:49 section makes modular, testable code a production requirement.
 
 In
-[Software Engineering for ML]({{ '/podcasts/software-engineering-for-machine-learning/' | relative_url }}),
-[Nadia Nahar]({{ '/people/nadianahar/' | relative_url }}) frames software
+[Software Engineering for ML](https://datatalks.club/podcast/software-engineering-for-machine-learning.html),
+[Nadia Nahar](https://datatalks.club/people/nadianahar.html) frames software
 engineering for ML as a system problem at 6:58 and 10:12. Her 29:42 section
 ties production failures to unmet requirements, poor data, and deployment
 problems, which is exactly where ML engineering has to operate.
@@ -161,14 +161,14 @@ registries, experiment tracking, artifact storage, and monitoring.
 Simon's 8:11 and 29:41 sections make cloud infrastructure and experiment
 tracking visible platform skills.
 Roksolana Diachuk's
-[Big Data Engineer vs Data Scientist]({{ '/podcasts/big-data-engineer-vs-data-scientist/' | relative_url }})
+[Big Data Engineer vs Data Scientist](https://datatalks.club/podcast/big-data-engineer-vs-data-scientist.html)
 episode adds MLflow, Kubeflow, and Kubernetes at 23:40 when the discussion
 turns to model deployment.
 
 Debugging and communication are part of the skill set, not add-ons.
-[Krzysztof Szafanek]({{ '/people/krzysztofszafanek/' | relative_url }}) describes
+[Krzysztof Szafanek](https://datatalks.club/people/krzysztofszafanek.html) describes
 ML platform work at Zalando in
-[How to Grow Your ML Engineering Career]({{ '/podcasts/how-to-grow-your-ml-engineering-career/' | relative_url }}).
+[How to Grow Your ML Engineering Career](https://datatalks.club/podcast/how-to-grow-your-ml-engineering-career.html).
 At 13:25 and 15:59, the work includes pipeline architecture and onboarding. It
 also includes training and support.
 

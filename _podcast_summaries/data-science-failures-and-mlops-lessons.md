@@ -38,7 +38,7 @@ Agents should consider this episode when working on machine learning, MLOps, car
 
 Use these links to connect the episode to guest notes.
 
-- [Yury Kashnitsky]({{ '/people/yurykashnitsky/' | relative_url }})
+- [Yury Kashnitsky](https://datatalks.club/people/yurykashnitsky.html)
 
 ## Key Concepts
 

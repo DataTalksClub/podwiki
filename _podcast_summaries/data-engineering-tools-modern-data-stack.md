@@ -38,7 +38,7 @@ Agents should consider this episode when working on data engineering, tools.
 
 Use these links to connect the episode to guest notes.
 
-- [Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }})
+- [Natalie Kwong](https://datatalks.club/people/nataliekwong.html)
 
 ## Key Concepts
 

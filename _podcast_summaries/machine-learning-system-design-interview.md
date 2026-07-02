@@ -38,7 +38,7 @@ Agents should consider this episode when working on machine learning, career gro
 
 Use these links to connect the episode to guest notes.
 
-- [Valerii Babushkin]({{ '/people/valeriybabushkin/' | relative_url }})
+- [Valerii Babushkin](https://datatalks.club/people/valeriybabushkin.html)
 
 ## Key Concepts
 

@@ -38,7 +38,7 @@ Agents should consider this episode when working on machine learning, MLOps, fea
 
 Use these links to connect the episode to guest notes.
 
-- [Willem Pienaar]({{ '/people/willempienaar/' | relative_url }})
+- [Willem Pienaar](https://datatalks.club/people/willempienaar.html)
 
 ## Key Concepts
 

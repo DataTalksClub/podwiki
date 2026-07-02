@@ -155,7 +155,7 @@ def page_body(podcast: dict[str, object], people: dict[str, dict[str, object]]) 
             slug = str(guest or "").strip()
             if slug:
                 lines.append(
-                    f"- [{person_label(slug, people)}]({{{{ '/people/{slug}/' | relative_url }}}})"
+                    f"- [{person_label(slug, people)}](https://datatalks.club/people/{slug}.html)"
                 )
 
     lines.extend(["", "## Key Concepts", "", "Use these concepts for topic routing and graph connections.", ""])

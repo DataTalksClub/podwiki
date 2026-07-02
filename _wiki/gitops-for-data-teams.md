@@ -24,17 +24,17 @@ template, or a repository standard. GitOps sits inside
 [MLOps]({{ '/wiki/mlops/' | relative_url }}), and
 [ML platforms]({{ '/wiki/ml-platforms/' | relative_url }}).
 
-[Tomasz Hinc]({{ '/people/tomaszhinc/' | relative_url }}) gives the clearest
+[Tomasz Hinc](https://datatalks.club/people/tomaszhinc.html) gives the clearest
 GitOps example. In
-[DataOps and GitOps Best Practices for Data Teams at 12:40-26:21]({{ '/podcasts/dataops-and-gitops-best-practices-for-data-teams/' | relative_url }}),
+[DataOps and GitOps Best Practices for Data Teams at 12:40-26:21](https://datatalks.club/podcast/dataops-and-gitops-best-practices-for-data-teams.html),
 data workers open merge requests for infrastructure instead of waiting for a
-platform-team ticket. [Bart Vandekerckhove]({{ '/people/bartvandekerckhove/' | relative_url }})
+platform-team ticket. [Bart Vandekerckhove](https://datatalks.club/people/bartvandekerckhove.html)
 uses the same review model for access management in
-[Data Governance and Data Access Management at 50:08-55:56]({{ '/podcasts/data-governance-data-access-management/' | relative_url }}).
-[Maria Vechtomova]({{ '/people/mariavechtomova/' | relative_url }}) places Git
+[Data Governance and Data Access Management at 50:08-55:56](https://datatalks.club/podcast/data-governance-data-access-management.html).
+[Maria Vechtomova](https://datatalks.club/people/mariavechtomova.html) places Git
 and CI/CD inside a standardized MLOps foundation. She also includes registries
 and deployment paths in
-[Pragmatic and Standardized MLOps at 16:27-18:41]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }}).
+[Pragmatic and Standardized MLOps at 16:27-18:41](https://datatalks.club/podcast/pragmatic-and-standardized-mlops.html).
 
 ## Reviewable Desired State
 
@@ -43,13 +43,13 @@ data platform in code. They can review, repeat, and recover that desired state.
 Git records the change. The pull request creates a review boundary, and
 automation shows or applies the plan. Tomasz uses Terraform, Terragrunt, and
 Atlantis for infrastructure as code
-([DataOps and GitOps Best Practices for Data Teams at 23:04-26:21]({{ '/podcasts/dataops-and-gitops-best-practices-for-data-teams/' | relative_url }})).
+([DataOps and GitOps Best Practices for Data Teams at 23:04-26:21](https://datatalks.club/podcast/dataops-and-gitops-best-practices-for-data-teams.html)).
 
 Bart applies Terraform, IAM, and pull requests to access-as-code
-([Data Governance and Data Access Management at 50:08]({{ '/podcasts/data-governance-data-access-management/' | relative_url }})).
+([Data Governance and Data Access Management at 50:08](https://datatalks.club/podcast/data-governance-data-access-management.html)).
 Maria adds repository standards, reusable CI/CD, and model registries. She also
 adds monitoring and deployment templates
-([Pragmatic and Standardized MLOps at 18:41-33:24]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }})).
+([Pragmatic and Standardized MLOps at 18:41-33:24](https://datatalks.club/podcast/pragmatic-and-standardized-mlops.html)).
 
 The guests describe guided self-service rather than unmanaged self-service. A
 data scientist, analyst, or data engineer learns enough Git and cloud to
@@ -60,7 +60,7 @@ Platform, SRE, security, or [DataOps]({{ '/wiki/dataops/' | relative_url }})
 reviewers keep the shared platform coherent. Tomasz makes this boundary explicit
 in his onboarding discussion. He describes platform teams that review merge
 requests and teach safer conventions. They also support data teams during onboarding
-([DataOps and GitOps Best Practices for Data Teams at 13:07 and 29:34-41:52]({{ '/podcasts/dataops-and-gitops-best-practices-for-data-teams/' | relative_url }})).
+([DataOps and GitOps Best Practices for Data Teams at 13:07 and 29:34-41:52](https://datatalks.club/podcast/dataops-and-gitops-best-practices-for-data-teams.html)).
 
 ## Infrastructure Changes Through Pull Requests
 
@@ -69,7 +69,7 @@ may need an S3 bucket, Kinesis stream, IAM role, or another cloud resource.
 Instead of asking a platform engineer to create it manually, the person creates
 a branch, edits Terraform or Terragrunt code, and opens a merge request.
 Atlantis shows the Terraform plan before anything changes in production
-([DataOps and GitOps Best Practices for Data Teams at 20:56-26:21]({{ '/podcasts/dataops-and-gitops-best-practices-for-data-teams/' | relative_url }})).
+([DataOps and GitOps Best Practices for Data Teams at 20:56-26:21](https://datatalks.club/podcast/dataops-and-gitops-best-practices-for-data-teams.html)).
 The risky action becomes a diff, a plan, and a review.
 
 Small data-platform requests often block delivery. A pipeline may need a storage
@@ -81,9 +81,9 @@ change into a private ticket queue. It also gives analysts, data scientists, and
 data engineers a safer route into platform work than running Terraform locally
 with unclear credentials.
 
-[Simon Stiebellehner]({{ '/people/simonstiebellehner/' | relative_url }})
+[Simon Stiebellehner](https://datatalks.club/people/simonstiebellehner.html)
 describes the wider platform version of the same boundary in
-[Building Production ML Platforms at 8:11-10:47]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
+[Building Production ML Platforms at 8:11-10:47](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html).
 He names cloud infrastructure, Kubernetes, and Terraform as core platform
 skills. He then argues that platform teams need to understand data-science
 workflows.
@@ -101,19 +101,19 @@ access instead of buckets or deployments.
 
 Cloud lakes and warehouses weaken old walls between systems and consumers, as
 Bart describes at
-[11:20 in Data Governance and Data Access Management]({{ '/podcasts/data-governance-data-access-management/' | relative_url }}).
+[11:20 in Data Governance and Data Access Management](https://datatalks.club/podcast/data-governance-data-access-management.html).
 As more teams reach shared data, dataset-level access management becomes a
 platform responsibility.
 
 Early access-as-code can use Terraform, CloudFormation, IAM, and pull requests.
 Those tools give teams reviewability and a durable audit trail
-([Data Governance and Data Access Management at 50:08-55:56]({{ '/podcasts/data-governance-data-access-management/' | relative_url }})).
+([Data Governance and Data Access Management at 50:08-55:56](https://datatalks.club/podcast/data-governance-data-access-management.html)).
 
 Bart's warning is that code alone doesn't scale governance because teams still
 need dataset ownership and request purpose. They also need approval, expiry, and
 revocation. He covers purpose-based requests at 29:36, time-bound access and
 revocation at 32:08, and debugging access at 35:35
-([Data Governance and Data Access Management]({{ '/podcasts/data-governance-data-access-management/' | relative_url }})).
+([Data Governance and Data Access Management](https://datatalks.club/podcast/data-governance-data-access-management.html)).
 
 That makes Git the storage and review layer for permission changes, not the full
 governance model. [Governance]({{ '/wiki/governance/' | relative_url }})
@@ -127,7 +127,7 @@ Maria's MLOps discussion shifts GitOps from individual infrastructure changes to
 standard delivery paths. She recommends using infrastructure that many
 organizations already have. Her examples are Kubernetes, Git, and CI/CD. Teams
 can start there before buying or building a new platform layer
-([Pragmatic and Standardized MLOps at 16:27]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }})).
+([Pragmatic and Standardized MLOps at 16:27](https://datatalks.club/podcast/pragmatic-and-standardized-mlops.html)).
 
 At 18:41, she lists version control and CI/CD as foundational pieces. She also
 lists registries and model registries. Deployment paths, monitoring, and
@@ -138,7 +138,7 @@ and CI/CD somewhere in the company, but they still struggle to use those
 foundations consistently. A central MLOps team can provide repository templates
 and service principals. It can also provide reusable CI/CD and monitoring so
 teams don't rebuild the same delivery machinery
-([Pragmatic and Standardized MLOps at 12:42 and 29:55-33:24]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }})).
+([Pragmatic and Standardized MLOps at 12:42 and 29:55-33:24](https://datatalks.club/podcast/pragmatic-and-standardized-mlops.html)).
 
 The same operating model appears in
 [MLOps vs DataOps]({{ '/wiki/mlops-vs-dataops/' | relative_url }}).
@@ -150,14 +150,14 @@ work less fragile.
 GitOps only helps when the code path is reproducible. Tomasz ties GitOps to
 fixed dependency versions and Docker images. He also links it to GitLab CI and
 production data checks in
-[DataOps and GitOps Best Practices for Data Teams at 58:26-1:02:28]({{ '/podcasts/dataops-and-gitops-best-practices-for-data-teams/' | relative_url }}).
+[DataOps and GitOps Best Practices for Data Teams at 58:26-1:02:28](https://datatalks.club/podcast/dataops-and-gitops-best-practices-for-data-teams.html).
 He warns that a green orchestrator status isn't enough when a job inserts zero
 records. The platform needs versioned code, known environments, and checks that
 match real data outcomes.
 
-[Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }}) makes the
+[Christopher Bergh](https://datatalks.club/people/christopherbergh.html) makes the
 same [DataOps]({{ '/wiki/dataops/' | relative_url }}) reliability argument in
-[Mastering DataOps at 6:42 and 33:47-34:37]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }}).
+[Mastering DataOps at 6:42 and 33:47-34:37](https://datatalks.club/podcast/dataops-automation-and-reliable-data-pipelines.html).
 He frames DataOps around reducing production errors, shortening deployment
 cycles, and improving team productivity. Version control and tests belong in
 the same reliability system as CI/CD. Runbooks, automation, and observability
@@ -166,7 +166,7 @@ belong there too.
 Maria extends the recovery story to ML delivery. Version control and reusable
 CI/CD form an early maturity layer. Registries and deployment templates extend
 that layer. Monitoring, traceability, and rollback do too
-([Pragmatic and Standardized MLOps at 18:41-24:01]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }})).
+([Pragmatic and Standardized MLOps at 18:41-24:01](https://datatalks.club/podcast/pragmatic-and-standardized-mlops.html)).
 
 In these episodes, GitOps isn't the slogan "put everything in Git." It
 combines versioned desired state and automated checks. Human review and
@@ -179,7 +179,7 @@ Tomasz doesn't describe GitOps as self-service without support. Platform, SRE,
 security, and DataOps teams still guide and review changes. That support
 matters when data teams first use Terraform, Terragrunt, or Atlantis. It also
 matters around IAM and cloud resources
-([DataOps and GitOps Best Practices for Data Teams at 13:07, 29:34, and 47:55]({{ '/podcasts/dataops-and-gitops-best-practices-for-data-teams/' | relative_url }})).
+([DataOps and GitOps Best Practices for Data Teams at 13:07, 29:34, and 47:55](https://datatalks.club/podcast/dataops-and-gitops-best-practices-for-data-teams.html)).
 
 Pairing and Slack support help data workers learn the path. Live coding,
 templates, and documentation also reduce the need for specialist infrastructure
@@ -194,5 +194,5 @@ documented approval paths and humans available when the diff isn't obvious.
 Simon discusses user-centered platform design at 10:47, while Maria discusses
 centralized MLOps teams at 27:06-38:01. Together, those episodes show that
 balance
-([Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}),
-[Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }})).
+([Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html),
+[Pragmatic and Standardized MLOps](https://datatalks.club/podcast/pragmatic-and-standardized-mlops.html)).

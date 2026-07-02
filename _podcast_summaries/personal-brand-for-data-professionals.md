@@ -38,7 +38,7 @@ Agents should consider this episode when working on personal brand, career growt
 
 Use these links to connect the episode to guest notes.
 
-- [Admond Lee Kin Lim]({{ '/people/admondleekinlim/' | relative_url }})
+- [Admond Lee Kin Lim](https://datatalks.club/people/admondleekinlim.html)
 
 ## Key Concepts
 

@@ -23,10 +23,10 @@ individual heroics.
 
 Bergh came to this view after moving from software engineering into data
 leadership. In
-[Mastering DataOps]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }}),
+[Mastering DataOps](https://datatalks.club/podcast/dataops-automation-and-reliable-data-pipelines.html),
 he described data science, data engineering, and visualization as a factory for
 insights. In
-[DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }}),
+[DataOps for Data Engineering](https://datatalks.club/podcast/dataops-for-data-engineering.html),
 he revisited the same lesson from pre-cloud SQL Server systems. For Bergh, the
 hard part wasn't writing data code alone. It was operating the systems around
 the work.
@@ -36,13 +36,13 @@ the work.
 Bergh defines DataOps as a system for improving how data teams work. He
 separates it from [data engineering]({{ '/wiki/data-engineering/' | relative_url }}).
 Around 6:42 in
-[Mastering DataOps]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }}),
+[Mastering DataOps](https://datatalks.club/podcast/dataops-automation-and-reliable-data-pipelines.html),
 he reduces the practice to three measurable targets. Teams should lower
 production errors, shorten deployment cycle time, and improve team
 productivity.
 
 That framing shows up again around 15:52 in
-[DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }}),
+[DataOps for Data Engineering](https://datatalks.club/podcast/dataops-for-data-engineering.html),
 where he groups automation with testing. He adds monitoring and observability
 to the same operating loop. For Bergh, that work lets teams move without fear
 or unsustainable heroism.
@@ -63,13 +63,13 @@ make those changes observable and recoverable.
 Bergh's concrete advice starts with version control and automated tests. He
 connects them to [CI/CD]({{ '/wiki/ci-cd/' | relative_url }}). Around
 33:47-34:37 in
-[Mastering DataOps]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }}),
+[Mastering DataOps](https://datatalks.club/podcast/dataops-automation-and-reliable-data-pipelines.html),
 he recommends version control for code and transformation logic. Reports,
 tests, and deployment logic belong there too. Teams should then run automated
 checks in development and production.
 
 Around 30:55 and 42:39 in
-[DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }}),
+[DataOps for Data Engineering](https://datatalks.club/podcast/dataops-for-data-engineering.html),
 he adds regression tests, realistic test data, and infrastructure as code. He
 also argues for end-to-end checks before changes reach production users.
 
@@ -90,11 +90,11 @@ practical entry point for change.
 Bergh treats [MLOps]({{ '/wiki/mlops/' | relative_url }}) and DataOps as
 overlapping reliability disciplines rather than competing movements. Around
 50:42 in
-[Mastering DataOps]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }}),
+[Mastering DataOps](https://datatalks.club/podcast/dataops-automation-and-reliable-data-pipelines.html),
 he connects DataOps and MLOps through shared DevOps principles. The same
 principles apply to pipelines and models. They also apply to visualizations
 and governance. Around 18:46 in
-[DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }}),
+[DataOps for Data Engineering](https://datatalks.club/podcast/dataops-for-data-engineering.html),
 he argues that the core principles still matter when the current buzzword is
 MLOps, LLMs, or data observability.
 
@@ -113,7 +113,7 @@ participate in the broader release, monitoring, and recovery loop.
 
 Bergh repeatedly pushes teams from manual checklists toward automated
 playbooks. Around 34:37-38:08 in
-[Mastering DataOps]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }}),
+[Mastering DataOps](https://datatalks.club/podcast/dataops-automation-and-reliable-data-pipelines.html),
 he treats runbooks as a starting point, not the final state. Teams should
 document how the system works. They should then automate recurring checks and
 recovery steps so the system runs without constant human attention and alerts

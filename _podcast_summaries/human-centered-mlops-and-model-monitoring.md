@@ -38,7 +38,7 @@ Agents should consider this episode when working on MLOps, machine learning, pro
 
 Use these links to connect the episode to guest notes.
 
-- [Lina Weichbrodt]({{ '/people/linaweichbrodt/' | relative_url }})
+- [Lina Weichbrodt](https://datatalks.club/people/linaweichbrodt.html)
 
 ## Key Concepts
 

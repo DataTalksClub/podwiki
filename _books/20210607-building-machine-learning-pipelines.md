@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Hannes Hapke]({ '/people/hanneshapke/' | relative_url }), [Catherine Nelson]({ '/people/Catherine Nelson/' | relative_url }).
+[Hannes Hapke](https://datatalks.club/people/hanneshapke.html), [Catherine Nelson](https://datatalks.club/people/Catherine Nelson.html).
 
 ## Discussion Archive
 

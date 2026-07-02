@@ -20,9 +20,9 @@ the data the model sees. Where prompt engineering asks how to write instructions
 context engineering asks what context to provide and how to shape it so the model
 can use it well.
 
-[Ranjitha Kulkarni]({{ '/people/ranjithakulkarni/' | relative_url }}) introduces
+[Ranjitha Kulkarni](https://datatalks.club/people/ranjithakulkarni.html) introduces
 the term in
-[Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}).
+[Building Agentic AI Systems](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html).
 At 27:59, she calls it "more of a rephrasing or rewording of the whole thing so
 that you look at it from a different perspective." At 28:52, she frames context
 engineering as a subfield of prompt engineering focused on being "more deliberate
@@ -45,9 +45,9 @@ models have become more capable and can fill a 32k context window, but "beyond
 that, many models don't do very well." Reducing the context window so the LLM
 isn't burdened with runtime processing is the starting point.
 
-[Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }}) makes
+[Hugo Bowne-Anderson](https://datatalks.club/people/hugobowneanderson.html) makes
 the same point through the concept of context rot in
-[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}).
+[Practical LLM Engineering and RAG](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html).
 At 46:39, he references Jeff Huber and the Chroma team's essay on context rot:
 "giving too much context can reduce precision and relevance." He illustrates it
 with a concrete observation: when processing a long transcript, the model
@@ -57,9 +57,9 @@ your prompt and repeat it at the end."
 
 ## Context Window Limits and the 32k-64k Performance Drop
 
-[Lavanya Gupta]({{ '/people/lavanyagupta/' | relative_url }}) provides empirical
+[Lavanya Gupta](https://datatalks.club/people/lavanyagupta.html) provides empirical
 evidence on context window performance in
-[Applied LLM Research & Career Growth]({{ '/podcasts/applied-llm-research-and-career-growth-in-practice/' | relative_url }}).
+[Applied LLM Research & Career Growth](https://datatalks.club/podcast/applied-llm-research-and-career-growth-in-practice.html).
 Her team at JP Morgan benchmarked long-context LLMs on financial concepts. At
 12:36, she reports "a clear dip" around the 32k token boundary. They split
 evaluations into less than 32k tokens and greater than 32k tokens. She adds that

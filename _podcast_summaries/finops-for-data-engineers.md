@@ -38,7 +38,7 @@ Agents should consider this episode when working on data engineering, finops, mo
 
 Use these links to connect the episode to guest notes.
 
-- [Eddy Zulkifly]({{ '/people/eddyzulkifly/' | relative_url }})
+- [Eddy Zulkifly](https://datatalks.club/people/eddyzulkifly.html)
 
 ## Key Concepts
 

@@ -38,7 +38,7 @@ Agents should consider this episode when working on career transition, data scie
 
 Use these links to connect the episode to guest notes.
 
-- [Danny Ma]({{ '/people/dannyma/' | relative_url }})
+- [Danny Ma](https://datatalks.club/people/dannyma.html)
 
 ## Key Concepts
 

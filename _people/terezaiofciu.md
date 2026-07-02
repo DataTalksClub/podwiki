@@ -15,8 +15,8 @@ Tereza Iofciu is an experienced data practitioner whose source bio spans data sc
 
 ## Podcast Contributions
 
-- [Data Leadership Coaching]({{ '/podcasts/data-leadership-coaching/' | relative_url }}) focuses on moving into management, stakeholder communication, coaching, and team leadership.
-- [Data Science Jobs]({{ '/podcasts/data-science-job-red-flags-and-mismatched-roles/' | relative_url }}) helps candidates identify misleading job titles, role mismatches, and hiring red flags.
+- [Data Leadership Coaching](https://datatalks.club/podcast/data-leadership-coaching.html) focuses on moving into management, stakeholder communication, coaching, and team leadership.
+- [Data Science Jobs](https://datatalks.club/podcast/data-science-job-red-flags-and-mismatched-roles.html) helps candidates identify misleading job titles, role mismatches, and hiring red flags.
 
 ## Concepts Connected
 
@@ -31,5 +31,5 @@ Tereza Iofciu is an experienced data practitioner whose source bio spans data sc
 
 ## Podcast Discussions
 
-- [Data Leadership Coaching: Transition to Manager, Stakeholder Skills and Team Impact]({{ '/podcasts/data-leadership-coaching/' | relative_url }}). Related topics: [leadership]({{ '/wiki/leadership/' | relative_url }}), [career transition]({{ '/wiki/career-transitions-in-data/' | relative_url }}), [communication]({{ '/wiki/communication/' | relative_url }}), [team building]({{ '/wiki/team-building/' | relative_url }}), [data strategy]({{ '/wiki/data-strategy/' | relative_url }}).
-- [Data Science Jobs: How to Spot Misleading Job Titles, Hiring Red Flags & Build Better Data Teams]({{ '/podcasts/data-science-job-red-flags-and-mismatched-roles/' | relative_url }}). Related topics: [data science]({{ '/wiki/data-science/' | relative_url }}), [data engineering]({{ '/wiki/data-engineering/' | relative_url }}), [career growth]({{ '/wiki/career-growth/' | relative_url }}), [hiring]({{ '/wiki/hiring/' | relative_url }}), [data teams]({{ '/wiki/data-teams/' | relative_url }}), [team building]({{ '/wiki/team-building/' | relative_url }}), [job search]({{ '/wiki/job-search/' | relative_url }}).
+- [Data Leadership Coaching: Transition to Manager, Stakeholder Skills and Team Impact](https://datatalks.club/podcast/data-leadership-coaching.html). Related topics: [leadership]({{ '/wiki/leadership/' | relative_url }}), [career transition]({{ '/wiki/career-transitions-in-data/' | relative_url }}), [communication]({{ '/wiki/communication/' | relative_url }}), [team building]({{ '/wiki/team-building/' | relative_url }}), [data strategy]({{ '/wiki/data-strategy/' | relative_url }}).
+- [Data Science Jobs: How to Spot Misleading Job Titles, Hiring Red Flags & Build Better Data Teams](https://datatalks.club/podcast/data-science-job-red-flags-and-mismatched-roles.html). Related topics: [data science]({{ '/wiki/data-science/' | relative_url }}), [data engineering]({{ '/wiki/data-engineering/' | relative_url }}), [career growth]({{ '/wiki/career-growth/' | relative_url }}), [hiring]({{ '/wiki/hiring/' | relative_url }}), [data teams]({{ '/wiki/data-teams/' | relative_url }}), [team building]({{ '/wiki/team-building/' | relative_url }}), [job search]({{ '/wiki/job-search/' | relative_url }}).

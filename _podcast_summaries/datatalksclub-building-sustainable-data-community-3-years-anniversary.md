@@ -38,8 +38,8 @@ Agents should consider this episode when working on community building, machine 
 
 Use these links to connect the episode to guest notes.
 
-- [Alexey Grigorev]({{ '/people/alexeygrigorev/' | relative_url }})
-- [Johanna Bayer]({{ '/people/johannabayer/' | relative_url }})
+- [Alexey Grigorev](https://datatalks.club/people/alexeygrigorev.html)
+- [Johanna Bayer](https://datatalks.club/people/johannabayer.html)
 
 ## Key Concepts
 

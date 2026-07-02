@@ -38,7 +38,7 @@ Agents should consider this episode when working on nonprofit, data maturity, da
 
 Use these links to connect the episode to guest notes.
 
-- [Parvathy Krishnan]({{ '/people/parvathykrishnan/' | relative_url }})
+- [Parvathy Krishnan](https://datatalks.club/people/parvathykrishnan.html)
 
 ## Key Concepts
 

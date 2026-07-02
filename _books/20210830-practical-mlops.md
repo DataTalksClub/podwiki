@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Noah Gift]({ '/people/noahgift/' | relative_url }), [Alfredo Deza]({ '/people/Alfredo Deza/' | relative_url }).
+[Noah Gift](https://datatalks.club/people/noahgift.html), [Alfredo Deza](https://datatalks.club/people/Alfredo Deza.html).
 
 ## Discussion Archive
 

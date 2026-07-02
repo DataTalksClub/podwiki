@@ -15,7 +15,7 @@ Ivan Bilan is an Engineering Manager at Personio working on Identity and Access 
 
 ## Podcast Contributions
 
-- [Lead NLP Teams]({{ '/podcasts/nlp-team-hiring-and-production-mlops/' | relative_url }}) adds a management and production perspective to the NLP archive: hiring, team structure, production pipelines, MLOps practices, and tradeoffs around LLM use.
+- [Lead NLP Teams](https://datatalks.club/podcast/nlp-team-hiring-and-production-mlops.html) adds a management and production perspective to the NLP archive: hiring, team structure, production pipelines, MLOps practices, and tradeoffs around LLM use.
 
 ## Concepts Connected
 
@@ -30,4 +30,4 @@ Ivan Bilan is an Engineering Manager at Personio working on Identity and Access 
 
 ## Podcast Discussions
 
-- [Lead NLP Teams: Hiring, Production Pipelines, MLOps & LLM Tradeoffs (GPT-3, spaCy)]({{ '/podcasts/nlp-team-hiring-and-production-mlops/' | relative_url }}). Related topics: [NLP]({{ '/wiki/nlp/' | relative_url }}), [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [MLOps]({{ '/wiki/mlops/' | relative_url }}), [data teams]({{ '/wiki/data-teams/' | relative_url }}), [LLMs]({{ '/wiki/llms/' | relative_url }}), [leadership]({{ '/wiki/leadership/' | relative_url }}), [career growth]({{ '/wiki/career-growth/' | relative_url }}), [production]({{ '/wiki/production/' | relative_url }}).
+- [Lead NLP Teams: Hiring, Production Pipelines, MLOps & LLM Tradeoffs (GPT-3, spaCy)](https://datatalks.club/podcast/nlp-team-hiring-and-production-mlops.html). Related topics: [NLP]({{ '/wiki/nlp/' | relative_url }}), [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [MLOps]({{ '/wiki/mlops/' | relative_url }}), [data teams]({{ '/wiki/data-teams/' | relative_url }}), [LLMs]({{ '/wiki/llms/' | relative_url }}), [leadership]({{ '/wiki/leadership/' | relative_url }}), [career growth]({{ '/wiki/career-growth/' | relative_url }}), [production]({{ '/wiki/production/' | relative_url }}).

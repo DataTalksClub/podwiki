@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Paul Iusztin]({ '/people/pauliusztin/' | relative_url }), [Maxime Labonne]({ '/people/maximelabonne/' | relative_url }).
+[Paul Iusztin](https://datatalks.club/people/pauliusztin.html), [Maxime Labonne](https://datatalks.club/people/maximelabonne.html).
 
 ## Discussion Archive
 

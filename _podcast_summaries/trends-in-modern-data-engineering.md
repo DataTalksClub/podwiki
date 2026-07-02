@@ -38,7 +38,7 @@ Agents should consider this episode when working on data engineering, data gover
 
 Use these links to connect the episode to guest notes.
 
-- [Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }})
+- [Adrian Brudaru](https://datatalks.club/people/adrianbrudaru.html)
 
 ## Key Concepts
 

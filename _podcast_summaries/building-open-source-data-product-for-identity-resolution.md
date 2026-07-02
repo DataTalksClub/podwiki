@@ -38,7 +38,7 @@ Agents should consider this episode when working on machine learning, MLOps, dat
 
 Use these links to connect the episode to guest notes.
 
-- [Sonal Goyal]({{ '/people/sonalgoyal/' | relative_url }})
+- [Sonal Goyal](https://datatalks.club/people/sonalgoyal.html)
 
 ## Key Concepts
 

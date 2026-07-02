@@ -38,7 +38,7 @@ Agents should consider this episode when working on career switch, data engineer
 
 Use these links to connect the episode to guest notes.
 
-- [Gloria Quiceno]({{ '/people/gloriaquiceno/' | relative_url }})
+- [Gloria Quiceno](https://datatalks.club/people/gloriaquiceno.html)
 
 ## Key Concepts
 

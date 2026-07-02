@@ -24,7 +24,7 @@ quality problem, not as a generic LLM wrapper.
 
 This episode connects classical search practice to LLM-era retrieval:
 
-- [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}) starts from
+- [Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html) starts from
   Solr and Lucene before moving into Semantic Web, NLP, and vector or LLM
   systems.
 - Atita explains the migration decision teams face. They can add vectors to an
@@ -83,8 +83,8 @@ Use these sources for verification:
 - Useful RAG timestamps include RAG concepts at 30:38, transcript chatbot at
   35:49, ingest strategy at 38:24, and RAG evaluation at 48:09.
 - Existing summary:
-  [Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
+  [Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html)
 
 ## Podcast Discussions
 
-- [Modern Search Systems: Vector Databases, LLMs and Semantic Retrieval]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}). Related topics: [NLP]({{ '/wiki/nlp/' | relative_url }}), [LLMs]({{ '/wiki/llms/' | relative_url }}), [MLOps]({{ '/wiki/mlops/' | relative_url }}), [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [data engineering]({{ '/wiki/data-engineering/' | relative_url }}).
+- [Modern Search Systems: Vector Databases, LLMs and Semantic Retrieval](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html). Related topics: [NLP]({{ '/wiki/nlp/' | relative_url }}), [LLMs]({{ '/wiki/llms/' | relative_url }}), [MLOps]({{ '/wiki/mlops/' | relative_url }}), [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [data engineering]({{ '/wiki/data-engineering/' | relative_url }}).

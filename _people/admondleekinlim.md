@@ -16,4 +16,4 @@ Admond is a data scientist, writer, and speaker who wants to empower people with
 
 ## Podcast Discussions
 
-- [Build a Personal Brand: Publish on LinkedIn/Medium, Grow Audience, Monetize with Online Courses]({{ '/podcasts/personal-brand-for-data-professionals/' | relative_url }}). Discussed: Guest Introduction and Career Journey; Personal Brand Defined: Purpose and Positioning; Starting an Online Presence: First Steps and Mindset; Publishing on Medium and LinkedIn: Formats and Best Practices. Related topics: personal brand, [career growth]({{ '/wiki/career-growth/' | relative_url }}), monetization.
+- [Build a Personal Brand: Publish on LinkedIn/Medium, Grow Audience, Monetize with Online Courses](https://datatalks.club/podcast/personal-brand-for-data-professionals.html). Discussed: Guest Introduction and Career Journey; Personal Brand Defined: Purpose and Positioning; Starting an Online Presence: First Steps and Mindset; Publishing on Medium and LinkedIn: Formats and Best Practices. Related topics: personal brand, [career growth]({{ '/wiki/career-growth/' | relative_url }}), monetization.

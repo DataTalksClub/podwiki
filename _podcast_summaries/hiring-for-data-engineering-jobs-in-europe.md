@@ -38,7 +38,7 @@ Agents should consider this episode when working on data engineering, career tra
 
 Use these links to connect the episode to guest notes.
 
-- [Nicolas Rassam]({{ '/people/nicolasrassam/' | relative_url }})
+- [Nicolas Rassam](https://datatalks.club/people/nicolasrassam.html)
 
 ## Key Concepts
 

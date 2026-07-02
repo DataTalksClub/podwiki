@@ -38,7 +38,7 @@ Agents should consider this episode when working on career transition, software 
 
 Use these links to connect the episode to guest notes.
 
-- [Sadat Anwar]({{ '/people/sadatanwar/' | relative_url }})
+- [Sadat Anwar](https://datatalks.club/people/sadatanwar.html)
 
 ## Key Concepts
 

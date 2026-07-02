@@ -38,7 +38,7 @@ Agents should consider this episode when working on software engineering, genera
 
 Use these links to connect the episode to guest notes.
 
-- [Nasser Qadri]({{ '/people/nasserqadri/' | relative_url }})
+- [Nasser Qadri](https://datatalks.club/people/nasserqadri.html)
 
 ## Key Concepts
 

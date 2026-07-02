@@ -38,7 +38,7 @@ Agents should consider this episode when working on data mesh, data engineering.
 
 Use these links to connect the episode to guest notes.
 
-- [Zhamak Dehghani]({{ '/people/zhamakdehghani/' | relative_url }})
+- [Zhamak Dehghani](https://datatalks.club/people/zhamakdehghani.html)
 
 ## Key Concepts
 

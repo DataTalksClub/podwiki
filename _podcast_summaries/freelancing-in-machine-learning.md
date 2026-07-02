@@ -38,7 +38,7 @@ Agents should consider this episode when working on freelance, consulting, machi
 
 Use these links to connect the episode to guest notes.
 
-- [Mikio Braun]({{ '/people/mikiobraun/' | relative_url }})
+- [Mikio Braun](https://datatalks.club/people/mikiobraun.html)
 
 ## Key Concepts
 

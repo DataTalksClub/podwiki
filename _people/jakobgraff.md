@@ -12,7 +12,7 @@ expertise: ["A/B testing", "product analytics", "causal inference", "metrics", "
 ## Background
 
 Jakob Graff is a data science and analytics leader. In
-[Product Analytics and A/B Testing]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}),
+[Product Analytics and A/B Testing](https://datatalks.club/podcast/ab-testing-and-product-experimentation.html),
 he brings an econometrics background into practical
 [product analytics]({{ '/wiki/product-analytics/' | relative_url }}). His
 episode is the main source for the podwiki pages on

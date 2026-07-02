@@ -20,12 +20,12 @@ manual checks, and late-night heroics. The tool stack is useful when it makes
 changes reviewable, testable, observable, and recoverable.
 
 DataTalks.Club guests rarely frame DataOps as a shopping list. In
-[Mastering DataOps]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }}),
-[Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }}) treats
+[Mastering DataOps](https://datatalks.club/podcast/dataops-automation-and-reliable-data-pipelines.html),
+[Christopher Bergh](https://datatalks.club/people/christopherbergh.html) treats
 it as an operating loop. Teams version changes and test them before release.
 They deploy through CI/CD, observe the result, and recover through playbooks. In
-[DataOps and GitOps for Data Teams]({{ '/podcasts/dataops-and-gitops-best-practices-for-data-teams/' | relative_url }}),
-[Tomasz Hinc]({{ '/people/tomaszhinc/' | relative_url }}) makes the same
+[DataOps and GitOps for Data Teams](https://datatalks.club/podcast/dataops-and-gitops-best-practices-for-data-teams.html),
+[Tomasz Hinc](https://datatalks.club/people/tomaszhinc.html) makes the same
 point for infrastructure with Terraform and Terragrunt plans reviewed through
 Atlantis.
 
@@ -33,12 +33,12 @@ For tool selection, treat DataOps as an operating model for
 [data engineering]({{ '/wiki/data-engineering/' | relative_url }}) and
 [data platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}).
 
-[Lars Albertsson]({{ '/people/larsalbertsson/' | relative_url }}) grounds
+[Lars Albertsson](https://datatalks.club/people/larsalbertsson.html) grounds
 that model in scalable platform components in
-[DataOps 101]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}).
-[Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) shows how
+[DataOps 101](https://datatalks.club/podcast/dataops-principles-and-scalable-data-platforms.html).
+[Natalie Kwong](https://datatalks.club/people/nataliekwong.html) shows how
 ingestion, orchestration, warehouses, and dbt fit together. In
-[Data Engineering Tools and Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
+[Data Engineering Tools and Modern Data Stack](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html),
 she also covers reverse flows inside the
 [modern data stack]({{ '/wiki/modern-data-stack/' | relative_url }}).
 The same framing connects DataOps to
@@ -79,8 +79,8 @@ At minimum, the stack should help the team do these jobs:
 - recover through runbooks, playbooks, reruns, rollbacks, and postmortems
 
 In
-[Mastering DataOps]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }}),
-[Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }}) anchors
+[Mastering DataOps](https://datatalks.club/podcast/dataops-automation-and-reliable-data-pipelines.html),
+[Christopher Bergh](https://datatalks.club/people/christopherbergh.html) anchors
 this stack around version control and tests. He also includes CI/CD,
 observability, and recovery.
 Around 33:47, he lays out the practical steps for healthier pipelines. Around
@@ -108,15 +108,15 @@ Pipeline code belongs there, and so do files that affect operations:
 - operational documentation
 
 In
-[Mastering DataOps]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }}),
+[Mastering DataOps](https://datatalks.club/podcast/dataops-automation-and-reliable-data-pipelines.html),
 Bergh argues for putting the work that changes data products under the same
 review discipline as software. The episode covers reports and transformations.
 It also covers models, governance, and catalogs as parts of a system that need
 to move together.
 
-[Tomasz Hinc]({{ '/people/tomaszhinc/' | relative_url }}) gives the
+[Tomasz Hinc](https://datatalks.club/people/tomaszhinc.html) gives the
 infrastructure version of the same principle in
-[DataOps and GitOps for Data Teams]({{ '/podcasts/dataops-and-gitops-best-practices-for-data-teams/' | relative_url }}).
+[DataOps and GitOps for Data Teams](https://datatalks.club/podcast/dataops-and-gitops-best-practices-for-data-teams.html).
 Around 23:04, he discusses Terraform, Terragrunt, and Atlantis. Around 26:21,
 he describes a GitOps flow. A team opens a branch, reviews the planned change,
 and applies it after approval.
@@ -138,7 +138,7 @@ dbt tests. It can also run dependency checks, infrastructure plans, package
 builds, and deployment validation.
 
 In
-[DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }}),
+[DataOps for Data Engineering](https://datatalks.club/podcast/dataops-for-data-engineering.html),
 Bergh revisits the same operating model for modern data engineering teams.
 Around 30:55, he discusses CI/CD pipelines, regression tests, and test data.
 Around 42:39, he ties deployment automation back to version control and tests.
@@ -177,18 +177,18 @@ Teams often choose among these options:
 - managed pipeline services
 - CI workflows
 
-[Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) places
+[Natalie Kwong](https://datatalks.club/people/nataliekwong.html) places
 orchestration inside the modern data stack in
-[Data Engineering Tools and Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}).
+[Data Engineering Tools and Modern Data Stack](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html).
 Around 30:59, she describes Airflow's role in scheduling and running
 pipelines. Around 31:31, she connects Airbyte extract-load jobs to dbt and
 downstream transformations. The useful split is that the orchestrator
 coordinates the work while ingestion tools, SQL engines, warehouses, and
 transformation tools do the domain work.
 
-[Lars Albertsson]({{ '/people/larsalbertsson/' | relative_url }}) gives the
+[Lars Albertsson](https://datatalks.club/people/larsalbertsson.html) gives the
 platform architecture view in
-[DataOps 101]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}).
+[DataOps 101](https://datatalks.club/podcast/dataops-principles-and-scalable-data-platforms.html).
 Around 10:48, he uses Luigi as a data build system. Around 30:34, he names
 storage, compute, and workflow engines as core platform components. Around
 41:53 and 45:11, he separates batch, micro-batch, and streaming tradeoffs.
@@ -213,15 +213,15 @@ A good DataOps stack usually needs several kinds of checks:
 - end-to-end tests that run representative data through the full flow
 
 In
-[Mastering DataOps]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }}),
+[Mastering DataOps](https://datatalks.club/podcast/dataops-automation-and-reliable-data-pipelines.html),
 Bergh mentions dbt tests, Great Expectations, and SQL tests around 48:25. The
 durable point isn't that every team needs the same framework. Tests should be
 automated, version controlled, close to the code, and meaningful for the
 consumer.
 
-[Rahul Jain]({{ '/people/16rahuljain/' | relative_url }}) adds a data
+[Rahul Jain](https://datatalks.club/people/16rahuljain.html) adds a data
 engineering management example in
-[Data Engineering Leadership and Modern Data Platforms]({{ '/podcasts/data-engineering-leadership-and-modern-data-platforms/' | relative_url }}).
+[Data Engineering Leadership and Modern Data Platforms](https://datatalks.club/podcast/data-engineering-leadership-and-modern-data-platforms.html).
 Around 25:04, he discusses data culture, consumers served, and data quality
 metrics. Around 28:04, he discusses reconciliation between sources and
 targets. That pushes testing beyond "does the job run?" into "did the right
@@ -239,8 +239,8 @@ success isn't enough because a finished job can still publish bad data. The
 data may be late or malformed. It may also be incomplete, skewed, or wrong.
 
 In
-[Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }}),
-[Barr Moses]({{ '/people/barrmoses/' | relative_url }}) gives the clearest
+[Data Observability Explained](https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html),
+[Barr Moses](https://datatalks.club/people/barrmoses.html) gives the clearest
 observability model used here.
 
 Around 16:38, she defines the five pillars:
@@ -279,9 +279,9 @@ behind an alert:
 
 Moses connects lineage to root-cause analysis around 26:04 and to impact
 analysis around 58:51 in
-[Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }}).
+[Data Observability Explained](https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html).
 Bergh connects catalogs and governance to end-to-end versioning around 51:21 in
-[Mastering DataOps]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }}).
+[Mastering DataOps](https://datatalks.club/podcast/dataops-automation-and-reliable-data-pipelines.html).
 
 Catalogs help only when they reflect real ownership and usage. A stale catalog
 can make incidents worse by pointing responders at the wrong team.
@@ -308,7 +308,7 @@ infrastructure-as-code systems.
 The DataOps episodes argue for staged adoption.
 
 In
-[DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }}),
+[DataOps for Data Engineering](https://datatalks.club/podcast/dataops-for-data-engineering.html),
 Bergh discusses runtime options around 52:42:
 
 - containers
@@ -322,15 +322,15 @@ jumping into Kubernetes. Don't add a cluster when a managed job is enough.
 
 The ML platform episodes echo that advice because ML systems depend on the
 same data reliability layer. In
-[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}),
-[Simon Stiebellehner]({{ '/people/simonstiebellehner/' | relative_url }})
+[Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html),
+[Simon Stiebellehner](https://datatalks.club/people/simonstiebellehner.html)
 discusses cloud infrastructure, Kubernetes, and Terraform around 8:11. Around
 31:51, he discusses orchestration choices for production workflows. Around
 42:48, he connects metadata and lineage to reproducibility.
 
-[Danny Leybzon]({{ '/people/dannyleybzon/' | relative_url }}) makes the
+[Danny Leybzon](https://datatalks.club/people/dannyleybzon.html) makes the
 upstream dependency explicit in
-[MLOps Architect Guide]({{ '/podcasts/mlops-model-monitoring-data-observability/' | relative_url }}).
+[MLOps Architect Guide](https://datatalks.club/podcast/mlops-model-monitoring-data-observability.html).
 Around 27:35, he discusses ETL, data pipelines, and upstream root causes in
 model monitoring. DataOps tools often become the reliability layer that MLOps
 systems inherit.
@@ -349,9 +349,9 @@ problem, understand impact, recover, and prevent the same failure from
 recurring.
 
 Moses discusses operational runbooks around 41:03 in
-[Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }}).
+[Data Observability Explained](https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html).
 Bergh makes the automation step explicit around 34:37 in
-[Mastering DataOps]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }}):
+[Mastering DataOps](https://datatalks.club/podcast/dataops-automation-and-reliable-data-pipelines.html):
 manual runbooks are useful, but repeated manual recovery is a signal to
 automate.
 
@@ -378,9 +378,9 @@ That starting point matches the interviews. Bergh shows that SQL tests and
 targeted expectations can be enough when they capture real consumer needs.
 Moses discusses maturity from reactive work toward proactive and automated
 observability around 43:00 in
-[Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }}).
+[Data Observability Explained](https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html).
 Hinc adds the operational basics around 47:55 in
-[DataOps and GitOps for Data Teams]({{ '/podcasts/dataops-and-gitops-best-practices-for-data-teams/' | relative_url }}).
+[DataOps and GitOps for Data Teams](https://datatalks.club/podcast/dataops-and-gitops-best-practices-for-data-teams.html).
 Git, command-line comfort, IAM, and password-management habits are part of the
 work too.
 
@@ -421,9 +421,9 @@ monitors. A platform team supporting many domains may need standardized CI/CD.
 It may also need a shared orchestrator and automated lineage. Observability,
 governance integration, and incident response can become platform concerns too.
 
-[Boyan Angelov]({{ '/people/boyanangelov/' | relative_url }}) adds the
+[Boyan Angelov](https://datatalks.club/people/boyanangelov.html) adds the
 strategy lens in
-[Data Strategy and DataOps for AI-Powered Products]({{ '/podcasts/data-strategy-and-dataops-for-ai-powered-products/' | relative_url }}).
+[Data Strategy and DataOps for AI-Powered Products](https://datatalks.club/podcast/data-strategy-and-dataops-for-ai-powered-products.html).
 Around 24:57, he connects DataOps to lean, agile, and CI/CD practices. Around
 52:44, he argues for starting with a budgeted use case. That's a useful
 constraint for tool selection too. Buy or build the tool that removes a real

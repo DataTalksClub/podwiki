@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Ken Youens-Clark]({ '/people/kenyouens-clark/' | relative_url }).
+[Ken Youens-Clark](https://datatalks.club/people/kenyouens-clark.html).
 
 ## Discussion Archive
 

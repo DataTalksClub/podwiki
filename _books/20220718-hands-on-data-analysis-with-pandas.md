@@ -19,7 +19,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Stefanie Molin]({ '/people/stefaniemolin/' | relative_url }).
+[Stefanie Molin](https://datatalks.club/people/stefaniemolin.html).
 
 ## Discussion Archive
 

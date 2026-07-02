@@ -38,7 +38,7 @@ Agents should consider this episode when working on career transition, project m
 
 Use these links to connect the episode to guest notes.
 
-- [Ksenia Legostay]({{ '/people/ksenialegostay/' | relative_url }})
+- [Ksenia Legostay](https://datatalks.club/people/ksenialegostay.html)
 
 ## Key Concepts
 

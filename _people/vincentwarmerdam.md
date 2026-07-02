@@ -23,7 +23,7 @@ ML projects stay useful and sustainable".
 
 These episodes move from first contribution mechanics to project stewardship:
 
-- [Contribute to Open Source ML]({{ '/podcasts/open-source-ml-contributions/' | relative_url }}) is a
+- [Contribute to Open Source ML](https://datatalks.club/podcast/open-source-ml-contributions.html) is a
   tactical guide for new contributors. Vincent covers project choice and
   reproducible issues, then moves to documentation, tests, CI, and packaging.
   The episode treats pre-commit hooks, contribution guides, and premature PyPI
@@ -31,7 +31,7 @@ These episodes move from first contribution mechanics to project stewardship:
 - The same episode gives concrete examples from evol and scikit-lego. It also
   mentions clumper, memo, whatlies, and Rasa as examples of small tools growing
   from curiosity or repeated work.
-- [Open Source ML Tools]({{ '/podcasts/open-source-ml-tools-strategy-and-business-models/' | relative_url }}) adds the
+- [Open Source ML Tools](https://datatalks.club/podcast/open-source-ml-tools-strategy-and-business-models.html) adds the
   maintainer and institution layer. Vincent discusses scikit-learn governance
   and NumFOCUS, compares plugins with core features, then covers maintainer
   transitions and volunteer motivation. He also discusses hiring signals, Calm
@@ -85,9 +85,9 @@ Use these sources for verification:
   plugins versus core features at 14:01, maintainer transition at 18:11,
   hiring signal at 23:29, and business models at 56:19.
 - Existing summary:
-  [Contribute to Open Source ML]({{ '/podcasts/open-source-ml-contributions/' | relative_url }})
+  [Contribute to Open Source ML](https://datatalks.club/podcast/open-source-ml-contributions.html)
 
 ## Podcast Discussions
 
-- [Contribute to Open Source ML: scikit-learn Pipelines, PRs, Docs & Rasa Conversational AI]({{ '/podcasts/open-source-ml-contributions/' | relative_url }}). Related topics: [open-source]({{ '/wiki/open-source/' | relative_url }}), [data science]({{ '/wiki/data-science/' | relative_url }}), [career development]({{ '/wiki/career-development/' | relative_url }}), [contributing]({{ '/wiki/contributing/' | relative_url }}), [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [tools]({{ '/wiki/tools/' | relative_url }}).
-- [Open Source ML Tools: Scikit-Learn Governance, Sustainability and Business Models]({{ '/podcasts/open-source-ml-tools-strategy-and-business-models/' | relative_url }}). Related topics: [open-source]({{ '/wiki/open-source/' | relative_url }}), [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [data science]({{ '/wiki/data-science/' | relative_url }}), [tools]({{ '/wiki/tools/' | relative_url }}), [developer relations]({{ '/wiki/developer-relations/' | relative_url }}).
+- [Contribute to Open Source ML: scikit-learn Pipelines, PRs, Docs & Rasa Conversational AI](https://datatalks.club/podcast/open-source-ml-contributions.html). Related topics: [open-source]({{ '/wiki/open-source/' | relative_url }}), [data science]({{ '/wiki/data-science/' | relative_url }}), [career development]({{ '/wiki/career-development/' | relative_url }}), [contributing]({{ '/wiki/contributing/' | relative_url }}), [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [tools]({{ '/wiki/tools/' | relative_url }}).
+- [Open Source ML Tools: Scikit-Learn Governance, Sustainability and Business Models](https://datatalks.club/podcast/open-source-ml-tools-strategy-and-business-models.html). Related topics: [open-source]({{ '/wiki/open-source/' | relative_url }}), [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [data science]({{ '/wiki/data-science/' | relative_url }}), [tools]({{ '/wiki/tools/' | relative_url }}), [developer relations]({{ '/wiki/developer-relations/' | relative_url }}).

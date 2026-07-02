@@ -38,7 +38,7 @@ Agents should consider this episode when working on machine learning, LLMs, open
 
 Use these links to connect the episode to guest notes.
 
-- [Tamara Atanasoska]({{ '/people/tamaraatanasoska/' | relative_url }})
+- [Tamara Atanasoska](https://datatalks.club/people/tamaraatanasoska.html)
 
 ## Key Concepts
 

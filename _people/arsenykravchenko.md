@@ -15,7 +15,7 @@ curated: "true"
 Arseny Kravchenko joined DataTalks.Club to explain how engineers design
 machine learning systems when the product, data, and runtime constraints are
 still unclear. In
-[Build Scalable, Reliable ML Systems]({{ '/podcasts/building-scalable-and-reliable-machine-learning-systems/' | relative_url }}),
+[Build Scalable, Reliable ML Systems](https://datatalks.club/podcast/building-scalable-and-reliable-machine-learning-systems.html),
 he treats [machine learning system design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
 as practical decision work. Engineers start with goals, surface constraints,
 write down assumptions, and only then choose the model or pipeline.
@@ -31,7 +31,7 @@ and [production]({{ '/wiki/production/' | relative_url }}) meet.
 ## Scalable ML Systems Start With Constraints
 
 In
-[Build Scalable, Reliable ML Systems]({{ '/podcasts/building-scalable-and-reliable-machine-learning-systems/' | relative_url }}),
+[Build Scalable, Reliable ML Systems](https://datatalks.club/podcast/building-scalable-and-reliable-machine-learning-systems.html),
 Arseny framed startup ML work as a tradeoff between reliable systems and the
 pressure to ship quickly. He made that point at 6:11 and 7:54. In large
 companies, engineers may inherit templates and established decisions. In
@@ -85,8 +85,8 @@ roughly half of that effort on the problem. He asked teams to name goals and
 non-goals. They should also name user scenarios, assumptions, and constraints.
 
 His advice sits close to
-[Valerii Babushkin]({{ '/people/valeriybabushkin/' | relative_url }})'s
-[ML System Design Playbook]({{ '/podcasts/ml-system-design/' | relative_url }}).
+[Valerii Babushkin](https://datatalks.club/people/valeriybabushkin.html)'s
+[ML System Design Playbook](https://datatalks.club/podcast/ml-system-design.html).
 Both guests treat design docs as a way to expose weak assumptions before a team
 turns them into production work.
 

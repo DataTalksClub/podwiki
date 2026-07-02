@@ -21,7 +21,7 @@ teams.
 ## DataOps as Enablement
 
 In
-[DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}),
+[DataOps 101 for Scaling Data Platforms](https://datatalks.club/podcast/dataops-principles-and-scalable-data-platforms.html),
 Lars defines DataOps around enablement, workflows, and people alignment. Around
 11:50, he describes DataOps as the discipline that lets data teams deliver data
 work repeatedly instead of treating every pipeline as a one-off project.

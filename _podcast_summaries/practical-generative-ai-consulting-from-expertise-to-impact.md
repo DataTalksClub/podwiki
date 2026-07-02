@@ -38,7 +38,7 @@ Agents should consider this episode when working on AI, LLMs, NLP.
 
 Use these links to connect the episode to guest notes.
 
-- [Verena Weber]({{ '/people/verenaweber/' | relative_url }})
+- [Verena Weber](https://datatalks.club/people/verenaweber.html)
 
 ## Key Concepts
 

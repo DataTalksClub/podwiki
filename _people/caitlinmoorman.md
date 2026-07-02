@@ -12,7 +12,7 @@ expertise: ["last-mile data delivery", "data product adoption", "modern data sta
 
 ## Background in Data and Operations
 
-Caitlin Moorman joined DataTalks.Club as VP of Data and Business Operations at Trove Recommerce. She discussed [Last-Mile Data Delivery for the Modern Data Stack: Build Data Products to Boost Adoption]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }}). In that conversation, she connected her work across crowdfunding and self-publishing through recommerce to data work that changes decisions.
+Caitlin Moorman joined DataTalks.Club as VP of Data and Business Operations at Trove Recommerce. She discussed [Last-Mile Data Delivery for the Modern Data Stack: Build Data Products to Boost Adoption](https://datatalks.club/podcast/last-mile-data-delivery-and-data-product-adoption-modern-data-stack.html). In that conversation, she connected her work across crowdfunding and self-publishing through recommerce to data work that changes decisions.
 
 In archive terms, Caitlin connects [data teams]({{ '/wiki/data-teams/' | relative_url }}) with [business intelligence]({{ '/wiki/business-intelligence/' | relative_url }}), [analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }}), and [leadership]({{ '/wiki/leadership/' | relative_url }}). She kept the technical stack in view, but focused most of the discussion on the human, operational, and managerial work that turns data into action.
 

@@ -38,7 +38,7 @@ Agents should consider this episode when working on data engineering, AI, LLMs.
 
 Use these links to connect the episode to guest notes.
 
-- [Bartosz Mikulski]({{ '/people/bartoszmikulski/' | relative_url }})
+- [Bartosz Mikulski](https://datatalks.club/people/bartoszmikulski.html)
 
 ## Key Concepts
 

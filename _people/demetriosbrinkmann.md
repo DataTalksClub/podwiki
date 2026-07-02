@@ -15,7 +15,7 @@ Demetrios Brinkmann leads the MLOps Community. His source bio describes the comm
 
 ## Podcast Contributions
 
-- [MLOps Community Playbook]({{ '/podcasts/mlops-community-building-and-meetups/' | relative_url }}) contributes a focused community-building reference for launching meetups, recruiting contributors, retaining members, and making MLOps conversations useful.
+- [MLOps Community Playbook](https://datatalks.club/podcast/mlops-community-building-and-meetups.html) contributes a focused community-building reference for launching meetups, recruiting contributors, retaining members, and making MLOps conversations useful.
 
 ## Concepts Connected
 
@@ -29,4 +29,4 @@ Demetrios Brinkmann leads the MLOps Community. His source bio describes the comm
 
 ## Podcast Discussions
 
-- [MLOps Community Playbook: Launch, Grow & Retain Meetups, Members, and Contributors]({{ '/podcasts/mlops-community-building-and-meetups/' | relative_url }}). Related topics: [MLOps]({{ '/wiki/mlops/' | relative_url }}), [community building]({{ '/wiki/community-building/' | relative_url }}).
+- [MLOps Community Playbook: Launch, Grow & Retain Meetups, Members, and Contributors](https://datatalks.club/podcast/mlops-community-building-and-meetups.html). Related topics: [MLOps]({{ '/wiki/mlops/' | relative_url }}), [community building]({{ '/wiki/community-building/' | relative_url }}).

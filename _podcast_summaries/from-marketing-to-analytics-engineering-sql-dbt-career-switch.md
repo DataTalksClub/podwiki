@@ -38,7 +38,7 @@ Agents should consider this episode when working on data science, analytics engi
 
 Use these links to connect the episode to guest notes.
 
-- [Nikola Maksimovic]({{ '/people/nikolamaksimovic/' | relative_url }})
+- [Nikola Maksimovic](https://datatalks.club/people/nikolamaksimovic.html)
 
 ## Key Concepts
 

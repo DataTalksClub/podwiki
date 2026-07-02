@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Tobias Zwingmann]({ '/people/tobiaszwingmann/' | relative_url }).
+[Tobias Zwingmann](https://datatalks.club/people/tobiaszwingmann.html).
 
 ## Discussion Archive
 

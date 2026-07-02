@@ -27,9 +27,9 @@ deployment, monitoring, and a rollback or retraining rule.
 Use this page with the broader
 [Portfolio Projects]({{ '/wiki/portfolio-projects/' | relative_url }}) hub
 when the project is meant to prove production readiness rather than only model
-quality. [Simon Stiebellehner]({{ '/people/simonstiebellehner/' | relative_url }})
+quality. [Simon Stiebellehner](https://datatalks.club/people/simonstiebellehner.html)
 gives the lifecycle in
-[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}).
+[Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html).
 He moves from training and evaluation at 21:03 to
 [experiment tracking]({{ '/wiki/experiment-tracking/' | relative_url }}) at
 29:41 and the [model registry]({{ '/wiki/model-registry/' | relative_url }}) at
@@ -43,12 +43,12 @@ credible implementation records the code version, data reference, parameters,
 and dependencies. It also records the evaluation result and saved artifact. The
 same record should name the deployment target, monitoring signals, and owner
 action for rollback or retraining. Simon describes the same lifecycle in
-[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}),
+[Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html),
 but scaled down to a reviewable portfolio repository.
 
-[Maria Vechtomova]({{ '/people/mariavechtomova/' | relative_url }}) gives the
+[Maria Vechtomova](https://datatalks.club/people/mariavechtomova.html) gives the
 lightweight standard in
-[Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }}).
+[Pragmatic and Standardized MLOps](https://datatalks.club/podcast/pragmatic-and-standardized-mlops.html).
 At 18:41 and 22:23, she puts Git and CI/CD in the essential stack. She also
 includes artifact storage, registries, documentation, and reproducibility.
 Code quality and testing belong there too.
@@ -56,9 +56,9 @@ Code quality and testing belong there too.
 At 33:24, notebook logic moves into packages and CI/CD. A portfolio project can
 stay small, but it shouldn't hide weak delivery behind a long tool list.
 
-[Raphaël Hoogvliets]({{ '/people/raphaelhoogvliets/' | relative_url }}) adds
+[Raphaël Hoogvliets](https://datatalks.club/people/raphaelhoogvliets.html) adds
 the scale and adoption focus in
-[MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }}).
+[MLOps at Scale](https://datatalks.club/podcast/mlops-at-scale-reproducibility-adoption.html).
 At 39:06, he covers CI and repository structure. He also covers
 parameterization and tests. At 42:31, he adds data versioning, traceability,
 and experiment capture. The
@@ -74,13 +74,13 @@ data reference, run parameters, metric output, and saved artifact. For
 snapshot, hash, or manifest can be enough when it lets another person rerun the
 training job and compare the result.
 
-[Raphaël Hoogvliets]({{ '/people/raphaelhoogvliets/' | relative_url }}) grounds
+[Raphaël Hoogvliets](https://datatalks.club/people/raphaelhoogvliets.html) grounds
 this bar in
-[MLOps at Scale]({{ '/podcasts/mlops-at-scale-reproducibility-adoption/' | relative_url }})
+[MLOps at Scale](https://datatalks.club/podcast/mlops-at-scale-reproducibility-adoption.html)
 through repository structure, tests, data traceability, and experiment capture
-at 39:06-42:31. [Maria Vechtomova]({{ '/people/mariavechtomova/' | relative_url }})
+at 39:06-42:31. [Maria Vechtomova](https://datatalks.club/people/mariavechtomova.html)
 supports the same project structure in
-[Pragmatic and Standardized MLOps]({{ '/podcasts/pragmatic-and-standardized-mlops/' | relative_url }})
+[Pragmatic and Standardized MLOps](https://datatalks.club/podcast/pragmatic-and-standardized-mlops.html)
 when she moves notebook code into packages and CI/CD at 33:24.
 
 ## Experiment Records and Registry Handoff
@@ -91,14 +91,14 @@ artifact path. Keep failure notes with the run record before promoting one
 artifact with a registry record.
 
 The handoff from experimentation to deployment should be explicit. Simon's
-[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }})
+[Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html)
 sequence links [experiment tracking]({{ '/wiki/experiment-tracking/' | relative_url }})
 at 29:41 to the [model registry]({{ '/wiki/model-registry/' | relative_url }})
 at 30:32. The registry becomes a release boundary rather than a storage folder.
 
-[Nemanja Radojkovic]({{ '/people/nemanjaradojkovic/' | relative_url }}) makes
+[Nemanja Radojkovic](https://datatalks.club/people/nemanjaradojkovic.html) makes
 the lightweight version acceptable in
-[MLOps in Finance]({{ '/podcasts/mlops-and-ml-engineering-in-finance/' | relative_url }}).
+[MLOps in Finance](https://datatalks.club/podcast/mlops-and-ml-engineering-in-finance.html).
 At 35:57, he describes a simple interim registry. The record still needs model
 version and data version. It also needs the environment, evaluation result,
 approval state, and deployment target. For a portfolio project, a table or YAML
@@ -111,12 +111,12 @@ Show either batch scoring or online serving. Batch scoring can write
 predictions to a table, while online serving can be a small API. The project
 should include input validation, output schema, logs, and one fallback rule.
 Simon separates batch and online deployment at 31:15 in
-[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}),
+[Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html),
 so the README should name which serving mode it implements and why.
 
-[Ben Wilson]({{ '/people/benwilson/' | relative_url }}) argues for simple,
+[Ben Wilson](https://datatalks.club/people/benwilson.html) argues for simple,
 maintainable systems in
-[Practical Machine Learning Engineering for Production]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }}).
+[Practical Machine Learning Engineering for Production](https://datatalks.club/podcast/machine-learning-engineering-production-best-practices.html).
 At 6:50 and 8:49, he emphasizes modular and testable code. At 57:38, he
 describes production ML capstones with tests and monitoring. He also includes
 A/B testing and CI/CD. Use [CI/CD]({{ '/wiki/ci-cd/' | relative_url }}) and
@@ -127,16 +127,16 @@ release note, a deployment command, or a rollback path.
 
 Monitoring should cover service health, input quality, and prediction
 distributions. It should also cover business outcomes and name upstream causes
-that could break the model. [Danny Leybzon]({{ '/people/dannyleybzon/' | relative_url }})
+that could break the model. [Danny Leybzon](https://datatalks.club/people/dannyleybzon.html)
 connects [model monitoring]({{ '/wiki/model-monitoring/' | relative_url }}) to
 upstream ETL and data pipeline causes at 27:35 in
-[MLOps Architect Guide]({{ '/podcasts/mlops-model-monitoring-data-observability/' | relative_url }}).
+[MLOps Architect Guide](https://datatalks.club/podcast/mlops-model-monitoring-data-observability.html).
 His 27:35-31:50 discussion makes data profiling and root-cause visibility part
 of the project, not an optional dashboard.
 
-[Lina Weichbrodt]({{ '/people/linaweichbrodt/' | relative_url }}) adds business
+[Lina Weichbrodt](https://datatalks.club/people/linaweichbrodt.html) adds business
 value and incident readiness in
-[Human-Centered MLOps and Model Monitoring]({{ '/podcasts/human-centered-mlops-and-model-monitoring/' | relative_url }}).
+[Human-Centered MLOps and Model Monitoring](https://datatalks.club/podcast/human-centered-mlops-and-model-monitoring.html).
 At 4:50, she starts from business KPIs. At 24:34 and 27:14, she covers
 incident prep and postmortems. At 29:23, she adds live test sets.
 
@@ -151,9 +151,9 @@ model-specific signals.
 
 Feature-heavy projects should address training-serving consistency, feature
 validation, and ownership. They should also review drift and served-feature
-logs. [Willem Pienaar]({{ '/people/willempienaar/' | relative_url }})
+logs. [Willem Pienaar](https://datatalks.club/people/willempienaar.html)
 grounds that in
-[Feature Stores]({{ '/podcasts/mlops-feature-stores-feature-stores-feast-tecton/' | relative_url }}),
+[Feature Stores](https://datatalks.club/podcast/mlops-feature-stores-feature-stores-feast-tecton.html),
 where he covers feature responsibilities and validation. He also covers
 ownership and governance.
 

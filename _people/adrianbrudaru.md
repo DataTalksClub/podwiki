@@ -25,16 +25,16 @@ messy ingestion work into reusable tools, businesses, and career options.
 These episodes show how Adrian connects career choices, tooling, and platform
 tradeoffs:
 
-- [Freelance Data Engineering Playbook]({{ '/podcasts/freelance-data-engineering-pricing-and-clients/' | relative_url }})
+- [Freelance Data Engineering Playbook](https://datatalks.club/podcast/freelance-data-engineering-pricing-and-clients.html)
   frames freelancing as a business design problem, not only a rate card. Adrian
   discusses occupancy, hourly pricing, client acquisition, and recruiters
   versus direct contracts. He also covers scope documents, spikes, repeat work,
   and reusable portfolio assets.
-- [From Data Freelancer to Startup]({{ '/podcasts/from-data-freelancer-to-startup-open-source-products/' | relative_url }})
+- [From Data Freelancer to Startup](https://datatalks.club/podcast/from-data-freelancer-to-startup-open-source-products.html)
   explains why he chose product work over agency growth. The episode connects
   consulting pain to an open-source data product: DLT as a Python-first library
   for declarative JSON-to-relational pipeline work.
-- [Modern Data Engineering]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}) updates the
+- [Modern Data Engineering](https://datatalks.club/podcast/trends-in-modern-data-engineering.html) updates the
   archive with 2025-era platform topics. He covers table formats and metadata
   catalogs, then compares orchestration and streaming. He also roots
   AI-assisted data work in requirements-led tool selection.
@@ -89,10 +89,10 @@ Use these sources for verification:
 - Product and platform timestamps include the DLT concept at 19:38, Iceberg at
   18:17, orchestration at 35:37, and AI engineering convergence at 38:02.
 - Existing summary:
-  [Modern Data Engineering]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }})
+  [Modern Data Engineering](https://datatalks.club/podcast/trends-in-modern-data-engineering.html)
 
 ## Podcast Discussions
 
-- [Freelance Data Engineering Playbook: Pricing, Client Acquisition & Tools]({{ '/podcasts/freelance-data-engineering-pricing-and-clients/' | relative_url }}). Related topics: [data engineering]({{ '/wiki/data-engineering/' | relative_url }}), [freelance]({{ '/wiki/freelance/' | relative_url }}), [career growth]({{ '/wiki/career-growth/' | relative_url }}), [tools]({{ '/wiki/tools/' | relative_url }}).
-- [From Data Freelancer to Startup: Open-Source Products and Bottom-Up Adoption]({{ '/podcasts/from-data-freelancer-to-startup-open-source-products/' | relative_url }}). Related topics: [entrepreneurship]({{ '/wiki/entrepreneurship/' | relative_url }}), [freelance]({{ '/wiki/freelance/' | relative_url }}), [startups]({{ '/wiki/startups/' | relative_url }}), business development, [leadership]({{ '/wiki/leadership/' | relative_url }}), [career growth]({{ '/wiki/career-growth/' | relative_url }}), consulting.
-- [Modern Data Engineering: Iceberg, Delta Lake & AI-Powered Pipelines]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}). Related topics: [data engineering]({{ '/wiki/data-engineering/' | relative_url }}), [data governance]({{ '/wiki/data-governance/' | relative_url }}), [AI]({{ '/wiki/ai/' | relative_url }}), [open-source]({{ '/wiki/open-source/' | relative_url }}).
+- [Freelance Data Engineering Playbook: Pricing, Client Acquisition & Tools](https://datatalks.club/podcast/freelance-data-engineering-pricing-and-clients.html). Related topics: [data engineering]({{ '/wiki/data-engineering/' | relative_url }}), [freelance]({{ '/wiki/freelance/' | relative_url }}), [career growth]({{ '/wiki/career-growth/' | relative_url }}), [tools]({{ '/wiki/tools/' | relative_url }}).
+- [From Data Freelancer to Startup: Open-Source Products and Bottom-Up Adoption](https://datatalks.club/podcast/from-data-freelancer-to-startup-open-source-products.html). Related topics: [entrepreneurship]({{ '/wiki/entrepreneurship/' | relative_url }}), [freelance]({{ '/wiki/freelance/' | relative_url }}), [startups]({{ '/wiki/startups/' | relative_url }}), business development, [leadership]({{ '/wiki/leadership/' | relative_url }}), [career growth]({{ '/wiki/career-growth/' | relative_url }}), consulting.
+- [Modern Data Engineering: Iceberg, Delta Lake & AI-Powered Pipelines](https://datatalks.club/podcast/trends-in-modern-data-engineering.html). Related topics: [data engineering]({{ '/wiki/data-engineering/' | relative_url }}), [data governance]({{ '/wiki/data-governance/' | relative_url }}), [AI]({{ '/wiki/ai/' | relative_url }}), [open-source]({{ '/wiki/open-source/' | relative_url }}).

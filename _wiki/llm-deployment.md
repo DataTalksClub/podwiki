@@ -16,10 +16,10 @@ between API-based and open-source models, managing serving infrastructure,
 optimizing inference performance, and handling the risks that come with
 model changes over time.
 
-[Meryem Arik]({{ '/people/meryemarik/' | relative_url }}), co-founder of
+[Meryem Arik](https://datatalks.club/people/meryemarik.html), co-founder of
 TitanML, frames the core tradeoff in
 Deploying LLMs in
-Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}).
+Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html).
 At 49:44, she says that API models like GPT-3.5 or GPT-4 are best for
 prototyping because they let you get to demos quickly. In the long term,
 businesses tend to want open-source models for control, data privacy, cost, and
@@ -40,18 +40,18 @@ stability: "you actually know that the model is not changing under the hood."
 Other advantages include data privacy, lower cost, and comparable or better
 speed on available hardware.
 
-[Bartosz Mikulski]({{ '/people/bartoszmikulski/' | relative_url }}) adds a
+[Bartosz Mikulski](https://datatalks.club/people/bartoszmikulski.html) adds a
 production AI perspective in
-[Production AI Engineering]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }}).
+[Production AI Engineering](https://datatalks.club/podcast/production-ready-ai-engineering.html).
 His 33:45 section discusses open-source models and tools like DeepSeek and
 Perplexity. He uses Perplexity more than ChatGPT and notes that you can switch
 off the search feature and use it like a standard chatbot. His experience shows
 that open-source and alternative models have reached production quality for many
 use cases.
 
-[Sandra Kublik]({{ '/people/sandrakublik/' | relative_url }}) covers the
+[Sandra Kublik](https://datatalks.club/people/sandrakublik.html) covers the
 trade-off from the product side in
-[Practical LLM Use Cases]({{ '/podcasts/practical-llm-use-cases-and-product-patterns/' | relative_url }}).
+[Practical LLM Use Cases](https://datatalks.club/podcast/practical-llm-use-cases-and-product-patterns.html).
 Her 35:28 section on proprietary versus open source models covers cost, latency,
 intellectual property, and data risk. She explains that the choice depends on
 the use case: for enterprise deployment with sensitive data, open-source or
@@ -85,10 +85,10 @@ She describes this as a key reason businesses move to open-source models: with a
 self-hosted model, "you actually know that the model is not changing under the
 hood."
 
-[Nasser Qadri]({{ '/people/nasserqadri/' | relative_url }}) connects this to
+[Nasser Qadri](https://datatalks.club/people/nasserqadri.html) connects this to
 evaluation in
 Understanding the AI Engineer
-Role]({{ '/podcasts/s23e07-understanding-ai-engineer-role/' | relative_url }}).
+Role](https://datatalks.club/podcast/s23e07-understanding-ai-engineer-role.html).
 His 53:22 section discusses monitoring agent performance using concepts like
 data drift and concept drift from [MLOps]({{ '/wiki/mlops/' | relative_url }}).
 He expects AI engineering to adopt these monitoring practices as the field
@@ -96,10 +96,10 @@ matures.
 
 ## Local Models and Model Specialization
 
-[Micheal Lanham]({{ '/people/micheallanham/' | relative_url }}) describes the
+[Micheal Lanham](https://datatalks.club/people/micheallanham.html) describes the
 local model trend in
 [From Game AI to LLM
-Agents]({{ '/podcasts/from-game-ai-to-modern-ai-agents/' | relative_url }}).
+Agents](https://datatalks.club/podcast/from-game-ai-to-modern-ai-agents.html).
 At 45:40, he says people will want models running locally because paying for
 hosted models and bandwidth gets expensive. GPUs are becoming affordable enough
 for self-hosting. At 46:14, he describes working with open-source large models

@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Dipanjan Sarkar]({ '/people/Dipanjan Sarkar/' | relative_url }), [Raghav Bali]({ '/people/raghavbali/' | relative_url }).
+[Dipanjan Sarkar](https://datatalks.club/people/Dipanjan Sarkar.html), [Raghav Bali](https://datatalks.club/people/raghavbali.html).
 
 ## Discussion Archive
 

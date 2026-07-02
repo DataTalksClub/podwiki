@@ -38,7 +38,7 @@ Agents should consider this episode when working on AI, NLP, data science.
 
 Use these links to connect the episode to guest notes.
 
-- [Erum Afzal]({{ '/people/erumafzal/' | relative_url }})
+- [Erum Afzal](https://datatalks.club/people/erumafzal.html)
 
 ## Key Concepts
 

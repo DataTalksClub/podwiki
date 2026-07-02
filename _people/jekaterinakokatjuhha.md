@@ -15,4 +15,4 @@ TBA
 
 ## Podcast Discussions
 
-- [The Journey of a Data Generalist: From Bioinformatics to Freelancing]({{ '/podcasts/s12e08/' | relative_url }}). Discussed: Jekaterina’s background; How Jekaterina started freelancing; Jekaterina’s initial ways of getting freelancing clients; How being a generalist helped Jekaterina’s career. Related topics: jekaterina started freelancing, jekaterina initial ways, initial ways getting, ways getting freelancing, getting freelancing clients, being generalist helped.
+- [The Journey of a Data Generalist: From Bioinformatics to Freelancing](https://datatalks.club/podcast/s12e08.html). Discussed: Jekaterina’s background; How Jekaterina started freelancing; Jekaterina’s initial ways of getting freelancing clients; How being a generalist helped Jekaterina’s career. Related topics: jekaterina started freelancing, jekaterina initial ways, initial ways getting, ways getting freelancing, getting freelancing clients, being generalist helped.

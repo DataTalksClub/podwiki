@@ -15,7 +15,7 @@ curated: "true"
 # Danny Leybzon
 
 Danny Leybzon joined DataTalks.Club as an MLOps Architect at WhyLabs in
-[MLOps Architect Guide: Production Model Monitoring, Data Observability & Tooling]({{ '/podcasts/mlops-model-monitoring-data-observability/' | relative_url }}).
+[MLOps Architect Guide: Production Model Monitoring, Data Observability & Tooling](https://datatalks.club/podcast/mlops-model-monitoring-data-observability.html).
 He brought context from computational statistics, product work at Qubole, and
 field engineering at Imply. In the episode, Danny frames [MLOps]({{ '/wiki/mlops/' | relative_url }})
 as both a technical and organizational problem. He focuses on monitoring and
@@ -26,7 +26,7 @@ He also covers platform fit and how teams choose tools.
 
 Danny describes MLOps architecture as translation work. The role sits between
 customers, business needs, and technical constraints. Around 8:42 in
-[MLOps Architect Guide]({{ '/podcasts/mlops-model-monitoring-data-observability/' | relative_url }}),
+[MLOps Architect Guide](https://datatalks.club/podcast/mlops-model-monitoring-data-observability.html),
 Danny says customer communication and market awareness matter. He also needs
 enough technical depth to reason about production ML systems.
 
@@ -43,7 +43,7 @@ to know which decisions matter for the people operating the model.
 ## Production Model Monitoring
 
 Danny prioritizes the late part of the ML lifecycle. Around 25:49 in
-[MLOps Architect Guide]({{ '/podcasts/mlops-model-monitoring-data-observability/' | relative_url }}),
+[MLOps Architect Guide](https://datatalks.club/podcast/mlops-model-monitoring-data-observability.html),
 he says WhyLabs focuses on models after deployment, when teams need to know
 whether the model still performs well. He cares most about tooling close to
 production, especially inference and serving choices such as managed services,
@@ -64,7 +64,7 @@ also tries to talk to teams before they hit that failure.
 
 Danny's strongest operational point is that model problems often start before
 the model. At around 27:35 in
-[MLOps Architect Guide]({{ '/podcasts/mlops-model-monitoring-data-observability/' | relative_url }}),
+[MLOps Architect Guide](https://datatalks.club/podcast/mlops-model-monitoring-data-observability.html),
 he says data drift can come from the real world. Data quality problems can come
 from something upstream of the model. Teams debugging model behavior need
 visibility into ETL and transformation work. They also need orchestration
@@ -85,7 +85,7 @@ shift rather than a broken model artifact.
 
 Danny separates WhyLogs from WhyLabs in the monitoring architecture. Around
 33:49 in
-[MLOps Architect Guide]({{ '/podcasts/mlops-model-monitoring-data-observability/' | relative_url }}),
+[MLOps Architect Guide](https://datatalks.club/podcast/mlops-model-monitoring-data-observability.html),
 he says WhyLogs creates profiles, which are statistical summaries of data.
 WhyLabs stores and analyzes those profiles with visualizations, anomaly
 detection, and alerts. Around 55:50, he draws the product boundary again.
@@ -103,7 +103,7 @@ changes.
 ## Tooling Tradeoffs and Build vs Buy
 
 Danny doesn't claim that one MLOps stack fits every team. Around 34:54 in
-[MLOps Architect Guide]({{ '/podcasts/mlops-model-monitoring-data-observability/' | relative_url }}),
+[MLOps Architect Guide](https://datatalks.club/podcast/mlops-model-monitoring-data-observability.html),
 he frames build-vs-buy as an early decision. He often helps data scientists and
 machine learning engineers make the business case. He translates
 model monitoring into KPIs, objectives, and company risk, not only feature
@@ -120,7 +120,7 @@ episode with [MLOps Architecture]({{ '/wiki/mlops-architecture/' | relative_url 
 ## Fairness, Bias, and Segmentation
 
 Danny also covers fairness and bias. Around 41:00 in
-[MLOps Architect Guide]({{ '/podcasts/mlops-model-monitoring-data-observability/' | relative_url }}),
+[MLOps Architect Guide](https://datatalks.club/podcast/mlops-model-monitoring-data-observability.html),
 he says he became interested in whether explainability addresses bias.
 He concludes that teams can often do more by segmenting model behavior. They
 should also track disparate impact instead of treating explainability as the
@@ -138,7 +138,7 @@ question is how teams look at model behavior after deployment.
 
 Continue from Danny's page into the main episode and topic pages:
 
-- [MLOps Architect Guide: Production Model Monitoring, Data Observability & Tooling]({{ '/podcasts/mlops-model-monitoring-data-observability/' | relative_url }})
+- [MLOps Architect Guide: Production Model Monitoring, Data Observability & Tooling](https://datatalks.club/podcast/mlops-model-monitoring-data-observability.html)
 - [MLOps]({{ '/wiki/mlops/' | relative_url }})
 - [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }})
 - [Data Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})

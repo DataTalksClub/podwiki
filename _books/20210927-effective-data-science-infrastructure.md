@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Ville Tuulos]({ '/people/villetuulos/' | relative_url }).
+[Ville Tuulos](https://datatalks.club/people/villetuulos.html).
 
 ## Discussion Archive
 

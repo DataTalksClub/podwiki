@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Joe Reis]({ '/people/joereis/' | relative_url }), [Matthew Housley]({ '/people/matthewhousley/' | relative_url }).
+[Joe Reis](https://datatalks.club/people/joereis.html), [Matthew Housley](https://datatalks.club/people/matthewhousley.html).
 
 ## Discussion Archive
 

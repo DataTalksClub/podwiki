@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Emmanuel Raj]({ '/people/emmanuelraj/' | relative_url }).
+[Emmanuel Raj](https://datatalks.club/people/emmanuelraj.html).
 
 ## Discussion Archive
 

@@ -38,7 +38,7 @@ Agents should consider this episode when working on data science, machine learni
 
 Use these links to connect the episode to guest notes.
 
-- [Thom Ives]({{ '/people/thomives/' | relative_url }})
+- [Thom Ives](https://datatalks.club/people/thomives.html)
 
 ## Key Concepts
 

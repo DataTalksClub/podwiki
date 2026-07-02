@@ -38,7 +38,7 @@ Agents should consider this episode when working on data engineering, tools.
 
 Use these links to connect the episode to guest notes.
 
-- [Arpit Choudhury]({{ '/people/arpitchoudhury/' | relative_url }})
+- [Arpit Choudhury](https://datatalks.club/people/arpitchoudhury.html)
 
 ## Key Concepts
 

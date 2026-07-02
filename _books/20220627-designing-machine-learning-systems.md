@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Chip Huyen]({ '/people/chiphuyen/' | relative_url }).
+[Chip Huyen](https://datatalks.club/people/chiphuyen.html).
 
 ## Discussion Archive
 

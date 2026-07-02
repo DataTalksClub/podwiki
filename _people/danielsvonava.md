@@ -15,7 +15,7 @@ linkedin: "svonava"
 Daniel Svonava is the co-founder of Superlinked and VectorHub. He previously
 worked in machine learning infrastructure for YouTube Ads. That background is
 useful context for his DataTalks.Club episode
-[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}),
+[Building Search Systems](https://datatalks.club/podcast/building-production-search-systems.html),
 where he treats search as a production system. It needs fast candidate
 retrieval, signal-aware ranking, embedding pipelines, and product measurement.
 
@@ -28,7 +28,7 @@ His discussion is a practical companion to
 ## Search As Retrieval And Ranking
 
 Daniel starts by framing search as a decision problem. Around 8:00 in
-[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}),
+[Building Search Systems](https://datatalks.club/podcast/building-production-search-systems.html),
 he describes the job as deciding which pieces of information matter in a given
 situation. At 9:10, he places search and personalized search beside
 [recommendation systems]({{ '/wiki/recommendation-systems/' | relative_url }}),
@@ -50,7 +50,7 @@ latency work, and evaluation.
 
 Daniel doesn't present dense embeddings as a replacement for classical search.
 At 12:45-20:02 in
-[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}),
+[Building Search Systems](https://datatalks.club/podcast/building-production-search-systems.html),
 he explains inverted indexes and Lucene as the practical infrastructure behind
 keyword retrieval. He also covers query rewriting and synonym expansion. The
 maintenance cost shows up as special cases, long configuration files, and
@@ -81,7 +81,7 @@ ignore product constraints. Daniel's answer is to treat hybrid search as a way
 to combine signals, not as a single database feature.
 
 He also separates vector compute from vector storage at 29:00-30:22 in
-[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}).
+[Building Search Systems](https://datatalks.club/podcast/building-production-search-systems.html).
 The system computes document vectors during ingestion and query vectors during
 serving. Model swaps and partial recomputation become
 [MLOps]({{ '/wiki/mlops/' | relative_url }}) concerns. So do batch workloads,
@@ -100,7 +100,7 @@ feed may all need different weights.
 ## Evaluation Metrics And Product Impact
 
 Daniel's metric advice is deliberately product-centered. Around 1:01:25 in
-[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}),
+[Building Search Systems](https://datatalks.club/podcast/building-production-search-systems.html),
 he argues that search metrics gain force when they connect to business
 performance. Clicks and contacts can be proxy outcomes. Orders and revenue can
 be final outcomes, depending on the product. This places search evaluation beside
@@ -119,10 +119,10 @@ and the production path in
 
 ## Related Search Practitioners
 
-[Atita Arora]({{ '/people/atitaarora/' | relative_url }}) is the closest
+[Atita Arora](https://datatalks.club/people/atitaarora.html) is the closest
 DataTalks.Club companion for Daniel's search discussion. Her
-[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
+[Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html)
 episode covers Solr and Lucene from a search-practitioner perspective. It also
-covers vector databases, RAG, and evaluation. [Doug Turnbull]({{ '/people/dougturnbull/' | relative_url }})
+covers vector databases, RAG, and evaluation. [Doug Turnbull](https://datatalks.club/people/dougturnbull.html)
 adds the relevance-engineering learning path through his DataTalks.Club-linked
 work on search relevance.

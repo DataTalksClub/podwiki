@@ -38,7 +38,7 @@ Agents should consider this episode when working on data science, career growth,
 
 Use these links to connect the episode to guest notes.
 
-- [Luke Whipps]({{ '/people/lukewhipps/' | relative_url }})
+- [Luke Whipps](https://datatalks.club/people/lukewhipps.html)
 
 ## Key Concepts
 

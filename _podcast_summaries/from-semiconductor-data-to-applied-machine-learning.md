@@ -38,7 +38,7 @@ Agents should consider this episode when working on machine learning, MLOps, dat
 
 Use these links to connect the episode to guest notes.
 
-- [Dashel Ruiz Perez]({{ '/people/dashelruizperez/' | relative_url }})
+- [Dashel Ruiz Perez](https://datatalks.club/people/dashelruizperez.html)
 
 ## Key Concepts
 

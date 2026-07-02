@@ -12,11 +12,11 @@ related:
 
 In DataTalks.Club podcast discussions, evolutionary algorithms are search
 methods for trying many candidate solutions when the target can be scored but
-not directly derived. [Micheal Lanham]({{ '/people/micheallanham/' | relative_url }})
+not directly derived. [Micheal Lanham](https://datatalks.club/people/micheallanham.html)
 gives the strongest thread. His examples cover game AI, numerical optimization,
 and evolutionary deep learning. He also discusses prompt search and modern
 [AI agents]({{ '/wiki/agent-engineering/' | relative_url }})
-([From Game AI to LLM Agents]({{ '/podcasts/from-game-ai-to-modern-ai-agents/' | relative_url }}),
+([From Game AI to LLM Agents](https://datatalks.club/podcast/from-game-ai-to-modern-ai-agents.html),
 1:07-14:09).
 
 Lanham places evolutionary algorithms near
@@ -27,7 +27,7 @@ The shared structure is search under feedback. Teams define a fitness signal,
 generate candidate solutions, and keep stronger candidates. They mutate or
 combine those candidates until the result converges or the compute budget runs
 out
-([From Game AI to LLM Agents]({{ '/podcasts/from-game-ai-to-modern-ai-agents/' | relative_url }}),
+([From Game AI to LLM Agents](https://datatalks.club/podcast/from-game-ai-to-modern-ai-agents.html),
 11:30-13:44).
 
 ## Search Mechanics
@@ -37,7 +37,7 @@ interview describes a population of candidates, a fitness function, a mutation
 function, and sometimes a pairing function for combining parents. Fitter
 candidates reproduce, random mutations create new variants, and the search
 continues until convergence or resource limits
-([From Game AI to LLM Agents]({{ '/podcasts/from-game-ai-to-modern-ai-agents/' | relative_url }}),
+([From Game AI to LLM Agents](https://datatalks.club/podcast/from-game-ai-to-modern-ai-agents.html),
 11:30-12:59).
 
 The practical tradeoff is compute. Lanham says evolutionary algorithms became
@@ -46,7 +46,7 @@ solutions with few hard constraints. He also calls them computationally
 intensive. Around 2006, he says, researchers treated them as a possible path to
 intelligence. Later [deep learning]({{ '/wiki/deep-learning/' | relative_url }})
 frameworks became dominant
-([From Game AI to LLM Agents]({{ '/podcasts/from-game-ai-to-modern-ai-agents/' | relative_url }}),
+([From Game AI to LLM Agents](https://datatalks.club/podcast/from-game-ai-to-modern-ai-agents.html),
 13:21-13:44).
 
 ## Game AI and Industry Optimization
@@ -55,7 +55,7 @@ Lanham starts with game-like environments rather than a generic algorithm
 catalog. In early academic work, his team built a game for testing children's
 executive function. They then used simple neural networks and evolutionary
 algorithms to create test sequences and analyze player data
-([From Game AI to LLM Agents]({{ '/podcasts/from-game-ai-to-modern-ai-agents/' | relative_url }}),
+([From Game AI to LLM Agents](https://datatalks.club/podcast/from-game-ai-to-modern-ai-agents.html),
 2:36-2:55).
 
 The method belongs to a simulated interaction. The team can try candidate tests,
@@ -67,15 +67,15 @@ numerical analysis related to pipeline corrosion. He says the methods could
 adapt faster and handle data efficiently in that setting. Their compute cost
 and weaker fit with the frameworks that boosted deep learning helped push them
 aside
-([From Game AI to LLM Agents]({{ '/podcasts/from-game-ai-to-modern-ai-agents/' | relative_url }}),
+([From Game AI to LLM Agents](https://datatalks.club/podcast/from-game-ai-to-modern-ai-agents.html),
 4:19-5:01).
 
-[Marcello La Rocca]({{ '/people/marcellolarocca/' | relative_url }}) places
+[Marcello La Rocca](https://datatalks.club/people/marcellolarocca.html) places
 evolutionary algorithms in a broader algorithms-and-optimization toolkit. In
 his algorithms episode, he covers graphs and evolutionary algorithms. For
 optimization, he names random sampling and gradient descent. He also names
 simulated annealing and genetic algorithms for permutation problems
-([Practical Algorithms for Engineers]({{ '/podcasts/algorithms-data-structures-for-engineers/' | relative_url }}),
+([Practical Algorithms for Engineers](https://datatalks.club/podcast/algorithms-data-structures-for-engineers.html),
 25:04-26:19).
 
 The combined picture is narrow but useful: evolutionary algorithms aren't a
@@ -89,7 +89,7 @@ Lanham later wrote "Evolutionary Deep Learning," and he summarizes the idea in
 the episode as combining deep learning with evolutionary algorithms. The
 concrete uses he names are hyperparameter search and network architecture
 modification, especially for convolutional neural networks
-([From Game AI to LLM Agents]({{ '/podcasts/from-game-ai-to-modern-ai-agents/' | relative_url }}),
+([From Game AI to LLM Agents](https://datatalks.club/podcast/from-game-ai-to-modern-ai-agents.html),
 9:09-9:29). In the podcast discussion, evolutionary algorithms belong to model
 selection and architecture tuning rather than everyday supervised modeling.
 
@@ -97,7 +97,7 @@ Lanham separates weight training from design search. A CNN learns from data,
 while an evolutionary method searches over architecture variants or
 hyperparameters. He says these approaches can work well, but he warns that
 they're computationally intensive
-([From Game AI to LLM Agents]({{ '/podcasts/from-game-ai-to-modern-ai-agents/' | relative_url }}),
+([From Game AI to LLM Agents](https://datatalks.club/podcast/from-game-ai-to-modern-ai-agents.html),
 9:09-9:29).
 
 That makes [evaluation]({{ '/wiki/evaluation/' | relative_url }})
@@ -111,13 +111,13 @@ Lanham's most modern example is prompt engineering. He says recent work applies
 evolutionary algorithms to prompts for LLMs and agents. The system generates
 prompt variants, scores the results, and evolves toward prompts that perform
 better
-([From Game AI to LLM Agents]({{ '/podcasts/from-game-ai-to-modern-ai-agents/' | relative_url }}),
+([From Game AI to LLM Agents](https://datatalks.club/podcast/from-game-ai-to-modern-ai-agents.html),
 14:09-14:28). He describes this as promising because LLM behavior is complex
 and prompt variants can produce unexpected outputs.
 
 Lanham also says prompt search can be computationally expensive. He agrees that
 one small example repo may take about a week
-([From Game AI to LLM Agents]({{ '/podcasts/from-game-ai-to-modern-ai-agents/' | relative_url }}),
+([From Game AI to LLM Agents](https://datatalks.club/podcast/from-game-ai-to-modern-ai-agents.html),
 14:59-15:23). His example belongs with the broader
 [prompt engineering]({{ '/wiki/prompt-engineering/' | relative_url }}) and
 [LLM evaluation workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }})
@@ -126,13 +126,13 @@ better behavior.
 
 ## APIs and Tooling
 
-[Vincent Warmerdam]({{ '/people/vincentwarmerdam/' | relative_url }}) gives a
+[Vincent Warmerdam](https://datatalks.club/people/vincentwarmerdam.html) gives a
 clear API-design example. In his open-source ML episode, he says EVOL started
 as an evolutionary algorithm library built to simplify genetic algorithms. He
 describes those algorithms as often becoming nested `for` loops. EVOL used
 population and evolution objects with a functional API so the algorithm was
 easier to use
-([Contribute to Open Source ML]({{ '/podcasts/open-source-ml-contributions/' | relative_url }}),
+([Contribute to Open Source ML](https://datatalks.club/podcast/open-source-ml-contributions.html),
 17:02-18:12).
 
 Warmerdam's point is about [open-source]({{ '/wiki/open-source/' | relative_url }})
@@ -143,14 +143,14 @@ maintain even when the underlying method remains compute-heavy.
 
 ## Optimization and Decision Systems
 
-[Dan Becker]({{ '/people/danbecker/' | relative_url }}) doesn't focus on
+[Dan Becker](https://datatalks.club/people/danbecker.html) doesn't focus on
 evolutionary algorithms in his decision-optimization episode, but his framing
 helps set the boundary around optimization work. He argues that a model's
 `.predict` answers "what will happen," while a decision function answers "what
 should I do about it." His examples include airline pricing and fraud review
 thresholds. He also discusses business rules that combine predicted
 probabilities with value or cost
-([Optimize Decisions with ML]({{ '/podcasts/machine-learning-decision-optimization/' | relative_url }}),
+([Optimize Decisions with ML](https://datatalks.club/podcast/machine-learning-decision-optimization.html),
 5:11-18:52, 21:06-25:00).
 
 Lanham's examples sit on Becker's boundary. Evolutionary search can propose or
@@ -159,15 +159,15 @@ evaluation target. Becker makes the same point from the decision side. Teams
 often need to simulate different decision rules and propagate outcomes over
 time. They also need domain knowledge rather than a supervised model that tries
 to optimize the whole business objective
-([Optimize Decisions with ML]({{ '/podcasts/machine-learning-decision-optimization/' | relative_url }}),
+([Optimize Decisions with ML](https://datatalks.club/podcast/machine-learning-decision-optimization.html),
 19:19-31:53).
 
-[Adam Sroka]({{ '/people/adamsroka/' | relative_url }}) gives a cautionary
+[Adam Sroka](https://datatalks.club/people/adamsroka.html) gives a cautionary
 engineering example from laser-system design. He says he started with genetic
 algorithms, then tried simple [reinforcement learning]({{ '/wiki/reinforcement-learning/' | relative_url }})
 around 2014. The search produced interesting ideas. Some were impractical to
 manufacture because the problem was poorly formulated outside the simulation
-([KPI Design and Metrics Strategy]({{ '/podcasts/ml-engineering-kpis-and-metrics-strategy/' | relative_url }}),
+([KPI Design and Metrics Strategy](https://datatalks.club/podcast/ml-engineering-kpis-and-metrics-strategy.html),
 5:00-5:15).
 
 Search methods can optimize the wrong target when the simulator leaves out
@@ -181,7 +181,7 @@ Lanham's episode also links evolutionary thinking to current
 agents through minimal task decomposition first. He then distinguishes
 sequential flows from manager-agent orchestration and collaborative multi-agent
 designs
-([From Game AI to LLM Agents]({{ '/podcasts/from-game-ai-to-modern-ai-agents/' | relative_url }}),
+([From Game AI to LLM Agents](https://datatalks.club/podcast/from-game-ai-to-modern-ai-agents.html),
 20:57-31:17). At 27:45, he compares collaborative agents that iterate and
 refine solutions to evolutionary algorithms.
 
@@ -192,6 +192,6 @@ when agents generate candidate outputs, exchange feedback, and refine a result.
 
 Lanham applies that comparison to complex problems. In those problems, the
 input and desired output are known but the path is detailed
-([From Game AI to LLM Agents]({{ '/podcasts/from-game-ai-to-modern-ai-agents/' | relative_url }}),
+([From Game AI to LLM Agents](https://datatalks.club/podcast/from-game-ai-to-modern-ai-agents.html),
 26:25-29:35). Teams still need a scoring target, a stopping rule, and a compute
 budget.

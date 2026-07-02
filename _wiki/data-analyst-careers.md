@@ -24,7 +24,7 @@ The career question is how people enter the role, show evidence, and grow from
 it.
 
 At 7:51-10:39 in
-[Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }}),
+[Data Team Roles Explained](https://datatalks.club/podcast/data-team-roles.html),
 analysts are framed as people who know company data and build dashboards. They
 define KPIs and quantify product problems. Analysts also check whether shipped
 work changed user behavior.
@@ -35,8 +35,8 @@ learn how data maps to product and operations. They also learn how data maps to
 growth, finance, and customer decisions.
 
 In
-[Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }}),
-[Alicja Notowska]({{ '/people/alicjanotowska/' | relative_url }}) says around
+[Hiring Data Scientists and Analysts](https://datatalks.club/podcast/hiring-data-scientists-and-analysts.html),
+[Alicja Notowska](https://datatalks.club/people/alicjanotowska.html) says around
 54:09-59:30 that companies use "data analyst" for BI reporting and business
 analysis. They also use it for product analytics or light data science.
 Candidates need to read the responsibilities, not only the title. Those role
@@ -54,8 +54,8 @@ the work visible. The route differs by background, but the evidence needs to
 show analysis, communication, and a decision.
 
 In
-[How to Break into Data Analytics]({{ '/podcasts/from-math-graduate-to-data-analytics/' | relative_url }}),
-[Juan Pablo]({{ '/people/juanpablo/' | relative_url }}) describes a practical
+[How to Break into Data Analytics](https://datatalks.club/podcast/from-math-graduate-to-data-analytics.html),
+[Juan Pablo](https://datatalks.club/people/juanpablo.html) describes a practical
 route from math graduate to analytics roles. Around 8:24, he talks about
 discovering SQL after earlier work with biostatistics, R, and SAS. Around
 24:23-28:19, he turns portfolio work into a career asset through exploratory
@@ -63,9 +63,9 @@ analysis and visualizations. He also uses basic ML projects and public
 presentation. Around 49:34, he narrows interview prep to SQL, Python, and
 visualization rather than a tool list with no order.
 
-[Ksenia Legostay]({{ '/people/ksenialegostay/' | relative_url }}) gives another
+[Ksenia Legostay](https://datatalks.club/people/ksenialegostay.html) gives another
 entry route in
-[From Project Manager to Data Scientist]({{ '/podcasts/project-manager-to-data-scientist/' | relative_url }}).
+[From Project Manager to Data Scientist](https://datatalks.club/podcast/project-manager-to-data-scientist.html).
 Around 22:32, she connects project management experience to stakeholder
 communication and business KPIs. Around 32:43-36:47, she recommends starting
 with analysis inside work you already understand. She then moves through
@@ -75,9 +75,9 @@ for
 because an internal business problem can become stronger evidence than a
 standalone certificate.
 
-[Eddy Zulkifly]({{ '/people/eddyzulkifly/' | relative_url }}) shows the same
+[Eddy Zulkifly](https://datatalks.club/people/eddyzulkifly.html) shows the same
 route from a later career stage in
-[FinOps for Data Engineers]({{ '/podcasts/finops-for-data-engineers/' | relative_url }}).
+[FinOps for Data Engineers](https://datatalks.club/podcast/finops-for-data-engineers.html).
 Around 2:14-8:18, he describes moving from industrial engineering and supply
 chain work through Excel macros and business analyst work. He then used Tableau
 and Alteryx. At 7:48, he says analyst skills helped him move toward data
@@ -109,9 +109,9 @@ or
 
 ## Skill Stack
 
-[Rishabh Bhargava]({{ '/people/rishabhbhargava/' | relative_url }}) puts the
+[Rishabh Bhargava](https://datatalks.club/people/rishabhbhargava.html) puts the
 role boundary in team context in
-[From Analytics to Production ML]({{ '/podcasts/production-ml-mlops-and-data-team-building/' | relative_url }}).
+[From Analytics to Production ML](https://datatalks.club/podcast/production-ml-mlops-and-data-team-building.html).
 Around 18:39-24:23, analysts own dashboards, reports, and ad hoc SQL. They also
 own recommendations around 18:39-24:23. Around 24:23, he emphasizes that
 analysts often know where the data lives because they work with the tables every
@@ -129,8 +129,8 @@ when the work moves from one-off queries to tested models.
 Visualization and dashboarding matter because analysts communicate evidence.
 At 7:51-10:39 in the role discussion, dashboards connect to KPIs and product
 decisions. In
-[How to Build a Data-Led Growth Stack]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }})
-with [Arpit Choudhury]({{ '/people/arpitchoudhury/' | relative_url }}), the
+[How to Build a Data-Led Growth Stack](https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html)
+with [Arpit Choudhury](https://datatalks.club/people/arpitchoudhury.html), the
 product analytics side appears. Around 22:50-30:03, he walks through
 collection, storage, and analysis. He then connects analysis to activation.
 
@@ -184,7 +184,7 @@ are aiming for an analyst job without a previous analyst title, especially in
 ## Hiring Signals
 
 Hiring evidence needs to match the role's real scope. In
-[Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }}),
+[Hiring Data Scientists and Analysts](https://datatalks.club/podcast/hiring-data-scientists-and-analysts.html),
 Alicja explains the screening funnel around 4:44-11:34. She then discusses job
 specs and hiring-manager collaboration around 7:09-18:28.
 

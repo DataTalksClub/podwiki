@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Dave Bechberger]({ '/people/davebechberger/' | relative_url }), [Josh Perryman]({ '/people/Josh Perryman/' | relative_url }).
+[Dave Bechberger](https://datatalks.club/people/davebechberger.html), [Josh Perryman](https://datatalks.club/people/Josh Perryman.html).
 
 ## Discussion Archive
 

@@ -31,12 +31,12 @@ stage. They also protect learning time, create feedback loops, and judge
 whether the work changed a real decision.
 
 In
-[Data Science Manager vs Expert]({{ '/podcasts/data-science-manager-vs-expert-hiring-guide/' | relative_url }}),
-[Barbara Sobkowiak]({{ '/people/barbarasobkowiak/' | relative_url }}) separates
+[Data Science Manager vs Expert](https://datatalks.club/podcast/data-science-manager-vs-expert-hiring-guide.html),
+[Barbara Sobkowiak](https://datatalks.club/people/barbarasobkowiak.html) separates
 managerial work from deep expert work. The manager owns strategy, stakeholder
 communication, and team development. They also own feasibility checks and
 impact judgment
-([8:22-17:34 and 40:47-53:57]({{ '/podcasts/data-science-manager-vs-expert-hiring-guide/' | relative_url }})).
+([8:22-17:34 and 40:47-53:57](https://datatalks.club/podcast/data-science-manager-vs-expert-hiring-guide.html)).
 
 ## Managerial Scope
 
@@ -46,14 +46,14 @@ Sobkowiak describes a manager who can review direction, understand tradeoffs,
 allocate resources, and translate between business stakeholders and technical
 experts. She contrasts that with the data science expert, who brings deep
 technical and domain expertise for complex model work
-([12:02-28:48]({{ '/podcasts/data-science-manager-vs-expert-hiring-guide/' | relative_url }})).
+([12:02-28:48](https://datatalks.club/podcast/data-science-manager-vs-expert-hiring-guide.html)).
 
 That split matters for role design. A company with an execution bottleneck may
 need a manager who can build the team, negotiate scope, and coordinate client
 or stakeholder needs. A company with a hard modeling bottleneck may need an
 expert. Sobkowiak warns that hiring an expert as a manager can fail when the
 real gap is team development or business translation
-([30:37-34:04]({{ '/podcasts/data-science-manager-vs-expert-hiring-guide/' | relative_url }})).
+([30:37-34:04](https://datatalks.club/podcast/data-science-manager-vs-expert-hiring-guide.html)).
 For a broader role map, use [Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }}),
 [Machine Learning Engineer Role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }}),
 and [Machine Learning Engineer vs Data Scientist]({{ '/wiki/machine-learning-engineer-vs-data-scientist/' | relative_url }}).
@@ -61,23 +61,23 @@ and [Machine Learning Engineer vs Data Scientist]({{ '/wiki/machine-learning-eng
 ## Hiring for the Team's Stage
 
 Managers should hire for the work the team can actually absorb. In
-[How to Build and Scale ML Teams]({{ '/podcasts/building-data-team/' | relative_url }}),
-[Dat Tran]({{ '/people/dattran/' | relative_url }}) argues that early startups
+[How to Build and Scale ML Teams](https://datatalks.club/podcast/building-data-team.html),
+[Dat Tran](https://datatalks.club/people/dattran.html) argues that early startups
 often need T-shaped generalists. Prototype and MVP uncertainty make narrow
 specialization premature. Feature uncertainty creates the same pressure.
 
 As the product and operating model mature, the team may hire ML engineers and
 data engineers. It may also add product managers or designers
-([28:57-33:35]({{ '/podcasts/building-data-team/' | relative_url }})).
+([28:57-33:35](https://datatalks.club/podcast/building-data-team.html)).
 
-[Katie Bauer]({{ '/people/katiebauer/' | relative_url }}) gives the scale-up
+[Katie Bauer](https://datatalks.club/people/katiebauer.html) gives the scale-up
 version in her
-[B2B SaaS data team episode]({{ '/podcasts/hiring-and-managing-data-science-teams-in-b2b-saas/' | relative_url }}).
+[B2B SaaS data team episode](https://datatalks.club/podcast/hiring-and-managing-data-science-teams-in-b2b-saas.html).
 Her team hires across product analysis, analytics engineering, and marketing
 science. Managers preserve craft quality through maintainable analytics,
 documentation, and peer review. They also preserve craft through mentorship and
 career frameworks
-([6:22-15:12]({{ '/podcasts/hiring-and-managing-data-science-teams-in-b2b-saas/' | relative_url }})).
+([6:22-15:12](https://datatalks.club/podcast/hiring-and-managing-data-science-teams-in-b2b-saas.html)).
 
 These role boundaries are close to
 [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
@@ -87,12 +87,12 @@ They may instead need someone to engineer data assets or support product
 decisions.
 
 Recruiting also needs market reality. In
-[Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }}),
-[Alicja Notowska]({{ '/people/alicjanotowska/' | relative_url }}) describes how
+[Hiring Data Scientists and Analysts](https://datatalks.club/podcast/hiring-data-scientists-and-analysts.html),
+[Alicja Notowska](https://datatalks.club/people/alicjanotowska.html) describes how
 recruiters collaborate with hiring managers on job specifications. They manage
 expectations with market data and screen for actual responsibilities rather than
 buzzwords
-([7:09-21:32]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }})).
+([7:09-21:32](https://datatalks.club/podcast/hiring-data-scientists-and-analysts.html)).
 Managers should therefore write job descriptions around problems, ownership,
 and success criteria rather than a long list of tools. See
 [Job Descriptions]({{ '/wiki/job-descriptions/' | relative_url }}),
@@ -108,23 +108,23 @@ Sobkowiak makes this
 explicit in her client discovery and feasibility discussion. Teams should check
 data availability, define success metrics, compare against baselines, and ask
 whether machine learning is necessary
-([50:12-53:57]({{ '/podcasts/data-science-manager-vs-expert-hiring-guide/' | relative_url }})).
+([50:12-53:57](https://datatalks.club/podcast/data-science-manager-vs-expert-hiring-guide.html)).
 
-[Shir Meir Lador]({{ '/people/shirmeirlador/' | relative_url }}) adds a delivery
+[Shir Meir Lador](https://datatalks.club/people/shirmeirlador.html) adds a delivery
 approach in
-[Data Science Management and Agile Machine Learning]({{ '/podcasts/data-science-management-and-agile-machine-learning/' | relative_url }}).
+[Data Science Management and Agile Machine Learning](https://datatalks.club/podcast/data-science-management-and-agile-machine-learning.html).
 She treats AI project uncertainty as a management problem. Data risks and
 unknowns become exploration tasks, design stories, and iterative milestones
 rather than fixed promises copied from ordinary software delivery
-([41:06-45:36]({{ '/podcasts/data-science-management-and-agile-machine-learning/' | relative_url }})).
+([41:06-45:36](https://datatalks.club/podcast/data-science-management-and-agile-machine-learning.html)).
 
 Business-facing managers often need to decide what's good enough.
-[Ben Wilson]({{ '/people/benwilson/' | relative_url }}) argues in
-[Practical Machine Learning Engineering for Production]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }})
+[Ben Wilson](https://datatalks.club/people/benwilson.html) argues in
+[Practical Machine Learning Engineering for Production](https://datatalks.club/podcast/machine-learning-engineering-production-best-practices.html)
 for timeboxed experiments and simple baselines. He also argues for
 subject-matter input and maintainable solutions before the team chooses complex
 methods
-([21:39-32:03 and 44:23-55:41]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }})).
+([21:39-32:03 and 44:23-55:41](https://datatalks.club/podcast/machine-learning-engineering-production-best-practices.html)).
 Those habits link manager scoping to
 [Machine Learning for Business]({{ '/wiki/machine-learning-for-business/' | relative_url }}),
 [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }}),
@@ -138,14 +138,14 @@ management. She also covers goal alignment and leadership relationships. Her
 group-manager discussion
 ties strategy and standards to team engagement. It also includes one-on-ones,
 feedback, and recognition
-([5:24-26:25]({{ '/podcasts/data-science-management-and-agile-machine-learning/' | relative_url }})).
+([5:24-26:25](https://datatalks.club/podcast/data-science-management-and-agile-machine-learning.html)).
 
 Bauer gives a practical support system for junior and senior data people. She
 uses project-based learning, regular check-ins, proactive communication, and
 asynchronous help channels. She also tells managers to expose people to
 stakeholder conversations and leadership context instead of narrowing them too
 early
-([30:10-40:12 and 52:43-56:20]({{ '/podcasts/hiring-and-managing-data-science-teams-in-b2b-saas/' | relative_url }})).
+([30:10-40:12 and 52:43-56:20](https://datatalks.club/podcast/hiring-and-managing-data-science-teams-in-b2b-saas.html)).
 This places management close to
 [Business Skills for Data Professionals]({{ '/wiki/business-skills-for-data-professionals/' | relative_url }}),
 [Leadership]({{ '/wiki/leadership/' | relative_url }}), and
@@ -155,7 +155,7 @@ Managers also support teams by creating enough engineering discipline for work
 to survive outside the first notebook. Wilson's production ML discussion
 emphasizes modular code, refactoring, explainability for business users, and
 maintainability over novelty
-([6:50-10:35 and 26:04-29:06]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }})).
+([6:50-10:35 and 26:04-29:06](https://datatalks.club/podcast/machine-learning-engineering-production-best-practices.html)).
 That support isn't micromanagement because it gives data scientists, analysts,
 and ML engineers the environment to produce work other teams can trust.
 
@@ -166,13 +166,13 @@ production reliability. Meir Lador names business impact and team engagement
 metrics early in her management discussion. Later, she moves from POC to
 production through customer-focused metrics, A/B testing, and incremental
 delivery
-([11:53-17:23 and 54:59]({{ '/podcasts/data-science-management-and-agile-machine-learning/' | relative_url }})).
+([11:53-17:23 and 54:59](https://datatalks.club/podcast/data-science-management-and-agile-machine-learning.html)).
 
 Sobkowiak gives a similar measurement view from a manager's seat. She mentions
 client feedback, KPIs, and model monitoring as ways to judge impact. She then
 returns to discovery, baselines, data availability, and success metrics as the
 inputs that make later evaluation meaningful
-([46:14-53:57]({{ '/podcasts/data-science-manager-vs-expert-hiring-guide/' | relative_url }})).
+([46:14-53:57](https://datatalks.club/podcast/data-science-manager-vs-expert-hiring-guide.html)).
 Managers should connect these questions to [Evaluation]({{ '/wiki/evaluation/' | relative_url }}),
 [Metrics]({{ '/wiki/metrics/' | relative_url }}),
 [A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }}), and
@@ -181,7 +181,7 @@ Managers should connect these questions to [Evaluation]({{ '/wiki/evaluation/' |
 Evaluation should also include adoption and maintainability. Wilson warns that
 production failures often come from weak business buy-in or overcomplicated
 solutions, not only from poor model scores
-([10:35-13:19]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }})).
+([10:35-13:19](https://datatalks.club/podcast/machine-learning-engineering-production-best-practices.html)).
 A manager should check whether a stakeholder understands the output. They should
 also check whether the team can operate it and whether costs are justified. A
 simpler method may have solved the decision.
@@ -205,15 +205,15 @@ specialist in the room:
 - Measure business impact, adoption, maintainability, and model or data health
   after release.
 
-[Tran]({{ '/people/dattran/' | relative_url }}) covers startup hiring, and
-[Bauer]({{ '/people/katiebauer/' | relative_url }}) covers B2B SaaS team
+[Tran](https://datatalks.club/people/dattran.html) covers startup hiring, and
+[Bauer](https://datatalks.club/people/katiebauer.html) covers B2B SaaS team
 practices.
-[Sobkowiak]({{ '/people/barbarasobkowiak/' | relative_url }}) separates the
+[Sobkowiak](https://datatalks.club/people/barbarasobkowiak.html) separates the
 manager role from the expert role, while
-[Meir Lador]({{ '/people/shirmeirlador/' | relative_url }}) covers agile ML
+[Meir Lador](https://datatalks.club/people/shirmeirlador.html) covers agile ML
 management.
-[Notowska]({{ '/people/alicjanotowska/' | relative_url }}) covers recruiting,
-and [Wilson]({{ '/people/benwilson/' | relative_url }}) covers production
+[Notowska](https://datatalks.club/people/alicjanotowska.html) covers recruiting,
+and [Wilson](https://datatalks.club/people/benwilson.html) covers production
 pragmatism. Together, their episodes tell managers to make the problem clear
 and hire for the bottleneck. Managers also need to protect learning loops and
 evaluate the work by the decision it improves.

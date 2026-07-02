@@ -15,7 +15,7 @@ Andreas Kretz describes himself in the source bio as a data engineer and "plumbe
 
 ## Podcast Contributions
 
-- [From Notebooks to Production]({{ '/podcasts/production-ml-pipelines-with-aws-and-kafka/' | relative_url }}) contributes data pipeline and deployment guidance for production ML using AWS, Kafka, streaming, and platform engineering practices.
+- [From Notebooks to Production](https://datatalks.club/podcast/production-ml-pipelines-with-aws-and-kafka.html) contributes data pipeline and deployment guidance for production ML using AWS, Kafka, streaming, and platform engineering practices.
 
 ## Concepts Connected
 
@@ -30,4 +30,4 @@ Andreas Kretz describes himself in the source bio as a data engineer and "plumbe
 
 ## Podcast Discussions
 
-- [From Notebooks to Production: Build Data Pipelines & Deploy ML (AWS, Kafka, Streaming)]({{ '/podcasts/production-ml-pipelines-with-aws-and-kafka/' | relative_url }}). Related topics: [data engineering]({{ '/wiki/data-engineering/' | relative_url }}), [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [production]({{ '/wiki/production/' | relative_url }}), [tools]({{ '/wiki/tools/' | relative_url }}).
+- [From Notebooks to Production: Build Data Pipelines & Deploy ML (AWS, Kafka, Streaming)](https://datatalks.club/podcast/production-ml-pipelines-with-aws-and-kafka.html). Related topics: [data engineering]({{ '/wiki/data-engineering/' | relative_url }}), [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [production]({{ '/wiki/production/' | relative_url }}), [tools]({{ '/wiki/tools/' | relative_url }}).

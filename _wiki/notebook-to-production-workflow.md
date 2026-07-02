@@ -37,9 +37,9 @@ and [MLOps]({{ '/wiki/mlops/' | relative_url }}). For LLM and RAG systems, use
 the [LLM and RAG Production Roadmap]({{ '/wiki/llm-rag-production-roadmap/' | relative_url }})
 alongside this sequence.
 
-[Mariano Semelman]({{ '/people/marianosemelman/' | relative_url }}) frames the
+[Mariano Semelman](https://datatalks.club/people/marianosemelman.html) frames the
 transition in
-[From Notebook to Production]({{ '/podcasts/s24e03-from-notebook-to-production-building-end-to-end-ai-systems/' | relative_url }})
+[From Notebook to Production](https://datatalks.club/podcast/s24e03-from-notebook-to-production-building-end-to-end-ai-systems.html)
 as end-to-end ownership. Around 17:27-21:12, he maps modern AI work back to
 CRISP-DM. Teams still need business understanding, data understanding, and
 preparation. They also need modeling, evaluation, and deployment. Use the
@@ -53,15 +53,15 @@ need a review queue, retrieval answer, or product action instead.
 
 Mariano uses business-to-ML translation to draw that boundary.
 Around 31:42-37:39 in
-[From Notebook to Production]({{ '/podcasts/s24e03-from-notebook-to-production-building-end-to-end-ai-systems/' | relative_url }}),
+[From Notebook to Production](https://datatalks.club/podcast/s24e03-from-notebook-to-production-building-end-to-end-ai-systems.html),
 he argues that teams sometimes need a decision or workflow rather than a model
 call. Keep [AI Engineering]({{ '/wiki/ai-engineering/' | relative_url }}) and
 [Data Products]({{ '/wiki/data-products/' | relative_url }}) close to the
 problem framing. Don't treat deployment as a packaging step.
 
-[Lina Weichbrodt]({{ '/people/linaweichbrodt/' | relative_url }}) gives the
+[Lina Weichbrodt](https://datatalks.club/people/linaweichbrodt.html) gives the
 intake checklist in
-[Human-Centered MLOps]({{ '/podcasts/human-centered-mlops-and-model-monitoring/' | relative_url }}).
+[Human-Centered MLOps](https://datatalks.club/podcast/human-centered-mlops-and-model-monitoring.html).
 Around 4:50-10:26, she starts with the business case and KPIs. She also checks
 alternative solutions and problem specificity before modeling. Around
 12:22-18:29, she adds stakeholder pairing, buy-in, and concern handling. Use
@@ -89,18 +89,18 @@ Move the notebook into a project that another person can run without your
 memory. Keep the notebook if it helps exploration, but move reusable code into
 modules and tests. Add configuration plus scheduled or callable entry points.
 
-[Ben Wilson]({{ '/people/benwilson/' | relative_url }}) gives the maintainable
+[Ben Wilson](https://datatalks.club/people/benwilson.html) gives the maintainable
 code boundary in
-[Practical Machine Learning Engineering for Production]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }}).
+[Practical Machine Learning Engineering for Production](https://datatalks.club/podcast/machine-learning-engineering-production-best-practices.html).
 Around 6:50-13:19, he ties production readiness to maintainability, modular
 components, and testability. He also ties it to stakeholder buy-in and avoiding
 overcomplicated solutions. Around 8:49, he describes refactoring
 notebook-shaped "walls of text" into smaller pieces that someone can test and
 change.
 
-[Mihail Eric]({{ '/people/mihaileric/' | relative_url }}) gives the
+[Mihail Eric](https://datatalks.club/people/mihaileric.html) gives the
 research-to-production version in
-[From Research to Production]({{ '/podcasts/research-to-production-ml-systems-roadmap/' | relative_url }}).
+[From Research to Production](https://datatalks.club/podcast/research-to-production-ml-systems-roadmap.html).
 Around 10:52-17:35, researchers use notebooks, experiment tooling, and
 benchmarks for hypothesis-driven work. Around 17:35-23:32, the ML engineer owns
 the full lifecycle with PyTorch and Docker. They also work with cloud
@@ -153,9 +153,9 @@ Production notebooks fail when the data path lives only in ad hoc cells. Build
 the path from ingestion to training, retrieval, batch scoring, or online
 inference as a pipeline people can look at.
 
-[Andreas Kretz]({{ '/people/andreaskretz/' | relative_url }}) walks through the
+[Andreas Kretz](https://datatalks.club/people/andreaskretz.html) walks through the
 classic production-ML version in
-[From Notebooks to Production]({{ '/podcasts/production-ml-pipelines-with-aws-and-kafka/' | relative_url }}).
+[From Notebooks to Production](https://datatalks.club/podcast/production-ml-pipelines-with-aws-and-kafka.html).
 Around 9:47-25:36, he moves from notebooks into ingestion and buffers. He also
 covers processing, storage, and Docker jobs. Cloud storage such as Parquet on
 S3 is part of that path. SQL or dataframe transformations sit there too.
@@ -184,7 +184,7 @@ only after your workflow needs scheduling, dependencies, retries,
 or backfills.
 
 Andreas makes the orchestration boundary practical around 35:46-41:06 in
-[From Notebooks to Production]({{ '/podcasts/production-ml-pipelines-with-aws-and-kafka/' | relative_url }}).
+[From Notebooks to Production](https://datatalks.club/podcast/production-ml-pipelines-with-aws-and-kafka.html).
 He compares Airflow with simpler schedulers, CloudWatch, and Lambda. He also
 discusses queues and Kubernetes. He then recommends starting simple and
 iterating when the workflow needs more control.
@@ -199,14 +199,14 @@ source changes.
 
 Mariano connects complex AI systems to gold-standard datasets and systematic
 evaluation around 26:32-28:04 in
-[From Notebook to Production]({{ '/podcasts/s24e03-from-notebook-to-production-building-end-to-end-ai-systems/' | relative_url }}).
+[From Notebook to Production](https://datatalks.club/podcast/s24e03-from-notebook-to-production-building-end-to-end-ai-systems.html).
 In the OLX content-generation example, he also discusses prompt engineering and
 LLM-as-judge checks for factuality against the input listing around
 47:22-49:55 and 57:33-58:45.
 
 For classic ML, Ben adds testing alongside timeboxed bake-offs and cost-benefit
 tradeoffs. Around 32:03-55:41 in
-[Practical Machine Learning Engineering for Production]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }}),
+[Practical Machine Learning Engineering for Production](https://datatalks.club/podcast/machine-learning-engineering-production-best-practices.html),
 he pushes teams toward simpler baselines and iterative MVPs. He also emphasizes
 feature engineering and tests before teams invest in harder-to-maintain
 approaches.
@@ -229,9 +229,9 @@ and the
 If the system uses retrieval, test retrieval quality separately from answer
 generation so failures don't hide behind one aggregate score.
 
-[Paul Iusztin]({{ '/people/pauliusztin/' | relative_url }}) adds the
+[Paul Iusztin](https://datatalks.club/people/pauliusztin.html) adds the
 AI-engineering version in
-[Production AI Engineering]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }}).
+[Production AI Engineering](https://datatalks.club/podcast/production-ready-ai-engineering.html).
 His discussion ties data trust, integration tests, prompt evaluation, and cost
 checks to production AI readiness. Use that episode when the notebook contains
 prompts, agents, or model calls that need tests beyond offline accuracy.
@@ -243,7 +243,7 @@ Some systems can precompute predictions or embeddings. Others need an API,
 worker, queue, or batch job. Some need a dashboard or human review interface.
 
 Andreas gives the serving choices in
-[From Notebooks to Production]({{ '/podcasts/production-ml-pipelines-with-aws-and-kafka/' | relative_url }}).
+[From Notebooks to Production](https://datatalks.club/podcast/production-ml-pipelines-with-aws-and-kafka.html).
 Around 31:33, he compares live API calls with precomputed predictions. Around
 34:16, he discusses Dockerized training and model storage. Around 37:53, he
 covers managed endpoints and cost tradeoffs. Around 40:01, message queues
@@ -252,7 +252,7 @@ synchronous request.
 
 Mariano's later AI-system example shows a modern service stack. Around
 55:28-1:02:53 in
-[From Notebook to Production]({{ '/podcasts/s24e03-from-notebook-to-production-building-end-to-end-ai-systems/' | relative_url }}),
+[From Notebook to Production](https://datatalks.club/podcast/s24e03-from-notebook-to-production-building-end-to-end-ai-systems.html),
 he moves away from notebooks toward services and observability tools. In that
 stack discussion, he names FastAPI, `uv`, and Arize.
 
@@ -268,9 +268,9 @@ Keep control boundaries explicit:
 5. Decide whether users see confidence, citations, explanations, or manual
    review states.
 
-[Meryem Arik]({{ '/people/meryemarik/' | relative_url }}) gives the LLM serving
+[Meryem Arik](https://datatalks.club/people/meryemarik.html) gives the LLM serving
 tradeoff in
-[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}).
+[Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html).
 Her discussion compares fine-tuning and retrieval with hosted APIs and
 open-source models. It also covers latency, cost, and drift. Use that framing
 when the notebook result can ship as retrieval, a prompt chain, a tuned model,
@@ -291,7 +291,7 @@ and feedback intake. A notebook ends when the analysis is convincing. A
 production system keeps changing after users see it.
 
 Lina's
-[Human-Centered MLOps]({{ '/podcasts/human-centered-mlops-and-model-monitoring/' | relative_url }})
+[Human-Centered MLOps](https://datatalks.club/podcast/human-centered-mlops-and-model-monitoring.html)
 episode gives the release operating model. Around 24:34-32:11, she discusses
 service levels and impact assessment before incident response and postmortems.
 Her operating model also includes live test sets, small A/B tests, and
@@ -303,7 +303,7 @@ distribution changes and feature drift. She also covers logging, feature stores,
 and reproducibility.
 
 Mariano adds the AI-product feedback path around 39:28-41:28 in
-[From Notebook to Production]({{ '/podcasts/s24e03-from-notebook-to-production-building-end-to-end-ai-systems/' | relative_url }}).
+[From Notebook to Production](https://datatalks.club/podcast/s24e03-from-notebook-to-production-building-end-to-end-ai-systems.html).
 Users may give explicit feedback, or their behavior may show whether the output
 helped. Capture both paths when they're available.
 

@@ -15,7 +15,7 @@ decision should follow. In DataTalks.Club discussions, the technical base is
 SQL and dashboards. The decision work uses metrics, product context, experiment
 analysis, and clear communication with people who own decisions.
 
-In [Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }}),
+In [Data Team Roles Explained](https://datatalks.club/podcast/data-team-roles.html),
 the analyst knows what company data exists and how to retrieve it. The analyst
 builds dashboards and defines KPIs. The analyst also quantifies product
 problems and checks whether a shipped feature improved user behavior around
@@ -26,8 +26,8 @@ analyst connects data to a product, operational, or business decision.
 
 Across these discussions, a data analyst turns company data into reusable
 evidence for decisions. In
-[From Analytics to Production ML]({{ '/podcasts/production-ml-mlops-and-data-team-building/' | relative_url }}),
-[Rishabh Bhargava]({{ '/people/rishabhbhargava/' | relative_url }}) describes
+[From Analytics to Production ML](https://datatalks.club/podcast/production-ml-mlops-and-data-team-building.html),
+[Rishabh Bhargava](https://datatalks.club/people/rishabhbhargava.html) describes
 analysts as people who build dashboards and reports around 18:39-24:23. They
 also run ad hoc queries, make recommendations, and support product teams. At
 24:23, he adds a practical detail for real teams. Analysts often know where the
@@ -36,8 +36,8 @@ day.
 
 The role is especially visible in
 [product analytics]({{ '/wiki/product-analytics/' | relative_url }}).
-[Arpit Choudhury]({{ '/people/arpitchoudhury/' | relative_url }}) explains the
-growth data flow in [How to Build a Data-Led Growth Stack]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }})
+[Arpit Choudhury](https://datatalks.club/people/arpitchoudhury.html) explains the
+growth data flow in [How to Build a Data-Led Growth Stack](https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html)
 from collection to storage around 22:50-30:03. He then connects storage to
 analysis and activation. That places analysts between source events and
 downstream activation.
@@ -51,19 +51,19 @@ split shows why analysts need both source awareness and stakeholder context.
 Guests agree that analysts work with metrics and decisions, but they draw the
 role boundary differently.
 
-In [Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }}),
+In [Data Team Roles Explained](https://datatalks.club/podcast/data-team-roles.html),
 the analyst sits close to the product manager. The product manager owns the
 product direction. The analyst quantifies the problem and helps decide whether
 the work deserves team time. In
-[From Analytics to Production ML]({{ '/podcasts/production-ml-mlops-and-data-team-building/' | relative_url }}),
+[From Analytics to Production ML](https://datatalks.club/podcast/production-ml-mlops-and-data-team-building.html),
 Rishabh extends the boundary toward experimentation. Around 31:19-33:30, he
 describes analysts helping explain uplift, segment differences, and root causes
 when online experiment results differ from model expectations.
 
 Recruiting discussions show a different source of disagreement: the title is
 unstable. In
-[Hiring Data Scientists and Analysts]({{ '/podcasts/hiring-data-scientists-and-analysts/' | relative_url }}),
-[Alicja Notowska]({{ '/people/alicjanotowska/' | relative_url }}) discusses
+[Hiring Data Scientists and Analysts](https://datatalks.club/podcast/hiring-data-scientists-and-analysts.html),
+[Alicja Notowska](https://datatalks.club/people/alicjanotowska.html) discusses
 data analyst hiring around 54:09-59:30 and treats title ambiguity as a real
 hiring problem. A job called "data analyst" may mean BI reporting or product
 analytics. It can also mean light data science or business analysis. The
@@ -71,13 +71,13 @@ responsibilities matter more than the title.
 
 Analytics engineering guests move part of the old analyst workload into a more
 engineered role. In
-[Master Analytics Engineering]({{ '/podcasts/analytics-engineer-skills-tools/' | relative_url }}),
-[Victoria Perez Mola]({{ '/people/victoriaperezmola/' | relative_url }})
+[Master Analytics Engineering](https://datatalks.club/podcast/analytics-engineer-skills-tools.html),
+[Victoria Perez Mola](https://datatalks.club/people/victoriaperezmola.html)
 contrasts analytics engineering with data analyst work around 14:34. She also
 compares it with data engineering and links the role to reducing analysts'
 cleaning workload around 16:54. In
-[Marketing to Analytics Engineering]({{ '/podcasts/from-marketing-to-analytics-engineering-sql-dbt-career-switch/' | relative_url }}),
-[Nikola Maksimovic]({{ '/people/nikolamaksimovic/' | relative_url }}) describes
+[Marketing to Analytics Engineering](https://datatalks.club/podcast/from-marketing-to-analytics-engineering-sql-dbt-career-switch.html),
+[Nikola Maksimovic](https://datatalks.club/people/nikolamaksimovic.html) describes
 an overlap between data analyst and analytics engineer work around 25:06. That
 overlap appears when dashboard logic, metric definitions, and transformation
 code need stronger ownership.
@@ -99,7 +99,7 @@ That work can include:
 
 Guests repeatedly show that analysts need to know how a metric is
 created, not only how to plot it. In
-[How to Build a Data-Led Growth Stack]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }}),
+[How to Build a Data-Led Growth Stack](https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html),
 Arpit discusses tracking plans, event properties, and ownership around
 13:34-18:27. He also traces anomaly investigation back to event origins. For an
 analyst, a dashboard number is only useful when the event definition,
@@ -121,8 +121,8 @@ aggregation, and windows. They also need dates, funnels, cohorts, and enough
 data modeling sense to avoid mixing grains.
 
 In
-[Designing FinTech Data Analytics Curriculum]({{ '/podcasts/teaching-mentoring-data-analytics-fintech/' | relative_url }}),
-[Irina Brudaru]({{ '/people/irinabrudaru/' | relative_url }}) names SQL and
+[Designing FinTech Data Analytics Curriculum](https://datatalks.club/podcast/teaching-mentoring-data-analytics-fintech.html),
+[Irina Brudaru](https://datatalks.club/people/irinabrudaru.html) names SQL and
 data visualization as core analyst fundamentals around 58:08. She also includes
 soft skills and product understanding. Around 31:50, she uses cohort analysis
 and retention metrics as examples of product analytics work.
@@ -143,7 +143,7 @@ calculation. See Rishabh on experiment analysis around 31:19 and Irina on
 cohort and retention analysis around 31:50.
 
 Communication is part of the role, not a soft add-on.
-[Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }})
+[Data Team Roles Explained](https://datatalks.club/podcast/data-team-roles.html)
 describes analyst documentation as material for management and decision makers
 around 18:17-19:08. Alicja's hiring episode reinforces this from the candidate
 side: around 28:41-32:40, she emphasizes clear responsibilities, dates, and
@@ -182,7 +182,7 @@ systems. They also own orchestration and platform work. Analysts use those
 systems to interpret the business.
 
 In
-[Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }}),
+[Data Team Roles Explained](https://datatalks.club/podcast/data-team-roles.html),
 data engineers appear after the analyst discussion as the people who make the
 needed data usable around 13:58. Arpit's growth-stack episode gives the
 operating version of the same boundary when teams split tracking, warehousing,

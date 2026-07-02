@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Michael Taylor]({ '/people/michaeltaylor/' | relative_url }), [James Phoenix]({ '/people/jamesphoenix/' | relative_url }).
+[Michael Taylor](https://datatalks.club/people/michaeltaylor.html), [James Phoenix](https://datatalks.club/people/jamesphoenix.html).
 
 ## Discussion Archive
 

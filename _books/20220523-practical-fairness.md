@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Nielsen Aileen]({ '/people/nielsenaileen/' | relative_url }).
+[Nielsen Aileen](https://datatalks.club/people/nielsenaileen.html).
 
 ## Discussion Archive
 

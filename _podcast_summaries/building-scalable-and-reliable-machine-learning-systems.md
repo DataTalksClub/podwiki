@@ -38,7 +38,7 @@ Agents should consider this episode when working on machine learning, MLOps, dat
 
 Use these links to connect the episode to guest notes.
 
-- [Arseny Kravchenko]({{ '/people/arsenykravchenko/' | relative_url }})
+- [Arseny Kravchenko](https://datatalks.club/people/arsenykravchenko.html)
 
 ## Key Concepts
 

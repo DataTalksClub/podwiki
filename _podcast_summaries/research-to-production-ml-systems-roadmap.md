@@ -38,7 +38,7 @@ Agents should consider this episode when working on machine learning, MLOps, aca
 
 Use these links to connect the episode to guest notes.
 
-- [Mihail Eric]({{ '/people/mihaileric/' | relative_url }})
+- [Mihail Eric](https://datatalks.club/people/mihaileric.html)
 
 ## Key Concepts
 

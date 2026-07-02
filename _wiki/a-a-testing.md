@@ -24,9 +24,9 @@ In DataTalks.Club podcast discussions, A/A testing sits between
 whether a feature works. It answers whether the experiment system is trustworthy
 enough to test a feature.
 
-[Jakob Graff]({{ '/people/jakobgraff/' | relative_url }}) gives the clearest
+[Jakob Graff](https://datatalks.club/people/jakobgraff.html) gives the clearest
 definition in
-[Product Analytics and A/B Testing at 27:52]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}).
+[Product Analytics and A/B Testing at 27:52](https://datatalks.club/podcast/ab-testing-and-product-experimentation.html).
 He describes an A/A test as a traffic split where both groups see the exact same
 thing. A planned 50/50 split might become 60/40. One identical group might also
 appear to convert far better than the other. In either case, the team should
@@ -40,7 +40,7 @@ differ and random noise remains. The team should still see balanced assignment,
 comparable metrics, and variation it can explain.
 
 Jakob's experimentation setup gives the practical version. At 24:44 in
-[Product Analytics and A/B Testing]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}),
+[Product Analytics and A/B Testing](https://datatalks.club/podcast/ab-testing-and-product-experimentation.html),
 Jakob says the traffic splitter must randomize on the right unit. Teams may use
 a user ID, session ID, or cookie.
 
@@ -59,7 +59,7 @@ comparison first.
 
 Jakob treats A/A testing as an instrumentation and assignment check, not a
 standalone statistics exercise. In
-[Product Analytics and A/B Testing at 27:52]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}),
+[Product Analytics and A/B Testing at 27:52](https://datatalks.club/podcast/ab-testing-and-product-experimentation.html),
 he says teams should track whether the app calls the traffic splitter at the
 right time. They should also track whether the splitter returns a sensible
 assignment and whether the app receives it properly. If an app defaults offline
@@ -67,9 +67,9 @@ users into Group A, the control group is no longer comparable to the treatment
 group.
 
 The same check applies to third-party and in-house experiment systems. At
-[24:44]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}),
+[24:44](https://datatalks.club/podcast/ab-testing-and-product-experimentation.html),
 Jakob compares external tools with building a traffic splitter with engineers.
-At [30:05]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}),
+At [30:05](https://datatalks.club/podcast/ab-testing-and-product-experimentation.html),
 he describes Babbel seeing 55/45 splits when the team expected 50/50. That
 kind of mismatch should send the team back to the splitter, assignment storage,
 or exposure logging before it reads a product result.
@@ -86,7 +86,7 @@ balanced while still hiding ambiguous exposure logic.
 A/A tests are useful only when the team understands the
 [Metrics]({{ '/wiki/metrics/' | relative_url }}) it checks. Jakob
 distinguishes noisy metrics from stable ones in
-[Product Analytics and A/B Testing at 33:23]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}).
+[Product Analytics and A/B Testing at 33:23](https://datatalks.club/podcast/ab-testing-and-product-experimentation.html).
 
 Revenue per install can jump around, while click-through rate may be easier to
 interpret. If an A/A test shows different conversion rates across identical
@@ -94,7 +94,7 @@ groups, the difference may reveal a bug. It may also reveal a metric that's too
 noisy for a short test or a product surface with strong seasonality.
 
 Jakob's first-test advice at
-[30:05]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }})
+[30:05](https://datatalks.club/podcast/ab-testing-and-product-experimentation.html)
 ties the metric back to the rollout decision. Teams should use one decision
 metric, understand its noise, and avoid strange product logic that makes
 assignment hard to track. Looking at many metrics after the fact makes it
@@ -102,7 +102,7 @@ easier to mistake random A/A variation for a finding.
 
 The p-value explanation later in the same episode uses A/A testing as the
 intuition. At
-[47:44]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}),
+[47:44](https://datatalks.club/podcast/ab-testing-and-product-experimentation.html),
 Jakob explains significance by asking how likely the observed uplift would be
 if both groups had seen the same thing. That framing helps product stakeholders
 understand why a surprising difference can still come from ordinary noise.
@@ -118,7 +118,7 @@ about.
 
 Jakob explains how teams estimate test duration from the metric distribution,
 expected impact, and daily traffic in
-[Product Analytics and A/B Testing at 37:44]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}).
+[Product Analytics and A/B Testing at 37:44](https://datatalks.club/podcast/ab-testing-and-product-experimentation.html).
 A short A/A test can catch obvious assignment failures. It can't prove that
 every later A/B test has enough sample size for a small product effect. It also
 can't make an unstable metric suitable for a high-stakes rollout decision.
@@ -131,9 +131,9 @@ named assignment events, exposure events, and outcome events with clear
 properties and owners. It also needs to know whether an event fires on the
 client side, the server side, or both.
 
-[Arpit Choudhury]({{ '/people/arpitchoudhury/' | relative_url }}) gives the
+[Arpit Choudhury](https://datatalks.club/people/arpitchoudhury.html) gives the
 adjacent tracking-plan evidence in
-[Data-Led Growth, Event Tracking, and Reverse ETL at 13:34]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }}).
+[Data-Led Growth, Event Tracking, and Reverse ETL at 13:34](https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html).
 He recommends documenting events and properties before teams use the data.
 Teams should also record data types, ownership, and the meaning of each event.
 At 18:27, he uses fake signup spikes to show why teams need event origins and
@@ -155,17 +155,17 @@ the no-treatment system already creates unexplained differences, those later
 answers are weak.
 
 Other guests describe the stages that come after the experiment system is
-trusted. [Rishabh Bhargava]({{ '/people/rishabhbhargava/' | relative_url }})
+trusted. [Rishabh Bhargava](https://datatalks.club/people/rishabhbhargava.html)
 connects A/B tests with shadow mode and production ML rollout in
-[From Analytics to Production ML at 28:42]({{ '/podcasts/production-ml-mlops-and-data-team-building/' | relative_url }}).
+[From Analytics to Production ML at 28:42](https://datatalks.club/podcast/production-ml-mlops-and-data-team-building.html).
 At 31:19, the discussion turns to uplift, segments, and root-cause
 investigation. That work assumes the team can trust assignment and metrics
 before analysts explain why one cohort moved more than another.
 
-[Aleksander Molak]({{ '/people/aleksandermolak/' | relative_url }}) places
+[Aleksander Molak](https://datatalks.club/people/aleksandermolak.html) places
 randomized experiments inside a broader
 [causal inference]({{ '/wiki/causal-inference/' | relative_url }}) toolkit in
-[Causal Inference for Machine Learning at 26:16]({{ '/podcasts/causal-inference-for-machine-learning/' | relative_url }}).
+[Causal Inference for Machine Learning at 26:16](https://datatalks.club/podcast/causal-inference-for-machine-learning.html).
 His discussion asks what evidence supports an intervention. Jakob's A/A point
 comes earlier in that chain: first prove that the measurement and assignment
 system can produce a sane null result.

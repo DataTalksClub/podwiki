@@ -12,7 +12,7 @@ expertise: ["MLOps", "ML platform engineering", "production ML", "model governan
 ## Background
 
 Simon Stiebellehner has spent more than half a decade building ML platforms. In
-[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}),
+[Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html),
 he describes moving from research roles into deployment and model serving work.
 He later moved into platform leadership at bol.com and Transaction
 Monitoring Netherlands. He frames [MLOps]({{ '/wiki/mlops/' | relative_url }})
@@ -28,7 +28,7 @@ episode's MLOps definition section, he describes successful operations through
 people, process, and technology. Teams need to understand how they develop
 models and move them into deployment. They also need to know how they
 collaborate once many models run in production
-([Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }})).
+([Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html)).
 
 Readers can use his contribution when they treat [ML platform engineering]({{ '/wiki/ml-platforms/' | relative_url }})
 as adoption work, not just infrastructure work. Simon wants platforms to
@@ -43,7 +43,7 @@ trigger appears when several engineering teams own ML-powered products. If they
 rebuild training, serving, and deployment flows differently, look for the
 reason. Without a strong reason, a platform can standardize repeated work and
 make the business case visible
-([Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }})).
+([Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html)).
 
 He also pushes against the idea that buying SageMaker, Vertex AI, or another
 managed platform removes the platform work. Teams still need to integrate tools,
@@ -64,7 +64,7 @@ He does expect the team to mix cloud
 specialists and software engineers. It should also include people who understand
 experimentation and notebooks. They should know training, evaluation, and
 deployment too
-([Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }})).
+([Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html)).
 
 His staffing discussion connects [leadership]({{ '/wiki/leadership/' | relative_url }})
 with operations. If the platform has availability requirements, the team has to
@@ -78,7 +78,7 @@ Simon starts from the data scientist's workflow. Data scientists pull data into
 notebooks or exploratory compute, then train and evaluate models. They track
 experiments, register models, and serve them through batch inference or online
 APIs
-([Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }})).
+([Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html)).
 
 The platform priorities follow that workflow. Prioritize batch support if most
 models run in batch, and make self-service compute easy. Use a model registry
@@ -98,7 +98,7 @@ paths.
 Simon brings a regulated-finance lens to platform design. In fintech and other
 sensitive settings, security and compliance raise the bar for deployment
 choices. Auditability, explainability, and fairness requirements raise it too
-([Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }})).
+([Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html)).
 He points out that even ecommerce can have sensitive cases such as fraud
 detection. Teams then need to explain why a decision happened and keep enough
 history to audit it.
@@ -121,7 +121,7 @@ projects over only reading books. He names books such as Designing Machine
 Learning Systems and Practical MLOps. His stronger advice is to build small
 projects that exercise real cloud, deployment, tracking, and operations
 decisions
-([Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }})).
+([Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html)).
 That makes his episode a useful companion for the [MLOps roadmap]({{ '/wiki/mlops-roadmap/' | relative_url }})
 and [machine learning engineer role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }})
 pages.

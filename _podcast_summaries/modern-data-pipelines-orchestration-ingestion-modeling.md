@@ -38,7 +38,7 @@ Agents should consider this episode when working on data engineering, MLOps, too
 
 Use these links to connect the episode to guest notes.
 
-- [Santona Tuli]({{ '/people/santonatuli/' | relative_url }})
+- [Santona Tuli](https://datatalks.club/people/santonatuli.html)
 
 ## Key Concepts
 

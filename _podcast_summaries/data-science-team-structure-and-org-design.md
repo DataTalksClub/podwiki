@@ -38,7 +38,7 @@ Agents should consider this episode when working on data science, data teams, le
 
 Use these links to connect the episode to guest notes.
 
-- [Lisa Cohen]({{ '/people/lisacohen/' | relative_url }})
+- [Lisa Cohen](https://datatalks.club/people/lisacohen.html)
 
 ## Key Concepts
 

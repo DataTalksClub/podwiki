@@ -38,7 +38,7 @@ Agents should consider this episode when working on MLOps, tools, data engineeri
 
 Use these links to connect the episode to guest notes.
 
-- [Danny Leybzon]({{ '/people/dannyleybzon/' | relative_url }})
+- [Danny Leybzon](https://datatalks.club/people/dannyleybzon.html)
 
 ## Key Concepts
 

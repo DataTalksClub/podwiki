@@ -18,8 +18,8 @@ That work can improve acquisition and activation. It also supports retention,
 sales, and support.
 
 On DataTalks.Club, the clearest definition comes from
-[Arpit Choudhury]({{ '/people/arpitchoudhury/' | relative_url }}) in
-[How to Build a Data-Led Growth Stack]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }}).
+[Arpit Choudhury](https://datatalks.club/people/arpitchoudhury.html) in
+[How to Build a Data-Led Growth Stack](https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html).
 At 10:45, he defines a data-led professional as someone who knows where data
 comes from and what it looks like. They question its accuracy and use it to
 build data-powered experiences.
@@ -45,9 +45,9 @@ Arpit describes this sequence in the growth-stack episode between 22:50 and
 it in a product analytics or BI tool. Then they send useful segments or
 attributes back into operational tools.
 
-[Lior Barak]({{ '/people/liorbarak/' | relative_url }}) adds the organizational
+[Lior Barak](https://datatalks.club/people/liorbarak.html) adds the organizational
 side in
-[Data Strategist Guide]({{ '/podcasts/data-translator-role-and-data-strategy/' | relative_url }}).
+[Data Strategist Guide](https://datatalks.club/podcast/data-translator-role-and-data-strategy.html).
 At 17:33, he talks about using data to improve recruitment, marketing, and
 operations. At 23:54, he frames delivery as iterative. Teams prove value with
 small working versions before they invest in a larger system.
@@ -69,20 +69,20 @@ experience. They also need to know how the data was collected.
 
 Other guests put more weight on experimentation, stakeholder alignment, or
 analytics foundations. In
-[Product Analytics and A/B Testing]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}),
-[Jakob Graff]({{ '/people/jakobgraff/' | relative_url }}) focuses on causality.
+[Product Analytics and A/B Testing](https://datatalks.club/podcast/ab-testing-and-product-experimentation.html),
+[Jakob Graff](https://datatalks.club/people/jakobgraff.html) focuses on causality.
 Randomization, metric design, A/A tests, and power analysis decide whether an
 observed change should guide a product decision.
 
 In
-[Designing FinTech Data Analytics Curriculum]({{ '/podcasts/teaching-mentoring-data-analytics-fintech/' | relative_url }}),
-[Irina Brudaru]({{ '/people/irinabrudaru/' | relative_url }}) discusses cohort
+[Designing FinTech Data Analytics Curriculum](https://datatalks.club/podcast/teaching-mentoring-data-analytics-fintech.html),
+[Irina Brudaru](https://datatalks.club/people/irinabrudaru.html) discusses cohort
 analysis and retention at 31:50. Teams can use that product analytics method to
 study whether users keep getting value.
 
 In
-[ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
-[Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) explains why
+[ETL vs ELT and the Modern Data Stack](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html),
+[Natalie Kwong](https://datatalks.club/people/nataliekwong.html) explains why
 [ELT]({{ '/wiki/elt/' | relative_url }}) and warehouse layers matter. They give
 analysts flexible access to raw and modeled data, and downstream syncs can push
 that data back into operational tools.

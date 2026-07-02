@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Doug Turnbull]({ '/people/dougturnbull/' | relative_url }), [John Berryman]({ '/people/John Berryman/' | relative_url }).
+[Doug Turnbull](https://datatalks.club/people/dougturnbull.html), [John Berryman](https://datatalks.club/people/John Berryman.html).
 
 ## Discussion Archive
 

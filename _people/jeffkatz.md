@@ -12,7 +12,7 @@ expertise: ["data engineering education", "bootcamp curriculum", "Python", "SQL"
 ## Background
 
 Jeff Katz is a machine learning engineer and educator. In the
-[Data Engineering Career Path]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }})
+[Data Engineering Career Path](https://datatalks.club/podcast/data-engineering-career-path-and-skills.html)
 discussion, he describes moving from law into software engineering, then into
 teaching at Flatiron School and building Jigsaw Labs. His DataTalks.Club
 contribution is mostly about how to turn [data engineering]({{ '/wiki/data-engineering/' | relative_url }})
@@ -22,7 +22,7 @@ from a broad field into a teachable, job-oriented path for junior candidates.
 
 Jeff frames curriculum design as employer validation plus learning design. It
 isn't a list of fashionable tools. Around 9:58 in
-[Data Engineering Career Path]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }}),
+[Data Engineering Career Path](https://datatalks.club/podcast/data-engineering-career-path-and-skills.html),
 he explains that building a course meant checking employer demand and student
 interest. It also meant studying competitor curricula and graduate outcomes
 before writing lessons.
@@ -43,13 +43,13 @@ concepts before they're expected to perform in projects or interviews.
 
 Jeff's strongest recurring claim is that junior data engineering preparation
 should go deep on fundamentals. Around 23:35 in
-[Data Engineering Career Path]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }}),
+[Data Engineering Career Path](https://datatalks.club/podcast/data-engineering-career-path-and-skills.html),
 he names Python and SQL as the center of the defined skill set. Cloud
 fundamentals and orchestration round it out. Around 56:46-59:03, he says the
 Jigsaw Labs course was roughly 85% Python/SQL. Tools were the smaller layer.
 
 That same argument appears in
-[Data Engineering Job Prep]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }}).
+[Data Engineering Job Prep](https://datatalks.club/podcast/get-data-engineering-job-prep-and-interview.html).
 Around 1:20-2:22, Jeff says projects should show hundreds of lines of useful
 [Python]({{ '/wiki/data-engineer-roadmap/' | relative_url }}#stage-1-sql-python-and-modeling)
 and
@@ -67,7 +67,7 @@ let Airflow coordinate it.
 
 For Jeff, a [portfolio project]({{ '/wiki/portfolio-projects/' | relative_url }})
 is hiring evidence only when it looks close to professional work. Around 2:22
-in [Data Engineering Job Prep]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }}),
+in [Data Engineering Job Prep](https://datatalks.club/podcast/get-data-engineering-job-prep-and-interview.html),
 he asks for small functions and useful names. He also asks for tests and
 object-oriented design where appropriate. Around 2:46, he recommends
 open-source work because
@@ -85,7 +85,7 @@ changes, test the work, and explain the data model.
 
 Jeff separates job preparation into a funnel. It starts with LinkedIn and the
 resume, then moves through interview rounds. Around 3:38-8:33 in
-[Data Engineering Job Prep]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }}),
+[Data Engineering Job Prep](https://datatalks.club/podcast/get-data-engineering-job-prep-and-interview.html),
 he recommends making the LinkedIn profile and resume data-engineering specific.
 
 He also recommends practicing behavioral answers with feedback. For technical
@@ -94,13 +94,13 @@ often ask candidates to load, query, and present data.
 
 He also pushes candidates to interview before they feel completely ready. Around
 33:05-35:35 in
-[Data Engineering Career Path]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }}),
+[Data Engineering Career Path](https://datatalks.club/podcast/data-engineering-career-path-and-skills.html),
 he says interviewing is its own skill. Candidates learn from rejections and see
 which SQL or Python gaps matter. That feedback gives them better motivation to
 improve.
 
 Around 15:53-16:23 in
-[Data Engineering Job Prep]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }}),
+[Data Engineering Job Prep](https://datatalks.club/podcast/get-data-engineering-job-prep-and-interview.html),
 he reinforces a practical [job search]({{ '/wiki/job-search/' | relative_url }})
 rule. Job descriptions describe an ideal candidate, so applicants shouldn't
 self-filter out before employers evaluate them.
@@ -109,16 +109,16 @@ self-filter out before employers evaluate them.
 
 Jeff's career advice is pragmatic for people entering data engineering from
 other roles. Around 40:42-41:41 in
-[Data Engineering Career Path]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }}),
+[Data Engineering Career Path](https://datatalks.club/podcast/data-engineering-career-path-and-skills.html),
 he says analysts moving toward data engineering should fill backend engineering
 and cloud gaps. Python is especially important, along with modular SQL and
 dbt-style patterns. Around 14:11-15:38 in
-[Data Engineering Job Prep]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }}),
+[Data Engineering Job Prep](https://datatalks.club/podcast/get-data-engineering-job-prep-and-interview.html),
 he suggests making a current BI or analytics job more technical while applying.
 Candidates don't need to wait for a perfect moment.
 
 He's also careful about credentials. Around 21:56-23:46 in
-[Data Engineering Job Prep]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }}),
+[Data Engineering Job Prep](https://datatalks.club/podcast/get-data-engineering-job-prep-and-interview.html),
 he says certificates matter less than applied skill. Candidates need to show
 they can contribute to an ETL project, work with GitHub, and use Python and SQL.
 Around 39:49-42:55, he treats nonprofit work and open-source contribution as

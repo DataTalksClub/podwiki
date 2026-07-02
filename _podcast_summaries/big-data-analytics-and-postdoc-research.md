@@ -38,7 +38,7 @@ Agents should consider this episode when working on academia, big data analytics
 
 Use these links to connect the episode to guest notes.
 
-- [Eleni Tzirita Zacharatou]({{ '/people/elenitziritazacharatou/' | relative_url }})
+- [Eleni Tzirita Zacharatou](https://datatalks.club/people/elenitziritazacharatou.html)
 
 ## Key Concepts
 

@@ -35,18 +35,18 @@ It also supports knowledge workflows.
 ## Retrieval and Ranking
 
 Search starts by retrieving candidate items, ranking them, and measuring
-whether the result helped the person or downstream system. [Relevant Search]({{ '/books/20210712-relevant-search/' | relative_url }}) by Doug Turnbull and John Berryman covers the relevance engineering discipline of scoring, ranking, and tuning from the Solr/Elasticsearch era, while [AI-Powered Search]({{ '/books/20211101-ai-powered-search/' | relative_url }}) by Trey Grainger, Doug Turnbull, and Max Irwin extends the same discipline into learning-to-rank, vector, and LLM-era retrieval. In
-[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}),
-[Daniel Svonava]({{ '/people/danielsvonava/' | relative_url }}) frames search
+whether the result helped the person or downstream system. [Relevant Search](https://datatalks.club/books/20210712-relevant-search.html) by Doug Turnbull and John Berryman covers the relevance engineering discipline of scoring, ranking, and tuning from the Solr/Elasticsearch era, while [AI-Powered Search](https://datatalks.club/books/20211101-ai-powered-search.html) by Trey Grainger, Doug Turnbull, and Max Irwin extends the same discipline into learning-to-rank, vector, and LLM-era retrieval. In
+[Building Search Systems](https://datatalks.club/podcast/building-production-search-systems.html),
+[Daniel Svonava](https://datatalks.club/people/danielsvonava.html) frames search
 as an information-retrieval decision problem around 6:20. Around 12:45, he
 separates candidate generation from ranking. A system can retrieve plausible
 results and still rank them badly, so
 [production search evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }})
 has to evaluate both stages.
 
-[Atita Arora]({{ '/people/atitaarora/' | relative_url }}) bridges classical
+[Atita Arora](https://datatalks.club/people/atitaarora.html) bridges classical
 search and LLM-era retrieval in
-[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}).
+[Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html).
 At 4:42 and 9:18, she starts with Solr, Lucene, and NLP-based query matching.
 At 17:01 and 20:27, she moves to vector databases and migration choices. At
 30:38, she makes search the retrieval side of RAG. RAG adds generation,
@@ -54,13 +54,13 @@ citations, and answer evaluation, but the first failure mode is still
 retrieval because the system may not find the right evidence.
 
 Daniel emphasizes product relevance in
-[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}).
+[Building Search Systems](https://datatalks.club/podcast/building-production-search-systems.html).
 Around 11:29-17:40, he moves from inverted indexes and Lucene to dense
 representations and hybrid search. He then adds recency, business rules, and
 [A/B testing]({{ '/wiki/a-b-testing/' | relative_url }}).
 
 Atita emphasizes architecture choices at 20:27 in
-[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}),
+[Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html),
 where she compares vectors inside an existing search stack with a standalone
 vector database. Vector search and LLMs extend search, but they don't remove
 relevance engineering. Teams still need indexing, ranking, filters, and
@@ -70,8 +70,8 @@ evaluation.
 
 Lexical search matches query terms against indexed text. It remains useful when
 people need exact terms, filters, auditability, and predictable matching. In
-[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}),
-[Atita]({{ '/people/atitaarora/' | relative_url }}) anchors modern search in
+[Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html),
+[Atita](https://datatalks.club/people/atitaarora.html) anchors modern search in
 Solr and Lucene around 4:42, then adds NLP-based query matching at 9:18.
 [NLP]({{ '/wiki/nlp/' | relative_url }}) matters here because query parsing,
 synonyms, normalization, and semantic matching decide which candidates enter
@@ -79,15 +79,15 @@ the ranking stage.
 
 Vector search compares learned representations instead of only matching words.
 In
-[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}),
-[Daniel]({{ '/people/danielsvonava/' | relative_url }}) explains the move from
+[Building Search Systems](https://datatalks.club/podcast/building-production-search-systems.html),
+[Daniel](https://datatalks.club/people/danielsvonava.html) explains the move from
 bag-of-words to dense vector representations around 11:29. Around 27:21, he
 describes vector databases as infrastructure for embeddings and
 nearest-neighbor search, making search a practical use case for
 [embeddings]({{ '/wiki/embeddings/' | relative_url }}).
 
 Hybrid search combines keyword and vector retrieval. Around 34:00 in
-[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}),
+[Building Search Systems](https://datatalks.club/podcast/building-production-search-systems.html),
 Daniel discusses combining vector similarity with filters and recency. Around
 39:53-45:11, he adds constraints and time encoding. He also discusses
 normalization and query-time weights.
@@ -108,7 +108,7 @@ RAG uses search to retrieve context before an LLM generates an answer. It's not
 a replacement for search. It adds another stage after retrieval.
 
 Atita makes this concrete in
-[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}).
+[Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html).
 At 30:38, she introduces retrieval plus generation as a way to reduce
 unsupported LLM answers. At 35:49, she applies the idea to a chatbot over
 podcast transcripts. At 38:24, she describes chunking, overlap, and embedding
@@ -130,14 +130,14 @@ Vector databases store embeddings and support nearest-neighbor retrieval, but
 the search episodes treat them as one component in a larger system.
 
 In
-[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}),
+[Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html),
 Atita introduces vector databases such as Qdrant at 17:01. At 20:27, she
 compares adding vectors to an existing search stack with introducing a
 standalone vector database. Teams make that architecture decision against their
 current retrieval system and migration risk.
 
 Daniel adds the production version of the same distinction in
-[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}).
+[Building Search Systems](https://datatalks.club/podcast/building-production-search-systems.html).
 Around 29:00-33:13, he separates embedding computation and ingestion. He also
 covers model versioning and multimodal retrieval. Around 52:35-54:56, he
 discusses vendor selection and when teams might use Lucene or Elasticsearch
@@ -160,14 +160,14 @@ Teams need to test retrieval quality, ranking quality, latency, and product
 impact.
 
 Daniel ties search quality to business metrics in
-[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}).
+[Building Search Systems](https://datatalks.club/podcast/building-production-search-systems.html).
 At 1:01:25, he discusses business KPIs, A/B tests, and revenue attribution. At
 1:03:50, he adds offline evaluation and engineering iteration. Search
 evaluation belongs with [Metrics]({{ '/wiki/metrics/' | relative_url }}) and
 [Production Search Evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }}).
 
 Atita adds RAG-specific evaluation in
-[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}).
+[Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html).
 At 48:09, she discusses multi-level metrics, offline tests, and
 human-in-the-loop review. For RAG, teams need to evaluate the retrieved
 passages and the generated answer. They also need to evaluate citation quality
@@ -182,14 +182,14 @@ decide when to re-rank.
 
 Daniel's episode shows how these tradeoffs appear in everyday search systems.
 Around 20:02 in
-[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}),
+[Building Search Systems](https://datatalks.club/podcast/building-production-search-systems.html),
 he discusses keyword-search brittleness, synonyms, and configuration debt.
 Around 30:22-33:13, he covers recomputing embeddings and keeping pipelines
 flexible when models change. Around 58:17, he uses e-commerce personalization
 and CLIP-style embeddings as an example of moving from prototype to production.
 
 Atita's episode shows the migration side. In
-[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}),
+[Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html),
 the 20:27 discussion warns against assuming that standalone vector storage is
 always the right move. Existing Solr, Lucene, or Elasticsearch systems may
 already handle lexical relevance and filters. They may already meet operational

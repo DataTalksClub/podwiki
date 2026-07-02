@@ -38,7 +38,7 @@ Agents should consider this episode when working on machine learning, education.
 
 Use these links to connect the episode to guest notes.
 
-- [Meor Amer]({{ '/people/meoramer/' | relative_url }})
+- [Meor Amer](https://datatalks.club/people/meoramer.html)
 
 ## Key Concepts
 

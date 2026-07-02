@@ -19,7 +19,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Andy Petrella]({ '/people/andypetrella/' | relative_url }).
+[Andy Petrella](https://datatalks.club/people/andypetrella.html).
 
 ## Discussion Archive
 

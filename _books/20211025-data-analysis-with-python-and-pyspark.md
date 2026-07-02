@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Jonathan Rioux]({ '/people/jonathanrioux/' | relative_url }).
+[Jonathan Rioux](https://datatalks.club/people/jonathanrioux.html).
 
 ## Discussion Archive
 

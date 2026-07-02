@@ -29,9 +29,9 @@ when the portfolio target is
 strongest portfolio signal when the project is more than a chart gallery. It
 needs a metric specification, data lineage, tests, and stakeholder adoption.
 
-[Caitlin Moorman]({{ '/people/caitlinmoorman/' | relative_url }}) sets that
+[Caitlin Moorman](https://datatalks.club/people/caitlinmoorman.html) sets that
 adoption bar in
-[Last-Mile Data Delivery]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }}).
+[Last-Mile Data Delivery](https://datatalks.club/podcast/last-mile-data-delivery-and-data-product-adoption-modern-data-stack.html).
 At 8:48, she defines the last mile. At 26:21 and 34:00, she works backward from
 user research and outcomes. At 38:15, she places metrics inside the meetings
 where decisions happen.
@@ -64,16 +64,16 @@ Separate the primary decision metric from diagnostics and guardrails so the
 dashboard doesn't encourage a single number at the expense of product or
 business health.
 
-[Adam Sroka]({{ '/people/adamsroka/' | relative_url }}) gives the metric
+[Adam Sroka](https://datatalks.club/people/adamsroka.html) gives the metric
 standard in
-[ML Engineering KPIs and Metrics Strategy]({{ '/podcasts/ml-engineering-kpis-and-metrics-strategy/' | relative_url }}).
+[ML Engineering KPIs and Metrics Strategy](https://datatalks.club/podcast/ml-engineering-kpis-and-metrics-strategy.html).
 At 22:41, he discusses KPI definition. At 28:04, he covers gaming risk. At
 30:30, he covers derived KPIs. At 41:07, he discusses dashboards and
 visibility.
 
 For experimentation-heavy projects,
-[Jakob Graff]({{ '/people/jakobgraff/' | relative_url }}) adds guardrails in
-[A/B Testing and Product Experimentation]({{ '/podcasts/ab-testing-and-product-experimentation/' | relative_url }}).
+[Jakob Graff](https://datatalks.club/people/jakobgraff.html) adds guardrails in
+[A/B Testing and Product Experimentation](https://datatalks.club/podcast/ab-testing-and-product-experimentation.html).
 He covers randomization at 8:13, causality at 11:48, and A/A tests at 27:52.
 He also covers metric stability at 33:23 and power analysis at 37:44.
 
@@ -90,18 +90,18 @@ tracking plan and source events. It then moves through staging models,
 intermediate business logic, marts, and metric definitions. Documentation and
 lineage make that path inspectable.
 
-[Arpit Choudhury]({{ '/people/arpitchoudhury/' | relative_url }}) gives the
+[Arpit Choudhury](https://datatalks.club/people/arpitchoudhury.html) gives the
 event path in
-[Data-Led Growth Stack]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }}).
+[Data-Led Growth Stack](https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html).
 He covers tracking plans at 13:34 and anomaly investigation at 18:27. He covers
 data flow at 22:50, SaaS event examples at 24:43, warehouse and BI work at
 28:52, and activation at 30:03. In his framing, event definitions and warehouse
 transformations belong to the same growth system as BI and reverse ETL. That
 makes event ownership part of the dashboard project.
 
-[Nikola Maksimovic]({{ '/people/nikolamaksimovic/' | relative_url }}) gives a
+[Nikola Maksimovic](https://datatalks.club/people/nikolamaksimovic.html) gives a
 portfolio-scale version in
-[Marketing to Analytics Engineering]({{ '/podcasts/from-marketing-to-analytics-engineering-sql-dbt-career-switch/' | relative_url }}).
+[Marketing to Analytics Engineering](https://datatalks.club/podcast/from-marketing-to-analytics-engineering-sql-dbt-career-switch.html).
 He describes product support and A/B testing at 14:14. He covers data modeling
 at 18:34. At 20:34, he discusses Snowplow, dbt, and Looker. At 38:27, he
 returns to product analytics.
@@ -121,14 +121,14 @@ documentation, and a clear semantic-layer boundary. Show generic tests for
 expected data properties, singular tests for business rules, and a CI check
 where the portfolio format allows it.
 
-[Victoria Perez Mola]({{ '/people/victoriaperezmola/' | relative_url }}) and
-[Juan Manuel Perafan]({{ '/people/juanmanuelperafan/' | relative_url }}) give
+[Victoria Perez Mola](https://datatalks.club/people/victoriaperezmola.html) and
+[Juan Manuel Perafan](https://datatalks.club/people/juanmanuelperafan.html) give
 the analytics engineering version. Victoria connects modeling, data quality,
 and Looker. She covers dbt docs, DAGs, and tests in
-[Master Analytics Engineering]({{ '/podcasts/analytics-engineer-skills-tools/' | relative_url }})
+[Master Analytics Engineering](https://datatalks.club/podcast/analytics-engineer-skills-tools.html)
 from 4:05 to 38:53. Juan adds robustness, generic tests, and singular tests. He
 also covers CI, KPI tests, and semantic-layer thinking in
-[Foundations of the Analytics Engineer Role]({{ '/podcasts/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices/' | relative_url }})
+[Foundations of the Analytics Engineer Role](https://datatalks.club/podcast/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices.html)
 from 38:41 to 1:14:40.
 
 ## BI Surface, Activation, and Adoption Proof
@@ -141,9 +141,9 @@ to
 [Data Activation]({{ '/wiki/data-activation/' | relative_url }}) as well as the
 BI layer.
 
-[Tammy Liang]({{ '/people/tammyliang/' | relative_url }}) gives the team
+[Tammy Liang](https://datatalks.club/people/tammyliang.html) gives the team
 version in
-[Building and Scaling a Data Team]({{ '/podcasts/building-and-scaling-data-team/' | relative_url }}).
+[Building and Scaling a Data Team](https://datatalks.club/podcast/building-and-scaling-data-team.html).
 She discusses business health dashboards at 7:22 and reporting collaboration at
 8:51. She covers a stack and Notion wiki at 22:32, dbt tests at 40:09, and
 workshops at 49:00. Her examples make the adoption checklist practical. The

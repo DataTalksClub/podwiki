@@ -19,7 +19,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Joyce Kay Avila]({ '/people/joycekayavila/' | relative_url }).
+[Joyce Kay Avila](https://datatalks.club/people/joycekayavila.html).
 
 ## Discussion Archive
 

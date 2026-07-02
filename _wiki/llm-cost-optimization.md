@@ -16,9 +16,9 @@ compression, prompt caching, model size selection, and the broader discipline of
 cost-aware platform design. As LLM usage scales, cost becomes a competitive
 differentiator rather than just a budget concern.
 
-[Bartosz Mikulski]({{ '/people/bartoszmikulski/' | relative_url }}) provides
+[Bartosz Mikulski](https://datatalks.club/people/bartoszmikulski.html) provides
 the most direct treatment of these techniques in
-[Production AI Engineering]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }}).
+[Production AI Engineering](https://datatalks.club/podcast/production-ready-ai-engineering.html).
 His 28:16 section covers prompt evaluation and cost tradeoffs, followed by
 prompt compression and prompt caching as model-efficiency tools.
 
@@ -43,9 +43,9 @@ engineering frames this as improving model accuracy by removing irrelevant
 information. Cost optimization frames the same reduction as cutting token
 expense. The techniques overlap.
 
-[Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }}) makes
+[Hugo Bowne-Anderson](https://datatalks.club/people/hugobowneanderson.html) makes
 a related point in
-[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}).
+[Practical LLM Engineering and RAG](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html).
 His 46:39 discussion of context rot notes that giving too much context reduces
 precision and relevance. The same principle applies to cost: excess context
 wastes tokens and money while degrading output quality.
@@ -66,10 +66,10 @@ systems that send long, stable prompts with varying user queries appended.
 
 ## Latency and Cost Tradeoffs
 
-[Meryem Arik]({{ '/people/meryemarik/' | relative_url }}) covers latency and
+[Meryem Arik](https://datatalks.club/people/meryemarik.html) covers latency and
 cost tradeoffs in
 [Deploying LLMs in
-Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}).
+Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html).
 Her 51:35 section explains that self-hosted open-source models on smaller GPUs
 or CPUs can be much faster than API calls. API models are fast because they run
 on expensive hardware, but self-hosted models on comparable hardware can match or
@@ -81,10 +81,10 @@ open-source models reduces both cost and latency. The migration requires more
 engineering effort, but tools like TitanML's Takeoff server and other inference
 servers make it easier.
 
-[Micheal Lanham]({{ '/people/micheallanham/' | relative_url }}) adds the
+[Micheal Lanham](https://datatalks.club/people/micheallanham.html) adds the
 latency perspective in
 [From Game AI to LLM
-Agents]({{ '/podcasts/from-game-ai-to-modern-ai-agents/' | relative_url }}).
+Agents](https://datatalks.club/podcast/from-game-ai-to-modern-ai-agents.html).
 At 46:14, he describes using Groq as a low-latency provider offering 1-2 second
 response times compared to 4-5 seconds for GPT-4. Latency directly affects cost
 because longer inference times consume more compute resources and limit
@@ -92,10 +92,10 @@ throughput.
 
 ## The Competitive Advantage of Cost-Aware Engineering
 
-[Slawomir Tulski]({{ '/people/slawomirtulski/' | relative_url }}) makes cost
+[Slawomir Tulski](https://datatalks.club/people/slawomirtulski.html) makes cost
 awareness a competitive advantage in
 [Data Engineer Career in
-2026]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }}).
+2026](https://datatalks.club/podcast/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for.html).
 His 25:24 section says being cost aware gives engineers "a big competitive
 advantage." At 25:33, he explains that cloud bills skyrocketing is a common
 industry problem because "people are not cost aware. We have this thing that our
@@ -115,10 +115,10 @@ not just a technical skill but a signal of engineering judgment.
 
 ## Cost Considerations in Product Patterns
 
-[Sandra Kublik]({{ '/people/sandrakublik/' | relative_url }}) touches on cost
+[Sandra Kublik](https://datatalks.club/people/sandrakublik.html) touches on cost
 as a product decision in
 [Practical LLM Use
-Cases]({{ '/podcasts/practical-llm-use-cases-and-product-patterns/' | relative_url }}).
+Cases](https://datatalks.club/podcast/practical-llm-use-cases-and-product-patterns.html).
 Her 35:28 section on proprietary versus open-source models lists cost alongside
 latency, IP, and data risk as the key trade-offs. For enterprise deployment,
 cost compounds at scale, making model choice and optimization a product-level

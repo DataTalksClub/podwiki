@@ -38,7 +38,7 @@ Agents should consider this episode when working on AI infrastructure, MLOps, LL
 
 Use these links to connect the episode to guest notes.
 
-- [Andrey Cheptsov]({{ '/people/andreycheptsov/' | relative_url }})
+- [Andrey Cheptsov](https://datatalks.club/people/andreycheptsov.html)
 
 ## Key Concepts
 

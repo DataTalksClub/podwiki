@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Meor Amer]({ '/people/meoramer/' | relative_url }).
+[Meor Amer](https://datatalks.club/people/meoramer.html).
 
 ## Discussion Archive
 

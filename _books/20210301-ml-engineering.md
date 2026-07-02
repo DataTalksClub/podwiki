@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Ben Wilson]({ '/people/benwilson/' | relative_url }).
+[Ben Wilson](https://datatalks.club/people/benwilson.html).
 
 ## Discussion Archive
 

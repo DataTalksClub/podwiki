@@ -27,9 +27,9 @@ and
 
 ## Employer Evidence
 
-[Jeff Katz]({{ '/people/jeffkatz/' | relative_url }}) gives the clearest
+[Jeff Katz](https://datatalks.club/people/jeffkatz.html) gives the clearest
 hiring standard in
-[Data Engineering Job Prep and Interview Guide]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }}).
+[Data Engineering Job Prep and Interview Guide](https://datatalks.club/podcast/get-data-engineering-job-prep-and-interview.html).
 At 21:56, he answers a direct question about using pipeline-monitoring
 experience plus Python and data engineering certificates to move into a data
 engineering job. By 22:36, he has moved the discussion back to whether the
@@ -102,7 +102,7 @@ engineers. For some programs, it should also show the handoff to ML teams and
 product teams.
 
 In
-[Build a Data Engineering Career]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }}),
+[Build a Data Engineering Career](https://datatalks.club/podcast/data-engineering-career-path-and-skills.html),
 Jeff Katz gives a practical curriculum benchmark. Around 23:35, he describes
 junior data engineering as a more defined path than many data science paths.
 He names Python and SQL. He also names cloud basics and orchestration.
@@ -140,9 +140,9 @@ at. The project should run outside a notebook and include setup instructions.
 It should show what happens when data arrives late, duplicates appear, or a
 schema changes.
 
-[Gloria Quiceno]({{ '/people/gloriaquiceno/' | relative_url }}) gives the
+[Gloria Quiceno](https://datatalks.club/people/gloriaquiceno.html) gives the
 career-change version in
-[Get a Data Analytics and Data Engineering Job]({{ '/podcasts/get-data-analytics-and-data-engineering-job/' | relative_url }}).
+[Get a Data Analytics and Data Engineering Job](https://datatalks.club/podcast/get-data-analytics-and-data-engineering-job.html).
 Around 16:14-18:21, she describes searching for a role after finishing a
 bootcamp. Around 36:20-37:25, she says Python and SQL from the program became
 useful in her work, along with Docker and Airflow.
@@ -188,9 +188,9 @@ You still need to understand the categories behind those platforms:
 - [dbt]({{ '/wiki/dbt/' | relative_url }})
 - [Apache Airflow]({{ '/wiki/apache-airflow/' | relative_url }})
 
-[Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) gives that
+[Natalie Kwong](https://datatalks.club/people/nataliekwong.html) gives that
 vocabulary in
-[ETL vs ELT and Modern Data Engineering]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}).
+[ETL vs ELT and Modern Data Engineering](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html).
 Around 4:30, she breaks ETL into source extraction, business-specific
 transformation, and loading data for use. Around 10:22, she describes
 transformations from type casting to joins across sources. Around 28:07, she
@@ -203,9 +203,9 @@ name tools. It should explain what each tool category does and when it's too
 much for the problem. It should also explain how data moves from source systems
 to trusted outputs.
 
-[Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) adds the same
+[Adrian Brudaru](https://datatalks.club/people/adrianbrudaru.html) adds the same
 practical constraint in
-[Modern Data Engineering]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}).
+[Modern Data Engineering](https://datatalks.club/podcast/trends-in-modern-data-engineering.html).
 Around 41:06, he recommends SQL and Python for beginners. He also recommends
 requirements gathering and portfolio building. Around 44:42, he ties tool
 choice to the end user. He also warns against vendor-led stack decisions.
@@ -239,8 +239,8 @@ It's weaker when every student leaves with the same template project. Use
 for the bootcamp version of this decision.
 
 Open-source work isn't a certification, but it can be stronger evidence. In
-[Contribute to Open Source ML]({{ '/podcasts/open-source-ml-contributions/' | relative_url }}),
-[Vincent Warmerdam]({{ '/people/vincentwarmerdam/' | relative_url }}) explains
+[Contribute to Open Source ML](https://datatalks.club/podcast/open-source-ml-contributions.html),
+[Vincent Warmerdam](https://datatalks.club/people/vincentwarmerdam.html) explains
 around 26:44-29:55 how new contributors can start from real tool use and
 reproducible issues. He also mentions documentation, tests, formatting, and CI.
 That advice applies beyond ML.

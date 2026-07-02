@@ -38,7 +38,7 @@ Agents should consider this episode when working on LLMs, MLOps, open-source.
 
 Use these links to connect the episode to guest notes.
 
-- [Meryem Arik]({{ '/people/meryemarik/' | relative_url }})
+- [Meryem Arik](https://datatalks.club/people/meryemarik.html)
 
 ## Key Concepts
 

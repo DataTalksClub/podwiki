@@ -19,7 +19,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Matt Palmer]({ '/people/mattpalmer/' | relative_url }).
+[Matt Palmer](https://datatalks.club/people/mattpalmer.html).
 
 ## Discussion Archive
 

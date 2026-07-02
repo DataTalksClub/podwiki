@@ -38,7 +38,7 @@ Agents should consider this episode when working on product management, MLOps, d
 
 Use these links to connect the episode to guest notes.
 
-- [Greg Coquillo]({{ '/people/gregcoquillo/' | relative_url }})
+- [Greg Coquillo](https://datatalks.club/people/gregcoquillo.html)
 
 ## Key Concepts
 

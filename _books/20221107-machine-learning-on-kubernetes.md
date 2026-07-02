@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Ross Brigoli]({ '/people/rossbrigoli/' | relative_url }), [Faisal Masood]({ '/people/faisalmasood/' | relative_url }).
+[Ross Brigoli](https://datatalks.club/people/rossbrigoli.html), [Faisal Masood](https://datatalks.club/people/faisalmasood.html).
 
 ## Discussion Archive
 

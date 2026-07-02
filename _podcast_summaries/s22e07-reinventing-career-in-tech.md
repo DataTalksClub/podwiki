@@ -38,7 +38,7 @@ Agents should consider this episode when working on career transition.
 
 Use these links to connect the episode to guest notes.
 
-- [Xia He-Bleinagel]({{ '/people/xiahebleinagel/' | relative_url }})
+- [Xia He-Bleinagel](https://datatalks.club/people/xiahebleinagel.html)
 
 ## Key Concepts
 

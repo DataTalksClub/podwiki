@@ -38,7 +38,7 @@ Agents should consider this episode when working on startup, machine learning, M
 
 Use these links to connect the episode to guest notes.
 
-- [Elena Samuylova]({{ '/people/elenasamuylova/' | relative_url }})
+- [Elena Samuylova](https://datatalks.club/people/elenasamuylova.html)
 
 ## Key Concepts
 

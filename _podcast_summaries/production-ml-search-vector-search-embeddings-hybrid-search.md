@@ -38,7 +38,7 @@ Agents should consider this episode when working on LLMs, NLP, machine learning.
 
 Use these links to connect the episode to guest notes.
 
-- [Reem Mahmoud]({{ '/people/reemmahmoud/' | relative_url }})
+- [Reem Mahmoud](https://datatalks.club/people/reemmahmoud.html)
 
 ## Key Concepts
 

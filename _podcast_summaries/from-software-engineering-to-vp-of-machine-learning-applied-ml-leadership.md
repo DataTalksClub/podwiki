@@ -38,7 +38,7 @@ Agents should consider this episode when working on machine learning, MLOps, too
 
 Use these links to connect the episode to guest notes.
 
-- [Jack Blandin]({{ '/people/jackblandin/' | relative_url }})
+- [Jack Blandin](https://datatalks.club/people/jackblandin.html)
 
 ## Key Concepts
 

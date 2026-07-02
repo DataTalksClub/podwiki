@@ -38,7 +38,7 @@ Agents should consider this episode when working on AI, computer vision, data st
 
 Use these links to connect the episode to guest notes.
 
-- [Maria Bruckert]({{ '/people/mariabruckert/' | relative_url }})
+- [Maria Bruckert](https://datatalks.club/people/mariabruckert.html)
 
 ## Key Concepts
 

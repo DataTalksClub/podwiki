@@ -38,7 +38,7 @@ Agents should consider this episode when working on freelance, startups, career 
 
 Use these links to connect the episode to guest notes.
 
-- [Antonis Stellas]({{ '/people/antonisstellas/' | relative_url }})
+- [Antonis Stellas](https://datatalks.club/people/antonisstellas.html)
 
 ## Key Concepts
 

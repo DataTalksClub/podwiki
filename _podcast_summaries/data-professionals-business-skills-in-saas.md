@@ -38,7 +38,7 @@ Agents should consider this episode when working on data science, MLOps, communi
 
 Use these links to connect the episode to guest notes.
 
-- [Loris Marini]({{ '/people/lorismarini/' | relative_url }})
+- [Loris Marini](https://datatalks.club/people/lorismarini.html)
 
 ## Key Concepts
 

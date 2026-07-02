@@ -16,10 +16,10 @@ AI agents in production. It applies the lessons of
 specific to autonomous tool use, multi-step reasoning, and the non-deterministic
 behavior of LLM-backed systems.
 
-[Nasser Qadri]({{ '/people/nasserqadri/' | relative_url }}) names the field
+[Nasser Qadri](https://datatalks.club/people/nasserqadri.html) names the field
 explicitly in
 Understanding the AI Engineer
-Role]({{ '/podcasts/s23e07-understanding-ai-engineer-role/' | relative_url }}).
+Role](https://datatalks.club/podcast/s23e07-understanding-ai-engineer-role.html).
 At 54:03, he says "this field of agent ops will continue to evolve," drawing a
 direct parallel to how data science matured into MLOps. He sees the same
 trajectory for agents: from experimentation to engineering rigor, with
@@ -48,10 +48,10 @@ is where those two modes meet.
 
 ## Guardrails and Data Lineage
 
-[Aditya Gautam]({{ '/people/adityagautam/' | relative_url }}) provides the
+[Aditya Gautam](https://datatalks.club/people/adityagautam.html) provides the
 strongest governance perspective in
 [The Future of AI
-Agents]({{ '/podcasts/s23e03-future-of-ai-agents/' | relative_url }}). His
+Agents](https://datatalks.club/podcast/s23e03-future-of-ai-agents.html). His
 30:26 section links guardrails and data lineage to what he calls Agent MLOps.
 He explains that sensitive industries like healthcare and legal require
 handcrafted automation with a human in the loop to ensure correctness. Even
@@ -83,10 +83,10 @@ measured accuracy.
 
 ## Evaluation Strategy for Agents
 
-[Ranjitha Kulkarni]({{ '/people/ranjithakulkarni/' | relative_url }}) covers
+[Ranjitha Kulkarni](https://datatalks.club/people/ranjithakulkarni.html) covers
 agent evaluation in
 [Building Agentic AI
-Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}).
+Systems](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html).
 Her 51:17 section recommends custom datasets and system benchmarks over public
 benchmarks like SQuAD, which evaluate model capability rather than system
 quality. Her 53:20 section treats agent testing like software engineering
@@ -99,10 +99,10 @@ example, finding a skip-level manager directly or by traversing an org chart are
 both valid approaches. The assertion checks the outcome, not the path. This is
 a key distinction from traditional software testing.
 
-[Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }}) adds
+[Hugo Bowne-Anderson](https://datatalks.club/people/hugobowneanderson.html) adds
 the generator-evaluator pattern in
 [Practical LLM Engineering and
-RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}).
+RAG](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html).
 His 13:56 section introduces a loop where one model generates output and another
 evaluates it, scoring pass or fail with feedback. His 23:00 section covers gold
 test sets, cost, and representativeness. His 26:43 section uses failure analysis
@@ -121,10 +121,10 @@ understand gaps and detect drift.
 
 ## Evaluation and Monitoring Tools
 
-[Micheal Lanham]({{ '/people/micheallanham/' | relative_url }}) connects
+[Micheal Lanham](https://datatalks.club/people/micheallanham.html) connects
 evaluation to production monitoring in
 [From Game AI to LLM
-Agents]({{ '/podcasts/from-game-ai-to-modern-ai-agents/' | relative_url }}).
+Agents](https://datatalks.club/podcast/from-game-ai-to-modern-ai-agents.html).
 His 57:39 section recommends building evaluation pipelines and using tools like
 Arize Phoenix to monitor LLM communication and prompts. He frames this as
 applying data science techniques for success metrics: controlling variables and

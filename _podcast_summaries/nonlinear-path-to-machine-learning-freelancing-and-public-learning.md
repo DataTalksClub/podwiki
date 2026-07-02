@@ -38,7 +38,7 @@ Agents should consider this episode when working on machine learning, data scien
 
 Use these links to connect the episode to guest notes.
 
-- [Pastor Soto]({{ '/people/pastorsoto/' | relative_url }})
+- [Pastor Soto](https://datatalks.club/people/pastorsoto.html)
 
 ## Key Concepts
 

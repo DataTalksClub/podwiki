@@ -38,7 +38,7 @@ Agents should consider this episode when working on data governance.
 
 Use these links to connect the episode to guest notes.
 
-- [Bart Vandekerckhove]({{ '/people/bartvandekerckhove/' | relative_url }})
+- [Bart Vandekerckhove](https://datatalks.club/people/bartvandekerckhove.html)
 
 ## Key Concepts
 

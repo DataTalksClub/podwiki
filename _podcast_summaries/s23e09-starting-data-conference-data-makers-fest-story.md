@@ -38,7 +38,7 @@ Agents should consider this episode when working on community building, machine 
 
 Use these links to connect the episode to guest notes.
 
-- [Leonid Kholkine]({{ '/people/leonidkholkine/' | relative_url }})
+- [Leonid Kholkine](https://datatalks.club/people/leonidkholkine.html)
 
 ## Key Concepts
 

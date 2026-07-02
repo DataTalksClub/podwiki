@@ -13,9 +13,9 @@ related:
 
 Astroinformatics applies data work to astronomy problems where observations
 come from many instruments. The data is large and tied to physical measurement.
-[Daniel Egbo]({{ '/people/danielegbo/' | relative_url }}) grounds the topic in
+[Daniel Egbo](https://datatalks.club/people/danielegbo.html) grounds the topic in
 radio astronomy rather than generic space-data analytics in
-[From Radio Astronomy to Applied ML]({{ '/podcasts/from-radio-astronomy-to-machine-learning-and-data-engineering/' | relative_url }}).
+[From Radio Astronomy to Applied ML](https://datatalks.club/podcast/from-radio-astronomy-to-machine-learning-and-data-engineering.html).
 
 MEERKAT scans the galactic plane. Daniel looks for radio-emitting stars, so the
 work depends on source detection and catalog matching. It also depends on
@@ -27,7 +27,7 @@ pipeline doesn't start with a CSV or end with a dashboard. It starts with
 telescope observations and turns images into candidate sources. It then
 compares those candidates against optical and infrared catalogs. Astronomy
 knowledge helps decide whether a match is credible
-([radio-astronomy discussion at 5:08-17:54]({{ '/podcasts/from-radio-astronomy-to-machine-learning-and-data-engineering/' | relative_url }})).
+([radio-astronomy discussion at 5:08-17:54](https://datatalks.club/podcast/from-radio-astronomy-to-machine-learning-and-data-engineering.html)).
 
 ## Radio Astronomy as a Scientific Pipeline
 
@@ -36,7 +36,7 @@ was built as a precursor to the Square Kilometer Array. From 2018 to 2020,
 MEERKAT mapped the galactic plane. Daniel's PhD work used that dataset to find
 radio-emitting
 stars
-([MEERKAT and research-goal discussion at 5:08-6:33]({{ '/podcasts/from-radio-astronomy-to-machine-learning-and-data-engineering/' | relative_url }})).
+([MEERKAT and research-goal discussion at 5:08-6:33](https://datatalks.club/podcast/from-radio-astronomy-to-machine-learning-and-data-engineering.html)).
 
 Daniel set the scientific target before any modeling choice. He needed to
 separate possible stellar radio emission from stronger radio sources. Examples
@@ -46,7 +46,7 @@ The same discussion also explains why the pipeline needs multiple instruments.
 Stars are common in optical observations, but Daniel says they're weak or dark
 in radio. Radio telescopes, optical telescopes, infrared missions, and X-ray
 observatories each see a different part of the electromagnetic spectrum
-([spectrum and telescope discussion at 6:45-10:27]({{ '/podcasts/from-radio-astronomy-to-machine-learning-and-data-engineering/' | relative_url }})).
+([spectrum and telescope discussion at 6:45-10:27](https://datatalks.club/podcast/from-radio-astronomy-to-machine-learning-and-data-engineering.html)).
 For scientific pipelines, the raw signal isn't self-explanatory. The pipeline
 has to preserve enough context about wavelength, instrument, position, and
 known source behavior for later interpretation.
@@ -54,7 +54,7 @@ known source behavior for later interpretation.
 ## Source Detection Before Machine Learning
 
 Daniel first names point-source detection in MEERKAT radio images
-([source-detection discussion at 10:39-11:50]({{ '/podcasts/from-radio-astronomy-to-machine-learning-and-data-engineering/' | relative_url }})).
+([source-detection discussion at 10:39-11:50](https://datatalks.club/podcast/from-radio-astronomy-to-machine-learning-and-data-engineering.html)).
 He also includes compact-source detection. He frames the task as finding
 detections that could come from stars. Those detections have to be separated
 from other astrophysical sources.
@@ -63,13 +63,13 @@ At this stage, the problem resembles
 [computer vision]({{ '/wiki/computer-vision/' | relative_url }}) because the
 input is image-like. Daniel still treats source detection as astronomy data
 analysis before generic ML
-([source-detection discussion at 10:39-11:50]({{ '/podcasts/from-radio-astronomy-to-machine-learning-and-data-engineering/' | relative_url }})).
+([source-detection discussion at 10:39-11:50](https://datatalks.club/podcast/from-radio-astronomy-to-machine-learning-and-data-engineering.html)).
 
 Daniel says the project doesn't necessarily use
 [machine learning]({{ '/wiki/machine-learning/' | relative_url }}). The current
 method is cross-matching, closer to nearest-neighbor reasoning over sky
 positions than to training a classifier
-([cross-matching discussion at 12:32-12:44]({{ '/podcasts/from-radio-astronomy-to-machine-learning-and-data-engineering/' | relative_url }})).
+([cross-matching discussion at 12:32-12:44](https://datatalks.club/podcast/from-radio-astronomy-to-machine-learning-and-data-engineering.html)).
 That matters for
 [applied research]({{ '/wiki/applied-research/' | relative_url }}): the useful
 pipeline is the one that produces reliable candidates and interpretable
@@ -81,7 +81,7 @@ Daniel's MEERKAT workflow cross-correlates radio detections with
 multi-wavelength datasets, including Gaia's optical catalog. He compares sky
 positions to longitude-like coordinates on Earth, then looks for nearby
 counterparts across instruments
-([catalog cross-matching discussion at 11:50-13:29]({{ '/podcasts/from-radio-astronomy-to-machine-learning-and-data-engineering/' | relative_url }})).
+([catalog cross-matching discussion at 11:50-13:29](https://datatalks.club/podcast/from-radio-astronomy-to-machine-learning-and-data-engineering.html)).
 In data-engineering terms, this is an entity-resolution problem across catalogs,
 but the join key isn't a customer ID or database primary key. It's a measured
 position on the sky with instrument-specific uncertainty.
@@ -90,7 +90,7 @@ Daniel gives the strongest pipeline warning: a positional match is only a
 candidate. He explains that the sky image is a two-dimensional projection,
 so foreground and background objects can overlap from the observer's point of
 view. Two detections can appear aligned without being the same physical source
-([positional-uncertainty discussion at 13:35-15:25]({{ '/podcasts/from-radio-astronomy-to-machine-learning-and-data-engineering/' | relative_url }})).
+([positional-uncertainty discussion at 13:35-15:25](https://datatalks.club/podcast/from-radio-astronomy-to-machine-learning-and-data-engineering.html)).
 Scientific pipelines therefore need uncertainty-aware matching and reviewable
 intermediate outputs. A silent nearest-neighbor join would hide the main risk in
 the analysis.
@@ -101,13 +101,13 @@ Daniel keeps verification grounded in physics and says that matching positions
 isn't enough. Analysts have to ask what properties are known about the source.
 They also use prior observations to decide whether the radio emission plausibly
 belongs to the same object
-([physics-based verification at 15:30-15:41]({{ '/podcasts/from-radio-astronomy-to-machine-learning-and-data-engineering/' | relative_url }})).
+([physics-based verification at 15:30-15:41](https://datatalks.club/podcast/from-radio-astronomy-to-machine-learning-and-data-engineering.html)).
 That's the difference between a technical match and a scientific claim.
 
 Daniel also explains why he's cautious about ML in this project. The team is
 building a curated dataset that may support future ML, but physics
 modeling and reliable signal interpretation come first
-([curated-dataset discussion at 17:54-20:55]({{ '/podcasts/from-radio-astronomy-to-machine-learning-and-data-engineering/' | relative_url }})).
+([curated-dataset discussion at 17:54-20:55](https://datatalks.club/podcast/from-radio-astronomy-to-machine-learning-and-data-engineering.html)).
 For scientific pipelines, dataset curation isn't clerical cleanup. Researchers
 use curation to decide which labels, candidates, and assumptions a future model
 could learn from.
@@ -117,7 +117,7 @@ could learn from.
 Daniel's transition into applied ML starts from the same pipeline pressure. He
 had tens of gigabytes of astronomy data and couldn't process it comfortably on
 a personal machine. He needed Python, cloud resources, and remote analysis
-([data-scale and cloud discussion at 21:31-25:47]({{ '/podcasts/from-radio-astronomy-to-machine-learning-and-data-engineering/' | relative_url }})).
+([data-scale and cloud discussion at 21:31-25:47](https://datatalks.club/podcast/from-radio-astronomy-to-machine-learning-and-data-engineering.html)).
 He moved from astronomy-specific software toward Astropy, NumPy, and SciPy. He
 also used JupyterHub, which made the work look closer to
 [data engineering]({{ '/wiki/data-engineering/' | relative_url }}) than to a
@@ -126,21 +126,21 @@ single notebook analysis.
 Daniel describes the transfer explicitly. He says ML ZoomCamp shifted him from
 notebook-only work toward reusable Python scripts and project structure. The
 course also introduced virtual environments and cloud computing
-([ML engineering practice discussion at 26:58-30:18]({{ '/podcasts/from-radio-astronomy-to-machine-learning-and-data-engineering/' | relative_url }})).
+([ML engineering practice discussion at 26:58-30:18](https://datatalks.club/podcast/from-radio-astronomy-to-machine-learning-and-data-engineering.html)).
 
 He then describes a pipeline project that moves data from MySQL into MinIO.
 Spark transforms the data before MinIO stores the transformed output. Daniel
 plans dbt for the analytics layer
-([Airflow, MinIO, Spark, and warehouse discussion at 42:48-46:52]({{ '/podcasts/from-radio-astronomy-to-machine-learning-and-data-engineering/' | relative_url }})).
+([Airflow, MinIO, Spark, and warehouse discussion at 42:48-46:52](https://datatalks.club/podcast/from-radio-astronomy-to-machine-learning-and-data-engineering.html)).
 
 Daniel's path also gives a practical route for an
 [academic researcher moving into data science]({{ '/wiki/academic-researcher-to-data-science/' | relative_url }}).
 The route keeps domain judgment and adds reusable code, orchestration, storage
 and production-style project habits.
 
-[Daynan]({{ '/people/daynancrull/' | relative_url }}) extends astroinformatics
+[Daynan](https://datatalks.club/people/daynancrull.html) extends astroinformatics
 into asteroid characterization and resource detection. In
-[Machine Learning for Asteroid Mining and Water Detection]({{ '/podcasts/machine-learning-for-asteroid-mining-and-water-detection/' | relative_url }}),
+[Machine Learning for Asteroid Mining and Water Detection](https://datatalks.club/podcast/machine-learning-for-asteroid-mining-and-water-detection.html),
 he describes using hyperspectral spectroscopy and infrared signatures to
 identify water on near-Earth asteroids. The team combines photometry, light
 curves, and polarimetry as features, and uses a Bayesian framework to fuse

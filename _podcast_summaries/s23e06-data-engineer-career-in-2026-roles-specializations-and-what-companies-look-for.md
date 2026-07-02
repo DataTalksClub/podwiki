@@ -38,7 +38,7 @@ Agents should consider this episode when working on data engineering, portfolio.
 
 Use these links to connect the episode to guest notes.
 
-- [Slawomir Tulski]({{ '/people/slawomirtulski/' | relative_url }})
+- [Slawomir Tulski](https://datatalks.club/people/slawomirtulski.html)
 
 ## Key Concepts
 

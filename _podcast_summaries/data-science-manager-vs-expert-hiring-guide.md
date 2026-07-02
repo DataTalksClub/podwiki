@@ -38,7 +38,7 @@ Agents should consider this episode when working on data science, machine learni
 
 Use these links to connect the episode to guest notes.
 
-- [Barbara Sobkowiak]({{ '/people/barbarasobkowiak/' | relative_url }})
+- [Barbara Sobkowiak](https://datatalks.club/people/barbarasobkowiak.html)
 
 ## Key Concepts
 

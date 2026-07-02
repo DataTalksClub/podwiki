@@ -34,7 +34,7 @@ Agents should consider this episode when working on team building, data teams, d
 
 Use these links to connect the episode to guest notes.
 
-- [Alexey Grigorev]({{ '/people/alexeygrigorev/' | relative_url }})
+- [Alexey Grigorev](https://datatalks.club/people/alexeygrigorev.html)
 
 ## Key Concepts
 

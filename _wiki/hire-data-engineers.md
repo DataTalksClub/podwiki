@@ -25,9 +25,9 @@ checks, support analytics engineers, or turn repeated data work into a
 platform. Those are different hiring problems.
 
 DataTalks.Club guests repeatedly treat data engineering hiring as role
-design instead of keyword matching. [Nicolas Rassam]({{ '/people/nicolasrassam/' | relative_url }})
+design instead of keyword matching. [Nicolas Rassam](https://datatalks.club/people/nicolasrassam.html)
 explains in
-[Hiring Data Engineers in Europe]({{ '/podcasts/hiring-for-data-engineering-jobs-in-europe/' | relative_url }})
+[Hiring Data Engineers in Europe](https://datatalks.club/podcast/hiring-for-data-engineering-jobs-in-europe.html)
 that candidates can come from software engineering or BI. They can also come
 from analytics or data science. Look for evidence that they have built data
 systems and can explain the problem they solved.
@@ -48,7 +48,7 @@ the same data engineer to bootstrap pipelines, you may need platform work and
 self-service.
 
 A useful boundary appears in
-[Data Team Roles Explained]({{ '/podcasts/data-team-roles/' | relative_url }}).
+[Data Team Roles Explained](https://datatalks.club/podcast/data-team-roles.html).
 Data engineers make sure the necessary data appears in usable form. Data
 scientists, analysts, machine learning engineers, and product teams then use
 that data.
@@ -77,8 +77,8 @@ Hire data engineers when manual data work has become a product, analytics, or
 operations risk. The practical trigger isn't "we have data". It's "we have
 users of data who depend on timely, trustworthy, reusable datasets".
 
-[Mehdi OUAZZA]({{ '/people/mehdiouazza/' | relative_url }}) describes this in
-[Scale Data Engineering Teams]({{ '/podcasts/scaling-data-engineering-teams-self-service-platforms/' | relative_url }}).
+[Mehdi OUAZZA](https://datatalks.club/people/mehdiouazza.html) describes this in
+[Scale Data Engineering Teams](https://datatalks.club/podcast/scaling-data-engineering-teams-self-service-platforms.html).
 In a scale-up, data teams feel pressure from product launches, expansion, and
 growth. They need conventions, Airflow templates, playbooks, and onboarding.
 They also need schema practices and self-service support.
@@ -86,9 +86,9 @@ They also need schema practices and self-service support.
 Otherwise every new use case becomes a one-off engineering queue. The company
 has outgrown heroic manual delivery.
 
-[Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }}) adds the
+[Christopher Bergh](https://datatalks.club/people/christopherbergh.html) adds the
 reliability version in
-[DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }}).
+[DataOps for Data Engineering](https://datatalks.club/podcast/dataops-for-data-engineering.html).
 Fragile pipelines need version control, tests, and CI/CD. They also need
 observability and deployment discipline. If your analysts or product managers
 routinely ask "which number is right?", the hiring problem isn't only capacity.
@@ -109,7 +109,7 @@ The first data engineering hire should match the hardest constraint in your
 company, not the fanciest stack in a job post. In Rassam's hiring discussion,
 juniors show fundamentals and task execution. Mid-level engineers show project
 ownership. Seniors show tradeoff reasoning and technical influence
-([Hiring Data Engineers in Europe]({{ '/podcasts/hiring-for-data-engineering-jobs-in-europe/' | relative_url }})).
+([Hiring Data Engineers in Europe](https://datatalks.club/podcast/hiring-for-data-engineering-jobs-in-europe.html)).
 
 For a founder or manager, that usually leads to four first-hire profiles:
 
@@ -122,9 +122,9 @@ For a founder or manager, that usually leads to four first-hire profiles:
 - An analytics engineer when the main gap is SQL modeling, metric definitions,
   `dbt`, tests, documentation, and BI-ready tables.
 
-[Slawomir Tulski]({{ '/people/slawomirtulski/' | relative_url }}) makes the
+[Slawomir Tulski](https://datatalks.club/people/slawomirtulski.html) makes the
 platform-versus-product split explicit in
-[Data Engineer Career in 2026]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }}).
+[Data Engineer Career in 2026](https://datatalks.club/podcast/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for.html).
 Platform data engineering leans toward shared systems and developer experience.
 Product data engineering leans toward domain use cases and data products. A
 small company may need one person to cover both, but the job description should
@@ -134,9 +134,9 @@ The broader [data engineering platforms]({{ '/wiki/data-engineering-platforms/' 
 and [data teams]({{ '/wiki/data-teams/' | relative_url }}) pages help separate
 those needs.
 
-Be cautious with junior first hires. [Katie Bauer]({{ '/people/katiebauer/' | relative_url }})
+Be cautious with junior first hires. [Katie Bauer](https://datatalks.club/people/katiebauer.html)
 warns about junior hiring in
-[How to Hire, Manage, and Grow a Data Science Team in B2B SaaS]({{ '/podcasts/hiring-and-managing-data-science-teams-in-b2b-saas/' | relative_url }}).
+[How to Hire, Manage, and Grow a Data Science Team in B2B SaaS](https://datatalks.club/podcast/hiring-and-managing-data-science-teams-in-b2b-saas.html).
 It only works when managers can provide mentoring and projects.
 Managers also need to provide feedback and growth support.
 
@@ -154,10 +154,10 @@ cloud tools.
 
 Rassam emphasizes big-picture technical literacy and tool-agnostic cloud
 knowledge in
-[Hiring Data Engineers in Europe]({{ '/podcasts/hiring-for-data-engineering-jobs-in-europe/' | relative_url }}).
+[Hiring Data Engineers in Europe](https://datatalks.club/podcast/hiring-for-data-engineering-jobs-in-europe.html).
 In
-[Data Engineering Job Prep and Interview Guide]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }}),
-[Jeff Katz]({{ '/people/jeffkatz/' | relative_url }}) explains why Python and
+[Data Engineering Job Prep and Interview Guide](https://datatalks.club/podcast/get-data-engineering-job-prep-and-interview.html),
+[Jeff Katz](https://datatalks.club/people/jeffkatz.html) explains why Python and
 SQL matter. Docker, Airflow, and warehouse concepts matter too. So do code
 quality, tests, and project explanations. They show whether someone can build
 maintainable data work, not whether each tool is a badge.
@@ -192,7 +192,7 @@ questions about backfills, incidents, and schema changes. Add cost decisions
 and stakeholder tradeoffs too.
 
 Rassam recommends level-specific evaluation in
-[Hiring Data Engineers in Europe]({{ '/podcasts/hiring-for-data-engineering-jobs-in-europe/' | relative_url }}).
+[Hiring Data Engineers in Europe](https://datatalks.club/podcast/hiring-for-data-engineering-jobs-in-europe.html).
 A junior candidate may show SQL, Python, focused training, and internships. A
 clear project story matters too. A mid-level candidate should explain design
 decisions and ownership. A senior candidate should reason through bottlenecks,
@@ -201,7 +201,7 @@ performance, and cost.
 Business context and technical direction matter too.
 
 The practical screen in Katz's interview guide includes
-[Data Engineering Job Prep and Interview Guide]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }}).
+[Data Engineering Job Prep and Interview Guide](https://datatalks.club/podcast/get-data-engineering-job-prep-and-interview.html).
 It covers Python and SQL questions, take-home projects, and database concepts.
 Docker and Airflow also appear, along with code quality. For managers, the test
 should look like the job.
@@ -229,10 +229,10 @@ candidate can explain the system without hiding behind tool names.
 Portfolio evidence matters most when a candidate lacks a perfect title history.
 Rassam explicitly references internships, projects, focused skills, and GitHub.
 Clear storytelling also matters for people entering data engineering
-([Hiring Data Engineers in Europe]({{ '/podcasts/hiring-for-data-engineering-jobs-in-europe/' | relative_url }})).
+([Hiring Data Engineers in Europe](https://datatalks.club/podcast/hiring-for-data-engineering-jobs-in-europe.html)).
 Katz also treats personal projects and open source contributions as hiring
 signals in
-[Data Engineering Job Prep and Interview Guide]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }}).
+[Data Engineering Job Prep and Interview Guide](https://datatalks.club/podcast/get-data-engineering-job-prep-and-interview.html).
 
 A strong data engineering portfolio isn't a screenshot of a dashboard. It
 shows how data moves and what the schema means. It also shows how the pipeline
@@ -264,7 +264,7 @@ fix bad metric definitions. It can still have broken source contracts or
 missing ownership.
 
 Tulski warns against over-engineered platforms and the real-time myth in
-[Data Engineer Career in 2026]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }}).
+[Data Engineer Career in 2026](https://datatalks.club/podcast/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for.html).
 He also emphasizes cost-aware engineering and strategic builders. For hiring
 managers, the rule is direct. Don't require streaming experience unless the
 business needs low latency. Don't require platform depth unless the hire will
@@ -274,7 +274,7 @@ OUAZZA's scale-up discussion shows the opposite side. When growth creates many
 similar requests, the team may need senior engineers who can create conventions
 and playbooks. They may also need onboarding, self-service, and Kafka schema
 practices
-([Scale Data Engineering Teams]({{ '/podcasts/scaling-data-engineering-teams-self-service-platforms/' | relative_url }})).
+([Scale Data Engineering Teams](https://datatalks.club/podcast/scaling-data-engineering-teams-self-service-platforms.html)).
 In that situation, senior platform experience isn't vanity. It's the work.
 
 This is the decision managers need to make before recruiting:
@@ -297,14 +297,14 @@ Many companies try to hire data engineers when they actually need analytics
 engineering. Others hire analytics engineers and then ask them to fix upstream
 platform problems. Both mistakes create frustration.
 
-[Victoria Perez Mola]({{ '/people/victoriaperezmola/' | relative_url }})
+[Victoria Perez Mola](https://datatalks.club/people/victoriaperezmola.html)
 grounds the analytics engineering role in
-[Master Analytics Engineering]({{ '/podcasts/analytics-engineer-skills-tools/' | relative_url }}).
+[Master Analytics Engineering](https://datatalks.club/podcast/analytics-engineer-skills-tools.html).
 
 The work combines modeling and `dbt` with tests, Looker, and support.
 
 Juan Manuel Perafan frames the role in
-[Foundations of Analytics Engineering]({{ '/podcasts/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices/' | relative_url }})
+[Foundations of Analytics Engineering](https://datatalks.club/podcast/s23e02-foundations-of-analytics-engineer-role-skills-scope-and-modern-practices.html)
 as business reality turned into clean data and stronger workflows.
 
 That boundary matters when you hire data engineers. If source systems, storage,
@@ -328,11 +328,11 @@ to the people who lose time when data is late or wrong.
 OUAZZA's scale-up discussion treats onboarding as part of platform work. Teams
 move faster without lowering quality when they have conventions, playbooks,
 best practices, and self-service
-([Scale Data Engineering Teams]({{ '/podcasts/scaling-data-engineering-teams-self-service-platforms/' | relative_url }})).
+([Scale Data Engineering Teams](https://datatalks.club/podcast/scaling-data-engineering-teams-self-service-platforms.html)).
 Bergh's DataOps discussion adds that data teams need practices that make
 delivery repeatable. That includes version control, tests, and deployment
 automation. Observability and recovery habits matter too
-([DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }})).
+([DataOps for Data Engineering](https://datatalks.club/podcast/dataops-for-data-engineering.html)).
 
 For managers and founders, the first 90 days should include a small but real
 data delivery project and a reliability improvement. It should also include a

@@ -38,7 +38,7 @@ Agents should consider this episode when working on NLP, LLMs, MLOps.
 
 Use these links to connect the episode to guest notes.
 
-- [Atita Arora]({{ '/people/atitaarora/' | relative_url }})
+- [Atita Arora](https://datatalks.club/people/atitaarora.html)
 
 ## Key Concepts
 

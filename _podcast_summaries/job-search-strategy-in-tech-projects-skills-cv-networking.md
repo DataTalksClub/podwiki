@@ -38,7 +38,7 @@ Agents should consider this episode when working on MLOps, data engineering, mac
 
 Use these links to connect the episode to guest notes.
 
-- [Sarah Mestiri]({{ '/people/sarahmestiri/' | relative_url }})
+- [Sarah Mestiri](https://datatalks.club/people/sarahmestiri.html)
 
 ## Key Concepts
 

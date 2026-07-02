@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Valliappa Lakshmanan]({ '/people/Valliappa Lakshmanan/' | relative_url }), [Sara Robinson]({ '/people/Sara Robinson/' | relative_url }), [Michael Munn]({ '/people/michaelmunn/' | relative_url }).
+[Valliappa Lakshmanan](https://datatalks.club/people/Valliappa Lakshmanan.html), [Sara Robinson](https://datatalks.club/people/Sara Robinson.html), [Michael Munn](https://datatalks.club/people/michaelmunn.html).
 
 ## Discussion Archive
 

@@ -15,7 +15,7 @@ Maria Sukhareva is a principal key expert in Artificial Intelligence at Siemens.
 
 ## Podcast Contributions
 
-- [Hardening Generative AI Chatbots]({{ '/podcasts/generative-ai-chatbots-in-production-security/' | relative_url }}) contributes production security guidance for prompt injection, data exfiltration, hallucination reduction, defenses, and detection.
+- [Hardening Generative AI Chatbots](https://datatalks.club/podcast/generative-ai-chatbots-in-production-security.html) contributes production security guidance for prompt injection, data exfiltration, hallucination reduction, defenses, and detection.
 
 ## Concepts Connected
 
@@ -30,4 +30,4 @@ Maria Sukhareva is a principal key expert in Artificial Intelligence at Siemens.
 
 ## Podcast Discussions
 
-- [Hardening Generative AI Chatbots: Prevent Prompt Injection, Data Exfiltration & Hallucinations]({{ '/podcasts/generative-ai-chatbots-in-production-security/' | relative_url }}). Related topics: [AI]({{ '/wiki/ai/' | relative_url }}), [LLMs]({{ '/wiki/llms/' | relative_url }}), [NLP]({{ '/wiki/nlp/' | relative_url }}), [MLOps]({{ '/wiki/mlops/' | relative_url }}), [production]({{ '/wiki/production/' | relative_url }}), [AI red teaming]({{ '/wiki/ai-red-teaming/' | relative_url }}), [security]({{ '/wiki/security/' | relative_url }}).
+- [Hardening Generative AI Chatbots: Prevent Prompt Injection, Data Exfiltration & Hallucinations](https://datatalks.club/podcast/generative-ai-chatbots-in-production-security.html). Related topics: [AI]({{ '/wiki/ai/' | relative_url }}), [LLMs]({{ '/wiki/llms/' | relative_url }}), [NLP]({{ '/wiki/nlp/' | relative_url }}), [MLOps]({{ '/wiki/mlops/' | relative_url }}), [production]({{ '/wiki/production/' | relative_url }}), [AI red teaming]({{ '/wiki/ai-red-teaming/' | relative_url }}), [security]({{ '/wiki/security/' | relative_url }}).

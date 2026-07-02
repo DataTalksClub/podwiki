@@ -38,7 +38,7 @@ Agents should consider this episode when working on computer vision, academia, a
 
 Use these links to connect the episode to guest notes.
 
-- [Aishwarya Jadhav]({{ '/people/aishwaryajadhav/' | relative_url }})
+- [Aishwarya Jadhav](https://datatalks.club/people/aishwaryajadhav.html)
 
 ## Key Concepts
 

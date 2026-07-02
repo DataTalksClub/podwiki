@@ -38,7 +38,7 @@ Agents should consider this episode when working on machine learning, data scien
 
 Use these links to connect the episode to guest notes.
 
-- [Christoph Molnar]({{ '/people/christophmolnar/' | relative_url }})
+- [Christoph Molnar](https://datatalks.club/people/christophmolnar.html)
 
 ## Key Concepts
 

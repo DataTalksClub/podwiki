@@ -19,9 +19,9 @@ values. DataTalks.Club guests frame this as a production reliability
 problem for [data engineering]({{ '/wiki/data-engineering/' | relative_url }}),
 [DataOps]({{ '/wiki/dataops/' | relative_url }}), analytics, and ML systems.
 
-[Barr Moses]({{ '/people/barrmoses/' | relative_url }}) gives the clearest
+[Barr Moses](https://datatalks.club/people/barrmoses.html) gives the clearest
 definition in
-[Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }}).
+[Data Observability Explained](https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html).
 At 4:35 she describes data downtime as the gap between when bad data appears
 and when the team notices it. At 13:40 she talks about silent quality failures
 and model drift. At 21:57 she makes the engineering point directly: a good
@@ -51,18 +51,18 @@ Each signal maps to a different data engineering failure mode:
   tables, feature pipelines, and reverse ETL syncs.
 - **Volume**: missing files, duplicated loads, failed CDC windows, and partial
   extracts. Also separates business events from ingestion problems.
-- **Schema**: [Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }})
+- **Schema**: [Natalie Kwong](https://datatalks.club/people/nataliekwong.html)
   covers schema evolution at 48:58 in
-  [ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
+  [ETL vs ELT and the Modern Data Stack](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html),
   with ingestion guardrails at 17:55 and governance-to-swamp avoidance at 21:22.
   This is where observability meets schema agreements and
   [data governance]({{ '/wiki/data-governance/' | relative_url }}).
 - **Distribution**: null spikes, extreme values, new categories, and shifts in
   country/device/product mix that break metrics without breaking jobs. For ML,
   the same mode appears as feature drift or label drift.
-- **Lineage**: [Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }})
+- **Lineage**: [Adrian Brudaru](https://datatalks.club/people/adrianbrudaru.html)
   puts metadata and lineage inside the platform layer at 21:27 in
-  [Trends in Modern Data Engineering]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}),
+  [Trends in Modern Data Engineering](https://datatalks.club/podcast/trends-in-modern-data-engineering.html),
   alongside storage, compute, access, and catalogs.
 
 ## Stack Placement
@@ -77,7 +77,7 @@ Data observability should sit where data meaning can change:
 
 It shouldn't wait until a BI dashboard or model output looks wrong.
 
-[Natalie Kwong's modern stack episode]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})
+[Natalie Kwong's modern stack episode](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html)
 shows those boundaries. At 3:19 she places connectors in the extraction and
 loading layer. At 10:00 she discusses warehouse transformations. At 30:59 she
 places orchestration around scheduled pipeline runs. At 35:42 she covers
@@ -91,7 +91,7 @@ Each boundary can produce a different observability check:
 - segment correctness in reverse ETL
 - fresh inputs for ML or product workflows
 
-[Adrian Brudaru's 2025 data engineering episode]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }})
+[Adrian Brudaru's 2025 data engineering episode](https://datatalks.club/podcast/trends-in-modern-data-engineering.html)
 adds current platform context. At 11:03 he names governance, data quality, and
 streaming as specialized parts of the field. At 35:37 he compares orchestration
 choices. At 51:19 he discusses streaming and micro-batching.
@@ -100,7 +100,7 @@ He also names Kafka, SQS, and Flink. Those surfaces need different
 observability thresholds, but each one still has to protect consumer trust.
 Moses's SLA and false-positive discussions keep the threshold tied to consumer
 impact
-([Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }}),
+([Data Observability Explained](https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html),
 35:24 and 1:00:27).
 
 ## Ownership And Response
@@ -113,7 +113,7 @@ critical feature table different from a row-count anomaly on an unused scratch
 table.
 
 Bergh's
-[Mastering DataOps]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }})
+[Mastering DataOps](https://datatalks.club/podcast/dataops-automation-and-reliable-data-pipelines.html)
 episode turns that ownership into operating practice. At 33:47 he lists practical steps
 for healthier pipelines, including version control, tests, and CI/CD. At 34:37
 he argues for moving from manual runbooks to automated playbooks. At 38:01 he
@@ -146,10 +146,10 @@ optimize the wrong funnel step. Observability helps data engineers catch the
 broken input before the conversation becomes a debate about whose number is
 right. That consumer-facing pressure is the same adoption problem Caitlin
 Moorman discusses in
-[Last-Mile Data Delivery]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }}).
+[Last-Mile Data Delivery](https://datatalks.club/podcast/last-mile-data-delivery-and-data-product-adoption-modern-data-stack.html).
 Moses grounds the same risk in silent failures and good-pipeline/bad-data
 cases at 13:40 and 21:57 in
-[Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }}).
+[Data Observability Explained](https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html).
 
 ML systems break differently because a model may look worse when features
 arrive late, a join drops rows, labels change, or a source category shifts.
@@ -159,7 +159,7 @@ Those failure modes make data observability part of
 [production]({{ '/wiki/production/' | relative_url }}). Monitoring model
 outputs without monitoring upstream data leaves many root causes hidden.
 Danny Leybzon makes the ML handoff explicit at 27:35 in
-[MLOps Architect Guide]({{ '/podcasts/mlops-model-monitoring-data-observability/' | relative_url }}),
+[MLOps Architect Guide](https://datatalks.club/podcast/mlops-model-monitoring-data-observability.html),
 where diagnosis can move upstream into ETL and data pipelines.
 
 Operational data raises the stakes further.
@@ -168,15 +168,15 @@ Operational data raises the stakes further.
 scores can push bad data into customer-facing workflows. Fraud checks,
 recommendation inputs, and customer-health signals can push the same bad inputs
 into revenue-facing decisions. Angela Ramirez's
-[fraud data engineering episode]({{ '/podcasts/building-and-scaling-data-engineering-systems-for-fraud-detection/' | relative_url }})
+[fraud data engineering episode](https://datatalks.club/podcast/building-and-scaling-data-engineering-systems-for-fraud-detection.html)
 shows why data quality matters when features feed operational decisions. In
 those cases data observability is part of product reliability, not just
 analytics hygiene.
 
 Kwong describes reverse-flow delivery at 35:42 in
-[ETL vs ELT and the Modern Data Stack]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}).
+[ETL vs ELT and the Modern Data Stack](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html).
 Choudhury describes reverse ETL delivery at 37:25-44:24 in
-[How to Build a Data-Led Growth Stack]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }}).
+[How to Build a Data-Led Growth Stack](https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html).
 
 ## Implementation Path
 
@@ -185,12 +185,12 @@ data would change a business decision or customer experience. Include ML outputs
 and operational workflows when they depend on the same sources.
 
 Barr Moses discusses ownership, SLAs, and runbooks in
-[Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }}).
+[Data Observability Explained](https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html).
 He also covers thresholds and alert fatigue.
 Tuli adds consumer-first pipeline design in
-[Modern Data Pipeline Architecture]({{ '/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/' | relative_url }})
+[Modern Data Pipeline Architecture](https://datatalks.club/podcast/modern-data-pipelines-orchestration-ingestion-modeling.html)
 at 39:23-43:05. Bergh adds DataOps playbook guidance in
-[Mastering DataOps]({{ '/podcasts/dataops-automation-and-reliable-data-pipelines/' | relative_url }})
+[Mastering DataOps](https://datatalks.club/podcast/dataops-automation-and-reliable-data-pipelines.html)
 at 33:47-34:37.
 
 For a data engineering team, a practical first pass is:
@@ -219,26 +219,26 @@ breaks.
 Treating orchestration success as data success is the most common failure.
 Airflow or Dagster can report a successful run while a source table is late,
 partial, or structurally different. Christopher Bergh's
-[DataOps episode]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }})
+[DataOps episode](https://datatalks.club/podcast/dataops-for-data-engineering.html)
 keeps tests, CI/CD, and observability separate for this reason.
 
 Alerting without ownership is another failure. If no one owns the table or SLA,
 the alert becomes background noise. The same happens when the consumer group or
 recovery path is unnamed. Moses covers ownership at 29:00, SLAs at 35:24, and
 runbooks at 41:03 in
-[Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }}).
+[Data Observability Explained](https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html).
 
 Checking only the final dashboard is also weak. By then the team has to work
 backward through ingestion, transformation, and warehouse layers under pressure.
 Semantic, activation, and ML layers add more places where the cause can hide.
 Moses's 26:04 diagnosis discussion and 58:51 lineage discussion in
-[Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }})
+[Data Observability Explained](https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html)
 support working backward through upstream and downstream assets.
 
 The deeper mistake is ignoring downstream impact. A small anomaly in a critical
 pricing, experimentation, fraud, or customer communication path can matter more
 than a large anomaly in an unused table. Barr's
-[lineage discussion]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }})
+[lineage discussion](https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html)
 is useful here because it connects incidents to affected consumers.
 
 For adjacent context, use

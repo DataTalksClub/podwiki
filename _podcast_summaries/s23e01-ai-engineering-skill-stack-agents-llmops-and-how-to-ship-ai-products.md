@@ -38,7 +38,7 @@ Agents should consider this episode when working on ai engineering, ai engineer,
 
 Use these links to connect the episode to guest notes.
 
-- [Paul Iusztin]({{ '/people/pauliusztin/' | relative_url }})
+- [Paul Iusztin](https://datatalks.club/people/pauliusztin.html)
 
 ## Key Concepts
 

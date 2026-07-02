@@ -38,7 +38,7 @@ Agents should consider this episode when working on machine learning, decision o
 
 Use these links to connect the episode to guest notes.
 
-- [Dan Becker]({{ '/people/danbecker/' | relative_url }})
+- [Dan Becker](https://datatalks.club/people/danbecker.html)
 
 ## Key Concepts
 

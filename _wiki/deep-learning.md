@@ -32,15 +32,15 @@ The strongest podcast examples pair model choice with
 [MLOps]({{ '/wiki/mlops/' | relative_url }}), and
 [production]({{ '/wiki/production/' | relative_url }}) decisions.
 
-[A Visual Introduction to Deep Learning]({{ '/books/20220214-a-visual-introduction-to-deep-learning/' | relative_url }})
+[A Visual Introduction to Deep Learning](https://datatalks.club/books/20220214-a-visual-introduction-to-deep-learning.html)
 by Meor Amer is an accessible primer on how neural networks learn from image,
 text, and sensor data before the engineering tradeoffs set in.
 
 ## Neural Models as Applied Perception
 
-[Tatiana Gabruseva]({{ '/people/tatianagabruseva/' | relative_url }}) frames
+[Tatiana Gabruseva](https://datatalks.club/people/tatianagabruseva.html) frames
 deep learning through computer vision in
-[Switch to Computer Vision and Deep Learning]({{ '/podcasts/from-physics-to-computer-vision-career-transition/' | relative_url }}).
+[Switch to Computer Vision and Deep Learning](https://datatalks.club/podcast/from-physics-to-computer-vision-career-transition.html).
 Her career-transition path starts with physics and online courses around 1:57
 and 2:32. Later chapters turn deep learning into visible project work. She
 compares Kaggle with internships around 42:34, recommends end-to-end pet
@@ -49,9 +49,9 @@ projects around 46:40, and gives a learning roadmap around 49:29.
 Those projects cover data work, labeling, deployment, and Docker. The roadmap
 adds Python and ML/DL plus SQL, algorithms, and system design.
 
-[Aishwarya Jadhav]({{ '/people/aishwaryajadhav/' | relative_url }}) makes deep
+[Aishwarya Jadhav](https://datatalks.club/people/aishwaryajadhav.html) makes deep
 learning concrete in autonomous driving. Her
-[Applying Computer Vision Research to Building Production-Ready AI Systems]({{ '/podcasts/from-computer-vision-research-to-autonomous-driving-ai/' | relative_url }})
+[Applying Computer Vision Research to Building Production-Ready AI Systems](https://datatalks.club/podcast/from-computer-vision-research-to-autonomous-driving-ai.html)
 episode moves from sensor choices around 11:22 and camera-first perception
 around 14:45. Gesture recognition for traffic control appears around 19:57. The
 deep learning model isn't isolated from the vehicle system.
@@ -72,9 +72,9 @@ used by people in the field.
 ## Transformers and Language Models
 
 Large language models are the other major deep learning thread.
-[Meryem Arik]({{ '/people/meryemarik/' | relative_url }}) explains the
+[Meryem Arik](https://datatalks.club/people/meryemarik.html) explains the
 transformer-based view in
-[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}).
+[Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html).
 She separates generative and non-generative models around 10:24, compares
 classification and generation around 11:44, and explains why LLMs matter
 for unstructured text around 14:45. For
@@ -95,9 +95,9 @@ and human evaluation appears around 56:39. Those topics place deep learning besi
 [retrieval-augmented generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}),
 and [vector databases]({{ '/wiki/vector-databases/' | relative_url }}).
 
-[Paul Iusztin]({{ '/people/pauliusztin/' | relative_url }}) extends that view
+[Paul Iusztin](https://datatalks.club/people/pauliusztin.html) extends that view
 from models to shipped products in
-[Paul's AI engineering episode]({{ '/podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products/' | relative_url }}).
+[Paul's AI engineering episode](https://datatalks.club/podcast/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products.html).
 He links deep learning and autonomous driving around 7:08 to a full-stack AI
 engineering skill stack around 22:29. RAG and knowledge management appear
 around 29:12, shipping pillars around 42:28, and portfolio work around 54:05.
@@ -107,18 +107,18 @@ ownership, and measurable behavior.
 ## Simpler Models and Baselines
 
 Guests don't treat deep learning as the default answer.
-[Ben Wilson]({{ '/people/benwilson/' | relative_url }}) argues for
+[Ben Wilson](https://datatalks.club/people/benwilson.html) argues for
 maintainability before novelty in
-[Practical Machine Learning Engineering for Production]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }}).
+[Practical Machine Learning Engineering for Production](https://datatalks.club/podcast/machine-learning-engineering-production-best-practices.html).
 He discusses overcomplicated production
 failures around 10:35, emotional attachment to complex systems around 36:13,
 and novel algorithm risk around 39:17. The case for SQL or statistics before
 deep learning appears around 44:23. Reproducibility and environment assumptions
 appear around 46:22, along with cloud cost.
 
-[Dan Becker]({{ '/people/danbecker/' | relative_url }}) gives another boundary
+[Dan Becker](https://datatalks.club/people/danbecker.html) gives another boundary
 in
-[Optimize Decisions with ML]({{ '/podcasts/machine-learning-decision-optimization/' | relative_url }}).
+[Optimize Decisions with ML](https://datatalks.club/podcast/machine-learning-decision-optimization.html).
 He separates predictions from real-world decisions around 3:00. Objectives and
 constraints appear around 9:00, uncertainty around 12:00, and prediction
 integration around 15:30. He discusses business-aligned loss functions around
@@ -139,15 +139,15 @@ That standard links the topic to
 [machine learning system design]({{ '/wiki/machine-learning-system-design/' | relative_url }}),
 and [model evaluation]({{ '/wiki/evaluation/' | relative_url }}).
 
-[Deep Learning with Structured Data]({{ '/books/20210118-deep-learning-structured-data/' | relative_url }}) by Mark Ryan is a practitioner reference for applying neural networks to tabular and relational data where simpler models often serve as the baseline.
+[Deep Learning with Structured Data](https://datatalks.club/books/20210118-deep-learning-structured-data.html) by Mark Ryan is a practitioner reference for applying neural networks to tabular and relational data where simpler models often serve as the baseline.
 
 ## Data, Labels, and Error Analysis
 
 Deep learning episodes repeatedly return to data quality because neural
 networks expose label problems as model failures.
-[Marysia Winkels]({{ '/people/marysiawinkels/' | relative_url }}) shifts the
+[Marysia Winkels](https://datatalks.club/people/marysiawinkels.html) shifts the
 focus from big data to good data around 5:24 in
-[Data-Centric AI]({{ '/podcasts/data-centric-ai/' | relative_url }}).
+[Data-Centric AI](https://datatalks.club/podcast/data-centric-ai.html).
 She contrasts model-centric and data-centric work around 5:54. Transfer
 learning and fine-tuning make label quality more important around 10:28. The
 fixed-ResNet competition around 13:45 shows how dataset edits can improve a
@@ -171,7 +171,7 @@ appear around 32:43. Geographic edge cases appear around 37:18.
 
 The discussion also covers
 inherited tests for sensitive cases around 51:28
-([Applying Computer Vision Research]({{ '/podcasts/from-computer-vision-research-to-autonomous-driving-ai/' | relative_url }})).
+([Applying Computer Vision Research](https://datatalks.club/podcast/from-computer-vision-research-to-autonomous-driving-ai.html)).
 For deep learning teams, training data and labels are maintained assets.
 Validation sets and release gates are maintained assets too, not disposable
 notebook inputs.
@@ -187,7 +187,7 @@ Simulation and closed-track testing appear around 29:45. Aishwarya discusses
 staged deployment around 32:43.
 
 Cross-domain transfer to robotics and drones appears around 36:12
-([Applying Computer Vision Research]({{ '/podcasts/from-computer-vision-research-to-autonomous-driving-ai/' | relative_url }})).
+([Applying Computer Vision Research](https://datatalks.club/podcast/from-computer-vision-research-to-autonomous-driving-ai.html)).
 An offline score isn't enough when a model must run on a device, respond
 quickly, and handle geography-specific edge cases.
 
@@ -197,7 +197,7 @@ inference optimization appear around 25:26. Prototyping versus production
 choices appear around 49:44.
 
 Latency and cost appear around 51:35, and gold-standard examples appear around 53:34
-([Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }})).
+([Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html)).
 
 The model family matters, but deployment choices determine privacy and runtime.
 They also determine failure visibility and budget.
@@ -214,24 +214,24 @@ evaluation evidence, and operating constraints justify it.
 Career episodes treat deep learning as something to demonstrate through
 projects. Tatiana recommends end-to-end computer vision pet projects around
 46:40 in
-[Switch to Computer Vision and Deep Learning]({{ '/podcasts/from-physics-to-computer-vision-career-transition/' | relative_url }}).
+[Switch to Computer Vision and Deep Learning](https://datatalks.club/podcast/from-physics-to-computer-vision-career-transition.html).
 The same episode covers Kaggle teams around 15:56, Kaggle versus internships
 around 42:34, and interview preparation around 1:04:34. A credible project
 shows the data source, labeling path, deployment route, and reason for the
 neural model.
 
-[Santiago Valdarrama]({{ '/people/svpino/' | relative_url }}) gives the
+[Santiago Valdarrama](https://datatalks.club/people/svpino.html) gives the
 software-engineer route in
-[From Software Engineering to Machine Learning]({{ '/podcasts/from-software-engineer-to-machine-learning/' | relative_url }}).
+[From Software Engineering to Machine Learning](https://datatalks.club/podcast/from-software-engineer-to-machine-learning.html).
 He emphasizes starting projects instead of overpreparing around 17:25,
 communicating ML simply around 13:00, problem analysis before coding around
 26:39, and deployment basics around 49:23. His discussion around 46:39 covers
 data pipelines, deployment, monitoring, and MLOps. Those habits matter because
 many neural-network demos fail on engineering rather than model math.
 
-[Isabella Bicalho]({{ '/people/isabellabicalho/' | relative_url }}) adds an
+[Isabella Bicalho](https://datatalks.club/people/isabellabicalho.html) adds an
 open-source route in
-[From Biology to ML]({{ '/podcasts/from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers/' | relative_url }}).
+[From Biology to ML](https://datatalks.club/podcast/from-biology-to-machine-learning-data-science-portfolio-open-source-computer-vision-transformers.html).
 
 She moves from statistics to transformers around 8:29, and Hugging Face
 computer vision contributions appear around 26:30. Open-source project types

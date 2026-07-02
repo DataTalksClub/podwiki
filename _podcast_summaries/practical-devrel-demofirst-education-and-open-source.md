@@ -38,7 +38,7 @@ Agents should consider this episode when working on open-source, computer vision
 
 Use these links to connect the episode to guest notes.
 
-- [Will Russell]({{ '/people/willrussell/' | relative_url }})
+- [Will Russell](https://datatalks.club/people/willrussell.html)
 
 ## Key Concepts
 

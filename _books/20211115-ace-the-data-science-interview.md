@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Kevin Huo]({ '/people/kevinhuo/' | relative_url }), [Nick Singh]({ '/people/nicksingh/' | relative_url }).
+[Kevin Huo](https://datatalks.club/people/kevinhuo.html), [Nick Singh](https://datatalks.club/people/nicksingh.html).
 
 ## Discussion Archive
 

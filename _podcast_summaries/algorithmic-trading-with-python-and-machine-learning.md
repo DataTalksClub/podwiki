@@ -38,7 +38,7 @@ Agents should consider this episode when working on machine learning, data scien
 
 Use these links to connect the episode to guest notes.
 
-- [Ivan Brigida]({{ '/people/ivanbrigida/' | relative_url }})
+- [Ivan Brigida](https://datatalks.club/people/ivanbrigida.html)
 
 ## Key Concepts
 

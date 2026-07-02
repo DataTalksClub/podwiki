@@ -38,7 +38,7 @@ Agents should consider this episode when working on data analytics, tools, produ
 
 Use these links to connect the episode to guest notes.
 
-- [Caitlin Moorman]({{ '/people/caitlinmoorman/' | relative_url }})
+- [Caitlin Moorman](https://datatalks.club/people/caitlinmoorman.html)
 
 ## Key Concepts
 

@@ -27,9 +27,9 @@ citations, permissions, and evaluation. That boundary appears throughout
 and matters for
 [Vector Database vs Search Engine]({{ '/wiki/vector-database-vs-search-engine/' | relative_url }}).
 
-[Atita Arora]({{ '/people/atitaarora/' | relative_url }}) gives the clearest
+[Atita Arora](https://datatalks.club/people/atitaarora.html) gives the clearest
 entry point in
-[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}).
+[Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html).
 At 17:01, she introduces Qdrant and vector databases as plug-and-play vector
 search infrastructure. At 20:27, she compares adding vectors to an existing
 search stack with adopting a standalone vector database.
@@ -42,18 +42,18 @@ lookup. It returns items close to a query vector. The query vector may represent
 text, an image, a user session, or a product. It may also represent another
 signal from a machine learning model.
 
-[Meryem Arik]({{ '/people/meryemarik/' | relative_url }}) gives the LLM version
+[Meryem Arik](https://datatalks.club/people/meryemarik.html) gives the LLM version
 in
-[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}).
+[Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html).
 At 48:01, she connects vector databases to embeddings, indexing, and semantic
 search in retrieval-augmented systems. Her framing places the database between
 document preparation and answer generation. It stores representations, while
 the application chooses what to retrieve, how to package context, and how to
 judge the final answer.
 
-[Daniel Svonava]({{ '/people/danielsvonava/' | relative_url }}) gives the
+[Daniel Svonava](https://datatalks.club/people/danielsvonava.html) gives the
 search-engineering version in
-[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}).
+[Building Search Systems](https://datatalks.club/podcast/building-production-search-systems.html).
 At 27:21, he frames vector databases as stores for embeddings plus
 nearest-neighbor search. At 29:00, he separates vector compute from vector
 storage. The model or ingestion pipeline creates embeddings during indexing and
@@ -62,7 +62,7 @@ at query time. The database stores those vectors and retrieves candidates.
 Vector search depends on representation quality. If the embedding model does
 not encode the distinction a product needs, the vector database can't repair
 the retrieval result. Daniel's 21:55 discussion in
-[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }})
+[Building Search Systems](https://datatalks.club/podcast/building-production-search-systems.html)
 explains vector search through shared embedding representations. The same
 episode extends that idea to multimodal retrieval and personalization, where
 different signals have to live in a comparable vector space.
@@ -71,7 +71,7 @@ different signals have to live in a comparable vector space.
 
 Teams differ most on where a vector database belongs in the stack. Atita starts
 from existing search systems. Her 20:27 discussion in
-[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
+[Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html)
 asks whether teams should add vector support to a current search engine. They
 could also run a standalone vector database or combine both. That makes
 adoption a migration
@@ -81,7 +81,7 @@ Elasticsearch, or Solr.
 Daniel starts from representation learning and
 [production search evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }}).
 In
-[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}),
+[Building Search Systems](https://datatalks.club/podcast/building-production-search-systems.html),
 his 34:00 discussion puts vectors next to filters, recency, and business
 constraints. His 52:35 discussion covers vendor selection. At 54:56, he
 compares Lucene and Elasticsearch with specialized vector databases. This view
@@ -101,13 +101,13 @@ and [Information Retrieval]({{ '/wiki/information-retrieval/' | relative_url }})
 [RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}) is the most visible vector-database use
 case in these episodes, but the guests don't reduce RAG to vector storage.
 Atita's podcast-transcript example in
-[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
+[Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html)
 starts with chunking, overlap, embedding models, and vectorization at 38:24. At
 42:49, she connects retrieval and augmentation to generation. She also covers
 prompt design and citations.
 
 Meryem gives the production LLM reason for retrieval. Her
-[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }})
+[Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html)
 discussion argues at 40:46 that changing knowledge is often better handled with
 retrieval than with repeated fine-tuning. At 42:02, she connects that choice to
 indexing documents and grounding answers. A vector database can retrieve
@@ -126,13 +126,13 @@ Production search still needs ranking, filtering, metadata, and business
 constraints. Vector similarity produces candidate matches. Product search,
 support search, and recommendation systems often need hybrid retrieval.
 Daniel's 34:00 discussion in
-[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }})
+[Building Search Systems](https://datatalks.club/podcast/building-production-search-systems.html)
 combines vector similarity with filters and recency. At 39:53, he discusses how
 constraints and business rules fit poorly if teams try to express everything as
 one vector query.
 
 Vector databases also support retrieval beyond document chunks. At 32:43 in
-[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}),
+[Building Search Systems](https://datatalks.club/podcast/building-production-search-systems.html),
 Daniel uses CLIP for text-to-image retrieval. At 38:11, he discusses title and
 content embeddings. He also discusses image and behavioral embeddings. At
 40:48, he discusses recency and time bias in vector space.
@@ -142,7 +142,7 @@ Those examples connect vector databases to
 that retrieve products, images, sessions, or recommendation candidates.
 
 Atita reaches a similar conclusion from search practice. In
-[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}),
+[Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html),
 her 52:07 discussion covers session-based recommendations and reranking. At
 54:54, she compares session-based personalization with collaborative filtering.
 Those examples place vector databases beside
@@ -151,15 +151,15 @@ ranking, and search, not above them.
 
 ## Graph and Structured Retrieval
 
-[Anahita Pakiman]({{ '/people/anahitapakiman/' | relative_url }}) adds a
+[Anahita Pakiman](https://datatalks.club/people/anahitapakiman.html) adds a
 structured-knowledge contrast in
-[Knowledge Graphs and LLMs for Automotive R&D]({{ '/podcasts/knowledge-graphs-and-llms-for-automotive-rnd/' | relative_url }}).
+[Knowledge Graphs and LLMs for Automotive R&D](https://datatalks.club/podcast/knowledge-graphs-and-llms-for-automotive-rnd.html).
 At 38:10, she contrasts text chunking, embeddings, and vector databases with
 knowledge graph semantics. Nearest-neighbor retrieval finds similar chunks,
 while a graph can preserve explicit relationships and typed paths.
 
 Her 33:43 and 39:56 discussions in
-[Knowledge Graphs and LLMs for Automotive R&D]({{ '/podcasts/knowledge-graphs-and-llms-for-automotive-rnd/' | relative_url }})
+[Knowledge Graphs and LLMs for Automotive R&D](https://datatalks.club/podcast/knowledge-graphs-and-llms-for-automotive-rnd.html)
 show a different retrieval design. She combines LLM grounding with knowledge
 graphs and Cypher-driven retrieval. That makes
 [Graph RAG vs Vector RAG]({{ '/wiki/graph-rag-vs-vector-rag/' | relative_url }})
@@ -168,7 +168,7 @@ and
 architecture choices about evidence structure. Some systems need similar text or
 images. Others need entities, paths, report structure, or domain relationships.
 
-For the underlying graph database technology, [Graph Databases in Action]({{ '/books/20210614-graph-databases-in-action/' | relative_url }}) by Dave Bechberger and Josh Perryman covers property graph models, query patterns, and when graph storage fits a domain better than relational or vector stores.
+For the underlying graph database technology, [Graph Databases in Action](https://datatalks.club/books/20210614-graph-databases-in-action.html) by Dave Bechberger and Josh Perryman covers property graph models, query patterns, and when graph storage fits a domain better than relational or vector stores.
 
 ## Evaluation and Operations
 
@@ -180,9 +180,9 @@ the final LLM answer can cite the wrong chunk.
 
 Atita discusses multi-level RAG evaluation and human-in-the-loop review at
 48:09 in
-[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}).
+[Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html).
 Daniel takes the search-metrics route in
-[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}):
+[Building Search Systems](https://datatalks.club/podcast/building-production-search-systems.html):
 at 1:01:25, he connects search quality to business metrics, A/B tests, and
 revenue attribution. At 1:03:50, he discusses offline evaluation and
 operational metrics. Those discussions make vector database evaluation part of
@@ -190,7 +190,7 @@ operational metrics. Those discussions make vector database evaluation part of
 not a standalone benchmark.
 
 Storage and compute also change at different speeds. In
-[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}),
+[Building Search Systems](https://datatalks.club/podcast/building-production-search-systems.html),
 Daniel separates ingestion-time encoding from query-time encoding at 29:00. At
 30:22, he covers recomputing embeddings and model versioning. Teams may need to
 rebuild indexes during model swaps, chunking changes, new modalities, or

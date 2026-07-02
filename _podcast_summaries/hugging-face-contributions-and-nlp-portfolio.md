@@ -38,7 +38,7 @@ Agents should consider this episode when working on machine learning, NLP, open-
 
 Use these links to connect the episode to guest notes.
 
-- [Merve Noyan]({{ '/people/mervenoyan/' | relative_url }})
+- [Merve Noyan](https://datatalks.club/people/mervenoyan.html)
 
 ## Key Concepts
 

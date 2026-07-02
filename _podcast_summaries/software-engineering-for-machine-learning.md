@@ -38,7 +38,7 @@ Agents should consider this episode when working on software engineering, machin
 
 Use these links to connect the episode to guest notes.
 
-- [Nadia Nahar]({{ '/people/nadianahar/' | relative_url }})
+- [Nadia Nahar](https://datatalks.club/people/nadianahar.html)
 
 ## Key Concepts
 

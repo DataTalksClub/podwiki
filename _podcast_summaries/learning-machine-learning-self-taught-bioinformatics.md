@@ -38,7 +38,7 @@ Agents should consider this episode when working on bioinformatics, machine lear
 
 Use these links to connect the episode to guest notes.
 
-- [Aaisha Muhammad]({{ '/people/aaishamuhammad/' | relative_url }})
+- [Aaisha Muhammad](https://datatalks.club/people/aaishamuhammad.html)
 
 ## Key Concepts
 

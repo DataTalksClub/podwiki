@@ -38,7 +38,7 @@ Agents should consider this episode when working on machine learning, design thi
 
 Use these links to connect the episode to guest notes.
 
-- [Liesbeth Dingemans]({{ '/people/liesbethdingemans/' | relative_url }})
+- [Liesbeth Dingemans](https://datatalks.club/people/liesbethdingemans.html)
 
 ## Key Concepts
 

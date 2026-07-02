@@ -38,7 +38,7 @@ Agents should consider this episode when working on data engineering, data gover
 
 Use these links to connect the episode to guest notes.
 
-- [Mehdi OUAZZA]({{ '/people/mehdiouazza/' | relative_url }})
+- [Mehdi OUAZZA](https://datatalks.club/people/mehdiouazza.html)
 
 ## Key Concepts
 

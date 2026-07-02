@@ -38,7 +38,7 @@ Agents should consider this episode when working on data engineering, LLMs, comp
 
 Use these links to connect the episode to guest notes.
 
-- [Rachel Lim]({{ '/people/rachellim/' | relative_url }})
+- [Rachel Lim](https://datatalks.club/people/rachellim.html)
 
 ## Key Concepts
 

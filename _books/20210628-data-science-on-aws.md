@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Chris Fregly]({ '/people/chrisfregly/' | relative_url }), [Antje Barth]({ '/people/antjebarth/' | relative_url }).
+[Chris Fregly](https://datatalks.club/people/chrisfregly.html), [Antje Barth](https://datatalks.club/people/antjebarth.html).
 
 ## Discussion Archive
 

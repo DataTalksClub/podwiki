@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Manoj Kukreja]({ '/people/manojkukreja/' | relative_url }).
+[Manoj Kukreja](https://datatalks.club/people/manojkukreja.html).
 
 ## Discussion Archive
 

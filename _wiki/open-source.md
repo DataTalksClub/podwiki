@@ -24,15 +24,15 @@ related:
 
 Open source means public software that other people can use, discuss, and
 improve. DataTalks.Club guests usually discuss it through data and ML tools.
-[Vincent Warmerdam's contribution episode]({{ '/podcasts/open-source-ml-contributions/' | relative_url }})
+[Vincent Warmerdam's contribution episode](https://datatalks.club/podcast/open-source-ml-contributions.html)
 covers scikit-learn ecosystem libraries, and
-[Merve Noyan's NLP portfolio episode]({{ '/podcasts/hugging-face-contributions-and-nlp-portfolio/' | relative_url }})
+[Merve Noyan's NLP portfolio episode](https://datatalks.club/podcast/hugging-face-contributions-and-nlp-portfolio.html)
 covers Hugging Face work.
-[Natalie Kwong's modern data stack episode]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})
+[Natalie Kwong's modern data stack episode](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html)
 covers Airbyte,
-[Adrian Brudaru's founder episode]({{ '/podcasts/from-data-freelancer-to-startup-open-source-products/' | relative_url }})
+[Adrian Brudaru's founder episode](https://datatalks.club/podcast/from-data-freelancer-to-startup-open-source-products.html)
 covers DLT, and
-[Elena Samuylova's MLOps startup episode]({{ '/podcasts/building-mlops-startup/' | relative_url }})
+[Elena Samuylova's MLOps startup episode](https://datatalks.club/podcast/building-mlops-startup.html)
 covers Evidently.
 Other episodes cover terminal UI tools, reproducibility tools, and open-source
 NLP tooling.
@@ -61,9 +61,9 @@ For open-source adoption work, use
 
 ## Reusable Project Work
 
-[Vincent Warmerdam]({{ '/people/vincentwarmerdam/' | relative_url }}) gives a
+[Vincent Warmerdam](https://datatalks.club/people/vincentwarmerdam.html) gives a
 practical definition in
-[Contribute to Open Source ML]({{ '/podcasts/open-source-ml-contributions/' | relative_url }}).
+[Contribute to Open Source ML](https://datatalks.club/podcast/open-source-ml-contributions.html).
 At 9:30, he frames open source through pragmatism and reciprocity. At 13:10 and
 15:00, he explains how small tools started from concrete needs. His examples
 include `whatlies`, `clumper`, `memo`, and scikit-lego.
@@ -76,16 +76,16 @@ examples, open source is about
 [Open Source Contributor Roadmap]({{ '/wiki/open-source-contributor-roadmap/' | relative_url }})
 more than to repository publishing alone.
 
-[Will McGugan]({{ '/people/willmcgugan/' | relative_url }}) gives a similar
+[Will McGugan](https://datatalks.club/people/willmcgugan.html) gives a similar
 builder-centered definition in
-[From Developer to Startup Founder]({{ '/podcasts/open-source-turned-into-career-and-startup-creation/' | relative_url }}).
+[From Developer to Startup Founder](https://datatalks.club/podcast/open-source-turned-into-career-and-startup-creation.html).
 PyFilesystem, Rich, and Textual grew out of his own needs and experiments
-([4:18-26:39]({{ '/podcasts/open-source-turned-into-career-and-startup-creation/' | relative_url }})).
+([4:18-26:39](https://datatalks.club/podcast/open-source-turned-into-career-and-startup-creation.html)).
 At 57:20, he advises new authors to solve their own problem first. That keeps
 open source attached to useful software rather than GitHub visibility.
 
 For data and ML tools, usefulness also depends on ecosystem fit. In
-[Open Source ML Tools]({{ '/podcasts/open-source-ml-tools-strategy-and-business-models/' | relative_url }}),
+[Open Source ML Tools](https://datatalks.club/podcast/open-source-ml-tools-strategy-and-business-models.html),
 Vincent explains why not every useful idea should enter core scikit-learn.
 At 14:01, he names plugins such as UMAP and scikit-lego as a healthier path. A
 method can follow scikit-learn conventions without adding maintenance burden to
@@ -99,7 +99,7 @@ not only to public repositories.
 Guests agree that open source should be useful, but they focus on different
 parts of the system.
 Vincent focuses on small libraries, maintainability, and project boundaries. In
-[Open Source ML Tools]({{ '/podcasts/open-source-ml-tools-strategy-and-business-models/' | relative_url }}),
+[Open Source ML Tools](https://datatalks.club/podcast/open-source-ml-tools-strategy-and-business-models.html),
 he moves from scikit-learn governance at 10:28 to plugin strategy at 14:01. He
 then covers maintainer transition at 18:11, volunteer motivation at 21:51, and
 CI costs at 31:42.
@@ -110,9 +110,9 @@ only a publishing format. That view sits close to
 [tools]({{ '/wiki/tools/' | relative_url }}), and project
 [governance](#governance-and-project-boundaries).
 
-[Merve Noyan]({{ '/people/mervenoyan/' | relative_url }}) focuses on public
+[Merve Noyan](https://datatalks.club/people/mervenoyan.html) focuses on public
 contribution work and portfolio evidence through Hugging Face in
-[Contribute to Hugging Face and Build an NLP Portfolio]({{ '/podcasts/hugging-face-contributions-and-nlp-portfolio/' | relative_url }}).
+[Contribute to Hugging Face and Build an NLP Portfolio](https://datatalks.club/podcast/hugging-face-contributions-and-nlp-portfolio.html).
 At 6:30 and 10:31, contribution sprints and good-first issues make the first
 step less ambiguous. At 17:37 and 51:12, Spaces and Streamlit or Gradio demos
 turn model work into something other people can look at. Her version links
@@ -120,9 +120,9 @@ directly to
 [Open Source Portfolio Evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
 and [machine learning portfolio projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}).
 
-[Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }}) focuses
+[Hugo Bowne-Anderson](https://datatalks.club/people/hugobowneanderson.html) focuses
 on education, feedback, and company support around projects such as Metaflow in
-[DevRel Role for Machine Learning]({{ '/podcasts/devrel-open-source-machine-learning/' | relative_url }}).
+[DevRel Role for Machine Learning](https://datatalks.club/podcast/devrel-open-source-machine-learning.html).
 At 18:03, he frames DevRel as education and documentation around tools. At
 25:17 and 36:27, he connects collaboration, dogfooding, and developer feedback.
 That puts his Metaflow examples next to
@@ -131,24 +131,24 @@ That puts his Metaflow examples next to
 [Open Source and Developer Relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }}).
 
 Founders and investors add a different lens. [Elena
-Samuylova]({{ '/people/elenasamuylova/' | relative_url }}) uses Evidently to
+Samuylova](https://datatalks.club/people/elenasamuylova.html) uses Evidently to
 explain open core, cloud, and on-prem adoption in
-[How to Build a Successful ML Startup]({{ '/podcasts/building-mlops-startup/' | relative_url }}).
+[How to Build a Successful ML Startup](https://datatalks.club/podcast/building-mlops-startup.html).
 Her sequence starts before the repository. She covers customer discovery at
 42:15, Evidently validation at 43:59, and founder work around content and
 community at 46:32. Use [startup]({{ '/wiki/startups/' | relative_url }}) and
 [founder]({{ '/wiki/founder/' | relative_url }}) for that operating lens.
 
-[Sonal Goyal]({{ '/people/sonalgoyal/' | relative_url }}) uses Zingg to explain
+[Sonal Goyal](https://datatalks.club/people/sonalgoyal.html) uses Zingg to explain
 why open source can be both giving back and distribution in
-[Building an Open-Source ML-Powered Identity Resolution Tool]({{ '/podcasts/building-open-source-data-product-for-identity-resolution/' | relative_url }}).
+[Building an Open-Source ML-Powered Identity Resolution Tool](https://datatalks.club/podcast/building-open-source-data-product-for-identity-resolution.html).
 Zingg took about 18 months before public release at 23:00. At 54:11 and 56:07,
 she connects hindsight to cofounder search and earlier open source. She also
 connects it to use-case validation and distribution channels.
 
-[Bela Wiertz]({{ '/people/belawiertz/' | relative_url }}) treats open source as
+[Bela Wiertz](https://datatalks.club/people/belawiertz.html) treats open source as
 developer-tool go-to-market in
-[Early-Stage Investing in Open Source Developer Tools]({{ '/podcasts/investing-in-open-source-developer-tools/' | relative_url }}).
+[Early-Stage Investing in Open Source Developer Tools](https://datatalks.club/podcast/investing-in-open-source-developer-tools.html).
 At 39:01, he warns that GitHub stars need interpretation. Active users,
 engagement, and problem validity matter more than vanity metrics.
 For startup distribution, that investor lens pairs open source with
@@ -168,32 +168,32 @@ configuration. A model hub exposes models, datasets, demos, and community
 support.
 
 Vincent's scikit-learn examples show the library route. In
-[Contribute to Open Source ML]({{ '/podcasts/open-source-ml-contributions/' | relative_url }}),
+[Contribute to Open Source ML](https://datatalks.club/podcast/open-source-ml-contributions.html),
 he uses scikit-lego to explain ecosystem-compatible components at 17:15 and
 low-maintenance APIs at 19:00. In
-[Open Source ML Tools]({{ '/podcasts/open-source-ml-tools-strategy-and-business-models/' | relative_url }}),
+[Open Source ML Tools](https://datatalks.club/podcast/open-source-ml-tools-strategy-and-business-models.html),
 he explains why :probabl. should stay separate from scikit-learn at 8:33 and
 why governance sits with the project and NumFOCUS at 10:28. This keeps company
 support separate from project ownership.
 
 Merve's Hugging Face episode shows a platform route. Dataset scripts and Hub
 features appear next to Spaces, with community tabs and forum support nearby
-([8:13-18:31]({{ '/podcasts/hugging-face-contributions-and-nlp-portfolio/' | relative_url }})).
+([8:13-18:31](https://datatalks.club/podcast/hugging-face-contributions-and-nlp-portfolio.html)).
 That turns open source into an ecosystem of models and datasets. Demos and
 community support matter as much as code. It also connects open source to
 [NLP]({{ '/wiki/nlp/' | relative_url }}),
 [model registries]({{ '/wiki/model-registry/' | relative_url }}), and
 [developer experience]({{ '/wiki/developer-experience/' | relative_url }}).
 
-[Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) gives the data
+[Natalie Kwong](https://datatalks.club/people/nataliekwong.html) gives the data
 engineering connector route in
-[ETL vs ELT and Data Lake vs Warehouse]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}).
+[ETL vs ELT and Data Lake vs Warehouse](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html).
 Airbyte's open-source strategy at 43:45 depends on the long tail of connector
 needs. At 46:52, custom connectors and enterprise features sit closer to the
 cloud offering. At 48:26 and 49:32, she discusses cloud competition and license
 choices. The same episode links Airbyte to ELT, dbt, CDC, and the modern data
 stack
-([31:31-49:32]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})).
+([31:31-49:32](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html)).
 
 This is why open source sits next to
 [data engineering tools]({{ '/wiki/data-engineering-tools/' | relative_url }}),
@@ -201,11 +201,11 @@ This is why open source sits next to
 [ELT]({{ '/wiki/elt/' | relative_url }}), and
 [CDC]({{ '/wiki/cdc/' | relative_url }}).
 
-[Sonal Goyal]({{ '/people/sonalgoyal/' | relative_url }}) gives the data
+[Sonal Goyal](https://datatalks.club/people/sonalgoyal.html) gives the data
 product route through Zingg. The product handles entity and identity resolution,
 while the open-source decision affects adoption, licensing, and integrations. It
 also affects growth
-([18:13-31:10]({{ '/podcasts/building-open-source-data-product-for-identity-resolution/' | relative_url }})).
+([18:13-31:10](https://datatalks.club/podcast/building-open-source-data-product-for-identity-resolution.html)).
 For complex matching systems, public software also helps buyers evaluate the
 logic before they commit to a tool. That matters when the product touches
 customer identity, fraud, or data quality.
@@ -215,9 +215,9 @@ The topic connects open source to
 [data engineering]({{ '/wiki/data-engineering/' | relative_url }}), and
 [machine learning]({{ '/wiki/machine-learning/' | relative_url }}).
 
-[Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) gives the
+[Adrian Brudaru](https://datatalks.club/people/adrianbrudaru.html) gives the
 programmable library route through DLT in
-[From Data Freelancer to Startup]({{ '/podcasts/from-data-freelancer-to-startup-open-source-products/' | relative_url }}).
+[From Data Freelancer to Startup](https://datatalks.club/podcast/from-data-freelancer-to-startup-open-source-products.html).
 The library turns JSON into relational data at 19:38 and evolves through user
 feedback at 23:30. Workshops validate the product at 36:00, and docs become a
 productive asset at 41:23. Ecosystem demos support bottom-up adoption at 50:53.
@@ -234,7 +234,7 @@ can a demo, guide, test, or discussion.
 The review trail matters too because it shows how the project responded.
 Vincent's contribution advice is deliberately small.
 Around 22:20 in
-[Contribute to Open Source ML]({{ '/podcasts/open-source-ml-contributions/' | relative_url }}),
+[Contribute to Open Source ML](https://datatalks.club/podcast/open-source-ml-contributions.html),
 he treats README material and guides as part of the project surface. API
 reference and examples belong there too.
 
@@ -246,11 +246,11 @@ pre-commit hooks matter too. Those details connect the page to
 [testing]({{ '/wiki/testing/' | relative_url }}).
 
 Merve gives the Hugging Face version in
-[Contribute to Hugging Face and Build an NLP Portfolio]({{ '/podcasts/hugging-face-contributions-and-nlp-portfolio/' | relative_url }}).
+[Contribute to Hugging Face and Build an NLP Portfolio](https://datatalks.club/podcast/hugging-face-contributions-and-nlp-portfolio.html).
 She describes contribution sprints, dataset scripts, and CI learning. Good-first
 issues, forum support, and non-code contributions belong in the same
 contribution surface
-([6:30-25:09]({{ '/podcasts/hugging-face-contributions-and-nlp-portfolio/' | relative_url }})).
+([6:30-25:09](https://datatalks.club/podcast/hugging-face-contributions-and-nlp-portfolio.html)).
 
 At 23:26 and 30:21, she says hiring managers can use GitHub work as a work
 sample. They can see large-codebase experience, pull requests, tests, and
@@ -258,31 +258,31 @@ maintainer feedback. At 33:23, PR rejection becomes design alignment. Open a
 discussion, understand the project direction, and add tests that prove
 compatibility.
 
-[Jeff Katz]({{ '/people/jeffkatz/' | relative_url }}) adds the data-engineering
+[Jeff Katz](https://datatalks.club/people/jeffkatz.html) adds the data-engineering
 hiring bar in
-[Data Engineering Job Prep]({{ '/podcasts/get-data-engineering-job-prep-and-interview/' | relative_url }}).
+[Data Engineering Job Prep](https://datatalks.club/podcast/get-data-engineering-job-prep-and-interview.html).
 At 1:49 and 2:22, portfolios need Python and SQL depth, code structure, and
 tests. At 2:46, open-source contributions are useful because review pressure
 makes the work closer to professional practice.
 
-[Nick Singh]({{ '/people/nicksingh/' | relative_url }}) adds the interview
+[Nick Singh](https://datatalks.club/people/nicksingh.html) adds the interview
 framing in
-[Ace Data Interviews]({{ '/podcasts/data-interview-behavioral-and-portfolio-prep-guide/' | relative_url }}).
+[Ace Data Interviews](https://datatalks.club/podcast/data-interview-behavioral-and-portfolio-prep-guide.html).
 At 25:13 and 27:50, a project walkthrough has to show ownership and lead with
 impact. At 37:18, candidates should defend the technical claims they put in
 front of interviewers. An open-source link still needs a clear explanation of
 the problem and setup. It also needs quality controls, maintainer interaction,
 and the result.
 
-[Shawn Swyx Wang]({{ '/people/swyx/' | relative_url }}) adds the learn-in-public
+[Shawn Swyx Wang](https://datatalks.club/people/swyx.html) adds the learn-in-public
 mechanism in
-[Learn in Public]({{ '/podcasts/developer-personal-brand-learn-in-public/' | relative_url }}).
+[Learn in Public](https://datatalks.club/podcast/developer-personal-brand-learn-in-public.html).
 At 23:53, public learning includes progress and corrections. At 47:14 and
 51:10, collaborative docs and cheat sheets make the work easier for others to
 understand. Demos and brag documents help too.
 
 Will adds the founder and hiring view. At 44:38 in
-[From Developer to Startup Founder]({{ '/podcasts/open-source-turned-into-career-and-startup-creation/' | relative_url }}),
+[From Developer to Startup Founder](https://datatalks.club/podcast/open-source-turned-into-career-and-startup-creation.html),
 he says open-source work gives a hiring manager a visible body of work. He also
 notes that good developers can exist without public contributions. The project
 therefore treats open source as a strong signal, not a universal requirement.
@@ -303,19 +303,19 @@ Open-source communities work best when they help contributors while protecting
 maintainer time. Vincent's advice around contribution guides and polite issue
 interaction isn't only etiquette. Smaller repositories matter, and tests and CI
 matter too
-([Contribute to Open Source ML]({{ '/podcasts/open-source-ml-contributions/' | relative_url }}),
+([Contribute to Open Source ML](https://datatalks.club/podcast/open-source-ml-contributions.html),
 24:10-29:30). These habits help maintainers review work without turning every
 issue into a support queue.
 
 In the later scikit-learn conversation, Vincent returns to the same concern
 through maintainer transition and volunteer motivation. He also talks about CI
 cost control
-([Open Source ML Tools]({{ '/podcasts/open-source-ml-tools-strategy-and-business-models/' | relative_url }}),
+([Open Source ML Tools](https://datatalks.club/podcast/open-source-ml-tools-strategy-and-business-models.html),
 18:11 / 21:51 / 31:42). Public code still needs operating discipline.
 
-[Will Russell]({{ '/people/willrussell/' | relative_url }}) shows how structured
+[Will Russell](https://datatalks.club/people/willrussell.html) shows how structured
 programs can make the first contribution less confusing. In
-[Developer Advocacy Through Community Impact]({{ '/podcasts/practical-devrel-demofirst-education-and-open-source/' | relative_url }}),
+[Developer Advocacy Through Community Impact](https://datatalks.club/podcast/practical-devrel-demofirst-education-and-open-source.html),
 he describes hackathons, the MLH Fellowship, and Git practice. He also covers
 environment setup and mentorship for large repositories. Around 35:43, 39:02,
 and 41:16, contributors need project context and setup help. Small scopes and
@@ -326,7 +326,7 @@ may require local services, memory, or hardware before a beginner can make a
 useful change. Some projects need GPUs, Colab, or VMs.
 
 Hugo connects this community work to product feedback in
-[DevRel Role for Machine Learning]({{ '/podcasts/devrel-open-source-machine-learning/' | relative_url }}).
+[DevRel Role for Machine Learning](https://datatalks.club/podcast/devrel-open-source-machine-learning.html).
 Around 18:03 and 25:17, he describes DevRel through education and
 documentation. Around 36:27, he adds dogfooding and feedback from developers
 using the tool. In an open-source project, tutorials and demos aren't side work.
@@ -337,12 +337,12 @@ understand.
 
 Open-source governance decides what the project can support and what should live
 nearby. Hugo discusses company support for Dask and Metaflow at 10:47 in
-[DevRel Role for Machine Learning]({{ '/podcasts/devrel-open-source-machine-learning/' | relative_url }}).
+[DevRel Role for Machine Learning](https://datatalks.club/podcast/devrel-open-source-machine-learning.html).
 He distinguishes company involvement from project ownership, which matters when
 a company wants community trust without taking over the project.
 
 Vincent discusses :probabl., scikit-learn, and company naming in
-[Open Source ML Tools]({{ '/podcasts/open-source-ml-tools-strategy-and-business-models/' | relative_url }}).
+[Open Source ML Tools](https://datatalks.club/podcast/open-source-ml-tools-strategy-and-business-models.html).
 Around 8:33, he explains why the company name should stay separate from the
 open-source project. Around 10:28, he discusses scikit-learn governance,
 NumFOCUS, and project history. Around 14:01, he argues for plugins when new
@@ -354,7 +354,7 @@ reliability. Maintainers may need custom GitHub Actions runners or caching. They
 may also need cheaper compute.
 
 Merve's
-[Hugging Face discussion at 33:23]({{ '/podcasts/hugging-face-contributions-and-nlp-portfolio/' | relative_url }})
+[Hugging Face discussion at 33:23](https://datatalks.club/podcast/hugging-face-contributions-and-nlp-portfolio.html)
 treats pull-request rejection, tests, and design discussion as normal parts of
 contribution. Public code doesn't remove review. It makes review norms visible.
 
@@ -363,7 +363,7 @@ contribution. Public code doesn't remove review. It makes review norms visible.
 Several founders use open source because data and ML buyers need trust before
 they adopt infrastructure. That doesn't replace customer discovery. Elena
 explains this for Evidently in
-[How to Build a Successful ML Startup]({{ '/podcasts/building-mlops-startup/' | relative_url }}).
+[How to Build a Successful ML Startup](https://datatalks.club/podcast/building-mlops-startup.html).
 
 At 42:15 and 43:59, the Evidently story starts with interviews and validation
 around model monitoring. At 48:11 and 49:29, she describes open core, cloud, and
@@ -375,16 +375,16 @@ At 51:48 and 56:17, she connects the model to bottom-up adoption and on-prem
 use when teams don't want to send data away.
 
 Sonal gives the identity-resolution version in
-[Building an Open-Source ML-Powered Identity Resolution Tool]({{ '/podcasts/building-open-source-data-product-for-identity-resolution/' | relative_url }}).
+[Building an Open-Source ML-Powered Identity Resolution Tool](https://datatalks.club/podcast/building-open-source-data-product-for-identity-resolution.html).
 At 23:00, Zingg took about 18 months before public release. At 24:14, she says
 open source was both a way to give back and a way for Zingg to reach more
 companies. At 27:00, she discusses AGPL as a licensing choice to reduce the
 risk of another company rehosting the product as SaaS. At 31:10, she still
 treats discoverability and growth as major reasons to open source the product.
 
-[Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }}) shows the same
+[Natalie Kwong](https://datatalks.club/people/nataliekwong.html) shows the same
 tradeoff for data connectors in
-[ETL vs ELT and Data Lake vs Warehouse]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}).
+[ETL vs ELT and Data Lake vs Warehouse](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html).
 At 43:45, she explains why Airbyte is open source. A broad connector community
 helps cover sources that a closed team may not prioritize. At 46:52, the cloud
 and enterprise offering sits around that project. At 48:26 and 49:32, she
@@ -404,7 +404,7 @@ technical practice from
 ## Open Source as Distribution
 
 Bela adds the investor view in
-[Early-Stage Investing in Open Source Developer Tools]({{ '/podcasts/investing-in-open-source-developer-tools/' | relative_url }}).
+[Early-Stage Investing in Open Source Developer Tools](https://datatalks.club/podcast/investing-in-open-source-developer-tools.html).
 At 13:42 and 16:40, he treats open source as go-to-market through community
 trust and bottom-up developer adoption. At 32:31 and 36:27, it still needs a
 team, market need, and problem validity. At 39:01, he warns that GitHub stars
@@ -414,9 +414,9 @@ At 49:28 and 51:09, he discusses open-core licensing and hosted services. At
 54:47, support-only revenue looks less attractive because it scales with
 headcount.
 
-[Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) shows the
+[Adrian Brudaru](https://datatalks.club/people/adrianbrudaru.html) shows the
 library-to-startup path for DLT in
-[From Data Freelancer to Startup]({{ '/podcasts/from-data-freelancer-to-startup-open-source-products/' | relative_url }}).
+[From Data Freelancer to Startup](https://datatalks.club/podcast/from-data-freelancer-to-startup-open-source-products.html).
 Around 36:00, his team uses workshops as product feedback. Around 41:23, he
 treats documentation as a productive asset. Around 47:56 and 50:53, he explains
 bottom-up go-to-market through personas, ecosystem partnerships, and demos.
@@ -427,9 +427,9 @@ This route came from freelancing, savings, consulting, and design partners.
 Product validation mattered too, so it's a services-to-product route rather than
 only an open-source launch.
 
-[Johannes Hötter]({{ '/people/johanneshotter/' | relative_url }}) gives a
+[Johannes Hötter](https://datatalks.club/people/johanneshotter.html) gives a
 similar story for open-source NLP tooling in
-[Build Open-Source NLP Tools]({{ '/podcasts/building-open-source-nlp-tool/' | relative_url }}).
+[Build Open-Source NLP Tools](https://datatalks.club/podcast/building-open-source-nlp-tool.html).
 Around 26:22 and 28:11, he discusses why Kern chose open source and how the team
 weighed distribution against revenue. Around 31:47, he describes open core,
 multi-user SaaS, and services. Around 36:00 and 40:21, Discord support and
@@ -441,7 +441,7 @@ It isn't the whole business model.
 
 Will's Textualize path adds the solo-maintainer-to-company version. Around
 28:08 and 31:40 in
-[From Developer to Startup Founder]({{ '/podcasts/open-source-turned-into-career-and-startup-creation/' | relative_url }}),
+[From Developer to Startup Founder](https://datatalks.club/podcast/open-source-turned-into-career-and-startup-creation.html),
 he describes fundraising and building in public after Rich and Textual gained
 attention. This attention wasn't a scripted fundraising funnel. At 38:32 and
 40:28, the planned model is web hosting and add-on features for terminal apps
@@ -458,17 +458,17 @@ project norms, contribution surface, and governance constraints.
 
 Hugo's Metaflow discussion places tutorials and docs in one role. Dogfooding and
 developer feedback sit there too
-([18:03-36:27]({{ '/podcasts/devrel-open-source-machine-learning/' | relative_url }})).
+([18:03-36:27](https://datatalks.club/podcast/devrel-open-source-machine-learning.html)).
 At 43:14 and 54:31, GitHub portfolios and talks become career signals. Meetups
 and audience-centered tutorials support adoption too.
 
-[Elle O'Brien]({{ '/people/elleobrien/' | relative_url }}) adds the data-science
+[Elle O'Brien](https://datatalks.club/people/elleobrien.html) adds the data-science
 version in
-[DevRel for Data Science]({{ '/podcasts/devrel-data-science-open-source-tools/' | relative_url }}).
+[DevRel for Data Science](https://datatalks.club/podcast/devrel-data-science-open-source-tools.html).
 Her path starts with a visible StyleGAN project at 9:33, then moves into DVC
 and CML. Documentation, pull requests, and videos come next. Community support
 and product signal appear in the same work
-([12:20-23:51]({{ '/podcasts/devrel-data-science-open-source-tools/' | relative_url }})).
+([12:20-23:51](https://datatalks.club/podcast/devrel-data-science-open-source-tools.html)).
 
 For the full adoption, education, and feedback-loop treatment, use
 [Open Source and Developer Relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }}).
@@ -482,13 +482,13 @@ support, security, or licensing decisions. Teams still need commercial
 strategy.
 
 Bela's investor discussion makes this explicit. At 32:31 and 36:27 in
-[Early-Stage Investing in Open Source Developer Tools]({{ '/podcasts/investing-in-open-source-developer-tools/' | relative_url }}),
+[Early-Stage Investing in Open Source Developer Tools](https://datatalks.club/podcast/investing-in-open-source-developer-tools.html),
 he looks for the team, market need, and problem validity behind the repository.
 At 39:01, he warns against reading GitHub stars without engagement context. At
 49:28 and 51:09, he still needs a commercialization model.
 
 Will McGugan gives the career version in
-[From Developer to Startup Founder]({{ '/podcasts/open-source-turned-into-career-and-startup-creation/' | relative_url }}).
+[From Developer to Startup Founder](https://datatalks.club/podcast/open-source-turned-into-career-and-startup-creation.html).
 Open-source work can give a recruiter a body of work at 44:38, but he also says
 good developers can exist without public contributions. Treat open source as
 reviewable evidence, not as the only evidence.

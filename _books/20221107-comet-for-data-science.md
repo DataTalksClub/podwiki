@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Angelica Lo Duca]({ '/people/angelicaloduca/' | relative_url }).
+[Angelica Lo Duca](https://datatalks.club/people/angelicaloduca.html).
 
 ## Discussion Archive
 

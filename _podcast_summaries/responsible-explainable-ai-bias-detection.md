@@ -38,7 +38,7 @@ Agents should consider this episode when working on responsible AI, explainable 
 
 Use these links to connect the episode to guest notes.
 
-- [Supreet Kaur]({{ '/people/supreetkaur/' | relative_url }})
+- [Supreet Kaur](https://datatalks.club/people/supreetkaur.html)
 
 ## Key Concepts
 

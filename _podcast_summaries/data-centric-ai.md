@@ -38,7 +38,7 @@ Agents should consider this episode when working on machine learning, data scien
 
 Use these links to connect the episode to guest notes.
 
-- [Marysia Winkels]({{ '/people/marysiawinkels/' | relative_url }})
+- [Marysia Winkels](https://datatalks.club/people/marysiawinkels.html)
 
 ## Key Concepts
 

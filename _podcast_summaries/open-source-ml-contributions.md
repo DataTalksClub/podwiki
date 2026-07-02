@@ -38,7 +38,7 @@ Agents should consider this episode when working on open-source, data science, c
 
 Use these links to connect the episode to guest notes.
 
-- [Vincent Warmerdam]({{ '/people/vincentwarmerdam/' | relative_url }})
+- [Vincent Warmerdam](https://datatalks.club/people/vincentwarmerdam.html)
 
 ## Key Concepts
 

@@ -14,16 +14,16 @@ curated: "true"
 Valerii Babushkin appears in two DataTalks.Club episodes about
 [machine learning system design]({{ '/wiki/machine-learning-system-design/' | relative_url }}).
 In
-[ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }}),
+[ML System Design Interviews](https://datatalks.club/podcast/machine-learning-system-design-interview.html),
 he speaks from experience leading data teams focused on ML at Blockchain.com and Meta.
 Earlier roles included Alibaba, X5 Retail Group, and Yandex. In
-[ML System Design Playbook]({{ '/podcasts/ml-system-design/' | relative_url }}),
+[ML System Design Playbook](https://datatalks.club/podcast/ml-system-design.html),
 he uses the same production background to explain why teams need written,
 maintained design documents before and after launch.
 
 The short bio matters because his podcast arguments come from hiring,
 interviewing, and running production systems at scale. At 7:31 in
-[ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }}),
+[ML System Design Interviews](https://datatalks.club/podcast/machine-learning-system-design-interview.html),
 he says he had led teams up to roughly 150 people and conducted hundreds or
 thousands of interviews. At 8:08, he adds that his work covered machine
 learning and analytics. He also worked with A/B testing, data engineering, and
@@ -34,7 +34,7 @@ MLOps on large event-volume systems.
 Valerii frames the ML system design interview as a test of system reasoning. A
 candidate needs to tell a coherent 45-minute story about an ML system. Reciting
 model families isn't enough. At 9:36 and 11:23 in
-[the interview episode]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }}),
+[the interview episode](https://datatalks.club/podcast/machine-learning-system-design-interview.html),
 he says large tech companies use this round for machine learning engineers.
 Interviewers want to see full-system reasoning.
 
@@ -58,7 +58,7 @@ where production reasoning matters more as a candidate moves beyond junior work.
 
 The fraud-detection walkthrough is Valerii's clearest example of ML system
 design. At 13:58 in
-[ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }}),
+[ML System Design Interviews](https://datatalks.club/podcast/machine-learning-system-design-interview.html),
 he separates software system design from ML system design. The software version
 centers throughput and storage. It also covers caches, sharding, and load
 balancing.
@@ -91,7 +91,7 @@ link his episode to
 Valerii pushes candidates and teams to talk about labels and features before
 model architecture. Validation and serving belong in that same discussion. At
 44:11 in
-[ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }}),
+[ML System Design Interviews](https://datatalks.club/podcast/machine-learning-system-design-interview.html),
 he walks from target definition to labels and features. Then he covers model
 choice and loss function. Preprocessing, offline validation, and A/B testing come
 next.
@@ -116,7 +116,7 @@ when a page needs a bridge from modeling work to operational ownership.
 ## Design Documents That Fail Fast
 
 In
-[ML System Design Playbook]({{ '/podcasts/ml-system-design/' | relative_url }}),
+[ML System Design Playbook](https://datatalks.club/podcast/ml-system-design.html),
 Valerii shifts from interviews to delivery. At 7:06, he says the purpose of an
 ML design document is to make a weak project fail early. The team should learn
 that before spending months on implementation. At 8:39 and 11:34, he says teams
@@ -141,7 +141,7 @@ months of unnecessary work.
 ## Ownership, Documentation, and Bus Factor
 
 Valerii treats ML design documents as living engineering artifacts. At 19:01 in
-[ML System Design Playbook]({{ '/podcasts/ml-system-design/' | relative_url }}),
+[ML System Design Playbook](https://datatalks.club/podcast/ml-system-design.html),
 he says documentation breaks when teams mark it done while the system keeps
 changing. At 24:37, he argues that a team should write who owns each area. Then
 the right person can update the right part of the document when reality changes.
@@ -159,14 +159,14 @@ useful for pages about production ML tradeoffs, not only for documentation pages
 
 Valerii's production ML advice consistently ends with monitoring and fallback
 planning. In
-[ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }}),
+[ML System Design Interviews](https://datatalks.club/podcast/machine-learning-system-design-interview.html),
 he says at 46:09 that real systems need monitoring for distribution shift,
 class-balance changes, and broken models. They also need monitoring for degraded
 performance. At 47:48, he argues that mentioning those failure modes in an
 interview helps a candidate. It shows exposure to production behavior.
 
 In
-[ML System Design Playbook]({{ '/podcasts/ml-system-design/' | relative_url }}),
+[ML System Design Playbook](https://datatalks.club/podcast/ml-system-design.html),
 he makes the same point more operational. At 47:46, he distinguishes data drift
 from data errors and concept drift. He also names prediction drift and model
 quality problems. At 51:59, he places reliability, monitoring, and fallbacks in
@@ -182,8 +182,8 @@ the preferred model or data path fails. Use these episodes beside
 
 These pages expand the main threads from Valerii's two DataTalks.Club episodes.
 
-- [ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }})
-- [ML System Design Playbook]({{ '/podcasts/ml-system-design/' | relative_url }})
+- [ML System Design Interviews](https://datatalks.club/podcast/machine-learning-system-design-interview.html)
+- [ML System Design Playbook](https://datatalks.club/podcast/ml-system-design.html)
 - [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
 - [ML System Design Documents]({{ '/wiki/ml-system-design-documents/' | relative_url }})
 - [Machine Learning System Design Interview]({{ '/wiki/machine-learning-system-design-interview/' | relative_url }})

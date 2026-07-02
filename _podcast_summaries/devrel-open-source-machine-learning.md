@@ -38,7 +38,7 @@ Agents should consider this episode when working on developer relations, machine
 
 Use these links to connect the episode to guest notes.
 
-- [Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }})
+- [Hugo Bowne-Anderson](https://datatalks.club/people/hugobowneanderson.html)
 
 ## Key Concepts
 

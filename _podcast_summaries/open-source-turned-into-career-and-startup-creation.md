@@ -38,7 +38,7 @@ Agents should consider this episode when working on open-source, startups, caree
 
 Use these links to connect the episode to guest notes.
 
-- [Will McGugan]({{ '/people/willmcgugan/' | relative_url }})
+- [Will McGugan](https://datatalks.club/people/willmcgugan.html)
 
 ## Key Concepts
 

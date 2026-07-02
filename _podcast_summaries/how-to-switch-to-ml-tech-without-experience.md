@@ -38,7 +38,7 @@ Agents should consider this episode when working on career switch, machine learn
 
 Use these links to connect the episode to guest notes.
 
-- [Jessica Greene]({{ '/people/jessicagreene/' | relative_url }})
+- [Jessica Greene](https://datatalks.club/people/jessicagreene.html)
 
 ## Key Concepts
 

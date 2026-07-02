@@ -38,7 +38,7 @@ Agents should consider this episode when working on data engineering, job search
 
 Use these links to connect the episode to guest notes.
 
-- [Jeff Katz]({{ '/people/jeffkatz/' | relative_url }})
+- [Jeff Katz](https://datatalks.club/people/jeffkatz.html)
 
 ## Key Concepts
 

@@ -38,7 +38,7 @@ Agents should consider this episode when working on open science, software engin
 
 Use these links to connect the episode to guest notes.
 
-- [Johanna Bayer]({{ '/people/johannabayer/' | relative_url }})
+- [Johanna Bayer](https://datatalks.club/people/johannabayer.html)
 
 ## Key Concepts
 

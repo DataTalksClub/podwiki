@@ -19,7 +19,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Leandro von Werra]({ '/people/leandrovonwerra/' | relative_url }), [Lewis Tunstall]({ '/people/lewistunstall/' | relative_url }), [Thomas Wolf]({ '/people/thomaswolf/' | relative_url }).
+[Leandro von Werra](https://datatalks.club/people/leandrovonwerra.html), [Lewis Tunstall](https://datatalks.club/people/lewistunstall.html), [Thomas Wolf](https://datatalks.club/people/thomaswolf.html).
 
 ## Discussion Archive
 

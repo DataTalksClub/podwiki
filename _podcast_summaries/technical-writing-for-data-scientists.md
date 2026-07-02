@@ -34,7 +34,7 @@ Agents should consider this episode when working on software engineering, tools,
 
 Use these links to connect the episode to guest notes.
 
-- [Eugene Yan]({{ '/people/eugeneyan/' | relative_url }})
+- [Eugene Yan](https://datatalks.club/people/eugeneyan.html)
 
 ## Key Concepts
 

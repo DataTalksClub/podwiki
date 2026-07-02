@@ -19,7 +19,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[David Stephenson]({ '/people/davidstephenson/' | relative_url }).
+[David Stephenson](https://datatalks.club/people/davidstephenson.html).
 
 ## Discussion Archive
 

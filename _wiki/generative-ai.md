@@ -20,18 +20,18 @@ chatbots. It also appears through
 coding assistants, workflow automation, and
 [AI agents]({{ '/wiki/agent-engineering/' | relative_url }}).
 
-[Meryem Arik]({{ '/people/meryemarik/' | relative_url }}) gives the clearest
+[Meryem Arik](https://datatalks.club/people/meryemarik.html) gives the clearest
 model-level distinction in
-[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}).
+[Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html).
 At 10:24, she separates generative models from non-generative models, and at
 11:44 she connects that distinction to model selection for classification and
 generation tasks. That framing matters because not every AI product needs a
 generator. Some problems still fit classifiers, retrieval systems, or
 deterministic software better.
-[Build a Large Language Model (From Scratch)]({{ '/books/20241017-build-large-language-model-from-scratch/' | relative_url }})
+[Build a Large Language Model (From Scratch)](https://datatalks.club/books/20241017-build-large-language-model-from-scratch.html)
 by Sebastian Raschka shows the internals of the transformer architectures that
 power these generative models.
-[Generative AI with Python and TensorFlow 2]({{ '/books/20211108-generative-ai-with-python-and-tensorflow-2/' | relative_url }})
+[Generative AI with Python and TensorFlow 2](https://datatalks.club/books/20211108-generative-ai-with-python-and-tensorflow-2.html)
 by Joseph Babcock and Raghav Bali is a practitioner reference for the underlying deep learning architectures (GANs, VAEs, transformers) behind generative systems.
 
 ## From Model Output to Product Systems
@@ -41,9 +41,9 @@ generative AI as a product or engineering capability. The model generates an
 output. Teams add retrieval and tools around it. They also add validation,
 monitoring, and human review.
 
-[Bartosz Mikulski]({{ '/people/bartoszmikulski/' | relative_url }}) makes this
+[Bartosz Mikulski](https://datatalks.club/people/bartoszmikulski.html) makes this
 engineering view explicit in
-[Production AI Engineering]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }}).
+[Production AI Engineering](https://datatalks.club/podcast/production-ready-ai-engineering.html).
 At 21:46, he discusses invisible AI inside workflows such as augmented
 generation and review analysis. At 25:13 and 28:16, he moves from prompt
 examples to evaluation. Formatting, quality, and cost become part of prompt
@@ -55,9 +55,9 @@ In [Business Intelligence]({{ '/wiki/business-intelligence/' | relative_url }}),
 the same production boundary appears when teams add natural-language querying
 and text-to-SQL. Retrieval and LLM summaries sit on top of governed metrics.
 
-[Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }}) gives
+[Hugo Bowne-Anderson](https://datatalks.club/people/hugobowneanderson.html) gives
 a similar working definition in
-[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}).
+[Practical LLM Engineering and RAG](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html).
 At 9:28, he lists everyday LLM use cases such as summaries, translation, and
 CSV workflows. At 13:56, he describes a generator-evaluator check for quality
 control. At 23:00 and 26:43, he shifts from prompting to evaluation sets,
@@ -68,9 +68,9 @@ failure analysis, and retrieval fixes.
 Guests differ less on whether generative AI is useful and more on where teams
 should put the trust boundary.
 
-[Maria Sukhareva]({{ '/people/mariasukhareva/' | relative_url }}) treats the
+[Maria Sukhareva](https://datatalks.club/people/mariasukhareva.html) treats the
 chatbot as a risky interface in
-[Hardening Generative AI Chatbots]({{ '/podcasts/generative-ai-chatbots-in-production-security/' | relative_url }}).
+[Hardening Generative AI Chatbots](https://datatalks.club/podcast/generative-ai-chatbots-in-production-security.html).
 At 9:28, she discusses findings from a large chatbot hacking exercise. At
 11:38 and 13:20, she covers hallucinations, legal exposure, and financial
 incidents. She also covers data exfiltration through prompts and knowledge-base
@@ -82,7 +82,7 @@ For her, a usable generative AI system includes
 validation. It also includes human review.
 
 Meryem focuses on deployment choices. In
-[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}),
+[Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html),
 she compares open-source and API models at 16:48. At 18:46, she warns about
 hidden API model changes. At 25:26, she explains why model size, compression,
 and inference optimization matter.
@@ -90,9 +90,9 @@ and inference optimization matter.
 Her version of generative AI depends on control, privacy, latency, and cost. It
 also depends on the team's ability to run the model reliably.
 
-[Micheal Lanham]({{ '/people/micheallanham/' | relative_url }}) connects
+[Micheal Lanham](https://datatalks.club/people/micheallanham.html) connects
 generative AI to agent systems in
-[From Game AI to LLM Agents]({{ '/podcasts/from-game-ai-to-modern-ai-agents/' | relative_url }}).
+[From Game AI to LLM Agents](https://datatalks.club/podcast/from-game-ai-to-modern-ai-agents.html).
 At 20:57 and 23:48, he discusses task decomposition, sequential flows, and
 manager agents. At 38:57, he applies generative AI to games through generated
 levels and replayability. His emphasis is orchestration: the model generates,
@@ -104,14 +104,14 @@ In these episodes, generative AI works best when the product gives the model a
 bounded job and a reviewable output.
 
 Bartosz describes augmented generation and review analysis at 21:46 in
-[Production AI Engineering]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }}).
+[Production AI Engineering](https://datatalks.club/podcast/production-ready-ai-engineering.html).
 Those use cases fit internal tools because the model drafts or classifies
 within an existing business workflow. At 56:17, he says teams use AI-assisted
 writing to draft and rewrite while preserving voice. The model doesn't replace
 the person who owns the final text.
 
 Hugo's examples in
-[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }})
+[Practical LLM Engineering and RAG](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html)
 are also practical and bounded. At 9:28 and 12:22, he covers summaries and
 translation. He also covers CSV workflows and transcript processing. Automation
 tools include Gemini, Descript, and Loom.
@@ -121,7 +121,7 @@ concrete product design. The product doesn't rely on chat alone. It connects
 model output to documents, APIs, and a user's existing work.
 
 Maria adds another product category: language support. In
-[Hardening Generative AI Chatbots]({{ '/podcasts/generative-ai-chatbots-in-production-security/' | relative_url }}),
+[Hardening Generative AI Chatbots](https://datatalks.club/podcast/generative-ai-chatbots-in-production-security.html),
 she discusses AI-augmented translation at 29:53, prompt-customized machine
 translation at 32:28, and low-resource language challenges at 53:01. These
 examples connect generative AI to [NLP]({{ '/wiki/nlp/' | relative_url }}) and
@@ -135,7 +135,7 @@ Guests treat
 as the default answer when the model needs changing or private knowledge.
 
 Meryem gives the deployment argument in
-[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}).
+[Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html).
 At 40:46, she recommends retrieval over continuous retraining when knowledge
 changes. At 42:02 and 46:42, she explains grounding answers with indexed
 documents and injected passages. She also covers summarizers and retrieval
@@ -145,7 +145,7 @@ connects this design to
 semantic search.
 
 Hugo gives the product-building version in
-[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}).
+[Practical LLM Engineering and RAG](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html).
 At 44:26, he frames RAG as a quick path to business wins. At 48:20, he compares
 chunking strategies such as fixed length and sliding windows. At 50:19, he
 draws the boundary between RAG and agent tool calls. Use
@@ -159,7 +159,7 @@ Teams then have to handle cost limits, latency targets, data drift, and
 repeatable evaluation.
 
 Bartosz's
-[Production AI Engineering]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }})
+[Production AI Engineering](https://datatalks.club/podcast/production-ready-ai-engineering.html)
 episode connects generative AI to [data engineering]({{ '/wiki/data-engineering/' | relative_url }}).
 At 18:38, he discusses preprocessing and fine-tuning data. At 28:16, prompt
 formatting plus examples affect quality and cost. At 30:00 and 31:45,
@@ -170,7 +170,7 @@ That example shows why the interface, backend, and model call need to be
 designed together.
 
 Meryem covers the model-serving side in
-[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}).
+[Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html).
 At 49:44 and 51:35, she compares prototyping with API models against running
 open-source models. Latency, cost, self-hosting, and hardware choices become
 the production constraints. Use
@@ -184,7 +184,7 @@ The output may be plausible but wrong, and the prompt can become an attack
 surface.
 
 Maria's
-[Hardening Generative AI Chatbots]({{ '/podcasts/generative-ai-chatbots-in-production-security/' | relative_url }})
+[Hardening Generative AI Chatbots](https://datatalks.club/podcast/generative-ai-chatbots-in-production-security.html)
 episode is the main DataTalks.Club reference for this. At 16:15, she recommends
 layered defenses such as output validation and query analysis. At 17:00, she
 uses non-LLM classifiers as a more robust option for some safety checks.
@@ -204,7 +204,7 @@ Prompt quality isn't enough, so guests repeatedly move from prompt design to
 test cases and failure categories. They also add monitoring and review.
 
 Hugo describes this shift in
-[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}).
+[Practical LLM Engineering and RAG](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html).
 At 13:56, the generator-evaluator check uses one model or evaluator to look at
 another output. At 23:00, he discusses gold evaluation sets and their cost. He
 also covers set size and representativeness. At 26:43, he categorizes failures so teams can decide
@@ -214,13 +214,13 @@ Those practices are covered in more depth in
 [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }}).
 
 Meryem makes the same point in
-[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}).
+[Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html).
 At 53:34, she discusses gold-standard examples and output-driven evaluation.
 At 56:39, she separates classification metrics from generative evaluation and
 human judgment.
 
 Micheal adds monitoring for agent systems in
-[From Game AI to LLM Agents]({{ '/podcasts/from-game-ai-to-modern-ai-agents/' | relative_url }}).
+[From Game AI to LLM Agents](https://datatalks.club/podcast/from-game-ai-to-modern-ai-agents.html).
 At 57:39, feedback pipelines and tools such as Arize Phoenix appear as part of
 agent evaluation.
 
@@ -231,7 +231,7 @@ Slack assistants, and email assistants. They also cover search tools and agent
 frameworks.
 
 Bartosz discusses coding assistants in
-[Production AI Engineering]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }}).
+[Production AI Engineering](https://datatalks.club/podcast/production-ready-ai-engineering.html).
 At 42:05 and 44:38, he compares Cursor, GitHub Copilot, and alternatives. At
 47:19, he discusses search-focused assistants and tool selection.
 
@@ -241,10 +241,10 @@ the developer's work.
 
 Hugo and Micheal cover the agent side. Hugo discusses embedded Slack agents at
 33:14 and actions beyond chat at 40:12 in
-[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}).
+[Practical LLM Engineering and RAG](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html).
 At 56:21, he gives a four-step framework for agents. Micheal discusses the
 OpenAI Agents SDK and MCP integration at 31:31 in
-[From Game AI to LLM Agents]({{ '/podcasts/from-game-ai-to-modern-ai-agents/' | relative_url }}).
+[From Game AI to LLM Agents](https://datatalks.club/podcast/from-game-ai-to-modern-ai-agents.html).
 At 33:25 and 35:42, Micheal covers sequential thinking servers and coding
 agents in game development.
 

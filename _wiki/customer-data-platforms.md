@@ -23,9 +23,9 @@ In DataTalks.Club episodes, CDPs appear as one way to solve
 only reporting on customer behavior and starts using that behavior in the tools
 where customers and internal teams act.
 
-[Arpit Choudhury]({{ '/people/arpitchoudhury/' | relative_url }}) gives the
+[Arpit Choudhury](https://datatalks.club/people/arpitchoudhury.html) gives the
 clearest CDP framing in
-[Data-Led Growth, Event Tracking, and Reverse ETL]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }}).
+[Data-Led Growth, Event Tracking, and Reverse ETL](https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html).
 At 38:20, he describes CDPs as bundled systems where teams can track data, send
 it to other tools, and create audiences. Teams can also build models or
 segments inside the CDP. He also says CDPs are limited compared with warehouse
@@ -67,15 +67,15 @@ of all three, but the bundle is the product.
 ## Growth Speed Versus Identity Depth
 
 Arpit frames CDPs from the growth team's side. At 39:54 in the
-[data-led growth episode]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }}),
+[data-led growth episode](https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html),
 he advises teams to define the questions they want to answer before choosing
 tools. He accepts that early teams may not have a dedicated data engineer. For
 those teams, a CDP can give marketers and growth teams usable customer data
 quickly.
 
-[Sonal Goyal]({{ '/people/sonalgoyal/' | relative_url }}) approaches the same
+[Sonal Goyal](https://datatalks.club/people/sonalgoyal.html) approaches the same
 space from the identity side in
-[Building an Open-Source ML-Powered Identity Resolution Tool in the Modern Data Stack]({{ '/podcasts/building-open-source-data-product-for-identity-resolution/' | relative_url }}).
+[Building an Open-Source ML-Powered Identity Resolution Tool in the Modern Data Stack](https://datatalks.club/podcast/building-open-source-data-product-for-identity-resolution.html).
 At 5:47, she explains the problem as deciding whether several warehouse records
 refer to the same real-world customer. At 24:32, she says CDPs and master data
 management systems sometimes include identity-resolution capabilities. A
@@ -90,7 +90,7 @@ duplicated, identifiers are weak, matches are fuzzy, or teams need a
 ## Event Quality and Tracking Plans
 
 A CDP is only as useful as the events flowing into it. At 13:34 in the
-[data-led growth episode]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }}),
+[data-led growth episode](https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html),
 Arpit starts with the tracking plan. Teams should document the events they want
 to collect, the event properties, the user properties, and the account or
 organization properties. CDPs depend on
@@ -116,7 +116,7 @@ teams may act on behavior that never happened.
 
 CDPs promise a useful customer profile, but a profile isn't the same thing as a
 trusted identity. Sonal's
-[identity-resolution episode]({{ '/podcasts/building-open-source-data-product-for-identity-resolution/' | relative_url }})
+[identity-resolution episode](https://datatalks.club/podcast/building-open-source-data-product-for-identity-resolution.html)
 shows why. At 5:47, she describes enterprises with customer records from
 offline channels and online stores. She also names surveys, ticketing systems,
 and other interactions. The practical question is whether several records refer
@@ -143,7 +143,7 @@ drive money movement, compliance, or customer outreach.
 ## Warehouse-Centered Activation and Reverse ETL
 
 CDPs and reverse ETL solve nearby problems in different shapes. At 37:25 in the
-[data-led growth episode]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }}),
+[data-led growth episode](https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html),
 Arpit names Census, Hightouch, and Grouparoo as reverse ETL or operational
 analytics tools. Teams use them to send warehouse data into sales, marketing,
 and advertising systems. They can also send warehouse data into support and
@@ -167,7 +167,7 @@ those mistakes reach customers and customer-facing teams directly.
 
 CDPs make customer data easier to use, so teams need stronger governance around
 the same data. At 18:27 in the
-[data-led growth episode]({{ '/podcasts/data-led-growth-event-tracking-and-reverse-etl/' | relative_url }}),
+[data-led growth episode](https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html),
 Arpit discusses anomaly investigation and source awareness. Teams need to trace
 where an event came from before trusting it in a dashboard or activation tool.
 At 51:40, he connects self-serve analytics with documentation and data

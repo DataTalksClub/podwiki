@@ -38,7 +38,7 @@ Agents should consider this episode when working on LLMs, NLP, MLOps.
 
 Use these links to connect the episode to guest notes.
 
-- [Lavanya Gupta]({{ '/people/lavanyagupta/' | relative_url }})
+- [Lavanya Gupta](https://datatalks.club/people/lavanyagupta.html)
 
 ## Key Concepts
 

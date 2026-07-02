@@ -34,9 +34,9 @@ serving, or product experimentation without a predictive model.
 The same discussions also treat scikit-learn as a mature
 [open-source]({{ '/wiki/open-source/' | relative_url }}) ecosystem. Its API
 conventions govern plugins, fairness tools, teaching material, and contribution
-paths. [Vincent Warmerdam]({{ '/people/vincentwarmerdam/' | relative_url }})
+paths. [Vincent Warmerdam](https://datatalks.club/people/vincentwarmerdam.html)
 describes that ecosystem in
-[Open Source ML Tools]({{ '/podcasts/open-source-ml-tools-strategy-and-business-models/' | relative_url }})
+[Open Source ML Tools](https://datatalks.club/podcast/open-source-ml-tools-strategy-and-business-models.html)
 around 10:28-14:35. Scikit-learn has governance and careful inclusion
 standards. It also has NumFOCUS ties, sponsorship, and a boundary between core
 features and compatible packages.
@@ -45,8 +45,8 @@ features and compatible packages.
 
 Scikit-learn appears most often as the practical Python interface for classical
 ML. In
-[From Software Engineering to Machine Learning]({{ '/podcasts/from-software-engineer-to-machine-learning/' | relative_url }})
-[Santiago Valdarrama]({{ '/people/svpino/' | relative_url }}) places it beside
+[From Software Engineering to Machine Learning](https://datatalks.club/podcast/from-software-engineer-to-machine-learning.html)
+[Santiago Valdarrama](https://datatalks.club/people/svpino.html) places it beside
 Python, NumPy, Pandas, and Matplotlib around 33:10. He tells software engineers
 to learn those tools while solving a concrete task. A beginner Kaggle problem
 works better than studying the library as an isolated topic.
@@ -71,7 +71,7 @@ before deciding whether more complex modeling earns its cost.
 
 Vincent's scikit-lego examples show why the scikit-learn API became an
 experimentation surface. In
-[Contribute to Open Source ML]({{ '/podcasts/open-source-ml-contributions/' | relative_url }}),
+[Contribute to Open Source ML](https://datatalks.club/podcast/open-source-ml-contributions.html),
 he describes scikit-lego as a set of scikit-learn-compatible pipeline
 components. Around 25:05, he gives the example of a transformer that clips an
 outlier at prediction time so the behavior can live inside a normal pipeline.
@@ -84,7 +84,7 @@ reproducibility, that interface lets teams compare approaches without rewriting
 the modeling path each time.
 
 Vincent returns to the same boundary with Skrub in
-[Open Source ML Tools]({{ '/podcasts/open-source-ml-tools-strategy-and-business-models/' | relative_url }}).
+[Open Source ML Tools](https://datatalks.club/podcast/open-source-ml-tools-strategy-and-business-models.html).
 Around 48:31-53:06, he describes Skrub as an experimental scikit-learn plugin
 for tabular data. Its table vectorizer applies sensible defaults across data
 types. The GAP encoder helps group dirty categorical values such as messy job
@@ -94,7 +94,7 @@ work.
 
 Vincent's governance discussion explains why that boundary matters. Around
 14:01-16:53 in
-[Open Source ML Tools]({{ '/podcasts/open-source-ml-tools-strategy-and-business-models/' | relative_url }}),
+[Open Source ML Tools](https://datatalks.club/podcast/open-source-ml-tools-strategy-and-business-models.html),
 he argues that core scikit-learn can't absorb every useful method without adding
 dependency, benchmark, and maintainer load. UMAP, scikit-lego, and Skrub can be
 valuable plugins without becoming core scikit-learn features.
@@ -103,8 +103,8 @@ valuable plugins without becoming core scikit-learn features.
 
 Scikit-learn appears in responsible-AI discussions as an integration layer for
 inspection and fairness tools. In
-[Fairness in AI/ML Engineering]({{ '/podcasts/fairness-in-ai-ml-engineering/' | relative_url }}),
-[Tamara Atanasoska]({{ '/people/tamaraatanasoska/' | relative_url }})
+[Fairness in AI/ML Engineering](https://datatalks.club/podcast/fairness-in-ai-ml-engineering.html),
+[Tamara Atanasoska](https://datatalks.club/people/tamaraatanasoska.html)
 introduces Fairlearn around 21:31 as a way to compare model performance across
 sensitive groups and visualize disparities. Around 24:04-31:33, the
 credit-scoring discussion keeps the technical tool tied to concrete harms. It
@@ -138,14 +138,14 @@ governance. Use
 operational layers.
 
 Tamara gives one concrete production boundary in
-[Fairness in AI/ML Engineering]({{ '/podcasts/fairness-in-ai-ml-engineering/' | relative_url }}).
+[Fairness in AI/ML Engineering](https://datatalks.club/podcast/fairness-in-ai-ml-engineering.html).
 Around 46:20-48:03, she discusses secure persistence for scikit-learn models
 and the risk of untrusted objects being executed through pickle-style loading.
 The risk is operational, not algorithmic. It depends on how models are saved,
 loaded, shared, and trusted.
 
 Vincent gives another boundary through teaching and implementation details in
-[Open Source ML Tools]({{ '/podcasts/open-source-ml-tools-strategy-and-business-models/' | relative_url }}).
+[Open Source ML Tools](https://datatalks.club/podcast/open-source-ml-tools-strategy-and-business-models.html).
 Around 44:30-47:48, he uses StandardScaler to show that a simple preprocessing
 idea still has to handle sparse matrices and data frames. It also has to handle
 partial fitting and microbatching. For production work, scikit-learn's apparent
@@ -156,7 +156,7 @@ maintainers already moved that engineering into a tested implementation.
 
 Scikit-learn also appears as a practical contribution target and as a model for
 open-source project quality. In
-[Contribute to Open Source ML]({{ '/podcasts/open-source-ml-contributions/' | relative_url }}),
+[Contribute to Open Source ML](https://datatalks.club/podcast/open-source-ml-contributions.html),
 Vincent keeps the entry path deliberately small. Around 27:12, he says a useful
 first contribution can be a confusing error report with a reproducible example
 and a suggested improvement. A contributor doesn't need to start with a new
@@ -175,7 +175,7 @@ put scikit-learn beside
 [Open Source and Developer Relations]({{ '/wiki/open-source-and-developer-relations/' | relative_url }}).
 
 His later appearance adds the community path. In
-[Open Source ML Tools]({{ '/podcasts/open-source-ml-tools-strategy-and-business-models/' | relative_url }}),
+[Open Source ML Tools](https://datatalks.club/podcast/open-source-ml-tools-strategy-and-business-models.html),
 Vincent describes a PyLadies code sprint around 4:19 where people made first
 PRs on behalf of scikit-learn. Johanna Bayer worked on documentation there.
 Around 16:43-18:11, he also explains how scikit-lego became a contributor
@@ -185,7 +185,7 @@ contribution, and reduce repeated work at the same time.
 ## Governance and Sustainability
 
 Scikit-learn's maturity changes what "add a feature" means. In
-[Open Source ML Tools]({{ '/podcasts/open-source-ml-tools-strategy-and-business-models/' | relative_url }}),
+[Open Source ML Tools](https://datatalks.club/podcast/open-source-ml-tools-strategy-and-business-models.html),
 Vincent says around 8:33-11:50 that scikit-learn is a large community project
 that no company can simply claim. That remains true even when some maintainers
 work at the same company. He names Inria, NumFOCUS relationships, sponsorship,

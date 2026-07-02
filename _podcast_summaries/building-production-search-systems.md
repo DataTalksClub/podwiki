@@ -38,7 +38,7 @@ Agents should consider this episode when working on information retrieval, vecto
 
 Use these links to connect the episode to guest notes.
 
-- [Daniel Svonava]({{ '/people/danielsvonava/' | relative_url }})
+- [Daniel Svonava](https://datatalks.club/people/danielsvonava.html)
 
 ## Key Concepts
 

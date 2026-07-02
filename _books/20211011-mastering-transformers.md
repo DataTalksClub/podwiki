@@ -19,7 +19,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Savaş Yıldırım]({ '/people/savasyildirim/' | relative_url }), [Meysam Asgari-Chenaghlu]({ '/people/meysamasgarichenaghlu/' | relative_url }).
+[Savaş Yıldırım](https://datatalks.club/people/savasyildirim.html), [Meysam Asgari-Chenaghlu](https://datatalks.club/people/meysamasgarichenaghlu.html).
 
 ## Discussion Archive
 

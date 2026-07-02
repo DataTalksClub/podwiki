@@ -38,7 +38,7 @@ Agents should consider this episode when working on NLP, machine learning, strat
 
 Use these links to connect the episode to guest notes.
 
-- [Johannes Hötter]({{ '/people/johanneshotter/' | relative_url }})
+- [Johannes Hötter](https://datatalks.club/people/johanneshotter.html)
 
 ## Key Concepts
 

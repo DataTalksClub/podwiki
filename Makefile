@@ -7,6 +7,7 @@ sources: ## Sync source-derived podcast and people pages for graph/search
 	python scripts/sync_podcast_pages.py
 	python scripts/sync_people_pages.py
 	python scripts/sync_book_pages.py
+	python scripts/rewrite_to_canonical.py
 	python scripts/extract_podcast_sources.py
 	python scripts/build_podcast_archive_summary.py
 
@@ -21,6 +22,7 @@ lambda-package: index ## Prepare the minimal SAM CodeUri directory
 
 build: graph ## Build the static site
 	uvx rustkyll build
+	python scripts/prune_sitemap.py
 
 serve: graph ## Serve the static site locally
 	uvx rustkyll serve --no-watch

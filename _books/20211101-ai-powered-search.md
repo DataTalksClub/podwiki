@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Trey Grainger]({ '/people/Trey Grainger/' | relative_url }), [Doug Turnbull]({ '/people/dougturnbull/' | relative_url }), [Max Irwin]({ '/people/Max Irwin/' | relative_url }).
+[Trey Grainger](https://datatalks.club/people/Trey Grainger.html), [Doug Turnbull](https://datatalks.club/people/dougturnbull.html), [Max Irwin](https://datatalks.club/people/Max Irwin.html).
 
 ## Discussion Archive
 

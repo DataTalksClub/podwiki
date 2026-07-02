@@ -19,7 +19,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Fernando Doglio]({ '/people/fernandodoglio/' | relative_url }).
+[Fernando Doglio](https://datatalks.club/people/fernandodoglio.html).
 
 ## Discussion Archive
 

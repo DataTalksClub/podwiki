@@ -19,7 +19,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Duygu Altinok]({ '/people/duygualtinok/' | relative_url }).
+[Duygu Altinok](https://datatalks.club/people/duygualtinok.html).
 
 ## Discussion Archive
 

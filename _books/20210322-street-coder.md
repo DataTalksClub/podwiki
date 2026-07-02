@@ -19,7 +19,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Sedat Kapanoglu]({ '/people/sedatkapanoglu/' | relative_url }).
+[Sedat Kapanoglu](https://datatalks.club/people/sedatkapanoglu.html).
 
 ## Discussion Archive
 

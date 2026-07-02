@@ -38,7 +38,7 @@ Agents should consider this episode when working on MLOps, machine learning, dat
 
 Use these links to connect the episode to guest notes.
 
-- [Nemanja Radojkovic]({{ '/people/nemanjaradojkovic/' | relative_url }})
+- [Nemanja Radojkovic](https://datatalks.club/people/nemanjaradojkovic.html)
 
 ## Key Concepts
 

@@ -16,7 +16,7 @@ centralized data pipelines become bottlenecks. She also shows how domain teams
 can own analytical data while shared platform and governance capabilities keep
 decentralization usable.
 In the
-[Data Mesh Implementation]({{ '/podcasts/data-mesh-architecture-decentralized-data-products/' | relative_url }}),
+[Data Mesh Implementation](https://datatalks.club/podcast/data-mesh-architecture-decentralized-data-products.html),
 she explains the idea as a socio-technical architecture, not a tool category.
 
 ## From Distributed Systems to Data Mesh
@@ -24,7 +24,7 @@ she explains the idea as a socio-technical architecture, not a tool category.
 Zhamak introduces herself as a former ThoughtWorks consultant. She spent more
 than a decade working with complex enterprises and had just left to start a
 company focused on peer-to-peer analytical data sharing
-([2:39-6:19]({{ '/podcasts/data-mesh-architecture-decentralized-data-products/' | relative_url }})).
+([2:39-6:19](https://datatalks.club/podcast/data-mesh-architecture-decentralized-data-products.html)).
 Her short biography matters because the interview frames data mesh through
 [distributed systems]({{ '/wiki/data-engineering-platforms/' | relative_url }})
 and large-scale software architecture. It also draws on the friction she saw in
@@ -43,7 +43,7 @@ to long, fragile paths from data to value.
 At 9:56, Zhamak defines data mesh as a decentralized way to manage and share
 analytical data across teams. The model still needs quality, integrity, and
 interoperability
-([Data Mesh Implementation]({{ '/podcasts/data-mesh-architecture-decentralized-data-products/' | relative_url }})).
+([Data Mesh Implementation](https://datatalks.club/podcast/data-mesh-architecture-decentralized-data-products.html)).
 She challenges the "pipeline thinking" that moves data into one place and adds
 processing and metadata later. That approach makes the time from data to value
 too long.
@@ -62,7 +62,7 @@ team.
 Zhamak's first principle is domain ownership. At 17:10, she says data
 generation and data consumption should align with autonomous groups of people.
 Those groups are usually business domains with their own vocabulary and outcomes
-([Data Mesh Implementation]({{ '/podcasts/data-mesh-architecture-decentralized-data-products/' | relative_url }})).
+([Data Mesh Implementation](https://datatalks.club/podcast/data-mesh-architecture-decentralized-data-products.html)).
 
 Her streaming-company example uses teams for listener onboarding and playlist
 generation. It also includes artist management, artist payments, and partners.
@@ -82,7 +82,7 @@ episode to [data strategy]({{ '/wiki/data-strategy/' | relative_url }}),
 The second principle is data as a product. At 34:59, Zhamak says domain
 ownership can collapse into new silos. To prevent that, teams need to measure
 shared data from the consumer's point of view
-([Data Mesh Implementation]({{ '/podcasts/data-mesh-architecture-decentralized-data-products/' | relative_url }})).
+([Data Mesh Implementation](https://datatalks.club/podcast/data-mesh-architecture-decentralized-data-products.html)).
 
 For her, a data product isn't just a dataset. It includes the information a
 consumer needs to discover it and assess trust. The consumer also needs to
@@ -105,7 +105,7 @@ can't own data products if every product requires deep expertise across the
 whole platform stack. At 42:11, she says the platform should make data
 producers and consumers' work easier. It does that by raising the abstraction
 level
-([Data Mesh Implementation]({{ '/podcasts/data-mesh-architecture-decentralized-data-products/' | relative_url }})).
+([Data Mesh Implementation](https://datatalks.club/podcast/data-mesh-architecture-decentralized-data-products.html)).
 
 She's careful not to equate self-service with untestable no-code tooling. At
 45:47, she argues that engineering practices still matter, but a data product
@@ -125,7 +125,7 @@ understood. They also support sharing, use, and connection.
 Zhamak's fourth principle is federated computational governance. At 49:25, she
 frames governance as shared policies and cross-cutting concerns that must work
 across independent data products
-([Data Mesh Implementation]({{ '/podcasts/data-mesh-architecture-decentralized-data-products/' | relative_url }})).
+([Data Mesh Implementation](https://datatalks.club/podcast/data-mesh-architecture-decentralized-data-products.html)).
 Governance shouldn't slow teams down with manual control gates. It should embed
 privacy, security, and access control into automated platform capabilities. It
 also needs standard language and interoperability.
@@ -137,7 +137,7 @@ That explanation grounds related pages on
 [data governance]({{ '/wiki/data-governance/' | relative_url }}),
 [governance]({{ '/wiki/governance/' | relative_url }}), and
 [security]({{ '/wiki/security/' | relative_url }}). It also complements
-[Bart Vandekerckhove]({{ '/people/bartvandekerckhove/' | relative_url }}),
+[Bart Vandekerckhove](https://datatalks.club/people/bartvandekerckhove.html),
 whose data access episode discusses ownership models and access management in
 data mesh setups from the governance side.
 
@@ -147,7 +147,7 @@ Near the end of the interview, Zhamak warns against adopting data mesh as a
 small side project. At 54:48, she says teams should first understand why data
 mesh exists and what first principles define it. Implementation spans
 technology, architecture, and organizational change
-([Data Mesh Implementation]({{ '/podcasts/data-mesh-architecture-decentralized-data-products/' | relative_url }})).
+([Data Mesh Implementation](https://datatalks.club/podcast/data-mesh-architecture-decentralized-data-products.html)).
 
 At 57:27, her practical adoption advice is to assess readiness and confirm
 executive support. Teams should also check DevOps and DataOps maturity. They
@@ -157,6 +157,6 @@ depends on many domains before the interoperability layer and ways of working
 exist.
 
 Her caution makes her a useful counterpoint to
-[Lars Albertsson]({{ '/people/larsalbertsson/' | relative_url }}). Lars
+[Lars Albertsson](https://datatalks.club/people/larsalbertsson.html). Lars
 discusses [DataOps]({{ '/wiki/dataops/' | relative_url }}) and the risk of
 splitting ownership before the organization can support the operating model.

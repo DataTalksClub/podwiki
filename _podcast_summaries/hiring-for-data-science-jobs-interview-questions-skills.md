@@ -38,7 +38,7 @@ Agents should consider this episode when working on data science, career growth,
 
 Use these links to connect the episode to guest notes.
 
-- [Olga Ivina]({{ '/people/olgaivina/' | relative_url }})
+- [Olga Ivina](https://datatalks.club/people/olgaivina.html)
 
 ## Key Concepts
 

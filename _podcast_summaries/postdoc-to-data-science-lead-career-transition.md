@@ -38,7 +38,7 @@ Agents should consider this episode when working on career transition, machine l
 
 Use these links to connect the episode to guest notes.
 
-- [CJ Jenkins]({{ '/people/cjjenkins/' | relative_url }})
+- [CJ Jenkins](https://datatalks.club/people/cjjenkins.html)
 
 ## Key Concepts
 

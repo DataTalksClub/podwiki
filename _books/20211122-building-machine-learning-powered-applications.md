@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Emmanuel Ameisen]({ '/people/emmanuelameisen/' | relative_url }).
+[Emmanuel Ameisen](https://datatalks.club/people/emmanuelameisen.html).
 
 ## Discussion Archive
 

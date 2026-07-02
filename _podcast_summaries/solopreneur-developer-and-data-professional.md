@@ -38,7 +38,7 @@ Agents should consider this episode when working on solopreneurship, entrepreneu
 
 Use these links to connect the episode to guest notes.
 
-- [Noah Gift]({{ '/people/noahgift/' | relative_url }})
+- [Noah Gift](https://datatalks.club/people/noahgift.html)
 
 ## Key Concepts
 

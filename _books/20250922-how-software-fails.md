@@ -19,5 +19,5 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Engin Yöyen]({ '/people/enginyoyen/' | relative_url }).
+[Engin Yöyen](https://datatalks.club/people/enginyoyen.html).
 

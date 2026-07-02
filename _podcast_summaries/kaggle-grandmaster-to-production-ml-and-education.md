@@ -38,7 +38,7 @@ Agents should consider this episode when working on machine learning, MLOps, dat
 
 Use these links to connect the episode to guest notes.
 
-- [Alexander Guschin]({{ '/people/alexanderguschin/' | relative_url }})
+- [Alexander Guschin](https://datatalks.club/people/alexanderguschin.html)
 
 ## Key Concepts
 

@@ -16,4 +16,4 @@ Juan Pablo Murillo is an AI and data professional with over a decade of experien
 
 ## Podcast Discussions
 
-- [How to Break into Data Analytics: Networking, Portfolio, SQL & Interview Prep]({{ '/podcasts/from-math-graduate-to-data-analytics/' | relative_url }}). Discussed: Background & Motivation: Math Graduate to Data Analytics; Early Roles & Mentoring: Consulting, T-Mobile, Amazon Path; Community & Resources: Amplifying Learning Platforms; Math Foundations & Machine Learning Relevance. Related topics: career transition, data analytics, [career growth]({{ '/wiki/career-growth/' | relative_url }}).
+- [How to Break into Data Analytics: Networking, Portfolio, SQL & Interview Prep](https://datatalks.club/podcast/from-math-graduate-to-data-analytics.html). Discussed: Background & Motivation: Math Graduate to Data Analytics; Early Roles & Mentoring: Consulting, T-Mobile, Amazon Path; Community & Resources: Amplifying Learning Platforms; Math Foundations & Machine Learning Relevance. Related topics: career transition, data analytics, [career growth]({{ '/wiki/career-growth/' | relative_url }}).

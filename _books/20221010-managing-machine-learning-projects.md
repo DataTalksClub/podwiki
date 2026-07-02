@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Simon Thompson]({ '/people/simonthompson/' | relative_url }).
+[Simon Thompson](https://datatalks.club/people/simonthompson.html).
 
 ## Discussion Archive
 

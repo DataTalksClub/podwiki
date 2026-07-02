@@ -46,24 +46,24 @@ and attach outside knowledge with
 layer. Agent frameworks, evaluation tools, monitoring, and deployment systems
 then turn the model call into an owned product.
 
-[Paul Iusztin]({{ '/people/pauliusztin/' | relative_url }}) presents that full
+[Paul Iusztin](https://datatalks.club/people/pauliusztin.html) presents that full
 stack in
-[his AI engineering episode]({{ '/podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products/' | relative_url }}).
-[Bartosz Mikulski]({{ '/people/bartoszmikulski/' | relative_url }}) connects it
+[his AI engineering episode](https://datatalks.club/podcast/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products.html).
+[Bartosz Mikulski](https://datatalks.club/people/bartoszmikulski.html) connects it
 to production data workflows in
-[Production AI Engineering]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }}).
-[Meryem Arik]({{ '/people/meryemarik/' | relative_url }}) anchors model
+[Production AI Engineering](https://datatalks.club/podcast/production-ready-ai-engineering.html).
+[Meryem Arik](https://datatalks.club/people/meryemarik.html) anchors model
 serving and retrieval choices in
-[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}).
+[Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html).
 
-[Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }}) focuses
+[Hugo Bowne-Anderson](https://datatalks.club/people/hugobowneanderson.html) focuses
 on iterative testing in
-[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}).
-[Ranjitha Kulkarni]({{ '/people/ranjithakulkarni/' | relative_url }})
+[Practical LLM Engineering and RAG](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html).
+[Ranjitha Kulkarni](https://datatalks.club/people/ranjithakulkarni.html)
 extends AI tooling to agents in
-[Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}).
-[Vincent Warmerdam]({{ '/people/vincentwarmerdam/' | relative_url }})
-uses [Open Source ML Tools]({{ '/podcasts/open-source-ml-tools-strategy-and-business-models/' | relative_url }})
+[Building Agentic AI Systems](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html).
+[Vincent Warmerdam](https://datatalks.club/people/vincentwarmerdam.html)
+uses [Open Source ML Tools](https://datatalks.club/podcast/open-source-ml-tools-strategy-and-business-models.html)
 to show how maintainers, documentation, plugins, and business models affect the
 tools teams rely on.
 
@@ -73,17 +73,17 @@ Guests define AI tooling as services and libraries around the
 model. Those tools give an LLM useful context and controlled actions. They also
 make behavior measurable.
 
-[Paul Iusztin]({{ '/people/pauliusztin/' | relative_url }}) places RAG and
+[Paul Iusztin](https://datatalks.club/people/pauliusztin.html) places RAG and
 knowledge management in the same AI product stack as agents, evaluation, and
 LLMOps. He covers that stack in
-[his AI engineering episode]({{ '/podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products/' | relative_url }})
+[his AI engineering episode](https://datatalks.club/podcast/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products.html)
 at 29:12 and 42:28. That framing links AI tooling to
 [AI Engineering]({{ '/wiki/ai-engineering/' | relative_url }}), but the tools
 matter because they package the system around the model.
 
-[Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }})
+[Hugo Bowne-Anderson](https://datatalks.club/people/hugobowneanderson.html)
 describes the same tooling loop from a build perspective in
-[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}).
+[Practical LLM Engineering and RAG](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html).
 He starts with prompting practices at 11:11 and adds generator-evaluator checks
 at 13:56. He introduces gold test sets at 23:00, then brings in failure
 analysis, logs, and traces at 26:43-27:38. Tools are useful when they shorten
@@ -92,22 +92,22 @@ that loop.
 ## Build, Buy, and Framework Boundaries
 
 Guests differ on how much of the stack teams should buy, borrow, or build.
-[Meryem Arik]({{ '/people/meryemarik/' | relative_url }}) compares API models
+[Meryem Arik](https://datatalks.club/people/meryemarik.html) compares API models
 with open-source models in
-[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }})
+[Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html)
 at 16:48 and 49:44. Her discussion emphasizes control and privacy. It also
 covers fine-tuning, API drift, latency, and hardware cost.
 
-[Bartosz Mikulski]({{ '/people/bartoszmikulski/' | relative_url }}) looks at
+[Bartosz Mikulski](https://datatalks.club/people/bartoszmikulski.html) looks at
 tool choice through production data workflows in
-[Production AI Engineering]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }}).
+[Production AI Engineering](https://datatalks.club/podcast/production-ready-ai-engineering.html).
 His 33:42 chapter compares open-source model and assistant tools. The 42:05 and
 44:38 chapters cover coding-assistant workflows, which are covered in depth as
 [AI Coding Tools]({{ '/wiki/ai-coding-tools/' | relative_url }}).
 
-[Ranjitha Kulkarni]({{ '/people/ranjithakulkarni/' | relative_url }}) draws a
+[Ranjitha Kulkarni](https://datatalks.club/people/ranjithakulkarni.html) draws a
 different boundary for agent frameworks. In
-[Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}),
+[Building Agentic AI Systems](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html),
 she discusses prompt-level implementations, SDKs, and tool wrappers at 18:23.
 At 44:08-46:00 she compares building from scratch with libraries such as
 LangChain, the OpenAI Agents SDK, and smaller agent frameworks. Teams choose
@@ -117,7 +117,7 @@ than novelty.
 ## Model APIs and Open-Source Models
 
 Model tooling begins with the API-versus-open-source choice. In
-[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}),
+[Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html),
 Meryem reviews the open-source landscape at 13:45. At 16:48, she explains why
 teams might choose open-source models for privacy, control, or fine-tuning. She
 also warns at 18:46 that API providers can change model behavior. Teams then
@@ -135,7 +135,7 @@ design.
 
 RAG tools appear when teams need fresh or private knowledge without retraining
 the model. Meryem makes this boundary explicit at 40:46 in
-[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}).
+[Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html).
 
 Retrieval handles changing knowledge, while fine-tuning is better suited to
 specialized behavior, domain adaptation, or tone. At 42:02-48:01 she covers
@@ -146,7 +146,7 @@ decision boundary covered in
 
 
 Hugo turns RAG tooling into an iteration cycle in
-[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}).
+[Practical LLM Engineering and RAG](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html).
 At 44:26 he recommends quick business wins with chunking and embeddings. At
 48:20 he compares fixed-length chunks, sliding windows, and context rot. Those
 choices sit next to [Vector Databases]({{ '/wiki/vector-databases/' | relative_url }})
@@ -154,7 +154,7 @@ and [Embeddings]({{ '/wiki/embeddings/' | relative_url }}). They also connect to
 [Search, RAG, and Knowledge Systems]({{ '/wiki/search-rag-and-knowledge-systems/' | relative_url }}).
 
 Ranjitha adds the production caution. In
-[Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}),
+[Building Agentic AI Systems](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html),
 her 29:30 chapter covers RAG latency, cost, and garbage-in/garbage-out failure
 modes. At 31:38 and 32:48, she describes backend and context changes that make
 retrieved material more useful to the LLM. At 36:11, retrieval becomes a tool an
@@ -163,21 +163,21 @@ agent can call rather than the whole architecture.
 ## Prompt and Context Tooling
 
 Prompt tools are most useful when they make inputs structured, reusable, and
-testable. In [Production AI Engineering]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }}),
+testable. In [Production AI Engineering](https://datatalks.club/podcast/production-ready-ai-engineering.html),
 Bartosz introduces in-context learning and examples at 25:13. At 28:16 he
 links prompt formatting and examples to cost-aware evaluation. At 30:00-31:45, prompt
 compression and prompt caching become engineering tools for reducing tokens,
 latency, and repeated work.
 
 Hugo covers a complementary workflow in
-[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}).
+[Practical LLM Engineering and RAG](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html).
 At 11:11, he discusses role prompts, structured outputs, and timestamps. At
 12:22-17:38, he builds transcript workflows with Gemini and Descript. He also
 uses Loom, automation, and GitHub Actions. Prompt engineering often belongs
 inside a larger pipeline, not a one-off chat session.
 
 Ranjitha uses the term context engineering in
-[Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}).
+[Building Agentic AI Systems](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html).
 At 21:21 she focuses on designing effective LLM inputs. At 32:48 she adds
 chunking, metadata, and wrappers. That makes context tooling a bridge between
 [Prompt Engineering]({{ '/wiki/prompt-engineering/' | relative_url }}),
@@ -189,7 +189,7 @@ chunking, metadata, and wrappers. That makes context tooling a bridge between
 Agent tooling shows up when a system must plan, call tools, and update state
 inside a workflow. Ranjitha defines agents around autonomy and objectives at
 11:00 in
-[Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}).
+[Building Agentic AI Systems](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html).
 At 12:31, she adds tools, memory, and knowledge stores. At 15:10, she compares
 single-step planning, multi-pass execution, and self-reflection.
 
@@ -200,14 +200,14 @@ Later, at 48:00, she references agent marketplaces and tool protocols such as
 MCP.
 
 Hugo reaches a similar boundary in
-[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}).
+[Practical LLM Engineering and RAG](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html).
 At 50:19, teams move from RAG into tool calls only when the workflow needs
 actions.
 
 ## Evaluation and Observability Tooling
 
 Evaluation tools make AI systems easier to change without guessing. Hugo's
-[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }})
+[Practical LLM Engineering and RAG](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html)
 episode gives the clearest loop. Hugo covers generator-evaluator checks at
 13:56, representative gold tests at 23:00, and failure categories at 26:43. He
 adds logs and traces at 27:38. That loop connects AI tooling directly to
@@ -216,13 +216,13 @@ adds logs and traces at 27:38. That loop connects AI tooling directly to
 and [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }}).
 
 Ranjitha extends that loop to agents. In
-[Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}),
+[Building Agentic AI Systems](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html),
 she discusses custom datasets and system benchmarks at 51:17. At 53:20, she
 adds mocked tools, integration tests, and regression tests. At 56:02, she argues
 for outcome-based checks because an agent may solve the same goal through
 different paths. Paul also places evaluation inside the AI engineering skill
 stack in
-[his AI engineering episode]({{ '/podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products/' | relative_url }})
+[his AI engineering episode](https://datatalks.club/podcast/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products.html)
 at 42:28.
 
 ## Deployment and Operational Tooling
@@ -230,14 +230,14 @@ at 42:28.
 Deployment tooling matters because LLM systems inherit classic production
 constraints. Teams still have to manage data quality and latency. They also
 need cost control, testing, and recovery. Bartosz makes this link in
-[Production AI Engineering]({{ '/podcasts/production-ready-ai-engineering/' | relative_url }}).
+[Production AI Engineering](https://datatalks.club/podcast/production-ready-ai-engineering.html).
 
 At 9:05-13:14 he covers data trust, pipeline tests, and tools such as Great
 Expectations and Soda. At 18:38, data engineering appears again as
 preprocessing and fine-tuning data for AI systems.
 
 Meryem covers the serving side in
-[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}).
+[Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html).
 At 23:37 she describes TitanML's train, optimization, and serving stack. At
 25:26 she covers model size, compression, and inference optimization. These
 episodes place AI tooling next to [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
@@ -247,9 +247,9 @@ teams move past demos.
 ## Open-Source Tool Sustainability
 
 Open-source AI tooling depends on maintainers, governance, documentation, and
-business models. [Vincent Warmerdam]({{ '/people/vincentwarmerdam/' | relative_url }})
+business models. [Vincent Warmerdam](https://datatalks.club/people/vincentwarmerdam.html)
 uses scikit-learn and related tools as the example in
-[Open Source ML Tools]({{ '/podcasts/open-source-ml-tools-strategy-and-business-models/' | relative_url }}).
+[Open Source ML Tools](https://datatalks.club/podcast/open-source-ml-tools-strategy-and-business-models.html).
 At 10:28 he discusses governance and NumFOCUS. At 14:01 he distinguishes core
 scikit-learn features from plugin ecosystems. At 18:11 and 21:51, maintainer
 transitions and motivation become part of tool quality.

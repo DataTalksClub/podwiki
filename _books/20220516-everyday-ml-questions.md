@@ -19,7 +19,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Santiago Valdarrama]({ '/people/svpino/' | relative_url }), [Vladimir Haltakov]({ '/people/vladimirhaltakov/' | relative_url }).
+[Santiago Valdarrama](https://datatalks.club/people/svpino.html), [Vladimir Haltakov](https://datatalks.club/people/vladimirhaltakov.html).
 
 ## Discussion Archive
 

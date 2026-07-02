@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Anthony Virtuoso]({ '/people/anthonyvirtuoso/' | relative_url }).
+[Anthony Virtuoso](https://datatalks.club/people/anthonyvirtuoso.html).
 
 ## Discussion Archive
 

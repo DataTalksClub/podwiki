@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Serg Masis]({ '/people/sergmasis/' | relative_url }).
+[Serg Masis](https://datatalks.club/people/sergmasis.html).
 
 ## Discussion Archive
 

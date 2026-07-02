@@ -20,19 +20,19 @@ will use it, which decision it supports, how people will trust it, and how the
 team will know it worked.
 
 DataTalks.Club guests ground that definition in product work, not only data
-delivery. [Sara Menefee]({{ '/people/saramenefee/' | relative_url }}) starts
+delivery. [Sara Menefee](https://datatalks.club/people/saramenefee.html) starts
 data product management with customer discovery and hypotheses about user
 problems
-([7:04-11:38]({{ '/podcasts/product-designer-to-data-product-manager/' | relative_url }})).
+([7:04-11:38](https://datatalks.club/podcast/product-designer-to-data-product-manager.html)).
 
-[Geo Jolly]({{ '/people/geojolly/' | relative_url }}) gives the internal
+[Geo Jolly](https://datatalks.club/people/geojolly.html) gives the internal
 platform version. The product manager defines the problem and desired outcome,
 while engineers and technical leads design the solution
-([16:44-21:06]({{ '/podcasts/ml-product-manager-and-mlops-platform-strategy/' | relative_url }})).
-[Caitlin Moorman]({{ '/people/caitlinmoorman/' | relative_url }}) adds the
+([16:44-21:06](https://datatalks.club/podcast/ml-product-manager-and-mlops-platform-strategy.html)).
+[Caitlin Moorman](https://datatalks.club/people/caitlinmoorman.html) adds the
 adoption test. Data has to reach the meeting, workflow, or person making the
 decision
-([8:48-26:36]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }})).
+([8:48-26:36](https://datatalks.club/podcast/last-mile-data-delivery-and-data-product-adoption-modern-data-stack.html)).
 
 Those interviews match the reference definition of
 [data product management]({{ '/wiki/data-product-management/' | relative_url }}):
@@ -49,7 +49,7 @@ A data product manager owns the product judgment around a data capability.
 Menefee's episode on moving from product design into data product management
 starts the role with customer discovery and hypothesis formation. She then adds
 market and tooling research before the team commits to a solution
-([7:04-11:38]({{ '/podcasts/product-designer-to-data-product-manager/' | relative_url }})).
+([7:04-11:38](https://datatalks.club/podcast/product-designer-to-data-product-manager.html)).
 
 That makes the role different from a general request intake function. The data
 product manager has to understand the user problem and the data lifecycle. They
@@ -60,7 +60,7 @@ dashboards, or APIs.
 Menefee treats data quality, PII, compliance, and SQL as part of the role's
 working context. Documentation literacy belongs there too. These aren't optional
 polish
-([19:38-26:33]({{ '/podcasts/product-designer-to-data-product-manager/' | relative_url }})).
+([19:38-26:33](https://datatalks.club/podcast/product-designer-to-data-product-manager.html)).
 
 ## Core Responsibilities
 
@@ -76,13 +76,13 @@ work. At Glovo, he describes leading an internal machine learning platform used
 by data scientists and analysts. His product work includes roadmap direction and
 specifications. He also gathers feedback from data science leads, prioritizes
 the backlog, and communicates with stakeholders
-([6:28-16:44]({{ '/podcasts/ml-product-manager-and-mlops-platform-strategy/' | relative_url }})).
+([6:28-16:44](https://datatalks.club/podcast/ml-product-manager-and-mlops-platform-strategy.html)).
 
 Jolly's strongest distinction is that the product manager defines the problem
 and desired outcome while engineers and technical leads design the solution. He
 warns against jumping straight to a favorite technical approach before
 validating the problem
-([16:44-21:06]({{ '/podcasts/ml-product-manager-and-mlops-platform-strategy/' | relative_url }})).
+([16:44-21:06](https://datatalks.club/podcast/ml-product-manager-and-mlops-platform-strategy.html)).
 
 ## Data Products Need Adoption Work
 
@@ -91,7 +91,7 @@ Moorman's last-mile data delivery episode frames the missing work as the
 gap between making data available and getting teams to change decisions with it.
 People have to find the data, understand it, trust it, and bring it into the
 meeting or workflow where the decision happens
-([8:48-26:36]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }})).
+([8:48-26:36](https://datatalks.club/podcast/last-mile-data-delivery-and-data-product-adoption-modern-data-stack.html)).
 
 Moorman's advice is product management in a data setting: treat poor adoption as
 a user research problem. Ask whether people know the product exists and know how
@@ -99,7 +99,7 @@ to use it. Then ask whether it solves the problem they actually have. For
 analytics and A/B testing tools, she recommends starting from the decision a
 product manager needs to make. Then work backward to the data sources,
 transformation jobs, joins, and dashboard design
-([26:21-40:53]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }})).
+([26:21-40:53](https://datatalks.club/podcast/last-mile-data-delivery-and-data-product-adoption-modern-data-stack.html)).
 
 This is why a data product manager needs fluency in
 [A/B testing]({{ '/wiki/a-b-testing/' | relative_url }}) and
@@ -111,13 +111,13 @@ metrics, guardrails, and rollout decisions.
 ## Product Manager, Product Owner, And Domain Owner
 
 Guests don't use one universal title for this work. In [Anna
-Hannemann]({{ '/people/annahannemann/' | relative_url }})'s episode on product
+Hannemann](https://datatalks.club/people/annahannemann.html)'s episode on product
 owners in data science, companies draw different boundaries between product
 owner, product manager, and domain owner. Hannemann describes the role as
 sitting between stakeholders and data scientists or developers. The product
 owner translates requirements, shields the team from unrealistic expectations,
 and decides whether quality is good enough to go live
-([15:11-21:45]({{ '/podcasts/building-data-products-product-owner-vs-product-manager/' | relative_url }})).
+([15:11-21:45](https://datatalks.club/podcast/building-data-products-product-owner-vs-product-manager.html)).
 
 Her examples are deliberately business-led. Operations teams bring problems,
 and the data product leader chooses among a model, manual work, and an MVP.
@@ -125,7 +125,7 @@ Sometimes they choose a larger investment. In one case, fixing 200 bad rows
 manually was better than turning machine learning into a hammer for every
 problem. In another, portfolio-style questions helped stage data product
 investments across several use cases
-([44:48-53:09]({{ '/podcasts/building-data-products-product-owner-vs-product-manager/' | relative_url }})).
+([44:48-53:09](https://datatalks.club/podcast/building-data-products-product-owner-vs-product-manager.html)).
 
 ## Need Signals
 
@@ -133,24 +133,24 @@ You probably need a data product manager when data work has real users and
 competing priorities. Use decisions as the signal, not headcount or tooling
 maturity. Menefee puts user discovery and success metrics
 inside the data PM role
-([7:04-15:10]({{ '/podcasts/product-designer-to-data-product-manager/' | relative_url }})).
+([7:04-15:10](https://datatalks.club/podcast/product-designer-to-data-product-manager.html)).
 Jolly puts problem definition, roadmap direction, and outcome ownership in the
 PM role for an internal ML platform
-([6:28-21:06]({{ '/podcasts/ml-product-manager-and-mlops-platform-strategy/' | relative_url }})).
+([6:28-21:06](https://datatalks.club/podcast/ml-product-manager-and-mlops-platform-strategy.html)).
 
 Hannemann shows the release-risk version. A product owner may decide whether a
 model is good enough to go live and explain that quality to stakeholders
-([15:11-21:45]({{ '/podcasts/building-data-products-product-owner-vs-product-manager/' | relative_url }})).
+([15:11-21:45](https://datatalks.club/podcast/building-data-products-product-owner-vs-product-manager.html)).
 Moorman adds the adoption version. Someone has to make the data findable,
 understandable, trusted, and useful at the decision point
-([20:02-28:10]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }})).
+([20:02-28:10](https://datatalks.club/podcast/last-mile-data-delivery-and-data-product-adoption-modern-data-stack.html)).
 
 That can mean a customer-facing recommendation system, an internal MLOps
 platform, or an experimentation dashboard. It can also mean a governed metric
 layer or a decision-support workflow. In each case, someone has to own the
 product judgment. Without that owner, the team can build technically correct
 dashboards, models, or tables that nobody uses
-([8:48-26:36]({{ '/podcasts/last-mile-data-delivery-and-data-product-adoption-modern-data-stack/' | relative_url }})).
+([8:48-26:36](https://datatalks.club/podcast/last-mile-data-delivery-and-data-product-adoption-modern-data-stack.html)).
 
 Use [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
 for the broader reference page. Use

@@ -19,7 +19,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Christoph Molnar]({ '/people/christophmolnar/' | relative_url }).
+[Christoph Molnar](https://datatalks.club/people/christophmolnar.html).
 
 ## Discussion Archive
 

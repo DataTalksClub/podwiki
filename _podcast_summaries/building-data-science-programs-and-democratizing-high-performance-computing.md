@@ -38,7 +38,7 @@ Agents should consider this episode when working on data science, data analytics
 
 Use these links to connect the episode to guest notes.
 
-- [David Bader]({{ '/people/davidbader/' | relative_url }})
+- [David Bader](https://datatalks.club/people/davidbader.html)
 
 ## Key Concepts
 

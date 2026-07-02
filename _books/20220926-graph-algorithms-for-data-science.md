@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Tomaz Bratanic]({ '/people/tomazbratanic/' | relative_url }).
+[Tomaz Bratanic](https://datatalks.club/people/tomazbratanic.html).
 
 ## Discussion Archive
 

@@ -19,7 +19,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Marcello La Rocca]({ '/people/marcellolarocca/' | relative_url }).
+[Marcello La Rocca](https://datatalks.club/people/marcellolarocca.html).
 
 ## Discussion Archive
 

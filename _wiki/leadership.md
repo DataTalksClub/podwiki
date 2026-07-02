@@ -23,9 +23,9 @@ DataTalks.Club guests describe leaders as people who increase other people's
 ability to do useful data and AI work. The episodes place that work in formal
 management, senior IC mentoring, and platform ownership. First data hires show
 leadership when they build business trust. Executives show it when they turn
-data work into strategy. [Tereza Iofciu]({{ '/people/terezaiofciu/' | relative_url }})
+data work into strategy. [Tereza Iofciu](https://datatalks.club/people/terezaiofciu.html)
 makes that boundary explicit in
-[Data Leadership Coaching]({{ '/podcasts/data-leadership-coaching/' | relative_url }}):
+[Data Leadership Coaching](https://datatalks.club/podcast/data-leadership-coaching.html):
 people don't need a leadership title to develop leadership skills (about 6:17).
 
 Across the podcast episodes, guests keep data and AI leadership close to
@@ -47,9 +47,9 @@ modeler, machine learning engineer, or platform specialist.
 
 ## Manager and Expert Paths
 
-[Barbara Sobkowiak]({{ '/people/barbarasobkowiak/' | relative_url }}) gives the
+[Barbara Sobkowiak](https://datatalks.club/people/barbarasobkowiak.html) gives the
 cleanest manager-versus-expert distinction in
-[Data Science Manager vs Expert]({{ '/podcasts/data-science-manager-vs-expert-hiring-guide/' | relative_url }}).
+[Data Science Manager vs Expert](https://datatalks.club/podcast/data-science-manager-vs-expert-hiring-guide.html).
 
 She says a data science manager needs broad technical literacy and strategy.
 The manager also needs stakeholder communication and team development. They
@@ -64,12 +64,12 @@ manager job descriptions as if they were hiring a senior technical expert. They
 then attach some team duties. If the team needs coordination and translation,
 a deep expert alone leaves gaps. The same is true for prioritization and people
 development
-([Data Science Manager vs Expert]({{ '/podcasts/data-science-manager-vs-expert-hiring-guide/' | relative_url }}),
+([Data Science Manager vs Expert](https://datatalks.club/podcast/data-science-manager-vs-expert-hiring-guide.html),
 about 31:56 and 34:04).
 
-[Katie Bauer]({{ '/people/katiebauer/' | relative_url }}) adds a career-path
+[Katie Bauer](https://datatalks.club/people/katiebauer.html) adds a career-path
 boundary in
-[How to Hire, Manage, and Grow a Data Science Team in B2B SaaS]({{ '/podcasts/hiring-and-managing-data-science-teams-in-b2b-saas/' | relative_url }}).
+[How to Hire, Manage, and Grow a Data Science Team in B2B SaaS](https://datatalks.club/podcast/hiring-and-managing-data-science-teams-in-b2b-saas.html).
 She treats the move between individual contributor and people management as a
 real option rather than a one-way promotion ladder. Trying management can make
 someone a better senior IC because they learn how managers think about
@@ -96,9 +96,9 @@ Sobkowiak's manager-versus-expert episode ties that map to project discovery
 and data quality. It also covers baselines and success metrics. Managers need to
 tell stakeholders when a simpler approach is enough (about 15:49 and 43:04).
 
-[Geo Jolly]({{ '/people/geojolly/' | relative_url }}) adds the
+[Geo Jolly](https://datatalks.club/people/geojolly.html) adds the
 platform-product version in
-[Product Management for Machine Learning]({{ '/podcasts/ml-product-manager-and-mlops-platform-strategy/' | relative_url }}):
+[Product Management for Machine Learning](https://datatalks.club/podcast/ml-product-manager-and-mlops-platform-strategy.html):
 technical leaders should define the problem and outcome before jumping to a
 solution. They should then measure adoption and productivity for the internal
 users of an ML platform (about 11:24, 18:25, and 31:28).
@@ -113,9 +113,9 @@ choices are reversible and which ones create production or stakeholder risk
 
 ## Data Engineering Management
 
-[Rahul Jain]({{ '/people/16rahuljain/' | relative_url }}) gives the clearest
+[Rahul Jain](https://datatalks.club/people/16rahuljain.html) gives the clearest
 data engineering leadership discussion in
-[Data Engineering Leadership and Modern Data Platforms]({{ '/podcasts/data-engineering-leadership-and-modern-data-platforms/' | relative_url }}).
+[Data Engineering Leadership and Modern Data Platforms](https://datatalks.club/podcast/data-engineering-leadership-and-modern-data-platforms.html).
 He frames the manager role as servant leadership. That means enabling a
 self-motivated team, setting quality expectations, and supporting career
 growth. It also means keeping the team away from monotonous work. Technical
@@ -135,9 +135,9 @@ platform path. That synthesis connects Jain's engineering leadership to
 [DataOps]({{ '/wiki/dataops/' | relative_url }}), and
 [Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}).
 
-[Slawomir Tulski]({{ '/people/slawomirtulski/' | relative_url }}) adds the
+[Slawomir Tulski](https://datatalks.club/people/slawomirtulski.html) adds the
 role-design boundary in
-[Data Engineer Career in 2026]({{ '/podcasts/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for/' | relative_url }}).
+[Data Engineer Career in 2026](https://datatalks.club/podcast/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for.html).
 He separates platform-oriented engineering from product-facing data
 engineering. The platform side emphasizes shared infrastructure, conventions,
 cost-aware systems, and developer experience. Product-facing data engineering
@@ -159,9 +159,9 @@ still reserves capacity for the systems that make data usable.
 ## Team Design and Hiring
 
 Data leaders design the team before they design the roadmap.
-[Lisa Cohen]({{ '/people/lisacohen/' | relative_url }}) gives one of the clearest
+[Lisa Cohen](https://datatalks.club/people/lisacohen.html) gives one of the clearest
 data science org-design discussions in
-[Designing High-Impact Data Science Teams]({{ '/podcasts/data-science-team-structure-and-org-design/' | relative_url }}).
+[Designing High-Impact Data Science Teams](https://datatalks.club/podcast/data-science-team-structure-and-org-design.html).
 
 She compares centralized, embedded, and hybrid models. Central teams protect
 standards, knowledge sharing, career development, and peer learning.
@@ -183,13 +183,13 @@ engineering. They may also work with marketing or another business group.
 In that structure, the data leader protects craft quality and documentation.
 The data leader also protects peer review and career growth. That matters even
 when a dotted-line stakeholder drives daily priorities
-([Hiring and Managing Data Science Teams in B2B SaaS]({{ '/podcasts/hiring-and-managing-data-science-teams-in-b2b-saas/' | relative_url }}),
+([Hiring and Managing Data Science Teams in B2B SaaS](https://datatalks.club/podcast/hiring-and-managing-data-science-teams-in-b2b-saas.html),
 about 8:33 and 11:58). In this example, leadership is about
 [data teams]({{ '/wiki/data-teams/' | relative_url }}), not one title.
 
-[Tammy Liang]({{ '/people/tammyliang/' | relative_url }}) shows the first-team
+[Tammy Liang](https://datatalks.club/people/tammyliang.html) shows the first-team
 version in
-[Building and Leading Data Teams]({{ '/podcasts/building-and-scaling-data-team/' | relative_url }}).
+[Building and Leading Data Teams](https://datatalks.club/podcast/building-and-scaling-data-team.html).
 Her team started by proving the value of business health dashboards. It added
 data engineering capacity after management trusted the team's impact (about
 7:22 and 15:04).
@@ -208,9 +208,9 @@ Hiring a junior is therefore a leadership commitment, not only a lower-cost
 staffing choice. For more role-design work across data scientists, analysts,
 and data engineers, see [hiring]({{ '/wiki/hiring/' | relative_url }}).
 
-[Nicolas Rassam]({{ '/people/nicolasrassam/' | relative_url }}) makes the data
+[Nicolas Rassam](https://datatalks.club/people/nicolasrassam.html) makes the data
 engineering version concrete in
-[Hiring Data Engineers in Europe]({{ '/podcasts/hiring-for-data-engineering-jobs-in-europe/' | relative_url }}).
+[Hiring Data Engineers in Europe](https://datatalks.club/podcast/hiring-for-data-engineering-jobs-in-europe.html).
 He warns that titles hide relevant experience. Software engineers, BI
 engineers, analysts, and data scientists may have built pipelines or modeled
 data. They may also have handled scale or fixed quality problems (about 18:47
@@ -235,10 +235,10 @@ business context (about 22:55 and 26:38).
 ## Mentorship and Feedback
 
 Several guests describe leadership as creating growth conditions for other
-people. [Mariano Semelman]({{ '/people/marianosemelman/' | relative_url }})
+people. [Mariano Semelman](https://datatalks.club/people/marianosemelman.html)
 describes his data science manager work as meetings, mentoring, and coaching.
 Planning and people development sit in the same job in
-[Data Science Leadership]({{ '/podcasts/data-science-leadership-hiring-mlops/' | relative_url }})
+[Data Science Leadership](https://datatalks.club/podcast/data-science-leadership-hiring-mlops.html)
 (about 5:45).
 
 When he took over a team, he used a 30-60-90 plan. He first met
@@ -248,7 +248,7 @@ feedback (about 12:52).
 Semelman's feedback practice is careful because manager feedback changes a
 person's career. He recommends asking permission, showing care, and offering
 options rather than treating managerial opinion as objective truth
-([Data Science Leadership]({{ '/podcasts/data-science-leadership-hiring-mlops/' | relative_url }}),
+([Data Science Leadership](https://datatalks.club/podcast/data-science-leadership-hiring-mlops.html),
 about 40:25 and 44:17). His one-on-one discussion also frames mistakes as part
 of a safe learning environment (about 48:13).
 
@@ -268,10 +268,10 @@ Managers can learn from several episodes:
 - Iofciu for influence, feedback, and visibility
 - Jain for standards, career paths, and self-motivated teams
 
-([Data Science Manager vs Expert]({{ '/podcasts/data-science-manager-vs-expert-hiring-guide/' | relative_url }}),
-[Designing High-Impact Data Science Teams]({{ '/podcasts/data-science-team-structure-and-org-design/' | relative_url }}),
-[Data Leadership Coaching]({{ '/podcasts/data-leadership-coaching/' | relative_url }}),
-[Data Engineering Leadership]({{ '/podcasts/data-engineering-leadership-and-modern-data-platforms/' | relative_url }})).
+([Data Science Manager vs Expert](https://datatalks.club/podcast/data-science-manager-vs-expert-hiring-guide.html),
+[Designing High-Impact Data Science Teams](https://datatalks.club/podcast/data-science-team-structure-and-org-design.html),
+[Data Leadership Coaching](https://datatalks.club/podcast/data-leadership-coaching.html),
+[Data Engineering Leadership](https://datatalks.club/podcast/data-engineering-leadership-and-modern-data-platforms.html)).
 
 From there, managers can add technical fluency in layers. They learn problem
 framing, data quality, and metrics before adding baselines and modeling limits.
@@ -285,7 +285,7 @@ Data and AI leadership often fails when technical work can't be translated
 into stakeholder priorities. Iofciu describes influence without authority as
 speaking different work languages and listening actively. The leader then
 connects a project to what matters for the other person
-([Data Leadership Coaching]({{ '/podcasts/data-leadership-coaching/' | relative_url }}),
+([Data Leadership Coaching](https://datatalks.club/podcast/data-leadership-coaching.html),
 about 46:00 and 49:20). She also argues that data foundation work, models, and
 open-source work need visibility because impact isn't always customer-facing
 (about 24:32 and 43:38).
@@ -295,7 +295,7 @@ scientists can spend time on technically interesting work that doesn't change
 user outcomes. He connects product managers and data scientists. He starts
 from user impact and spends modeling time where it changes the product or
 production test
-([Data Science Leadership]({{ '/podcasts/data-science-leadership-hiring-mlops/' | relative_url }}),
+([Data Science Leadership](https://datatalks.club/podcast/data-science-leadership-hiring-mlops.html),
 about 29:29, 30:06, and 36:50).
 
 This links leadership to
@@ -303,9 +303,9 @@ This links leadership to
 deployment and testing. It also depends on monitoring and iteration, not only
 offline model quality.
 
-[Jack Blandin]({{ '/people/jackblandin/' | relative_url }}) adds an applied ML
+[Jack Blandin](https://datatalks.club/people/jackblandin.html) adds an applied ML
 stakeholder lesson in
-[From Software Engineer to VP of Machine Learning]({{ '/podcasts/from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership/' | relative_url }}).
+[From Software Engineer to VP of Machine Learning](https://datatalks.club/podcast/from-software-engineering-to-vp-of-machine-learning-applied-ml-leadership.html).
 He describes stakeholder buy-in as something leaders earn through product-level
 understanding and trust. Leaders also need to speak in the stakeholder's metrics
 (about 9:01, 11:33, and 15:25).
@@ -319,7 +319,7 @@ Cohen's team-design episode adds the metrics version of stakeholder work.
 Product changes can move more than one metric, so data science leaders need
 cross-functional interpretation. Product, engineering, and design partners help
 interpret those tradeoffs. Research and leadership partners do too
-([Designing High-Impact Data Science Teams]({{ '/podcasts/data-science-team-structure-and-org-design/' | relative_url }}),
+([Designing High-Impact Data Science Teams](https://datatalks.club/podcast/data-science-team-structure-and-org-design.html),
 about 18:43 and 37:24).
 
 Geo's ML product episode adds the platform version. Internal tools still have
@@ -369,7 +369,7 @@ downstream surprises rather than to the appearance of maturity.
 Managers need better project signals than "the model is almost done" or "the
 pipeline is in progress." Data and AI work contains discovery risk. Leaders
 need to separate exploration, validation, production, and adoption.
-[Barbara Sobkowiak]({{ '/people/barbarasobkowiak/' | relative_url }}) gives
+[Barbara Sobkowiak](https://datatalks.club/people/barbarasobkowiak.html) gives
 the first filter.
 
 Managers should ask:
@@ -379,7 +379,7 @@ Managers should ask:
 - what baseline is credible
 - what success metric would justify more work
 
-([Data Science Manager vs Expert]({{ '/podcasts/data-science-manager-vs-expert-hiring-guide/' | relative_url }}),
+([Data Science Manager vs Expert](https://datatalks.club/podcast/data-science-manager-vs-expert-hiring-guide.html),
 about 15:49, 42:05, and 43:04).
 
 Healthy portfolio signals are practical. The team can explain the baseline and
@@ -391,40 +391,40 @@ deployment, monitoring, support, and adoption exists before the system becomes
 business-critical.
 
 Those signals aren't only for data science.
-[Tereza Iofciu]({{ '/people/terezaiofciu/' | relative_url }}) argues in
-[Data Leadership Coaching]({{ '/podcasts/data-leadership-coaching/' | relative_url }})
+[Tereza Iofciu](https://datatalks.club/people/terezaiofciu.html) argues in
+[Data Leadership Coaching](https://datatalks.club/podcast/data-leadership-coaching.html)
 that foundation work needs visibility alongside models and open-source work.
 That impact isn't always customer-facing (about 24:32 and 43:38).
 
-[Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }}) and
-[Barr Moses]({{ '/people/barrmoses/' | relative_url }}) make the same point for
+[Christopher Bergh](https://datatalks.club/people/christopherbergh.html) and
+[Barr Moses](https://datatalks.club/people/barrmoses.html) make the same point for
 data engineering reliability. Tests and observability are project signals.
 Ownership, SLAs, and runbooks also tell stakeholders whether important data can
 be trusted after launch
-([DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }}),
-[Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }})).
+([DataOps for Data Engineering](https://datatalks.club/podcast/dataops-for-data-engineering.html),
+[Data Observability Explained](https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html)).
 
 ## ML Limits
 
 Good data leadership includes the ability to slow down an ML request.
-[Barbara Sobkowiak]({{ '/people/barbarasobkowiak/' | relative_url }})
+[Barbara Sobkowiak](https://datatalks.club/people/barbarasobkowiak.html)
 describes stakeholders asking for AI or ML because they expect "magic." Her
 response is managerial. Clarify the current workflow and check the data. Compare
 against a baseline.
 
 Then decide whether a moving average or rule already solves the problem. A
 dashboard or workflow change may be enough too
-([Data Science Manager vs Expert]({{ '/podcasts/data-science-manager-vs-expert-hiring-guide/' | relative_url }}),
+([Data Science Manager vs Expert](https://datatalks.club/podcast/data-science-manager-vs-expert-hiring-guide.html),
 about 42:05 and 43:04).
 
-[Valerii Babushkin]({{ '/people/valeriybabushkin/' | relative_url }}) makes the
+[Valerii Babushkin](https://datatalks.club/people/valeriybabushkin.html) makes the
 same boundary a system-design habit in
-[ML System Design Interviews]({{ '/podcasts/machine-learning-system-design-interview/' | relative_url }}).
+[ML System Design Interviews](https://datatalks.club/podcast/machine-learning-system-design-interview.html).
 Around 52:25, avoiding ML is a valid design outcome when a heuristic, rule, or
 existing product behavior is enough.
-[Ben Wilson]({{ '/people/benwilson/' | relative_url }}) adds the production
+[Ben Wilson](https://datatalks.club/people/benwilson.html) adds the production
 engineering version in
-[Practical Machine Learning Engineering for Production]({{ '/podcasts/machine-learning-engineering-production-best-practices/' | relative_url }}):
+[Practical Machine Learning Engineering for Production](https://datatalks.club/podcast/machine-learning-engineering-production-best-practices.html):
 simple SQL and statistics can be stronger than hard-to-maintain model novelty.
 So can rules and timeboxed proof points when the baseline already satisfies the
 product need.
@@ -446,12 +446,12 @@ It can also mean choosing an experiment, dashboard, or clearer product decision.
 A trained model creates production responsibility as well as modeling work.
 Managers need enough production literacy to notice that handoff even when a
 specialist owns MLOps.
-[Geo Jolly]({{ '/people/geojolly/' | relative_url }}) puts observability and
+[Geo Jolly](https://datatalks.club/people/geojolly.html) puts observability and
 release governance inside product leadership for ML systems in
-[Product Management for Machine Learning]({{ '/podcasts/ml-product-manager-and-mlops-platform-strategy/' | relative_url }}).
+[Product Management for Machine Learning](https://datatalks.club/podcast/ml-product-manager-and-mlops-platform-strategy.html).
 Platform adoption belongs there too (about 31:28, 35:18, and 57:20).
-[Mariano Semelman]({{ '/people/marianosemelman/' | relative_url }}) adds in
-[Data Science Leadership]({{ '/podcasts/data-science-leadership-hiring-mlops/' | relative_url }})
+[Mariano Semelman](https://datatalks.club/people/marianosemelman.html) adds in
+[Data Science Leadership](https://datatalks.club/podcast/data-science-leadership-hiring-mlops.html)
 that product impact depends on deployment and testing, not only on a promising
 notebook (about 33:36 and 36:50).
 
@@ -471,9 +471,9 @@ hope that "deployment" means "finished."
 
 ## Platform Ownership and Scaling
 
-Leadership becomes more architectural when a team scales. [Mehdi OUAZZA]({{ '/people/mehdiouazza/' | relative_url }})
+Leadership becomes more architectural when a team scales. [Mehdi OUAZZA](https://datatalks.club/people/mehdiouazza.html)
 describes scale-up pressure in
-[Scaling Data Engineering Teams]({{ '/podcasts/scaling-data-engineering-teams-self-service-platforms/' | relative_url }}).
+[Scaling Data Engineering Teams](https://datatalks.club/podcast/scaling-data-engineering-teams-self-service-platforms.html).
 Companies grow users, products, and teams faster than early data systems can
 comfortably support (about 5:41 and 10:21).
 
@@ -500,7 +500,7 @@ Liang's episode shows the adoption side of scaling. Her team moved from
 dashboards to forecasting and data products. Business teams still needed trust,
 workshops, and Q&A. They also needed data culture work before the outputs
 changed daily decisions
-([Building and Leading Data Teams]({{ '/podcasts/building-and-scaling-data-team/' | relative_url }}),
+([Building and Leading Data Teams](https://datatalks.club/podcast/building-and-scaling-data-team.html),
 about 35:38, 47:08, and 49:00).
 
 Her leadership motto is to give project ownership to the people doing the work.
@@ -510,9 +510,9 @@ A growing team can't depend on one leader micromanaging every project (about
 ## Reliability and DataOps
 
 Reliability is a leadership responsibility because managers set how work is
-reviewed, deployed, monitored, and recovered. [Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }})
+reviewed, deployed, monitored, and recovered. [Christopher Bergh](https://datatalks.club/people/christopherbergh.html)
 turns this into an operating model in
-[DataOps for Data Engineering]({{ '/podcasts/dataops-for-data-engineering/' | relative_url }}).
+[DataOps for Data Engineering](https://datatalks.club/podcast/dataops-for-data-engineering.html).
 
 He connects reliable data delivery to automation and observability.
 Productivity, version control, and tests are part of the same operating model.
@@ -522,9 +522,9 @@ of the same discussion (about 15:52 and 30:55, plus 42:39).
 Weak operating habits create fear and hero-driven recovery. They also create turnover
 and avoidable rework (about 13:27 and 34:13, plus 58:15).
 
-[Barr Moses]({{ '/people/barrmoses/' | relative_url }}) gives the observability
+[Barr Moses](https://datatalks.club/people/barrmoses.html) gives the observability
 side in
-[Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }}).
+[Data Observability Explained](https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html).
 
 She argues that data incidents aren't limited to failed jobs. Teams need
 freshness and volume. They also need distribution and schema visibility.
@@ -543,9 +543,9 @@ leadership because the team needs explicit standards and owners.
 ## Strategy and Operating Discipline
 
 At executive scope, leadership turns data work into a strategy that other
-leaders can act on. [Marco De Sa]({{ '/people/marcodesa/' | relative_url }})
+leaders can act on. [Marco De Sa](https://datatalks.club/people/marcodesa.html)
 describes the Chief Data Officer role in
-[Mastering the Chief Data Officer Role]({{ '/podcasts/chief-data-officer-data-strategy-and-org-design/' | relative_url }})
+[Mastering the Chief Data Officer Role](https://datatalks.club/podcast/chief-data-officer-data-strategy-and-org-design.html)
 as data strategy and governance. The role also covers AI direction and team
 design. It includes preparation for future products (about 6:08, 7:17, and
 10:19).

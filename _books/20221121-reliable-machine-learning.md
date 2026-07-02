@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Todd Underwood]({ '/people/toddunderwood/' | relative_url }), [Kranti K. Parisa]({ '/people/krantik-parisa/' | relative_url }), [Cathy Chen]({ '/people/cathychen/' | relative_url }), [Niall Murphy]({ '/people/niallmurphy/' | relative_url }).
+[Todd Underwood](https://datatalks.club/people/toddunderwood.html), [Kranti K. Parisa](https://datatalks.club/people/krantik-parisa.html), [Cathy Chen](https://datatalks.club/people/cathychen.html), [Niall Murphy](https://datatalks.club/people/niallmurphy.html).
 
 ## Discussion Archive
 

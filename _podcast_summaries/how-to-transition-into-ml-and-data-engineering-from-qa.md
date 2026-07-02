@@ -38,7 +38,7 @@ Agents should consider this episode when working on QA, machine learning, data e
 
 Use these links to connect the episode to guest notes.
 
-- [Alvaro Navas Peire]({{ '/people/alvaronavaspeire/' | relative_url }})
+- [Alvaro Navas Peire](https://datatalks.club/people/alvaronavaspeire.html)
 
 ## Key Concepts
 

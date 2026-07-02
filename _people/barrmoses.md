@@ -13,7 +13,7 @@ source_url: "https://datatalks.club/people/barrmoses.html"
 ## Background
 
 Barr Moses is the CEO and co-founder of Monte Carlo. In
-[Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }}),
+[Data Observability Explained](https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html),
 she grounds her view of data reliability in customer data and analytics work at
 GainSight. She also mentions earlier work in data, analytics, consulting, and
 the Israeli Air Force. That background matters because her episode isn't mainly
@@ -31,7 +31,7 @@ restores trust before consumers lose confidence.
 ## Data Downtime and Trust
 
 Moses frames unreliable data as "data downtime." Around 5:00 in
-[Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }}),
+[Data Observability Explained](https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html),
 she describes a familiar failure path. A customer says a dataset looks wrong,
 or a CEO questions a board-report number. The data team then starts guessing
 whether the report refreshed. They also have to ask whether all data arrived or
@@ -50,7 +50,7 @@ decisions.
 ## Five Data Observability Signals
 
 Around 16:38 in
-[Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }}),
+[Data Observability Explained](https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html),
 Moses defines five signals for data observability.
 
 - Freshness asks whether data arrived on time.
@@ -73,7 +73,7 @@ runtime observability. The practical checklist version appears in
 ## Monitoring, Diagnosis, and Lineage
 
 Moses separates monitoring from observability around 24:31 in
-[Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }}).
+[Data Observability Explained](https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html).
 Monitoring tells the team that something changed, such as a freshness problem.
 Observability helps the team understand why it happened, what downstream assets
 are affected, and whether the incident should be fixed immediately.
@@ -94,7 +94,7 @@ schema change.
 ## Ownership, SLAs, and Runbooks
 
 Moses doesn't treat observability as alerts alone. Around 29:00 in
-[Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }}),
+[Data Observability Explained](https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html),
 she uses RACI to separate responsible and accountable roles. The same framework
 also names who should be consulted or informed across the data lifecycle. In a
 small company, one data engineer may own most of the response. In a large
@@ -112,16 +112,16 @@ incident is being fixed.
 
 This operating model sits close to
 [DataOps]({{ '/wiki/dataops/' | relative_url }}). It also complements
-[Christopher Bergh]({{ '/people/christopherbergh/' | relative_url }}), who
+[Christopher Bergh](https://datatalks.club/people/christopherbergh.html), who
 emphasizes DataOps automation, tests, and production recovery.
-[Lars Albertsson]({{ '/people/larsalbertsson/' | relative_url }}) connects
+[Lars Albertsson](https://datatalks.club/people/larsalbertsson.html) connects
 platform design to repeatable data delivery.
 
 ## Testing, Platforms, and False Positives
 
 Moses supports tests, but she warns that tests alone cover only known failure
 modes. Around 50:52 in
-[Data Observability Explained]({{ '/podcasts/data-quality-data-observability-data-reliability/' | relative_url }}),
+[Data Observability Explained](https://datatalks.club/podcast/data-quality-data-observability-data-reliability.html),
 she discusses test-driven data development, dbt checks, and manually defined
 expectations. Those checks help, but teams still need monitoring and
 observability for changes they didn't know to encode as tests. That boundary

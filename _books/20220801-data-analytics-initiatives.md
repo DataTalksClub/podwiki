@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Ondřej Kubera]({ '/people/ondrejkubera/' | relative_url }), [David Bednar]({ '/people/davidbednar/' | relative_url }), [Ondřej Bothe]({ '/people/ondrejbothe/' | relative_url }), [Martin Potančok]({ '/people/martinpotancok/' | relative_url }).
+[Ondřej Kubera](https://datatalks.club/people/ondrejkubera.html), [David Bednar](https://datatalks.club/people/davidbednar.html), [Ondřej Bothe](https://datatalks.club/people/ondrejbothe.html), [Martin Potančok](https://datatalks.club/people/martinpotancok.html).
 
 ## Discussion Archive
 

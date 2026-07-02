@@ -17,4 +17,4 @@ Meor Amer is an educator, author, and Developer Relations professional at Cohere
 
 ## Podcast Discussions
 
-- [Using Visualizations to Explain Machine Learning: Build Intuition with kDimensions, Figma & Templates]({{ '/podcasts/visualizing-machine-learning-concepts-to-explain-ml/' | relative_url }}). Discussed: Episode Introduction & Visual ML Overview; Posting Cadence & Visuals on LinkedIn; Career Journey: Bioengineering → Telecom Analytics → Self-employment; kDimensions: Name & Visual Dimensionality Reduction. Related topics: [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), education.
+- [Using Visualizations to Explain Machine Learning: Build Intuition with kDimensions, Figma & Templates](https://datatalks.club/podcast/visualizing-machine-learning-concepts-to-explain-ml.html). Discussed: Episode Introduction & Visual ML Overview; Posting Cadence & Visuals on LinkedIn; Career Journey: Bioengineering → Telecom Analytics → Self-employment; kDimensions: Name & Visual Dimensionality Reduction. Related topics: [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), education.

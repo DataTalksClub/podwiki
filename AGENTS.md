@@ -56,12 +56,20 @@ publish separate `Archive Evidence`, `Guest Descriptions`, `Maintenance Notes`,
 `Episode Evidence`, `Recurring Archive Themes`, `Contents`, or `Search Intent`
 sections in reader-facing pages.
 
-When the source episode is known, link public content pages to the local
-podcast page: `{{ '/podcasts/<source-file-slug>/' | relative_url }}`. That
-local page links to the original
-`https://datatalks.club/podcast/<source-file-slug>.html` episode. Use
-`https://datatalks.club/podcast.html` only as a temporary fallback when the
-specific episode slug is unknown.
+Podcast, people, and book pages are node registries, not published pages
+(`_config.yml` sets `output: false` for them because they duplicate the main
+site). Link public content pages straight to the canonical DataTalks.Club URL,
+never to a local `/podcasts/`, `/people/`, or `/books/` path:
+
+- episode: `https://datatalks.club/podcast/<source-file-slug>.html`
+- person: `https://datatalks.club/people/<slug>.html`
+- book: `https://datatalks.club/books/<slug>.html`
+
+Use `https://datatalks.club/podcast.html` only as a temporary fallback when the
+specific episode slug is unknown. `scripts/rewrite_to_canonical.py` (run by
+`make sources`) converts any stray local links to canonical form; the graph and
+search still treat these entities as nodes and resolve them to the same
+canonical URLs.
 
 People pages should be mostly about the person's podcast contributions: what
 they argued, explained, contrasted, or demonstrated in the archive. Keep a short
@@ -87,8 +95,8 @@ and replace them with podcast-backed synthesis when the topic becomes important.
    of links.
 6. Add cross-links to related wiki pages, category pages, people pages, local
    podcast pages, and grounding evidence.
-7. Add podcast evidence links in the body. Use local
-   `/podcasts/<source-file-slug>/` links when the source episode is known.
+7. Add podcast evidence links in the body. Link to the canonical
+   `https://datatalks.club/podcast/<source-file-slug>.html` episode when known.
 8. For source-derived podcast and people pages, run `make sources`.
 9. For graph/search changes, run `make graph` and
    `python scripts/build_search_index.py`, or simply run `make check`.
@@ -171,10 +179,11 @@ stable through graph URL hashes. `graph/graph.json` is generated from collection
 frontmatter and internal links by `scripts/build_graph.py`; do not maintain it
 as separate editorial content. Run `make sources` to sync source-derived
 podcast and people pages before graph generation. The source documents are
-`_wiki/`, `_people/`, and `_podcast_summaries/`. Episode nodes
-should link to local podcast pages, which then link to the original
-DataTalks.Club podcast pages. The graph may still treat tagged wiki pages
-internally as article/content nodes; that is an implementation detail.
+`_wiki/`, `_people/`, and `_podcast_summaries/`. Podcast, person, and book
+nodes carry the canonical DataTalks.Club URL (`source_url`) as their node link,
+so clicking them leaves the wiki for the main site. The graph may still treat
+tagged wiki pages internally as article/content nodes; that is an
+implementation detail.
 
 Run `python scripts/check_links.py` after a static build to validate generated
 internal links. GitHub Pages runs the same checker with the deployed base path.

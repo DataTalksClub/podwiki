@@ -15,9 +15,9 @@ Tatiana Gabruseva is a Computer Vision and Deep Learning Engineer and Kaggle Com
 
 ## Podcast Contributions
 
-- [Switch to Computer Vision and Deep Learning]({{ '/podcasts/from-physics-to-computer-vision-career-transition/' | relative_url }}) connects physics, Kaggle projects, mentorship, and interview preparation.
-- [Competitions: Beyond the Kaggle Leaderboard]({{ '/podcasts/s24e01-competitions-beyond-kaggle-leaderboard/' | relative_url }}) extends the competition-learning thread beyond rankings.
-- [Transitioning from Academia to Industry as a Staff AI Engineer]({{ '/podcasts/from-academia-to-staff-ai-engineer-interviews-and-career-growth/' | relative_url }}) contributes evidence on staff-level interviews, onboarding, MLOps, and career growth.
+- [Switch to Computer Vision and Deep Learning](https://datatalks.club/podcast/from-physics-to-computer-vision-career-transition.html) connects physics, Kaggle projects, mentorship, and interview preparation.
+- [Competitions: Beyond the Kaggle Leaderboard](https://datatalks.club/podcast/s24e01-competitions-beyond-kaggle-leaderboard.html) extends the competition-learning thread beyond rankings.
+- [Transitioning from Academia to Industry as a Staff AI Engineer](https://datatalks.club/podcast/from-academia-to-staff-ai-engineer-interviews-and-career-growth.html) contributes evidence on staff-level interviews, onboarding, MLOps, and career growth.
 
 ## Concepts Connected
 
@@ -32,6 +32,6 @@ Tatiana Gabruseva is a Computer Vision and Deep Learning Engineer and Kaggle Com
 
 ## Podcast Discussions
 
-- [Transitioning from Academia to Industry as a Staff AI Engineer: Interview Prep, MLOps & Onboarding]({{ '/podcasts/from-academia-to-staff-ai-engineer-interviews-and-career-growth/' | relative_url }}). Related topics: [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [career transition]({{ '/wiki/career-transitions-in-data/' | relative_url }}), [MLOps]({{ '/wiki/mlops/' | relative_url }}), [staff AI engineer]({{ '/wiki/staff-ai-engineer/' | relative_url }}), [career growth]({{ '/wiki/career-growth/' | relative_url }}).
-- [Switch to Computer Vision & Deep Learning: Roadmap, Kaggle Projects, Mentors & Interview Prep]({{ '/podcasts/from-physics-to-computer-vision-career-transition/' | relative_url }}). Related topics: [career transition]({{ '/wiki/career-transitions-in-data/' | relative_url }}), physics, [deep learning]({{ '/wiki/deep-learning/' | relative_url }}), [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [career growth]({{ '/wiki/career-growth/' | relative_url }}), [academia]({{ '/wiki/academia/' | relative_url }}), mentorship.
-- [Competitions: Beyond the Kaggle Leaderboard]({{ '/podcasts/s24e01-competitions-beyond-kaggle-leaderboard/' | relative_url }}).
+- [Transitioning from Academia to Industry as a Staff AI Engineer: Interview Prep, MLOps & Onboarding](https://datatalks.club/podcast/from-academia-to-staff-ai-engineer-interviews-and-career-growth.html). Related topics: [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [career transition]({{ '/wiki/career-transitions-in-data/' | relative_url }}), [MLOps]({{ '/wiki/mlops/' | relative_url }}), [staff AI engineer]({{ '/wiki/staff-ai-engineer/' | relative_url }}), [career growth]({{ '/wiki/career-growth/' | relative_url }}).
+- [Switch to Computer Vision & Deep Learning: Roadmap, Kaggle Projects, Mentors & Interview Prep](https://datatalks.club/podcast/from-physics-to-computer-vision-career-transition.html). Related topics: [career transition]({{ '/wiki/career-transitions-in-data/' | relative_url }}), physics, [deep learning]({{ '/wiki/deep-learning/' | relative_url }}), [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [career growth]({{ '/wiki/career-growth/' | relative_url }}), [academia]({{ '/wiki/academia/' | relative_url }}), mentorship.
+- [Competitions: Beyond the Kaggle Leaderboard](https://datatalks.club/podcast/s24e01-competitions-beyond-kaggle-leaderboard.html).

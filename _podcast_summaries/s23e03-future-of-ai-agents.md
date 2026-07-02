@@ -38,7 +38,7 @@ Agents should consider this episode when working on mlops, search.
 
 Use these links to connect the episode to guest notes.
 
-- [Aditya Gautam]({{ '/people/adityagautam/' | relative_url }})
+- [Aditya Gautam](https://datatalks.club/people/adityagautam.html)
 
 ## Key Concepts
 

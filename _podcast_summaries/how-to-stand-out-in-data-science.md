@@ -38,7 +38,7 @@ Agents should consider this episode when working on data science, career growth.
 
 Use these links to connect the episode to guest notes.
 
-- [Marijn Markus]({{ '/people/marijnmarkus/' | relative_url }})
+- [Marijn Markus](https://datatalks.club/people/marijnmarkus.html)
 
 ## Key Concepts
 

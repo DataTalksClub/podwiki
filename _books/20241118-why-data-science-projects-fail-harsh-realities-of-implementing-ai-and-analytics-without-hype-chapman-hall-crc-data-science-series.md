@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Evan Shellshear]({ '/people/evanshellshear/' | relative_url }), [Douglas Gray]({ '/people/douglasgray/' | relative_url }).
+[Evan Shellshear](https://datatalks.club/people/evanshellshear.html), [Douglas Gray](https://datatalks.club/people/douglasgray.html).
 
 ## Discussion Archive
 

@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Hayden Liu]({ '/people/haydenliu/' | relative_url }).
+[Hayden Liu](https://datatalks.club/people/haydenliu.html).
 
 ## Discussion Archive
 

@@ -38,7 +38,7 @@ Agents should consider this episode when working on Freelance, Career Growth, Co
 
 Use these links to connect the episode to guest notes.
 
-- [Dimitri Visnadi]({{ '/people/dimitrivisnadi/' | relative_url }})
+- [Dimitri Visnadi](https://datatalks.club/people/dimitrivisnadi.html)
 
 ## Key Concepts
 

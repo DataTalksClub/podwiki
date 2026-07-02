@@ -38,7 +38,7 @@ Agents should consider this episode when working on data governance, data privac
 
 Use these links to connect the episode to guest notes.
 
-- [Katharine Jarmul]({{ '/people/katharinejarmul/' | relative_url }})
+- [Katharine Jarmul](https://datatalks.club/people/katharinejarmul.html)
 
 ## Key Concepts
 

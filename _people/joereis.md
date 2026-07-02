@@ -15,14 +15,14 @@ expertise: ["data engineering", "data architecture", "data engineering lifecycle
 
 Joe Reis is a data engineering and architecture consultant. He co-founded
 Ternary Data and co-authored Fundamentals of Data Engineering with
-[Matthew Housley]({{ '/people/matthewhousley/' | relative_url }}).
+[Matthew Housley](https://datatalks.club/people/matthewhousley.html).
 DataTalks.Club references Joe mainly through the book and its Book of the Week
 Q&A, not through a tagged podcast appearance.
 
 DataTalks.Club podcast mentions Joe when
-[Santona Tuli]({{ '/people/santonatuli/' | relative_url }}) recommends
+[Santona Tuli](https://datatalks.club/people/santonatuli.html) recommends
 Fundamentals of Data Engineering in
-[Modern Data Pipeline Architecture]({{ '/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/' | relative_url }})
+[Modern Data Pipeline Architecture](https://datatalks.club/podcast/modern-data-pipelines-orchestration-ingestion-modeling.html)
 around 59:16. She points listeners toward Joe and Matt's book for data
 engineering skills. She then warns that books should be supplemented with
 engineering blogs, practitioner conversations, and shorter-form material because
@@ -37,8 +37,8 @@ foundations before memorizing tools. In the
 he says the book gives software engineers a shared foundation. It gives the
 same foundation to people working in data science, analytics, or data
 engineering. Podcast guests make a similar argument in
-[Data Engineering Career Path and Skills]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }}),
-where [Jeff Katz]({{ '/people/jeffkatz/' | relative_url }}) puts Python and SQL
+[Data Engineering Career Path and Skills](https://datatalks.club/podcast/data-engineering-career-path-and-skills.html),
+where [Jeff Katz](https://datatalks.club/people/jeffkatz.html) puts Python and SQL
 before advanced distributed tools. He also puts database concepts and cloud
 basics early in the path.
 
@@ -47,7 +47,7 @@ ingestion and orchestration before moving to dbt-style transformation and
 staging. She also covers data modeling and ML serving.
 
 Around 59:16 in
-[Modern Data Pipeline Architecture]({{ '/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/' | relative_url }}),
+[Modern Data Pipeline Architecture](https://datatalks.club/podcast/modern-data-pipelines-orchestration-ingestion-modeling.html),
 she recommends Joe and Matt's book as a way to learn the field. Read this page with the
 [data engineering roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }})
 and [data engineering tools]({{ '/wiki/data-engineering-tools/' | relative_url }})
@@ -66,7 +66,7 @@ end-to-end data pipelines rather than only in a career reading list.
 
 Joe's lifecycle language lines up with Santona's distinction between analytics
 pipelines and ML pipelines. Around 13:25-18:44 in
-[Modern Data Pipeline Architecture]({{ '/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/' | relative_url }}),
+[Modern Data Pipeline Architecture](https://datatalks.club/podcast/modern-data-pipelines-orchestration-ingestion-modeling.html),
 she separates business-data pipelines from model-operationalization pipelines.
 
 Later, around 37:10-43:05, she treats deduplication and ordering guarantees as
@@ -88,7 +88,7 @@ Together, that puts tool selection inside architecture judgment.
 The podcast material gives that principle concrete examples. Santona compares
 Upsolver and dbt by asking whether each tool is mainly for authoring,
 execution, or ingestion
-([Modern Data Pipeline Architecture]({{ '/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/' | relative_url }}),
+([Modern Data Pipeline Architecture](https://datatalks.club/podcast/modern-data-pipelines-orchestration-ingestion-modeling.html),
 10:48-13:25). She then broadens the tool map to orchestrators, Spark,
 Kafka/Kinesis, and feature stores. She also discusses vector databases,
 Snowflake, Databricks, and lakehouse designs.
@@ -110,7 +110,7 @@ data engineering lifecycle.
 
 Santona's episode reinforces the operational side of that stance. Around
 39:23-44:57 in
-[Modern Data Pipeline Architecture]({{ '/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/' | relative_url }}),
+[Modern Data Pipeline Architecture](https://datatalks.club/podcast/modern-data-pipelines-orchestration-ingestion-modeling.html),
 she moves from transformation work into entity modeling, marts, and dashboards.
 She then covers feature engineering, model training, and serving.
 
@@ -135,7 +135,7 @@ He also emphasizes business empathy. When asked about junior engineers without
 stakeholder experience, Joe says embedding with business teams can help
 engineers understand downstream requirements. Santona discusses persona-driven
 pipeline design around 52:54 in
-[Modern Data Pipeline Architecture]({{ '/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/' | relative_url }}).
+[Modern Data Pipeline Architecture](https://datatalks.club/podcast/modern-data-pipelines-orchestration-ingestion-modeling.html).
 For the career side, use [career growth]({{ '/wiki/career-growth/' | relative_url }}),
 [career transitions in data]({{ '/wiki/career-transitions-in-data/' | relative_url }}),
 and [data engineering portfolio projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
@@ -145,10 +145,10 @@ pages.
 
 Use these follow-up paths from Joe's DataTalks.Club material.
 
-- [Modern Data Pipeline Architecture]({{ '/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/' | relative_url }})
+- [Modern Data Pipeline Architecture](https://datatalks.club/podcast/modern-data-pipelines-orchestration-ingestion-modeling.html)
   is the specific podcast episode that recommends Joe and Matt's book and
   covers the pipeline design topics that make the book relevant.
-- [Matthew Housley]({{ '/people/matthewhousley/' | relative_url }}) is Joe's
+- [Matthew Housley](https://datatalks.club/people/matthewhousley.html) is Joe's
   co-author and Ternary Data co-founder. His Q&A answers often extend Joe's
   points on technology classes, off-the-shelf tools, and cloud data systems.
 - [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}),

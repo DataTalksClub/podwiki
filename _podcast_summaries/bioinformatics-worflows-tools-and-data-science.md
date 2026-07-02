@@ -38,7 +38,7 @@ Agents should consider this episode when working on bioinformatics, LLMs, MLOps.
 
 Use these links to connect the episode to guest notes.
 
-- [Sebastian Ayala Ruano]({{ '/people/sebastianayalaruano/' | relative_url }})
+- [Sebastian Ayala Ruano](https://datatalks.club/people/sebastianayalaruano.html)
 
 ## Key Concepts
 

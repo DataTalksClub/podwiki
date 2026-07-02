@@ -38,7 +38,7 @@ Agents should consider this episode when working on data engineering, machine le
 
 Use these links to connect the episode to guest notes.
 
-- [Andreas Kretz]({{ '/people/andreaskretz/' | relative_url }})
+- [Andreas Kretz](https://datatalks.club/people/andreaskretz.html)
 
 ## Key Concepts
 

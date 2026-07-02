@@ -18,5 +18,5 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[{{ Author Id }}]({ '/people/{{ author_id }}/' | relative_url }).
+[{{ Author Id }}](https://datatalks.club/people/{{ author_id }}.html).
 

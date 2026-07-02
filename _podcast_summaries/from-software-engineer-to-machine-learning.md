@@ -38,7 +38,7 @@ Agents should consider this episode when working on machine learning, MLOps, sof
 
 Use these links to connect the episode to guest notes.
 
-- [Santiago Valdarrama]({{ '/people/svpino/' | relative_url }})
+- [Santiago Valdarrama](https://datatalks.club/people/svpino.html)
 
 ## Key Concepts
 

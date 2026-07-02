@@ -15,7 +15,7 @@ Elle O'Brien is a data scientist at Iterative and a lecturer at the University o
 
 ## Podcast Contributions
 
-- [DevRel for Data Science]({{ '/podcasts/devrel-data-science-open-source-tools/' | relative_url }}) connects developer relations with data science practice: community growth, content, reproducibility, open-source tools, and career development through public technical work.
+- [DevRel for Data Science](https://datatalks.club/podcast/devrel-data-science-open-source-tools.html) connects developer relations with data science practice: community growth, content, reproducibility, open-source tools, and career development through public technical work.
 
 ## Concepts Connected
 
@@ -30,4 +30,4 @@ Elle O'Brien is a data scientist at Iterative and a lecturer at the University o
 
 ## Podcast Discussions
 
-- [DevRel for Data Science: Build Community, Create Content, and Grow Your Career]({{ '/podcasts/devrel-data-science-open-source-tools/' | relative_url }}). Related topics: [developer relations]({{ '/wiki/developer-relations/' | relative_url }}), [data science]({{ '/wiki/data-science/' | relative_url }}), [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [open-source]({{ '/wiki/open-source/' | relative_url }}).
+- [DevRel for Data Science: Build Community, Create Content, and Grow Your Career](https://datatalks.club/podcast/devrel-data-science-open-source-tools.html). Related topics: [developer relations]({{ '/wiki/developer-relations/' | relative_url }}), [data science]({{ '/wiki/data-science/' | relative_url }}), [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [open-source]({{ '/wiki/open-source/' | relative_url }}).

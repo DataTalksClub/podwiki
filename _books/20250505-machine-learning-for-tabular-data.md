@@ -19,5 +19,5 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Mark Ryan]({ '/people/markryan/' | relative_url }), [Luca Massaron]({ '/people/lucamassaron/' | relative_url }).
+[Mark Ryan](https://datatalks.club/people/markryan.html), [Luca Massaron](https://datatalks.club/people/lucamassaron.html).
 

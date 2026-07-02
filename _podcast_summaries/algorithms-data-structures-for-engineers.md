@@ -38,7 +38,7 @@ Agents should consider this episode when working on algorithms, data structures,
 
 Use these links to connect the episode to guest notes.
 
-- [Marcello La Rocca]({{ '/people/marcellolarocca/' | relative_url }})
+- [Marcello La Rocca](https://datatalks.club/people/marcellolarocca.html)
 
 ## Key Concepts
 

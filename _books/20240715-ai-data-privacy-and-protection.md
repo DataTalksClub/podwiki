@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Mario Lazo]({ '/people/mariolazo/' | relative_url }), [Justin Ryan]({ '/people/justinryan/' | relative_url }).
+[Mario Lazo](https://datatalks.club/people/mariolazo.html), [Justin Ryan](https://datatalks.club/people/justinryan.html).
 
 ## Discussion Archive
 

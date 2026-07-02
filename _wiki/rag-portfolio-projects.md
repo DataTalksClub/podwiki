@@ -19,16 +19,16 @@ evidence. The project is stronger when the demo shows retrieved passages and
 answer citations. It should also show metadata, evaluation runs, and failure
 labels instead of only a polished chat UI.
 
-[Atita Arora]({{ '/people/atitaarora/' | relative_url }}) gives the clearest
+[Atita Arora](https://datatalks.club/people/atitaarora.html) gives the clearest
 project structure in
-[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}):
+[Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html):
 at 30:38-48:09, she moves from retrieval-augmented generation to transcript
 chunking and vectorization. She then adds prompt context, citations, and
 multi-level RAG evaluation.
 
-[Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }})
+[Hugo Bowne-Anderson](https://datatalks.club/people/hugobowneanderson.html)
 adds the portfolio review standard in
-[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}):
+[Practical LLM Engineering and RAG](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html):
 at 23:00-27:38, he connects representative gold tests with failure analysis. He
 also ties the review to logs or traces.
 
@@ -57,8 +57,8 @@ evidence for a question, passes that evidence to the model, and cites sources a
 reviewer can open.
 
 At 35:49-42:49 in
-[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }}),
-[Atita Arora]({{ '/people/atitaarora/' | relative_url }}) uses podcast
+[Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html),
+[Atita Arora](https://datatalks.club/people/atitaarora.html) uses podcast
 transcripts as the concrete example. Long transcripts need chunking and
 overlap. Each chunk needs vectorization. The answer path needs retrieval,
 augmentation, generation, and citations.
@@ -67,17 +67,17 @@ Her 48:09 evaluation discussion means
 the project should test embedding choices and chunking strategy. It should also
 test retrieval quality and final answer quality.
 
-[Meryem Arik]({{ '/people/meryemarik/' | relative_url }}) gives the production
+[Meryem Arik](https://datatalks.club/people/meryemarik.html) gives the production
 reason in
-[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}):
+[Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html):
 at 40:46-46:42, she prefers retrieval when a company's knowledge base changes.
 The system can re-index documents instead of repeatedly retraining the model.
 Her framing makes grounding part of the project definition, not an optional
 README flourish.
 
-[Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }}) adds
+[Hugo Bowne-Anderson](https://datatalks.club/people/hugobowneanderson.html) adds
 the reviewable engineering loop in
-[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}).
+[Practical LLM Engineering and RAG](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html).
 At 23:00-27:38, representative gold tests and failure categories turn a RAG
 demo into a debuggable system. Logs and traces make that review practical. A
 portfolio reviewer should be able to see which questions failed because of
@@ -91,23 +91,23 @@ Atita starts from search engineering. Her standard emphasizes
 [information retrieval]({{ '/wiki/information-retrieval/' | relative_url }}),
 chunking, and metadata. It also emphasizes vector search choices, prompt
 context, and citations. Multi-level evaluation matters too
-([Modern Search Systems, 17:01-48:09]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})).
+([Modern Search Systems, 17:01-48:09](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html)).
 
 That view treats a
 [vector database]({{ '/wiki/vector-databases/' | relative_url }}) as one
 retrieval component, not the whole project.
 
 Hugo starts from practical LLM shipping. In
-[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}),
+[Practical LLM Engineering and RAG](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html),
 he treats RAG as a quick business win when the knowledge base and chunking
 strategy fit the task. He asks teams to add tools or
 [agents]({{ '/wiki/agent-engineering/' | relative_url }}) only when lookup is
 not enough. At 44:26-56:21, his examples move from RAG into tool calls, memory,
 and agentic workflows when the system must coordinate steps.
 
-[Ranjitha Kulkarni]({{ '/people/ranjithakulkarni/' | relative_url }}) draws a
+[Ranjitha Kulkarni](https://datatalks.club/people/ranjithakulkarni.html) draws a
 similar boundary from agent engineering in
-[Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}).
+[Building Agentic AI Systems](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html).
 At 29:30-37:39, she argues that long context windows don't make RAG obsolete.
 Latency and cost still matter. So do noisy context, chunk metadata, and source
 quality.
@@ -115,7 +115,7 @@ At 36:11-40:30, she treats retrieval as one tool inside an agent when the
 problem needs dynamic planning, multiple data sources, or API integrations.
 
 Meryem frames the same project against fine-tuning and serving choices. In
-[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }}),
+[Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html),
 she places changing knowledge in retrieval at 40:46. At 26:30, style and domain
 adaptation fit fine-tuning. At 18:46 and 49:44-51:35, production readiness
 depends on model drift, latency, and cost. Privacy and hosting choices matter
@@ -126,9 +126,9 @@ RAG portfolio work should therefore cover
 and
 [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }}).
 
-[Anahita Pakiman]({{ '/people/anahitapakiman/' | relative_url }}) adds a domain
+[Anahita Pakiman](https://datatalks.club/people/anahitapakiman.html) adds a domain
 modeling boundary. In
-[Knowledge Graphs and LLMs for Automotive R&D]({{ '/podcasts/knowledge-graphs-and-llms-for-automotive-rnd/' | relative_url }}),
+[Knowledge Graphs and LLMs for Automotive R&D](https://datatalks.club/podcast/knowledge-graphs-and-llms-for-automotive-rnd.html),
 she argues at 33:43-42:42 that relationship-heavy domains can need
 knowledge-graph retrieval and Cypher queries. They can also need graph
 semantics in addition to nearest-neighbor text chunks. That's the project
@@ -140,25 +140,25 @@ boundary covered by
 A source-cited knowledge assistant is the most direct first RAG portfolio
 project. Atita and Hugo both use transcript or knowledge-base examples to
 explain practical RAG. In
-[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
-at 35:49-42:49, [Atita Arora]({{ '/people/atitaarora/' | relative_url }})
+[Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html)
+at 35:49-42:49, [Atita Arora](https://datatalks.club/people/atitaarora.html)
 moves from podcast transcripts to chunking and overlap. She then adds
 embeddings, retrieval, and augmentation. The path continues through generation,
 prompt design, and citations.
 
 In
-[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}),
-[Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }})
+[Practical LLM Engineering and RAG](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html),
+[Hugo Bowne-Anderson](https://datatalks.club/people/hugobowneanderson.html)
 describes simple RAG bots with good chunking and embeddings as practical wins
 at 44:26-50:30.
 
 The portfolio artifact should therefore show example questions, retrieved
 passages, answer citations, and refusals when the corpus doesn't support an
 answer. It should also expose missed evidence. Atita's 48:09 discussion in
-[Modern Search Systems]({{ '/podcasts/modern-search-systems-vector-databases-llms-semantic-retrieval/' | relative_url }})
+[Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html)
 supports evaluating each layer of the RAG pipeline. Hugo's 26:43 failure
 analysis in
-[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }})
+[Practical LLM Engineering and RAG](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html)
 supports labeling failures as retrieval, generation, formatting, or source
 preparation problems.
 
@@ -166,9 +166,9 @@ preparation problems.
 
 A search-first RAG project proves retrieval quality first. It does that before
 generation makes the demo look fluent.
-[Daniel Svonava]({{ '/people/danielsvonava/' | relative_url }}) grounds this
+[Daniel Svonava](https://datatalks.club/people/danielsvonava.html) grounds this
 project type in
-[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }}).
+[Building Search Systems](https://datatalks.club/podcast/building-production-search-systems.html).
 
 At 12:45-17:40, he separates candidate retrieval from ranking and recommends
 existing search engines instead of hand-rolled indexes. At 27:21-34:00, he
@@ -177,7 +177,7 @@ covers query-time encoding and hybrid search.
 
 This project is strongest when the README compares retrieval approaches on the
 same questions. Daniel's 1:01:25-1:03:50 discussion in
-[Building Search Systems]({{ '/podcasts/building-production-search-systems/' | relative_url }})
+[Building Search Systems](https://datatalks.club/podcast/building-production-search-systems.html)
 ties search quality to business metrics and A/B tests. It also connects search
 quality to offline evaluation and fast iteration.
 
@@ -194,9 +194,9 @@ work.
 
 An evaluation-focused RAG project can start from an ordinary demo and make it
 measurable.
-[Hugo Bowne-Anderson]({{ '/people/hugobowneanderson/' | relative_url }}) gives
+[Hugo Bowne-Anderson](https://datatalks.club/people/hugobowneanderson.html) gives
 this structure in
-[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }}).
+[Practical LLM Engineering and RAG](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html).
 At 23:00-25:25, he argues for representative gold tests. At 26:43, he
 recommends categorizing failures so the next fix goes to retrieval or prompting.
 Formatting and data preparation can be separate classes.
@@ -213,7 +213,7 @@ into visible project evidence rather than a claim in the README.
 Ranjitha extends the same idea when retrieval becomes one tool inside a larger
 [AI agent]({{ '/wiki/agent-engineering/' | relative_url }}) workflow. Her agent
 evaluation discussion at 51:17-57:23 in
-[Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }})
+[Building Agentic AI Systems](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html)
 supports custom datasets, mocked tools, integration tests, and outcome
 assertions. A portfolio project can show this with a compact evaluation report
 that includes the query and expected evidence. It should also include retrieved
@@ -224,10 +224,10 @@ evidence, the answer, a failure class, and the next retrieval fix.
 A RAG portfolio project gets stronger when it states whether the system is only
 answering from retrieved documents or also taking actions. Hugo's 44:26-56:21
 discussion in
-[Practical LLM Engineering and RAG]({{ '/podcasts/practical-llm-engineering-and-rag/' | relative_url }})
+[Practical LLM Engineering and RAG](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html)
 places tool calls, memory, and agents beyond basic RAG when a workflow needs
 multiple steps. Ranjitha makes the same boundary explicit in
-[Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}):
+[Building Agentic AI Systems](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html):
 at 36:11-40:30, retrieval is one tool an agent can choose. Dynamic planning and
 multiple integrations push the project into
 [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }}).
@@ -237,20 +237,20 @@ assistant can stay as RAG when it only answers with citations. An operations
 assistant that searches logs and calls monitoring APIs needs more evidence. If
 it proposes remediation steps, it needs mocked tools, integration tests, and
 outcome assertions. Ranjitha describes that at 51:17-57:23 in
-[Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}).
+[Building Agentic AI Systems](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html).
 
 ## Graph or Domain RAG Project
 
 Some RAG portfolio projects should model relationships instead of relying only
-on nearest-neighbor text chunks. [Anahita Pakiman]({{ '/people/anahitapakiman/' | relative_url }})
+on nearest-neighbor text chunks. [Anahita Pakiman](https://datatalks.club/people/anahitapakiman.html)
 grounds this project type in
-[Knowledge Graphs and LLMs for Automotive R&D]({{ '/podcasts/knowledge-graphs-and-llms-for-automotive-rnd/' | relative_url }}):
+[Knowledge Graphs and LLMs for Automotive R&D](https://datatalks.club/podcast/knowledge-graphs-and-llms-for-automotive-rnd.html):
 at 33:43-42:42, she connects knowledge graphs with LLM grounding and RAG. She
 then contrasts text chunking and embeddings with graph semantics, vector
 databases, and Cypher-driven retrieval.
 
 The 42:42-47:10 section in
-[Knowledge Graphs and LLMs for Automotive R&D]({{ '/podcasts/knowledge-graphs-and-llms-for-automotive-rnd/' | relative_url }})
+[Knowledge Graphs and LLMs for Automotive R&D](https://datatalks.club/podcast/knowledge-graphs-and-llms-for-automotive-rnd.html)
 also covers trust and hallucination. It covers verification limits too.
 Anahita adds paper parsing and graph visualization. She also covers PageRank
 and references.
@@ -266,9 +266,9 @@ It should also show when the evidence is insufficient.
 
 A career-transition RAG project should connect the builder's previous domain to
 current AI engineering practice.
-[Revathy Ramalingam]({{ '/people/revathyramalingam/' | relative_url }}) gives
+[Revathy Ramalingam](https://datatalks.club/people/revathyramalingam.html) gives
 the career-break example in
-[How to Become an AI Engineer After a Career Break]({{ '/podcasts/s23e04-how-to-become-ai-engineer-after-career-break/' | relative_url }}).
+[How to Become an AI Engineer After a Career Break](https://datatalks.club/podcast/s23e04-how-to-become-ai-engineer-after-career-break.html).
 Her 22:15 chapter covers building prototypes with AI developer tools. Her 33:45
 chapter covers an interview task that uses a PDF Q&A assistant.
 
@@ -281,9 +281,9 @@ this project type with
 [Job Search]({{ '/wiki/job-search/' | relative_url }}) when the page is used
 for hiring preparation.
 
-[Paul Iusztin]({{ '/people/pauliusztin/' | relative_url }}) adds the
+[Paul Iusztin](https://datatalks.club/people/pauliusztin.html) adds the
 [AI Engineering]({{ '/wiki/ai-engineering/' | relative_url }}) framing in
-[his AI engineering episode]({{ '/podcasts/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products/' | relative_url }}).
+[his AI engineering episode](https://datatalks.club/podcast/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products.html).
 At 29:12, he places RAG and knowledge management inside the AI engineer skill
 stack. At 54:05, he connects portfolio work with a "second brain" project. That
 supports a personal knowledge assistant when the project also shows software
@@ -292,8 +292,8 @@ quality, evaluation, and knowledge-management judgment.
 ## Production-Minded RAG Demo
 
 A production-minded demo doesn't need production scale, but it should name the
-constraints a real team would face. [Meryem Arik]({{ '/people/meryemarik/' | relative_url }})'s
-[Deploying LLMs in Production]({{ '/podcasts/deploying-llms-in-production-fine-tuning-retrieval-open-source-api/' | relative_url }})
+constraints a real team would face. [Meryem Arik](https://datatalks.club/people/meryemarik.html)'s
+[Deploying LLMs in Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html)
 episode supports that checklist. At 18:46, she discusses hidden API changes and
 model drift. At 49:44-51:35, she compares hosted APIs with open-source serving
 and covers latency, cost, and hardware. At 40:46-46:42, she places changing
@@ -309,7 +309,7 @@ and the
 [LLM and RAG Production Roadmap]({{ '/wiki/llm-rag-production-roadmap/' | relative_url }}).
 
 Ranjitha's RAG reality check at 29:30-37:39 in
-[Building Agentic AI Systems]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }})
+[Building Agentic AI Systems](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html)
 adds another production boundary. Long context, agents, and vector databases do
 not remove the need to manage source quality and noisy context. Teams still need
 to manage chunk metadata, latency, and cost.

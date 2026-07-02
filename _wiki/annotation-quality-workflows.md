@@ -19,19 +19,19 @@ tooling. Those labels then support
 [MLOps]({{ '/wiki/mlops/' | relative_url }}).
 
 In
-[NLP Dataset Creation]({{ '/podcasts/nlp-dataset-creation-annotation-tools-workflows/' | relative_url }}),
-[Christiaan Swart]({{ '/people/christiannswart/' | relative_url }}) treats
+[NLP Dataset Creation](https://datatalks.club/podcast/nlp-dataset-creation-annotation-tools-workflows.html),
+[Christiaan Swart](https://datatalks.club/people/christiannswart.html) treats
 annotation as a human-centered production process. At 9:02 and 18:36, he
 describes stakeholder framing and ambiguous-example collection. He also
 describes a living annotation booklet.
 
 In
-[Lead NLP Teams]({{ '/podcasts/nlp-team-hiring-and-production-mlops/' | relative_url }}),
-[Ivan Bilan]({{ '/people/ivanbilan/' | relative_url }}) places the same work at
+[Lead NLP Teams](https://datatalks.club/podcast/nlp-team-hiring-and-production-mlops.html),
+[Ivan Bilan](https://datatalks.club/people/ivanbilan.html) places the same work at
 the start of an NLP pipeline at 34:57-36:50. His pipeline begins with data
 annotation and data quality. It then moves into task engineering, model
 testing, deployment, and observability.
-[Data-Centric Machine Learning with Python]({{ '/books/20240408-data-centric-machine-learning-with-python/' | relative_url }})
+[Data-Centric Machine Learning with Python](https://datatalks.club/books/20240408-data-centric-machine-learning-with-python.html)
 by Nakul Bajaj, Jonas Christensen, and Manmohan Gosada extends that pipeline
 view: it treats data quality and label improvement as the primary lever for
 model performance, not architecture tuning.
@@ -39,8 +39,8 @@ model performance, not architecture tuning.
 ## Task Framing and Guidebooks
 
 Annotation quality starts before the first labeling batch. In
-[NLP Dataset Creation]({{ '/podcasts/nlp-dataset-creation-annotation-tools-workflows/' | relative_url }}),
-[Christiaan Swart]({{ '/people/christiannswart/' | relative_url }}) argues at
+[NLP Dataset Creation](https://datatalks.club/podcast/nlp-dataset-creation-annotation-tools-workflows.html),
+[Christiaan Swart](https://datatalks.club/people/christiannswart.html) argues at
 9:02 that teams need stakeholder input. The first set of labels usually misses
 concepts, blind spots, or ambiguous cases.
 
@@ -48,7 +48,7 @@ The annotation booklet is his operating mechanism. It holds task definitions
 and examples, plus ambiguous samples, review notes, and annotator feedback.
 
 The booklet isn't only documentation. At 18:36 and 35:02 in
-[NLP Dataset Creation]({{ '/podcasts/nlp-dataset-creation-annotation-tools-workflows/' | relative_url }}),
+[NLP Dataset Creation](https://datatalks.club/podcast/nlp-dataset-creation-annotation-tools-workflows.html),
 Swart describes it as a way to reduce ambiguity. It also helps annotators become
 more productive. If a label set is too large, the guide captures that pain. If
 a concept is overloaded, the guide can drive a task redesign.
@@ -61,7 +61,7 @@ checking whether a file of labels exists.
 ## Human Baselines and Expert Translation
 
 Swart's workflow uses domain experts before scale. In
-[NLP Dataset Creation]({{ '/podcasts/nlp-dataset-creation-annotation-tools-workflows/' | relative_url }}),
+[NLP Dataset Creation](https://datatalks.club/podcast/nlp-dataset-creation-annotation-tools-workflows.html),
 he describes interviewing experts, building mind maps, and translating their
 reasoning into examples annotators can use at 24:01-29:28. He also recommends
 doing the initial annotation personally. That work helps the team understand
@@ -69,7 +69,7 @@ what's achievable before external or internal annotators repeat the task.
 
 That human baseline changes the project question from "can a model be trained?"
 to "would a human-level result be valuable?" At 30:17-33:08 in
-[NLP Dataset Creation]({{ '/podcasts/nlp-dataset-creation-annotation-tools-workflows/' | relative_url }}),
+[NLP Dataset Creation](https://datatalks.club/podcast/nlp-dataset-creation-annotation-tools-workflows.html),
 Swart uses annotated examples and lightweight prototypes to ask business
 stakeholders whether the labels would change a workflow. The baseline then
 becomes part of [evaluation]({{ '/wiki/evaluation/' | relative_url }}): a model
@@ -80,8 +80,8 @@ understood.
 
 The central quality signal in Swart's episode is inter-annotator agreement. At
 37:42 in
-[NLP Dataset Creation]({{ '/podcasts/nlp-dataset-creation-annotation-tools-workflows/' | relative_url }}),
-[Christiaan Swart]({{ '/people/christiannswart/' | relative_url }}) says low
+[NLP Dataset Creation](https://datatalks.club/podcast/nlp-dataset-creation-annotation-tools-workflows.html),
+[Christiaan Swart](https://datatalks.club/people/christiannswart.html) says low
 agreement means the task is ambiguous, too hard, or poorly explained. He pairs
 agreement with throughput, fatigue, and real-time model metrics so the team can
 see whether label production is getting faster by sacrificing quality.
@@ -100,22 +100,22 @@ metric may hide.
 
 Model assistance can speed annotation, but Swart frames it as a workflow
 tradeoff rather than a free label source. At 20:57-21:32 in
-[NLP Dataset Creation]({{ '/podcasts/nlp-dataset-creation-annotation-tools-workflows/' | relative_url }}),
+[NLP Dataset Creation](https://datatalks.club/podcast/nlp-dataset-creation-annotation-tools-workflows.html),
 he describes pre-labeling and interpretability layers that let annotators agree
 or disagree with a model. He also warns that unlabeled items can become less
 likely to be noticed when the interface pre-fills predictions.
 
 Active learning is similarly useful but bounded. At 42:51-43:18 in
-[NLP Dataset Creation]({{ '/podcasts/nlp-dataset-creation-annotation-tools-workflows/' | relative_url }}),
+[NLP Dataset Creation](https://datatalks.club/podcast/nlp-dataset-creation-annotation-tools-workflows.html),
 Swart describes selecting low-confidence or decision-boundary examples for
 annotation. He reports that it can reduce data needs, but in his experience it
 was sometimes closer to a 20% improvement than a complete transformation. That
 keeps active learning tied to experiment design and [evaluation]({{ '/wiki/evaluation/' | relative_url }}),
 not hype.
 
-[Ivan Bilan]({{ '/people/ivanbilan/' | relative_url }}) adds a production
+[Ivan Bilan](https://datatalks.club/people/ivanbilan.html) adds a production
 boundary in
-[Lead NLP Teams]({{ '/podcasts/nlp-team-hiring-and-production-mlops/' | relative_url }}).
+[Lead NLP Teams](https://datatalks.club/podcast/nlp-team-hiring-and-production-mlops.html).
 At 43:05-46:10, he discusses large language models as useful for MVPs and
 possibly initial labels. He also emphasizes cost, control, bias, and production
 fitness. For annotation workflows, model-generated labels are a candidate input.
@@ -125,7 +125,7 @@ They still need review, baselines, and downstream tests.
 
 Swart treats weak supervision as a force multiplier when teams can encode useful
 heuristics. At 44:57 in
-[NLP Dataset Creation]({{ '/podcasts/nlp-dataset-creation-annotation-tools-workflows/' | relative_url }}),
+[NLP Dataset Creation](https://datatalks.club/podcast/nlp-dataset-creation-annotation-tools-workflows.html),
 he describes distant supervision as programmatic weak-label creation, with
 Snorkel-style labeling functions combining heuristics and model signals. He
 uses the example of sampling vulnerable complaints from a semi-supervised topic
@@ -143,8 +143,8 @@ production models.
 
 Tool choice matters when it changes the annotator's speed and attention. It
 also matters when it helps annotators surface ambiguity. In
-[NLP Dataset Creation]({{ '/podcasts/nlp-dataset-creation-annotation-tools-workflows/' | relative_url }}),
-[Christiaan Swart]({{ '/people/christiannswart/' | relative_url }}) describes
+[NLP Dataset Creation](https://datatalks.club/podcast/nlp-dataset-creation-annotation-tools-workflows.html),
+[Christiaan Swart](https://datatalks.club/people/christiannswart.html) describes
 Prodigy hotkeys and interface improvements at 37:42. At 50:37, he recommends
 Prodigy and Snorkel. He also names Docanno, Label Studio, and Rubrics as other
 starting points.
@@ -155,7 +155,7 @@ experience. He also looks at active-learning and weak-supervision support.
 The tool decision should follow the task. A simple binary classification
 portfolio project may not need the same system as a compliance-sensitive
 information-extraction workflow. Swart's broader point in
-[NLP Dataset Creation]({{ '/podcasts/nlp-dataset-creation-annotation-tools-workflows/' | relative_url }})
+[NLP Dataset Creation](https://datatalks.club/podcast/nlp-dataset-creation-annotation-tools-workflows.html)
 is that UX and hotkeys are quality controls. Notes, review meetings, and
 guidebook updates also influence label quality. They aren't cosmetic additions to
 the labeling tool.
@@ -164,16 +164,16 @@ the labeling tool.
 
 Privacy shapes who can label the data and where the work can happen. At 58:26
 in
-[NLP Dataset Creation]({{ '/podcasts/nlp-dataset-creation-annotation-tools-workflows/' | relative_url }}),
-[Christiaan Swart]({{ '/people/christiannswart/' | relative_url }}) says GDPR
+[NLP Dataset Creation](https://datatalks.club/podcast/nlp-dataset-creation-annotation-tools-workflows.html),
+[Christiaan Swart](https://datatalks.club/people/christiannswart.html) says GDPR
 and personally identifiable information are strong reasons to prefer in-house
 annotation for sensitive data. He also notes that anonymization can miss names,
 locations, phone numbers, and credit cards. It can also miss unusual personal
 identifiers.
 
-[Ivan Bilan]({{ '/people/ivanbilan/' | relative_url }}) gives the production
+[Ivan Bilan](https://datatalks.club/people/ivanbilan.html) gives the production
 frame in
-[Lead NLP Teams]({{ '/podcasts/nlp-team-hiring-and-production-mlops/' | relative_url }}).
+[Lead NLP Teams](https://datatalks.club/podcast/nlp-team-hiring-and-production-mlops.html).
 At 34:57, he defines an NLP pipeline as starting with annotation and data
 quality. It then moves through task engineering, testing, productionizing, and
 observability. Annotation quality is therefore an upstream production concern.

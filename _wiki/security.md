@@ -22,9 +22,9 @@ The recurring concerns are who can read data, who can change a model, and what
 can influence an answer. Security also asks how a system might expose private
 information.
 
-[Maria Sukhareva]({{ '/people/mariasukhareva/' | relative_url }}) gives the
+[Maria Sukhareva](https://datatalks.club/people/mariasukhareva.html) gives the
 clearest LLM-specific account in
-[Hardening Generative AI Chatbots]({{ '/podcasts/generative-ai-chatbots-in-production-security/' | relative_url }}).
+[Hardening Generative AI Chatbots](https://datatalks.club/podcast/generative-ai-chatbots-in-production-security.html).
 At 9:28, she moves into a large chatbot hacking exercise. At 11:38 and 13:20,
 she covers hallucinated commitments, prompt injection, and knowledge-base
 exfiltration. Those examples put chatbot security in the full system around the
@@ -34,8 +34,8 @@ model, not only in prompt wording.
 
 Data security starts with knowing who can use each dataset. Teams also need the
 reason for access and the time when access should expire. In
-[Data Governance and Data Access Management]({{ '/podcasts/data-governance-data-access-management/' | relative_url }}),
-[Bart Vandekerckhove]({{ '/people/bartvandekerckhove/' | relative_url }})
+[Data Governance and Data Access Management](https://datatalks.club/podcast/data-governance-data-access-management.html),
+[Bart Vandekerckhove](https://datatalks.club/people/bartvandekerckhove.html)
 argues at 25:05 that teams should add access controls early when sensitive data
 appears. At 27:49 and 32:08, he ties security to access requests, approval
 reviews, and revocation. He also covers time-bound access and privilege creep.
@@ -66,7 +66,7 @@ before granting access.
 ## LLM Abuse and Retrieval Leakage
 
 LLM security adds risks that ordinary data access controls don't catch. In
-[Hardening Generative AI Chatbots]({{ '/podcasts/generative-ai-chatbots-in-production-security/' | relative_url }}),
+[Hardening Generative AI Chatbots](https://datatalks.club/podcast/generative-ai-chatbots-in-production-security.html),
 Maria's chatbot hacking exercise at 9:28 includes prompt injection and attempts
 to reveal hidden instructions. It also includes attempts to extract private
 knowledge-base records or make the assistant produce unsafe answers. At 13:20,
@@ -90,8 +90,8 @@ Privacy overlaps with security but doesn't collapse into it. A system can have
 strong access controls and still expose people through profiling,
 fingerprinting, or re-identification.
 
-In [Katharine's privacy engineering episode]({{ '/podcasts/data-privacy-engineering-gdpr-machine-learning/' | relative_url }}),
-[Katharine Jarmul]({{ '/people/katharinejarmul/' | relative_url }}) defines
+In [Katharine's privacy engineering episode](https://datatalks.club/podcast/data-privacy-engineering-gdpr-machine-learning.html),
+[Katharine Jarmul](https://datatalks.club/people/katharinejarmul.html) defines
 privacy through legal, social, and technical perspectives at 16:24. At 22:38,
 she describes the translation work between legal and technical teams. At 25:12,
 she discusses browser history and profiling. She also covers fingerprinting and
@@ -112,8 +112,8 @@ locking it down later.
 
 ML security includes the model file, feature code, dependencies, and loading
 format. In
-[Fairness in AI/ML Engineering]({{ '/podcasts/fairness-in-ai-ml-engineering/' | relative_url }}),
-[Tamara Atanasoska]({{ '/people/tamaraatanasoska/' | relative_url }}) discusses
+[Fairness in AI/ML Engineering](https://datatalks.club/podcast/fairness-in-ai-ml-engineering.html),
+[Tamara Atanasoska](https://datatalks.club/people/tamaraatanasoska.html) discusses
 secure model persistence and pickle deserialization risk at 46:20 and 47:16.
 Her warning places model files, feature pipelines, and serialized objects inside
 the attack surface.
@@ -129,8 +129,8 @@ untrusted code.
 
 Production security means controls survive deployment, staffing changes, and
 model updates. In
-[MLOps in Finance]({{ '/podcasts/mlops-and-ml-engineering-in-finance/' | relative_url }}),
-[Nemanja Radojkovic]({{ '/people/nemanjaradojkovic/' | relative_url }})
+[MLOps in Finance](https://datatalks.club/podcast/mlops-and-ml-engineering-in-finance.html),
+[Nemanja Radojkovic](https://datatalks.club/people/nemanjaradojkovic.html)
 discusses regulatory and legacy constraints at 18:52. At 22:25 and 23:39, he
 ties release management, approvals, and DevOps work to ML deployment and trust.
 His account fits finance and other regulated settings where teams need

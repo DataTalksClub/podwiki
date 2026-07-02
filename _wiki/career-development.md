@@ -26,15 +26,15 @@ Across these discussions, a certificate, title, or social profile is weak
 unless it shows role-relevant work. A stronger career record includes project
 evidence and feedback. It also includes communication, referrals, and judgment.
 Hiring teams, managers, mentors, and communities can evaluate the same record.
-[Own Your Tech Career]({{ '/books/20211129-own-your-tech-career/' | relative_url }})
+[Own Your Tech Career](https://datatalks.club/books/20211129-own-your-tech-career.html)
 by Don Jones covers the same ownership mindset for developers moving from
 individual contribution to deliberate career direction.
 
 ## Role Direction Before Skill Collection
 
-[Sarah Mestiri]({{ '/people/sarahmestiri/' | relative_url }}) makes role
+[Sarah Mestiri](https://datatalks.club/people/sarahmestiri.html) makes role
 direction the starting point in
-[Tech Job Search Strategy]({{ '/podcasts/job-search-strategy-in-tech-projects-skills-cv-networking/' | relative_url }}).
+[Tech Job Search Strategy](https://datatalks.club/podcast/job-search-strategy-in-tech-projects-skills-cv-networking.html).
 At 10:59 she organizes [job search]({{ '/wiki/job-search/' | relative_url }})
 around goals, CV strategy, and networking. At 14:30 and 20:01, she asks
 candidates to define the ideal role through tasks and skills. They should then
@@ -43,9 +43,9 @@ and 17:52, that role analysis becomes a way to compare ML engineering,
 [data engineering]({{ '/wiki/data-engineering/' | relative_url }}), and
 [MLOps]({{ '/wiki/mlops/' | relative_url }}).
 
-[Danny Ma]({{ '/people/dannyma/' | relative_url }}) gives a complementary role
+[Danny Ma](https://datatalks.club/people/dannyma.html) gives a complementary role
 taxonomy in
-[Data Science Career Guide]({{ '/podcasts/data-science-career-abc-framework/' | relative_url }}).
+[Data Science Career Guide](https://datatalks.club/podcast/data-science-career-abc-framework.html).
 At 12:18, he separates Analyst, Builder, and Consultant profiles. The Analyst
 path emphasizes exploration and visualization at 13:17-18:20. It also covers
 storytelling, programming theory, and experiment design.
@@ -63,25 +63,25 @@ case for a larger scope.
 ## Skills Become Evidence Through Projects
 
 Guests repeatedly favor compounding skill over broad tool collection.
-[Danny Ma]({{ '/people/dannyma/' | relative_url }}) treats skills as evidence
+[Danny Ma](https://datatalks.club/people/dannyma.html) treats skills as evidence
 for a chosen profile. At 20:01 in
-[Data Science Career Guide]({{ '/podcasts/data-science-career-abc-framework/' | relative_url }}),
+[Data Science Career Guide](https://datatalks.club/podcast/data-science-career-abc-framework.html),
 he recommends building projects first and learning theory when the project
 needs it. At 36:46, mentors and mini-projects become a way to practice
 engineering skills outside work.
 
-[Marijn Markus]({{ '/people/marijnmarkus/' | relative_url }}) makes the same
+[Marijn Markus](https://datatalks.club/people/marijnmarkus.html) makes the same
 point from a data science management view in
-[Data Science Career Playbook]({{ '/podcasts/how-to-stand-out-in-data-science/' | relative_url }}).
+[Data Science Career Playbook](https://datatalks.club/podcast/how-to-stand-out-in-data-science.html).
 At 7:42, he pushes against the myth that candidates need a perfect curriculum.
 At 8:31, statistics, programming, and domain knowledge remain core pillars. At
 11:16, he adds qualitative methods and interviews. At 53:34, he adds
 [communication]({{ '/wiki/communication/' | relative_url }}), presence, and
 niche expertise as differentiators.
 
-[Tatiana Gabruseva]({{ '/people/tatianagabruseva/' | relative_url }}) gives the
+[Tatiana Gabruseva](https://datatalks.club/people/tatianagabruseva.html) gives the
 senior version in
-[Staff AI Engineer Career Growth]({{ '/podcasts/from-academia-to-staff-ai-engineer-interviews-and-career-growth/' | relative_url }}).
+[Staff AI Engineer Career Growth](https://datatalks.club/podcast/from-academia-to-staff-ai-engineer-interviews-and-career-growth.html).
 At 5:43, she describes ramping up Scala, Spark, and Kubernetes as a tech lead.
 At 7:30 and 11:04, staff AI work depends on opinion, strategy, and
 cross-functional influence. She also distinguishes staff-engineer archetypes.
@@ -97,19 +97,19 @@ or public contributions with real review.
 ## Public Proof and Personal Brand
 
 Public proof helps when it lets other people review the work. In
-[Tech Job Search Strategy]({{ '/podcasts/job-search-strategy-in-tech-projects-skills-cv-networking/' | relative_url }}),
-[Sarah Mestiri]({{ '/people/sarahmestiri/' | relative_url }}) says at 26:28
+[Tech Job Search Strategy](https://datatalks.club/podcast/job-search-strategy-in-tech-projects-skills-cv-networking.html),
+[Sarah Mestiri](https://datatalks.club/people/sarahmestiri.html) says at 26:28
 that practical projects validate skills better than course completion alone.
-[Marijn Markus]({{ '/people/marijnmarkus/' | relative_url }}) gives a sharper
+[Marijn Markus](https://datatalks.club/people/marijnmarkus.html) gives a sharper
 portfolio warning in
-[Data Science Career Playbook]({{ '/podcasts/how-to-stand-out-in-data-science/' | relative_url }}):
+[Data Science Career Playbook](https://datatalks.club/podcast/how-to-stand-out-in-data-science.html):
 at 37:49, unique projects stand out more than only doing common Kaggle work.
 His home automation, plant-monitoring, and coffee-machine examples at
 30:47-36:21 show how everyday curiosity can become data evidence.
 
-[Shawn Swyx Wang]({{ '/people/swyx/' | relative_url }}) widens public proof
+[Shawn Swyx Wang](https://datatalks.club/people/swyx.html) widens public proof
 beyond finished projects. In
-[Learn in Public]({{ '/podcasts/developer-personal-brand-learn-in-public/' | relative_url }}),
+[Learn in Public](https://datatalks.club/podcast/developer-personal-brand-learn-in-public.html),
 he ties self-marketing to recognition and promotions at 6:16. At 8:33, he
 connects it to open-source adoption and internal persuasion. At 23:53, learning
 in public means honest progress, corrections, and earned expertise.
@@ -118,11 +118,11 @@ At 38:30 and 47:14, unsolicited redesigns, product clones, and case studies
 become visibility signals. Open knowledge projects, collaborative docs, and
 cheat sheets serve the same role.
 
-Swyx's [The Coding Career Handbook]({{ '/books/20210510-the-coding-career-handbook/' | relative_url }}) expands on these themes, covering career leverage, learning in public, and compounding proof of expertise.
+Swyx's [The Coding Career Handbook](https://datatalks.club/books/20210510-the-coding-career-handbook.html) expands on these themes, covering career leverage, learning in public, and compounding proof of expertise.
 
-[Admond Lee Kin Lim]({{ '/people/admondleekinlim/' | relative_url }}) gives the
+[Admond Lee Kin Lim](https://datatalks.club/people/admondleekinlim.html) gives the
 audience-building version in
-[Personal Brand for Data Professionals]({{ '/podcasts/personal-brand-for-data-professionals/' | relative_url }}).
+[Personal Brand for Data Professionals](https://datatalks.club/podcast/personal-brand-for-data-professionals.html).
 At 6:00, he defines personal brand through purpose and positioning. At 13:00
 and 17:00, he discusses publishing on Medium and LinkedIn, topic selection, and
 frequency.
@@ -131,9 +131,9 @@ At 31:00 and 34:00, he adds conference speaking and confidence to publish. At
 36:30, he discusses monetization. In career terms, public work is useful when
 it clarifies what the person wants to be known for.
 
-[Sara EL-ATEIF]({{ '/people/saraelateif/' | relative_url }}) adds external
+[Sara EL-ATEIF](https://datatalks.club/people/saraelateif.html) adds external
 review through volunteer work in
-[Open Source and Volunteering]({{ '/podcasts/open-source-and-volunteering-in-ai-for-data-ml-career-growth/' | relative_url }}).
+[Open Source and Volunteering](https://datatalks.club/podcast/open-source-and-volunteering-in-ai-for-data-ml-career-growth.html).
 At 17:48, she discusses finding volunteer opportunities through LinkedIn,
 social media, and mailing lists. At 48:42 and 51:21, volunteer applications and
 interview pitching turn practical experience into referrals and soft skills.
@@ -143,25 +143,25 @@ They also produce
 ## Interview Readiness and Explanation
 
 Interview readiness matters because interviews test whether candidates can
-explain their work under pressure. [Oleg Novikov]({{ '/people/olegnovikov/' | relative_url }})
+explain their work under pressure. [Oleg Novikov](https://datatalks.club/people/olegnovikov.html)
 outlines the common hiring funnel at 13:24 in
-[Data Science Interview Guide]({{ '/podcasts/data-science-interview-and-cv-guide/' | relative_url }}).
+[Data Science Interview Guide](https://datatalks.club/podcast/data-science-interview-and-cv-guide.html).
 The funnel starts with a recruiter screen, moves to a take-home project, and
 continues into interview rounds. At 18:28 and 25:51, he treats the CV as a
 landing page that should highlight personal contribution and remove noise. At
 32:03, case preparation moves from business goals to evaluation metrics.
 
-[Nick Singh]({{ '/people/nicksingh/' | relative_url }}) adds the behavioral and
+[Nick Singh](https://datatalks.club/people/nicksingh.html) adds the behavioral and
 communication layer in
-[Ace Data Interviews]({{ '/podcasts/data-interview-behavioral-and-portfolio-prep-guide/' | relative_url }}).
+[Ace Data Interviews](https://datatalks.club/podcast/data-interview-behavioral-and-portfolio-prep-guide.html).
 At 13:20 and 18:47, planned STAR stories should still sound practiced rather
 than scripted. At 25:13 and 27:50, project walkthroughs should show ownership
 and lead with impact. At 37:18 and 38:17, candidates should only present models
 they can defend and should choose familiar, project-backed techniques.
 
-[Tatiana Gabruseva]({{ '/people/tatianagabruseva/' | relative_url }}) shows how
+[Tatiana Gabruseva](https://datatalks.club/people/tatianagabruseva.html) shows how
 interview readiness compounds during a transition. In
-[Staff AI Engineer Career Growth]({{ '/podcasts/from-academia-to-staff-ai-engineer-interviews-and-career-growth/' | relative_url }}),
+[Staff AI Engineer Career Growth](https://datatalks.club/podcast/from-academia-to-staff-ai-engineer-interviews-and-career-growth.html),
 she discusses early failures, coding gaps, and committed preparation at 28:25.
 At 34:40, she describes a LeetCode plan. At 39:44, ML design preparation uses
 decomposition and blogs.
@@ -172,24 +172,24 @@ interviews. At 48:43, mock interviews depend on a mentor network.
 ## Internal Growth and Promotion
 
 Career development isn't only external hiring. In
-[Learn in Public]({{ '/podcasts/developer-personal-brand-learn-in-public/' | relative_url }}),
-[Shawn Swyx Wang]({{ '/people/swyx/' | relative_url }}) argues that visibility
+[Learn in Public](https://datatalks.club/podcast/developer-personal-brand-learn-in-public.html),
+[Shawn Swyx Wang](https://datatalks.club/people/swyx.html) argues that visibility
 skills also work inside a company. At 51:10, brag documents, demos, and
 networking become promotion tools. At 54:16, a signature initiative can build
 influence. At 57:09, internal content strategy makes work visible to
 colleagues.
 
-[Tatiana Gabruseva]({{ '/people/tatianagabruseva/' | relative_url }}) turns
+[Tatiana Gabruseva](https://datatalks.club/people/tatianagabruseva.html) turns
 internal growth into scope and judgment. At 7:30 in
-[Staff AI Engineer Career Growth]({{ '/podcasts/from-academia-to-staff-ai-engineer-interviews-and-career-growth/' | relative_url }}),
+[Staff AI Engineer Career Growth](https://datatalks.club/podcast/from-academia-to-staff-ai-engineer-interviews-and-career-growth.html),
 staff AI work includes opinion, strategy, and cross-functional influence. At
 16:47 and 17:45, onboarding depends on learning quickly and finding mentorship.
 At 51:10 and 52:19, staff work spans MLOps, ETL, and pipelines. It also spans
 data-team collaboration, code review load, and context switching.
 
-[Marijn Markus]({{ '/people/marijnmarkus/' | relative_url }}) adds the
+[Marijn Markus](https://datatalks.club/people/marijnmarkus.html) adds the
 communication risk in
-[Data Science Career Playbook]({{ '/podcasts/how-to-stand-out-in-data-science/' | relative_url }}).
+[Data Science Career Playbook](https://datatalks.club/podcast/how-to-stand-out-in-data-science.html).
 At 12:05, he discusses proactive task ownership. At 17:09, he covers learning
 into management and product roles. At 23:25, he covers constructive pushback
 with senior stakeholders.
@@ -198,18 +198,18 @@ At 19:12, explainable AI and sensitive findings turn technical work into a
 communication problem. Seniority requires judgment about when and how to
 challenge a decision.
 
-[Ruslan Shchuchkin]({{ '/people/ruslanshchuchkin/' | relative_url }}) connects
+[Ruslan Shchuchkin](https://datatalks.club/people/ruslanshchuchkin.html) connects
 sustainable career development to behavioral habits. In
-[Biohacking for Data Scientists]({{ '/podcasts/biohacking-productivity-for-data-scientists-and-ml-engineers/' | relative_url }}),
+[Biohacking for Data Scientists](https://datatalks.club/podcast/biohacking-productivity-for-data-scientists-and-ml-engineers.html),
 he frames productivity as affordable behavioral biohacking: morning light
 exposure for circadian regulation, protein-rich breakfasts for focus, and
 90-minute sleep cycles for alarm timing. His prioritization framework narrows
 focus to five impactful life goals — including family, sport, nutrition, and
 work output — instead of trying to pursue dozens of interests at once.
 
-[Rahul Jain]({{ '/people/rahuljain/' | relative_url }}) makes mentoring a
+[Rahul Jain](https://datatalks.club/people/rahuljain.html) makes mentoring a
 deliberate career-development practice in
-[How to Find a Mentor and Become One]({{ '/podcasts/mentoring-in-tech-how-to-find-and-become-a-mentor/' | relative_url }}).
+[How to Find a Mentor and Become One](https://datatalks.club/podcast/mentoring-in-tech-how-to-find-and-become-a-mentor.html).
 He separates one-off advice from ongoing mentoring relationships and gives
 cold-outreach tactics, session preparation, and boundary setting. His discussion
 of paid mentorship, imposter syndrome, and tech-versus-management choices shows
@@ -219,31 +219,31 @@ development plans, while mentors gain pattern recognition and listening skills.
 ## Transitions and Transferable Strengths
 
 Transitions work when a person translates existing strengths into the target
-role. [Danny Ma]({{ '/people/dannyma/' | relative_url }}) helps candidates avoid
+role. [Danny Ma](https://datatalks.club/people/dannyma.html) helps candidates avoid
 treating [data science]({{ '/wiki/data-science/' | relative_url }}) as one
 generic ladder.
 
-In [Data Science Career Guide]({{ '/podcasts/data-science-career-abc-framework/' | relative_url }}),
+In [Data Science Career Guide](https://datatalks.club/podcast/data-science-career-abc-framework.html),
 the analyst route can start from research and statistics at 16:01-18:20. It can
 also start from storytelling. The builder route needs production experience,
 Git, Docker, and cloud platforms at 25:53-33:12. It also needs system risk
 awareness. The consultant route tests leadership and stakeholder persuasion at
 42:38-48:49.
 
-[Sarah Mestiri]({{ '/people/sarahmestiri/' | relative_url }}) connects
+[Sarah Mestiri](https://datatalks.club/people/sarahmestiri.html) connects
 transitions to market research in
-[Tech Job Search Strategy]({{ '/podcasts/job-search-strategy-in-tech-projects-skills-cv-networking/' | relative_url }}).
+[Tech Job Search Strategy](https://datatalks.club/podcast/job-search-strategy-in-tech-projects-skills-cv-networking.html).
 At 31:40-41:17, weak ties and referrals become a weekly career practice rather
 than a one-time favor. At 29:35, she recommends a top-five company list.
-[Luke Whipps]({{ '/people/lukewhipps/' | relative_url }}) makes a related
+[Luke Whipps](https://datatalks.club/people/lukewhipps.html) makes a related
 point in
-[Land Data Scientist Roles]({{ '/podcasts/get-data-scientist-job/' | relative_url }}),
+[Land Data Scientist Roles](https://datatalks.club/podcast/get-data-scientist-job.html),
 favoring tailored applications and market segmentation at 37:54 and 44:26.
 
-[Tatiana Gabruseva]({{ '/people/tatianagabruseva/' | relative_url }}) shows
+[Tatiana Gabruseva](https://datatalks.club/people/tatianagabruseva.html) shows
 that a transition can skip a simple junior reset when the evidence is strong
 enough. At 19:08 and 25:30 in
-[Staff AI Engineer Career Growth]({{ '/podcasts/from-academia-to-staff-ai-engineer-interviews-and-career-growth/' | relative_url }}),
+[Staff AI Engineer Career Growth](https://datatalks.club/podcast/from-academia-to-staff-ai-engineer-interviews-and-career-growth.html),
 she discusses reaching a staff position from academia. She also describes
 convincing employers through applied projects and industry collaborations. At
 54:13, her advice for academics aiming at staff roles keeps transferable
@@ -252,37 +252,37 @@ research leadership visible. It also adds industry proof.
 ## Specialization, Breadth, and Visibility
 
 The podcast discussions show less disagreement about the value of proof than
-about which proof should come first. [Sarah Mestiri]({{ '/people/sarahmestiri/' | relative_url }})
+about which proof should come first. [Sarah Mestiri](https://datatalks.club/people/sarahmestiri.html)
 starts with role goals, target companies, and networking cadence in
-[Tech Job Search Strategy]({{ '/podcasts/job-search-strategy-in-tech-projects-skills-cv-networking/' | relative_url }}).
-[Luke Whipps]({{ '/people/lukewhipps/' | relative_url }}) similarly favors
+[Tech Job Search Strategy](https://datatalks.club/podcast/job-search-strategy-in-tech-projects-skills-cv-networking.html).
+[Luke Whipps](https://datatalks.club/people/lukewhipps.html) similarly favors
 tailored applications and market segmentation in
-[Land Data Scientist Roles]({{ '/podcasts/get-data-scientist-job/' | relative_url }}).
+[Land Data Scientist Roles](https://datatalks.club/podcast/get-data-scientist-job.html).
 The practical compromise is to use enough application volume to learn the
 market while still tailoring the CV, outreach, and interview preparation.
 
 Visibility advice has a similar range. In
-[Learn in Public]({{ '/podcasts/developer-personal-brand-learn-in-public/' | relative_url }}),
-[Shawn Swyx Wang]({{ '/people/swyx/' | relative_url }}) treats visibility as a
+[Learn in Public](https://datatalks.club/podcast/developer-personal-brand-learn-in-public.html),
+[Shawn Swyx Wang](https://datatalks.club/people/swyx.html) treats visibility as a
 career system across job search and open source at 6:16 and 8:33. At 51:10, he
 applies the same idea to internal promotion.
 
-[Admond Lee Kin Lim]({{ '/people/admondleekinlim/' | relative_url }})
+[Admond Lee Kin Lim](https://datatalks.club/people/admondleekinlim.html)
 focuses more directly on audience and platforms in
-[Personal Brand for Data Professionals]({{ '/podcasts/personal-brand-for-data-professionals/' | relative_url }})
+[Personal Brand for Data Professionals](https://datatalks.club/podcast/personal-brand-for-data-professionals.html)
 at 13:00. He adds conference speaking and monetization at 31:00 and 36:30.
-[Marijn Markus]({{ '/people/marijnmarkus/' | relative_url }})
+[Marijn Markus](https://datatalks.club/people/marijnmarkus.html)
 makes visibility secondary to distinctive work and credible communication in
-[Data Science Career Playbook]({{ '/podcasts/how-to-stand-out-in-data-science/' | relative_url }})
+[Data Science Career Playbook](https://datatalks.club/podcast/how-to-stand-out-in-data-science.html)
 at 37:49, 53:34, and 57:30.
 
-Specialization stays contextual in [Sarah Mestiri]({{ '/people/sarahmestiri/' | relative_url }})'s
+Specialization stays contextual in [Sarah Mestiri](https://datatalks.club/people/sarahmestiri.html)'s
 advice, where candidates align skills, interests, and market demand at 17:52
-and 20:01. [Danny Ma]({{ '/people/dannyma/' | relative_url }}) separates
+and 20:01. [Danny Ma](https://datatalks.club/people/dannyma.html) separates
 analyst, builder, and consultant profiles so people can invest deliberately.
-[Marijn Markus]({{ '/people/marijnmarkus/' | relative_url }}) keeps diverse
+[Marijn Markus](https://datatalks.club/people/marijnmarkus.html) keeps diverse
 backgrounds as an advantage at 4:02, while
-[Tatiana Gabruseva]({{ '/people/tatianagabruseva/' | relative_url }}) shows how
+[Tatiana Gabruseva](https://datatalks.club/people/tatianagabruseva.html) shows how
 academic research leadership can become staff-engineer impact. Across these
 discussions, the career move is to keep transferable strengths visible while
 choosing the next role-specific proof.

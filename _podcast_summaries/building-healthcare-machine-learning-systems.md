@@ -38,7 +38,7 @@ Agents should consider this episode when working on machine learning, data scien
 
 Use these links to connect the episode to guest notes.
 
-- [Eleni Stamatelou]({{ '/people/elenistamatelou/' | relative_url }})
+- [Eleni Stamatelou](https://datatalks.club/people/elenistamatelou.html)
 
 ## Key Concepts
 

@@ -38,7 +38,7 @@ Agents should consider this episode when working on data science, machine learni
 
 Use these links to connect the episode to guest notes.
 
-- [Mariano Semelman]({{ '/people/marianosemelman/' | relative_url }})
+- [Mariano Semelman](https://datatalks.club/people/marianosemelman.html)
 
 ## Key Concepts
 

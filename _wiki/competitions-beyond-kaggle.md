@@ -20,9 +20,9 @@ look at. The proof can include code and reports. It can also include evaluation
 choices, collaboration, and domain learning. They're weaker when they only
 produce a rank.
 
-[Tatiana Gabruseva]({{ '/people/tatianagabruseva/' | relative_url }}) separates
+[Tatiana Gabruseva](https://datatalks.club/people/tatianagabruseva.html) separates
 learning value from career value in
-[Competitions: Beyond the Kaggle Leaderboard]({{ '/podcasts/s24e01-competitions-beyond-kaggle-leaderboard/' | relative_url }}).
+[Competitions: Beyond the Kaggle Leaderboard](https://datatalks.club/podcast/s24e01-competitions-beyond-kaggle-leaderboard.html).
 Around 9:13, she describes Kaggle as a fast feedback loop with community
 notebooks, discussions, and postmortems. Around 28:54 and 35:24, she separates
 rank from career value. The value came from turning competition work into a
@@ -42,7 +42,7 @@ Competitions help when you need a real problem before you have a job or client.
 They also help before you have an internal dataset.
 
 In the
-[competition episode]({{ '/podcasts/s24e01-competitions-beyond-kaggle-leaderboard/' | relative_url }}),
+[competition episode](https://datatalks.club/podcast/s24e01-competitions-beyond-kaggle-leaderboard.html),
 Tatiana says around 10:05 that competitions can build skill. The best learning
 comes from changing domains rather than repeating one narrow recipe.
 She gives examples across time series and NLP around 10:53. She also names
@@ -242,7 +242,7 @@ under competition pressure, not only a final notebook.
 
 Competitions are the wrong proof when the role requires evidence they can't
 show. Tatiana says around 42:34-49:29 in
-[Switch to Computer Vision and Deep Learning]({{ '/podcasts/from-physics-to-computer-vision-career-transition/' | relative_url }})
+[Switch to Computer Vision and Deep Learning](https://datatalks.club/podcast/from-physics-to-computer-vision-career-transition.html)
 that Kaggle gives the task, data, and metric. It doesn't prove data collection
 or labeling. It also doesn't prove deployment, Docker, or an end-to-end project.
 

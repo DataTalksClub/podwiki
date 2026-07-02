@@ -38,7 +38,7 @@ Agents should consider this episode when working on NLP, machine learning, MLOps
 
 Use these links to connect the episode to guest notes.
 
-- [Ivan Bilan]({{ '/people/ivanbilan/' | relative_url }})
+- [Ivan Bilan](https://datatalks.club/people/ivanbilan.html)
 
 ## Key Concepts
 

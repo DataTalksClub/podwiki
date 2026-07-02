@@ -17,13 +17,13 @@ She previously built LLM- and agent-powered product capabilities at Dropbox Dash
 and worked on speech recognition, language modeling, online metrics, and
 assistant evaluation at Microsoft. That mix of production ML and assistant
 evaluation frames her DataTalks.Club episode,
-[Building Agentic AI Systems: Pragmatic Agent Engineering, Tooling, Retrieval & Evaluation]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}).
+[Building Agentic AI Systems: Pragmatic Agent Engineering, Tooling, Retrieval & Evaluation](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html).
 
 ## Agent Engineering as Systems Work
 
 Ranjitha defines an agent around autonomous task completion, not around a single
 library or prompt template. Around 11:00-12:31 in
-[the episode]({{ '/podcasts/building-agentic-ai-engineering-tooling-retrieval-evaluation/' | relative_url }}),
+[the episode](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html),
 she connects the older reinforcement-learning idea of an agent to modern LLM
 systems. The agent pursues a goal while the implementation orchestrates LLM
 calls, memory, knowledge stores, and

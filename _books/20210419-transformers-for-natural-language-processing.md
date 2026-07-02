@@ -19,7 +19,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Denis Rothman]({ '/people/denisrothman/' | relative_url }).
+[Denis Rothman](https://datatalks.club/people/denisrothman.html).
 
 ## Discussion Archive
 

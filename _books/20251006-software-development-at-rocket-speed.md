@@ -18,5 +18,5 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Nikolay Smorchkov]({ '/people/nikolaysmorchkov/' | relative_url }).
+[Nikolay Smorchkov](https://datatalks.club/people/nikolaysmorchkov.html).
 

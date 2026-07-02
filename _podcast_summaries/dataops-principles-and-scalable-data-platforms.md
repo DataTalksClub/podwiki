@@ -38,7 +38,7 @@ Agents should consider this episode when working on DataOps, date engineering, M
 
 Use these links to connect the episode to guest notes.
 
-- [Lars Albertsson]({{ '/people/larsalbertsson/' | relative_url }})
+- [Lars Albertsson](https://datatalks.club/people/larsalbertsson.html)
 
 ## Key Concepts
 

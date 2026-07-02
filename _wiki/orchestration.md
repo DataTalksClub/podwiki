@@ -17,9 +17,9 @@ when jobs run and which upstream jobs must finish first. It also tracks what
 should retry after a transient failure and which run history the team can look
 at later.
 
-[Lars Albertsson]({{ '/people/larsalbertsson/' | relative_url }}) gives the
+[Lars Albertsson](https://datatalks.club/people/larsalbertsson.html) gives the
 clearest platform definition. In
-[DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}),
+[DataOps 101 for Scaling Data Platforms](https://datatalks.club/podcast/dataops-principles-and-scalable-data-platforms.html),
 around 30:34, he places storage and compute next to a workflow engine. Those
 pieces sit at the center of a data platform. Around 31:18-35:57, he explains
 that the workflow engine defines dependencies and schedules work when data
@@ -46,9 +46,9 @@ not with tool branding alone.
 ## Orchestration Scope
 
 An orchestrator owns order and run state. It doesn't own every piece of work
-inside the pipeline. [Natalie Kwong]({{ '/people/nataliekwong/' | relative_url }})
+inside the pipeline. [Natalie Kwong](https://datatalks.club/people/nataliekwong.html)
 draws that boundary in
-[ETL vs ELT and Modern Data Engineering]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}):
+[ETL vs ELT and Modern Data Engineering](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html):
 around 30:59-32:11, she places Airflow at the scheduling and orchestration
 layer. Airbyte handles extract-load work, while dbt handles warehouse-side SQL
 transformations once the data is present. Her discussion connects orchestration
@@ -67,9 +67,9 @@ Retries and recovery belong there too, while
 [data pipelines]({{ '/wiki/data-pipelines/' | relative_url }}) keep extraction
 and transformation explicit. They also keep publication and checks explicit.
 
-[Santona Tuli]({{ '/people/santonatuli/' | relative_url }}) adds the modern
+[Santona Tuli](https://datatalks.club/people/santonatuli.html) adds the modern
 pipeline version in
-[Modern Data Pipeline Architecture]({{ '/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/' | relative_url }}).
+[Modern Data Pipeline Architecture](https://datatalks.club/podcast/modern-data-pipelines-orchestration-ingestion-modeling.html).
 Around 26:43-27:07, she names Airflow and Prefect as orchestration engines. She
 also names Dagster and Mage. Which one fits depends on how the team breaks up
 the workflow and what transformations the pipeline runs.
@@ -95,7 +95,7 @@ and model services do too.
 Natalie's modern stack episode gives the clearest archive boundary for
 analytics work. Around 30:59-31:31, she separates Airbyte-style extract-load
 work from dbt-style transformation. She puts Airflow around that flow
-([ETL vs ELT and Modern Data Engineering]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }})).
+([ETL vs ELT and Modern Data Engineering](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html)).
 With that split, teams can connect Airflow to Airbyte-style ingestion,
 [dbt]({{ '/wiki/dbt/' | relative_url }}), and [ELT]({{ '/wiki/elt/' | relative_url }}).
 Airflow stays connected to [data engineering tools]({{ '/wiki/data-engineering-tools/' | relative_url }})
@@ -112,9 +112,9 @@ Airflow fits better when the pipeline has more than a timer:
 - conventions for many similar pipelines.
 
 Teams should weigh those operating needs before choosing the tool.
-[Andreas Kretz]({{ '/people/andreaskretz/' | relative_url }}) compares Airflow
+[Andreas Kretz](https://datatalks.club/people/andreaskretz.html) compares Airflow
 with CloudWatch scheduling and Lambda around 35:46 in
-[From Notebooks to Production]({{ '/podcasts/production-ml-pipelines-with-aws-and-kafka/' | relative_url }}).
+[From Notebooks to Production](https://datatalks.club/podcast/production-ml-pipelines-with-aws-and-kafka.html).
 He also names containers, ECS, and AWS Batch.
 Around 41:06-42:07, he recommends starting with simple infrastructure and
 moving toward Airflow or Kubernetes when the team needs more logging, insight,
@@ -142,10 +142,10 @@ upgrades and worker capacity.
 
 They also have to own Python dependencies, secrets, and permissions. Database
 backups and log retention need owners too.
-[Mehdi OUAZZA]({{ '/people/mehdiouazza/' | relative_url }})
+[Mehdi OUAZZA](https://datatalks.club/people/mehdiouazza.html)
 treats an Airflow cluster as one part of a larger platform, not as the whole
 platform
-([Scaling Data Engineering Teams]({{ '/podcasts/scaling-data-engineering-teams-self-service-platforms/' | relative_url }}),
+([Scaling Data Engineering Teams](https://datatalks.club/podcast/scaling-data-engineering-teams-self-service-platforms.html),
 17:22-19:25).
 
 Good DAGs keep orchestration thin. Put business transformations in dbt, SQL,
@@ -156,15 +156,15 @@ Use table names and partitions as references, along with file paths, model
 versions, and run IDs. Add checks before publishing downstream outputs, and
 name DAGs and tasks so an on-call engineer can understand an alert quickly.
 
-[Jeff Katz]({{ '/people/jeffkatz/' | relative_url }}) makes the code-structure
+[Jeff Katz](https://datatalks.club/people/jeffkatz.html) makes the code-structure
 version of that advice in
-[Data Engineering Career Path and Skills]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }}).
+[Data Engineering Career Path and Skills](https://datatalks.club/podcast/data-engineering-career-path-and-skills.html).
 Around 55:10, he says good Airflow code keeps most logic in normal Python
 instead of relying on Airflow for everything. Santona's pipeline discussion
 points the same way. Airflow and Prefect coordinate workflows whose
 transformation responsibilities are already clear. Dagster and Mage appear in
 the same orchestration set
-([Modern Data Pipeline Architecture]({{ '/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/' | relative_url }}),
+([Modern Data Pipeline Architecture](https://datatalks.club/podcast/modern-data-pipelines-orchestration-ingestion-modeling.html),
 26:43-27:07).
 
 ## Schedules, Dependencies, and Retries
@@ -179,7 +179,7 @@ Albertsson's workflow-engine discussion ties those two concerns together. The
 engine knows which raw events and source dumps a recommendation job needs. It
 then runs the dependent transformations when the data arrives or on a regular
 schedule
-([DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}),
+([DataOps 101 for Scaling Data Platforms](https://datatalks.club/podcast/dataops-principles-and-scalable-data-platforms.html),
 31:18-35:57).
 
 Retries are part of the same design. Albertsson describes late data and
@@ -188,7 +188,7 @@ again. That's why orchestration sits close to
 [DataOps]({{ '/wiki/dataops/' | relative_url }}). The team needs reproducible
 code and dependency control. It also needs recovery paths, not only a timer that
 starts a script
-([DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}),
+([DataOps 101 for Scaling Data Platforms](https://datatalks.club/podcast/dataops-principles-and-scalable-data-platforms.html),
 31:18-35:57 and 46:52-1:04:18).
 
 Batch processing is where this model is most explicit. Around 45:11,
@@ -205,8 +205,8 @@ Backfills turn orchestration from "run today's job" into "recompute a historical
 window correctly." Guests discuss this most clearly in feature platforms.
 
 In
-[Feature Stores for MLOps]({{ '/podcasts/mlops-feature-stores-feature-stores-feast-tecton/' | relative_url }}),
-[Willem Pienaar]({{ '/people/willempienaar/' | relative_url }}) separates
+[Feature Stores for MLOps](https://datatalks.club/podcast/mlops-feature-stores-feature-stores-feast-tecton.html),
+[Willem Pienaar](https://datatalks.club/people/willempienaar.html) separates
 upstream transformations from feature serving. Around 24:52-25:22, he says
 upstream systems such as dbt, Airflow, or Spark ETL handle transformations.
 Kubeflow Pipelines fits model training better than general transformation.
@@ -228,15 +228,15 @@ consumers changed.
 
 Airflow remains the common reference point. Kwong uses it as an
 orchestrator around Airbyte and dbt
-([ETL vs ELT and Modern Data Engineering]({{ '/podcasts/data-engineering-tools-modern-data-stack/' | relative_url }}),
+([ETL vs ELT and Modern Data Engineering](https://datatalks.club/podcast/data-engineering-tools-modern-data-stack.html),
 30:59-35:42). Albertsson compares Luigi and Airflow as workflow orchestrators
 inside a broader data platform
-([DataOps 101 for Scaling Data Platforms]({{ '/podcasts/dataops-principles-and-scalable-data-platforms/' | relative_url }}),
+([DataOps 101 for Scaling Data Platforms](https://datatalks.club/podcast/dataops-principles-and-scalable-data-platforms.html),
 35:57-39:32).
 
-[Mehdi OUAZZA]({{ '/people/mehdiouazza/' | relative_url }}) adds the platform
+[Mehdi OUAZZA](https://datatalks.club/people/mehdiouazza.html) adds the platform
 operating view. In
-[Scaling Data Engineering Teams]({{ '/podcasts/scaling-data-engineering-teams-self-service-platforms/' | relative_url }}),
+[Scaling Data Engineering Teams](https://datatalks.club/podcast/scaling-data-engineering-teams-self-service-platforms.html),
 around 17:22-19:25, he says an Airflow cluster is only one piece of a data
 platform.
 
@@ -244,22 +244,22 @@ Teams also need naming rules and sequencing conventions. Playbooks and
 templates keep repeated pipelines from becoming copy-pasted DAGs.
 
 Newer episodes widen the tool set. In
-[Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}),
-[Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) says around
+[Modern Data Engineering Trends](https://datatalks.club/podcast/trends-in-modern-data-engineering.html),
+[Adrian Brudaru](https://datatalks.club/people/adrianbrudaru.html) says around
 35:37 that Airflow is common. Prefect and Dagster are also popular. Around
 37:08, he says GitHub Actions can be enough for simple workflows because it's
 serverless and cheaper than always-on orchestrators.
 
 In
-[Lean MLOps for Startups]({{ '/podcasts/lean-mlops-for-startups/' | relative_url }}),
-[Nemanja Radojkovic]({{ '/people/nemanjaradojkovic/' | relative_url }}) gives a
+[Lean MLOps for Startups](https://datatalks.club/podcast/lean-mlops-for-startups.html),
+[Nemanja Radojkovic](https://datatalks.club/people/nemanjaradojkovic.html) gives a
 similar small-team rule. Around 44:34-45:01, he keeps the stack minimal and uses
 Python for scripts and training. He handles orchestration through CI/CD where
 possible. He chooses Dagster when the workflow needs a real orchestrator.
 
-[Andreas Kretz]({{ '/people/andreaskretz/' | relative_url }}) gives the AWS
+[Andreas Kretz](https://datatalks.club/people/andreaskretz.html) gives the AWS
 version in
-[From Notebooks to Production]({{ '/podcasts/production-ml-pipelines-with-aws-and-kafka/' | relative_url }}).
+[From Notebooks to Production](https://datatalks.club/podcast/production-ml-pipelines-with-aws-and-kafka.html).
 Around 35:46, he compares Airflow with CloudWatch scheduling and Lambda. He
 also names containers, ECS, and AWS Batch. SageMaker appears in the same
 comparison.
@@ -287,16 +287,16 @@ batch predictions and need one place to reason about run state. Airflow becomes
 ceremony when the workflow is one small script, failures are easy to rerun
 manually, and no one needs shared task history.
 
-[Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) gives the
+[Adrian Brudaru](https://datatalks.club/people/adrianbrudaru.html) gives the
 lighter-weight option in
-[Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}).
+[Modern Data Engineering Trends](https://datatalks.club/podcast/trends-in-modern-data-engineering.html).
 Around 35:37, he names Airflow alongside Prefect, Dagster, and GitHub Actions.
 Around 37:08, he says GitHub Actions can be enough for simple workflows
 because it avoids the cost of always-on orchestrators.
 
-[Nemanja Radojkovic]({{ '/people/nemanjaradojkovic/' | relative_url }}) makes a
+[Nemanja Radojkovic](https://datatalks.club/people/nemanjaradojkovic.html) makes a
 similar startup argument in
-[Lean MLOps for Startups]({{ '/podcasts/lean-mlops-for-startups/' | relative_url }}).
+[Lean MLOps for Startups](https://datatalks.club/podcast/lean-mlops-for-startups.html).
 Around 44:34-45:01, he keeps orchestration in CI/CD where possible. He chooses
 Dagster when the workflow needs a real orchestrator.
 
@@ -312,8 +312,8 @@ Orchestration also appears in [ML platforms]({{ '/wiki/ml-platforms/' | relative
 and [machine learning infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }}).
 
 In
-[Building Production ML Platforms]({{ '/podcasts/building-production-ml-platform-and-mlops-team/' | relative_url }}),
-[Simon Stiebellehner]({{ '/people/simonstiebellehner/' | relative_url }})
+[Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html),
+[Simon Stiebellehner](https://datatalks.club/people/simonstiebellehner.html)
 separates batch inference from online serving around 31:15-31:51. For batch
 inference, a job loads data and preprocesses it. It runs the model and writes
 predictions to a table. Simon says teams often choose a workflow orchestrator
@@ -337,7 +337,7 @@ lineage rather than replacing them.
 Feature stores create another ML boundary. Pienaar says Feast consumes
 transformed features from existing batch or streaming pipelines. Tecton can own
 more of the transformation and materialization flow
-([Feature Stores for MLOps]({{ '/podcasts/mlops-feature-stores-feature-stores-feast-tecton/' | relative_url }}),
+([Feature Stores for MLOps](https://datatalks.club/podcast/mlops-feature-stores-feature-stores-feast-tecton.html),
 24:52-37:00 and 57:42). Orchestration has to respect where that boundary is.
 
 For Feast, upstream jobs and backfills stay in the existing pipeline stack. For
@@ -351,7 +351,7 @@ it. Mehdi's scale-up episode is the clearest archive example. He treats Airflow
 as one platform component and then adds conventions. Teams need to structure
 pipelines and handle sequence. They also need to name things and decide when
 generic YAML or templates should generate repeated DAGs
-([Scaling Data Engineering Teams]({{ '/podcasts/scaling-data-engineering-teams-self-service-platforms/' | relative_url }}),
+([Scaling Data Engineering Teams](https://datatalks.club/podcast/scaling-data-engineering-teams-self-service-platforms.html),
 17:22-19:25).
 
 Around 52:55-53:21, he says a scale-up may spend about half its
@@ -375,8 +375,8 @@ can use it without asking platform engineers to design every pipeline by hand.
 ## Quality Boundaries
 
 A successful orchestration run doesn't prove that the data is correct.
-[Tomasz Hinc]({{ '/people/tomaszhinc/' | relative_url }}) gives the warning in
-[DataOps and GitOps Best Practices for Data Teams]({{ '/podcasts/dataops-and-gitops-best-practices-for-data-teams/' | relative_url }}).
+[Tomasz Hinc](https://datatalks.club/people/tomaszhinc.html) gives the warning in
+[DataOps and GitOps Best Practices for Data Teams](https://datatalks.club/podcast/dataops-and-gitops-best-practices-for-data-teams.html).
 Around 1:02:28-1:05:41, he describes Airflow jobs that were green while zero
 records were inserted. His point is that task status needs edge-case checks.
 It also needs data checks before a team presents results with confidence.
@@ -394,10 +394,10 @@ systems. The team needs owners who respond when checks fail.
 ## Learning and Project Scope
 
 For learners, orchestration should come after the pipeline has real steps to
-coordinate. [Jeff Katz]({{ '/people/jeffkatz/' | relative_url }}) places Docker
+coordinate. [Jeff Katz](https://datatalks.club/people/jeffkatz.html) places Docker
 and AWS after Python and SQL. Airflow also comes after data-warehouse
 fundamentals in
-[Data Engineering Career Path and Skills]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }}).
+[Data Engineering Career Path and Skills](https://datatalks.club/podcast/data-engineering-career-path-and-skills.html).
 
 Around 55:10, he says good Airflow code keeps most logic in normal Python and
 doesn't rely on Airflow for everything. Write the extraction and transformation
@@ -441,7 +441,7 @@ Move beyond it when the workflow has shared operations:
 Mehdi's platform discussion applies here too. Even a shared Airflow cluster is
 only one platform component. A local Compose file is further from a platform
 than that
-([Scaling Data Engineering Teams]({{ '/podcasts/scaling-data-engineering-teams-self-service-platforms/' | relative_url }}),
+([Scaling Data Engineering Teams](https://datatalks.club/podcast/scaling-data-engineering-teams-self-service-platforms.html),
 17:22-19:25).
 
 A useful orchestration project therefore shows more than a DAG screenshot. It
@@ -452,11 +452,11 @@ owns the alert.
 
 The work may still be one script with one simple schedule. In that case,
 Brudaru's GitHub Actions example may fit better than a full Airflow deployment
-([Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}),
+([Modern Data Engineering Trends](https://datatalks.club/podcast/trends-in-modern-data-engineering.html),
 35:37-37:08).
 
 Kretz's CloudWatch and Lambda path may fit too
-([From Notebooks to Production]({{ '/podcasts/production-ml-pipelines-with-aws-and-kafka/' | relative_url }}),
+([From Notebooks to Production](https://datatalks.club/podcast/production-ml-pipelines-with-aws-and-kafka.html),
 35:46-42:07). Nemanja's CI/CD-first startup path is another small-team option
-([Lean MLOps for Startups]({{ '/podcasts/lean-mlops-for-startups/' | relative_url }}),
+([Lean MLOps for Startups](https://datatalks.club/podcast/lean-mlops-for-startups.html),
 44:34-45:01).

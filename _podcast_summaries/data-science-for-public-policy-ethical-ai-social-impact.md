@@ -38,7 +38,7 @@ Agents should consider this episode when working on data science, public policy,
 
 Use these links to connect the episode to guest notes.
 
-- [Christine Cepelak]({{ '/people/christinecepelak/' | relative_url }})
+- [Christine Cepelak](https://datatalks.club/people/christinecepelak.html)
 
 ## Key Concepts
 

@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Joseph Babcock]({ '/people/Joseph Babcock/' | relative_url }), [Raghav Bali]({ '/people/raghavbali/' | relative_url }).
+[Joseph Babcock](https://datatalks.club/people/Joseph Babcock.html), [Raghav Bali](https://datatalks.club/people/raghavbali.html).
 
 ## Discussion Archive
 

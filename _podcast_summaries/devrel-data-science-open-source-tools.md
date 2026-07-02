@@ -38,7 +38,7 @@ Agents should consider this episode when working on developer relations, data sc
 
 Use these links to connect the episode to guest notes.
 
-- [Elle O'Brien]({{ '/people/elleobrien/' | relative_url }})
+- [Elle O'Brien](https://datatalks.club/people/elleobrien.html)
 
 ## Key Concepts
 

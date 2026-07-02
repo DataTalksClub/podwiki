@@ -30,8 +30,8 @@ and [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-p
 ## Teach Through Real Work
 
 DataTalks.Club guests tend to make projects the center of technical education.
-In [Teaching Data Engineers]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }}),
-[Jeff Katz]({{ '/people/jeffkatz/' | relative_url }}) explains a bootcamp model
+In [Teaching Data Engineers](https://datatalks.club/podcast/data-engineering-career-path-and-skills.html),
+[Jeff Katz](https://datatalks.club/people/jeffkatz.html) explains a bootcamp model
 that uses employer research, active learning, and repeated labs. Students also
 give feedback during the course. Around 23:35, he names Python, SQL, and cloud
 fundamentals as the core skills for junior data engineers.
@@ -42,8 +42,8 @@ breadth. That same episode connects teaching to
 [career transition]({{ '/wiki/career-transitions-in-data/' | relative_url }}) because the
 curriculum exists to move students from study into hired work.
 
-[Erum Afzal]({{ '/people/erumafzal/' | relative_url }}) gives the community-scale
-version in [Community Building and Teaching in AI & Tech]({{ '/podcasts/community-building-and-teaching-in-ai-tech/' | relative_url }}).
+[Erum Afzal](https://datatalks.club/people/erumafzal.html) gives the community-scale
+version in [Community Building and Teaching in AI & Tech](https://datatalks.club/podcast/community-building-and-teaching-in-ai-tech.html).
 Omdena turns real AI projects into courses. Collaborators work on practical
 problems, and the academy turns what they learned into structured lessons,
 foundational courses, and instructor pathways. Around 10:19, she describes the
@@ -53,7 +53,7 @@ Around 46:33, Erum discusses basic, intermediate, and advanced course tiers.
 Those tiers keep a large community from forcing every learner through the same
 path.
 
-[DataTalks.Club Behind the Scenes]({{ '/podcasts/datatalksclub-building-scaling-data-community/' | relative_url }})
+[DataTalks.Club Behind the Scenes](https://datatalks.club/podcast/datatalksclub-building-scaling-data-community.html)
 explains the DataTalks.Club course model.
 The ML Bookcamp and Machine Learning Zoomcamp discussion around 38:22 centers
 project-based, end-to-end learning. Around 50:31, he connects learning with
@@ -76,8 +76,8 @@ Python and SQL. Tools get a smaller share.
 That guidance fits the [data engineering roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }})
 because a roadmap should sequence skills, not collect every current tool.
 
-[Irina Brudaru]({{ '/people/irinabrudaru/' | relative_url }}) adds a domain
-curriculum example in [Teaching and Mentoring in Data Analytics]({{ '/podcasts/teaching-mentoring-data-analytics-fintech/' | relative_url }}).
+[Irina Brudaru](https://datatalks.club/people/irinabrudaru.html) adds a domain
+curriculum example in [Teaching and Mentoring in Data Analytics](https://datatalks.club/podcast/teaching-mentoring-data-analytics-fintech.html).
 For a FinTech analytics program, she collected market practices, datasets, and
 exercises. She then found teachers for modules such as fraud, chargebacks,
 BigQuery, and data storytelling. The program also included business skills.
@@ -88,8 +88,8 @@ Around 58:08, Irina returns to analyst fundamentals by naming SQL,
 visualization, and product tracking. She also includes soft skills and
 communication.
 
-[Alexander Guschin]({{ '/people/alexanderguschin/' | relative_url }}) connects
-curriculum design to production ML in [Competitive Machine Learning and Teaching]({{ '/podcasts/kaggle-grandmaster-to-production-ml-and-education/' | relative_url }}).
+[Alexander Guschin](https://datatalks.club/people/alexanderguschin.html) connects
+curriculum design to production ML in [Competitive Machine Learning and Teaching](https://datatalks.club/podcast/kaggle-grandmaster-to-production-ml-and-education.html).
 His teaching arc moves from Kaggle competition rigor to production ML, MLOps,
 and system design. His assignments also include communication and engineering
 quality. Around 46:50, the episode covers problem-centered assignments such as
@@ -99,9 +99,9 @@ Around 50:10, the episode discusses dual evaluation across model quality
 and technical execution. Competition-style learning becomes useful when the
 curriculum also teaches maintainable systems and collaboration.
 
-[David Bader]({{ '/people/davidbader/' | relative_url }}) brings curriculum
+[David Bader](https://datatalks.club/people/davidbader.html) brings curriculum
 design to the university-program scale. In
-[Building Data Science Programs]({{ '/podcasts/building-data-science-programs-and-democratizing-high-performance-computing/' | relative_url }}),
+[Building Data Science Programs](https://datatalks.club/podcast/building-data-science-programs-and-democratizing-high-performance-computing.html),
 he describes founding data science schools and degree programs at Georgia Tech
 and NJIT. His approach aligns curricula with regional workforce needs and
 industry partnerships (NSF, Accenture, NVIDIA). He treats the research lab like
@@ -137,8 +137,8 @@ Teaching in those episodes is community work, so it belongs with
 
 ## Teach Reproducibility, Documentation, and Open Work
 
-[Johanna Bayer]({{ '/people/johannabayer/' | relative_url }}) treats teaching as
-research culture change in [Teaching Open Science and Reproducible Research]({{ '/podcasts/teaching-reproducible-research-and-open-science-coding-practices-for-academia/' | relative_url }}).
+[Johanna Bayer](https://datatalks.club/people/johannabayer.html) treats teaching as
+research culture change in [Teaching Open Science and Reproducible Research](https://datatalks.club/podcast/teaching-reproducible-research-and-open-science-coding-practices-for-academia.html).
 Around 5:27, she describes teaching open science with Git, homework support, and
 course structure. Around 7:39, she references Carpentries-style beginner
 curricula. Around 27:38, the episode names coding practices students should
@@ -153,8 +153,8 @@ Around 36:05, Johanna connects open code to citations, collaboration, and career
 visibility. For data and ML learners, those are also portfolio signals.
 A good project explains how to run, review, and extend the work.
 
-[Elle O'Brien]({{ '/people/elleobrien/' | relative_url }}) makes a similar bridge
-from university teaching to developer relations in [DevRel for Data Science]({{ '/podcasts/devrel-data-science-open-source-tools/' | relative_url }}).
+[Elle O'Brien](https://datatalks.club/people/elleobrien.html) makes a similar bridge
+from university teaching to developer relations in [DevRel for Data Science](https://datatalks.club/podcast/devrel-data-science-open-source-tools.html).
 Around 7:50, she discusses applied data science teaching and research
 reproducibility. Around 52:06, she links teaching with DevRel through curriculum
 design and reusable video content.
@@ -169,8 +169,8 @@ maintainers.
 
 ## Make Concepts Visible and Explainable
 
-[Meor Amer]({{ '/people/meoramer/' | relative_url }}) focuses on explanation
-craft in [Using Visualizations to Explain Machine Learning]({{ '/podcasts/visualizing-machine-learning-concepts-to-explain-ml/' | relative_url }}).
+[Meor Amer](https://datatalks.club/people/meoramer.html) focuses on explanation
+craft in [Using Visualizations to Explain Machine Learning](https://datatalks.club/podcast/visualizing-machine-learning-concepts-to-explain-ml.html).
 Around 11:40, he describes visuals as a way to build intuition before the math.
 Around 17:33, he discusses visualizing the verb and using metaphors. Around
 43:37, he recommends breaking and modifying code to understand the machine
@@ -178,16 +178,16 @@ learning behavior.
 
 This visual-first approach complements Irina's teaching of cohort analysis and
 fraud. It also complements her SQL teaching and Eugene Yan's writing advice in
-[Technical Writing for Data Scientists]({{ '/podcasts/technical-writing-for-data-scientists/' | relative_url }}).
+[Technical Writing for Data Scientists](https://datatalks.club/podcast/technical-writing-for-data-scientists.html).
 
-[Eugene Yan]({{ '/people/eugeneyan/' | relative_url }}) presents writing as a
+[Eugene Yan](https://datatalks.club/people/eugeneyan.html) presents writing as a
 way to share, learn, and build career proof. Around 54:00, he covers decision
 logs, rationales, and team memory. Around 56:30, he recommends clear portfolio
 READMEs, quick starts, and repo tours. Around 58:30, he connects practical
 writing habits with learning by teaching.
 
-Public explanation also appears in [Learn in Public]({{ '/podcasts/developer-personal-brand-learn-in-public/' | relative_url }}).
-[Shawn Swyx Wang]({{ '/people/swyx/' | relative_url }}) frames public learning
+Public explanation also appears in [Learn in Public](https://datatalks.club/podcast/developer-personal-brand-learn-in-public.html).
+[Shawn Swyx Wang](https://datatalks.club/people/swyx.html) frames public learning
 as honest progress, correction, and earned expertise around 23:53. Around 47:14,
 he references open knowledge projects such as collaborative docs and cheat
 sheets. Learners can help others with notes, corrections, tutorials, and project
@@ -225,16 +225,16 @@ work clearly, ask for feedback, and publish enough for another person to evaluat
 
 Start with these teaching-focused episodes:
 
-- [Teaching Data Engineers]({{ '/podcasts/data-engineering-career-path-and-skills/' | relative_url }}) with [Jeff Katz]({{ '/people/jeffkatz/' | relative_url }}) for bootcamp curriculum, active learning, fundamentals, and job-aligned data engineering education.
-- [Teaching and Mentoring in Data Analytics]({{ '/podcasts/teaching-mentoring-data-analytics-fintech/' | relative_url }}) with [Irina Brudaru]({{ '/people/irinabrudaru/' | relative_url }}) for FinTech analytics curriculum, BigQuery labs, mentoring, diversity, and analyst fundamentals.
-- [Community Building and Teaching in AI & Tech]({{ '/podcasts/community-building-and-teaching-in-ai-tech/' | relative_url }}) with [Erum Afzal]({{ '/people/erumafzal/' | relative_url }}) for project-to-course AI education and community-based learning paths.
-- [Teaching Open Science and Reproducible Research]({{ '/podcasts/teaching-reproducible-research-and-open-science-coding-practices-for-academia/' | relative_url }}) with [Johanna Bayer]({{ '/people/johannabayer/' | relative_url }}) for Git, reproducible manuscripts, open-source onboarding, and research software engineering practices.
-- [Using Visualizations to Explain Machine Learning]({{ '/podcasts/visualizing-machine-learning-concepts-to-explain-ml/' | relative_url }}) with [Meor Amer]({{ '/people/meoramer/' | relative_url }}) for intuition-first machine learning explanations.
-- [Competitive Machine Learning and Teaching]({{ '/podcasts/kaggle-grandmaster-to-production-ml-and-education/' | relative_url }}) with [Alexander Guschin]({{ '/people/alexanderguschin/' | relative_url }}) for large-scale ML education, competition rigor, MLOps, and system design assignments.
-- [DevRel for Data Science]({{ '/podcasts/devrel-data-science-open-source-tools/' | relative_url }}) with [Elle O'Brien]({{ '/people/elleobrien/' | relative_url }}) for teaching, reproducibility, content, documentation, and developer relations.
-- [Technical Writing for Data Scientists]({{ '/podcasts/technical-writing-for-data-scientists/' | relative_url }}) with [Eugene Yan]({{ '/people/eugeneyan/' | relative_url }}) for writing as learning, documentation, and portfolio explanation.
-- [Learn in Public]({{ '/podcasts/developer-personal-brand-learn-in-public/' | relative_url }}) with [Shawn Swyx Wang]({{ '/people/swyx/' | relative_url }}) for public learning, feedback, open knowledge projects, and career visibility.
-- [DataTalks.Club Behind the Scenes]({{ '/podcasts/datatalksclub-building-scaling-data-community/' | relative_url }}) for project-based courses, public deadlines, office hours, and community-supported learning.
+- [Teaching Data Engineers](https://datatalks.club/podcast/data-engineering-career-path-and-skills.html) with [Jeff Katz](https://datatalks.club/people/jeffkatz.html) for bootcamp curriculum, active learning, fundamentals, and job-aligned data engineering education.
+- [Teaching and Mentoring in Data Analytics](https://datatalks.club/podcast/teaching-mentoring-data-analytics-fintech.html) with [Irina Brudaru](https://datatalks.club/people/irinabrudaru.html) for FinTech analytics curriculum, BigQuery labs, mentoring, diversity, and analyst fundamentals.
+- [Community Building and Teaching in AI & Tech](https://datatalks.club/podcast/community-building-and-teaching-in-ai-tech.html) with [Erum Afzal](https://datatalks.club/people/erumafzal.html) for project-to-course AI education and community-based learning paths.
+- [Teaching Open Science and Reproducible Research](https://datatalks.club/podcast/teaching-reproducible-research-and-open-science-coding-practices-for-academia.html) with [Johanna Bayer](https://datatalks.club/people/johannabayer.html) for Git, reproducible manuscripts, open-source onboarding, and research software engineering practices.
+- [Using Visualizations to Explain Machine Learning](https://datatalks.club/podcast/visualizing-machine-learning-concepts-to-explain-ml.html) with [Meor Amer](https://datatalks.club/people/meoramer.html) for intuition-first machine learning explanations.
+- [Competitive Machine Learning and Teaching](https://datatalks.club/podcast/kaggle-grandmaster-to-production-ml-and-education.html) with [Alexander Guschin](https://datatalks.club/people/alexanderguschin.html) for large-scale ML education, competition rigor, MLOps, and system design assignments.
+- [DevRel for Data Science](https://datatalks.club/podcast/devrel-data-science-open-source-tools.html) with [Elle O'Brien](https://datatalks.club/people/elleobrien.html) for teaching, reproducibility, content, documentation, and developer relations.
+- [Technical Writing for Data Scientists](https://datatalks.club/podcast/technical-writing-for-data-scientists.html) with [Eugene Yan](https://datatalks.club/people/eugeneyan.html) for writing as learning, documentation, and portfolio explanation.
+- [Learn in Public](https://datatalks.club/podcast/developer-personal-brand-learn-in-public.html) with [Shawn Swyx Wang](https://datatalks.club/people/swyx.html) for public learning, feedback, open knowledge projects, and career visibility.
+- [DataTalks.Club Behind the Scenes](https://datatalks.club/podcast/datatalksclub-building-scaling-data-community.html) for project-based courses, public deadlines, office hours, and community-supported learning.
 
 Use these adjacent pages for deeper work:
 

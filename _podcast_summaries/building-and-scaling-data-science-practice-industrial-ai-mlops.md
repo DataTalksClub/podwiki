@@ -38,7 +38,7 @@ Agents should consider this episode when working on data science, industrial AI,
 
 Use these links to connect the episode to guest notes.
 
-- [Andrey Shtylenko]({{ '/people/andreyshtylenko/' | relative_url }})
+- [Andrey Shtylenko](https://datatalks.club/people/andreyshtylenko.html)
 
 ## Key Concepts
 

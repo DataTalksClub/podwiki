@@ -14,8 +14,8 @@ related:
 DataTalks.Club guests discuss DuckDB as embeddable local OLAP. It can
 run close to files and Python code without requiring a separate warehouse
 service. The strongest DuckDB discussion comes from
-[Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}) in
-[Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}).
+[Adrian Brudaru](https://datatalks.club/people/adrianbrudaru.html) in
+[Modern Data Engineering Trends](https://datatalks.club/podcast/trends-in-modern-data-engineering.html).
 In that episode, he places DuckDB next to open table formats. He also connects
 it to catalogs and cheaper orchestration options.
 
@@ -35,7 +35,7 @@ data platform. Brudaru describes it as embeddable. Engineers
 can use it as a building block inside another product or pipeline. In DLT, his
 team uses DuckDB to query data through one interface. That interface covers
 file systems, data lakes, and SQL databases
-([Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}),
+([Modern Data Engineering Trends](https://datatalks.club/podcast/trends-in-modern-data-engineering.html),
 25:58).
 
 That definition is narrower than "replace the warehouse". DuckDB gives teams a
@@ -52,28 +52,28 @@ warehouse-centered stack DuckDB is often compared with.
 ## Key Episodes
 
 The main DuckDB episode is
-[Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }})
-with [Adrian Brudaru]({{ '/people/adrianbrudaru/' | relative_url }}). The
+[Modern Data Engineering Trends](https://datatalks.club/podcast/trends-in-modern-data-engineering.html)
+with [Adrian Brudaru](https://datatalks.club/people/adrianbrudaru.html). The
 relevant stretch starts with [Apache Iceberg]({{ '/wiki/apache-iceberg/' | relative_url }})
 as a Parquet-backed table format at 18:17. Brudaru then covers catalogs,
 metadata, and lineage at 21:27. DuckDB enters the discussion at 25:58 as
 embeddable local OLAP, then GitHub Actions appears at 27:40 as a low-cost
 workflow option.
 
-[From Academic Research to Lean Data Consulting]({{ '/podcasts/from-academic-research-to-data-engineering-freelancing/' | relative_url }})
-adds the practitioner version. [Orell Garten]({{ '/people/orellgarten/' | relative_url }})
+[From Academic Research to Lean Data Consulting](https://datatalks.club/podcast/from-academic-research-to-data-engineering-freelancing.html)
+adds the practitioner version. [Orell Garten](https://datatalks.club/people/orellgarten.html)
 uses local analysis and CSV-first discovery for client work before he automates
 ingestion and processing. Later, he names DuckDB as a tool he uses for both
 prototyping and actual pipelines because it integrates with Python
 (42:16-42:58 and 58:37).
 
 Two older episodes explain why this local and file layer matters.
-[From Notebooks to Production]({{ '/podcasts/production-ml-pipelines-with-aws-and-kafka/' | relative_url }})
+[From Notebooks to Production](https://datatalks.club/podcast/production-ml-pipelines-with-aws-and-kafka.html)
 has Andreas Kretz discussing Parquet on S3 and Docker jobs at 25:36-26:09.
 Later, he recommends simple proof-of-concept work before heavier infrastructure
 (57:33-58:56). In
-[Big Data Engineer vs Data Scientist]({{ '/podcasts/big-data-engineer-vs-data-scientist/' | relative_url }}),
-[Roksolana Diachuk]({{ '/people/roksolanadiachuk/' | relative_url }}) explains
+[Big Data Engineer vs Data Scientist](https://datatalks.club/podcast/big-data-engineer-vs-data-scientist.html),
+[Roksolana Diachuk](https://datatalks.club/people/roksolanadiachuk.html) explains
 how data engineers and data scientists can collaborate through files. Parquet
 can serve that boundary even when the teams use different languages or tools
 (10:29 and 16:26-17:04).
@@ -87,7 +87,7 @@ article places DuckDB in the newer lakehouse and cost-aware tooling landscape.
 Brudaru's strongest DuckDB claim is economic because teams are challenging high
 vendor costs. He also references setups that use DuckDB with GitHub Actions to
 run whole data stacks cheaply
-([Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}),
+([Modern Data Engineering Trends](https://datatalks.club/podcast/trends-in-modern-data-engineering.html),
 27:40). He then connects portability to cheaper compute options such as GitHub
 Actions at 28:44.
 
@@ -95,7 +95,7 @@ GitHub Actions doesn't become a universal orchestrator in this framing. Brudaru
 later says orchestration depends on the team. Airflow remains common, while
 Prefect and Dagster also appear. GitHub Actions can be enough for simple
 workflows because it's serverless and cheaper than always-on orchestrators
-([Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}),
+([Modern Data Engineering Trends](https://datatalks.club/podcast/trends-in-modern-data-engineering.html),
 35:37-37:08).
 
 DuckDB fits bounded batch workloads that are cheap to rerun. A small pipeline
@@ -110,7 +110,7 @@ checks and cost judgment before adding Spark, Kafka, or Kubernetes.
 Brudaru ties DuckDB to Parquet and file-based analytics. He places DuckDB
 immediately after the Iceberg discussion, where Iceberg is a table format over
 Parquet storage. Catalogs map that data to compute
-([Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}),
+([Modern Data Engineering Trends](https://datatalks.club/podcast/trends-in-modern-data-engineering.html),
 18:17-23:41). DuckDB then becomes one compute path over local or lake-backed
 data, rather than the data owner.
 
@@ -118,13 +118,13 @@ Roksolana Diachuk's episode gives the older collaboration model. Big data
 engineers often work with Avro, Parquet, and ProtoBuf rather than only JSON or
 CSV. Data scientists may consume Parquet files from Python without entering
 the data engineering codebase
-([Big Data Engineer vs Data Scientist]({{ '/podcasts/big-data-engineer-vs-data-scientist/' | relative_url }}),
+([Big Data Engineer vs Data Scientist](https://datatalks.club/podcast/big-data-engineer-vs-data-scientist.html),
 10:29 and 16:26-17:04). DuckDB makes that file boundary easier to query with
 SQL, especially when the work starts on one machine.
 
 Andreas Kretz adds cloud-storage context through Parquet files on S3 and Docker
 jobs. Those jobs can read from a data lake and write results elsewhere
-([From Notebooks to Production]({{ '/podcasts/production-ml-pipelines-with-aws-and-kafka/' | relative_url }}),
+([From Notebooks to Production](https://datatalks.club/podcast/production-ml-pipelines-with-aws-and-kafka.html),
 25:36-26:09). DuckDB can be part of that family of bounded processors when the
 data size, latency, and reliability requirements fit.
 
@@ -143,13 +143,13 @@ when the team needs open storage, table formats, catalogs, and multiple compute
 engines. DuckDB can
 serve as one compute engine for small transformations. It can also fit
 validation, local exploration, and cost-sensitive batch jobs
-([Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}),
+([Modern Data Engineering Trends](https://datatalks.club/podcast/trends-in-modern-data-engineering.html),
 25:58-30:31).
 
 DuckDB also connects to headless table formats. Brudaru says DuckDB provides a
 local access layer that's useful for data pipelines. He then discusses DLT work
 on headless Delta Lake and Iceberg
-([Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}),
+([Modern Data Engineering Trends](https://datatalks.club/podcast/trends-in-modern-data-engineering.html),
 29:33-30:31). In that design, storage and table metadata stay open while
 compute can move between local jobs, GitHub Actions, and larger engines.
 
@@ -160,7 +160,7 @@ around DuckDB. He starts client work by figuring out what data exists. He then
 checks how to access it and what problem the client wants solved. He may pull
 one day or one period of files onto his computer and analyze them locally. Only
 after that does he move toward automated ingestion and scheduled processing
-([From Academic Research to Lean Data Consulting]({{ '/podcasts/from-academic-research-to-data-engineering-freelancing/' | relative_url }}),
+([From Academic Research to Lean Data Consulting](https://datatalks.club/podcast/from-academic-research-to-data-engineering-freelancing.html),
 42:16-42:58).
 
 DuckDB fits that lean discovery phase because it's easy to try and needs no
@@ -168,7 +168,7 @@ server. Garten recommends starting with a get-started tutorial. Then he compares
 the new tool against a problem he already solved with another approach. He uses
 DuckDB for prototyping and actual pipelines. Still, he treats tool choice as
 secondary to solving the client problem
-([From Academic Research to Lean Data Consulting]({{ '/podcasts/from-academic-research-to-data-engineering-freelancing/' | relative_url }}),
+([From Academic Research to Lean Data Consulting](https://datatalks.club/podcast/from-academic-research-to-data-engineering-freelancing.html),
 50:33-53:03 and 58:37).
 
 This keeps DuckDB connected to [Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }})
@@ -190,14 +190,14 @@ BI integration.
 Brudaru's catalog discussion makes that boundary explicit. Catalogs map data to
 compute and manage access control, and some catalogs also handle metadata and
 lineage
-([Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}),
+([Modern Data Engineering Trends](https://datatalks.club/podcast/trends-in-modern-data-engineering.html),
 21:27).
 
 DuckDB is also not a reason to skip pipeline discipline. Kretz warns learners
 not to start with Kubernetes and Airflow on huge datasets. He still frames
 production work through ingestion and processing. He also includes storage,
 visualization and scheduling. Serving decisions remain part of the same work
-([From Notebooks to Production]({{ '/podcasts/production-ml-pipelines-with-aws-and-kafka/' | relative_url }}),
+([From Notebooks to Production](https://datatalks.club/podcast/production-ml-pipelines-with-aws-and-kafka.html),
 13:25-26:09 and 57:33-58:56).
 
 DuckDB can simplify one processing layer. It doesn't remove the need to test
@@ -207,7 +207,7 @@ DuckDB is also not automatically the right answer for strict streaming or
 large distributed workloads. Brudaru mentions DuckDB as a downstream processing
 option next to tools such as Flink. He also says streaming is often
 micro-batching unless strict SLAs require a stricter architecture
-([Modern Data Engineering Trends]({{ '/podcasts/trends-in-modern-data-engineering/' | relative_url }}),
+([Modern Data Engineering Trends](https://datatalks.club/podcast/trends-in-modern-data-engineering.html),
 51:19-52:31).
 
 Use DuckDB when local OLAP and file-backed SQL match the problem. It also fits

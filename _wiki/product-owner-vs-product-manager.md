@@ -25,13 +25,13 @@ DataTalks.Club guests draw a practical split. Look for who owns
 the product decision. Then look for who protects delivery, manages the roadmap,
 and aligns the data or ML specialists across teams.
 
-[Anna Hannemann]({{ '/people/annahannemann/' | relative_url }}) gives the
+[Anna Hannemann](https://datatalks.club/people/annahannemann.html) gives the
 clearest comparison in
-[Product Owners in Data Science]({{ '/podcasts/building-data-products-product-owner-vs-product-manager/' | relative_url }}).
+[Product Owners in Data Science](https://datatalks.club/podcast/building-data-products-product-owner-vs-product-manager.html).
 She says the distinction depends on the company. Some teams use only product
 owners. Some use only product managers. When only one title exists, that person
 often has to wear both hats
-([20:00-21:45]({{ '/podcasts/building-data-products-product-owner-vs-product-manager/' | relative_url }})).
+([20:00-21:45](https://datatalks.club/podcast/building-data-products-product-owner-vs-product-manager.html)).
 
 For data and ML teams, start from the work rather than the title. A product
 owner is usually closer to team advocacy, delivery decisions, stakeholder
@@ -66,7 +66,7 @@ decision when a model is good enough. They still have to communicate the quality
 to stakeholders. She also places the product owner between stakeholders and data
 scientists or developers. The role translates requirements, advocates for the
 team, and shields the team when expectations don't match the work
-([15:11-18:25]({{ '/podcasts/building-data-products-product-owner-vs-product-manager/' | relative_url }})).
+([15:11-18:25](https://datatalks.club/podcast/building-data-products-product-owner-vs-product-manager.html)).
 
 ## Product Owner
 
@@ -75,7 +75,7 @@ describes the role as being willing to make decisions, including risky release
 decisions. A data scientist may ask for two more weeks to improve a model. The
 product owner may decide that the current quality is enough to go live, as long
 as the quality is communicated clearly
-([15:50-18:25]({{ '/podcasts/building-data-products-product-owner-vs-product-manager/' | relative_url }})).
+([15:50-18:25](https://datatalks.club/podcast/building-data-products-product-owner-vs-product-manager.html)).
 
 That matters in data products because teams can keep improving a model forever.
 Someone still has to decide whether the model, dashboard, API, or manual fix is
@@ -90,7 +90,7 @@ stakeholder asking whether one person can solve several data science use cases.
 The product owner has to explain why the work may need more than one generic
 resource. It may need a data scientist, a machine learning engineer, MLOps
 support, or data engineering work
-([18:25 and 21:45-22:08]({{ '/podcasts/building-data-products-product-owner-vs-product-manager/' | relative_url }})).
+([18:25 and 21:45-22:08](https://datatalks.club/podcast/building-data-products-product-owner-vs-product-manager.html)).
 
 ## Product Manager
 
@@ -98,16 +98,16 @@ Anna doesn't treat product manager as a weaker or less important role. She
 treats the boundary as organization-specific. In her personal split, product
 managers do more process management and streamlining, while product owners have
 stronger product ownership
-([19:06-20:00]({{ '/podcasts/building-data-products-product-owner-vs-product-manager/' | relative_url }})).
+([19:06-20:00](https://datatalks.club/podcast/building-data-products-product-owner-vs-product-manager.html)).
 
 Other DataTalks.Club episodes use product manager in a broader way.
 
-[Sara Menefee]({{ '/people/saramenefee/' | relative_url }}) starts data product
+[Sara Menefee](https://datatalks.club/people/saramenefee.html) starts data product
 management from customer discovery and hypothesis formation in
 [Product Designer to Data Product Manager]({{ '/wiki/product-designer-to-data-product-manager/' | relative_url }}).
-She also includes data quality and documentation. [Geo Jolly]({{ '/people/geojolly/' | relative_url }})
+She also includes data quality and documentation. [Geo Jolly](https://datatalks.club/people/geojolly.html)
 describes a technical PM in
-[ML Product Manager and MLOps Platform Strategy]({{ '/podcasts/ml-product-manager-and-mlops-platform-strategy/' | relative_url }}).
+[ML Product Manager and MLOps Platform Strategy](https://datatalks.club/podcast/ml-product-manager-and-mlops-platform-strategy.html).
 That PM owns roadmap direction, specifications, feedback, and stakeholder
 communication for an internal ML platform.
 
@@ -121,14 +121,14 @@ for the broader role and
 [ML Product Manager Role]({{ '/wiki/ml-product-manager-role/' | relative_url }})
 when the product is an ML platform or ML-enabled system.
 
-[Greg Coquillo]({{ '/people/gregcoquillo/' | relative_url }}) gives another
+[Greg Coquillo](https://datatalks.club/people/gregcoquillo.html) gives another
 data-product version in
-[Build & Scale Data Products for AI]({{ '/podcasts/building-and-scaling-ai-data-products-with-mlops/' | relative_url }}).
+[Build & Scale Data Products for AI](https://datatalks.club/podcast/building-and-scaling-ai-data-products-with-mlops.html).
 He treats data product management as customer discovery and strategy. It also
 covers solution design, roadmap work, and value creation for data products. His
 examples start from internal customers such as sales and marketing. He also
 covers finance, supply chain, and program teams
-([4:24-11:32]({{ '/podcasts/building-and-scaling-ai-data-products-with-mlops/' | relative_url }})).
+([4:24-11:32](https://datatalks.club/podcast/building-and-scaling-ai-data-products-with-mlops.html)).
 
 That's why the nearby comparison
 [Data Product Manager vs Product Manager]({{ '/wiki/data-product-manager-vs-product-manager/' | relative_url }})
@@ -139,13 +139,13 @@ focuses on the extra data lifecycle and adoption work a data PM inherits.
 Anna's current title in the episode is domain owner for data science. That role
 isn't the same as a head of product. Data scientists and data analysts report
 to her, but they work inside product teams. Product people report elsewhere
-([38:32-39:13]({{ '/podcasts/building-data-products-product-owner-vs-product-manager/' | relative_url }})).
+([38:32-39:13](https://datatalks.club/podcast/building-data-products-product-owner-vs-product-manager.html)).
 
 The domain owner watches for duplicated data science work across teams. Anna
 describes bringing data scientists together when they work on similar problems.
 She can rotate people into new initiatives and help justify work when a new
 domain needs funding, people, or external support
-([39:13-40:16 and 46:48-48:44]({{ '/podcasts/building-data-products-product-owner-vs-product-manager/' | relative_url }})).
+([39:13-40:16 and 46:48-48:44](https://datatalks.club/podcast/building-data-products-product-owner-vs-product-manager.html)).
 
 That makes the domain-owner role closer to capability leadership than one
 product backlog. It connects to [Data Teams]({{ '/wiki/data-teams/' | relative_url }}),
@@ -157,14 +157,14 @@ questions, but dedicated product teams can still run daily work.
 ## Data Mesh Variant
 
 In [Data Mesh]({{ '/wiki/data-mesh/' | relative_url }}), teams use owner titles
-differently. [Zhamak Dehghani]({{ '/people/zhamakdehghani/' | relative_url }})
+differently. [Zhamak Dehghani](https://datatalks.club/people/zhamakdehghani.html)
 uses "data product owner" and "data product manager" for one role. That role
 manages a domain's data as a product for other domains in
-[Data Mesh Implementation]({{ '/podcasts/data-mesh-architecture-decentralized-data-products/' | relative_url }}).
+[Data Mesh Implementation](https://datatalks.club/podcast/data-mesh-architecture-decentralized-data-products.html).
 In that role, the owner talks with consumer domains and decides which data
 product or access path is needed. They also manage guarantees such as quality,
 timeliness, integrity, and completeness
-([34:59-41:47]({{ '/podcasts/data-mesh-architecture-decentralized-data-products/' | relative_url }})).
+([34:59-41:47](https://datatalks.club/podcast/data-mesh-architecture-decentralized-data-products.html)).
 
 This role is closer to product ownership for a data interface than to a scrum
 ticket owner. The owner has to know what producers can promise and what
@@ -183,7 +183,7 @@ understanding is the main constraint.
 
 For technical products, she argues that the product person
 has to understand what the team is building
-([12:49-15:11]({{ '/podcasts/building-data-products-product-owner-vs-product-manager/' | relative_url }})).
+([12:49-15:11](https://datatalks.club/podcast/building-data-products-product-owner-vs-product-manager.html)).
 
 Her recommender-system examples show why. At METRO, the team moved from manual
 newsletter support toward API-first recommender systems. The stack included
@@ -193,21 +193,21 @@ The product decision wasn't only "which model performs best?" It included
 whether the team should expose an endpoint and automate support. It also
 included whether they could run A/B tests. They also had to separate
 recommendation IDs from customer-facing images, descriptions, and prices
-([22:08-30:01]({{ '/podcasts/building-data-products-product-owner-vs-product-manager/' | relative_url }})).
+([22:08-30:01](https://datatalks.club/podcast/building-data-products-product-owner-vs-product-manager.html)).
 
 The product person also needs enough metric literacy to challenge whether a
 model improvement changes the business. Anna gives an example where a faster
 model may not matter if the model runs once a week and already finishes in a
 reasonable time. The product question is whether the improvement changes the
 business, not whether the model is technically more impressive
-([35:55-38:32]({{ '/podcasts/building-data-products-product-owner-vs-product-manager/' | relative_url }})).
+([35:55-38:32](https://datatalks.club/podcast/building-data-products-product-owner-vs-product-manager.html)).
 
 Sara adds the data-platform version. A data product manager may not build every
 pipeline, but they still need to know how data moves from sources through
 transformations. They also need to understand warehouses, lakes, apps, and
 analysis tools. She treats SQL, documentation, and data quality as working
 literacy. PII and compliance matter too
-([19:38-28:30]({{ '/podcasts/product-designer-to-data-product-manager/' | relative_url }})).
+([19:38-28:30](https://datatalks.club/podcast/product-designer-to-data-product-manager.html)).
 
 ## Title Fit
 
@@ -215,7 +215,7 @@ Use product owner when the role needs strong delivery-team advocacy and clear
 release authority. This title fits teams that expect one person to protect the
 team and translate stakeholder requests. That same person also makes "ship or
 wait" calls for a data or ML product
-([15:11-21:45]({{ '/podcasts/building-data-products-product-owner-vs-product-manager/' | relative_url }})).
+([15:11-21:45](https://datatalks.club/podcast/building-data-products-product-owner-vs-product-manager.html)).
 
 Use product manager when the role needs broader product management:
 
@@ -230,24 +230,24 @@ This title fits organizations that expect PMs to own the product system around
 the team. Sara's data-PM episode places customer discovery and hypothesis
 formation in that product system. She adds lifecycle planning, launch
 coordination, and measurement. She also includes quality and documentation
-([7:04-28:30]({{ '/podcasts/product-designer-to-data-product-manager/' | relative_url }})).
+([7:04-28:30](https://datatalks.club/podcast/product-designer-to-data-product-manager.html)).
 
 Geo's ML-platform episode adds roadmap direction and specification writing. It
 also covers feedback collection, backlog prioritization, and stakeholder
 communication for internal ML platforms
-([6:28-16:44]({{ '/podcasts/ml-product-manager-and-mlops-platform-strategy/' | relative_url }})).
+([6:28-16:44](https://datatalks.club/podcast/ml-product-manager-and-mlops-platform-strategy.html)).
 
 Use domain owner when the role spans several data or ML product teams. This
 title fits organizations where data scientists, analysts, or ML specialists sit
 inside product teams. Those teams may still need common practices, staffing
 decisions, technical mentorship, and portfolio-level judgment
-([38:32-48:44]({{ '/podcasts/building-data-products-product-owner-vs-product-manager/' | relative_url }})).
+([38:32-48:44](https://datatalks.club/podcast/building-data-products-product-owner-vs-product-manager.html)).
 
 Use data product owner or data product manager when a domain owns data for other
 teams to consume. In Zhamak's Data Mesh framing, that title fits the
 cross-domain conversation about trust and guarantees. It also fits product
 interfaces and who should build the next access path
-([34:59-41:47]({{ '/podcasts/data-mesh-architecture-decentralized-data-products/' | relative_url }})).
+([34:59-41:47](https://datatalks.club/podcast/data-mesh-architecture-decentralized-data-products.html)).
 
 The title matters less than the missing decision. If nobody can say "this model
 is good enough to ship," you need product-owner authority. If nobody can decide
@@ -261,13 +261,13 @@ Anna's strongest data-product lesson is that product ownership starts from the
 business problem. Operations teams often know the problem better than the data
 team. Anna says the team should ask the business what needs to improve before
 choosing a model, dashboard, or automation project
-([44:48-45:57]({{ '/podcasts/building-data-products-product-owner-vs-product-manager/' | relative_url }})).
+([44:48-45:57](https://datatalks.club/podcast/building-data-products-product-owner-vs-product-manager.html)).
 
 She also gives a useful pushback example. If a business team has 200 broken
 text entries, the product answer may be manual cleanup rather than an AI system.
 For a larger assortment-optimization idea, the answer may be an MVP, external
 support, or new hiring only after the business can justify the investment
-([48:44-53:09]({{ '/podcasts/building-data-products-product-owner-vs-product-manager/' | relative_url }})).
+([48:44-53:09](https://datatalks.club/podcast/building-data-products-product-owner-vs-product-manager.html)).
 
 Product owner vs product manager shouldn't become a title debate. For data and
 ML products, compare who owns the concrete decisions.

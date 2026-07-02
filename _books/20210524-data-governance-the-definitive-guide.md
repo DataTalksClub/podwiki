@@ -20,7 +20,7 @@ Use this link for the canonical book page and author Q&A.
 
 ## Author
 
-[Evren Eryurek]({ '/people/Evren Eryurek/' | relative_url }), [Uri Gilad]({ '/people/urigilad/' | relative_url }), [Valliappa Lakshmanan]({ '/people/Valliappa Lakshmanan/' | relative_url }), [Anita Kibunguchy Grant]({ '/people/Anita Kibunguchy-Grant/' | relative_url }), [Jessi Ashdown]({ '/people/jessiashdown/' | relative_url }).
+[Evren Eryurek](https://datatalks.club/people/Evren Eryurek.html), [Uri Gilad](https://datatalks.club/people/urigilad.html), [Valliappa Lakshmanan](https://datatalks.club/people/Valliappa Lakshmanan.html), [Anita Kibunguchy Grant](https://datatalks.club/people/Anita Kibunguchy-Grant.html), [Jessi Ashdown](https://datatalks.club/people/jessiashdown.html).
 
 ## Discussion Archive
 
