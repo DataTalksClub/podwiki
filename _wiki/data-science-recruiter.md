@@ -29,22 +29,22 @@ is whether this person can explain the role, the market, and the evidence the
 hiring team will trust.
 
 DataTalks.Club guests treat recruiting as more than keyword matching. In
-[Hiring Data Scientists and Analysts](https://datatalks.club/podcast/hiring-data-scientists-and-analysts.html),
-[Alicja Notowska](https://datatalks.club/people/alicjanotowska.html) describes
+[[podcast:hiring-data-scientists-and-analysts|Hiring Data Scientists and Analysts]],
+[[person:alicjanotowska|Alicja Notowska]] describes
 recruiters working with hiring managers on the full funnel. The work includes
 job specs and sourcing. It continues through screening, interviews, salary
 conversations, and offer communication. In
-[Land Data Scientist Roles](https://datatalks.club/podcast/get-data-scientist-job.html),
-[Luke Whipps](https://datatalks.club/people/lukewhipps.html) gives the headhunter
+[[podcast:get-data-scientist-job|Land Data Scientist Roles]],
+[[person:lukewhipps|Luke Whipps]] gives the headhunter
 view.
 
 The recruiter defines the role, guides the company on the market, and builds a
 shortlist. They prepare candidates, gather feedback, and support the offer.
 
 The best data science recruiter translates between
-[hiring]({{ '/wiki/hiring/' | relative_url }}), the
-[job search]({{ '/wiki/job-search/' | relative_url }}), and the actual
-[data scientist role]({{ '/wiki/data-scientist-role/' | relative_url }}). The
+[[hiring]], the
+[[job search]], and the actual
+[[data scientist role]]. The
 recruiter can't make an unclear role clear alone. They can expose the confusion
 early and help the company decide what it's hiring for.
 
@@ -52,21 +52,21 @@ early and help the company decide what it's hiring for.
 
 Recruiters usually start with role fit, not model trivia. Alicja Notowska's
 screening discussion in
-[Hiring Data Scientists and Analysts](https://datatalks.club/podcast/hiring-data-scientists-and-analysts.html)
+[[podcast:hiring-data-scientists-and-analysts|Hiring Data Scientists and Analysts]]
 focuses on experience and education. It also covers responsibilities, CV
 clarity, motivation, and salary alignment. She discusses sourcing from
 LinkedIn, GitHub, conferences, and academic networks. The visible proof around
 a candidate matters before the first call.
 
 Luke Whipps gives a similar candidate-market view in
-[Land Data Scientist Roles](https://datatalks.club/podcast/get-data-scientist-job.html).
+[[podcast:get-data-scientist-job|Land Data Scientist Roles]].
 He emphasizes first impressions and resume clarity. He also looks for industry
 alignment, project evidence, and business impact. A recruiter can find a
 candidate through a keyword, but the profile still has to explain what the
 person has done.
 
 For candidates, this is where
-[CV Screening]({{ '/wiki/cv-screening/' | relative_url }}) becomes practical:
+[[CV Screening]] becomes practical:
 don't describe yourself only as "Python, SQL, machine learning." Show the
 problem and data, then add the method, your contribution, and the outcome.
 
@@ -76,21 +76,21 @@ analytics-heavy, show the metric or decision your analysis changed.
 ## The Signals That Help a Data Scientist Stand Out
 
 The strongest candidate signals are specific. In
-[Data Science Interview Guide](https://datatalks.club/podcast/data-science-interview-and-cv-guide.html),
-[Oleg Novikov](https://datatalks.club/people/olegnovikov.html) frames the CV as a
+[[podcast:data-science-interview-and-cv-guide|Data Science Interview Guide]],
+[[person:olegnovikov|Oleg Novikov]] frames the CV as a
 landing page. It should make the reader want to schedule a conversation. He
 also warns candidates to remove noise and highlight personal contribution,
 because interviewers will ask what the candidate personally did.
 
 Portfolio work helps when it proves judgment, not when it only displays tools.
-[Nick Singh](https://datatalks.club/people/nicksingh.html) argues in
-[Ace Data Interviews](https://datatalks.club/podcast/data-interview-behavioral-and-portfolio-prep-guide.html)
+[[person:nicksingh|Nick Singh]] argues in
+[[podcast:data-interview-behavioral-and-portfolio-prep-guide|Ace Data Interviews]]
 that project walkthroughs should lead with impact, then support that claim with
 detail. He also warns candidates to mention only models and methods they can
 defend. Recruiter-facing portfolio material should follow the same standard:
-[Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
+[[Machine Learning Portfolio Projects]]
 and the
-[Data Scientist Interview Roadmap]({{ '/wiki/data-scientist-interview-roadmap/' | relative_url }}).
+[[Data Scientist Interview Roadmap]].
 
 Recruiters and hiring teams look for different levels of proof by role. A
 product data scientist should show SQL, metrics, and experiments. They should
@@ -99,9 +99,9 @@ also show stakeholder questions and business tradeoffs.
 A machine-learning-heavy data scientist should show modeling choices, baselines,
 and evaluation. Data quality and production awareness matter too. Oleg Novikov
 separates those expectations in
-[Data Science Interview Guide](https://datatalks.club/podcast/data-science-interview-and-cv-guide.html),
+[[podcast:data-science-interview-and-cv-guide|Data Science Interview Guide]],
 and the broader
-[Data Science Careers]({{ '/wiki/data-science-careers/' | relative_url }})
+[[Data Science Careers]]
 page uses the same role-targeting logic.
 
 ## Data Science Headhunter Value
@@ -111,7 +111,7 @@ the company.
 Luke Whipps puts role definition and market guidance before headhunting and
 shortlists. Interview preparation, feedback, and negotiation also belong in the
 headhunter's work in
-[Land Data Scientist Roles](https://datatalks.club/podcast/get-data-scientist-job.html).
+[[podcast:get-data-scientist-job|Land Data Scientist Roles]].
 
 That's valuable when a company needs senior data science talent. It also helps
 when the role needs a niche machine learning profile or a candidate who isn't
@@ -119,7 +119,7 @@ actively applying.
 
 A good recruiter can also challenge unrealistic requirements. Alicja Notowska
 describes using talent-market data to negotiate role expectations in
-[Hiring Data Scientists and Analysts](https://datatalks.club/podcast/hiring-data-scientists-and-analysts.html).
+[[podcast:hiring-data-scientists-and-analysts|Hiring Data Scientists and Analysts]].
 If a job spec asks for every tool plus a PhD, the pool shrinks. The same is
 true when one role combines production ML, dashboarding, stakeholder
 management, and a low salary band. The recruiter should be able to show the
@@ -130,7 +130,7 @@ next stage and the expected interview format. They can also clarify the salary b
 and the urgency of the role. Later, they can help with interview feedback and
 offer timing. Oleg
 Novikov's hiring-funnel discussion in
-[Data Science Interview Guide](https://datatalks.club/podcast/data-science-interview-and-cv-guide.html)
+[[podcast:data-science-interview-and-cv-guide|Data Science Interview Guide]]
 shows why that matters.
 
 Candidates often move through recruiter screens and take-home tasks before
@@ -140,14 +140,14 @@ technical rounds, debriefs, and offer decisions.
 
 A recruiter can't compensate for a company that hasn't decided what work the
 data scientist will own. In
-[Data Science Jobs](https://datatalks.club/podcast/data-science-job-red-flags-and-mismatched-roles.html),
-[Tereza Iofciu](https://datatalks.club/people/terezaiofciu.html) warns that job
+[[podcast:data-science-job-red-flags-and-mismatched-roles|Data Science Jobs]],
+[[person:terezaiofciu|Tereza Iofciu]] warns that job
 titles can hide mismatched work. A "data scientist" role might actually be data
 engineering, dashboarding, first-data-hire cleanup, or a broad request for
 someone to make data useful without support.
 
 That risk shows up in
-[Job Descriptions]({{ '/wiki/job-descriptions/' | relative_url }}), where a
+[[Job Descriptions]], where a
 useful job description names the team and objectives. It should also explain
 responsibilities, data maturity, and surrounding roles. A weak one lists
 fashionable tools and leaves candidates guessing.
@@ -159,9 +159,9 @@ as the employer's evaluation of the candidate.
 Recruiters also can't turn the wrong interview into a useful signal. If the
 role needs product analytics, a narrow algorithm puzzle may miss the point. If
 the role needs production ML, a dashboard-only interview may miss it too.
-[Olga Ivina](https://datatalks.club/people/olgaivina.html) ties hiring criteria
+[[person:olgaivina|Olga Ivina]] ties hiring criteria
 to role fit in
-[How to Hire Data Scientists](https://datatalks.club/podcast/hiring-for-data-science-jobs-interview-questions-skills.html):
+[[podcast:hiring-for-data-science-jobs-interview-questions-skills|How to Hire Data Scientists]]:
 companies may need mathematical depth or engineering skill. Other roles need
 MLOps awareness, communication, or growth mindset.
 
@@ -179,17 +179,17 @@ doesn't have to be perfect, but it should cover five points.
 4. The true must-have skills and the skills someone can learn after joining.
 5. The evidence the interviews will test.
 
-[Barbara Sobkowiak](https://datatalks.club/people/barbarasobkowiak.html) draws the
+[[person:barbarasobkowiak|Barbara Sobkowiak]] draws the
 manager-versus-expert distinction in
-[Data Science Manager vs Expert](https://datatalks.club/podcast/data-science-manager-vs-expert-hiring-guide.html).
+[[podcast:data-science-manager-vs-expert-hiring-guide|Data Science Manager vs Expert]].
 A data science manager needs strategy, team development, stakeholder
 communication, and technical literacy. A data science expert needs deeper
 technical and domain expertise. If the company confuses those profiles, a
 headhunter may bring strong candidates who are still wrong for the job.
 
-[Katie Bauer](https://datatalks.club/people/katiebauer.html) adds the team-design
+[[person:katiebauer|Katie Bauer]] adds the team-design
 view in
-[Hiring and Managing Data Science Teams in B2B SaaS](https://datatalks.club/podcast/hiring-and-managing-data-science-teams-in-b2b-saas.html).
+[[podcast:hiring-and-managing-data-science-teams-in-b2b-saas|Hiring and Managing Data Science Teams in B2B SaaS]].
 Data scientist can mean many things inside a company, from product analytics to
 broader data work. Hiring managers should describe the craft expectations,
 stakeholders, team structure, and growth path before asking recruiters to
@@ -203,9 +203,9 @@ prove fit. Also name the constraints that matter, including location, salary,
 and seniority. Domain, work style, and growth path matter too. That preparation
 makes it easier for a data science recruiter to represent you accurately.
 
-[Sarah Mestiri](https://datatalks.club/people/sarahmestiri.html) gives the
+[[person:sarahmestiri|Sarah Mestiri]] gives the
 candidate-side foundation in
-[Tech Job Search Strategy](https://datatalks.club/podcast/job-search-strategy-in-tech-projects-skills-cv-networking.html).
+[[podcast:job-search-strategy-in-tech-projects-skills-cv-networking|Tech Job Search Strategy]].
 She asks job seekers to define goals and choose a specialization. They also
 need to research roles, build a target-company list, and use networking
 intentionally. Recruiters fit into that strategy, but they shouldn't be the
@@ -216,9 +216,9 @@ making dates easy to scan. Keep responsibilities clear and remove irrelevant
 personal details.
 
 Alicja Notowska discusses CV clarity and responsibilities in
-[Hiring Data Scientists and Analysts](https://datatalks.club/podcast/hiring-data-scientists-and-analysts.html).
+[[podcast:hiring-data-scientists-and-analysts|Hiring Data Scientists and Analysts]].
 She also covers dates and buzzword avoidance. Oleg Novikov's
-[Data Science Interview Guide](https://datatalks.club/podcast/data-science-interview-and-cv-guide.html)
+[[podcast:data-science-interview-and-cv-guide|Data Science Interview Guide]]
 adds the candidate-side rule: make the CV a focused page about why someone
 should interview you.
 
@@ -233,7 +233,7 @@ During the call, ask for the details that reveal role clarity.
 
 Those points aren't a script for being difficult. They help both sides
 avoid the mismatch Tereza Iofciu describes in
-[Data Science Jobs](https://datatalks.club/podcast/data-science-job-red-flags-and-mismatched-roles.html).
+[[podcast:data-science-job-red-flags-and-mismatched-roles|Data Science Jobs]].
 They also help you decide whether to invest time in a take-home task, technical
 round, or long interview sequence.
 
@@ -243,23 +243,23 @@ The recruiter screen usually checks motivation and communication, plus salary
 range, availability, and basic fit. It may also test whether the candidate can
 explain projects clearly. Alicja Notowska describes recruiter screening
 interviews as motivation and behavioral checks in
-[Hiring Data Scientists and Analysts](https://datatalks.club/podcast/hiring-data-scientists-and-analysts.html).
+[[podcast:hiring-data-scientists-and-analysts|Hiring Data Scientists and Analysts]].
 
 Technical interviews should test the work the job requires, and Olga Ivina
 describes coding and analytical tasks. She also covers diagnostic questions,
 descriptive statistics, and role-fit choices in
-[How to Hire Data Scientists](https://datatalks.club/podcast/hiring-for-data-science-jobs-interview-questions-skills.html).
+[[podcast:hiring-for-data-science-jobs-interview-questions-skills|How to Hire Data Scientists]].
 Nick Singh's
-[Ace Data Interviews](https://datatalks.club/podcast/data-interview-behavioral-and-portfolio-prep-guide.html)
+[[podcast:data-interview-behavioral-and-portfolio-prep-guide|Ace Data Interviews]]
 adds behavioral and case preparation. Clarify the goal, explain the metric, and
 lead project stories with impact.
 
 Offer conversations need the same clarity. Alicja Notowska discusses salary
 bands and transparency in
-[Hiring Data Scientists and Analysts](https://datatalks.club/podcast/hiring-data-scientists-and-analysts.html).
+[[podcast:hiring-data-scientists-and-analysts|Hiring Data Scientists and Analysts]].
 She also covers high salary requests and offer communication. Luke Whipps
 pairs salary signals, transparency with recruiters, and trust in
-[Land Data Scientist Roles](https://datatalks.club/podcast/get-data-scientist-job.html).
+[[podcast:get-data-scientist-job|Land Data Scientist Roles]].
 A recruiter can help with negotiation, but the candidate still needs to know
 their market, priorities, and alternatives.
 
@@ -267,22 +267,22 @@ their market, priorities, and alternatives.
 
 For a company, the useful data science recruiter asks about the problem before
 asking for a keyword list.
-[Alicja Notowska](https://datatalks.club/people/alicjanotowska.html) describes
+[[person:alicjanotowska|Alicja Notowska]] describes
 that recruiter-manager calibration in
-[Hiring Data Scientists and Analysts](https://datatalks.club/podcast/hiring-data-scientists-and-analysts.html).
+[[podcast:hiring-data-scientists-and-analysts|Hiring Data Scientists and Analysts]].
 The recruiter helps write the job spec and sourcing plan. They also handle
 screening, salary conversation, and offer communication. Recruiter choice
-belongs with [Hiring]({{ '/wiki/hiring/' | relative_url }}) and
-[Job Descriptions]({{ '/wiki/job-descriptions/' | relative_url }}).
+belongs with [[Hiring]] and
+[[Job Descriptions]].
 
 The recruiter should ask about team structure, technical depth, and seniority.
 They should also discuss salary range, interview plan, and tradeoffs, and they
 should be willing to say when the market won't support the spec.
 
 For a company choosing a data science headhunter,
-[Luke Whipps](https://datatalks.club/people/lukewhipps.html) gives a practical
+[[person:lukewhipps|Luke Whipps]] gives a practical
 benchmark in
-[Land Data Scientist Roles](https://datatalks.club/podcast/get-data-scientist-job.html).
+[[podcast:get-data-scientist-job|Land Data Scientist Roles]].
 He describes role definition and market guidance. He also covers headhunting
 and shortlists, then interview preparation, feedback, and negotiation. The
 recruiter should be able to explain how they map the candidate market and what
@@ -291,21 +291,21 @@ feedback moving between the hiring manager and the candidate.
 
 For a candidate, the useful data scientist headhunter can explain the role
 beyond the title before you spend time on the interview sequence.
-[Tereza Iofciu](https://datatalks.club/people/terezaiofciu.html) warns in
-[Data Science Jobs](https://datatalks.club/podcast/data-science-job-red-flags-and-mismatched-roles.html)
+[[person:terezaiofciu|Tereza Iofciu]] warns in
+[[podcast:data-science-job-red-flags-and-mismatched-roles|Data Science Jobs]]
 that a data scientist title can hide data engineering or dashboarding. It can
 also hide first-data-hire cleanup or undefined data work. A useful recruiter
 can say whether the role centers on product analytics, applied ML, or
 experimentation. They can also separate platform-adjacent work from management,
 and that answer should fit the
-[Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }}) and
-[Job Search]({{ '/wiki/job-search/' | relative_url }}) questions you're
+[[Data Scientist Role]] and
+[[Job Search]] questions you're
 already using.
 
 Interview clarity is part of the same test.
-[Olga Ivina](https://datatalks.club/people/olgaivina.html) ties hiring criteria
+[[person:olgaivina|Olga Ivina]] ties hiring criteria
 to role fit in
-[How to Hire Data Scientists](https://datatalks.club/podcast/hiring-for-data-science-jobs-interview-questions-skills.html).
+[[podcast:hiring-for-data-science-jobs-interview-questions-skills|How to Hire Data Scientists]].
 If the recruiter can't explain what each interview stage tests, you have little
 evidence that the interview plan matches the job. They should prepare you for
 the next stage without coaching you into a false profile. They should also give
@@ -314,7 +314,7 @@ clear feedback when they can.
 A recruiter helps most when they make the match specific. They surface
 candidates while the company defines the work and the candidate shows evidence
 through the
-[CV Screening]({{ '/wiki/cv-screening/' | relative_url }}) and interview
+[[CV Screening]] and interview
 stages. When all three parts are present, a data science recruiter can shorten
 the path to a strong hire. When one part is missing, hiring teams usually get
 vague screens, noisy CV matching, and misaligned interviews.

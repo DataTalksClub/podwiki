@@ -26,7 +26,7 @@ decisions. The work covers user behavior and funnels. It also covers retention
 and experiments.
 
 DataTalks.Club guests don't draw a hard wall between the titles. In
-[Data Team Roles Explained](https://datatalks.club/podcast/data-team-roles.html),
+[[podcast:data-team-roles|Data Team Roles Explained]],
 the discussion around 34:35 says teams may call similar work product analyst,
 data analyst, or business analyst. Ask which decision the analyst owns.
 
@@ -37,8 +37,8 @@ may also include executive dashboards, business operations, and ad hoc
 questions.
 
 In small teams, one person often does both. The role hubs are
-[Product Analytics]({{ '/wiki/product-analytics/' | relative_url }}) and
-[Data Analyst Role]({{ '/wiki/data-analyst-role/' | relative_url }}).
+[[Product Analytics]] and
+[[Data Analyst Role]].
 
 ## Short Comparison
 
@@ -46,9 +46,9 @@ Choose a product analyst when the team needs someone to answer product behavior
 questions. They may ask where users drop from a funnel, whether an onboarding
 change worked, or which metric should decide a launch. They may also ask
 whether an A/B test is trustworthy.
-[Jakob Graff](https://datatalks.club/people/jakobgraff.html) frames this as
+[[person:jakobgraff|Jakob Graff]] frames this as
 product analytics and causality in
-[Product Analytics and A/B Testing](https://datatalks.club/podcast/ab-testing-and-product-experimentation.html).
+[[podcast:ab-testing-and-product-experimentation|Product Analytics and A/B Testing]].
 Around 11:48, he explains that experiments help teams separate a product
 change from external noise.
 
@@ -57,7 +57,7 @@ choose the right revenue, conversion, or retention metric before judging a
 product change.
 
 Choose a data analyst when the team needs broader decision support. In
-[Data Team Roles Explained](https://datatalks.club/podcast/data-team-roles.html),
+[[podcast:data-team-roles|Data Team Roles Explained]],
 the analyst understands company data and retrieves it. They also define KPIs,
 build dashboards, and give recommendations around 7:51-8:24. The same analyst
 helps the product manager size a product problem around 9:11-10:21.
@@ -72,17 +72,17 @@ The practical split is:
 - Data analyst: SQL analysis, dashboards, KPI definitions, business reporting,
   stakeholder questions, and recurring reports. Analysts also make
   recommendations across product, operations, growth, and leadership.
-- Shared surface: [metrics]({{ '/wiki/metrics/' | relative_url }}),
-  [event tracking]({{ '/wiki/event-tracking/' | relative_url }}),
-  [experimentation]({{ '/wiki/experimentation/' | relative_url }}), and
+- Shared surface: [[metrics]],
+  [[event tracking]],
+  [[experimentation]], and
   dashboard trust, plus source-data checks and plain-language communication.
 
 ## Product Analyst Fit
 
 A product analyst fits when product decisions depend on user behavior data.
 Analysts start before the dashboard because they need trustworthy events. In
-[How to Build a Data-Led Growth Stack](https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html),
-[Arpit Choudhury](https://datatalks.club/people/arpitchoudhury.html) explains that
+[[podcast:data-led-growth-event-tracking-and-reverse-etl|How to Build a Data-Led Growth Stack]],
+[[person:arpitchoudhury|Arpit Choudhury]] explains that
 growth and product teams need event definitions and properties. They also need
 source context and ownership in a tracking plan around 13:34-18:27. Without
 that base, a funnel, cohort, or activation metric can hide instrumentation
@@ -101,13 +101,13 @@ Experiments give the clearest product-analyst workload. Jakob's
 A/B testing episode covers randomization around 8:13 and assignment tracking
 around 24:44. It also covers A/A testing around 27:52, metric stability around
 33:23, and
-[power analysis]({{ '/wiki/power-analysis/' | relative_url }}) around 37:44.
+[[power analysis]] around 37:44.
 A product analyst needs enough statistics to tell whether a launch changed user
 behavior or whether the team is reacting to noise.
 
 This product-facing scope also appears in hiring. In
-[How to Hire, Manage, and Grow a Data Science Team](https://datatalks.club/podcast/hiring-and-managing-data-science-teams-in-b2b-saas.html),
-[Katie Bauer](https://datatalks.club/people/katiebauer.html) names product
+[[podcast:hiring-and-managing-data-science-teams-in-b2b-saas|How to Hire, Manage, and Grow a Data Science Team]],
+[[person:katiebauer|Katie Bauer]] names product
 analysts as a separate hiring need around 6:22. She also names analytics
 engineers and marketing scientists.
 
@@ -121,7 +121,7 @@ need close analytic support.
 A data analyst fits when the team needs someone to turn company data into
 evidence for many kinds of decisions. The baseline definition is broader than
 product analytics. In
-[Data Team Roles Explained](https://datatalks.club/podcast/data-team-roles.html),
+[[podcast:data-team-roles|Data Team Roles Explained]],
 analysts know what data exists, how to retrieve it, and how to interpret it.
 They build dashboards, define KPIs, write reports for executives, and make
 recommendations around 7:51-8:24.
@@ -134,9 +134,9 @@ flow. They also check whether fewer listings end up in the wrong category
 around 10:39-11:17.
 
 For non-product teams, a data analyst may focus on finance or operations. They
-may also focus on sales, support, or leadership reporting. [Caitlin Moorman](https://datatalks.club/people/caitlinmoorman.html)
+may also focus on sales, support, or leadership reporting. [[person:caitlinmoorman|Caitlin Moorman]]
 frames this as last-mile data delivery in
-[Last-Mile Data Delivery](https://datatalks.club/podcast/last-mile-data-delivery-and-data-product-adoption-modern-data-stack.html).
+[[podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack|Last-Mile Data Delivery]].
 Around 13:24, she separates getting data into the warehouse from getting teams
 to change decisions based on it.
 
@@ -144,26 +144,26 @@ Around 24:13, she ties adoption to discoverability and interpretability, and
 also to data quality and trust.
 
 Those concerns sit inside the broader
-[data analyst role]({{ '/wiki/data-analyst-role/' | relative_url }}), even when
+[[data analyst role]], even when
 no product launch is involved.
 
 The data analyst title also often covers early-career or generalist work. Use
-the [Data Analyst Careers]({{ '/wiki/data-analyst-careers/' | relative_url }})
+the [[Data Analyst Careers]]
 page for the career path and
-[Data Analysis]({{ '/wiki/data-analysis/' | relative_url }}) for practical
+[[Data Analysis]] for practical
 skills, portfolio shapes, and adjacent roles.
 
 ## Boundary Blurs
 
 The boundary blurs because companies organize data work differently. In
-[Data Team Roles Explained](https://datatalks.club/podcast/data-team-roles.html),
+[[podcast:data-team-roles|Data Team Roles Explained]],
 the discussion around 34:35 says product analyst, data analyst, and business
 analyst can be different roles or the same role. These analysts often help the
 product manager quantify a problem and decide whether the team should solve it.
 
 Katie's team-design discussion explains another reason the boundary blurs.
 Around 8:58 in
-[How to Hire, Manage, and Grow a Data Science Team](https://datatalks.club/podcast/hiring-and-managing-data-science-teams-in-b2b-saas.html),
+[[podcast:hiring-and-managing-data-science-teams-in-b2b-saas|How to Hire, Manage, and Grow a Data Science Team]],
 she describes data people in a matrix setup. They may report to a data leader,
 but their day-to-day priorities come from the product, engineering, or
 marketing team they sit with. The same analyst can look like a product analyst
@@ -173,10 +173,10 @@ Tooling also blurs the line because product analytics depends on event
 tracking plans. Those events often move through the same warehouse,
 transformation, and BI stack that supports company reporting. Arpit covers the
 path from collection to activation around 22:50-41:30 in the
-[data-led growth episode](https://datatalks.club/podcast/data-led-growth-event-tracking-and-reverse-etl.html).
+[[podcast:data-led-growth-event-tracking-and-reverse-etl|data-led growth episode]].
 When repeated definitions and transformations become the main problem, the
 neighboring role is
-[analytics engineering]({{ '/wiki/analytics-engineering/' | relative_url }}),
+[[analytics engineering]],
 not a new analyst title.
 
 ## Skills and Interview Signals
@@ -195,8 +195,8 @@ candidate can define the event data and name the primary metric. They can also
 name guardrails and explain the assignment unit for an experiment. If results
 are mixed, they can state what they would recommend.
 
-[Jakob Graff](https://datatalks.club/people/jakobgraff.html) gives a grounded standard in
-[Product Analytics and A/B Testing](https://datatalks.club/podcast/ab-testing-and-product-experimentation.html):
+[[person:jakobgraff|Jakob Graff]] gives a grounded standard in
+[[podcast:ab-testing-and-product-experimentation|Product Analytics and A/B Testing]]:
 around 24:44-37:44, he covers assignment tracking and A/A tests. He also
 covers metric stability and power analysis.
 
@@ -205,9 +205,9 @@ data to a recommendation. A strong candidate can find the right tables, check
 definitions, and build the dashboard or analysis. They can also explain
 caveats.
 
-[Caitlin Moorman](https://datatalks.club/people/caitlinmoorman.html) adds an
+[[person:caitlinmoorman|Caitlin Moorman]] adds an
 adoption check in
-[Last-Mile Data Delivery](https://datatalks.club/podcast/last-mile-data-delivery-and-data-product-adoption-modern-data-stack.html):
+[[podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack|Last-Mile Data Delivery]]:
 around 34:00-38:15, she argues that analysts should start from the decision.
 They should bring metrics into the meeting where people act on them.
 
@@ -226,17 +226,17 @@ Use the decision surface:
 
 Use these related pages for adjacent roles, methods, and evidence trails:
 
-- [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }})
-- [Data Analyst Role]({{ '/wiki/data-analyst-role/' | relative_url }})
-- [Data Analyst Careers]({{ '/wiki/data-analyst-careers/' | relative_url }})
-- [Data Analysis]({{ '/wiki/data-analysis/' | relative_url }})
-- [Metrics]({{ '/wiki/metrics/' | relative_url }})
-- [Experimentation]({{ '/wiki/experimentation/' | relative_url }})
-- [A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }})
-- [Event Tracking]({{ '/wiki/event-tracking/' | relative_url }})
-- [Tracking Plans]({{ '/wiki/tracking-plans/' | relative_url }})
-- [Data-Led Growth]({{ '/wiki/data-led-growth/' | relative_url }})
-- [Data Product Adoption]({{ '/wiki/data-product-adoption/' | relative_url }})
-- [Analytics Engineering]({{ '/wiki/analytics-engineering/' | relative_url }})
-- [Data Analyst vs Analytics Engineer]({{ '/wiki/data-analyst-vs-analytics-engineer/' | relative_url }})
+- [[Product Analytics]]
+- [[Data Analyst Role]]
+- [[Data Analyst Careers]]
+- [[Data Analysis]]
+- [[Metrics]]
+- [[Experimentation]]
+- [[a-b-testing|A/B Testing]]
+- [[Event Tracking]]
+- [[Tracking Plans]]
+- [[data-led-growth|Data-Led Growth]]
+- [[Data Product Adoption]]
+- [[Analytics Engineering]]
+- [[Data Analyst vs Analytics Engineer]]
 

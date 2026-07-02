@@ -19,45 +19,45 @@ describe founders choosing a problem, validating it with users, shaping the
 product boundary, and finding distribution. They also describe hiring only when
 the business demands it and deciding how the company earns money.
 
-For the startup cluster, use [Startup]({{ '/wiki/startups/' | relative_url }})
-for the end-to-end playbook and [Startups]({{ '/wiki/startups/' | relative_url }})
+For the startup cluster, use [[startups|Startup]]
+for the end-to-end playbook and [[Startups]]
 for the cross-episode map. Use
-[Machine Learning for Startups]({{ '/wiki/machine-learning-for-startups/' | relative_url }})
+[[Machine Learning for Startups]]
 when the founder question is whether ML belongs in the product.
-[Entrepreneurship]({{ '/wiki/entrepreneurship/' | relative_url }}) covers the
+[[Entrepreneurship]] covers the
 broader choice to build independent work.
-[Open Source]({{ '/wiki/open-source/' | relative_url }}) covers community-led
-adoption. [Solopreneur]({{ '/wiki/solopreneur/' | relative_url }}) covers
+[[Open Source]] covers community-led
+adoption. [[Solopreneur]] covers
 intentionally small independent businesses, and
-[Consultant or Freelancer to Data Product Founder]({{ '/wiki/consultant-or-freelancer-to-data-product-founder/' | relative_url }})
+[[Consultant or Freelancer to Data Product Founder]]
 covers the service-to-product path.
 
 ## Problem Selection
 
-[Elena Samuylova](https://datatalks.club/people/elenasamuylova.html) gives the
+[[person:elenasamuylova|Elena Samuylova]] gives the
 clearest warning in
-[How to Build a Successful ML Startup](https://datatalks.club/podcast/building-mlops-startup.html).
+[[podcast:building-mlops-startup|How to Build a Successful ML Startup]].
 Around 7:23, she warns technical founders. Don't start with the wish to build a
 machine learning startup. Start with a painful workflow. Then ask whether
-[machine learning]({{ '/wiki/machine-learning/' | relative_url }}) is the right
+[[machine learning]] is the right
 tool.
 
 In her grocery-store example, a team may think the problem is forecasting.
 Customer conversations may reveal that the store can't collect basic inventory
 data yet.
 
-[Carmine Paolino](https://datatalks.club/people/carminepaolino.html) shows the
+[[person:carminepaolino|Carmine Paolino]] shows the
 same move in retail. In
-[Build a Grocery Retail OS to Cut Supermarket Food Waste](https://datatalks.club/podcast/launch-and-build-retail-startup.html),
+[[podcast:launch-and-build-retail-startup|Build a Grocery Retail OS to Cut Supermarket Food Waste]],
 FreshFlow started with a computer-vision idea, then watched fresh-product
 managers work in supermarkets. Around 5:46-13:16, Paolino describes shelf
 checks and stockroom counts as part of ordering. Weather, local events, and the
 fear of empty shelves also shaped the order. Around 24:47, the product moved
 toward a broader retail operating system because store work set the boundary.
 
-[Maria Bruckert](https://datatalks.club/people/mariabruckert.html) adds the
+[[person:mariabruckert|Maria Bruckert]] adds the
 regulated-market version in
-[Building Digital Health Startups](https://datatalks.club/podcast/building-ai-digital-health-startups.html).
+[[podcast:building-ai-digital-health-startups|Building Digital Health Startups]].
 SQIN began with healthcare as a domain that needed technology help. Around
 2:05-6:11 and 12:20-24:08, she describes industry immersion, cold outreach, and
 accelerators. The founders also used clinical meetings and conversations with
@@ -73,12 +73,12 @@ gets heavy. Samuylova says Evidently talked to roughly 50 people before
 starting and more than 100 during early development. Around 42:15-45:45, those
 interviews surfaced broken models, abandoned monitoring, and production
 failures that no one noticed. Evidently validated
-[model monitoring]({{ '/wiki/model-monitoring/' | relative_url }}) as a
+[[model monitoring]] as a
 business problem because practitioners kept naming the same operational pain.
 
-[Sonal Goyal](https://datatalks.club/people/sonalgoyal.html) gives the
+[[person:sonalgoyal|Sonal Goyal]] gives the
 consulting-to-product version in
-[Building an Open-Source ML-Powered Identity Resolution Tool](https://datatalks.club/podcast/building-open-source-data-product-for-identity-resolution.html).
+[[podcast:building-open-source-data-product-for-identity-resolution|Building an Open-Source ML-Powered Identity Resolution Tool]].
 Around 2:58 and 11:09, she traces Zingg to repeated identity-resolution
 problems across customer and supplier records. She also saw the gap in patient
 records and product catalogs. Around 21:51 and 23:00, proof-of-concept work
@@ -86,9 +86,9 @@ turned into a full-time product build and then a public release. The founder
 signal was repetition: several clients exposed the same gap in the modern data
 stack.
 
-[Adrian Brudaru](https://datatalks.club/people/adrianbrudaru.html) validates
+[[person:adrianbrudaru|Adrian Brudaru]] validates
 through teaching in
-[From Data Freelancer to Startup](https://datatalks.club/podcast/from-data-freelancer-to-startup-open-source-products.html).
+[[podcast:from-data-freelancer-to-startup-open-source-products|From Data Freelancer to Startup]].
 Around 36:00-42:01, the DLT team ran a three-day workshop where about 60 Python
 users built an incremental pipeline. The team added checkpoints, live support,
 and a shared Codespaces setup. Participants learned the tool, and the founders
@@ -102,7 +102,7 @@ frames DLT as a developer-focused library rather than a platform. Around 40:50
 and 53:24, he connects that choice to integration with a data engineer's stack.
 He mentions tools such as DuckDB and avoids taking over the whole workflow.
 Founders make that
-[data product management]({{ '/wiki/data-product-management/' | relative_url }})
+[[data product management]]
 decision alongside the engineering decision.
 
 Bruckert's SQIN example shows why product boundaries include ethics and user
@@ -122,7 +122,7 @@ learning. It can also delay forecasting quality and product-market fit.
 
 ## Distribution and Open Source
 
-Several founders use [open source]({{ '/wiki/open-source/' | relative_url }})
+Several founders use [[open source]]
 as distribution, not only as a license. Samuylova explains this for Evidently
 around 48:11-56:17. Engineers and data scientists can try model-monitoring
 features before the company sells cloud or on-premise deployment. The company
@@ -135,9 +135,9 @@ and AGPL licensing as part of the business model. The founder has to decide
 what stays public, what protects the company, and how users move from
 open-source adoption to a sustainable product.
 
-[Bela Wiertz](https://datatalks.club/people/belawiertz.html) gives the investor
+[[person:belawiertz|Bela Wiertz]] gives the investor
 view in
-[Early-Stage Investing in Open Source Developer Tools](https://datatalks.club/podcast/investing-in-open-source-developer-tools.html).
+[[podcast:investing-in-open-source-developer-tools|Early-Stage Investing in Open Source Developer Tools]].
 Around 13:42-16:40, he frames open source as community-driven distribution and
 bottom-up developer adoption. Around 32:31-39:01, he says investors still look
 at the team and market need. They also check commercialization, user
@@ -175,7 +175,7 @@ behavior can matter more than a narrow skill checklist.
 Samuylova gives the hiring threshold from the other side. Around 57:06, she
 says to hire when real users, real features, or real demand create the need.
 Don't hire because the founder wrote a long feature list. For founders,
-[team building]({{ '/wiki/team-building/' | relative_url }}) is a timing
+[[team building]] is a timing
 decision under risk.
 
 Founders can create runway from more than venture funding. Brudaru describes
@@ -183,7 +183,7 @@ savings, consulting revenue, and design partners around 31:08-36:00. He also
 describes careful spending and early payroll.
 
 His story is central to
-[Consultant or Freelancer to Data Product Founder]({{ '/wiki/consultant-or-freelancer-to-data-product-founder/' | relative_url }}).
+[[Consultant or Freelancer to Data Product Founder]].
 Service work can fund product discovery. It also has to reveal a repeatable
 problem before it becomes a product path.
 
@@ -193,7 +193,7 @@ Founders decide how value turns into revenue. Samuylova's Evidently model lets
 engineers and data scientists adopt the open-source tool first. Enterprises
 then pay for security, reliability, and scale. They may also pay for hosting,
 on-premise options, or a responsible vendor once the product matters in production
-([51:48-56:38](https://datatalks.club/podcast/building-mlops-startup.html)).
+([[podcast:building-mlops-startup|51:48-56:38]]).
 
 Brudaru separates open-source adoption from the paid product. Around 55:10 in
 the DLT episode, the team was still doing user research before building a paid
@@ -216,9 +216,9 @@ scalable company.
 ## Indie and Small-Business Paths
 
 Not every founder path in these episodes points to a venture-backed company.
-[Pauline Clavelloux](https://datatalks.club/people/paulineclavelloux.html) covers
+[[person:paulineclavelloux|Pauline Clavelloux]] covers
 the indie version. In
-[Indie Hacking and Bootstrapping Side Projects](https://datatalks.club/podcast/data-scientist-and-indie-hacker-bootstrapping-side-projects.html),
+[[podcast:data-scientist-and-indie-hacker-bootstrapping-side-projects|Indie Hacking and Bootstrapping Side Projects]],
 around 7:23-18:45, she describes bootstrapping while keeping a day job. She
 splits time and builds crypto alerts from her own trading need. She also covers
 company setup, landing pages, legal work, and payments.
@@ -230,7 +230,7 @@ acquisition, and pricing constraints.
 
 Around 48:54-50:35, she checks ideas through competitor scans and skills fit.
 She also asks whether she can build a useful first version. That path sits
-closer to [Solopreneur]({{ '/wiki/solopreneur/' | relative_url }}) than to a
+closer to [[Solopreneur]] than to a
 large startup, but it still asks founder questions. Someone has to name the
 buyer, the channel, the running cost, and the builder's capacity to keep going.
 

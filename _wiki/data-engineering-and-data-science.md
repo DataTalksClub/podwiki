@@ -22,18 +22,18 @@ features and models. It also turns questions into experiments, recommendations,
 or decisions.
 
 When you compare the roles, ask where a project can fail rather than which role
-matters more. [Roksolana Diachuk](https://datatalks.club/people/roksolanadiachuk.html)
+matters more. [[person:roksolanadiachuk|Roksolana Diachuk]]
 shows the boundary in
-[Big Data Engineer vs Data Scientist](https://datatalks.club/podcast/big-data-engineer-vs-data-scientist.html):
+[[podcast:big-data-engineer-vs-data-scientist|Big Data Engineer vs Data Scientist]]:
 data engineers process product data so analysts and data scientists can query
 it. Data scientists clean and prepare features. They also build models and
 evaluate deployment outcomes around 13:56-15:09. Use
-[Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}) and
-[Data Science]({{ '/wiki/data-science/' | relative_url }}) for the broad topic
+[[Data Engineering]] and
+[[Data Science]] for the broad topic
 context.
 
-Use [Data Engineer Role]({{ '/wiki/data-engineer-role/' | relative_url }})
-and [Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }}) for
+Use [[Data Engineer Role]]
+and [[Data Scientist Role]] for
 the role definitions.
 
 ## Joint Workflow
@@ -45,7 +45,7 @@ then adds framing and modeling. It also adds evaluation and interpretation.
 
 Roksolana's recommendation-system walkthrough shows the cooperation. At
 18:54-19:18 in
-[Big Data Engineer vs Data Scientist](https://datatalks.club/podcast/big-data-engineer-vs-data-scientist.html),
+[[podcast:big-data-engineer-vs-data-scientist|Big Data Engineer vs Data Scientist]],
 she separates the engineering work from the modeling work. Engineers extract
 user data, rating data, and search data into streaming and batch pipelines. Data
 scientists then choose features and build the model.
@@ -53,9 +53,9 @@ scientists then choose features and build the model.
 After that, a machine learning engineer may deploy the model. A data scientist
 or data engineer may own deployment instead when the team is set up that way.
 
-[Daniel Egbo](https://datatalks.club/people/danielegbo.html) gives a scientific
+[[person:danielegbo|Daniel Egbo]] gives a scientific
 version of the same lifecycle in
-[From Radio Astronomy to Machine Learning and Data Engineering](https://datatalks.club/podcast/from-radio-astronomy-to-machine-learning-and-data-engineering.html).
+[[podcast:from-radio-astronomy-to-machine-learning-and-data-engineering|From Radio Astronomy to Machine Learning and Data Engineering]].
 
 His astronomy work starts with domain-specific data curation and cloud analysis.
 At 28:40-29:19, he moves toward reusable code. At 45:15-45:41, he describes an
@@ -80,13 +80,13 @@ side.
 
 The data science side owns cleaning for modeling and feature engineering. It
 also owns model creation, deployment awareness, and evaluation around 14:20-15:46 in
-[Big Data Engineer vs Data Scientist](https://datatalks.club/podcast/big-data-engineer-vs-data-scientist.html).
+[[podcast:big-data-engineer-vs-data-scientist|Big Data Engineer vs Data Scientist]].
 Don't draw a hard line around cleaning: at 15:09 she says it depends on the
 company and pipeline design.
 
-[Ellen Koenig](https://datatalks.club/people/ellenkonig.html) explains why this
+[[person:ellenkonig|Ellen Koenig]] explains why this
 split often emerges from pain rather than org charts in
-[How to Become a Data Engineer](https://datatalks.club/podcast/from-software-engineering-data-science-to-data-engineering-leadership.html).
+[[podcast:from-software-engineering-data-science-to-data-engineering-leadership|How to Become a Data Engineer]].
 At 2:01, she describes companies realizing they needed people who come before
 data scientists and make data available. At 9:41-10:07, she adds that data
 scientists often still build their own pipelines when data isn't perfectly
@@ -101,16 +101,16 @@ meaning, and model artifact. Also name the deployment owner, monitoring
 signals, and rollback path.
 
 Roksolana describes two collaboration shapes at 16:38-18:36 in
-[Big Data Engineer vs Data Scientist](https://datatalks.club/podcast/big-data-engineer-vs-data-scientist.html).
+[[podcast:big-data-engineer-vs-data-scientist|Big Data Engineer vs Data Scientist]].
 Some teams communicate through files or database tables, such as Parquet files
 that data scientists read in Python. Other teams embed one or more data
 engineers with data scientists so they work through each step of the pipeline
 together. A file interface can work, but data engineers lose downstream context
 unless both sides maintain a shared schema and field agreement.
 
-[Andrey Shtylenko](https://datatalks.club/people/andreyshtylenko.html) shows the
+[[person:andreyshtylenko|Andrey Shtylenko]] shows the
 organizational version of the same failure in
-[Building and Scaling Data Science Practice](https://datatalks.club/podcast/building-and-scaling-data-science-practice-industrial-ai-mlops.html).
+[[podcast:building-and-scaling-data-science-practice-industrial-ai-mlops|Building and Scaling Data Science Practice]].
 
 At 32:00, he warns that companies often hire data scientists and expect magic,
 then discover that flashy demos are easier than production systems. He ties the
@@ -131,9 +131,9 @@ to prove you can improve a decision or product behavior.
 A forecast or ranking can show that, and a recommendation or experiment can
 work too. Segmentation and anomaly signals are also useful examples.
 
-[Jeff Katz](https://datatalks.club/people/jeffkatz.html) gives a career-project
+[[person:jeffkatz|Jeff Katz]] gives a career-project
 version of this choice in
-[Build a Data Engineering Career](https://datatalks.club/podcast/data-engineering-career-path-and-skills.html).
+[[podcast:data-engineering-career-path-and-skills|Build a Data Engineering Career]].
 
 At 23:35, he frames data engineering as a more defined beginner skill set.
 Python and SQL form the base. Cloud computing and orchestration matter too.
@@ -142,9 +142,9 @@ At 36:18-37:41, his curriculum moves from analytics engineering pipelines into
 backend engineering. Those pipelines use Fivetran, dbt, Snowflake, and Mode. It
 then adds ETL in Python, larger codebases, and testing.
 
-[Abouzar Abbaspour](https://datatalks.club/people/abouzarabbaspour.html) shows why
+[[person:abouzarabbaspour|Abouzar Abbaspour]] shows why
 real product projects often need both sides in
-[From Theme Parks to Tesla](https://datatalks.club/podcast/theme-park-crowd-modeling-to-tesla-full-stack-data-engineering.html).
+[[podcast:theme-park-crowd-modeling-to-tesla-full-stack-data-engineering|From Theme Parks to Tesla]].
 
 His theme park work combines queue prediction, visitor routing, app adoption,
 and A/B testing. It also needs streaming, measurement, and deployment.
@@ -165,7 +165,7 @@ like creating features, testing hypotheses, evaluating results, and explaining
 tradeoffs to stakeholders.
 
 Ellen's transition is useful because she had done both. In
-[How to Become a Data Engineer](https://datatalks.club/podcast/from-software-engineering-data-science-to-data-engineering-leadership.html),
+[[podcast:from-software-engineering-data-science-to-data-engineering-leadership|How to Become a Data Engineer]],
 she says at 6:32 that data science work was sometimes too black-box for her.
 At 7:38, she explains that data engineering better matched her engineering
 skills and working environment.
@@ -175,7 +175,7 @@ One side rewards durable systems and collaboration practices. The other rewards
 modeling judgment and problem framing.
 
 Jeff gives the market-facing version in
-[Build a Data Engineering Career](https://datatalks.club/podcast/data-engineering-career-path-and-skills.html).
+[[podcast:data-engineering-career-path-and-skills|Build a Data Engineering Career]].
 At 24:42-26:09, he says many data science bootcamp graduates ended up in
 engineering roles. Some moved into data engineering or analyst roles. He also
 says machine learning roles increasingly require both a data engineering base
@@ -193,7 +193,7 @@ production ML is central, decide whether it needs a machine learning engineer or
 a shared platform.
 
 Andrey's industrial AI episode gives a maturity path. At 32:00 in
-[Building and Scaling Data Science Practice](https://datatalks.club/podcast/building-and-scaling-data-science-practice-industrial-ai-mlops.html),
+[[podcast:building-and-scaling-data-science-practice-industrial-ai-mlops|Building and Scaling Data Science Practice]],
 he recommends one end-to-end project. It should prove data collection and
 experiments. It should also prove infrastructure changes and productionization.
 The project should cover monitoring and retraining before teams scatter across
@@ -203,22 +203,22 @@ At 38:26-46:04, he contrasts centralized practice building with embedded teams
 and a hybrid hub-and-spoke model.
 
 The production-model boundary often adds
-[Machine Learning Engineer Role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }})
-and [MLOps]({{ '/wiki/mlops/' | relative_url }}). Use
-[Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }})
+[[Machine Learning Engineer Role]]
+and [[MLOps]]. Use
+[[Data Quality and Observability]]
 when the shared risk is freshness or schema. Use it for volume, distribution,
 lineage, and incident response too. Use
-[Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
+[[Data Engineering Platforms]]
 when the problem is repeated delivery across many projects.
 
 ## Related Comparisons and Roadmaps
 
 Use these pages when the decision needs a narrower lens:
 
-- [Data Engineer vs Data Scientist]({{ '/wiki/data-engineer-vs-data-scientist/' | relative_url }})
-- [Machine Learning Engineer vs Data Scientist]({{ '/wiki/machine-learning-engineer-vs-data-scientist/' | relative_url }})
-- [DataOps vs Data Engineering]({{ '/wiki/dataops-vs-data-engineering/' | relative_url }})
-- [MLOps vs DataOps]({{ '/wiki/mlops-vs-dataops/' | relative_url }})
-- [Data Scientist to Data Engineer Roadmap]({{ '/wiki/data-scientist-to-data-engineer/' | relative_url }})
-- [Data Engineer Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }})
+- [[Data Engineer vs Data Scientist]]
+- [[Machine Learning Engineer vs Data Scientist]]
+- [[DataOps vs Data Engineering]]
+- [[MLOps vs DataOps]]
+- [[data-scientist-to-data-engineer|Data Scientist to Data Engineer Roadmap]]
+- [[Data Engineer Roadmap]]
 

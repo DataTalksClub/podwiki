@@ -33,13 +33,13 @@ A data product manager usually owns broader product-management work around data.
 That work includes discovery and roadmaps. It also includes prioritization and
 metrics. Rollout, feedback, and adoption belong there too.
 
-[Anna Hannemann](https://datatalks.club/people/annahannemann.html) gives the most
+[[person:annahannemann|Anna Hannemann]] gives the most
 direct title comparison in
-[Product Owners in Data Science](https://datatalks.club/podcast/building-data-products-product-owner-vs-product-manager.html).
+[[podcast:building-data-products-product-owner-vs-product-manager|Product Owners in Data Science]].
 She says the boundary changes by company, and that some organizations use only
 one of the two titles. In those cases, the person with the title may have to
 wear both hats
-([15:50-21:45](https://datatalks.club/podcast/building-data-products-product-owner-vs-product-manager.html)).
+([[podcast:building-data-products-product-owner-vs-product-manager|15:50-21:45]]).
 
 ## Short Comparison
 
@@ -61,8 +61,8 @@ In a small team, one person may own both sides. Anna describes product-owner
 work as decision-making, stakeholder translation, and team advocacy. She also
 notes that a product manager may wear the product-owner hat when no separate
 product-owner title exists
-([15:50-21:45](https://datatalks.club/podcast/building-data-products-product-owner-vs-product-manager.html)).
-[Product Owner vs Product Manager]({{ '/wiki/product-owner-vs-product-manager/' | relative_url }})
+([[podcast:building-data-products-product-owner-vs-product-manager|15:50-21:45]]).
+[[Product Owner vs Product Manager]]
 covers the broader title boundary.
 
 ## Data Product Owner
@@ -72,9 +72,9 @@ owner. In Anna's product-owner framing, the role has to make decisions under
 uncertainty. A data scientist may want two more weeks to improve a model. The
 product owner may decide that the current quality is enough to go live. They
 still need to communicate the quality clearly to stakeholders
-([15:50-18:25](https://datatalks.club/podcast/building-data-products-product-owner-vs-product-manager.html)).
+([[podcast:building-data-products-product-owner-vs-product-manager|15:50-18:25]]).
 
-That decision matters for [data products]({{ '/wiki/data-products/' | relative_url }})
+That decision matters for [[data products]]
 because teams can always improve them after launch. Someone still has to
 decide whether the product is good enough for the next business step.
 
@@ -83,68 +83,68 @@ assumptions. Anna describes stakeholders asking whether one person can solve
 several data science use cases. The product owner has to explain when the work
 needs a data scientist or an ML engineer. They may also need to ask for MLOps
 support, data engineering, or other specialists
-([18:25-21:45](https://datatalks.club/podcast/building-data-products-product-owner-vs-product-manager.html)).
-That makes the role adjacent to [data teams]({{ '/wiki/data-teams/' | relative_url }})
-and [MLOps]({{ '/wiki/mlops/' | relative_url }}), not just backlog grooming.
+([[podcast:building-data-products-product-owner-vs-product-manager|18:25-21:45]]).
+That makes the role adjacent to [[data teams]]
+and [[MLOps]], not just backlog grooming.
 
-[Zhamak Dehghani](https://datatalks.club/people/zhamakdehghani.html) gives the
+[[person:zhamakdehghani|Zhamak Dehghani]] gives the
 domain-data version in
-[Data Mesh Implementation](https://datatalks.club/podcast/data-mesh-architecture-decentralized-data-products.html).
+[[podcast:data-mesh-architecture-decentralized-data-products|Data Mesh Implementation]].
 She describes the data product owner or data product manager as the role that
 talks with consuming domains. That person decides what the data product should
 provide. The conversation can change freshness, integrity, aggregation level,
 and access method
-([39:36-41:47](https://datatalks.club/podcast/data-mesh-architecture-decentralized-data-products.html)).
+([[podcast:data-mesh-architecture-decentralized-data-products|39:36-41:47]]).
 
 In that setting, the data product owner is closest to the consumer agreement.
 They understand the domain data and negotiate with consumers. They also decide
 whether the producer team, a middle team, or the consumer should build a
 derived product.
 
-Those decisions sit inside [Data Mesh]({{ '/wiki/data-mesh/' | relative_url }}),
-[Data Governance]({{ '/wiki/data-governance/' | relative_url }}), and
-[Data Products]({{ '/wiki/data-products/' | relative_url }}). The role defines
+Those decisions sit inside [[Data Mesh]],
+[[Data Governance]], and
+[[Data Products]]. The role defines
 who owns the interface, which trust guarantees consumers get, and when a
 dataset becomes a supported product. Use
-[Data Mesh vs Centralized Data Platform]({{ '/wiki/data-mesh-vs-centralized-data-platform/' | relative_url }})
+[[Data Mesh vs Centralized Data Platform]]
 when the role question depends on whether domains or a shared platform own the
 data-product interface.
 
 ## Data Product Manager
 
 The data product manager owns product-management work around data.
-[Sara Menefee](https://datatalks.club/people/saramenefee.html) describes this in
-[Product Designer to Data Product Manager](https://datatalks.club/podcast/product-designer-to-data-product-manager.html).
+[[person:saramenefee|Sara Menefee]] describes this in
+[[podcast:product-designer-to-data-product-manager|Product Designer to Data Product Manager]].
 She says she works similarly to a regular product manager, but on data products
 rather than feature products. Her work starts with customer discovery. She
 talks to data professionals, studies their responsibilities, and forms
 hypotheses about the problems the team should solve
-([7:04-11:38](https://datatalks.club/podcast/product-designer-to-data-product-manager.html)).
+([[podcast:product-designer-to-data-product-manager|7:04-11:38]]).
 
 Look for a data product manager when the team has to choose which data product
 to build and who it serves. The role also owns how success will be measured.
 That role links directly to
-[Data Product Management]({{ '/wiki/data-product-management/' | relative_url }}),
-[Product Analytics]({{ '/wiki/product-analytics/' | relative_url }}), and
-[Metrics]({{ '/wiki/metrics/' | relative_url }}).
+[[Data Product Management]],
+[[Product Analytics]], and
+[[Metrics]].
 
-[Greg Coquillo](https://datatalks.club/people/gregcoquillo.html) gives the
+[[person:gregcoquillo|Greg Coquillo]] gives the
 roadmap version in
-[Build & Scale Data Products for AI](https://datatalks.club/podcast/building-and-scaling-ai-data-products-with-mlops.html).
+[[podcast:building-and-scaling-ai-data-products-with-mlops|Build & Scale Data Products for AI]].
 He starts data product management from customer needs and pain points, then
 works backward to strategy, solutions, and a roadmap. His roadmap template
 captures the problem, possible solutions, and affected stakeholders. It also
 captures impact, effort, SMART goals, and priority
-([7:13-11:32 and 41:44-51:11](https://datatalks.club/podcast/building-and-scaling-ai-data-products-with-mlops.html)).
+([[podcast:building-and-scaling-ai-data-products-with-mlops|7:13-11:32 and 41:44-51:11]]).
 
-[Geo Jolly](https://datatalks.club/people/geojolly.html) gives the internal
+[[person:geojolly|Geo Jolly]] gives the internal
 platform version in
-[ML Product Manager and MLOps Platform Strategy](https://datatalks.club/podcast/ml-product-manager-and-mlops-platform-strategy.html).
+[[podcast:ml-product-manager-and-mlops-platform-strategy|ML Product Manager and MLOps Platform Strategy]].
 As a technical PM for an internal ML platform, he gathered feedback and
 reviewed platform gaps. He also wrote specifications, managed the roadmap, and
 prioritized backlog work with engineering
-([6:28-16:44](https://datatalks.club/podcast/ml-product-manager-and-mlops-platform-strategy.html)).
-Use [ML Product Manager Role]({{ '/wiki/ml-product-manager-role/' | relative_url }})
+([[podcast:ml-product-manager-and-mlops-platform-strategy|6:28-16:44]]).
+Use [[ML Product Manager Role]]
 when the data product is an ML platform or model-delivery system.
 
 ## Guarantees, Roadmaps, and Adoption
@@ -158,21 +158,21 @@ need from a data product. A clickstream product may satisfy one consumer with
 low-integrity real-time data, while another consumer needs higher-integrity
 session aggregates. The role decides whether the existing product should expose
 a new access path or whether another product should be created
-([39:36-41:47](https://datatalks.club/podcast/data-mesh-architecture-decentralized-data-products.html)).
+([[podcast:data-mesh-architecture-decentralized-data-products|39:36-41:47]]).
 
 In roadmap work, Greg's data product manager decides which business problem and
 success criteria justify the next investment. His examples include pipeline
 failures, SLAs, and data quality complaints. Engagement and churn also matter
-([51:11-55:32](https://datatalks.club/podcast/building-and-scaling-ai-data-products-with-mlops.html)).
+([[podcast:building-and-scaling-ai-data-products-with-mlops|51:11-55:32]]).
 
-Adoption keeps both titles honest. [Caitlin Moorman](https://datatalks.club/people/caitlinmoorman.html)
+Adoption keeps both titles honest. [[person:caitlinmoorman|Caitlin Moorman]]
 argues in
-[Last-Mile Data Delivery](https://datatalks.club/podcast/last-mile-data-delivery-and-data-product-adoption-modern-data-stack.html)
+[[podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack|Last-Mile Data Delivery]]
 that a data product isn't done when it reaches a warehouse, dashboard, or tool.
 Users still have to discover it, understand it, trust it, and use it in a real
 decision
-([20:02-40:53](https://datatalks.club/podcast/last-mile-data-delivery-and-data-product-adoption-modern-data-stack.html)).
-That's why [Data Product Adoption]({{ '/wiki/data-product-adoption/' | relative_url }})
+([[podcast:last-mile-data-delivery-and-data-product-adoption-modern-data-stack|20:02-40:53]]).
+That's why [[Data Product Adoption]]
 belongs in the comparison, not only in post-launch work.
 
 ## Technical Literacy
@@ -187,22 +187,22 @@ algorithmic detail. They do need to ask whether a technical improvement changes
 the business. A faster model may not matter if the model already runs weekly
 and finishes in time. The product question is whether speed, quality, cost, or
 accuracy changes the outcome
-([35:55-38:32](https://datatalks.club/podcast/building-data-products-product-owner-vs-product-manager.html)).
+([[podcast:building-data-products-product-owner-vs-product-manager|35:55-38:32]]).
 
 Sara gives the data PM version. SQL can be a hard requirement because the PM
 may need to get data, check work, and verify that outputs match expectations.
 She also emphasizes curiosity about how data works, documentation literacy, and
 interest in the people affected by the data
-([23:00-26:33](https://datatalks.club/podcast/product-designer-to-data-product-manager.html)).
+([[podcast:product-designer-to-data-product-manager|23:00-26:33]]).
 
 Geo raises the bar for platform-heavy PM work. An ML platform PM should
 understand the model lifecycle and cloud infrastructure concepts. Event
 streaming, big data, and platform tooling also affect how they prioritize with
 engineers
-([23:28-28:37](https://datatalks.club/podcast/ml-product-manager-and-mlops-platform-strategy.html)).
+([[podcast:ml-product-manager-and-mlops-platform-strategy|23:28-28:37]]).
 That's where the comparison crosses into
-[Data Engineering Platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }})
-and [Self-Service Data Platforms]({{ '/wiki/self-service-data-platforms/' | relative_url }}).
+[[Data Engineering Platforms]]
+and [[self-service-data-platforms|Self-Service Data Platforms]].
 
 ## Role Fit
 
@@ -220,10 +220,10 @@ also fits recommendation services, metric products, and shared data APIs.
 Anna's recommender work at METRO shows this product-owner side through API-first
 recommendation systems and country-level scaling. A/B testing needs and
 production monitoring belong in that ownership too
-([22:08-30:01](https://datatalks.club/podcast/building-data-products-product-owner-vs-product-manager.html)).
+([[podcast:building-data-products-product-owner-vs-product-manager|22:08-30:01]]).
 Zhamak's Data Mesh discussion shows the domain-product version through
 consumer guarantees and ownership decisions
-([39:36-41:47](https://datatalks.club/podcast/data-mesh-architecture-decentralized-data-products.html)).
+([[podcast:data-mesh-architecture-decentralized-data-products|39:36-41:47]]).
 
 Use data product manager when the missing work is product direction:
 
@@ -238,11 +238,11 @@ That fit is strongest for early discovery and roadmap formation. It also fits
 internal platform strategy, adoption repair, and cross-functional
 prioritization. Sara's episode
 covers discovery and product lifecycle work
-([7:04-15:10](https://datatalks.club/podcast/product-designer-to-data-product-manager.html)).
+([[podcast:product-designer-to-data-product-manager|7:04-15:10]]).
 Greg's episode covers business-first roadmaps and success metrics
-([41:44-55:32](https://datatalks.club/podcast/building-and-scaling-ai-data-products-with-mlops.html)).
+([[podcast:building-and-scaling-ai-data-products-with-mlops|41:44-55:32]]).
 Geo's episode covers the internal ML platform version
-([6:28-18:25](https://datatalks.club/podcast/ml-product-manager-and-mlops-platform-strategy.html)).
+([[podcast:ml-product-manager-and-mlops-platform-strategy|6:28-18:25]]).
 
 If you have neither role, don't start by debating titles. Start by naming the
 missing decisions. If nobody owns guarantees and release quality, you need the
@@ -256,16 +256,16 @@ into ticket intake.
 
 These pages cover the surrounding role and product context:
 
-- [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
-- [Data Products]({{ '/wiki/data-products/' | relative_url }})
-- [Data Product Adoption]({{ '/wiki/data-product-adoption/' | relative_url }})
-- [Data Mesh]({{ '/wiki/data-mesh/' | relative_url }})
-- [Data Governance]({{ '/wiki/data-governance/' | relative_url }})
-- [Product Owner vs Product Manager]({{ '/wiki/product-owner-vs-product-manager/' | relative_url }})
-- [Data Product Manager vs Product Manager]({{ '/wiki/data-product-manager-vs-product-manager/' | relative_url }})
-- [ML Product Manager Role]({{ '/wiki/ml-product-manager-role/' | relative_url }})
-- [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }})
-- [Metrics]({{ '/wiki/metrics/' | relative_url }})
-- [Data Teams]({{ '/wiki/data-teams/' | relative_url }})
-- [MLOps]({{ '/wiki/mlops/' | relative_url }})
+- [[Data Product Management]]
+- [[Data Products]]
+- [[Data Product Adoption]]
+- [[Data Mesh]]
+- [[Data Governance]]
+- [[Product Owner vs Product Manager]]
+- [[Data Product Manager vs Product Manager]]
+- [[ML Product Manager Role]]
+- [[Product Analytics]]
+- [[Metrics]]
+- [[Data Teams]]
+- [[MLOps]]
 

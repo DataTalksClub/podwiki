@@ -12,11 +12,11 @@ related:
 
 Agent Ops is the operational discipline for deploying, monitoring, and governing
 AI agents in production. It applies the lessons of
-[MLOps]({{ '/wiki/mlops/' | relative_url }}) to agentic systems, adding concerns
+[[MLOps]] to agentic systems, adding concerns
 specific to autonomous tool use, multi-step reasoning, and the non-deterministic
 behavior of LLM-backed systems.
 
-[Nasser Qadri](https://datatalks.club/people/nasserqadri.html) names the field
+[[person:nasserqadri|Nasser Qadri]] names the field
 explicitly in
 Understanding the AI Engineer
 Role](https://datatalks.club/podcast/s23e07-understanding-ai-engineer-role.html).
@@ -26,9 +26,9 @@ trajectory for agents: from experimentation to engineering rigor, with
 monitoring and evaluation becoming standard practice.
 
 Agent Ops builds on
-[Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }}),
-[LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }}),
-and [AI Agents]({{ '/wiki/agent-engineering/' | relative_url }}).
+[[Agent Engineering]],
+[[LLM Production Patterns]],
+and [[agent-engineering|AI Agents]].
 
 ## Orchestration and the Rise of Agent Ops
 
@@ -48,14 +48,14 @@ is where those two modes meet.
 
 ## Guardrails and Data Lineage
 
-[Aditya Gautam](https://datatalks.club/people/adityagautam.html) provides the
+[[person:adityagautam|Aditya Gautam]] provides the
 strongest governance perspective in
 [The Future of AI
 Agents](https://datatalks.club/podcast/s23e03-future-of-ai-agents.html). His
 30:26 section links guardrails and data lineage to what he calls Agent MLOps.
 He explains that sensitive industries like healthcare and legal require
 handcrafted automation with a human in the loop to ensure correctness. Even
-with sophisticated [RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}) and vector
+with sophisticated [[retrieval-augmented-generation|RAG]] and vector
 databases, "this is a field where you cannot mess up."
 
 His 47:16 section covers guardrails for agent actions. For an airline customer
@@ -83,7 +83,7 @@ measured accuracy.
 
 ## Evaluation Strategy for Agents
 
-[Ranjitha Kulkarni](https://datatalks.club/people/ranjithakulkarni.html) covers
+[[person:ranjithakulkarni|Ranjitha Kulkarni]] covers
 agent evaluation in
 [Building Agentic AI
 Systems](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html).
@@ -99,7 +99,7 @@ example, finding a skip-level manager directly or by traversing an org chart are
 both valid approaches. The assertion checks the outcome, not the path. This is
 a key distinction from traditional software testing.
 
-[Hugo Bowne-Anderson](https://datatalks.club/people/hugobowneanderson.html) adds
+[[person:hugobowneanderson|Hugo Bowne-Anderson]] adds
 the generator-evaluator pattern in
 [Practical LLM Engineering and
 RAG](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html).
@@ -121,7 +121,7 @@ understand gaps and detect drift.
 
 ## Evaluation and Monitoring Tools
 
-[Micheal Lanham](https://datatalks.club/people/micheallanham.html) connects
+[[person:micheallanham|Micheal Lanham]] connects
 evaluation to production monitoring in
 [From Game AI to LLM
 Agents](https://datatalks.club/podcast/from-game-ai-to-modern-ai-agents.html).
@@ -142,11 +142,11 @@ standardized layer.
 
 ## Related Pages
 
-- [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }})
-- [AI Agents]({{ '/wiki/agent-engineering/' | relative_url }})
-- [Multi-Agent Systems]({{ '/wiki/multi-agent-systems/' | relative_url }})
-- [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
-- [MLOps]({{ '/wiki/mlops/' | relative_url }})
-- [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }})
-- [Production]({{ '/wiki/production/' | relative_url }})
-- [Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }})
+- [[Agent Engineering]]
+- [[agent-engineering|AI Agents]]
+- [[multi-agent-systems|Multi-Agent Systems]]
+- [[LLM Production Patterns]]
+- [[MLOps]]
+- [[LLM Evaluation Workflows]]
+- [[Production]]
+- [[Responsible AI and Governance]]

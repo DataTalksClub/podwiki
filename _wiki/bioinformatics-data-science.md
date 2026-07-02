@@ -10,10 +10,10 @@ related:
   - Data Pipelines
 ---
 
-Bioinformatics data science is [data science]({{ '/wiki/data-science/' | relative_url }})
+Bioinformatics data science is [[data science]]
 applied to biological data. In
-[Bioinformatics Workflows in Practice](https://datatalks.club/podcast/bioinformatics-worflows-tools-and-data-science.html),
-[Sebastian Ayala Ruano](https://datatalks.club/people/sebastianayalaruano.html)
+[[podcast:bioinformatics-worflows-tools-and-data-science|Bioinformatics Workflows in Practice]],
+[[person:sebastianayalaruano|Sebastian Ayala Ruano]]
 defines the work as taking information generated in the lab. Bioinformatics
 then uses exploration, analysis, and modeling to interpret results and make
 predictions around biological systems.
@@ -27,8 +27,8 @@ package ecosystems make those workflows usable beyond one lab.
 ## Wet Lab and Dry Lab Boundaries
 
 The boundary starts with where the data comes from. At 6:27 in
-[Bioinformatics Workflows in Practice](https://datatalks.club/podcast/bioinformatics-worflows-tools-and-data-science.html),
-[Sebastian Ayala Ruano](https://datatalks.club/people/sebastianayalaruano.html)
+[[podcast:bioinformatics-worflows-tools-and-data-science|Bioinformatics Workflows in Practice]],
+[[person:sebastianayalaruano|Sebastian Ayala Ruano]]
 contrasts biotechnology experiments with bioinformatics analysis. Lab teams test
 vaccines, compounds, or biological mechanisms. Computational analysis can reduce
 the number of experiments by proposing better candidates for the lab to try.
@@ -39,13 +39,13 @@ Dry lab work is computational. The scientist or engineer works with data,
 pipelines, simulations, and software.
 
 Bioinformatics data science sits near
-[machine learning]({{ '/wiki/machine-learning/' | relative_url }}) and
-[data pipelines]({{ '/wiki/data-pipelines/' | relative_url }}). Its biological
+[[machine learning]] and
+[[data pipelines]]. Its biological
 context shapes the data model, validation, and interpretation.
 
-[Aaisha Muhammad](https://datatalks.club/people/aaishamuhammad.html) gives the
+[[person:aaishamuhammad|Aaisha Muhammad]] gives the
 self-taught entry path in
-[Teaching Yourself Bioinformatics and ML](https://datatalks.club/podcast/learning-machine-learning-self-taught-bioinformatics.html).
+[[podcast:learning-machine-learning-self-taught-bioinformatics|Teaching Yourself Bioinformatics and ML]].
 She used the OSSU open curriculum, ML Zoomcamp, and a project-first approach to
 build both bioinformatics and machine learning skills without formal coursework.
 The episode covers resource evaluation, dataset-first project ideation through
@@ -57,8 +57,8 @@ self-directed learner can bridge biological questions with ML pipelines.
 
 Sequencing is the input side of many bioinformatics workflows. In the 12:35 and
 15:30 parts of
-[Bioinformatics Workflows in Practice](https://datatalks.club/podcast/bioinformatics-worflows-tools-and-data-science.html),
-[Sebastian Ayala Ruano](https://datatalks.club/people/sebastianayalaruano.html)
+[[podcast:bioinformatics-worflows-tools-and-data-science|Bioinformatics Workflows in Practice]],
+[[person:sebastianayalaruano|Sebastian Ayala Ruano]]
 explains genomic data as DNA sequences made from four nucleotides. The four are
 adenine, guanine, cytosine, and thymine. A sequencing workflow reads DNA from an
 environmental or biological sample. It breaks the DNA into small pieces, decodes
@@ -78,8 +78,8 @@ traits or organisms observed in a mixed sample.
 
 Metagenomics is the episode's clearest pipeline example because it turns raw
 biological material into analytical tables. At 17:56 in
-[Bioinformatics Workflows in Practice](https://datatalks.club/podcast/bioinformatics-worflows-tools-and-data-science.html),
-[Sebastian Ayala Ruano](https://datatalks.club/people/sebastianayalaruano.html)
+[[podcast:bioinformatics-worflows-tools-and-data-science|Bioinformatics Workflows in Practice]],
+[[person:sebastianayalaruano|Sebastian Ayala Ruano]]
 describes metagenomics as studying DNA from environmental samples rather than
 from one organism. Environmental samples may come from a lake, soil, or a
 wastewater treatment plant. They may contain many microorganisms, so the
@@ -96,8 +96,8 @@ and analyzed for patterns across samples.
 ## Microbiome Network Inference
 
 The microbiome project moves from tabular analysis into graph analysis. In
-[Bioinformatics Workflows in Practice](https://datatalks.club/podcast/bioinformatics-worflows-tools-and-data-science.html),
-[Sebastian Ayala Ruano](https://datatalks.club/people/sebastianayalaruano.html)
+[[podcast:bioinformatics-worflows-tools-and-data-science|Bioinformatics Workflows in Practice]],
+[[person:sebastianayalaruano|Sebastian Ayala Ruano]]
 explains at 20:10 that microbial association networks are inferred from
 co-abundance patterns. If two microorganisms often appear together in similar
 abundance, the workflow creates a possible association between them.
@@ -120,10 +120,10 @@ and run graph algorithms such as clustering or centrality analysis.
 
 ## Open-Source Computational Biology Tools
 
-The tooling discussion shows why [open source]({{ '/wiki/open-source/' | relative_url }})
+The tooling discussion shows why [[open source]]
 is part of the bioinformatics data science workflow rather than an add-on. In
-[Bioinformatics Workflows in Practice](https://datatalks.club/podcast/bioinformatics-worflows-tools-and-data-science.html),
-[Sebastian Ayala Ruano](https://datatalks.club/people/sebastianayalaruano.html)
+[[podcast:bioinformatics-worflows-tools-and-data-science|Bioinformatics Workflows in Practice]],
+[[person:sebastianayalaruano|Sebastian Ayala Ruano]]
 uses MCW2 Graph and VueGen as examples. He also names VueCore and Viewer. These
 tools make biological data easier to explore, report, and visualize.
 
@@ -134,7 +134,7 @@ presentations, and Streamlit apps.
 
 Under the hood, the tool uses Quarto and Streamlit rather than LLM
 interpretation. That matters for
-[reproducibility]({{ '/wiki/reproducibility/' | relative_url }}) because the
+[[reproducibility]] because the
 report is generated from explicit files, paths, and descriptions. It also uses
 YAML metadata and renderable project structure.
 
@@ -150,13 +150,13 @@ reading source code, extending the package, or contacting maintainers.
 
 Use these pages for the neighboring concepts named in the workflow.
 
-- [Data Science]({{ '/wiki/data-science/' | relative_url }}) for analysis and
+- [[Data Science]] for analysis and
   modeling in a broader setting.
-- [Machine Learning]({{ '/wiki/machine-learning/' | relative_url }}) for
+- [[Machine Learning]] for
   prediction, evaluation, and model-driven workflows.
-- [Open Source]({{ '/wiki/open-source/' | relative_url }}) for public tools,
+- [[Open Source]] for public tools,
   package ecosystems, documentation, and contribution work.
-- [Reproducibility]({{ '/wiki/reproducibility/' | relative_url }}) for rerunnable
+- [[Reproducibility]] for rerunnable
   analysis, reports, environments, and metadata.
-- [Data Pipelines]({{ '/wiki/data-pipelines/' | relative_url }}) for movement,
+- [[Data Pipelines]] for movement,
   transformation, publication, and rerun patterns behind biological analysis.

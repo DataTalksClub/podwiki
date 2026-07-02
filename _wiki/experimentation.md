@@ -20,17 +20,17 @@ features and pricing mechanics. They also discuss recommendation models, AI
 interfaces, fraud models, and data product workflows.
 
 The topic is broader than
-[A/B testing]({{ '/wiki/a-b-testing/' | relative_url }}). A randomized
+[[a-b-testing|A/B testing]]. A randomized
 experiment is the cleanest version, but guests also discuss
-[A/A testing]({{ '/wiki/a-a-testing/' | relative_url }}), shadow mode, and
+[[a-a-testing|A/A testing]], shadow mode, and
 offline model experiments. Design sprints, proofs of concept, lightweight
 surveys, and button tests appear in the same podcast discussions. The shared
 goal is to learn before the team spends too much engineering, product, or
 organizational capital.
 
-[Jakob Graff](https://datatalks.club/people/jakobgraff.html) gives the
+[[person:jakobgraff|Jakob Graff]] gives the
 clearest product analytics framing in
-[Product Analytics and A/B Testing at 11:48](https://datatalks.club/podcast/ab-testing-and-product-experimentation.html):
+[[podcast:ab-testing-and-product-experimentation|11:48|Product Analytics and A/B Testing]]:
 experiments help establish causality under noisy product conditions. At 18:06,
 he extends that into feature de-risking and organizational learning. A test
 doesn't only approve or reject a change. It teaches the team which behavior
@@ -46,25 +46,25 @@ team can act on.
 In product analytics, this usually means a control group and a treatment group.
 It also means logged exposure and one agreed metric. Jakob explains the
 randomized version through a clinical-trial analogy in
-[Product Analytics and A/B Testing at 8:13](https://datatalks.club/podcast/ab-testing-and-product-experimentation.html).
+[[podcast:ab-testing-and-product-experimentation|8:13|Product Analytics and A/B Testing]].
 Product teams need
-[metrics]({{ '/wiki/metrics/' | relative_url }}),
-[event tracking]({{ '/wiki/event-tracking/' | relative_url }}), and
-[product analytics]({{ '/wiki/product-analytics/' | relative_url }}) to run
+[[metrics]],
+[[event tracking]], and
+[[product analytics]] to run
 randomized experiments well.
 
 In ML and AI product work, the same idea widens. In
-[From Analytics to Production ML at 28:42](https://datatalks.club/podcast/production-ml-mlops-and-data-team-building.html),
-[Rishabh Bhargava](https://datatalks.club/people/rishabhbhargava.html) describes
+[[podcast:production-ml-mlops-and-data-team-building|28:42|From Analytics to Production ML]],
+[[person:rishabhbhargava|Rishabh Bhargava]] describes
 model development as experimental before deployment and validation as
 experimental after deployment. Teams may compare features and hyperparameters in
 offline model experiments. Then they can use shadow mode or
-[A/B tests]({{ '/wiki/a-b-testing/' | relative_url }}) before they expose a new
+[[a-b-testing|A/B tests]] before they expose a new
 model to all traffic.
 
-[Liesbeth Dingemans](https://datatalks.club/people/liesbethdingemans.html) uses an
+[[person:liesbethdingemans|Liesbeth Dingemans]] uses an
 earlier product-design meaning in
-[AI Product Design at 16:02](https://datatalks.club/podcast/ai-ml-product-design-and-experimentation.html).
+[[podcast:ai-ml-product-design-and-experimentation|16:02|AI Product Design]].
 Parallel experiments and proofs of concept help teams remove weak solution
 paths before an AI roadmap becomes expensive. Her discussion of Double Diamond
 problem framing at 12:12 keeps experiments connected to the problem, not only
@@ -75,34 +75,34 @@ to the proposed model or feature.
 The guests agree that experiments reduce uncertainty, but they point the method
 at different kinds of uncertainty.
 
-[Jakob Graff](https://datatalks.club/people/jakobgraff.html) starts from product
+[[person:jakobgraff|Jakob Graff]] starts from product
 causality. His concern is whether the product change caused the observed metric
 movement. In
-[Product Analytics and A/B Testing at 24:44](https://datatalks.club/podcast/ab-testing-and-product-experimentation.html),
+[[podcast:ab-testing-and-product-experimentation|24:44|Product Analytics and A/B Testing]],
 he spends time on traffic splitting and assignment tracking. At 27:52 and
-37:44, he covers [A/A tests]({{ '/wiki/a-a-testing/' | relative_url }}), metric
-stability, and [power analysis]({{ '/wiki/power-analysis/' | relative_url }})
+37:44, he covers [[a-a-testing|A/A tests]], metric
+stability, and [[power analysis]]
 because a broken measurement system creates false confidence.
 
-[Rishabh Bhargava](https://datatalks.club/people/rishabhbhargava.html) starts from
+[[person:rishabhbhargava|Rishabh Bhargava]] starts from
 the boundary between analytics and
-[production ML]({{ '/wiki/production/' | relative_url }}). Around 31:19 in
-[From Analytics to Production ML](https://datatalks.club/podcast/production-ml-mlops-and-data-team-building.html),
+[[production|production ML]]. Around 31:19 in
+[[podcast:production-ml-mlops-and-data-team-building|From Analytics to Production ML]],
 he describes uplift, segmentation, and root-cause analysis after a live model
 test. The experiment doesn't end when the top-line result appears. Analysts
 still need to explain which segments changed and why.
 
-[Liesbeth Dingemans](https://datatalks.club/people/liesbethdingemans.html) starts
+[[person:liesbethdingemans|Liesbeth Dingemans]] starts
 from product discovery. In
-[AI Product Design at 31:04](https://datatalks.club/podcast/ai-ml-product-design-and-experimentation.html),
+[[podcast:ai-ml-product-design-and-experimentation|31:04|AI Product Design]],
 scoping documents and repeated "why" questions challenge a proposed solution
 before the team builds it. Around 54:11, she connects experimentation culture
 to measurable prioritization. This is experimentation as product learning, not
 only statistical testing.
 
-[Aleksander Molak](https://datatalks.club/people/aleksandermolak.html) starts from
-[causal inference]({{ '/wiki/causal-inference/' | relative_url }}). In
-[Causal Inference for Real-World ML at 26:16](https://datatalks.club/podcast/causal-inference-for-machine-learning.html),
+[[person:aleksandermolak|Aleksander Molak]] starts from
+[[causal inference]]. In
+[[podcast:causal-inference-for-machine-learning|26:16|Causal Inference for Real-World ML]],
 he treats A/B tests as one route to unconfounded evidence. At 59:33 and
 1:04:03, he discusses cases where teams can't run clean experiments and need
 partial identification, sensitivity checks, or causal graphs.
@@ -118,21 +118,21 @@ Teams often assign by user or session. Some systems assign by account, device,
 market, or request. The team must log exposure and analyze outcomes at that
 same unit.
 
-[Jakob Graff](https://datatalks.club/people/jakobgraff.html) discusses traffic
+[[person:jakobgraff|Jakob Graff]] discusses traffic
 splitters in
-[Product Analytics and A/B Testing at 24:44](https://datatalks.club/podcast/ab-testing-and-product-experimentation.html)
+[[podcast:ab-testing-and-product-experimentation|24:44|Product Analytics and A/B Testing]]
 to show why this matters. If assignment and exposure are unclear, the team
 can't tell whether the treatment caused the outcome.
 
 Simple first tests are safer than clever first tests. At 30:05 in
-[the same episode](https://datatalks.club/podcast/ab-testing-and-product-experimentation.html),
+[[podcast:ab-testing-and-product-experimentation|the same episode]],
 Jakob recommends a two-group design because it exposes platform bugs,
 instrumentation gaps, and stakeholder disagreement. Multi-arm tests add cost,
 and at 59:08 he notes that A/B/C/D tests take longer and raise
 multiple-comparison risk.
 
 For AI products, design can happen before a live test exists. Liesbeth's
-[design sprint discussion at 23:16](https://datatalks.club/podcast/ai-ml-product-design-and-experimentation.html)
+[[podcast:ai-ml-product-design-and-experimentation|23:16|design sprint discussion]]
 uses a one-week prototype to test whether a solution direction is worth more
 investment. At 28:18, she argues for involving data scientists in problem
 definition so the team avoids building the wrong ML solution.
@@ -142,9 +142,9 @@ definition so the team avoids building the wrong ML solution.
 Metrics define what the experiment means. A team can randomize perfectly and
 still learn the wrong thing if the primary metric doesn't match the decision.
 
-[Jakob Graff](https://datatalks.club/people/jakobgraff.html) uses a
+[[person:jakobgraff|Jakob Graff]] uses a
 subscription-versus-points example in
-[Product Analytics and A/B Testing at 14:27](https://datatalks.club/podcast/ab-testing-and-product-experimentation.html)
+[[podcast:ab-testing-and-product-experimentation|14:27|Product Analytics and A/B Testing]]
 to show this directly. A pricing or monetization change can look different
 depending on whether the team measures immediate revenue or retention. Points
 usage, conversion, and long-term value can tell different stories too. A useful
@@ -153,12 +153,12 @@ experiment needs one primary decision metric and supporting diagnostic metrics.
 Guests separate product metrics from model metrics. Rishabh's ML example uses
 offline model work before live validation, but the live decision still needs
 business context. Around 31:19 in
-[From Analytics to Production ML](https://datatalks.club/podcast/production-ml-mlops-and-data-team-building.html),
+[[podcast:production-ml-mlops-and-data-team-building|From Analytics to Production ML]],
 he connects model experiment analysis to uplift, segments, and root causes.
 This puts experimentation close to
-[evaluation]({{ '/wiki/evaluation/' | relative_url }}),
-[machine learning system design]({{ '/wiki/machine-learning-system-design/' | relative_url }}),
-and [production]({{ '/wiki/production/' | relative_url }}).
+[[evaluation]],
+[[machine learning system design]],
+and [[production]].
 
 Guardrail metrics keep the team from optimizing one number while damaging
 another. Common guardrails include latency, crashes, complaints, and churn.
@@ -173,10 +173,10 @@ experiments. The team needs event definitions, cohorts, funnels, and exposure
 logs. It also needs metric calculations, dashboards, and readouts that
 stakeholders can trust.
 
-[Jakob Graff](https://datatalks.club/people/jakobgraff.html) ties experimentation
-to [product analytics]({{ '/wiki/product-analytics/' | relative_url }})
+[[person:jakobgraff|Jakob Graff]] ties experimentation
+to [[product analytics]]
 throughout
-[Product Analytics and A/B Testing](https://datatalks.club/podcast/ab-testing-and-product-experimentation.html).
+[[podcast:ab-testing-and-product-experimentation|Product Analytics and A/B Testing]].
 At 23:54, he compares third-party and in-house experimentation platforms. The
 important capabilities are traffic splitting, stable assignment, and exposure
 logging. Teams also need monitoring and debuggable metrics.
@@ -190,22 +190,22 @@ failed test can still help a product team if it reveals a bad assumption. It can
 also surface a weak segment or a metric that doesn't behave as expected.
 
 That learning role makes experimentation part of
-[data-led growth]({{ '/wiki/data-led-growth/' | relative_url }}) and
-[data product management]({{ '/wiki/data-product-management/' | relative_url }}).
+[[data-led-growth|data-led growth]] and
+[[data product management]].
 The same product-facing responsibilities appear in the
-[Data Product Manager]({{ '/wiki/data-product-manager/' | relative_url }}) article.
+[[Data Product Manager]] article.
 
 ## Randomization and Causal Boundaries
 
-[Experimentation and Causal Inference]({{ '/wiki/experimentation-and-causal-inference/' | relative_url }})
+[[Experimentation and Causal Inference]]
 overlap, but they aren't identical. Teams use randomized experiments to
-estimate causal effects, while [causal inference]({{ '/wiki/causal-inference/' | relative_url }})
+estimate causal effects, while [[causal inference]]
 covers cases where randomization is impossible or unethical. It also covers
 cases where randomization is incomplete or too expensive.
 
 In
-[Causal Inference for Real-World ML at 7:31](https://datatalks.club/podcast/causal-inference-for-machine-learning.html),
-[Aleksander Molak](https://datatalks.club/people/aleksandermolak.html) separates
+[[podcast:causal-inference-for-machine-learning|7:31|Causal Inference for Real-World ML]],
+[[person:aleksandermolak|Aleksander Molak]] separates
 association from causation. Around 15:36, he uses marketing and recommender
 systems to show why prediction alone may not answer the decision. The team
 often needs a counterfactual comparison with the same user under another action.
@@ -228,25 +228,25 @@ Power, duration, and guardrails decide whether an experiment can settle the
 question. A test that's too short can turn noise into a product decision. A
 test without guardrails can make a metric improve while the product gets worse.
 
-[Jakob Graff](https://datatalks.club/people/jakobgraff.html) discusses noise,
+[[person:jakobgraff|Jakob Graff]] discusses noise,
 stability, seasonality, and business cycles in
-[Product Analytics and A/B Testing at 33:23](https://datatalks.club/podcast/ab-testing-and-product-experimentation.html).
+[[podcast:ab-testing-and-product-experimentation|33:23|Product Analytics and A/B Testing]].
 At 37:44, he connects sample size and test duration to
-[power analysis]({{ '/wiki/power-analysis/' | relative_url }}). The team needs
+[[power analysis]]. The team needs
 the baseline rate and expected effect size before it promises a timeline. It
 also needs variance and traffic.
 
-[A/A testing]({{ '/wiki/a-a-testing/' | relative_url }}) is another guardrail.
+[[a-a-testing|A/A testing]] is another guardrail.
 At
-[27:52 in Jakob's episode](https://datatalks.club/podcast/ab-testing-and-product-experimentation.html),
+[[podcast:ab-testing-and-product-experimentation|27:52 in Jakob's episode]],
 identical groups validate randomization and measurement. If an A/A test finds a
 large difference, the platform may be assigning traffic incorrectly or
 measuring outcomes inconsistently.
 
 In ML systems, shadow mode is a related guardrail.
-[Rishabh Bhargava](https://datatalks.club/people/rishabhbhargava.html) uses shadow
+[[person:rishabhbhargava|Rishabh Bhargava]] uses shadow
 mode and A/B tests as ways to validate a model before full rollout in
-[From Analytics to Production ML at 28:42](https://datatalks.club/podcast/production-ml-mlops-and-data-team-building.html).
+[[podcast:production-ml-mlops-and-data-team-building|28:42|From Analytics to Production ML]].
 This lowers risk when model errors can affect customers, revenue, fraud
 decisions, or operational load.
 
@@ -254,14 +254,14 @@ decisions, or operational load.
 
 These pages cover the concepts that experiments depend on or feed into:
 
-- [A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }})
-- [A/A Testing]({{ '/wiki/a-a-testing/' | relative_url }})
-- [Power Analysis]({{ '/wiki/power-analysis/' | relative_url }})
-- [Metrics]({{ '/wiki/metrics/' | relative_url }})
-- [Causal Inference]({{ '/wiki/causal-inference/' | relative_url }})
-- [Experimentation and Causal Inference]({{ '/wiki/experimentation-and-causal-inference/' | relative_url }})
-- [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }})
-- [Event Tracking]({{ '/wiki/event-tracking/' | relative_url }})
-- [Evaluation]({{ '/wiki/evaluation/' | relative_url }})
-- [Production]({{ '/wiki/production/' | relative_url }})
-- [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
+- [[a-b-testing|A/B Testing]]
+- [[a-a-testing|A/A Testing]]
+- [[Power Analysis]]
+- [[Metrics]]
+- [[Causal Inference]]
+- [[Experimentation and Causal Inference]]
+- [[Product Analytics]]
+- [[Event Tracking]]
+- [[Evaluation]]
+- [[Production]]
+- [[Machine Learning System Design]]

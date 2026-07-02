@@ -12,30 +12,30 @@ related_wiki:
   - Production Search Evaluation
 ---
 
-[Keyword search]({{ '/wiki/search/' | relative_url }}) retrieves documents by
-matching query terms against indexed text. [Vector search]({{ '/wiki/vector-databases/' | relative_url }})
-retrieves nearby [embeddings]({{ '/wiki/embeddings/' | relative_url }}) in a
+[[search|Keyword search]] retrieves documents by
+matching query terms against indexed text. [[vector-databases|Vector search]]
+retrieves nearby [[embeddings]] in a
 learned representation space. Daniel Svonava, Atita Arora, and Reem Mahmoud
 don't treat one as a universal replacement for the other. They treat both as
 candidate retrieval tools inside a larger
-[information retrieval]({{ '/wiki/information-retrieval/' | relative_url }})
+[[information retrieval]]
 system. That system still needs ranking, filters, latency work, and
-[production search evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }}).
+[[production search evaluation]].
 
-[Daniel Svonava](https://datatalks.club/people/danielsvonava.html) gives the
+[[person:danielsvonava|Daniel Svonava]] gives the
 clearest production anatomy in
-[Building Search Systems](https://datatalks.club/podcast/building-production-search-systems.html):
+[[podcast:building-production-search-systems|Building Search Systems]]:
 at 12:45 he separates candidate generation from ranking. At 11:29-21:55 he
 moves from bag-of-words retrieval and inverted indexes to dense vector
-representations. [Atita Arora](https://datatalks.club/people/atitaarora.html)
+representations. [[person:atitaarora|Atita Arora]]
 frames the migration path in
-[Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html),
+[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]],
 starting with Solr and Lucene at 4:42. She moves to vector databases at 17:01
 and vectors inside existing search systems at 20:27.
 
-[Reem Mahmoud](https://datatalks.club/people/reemmahmoud.html) gives a parallel
+[[person:reemmahmoud|Reem Mahmoud]] gives a parallel
 production view in
-[Production ML Search](https://datatalks.club/podcast/production-ml-search-vector-search-embeddings-hybrid-search.html)
+[[podcast:production-ml-search-vector-search-embeddings-hybrid-search|Production ML Search]]
 with inverted indexes, embeddings, hybrid search, and
 filters. It also covers query-time weights, vector database selection, and
 search metrics.
@@ -45,12 +45,12 @@ search metrics.
 Keyword search starts with tokens. A Lucene-style inverted index maps words or
 normalized terms to the documents or positions where they appear. Daniel
 explains that structure at 12:45-20:02 in
-[Building Search Systems](https://datatalks.club/podcast/building-production-search-systems.html),
+[[podcast:building-production-search-systems|Building Search Systems]],
 then recommends using existing engines such as Lucene instead of hand-rolling a
 reverse keyword lookup.
 
 The same classical search lineage appears in Atita's
-[Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html)
+[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]]
 discussion at 4:42-20:27. She covers Solr, Lucene, Elasticsearch, and
 OpenSearch. She also covers full-text search and query-content matching.
 
@@ -60,10 +60,10 @@ users or sessions. The retrieval step then searches for nearby vectors.
 
 Daniel describes that shift at 21:55-33:13
 in
-[Building Search Systems](https://datatalks.club/podcast/building-production-search-systems.html),
+[[podcast:building-production-search-systems|Building Search Systems]],
 where vector databases store embeddings and run nearest-neighbor search. The
 embedding pipeline creates vectors at ingestion and query time. Reem's
-[Production ML Search](https://datatalks.club/podcast/production-ml-search-vector-search-embeddings-hybrid-search.html)
+[[podcast:production-ml-search-vector-search-embeddings-hybrid-search|Production ML Search]]
 page covers the same production split around 21:55 and 29:00. Vector search is
 a retrieval method rather than the whole search product.
 
@@ -72,7 +72,7 @@ items when the user's wording differs from the indexed wording. Vector search
 can retrieve plausible semantic neighbors. It may still ignore exact terms,
 permissions, freshness, or product constraints. That's why the comparison
 belongs beside
-[Vector Database vs Search Engine]({{ '/wiki/vector-database-vs-search-engine/' | relative_url }}).
+[[Vector Database vs Search Engine]].
 
 Use this page for the matching method. Use the infrastructure comparison for
 the system that owns storage, indexing, filtering, and ranking.
@@ -82,27 +82,27 @@ the system that owns storage, indexing, filtering, and ranking.
 Keyword search is strong when exact language matters. Product SKUs and legal
 terms often need predictable matching, and so do error codes or names. Domain
 vocabulary and compliance filters need the same predictability. Daniel's
-[Building Search Systems](https://datatalks.club/podcast/building-production-search-systems.html)
+[[podcast:building-production-search-systems|Building Search Systems]]
 walkthrough at 12:45-17:40 shows why an inverted index is still a practical
 candidate-generation tool. It narrows a large corpus quickly before ranking
 decides what the user should see.
 
 Lucene and Elasticsearch-style systems also make filters and query constraints
 first-class. In the 39:53 section of
-[Building Search Systems](https://datatalks.club/podcast/building-production-search-systems.html),
+[[podcast:building-production-search-systems|Building Search Systems]],
 Daniel contrasts Lucene-style `must` and `should` clauses with vector-query
 approaches. A strict keyword or metadata filter can enforce a business rule,
 while a soft clause can keep a highly relevant older result in play. Reem's
-[Production ML Search](https://datatalks.club/podcast/production-ml-search-vector-search-embeddings-hybrid-search.html)
+[[podcast:production-ml-search-vector-search-embeddings-hybrid-search|Production ML Search]]
 discussion covers the same constraint problem around 39:53, including filters,
 recency, and business rules.
 
 Keyword systems require ongoing maintenance. In
-[Building Search Systems](https://datatalks.club/podcast/building-production-search-systems.html),
+[[podcast:building-production-search-systems|Building Search Systems]],
 Daniel describes brittleness from synonyms, query rewrites, and dictionaries
 around 20:02. He also ties that brittleness to configuration debt.
 Atita's 9:18 section in
-[Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html)
+[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]]
 adds the search-quality view. Teams still need user-centric metrics and
 relevance work after search matches the right content to the right query.
 
@@ -111,39 +111,39 @@ relevance work after search matches the right content to the right query.
 Vector search is strongest when users describe intent differently from the
 stored text. Daniel describes embeddings as shared representations around
 21:55 in
-[Building Search Systems](https://datatalks.club/podcast/building-production-search-systems.html).
+[[podcast:building-production-search-systems|Building Search Systems]].
 Queries and candidate items can land near each other even when the exact words
 differ. That makes vector search useful for semantic retrieval and
 cross-language queries. It also helps with synonym-heavy queries, multimodal
 retrieval, and personalization.
 
 Atita gives the RAG version in
-[Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html).
+[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]].
 Her transcript chatbot example at 35:49-42:49 chunks podcast transcripts and
 creates embeddings. It stores vectors, retrieves relevant chunks, and passes
 them into a generated answer with citations. In that workflow, vector search helps
 because the question may not share exact words with the passage that contains
 the answer. The surrounding
-[Search]({{ '/wiki/search/' | relative_url }}) and
-[Embeddings]({{ '/wiki/embeddings/' | relative_url }}) pages treat this as
+[[Search]] and
+[[Embeddings]] pages treat this as
 retrieval before generation, not as a replacement for evaluation or grounding.
 
 Vector search also extends beyond text. Daniel discusses CLIP-style
 text-to-image retrieval and multiple embeddings for titles, content, images,
 and behavior at 32:43-38:11 in
-[Building Search Systems](https://datatalks.club/podcast/building-production-search-systems.html).
+[[podcast:building-production-search-systems|Building Search Systems]].
 Reem's
-[Production ML Search](https://datatalks.club/podcast/production-ml-search-vector-search-embeddings-hybrid-search.html)
+[[podcast:production-ml-search-vector-search-embeddings-hybrid-search|Production ML Search]]
 episode covers multimodal embeddings, feature fusion, and ecommerce
 personalization around 33:13-38:50 and 58:17. Atita adds session-based
 recommendations and reranking around 52:07 in
-[Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html).
+[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]].
 
 ## Hybrid Retrieval
 
 Hybrid retrieval is the recurring production answer. Daniel introduces it
 around 34:00 in
-[Building Search Systems](https://datatalks.club/podcast/building-production-search-systems.html):
+[[podcast:building-production-search-systems|Building Search Systems]]:
 a news search result may need semantic relevance and freshness at the same
 time. A hard one-month filter can remove a relevant article, while pure
 vector similarity can ignore recency. The search system has to decide which
@@ -151,7 +151,7 @@ signals are mandatory, which signals are soft, and which weights should be
 chosen at query time.
 
 Reem's
-[Production ML Search](https://datatalks.club/podcast/production-ml-search-vector-search-embeddings-hybrid-search.html)
+[[podcast:production-ml-search-vector-search-embeddings-hybrid-search|Production ML Search]]
 discussion covers the same hybrid production surface at 34:00-45:11. The
 signals include vector similarity, filters, recency, and metadata. They also
 include behavior, popularity, and time encoding. Normalization and query-time
@@ -159,7 +159,7 @@ weighting belong there too. That makes hybrid search a
 ranking and operations problem, not just an index choice.
 
 Atita's migration discussion at 20:27 in
-[Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html)
+[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]]
 keeps the architecture flexible. Teams can put vectors inside an existing Solr,
 Lucene, Elasticsearch, or OpenSearch stack. They can also run a standalone
 vector database such as Qdrant beside the existing text search stack. The right
@@ -170,7 +170,7 @@ filters, lexical relevance, production traffic, and operational tooling.
 
 Both methods only produce candidates, and ranking decides which candidates
 deserve the top positions. Daniel makes that split explicit at 12:45 in
-[Building Search Systems](https://datatalks.club/podcast/building-production-search-systems.html).
+[[podcast:building-production-search-systems|Building Search Systems]].
 Daniel says retrieval narrows the search space. Ranking then estimates
 relevance, click probability, purchase probability, or another product
 objective. A vector
@@ -180,15 +180,15 @@ inventory, permissions, or business priorities.
 Filters are easier to reason about in mature keyword search systems, but they
 still create tradeoffs. Daniel's Lucene `must` and `should` examples at
 39:53-45:11 in
-[Building Search Systems](https://datatalks.club/podcast/building-production-search-systems.html)
+[[podcast:building-production-search-systems|Building Search Systems]]
 show that a product rule can be strict or weighted. Reem's
-[Production ML Search](https://datatalks.club/podcast/production-ml-search-vector-search-embeddings-hybrid-search.html)
+[[podcast:production-ml-search-vector-search-embeddings-hybrid-search|Production ML Search]]
 discussion adds vector-side approaches. Teams can encode recency, behavior,
 metadata, or popularity into vector features. They can also normalize
 components and choose weights at query time.
 
 Those choices leave the matching method as part of
-[production search evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }}).
+[[production search evaluation]].
 Evaluate exact-match queries separately from semantic queries. Evaluate
 permissioned content, stale content, long-tail queries, and high-value product
 segments separately too. A single aggregate relevance metric can hide whether
@@ -203,13 +203,13 @@ indexes, fields, and filters. It also handles ranking features, query logic,
 and serving behavior.
 
 In
-[Building Search Systems](https://datatalks.club/podcast/building-production-search-systems.html),
+[[podcast:building-production-search-systems|Building Search Systems]],
 Daniel separates those concerns at 27:21-33:13. Vector storage and vector
 compute are separate. Model changes can force recomputing embeddings or
 rebuilding indexes.
 
 Atita describes the same system boundary from the search migration side in
-[Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html).
+[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]].
 At 17:01 she introduces Qdrant-style vector search. At 20:27 she compares a
 standalone vector database with vector support inside Solr, Elasticsearch,
 OpenSearch, or other Lucene-based systems. Her point is practical: teams should
@@ -217,7 +217,7 @@ investigate whether vectors fit the use case before changing the existing
 search stack.
 
 For infrastructure decisions, use
-[Vector Database vs Search Engine]({{ '/wiki/vector-database-vs-search-engine/' | relative_url }})
+[[Vector Database vs Search Engine]]
 with this page. Use this comparison to choose between lexical, semantic, and
 hybrid matching. Use the infrastructure comparison to decide where vectors
 should live and how they'll be indexed. The same infrastructure choice covers
@@ -228,7 +228,7 @@ filter placement, ranking ownership, and production reliability.
 Use exact-match coverage and synonym behavior to evaluate keyword search. Add
 field weighting, filters, latency, and ranking quality.
 Daniel's 20:02 keyword-brittleness discussion in
-[Building Search Systems](https://datatalks.club/podcast/building-production-search-systems.html)
+[[podcast:building-production-search-systems|Building Search Systems]]
 warns against judging lexical search only by obvious-term lookup. Query
 rewrites and synonym rules can help, but
 they can also create configuration debt and unexpected matches.
@@ -236,7 +236,7 @@ they can also create configuration debt and unexpected matches.
 Evaluate vector search by checking whether nearest neighbors contain the
 evidence, products, images, or chunks the task needs. Atita's RAG evaluation
 section at 48:09 in
-[Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html)
+[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]]
 separates embedding choice, chunking strategy, and retrieval count. She also
 separates generated answer quality, citations, offline tests, and human review.
 A vector database
@@ -244,10 +244,10 @@ can return similar chunks while the answer remains unsupported or incomplete.
 
 Evaluate hybrid search through both offline relevance tests and product
 metrics. Daniel's business-metric discussion at 1:01:25-1:03:50 in
-[Building Search Systems](https://datatalks.club/podcast/building-production-search-systems.html)
+[[podcast:building-production-search-systems|Building Search Systems]]
 ties search changes to A/B tests, business KPIs, offline evaluation, and
 engineer-facing operational metrics. Reem's
-[Production ML Search](https://datatalks.club/podcast/production-ml-search-vector-search-embeddings-hybrid-search.html)
+[[podcast:production-ml-search-vector-search-embeddings-hybrid-search|Production ML Search]]
 episode covers the same production lens around 1:01:25-1:03:50. The question
 isn't whether vector search or keyword search is newer. Teams need to ask which
 retrieval and ranking design produces relevant, explainable, measurable results
@@ -258,36 +258,36 @@ for the product.
 Choose keyword search when exact terms and filters dominate the task. Metadata
 fields, auditability, and predictable behavior support the same choice.
 Together, those needs fit Atita's Lucene and Solr discussion at 4:42-9:18 in
-[Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html).
+[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]].
 They also fit Daniel's inverted-index candidate generation at 12:45-17:40 in
-[Building Search Systems](https://datatalks.club/podcast/building-production-search-systems.html).
+[[podcast:building-production-search-systems|Building Search Systems]].
 
 Choose vector search when semantic recall or paraphrases are the main problem.
 Multimodal matching and session similarity support the same choice. RAG context
 retrieval does too.
 
 Daniel's 21:55-33:13 vector-search sections in
-[Building Search Systems](https://datatalks.club/podcast/building-production-search-systems.html)
+[[podcast:building-production-search-systems|Building Search Systems]]
 support that choice. So does Atita's 35:49-48:09 transcript-chatbot pipeline in
-[Modern Search Systems](https://datatalks.club/podcast/modern-search-systems-vector-databases-llms-semantic-retrieval.html).
+[[podcast:modern-search-systems-vector-databases-llms-semantic-retrieval|Modern Search Systems]].
 Reem's
-[Production ML Search](https://datatalks.club/podcast/production-ml-search-vector-search-embeddings-hybrid-search.html)
+[[podcast:production-ml-search-vector-search-embeddings-hybrid-search|Production ML Search]]
 discussion of embeddings and multimodal retrieval also supports that choice.
 
 Choose hybrid retrieval when the product needs both. Daniel's freshness example
 at 34:00 in
-[Building Search Systems](https://datatalks.club/podcast/building-production-search-systems.html)
+[[podcast:building-production-search-systems|Building Search Systems]]
 and Reem's 34:00-45:11
-[Production ML Search](https://datatalks.club/podcast/production-ml-search-vector-search-embeddings-hybrid-search.html)
+[[podcast:production-ml-search-vector-search-embeddings-hybrid-search|Production ML Search]]
 discussion both put semantic similarity beside lexical matching. They also keep
 metadata filters and recency in the same decision. Permissions, popularity,
 ranking, and business metrics stay there too.
 
 For a broader retrieval map, continue with
-[Search]({{ '/wiki/search/' | relative_url }}) and
-[Information Retrieval]({{ '/wiki/information-retrieval/' | relative_url }}).
+[[Search]] and
+[[Information Retrieval]].
 For representation and storage, use
-[Vector Databases]({{ '/wiki/vector-databases/' | relative_url }}) and
-[Embeddings]({{ '/wiki/embeddings/' | relative_url }}). For measurement, use
-[Production Search Evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }}).
+[[Vector Databases]] and
+[[Embeddings]]. For measurement, use
+[[Production Search Evaluation]].
 

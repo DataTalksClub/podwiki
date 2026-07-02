@@ -17,23 +17,23 @@ deployed, monitored, explained, and changed safely. The useful stack isn't the
 longest vendor list. It's the smallest set of tools and conventions that makes
 the model lifecycle repeatable for the team running it.
 
-DataTalks.Club guests treat [MLOps]({{ '/wiki/mlops/' | relative_url }}) as an
+DataTalks.Club guests treat [[MLOps]] as an
 operating discipline, not a shopping category. In
-[Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html),
-[Simon Stiebellehner](https://datatalks.club/people/simonstiebellehner.html)
+[[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]],
+[[person:simonstiebellehner|Simon Stiebellehner]]
 frames MLOps around people, processes, and technology. The discussion covers
 experiment tracking and registries, deployment and serving, plus orchestration.
 It also connects metadata, lineage, governance, and developer experience.
 
 In
-[Pragmatic MLOps](https://datatalks.club/podcast/pragmatic-and-standardized-mlops.html),
-[Maria Vechtomova](https://datatalks.club/people/mariavechtomova.html) warns that
+[[podcast:pragmatic-and-standardized-mlops|Pragmatic MLOps]],
+[[person:mariavechtomova|Maria Vechtomova]] warns that
 new tools don't solve organizational problems by themselves. Large companies
 often already have Kubernetes plus existing version control, CI/CD,
 orchestration, and deployment infrastructure.
 
 For a broader sequence of what to learn and when, use the
-[MLOps Roadmap]({{ '/wiki/mlops-roadmap/' | relative_url }}). Use this page
+[[MLOps Roadmap]]. Use this page
 for the tool categories behind practical MLOps stacks.
 
 ## Tool Coverage
@@ -56,31 +56,31 @@ A practical MLOps stack should cover seven jobs:
    without hiding the production constraints they're responsible for.
 
 Several episodes ground that coverage. In
-[MLOps at Scale](https://datatalks.club/podcast/mlops-at-scale-reproducibility-adoption.html),
-[Raphaël Hoogvliets](https://datatalks.club/people/raphaelhoogvliets.html)
+[[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]],
+[[person:raphaelhoogvliets|Raphaël Hoogvliets]]
 starts with version control, CI/CD, and containerization. His toolbelt also
 includes experiment tracking and a model registry. It adds package and container
 registries, compute, serving, and monitoring.
 
 In
-[MLOps in Finance](https://datatalks.club/podcast/mlops-and-ml-engineering-in-finance.html),
-[Nemanja Radojkovic](https://datatalks.club/people/nemanjaradojkovic.html)
+[[podcast:mlops-and-ml-engineering-in-finance|MLOps in Finance]],
+[[person:nemanjaradojkovic|Nemanja Radojkovic]]
 starts a minimal regulated setup with dev, test, and production environments.
 He adds a DevOps platform plus monitoring, a model registry, data versioning,
 and reproducible pipelines.
 
 ## Tracking and Registries
 
-[Experiment tracking]({{ '/wiki/experiment-tracking/' | relative_url }}) is often
+[[Experiment tracking]] is often
 the first MLOps tool category because it fixes a common failure mode. Without
 it, nobody can recover which run produced a promising model. In
-[Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html),
+[[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]],
 Simon calls experiment tracking an early win for teams that still keep
 run history in spreadsheets. Tracking should capture metrics and parameters,
 but it should also connect runs to code and data references. Artifacts and
 environment details belong there too.
 
-A [model registry]({{ '/wiki/model-registry/' | relative_url }}) handles the next
+A [[model registry]] handles the next
 handoff by making a trained model available for downstream use. The same
 conversation notes that experiment tracking, model registries, metadata stores,
 and artifact stores often arrive as one packaged tool.
@@ -100,7 +100,7 @@ links back to training and deployment evidence.
 ## Pipelines, Deployment, and Serving
 
 MLOps tools should separate training pipelines from serving choices. In
-[Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html),
+[[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]],
 Simon distinguishes batch inference from online serving. A batch scoring job may
 look like training infrastructure. It prepares data and loads a model. It writes
 predictions to a table.
@@ -111,7 +111,7 @@ that flow.
 Online serving has different constraints around latency and request schemas.
 API design, logging, and availability matter there too.
 
-That distinction matters when selecting [ML platforms]({{ '/wiki/ml-platforms/' | relative_url }}).
+That distinction matters when selecting [[ML platforms]].
 A managed endpoint product may work well for online inference but be awkward for
 large batch scoring. A workflow orchestrator may be enough for offline scoring
 but insufficient for low-latency services.
@@ -120,7 +120,7 @@ The rule from these podcast discussions is simple. Choose tools based on the
 workflow you need to operate. Don't choose them just because the product says
 it's an end-to-end MLOps platform.
 
-For startups, [Lean MLOps for Startups](https://datatalks.club/podcast/lean-mlops-for-startups.html)
+For startups, [[podcast:lean-mlops-for-startups|Lean MLOps for Startups]]
 pushes this even further. Nemanja recommends keeping early stacks minimal. He
 uses Python for scripts and training, handles orchestration through CI/CD where
 possible, and chooses Dagster when the workflow needs a real orchestrator.
@@ -133,16 +133,16 @@ questions that an early team may not be ready to absorb.
 ## CI/CD and Platform Defaults
 
 CI/CD is the MLOps tool category that guests most often connect to adoption. In
-[MLOps at Scale](https://datatalks.club/podcast/mlops-at-scale-reproducibility-adoption.html),
+[[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]],
 Raphaël says a team should start from concrete pain points, but CI/CD is usually
 his first early win. If deployment takes months, CI/CD and repository structure
 create visible value. Tests, packaging, and deployment automation do too.
 
-In [Pragmatic MLOps](https://datatalks.club/podcast/pragmatic-and-standardized-mlops.html),
+In [[podcast:pragmatic-and-standardized-mlops|Pragmatic MLOps]],
 Maria describes the central MLOps team as an enablement team. It provides
 infrastructure and reusable CI/CD pipelines. It also provides authentication
 patterns, monitoring, and standardized deployment paths for product teams. That
-connects MLOps tools to [ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }}).
+connects MLOps tools to [[ML Platforms]].
 The platform is
 useful only if it reduces repeated work while still teaching data scientists and
 ML engineers how to operate within production constraints.
@@ -162,10 +162,10 @@ category is mandatory on day one.
 
 ## Monitoring and Feedback
 
-[Model monitoring]({{ '/wiki/model-monitoring/' | relative_url }}) is what makes
+[[Model monitoring]] is what makes
 the stack operational after deployment. In
-[MLOps Architect Guide](https://datatalks.club/podcast/mlops-model-monitoring-data-observability.html),
-[Danny Leybzon](https://datatalks.club/people/dannyleybzon.html) prioritizes the
+[[podcast:mlops-model-monitoring-data-observability|MLOps Architect Guide]],
+[[person:dannyleybzon|Danny Leybzon]] prioritizes the
 late lifecycle. He focuses on inference, deployment, and whether a model in
 production is still operating effectively.
 
@@ -183,8 +183,8 @@ lineage, but the MLOps stack still owns the model lifecycle. That lifecycle
 includes artifacts, serving, and prediction logging. It also includes
 monitoring, feedback, and retraining decisions.
 
-[Mastering MLOps](https://datatalks.club/podcast/mlops-kubeflow-model-monitoring.html)
-with [Theofilos Papapanagiotou](https://datatalks.club/people/theofilospapapanagiotou.html)
+[[podcast:mlops-kubeflow-model-monitoring|Mastering MLOps]]
+with [[person:theofilospapapanagiotou|Theofilos Papapanagiotou]]
 adds the maturity view, covering drift and fairness, including retraining
 triggers. It also discusses infrastructure monitoring with Prometheus and
 Grafana, inference sensors, and automated retraining.
@@ -226,23 +226,23 @@ portability, and controlled technical debt matter more.
 
 ## Recommended Reading and Listening
 
-Start with [MLOps]({{ '/wiki/mlops/' | relative_url }}) for the operating model
-and [MLOps Roadmap]({{ '/wiki/mlops-roadmap/' | relative_url }}) for a learning
-sequence. Use [Experiment Tracking]({{ '/wiki/experiment-tracking/' | relative_url }})
-and [Model Registry]({{ '/wiki/model-registry/' | relative_url }}) for the
-training-to-handoff layer. Use [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }})
-for production behavior and [ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }})
+Start with [[MLOps]] for the operating model
+and [[MLOps Roadmap]] for a learning
+sequence. Use [[Experiment Tracking]]
+and [[Model Registry]] for the
+training-to-handoff layer. Use [[Model Monitoring]]
+for production behavior and [[ML Platforms]]
 for the internal product view. Use
-[MLOps Architecture]({{ '/wiki/mlops-architecture/' | relative_url }}) when the
+[[MLOps Architecture]] when the
 question is how to choose conventions, managed services, open-source stacks, or
 platform templates by failure mode.
 
 The strongest podcast path for this keyword:
 
-- [MLOps at Scale](https://datatalks.club/podcast/mlops-at-scale-reproducibility-adoption.html)
-- [Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html)
-- [Pragmatic MLOps](https://datatalks.club/podcast/pragmatic-and-standardized-mlops.html)
-- [MLOps Architect Guide](https://datatalks.club/podcast/mlops-model-monitoring-data-observability.html)
-- [Mastering MLOps](https://datatalks.club/podcast/mlops-kubeflow-model-monitoring.html)
-- [MLOps in Finance](https://datatalks.club/podcast/mlops-and-ml-engineering-in-finance.html)
-- [Lean MLOps for Startups](https://datatalks.club/podcast/lean-mlops-for-startups.html)
+- [[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]]
+- [[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]]
+- [[podcast:pragmatic-and-standardized-mlops|Pragmatic MLOps]]
+- [[podcast:mlops-model-monitoring-data-observability|MLOps Architect Guide]]
+- [[podcast:mlops-kubeflow-model-monitoring|Mastering MLOps]]
+- [[podcast:mlops-and-ml-engineering-in-finance|MLOps in Finance]]
+- [[podcast:lean-mlops-for-startups|Lean MLOps for Startups]]

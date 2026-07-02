@@ -14,21 +14,21 @@ related:
 Manufacturing predictive maintenance and yield analytics use production
 telemetry to decide when a tool needs attention and how much product is at
 risk. In semiconductor manufacturing, the decision isn't only whether a
-[machine learning]({{ '/wiki/machine-learning/' | relative_url }}) model can
+[[machine learning]] model can
 predict an error. The model has to fit an
-[industrial ML application]({{ '/wiki/industrial-ml-applications/' | relative_url }})
+[[industrial-ml-applications|industrial ML application]]
 where wafers and tools define part of the context. Quals, engineers, and
 production staff define the operating constraints.
 
-[Dashel Ruiz Perez](https://datatalks.club/people/dashelruizperez.html) describes
+[[person:dashelruizperez|Dashel Ruiz Perez]] describes
 this from semiconductor production work at Microchip in
-[From Semiconductor Data to Applied Machine Learning](https://datatalks.club/podcast/from-semiconductor-data-to-applied-machine-learning.html).
+[[podcast:from-semiconductor-data-to-applied-machine-learning|From Semiconductor Data to Applied Machine Learning]].
 His example starts on the fab floor and moves through yield analytics and
-[data engineering]({{ '/wiki/data-engineering/' | relative_url }}). It ends
+[[data engineering]]. It ends
 with a practical boundary. A prediction is useful only if supervisors and
 engineers can understand it and act on it in
-[production]({{ '/wiki/production/' | relative_url }})
-([4:49-5:49, 18:07-20:40, 23:29-29:06, 37:29-43:38](https://datatalks.club/podcast/from-semiconductor-data-to-applied-machine-learning.html)).
+[[production]]
+([[podcast:from-semiconductor-data-to-applied-machine-learning|4:49-5:49, 18:07-20:40, 23:29-29:06, 37:29-43:38]]).
 
 ## Fab Telemetry
 
@@ -39,7 +39,7 @@ Those logs include tool identity and process steps. They also record pressure,
 gas amounts, and other details at millisecond resolution.
 
 That creates far more data than a technician can comfortably review by hand
-([8:49-11:06](https://datatalks.club/podcast/from-semiconductor-data-to-applied-machine-learning.html)).
+([[podcast:from-semiconductor-data-to-applied-machine-learning|8:49-11:06]]).
 
 It makes manufacturing predictive maintenance a telemetry and workflow problem
 before it's an algorithm problem. A person needs to know which fab area
@@ -48,7 +48,7 @@ what the tool was supposed to do, plus which error messages or measurements
 matter. Dashel's path from expediter to process technician mattered because
 walking wafers through the fab gave him context. Later experiment work gave him
 more context for interpreting the logs, not just access to files
-([4:49-5:49, 8:49-10:23](https://datatalks.club/podcast/from-semiconductor-data-to-applied-machine-learning.html)).
+([[podcast:from-semiconductor-data-to-applied-machine-learning|4:49-5:49, 8:49-10:23]]).
 
 ## Yield Analytics
 
@@ -58,9 +58,9 @@ put it into an Oracle database. He also wrote small PL/SQL applications so his
 supervisor could access the results. He describes yield work as needing a
 whole-fab view of failures, passes, source areas, and production contacts who
 could answer follow-up questions
-([18:07-20:40](https://datatalks.club/podcast/from-semiconductor-data-to-applied-machine-learning.html)).
+([[podcast:from-semiconductor-data-to-applied-machine-learning|18:07-20:40]]).
 
-The work is close to [data engineering]({{ '/wiki/data-engineering/' | relative_url }})
+The work is close to [[data engineering]]
 inside a manufacturing process. A single clean training table wasn't the main
 asset. Dashel needed to know where data lived and how tools mapped to fab
 areas. He also had to make answers reachable for the people requesting them.
@@ -68,7 +68,7 @@ areas. He also had to make answers reachable for the people requesting them.
 He says that production roles, technician roles, and engineering work let him
 know where to go. Those roles also taught him whom to ask when a yield request
 arrived
-([19:11-20:40](https://datatalks.club/podcast/from-semiconductor-data-to-applied-machine-learning.html)).
+([[podcast:from-semiconductor-data-to-applied-machine-learning|19:11-20:40]]).
 
 ## Wafers at Risk
 
@@ -77,7 +77,7 @@ fab needed to act before the normal schedule allowed too many wafers to be
 exposed to risk. Tools had weekly, biweekly, or monthly qualification checks
 called quals. Dashel questioned whether the schedule should depend on the
 number of wafers processed rather than elapsed time
-([21:39-23:29](https://datatalks.club/podcast/from-semiconductor-data-to-applied-machine-learning.html)).
+([[podcast:from-semiconductor-data-to-applied-machine-learning|21:39-23:29]]).
 
 His "wafers at risk" project counted wafer process steps across the production
 database for the whole fab, then calculated risk by tool and area. Once he had
@@ -85,14 +85,14 @@ those counts, he wanted to project how many wafers would be at risk if the fab
 kept running at the current pace. A useful forecast could tell engineers to run
 quals earlier, for example after ten days instead of fifteen, reducing waste and
 improving yield
-([23:29-25:16](https://datatalks.club/podcast/from-semiconductor-data-to-applied-machine-learning.html)).
+([[podcast:from-semiconductor-data-to-applied-machine-learning|23:29-25:16]]).
 
 Dashel's later description shows the decision target. The goal wasn't an
 abstract accuracy score, but a way to tell engineers that a tool might have a
 probable issue within a window. They could then monitor the tool and plan a
 check between roughly three and twelve days if measurements stayed in range
-([27:55-29:06](https://datatalks.club/podcast/from-semiconductor-data-to-applied-machine-learning.html)).
-Use [model monitoring]({{ '/wiki/model-monitoring/' | relative_url }}) for the
+([[podcast:from-semiconductor-data-to-applied-machine-learning|27:55-29:06]]).
+Use [[model monitoring]] for the
 broader production work where teams keep watching model inputs, predictions,
 and business outcomes after deployment.
 
@@ -102,15 +102,15 @@ The manufacturing constraint in Dashel's story is that a better number isn't
 enough. He remembers running algorithms such as Bayesian methods and random
 forests. After tweaks, accuracy moved from around 65% to around 85%. He still
 couldn't use the result because he couldn't explain the steps to his supervisor
-([25:16-26:08](https://datatalks.club/podcast/from-semiconductor-data-to-applied-machine-learning.html)).
+([[podcast:from-semiconductor-data-to-applied-machine-learning|25:16-26:08]]).
 
-In a fab, practical [interpretability]({{ '/wiki/interpretability/' | relative_url }})
+In a fab, practical [[interpretability]]
 supports maintenance or yield decisions. The explanation needs to cover the
 tool, the window, the risk level, and the action an engineer should take.
 Dashel's answer was to keep learning analytics and ML so he could make better
 predictions. They also needed to be explainable enough for the people
 responsible for the tools
-([25:35-28:33](https://datatalks.club/podcast/from-semiconductor-data-to-applied-machine-learning.html)).
+([[podcast:from-semiconductor-data-to-applied-machine-learning|25:35-28:33]]).
 
 ## Production Use
 
@@ -122,7 +122,7 @@ Access mattered because someone should be able to send data and get a result.
 He ties this back to Microchip by recalling that his supervisor didn't only care
 that a prediction existed. The supervisor needed to know how to get the data and
 result
-([37:29-43:38](https://datatalks.club/podcast/from-semiconductor-data-to-applied-machine-learning.html)).
+([[podcast:from-semiconductor-data-to-applied-machine-learning|37:29-43:38]]).
 
 For manufacturing predictive maintenance, the path from telemetry to impact
 runs through deployable software and operational handoff. A model for wafers at
@@ -130,11 +130,11 @@ risk needs the fab database and a repeatable data pipeline. It also needs an
 interface or report that engineers can access. Production teams need enough
 context for a choice. They can run a qual, watch a tool or wait because
 processing has stopped
-([18:38-20:40, 23:29-29:06, 41:08-43:38](https://datatalks.club/podcast/from-semiconductor-data-to-applied-machine-learning.html)).
+([[podcast:from-semiconductor-data-to-applied-machine-learning|18:38-20:40, 23:29-29:06, 41:08-43:38]]).
 
-[Rosona](https://datatalks.club/people/rosonaeldred.html) extends these patterns to
+[[person:rosonaeldred|Rosona]] extends these patterns to
 chemical and coating production in
-[Industrial Data and Small-Data Production ML](https://datatalks.club/podcast/industrial-data-small-data-production-machine-learning.html).
+[[podcast:industrial-data-small-data-production-machine-learning|Industrial Data and Small-Data Production ML]].
 She describes quality control as monitoring input-output ratios — one kilo in,
 one kilo out — and flagging anomalies that trigger a technician visit. Her
 discussion of packing-peanut and blue-paint production shows that predictive
@@ -147,9 +147,9 @@ small historical experiment data.
 
 These pages give the surrounding vocabulary for Dashel's semiconductor example.
 
-- [Industrial ML Applications]({{ '/wiki/industrial-ml-applications/' | relative_url }}) for physical and operational ML systems beyond semiconductor fabs.
-- [Machine Learning]({{ '/wiki/machine-learning/' | relative_url }}) for applied modeling, evaluation, deployment, and business tradeoffs.
-- [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}) for the pipeline and database work behind usable manufacturing analytics.
-- [Interpretability]({{ '/wiki/interpretability/' | relative_url }}) for explaining model behavior well enough to support decisions.
-- [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }}) for watching deployed models, inputs, predictions, and outcomes.
-- [Production]({{ '/wiki/production/' | relative_url }}) for the operating boundary where people depend on a system.
+- [[Industrial ML Applications]] for physical and operational ML systems beyond semiconductor fabs.
+- [[Machine Learning]] for applied modeling, evaluation, deployment, and business tradeoffs.
+- [[Data Engineering]] for the pipeline and database work behind usable manufacturing analytics.
+- [[Interpretability]] for explaining model behavior well enough to support decisions.
+- [[Model Monitoring]] for watching deployed models, inputs, predictions, and outcomes.
+- [[Production]] for the operating boundary where people depend on a system.

@@ -19,22 +19,22 @@ design problem. A freelancer has to validate demand, choose a recognizable buyer
 problem, control pricing and cash-flow risk, and decide how large the business
 should become.
 
-Use [Freelance Data Engineering and Consulting]({{ '/wiki/freelance/' | relative_url }})
+Use [[freelance|Freelance Data Engineering and Consulting]]
 for the broader operating playbook. It covers scoping and delivery. It also
 covers agencies, direct clients, and reusable assets. The strategy view starts with
-[Dimitri Visnadi's](https://datatalks.club/people/dimitrivisnadi.html)
-[Becoming a Data Freelancer](https://datatalks.club/podcast/becoming-data-freelancer.html)
+[[person:dimitrivisnadi|Dimitri Visnadi's]]
+[[podcast:becoming-data-freelancer|Becoming a Data Freelancer]]
 and
-[Building a Sustainable Data Freelancing Career](https://datatalks.club/podcast/data-freelancing-career-strategy-market-demand-and-client-acquisition.html).
+[[podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition|Building a Sustainable Data Freelancing Career]].
 
 It extends the growth fork through
-[Adrian Brudaru's](https://datatalks.club/people/adrianbrudaru.html)
-[From Data Freelancer to Startup](https://datatalks.club/podcast/from-data-freelancer-to-startup-open-source-products.html).
+[[person:adrianbrudaru|Adrian Brudaru's]]
+[[podcast:from-data-freelancer-to-startup-open-source-products|From Data Freelancer to Startup]].
 The topic sits near
-[entrepreneurship]({{ '/wiki/entrepreneurship/' | relative_url }}),
-[career growth]({{ '/wiki/career-growth/' | relative_url }}),
-[solopreneur]({{ '/wiki/solopreneur/' | relative_url }}), and
-[startup]({{ '/wiki/startups/' | relative_url }}) because freelancing is both a
+[[entrepreneurship]],
+[[career growth]],
+[[solopreneur]], and
+[[startups|startup]] because freelancing is both a
 career move and an owned business.
 
 ## Strategic Definition
@@ -42,7 +42,7 @@ career move and an owned business.
 Across the freelance strategy episodes, data freelancing means selling a
 client outcome, not just selling data labor. Dimitri separates freelancers who
 sell a skill from freelancers who sell problem-solving expertise around 10:50 in
-[Building a Sustainable Data Freelancing Career](https://datatalks.club/podcast/data-freelancing-career-strategy-market-demand-and-client-acquisition.html).
+[[podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition|Building a Sustainable Data Freelancing Career]].
 
 The strategy changes with the buyer's need. When the buyer already knows the
 task, the freelancer competes on availability and trust, while skill and rate
@@ -51,13 +51,13 @@ problem and define the work. They also have to price the uncertainty.
 
 Adrian makes the same distinction from the data engineering side. Around 5:20-7:18
 in
-[From Data Freelancer to Startup](https://datatalks.club/podcast/from-data-freelancer-to-startup-open-source-products.html),
+[[podcast:from-data-freelancer-to-startup-open-source-products|From Data Freelancer to Startup]],
 he describes freelance work that moves beyond hourly billing into project
 delivery. The client cares about the final outcome and total cost more than the
 freelancer's hourly mechanics.
 
 For data practitioners, that brings strategy close to
-[data strategy]({{ '/wiki/data-strategy/' | relative_url }}). The work has to
+[[data strategy]]. The work has to
 name the business problem and data consumer. It also has to name the delivery
 boundary and value created.
 
@@ -66,14 +66,14 @@ boundary and value created.
 Both treat freelancing as entrepreneurial, but they make different choices after
 early success. Dimitri describes a one-person lifestyle
 business around 33:53 in
-[Building a Sustainable Data Freelancing Career](https://datatalks.club/podcast/data-freelancing-career-strategy-market-demand-and-client-acquisition.html).
+[[podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition|Building a Sustainable Data Freelancing Career]].
 In that account, a few good clients can be enough when referrals and recurring
 work are healthy.
 He tried subcontracting larger projects, but team follow-up and maintenance
 pushed him away from the agency path.
 
 Adrian treats the same agency fork as a role change. Around 8:46-12:31 in
-[From Data Freelancer to Startup](https://datatalks.club/podcast/from-data-freelancer-to-startup-open-source-products.html),
+[[podcast:from-data-freelancer-to-startup-open-source-products|From Data Freelancer to Startup]],
 subcontracting increases revenue but reduces autonomy because the freelancer
 becomes responsible for communication and collaborator management. Client
 selection and incentives become harder too.
@@ -82,12 +82,12 @@ His response wasn't to stay solo. He moved toward product building when repeated
 data warehouse and JSON-ingestion pain suggested a reusable tool. The difference
 is strategic fit, not a universal rule. Dimitri optimizes for a durable solo
 business, while Adrian follows repeated client pain
-toward [consultant or freelancer to data product founder]({{ '/wiki/consultant-or-freelancer-to-data-product-founder/' | relative_url }}).
+toward [[consultant or freelancer to data product founder]].
 
 ## Validate Demand Before Quitting
 
 Dimitri's transition starts with risk, not confidence. In
-[Becoming a Data Freelancer](https://datatalks.club/podcast/becoming-data-freelancer.html),
+[[podcast:becoming-data-freelancer|Becoming a Data Freelancer]],
 he resigned without a client. He then used the notice period for outreach,
 market research, registration logistics, and recruiter conversations around
 13:29-18:20.
@@ -96,29 +96,29 @@ freelancers on LinkedIn to ask how they started. The practical strategy was to
 turn uncertainty into conversations before the first official freelance day.
 
 His later episode makes the validation rule sharper. Around 14:13 in
-[Building a Sustainable Data Freelancing Career](https://datatalks.club/podcast/data-freelancing-career-strategy-market-demand-and-client-acquisition.html),
+[[podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition|Building a Sustainable Data Freelancing Career]],
 he says he gave himself an eight-month deadline to prove freelancing could make
 money. If it failed, he still had four months to find a job.
 
 Around 1:01:02, he recommends asking whether the current employer can become the
 first client. If that isn't possible, he recommends starting recruiter and
 freelancer conversations early. That's the
-freelance version of the broader [career growth]({{ '/wiki/career-growth/' | relative_url }})
+freelance version of the broader [[career growth]]
 lesson: the next move needs market evidence, not just personal preference.
 
 The same conservative logic appears in
-[Solopreneur Data Scientist]({{ '/wiki/solopreneur-data-scientist/' | relative_url }}),
+[[Solopreneur Data Scientist]],
 where client services are one possible independent income stream. Freelancing can
 be a staged transition through weekend work, part-time work, recruiter channels,
 or an employer-to-client conversion rather than a dramatic resignation.
 Dimitri names those transition paths around 48:25 in
-[Becoming a Data Freelancer](https://datatalks.club/podcast/becoming-data-freelancer.html).
+[[podcast:becoming-data-freelancer|Becoming a Data Freelancer]].
 
 ## Choose Specialization From Market Signals
 
 Data freelancers still need a position that the market can understand. Dimitri's
 later episode is explicit. Around 20:55-25:08 in
-[Building a Sustainable Data Freelancing Career](https://datatalks.club/podcast/data-freelancing-career-strategy-market-demand-and-client-acquisition.html),
+[[podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition|Building a Sustainable Data Freelancing Career]],
 he describes a data-freelancer job board that aggregates project listings. It
 shows job titles, project budgets, rates, and common skills. He recommends looking
 at the market first and working backward from demand around 24:22.
@@ -128,14 +128,14 @@ roles from noisier labels in the same segment of the episode. Those roles includ
 data analyst, data engineer, and data architect. AI specialist and web analyst
 also appear in that market view.
 
-A freelancer who wants to move from analytics into [data engineering]({{ '/wiki/data-engineering/' | relative_url }})
-or [AI]({{ '/wiki/ai/' | relative_url }}) still has to consider current skill,
+A freelancer who wants to move from analytics into [[data engineering]]
+or [[AI]] still has to consider current skill,
 learning time, buyer demand, and proof. The strategic question isn't "which
 topic is hot?" It's "which buyer problem can I credibly solve, and which market
 already pays for it?"
 
 Dimitri also warns against weak positioning around 55:01 in
-[Becoming a Data Freelancer](https://datatalks.club/podcast/becoming-data-freelancer.html).
+[[podcast:becoming-data-freelancer|Becoming a Data Freelancer]].
 Strong credentials don't automatically justify high prices. A PhD, rare model
 skill, or broad generalist background still needs an offer the buyer can
 evaluate. Generalists can work, but they need a clear value proposition and
@@ -146,13 +146,13 @@ Specialists can work, but only if the specialization maps to paid demand.
 ## First Clients and Referrals
 
 The early-client strategy in these episodes is multi-channel. In
-[Becoming a Data Freelancer](https://datatalks.club/podcast/becoming-data-freelancer.html),
+[[podcast:becoming-data-freelancer|Becoming a Data Freelancer]],
 Dimitri names distinct channels around 25:24. Each channel has its own pricing
 and trust dynamics. The list includes online freelance platforms and recruiters.
 The freelancer's own network is another channel.
 
 In
-[Building a Sustainable Data Freelancing Career](https://datatalks.club/podcast/data-freelancing-career-strategy-market-demand-and-client-acquisition.html)
+[[podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition|Building a Sustainable Data Freelancing Career]]
 around 16:27, Dimitri says recruiters contacted him with freelance projects
 before he quit. That made independent work feel possible.
 
@@ -160,7 +160,7 @@ The channel determines the first strategic constraint. On platforms such as
 Upwork, a new profile may need lower prices to build ratings and proof. Scarce
 skills can support higher rates because the buyer has fewer alternatives.
 Dimitri explains that tradeoff around 25:24-27:30 in
-[Becoming a Data Freelancer](https://datatalks.club/podcast/becoming-data-freelancer.html).
+[[podcast:becoming-data-freelancer|Becoming a Data Freelancer]].
 
 Recruiter channels can validate demand and create fast access to projects.
 They also add middlemen, duplicated submissions, and less direct control.
@@ -168,7 +168,7 @@ Network-driven work requires public proof, a portfolio, writing, or repeated
 conversations so people remember what the freelancer does.
 
 Referrals become more strategic after delivery. In
-[Building a Sustainable Data Freelancing Career](https://datatalks.club/podcast/data-freelancing-career-strategy-market-demand-and-client-acquisition.html),
+[[podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition|Building a Sustainable Data Freelancing Career]],
 Dimitri says around 33:53 that a few good clients can sustain the business.
 Existing clients can refer new clients and offer more projects.
 
@@ -185,18 +185,18 @@ starts from rate benchmarking by comparing freelancer profiles and recruiter
 projects. He also checks platform bids and market reports before quoting.
 
 Dimitri gives that pricing example in
-[Becoming a Data Freelancer](https://datatalks.club/podcast/becoming-data-freelancer.html)
+[[podcast:becoming-data-freelancer|Becoming a Data Freelancer]]
 around 25:24-32:07. He ties price to channel and reputation. Specific skills
 and project type matter too.
 
 Dimitri discusses package pricing in
-[Building a Sustainable Data Freelancing Career](https://datatalks.club/podcast/data-freelancing-career-strategy-market-demand-and-client-acquisition.html)
+[[podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition|Building a Sustainable Data Freelancing Career]]
 around 56:47. Project packages can have better margins than hourly work when the
 freelancer controls delivery efficiency. Hourly pricing still fits new
 freelancers, trusted clients, and unclear requirements.
 
 Cash flow is a separate risk. Around 46:25-47:56 in
-[Becoming a Data Freelancer](https://datatalks.club/podcast/becoming-data-freelancer.html),
+[[podcast:becoming-data-freelancer|Becoming a Data Freelancer]],
 the discussion covers payment delays that come from procurement and finance
 bureaucracy rather than outright non-payment. Larger companies can make this
 slower. Around 54:11, Dimitri recommends setting money aside before relying on
@@ -212,13 +212,13 @@ depending on one client and to understand local tax declarations and legal
 definitions.
 
 For broader pricing and scoping context, use
-[Freelance Data Engineering and Consulting]({{ '/wiki/freelance/' | relative_url }}).
+[[freelance|Freelance Data Engineering and Consulting]].
 Strategy starts with choosing terms that keep the business viable.
 
 ## Vet Clients Before Scaling Commitments
 
 Client vetting isn't only about avoiding fraud. Around 43:41-45:17 in
-[Becoming a Data Freelancer](https://datatalks.club/podcast/becoming-data-freelancer.html),
+[[podcast:becoming-data-freelancer|Becoming a Data Freelancer]],
 Dimitri suggests different checks by channel. Platform ratings help on online
 marketplaces. Business reviews help with recruiters. Company research matters
 when working directly.
@@ -228,7 +228,7 @@ and process can still make payment slow.
 
 The freelancer also has to match the client to the business model. Around
 48:51-55:15 in
-[Building a Sustainable Data Freelancing Career](https://datatalks.club/podcast/data-freelancing-career-strategy-market-demand-and-client-acquisition.html),
+[[podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition|Building a Sustainable Data Freelancing Career]],
 Dimitri's subscription model works with small founder-led ecommerce clients.
 They need ongoing access to analytics judgment but don't overload him with
 unlimited tasks. He's clear
@@ -243,27 +243,27 @@ The subscription discussion includes a useful test for value. Around 52:20, Dimi
 describes a small analysis that revealed a payment issue and helped a client
 recover missing money. Strategy favors clients where data work can change a
 decision or recover value quickly. That keeps the freelancer close to
-[business skills for data professionals]({{ '/wiki/business-skills-for-data-professionals/' | relative_url }})
+[[business skills for data professionals]]
 and away from vague "do some data" engagements.
 
 ## Lifestyle Business, Agency, or Product
 
 After demand exists, Dimitri treats scale as a choice. At 33:53 in
-[Building a Sustainable Data Freelancing Career](https://datatalks.club/podcast/data-freelancing-career-strategy-market-demand-and-client-acquisition.html),
+[[podcast:data-freelancing-career-strategy-market-demand-and-client-acquisition|Building a Sustainable Data Freelancing Career]],
 he says the next client can stop being a constant worry. That opens the choice
 between a lifestyle business and agency growth. His own agency experiment created
 subcontractor management, follow-up, and maintenance work that he didn't want as
 the center of the business.
 
 Adrian's answer is product ambition. Around 8:46-10:51 in
-[From Data Freelancer to Startup](https://datatalks.club/podcast/from-data-freelancer-to-startup-open-source-products.html),
+[[podcast:from-data-freelancer-to-startup-open-source-products|From Data Freelancer to Startup]],
 he says subcontracting changed his role from autonomous individual contributor
 to agency-like manager. Around 12:31-19:38, repeated warehouse setup, stakeholder
 alignment, and JSON-to-relational transformation pain made product building more
 attractive than doing more of the same service work. The move links freelance
-strategy to [data products]({{ '/wiki/data-products/' | relative_url }}),
-[open source]({{ '/wiki/open-source/' | relative_url }}), and
-[startup]({{ '/wiki/startups/' | relative_url }}). The freelancer has to decide
+strategy to [[data products]],
+[[open source]], and
+[[startups|startup]]. The freelancer has to decide
 whether repeated pain is a profitable service niche or evidence for a tool,
 library, workshop, or company.
 
@@ -272,7 +272,7 @@ runway. The freelancer may be tired of bespoke delivery, but that isn't enough.
 Adoption needs to reach users outside the client base. The business also needs
 to fund the risk. Adrian describes the funding side around 31:08-34:20
 in
-[From Data Freelancer to Startup](https://datatalks.club/podcast/from-data-freelancer-to-startup-open-source-products.html).
+[[podcast:from-data-freelancer-to-startup-open-source-products|From Data Freelancer to Startup]].
 
 Savings and consulting revenue helped make the early DLT company possible.
 Design-partner work and careful spending helped too. Later, workshops and
@@ -287,15 +287,15 @@ the transition.
 
 These pages cover the adjacent business models and career paths:
 
-- [Freelance Data Engineering and Consulting]({{ '/wiki/freelance/' | relative_url }})
+- [[freelance|Freelance Data Engineering and Consulting]]
   for the broader client-work playbook.
-- [Solopreneur]({{ '/wiki/solopreneur/' | relative_url }}) and
-  [Solopreneur Data Scientist]({{ '/wiki/solopreneur-data-scientist/' | relative_url }})
+- [[Solopreneur]] and
+  [[Solopreneur Data Scientist]]
   for intentionally small independent data businesses.
-- [Entrepreneurship]({{ '/wiki/entrepreneurship/' | relative_url }}) and
-  [Startup]({{ '/wiki/startups/' | relative_url }}) for the service, product, and
+- [[Entrepreneurship]] and
+  [[startups|Startup]] for the service, product, and
   company-building choices around independent work.
-- [Consultant or Freelancer to Data Product Founder]({{ '/wiki/consultant-or-freelancer-to-data-product-founder/' | relative_url }})
+- [[Consultant or Freelancer to Data Product Founder]]
   for the transition from repeated client pain to a product.
-- [Career Growth]({{ '/wiki/career-growth/' | relative_url }}) for market-facing
+- [[Career Growth]] for market-facing
   skill development, positioning, and proof.

@@ -25,22 +25,22 @@ business question to evidence. A machine learning engineer usually owns the
 path from model idea to reliable software.
 
 Start with
-[Data Team Roles Explained](https://datatalks.club/podcast/data-team-roles.html).
+[[podcast:data-team-roles|Data Team Roles Explained]].
 The 11:17 section separates data scientists from analysts through prediction
 and product integration. The 17:04 section defines machine learning engineers
 as the people who help data scientists scale model-backed services and apply
 engineering practices.
 
-[Oleg Novikov](https://datatalks.club/people/olegnovikov.html) makes the hiring
+[[person:olegnovikov|Oleg Novikov]] makes the hiring
 version explicit in
-[Data Science Interview Guide](https://datatalks.club/podcast/data-science-interview-and-cv-guide.html).
+[[podcast:data-science-interview-and-cv-guide|Data Science Interview Guide]].
 At 15:29, he separates product data scientist expectations from
 machine-learning-engineering-heavy expectations. Use the title only after you
 name the work the role must own.
 
 For the full role references, use
-[Machine Learning Engineer Role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }})
-and [Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }}).
+[[Machine Learning Engineer Role]]
+and [[Data Scientist Role]].
 
 ## Short Comparison
 
@@ -63,29 +63,29 @@ surface:
   experiments, failure analysis, and product feedback.
 
 Because teams share that surface, compare the roles alongside
-[machine learning system design]({{ '/wiki/machine-learning-system-design/' | relative_url }}),
-[machine learning infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }}),
-and [MLOps]({{ '/wiki/mlops/' | relative_url }}). For team design, also use
-[data teams]({{ '/wiki/data-teams/' | relative_url }}).
+[[machine learning system design]],
+[[machine learning infrastructure]],
+and [[MLOps]]. For team design, also use
+[[data teams]].
 
 ## Data Scientist Fit
 
 Choose a data scientist when the team still has to decide which question to
 answer. Use
-[Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }})
+[[Data Scientist Role]]
 for the reasoning path. A data scientist moves from a business or product
 question to evidence that can change a decision.
 
-[Roksolana Diachuk](https://datatalks.club/people/roksolanadiachuk.html) gives the
+[[person:roksolanadiachuk|Roksolana Diachuk]] gives the
 modeling boundary in
-[Big Data Engineer vs Data Scientist](https://datatalks.club/podcast/big-data-engineer-vs-data-scientist.html).
+[[podcast:big-data-engineer-vs-data-scientist|Big Data Engineer vs Data Scientist]].
 At 13:56, she connects data science to data cleaning and feature engineering.
 The model cycle and deployment awareness belong there too. The data scientist
 doesn't ignore production, but the first ownership point is still the data and
 model reasoning.
 
 Oleg gives the interview version in
-[Data Science Interview Guide](https://datatalks.club/podcast/data-science-interview-and-cv-guide.html).
+[[podcast:data-science-interview-and-cv-guide|Data Science Interview Guide]].
 At 32:03, case-study work starts from business goals and evaluation metrics.
 That's the data scientist's strongest signal. They can translate an ambiguous
 request into a testable question, choose metrics, and explain the tradeoff.
@@ -100,24 +100,24 @@ product, operations, or business team can use.
 
 Choose a machine learning engineer when the model needs a durable runtime path.
 Use
-[Machine Learning Engineer Role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }})
+[[Machine Learning Engineer Role]]
 for the broader role definition. Machine learning engineers work where
-[machine learning]({{ '/wiki/machine-learning/' | relative_url }}) meets
-[software engineering]({{ '/wiki/software-engineering/' | relative_url }}).
+[[machine learning]] meets
+[[software engineering]].
 The model needs stable interfaces and deployment paths. It also needs
 monitoring, rollback plans, and code that other people can change.
 
-[Ben Wilson](https://datatalks.club/people/benwilson.html) gives the maintainable
+[[person:benwilson|Ben Wilson]] gives the maintainable
 systems version in
-[Practical Machine Learning Engineering for Production](https://datatalks.club/podcast/machine-learning-engineering-production-best-practices.html).
+[[podcast:machine-learning-engineering-production-best-practices|Practical Machine Learning Engineering for Production]].
 At 8:49, he moves from monolithic data science code to modular, testable
 components. At 44:23, he argues for solving with SQL or statistics before using
 deep learning. That makes the role less about model novelty and more about
 shipping the simplest reliable system.
 
-[Arseny Kravchenko](https://datatalks.club/people/arsenykravchenko.html) gives the
+[[person:arsenykravchenko|Arseny Kravchenko]] gives the
 system-design version in
-[Build Scalable, Reliable ML Systems](https://datatalks.club/podcast/building-scalable-and-reliable-machine-learning-systems.html).
+[[podcast:building-scalable-and-reliable-machine-learning-systems|Build Scalable, Reliable ML Systems]].
 At 7:54 and 20:21, he starts with goals, constraints, and a design document.
 At 31:42 and 37:15, the work turns into baselines and metrics. It also turns
 into pipeline components, data strategy, dependencies, and a
@@ -132,9 +132,9 @@ on a schedule, survive failures, or feed a larger product system.
 Teams need both roles when a model leaves analysis and becomes part of a
 product. At that point, they need both model judgment and engineering judgment.
 
-[Simon Stiebellehner](https://datatalks.club/people/simonstiebellehner.html)
+[[person:simonstiebellehner|Simon Stiebellehner]]
 describes this shared surface in
-[Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html).
+[[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]].
 At 21:03, he names the data science path from exploration to training and
 evaluation. At 29:41 and 30:32, experiment tracking and a model registry make
 that work reproducible. At 31:15, the platform has to support batch inference
@@ -146,9 +146,9 @@ analytics. That's machine learning engineering work, but it depends on the data
 scientist's understanding of inputs and outputs. It also depends on labels and
 model behavior.
 
-[Nadia Nahar](https://datatalks.club/people/nadianahar.html) explains why this is
+[[person:nadianahar|Nadia Nahar]] explains why this is
 different from ordinary software in
-[Software Engineering for ML](https://datatalks.club/podcast/software-engineering-for-machine-learning.html).
+[[podcast:software-engineering-for-machine-learning|Software Engineering for ML]].
 At 7:42, she contrasts ML systems with traditional software through
 uncertainty, data workflows, and monitoring. At 29:42, ML product failures
 include unmet requirements, poor data, and deployment problems. At 56:55, she
@@ -174,9 +174,9 @@ non-goals, and assumptions. Simon's 8:11 and 13:25 sections add cloud
 infrastructure, Kubernetes, Terraform, and software engineering for ML
 platforms.
 
-Don't trust the title alone. [Tereza Iofciu](https://datatalks.club/people/terezaiofciu.html)
+Don't trust the title alone. [[person:terezaiofciu|Tereza Iofciu]]
 warns about mislabeled data roles in
-[Data Science Job Red Flags](https://datatalks.club/podcast/data-science-job-red-flags-and-mismatched-roles.html).
+[[podcast:data-science-job-red-flags-and-mismatched-roles|Data Science Job Red Flags]].
 At 20:06 and 23:01, she recommends checking the team and objectives. She also
 checks responsibilities, data infrastructure, and analytics or engineering
 support.
@@ -193,7 +193,7 @@ Coverage gets fragile when the same person must do research and stakeholder
 framing. Data pipelines, deployment, monitoring, and incident response make that
 single role even harder to sustain.
 
-[Data Team Roles Explained](https://datatalks.club/podcast/data-team-roles.html)
+[[podcast:data-team-roles|Data Team Roles Explained]]
 connects this to team size at 34:35. The roles depend on how much work the team
 has and how specialized the product has become. At 40:10, the episode separates
 online serving from batch scoring, which is often where the single-person role
@@ -216,12 +216,12 @@ Deployment, monitoring, and maintainability belong on the same side.
 These pages cover the role definitions and production context behind the
 comparison:
 
-- [Machine Learning Engineer Role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }})
-- [Data Scientist Role]({{ '/wiki/data-scientist-role/' | relative_url }})
-- [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
-- [Machine Learning Infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }})
-- [MLOps]({{ '/wiki/mlops/' | relative_url }})
-- [Data Science]({{ '/wiki/data-science/' | relative_url }})
-- [Software Engineering]({{ '/wiki/software-engineering/' | relative_url }})
-- [Data Teams]({{ '/wiki/data-teams/' | relative_url }})
+- [[Machine Learning Engineer Role]]
+- [[Data Scientist Role]]
+- [[Machine Learning System Design]]
+- [[Machine Learning Infrastructure]]
+- [[MLOps]]
+- [[Data Science]]
+- [[Software Engineering]]
+- [[Data Teams]]
 

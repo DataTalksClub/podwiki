@@ -17,21 +17,21 @@ Causal inference estimates what would change if a team intervened. The
 intervention can be a product launch, a marketing campaign, or a pricing
 change. It can also be a recommender update, a churn treatment, or a policy
 change. That makes causal inference different from ordinary
-[machine learning]({{ '/wiki/machine-learning/' | relative_url }}) prediction:
+[[machine learning]] prediction:
 the model result can change the behavior that creates the next data point.
 
 In
-[Causal Inference for Real-World ML](https://datatalks.club/podcast/causal-inference-for-machine-learning.html),
-[Aleksander Molak](https://datatalks.club/people/aleksandermolak.html)
+[[podcast:causal-inference-for-machine-learning|Causal Inference for Real-World ML]],
+[[person:aleksandermolak|Aleksander Molak]]
 starts from this difference. Around 7:31, he separates association from
 causation. Around 12:41 and 15:36, he uses prediction, marketing, and
 recommendation examples to show why a team often needs a counterfactual answer.
 The team needs to know what would have happened under another action.
 
 Causal inference therefore sits next to
-[experimentation and causal inference]({{ '/wiki/experimentation-and-causal-inference/' | relative_url }}),
-[A/B testing]({{ '/wiki/a-b-testing/' | relative_url }}), and
-[product analytics]({{ '/wiki/product-analytics/' | relative_url }}). Each
+[[experimentation and causal inference]],
+[[a-b-testing|A/B testing]], and
+[[product analytics]]. Each
 field has to separate a change caused by the team from the baseline that would
 have happened anyway.
 
@@ -53,12 +53,12 @@ Molak makes this explicit in the causal ML episode. Around 18:15, he connects
 counterfactuals to Judea Pearl's intervention view. Around 24:24, he introduces
 conditional average treatment effect, or CATE. CATE estimates how much the
 treatment changes the outcome for a given person or segment. CATE makes
-causal inference depend on [metrics]({{ '/wiki/metrics/' | relative_url }}):
+causal inference depend on [[metrics]]:
 the outcome has to match the product or business decision.
 
-[Jakob Graff](https://datatalks.club/people/jakobgraff.html) gives the randomized
+[[person:jakobgraff|Jakob Graff]] gives the randomized
 version of the same idea in
-[Product Analytics and A/B Testing](https://datatalks.club/podcast/ab-testing-and-product-experimentation.html).
+[[podcast:ab-testing-and-product-experimentation|Product Analytics and A/B Testing]].
 Around 8:13, he explains A/B testing through the clinical-trial setup. Teams
 randomly assign people, expose one group to the change, keep another as control,
 and compare outcomes. Around 11:48, he frames the goal as causality in a noisy
@@ -81,16 +81,16 @@ size, and trust in the platform. Around 27:52, he recommends A/A tests to check
 whether the machinery can split traffic and measure outcomes without inventing
 a difference.
 
-[Juan Orduz](https://datatalks.club/people/juanorduz.html) starts from marketing
+[[person:juanorduz|Juan Orduz]] starts from marketing
 measurement in
-[Marketing Data Science](https://datatalks.club/podcast/machine-learning-in-marketing-attribution-marketing-mix-modeling.html).
+[[podcast:machine-learning-in-marketing-attribution-marketing-mix-modeling|Marketing Data Science]].
 Around 13:36 and 14:58, he describes media mix modeling and time-series
 counterfactuals for estimating campaign impact. Around 29:13 and 30:54, he
 connects uplift modeling with treatment/control design and data pitfalls.
 
-[Liesbeth Dingemans](https://datatalks.club/people/liesbethdingemans.html) uses a
+[[person:liesbethdingemans|Liesbeth Dingemans]] uses a
 broader product-design lens in
-[AI Product Design](https://datatalks.club/podcast/ai-ml-product-design-and-experimentation.html).
+[[podcast:ai-ml-product-design-and-experimentation|AI Product Design]].
 Around 16:02 and 23:16, she discusses parallel experiments, proofs of concept,
 and design sprints. These aren't always causal estimates, but they reduce
 uncertainty before a team invests in a full AI or ML product.
@@ -134,8 +134,8 @@ Around 37:44, power analysis turns effect size and variance into a test
 duration. It also uses the baseline rate and traffic.
 
 These concerns connect causal inference to
-[experimentation]({{ '/wiki/experimentation/' | relative_url }}) and
-[A/B testing]({{ '/wiki/a-b-testing/' | relative_url }}). A causal answer is
+[[experimentation]] and
+[[a-b-testing|A/B testing]]. A causal answer is
 only useful if the experiment answers the decision the team actually faces. A
 test with broken assignment or unclear triggering can still produce a p-value.
 The same is true for a test with a proxy metric that nobody trusts, but it
@@ -155,14 +155,14 @@ when they match the decision. Around 38:54 and 41:14, he also warns that causal
 models are worth the added complexity only when they change a valuable decision.
 One example is reducing wasted marketing spend.
 
-[Valerii Babushkin](https://datatalks.club/people/valeriybabushkin.html) connects
+[[person:valeriybabushkin|Valerii Babushkin]] connects
 this to production ML validation in
-[ML System Design Interviews](https://datatalks.club/podcast/machine-learning-system-design-interview.html).
+[[podcast:machine-learning-system-design-interview|ML System Design Interviews]].
 Around 24:28, he treats metrics, baselines, and A/B tests as part of the
 end-to-end ML pipeline. Around 57:23, he discusses production validation through
 A/B tests, causality, and human labels. This is where
-[evaluation]({{ '/wiki/evaluation/' | relative_url }}) and
-[machine learning system design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
+[[evaluation]] and
+[[machine learning system design]]
 meet causal thinking.
 
 ## Product Decisions Under Uncertainty
@@ -170,7 +170,7 @@ meet causal thinking.
 Product teams use causal inference when they need to know whether a feature or
 policy caused an outcome. Pricing changes, onboarding steps, and AI behaviors
 raise the same question. Product teams also need
-[product analytics]({{ '/wiki/product-analytics/' | relative_url }}) because
+[[product analytics]] because
 causal claims depend on event tracking and metric definitions. Teams also need
 cohorts, guardrails, and stakeholder decisions.
 
@@ -196,13 +196,13 @@ build.
 These pages connect causal inference to adjacent product, ML, and analytics
 work:
 
-- [Experimentation and Causal Inference]({{ '/wiki/experimentation-and-causal-inference/' | relative_url }})
-- [Experimentation]({{ '/wiki/experimentation/' | relative_url }})
-- [A/B Testing]({{ '/wiki/a-b-testing/' | relative_url }})
-- [Product Analytics]({{ '/wiki/product-analytics/' | relative_url }})
-- [Evaluation]({{ '/wiki/evaluation/' | relative_url }})
-- [Metrics]({{ '/wiki/metrics/' | relative_url }})
-- [Machine Learning]({{ '/wiki/machine-learning/' | relative_url }})
-- [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
-- [Data Product Manager]({{ '/wiki/data-product-manager/' | relative_url }})
-- [Product Analyst]({{ '/wiki/product-analyst/' | relative_url }})
+- [[Experimentation and Causal Inference]]
+- [[Experimentation]]
+- [[a-b-testing|A/B Testing]]
+- [[Product Analytics]]
+- [[Evaluation]]
+- [[Metrics]]
+- [[Machine Learning]]
+- [[Machine Learning System Design]]
+- [[Data Product Manager]]
+- [[Product Analyst]]

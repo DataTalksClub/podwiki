@@ -16,7 +16,7 @@ between API-based and open-source models, managing serving infrastructure,
 optimizing inference performance, and handling the risks that come with
 model changes over time.
 
-[Meryem Arik](https://datatalks.club/people/meryemarik.html), co-founder of
+[[person:meryemarik|Meryem Arik]], co-founder of
 TitanML, frames the core tradeoff in
 Deploying LLMs in
 Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html).
@@ -26,9 +26,9 @@ businesses tend to want open-source models for control, data privacy, cost, and
 performance reasons.
 
 This topic connects to
-[AI Infrastructure]({{ '/wiki/ai-infrastructure/' | relative_url }}),
-[LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }}),
-and the [RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }})
+[[AI Infrastructure]],
+[[LLM Production Patterns]],
+and the [[rag-vs-fine-tuning|RAG vs Fine-Tuning]]
 comparison.
 
 ## Open-Source vs API Models
@@ -40,18 +40,18 @@ stability: "you actually know that the model is not changing under the hood."
 Other advantages include data privacy, lower cost, and comparable or better
 speed on available hardware.
 
-[Bartosz Mikulski](https://datatalks.club/people/bartoszmikulski.html) adds a
+[[person:bartoszmikulski|Bartosz Mikulski]] adds a
 production AI perspective in
-[Production AI Engineering](https://datatalks.club/podcast/production-ready-ai-engineering.html).
+[[podcast:production-ready-ai-engineering|Production AI Engineering]].
 His 33:45 section discusses open-source models and tools like DeepSeek and
 Perplexity. He uses Perplexity more than ChatGPT and notes that you can switch
 off the search feature and use it like a standard chatbot. His experience shows
 that open-source and alternative models have reached production quality for many
 use cases.
 
-[Sandra Kublik](https://datatalks.club/people/sandrakublik.html) covers the
+[[person:sandrakublik|Sandra Kublik]] covers the
 trade-off from the product side in
-[Practical LLM Use Cases](https://datatalks.club/podcast/practical-llm-use-cases-and-product-patterns.html).
+[[podcast:practical-llm-use-cases-and-product-patterns|Practical LLM Use Cases]].
 Her 35:28 section on proprietary versus open source models covers cost, latency,
 intellectual property, and data risk. She explains that the choice depends on
 the use case: for enterprise deployment with sensitive data, open-source or
@@ -74,7 +74,7 @@ much lower prices.
 
 For the broader set of techniques that make models smaller, faster, and
 cheaper to serve, see
-[Model Optimization]({{ '/wiki/model-optimization/' | relative_url }}).
+[[Model Optimization]].
 
 ## Model Drift and API Risk
 
@@ -85,18 +85,18 @@ She describes this as a key reason businesses move to open-source models: with a
 self-hosted model, "you actually know that the model is not changing under the
 hood."
 
-[Nasser Qadri](https://datatalks.club/people/nasserqadri.html) connects this to
+[[person:nasserqadri|Nasser Qadri]] connects this to
 evaluation in
 Understanding the AI Engineer
 Role](https://datatalks.club/podcast/s23e07-understanding-ai-engineer-role.html).
 His 53:22 section discusses monitoring agent performance using concepts like
-data drift and concept drift from [MLOps]({{ '/wiki/mlops/' | relative_url }}).
+data drift and concept drift from [[MLOps]].
 He expects AI engineering to adopt these monitoring practices as the field
 matures.
 
 ## Local Models and Model Specialization
 
-[Micheal Lanham](https://datatalks.club/people/micheallanham.html) describes the
+[[person:micheallanham|Micheal Lanham]] describes the
 local model trend in
 [From Game AI to LLM
 Agents](https://datatalks.club/podcast/from-game-ai-to-modern-ai-agents.html).
@@ -122,7 +122,7 @@ spectrum from general LLMs to specialized small models to classic ML.
 
 Meryem's 26:30 section covers fine-tuning purpose. Fine-tuning is for
 specialization, domain adaptation, and tone control. It is not a substitute for
-[retrieval]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}) when
+[[retrieval-augmented-generation|retrieval]] when
 the knowledge changes. She explains that dealing with changing knowledge should
 use retrieval over continuous retraining. Fine-tuning adapts the model to a
 domain or style; retrieval grounds it in current, accurate information.
@@ -141,10 +141,10 @@ though a human in the loop remains essential for production systems.
 
 ## Related Pages
 
-- [AI Infrastructure]({{ '/wiki/ai-infrastructure/' | relative_url }})
-- [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
-- [LLMs]({{ '/wiki/llms/' | relative_url }})
-- [Generative AI]({{ '/wiki/generative-ai/' | relative_url }})
-- [RAG vs Fine-Tuning]({{ '/wiki/rag-vs-fine-tuning/' | relative_url }})
-- [Production]({{ '/wiki/production/' | relative_url }})
-- [MLOps]({{ '/wiki/mlops/' | relative_url }})
+- [[AI Infrastructure]]
+- [[LLM Production Patterns]]
+- [[LLMs]]
+- [[Generative AI]]
+- [[rag-vs-fine-tuning|RAG vs Fine-Tuning]]
+- [[Production]]
+- [[MLOps]]

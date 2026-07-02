@@ -19,9 +19,9 @@ cross-team product and platform decisions. The role still needs technical depth,
 but the podcast discussions don't frame it as a title for the person who writes the most
 model code.
 
-[Tatiana Gabruseva](https://datatalks.club/people/tatianagabruseva.html)
+[[person:tatianagabruseva|Tatiana Gabruseva]]
 summarizes the role as being "paid for my opinion" in
-[Transitioning from Academia to Industry as a Staff AI Engineer](https://datatalks.club/podcast/from-academia-to-staff-ai-engineer-interviews-and-career-growth.html)
+[[podcast:from-academia-to-staff-ai-engineer-interviews-and-career-growth|Transitioning from Academia to Industry as a Staff AI Engineer]]
 at 7:30. She then describes roadmap definition and machine learning design.
 Code review, mentoring, and production delivery appear in the same discussion.
 She also describes cross-functional
@@ -30,10 +30,10 @@ teams appear in the same work.
 
 That makes the staff AI engineer a level concept as much as a job title. The
 role sits above the general
-[AI engineer role]({{ '/wiki/ai-engineer-role/' | relative_url }}) because it
+[[AI engineer role]] because it
 adds broader ownership. Staff AI engineers decide which AI systems should exist,
 guide how teams build them, and make sure many teams can ship them responsibly.
-The role also sits near [leadership]({{ '/wiki/leadership/' | relative_url }})
+The role also sits near [[leadership]]
 because staff engineers influence other teams without necessarily becoming
 people managers.
 
@@ -44,7 +44,7 @@ roughly half the work involved meetings, alignment, and collaboration with
 internal stakeholders. She analyzed strategy, defined roadmaps, agreed with
 other leaders, and set business and technical goals. She also owned delivery and
 impact
-([staff role discussion](https://datatalks.club/podcast/from-academia-to-staff-ai-engineer-interviews-and-career-growth.html),
+([[podcast:from-academia-to-staff-ai-engineer-interviews-and-career-growth|staff role discussion]],
 7:30-11:00).
 
 The technical side didn't disappear. Tatiana mentions machine learning design
@@ -53,11 +53,11 @@ craftsmanship across and beyond the immediate team.
 
 She still chose to keep one day a week for hands-on coding. Her remaining work
 was mostly reviews, documents, roadmaps and decisions
-([staff archetypes](https://datatalks.club/podcast/from-academia-to-staff-ai-engineer-interviews-and-career-growth.html),
+([[podcast:from-academia-to-staff-ai-engineer-interviews-and-career-growth|staff archetypes]],
 11:04-14:23).
 
-[Geo Jolly](https://datatalks.club/people/geojolly.html) draws a useful boundary in
-[Become an ML Product Manager](https://datatalks.club/podcast/ml-product-manager-and-mlops-platform-strategy.html).
+[[person:geojolly|Geo Jolly]] draws a useful boundary in
+[[podcast:ml-product-manager-and-mlops-platform-strategy|Become an ML Product Manager]].
 He says product managers define the problem, outcome, rollout, and stakeholder
 path. Lead or staff engineers help define the solution, architecture, code
 quality, and technical decisions. Staff AI engineers therefore sit between
@@ -72,22 +72,22 @@ act as broad technical advisors to leadership. Others help teams by staying
 more hands-on and mentoring engineers through code. The common thread is that
 the staff engineer changes how other people work, not only what one person
 ships
-([staff archetypes](https://datatalks.club/podcast/from-academia-to-staff-ai-engineer-interviews-and-career-growth.html),
+([[podcast:from-academia-to-staff-ai-engineer-interviews-and-career-growth|staff archetypes]],
 11:04-14:23).
 
 For staff AI engineering, those archetypes map to different AI surfaces. A deep
 specialist may own recommendation quality, computer vision, or retrieval. They
 may also own model evaluation or LLM serving. A horizontal advisor may help
 several teams choose
-between [RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}), fine-tuning, agents, and
+between [[retrieval-augmented-generation|RAG]], fine-tuning, agents, and
 non-AI product logic. A hands-on multiplier may build examples, review
 architecture, and teach teams how to use
-[LLMOps]({{ '/wiki/llm-production-patterns/' | relative_url }}) and
-[MLOps]({{ '/wiki/mlops/' | relative_url }}) practices.
+[[llm-production-patterns|LLMOps]] and
+[[MLOps]] practices.
 
-[Paul Iusztin](https://datatalks.club/people/pauliusztin.html) gives the modern AI
+[[person:pauliusztin|Paul Iusztin]] gives the modern AI
 engineering version in
-[his AI engineering skill-stack episode](https://datatalks.club/podcast/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products.html).
+[[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products|his AI engineering skill-stack episode]].
 He describes AI engineers as people who take models and build the software
 around them. That software includes UI, backend, and infrastructure. Agents and
 RAG matter too. Monitoring, queues, and retries also matter.
@@ -102,12 +102,12 @@ break after the demo. Tatiana's first months at LinkedIn forced this gap into
 view. She had to ramp up on Scala, Spark, Kubernetes, and internal tools. She
 also had to make tech-lead decisions for large-scale recommendation systems she
 hadn't previously shipped
-([onboarding and stack ramp-up](https://datatalks.club/podcast/from-academia-to-staff-ai-engineer-interviews-and-career-growth.html),
+([[podcast:from-academia-to-staff-ai-engineer-interviews-and-career-growth|onboarding and stack ramp-up]],
 3:24-7:30).
 
-[Mariano Semelman](https://datatalks.club/people/marianosemelman.html) supports the
+[[person:marianosemelman|Mariano Semelman]] supports the
 same standard from the production side in
-[From Notebook to Production](https://datatalks.club/podcast/s24e03-from-notebook-to-production-building-end-to-end-ai-systems.html).
+[[podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems|From Notebook to Production]].
 He says his most successful AI and data science projects were the ones where he
 was involved end to end. He named requirements, data, model or model-backed
 application, and deployment. He also named operation, monitoring, and learning
@@ -116,9 +116,9 @@ drift awareness even when they now use model endpoints instead of training every
 model
 (17:27-23:38).
 
-[Bartosz Mikulski](https://datatalks.club/people/bartoszmikulski.html) adds a
+[[person:bartoszmikulski|Bartosz Mikulski]] adds a
 production AI lens in
-[Production AI Engineering](https://datatalks.club/podcast/production-ready-ai-engineering.html).
+[[podcast:production-ready-ai-engineering|Production AI Engineering]].
 He connects trust to tests and verification. If a team can't prove that a data
 pipeline works, it can't confidently defend a model output or dashboard number.
 His examples include snapshot and integration tests for data pipelines. He also
@@ -133,13 +133,13 @@ to insist that production AI has measurable behavior.
 ## Agents, RAG, and Context
 
 Modern staff AI engineering often includes
-[agent engineering]({{ '/wiki/agent-engineering/' | relative_url }}) because
+[[agent engineering]] because
 tool-using systems spread across product and infrastructure. They also cross
 data and evaluation boundaries.
 
-[Ranjitha Kulkarni](https://datatalks.club/people/ranjithakulkarni.html)
+[[person:ranjithakulkarni|Ranjitha Kulkarni]]
 defines agents in
-[Building Agentic AI Systems](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html)
+[[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|Building Agentic AI Systems]]
 as software that completes a task with objectives, LLMs, and tools. Memory and
 knowledge stores are part of that system too. Her on-call automation example shows why staff-level judgment
 matters. The system must read logs, metrics, deployment state, and source code.
@@ -152,20 +152,20 @@ information reaches the model, because long prompts create latency, cost, and
 garbage-in-garbage-out failures. She treats RAG as a tool for reducing a large
 search space, not as a universal architecture. Agents become useful when a team
 needs multiple data sources, dynamic planning, or several API integrations
-([agentic AI systems](https://datatalks.club/podcast/building-agentic-ai-engineering-tooling-retrieval-evaluation.html),
+([[podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation|agentic AI systems]],
 21:21-40:30).
 
 The staff-level responsibility is to choose the simplest architecture that can
 meet the product and reliability bar. Paul's AI engineering episode makes the
 same point with a different vocabulary. He emphasizes ownership of planning and
 execution. He also names operational pieces such as traces and data pipelines
-([AI engineering skill stack](https://datatalks.club/podcast/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products.html),
+([[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products|AI engineering skill stack]],
 42:28-51:11).
 
 Staff AI engineering therefore overlaps with
-[AI agents]({{ '/wiki/agent-engineering/' | relative_url }}),
-[LLM evaluation workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }}),
-and [production search evaluation]({{ '/wiki/production-search-evaluation/' | relative_url }}).
+[[agent-engineering|AI agents]],
+[[LLM evaluation workflows]],
+and [[production search evaluation]].
 
 ## Platform and MLOps Collaboration
 
@@ -178,7 +178,7 @@ collaboration.
 For ETL pipelines, she sometimes implemented pieces herself. Usually she decided
 what needed to be done, mentored the people implementing it, and reviewed the
 code
-([MLOps and ETL collaboration](https://datatalks.club/podcast/from-academia-to-staff-ai-engineer-interviews-and-career-growth.html),
+([[podcast:from-academia-to-staff-ai-engineer-interviews-and-career-growth|MLOps and ETL collaboration]],
 51:10-52:19).
 
 Geo's MLOps platform episode shows the platform surface around that work. His
@@ -190,7 +190,7 @@ Deployment, serving and batch consumption also belonged to the platform, and
 CI/CD did as well.
 
 The platform also used Jenkins and Spinnaker, plus internal support queues
-([ML platform engineering roles](https://datatalks.club/podcast/ml-product-manager-and-mlops-platform-strategy.html),
+([[podcast:ml-product-manager-and-mlops-platform-strategy|ML platform engineering roles]],
 37:48-40:14).
 
 Staff AI engineers who work near platforms need to understand how those pieces
@@ -198,9 +198,9 @@ affect model delivery. Backend engineers, system engineers, data engineers, and
 product managers may still own separate parts.
 
 Staff AI engineering therefore overlaps with
-[ML platforms]({{ '/wiki/ml-platforms/' | relative_url }}),
-[data engineering platforms]({{ '/wiki/data-engineering-platforms/' | relative_url }}),
-and [platform adoption]({{ '/wiki/platform-adoption/' | relative_url }}).
+[[ML platforms]],
+[[data engineering platforms]],
+and [[platform adoption]].
 The staff engineer's contribution isn't only picking tools. They help
 teams decide where platform conventions, observability, release rules, and
 support paths should exist so that production AI can scale beyond one heroic
@@ -213,7 +213,7 @@ manager title. Her examples include mentoring engineers beyond her team
 and reviewing designs and code. She also joined hiring and promotion committees,
 then aligned with leaders across functions. She describes heavy context
 switching across several projects and many teams
-([staff role discussion](https://datatalks.club/podcast/from-academia-to-staff-ai-engineer-interviews-and-career-growth.html),
+([[podcast:from-academia-to-staff-ai-engineer-interviews-and-career-growth|staff role discussion]],
 7:30-14:23 and 52:19-54:13).
 
 That leadership is technical and organizational at the same time. In AI work,
@@ -225,7 +225,7 @@ Mariano's production episode connects this to requirements
 translation and ground truth. Teams still need people who can challenge business
 requirements and define machine learning terms. They also need people who decide
 how explicit or implicit feedback becomes evaluation data
-([business-to-ML requirements](https://datatalks.club/podcast/s24e03-from-notebook-to-production-building-end-to-end-ai-systems.html),
+([[podcast:s24e03-from-notebook-to-production-building-end-to-end-ai-systems|business-to-ML requirements]],
 37:39-42:38).
 
 Staff AI engineers lead through decisions, documents, and architecture review.
@@ -241,7 +241,7 @@ She argues that senior candidates don't always need to restart at junior level
 when they already have evidence of ownership, leadership, mentorship, and
 roadmapping. Grants and collaborators can support the same case. So can budgets
 and applied projects
-([career leveling discussion](https://datatalks.club/podcast/from-academia-to-staff-ai-engineer-interviews-and-career-growth.html),
+([[podcast:from-academia-to-staff-ai-engineer-interviews-and-career-growth|career leveling discussion]],
 19:08-27:50).
 
 Candidates still need to translate that evidence. Tatiana says she became more
@@ -249,7 +249,7 @@ effective when she stopped over-explaining lasers. She instead framed her work
 through collaboration, alignment, and delivery. Industry partnerships and
 applied projects supported that framing. She also recommends comparing previous
 experience with lead, tech-lead, and staff role expectations before interviewing
-([career leveling discussion](https://datatalks.club/podcast/from-academia-to-staff-ai-engineer-interviews-and-career-growth.html),
+([[podcast:from-academia-to-staff-ai-engineer-interviews-and-career-growth|career leveling discussion]],
 21:26-27:50).
 
 The technical interview bar still mattered. Tatiana failed early coding
@@ -257,13 +257,13 @@ interviews, then prepared heavily with LeetCode, mock interviews, and company
 engineering blogs. She also practiced ML design and system design. Her staff-level
 interviews rewarded ML design, system design, behavioral evidence, and cultural
 fit. A coding gap could still block the offer
-([interview preparation](https://datatalks.club/podcast/from-academia-to-staff-ai-engineer-interviews-and-career-growth.html),
+([[podcast:from-academia-to-staff-ai-engineer-interviews-and-career-growth|interview preparation]],
 28:25-49:09).
 
 For adjacent transition guidance, see
-[academic researcher to data science]({{ '/wiki/academic-researcher-to-data-science/' | relative_url }}),
-[career transitions in data]({{ '/wiki/career-transitions-in-data/' | relative_url }}),
-and [career growth]({{ '/wiki/career-growth/' | relative_url }}).
+[[academic researcher to data science]],
+[[career transitions in data]],
+and [[career growth]].
 
 ## Role Fit
 
@@ -279,33 +279,33 @@ direct conversation. Tatiana notes that startups with one or two teams may not
 need a special coordination role. Larger organizations need someone who can
 align product, legal, data, and ML work. The same person may need to align UI,
 platform, and engineering work
-([staff role fit](https://datatalks.club/podcast/from-academia-to-staff-ai-engineer-interviews-and-career-growth.html),
+([[podcast:from-academia-to-staff-ai-engineer-interviews-and-career-growth|staff role fit]],
 11:04-20:16).
 
 In smaller companies, Paul's founding AI engineer version may be closer. One
 person owns more of the end-to-end product directly. That can cover UI, backend,
 and RAG. It can also cover agents, infrastructure, and monitoring
-([AI engineering skill stack](https://datatalks.club/podcast/s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products.html),
+([[podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products|AI engineering skill stack]],
 23:08-30:51).
 
 ## Related Pages
 
 These related pages cover the adjacent role, production, and platform topics:
 
-- [AI Engineer Role]({{ '/wiki/ai-engineer-role/' | relative_url }}) for the
+- [[AI Engineer Role]] for the
   broader role boundary before staff-level scope.
-- [AI Engineering Roadmap]({{ '/wiki/ai-engineering-roadmap/' | relative_url }})
+- [[AI Engineering Roadmap]]
   for software and RAG in one learning path, with evaluation, agents, and
   operation.
-- [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
+- [[LLM Production Patterns]]
   for model choice and retrieval. It also covers agents and evaluation, plus
   cost and latency.
-- [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }}) and
-  [AI Agents]({{ '/wiki/agent-engineering/' | relative_url }}) for tool-using AI
+- [[Agent Engineering]] and
+  [[agent-engineering|AI Agents]] for tool-using AI
   systems.
-- [MLOps]({{ '/wiki/mlops/' | relative_url }}) and
-  [ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }}) for deployment,
+- [[MLOps]] and
+  [[ML Platforms]] for deployment,
   observability, platform support, and production ownership.
-- [Leadership]({{ '/wiki/leadership/' | relative_url }}) and
-  [Career Growth]({{ '/wiki/career-growth/' | relative_url }}) for senior IC
+- [[Leadership]] and
+  [[Career Growth]] for senior IC
   influence, mentoring, and leveling.

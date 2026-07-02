@@ -16,14 +16,14 @@ boundary the team intended.
 
 DataTalks.Club guests anchor this topic in production systems, not only
 model benchmarks. In
-[Hardening Generative AI Chatbots](https://datatalks.club/podcast/generative-ai-chatbots-in-production-security.html),
-[Maria Sukhareva](https://datatalks.club/people/mariasukhareva.html) describes a
+[[podcast:generative-ai-chatbots-in-production-security|Hardening Generative AI Chatbots]],
+[[person:mariasukhareva|Maria Sukhareva]] describes a
 large chatbot hacking exercise at 9:28. Participants tried to make a restricted
 assistant reveal hidden knowledge-base content and produce answers the product
 should block. In that example, red teaming tests
-[security]({{ '/wiki/security/' | relative_url }}) failures in
-[LLMs]({{ '/wiki/llms/' | relative_url }}) and
-[generative AI]({{ '/wiki/generative-ai/' | relative_url }}) products.
+[[security]] failures in
+[[LLMs]] and
+[[generative AI]] products.
 
 ## Adversarial Test Scope
 
@@ -34,18 +34,18 @@ failures.
 For a chatbot, the test target includes the prompt and retrieved documents. It
 also includes output filters, the user interface, and the handoff path. Maria's
 13:20 chapter in
-[Hardening Generative AI Chatbots](https://datatalks.club/podcast/generative-ai-chatbots-in-production-security.html)
+[[podcast:generative-ai-chatbots-in-production-security|Hardening Generative AI Chatbots]]
 covers overloaded prompts and knowledge-base retrieval as data-exfiltration
 paths. The model is only one part of the system. A red-team exercise has to
-test the whole [retrieval-augmented generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
+test the whole [[retrieval-augmented-generation|retrieval-augmented generation]]
 flow when the assistant can read private or semi-private content.
 
 For agents, the target grows to include tools, memory, and logs. It also
 includes permissions and automation boundaries.
 
 In
-[The Future of AI Agents](https://datatalks.club/podcast/s23e03-future-of-ai-agents.html),
-[Aditya Gautam](https://datatalks.club/people/adityagautam.html) connects
+[[podcast:s23e03-future-of-ai-agents|The Future of AI Agents]],
+[[person:adityagautam|Aditya Gautam]] connects
 enterprise agents to guardrails and auditability at 30:26. He also ties them
 to lineage and compliance. Later, at 43:30 and 50:18, he connects evaluation to
 golden datasets and LLM judges. He also brings in human labels and scale. Red
@@ -60,23 +60,23 @@ different risks.
 Maria starts from user-facing chatbot abuse, and her episode focuses on prompt
 injection and hidden-content extraction. It also covers hallucinated commitments
 and layered defenses. At 16:15 and 17:00 in
-[Hardening Generative AI Chatbots](https://datatalks.club/podcast/generative-ai-chatbots-in-production-security.html),
+[[podcast:generative-ai-chatbots-in-production-security|Hardening Generative AI Chatbots]],
 she discusses output validation, query analysis, and non-LLM classifiers. Her
 view fits production LLM systems where a team needs controls around the model,
 retrieval system, and product surface.
 
 Aditya starts from agent reliability and enterprise deployment. In
-[The Future of AI Agents](https://datatalks.club/podcast/s23e03-future-of-ai-agents.html),
+[[podcast:s23e03-future-of-ai-agents|The Future of AI Agents]],
 the 13:13 chapter discusses reliability in legal and healthcare settings. The
 56:40 chapter covers deployment risks. His framing pushes red teaming toward
-[agent engineering]({{ '/wiki/agent-engineering/' | relative_url }}).
+[[agent engineering]].
 
 Teams have to test whether someone can game the agent, trigger the wrong tool,
 bypass a guardrail, or create failures that only appear at scale.
 
-[Supreet Kaur](https://datatalks.club/people/supreetkaur.html) starts from
+[[person:supreetkaur|Supreet Kaur]] starts from
 responsible AI and governance. In
-[Responsible & Explainable AI](https://datatalks.club/podcast/responsible-explainable-ai-bias-detection.html),
+[[podcast:responsible-explainable-ai-bias-detection|Responsible & Explainable AI]],
 she distinguishes explainable AI from responsible AI at 8:20. At 14:39 and
 17:20, she discusses PII handling and feature necessity. She also brings in
 product owners, subject matter experts, and compliance. Her view matters when
@@ -95,8 +95,8 @@ Prompt injection is one failure mode. A user can add instructions that compete
 with the system prompt or ask the model to ignore the product rules. Documents
 retrieved by the system can also include hostile text. That's why the problem
 belongs near
-[RAG]({{ '/wiki/retrieval-augmented-generation/' | relative_url }}) and
-[embeddings]({{ '/wiki/embeddings/' | relative_url }}), not only near prompt
+[[retrieval-augmented-generation|RAG]] and
+[[embeddings]], not only near prompt
 writing. Maria's 13:20 data-exfiltration chapter ties that risk to overloaded
 prompts and knowledge-base retrieval.
 
@@ -122,7 +122,7 @@ They should test those controls with adversarial prompts and encoded
 instructions. They should also test attempted data extraction and requests that
 look safe until the system includes retrieved context.
 
-This is where [Security]({{ '/wiki/security/' | relative_url }}) and AI red
+This is where [[Security]] and AI red
 teaming split. Security covers access controls, privacy, secure model
 artifacts, and deployment approvals. AI red teaming asks whether the AI behavior
 still respects those controls when the user tries to manipulate the system.
@@ -134,15 +134,15 @@ failures found in a live exercise. It can then preserve them as regression tests
 for prompts, retrieval changes, model updates, and agent releases.
 
 Aditya's evaluation discussion in
-[The Future of AI Agents](https://datatalks.club/podcast/s23e03-future-of-ai-agents.html)
+[[podcast:s23e03-future-of-ai-agents|The Future of AI Agents]]
 supports this approach. At 43:30, he discusses evaluating agents for
 multi-tenancy and scale. At 50:18, he discusses aligning LLM judges with human
 labels. Red-team cases need the same discipline because a judge can miss the
 risk if it only scores helpfulness or semantic similarity.
 
 Red-team work therefore depends on
-[LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }})
-and [Evaluation]({{ '/wiki/evaluation/' | relative_url }}). The evaluation
+[[LLM Evaluation Workflows]]
+and [[Evaluation]]. The evaluation
 should verify whether the system refuses, routes to review, limits retrieval,
 or answers with enough uncertainty. A single accuracy score usually hides those
 outcomes.
@@ -150,7 +150,7 @@ outcomes.
 ## Production Controls
 
 Red teaming is useful only when teams turn findings into controls. In
-[Hardening Generative AI Chatbots](https://datatalks.club/podcast/generative-ai-chatbots-in-production-security.html),
+[[podcast:generative-ai-chatbots-in-production-security|Hardening Generative AI Chatbots]],
 Maria's 25:34 chapter covers human-in-the-loop review. That review path matters
 when the system handles high-stakes requests, ambiguous user intent, or outputs
 that can harm trust.
@@ -172,7 +172,7 @@ the failure reviewable.
 
 Governance decides which failures are unacceptable and who can approve the
 tradeoff. Supreet's
-[Responsible & Explainable AI](https://datatalks.club/podcast/responsible-explainable-ai-bias-detection.html)
+[[podcast:responsible-explainable-ai-bias-detection|Responsible & Explainable AI]]
 episode makes this explicit. At 27:38, she discusses cross-functional
 governance with subject matter experts, compliance, and leadership. At 35:28,
 she covers human oversight and the limits of automation.
@@ -184,9 +184,9 @@ what data the assistant can access and what advice it can give. It also has to
 decide when a person must review the answer and how incidents are reported.
 
 For broader policy and accountability, use
-[Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }}),
-[Governance]({{ '/wiki/governance/' | relative_url }}), and
-[Data Governance]({{ '/wiki/data-governance/' | relative_url }}). AI red
+[[Responsible AI and Governance]],
+[[Governance]], and
+[[Data Governance]]. AI red
 teaming supplies evidence for those pages. It produces concrete failures,
 concrete controls, and a record of which risks the team accepted.
 
@@ -194,10 +194,10 @@ concrete controls, and a record of which risks the team accepted.
 
 AI red teaming sits closest to these DataTalks.Club topic pages:
 
-- [Security]({{ '/wiki/security/' | relative_url }})
-- [LLM Evaluation Workflows]({{ '/wiki/llm-evaluation-workflows/' | relative_url }})
-- [Responsible AI and Governance]({{ '/wiki/responsible-ai-and-governance/' | relative_url }})
-- [Generative AI]({{ '/wiki/generative-ai/' | relative_url }})
-- [LLMs]({{ '/wiki/llms/' | relative_url }})
-- [Retrieval-Augmented Generation]({{ '/wiki/retrieval-augmented-generation/' | relative_url }})
-- [Agent Engineering]({{ '/wiki/agent-engineering/' | relative_url }})
+- [[Security]]
+- [[LLM Evaluation Workflows]]
+- [[Responsible AI and Governance]]
+- [[Generative AI]]
+- [[LLMs]]
+- [[retrieval-augmented-generation|Retrieval-Augmented Generation]]
+- [[Agent Engineering]]

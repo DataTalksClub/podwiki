@@ -16,17 +16,17 @@ compression, prompt caching, model size selection, and the broader discipline of
 cost-aware platform design. As LLM usage scales, cost becomes a competitive
 differentiator rather than just a budget concern.
 
-[Bartosz Mikulski](https://datatalks.club/people/bartoszmikulski.html) provides
+[[person:bartoszmikulski|Bartosz Mikulski]] provides
 the most direct treatment of these techniques in
-[Production AI Engineering](https://datatalks.club/podcast/production-ready-ai-engineering.html).
+[[podcast:production-ready-ai-engineering|Production AI Engineering]].
 His 28:16 section covers prompt evaluation and cost tradeoffs, followed by
 prompt compression and prompt caching as model-efficiency tools.
 
 This topic connects to
 [AI Infrastructure Cost and
 Ownership]({{ '/wiki/ai-infrastructure-cost-and-ownership/' | relative_url }}),
-[LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }}),
-and [LLM Deployment]({{ '/wiki/llm-deployment/' | relative_url }}).
+[[LLM Production Patterns]],
+and [[LLM Deployment]].
 
 ## Prompt Compression: Token Optimization
 
@@ -37,15 +37,15 @@ as a standard part of production AI engineering, alongside prompt evaluation and
 testing.
 
 The connection to
-[Context Engineering]({{ '/wiki/context-engineering/' | relative_url }}) is
+[[Context Engineering]] is
 direct: both disciplines focus on reducing noise in the prompt. Context
 engineering frames this as improving model accuracy by removing irrelevant
 information. Cost optimization frames the same reduction as cutting token
 expense. The techniques overlap.
 
-[Hugo Bowne-Anderson](https://datatalks.club/people/hugobowneanderson.html) makes
+[[person:hugobowneanderson|Hugo Bowne-Anderson]] makes
 a related point in
-[Practical LLM Engineering and RAG](https://datatalks.club/podcast/practical-llm-engineering-and-rag.html).
+[[podcast:practical-llm-engineering-and-rag|Practical LLM Engineering and RAG]].
 His 46:39 discussion of context rot notes that giving too much context reduces
 precision and relevance. The same principle applies to cost: excess context
 wastes tokens and money while degrading output quality.
@@ -59,14 +59,14 @@ prompt prefixes, reducing both latency and cost. This is especially valuable for
 agents and multi-turn systems where the same system prompt or context is sent
 repeatedly.
 
-[Caching]({{ '/wiki/caching/' | relative_url }}) as a concept appears across
+[[Caching]] as a concept appears across
 the podcast, but LLM prompt caching is more specific: it caches the model's
 internal computation, not just the final output. This makes it relevant for
 systems that send long, stable prompts with varying user queries appended.
 
 ## Latency and Cost Tradeoffs
 
-[Meryem Arik](https://datatalks.club/people/meryemarik.html) covers latency and
+[[person:meryemarik|Meryem Arik]] covers latency and
 cost tradeoffs in
 [Deploying LLMs in
 Production](https://datatalks.club/podcast/deploying-llms-in-production-fine-tuning-retrieval-open-source-api.html).
@@ -81,7 +81,7 @@ open-source models reduces both cost and latency. The migration requires more
 engineering effort, but tools like TitanML's Takeoff server and other inference
 servers make it easier.
 
-[Micheal Lanham](https://datatalks.club/people/micheallanham.html) adds the
+[[person:micheallanham|Micheal Lanham]] adds the
 latency perspective in
 [From Game AI to LLM
 Agents](https://datatalks.club/podcast/from-game-ai-to-modern-ai-agents.html).
@@ -92,7 +92,7 @@ throughput.
 
 ## The Competitive Advantage of Cost-Aware Engineering
 
-[Slawomir Tulski](https://datatalks.club/people/slawomirtulski.html) makes cost
+[[person:slawomirtulski|Slawomir Tulski]] makes cost
 awareness a competitive advantage in
 [Data Engineer Career in
 2026](https://datatalks.club/podcast/s23e06-data-engineer-career-in-2026-roles-specializations-and-what-companies-look-for.html).
@@ -115,7 +115,7 @@ not just a technical skill but a signal of engineering judgment.
 
 ## Cost Considerations in Product Patterns
 
-[Sandra Kublik](https://datatalks.club/people/sandrakublik.html) touches on cost
+[[person:sandrakublik|Sandra Kublik]] touches on cost
 as a product decision in
 [Practical LLM Use
 Cases](https://datatalks.club/podcast/practical-llm-use-cases-and-product-patterns.html).
@@ -126,10 +126,10 @@ concern rather than only an engineering detail.
 
 ## Related Pages
 
-- [AI Infrastructure Cost and Ownership]({{ '/wiki/ai-infrastructure-cost-and-ownership/' | relative_url }})
-- [LLM Production Patterns]({{ '/wiki/llm-production-patterns/' | relative_url }})
-- [LLM Deployment]({{ '/wiki/llm-deployment/' | relative_url }})
-- [Prompt Engineering]({{ '/wiki/prompt-engineering/' | relative_url }})
-- [Context Engineering]({{ '/wiki/context-engineering/' | relative_url }})
-- [Caching]({{ '/wiki/caching/' | relative_url }})
-- [AI Engineering]({{ '/wiki/ai-engineering/' | relative_url }})
+- [[AI Infrastructure Cost and Ownership]]
+- [[LLM Production Patterns]]
+- [[LLM Deployment]]
+- [[Prompt Engineering]]
+- [[Context Engineering]]
+- [[Caching]]
+- [[AI Engineering]]

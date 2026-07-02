@@ -14,26 +14,26 @@ related:
 ---
 
 A feature store is an operational data system for
-[machine learning]({{ '/wiki/machine-learning/' | relative_url }}) features.
+[[machine learning]] features.
 In
-[Feature Stores for MLOps](https://datatalks.club/podcast/mlops-feature-stores-feature-stores-feast-tecton.html),
-[Willem Pienaar](https://datatalks.club/people/willempienaar.html) defines it
+[[podcast:mlops-feature-stores-feature-stores-feast-tecton|Feature Stores for MLOps]],
+[[person:willempienaar|Willem Pienaar]] defines it
 around 6:43 as a system built for production feature problems. Those problems
 include moving offline features into online serving, keeping training and
 serving consistent, sharing transformation code, and avoiding duplicated
 feature logic.
 
 The DataTalks.Club discussions place feature stores inside
-[MLOps]({{ '/wiki/mlops/' | relative_url }}),
-[ML platforms]({{ '/wiki/ml-platforms/' | relative_url }}), and
-[machine learning infrastructure]({{ '/wiki/machine-learning-infrastructure/' | relative_url }}).
- [Python Feature Engineering Cookbook](https://datatalks.club/books/20210920-python-feature-engineering-cookbook.html)
+[[MLOps]],
+[[ML platforms]], and
+[[machine learning infrastructure]].
+ [[book:20210920-python-feature-engineering-cookbook|Python Feature Engineering Cookbook]]
  by Soledad Galli covers the upstream engineering of the features that flow
  into a store like this.
 They aren't a generic replacement for a
-[data warehouse]({{ '/wiki/data-warehouse/' | relative_url }}),
-[data lake]({{ '/wiki/data-lake/' | relative_url }}), catalog, or
-[data pipeline]({{ '/wiki/data-pipelines/' | relative_url }}). Their special
+[[data warehouse]],
+[[data lake]], catalog, or
+[[data-pipelines|data pipeline]]. Their special
 job is to bridge feature creation, training data construction, and low-latency
 serving for production ML.
 
@@ -43,7 +43,7 @@ The feature-store episode gives a practical definition rather than a
 vendor-specific one. A feature store sits between source data and production ML
 systems. Willem describes source systems as streams, warehouses, and lakes
 around 9:27 in
-[Feature Stores for MLOps](https://datatalks.club/podcast/mlops-feature-stores-feature-stores-feast-tecton.html).
+[[podcast:mlops-feature-stores-feature-stores-feast-tecton|Feature Stores for MLOps]].
 The feature-store layer turns selected columns, entities, and transforms into
 features that models can use in training and online inference.
 
@@ -51,15 +51,15 @@ The store gives teams a shared place to publish feature definitions and reuse
 them across projects. Willem uses the example of fraud and analytics teams both
 modeling user entities around 20:52. That duplication becomes an
 organizational inefficiency
-([Feature Stores for MLOps](https://datatalks.club/podcast/mlops-feature-stores-feature-stores-feast-tecton.html)).
+([[podcast:mlops-feature-stores-feature-stores-feast-tecton|Feature Stores for MLOps]]).
 The store also keeps offline training data and online serving data aligned,
 which reduces training-serving skew. Its serving APIs let online models fetch
 features by entity key with predictable latency instead of running arbitrary
 SQL at request time.
 
 The same theme appears from the production side in
-[Production ML, MLOps, and Data Team Building](https://datatalks.club/podcast/production-ml-mlops-and-data-team-building.html).
-[Rishabh Bhargava](https://datatalks.club/people/rishabhbhargava.html) describes
+[[podcast:production-ml-mlops-and-data-team-building|Production ML, MLOps, and Data Team Building]].
+[[person:rishabhbhargava|Rishabh Bhargava]] describes
 production ML around 14:25 as either a live API that returns predictions or
 batch predictions stored for later consumption. Feature stores are most useful
 for the live API case when a model needs fresh entity features before it
@@ -72,34 +72,34 @@ machinery a team needs around them.
 
 Willem argues that feature stores solve real technical and organizational
 problems. He says around 8:50 in
-[Feature Stores for MLOps](https://datatalks.club/podcast/mlops-feature-stores-feature-stores-feast-tecton.html)
+[[podcast:mlops-feature-stores-feature-stores-feast-tecton|Feature Stores for MLOps]]
 that Feast leaves transformations outside the tool. Tecton includes
 transformations in its broader scope. At 29:14 he frames Feast as a smaller
 tool that can fit into a larger stack.
 Tecton is a fuller platform for teams that want more of the lifecycle packaged
 together.
 
-[Thom Ives](https://datatalks.club/people/thomives.html) gives the adjacent data
+[[person:thomives|Thom Ives]] gives the adjacent data
 science view in
-[Feature Engineering and Model Monitoring](https://datatalks.club/podcast/feature-engineering-model-monitoring-and-data-governance.html).
+[[podcast:feature-engineering-model-monitoring-and-data-governance|Feature Engineering and Model Monitoring]].
 Around 31:44-39:14, he focuses on feature conditioning and feature selection.
 He also covers engineered features, scaling, and business interpretation. That
 discussion doesn't require a feature store. It explains why feature logic has
 to remain meaningful to the business problem, not just convenient to serve.
 
 Rishabh adds another boundary from production ML operations. Around 33:41 in
-[Production ML](https://datatalks.club/podcast/production-ml-mlops-and-data-team-building.html),
+[[podcast:production-ml-mlops-and-data-team-building|Production ML]],
 he emphasizes data quality, efficient storage, and processing. He also names
 lineage and early error detection. A feature store can support those needs for
 ML features. It doesn't remove the broader need for reliable
-[data engineering]({{ '/wiki/data-engineering/' | relative_url }}) and
-[data quality]({{ '/wiki/data-quality-and-observability/' | relative_url }})
+[[data engineering]] and
+[[data-quality-and-observability|data quality]]
 work upstream.
 
 ## Online and Offline Consistency
 
 Online-offline consistency is central here. Willem says around 7:14 in
-[Feature Stores for MLOps](https://datatalks.club/podcast/mlops-feature-stores-feature-stores-feast-tecton.html)
+[[podcast:mlops-feature-stores-feature-stores-feast-tecton|Feature Stores for MLOps]]
 that models require consistency between offline and online environments. That
 means training data and production serving need matching semantics. Around
 26:54, he describes Feast as ingesting precomputed batch and stream features.
@@ -115,9 +115,9 @@ instead of leaving every project to rebuild the path from warehouse tables to
 online serving.
 
 The idea also explains why feature stores sit near the
-[model registry]({{ '/wiki/model-registry/' | relative_url }}) but don't
+[[model registry]] but don't
 replace it. Willem describes a feature-store registry around 31:11 in
-[Feature Stores for MLOps](https://datatalks.club/podcast/mlops-feature-stores-feature-stores-feast-tecton.html).
+[[podcast:mlops-feature-stores-feature-stores-feast-tecton|Feature Stores for MLOps]].
 
 Teams register schemas and sources. They also register entities and
 transformations so the system can create tables or run jobs. A model registry
@@ -127,7 +127,7 @@ definitions those models depend on.
 ## Materialization and Retrieval APIs
 
 Around 10:21-11:30 in
-[Feature Stores for MLOps](https://datatalks.club/podcast/mlops-feature-stores-feature-stores-feast-tecton.html),
+[[podcast:mlops-feature-stores-feature-stores-feast-tecton|Feature Stores for MLOps]],
 Willem separates feature creation from feature retrieval. Feature creation can
 use several interfaces. Willem names SQL and Python. PySpark, Spark SQL, and
 warehouse SQL also appear in the discussion. The exact interface depends on the
@@ -160,7 +160,7 @@ as Hive and BigQuery. He also names Redshift, Snowflake, and Delta.
 
 Feature stores precompute most feature logic and still support request-time
 context for some features. Willem uses fraud detection around 11:30 in
-[Feature Stores for MLOps](https://datatalks.club/podcast/mlops-feature-stores-feature-stores-feast-tecton.html)
+[[podcast:mlops-feature-stores-feature-stores-feast-tecton|Feature Stores for MLOps]]
 as the example. An incoming order or booking includes live data that must be
 transformed at the moment of prediction.
 
@@ -171,8 +171,8 @@ he compares Flink, Beam, and Spark for real-time feature engineering. He notes
 Spark's ecosystem and connector support in Feast deployments.
 
 For the broader streaming context, see
-[Streaming]({{ '/wiki/streaming/' | relative_url }}) and
-[Batch vs Streaming]({{ '/wiki/batch-vs-streaming/' | relative_url }}).
+[[Streaming]] and
+[[Batch vs Streaming]].
 
 Around 39:06-41:16, Willem sets a boundary for unstructured data. Feature
 stores are strongest for online tabular models, so storing a raw image in one
@@ -182,10 +182,10 @@ downstream model can reuse that probability or class flag.
 ## Validation, Monitoring, and Drift
 
 Feature stores are part of
-[model monitoring]({{ '/wiki/model-monitoring/' | relative_url }}) because bad
+[[model monitoring]] because bad
 features can break a model even when the model service is healthy. Around 7:50
 and 31:42 in
-[Feature Stores for MLOps](https://datatalks.club/podcast/mlops-feature-stores-feature-stores-feast-tecton.html),
+[[podcast:mlops-feature-stores-feature-stores-feast-tecton|Feature Stores for MLOps]],
 Willem discusses monitoring features and checking valid data. He also covers
 row counts, distributions, and logging served features back to the warehouse
 to detect drift.
@@ -199,7 +199,7 @@ to copy the same serving-time checks into every model.
 
 Thom's monitoring discussion gives the reason this matters after launch. Around
 47:30 in
-[Feature Engineering and Model Monitoring](https://datatalks.club/podcast/feature-engineering-model-monitoring-and-data-governance.html),
+[[podcast:feature-engineering-model-monitoring-and-data-governance|Feature Engineering and Model Monitoring]],
 he describes data drift and concept drift. He also describes the need to keep
 challenging whether a production model remains the right model. Feature stores
 expose feature-level signals that give those maintenance reviews specific data
@@ -210,7 +210,7 @@ to look at.
 Willem compares Feast and Tecton through scope rather than a generic vendor
 ranking. He created Feast at Gojek and later worked on it at Tecton. He
 describes both in
-[Feature Stores for MLOps](https://datatalks.club/podcast/mlops-feature-stores-feature-stores-feast-tecton.html).
+[[podcast:mlops-feature-stores-feature-stores-feast-tecton|Feature Stores for MLOps]].
 
 Feast is presented around 25:47-26:54 as an open-source feature store. Willem
 says it addresses online-offline consistency, production feature publishing,
@@ -243,7 +243,7 @@ cost.
 
 These discussions don't support treating feature stores as mandatory for every
 ML project. Willem is explicit around 32:56 and 38:01 in
-[Feature Stores for MLOps](https://datatalks.club/podcast/mlops-feature-stores-feature-stores-feast-tecton.html).
+[[podcast:mlops-feature-stores-feature-stores-feast-tecton|Feature Stores for MLOps]].
 
 If a team only needs batch processing or batch scoring, it may be fine with SQL,
 BigQuery ML, and dbt. Existing validation checks and warehouse workflows may be
@@ -261,7 +261,7 @@ accelerates. It also helps when use cases multiply and teams start working
 independently.
 
 For that reason, feature stores should be evaluated like other
-[MLOps tools]({{ '/wiki/mlops-tools/' | relative_url }}). Start from repeated
+[[MLOps tools]]. Start from repeated
 pain, not from a reference architecture checklist. Useful signals include
 duplicated feature logic and train-serving skew. Slow handoffs from data
 science to engineering matter too. Online tabular models and real-time feature
@@ -274,14 +274,14 @@ transaction, and product entities can play the same role.
 
 These pages cover the nearby platform and lifecycle concepts:
 
-- [MLOps]({{ '/wiki/mlops/' | relative_url }}) for the operating discipline
+- [[MLOps]] for the operating discipline
   around production ML.
-- [ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }}) for the platform
+- [[ML Platforms]] for the platform
   services that surround feature stores.
-- [Machine Learning Tools]({{ '/wiki/machine-learning-tools/' | relative_url }})
+- [[Machine Learning Tools]]
   for where feature stores fit in the broader tooling map.
-- [Streaming]({{ '/wiki/streaming/' | relative_url }}) for real-time source
+- [[Streaming]] for real-time source
   data and online ML use cases.
-- [Model Registry]({{ '/wiki/model-registry/' | relative_url }}) and
-  [Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }}) for the
+- [[Model Registry]] and
+  [[Model Monitoring]] for the
   neighboring lifecycle services.

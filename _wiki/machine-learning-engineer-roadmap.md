@@ -17,24 +17,24 @@ related_wiki:
 A machine learning engineer roadmap should lead to a model-backed system that
 you can test and deploy. You should also be able to monitor it and change it
 when source data or serving constraints change. In
-[Data Team Roles Explained](https://datatalks.club/podcast/data-team-roles.html),
+[[podcast:data-team-roles|Data Team Roles Explained]],
 the 17:04 and 40:10 sections separate model work from online and batch serving.
 That split makes this path different from a data science study plan.
 
 You still need modeling, metrics, and data understanding. You also need
-[software engineering]({{ '/wiki/software-engineering/' | relative_url }}),
+[[software engineering]],
 APIs, and deployment, then
-[MLOps]({{ '/wiki/mlops/' | relative_url }}) and
-[model monitoring]({{ '/wiki/model-monitoring/' | relative_url }}) once the
+[[MLOps]] and
+[[model monitoring]] once the
 model affects a real decision.
 
 Use this page as the build sequence:
 
-- [Machine Learning Engineer Role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }})
+- [[Machine Learning Engineer Role]]
   defines the role boundary.
-- [Machine Learning Engineer vs Data Scientist]({{ '/wiki/machine-learning-engineer-vs-data-scientist/' | relative_url }})
+- [[Machine Learning Engineer vs Data Scientist]]
   explains the adjacent role comparison.
-- [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
+- [[Machine Learning Portfolio Projects]]
   helps you choose projects that show deployment and operations work.
 
 ## Start With Production Ownership
@@ -43,9 +43,9 @@ A machine learning engineer turns model work into usable software. The model is
 only one part of the job. You also need input data, validation, and inference
 code. Add a serving path, logs, tests, and a recovery plan for model failures.
 
-[Ben Wilson](https://datatalks.club/people/benwilson.html) gives the production
+[[person:benwilson|Ben Wilson]] gives the production
 version in
-[Practical Machine Learning Engineering for Production](https://datatalks.club/podcast/machine-learning-engineering-production-best-practices.html).
+[[podcast:machine-learning-engineering-production-best-practices|Practical Machine Learning Engineering for Production]].
 At 6:50 and 8:49, he connects production ML to maintainability, modular code,
 and tests. At 44:23, he argues for SQL or statistics before deep learning when
 that solves the problem. Start with simple systems that work. A baseline with
@@ -53,10 +53,10 @@ tests and monitoring is better evidence than a larger notebook with no
 operating path.
 
 This is also why the roadmap should move from modeling to system ownership.
-[MLOps]({{ '/wiki/mlops/' | relative_url }}),
-[Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }}),
+[[MLOps]],
+[[Machine Learning System Design]],
 and
-[Production ML Project Checklist]({{ '/wiki/production-ml-project-checklist/' | relative_url }})
+[[Production ML Project Checklist]]
 become part of the learning path once a model affects a user or business
 decision.
 
@@ -64,8 +64,8 @@ decision.
 
 Start with Python, SQL, and ML fundamentals, then move quickly into projects.
 In
-[Software Engineer to Machine Learning](https://datatalks.club/podcast/from-software-engineer-to-machine-learning.html),
-[Santiago Valdarrama](https://datatalks.club/people/svpino.html) recommends
+[[podcast:from-software-engineer-to-machine-learning|Software Engineer to Machine Learning]],
+[[person:svpino|Santiago Valdarrama]] recommends
 projects early at 17:25. At 33:10, he names Python with NumPy, pandas, and
 scikit-learn as practical foundations. At 46:39 and 49:23, he expands the path
 to data pipelines, deployment, and monitoring. APIs, Docker, and cloud basics
@@ -80,14 +80,14 @@ Learn these pieces in order:
 - add tests, logging, and deployment notes
 - monitor drift, quality, and business impact
 
-[CRISP-DM](https://datatalks.club/podcast/crisp-dm.html) gives the project
+[[podcast:crisp-dm|CRISP-DM]] gives the project
 sequence behind that list. The 13:25 section starts with a measurable business
 problem, and the 17:05 and 18:23 sections connect baselines and evaluation to
 the business objective. For a software-heavy starting point, pair this stage
 with
-[Machine Learning for Software Engineers]({{ '/wiki/machine-learning-for-software-engineers/' | relative_url }})
+[[Machine Learning for Software Engineers]]
 and
-[Software Engineer to Machine Learning]({{ '/wiki/software-engineer-to-machine-learning/' | relative_url }}).
+[[Software Engineer to Machine Learning]].
 
 ## Stage 2: Build A Small Production-Shaped Project
 
@@ -97,9 +97,9 @@ search, ranking, or forecasting problem. Define the decision the model
 supports, keep the model simple enough to explain, and document the baseline
 and error cases.
 
-[Arseny Kravchenko](https://datatalks.club/people/arsenykravchenko.html) turns
+[[person:arsenykravchenko|Arseny Kravchenko]] turns
 this into system design in
-[Build Scalable, Reliable ML Systems](https://datatalks.club/podcast/building-scalable-and-reliable-machine-learning-systems.html).
+[[podcast:building-scalable-and-reliable-machine-learning-systems|Build Scalable, Reliable ML Systems]].
 At 7:54 and 20:21, he starts with goals, constraints, and a design document.
 At 29:01 and 31:42, the design includes metrics, baselines, and data strategy.
 At 37:15, it also includes diagrams, dependencies, and a
@@ -114,26 +114,26 @@ Use this progression:
 - one monitoring pass that covers drift, logs, incidents, and rollback
 
 Review the finished project against
-[Production ML Project Checklist]({{ '/wiki/production-ml-project-checklist/' | relative_url }}),
-[ML System Design Documents]({{ '/wiki/ml-system-design-documents/' | relative_url }}),
+[[Production ML Project Checklist]],
+[[ML System Design Documents]],
 and
-[Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }}).
+[[Machine Learning Portfolio Projects]].
 
 ## Stage 3: Explain Labels, Serving, and Rollout
 
 Interview readiness comes from being able to explain the system, not from
 memorizing every model family. In
-[Machine Learning System Design Interview](https://datatalks.club/podcast/machine-learning-system-design-interview.html),
-[Valeriy Babushkin](https://datatalks.club/people/valeriybabushkin.html) separates
+[[podcast:machine-learning-system-design-interview|Machine Learning System Design Interview]],
+[[person:valeriybabushkin|Valeriy Babushkin]] separates
 software system design from ML system design at 13:58. The ML version adds
 labels, class imbalance, validation, and baselines. It also adds monitoring,
 shift, fallbacks, and serving boundaries.
 
 At 24:28, the episode connects metrics, baselines, and
-[A/B testing]({{ '/wiki/a-b-testing/' | relative_url }}) to rollout decisions.
+[[a-b-testing|A/B testing]] to rollout decisions.
 At 44:11 and 46:02, it moves into features, labels, and validation. Monitoring
 and fallback behavior follow. Use
-[Machine Learning System Design Interview]({{ '/wiki/machine-learning-system-design-interview/' | relative_url }})
+[[Machine Learning System Design Interview]]
 for a deeper interview practice path.
 
 Practice explaining:
@@ -148,8 +148,8 @@ Practice explaining:
 ## Stage 4: Add Reproducibility and Platform Habits
 
 After one deployed model, repeatability becomes the next milestone. In
-[Building Production ML Platforms](https://datatalks.club/podcast/building-production-ml-platform-and-mlops-team.html),
-[Simon Stiebellehner](https://datatalks.club/people/simonstiebellehner.html)
+[[podcast:building-production-ml-platform-and-mlops-team|Building Production ML Platforms]],
+[[person:simonstiebellehner|Simon Stiebellehner]]
 describes the platform layer. At 29:41 and 30:32, experiment tracking and model
 registries appear. At 31:15, batch and online serving become a platform
 decision.
@@ -157,9 +157,9 @@ decision.
 At 42:48 and 54:15, metadata and lineage support monitoring, while prediction
 logging supports debugging.
 
-[Raphael Hoogvliets](https://datatalks.club/people/raphaelhoogvliets.html) gives
+[[person:raphaelhoogvliets|Raphael Hoogvliets]] gives
 the team-scale version in
-[MLOps at Scale](https://datatalks.club/podcast/mlops-at-scale-reproducibility-adoption.html).
+[[podcast:mlops-at-scale-reproducibility-adoption|MLOps at Scale]].
 The 39:06 and 42:31 sections focus on CI, testing, repo structure, and
 reproducibility. The 23:01 and 27:56 sections add adoption and developer
 experience.
@@ -174,9 +174,9 @@ Senior project evidence includes:
 - monitoring that links technical signals to business impact
 
 For platform depth, continue with
-[MLOps Roadmap]({{ '/wiki/mlops-roadmap/' | relative_url }}),
-[ML Platforms]({{ '/wiki/ml-platforms/' | relative_url }}), and
-[MLOps Architecture]({{ '/wiki/mlops-architecture/' | relative_url }}).
+[[MLOps Roadmap]],
+[[ML Platforms]], and
+[[MLOps Architecture]].
 
 ## Stage 5: Monitor Incidents, Drift, and Impact
 
@@ -184,18 +184,18 @@ Production ML work doesn't stop at deployment. You need alerts and debugging
 data, plus incident habits and business-facing metrics. Those signals help the
 team decide whether to retrain, roll back, or leave the model alone.
 
-[Lina Weichbrodt](https://datatalks.club/people/linaweichbrodt.html) gives the
+[[person:linaweichbrodt|Lina Weichbrodt]] gives the
 incident side in
-[Human-Centered MLOps and Model Monitoring](https://datatalks.club/podcast/human-centered-mlops-and-model-monitoring.html).
+[[podcast:human-centered-mlops-and-model-monitoring|Human-Centered MLOps and Model Monitoring]].
 At 24:34 and 27:14, incident prep and postmortems become part of production ML.
 At 46:28 and 49:28, feature drift, logging, and reproducibility make the system
 auditable.
 
 Use
-[Model Monitoring]({{ '/wiki/model-monitoring/' | relative_url }}),
-[Data Quality and Observability]({{ '/wiki/data-quality-and-observability/' | relative_url }}),
+[[Model Monitoring]],
+[[Data Quality and Observability]],
 and
-[Data Observability for Data Engineering]({{ '/wiki/data-observability-for-data-engineering/' | relative_url }})
+[[Data Observability for Data Engineering]]
 to decide which signals belong in the project. A junior project can start with
 data validation, prediction logs, and a short rollback note. A stronger project
 connects drift, data quality, model quality, and business metrics.
@@ -204,13 +204,13 @@ connects drift, data quality, model quality, and business metrics.
 
 Adjacent role, project, and production topics:
 
-- [Machine Learning Engineer Role]({{ '/wiki/machine-learning-engineer-role/' | relative_url }})
-- [Machine Learning Engineer vs Data Scientist]({{ '/wiki/machine-learning-engineer-vs-data-scientist/' | relative_url }})
-- [Machine Learning System Design]({{ '/wiki/machine-learning-system-design/' | relative_url }})
-- [Machine Learning Portfolio Projects]({{ '/wiki/machine-learning-portfolio-projects/' | relative_url }})
-- [Production ML Project Checklist]({{ '/wiki/production-ml-project-checklist/' | relative_url }})
-- [MLOps Roadmap]({{ '/wiki/mlops-roadmap/' | relative_url }})
-- [Data Scientist to Machine Learning Engineer]({{ '/wiki/data-scientist-to-machine-learning-engineer/' | relative_url }})
-- [Software Engineer to Machine Learning]({{ '/wiki/software-engineer-to-machine-learning/' | relative_url }})
-- [Machine Learning for Software Engineers]({{ '/wiki/machine-learning-for-software-engineers/' | relative_url }})
+- [[Machine Learning Engineer Role]]
+- [[Machine Learning Engineer vs Data Scientist]]
+- [[Machine Learning System Design]]
+- [[Machine Learning Portfolio Projects]]
+- [[Production ML Project Checklist]]
+- [[MLOps Roadmap]]
+- [[Data Scientist to Machine Learning Engineer]]
+- [[Software Engineer to Machine Learning]]
+- [[Machine Learning for Software Engineers]]
 
