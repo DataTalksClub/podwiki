@@ -4,7 +4,7 @@ title: "Production Search Evaluation"
 summary: "How DataTalks.Club guests evaluate production search with relevance checks, RAG quality, business metrics, A/B tests, and feedback loops."
 related:
   - Search
-  - Search, RAG, and Knowledge Systems
+  - Retrieval-Augmented Generation
   - Information Retrieval
   - Evaluation
   - A/B Testing

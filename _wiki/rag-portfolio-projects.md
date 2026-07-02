@@ -6,7 +6,6 @@ related:
   - Portfolio Projects
   - Retrieval-Augmented Generation
   - Search and RAG Project Checklist
-  - Search, RAG, and Knowledge Systems
   - LLM Evaluation Workflows
   - LLM Production Patterns
   - AI Engineering
@@ -320,7 +319,6 @@ These pages cover the concepts and project standards around RAG portfolio work.
 
 - [[retrieval-augmented-generation|Retrieval-Augmented Generation]] for the core RAG architecture.
 - [[Search and RAG Project Checklist]] for a practical review checklist.
-- [[search-rag-and-knowledge-systems|Search, RAG, and Knowledge Systems]] for retrieval architecture and knowledge-system tradeoffs.
 - [[LLM Evaluation Workflows]] for gold sets, traces, and failure analysis.
 - [[LLM Production Patterns]] for deployment, latency, cost, observability, and model-risk context.
 - [[llm-rag-production-roadmap|LLM and RAG Production Roadmap]] for a build sequence from bounded workflows to production controls.

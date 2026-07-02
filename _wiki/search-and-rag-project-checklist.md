@@ -6,7 +6,6 @@ related:
   - Portfolio Projects
   - RAG Portfolio Projects
   - Retrieval-Augmented Generation
-  - Search, RAG, and Knowledge Systems
   - LLM Evaluation Workflows
   - LLM Production Patterns
   - Vector Databases

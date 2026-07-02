@@ -8,7 +8,6 @@ related:
   - LLM Production Patterns
   - Retrieval-Augmented Generation
   - LLM Evaluation Workflows
-  - Search, RAG, and Knowledge Systems
   - Multi-Agent Systems
   - AI Red Teaming
   - Responsible AI and Governance
@@ -275,7 +274,6 @@ constraints around agent systems.
 - [[rag-vs-fine-tuning|RAG vs Fine-Tuning]]
 - [[retrieval-augmented-generation|RAG]]
 - [[LLM Evaluation Workflows]]
-- [[search-rag-and-knowledge-systems|Search, RAG, and Knowledge Systems]]
 - [[Tools]]
 - [[Production]]
 - [[Responsible AI and Governance]]

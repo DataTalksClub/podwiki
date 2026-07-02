@@ -9,7 +9,6 @@ related_wiki:
   - LLM Production Patterns
   - Retrieval-Augmented Generation
   - Search
-  - Search, RAG, and Knowledge Systems
   - LLM Evaluation Workflows
   - Production Search Evaluation
   - Agent Engineering
@@ -190,7 +189,6 @@ Adjacent production-system topics:
 - [[retrieval-augmented-generation|RAG]]
 - [[retrieval-augmented-generation|Retrieval-Augmented Generation]]
 - [[Search]]
-- [[search-rag-and-knowledge-systems|Search, RAG, and Knowledge Systems]]
 - [[LLM Evaluation Workflows]]
 - [[Production Search Evaluation]]
 - [[Agent Engineering]]

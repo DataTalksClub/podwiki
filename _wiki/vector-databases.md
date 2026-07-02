@@ -3,7 +3,6 @@ layout: wiki
 title: "Vector Databases"
 summary: "How DataTalks.Club podcast guests discuss vector databases as retrieval infrastructure for semantic search, RAG, recommendations, and multimodal matching."
 related:
-  - Search, RAG, and Knowledge Systems
   - Embeddings
   - Search
   - Retrieval-Augmented Generation

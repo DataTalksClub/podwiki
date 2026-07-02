@@ -6,7 +6,7 @@ related:
   - Tools
   - LLM Production Patterns
   - LLM Evaluation Workflows
-  - Search, RAG, and Knowledge Systems
+  - Retrieval-Augmented Generation
   - Agent Engineering
   - MLOps Tools
   - AI Engineering
@@ -268,6 +268,6 @@ AI tooling overlaps with several adjacent system concerns:
 
 - [[LLM Production Patterns]] for model, RAG, agent, and deployment patterns.
 - [[LLM Evaluation Workflows]] for gold sets, failure analysis, judges, and agent tests.
-- [[search-rag-and-knowledge-systems|Search, RAG, and Knowledge Systems]] for retrieval architecture and vector search.
+- [[retrieval-augmented-generation|Retrieval-Augmented Generation]] for retrieval architecture and vector search.
 - [[Agent Engineering]] for tool-using workflows and agent evaluation.
 - [[MLOps Tools]] for the broader machine learning operations toolkit.

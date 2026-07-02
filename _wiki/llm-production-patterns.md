@@ -290,7 +290,6 @@ They also cover evaluation, agents, governance, and project ideas:
 - [[LLMs]]
 - [[llm-rag-production-roadmap|LLM and RAG Production Roadmap]]
 - [[retrieval-augmented-generation|Retrieval-Augmented Generation]]
-- [[search-rag-and-knowledge-systems|Search, RAG, and Knowledge Systems]]
 - [[rag-vs-fine-tuning|RAG vs Fine-Tuning]]
 - [[LLM Evaluation Workflows]]
 - [[Agent Engineering]]

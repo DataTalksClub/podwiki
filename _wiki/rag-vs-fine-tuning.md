@@ -10,7 +10,6 @@ secondary_keywords:
 summary: "A decision guide for choosing retrieval, model adaptation, or both in production LLM systems."
 related_wiki:
   - Retrieval-Augmented Generation
-  - Search, RAG, and Knowledge Systems
   - LLM Production Patterns
   - LLM Evaluation Workflows
   - Embeddings
@@ -245,7 +244,6 @@ evaluation:
 
 - [[retrieval-augmented-generation|RAG]]
 - [[retrieval-augmented-generation|Retrieval-Augmented Generation]]
-- [[search-rag-and-knowledge-systems|Search, RAG, and Knowledge Systems]]
 - [[LLM Production Patterns]]
 - [[LLM Evaluation Workflows]]
 - [[Embeddings]]

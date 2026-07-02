@@ -7,7 +7,7 @@ related:
   - MLOps Tools
   - DataOps
   - Orchestration
-  - Search, RAG, and Knowledge Systems
+  - Retrieval-Augmented Generation
   - Open Source and Developer Relations
   - Developer Experience
 ---
@@ -43,7 +43,7 @@ Start with these nearby pages:
 - [[Data Engineering Tools]]
 - [[MLOps Tools]]
 - [[DataOps]]
-- [[search-rag-and-knowledge-systems|Search, RAG, and Knowledge Systems]]
+- [[retrieval-augmented-generation|Retrieval-Augmented Generation]]
 - [[Open Source and Developer Relations]]
 - [[Developer Experience]]
 
@@ -354,5 +354,5 @@ These pages cover the main neighboring graph nodes for tool choices:
 - [[ML Platforms]]
 - [[Developer Experience]]
 - [[Open Source and Developer Relations]]
-- [[search-rag-and-knowledge-systems|Search, RAG, and Knowledge Systems]]
+- [[retrieval-augmented-generation|Retrieval-Augmented Generation]]
 - [[Agent Engineering]]

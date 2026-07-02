@@ -3,7 +3,6 @@ layout: wiki
 title: "Retrieval-Augmented Generation"
 summary: "How DataTalks.Club podcast guests describe RAG as retrieval quality, context design, generation, citation, evaluation, and production tradeoffs."
 related:
-  - Search, RAG, and Knowledge Systems
   - LLM Production Patterns
   - Search
   - Vector Databases
@@ -133,8 +132,9 @@ Filters, ranking requirements, and operational maturity matter too.
 [[Vector Database vs Search Engine]]
 covers that retrieval-stack choice in more detail.
 
-[[podcast:production-ml-search-vector-search-embeddings-hybrid-search|Production ML Search]]
-adds the broader search architecture. At 21:55, the episode explains vector
+[[podcast:production-ml-search-vector-search-embeddings-hybrid-search|Production ML Search]],
+with [[person:reemmahmoud|Reem Mahmoud]], adds the broader search architecture.
+At 21:55, the episode explains vector
 search through shared embedding representations. At 34:00, it brings in hybrid
 search. Vector similarity still has to work with filters, recency, popularity,
 and business constraints.

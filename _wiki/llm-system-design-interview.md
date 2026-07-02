@@ -10,7 +10,6 @@ summary: "A DataTalks.Club podcast-backed guide to LLM system design interviews,
 related_wiki:
   - LLM Production Patterns
   - Retrieval-Augmented Generation
-  - Search, RAG, and Knowledge Systems
   - LLM Evaluation Workflows
   - Agent Engineering
   - AI Red Teaming
@@ -376,9 +375,8 @@ conversation. Bring product risk and operations into that conversation too.
 Use these pages to go deeper on specific parts of an LLM system design answer:
 
 1. [[retrieval-augmented-generation|Retrieval-Augmented Generation]].
-2. [[search-rag-and-knowledge-systems|Search, RAG, and Knowledge Systems]].
-3. [[LLM Evaluation Workflows]].
-4. [[Agent Engineering]].
-5. [[AI Red Teaming]].
-6. [[LLM Production Patterns]].
+2. [[LLM Evaluation Workflows]].
+3. [[Agent Engineering]].
+4. [[AI Red Teaming]].
+5. [[LLM Production Patterns]].
 

@@ -193,9 +193,8 @@ Use these pages for the neighboring parts of the search relevance stack.
 - [[Vector Databases]] and
   [[Embeddings]] cover vector
   retrieval mechanics.
-- [[search-rag-and-knowledge-systems|Search, RAG, and Knowledge Systems]]
-  and [[retrieval-augmented-generation|RAG]] cover retrieval for LLM
-  products.
+- [[retrieval-augmented-generation|Retrieval-Augmented Generation]] covers
+  retrieval for LLM products.
 - [[a-b-testing|A/B Testing]],
   [[Experimentation]], and
   [[Metrics]] cover product measurement.

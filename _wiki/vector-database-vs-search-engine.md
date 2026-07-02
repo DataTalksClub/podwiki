@@ -9,7 +9,6 @@ secondary_keywords:
   - vector search engine vs vector database
 summary: "How DataTalks.Club podcast guests compare dedicated vector databases with search engines for semantic retrieval, hybrid search, RAG, product search, and production relevance."
 related_wiki:
-  - Search, RAG, and Knowledge Systems
   - Search
   - Vector Databases
   - Embeddings
@@ -265,7 +264,6 @@ not through infrastructure preference alone.
 These pages cover the retrieval, RAG, and evaluation choices around this
 comparison:
 
-- [[search-rag-and-knowledge-systems|Search, RAG, and Knowledge Systems]]
 - [[Search]]
 - [[Vector Databases]]
 - [[Embeddings]]

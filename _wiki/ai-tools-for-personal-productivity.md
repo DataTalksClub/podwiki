@@ -96,7 +96,7 @@ The same drafting habit can become a personal knowledge habit. Hugo's
 transcript examples and Sandra's content automation examples show that LLMs can
 help convert messy input into searchable notes. For more reliable knowledge
 work, connect the habit to [[retrieval-augmented-generation|RAG]] and
-[[search-rag-and-knowledge-systems|Search, RAG, and Knowledge Systems]].
+[[retrieval-augmented-generation|Retrieval-Augmented Generation]].
 Store the original source and ask the model to cite the relevant passage or
 file. Then keep a small set of examples where you know the right answer.
 

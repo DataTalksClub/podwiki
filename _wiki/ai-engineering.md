@@ -6,7 +6,7 @@ related:
   - AI Engineer Role
   - AI Engineering Roadmap
   - LLM Production Patterns
-  - Search, RAG, and Knowledge Systems
+  - Retrieval-Augmented Generation
   - Agent Engineering
   - LLM Evaluation Workflows
   - Notebook to Production AI Systems

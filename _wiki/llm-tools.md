@@ -112,7 +112,7 @@ and 42:49. She also covers embedding models and vectorization. Prompt context
 and citations matter too.
 
 That places RAG in
-[[search-rag-and-knowledge-systems|Search, RAG, and Knowledge Systems]].
+[[retrieval-augmented-generation|Retrieval-Augmented Generation]].
 It also connects to [[embeddings]] and
 [[vector databases]], not only to
 model selection.

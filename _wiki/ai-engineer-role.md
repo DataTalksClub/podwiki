@@ -268,7 +268,6 @@ The nearby role, systems, and production topics are:
 - [[LLM Evaluation Workflows]]
 - [[retrieval-augmented-generation|RAG]]
 - [[retrieval-augmented-generation|Retrieval-Augmented Generation]]
-- [[search-rag-and-knowledge-systems|Search, RAG, and Knowledge Systems]]
 - [[Agent Engineering]]
 - [[agent-engineering|AI Agents]]
 - [[AI Tooling]]

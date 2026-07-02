@@ -9,7 +9,6 @@ secondary_keywords:
   - knowledge graph vs vector database
 summary: "How DataTalks.Club podcast guests compare explicit graph relationships with embedding-based retrieval for search, RAG, and domain knowledge systems."
 related_wiki:
-  - Search, RAG, and Knowledge Systems
   - Search
   - Retrieval-Augmented Generation
   - Vector Databases

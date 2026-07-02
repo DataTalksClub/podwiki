@@ -8,7 +8,6 @@ related:
   - LLM Evaluation Workflows
   - Retrieval-Augmented Generation
   - LLM Production Patterns
-  - Search, RAG, and Knowledge Systems
   - Embeddings
   - Prompt Engineering
 ---

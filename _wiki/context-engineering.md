@@ -137,5 +137,4 @@ orchestration.
 - [[LLM Production Patterns]]
 - [[Prompt Engineering]]
 - [[Embeddings]]
-- [[search-rag-and-knowledge-systems|Search, RAG, and Knowledge Systems]]
 - [[long-context-llm-evaluation|Long-Context LLM Evaluation]]

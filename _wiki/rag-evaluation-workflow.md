@@ -14,7 +14,6 @@ search_intent: "Help readers who search for a RAG evaluation workflow understand
 related_wiki:
   - Retrieval-Augmented Generation
   - LLM Evaluation Workflows
-  - Search, RAG, and Knowledge Systems
   - Production Search Evaluation
   - Search and RAG Project Checklist
   - LLM Production Patterns

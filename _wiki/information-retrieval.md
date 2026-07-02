@@ -4,7 +4,6 @@ title: "Information Retrieval"
 summary: "How DataTalks.Club podcast guests discuss retrieval discipline across candidate generation, ranking, RAG, and evaluation."
 related:
   - Search
-  - Search, RAG, and Knowledge Systems
   - Retrieval-Augmented Generation
   - Vector Databases
   - Embeddings

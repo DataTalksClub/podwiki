@@ -229,7 +229,7 @@ roles that production systems depend on.
 - [[Data Quality and Observability]]
 - [[LLM Production Patterns]]
 - [[AI Red Teaming]]
-- [[search-rag-and-knowledge-systems|Search, RAG, and Knowledge Systems]]
+- [[retrieval-augmented-generation|Retrieval-Augmented Generation]]
 - [[Batch vs Streaming]]
 - [[Testing]]
 - [[Caching]]

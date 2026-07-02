@@ -122,7 +122,7 @@ At 38:24-48:09, she connects chunk size, overlap, and embedding choice.
 Retrieval strategy, answer quality, and citations belong in the same evaluation
 workflow. Human-in-the-loop evaluation belongs there too. LLM eval is therefore
 part of
-[[search-rag-and-knowledge-systems|Search, RAG, and Knowledge Systems]]
+[[retrieval-augmented-generation|Retrieval-Augmented Generation]]
 and [[Production Search Evaluation]],
 not only model scoring.
 

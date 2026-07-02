@@ -5,7 +5,7 @@ summary: "How DataTalks.Club guests discuss natural language processing across l
 related:
   - LLMs
   - Embeddings
-  - Search, RAG, and Knowledge Systems
+  - Retrieval-Augmented Generation
   - LLM Production Patterns
   - LLM Evaluation Workflows
 ---

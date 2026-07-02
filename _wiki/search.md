@@ -3,7 +3,6 @@ layout: wiki
 title: "Search"
 summary: "How DataTalks.Club guests frame search as retrieval, ranking, evaluation, semantic matching, and product relevance."
 related:
-  - Search, RAG, and Knowledge Systems
   - Retrieval-Augmented Generation
   - Vector Databases
   - Embeddings

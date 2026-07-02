@@ -10,7 +10,6 @@ secondary_keywords:
 summary: "How the podcast archive compares graph-driven retrieval with vector-driven retrieval for grounded LLM systems."
 related_wiki:
   - Retrieval-Augmented Generation
-  - Search, RAG, and Knowledge Systems
   - Vector Databases
   - Embeddings
   - Knowledge Graph vs Vector Search
@@ -245,7 +244,6 @@ These pages cover the surrounding retrieval, search, and LLM-system topics:
 
 - [[retrieval-augmented-generation|Retrieval-Augmented Generation]] and [[retrieval-augmented-generation|RAG]] cover broader RAG structure, chunking, citations, and evaluation.
 - [[Knowledge Graph vs Vector Search]] compares the retrieval substrates behind this LLM context choice.
-- [[search-rag-and-knowledge-systems|Search, RAG, and Knowledge Systems]] connects graph RAG and vector RAG to classical search and production retrieval.
 - [[Vector Databases]] and [[Embeddings]] cover the vector side of the architecture.
 - [[Search and RAG Project Checklist]] turns the comparison into implementation and evaluation checks.
 
