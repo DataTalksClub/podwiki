@@ -1,37 +1,52 @@
-/* Entity chips in wiki prose. Colours match the graph legend. Subtle by design:
-   a small type-coloured dot + coloured label, faint hover tint — no loud pills.
-   (Interim renderer: assets/entity-chips.js. Target: build-time rustkyll `chips` extension.) */
+/* Entity chips in wiki prose. Colours match the graph legend. Calm by design:
+   type-coloured label inside a faint type-coloured outline that strengthens on
+   hover, a small trailing type emoji, no bullet dot, never underlined.
+   Renderer: build-time rustkyll `chips` extension.
+
+   NOTE: the theme colours/underlines prose links via `.knowledge-page p a`
+   (specificity 0,1,2) and `.knowledge-page p a:hover` (0,2,2). The doubled
+   `.chip.chip` selectors below out-rank those so chips keep their type colour
+   and never underline. */
 
 .chip {
   --chip: #64748b;
   display: inline;
-  color: var(--chip);
   font-weight: 600;
-  text-decoration: none;
-  border-radius: 0.3em;
-  padding: 0 0.12em;
-  transition: background-color 0.12s ease;
+  border: 1px solid color-mix(in srgb, var(--chip) 22%, transparent);
+  border-radius: 0.4em;
+  padding: 0.02em 0.35em;
+  transition: border-color 0.15s ease, background-color 0.15s ease;
 }
 
-.chip::before {
-  content: "";
-  display: inline-block;
-  width: 0.4em;
-  height: 0.4em;
-  margin-right: 0.3em;
-  border-radius: 50%;
-  background: var(--chip);
-  vertical-align: 0.09em;
-  opacity: 0.85;
-}
-
-.chip:hover,
-.chip:focus {
+/* type colour for text + never underline, in every state
+   (doubled class out-ranks the theme's prose-link rules) */
+.chip.chip,
+.chip.chip:hover,
+.chip.chip:focus,
+.chip.chip:active {
   color: var(--chip);
-  background: color-mix(in srgb, var(--chip) 12%, transparent);
   text-decoration: none;
 }
 
+.chip.chip:hover,
+.chip.chip:focus {
+  border-color: color-mix(in srgb, var(--chip) 70%, transparent);
+  background: color-mix(in srgb, var(--chip) 10%, transparent);
+}
+
+/* trailing type emoji — makes the entity kind obvious at a glance.
+   wiki (the vast majority) stays calm with no emoji. */
+.chip::after {
+  margin-left: 0.28em;
+  font-size: 0.85em;
+  opacity: 0.8;
+  vertical-align: 0.02em;
+}
+.chip--podcast::after { content: "\1F399\FE0F"; } /* studio microphone */
+.chip--person::after  { content: "\1F464"; }      /* bust in silhouette */
+.chip--book::after    { content: "\1F4D6"; }      /* open book */
+
+/* podcast timestamp badge — sits after the emoji */
 .chip .chip-time {
   margin-left: 0.3em;
   color: var(--chip);
@@ -42,7 +57,7 @@
 }
 
 .chip .chip-time::before {
-  content: "· ";
+  content: "\00B7 ";
   opacity: 0.55;
 }
 

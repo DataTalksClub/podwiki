@@ -20,12 +20,32 @@
 //!   (`M:SS`/`MM:SS`/`H:MM:SS`) is the time; any other field is the label. For
 //!   non-podcast the first extra field is the label.
 //! - default label = humanized target (dashes -> spaces).
-//! - resolve miss -> `<span class="broken-link">LABEL</span>` + a warning.
+//!
+//! Link targets:
+//! - `wiki`  -> resolved via the host `resolve_link` to an internal
+//!   `/wiki/<slug>/` page (this is the only collection built on podwiki). A miss
+//!   renders `<span class="broken-link">LABEL</span>` + a warning.
+//! - `person`/`podcast`/`book` collections are `output: false` on podwiki (not
+//!   built here), so they are NOT resolved via the host. Instead we emit
+//!   absolute MAIN-SITE URLs built directly from the slug, matching graph.json:
+//!     person  -> https://datatalks.club/people/<slug>.html
+//!     podcast -> https://datatalks.club/podcast/<slug>.html   (singular)
+//!     book    -> https://datatalks.club/books/<slug>.html
 //!
 //! `<code>` / `<pre>` regions and text inside tags/attributes are never touched.
+//!
+//! The scanner spans HTML tags when hunting for a token's closing `]]`: some
+//! tokens are shredded by the markdown renderer (a `|` inside a token is parsed
+//! as a table cell separator, splitting `[[a|b]]` into `<td>[[a</td><td>b]]</td>`,
+//! sometimes across newlines). Table cell boundaries crossed inside a token are
+//! treated as the original `|`; other markup and whitespace runs collapse to a
+//! single space. Code/pre regions still abort the scan so code stays literal.
 
 use extism_pdk::*;
 use serde::{Deserialize, Serialize};
+
+/// Absolute base for main-site (datatalks.club) entity pages.
+const MAIN_SITE: &str = "https://datatalks.club";
 
 #[host_fn]
 extern "ExtismHost" {
@@ -90,6 +110,11 @@ pub fn transform(input: Json<TransformInput>) -> FnResult<Json<TransformOutput>>
 // Pure logic (host-independent, unit-tested below with a stub resolver).
 // ---------------------------------------------------------------------------
 
+/// Sentinel used while scanning a token to mark a spot where a `|` separator was
+/// consumed by the markdown renderer (a table cell boundary). Not a legal HTML
+/// text character, so it can never collide with real content.
+const BAR: char = '\u{1}';
+
 /// Chip entity type.
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]
 enum ChipType {
@@ -142,20 +167,169 @@ where
             skip_depth = (skip_depth + tag_effect(tag)).max(0);
             out.push_str(tag);
             i = end;
-        } else {
-            // Text run up to the next tag.
-            let next = html[i..].find('<').map(|e| i + e).unwrap_or(len);
-            let text = &html[i..next];
-            if skip_depth > 0 {
-                out.push_str(text);
-            } else {
-                process_text(text, baseurl, &resolve, &mut out, &mut warnings);
+        } else if skip_depth == 0 && starts_with_at(bytes, i, b"[[") {
+            // A `[[` opener in live text: try to scan a whole token (possibly
+            // spanning tags/newlines). On success emit the chip; otherwise emit
+            // the opener literally and continue past it.
+            match scan_token(html, i) {
+                Some((inner, end)) => {
+                    out.push_str(&render_chip(&inner, baseurl, &resolve, &mut warnings));
+                    i = end;
+                }
+                None => {
+                    out.push_str("[[");
+                    i += 2;
+                }
             }
-            i = next;
+        } else {
+            // Copy a run of text up to the next tag, or (in live text) the next
+            // `[[` opener.
+            let mut j = i + 1;
+            while j < len {
+                if bytes[j] == b'<' {
+                    break;
+                }
+                if skip_depth == 0 && starts_with_at(bytes, j, b"[[") {
+                    break;
+                }
+                j += 1;
+            }
+            out.push_str(&html[i..j]);
+            i = j;
         }
     }
 
     (out, warnings)
+}
+
+/// Whether `bytes[at..]` starts with `needle` (needle is ASCII).
+fn starts_with_at(bytes: &[u8], at: usize, needle: &[u8]) -> bool {
+    at + needle.len() <= bytes.len() && &bytes[at..at + needle.len()] == needle
+}
+
+/// Scan a `[[...]]` token starting at `start` (where `html[start..]` begins with
+/// `[[`). The scan crosses HTML tags to find the closing `]]`, so tokens the
+/// markdown renderer split across table cells / newlines are healed. Returns the
+/// normalized inner text (brackets stripped, cell boundaries restored to `|`,
+/// whitespace collapsed) and the byte index just past the closing `]]`.
+///
+/// Returns `None` (caller emits the opener literally) if there is no closing
+/// `]]`, if another `[[` opener appears first, or if the scan would enter a
+/// `<code>`/`<pre>` region.
+fn scan_token(html: &str, start: usize) -> Option<(String, usize)> {
+    let bytes = html.as_bytes();
+    let len = bytes.len();
+    let mut content = String::new();
+    let mut j = start + 2;
+    // Depth of `<code>`/`<pre>` we're inside. Brackets there are literal text
+    // (protects a `[[x]]` written inside code), but a label may legitimately
+    // contain balanced inline code, so we keep scanning rather than bailing.
+    let mut code_depth: i32 = 0;
+
+    while j < len {
+        // Text run up to the next tag.
+        let next_lt = html[j..].find('<').map(|e| j + e).unwrap_or(len);
+        let seg = &html[j..next_lt];
+
+        if code_depth == 0 {
+            let close = seg.find("]]");
+            let open = seg.find("[[");
+            // A nested `[[` opener before any closer means this isn't a token.
+            if let Some(o) = open {
+                if close.map_or(true, |c| o < c) {
+                    return None;
+                }
+            }
+            // A closer in this text run completes the token.
+            if let Some(c) = close {
+                content.push_str(&seg[..c]);
+                return Some((normalize(&content), j + c + 2));
+            }
+        }
+
+        // No closer in this text run: absorb it and step over the tag.
+        content.push_str(seg);
+        if next_lt >= len {
+            return None; // EOF, unterminated.
+        }
+        let tag_end = html[next_lt..]
+            .find('>')
+            .map(|e| next_lt + e + 1)
+            .unwrap_or(len);
+        let tag = &html[next_lt..tag_end];
+        match classify_tag(tag) {
+            TagKind::CodePreOpen => {
+                code_depth += 1;
+                content.push(' ');
+            }
+            TagKind::CodePreClose => {
+                code_depth = (code_depth - 1).max(0);
+                content.push(' ');
+            }
+            // A table cell boundary is where a `|` separator used to be.
+            TagKind::Cell if code_depth == 0 => content.push(BAR),
+            // Any other markup (or a cell boundary inside code) -> whitespace.
+            _ => content.push(' '),
+        }
+        j = tag_end;
+    }
+
+    None
+}
+
+/// How a tag encountered inside a token affects the scan.
+enum TagKind {
+    CodePreOpen,
+    CodePreClose,
+    Cell,
+    Other,
+}
+
+fn classify_tag(tag: &str) -> TagKind {
+    let inner = tag
+        .trim_start_matches('<')
+        .trim_end_matches('>')
+        .trim_end_matches('/')
+        .trim();
+    let (is_close, rest) = match inner.strip_prefix('/') {
+        Some(r) => (true, r),
+        None => (false, inner),
+    };
+    let name = tag_name(rest);
+    match name.as_str() {
+        "code" | "pre" if is_close => TagKind::CodePreClose,
+        "code" | "pre" => TagKind::CodePreOpen,
+        "td" | "th" => TagKind::Cell,
+        _ => TagKind::Other,
+    }
+}
+
+/// Collapse a scanned token's inner text: runs of whitespace become a single
+/// space, cell-boundary sentinels (with any surrounding whitespace) become a
+/// single `|`, and leading/trailing separators are trimmed.
+fn normalize(s: &str) -> String {
+    let mut out = String::with_capacity(s.len());
+    let mut pending_bar = false;
+    let mut pending_ws = false;
+    for c in s.chars() {
+        if c == BAR {
+            pending_bar = true;
+        } else if c.is_whitespace() {
+            pending_ws = true;
+        } else {
+            if pending_bar {
+                if !out.is_empty() {
+                    out.push('|');
+                }
+            } else if pending_ws && !out.is_empty() {
+                out.push(' ');
+            }
+            pending_bar = false;
+            pending_ws = false;
+            out.push(c);
+        }
+    }
+    out
 }
 
 /// Net effect of a tag on the code/pre skip depth: +1 for an opening
@@ -190,42 +364,22 @@ fn tag_name(s: &str) -> String {
         .to_ascii_lowercase()
 }
 
-/// Find and rewrite every `[[...]]` token in a text run.
-fn process_text<F>(
-    text: &str,
-    baseurl: &str,
-    resolve: &F,
-    out: &mut String,
-    warnings: &mut Vec<String>,
-) where
-    F: Fn(&str) -> Option<String>,
-{
-    let mut rest = text;
-    while let Some(start) = rest.find("[[") {
-        out.push_str(&rest[..start]);
-        let after = &rest[start + 2..];
-        match after.find("]]") {
-            Some(end) => {
-                let token = &after[..end];
-                out.push_str(&render_chip(token, baseurl, resolve, warnings));
-                rest = &after[end + 2..];
-            }
-            None => {
-                // No closing `]]`; emit the opener literally and stop.
-                out.push_str("[[");
-                rest = after;
-            }
-        }
-    }
-    out.push_str(rest);
+/// Slugify a target for a main-site URL: trim, lowercase, whitespace -> dashes.
+/// Targets in the wiki are already slugs, so this is normally the identity.
+fn slugify(target: &str) -> String {
+    target
+        .trim()
+        .chars()
+        .map(|c| if c.is_whitespace() { '-' } else { c.to_ascii_lowercase() })
+        .collect()
 }
 
-/// Render a single `[[...]]` token (inner text, no brackets) to chip markup.
-fn render_chip<F>(token: &str, baseurl: &str, resolve: &F, warnings: &mut Vec<String>) -> String
+/// Render a single token's normalized inner text (no brackets) to chip markup.
+fn render_chip<F>(inner: &str, baseurl: &str, resolve: &F, warnings: &mut Vec<String>) -> String
 where
     F: Fn(&str) -> Option<String>,
 {
-    let mut parts = token.split('|');
+    let mut parts = inner.split('|');
     let head = parts.next().unwrap_or("").trim();
     let extras: Vec<&str> = parts.map(|p| p.trim()).collect();
 
@@ -266,16 +420,27 @@ where
         None => Some(humanized.clone()),
     };
 
-    let original = format!("[[{token}]]");
+    let original = format!("[[{inner}]]");
 
-    match resolve(target) {
-        Some(url) => {
-            let href = format!("{baseurl}{url}");
+    // Build the href. Only `wiki` is resolved via the host (internal page);
+    // person/podcast/book always link out to the main site, built from the slug.
+    let href_opt: Option<String> = match chip_type {
+        ChipType::Wiki => resolve(target).map(|url| format!("{baseurl}{url}")),
+        ChipType::Person => Some(format!("{MAIN_SITE}/people/{}.html", slugify(target))),
+        ChipType::Podcast => Some(format!("{MAIN_SITE}/podcast/{}.html", slugify(target))),
+        ChipType::Book => Some(format!("{MAIN_SITE}/books/{}.html", slugify(target))),
+    };
+
+    match href_opt {
+        Some(href) => {
+            // Tooltip is the human label (falls back to the humanized target for
+            // a bare-time podcast chip that has no label span).
+            let title = label_text.as_deref().unwrap_or(&humanized);
             let mut s = format!(
                 "<a class=\"chip chip--{ty}\" data-chip=\"{ty}\" href=\"{href}\" title=\"{title}\">",
                 ty = chip_type.as_str(),
                 href = escape_attr(&href),
-                title = escape_attr(&original),
+                title = escape_attr(title),
             );
             if let Some(l) = &label_text {
                 s.push_str(&format!(
@@ -293,6 +458,7 @@ where
             s
         }
         None => {
+            // Only reachable for a `wiki` resolve miss.
             warnings.push(format!("chips: unresolved {original}"));
             // Always show something visible for a broken link.
             let display = label_text
@@ -368,8 +534,9 @@ fn escape_text(s: &str) -> String {
 mod tests {
     use super::*;
 
-    /// Resolver stub: any target whose slug is in the known set resolves to a
-    /// URL; everything else misses.
+    /// Resolver stub for `wiki` targets: any target whose slug is in the known
+    /// set resolves to an internal URL; everything else misses. (person/podcast/
+    /// book never call the resolver — they build main-site URLs directly.)
     fn stub(target: &str) -> Option<String> {
         let slug = target
             .to_ascii_lowercase()
@@ -378,14 +545,8 @@ mod tests {
             .collect::<String>();
         match slug.as_str() {
             "event-tracking" => Some("/wiki/event-tracking/".to_string()),
+            "a-a-testing" => Some("/wiki/a-a-testing/".to_string()),
             "a-b-testing" => Some("/wiki/a-b-testing/".to_string()),
-            "alexeygrigorev" => Some("/people/alexeygrigorev/".to_string()),
-            "designing-data-intensive-applications" => {
-                Some("/books/designing-data-intensive-applications/".to_string())
-            }
-            "ab-testing-and-product-experimentation" => {
-                Some("/podcasts/ab-testing-and-product-experimentation/".to_string())
-            }
             _ => None,
         }
     }
@@ -396,47 +557,81 @@ mod tests {
 
     #[test]
     fn wiki_slug_and_title() {
-        let (html, warns) = run("<p>See [[event-tracking]] and [[A B Testing]]... no.</p>");
+        // Wiki chips resolve to internal pages; the tooltip is the LABEL.
+        let (html, warns) = run("<p>See [[event-tracking]].</p>");
         assert!(html.contains(
-            "<a class=\"chip chip--wiki\" data-chip=\"wiki\" href=\"/wiki/event-tracking/\" title=\"[[event-tracking]]\"><span class=\"chip-label\">event tracking</span></a>"
+            "<a class=\"chip chip--wiki\" data-chip=\"wiki\" href=\"/wiki/event-tracking/\" title=\"event tracking\"><span class=\"chip-label\">event tracking</span></a>"
         ), "got: {html}");
-        // Title-based resolution (slugified to a-b-testing) also works.
-        assert!(html.contains("href=\"/wiki/a-b-testing/\""), "got: {html}");
         assert!(warns.is_empty(), "warns: {warns:?}");
     }
 
     #[test]
-    fn person_book_prefixes() {
-        let (html, _) = run("<p>[[person:alexeygrigorev]] wrote [[book:designing-data-intensive-applications|DDIA]].</p>");
+    fn wiki_title_resolution() {
+        // A title (slugified to a-b-testing) also resolves internally.
+        let (html, _) = run("<p>[[A B Testing]]</p>");
+        assert!(html.contains("href=\"/wiki/a-b-testing/\""), "got: {html}");
+    }
+
+    #[test]
+    fn person_links_to_main_site() {
+        let (html, _) = run("<p>[[person:alexeygrigorev|Alexey Grigorev]]</p>");
+        assert!(html.contains("chip chip--person"), "got: {html}");
         assert!(
-            html.contains("chip chip--person") && html.contains("href=\"/people/alexeygrigorev/\""),
+            html.contains("href=\"https://datatalks.club/people/alexeygrigorev.html\""),
             "got: {html}"
         );
+        // Tooltip == label, not the raw token.
+        assert!(html.contains("title=\"Alexey Grigorev\""), "got: {html}");
+        assert!(!html.contains("title=\"[["), "raw token leaked into title: {html}");
+    }
+
+    #[test]
+    fn book_links_to_main_site() {
+        let (html, _) =
+            run("<p>[[book:designing-data-intensive-applications|DDIA]]</p>");
         assert!(
             html.contains("chip chip--book")
-                && html.contains("<span class=\"chip-label\">DDIA</span>"),
+                && html.contains(
+                    "href=\"https://datatalks.club/books/designing-data-intensive-applications.html\""
+                ),
             "got: {html}"
         );
+        assert!(html.contains("<span class=\"chip-label\">DDIA</span>"), "got: {html}");
+        assert!(html.contains("title=\"DDIA\""), "got: {html}");
     }
 
     #[test]
-    fn author_guest_aliases_map_to_person() {
-        let (html, _) = run("<p>[[author:alexeygrigorev]] [[guest:alexeygrigorev]]</p>");
-        assert_eq!(html.matches("chip--person").count(), 2, "got: {html}");
-    }
-
-    #[test]
-    fn podcast_with_timestamp_and_label() {
+    fn podcast_links_to_main_site_singular() {
         let (html, _) = run(
             "<p>[[podcast:ab-testing-and-product-experimentation|A/B Testing|27:52]]</p>",
         );
         assert!(html.contains("chip chip--podcast"), "got: {html}");
+        // Note: singular "podcast" in the main-site path.
+        assert!(
+            html.contains(
+                "href=\"https://datatalks.club/podcast/ab-testing-and-product-experimentation.html\""
+            ),
+            "got: {html}"
+        );
         assert!(
             html.contains("<span class=\"chip-label\">A/B Testing</span>"),
             "got: {html}"
         );
         assert!(
             html.contains("<span class=\"chip-time\">27:52</span>"),
+            "got: {html}"
+        );
+        assert!(html.contains("title=\"A/B Testing\""), "got: {html}");
+    }
+
+    #[test]
+    fn author_guest_aliases_map_to_person() {
+        let (html, _) = run("<p>[[author:alexeygrigorev]] [[guest:alexeygrigorev]]</p>");
+        assert_eq!(html.matches("chip--person").count(), 2, "got: {html}");
+        assert_eq!(
+            html.matches("https://datatalks.club/people/alexeygrigorev.html")
+                .count(),
+            2,
             "got: {html}"
         );
     }
@@ -451,6 +646,11 @@ mod tests {
             "got: {html}"
         );
         assert!(!html.contains("chip-label"), "bare time must have no label: {html}");
+        // Tooltip falls back to the humanized target.
+        assert!(
+            html.contains("title=\"ab testing and product experimentation\""),
+            "got: {html}"
+        );
     }
 
     #[test]
@@ -465,7 +665,7 @@ mod tests {
     }
 
     #[test]
-    fn unresolved_becomes_broken_link_and_warns() {
+    fn unresolved_wiki_becomes_broken_link_and_warns() {
         let (html, warns) = run("<p>[[does-not-exist]]</p>");
         assert!(
             html.contains("<span class=\"broken-link\">does not exist</span>"),
@@ -476,6 +676,67 @@ mod tests {
             warns[0].contains("chips: unresolved [[does-not-exist]]"),
             "warns: {warns:?}"
         );
+    }
+
+    #[test]
+    fn newline_spanning_token_renders() {
+        // A label wrapped across a newline inside the token must still render,
+        // with the newline collapsed to a single space in label and title.
+        let (html, warns) = run("<p>[[person:bartoszmikulski|Bartosz\nMikulski]]</p>");
+        assert!(
+            html.contains("href=\"https://datatalks.club/people/bartoszmikulski.html\""),
+            "got: {html}"
+        );
+        assert!(
+            html.contains("<span class=\"chip-label\">Bartosz Mikulski</span>"),
+            "got: {html}"
+        );
+        assert!(html.contains("title=\"Bartosz Mikulski\""), "got: {html}");
+        assert!(!html.contains("[["), "no literal token should leak: {html}");
+        assert!(warns.is_empty(), "warns: {warns:?}");
+    }
+
+    #[test]
+    fn token_split_across_table_cells_is_healed() {
+        // The markdown renderer turns a `|` inside a token into a table cell
+        // boundary, shredding the token. The scanner must reassemble it, using
+        // the cell boundary as the original `|`.
+        let (html, _) = run(
+            "<table><tbody><tr><td>[[a-a-testing</td>\n<td>A/A Testing]]</td></tr></tbody></table>",
+        );
+        assert!(
+            html.contains("href=\"/wiki/a-a-testing/\""),
+            "got: {html}"
+        );
+        assert!(
+            html.contains("<span class=\"chip-label\">A/A Testing</span>"),
+            "got: {html}"
+        );
+        assert!(!html.contains("[["), "no literal token should leak: {html}");
+        assert!(!html.contains("]]"), "no literal token should leak: {html}");
+    }
+
+    #[test]
+    fn podcast_split_across_three_cells_is_healed() {
+        // target|time|label spread across three cells.
+        let (html, _) = run(
+            "<table><tbody><tr><td>[[podcast:ab-testing-and-product-experimentation</td><td>27:52</td><td>A/B Testing]]</td></tr></tbody></table>",
+        );
+        assert!(
+            html.contains(
+                "href=\"https://datatalks.club/podcast/ab-testing-and-product-experimentation.html\""
+            ),
+            "got: {html}"
+        );
+        assert!(
+            html.contains("<span class=\"chip-time\">27:52</span>"),
+            "got: {html}"
+        );
+        assert!(
+            html.contains("<span class=\"chip-label\">A/B Testing</span>"),
+            "got: {html}"
+        );
+        assert!(!html.contains("[["), "no literal token should leak: {html}");
     }
 
     #[test]
@@ -491,6 +752,36 @@ mod tests {
             "got: {html}"
         );
         assert!(warns.is_empty(), "warns: {warns:?}");
+    }
+
+    #[test]
+    fn token_scan_does_not_enter_code() {
+        // A `[[` in live text whose only `]]` is inside a code span must NOT be
+        // healed across the code boundary; the opener stays literal.
+        let (html, _) = run("<p>[[foo <code>bar]]</code></p>");
+        assert!(html.contains("[[foo "), "got: {html}");
+        assert!(html.contains("<code>bar]]</code>"), "got: {html}");
+        assert!(!html.contains("class=\"chip"), "got: {html}");
+    }
+
+    #[test]
+    fn label_with_balanced_inline_code_is_healed() {
+        // A backticked word in a label renders as a balanced inline <code>; the
+        // token must still heal (code text folded into the label as plain text).
+        let (html, _) = run(
+            "<p>[[podcast:ab-testing-and-product-experimentation|<code>dbt</code> modeling discussion]]</p>",
+        );
+        assert!(
+            html.contains(
+                "href=\"https://datatalks.club/podcast/ab-testing-and-product-experimentation.html\""
+            ),
+            "got: {html}"
+        );
+        assert!(
+            html.contains("<span class=\"chip-label\">dbt modeling discussion</span>"),
+            "got: {html}"
+        );
+        assert!(!html.contains("[["), "no literal token should leak: {html}");
     }
 
     #[test]
@@ -521,9 +812,18 @@ mod tests {
     }
 
     #[test]
-    fn baseurl_is_prepended() {
+    fn baseurl_is_prepended_for_wiki() {
         let (html, _) = transform_html("<p>[[event-tracking]]</p>", "/podwiki", stub);
         assert!(html.contains("href=\"/podwiki/wiki/event-tracking/\""), "got: {html}");
+    }
+
+    #[test]
+    fn baseurl_does_not_affect_main_site_links() {
+        let (html, _) = transform_html("<p>[[person:alexeygrigorev]]</p>", "/podwiki", stub);
+        assert!(
+            html.contains("href=\"https://datatalks.club/people/alexeygrigorev.html\""),
+            "got: {html}"
+        );
     }
 
     #[test]
@@ -540,9 +840,16 @@ mod tests {
 
     #[test]
     fn attribute_values_escaped() {
-        // Original token with a quote should be escaped in the title attribute.
+        // A label containing a quote must be escaped in the title attribute.
         let (html, _) = run("<p>[[event-tracking|say \"hi\"]]</p>");
-        assert!(html.contains("&quot;"), "got: {html}");
-        assert!(!html.contains("title=\"[[event-tracking|say \"hi\""), "raw quote leaked: {html}");
+        assert!(html.contains("title=\"say &quot;hi&quot;\""), "got: {html}");
+        assert!(!html.contains("title=\"say \"hi\""), "raw quote leaked: {html}");
+    }
+
+    #[test]
+    fn unterminated_opener_left_literal() {
+        let (html, _) = run("<p>see [[event-tracking and more</p>");
+        assert!(html.contains("[[event-tracking and more"), "got: {html}");
+        assert!(!html.contains("class=\"chip"), "got: {html}");
     }
 }
