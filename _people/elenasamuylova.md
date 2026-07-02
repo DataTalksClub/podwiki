@@ -21,7 +21,7 @@ Elena Samuylova is co-founder and CEO of Evidently AI. Her source bio describes 
 
 - [MLOps]({{ '/wiki/mlops/' | relative_url }}) and [machine learning]({{ '/wiki/machine-learning/' | relative_url }}) for model monitoring and performance analysis.
 - [open-source]({{ '/wiki/open-source/' | relative_url }}) for product adoption and community trust.
-- [startup]({{ '/wiki/startup/' | relative_url }}), [entrepreneurship]({{ '/wiki/entrepreneurship/' | relative_url }}), and [founder]({{ '/wiki/founder/' | relative_url }}) for company-building context.
+- [startup]({{ '/wiki/startups/' | relative_url }}), [entrepreneurship]({{ '/wiki/entrepreneurship/' | relative_url }}), and [founder]({{ '/wiki/founder/' | relative_url }}) for company-building context.
 
 ## Source Links
 
@@ -30,4 +30,4 @@ Elena Samuylova is co-founder and CEO of Evidently AI. Her source bio describes 
 
 ## Podcast Discussions
 
-- [How to Build a Successful ML Startup: MLOps, Model Monitoring, Open Source & Founder Fit]({{ '/podcasts/building-mlops-startup/' | relative_url }}). Related topics: [startup]({{ '/wiki/startup/' | relative_url }}), [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [MLOps]({{ '/wiki/mlops/' | relative_url }}), [open-source]({{ '/wiki/open-source/' | relative_url }}), [entrepreneurship]({{ '/wiki/entrepreneurship/' | relative_url }}), [founder]({{ '/wiki/founder/' | relative_url }}).
+- [How to Build a Successful ML Startup: MLOps, Model Monitoring, Open Source & Founder Fit]({{ '/podcasts/building-mlops-startup/' | relative_url }}). Related topics: [startup]({{ '/wiki/startups/' | relative_url }}), [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [MLOps]({{ '/wiki/mlops/' | relative_url }}), [open-source]({{ '/wiki/open-source/' | relative_url }}), [entrepreneurship]({{ '/wiki/entrepreneurship/' | relative_url }}), [founder]({{ '/wiki/founder/' | relative_url }}).

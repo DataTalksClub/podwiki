@@ -12,7 +12,6 @@ secondary_keywords:
   - "machine learning startup ideas"
 summary: "A startup-focused guide to applying machine learning pragmatically, with problem selection, MVPs, data strategy, lean MLOps, hiring, monitoring, and product-market fit."
 related_wiki:
-  - Startup
   - Startups
   - Founder
   - Entrepreneurship
@@ -37,7 +36,7 @@ founders and technical leaders rarely treat
 starting point. They start with discovery, data access, operational risk, and
 the smallest product that can prove demand.
 
-Inside a [startup]({{ '/wiki/startup/' | relative_url }}), that makes ML part
+Inside a [startup]({{ '/wiki/startups/' | relative_url }}), that makes ML part
 of [entrepreneurship]({{ '/wiki/entrepreneurship/' | relative_url }}) work.
 The founders in these episodes test customers, trust, and distribution before
 they scale modeling. Several [startups]({{ '/wiki/startups/' | relative_url }})
@@ -345,7 +344,7 @@ Start with these adjacent startup and ML concepts:
 
 - [Machine Learning for Business]({{ '/wiki/machine-learning-for-business/' | relative_url }})
 - [Lean MLOps for Startups]({{ '/wiki/lean-mlops-for-startups/' | relative_url }})
-- [Startup]({{ '/wiki/startup/' | relative_url }})
+- [Startup]({{ '/wiki/startups/' | relative_url }})
 - [Startups]({{ '/wiki/startups/' | relative_url }})
 - [Entrepreneurship]({{ '/wiki/entrepreneurship/' | relative_url }})
 - [Machine Learning]({{ '/wiki/machine-learning/' | relative_url }})

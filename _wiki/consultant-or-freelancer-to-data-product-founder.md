@@ -7,7 +7,7 @@ related:
   - Freelance
   - Entrepreneurship
   - Founder
-  - Startup
+  - Startups
   - Data Products
   - Data Product Management
   - Open Source Portfolio Evidence
@@ -136,7 +136,7 @@ transition:
 - [Freelance]({{ '/wiki/freelance/' | relative_url }})
 - [Entrepreneurship]({{ '/wiki/entrepreneurship/' | relative_url }})
 - [Founder]({{ '/wiki/founder/' | relative_url }})
-- [Startup]({{ '/wiki/startup/' | relative_url }})
+- [Startup]({{ '/wiki/startups/' | relative_url }})
 - [Data Products]({{ '/wiki/data-products/' | relative_url }})
 - [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
 - [Data Product Adoption]({{ '/wiki/data-product-adoption/' | relative_url }})

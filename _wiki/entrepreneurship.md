@@ -3,7 +3,6 @@ layout: wiki
 title: "Entrepreneurship"
 summary: "Podcast-backed notes on data and AI entrepreneurship across startups, solopreneurship, freelance consulting, open-source products, and founder transitions."
 related:
-  - Startup
   - Startups
   - Founder
   - Solopreneur
@@ -16,7 +15,7 @@ In DataTalks.Club podcast discussions, entrepreneurship means turning technical
 or consulting expertise into an owned business. The focus is still data and AI.
 
 The guests describe paths through
-[startup]({{ '/wiki/startup/' | relative_url }}) companies and
+[startup]({{ '/wiki/startups/' | relative_url }}) companies and
 [solopreneur]({{ '/wiki/solopreneur/' | relative_url }}) businesses. They also
 cover [freelance]({{ '/wiki/freelance/' | relative_url }}) consulting and
 [open source]({{ '/wiki/open-source/' | relative_url }}) product distribution
@@ -238,7 +237,7 @@ Dimitri's subscription model and Noah's diversified income mix.
 These pages cover the adjacent startup, solo-business, service, and
 open-source paths.
 
-- [Startup]({{ '/wiki/startup/' | relative_url }}) for the singular startup
+- [Startup]({{ '/wiki/startups/' | relative_url }}) for the singular startup
   playbook.
 - [Startups]({{ '/wiki/startups/' | relative_url }}) for the broader
   cross-episode map of startup lessons.

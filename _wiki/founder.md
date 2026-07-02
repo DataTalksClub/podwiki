@@ -3,7 +3,6 @@ layout: wiki
 title: "Founder"
 summary: "How DataTalks.Club podcast guests describe founder work in data, AI, MLOps, open-source, consulting, indie, and digital health startups."
 related:
-  - Startup
   - Startups
   - Entrepreneurship
   - Open Source
@@ -20,7 +19,7 @@ describe founders choosing a problem, validating it with users, shaping the
 product boundary, and finding distribution. They also describe hiring only when
 the business demands it and deciding how the company earns money.
 
-For the startup cluster, use [Startup]({{ '/wiki/startup/' | relative_url }})
+For the startup cluster, use [Startup]({{ '/wiki/startups/' | relative_url }})
 for the end-to-end playbook and [Startups]({{ '/wiki/startups/' | relative_url }})
 for the cross-episode map. Use
 [Machine Learning for Startups]({{ '/wiki/machine-learning-for-startups/' | relative_url }})

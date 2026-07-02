@@ -5,7 +5,7 @@ summary: "How DataTalks.Club guests scope machine learning consulting work: disc
 related:
   - Freelance
   - Data Product Management
-  - Startup
+  - Startups
   - Metrics
   - Entrepreneurship
   - Solopreneur
@@ -381,7 +381,7 @@ These pages cover adjacent service, product, metric, and startup decisions.
 - [Freelance Data Engineering and Consulting]({{ '/wiki/freelance/' | relative_url }})
 - [Data Product Management]({{ '/wiki/data-product-management/' | relative_url }})
 - [Metrics]({{ '/wiki/metrics/' | relative_url }})
-- [Startup]({{ '/wiki/startup/' | relative_url }})
+- [Startup]({{ '/wiki/startups/' | relative_url }})
 - [Entrepreneurship]({{ '/wiki/entrepreneurship/' | relative_url }})
 - [Solopreneur]({{ '/wiki/solopreneur/' | relative_url }})
 - [Machine Learning for Startups]({{ '/wiki/machine-learning-for-startups/' | relative_url }})

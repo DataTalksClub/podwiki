@@ -5,7 +5,7 @@ summary: "How DataTalks.Club podcast guests describe solopreneurship as intentio
 related:
   - Freelance
   - Entrepreneurship
-  - Startup
+  - Startups
   - Consultant or Freelancer to Data Product Founder
   - Technical Writing
   - Open Source
@@ -19,7 +19,7 @@ who chooses an intentionally small business. In the DataTalks.Club podcast,
 solopreneurship usually means independent [data science]({{ '/wiki/data-science/' | relative_url }}),
 [AI]({{ '/wiki/ai/' | relative_url }}), or software work. It can also mean
 consulting, teaching, writing, or product work without trying to become a large
-agency or a venture-backed [startup]({{ '/wiki/startup/' | relative_url }}).
+agency or a venture-backed [startup]({{ '/wiki/startups/' | relative_url }}).
 
 [Noah Gift]({{ '/people/noahgift/' | relative_url }}) gives the clearest
 definition in

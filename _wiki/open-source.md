@@ -16,7 +16,7 @@ related:
   - Machine Learning Tools
   - Data Engineering Tools
   - Data Engineering Portfolio Projects
-  - Startup
+  - Startups
   - Entrepreneurship
   - Solopreneur
   - Tools
@@ -136,7 +136,7 @@ explain open core, cloud, and on-prem adoption in
 [How to Build a Successful ML Startup]({{ '/podcasts/building-mlops-startup/' | relative_url }}).
 Her sequence starts before the repository. She covers customer discovery at
 42:15, Evidently validation at 43:59, and founder work around content and
-community at 46:32. Use [startup]({{ '/wiki/startup/' | relative_url }}) and
+community at 46:32. Use [startup]({{ '/wiki/startups/' | relative_url }}) and
 [founder]({{ '/wiki/founder/' | relative_url }}) for that operating lens.
 
 [Sonal Goyal]({{ '/people/sonalgoyal/' | relative_url }}) uses Zingg to explain
@@ -152,7 +152,7 @@ developer-tool go-to-market in
 At 39:01, he warns that GitHub stars need interpretation. Active users,
 engagement, and problem validity matter more than vanity metrics.
 For startup distribution, that investor lens pairs open source with
-[startup]({{ '/wiki/startup/' | relative_url }}) work and
+[startup]({{ '/wiki/startups/' | relative_url }}) work and
 [open-source portfolio evidence]({{ '/wiki/open-source-portfolio-evidence/' | relative_url }})
 rather than vanity metrics.
 
@@ -397,7 +397,7 @@ episode. Open source can help with
 The company still has to decide how cloud competitors, support needs, and
 license choices affect the business. Those tradeoffs separate open source as a
 technical practice from
-[startup]({{ '/wiki/startup/' | relative_url }}),
+[startup]({{ '/wiki/startups/' | relative_url }}),
 [founder]({{ '/wiki/founder/' | relative_url }}), and
 [entrepreneurship]({{ '/wiki/entrepreneurship/' | relative_url }}) topics.
 
@@ -520,7 +520,7 @@ These pages cover adjacent contribution, adoption, tool, and company paths.
   [Tools]({{ '/wiki/tools/' | relative_url }}), and
   [Scikit-Learn]({{ '/wiki/scikit-learn/' | relative_url }}).
 - Company paths:
-  [Startup]({{ '/wiki/startup/' | relative_url }}),
+  [Startup]({{ '/wiki/startups/' | relative_url }}),
   [Founder]({{ '/wiki/founder/' | relative_url }}),
   [Entrepreneurship]({{ '/wiki/entrepreneurship/' | relative_url }}), and
   [Solopreneur]({{ '/wiki/solopreneur/' | relative_url }}).

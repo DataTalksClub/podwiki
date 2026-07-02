@@ -7,7 +7,7 @@ related:
   - Entrepreneurship
   - Career Growth
   - Data Products
-  - Startup
+  - Startups
   - Consultant or Freelancer to Data Product Founder
   - Solopreneur
 ---
@@ -34,7 +34,7 @@ The topic sits near
 [entrepreneurship]({{ '/wiki/entrepreneurship/' | relative_url }}),
 [career growth]({{ '/wiki/career-growth/' | relative_url }}),
 [solopreneur]({{ '/wiki/solopreneur/' | relative_url }}), and
-[startup]({{ '/wiki/startup/' | relative_url }}) because freelancing is both a
+[startup]({{ '/wiki/startups/' | relative_url }}) because freelancing is both a
 career move and an owned business.
 
 ## Strategic Definition
@@ -263,7 +263,7 @@ alignment, and JSON-to-relational transformation pain made product building more
 attractive than doing more of the same service work. The move links freelance
 strategy to [data products]({{ '/wiki/data-products/' | relative_url }}),
 [open source]({{ '/wiki/open-source/' | relative_url }}), and
-[startup]({{ '/wiki/startup/' | relative_url }}). The freelancer has to decide
+[startup]({{ '/wiki/startups/' | relative_url }}). The freelancer has to decide
 whether repeated pain is a profitable service niche or evidence for a tool,
 library, workshop, or company.
 
@@ -293,7 +293,7 @@ These pages cover the adjacent business models and career paths:
   [Solopreneur Data Scientist]({{ '/wiki/solopreneur-data-scientist/' | relative_url }})
   for intentionally small independent data businesses.
 - [Entrepreneurship]({{ '/wiki/entrepreneurship/' | relative_url }}) and
-  [Startup]({{ '/wiki/startup/' | relative_url }}) for the service, product, and
+  [Startup]({{ '/wiki/startups/' | relative_url }}) for the service, product, and
   company-building choices around independent work.
 - [Consultant or Freelancer to Data Product Founder]({{ '/wiki/consultant-or-freelancer-to-data-product-founder/' | relative_url }})
   for the transition from repeated client pain to a product.

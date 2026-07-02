@@ -3,7 +3,6 @@ layout: wiki
 title: "Startups"
 summary: "Recurring startup lessons across DataTalks.Club podcast discussions: problem discovery, validation, MLOps scope, open-source distribution, consulting paths, funding, and startup career tradeoffs."
 related:
-  - Startup
   - Founder
   - Entrepreneurship
   - Open Source
@@ -25,9 +24,8 @@ four-person teams. Across these discussions, startup teams learn the real
 workflow and choose a narrow product boundary. They also have to reach users
 early and avoid technical scope that outruns the business.
 
-[Startup]({{ '/wiki/startup/' | relative_url }}) covers the singular concept and
-the end-to-end founder playbook. Readers can use the plural topic as a
-cross-episode map of repeated lessons. It links startup discussions to
+This page maps the end-to-end founder playbook and the repeated lessons across
+these episodes. It links startup discussions to
 [founders]({{ '/wiki/founder/' | relative_url }}),
 [entrepreneurship]({{ '/wiki/entrepreneurship/' | relative_url }}), and
 [open source]({{ '/wiki/open-source/' | relative_url }}). It also keeps
@@ -132,6 +130,29 @@ costs and niche marketing
 ([Indie Hacking and Bootstrapping Side Projects]({{ '/podcasts/data-scientist-and-indie-hacker-bootstrapping-side-projects/' | relative_url }}),
 around 7:23-33:11).
 
+## Product Strategy in High-Risk Domains
+
+Some startup discussions add product strategy where a wrong output can harm a
+user. [Liesbeth Dingemans]({{ '/people/liesbethdingemans/' | relative_url }})
+gives the general AI product design frame in
+[AI Product Design]({{ '/podcasts/ai-ml-product-design-and-experimentation/' | relative_url }}).
+Around 6:43-18:21, she argues that product teams should design interfaces that
+collect useful signals, frame the problem before the solution, and test parallel
+options before scaling. Around 37:15-54:11, she connects roadmaps to
+prioritization, evidence, and investment cases.
+
+[Maria Bruckert]({{ '/people/mariabruckert/' | relative_url }}) shows the
+health-tech version in
+[Building Digital Health Startups]({{ '/podcasts/building-ai-digital-health-startups/' | relative_url }}).
+Around 2:05-6:11 and 12:20-24:08, she describes industry immersion before
+product structure. The team uses cold outreach and accelerators, and clinical
+meetings help them learn pharmacy constraints, hospital constraints, and legacy
+workflows. Around 24:08-35:57, SQIN has to route AI diagnosis into consultation
+and treatment, and it also covers pharmacies and prescriptions. The app needs
+sensitive messaging, inclusive design, and fallbacks when the model shouldn't
+decide alone. In high-risk domains, product strategy includes what the system
+should refuse or defer, and what it should hand to a human.
+
 ## Technical Scope Stays Stage-Aware
 
 Guests expect startup engineering discipline and warn against building platforms
@@ -228,9 +249,9 @@ freelance projects became ways to broaden his data work beyond the startup.
 For data professionals, a startup can be an employer or client. It can also be
 a product lab or future company.
 
-Use [startup]({{ '/wiki/startup/' | relative_url }}) and
-[founder]({{ '/wiki/founder/' | relative_url }}) for problem choice and
-validation, plus hiring, funding, and distribution. Use
+Use [founder]({{ '/wiki/founder/' | relative_url }}) for the operating role
+inside a startup, covering problem choice and validation plus hiring, funding,
+and distribution. Use
 [entrepreneurship]({{ '/wiki/entrepreneurship/' | relative_url }}) for
 independent-work paths across products, consulting, and solo work.
 

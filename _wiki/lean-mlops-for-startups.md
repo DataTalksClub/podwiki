@@ -6,7 +6,6 @@ keyword: "lean mlops for startups"
 summary: "A startup-stage roadmap for lean MLOps: SaaS-first choices, portable foundations, manual controls, versioning, evaluation, monitoring, and the point where shared infrastructure starts to pay off."
 search_intent: "People searching for lean mlops for startups want a practical build order for shipping ML with small teams, managed services, manual controls, basic monitoring, and a clear boundary before heavier ML platforms."
 related_wiki:
-  - Startup
   - Startups
   - MLOps
   - MLOps Roadmap
@@ -35,7 +34,7 @@ full path from experiments to shared platforms. The startup version keeps
 run short on money, time, and people
 ([Lean MLOps for Startups, 7:54-11:54]({{ '/podcasts/lean-mlops-for-startups/' | relative_url }})).
 
-Use this roadmap when a [startup]({{ '/wiki/startup/' | relative_url }}) or
+Use this roadmap when a [startup]({{ '/wiki/startups/' | relative_url }}) or
 [startup team]({{ '/wiki/startups/' | relative_url }}) already has a model or
 data product idea and needs a production path. [Nemanja Radojkovic]({{ '/people/nemanjaradojkovic/' | relative_url }})
 argues that a small company should choose managed services and mature
