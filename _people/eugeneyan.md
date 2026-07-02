@@ -20,7 +20,7 @@ Eugene Yan works at the intersection of machine learning and product, with sourc
 
 ## Concepts Connected
 
-- [communication]({{ '/wiki/communication/' | relative_url }}) and [career transition]({{ '/wiki/career-transition/' | relative_url }}) for writing as a career tool.
+- [communication]({{ '/wiki/communication/' | relative_url }}) and [career transition]({{ '/wiki/career-transitions-in-data/' | relative_url }}) for writing as a career tool.
 - [machine learning]({{ '/wiki/machine-learning/' | relative_url }}) and [software engineering]({{ '/wiki/software-engineering/' | relative_url }}) for the production systems context.
 - [community building]({{ '/wiki/community-building/' | relative_url }}) for public learning and technical education.
 
@@ -32,4 +32,4 @@ Eugene Yan works at the intersection of machine learning and product, with sourc
 ## Podcast Discussions
 
 - [DataTalks.Club Behind the Scenes: Alexey Grigorev on Scaling and Growing the Community]({{ '/podcasts/datatalksclub-building-scaling-data-community/' | relative_url }}). Related topics: [community building]({{ '/wiki/community-building/' | relative_url }}), [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [data science]({{ '/wiki/data-science/' | relative_url }}), [data engineering]({{ '/wiki/data-engineering/' | relative_url }}), [MLOps]({{ '/wiki/mlops/' | relative_url }}).
-- [Master Technical Writing: 7-Day Workflow to Accelerate Your Data Science Career]({{ '/podcasts/technical-writing-for-data-scientists/' | relative_url }}). Related topics: [software engineering]({{ '/wiki/software-engineering/' | relative_url }}), [tools]({{ '/wiki/tools/' | relative_url }}), [practices]({{ '/wiki/practices/' | relative_url }}), [communication]({{ '/wiki/communication/' | relative_url }}), [career transition]({{ '/wiki/career-transition/' | relative_url }}).
+- [Master Technical Writing: 7-Day Workflow to Accelerate Your Data Science Career]({{ '/podcasts/technical-writing-for-data-scientists/' | relative_url }}). Related topics: [software engineering]({{ '/wiki/software-engineering/' | relative_url }}), [tools]({{ '/wiki/tools/' | relative_url }}), [practices]({{ '/wiki/practices/' | relative_url }}), [communication]({{ '/wiki/communication/' | relative_url }}), [career transition]({{ '/wiki/career-transitions-in-data/' | relative_url }}).

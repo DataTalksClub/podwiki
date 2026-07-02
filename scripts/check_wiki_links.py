@@ -27,6 +27,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 WIKI = ROOT / "_wiki"
+# Collections/pages whose bodies may link to /wiki/<slug>/ and must not go dead.
+LINK_SOURCE_DIRS = ["_wiki", "_people", "_podcast_summaries", "_books"]
 
 WIKI_URL_RE = re.compile(r"/wiki/([a-z0-9][a-z0-9-]*)/")
 LIST_KEY_RE = re.compile(r"^(related|related_wiki)\s*:\s*$")
@@ -50,21 +52,29 @@ def split_frontmatter(raw: str) -> tuple[list[str], str]:
 
 
 def main() -> int:
-    pages = [p for p in sorted(WIKI.glob("*.md")) if p.name != "README.md"]
-    valid_slugs = {p.stem for p in pages}
+    wiki_pages = [p for p in sorted(WIKI.glob("*.md")) if p.name != "README.md"]
+    valid_slugs = {p.stem for p in wiki_pages}
+
+    # Every page (across collections) whose /wiki/ links must resolve.
+    link_pages: list[Path] = []
+    for directory in LINK_SOURCE_DIRS:
+        d = ROOT / directory
+        if d.exists():
+            link_pages += [p for p in sorted(d.glob("*.md")) if p.name != "README.md"]
 
     failures: list[str] = []
     checked = 0
 
-    for path in pages:
+    for path in link_pages:
         raw = path.read_text(encoding="utf-8")
         fm_lines, body = split_frontmatter(raw)
+        rel = path.relative_to(ROOT)
 
-        # body /wiki/<slug>/ links
+        # body /wiki/<slug>/ links (any collection)
         for slug in WIKI_URL_RE.findall(body):
             checked += 1
             if slug not in valid_slugs:
-                failures.append(f"{path.name}: body link /wiki/{slug}/ -> missing page")
+                failures.append(f"{rel}: body link /wiki/{slug}/ -> missing page")
 
         # related / related_wiki frontmatter titles
         in_list = False
@@ -81,7 +91,7 @@ def main() -> int:
                 checked += 1
                 if slug not in valid_slugs:
                     failures.append(
-                        f"{path.name}: related '{title}' -> /wiki/{slug}/ missing page"
+                        f"{rel}: related '{title}' -> /wiki/{slug}/ missing page"
                     )
                 continue
             if line.strip() and not line.startswith((" ", "\t")):
@@ -92,7 +102,8 @@ def main() -> int:
         for f in failures:
             print(f"- {f}")
         return 1
-    print(f"wiki link check passed: {checked} internal references, {len(pages)} pages")
+    print(f"wiki link check passed: {checked} internal references, "
+          f"{len(link_pages)} pages across {len(LINK_SOURCE_DIRS)} collections")
     return 0
 
 

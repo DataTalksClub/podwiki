@@ -16,4 +16,4 @@ Nicolas Rassam is a seasoned technical recruiter and talent partner with over te
 
 ## Podcast Discussions
 
-- [Hiring Data Engineers in Europe: Nicolas Rassam on Interviews, Skills & Career Switches]({{ '/podcasts/hiring-for-data-engineering-jobs-in-europe/' | relative_url }}). Discussed: Episode Opening & Guest Welcome; Guest Background and Career Path; Onfido Role & European Hiring Footprint; Roles Recruited: Data, ML & Research Spectrum. Related topics: [data engineering]({{ '/wiki/data-engineering/' | relative_url }}), [career transition]({{ '/wiki/career-transition/' | relative_url }}), [career growth]({{ '/wiki/career-growth/' | relative_url }}).
+- [Hiring Data Engineers in Europe: Nicolas Rassam on Interviews, Skills & Career Switches]({{ '/podcasts/hiring-for-data-engineering-jobs-in-europe/' | relative_url }}). Discussed: Episode Opening & Guest Welcome; Guest Background and Career Path; Onfido Role & European Hiring Footprint; Roles Recruited: Data, ML & Research Spectrum. Related topics: [data engineering]({{ '/wiki/data-engineering/' | relative_url }}), career transition, [career growth]({{ '/wiki/career-growth/' | relative_url }}).

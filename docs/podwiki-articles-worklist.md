@@ -61,7 +61,7 @@ best-data-engineering-course · free-data-engineering-course · data-engineer-co
 data-engineer-courses · data-engineering-course · data-engineering-courses ·
 data-engineer-bootcamp · data-engineering-bootcamp · data-engineering-training ·
 data-engineer-training · how-to-become-a-data-engineer-with-no-experience ·
-data-engineer-roadmap  → 301 all to `/podwiki/wiki/data-engineering-roadmap/` (which links to the DE Zoomcamp)
+data-engineer-roadmap  → 301 all to `/podwiki/wiki/data-engineer-roadmap/` (which links to the DE Zoomcamp)
 
 ### B2 → wiki `mlops-roadmap` (learn MLOps/ML + certifications)
 Status: the duplicate MLOps course, courses, certification, machine learning

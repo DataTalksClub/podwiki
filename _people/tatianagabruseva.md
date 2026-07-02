@@ -22,7 +22,7 @@ Tatiana Gabruseva is a Computer Vision and Deep Learning Engineer and Kaggle Com
 ## Concepts Connected
 
 - [computer vision]({{ '/wiki/computer-vision/' | relative_url }}), [deep learning]({{ '/wiki/deep-learning/' | relative_url }}), and [machine learning]({{ '/wiki/machine-learning/' | relative_url }}) for the technical arc.
-- [career transition]({{ '/wiki/career-transition/' | relative_url }}), [career growth]({{ '/wiki/career-growth/' | relative_url }}), and [academia]({{ '/wiki/academia/' | relative_url }}) for moving into industry roles.
+- [career transition]({{ '/wiki/career-transitions-in-data/' | relative_url }}), [career growth]({{ '/wiki/career-growth/' | relative_url }}), and [academia]({{ '/wiki/academia/' | relative_url }}) for moving into industry roles.
 - [MLOps]({{ '/wiki/mlops/' | relative_url }}) and [staff AI engineer]({{ '/wiki/staff-ai-engineer/' | relative_url }}) for senior-practitioner expectations.
 
 ## Source Links
@@ -32,6 +32,6 @@ Tatiana Gabruseva is a Computer Vision and Deep Learning Engineer and Kaggle Com
 
 ## Podcast Discussions
 
-- [Transitioning from Academia to Industry as a Staff AI Engineer: Interview Prep, MLOps & Onboarding]({{ '/podcasts/from-academia-to-staff-ai-engineer-interviews-and-career-growth/' | relative_url }}). Related topics: [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [career transition]({{ '/wiki/career-transition/' | relative_url }}), [MLOps]({{ '/wiki/mlops/' | relative_url }}), [staff AI engineer]({{ '/wiki/staff-ai-engineer/' | relative_url }}), [career growth]({{ '/wiki/career-growth/' | relative_url }}).
-- [Switch to Computer Vision & Deep Learning: Roadmap, Kaggle Projects, Mentors & Interview Prep]({{ '/podcasts/from-physics-to-computer-vision-career-transition/' | relative_url }}). Related topics: [career transition]({{ '/wiki/career-transition/' | relative_url }}), physics, [deep learning]({{ '/wiki/deep-learning/' | relative_url }}), [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [career growth]({{ '/wiki/career-growth/' | relative_url }}), [academia]({{ '/wiki/academia/' | relative_url }}), mentorship.
+- [Transitioning from Academia to Industry as a Staff AI Engineer: Interview Prep, MLOps & Onboarding]({{ '/podcasts/from-academia-to-staff-ai-engineer-interviews-and-career-growth/' | relative_url }}). Related topics: [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [career transition]({{ '/wiki/career-transitions-in-data/' | relative_url }}), [MLOps]({{ '/wiki/mlops/' | relative_url }}), [staff AI engineer]({{ '/wiki/staff-ai-engineer/' | relative_url }}), [career growth]({{ '/wiki/career-growth/' | relative_url }}).
+- [Switch to Computer Vision & Deep Learning: Roadmap, Kaggle Projects, Mentors & Interview Prep]({{ '/podcasts/from-physics-to-computer-vision-career-transition/' | relative_url }}). Related topics: [career transition]({{ '/wiki/career-transitions-in-data/' | relative_url }}), physics, [deep learning]({{ '/wiki/deep-learning/' | relative_url }}), [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [career growth]({{ '/wiki/career-growth/' | relative_url }}), [academia]({{ '/wiki/academia/' | relative_url }}), mentorship.
 - [Competitions: Beyond the Kaggle Leaderboard]({{ '/podcasts/s24e01-competitions-beyond-kaggle-leaderboard/' | relative_url }}).

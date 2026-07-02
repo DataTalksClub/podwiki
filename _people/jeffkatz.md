@@ -76,7 +76,7 @@ and reviewable Python and SQL.
 
 This makes his advice especially relevant to
 [data engineering portfolio projects]({{ '/wiki/data-engineering-portfolio-projects/' | relative_url }})
-and the [data engineering roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }}).
+and the [data engineering roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }}).
 The project should demonstrate a pipeline, but also answer the hiring manager's
 risk question. It should show that the candidate can read a codebase, make
 changes, test the work, and explain the data model.

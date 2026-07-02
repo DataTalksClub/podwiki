@@ -49,7 +49,7 @@ staging. She also covers data modeling and ML serving.
 Around 59:16 in
 [Modern Data Pipeline Architecture]({{ '/podcasts/modern-data-pipelines-orchestration-ingestion-modeling/' | relative_url }}),
 she recommends Joe and Matt's book as a way to learn the field. Read this page with the
-[data engineering roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }})
+[data engineering roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }})
 and [data engineering tools]({{ '/wiki/data-engineering-tools/' | relative_url }})
 pages. Tools matter, but they make more sense after the lifecycle is clear.
 
@@ -152,6 +152,6 @@ Use these follow-up paths from Joe's DataTalks.Club material.
   co-author and Ternary Data co-founder. His Q&A answers often extend Joe's
   points on technology classes, off-the-shelf tools, and cloud data systems.
 - [Data Engineering]({{ '/wiki/data-engineering/' | relative_url }}),
-  [Data Engineering Roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }}),
+  [Data Engineering Roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }}),
   and [Data Engineering Tools]({{ '/wiki/data-engineering-tools/' | relative_url }})
   are the best follow-up hubs for Joe's recurring themes.

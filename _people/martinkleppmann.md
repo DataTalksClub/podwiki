@@ -164,6 +164,6 @@ data-intensive systems books during a resource discussion (1:01:56-1:02:22).
 The recurring approach is clear. Martin's DataTalks.Club footprint is less
 about one tool and more about reasoning through
 [data engineering]({{ '/wiki/data-engineering/' | relative_url }}),
-[data engineering roadmap]({{ '/wiki/data-engineering-roadmap/' | relative_url }}),
+[data engineering roadmap]({{ '/wiki/data-engineer-roadmap/' | relative_url }}),
 [software engineering]({{ '/wiki/software-engineering/' | relative_url }}), and
 distributed-systems tradeoffs.

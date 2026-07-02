@@ -22,7 +22,7 @@ Nemanja Radojkovic's source bio describes a path from electrical engineering int
 
 - [MLOps]({{ '/wiki/mlops/' | relative_url }}) and [production]({{ '/wiki/production/' | relative_url }}) for operationalizing ML under different organizational constraints.
 - [data engineering]({{ '/wiki/data-engineering/' | relative_url }}) and [tools]({{ '/wiki/tools/' | relative_url }}) for infrastructure choices.
-- [career transition]({{ '/wiki/career-transition/' | relative_url }}) and [startups]({{ '/wiki/startups/' | relative_url }}) for role evolution and lean implementation.
+- [career transition]({{ '/wiki/career-transitions-in-data/' | relative_url }}) and [startups]({{ '/wiki/startups/' | relative_url }}) for role evolution and lean implementation.
 
 ## Source Links
 
@@ -31,5 +31,5 @@ Nemanja Radojkovic's source bio describes a path from electrical engineering int
 
 ## Podcast Discussions
 
-- [Lean MLOps for Startups: SaaS-First MVP Stack, Avoid Vendor Lock-In & Manage Tech Debt]({{ '/podcasts/lean-mlops-for-startups/' | relative_url }}). Related topics: [MLOps]({{ '/wiki/mlops/' | relative_url }}), [data engineering]({{ '/wiki/data-engineering/' | relative_url }}), [tools]({{ '/wiki/tools/' | relative_url }}), [production]({{ '/wiki/production/' | relative_url }}), [career transition]({{ '/wiki/career-transition/' | relative_url }}), [startups]({{ '/wiki/startups/' | relative_url }}).
-- [MLOps in Finance: Regulated Deployment, CI/CD and Model Governance]({{ '/podcasts/mlops-and-ml-engineering-in-finance/' | relative_url }}). Related topics: [MLOps]({{ '/wiki/mlops/' | relative_url }}), [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [data engineering]({{ '/wiki/data-engineering/' | relative_url }}), [production]({{ '/wiki/production/' | relative_url }}), [career transition]({{ '/wiki/career-transition/' | relative_url }}).
+- [Lean MLOps for Startups: SaaS-First MVP Stack, Avoid Vendor Lock-In & Manage Tech Debt]({{ '/podcasts/lean-mlops-for-startups/' | relative_url }}). Related topics: [MLOps]({{ '/wiki/mlops/' | relative_url }}), [data engineering]({{ '/wiki/data-engineering/' | relative_url }}), [tools]({{ '/wiki/tools/' | relative_url }}), [production]({{ '/wiki/production/' | relative_url }}), [career transition]({{ '/wiki/career-transitions-in-data/' | relative_url }}), [startups]({{ '/wiki/startups/' | relative_url }}).
+- [MLOps in Finance: Regulated Deployment, CI/CD and Model Governance]({{ '/podcasts/mlops-and-ml-engineering-in-finance/' | relative_url }}). Related topics: [MLOps]({{ '/wiki/mlops/' | relative_url }}), [machine learning]({{ '/wiki/machine-learning/' | relative_url }}), [data engineering]({{ '/wiki/data-engineering/' | relative_url }}), [production]({{ '/wiki/production/' | relative_url }}), [career transition]({{ '/wiki/career-transitions-in-data/' | relative_url }}).
