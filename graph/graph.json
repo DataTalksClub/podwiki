@@ -1,7 +1,7 @@
 {
   "generated_at": "generated-by-scripts/build_graph.py",
   "counts": {
-    "wikis": 278,
+    "wikis": 276,
     "articles": 0,
     "guides": 0,
     "comparisons": 0,
@@ -9,9 +9,9 @@
     "how_tos": 0,
     "podcasts": 202,
     "persons": 438,
-    "topics": 133,
-    "nodes": 1150,
-    "links": 12987
+    "topics": 134,
+    "nodes": 1149,
+    "links": 12897
   },
   "nodes": [
     {
@@ -8413,6 +8413,15 @@
       "search": "QA"
     },
     {
+      "id": "topic:rag",
+      "type": "topic",
+      "label": "rag",
+      "title": "rag",
+      "url": "/search.html?q=rag",
+      "count": 3,
+      "search": "rag"
+    },
+    {
       "id": "topic:remote-sensing",
       "type": "topic",
       "label": "remote sensing",
@@ -9782,16 +9791,6 @@
       "search": "DataOps Engineer Role Reference for the DataOps engineer role across ownership, role boundaries, CI/CD, observability, orchestration, quality, and team design."
     },
     {
-      "id": "wiki:dataops-operating-model",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "DataOps Operating Model",
-      "title": "DataOps Operating Model",
-      "url": "/wiki/dataops-operating-model/",
-      "count": 1,
-      "search": "DataOps Operating Model How data teams turn DataOps principles into an operating model for releases, tests, observability, ownership, productivity, and day two data operations."
-    },
-    {
       "id": "wiki:dataops-platforms",
       "type": "wiki",
       "collection": "wiki",
@@ -11081,16 +11080,6 @@
       "search": "QA to ML and Data Engineering Transition notes for QA engineers moving into machine learning or data engineering through testing discipline, projects, cloud practice, public notes, and interview framing."
     },
     {
-      "id": "wiki:rag",
-      "type": "wiki",
-      "collection": "wiki",
-      "label": "RAG",
-      "title": "RAG",
-      "url": "/wiki/rag/",
-      "count": 1,
-      "search": "RAG A practical DataTalks.Club guide to RAG implementation choices and boundaries."
-    },
-    {
       "id": "wiki:rag-portfolio-projects",
       "type": "wiki",
       "collection": "wiki",
@@ -11874,7 +11863,7 @@
     },
     {
       "source": "book:20211004-transfer-learning-in-action",
-      "target": "wiki:rag",
+      "target": "topic:rag",
       "kind": "book-topic",
       "weight": 2
     },
@@ -11970,13 +11959,13 @@
     },
     {
       "source": "book:20211108-generative-ai-with-python-and-tensorflow-2",
-      "target": "wiki:ai",
+      "target": "topic:rag",
       "kind": "book-topic",
       "weight": 2
     },
     {
       "source": "book:20211108-generative-ai-with-python-and-tensorflow-2",
-      "target": "wiki:rag",
+      "target": "wiki:ai",
       "kind": "book-topic",
       "weight": 2
     },
@@ -19182,12 +19171,6 @@
     },
     {
       "source": "person:meryemarik",
-      "target": "wiki:rag",
-      "kind": "person-link",
-      "weight": 1
-    },
-    {
-      "source": "person:meryemarik",
       "target": "wiki:rag-vs-fine-tuning",
       "kind": "person-link",
       "weight": 1
@@ -19197,6 +19180,12 @@
       "target": "wiki:retrieval-augmented-generation",
       "kind": "person-expertise",
       "weight": 2
+    },
+    {
+      "source": "person:meryemarik",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "person-link",
+      "weight": 1
     },
     {
       "source": "person:meryemarik",
@@ -20011,12 +20000,6 @@
     {
       "source": "person:pauliusztin",
       "target": "wiki:llmops",
-      "kind": "person-link",
-      "weight": 1
-    },
-    {
-      "source": "person:pauliusztin",
-      "target": "wiki:rag",
       "kind": "person-link",
       "weight": 1
     },
@@ -29256,6 +29239,12 @@
     },
     {
       "source": "podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products",
+      "target": "topic:rag",
+      "kind": "podcast-topic",
+      "weight": 2
+    },
+    {
+      "source": "podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products",
       "target": "wiki:ai-engineering",
       "kind": "podcast-topic",
       "weight": 2
@@ -29269,12 +29258,6 @@
     {
       "source": "podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products",
       "target": "wiki:llmops",
-      "kind": "podcast-topic",
-      "weight": 2
-    },
-    {
-      "source": "podcast:s23e01-ai-engineering-skill-stack-agents-llmops-and-how-to-ship-ai-products",
-      "target": "wiki:rag",
       "kind": "podcast-topic",
       "weight": 2
     },
@@ -31260,12 +31243,6 @@
     },
     {
       "source": "wiki:agent-engineering",
-      "target": "wiki:rag",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:agent-engineering",
       "target": "wiki:rag-vs-fine-tuning",
       "kind": "wiki-link",
       "weight": 1
@@ -31458,13 +31435,13 @@
     },
     {
       "source": "wiki:agent-ops",
-      "target": "wiki:rag",
+      "target": "wiki:responsible-ai-and-governance",
       "kind": "wiki-link",
       "weight": 1
     },
     {
       "source": "wiki:agent-ops",
-      "target": "wiki:responsible-ai-and-governance",
+      "target": "wiki:retrieval-augmented-generation",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -31851,12 +31828,6 @@
       "target": "wiki:prompt-engineering",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:ai",
-      "target": "wiki:rag",
-      "kind": "wiki-link",
-      "weight": 1
     },
     {
       "source": "wiki:ai",
@@ -32292,18 +32263,6 @@
     },
     {
       "source": "wiki:ai-engineer-role",
-      "target": "wiki:rag",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai-engineer-role",
-      "target": "wiki:rag",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:ai-engineer-role",
       "target": "wiki:rag-portfolio-projects",
       "kind": "wiki-link",
       "weight": 1
@@ -32313,6 +32272,12 @@
       "target": "wiki:retrieval-augmented-generation",
       "kind": "wiki-link",
       "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineer-role",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:ai-engineer-role",
@@ -32604,12 +32569,6 @@
     },
     {
       "source": "wiki:ai-engineering",
-      "target": "wiki:rag",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai-engineering",
       "target": "wiki:rag-portfolio-projects",
       "kind": "wiki-link",
       "weight": 1
@@ -32805,12 +32764,6 @@
       "target": "wiki:portfolio-projects",
       "kind": "wiki-related",
       "weight": 3
-    },
-    {
-      "source": "wiki:ai-engineering-portfolio-projects",
-      "target": "wiki:rag",
-      "kind": "wiki-link",
-      "weight": 1
     },
     {
       "source": "wiki:ai-engineering-portfolio-projects",
@@ -33120,18 +33073,6 @@
     },
     {
       "source": "wiki:ai-engineering-roadmap",
-      "target": "wiki:rag",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai-engineering-roadmap",
-      "target": "wiki:rag",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:ai-engineering-roadmap",
       "target": "wiki:rag-portfolio-projects",
       "kind": "wiki-link",
       "weight": 1
@@ -33153,6 +33094,12 @@
       "target": "wiki:retrieval-augmented-generation",
       "kind": "wiki-link",
       "weight": 1
+    },
+    {
+      "source": "wiki:ai-engineering-roadmap",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:ai-engineering-roadmap",
@@ -34176,12 +34123,6 @@
     },
     {
       "source": "wiki:ai-red-teaming",
-      "target": "wiki:rag",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai-red-teaming",
       "target": "wiki:responsible-ai-and-governance",
       "kind": "wiki-link",
       "weight": 1
@@ -34410,12 +34351,6 @@
     },
     {
       "source": "wiki:ai-tooling",
-      "target": "wiki:rag",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:ai-tooling",
       "target": "wiki:rag-vs-fine-tuning",
       "kind": "wiki-link",
       "weight": 1
@@ -34632,13 +34567,13 @@
     },
     {
       "source": "wiki:ai-tools-for-personal-productivity",
-      "target": "wiki:rag",
+      "target": "wiki:responsible-ai-and-governance",
       "kind": "wiki-link",
       "weight": 1
     },
     {
       "source": "wiki:ai-tools-for-personal-productivity",
-      "target": "wiki:responsible-ai-and-governance",
+      "target": "wiki:retrieval-augmented-generation",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -37248,13 +37183,13 @@
     },
     {
       "source": "wiki:business-intelligence",
-      "target": "wiki:rag",
+      "target": "wiki:retrieval-augmented-generation",
       "kind": "wiki-link",
       "weight": 1
     },
     {
       "source": "wiki:business-intelligence",
-      "target": "wiki:rag",
+      "target": "wiki:retrieval-augmented-generation",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -37495,12 +37430,6 @@
     {
       "source": "wiki:caching",
       "target": "wiki:prompt-engineering",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:caching",
-      "target": "wiki:rag",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -40380,21 +40309,15 @@
     },
     {
       "source": "wiki:context-engineering",
-      "target": "wiki:rag",
+      "target": "wiki:retrieval-augmented-generation",
       "kind": "wiki-link",
       "weight": 1
-    },
-    {
-      "source": "wiki:context-engineering",
-      "target": "wiki:rag",
-      "kind": "wiki-related",
-      "weight": 3
     },
     {
       "source": "wiki:context-engineering",
       "target": "wiki:retrieval-augmented-generation",
-      "kind": "wiki-link",
-      "weight": 1
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:context-engineering",
@@ -54737,150 +54660,6 @@
       "weight": 3
     },
     {
-      "source": "wiki:dataops-operating-model",
-      "target": "person:adrianbrudaru",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops-operating-model",
-      "target": "person:agitajaunzeme",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops-operating-model",
-      "target": "person:christopherbergh",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops-operating-model",
-      "target": "podcast:dataops-for-data-engineering",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops-operating-model",
-      "target": "podcast:from-devops-to-data-engineering-automation-open-source-volunteering",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops-operating-model",
-      "target": "podcast:trends-in-modern-data-engineering",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops-operating-model",
-      "target": "wiki:ci-cd",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops-operating-model",
-      "target": "wiki:ci-cd",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:dataops-operating-model",
-      "target": "wiki:data-engineering-platforms",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops-operating-model",
-      "target": "wiki:data-engineering-platforms",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:dataops-operating-model",
-      "target": "wiki:data-pipelines",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops-operating-model",
-      "target": "wiki:data-pipelines",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:dataops-operating-model",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops-operating-model",
-      "target": "wiki:data-quality-and-observability",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:dataops-operating-model",
-      "target": "wiki:dataops",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops-operating-model",
-      "target": "wiki:dataops",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:dataops-operating-model",
-      "target": "wiki:dataops-checks-for-data-pipelines",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops-operating-model",
-      "target": "wiki:developer-experience",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops-operating-model",
-      "target": "wiki:devops-to-data-engineering",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops-operating-model",
-      "target": "wiki:devops-to-data-engineering",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:dataops-operating-model",
-      "target": "wiki:orchestration",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops-operating-model",
-      "target": "wiki:orchestration",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:dataops-operating-model",
-      "target": "wiki:testing",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:dataops-operating-model",
-      "target": "wiki:testing",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
       "source": "wiki:dataops-platforms",
       "target": "person:16rahuljain",
       "kind": "wiki-link",
@@ -57637,12 +57416,6 @@
     {
       "source": "wiki:embeddings",
       "target": "wiki:production-search-evaluation",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:embeddings",
-      "target": "wiki:rag",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -61416,18 +61189,6 @@
     },
     {
       "source": "wiki:graph-rag-vs-vector-rag",
-      "target": "wiki:rag",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:graph-rag-vs-vector-rag",
-      "target": "wiki:rag",
-      "kind": "wiki-wiki",
-      "weight": 5
-    },
-    {
-      "source": "wiki:graph-rag-vs-vector-rag",
       "target": "wiki:retrieval-augmented-generation",
       "kind": "wiki-link",
       "weight": 1
@@ -63540,18 +63301,6 @@
     },
     {
       "source": "wiki:knowledge-graph-vs-vector-search",
-      "target": "wiki:rag",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:knowledge-graph-vs-vector-search",
-      "target": "wiki:rag",
-      "kind": "wiki-wiki",
-      "weight": 5
-    },
-    {
-      "source": "wiki:knowledge-graph-vs-vector-search",
       "target": "wiki:retrieval-augmented-generation",
       "kind": "wiki-link",
       "weight": 1
@@ -64662,7 +64411,7 @@
     },
     {
       "source": "wiki:learning-in-public-ai-career-switch",
-      "target": "wiki:rag",
+      "target": "wiki:retrieval-augmented-generation",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -65085,18 +64834,6 @@
       "target": "wiki:production-search-evaluation",
       "kind": "wiki-link",
       "weight": 1
-    },
-    {
-      "source": "wiki:llm-evaluation-workflows",
-      "target": "wiki:rag",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:llm-evaluation-workflows",
-      "target": "wiki:rag",
-      "kind": "wiki-related",
-      "weight": 3
     },
     {
       "source": "wiki:llm-evaluation-workflows",
@@ -65718,18 +65455,6 @@
     },
     {
       "source": "wiki:llm-rag-production-roadmap",
-      "target": "wiki:rag",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:llm-rag-production-roadmap",
-      "target": "wiki:rag",
-      "kind": "wiki-wiki",
-      "weight": 5
-    },
-    {
-      "source": "wiki:llm-rag-production-roadmap",
       "target": "wiki:rag-portfolio-projects",
       "kind": "wiki-link",
       "weight": 1
@@ -65983,12 +65708,6 @@
     {
       "source": "wiki:llm-system-design-interview",
       "target": "wiki:model-monitoring",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:llm-system-design-interview",
-      "target": "wiki:rag",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -66654,12 +66373,6 @@
     },
     {
       "source": "wiki:llms",
-      "target": "wiki:rag",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:llms",
       "target": "wiki:rag-vs-fine-tuning",
       "kind": "wiki-link",
       "weight": 1
@@ -66817,18 +66530,6 @@
     {
       "source": "wiki:long-context-llm-evaluation",
       "target": "wiki:prompt-engineering",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:long-context-llm-evaluation",
-      "target": "wiki:rag",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:long-context-llm-evaluation",
-      "target": "wiki:rag",
       "kind": "wiki-related",
       "weight": 3
     },
@@ -75114,12 +74815,6 @@
     },
     {
       "source": "wiki:multi-agent-systems",
-      "target": "wiki:rag",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:multi-agent-systems",
       "target": "wiki:responsible-ai-and-governance",
       "kind": "wiki-link",
       "weight": 1
@@ -75129,6 +74824,12 @@
       "target": "wiki:responsible-ai-and-governance",
       "kind": "wiki-related",
       "weight": 3
+    },
+    {
+      "source": "wiki:multi-agent-systems",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "wiki-link",
+      "weight": 1
     },
     {
       "source": "wiki:multi-agent-systems",
@@ -75504,7 +75205,7 @@
     },
     {
       "source": "wiki:nlp",
-      "target": "wiki:rag",
+      "target": "wiki:retrieval-augmented-generation",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -75642,7 +75343,7 @@
     },
     {
       "source": "wiki:nontraditional-paths-to-ai-engineering",
-      "target": "wiki:rag",
+      "target": "wiki:retrieval-augmented-generation",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -81366,18 +81067,6 @@
     },
     {
       "source": "wiki:prompt-injection-and-chatbot-risk-management",
-      "target": "wiki:rag",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:prompt-injection-and-chatbot-risk-management",
-      "target": "wiki:rag",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:prompt-injection-and-chatbot-risk-management",
       "target": "wiki:responsible-ai-and-governance",
       "kind": "wiki-link",
       "weight": 1
@@ -81393,6 +81082,12 @@
       "target": "wiki:retrieval-augmented-generation",
       "kind": "wiki-link",
       "weight": 1
+    },
+    {
+      "source": "wiki:prompt-injection-and-chatbot-risk-management",
+      "target": "wiki:retrieval-augmented-generation",
+      "kind": "wiki-related",
+      "weight": 3
     },
     {
       "source": "wiki:prompt-injection-and-chatbot-risk-management",
@@ -81689,222 +81384,6 @@
       "weight": 3
     },
     {
-      "source": "wiki:rag",
-      "target": "person:anahitapakiman",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:rag",
-      "target": "person:atitaarora",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:rag",
-      "target": "person:hugobowneanderson",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:rag",
-      "target": "person:lavanyagupta",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:rag",
-      "target": "person:mariasukhareva",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:rag",
-      "target": "person:meryemarik",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:rag",
-      "target": "person:ranjithakulkarni",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:rag",
-      "target": "podcast:applied-llm-research-and-career-growth-in-practice",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:rag",
-      "target": "podcast:building-agentic-ai-engineering-tooling-retrieval-evaluation",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:rag",
-      "target": "podcast:deploying-llms-in-production-fine-tuning-retrieval-open-source-api",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:rag",
-      "target": "podcast:generative-ai-chatbots-in-production-security",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:rag",
-      "target": "podcast:knowledge-graphs-and-llms-for-automotive-rnd",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:rag",
-      "target": "podcast:modern-search-systems-vector-databases-llms-semantic-retrieval",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:rag",
-      "target": "podcast:practical-llm-engineering-and-rag",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:rag",
-      "target": "wiki:agent-engineering",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:rag",
-      "target": "wiki:agent-engineering",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:rag",
-      "target": "wiki:context-engineering",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:rag",
-      "target": "wiki:embeddings",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:rag",
-      "target": "wiki:graph-rag-vs-vector-rag",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:rag",
-      "target": "wiki:information-retrieval",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:rag",
-      "target": "wiki:knowledge-graph-vs-vector-search",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:rag",
-      "target": "wiki:llm-evaluation-workflows",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:rag",
-      "target": "wiki:llm-evaluation-workflows",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:rag",
-      "target": "wiki:llm-system-design-interview",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:rag",
-      "target": "wiki:llms",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:rag",
-      "target": "wiki:rag-vs-fine-tuning",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:rag",
-      "target": "wiki:responsible-ai-and-governance",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:rag",
-      "target": "wiki:retrieval-augmented-generation",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:rag",
-      "target": "wiki:retrieval-augmented-generation",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:rag",
-      "target": "wiki:search",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:rag",
-      "target": "wiki:search-rag-and-knowledge-systems",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:rag",
-      "target": "wiki:search-rag-and-knowledge-systems",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
-      "source": "wiki:rag",
-      "target": "wiki:security",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:rag",
-      "target": "wiki:vector-database-vs-search-engine",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:rag",
-      "target": "wiki:vector-databases",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:rag",
-      "target": "wiki:vector-databases",
-      "kind": "wiki-related",
-      "weight": 3
-    },
-    {
       "source": "wiki:rag-evaluation-workflow",
       "target": "person:atitaarora",
       "kind": "wiki-link",
@@ -82051,18 +81530,6 @@
     {
       "source": "wiki:rag-evaluation-workflow",
       "target": "wiki:production-search-evaluation",
-      "kind": "wiki-wiki",
-      "weight": 5
-    },
-    {
-      "source": "wiki:rag-evaluation-workflow",
-      "target": "wiki:rag",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:rag-evaluation-workflow",
-      "target": "wiki:rag",
       "kind": "wiki-wiki",
       "weight": 5
     },
@@ -82531,18 +81998,6 @@
     {
       "source": "wiki:rag-vs-fine-tuning",
       "target": "wiki:prompt-engineering",
-      "kind": "wiki-wiki",
-      "weight": 5
-    },
-    {
-      "source": "wiki:rag-vs-fine-tuning",
-      "target": "wiki:rag",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:rag-vs-fine-tuning",
-      "target": "wiki:rag",
       "kind": "wiki-wiki",
       "weight": 5
     },
@@ -83623,6 +83078,12 @@
     {
       "source": "wiki:retrieval-augmented-generation",
       "target": "wiki:information-retrieval",
+      "kind": "wiki-link",
+      "weight": 1
+    },
+    {
+      "source": "wiki:retrieval-augmented-generation",
+      "target": "wiki:knowledge-graph-vs-vector-search",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -85218,7 +84679,7 @@
     },
     {
       "source": "wiki:search-relevance",
-      "target": "wiki:rag",
+      "target": "wiki:retrieval-augmented-generation",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -86706,7 +86167,7 @@
     },
     {
       "source": "wiki:staff-ai-engineer",
-      "target": "wiki:rag",
+      "target": "wiki:retrieval-augmented-generation",
       "kind": "wiki-link",
       "weight": 1
     },
@@ -88332,12 +87793,6 @@
     },
     {
       "source": "wiki:testing",
-      "target": "wiki:rag",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:testing",
       "target": "wiki:reproducibility",
       "kind": "wiki-link",
       "weight": 1
@@ -89203,12 +88658,6 @@
     {
       "source": "wiki:vector-databases",
       "target": "wiki:production-search-evaluation",
-      "kind": "wiki-link",
-      "weight": 1
-    },
-    {
-      "source": "wiki:vector-databases",
-      "target": "wiki:rag",
       "kind": "wiki-link",
       "weight": 1
     },
