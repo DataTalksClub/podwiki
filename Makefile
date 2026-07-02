@@ -13,8 +13,8 @@ sources: ## Sync source-derived podcast and people pages for graph/search
 graph: sources ## Build the static graph data used by the site
 	python scripts/build_graph.py
 
-index: graph ## Build the zerosearch artifact used by Lambda
-	python scripts/build_search_index.py
+index: graph ## Build the zerosearch artifact used by Lambda (STEMMER=porter to stem)
+	python scripts/build_search_index.py $(if $(STEMMER),--stemmer $(STEMMER))
 
 lambda-package: index ## Prepare the minimal SAM CodeUri directory
 	python scripts/prepare_lambda_package.py

@@ -11,6 +11,12 @@ ROOT = Path(__file__).resolve().parents[2]
 SIBLING_ZEROSEARCH = ROOT.parent / "zerosearch"
 if SIBLING_ZEROSEARCH.exists():
     sys.path.insert(0, str(SIBLING_ZEROSEARCH))
+# stemlite is optional: only needed when the index was built with a named
+# stemmer. For local dev, find it beside the repo; when deployed it is vendored
+# at the package root (already on the Lambda path) by prepare_lambda_package.py.
+SIBLING_STEMLITE = ROOT.parent / "stemlite"
+if SIBLING_STEMLITE.exists():
+    sys.path.insert(0, str(SIBLING_STEMLITE))
 
 from zerosearch import Index
 

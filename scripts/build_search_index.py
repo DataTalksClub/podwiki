@@ -14,6 +14,9 @@ ROOT = Path(__file__).resolve().parents[1]
 SIBLING_ZEROSEARCH = ROOT.parent / "zerosearch"
 if SIBLING_ZEROSEARCH.exists():
     sys.path.insert(0, str(SIBLING_ZEROSEARCH))
+SIBLING_STEMLITE = ROOT.parent / "stemlite"
+if SIBLING_STEMLITE.exists():
+    sys.path.insert(0, str(SIBLING_STEMLITE))
 
 from zerosearch import Index  # noqa: E402
 
@@ -214,6 +217,12 @@ def main() -> None:
     parser.add_argument("--corpus", type=Path, default=DEFAULT_CORPUS)
     parser.add_argument("--browser-corpus", type=Path, default=DEFAULT_BROWSER_CORPUS)
     parser.add_argument("--index", type=Path, default=DEFAULT_INDEX)
+    parser.add_argument(
+        "--stemmer", default=None,
+        help="stemmer name (porter/snowball/lancaster) via the stemlite library. "
+             "OFF by default: only enable once stemlite and the stemming-enabled "
+             "zerosearch are available to the Lambda (see docs/search-stemming.md).",
+    )
     args = parser.parse_args()
 
     docs = build_docs()
@@ -225,6 +234,7 @@ def main() -> None:
     index = Index(
         text_fields=["title", "segment_title", "text", "related_terms"],
         keyword_fields=["id", "level", "document_type", "episode_slug", "related_terms"],
+        stemmer=args.stemmer,
     )
     index.fit(docs)
     args.index.parent.mkdir(parents=True, exist_ok=True)
