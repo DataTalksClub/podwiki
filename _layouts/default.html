@@ -45,6 +45,7 @@
       })();
     </script>
     <meta name="theme-color" content="#ffffff">
+    {% if page.noindex %}<meta name="robots" content="noindex, follow">{% endif %}
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
     <meta name="description" content="{{ page_description | escape }}">
     <link rel="canonical" href="{{ canonical_url }}">
