@@ -187,10 +187,10 @@
         random
           ? `Starting from <strong>${escapeHtml(
               center.label || center.title
-            )}</strong> — hover a connection, click to explore it in the full graph, or show another topic.`
+            )}</strong> — hover a connection, click to explore it here, or show another topic.`
           : `See how <strong>${escapeHtml(
               center.label || center.title
-            )}</strong> connects to other pages. Hover to focus a link, click to explore it in the full graph.`
+            )}</strong> connects to other pages. Hover to focus a link, click to explore it here.`
       }</p>
       <div class="graph-embed" data-embed>
         <canvas class="graph-embed-canvas" role="img" aria-label="Connection graph for ${escapeHtml(
@@ -202,7 +202,7 @@
           random
             ? `<button type="button" class="graph-reroll" data-graph-reroll>Show another topic &rarr;</button> `
             : ""
-        }<a href="${escapeHtml(graphUrl(center))}">Open in the full graph &rarr;</a>${
+        }<a href="${escapeHtml(graphUrl(center))}">Open this node in the full graph &rarr;</a>${
           hasPageUrl(center)
             ? ` <a class="graph-open-page" href="${escapeHtml(nodeUrl(center))}">Open page</a>`
             : ""
@@ -220,9 +220,11 @@
                 .map(
                   (item) => `
                 <span class="graph-connection">
-                  <a class="graph-connection-main" href="${escapeHtml(graphUrl(item))}">${escapeHtml(
+                  <button type="button" class="graph-connection-main" data-graph-explore="${escapeHtml(
+                    item.id
+                  )}">${escapeHtml(
                     item.label || item.title
-                  )}</a>${
+                  )}</button>${
                     hasPageUrl(item)
                       ? `<a class="graph-connection-page" href="${escapeHtml(nodeUrl(item))}">Open page</a>`
                       : ""
@@ -245,6 +247,16 @@
           opts.onReroll();
         });
       }
+    }
+    if (opts && opts.onExplore) {
+      const linkedById = new Map(linked.map((item) => [item.id, item]));
+      root.querySelectorAll("[data-graph-explore]").forEach((button) => {
+        button.addEventListener("click", (event) => {
+          event.preventDefault();
+          const next = linkedById.get(button.getAttribute("data-graph-explore"));
+          if (next) opts.onExplore(next);
+        });
+      });
     }
 
     const canvas = root.querySelector(".graph-embed-canvas");
@@ -484,7 +496,7 @@
       const rect = canvas.getBoundingClientRect();
       const hit = pick(event.clientX - rect.left, event.clientY - rect.top);
       if (!hit || hit.center) return; // clicking the centre does nothing
-      window.location.href = graphUrl(hit.node);
+      if (opts && opts.onExplore) opts.onExplore(hit.node);
     });
 
     let resizeTimer = null;
@@ -548,15 +560,17 @@
       for (const [id, set] of seen) degreeById.set(id, set.size);
       const currentPageNode = currentNode(graph);
       for (const root of roots) {
-        if (root.hasAttribute("data-graph-random")) {
-          const reroll = () =>
-            render(root, graph, pickRandomCenter(graph, degreeById), degreeById, {
-              random: true,
-              onReroll: reroll,
-            });
-          reroll();
+        const random = root.hasAttribute("data-graph-random");
+        const showNode = (node) =>
+          render(root, graph, node, degreeById, {
+            random,
+            onExplore: showNode,
+            onReroll: random ? () => showNode(pickRandomCenter(graph, degreeById)) : null,
+          });
+        if (random) {
+          showNode(pickRandomCenter(graph, degreeById));
         } else {
-          render(root, graph, currentPageNode, degreeById, { random: false });
+          showNode(currentPageNode);
         }
       }
     })

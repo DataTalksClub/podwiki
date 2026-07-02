@@ -544,7 +544,14 @@ button:focus,
 }
 
 .graph-connection-main {
+  appearance: none;
+  border: 0;
+  background: transparent;
   color: var(--link);
+  cursor: pointer;
+  font: inherit;
+  padding: 0;
+  text-align: left;
   text-decoration: none;
 }
 
